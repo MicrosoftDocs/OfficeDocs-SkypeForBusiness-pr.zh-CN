@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/20/2017
 ---
-<a name="welcome-to-microsoft-teams"></a><span data-ttu-id="bc6df-103">欢迎使用 Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="bc6df-103">Welcome to Microsoft Teams</span></span>
+<a name="welcome-to-microsoft-teams"></a><span data-ttu-id="cfbc9-103">欢迎使用 Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="cfbc9-103">Welcome to Microsoft Teams</span></span>
 ==========================
 
-<span data-ttu-id="bc6df-104">Microsoft Teams 是相当于开放式办公环境的 Office 365 数字化系统。</span><span class="sxs-lookup"><span data-stu-id="bc6df-104">Microsoft Teams is the Office 365 digital equivalent of an open-space office environment.</span></span> 
+<span data-ttu-id="cfbc9-104">Microsoft Teams 是相当于开放式办公环境的 Office 365 数字化系统。</span><span class="sxs-lookup"><span data-stu-id="cfbc9-104">Microsoft Teams is the Office 365 digital equivalent of an open-space office environment.</span></span> 

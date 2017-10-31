@@ -1,0 +1,233 @@
+---
+title: "在使用 Skype for Business 的同时试用 Microsoft Teams"
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdars
+ms.date: 09/25/2017
+ms.topic: article
+ms.service: msteams
+description: "指导在继续使用 Skype for Business 的同时，开始 Microsoft Teams 试点以探索 Teams 可以为贵组织完成的所有事项。"
+Set_Free_Tag: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 4340e3fa6b6ebdaf20105cfa568d17d9d3802b4e
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 09/22/2017
+---
+<a name="pilot-microsoft-teams-alongside-skype-for-business"></a><span data-ttu-id="c2512-103">在使用 Skype for Business 的同时试用 Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c2512-103">Pilot Microsoft Teams alongside Skype for Business</span></span>
+============================================
+
+<span data-ttu-id="c2512-104">作为现有的 Skype for Business 和 Office 365 客户，贵组织已参与了新式工作场所运动，并支持你的用户更具有创造力、创新性以及更富有成效。</span><span class="sxs-lookup"><span data-stu-id="c2512-104">As an existing Skype for Business and Office 365 customer, your organization is already a part of the modern workplace movement, empowering your users to be more creative, innovative, and productive.</span></span> <span data-ttu-id="c2512-105">Microsoft Teams 通过增加的功能（例如，团队合作的协作中心、应用集成和文件存储）进一步扩展了各种可能性。</span><span class="sxs-lookup"><span data-stu-id="c2512-105">Microsoft Teams further expands what’s possible, with added functionality, such as collaboration hubs for teamwork, app integration, and file storage.</span></span> <span data-ttu-id="c2512-106">当你一起利用 Skype for Business 的当前功能以及 Teams 的增值服务时，你即采用了功能强大的通信与协作解决方案，这可以彻底改变用户的工作方式。</span><span class="sxs-lookup"><span data-stu-id="c2512-106">When you bring the current functionality of Skype for Business together with the value-add of Teams, you have a powerful communication and collaboration solution that can revolutionize how users work.</span></span>
+
+<span data-ttu-id="c2512-107">你的 Teams 旅程以及今后发展建议基于你的试点成果。</span><span class="sxs-lookup"><span data-stu-id="c2512-107">Your Teams journey, as well as go-forward recommendations, is based on the outcome of your pilot.</span></span> <span data-ttu-id="c2512-108">虽然你仍在使用 Skype for Business，但我们鼓励你探索 Teams 可以为贵组织完成的所有事项。</span><span class="sxs-lookup"><span data-stu-id="c2512-108">While you continue to utilize Skype for Business, we encourage you explore all that Teams can offer to your organization.</span></span> <span data-ttu-id="c2512-109">由于 Teams 与 Skype for Business 之间存在一些重叠功能，因此务必要先进行用户试点。</span><span class="sxs-lookup"><span data-stu-id="c2512-109">Since there is some overlapping functionality between Teams and Skype for Business, it is important to begin with a user pilot.</span></span> <span data-ttu-id="c2512-110">试点是小规模部署，通过它可以验证在你的环境中与 Skype for Business 的互操作性，以及了解你的最终用户如何能够最大限度地提高其工作效率，同时最大限度地减少并行运行两个产品带来的混乱。</span><span class="sxs-lookup"><span data-stu-id="c2512-110">The pilot, is a small-scale deployment that enables you to validate the interoperability with Skype for Business in your environment as well as understand how your endusers can maximize their productivity while minimizing confusion with both products running side-by-side.</span></span>
+
+<span data-ttu-id="c2512-111">此资源是为当前 Skype for Business 客户定制的，提供了指导和最佳做法，以帮助你开始：</span><span class="sxs-lookup"><span data-stu-id="c2512-111">Tailored for current Skype for Business customers, this resource provides guidance and best practices to start you on your journey to:</span></span>
+
+-   <span data-ttu-id="c2512-112">个性化操作步骤和建议以最好地符合贵组织的情况。</span><span class="sxs-lookup"><span data-stu-id="c2512-112">Personalize the action steps and recommendations to best meet your organizational profile.</span></span>
+
+-   <span data-ttu-id="c2512-113">下载和自定义[试点要素资源](https://go.microsoft.com/fwlink/?linkid=859067)中提供的通信和反馈模板，以确保你的意图得到你的最终用户的回应。</span><span class="sxs-lookup"><span data-stu-id="c2512-113">Download and customize the communication and feedback templates found in the [Pilot Essentials Resources](https://go.microsoft.com/fwlink/?linkid=859067) to ensure your message resonates with your endusers.</span></span>
+
+<a name="get-started"></a><span data-ttu-id="c2512-114">入门</span><span class="sxs-lookup"><span data-stu-id="c2512-114">Get started</span></span>
+===========
+
+<span data-ttu-id="c2512-115">试点旨在确认组织的就绪情况，它是在你进行组织范围的部署之前，对大型规模所需的资源和过程进行实际验证。</span><span class="sxs-lookup"><span data-stu-id="c2512-115">Designed to confirm organizational readiness, a pilot is a realistic validation of the resources and procedures needed on a larger scale prior to your organization-wide rollout.</span></span>  <span data-ttu-id="c2512-116">为了获得最符合实际的结果，试点计划应模拟用户当前通信和协作的方式，从而验证采用 Skype for Business 和 Microsoft Teams 的理想部署方案。</span><span class="sxs-lookup"><span data-stu-id="c2512-116">To achieve the most realistic results, the pilot program should mimic how users communicate and collaborate today, verifying the ideal deployment scenario with Skype for Business and Microsoft Teams.</span></span> <span data-ttu-id="c2512-117">无论贵组织是考虑并行运行 Skype for Business 和 Teams，还是在将来某个时间过渡到 Teams，试点都可以帮助确定适合贵组织的正确前进方向。</span><span class="sxs-lookup"><span data-stu-id="c2512-117">Whether your organization is considering running Skype for Business and Teams side-by-side or transitioning to Teams at a future point in time, a pilot can help identify the right path forward for your organization.</span></span> <span data-ttu-id="c2512-118">*我们开始吧！*</span><span class="sxs-lookup"><span data-stu-id="c2512-118">*Let’s get started!*</span></span>
+
+![](media/pilot_essentials_image3.png)
+
+## <a name="step-one-define-your-pilot-program-logistics"></a><span data-ttu-id="c2512-119">第一步：定义试点计划后勤工作</span><span class="sxs-lookup"><span data-stu-id="c2512-119">Step One: Define your Pilot Program Logistics</span></span>
+
+<span data-ttu-id="c2512-120">正规的试点应定义作为目标的前进方向，并包括一个项目团队、[SMART](https://wikipedia.org/wiki/SMART_criteria) 目标、设定的时间线、明确的测试计划以及反馈机制。</span><span class="sxs-lookup"><span data-stu-id="c2512-120">A formal pilot should define your targeted path forward and include a project team, [SMART](https://wikipedia.org/wiki/SMART_criteria) goals, a set timeline, an articulated test plan, and feedback mechanisms.</span></span> <span data-ttu-id="c2512-121">花时间解决这些问题以帮助概括列出试点计划物流：</span><span class="sxs-lookup"><span data-stu-id="c2512-121">Take time to address these questions to help outline your pilot program logistics:</span></span>
+
+-   <span data-ttu-id="c2512-122">试点的项目利益干系人是谁？</span><span class="sxs-lookup"><span data-stu-id="c2512-122">Who are the project stakeholders for your pilot?</span></span>
+
+    -   <span data-ttu-id="c2512-123">利益干系人应包括对试点成功负有责任的代表。</span><span class="sxs-lookup"><span data-stu-id="c2512-123">Stakeholders should include representatives with accountability for pilot success.</span></span> <span data-ttu-id="c2512-124">下面是一些示例：</span><span class="sxs-lookup"><span data-stu-id="c2512-124">Here are a few examples:</span></span>
+
+        -   <span data-ttu-id="c2512-125">**执行发起人** 全面负责协作和通信解决方案在贵组织中的成功。</span><span class="sxs-lookup"><span data-stu-id="c2512-125">**Executive Sponsor:** Overall accountability for collaboration and communications solutions’ success in your organization.</span></span>
+
+        -   <span data-ttu-id="c2512-126">**项目（试点）主管：** 管理试点的后勤工作，协调利益干系人。</span><span class="sxs-lookup"><span data-stu-id="c2512-126">**Project (Pilot) Lead:** Manages logistics for the pilot, coordinating stakeholders.</span></span>
+
+        -   <span data-ttu-id="c2512-127">**IT 专业人士：** 确保为 Teams 试点完成网络就绪。</span><span class="sxs-lookup"><span data-stu-id="c2512-127">**IT Pro:** Ensures network readiness for your Teams pilot.</span></span>
+
+        -   <span data-ttu-id="c2512-128">**支持主管：** 负责为 Teams 准备好支持。</span><span class="sxs-lookup"><span data-stu-id="c2512-128">**Support Lead:** Accountable for readying the helpdesk for Teams.</span></span>
+
+        -   <span data-ttu-id="c2512-129">**市场营销/沟通主管：** 负责所有认知和培训沟通。</span><span class="sxs-lookup"><span data-stu-id="c2512-129">**Marketing/Communications Lead:** Responsible for all awareness and training communications.</span></span>
+
+<!-- -->
+
+-   <span data-ttu-id="c2512-130">Teams 和 Skype for Business 的业务应用场景是什么？</span><span class="sxs-lookup"><span data-stu-id="c2512-130">What are your business scenarios for Teams and Skype for Business?</span></span>
+
+    -   <span data-ttu-id="c2512-131">使用情况和用例将有助于为你的测试计划提供信息。</span><span class="sxs-lookup"><span data-stu-id="c2512-131">Usage and use cases will help inform your test plan.</span></span> <span data-ttu-id="c2512-132">查看 Skype for Business 的当前[使用情况报告](https://support.office.com/article/Active-user-in-Office-365-usage-reports-093A6D0D-890B-489E-9F46-B15687D3FE4F)和/或以你的 Skype for Business 主要用户为焦点小组来更好地了解其当前协作和通信应用场景。</span><span class="sxs-lookup"><span data-stu-id="c2512-132">Review your current [usage reports](https://support.office.com/article/Active-user-in-Office-365-usage-reports-093A6D0D-890B-489E-9F46-B15687D3FE4F) for Skype for Business and/or conduct a focus group with your top Skype for Business users to better understand their current collaboration and communication scenarios.</span></span>
+
+-   <span data-ttu-id="c2512-133">你是否熟悉 Teams 路线图？</span><span class="sxs-lookup"><span data-stu-id="c2512-133">Are you familiar with the Teams Roadmap?</span></span>
+
+    -   <span data-ttu-id="c2512-134">花时间了解 Teams [路线图](https://go.microsoft.com/fwlink/?linkid=859047)，这有助于为试点的范围和执行时间提供信息。</span><span class="sxs-lookup"><span data-stu-id="c2512-134">Take time to understand the Teams [roadmap](https://go.microsoft.com/fwlink/?linkid=859047), to help inform your scope and timing for your pilot.</span></span> <span data-ttu-id="c2512-135">相应地安排试点和功能/应用场景测试的时间，以确保对在贵组织中的适用性进行实际验证。</span><span class="sxs-lookup"><span data-stu-id="c2512-135">Time your pilot and feature/scenario testing accordingly to ensure realistic validation of applicability within your organization.</span></span>
+
+-   <span data-ttu-id="c2512-136">你的 Teams 试点的目标和成功标准是什么？</span><span class="sxs-lookup"><span data-stu-id="c2512-136">What are your goals and success criteria for your Teams pilot?</span></span>
+
+    -   <span data-ttu-id="c2512-137">设定清晰的目标将提供用于衡量成功和定义最佳前进方向的机制。</span><span class="sxs-lookup"><span data-stu-id="c2512-137">Setting clear goals will provide a mechanism from which to measure success and define your best path forward.</span></span> <span data-ttu-id="c2512-138">[试点要素资源](https://go.microsoft.com/fwlink/?linkid=859067)中提供了目标和成功标准示例。</span><span class="sxs-lookup"><span data-stu-id="c2512-138">Sample goals and success criteria are provided in the [Pilot Essentials Resources](https://go.microsoft.com/fwlink/?linkid=859067).</span></span>
+
+-   <span data-ttu-id="c2512-139">你的试点时间线是什么？</span><span class="sxs-lookup"><span data-stu-id="c2512-139">What is your pilot timeline?</span></span>
+
+    -   <span data-ttu-id="c2512-140">定义试点的明确开始日期和结束日期以保持推进力以及预留时间对影响进行评估。</span><span class="sxs-lookup"><span data-stu-id="c2512-140">Define a clear start and end-date for your pilot to maintain momentum and allow time to assess impact.</span></span> <span data-ttu-id="c2512-141">建议试点至少为 30 天。</span><span class="sxs-lookup"><span data-stu-id="c2512-141">A minimum 30-day pilot is recommended.</span></span> <span data-ttu-id="c2512-142">先从小型试点开始，然后根据情况向试点中添加内容 - 无论是其他工作负荷/功能还是其他用户，并预留时间在重复的过程中评估结果以及调整你的试点。</span><span class="sxs-lookup"><span data-stu-id="c2512-142">Start small and add to your pilot as appropriate – whether additional workloads/features or additional users, making time to assess results and adjust your pilot as you iterate.</span></span> <span data-ttu-id="c2512-143">你甚至可以选择在按路线图发布 Teams 新功能时进行后续试点。</span><span class="sxs-lookup"><span data-stu-id="c2512-143">You may even opt to run subsequent pilots as new Teams’ features are released per the roadmap.</span></span>
+
+
+
+> [!TIP]
+> <span data-ttu-id="c2512-144">应在你的生产环境中进行你的试点以便获得最佳效果。</span><span class="sxs-lookup"><span data-stu-id="c2512-144">Your pilot should be conducted in your production environment for optimal results.</span></span> <span data-ttu-id="c2512-145">在开始你的试点之前，确认已完成所有技术先决条件，例如，你的试点用户可以创建新团队和频道。</span><span class="sxs-lookup"><span data-stu-id="c2512-145">Confirm all technical prerequisites are completed prior to beginning your pilot such as ensuring your pilot users have the ability to create new teams and channels.</span></span>
+
+<table>
+<thead>
+<tr class="header">
+<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
+<td align="left"><span data-ttu-id="c2512-146"><strong>下一步操作：</strong></span><span class="sxs-lookup"><span data-stu-id="c2512-146"><strong>Next Action:</strong></span></span><ul><li><span data-ttu-id="c2512-147">组建你的试点计划团队</span><span class="sxs-lookup"><span data-stu-id="c2512-147">Enlist your pilot program team</span></span></li><li><span data-ttu-id="c2512-148">明确将在你的试点中测试的业务应用场景和功能</span><span class="sxs-lookup"><span data-stu-id="c2512-148">Articulate the business scenarios and features you will test as part of your pilot</span></span></li><li><span data-ttu-id="c2512-149">设定你的成功标准和目标</span><span class="sxs-lookup"><span data-stu-id="c2512-149">Finalize your success criteria and goals</span></span></li><li><span data-ttu-id="c2512-150">制定你的试点时间线</span><span class="sxs-lookup"><span data-stu-id="c2512-150">Establish your pilot timeline</span></span></li></ul></td>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+## <a name="step-two-select-your-pilot-participants"></a><span data-ttu-id="c2512-151">第二步：选择你的试点参与者</span><span class="sxs-lookup"><span data-stu-id="c2512-151">Step Two: Select your Pilot Participants</span></span>
+
+<span data-ttu-id="c2512-152">试点计划最重要的任务之一是仔细选择参与者。</span><span class="sxs-lookup"><span data-stu-id="c2512-152">One of the most important tasks of pilot planning is thoughtful participant selection.</span></span> <span data-ttu-id="c2512-153">理想的试点组包括旨在验证组织要求和功能集预期用途的所有使用场景的典型用户。</span><span class="sxs-lookup"><span data-stu-id="c2512-153">An ideal pilot group includes representative users of all usage scenarios designed to validate the organization's requirements and intended use of feature sets.</span></span>  <span data-ttu-id="c2512-154">这包括来自贵组织中各种角色（行政主管、管理、项目经理、会议高级用户）、不同部门/业务单位以及多个区域（如果适用）的典型用户。</span><span class="sxs-lookup"><span data-stu-id="c2512-154">This includes representatives from a variety of roles within your organization (exec admin, management, project manager, conferencing power users), different departments/business units, multiple regions (if applicable).</span></span> <span data-ttu-id="c2512-155">试点应扩展到 IT、培训和支持部门的关键人员。</span><span class="sxs-lookup"><span data-stu-id="c2512-155">The pilot should extend to key people in IT, training and helpdesk.</span></span>  <span data-ttu-id="c2512-156">这样，可以在全面优化项目管理资源时进行充分验证。</span><span class="sxs-lookup"><span data-stu-id="c2512-156">This allows a thorough validation while fully optimizing project management resources.</span></span>
+
+<span data-ttu-id="c2512-157">为了进行最优验证，请考虑包括大约 2-5% 的用户群，或至少 50 个用户，以最能代表贵组织的情况为准。</span><span class="sxs-lookup"><span data-stu-id="c2512-157">For optimal validation, look to include approximately 2-5% of your user base, or a minimum of 50 users, whichever is most representative of your organization.</span></span> <span data-ttu-id="c2512-158">根据你的试点时间线，你可以选择先从小型试点开始，然后逐渐扩展到其他试点用户。</span><span class="sxs-lookup"><span data-stu-id="c2512-158">Depending on your pilot timeline, you may opt to start small and expand to additional pilot users over time.</span></span>
+
+
+> [!TIP]
+> <span data-ttu-id="c2512-159">选择你的 Teams 试点组参与者时，请务必包括 Skype for Business 的资深采用者和将从 Teams 的团队合作中心功能受益的用户/组。</span><span class="sxs-lookup"><span data-stu-id="c2512-159">When selecting your Teams pilot group participants, be sure to include both high-adopters of Skype for Business as well as users/groups who would benefit from the teamwork hub capabilities of Teams.</span></span> <span data-ttu-id="c2512-160">请考虑在选择试点用户时使用当前跨团队项目工作流程，以及在你的测试计划中使用实际用例。</span><span class="sxs-lookup"><span data-stu-id="c2512-160">Consider using a current cross-team project workstream for pilot user selection as well as a realistic use case for your test plan.</span></span>
+
+<table>
+<thead>
+<tr class="header">
+<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
+<td align="left"><span data-ttu-id="c2512-161"><strong>下一步操作：</strong> 确定你的试点测试组。</span><span class="sxs-lookup"><span data-stu-id="c2512-161"><strong>Next Action:</strong> Identify your pilot test group(s).</span></span></td>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+## <a name="step-three-design-your-test-plan-and-feedback-survey"></a><span data-ttu-id="c2512-162">第三步：设计你的测试计划和反馈调查</span><span class="sxs-lookup"><span data-stu-id="c2512-162">Step Three: Design your Test Plan and Feedback Survey</span></span>
+
+<span data-ttu-id="c2512-163">成功的试点体验可为你的参与者提供要完成的定义清晰的任务以及反馈回路。</span><span class="sxs-lookup"><span data-stu-id="c2512-163">A successful pilot experience provides your participants with clearly defined tasks to complete, along with a feedback loop.</span></span> <span data-ttu-id="c2512-164">贵组织可以选择一次性试用所有功能，也可以采用渐进式方法（例如，先试用协作，然后试用会议，再试用聊天和通话）。预定义的调查是一种轻松获取和评估试点结果的方式，应根据测试计划中的应用场景/功能进行设计。</span><span class="sxs-lookup"><span data-stu-id="c2512-164">Your organization may opt to pilot all functionality at once, or leverage a gradual approach (e.g. collaboration, then meetings, then chat and calling.) A pre-defined survey is an easy way to capture and assess pilot results and should be designed based on the scenarios/features in the test plan.</span></span>
+
+<table>
+<thead>
+<tr class="header">
+<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
+<td align="left"><span data-ttu-id="c2512-165"><strong>下一步操作：</strong> 根据你将测试的用例和功能对<a href="https://go.microsoft.com/fwlink/?linkid=859067">试点要素资源</a>中提供的示例测试计划和反馈调查进行定制。</span><span class="sxs-lookup"><span data-stu-id="c2512-165"><strong>Next Action:</strong> Tailor the sample test plan and feedback survey found in the <a href="https://go.microsoft.com/fwlink/?linkid=859067">Pilot Essentials Resources</a> based on the use cases and features you will be testing.</span></span></td>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+## <a name="step-four-create-your-communications"></a><span data-ttu-id="c2512-166">第四步：建立你的沟通方式</span><span class="sxs-lookup"><span data-stu-id="c2512-166">Step Four: Create your Communications</span></span>
+
+<span data-ttu-id="c2512-167">向你的试点参与者说明发生的情况、何时和为什么以及对他们的要求，这对于试点的成功至关重要。</span><span class="sxs-lookup"><span data-stu-id="c2512-167">Educating your pilot participants on what is happening, when and why, as well as what is expected of them, is crucial to the success of your pilot.</span></span> <span data-ttu-id="c2512-168">要激发热情并最大限度地提高参与率，请务必在与你的试点参与者沟通时传递最终用户价值。</span><span class="sxs-lookup"><span data-stu-id="c2512-168">To drive excitement and maximum participation, be sure to include end-user value messaging when communicating with your pilot participants.</span></span> <span data-ttu-id="c2512-169">此外，请确保你的沟通包括指向培训和支持的链接，用户在参与试点过程中可以在这些地方获取其他信息。</span><span class="sxs-lookup"><span data-stu-id="c2512-169">In addition, be sure your communications include links to training and support where users can get additional information as they progress through the pilot.</span></span>
+
+<table>
+<thead>
+<tr class="header">
+<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
+<td align="left"><span data-ttu-id="c2512-170"><strong>下一步操作：</strong> 根据你将测试的用例和功能对<a href="https://go.microsoft.com/fwlink/?linkid=859067">试点要素资源</a>中提供的示例电子邮件模板进行自定义。</span><span class="sxs-lookup"><span data-stu-id="c2512-170"><strong>Next Action:</strong> Customize the sample email templates found in the <a href="https://go.microsoft.com/fwlink/?linkid=859067">Pilot Essentials Resources</a> based on the use cases and features you will be testing.</span></span></td>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+## <a name="step-five-conduct-your-pilot"></a><span data-ttu-id="c2512-171">第五步：进行试点</span><span class="sxs-lookup"><span data-stu-id="c2512-171">Step Five: Conduct your Pilot</span></span> 
+
+<span data-ttu-id="c2512-172">所有后期工作就位后，现在可以开始你的试点。</span><span class="sxs-lookup"><span data-stu-id="c2512-172">With all the logistics in place, you are now ready to begin your pilot.</span></span> <span data-ttu-id="c2512-173">进行试点包括向你的试点用户传递信息、监控你的网络/使用情况以确保你的网络和质量保持正常状况、收集来自参与者的反馈以及检查支持票证来了解与 Teams 有关的问题。</span><span class="sxs-lookup"><span data-stu-id="c2512-173">Conducting your pilot includes communicating to your pilot users, monitoring your network/usage to ensure your network and quality remains healthy, gathering feedback from participants, and reviewing help desk tickets for questions related to Teams.</span></span>
+
+<span data-ttu-id="c2512-174">下面提供了基于 30 天试点的建议时间线：</span><span class="sxs-lookup"><span data-stu-id="c2512-174">A suggested timeline based on a 30-day pilot is provided below:</span></span>
+
+-   <span data-ttu-id="c2512-175">试点启动之前一周：向试点用户发送初步沟通信息</span><span class="sxs-lookup"><span data-stu-id="c2512-175">One week prior to Pilot kick off: Send initial communication to pilot users</span></span>
+
+-   <span data-ttu-id="c2512-176">第 1 天：向试点用户发送启动沟通信息</span><span class="sxs-lookup"><span data-stu-id="c2512-176">Day 1: Send kick-off communication to pilot users</span></span>
+
+-   <span data-ttu-id="c2512-177">第 7 天：每周项目团队检查点（与你的试点项目团队会面，检查用户反馈、使用情况数据、网络数据和支持票证以确保你的试点进展顺利。</span><span class="sxs-lookup"><span data-stu-id="c2512-177">Day 7: Weekly project team check-point (Meet with your pilot project team and review user feedback, usage data, network data and help desk tickets to ensure your pilot is running smoothly.</span></span> <span data-ttu-id="c2512-178">根据需要进行任何调整）</span><span class="sxs-lookup"><span data-stu-id="c2512-178">Make any adjustments as needed)</span></span>
+
+-   <span data-ttu-id="c2512-179">第 14 天：向你的试点用户发送中点沟通信息，每周项目团队检查点</span><span class="sxs-lookup"><span data-stu-id="c2512-179">Day 14: Send mid-point communication to your pilot users, weekly project team check-point</span></span>
+
+-   <span data-ttu-id="c2512-180">第 21 天：每周项目团队检查点</span><span class="sxs-lookup"><span data-stu-id="c2512-180">Day 21: Weekly project team check-point</span></span>
+
+-   <span data-ttu-id="c2512-181">第 30 天：向试点用户发送最终沟通信息</span><span class="sxs-lookup"><span data-stu-id="c2512-181">Day 30: Send final communication to your pilot users</span></span>
+
+<table>
+<thead>
+<tr class="header">
+<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
+<td><p><span data-ttu-id="c2512-182"><strong>下一步操作：</strong> 根据你的试点时间线定制时间线操作。</span><span class="sxs-lookup"><span data-stu-id="c2512-182"><strong>Next Action:</strong> Tailor the timeline actions based on your pilot timeline.</span></span></p></td>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+## <a name="step-six-assess-learnings-and-evaluate-go-forward-plan"></a><span data-ttu-id="c2512-183">第六步：评估试点结果及制定今后发展计划</span><span class="sxs-lookup"><span data-stu-id="c2512-183">Step Six: Assess Learnings and Evaluate Go-Forward Plan</span></span>
+
+<span data-ttu-id="c2512-184">完成试点后，应收集所有反馈调查、最终网络统计信息和支持票证，以针对你的目标进行分析，以及确定今后发展计划。</span><span class="sxs-lookup"><span data-stu-id="c2512-184">Once your pilot is complete, it’s time to gather all feedback surveys, final network stats and support tickets for analysis against your goals and determination of your go-forward plan.</span></span>
+
+<span data-ttu-id="c2512-185">根据你的成果，下面提供了你继续从 Skype for Business 到 Teams 的旅程中贵组织可能采取的一些建议方式：</span><span class="sxs-lookup"><span data-stu-id="c2512-185">Based on your outcomes, here are a few recommended paths your organization may take as you continue your journey from Skype for Business to Teams:</span></span>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left"><span data-ttu-id="c2512-186">今后发展建议</span><span class="sxs-lookup"><span data-stu-id="c2512-186">Go Forward Recommendations</span></span></th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><span data-ttu-id="c2512-187"><strong>如果</strong>你的试点结果表明</span><span class="sxs-lookup"><span data-stu-id="c2512-187"><strong>IF</strong> your pilot results indicate</span></span></td>
+<td align="left"><span data-ttu-id="c2512-188"><strong>那么</strong>你可能考虑</span><span class="sxs-lookup"><span data-stu-id="c2512-188"><strong>THEN</strong> you might consider</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><ul><li><span data-ttu-id="c2512-189">80% 或更高比例的用户认同可以轻松地与 Skype for Business 一起利用 Teams</span><span class="sxs-lookup"><span data-stu-id="c2512-189">80% or higher agree that Teams can be easily utilized alongside Skype for Business</span></span></li>
+<br><span data-ttu-id="c2512-190">-以及-</span><span class="sxs-lookup"><span data-stu-id="c2512-190">and</span></span><br><br>
+<li><span data-ttu-id="c2512-191">根据当前用例和应用场景，低于 80% 的用户认同 Teams 可以替代 Skype for Business</span><span class="sxs-lookup"><span data-stu-id="c2512-191">Less than 80% user agreement that Teams can replace Skype for Business based on current use cases and scenarios</span></span></li>
+<br><span data-ttu-id="c2512-192">-以及-</span><span class="sxs-lookup"><span data-stu-id="c2512-192">and</span></span><br><br>
+<li><span data-ttu-id="c2512-193">网络运行状况令人满意</span><span class="sxs-lookup"><span data-stu-id="c2512-193">Satisfactory network health</span></span></li></ul></td>
+<td align="left"><p><span data-ttu-id="c2512-194">对于某些/所有可用应用场景并行部署 Teams 和 Skype for Business。</span><span class="sxs-lookup"><span data-stu-id="c2512-194">Deploying Teams and Skype for Business side-by-side for some/all available scenarios.</span></span> <span data-ttu-id="c2512-195">为了推动了解过程，我们强烈建议逐渐部署功能，而不是采用一次性全部完成的方法。</span><span class="sxs-lookup"><span data-stu-id="c2512-195">To facilitate the learning curve, we strongly encourage rolling out features over time, in lieu of an all-at-once approach.</span></span></p>
+<p><span data-ttu-id="c2512-196">详细了解[并行运行 Skype for Business 和 Teams](guidance-SkypeforBusiness.md)。</span><span class="sxs-lookup"><span data-stu-id="c2512-196">Learn more about [running Skype for Business and Teams side-by-side](guidance-SkypeforBusiness.md).</span></span></p>
+<p><span data-ttu-id="c2512-197">下载<a href="https://go.microsoft.com/fwlink/?linkid=859044">用户就绪模板</a>以协助与你的最终用户就其全新的并行体验进行沟通。</span><span class="sxs-lookup"><span data-stu-id="c2512-197">Download <a href="https://go.microsoft.com/fwlink/?linkid=859044">user readiness templates</a> to facilitate communication with your end-users about their new side-by-side experience.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td align="left"><ul><li><span data-ttu-id="c2512-198">根据当前用例和应用场景，80% 或更高比例的用户认同 Teams 可以替代 Skype for Business</span><span class="sxs-lookup"><span data-stu-id="c2512-198">80% or higher user agreement that Teams can replace Skype for Business based on current use cases and scenarios</span></span></li>
+<br><span data-ttu-id="c2512-199">-以及-</span><span class="sxs-lookup"><span data-stu-id="c2512-199">and</span></span><br><br>
+<li><span data-ttu-id="c2512-200">网络运行状况令人满意</span><span class="sxs-lookup"><span data-stu-id="c2512-200">Satisfactory network health</span></span></li></ul></td>
+<td align="left"><p><span data-ttu-id="c2512-201">对于所有应用场景并行部署 Teams 和 Skype for Business，鼓励用户尽可能优先使用 Teams。</span><span class="sxs-lookup"><span data-stu-id="c2512-201">Deploying Teams and Skype for Business side-by-side for all scenarios, encouraging users to lead with Teams where feasible.</span></span> <span data-ttu-id="c2512-202">此外，联系你的帐户团队或 Microsoft 支持以让他们了解贵组织可能准备转为使用 Teams。</span><span class="sxs-lookup"><span data-stu-id="c2512-202">In addition, reach out to your account team or Microsoft Support to let them know your organization may be ready to go to Teams.</span></span></p>
+<p><span data-ttu-id="c2512-203">详细了解[并行运行 Skype for Business 和 Teams](guidance-SkypeforBusiness.md)。</span><span class="sxs-lookup"><span data-stu-id="c2512-203">Learn more about [running Skype for Business and Teams side-by-side](guidance-SkypeforBusiness.md).</span></span></p>
+<p><span data-ttu-id="c2512-204">下载<a href="https://go.microsoft.com/fwlink/?linkid=859044">用户就绪模板</a>以协助与你的用户就其全新的并行体验进行沟通。</span><span class="sxs-lookup"><span data-stu-id="c2512-204">Download <a href="https://go.microsoft.com/fwlink/?linkid=859044">user readiness templates</a> to facilitate communication with your users about their new side-by-side experience.</span></span></p></td>
+</tr>
+<tr class="even">
+<td align="left"><ul><li><span data-ttu-id="c2512-205">低于 80% 的用户认同可以轻松地与 Skype for Business 一起利用 Teams</span><span class="sxs-lookup"><span data-stu-id="c2512-205">Less than 80% agree that Teams can be easily utilized alongside Skype for Business</span></span></li>
+<br><span data-ttu-id="c2512-206">-以及-</span><span class="sxs-lookup"><span data-stu-id="c2512-206">and</span></span><br><br>
+<li><span data-ttu-id="c2512-207">根据当前用例和应用场景，低于 80% 的用户认同 Teams 可以替代 Skype for Business</span><span class="sxs-lookup"><span data-stu-id="c2512-207">Less than 80% user agreement that Teams can replace Skype for Business based on current use cases and scenarios</span></span></li></ul></td>
+<td align="left"><span data-ttu-id="c2512-208">继续使用 Skype for Business 进行通信（例如，即时消息、会议、通话），同时利用 Teams 的新式协作功能（例如，团队/频道）。</span><span class="sxs-lookup"><span data-stu-id="c2512-208">Continuing with Skype for Business for communication (e.g. IM, Meetings, Calling) while utilizing the modern collaboration functionality (e.g., Teams/Channels) of Teams.</span></span> <span data-ttu-id="c2512-209">按<a href="https://go.microsoft.com/fwlink/?linkid=859047">路线图</a>发表新功能时，重审 Teams 试点以验证通信功能。</span><span class="sxs-lookup"><span data-stu-id="c2512-209">Revisit a Teams pilot to verify communications functionality as new features are released per <a href="https://go.microsoft.com/fwlink/?linkid=859047">roadmap.</a></span></span></td>
+</tr>
+</tbody>
+</table>
+
+
+> [!NOTE]
+> <span data-ttu-id="c2512-210">请务必利用你的试点参与者作为[支持者](https://go.microsoft.com/fwlink/?linkid=859068)，以协助向新用户推行 Teams 以及使新用户上手使用 Teams。</span><span class="sxs-lookup"><span data-stu-id="c2512-210">Be sure to leverage your pilot participants as [Champions](https://go.microsoft.com/fwlink/?linkid=859068) to help evangelize and onboard new users to Teams.</span></span>
+
+<table>
+<thead>
+<tr class="header">
+<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
+<td align="left">
+<p><span data-ttu-id="c2512-211"><strong>下一步操作：</strong></span><span class="sxs-lookup"><span data-stu-id="c2512-211"><strong>Next Actions:</strong></span></span></p><ul><li><span data-ttu-id="c2512-212">分析你的试点结果和确定前进方向。</span><span class="sxs-lookup"><span data-stu-id="c2512-212">Analyze your pilot learnings and determine your path forward.</span></span> <span data-ttu-id="c2512-213">如果你选择与 Skype for Business 一起部署 Teams，请务必利用[用户就绪模板](https://go.microsoft.com/fwlink/?linkid=859044)以帮助你开始。</span><span class="sxs-lookup"><span data-stu-id="c2512-213">If you opt to deploy Teams alongside Skype for Business, be sure to leverage the [user readiness templates](https://go.microsoft.com/fwlink/?linkid=859044) to help get your started.</span></span></li><li><span data-ttu-id="c2512-214">查看 [Teams 路线图](https://go.microsoft.com/fwlink/?linkid=859047)并将其设为书签。</span><span class="sxs-lookup"><span data-stu-id="c2512-214">View and bookmark the [Teams roadmap](https://go.microsoft.com/fwlink/?linkid=859047).</span></span></li>
+<li><span data-ttu-id="c2512-215">一旦你的试点结果表明用户接受使用 Teams，请[为贵组织并行启用 Teams](continue-journey.md)。</span><span class="sxs-lookup"><span data-stu-id="c2512-215">Once your pilot results indicate users are ready for Teams, [Enable Teams side-by-side for your organization](continue-journey.md).</span></span></li></ul></td>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+
+
+
