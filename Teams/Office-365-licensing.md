@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解不同的 Office 365 许可证、哪些许可证支持用户使用 Microsoft Teams 以及如何启用或禁用它。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d3c49ab67d3f3b80f8501941a2223b7a4435f514
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: bb78ffd86183ae35800fc709ad74df691a43a4e8
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>适用于 Microsoft Teams 的 Office 365 许可
 ========================================
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/22/2017
 
 |||
 |---------|---------|
-|![](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image1.png)<br></br>注意     |Microsoft Teams 也适用于非盈利组织。 当前不支持政府许可，但正在调查以便将来支持。         |
+|![注意图标。](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image1.png)<br></br>注意     |Microsoft Teams 也适用于非盈利组织。 当前不支持政府许可，但正在调查以便将来支持。         |
         
 
 
@@ -45,6 +45,6 @@ Microsoft Teams 不作为独立服务提供。
 
 默认情况下，对于通过符合条件的 Office 365 订阅分配的所有用户，均启用 Microsoft Teams 许可证。
 
-![](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image2.png)
+![Office 365 管理中心中的许可证部分中的设置屏幕截图，显示 Microsoft Teams 为“开启”状态。](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image2.png)
 
 可以为整个组织启用或禁用 Microsoft Teams，默认情况下启用。 **你不能仅对组织的一部分禁用 Microsoft Teams。** 如果组织打算挑选一组用户试用 Microsoft Teams，同时主动限制其他用户访问 Microsoft Teams，则必须对不属于试点组的所有用户禁用 Microsoft Teams 许可证。

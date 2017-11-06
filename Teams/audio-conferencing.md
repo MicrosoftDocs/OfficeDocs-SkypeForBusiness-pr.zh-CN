@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "在 Microsoft Teams 中部署音频会议实践指导"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 5442f5bf11540f5429566bc683afaeb3a24ff4ac
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: c6791646b58111a9785430b6541c57972a15ab20
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的音频会议
 =====================================
@@ -484,7 +484,7 @@ _表 5 风险计划示例_
 <td align="left">TBA</td>
 </tr>
 <tr class="even">
-<td align="left">客户端和终结点团队</td>
+<td align="left">客户端&amp;和终结点团队</td>
 <td align="left">管理桌面部署</td>
 <td align="left">TBA</td>
 <td align="left">TBA</td>
@@ -754,7 +754,7 @@ _表 8 音频会议组织者的许可证分配列表示例_
 <thead>
 <tr class="header">
 <th align="left">触发数额</th>
-<td align="left">$ 400</td>
+<td align="left">$400</td>
 </tr>
 <tr class="header">
 <th align="left">自动充值数额</th>
@@ -1098,7 +1098,7 @@ _表 12 会议桥接设置分配示例_
 
 分配给用户的有效拨号计划是服务拨号计划（基于用户的 Office 365 使用位置）和租户拨号计划（可以是租户-全局拨号计划或租户-用户拨号计划）的组合。
 
-![](media/audio_conferencing_image8.png)
+![此表显示服务和租户拨号计划的三种组合。](media/audio_conferencing_image8.png)
 
 每个租户拨号计划中最多可以有 25 个规范化规则，因此，需要避免重复出现已作为服务拨号计划的一部分提供的规范化规则。
 

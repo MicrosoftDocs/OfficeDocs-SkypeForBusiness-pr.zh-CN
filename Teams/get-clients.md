@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解如何使用支持 Microsoft Teams 的各种客户端，包括 Web、桌面（Windows 和 Mac）和移动（Android、iOS 和 Windows Phone）。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a23ae445392ee4a122c9b749f1bb0175fab44c11
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 6a1dea833a96781ae89ffb8f822e96b3e8636371
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================
@@ -41,7 +41,7 @@ Microsoft Teams 支持以下浏览器和版本：
 
 | | |
 |---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image1.png)<br></br>重要提示     |尚不支持 Safari，但不久以后将会支持。         |
+|![重要提示图标。](media/Get_clients_for_Microsoft_Teams_image1.png)<br></br>重要提示     |尚不支持 Safari，但不久以后将会支持。         |
 
 <a name="desktop-clients"></a>桌面客户端
 ------------------------
@@ -57,7 +57,7 @@ IT 管理员可以选择其首选方法将安装文件分发到其组织中的�
 
 | | |
 |---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>注意    |通过这些机制分发客户端仅适用于初次安装 Microsoft Team 客户端，不适用于将来更新。         |
+|![注意图标。](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>注意    |通过这些机制分发客户端仅适用于初次安装 Microsoft Team 客户端，不适用于将来更新。         |
 
 #### <a name="windows"></a>Windows
 
@@ -65,7 +65,7 @@ IT 管理员可以选择其首选方法将安装文件分发到其组织中的�
 
 | | |
 |---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>注意    |安装的 Office 的体系结构不限制 Microsoft Teams 的体系结构（32 位和 64 位）。        |
+|![注意图标。](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>注意    |安装的 Office 的体系结构不限制 Microsoft Teams 的体系结构（32 位和 64 位）。        |
 
 Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。 部署到用户的本地配置文件后，无需提升的权限即可安装客户端。 Windows 客户端安装在以下位置：
 
@@ -75,11 +75,11 @@ Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。
 
 用户首次使用 Microsoft Teams 客户端启动呼叫时，他们可能会注意到有关 Windows 防火墙设置的警告，要求用户允许通信。 可以指示用户忽略此消息，因为即使忽略此警告，也可以进行呼叫。
 
-![](media/Get_clients_for_Microsoft_Teams_image3.png)
+![Windows 安全警报对话框屏幕截图。](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 | | |
 |---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>注意    |即使选择“取消”忽略该提示，也将会更改 Windows 防火墙配置。 将会创建两条针对 teams.exe 的入站规则，操作是阻止 TCP 和 UDP 协议。        |
+|![注意图标。](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>注意    |即使选择“取消”忽略该提示，也将会更改 Windows 防火墙配置。 将会创建两条针对 teams.exe 的入站规则，操作是阻止 TCP 和 UDP 协议。        |
 
 #### <a name="mac"></a>Mac
 
@@ -105,8 +105,8 @@ Microsoft Teams 移动应用的支持移动平台如下：
 
 | | | |
 |---------|---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image4.png)      |决策点         |是否存在阻止用户在其设备上安装合适 Microsoft Teams 客户端的任何限制？         |
-|![](media/Get_clients_for_Microsoft_Teams_image5.png)     |后续步骤         |如果贵组织限制软件安装，请确保 Microsoft Teams 不会受到阻止。 注意：PC 客户端安装不需要管理权限，但在 Mac 上安装需要。         |
+|![决策点图标。](media/Get_clients_for_Microsoft_Teams_image4.png)      |决策点         |是否存在阻止用户在其设备上安装合适 Microsoft Teams 客户端的任何限制？         |
+|![后续步骤图标。](media/Get_clients_for_Microsoft_Teams_image5.png)     |后续步骤         |如果贵组织限制软件安装，请确保 Microsoft Teams 不会受到阻止。 注意：PC 客户端安装不需要管理权限，但在 Mac 上安装需要。         |
 
 
   <span id="_Hlk477176062" class="anchor"></span>  决策点   是否存在阻止用户在其设备上安装合适 Microsoft Teams 客户端的任何限制？
@@ -126,4 +126,4 @@ Microsoft Teams 移动应用的支持移动平台如下：
 
 当前，未提供选项允许 IT 管理员配置客户端通知设置。 所有通知选项均由用户设置。 下图概括显示了默认客户端设置。
 
-![](media/Get_clients_for_Microsoft_Teams_image6.png)
+![“通知设置”屏幕截图。](media/Get_clients_for_Microsoft_Teams_image6.png)

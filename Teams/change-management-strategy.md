@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解如何通过确定推行活动的关键利益干系人、业务成果、成功量度标准和管理，为 Microsoft Teams 制定变更管理策略。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 97f835f60777b5c6c907790fabc76dfaeeb1e268
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: faa2bf8247c4b4a3fc8827011423f8205e5c6b35
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>为 Microsoft Teams 制定变更管理策略
 =======================================================
@@ -48,16 +48,16 @@ ms.lasthandoff: 09/22/2017
 
 |  |  |
 |---------|---------|
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**执行发起人**是组织中的关键领导者，在推动员工采用过程中，他们的参与必不可少。 他们对公司文化的影响最大，可以积极传达新技术和方式的价值和优势。         |
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**服务所有者**负责确保大家使用服务并从中获得价值。 在贵组织中安排服务所有者对于确保实现针对 Office 365 设定的业务目标而言非常重要。         |
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |得到组织中每个用户的认可是一项挑战。 **支持者**可以帮助化解此挑战，并在采用 Office 365 的过程中起到重要作用。 他们拥有丰富的知识、积极充实其专业知识且愿意提供同伴指导和协助。 他们会帮助在其部门或团队中实施 Office 365。         |
+|![执行发起人图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**执行发起人**是组织中的关键领导者，在推动员工采用过程中，他们的参与必不可少。 他们对公司文化的影响最大，可以积极传达新技术和方式的价值和优势。         |
+|![服务所有者图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**服务所有者**负责确保大家使用服务并从中获得价值。 在贵组织中安排服务所有者对于确保实现针对 Office 365 设定的业务目标而言非常重要。         |
+|![支持者图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |得到组织中每个用户的认可是一项挑战。 **支持者**可以帮助化解此挑战，并在采用 Office 365 的过程中起到重要作用。 他们拥有丰富的知识、积极充实其专业知识且愿意提供同伴指导和协助。 他们会帮助在其部门或团队中实施 Office 365。         |
 
 我们建议与这些利益干系人定期召开会议，使其及时了解你的计划的进度。 成立“协作委员会”来收集反馈和进行讨论，这可能是一种很有用的方式，具体取决于你的公司文化。
 
 
 |  |  |
 |---------|---------|
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>提示    |在这种情况的部署中，可能是变更的最大障碍的那些人可能会成为你最佳盟友。 我们鼓励你提早与贵组织的这些成员交流，经常倾听他们的顾虑和问题。 通常，他们会有宝贵的反馈，这些反馈将会使你的推行活动更加成功。         |
+|![提示图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>提示    |在这种情况的部署中，可能是变更的最大障碍的那些人可能会成为你最佳盟友。 我们鼓励你提早与贵组织的这些成员交流，经常倾听他们的顾虑和问题。 通常，他们会有宝贵的反馈，这些反馈将会使你的推行活动更加成功。         |
 
 <a name="user-profiles"></a>用户分布
 -------------
@@ -71,7 +71,7 @@ ms.lasthandoff: 09/22/2017
 
 确定可以成为你的协作支持者的个人将为你的实施准备扩充支持团队。 创建一个社区，提早为他们提供见解，他们为你的计划提供反馈。 你在此社区中所做的任何投入，无论是时间、精力还是奖励，都将以他们的支持和热情回报到你的实施中。
 
-![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image5.png)
+![支持者可以采取的操作图表。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image5.png)
 
 要了解如何制定支持者计划，请获取[制定支持者计划](https://go.microsoft.com/fwlink/?linkid=854665)。
 

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解如何在 Microsoft Teams 中分配团队所有者和成员角色，包括创建团队的权限。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1ccb0ff3216464aca5a17c3bebeb0e259929e798
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 086f054ff5af2326d106ce5c2088a50106a76462
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>在 Microsoft Teams 中分配角色和权限
 ===============================================
@@ -40,7 +40,7 @@ ms.lasthandoff: 09/22/2017
 
 | | |
 |---------|---------|
-|![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>注意     |所有者可以在“查看团队”选项中将其他成员设为所有者。 一个团队最多可以有 10 个所有者。         |
+|![灯泡图标。](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>注意     |所有者可以在“查看团队”选项中将其他成员设为所有者。 一个团队最多可以有 10 个所有者。         |
 
 <a name="permissions-to-create-teams"></a>创建团队的权限
 ---------------------------
@@ -89,5 +89,5 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
 ||||
 |---------|---------|---------|
-| ![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |决策点         |是否所有 Microsoft Teams 用户都将能够创建团队（建议）？         |
-| ![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |后续步骤         |如果你需要限制可以创建团队的人员，请修改可以创建 Office 365 组的人员的默认权限         |
+| ![决策点图标。](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |决策点         |是否所有 Microsoft Teams 用户都将能够创建团队（建议）？         |
+| ![后续步骤图标。](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |后续步骤         |如果你需要限制可以创建团队的人员，请修改可以创建 Office 365 组的人员的默认权限         |

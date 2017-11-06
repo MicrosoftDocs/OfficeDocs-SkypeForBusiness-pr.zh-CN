@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解 Office 365 组和组成员身份与 Microsoft Teams 如何配合使用"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: de8e4298345145c8caf9d03397cf026187b11c29
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 45a3607778d87e1de075468101a9f7e1a081688e
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 组和 Microsoft Teams
 =====================================
@@ -28,7 +28,7 @@ Office 365 管理员可以定义 Office 365 组、添加成员以及利用 Excha
 
 |||
 |---------|---------|
-|  ![](media/Understand_Office_365_groups_and_Microsoft_Teams_image1.png) 注意    |删除 Office 365 组将删除持久 Outlook/OWA 对话和 Teams 会议邀请的邮箱别名，以及将 SharePoint 网站标记为删除。 从删除团队到在 Outlook 中生效大约需要 20 分钟。 从 Teams 客户端删除团队将从属于团队成员的所有用户的视图中立即删除该团队。 如果删除已启用了 Teams 功能的 Office 365 组的成员，可能会延迟大约一小时从已被删除的受影响用户的 Teams 客户端上视图中删除该团队。         |
+|  ![注意图标。](media/Understand_Office_365_groups_and_Microsoft_Teams_image1.png) 注意    |删除 Office 365 组将删除持久 Outlook/OWA 对话和 Teams 会议邀请的邮箱别名，以及将 SharePoint 网站标记为删除。 从删除团队到在 Outlook 中生效大约需要 20 分钟。 从 Teams 客户端删除团队将从属于团队成员的所有用户的视图中立即删除该团队。 如果删除已启用了 Teams 功能的 Office 365 组的成员，可能会延迟大约一小时从已被删除的受影响用户的 Teams 客户端上视图中删除该团队。         |
 
 
 <a name="group-membership"></a>组成员身份

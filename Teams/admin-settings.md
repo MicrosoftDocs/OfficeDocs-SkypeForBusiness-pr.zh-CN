@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解如何在 Microsoft Teams 中允许和启用应用，包括侧向加载外部应用。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 19ed683382cd06d0b0c33686391e012f35f35fc4
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 33907b6e63d621bb0de48b38161d75f08c6dda4e
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams 中适用于应用的管理设置
 ==========================================
@@ -37,4 +37,4 @@ ms.lasthandoff: 09/22/2017
 
 要详细了解如何向 Microsoft Teams 中侧向加载应用，请参阅：[在团队中侧向加载应用](https://go.microsoft.com/fwlink/?linkid=854631)。
 
-![](media/Admin_settings_for_apps_in_Microsoft_Teams_image1.png)
+![Microsoft Teams 设置的“应用”部分屏幕截图。](media/Admin_settings_for_apps_in_Microsoft_Teams_image1.png)

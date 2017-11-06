@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解你需要执行电子数据展示时（例如，你需要提交所有电子方式存储的信息用于法律程序时）要完成的事项。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 52827781811e991df30250adb353ba90a7b333d6
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: c9650604a65975058d10e2ca73eaadc985c73495
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 ============================
@@ -26,7 +26,6 @@ ms.lasthandoff: 09/22/2017
 2.  Microsoft Teams 数据将以**即时消息或对话**形式显示在 Excel 输出中，或者你可以在 Outlook 中装载 **.PST**。
 
     a.  装载团队的 .PST 时，请注意，所有对话均保留在“对话历史记录”下的“团队聊天”文件夹中。 消息的标题与团队和频道一致。 如下图所示，你可以看到 Bob 在 Manufacturing Specs 团队的“Project 7”频道中发送的此消息。
-
-![](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+![Outlook 中用户邮箱中的“团队聊天”文件夹屏幕截图。](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
 3.  要查看某个用户的邮箱中的私人聊天，也在“对话历史记录”下的“团队聊天”文件夹中找到它们。

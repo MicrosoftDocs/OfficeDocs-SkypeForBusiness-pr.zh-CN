@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解如何从审核日志检索 Microsoft Teams 数据。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 558db88d32229fcaef70ea5278d7437fbea92198
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 90de6c2267eb2828f2f681287d4b43c001d0ceb4
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 ==================================================
@@ -34,9 +34,9 @@ Office 365 中的完整事件列表相当广泛，请参阅[此处](https://supp
 
 | |  |
 |---------|---------|
-|![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>重要提示     |只能在启用了审核的点获取审核数据。         |
+|![安全性和合规性中心主页屏幕截图。](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>重要提示     |只能在启用了审核的点获取审核数据。         |
 
-![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image2.png)
+![安全性和合规性中心的“审核日志搜索”页面屏幕截图。](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image2.png)
 
 现在，我们来看看如何从审核日志检索 Microsoft Teams 数据：
 
@@ -44,7 +44,7 @@ Office 365 中的完整事件列表相当广泛，请参阅[此处](https://supp
 
     a.  Microsoft Teams 已定义可以选择的审核活动，如下所示。
 
-![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
+![安全性和合规性中心的“审核日志搜索”页面屏幕截图。](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
 
 2.  选择感兴趣的活动后，提供要基于其检索 Microsoft Teams 信息的日期范围和用户。 单击**“搜索”**检索结果。
 
@@ -53,4 +53,4 @@ Office 365 中的完整事件列表相当广泛，请参阅[此处](https://supp
 
 |  | |
 |---------|---------|
-|![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>重要提示 |如果以前未启用审核，则需要将其启用，数据才会显示在审核日志中。         |
+|![感叹号图标。](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>重要提示 |如果以前未启用审核，则需要将其启用，数据才会显示在审核日志中。         |

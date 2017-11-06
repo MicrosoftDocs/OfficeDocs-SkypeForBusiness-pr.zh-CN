@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解 SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互，例如，如何存储私人聊天文件，以及团队、频道和文档库之间的关系。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: cf971714c1ad3b797c181f982ea8688bf8c73977
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 1ea55116faa7a998a3b2db0828972424ce3acef8
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互
 =============================================================================
@@ -29,8 +29,8 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 
 对于每个团队，创建 SharePoint 网站后，会为团队创建默认文件夹*共享文档*。 包括每个团队的默认频道**“常规”**频道在内的每个频道在*共享文档*文件夹下都有一个文件夹。
 
-![](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
+![某个团队的 SharePoint Online 中的“共享文档”文件夹及其在 Microsoft Teams 中的频道示意图。](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 
 对于每个用户，OneDrive 文件夹 *Microsoft Teams 聊天文件*用于存储私人聊天中与其他用户共享（一对一或一对多）的所有文件，且自动配置权限以限制仅目标用户可以访问这些文件。
 
-![](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
+![用于每个用户聊天的 OneDrive 文件夹（名为 Microsoft Teams Chat Files）示意图。](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)

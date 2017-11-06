@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解如何使用内置选项卡和自定义选项卡来包括对话、文件、地图等功能。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 2ba0e5d8897b7c77aa4fd9c319c9a77fcf2129b9
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 377ad8a0746d958e3a7a3341cce3773e9bd122f9
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>在 Microsoft Teams 中使用内置选项卡和自定义选项卡
 ==================================================
@@ -23,13 +23,13 @@ ms.lasthandoff: 09/22/2017
 
 -   文件
 
-![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
+![Marketing 团队的“对话”部分屏幕截图。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
 
 1.  所有者和团队成员可以向每个频道添加其他选项卡，以帮助集成其云服务。
 
 2.  Excel、PowerPoint、Word 和 PDF 必须先上载到**“文件”选项卡**，然后才能转换为选项卡。 此外，只需单击一次即可将已上载的任何现有文件转换为选项卡，如下所示。
 
-    ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
+    ![选择了一个 PowerPoint 文件的“文件”选项卡屏幕截图。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
 3.  要添加网站，URL 必须以 **https 前缀**开头，以使交换的任何信息保持安全。
 
@@ -37,11 +37,11 @@ ms.lasthandoff: 09/22/2017
 
 5.  向频道添加自定义选项卡时，系统会创建一个**选项卡对话**，允许团队成员就内容展开重点讨论。
 
-    ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
+    ![窗口右侧有对话选项卡的自定义选项卡屏幕截图。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
 6.  可以向频道添加其他选项卡，以帮助用户轻松访问和管理其所需的数据或通过最新方式进行交互。 这可以是 Power BI 报表、仪表板，甚至可以是 [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) 视频频道，你可以在此发布培训视频。
 
-    ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
+    ![三个显示选项卡中各种内容的屏幕截图。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
 <a name="develop-custom-tabs"></a>开发自定义选项卡
 -------------------
@@ -50,4 +50,4 @@ ms.lasthandoff: 09/22/2017
 
 Microsoft Developer Network 提供了[详细说明](https://go.microsoft.com/fwlink/?linkid=855786)来指导如何设计和构建你自己的选项卡，以及下载和部署 Microsoft 开发的[示例选项卡](https://go.microsoft.com/fwlink/?linkid=855787)。
 
-![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
+![Microsoft Teams 中的示例自定义选项卡屏幕截图。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)

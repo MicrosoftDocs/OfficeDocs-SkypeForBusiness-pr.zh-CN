@@ -1,0 +1,58 @@
+---
+title: "Microsoft Teams 部署概述 | Microsoft 支持"
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdars
+ms.date: 09/25/2017
+ms.topic: article
+ms.service: msteams
+description: "了解如何部署 Microsoft Teams。"
+Set_Free_Tag: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 3ed2ee9377c871b36407c5777f0829e9cd71ade3
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/28/2017
+---
+<a name="overview-of-a-microsoft-teams-deployment"></a>Microsoft Teams 部署概述
+========================================
+
+刚开始使用 Microsoft Teams？ 请先参阅[概述](teams-overview.md)以尽快了解。
+
+典型的 Microsoft Teams 旅程可能采取以下方式：
+
+1.  在早期阶段进行技术和法律评估，以确定和定义在贵组织中实施 Microsoft Teams 需要哪些控制。
+
+2.  进行网络评估并准备部署。 此时，你可以开始制定采用和变更管理策略，以及设定在部署期间和之后推动用户参与的关键用户情景。
+
+3.  通过一个 IT 试点测试这些变更管理和采用策略。
+
+4.  在一个或两个业务单位中利用这些策略来优化和运行业务试点。
+
+5.  针对更广的部署优化和利用策略和经验。
+
+![Teams 旅程阶段示意图：技术和法律评估、评估/准备、IT 试点、业务试点以及最终部署。](media/Overview_of_a_Microsoft_Teams_deployment_image1.png)
+
+在此旅程中，在贵组织中首次使用 Microsoft Teams 的情况之一是 IT 试点。 请考虑利用此试点帮助你的团队规划、交付和操作 Microsoft Teams 以及推向业务用户。
+
+下面的示例说明如何建立团队/频道结构来帮助推动实现通过交付 Microsoft Teams 让你的最终用户满意的目标。 为了让你的业务部门考虑如何建立其自己的团队和频道，你可以分享你是如何建立你的第一个团队/频道来帮助他们，并且，如果可能，鼓励用户创建一个类似如下的简单表格来推动对话。
+
+
+|团队名称 |频道  |选项卡  |
+|---------|---------|---------|
+|确定部署<br></br>成员的团队：<ul><li>项目发起人</li><li>业务分析员</li><li>项目经理</li><li>协作 IT 专业人士</li><li>网络 IT 专业人士</li><li>采用主管 </li><li>支持主管</li></ul>所有者： <ul><li>项目经理</li><li>协作 IT 专业人士</li></ul>      |规划和就绪<br></br> 采用<br></br> 部署<br></br> 支持<br></br> 见解<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |链接 Microsoft Teams 实践指导网页 ([https://docs.microsoft.com/MicrosoftTeams](https://docs.microsoft.com/MicrosoftTeams)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
+
+在 Microsoft Teams 中建立的结构类似如下：
+
+![Microsoft Teams 中的团队及其频道屏幕截图。](media/Overview_of_a_Microsoft_Teams_deployment_image2.png)
+
+
+||||
+|---------|---------|---------|
+|![决策点图标。](media/Overview_of_a_Microsoft_Teams_deployment_image3.png)     |决策点         |你要为你的 IT 试点创建哪些初始团队和频道？         |
+|![后续步骤图标。](media/Overview_of_a_Microsoft_Teams_deployment_image4.png)     |后续步骤         |记录哪些初始团队和频道将适用于你的 IT 试点         |
+
+
+ 
+
+*为了跟踪这些决策点，欢迎下载 [Decision Points Summary](https://www.microsoft.com/en-us/download/55981)。*

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams 中的安全性和合规性概述，包括审核和报告、合规性内容搜索以及电子数据展示等。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 3321dee954b9861054886677b2835c689035888c
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: d42457165fae8e23181d7e7f4fe50ea30938dfd3
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和合规性概述
 ======================================================
@@ -68,7 +68,7 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 下图显示了 Teams 数据到 Exchange 和 SharePoint 的工作流。
 
-![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+![Teams 数据到 Exchange 和 SharePoint 的工作流示意图。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 
 > [!IMPORTANT]
@@ -87,8 +87,8 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 | | | |
 |---------|---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |决策点         |贵组织需要哪些安全性和合规性功能？ 贵组织是否有所需的许可证来满足安全性和合规性业务需求？         |
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |后续步骤         |在下面的表格中记录所需的安全性和合规性功能。         |
+|![决策点图标。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |决策点         |贵组织需要哪些安全性和合规性功能？ 贵组织是否有所需的许可证来满足安全性和合规性业务需求？         |
+|![后续步骤图标。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |后续步骤         |在下面的表格中记录所需的安全性和合规性功能。         |
 
 <a name="licensing"></a>许可
 ---------------
@@ -109,8 +109,8 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 | |  |  |
 |---------|---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |决策点         |贵组织是否有所需的许可证来满足合规性和安全性业务需求？         |
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |后续步骤         |检查贵组织的当前许可，并确认其是否满足合规性和安全性的所有业务需求。         |
+|![决策点图标。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |决策点         |贵组织是否有所需的许可证来满足合规性和安全性业务需求？         |
+|![后续步骤图标。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |后续步骤         |检查贵组织的当前许可，并确认其是否满足合规性和安全性的所有业务需求。         |
 
 在启用其中任何功能之前，请确保你有权访问 Office 365 管理中心中的安全性和合规性中心。 默认情况下，租户管理员有访问权限。
 

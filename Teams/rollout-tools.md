@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解哪些工具可帮助你部署 Microsoft Teams，例如，电子邮件模板、入门指南、Customer Success Kit 资源等。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d1b55c00109f60005fe7813bcfb82c4e56ed5aef
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: db70e78e57895497183d20e99282ccc1e7654e1d
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>获取工具以支持 Microsoft Teams 部署
 =================================================
@@ -27,6 +27,6 @@ Microsoft Teams 旨在促进协作，但却是易于使用的功能强大的服�
 
 ||||
 |---------|---------|---------|
-|![](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image1.png)     | 决策点        | <ul><li>你的变更管理策略是什么？</li><li>贵组织如何处理其他技术部署的变更管理？</li><li>贵组织中将影响 Teams 效果的执行发起人、支持者、服务所有者/IT 管理员是谁？</li><li>你的试点组是谁？</li></ul>  |
-|![](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image2.png)     |后续步骤 | <ul><li>按照最佳做法为 Microsoft Teams 制定变更管理和采用策略。</li><li>向支持者和团队组长介绍你的策略、Customer Success Kit 和入门指南，以开始为 Microsoft Teams 建立由支持者组成的内部团队。</li></ul> |
+|![决策点图标。](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image1.png)     | 决策点        | <ul><li>你的变更管理策略是什么？</li><li>贵组织如何处理其他技术部署的变更管理？</li><li>贵组织中将影响 Teams 效果的执行发起人、支持者、服务所有者/IT 管理员是谁？</li><li>你的试点组是谁？</li></ul>  |
+|![后续步骤图标。](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image2.png)     |后续步骤 | <ul><li>按照最佳做法为 Microsoft Teams 制定变更管理和采用策略。</li><li>向支持者和团队组长介绍你的策略、Customer Success Kit 和入门指南，以开始为 Microsoft Teams 建立由支持者组成的内部团队。</li></ul> |
 

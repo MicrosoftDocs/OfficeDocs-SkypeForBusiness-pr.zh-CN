@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "并行使用 Skype for Business 和 Microsoft Teams 指导"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 760fa47db7965e0c2a74b01ae25f1d23d37d3180
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: b1a635fe4abb607064a0e26240ed58715fa43a8d
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="enable-microsoft-teams-side-by-side-with-skype-for-business"></a>与 Skype for Business 并行启用 Microsoft Teams 
 =============================================================
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/28/2017
 
     IT 控制并行体验，带领用户完成逐渐采用 Teams 的旅程，先在 Teams 中采用基于聊天的新型协作工作区（可以进行私人聊天），然后体验会议，最后体验通话。
 
-![](media/guidance_SkypeforBusiness_image1.png)
+![两种并行客户旅程示意图：受管理和不受管理。](media/guidance_SkypeforBusiness_image1.png)
 
 <a name="side-by-side-benefits-and-considerations"></a>并行优势和考虑事项
 ----------------------------------------
@@ -103,7 +103,7 @@ ms.lasthandoff: 09/28/2017
 ---------------------------------------
 
 
-![](media/guidance_SkypeforBusiness_image4.png)
+![不受管理的并行客户旅程示意图。](media/guidance_SkypeforBusiness_image4.png)
 
 在不受管理的并行客户旅程中，Teams 作为协作解决方案采用（基于聊天的工作区、频道、应用、与其他 Office 365 工作负荷集成等），涉及桌面计算机（PC 或 Mac）和移动设备上的客户端软件和 Web 客户端。
 
@@ -123,7 +123,7 @@ Teams 中安排的会议是另一项重叠功能，即用户可以安排 Teams �
 <a name="managed-side-by-side-customer-journey"></a>受管理的并行客户旅程
 -------------------------------------
 
-![](media/guidance_SkypeforBusiness_image2.png)
+![受管理的并行客户旅程示意图。](media/guidance_SkypeforBusiness_image2.png)
 
 受管理的并行客户旅程适用于希望对 Teams 的采用方式进行更多控制的组织。
 
