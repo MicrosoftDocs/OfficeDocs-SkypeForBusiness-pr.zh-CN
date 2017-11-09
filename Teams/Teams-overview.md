@@ -114,4 +114,4 @@ Office 365 组利用 Azure Active Directory (Azure AD) 中存储的标识，因�
 
 如果你遇到在此找不到的信息，请在下面的“**评论**”部分中告诉我们。 我们会尽力在 24 小时内回复你的评论。
 
-顺便提一下，我们****仍提供了针对[从 Skype for Business 到 Microsoft Teams 的旅程](FAQ-journey.md)的 FAQ。 
+顺便提一下，我们仍**提供**了针对[从 Skype for Business 到 Microsoft Teams 的旅程](FAQ-journey.md)的 FAQ。 
