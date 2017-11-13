@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams 中的安全性和合规性概述，包括审核和报告、合规性内容搜索以及电子数据展示等。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d42457165fae8e23181d7e7f4fe50ea30938dfd3
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 6cca28ee5cd96d24e4b0da0a29748e0cf383eb0c
+ms.sourcegitcommit: a315fbbb6a5337c32c9312550ee05fd9185020db
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/02/2017
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和合规性概述
 ======================================================
@@ -119,7 +119,14 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 <a name="location-of-data-in-microsoft-teams"></a>Microsoft Teams 中的数据的位置
 -----------------------------------
 
-Teams 中的数据基于租户相关性位于相应区域中。 当前，Teams 支持美洲、欧洲、中东和非洲以及亚太地区这些区域。 将来，Teams 将提供 GoLocal 支持，那时数据保留在国家/地区（不只是区域）中。 敬请关注 [*Office 365 路线图*](https://go.microsoft.com/fwlink/?linkid=855778)了解更新。
+Teams 中的数据基于租户相关性位于相应区域中。 当前，Teams 支持美洲、欧洲、中东和非洲以及亚太地区这些区域。 
+
+自 2017 年 11 月 1 日起，Teams 在英国仅为新租户提供数据驻留。 新租户的定义是，该租户中没有任何一个用户登录过 Microsoft Teams。
+
+> [!NOTE]
+> 英国的现有租户将继续保留在 EMEA 中，直至发布迁移计划（预计于 2018 年发布）。
+
+有关详细信息，请参阅 Microsoft Teams 技术社区中有关启动英国数据驻留的[博客文章](https://go.microsoft.com/fwlink/p/?linkid=862275)。
 
 <a name="privacy-in-microsoft-teams"></a>Microsoft Teams 中的隐私
 --------------------------
