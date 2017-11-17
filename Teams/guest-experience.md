@@ -1,18 +1,18 @@
 ---
 title: "来宾体验介绍"
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: LaithAlShamri
+ms.author: laal
+manager: lolaj
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: "了解来宾用户可用的 Microsoft Teams 功能。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 811844652acf9771dfeb410047f9776cebeb36d5
-ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
+ms.openlocfilehash: 596d0dd3bb754e6f6c983beb9ba62d775768d252
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================

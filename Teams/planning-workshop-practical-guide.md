@@ -2,17 +2,17 @@
 title: "适用于 Microsoft Teams 的规划研讨会工具包和实践指南"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "用于帮助管理员开始使用 Microsoft Teams 的规划工具和实践指导。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 148bf7fc4d89ce52eb7142f593c1eafecf387d3c
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 8861b25c08d1233949231031479f6fea031ee579
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="planning-workshop-kit-and-practical-guide-for-microsoft-teams"></a>适用于 Microsoft Teams 的规划研讨会工具包和实践指南
 =============================================================

@@ -2,17 +2,17 @@
 title: "从 Skype for Business 到 Microsoft Teams 的旅程"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 10/05/2017
 ms.topic: article
 ms.service: msteams
 description: "你需要了解的有关从 Skype for Business Online 到 Microsoft Teams 的旅程的所有内容。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 2c0048f92059ed2abefaabd54ae72c2ca6a90152
-ms.sourcegitcommit: eaa52861806e40691f2672ca35074dc44a5570d8
+ms.openlocfilehash: fa3f44cf32f18383ed1258d768050d7494afe865
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>从 Skype for Business 到 Microsoft Teams 的旅程
 ==================================================

@@ -2,17 +2,17 @@
 title: "为 Microsoft Teams 准备贵组织的网络 | Microsoft 支持"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解如何准备和管理你的 Microsoft Teams 网络。 信息包括网络要求、带宽要求和其他考虑事项。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 81285ee2ff2a2f7939a025609656ae723947fb73
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 399a0a6ed6ac5bfabeac97f41e82e0237bca0b74
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备贵组织的网络
 =================================================
@@ -55,7 +55,6 @@ Microsoft Teams 组合了三种形式的流量：
 ----------
 
 Microsoft Teams 的带宽计算很复杂，因此为了帮助进行此计算，创建了一个计算器。 要访问该计算器，请访问：<http://aka.ms/bwcalc/>。
-
 
 下文内容可以用作补充背景信息，但建议客户使用[带宽计算器](https://aka.ms/bwcalc)来跟踪其需求。
 

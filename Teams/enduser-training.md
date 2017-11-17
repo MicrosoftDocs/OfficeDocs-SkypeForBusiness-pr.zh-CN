@@ -2,17 +2,17 @@
 title: "Microsoft Teams 的最终用户培训"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "为了成功部署 Microsoft Teams，管理员可以使用的培训资源。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 86c5b5625e41e9c7513ccefbcfb84acd6b2c1453
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: cebd842e3b2ad1fccd9c48bb97376f196a3b63f8
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams 的最终用户培训
 =====================================

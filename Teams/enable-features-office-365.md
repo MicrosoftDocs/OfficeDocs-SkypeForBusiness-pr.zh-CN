@@ -2,28 +2,29 @@
 title: "在你的 Office 365 组织中启用 Microsoft Teams 功能 | Microsoft 支持"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解可以在你的 Office 365 组织中启用的所有 Microsoft Teams 功能，包括租户范围的设置、电子邮件集成、应用及云存储等。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a336d04bf8a296e608eb80796d16ba1f7dc3ed74
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 7c626acc5e9fe4d19d7198ea023df155ff427f40
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>在你的 Office 365 组织中启用 Microsoft Teams 功能
 ======================================================
 
-Microsoft Teams 具有多个可以在租户级别启用或禁用的设置。 如果为租户启用了 Microsoft Teams，同样启用了 Microsoft Teams 的任何用户都将从租户级别继承设置。
+Microsoft Teams 具有多个可以在租户级别启用或禁用的设置。 如果为租户启用了 Teams，同样启用了 Teams 的任何用户都将从租户级别继承设置。
 
-下面是 Office 365 管理员可以选择在 Microsoft Teams 中启用或禁用的功能列表。
+下面是 Office 365 管理员可以选择在 Teams 中启用或禁用的功能列表。
 
 除非另有说明，否则选项的默认值为“开启”。
 
-注意：Office 365 管理员可以随时通过 Office 365 管理中心关闭 Microsoft Teams。 请注意，即使你关闭 Microsoft Teams，具有 Teams 有效许可证的用户将会继续看到 Teams 应用磁贴。 有关如何从用户删除许可证的详细信息，请参阅“管理对 Microsoft Teams 许可证的用户访问”。 禁用 Teams 后，将阻止从 Microsoft Teams 客户端进行访问，但仍可以通过其他客户端和服务获取数据，例如，通过 SharePoint 和 OneDrive 获取文件。 除非明确删除团队，否则所有数据保留在原处。
+> [!NOTE]
+> Office 365 管理员可以随时通过 Office 365 管理中心关闭 Microsoft Teams。 请注意，即使你关闭 Microsoft Teams，具有 Teams 有效许可证的用户也能继续看到 Teams 应用磁贴。 有关如何从用户删除许可证的详细信息，请参阅[管理对 Microsoft Teams 许可证的用户访问](user-access.md)。 禁用 Teams 后，将阻止从 Teams 客户端进行访问，但仍可以通过其他客户端和服务获取数据，例如，通过 SharePoint 和 OneDrive 获取文件。 除非明确删除团队，否则所有数据保留在原处。
 
 <a name="tenant-wide-settings"></a>租户范围的设置 
 ---------------------

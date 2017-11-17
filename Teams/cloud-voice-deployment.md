@@ -2,17 +2,17 @@
 title: "云语音部署"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "在 Microsoft Teams 中部署云语音功能实践指导"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: b21fa77449b8449091fffe59dfbfdde8223f627b
-ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
+ms.openlocfilehash: 18779673d85069cbf112de2d69f1d89ce3f2c14f
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/21/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="cloud-voice-deployment"></a>云语音部署
 ======================

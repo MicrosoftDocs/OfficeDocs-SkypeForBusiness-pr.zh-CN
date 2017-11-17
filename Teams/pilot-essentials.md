@@ -2,17 +2,17 @@
 title: "在使用 Skype for Business 的同时试用 Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "指导在继续使用 Skype for Business 的同时，开始 Microsoft Teams 试点以探索 Teams 可以为贵组织完成的所有事项。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c78e687535a47e5a267e087b39253c793b4b3d8a
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 563ade26ec8e9a86806751b19f36548560a264f1
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>在使用 Skype for Business 的同时试用 Microsoft Teams
 ============================================
@@ -141,7 +141,11 @@ ms.lasthandoff: 10/28/2017
 
 所有后期工作就位后，现在可以开始你的试点。 进行试点包括向你的试点用户传递信息、监控你的网络/使用情况以确保你的网络和质量保持正常状况、收集来自参与者的反馈以及检查支持票证来了解与 Teams 有关的问题。
 
-下面提供了基于 30 天试点的建议时间线：
+> [!IMPORTANT]
+> Teams 默认情况下处于启用状态，但在开始试点之前，请通过检查确保所有试点用户均已启用 Teams。 在执行此操作时如需帮助，请阅读[在你的 Office 365 组织中启用 Microsoft Teams 功能](enable-features-office-365.md)。
+> 
+
+下面是 30 天试点的建议时间线：
 
 -   试点启动之前一周：向试点用户发送初步沟通信息
 

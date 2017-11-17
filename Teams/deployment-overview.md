@@ -2,17 +2,17 @@
 title: "Microsoft Teams 部署概述 | Microsoft 支持"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解如何部署 Microsoft Teams。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 3ed2ee9377c871b36407c5777f0829e9cd71ade3
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 2f53424c034e578cd7feba33fe10e25107582a3d
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Microsoft Teams 部署概述
 ========================================

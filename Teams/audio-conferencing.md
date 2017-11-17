@@ -2,17 +2,17 @@
 title: "Microsoft Teams 中的音频会议"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "在 Microsoft Teams 中部署音频会议实践指导"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c6791646b58111a9785430b6541c57972a15ab20
-ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
+ms.openlocfilehash: d38112015929a3491386146dd0920d81919a8a66
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的音频会议
 =====================================
@@ -638,8 +638,7 @@ _表 7 音频会议服务地点支持列表示例_
 [音频会议许可证](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7?ui=en-US&rs=en-US&ad=US)（以前称为 Skype for Business PSTN 会议许可证）作为 Office 365 E5 订阅计划的一部分提供，或者作为 Office 365 E1 或 Office 365 E3 订阅计划的附加内容提供。
 
 > [!NOTE]
-> Teams 中的 PSTN 或电话拨入式会议不支持第三方<sup></sup>音频会议提供商 (ACP)。
-> <br>如果你现在已使用 Skype for Business Online PSTN 会议，则可以立即利用 Teams 中的音频会议。
+> Teams 中的 PSTN 或电话拨入式会议不支持第三方<sup></sup>音频会议提供商 (ACP)。<br>如果你现在已使用 Skype for Business Online PSTN 会议，则可以立即利用 Teams 中的音频会议。
 
 为了提供免费电话会议桥接电话号码以及支持向国际电话号码拨出的会议，你需要为贵组织设置[通信点数](https://support.office.com/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059)。
 

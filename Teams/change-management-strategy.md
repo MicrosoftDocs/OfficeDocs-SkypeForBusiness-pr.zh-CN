@@ -2,17 +2,17 @@
 title: "为 Microsoft Teams 制定变更管理策略 | Microsoft 支持"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解如何通过确定推行活动的关键利益干系人、业务成果、成功量度标准和管理，为 Microsoft Teams 制定变更管理策略。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: faa2bf8247c4b4a3fc8827011423f8205e5c6b35
-ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
+ms.openlocfilehash: 7fb8c2f7804cd51ac74bcc06878572e0c2c605ad
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>为 Microsoft Teams 制定变更管理策略
 =======================================================

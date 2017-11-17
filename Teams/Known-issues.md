@@ -2,17 +2,17 @@
 title: "Microsoft Teams 的已知问题"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams 客户端应用和管理体验的已知问题当前列表"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 55e1dea54b9cf6dd73e6739991b1e4ff6cf57943
-ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
+ms.openlocfilehash: 0f90929f2af5d72df5851d25a2456b4613fd5613
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2017
+ms.lasthandoff: 11/08/2017
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
  [Microsoft Teams 帮助](microsoft-teams-help.md) > [桌面和 Web](microsoft-teams-help.md#BKMK_DesktopAndWeb) > Microsoft Teams 的已知问题更新日期：2017 年 9 月 14 日 

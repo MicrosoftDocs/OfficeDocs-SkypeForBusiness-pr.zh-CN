@@ -2,17 +2,17 @@
 title: "通过用户采用推动使用 Microsoft Teams 实现价值"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "继续从 Skype for Business 到 Microsoft Teams 的旅程指导。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 82bc25fa33f2f9543679256072ef0b7fcab4fa07
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 67490b62f02d4bdd192dae90d462feefe046f0d7
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="drive-value-with-microsoft-teams-through-user-adoption"></a>通过用户采用推动使用 Microsoft Teams 实现价值
 ================================================================

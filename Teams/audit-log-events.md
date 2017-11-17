@@ -2,17 +2,17 @@
 title: "在 Microsoft Teams 中搜索事件的审核日志 | Microsoft 支持"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解如何从审核日志检索 Microsoft Teams 数据。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 90de6c2267eb2828f2f681287d4b43c001d0ceb4
-ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
+ms.openlocfilehash: 9d1a1c274ace1e680f890d7fe8abdea52886b073
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 ==================================================

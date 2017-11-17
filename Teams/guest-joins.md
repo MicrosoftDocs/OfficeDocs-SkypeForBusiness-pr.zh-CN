@@ -1,18 +1,18 @@
 ---
 title: "来宾加入团队的方式"
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: LaithAlShamri
+ms.author: laal
+manager: lolaj
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: "简要介绍如何在 Microsoft Teams 中邀请来宾加入团队。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 50889f9d048f90f5857ce8190f821c89b20d2843
-ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
+ms.openlocfilehash: 68aa176d3a1ab75a7d6d3baec01c18242ebea341
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="how-a-guest-joins-a-team"></a>来宾加入团队的方式
 ========================
