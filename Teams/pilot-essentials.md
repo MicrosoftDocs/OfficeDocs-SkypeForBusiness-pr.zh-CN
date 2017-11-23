@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "指导在继续使用 Skype for Business 的同时，开始 Microsoft Teams 试点以探索 Teams 可以为贵组织完成的所有事项。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 563ade26ec8e9a86806751b19f36548560a264f1
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 4cfbf9fa1e5f06281564e5e9fa61e66aaa9090b3
+ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 11/16/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>在使用 Skype for Business 的同时试用 Microsoft Teams
 ============================================
@@ -109,7 +109,7 @@ ms.lasthandoff: 11/11/2017
 
 ## <a name="step-three-design-your-test-plan-and-feedback-survey"></a>第三步：设计测试计划和反馈调查
 
-成功的试点体验可为你的参与者提供要完成的定义清晰的任务以及反馈途径。 贵组织可以选择一次性试用所有功能，也可以采用渐进式方法（例如，先试用协作，然后试用会议，再试用聊天和通话）。预定义的调查是一种轻松获取和评估试点结果的方式，应根据测试计划中的应用场景/功能进行设计。
+成功的试点体验可为你的参与者提供要完成的定义清晰的任务以及反馈途径。 将任务分组到一起，以便向用户呈现真实场景，从而说明与其日常活动的相关性。 贵组织可以选择一次性试用所有功能，也可以采用渐进式方法（例如，先试用协作，然后试用会议，再试用聊天和通话）。 确保你具有开放反馈渠道，以便跟踪进度和评估成果。 预定义的调查是一种轻松获取和评估试点结果的方式，应根据测试计划中的应用场景和功能进行设计。
 
 <table>
 <thead>

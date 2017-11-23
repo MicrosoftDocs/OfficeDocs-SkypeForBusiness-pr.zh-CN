@@ -3,25 +3,28 @@ title: "Microsoft Teams 的已知问题"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 11/15/2017
 ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams 客户端应用和管理体验的已知问题当前列表"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 0f90929f2af5d72df5851d25a2456b4613fd5613
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: a065472b87ee61a7f910741beadb97ebfbb2ed5c
+ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/16/2017
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
- [Microsoft Teams 帮助](microsoft-teams-help.md) > [桌面和 Web](microsoft-teams-help.md#BKMK_DesktopAndWeb) > Microsoft Teams 的已知问题更新日期：2017 年 9 月 14 日 
   
 下表列出了 Microsoft Teams 的已知问题。
 ## 
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
+|欧盟地区和亚太地区的客户在从其他租户添加来宾用户时收到错误    <br/> | 欧盟地区和亚太地区的客户遇到 Microsoft Teams 与 Azure Active Directory 之间出现复制延迟的问题。 当来自欧盟地区或亚太地区某个租户的用户尝试从任何其他租户添加来宾用户时，收到要求他们重试的错误消息。   <br/> |再次单击重试按钮以执行来宾用户添加操作。  <br/> |11/8/17  <br/> |
+|当你尝试从 Internet Explorer 或 Edge 加入 Teams 时，程序持续循环或崩溃并且无法登录。   <br/> | 贵组织使用 Internet Explorer 中的受信任站点，基于 Web 的 Teams 应用程序无法正常登录，因为 Teams 的受信任站点不被允许。 <br/>|使用管理员权限或群组策略对象，对 IE 设置进行下列更改：<br/><ol><li>在“Internet 选项”&gt;“隐私”&gt;“高级”下，接受第一方和第三方 Cookie，并选中“始终允许会话 Cookie 和受信任站点”复选框。</li><li>单击“Internet 选项”&gt;“受信任站点”&gt;“站点”，然后添加下列所有站点：<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>注意</b>：始终验证并允许 Teams 的所有受信任 URL 以及以下文档中的要求：[Office 365 URL 和 IP 地址范围](httpds://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)   <br/> <br/>|11/1/17  <br/> |
+|按照策略要求，在 OWA/Outlook 上未阻止向 Teams 上载照片   <br/> | Teams 允许用户直接将照片上载到 Office 365，不论策略设置如何，而不是对 OWA 阻止照片上载。   <br/> <br/> ||10/16/17  <br/> |
+|带参数的 Teams URL 在登录重定向后被截断  <br/> | 在 Internet Explorer 和 Edge 中，登录后第一次在 Teams Web 应用上打开共享 Teams 文件链接时，你将被重定向到错误的文档。 如果你已登录 Teams Web 应用并单击共享文件链接，链接将按预期正常工作。   <br/> <br/> ||10/11/17  <br/> |
 |Safari Web 客户端支持  <br/> |尝试在 Safari 上打开 Microsoft Teams Web 客户端的用户被导向到下载桌面客户端。 Microsoft 正在着手准备 Safari 支持，并将通过公开 Office 365 路线图共享更新。  <br/> |使用支持的浏览器，包括：Microsoft Edge 12+、Internet Explorer 11+、Firefox 47.0+ 和 Chrome 51.0+。  <br/> |2016 年 11 月 2 日  <br/> |
 |用户无法重新预先存在的频道名称  <br/> |一旦创建了某个频道名称，即使已将其删除，仍无法重新创建该名称。 我们的系统按信息保护方案维护此数据。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/> |
 |使用移动应用时无法插入表情图片  <br/> |无法在移动应用上使用表情图片。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/> |

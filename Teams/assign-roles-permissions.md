@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解如何在 Microsoft Teams 中分配团队所有者和成员角色，包括创建团队的权限。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 9cc8a72cdabacb76638acb689c6622642c524c8e
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 21e9a1cb3f77d657824f5d532469b7b5efe62ede
+ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/16/2017
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>在 Microsoft Teams 中分配角色和权限
 ===============================================
@@ -40,7 +40,7 @@ ms.lasthandoff: 11/08/2017
 
 | | |
 |---------|---------|
-|![灯泡图标。](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>注意     |所有者可以在“查看团队”选项中将其他成员设为所有者。 一个团队最多可以有 10 个所有者。         |
+|![灯泡图标。](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>注意     |所有者可以在“查看团队”选项中将其他成员设为所有者。 一个团队最多可以有 100 个所有者。 建议至少指定几个所有者以帮助管理团队，这样也可以防止当唯一的所有者离开贵组织时出现孤立的群组。 有关孤立群组的详细信息，请参阅[向孤立群组分配新所有者](https://support.office.com/en-us/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732)。        |
 
 <a name="permissions-to-create-teams"></a>创建团队的权限
 ---------------------------
