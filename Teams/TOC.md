@@ -36,6 +36,7 @@
 ## [在 Teams 中使用 Office 365 和自定义连接器](Office-365-custom-connectors.md)
 ## [在 Teams 中为私人聊天和频道添加聊天机器人](add-bots.md)
 ## [Teams 中适用于应用的管理设置](admin-settings.md)
+## [Teams 的 PowerShell cmdlet 参考](https://docs.microsoft.com/powershell/module/teams)
 
 
 # [Teams 中的来宾访问](guest-access.md)
@@ -54,6 +55,7 @@
 ## [音频会议](audio-conferencing.md)
 ### [展望](audio-conferencing.md#Envision_AudioConferencing)
 ### [规划](audio-conferencing.md#Planning_AudioConferencing)
+### [视频 - Teams 中的音频会议](audio-conferencing-videos.md)
 
 # [从 Skype for Business 到 Teams 的旅程](Journey-SkypeforBusiness-Teams.md)
 ## [1 - 针对 Teams 优化你的当前 Skype for Business 环境](prepare-teams.md)
@@ -64,7 +66,6 @@
 
 # 视频和培训
 ## [Teams 的 IT 管理员就绪](ITAdmin-readiness.md)
-### [视频 - Teams 中的音频会议](audio-conferencing-videos.md)
 ## [Teams 的最终用户培训](enduser-training.md)
 
 
@@ -78,7 +79,10 @@
 
 
 # 故障排除
-## [Microsoft Teams 的支持资源](support-resources.md)
+## [Teams 的已知问题](Known-issues.md)
+## [Teams 的支持资源](support-resources.md)
 ## [验证 Teams 的服务运行状况](service-health.md)
 ## [对 Teams 客户端的连接问题进行故障排除](connectivity-issues.md)
 ## [在对 Teams 进行故障排除时使用日志文件](log-files.md)
+
+# [Teams 的开发人员文档](https://docs.microsoft.com/microsoftteams/platform)
