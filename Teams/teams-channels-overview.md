@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解可用于各种需求（例如财务、活动计划、销售等）的不同团队、频道和应用。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 2d8ce4adafe831f71fcbb04a191427339efa56f0
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: f7c69f85862396dd31b69c034521fae01c4a400a
+ms.sourcegitcommit: cd6f4ac2ee7fa2b9de7af5c75c914eb84468d8f5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/21/2017
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 =================================================
@@ -35,7 +35,7 @@ ms.lasthandoff: 11/08/2017
 
 吸引用户使用 Microsoft Teams 的一项关键的早期计划活动是帮助人们考虑和了解 Microsoft Teams 如何在其日常生活中增强协作。
 
-默认情况下，所有用户都有权在 Microsoft Teams 中创建团队（要对此进行修改，请参阅此处）。 现有 Office 365 组的用户也可以使用 Microsoft Teams 功能帮助自己。
+默认情况下，所有用户都有权在 Microsoft Teams 中创建团队（要对此进行修改，请参阅[在 Teams 中指定角色和权限](assign-roles-permissions.md)）。 现有 Office 365 组的用户也可以使用 Microsoft Teams 功能帮助自己。
 
 <a name="sample-team-set-up"></a>团队建立示例
 ------------------

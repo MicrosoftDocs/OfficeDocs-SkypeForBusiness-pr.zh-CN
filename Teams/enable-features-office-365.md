@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解可以在你的 Office 365 组织中启用的所有 Microsoft Teams 功能，包括租户范围的设置、电子邮件集成、应用及云存储等。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 7c626acc5e9fe4d19d7198ea023df155ff427f40
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: e2235756e77c3e27c1eeee9fd22decb5e0e4e062
+ms.sourcegitcommit: db47b9f4955150859bc35ab9d078fa3ab66b5faa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 11/20/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>在你的 Office 365 组织中启用 Microsoft Teams 功能
 ======================================================
@@ -110,8 +110,6 @@ Office 365 租户可以包含的默认最大团队数当前为 500,000。 全局
 频道是团队的子类别。 团队中的任何人都可以添加频道以及参与频道中的对话。 你可为活动或部门创建频道。 对话、文件和 Wiki 是特定于每个频道的，但团队的所有成员都可以查看它们。
 
 ### <a name="calls-and-meetings"></a>通话和会议
-
-频道是团队的子类别。 团队中的任何人都可以添加频道以及参与频道中的对话。 你可为活动或部门创建频道。 对话、文件和 Wiki 是特定于每个频道的，但团队的所有成员都可以查看它们。
 
 在**“通话和会议”**部分中可以为贵组织配置以下设置：
 
