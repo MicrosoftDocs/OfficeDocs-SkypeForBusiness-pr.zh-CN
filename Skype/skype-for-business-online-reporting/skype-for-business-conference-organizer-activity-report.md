@@ -1,0 +1,92 @@
+---
+title: "Skype for Business 会议组织者活动报告"
+ms.author: tonysmit
+author: tonysmit
+manager: scotv
+ms.date: 11/24/2017
+ms.audience: Admin
+ms.topic: article
+f1_keywords:
+- O365E_ReportsS4BOrgActivity
+ms.prod: office-online-server
+localization_priority: Normal
+ms.collection:
+- Adm_Skype4B_Online
+- Adm_UI_Elements
+ms.custom: Adm_O365_FullSet
+ms.assetid: 03a255d4-0e1d-4b24-b73d-7a62fae36254
+
+description: "Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. "
+---
+
+# Skype for Business 会议组织者活动报告
+
+> [!重要信息]
+> 本文是由机器翻译的，请参阅[免责声明](03a255d4-0e1d-4b24-b73d-7a62fae36254.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/03a255d4-0e1d-4b24-b73d-7a62fae36254) 中查找本文的英文版本以便参考。
+  
+全新的 Office 365" **报告**"仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。例如，你可以使用" **Skype for Business 会议组织者活动**"报告查看使用即时消息、音频/视频、应用程序共享、Web、拨入/拨出（第三方）和拨入/拨出 (Microsoft) 组织会议的用户数。请参阅[Office 365 管理中心中的活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)。
+  
+此报告以及其他 Skype for Business 报告会为你提供整个组织内部组织的会议活动的详细信息。当你为组织进行调查、规划及执行其他业务决策时，这些详细信息非常有用。
+  
+> [!注释]
+> 以管理员身份登录 Office 365 管理中心后，可以查看所有 Skype for Business 报告。 
+  
+## 如何访问 Skype for Business 会议组织者报告
+
+1. 转到 **Office 365 管理中心**> **报表**> **用法**。
+    
+2. 在 **用法**页上，单击上 **选择报表列表**左侧的 **Skype for Business 会议组织者的活动**。或者，单击 **Skype for Business 活动**小组件，然后单击 **Skype for Business 活动**列表上的 **Skype for Business 会议组织者的活动**。
+    
+     ![Menu for Skype reports with Business conference organizer activity highlighted](../images/3fee95f4-efa1-48f2-89af-a705f8f8b732.PNG)
+  
+    > [!重要信息]
+    > 你可能无法看到此处所示的所有产品和活动报告，具体取决于你拥有的 Office 365 订阅。 
+  
+## 解释"Skype for Business 会议组织者"报告
+
+您可以获得您的组织通过查看 **活动**、 **用户**和 **分钟**图表的业务会议 Skype 的见解。
+  
+![Skype for business Organized conferences report](../images/0ab0e5e8-cf18-4f8f-a31a-94048e375a0f.PNG)
+  
+|||
+|:-----|:-----|
+|**1** <br/> |可以查看" **Skype for Business 会议组织者活动**"报告以了解过去 7 天、30 天、90 天或 180 天的趋势。  <br/> |
+|**2** <br/> |每个报表将具有时生成此报告的日期。报表通常反映活动的时间从 24 到 48 小时延迟。  <br/> |
+|**3** <br/> |使用" **活动**"图表上的交互式图表和实时数据可了解使用趋势并查看组织中组织的会议总数和正在召开的会议类型。它将显示整个组织中组织的" **即时消息**"、" **音频/视频**"、" **应用程序共享**"、" **Web**"、" **拨入/拨出（第三方）**"和" **拨入/拨出 (Microsoft)**"会议的总数和类型。  <br/> |
+|**4** <br/> | 使用" **用户**"图表上的交互式图表和实时数据可了解使用趋势并查看负责组织当前组织中正在举行的会议的唯一用户数。它将显示用户总数以及所组织的会议的类型，即，是" **即时消息**"、" **音频/视频**"、" **应用程序共享**"、" **Web**"、" **拨入/拨出（第三方）**"还是" **拨入/拨出 (Microsoft)**"。  <br/> |
+|**5** <br/> | 使用" **分钟数**"图表上的交互式图表和实时数据可了解使用趋势并查看用户在使用音频/视频以及拨入和拨出（将 Microsoft 作为其会议提供商）组织会议时使用的分钟数。它将显示在组织的会议进行期间使用的" **音频/视频**"总分钟数、" **拨入 (Microsoft) 分钟数**"和" **拨出 (Microsoft) 分钟数**"。  <br/> |
+|**6** <br/> | 每个图表都具有"X"（水平）轴和"Y"（垂直）轴。 <br/>  在" **活动**"活动图表中，Y 轴代表组织中的用户组织的即时消息、音频/视频、应用程序共享、Web、拨入/拨出（第三方）和拨入/拨出 (Microsoft) 会议的总数。  <br/>  在" **用户**"活动图表中，Y 轴代表组织中的用户组织的即时消息、音频/视频、应用程序共享、Web、拨入/拨出（第三方）和拨入/拨出 (Microsoft) 会议的用户总数。  <br/>  在" **分钟数**"活动图表中，Y 轴代表组织中的用户组织会议的音频/视频总分钟数、拨入 (Microsoft) 分钟数和拨出 (Microsoft) 分钟数。  <br/>  这两个图表的 X 轴都表示此特定报表的所选日期范围。 <br/> |
+|**7** <br/> |你可以通过单击图例上的项目筛选你在图表上看到的系列。例如，在" **活动**"图表中，通过单击或点击" **即时消息**"、" **音频/视频**"、" **应用程序共享**"、" **Web**"、" **拨入/拨出（第三方）**"和" **拨入/拨出 (Microsoft)**"，可以只查看与各项相关的信息。更改此选择不会更改网格表中的信息。  <br/> |
+|**8** <br/> | 该表格显示了每个用户组织的会议活动的细分。它将显示分配了 Skype for Business 的所有用户及其组织的会议。你可以向该表格中添加其他列。 <br/>  " **用户名**"是用户的名称。  <br/>  " **已删除**"表示用户的许可证已删除。  <br/> > [!注释]>  只要已删除用户在选定时间段内仍为获得许可的状态，该用户的活动将仍然显示在报告中。" **已删除** "列提醒你注意用户可能不再处于活动状态，但报告中仍包括该用户的数据。           " **删除日期**"是指删除用户许可证的日期。  <br/>  " **上次活动日期(UTC)**"是该用户的上次活动日期 (UTC)。  <br/>  " **即时消息**"显示组织的即时消息会议的总数。  <br/>  " **音频/视频**"显示组织的音频/视频会议的总数。  <br/>  " **应用程序共享**"显示组织的应用程序共享会议的总数。  <br/>  " **Web**"显示组织的 Web 会议的总数。  <br/> **拨入/出的第三方**显示拨出/音频会议的组织使用第三方音频会议提供商的总数。  <br/> **拨出/Microsoft**显示组织的拨出/音频会议的总行数。  <br/>  " **音频/视频分钟数**"显示组织使用音频/视频的会议时使用的总分钟数。  <br/> **拨入 Microsoft 分钟**显示总的组织使用 Microsoft 作为音频会议提供商的会议中使用的拨入分钟数。  <br/> **拨出 Microsoft 分钟内**显示组织使用 Microsoft 作为音频会议提供商的会议中使用拨出分钟总行的数。  <br/>  如果组织的策略阻止你查看可识别用户信息的报告，你可以更改所有这些报告的隐私设置。请查看[Office 365 管理中心中的活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)中的 **如何隐藏用户级详细信息？**部分。  <br/> |
+|**9** <br/> |你还可以单击或点击" **导出**"按钮，将报告数据导出到 Excel .csv 文件中。           <br/> ![Skype for Business Reporting Export Button.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。如果拥有的用户不足 2000 人，你可以在报告本身的表格中进行排序和筛选。如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。  <br/> |
+|**10** <br/> |单击或点击任何列以添加或删除列从报表中的 **列**图标。           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)|
+   
+## 想要查看其他 Skype for Business 报告？
+
+- [Skype for Business 活动报告](skype-for-business-activity-report.md) 您可以看到多少您的用户使用的对等、 有序状态，并参与会议会话。
+    
+- [Skype for Business 设备使用率报告](skype-for-business-device-usage-report.md) 您可以以查看包括基于 Windows 的操作系统的设备，有 Skype for Business 应用的移动设备安装并将其用于即时消息和会议。
+    
+- [Skype for Business 会议参与者活动报告](skype-for-business-conference-participant-activity-report.md) 您可以看到多少即时消息、 音频/视频，应用程序共享，Web 和会议拨出/会议正在参与。
+    
+- [Skype for Business 对等活动报告](skype-for-business-peer-to-peer-activity-report.md) 您可以查看您的用户正在使用即时消息、 音频/视频，应用程序共享和文件传输的量。
+    
+- [Skype for Business 用户阻止报表](skype-for-business-users-blocked-report.md) 您可以查看您的组织中的已阻止从进行 PSTN 呼叫的用户。
+    
+- [Skype for Business PSTN 使用报告](skype-for-business-pstn-usage-report.md) 您可以查看所用的入站/出站呼叫和成本这些呼叫分钟数。
+    
+- [Skype for Business 用户阻止报表](skype-for-business-users-blocked-report.md) 您可以查看有关所使用的媒体类型、 会话、 使用客户端和会议 URL 的持续时间的详细信息。
+    
+## 
+<a name="MT_Footer"> </a>
+
+> [!注释]
+> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
+  
+## 另请参阅
+<a name="MT_Footer"> </a>
+
+#### 其他资源
+
+[Office 365 管理中心中的活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+
