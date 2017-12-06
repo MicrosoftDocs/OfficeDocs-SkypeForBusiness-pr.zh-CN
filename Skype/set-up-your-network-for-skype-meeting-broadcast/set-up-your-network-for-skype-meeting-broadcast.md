@@ -20,7 +20,7 @@ description: "Learn about the Skype Meeting Broadcast feature of Skype for Busin
 
 # 设置 Skype 会议直播网络
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](dfa736b9-4920-4f48-b8c0-b5487ec6086f.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/dfa736b9-4920-4f48-b8c0-b5487ec6086f) 中查找本文的英文版本以便参考。
   
 [启用 Skype 会议直播](enable-skype-meeting-broadcast.md) Skype 会议直播后，你需要配置网络。 如果希望面向企业外部的人员举办网络研讨会和其他直播活动，请执行此步骤。
@@ -140,7 +140,7 @@ mlccdn.blob.core.windows.net
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

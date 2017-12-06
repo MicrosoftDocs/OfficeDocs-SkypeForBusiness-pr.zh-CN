@@ -18,14 +18,14 @@ description: "See how to select the auto-attendant lanugages for a dial-in confe
 
 # 设置音频会议自动助理语言
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](26d73dda-ab26-4af4-8aec-d17f3479ae50.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/26d73dda-ab26-4af4-8aec-d17f3479ae50) 中查找本文的英文版本以便参考。
   
 加入会议时，音频会议自动助理的 Skype for Business 和 Microsoft 团队可以在不同语言的许多问候音频的呼叫者。
   
 选择一种主要语言和最多四种辅助语言。 自动助理首先使用你设置的主要语言，并按照你选择的顺序使用辅助语言。 
   
-> [!注释]
+> [!NOTE]
 > 您只能配置国内音频访问电话号码的语言。 
   
 ## 设置会议自动助理语言
@@ -42,7 +42,7 @@ description: "See how to select the auto-attendant lanugages for a dial-in confe
     
 5. 在 **设置语言**页面上，单击 **主要语言**列表，以查看可用语言的完整列表。如果需要请单击每个 **辅助语言**列表以选择辅助语言。
     
-    > [!注释]
+    > [!NOTE]
     > 列出支持的主要和辅助语言。在其中选择它们的列表中的顺序将向呼叫者提供的语言的顺序。 
   
 6. 单击" **保存**"。
@@ -64,7 +64,7 @@ description: "See how to select the auto-attendant lanugages for a dial-in confe
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

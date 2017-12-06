@@ -15,7 +15,7 @@ description: "Use PowerShell to manage Exchange Unified Messaging capabilities s
 
 # 管理 Exchange 统一消息和托管语音邮件在 Skype for Business Online
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](707198df-df85-4833-9c15-aa29b71f085c.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/707198df-df85-4833-9c15-aa29b71f085c) 中查找本文的英文版本以便参考。
   
 您可以管理Exchange统一消息和中使用一组 cmdlet Skype for Business Online托管语音邮件。
@@ -32,7 +32,7 @@ description: "Use PowerShell to manage Exchange Unified Messaging capabilities s
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

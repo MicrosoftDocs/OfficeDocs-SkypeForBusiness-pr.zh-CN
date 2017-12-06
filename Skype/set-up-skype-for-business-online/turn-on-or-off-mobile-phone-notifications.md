@@ -18,7 +18,7 @@ description: "Learn how to turn mobile phone notirications on or off so your use
 
 # 打开或关闭移动电话通知
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](2de47013-4f09-493c-abc5-372f56ad69e3.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/2de47013-4f09-493c-abc5-372f56ad69e3) 中查找本文的英文版本以便参考。
   
 作为您的组织的 **[在 Office 365 中分配管理员角色](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** ，您可以选择在其手机或平板电脑上时， Skype for Business用户是否接收有关传入和错过的即时消息通知。
@@ -44,13 +44,13 @@ description: "Learn how to turn mobile phone notirications on or off so your use
     
 - 当关闭推送通知时，用户将无法再打开推送通知。
     
-> [!重要信息]
+> [!IMPORTANT]
 > Microsoft 使用其他公司提供实时Skype for Business for Windows Phone、 iPhone 和 iPad 用户移动通知。请参阅[Microsoft Skype for Business 产品的隐私声明](https://go.microsoft.com/fwlink/p/?linkid=247732)。 
   
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

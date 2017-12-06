@@ -23,7 +23,7 @@ description: "Learn what Office 365 Callings Plans (PSTN calling) are, what regi
 
 # 什么是致电 Office 365 中计划？
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](3dc773b9-95e0-4448-b2f1-887c54022429.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/3dc773b9-95e0-4448-b2f1-887c54022429) 中查找本文的英文版本以便参考。
   
 调用计划是一种加载项电话服务，与 Office 365 中的电话系统结合使用时可能会为您的整个组织的电话系统。用户在您的企业提供的主要电话号码呼叫计划，并可以拨打和接听电话呼叫您的组织外部的人员。 有两种类型的呼叫计划： **规划调用国内**和 **国际呼叫计划**。若要了解详细信息，请参阅[致电 office 365 计划](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md)。
@@ -55,7 +55,7 @@ description: "Learn what Office 365 Callings Plans (PSTN calling) are, what regi
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

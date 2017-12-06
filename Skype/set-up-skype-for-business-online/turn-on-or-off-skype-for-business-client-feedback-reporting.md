@@ -13,7 +13,7 @@ description: "此功能当前处于预览版，可能在发布或更新后有所
 
 # 开启或关闭 Skype for Business 客户端反馈报告
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](35562b48-1da1-4081-8a3a-033d0f1986b2.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/35562b48-1da1-4081-8a3a-033d0f1986b2) 中查找本文的英文版本以便参考。
   
  **此功能当前处于预览版，可能在发布或更新后有所更改。**
@@ -53,7 +53,7 @@ description: "此功能当前处于预览版，可能在发布或更新后有所
     
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     
-    > [!注释]
+    > [!NOTE]
     > 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
   
 > 
@@ -107,7 +107,7 @@ description: "此功能当前处于预览版，可能在发布或更新后有所
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

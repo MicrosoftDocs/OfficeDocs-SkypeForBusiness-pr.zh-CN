@@ -22,7 +22,7 @@ description: "本主题定义了 Skype for Business Online 服务的网络性能
   
 Azure ExpressRoute 不是包括 Skype for Business Online 在内的 Office 365 服务所必需的。 但 Azure ExpressRoute 是一个可用的部署选项，有助于确保与 Office 365 的连接满足 Skype for Business 的网络性能要求，并确保最优的 Skype for Business Online 媒体质量体验。
   
-> [!提示]
+> [!TIP]
 > 本主题提供了网络性能指导概述，但本文档并不包含完整的网络评估指导。要查找可以帮助你在全面、完整的网络评估中执行网络性能评测的 Skype for Business Online 合作伙伴列表，请访问 [Skype for Business 合作伙伴解决方案](http://partnersolutions.skypeforbusiness.com/)。 
   
 ## Skype for Business Online 的网络连接要求
@@ -37,7 +37,7 @@ Azure ExpressRoute 不是包括 Skype for Business Online 在内的 Office 365 �
   
 尽管并非必须使用经认证的音频和视频媒体设备，但强烈建议使用经 Skype for Business 认证的设备，以获得最佳媒体体验。有关经 Skype for Business 认证的设备列表，请参见 [Skype for Business 电话和设备](https://technet.microsoft.com/en-us/office/dn947482)。你可以使用位于 **Skype for Business 管理中心** 的[Skype for Business Online 呼叫质量仪表板](https://support.office.com/en-us/article/Turning-on-and-using-Call-Quality-Dashboard-in-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c?ui=en-US&amp;rs=en-US&amp;ad=US)验证所使用的设备是否正常工作并监视音频和视频媒体质量。
   
-> [!提示]
+> [!TIP]
 > **要获得最佳的 Skype for Business 媒体质量体验，需要使用经认证的设备** 。
   
 请务必记住，实时媒体流经的任何媒体设备、Skype for Business 客户端和 Skype for Business 服务器都会带来某种程度的延迟。 设备和软件处理的延迟以及网络延迟都对端到端整体延迟和最终用户体验有很大影响。
@@ -60,7 +60,7 @@ Azure ExpressRoute 不是包括 Skype for Business Online 在内的 Office 365 �
     
 - **跨包到达抖动或抖动** 这是连续数据包到达延迟的平均变化率。包括 Skype for Business 在内的大部分现代 VoIP 软件可通过缓冲接受一定程度的抖动。仅在抖动超过缓冲时，参与者才会注意到抖动的影响。
     
-> [!注释]
+> [!NOTE]
 >  抖动缓冲会增加端到端延迟。
   
 对于许多并发 Skype for Business Online 实时媒体会话和其他 Office 365 服务及业务应用程序生成的网络流量来说，确保连接网络与 Skype for Business Online 服务的整个网络路径上有足够的带宽是避免网络拥堵、确保出色的实时媒体（音频、视频和应用程序共享）质量的关键。 
@@ -111,7 +111,7 @@ Skype for Business 实时媒体在多种不同的设备、客户端应用、服�
 
 要获得最佳 Skype for Business 媒体质量，对于从公司网络到 Microsoft Network Edge 的连接需要满足以下网络性能指标目标或阈值。 此网段包括你的内部网络，其中包括所有 WiFi 和以太网连接、通过 WAN 连接的任何公司站点到站点流量，例如多协议标签交换 (MPLS)，以及与 Microsoft Network Edge 的 Internet 或 ExpressRoute 合作伙伴连接。
   
-> [!警告]
+> [!CAUTION]
 > **公司网络上的 Skype for Business 客户端与 Office 365 服务间的连接必须满足以下网络性能要求和阈值。**
   
 |||
@@ -137,7 +137,7 @@ Skype for Business 实时媒体在多种不同的设备、客户端应用、服�
 
 以下是连接网络边缘和 Microsoft Network Edge 所需的网络性能目标或阈值。 该网段不包括客户的内部网络或 WAN，并预计在通过 Internet 或 ExpressRoute 合作伙伴网络发送网络流量时作为你测试网络流量的指导，此外也可在与 ExpressRoute 提供商协商性能服务等级协议时使用。
   
-> [!警告]
+> [!CAUTION]
 > **公司网络边缘与 Microsoft Network Edge 间的连接必须满足以下网络性能要求和阈值。**
   
 |||
@@ -240,7 +240,7 @@ Office 365 是使用 Internet 的高性能且安全的服务。 我们一如既�
     
 - 由于 Microsoft Network 问题导致的语音质量问题。
     
-> [!注释]
+> [!NOTE]
 > 语音质量 SLA 不包括：由包含 ExpressRoute 合作伙伴网络和其他网络在内的非 Microsoft 网络引起的低通话质量呼叫。 
   
 ### Internet 或 Azure ExpressRoute？

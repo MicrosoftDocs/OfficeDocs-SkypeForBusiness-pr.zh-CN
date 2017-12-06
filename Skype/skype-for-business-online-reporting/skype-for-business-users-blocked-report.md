@@ -15,14 +15,14 @@ description: "Learn about setting up Skype for Business Online domain federation
 
 # Skype for Business 用户阻止报表
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](0ac844b2-1b08-4e5a-addf-03cde7af7a40.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/0ac844b2-1b08-4e5a-addf-03cde7af7a40) 中查找本文的英文版本以便参考。
   
 新的 Skype for Business **报表**仪表板显示您的组织中的业务产品 Skype 跨活动概述。它使您能够为您提供更精细地了解每种产品中的活动的具体产品级别报告中钻取。 例如，可以使用 **Skype 商业版用户阻止**报表以查看您的组织中的已阻止从进行 PSTN 呼叫的用户。此报表，以及其他 Skype for Business 报表提供有关的活动，包括您的组织中的 PSTN 用法详细信息。
   
 查看可用的报表详细信息[Office 365 管理中心中的活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)。
   
-> [!注释]
+> [!NOTE]
 > 以管理员身份登录 Office 365 管理中心后，可以查看所有 Skype for Business 报告。 
   
 ## 如何获得商业版用户 Skype 阻止报表
@@ -62,7 +62,7 @@ description: "Learn about setting up Skype for Business Online domain federation
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

@@ -19,14 +19,14 @@ description: "全新的 Office 365 报告仪表板会为你显示组织中不同
 
 # Skype for Business 设备使用率报告
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](b9019c36-034f-40c7-acb0-c2a0400b03c3.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/b9019c36-034f-40c7-acb0-c2a0400b03c3) 中查找本文的英文版本以便参考。
   
 全新的 Office 365 **报告**仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，你可以使用" **使用的 Skype for Business 会议客户端**"报告查看已安装 Skype for Business 应用并且正在使用该应用进行即时消息和会议通信的设备，包括基于 Windows 的操作系统和移动设备。 查看"[Office 365 管理中心中的活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)"以了解详情。
   
 此报告以及其他 Skype for Business 报告会为你提供整个组织内部使用的客户端/设备类型的详细信息。当你为组织进行调查、规划及执行其他业务决策时，这些详细信息非常有用。
   
-> [!注释]
+> [!NOTE]
 > 以管理员身份登录 Office 365 管理中心后，可以查看所有 Skype for Business 报告。 
   
 ## 如何访问"使用的 Skype for Business 客户端"报告
@@ -39,7 +39,7 @@ description: "全新的 Office 365 报告仪表板会为你显示组织中不同
     
      ![Skype for Business Clients Used Report widget.](../images/37fde85f-b829-41ab-b3fa-1ac417eb683d.png)
   
-    > [!重要信息]
+    > [!IMPORTANT]
     > 你可能无法看到此处所示的所有产品和活动报告，具体取决于你拥有的 Office 365 订阅。 
   
 ## 解释"使用的 Skype for Business 客户端"报告
@@ -79,7 +79,7 @@ description: "全新的 Office 365 报告仪表板会为你显示组织中不同
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

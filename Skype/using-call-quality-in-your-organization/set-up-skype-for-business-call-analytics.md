@@ -14,7 +14,7 @@ description: "Set up and use Call Analytics to identify and troubleshoot Skype f
 
 # 设置 Skype for Business 呼叫分析
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](fbf7247a-84ae-46cc-9204-2c45b1c734cd.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/fbf7247a-84ae-46cc-9204-2c45b1c734cd) 中查找本文的英文版本以便参考。
   
 作为Skype for Business Online管理员，您可以使用呼叫分析Skype for Business和Microsoft Teams呼叫质量和连接问题疑难解答。您可能会发现有用设置呼叫分析中的下列功能：
@@ -23,7 +23,7 @@ description: "Set up and use Call Analytics to identify and troubleshoot Skype f
     
 - 上载.tsv 或.csv 数据文件，可以将构建、 站点和租户信息添加到呼叫分析。
     
-> [!注释]
+> [!NOTE]
 > 正在预览呼叫分析。文本和图像此处所述可能与您的体验。 
   
 ## 设置呼叫分析权限
@@ -53,7 +53,7 @@ description: "Set up and use Call Analytics to identify and troubleshoot Skype f
     
 2. 在Office 365 管理中心中，转到 **中心的管理员**> **Skype for Business**。
     
-    > [!注释]
+    > [!NOTE]
     > 如果您先进入旧Skype for Business管理中心中，请通过单击 **附带试用我们新的管理中心**转到最新版本。 
   
 3. 在新的Skype for Business管理中心中，单击 **权限**。
@@ -78,7 +78,7 @@ description: "Set up and use Call Analytics to identify and troubleshoot Skype f
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

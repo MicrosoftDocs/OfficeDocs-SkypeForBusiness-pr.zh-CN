@@ -18,7 +18,7 @@ description: "Learn to add, change, or remove an emergency location used by  Sky
 
 # 添加、 更改或删除您的组织紧急地点
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](11cadb26-534d-41db-af6b-1f648edfd907.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/11cadb26-534d-41db-af6b-1f648edfd907) 中查找本文的英文版本以便参考。
   
 根据您的组织中的物理位置的数量，您可以创建紧急建筑物、 楼层和办公室创建更具体的紧急地址的位置。请参阅[什么是紧急位置、地址和呼叫路由？](what-are-emergency-locations-addresses-and-call-routing.md)的详细信息。
@@ -78,7 +78,7 @@ description: "Learn to add, change, or remove an emergency location used by  Sky
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

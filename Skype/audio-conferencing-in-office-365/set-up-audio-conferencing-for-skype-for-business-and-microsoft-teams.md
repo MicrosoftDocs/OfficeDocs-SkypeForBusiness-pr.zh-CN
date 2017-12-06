@@ -25,7 +25,7 @@ description: "Learn how to set up dial-in or audio conferencing (PSTN Conferenci
 
 # 设置音频会议 for Skype Business 和 Microsoft 团队
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](d01954f1-4f37-4cf5-a636-20039e5c59e9.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/d01954f1-4f37-4cf5-a636-20039e5c59e9) 中查找本文的英文版本以便参考。
   
 有时您组织中的人员将需要使用电话拨入会议。Skype for Business和 Microsoft 团队包括只需这种情况的音频会议功能 ！用户可以拨入Skype for Business或使用电话，而不在移动设备或电脑上使用Skype for Business或 Microsoft 小组应用程序的 Microsoft 小组会议。
@@ -52,14 +52,14 @@ description: "Learn how to set up dial-in or audio conferencing (PSTN Conferenci
 
 音频会议提供商提供的 *音频会议网桥*  。会议网桥设置拨入电话号码、 Pin 和会议 Id 的会议。决定是否使用 Microsoft 或第三方音频会议提供商：
   
-> [!注释]
+> [!NOTE]
 > Microsoft 团队用户不能用户第三方音频会议提供商。 
   
 - **使用 Microsoft 作为您的音频会议提供商** ： 如果您希望的音频会议的最简单的解决方案，选择 Microsoft 作为您的音频会议提供商。
     
 - **第三方作为您的音频会议提供商** ： 如果您在其中不可用的 Office 365 中的音频会议、 服务质量好由于它的位置，或不具有现有合同国家/地区，请选择第三方音频会议提供商。若要查找提供商，请转到 **[Microsoft PinPoint](http://go.microsoft.com/fwlink/?LinkId=797530)** 。
     
-> [!提示]
+> [!TIP]
 > 在您的组织，您可以使用 Microsoft 作为其音频会议提供商，某些人员和其他人使用第三方提供商。但是，这会为您设置和管理更加复杂。 
   
 为您的音频提供商的 Microsoft 和第三方提供商之间的详细比较，请参阅[比较音频会议提供商](compare-audio-conferencing-providers.md)。
@@ -86,7 +86,7 @@ description: "Learn how to set up dial-in or audio conferencing (PSTN Conferenci
     
 4. [设置音频会议的 PIN 的长度](set-the-length-of-the-pin-for-audio-conferencing-meetings.md) 。
     
-> [!注释]
+> [!NOTE]
 > 使用由世纪互联运营的 Office 365 的中国用户尚无法使用此功能。有关详情，请参阅[了解由世纪互联运营的 Office 365](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)。 
   
 ||
@@ -96,7 +96,7 @@ description: "Learn how to set up dial-in or audio conferencing (PSTN Conferenci
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

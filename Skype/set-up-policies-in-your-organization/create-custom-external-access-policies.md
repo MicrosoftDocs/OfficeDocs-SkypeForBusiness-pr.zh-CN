@@ -13,7 +13,7 @@ description: "Skype for Business Online 使您可以创建其他外部访问策�
 
 # 创建自定义外部访问策略
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](89cbd278-5480-473c-8cd9-04e07e5f9e0b.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/89cbd278-5480-473c-8cd9-04e07e5f9e0b) 中查找本文的英文版本以便参考。
   
 Skype for Business Online 使您可以创建其他外部访问策略。与客户端或会议的策略，在其中可以有多个组合，有三种方案的大部分的预定义的外部访问策略。以下是：
@@ -34,7 +34,7 @@ Skype for Business Online 使您可以创建其他外部访问策略。与客户
 |当前频道  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> | 版本 1611（内部版本 7571.2072） <br/> |
 |延期频道  <br/> |2017-2/22  <br/> |16.0.7369.2118  <br/> |版本 1609 （构建 7369.2118）  <br/> |
    
-> [!警告]
+> [!CAUTION]
 > 使用较旧版本的 Skype for Business Windows 应用程序或 Mac 客户端的用户仍然可以将文件传送。 
   
 ## 验证并启动 Windows PowerShell
@@ -57,7 +57,7 @@ Skype for Business Online 使您可以创建其他外部访问策略。与客户
     
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     
-    > [!注释]
+    > [!NOTE]
     > 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
   
 > 
@@ -116,7 +116,7 @@ Skype for Business Online 使您可以创建其他外部访问策略。与客户
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

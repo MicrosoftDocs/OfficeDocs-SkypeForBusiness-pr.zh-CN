@@ -16,7 +16,7 @@ description: "本文旨在介绍 Skype for Business Online 和 ExpressRoute 的�
 
 # 使用 ExpressRoute 的呼叫流
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](413acb29-ad83-4393-9402-51d88e7561ab.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/413acb29-ad83-4393-9402-51d88e7561ab) 中查找本文的英文版本以便参考。
   
 本文旨在介绍 Skype for Business Online 和 ExpressRoute 的核心呼叫流原理，并提供详细呼叫流示例来帮助你正确理解和规划呼叫流。
@@ -103,7 +103,7 @@ Skype for Business Online 的网络流量分为两大类，显示为单独的路
 
 为帮助你运用上文所述的有关 Skype for Business 呼叫流的一般原理，本文在下一节中列出了几个参考示意图。它并没有列出所有可能的呼叫流，只是为了帮助你运用上述原理。另外，示意图中所选择的场景涵盖了常见部署类型，包括 Online、Hybrid、Cloud Connector 以及 Skype 会议广播这个特殊用例。
   
-> [!注释]
+> [!NOTE]
 > 使用 Skype for Business 的通信的子集适用 ExpressRoute，在未可路由并始终将 Internet 路径。请参阅[Office 365 URL 和 IP 地址范围](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)以确定 Url 可能会受到影响。 
   
 ### 从客户网络中的 Office 365 用户的对等呼叫
@@ -196,7 +196,7 @@ Skype for Business Online 的使用方案涉及托管联机，并可能从您的
 |PSTN 呼叫  <br/> |在客户网络并在 Office 365 云的电话系统服务器中的客户端  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[你的网络中的 Online 用户加入托管在 Online 的会议](413acb29-ad83-4393-9402-51d88e7561ab.md#bk_Figure3) <br/> ||
 |PSTN 呼叫  <br/> |在 Office 365 云的 Internet 和电话系统服务器上的客户端  <br/> |Internet  <br/> |Internet  <br/> |不适用  <br/> |媒体和信号将流向 Office 365 数据中心。由于 Internet 上的客户端终结点，所有数据将都流至 Microsoft 数据中心跨 Internet （即使 Online Edge 服务器需要连接）。  <br/> |
    
-> [!注释]
+> [!NOTE]
 > 适用 ExpressRoute 将在位于联机边缘服务器上，向公司网络上的用户的媒体路径中使用，但如果使用另一个客户本地部署边缘服务器不会使用。 
   
 ### Skype for Business Hybrid 呼叫流
@@ -225,7 +225,7 @@ Skype for Business Online 的使用方案涉及托管联机，并可能从您的
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

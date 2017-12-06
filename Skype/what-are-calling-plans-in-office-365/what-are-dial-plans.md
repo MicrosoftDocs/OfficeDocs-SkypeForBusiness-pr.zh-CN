@@ -14,7 +14,7 @@ description: "Learn what type of dial calling plans (PSTN Calling dial plans) ar
 
 # 什么是拨号计划？
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b) 中查找本文的英文版本以便参考。
   
 拨号计划是一组指定的规范化规则，可将单个用户拨打的电话号码转换为替代格式（通常为 E.164），以用于呼叫授权和呼叫路由。
@@ -73,12 +73,12 @@ description: "Learn what type of dial calling plans (PSTN Calling dial plans) ar
   
 ### 外部访问前缀
 
-> [!警告]
+> [!CAUTION]
 > 当前不支持外部访问前缀。 
   
 如果用户需要拨打一个或多个附加的前导数位（例如，9）来获取外线，则可指定最多包含四个字符（#、* 和 0-9）的外部访问前缀。
   
-> [!注释]
+> [!NOTE]
 > 如果指定外部访问前缀，则不必创建附加的规范化规则来涵盖该前缀。 
   
 请参阅[创建和管理拨号计划](create-and-manage-dial-plans.md)以创建您的租户拨号计划。
@@ -131,7 +131,7 @@ description: "Learn what type of dial calling plans (PSTN Calling dial plans) ar
 |RedmondSitePrefix  <br/> |
 |RedmondOperator  <br/> |
    
-> [!注释]
+> [!NOTE]
 > 上表中所示的规范化规则名称不包含空格，你可以选择是否要包含。例如，该表中的第一个名称，本应写成"5 digit extension"或"5-digit Extension"，但它仍然有效。 
   
 ## 相关主题
@@ -141,7 +141,7 @@ description: "Learn what type of dial calling plans (PSTN Calling dial plans) ar
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

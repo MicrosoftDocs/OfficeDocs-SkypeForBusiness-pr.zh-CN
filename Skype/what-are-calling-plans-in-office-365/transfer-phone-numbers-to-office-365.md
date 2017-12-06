@@ -23,19 +23,19 @@ description: "Learn what you need to know and do before porting phone numbers to
 
 # 将电话号码转移到 Office 365
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](47b3af8e-4171-4dec-8333-c956f108664e.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/47b3af8e-4171-4dec-8333-c956f108664e) 中查找本文的英文版本以便参考。
   
 将你的电话号码从当前的服务提供商转移到 Skype for Business 很简单。将你的电话号码转网到 Skype for Business 之后，Microsoft 将成为你的服务提供商并为你出具这些号码的账单。
   
 转接电话号码在开始之前，我们建议您查看[转接电话号码的常见问题](transferring-phone-numbers-common-questions.md)中的信息。如果您有服务拨入式会议网桥、 自动助理或其他服务的数字的数字，免费电话号码或有多个 999 用户 （订阅服务器） 电话号码，您需要将传输到Skype for Business，请参阅[手动提交自定义服务请求](manually-submit-a-custom-service-request.md)下载正确的窗体并将其发送给我们。
-> [!注释]
+> [!NOTE]
 > 我们处理端口订单仅在美国工作日上而不是在公共假日或周末转接电话号码。 
   
 ## 如何创建转网订单并将电话号码转移到 Skype for Business
 <a name="bk_LNPcountries_1"> </a>
 
-> [!注释]
+> [!NOTE]
 > 如果您有服务拨入式会议网桥、 自动助理或其他服务的数字的数字，免费电话号码或有多个 999 用户 （订阅服务器） 电话号码，您需要将传输到Skype for Business，请参阅[手动提交自定义服务请求](manually-submit-a-custom-service-request.md)下载正确的窗体并将其发送给我们。 
   
 1. 使用你的工作或学校帐户登录 Office 365。
@@ -56,12 +56,12 @@ description: "Learn what you need to know and do before porting phone numbers to
     
   - **公司名称** 这是你的公司或组织的名称。
     
-    > [!注释]
+    > [!NOTE]
     > " **公司名称**"框将仅接受包括空格在内的 25 个字符。如果公司名称超过 25 个字符，将提交名称的前 25 个字符，仍将处理转网订单。 
   
   - **授权人员**授权用户的姓名。
     
-    > [!注释]
+    > [!NOTE]
     > " **授权人员**"框将仅接受包括空格在内的 15 个字符。如果授权人员的姓名超过 15 个字符，将提交姓名的前 15 个字符，仍将处理转网订单。 
   
   - **服务地址**帐户的服务地址。这会列在服务提供商或运营商的帐单上。
@@ -70,7 +70,7 @@ description: "Learn what you need to know and do before porting phone numbers to
     
 6. 在 **号码**页面中，输入您想要转移 E.164 格式中的电话号码。例如，对于北美地区数字，使用格式 + 1XXXYYYZZZZ。通过使用逗号分隔多个电话号码。
     
-    > [!注释]
+    > [!NOTE]
     > 如果要执行完整转网，你需要在列表中包括服务付费电话号码 (BTN)。如果要执行部分转网，请不要在此列表中包括服务付费电话号码 (BTN)。 
   
     如果要执行完整转网，请选择" **我正在从我当前的运营商转移我的所有号码**"。如果要执行部分转网，请选择" **我只转移我的部分号码**"。在选择合适的选项之后，请单击" **请检查号码可转网性**"。
@@ -114,7 +114,7 @@ description: "Learn what you need to know and do before porting phone numbers to
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

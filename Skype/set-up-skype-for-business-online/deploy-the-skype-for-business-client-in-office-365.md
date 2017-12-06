@@ -20,14 +20,14 @@ description: "Learn how to plan and deploy Skype for Business in small, medium, 
 
 # 在 Office 365 中部署 Skype for Business 客户端
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](8c563b81-22c9-4024-9efe-9fe28c7bbc96.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96) 中查找本文的英文版本以便参考。
   
 本文介绍作为 **[在 Office 365 中分配管理员角色](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** 的你为你的组织内的用户部署 Skype for Business 应用的方法。
   
 您将Skype for Business部署到您的用户之前，请确保您已完成文章[设置 Skype for Business Online](set-up-skype-for-business-online.md)中的步骤 1-3。这种方式， Skype for Business将设置与您的域，每个人都将其许可证，并且您将已配置即时消息和[在 Skype for Business Online 中配置状态](configure-presence-in-skype-for-business-online.md)为您的组织。
   
-> [!注释]
+> [!NOTE]
 > 为用户安装Skype for Business应用程序，他们需要在其计算机或设备上的本地管理员。或者，他们将需要可以在其计算机或设备安装的应用程序的本地组的一部分。如果您的用户不允许使用的设备上安装软件，您需要安装Skype for Business应用程序。 
   
 ## 对于大多数中小型企业
@@ -48,7 +48,7 @@ description: "Learn how to plan and deploy Skype for Business in small, medium, 
     
     ![Choose which software you want the user to access.](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
-> [!注释]
+> [!NOTE]
 > 如果需要您可以看到哪种计划分配给您的组织中的用户登录到新Office 365 管理中心 > **用户**> **活动用户**。从列表中选择的人员，然后在 **产品许可证**下查找。如果您使用的经典Office 365 管理中心，查看在 **分配的许可证**下。 
   
 ### 手动为用户部署 Skype for Business
@@ -64,7 +64,7 @@ description: "Learn how to plan and deploy Skype for Business in small, medium, 
   
 ## 对于较大和企业组织
 
-> [!注释]
+> [!NOTE]
 >  本节仅适用于通过 Office 365 计划提供的 Skype for Business 应用。如果你的组织使用的是 Skype for Business 应用的批量许可版本（其基于 Windows Installer (MSI)），请参阅[自定义 Skype for Business Server 2015 中的客户端安装](https://technet.microsoft.com/zh-cn/library/jj204934.aspx)。 
   
 在许多企业或大型组织，不允许用户在其计算机上安装软件。相反，IT 部门部署到用户的计算机所需的软件。IT 部门也可能希望控制的 Internet 或网络带宽使用在其组织中，以便他们想要从附近的位置，而不是从其网络上安装软件，通过 Internet 或在公司网络。
@@ -154,7 +154,7 @@ description: "Learn how to plan and deploy Skype for Business in small, medium, 
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

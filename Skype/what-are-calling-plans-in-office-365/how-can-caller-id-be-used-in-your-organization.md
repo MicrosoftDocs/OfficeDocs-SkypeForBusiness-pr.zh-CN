@@ -14,7 +14,7 @@ description: "通过使用称为 CallingLineIdentity 策略，可以为电话系
 
 # 如何在你的组织中使用来电显示
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](5a0bd8ba-3334-46ee-becf-1025597737f6.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/5a0bd8ba-3334-46ee-becf-1025597737f6) 中查找本文的英文版本以便参考。
   
 通过使用称为 CallingLineIdentity 策略，可以为电话系统的用户的入站和出站呼叫控制的呼叫者 ID。
@@ -27,7 +27,7 @@ description: "通过使用称为 CallingLineIdentity 策略，可以为电话系
     
 - 使用 Skype for Business Server 的内部部署 PSTN 连接（要求使用 Skype for Business Server 2015 CU5 及更高版本）
     
-> [!注释]
+> [!NOTE]
 > 此策略在 Skype for Business 2015 Server 上不可用。 
   
 ## 出站来电显示
@@ -74,7 +74,7 @@ BlockIncomingCallerID 属性允许阻止传入 PSTN 呼叫的呼叫者 ID。您�
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

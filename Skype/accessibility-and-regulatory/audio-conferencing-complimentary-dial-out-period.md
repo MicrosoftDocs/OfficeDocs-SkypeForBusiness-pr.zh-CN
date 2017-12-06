@@ -18,7 +18,7 @@ description: ""
 
 # 音频会议免费拨出时间段
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](dc6e95cd-51e8-49ca-bcd3-78dc9dae486a.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/dc6e95cd-51e8-49ca-bcd3-78dc9dae486a) 中查找本文的英文版本以便参考。
   
 ## Skype for Business PSTN 服务
@@ -76,13 +76,13 @@ description: ""
 |英国  <br/> |
 |美国  <br/> |
    
-> [!警告]
+> [!CAUTION]
 > 开始年 7 月 1 2018年所有 Office 365 音频会议订阅将都还原到拨出的标准服务条款从 Office 365 音频会议许可证分配组织的用户的会议 
   
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

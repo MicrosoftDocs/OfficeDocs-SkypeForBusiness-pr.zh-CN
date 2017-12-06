@@ -18,7 +18,7 @@ description: "Learn the parameters for the length and requirements of a PIN and 
 
 # 设置音频会议的 PIN 的长度
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](b86d31c6-1543-478f-b8c6-4b71e708403a.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/b86d31c6-1543-478f-b8c6-4b71e708403a) 中查找本文的英文版本以便参考。
   
 当您正在设置中的音频会议 for Skype 商业版或 Microsoft 团队时，您将收到音频会议网桥。会议网桥可以包含一个或多个电话号码。设置您的电话号码将包含在会议邀请的 Skype for Business 和 Microsoft 小组的应用程序。
@@ -35,7 +35,7 @@ description: "Learn the parameters for the length and requirements of a PIN and 
     
 4. 在 **安全性**下 > **PIN 长度**，选择所需的 pin，位数，然后单击 **保存**。
     
-> [!注释]
+> [!NOTE]
 > PIN 与会议 ID 不同。 会议 ID 由呼叫者在加入会议时使用。 它们用于标识会议。 PIN 用于对作为会议组织者的呼叫者进行身份验证。 
   
 ## 想要了解有关 PIN 设置的详细信息？
@@ -68,13 +68,13 @@ description: "Learn the parameters for the length and requirements of a PIN and 
     
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-    > [!注释]
+    > [!NOTE]
     > 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。 
   
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

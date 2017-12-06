@@ -18,12 +18,12 @@ description: "如果设置了音频会议 for Skype Business 和 Microsoft 团�
 
 # 比较音频会议提供商
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](b0d2b50e-def3-4bd8-82d4-a27f4b6f205c.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/b0d2b50e-def3-4bd8-82d4-a27f4b6f205c) 中查找本文的英文版本以便参考。
   
 如果设置了音频会议 for Skype Business 和 Microsoft 团队，您需要选择音频会议提供商。您可以选择 Microsoft 或第三方作为您的音频会议提供商。
   
-> [!重要信息]
+> [!IMPORTANT]
 > Microsoft 团队用户不能使用第三方音频会议提供商。 
   
 音频会议提供商执行下列操作：
@@ -75,7 +75,7 @@ description: "如果设置了音频会议 for Skype Business 和 Microsoft 团�
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

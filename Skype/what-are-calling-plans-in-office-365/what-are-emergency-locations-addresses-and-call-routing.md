@@ -20,7 +20,7 @@ description: "Learn what emergency address, location, and emergency call routing
 
 # 什么是紧急位置、地址和呼叫路由？
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](589bf5f5-490a-4215-8588-99bab7d33e31.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/589bf5f5-490a-4215-8588-99bab7d33e31) 中查找本文的英文版本以便参考。
   
 要在 Office 365 中配置调用计划，它是必需的紧急地址分配给每个电话号码时，您可以获得的电话号码，或者当其分配给用户支持紧急呼叫。电话号码紧急的地址之前，必须创建并验证紧急的地址。验证确保紧急地址被识别和处于可以由紧急响应服务使用的正确格式。（可选） 可以添加紧急地址中的某个位置，提供更多特定位置的用户。例如，floor、 机翼或链接到特定紧急地址的 office，则可能是紧急的位置。 即使紧急地址进行验证，则不可位置。
@@ -49,7 +49,7 @@ description: "Learn what emergency address, location, and emergency call routing
     
 2. **创建并验证紧急位置** 下一步是创建和验证紧急地址。当你创建紧急地址时，可以验证它。要创建紧急地址，请参阅[为你的组织添加或删除紧急地址](add-or-remove-an-emergency-address-for-your-organization.md)。
     
-    > [!重要信息]
+    > [!IMPORTANT]
     > 验证的街道或市镇地址涉及确保它合法和正确格式。很可能部分正确的紧急地址，例如输入错误名称的城市，可能仍通过通过验证。验证过程使用给定的地址的所有部分确定它是否包含足够的信息来传送到相应的紧急派遣中心呼叫。 如果是这样，它会返回验证，然后可以分配给电话号码。 
   
 3. **获取电话号码**下一步是为您的用户获取电话号码。通过 Office 365 中收到新的电话号码或""导入或将您现有的电话号码，通过转到 Office 365，您可以执行此操作。若要完成的步骤，请参阅[将电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md)。
@@ -59,7 +59,7 @@ description: "Learn what emergency address, location, and emergency call routing
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

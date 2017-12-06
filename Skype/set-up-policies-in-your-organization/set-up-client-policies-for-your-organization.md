@@ -13,7 +13,7 @@ description: "客户端策略帮助确定可供用户使用的 Skype for Busines
 
 # 设置为您的组织的客户端策略
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](0326b19f-4fd1-4b74-8791-df4c09a964b9.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/0326b19f-4fd1-4b74-8791-df4c09a964b9) 中查找本文的英文版本以便参考。
   
 客户端策略帮助确定可供用户使用的 Skype for Business Online 功能；例如，你可以为一些用户提供传输文件的权限，但拒绝其他用户拥有此权限。
@@ -22,7 +22,7 @@ description: "客户端策略帮助确定可供用户使用的 Skype for Busines
   
 ## 设置你的客户端策略
 
-> [!注释]
+> [!NOTE]
 > 对于所有在 Skype for Business Online 的客户端策略设置，您必须使用 Windows PowerShell 和您 **不能使用** **Skype for Business 管理中心**。 
   
 ### 验证并启动 Windows PowerShell
@@ -45,7 +45,7 @@ description: "客户端策略帮助确定可供用户使用的 Skype for Busines
     
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     
-    > [!注释]
+    > [!NOTE]
     > 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
   
 > 
@@ -155,7 +155,7 @@ description: "客户端策略帮助确定可供用户使用的 Skype for Busines
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

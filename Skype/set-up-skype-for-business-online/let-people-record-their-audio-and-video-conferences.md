@@ -18,7 +18,7 @@ description: "How to turn on recording for audio and video conferences, and lear
 
 # 让人员可以录制其音频和视频会议
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](122cb43d-b57a-4b93-b902-a1a432e7de28.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/122cb43d-b57a-4b93-b902-a1a432e7de28) 中查找本文的英文版本以便参考。
   
 ## 为你的组织中的单个用户或所有人选择默认录制设置
@@ -40,7 +40,7 @@ description: "How to turn on recording for audio and video conferences, and lear
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

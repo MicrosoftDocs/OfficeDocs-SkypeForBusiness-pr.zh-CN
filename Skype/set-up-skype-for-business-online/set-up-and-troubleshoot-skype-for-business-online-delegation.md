@@ -13,7 +13,7 @@ description: "本文介绍如何设置和疑难解答 Skype for Business Online 
 
 # 设置和疑难解答 Skype for Business Online 委派
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](e676b911-5f82-41d8-b4ce-3d0d45c3cd04.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/e676b911-5f82-41d8-b4ce-3d0d45c3cd04) 中查找本文的英文版本以便参考。
   
 本文介绍如何设置和疑难解答 Skype for Business Online 委派。本文提供了指南设置建议、 最佳做法和疑难解答步骤。
@@ -99,7 +99,7 @@ description: "本文介绍如何设置和疑难解答 Skype for Business Online 
 
 如果设置成功，代理应看到 **您已被添加为代理人 < 名称 >** **我管理呼叫的人**组中创建邮件，并显示。 代理者应看到 **代理人**组中创建的。
   
-> [!注释]
+> [!NOTE]
 > 委派权限通常出现在安装过程的 30 分钟内。但是，此过程可能需要多达 24 小时才能完成。 
   
 ## 疑难解答
@@ -120,12 +120,12 @@ description: "本文介绍如何设置和疑难解答 Skype for Business Online 
     
 - Skype for Business 基本客户端不支持。
     
-    > [!注释]
+    > [!NOTE]
     > 如果您安装 Skype for Business 基本客户端，它将删除，并断开委派。 
   
 - 如果 **MAPI 状态** 值不是 **确定** ，请确保 **SIP** 和 **SMTP** 值匹配。
     
-    > [!注释]
+    > [!NOTE]
     > 可能需要几分钟时间，MAPI 状态后您首次启动 Skype for Business 和 Outlook 显示为 **确定** 。
   
 - 创建安全组和添加委派该安全组的权限不受支持。
@@ -137,7 +137,7 @@ description: "本文介绍如何设置和疑难解答 Skype for Business Online 
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

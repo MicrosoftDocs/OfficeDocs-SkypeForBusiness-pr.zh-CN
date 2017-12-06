@@ -27,7 +27,7 @@ description: "Learn about Calling Plan (PSTN Calling plan) for Skype for busines
 
 # 致电 office 365 计划
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918) 中查找本文的英文版本以便参考。
   
 呼叫转接到其他Skype for Business和 Microsoft 团队用户是免费的但如果您希望用户能够呼叫常规电话，并且您还没有服务提供商进行语音呼叫，您需要购买呼叫计划。[什么是致电 Office 365 中计划？](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
@@ -40,7 +40,7 @@ description: "Learn about Calling Plan (PSTN Calling plan) for Skype for busines
     
 对于每个组织和每个国家/地区可用的每月分钟位于[国家和地区和的可用性音频会议呼叫计划](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   
-> [!重要信息]
+> [!IMPORTANT]
 > 国家/地区基于用户的许可证，在 **Office 365 管理中心中**的位置 > **活动用户**和 **未** 列出在 **Office 365 管理中心**中的 **组织配置文件**下的帐单地址。 > ![User's license location](../images/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 有关使用限制和使用条款的详细信息，请参阅[音频会议免费拨出时间段](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)。
@@ -51,7 +51,7 @@ description: "Learn about Calling Plan (PSTN Calling plan) for Skype for busines
     
     ![When you buy your Cloud PBX licenses, you'll see an option to buy a voice calling plan.](../images/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
-    > [!注释]
+    > [!NOTE]
     > 根据您的计划，您可能需要购买更多的加载项，您可以购买电话系统许可证之前。若要了解详细信息，请参阅[我需要购买哪些附加许可证才能获得更多功能？](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_whichaddons)
   
 2. 购买电话系统许可证后，您可以通过登录到 **Office 365 管理中心**购买调用规划、 选择 **帐单**> **购买服务**> **加载项订阅**> 单击 **立即购买**，您会看到那里呼叫计划。
@@ -99,7 +99,7 @@ description: "Learn about Calling Plan (PSTN Calling plan) for Skype for busines
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

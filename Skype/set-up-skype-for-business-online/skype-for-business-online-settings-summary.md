@@ -16,12 +16,12 @@ description: "This summary of Skype for Business organization and user settings 
 
 # Skype for Business Online 设置摘要
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](da3386ab-0397-4c55-b9f0-9dbeade93455.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/da3386ab-0397-4c55-b9f0-9dbeade93455) 中查找本文的英文版本以便参考。
   
  **Skype for Business 管理中心**包含你的整个组织以及单个用户的设置。
   
-> [!注释]
+> [!NOTE]
 > 根据您的位置，您可能没有Skype for Business Online的所有功能的访问权限。有关详细信息，请参阅[Office 365 的许可证限制](https://go.microsoft.com/fwlink/?LinkId=529483)。 
   
 ## Skype for Business Online 组织设置
@@ -48,7 +48,7 @@ description: "This summary of Skype for Business organization and user settings 
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

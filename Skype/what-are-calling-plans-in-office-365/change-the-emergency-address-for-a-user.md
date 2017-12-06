@@ -18,7 +18,7 @@ description: "See steps on how to change the emergency address for a user to wor
 
 # 更改用户的紧急地址
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](5412636c-ad0e-48a5-b199-5925156abee4.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/5412636c-ad0e-48a5-b199-5925156abee4) 中查找本文的英文版本以便参考。
   
 当您设置致电 Office 365 中计划时，您将需要将紧急的地址分配给每个电话号码或用户。欧洲国家/地区，紧急地址是电话号码与相关联时收到从 Office 365 或您将通过电话号码转移到 Office 365。在美国，紧急地址时关联的电话号码与分配给用户。如果它已分配给用户移动到新位置，可以更改紧急地址。有关详细信息紧急地址和位置，请参阅[什么是紧急位置、地址和呼叫路由？](what-are-emergency-locations-addresses-and-call-routing.md)
@@ -43,7 +43,7 @@ description: "See steps on how to change the emergency address for a user to wor
     
 7. 在 **更改紧急地址**框中输入的城市名称，然后单击 **搜索**。
     
-    > [!重要信息]
+    > [!IMPORTANT]
     > 您只能更改已验证紧急地址。若要更改未通过验证紧急地址，请删除它，并创建另一个紧急地址。 
   
 8. 从列表中，选择新的紧急地址，然后单击 **保存**。
@@ -51,7 +51,7 @@ description: "See steps on how to change the emergency address for a user to wor
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

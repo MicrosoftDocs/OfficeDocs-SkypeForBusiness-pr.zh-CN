@@ -17,12 +17,12 @@ description: "每个国家或地区具有不同获取电话号码的用户在 Sk
 
 # 管理您的组织的电话号码
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](6b61cb3c-361c-48a8-a9ef-d81bddde27bb.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/6b61cb3c-361c-48a8-a9ef-d81bddde27bb) 中查找本文的英文版本以便参考。
   
 每个国家或地区具有不同获取电话号码的用户在 Skype for Business Online 的说明。按照您所在国家或地区下面以获取所需的信息的链接。
   
-> [!注释]
+> [!NOTE]
 > 致电计划是否可在您所在国家或地区，请参阅[国家和地区和的可用性音频会议呼叫计划](../../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 为了帮助您选择的电话号码，您需要的类型，请阅读[不同类型的电话号码，用于进行呼叫计划](../../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md)。
@@ -66,7 +66,7 @@ description: "每个国家或地区具有不同获取电话号码的用户在 Sk
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

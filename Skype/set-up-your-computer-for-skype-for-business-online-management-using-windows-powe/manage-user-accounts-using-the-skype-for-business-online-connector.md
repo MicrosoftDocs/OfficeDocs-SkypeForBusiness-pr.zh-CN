@@ -14,7 +14,7 @@ description: "Use the Get-CsOnlineUser cmdlet in Windows PowerShell to get infor
 
 # 管理用户帐户使用 for Business Online 连接器的 Skype
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](a226b0d4-6359-42b8-808d-4b8ab3736d3b.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/a226b0d4-6359-42b8-808d-4b8ab3736d3b) 中查找本文的英文版本以便参考。
   
 ## 管理用户帐户
@@ -29,7 +29,7 @@ description: "Use the Get-CsOnlineUser cmdlet in Windows PowerShell to get infor
     
 - [返回在 Skype for Business Online 的用户已筛选的列表](a226b0d4-6359-42b8-808d-4b8ab3736d3b.md#BKMK_ReturnFilteredListofUsers)
     
-> [!注释]
+> [!NOTE]
 > Cmdlet 适用于Skype for Business Online管理员组中，也包括 **Set-CsUser** cmdlet。但是， **Set-CsUser** ，当前不能使用管理Skype for Business Online，除 _AudioVideoDisabled_参数设置。如果您尝试运行 cmdlet 与任何其他参数，它将失败，并与此类似一条错误消息： 无法设置"SipAddress"。此参数是受限租户的远程 PowerShell 内。 
   
 ### 返回有关所有您 Skype for Business Online 用户的信息
@@ -107,7 +107,7 @@ Get-CsOnlineUser -LdapFilter "department=Finance"
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

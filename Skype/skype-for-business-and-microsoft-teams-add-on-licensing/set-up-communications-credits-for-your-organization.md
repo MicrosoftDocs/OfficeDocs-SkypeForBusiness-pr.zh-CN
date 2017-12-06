@@ -15,12 +15,12 @@ description: "Learn how to set up communication credits (PSTN Consumption) billi
 
 # 为您的组织设置通信贷项
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](bb9f2a8d-f5be-41ed-9d19-25dea5ca9f52.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/bb9f2a8d-f5be-41ed-9d19-25dea5ca9f52) 中查找本文的英文版本以便参考。
   
 您将需要设置通信贷项，如果您想要使用 Skype for Business 和 Microsoft 小组免费电话号码。此外，我们建议您设置通信贷项调用计划 （国内或国际） 和音频会议的用户需要能够拨出到 **任何目标** 。多个国家/地区包括，但某些出行目的地可能不会包括在调用计划或音频会议订阅。如果您不设置帐单的通信贷项和分配给您的用户的 **通信贷项**许可证并运行出为您的组织的分钟数 （具体取决于您调用计划或音频会议计划您所在国家/地区），这些用户无法进行呼叫或从音频会议拨出。您可以获得详细信息，包括推荐阅读资金金额、[什么是通信贷项？](what-are-communications-credits.md)
   
-> [!注释]
+> [!NOTE]
 > 若要了解多少成本，[请参阅下面的费率](https://go.microsoft.com/fwlink/p/?LinkId=799523 )。 
   
 ## 步骤 1： 为用户分配音频会议并调用计划许可证
@@ -35,7 +35,7 @@ description: "Learn how to set up communication credits (PSTN Consumption) billi
     
 - 为用户分配 **电话系统**和国内或国际呼叫计划的许可证。请参阅[分配 Skype for Business 和 Microsoft 团队合作的用户许可证](assign-skype-for-business-and-microsoft-teams-licenses.md)。
     
-    > [!注释]
+    > [!NOTE]
     > 虽然它具有不需要的通信贷项，您仍需要也分配 **国内调用计划**或 **国际呼叫计划**的许可证。 
   
     分配这些许可证后，您将需要为您的组织中获取您的电话号码，然后将这些数字分配给您的组织中的人员。分步说明，请参阅[设置呼叫计划](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)。
@@ -62,7 +62,7 @@ description: "Learn how to set up communication credits (PSTN Consumption) billi
     
 4. 输入您的付款信息，然后单击 **下订单**。
     
-    > [!注释]
+    > [!NOTE]
     > 将只应用资金使用服务时，在 Microsoft 通信贷项发布费率。购买日期的 12 个月内不使用任何资金将过期并且丧失。 
   
 每个组织都调用计划的音量和费率要考虑的不同使用。您将需要从当前服务提供商获取这种类型的使用情况的数据。已在使用 Skype for Business Online 已为其服务提供商的组织可以通过在 **Skype for Business 管理中心**中查看它获取使用率数据 > **报表**> **PSTN 用法详细信息**报表。
@@ -79,7 +79,7 @@ description: "Learn how to set up communication credits (PSTN Consumption) billi
     
 4. 在 **产品许可证**页中，切换到 **上**分配此许可证， **通信贷项**，然后单击 **保存**。
     
-    > [!注释]
+    > [!NOTE]
     > 即使您有将被分配 **企业 E5** 许可证的用户，但仍建议执行此操作。
   
 ## 想了解各种计划及定价吗？
@@ -99,7 +99,7 @@ description: "Learn how to set up communication credits (PSTN Consumption) billi
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

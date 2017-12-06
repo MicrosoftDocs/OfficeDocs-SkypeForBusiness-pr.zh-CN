@@ -14,7 +14,7 @@ description: "Troubleshoot creating a remote PowerShell session to connect to Sk
 
 # 诊断连接问题的 Skype for Business Online 连接器
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](866fadfd-16e2-4134-95db-c6aed7678416.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/866fadfd-16e2-4134-95db-c6aed7678416) 中查找本文的英文版本以便参考。
   
 本主题提供了可帮助您诊断和解决当您尝试创建连接到Skype for Business Online远程Microsoft PowerShell会话时出现问题的信息。请参阅以下部分︰
@@ -159,7 +159,7 @@ New-PSSession : [admin.vdomain.com] Connecting to remote server admin.vdomain.co
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

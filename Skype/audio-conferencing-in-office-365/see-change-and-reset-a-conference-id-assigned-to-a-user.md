@@ -18,7 +18,7 @@ description: "Learn how to assign a conference ID to a user in Skype for Busines
 
 # 请参阅、 更改和重置会议 ID 分配给用户
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](77d36233-2aab-4802-ba9c-e9a8885ea643.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/77d36233-2aab-4802-ba9c-e9a8885ea643) 中查找本文的英文版本以便参考。
   
 会议 ID 自动分配给为业务或 Microsoft 小组的用户的 Skype for Office 365 中的音频会议设置和使用 Microsoft 作为音频会议提供商时。分配的会议 ID 可以是静态或动态并发送会议邀请中的计划会议时。
@@ -43,7 +43,7 @@ description: "Learn how to assign a conference ID to a user in Skype for Busines
     
 4. 在操作页面上，在 **会议 ID**下查找。
     
-    > [!提示]
+    > [!TIP]
     > 您可以向中包括的会议 ID 和音频的电话号码后，通过单击 **会议信息通过电子邮件发送**链接选择 **用户**页面上的用户的电子邮件的用户发送的所有会议信息。 
   
     您可以使用 Windows PowerShell 查看用户的会议 ID。若要执行此操作，运行：
@@ -58,7 +58,7 @@ description: "Learn how to assign a conference ID to a user in Skype for Busines
 
 您可以分配，或更改用户的会议 ID，如果有人例如，很容易记住的会议 ID。
   
-> [!注释]
+> [!NOTE]
 > Skype for Business 管理中心不能用于编辑已自动创建的会议 ID，但您可以使用 Windows PowerShell 编辑或更改您已经设置的会议 ID。 
   
 > 若要编辑或更改用户的会议 ID，请运行以下命令：
@@ -67,7 +67,7 @@ description: "Learn how to assign a conference ID to a user in Skype for Busines
   Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 8271964
   ```
 
-    > [!提示]
+    > [!TIP]
     > 会议 ID 必须包含 7 位，并且您无法在 Skype for Business 管理中心，或通过使用 Windows PowerShell 中更改它。 
   
 ### 重置会议 ID
@@ -90,7 +90,7 @@ description: "Learn how to assign a conference ID to a user in Skype for Busines
 
 ## 你还需了解哪些信息？
 
--     > [!重要信息]
+-     > [!IMPORTANT]
     >  创建新的会议 ID 或一个重置后，呼叫者不使用旧的会议 ID。您应通知重新安排现有会议邀请，以确保新会议 ID 添加到邀请的用户。用户可以使用Skype for Business会议迁移工具更新其现有的会议。若要了解如何下载、 安装和运行该工具，请参阅：> [Skype for Business 和 Lync 的会议更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)> [Skype for Business Online、会议迁移工具（64 位）](http://go.microsoft.com/fwlink/?LinkID=626047)> [Skype for Business Online、 会议迁移工具 （32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=54079)
   
 - 请参阅[设置 CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 )若要了解有关 cmdlet 的详细信息。
@@ -124,7 +124,7 @@ description: "Learn how to assign a conference ID to a user in Skype for Busines
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

@@ -18,7 +18,7 @@ description: "Learn how to turn entry and exit announcements on or off in a Skyp
 
 # 打开或关闭会议的进入和退出通知
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](f2c7b5ea-07b6-4b77-8023-bec9596fcc32.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/f2c7b5ea-07b6-4b77-8023-bec9596fcc32) 中查找本文的英文版本以便参考。
   
 当您设置 Office 365 中的音频会议时，您将收到音频会议网桥。会议网桥可以包含一个或多个用户将用于拨入 Skype for Business 或 Microsoft 小组会议的电话号码。
@@ -59,13 +59,13 @@ description: "Learn how to turn entry and exit announcements on or off in a Skyp
     
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-    > [!注释]
+    > [!NOTE]
     > 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。 
   
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

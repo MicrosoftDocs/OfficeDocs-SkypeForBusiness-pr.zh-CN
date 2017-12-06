@@ -14,29 +14,29 @@ description: "在 Office 365 中电话系统提供的用户分配的电话号码
 
 # 为用户设置来电显示
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](c7323490-d9b7-421a-aa76-5bd485f80583.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/c7323490-d9b7-421a-aa76-5bd485f80583) 中查找本文的英文版本以便参考。
   
 在 Office 365 中电话系统提供的用户分配的电话号码的默认呼叫者 ID。您可以更改，或为用户阻止呼叫方 ID （也称为呼叫行 ID）。您可以了解有关如何使用您的组织中的呼叫方 ID，通过转[如何在你的组织中使用来电显示](how-can-caller-id-be-used-in-your-organization.md)。
   
-> [!提示]
+> [!TIP]
 > 您不能阻止 for Business Online 的 Skype 中当前的传入呼叫。 
   
 你可以更改以下设置：
   
-> [!注释]
+> [!NOTE]
 > 这一点 **不适用于** 使用 Lync 或 Skype for Business Server 的内部部署组织。
   
 - **更改其传出来电显示** 你可以用其他电话号码替换用户的来电显示（默认情况下，显示的是用户的电话号码）。例如，你可以将用户的来电显示从其电话号码改为企业的主要电话号码，或者将用户的主叫号码从其电话号码改为法律部门的主要电话号码。你可以将来电显示号码改为任何在线 **服务** 号码（收费或免费）。
     
-    > [!注释]
+    > [!NOTE]
     > 如果要使用  _Service_ 参数，必须指定有效的服务号码。
   
 - **阻止他们的出站呼叫者 ID** 您可以阻止用户传出 PSTN 呼叫在发送传出呼叫者 ID。执行此操作将阻止从被称为人员的电话上显示其电话号码。
     
 - **阻止其传入的呼叫者 ID** 您可以阻止用户从任何传入 PSTN 呼叫接收呼叫者 ID。
     
-> [!重要信息]
+> [!IMPORTANT]
 > 紧急呼叫始终发送用户的电话号码（来电显示号码）。 
   
 默认情况下，所有这些来电显示设置都为 **关闭** 状态。这表示当 Skype for Business Online 用户呼叫某个 PSTN 电话时，将显示该用户的电话号码。
@@ -45,7 +45,7 @@ description: "在 Office 365 中电话系统提供的用户分配的电话号码
   
 ## 设置你的来电显示策略设置
 
-> [!注释]
+> [!NOTE]
 > 对于所有Skype for Business Online中的呼叫者 ID 设置，您必须都使用 Windows PowerShell 和您都 **不能都使用** **Skype for Business 管理中心**。 
   
 ### 验证并启动 Windows PowerShell
@@ -68,7 +68,7 @@ description: "在 Office 365 中电话系统提供的用户分配的电话号码
     
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     
-    > [!注释]
+    > [!NOTE]
     > 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
   
 > 
@@ -185,7 +185,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

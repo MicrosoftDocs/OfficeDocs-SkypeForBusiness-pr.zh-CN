@@ -14,7 +14,7 @@ description: "Learn common causes for Skype for Business Online sign-errors and 
 
 # 解决管理员的 Skype for Business Online 登录错误
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/cdd4801a-2fe1-4aab-bbb6-db5f95f972d1) 中查找本文的英文版本以便参考。
   
 若要解决Skype for Business Online登录错误，首先消除登录时遇到困难的最常见的原因。如有必要，则可以按照特定分辨率根据错误类型的步骤。如果用户仍然无法登录，收集的其他信息，然后再寻求其他帮助。
@@ -63,7 +63,7 @@ description: "Learn common causes for Skype for Business Online sign-errors and 
 ## 执行特定错误的解决步骤（仅限企业版）
 <a name="__toc325626440"> </a>
 
-> [!重要信息]
+> [!IMPORTANT]
 > 这些说明主要用于 Microsoft Office 365 Plan E 客户。如果您是 Office 365 计划 P 客户，请继续下面的部分，[收集更多信息并寻求其他帮助](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#__collect_more_information_1)。 
   
 如果在您尝试了前一节中的建议之后用户仍然无法登录，您可以基于错误类型执行其他疑难解答。 下表列出了最常见的错误消息和可能的原因。表后面提供了解决各个问题的详细过程。
@@ -167,7 +167,7 @@ description: "Learn common causes for Skype for Business Online sign-errors and 
   
 - 创建和部署Skype for Business域名 GPO  例如，domainName.contoso.comto HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Communicator\\TrustModelData 的当前值。
     
-> [!重要信息]
+> [!IMPORTANT]
 > 必须将域名 *附加*  到现有值，而不只是替换它。
   
 有关详细信息，请参阅 Microsoft 知识库文章 2531068 [Skype for Business (Lync) 无法验证服务器是否信任你的登录地址](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2531068)。
@@ -206,7 +206,7 @@ description: "Learn common causes for Skype for Business Online sign-errors and 
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

@@ -14,7 +14,7 @@ description: "会议迁移服务 (MMS) 是 Skype for Business 服务，在后台
 
 # 设置会议迁移服务 (MMS)
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](031f09c0-9d2a-487a-b6db-b5d4bed6d16a.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/031f09c0-9d2a-487a-b6db-b5d4bed6d16a) 中查找本文的英文版本以便参考。
   
 会议迁移服务 (MMS) 是 Skype for Business 服务，在后台运行并自动更新的业务 Microsoft 小组会议的用户的 Skype。MMS 设计，从而消除了用户运行会议迁移工具时需要更新其 Skype for Business 和 Microsoft 小组会议。
@@ -79,7 +79,7 @@ MMS 将更新现有 Skype 的业务和 Microsoft 小组会议在以下情况：
     
 - 电话号码时未从音频会议网桥分配。这是一个复杂情形这需要额外步骤。有关详细信息，请参阅[更改收费电话或音频会议网桥上的免费电话号码](change-the-toll-or-toll-free-numbers-on-your-audio-conferencing-bridge.md)。
     
-> [!重要信息]
+> [!IMPORTANT]
 > 当您使用的 Microsoft 网桥，MMS 只更新的会议。如果您正在使用第三方音频会议提供商，用户需要更新其会议手动。在此例中，您可以使用[会议迁移工具](https://go.microsoft.com/fwlink/p/?linkid=626047)。 
   
 对用户的音频会议设置的不是所有更改都触发 MMS。具体而言，以下两项更改不会导致 MMS 更新会议：
@@ -143,7 +143,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 这样会显示所有迁移状态的表格视图，如下所示：
   
 状态 用户数----- ---------待处理 21进行中 6已失败 2已成功 131
-> [!重要信息]
+> [!IMPORTANT]
 > 如果看到任何失败的迁移，请尽快解决这些问题。在你解决这些问题之前，其他人将无法拨入这些用户组织的会议。有关详细信息，请参阅[出错了应该怎么办？](031f09c0-9d2a-487a-b6db-b5d4bed6d16a.md#Troubleshooting)部分。 
   
 要获取一定时间段内所有迁移的完整详细信息，你可以使用  `StartTime` 和 `EndTime` 参数。例如，运行以下命令会返回 2016 年 10 月 1 日到 2016 年 10 月 8 日之间发生的所有迁移的完整详细信息。
@@ -253,7 +253,7 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com
     
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     
-    > [!注释]
+    > [!NOTE]
     > 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
   
 > 
@@ -295,7 +295,7 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

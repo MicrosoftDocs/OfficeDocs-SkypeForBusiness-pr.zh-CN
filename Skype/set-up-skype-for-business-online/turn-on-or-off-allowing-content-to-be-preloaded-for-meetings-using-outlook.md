@@ -15,12 +15,12 @@ description: "See how to turn preloaded content on or off for Skype for Business
 
 # 打开或关闭允许使用 Outlook 为会议预加载内容
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](d217d422-f7e9-433d-ad24-bf41751f65ca.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/d217d422-f7e9-433d-ad24-bf41751f65ca) 中查找本文的英文版本以便参考。
   
 用户可以预加载的内容、 文件或附加到 Skype for Business Online 会议，Outlook 会议邀请的附件，但您可以将其打开或关闭。默认情况下，所有组织所使用的 Skype for Business Online，它处于打开状态。请参阅如何[为 Skype for Business 会议预加载附件](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)。
   
-> [!注释]
+> [!NOTE]
 > 目前，没有 cmdlet 中有 Skype for Business Online 设置或查看 _MaxContentStorageMB_和 _MaxUploadFileMB_联机值。它们只是可用于本地部署。请务必了解如果的附加的内容超过 _MaxUploadFileSizeMB_或 _MaxContentStorageMB_达到该内容将不会上载到会议。 
   
 ## 开始使用
@@ -47,7 +47,7 @@ description: "See how to turn preloaded content on or off for Skype for Business
     
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     
-    > [!注释]
+    > [!NOTE]
     > 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
   
 > 
@@ -76,7 +76,7 @@ description: "See how to turn preloaded content on or off for Skype for Business
 
 默认情况下，能够预加载附加到 Outlook 会议邀请给 Skype for Business Online 会议内容已打开，但您可能需要防止用户在您的组织从预加载其会议中的内容。
   
-> [!重要信息]
+> [!IMPORTANT]
 > 此设置可以仅打开或关闭您的整个组织;您不能为一位用户可以将其打开或关闭。 
   
  **若要将其关闭，请打开 Windows PowerShell 并执行下列操作：**
@@ -110,7 +110,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

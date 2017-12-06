@@ -15,7 +15,7 @@ description: "Learn how to send Skype for Business instant messages even when yo
 
 # 打开或关闭脱机消息（面向管理员）
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](8967a77f-caa2-4680-aa22-8faa32c716e4.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/8967a77f-caa2-4680-aa22-8faa32c716e4) 中查找本文的英文版本以便参考。
   
 您可以向您的联系人的业务 im 发送 Skype 即使未登录。此功能使您知道您有已尝试与他们联系的联系人。您不需要等待，直至是某人发送邮件之前联机。
@@ -54,7 +54,7 @@ description: "Learn how to send Skype for Business instant messages even when yo
     
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     
-    > [!注释]
+    > [!NOTE]
     > 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
   
 > 
@@ -81,7 +81,7 @@ description: "Learn how to send Skype for Business instant messages even when yo
   
 ## 打开或关闭脱机即时消息
 
-> [!注释]
+> [!NOTE]
 > 脱机邮件 **仅** 在最新版本的即点即用 Skype for Business 客户端中可用，并使用较旧的即点即用 Skype for Business 或使用 *.msi 文件安装 Skype for Business 客户端时不可用。
   
 若要启用或禁用脱机邮件发送脱机邮件为您的组织中的用户，请到 `True`或 `False`设置 _EnableIMAutoArchiving_ 。默认情况下，此设置为 `True`。
@@ -128,7 +128,7 @@ Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

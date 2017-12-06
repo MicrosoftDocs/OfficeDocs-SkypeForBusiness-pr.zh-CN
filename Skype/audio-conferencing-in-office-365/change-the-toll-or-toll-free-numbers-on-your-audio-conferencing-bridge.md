@@ -16,14 +16,14 @@ description: "当您购买音频会议许可证时，Microsoft 承载您为您�
 
 # 更改收费电话或音频会议网桥上的免费电话号码
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](6403f6d1-c05a-44ab-a6e0-558000e246f4.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/6403f6d1-c05a-44ab-a6e0-558000e246f4) 中查找本文的英文版本以便参考。
   
 当您购买 **音频会议**许可证时，Microsoft 承载您为您的组织的 *音频会议网桥*  。音频会议网桥提供出不同位置的拨入电话号码，因此会议组织者和参与者可以使用它们来使用电话的业务或 Microsoft 小组会议加入 Skype。
   
 除了已分配给会议网桥的电话号码，则可以[获取 Skype for Business 服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md)（收费和用于音频会议的免费电话号码） 从其他位置、 然后分配给会议联系以便您可以展开报道为您的用户。
   
-> [!注释]
+> [!NOTE]
 > 为能够分配/取消会议网桥的电话号码，电话号码必须是 *服务*  数字。您可以看到的是通过导航到 **语音**的数字类型 > **电话号码**，然后在 **数字类型**列中查找。 > Office 365 通信贷项必须设置拨入网桥上免费电话号码的用户的顺序中的第一个。请参阅[更改收费电话或音频会议网桥上的免费电话号码](6403f6d1-c05a-44ab-a6e0-558000e246f4.md)。 
   
 ## 将新的服务电话号码分配给会议网桥的操作步骤
@@ -40,7 +40,7 @@ description: "当您购买音频会议许可证时，Microsoft 承载您为您�
     
     可以为您的会议网桥; 默认号码设置仅服务收费电话号码 **不能服务免费电话号码设置为默认会议网桥的数** 。如果您要分配服务收费电话号码，并且您想要将其设置为新默认号码的音频会议网桥，选择 **使用此号码为默认值**。
     
-    > [!注释]
+    > [!NOTE]
     > 被分配了新的电话号码，即使数成为新的默认号码后，不会更改现有用户的默认号码。若要设置默认收费或免费电话号码添加到组织者的会议邀请，请参阅[为会议组织者包含在邀请中设置音频会议电话号码](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md)。 
   
 ### 第 2 步 - 更改用户的会议邀请中包含的默认电话号码（可选）
@@ -93,7 +93,7 @@ description: "当您购买音频会议许可证时，Microsoft 承载您为您�
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
 
-> [!注释]
+> [!NOTE]
 > 根据组织的规模，这可能需要一段时间才能完成。 
   
 您还可以更改默认收费或 Skype for Business 管理中心中的用户的免费电话号码的 **。但是，这不会自动重排其会议** 。其他信息，请参阅[为会议组织者包含在邀请中设置音频会议电话号码](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md)。
@@ -118,7 +118,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
     
 4. 在确认窗口中，单击 **是**。
     
-> [!重要信息]
+> [!IMPORTANT]
 > 未从音频会议网桥分配电话号码后，将不再可供用户加入新的或现有会议的电话号码。 
   
 ## 想知道如何使用 Windows PowerShell 进行管理吗？
@@ -146,7 +146,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
     
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     
-    > [!注释]
+    > [!NOTE]
     > 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
   
 > 
@@ -185,7 +185,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 - 使用 **Set-CsOnlineDialInConferencingUserDefaultNumber** cmdlet 可基于用户的原始默认电话号码或位置来更改其默认收费电话号码或免费电话号码。
     
-    > [!注释]
+    > [!NOTE]
     > 注意：若要查找 BridgeID，请使用 **Get-CsOnlineDialInConferencingBridge** 。
   
   - 若要为没有默认免费电话号码的所有用户将默认免费电话号码设置为 8005551234，请运行：
@@ -206,7 +206,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
   ```
 
-    > [!注释]
+    > [!NOTE]
     > 上面使用的位置信息需要与 Office 365 管理中心中设置的用户联系信息匹配。 
   
 ### 了解更多信息
@@ -228,7 +228,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

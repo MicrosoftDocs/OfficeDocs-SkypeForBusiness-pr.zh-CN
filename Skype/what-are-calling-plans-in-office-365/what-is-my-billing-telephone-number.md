@@ -18,7 +18,7 @@ description: "Learn what your Skype for Business billing telephone number is, an
 
 # 我的付费电话号码是什么？
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](63bfb6a7-7e03-4f29-8ae2-d11b92caa14d.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/63bfb6a7-7e03-4f29-8ae2-d11b92caa14d) 中查找本文的英文版本以便参考。
   
 帐单的电话号码 （按钮） 是包括在您的帐单和服务提供商或运营商收费的主电话号码。如果您在将电话号码转移从具有只有一个电话号码的帐户，您将需要放到此电话号码。如果您在将电话号码转移从有多个帐户，您可以查看帐单或联系您的服务提供商或运营商以确定什么是您的帐户的帐单的电话号码。
@@ -28,7 +28,7 @@ description: "Learn what your Skype for Business billing telephone number is, an
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

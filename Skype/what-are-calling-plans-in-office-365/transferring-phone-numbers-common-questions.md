@@ -13,7 +13,7 @@ description: "以下是有关常见问题到 Skype for Business 转接电话号�
 
 # 转接电话号码的常见问题
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](28cbf7d7-97f3-4a99-aa76-897022c14a24.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/28cbf7d7-97f3-4a99-aa76-897022c14a24) 中查找本文的英文版本以便参考。
   
 以下是有关常见问题到 Skype for Business 转接电话号码。查看后的答案，您应该准备好创建端口订单和转移您的电话号码。有关说明，请参阅[将电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md)。
@@ -32,14 +32,14 @@ description: "以下是有关常见问题到 Skype for Business 转接电话号�
     
 - 例如，使用的移动电话和平板电脑等移动设备电话号码。
     
-    > [!注释]
+    > [!NOTE]
     > 只能在美国和波多黎各转移移动电话号码。 
   
 - 收费电话号码。
     
 - 免费电话号码。
     
-    > [!注释]
+    > [!NOTE]
     > 通用国际免费电话号码 (UIFN) 不能转移给我们。 
   
 - 例如，用于会议桥梁、 自动助理等服务电话号码。
@@ -52,7 +52,7 @@ description: "以下是有关常见问题到 Skype for Business 转接电话号�
     
  **你无法转移：**
   
-> [!注释]
+> [!NOTE]
 > 目前，你无法转移支持的国家/地区的任何电话号码，包括来自 VoIP 电话提供商的电话号码。要查看支持的国家/地区的列表，请参阅 [国家和地区和的可用性音频会议呼叫计划](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - 用于 DSL 线路或宽带 Internet 连接等数据连接的电话号码。
@@ -63,7 +63,7 @@ description: "以下是有关常见问题到 Skype for Business 转接电话号�
     
     如果你将电话号码转网到 Skype for Business，可以将此电话号码分配给组织中的用户，而不是将其用于收发传真。
     
-> [!注释]
+> [!NOTE]
 > 在英国 (U.K.) 境内，目前不支持转移 UK 非地理号码，包括区号 0843、0844、0845、0870、0871、0872 的共享费用号码。 
   
 ## 我需要提供哪些信息？
@@ -161,7 +161,7 @@ description: "以下是有关常见问题到 Skype for Business 转接电话号�
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

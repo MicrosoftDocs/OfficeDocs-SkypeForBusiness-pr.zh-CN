@@ -18,7 +18,7 @@ description: "Learn what you need and how meeting organizers can call out to oth
 
 # 从会议拨出，以便其他人可以加入会议
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](3c2db9a5-3a19-4e19-b59e-8e5587f25d31.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/3c2db9a5-3a19-4e19-b59e-8e5587f25d31) 中查找本文的英文版本以便参考。
   
 作为会议组织者，您可以拨出使用 Skype for Business 或 Microsoft 团队应用以让其他人加入相同的会议使用其电话。 虽然它具有不要求，给人正在拨出时，建议您拨全部号码，包括国家/地区代码。若要获取拨出工作：
@@ -48,7 +48,7 @@ description: "Learn what you need and how meeting organizers can call out to oth
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

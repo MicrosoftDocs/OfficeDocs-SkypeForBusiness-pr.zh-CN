@@ -14,12 +14,12 @@ description: "Learn about Call Analytics and Call Quality Dashboard and when to 
 
 # 呼叫分析和呼叫质量仪表板之间的区别是什么？
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](4cd5fe35-8463-4996-a252-086cd3ca2d9a.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/4cd5fe35-8463-4996-a252-086cd3ca2d9a) 中查找本文的英文版本以便参考。
   
 Skype for Business为您提供了两种方法可以监控和呼叫质量问题疑难解答︰ 呼叫分析和呼叫质量仪表板。本文介绍这两种，并告诉您何时使用每个区域。
   
-> [!注释]
+> [!NOTE]
 > 正在预览呼叫分析。文本和图像此处所述可能与您的体验。 
   
 ## 什么是呼叫分析，以及何时使用它？
@@ -53,7 +53,7 @@ Skype for Business为您提供了两种方法可以监控和呼叫质量问题�
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

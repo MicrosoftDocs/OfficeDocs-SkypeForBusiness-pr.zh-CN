@@ -17,7 +17,7 @@ description: "Learn which phones work with Skype for Business from Polycom, HP, 
 
 # 获取适用于 Skype for Business Online 的电话
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](91f2d947-45fc-4fab-bd8b-2e313531c477.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/91f2d947-45fc-4fab-bd8b-2e313531c477) 中查找本文的英文版本以便参考。
   
 Skype for Business Online 有资格，并为用户需要具有传统电话体验，而不是使用 Skype for Business 应用中支持桌面电话。本主题介绍电话和用于在 Skype for Business Online 和其他信息，可帮助您的手机上设置您的组织中时支持的固件版本。
@@ -45,7 +45,7 @@ Yealink 电话的详细信息，请参阅Skype for Business IP 电话[](http://w
   
 AudioCodes 电话的详细信息，请参阅[Skype for Business IP 电话](http://www.audiocodes.com/products/skype-for-business-compatible-ip-phone)。
   
-> [!注释]
+> [!NOTE]
 > Lync Phone Edition 与 Skype for Business Online 支持。主流支持 LPE 结束 2014 年 4 月/10，直到 4 月/11/2023，与 Lync Server 2013 产品支持生命周期对齐扩展支持的平台。有关 LPE 生命周期的详细信息，请参阅[Microsoft 产品生命周期](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) 。LPE 线端模型不支持使用 Skype for Business Online。
   
 ## 支持的固件
@@ -60,7 +60,7 @@ AudioCodes 电话的详细信息，请参阅[Skype for Business IP 电话](http:
 |Yealink  <br/> |X.8.1.52  <br/> |2017 年 2 月  <br/> |
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |2016 年 12 月  <br/> |
    
-> [!注释]
+> [!NOTE]
 > 你为本地部署设置的 Lync Phone Edition (LPE) 电话必须加以更新，以符合最低或最新的必要固件要求，之后才能将这些用户转移到 Skype for Business Online。如果在更新电话上的固件之前将用户从本地部署迁移到 Skype for Business Online，这些电话将无法连接到 Skype for Business Online。 
   
 ## 所需的许可证
@@ -78,7 +78,7 @@ Skype for Business Online 不需要用户许可证之外的任何其他 Microsof
 |**功能** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
 |使用用户凭据登录  <br/> |是  <br/> |是  <br/> |支持  <br/> |否  <br/> |
 |通过 PC（配对）登录，仅限 Windows  <br/> |是  <br/> |支持  <br/> |是  <br/> |是  <br/> |
-|使用（Web 登录）登录  <br/> > [!注释]> 查看部署指南中的支持矩阵。           |是  <br/> |支持  <br/> |支持  <br/> |不支持  <br/> |
+|使用（Web 登录）登录  <br/> > [!NOTE]> 查看部署指南中的支持矩阵。           |是  <br/> |支持  <br/> |支持  <br/> |不支持  <br/> |
 |单击加入会议  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |单击拨号（配对）  <br/> |是  <br/> |支持  <br/> |是  <br/> |是  <br/> |
 |会议控制  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
@@ -87,10 +87,10 @@ Skype for Business Online 不需要用户许可证之外的任何其他 Microsof
 |设备更新  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |带内配置  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |QoE  <br/> |是  <br/> |是  <br/> |支持  <br/> |否  <br/> |
-|日志上传  <br/> > [!注释]> 目前，所有日志都上载到 Microsoft 技术支持团队通话记录的客户访问尚不可用。           |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|日志上传  <br/> > [!NOTE]> 目前，所有日志都上载到 Microsoft 技术支持团队通话记录的客户访问尚不可用。           |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |现代化身份验证  <br/> |是  <br/> |是  <br/> |支持  <br/> |否  <br/> |
 |多个紧急号码  <br/> |支持  <br/> |否  <br/> |不支持  <br/> |是  <br/> |
-|Exchange 日历集成*  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> > [!注释]> 需要 PC 数据连线           |
+|Exchange 日历集成*  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> > [!NOTE]> 需要 PC 数据连线           |
 |状态集成  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |公司目录  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |委派  <br/> |是  <br/> |是  <br/> |支持  <br/> |否  <br/> |
@@ -104,7 +104,7 @@ Skype for Business Online 不需要用户许可证之外的任何其他 Microsof
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

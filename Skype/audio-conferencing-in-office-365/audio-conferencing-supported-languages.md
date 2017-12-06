@@ -16,12 +16,12 @@ description: "Find the dial-in conferencing language for each country or region 
 
 # 音频会议支持的语言
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](572ca0c8-b9f0-4948-9409-e12ee0b94aa0.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/572ca0c8-b9f0-4948-9409-e12ee0b94aa0) 中查找本文的英文版本以便参考。
   
 当您正在设置和配置 Office 365 中的音频会议时，您可以选择的主要和辅助 (最多 4) 呼叫者拨入 Skype for Business 或 Microsoft 小组会议时所使用的语言。下面是音频会议的受支持语言的列表：
   
-> [!重要信息]
+> [!IMPORTANT]
 > 仅专用音频会议电话号码，可以更改主要和辅助语言。 
   
 ## 当前支持的语言
@@ -95,13 +95,13 @@ description: "Find the dial-in conferencing language for each country or region 
     
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-    > [!注释]
+    > [!NOTE]
     > 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。 
   
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

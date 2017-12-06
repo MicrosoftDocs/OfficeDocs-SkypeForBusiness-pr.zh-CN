@@ -16,12 +16,12 @@ description: "有时 （具体取决于您所在国家/地区） 您将无法以
 
 # 获取新用户的电话号码请求窗体
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](c0295253-32cc-44ad-99bf-d4737a91a4aa.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/c0295253-32cc-44ad-99bf-d4737a91a4aa) 中查找本文的英文版本以便参考。
   
 有时 （具体取决于您所在国家/地区） 您将无法以获取使用 **Skype for Business 管理中心**中，您新号码或您将需要特定的电话号码或区号。如果是这样，您需要下载窗体并将其发送给我们。服务台将使其从这里，并让您了解进度或您的订单。
   
-> [!警告]
+> [!CAUTION]
 > 在 **比利时、 爱尔兰、 德国和荷兰** ，您无法使用 **Skype for Business 管理中心**; 电话新电话号码您必须下载并填写表单发送它给我们。 
   
 请务必知道进行电话号码的管理任务时，有连接电话号码，在 Skype for Business Online 时使用的[不同类型的电话号码，用于进行呼叫计划](different-kinds-of-phone-numbers-used-for-calling-plans.md)。如果您正在寻找其他电话号码的管理任务，请参阅[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
@@ -46,7 +46,7 @@ description: "有时 （具体取决于您所在国家/地区） 您将无法以
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

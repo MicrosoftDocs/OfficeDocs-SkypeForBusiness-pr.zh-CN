@@ -18,7 +18,7 @@ description: "Find out what you should know about PINs and how to reset them for
 
 # 重置用户的音频会议 PIN
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](67866a47-89c1-4593-8766-3a68777e2be6.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/67866a47-89c1-4593-8766-3a68777e2be6) 中查找本文的英文版本以便参考。
   
 PIN 是为每个 Skype 业务和 Microsoft 团队启用音频会议的用户创建的数字组成的代码。音频会议 Pin 用于通过会议组织者标识它们是会议组织者，并让他们可以通过电话启动会议。如果他们使用 Skype for Business 或 Microsoft 团队应用启动会议，PIN 不需要。如果用户忘记他们的 PIN，他们在他们已启用的音频会议时发送给他们的电子邮件中无法找到它，管理员需要重置其 PIN。用户无法重置他们自己的 PIN。
@@ -77,13 +77,13 @@ PIN 是为每个 Skype 业务和 Microsoft 团队启用音频会议的用户创�
     
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-    > [!注释]
+    > [!NOTE]
     > 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。 
   
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

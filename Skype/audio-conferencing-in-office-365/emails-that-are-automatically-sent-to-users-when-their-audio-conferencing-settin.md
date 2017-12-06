@@ -18,7 +18,7 @@ description: "Learn about what information is sent automatically to users by ema
 
 # 其音频会议设置更改时自动发送给用户的电子邮件
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](1b46da6d-f93a-4cc0-9ae8-af765935b007.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/1b46da6d-f93a-4cc0-9ae8-af765935b007) 中查找本文的英文版本以便参考。
   
 电子邮件将被自动发送到处于[设置音频会议 for Skype Business 和 Microsoft 团队](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)的用户使用 Microsoft 作为音频会议提供商。
@@ -29,7 +29,7 @@ description: "Learn about what information is sent automatically to users by ema
     
     此电子邮件中包含会议 ID，默认会议电话号码的会议，音频会议 PIN 用户，并说明和链接可以使用 Skype for Business Online 会议更新工具，用于更新现有会议用户。请参阅[分配 Skype for Business 和 Microsoft 团队合作的用户许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)或[将 Microsoft 作为音频会议提供商分配](assign-microsoft-as-the-audio-conferencing-provider.md)。
     
-    > [!注释]
+    > [!NOTE]
     > 如果您的组织已启用的动态会议 Id，所有用户的会议的安排他们将具有唯一会议 Id。您可以设置[在您的组织中使用音频会议动态 Id](using-audio-conferencing-dynamic-ids-in-your-organization.md)。 
   
     下面是此电子邮件的一个示例：
@@ -42,7 +42,7 @@ description: "Learn about what information is sent automatically to users by ema
     
     此电子邮件包含用于 Skype for Business Online 会议更新工具，用于更新现有用户的会议的会议 ID、 默认会议电话号码，以及说明和链接。但这封电子邮件不包括用户的音频会议的 PIN。请参阅[重置用户的会议 ID](reset-a-conference-id-for-a-user.md)。
     
-    > [!注释]
+    > [!NOTE]
     > 如果您的组织已启用的动态会议 Id，所有用户的会议的安排他们将具有唯一会议 Id。您可以设置[在您的组织中使用音频会议动态 Id](using-audio-conferencing-dynamic-ids-in-your-organization.md)。 
   
     下面是此电子邮件的一个示例：
@@ -53,7 +53,7 @@ description: "Learn about what information is sent automatically to users by ema
     
     此电子邮件包含组织者的音频会议 PIN、 现有会议 ID 和默认会议电话号码的用户。请参阅[重置用户的音频会议 PIN](reset-the-audio-conferencing-pin-for-a-user.md)。
     
-    > [!注释]
+    > [!NOTE]
     > 如果您的组织已启用的动态会议 Id，所有用户的会议的安排他们将具有唯一会议 Id。您可以设置[在您的组织中使用音频会议动态 Id](using-audio-conferencing-dynamic-ids-in-your-organization.md)。 
   
     下面是此电子邮件的一个示例：
@@ -86,7 +86,7 @@ description: "Learn about what information is sent automatically to users by ema
 Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble -SendEmailFromDisplayName "Amos Marble"
 ```
 
-> [!注释]
+> [!NOTE]
 > 如果要更改电子邮件地址信息，你需要确保你的环境的入站电子邮件策略允许来自指定的发件人地址的电子邮件。 > 如果你决定覆盖" *发件人*  "联系信息，你应该验证电子邮件是否正确发送到用户。 你可以通过与你组织中的一个用户进行相关测试，以执行此操作。
   
 [设置 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet 可用于管理您的组织，包括电子邮件的其他设置。
@@ -147,13 +147,13 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-    > [!注释]
+    > [!NOTE]
     > 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。 
   
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

@@ -18,7 +18,7 @@ description: "See what you need to do next after you've ported your phone number
 
 # 将电话号码转网后需要执行哪些操作？
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](825a6cf0-3d22-419a-8358-a8678f14b61d.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/825a6cf0-3d22-419a-8358-a8678f14b61d) 中查找本文的英文版本以便参考。
   
 在提交端口订单之后，我们将运营商联系，并与它们的细节。如果已设置的最终传输日期，我们将通过电子邮件通知您。但是，等待运营商以接受顺序，请继续，创建所需的紧急地址将使用这些数字。
@@ -34,7 +34,7 @@ description: "See what you need to do next after you've ported your phone number
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

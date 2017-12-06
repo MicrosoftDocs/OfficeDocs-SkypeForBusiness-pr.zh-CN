@@ -22,7 +22,7 @@ description: "Learn about the features, availability, and how to plan and set up
 
 # 下面是可以在 Office 365 中的电话系统获得
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](bc9756d1-8a2f-42c4-98f6-afb17c29231c.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/bc9756d1-8a2f-42c4-98f6-afb17c29231c) 中查找本文的英文版本以便参考。
   
 PBX 是内业务电话系统。在 Office 365 加载项电话系统为您提供 PBX 功能，但不复杂和昂贵设备。
@@ -54,7 +54,7 @@ PBX 是内业务电话系统。在 Office 365 加载项电话系统为您提供 
 |[更改您在 Skype for Business 中的状态](https://support.office.com/article/9b64eef5-47b8-46d8-a744-f490e6f88feb) <br/> |通过状态控制传入通信，使你能够阻止除专门指定的传入通信以外的所有传入通信。  <br/> |
 |企业日历呼叫路由  <br/> |企业日历呼叫路由可以使用 Exchange 日历营业时间以启用或禁用呼叫转接和同时拨打 Skype for Business 中。  <br/> |
 |集成拨号盘  <br/> | 在搜索栏和拨号盘的任何位置按姓名或号码拨号，加快拨出呼叫的过程。 <br/> |
-|[使用桌面电话发起 Skype for Business 呼叫](https://support.office.com/article/6a316c11-a05e-460c-b969-32ff0ad848e6) <br/> |当你的桌面电话配置为使用 Skype for Business 时，你可以通过 Skype for Business 呼叫组织中的成员，并且通话音频可以通过电话传送。  <br/> > [!注释]> 你也可以通过用于混合用户的 PBX 电话实现此功能。           |
+|[使用桌面电话发起 Skype for Business 呼叫](https://support.office.com/article/6a316c11-a05e-460c-b969-32ff0ad848e6) <br/> |当你的桌面电话配置为使用 Skype for Business 时，你可以通过 Skype for Business 呼叫组织中的成员，并且通话音频可以通过电话传送。  <br/> > [!NOTE]> 你也可以通过用于混合用户的 PBX 电话实现此功能。           |
 |保留音乐  <br/> |在保持通话时播放音乐，让你的呼叫者了解你仍然在接听，通话并没有意外掉线。  <br/> |
 |Skype 和联合的呼叫  <br/> |您可以搜索 Skype 目录中的任何人都然后安全地连接、 通信，请并与其进行协作。  <br/> |
 |[在 Skype for Business 中设置"呼叫转接"选项](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |即刻或在设定的时段后向你的团队发送呼叫。  <br/> |
@@ -98,7 +98,7 @@ PBX 是内业务电话系统。在 Office 365 加载项电话系统为您提供 
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

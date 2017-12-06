@@ -16,7 +16,7 @@ description: "以下要求是真正重要，以确保长期运行状况和成功
 
 # 为 Skype for Business Online 优化网络
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](b363bdca-b00d-4150-96c3-ec7eab5a8a43.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/b363bdca-b00d-4150-96c3-ec7eab5a8a43) 中查找本文的英文版本以便参考。
   
 以下要求是真正重要，以确保长期运行状况和成功的所有 Skype for Business Online 设置为您的组织的功能。我们知道您一些非常技术-此文档仅供您，但是也存在一些您不。如果您需要帮助设置 Skype for Business Online，应阅读本文以熟悉需要考虑的事项。它还提供事项谈论当您正在使用[Microsoft FastTrack 中心](https://fasttrack.microsoft.com/office)、 您的 Microsoft 服务和帐户团队，或与[Microsoft 合作伙伴](https://partnercenter.microsoft.com/en-us/pcv/search)算出您可以满足这些要求。
@@ -93,7 +93,7 @@ Microsoft 建议使用 PAC 文件将 Office 365 流量发送到防火墙，以�
   
 若要防止 Skype for Business 流量遍历 VPN 隧道的一种方法是拆分隧道。若要实现拆分隧道，客户应咨询如何执行此操作在其软件的具体他们 VPN 供应商。
   
-> [!注释]
+> [!NOTE]
 > 此选项仅对 Skype for Business 媒体工作负载为所需，对其他 Office 365 服务不适用。 
   
 其他资源：
@@ -163,7 +163,7 @@ Skype for Business 客户端使用多个端口和协议。根据交互类型（�
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

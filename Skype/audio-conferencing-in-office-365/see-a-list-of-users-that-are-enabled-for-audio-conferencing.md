@@ -18,7 +18,7 @@ description: "Learn how to view a list of users in your organization that are en
 
 # 请参阅启用了音频会议的用户列表
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](bd0cd155-4c6d-424d-a2c9-af7974a2d34c.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/bd0cd155-4c6d-424d-a2c9-af7974a2d34c) 中查找本文的英文版本以便参考。
   
 在您的组织音频会议业务或 Microsoft 团队用户启用 Skype 后，您可以查看那些已启用的用户的列表。当您查看列表中，您还将看到每个用户的列表类型的音频会议提供程序使用，默认拨入电话号码的用户，并且您的组织未启用的动态会议 Id，静态会议 Id为其组织的音频会议。
@@ -80,7 +80,7 @@ description: "Learn how to view a list of users in your organization that are en
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

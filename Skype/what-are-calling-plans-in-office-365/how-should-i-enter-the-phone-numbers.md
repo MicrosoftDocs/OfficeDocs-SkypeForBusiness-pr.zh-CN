@@ -18,12 +18,12 @@ description: "Learn how to set up phone numbers when you port them to Skype for 
 
 # 如何输入电话号码？
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](28aa24b4-8c81-4327-9752-989ea7540db2.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/28aa24b4-8c81-4327-9752-989ea7540db2) 中查找本文的英文版本以便参考。
   
 当移植电话号码时，您必须以正确格式输入它们。
   
-> [!注释]
+> [!NOTE]
 > 每个电话号码或电话号码的范围必须单独输入到每一行中。 
   
 - 输入单个电话号码时：
@@ -79,7 +79,7 @@ description: "Learn how to set up phone numbers when you port them to Skype for 
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

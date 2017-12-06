@@ -13,7 +13,7 @@ description: "在 Skype for Business Online，必须为现有会议策略设置�
 
 # 阻止点对点文件传输
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](9adf9859-de5b-461e-92ea-b6ce4dd2f7c1.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/9adf9859-de5b-461e-92ea-b6ce4dd2f7c1) 中查找本文的英文版本以便参考。
   
 在 Skype for Business Online，必须为现有会议策略设置一部分的控件点对点 (P2P) 文件传输的能力。但是，这使或块文件传输他们将文件传输到同一个组织中的用户或联盟用户从另一个组织的用户。按照下列步骤操作，您可以阻止与联合的组织或合作伙伴的 P2P 文件传输。
@@ -36,7 +36,7 @@ description: "在 Skype for Business Online，必须为现有会议策略设置�
 |当前频道  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> | 版本 1611（内部版本 7571.2072） <br/> |
 |延期频道  <br/> |2017-2/22  <br/> |16.0.7369.2118  <br/> |版本 1609 （构建 7369.2118）  <br/> |
    
-> [!警告]
+> [!CAUTION]
 > 使用较旧版本的 Skype for Business Windows 应用程序或 Mac 客户端的用户仍然无法传输文件。 
   
 ## 验证并启动 Windows PowerShell
@@ -59,7 +59,7 @@ description: "在 Skype for Business Online，必须为现有会议策略设置�
     
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     
-    > [!注释]
+    > [!NOTE]
     > 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
   
 > 
@@ -127,7 +127,7 @@ description: "在 Skype for Business Online，必须为现有会议策略设置�
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

@@ -20,12 +20,12 @@ description: "在您的组织中的人员可以使用Skype 会议广播之前，
 
 # 启用 Skype 会议直播
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](5299cce0-850e-42dc-b6ae-2d0ee775c4a9.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/5299cce0-850e-42dc-b6ae-2d0ee775c4a9) 中查找本文的英文版本以便参考。
   
 在您的组织中的人员可以使用Skype 会议广播之前，您需要启用它。若要执行此操作，您需要知道如何使用 Windows PowerShell。如果您不知道 Windows PowerShell，请考虑招聘[Microsoft 合作伙伴](https://go.microsoft.com/fwlink/?linkid=391089)为您执行此步骤。
   
-> [!警告]
+> [!CAUTION]
 > Skype 会议广播处于关闭状态默认情况下因为媒体内容的广播会议的通讯组使用 Microsoft Azure 内容交付网络 (CDN) 来实现支持数千个观看广播人员非常高缩放比例。 通过 CDN 分块的媒体内容已加密，并且 CDN 缓存有生命周期有限。 此外，Azure CDN 组件可能不尚未满足因欧盟数据保护指令欧盟模型子句中的所有元素。通过启用此功能，您同意本声明。 
   
 ## 使用 Skype for Business 管理中心启用 Skype 会议直播
@@ -84,7 +84,7 @@ description: "在您的组织中的人员可以使用Skype 会议广播之前，
     
      ![Skype 会议直播启用组织 Cmdlet。](../images/788515f0-32c9-415a-9235-6bfbe095e6f3.png)
   
-    > [!提示]
+    > [!TIP]
     > 更改后，可能需要长达一小时才能在 Skype 会议广播门户中生效。 
   
 6. 您的用户现在可以在您的企业容纳直播的会议与其他用户。要获取它们开始，请指导他们到[什么是 Skype 会议直播？](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
@@ -100,7 +100,7 @@ description: "在您的组织中的人员可以使用Skype 会议广播之前，
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

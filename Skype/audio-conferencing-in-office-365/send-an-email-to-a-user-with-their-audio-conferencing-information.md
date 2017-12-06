@@ -18,7 +18,7 @@ description: "Send your users an email with their dial-in conferencing informati
 
 # 对其音频会议信息的用户发送电子邮件
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](7440d3e2-1b49-4258-bd2c-79e9072f8c8d.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/7440d3e2-1b49-4258-bd2c-79e9072f8c8d) 中查找本文的英文版本以便参考。
   
 有时 Skype 业务或 Microsoft 团队用户可能需要您向他们发送其音频会议信息。通过使用 **Skype for Business 管理中心**，并为用户的属性下，单击 **发送会议信息通过电子邮件**，可以执行此操作。当您发送此电子邮件时，它将包含所有音频会议的信息，包括：
@@ -27,7 +27,7 @@ description: "Send your users an email with their dial-in conferencing informati
     
 - 用户的会议 ID。
     
-    > [!注释]
+    > [!NOTE]
     > 当您组织中的人员不想要记住的一个随机数; 使用静态 Id他们可以选择特定数字或使用一个容易记住。当使用动态会议 Id 时，每个会议用户计划将获得分配一个唯一的会议 id。如果您要分配动态而不是静态会议 Id，[在您的组织中使用音频会议动态 Id](using-audio-conferencing-dynamic-ids-in-your-organization.md)。 
   
 下面是发送的电子邮件的示例：
@@ -44,7 +44,7 @@ description: "Send your users an email with their dial-in conferencing informati
     
 4. 在操作窗格中，单击" **通过电子邮件发送会议信息**"。
     
-> [!提示]
+> [!TIP]
 > 您也可以发送电子邮件向用户与音频会议设置通过编辑用户的属性，然后单击 **音频会议**> **发送会议信息通过电子邮件**。 
   
 ## 此电子邮件的其他须知事项。
@@ -73,7 +73,7 @@ description: "Send your users an email with their dial-in conferencing informati
     
      `Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"`
     
-    > [!注释]
+    > [!NOTE]
     > 如果要更改电子邮件地址信息，你需要确保你的组织的入站电子邮件策略允许来自设置的自定义电子邮件地址的电子邮件。 
   
 ## 想知道如何使用 Windows PowerShell 进行管理吗？
@@ -100,13 +100,13 @@ description: "Send your users an email with their dial-in conferencing informati
     
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-    > [!注释]
+    > [!NOTE]
     > 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。 
   
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

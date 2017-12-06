@@ -20,12 +20,12 @@ description: "Learn the steps you need to do to submit a port order request when
 
 # 手动提交自定义服务请求
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](6310f07f-9d07-4cb1-bd6e-51ef6eb3c335.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/6310f07f-9d07-4cb1-bd6e-51ef6eb3c335) 中查找本文的英文版本以便参考。
   
 如果您有服务拨入式会议网桥、 自动助理或其他服务的数字的数字，免费电话号码或有需要传输到Skype for Business的多个 999 用户 （订阅服务器） 电话号码，您需要[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
   
-> [!重要信息]
+> [!IMPORTANT]
 > 在某些国家/地区，您还需要手动提交自定义的服务请求，如果您想要获取电话号码，或释放数字，或更改地址。若要查看哪些地方需要为每个国家/地区，或了解有关数字移植的详细信息，请参阅[](transfer-phone-numbers-to-office-365.md#bk_LNPcountries)。 
   
 ## 你还应该知道有关携号转网的哪些信息？
@@ -43,7 +43,7 @@ description: "Learn the steps you need to do to submit a port order request when
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

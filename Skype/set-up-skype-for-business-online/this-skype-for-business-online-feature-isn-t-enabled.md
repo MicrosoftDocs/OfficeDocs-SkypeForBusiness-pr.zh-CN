@@ -18,7 +18,7 @@ description: "Find possible causes and action suggestions when you get a Skype f
 
 # 未启用此 Skype for Business Online 功能
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](e95a7d09-0c45-4b95-956e-f099b7b0e659.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/e95a7d09-0c45-4b95-956e-f099b7b0e659) 中查找本文的英文版本以便参考。
   
 非常抱歉，该用户可能未获授权，无法使用此功能。
@@ -32,7 +32,7 @@ description: "Find possible causes and action suggestions when you get a Skype f
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

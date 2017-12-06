@@ -16,7 +16,7 @@ description: "Learn the deployment steps to get the correct firmware, update it 
 
 # 部署 Skype for Business Online 电话
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](faa17eb3-7483-4984-87f2-815d981b68ae.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/faa17eb3-7483-4984-87f2-815d981b68ae) 中查找本文的英文版本以便参考。
   
 本部署指南将帮助你部署 Skype for Business Online IP 电话。
@@ -49,14 +49,14 @@ Skype for Business Online 支持电话和固件是 Skype for Business Server 兼
     
 - **AudioCodes 电话** ，请从开始屏幕转到" **菜单** ">" **设备状态** ">" **固件版本** "。
     
-    > [!注释]
+    > [!NOTE]
     > 远程访问电话详细信息，请参阅制造商管理指南。 用户指南和电话手册，请参见上面的链接。 
   
 - **Lync Phone Edition (LPE) 电话** ，请从开始屏幕转到" **菜单** ">" **系统信息** "。
     
 ### 第 4 步 - 设备更新注意事项
 
-> [!注释]
+> [!NOTE]
 > Polycom 固件 5.5.1.X 之前已将被替换为 Skype for Business 实现"电话锁定"制造商特定设备锁定机制升级到 5.5.1.X"电话 lock"电话"设备 lock"保护 5.4.X.X 不继承从"设备锁，"可以保留不安全的电话的 PIN 代码。已激活"设备锁定"的用户需要启用下面的 Polycom 设备配置文件参数，以向用户提供的升级 (lync.deviceUpdate.popUpSK.enabled=1) 时间的控件。 
   
 更新固件由 Skype for Business Service 管理。每个 Skype for Business 认证手机的固件上载到 Skype for Business 更新服务器，并且设备更新所有电话上启用了默认情况下。在电话和轮询间隔处于非活动状态时，根据电话将自动下载并安装最新的认证的生成。您可以通过使用[设置 CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) cmdlet 并将 _EnableDeviceUpdate_参数设置为 `false`禁用的设备更新设置。
@@ -73,7 +73,7 @@ Skype for Business Online 支持电话和固件是 Skype for Business Server 兼
   
 还可以选择使用合作伙伴配置系统来管理固件更新。有关包含高级电话自定义的合作伙伴配置系统管理，请参考制造商管理指南。
   
-> [!警告]
+> [!CAUTION]
 > 确保拥有单个设备更新授权（带内设备更新或第三方配置服务器），以避免更新循环。 
   
 ### 第 5 步-配置和基础结构的电话设置
@@ -104,12 +104,12 @@ Skype for Business Online 支持电话和固件是 Skype for Business Server 兼
     
      ![Deploying phones.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
-    > [!注释]
+    > [!NOTE]
     > Skype for Business Online 不支持对 LPE 和合作伙伴 IP 电话进行 PIN 身份验证。 
   
 - **使用 PC** 更好地协作通过以太网 (BToE) 软件是用户的 PC 上安装并启用，用户可以登录到其在其 Windows Skype for Business 应用上使用身份验证窗口中的电话。其他信息，请参阅[第 7 步（可选）- 如果拥有设备配对和 Better Together over Ethernet (BToE)](faa17eb3-7483-4984-87f2-815d981b68ae.md#BK_BTOE) 。
     
-    > [!注释]
+    > [!NOTE]
     > 用户需要使用其组织的用户名和密码登录电话。例如，他们应使用类似  *amosm@contoso.com*  的 UPN 格式作为其用户名。
   
      ![Deploying phones.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
@@ -154,7 +154,7 @@ Skype for Business Online 支持电话和固件是 Skype for Business Server 兼
     
      ![Deploying phones.](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
   
-    > [!注释]
+    > [!NOTE]
     > 适用于 Skype for Business Online 的 LPE 电话仅支持通过 USB 数据连线登录。 
   
 - **支持的部署** 下表显示了当前支持的部署模式所支持的身份验证类型，包括 Exchange 集成、使用多因素身份验证 (MFA) 的新式验证以及 Skype for Business Online 和本地部署。
@@ -205,13 +205,13 @@ BToE 是 paining 机制合作伙伴 IP 电话手机，对其 Windows Skype for B
     
 3. 默认情况下，BToE 的服务器设置设置为 **已启用** 和 **自动模式** 。若要更改这些设置，请参阅[设置 CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx)。
     
-> [!注释]
+> [!NOTE]
 > Mac 和 VDI 平台目前不支持 BToE。 
   
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

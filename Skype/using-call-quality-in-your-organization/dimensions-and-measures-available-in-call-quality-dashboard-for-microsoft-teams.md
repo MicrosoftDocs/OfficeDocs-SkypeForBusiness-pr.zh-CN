@@ -15,7 +15,7 @@ description: "Get detailed information about the dimensions and measures exposed
 
 # 维度和度量值提供为 Microsoft 团队呼叫质量仪表板和 Skype for Business Online
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](e97aeeee-9e43-416f-b433-9cdd63d8874b.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/e97aeeee-9e43-416f-b433-9cdd63d8874b) 中查找本文的英文版本以便参考。
   
 呼叫质量仪表板 (CQD) Microsoft Teams和Skype for Business Online允许您深入了解使用Microsoft Teams和 Skype for Business 服务所做的呼叫质量。本主题提供有关维度和度量值由 CQD 公开的详细的信息。若要了解有关 CQD 以及如何启用它的详细信息，请参阅[打开并使用 Microsoft 团队和 Skype for Business Online 的呼叫质量仪表板](turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-bu.md)。
@@ -43,7 +43,7 @@ description: "Get detailed information about the dimensions and measures exposed
 |OC（Skype for Business 客户端）  <br/> |OC 电话（Skype for Business IP 电话）  <br/> |OC（Skype for Business 客户端）  <br/> |OC 电话（Skype for Business IP 电话）  <br/> |是  <br/> |
 |OC 电话（Skype for Business IP 电话）  <br/> |OC（Skype for Business 客户端）  <br/> |OC（Skype for Business 客户端）  <br/> |OC 电话（Skype for Business IP 电话）  <br/> |否  <br/> |
    
-> [!注释]
+> [!NOTE]
 > 第一个和第二个分类是分开的终结点的呼叫者或方。呼叫者或方是可用于帮助确定哪些终结点的第一个是呼叫者维度。 
   
 ## 维度
@@ -128,7 +128,7 @@ description: "Get detailed information about the dimensions and measures exposed
 |First Connectivity Ice  <br/> |字符串  <br/> | 第一终结点使用的 ICE 连接类型。可能的值： <br/>  直接 - 直接网络路径 <br/>  中继 - 通过中继 <br/>  HTTP - 通过 HTTP 代理 <br/>  失败 - 连接失败。 <br/> |空值表示未报告连接类型或未建立媒体路径。  <br/> |直接  <br/> |
 |Second Connectivity Ice  <br/> |字符串  <br/> | 第二终结点使用的 ICE 连接类型。可能的值： <br/>  直接 - 直接网络路径 <br/>  中继 - 通过中继 <br/>  HTTP - 通过 HTTP 代理 <br/>  失败 - 连接失败。 <br/> |空值表示未报告连接类型或未建立媒体路径。  <br/> |直接  <br/> |
 |First IP Address  <br/> |字符串  <br/> |第一终结点的 IP 地址。请注意，此维度可能包含过多的行，导致无法用作报告中的一个维度。它可能会转为用作筛选器。  <br/> |空值表示终结点未报告此数据或未建立媒体路径。  <br/> |10.0.0.10  <br/> |
-|Second IP Address  <br/> |字符串  <br/> |第二终结点的 IP 地址。  <br/> > [!注释]> 此维度可能包含过多的行，导致无法用作报告中的一个维度。它可能会转为用作筛选器。           |空值表示终结点未报告此数据或未建立媒体路径。  <br/> |10.0.0.10  <br/> |
+|Second IP Address  <br/> |字符串  <br/> |第二终结点的 IP 地址。  <br/> > [!NOTE]> 此维度可能包含过多的行，导致无法用作报告中的一个维度。它可能会转为用作筛选器。           |空值表示终结点未报告此数据或未建立媒体路径。  <br/> |10.0.0.10  <br/> |
 |First Link Speed  <br/> |位/秒  <br/> |第一终结点使用的网络适配器报告的链路速度，以"位/秒"为单位。  <br/> |空值表示终结点未报告此数据或未建立媒体路径。  <br/> |10000000  <br/> |
 |Second Link Speed  <br/> |位/秒  <br/> |第二终结点使用的网络适配器报告的链路速度，以"位/秒"为单位。  <br/> |空值表示终结点未报告此数据或未建立媒体路径。  <br/> |10000000  <br/> |
 |First Port  <br/> |端口号  <br/> |第一终结点用于媒体的网络端口号。  <br/> |空值表示终结点未报告此数据或未建立媒体路径。  <br/> |50018  <br/> |
@@ -318,7 +318,7 @@ description: "Get detailed information about the dimensions and measures exposed
 |Tenant Id Pair  <br/> |枚举对  <br/> |表示第一和第二终结点的租户 ID 的成对值。  <br/> |枚举中的空值表示无法确定租户标识符。当终结点登录到了本地 Skype for Business Server 部署时可能会出现此情况。  <br/> |00000000 - 0000 - 0000 - 0000 - 000000000000 : 00000000 - 0000 - 0000 - 0000 - 000000000000  <br/> |
 |Building Name Pair  <br/> |枚举对  <br/> |表示第一和第二终结点的建筑物名称的成对值。  <br/> |枚举中的空值表示无法确定终结点的建筑物名称。这可能是因为终结点位于企业网络外部，或正在从没有子网映射的站点访问网络。  <br/> |主建筑 : 分支站点建筑  <br/> |
 |Inside Corp Pair  <br/> |枚举对  <br/> | 根据子网映射，显示终结点位于企业网络内部还是外部的成对值。可能的值： <br/>  内部 : 内部 <br/>  内部 : 外部 <br/>  外部 : 外部 <br/> |-  <br/> |内部 : 内部  <br/> |
-|Scenario Pair  <br/> |枚举对  <br/> |显示终结点位于企业网络内部还是外部（根据子网映射确定）以及网络连接详情的成对值。  <br/> > [!注释]> 对值用"--"隔开。           |枚举中的空值表示一个或两个终结点的网络连接类型未知。  <br/> |客户端-内部--客户端-内部-wifi  <br/> |
+|Scenario Pair  <br/> |枚举对  <br/> |显示终结点位于企业网络内部还是外部（根据子网映射确定）以及网络连接详情的成对值。  <br/> > [!NOTE]> 对值用"--"隔开。           |枚举中的空值表示一个或两个终结点的网络连接类型未知。  <br/> |客户端-内部--客户端-内部-wifi  <br/> |
 |IsTeams  <br/> |布尔值  <br/> |True 表示第一个和第二个用户代理流是 Microsoft 团队终结点。  <br/> False 指示用户代理的 Skype for Business 终结点。  <br/> ||True  <br/> |
    
 ### 关于维度数据类型/单位的说明：
@@ -342,7 +342,7 @@ description: "Get detailed information about the dimensions and measures exposed
    
 <排序字符串> 用于控制数据显示的顺序，可以用于筛选功能。例如，利用持续时间（分钟）<"065"的筛选器可以显示持续时间小于 2 分钟的流（筛选器应包含前导"0"才能正常使用）。
   
-> [!注释]
+> [!NOTE]
 > 排序字符串的实际值并不重要。 
   
 #### 枚举对
@@ -503,7 +503,7 @@ description: "Get detailed information about the dimensions and measures exposed
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

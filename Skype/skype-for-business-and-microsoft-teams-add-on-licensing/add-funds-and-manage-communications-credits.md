@@ -30,7 +30,7 @@ description: "Learn how to pay for Communication credits (PSTN Consumption) for 
 
 # 添加资金和管理通信贷项
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](691c9301-1f66-41fe-9b2c-ca24ae987463.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/691c9301-1f66-41fe-9b2c-ca24ae987463) 中查找本文的英文版本以便参考。
   
 通信贷项是一种简便方法电话系统和致电 Office 365 中计划付款。它有助于确保不能向永远不会捕获您和您的用户：
@@ -45,7 +45,7 @@ description: "Learn how to pay for Communication credits (PSTN Consumption) for 
     
 - 拨出和支付每分钟后您已经用尽您每月分钟服务配额。
     
-> [!注释]
+> [!NOTE]
 > 如果您想知道多少它是和费率，请参阅[调用计划](https://go.microsoft.com/fwlink/p/?LinkId=799523)页面上的费率表。 
   
 作为管理员，您可以添加资金手动或您可以设置自动-充电，我们的 **建议** 。
@@ -56,7 +56,7 @@ description: "Learn how to pay for Communication credits (PSTN Consumption) for 
   
 使用服务时，将仅对 Microsoft 的已发布率通信贷项应用资金。不使用的购买日期 12 （12） 个月内的任何资金将过期并且丧失。
   
-> [!提示]
+> [!TIP]
 > 当通过自动充值功能存入资金、自动充值失败（例如，信用卡到期时）和你的余额低于零时，我们将向你发送电子邮件通知。 
   
 想要了解有关详细信息，请参阅[什么是通信贷项？](what-are-communications-credits.md)
@@ -82,7 +82,7 @@ description: "Learn how to pay for Communication credits (PSTN Consumption) for 
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

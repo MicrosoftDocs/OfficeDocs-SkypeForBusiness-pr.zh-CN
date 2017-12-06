@@ -19,7 +19,7 @@ description: "Learn how to assign Skype for Business licenses for Cloud PBX, PST
 
 # 分配 Skype for Business 和 Microsoft 团队合作的用户许可证
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](fd41934d-f2eb-4a1b-89d8-32cb37702b33.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/fd41934d-f2eb-4a1b-89d8-32cb37702b33) 中查找本文的英文版本以便参考。
   
 本文提供了有关您的音频会议、 电话系统和呼叫计划等功能的用户分配许可证的提示。它还提供了脚本分配批量许可证。
@@ -212,7 +212,7 @@ foreach ($user in $users)
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

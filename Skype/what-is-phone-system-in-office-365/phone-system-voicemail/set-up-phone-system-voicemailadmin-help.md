@@ -16,12 +16,12 @@ description: "Learn how to set up the phone system (Cloud PBX) voicemail for you
 
 # 设置电话系统语音邮件-管理员帮助
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](9c590873-b014-4df3-9e27-1bb97322a79d.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/9c590873-b014-4df3-9e27-1bb97322a79d) 中查找本文的英文版本以便参考。
   
 本文适用于[关于 Office 365 管理员角色](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)想要在企业版中设置的所有人电话系统语音邮件功能。
   
-> [!注释]
+> [!NOTE]
 > 语音邮件系统支持只能在 Exchange 邮箱中放入语音邮件和不支持任何第三方电子邮件系统。回退机制，为电话系统语音邮件可以重新使用 SMTP，这意味着与第三方电子邮件系统上的邮箱的用户将收到不保证的服务运行时间或其他语音邮件功能，例如更改其语音邮件的邮件的邮件发送其问候语和其他设置。 
   
 ## 仅基于云的环境： 设置电话系统语音邮件
@@ -52,7 +52,7 @@ description: "Learn how to set up the phone system (Cloud PBX) voicemail for you
 
 默认情况下为所有组织和用户; 启用语音邮件抄写但是，您可以控制其使用[设置 CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx)和[授予 CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798311.aspx) cmdlet。
   
-> [!重要信息]
+> [!IMPORTANT]
 > 不能创建新策略实例的抄写使用 **New-CsOnlineVoiceMailPolicy** cmdlet，并且您不能删除现有策略实例使用 **Remove-CsOnlineVoiceMailPolicy** cmdlet。
   
 您可以为您使用的语音邮件策略的用户管理抄写设置。若要查看所有可用的语音邮件策略实例，可以使用[获取 CsOnlineVoicemailPolicy](https://technet.microsoft.com/en-us/library/mt798311.aspx)[]()cmdlet。
@@ -79,7 +79,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:amosmar@contoso.com
 ```
 
-> [!重要信息]
+> [!IMPORTANT]
 > Office 365 中的语音邮件服务缓存语音邮件策略，并每隔 4 小时更新一次缓存。因此，你所作的策略更改最长可能需要 4 小时才能生效。 
   
 ## 帮助你的用户了解 Skype for Business 语音邮件的功能
@@ -99,7 +99,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:am
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

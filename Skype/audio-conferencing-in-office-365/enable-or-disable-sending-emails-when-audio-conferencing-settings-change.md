@@ -18,7 +18,7 @@ description: "Learn how to enable or disable Skype from sending emails to users 
 
 # 启用或禁用发送电子邮件时更改音频会议设置
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](26ea19d3-e420-4fc1-baa3-2692d17e5e1d.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/26ea19d3-e420-4fc1-baa3-2692d17e5e1d) 中查找本文的英文版本以便参考。
   
 在启用音频会议时，用户将自动通知通过电子邮件。可能有的时间，但是，当您想要减少发送到 Skype for Business 和 Microsoft 团队用户的电子邮件的数目。在这种情况下，您可以禁用发送电子邮件。
@@ -59,7 +59,7 @@ description: "Learn how to enable or disable Skype from sending emails to users 
     
 4. 单击" **保存**"。
     
-    > [!提示]
+    > [!TIP]
     > 您也可以发送电子邮件向用户与音频会议设置通过转到 **音频会议**> **用户**，选择用户，然后单击 **发送会议信息通过电子邮件**。 > 如果执行此操作，将仅包含会议 ID 和会议电话号码，但不是 PIN 发送一封电子邮件。 > 有关详细信息，请参阅[对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-audio-conferencing-information.md)。 
   
  **使用 Windows PowerShell**
@@ -78,7 +78,7 @@ description: "Learn how to enable or disable Skype from sending emails to users 
     
 - 默认情况下，发件人的电子邮件将来自 Office 365，但可以更改的电子邮件地址和显示使用 Windows PowerShell 的名称，也将使用[设置 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757) cmdlet。
     
-    > [!注释]
+    > [!NOTE]
     > 如果要更改电子邮件地址信息，你需要确保你的环境的入站电子邮件策略允许来自指定的发件人地址的电子邮件。 
   
   - 在  _SendEmailFromAddress_ 参数中输入电子邮件地址。
@@ -117,13 +117,13 @@ description: "Learn how to enable or disable Skype from sending emails to users 
     
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-    > [!注释]
+    > [!NOTE]
     > 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。 
   
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

@@ -18,14 +18,14 @@ description: "See steps to assign a dial-in conferencing license and conference 
 
 # 管理我的组织的音频会议设置
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](bc9bd328-c5b2-44e5-af15-e02bf00e1c81.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/bc9bd328-c5b2-44e5-af15-e02bf00e1c81) 中查找本文的英文版本以便参考。
   
 它可能更容易以查看所有 Skype for Business 和 Microsoft 团队在一个位置的音频会议设置。
   
 ## 分配音频会议许可证
 
-> [!注释]
+> [!NOTE]
 > 不能分配许可证使用 **Skype for Business 管理中心**。您必须使用 Office 365 管理中心。请参阅[分配 Skype for Business 和 Microsoft 团队合作的用户许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。 
   
  **若要为用户分配许可证**
@@ -34,14 +34,14 @@ description: "See steps to assign a dial-in conferencing license and conference 
     
 2. 在 **Office 365 管理中心**的左侧导航中，转到 **用户**> **活动用户**，然后从可用的用户列表中选择或多个用户。
     
-    > [!注释]
+    > [!NOTE]
     > 如果您要同时向达 20 个用户分配许可证，您可以使用 **选择视图**下拉列表，然后选择其中一个选项或创建您自己的视图。然后单击 **编辑** **下一步**两次选择的许可证，然后单击 **提交**。 您可以使用 Windows Powershell 到多个用户分配许可证。有关说明和示例 PowerShell 脚本，请参阅[分配 Skype for Business 和 Microsoft 团队合作的用户许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。 
   
 3. 在"操作"窗格中的" **产品许可证**"下，单击" **编辑**"。
     
 4. 在 **产品许可证**页面上启用 **音频会议**，然后单击 **保存**。 有关许可的详细信息，请参阅[Skype for Business 和 Microsoft 团队许可加载项](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
     
-> [!注释]
+> [!NOTE]
 > 分配许可证后，Microsoft 可能无法显示最初在列表中作为音频会议提供商。如果发生这种情况，注销 Office 365 管理中心中或者按 CTRL + F5 刷新浏览器窗口。 
   
 ## 为用户分配会议 ID
@@ -58,12 +58,12 @@ description: "See steps to assign a dial-in conferencing license and conference 
 Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 8271964 
 ```
 
-> [!重要信息]
+> [!IMPORTANT]
 > 会议 ID 必须包含 7 位，并且您无法在 Skype for Business 管理中心，或通过使用 Windows PowerShell 中更改它。 
   
 请参阅[设置 CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 )若要了解有关 cmdlet 的详细信息。
   
-> [!重要信息]
+> [!IMPORTANT]
 >  创建新的会议 ID 后，呼叫者不使用旧的会议 ID。您应通知重新安排现有会议邀请，以确保新会议 ID 添加到邀请的用户。用户可以使用Skype for Business会议迁移工具更新其现有的会议。若要了解如何下载、 安装和运行 Skype 业务会议更新工具，请参阅：> [Skype for Business 和 Lync 的会议更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)> [Skype for Business Online、会议迁移工具（64 位）](http://go.microsoft.com/fwlink/?LinkID=626047)> [Skype for Business Online、 会议迁移工具 （32 位）](https://go.microsoft.com/fwlink/?LinkID=626046)
   
 请参阅[请参阅、 更改和重置会议 ID 分配给用户](see-change-and-reset-a-conference-id-assigned-to-a-user.md)。
@@ -80,7 +80,7 @@ Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 827196
     
 5. 在 **属性**页上，在 **提供商名称**下选择用户的音频会议提供商。
     
-    > [!注释]
+    > [!NOTE]
     > 您可以仅选择 Microsoft 作为音频会议提供商或 **无**如果选择了多个用户。 
   
 6. 单击" **保存**"。
@@ -147,7 +147,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     
 4. 在 **重置会议 ID？**窗口中，单击 **是**。将自动创建的会议 ID 和电子邮件发送给用户的新会议 id 是否已启用向用户发送电子邮件。默认情况下启用它。
     
-    > [!重要信息]
+    > [!IMPORTANT]
     >  创建新的会议 ID 后，呼叫者不使用旧的会议 ID。您应通知重新安排现有会议邀请，以确保新会议 ID 添加到邀请的用户。用户可以使用Skype for Business会议迁移工具更新其现有的会议。若要了解如何下载、 安装和运行 Skype 业务会议更新工具，请参阅：> [Skype for Business 和 Lync 的会议更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)> [Skype for Business Online、会议迁移工具（64 位）](http://go.microsoft.com/fwlink/?LinkID=626047)> [Skype for Business Online、 会议迁移工具 （32 位）](https://go.microsoft.com/fwlink/?LinkID=626046)
   
 请参阅[重置用户的会议 ID](reset-a-conference-id-for-a-user.md)。
@@ -180,7 +180,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     
 4. 在操作窗格中，单击" **通过电子邮件发送会议信息**"。
     
-    > [!注释]
+    > [!NOTE]
     > 执行此操作时，音频会议 PIN 不发送给用户。 
   
 请参阅[对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-audio-conferencing-information.md)。
@@ -404,7 +404,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

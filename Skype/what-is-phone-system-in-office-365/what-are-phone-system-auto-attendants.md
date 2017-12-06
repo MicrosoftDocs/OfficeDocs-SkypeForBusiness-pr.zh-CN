@@ -14,7 +14,7 @@ description: "Learn what Phone System (Cloud PBX) auto attendents are and how to
 
 # 电话系统自动助理是什么？
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](ab9f05a2-22cb-4692-a585-27f82d1b37c7.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/ab9f05a2-22cb-4692-a585-27f82d1b37c7) 中查找本文的英文版本以便参考。
   
 在 Office 365 自动助理可用于创建菜单系统为您允许内部和外部呼叫者的组织中的电话系统移动菜单系统以查找并放置或将呼叫转接到您的组织中的部门或公司的用户。
@@ -39,12 +39,12 @@ description: "Learn what Phone System (Cloud PBX) auto attendents are and how to
   
 - 企业版 E3 与 **电话系统**的许可证或企业 E5 许可证，您的组织必须 （最低）。 分配了影响服务数的数字的 **电话系统**的用户许可证数是可用于自动助理。您可以自动助理号码是取决于您的组织中分配的数字 **电话系统**和 **音频会议**许可证。若要了解有关许可，转[Skype for Business 和 Microsoft 团队许可加载项](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
     
-    > [!提示]
+    > [!TIP]
     > 要重定向呼叫转接到的运算符或联机用户与 **电话系统**许可证的菜单选项，您将需要启用企业语音或为其分配呼叫计划。请参阅[分配 Skype for Business 和 Microsoft 团队合作的用户许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。您还可以使用 Windows PowerShell。例如运行：  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - 若要获取和使用自动助理服务免费电话号码，您需要设置通信贷项。若要执行此操作，请参阅[什么是通信贷项？](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)和[为您的组织设置通信贷项](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)。
     
-    > [!重要信息]
+    > [!IMPORTANT]
     > 不能将用户（订阅者）的电话号码分配给自动助理 - 只能使用收费或免费服务电话号码。 
   
 ## 功能概述
@@ -53,7 +53,7 @@ description: "Learn what Phone System (Cloud PBX) auto attendents are and how to
 
 按名称拨号是称为目录搜索为自动助理的一项功能。它使您自动助理以使用语音 （语音识别） 或 (DTMF) 其电话键盘输入完整或部分名称搜索公司目录、 中找到的人员，和然后已为其作为呼叫转接到呼叫中的人员。如果您有 Skype for Business Online 用户， **他们不需要有电话号码或呼叫计划分配给他们，但它们必须具有一个 **电话系统**许可证** 以便使用拨号按名称搜索时可访问。按名称拨号甚至无法查找并将呼叫转接到 Skype for Business Online 用户在不同国家或地区对于跨国组织中托管。
   
-> [!警告]
+> [!CAUTION]
 > 本地部署的 Lync Server 2010 用户不会列出在目录中，当有人搜索。 
   
 ### 目录最大大小
@@ -66,7 +66,7 @@ description: "Learn what Phone System (Cloud PBX) auto attendents are and how to
 |DTMF（键盘输入）  <br/> |部分  <br/> 名字 + 姓氏  <br/> 姓氏 + 名字  <br/> |没有硬性限制  <br/> |
 |语音（语音识别）  <br/> |名字  <br/> 姓氏  <br/> 名字 + 姓氏  <br/> 姓氏 + 名字  <br/> |80000 用户  <br/> |
    
-> [!注释]
+> [!NOTE]
 > 如果您使用的按名称拨号使用语音识别，但您所在组织的 Active Directory 大于 80000 用户和尚未有限拨通过使用拨号范围功能名称的范围，按名称拨号仍适合您的呼叫者使用电话键盘其他所有情况下将可语音输入。拨范围功能可用于缩小是到达通过更改拨按特定的自动助理的名称范围的名称。 
   
 ### 按名字拨叫 - 键盘 (DTMF) 输入
@@ -115,7 +115,7 @@ description: "Learn what Phone System (Cloud PBX) auto attendents are and how to
 |名字  <br/> |完整  <br/> |Amos  <br/> |按或报 1 选择 Amos Marble  <br/> 按或报 2 选择 Amos Jones  <br/> |
 |姓氏  <br/> |完整  <br/> |Marble  <br/> |按或报 1 选择 Amos Marble  <br/> 按或报 2 选择 Ben Marble  <br/> |
    
-> [!注释]
+> [!NOTE]
 > 可能需要多达 36 小时，为新用户具有其目录中列出的拨按名称语音识别的名称。 
   
 ### 语言支持
@@ -173,14 +173,14 @@ description: "Learn what Phone System (Cloud PBX) auto attendents are and how to
   
 默认情况下将键 0 和语音命令"接线员"（可使用支持语音识别的所有语言）分配给接线员。
   
-> [!注释]
+> [!NOTE]
 > 您可以设置的推送为 **运算符**到不同的密钥使用 **菜单选项**按钮。 
   
 可以将以下人员设置为接线员：
   
 - Skype for Business Online 用户具有许可证的 **电话系统**的人员已启用企业语音的或呼叫计划分配给他们。您可以设置它以便呼叫的人发送到语音邮件。若要执行此操作，选择 **您所在公司的人员**，并设置此人的呼叫，直接向语音邮件自动转发。
     
-    > [!注释]
+    > [!NOTE]
     > 用户托管本地使用 Lync Server 2010 不能用作运算符。 
   
 - 为组织设置的其他自动助理。
@@ -199,7 +199,7 @@ description: "Learn what Phone System (Cloud PBX) auto attendents are and how to
     
   - 重定向到 Skype for Business Online 用户有 **电话系统**许可证支持企业语音的呼叫，或呼叫计划分配给他们。您可以设置它以便呼叫的人发送到语音邮件。若要执行此操作，选择 **您所在公司的人员**，并设置此人的呼叫，直接向语音邮件自动转发。
     
-    > [!注释]
+    > [!NOTE]
     > 用户托管本地使用 Lync Server 2010 不支持。 
   
   - 重定向到呼叫队列呼叫。若要查看有关呼叫队列的详细信息，请参阅[创建电话系统呼叫队列](create-a-phone-system-call-queue.md)。
@@ -222,7 +222,7 @@ description: "Learn what Phone System (Cloud PBX) auto attendents are and how to
     
 - Skype for Business Online 用户具有许可证的 **电话系统**的人员已启用企业语音的或呼叫计划分配给他们。您可以设置它以便呼叫的人发送到语音邮件。若要执行此操作，选择 **您所在公司的人员**，并设置此人的呼叫，直接向语音邮件自动转发。
     
-    > [!注释]
+    > [!NOTE]
     > 用户托管本地使用 Lync Server 2010 不能用于中 **菜单选项**。 
   
 如果已启用语音识别，每个菜单选项的名称将成为语音识别关键字。例如，呼叫者可以说"一个"以选择菜单选项映射到键 1，或者他们可以只需说"销售额"，选择相同菜单选项名为"销售额"。
@@ -233,7 +233,7 @@ description: "Learn what Phone System (Cloud PBX) auto attendents are and how to
 
 您可以创建和设置自动助理之前，您需要获取或将现有收费或免费服务传输数字。一旦收费或服务的免费电话号码，它们将显示在 **Skype for Business 管理中心**> **语音**> **电话号码**，并列出的 **数字类型**将被列为 **服务-免费电话**。要获取您的服务号码，请查看[获取 Skype for Business 服务电话号码](getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md)，或如果您希望的传输和现有服务号码，请参阅[将电话号码转移到 Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md)。
   
-> [!注释]
+> [!NOTE]
 > 如果您是在美国以外，您无法使用 Skype for Business 管理中心获取服务号码。转[管理您的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)相反，了解如何执行此操作。 
   
 ## 更改为呼叫队列的电话号码的用户的呼叫者 ID
@@ -263,7 +263,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

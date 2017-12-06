@@ -18,7 +18,7 @@ description: "Learn how to set up Skype for Business so you can see the availabi
 
 # 在 Skype for Business Online 中配置状态
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](ce59ac0b-8115-4c6b-8174-e3aef982d3cb.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/ce59ac0b-8115-4c6b-8174-e3aef982d3cb) 中查找本文的英文版本以便参考。
   
 默认情况下，可以使用 Skype for Business 与你的组织中的其中一个用户进行通信的任何人也能查看该人是否处于联机状态。Skype for Business 显示用户是联机、正在开会、脱机还是其他状态。 
@@ -47,7 +47,7 @@ description: "Learn how to set up Skype for Business so you can see the availabi
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

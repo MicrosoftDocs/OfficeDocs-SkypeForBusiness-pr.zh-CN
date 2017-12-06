@@ -16,7 +16,7 @@ description: "Download, install, and then use the Skype for Business Online Conn
 
 # 下载并安装 Skype for Business Online 连接器模块
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](9c1cc3dc-7d6d-43ca-8e4a-7763a3f78cb3.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/9c1cc3dc-7d6d-43ca-8e4a-7763a3f78cb3) 中查找本文的英文版本以便参考。
   
 Skype for Business Online 连接器模块包括 **New-CsOnlineSession** cmdlet，以便您可以创建连接到Skype for Business Online远程Windows PowerShell会话。此模块，只能在 64 位计算机 （有关详细信息，请参阅[设置您的计算机的 Skype for Business Online 管理使用 Windows PowerShell](set-up-your-computer-for-skype-for-business-online-management-using-windows-powe.md)） 的受支持，可以从在[https://www.microsoft.com/en-us/download/details.aspx?id=39366](https://www.microsoft.com/en-us/download/details.aspx?id=39366)Microsoft 下载中心下载。下载 SkypeOnlinePowershell.exe 文件，然后完成以下过程︰
@@ -54,7 +54,7 @@ Import-Module SkypeOnlineConnector
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

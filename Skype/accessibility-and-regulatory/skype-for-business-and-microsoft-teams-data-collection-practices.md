@@ -15,7 +15,7 @@ description: "Microsoft collects census, usage, and error data to understand how
 
 # Skype for Business 和 Microsoft 团队数据收集实践
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](c17e8ea6-b83b-4345-9401-47a6c8b13aad.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/c17e8ea6-b83b-4345-9401-47a6c8b13aad) 中查找本文的英文版本以便参考。
   
 Skype for Business Server 2015、 Skype for Business Online和Skype for Business客户端收集数据来帮助了解如何使用这些产品和发生了哪些类型的错误，请登录错误，例如 Microsoft。此信息可以帮助我们了解使用模式、 计划新功能，和故障排除和解决问题的区域。
@@ -119,7 +119,7 @@ Skype 会议应用程序，MeetingUxEnableTelemetry 还控制错误报告，虽�
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

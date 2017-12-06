@@ -16,7 +16,7 @@ description: "See how to try or purchase Audio Conferencing (PSTN conferencing) 
 
 # 试用或购买 Office 365 中的音频会议
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](d080bb8c-3465-47bb-ad2b-9428f1a3fd24.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/d080bb8c-3465-47bb-ad2b-9428f1a3fd24) 中查找本文的英文版本以便参考。
   
 有时您组织中的人员将需要使用电话拨入会议。Skype for Business和 Microsoft 团队包括只需这种情况的音频会议功能 ！用户可以拨入Skype for Business和 Microsoft 小组会议使用电话，而不在移动设备或电脑上使用Skype for Business或 Microsoft 小组应用程序。
@@ -53,19 +53,19 @@ description: "See how to try or purchase Audio Conferencing (PSTN conferencing) 
     
 3. 为您的组织中[为您的组织设置通信贷项](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)。若要设置通信贷项，请参阅[什么是通信贷项？](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
     
-    > [!重要信息]
+    > [!IMPORTANT]
     > 如果通信贷项尚未设置，音频会议不适合任何支付每分钟许可证的用户。 
   
 4. [如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)分配给贵组织中打算安排或主持会议的人。
     
-    > [!注释]
+    > [!NOTE]
     > 如果您有音频会议支付每分钟许可证，您不必为每个用户 （您可能仍需要将其分配对其他服务） 的音频会议用法专为单独分配通信贷项许可证。 
   
 ## 步骤 2： 设置音频会议提供商的前置重叠时间或安排会议的人员
 
 当分配的人员在您的组织主持或安排会议的 **音频会议**许可证时，则这些邮件将所有设置和准备就绪 ！（您不必设置其音频会议提供商。）但如果您有已使用第三方音频会议提供商 (ACP) 的用户，您将需要为[移动到 Microsoft 的用户的音频会议提供商](moving-a-user-s-audio-conferencing-provider-to-microsoft.md)。
   
-> [!注释]
+> [!NOTE]
 > 如果您想要使用第三方 ACP，选择 **音频会议**> **Microsoft 网桥**。在页面的底部，单击 **如果您想要配置的第三方音频会议提供商，请单击此处**。 
   
 ## 步骤 3：其他管理任务
@@ -82,13 +82,13 @@ description: "See how to try or purchase Audio Conferencing (PSTN conferencing) 
     
 ## 
 
-> [!注释]
+> [!NOTE]
 > 使用由世纪互联运营的 Office 365 的中国用户尚无法使用此功能。有关详情，请参阅[了解由世纪互联运营的 Office 365](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)。 
   
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

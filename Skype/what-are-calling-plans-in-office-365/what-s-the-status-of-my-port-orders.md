@@ -18,7 +18,7 @@ description: "Learn how to get the status of your port orders, and what the diff
 
 # 我的移植订单的状态是什么？
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](f651e82d-4237-4e3d-ad74-40fdf11fa8d1.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/f651e82d-4237-4e3d-ad74-40fdf11fa8d1) 中查找本文的英文版本以便参考。
   
 您可以通过转到 **Skype for Business 管理中心**查看端口订单的状态 > **语音**> **端口订单**。在 **状态**列中，将列出每个端口订单状态。如果您帮助[联系 Office 365 商业版支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
@@ -40,7 +40,7 @@ description: "Learn how to get the status of your port orders, and what the diff
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

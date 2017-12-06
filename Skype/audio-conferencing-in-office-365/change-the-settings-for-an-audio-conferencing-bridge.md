@@ -18,14 +18,14 @@ description: "Get the steps you need to change settings for a Microsoft dial-in 
 
 # 更改音频会议网桥的设置
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](783fad3f-b77c-422b-b91f-7c8b0af324fb.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/783fad3f-b77c-422b-b91f-7c8b0af324fb) 中查找本文的英文版本以便参考。
   
 设置 Office 365 中的音频会议时，会为您的用户从所谓的音频会议网桥收到电话号码。会议网桥可以包含一个或多个电话号码。呼叫者拨入会议时，使用这些电话号码。电话号码将包括Skype for Business或 Microsoft 小组会议邀请底部。
   
 会议网桥应答呼叫，并将呼叫者提示语音提示使用会议自动助理，然后，具体取决于您的设置，可播放通知、 要求呼叫者录制其姓名，然后控制 PIN 设置。Pin 提供给会议组织者以允许他们启动会议时未使用Skype for Business或 Microsoft 小组应用程序。
   
-> [!重要信息]
+> [!IMPORTANT]
 > PIN 只能为所需的会议组织者时Skype for Business或 Microsoft 小组应用用户未已经启动会议。如果每个人都拨入会议，则 PIN 是必需的会议组织者启动会议。 
   
 ## 更改音频会议网桥的设置
@@ -48,7 +48,7 @@ description: "Get the steps you need to change settings for a Microsoft dial-in 
     
   - **色调**当用户拨入会议时，加入它时，将播放音频的色调。
     
-    > [!注释]
+    > [!NOTE]
     > 当前所有客户都可以将 **音调**作为通知类型，这是一项预览功能。 
   
   - **要求呼叫者能够录制其姓名之前加入会议**默认情况下选择此选项。如果清除此复选框，不要求呼叫者加入会议之前录制其姓名。
@@ -65,7 +65,7 @@ description: "Get the steps you need to change settings for a Microsoft dial-in 
     
 4. 在 **Microsoft 网桥设置**页面上，在 **安全性**下输入所需的 pin **PIN 长度**列表中的位数，然后单击 **保存**。
     
-    > [!重要信息]
+    > [!IMPORTANT]
     > 4 到 12 位之间必须固定。 
   
  **选择是否向用户发送电子邮件**
@@ -98,13 +98,13 @@ description: "Get the steps you need to change settings for a Microsoft dial-in 
     
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-    > [!注释]
+    > [!NOTE]
     > 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。 
   
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

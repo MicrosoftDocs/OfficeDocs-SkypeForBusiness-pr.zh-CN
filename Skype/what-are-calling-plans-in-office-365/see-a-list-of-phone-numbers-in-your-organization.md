@@ -18,7 +18,7 @@ description: "Learn how to see a list of all the phone numbers for your organiza
 
 # 查看组织中的电话号码列表
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](93098bc5-df63-4a1f-8734-0b72a6280a69.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/93098bc5-df63-4a1f-8734-0b72a6280a69) 中查找本文的英文版本以便参考。
   
 有不同类型的电话号码，您可以分配给用户或其他服务 （service 数字），例如在 Office 365 中的音频会议。
@@ -90,7 +90,7 @@ description: "Learn how to see a list of all the phone numbers for your organiza
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

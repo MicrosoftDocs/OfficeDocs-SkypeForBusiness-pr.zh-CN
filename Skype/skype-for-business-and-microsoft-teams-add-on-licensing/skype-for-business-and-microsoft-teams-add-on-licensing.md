@@ -24,7 +24,7 @@ description: "Learn what add-on licenses, what features you'll get with it, how 
 
 # Skype for Business 和 Microsoft 团队许可加载项
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](3ed752b1-5983-43f9-bcfd-760619ab40a7.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/3ed752b1-5983-43f9-bcfd-760619ab40a7) 中查找本文的英文版本以便参考。
   
 需要找人了解一下有关所有附加选项的信息？[联系 Office 365 商业版支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
@@ -101,7 +101,7 @@ Skype for Business和 Microsoft 小组许可旨在为您提供最大的灵活性
 |**电话系统** <br/> |[切换到其他 Office 365 商业版计划](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。如果切换到 E3 计划，你还会获得语音邮件功能。  <br/>  更新您的订阅后，您将看到用于购买 **电话系统**加载项的选项。  <br/> **电话系统**加载项  <br/>  呼叫计划： 从 Office 365 购买[致电 office 365 计划](calling-plans-for-office-365.md)。  <br/>  或者，使用[如何使用我现有调用计划与Skype for Business？](3ed752b1-5983-43f9-bcfd-760619ab40a7.md#bkmk_existing)。  <br/> |
 |**致电计划** <br/> |[切换到其他 Office 365 商业版计划](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。  <br/> **电话系统**加载项  <br/> [致电 office 365 计划](calling-plans-for-office-365.md) ： 购买 **电话系统**加载项之后，您可以仅购买此。  <br/> |
    
-> [!注释]
+> [!NOTE]
 > 如果您使用的Skype for Business Online 计划 2 或企业版计划，而不购买 **音频会议**加载项，您可以选择使用第三方音频会议提供商。提供程序也将托管您的音频会议网桥。 
   
 ### Office 365 企业版 E1、E3 和 E4
@@ -117,7 +117,7 @@ Skype for Business和 Microsoft 小组许可旨在为您提供最大的灵活性
 |**电话系统语音邮件** <br/> |对于 E1 和 E4 计划，购买 Exchange Online 计划 2。 或者，切换到 Exchange Online 计划 2 附带的 Office 套件，如 Office 365 E3。 |
 |**致电计划** <br/> |**电话系统**加载项  <br/> [致电 office 365 计划](calling-plans-for-office-365.md) ： 购买 **电话系统**加载项之后，您可以仅购买此。  <br/> |
    
-> [!注释]
+> [!NOTE]
 > 对于包含Skype for Business Online 计划 2，而不是购买 **音频会议**加载项的企业计划，您可以选择使用第三方音频会议提供商。提供程序也将托管您的会议网桥。 
   
 ### Office 365 企业版 E5 （而不是音频会议）
@@ -235,7 +235,7 @@ E3 计划是操作 Pack 的一部分。若要购买的 **电话系统**和 **音
 
 下表列出了 [Skype 会议室系统版本 2 帮助](https://support.office.com/article/e667f40e-5aab-40c1-bd68-611fe0002ba2)中提供的功能以及为获得这些功能需要购买的许可证。
   
-> [!注释]
+> [!NOTE]
 > 要设置的会议室需为用户对象，并且要为其分配这些许可证。 
   
 |||||
@@ -243,8 +243,8 @@ E3 计划是操作 Pack 的一部分。若要购买的 **电话系统**和 **音
 |**Skype 会议室系统方案** <br/> |**您当前拥有 Office 365 高级版，Office 365 专业增强订阅版** 或 **Skype for Business独立计划 2。** <br/> **需要购买的项目：** <br/> |**你当前使用的是基于企业的计划。** <br/> **需要购买的项目：** <br/> |**已有 Skype for Business Server 2015（本地或混合）。** <br/> ** **需要购买的项目：**** <br/> |
 |加入计划的会议。  <br/> |Skype for Business 独立计划 1  <br/> |E1、3、4 或 5  <br/> |Skype for Business Server 标准 CAL  <br/> |
 |启动临时会议。  <br/> |Skype for Business 独立计划 2  <br/> |E1、3、4 或 5  <br/> |Skype for Business Server 标准 CAL  <br/> Skype for Business Server 企业 CAL  <br/> |
-|启动临时会议和电话号码从会议拨出。  <br/> |Skype for Business与音频会议的独立计划 2  <br/> > [!注释]> 通信贷项是可选的。           |E1 或 E3 与音频会议  <br/> 或者  <br/> E5  <br/> |Skype for Business 标准 CAL  <br/> Skype for Business Server 企业 CAL  <br/> |
-|提供该聊天室的电话号码和进行或接收来自该聊天室的呼叫或加入音频会议中使用的电话号码。  <br/> |Skype for Business使用 Office 365 电话系统和呼叫计划独立计划 2  <br/> > [!注释]> 通信贷项是可选的。           |E1 或与 Office 365 电话系统和 Office 365 呼叫计划 E3  <br/> 或者  <br/> E5  <br/> |Skype for Business Server 标准 CAL  <br/> Skype for Business Server Plus CAL  <br/> |
+|启动临时会议和电话号码从会议拨出。  <br/> |Skype for Business与音频会议的独立计划 2  <br/> > [!NOTE]> 通信贷项是可选的。           |E1 或 E3 与音频会议  <br/> 或者  <br/> E5  <br/> |Skype for Business 标准 CAL  <br/> Skype for Business Server 企业 CAL  <br/> |
+|提供该聊天室的电话号码和进行或接收来自该聊天室的呼叫或加入音频会议中使用的电话号码。  <br/> |Skype for Business使用 Office 365 电话系统和呼叫计划独立计划 2  <br/> > [!NOTE]> 通信贷项是可选的。           |E1 或与 Office 365 电话系统和 Office 365 呼叫计划 E3  <br/> 或者  <br/> E5  <br/> |Skype for Business Server 标准 CAL  <br/> Skype for Business Server Plus CAL  <br/> |
    
  **使用 Windows 10 的正确版本** ： 对于想要将 Windows 10 映像部署到其设备的客户，特定版本的 Windows 10 是必需的且仅适用于批量许可客户此版本。您需要使用 **Windows 10 企业 1607年或更高版本** 图像 Skype Room System 2.0 版设备。您可以从[批量许可服务中心](https://www.microsoft.com/Licensing/servicecenter/)获取副本。
   
@@ -315,7 +315,7 @@ E3 计划是操作 Pack 的一部分。若要购买的 **电话系统**和 **音
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

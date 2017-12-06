@@ -20,7 +20,7 @@ description: "Learn what address validation is, why it's important, and how it r
 
 # 什么是地址验证？
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](64353277-9949-4cf2-ac04-6d57cce43619.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/64353277-9949-4cf2-ac04-6d57cce43619) 中查找本文的英文版本以便参考。
   
 时设置致电 Office 365 中计划，您将需要为每个用户分配电话号码和紧急地址。
@@ -30,7 +30,7 @@ description: "Learn what address validation is, why it's important, and how it r
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

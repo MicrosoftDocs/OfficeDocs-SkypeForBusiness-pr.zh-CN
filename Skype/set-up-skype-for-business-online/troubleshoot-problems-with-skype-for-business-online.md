@@ -74,7 +74,7 @@ Skype for Business Online 用户遇到的大部分问题都与忘记密码有关
 ](https://go.microsoft.com/fwlink/p/?LinkId=519124)[![管理员：呼叫支持](../images/9f262e67-e8c9-4fc0-85c2-b3f4cfbc064e.png)
   
 ](https://go.microsoft.com/fwlink/p/?LinkID=518322)
-> [!注释]
+> [!NOTE]
 > 如果你在中国使用 由世纪互联运营的 Office 365，请[联系世纪互联支持团队](https://go.microsoft.com/fwlink/p/?linkid=847978)。 
   
 

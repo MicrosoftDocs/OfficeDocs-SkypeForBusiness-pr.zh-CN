@@ -18,7 +18,7 @@ description: "Learn how to change the emergency location for your users. With an
 
 # 更改用户的紧急位置
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](2d5d3c87-af1e-487e-b86c-261f2e5a0661.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/2d5d3c87-af1e-487e-b86c-261f2e5a0661) 中查找本文的英文版本以便参考。
   
 每个活动的电话号码 （关联当您在 Office 365 或电话号码的传输时获取电话号码） 紧急地址必须时向用户分配电话号码。当您紧急地址关联的数字时，也可以添加紧急的位置，以便更准确的位置中物理位置。紧急位置可以是平面布置、 构建机翼或办公室号码用户所在的位置。您可以添加任意的数量的给定的紧急地址的位置，您可以更改紧急位置，如果用户移动到不同的办公室或构建  例如，如果用户移动从地板到平面布置 35 34。
@@ -50,7 +50,7 @@ description: "Learn how to change the emergency location for your users. With an
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

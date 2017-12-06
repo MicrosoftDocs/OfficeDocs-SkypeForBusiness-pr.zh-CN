@@ -20,12 +20,12 @@ description: "See how to turn on and use the Skype for Business Online Call Qual
 
 了解如何配置Office 365组织使用呼叫质量仪表板监视呼叫质量。
   
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](553fa13c-92d2-4d5c-a3d5-41a073cb047c.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/553fa13c-92d2-4d5c-a3d5-41a073cb047c) 中查找本文的英文版本以便参考。
   
 呼叫质量仪表板 (CQD) Microsoft Teams和Skype for Business Online让您能够使用Microsoft Teams和Skype for Business服务进行呼叫的质量的见解。本主题介绍您需要完成以开始收集数据的步骤。
   
-> [!注释]
+> [!NOTE]
 > CQD 详细报告目前作为技术预览版提供给所有客户。 
   
 ## 最新更改和更新
@@ -38,7 +38,7 @@ description: "See how to turn on and use the Skype for Business Online Call Qual
     
 请参阅这篇文章的列表的[维度和度量值提供为 Microsoft 团队呼叫质量仪表板和 Skype for Business Online](dimensions-and-measures-available-in-call-quality-dashboard-for-microsoft-teams.md)。
   
-> [!注释]
+> [!NOTE]
 > 通过单击仪表板中的" **好消息!**"即可获取有关仪表板更新和更改的信息。你可以转到[呼叫质量仪表板](https://aka.ms/CQDOnline)。 
   
 ## 激活 Microsoft 呼叫质量仪表板 (CQD) 摘要报表
@@ -59,7 +59,7 @@ description: "See how to turn on and use the Skype for Business Online Call Qual
   
 您登录后，一次激活后, CQD 将开始收集和处理数据。
   
-> [!注释]
+> [!NOTE]
 > 可能需要几个小时才能处理足够的数据在报表中显示有意义的结果。 
   
 ## Skype for Business Online 呼叫质量仪表板的功能
@@ -120,7 +120,7 @@ CQD 这两个版本提供的-现成体验，使您可以呼叫质量标准，而
   
 将鼠标悬停在条上，你也可以获取实际数值。
   
-> [!注释]
+> [!NOTE]
 > 下面的示例是从一组的很小的示例数据，并值不适合实际部署。 
   
 ![CQD Data numeric](../images/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
@@ -147,7 +147,7 @@ CQD 这两个版本提供的-现成体验，使您可以呼叫质量标准，而
 
 顾名思义，此分类条件以客户端连接的类型为基础。此外，服务器始终是有线的，不包括在计算中。
   
-> [!注释]
+> [!NOTE]
 > 如果两个终结点的其中一个已连接到 Wifi 网络给定流、，然后归为 Wifi CQD 中。 
   
 ## 选择要在报表中查看的产品数据
@@ -222,7 +222,7 @@ CQD 摘要报表仪表板中包含一个 **租户数据上载**页，通过从�
 |InsideCorp  <br/> |布尔值  <br/> |1  <br/> |
 |ExpressRoute  <br/> |布尔值  <br/> |0  <br/> |
    
-> [!重要信息]
+> [!IMPORTANT]
 > 网络范围可用于表示超网（多个子网的组合，具有单个路由前缀）。将在所有新建筑物上载中检查是否存在重叠范围。如果你之前已经上载一个建筑物文件，则应该下载当前文件并将其重新上载以识别任何重叠，并在再次上载之前解决此问题。以前上载的文件中的任何重叠都可能导致在报告中错误地将子网映射到建筑物。 > 某些 VPN 实现无法准确报告子网信息。添加到构建一个文件，而不是一个条目的子网的 VPN 子网时建议的单独条目添加 VPN 网中的每个地址作为单独的 32 位网络。每个行具有相同的构建元数据。例如，而不是 172.16.18.0/24 一行，应具有 256 行，通过一行 172.16.18.0/32 和 172.16.18.255/32，包括之间的每个地址。 
   
 ## 在详细报告中选择媒体类型
@@ -239,7 +239,7 @@ CQD 摘要报表仪表板中包含一个 **租户数据上载**页，通过从�
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

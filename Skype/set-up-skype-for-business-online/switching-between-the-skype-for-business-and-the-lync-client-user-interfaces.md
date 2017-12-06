@@ -18,29 +18,29 @@ description: "Learn how to switch between Skype for Business and Lync client use
 
 # 在 Skype for Business 与 Lync 客户端用户界面之间切换
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](a2394a4c-7522-484c-a047-7b3289742be0.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/a2394a4c-7522-484c-a047-7b3289742be0) 中查找本文的英文版本以便参考。
   
 对于 Skype for Business Online 组织，你可以使用 Office 365 中的 Remote PowerShell 让你的 Skype for Business 用户使用 Skype for Business 客户端或 Skype for Business (Lync) 客户端用户界面。 默认设置是让用户使用 Skype for Business 客户端用户界面。 如果你希望使用 Lync 客户端体验，则可以管理首次启动客户端行为，以按照本主题后面的步骤显示 Lync 用户界面。
   
-> [!注释]
+> [!NOTE]
 > Lync 2013 客户端体验不是 Skype for Business 2016 客户端版本的一个选项。 在尝试将你的客户端环境配置为使用 Lync 2013 客户端之前，请检查客户端版本，以确保它不会以数字 16 开头；例如：16.x.x.x。 
   
-> [!提示]
+> [!TIP]
 > 如果您希望轻松切换用户界面，并且不想要执行手动步骤，请参阅[Microsoft 下载中心](https://go.microsoft.com/fwlink/?LinkId=532431)获取 PowerShell 脚本以使其更容易。 
   
 ## 切换用户的 Skype for Business 用户界面
 
 Skype for Business Online 的 Windows PowerShell 模块使您能够创建连接到 Skype for Business Online 的远程的 Windows PowerShell 会话。可以从 Microsoft 下载中心上[的 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载此模块，仅在 64 位计算机支持。有关其他信息，请参阅[配置您的计算机的 Skype for Business Online 管理](https://go.microsoft.com/fwlink/?LinkId=534539)。
   
-> [!重要信息]
+> [!IMPORTANT]
 > 用于切换用户界面的  _Global_ 策略设置不会应用于已经应用了自定义设置的用户。 需要为已经应用了自定义策略的每位用户运行下面的命令，才能更改其用户界面：
   
 ```
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 ```
 
-> [!警告]
+> [!CAUTION]
 >  _ClientPolicyEnableSkypeUI_ 策略将替换用户的现有自定义策略设置。
   
 要让贵组织中的所有用户使用 Skype for Business 客户端，请打开 Remote PowerShell 并键入以下命令：
@@ -119,7 +119,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
-> [!注释]
+> [!NOTE]
 >  用户的名称是应该为其分配该策略的用户帐户的名称。 可以以下列格式之一输入用户的帐户名称：>  用户的 SIP 地址>  用户的用户主体名称 (UPN)>  用户的域\\用户名>  用户的 Active Directory 显示名称
   
 [使用 Windows PowerShell 管理 Lync Online](https://go.microsoft.com/fwlink/?LinkID=525453)
@@ -381,7 +381,7 @@ ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

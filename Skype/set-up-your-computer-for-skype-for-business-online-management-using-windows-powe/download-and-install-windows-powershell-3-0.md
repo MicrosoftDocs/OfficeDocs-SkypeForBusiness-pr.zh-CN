@@ -17,7 +17,7 @@ description: "Download, install, and then use Windows PowerShell 3.0 to create a
 
 # 下载并安装 Windows PowerShell 3.0
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](d739cd71-3c18-42ea-879f-b408bf53b1f4.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/d739cd71-3c18-42ea-879f-b408bf53b1f4) 中查找本文的英文版本以便参考。
   
 如果您使用的Windows 8.1、 Windows 8、 Windows Server 2012 R2或Windows Server 2012，您应该已经Windows PowerShell 3.0。这是因为此应用程序出现与这些操作系统上预安装。
@@ -62,7 +62,7 @@ description: "Download, install, and then use Windows PowerShell 3.0 to create a
 Set-ExecutionPolicy RemoteSigned -Force
 ```
 
-> [!注释]
+> [!NOTE]
 > 运行前面的命令时，您可能会收到以下错误消息： > Set-executionpolicy： 访问注册表 key'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell 被拒绝。 > 如果您未在运行PowerShell管理员凭据，通常会发生此错误消息。关闭您的会话的PowerShell，并以管理员身份启动新会话。 
   
 验证已正确配置执行策略，在PowerShell提示时键入以下命令，然后按 ENTER:
@@ -148,7 +148,7 @@ Auth
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

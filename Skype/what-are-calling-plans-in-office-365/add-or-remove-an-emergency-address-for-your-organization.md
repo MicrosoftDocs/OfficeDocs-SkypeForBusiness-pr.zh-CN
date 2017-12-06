@@ -18,7 +18,7 @@ description: "Learn how to add an emergency address to your Skype for Business a
 
 # 为你的组织添加或删除紧急地址
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](f954c67c-b73c-4473-b6cd-a0fbcd0fd4c9.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/f954c67c-b73c-4473-b6cd-a0fbcd0fd4c9) 中查找本文的英文版本以便参考。
   
 紧急地址必须与电话号码-相关联，但是当发生这种情况国家/地区之间的不同。例如，在美国，您需要将紧急地址关联时向用户分配电话号码。在英国，您需要将电话号码紧急地址关联时您正在从 Office 365 中获取电话号码，或从您的当前服务提供商转接电话号码。
@@ -41,7 +41,7 @@ description: "Learn how to add an emergency address to your Skype for Business a
     
 5. 在输入地址的所有信息后，请单击" **验证**"。
     
-    > [!警告]
+    > [!CAUTION]
     > 验证的街道或市镇地址涉及确保它合法和正确格式。很可能就像您键入错误的名称的城市，但可能传递仍然通过验证的正确部分紧急地址等。即使它具有拼写错误，并且可以通过验证，以及其他正确地址的部分的拼写错误的组合是名称的城市的足够的信息来传送到相应的紧急派遣中心呼叫。 
   
     如果无法验证的地址，您可以通过单击 **发送验证请求**，如果您尝试验证是美国的地址，或单击 **打开服务请求以获取帮助地址验证**，如果您是外部发送手动验证请求美国
@@ -67,7 +67,7 @@ description: "Learn how to add an emergency address to your Skype for Business a
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

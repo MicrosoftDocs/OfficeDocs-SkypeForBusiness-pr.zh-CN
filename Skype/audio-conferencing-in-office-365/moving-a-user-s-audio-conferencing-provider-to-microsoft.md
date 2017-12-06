@@ -20,7 +20,7 @@ description: "Change your Skype for Business users from third-party audio confer
 
 # 移动到 Microsoft 的用户的音频会议提供商
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](3a518241-1ecc-406a-93a1-d2653eecc0f5.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/3a518241-1ecc-406a-93a1-d2653eecc0f5) 中查找本文的英文版本以便参考。
   
 要使用 Office 365 的 Skype for Business 和 Microsoft 小组音频会议，必须在您的组织需要的 **音频会议**许可证分配给他们和其音频会议提供商的用户设置给 Microsoft。请参阅[试用或购买 Office 365 中的音频会议](try-or-purchase-audio-conferencing-in-office-365.md)以获取授权和成本的详细信息。
@@ -43,7 +43,7 @@ description: "Change your Skype for Business users from third-party audio confer
     
 6. 在 **提供商名称**列表中选择 **Microsoft** 。
     
-    > [!注释]
+    > [!NOTE]
     > 当用户的音频会议提供商更改为 Microsoft 时，将更改用户的音频会议信息。如果您需要保留此信息，请更改的任何用户的提供商之前位置记录。 
   
 7. 单击" **保存**"。
@@ -61,7 +61,7 @@ description: "Change your Skype for Business users from third-party audio confer
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 

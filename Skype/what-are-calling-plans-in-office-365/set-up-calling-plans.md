@@ -21,7 +21,7 @@ description: "Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy an
 
 # 设置呼叫计划
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](57893158-1acd-44ac-acaf-19f58264a9e0.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/57893158-1acd-44ac-acaf-19f58264a9e0) 中查找本文的英文版本以便参考。
   
 呼叫转接到其他Skype for Business用户是免费的但如果您希望用户能够呼叫您的公司外部的电话获取国内调用计划或国际呼叫计划在 Office 365 中。很容易地为您的企业设置此。
@@ -30,7 +30,7 @@ description: "Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy an
 
 1. 如果电话系统在 Office 365 功能未包括在您的计划，您可能需要购买 **电话系统**加载项许可证。 **电话系统**许可证后，购买[致电 office 365 计划](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md)。 请参阅[Skype for Business 和 Microsoft 团队许可加载项](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)，和购买许可证和计划。
     
-    > [!提示]
+    > [!TIP]
     > 致电 Office 365 中计划和 **电话系统**许可证组织在一起，以便查看选项以购买调用计划，首先必须 **电话系统**许可证。 
   
 2. 第一次分配许可证，并将呼叫计划给您的组织中的人员。请参阅[分配 Skype for Business 和 Microsoft 团队合作的用户许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
@@ -51,7 +51,7 @@ description: "Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy an
    
 4. 选择 **电话号码**。您将看到 **电话系统**有多少份许可证您，以让您了解如何许多电话号码，若要请求。
     
-    > [!提示]
+    > [!TIP]
     > 您可以获得更多的电话号码数目超过了您拥有的许可证。要确定可以获取多少个电话号码，采用您数目的许可证，添加的许可证数，10%，然后添加 10。例如，如果您已购买 100 许可证，您可以获取 120 电话号码。 
   
      ![The dashboard shows how many Cloud PBX licenses you have.](../images/6af8653d-4b9c-41fa-85b4-88e763d08f4c.png)
@@ -60,7 +60,7 @@ description: "Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy an
     
 6.  在" **数量**"下，输入你的组织在此地区所需的电话号码数，然后单击" **添加**"以创建预留。
     
-    > [!警告]
+    > [!CAUTION]
     > 您有 10 分钟时间，以选择您的电话号码。10 分钟后，在 Office 365 的电话号码的池返回的电话号码。 
   
     下图中可以查看电话号码已经添加了两个不同的城市，为 9 几分钟，向左轻获取它们。
@@ -84,17 +84,17 @@ description: "Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy an
     
      ![When you enter a new emergency address, the formatting of the street name might cause an error.](../images/dc1c5ef3-0554-4fb7-9ab1-5ea3ac9e5eb5.png)
   
-    > [!提示]
+    > [!TIP]
     > 对于英语客户，如果街道名称是数字，请务必在结尾加上"st"或"th"，如上图所示。 
   
 3. 选择" **验证**"。
     
     如果需要，系统将提示你对地址进行更改。 
     
-    > [!警告]
+    > [!CAUTION]
     > 验证的街道或市镇地址涉及确保它合法和正确格式。很可能的正确部分紧急地址，如就像您键入错误的城市，名称可能仍通过验证。即使它具有拼写错误，并且可以通过验证，以及其他正确地址的部分的拼写错误的组合是名称的城市的足够的信息来传送到相应的紧急派遣中心呼叫。 
   
-    > [!提示]
+    > [!TIP]
     > 如果地址需要更正才能处理紧急响应，系统将显示一个绿色横幅，通知你地址已更新。 
   
 4. 验证地址之后，请选择" **保存**"。
@@ -102,7 +102,7 @@ description: "Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy an
 ## 第 4 步： 将电话号码和紧急地址分配给用户
 <a name="bkmk_add_addresses"> </a>
 
-> [!提示]
+> [!TIP]
 > 如果在执行此步骤前刚刚向企业添加了更多人员，这些人员可能需要 **几小时** 才会显示在" **语音用户**"页面。 系统存在延迟。 
   
 1. 在 **语音用户**页面中，选择您要分配电话号码和紧急地址的用户。
@@ -113,7 +113,7 @@ description: "Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy an
     
 4. 若要选择紧急的地址，在框中输入城市名称，然后选择 **搜索**。
     
-    > [!重要信息]
+    > [!IMPORTANT]
     > 如果您是在美国以外，您的号码已有的紧急的地址，但您现在可以更改。请参阅[为用户分配或更改紧急地址](assign-or-change-an-emergency-address-for-a-user.md)。 
   
 5. 之后您分配的电话号码和紧急地址，选择 **保存**。
@@ -165,7 +165,7 @@ description: "Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy an
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

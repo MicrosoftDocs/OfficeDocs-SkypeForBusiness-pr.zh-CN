@@ -14,12 +14,12 @@ description: "Use Call Analytics details about devices, networks, and connectivi
 
 # 使用呼叫分析来进行故障排除较差 Skype for Business 呼叫质量
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](66945036-ae87-4c08-a0bb-984e50d6b009.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/66945036-ae87-4c08-a0bb-984e50d6b009) 中查找本文的英文版本以便参考。
   
 呼叫分析可帮助您Skype for Business呼叫或连接问题疑难解答。呼叫分析Skype for Business帐户中显示有关设备、 网络和呼叫和会议的每个用户的连接的详细的信息。如果构建，网站，并租户信息已添加到呼叫分析，它也将显示为每个呼叫和会话。通过呼叫分析提供的信息可以帮助您找出为什么用户具有较差呼叫或会议体验。
   
-> [!注释]
+> [!NOTE]
 > 正在预览呼叫分析。文本和图像此处所述可能与您的体验。 
   
 ## 使用呼叫分析呼叫质量问题疑难解答
@@ -65,7 +65,7 @@ description: "Use Call Analytics details about devices, networks, and connectivi
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

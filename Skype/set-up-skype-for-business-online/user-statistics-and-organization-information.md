@@ -19,7 +19,7 @@ description: "Learn what Skype for business user statistics are available, such 
 
 # 用户统计数据和组织信息
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](3e55c5a2-baad-4573-9ad9-37d0c42dcb53.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/3e55c5a2-baad-4573-9ad9-37d0c42dcb53) 中查找本文的英文版本以便参考。
   
 Skype for Business 仪表板为你提供有关如何为企业设置服务的快照。如果你尚未配置 Skype for Business，请参阅[设置 Skype for Business Online](set-up-skype-for-business-online.md)，了解逐步操作说明。
@@ -34,7 +34,7 @@ Skype for Business 仪表板为你提供有关如何为企业设置服务的快�
 |云端用户  <br/> |这是拥有 Skype for Business Online 帐户的 Office 365 用户数。  <br/> 要向你的 Office 365 订阅添加用户（即，为其创建 Office 365 帐户），请参阅[向 Office 365 逐一或批量添加用户 - 管理员帮助](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec)。  <br/> |
 |已同步并且联机托管的用户  <br/> |这是已从本地 Active Directory 同步的 Skype for Business Online 用户数。  <br/> 要设置你的本地 Active Directory，请参阅[设置 Office 365 目录同步](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846)。  <br/> |
    
-> [!注释]
+> [!NOTE]
 > 如果您看到"不可用"列出，这意味着没有信息或错误。 
   
 ## 如何更改有关你组织的信息
@@ -51,7 +51,7 @@ Skype for Business 仪表板为你提供有关如何为企业设置服务的快�
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

@@ -20,12 +20,12 @@ description: "Learn what countries and regions have dial-in conferencing numbers
 
 # 为音频会议的电话号码
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](95a08f84-04e5-4f72-88a8-d6472a7c89d7.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/95a08f84-04e5-4f72-88a8-d6472a7c89d7) 中查找本文的英文版本以便参考。
   
 当您设置 **音频会议**for Skype Business 和 Microsoft 团队时，拨入电话号码会自动分配到您的组织。您可以查看分配给您的音频会议网桥通过转到 **Skype for Business 管理中心**的电话号码 > **音频会议**> **Microsoft 网桥**。请参阅[请参阅音频会议号码列表](see-a-list-of-audio-conferencing-numbers.md)。
   
-> [!注释]
+> [!NOTE]
 > 没有音频会议包含所有拨入号码的列表的资源。如果您希望了解是否存在拨入电话号码可在您的区域或国家/地区中，可以使用 **Skype for Business 管理中心**> **语音**> **电话号码**， **添加** **新服务号码**，然后单击。用于 **国家/地区**， **国家/地区列表**和 **城市**以筛选搜索结果。 > 此外，如果您正在寻找收费免费服务号码，请选择 **免费**从 **国家/地区**列表。 
   
 ## 音频会议报道和定价
@@ -54,10 +54,10 @@ description: "Learn what countries and regions have dial-in conferencing numbers
 
 共享音频会议电话号码自动分配给组织，当他们正在启用音频会议。分配电话号码，作为默认电话号码的会议网桥分配电话号码。作为默认数网桥分配的电话号码将从组织的国家/地区。
   
-> [!注释]
+> [!NOTE]
 > 通过登录到 **Office 365 管理中心中**，在 **组织配置文件**下查找找不到您的组织的国家或地区位置。 
   
-> [!警告]
+> [!CAUTION]
 > 由于收费电话号码委内瑞拉、 印度尼西亚和阿拉伯联合酋长国 （阿拉伯联合酋长国） 中的可用性有限，从这些国家/地区组织都不会有自动分配给他们的音频会议收费电话号码。从这些位置的免费电话号码可根据可用库存。 
   
 专用的音频会议电话号码是服务编号，您可以获取，然后将分配给您的组织。通过使用 **Skype for Business 管理中心**，可以找到服务编号。有关详细信息，请参阅[获取 Skype for Business 服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md)。
@@ -83,7 +83,7 @@ description: "Learn what countries and regions have dial-in conferencing numbers
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 ## 另请参阅

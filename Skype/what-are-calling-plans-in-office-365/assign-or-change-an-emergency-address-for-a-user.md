@@ -18,7 +18,7 @@ description: "Learn how to set up an emergency address and phone number for each
 
 # 为用户分配或更改紧急地址
 
-> [!重要信息]
+> [!IMPORTANT]
 > 本文是由机器翻译的，请参阅[免责声明](1411b594-1e88-44c9-9f60-2202f9bb8553.md#MT_Footer)。请在 [此处](https://support.office.com/en-us/article/1411b594-1e88-44c9-9f60-2202f9bb8553) 中查找本文的英文版本以便参考。
   
 当您设置致电 Office 365 中计划时，您将需要为每个用户分配电话号码和紧急地址。必须创建紧急地址，然后将其与电话号码相关联。请参阅[什么是紧急位置、地址和呼叫路由？](what-are-emergency-locations-addresses-and-call-routing.md)的详细信息。
@@ -39,7 +39,7 @@ description: "Learn how to set up an emergency address and phone number for each
     
 5. 在操作窗格中，在" **紧急位置**"下，单击" **更改**"。
     
-    > [!注释]
+    > [!NOTE]
     > 您只能更改已验证紧急地址。若要更改未通过验证紧急地址，请删除它，并创建另一个紧急地址。 
   
 6. 在" **分配号码**"页面上，单击" **更改位置**"。 
@@ -57,7 +57,7 @@ description: "Learn how to set up an emergency address and phone number for each
 ## 
 <a name="MT_Footer"> </a>
 
-> [!注释]
+> [!NOTE]
 > **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
   
 
