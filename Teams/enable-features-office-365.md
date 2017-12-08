@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解可以在你的 Office 365 组织中启用的所有 Microsoft Teams 功能，包括租户范围的设置、电子邮件集成、应用及云存储等。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e2235756e77c3e27c1eeee9fd22decb5e0e4e062
-ms.sourcegitcommit: db47b9f4955150859bc35ab9d078fa3ab66b5faa
+ms.openlocfilehash: c785e554034cd87fd27f5137f206c8dc0e5f972a
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>在你的 Office 365 组织中启用 Microsoft Teams 功能
 ======================================================
@@ -56,7 +56,7 @@ Microsoft Teams 具有多个可以在租户级别启用或禁用的设置。 如
 
 在“电子邮件集成”部分中可以为贵组织配置以下设置：
 
-   ![租户范围的设置中的“电子邮件集成”部分屏幕截图。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image5.png)
+   ![租户范围的设置中的“电子邮件集成”部分屏幕截图。](media/QS-edu-email-integration.png)
 
 -   **允许用户向频道发送电子邮件：** 如果启用此设置，将启用邮件挂钩，用户可以通过向 Microsoft Teams 频道的电子邮件地址发送电子邮件来向频道发布消息。
 
