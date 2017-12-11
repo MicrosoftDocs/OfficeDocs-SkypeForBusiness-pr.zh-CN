@@ -23,7 +23,7 @@ description: "Learn how to setup Skype for Busineses to use another language for
   
  **首先，请阅读以下重要信息：**
   
-- **取决于您的组织的位置，可供您的语言** 。 例如，如果在美国位于您的组织，您可以将默认语言设置为英语或西班牙语。如果您的组织位于加拿大，您可以选择英语和法语之间。支持的语言的列表，请参阅[Languages for voicemail greetings and messages from Skype for Business](languages-for-voicemail-greetings-and-messages-from-skype-for-business.md)。
+- **取决于您的组织的位置，可供您的语言** 。 例如，如果在美国位于您的组织，您可以将默认语言设置为英语或西班牙语。如果您的组织位于加拿大，您可以选择英语和法语之间。支持的语言的列表，请参阅[Skype for Business 语音邮件问候和消息的语言](languages-for-voicemail-greetings-and-messages-from-skype-for-business.md)。
     
 - **无法仅为组织中的一个用户更改系统语言。** 只能为组织中的所有用户更改问候语言。
     
