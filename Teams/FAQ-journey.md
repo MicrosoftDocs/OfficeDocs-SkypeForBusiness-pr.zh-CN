@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "有关从 Skype for Business Online 到 Microsoft Teams 的旅程的常见问题。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ffb09f4ef21828a8f0613bfa9402aa69263237d6
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 4303b59bb7044af57973fa1606338f5c4f6e2e5e
+ms.sourcegitcommit: 5814969da48133214d2f9ea04d6790ebe102d691
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/01/2017
 ---
 <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>FAQ - 从 Skype for Business 到 Microsoft Teams 的旅程
 ==========================================================
@@ -31,6 +31,8 @@ ms.lasthandoff: 11/08/2017
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>客户从 Skype for Business Online 迁移至 Teams 是否有严格的最后期限？ 
 
 我们将提供我们的 Microsoft Teams 路线图，以便客户可以根据其需求评估 Teams 的功能，以及计划其向 Teams 的迁移。 客户可以确定最适合其需求的向 Teams 迁移的执行时间。
+
+要随时了解有关从 Skype for Business 到 Teams 的旅程的最新信息，一个很有用的方式是 [Skype for Busineses 到 Microsoft Teams 功能路线图](https://aka.ms/skype2teamsroadmap) - 可下载的 PDF（仅提供英文版，至少现在是这样），该 PDF 提供 Microsoft 对即将在 Teams 中实现的 Skype for Business 功能的当前期望。
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Skype for Business Server 的未来会怎样？ 
 

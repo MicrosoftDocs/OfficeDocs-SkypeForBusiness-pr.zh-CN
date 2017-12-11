@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解你需要执行电子数据展示时（例如，你需要提交所有电子方式存储的信息用于法律程序时）要完成的事项。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 976806b8deb77ca947782146dec5dccaa8b8429e
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 2ca867ccdb3efb7a7d80152a4f55063cafc3bb28
+ms.sourcegitcommit: bbce24b59b31552a92eb76a8e360e8c72b4fdd8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/28/2017
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 ============================

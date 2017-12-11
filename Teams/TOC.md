@@ -63,6 +63,7 @@
 ## [3 - 与 Skype for Business 并行启用 Teams](guidance-SkypeforBusiness.md)
 ## [4 - 通过用户采用推动价值](continue-journey.md)
 ## [常见问题解答 - Skype for Business 和 Teams 愿景](FAQ-journey.md)
+## [教程：从 Skype for Business 到 Teams 的旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 
 # 视频和培训
 ## [Teams 的 IT 管理员就绪](ITAdmin-readiness.md)

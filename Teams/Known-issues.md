@@ -3,16 +3,16 @@ title: "Microsoft Teams 的已知问题"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 11/15/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams 客户端应用和管理体验的已知问题当前列表"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a065472b87ee61a7f910741beadb97ebfbb2ed5c
-ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
+ms.openlocfilehash: 8e459f8a77780bdc04b07a74f243635c07677a48
+ms.sourcegitcommit: bbce24b59b31552a92eb76a8e360e8c72b4fdd8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
   
@@ -22,7 +22,7 @@ ms.lasthandoff: 11/16/2017
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |欧盟地区和亚太地区的客户在从其他租户添加来宾用户时收到错误    <br/> | 欧盟地区和亚太地区的客户遇到 Microsoft Teams 与 Azure Active Directory 之间出现复制延迟的问题。 当来自欧盟地区或亚太地区某个租户的用户尝试从任何其他租户添加来宾用户时，收到要求他们重试的错误消息。   <br/> |再次单击重试按钮以执行来宾用户添加操作。  <br/> |11/8/17  <br/> |
-|当你尝试从 Internet Explorer 或 Edge 加入 Teams 时，程序持续循环或崩溃并且无法登录。   <br/> | 贵组织使用 Internet Explorer 中的受信任站点，基于 Web 的 Teams 应用程序无法正常登录，因为 Teams 的受信任站点不被允许。 <br/>|使用管理员权限或群组策略对象，对 IE 设置进行下列更改：<br/><ol><li>在“Internet 选项”&gt;“隐私”&gt;“高级”下，接受第一方和第三方 Cookie，并选中“始终允许会话 Cookie 和受信任站点”复选框。</li><li>单击“Internet 选项”&gt;“受信任站点”&gt;“站点”，然后添加下列所有站点：<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>注意</b>：始终验证并允许 Teams 的所有受信任 URL 以及以下文档中的要求：[Office 365 URL 和 IP 地址范围](httpds://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)   <br/> <br/>|11/1/17  <br/> |
+|当你尝试从 Internet Explorer 或 Edge 加入 Teams 时，程序持续循环或崩溃并且无法登录。   <br/> | 贵组织使用 Internet Explorer 中的受信任站点，基于 Web 的 Teams 应用程序无法正常登录，因为 Teams 的受信任站点不被允许。 <br/>|使用管理员权限或群组策略对象，对 IE 设置进行下列更改：<br/><ol><li>在“Internet 选项”&gt;“隐私”&gt;“高级”下，接受第一方和第三方 Cookie，并选中“总是允许会话 Cookie”复选框。</li><li>单击“Internet 选项”&gt;“受信任站点”&gt;“站点”，然后添加下列所有站点：<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>注意</b>：始终验证并允许 Teams 的所有受信任 URL 以及以下文档中的要求：[Office 365 URL 和 IP 地址范围](httpds://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)   <br/> <br/>|11/1/17  <br/> |
 |按照策略要求，在 OWA/Outlook 上未阻止向 Teams 上载照片   <br/> | Teams 允许用户直接将照片上载到 Office 365，不论策略设置如何，而不是对 OWA 阻止照片上载。   <br/> <br/> ||10/16/17  <br/> |
 |带参数的 Teams URL 在登录重定向后被截断  <br/> | 在 Internet Explorer 和 Edge 中，登录后第一次在 Teams Web 应用上打开共享 Teams 文件链接时，你将被重定向到错误的文档。 如果你已登录 Teams Web 应用并单击共享文件链接，链接将按预期正常工作。   <br/> <br/> ||10/11/17  <br/> |
 |Safari Web 客户端支持  <br/> |尝试在 Safari 上打开 Microsoft Teams Web 客户端的用户被导向到下载桌面客户端。 Microsoft 正在着手准备 Safari 支持，并将通过公开 Office 365 路线图共享更新。  <br/> |使用支持的浏览器，包括：Microsoft Edge 12+、Internet Explorer 11+、Firefox 47.0+ 和 Chrome 51.0+。  <br/> |2016 年 11 月 2 日  <br/> |
@@ -37,7 +37,6 @@ ms.lasthandoff: 11/16/2017
 |工作区列表未按字母顺序排序  <br/> |在添加 PowerBI 选项卡时切换工作区的用户将遇到要在之间切换的工作区列表未按字母顺序排序。  <br/> |无解决方法。  <br/> ||
 |选择报告时滚动栏消失  <br/> |添加 PowerBI 报告的用户滚动浏览的列表长于一屏报告时，滚动栏就会消失。  <br/> |使用向上和向下箭头滚动浏览列表。  <br/> ||
 |一次无法添加五个以上用户  <br/> |公用团队当前不支持同时添加五个以上用户。 成员总数上限为 2500。  <br/> |将来的版本将解决此问题。  <br/> |2017 年 3 月 13 日  <br/> |
-|无法从外部访问 Teams 工作区  <br/> |当前不提供外部访问功能，但在 Microsoft Teams 路线图中于 2017 年 8 月提供来宾访问功能。  <br/> |无解决方法。  <br/> |2016 年 11 月 2 日  <br/> |
 |用户无法创建团队  <br/> |贵公司可以设置策略用于限制可以创建 Office 365 组或团队的人员。  <br/> |与 IT 管理员联系以了解贵公司的组和团队创建策略。  <br/> |2017 年 3 月 13 日  <br/> |
 |团队成员上限为 2500  <br/> |Microsoft Team 中每个团队最多可以有 2500 个成员。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/> |
 |删除团队还将删除与之关联的组。  <br/> |用户可能不了解删除团队时会删除基础 Office 365 组。 此外，如果删除基础 Office 365 组，也会删除团队。  <br/> |Microsoft Teams 其他语言版本向用户提供此信息。 Office 365 组界面上未提供此信息。  <br/> |2017 年 3 月 13 日  <br/> |
@@ -56,13 +55,7 @@ ms.lasthandoff: 11/16/2017
 |会议不可用  <br/> |Exchange 邮箱在本地托管时，不提供会议功能和图标。  <br/> |将本地部署升级到 Exchange 2016 CU3 或更高版本  <br/> |2017 年 2 月 28 日  <br/> |
 |Outlook 外接程序限制  <br/> |要使用 Outlook 外接程序，必须使用多重身份验证 (MFA) 登录 Teams。 如果在登录过程中 MFA 中途失败，你仍能够登录 Teams，但当你尝试使用外接程序时，会显示错误消息。  <br/> 目前，外接程序仅供 Windows 用户使用。  <br/> 如果你使用身份验证代理，将无法使用外接程序。  <br/> | 无解决方法。 <br/> |2017 年 8 月 2 日  <br/> |
 |在 Chrome 中呈现视频时，出现绿色非自然信号  <br/> |使用 Chrome 在通话或聚会中查看视频或共享屏幕时，出现绿色非自然信号。  <br/> |在 Chrome 中禁用硬件加速设置。  <br/> |2017 年 8 月 3 日  <br/> |
-|Teams 不支持 Office 365 组来宾访问设置  <br/> |即使在 Office 365 组中禁用了来宾访问，Teams 仍允许邀请来宾加入团队。 来宾收到邀请，但无法加入团队。  <br/> |无解决方法。  <br/> |2017 年 9 月 14 日  <br/> |
-|未授权来宾只能通过直接链接或邀请电子邮件加入  <br/> |在其主租户中未获得授权的来宾只能通过直接链接或邀请电子邮件以来宾身份加入。  <br/> |来宾需要从来宾租户将指向频道的直接链接设为书签。  <br/> |2017 年 9 月 14 日  <br/> |
-|通过 Teams 客户端邀请来宾加入 Teams 会议有时会生成未送达报告  <br/> |用户通过 Teams 客户端邀请来宾加入会议有时会收到未送达报告。  <br/> | Windows：使用 Outlook 外接程序邀请来宾加入会议。 <br/> Mac：手动创建 Outlook 会议邀请，并从 Teams 会议添加会议协调。  <br/> |2017 年 9 月 14 日  <br/> |
-| 无法邀请电子邮件地址为数字的来宾 <br/> | 无法邀请电子邮件地址中 @ 符号前面只有数字的来宾加入 Teams。 <br/> |通过用户的辅助邮件地址（如果有）邀请用户。  <br/> |2017 年 9 月 14 日  <br/> |
-| 电子数据展示不适用于来宾 <br/> |频道中的来宾消息不可用于电子数据展示。  <br/> | 无解决方法。 <br/> 不久将提供针对包括来宾的聊天的电子数据展示。 所有消息（包括来宾发送的消息）都将进入 Exchange Online 上的用户邮箱。  <br/> 在近期内不支持针对来宾到来宾聊天的电子数据展示。  <br/> |2017 年 9 月 14 日  <br/> |
 |对于来宾创建的频道未创建 Wiki  <br/> |来宾创建新频道时，未创建“**Wiki**”选项卡。 无法手动将“**Wiki**”选项卡附加到频道。 <br/> |无解决方法。  <br/> ||
-|使用 MFA 的来宾在访问“**文件**”选项卡时可能会遇到问题。 <br/> |使用多重身份验证 (MFA) 的来宾在访问“**文件**”选项卡时可能会遇到间歇性问题。 <br/> |如果问题持续出现，请对那些用户禁用 MFA。  <br/> ||
 |在 Intune 管理的移动设备上，用户可能无法切换帐户  <br/> |在 Intune 管理的移动设备上，用户可能无法切换帐户。  <br/> |无解决方法。  <br/> ||
    
 
