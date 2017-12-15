@@ -90,7 +90,8 @@
 ### [视频：Skype for Business Online 外部通信](set-up-skype-for-business-online/video-skype-for-business-online-external-communications.md)
 
 ## [设置 Skype 会议直播网络](set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
-### [Skype 会议直播的被阻止用户许可证](set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)### [启用 Skype 会议直播](set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)
+### [Skype 会议直播的被阻止用户许可证](set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
+### [启用 Skype 会议直播](set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)
 ### [更改你的组织的 Skype 会议直播设置](set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
 
 ## [Skype for Business 和 Microsoft Teams 加载项许可](skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
