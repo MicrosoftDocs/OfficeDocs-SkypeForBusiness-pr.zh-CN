@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解如何基于每个用户启用或禁用用户级别访问。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 252dfa4c739fddd152c54a38dff71255706bb1ef
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 5bf8a487a7931ff91e754c1e84839b75535ca3c9
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>管理对 Microsoft Teams 的用户访问
 =====================================
@@ -21,9 +21,10 @@ ms.lasthandoff: 11/08/2017
 
 当前，除了许可外，没有用于按单个用户级别开启或关闭 Microsoft Teams 或一部分 Microsoft Teams 功能的策略选项。
 
-| | |
-|---------|---------|
-|![注意图标。](media/Manage_user_access_to_Microsoft_Teams_image1.png)<br></br>注意 |Microsoft 建议为公司中的所有用户启用 Microsoft Teams，以便可以根据项目和其他动态计划自然地组成团队。 即使你只是决定试点，为所有用户启用 Microsoft Teams 可能仍然很有用，但只有用户试点组可以使用它进行通信。 |
+
+
+> [!NOTE]
+>Microsoft 建议为公司中的所有用户启用 Microsoft Teams，以便可以根据项目和其他动态计划自然地组成团队。 即使你只是决定试点，为所有用户启用 Microsoft Teams 可能仍然很有用，但只有用户试点组可以使用它进行通信。
 
 Microsoft Teams 用户级别许可证直接通过 Office 365 管理中心用户管理界面进行管理。 管理员可以在创建新用户帐户时为新用户分配许可证，也可以为已有帐户的用户分配许可证。 管理员必须拥有 Office 365 全局管理员或用户管理管理员权限才能管理 Microsoft Teams 许可证。
 
