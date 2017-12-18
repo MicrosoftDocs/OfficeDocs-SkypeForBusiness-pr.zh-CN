@@ -3,11 +3,11 @@ layout: HubPage
 hide_bc: True
 title: "Microsoft Teams 文档和实践指导"
 description: "Microsoft Teams 文档和实践指导"
-ms.openlocfilehash: 5015a5b5908f835f03530dac9f159b8aa3b8531c
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 8242454e9805e5daf4f7528a51479e20f82f28c7
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/08/2017
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -87,8 +87,8 @@ ms.lasthandoff: 11/08/2017
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>云语音部署</h3>
-                                                    <p>在 Teams 中设置音频会议</p>
+                                                    <h3>云语音</h3>
+                                                    <p>了解在 Teams 中开始使用音频会议所需的实践指导</p>
                                                 </div>
                                             </div>
                                         </div>
