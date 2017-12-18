@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解如何在你的 Office 365 组织中设置 Microsoft Teams。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 4ff25a452f2ce493bdb1ae8d556f08584d32d669
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: f8db61d7ca8e183cce04cb993a40541c70e5e516
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="set-up-microsoft-teams-in-your-office-365-organization"></a>在你的 Office 365 组织中设置 Microsoft Teams
 ======================================================
@@ -38,9 +38,9 @@ ms.lasthandoff: 11/08/2017
 
     ![选择了“Microsoft Teams”的“服务和外接程序”页面屏幕截图。](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
 
-4.  要为组织启用 Teams，请将切换设置为**“开启”**，然后单击**“保存”**。
+4.  要为组织启用 Teams，请使用许可证选取器，并选择每个许可证，然后将切换设置为**“开启”**，并单击**“保存”**。
 
-    ![Microsoft Teams 设置页面屏幕截图，显示切换设置为“开启”以启用 Microsoft Teams。](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image3.png)
+    ![Microsoft Teams 设置页面屏幕截图，显示切换设置为“开启”以启用 Microsoft Teams。](media/Services-and-addins-control-Microsoft-Teams.PNG)
 
 
 > [!NOTE]

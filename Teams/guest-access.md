@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a59b525a8162c5ad5cab84c4ca36389d362816d2
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 3409b607c92d58cd80c8b4e896eb1cecb3ec06bb
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 ======================================
@@ -48,7 +48,7 @@ Teams 建立在 Office 365 组之上，为 Office 365 组提供访问共享资�
 |  |  |
 |---------|---------|
 | 深入了解来宾访问   | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
-
-  
+| 在 Microsoft Teams 中启用来宾访问   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7T54KmlIHQk" frameborder="0" allowfullscreen></iframe>   |
+ | 在 Microsoft Teams 中添加来宾   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
     
 

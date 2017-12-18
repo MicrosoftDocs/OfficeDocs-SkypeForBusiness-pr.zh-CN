@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解不同的 Office 365 许可证、哪些许可证支持用户使用 Microsoft Teams 以及如何启用或禁用它。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 62b603bdbd2cd370e6c09dbfc877ccef9884404b
-ms.sourcegitcommit: cd6f4ac2ee7fa2b9de7af5c75c914eb84468d8f5
+ms.openlocfilehash: 9853bab16fead0ed4da766a6d9d59f2f93b34191
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>适用于 Microsoft Teams 的 Office 365 许可
 ========================================
@@ -49,3 +49,20 @@ Teams 不作为独立服务提供。
 可以在组织中对整个许可证类型开启或关闭 Teams，默认情况下，对所有许可证类型开启 Teams（来宾用户除外）。 **不能通过使用 Office 365 管理中心中的 Teams 切换仅对某个许可证类型的一部分人开启 Teams。** 如果你要对贵组织的一部分人开启 Teams 并对其他人关闭 Teams（例如，如果你计划在一组挑选的用户中进行 Teams 试点），请对所有人开启 Teams 许可证切换，然后对单个用户关闭 Teams。
 
 ![Office 365 管理中心中的 Teams 用户/许可证类型设置屏幕截图，显示 Microsoft Teams 为“开启”状态。](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image3.png)
+
+
+**提示：**   正如任何其他工作负荷一样，通过 PowerShell 以工作负荷许可证方式启用和禁用 Teams。 Microsoft Teams 的服务计划名称为 TEAMS1。 （有关详细信息，请参阅[通过 Office 365 PowerShell 禁用对服务的访问](https://technet.microsoft.com/en-us/library/dn771769.aspx)。）
+
+**示例：** 下面是有关如何在采用特殊许可证类型的情况下对所有人禁用 Microsoft Teams 的快速示例。 你需要先执行此操作，然后单独为应该拥有访问权限的用户启用 Microsoft Teams，以进行试点。
+
+*要显示贵组织中具有的订阅类型，请使用以下命令：*
+
+      Get-MsolAccountSku
+
+*填写计划的名称（包括贵组织名称和学校的计划，例如 ContosoSchool:ENTERPRISEPACK_STUDENT），然后运行以下命令：*
+
+      $acctSKU="<plan name>
+      $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
+*要为你的命名计划对具有有效许可证的所有用户禁用 Microsoft Teams，请运行以下命令：*
+
+      Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x

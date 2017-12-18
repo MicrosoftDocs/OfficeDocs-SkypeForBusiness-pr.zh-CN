@@ -51,11 +51,11 @@
 ## [使用 PowerShell 控制对团队的来宾访问](guest-access-PowerShell.md)
 
 
-# [云语音部署](cloud-voice-deployment.md)
+# [云语音](cloud-voice-deployment.md)
 ## [音频会议](audio-conferencing.md)
 ### [展望](audio-conferencing.md#Envision_AudioConferencing)
-### [规划](audio-conferencing.md#Planning_AudioConferencing)
-### [视频 - Teams 中的音频会议](audio-conferencing-videos.md)
+## 视频
+### [音频会议](audio-conferencing-videos.md)
 
 # [从 Skype for Business 到 Teams 的旅程](Journey-SkypeforBusiness-Teams.md)
 ## [1 - 针对 Teams 优化你的当前 Skype for Business 环境](prepare-teams.md)
@@ -85,6 +85,7 @@
 ## [验证 Teams 的服务运行状况](service-health.md)
 ## [对 Teams 客户端的连接问题进行故障排除](connectivity-issues.md)
 ## [在对 Teams 进行故障排除时使用日志文件](log-files.md)
+
 
 
 # [Teams 的开发人员文档](https://docs.microsoft.com/microsoftteams/platform)
