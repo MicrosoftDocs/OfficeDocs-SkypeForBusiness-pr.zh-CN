@@ -7,12 +7,11 @@ ms.date: 10/23/2017
 ms.topic: article
 ms.service: msteams
 description: "了解管理员可用于将新来宾用户添加到组织的工具，包括 Microsoft Teams 桌面客户端和 Web 客户端以及 Azure Active Directory B2B 协作门户。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 7764b05a3c3e945e505800ddf30372a2438236a6
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 2cff7bade024bf5324d729559a83974ea33681a8
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="add-a-guest-to-a-team"></a>向团队添加来宾
 =====================

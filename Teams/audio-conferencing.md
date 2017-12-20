@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "在 Microsoft Teams 中部署音频会议实践指导"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d38112015929a3491386146dd0920d81919a8a66
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 5a65f305d924c5e5e6dac01d2391a62d8abd1243
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的音频会议
 =====================================

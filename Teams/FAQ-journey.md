@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "有关从 Skype for Business Online 到 Microsoft Teams 的旅程的常见问题。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 4303b59bb7044af57973fa1606338f5c4f6e2e5e
-ms.sourcegitcommit: 5814969da48133214d2f9ea04d6790ebe102d691
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: fa4ce1293d36e214f323da0bb5dc8fc7d3fc1115
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>FAQ - 从 Skype for Business 到 Microsoft Teams 的旅程
 ==========================================================

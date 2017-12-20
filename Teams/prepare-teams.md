@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "开始从 Skype for Business 到 Microsoft Teams 的旅程指导。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 7f398e9af95fc65645555358ea74e238d42c3827
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 1775afa80314b681a64569c4dcf3b495384e51fe
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="optimize-your-current-skype-for-business-environment-for-microsoft-teams"></a>针对 Microsoft Teams 优化你的当前 Skype for Business 环境
 ==============================================================
