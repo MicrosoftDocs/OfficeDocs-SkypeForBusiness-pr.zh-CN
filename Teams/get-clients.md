@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解如何使用支持 Microsoft Teams 的各种客户端，包括 Web、桌面（Windows 和 Mac）和移动（Android、iOS 和 Windows Phone）。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: f555208aba849b77d648e5e9561d0daf3ba199b3
-ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
+ms.openlocfilehash: fa0e91acd0847ab7b37113383348cb8be9a7a1c6
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================
@@ -22,7 +22,7 @@ ms.lasthandoff: 12/08/2017
 <a name="web-client"></a>Web 客户端 
 ----------------
 
-Web 客户端 ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) 是具有完整功能的客户端，可以从各种浏览器使用该客户端。 目前，支持实时通信的唯一 Web 客户端是 Microsoft Edge（即，加入会议和进行一对一通话）。 此外，还必须配置浏览器以允许第三方 Cookie。
+Web 客户端 ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) 是具有完整功能的客户端，可以从各种浏览器使用该客户端。 目前，Web 客户端不支持实时通信（即，加入会议和进行一对一通话）。 此外，还必须配置浏览器以允许第三方 Cookie。 
 
 使用 Web 浏览器利用 Microsoft Teams，无需插件和下载。
 
@@ -39,9 +39,9 @@ Microsoft Teams 支持以下浏览器和版本：
 -   **Firefox**：47.0+
 
 
-| | |
-|---------|---------|
-|![重要提示图标。](media/Get_clients_for_Microsoft_Teams_image1.png)<br></br>重要提示     |尚不支持 Safari，但不久以后将会支持。         |
+
+> [!NOTE]
+> 尚不支持 Safari，但不久以后将会支持。
 
 <a name="desktop-clients"></a>桌面客户端
 ------------------------
@@ -55,17 +55,19 @@ Microsoft Teams 桌面客户端是独立应用，当前不属于 Office 专业�
 IT 管理员可以选择其首选方法将安装文件分发到其组织中的计算机上，例如 System Center Configuration Manager (Windows) 或 Casper Suite (MacOS)。
 
 
-| | |
-|---------|---------|
-|![注意图标。](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>注意    |通过这些机制分发客户端仅适用于初次安装 Microsoft Team 客户端，不适用于将来更新。         |
+
+> [!NOTE]
+> 通过这些机制分发客户端仅适用于初次安装 Microsoft Team 客户端，不适用于将来更新。
+       |
 
 #### <a name="windows"></a>Windows
 
 适用于 Windows 的 Microsoft Teams 安装提供 32 位和 64 位体系结构的可下载安装程序。 该体系结构应匹配操作系统的体系结构（联机下载默认的体系结构）。
 
-| | |
-|---------|---------|
-|![注意图标。](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>注意    |安装的 Office 的体系结构不限制 Microsoft Teams 的体系结构（32 位和 64 位）。        |
+
+
+> [!NOTE]
+> 安装的 Office 的体系结构不限制 Microsoft Teams 的体系结构（32 位和 64 位）。
 
 Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。 部署到用户的本地配置文件后，无需提升的权限即可安装客户端。 Windows 客户端安装在以下位置：
 
@@ -77,15 +79,14 @@ Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。
 
 ![Windows 安全警报对话框屏幕截图。](media/Get_clients_for_Microsoft_Teams_image3.png)
 
-| | |
-|---------|---------|
-|![注意图标。](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>注意    |即使选择“取消”忽略该提示，也将会更改 Windows 防火墙配置。 将会创建两条针对 teams.exe 的入站规则，操作是阻止 TCP 和 UDP 协议。        |
+
+> [!NOTE]
+> 即使选择“取消”忽略该提示，也将会更改 Windows 防火墙配置。 将会创建两条针对 teams.exe 的入站规则，操作是阻止 TCP 和 UDP 协议。
 
 #### <a name="mac"></a>Mac
 
-Microsoft 还提供适用于 Mac OSX 计算机的 DMG 安装文件。 要安装 Mac 客户端，需要管理权限。 Mac OSX 客户端安装在以下位置：
+Microsoft 还提供适用于 Mac OSX 计算机的 DMG 安装文件。 要安装 Mac 客户端，需要管理权限。 Mac OSX 客户端安装到 /Applications 文件夹中。
 
-\~/Library/Application Support/Microsoft/Teams
 
 <a name="mobile-clients"></a>移动客户端
 --------------

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解如何通过确定推行活动的关键利益干系人、业务成果、成功量度标准和管理，为 Microsoft Teams 制定变更管理策略。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 7fb8c2f7804cd51ac74bcc06878572e0c2c605ad
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: ec0bea3c69ba9931727d9917246f71920d09cc7e
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>为 Microsoft Teams 制定变更管理策略
 =======================================================
@@ -55,9 +55,10 @@ ms.lasthandoff: 11/08/2017
 我们建议与这些利益干系人定期召开会议，使其及时了解你的计划的进度。 成立“协作委员会”来收集反馈和进行讨论，这可能是一种很有用的方式，具体取决于你的公司文化。
 
 
-|  |  |
-|---------|---------|
-|![提示图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>提示    |在这种情况的部署中，可能是变更的最大障碍的那些人可能会成为你最佳盟友。 我们鼓励你提早与贵组织的这些成员交流，经常倾听他们的顾虑和问题。 通常，他们会有宝贵的反馈，这些反馈将会使你的推行活动更加成功。         |
+
+
+> [!TIP]
+> 在这种情况的部署中，可能是变更的最大障碍的那些人可能会成为你最佳盟友。 我们鼓励你提早与贵组织的这些成员交流，经常倾听他们的顾虑和问题。 通常，他们会有宝贵的反馈，这些反馈将会使你的推行活动更加成功。
 
 <a name="user-profiles"></a>用户分布
 -------------

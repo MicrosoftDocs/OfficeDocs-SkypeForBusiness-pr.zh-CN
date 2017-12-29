@@ -2,17 +2,17 @@
 title: "云语音部署"
 author: arachmanGitHub
 ms.author: MyAdvisor
-manager: lehewe
-ms.date: 12/07/2017
+manager: lolaj
+ms.date: 12/13/2017
 ms.topic: article
 ms.service: msteams
 description: "在 Microsoft Teams 中部署云语音功能实践指导"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a52071dc6fac4e8df906d6f400ae8b40bd62edd3
-ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
+ms.openlocfilehash: 4695032ee96c2c37c852e6db10a80019b9d1b1ca
+ms.sourcegitcommit: ac601c3fe040b47eb7fff1f4f01858c14f40baa4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/12/2017
 ---
 <a name="cloud-voice-deployment"></a>云语音部署
 ======================
@@ -21,6 +21,7 @@ ms.lasthandoff: 12/08/2017
  
 请按照[音频会议实践指导](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing)来帮助你在 Teams 中规划音频会议的部署。
 
+请按照[具有通话套餐的电话系统实践指导](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)来帮助你在 Teams 中规划具有通话套餐的电话系统的部署。
  
 当以后适用于 Teams 的其他云语音功能发布时，我们将更新此页面。
 

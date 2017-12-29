@@ -1,41 +1,110 @@
-### YamlMime:YamlDocument
-documentType: Tutorial
+### YamlMime:Tutorial
 title: "了解从 Skype for Business 到 Microsoft Teams 的旅程"
 metadata:
   title: "了解从 Skype for Business 到 Microsoft Teams 的旅程"
   description: "互动教程将指导你完成从 Skype for Business 到 Microsoft Teams 的旅程。"
   audience: IT Pro
   level: Intermediate
-  <!-- nextTutorialHref: http://aka.ms/SuccessWithTeams -->
-  <!-- nextTutorialTitle: Microsoft Teams documentation and practical guidance -->
   displayType: one-column
   interactive: azurecli
   ms.author: tbinder
   manager: lolaj
   ms.service: msteams
-  ms.openlocfilehash: bc094d3318855905248a73888cf524c422b43765
-  ms.sourcegitcommit: beaeac403957a72c6ce0dfecc4b6418d66ac74d3
+  ms.openlocfilehash: 059cab0ca7eef3b9da76127c634ec6f7b61022a3
+  ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 12/11/2017
+  ms.lasthandoff: 12/16/2017
 items:
 - durationInMinutes: 1
-  content: "在此培训中，我们将介绍新的智能通信愿景，展望 Skype for Business 和 Teams 的未来。\n\n此培训面向以下人员： \n\n- IT 专业人士或 Teams IT 管理员\n\n- 负责规划、部署或管理 Skype for Business 的人员\n\n- 希望了解如何在贵组织中引入 Teams 的人员\n\n我们将详细介绍如何结合使用这两个产品，并介绍现在可以采取哪些步骤来准备现有 Skype for Business 环境以采用 Teams。 此教程的主要学习内容如下：\n\n- 了解智能通信愿景\n\n- 了解从 Skype for Business Online 到 Teams 的旅程\n\n- 了解现在应该开始采取哪些行动\n\n我们不会介绍有关启用 Teams 或并行运行 Skype for Business 和 Teams 的“操作方法”过程。 有关此信息，请参阅以下资源：\n\n- Microsoft Ignite 2017 会议：[如何为用户启用和配置 Microsoft Teams](https://myignite.microsoft.com/sessions/53318)\n\n- 就绪：[并行运行 Skype for Business 和 Teams](guidance-SkypeforBusiness.md) <--（即将提供新内容）-->\n\n如果对此培训有任何疑问或反馈，请：\n\n- 在此教程的“后续步骤”页面底部的“评论”部分中发布</a>\n\n- 给我们发送电子邮件：[AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey)\n\n- 要向我们提供你的产品反馈（例如功能请求），请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。\n"
+  content: "In this training, we introduce the new intelligent communications vision and explain the future for Skype for Business and Teams.\n\nThis training is for you if you're: \n\n- An It Pro \n\n- Responsible for planning, deploying, or managing Skype for Business\n\n- Interested in understanding how to introduce Teams in your organization\n\nWe'll go into detail on how these two products come together and explain what steps you can take today to prepare an existing Skype for Business environment for Teams. The key learnings of this tutorial are:\n\n- Understand the Intelligent communications vision\n\n- Understand the journey from Skype for Business Online to Teams\n\n- Understand what actions should be started today\n\nWe won't cover \"How to\" procedures for turning on Teams or running Skype for Business and Teams side by side. For this information, see the following:\n\n- Microsoft Ignite 2017 session: [How to enable and configure Microsoft Teams for your users](https://myignite.microsoft.com/sessions/53318)\n\n- Readiness: [Running Skype for Business and Microsoft Teams side-by-side](guidance-SkypeforBusiness.md) \n<-- (new content coming soon) -->\n\nIf you have any questions or feedback about this training, please:\n\n- Post in the comments section at the bottom of the 'next steps' page of this tutorial</a>\n\n- Email us at [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey)\n\n- To give us your product feedback, such as feature requests, go to [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n"
 - title: "了解智能通信"
   durationInMinutes: 4
-  content: "在 Microsoft Ignite 2017 上，Microsoft 介绍了智能通信改变全球用户和组织的通话和会议体验的新愿景。 智能通信超越了传统的统一通信，让客户能够在对环境做极小改变的情况下更有效地完成任务，参与跨整个会议周期的更加高效的会议，并且更好地管理日常通信重载。\n\n<span style=\"color:red\">**行动**：</span> 阅读 Lori Wright 的博客文章[采用 Office 365 的智能通信新愿景](https://blogs.office.com/en-us/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)\n\n###<a name=\"to-learn-more\"></a>了解更多信息\n观看 Microsoft Ignite 2017 会议：[通过 Microsoft Teams 和 Skype for Business 改变通信](https://myignite.microsoft.com/videos/56548)（[幻灯片](https://onedrive.live.com/embed?resid=47E22AC086D61230%212116&authkey=%21AH-wWs1_I0jKYbY&em=2)）\n"
+  content: >
+    At Microsoft Ignite 2017, Microsoft introduced a new vision for intelligent communications to transform calling and meeting experiences for people and organizations around the world. Intelligent communications goes beyond traditional unified communications, enabling customers to complete tasks more efficiently with minimal context switching, participate in more productive meetings that cover the entire meeting lifecycle, and better manage everyday communications overload.
+
+
+    <span style="color:red">**Action**:</span> Read Lori Wright's blog post, [A new vision for intelligent communications in Office 365](https://blogs.office.com/en-us/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)
+
+
+    ###To learn more
+
+    Watch the Microsoft Ignite 2017 session: [Transform your communications with Microsoft Teams and Skype for Business](https://myignite.microsoft.com/videos/56548)  ([Slide Deck](https://onedrive.live.com/embed?resid=47E22AC086D61230%212116&authkey=%21AH-wWs1_I0jKYbY&em=2))
 - title: "Microsoft Teams 是什么？"
   durationInMinutes: 7
-  content: "Microsoft Teams 是适用于所有团队合作相关活动的 Office 365 协作中心。 它在现有 Office 365 技术（包括 SharePoint、Exchange、OneDrive for Business）上构建而成。 Teams 提供了一个扩展性平台，以便你可以集成第三方应用。 这样，你的团队可以在组织内部和外部讨论、开会和协作，同时在一个公用位置保留所有上下文 - 对话、笔记和文件。 Teams 提供企业级安全性和合规性。 \n\n<span style=\"color:red\">**行动**：</span> 完成 [Microsoft Teams 的互动演示](http://teamsdemo.office.com/)。\n\n### <a name=\"chat-calls-and-meetings-for-todays-teams\"></a>当前团队的聊天、通话和会议\n在特定时刻沟通，让所有人了解情况。 在团队中以及私人对话或小组对话中，通过聊天、通话和会议保持联系。 安排联机会议，并通过 HD 视频、VoIP、电话拨入式音频会议方式加入联机会议。 在联机会议中共享文件、应用或桌面，以及以后通过录制内容的转录件查看重要时刻。 准备专用电话号码用于拨打和接听国内和国际电话，并具有包括语音邮件、转接、委派和紧急呼叫在内的高级功能。\n\n### <a name=\"integrated-office-365-apps\"></a>集成的 Office 365 应用\n为团队提供对他们在 Office 365 中所需任何内容的内置访问权限。 在一个团队工作区管理所有对话、文件和工具。 可以即时访问 SharePoint、OneNote、PowerBI 和 Planner。 在应用中创建和编辑文档，并包括上下文对话。 通过电子邮件集成使团队了解信息。 通过 Microsoft Graph 中的智能功能跨人员、文件和聊天进行搜索。\n\n\n### <a name=\"customizable-and-extensible\"></a>可自定义且可扩展\n定制你的 Teams 工作区以包含关键云服务、利用数据以及从你的团队日常使用的应用获取更新。 根据工作流或主题创建自定义频道。 固定常用文件和网站以便轻松参考。 添加代表你的团队的聊天机器人。 通过使用 Teams 开发人员平台构建与现有业务流程的自定义集成。\n\n### <a name=\"enterprise-security-compliance-and-manageability\"></a>企业安全性、合规性和可管理性\nTeams 提供 Office 365 中具有的企业级安全性、合规性和管理功能，包括广泛支持合规性标准和电子数据展示，以及频道、聊天和文件的法定保留。 Teams 始终对数据进行加密，包括静态数据和传输中的数据，并采用多重身份验证来增强身份保护。 我们的值班支持工程师随时为你提供所需支持。\n"
+  content: "Microsoft Teams is the Office 365 collaboration hub for all teamwork-related activities. It's built on existing Office 365 technologies, including SharePoint, Exchange, OneDrive for Business. Teams provides an extensibility platform so you can integrate third-party apps. This makes it possible for your teams, both inside and outside your organization, to discuss, meet, and collaborate, while keeping all context – conversations, notes, and files – in a common location. Teams provides enterprise-grade security and compliance. \n\n<span style=\"color:red\">**Action**:</span> Complete the [interactive demo of Microsoft Teams](http://teamsdemo.office.com/).\n\n### Chat, calls, and meetings for today's teams\nCommunicate in the moment and keep everyone in the know. Stay connected with chat, calls, and meetings within your team and in private or small group conversations. Schedule and join online meetings with HD video, VoIP, and dial-in audio conferencing options. Share your files, apps or desktop in online meetings and review the important moments later with transcriptions of recorded content. Have a dedicated phone number for placing and receiving domestic and international phone calls, with advanced features including voicemail, transfer, delegation, and emergency calling.\n\n### Integrated Office 365 apps\nGive your team built-in access to everything they need right in Office 365. Manage all your conversations, files, and tools in one team workspace. Enjoy instant access to SharePoint, OneNote, PowerBI, and Planner. Create and edit documents right in the app and include contextual conversations. Keep the team in the loop with email integration. Search across people, files, and chats with intelligence from Microsoft Graph.\n\n\n### Customizable and extensible\nTailor your Teams workspace to include key cloud services, explore data, and get updates from the apps your teams use every day. Create custom channels based on workstreams or topics. Pin commonly used files and websites for easy reference. Add bots that work on your team’s behalf. Build custom integrations with your existing business processes by using the Teams developer platform.\n\n### Enterprise security, compliance, and manageability\nTeams provides the enterprise-level security, compliance, and management features you expect from Office 365, including broad support for compliance standards and eDiscovery, and legal hold for channels, chats, and files. Teams encrypts data at all times, at-rest and in-transit, and includes multi-factor authentication to enhance identity protection. On-call support engineers are standing by any time you need support.\n"
 - title: "从 Skype for Business 到 Teams 的旅程"
   durationInMinutes: 8
-  content: "下面介绍了 Teams 旅程：\n- Teams 将在企业级语音、视频和会议中利用新的 Skype for Business 后端基础结构。 通过此基于云的新体系结构，Microsoft 将提供质量更高的通信体验，并加快创新速度。\n- Teams 将成为 Office 365 客户的核心通信客户端，从而逐步取代 Skype for Business 客户端。\n- Skype for Business 将仍然是 Skype for Business Server 的客户端。 Microsoft 将继续支持 Skype for Business Server；计划在 2018 年下半年发布该服务器的新版本。\n- 如果你仍需要 Skype for Business Online，你仍可以购买它并启用新用户。\n\n虽然 Teams 支持的许多协作方案是 Skype for Business 无法支持的，但 Skype for Business 仍具有 Teams 尚未提供的一些通信方面的功能。 要随时了解 Teams 中将提供哪些功能以及何时提供，请查看 [Teams 路线图](https://aka.ms/TeamsRoadmap)。\n\n<span style=\"color:red\">**行动**：</span> 阅读博客文章：[现已提供即将在 Microsoft Teams 中实现的 Skype for Business 功能路线图](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Roadmap-for-Skype-for-Business-capabilities-coming-to-Microsoft/bc-p/121452)\n\n虽然我们希望客户尽快迁移至 Teams，但我们明白你希望看到 Teams 中具有 Skype for Business 中你了解和喜欢的同样多的功能。 但是，即使现在没有提供所有功能，贵组织仍可以通过在使用 Skype for Business 的同时启用 Teams 来实现业务价值。 我们建议先针对定义的方案进行试点，然后再向选定用户部署 Teams。 现在让用户熟悉 Teams 有助于在贵组织准备好升级后加速过渡到 Teams。\n\n我们深知改变需要时间。 从部署生命周期到资源规划再到技术就绪，有许多要考虑的事项。 此外，采用 Teams 意味着用户工作方式的转变，因此，组织就绪、监管和用户变更管理对成功升级到 Teams 同样至关重要。 在你开始探索你的 Teams 旅程时，请务必让你的采用/变更经理参与你的规划活动。 使路线图与你的技术要求和组织就绪保持一致将有利于推动成功的业务成果。\n\n此指导将逐步提供更多详细信息，让你能够确定贵组织迁移至 Teams 的最佳时机。 请经常查看 [Teams 路线图](https://aka.ms/TeamsRoadmap)，并定期访问 [www.SkypeandTeams.com](http://skypeandteams.com) 以获得最新指导。\n\n另一个很有用的资源是 [Skype for Busineses 到 Microsoft Teams 功能路线图](https://aka.ms/skype2teamsroadmap) - 可下载的 PDF（仅提供英文版，至少现在是这样），该 PDF 提供 Microsoft 对即将在 Teams 中实现的 Skype for Business 功能的当前期望。\n"
+  content: >
+    Here's what the journey to Teams looks like:
+
+    - Teams will leverage a new Skype for Business back-end infrastructure for enterprise-grade voice, video, and meetings. This new, cloud-born architecture lets Microsoft deliver higher-quality communication experiences and accelerate the speed of innovation.
+
+    - Teams becomes the core communications client for Office 365 customers, replacing the current Skype for Business client over time.
+
+    - Skype for Business will remain the client for Skype for Business Server. Microsoft stays committed to Skype for Business Server; a new version of the server is targeted for release in the second half of calendar year 2018.
+
+    - If you still need Skype for Business Online, you can still purchase it and enable new users.
+
+
+    While Teams features many collaboration scenarios that Skype for Business can't cover, Skype for Business still has some functionality around communication that Teams doesn't yet provide. To stay on top of which features will be available in Teams, and when, check out the [Teams Roadmap](https://aka.ms/TeamsRoadmap).
+
+
+    <span style="color:red">**Action**:</span> Read the blog post: [Roadmap for Skype for Business capabilities coming to Microsoft Teams now available](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Roadmap-for-Skype-for-Business-capabilities-coming-to-Microsoft/bc-p/121452)
+
+
+    While we would like customers to move to Teams as soon as possible, we understand that you want to see as many features that you know and love from Skype for Business available in Teams. However, even if not everything is available today, your organization can still realize business value by enabling Teams alongside Skype for Business. We recommend starting with a pilot for defined scenarios and rolling out Teams to selected users. Getting users familiar with Teams today, will help facilitate the transition to Teams once your organization is ready to upgrade.
+
+
+    We know that change takes time. From deployment lifecycles to resource planning to technical readiness, there is a lot to consider. In addition, Teams represents a shift in the ways users do their jobs, so organizational readiness, governance and user change management is just as crucial to implementing a successful upgrade to Teams. As you begin exploring your journey to Teams, be sure to include your Adoption/Change Manager in your planning activities. Aligning the roadmap with your technical requirements and organizational readiness, will help drive successful business outcomes.
+
+
+    This guidance will become more detailed over time, enabling you to determine the best time for your organization to make the move to Teams. Check the [Teams Roadmap](https://aka.ms/TeamsRoadmap) frequently and visit [www.SkypeandTeams.com](http://skypeandteams.com) on a regular basis for the latest guidance.
+
+
+    Another great resource is the [Skype for Busineses to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) - a downloadable PDF (in English only, at least for now) that gives Microsoft's current expectations about Skype for Business capabilities coming to Teams.
 - title: "准备当前环境"
   durationInMinutes: 6
-  content: "### <a name=\"environmental-readiness\"></a>环境就绪\nSkype for Business 和 Teams 基于相同技术为你提供实时通信。 音频通话和视频通话的质量将直接影响用户体验，这两种通话很大程度上依赖于网络质量。 你现在为 Skype for Business 对网络质量进行的任何改进都将直接有利于提高用户在使用 Teams 时的质量。 因此，我们强烈建议为 Skype for Business 优化你的网络，以改进用户现在的体验，并且让他们在使用 Teams 的第一天就有良好的体验。\n### <a name=\"network-readiness-assessment\"></a>网络就绪评估\n\n在部署任何实时通信产品（例如 Skype for Business 或 Teams）之前，应该先执行[网络就绪评估](https://go.microsoft.com/fwlink/?linkid=859069)，然后在以后定期执行该评估。 如果你根本或很长一段时间未执行网络就绪评估，则在引入 Teams 之前毫无疑问应该执行该评估。\n\n网络就绪评估专注于网络性能、网络规划及其他一般网络连接情况，例如必须打开的端口和协议。 即使你当前正在使用实时通信产品（例如 Skype for Business），网络就绪评估也会帮助验证你的网络就绪情况。 \n\n### <a name=\"my-advisor\"></a>MyAdvisor\n\n在整个旅程中，我们建议你遵循 [MyAdvisor](http://aka.ms/myadvisor) 中提供的实践指导。 MyAdvisor 是一款综合自助服务指南和工具集，用于规划和管理 Teams 和 Skype for Business Online 以实现成功运行。 \n\n#### <a name=\"span-stylecolorredactionspan-watch-the-my-advisor-intro-video-330-minutes\"></a><span style=\"color:red\">**行动**：</span> 观看 MyAdvisor 介绍视频（3:30 分钟）\n> [!Video https://www.youtube.com/embed/M7DGRx2Q-uM]\n\n### <a name=\"quality-assessment\"></a>质量评估\n\n确保你当前的 Skype for Business 部署在遇到实时媒体时能够满足质量要求。 可使用通话质量仪表板 (CQD) 监控使用情况并了解质量趋势，以及使用通话分析进行故障排除或查看单个通话的质量指标。 \n\n要详细了解 CQD，请观看我们的 [CQD 视频](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)（需要登录）。\n\n### <a name=\"quality-champion-role\"></a>质量支持者角色\n\n组织应确定一个人或一组人担当质量支持者角色。 质量支持者根据使用情况检查质量指标，从而了解质量趋势和要改进的方面。 \n\n质量支持者是解决任何通话质量相关问题的专业人员，并且应该担当通过检查当前使用情况和质量趋势及了解操作项来发现质量问题方面的行业专家 (SME)。 质量支持者应该与各个团队合作以推动采取补救措施，并就进度和未解决的问题向指导委员会报告。 质量支持者的最佳候选人通常是客户服务所有者。 根据组织规模和复杂性，热衷于用户体验并有能力了解趋势的任何人都可以作为质量支持者，由适当级别的资助支持该人与其他团队合作以推动采取补救措施。 \n\n从[管理高质量的可靠服务交付](https://go.microsoft.com/fwlink/?linkid=859071)研讨会获取有关质量支持者概念以及质量检查工具和技术的信息。\n\n### <a name=\"environmental-dependencies\"></a>环境相依性\n\n正如我们已经介绍过的，Teams 利用现有的 Office 365 基础结构。 请务必[检查 Teams 的环境就绪情况](environment-readiness.md)以了解 Teams 和 Office 365 之间的环境相依性。 \n"
+  content: "### Environmental readiness\nSkype for Business and Teams both offer you real-time communication based on the same technology. The quality of your audio and video calls will directly impact user experience are both heavily relying on network quality. Any improvement you can make today to network quality for Skype for Business will directly benefit the quality users will experience on Teams. Therefore, we highly recommend optimizing your network for Skype for Business to make your users (even more) happy today and give them a great start on Teams from day one.\n### Network readiness assessment\n\nYou should perform a [Network Readiness Assessment](https://go.microsoft.com/fwlink/?linkid=859069) before deploying any real-time communications product such as Skype for Business or Teams, then run it on a regular basis afterwards. If you had not conducted a network readiness assessment at all or in quite some time, you absolutely should do so before introducing Teams.\n\nThe Network Readiness Assessment focuses on network performance, network planning, and other general networking aspects such as ports and protocols that must be opened. Even if you are currently using a real-time communications product, such as Skype for Business, the Network Readiness Assessment will help validate your network readiness. \n\n### My Advisor\n\nThroughout your journey, we recommend the practical guidance you'll find in [My Advisor](http://aka.ms/myadvisor). My Advisor is a comprehensive, self-service guide and toolset for planning and managing Teams and Skype for Business Online for operational success. \n\n#### <span style=\"color:red\">**Action**:</span> Watch the My Advisor intro video (3:30 minutes)\n> [!Video https://www.youtube.com/embed/M7DGRx2Q-uM]\n\n### Quality assessment\n\nMake sure that your current Skype for Business deployment meets the quality bar when it comes to real-time media. Use Call Quality Dashboard (CQD) to monitor usage and identify quality trends and Call Analytics to troubleshoot or look at quality indicators of individual calls. \n\nTo learn more about CQD, watch our [CQD videos](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) (sign in required).\n\n### Quality champion role\n\nOrganizations should identify a person, or group of people, for the role of Quality Champion. The quality champion reviews quality metrics against usage, identifying quality trends and areas for improvement. \n\nThe quality champion is the go-to person for any call-quality related issues and should act as the subject matter expert (SME) for the identification of quality issues by reviewing ongoing usage and quality trends and identifying action items. The quality champion should work with the respective teams to drive remediation actions, reporting to a steering committee on the progress and open issues. The best candidate for the quality champion is typically the customer service owner. Depending on the organization size and complexity, any person who is passionate about user experience and has the skills to identify trends can act as a quality champion, supported by the right level of sponsorship to work with other teams to drive remediation. \n\nGet information on the quality champion concept and the quality review tools and techniques from [Manage a quality and reliable service delivery](https://go.microsoft.com/fwlink/?linkid=859071) workshop.\n\n### Environmental dependencies\n\nAs we've already mentioned, Teams leverages existing Office 365 infrastructure. Don't miss [Check your environment's readiness for Teams](environment-readiness.md) to learn about the  environmental dependencies between Teams and Office 365. \n"
 - title: "在使用 Skype for Business 的同时试用 Teams"
   durationInMinutes: 12
-  content: "确认你的环境可以运行 Teams 之后，即可开始 Teams 试点。 Skype for Business 和 Teams 提供重叠功能 - 这就是为什么通过试点有助于开始你的旅程。 \n\n试点是小规模部署，通过它可以验证在你的环境中与 Skype for Business 的互操作性，以及了解你的最终用户如何能够最大限度地提高其工作效率，同时最大限度地减少并行运行两个产品带来的混乱。 \n\n在使用 Skype for Business 的同时并行试用 Teams 有以下几个优势：\n\n - 你的 IT 组织了解如何管理 Teams\n - 你的变更管理和采用团队在你进行组织范围的部署之前，确认组织就绪情况，以及验证较大规模所需的资源和过程\n - 你的用户在未放弃他们已经熟悉的工具的情况下利用 Teams 的优势\n\n<span style=\"color:red\">**行动**：</span>[在使用 Skype for Business 的同时试用 Teams](pilot-essentials.md)\n"
+  content: "Once you've verified that your environment is ready to run Teams, you can start a Teams pilot. Skype for Business and Teams offer overlapping functionality – that's why it's helpful to start your journey with a pilot. \n    #### Watch the video \"Running a Teams Pilot\" (3:30 minutes)\n   > [!Video https://www.youtube.com/embed/dnt7AcJGDfs]\n\n\nThe pilot is a small-scale deployment that lets you validate the interoperability with Skype for Business in your environment as well as understand how your end users can maximize their productivity while minimizing confusion with both products running side-by-side. \n\nPiloting Teams side-by-side with Skype for Business gives you several benefits:\n\n - Your IT organization learns how to manage Teams\n - Your Change Management and Adoption teams confirm organizational readiness and validate resources and procedures needed on a larger scale prior to your organization-wide rollout\n - Your users get the benefits of Teams without losing the tools they're already familiar with\n\n<span style=\"color:red\">**Action**:</span> [Pilot Teams alongside Skype for Business](pilot-essentials.md)\n"
 - title: "了解更多信息"
   durationInMinutes: 3
-  content: "此培训涵盖了以下主要学习内容：\n-   了解智能通信愿景\n- 了解从 Skype for Business 到 Microsoft Teams 的旅程\n- 了解现在应该开始采取哪些行动\n\n<span style=\"color:red\">**行动**：</span> 完成一个简短的测验以了解你掌握的知识情况：[Teams 旅程测验](http://aka.ms/tr-journey-quiz)\n\n### <a name=\"to-learn-more\"></a>了解更多信息\n- [常见问题解答 - Skype for Business 和 Teams 愿景](FAQ-journey.md)\n- [从 Skype for Business 到 Teams 的旅程](Journey-SkypeforBusiness-Teams.md)\n- [并行运行 Skype for Business 和 Microsoft Teams](guidance-SkypeforBusiness.md)\n\n### <a name=\"next-steps\"></a>后续步骤\n\n1.  访问 [http://SkypeandTeams.com](http://skypeandteams.com) 以了解有关 Skype for Business 和 Teams 的最新信息\n2.  注册 [MyAdvisor](http://aka.ms/myadvisor) 以获取个性化部署指导\n3.  [针对 Teams 优化你的当前 Skype for Business 环境](https://docs.microsoft.com/MicrosoftTeams/prepare-teams)\n4.  开始[在使用 Skype for Business 的同时试用 Teams](https://docs.microsoft.com/MicrosoftTeams/pilot-essentials)\n5.  向我们发送反馈\n    - 在此页面底部的**评论**部分中向我们提供有关此培训的反馈或提出相关问题\n    - 给我们发送电子邮件：[AskTeams@Microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey)\n    - 要向我们提供 Teams 产品反馈或请求新功能，请访问 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)\0"
+  content: >
+    We covered the following key learnings in this training:
+
+    -	Understand Intelligent communications vision
+
+    - Understand the journey from Skype for Business to Microsoft Teams
+
+    - Understand what actions should be started today
+
+
+    <span style="color:red">**Action**:</span> Take a short quiz to test your knowledge: [Journey to Teams quiz](http://aka.ms/tr-journey-quiz)
+
+
+    ### To learn more
+
+    - [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
+
+    - [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
+
+    - [Running Skype for Business and Microsoft Teams side-by-side](guidance-SkypeforBusiness.md)
+
+
+    ### Next steps
+
+
+    1.	Visit [http://SkypeandTeams.com](http://skypeandteams.com) for the latest information on Skype for Business and Teams
+
+    2.	Sign-up for [MyAdvisor](http://aka.ms/myadvisor) for personalized deployment guidance
+
+    3.	[Optimize your current Skype for Business environment for Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-teams)
+
+    4.	Begin to [Pilot Teams alongside Skype for Business](https://docs.microsoft.com/MicrosoftTeams/pilot-essentials)
+
+    5.  Send us feedback
+        - Give us feedback, or ask questions, about this training in the **Comments** section at the bottom of this page
+        - Email us at [AskTeams@Microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey)
+        - To give us Teams product feedback or to request a new feature, go to [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)

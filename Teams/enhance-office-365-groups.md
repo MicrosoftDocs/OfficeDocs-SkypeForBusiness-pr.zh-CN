@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "了解如何使用 Microsoft Teams 将通讯组列表邀请到团队来增强 Office 365 组，以及如何添加启用邮件的安全组等。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: dc9126aa84c91a4124ba58613ba34111eeffb61c
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: db092c3d0c88ff82893eef4b6ea26fe9ba68a02e
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>使用 Microsoft Teams 增强现有 Office 365 组
 =======================================================
@@ -22,9 +22,9 @@ Microsoft Teams 用户可以使用 Microsoft Teams 功能来增强现有 Office 
 为此，用户应该从 Microsoft Teams 客户端完成创建新团队的流程。 选择屏幕底部的**“是，添加 Microsoft Teams 功能”**，然后选择要使用 Microsoft Teams 增强的现有组。 现有组成员将自动作为成员添加到该团队。
 
 
-|  |  |
-|---------|---------|
-|![重要提示图标。](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image1.png)<br></br>重要提示     |仅 Office 365 组所有者有权使用 Microsoft Teams 增强现有组。         |
+
+> [!IMPORTANT]
+> 仅 Office 365 组所有者有权使用 Microsoft Teams 增强现有组。 
 
 用户也可以将通讯组列表邀请到团队，该通讯组列表的成员将添加到该团队。 这是一次性同步操作，以后通讯组列表中组成员身份的变化不会复制到 Teams。 
 
