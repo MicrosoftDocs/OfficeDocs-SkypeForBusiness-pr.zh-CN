@@ -8,7 +8,11 @@
 ## [Office 365 组和 Teams](Office-365-groups.md)
 ## [Exchange 与 Teams 如何交互](Exchange-Teams-interact.md)
 ## [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](SharePoint-OneDrive-interact.md)
+## [Teams 和 Skype for Business 互操作性](Teams-and-SkypeforBusiness-interoperability.md)
 
+# [快速入门指南](quick-start-guides.md)
+## [快速入门: Teams 规划指南](quick-start-enable-Teams.md)
+## [配置通话套餐](configuring-teams-calling-quickstartguide.md)
 
 # 规划
 ## [Microsoft Teams 部署概述](deployment-overview.md)
@@ -54,6 +58,10 @@
 # [云语音](cloud-voice-deployment.md)
 ## [音频会议](audio-conferencing.md)
 ### [展望](audio-conferencing.md#Envision_AudioConferencing)
+## [具有通话套餐的电话系统](phone-system-with-calling-plans.md)
+### [展望](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
+## 快速入门指南
+### [配置通话套餐](configuring-teams-calling-quickstartguide.md)
 ## 视频
 ### [音频会议](audio-conferencing-videos.md)
 
