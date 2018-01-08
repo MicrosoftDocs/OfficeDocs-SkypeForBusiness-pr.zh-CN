@@ -1,5 +1,5 @@
 ---
-title: "使用 T-Bot 为用户提供 Microsoft Teams 方面的帮助 | Microsoft 支持"
+title: "使用 T-Bot 为用户提供 Microsoft Teams 方面的帮助"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "T-Bot 是一款聊天机器人，用户可以与其交互，向其提出有关如何使用 Microsoft Teams 的问题，以及获得各种问题的答案。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 4197d90fcdf16a5b90c9eaa0bab92dd5c8a1e692
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 448b378721b7a295e22f129e93c727572a33aaed
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="use-t-bot-to-help-users-with-microsoft-teams"></a>使用 T-Bot 为用户提供 Microsoft Teams 方面的帮助
 ============================================

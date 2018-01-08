@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams 部署概述 | Microsoft 支持"
+title: "Microsoft Teams 部署概述"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解如何部署 Microsoft Teams。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 2f53424c034e578cd7feba33fe10e25107582a3d
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 02901ea151d27dd520f5f541e78445b3082f9109
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Microsoft Teams 部署概述
 ========================================
@@ -55,4 +55,4 @@ ms.lasthandoff: 11/08/2017
 
  
 
-*为了跟踪这些决策点，欢迎下载 [Decision Points Summary](https://www.microsoft.com/en-us/download/55981)。*
+要跟踪这些决策点，请下载[快速入门：](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)[ ](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)[成功启用 Microsoft Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) 中的技术规划调查表。

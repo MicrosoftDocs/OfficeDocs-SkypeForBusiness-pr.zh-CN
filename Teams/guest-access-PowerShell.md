@@ -7,12 +7,11 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: "使用 PowerShell 在 Microsoft Teams 中允许或阻止对团队的来宾访问"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 0e087aadced6980db80890f423e3e6e3c4b7a701
-ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.openlocfilehash: d75bbbce689b5b0799c7d2ec806977f6d23ee906
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>使用 PowerShell 控制对团队的来宾访问
 ================================================

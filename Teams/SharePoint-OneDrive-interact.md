@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互 | Microsoft 支持"
+title: "SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解 SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互，例如，如何存储私人聊天文件，以及团队、频道和文档库之间的关系。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 01149aa436862de8e6537c658524be9f4db13124
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: b7d9ffad23c8f26d7d95c3f31df4ff0307517179
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互
 =============================================================================
@@ -21,7 +21,7 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 
 私人聊天文件存储在**发送方的** OneDrive for Business 文件夹中，在文件共享过程中，系统会自动向所有参与者授予权限。
 
-如果你的租户中未启用 SharePoint Online，则 Microsoft Teams 用户不是总能够在团队中共享文件。 此外，由于该功能需要 OneDrive for Business（它与 SharePoint 许可证关联），因此私人聊天中的用户无法共享文件。
+如果你的租户中未启用 SharePoint Online，那么 Microsoft Teams 用户不能在团队中共享文件。 此外，由于该功能需要 OneDrive for Business（它与 SharePoint 许可证关联），因此私人聊天中的用户无法共享文件。
 
 通过在 SharePoint Online 文档库和 OneDrive for Business 中存储文件，在租户级别配置的所有合规性规则将得到遵循。
 

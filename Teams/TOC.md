@@ -1,6 +1,6 @@
 
 # 入门
-## [Microsoft Teams 概述](Teams-Overview.md)
+## [Teams 概述](Teams-Overview.md)
 ## [检查你的环境是否为 Teams 准备好](environment-readiness.md)
 ## [适用于 Teams 的 Office 365 许可](Office-365-licensing.md)
 ## [Teams 中的团队和频道概述](teams-channels-overview.md)
@@ -10,25 +10,26 @@
 ## [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](SharePoint-OneDrive-interact.md)
 ## [Teams 和 Skype for Business 互操作性](Teams-and-SkypeforBusiness-interoperability.md)
 
-# [快速入门指南](quick-start-guides.md)
+# [Teams 管理员快速入门指南](quick-start-guides.md)
 ## [快速入门: Teams 规划指南](quick-start-enable-Teams.md)
 ## [配置通话套餐](configuring-teams-calling-quickstartguide.md)
+## [快速入门 - Teams 教育版](Teams-quick-start-edu.yml)
 
 # 规划
-## [Microsoft Teams 部署概述](deployment-overview.md)
+## [Teams 部署概述](deployment-overview.md)
 ## [在 Teams 中创建团队时规划 Office 365 组](plan-Office-365-groups.md)
 ## [为 Teams 准备贵组织的网络](prepare-network.md)
 ## [Office 365 URL 和 IP 地址范围](Office-365-URLs-IP-address-ranges.md)
-## [适用于 Microsoft Teams 的规划研讨会工具包和实践指南](planning-workshop-practical-guide.md)
+## [研讨会工具包：规划、交付和运营 Teams](planning-workshop-practical-guide.md)
 
 # 采用
-## [为 Microsoft Teams 制定变更管理策略](change-management-strategy.md)
+## [为 Teams 创建变更管理策略](change-management-strategy.md)
 ## [Teams 中用户反馈方法的最佳做法](best-practices-feedback.md)
 ## [获取工具以支持 Teams 部署](rollout-tools.md)
 ## [使用 T-Bot 为用户提供 Teams 方面的帮助](T-Bot.md)
 
 # 管理
-## [获取 Microsoft Teams 的客户端](get-clients.md)
+## [获取 Teams 的客户端](get-clients.md)
 ## [在你的 Office 365 组织中设置 Teams](Office-365-set-up.md)
 ## [在 Teams 中分配角色和权限](assign-roles-permissions.md)
 ## [在你的 Office 365 组织中启用 Teams 功能](enable-features-office-365.md)
@@ -80,7 +81,7 @@
 
 # 安全性和合规性
 ## [Teams 中的安全性和合规性概述](security-compliance-overview.md)
-## [Microsoft Teams 中的标识模式和身份验证](identify-models-authentication.md)
+## [Teams 中的标识模式和身份验证](identify-models-authentication.md)
 ## [在 Teams 中搜索事件的审核日志](audit-log-events.md)
 ## [在 Teams 中对内容进行电子数据展示调查](eDiscovery-investigation.md)
 ## [在 Teams 中使用内容搜索](content-search.md)
@@ -94,7 +95,8 @@
 ## [对 Teams 客户端的连接问题进行故障排除](connectivity-issues.md)
 ## [在对 Teams 进行故障排除时使用日志文件](log-files.md)
 
-
+# Teams 教育版
+## [管理员快速入门 - Teams 教育版](Teams-quick-start-edu.yml)
 
 # [Teams 的开发人员文档](https://docs.microsoft.com/microsoftteams/platform)
 

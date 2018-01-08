@@ -1,23 +1,26 @@
 ---
-title: "在 Microsoft Teams 中组织团队的最佳做法 | Microsoft 支持"
+title: "在 Microsoft Teams 中组织团队的最佳做法"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "了解在 Microsoft Teams 中组织团队的最佳做法，以根据你的特定需求建立你的团队。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 936d5132fb71563f1f8b2fff5561084c4201425a
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+description: "了解在 Microsoft Teams 中组织团队以满足贵组织需求的最佳做法。"
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 37b40af804193039cc2c2a8b5fa37a4547b896b0
+ms.sourcegitcommit: 5ab90d4bd39bf45198ef73d0fd45dd3d8baa6acb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/21/2017
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中组织团队的最佳做法
 ======================================================
 
-在创建团队之前，建议先考虑目标、项目或工作项， 以及组织内可以协作帮助完成目标、项目或工作项的人员或组（在添加人员和组来帮助实现你的目标时要仔细选择）。 创建后，即可添加这些人员/组以开始协作。建议为每个团队设置多个所有者（请参阅[*管理团队*](https://support.office.com/en-US/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)）。
+> [!TIP]
+> 你是否有使用 Teams 的最佳实践或提示？ 在本文结尾的**注释**部分与我们分享。
+
+在创建团队之前，最好先考虑目标、项目或工作项以及可以帮助协作交付的组织的联系人或组。 创建之后，将这些联系人或组添加到团队以开始协作。 最好为每个团队指定多个所有者 - 请参阅[*管理团队*](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)。
 
 刚开始时可以组织少量团队成员进行集体讨论，之后可以不断添加新人员/组。 Microsoft Teams 的一个重要特点是，当你添加新人员/组时，他们可以快速了解已经讨论的内容，因为无论用户何时加入，他们都可以访问对话和文件。 尽量避免创建具有相同的一组成员的不同团队，因为这样可能无法为完成项目或目标提供所需的关注重点。 Outlook 是一个功能强大的工具，可用于共享这些类型的组范围的通信。
 

@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams 中适用于应用的管理设置 | Microsoft 支持"
+title: "Microsoft Teams 中适用于应用的管理设置"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解如何在 Microsoft Teams 中允许和启用应用，包括侧向加载外部应用。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 3e385c1a9a3175d4aaef6ea0eb52d6278c538d94
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: ca969e073cf35309b65aeedf93acda31d388629c
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams 中适用于应用的管理设置
 ==========================================

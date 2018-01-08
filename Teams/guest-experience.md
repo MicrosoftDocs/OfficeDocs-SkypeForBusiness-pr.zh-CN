@@ -7,12 +7,12 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: "了解来宾用户可用的 Microsoft Teams 功能。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 596d0dd3bb754e6f6c983beb9ba62d775768d252
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 7ce64b92d5b51c7bfc154b955ed0c9c5ea1bab99
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
@@ -57,7 +57,7 @@ ms.lasthandoff: 11/11/2017
 |共享聊天文件  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |添加应用（选项卡、聊天机器人或连接器）  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |创建租户范围和团队/频道来宾访问策略  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|邀请 Office 365 租户的域外部的用户  <br/> ||![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|邀请 Office 365 租户的域外部的用户 <br/>  *团队所有者控制此设置。*  <br/> <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |创建团队  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |发现和加入公用团队  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |查看组织结构图  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||

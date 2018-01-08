@@ -1,5 +1,5 @@
 ---
-title: "获取 Microsoft Teams 的客户端 | Microsoft 支持"
+title: "获取 Microsoft Teams 的客户端"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解如何使用支持 Microsoft Teams 的各种客户端，包括 Web、桌面（Windows 和 Mac）和移动（Android、iOS 和 Windows Phone）。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: fa0e91acd0847ab7b37113383348cb8be9a7a1c6
-ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
+ms.openlocfilehash: 8037d765e304aa6e950fdd0b9b5ad55079ec1700
+ms.sourcegitcommit: 19d7af5d60276c0a1ca3e01588b91c34a3fd0f92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/16/2017
+ms.lasthandoff: 12/22/2017
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================
@@ -24,7 +23,7 @@ ms.lasthandoff: 12/16/2017
 
 Web 客户端 ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) 是具有完整功能的客户端，可以从各种浏览器使用该客户端。 目前，Web 客户端不支持实时通信（即，加入会议和进行一对一通话）。 此外，还必须配置浏览器以允许第三方 Cookie。 
 
-使用 Web 浏览器利用 Microsoft Teams，无需插件和下载。
+在 Web 浏览器中运行 Teams 无需插件和下载。
 
 Web 客户端在连接到 [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) 时执行浏览器版本检测，如果检测到不支持的浏览器版本，它将阻止对 Web 界面的访问，并建议用户下载桌面客户端或移动应用。
 
@@ -58,7 +57,7 @@ IT 管理员可以选择其首选方法将安装文件分发到其组织中的�
 
 > [!NOTE]
 > 通过这些机制分发客户端仅适用于初次安装 Microsoft Team 客户端，不适用于将来更新。
-       |
+
 
 #### <a name="windows"></a>Windows
 

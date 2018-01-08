@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams 中用户反馈方法的最佳做法 | Microsoft 支持"
+title: "Microsoft Teams 中用户反馈方法的最佳做法"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解 Microsoft Teams 中用户反馈方法的最佳做法以确保获得可能的最佳团队体验。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e69a354bd198111697e4bc91afa2368593d4f48a
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 5422c29bdb7de43649b329ff2aee2203c925b604
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Microsoft Teams 中用户反馈方法的最佳做法
 ===========================================================

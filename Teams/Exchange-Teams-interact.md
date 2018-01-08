@@ -1,5 +1,5 @@
 ---
-title: "Exchange 与 Microsoft Teams 如何交互 | Microsoft 支持"
+title: "Exchange 与 Microsoft Teams 如何交互"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,21 +7,21 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解 Microsoft Teams 与各种 Exchange 设置之间存在哪些功能，例如，创建和加入团队、创建频道等。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a7d3bed465d1a13e35bbbe92c5fd2b8237e199b9
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 4fc7da7d68c13bbadec935573c827cf767c9afe4
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互 
 =========================================
 
 为了获得全面的 Microsoft Teams 体验，应该为每个用户启用 Exchange Online、SharePoint Online 和 Office 365 组创建。
 
-用户的 Exchange 邮箱可以托管在线上或本地。 Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Microsoft Teams 的所有功能。 他们可以创建和加入团队与频道、创建和查看会议、修改用户个人资料图片、添加和配置连接器、选项卡与聊天机器人，以及可以聊天和通话。
+用户的 Exchange 邮箱可以托管在线上或本地。 Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Teams 的所有功能。 他们可以创建和加入团队与频道、创建和查看会议、通话和聊天、修改用户个人资料图片以及添加和配置连接器、选项卡与聊天机器人。
 
-对于 Office 365，Exchange Online Dedicated - Legacy 或本地 Exchange 上托管的用户必须同步到 Azure Active Directory。 他们可以创建和加入团队与频道、添加和配置选项卡与聊天机器人以及聊天和通话。 但是，他们无法修改用户个人资料图片、创建和查看会议以及添加和配置连接器。 他们可以接收来自其他用户配置的连接器的消息。
+对于 Office 365，Exchange Online Dedicated - Legacy 或本地 Exchange 上托管的用户必须同步到 Azure Active Directory。 他们可以创建和加入团队与频道、添加和配置选项卡与聊天机器人以及聊天和通话。 但是，他们无法修改用户个人资料图片以及添加和配置连接器。 他们可以接收来自其他用户配置的连接器的消息。 对于创建和查看会议，这是一个混合包：Exchange 2016 累积更新3 (CU3) 和更高版本支持创建和查看会议，但 Exchange 2016 CU3 之前的版本不支持。
 
 下表提供了适用于使用各种环境中托管的 Exchange Online 的用户的信息。
 

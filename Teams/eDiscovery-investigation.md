@@ -1,5 +1,5 @@
 ---
-title: "在 Microsoft Teams 中对内容进行电子数据展示调查 | Microsoft 支持"
+title: "在 Microsoft Teams 中对内容进行电子数据展示调查"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解你需要执行电子数据展示时（例如，你需要提交所有电子方式存储的信息用于法律程序时）要完成的事项。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 2ca867ccdb3efb7a7d80152a4f55063cafc3bb28
-ms.sourcegitcommit: bbce24b59b31552a92eb76a8e360e8c72b4fdd8a
+ms.openlocfilehash: 8746e08e6714902ee6923286c79861321916dd6d
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 ============================

@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams 中的标识模式和身份验证 | Microsoft 支持"
+title: "Microsoft Teams 中的标识模式和身份验证"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解 Microsoft Teams 中的不同标识模式，例如，云、同步和联合。 此外，还了解多重身份验证。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 9047c359d2148154576b806304e1b8067fb7510b
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: b3976a23bc4e165b5a21c99c57356428d0e6767b
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft Teams 中的标识模式和身份验证
 ==========================================

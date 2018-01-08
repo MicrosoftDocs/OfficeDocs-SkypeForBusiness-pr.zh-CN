@@ -7,12 +7,12 @@ ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
 description: "使用展望（规划）、上线（交付）、推动价值（运营）框架在 Microsoft Teams 中规划、部署和管理具有通话套餐的电话系统的实践指导。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 5f40b92c5148480b60c3da8c206228036fb875eb
-ms.sourcegitcommit: ac601c3fe040b47eb7fff1f4f01858c14f40baa4
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: be79a70b47ec12141d907e2dc467fae2e9447315
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Microsoft Teams 中具有通话套餐的电话系统实践指导
 =========================================================================

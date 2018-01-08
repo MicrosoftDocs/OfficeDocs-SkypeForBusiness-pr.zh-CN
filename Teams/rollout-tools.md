@@ -1,18 +1,18 @@
 ---
-title: "获取工具以支持 Microsoft Teams 部署 | Microsoft 支持"
+title: "获取工具以支持 Microsoft Teams 部署"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "了解哪些工具可帮助你部署 Microsoft Teams，例如，电子邮件模板、入门指南、Customer Success Kit 资源等。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1566fe26542204c0c82805fe44c6e85af849ecdf
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+description: "找到支持你部署 Microsoft Teams 的工具，包括电子邮件模板、入门指南、Customer Success Kit 等。"
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 217cfa5678ab8ffcb7f1ad31bf357c84825b5226
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>获取工具以支持 Microsoft Teams 部署
 =================================================

@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams 概述 | Microsoft 支持"
+title: "Microsoft Teams 概述"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解 Microsoft Teams、其基础结构以及如何配合使用 Teams 与 Office 365。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 6f333d50a1f9a30d29c0ea2052372e5cfaf0e053
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 58019ec13a384d249c95cab119fcdee57b1a3244
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="overview-of-microsoft-teams"></a>Microsoft Teams 概述
 ===========================

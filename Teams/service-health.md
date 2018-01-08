@@ -1,5 +1,5 @@
 ---
-title: "验证 Microsoft Teams 的服务运行状况 | Microsoft 支持"
+title: "验证 Microsoft Teams 的服务运行状况"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "建议验证 Teams 服务以及其他 Office 365 组件（例如 Exchange、SharePoint 和 OneDrive for Business）是否正常运行。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 498a878bc231b8071d76308d4537210a74f9011f
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 25f25347e78751104da9574a5e9d3932da82e2a7
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>验证 Microsoft Teams 的服务运行状况
 ===========================================

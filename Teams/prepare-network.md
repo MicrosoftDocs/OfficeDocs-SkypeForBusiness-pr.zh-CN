@@ -1,5 +1,5 @@
 ---
-title: "为 Microsoft Teams 准备贵组织的网络 | Microsoft 支持"
+title: "为 Microsoft Teams 准备贵组织的网络"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解如何准备和管理你的 Microsoft Teams 网络。 信息包括网络要求、带宽要求和其他考虑事项。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 64d7ba35e8882fc0baa3522e1a5779b3e7ef8aaf
-ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: a89d4f201a0ea8f9392146e23629e6dd671bb7c3
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/16/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备贵组织的网络
 =================================================
