@@ -1,1402 +1,522 @@
 ---
-title: "Microsoft Teams 中的音频会议"
-author: LolaJacobsen
-ms.author: lolaj
+title: "Microsoft Teams 中的音频会议实践指导"
+author: arachmanGitHub
+ms.author: MyAdvisor
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 12/22/2017
 ms.topic: article
 ms.service: msteams
-description: "在 Microsoft Teams 中部署音频会议实践指导"
+description: "使用展望（规划）、上线（交付）、推动价值（运营）框架在 Microsoft Teams 中规划、部署和管理音频会议的实践指导。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 5a65f305d924c5e5e6dac01d2391a62d8abd1243
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: 69162c3795bfab8ddc95eba0ce91a790b20f6332
+ms.sourcegitcommit: 495ee65ffc85d223c965c8b31f0350c7e844ab96
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 12/23/2017
 ---
-<a name="audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="08d1e-103">Microsoft Teams 中的音频会议</span><span class="sxs-lookup"><span data-stu-id="08d1e-103">Audio Conferencing in Microsoft Teams</span></span>
-=====================================
+<a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="bbcd6-103">Microsoft Teams 中的音频会议实践指导</span><span class="sxs-lookup"><span data-stu-id="bbcd6-103">Practical guidance for Audio Conferencing in Microsoft Teams</span></span>
+============================================================
 
-> [!IMPORTANT]
-> <span data-ttu-id="08d1e-104">音频会议在公共预览版中提供。</span><span class="sxs-lookup"><span data-stu-id="08d1e-104">Audio conferencing is in public preview.</span></span> <span data-ttu-id="08d1e-105">早期采用者 (EA) 和预览版客户可以使用该功能，在发布或更新该功能时可能会发生变化。</span><span class="sxs-lookup"><span data-stu-id="08d1e-105">It's available to Early Adopters (EA) and preview customers and could change as it is released or updated.</span></span>
+<span data-ttu-id="bbcd6-104">Office 365 中的音频会议允许参与者从任何电话加入 Teams 会议。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-104">Audio Conferencing in Office 365 (formerly known as PSTN Conferencing) allows participants to join your meetings from any telephone.</span></span>
 
-<span data-ttu-id="08d1e-106">Office 365 中的音频会议（以前称为 PSTN 会议）允许参与者从任何电话加入会议。</span><span class="sxs-lookup"><span data-stu-id="08d1e-106">Audio Conferencing in Office 365 (formerly known as PSTN Conferencing) allows participants to join your meetings from any telephone.</span></span> <span data-ttu-id="08d1e-107">现在在 Microsoft Teams 公共预览版中提供此功能，允许用户使用其电话加入 Teams 会议。</span><span class="sxs-lookup"><span data-stu-id="08d1e-107">This feature is now available in Microsoft Teams, in public preview, allowing users to join Teams meetings using their phones.</span></span> <span data-ttu-id="08d1e-108">此文章中的实践指导将带你了解音频会议的 Office 365 FastTrack 客户旅程框架 - 展望、上线和推动价值。</span><span class="sxs-lookup"><span data-stu-id="08d1e-108">The practical guidance in this article steps you through the Office 365 FastTrack customer journey framework for Audio Conferencing - Envision, Onboard, and Drive value.</span></span>
+<span data-ttu-id="bbcd6-105">下面是使用 Office 365 中的[音频会议](https://go.microsoft.com/fwlink/?linkid=858992)完成的内容。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-105">Here's what you get with [Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=858992) in Office 365.</span></span>
 
-<span data-ttu-id="08d1e-109">下面是使用 Office 365 中的[音频会议](https://go.microsoft.com/fwlink/?linkid=858992)完成的内容。</span><span class="sxs-lookup"><span data-stu-id="08d1e-109">Here's what you get with [Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=858992) in Office 365.</span></span>
+<span data-ttu-id="bbcd6-106">此实践指导介绍 Office 365 FastTrack 客户旅程框架及其三个阶段（展望、上线和推动价值），帮助你规划、交付和运营音频会议实施以获得成功的业务成果。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-106">This practical guidance takes you through the Office 365 FastTrack customer journey framework and its three phases, Envision, Onboard, and Drive Value, to help you plan, deliver, and operate an Audio Conferencing implementation towards succesful business outcomes.</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="08d1e-110">音频会议支持 Teams 和 Skype for Business Online。</span><span class="sxs-lookup"><span data-stu-id="08d1e-110">Audio Conferencing supports both Teams and Skype for Business Online.</span></span> <span data-ttu-id="08d1e-111">当前，现有 Skype for Business 管理中心和远程 PowerShell 提供用于管理音频会议的管理界面。</span><span class="sxs-lookup"><span data-stu-id="08d1e-111">Currently, the existing Skype for Business Admin center and remote PowerShell provide the administrative interfaces to manage Audio Conferencing.</span></span>
+> [!TIP]
+> <span data-ttu-id="bbcd6-107">在此实践指导中，我们为每个活动和关键讨论提供了示例输出。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-107">In this practical guidance, we are providing example outputs for each activity and key discussion.</span></span> <span data-ttu-id="bbcd6-108">本文档中的示例包含在“提示”标注中，它们是可以重用的模板。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-108">The examples throughout this document are enclosed inside TIP callouts and they serve as a template that you can reuse.</span></span> <span data-ttu-id="bbcd6-109">对于需要你在规划过程中完成的信息，以“TBA”（待添加）表示。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-109">You'll see "TBA" (to be added) for information that you need to complete as part of your planning process.</span></span>
 
-
-|  |  |
-|---------|---------|
-|  <iframe width="350" height="200" src="https://www.youtube.com/embed/AGPvaW4Vg0o" frameborder="0" allowfullscreen></iframe>   | |
-
-<span data-ttu-id="08d1e-112">展望 <a name="Envision_AudioConferencing"> </a></span><span class="sxs-lookup"><span data-stu-id="08d1e-112">Envision <a name="Envision_AudioConferencing"> </a></span></span>
+<span data-ttu-id="bbcd6-110">展望 <a name="Envision_AudioConferencing"> </a></span><span class="sxs-lookup"><span data-stu-id="bbcd6-110">Envision <a name="Envision_AudioConferencing"> </a></span></span>
 =========
 
-<span data-ttu-id="08d1e-113">展望阶段提供 Office 365 客户旅程的基础，适用于音频会议等所有工作负荷。</span><span class="sxs-lookup"><span data-stu-id="08d1e-113">The Envision phase provides the foundation for the Office 365 customer journey and is applicable to all workloads such as Audio Conferencing.</span></span>
+<span data-ttu-id="bbcd6-111">展望阶段提供 Office 365 客户旅程的基础，适用于音频会议等所有工作负荷。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-111">The Envision phase provides the foundation for the Office 365 customer journey and is applicable to all workloads such as Audio Conferencing.</span></span>
 
-<span data-ttu-id="08d1e-114">在此阶段，确定业务目标，并集合相关项目利益干系人，以最终交付：</span><span class="sxs-lookup"><span data-stu-id="08d1e-114">In this phase, business goals are captured, with relevant project stakeholders assembled, to ultimately deliver:</span></span>
+<span data-ttu-id="bbcd6-112">在此阶段，确定业务目标，并集合相关项目利益干系人，以最终交付：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-112">In this phase, business goals are captured, with relevant project stakeholders assembled, to ultimately deliver:</span></span>
 
--   <span data-ttu-id="08d1e-115">高级成功计划，包含业务用例、关键利益干系人、目标和关键成果 (OKR)、关键成功指标 (KSI)、风险、环境评估、采用就绪和运营计划。</span><span class="sxs-lookup"><span data-stu-id="08d1e-115">a high-level success plan that contains business use cases, key stakeholders, objectives and key results (OKRs), key success indicators (KSIs), risks, environmental assessment, adoption readiness, and operational plan.</span></span>
+-   <span data-ttu-id="bbcd6-113">高级成功计划，包含业务用例、关键利益干系人、目标和关键成果 (OKR)、关键成功指标 (KSI)、风险、环境评估、采用就绪和运营计划。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-113">a high-level success plan that contains business use cases, key stakeholders, objectives and key results (OKRs), key success indicators (KSIs), risks, environmental assessment, adoption readiness, and operational plan.</span></span>
 
--   <span data-ttu-id="08d1e-116">然后是详细的音频会议技术实施计划，以达到所需的最终状态。</span><span class="sxs-lookup"><span data-stu-id="08d1e-116">and subsequently, a detailed Audio Conferencing technical implementation plan to achieve the desired end state.</span></span>
+-  <span data-ttu-id="bbcd6-114">详细的音频会议技术实施计划，以达到所需的最终状态。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-114">and subsequently, a detailed Audio Conferencing technical implementation plan to achieve the desired end state.</span></span>
 
-<a name="define-business-use-cases-for-audio-conferencing"></a><span data-ttu-id="08d1e-117">定义音频会议的业务用例</span><span class="sxs-lookup"><span data-stu-id="08d1e-117">Define business use cases for Audio Conferencing</span></span>
+<a name="define-business-use-cases-for-audio-conferencing"></a><span data-ttu-id="bbcd6-115">定义音频会议的业务用例</span><span class="sxs-lookup"><span data-stu-id="bbcd6-115">Define business use cases for Audio Conferencing</span></span>
 ------------------------------------------------
 
-<span data-ttu-id="08d1e-118">音频会议允许会议参与者使用传统座机、PBX 或移动电话拨号通过 PSTN 加入会议，从而为组织提供了连接任何安排的会议的附加入口点。</span><span class="sxs-lookup"><span data-stu-id="08d1e-118">Audio Conferencing provides organizations with additional entry points to any scheduled meetings by allowing meeting participants to join via PSTN by dialing in using traditional landline, PBX, or mobile phones.</span></span>
+<span data-ttu-id="bbcd6-116">音频会议允许会议参与者使用传统座机、PBX 或移动电话拨号通过 PSTN（公用电话交换网）加入会议，从而为组织提供了连接任何会议（临时和安排的会议）的附加入口点。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-116">Audio Conferencing provides organizations with additional entry points to any scheduled meetings by allowing meeting participants to join via PSTN by dialing in using traditional landline, PBX, or mobile phones.</span></span>
 
-<span data-ttu-id="08d1e-119">在以下情况下，这很有用：当组织者或参与者不在计算机前时，当数据连接不可用或不可靠而无法支持语音通信（例如，在移动数据覆盖范围不稳定的远程区域中）时，如果连接到带宽有限的免费公共 Wi-Fi 服务，或者会议参与者更愿意使用他们方便接触到的电话服务终结点拨号加入会议时。</span><span class="sxs-lookup"><span data-stu-id="08d1e-119">This is useful when the organizer or participants are not in front of a computer, or when data connections are unavailable or unreliable to support voice communications—such as when in a remote area with spotty mobile data coverage, or if connected to a free, public Wi-Fi service with limited bandwidth, or when meeting participants prefer to dial in to the meeting using telephony endpoint readily accessible to them.</span></span>
+<span data-ttu-id="bbcd6-117">在以下情况下，这很有用：当组织者或参与者不在计算机前时，当数据连接不可用或不可靠而无法支持语音通信（例如，在移动数据覆盖范围不稳定的远程区域中）时，如果连接到带宽有限的免费公共 Wi-Fi 服务，或者会议参与者更愿意使用他们方便接触到的电话服务终结点拨号加入会议时。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-117">This is useful when the organizer or participants are not in front of a computer, or when data connections are unavailable or unreliable to support voice communications—such as when in a remote area with spotty mobile data coverage, or if connected to a free, public Wi-Fi service with limited bandwidth, or when meeting participants prefer to dial in to the meeting using telephony endpoint readily accessible to them.</span></span>
 
-<span data-ttu-id="08d1e-120">在此步骤中，核心项目利益干系人将定义支持实施音频会议的业务用例。</span><span class="sxs-lookup"><span data-stu-id="08d1e-120">In this step, core project stakeholders will define business use cases that support the implementation of Audio Conferencing.</span></span>
+<span data-ttu-id="bbcd6-118">在此步骤中，核心项目利益干系人将定义支持实施音频会议的业务用例。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-118">In this step, core project stakeholders will define business use cases that support the implementation of Audio Conferencing.</span></span>
 
-<span data-ttu-id="08d1e-121">业务用例的目的是定义和记录预期的可衡量业务成果，包括以下内容：</span><span class="sxs-lookup"><span data-stu-id="08d1e-121">Business use cases are meant to define and document the expected and measurable business outcomes, and include the following:</span></span>
+<span data-ttu-id="bbcd6-119">业务用例的目的是定义和记录预期的可衡量业务成果，包括以下内容：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-119">Business use cases are meant to define and document the expected and measurable business outcomes, and include the following:</span></span>
 
--   <span data-ttu-id="08d1e-122">当前业务流程说明。</span><span class="sxs-lookup"><span data-stu-id="08d1e-122">Description of current business process.</span></span>
+-   <span data-ttu-id="bbcd6-120">当前业务流程说明</span><span class="sxs-lookup"><span data-stu-id="bbcd6-120">Description of current business process.</span></span>
+-   <span data-ttu-id="bbcd6-121">定义现有业务流程上的挑战</span><span class="sxs-lookup"><span data-stu-id="bbcd6-121">Challenges with existing business process defined.</span></span>
+-   <span data-ttu-id="bbcd6-122">技术如何帮助克服这些挑战</span><span class="sxs-lookup"><span data-stu-id="bbcd6-122">How technology can help overcome these challenges.</span></span>
+-   <span data-ttu-id="bbcd6-123">克服了这些挑战的情况下预期的可衡量业务成果</span><span class="sxs-lookup"><span data-stu-id="bbcd6-123">The expected and measurable business outcome if these challenges are overcome.</span></span>
 
--   <span data-ttu-id="08d1e-123">定义现有业务流程上的挑战。</span><span class="sxs-lookup"><span data-stu-id="08d1e-123">Challenges with existing business process defined.</span></span>
+> [!TIP]
+> <span data-ttu-id="bbcd6-124">下面是完成的业务用例示例：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-124">The following is an example of a completed business use case:</span></span>
+>|         |
+>|---------|
+>|<span data-ttu-id="bbcd6-125">**当前业务流程说明**</span><span class="sxs-lookup"><span data-stu-id="bbcd6-125">**Description of current business process**</span></span><br><span data-ttu-id="bbcd6-126">Contoso 当前依赖现任本地电话服务提供商提供的 PSTN 会议服务，按内部会议和涉及外部各方的会议的会议分钟数收费。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-126">Contoso currently relies on PSTN conferencing services provided by the incumbent local telephony provider chargeable by meeting minutes for internal meetings and meetings involving external parties.</span></span>|
+>|<span data-ttu-id="bbcd6-127">**现有业务流程上的挑战**</span><span class="sxs-lookup"><span data-stu-id="bbcd6-127">**Challenges with existing business process**</span></span><br><span data-ttu-id="bbcd6-128">Contoso 每年为当前 PSTN 会议服务支出大约一百万美元，产生的 75% 的成本用于内部会议。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-128">Contoso spends roughly USD 1 million per year for the current PSTN conferencing service, with 75% of the cost incurred for internal meetings.</span></span><br><span data-ttu-id="bbcd6-129">使用传统电话服务终结点加入 PSTN 会议服务托管的会议与组织采用 Teams 作为新式通信与协作平台的计划不一致。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-129">The use of traditional telephony endpoints to join the meetings hosted by the PSTN conferencing service is not aligned with the plan for the organization to adopt Teams as modern communications and collaboration platform.</span></span>|
+>|<span data-ttu-id="bbcd6-130">**技术如何能够克服这些挑战**</span><span class="sxs-lookup"><span data-stu-id="bbcd6-130">**How technology can overcome these challenges**</span></span><br><span data-ttu-id="bbcd6-131">通过采用 Microsoft Teams 作为新式通信与协作平台，要求内部用户主要使用其配备了优化耳机的 PC 和会议室设备加入会议。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-131">With the adoption of Microsoft Teams as modern communications and collaboration platform, internal users are expected to primarily join meetings using their PCs equipped with optimized headsets and meeting room devices.</span></span> <span data-ttu-id="bbcd6-132">音频会议服务将可用于支持外部参与者或支持内部参与者不便使用 PC 音频的情况。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-132">Audio Conferencing service will be available to support external participants or to support situations where the use of PC audio is not favorable for the internal participants.</span></span>|
+>|<span data-ttu-id="bbcd6-133">**预期的可衡量业务成果**</span><span class="sxs-lookup"><span data-stu-id="bbcd6-133">**Expected, measurable, business outcomes**</span></span><br><span data-ttu-id="bbcd6-134">迁移至作为新式通信与协作平台的 Teams，并结合使用音频会议服务，将会大大降低交付 PSTN 会议服务的成本，预期 Contoso 要支出的成本大约只是现有 PSTN 会议服务的年度成本的 20%。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-134">The move to Teams as modern communications and collaboration platform, combined with Audio Conferencing service, will greatly reduce the cost to deliver the PSTN conferencing service to the point that Contoso is expected to only spend approximately 20% of the annual cost of the existing PSTN conferencing service.</span></span>|
 
--   <span data-ttu-id="08d1e-124">技术如何能够帮助克服这些挑战。</span><span class="sxs-lookup"><span data-stu-id="08d1e-124">How technology can help overcome these challenges.</span></span>
+<span data-ttu-id="bbcd6-135">除了定义你的业务用例外，在继续执行展望阶段的下一步之前，还应澄清以下事项：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-135">In addition to defining your business use cases, as you move into the next step of the Envision phase, you should also get clarity around:</span></span>
+- <span data-ttu-id="bbcd6-136">组织范围和</span><span class="sxs-lookup"><span data-stu-id="bbcd6-136">organizational scope, and</span></span>
+- <span data-ttu-id="bbcd6-137">项目时间线</span><span class="sxs-lookup"><span data-stu-id="bbcd6-137">project timelines</span></span>
 
--   <span data-ttu-id="08d1e-125">克服了这些挑战的情况下预期的可衡量业务成果。</span><span class="sxs-lookup"><span data-stu-id="08d1e-125">The expected and measurable business outcome if these challenges are overcome.</span></span>
-
-<table>
-<tbody>
-<tr class="header">
-<th align="left"><p><img src="media/audio_conferencing_image2.png" /></p></th>
-<td align="left"><p><span data-ttu-id="08d1e-126"><strong>当前业务流程说明</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-126"><strong>Description of current business process</strong></span></span></p>
-<p><span data-ttu-id="08d1e-127">Contoso 当前依赖现任本地电话服务提供商提供的 PSTN 会议服务，按内部会议和涉及外部各方的会议的会议分钟数收费。</span><span class="sxs-lookup"><span data-stu-id="08d1e-127">Contoso currently relies on PSTN conferencing services provided by the incumbent local telephony provider chargeable by meeting minutes for internal meetings and meetings involving external parties.</span></span></p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p><img src="media/audio_conferencing_image3.png" /></p></td>
-<td align="left"><p><span data-ttu-id="08d1e-128"><strong>现有业务流程上的挑战</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-128"><strong>Challenges with existing business process</strong></span></span></p>
-<p><span data-ttu-id="08d1e-129">Contoso 每年为当前 PSTN 会议服务支出大约一百万美元，产生的 75% 的成本用于内部会议。</span><span class="sxs-lookup"><span data-stu-id="08d1e-129">Contoso spends roughly USD 1 million per year for the current PSTN conferencing service, with 75% of the cost incurred for internal meetings.</span></span></p>
-<p><span data-ttu-id="08d1e-130">使用传统电话服务终结点加入 PSTN 会议服务托管的会议与组织采用 Teams 作为新式通信与协作平台的计划不一致。</span><span class="sxs-lookup"><span data-stu-id="08d1e-130">The use of traditional telephony endpoints to join the meetings hosted by the PSTN conferencing service is not aligned with the plan for the organization to adopt Teams as modern communications and collaboration platform.</span></span></p></td>
-</tr>
-<tr class="even">
-<td align="left"><p><img src="media/audio_conferencing_image4.png" /></p></td>
-<td align="left"><p><span data-ttu-id="08d1e-131"><strong>技术如何能够克服这些挑战</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-131"><strong>How technology can overcome these challenges</strong></span></span></p>
-<p><span data-ttu-id="08d1e-132">通过采用 Microsoft Teams 作为新式通信与协作平台，要求内部用户主要使用其配备了优化耳机的 PC 和会议室设备加入会议。</span><span class="sxs-lookup"><span data-stu-id="08d1e-132">With the adoption of Microsoft Teams as modern communications and collaboration platform, internal users are expected to primarily join meetings using their PCs equipped with optimized headsets and meeting room devices.</span></span> <span data-ttu-id="08d1e-133">音频会议服务将可用于支持外部参与者或支持内部参与者不便使用 PC 音频的情况。</span><span class="sxs-lookup"><span data-stu-id="08d1e-133">Audio Conferencing service will be available to support external participants or to support situations where the use of PC audio is not favorable for the internal participants.</span></span></p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p><img src="media/audio_conferencing_image5.png" /></p></td>
-<td align="left"><p><span data-ttu-id="08d1e-134"><strong>预期的可衡量业务成果</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-134"><strong>Expected, measurable, business outcomes</strong></span></span></p>
-<p><span data-ttu-id="08d1e-135">迁移至作为新式通信与协作平台的 Teams，并结合使用音频会议服务，将会大大降低交付 PSTN 会议服务的成本，预期 Contoso 要支出的成本大约只是现有 PSTN 会议服务的年度成本的 20%。</span><span class="sxs-lookup"><span data-stu-id="08d1e-135">The move to Teams as modern communications and collaboration platform, combined with Audio Conferencing service, will greatly reduce the cost to deliver the PSTN conferencing service to the point that Contoso is expected to only spend approximately 20% of the annual cost of the existing PSTN conferencing service.</span></span></p></td>
-</tr>
-</tbody>
-</table>
-
-<span data-ttu-id="08d1e-136">_表 1 业务用例示例_</span><span class="sxs-lookup"><span data-stu-id="08d1e-136">_Table 1 Business use case example_</span></span>
-
-
-<span data-ttu-id="08d1e-137">除了定义业务用例外，在此步骤明确组织范围和项目时间线有助于进入展望阶段的下一步。</span><span class="sxs-lookup"><span data-stu-id="08d1e-137">In addition to defining the business use cases, having a clarity around the organizational scope and project timelines at this step helps move onto the next step of the Envision phase.</span></span>
-
-<a name="identify-key-stakeholders"></a><span data-ttu-id="08d1e-138">确定关键利益干系人</span><span class="sxs-lookup"><span data-stu-id="08d1e-138">Identify key stakeholders</span></span>
+<a name="identify-key-stakeholders"></a><span data-ttu-id="bbcd6-138">确定关键利益干系人</span><span class="sxs-lookup"><span data-stu-id="bbcd6-138">Identify key stakeholders</span></span>
 -------------------------
 
-<span data-ttu-id="08d1e-139">在上一步中定义的业务用例将包括音频会议实施的组织范围，基于此，可以完成综合性的利益干系人矩阵以包含要在项目中涉及的合适人员。</span><span class="sxs-lookup"><span data-stu-id="08d1e-139">The business use cases defined in the previous step will include organizational scope of Audio Conferencing implementation, and based on that, the comprehensive stakeholder matrix can be completed to include the right people to be involved in the project.</span></span>
+<span data-ttu-id="bbcd6-139">在上一步中定义的业务用例将包括音频会议实施的组织范围，基于此，可以完成综合性的利益干系人矩阵以包含要在项目中涉及的合适人员。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-139">The business use cases defined in the previous step will include organizational scope of Audio Conferencing implementation, and based on that, the comprehensive stakeholder matrix can be completed to include the right people to be involved in the project.</span></span>
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"><span data-ttu-id="08d1e-140">角色</span><span class="sxs-lookup"><span data-stu-id="08d1e-140">Role</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-141">说明</span><span class="sxs-lookup"><span data-stu-id="08d1e-141">Description</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-142">姓名、联系人信息、位置</span><span class="sxs-lookup"><span data-stu-id="08d1e-142">Name, contact information, location</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-143"><strong>项目执行发起人</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-143"><strong>Project Executive Sponsor</strong></span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-144">对项目和按项目目标交付具有最高权力和责任</span><span class="sxs-lookup"><span data-stu-id="08d1e-144">Ultimate authority and accountability for the project and delivery on project objectives</span></span></li>
-<li><span data-ttu-id="08d1e-145">协助解决项目主管上提的问题</span><span class="sxs-lookup"><span data-stu-id="08d1e-145">Help resolve issues escalated by Project Lead</span></span></li>
-<li><span data-ttu-id="08d1e-146">提倡在公司内就项目目标进行沟通</span><span class="sxs-lookup"><span data-stu-id="08d1e-146">Sponsors communication within the company about project goals</span></span></li>
-<li><span data-ttu-id="08d1e-147">负责制定关键的战略决策</span><span class="sxs-lookup"><span data-stu-id="08d1e-147">Responsible for making key strategic decisions</span></span></li>
-<li><span data-ttu-id="08d1e-148">负责提供所需的资源和预算</span><span class="sxs-lookup"><span data-stu-id="08d1e-148">Responsible for availability of required resources and budget</span></span></p>
-<li><span data-ttu-id="08d1e-149">主导季度业务回顾 (QBR)</span><span class="sxs-lookup"><span data-stu-id="08d1e-149">Leading Quarterly Business Reviews (QBR)</span></span></li>
-<li><span data-ttu-id="08d1e-150">认可和支持认知推行活动工作</span><span class="sxs-lookup"><span data-stu-id="08d1e-150">Buy-In and support of awareness campaign effort</span></span></li>
-<li><span data-ttu-id="08d1e-151">担当项目部署的项目发起人</span><span class="sxs-lookup"><span data-stu-id="08d1e-151">Serving as the Project Sponsor to the program rollout</span></span></li></ul></td>
-<td align="left"><span data-ttu-id="08d1e-152">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-152">TBA</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-153"><strong>项目主管</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-153"><strong>Project Lead</strong></span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-154">管理和领导项目团队</span><span class="sxs-lookup"><span data-stu-id="08d1e-154">Managing and leading project team</span></span></li>
-<li><span data-ttu-id="08d1e-155">协调参与项目的合作伙伴和工作团队</span><span class="sxs-lookup"><span data-stu-id="08d1e-155">Coordinates partners and working teams engaged in the project</span></span></li>
-<li><span data-ttu-id="08d1e-156">负责制定和管理项目计划以符合季度关键结果</span><span class="sxs-lookup"><span data-stu-id="08d1e-156">Accountable for creating and managing project plans to meet quarterly key results</span></span></li>
-<li><span data-ttu-id="08d1e-157">解决跨智能的问题</span><span class="sxs-lookup"><span data-stu-id="08d1e-157">Resolving cross-functional issues</span></span></li>
-<li><span data-ttu-id="08d1e-158">向项目发起人提供定期更新</span><span class="sxs-lookup"><span data-stu-id="08d1e-158">Providing regular updates to the project sponsors</span></span></li>
-<li><span data-ttu-id="08d1e-159">将采用的各方面合并到整体项目计划中</span><span class="sxs-lookup"><span data-stu-id="08d1e-159">Incorporating Adoption aspects into the all-up project plan</span></span></li>
-<li><span data-ttu-id="08d1e-160">领导月度业务和运营回顾 (MBR)，为季度业务回顾做准备</span><span class="sxs-lookup"><span data-stu-id="08d1e-160">Leading Monthly Business and Operational Reviews (MBR), contributing to Quarterly Business Reviews</span></span></li></ul></td>
-<td align="left"><span data-ttu-id="08d1e-161">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-161">TBA</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-162"><strong>协作主管/架构师</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-162"><strong>Collaboration Lead/Architect</strong></span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-163">负责执行公司高层制定的协作策略</span><span class="sxs-lookup"><span data-stu-id="08d1e-163">Responsible for execution on collaboration strategy defined by company executives</span></span></li>
-<li><span data-ttu-id="08d1e-164">为公司分析和选择符合业务目标的协作产品</span><span class="sxs-lookup"><span data-stu-id="08d1e-164">Analyzing and choosing collaboration products for the company that meets business goals</span></span></li>
-<li><span data-ttu-id="08d1e-165">负责设计协作产品的运营</span><span class="sxs-lookup"><span data-stu-id="08d1e-165">Responsible for the design of the operations for collaboration products</span></span></li>
-<li><span data-ttu-id="08d1e-166">定义运营和支持模式</span><span class="sxs-lookup"><span data-stu-id="08d1e-166">Defines operation and support model</span></span></li>
-<li><span data-ttu-id="08d1e-167">为月度和季度业务回顾做准备</span><span class="sxs-lookup"><span data-stu-id="08d1e-167">Contributing to Monthly and Quarterly Business Reviews</span></span></li><ul></td>
-<td align="left"><span data-ttu-id="08d1e-168">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-168">TBA</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-169"><strong>顾问</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-169"><strong>Consultant</strong></span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-170">负责配置服务</span><span class="sxs-lookup"><span data-stu-id="08d1e-170">Responsible for configuration services</span></span></li>
-<li><span data-ttu-id="08d1e-171">参与整体解决方案体系结构</span><span class="sxs-lookup"><span data-stu-id="08d1e-171">Contributes in overall solution architecture</span></span></li></ul></td>
-<td align="left"><span data-ttu-id="08d1e-172">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-172">TBA</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-173"><strong>项目经理</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-173"><strong>Project Manager</strong></span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-174">开发和维护项目计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-174">Developing and maintaining project plan</span></span></li>
-<li><span data-ttu-id="08d1e-175">按照项目计划和预算管理项目交付物</span><span class="sxs-lookup"><span data-stu-id="08d1e-175">Managing project deliverables in line with project plan and budget</span></span></li>
-<li><span data-ttu-id="08d1e-176">记录和管理项目问题，包括上提问题</span><span class="sxs-lookup"><span data-stu-id="08d1e-176">Recording and managing project issues, including escalations</span></span></li>
-<li><span data-ttu-id="08d1e-177">每周鼓舞士气</span><span class="sxs-lookup"><span data-stu-id="08d1e-177">Conducting weekly stand up calls</span></span></li>
-<li><span data-ttu-id="08d1e-178">与项目执行发起人保持联系并向其提供更新</span><span class="sxs-lookup"><span data-stu-id="08d1e-178">Liaises with, and provides updates to project executive sponsors</span></span></li>
-<li><span data-ttu-id="08d1e-179">与架构师合作定义变更管理方法和通信计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-179">Working with the Architect to define the Change Management approach and Communication Plans</span></span></li></ul></td>
-<td align="left"><span data-ttu-id="08d1e-180">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-180">TBA</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-181"><strong>变更管理/采用专业人员</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-181"><strong>Change Management/Adoption Specialist</strong></span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-182">在发现阶段向采用和培训流程提供信息</span><span class="sxs-lookup"><span data-stu-id="08d1e-182">Provide input on Discovery phase into adoption and training processes</span></span></li>
-<li><span data-ttu-id="08d1e-183">参与采用策略研讨会</span><span class="sxs-lookup"><span data-stu-id="08d1e-183">Participate in adoption strategy workshop</span></span></li>
-<li><span data-ttu-id="08d1e-184">制定和负责采用策略</span><span class="sxs-lookup"><span data-stu-id="08d1e-184">Developing and responsible for adoption strategy</span></span></li>
-<li><span data-ttu-id="08d1e-185">制定和执行通信计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-185">Developing and executing communication plan</span></span></li>
-<li><span data-ttu-id="08d1e-186">负责向最终用户提供培训</span><span class="sxs-lookup"><span data-stu-id="08d1e-186">Responsible for delivering trainings to end users</span></span></li>
-<li><span data-ttu-id="08d1e-187">收集反馈和进行调查</span><span class="sxs-lookup"><span data-stu-id="08d1e-187">Collect feedback and conduct surveys</span></span></li></ul></td>
-<td align="left"><span data-ttu-id="08d1e-188">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-188">TBA</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-189"><strong>网络主管</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-189"><strong>Network Lead</strong></span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-190">在发现阶段向网络设计提供信息</span><span class="sxs-lookup"><span data-stu-id="08d1e-190">Providing input on Discovery phase into network design</span></span></li>
-<li><span data-ttu-id="08d1e-191">在展望研讨会期间参与计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-191">Participating in planning during Envisioning workshop</span></span></li>
-<li><span data-ttu-id="08d1e-192">在项目执行期间协调网络团队的工作</span><span class="sxs-lookup"><span data-stu-id="08d1e-192">Coordinates work of networking team during the project execution</span></span></li></ul></td>
-<td align="left"><span data-ttu-id="08d1e-193">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-193">TBA</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-194"><strong>安全主管</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-194"><strong>Security Lead</strong></span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-195">在发现阶段向安全设计和流程提供信息</span><span class="sxs-lookup"><span data-stu-id="08d1e-195">Providing input on Discovery phase into security design and processes</span></span></li>
-<li><span data-ttu-id="08d1e-196">在展望研讨会期间参与计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-196">Participating in planning during Envisioning workshop</span></span></li>
-<li><span data-ttu-id="08d1e-197">在项目执行期间协调安全团队的工作</span><span class="sxs-lookup"><span data-stu-id="08d1e-197">Coordinates work of security team during the project execution</span></span></li></ul></td>
-<td align="left"><span data-ttu-id="08d1e-198">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-198">TBA</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-199"><strong>电话服务主管</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-199"><strong>Telephony Lead</strong></span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-200">在发现阶段向电话服务设计提供信息</span><span class="sxs-lookup"><span data-stu-id="08d1e-200">Providing input on Discovery phase into telephony design</span></span></li>
-<li><span data-ttu-id="08d1e-201">在展望研讨会期间参与计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-201">Participating in planning during envisioning workshop</span></span></li>
-<li><span data-ttu-id="08d1e-202">在项目执行期间协调电话服务团队的工作</span><span class="sxs-lookup"><span data-stu-id="08d1e-202">Coordinates work of telephony team during the project execution</span></span></li></ul></td>
-<td align="left"><span data-ttu-id="08d1e-203">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-203">TBA</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-204"><strong>桌面主管</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-204"><strong>Desktop Lead</strong></span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-205">在发现阶段向客户端和更新流程提供信息</span><span class="sxs-lookup"><span data-stu-id="08d1e-205">Providing input on Discovery phase into clients and update process</span></span></li>
-<li><span data-ttu-id="08d1e-206">在展望研讨会期间参与计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-206">Participating in planning during envisioning workshop</span></span></li>
-<li><span data-ttu-id="08d1e-207">在项目执行期间协调桌面团队的工作</span><span class="sxs-lookup"><span data-stu-id="08d1e-207">Coordinates work of desktop team during the project execution</span></span></li></ul></td>
-<td align="left"><span data-ttu-id="08d1e-208">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-208">TBA</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-209"><strong>支持主管</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-209"><strong>Support/Help Desk Lead</strong></span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-210">在发现阶段向运营和支持模式提供信息</span><span class="sxs-lookup"><span data-stu-id="08d1e-210">Providing input on Discovery phase into operational and support model</span></span></li>
-<li><span data-ttu-id="08d1e-211">在展望研讨会期间参与计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-211">Participating in planning during envisioning workshop</span></span></li>
-<li><span data-ttu-id="08d1e-212">参与支持模式计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-212">Participating into support model planning</span></span></li>
-<li><span data-ttu-id="08d1e-213">在项目执行期间协调支持团队/资源的工作</span><span class="sxs-lookup"><span data-stu-id="08d1e-213">Coordinates work of support teams/resources during the project execution</span></span></li></ul></td>
-<td align="left"><span data-ttu-id="08d1e-214">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-214">TBA</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-215"><strong>业务单位代表</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-215"><strong>Business Unit Representatives</strong></span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-216">参与准备基于最终用户的采用指南和材料</span><span class="sxs-lookup"><span data-stu-id="08d1e-216">Contribute in End User based adoption guides and materials</span></span></li>
-<li><span data-ttu-id="08d1e-217">参与并检查业务用例</span><span class="sxs-lookup"><span data-stu-id="08d1e-217">Contribute to and review Business Use Cases</span></span></li></ul></td>
-<td align="left"><span data-ttu-id="08d1e-218">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-218">TBA</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-219"><strong>部署主管</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-219"><strong>Deployment Lead</strong></span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-220">确保满足部署先决条件</span><span class="sxs-lookup"><span data-stu-id="08d1e-220">Ensure that deployment prerequisites are met</span></span></li>
-<li><span data-ttu-id="08d1e-221">请客户资源参与准备和部署阶段活动</span><span class="sxs-lookup"><span data-stu-id="08d1e-221">Engage customer resources to engage on prepare and deploy stage activities</span></span></li>
-<li><span data-ttu-id="08d1e-222">参与会议以检查准备和部署状态</span><span class="sxs-lookup"><span data-stu-id="08d1e-222">Participate in meetings to review prepare and deploy status</span></span></li></ul></td>
-<td align="left"><span data-ttu-id="08d1e-223">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-223">TBA</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-224"><strong>IT 管理员</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-224"><strong>IT Admins</strong></span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-225">负责为测试计划和执行提供协助的 IT 专业人士</span><span class="sxs-lookup"><span data-stu-id="08d1e-225">IT Pros responsible for assistance with test planning and execution</span></span></li></ul></td>
-<td align="left"><span data-ttu-id="08d1e-226">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-226">TBA</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-227"><strong>服务所有者</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-227"><strong>Service Owner</strong></span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-228">负责音频会议服务整体的运营</span><span class="sxs-lookup"><span data-stu-id="08d1e-228">Is responsible for the operation of the Audio Conferencing service all up</span></span></li>
-<li><span data-ttu-id="08d1e-229">音频会议服务的所有者</span><span class="sxs-lookup"><span data-stu-id="08d1e-229">Owner of Audio Conferencing service</span></span></li></ul></td>
-<td align="left"><span data-ttu-id="08d1e-230">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-230">TBA</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-231"><strong>质量支持者</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-231"><strong>Quality Champion</strong></span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-232">推动质量、可靠性和用户反馈</span><span class="sxs-lookup"><span data-stu-id="08d1e-232">Drives quality, reliability and user feedback</span></span></li>
-<li><span data-ttu-id="08d1e-233">了解质量趋势，并与各个团队一起推动采取补救措施</span><span class="sxs-lookup"><span data-stu-id="08d1e-233">Identifies the quality trends and drive remediation with the respective teams</span></span></li>
-<li><span data-ttu-id="08d1e-234">通过指导委员会向领导汇报</span><span class="sxs-lookup"><span data-stu-id="08d1e-234">Reports through the steering committee back to leadership</span></span></li>
-<li><span data-ttu-id="08d1e-235">通过“为我的通话评分”和“净推荐值”报告质量、可靠性和用户看法</span><span class="sxs-lookup"><span data-stu-id="08d1e-235">Reports on quality, reliability, and user sentiment through Rate My Call and Net Promoter Score</span></span></li></ul></td>
-<td align="left"><span data-ttu-id="08d1e-236">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-236">TBA</span></span></td>
-</tr>
-</tbody>
-</table>
+> [!TIP]
+> <span data-ttu-id="bbcd6-140">下面是可以用于记录项目利益干系人的利益干系人列表模板示例：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-140">Below is an example of stakeholder matrix template that you can use to document the project stakeholders:</span></span>
+>|<span data-ttu-id="bbcd6-141">角色</span><span class="sxs-lookup"><span data-stu-id="bbcd6-141">Role</span></span>  |<span data-ttu-id="bbcd6-142">说明</span><span class="sxs-lookup"><span data-stu-id="bbcd6-142">Description</span></span>  |<span data-ttu-id="bbcd6-143">姓名、联系人信息、位置</span><span class="sxs-lookup"><span data-stu-id="bbcd6-143">Name, contact information, location</span></span>  |
+>|---------|---------|---------|
+>|<span data-ttu-id="bbcd6-144">项目执行发起人</span><span class="sxs-lookup"><span data-stu-id="bbcd6-144">Project Executive Sponsor</span></span>|<ul><li><span data-ttu-id="bbcd6-145">对项目和按项目目标交付具有最高权力和责任</span><span class="sxs-lookup"><span data-stu-id="bbcd6-145">Ultimate authority and accountability for the project and delivery on project objectives</span></span></li><li><span data-ttu-id="bbcd6-146">协助解决项目主管上提的问题</span><span class="sxs-lookup"><span data-stu-id="bbcd6-146">Help resolve issues escalated by Project Lead</span></span></li><li><span data-ttu-id="bbcd6-147">提倡在公司内就项目目标进行沟通</span><span class="sxs-lookup"><span data-stu-id="bbcd6-147">Sponsors communication within the company about project goals</span></span></li><li><span data-ttu-id="bbcd6-148">负责制定关键的战略决策</span><span class="sxs-lookup"><span data-stu-id="bbcd6-148">Responsible for making key strategic decisions</span></span></li><li><span data-ttu-id="bbcd6-149">负责提供所需的资源和预算</span><span class="sxs-lookup"><span data-stu-id="bbcd6-149">Responsible for availability of required resources and budget</span></span></li><li><span data-ttu-id="bbcd6-150">主导季度业务回顾 (QBR)</span><span class="sxs-lookup"><span data-stu-id="bbcd6-150">Leading Quarterly Business Reviews (QBR)</span></span></li><li><span data-ttu-id="bbcd6-151">认可和支持认知推行活动工作</span><span class="sxs-lookup"><span data-stu-id="bbcd6-151">Buy-In and support of awareness campaign effort</span></span></li><li><span data-ttu-id="bbcd6-152">担当项目部署的项目发起人</span><span class="sxs-lookup"><span data-stu-id="bbcd6-152">Serving as the Project Sponsor to the program rollout</span></span></li></ul>|<span data-ttu-id="bbcd6-153">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-153">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-154">项目主管</span><span class="sxs-lookup"><span data-stu-id="bbcd6-154">Project Lead</span></span>|<ul><li><span data-ttu-id="bbcd6-155">管理和领导项目团队</span><span class="sxs-lookup"><span data-stu-id="bbcd6-155">Managing and leading project team</span></span></li><li><span data-ttu-id="bbcd6-156">协调参与项目的合作伙伴和工作团队</span><span class="sxs-lookup"><span data-stu-id="bbcd6-156">Coordinates partners and working teams engaged in the project</span></span></li><li><span data-ttu-id="bbcd6-157">负责制定和管理项目计划以符合季度关键结果</span><span class="sxs-lookup"><span data-stu-id="bbcd6-157">Accountable for creating and managing project plans to meet quarterly key results</span></span></li><li><span data-ttu-id="bbcd6-158">解决跨智能的问题</span><span class="sxs-lookup"><span data-stu-id="bbcd6-158">Resolving cross-functional issues</span></span></li><li><span data-ttu-id="bbcd6-159">向项目发起人提供定期更新</span><span class="sxs-lookup"><span data-stu-id="bbcd6-159">Providing regular updates to the project sponsors</span></span></li><li><span data-ttu-id="bbcd6-160">将采用的各方面合并到整体项目计划中</span><span class="sxs-lookup"><span data-stu-id="bbcd6-160">Incorporating Adoption aspects into the all-up project plan</span></span></li><li><span data-ttu-id="bbcd6-161">领导月度业务和运营回顾 (MBR)，为季度业务回顾做准备</span><span class="sxs-lookup"><span data-stu-id="bbcd6-161">Leading Monthly Business and Operational Reviews (MBR), contributing to Quarterly Business Reviews</span></span></li></ul>|<span data-ttu-id="bbcd6-162">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-162">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-163">协作主管/架构师</span><span class="sxs-lookup"><span data-stu-id="bbcd6-163">Collaboration Lead/Architect</span></span>|<ul><li><span data-ttu-id="bbcd6-164">负责执行公司高层制定的协作策略</span><span class="sxs-lookup"><span data-stu-id="bbcd6-164">Responsible for execution on collaboration strategy defined by company executives</span></span></li><li><span data-ttu-id="bbcd6-165">为公司分析和选择符合业务目标的协作产品</span><span class="sxs-lookup"><span data-stu-id="bbcd6-165">Analyzing and choosing collaboration products for the company that meets business goals</span></span></li><li><span data-ttu-id="bbcd6-166">负责设计协作产品的运营</span><span class="sxs-lookup"><span data-stu-id="bbcd6-166">Responsible for the design of the operations for collaboration products</span></span></li><li><span data-ttu-id="bbcd6-167">定义运营和支持模式</span><span class="sxs-lookup"><span data-stu-id="bbcd6-167">Defines operation and support model</span></span></li><li><span data-ttu-id="bbcd6-168">为月度和季度业务回顾做准备</span><span class="sxs-lookup"><span data-stu-id="bbcd6-168">Contributing to Monthly and Quarterly Business Reviews</span></span></li><ul>|<span data-ttu-id="bbcd6-169">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-169">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-170">顾问</span><span class="sxs-lookup"><span data-stu-id="bbcd6-170">Consultant</span></span>|<ul><li><span data-ttu-id="bbcd6-171">负责配置服务</span><span class="sxs-lookup"><span data-stu-id="bbcd6-171">Responsible for configuration services</span></span></li><li><span data-ttu-id="bbcd6-172">参与整体解决方案体系结构</span><span class="sxs-lookup"><span data-stu-id="bbcd6-172">Contributes in overall solution architecture</span></span></li></ul>|<span data-ttu-id="bbcd6-173">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-173">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-174">项目经理</span><span class="sxs-lookup"><span data-stu-id="bbcd6-174">Project Manager</span></span>|<ul><li><span data-ttu-id="bbcd6-175">开发和维护项目计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-175">Developing and maintaining project plan</span></span></li><li><span data-ttu-id="bbcd6-176">按照项目计划和预算管理项目交付物</span><span class="sxs-lookup"><span data-stu-id="bbcd6-176">Managing project deliverables in line with project plan and budget</span></span></li><li><span data-ttu-id="bbcd6-177">记录和管理项目问题，包括上提问题</span><span class="sxs-lookup"><span data-stu-id="bbcd6-177">Recording and managing project issues, including escalations</span></span></li><li><span data-ttu-id="bbcd6-178">每周鼓舞士气</span><span class="sxs-lookup"><span data-stu-id="bbcd6-178">Conducting weekly stand up calls</span></span></li><li><span data-ttu-id="bbcd6-179">与项目执行发起人保持联系并向其提供更新</span><span class="sxs-lookup"><span data-stu-id="bbcd6-179">Liaises with, and provides updates to project executive sponsors</span></span></li><li><span data-ttu-id="bbcd6-180">与架构师合作定义变更管理方法和通信计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-180">Working with the Architect to define the Change Management approach and Communication Plans</span></span></li></ul>|<span data-ttu-id="bbcd6-181">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-181">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-182">变更管理/采用专业人员</span><span class="sxs-lookup"><span data-stu-id="bbcd6-182">Change Management/Adoption Specialist</span></span>|<ul><li><span data-ttu-id="bbcd6-183">在发现阶段向采用和培训流程提供信息</span><span class="sxs-lookup"><span data-stu-id="bbcd6-183">Provide input on Discovery phase into adoption and training processes</span></span></li><li><span data-ttu-id="bbcd6-184">参与采用策略研讨会</span><span class="sxs-lookup"><span data-stu-id="bbcd6-184">Participate in adoption strategy workshop</span></span></li><li><span data-ttu-id="bbcd6-185">制定和负责采用策略</span><span class="sxs-lookup"><span data-stu-id="bbcd6-185">Developing and responsible for adoption strategy</span></span></li><li><span data-ttu-id="bbcd6-186">制定和执行通信计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-186">Developing and executing communication plan</span></span></li><li><span data-ttu-id="bbcd6-187">负责向最终用户提供培训</span><span class="sxs-lookup"><span data-stu-id="bbcd6-187">Responsible for delivering trainings to end users</span></span></li><li><span data-ttu-id="bbcd6-188">收集反馈和进行调查</span><span class="sxs-lookup"><span data-stu-id="bbcd6-188">Collect feedback and conduct surveys</span></span></li></ul>|<span data-ttu-id="bbcd6-189">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-189">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-190">网络主管</span><span class="sxs-lookup"><span data-stu-id="bbcd6-190">Network Lead</span></span>|<ul><li><span data-ttu-id="bbcd6-191">在发现阶段向网络设计提供信息</span><span class="sxs-lookup"><span data-stu-id="bbcd6-191">Providing input on Discovery phase into network design</span></span></li><li><span data-ttu-id="bbcd6-192">在展望研讨会期间参与计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-192">Participating in planning during Envisioning workshop</span></span></li><li><span data-ttu-id="bbcd6-193">在项目执行期间协调网络团队的工作</span><span class="sxs-lookup"><span data-stu-id="bbcd6-193">Coordinates work of networking team during the project execution</span></span></li></ul>|<span data-ttu-id="bbcd6-194">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-194">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-195">安全主管</span><span class="sxs-lookup"><span data-stu-id="bbcd6-195">Security Lead</span></span>|<ul><li><span data-ttu-id="bbcd6-196">在发现阶段向安全设计和流程提供信息</span><span class="sxs-lookup"><span data-stu-id="bbcd6-196">Providing input on Discovery phase into security design and processes</span></span></li><li><span data-ttu-id="bbcd6-197">在展望研讨会期间参与计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-197">Participating in planning during Envisioning workshop</span></span></li><li><span data-ttu-id="bbcd6-198">在项目执行期间协调安全团队的工作</span><span class="sxs-lookup"><span data-stu-id="bbcd6-198">Coordinates work of security team during the project execution</span></span></li></ul>|<span data-ttu-id="bbcd6-199">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-199">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-200">电话服务主管</span><span class="sxs-lookup"><span data-stu-id="bbcd6-200">Telephony Lead</span></span>|<ul><li><span data-ttu-id="bbcd6-201">在发现阶段向电话服务设计提供信息</span><span class="sxs-lookup"><span data-stu-id="bbcd6-201">Providing input on Discovery phase into telephony design</span></span></li><li><span data-ttu-id="bbcd6-202">在展望研讨会期间参与计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-202">Participating in planning during envisioning workshop</span></span></li><li><span data-ttu-id="bbcd6-203">在项目执行期间协调电话服务团队的工作</span><span class="sxs-lookup"><span data-stu-id="bbcd6-203">Coordinates work of telephony team during the project execution</span></span></li></ul>|<span data-ttu-id="bbcd6-204">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-204">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-205">桌面主管</span><span class="sxs-lookup"><span data-stu-id="bbcd6-205">Desktop Lead</span></span>|<ul><li><span data-ttu-id="bbcd6-206">在发现阶段向客户端和更新流程提供信息</span><span class="sxs-lookup"><span data-stu-id="bbcd6-206">Providing input on Discovery phase into clients and update process</span></span></li><li><span data-ttu-id="bbcd6-207">在展望研讨会期间参与计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-207">Participating in planning during envisioning workshop</span></span></li><li><span data-ttu-id="bbcd6-208">在项目执行期间协调桌面团队的工作</span><span class="sxs-lookup"><span data-stu-id="bbcd6-208">Coordinates work of desktop team during the project execution</span></span></li></ul>|<span data-ttu-id="bbcd6-209">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-209">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-210">支持主管</span><span class="sxs-lookup"><span data-stu-id="bbcd6-210">Support/Help Desk Lead</span></span>|<ul><li><span data-ttu-id="bbcd6-211">在发现阶段向运营和支持模式提供信息</span><span class="sxs-lookup"><span data-stu-id="bbcd6-211">Providing input on Discovery phase into operational and support model</span></span></li><li><span data-ttu-id="bbcd6-212">在展望研讨会期间参与计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-212">Participating in planning during envisioning workshop</span></span></li><li><span data-ttu-id="bbcd6-213">参与支持模式计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-213">Participating into support model planning</span></span></li><li><span data-ttu-id="bbcd6-214">在项目执行期间协调支持团队/资源的工作</span><span class="sxs-lookup"><span data-stu-id="bbcd6-214">Coordinates work of support teams/resources during the project execution</span></span></li></ul>|<span data-ttu-id="bbcd6-215">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-215">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-216">业务单位代表</span><span class="sxs-lookup"><span data-stu-id="bbcd6-216">Business Unit Representatives</span></span>|<ul><li><span data-ttu-id="bbcd6-217">参与准备基于最终用户的采用指南和材料</span><span class="sxs-lookup"><span data-stu-id="bbcd6-217">Contribute in End User based adoption guides and materials</span></span></li><li><span data-ttu-id="bbcd6-218">参与并检查业务用例</span><span class="sxs-lookup"><span data-stu-id="bbcd6-218">Contribute to and review Business Use Cases</span></span></li></ul>|<span data-ttu-id="bbcd6-219">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-219">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-220">部署主管</span><span class="sxs-lookup"><span data-stu-id="bbcd6-220">Deployment Lead</span></span>|<ul><li><span data-ttu-id="bbcd6-221">确保满足部署先决条件</span><span class="sxs-lookup"><span data-stu-id="bbcd6-221">Ensure that deployment prerequisites are met</span></span></li><li><span data-ttu-id="bbcd6-222">请客户资源参与准备和部署阶段活动</span><span class="sxs-lookup"><span data-stu-id="bbcd6-222">Engage customer resources to engage on prepare and deploy stage activities</span></span></li><li><span data-ttu-id="bbcd6-223">参与会议以检查准备和部署状态</span><span class="sxs-lookup"><span data-stu-id="bbcd6-223">Participate in meetings to review prepare and deploy status</span></span></li></ul>|<span data-ttu-id="bbcd6-224">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-224">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-225">IT 管理员</span><span class="sxs-lookup"><span data-stu-id="bbcd6-225">IT Admins</span></span>|<ul><li><span data-ttu-id="bbcd6-226">负责为测试计划和执行提供协助的 IT 专业人士</span><span class="sxs-lookup"><span data-stu-id="bbcd6-226">IT Pros responsible for assistance with test planning and execution</span></span></li></ul>|<span data-ttu-id="bbcd6-227">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-227">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-228">服务所有者</span><span class="sxs-lookup"><span data-stu-id="bbcd6-228">Service Owner</span></span>|<ul><li><span data-ttu-id="bbcd6-229">负责音频会议服务整体的运营</span><span class="sxs-lookup"><span data-stu-id="bbcd6-229">Is responsible for the operation of the Audio Conferencing service all up</span></span></li><li><span data-ttu-id="bbcd6-230">音频会议服务的所有者</span><span class="sxs-lookup"><span data-stu-id="bbcd6-230">Owner of Audio Conferencing service</span></span></li></ul>|<span data-ttu-id="bbcd6-231">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-231">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-232">质量支持者</span><span class="sxs-lookup"><span data-stu-id="bbcd6-232">Quality Champions</span></span>|<ul><li><span data-ttu-id="bbcd6-233">推动质量、可靠性和用户反馈</span><span class="sxs-lookup"><span data-stu-id="bbcd6-233">Drives quality, reliability and user feedback</span></span></li><li><span data-ttu-id="bbcd6-234">了解质量趋势，并与各个团队一起推动采取补救措施</span><span class="sxs-lookup"><span data-stu-id="bbcd6-234">Identifies the quality trends and drive remediation with the respective teams</span></span></li><li><span data-ttu-id="bbcd6-235">通过指导委员会向领导汇报</span><span class="sxs-lookup"><span data-stu-id="bbcd6-235">Reports through the steering committee back to leadership</span></span></li><li><span data-ttu-id="bbcd6-236">通过“为我的通话评分”和“净推荐值”报告质量、可靠性和用户看法</span><span class="sxs-lookup"><span data-stu-id="bbcd6-236">Reports on quality, reliability, and user sentiment through Rate My Call and Net Promoter Score</span></span></li></ul>|<span data-ttu-id="bbcd6-237">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-237">TBA</span></span>|
 
-<span data-ttu-id="08d1e-237">_表 2 利益干系人矩阵模板示例_</span><span class="sxs-lookup"><span data-stu-id="08d1e-237">_Table 2 Stakeholder matrix template example_</span></span>
-
-
-> [!NOTE]
-> <span data-ttu-id="08d1e-238">本文档中上述示例表和后续表用作模板。</span><span class="sxs-lookup"><span data-stu-id="08d1e-238">The example table above and subsequent tables throughout this document serve as a template.</span></span> <span data-ttu-id="08d1e-239">对于需要你在规划过程中完成的信息，以“TBA”（待添加）表示。</span><span class="sxs-lookup"><span data-stu-id="08d1e-239">You'll see "TBA" (to be added) for information that you need to complete as part of your planning process.</span></span>
-
-
-
-<a name="define-objectives-and-key-results-key-success-indicators-and-risks"></a><span data-ttu-id="08d1e-240">定义目标和关键结果、关键成功指标及风险</span><span class="sxs-lookup"><span data-stu-id="08d1e-240">Define objectives and key results, key success indicators, and risks</span></span>
+<a name="define-objectives-and-key-results-key-success-indicators-and-risks"></a><span data-ttu-id="bbcd6-238">定义目标和关键结果、关键成功指标及风险</span><span class="sxs-lookup"><span data-stu-id="bbcd6-238">Define objectives and key results, key success indicators, and risks</span></span>
 --------------------------------------------------------------------
 
-<span data-ttu-id="08d1e-241">集合了项目利益干系人后，可以将业务用例、组织范围和项目时间线转换为目标和关键结果 (OKR)，以及将衡量项目成功的方式定义为一组关键成功指标 (KSI)。</span><span class="sxs-lookup"><span data-stu-id="08d1e-241">With the project stakeholders assembled, business use cases, organizational scope and project timelines can be translated into objectives and key results (OKRs) and the measures of project success can be defined into a list of key success indicators (KSIs).</span></span>
+<span data-ttu-id="bbcd6-239">集合了项目利益干系人后，可以将业务用例、组织范围和项目时间线转换为目标和关键结果 (OKR)，以及将衡量项目成功的方式定义为一组关键成功指标 (KSI)。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-239">With the project stakeholders assembled, business use cases, organizational scope and project timelines can be translated into objectives and key results (OKRs) and the measures of project success can be defined into a list of key success indicators (KSIs).</span></span>
 
-<span data-ttu-id="08d1e-242">定义 OKR 和 KSI 时项目利益干系人全面参与将确保归属感，并且它们将与组织的业务需求一致。</span><span class="sxs-lookup"><span data-stu-id="08d1e-242">Full participation from project stakeholders when defining the OKRs and KSIs will ensure sense of ownership and they are aligned to organizational business requirements.</span></span>
+<span data-ttu-id="bbcd6-240">定义 OKR 和 KSI 时项目利益干系人全面参与将确保归属感，并且它们将与组织的业务需求一致。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-240">Full participation from project stakeholders when defining the OKRs and KSIs will ensure sense of ownership and they are aligned to organizational business requirements.</span></span>
 
-<span data-ttu-id="08d1e-243">OKR 将包含在项目开始时设定的一组目标，并具有按季度定义的可衡量的关键结果。</span><span class="sxs-lookup"><span data-stu-id="08d1e-243">OKRs will contain the list of objectives set in the beginning of the project, with measurable key results defined in a quarterly basis.</span></span> <span data-ttu-id="08d1e-244">按月检查关键结果以跟踪整个项目的状态，并且基于进度，可以根据需要对季度计划进行调整。</span><span class="sxs-lookup"><span data-stu-id="08d1e-244">The key results are reviewed monthly to track status of the overall project, and based on progress, adjustment to the quarterly plans can be made as needed.</span></span>
+<span data-ttu-id="bbcd6-241">OKR 将包含在项目开始时设定的一组目标，并具有按季度定义的可衡量的关键结果。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-241">OKRs will contain the list of objectives set in the beginning of the project, with measurable key results defined in a quarterly basis.</span></span> <span data-ttu-id="bbcd6-242">按月检查关键结果以跟踪整个项目的状态，并且基于进度，可以根据需要对季度计划进行调整。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-242">The key results are reviewed monthly to track status of the overall project, and based on progress, adjustment to the quarterly plans can be made as needed.</span></span>
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"><p><span data-ttu-id="08d1e-245"><strong>愿景</strong>：通过最大限度地利用 Office 365 投资来提高工作效率</span><span class="sxs-lookup"><span data-stu-id="08d1e-245"><strong>Vision</strong>: Increase productivity by maximizing Office 365 investments</span></span></p>
-</th>
-<th align="left"></th>
-<th align="left"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-246"><strong>目标</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-246"><strong>Objectives</strong></span></span></td>
-<td align="left"><span data-ttu-id="08d1e-247"><strong>关键结果</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-247"><strong>Key Results</strong></span></span></td>
-<td align="left"><span data-ttu-id="08d1e-248"><strong>待办事项</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-248"><strong>To Do</strong></span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-249">到 2018 财年结束时在 Teams 中部署音频会议</span><span class="sxs-lookup"><span data-stu-id="08d1e-249">Deploy Audio Conferencing in Teams by end of fiscal year 2018</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-250">FY18Q1：在 Teams 中部署音频会议（全球）</span><span class="sxs-lookup"><span data-stu-id="08d1e-250">FY18Q1: Deploy Audio Conferencing in Teams globally</span></span></td>
-<td align="left"><p><span data-ttu-id="08d1e-251">展望</span><span class="sxs-lookup"><span data-stu-id="08d1e-251">Envision</span></span></p>
-<ul><li><span data-ttu-id="08d1e-252">制定成功计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-252">Create success plan</span></span></li>
-<li><span data-ttu-id="08d1e-253">制定详细的技术实施计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-253">Create detailed technical implementation plan</span></span></li></ul>
-<p><span data-ttu-id="08d1e-254">上线</span><span class="sxs-lookup"><span data-stu-id="08d1e-254">Onboard</span></span></p>
-<ul><li><span data-ttu-id="08d1e-255">执行成功计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-255">Execute success plan</span></span></li>
-<li><span data-ttu-id="08d1e-256">执行技术实施计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-256">Execute technical implementation plan</span></span></li></ul></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-257">到 2018 财年中期全球停用旧的 PSTN 会议服务</span><span class="sxs-lookup"><span data-stu-id="08d1e-257">Decommission legacy PSTN Conferencing service globally by mid of fiscal year 2018</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-258">FY18Q2：全球停用旧的 PSTN 会议服务</span><span class="sxs-lookup"><span data-stu-id="08d1e-258">FY18Q2: Decommission legacy PSTN Conferencing service globally</span></span></td>
-<td align="left"><p><span data-ttu-id="08d1e-259">推动价值</span><span class="sxs-lookup"><span data-stu-id="08d1e-259">Drive Value</span></span></p>
-<ul><li><span data-ttu-id="08d1e-260">激励用户参与并推动采用</span><span class="sxs-lookup"><span data-stu-id="08d1e-260">Boost user engagement and drive adoption</span></span></li>
-<li><span data-ttu-id="08d1e-261">管理和准备变更</span><span class="sxs-lookup"><span data-stu-id="08d1e-261">Manage and prepare change</span></span></li>
-<li><span data-ttu-id="08d1e-262">衡量、分享成功以及重复进行</span><span class="sxs-lookup"><span data-stu-id="08d1e-262">Measure, share success, and iterate</span></span></li></ul></td>
-</tr>
-</tbody>
-</table>
+> [!TIP]
+> <span data-ttu-id="bbcd6-243">与音频会议实施相关的 OKR 示例参考如下：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-243">Example of OKRs relevant to Audio Conferencing implementation can be referenced below:</span></span>
+><br>
+>
+><span data-ttu-id="bbcd6-244">**愿景：通过最大限度地利用 Office 365 投资来提高工作效率**</span><span class="sxs-lookup"><span data-stu-id="bbcd6-244">**Vision**: Increase productivity by maximizing Office 365 investments</span></span>
+>|<span data-ttu-id="bbcd6-245">目标</span><span class="sxs-lookup"><span data-stu-id="bbcd6-245">Objectives</span></span>  |<span data-ttu-id="bbcd6-246">关键结果</span><span class="sxs-lookup"><span data-stu-id="bbcd6-246">Key Results</span></span>  |<span data-ttu-id="bbcd6-247">待办事项</span><span class="sxs-lookup"><span data-stu-id="bbcd6-247">To Do</span></span>  |
+>|---------|---------|---------|
+>|<span data-ttu-id="bbcd6-248">到 2018 财年结束时在 Teams 中部署音频会议</span><span class="sxs-lookup"><span data-stu-id="bbcd6-248">Deploy Audio Conferencing in Teams by end of fiscal year 2018</span></span>|<span data-ttu-id="bbcd6-249">FY18Q1：在 Teams 中部署音频会议（全球）</span><span class="sxs-lookup"><span data-stu-id="bbcd6-249">FY18Q1: Deploy Audio Conferencing in Teams globally</span></span>|<span data-ttu-id="bbcd6-250">展望</span><span class="sxs-lookup"><span data-stu-id="bbcd6-250">Envision</span></span><ul><li><span data-ttu-id="bbcd6-251">制定成功计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-251">Create success plan</span></span></li><li><span data-ttu-id="bbcd6-252">制定详细的技术实施计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-252">Create detailed technical implementation plan</span></span></li></ul><p><span data-ttu-id="bbcd6-253">上线</span><span class="sxs-lookup"><span data-stu-id="bbcd6-253">Onboard</span></span><ul><li><span data-ttu-id="bbcd6-254">执行成功计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-254">Execute success plan</span></span></li><li><span data-ttu-id="bbcd6-255">执行技术实施计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-255">Execute technical implementation plan</span></span></li></ul>|
+>|<span data-ttu-id="bbcd6-256">到 2018 财年中期全球停用旧的 PSTN 会议服务</span><span class="sxs-lookup"><span data-stu-id="bbcd6-256">Decommission legacy PSTN Conferencing service globally by mid of fiscal year 2018</span></span>|<span data-ttu-id="bbcd6-257">FY18Q2：全球停用旧的 PSTN 会议服务</span><span class="sxs-lookup"><span data-stu-id="bbcd6-257">FY18Q2: Decommission legacy PSTN Conferencing service globally</span></span>|<span data-ttu-id="bbcd6-258">推动价值</span><span class="sxs-lookup"><span data-stu-id="bbcd6-258">Drive Value</span></span><ul><li><span data-ttu-id="bbcd6-259">激励用户参与并推动采用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-259">Boost user engagement and drive adoption</span></span></li><li><span data-ttu-id="bbcd6-260">管理和准备变更</span><span class="sxs-lookup"><span data-stu-id="bbcd6-260">Manage and prepare change</span></span></li><li><span data-ttu-id="bbcd6-261">衡量、分享成功以及重复进行</span><span class="sxs-lookup"><span data-stu-id="bbcd6-261">Measure, share success, and iterate</span></span></li>|
 
-<span data-ttu-id="08d1e-263">_表 3 OKR 示例_</span><span class="sxs-lookup"><span data-stu-id="08d1e-263">_Table 3 Example of OKRs_</span></span>
+<span data-ttu-id="bbcd6-262">KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到关键结果，以及补充 IKR 的二元性质（实现或未实现）。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-262">KSIs measure quality and success of the key results and complement the binary nature of OKRs (achieved or not achieved), by detailing the good and/or bad results.</span></span> <span data-ttu-id="bbcd6-263">定义 KSI 时，我们建议利用“具体、可衡量、可分配、实际、时间相关”或 SMART 标准。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-263">When defining KSIs, we recommend leveraging the “specific, measurable, assignable, realistic, time-related” or SMART criteria.</span></span>
 
+> [!TIP]
+> <span data-ttu-id="bbcd6-264">下面是与此项目相关的 KSI 示例：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-264">The following is an example of KSI relevant to this project:</span></span>
+>|<span data-ttu-id="bbcd6-265">类型</span><span class="sxs-lookup"><span data-stu-id="bbcd6-265">Type</span></span>  |<span data-ttu-id="bbcd6-266">KSI 问题和标准</span><span class="sxs-lookup"><span data-stu-id="bbcd6-266">KSI question & criteria</span></span>  |<span data-ttu-id="bbcd6-267">衡量方式</span><span class="sxs-lookup"><span data-stu-id="bbcd6-267">How measured</span></span>  |<span data-ttu-id="bbcd6-268">成功标准</span><span class="sxs-lookup"><span data-stu-id="bbcd6-268">Success criteria</span></span>  |<span data-ttu-id="bbcd6-269">衡量时间</span><span class="sxs-lookup"><span data-stu-id="bbcd6-269">Measured</span></span>  |<span data-ttu-id="bbcd6-270">负责方</span><span class="sxs-lookup"><span data-stu-id="bbcd6-270">Responsible</span></span>  |
+>|---------|---------|---------|---------|---------|---------|
+>|<span data-ttu-id="bbcd6-271">使用/采用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-271">Usage/adoption</span></span>|<span data-ttu-id="bbcd6-272">通话质量与以前的解决方案一样或优于以前的解决方案</span><span class="sxs-lookup"><span data-stu-id="bbcd6-272">Call quality is equal to or better than the previous solution</span></span>|<span data-ttu-id="bbcd6-273">调查</span><span class="sxs-lookup"><span data-stu-id="bbcd6-273">Survey</span></span>|<span data-ttu-id="bbcd6-274">80% 的用户同意或非常同意</span><span class="sxs-lookup"><span data-stu-id="bbcd6-274">80% of users agree or strongly agree</span></span>|<span data-ttu-id="bbcd6-275">启用和季度后</span><span class="sxs-lookup"><span data-stu-id="bbcd6-275">After enablement and quarterly</span></span>|<span data-ttu-id="bbcd6-276">信息技术团队</span><span class="sxs-lookup"><span data-stu-id="bbcd6-276">Information Technology team</span></span>|
+>|<span data-ttu-id="bbcd6-277">使用/采用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-277">Usage/adoption</span></span>|<span data-ttu-id="bbcd6-278">Microsoft Teams 简化了通信流程</span><span class="sxs-lookup"><span data-stu-id="bbcd6-278">Teams made the communication process easier</span></span>|<span data-ttu-id="bbcd6-279">调查</span><span class="sxs-lookup"><span data-stu-id="bbcd6-279">Survey</span></span>|<span data-ttu-id="bbcd6-280">80% 的用户同意或非常同意</span><span class="sxs-lookup"><span data-stu-id="bbcd6-280">80% of users agree or strongly agree</span></span>|<span data-ttu-id="bbcd6-281">启用和季度后</span><span class="sxs-lookup"><span data-stu-id="bbcd6-281">After enablement and quarterly</span></span>|<span data-ttu-id="bbcd6-282">变更管理团队</span><span class="sxs-lookup"><span data-stu-id="bbcd6-282">Change Management team</span></span>|
+>|<span data-ttu-id="bbcd6-283">使用/采用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-283">Usage/adoption</span></span>|<span data-ttu-id="bbcd6-284">用户主动使用解决方案</span><span class="sxs-lookup"><span data-stu-id="bbcd6-284">Users actively use the solution</span></span>|<span data-ttu-id="bbcd6-285">Office 365 报告、通话质量仪表板</span><span class="sxs-lookup"><span data-stu-id="bbcd6-285">Office 365 reports, Call Quality Dashboard</span></span>|<span data-ttu-id="bbcd6-286">80% 的用户每天主动使用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-286">80% of users are active daily users</span></span>|<span data-ttu-id="bbcd6-287">每天</span><span class="sxs-lookup"><span data-stu-id="bbcd6-287">Daily</span></span>|<span data-ttu-id="bbcd6-288">变更管理团队</span><span class="sxs-lookup"><span data-stu-id="bbcd6-288">Change Management team</span></span>|
+>|<span data-ttu-id="bbcd6-289">使用/质量</span><span class="sxs-lookup"><span data-stu-id="bbcd6-289">Usage/quality</span></span>|<span data-ttu-id="bbcd6-290">质量较差的通话/会议的百分比应尽可能低</span><span class="sxs-lookup"><span data-stu-id="bbcd6-290">Percentage of poor calls/conferences should be minimal</span></span>|<span data-ttu-id="bbcd6-291">通话质量仪表板</span><span class="sxs-lookup"><span data-stu-id="bbcd6-291">Call Quality Dashboard</span></span>|<span data-ttu-id="bbcd6-292">每月质量较差的通话低于 5%</span><span class="sxs-lookup"><span data-stu-id="bbcd6-292"> 5% of poor calls per month</span></span>|<span data-ttu-id="bbcd6-293">每天</span><span class="sxs-lookup"><span data-stu-id="bbcd6-293">Daily</span></span>|<span data-ttu-id="bbcd6-294">信息技术团队</span><span class="sxs-lookup"><span data-stu-id="bbcd6-294">Information Technology team</span></span>|
+>|<span data-ttu-id="bbcd6-295">使用/支持</span><span class="sxs-lookup"><span data-stu-id="bbcd6-295">Usage/support</span></span>|<span data-ttu-id="bbcd6-296">我知道如何获取技术支持</span><span class="sxs-lookup"><span data-stu-id="bbcd6-296">I know how to get technical support</span></span>|<span data-ttu-id="bbcd6-297">调查</span><span class="sxs-lookup"><span data-stu-id="bbcd6-297">Survey</span></span>|<span data-ttu-id="bbcd6-298">90% 的用户同意或非常同意</span><span class="sxs-lookup"><span data-stu-id="bbcd6-298">90% of users agree or strongly agree</span></span>|<span data-ttu-id="bbcd6-299">启用和季度后</span><span class="sxs-lookup"><span data-stu-id="bbcd6-299">After enablement and quarterly</span></span>|<span data-ttu-id="bbcd6-300">变更管理团队</span><span class="sxs-lookup"><span data-stu-id="bbcd6-300">Change Management team</span></span>|
+>|<span data-ttu-id="bbcd6-301">使用/支持</span><span class="sxs-lookup"><span data-stu-id="bbcd6-301">Usage/support</span></span>|<span data-ttu-id="bbcd6-302">我对技术支持的质量感到满意</span><span class="sxs-lookup"><span data-stu-id="bbcd6-302">I am satisfied with the quality of technical support</span></span>|<span data-ttu-id="bbcd6-303">调查</span><span class="sxs-lookup"><span data-stu-id="bbcd6-303">Survey</span></span>|<span data-ttu-id="bbcd6-304">80% 的用户同意或非常同意</span><span class="sxs-lookup"><span data-stu-id="bbcd6-304">80% of users agree or strongly agree</span></span>|<span data-ttu-id="bbcd6-305">每次事故后</span><span class="sxs-lookup"><span data-stu-id="bbcd6-305">After each incident</span></span>|<span data-ttu-id="bbcd6-306">信息技术团队</span><span class="sxs-lookup"><span data-stu-id="bbcd6-306">Information Technology team</span></span>|
+>|<span data-ttu-id="bbcd6-307">财务</span><span class="sxs-lookup"><span data-stu-id="bbcd6-307">Financial</span></span>|<span data-ttu-id="bbcd6-308">旧会议分钟数减少</span><span class="sxs-lookup"><span data-stu-id="bbcd6-308">Reduction of legacy conferencing minutes</span></span>|<span data-ttu-id="bbcd6-309">财务系统</span><span class="sxs-lookup"><span data-stu-id="bbcd6-309">Financial system</span></span>|<span data-ttu-id="bbcd6-310">符合定义的 ROI</span><span class="sxs-lookup"><span data-stu-id="bbcd6-310">Meet defined ROI</span></span>|<span data-ttu-id="bbcd6-311">基于 ROI</span><span class="sxs-lookup"><span data-stu-id="bbcd6-311">Based on ROI</span></span>|<span data-ttu-id="bbcd6-312">变更管理团队</span><span class="sxs-lookup"><span data-stu-id="bbcd6-312">Change Management team</span></span>|
 
-<span data-ttu-id="08d1e-264">KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到关键结果，以及补充 IKR 的二元性质（实现或未实现）。</span><span class="sxs-lookup"><span data-stu-id="08d1e-264">KSIs measure quality and success of the key results and complement the binary nature of OKRs (achieved or not achieved), by detailing the good and/or bad results.</span></span> <span data-ttu-id="08d1e-265">定义 KSI 时，我们建议利用“具体、可衡量、可分配、实际、时间相关”或 SMART 标准。</span><span class="sxs-lookup"><span data-stu-id="08d1e-265">When defining KSIs, we recommend leveraging the “specific, measurable, assignable, realistic, time-related” or SMART criteria.</span></span>
+<span data-ttu-id="bbcd6-313">你需要在此行动中确定业务风险，以及为每个确定的风险制定迁移计划。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-313">You need to identify business risks as part of this exercise and define a mitigation plan for each identified risk.</span></span> <span data-ttu-id="bbcd6-314">此信息可以收集到风险计划中。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-314">This information can be captured into a risk plan.</span></span>
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"><span data-ttu-id="08d1e-266">类型</span><span class="sxs-lookup"><span data-stu-id="08d1e-266">Type</span></span></th>
-<th align="left"><p><span data-ttu-id="08d1e-267">KSI 问题 &amp;</span><span class="sxs-lookup"><span data-stu-id="08d1e-267">KSI questions &amp;</span></span></p>
-<p><span data-ttu-id="08d1e-268">标准</span><span class="sxs-lookup"><span data-stu-id="08d1e-268">criteria</span></span></p></th>
-<th align="left"><span data-ttu-id="08d1e-269">衡量方式</span><span class="sxs-lookup"><span data-stu-id="08d1e-269">How measured</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-270">成功标准</span><span class="sxs-lookup"><span data-stu-id="08d1e-270">Success criteria</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-271">衡量时间</span><span class="sxs-lookup"><span data-stu-id="08d1e-271">Measured</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-272">负责方</span><span class="sxs-lookup"><span data-stu-id="08d1e-272">Responsible</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-273"><strong>使用/采用</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-273"><strong>Usage/adoption</strong></span></span></td>
-<td align="left"><span data-ttu-id="08d1e-274">通话质量与以前的解决方案一样或优于以前的解决方案</span><span class="sxs-lookup"><span data-stu-id="08d1e-274">Call quality is equal to or better than the previous solution</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-275">调查</span><span class="sxs-lookup"><span data-stu-id="08d1e-275">Survey</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-276">80% 的用户同意或非常同意</span><span class="sxs-lookup"><span data-stu-id="08d1e-276">80% of users agree or strongly agree</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-277">启用和季度后</span><span class="sxs-lookup"><span data-stu-id="08d1e-277">After enablement and quarterly</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-278">信息技术团队</span><span class="sxs-lookup"><span data-stu-id="08d1e-278">Information Technology team</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-279"><strong>使用/采用</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-279"><strong>Usage/adoption</strong></span></span></td>
-<td align="left"><span data-ttu-id="08d1e-280">团队轻松确定通信流程</span><span class="sxs-lookup"><span data-stu-id="08d1e-280">Teams made the communication process easier</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-281">调查</span><span class="sxs-lookup"><span data-stu-id="08d1e-281">Survey</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-282">80% 的用户同意或非常同意</span><span class="sxs-lookup"><span data-stu-id="08d1e-282">80% of users agree or strongly agree</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-283">启用和季度后</span><span class="sxs-lookup"><span data-stu-id="08d1e-283">After enablement and quarterly</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-284">变更管理团队</span><span class="sxs-lookup"><span data-stu-id="08d1e-284">Change Management team</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-285"><strong>使用/采用</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-285"><strong>Usage/adoption</strong></span></span></td>
-<td align="left"><span data-ttu-id="08d1e-286">用户主动使用解决方案</span><span class="sxs-lookup"><span data-stu-id="08d1e-286">Users actively use the solution</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-287">Office 365 报告、通话质量仪表板</span><span class="sxs-lookup"><span data-stu-id="08d1e-287">Office 365 reports, Call Quality Dashboard</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-288">80% 的用户每天主动使用</span><span class="sxs-lookup"><span data-stu-id="08d1e-288">80% of users are active daily users</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-289">每天</span><span class="sxs-lookup"><span data-stu-id="08d1e-289">Daily</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-290">变更管理团队</span><span class="sxs-lookup"><span data-stu-id="08d1e-290">Change Management team</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-291"><strong>使用/质量</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-291"><strong>Usage/quality</strong></span></span></td>
-<td align="left"><span data-ttu-id="08d1e-292">质量较差的通话/会议的百分比应尽可能低</span><span class="sxs-lookup"><span data-stu-id="08d1e-292">Percentage of poor calls/conferences should be minimal</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-293">通话质量仪表板</span><span class="sxs-lookup"><span data-stu-id="08d1e-293">Call Quality Dashboard</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-294">&lt; 每月 5% 的通话质量较差</span><span class="sxs-lookup"><span data-stu-id="08d1e-294">&lt; 5% of poor calls per month</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-295">每天</span><span class="sxs-lookup"><span data-stu-id="08d1e-295">Daily</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-296">信息技术团队</span><span class="sxs-lookup"><span data-stu-id="08d1e-296">Information Technology team</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-297"><strong>使用/支持</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-297"><strong>Usage/support</strong></span></span></td>
-<td align="left"><span data-ttu-id="08d1e-298">我知道如何获取技术支持</span><span class="sxs-lookup"><span data-stu-id="08d1e-298">I know how to get technical support</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-299">调查</span><span class="sxs-lookup"><span data-stu-id="08d1e-299">Survey</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-300">90% 的用户同意或非常同意</span><span class="sxs-lookup"><span data-stu-id="08d1e-300">90% of users agree or strongly agree</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-301">启用和季度后</span><span class="sxs-lookup"><span data-stu-id="08d1e-301">After enablement and quarterly</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-302">变更管理团队</span><span class="sxs-lookup"><span data-stu-id="08d1e-302">Change Management team</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-303"><strong>使用/支持</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-303"><strong>Usage/support</strong></span></span></td>
-<td align="left"><span data-ttu-id="08d1e-304">我对技术支持的质量感到满意</span><span class="sxs-lookup"><span data-stu-id="08d1e-304">I am satisfied with the quality of technical support</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-305">调查</span><span class="sxs-lookup"><span data-stu-id="08d1e-305">Survey</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-306">80% 的用户同意或非常同意</span><span class="sxs-lookup"><span data-stu-id="08d1e-306">80% of users agree or strongly agree</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-307">每次事故后</span><span class="sxs-lookup"><span data-stu-id="08d1e-307">After each incident</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-308">信息技术团队</span><span class="sxs-lookup"><span data-stu-id="08d1e-308">Information Technology team</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-309"><strong>财务</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-309"><strong>Financial</strong></span></span></td>
-<td align="left"><span data-ttu-id="08d1e-310">旧会议分钟数减少</span><span class="sxs-lookup"><span data-stu-id="08d1e-310">Reduction of legacy conferencing minutes</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-311">财务系统</span><span class="sxs-lookup"><span data-stu-id="08d1e-311">Financial system</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-312">符合定义的 ROI</span><span class="sxs-lookup"><span data-stu-id="08d1e-312">Meet defined ROI</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-313">基于 ROI</span><span class="sxs-lookup"><span data-stu-id="08d1e-313">Based on ROI</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-314">变更管理团队</span><span class="sxs-lookup"><span data-stu-id="08d1e-314">Change Management team</span></span></td>
-</tr>
-</tbody>
-</table>
+> [!TIP]
+> <span data-ttu-id="bbcd6-315">风险计划可以按以下示例记录：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-315">Your risk plan can be documented as the example below:</span></span>
+>|<span data-ttu-id="bbcd6-316">风险</span><span class="sxs-lookup"><span data-stu-id="bbcd6-316">Risk</span></span>  |<span data-ttu-id="bbcd6-317">可能性</span><span class="sxs-lookup"><span data-stu-id="bbcd6-317">Likelihood</span></span>  |<span data-ttu-id="bbcd6-318">影响</span><span class="sxs-lookup"><span data-stu-id="bbcd6-318">Impact</span></span>  |<span data-ttu-id="bbcd6-319">综合</span><span class="sxs-lookup"><span data-stu-id="bbcd6-319">Overall</span></span>  |<span data-ttu-id="bbcd6-320">迁移计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-320">Mitigation plan</span></span>  |
+>|---------|---------|---------|---------|---------|
+>|<span data-ttu-id="bbcd6-321">即将进行的合并将最多添加 1,000 人</span><span class="sxs-lookup"><span data-stu-id="bbcd6-321">Upcoming merger will add up to 1,000 people</span></span>|<span data-ttu-id="bbcd6-322">高</span><span class="sxs-lookup"><span data-stu-id="bbcd6-322">High</span></span>|<span data-ttu-id="bbcd6-323">高</span><span class="sxs-lookup"><span data-stu-id="bbcd6-323">High</span></span>|<span data-ttu-id="bbcd6-324">高</span><span class="sxs-lookup"><span data-stu-id="bbcd6-324">High</span></span>|<ul><li><span data-ttu-id="bbcd6-325">对于合并的公司，有自己的流程（展望、上线、推动价值）的单独 OKR</span><span class="sxs-lookup"><span data-stu-id="bbcd6-325">For merged companies, separate OKR with own process (Envision, Onboard, Drive Value)</span></span></li><li><span data-ttu-id="bbcd6-326">不在现有 OKR 中包含它们</span><span class="sxs-lookup"><span data-stu-id="bbcd6-326">Do not include them in existing OKRs</span></span></li></ul>|
+>|<span data-ttu-id="bbcd6-327">电话携号转网将延迟项目完成</span><span class="sxs-lookup"><span data-stu-id="bbcd6-327">Telephone number porting will delay project completion</span></span>|<span data-ttu-id="bbcd6-328">高</span><span class="sxs-lookup"><span data-stu-id="bbcd6-328">High</span></span>|<span data-ttu-id="bbcd6-329">高</span><span class="sxs-lookup"><span data-stu-id="bbcd6-329">High</span></span>|<span data-ttu-id="bbcd6-330">高</span><span class="sxs-lookup"><span data-stu-id="bbcd6-330">High</span></span>|<ul><li><span data-ttu-id="bbcd6-331">提前准备所有所需的信息以支持电话携号转网（即：客户服务记录、帐单详细信息、授权书）</span><span class="sxs-lookup"><span data-stu-id="bbcd6-331">Prepare all the required information to support telephone number porting ahead of time (i.e.: customer service record, billing details, Letter of Authorization)</span></span></li><li><span data-ttu-id="bbcd6-332">调整项目时间线以预留电话携号转网过程的周转时间</span><span class="sxs-lookup"><span data-stu-id="bbcd6-332">Adjust project timeline to accommodate turnaround time of telephone number porting execution</span></span></li><li><span data-ttu-id="bbcd6-333">向外部参与者说明使用新的电话拨入式会议号码</span><span class="sxs-lookup"><span data-stu-id="bbcd6-333">Communicate the use of new dial-in conferencing numbers to external participants</span></span></li></ul>|
+>|<span data-ttu-id="bbcd6-334">规划的网络重新设计</span><span class="sxs-lookup"><span data-stu-id="bbcd6-334">Planned network redesign</span></span>|<span data-ttu-id="bbcd6-335">高</span><span class="sxs-lookup"><span data-stu-id="bbcd6-335">High</span></span>|<span data-ttu-id="bbcd6-336">中</span><span class="sxs-lookup"><span data-stu-id="bbcd6-336">Medium</span></span>|<span data-ttu-id="bbcd6-337">中</span><span class="sxs-lookup"><span data-stu-id="bbcd6-337">Medium</span></span>|<ul><li><span data-ttu-id="bbcd6-338">在将 Teams 作为新式通信与协作平台实施之前，对项目范围内的站点进行网络就绪评估</span><span class="sxs-lookup"><span data-stu-id="bbcd6-338">Before implementing Teams as modern communications and collaboration platform, run network readiness assessment for sites in scope of the project</span></span></li></ul>|
 
-<span data-ttu-id="08d1e-315">_表 4 KIS 示例_</span><span class="sxs-lookup"><span data-stu-id="08d1e-315">_Table 4 Example of KSIs_</span></span>
-
-
-<span data-ttu-id="08d1e-316">你需要在此行动中确定业务风险，以及为每个确定的风险制定迁移计划。</span><span class="sxs-lookup"><span data-stu-id="08d1e-316">You need to identify business risks as part of this exercise and define a mitigation plan for each identified risk.</span></span> <span data-ttu-id="08d1e-317">此信息可以收集到风险计划中。</span><span class="sxs-lookup"><span data-stu-id="08d1e-317">This information can be captured into a risk plan.</span></span>
-
-<table>
-<thead>
-<tr class="header">
-<th align="left"><span data-ttu-id="08d1e-318">风险</span><span class="sxs-lookup"><span data-stu-id="08d1e-318">Risk</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-319">可能性</span><span class="sxs-lookup"><span data-stu-id="08d1e-319">Likelihood</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-320">影响</span><span class="sxs-lookup"><span data-stu-id="08d1e-320">Impact</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-321">综合</span><span class="sxs-lookup"><span data-stu-id="08d1e-321">Overall</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-322">迁移计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-322">Mitigation plan</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-323">即将进行的合并将最多添加 1,000 人</span><span class="sxs-lookup"><span data-stu-id="08d1e-323">Upcoming merger will add up to 1,000 people</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-324">高</span><span class="sxs-lookup"><span data-stu-id="08d1e-324">High</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-325">高</span><span class="sxs-lookup"><span data-stu-id="08d1e-325">High</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-326">高</span><span class="sxs-lookup"><span data-stu-id="08d1e-326">High</span></span></td>
-<td align="left"><p><span data-ttu-id="08d1e-327">对于合并的公司，有自己的流程（展望、上线、推动价值）的单独 OKR</span><span class="sxs-lookup"><span data-stu-id="08d1e-327">For merged companies, separate OKR with own process (Envision, Onboard, Drive Value)</span></span></p>
-<p><span data-ttu-id="08d1e-328">不在现有 OKR 中包含它们</span><span class="sxs-lookup"><span data-stu-id="08d1e-328">Do not include them in existing OKRs</span></span></p></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-329">电话携号转网将延迟项目完成</span><span class="sxs-lookup"><span data-stu-id="08d1e-329">Telephone number porting will delay project completion</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-330">高</span><span class="sxs-lookup"><span data-stu-id="08d1e-330">High</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-331">高</span><span class="sxs-lookup"><span data-stu-id="08d1e-331">High</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-332">高</span><span class="sxs-lookup"><span data-stu-id="08d1e-332">High</span></span></td>
-<td align="left"><p><span data-ttu-id="08d1e-333">提前准备所有所需的信息以支持电话携号转网（即：客户服务记录、帐单详细信息、授权书）</span><span class="sxs-lookup"><span data-stu-id="08d1e-333">Prepare all the required information to support telephone number porting ahead of time (i.e.: customer service record, billing details, Letter of Authorization)</span></span></p>
-<p><span data-ttu-id="08d1e-334">调整项目时间线以预留电话携号转网过程的周转时间</span><span class="sxs-lookup"><span data-stu-id="08d1e-334">Adjust project timeline to accommodate turnaround time of telephone number porting execution</span></span></p>
-<p><span data-ttu-id="08d1e-335">向外部参与者说明使用新的电话拨入式会议号码</span><span class="sxs-lookup"><span data-stu-id="08d1e-335">Communicate the use of new dial-in conferencing numbers to external participants</span></span></p></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-336">规划的网络重新设计</span><span class="sxs-lookup"><span data-stu-id="08d1e-336">Planned network redesign</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-337">高</span><span class="sxs-lookup"><span data-stu-id="08d1e-337">High</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-338">中</span><span class="sxs-lookup"><span data-stu-id="08d1e-338">Medium</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-339">中</span><span class="sxs-lookup"><span data-stu-id="08d1e-339">Medium</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-340">在将 Teams 作为新式通信与协作平台实施之前，对项目范围内的站点进行网络就绪评估</span><span class="sxs-lookup"><span data-stu-id="08d1e-340">Before implementing Teams as modern communications and collaboration platform, run network readiness assessment for sites in scope of the project</span></span></td>
-</tr>
-</tbody>
-</table>
-
-<span data-ttu-id="08d1e-341">_表 5 风险计划示例_</span><span class="sxs-lookup"><span data-stu-id="08d1e-341">_Table 5 Risk plan example_</span></span>
-
-
-<a name="assess-environment-and-evaluate-adoption-readiness"></a><span data-ttu-id="08d1e-342">评估环境和采用就绪情况</span><span class="sxs-lookup"><span data-stu-id="08d1e-342">Assess environment and evaluate adoption readiness</span></span>
+<a name="assess-environment-and-evaluate-adoption-readiness"></a><span data-ttu-id="bbcd6-339">评估环境和采用就绪情况</span><span class="sxs-lookup"><span data-stu-id="bbcd6-339">Assess environment and evaluate adoption readiness</span></span>
 --------------------------------------------------
 
-<span data-ttu-id="08d1e-343">为了实现预期 OKR，你可能必须定义解决方案的高级体系结构。</span><span class="sxs-lookup"><span data-stu-id="08d1e-343">To achieve the intended OKRs, you may have to define the high-level architecture of the solution.</span></span> <span data-ttu-id="08d1e-344">这将进行环境发现以评估与 IT 和电话服务基础结构、网络和操作有关的所有方面。</span><span class="sxs-lookup"><span data-stu-id="08d1e-344">It takes environmental discovery to evaluate all aspects relating to IT and telephony infrastructure, networking, and operations.</span></span>
+<span data-ttu-id="bbcd6-340">为了实现预期 OKR，你可能必须定义解决方案的高级体系结构。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-340">To achieve the intended OKRs, you may have to define the high-level architecture of the solution.</span></span> <span data-ttu-id="bbcd6-341">这将进行环境发现以评估与 IT 和电话服务基础结构、网络和操作有关的所有方面。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-341">It takes environmental discovery to evaluate all aspects relating to IT and telephony infrastructure, networking, and operations.</span></span>
 
-<span data-ttu-id="08d1e-345">在环境发现中，将包括与最终用户计算有关的所有内容（从硬件要求到软件要求），例如，对个人计算机和移动设备进行就绪评估以支持音频会议业务用例。</span><span class="sxs-lookup"><span data-stu-id="08d1e-345">All matters related to end-user computing, such as readiness assessment of the personal computers and mobile devices to support Audio Conferencing business use cases, from hardware requirements to software requirements, will be included as part of the environmental discovery.</span></span>
+<span data-ttu-id="bbcd6-342">在环境发现中，将包括与最终用户计算有关的所有内容（从硬件要求到软件要求），例如，对个人计算机和移动设备进行就绪评估以支持音频会议业务用例。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-342">All matters related to end-user computing, such as readiness assessment of the personal computers and mobile devices to support Audio Conferencing business use cases, from hardware requirements to software requirements, will be included as part of the environmental discovery.</span></span>
 
-<span data-ttu-id="08d1e-346">环境发现还可以揭示要[将电话号码转移到 Microsoft](https://support.office.com/article/Transfer-phone-numbers-to-Skype-for-Business-Online-47b3af8e-4171-4dec-8333-c956f108664e) 是否存在要求。</span><span class="sxs-lookup"><span data-stu-id="08d1e-346">Environmental discovery can also uncover if there are requirements to [transfer phone numbers to Microsoft](https://support.office.com/article/Transfer-phone-numbers-to-Skype-for-Business-Online-47b3af8e-4171-4dec-8333-c956f108664e).</span></span> <span data-ttu-id="08d1e-347">这将帮助贵组织相应地调整项目计划，并准备携号转网所需的必要信息。</span><span class="sxs-lookup"><span data-stu-id="08d1e-347">This will help your organization to adjust the project plan accordingly and prepare the necessary information required for number porting.</span></span> <span data-ttu-id="08d1e-348">你可以通过利用以下[调查表](https://go.microsoft.com/fwlink/?linkid=858995)来进行环境发现。</span><span class="sxs-lookup"><span data-stu-id="08d1e-348">You can perform environmental discovery by leveraging the following [questionnaire](https://go.microsoft.com/fwlink/?linkid=858995).</span></span>
+<span data-ttu-id="bbcd6-343">环境发现还可以揭示要[将电话号码转移到 Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) 是否存在要求。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-343">Environmental discovery can also uncover if there are requirements to [transfer phone numbers to Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).</span></span> <span data-ttu-id="bbcd6-344">这将帮助贵组织相应地调整项目计划，并准备携号转网所需的必要信息。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-344">This will help your organization to adjust the project plan accordingly and prepare the necessary information required for number porting.</span></span> <span data-ttu-id="bbcd6-345">你可以通过利用以下[调查表](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3)来进行环境发现。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-345">You can perform environmental discovery by leveraging the following [questionnaire](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3).</span></span>
 
-<span data-ttu-id="08d1e-349">环境发现必须包括网络就绪评估以确保网络可以支持实施音频会议服务。</span><span class="sxs-lookup"><span data-stu-id="08d1e-349">Environmental discovery must include network readiness assessment to ensure the network is ready to support the implementation of the Audio Conferencing service.</span></span>
+<span data-ttu-id="bbcd6-346">环境发现必须包括网络就绪评估以确保网络可以支持实施音频会议服务。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-346">Environmental discovery must include network readiness assessment to ensure the network is ready to support the implementation of the Audio Conferencing service.</span></span>
 
-<span data-ttu-id="08d1e-350">可以在 [MyAdvisor 网络规划器工具](https://go.microsoft.com/fwlink/?linkid=858999)中利用通过环境发现获取的信息（例如，Internet 连接和 WAN 拓扑的详细信息、站点链接、可用带宽以及人员分析数据（可以转换为每个工作负荷的预期使用情况））来确定支持音频会议服务的网络就绪情况。</span><span class="sxs-lookup"><span data-stu-id="08d1e-350">Network readiness to support the Audio Conferencing service can be determined by leveraging the information captured through the environmental discovery (such as details of internet connectivity and WAN topology, site links, available bandwidth, and persona analysis data (that can be translated into an expected usage of each workload) into the [My Advisor Network Planner tool](https://go.microsoft.com/fwlink/?linkid=858999).</span></span> <span data-ttu-id="08d1e-351">为了进一步确定网络就绪情况，可以使用 [Microsoft](https://go.microsoft.com/fwlink/?linkid=859002) 或[网络就绪评估工具合作伙伴](https://go.microsoft.com/fwlink/?linkid=859003)提供的解决方案执行实时媒体流量模拟。</span><span class="sxs-lookup"><span data-stu-id="08d1e-351">To further confirm network readiness, real-time media traffic simulation can be performed using the solutions provided by [Microsoft](https://go.microsoft.com/fwlink/?linkid=859002) or by [Network Readiness Assessment tools partners](https://go.microsoft.com/fwlink/?linkid=859003).</span></span>
+<span data-ttu-id="bbcd6-347">可以在 [MyAdvisor 网络规划](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)工具中利用通过环境发现获取的信息（例如，Internet 连接和 WAN 拓扑的详细信息、站点链接和可用带宽）以及人员分析数据（可以转换为每个工作负荷的预期使用情况）来确定支持音频会议的网络就绪情况。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-347">Network readiness to support the Audio Conferencing service can be determined by leveraging the information captured through the environmental discovery (such as details of internet connectivity and WAN topology, site links, available bandwidth, and persona analysis data (that can be translated into an expected usage of each workload) into the [My Advisor Network Planner tool](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).</span></span> <span data-ttu-id="bbcd6-348">为了进一步确定网络就绪情况，可以使用 [Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) 或[网络就绪评估工具合作伙伴](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Partners?ToolPartners)提供的解决方案执行实时媒体流量模拟。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-348">To further confirm network readiness, real-time media traffic simulation can be performed using the solutions provided by [Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) or by [Network Readiness Assessment tools partners](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Partners?ToolPartners).</span></span>
 
-<span data-ttu-id="08d1e-352">网络就绪评估的结果将更加清晰地提供有关成功实施音频会议所需的网络优化或补救的信息。</span><span class="sxs-lookup"><span data-stu-id="08d1e-352">The results of the Network Readiness Assessment will paint a clearer picture of the required network optimization or remediation required for the success of Audio Conferencing implementation.</span></span>
+<span data-ttu-id="bbcd6-349">网络就绪评估的结果将更加清晰地提供有关成功实施音频会议所需的网络优化或补救的信息。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-349">The results of the Network Readiness Assessment will paint a clearer picture of the required network optimization or remediation required for the success of Audio Conferencing implementation.</span></span>
 
-<span data-ttu-id="08d1e-353">可以执行人员分析来评估采用就绪情况，以找出组织中可以作为实施音频会议服务的目标的一组人员。</span><span class="sxs-lookup"><span data-stu-id="08d1e-353">Adoption readiness can be evaluated by executing persona analysis to come up with a list of personas in the organization who can be targeted for the implementation of Audio Conferencing service.</span></span> <span data-ttu-id="08d1e-354">人员分析包括确定实现预期业务结果所需的其他外设或设备。</span><span class="sxs-lookup"><span data-stu-id="08d1e-354">The persona analysis includes the identification of additional peripherals or devices required to realize the intended business outcomes.</span></span>
+<span data-ttu-id="bbcd6-350">可以执行人员分析来评估采用就绪情况，以找出组织中可以作为实施音频会议服务的目标的一组人员。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-350">Adoption readiness can be evaluated by executing persona analysis to come up with a list of personas in the organization who can be targeted for the implementation of Audio Conferencing service.</span></span> <span data-ttu-id="bbcd6-351">人员分析包括确定实现预期业务结果所需的其他外设或设备。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-351">The persona analysis includes the identification of additional peripherals or devices required to realize the intended business outcomes.</span></span>
 
-<span data-ttu-id="08d1e-355">要执行人员分析，你可以召集相关项目利益干系人、利用[人员联盟](https://go.microsoft.com/fwlink/?linkid=859005)研讨会框架和[人员特征矩阵](https://go.microsoft.com/fwlink/?linkid=859006)来召开研讨会。</span><span class="sxs-lookup"><span data-stu-id="08d1e-355">To perform persona analysis, you can conduct a workshop by involving relevant project stakeholders, leveraging the [Persona Alignment](https://go.microsoft.com/fwlink/?linkid=859005) workshop deck and [Persona Feature Matrix](https://go.microsoft.com/fwlink/?linkid=859006).</span></span> <span data-ttu-id="08d1e-356">可以使用[人员分析报告](https://go.microsoft.com/fwlink/?linkid=859007)模板将人员分析研讨会的结果汇总成报告。</span><span class="sxs-lookup"><span data-stu-id="08d1e-356">The result of persona analysis workshop can be summarized into a report using the [Persona Analysis Report](https://go.microsoft.com/fwlink/?linkid=859007) template.</span></span>
-
+<span data-ttu-id="bbcd6-352">要执行人员分析，你可以召集相关项目利益干系人、利用[人员联盟](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_7)研讨会框架和[人员特征矩阵](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_8)来召开研讨会。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-352">To perform persona analysis, you can conduct a workshop by involving relevant project stakeholders, leveraging the [Persona Alignment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_7) workshop deck and [Persona Feature Matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_8).</span></span> <span data-ttu-id="bbcd6-353">可以使用[人员分析报告](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_9)模板将人员分析研讨会的结果汇总成报告。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-353">The result of persona analysis workshop can be summarized into a report using the [Persona Analysis Report](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_9) template.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="08d1e-357">虽然发现调查表和人员分析示例最初是为 Skype for Business Online 编写的，但大部分内容与 Teams 相关。</span><span class="sxs-lookup"><span data-stu-id="08d1e-357">While the Discovery Questionnaire and Persona Analysis examples were initially written for Skype for Business Online, a majority of the content is relevant to Teams.</span></span> <span data-ttu-id="08d1e-358">请随意修改和删除与项目无关的项。</span><span class="sxs-lookup"><span data-stu-id="08d1e-358">Feel free to modify and remove items that are not relevant to the project goals.</span></span>
+> <span data-ttu-id="bbcd6-354">虽然发现调查表和人员分析示例最初是为 Skype for Business Online 编写的，但大部分内容与 Teams 相关。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-354">While the Discovery Questionnaire and Persona Analysis examples were initially written for Skype for Business Online, a majority of the content is relevant to Teams.</span></span> <span data-ttu-id="bbcd6-355">请随意修改和删除与你的项目目标无关的项。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-355">Feel free to modify and remove items that are not relevant to the project goals.</span></span>
 
+<span data-ttu-id="bbcd6-356">你可以在环境评估和采用就绪评估中确定技术风险，并为每个确定的风险制定迁移计划。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-356">You can identify technical risks as part of an environmental assessment and adoption readiness evaluation and develop a mitigation plan for each identified risk.</span></span> <span data-ttu-id="bbcd6-357">此信息应包含在风险计划内。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-357">This information should be incorporated as part of the risk plan.</span></span>
 
-<span data-ttu-id="08d1e-359">你可以在环境评估和采用就绪评估中确定技术风险，并为每个确定的风险制定迁移计划。</span><span class="sxs-lookup"><span data-stu-id="08d1e-359">You can identify technical risks as part of an environmental assessment and adoption readiness evaluation and develop a mitigation plan for each identified risk.</span></span> <span data-ttu-id="08d1e-360">此信息应包含在风险计划内。</span><span class="sxs-lookup"><span data-stu-id="08d1e-360">This information should be incorporated as part of the risk plan.</span></span>
-
-<a name="map-operational-roles"></a><span data-ttu-id="08d1e-361">映射运营角色</span><span class="sxs-lookup"><span data-stu-id="08d1e-361">Map operational roles</span></span>
+<a name="map-operational-roles"></a><span data-ttu-id="bbcd6-358">映射运营角色</span><span class="sxs-lookup"><span data-stu-id="bbcd6-358">Map operational roles</span></span>
 ---------------------
 
-<span data-ttu-id="08d1e-362">规划运营和确定将运营音频会议服务的团队是重要的一步，因为必须在已有首批试点用户的情况下开始运营。</span><span class="sxs-lookup"><span data-stu-id="08d1e-362">Planning for operations and identifying the teams that will operate the Audio Conferencing service is an important step, as operations must start when the first pilot users are enabled.</span></span> <span data-ttu-id="08d1e-363">每个确定的团队必须审阅并同意确定的任务和责任，然后开始为运营音频会议服务做准备。</span><span class="sxs-lookup"><span data-stu-id="08d1e-363">Each identified team must review and agree on the tasks and responsibilities identified and start the preparation to operate the Audio Conferencing service.</span></span> <span data-ttu-id="08d1e-364">准备工作可能包括培训和就绪、其他人员配备或确保安排外部提供商交付服务。</span><span class="sxs-lookup"><span data-stu-id="08d1e-364">The preparation might include training and readiness, additional staffing, or ensuring external providers are set up to deliver the service.</span></span>
+<span data-ttu-id="bbcd6-359">规划运营和确定将运营音频会议服务的团队是重要的一步，因为必须在已有首批试点用户的情况下开始运营。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-359">Planning for operations and identifying the teams that will operate the Audio Conferencing service is an important step, as operations must start when the first pilot users are enabled.</span></span> <span data-ttu-id="bbcd6-360">每个确定的团队必须审阅并同意确定的任务和责任，然后开始为运营音频会议服务做准备。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-360">Each identified team must review and agree on the tasks and responsibilities identified and start the preparation to operate the Audio Conferencing service.</span></span> <span data-ttu-id="bbcd6-361">准备工作可能包括培训和就绪、其他人员配备或确保安排外部提供商交付服务。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-361">The preparation might include training and readiness, additional staffing, or ensuring external providers are set up to deliver the service.</span></span>
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"><span data-ttu-id="08d1e-365">运营角色</span><span class="sxs-lookup"><span data-stu-id="08d1e-365">Operational Role</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-366">说明</span><span class="sxs-lookup"><span data-stu-id="08d1e-366">Description</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-367">团队</span><span class="sxs-lookup"><span data-stu-id="08d1e-367">Team</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-368">联系详细信息</span><span class="sxs-lookup"><span data-stu-id="08d1e-368">Contact Details</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-369">服务所有者</span><span class="sxs-lookup"><span data-stu-id="08d1e-369">Service Owner</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-370">服务所有者、与业务部门的接口、策略</span><span class="sxs-lookup"><span data-stu-id="08d1e-370">Service owner, interface to business divisions, strategy</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-371">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-371">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-372">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-372">TBA</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-373">音频会议运营</span><span class="sxs-lookup"><span data-stu-id="08d1e-373">Audio Conferencing Operations</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-374">日常运营、用户和设备帐户移动/添加/更改、监控</span><span class="sxs-lookup"><span data-stu-id="08d1e-374">Daily operations, user and device account move/add/change, monitoring</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-375">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-375">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-376">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-376">TBA</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-377">租户管理员</span><span class="sxs-lookup"><span data-stu-id="08d1e-377">Tenant Admin</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-378">更改租户范围的设置、启用新功能</span><span class="sxs-lookup"><span data-stu-id="08d1e-378">Change tenant-wide settings, enable new features</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-379">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-379">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-380">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-380">TBA</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-381">支持</span><span class="sxs-lookup"><span data-stu-id="08d1e-381">Help Desk</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-382">供最终用户获取支持的接口</span><span class="sxs-lookup"><span data-stu-id="08d1e-382">Interface for end-users to get support</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-383">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-383">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-384">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-384">TBA</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-385">网络运营</span><span class="sxs-lookup"><span data-stu-id="08d1e-385">Network Operations</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-386">支持 LAN、WAN、Wi-Fi 和 Internet 访问</span><span class="sxs-lookup"><span data-stu-id="08d1e-386">Runs LAN, WAN, Wi-Fi, and Internet Access</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-387">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-387">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-388">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-388">TBA</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-389">客户端&amp;和终结点团队</span><span class="sxs-lookup"><span data-stu-id="08d1e-389">Client &amp; Endpoints Team</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-390">管理桌面部署</span><span class="sxs-lookup"><span data-stu-id="08d1e-390">Manage desktop deployments</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-391">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-391">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-392">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-392">TBA</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-393">标识运营</span><span class="sxs-lookup"><span data-stu-id="08d1e-393">Identity Operations</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-394">管理标识基础结构（AD、ADFS、Azure AD）</span><span class="sxs-lookup"><span data-stu-id="08d1e-394">Manage identity infrastructure (AD, ADFS, Azure AD)</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-395">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-395">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-396">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-396">TBA</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-397">采用/变更管理</span><span class="sxs-lookup"><span data-stu-id="08d1e-397">Adoption/change management</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-398">管理解决方案的认知、培训和采用</span><span class="sxs-lookup"><span data-stu-id="08d1e-398">Manage awareness, training and adoption for the solution</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-399">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-399">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-400">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-400">TBA</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-401">Exchange 运营</span><span class="sxs-lookup"><span data-stu-id="08d1e-401">Exchange Operations</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-402">管理 Exchange 环境</span><span class="sxs-lookup"><span data-stu-id="08d1e-402">Manages the Exchange environment</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-403">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-403">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-404">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-404">TBA</span></span></td>
-</tr>
-</tbody>
-</table>
+> [!TIP]
+> <span data-ttu-id="bbcd6-362">下面是用于记录你为了支持此项目而执行的运营角色映射行动的结果的模板示例：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-362">The following is an example of a template to document the result of operational roles mapping exercise that you performed to support this project:</span></span>
+>|<span data-ttu-id="bbcd6-363">运营角色</span><span class="sxs-lookup"><span data-stu-id="bbcd6-363">Operational Role</span></span>  |<span data-ttu-id="bbcd6-364">说明</span><span class="sxs-lookup"><span data-stu-id="bbcd6-364">Description</span></span>  |<span data-ttu-id="bbcd6-365">团队</span><span class="sxs-lookup"><span data-stu-id="bbcd6-365">Team</span></span>  |<span data-ttu-id="bbcd6-366">联系详细信息</span><span class="sxs-lookup"><span data-stu-id="bbcd6-366">Contact Details</span></span>  |
+>|---------|---------|---------|---------|
+>|<span data-ttu-id="bbcd6-367">服务所有者</span><span class="sxs-lookup"><span data-stu-id="bbcd6-367">Service Owner</span></span>|<span data-ttu-id="bbcd6-368">服务所有者、与业务部门的接口、策略</span><span class="sxs-lookup"><span data-stu-id="bbcd6-368">Service owner, interface to business divisions, strategy</span></span>|<span data-ttu-id="bbcd6-369">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-369">TBA</span></span>|<span data-ttu-id="bbcd6-370">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-370">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-371">音频会议运营</span><span class="sxs-lookup"><span data-stu-id="bbcd6-371">Audio Conferencing Operations</span></span>|<span data-ttu-id="bbcd6-372">日常运营、用户和设备帐户移动/添加/更改、监控</span><span class="sxs-lookup"><span data-stu-id="bbcd6-372">Daily operations, user and device account move/add/change, monitoring</span></span>|<span data-ttu-id="bbcd6-373">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-373">TBA</span></span>|<span data-ttu-id="bbcd6-374">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-374">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-375">租户管理员</span><span class="sxs-lookup"><span data-stu-id="bbcd6-375">Tenant Admin</span></span>|<span data-ttu-id="bbcd6-376">更改租户范围的设置、启用新功能</span><span class="sxs-lookup"><span data-stu-id="bbcd6-376">Change tenant-wide settings, enable new features</span></span>|<span data-ttu-id="bbcd6-377">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-377">TBA</span></span>|<span data-ttu-id="bbcd6-378">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-378">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-379">支持</span><span class="sxs-lookup"><span data-stu-id="bbcd6-379">Help Desk</span></span>|<span data-ttu-id="bbcd6-380">供最终用户获取支持的接口</span><span class="sxs-lookup"><span data-stu-id="bbcd6-380">Interface for end-users to get support</span></span>|<span data-ttu-id="bbcd6-381">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-381">TBA</span></span>|<span data-ttu-id="bbcd6-382">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-382">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-383">网络运营</span><span class="sxs-lookup"><span data-stu-id="bbcd6-383">Network Operations</span></span>|<span data-ttu-id="bbcd6-384">支持 LAN、WAN、Wi-Fi 和 Internet 访问</span><span class="sxs-lookup"><span data-stu-id="bbcd6-384">Runs LAN, WAN, Wi-Fi, and Internet Access</span></span>|<span data-ttu-id="bbcd6-385">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-385">TBA</span></span>|<span data-ttu-id="bbcd6-386">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-386">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-387">客户端和终结点团队</span><span class="sxs-lookup"><span data-stu-id="bbcd6-387">Client  Endpoints Team</span></span>|<span data-ttu-id="bbcd6-388">管理桌面部署</span><span class="sxs-lookup"><span data-stu-id="bbcd6-388">Manage desktop deployments</span></span>|<span data-ttu-id="bbcd6-389">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-389">TBA</span></span>|<span data-ttu-id="bbcd6-390">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-390">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-391">标识运营</span><span class="sxs-lookup"><span data-stu-id="bbcd6-391">Identity Operations</span></span>|<span data-ttu-id="bbcd6-392">管理标识基础结构（AD、ADFS、Azure AD）</span><span class="sxs-lookup"><span data-stu-id="bbcd6-392">Manage identity infrastructure (AD, ADFS, Azure AD)</span></span>|<span data-ttu-id="bbcd6-393">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-393">TBA</span></span>|<span data-ttu-id="bbcd6-394">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-394">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-395">采用/变更管理</span><span class="sxs-lookup"><span data-stu-id="bbcd6-395">Adoption/change management</span></span>|<span data-ttu-id="bbcd6-396">管理解决方案的认知、培训和采用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-396">Manage awareness, training and adoption for the solution</span></span>|<span data-ttu-id="bbcd6-397">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-397">TBA</span></span>|<span data-ttu-id="bbcd6-398">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-398">TBA</span></span>|
+>|<span data-ttu-id="bbcd6-399">Exchange 运营</span><span class="sxs-lookup"><span data-stu-id="bbcd6-399">Exchange Operations</span></span>|<span data-ttu-id="bbcd6-400">管理 Exchange 环境</span><span class="sxs-lookup"><span data-stu-id="bbcd6-400">Manages the Exchange environment</span></span>|<span data-ttu-id="bbcd6-401">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-401">TBA</span></span>|<span data-ttu-id="bbcd6-402">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-402">TBA</span></span>|
 
-<span data-ttu-id="08d1e-405">_表 6 运营角色映射示例_</span><span class="sxs-lookup"><span data-stu-id="08d1e-405">_Table 6 Example of operational roles mapping_</span></span>
+<span data-ttu-id="bbcd6-403">为了便于完成更加详细的运营角色映射（包括与每个运营角色关联的任务），你可以使用[运营角色映射工作簿](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16)获取将明确角色和责任的详细信息以支持音频会议服务。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-403">To facilitate a more detailed operational roles mapping, including the tasks associated with each operational role, you can use the [Operational Role Mapping Workbook](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16) to capture the details that will provide the clarity around roles and responsibilities to support Audio Conferencing service.</span></span>
 
-
-<span data-ttu-id="08d1e-406">为了便于完成更加详细的运营角色映射（包括与每个运营角色关联的任务），你可以使用[运营角色映射工作簿](https://www.skypeoperationsframework.com/Downloads?SelectedIDs=4_4_0_16)获取将明确角色和责任的详细信息以支持音频会议服务。</span><span class="sxs-lookup"><span data-stu-id="08d1e-406">To facilitate a more detailed operational roles mapping, including the tasks associated with each operational role, you can use the [Operational Role Mapping Workbook](https://www.skypeoperationsframework.com/Downloads?SelectedIDs=4_4_0_16) to capture the details that will provide the clarity around roles and responsibilities to support Audio Conferencing service.</span></span>
-
-<a name="document-success-plan"></a><span data-ttu-id="08d1e-407">记录成功计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-407">Document success plan</span></span>
+<a name="document-success-plan"></a><span data-ttu-id="bbcd6-404">记录成功计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-404">Document success plan</span></span>
 ---------------------
 
-<span data-ttu-id="08d1e-408">成功计划是在展望阶段创建的文档，包括业务案例、服务就绪、采用计划和运营计划。</span><span class="sxs-lookup"><span data-stu-id="08d1e-408">A success plan is the documentation created in the Envision phase that consists of business case, service readiness, adoption plan, and operational plan.</span></span>
+<span data-ttu-id="bbcd6-405">成功计划是在展望阶段创建的文档，包括业务案例、服务就绪、采用计划和运营计划。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-405">A success plan is the documentation created in the Envision phase that consists of business case, service readiness, adoption plan, and operational plan.</span></span>
 
-<span data-ttu-id="08d1e-409">成功计划将提供项目团队（可以包括 FastTrack 或部署合作伙伴），具有用于实现组织的音频会议服务目标的充分信息。</span><span class="sxs-lookup"><span data-stu-id="08d1e-409">The success plan will provide the project team, which can include FastTrack or deployment partner, with sufficient information to realize the organization’s goals with Audio Conferencing service.</span></span>
+<span data-ttu-id="bbcd6-406">成功计划将提供项目团队（可以包括 FastTrack 或部署合作伙伴），具有用于实现组织的音频会议服务目标的充分信息。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-406">The success plan will provide the project team, which can include FastTrack or deployment partner, with sufficient information to realize the organization’s goals with Audio Conferencing service.</span></span>
 
-<span data-ttu-id="08d1e-410">通常，成功计划包含以下主要部分：</span><span class="sxs-lookup"><span data-stu-id="08d1e-410">In general, a success plan will contain the following main sections:</span></span>
+<span data-ttu-id="bbcd6-407">通常，成功计划包含以下主要部分：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-407">In general, a success plan will contain the following main sections:</span></span>
 
--   <span data-ttu-id="08d1e-411">业务案例</span><span class="sxs-lookup"><span data-stu-id="08d1e-411">Business case</span></span>
+-   <span data-ttu-id="bbcd6-408">业务案例</span><span class="sxs-lookup"><span data-stu-id="bbcd6-408">Business case</span></span>
+-   <span data-ttu-id="bbcd6-409">服务就绪</span><span class="sxs-lookup"><span data-stu-id="bbcd6-409">Service readiness</span></span>
+-   <span data-ttu-id="bbcd6-410">采用计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-410">Adoption plan</span></span>
+-   <span data-ttu-id="bbcd6-411">运营计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-411">Operational plan</span></span>
 
--   <span data-ttu-id="08d1e-412">服务就绪</span><span class="sxs-lookup"><span data-stu-id="08d1e-412">Service readiness</span></span>
+### <a name="business-case"></a><span data-ttu-id="bbcd6-412">业务案例</span><span class="sxs-lookup"><span data-stu-id="bbcd6-412">Business case</span></span>
 
--   <span data-ttu-id="08d1e-413">采用计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-413">Adoption plan</span></span>
+<span data-ttu-id="bbcd6-413">业务用例、利益干系人、OKR 和 KSI、风险以及项目时间线通常组成业务案例所需的信息主体。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-413">Business use cases, stakeholders, OKRs and KSIs, risks, and project timelines typically make up the bulk of information required for a business case.</span></span> <span data-ttu-id="bbcd6-414">你需要在成功计划中记录它们。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-414">You need to document them as part of the success plan.</span></span>
 
--   <span data-ttu-id="08d1e-414">运营计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-414">Operational plan</span></span>
+### <a name="service-readiness"></a><span data-ttu-id="bbcd6-415">服务就绪</span><span class="sxs-lookup"><span data-stu-id="bbcd6-415">Service readiness</span></span>
 
-### <a name="business-case"></a><span data-ttu-id="08d1e-415">业务案例</span><span class="sxs-lookup"><span data-stu-id="08d1e-415">Business case</span></span>
+<span data-ttu-id="bbcd6-416">环境评估提供确定组织实施音频会议的技术就绪情况所需的初步信息。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-416">Environmental assessment provides the initial information required to determine technical readiness for the organization to implement Audio Conferencing.</span></span>
 
-<span data-ttu-id="08d1e-416">业务用例、利益干系人、OKR 和 KSI、风险以及项目时间线通常组成业务案例所需的信息主体。</span><span class="sxs-lookup"><span data-stu-id="08d1e-416">Business use cases, stakeholders, OKRs and KSIs, risks, and project timelines typically make up the bulk of information required for a business case.</span></span> <span data-ttu-id="08d1e-417">你需要在成功计划中记录它们。</span><span class="sxs-lookup"><span data-stu-id="08d1e-417">You need to document them as part of the success plan.</span></span>
+<span data-ttu-id="bbcd6-417">此处包括用于解决通过环境评估发现且需要补救的方面的计划。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-417">Included here is the plan to address areas needing remediation discovered through environmental assessment.</span></span> <span data-ttu-id="bbcd6-418">你需要在成功计划中包括服务就绪评估和补救计划。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-418">You need to include the service readiness assessment and remediation plan as part of the success plan.</span></span>
 
-### <a name="service-readiness"></a><span data-ttu-id="08d1e-418">服务就绪</span><span class="sxs-lookup"><span data-stu-id="08d1e-418">Service readiness</span></span>
+### <a name="adoption-plan"></a><span data-ttu-id="bbcd6-419">采用计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-419">Adoption plan</span></span>
 
-<span data-ttu-id="08d1e-419">环境评估提供确定组织实施音频会议的技术就绪情况所需的初步信息。</span><span class="sxs-lookup"><span data-stu-id="08d1e-419">Environmental assessment provides the initial information required to determine technical readiness for the organization to implement Audio Conferencing.</span></span>
+<span data-ttu-id="bbcd6-420">在采用就绪评估后，必须完成更加详细的计划，以便项目团队制定一套全面的通信计划、培训计划以及启动前、启动时和启动后采用活动。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-420">Following an adoption readiness assessment, further detailed planning must be completed for the project team to come up with a comprehensive set of communication plans, training plan, and pre-launch, at-launch, and post-launch adoption activities.</span></span>
 
-<span data-ttu-id="08d1e-420">此处包括用于解决通过环境评估发现且需要补救的方面的计划。</span><span class="sxs-lookup"><span data-stu-id="08d1e-420">Included here is the plan to address areas needing remediation discovered through environmental assessment.</span></span> <span data-ttu-id="08d1e-421">你需要在成功计划中包括服务就绪评估和补救计划。</span><span class="sxs-lookup"><span data-stu-id="08d1e-421">You need to include the service readiness assessment and remediation plan as part of the success plan.</span></span>
+<span data-ttu-id="bbcd6-421">在此步骤将确定用于支持采用活动的资源（例如，传单、欢迎电子邮件和培训材料）以及满足组织需求所需的任何自定义项。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-421">Resources to support adoption activities such as flyers, welcome emails, and training materials are identified at this step, along with any customizations needed to meet organizational requirements.</span></span>
 
-### <a name="adoption-plan"></a><span data-ttu-id="08d1e-422">采用计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-422">Adoption plan</span></span>
+<span data-ttu-id="bbcd6-422">[此处](https://www.microsoft.com/download/details.aspx?id=54244)提供了适用于采用活动的模板。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-422">The templates for adoption activities are available [here](https://www.microsoft.com/download/details.aspx?id=54244).</span></span>
 
-<span data-ttu-id="08d1e-423">在采用就绪评估后，必须完成更加详细的计划，以便项目团队制定一套全面的通信计划、培训计划以及启动前、启动时和启动后采用活动。</span><span class="sxs-lookup"><span data-stu-id="08d1e-423">Following an adoption readiness assessment, further detailed planning must be completed for the project team to come up with a comprehensive set of communication plans, training plan, and pre-launch, at-launch, and post-launch adoption activities.</span></span>
+### <a name="operational-plan"></a><span data-ttu-id="bbcd6-423">运营计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-423">Operational plan</span></span>
 
-<span data-ttu-id="08d1e-424">在此步骤将确定用于支持采用活动的资源（例如，传单、欢迎电子邮件和培训材料）以及满足组织需求所需的任何自定义项。</span><span class="sxs-lookup"><span data-stu-id="08d1e-424">Resources to support adoption activities such as flyers, welcome emails, and training materials are identified at this step, along with any customizations needed to meet organizational requirements.</span></span>
+<span data-ttu-id="bbcd6-424">运营角色映射行动将设立角色和责任以及为每个运营角色分配的团队以支持实施音频会议。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-424">Operational roles mapping exercise will establish the roles and responsibilities, and the teams assigned to each operational role to support the implementation of Audio Conferencing.</span></span>
 
-<span data-ttu-id="08d1e-425">[此处](https://www.microsoft.com/download/details.aspx?id=54244)提供了适用于采用活动的模板。</span><span class="sxs-lookup"><span data-stu-id="08d1e-425">The templates for adoption activities are available [here](https://www.microsoft.com/download/details.aspx?id=54244).</span></span>
+<span data-ttu-id="bbcd6-425">你需要完成此项，并在成功计划中包括运营计划以确保完成解决方案的运营就绪。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-425">You need to complete this and include the operational plan as part of the success plan to ensure operational readiness of the solution.</span></span>
 
-### <a name="operational-plan"></a><span data-ttu-id="08d1e-426">运营计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-426">Operational plan</span></span>
+<br>
+<span data-ttu-id="bbcd6-426">音频会议技术规划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-426">Planning for Audio Conferencing in Teams  </span></span>
+-----------------------------------------
 
-<span data-ttu-id="08d1e-427">运营角色映射行动将设立角色和责任以及为每个运营角色分配的团队以支持实施音频会议。</span><span class="sxs-lookup"><span data-stu-id="08d1e-427">Operational roles mapping exercise will establish the roles and responsibilities, and the teams assigned to each operational role to support the implementation of Audio Conferencing.</span></span>
+<span data-ttu-id="bbcd6-427">为了规划音频会议的技术实施，必须提前制定一系列决策，让贵组织做好更充分的准备以便实施满足业务需求的解决方案。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-427">To plan for the implementation of Audio Conferencing in Teams, a series of decisions must be made ahead of time to better prepare your organization to implement a solution that meets business requirements.</span></span> <span data-ttu-id="bbcd6-428">这些决策将记录到技术实施计划中。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-428">These decisions will be documented into a technical implementation plan.</span></span>
 
-<span data-ttu-id="08d1e-428">你需要完成此项，并在成功计划中包括运营计划以确保完成解决方案的运营就绪。</span><span class="sxs-lookup"><span data-stu-id="08d1e-428">You need to complete this and include the operational plan as part of the success plan to ensure operational readiness of the solution.</span></span>
+## <a name="availability-of-audio-conferencing"></a><span data-ttu-id="bbcd6-429">音频会议可用情况</span><span class="sxs-lookup"><span data-stu-id="bbcd6-429">Availability of Audio Conferencing</span></span>
 
-<span data-ttu-id="08d1e-429">在 Teams 中规划音频会议  <a name="Planning_AudioConferencing"> </a></span><span class="sxs-lookup"><span data-stu-id="08d1e-429">Planning for Audio Conferencing in Teams  <a name="Planning_AudioConferencing"> </a></span></span>
-========================================
-
-<span data-ttu-id="08d1e-430">为了在 Teams 中规划实施音频会议，必须提前制定一系列决策，让贵组织做好更充分的准备以便实施满足业务需求的解决方案。</span><span class="sxs-lookup"><span data-stu-id="08d1e-430">To plan for the implementation of Audio Conferencing in Teams, a series of decisions must be made ahead of time to better prepare your organization to implement a solution that meets business requirements.</span></span> <span data-ttu-id="08d1e-431">这些决策将记录到技术实施计划中。</span><span class="sxs-lookup"><span data-stu-id="08d1e-431">These decisions will be documented into a technical implementation plan.</span></span>
-
-|  |  |
-|---------|---------|
-|  <iframe width="350" height="200" src="https://www.youtube.com/embed/AWbuvcWcYIc" frameborder="0" allowfullscreen></iframe>    | |
-
-
-## <a name="availability-of-audio-conferencing"></a><span data-ttu-id="08d1e-432">音频会议可用情况</span><span class="sxs-lookup"><span data-stu-id="08d1e-432">Availability of Audio Conferencing</span></span>
-
-<span data-ttu-id="08d1e-433">在这些[国家和地区](https://support.office.com/article/Countries-and-regions-that-are-supported-for-Skype-for-Business-Online-PSTN-Services-6ba72f37-d303-4795-aa8f-7e1845078ed7?ui=en-US&rs=en-US&ad=US)提供音频会议。</span><span class="sxs-lookup"><span data-stu-id="08d1e-433">Audio Conferencing is available in these [countries and regions](https://support.office.com/article/Countries-and-regions-that-are-supported-for-Skype-for-Business-Online-PSTN-Services-6ba72f37-d303-4795-aa8f-7e1845078ed7?ui=en-US&rs=en-US&ad=US).</span></span>
-
+<span data-ttu-id="bbcd6-430">在这些[国家和地区](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)提供音频会议。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-430">Audio Conferencing is available in these [countries and regions](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="08d1e-434">由于受到法律约束的原因，为了向跨国组织提供音频会议，必须从音频会议服务覆盖的国家和地区提供 Office 365 订阅的合同。</span><span class="sxs-lookup"><span data-stu-id="08d1e-434">Due to legal constraints, for Audio Conferencing to be available to multinational organizations, the contract for Office 365 subscriptions must be sourced from countries and regions covered by Audio Conferencing service.</span></span>
+> <span data-ttu-id="bbcd6-431">由于受到法律约束的原因，为了向跨国组织提供音频会议，必须从音频会议服务覆盖的国家和地区或销售音频会议服务的地方提供 Office 365 订阅的合同。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-431">Due to legal constraints, for Audio Conferencing to be available to multinational organizations, the contract for Office 365 subscriptions must be sourced from countries and regions covered by Audio Conferencing service.</span></span>
 
-<span data-ttu-id="08d1e-435">确定贵组织符合获取音频会议服务的条件后，将根据可用国家和地区列表编写将实施音频会议服务的用户位置或办公地点列表。</span><span class="sxs-lookup"><span data-stu-id="08d1e-435">After confirming your organization’s eligibility for obtaining the Audio Conferencing service, compile the list of user locations or offices where Audio Conferencing service will be implemented based on the list of available countries and regions.</span></span>
+<span data-ttu-id="bbcd6-432">确定贵组织符合获取音频会议服务的条件后，将根据可用国家和地区列表编写将实施音频会议服务的用户位置或办公地点列表。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-432">After confirming your organization’s eligibility for obtaining the Audio Conferencing service, compile the list of user locations or offices where Audio Conferencing service will be implemented based on the list of available countries and regions.</span></span>
 
-<table>
-<thead>
-<tr class="header">
-<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
-<td align="left"><span data-ttu-id="08d1e-436">决策点</span><span class="sxs-lookup"><span data-stu-id="08d1e-436">Decision Points</span></span></td>
-<td align="left"><p><span data-ttu-id="08d1e-437">确定哪些用户位置或办公地点将实施音频会议服务。</span><span class="sxs-lookup"><span data-stu-id="08d1e-437">Decide which user locations or offices will implement the Audio Conferencing service.</span></span></p></td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left"><span data-ttu-id="08d1e-438">后续步骤</span><span class="sxs-lookup"><span data-stu-id="08d1e-438">Next Steps</span></span></td>
-<td align="left"><p><span data-ttu-id="08d1e-439">记录要支持音频会议服务的用户位置或办公地点。</span><span class="sxs-lookup"><span data-stu-id="08d1e-439">Document the user locations or offices to be enabled for the Audio Conferencing service.</span></span></p></td>
-</tr>
-</tbody>
-</table>
+<br>
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|<span data-ttu-id="bbcd6-433">决策点</span><span class="sxs-lookup"><span data-stu-id="bbcd6-433">Decision Points</span></span>|<ul><li><span data-ttu-id="bbcd6-434">确定哪些用户位置或办公地点将实施音频会议服务</span><span class="sxs-lookup"><span data-stu-id="bbcd6-434">Decide which user locations or offices will implement the Audio Conferencing service.</span></span></li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|<span data-ttu-id="bbcd6-435">后续步骤</span><span class="sxs-lookup"><span data-stu-id="bbcd6-435">Next Steps</span></span>|<ul><li><span data-ttu-id="bbcd6-436">记录要支持音频会议服务的用户位置或办公地点</span><span class="sxs-lookup"><span data-stu-id="bbcd6-436">Document the user locations or offices to be enabled for the Audio Conferencing service.</span></span></li></ul>|
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"><span data-ttu-id="08d1e-440">办公地点</span><span class="sxs-lookup"><span data-stu-id="08d1e-440">Office</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-441">位置</span><span class="sxs-lookup"><span data-stu-id="08d1e-441">Location</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-442">PSTN 会议服务</span><span class="sxs-lookup"><span data-stu-id="08d1e-442">PSTN Conference Service</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-443">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-443">One Epping Road</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-444">澳大利亚</span><span class="sxs-lookup"><span data-stu-id="08d1e-444">Australia</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-445">音频会议</span><span class="sxs-lookup"><span data-stu-id="08d1e-445">Audio Conferencing</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-446">数码港道 100 号</span><span class="sxs-lookup"><span data-stu-id="08d1e-446">100 Cyberport Road</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-447">香港 SAR</span><span class="sxs-lookup"><span data-stu-id="08d1e-447">Hong Kong SAR</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-448">旧的 PSTN 会议</span><span class="sxs-lookup"><span data-stu-id="08d1e-448">Legacy PSTN Conferencing</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-449">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-449">One Marina Boulevard</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-450">新加坡</span><span class="sxs-lookup"><span data-stu-id="08d1e-450">Singapore</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-451">音频会议</span><span class="sxs-lookup"><span data-stu-id="08d1e-451">Audio Conferencing</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-452">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="08d1e-452">32 London Bridge Street</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-453">英国</span><span class="sxs-lookup"><span data-stu-id="08d1e-453">United Kingdom</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-454">音频会议</span><span class="sxs-lookup"><span data-stu-id="08d1e-454">Audio Conferencing</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-455">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="08d1e-455">39 quai du Président Roosevelt</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-456">法国</span><span class="sxs-lookup"><span data-stu-id="08d1e-456">France</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-457">音频会议</span><span class="sxs-lookup"><span data-stu-id="08d1e-457">Audio Conferencing</span></span></td>
-</tr>
-</tbody>
-</table>
+> [!TIP]
+> <span data-ttu-id="bbcd6-437">下面是具有通话套餐的电话系统地点支持列表模板示例：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-437">Below is an example of a Phone System with Calling Plans site enablement list template:</span></span>
+>|<span data-ttu-id="bbcd6-438">办公地点</span><span class="sxs-lookup"><span data-stu-id="bbcd6-438">Office</span></span>   |<span data-ttu-id="bbcd6-439">位置</span><span class="sxs-lookup"><span data-stu-id="bbcd6-439">Location</span></span> |<span data-ttu-id="bbcd6-440">PSTN 会议服务</span><span class="sxs-lookup"><span data-stu-id="bbcd6-440">PSTN Conference Service</span></span>  |
+>|---------|---------|---------|
+>|<span data-ttu-id="bbcd6-441">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-441">One Epping Road</span></span>|<span data-ttu-id="bbcd6-442">澳大利亚</span><span class="sxs-lookup"><span data-stu-id="bbcd6-442">Australia</span></span>|<span data-ttu-id="bbcd6-443">音频会议</span><span class="sxs-lookup"><span data-stu-id="bbcd6-443">Audio Conferencing</span></span>|
+>|<span data-ttu-id="bbcd6-444">数码港道 100 号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-444">100 Cyberport Road</span></span>|<span data-ttu-id="bbcd6-445">香港 SAR</span><span class="sxs-lookup"><span data-stu-id="bbcd6-445">Hong Kong SAR</span></span>|<span data-ttu-id="bbcd6-446">旧的 PSTN 会议</span><span class="sxs-lookup"><span data-stu-id="bbcd6-446">Legacy PSTN Conferencing</span></span>|
+>|<span data-ttu-id="bbcd6-447">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-447">One Marina Boulevard</span></span>|<span data-ttu-id="bbcd6-448">新加坡</span><span class="sxs-lookup"><span data-stu-id="bbcd6-448">Singapore</span></span>|<span data-ttu-id="bbcd6-449">音频会议</span><span class="sxs-lookup"><span data-stu-id="bbcd6-449">Audio Conferencing</span></span>|
+>|<span data-ttu-id="bbcd6-450">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-450">32 London Bridge Street</span></span>|<span data-ttu-id="bbcd6-451">英国</span><span class="sxs-lookup"><span data-stu-id="bbcd6-451">United Kingdom</span></span>|<span data-ttu-id="bbcd6-452">音频会议</span><span class="sxs-lookup"><span data-stu-id="bbcd6-452">Audio Conferencing</span></span>|
+>|<span data-ttu-id="bbcd6-453">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="bbcd6-453">39 quai du Président Roosevelt</span></span>|<span data-ttu-id="bbcd6-454">法国</span><span class="sxs-lookup"><span data-stu-id="bbcd6-454">France</span></span>|<span data-ttu-id="bbcd6-455">音频会议</span><span class="sxs-lookup"><span data-stu-id="bbcd6-455">Audio Conferencing</span></span>|
 
-<span data-ttu-id="08d1e-458">_表 7 音频会议服务地点支持列表示例_</span><span class="sxs-lookup"><span data-stu-id="08d1e-458">_Table 7 Example of Audio Conferencing service site enablement list_</span></span>
+## <a name="licensing-for-audio-conferencing"></a><span data-ttu-id="bbcd6-456">许可音频会议</span><span class="sxs-lookup"><span data-stu-id="bbcd6-456">Licensing for Audio Conferencing</span></span>
 
-
-## <a name="licensing-for-audio-conferencing"></a><span data-ttu-id="08d1e-459">许可音频会议</span><span class="sxs-lookup"><span data-stu-id="08d1e-459">Licensing for Audio Conferencing</span></span>
-
-<span data-ttu-id="08d1e-460">[音频会议许可证](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7?ui=en-US&rs=en-US&ad=US)（以前称为 Skype for Business PSTN 会议许可证）作为 Office 365 E5 订阅计划的一部分提供，或者作为 Office 365 E1 或 Office 365 E3 订阅计划的附加内容提供。</span><span class="sxs-lookup"><span data-stu-id="08d1e-460">[Audio Conferencing license](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7?ui=en-US&rs=en-US&ad=US), formerly known as Skype for Business PSTN Conferencing license, is available as part of Office 365 E5 subscription plans, or as an add-on to Office 365 E1 or Office 365 E3 subscription plans.</span></span>
+<span data-ttu-id="bbcd6-457">[音频会议许可证](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)作为 Office 365 E5 订阅计划的一部分提供，或者作为 Office 365 E1 或 Office 365 E3 订阅计划的附加内容提供。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-457">[Audio Conferencing license](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing), formerly known as Skype for Business PSTN Conferencing license, is available as part of Office 365 E5 subscription plans, or as an add-on to Office 365 E1 or Office 365 E3 subscription plans.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="08d1e-p120">Teams 中的 PSTN 或电话拨入式会议不支持第三方<sup></sup>音频会议提供商 (ACP)。</span><span class="sxs-lookup"><span data-stu-id="08d1e-p120">PSTN or dial-in conferencing in Teams does not support 3<sup>rd</sup>-party Audio Conferencing Providers (ACPs). </span></span><br><span data-ttu-id="08d1e-462">如果你现在已使用 Skype for Business Online PSTN 会议，则可以立即利用 Teams 中的音频会议。</span><span class="sxs-lookup"><span data-stu-id="08d1e-462">If you already use Skype for Business Online PSTN Conferencing today, you can immediately take advantage of Audio Conferencing in Teams.</span></span>
+> <span data-ttu-id="bbcd6-p117">Teams 中的 PSTN 或电话拨入式会议不支持第三方<sup></sup>音频会议提供商 (ACP)。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-p117">PSTN or dial-in conferencing in Teams does not support 3<sup>rd</sup>-party Audio Conferencing Providers (ACPs). </span></span><br><span data-ttu-id="bbcd6-459">如果你现在已使用 Skype for Business Online PSTN 会议，则可以立即利用 Teams 中的音频会议。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-459">If you already use Skype for Business Online PSTN Conferencing today, you can immediately take advantage of Audio Conferencing in Teams.</span></span>
 
-<span data-ttu-id="08d1e-463">为了提供免费电话会议桥接电话号码以及支持向国际电话号码拨出的会议，你需要为贵组织设置[通信点数](https://support.office.com/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059)。</span><span class="sxs-lookup"><span data-stu-id="08d1e-463">To provide toll-free conference bridge phone numbers and to support conferencing dial-out to International phone numbers, you need to setup [Communications Credits](https://support.office.com/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059) for your organization.</span></span>
-
+<span data-ttu-id="bbcd6-460">为了提供免费电话会议桥接电话号码以及支持向国际电话号码拨出的会议，你需要为贵组织设置[通信点数](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-460">To provide toll-free conference bridge phone numbers and to support conferencing dial-out to International phone numbers, you need to setup [Communications Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) for your organization.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="08d1e-464">在有些国家/地区，仅通过免费电话会议桥接电话号码提供服务，这种情况下，在此类国家/地区，必须使用通信点数以支持拨入。</span><span class="sxs-lookup"><span data-stu-id="08d1e-464">Some countries are serviced by toll-free conference bridge phone numbers only, and in this case the use of Communications Credits is a mandatory requirement to support dial in for such countries.</span></span>
+> <span data-ttu-id="bbcd6-461">在有些国家/地区，仅通过免费电话会议桥接电话号码提供服务，这种情况下，在此类国家/地区，必须使用通信点数以支持拨入。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-461">Some countries are serviced by toll-free conference bridge phone numbers only, and in this case the use of Communications Credits is a mandatory requirement to support dial in for such countries.</span></span>
 
-<span data-ttu-id="08d1e-465">实施通信点数时首先要考虑的是确定要购买的初始资金数额。</span><span class="sxs-lookup"><span data-stu-id="08d1e-465">The first consideration to make when implementing Communications Credits is to decide the initial amount of funds to be purchased.</span></span> <span data-ttu-id="08d1e-466">可以参考[通信点数](https://support.office.com/en-us/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059)文档中的建议资金数额。</span><span class="sxs-lookup"><span data-stu-id="08d1e-466">Recommended funding amounts can be referenced from the [Communications Credits](https://support.office.com/en-us/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059) documentation.</span></span>
+<span data-ttu-id="bbcd6-462">实施通信点数时首先要考虑的是确定要购买的初始资金数额。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-462">The first consideration to make when implementing Communications Credits is to decide the initial amount of funds to be purchased.</span></span> <span data-ttu-id="bbcd6-463">可以参考[通信点数](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)一文中的建议资金数额。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-463">Recommended funding amounts can be referenced from the [Communications Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) documentation.</span></span>
 
-<span data-ttu-id="08d1e-467">如果贵组织选择使用自动充值，[通信点数](https://support.office.com/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059)文档中也提供了触发数额（最低资金数额）建议。</span><span class="sxs-lookup"><span data-stu-id="08d1e-467">If your organization chooses to use auto-recharge, a recommendation on the trigger (lowest amount of funds) is also included in the [Communications Credits](https://support.office.com/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059) documentation.</span></span> <span data-ttu-id="08d1e-468">自动充值数额需要由实际使用情况确定。</span><span class="sxs-lookup"><span data-stu-id="08d1e-468">Auto-recharge amount needs to be determined by the actual usage.</span></span> <span data-ttu-id="08d1e-469">应持续监控通信点数使用情况，并根据需要调整充值数额。</span><span class="sxs-lookup"><span data-stu-id="08d1e-469">Communications Credits usage should be monitored over time and the recharge amount needs to be adjusted as required.</span></span>
+<span data-ttu-id="bbcd6-464">如果贵组织选择使用自动充值，[通信点数](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)文档中也提供了触发数额（最低资金数额）建议。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-464">If your organization chooses to use auto-recharge, a recommendation on the trigger (lowest amount of funds) is also included in the [Communications Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) documentation.</span></span> <span data-ttu-id="bbcd6-465">自动充值数额需要由实际使用情况确定。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-465">Auto-recharge amount needs to be determined by the actual usage.</span></span> <span data-ttu-id="bbcd6-466">应持续监控通信点数使用情况，并根据需要调整充值数额。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-466">Communications Credits usage should be monitored over time and the recharge amount needs to be adjusted as required.</span></span>
 
-<table>
-<thead>
-<tr class="header">
-<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
-<td align="left"><span data-ttu-id="08d1e-470">决策点</span><span class="sxs-lookup"><span data-stu-id="08d1e-470">Decision Points</span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-471">如果贵组织尚未购买所需的音频会议许可，确定是通过提升现有 Office 365 订阅还是通过购买音频会议外接程序来获取音频会议许可证。</span><span class="sxs-lookup"><span data-stu-id="08d1e-471">If your organization has not already purchased the required Audio Conferencing licensing, decide whether Audio Conferencing licenses will be acquired by stepping up existing Office 365 subscriptions or by acquiring Audio Conferencing add-ons.</span></span></li>
-<li><span data-ttu-id="08d1e-472">确定实施音频会议是否需要通信点数。</span><span class="sxs-lookup"><span data-stu-id="08d1e-472">Decide if Communications Credits is required for Audio Conferencing implementation.</span></span> <span data-ttu-id="08d1e-473">如果是，确定要购买的初始资金数额。</span><span class="sxs-lookup"><span data-stu-id="08d1e-473">If so, decide the initial amount of funds to be purchased.</span></span> <span data-ttu-id="08d1e-474">在适用的情况下，确定触发数额和自动充值数额。</span><span class="sxs-lookup"><span data-stu-id="08d1e-474">Where applicable, decide the trigger amount and auto-recharge amount.</span></span></li></ul></td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left"><span data-ttu-id="08d1e-475">后续步骤</span><span class="sxs-lookup"><span data-stu-id="08d1e-475">Next Steps</span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-476">记录将为其分配音频会议许可证的用户。</span><span class="sxs-lookup"><span data-stu-id="08d1e-476">Document the users that will be assigned Audio Conferencing license.</span></span></li>
-<li><span data-ttu-id="08d1e-477">记录通信点数计划（初始数额、触发数额、自动充值数额）。</span><span class="sxs-lookup"><span data-stu-id="08d1e-477">Document the Communications Credits plan (initial amount, trigger amount, auto-recharge amount).</span></span></li></ul></td>
-</tr>
-</tbody>
-</table>
+<br>
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|<span data-ttu-id="bbcd6-467">决策点</span><span class="sxs-lookup"><span data-stu-id="bbcd6-467">Decision Points</span></span>|<ul><li><span data-ttu-id="bbcd6-468">如果贵组织尚未购买所需的音频会议许可，确定是通过提升现有 Office 365 订阅还是通过购买音频会议外接程序来获取音频会议许可证</span><span class="sxs-lookup"><span data-stu-id="bbcd6-468">If your organization has not already purchased the required Audio Conferencing licensing, decide whether Audio Conferencing licenses will be acquired by stepping up existing Office 365 subscriptions or by acquiring Audio Conferencing add-ons.</span></span></li><li><span data-ttu-id="bbcd6-469">确定实施音频会议是否需要通信点数。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-469">Decide if Communications Credits is required for Audio Conferencing implementation.</span></span> <span data-ttu-id="bbcd6-470">如果是，确定要购买的初始资金数额。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-470">If so, decide the initial amount of funds to be purchased.</span></span> <span data-ttu-id="bbcd6-471">在适用的情况下，确定触发数额和自动充值数额。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-471">Where applicable, decide the trigger amount and auto-recharge amount.</span></span></li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|<span data-ttu-id="bbcd6-472">后续步骤</span><span class="sxs-lookup"><span data-stu-id="bbcd6-472">Next Steps</span></span>|<ul><li><span data-ttu-id="bbcd6-473">记录将为其分配音频会议许可证的用户</span><span class="sxs-lookup"><span data-stu-id="bbcd6-473">Document the users that will be assigned Audio Conferencing license.</span></span></li><li><span data-ttu-id="bbcd6-474">记录通信点数计划（初始数额、触发数额、自动充值数额）</span><span class="sxs-lookup"><span data-stu-id="bbcd6-474">Document the Communications Credits plan (initial amount, trigger amount, auto-recharge amount).</span></span></li></ul>|
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"><span data-ttu-id="08d1e-478">用户</span><span class="sxs-lookup"><span data-stu-id="08d1e-478">User</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-479">办公地点</span><span class="sxs-lookup"><span data-stu-id="08d1e-479">Office</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-480">Office 365 许可证</span><span class="sxs-lookup"><span data-stu-id="08d1e-480">Office 365 License</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-481">Adele Vance</span><span class="sxs-lookup"><span data-stu-id="08d1e-481">Adele Vance</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-482">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-482">One Epping Road</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-483">Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="08d1e-483">Office 365 E5</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-484">Alex Wilber</span><span class="sxs-lookup"><span data-stu-id="08d1e-484">Alex Wilber</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-485">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-485">One Epping Road</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-486">Office 365 E3、音频会议外接程序</span><span class="sxs-lookup"><span data-stu-id="08d1e-486">Office 365 E3, Audio Conferencing add-on</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-487">Ben Walters</span><span class="sxs-lookup"><span data-stu-id="08d1e-487">Ben Walters</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-488">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-488">One Epping Road</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-489">Office 365 E3、音频会议外接程序</span><span class="sxs-lookup"><span data-stu-id="08d1e-489">Office 365 E3, Audio Conferencing add-on</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-490">Christie Cline</span><span class="sxs-lookup"><span data-stu-id="08d1e-490">Christie Cline</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-491">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-491">One Marina Boulevard</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-492">Office 365 E3、音频会议外接程序</span><span class="sxs-lookup"><span data-stu-id="08d1e-492">Office 365 E3, Audio Conferencing add-on</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-493">Debra Berger</span><span class="sxs-lookup"><span data-stu-id="08d1e-493">Debra Berger</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-494">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-494">One Marina Boulevard</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-495">Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="08d1e-495">Office 365 E5</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-496">Lee Gu</span><span class="sxs-lookup"><span data-stu-id="08d1e-496">Lee Gu</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-497">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-497">One Marina Boulevard</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-498">Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="08d1e-498">Office 365 E5</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-499">Emily Braun</span><span class="sxs-lookup"><span data-stu-id="08d1e-499">Emily Braun</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-500">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="08d1e-500">32 London Bridge Street</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-501">Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="08d1e-501">Office 365 E5</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-502">Lidia Holloway</span><span class="sxs-lookup"><span data-stu-id="08d1e-502">Lidia Holloway</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-503">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="08d1e-503">32 London Bridge Street</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-504">Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="08d1e-504">Office 365 E5</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-505">Pradeep Gupta</span><span class="sxs-lookup"><span data-stu-id="08d1e-505">Pradeep Gupta</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-506">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="08d1e-506">32 London Bridge Street</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-507">Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="08d1e-507">Office 365 E5</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-508">Marcel Beauchamp</span><span class="sxs-lookup"><span data-stu-id="08d1e-508">Marcel Beauchamp</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-509">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="08d1e-509">39 quai du Président Roosevelt</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-510">Office 365 E3、音频会议外接程序</span><span class="sxs-lookup"><span data-stu-id="08d1e-510">Office 365 E3, Audio Conferencing add-on</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-511">Rachelle Cormier</span><span class="sxs-lookup"><span data-stu-id="08d1e-511">Rachelle Cormier</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-512">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="08d1e-512">39 quai du Président Roosevelt</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-513">Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="08d1e-513">Office 365 E5</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-514">Isabell Potvin</span><span class="sxs-lookup"><span data-stu-id="08d1e-514">Isabell Potvin</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-515">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="08d1e-515">39 quai du Président Roosevelt</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-516">Office 365 E3、音频会议外接程序</span><span class="sxs-lookup"><span data-stu-id="08d1e-516">Office 365 E3, Audio Conferencing add-on</span></span></td>
-</tr>
-</tbody>
-</table>
+> [!TIP]
+> <span data-ttu-id="bbcd6-475">可以使用以下示例记录音频会议用户的许可证分配列表：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-475">You can document the license assignment list for Audio Conferencing users using the following example:</span></span>
+>|<span data-ttu-id="bbcd6-476">用户</span><span class="sxs-lookup"><span data-stu-id="bbcd6-476">User</span></span>  |<span data-ttu-id="bbcd6-477">办公地点</span><span class="sxs-lookup"><span data-stu-id="bbcd6-477">Office</span></span>  |<span data-ttu-id="bbcd6-478">Office 365 许可证</span><span class="sxs-lookup"><span data-stu-id="bbcd6-478">Office 365 License</span></span>  |
+>|---------|---------|---------|
+>|<span data-ttu-id="bbcd6-479">Adele Vance</span><span class="sxs-lookup"><span data-stu-id="bbcd6-479">Adele Vance</span></span>|<span data-ttu-id="bbcd6-480">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-480">One Epping Road</span></span>|<span data-ttu-id="bbcd6-481">Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="bbcd6-481">Office 365 E5</span></span>|
+>|<span data-ttu-id="bbcd6-482">Alex Wilber</span><span class="sxs-lookup"><span data-stu-id="bbcd6-482">Alex Wilber</span></span>|<span data-ttu-id="bbcd6-483">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-483">One Epping Road</span></span>|<span data-ttu-id="bbcd6-484">Office 365 E3、音频会议外接程序</span><span class="sxs-lookup"><span data-stu-id="bbcd6-484">Office 365 E3, Audio Conferencing add-on</span></span>|
+>|<span data-ttu-id="bbcd6-485">Ben Walters</span><span class="sxs-lookup"><span data-stu-id="bbcd6-485">Ben Walters</span></span>|<span data-ttu-id="bbcd6-486">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-486">One Epping Road</span></span>|<span data-ttu-id="bbcd6-487">Office 365 E3、音频会议外接程序</span><span class="sxs-lookup"><span data-stu-id="bbcd6-487">Office 365 E3, Audio Conferencing add-on</span></span>|
+>|<span data-ttu-id="bbcd6-488">Christie Cline</span><span class="sxs-lookup"><span data-stu-id="bbcd6-488">Christie Cline</span></span>|<span data-ttu-id="bbcd6-489">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-489">One Marina Boulevard</span></span>|<span data-ttu-id="bbcd6-490">Office 365 E3、音频会议外接程序</span><span class="sxs-lookup"><span data-stu-id="bbcd6-490">Office 365 E3, Audio Conferencing add-on</span></span>|
+>|<span data-ttu-id="bbcd6-491">Debra Berger</span><span class="sxs-lookup"><span data-stu-id="bbcd6-491">Debra Berger</span></span>|<span data-ttu-id="bbcd6-492">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-492">One Marina Boulevard</span></span>|<span data-ttu-id="bbcd6-493">Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="bbcd6-493">Office 365 E5</span></span>|
+>|<span data-ttu-id="bbcd6-494">Lee Gu</span><span class="sxs-lookup"><span data-stu-id="bbcd6-494">Lee Gu</span></span>|<span data-ttu-id="bbcd6-495">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-495">One Marina Boulevard</span></span>|<span data-ttu-id="bbcd6-496">Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="bbcd6-496">Office 365 E5</span></span>|
+>|<span data-ttu-id="bbcd6-497">Emily Braun</span><span class="sxs-lookup"><span data-stu-id="bbcd6-497">Emily Braun</span></span>|<span data-ttu-id="bbcd6-498">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-498">32 London Bridge Street</span></span>|<span data-ttu-id="bbcd6-499">Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="bbcd6-499">Office 365 E5</span></span>|
+>|<span data-ttu-id="bbcd6-500">Lidia Holloway</span><span class="sxs-lookup"><span data-stu-id="bbcd6-500">Lidia Holloway</span></span>|<span data-ttu-id="bbcd6-501">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-501">32 London Bridge Street</span></span>|<span data-ttu-id="bbcd6-502">Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="bbcd6-502">Office 365 E5</span></span>|
+>|<span data-ttu-id="bbcd6-503">Pradeep Gupta</span><span class="sxs-lookup"><span data-stu-id="bbcd6-503">Pradeep Gupta</span></span>|<span data-ttu-id="bbcd6-504">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-504">32 London Bridge Street</span></span>|<span data-ttu-id="bbcd6-505">Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="bbcd6-505">Office 365 E5</span></span>|
+>|<span data-ttu-id="bbcd6-506">Marcel Beauchamp</span><span class="sxs-lookup"><span data-stu-id="bbcd6-506">Marcel Beauchamp</span></span>|<span data-ttu-id="bbcd6-507">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="bbcd6-507">39 quai du Président Roosevelt</span></span>|<span data-ttu-id="bbcd6-508">Office 365 E3、音频会议外接程序</span><span class="sxs-lookup"><span data-stu-id="bbcd6-508">Office 365 E3, Audio Conferencing add-on</span></span>|
+>|<span data-ttu-id="bbcd6-509">Rachelle Cormier</span><span class="sxs-lookup"><span data-stu-id="bbcd6-509">Rachelle Cormier</span></span>|<span data-ttu-id="bbcd6-510">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="bbcd6-510">39 quai du Président Roosevelt</span></span>|<span data-ttu-id="bbcd6-511">Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="bbcd6-511">Office 365 E5</span></span>|
+>|<span data-ttu-id="bbcd6-512">Isabell Potvin</span><span class="sxs-lookup"><span data-stu-id="bbcd6-512">Isabell Potvin</span></span>|<span data-ttu-id="bbcd6-513">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="bbcd6-513">39 quai du Président Roosevelt</span></span>|<span data-ttu-id="bbcd6-514">Office 365 E3、音频会议外接程序</span><span class="sxs-lookup"><span data-stu-id="bbcd6-514">Office 365 E3, Audio Conferencing add-on</span></span>|
 
-<span data-ttu-id="08d1e-517">_表 8 音频会议组织者的许可证分配列表示例_</span><span class="sxs-lookup"><span data-stu-id="08d1e-517">_Table 8 Example of license assignment list for Audio Conferencing meeting organizers_</span></span>
+<br>
+> [!TIP]
+> <span data-ttu-id="bbcd6-515">可以按如下所示记录通信点数计划数量：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-515">Your Communications Credits planning numbers can be documented as the following:</span></span>
+>|         |         |
+>|---------|---------|
+>|<span data-ttu-id="bbcd6-516">初始数额</span><span class="sxs-lookup"><span data-stu-id="bbcd6-516">Initial amount</span></span>|<span data-ttu-id="bbcd6-517">$ 1,000</span><span class="sxs-lookup"><span data-stu-id="bbcd6-517">$ 1,000</span></span>|
+>|<span data-ttu-id="bbcd6-518">触发数额</span><span class="sxs-lookup"><span data-stu-id="bbcd6-518">Trigger amount</span></span>|<span data-ttu-id="bbcd6-519">$400</span><span class="sxs-lookup"><span data-stu-id="bbcd6-519">$ 400</span></span>|
+>|<span data-ttu-id="bbcd6-520">自动充值数额</span><span class="sxs-lookup"><span data-stu-id="bbcd6-520">Auto-recharge amount</span></span>|<span data-ttu-id="bbcd6-521">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-521">TBA</span></span>|
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"><span data-ttu-id="08d1e-518">初始数额</span><span class="sxs-lookup"><span data-stu-id="08d1e-518">Initial amount</span></span></th>
-<td align="left"><span data-ttu-id="08d1e-519">$ 1,000</span><span class="sxs-lookup"><span data-stu-id="08d1e-519">$ 1,000</span></span></td>
-</tr>
-</thead>
-<thead>
-<tr class="header">
-<th align="left"><span data-ttu-id="08d1e-520">触发数额</span><span class="sxs-lookup"><span data-stu-id="08d1e-520">Trigger amount</span></span></th>
-<td align="left"><span data-ttu-id="08d1e-521">$400</span><span class="sxs-lookup"><span data-stu-id="08d1e-521">$ 400</span></span></td>
-</tr>
-<tr class="header">
-<th align="left"><span data-ttu-id="08d1e-522">自动充值数额</span><span class="sxs-lookup"><span data-stu-id="08d1e-522">Auto-recharge amount</span></span></th>
-<td align="left"><span data-ttu-id="08d1e-523">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-523">TBA</span></span></td>
-</tr>
-</tbody>
-</table>
+## <a name="conference-bridge-phone-numbers"></a><span data-ttu-id="bbcd6-522">会议桥接电话号码</span><span class="sxs-lookup"><span data-stu-id="bbcd6-522">Conference bridge phone numbers</span></span>
 
-<span data-ttu-id="08d1e-524">_表 9 通信点数计划数量示例_</span><span class="sxs-lookup"><span data-stu-id="08d1e-524">_Table 9 Example of Communications Credits planning numbers_</span></span>
+<span data-ttu-id="bbcd6-523">Office 365 中的音频会议服务包括：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-523">The Audio Conferencing service in Office 365 includes:</span></span>
 
+-   <span data-ttu-id="bbcd6-524">多种类型的会议桥接电话号码（收费电话和免费电话）</span><span class="sxs-lookup"><span data-stu-id="bbcd6-524">Multiple types of conference bridge phone numbers (Toll and Toll-Free)</span></span>
+-   <span data-ttu-id="bbcd6-525">多种类别的电话号码（专用和共享）</span><span class="sxs-lookup"><span data-stu-id="bbcd6-525">Multiple categories of the phone number (dedicated and shared)</span></span>
+-   <span data-ttu-id="bbcd6-526">对会议桥接支持多种语言（主要和辅助）</span><span class="sxs-lookup"><span data-stu-id="bbcd6-526">Support for multiple languages for the conference bridge (primary and secondary)</span></span>
+-   <span data-ttu-id="bbcd6-527">租户的默认电话号码</span><span class="sxs-lookup"><span data-stu-id="bbcd6-527">A default phone number for the tenant.</span></span>
 
-## <a name="conference-bridge-phone-numbers"></a><span data-ttu-id="08d1e-525">会议桥接电话号码</span><span class="sxs-lookup"><span data-stu-id="08d1e-525">Conference bridge phone numbers</span></span>
-
-<span data-ttu-id="08d1e-526">Office 365 中的音频会议服务包括：</span><span class="sxs-lookup"><span data-stu-id="08d1e-526">The Audio Conferencing service in Office 365 includes:</span></span>
-
--   <span data-ttu-id="08d1e-527">多种类型的会议桥接电话号码（收费电话和免费电话）</span><span class="sxs-lookup"><span data-stu-id="08d1e-527">Multiple types of conference bridge phone numbers (Toll and Toll-Free)</span></span>
-
--   <span data-ttu-id="08d1e-528">多种类别的电话号码（专用和共享）</span><span class="sxs-lookup"><span data-stu-id="08d1e-528">Multiple categories of the phone number (dedicated and shared)</span></span>
-
--   <span data-ttu-id="08d1e-529">对会议桥接支持多种语言（主要和辅助）</span><span class="sxs-lookup"><span data-stu-id="08d1e-529">Support for multiple languages for the conference bridge (primary and secondary)</span></span>
-
--   <span data-ttu-id="08d1e-530">租户的默认电话号码</span><span class="sxs-lookup"><span data-stu-id="08d1e-530">A default phone number for the tenant.</span></span>
-
-<span data-ttu-id="08d1e-531">有关包含的功能的完整说明，请参阅[为 Skype for Business 设置电话拨入式会议或 PSTN 会议](https://support.office.com/article/Set-up-dial-in-or-PSTN-conferencing-for-Skype-for-Business-d01954f1-4f37-4cf5-a636-20039e5c59e9?ui=en-US&rs=en-US&ad=US)和[用于电话拨入式会议的电话号码](https://support.office.com/article/Phone-numbers-for-dial-in-conferencing-95a08f84-04e5-4f72-88a8-d6472a7c89d7?ui=en-US&rs=en-US&ad=US)**。**</span><span class="sxs-lookup"><span data-stu-id="08d1e-531">Full description of the included capabilities can be referenced from [Set up dial-in or PSTN conferencing for Skype for Business](https://support.office.com/article/Set-up-dial-in-or-PSTN-conferencing-for-Skype-for-Business-d01954f1-4f37-4cf5-a636-20039e5c59e9?ui=en-US&rs=en-US&ad=US) and [Phone numbers for dial-in conferencing](https://support.office.com/article/Phone-numbers-for-dial-in-conferencing-95a08f84-04e5-4f72-88a8-d6472a7c89d7?ui=en-US&rs=en-US&ad=US)**.**</span></span>
+<span data-ttu-id="bbcd6-528">有关包含的功能的完整说明，请参阅[为 Skype for Business 和 Microsoft Teams 设置音频会议](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)以及[用于音频会议的电话号码](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-528">Full description of the included capabilities can be referenced from [Set up dial-in or PSTN conferencing for Skype for Business](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) and [Phone numbers for dial-in conferencing](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="08d1e-532">根据[获取 Skype for Business 服务电话号码](https://support.office.com/article/Getting-Skype-for-Business-service-phone-numbers-e434aeb2-af99-40e7-981e-a474f0383734)中所述的适用许可证数量，专用会议桥接电话号码的数量不超过每个租户可以获取的电话号码限制。</span><span class="sxs-lookup"><span data-stu-id="08d1e-532">Dedicated conference bridge phone numbers are counted towards the limit of phone numbers that can be acquired per tenant, based on the number of applicable licenses as described in [Getting Skype for Business service phone numbers](https://support.office.com/article/Getting-Skype-for-Business-service-phone-numbers-e434aeb2-af99-40e7-981e-a474f0383734).</span></span> <span data-ttu-id="08d1e-533">免费电话会议桥接电话号码需要通信点数。</span><span class="sxs-lookup"><span data-stu-id="08d1e-533">Toll-free conference bridge phone numbers require Communications Credits.</span></span>
+> <span data-ttu-id="bbcd6-529">根据[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)中所述的适用许可证数量，专用会议网桥电话号码的数量不超过每个租户可以获取的电话号码限制。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-529">Dedicated conference bridge phone numbers are counted towards the limit of phone numbers that can be acquired per tenant, based on the number of applicable licenses as described in [Getting Skype for Business service phone numbers](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).</span></span> <span data-ttu-id="bbcd6-530">免费电话会议桥接电话号码需要通信点数。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-530">Toll-free conference bridge phone numbers require Communications Credits.</span></span>
 
-<span data-ttu-id="08d1e-534">如果存在必须转移到音频会议服务的现有会议桥接电话号码，假定它们满足国家/地区特定的要求，那么可以将现有会议桥接电话号码转移到 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="08d1e-534">If there are existing conference bridge phone numbers that must be transferred to the Audio Conferencing service, assuming they are meeting the country-specific requirements, then the existing conference bridge phone numbers can be transferred to Microsoft.</span></span>
-
-
-> [!NOTE]
-> <span data-ttu-id="08d1e-535">将电话号码转移到 Microsoft 的复杂性根据国家或地区、运营商、涉及的线路数量以及许多其他影响因素而有很大不同。</span><span class="sxs-lookup"><span data-stu-id="08d1e-535">Complexity of transferring phone numbers to Microsoft varies greatly based on the countries or regions, carriers, the number of circuits involved, and many other contributing factors.</span></span> <span data-ttu-id="08d1e-536">要计划电话携号转网，请查看[携号转网指南](https://go.microsoft.com/fwlink/?linkid=859011)。</span><span class="sxs-lookup"><span data-stu-id="08d1e-536">To plan for phone number porting, check out the [Number Porting Guide](https://go.microsoft.com/fwlink/?linkid=859011).</span></span>
-
-|  |  |
-|---------|---------|
-| <iframe width="350" height="200" src="https://www.youtube.com/embed/5k0C21KAsns" frameborder="0" allowfullscreen></iframe>  |  |
-
-<span data-ttu-id="08d1e-537">有关将电话号码转移到音频会议服务的其他详细信息，请参阅[将电话号码转移到 Skype for Business Online](https://support.office.com/article/Transfer-phone-numbers-to-Skype-for-Business-Online-47b3af8e-4171-4dec-8333-c956f108664e)。</span><span class="sxs-lookup"><span data-stu-id="08d1e-537">Additional details on transferring phone numbers to Audio Conferencing service can be found in [Transfer phone numbers to Skype for Business Online](https://support.office.com/article/Transfer-phone-numbers-to-Skype-for-Business-Online-47b3af8e-4171-4dec-8333-c956f108664e).</span></span>
-
-<table>
-<thead>
-<tr class="header">
-<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
-<td align="left"><span data-ttu-id="08d1e-538">决策点</span><span class="sxs-lookup"><span data-stu-id="08d1e-538">Decision Points</span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-539">确定组织是否需要专用会议桥接电话号码</span><span class="sxs-lookup"><span data-stu-id="08d1e-539">Decide whether the organization requires dedicated conference bridge phone numbers</span></span></li>
-<li><span data-ttu-id="08d1e-540">确定将如何为音频会议实施的范围内用户位置或办公地点获取专用会议桥接电话号码（从 Microsoft 获取，或转移现有电话号码）</span><span class="sxs-lookup"><span data-stu-id="08d1e-540">Decide how the dedicated conference bridge phone numbers will be obtained for user locations or offices in-scope for the Audio Conferencing implementation (obtain from Microsoft or transfer existing phone numbers)</span></span></li>
-<li><span data-ttu-id="08d1e-541">如果你选择从 Microsoft 获取，请确定用于为音频会议实施的范围内用户位置或办公地点获取电话号码的方法（表单提交或自动）。</span><span class="sxs-lookup"><span data-stu-id="08d1e-541">If you choose to obtain from Microsoft, decide the method to obtain phone numbers (form submission or automated) for user locations or offices in-scope for the Audio Conferencing implementation</span></span></li>
-<li><span data-ttu-id="08d1e-542">确定要为每个专用会议桥接电话号码设置的语言首选项</span><span class="sxs-lookup"><span data-stu-id="08d1e-542">Decide the language preferences to be set up for each dedicated conference bridge phone number</span></span></li>
-<li><span data-ttu-id="08d1e-543">确定租户默认会议桥接电话号码</span><span class="sxs-lookup"><span data-stu-id="08d1e-543">Decide the tenant default conference bridge phone number</span></span></li></ul></td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left"><span data-ttu-id="08d1e-544">后续步骤</span><span class="sxs-lookup"><span data-stu-id="08d1e-544">Next Steps</span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-545">记录电话号码获取的主计划，详细说明为音频会议实施的范围内每个用户位置或办公地点获取电话号码的方式。</span><span class="sxs-lookup"><span data-stu-id="08d1e-545">Document the master plan for phone numbers acquisition, detailing how phone numbers will be obtained for each user location or office in-scope for the Audio Conferencing implementation.</span></span></li>
-<li><span data-ttu-id="08d1e-546">如果适用，完成<a href="https://support.office.com/article/Get-phone-numbers-for-Skype-for-Business-Online-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US">新电话号码请求表单</a>，每个位置或办公地点一个表单。</span><span class="sxs-lookup"><span data-stu-id="08d1e-546">If applicable, complete <a href="https://support.office.com/article/Get-phone-numbers-for-Skype-for-Business-Online-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US">the New Telephone Number Request form</a>, one form for each location or office</span></span></li>
-<li><span data-ttu-id="08d1e-547">如果你选择转移现有电话号码，请参阅<a href="https://go.microsoft.com/fwlink/?linkid=859011">携号转网指南</a>以对其进行计划并相应地调整音频会议实施时间线。</span><span class="sxs-lookup"><span data-stu-id="08d1e-547">If you choose to transfer existing phone numbers, check out the <a href="https://go.microsoft.com/fwlink/?linkid=859011">Number Porting Guide</a> to plan it and adjust Audio Conferencing implementation timeline accordingly.</span></span></li>
-<li><span data-ttu-id="08d1e-548">记录详细的会议桥接电话号码配置（共享和专用会议桥接电话号码、每个专用会议桥接电话号码的语言首选项、租户默认会议桥接电话号码）</span><span class="sxs-lookup"><span data-stu-id="08d1e-548">Document the detailed conference bridge phone number configurations (shared and dedicated conference bridge phone numbers, language preferences for each dedicated conference bridge phone number, tenant default conference bridge phone number)</span></span></li></ul></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr class="header">
-<th align="left"><span data-ttu-id="08d1e-549">办公地点</span><span class="sxs-lookup"><span data-stu-id="08d1e-549">Office</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-550">桥接号码获取和桥接类型</span><span class="sxs-lookup"><span data-stu-id="08d1e-550">Bridge Number Acquisition and Bridge Type</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-551">桥接号码</span><span class="sxs-lookup"><span data-stu-id="08d1e-551">Bridge Number</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-552">桥接语言</span><span class="sxs-lookup"><span data-stu-id="08d1e-552">Bridge Language</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-553">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-553">One Epping Road</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-554">获取新的专用</span><span class="sxs-lookup"><span data-stu-id="08d1e-554">Acquire new, dedicated</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-555">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-555">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-556">英语（澳大利亚）</span><span class="sxs-lookup"><span data-stu-id="08d1e-556">English (Australia)</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-557">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-557">One Marina Boulevard</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-558">获取新的共享</span><span class="sxs-lookup"><span data-stu-id="08d1e-558">Acquire new, shared</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-559">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-559">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-560">英语（美国）、中文（简体，中国）</span><span class="sxs-lookup"><span data-stu-id="08d1e-560">English (United States), Chinese (Simplified, PRC)</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-561">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="08d1e-561">32 London Bridge Street</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-562">转网现有的专用</span><span class="sxs-lookup"><span data-stu-id="08d1e-562">Port existing, dedicated</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-563">+44 20 7946 0001</span><span class="sxs-lookup"><span data-stu-id="08d1e-563">+44 20 7946 0001</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-564">英语（英国）</span><span class="sxs-lookup"><span data-stu-id="08d1e-564">English (United Kingdom)</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-565">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="08d1e-565">39 quai du Président Roosevelt</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-566">获取新的专用</span><span class="sxs-lookup"><span data-stu-id="08d1e-566">Acquire new, dedicated</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-567">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-567">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-568">法语（法国）、英语（美国）</span><span class="sxs-lookup"><span data-stu-id="08d1e-568">French (France), English (United Kingdom)</span></span></td>
-</tr>
-</tbody>
-</table>
-
-<span data-ttu-id="08d1e-569">_表 10 会议桥接详细信息示例_</span><span class="sxs-lookup"><span data-stu-id="08d1e-569">_Table 10 Example of conference bridge details_</span></span>
-
+<span data-ttu-id="bbcd6-531">如果存在必须转移到音频会议服务的现有会议桥接电话号码，假定它们满足国家/地区特定的要求，那么可以将现有会议桥接电话号码转移到 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-531">If there are existing conference bridge phone numbers that must be transferred to the Audio Conferencing service, assuming they are meeting the country-specific requirements, then the existing conference bridge phone numbers can be transferred to Microsoft.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="08d1e-570">本文档中上述示例表和后续表用作模板。</span><span class="sxs-lookup"><span data-stu-id="08d1e-570">The example table above and subsequent tables throughout this document serve as a template.</span></span> <span data-ttu-id="08d1e-571">对于需要你在规划过程中完成的信息，以“TBA”（待添加）表示。</span><span class="sxs-lookup"><span data-stu-id="08d1e-571">You'll see "TBA" (to be added) for information that you need to complete as part of your planning process.</span></span>
+> <span data-ttu-id="bbcd6-532">将电话号码转移到 Microsoft 的复杂性根据国家或地区、运营商、涉及的线路数量以及许多其他影响因素而有很大不同。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-532">Complexity of transferring phone numbers to Microsoft varies greatly based on the countries or regions, carriers, the number of circuits involved, and many other contributing factors.</span></span> <span data-ttu-id="bbcd6-533">要计划电话携号转网，请查看[携号转网指南](https://go.microsoft.com/fwlink/?linkid=859011)。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-533">To plan for phone number porting, check out the [Number Porting Guide](https://go.microsoft.com/fwlink/?linkid=859011).</span></span>
 
-## <a name="conference-bridge-settings"></a><span data-ttu-id="08d1e-572">会议桥接设置</span><span class="sxs-lookup"><span data-stu-id="08d1e-572">Conference bridge settings</span></span>
+<span data-ttu-id="bbcd6-534">有关将电话号码转移到音频会议服务的其他详细信息，请参阅[将电话号码转移到 Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-534">Additional details on transferring phone numbers to Audio Conferencing service can be found in [Transfer phone numbers to Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).</span></span>
 
-<span data-ttu-id="08d1e-573">提供了与音频会议加入体验（会议进入和退出通知以及呼叫方名称记录）、会议组织者的 PIN 长度及电子邮件通知的组织范围的配置选项，以进一步定制最终用户体验。</span><span class="sxs-lookup"><span data-stu-id="08d1e-573">Organization-wide configuration options around Audio Conferencing meeting join experience (meeting entry and exit notification and caller name recording), meeting organizer’s PIN length, and email notification are available to further tailor the end-user experience.</span></span>
+<br>
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|<span data-ttu-id="bbcd6-535">决策点</span><span class="sxs-lookup"><span data-stu-id="bbcd6-535">Decision Points</span></span>|<ul><li><span data-ttu-id="bbcd6-536">确定组织是否需要专用会议桥接电话号码</span><span class="sxs-lookup"><span data-stu-id="bbcd6-536">Decide whether the organization requires dedicated conference bridge phone numbers</span></span></li><li><span data-ttu-id="bbcd6-537">确定将如何为音频会议实施的范围内用户位置或办公地点获取专用会议桥接电话号码（从 Microsoft 获取，或转移现有电话号码）</span><span class="sxs-lookup"><span data-stu-id="bbcd6-537">Decide how the dedicated conference bridge phone numbers will be obtained for user locations or offices in-scope for the Audio Conferencing implementation (obtain from Microsoft or transfer existing phone numbers)</span></span></li><li><span data-ttu-id="bbcd6-538">如果你选择从 Microsoft 获取，请确定用于为音频会议实施的范围内用户位置或办公地点获取电话号码的方法（表单提交或自动）。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-538">If you choose to obtain from Microsoft, decide the method to obtain phone numbers (form submission or automated) for user locations or offices in-scope for the Audio Conferencing implementation</span></span></li><li><span data-ttu-id="bbcd6-539">确定要为每个专用会议桥接电话号码设置的语言首选项</span><span class="sxs-lookup"><span data-stu-id="bbcd6-539">Decide the language preferences to be set up for each dedicated conference bridge phone number</span></span></li><li><span data-ttu-id="bbcd6-540">确定租户默认会议桥接电话号码</span><span class="sxs-lookup"><span data-stu-id="bbcd6-540">Decide the tenant default conference bridge phone number</span></span></li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|<span data-ttu-id="bbcd6-541">后续步骤</span><span class="sxs-lookup"><span data-stu-id="bbcd6-541">Next Steps</span></span>|<ul><li><span data-ttu-id="bbcd6-542">记录电话号码获取的主计划，详细说明为音频会议实施的范围内每个用户位置或办公地点获取电话号码的方式。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-542">Document the master plan for phone numbers acquisition, detailing how phone numbers will be obtained for each user location or office in-scope for the Audio Conferencing implementation.</span></span></li><li><span data-ttu-id="bbcd6-543">如果适用，完成<a href="https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization">新电话号码请求表单</a>，每个位置或办公地点一个表单。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-543">If applicable, complete <a href="https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization">the New Telephone Number Request form</a>, one form for each location or office</span></span></li><li><span data-ttu-id="bbcd6-544">如果你选择转移现有电话号码，请参阅<a href="https://go.microsoft.com/fwlink/?linkid=859011">携号转网指南</a>以对其进行计划并相应地调整音频会议实施时间线。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-544">If you choose to transfer existing phone numbers, check out the <a href="https://go.microsoft.com/fwlink/?linkid=859011">Number Porting Guide</a> to plan it and adjust Audio Conferencing implementation timeline accordingly.</span></span></li><li><span data-ttu-id="bbcd6-545">记录详细的会议桥接电话号码配置（共享和专用会议桥接电话号码、每个专用会议桥接电话号码的语言首选项、租户默认会议桥接电话号码）</span><span class="sxs-lookup"><span data-stu-id="bbcd6-545">Document the detailed conference bridge phone number configurations (shared and dedicated conference bridge phone numbers, language preferences for each dedicated conference bridge phone number, tenant default conference bridge phone number)</span></span></li></ul>|
 
--   <span data-ttu-id="08d1e-574">会议进入和退出通知以记录的名称、电话号码和声音形式提供。</span><span class="sxs-lookup"><span data-stu-id="08d1e-574">Meeting entry and exit notifications are available in the form of recorded name, phone number, and tones.</span></span>
+> [!TIP]
+> <span data-ttu-id="bbcd6-546">下面是获取会议网桥详细信息的模板示例：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-546">Below is an example of a template to capture conference bridge details:</span></span>
+>|<span data-ttu-id="bbcd6-547">办公地点</span><span class="sxs-lookup"><span data-stu-id="bbcd6-547">Office</span></span>   |<span data-ttu-id="bbcd6-548">桥接号码获取和桥接类型</span><span class="sxs-lookup"><span data-stu-id="bbcd6-548">Bridge Number Acquisition and Bridge Type</span></span> |<span data-ttu-id="bbcd6-549">桥接号码</span><span class="sxs-lookup"><span data-stu-id="bbcd6-549">Bridge Number</span></span>  |<span data-ttu-id="bbcd6-550">桥接语言</span><span class="sxs-lookup"><span data-stu-id="bbcd6-550">Bridge Language</span></span>|
+>|---------|---------|---------|---------|
+>|<span data-ttu-id="bbcd6-551">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-551">One Epping Road</span></span>|<span data-ttu-id="bbcd6-552">获取新的专用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-552">Acquire new, dedicated</span></span>|<span data-ttu-id="bbcd6-553">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-553">TBA</span></span>|<span data-ttu-id="bbcd6-554">英语（澳大利亚）</span><span class="sxs-lookup"><span data-stu-id="bbcd6-554">English (Australia)</span></span>|
+>|<span data-ttu-id="bbcd6-555">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-555">One Marina Boulevard</span></span>|<span data-ttu-id="bbcd6-556">获取新的共享</span><span class="sxs-lookup"><span data-stu-id="bbcd6-556">Acquire new, shared</span></span>|<span data-ttu-id="bbcd6-557">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-557">TBA</span></span>|<span data-ttu-id="bbcd6-558">英语（美国）、中文（简体，中国）</span><span class="sxs-lookup"><span data-stu-id="bbcd6-558">English (United States), Chinese (Simplified, PRC)</span></span>|
+>|<span data-ttu-id="bbcd6-559">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-559">32 London Bridge Street</span></span>|<span data-ttu-id="bbcd6-560">转网现有的专用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-560">Port existing, dedicated</span></span>|<span data-ttu-id="bbcd6-561">+44 20 7946 0001</span><span class="sxs-lookup"><span data-stu-id="bbcd6-561">+44 20 7946 0001</span></span>|<span data-ttu-id="bbcd6-562">英语（英国）</span><span class="sxs-lookup"><span data-stu-id="bbcd6-562">English (United Kingdom)</span></span>|
+>|<span data-ttu-id="bbcd6-563">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="bbcd6-563">39 quai du Président Roosevelt</span></span>|<span data-ttu-id="bbcd6-564">获取新的专用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-564">Acquire new, dedicated</span></span>|<span data-ttu-id="bbcd6-565">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-565">TBA</span></span>|<span data-ttu-id="bbcd6-566">法语（法国）、英语（美国）</span><span class="sxs-lookup"><span data-stu-id="bbcd6-566">French (France), English (United Kingdom)</span></span>|
 
--   <span data-ttu-id="08d1e-575">PIN 长度可配置为 4 到 12 位，默认为 5 位 PIN。</span><span class="sxs-lookup"><span data-stu-id="08d1e-575">PIN length is configurable from 4 to 12 digits, with a 5-digit PIN as the default.</span></span>
+## <a name="conference-bridge-settings"></a><span data-ttu-id="bbcd6-567">会议桥接设置</span><span class="sxs-lookup"><span data-stu-id="bbcd6-567">Conference bridge settings</span></span>
 
--   <span data-ttu-id="08d1e-576">默认情况下，在启用音频会议许可证或管理员完成的任何其他更改后，启用通知电子邮件。</span><span class="sxs-lookup"><span data-stu-id="08d1e-576">Notification emails upon enablement of Audio Conferencing license or any other admin-driven changes are enabled by default.</span></span> <span data-ttu-id="08d1e-577">你可以禁用此功能并控制贵组织的最终用户通信。</span><span class="sxs-lookup"><span data-stu-id="08d1e-577">You can disable this feature and take control of your organization’s end-user communications.</span></span>
+<span data-ttu-id="bbcd6-568">提供了与音频会议加入体验（会议进入和退出通知以及呼叫方名称记录）、会议组织者的 PIN 长度及电子邮件通知的组织范围的配置选项，以进一步定制最终用户体验。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-568">Organization-wide configuration options around Audio Conferencing meeting join experience (meeting entry and exit notification and caller name recording), meeting organizer’s PIN length, and email notification are available to further tailor the end-user experience.</span></span>
 
-<span data-ttu-id="08d1e-578">对于为其分配了音频会议许可证的用户，可配置默认的收费/免费电话号码（在音频会议协调中显示）以使用：</span><span class="sxs-lookup"><span data-stu-id="08d1e-578">For users who are assigned an Audio Conferencing license, the default toll/toll-free numbers, shown in the Audio Conferencing coordinates, are configurable to use:</span></span>
+-   <span data-ttu-id="bbcd6-569">会议进入和退出通知以记录的名称、电话号码和声音形式提供。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-569">Meeting entry and exit notifications are available in the form of recorded name, phone number, and tones.</span></span>
+-   <span data-ttu-id="bbcd6-570">PIN 长度可配置为 4 到 12 位，默认为 5 位 PIN。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-570">PIN length is configurable from 4 to 12 digits, with a 5-digit PIN as the default.</span></span>
+-   <span data-ttu-id="bbcd6-571">默认情况下，在启用音频会议许可证或管理员完成的任何其他更改后，启用通知电子邮件。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-571">Notification emails upon enablement of Audio Conferencing license or any other admin-driven changes are enabled by default.</span></span> <span data-ttu-id="bbcd6-572">你可以禁用此功能并控制贵组织的最终用户通信。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-572">You can disable this feature and take control of your organization’s end-user communications.</span></span>
 
--   <span data-ttu-id="08d1e-579">租户级别默认电话号码，或</span><span class="sxs-lookup"><span data-stu-id="08d1e-579">the tenant-level default, or</span></span>
+<span data-ttu-id="bbcd6-573">对于为其分配了音频会议许可证的用户，可配置默认的收费/免费电话号码（在音频会议协调中显示）以使用：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-573">For users who are assigned an Audio Conferencing license, the default toll/toll-free numbers, shown in the Audio Conferencing coordinates, are configurable to use:</span></span>
 
--   <span data-ttu-id="08d1e-580">自动分配的会议桥接电话号码，或</span><span class="sxs-lookup"><span data-stu-id="08d1e-580">the automatically-assigned conference bridge phone numbers, or</span></span>
+-   <span data-ttu-id="bbcd6-574">租户级别默认电话号码，或</span><span class="sxs-lookup"><span data-stu-id="bbcd6-574">the tenant-level default, or</span></span>
+-   <span data-ttu-id="bbcd6-575">自动分配的会议桥接电话号码，或</span><span class="sxs-lookup"><span data-stu-id="bbcd6-575">the automatically-assigned conference bridge phone numbers, or</span></span>
+-   <span data-ttu-id="bbcd6-576">手动为每个用户定义的会议桥接电话号码。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-576">manually defined conference bridge phone numbers for each user.</span></span>
 
--   <span data-ttu-id="08d1e-581">手动为每个用户定义的会议桥接电话号码。</span><span class="sxs-lookup"><span data-stu-id="08d1e-581">manually defined conference bridge phone numbers for each user.</span></span>
+<span data-ttu-id="bbcd6-577">对于用户分散在各地且必须在会议邀请中提供本地号码作为默认会议桥接电话号码的全球性或全国性组织，用户特定的会议桥接电话号码通常很有用。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-577">User-specific conference bridge phone numbers are typically useful in global or nationwide organizations where users are distributed and must provide local numbers as the default conference bridge phone numbers in the meeting invites.</span></span>
 
-<span data-ttu-id="08d1e-582">对于用户分散在各地且必须在会议邀请中提供本地号码作为默认会议桥接电话号码的全球性或全国性组织，用户特定的会议桥接电话号码通常很有用。</span><span class="sxs-lookup"><span data-stu-id="08d1e-582">User-specific conference bridge phone numbers are typically useful in global or nationwide organizations where users are distributed and must provide local numbers as the default conference bridge phone numbers in the meeting invites.</span></span>
+<span data-ttu-id="bbcd6-578">从不同城市或国家/地区加入的参与者可以查找在租户级别配置的其他号码，但这些号码并不直接显示在会议邀请中。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-578">Participants joining from different cities or overseas can look up additional numbers configured at the tenant-level, but these numbers do not appear directly in the meeting invites.</span></span> <span data-ttu-id="bbcd6-579">会议邀请提供一个链接，参与者通过该链接可访问 Teams 会议拨入号码页面，在该页面中可查找距离其位置最近的可用会议桥接电话号码。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-579">The meeting invites provide a link that will take participants to the Teams Conference Dial-in Numbers page for them to lookup the closest conference bridge phone numbers available from their location.</span></span>
 
-<span data-ttu-id="08d1e-583">从不同城市或国家/地区加入的参与者可以查找在租户级别配置的其他号码，但这些号码并不直接显示在会议邀请中。</span><span class="sxs-lookup"><span data-stu-id="08d1e-583">Participants joining from different cities or overseas can look up additional numbers configured at the tenant-level, but these numbers do not appear directly in the meeting invites.</span></span> <span data-ttu-id="08d1e-584">会议邀请提供一个链接，参与者通过该链接可访问 Teams 会议拨入号码页面，在该页面中可查找距离其位置最近的可用会议桥接电话号码。</span><span class="sxs-lookup"><span data-stu-id="08d1e-584">The meeting invites provide a link that will take participants to the Teams Conference Dial-in Numbers page for them to lookup the closest conference bridge phone numbers available from their location.</span></span>
+<span data-ttu-id="bbcd6-580">你还可以配置各个会议组织者如何处理未经身份验证的呼叫方，是要求会议组织者先开始会议才能允许未经身份验证的呼叫方加入，还是允许未经身份验证的呼叫方开始会议。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-580">You can also configure how unauthenticated callers are handled by each individual meeting organizer, whether to require meeting organizer to start the meeting before unauthenticated callers are admitted, or to allow unauthenticated callers to start a meeting.</span></span>
 
-<span data-ttu-id="08d1e-585">你还可以配置各个会议组织者如何处理未经身份验证的呼叫方，是要求会议组织者先开始会议才能允许未经身份验证的呼叫方加入，还是允许未经身份验证的呼叫方开始会议。</span><span class="sxs-lookup"><span data-stu-id="08d1e-585">You can also configure how unauthenticated callers are handled by each individual meeting organizer, whether to require meeting organizer to start the meeting before unauthenticated callers are admitted, or to allow unauthenticated callers to start a meeting.</span></span>
-
-<span data-ttu-id="08d1e-586">提供了可以针对每个用户应用的其他配置，用于控制使用免费电话会议桥接电话号码和从会议拨出。</span><span class="sxs-lookup"><span data-stu-id="08d1e-586">Additional configurations that can be applied for each user are available to control the use of toll-free conference bridge phone numbers and dial-out from a conference.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="08d1e-587">这些与成本相关的控制当前仅预览版用户可用。</span><span class="sxs-lookup"><span data-stu-id="08d1e-587">These cost-related controls are currently available for preview customers only.</span></span> <span data-ttu-id="08d1e-588">你可以在 [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013) 上注册贵组织参与预览版计划。</span><span class="sxs-lookup"><span data-stu-id="08d1e-588">You can enroll your organization in the preview program from [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013).</span></span>
-
-<span data-ttu-id="08d1e-589">通过这些控制，你可以确定会议组织者是否可以为其组织的会议提供免费电话会议桥接电话号码，以及控制参与者是否可以从其组织的会议拨出。</span><span class="sxs-lookup"><span data-stu-id="08d1e-589">With these controls, you can decide whether meeting organizers can provide toll-free conference bridge phone numbers for meetings organized by them, and to control whether participants can dial out from the meetings organized by them.</span></span> <span data-ttu-id="08d1e-590">拨出控制级别涵盖不允许拨出、仅允许拨出到国内号码、允许拨出到国内号码和国际号码。</span><span class="sxs-lookup"><span data-stu-id="08d1e-590">The level of dial-out control spans from disallowing dial out, only allowing dial out to domestic numbers, to allowing dial out to both domestic and international numbers.</span></span>
-
-<table>
-<thead>
-<tr class="header">
-<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
-<td align="left"><span data-ttu-id="08d1e-591">决策点</span><span class="sxs-lookup"><span data-stu-id="08d1e-591">Decision Points</span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-592">确定组织是否需要进入和退出通知，如果需要，确定要实施的通知类型（声音、电话号码或记录的名称）。</span><span class="sxs-lookup"><span data-stu-id="08d1e-592">Decide whether the organization requires entry and exit notifications, and if yes, the type of notification to be implemented (tones, phone number, or recorded name).</span></span></li>
-<li><span data-ttu-id="08d1e-593">确定满足组织安全要求的音频会议 PIN 长度。</span><span class="sxs-lookup"><span data-stu-id="08d1e-593">Decide the Audio Conferencing PIN length that meets the organizational security requirements.</span></span></li>
-<li><span data-ttu-id="08d1e-594">确定组织是否要控制与音频会议服务有关的最终用户通信。</span><span class="sxs-lookup"><span data-stu-id="08d1e-594">Decide if the organization wants to take control of end-user communications related to Audio Conferencing service.</span></span></li>
-<li><span data-ttu-id="08d1e-595">确定要分配给每个会议组织者的会议桥接电话号码。</span><span class="sxs-lookup"><span data-stu-id="08d1e-595">Decide the conference bridge phone numbers to be assigned to each meeting organizer.</span></span></li>
-<li><span data-ttu-id="08d1e-596">确定某些会议组织者是否需要能够在其会议中使用免费电话会议桥接电话号码。</span><span class="sxs-lookup"><span data-stu-id="08d1e-596">Decide whether some meeting organizers require the ability to use toll-free conference bridge phone numbers for their meeings</span></span></li>
-<li><span data-ttu-id="08d1e-597">确定某些会议组织者是否需要能够允许未经身份验证的呼叫方开始会议。</span><span class="sxs-lookup"><span data-stu-id="08d1e-597">Decide whether some meeting organizers require the ability to allow unauthenticated callers to start a meeting.</span></span></li>
-<li><span data-ttu-id="08d1e-598">确定某些会议组织者是否需要控制会议拨出。</span><span class="sxs-lookup"><span data-stu-id="08d1e-598">Decide whether some meeting organizers require conference dial out to be controlled.</span></span></li></ul></td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left"><span data-ttu-id="08d1e-599">后续步骤</span><span class="sxs-lookup"><span data-stu-id="08d1e-599">Next Steps</span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-600">记录详细的会议桥接设置（进入和退出通知、PIN 长度、配置更改电子邮件通知）。</span><span class="sxs-lookup"><span data-stu-id="08d1e-600">Document the detailed conference bridge settings (entry and exit notifications, PIN length, configuration change email notification).</span></span></li>
-<li><span data-ttu-id="08d1e-601">记录要分配给每个会议组织者的会议桥接电话号码，以及用于控制未经身份验证的呼叫方策略、免费电话和拨出的相应设置。</span><span class="sxs-lookup"><span data-stu-id="08d1e-601">Document the conference bridge phone numbers to be assinged to each meeting organizer and the corresponding setting to control unauthenticated caller’s policy, and toll-free and dial out controls.</span></span></li></ul></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr class="header">
-<td align="left"><span data-ttu-id="08d1e-602"><strong>启用会议进入和退出通知</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-602"><strong>Enable meeting entry and exit notifications</strong></span></span></td>
-<td align="left"><span data-ttu-id="08d1e-603">启用</span><span class="sxs-lookup"><span data-stu-id="08d1e-603">Enabled</span></span></td>
-</tr>
-</thead>
-<thead>
-<tr class="header">
-<td align="left"><span data-ttu-id="08d1e-604"><strong>进入/退出通知</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-604"><strong>Entry/exit announcement type</strong></span></span></td>
-<td align="left"><span data-ttu-id="08d1e-605">声音</span><span class="sxs-lookup"><span data-stu-id="08d1e-605">Tones</span></span></td>
-</tr>
-<tr class="header">
-<td align="left"><span data-ttu-id="08d1e-606"><strong>要求呼叫方在加入会议之前记录其名称</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-606"><strong>Ask callers to record their name before joining the meeting</strong></span></span></td>
-<td align="left"><span data-ttu-id="08d1e-607">禁用</span><span class="sxs-lookup"><span data-stu-id="08d1e-607">Disabled</span></span></td>
-</tr>
-<tr class="header">
-<td align="left"><span data-ttu-id="08d1e-608"><strong>PIN 长度</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-608"><strong>PIN length</strong></span></span></td>
-<td align="left"><span data-ttu-id="08d1e-609">5</span><span class="sxs-lookup"><span data-stu-id="08d1e-609">5</span></span></td>
-</tr>
-<tr class="header">
-<td align="left"><span data-ttu-id="08d1e-610"><strong>如果用户的拨入设置发生变化，自动向其发送电子邮件</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-610"><strong>Automatically send emails to users if their dial-in settings change</strong></span></span></td>
-<td align="left"><span data-ttu-id="08d1e-611">禁用</span><span class="sxs-lookup"><span data-stu-id="08d1e-611">Disabled</span></span></td>
-</tr>
-</tbody>
-</table>
-
-<span data-ttu-id="08d1e-612">_表 11 会议桥接设置示例_</span><span class="sxs-lookup"><span data-stu-id="08d1e-612">_Table 11 Example of conference bridge settings_</span></span>
-
-
-<table>
-<thead>
-<tr class="header">
-<th align="left"><span data-ttu-id="08d1e-613">用户</span><span class="sxs-lookup"><span data-stu-id="08d1e-613">User</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-614">办公地点</span><span class="sxs-lookup"><span data-stu-id="08d1e-614">Office</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-615">默认收费电话号码</span><span class="sxs-lookup"><span data-stu-id="08d1e-615">Default toll number</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-616">默认免费电话号码</span><span class="sxs-lookup"><span data-stu-id="08d1e-616">Default toll-free number</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-617">允许免费电话</span><span class="sxs-lookup"><span data-stu-id="08d1e-617">Allow toll-free</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-618">未经身份验证的呼叫方绕过休息室</span><span class="sxs-lookup"><span data-stu-id="08d1e-618">Unauthenticated callers bypass lobby</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-619">会议拨出</span><span class="sxs-lookup"><span data-stu-id="08d1e-619">Conference dial out</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-620">Adele Vance</span><span class="sxs-lookup"><span data-stu-id="08d1e-620">Adele Vance</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-621">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-621">One Epping Road</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-622">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-622">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-623">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-623">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-624">是</span><span class="sxs-lookup"><span data-stu-id="08d1e-624">Yes</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-625">启用</span><span class="sxs-lookup"><span data-stu-id="08d1e-625">Enabled</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-626">国际和国内</span><span class="sxs-lookup"><span data-stu-id="08d1e-626">International and domestic</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-627">Alex Wilber</span><span class="sxs-lookup"><span data-stu-id="08d1e-627">Alex Wilber</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-628">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-628">One Epping Road</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-629">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-629">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-630">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-630">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-631">否</span><span class="sxs-lookup"><span data-stu-id="08d1e-631">No</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-632">禁用</span><span class="sxs-lookup"><span data-stu-id="08d1e-632">Disabled</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-633">不允许</span><span class="sxs-lookup"><span data-stu-id="08d1e-633">Not allowed</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-634">Ben Walters</span><span class="sxs-lookup"><span data-stu-id="08d1e-634">Ben Walters</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-635">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-635">One Epping Road</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-636">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-636">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-637">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-637">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-638">否</span><span class="sxs-lookup"><span data-stu-id="08d1e-638">No</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-639">禁用</span><span class="sxs-lookup"><span data-stu-id="08d1e-639">Disabled</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-640">不允许</span><span class="sxs-lookup"><span data-stu-id="08d1e-640">Not allowed</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-641">Christie Cline</span><span class="sxs-lookup"><span data-stu-id="08d1e-641">Christie Cline</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-642">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-642">One Marina Boulevard</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-643">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-643">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-644">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-644">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-645">是</span><span class="sxs-lookup"><span data-stu-id="08d1e-645">Yes</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-646">禁用</span><span class="sxs-lookup"><span data-stu-id="08d1e-646">Disabled</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-647">国内</span><span class="sxs-lookup"><span data-stu-id="08d1e-647">Domestic</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-648">Debra Berger</span><span class="sxs-lookup"><span data-stu-id="08d1e-648">Debra Berger</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-649">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-649">One Marina Boulevard</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-650">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-650">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-651">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-651">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-652">是</span><span class="sxs-lookup"><span data-stu-id="08d1e-652">Yes</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-653">启用</span><span class="sxs-lookup"><span data-stu-id="08d1e-653">Enabled</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-654">国内</span><span class="sxs-lookup"><span data-stu-id="08d1e-654">Domestic</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-655">Lee Gu</span><span class="sxs-lookup"><span data-stu-id="08d1e-655">Lee Gu</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-656">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-656">One Marina Boulevard</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-657">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-657">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-658">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-658">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-659">是</span><span class="sxs-lookup"><span data-stu-id="08d1e-659">Yes</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-660">启用</span><span class="sxs-lookup"><span data-stu-id="08d1e-660">Enabled</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-661">国内</span><span class="sxs-lookup"><span data-stu-id="08d1e-661">Domestic</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-662">Emily Braun</span><span class="sxs-lookup"><span data-stu-id="08d1e-662">Emily Braun</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-663">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="08d1e-663">32 London Bridge Street</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-664">+44 20 7946 0001</span><span class="sxs-lookup"><span data-stu-id="08d1e-664">+44 20 7946 0001</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-665">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-665">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-666">是</span><span class="sxs-lookup"><span data-stu-id="08d1e-666">Yes</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-667">启用</span><span class="sxs-lookup"><span data-stu-id="08d1e-667">Enabled</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-668">不允许</span><span class="sxs-lookup"><span data-stu-id="08d1e-668">Not allowed</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-669">Lidia Holloway</span><span class="sxs-lookup"><span data-stu-id="08d1e-669">Lidia Holloway</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-670">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="08d1e-670">32 London Bridge Street</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-671">+44 20 7946 0001</span><span class="sxs-lookup"><span data-stu-id="08d1e-671">+44 20 7946 0001</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-672">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-672">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-673">是</span><span class="sxs-lookup"><span data-stu-id="08d1e-673">Yes</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-674">禁用</span><span class="sxs-lookup"><span data-stu-id="08d1e-674">Disabled</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-675">不允许</span><span class="sxs-lookup"><span data-stu-id="08d1e-675">Not allowed</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-676">Pradeep Gupta</span><span class="sxs-lookup"><span data-stu-id="08d1e-676">Pradeep Gupta</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-677">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="08d1e-677">32 London Bridge Street</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-678">+44 20 7946 0001</span><span class="sxs-lookup"><span data-stu-id="08d1e-678">+44 20 7946 0001</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-679">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-679">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-680">是</span><span class="sxs-lookup"><span data-stu-id="08d1e-680">Yes</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-681">禁用</span><span class="sxs-lookup"><span data-stu-id="08d1e-681">Disabled</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-682">不允许</span><span class="sxs-lookup"><span data-stu-id="08d1e-682">Not allowed</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-683">Marcel Beauchamp</span><span class="sxs-lookup"><span data-stu-id="08d1e-683">Marcel Beauchamp</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-684">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="08d1e-684">39 quai du Président Roosevelt</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-685">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-685">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-686">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-686">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-687">否</span><span class="sxs-lookup"><span data-stu-id="08d1e-687">No</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-688">禁用</span><span class="sxs-lookup"><span data-stu-id="08d1e-688">Disabled</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-689">国内</span><span class="sxs-lookup"><span data-stu-id="08d1e-689">Domestic</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-690">Rachelle Cormier</span><span class="sxs-lookup"><span data-stu-id="08d1e-690">Rachelle Cormier</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-691">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="08d1e-691">39 quai du Président Roosevelt</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-692">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-692">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-693">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-693">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-694">是</span><span class="sxs-lookup"><span data-stu-id="08d1e-694">Yes</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-695">启用</span><span class="sxs-lookup"><span data-stu-id="08d1e-695">Enabled</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-696">国际和国内</span><span class="sxs-lookup"><span data-stu-id="08d1e-696">International and domestic</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-697">Isabell Potvin</span><span class="sxs-lookup"><span data-stu-id="08d1e-697">Isabell Potvin</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-698">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="08d1e-698">39 quai du Président Roosevelt</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-699">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-699">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-700">TBA</span><span class="sxs-lookup"><span data-stu-id="08d1e-700">TBA</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-701">否</span><span class="sxs-lookup"><span data-stu-id="08d1e-701">No</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-702">禁用</span><span class="sxs-lookup"><span data-stu-id="08d1e-702">Disabled</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-703">国内</span><span class="sxs-lookup"><span data-stu-id="08d1e-703">Domestic</span></span></td>
-</tr>
-</tbody>
-</table>
-
-<span data-ttu-id="08d1e-704">_表 12 会议桥接设置分配示例_</span><span class="sxs-lookup"><span data-stu-id="08d1e-704">_Table 12 Example of conference bridge settings assignments_</span></span>
-
-
-## <a name="dial-plans"></a><span data-ttu-id="08d1e-705">拨号计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-705">Dial plans</span></span>
-
-<span data-ttu-id="08d1e-706">作为 Office 365 的一项电话系统功能的[拨号计划](https://support.office.com/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b)是一组规范化规则，用于将拨打的电话号码转换为替代格式（通常为 [E.164](https://go.microsoft.com/fwlink/?linkid=859014) 格式）以便进行呼叫授权和呼叫路由。</span><span class="sxs-lookup"><span data-stu-id="08d1e-706">A [Dial Plan](https://support.office.com/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b), a Phone System feature of Office 365, is a set of normalization rules that translates dialed phone numbers into an alternate format (typically [E.164](https://go.microsoft.com/fwlink/?linkid=859014) format) for call authorization and call routing.</span></span> <span data-ttu-id="08d1e-707">音频会议服务利用电话系统使用的相同功能在会议拨出应用场景中转换拨打的电话号码。</span><span class="sxs-lookup"><span data-stu-id="08d1e-707">Audio Conferencing service leverages the same capabilities used by Phone System to translate dialed phone numbers in conference dial out scenarios.</span></span>
-
-<span data-ttu-id="08d1e-708">拨号计划允许用户按其习惯的方式（例如，对于本地呼叫省略区号，对于国内呼叫省略国家/地区代码，甚至在进行会议拨出时使用简短数字拨号）拨打电话号码。</span><span class="sxs-lookup"><span data-stu-id="08d1e-708">A dial plan allows users to dial phone numbers the way they are accustomed to, such as omitting area code for local calls, omitting country code for domestic calls, or even using short digit dialing when performing conference dial out.</span></span>
-
-<span data-ttu-id="08d1e-709">在 Office 365 的电话系统功能中，有两种类型的拨号计划：</span><span class="sxs-lookup"><span data-stu-id="08d1e-709">Within the Phone System feature of Office 365, there are two types of dial plans:</span></span>
-
--   <span data-ttu-id="08d1e-710">**服务拨号计划**。</span><span class="sxs-lookup"><span data-stu-id="08d1e-710">**Service dial plan**.</span></span> <span data-ttu-id="08d1e-711">这是默认的拨号计划，基于 Office 365 使用位置适用于用户，无法修改。</span><span class="sxs-lookup"><span data-stu-id="08d1e-711">This is the default dial plan and applied to users based on Office 365 usage location, and it cannot be modified.</span></span>
-
-<!-- -->
-
--   <span data-ttu-id="08d1e-712">**租户拨号计划**。</span><span class="sxs-lookup"><span data-stu-id="08d1e-712">**Tenant dial plan**.</span></span> <span data-ttu-id="08d1e-713">这是租户中的自定义拨号计划，进一步分成两种类型：</span><span class="sxs-lookup"><span data-stu-id="08d1e-713">This is a customizable dial plan within a tenant, and further divided into two types:</span></span>
-
-    -   <span data-ttu-id="08d1e-714">**租户-全局拨号计划** - 该拨号计划适用于租户中的所有用户。</span><span class="sxs-lookup"><span data-stu-id="08d1e-714">**Tenant-global dial plan**—the dial plan applies to all users within the tenant.</span></span>
-
-    -   <span data-ttu-id="08d1e-715">**租户-用户拨号计划** - 该拨号计划仅适用于特定用户。</span><span class="sxs-lookup"><span data-stu-id="08d1e-715">**Tenant-user dial plan**—the dial plan applies only to specific users.</span></span>
-
+<span data-ttu-id="bbcd6-581">提供了可以针对每个用户应用的其他配置，用于控制使用免费电话会议桥接电话号码和从会议拨出。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-581">Additional configurations that can be applied for each user are available to control the use of toll-free conference bridge phone numbers and dial-out from a conference.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="08d1e-716">有关进一步详细信息和示例，请参阅 [Office 365 呼叫计划拨号计划](https://support.office.com/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b)文档。</span><span class="sxs-lookup"><span data-stu-id="08d1e-716">Check out the [Office 365 Calling Plan dial plans](https://support.office.com/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b) documentation for further details and examples.</span></span>
+> <span data-ttu-id="bbcd6-582">这些与成本相关的控制当前仅预览版用户可用。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-582">These cost-related controls are currently available for preview customers only.</span></span> <span data-ttu-id="bbcd6-583">你可以在 [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013) 上注册贵组织参与预览版计划。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-583">You can enroll your organization in the preview program from [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013).</span></span>
 
-<span data-ttu-id="08d1e-717">分配给用户的有效拨号计划是服务拨号计划（基于用户的 Office 365 使用位置）和租户拨号计划（可以是租户-全局拨号计划或租户-用户拨号计划）的组合。</span><span class="sxs-lookup"><span data-stu-id="08d1e-717">The effective dial plan assigned to users is the combination of service dial plan (based on user’s Office 365 usage location) and tenant dial plan (can be either tenant-global dial plan or tenant-user dial plan).</span></span>
+<span data-ttu-id="bbcd6-584">通过这些控制，你可以确定会议组织者是否可以为其组织的会议提供免费电话会议桥接电话号码，以及控制参与者是否可以从其组织的会议拨出。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-584">With these controls, you can decide whether meeting organizers can provide toll-free conference bridge phone numbers for meetings organized by them, and to control whether participants can dial out from the meetings organized by them.</span></span> <span data-ttu-id="bbcd6-585">拨出控制级别涵盖不允许拨出、仅允许拨出到国内号码、允许拨出到国内号码和国际号码。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-585">The level of dial-out control spans from disallowing dial out, only allowing dial out to domestic numbers, to allowing dial out to both domestic and international numbers.</span></span>
+
+<br>
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|<span data-ttu-id="bbcd6-586">决策点</span><span class="sxs-lookup"><span data-stu-id="bbcd6-586">Decision Points</span></span>|<ul><li><span data-ttu-id="bbcd6-587">确定组织是否需要进入和退出通知，如果需要，确定要实施的通知类型（声音、电话号码或记录的名称）</span><span class="sxs-lookup"><span data-stu-id="bbcd6-587">Decide whether the organization requires entry and exit notifications, and if yes, the type of notification to be implemented (tones, phone number, or recorded name).</span></span></li><li><span data-ttu-id="bbcd6-588">确定满足组织安全要求的音频会议 PIN 长度</span><span class="sxs-lookup"><span data-stu-id="bbcd6-588">Decide the Audio Conferencing PIN length that meets the organizational security requirements.</span></span></li><li><span data-ttu-id="bbcd6-589">确定组织是否要控制与音频会议服务有关的最终用户通信</span><span class="sxs-lookup"><span data-stu-id="bbcd6-589">Decide if the organization wants to take control of end-user communications related to Audio Conferencing service.</span></span></li><li><span data-ttu-id="bbcd6-590">确定要分配给每个会议组织者的会议网桥电话号码</span><span class="sxs-lookup"><span data-stu-id="bbcd6-590">Decide the conference bridge phone numbers to be assigned to each meeting organizer.</span></span></li><li><span data-ttu-id="bbcd6-591">确定某些会议组织者是否需要能够在其会议中使用免费电话会议桥接电话号码。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-591">Decide whether some meeting organizers require the ability to use toll-free conference bridge phone numbers for their meeings</span></span></li><li><span data-ttu-id="bbcd6-592">确定某些会议组织者是否需要能够允许未经身份验证的呼叫方开始会议</span><span class="sxs-lookup"><span data-stu-id="bbcd6-592">Decide whether some meeting organizers require the ability to allow unauthenticated callers to start a meeting.</span></span></li><li><span data-ttu-id="bbcd6-593">确定某些会议组织者是否需要控制会议拨出</span><span class="sxs-lookup"><span data-stu-id="bbcd6-593">Decide whether some meeting organizers require conference dial out to be controlled.</span></span></li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|<span data-ttu-id="bbcd6-594">后续步骤</span><span class="sxs-lookup"><span data-stu-id="bbcd6-594">Next Steps</span></span>|<ul><li><span data-ttu-id="bbcd6-595">记录详细的会议网桥设置（进入和退出通知、PIN 长度、配置更改电子邮件通知）</span><span class="sxs-lookup"><span data-stu-id="bbcd6-595">Document the detailed conference bridge settings (entry and exit notifications, PIN length, configuration change email notification).</span></span></li><li><span data-ttu-id="bbcd6-596">记录要分配给每个会议组织者的会议网桥电话号码，以及用于控制未经身份验证的呼叫方策略、免费电话和拨出的相应设置</span><span class="sxs-lookup"><span data-stu-id="bbcd6-596">Document the conference bridge phone numbers to be assinged to each meeting organizer and the corresponding setting to control unauthenticated caller’s policy, and toll-free and dial out controls.</span></span></li></ul>|
+
+> [!TIP]
+> <span data-ttu-id="bbcd6-597">可以按如下所示记录会议网桥设置：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-597">Your conference bridge settings can be documented as the following:</span></span>
+>|         |         |
+>|---------|---------|
+>|<span data-ttu-id="bbcd6-598">启用会议进入和退出通知</span><span class="sxs-lookup"><span data-stu-id="bbcd6-598">Enable meeting entry and exit notifications</span></span>|<span data-ttu-id="bbcd6-599">启用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-599">Enabled</span></span>|
+>|<span data-ttu-id="bbcd6-600">进入/退出通知类型</span><span class="sxs-lookup"><span data-stu-id="bbcd6-600">Entry/exit announcement type</span></span>|<span data-ttu-id="bbcd6-601">声音</span><span class="sxs-lookup"><span data-stu-id="bbcd6-601">Tones</span></span>|
+>|<span data-ttu-id="bbcd6-602">要求呼叫方在加入会议之前记录其名称</span><span class="sxs-lookup"><span data-stu-id="bbcd6-602">Ask callers to record their name before joining the meeting</span></span>|<span data-ttu-id="bbcd6-603">禁用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-603">Disabled</span></span>|
+>|<span data-ttu-id="bbcd6-604">PIN 长度</span><span class="sxs-lookup"><span data-stu-id="bbcd6-604">PIN length</span></span>|<span data-ttu-id="bbcd6-605">5</span><span class="sxs-lookup"><span data-stu-id="bbcd6-605">5 Participants</span></span>|
+>|<span data-ttu-id="bbcd6-606">如果用户的拨入设置发生变化，自动向其发送电子邮件</span><span class="sxs-lookup"><span data-stu-id="bbcd6-606">Automatically send emails to users if their dial-in settings change</span></span>|<span data-ttu-id="bbcd6-607">禁用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-607">Disabled</span></span>|
+
+<br>
+> [!TIP]
+> <span data-ttu-id="bbcd6-608">可以使用以下示例记录音频会议用户的会议网桥设置分配：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-608">You can document the conference bridge settings assignment list for Audio Conferencing users using the following example:</span></span>
+>|<span data-ttu-id="bbcd6-609">用户</span><span class="sxs-lookup"><span data-stu-id="bbcd6-609">User</span></span>  |<span data-ttu-id="bbcd6-610">办公地点</span><span class="sxs-lookup"><span data-stu-id="bbcd6-610">Office</span></span>  |<span data-ttu-id="bbcd6-611">默认收费电话号码</span><span class="sxs-lookup"><span data-stu-id="bbcd6-611">Default toll number</span></span>  |<span data-ttu-id="bbcd6-612">默认免费电话号码</span><span class="sxs-lookup"><span data-stu-id="bbcd6-612">Default toll-free number</span></span>  |<span data-ttu-id="bbcd6-613">允许免费电话</span><span class="sxs-lookup"><span data-stu-id="bbcd6-613">Allow toll-free</span></span>  |<span data-ttu-id="bbcd6-614">未经身份验证的呼叫方绕过休息室</span><span class="sxs-lookup"><span data-stu-id="bbcd6-614">Unauthenticated callers bypass lobby</span></span>  |<span data-ttu-id="bbcd6-615">会议拨出</span><span class="sxs-lookup"><span data-stu-id="bbcd6-615">Conference dial out</span></span>  |
+>|---------|---------|---------|---------|---------|---------|---------|
+>|<span data-ttu-id="bbcd6-616">Adele Vance</span><span class="sxs-lookup"><span data-stu-id="bbcd6-616">Adele Vance</span></span>|<span data-ttu-id="bbcd6-617">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-617">One Epping Road</span></span>|<span data-ttu-id="bbcd6-618">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-618">TBA</span></span>|<span data-ttu-id="bbcd6-619">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-619">TBA</span></span>|<span data-ttu-id="bbcd6-620">是</span><span class="sxs-lookup"><span data-stu-id="bbcd6-620">Yes</span></span>|<span data-ttu-id="bbcd6-621">启用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-621">Enabled</span></span>|<span data-ttu-id="bbcd6-622">国际和国内</span><span class="sxs-lookup"><span data-stu-id="bbcd6-622">International and domestic</span></span>|
+>|<span data-ttu-id="bbcd6-623">Alex Wilber</span><span class="sxs-lookup"><span data-stu-id="bbcd6-623">Alex Wilber</span></span>|<span data-ttu-id="bbcd6-624">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-624">One Epping Road</span></span>|<span data-ttu-id="bbcd6-625">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-625">TBA</span></span>|<span data-ttu-id="bbcd6-626">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-626">TBA</span></span>|<span data-ttu-id="bbcd6-627">否</span><span class="sxs-lookup"><span data-stu-id="bbcd6-627">No</span></span>|<span data-ttu-id="bbcd6-628">禁用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-628">Disabled</span></span>|<span data-ttu-id="bbcd6-629">不允许</span><span class="sxs-lookup"><span data-stu-id="bbcd6-629">Not allowed</span></span>|
+>|<span data-ttu-id="bbcd6-630">Ben Walters</span><span class="sxs-lookup"><span data-stu-id="bbcd6-630">Ben Walters</span></span>|<span data-ttu-id="bbcd6-631">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-631">One Epping Road</span></span>|<span data-ttu-id="bbcd6-632">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-632">TBA</span></span>|<span data-ttu-id="bbcd6-633">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-633">TBA</span></span>|<span data-ttu-id="bbcd6-634">否</span><span class="sxs-lookup"><span data-stu-id="bbcd6-634">No</span></span>|<span data-ttu-id="bbcd6-635">禁用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-635">Disabled</span></span>|<span data-ttu-id="bbcd6-636">不允许</span><span class="sxs-lookup"><span data-stu-id="bbcd6-636">Not allowed</span></span>|
+>|<span data-ttu-id="bbcd6-637">Christie Cline</span><span class="sxs-lookup"><span data-stu-id="bbcd6-637">Christie Cline</span></span>|<span data-ttu-id="bbcd6-638">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-638">One Marina Boulevard</span></span>|<span data-ttu-id="bbcd6-639">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-639">TBA</span></span>|<span data-ttu-id="bbcd6-640">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-640">TBA</span></span>|<span data-ttu-id="bbcd6-641">是</span><span class="sxs-lookup"><span data-stu-id="bbcd6-641">Yes</span></span>|<span data-ttu-id="bbcd6-642">禁用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-642">Disabled</span></span>|<span data-ttu-id="bbcd6-643">国内</span><span class="sxs-lookup"><span data-stu-id="bbcd6-643">Domestic</span></span>|
+>|<span data-ttu-id="bbcd6-644">Debra Berger</span><span class="sxs-lookup"><span data-stu-id="bbcd6-644">Debra Berger</span></span>|<span data-ttu-id="bbcd6-645">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-645">One Marina Boulevard</span></span>|<span data-ttu-id="bbcd6-646">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-646">TBA</span></span>|<span data-ttu-id="bbcd6-647">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-647">TBA</span></span>|<span data-ttu-id="bbcd6-648">是</span><span class="sxs-lookup"><span data-stu-id="bbcd6-648">Yes</span></span>|<span data-ttu-id="bbcd6-649">启用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-649">Enabled</span></span>|<span data-ttu-id="bbcd6-650">国内</span><span class="sxs-lookup"><span data-stu-id="bbcd6-650">Domestic</span></span>|
+>|<span data-ttu-id="bbcd6-651">Lee Gu</span><span class="sxs-lookup"><span data-stu-id="bbcd6-651">Lee Gu</span></span>|<span data-ttu-id="bbcd6-652">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-652">One Marina Boulevard</span></span>|<span data-ttu-id="bbcd6-653">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-653">TBA</span></span>|<span data-ttu-id="bbcd6-654">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-654">TBA</span></span>|<span data-ttu-id="bbcd6-655">是</span><span class="sxs-lookup"><span data-stu-id="bbcd6-655">Yes</span></span>|<span data-ttu-id="bbcd6-656">启用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-656">Enabled</span></span>|<span data-ttu-id="bbcd6-657">国内</span><span class="sxs-lookup"><span data-stu-id="bbcd6-657">Domestic</span></span>|
+>|<span data-ttu-id="bbcd6-658">Emily Braun</span><span class="sxs-lookup"><span data-stu-id="bbcd6-658">Emily Braun</span></span>|<span data-ttu-id="bbcd6-659">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-659">32 London Bridge Street</span></span>|<span data-ttu-id="bbcd6-660">+44 20 7946 0001</span><span class="sxs-lookup"><span data-stu-id="bbcd6-660">+44 20 7946 0001</span></span>|<span data-ttu-id="bbcd6-661">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-661">TBA</span></span>|<span data-ttu-id="bbcd6-662">是</span><span class="sxs-lookup"><span data-stu-id="bbcd6-662">Yes</span></span>|<span data-ttu-id="bbcd6-663">启用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-663">Enabled</span></span>|<span data-ttu-id="bbcd6-664">不允许</span><span class="sxs-lookup"><span data-stu-id="bbcd6-664">Not allowed</span></span>|
+>|<span data-ttu-id="bbcd6-665">Lidia Holloway</span><span class="sxs-lookup"><span data-stu-id="bbcd6-665">Lidia Holloway</span></span>|<span data-ttu-id="bbcd6-666">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-666">32 London Bridge Street</span></span>|<span data-ttu-id="bbcd6-667">+44 20 7946 0001</span><span class="sxs-lookup"><span data-stu-id="bbcd6-667">+44 20 7946 0001</span></span>|<span data-ttu-id="bbcd6-668">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-668">TBA</span></span>|<span data-ttu-id="bbcd6-669">是</span><span class="sxs-lookup"><span data-stu-id="bbcd6-669">Yes</span></span>|<span data-ttu-id="bbcd6-670">禁用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-670">Disabled</span></span>|<span data-ttu-id="bbcd6-671">不允许</span><span class="sxs-lookup"><span data-stu-id="bbcd6-671">Not allowed</span></span>|
+>|<span data-ttu-id="bbcd6-672">Pradeep Gupta</span><span class="sxs-lookup"><span data-stu-id="bbcd6-672">Pradeep Gupta</span></span>|<span data-ttu-id="bbcd6-673">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-673">32 London Bridge Street</span></span>|<span data-ttu-id="bbcd6-674">+44 20 7946 0001</span><span class="sxs-lookup"><span data-stu-id="bbcd6-674">+44 20 7946 0001</span></span>|<span data-ttu-id="bbcd6-675">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-675">TBA</span></span>|<span data-ttu-id="bbcd6-676">是</span><span class="sxs-lookup"><span data-stu-id="bbcd6-676">Yes</span></span>|<span data-ttu-id="bbcd6-677">禁用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-677">Disabled</span></span>|<span data-ttu-id="bbcd6-678">不允许</span><span class="sxs-lookup"><span data-stu-id="bbcd6-678">Not allowed</span></span>|
+>|<span data-ttu-id="bbcd6-679">Marcel Beauchamp</span><span class="sxs-lookup"><span data-stu-id="bbcd6-679">Marcel Beauchamp</span></span>|<span data-ttu-id="bbcd6-680">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="bbcd6-680">39 quai du Président Roosevelt</span></span>|<span data-ttu-id="bbcd6-681">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-681">TBA</span></span>|<span data-ttu-id="bbcd6-682">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-682">TBA</span></span>|<span data-ttu-id="bbcd6-683">否</span><span class="sxs-lookup"><span data-stu-id="bbcd6-683">No</span></span>|<span data-ttu-id="bbcd6-684">禁用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-684">Disabled</span></span>|<span data-ttu-id="bbcd6-685">国内</span><span class="sxs-lookup"><span data-stu-id="bbcd6-685">Domestic</span></span>|
+>|<span data-ttu-id="bbcd6-686">Rachelle Cormier</span><span class="sxs-lookup"><span data-stu-id="bbcd6-686">Rachelle Cormier</span></span>|<span data-ttu-id="bbcd6-687">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="bbcd6-687">39 quai du Président Roosevelt</span></span>|<span data-ttu-id="bbcd6-688">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-688">TBA</span></span>|<span data-ttu-id="bbcd6-689">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-689">TBA</span></span>|<span data-ttu-id="bbcd6-690">是</span><span class="sxs-lookup"><span data-stu-id="bbcd6-690">Yes</span></span>|<span data-ttu-id="bbcd6-691">启用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-691">Enabled</span></span>|<span data-ttu-id="bbcd6-692">国际和国内</span><span class="sxs-lookup"><span data-stu-id="bbcd6-692">International and domestic</span></span>|
+>|<span data-ttu-id="bbcd6-693">Isabell Potvin</span><span class="sxs-lookup"><span data-stu-id="bbcd6-693">Isabell Potvin</span></span>|<span data-ttu-id="bbcd6-694">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="bbcd6-694">39 quai du Président Roosevelt</span></span>|<span data-ttu-id="bbcd6-695">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-695">TBA</span></span>|<span data-ttu-id="bbcd6-696">TBA</span><span class="sxs-lookup"><span data-stu-id="bbcd6-696">TBA</span></span>|<span data-ttu-id="bbcd6-697">否</span><span class="sxs-lookup"><span data-stu-id="bbcd6-697">No</span></span>|<span data-ttu-id="bbcd6-698">禁用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-698">Disabled</span></span>|<span data-ttu-id="bbcd6-699">国内</span><span class="sxs-lookup"><span data-stu-id="bbcd6-699">Domestic</span></span>|
+
+## <a name="dial-plans"></a><span data-ttu-id="bbcd6-700">拨号计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-700">Dial plans</span></span>
+
+<span data-ttu-id="bbcd6-701">Office 365 的电话系统功能中的[拨号计划](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)是一组规范化规则，用于将拨打的电话号码转换为替代格式（通常为 [E.164](https://go.microsoft.com/fwlink/?linkid=859014) 格式）以便进行呼叫授权和呼叫路由。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-701">A [Dial Plan](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans), a Phone System feature of Office 365, is a set of normalization rules that translates dialed phone numbers into an alternate format (typically [E.164](https://go.microsoft.com/fwlink/?linkid=859014) format) for call authorization and call routing.</span></span> <span data-ttu-id="bbcd6-702">音频会议服务利用电话系统使用的相同功能在会议拨出应用场景中转换拨打的电话号码。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-702">Audio Conferencing service leverages the same capabilities used by Phone System to translate dialed phone numbers in conference dial out scenarios.</span></span>
+
+<span data-ttu-id="bbcd6-703">拨号计划允许用户按其习惯的方式（例如，对于本地呼叫省略区号，对于国内呼叫省略国家/地区代码，甚至在进行会议拨出时使用简短数字拨号）拨打电话号码。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-703">A dial plan allows users to dial phone numbers the way they are accustomed to, such as omitting area code for local calls, omitting country code for domestic calls, or even using short digit dialing when performing conference dial out.</span></span>
+
+<span data-ttu-id="bbcd6-704">在 Office 365 的电话系统功能中，有两种类型的拨号计划：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-704">Within the Phone System feature of Office 365, there are two types of dial plans:</span></span>
+
+-   <span data-ttu-id="bbcd6-705">**服务拨号计划**。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-705">**Service dial plan**.</span></span> <span data-ttu-id="bbcd6-706">这是默认的拨号计划，基于 Office 365 使用位置适用于用户，无法修改。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-706">This is the default dial plan and applied to users based on Office 365 usage location, and it cannot be modified.</span></span>
+-   <span data-ttu-id="bbcd6-707">**租户拨号计划**。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-707">**Tenant dial plan**.</span></span> <span data-ttu-id="bbcd6-708">这是租户中的自定义拨号计划，进一步分成两种类型：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-708">This is a customizable dial plan within a tenant, and further divided into two types:</span></span>
+    -   <span data-ttu-id="bbcd6-709">**租户-全局拨号计划** - 该拨号计划适用于租户中的所有用户。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-709">**Tenant-global dial plan**—the dial plan applies to all users within the tenant.</span></span>
+    -   <span data-ttu-id="bbcd6-710">**租户-用户拨号计划** - 该拨号计划仅适用于特定用户。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-710">**Tenant-user dial plan**—the dial plan applies only to specific users.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="bbcd6-711">有关进一步详细信息和示例，请参阅[什么是拨号计划？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)文档。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-711">Check out the [Office 365 Calling Plan dial plans](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) documentation for further details and examples.</span></span>
+
+<span data-ttu-id="bbcd6-712">分配给用户的有效拨号计划是服务拨号计划（基于用户的 Office 365 使用位置）和租户拨号计划（可以是租户-全局拨号计划或租户-用户拨号计划）的组合。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-712">The effective dial plan assigned to users is the combination of service dial plan (based on user’s Office 365 usage location) and tenant dial plan (can be either tenant-global dial plan or tenant-user dial plan).</span></span>
 
 ![此表显示服务和租户拨号计划的三种组合。](media/audio_conferencing_image8.png)
 
-<span data-ttu-id="08d1e-719">每个租户拨号计划中最多可以有 25 个规范化规则，因此，需要避免重复出现已作为服务拨号计划的一部分提供的规范化规则。</span><span class="sxs-lookup"><span data-stu-id="08d1e-719">There is a maximum of 25 normalization rules in each tenant dial plan, and thus duplication with normalization rules already available as part of service dial plan needs to be avoided.</span></span>
+<span data-ttu-id="bbcd6-714">每个租户拨号计划中最多可以有 25 个规范化规则，因此，需要避免重复出现已作为服务拨号计划的一部分提供的规范化规则。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-714">There is a maximum of 25 normalization rules in each tenant dial plan, and thus duplication with normalization rules already available as part of service dial plan needs to be avoided.</span></span>
 
-<table>
-<thead>
-<tr class="header">
-<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
-<td align="left"><span data-ttu-id="08d1e-720">决策点</span><span class="sxs-lookup"><span data-stu-id="08d1e-720">Decision Points</span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-721">确定贵组织是否需要自定义拨号计划（业务需求、采用需求等）。</span><span class="sxs-lookup"><span data-stu-id="08d1e-721">Decide if your organization requires customized dial plans (business requirements, adoption requirements, etc.).</span></span></li>
-<li><span data-ttu-id="08d1e-722">如果适用，确定租户拨号计划（租户-全局或租户-用户）的范围以支持自定义拨号计划的要求。</span><span class="sxs-lookup"><span data-stu-id="08d1e-722">If applicable, decide the scope of tenant dial plan (tenant-global or tenant-user) to support the requirements for customized dial plans.</span></span></li>
-<li><span data-ttu-id="08d1e-723">如果适用，确定为支持音频会议实施的范围内用户位置或办公地点将创建的租户拨号计划。</span><span class="sxs-lookup"><span data-stu-id="08d1e-723">If applicable, decide the tenant dial plans that will be created to support user locations or offices in-scope for the Audio Conferencing implementation.</span></span></li>
-<li><span data-ttu-id="08d1e-724">如果适用，确定哪个用户需要自定义拨号计划以及要为每个用户分配的租户拨号计划。</span><span class="sxs-lookup"><span data-stu-id="08d1e-724">If applicable, decide which user require customized dial plan and the tenant dial plan to be assigned for each user.</span></span></li></ul></td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left"><span data-ttu-id="08d1e-725">后续步骤</span><span class="sxs-lookup"><span data-stu-id="08d1e-725">Next Steps</span></span></td>
-<td align="left"><ul><li><span data-ttu-id="08d1e-726">记录自定义拨号计划和要配置为音频会议实施的一部分的关联规范化规则。</span><span class="sxs-lookup"><span data-stu-id="08d1e-726">Document the customized dial plans and the associated normalization rules to be configured as part of Audio Conferencing implementation.</span></span></li>
-<li><span data-ttu-id="08d1e-727">记录要为其分配自定义拨号计划的用户以及要为每个用户分配的租户拨号计划。</span><span class="sxs-lookup"><span data-stu-id="08d1e-727">Document the users to be assigned with customized dial plan and the tenant dial plan to be assigned for each user.</span></span></li></ul></td>
-</tr>
-</tbody>
-</table>
+<br>
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|<span data-ttu-id="bbcd6-715">决策点</span><span class="sxs-lookup"><span data-stu-id="bbcd6-715">Decision Points</span></span>|<ul><li><span data-ttu-id="bbcd6-716">确定贵组织是否需要自定义拨号计划（业务需求、采用需求等）</span><span class="sxs-lookup"><span data-stu-id="bbcd6-716">Decide if your organization requires customized dial plans (business requirements, adoption requirements, etc.).</span></span></li><li><span data-ttu-id="bbcd6-717">如果适用，确定租户拨号计划的范围（租户-全局或租户-用户）以支持自定义拨号计划的要求</span><span class="sxs-lookup"><span data-stu-id="bbcd6-717">If applicable, decide the scope of tenant dial plan (tenant-global or tenant-user) to support the requirements for customized dial plans.</span></span></li><li><span data-ttu-id="bbcd6-718">如果适用，确定为支持音频会议实施的范围内用户位置或办公地点将创建的租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-718">If applicable, decide the tenant dial plans that will be created to support user locations or offices in-scope for the Audio Conferencing implementation.</span></span></li><li><span data-ttu-id="bbcd6-719">如果适用，确定哪个用户需要自定义拨号计划以及要为每个用户分配的租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-719">If applicable, decide which user require customized dial plan and the tenant dial plan to be assigned for each user.</span></span></li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|<span data-ttu-id="bbcd6-720">后续步骤</span><span class="sxs-lookup"><span data-stu-id="bbcd6-720">Next Steps</span></span>|<ul><li><span data-ttu-id="bbcd6-721">记录自定义拨号计划和要配置为音频会议实施的一部分的关联规范化规则</span><span class="sxs-lookup"><span data-stu-id="bbcd6-721">Document the customized dial plans and the associated normalization rules to be configured as part of Audio Conferencing implementation.</span></span></li><li><span data-ttu-id="bbcd6-722">记录要为其分配自定义拨号计划的用户以及要为每个用户分配的租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-722">Document the users to be assigned with customized dial plan and the tenant dial plan to be assigned for each user.</span></span></li></ul>|
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"><span data-ttu-id="08d1e-728">租户拨号计划名称/说明</span><span class="sxs-lookup"><span data-stu-id="08d1e-728">Tenant Dial Plan Name/Description</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-729">规范化规则名称/说明</span><span class="sxs-lookup"><span data-stu-id="08d1e-729">Normalization Rules Name/Description</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-730">模式</span><span class="sxs-lookup"><span data-stu-id="08d1e-730">Pattern</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-731">转换</span><span class="sxs-lookup"><span data-stu-id="08d1e-731">Translation</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-732">IsInternalExtension</span><span class="sxs-lookup"><span data-stu-id="08d1e-732">IsInternalExtension</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p><span data-ttu-id="08d1e-733"><strong>AU-NSW-NorthRyde-OER</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-733"><strong>AU-NSW-NorthRyde-OER</strong></span></span></p>
-<p><span data-ttu-id="08d1e-734"><em>新南威尔士北莱德 Epping 路一号，AU 拨号计划</em></span><span class="sxs-lookup"><span data-stu-id="08d1e-734"><em>One Epping Road North Ryde, NSW, AU Dial Plan</em></span></span></p></td>
-<td align="left"><p><span data-ttu-id="08d1e-735"><strong>AU-NSW-NorthRyde-OER-Internal</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-735"><strong>AU-NSW-NorthRyde-OER-Internal</strong></span></span></p>
-<p><span data-ttu-id="08d1e-736"><em>澳大利亚新南威尔士北莱德 Epping 路一号办公地点的内部号码 (x7000 - x7999)</em></span><span class="sxs-lookup"><span data-stu-id="08d1e-736"><em>Internal number (x7000 - x7999) for One Epping Road office, North Ryde, NSW, Australia</em></span></span></p></td>
-<td align="left"><span data-ttu-id="08d1e-737">^(7\d{3})$</span><span class="sxs-lookup"><span data-stu-id="08d1e-737">^(7\d{3})$</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-738">+6125550$1</span><span class="sxs-lookup"><span data-stu-id="08d1e-738">+6125550$1</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-739">True</span><span class="sxs-lookup"><span data-stu-id="08d1e-739">True</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left"><p><span data-ttu-id="08d1e-740"><strong>AU-NSW-Local</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-740"><strong>AU-NSW-Local</strong></span></span></p>
-<p><span data-ttu-id="08d1e-741"><em>澳大利亚新南威尔士的本地号码规范化</em></span><span class="sxs-lookup"><span data-stu-id="08d1e-741"><em>Local number normalization for NSW, Australia</em></span></span></p></td>
-<td align="left"><span data-ttu-id="08d1e-742">^([2-9]\d{7})$</span><span class="sxs-lookup"><span data-stu-id="08d1e-742">^([2-9]\d{7})$</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-743">+612$1</span><span class="sxs-lookup"><span data-stu-id="08d1e-743">+612$1</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-744">False</span><span class="sxs-lookup"><span data-stu-id="08d1e-744">False</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left"><p><span data-ttu-id="08d1e-745"><strong>AU-TollFree</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-745"><strong>AU-TollFree</strong></span></span></p>
-<p><span data-ttu-id="08d1e-746"><em>澳大利亚的免费电话号码规范化</em></span><span class="sxs-lookup"><span data-stu-id="08d1e-746"><em>Toll Free number normalization for Australia</em></span></span></p></td>
-<td align="left"><span data-ttu-id="08d1e-747">^(1[38]\d{4,8})\d*$</span><span class="sxs-lookup"><span data-stu-id="08d1e-747">^(1[38]\d{4,8})\d*$</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-748">+61$1</span><span class="sxs-lookup"><span data-stu-id="08d1e-748">+61$1</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-749">False</span><span class="sxs-lookup"><span data-stu-id="08d1e-749">False</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left"><p><span data-ttu-id="08d1e-750"><strong>AU-Service</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-750"><strong>AU-Service</strong></span></span></p>
-<p><span data-ttu-id="08d1e-751"><em>澳大利亚的服务号码规范化</em></span><span class="sxs-lookup"><span data-stu-id="08d1e-751"><em>Service number normalization for Australia</em></span></span></p></td>
-<td align="left"><span data-ttu-id="08d1e-752">^(000|1[0125]\d{1,8})$</span><span class="sxs-lookup"><span data-stu-id="08d1e-752">^(000|1[0125]\d{1,8})$</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-753">$1</span><span class="sxs-lookup"><span data-stu-id="08d1e-753">$1</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-754">False</span><span class="sxs-lookup"><span data-stu-id="08d1e-754">False</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><p><span data-ttu-id="08d1e-755"><strong>SG-Singapore-OMB</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-755"><strong>SG-Singapore-OMB</strong></span></span></p>
-<p><span data-ttu-id="08d1e-756"><em>新加坡 OMB，SG 拨号计划</em></span><span class="sxs-lookup"><span data-stu-id="08d1e-756"><em>OMB Singapore, SG Dial Plan</em></span></span></p></td>
-<td align="left"><p><span data-ttu-id="08d1e-757"><strong>SG-OMB-Internal</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-757"><strong>SG-OMB-Internal</strong></span></span></p>
-<p><span data-ttu-id="08d1e-758"><em>新加坡 OMB 办公地点的内部号码 (x8000 - x8999)</em></span><span class="sxs-lookup"><span data-stu-id="08d1e-758"><em>Internal number (x8000 – x8999) for OMB office, Singapore</em></span></span></p></td>
-<td align="left"><span data-ttu-id="08d1e-759">^(8\d{3})$</span><span class="sxs-lookup"><span data-stu-id="08d1e-759">^(8\d{3})$</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-760">+656888$1</span><span class="sxs-lookup"><span data-stu-id="08d1e-760">+656888$1</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-761">True</span><span class="sxs-lookup"><span data-stu-id="08d1e-761">True</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left"><p><span data-ttu-id="08d1e-762"><strong>SG-TollFree</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-762"><strong>SG-TollFree</strong></span></span></p>
-<p><span data-ttu-id="08d1e-763"><em>新加坡的免费电话号码规范化</em></span><span class="sxs-lookup"><span data-stu-id="08d1e-763"><em>Toll Free number normalization for Singapore</em></span></span></p></td>
-<td align="left"><span data-ttu-id="08d1e-764">^(1?800\d{7})\d*$</span><span class="sxs-lookup"><span data-stu-id="08d1e-764">^(1?800\d{7})\d*$</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-765">+65$1</span><span class="sxs-lookup"><span data-stu-id="08d1e-765">+65$1</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-766">False</span><span class="sxs-lookup"><span data-stu-id="08d1e-766">False</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left"><p><span data-ttu-id="08d1e-767"><strong>SG-Service</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-767"><strong>SG-Service</strong></span></span></p>
-<p><span data-ttu-id="08d1e-768"><em>新加坡的服务号码规范化</em></span><span class="sxs-lookup"><span data-stu-id="08d1e-768"><em>Service number normalization for Singapore</em></span></span></p></td>
-<td align="left"><span data-ttu-id="08d1e-769">^(1\d{3,4}|9\d{2})$</span><span class="sxs-lookup"><span data-stu-id="08d1e-769">^(1\d{3,4}|9\d{2})$</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-770">$1</span><span class="sxs-lookup"><span data-stu-id="08d1e-770">$1</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-771">False</span><span class="sxs-lookup"><span data-stu-id="08d1e-771">False</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><p><span data-ttu-id="08d1e-772"><strong>FR-Paris-Issy-39qdPR</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-772"><strong>FR-Paris-Issy-39qdPR</strong></span></span></p>
-<p><span data-ttu-id="08d1e-773"><em>39 quai du Président Roosevelt Issy-les-Moulineaux，法国拨号计划</em></span><span class="sxs-lookup"><span data-stu-id="08d1e-773"><em>39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan</em></span></span></p></td>
-<td align="left"><p><span data-ttu-id="08d1e-774"><strong>FR-39qdPR-Internal</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-774"><strong>FR-39qdPR-Internal</strong></span></span></p>
-<p><span data-ttu-id="08d1e-775"><em>法国 Issy-les-Moulineaux 39 quai du Président Roosevelt 办公地点的内部号码 (x7000 - x7999)</em></span><span class="sxs-lookup"><span data-stu-id="08d1e-775"><em>Internal number (x7000 – x7999) for 39 quai du Président Roosevelt office, Issy-les-Moulineaux, France</em></span></span></p></td>
-<td align="left"><span data-ttu-id="08d1e-776">^(7\d{3})$</span><span class="sxs-lookup"><span data-stu-id="08d1e-776">^(7\d{3})$</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-777">+3319999$1</span><span class="sxs-lookup"><span data-stu-id="08d1e-777">+3319999$1</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-778">True</span><span class="sxs-lookup"><span data-stu-id="08d1e-778">True</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left"><p><span data-ttu-id="08d1e-779"><strong>FR-TollFree</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-779"><strong>FR-TollFree</strong></span></span></p>
-<p><span data-ttu-id="08d1e-780"><em>法国的免费电话号码规范化</em></span><span class="sxs-lookup"><span data-stu-id="08d1e-780"><em>Toll Free number normalization for France</em></span></span></p></td>
-<td align="left"><span data-ttu-id="08d1e-781">^0?(80\d{7})\d*$</span><span class="sxs-lookup"><span data-stu-id="08d1e-781">^0?(80\d{7})\d*$</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-782">+33$1</span><span class="sxs-lookup"><span data-stu-id="08d1e-782">+33$1</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-783">False</span><span class="sxs-lookup"><span data-stu-id="08d1e-783">False</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left"><p><span data-ttu-id="08d1e-784"><strong>FR-Service</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-784"><strong>FR-Service</strong></span></span></p>
-<p><span data-ttu-id="08d1e-785"><em>法国的服务号码规范化</em></span><span class="sxs-lookup"><span data-stu-id="08d1e-785"><em>Service number normalization for France</em></span></span></p></td>
-<td align="left"><p><span data-ttu-id="08d1e-786">^(1\d{1,2}|11[68]\d{3}|</span><span class="sxs-lookup"><span data-stu-id="08d1e-786">^(1\d{1,2}|11[68]\d{3}|</span></span></p>
-<p><span data-ttu-id="08d1e-787">10\d{2}|3\d{3})$</span><span class="sxs-lookup"><span data-stu-id="08d1e-787">10\d{2}|3\d{3})$</span></span></p></td>
-<td align="left"><span data-ttu-id="08d1e-788">$1</span><span class="sxs-lookup"><span data-stu-id="08d1e-788">$1</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-789">False</span><span class="sxs-lookup"><span data-stu-id="08d1e-789">False</span></span></td>
-</tr>
-</tbody>
-</table>
+> [!TIP]
+> <span data-ttu-id="bbcd6-723">如果适用于你的项目，你可以使用以下模板来记录租户拨号计划配置：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-723">If it is applicable to your project, you can use the following template to document the tenant dial plans configurations:</span></span>
+>|<span data-ttu-id="bbcd6-724">租户拨号计划名称</span><span class="sxs-lookup"><span data-stu-id="bbcd6-724">Tenant Dial Plan Name/Description</span></span><br><span data-ttu-id="bbcd6-725">_说明_</span><span class="sxs-lookup"><span data-stu-id="bbcd6-725">_Description_</span></span>  |<span data-ttu-id="bbcd6-726">规范化规则名称</span><span class="sxs-lookup"><span data-stu-id="bbcd6-726">Normalization Rules Name</span></span><br><span data-ttu-id="bbcd6-727">_说明_</span><span class="sxs-lookup"><span data-stu-id="bbcd6-727">_Description_</span></span>  |<span data-ttu-id="bbcd6-728">模式</span><span class="sxs-lookup"><span data-stu-id="bbcd6-728">Pattern</span></span><br><span data-ttu-id="bbcd6-729">转换</span><span class="sxs-lookup"><span data-stu-id="bbcd6-729">Translation</span></span><br><span data-ttu-id="bbcd6-730">IsInternalExtension</span><span class="sxs-lookup"><span data-stu-id="bbcd6-730">IsInternalExtension</span></span>  |
+>|---------|---------|---------|
+>|<span data-ttu-id="bbcd6-731">**AU-NSW-NorthRyde-OER**</span><span class="sxs-lookup"><span data-stu-id="bbcd6-731">**AU-NSW-NorthRyde-OER**</span></span><br><span data-ttu-id="bbcd6-732">_新南威尔士北莱德 Epping 路一号，AU 拨号计划_</span><span class="sxs-lookup"><span data-stu-id="bbcd6-732">_One Epping Road North Ryde, NSW, AU Dial Plan_</span></span>|<span data-ttu-id="bbcd6-733">**AU-NSW-NorthRyde-OER-Internal**</span><span class="sxs-lookup"><span data-stu-id="bbcd6-733">**AU-NSW-NorthRyde-OER-Internal**</span></span><br><span data-ttu-id="bbcd6-734">_澳大利亚新南威尔士北莱德 Epping 路一号办公地点的内部号码 (x7000 - x7999)_</span><span class="sxs-lookup"><span data-stu-id="bbcd6-734">_Internal number (x7000 - x7999) for One Epping Road office, North Ryde, NSW, Australia_</span></span>|<span data-ttu-id="bbcd6-735">^(7\d{3})$</span><span class="sxs-lookup"><span data-stu-id="bbcd6-735">^(7\d{3})$</span></span><br><span data-ttu-id="bbcd6-736">+6125550$1</span><span class="sxs-lookup"><span data-stu-id="bbcd6-736">+6125550$1</span></span><br><span data-ttu-id="bbcd6-737">True</span><span class="sxs-lookup"><span data-stu-id="bbcd6-737">True</span></span>|
+>||<span data-ttu-id="bbcd6-738">**AU-NSW-Local**</span><span class="sxs-lookup"><span data-stu-id="bbcd6-738">**AU-NSW-Local**</span></span><br><span data-ttu-id="bbcd6-739">_澳大利亚新南威尔士的本地号码规范化_</span><span class="sxs-lookup"><span data-stu-id="bbcd6-739">_Local number normalization for NSW, Australia_</span></span>|<span data-ttu-id="bbcd6-740">^([2-9]\d{7})$</span><span class="sxs-lookup"><span data-stu-id="bbcd6-740">^([2-9]\d{7})$</span></span><br><span data-ttu-id="bbcd6-741">+612$1</span><span class="sxs-lookup"><span data-stu-id="bbcd6-741">+612$1</span></span><br><span data-ttu-id="bbcd6-742">False</span><span class="sxs-lookup"><span data-stu-id="bbcd6-742">False</span></span>|
+>||<span data-ttu-id="bbcd6-743">**AU-TollFree**</span><span class="sxs-lookup"><span data-stu-id="bbcd6-743">**AU-TollFree**</span></span><br><span data-ttu-id="bbcd6-744">_澳大利亚的免费电话号码规范化_</span><span class="sxs-lookup"><span data-stu-id="bbcd6-744">_Toll Free number normalization for Australia_</span></span>|<span data-ttu-id="bbcd6-745">^(1[38]\d{4,8})\d*$</span><span class="sxs-lookup"><span data-stu-id="bbcd6-745">^(1[38]\d{4,8})\d*$</span></span><br><span data-ttu-id="bbcd6-746">+61$1</span><span class="sxs-lookup"><span data-stu-id="bbcd6-746">+61$1</span></span><br><span data-ttu-id="bbcd6-747">False</span><span class="sxs-lookup"><span data-stu-id="bbcd6-747">False</span></span>|
+>||<span data-ttu-id="bbcd6-748">**AU-Service**</span><span class="sxs-lookup"><span data-stu-id="bbcd6-748">**AU-Service**</span></span><br><span data-ttu-id="bbcd6-749">_澳大利亚的服务号码规范化_</span><span class="sxs-lookup"><span data-stu-id="bbcd6-749">_Service number normalization for Australia_</span></span>|<span data-ttu-id="bbcd6-750">^(000\\</span><span class="sxs-lookup"><span data-stu-id="bbcd6-750">^(000\\</span></span>|<span data-ttu-id="bbcd6-751">1[0125]\d{1,8})$</span><span class="sxs-lookup"><span data-stu-id="bbcd6-751">1[0125]\d{1,8})$</span></span><br><span data-ttu-id="bbcd6-752">$1</span><span class="sxs-lookup"><span data-stu-id="bbcd6-752">$1</span></span><br><span data-ttu-id="bbcd6-753">False</span><span class="sxs-lookup"><span data-stu-id="bbcd6-753">False</span></span>|
+>|<span data-ttu-id="bbcd6-754">**SG-Singapore-OMB**</span><span class="sxs-lookup"><span data-stu-id="bbcd6-754">**SG-Singapore-OMB**</span></span><br><span data-ttu-id="bbcd6-755">_新加坡 OMB，SG 拨号计划_</span><span class="sxs-lookup"><span data-stu-id="bbcd6-755">_OMB Singapore, SG Dial Plan_</span></span>|<span data-ttu-id="bbcd6-756">**SG-OMB-Internal**</span><span class="sxs-lookup"><span data-stu-id="bbcd6-756">**SG-OMB-Internal**</span></span><br><span data-ttu-id="bbcd6-757">_新加坡 OMB 办公地点的内部号码 (x8000 - x8999)_</span><span class="sxs-lookup"><span data-stu-id="bbcd6-757">_Internal number (x8000 – x8999) for OMB office, Singapore_</span></span>|<span data-ttu-id="bbcd6-758">^(8\d{3})$</span><span class="sxs-lookup"><span data-stu-id="bbcd6-758">^(8\d{3})$</span></span><br><span data-ttu-id="bbcd6-759">+656888$1</span><span class="sxs-lookup"><span data-stu-id="bbcd6-759">+656888$1</span></span><br><span data-ttu-id="bbcd6-760">True</span><span class="sxs-lookup"><span data-stu-id="bbcd6-760">True</span></span>|
+>||<span data-ttu-id="bbcd6-761">**SG-TollFree**</span><span class="sxs-lookup"><span data-stu-id="bbcd6-761">**SG-TollFree**</span></span><br><span data-ttu-id="bbcd6-762">_新加坡的免费电话号码规范化_</span><span class="sxs-lookup"><span data-stu-id="bbcd6-762">_Toll Free number normalization for Singapore_</span></span>|<span data-ttu-id="bbcd6-763">^(1?800\d{7})\d*$</span><span class="sxs-lookup"><span data-stu-id="bbcd6-763">^(1?800\d{7})\d*$</span></span><br><span data-ttu-id="bbcd6-764">+65$1</span><span class="sxs-lookup"><span data-stu-id="bbcd6-764">+65$1</span></span><br><span data-ttu-id="bbcd6-765">False</span><span class="sxs-lookup"><span data-stu-id="bbcd6-765">False</span></span>|
+>||<span data-ttu-id="bbcd6-766">**SG-Service**</span><span class="sxs-lookup"><span data-stu-id="bbcd6-766">**SG-Service**</span></span><br><span data-ttu-id="bbcd6-767">_新加坡的服务号码规范化_</span><span class="sxs-lookup"><span data-stu-id="bbcd6-767">_Service number normalization for Singapore_</span></span>|<span data-ttu-id="bbcd6-768">^(1\d{3,4}\\</span><span class="sxs-lookup"><span data-stu-id="bbcd6-768">^(1\d{3,4}\\</span></span>|<span data-ttu-id="bbcd6-769">9\d{2})$</span><span class="sxs-lookup"><span data-stu-id="bbcd6-769">9\d{2})$</span></span><br><span data-ttu-id="bbcd6-770">$1</span><span class="sxs-lookup"><span data-stu-id="bbcd6-770">$1</span></span><br><span data-ttu-id="bbcd6-771">False</span><span class="sxs-lookup"><span data-stu-id="bbcd6-771">False</span></span>|
+>|<span data-ttu-id="bbcd6-772">**FR-Paris-Issy-39qdPR**</span><span class="sxs-lookup"><span data-stu-id="bbcd6-772">**FR-Paris-Issy-39qdPR**</span></span><br><span data-ttu-id="bbcd6-773">_39 quai du Président Roosevelt Issy-les-Moulineaux，法国拨号计划_</span><span class="sxs-lookup"><span data-stu-id="bbcd6-773">_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_</span></span>|<span data-ttu-id="bbcd6-774">**FR-39qdPR-Internal**</span><span class="sxs-lookup"><span data-stu-id="bbcd6-774">**FR-39qdPR-Internal**</span></span><br><span data-ttu-id="bbcd6-775">_法国 Issy-les-Moulineaux 39 quai du Président Roosevelt 办公地点的内部号码 (x7000 - x7999)_</span><span class="sxs-lookup"><span data-stu-id="bbcd6-775">_Internal number (x7000 – x7999) for 39 quai du Président Roosevelt office, Issy-les-Moulineaux, France_</span></span>|<span data-ttu-id="bbcd6-776">^(7\d{3})$</span><span class="sxs-lookup"><span data-stu-id="bbcd6-776">^(7\d{3})$</span></span><br><span data-ttu-id="bbcd6-777">+3319999$1</span><span class="sxs-lookup"><span data-stu-id="bbcd6-777">+3319999$1</span></span><br><span data-ttu-id="bbcd6-778">True</span><span class="sxs-lookup"><span data-stu-id="bbcd6-778">True</span></span>|
+>||<span data-ttu-id="bbcd6-779">**FR-TollFree**</span><span class="sxs-lookup"><span data-stu-id="bbcd6-779">**FR-TollFree**</span></span><br><span data-ttu-id="bbcd6-780">_法国的免费电话号码规范化_</span><span class="sxs-lookup"><span data-stu-id="bbcd6-780">_Toll Free number normalization for France_</span></span>|<span data-ttu-id="bbcd6-781">^0?(80\d{7})\d*$</span><span class="sxs-lookup"><span data-stu-id="bbcd6-781">^0?(80\d{7})\d*$</span></span><br><span data-ttu-id="bbcd6-782">+33$1</span><span class="sxs-lookup"><span data-stu-id="bbcd6-782">+33$1</span></span><br><span data-ttu-id="bbcd6-783">False</span><span class="sxs-lookup"><span data-stu-id="bbcd6-783">False</span></span>|
+>||<span data-ttu-id="bbcd6-784">**FR-Service**</span><span class="sxs-lookup"><span data-stu-id="bbcd6-784">**FR-Service**</span></span><br><span data-ttu-id="bbcd6-785">_法国的服务号码规范化_</span><span class="sxs-lookup"><span data-stu-id="bbcd6-785">_Service number normalization for France_</span></span>|<span data-ttu-id="bbcd6-786">^(1\d{1,2}\\</span><span class="sxs-lookup"><span data-stu-id="bbcd6-786">^(1\d{1,2}\\</span></span>|<span data-ttu-id="bbcd6-787">11[68]\d{3}\\</span><span class="sxs-lookup"><span data-stu-id="bbcd6-787">11[68]\d{3}\\</span></span>|<span data-ttu-id="bbcd6-788">10\d{2}\\</span><span class="sxs-lookup"><span data-stu-id="bbcd6-788">10\d{2}\\</span></span>|<span data-ttu-id="bbcd6-789">3\d{3})$</span><span class="sxs-lookup"><span data-stu-id="bbcd6-789">3\d{3})$</span></span><br><span data-ttu-id="bbcd6-790">$1</span><span class="sxs-lookup"><span data-stu-id="bbcd6-790">$1</span></span><br><span data-ttu-id="bbcd6-791">False</span><span class="sxs-lookup"><span data-stu-id="bbcd6-791">False</span></span>|
 
-<span data-ttu-id="08d1e-790">_表 13 租户拨号计划示例_</span><span class="sxs-lookup"><span data-stu-id="08d1e-790">_Table 13 Example of tenant dial plans_</span></span>
+<br>
+> [!TIP]
+> <span data-ttu-id="bbcd6-792">可以利用下面的示例模板来记录拨号计划分配以支持你的项目：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-792">The example template below can be leveraged to document dial plan assignments to support your project:</span></span>
+>|<span data-ttu-id="bbcd6-793">用户</span><span class="sxs-lookup"><span data-stu-id="bbcd6-793">User</span></span>  |<span data-ttu-id="bbcd6-794">办公地点</span><span class="sxs-lookup"><span data-stu-id="bbcd6-794">Office</span></span>  |<span data-ttu-id="bbcd6-795">拨号计划类型</span><span class="sxs-lookup"><span data-stu-id="bbcd6-795">Dial Plan Type</span></span>  |<span data-ttu-id="bbcd6-796">拨号计划名称</span><span class="sxs-lookup"><span data-stu-id="bbcd6-796">Dial Plan Name</span></span>  |
+>|---------|---------|---------|---------|
+>|<span data-ttu-id="bbcd6-797">Adele Vance</span><span class="sxs-lookup"><span data-stu-id="bbcd6-797">Adele Vance</span></span>|<span data-ttu-id="bbcd6-798">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-798">One Epping Road</span></span>|<span data-ttu-id="bbcd6-799">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-799">Tenant dial plan</span></span>|<span data-ttu-id="bbcd6-800">AU-NSW-NorthRyde-OER</span><span class="sxs-lookup"><span data-stu-id="bbcd6-800">AU-NSW-NorthRyde-OER</span></span>|
+>|<span data-ttu-id="bbcd6-801">Alex Wilber</span><span class="sxs-lookup"><span data-stu-id="bbcd6-801">Alex Wilber</span></span>|<span data-ttu-id="bbcd6-802">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-802">One Epping Road</span></span>|<span data-ttu-id="bbcd6-803">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-803">Tenant dial plan</span></span>|<span data-ttu-id="bbcd6-804">AU-NSW-NorthRyde-OER</span><span class="sxs-lookup"><span data-stu-id="bbcd6-804">AU-NSW-NorthRyde-OER</span></span>|
+>|<span data-ttu-id="bbcd6-805">Ben Walters</span><span class="sxs-lookup"><span data-stu-id="bbcd6-805">Ben Walters</span></span>|<span data-ttu-id="bbcd6-806">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-806">One Epping Road</span></span>|<span data-ttu-id="bbcd6-807">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-807">Tenant dial plan</span></span>|<span data-ttu-id="bbcd6-808">AU-NSW-NorthRyde-OER</span><span class="sxs-lookup"><span data-stu-id="bbcd6-808">AU-NSW-NorthRyde-OER</span></span>|
+>|<span data-ttu-id="bbcd6-809">Christie Cline</span><span class="sxs-lookup"><span data-stu-id="bbcd6-809">Christie Cline</span></span>|<span data-ttu-id="bbcd6-810">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-810">One Marina Boulevard</span></span>|<span data-ttu-id="bbcd6-811">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-811">Tenant dial plan</span></span>|<span data-ttu-id="bbcd6-812">SG-Singapore-OMB</span><span class="sxs-lookup"><span data-stu-id="bbcd6-812">SG-Singapore-OMB</span></span>|
+>|<span data-ttu-id="bbcd6-813">Debra Berger</span><span class="sxs-lookup"><span data-stu-id="bbcd6-813">Debra Berger</span></span>|<span data-ttu-id="bbcd6-814">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-814">One Marina Boulevard</span></span>|<span data-ttu-id="bbcd6-815">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-815">Tenant dial plan</span></span>|<span data-ttu-id="bbcd6-816">SG-Singapore-OMB</span><span class="sxs-lookup"><span data-stu-id="bbcd6-816">SG-Singapore-OMB</span></span>|
+>|<span data-ttu-id="bbcd6-817">Lee Gu</span><span class="sxs-lookup"><span data-stu-id="bbcd6-817">Lee Gu</span></span>|<span data-ttu-id="bbcd6-818">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-818">One Marina Boulevard</span></span>|<span data-ttu-id="bbcd6-819">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-819">Tenant dial plan</span></span>|<span data-ttu-id="bbcd6-820">SG-Singapore-OMB</span><span class="sxs-lookup"><span data-stu-id="bbcd6-820">SG-Singapore-OMB</span></span>|
+>|<span data-ttu-id="bbcd6-821">Emily Braun</span><span class="sxs-lookup"><span data-stu-id="bbcd6-821">Emily Braun</span></span>|<span data-ttu-id="bbcd6-822">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-822">32 London Bridge Street</span></span>|<span data-ttu-id="bbcd6-823">服务拨号计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-823">Service dial plan</span></span>|<span data-ttu-id="bbcd6-824">不适用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-824">N/A</span></span>|
+>|<span data-ttu-id="bbcd6-825">Lidia Holloway</span><span class="sxs-lookup"><span data-stu-id="bbcd6-825">Lidia Holloway</span></span>|<span data-ttu-id="bbcd6-826">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-826">32 London Bridge Street</span></span>|<span data-ttu-id="bbcd6-827">服务拨号计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-827">Service dial plan</span></span>|<span data-ttu-id="bbcd6-828">不适用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-828">N/A</span></span>|
+>|<span data-ttu-id="bbcd6-829">Pradeep Gupta</span><span class="sxs-lookup"><span data-stu-id="bbcd6-829">Pradeep Gupta</span></span>|<span data-ttu-id="bbcd6-830">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="bbcd6-830">32 London Bridge Street</span></span>|<span data-ttu-id="bbcd6-831">服务拨号计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-831">Service dial plan</span></span>|<span data-ttu-id="bbcd6-832">不适用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-832">N/A</span></span>|
+>|<span data-ttu-id="bbcd6-833">Marcel Beauchamp</span><span class="sxs-lookup"><span data-stu-id="bbcd6-833">Marcel Beauchamp</span></span>|<span data-ttu-id="bbcd6-834">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="bbcd6-834">39 quai du Président Roosevelt</span></span>|<span data-ttu-id="bbcd6-835">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-835">Tenant dial plan</span></span>|<span data-ttu-id="bbcd6-836">FR-Paris-Issy-30qdPR</span><span class="sxs-lookup"><span data-stu-id="bbcd6-836">FR-Paris-Issy-30qdPR</span></span>|
+>|<span data-ttu-id="bbcd6-837">Rachelle Cormier</span><span class="sxs-lookup"><span data-stu-id="bbcd6-837">Rachelle Cormier</span></span>|<span data-ttu-id="bbcd6-838">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="bbcd6-838">39 quai du Président Roosevelt</span></span>|<span data-ttu-id="bbcd6-839">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-839">Tenant dial plan</span></span>|<span data-ttu-id="bbcd6-840">FR-Paris-Issy-30qdPR</span><span class="sxs-lookup"><span data-stu-id="bbcd6-840">FR-Paris-Issy-30qdPR</span></span>|
+>|<span data-ttu-id="bbcd6-841">Isabell Potvin</span><span class="sxs-lookup"><span data-stu-id="bbcd6-841">Isabell Potvin</span></span>|<span data-ttu-id="bbcd6-842">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="bbcd6-842">39 quai du Président Roosevelt</span></span>|<span data-ttu-id="bbcd6-843">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-843">Tenant dial plan</span></span>|<span data-ttu-id="bbcd6-844">FR-Paris-Issy-30qdPR</span><span class="sxs-lookup"><span data-stu-id="bbcd6-844">FR-Paris-Issy-30qdPR</span></span>|
 
+## <a name="microsoft-teams-configurations"></a><span data-ttu-id="bbcd6-845">Microsoft Teams 配置</span><span class="sxs-lookup"><span data-stu-id="bbcd6-845">Microsoft Teams configurations</span></span>
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"><span data-ttu-id="08d1e-791">用户</span><span class="sxs-lookup"><span data-stu-id="08d1e-791">User</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-792">办公地点</span><span class="sxs-lookup"><span data-stu-id="08d1e-792">Office</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-793">拨号计划类型</span><span class="sxs-lookup"><span data-stu-id="08d1e-793">Dial Plan Type</span></span></th>
-<th align="left"><span data-ttu-id="08d1e-794">拨号计划名称</span><span class="sxs-lookup"><span data-stu-id="08d1e-794">Dial Plan Name</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-795">Adele Vance</span><span class="sxs-lookup"><span data-stu-id="08d1e-795">Adele Vance</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-796">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-796">One Epping Road</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-797">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-797">Tenant dial plan</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-798">AU-NSW-NorthRyde-OER</span><span class="sxs-lookup"><span data-stu-id="08d1e-798">AU-NSW-NorthRyde-OER</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-799">Alex Wilber</span><span class="sxs-lookup"><span data-stu-id="08d1e-799">Alex Wilber</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-800">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-800">One Epping Road</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-801">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-801">Tenant dial plan</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-802">AU-NSW-NorthRyde-OER</span><span class="sxs-lookup"><span data-stu-id="08d1e-802">AU-NSW-NorthRyde-OER</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-803">Ben Walters</span><span class="sxs-lookup"><span data-stu-id="08d1e-803">Ben Walters</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-804">Epping 路一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-804">One Epping Road</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-805">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-805">Tenant dial plan</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-806">AU-NSW-NorthRyde-OER</span><span class="sxs-lookup"><span data-stu-id="08d1e-806">AU-NSW-NorthRyde-OER</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-807">Christie Cline</span><span class="sxs-lookup"><span data-stu-id="08d1e-807">Christie Cline</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-808">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-808">One Marina Boulevard</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-809">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-809">Tenant dial plan</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-810">SG-Singapore-OMB</span><span class="sxs-lookup"><span data-stu-id="08d1e-810">SG-Singapore-OMB</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-811">Debra Berger</span><span class="sxs-lookup"><span data-stu-id="08d1e-811">Debra Berger</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-812">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-812">One Marina Boulevard</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-813">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-813">Tenant dial plan</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-814">SG-Singapore-OMB</span><span class="sxs-lookup"><span data-stu-id="08d1e-814">SG-Singapore-OMB</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-815">Lee Gu</span><span class="sxs-lookup"><span data-stu-id="08d1e-815">Lee Gu</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-816">滨海林荫道一号</span><span class="sxs-lookup"><span data-stu-id="08d1e-816">One Marina Boulevard</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-817">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-817">Tenant dial plan</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-818">SG-Singapore-OMB</span><span class="sxs-lookup"><span data-stu-id="08d1e-818">SG-Singapore-OMB</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-819">Emily Braun</span><span class="sxs-lookup"><span data-stu-id="08d1e-819">Emily Braun</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-820">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="08d1e-820">32 London Bridge Street</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-821">服务拨号计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-821">Service dial plan</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-822">不适用</span><span class="sxs-lookup"><span data-stu-id="08d1e-822">N/A</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-823">Lidia Holloway</span><span class="sxs-lookup"><span data-stu-id="08d1e-823">Lidia Holloway</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-824">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="08d1e-824">32 London Bridge Street</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-825">服务拨号计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-825">Service dial plan</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-826">不适用</span><span class="sxs-lookup"><span data-stu-id="08d1e-826">N/A</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-827">Pradeep Gupta</span><span class="sxs-lookup"><span data-stu-id="08d1e-827">Pradeep Gupta</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-828">伦敦桥大街 32 号</span><span class="sxs-lookup"><span data-stu-id="08d1e-828">32 London Bridge Street</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-829">服务拨号计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-829">Service dial plan</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-830">不适用</span><span class="sxs-lookup"><span data-stu-id="08d1e-830">N/A</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-831">Marcel Beauchamp</span><span class="sxs-lookup"><span data-stu-id="08d1e-831">Marcel Beauchamp</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-832">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="08d1e-832">39 quai du Président Roosevelt</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-833">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-833">Tenant dial plan</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-834">FR-Paris-Issy-39qdPR</span><span class="sxs-lookup"><span data-stu-id="08d1e-834">FR-Paris-Issy-39qdPR</span></span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-835">Rachelle Cormier</span><span class="sxs-lookup"><span data-stu-id="08d1e-835">Rachelle Cormier</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-836">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="08d1e-836">39 quai du Président Roosevelt</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-837">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-837">Tenant dial plan</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-838">FR-Paris-Issy-39qdPR</span><span class="sxs-lookup"><span data-stu-id="08d1e-838">FR-Paris-Issy-39qdPR</span></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span data-ttu-id="08d1e-839">Isabell Potvin</span><span class="sxs-lookup"><span data-stu-id="08d1e-839">Isabell Potvin</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-840">39 quai du Président Roosevelt</span><span class="sxs-lookup"><span data-stu-id="08d1e-840">39 quai du Président Roosevelt</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-841">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-841">Tenant dial plan</span></span></td>
-<td align="left"><span data-ttu-id="08d1e-842">FR-Paris-Issy-39qdPR</span><span class="sxs-lookup"><span data-stu-id="08d1e-842">FR-Paris-Issy-39qdPR</span></span></td>
-</tr>
-</tbody>
-</table>
-
-<span data-ttu-id="08d1e-843">_表 14 拨号计划分配示例_</span><span class="sxs-lookup"><span data-stu-id="08d1e-843">_Table 14 Example of dial plan assignments_</span></span>
-
-
-## <a name="microsoft-teams-configurations"></a><span data-ttu-id="08d1e-844">Microsoft Teams 配置</span><span class="sxs-lookup"><span data-stu-id="08d1e-844">Microsoft Teams configurations</span></span>
-
-<span data-ttu-id="08d1e-845">由于音频会议仅可用于安排的会议，因此必须启用控制会议安排（私人会议和频道会议）的租户级别配置。</span><span class="sxs-lookup"><span data-stu-id="08d1e-845">Since Audio Conferencing is only available for scheduled meetings, tenant-level configurations that govern meeting scheduling (private and channel meetings) must be enabled.</span></span>
-
+<span data-ttu-id="bbcd6-846">临时和安排的会议支持音频会议。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-846">Support for Audio Conferencing is available for ad-hoc and scheduled meetings.</span></span> <span data-ttu-id="bbcd6-847">对于安排的会议，必须启用控制会议安排（私人会议和频道会议）的租户级别配置。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-847">Since Audio Conferencing is only available for scheduled meetings, tenant-level configurations that govern meeting scheduling (private and channel meetings) must be enabled.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="08d1e-846">当前，如果贵组织具有合规性要求以确保所有会议讨论均可发现，当组织者有本地 Exchange 邮箱时，你应禁用私人会议。</span><span class="sxs-lookup"><span data-stu-id="08d1e-846">Currently, if your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox.</span></span><br><br>
-> <span data-ttu-id="08d1e-847">在另外一个用例中，如果组织中的所有会议都必须仅<strong>对受邀各方</strong>可见，为了避免向未受邀各方透露会议信息，我们建议禁用在<strong>频道</strong>中安排会议的功能。</span><span class="sxs-lookup"><span data-stu-id="08d1e-847">In another use case, if all meetings in the organization must be visible <strong>to invited parties</strong> only, to avoid disclosing meeting information to uninvited parties, we recommend that you disable the ability to schedule meetings in <strong>channels</strong>.</span></span>
+> <span data-ttu-id="bbcd6-848">当前，如果贵组织具有合规性要求以确保所有会议讨论均可发现，当组织者有本地 Exchange 邮箱时，你应禁用私人会议。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-848">Currently, if your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox.</span></span><br>
+> <span data-ttu-id="bbcd6-849">在另外一个用例中，如果组织中的所有会议都必须仅**对受邀各方**可见，为了避免向未受邀各方透露会议信息，我们建议禁用在**频道**中安排会议的功能。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-849">In another use case, if all meetings in the organization must be visible **to invited parties** only, to avoid disclosing meeting information to uninvited parties, we recommend that you disable the ability to schedule meetings in **channels**.</span></span>
 
-<span data-ttu-id="08d1e-848">这些设置以租户级别配置方式提供，适用于组织中的所有用户，将影响 Teams 中的所有会议安排，并不限于**使用**音频会议的 Teams 会议。</span><span class="sxs-lookup"><span data-stu-id="08d1e-848">The settings, available as tenant-level configurations, are applicable to all users in the organization, and will impact all meeting scheduling in Teams, not specific to Teams meetings **with** Audio Conferencing.</span></span>
+<span data-ttu-id="bbcd6-850">这些设置以租户级别配置方式提供，适用于组织中的所有用户，将影响 Teams 中的所有会议安排，并不限于**使用**音频会议的 Teams 会议。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-850">The settings, available as tenant-level configurations, are applicable to all users in the organization, and will impact all meeting scheduling in Teams, not specific to Teams meetings **with** Audio Conferencing.</span></span>
 
-<table>
-<thead>
-<tr class="header">
-<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
-<td align="left"><span data-ttu-id="08d1e-849">决策点</span><span class="sxs-lookup"><span data-stu-id="08d1e-849">Decision Point</span></span></td>
-<td align="left"><p><span data-ttu-id="08d1e-850">确定组织是否需要启用或禁用安排私人会议。</span><span class="sxs-lookup"><span data-stu-id="08d1e-850">Decide if the organization requires to enable or disable scheduling of private meetings.</span></span></p>
-<p><span data-ttu-id="08d1e-851">确定组织是否需要启用或禁用安排频道会议。</span><span class="sxs-lookup"><span data-stu-id="08d1e-851">Decide if the organization requires to enable or disable scheduling of channel meetings.</span></span></p></td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left"><span data-ttu-id="08d1e-852">后续步骤</span><span class="sxs-lookup"><span data-stu-id="08d1e-852">Next Steps</span></span></td>
-<td align="left"><p><span data-ttu-id="08d1e-853">记录 Teams 的会议安排配置。</span><span class="sxs-lookup"><span data-stu-id="08d1e-853">Document the meeting scheduling configurations for Teams.</span></span></p></td>
-</tr>
-</tbody>
-</table>
+<br>
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|<span data-ttu-id="bbcd6-851">决策点</span><span class="sxs-lookup"><span data-stu-id="bbcd6-851">Decision Points</span></span>|<ul><li><span data-ttu-id="bbcd6-852">确定组织需要启用还是禁用安排私人会议</span><span class="sxs-lookup"><span data-stu-id="bbcd6-852">Decide if the organization requires to enable or disable scheduling of private meetings.</span></span></li><li><span data-ttu-id="bbcd6-853">确定组织需要启用还是禁用安排频道会议</span><span class="sxs-lookup"><span data-stu-id="bbcd6-853">Decide if the organization requires to enable or disable scheduling of channel meetings.</span></span></li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|<span data-ttu-id="bbcd6-854">后续步骤</span><span class="sxs-lookup"><span data-stu-id="bbcd6-854">Next Steps</span></span>|<ul><li><span data-ttu-id="bbcd6-855">记录 Teams 的会议安排配置</span><span class="sxs-lookup"><span data-stu-id="bbcd6-855">Document the meeting scheduling configurations for Teams.</span></span></li></ul>|
 
-<table>
-<thead>
-<tr class="header">
-<td align="left"><span data-ttu-id="08d1e-854"><strong>允许安排私人会议</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-854"><strong>Allow scheduling for private meetings</strong></span></span></td>
-<td align="left"><span data-ttu-id="08d1e-855">启用</span><span class="sxs-lookup"><span data-stu-id="08d1e-855">Enabled</span></span></td>
-</tr>
-</thead>
-<thead>
-<tr class="odd">
-<td align="left"><span data-ttu-id="08d1e-856"><strong>允许安排频道会议</strong></span><span class="sxs-lookup"><span data-stu-id="08d1e-856"><strong>Allow scheduling for channel meetings</strong></span></span></td>
-<td align="left"><span data-ttu-id="08d1e-857">禁用</span><span class="sxs-lookup"><span data-stu-id="08d1e-857">Disabled</span></span></td>
-</tr>
-</tbody>
-</table>
+> [!TIP]
+> <span data-ttu-id="bbcd6-856">可以按如下所示记录 Teams 会议配置：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-856">Your Teams meetings configurations can be documented as the following:</span></span>
+>|         |         |
+>|---------|---------|
+>|<span data-ttu-id="bbcd6-857">允许安排私人会议</span><span class="sxs-lookup"><span data-stu-id="bbcd6-857">Allow scheduling for private meetings</span></span>|<span data-ttu-id="bbcd6-858">启用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-858">Enabled</span></span>|
+>|<span data-ttu-id="bbcd6-859">允许安排频道会议</span><span class="sxs-lookup"><span data-stu-id="bbcd6-859">Allow scheduling for channel meetings</span></span>|<span data-ttu-id="bbcd6-860">禁用</span><span class="sxs-lookup"><span data-stu-id="bbcd6-860">Disabled</span></span>|
 
-<span data-ttu-id="08d1e-858">_表 15 Microsoft Teams 会议配置示例_</span><span class="sxs-lookup"><span data-stu-id="08d1e-858">_Table 15 Example of Microsoft Teams meetings configurations_</span></span>
+## <a name="document-technical-implementation-plan"></a><span data-ttu-id="bbcd6-861">记录技术实施计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-861">Document technical implementation plan</span></span>
 
+<span data-ttu-id="bbcd6-862">使用上面的决策点记录你的技术实施计划。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-862">Use the decision points above to document your technical implementation plan.</span></span>
+<span data-ttu-id="bbcd6-863">此技术实施计划将为项目团队（可以包括 FastTrack 或部署合作伙伴）提供为实施音频会议执行技术上线所需的信息。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-863">This technical implementation plan will provide the project team, which can include FastTrack or a deployment partner, with the information required to execute the technical onboarding for the implementation of Audio Conferencing.</span></span>
 
-## <a name="document-technical-implementation-plan"></a><span data-ttu-id="08d1e-859">记录技术实施计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-859">Document technical implementation plan</span></span>
+<span data-ttu-id="bbcd6-864">通常，技术实施计划包含以下主要部分：</span><span class="sxs-lookup"><span data-stu-id="bbcd6-864">In general, a technical implementation plan will contain the following main sections:</span></span>
 
-<span data-ttu-id="08d1e-860">使用上面的决策点记录你的技术实施计划。</span><span class="sxs-lookup"><span data-stu-id="08d1e-860">Use the decision points above to document your technical implementation plan.</span></span>
+-   <span data-ttu-id="bbcd6-865">音频会议服务地点支持列表</span><span class="sxs-lookup"><span data-stu-id="bbcd6-865">Audio Conferencing service site enablement list</span></span>
 
-<span data-ttu-id="08d1e-861">此技术实施计划将为项目团队（可以包括 FastTrack 或部署合作伙伴）提供为实施音频会议执行技术上线所需的信息。</span><span class="sxs-lookup"><span data-stu-id="08d1e-861">This technical implementation plan will provide the project team, which can include FastTrack or a deployment partner, with the information required to execute the technical onboarding for the implementation of Audio Conferencing.</span></span>
+-   <span data-ttu-id="bbcd6-866">音频会议组织者的许可证分配列表</span><span class="sxs-lookup"><span data-stu-id="bbcd6-866">License assignment list for Audio Conferencing meeting organizers</span></span>
 
-<span data-ttu-id="08d1e-862">通常，技术实施计划包含以下主要部分：</span><span class="sxs-lookup"><span data-stu-id="08d1e-862">In general, a technical implementation plan will contain the following main sections:</span></span>
+-   <span data-ttu-id="bbcd6-867">通信点数计划数量</span><span class="sxs-lookup"><span data-stu-id="bbcd6-867">Communications Credits planning numbers</span></span>
 
--   <span data-ttu-id="08d1e-863">音频会议服务地点支持列表</span><span class="sxs-lookup"><span data-stu-id="08d1e-863">Audio Conferencing service site enablement list</span></span>
+-   <span data-ttu-id="bbcd6-868">会议桥接详细信息</span><span class="sxs-lookup"><span data-stu-id="bbcd6-868">Conference bridge details</span></span>
 
--   <span data-ttu-id="08d1e-864">音频会议组织者的许可证分配列表</span><span class="sxs-lookup"><span data-stu-id="08d1e-864">License assignment list for Audio Conferencing meeting organizers</span></span>
+-   <span data-ttu-id="bbcd6-869">会议桥接设置</span><span class="sxs-lookup"><span data-stu-id="bbcd6-869">Conference bridge settings</span></span>
 
--   <span data-ttu-id="08d1e-865">通信点数计划数量</span><span class="sxs-lookup"><span data-stu-id="08d1e-865">Communications Credits planning numbers</span></span>
+-   <span data-ttu-id="bbcd6-870">会议桥接设置分配</span><span class="sxs-lookup"><span data-stu-id="bbcd6-870">Conference bridge settings assignments</span></span>
 
--   <span data-ttu-id="08d1e-866">会议桥接详细信息</span><span class="sxs-lookup"><span data-stu-id="08d1e-866">Conference bridge details</span></span>
+-   <span data-ttu-id="bbcd6-871">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="bbcd6-871">Tenant dial plans</span></span>
 
--   <span data-ttu-id="08d1e-867">会议桥接设置</span><span class="sxs-lookup"><span data-stu-id="08d1e-867">Conference bridge settings</span></span>
+-   <span data-ttu-id="bbcd6-872">拨号计划分配</span><span class="sxs-lookup"><span data-stu-id="bbcd6-872">Dial plan assignments</span></span>
 
--   <span data-ttu-id="08d1e-868">会议桥接设置分配</span><span class="sxs-lookup"><span data-stu-id="08d1e-868">Conference bridge settings assignments</span></span>
+-   <span data-ttu-id="bbcd6-873">Microsoft Teams 会议配置</span><span class="sxs-lookup"><span data-stu-id="bbcd6-873">Microsoft Teams meetings configurations</span></span>
 
--   <span data-ttu-id="08d1e-869">租户拨号计划</span><span class="sxs-lookup"><span data-stu-id="08d1e-869">Tenant dial plans</span></span>
+<br>
+<span data-ttu-id="bbcd6-874">完成成功计划和技术实施计划后，你现在即可带领贵组织进入 Office 365 客户旅程的后续步骤。</span><span class="sxs-lookup"><span data-stu-id="bbcd6-874">With the completion of success plan and technical implementation plan, you are now ready to take your organization to the next steps along the Office 365 customer journey.</span></span>
 
--   <span data-ttu-id="08d1e-870">拨号计划分配</span><span class="sxs-lookup"><span data-stu-id="08d1e-870">Dial plan assignments</span></span>
+<br>
+<span data-ttu-id="bbcd6-875">上线 =======</span><span class="sxs-lookup"><span data-stu-id="bbcd6-875">Onboard =======</span></span>
 
--   <span data-ttu-id="08d1e-871">Microsoft Teams 会议配置</span><span class="sxs-lookup"><span data-stu-id="08d1e-871">Microsoft Teams meetings configurations</span></span>
+<span data-ttu-id="bbcd6-876">*即将提供。*</span><span class="sxs-lookup"><span data-stu-id="bbcd6-876">*Coming soon.*</span></span>
 
-<span data-ttu-id="08d1e-872">完成成功计划和技术实施计划后，你现在即可带领贵组织进入 Office 365 客户旅程的后续步骤。</span><span class="sxs-lookup"><span data-stu-id="08d1e-872">With the completion of success plan and technical implementation plan, you are now ready to take your organization to the next steps along the Office 365 customer journey.</span></span>
+<br>
+<span data-ttu-id="bbcd6-877">推动价值 ===========</span><span class="sxs-lookup"><span data-stu-id="bbcd6-877">Drive Value ===========</span></span>
 
-<a name="onboard"></a><span data-ttu-id="08d1e-873">上线</span><span class="sxs-lookup"><span data-stu-id="08d1e-873">Onboard</span></span>
-=======
+<span data-ttu-id="bbcd6-878">*即将提供。*</span><span class="sxs-lookup"><span data-stu-id="bbcd6-878">*Coming soon.*</span></span>
 
-<span data-ttu-id="08d1e-874">*即将提供。*</span><span class="sxs-lookup"><span data-stu-id="08d1e-874">*Coming soon.*</span></span>
+<br>
+## <a name="see-also"></a><span data-ttu-id="bbcd6-879">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bbcd6-879">See also</span></span>
 
-<a name="drive-value"></a><span data-ttu-id="08d1e-875">推动价值</span><span class="sxs-lookup"><span data-stu-id="08d1e-875">Drive Value</span></span>
-===========
-
-<span data-ttu-id="08d1e-876">*即将提供。*</span><span class="sxs-lookup"><span data-stu-id="08d1e-876">*Coming soon.*</span></span>
-
-
-
-### <a name="see-also"></a><span data-ttu-id="08d1e-877">另请参阅</span><span class="sxs-lookup"><span data-stu-id="08d1e-877">See also</span></span>
-[<span data-ttu-id="08d1e-878">为 Skype for Business 设置电话拨入式会议或 PSTN 会议</span><span class="sxs-lookup"><span data-stu-id="08d1e-878">Set up dial-in or PSTN conferencing for Skype for Business</span></span>](https://support.office.com/article/Set-up-audio-conferencing-for-Skype-for-Business-and-Microsoft-Teams-d01954f1-4f37-4cf5-a636-20039e5c59e9)
+[<span data-ttu-id="bbcd6-880">设置 Skype for Business 和 Microsoft Teams 音频会议</span><span class="sxs-lookup"><span data-stu-id="bbcd6-880">Set up Audio Conferencing for Skype for Business and Microsoft Teams</span></span>](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

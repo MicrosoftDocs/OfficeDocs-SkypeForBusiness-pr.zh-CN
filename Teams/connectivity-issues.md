@@ -1,5 +1,5 @@
 ---
-title: "对 Microsoft Teams 客户端的连接问题进行故障排除 | Microsoft 支持"
+title: "对 Microsoft Teams 客户端的连接问题进行故障排除"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,30 +7,29 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "对 Microsoft Teams 客户端的连接问题（主要是由防火墙或代理连接导致的）进行故障排除，以及了解如何解决问题。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 82e289f84a98a2496bd7760f524b858cb588734e
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 012bff35243030390ef618a5cf627e45d206c11d
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
-<a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a><span data-ttu-id="c4269-103">对 Microsoft Teams 客户端的连接问题进行故障排除</span><span class="sxs-lookup"><span data-stu-id="c4269-103">Troubleshoot connectivity issues with the Microsoft Teams client</span></span>
+<a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a><span data-ttu-id="4f263-103">对 Microsoft Teams 客户端的连接问题进行故障排除</span><span class="sxs-lookup"><span data-stu-id="4f263-103">Troubleshoot connectivity issues with the Microsoft Teams client</span></span>
 ==============================================================
 
-<span data-ttu-id="c4269-104">在 Microsoft Teams 客户端上发现的大多数问题都可以追溯到防火墙或代理连接。</span><span class="sxs-lookup"><span data-stu-id="c4269-104">Most issues discovered with the Microsoft Teams client can be traced back to firewall or proxy connectivity.</span></span> <span data-ttu-id="c4269-105">确认是否在你的防火墙或代理中打开了必需的 URL、IP 地址和端口可以最大限度地减少不必要的故障排除</span><span class="sxs-lookup"><span data-stu-id="c4269-105">Verifying that the necessary URLs, IP addresses and ports are opened in your firewall or proxy will minimize unnecessary troubleshooting.</span></span> <span data-ttu-id="c4269-106">有关 Microsoft Teams 所需的 URL 和 IP 的特定信息，请参阅 [Office 365 URL 和 IP 地址](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US#bkmk_teams)支持文章。</span><span class="sxs-lookup"><span data-stu-id="c4269-106">For specific information on URLs and IPs required for Microsoft Teams, please reference the [Office 365 URLs and IP Address](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US#bkmk_teams) support article.</span></span> <span data-ttu-id="c4269-107">以下应用场景需要在防火墙中打开特定的 URL 和端口。</span><span class="sxs-lookup"><span data-stu-id="c4269-107">The following scenarios require specific URLs and ports to be opened in the firewall.</span></span>
+<span data-ttu-id="4f263-104">在 Microsoft Teams 客户端上发现的大多数问题都可以追溯到防火墙或代理连接。</span><span class="sxs-lookup"><span data-stu-id="4f263-104">Most issues discovered with the Microsoft Teams client can be traced back to firewall or proxy connectivity.</span></span> <span data-ttu-id="4f263-105">确认是否在你的防火墙或代理中打开了必需的 URL、IP 地址和端口可以最大限度地减少不必要的故障排除</span><span class="sxs-lookup"><span data-stu-id="4f263-105">Verifying that the necessary URLs, IP addresses and ports are opened in your firewall or proxy will minimize unnecessary troubleshooting.</span></span> <span data-ttu-id="4f263-106">有关 Microsoft Teams 所需的 URL 和 IP 的特定信息，请参阅 [Office 365 URL 和 IP 地址](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US#bkmk_teams)支持文章。</span><span class="sxs-lookup"><span data-stu-id="4f263-106">For specific information on URLs and IPs required for Microsoft Teams, please reference the [Office 365 URLs and IP Address](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US#bkmk_teams) support article.</span></span> <span data-ttu-id="4f263-107">以下应用场景需要在防火墙中打开特定的 URL 和端口。</span><span class="sxs-lookup"><span data-stu-id="4f263-107">The following scenarios require specific URLs and ports to be opened in the firewall.</span></span>
 
--   <span data-ttu-id="c4269-108">身份验证</span><span class="sxs-lookup"><span data-stu-id="c4269-108">Authentication</span></span>
+-   <span data-ttu-id="4f263-108">身份验证</span><span class="sxs-lookup"><span data-stu-id="4f263-108">Authentication</span></span>
 
--   <span data-ttu-id="c4269-109">Microsoft Teams 客户端连接</span><span class="sxs-lookup"><span data-stu-id="c4269-109">Microsoft Teams Client Connectivity</span></span>
+-   <span data-ttu-id="4f263-109">Microsoft Teams 客户端连接</span><span class="sxs-lookup"><span data-stu-id="4f263-109">Microsoft Teams Client Connectivity</span></span>
 
--   <span data-ttu-id="c4269-110">协作</span><span class="sxs-lookup"><span data-stu-id="c4269-110">Collaboration</span></span>
+-   <span data-ttu-id="4f263-110">协作</span><span class="sxs-lookup"><span data-stu-id="4f263-110">Collaboration</span></span>
 
--   <span data-ttu-id="c4269-111">媒体</span><span class="sxs-lookup"><span data-stu-id="c4269-111">Media</span></span>
+-   <span data-ttu-id="4f263-111">媒体</span><span class="sxs-lookup"><span data-stu-id="4f263-111">Media</span></span>
 
--   <span data-ttu-id="c4269-112">共享服务</span><span class="sxs-lookup"><span data-stu-id="c4269-112">Shared Services</span></span>
+-   <span data-ttu-id="4f263-112">共享服务</span><span class="sxs-lookup"><span data-stu-id="4f263-112">Shared Services</span></span>
 
--   <span data-ttu-id="c4269-113">第三方集成</span><span class="sxs-lookup"><span data-stu-id="c4269-113">Third Party Integration</span></span>
+-   <span data-ttu-id="4f263-113">第三方集成</span><span class="sxs-lookup"><span data-stu-id="4f263-113">Third Party Integration</span></span>
 
--   <span data-ttu-id="c4269-114">Skype for Business 互操作性</span><span class="sxs-lookup"><span data-stu-id="c4269-114">Skype for Business Interoperability</span></span>
+-   <span data-ttu-id="4f263-114">Skype for Business 互操作性</span><span class="sxs-lookup"><span data-stu-id="4f263-114">Skype for Business Interoperability</span></span>
 
--   <span data-ttu-id="c4269-115">Skype for Business 客户端互操作性</span><span class="sxs-lookup"><span data-stu-id="c4269-115">Skype for Business Client Interoperability</span></span>
+-   <span data-ttu-id="4f263-115">Skype for Business 客户端互操作性</span><span class="sxs-lookup"><span data-stu-id="4f263-115">Skype for Business Client Interoperability</span></span>
