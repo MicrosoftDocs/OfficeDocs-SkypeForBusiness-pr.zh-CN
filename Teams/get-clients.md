@@ -7,11 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解如何使用支持 Microsoft Teams 的各种客户端，包括 Web、桌面（Windows 和 Mac）和移动（Android、iOS 和 Windows Phone）。"
-ms.openlocfilehash: 8037d765e304aa6e950fdd0b9b5ad55079ec1700
-ms.sourcegitcommit: 19d7af5d60276c0a1ca3e01588b91c34a3fd0f92
+ms.openlocfilehash: 2f07ba9fc8c7f08adf608c5d3a0708e680967632
+ms.sourcegitcommit: 18b1af39d6d2cd0e7f2d270dcd844e06c9075ae6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 01/03/2018
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================
@@ -35,7 +35,7 @@ Microsoft Teams 支持以下浏览器和版本：
 
 -   **Chrome**: 51.0+
 
--   **Firefox**：47.0+
+-   **Firefox**：55+
 
 
 
