@@ -6,13 +6,13 @@ manager: lolaj
 ms.date: 10/05/2017
 ms.topic: article
 ms.service: msteams
-description: "你需要了解的有关从 Skype for Business Online 到 Microsoft Teams 的旅程的所有内容。"
+description: "浏览你需要了解的有关从 Skype for Business Online 到 Microsoft Teams 的旅程的所有内容。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c1a9df4935fab631bffd4da2ec1a8cfcbbc611d0
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: af0204d5eb1edd7b58aee5c8f913a8b5404b295f
+ms.sourcegitcommit: 02403b6dc6e0a9a0a590fbf41fa8a552d2f29e1f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/09/2018
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>从 Skype for Business 到 Microsoft Teams 的旅程
 ==================================================
@@ -40,7 +40,7 @@ ms.lasthandoff: 12/20/2017
 [教程：从 Skype for Business 到 Teams 的旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 
 [常见问题解答 - Skype for Business 和 Teams 愿景](FAQ-journey.md)
-[Skype for Business 到 Microsoft Teams： 功能路线图](https://aka.ms/skype2teamsroadmap)
+[Skype for Business 到 Microsoft Teams：功能路线图](https://aka.ms/skype2teamsroadmap)
 
 [从 Skype for Business 到 Microsoft Teams：功能路线图](https://aka.ms/skype2teamsroadmap)
 

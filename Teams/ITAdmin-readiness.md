@@ -7,25 +7,28 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "这些培训视频介绍 Microsoft Teams，以及向管理员说明如何规划、部署和操作 Microsoft Teams。"
-ms.openlocfilehash: d80179649c7e72f3a365bf4436a8e5d48a39842a
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: 30d728f1de60791a7d93fb7e59f5058cf66bfed5
+ms.sourcegitcommit: 02403b6dc6e0a9a0a590fbf41fa8a552d2f29e1f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/09/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 ==================================
 
-了解 Microsoft Teams 以及在贵组织中推动使用。 请时常回来查看是否有新视频。
+了解 Teams 以及在贵组织中推动使用。 请时常回来查看是否有新视频。
 
 
 |  |  |
 |---------|---------|
-| [音频会议视频](audio-conferencing-videos.md) |  |
-| 部署和操作 Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
+| [教程：从 Skype for Business 到 Teams 的旅程](tutorial-journey-skypeforbusiness-to-teams.yml) |浏览你需要了解的有关从 Skype for Business Online 到 Teams 的旅程的所有内容。  |
+| [快速入门 - Microsoft Teams 教育版管理员](teams-quick-start-edu.yml) |供教育版 IT 管理员在你的整个组织内部署 Teams。   |
+[快速入门指南：在 Microsoft Teams 中配置通话套餐](configuring-teams-calling-quickstartguide.md)| 有关在 Teams 中配置通话套餐的快速入门指南。 |
+| [音频会议视频](audio-conferencing-videos.md) |向 IT 管理员介绍 Teams 中的音频会议的视频。  |
+| 部署和操作 Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
 | 深入了解来宾访问 <br>与 Laith Al 和 Karuana Gatimu 进行的云会话中的增补内容  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 | Microsoft Teams 中的电子数据展示 <br> 与 Ansuman Acharya 和 Karuana Gatimu 进行的云会话中的增补内容  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
-| Microsoft Teams：使用、启用和管理体验的分布简介 <br> Microsoft Mechanics 与 Dan Stevenson 和 Jeremy Chapman 进行的会话 |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
+| Teams：使用、启用和管理体验的分布简介 <br> Microsoft Mechanics 与 Dan Stevenson 和 Jeremy Chapman 进行的会话 |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
 
 
 

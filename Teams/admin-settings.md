@@ -7,16 +7,21 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解如何在 Microsoft Teams 中允许和启用应用，包括侧向加载外部应用。"
-ms.openlocfilehash: ca969e073cf35309b65aeedf93acda31d388629c
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: 4265866bb346da1aa773d337d02fc1c11149f579
+ms.sourcegitcommit: ee1c79b6d6d73e5fc702fe55b9e5aee8a7aae793
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/10/2018
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams 中适用于应用的管理设置
 ==========================================
 
-在本节中，我们提到了选项卡、连接器和聊天机器人或这些功能的任意组合（由单个第三方服务以应用形式提供）。 可以在 Office 365 管理门户中配置管理策略来控制允许哪些外部第三方应用。 通过这些策略可以指定允许和不允许哪些应用、新的外部应用行为以及是否允许侧向加载应用。
+应用是第三方服务提供的选项卡、连接器或聊天机器人或这三者的任意组合。 可以在 Office 365 管理中心配置管理策略来控制允许哪些外部第三方应用。 通过这些策略可以指定允许和不允许哪些应用、新的外部应用行为以及是否允许侧向加载应用。
+
+> [!NOTE]
+> 要管理 Teams 中的应用的管理员设置，请转到 Office 365 管理中心并打开“**设置**” > “**服务和外接程序**”，然后选择“**Microsoft Teams**”。 如果你已使用 Office 365 管理员身份登录，点击此链接应该能实现此操作：
+> 
+> https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 
 **在 Microsoft Teams 中允许外部应用**
 
