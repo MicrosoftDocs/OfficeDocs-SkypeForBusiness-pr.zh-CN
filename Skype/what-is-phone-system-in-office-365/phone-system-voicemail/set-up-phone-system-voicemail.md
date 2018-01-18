@@ -1,5 +1,5 @@
 ---
-title: "设置电话系统语音邮件"
+title: Set up Phone System voicemail
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,45 +24,45 @@ ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 12/15/2017
 ---
-# <a name="set-up-phone-system-voicemail"></a>设置电话系统语音邮件
+# <a name="set-up-phone-system-voicemail"></a>Set up Phone System voicemail
 
-本文是针对[Office 365 管理](http://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)者想要在业务的每个人设置了电话系统的语音邮件功能。
+This article is for the [Office 365 admin](http://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) who wants to set up the Phone System voicemail feature for everyone in the business.
   
 > [!NOTE]
-> 电话系统语音邮件支持仅在 Exchange 邮箱中放入的语音邮件消息，并不支持所有第三方电子邮件系统。 作为一种回退机制，电话系统语音邮件可以重新发送邮件使用 SMTP，这意味着有一个第三方电子邮件系统上的邮箱的用户将收到与无保证的服务的正常运行时间或其他语音邮件功能，例如更改其语音邮件消息他们问候和其他设置。 
+> Phone System voicemail supports depositing voicemail messages only in an Exchange mailbox and doesn't support any third-party email systems. As a fallback mechanism, Phone System voicemail can resend messages using SMTP, which means users with a mailbox on a third-party email system will receive their voicemail messages with no guaranteed service uptime or other voicemail features, such as changing their greetings and other settings. 
   
-## <a name="cloud-only-environments-set-up-phone-system-voicemail"></a>仅云环境： 设置电话系统语音邮件
+## <a name="cloud-only-environments-set-up-phone-system-voicemail"></a>Cloud-only environments: Set up Phone System voicemail
 
-为业务联机并调用计划用户的 Skype，电话系统语音邮件自动设置和分配给他们的**电话系统**许可证及电话号码后为用户提供。
+For Skype for Business Online and Calling Plans users, Phone System voicemail is automatically set up and provisioned for users after you assign a **Phone System** license and a phone number to them.
   
-1. 如果电话系统功能不包含在您的计划，可能需要购买附加许可证**电话系统**。 您可能还需要购买 Exchange Online 的许可证。 请参阅[附加业务和 Microsoft 小组授权的 Skype](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+1. If the Phone System feature isn't included in your plan, you may need to purchase **Phone System** add-on licenses. You may also need to purchase an Exchange Online license. See [Skype for Business and Microsoft Teams add-on licensing](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
-2. [分配或删除业务的 Office 365 的许可证](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、[业务和 Microsoft 小组许可证分配 Skype](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)和 Exchange Online 许可证给在您的业务的人。 做到这一点后，他们将能够接收语音邮件消息 ！
+2. [Assign or remove licenses for Office 365 for business](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), the [Assign Skype for Business and Microsoft Teams licenses](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md), and the Exchange Online licenses to the people in your business. After you do that, they will be able to receive voicemail messages!
     
-3. 语音邮件抄写的支持已添加 3 月 2017 年和所有组织和用户的默认启用的。 通过使用 Windows PowerShell 并执行以下步骤，您可以为您的组织中禁用抄写。
+3. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below.
     
-## <a name="phone-system-with-on-premises-environments"></a>电话系统与内部部署环境
+## <a name="phone-system-with-on-premises-environments"></a>Phone System with on-premises environments
 
-以下信息是关于配置电话系统语音邮件使用内部调用计划环境。
+The following information is about configuring Phone System voicemail to work with on-premises Calling Plan environments.
   
-1. 如果电话系统功能不包含在您的计划，可能需要购买附加许可证**电话系统**。 您还需要购买一个 Exchange Online 的许可证。 请参阅[附加业务和 Microsoft 小组授权的 Skype](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+1. If the Phone System feature isn't included in your plan, you may need to purchase **Phone System** add-on licenses. You also need to purchase an Exchange Online license. See [Skype for Business and Microsoft Teams add-on licensing](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
-2. [分配或删除业务的 Office 365 的许可证](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、[业务和 Microsoft 小组许可证分配 Skype](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)和 Exchange Online 许可证给在您的业务的人。
+2. [Assign or remove licenses for Office 365 for business](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), the [Assign Skype for Business and Microsoft Teams licenses](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md), and the Exchange Online licenses to the people in your business.
     
-3. 按照[商务云连接器版指南配置 Skype](https://technet.microsoft.com/en-us/library/mt605228.aspx)的**用户语音电话系统和语音邮件服务启用**部分中的说明进行操作。
+3. Follow the instructions in the **Enable users for Phone System voice and voice mail services** section of the [Configure Skype for Business Cloud Connector Edition guide](https://technet.microsoft.com/en-us/library/mt605228.aspx).
     
-4. 语音邮件抄写的支持已添加 3 月 2017 年和所有组织和用户的默认启用的。 通过使用 Windows PowerShell 并执行以下步骤，您可以为您的组织中禁用抄写。 
+4. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below. 
     
-5. 您还可以查看[Azure PBX 语音邮件的 Exchange Server 支持](https://support.microsoft.com/en-us/kb/3195158)以了解如何配置电话系统用户拥有本地邮箱的 Azure 的语音邮件消息的传递。
+5. You can also see [Azure PBX voicemail support for Exchange Server](https://support.microsoft.com/en-us/kb/3195158) to learn how to configure delivery of Azure voicemail messages for Phone System users who have a on-premises mailboxes.
     
 ## <a name="setting-voicemail-policies-in-your-organization"></a>设置组织的语音邮件策略
 
-语音邮件抄写是默认启用的所有组织和用户;但是，您可以通过[设置 CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx)和[授予 CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798311.aspx) cmdlet 控制它。
+Voicemail transcription is enabled by default for all organizations and users; however, you can control it by using the [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx) and [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798311.aspx) cmdlets.
   
 > [!IMPORTANT]
-> 不能创建使用**New CsOnlineVoiceMailPolicy** cmdlet，抄写新建策略实例，您不能删除现有策略实例使用**删除 CsOnlineVoiceMailPolicy** cmdlet。
+> You can't create a new policy instance for transcription using the **New-CsOnlineVoiceMailPolicy** cmdlet, and you can't remove an existing policy instance using the **Remove-CsOnlineVoiceMailPolicy** cmdlet.
   
-您可以为您的用户使用语音邮件策略管理抄写设置。 若要查看所有可用的语音邮件策略实例，您可以使用[Get CsOnlineVoicemailPolicy](https://technet.microsoft.com/en-us/library/mt798311.aspx) cmdlet。
+You can manage the transcription settings for your users using voicemail policies. To see all available voicemail policy instances, you can use the [Get-CsOnlineVoicemailPolicy](https://technet.microsoft.com/en-us/library/mt798311.aspx) cmdlet.
   
  **PS C:\\> Get-CsOnlineVoicemailPolicy**
   
@@ -70,7 +70,7 @@ ms.lasthandoff: 12/15/2017
   
 ### <a name="turning-off-transcription-for-your-organization"></a>为组织禁用转录
 
-由于抄写的默认设置是在为您的组织，您可以通过[设置 CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx)禁用它。 若要执行此操作，请运行：
+Because the default setting for transcription is on for your organization, you may want to disable it by using [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx). To do this, run:
   
 ```
 Set-CsOnlineVoicemailPolicy -EnableTranscription $false
@@ -78,7 +78,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 
 ### <a name="turning-off-transcription-for-a-user"></a>为用户禁用转录
 
-用户策略被评估之前组织的默认设置。 例如，如果为所有用户都启用了语音邮件抄写，可以分配一个策略以禁用对特定用户使用[授予 CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx) cmdlet 的抄写。
+User policies are evaluated before the organizational default settings. For example, if voicemail transcription is enabled for all of your users, you can assign a policy to disable transcription for a specific user using the [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx) cmdlet.
   
 要为单个用户禁用转录，请运行：
   
@@ -91,13 +91,13 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:am
   
 ## <a name="help-your-users-learn-skype-for-business-voicemail-features"></a>帮助你的用户了解 Skype for Business 语音邮件的功能
 
-我们必须培训信息和文章，以帮助用户能成功与 Skype 业务语音邮件。 其指向下列文章：
+We have training information and articles to help your users be successful with Skype for Business voicemail. Point them to the following articles:
   
-- [检查业务语音邮件和选项的 Skype](http://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)： 这篇文章解释了如何收听语音邮件中业务的 Skype、 更改您的语音邮件问候语、 更改您的语音邮件设置和收听语音邮件以不同的速度。
+- [Check Skype for Business voicemail and options](http://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8): This article explains how to listen to your voicemail in Skype for Business, change your voice mail greeting, change your voicemail settings, and listen to your voicemail at different speeds.
     
 - [Skype for Business 2016 培训](http://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
     
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](../../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
-[以下是您所获得的与 Office 365 中的电话系统](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
+[Here's what you get with Phone System in Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)

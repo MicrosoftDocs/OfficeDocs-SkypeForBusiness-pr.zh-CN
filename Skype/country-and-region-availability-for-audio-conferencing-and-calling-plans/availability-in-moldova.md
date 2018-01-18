@@ -1,5 +1,5 @@
 ---
-title: Availability in Moldova
+title: "在摩尔多瓦的可用性"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,60 +24,60 @@ ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 01/02/2018
 ---
-# <a name="availability-in-moldova"></a>Availability in Moldova
+# <a name="availability-in-moldova"></a>在摩尔多瓦的可用性
 
-[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
+[找到另一个国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或音频会议为了解更多有关国家和地区的可用性，并调用计划。
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for Moldova.
+以下是可用的摩尔多瓦 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|Is Audio Conferencing available for purchase?  <br/> |否  <br/> |
-|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |否  <br/> |
-|Dial-out capability using the Call Me feature  <br/> |不可用  <br/> |
+|为采购提供了音频会议。  <br/> |否  <br/> |
+|电话号码自动指派对于音频会议？  <br/> |否  <br/> |
+|拨出功能使用我的功能调用  <br/> |不可用  <br/> |
    
-## <a name="phone-system"></a>Phone System
+## <a name="phone-system"></a>电话系统
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|Is Phone System available for purchase?  <br/> |是  <br/> |
-| Auto attendants <br/> |有空  <br/> |
-|Call queues  <br/> |有空  <br/> |
+|是可供购买的电话系统？  <br/> |是  <br/> |
+| 自动助理 <br/> |有空  <br/> |
+|电话队列  <br/> |有空  <br/> |
 |语音邮件  <br/> |有空  <br/> |
    
-## <a name="calling-plans"></a>Calling Plans
+## <a name="calling-plans"></a>通话方案
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|Calling Plans are available to purchase?  <br/> |否  <br/> |
-|Minutes available for Calling Plans  <br/> |不适用  <br/> |
-|Can make outbound calls to?  <br/> |不适用  <br/> |
+|可供购买电话计划？  <br/> |否  <br/> |
+|分钟可用于调用计划  <br/> |不适用  <br/> |
+|可以制作到出站呼叫？  <br/> |不适用  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Toll and toll-free numbers for services
+## <a name="toll-and-toll-free-numbers-for-services"></a>收费和服务的免费电话号码
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?  <br/> |不适用  <br/> |
-|Are toll numbers available?  <br/> |否  <br/> |
-|Are toll-free numbers available?  <br/> |是  <br/> |
+|什么字母大写或大城市可以获得免费电话的号码？  <br/> |不适用  <br/> |
+|收费电话号码，有？  <br/> |否  <br/> |
+|有免费电话号码？  <br/> |是  <br/> |
    
- If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+ 如果您想要获得收费和免费电话号码的音频会议，自动助理和呼叫队列，请参阅[获得 Skype 业务和 Microsoft 团队的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>通信点数
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|Are Communications Credits available?  <br/> |否  <br/> |
+|有通信信用？  <br/> |否  <br/> |
    
-If you want to set them up, see [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
+如果您想要将这些控件设置，请参阅[设置为您的组织的通讯信用](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)。
   
 ## <a name="related-topics"></a>相关主题
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[业务和 Microsoft 小组获得 Skype 服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-[Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[音频会议和调用计划的国家和地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 
 

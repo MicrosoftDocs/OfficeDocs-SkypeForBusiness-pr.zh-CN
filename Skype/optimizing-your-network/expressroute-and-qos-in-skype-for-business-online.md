@@ -27,7 +27,7 @@ ms.lasthandoff: 12/19/2017
 使用适用于 Office 365 和 Skype for Business Online 的 Azure ExpressRoute 通过专用网络连接连接到 Office 365。 适用于 Skype for Business 应用的专用连接将为你提供可靠且可预测的性能，并且在公用 Internet 上也可保持隐私。 现在，你可以购买更出色的 Office 365 和 Skype for Business Online 网络连接，该连接增加了可预测性、企业级可靠性并附带运行时间 SLA。
   
 > [!NOTE]
-> A new version of the bandwidth calculator is available: [Skype for Business, Bandwidth Calculator](https://go.microsoft.com/fwlink/?LinkId=715766). However, the directions in this document use the Lync 2010 and 2013 Bandwidth Calculator. 
+> 带宽计算器有新版本： [Skype 业务，带宽计算器](https://go.microsoft.com/fwlink/?LinkId=715766)。 但是，本文档中的说明进行操作，使用 Lync 2010 和 2013年带宽计算器。 
   
 ## <a name="skype-for-business-online-and-expressroute"></a>Skype for Business Online 和 ExpressRoute
 
@@ -78,7 +78,7 @@ Dewy Law LLC. 是一家相对年轻的公司，律师和其他职员非常熟悉
     
 - 网络交换机和路由器还必须使用不间断电源 (UPS)，这样就可以在发生电源故障期间继续运转。
     
-    They have a Wi-Fi connections to their LAN offices, so we highly recommend they use a certified Skype for Business Wi-Fi infrastructure partner from [Skype for Business Solutions](https://go.microsoft.com/fwlink/?LinkId=690281).
+    他们 LAN 办公室，具有 Wi-fi 连接，因此我们极力建议他们使用认证的 Skype 业务 Wi-Fi 基础架构从[Skype 的业务解决方案](https://go.microsoft.com/fwlink/?LinkId=690281)的合作伙伴。
     
     > [!TIP]
     >  [!提示] 建议使用 802.11n 和 802.11ac 无线接入点。
@@ -97,7 +97,7 @@ MPLS 提供商提供许多服务类别级别，但是每个服务类别都使用
     
 若要实施终结点标记，你必须将 Dewey Law LLC 所有加入域的 Windows 计算机配置为 使用适当的 DiffServ 控制点 (DSCP) 标记来标记每个数据包，然后在所有办事处站点的所有网络交换机和路由器上实施 QoS，以确保 QoS 标记得到维护且不被删除。 网络数据包上的 DSCP 标记告知服务提供商如何区分网络数据包的优先次序。 **第 2 部分的 QoS 部分提供了有关 DSCP 的更多信息。**
   
-For network ACL-based assignment, the DSCP priority markings are implemented at an upstream router and are based on the UDP source port. The recommended port ranges for each application are listed in Section 2.6.1.1 of [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://go.microsoft.com/fwlink/?LinkId=690286). It is important that you coordinate this with Dewey Law LLC's overall QoS implementation and design and be aware of different QoS policies and the potential for packet marking mismatches.
+对于网络基于 ACL 的指派，DSCP 优先级标记在上游路由器实现和基于 UDP 的源端口。 2.6.1.1 的[网络规划、 监视和使用 Lync 服务器进行故障排除](https://go.microsoft.com/fwlink/?LinkId=690286)一节中列出的每个应用程序建议的端口范围。 请务必与蛛丝缠绕法律 LLC 总体 QoS 实现和设计协调这，请注意不同的 QoS 策略和潜在的数据包标记不匹配。
   
 每个 ExpressRoute 网络服务提供商都有适合实时语音和视频的服务类别 (QoS)。 此 COS 对于语音称为"加速转发"(EF)，对视频称为"确保转发"(AF)。 你必须非常小心地确定面向语音 EF 流量购买的带宽量。 原因是当你发送的语音流量超过了为服务类别设置的值时，语音服务类别将非常严格。
   
@@ -106,12 +106,12 @@ For network ACL-based assignment, the DSCP priority markings are implemented at 
   
 当查看 Dewey Law LLC 的总体设计时， 一定要准确地确定在网络上支持语音流量所需的网络带宽量，并使用语音的 DSCP 设置（如 DSCP EF 46）标记每个语音数据包（并且仅语音数据包），这极其重要。
   
-To implement QoS across their enterprise network, the endpoints or routers must mark each packet with the appropriate Layer 3 priority indicator (i.e., DSCP). Along the entire network path, each switch and router must have the QoS option turned on. Having even only one network switch or router that doesn't have QoS turned on, the QoS markings on voice or video packets passing through that switch or router could be stripped off. This effectively disables QoS in all downstream switches and routers which decreases the value of having ExpressRoute.
+在企业网络、 终结点或路由器中实现 QoS 必须标记具有相应的 3 层优先级标记 (即 DSCP) 每个数据包。 沿着整个网络路径，每个交换机和路由器必须具有 QoS 选项处于打开状态。 QoS 的语音或视频数据包传递到该交换机或路由器的标记可能会出现即使只有一个网络交换机或路由器没有开启的 QoS，去除。 这有效地将 QoS 禁用所有下游的交换机和路由器，这将降低出现 ExpressRoute 的值。
   
 这也要求在每个点上定义第 3 层和第 2 层 QoS 优先级的关联。 第 2 层优先级机制在 IEEE 802.1p（有线网络）和 802.11e/WMM（Wi-Fi 网络）中定义。 更重要的是，面向网络服务提供商的 MPLS 网络的网络路由器必须维护所有出站数据包上的 DSCP 设置，以便它们将保持合适的 MPLS 服务类别。 
   
 > [!TIP]
->  For the specific details regarding QoS set-up, refer to Section 2.6 [Network Planning, Monitoring, and Troubleshooting with Lync Server]( https://go.microsoft.com/fwlink/?LinkId=760669). You can also see [Plan network requirements for Skype for Business 2015](https://go.microsoft.com/fwlink/?LinkId=690287) for more network planning requirements.
+>  QoS 设置有关的特定详细信息，请参阅一节 2.6[网络规划、 监视和使用 Lync 服务器进行故障排除]( https://go.microsoft.com/fwlink/?LinkId=760669)。 此外可以为多个网络规划要求查看[规划业务 2015年的 Skype 的网络需求](https://go.microsoft.com/fwlink/?LinkId=690287)。
   
 ### <a name="ordering-network-access-services"></a>订购网络访问服务
 
@@ -169,7 +169,7 @@ Dewey Law LLC. 的设计过程 首先是根据用户的特征设定不同的"角
    
  **站点中每种应用所需的带宽（以 Kbps 为单位） （"站点"工作表 - 列 A 和 BQ 至 LF）**
   
-|**站点**|**SIP/IM 带宽峰值**|**站点间对等音频带宽峰值**|**站点间对等视频带宽峰值**|**Peak Audio Conferencing bandwidth**|**Peak Video Conferencing bandwidth**|**WAN 共享带宽峰值**|**PSTN 呼叫的 WAN 带宽峰值**|
+|**站点**|**SIP/IM 带宽峰值**|**站点间对等音频带宽峰值**|**站点间对等视频带宽峰值**|**音频会议的峰值带宽**|**视频会议的峰值带宽**|**WAN 共享带宽峰值**|**PSTN 呼叫的 WAN 带宽峰值**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |总部  <br/> |1070  <br/> |525.30  <br/> |560.00  <br/> |739.50  <br/> |2640.00  <br/> |4224.00  <br/> |2688.30  <br/> |
 |地区办事处  <br/> |345  <br/> |185.40  <br/> |560.00  <br/> |255.00  <br/> |1320.00  <br/> |1536.00  <br/> |896.10  <br/> |
@@ -183,7 +183,7 @@ Dewey Law LLC. 的设计过程 首先是根据用户的特征设定不同的"角
 > [!TIP]
 >  [!提示] 再提一下，EF 服务类别可提供最佳性能保证，如果你超过定义的带宽，任何其他数据包将立即被丢弃。
   
- **Aggregate bandwidth per site by QoS traffic class - ('Sites' Worksheet- Columns A and ML through MR)**
+ **每个站点通过 QoS 通信类的 （站点工作表中的列 A 和列先生通过 ML） 的聚合带宽**
   
 |**站点名称**|**尽力而为类别 (DSCP 0)**|**数据流量类别（DSCP 自定义）**|**实时流量类别 （DSCP 34、AF41）**|**优先级流量类别 （DSCP 46、EF）**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -197,7 +197,7 @@ Dewey Law LLC. 的设计过程 首先是根据用户的特征设定不同的"角
 我们可以使用 **每个站点每个应用程序** 表中的带宽估计值计算将遍历 WAN 的总带宽量以及将遍历 ExpressRoute 的带宽量。遍历 ExpressRoute 的流量部分不包括站点间的对等带宽。
 
  
-|**站点**|**SIP/IM 带宽峰值**|**Peak Audio Conferencing bandwidth**|**Peak Video Conferencing bandwidth**|**WAN 共享带宽峰值**|**PSTN 呼叫的 WAN 带宽峰值**|**Total ExpressRoute<br/>traffic per site class<br/>(i.e., total<br/>time # of sites)**|
+|**站点**|**SIP/IM 带宽峰值**|**音频会议的峰值带宽**|**视频会议的峰值带宽**|**WAN 共享带宽峰值**|**PSTN 呼叫的 WAN 带宽峰值**|**合计 ExpressRoute<br/>每个网站类流量<br/>(即总<br/>时间的网站)**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |**总部** <br/> |1,070  <br/> |739.50  <br/> |2640.00  <br/> |4224.00  <br/> |2688.30  <br/> |11361.80  <br/> |
 |**地区办事处** <br/> |345  <br/> |255.00  <br/> |1320.00  <br/> |1536.00  <br/> |896.10  <br/> |8704.20  <br/> |
@@ -302,7 +302,7 @@ ExpressRoute 采用 3 种连接方法通过网络服务提供商 (NSP) 或 Excha
 |**默认** <br/> |AF11 (10)  <br/> |文件传输  <br/> |
 ||CS0 (0)  <br/> |其他值  <br/> |
    
- **IP Version 4 header**
+ **IP 版本 4 头**
   
 ![IPv4 标头](../images/c8a6a714-2784-4328-8297-2e62706f302d.png)
   
@@ -312,7 +312,7 @@ DSCP 是用于在第 3 层实施 QoS 的标准机制，存在用于有线（如�
   
 IEEE 802.1p 使用一个 3 位优先级代码点 (PCP) 来确定消息的优先级；PCP 是也承载 VLAN 标识符的以太网标头中的 32 位字段的一部分。 下面包含 PCP 值的定义。
   
- **IEEE 802.1p PCP values**
+ **IEEE 802.1 p PCP 值**
   
 |**PCP 值**|**优先级**|**首字母缩写词**|**流量类型**|
 |:-----|:-----|:-----|:-----|
@@ -333,7 +333,7 @@ IEEE 802.1p 使用一个 3 位优先级代码点 (PCP) 来确定消息的优先�
   
 优先级是通过为高优先级帧分配较短的 AFIS 值来指定的。 因此，如果一个站正等待发送语音帧，而另一个站正等待发送数据帧，则将始终首先发送语音帧。 从技术角度来说，语音和视频帧将被分配相同的 AFIS 值，但是视频帧的退避间隔范围更高。 因此，如果语音和视频帧首次尝试时发生冲突，则将始终更快地重新传输语音帧。 IEEE 802.1p 和 IEEE 802.11e 之间的相关性如下所示：
   
- **IEEE 802.11e/Wi-Fi Multi-Media (WMM) to 802.1P mapping**
+ **IEEE 802.11e / Wi-fi 多媒体 (WMM) 到 802.1 P 映射**
   
 |**WMM 访问类别**|**WMM 说明**|**802.1P PCP 值**|**802.1P 标志**|
 |:-----|:-----|:-----|:-----|
@@ -367,7 +367,7 @@ IEEE 802.1p 使用一个 3 位优先级代码点 (PCP) 来确定消息的优先�
 |尽力而为  <br/> |逐跳行为 (PHB) - 0  <br/> |0  <br/> |4 (AC_BK)  <br/> |
 |DSCP 值 - 0  <br/> |
    
-It is important to note that there is a mismatch in the priority coding for IEEE 802.1p and WMM. The 802.1p the PCP value for voice is 5, however, in the standard equivalence mapping to WMM, PCP 5 is translated to Access Category 2, the WMM access category for video (AC_VI). If possible you should override that mapping so that PCP 5 translates to Access Category 1, or simply avoid using voice and video on the same Wi-Fi network until the Wi-Fi Alliance addresses this issue. For additional information on Wi-Fi, see [Wi-Fi Catalog Items]( https://go.microsoft.com/fwlink/?LinkId=690322).
+请务必注意在 IEEE 802.1 p 和 WMM 优先编码不匹配。 802.1 p PCP 的声音值是 5，但是，在标准等效对应于 WMM，PCP 5 被翻译为访问类别 2，视频 (AC_VI) WMM 访问类别。 如果可能应重写该映射，以便 PCP 5 相当于访问类别 1，或只是避免相同的 Wi-Fi 网络上使用语音和视频，直到 Wi-fi 联盟解决这个问题。 在 Wi-fi 上的其他信息，请参阅[Wi-Fi 的目录项]( https://go.microsoft.com/fwlink/?LinkId=690322)。
   
 ### <a name="implementing-qos-using-network-access-control-list-acl"></a>使用网络访问控制列表 (ACL) 实施 QoS
 
@@ -393,7 +393,7 @@ MPLS 提供商提供许多服务类别层次，遗憾的是，每个服务类别
 
 Skype for Business 增强了进行业务通信的方式。 Skype for Business 不是让电话连接到 PBX、独立的视频会议系统、用于电子邮件的独立平台、用于音频会议的外部服务以及一些 IM 和状态工具，它可以在单个用户界面集合所有这些功能。
   
-Consistently delivering business grade real-time voice and video services requires an end-to-end network infrastructure that is capable of providing QoS. That would include both LAN and the WAN services. Microsoft provides tools like the [Lync 2010 and 2013 Bandwidth Calculator](https://go.microsoft.com/fwlink/?LinkID=690282) to estimate the network capacity you will require for the various services. Also, there are partners in the IT Pro Tools program [Skype for Business Solutions: IT Pro Tools](https://go.microsoft.com/fwlink/?LinkID=690307) that offer tools to pre-assess the network infrastructure and support monitoring, reporting and troubleshooting. Without a correctly sized and configured network infrastructure, you run the risk of having an ExpressRoute Skype of Business deployment that will not meet your user's expectations for quality and consistency.
+始终如一地提供业务成绩实时语音和视频服务要求是能提供 QoS 的端到端网络基础结构。 它包括局域网和广域网服务。 Microsoft 提供的工具如[Lync 2010 和 2013年带宽计算器](https://go.microsoft.com/fwlink/?LinkID=690282)估计将需要的各种服务的网络容量。 另外，有一些 IT 专业工具程序的合作伙伴[Skype 业务解决方案： IT 专业人员的工具](https://go.microsoft.com/fwlink/?LinkID=690307)提供预评估网络基础结构和支持监视、 报告和故障排除工具。 没有正确地调整大小和配置的网络基础结构，您运行的 ExpressRoute Skype 不能达到用户的期望的质量和一致性的业务部署的风险。
   
 有效的业务工具必须可靠、一致地执行，并提供让用户有信心采用的用户体验。 从网络角度来看，这意味着拥有一种能够实现以上目的的网络基础结构（局域和广域、固定和移动）。 规划、设计、实施和维护基础结构并非总是轻松。 当前市面上有很多可实现该目的的硬件、工具和网络服务，然而，IT 专业人员应负责检查基础结构的设计、实施和维护是否能够确保用户获取一组让他们能够有效和高效地工作的通信和协作服务，组织可以享受到此技术必须提供的所有好处。 
   

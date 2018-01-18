@@ -1,36 +1,46 @@
 ---
-title: "法国的电话号码管理"
+title: "法国电话号码管理"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/22/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 8de49037-905c-4757-a6e7-cf212173e7f3
-description: "使用此表来查找获得和管理电话号码，在法国的 Skype for Business Online 的信息。"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Calling Plans
+description: "此表用于查找信息的获取和管理的在线业务的电话号码在 Skype 的法国。"
+ms.openlocfilehash: 959a9b19060d5a72b6d2c95dadbce9464406d3ac
+ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/17/2018
 ---
+# <a name="phone-number-management-for-france"></a>法国电话号码管理
 
-# 法国的电话号码管理
-
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
-  
-使用此表来查找获得和管理电话号码，在法国的 Skype for Business Online 的信息。
+此表用于查找信息的获取和管理的在线业务的电话号码在 Skype 的法国。 
   
 有关详细信息，请参阅[管理您的组织的电话号码](manage-phone-numbers-for-your-organization.md)。
   
-|**要执行？**|**下载正确的窗体并将其发送给我们**|
+|**您要不要？**|**下载正确的窗体并将其发送给我们**|
 |:-----|:-----|
-|您需要在 Skype for Business 管理中心获取未列出的用户号码。  <br/> | 下载以下格式之一： <br/> [获取在法国 (EN-US) 的新电话号码](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for France %28Geographic numbers%29 (v.2) (en.US).pdf) <br/> [获取在法国 (FR-FR) 中的新电话号码](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for France %28Geographic numbers%29 (v.3) (fr.FR).pdf) <br/>  填充它出，并[将其向我们发送](mailto:ptneu@microsoft.com)。  <br/> |
-|您需要获取传输到我们的电话号码。  <br/> | 下载以下格式之一： <br/> [字母的授权 (LOA) 法国 （免费电话号码）](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for France (Freephone numbers) (v.2.0) (fr-FR).pdf) <br/> [字母的授权 (LOA) 法国 （地理数字）](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for France (Geographic numbers) (v.2.0) (fr-FR).pdf) <br/>  填充它出，并[将其向我们发送](mailto:ptneu@microsoft.com)。  <br/> |
-|您需要发布/取消发布的国家/地区的电话目录中的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)您想要发布/取消发布的电话号码的列表。  <br/> |
-|您需要将用户的数字更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com )您想要将转换为数字服务的用户编号的列表。  <br/> |
-   
-## 
-<a name="MT_Footer"> </a>
+|您需要获取未列出的用户数量在 Skype 业务管理中心。  <br/> | 下载此窗体 <br/> [新的电话号码请求法国 （地理号） (v.3.0)(fr.fr)](../../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr.fr).pdf)。 <br/>  填充出来并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
+|您需要获取转移到我们的电话号码。  <br/> |下载下列形式之一： <br/> [字母的授权 (LOA) 法国 （免费电话号码） (v.2.0)(fr.fr)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr.fr).pdf) <br/> [字母的授权 (LOA) 法国 （地理号） (v.2.0)(fr-fr)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr.fr).pdf) <br/>  填充出来并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
+|您需要发布/取消发布全国电话目录中的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)您要发布/取消发布的电话号码列表。 <br/> |
+|您需要更改到一个服务号用户的号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com )您想要转换为服务号用户号码的列表。 <br/> |
 
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
+## <a name="related-topics"></a>相关主题
+[不同种类的用于调用计划的电话号码](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[管理您的组织的电话号码](manage-phone-numbers-for-your-organization.md)
+
+[紧急呼叫条款和条件](../emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)
 

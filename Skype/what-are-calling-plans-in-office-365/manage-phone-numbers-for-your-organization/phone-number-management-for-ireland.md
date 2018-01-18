@@ -2,35 +2,45 @@
 title: "爱尔兰的电话号码管理"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/22/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
-description: "使用此表来查找获取为和管理电话号码，在爱尔兰 Skype for Business Online 的信息。"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Calling Plans
+description: "使用此表可以找到有关获取和管理的 Skype 在线业务的电话号码在爱尔兰。"
+ms.openlocfilehash: e879d5142c39af05547b805c5cc125d7b0206688
+ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/17/2018
 ---
+# <a name="phone-number-management-for-ireland"></a>爱尔兰的电话号码管理
 
-# 爱尔兰的电话号码管理
-
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
-  
-使用此表来查找获取为和管理电话号码，在爱尔兰 Skype for Business Online 的信息。
+使用此表可以找到有关获取和管理的 Skype 在线业务的电话号码在爱尔兰。 
   
 有关详细信息，请参阅[管理您的组织的电话号码](manage-phone-numbers-for-your-organization.md)。
   
-|**要执行？**|**下载正确的窗体**|
+|**您要不要？**|**下载正确的窗体**|
 |:-----|:-----|
-|获取新用户的电话号码。  <br/> |在爱尔兰，不能为您的组织使用企业管理中心 Skype 中获取电话号码。您必须提交新电话号码请求。下载[获取爱尔兰 (EN-US) 中的新电话号码](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for Ireland %28Geographic numbers%29 (v.3) (en.US).pdf)窗体、 填充它出，并[将其向我们发送](mailto:ptneu@microsoft.com)。  <br/> |
-|您需要获取传输到我们的电话号码。  <br/> | 下载以下格式之一： <br/> [字母的授权 (LOA) 爱尔兰 （地理数字）](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Ireland (Geographic numbers) (v.1.0) (en-US).pdf) <br/> [字母的授权 (LOA) 爱尔兰 （地理非数字）]("http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Ireland (Non-geographic numbers) (v.1.0) (en-US).pdf) <br/>  填充它出，并[将其向我们发送](mailto:ptneu@microsoft.com)。  <br/> |
-|您需要发布/取消发布的国家/地区的电话目录中的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)您想要发布/取消发布的电话号码的列表。  <br/> |
-|您需要将用户的数字更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com )您想要将转换为数字服务的用户编号的列表。  <br/> |
+|获取新用户的电话号码。  <br/> |在爱尔兰，您找不到您的组织为业务管理中心使用 Skype 电话号码。 您必须提交新的电话号码申请。 下载[爱尔兰 （地理数字） 的新电话号码请求 (v.3.0)(en.us)](../../downloads/new-phone-number-request-for-ireland-(geographic-numbers)-(v.3.0)-(en.us).pdf)窗体中，填充出来并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
+|您需要获取转移到我们的电话号码。  <br/> |下载下列形式之一： <br/> [字母的授权 (LOA) 的爱尔兰 （地理号） (v.3.0)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(geographic-numbers)-(v.1.0)-(en.us).pdf) <br/> [字母的授权 (LOA) 的爱尔兰 （非地理号） (v.1.0)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(non-geographic-numbers)-(v.1.0)-(en.us).pdf) <br/>  填充出来并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
+|您需要发布/取消发布全国电话目录中的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)您要发布/取消发布的电话号码列表。 <br/> |
+|您需要更改到一个服务号用户的号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com )您想要转换为服务号用户号码的列表。 <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>相关主题
+[不同种类的用于调用计划的电话号码](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
+[管理您的组织的电话号码](manage-phone-numbers-for-your-organization.md)
+
+[紧急呼叫条款和条件](../emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)
 

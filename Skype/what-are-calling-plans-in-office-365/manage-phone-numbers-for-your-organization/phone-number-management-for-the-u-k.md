@@ -1,36 +1,46 @@
 ---
-title: "电话号码英国管理"
+title: "英国电话号码管理"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/22/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 104dea98-6d0a-4c45-ba79-ea568e588c77
-description: "使用此表来查找获取为和管理电话号码，在英国 Skype for Business Online 的信息。"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Calling Plans
+description: "使用此表可以找到有关获取和 Skype 的在线业务管理英国的电话号码。"
+ms.openlocfilehash: 51f72b24055ee9b99f869b30bc7f5a7c41048bd1
+ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/17/2018
 ---
+# <a name="phone-number-management-for-the-uk"></a>英国电话号码管理
 
-# 电话号码英国管理
-
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
-  
-使用此表来查找获取为和管理电话号码，在英国 Skype for Business Online 的信息。
+使用此表可以找到有关获取和 Skype 的在线业务管理英国的电话号码。 
   
 有关详细信息，请参阅[管理您的组织的电话号码](manage-phone-numbers-for-your-organization.md)。
   
-|**要执行？**|**下载正确的窗体**|
+|**您要不要？**|**下载正确的窗体**|
 |:-----|:-----|
-|您需要在 Skype for Business 管理中心获取未列出的用户号码。  <br/> |下载[英国 （地理数字） 的新电话号码](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for the U.K. %28Subscriber geographic numbers%29 (v.3) (en.US).pdf)窗体、 填充它出，并[将其向我们发送](mailto:ptneu@microsoft.com)。  <br/> |
-|您需要获取传输到我们的电话号码。  <br/> | 下载以下格式之一： <br/> [字母的授权 (LOA) 英国 （订阅者编号）](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.K. (Subscriber numbers) (v.2.0) (en-US).pdf) <br/> [字母的授权 (LOA) 英国 （服务号）](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.K. (Service numbers) (v.2.1) (en-US).pdf) <br/>  填充它出，并[将其向我们发送](mailto:ptneu@microsoft.com)。  <br/> |
-|您需要发布/取消发布的国家/地区的电话目录中的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)您想要发布/取消发布的电话号码的列表。  <br/> |
-|您需要将用户的数字更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com )您想要将转换为数字服务的用户编号的列表。  <br/> |
+|您需要获取未列出的用户数量在 Skype 业务管理中心。  <br/> |下载[新电话号码请求英国 （地理号） (v.3.0)(en.us)](../../downloads/nnew-phone-number-request-for-the-u.k.-(geographic-numbers)-(v.3.0)-(en.us).pdf)窗体中，填充出来并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
+|您需要获取转移到我们的电话号码。  <br/> |下载下列形式之一： <br/> [字母的授权 (LOA) 英国 （地理号） (v.2.0)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en.us).pdf) <br/> [字母的授权 (LOA) 英国 （非地理号） (v.2.1)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en.us).pdf) <br/>  填充出来并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
+|您需要发布/取消发布全国电话目录中的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)您要发布/取消发布的电话号码列表。 <br/> |
+|您需要更改到一个服务号用户的号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com )您想要转换为服务号用户号码的列表。 <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>相关主题
+[不同种类的用于调用计划的电话号码](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
+[管理您的组织的电话号码](manage-phone-numbers-for-your-organization.md)
+
+[紧急呼叫条款和条件](../emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)
 
