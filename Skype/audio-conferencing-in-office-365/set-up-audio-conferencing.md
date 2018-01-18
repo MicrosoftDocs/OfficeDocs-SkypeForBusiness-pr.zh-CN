@@ -1,114 +1,102 @@
 ---
 title: "设置音频会议 for Skype Business 和 Microsoft 团队"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/22/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- O365P_DialInConfDesc
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_Skype4B_Online_Top
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
-- LIL_Placement
-- Strat_SB_PSTN
 ms.assetid: d01954f1-4f37-4cf5-a636-20039e5c59e9
-
-description: "Learn how to set up dial-in or audio conferencing (PSTN Conferencing) for the people in your business who need to join conference calls using a phone. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: O365P_DialInConfDesc
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+- LIL_Placement
+description: "了解如何设置拨入或音频会议的人员在您的业务需要加入会议呼叫使用电话。 "
+ms.openlocfilehash: 6d8fae08a5dc8e6a1cf6bc05b458840c47fc83ed
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams"></a>设置音频会议 for Skype Business 和 Microsoft 团队
 
-# 设置音频会议 for Skype Business 和 Microsoft 团队
-
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
+有时您组织中的用户需要使用电话呼叫会议。 Skype 业务和 Microsoft 小组包括音频会议功能，只是这种情况 ！ 人们可以在调用到 Skype 使用电话，而不使用 Skype 业务或 Microsoft 小组在移动设备或 PC 上的应用程序的业务或 Microsoft 小组会议。 
   
-有时您组织中的人员将需要使用电话拨入会议。Skype for Business和 Microsoft 团队包括只需这种情况的音频会议功能 ！用户可以拨入Skype for Business或使用电话，而不在移动设备或电脑上使用Skype for Business或 Microsoft 小组应用程序的 Microsoft 小组会议。
+您只需设置音频会议的计划安排或会导致会议的人员。 拨入的会议与会者无需分配给它们或其他设置的任何许可证。
   
-您只需要设置的计划安排或主持会议的人员的音频会议。拨入会议与会者不需要任何许可证分配给这些或其他设置。
+常见问题及解答有关音频会议，请参阅[音频会议的常见问题的解决方案](audio-conferencing-common-questions.md)。
   
-有关常见问题音频会议，请参阅[音频会议常见问题](audio-conferencing-common-questions.md)。
-  
-## 第 1 步： 购买和分配许可证
+## <a name="step-1-buy-and-assign-licenses"></a>第 1 步：购买和分配许可证
 <a name="__top"> </a>
 
-您必须是[关于 Office 365 管理员角色](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行此步骤。
+您必须是[有关 Office 365 管理角色](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行此步骤。
   
-1. 查找 Office 365 中的音频会议是否是您所在国家/地区可用。[国家和地区和的可用性音频会议呼叫计划](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+1. 查找 Office 365 中的音频会议是否提供您所在国家/地区。 [音频会议和调用计划的国家和地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 
     
-2. 了解您需要的音频会议，他们将成本是多少购买的许可证。请参阅[Skype for Business 和 Microsoft 团队许可加载项](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)，和购买许可证。
+2. 了解所需的音频会议，并且将花费多少购买的许可证。 请参阅[附加业务和 Microsoft 小组授权的 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)，并购买许可证。 
     
-3. 您购买您的组织中转到日程安排或主持会议的人员[如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
+3. [如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)分配给贵组织中打算安排或主持会议的人。
     
-4. 如果您购买 **音频会议**加载项许可证和通信贷项许可证，请将其太分配。有关说明，请参阅[分配 Skype for Business 和 Microsoft 团队合作的用户许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
+4. 如果您购买**音频会议**附加许可和通信片尾许可证，将太对它们进行分配。 有关说明，请参见[业务和 Microsoft 小组许可证分配 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
     
-## 步骤 2： 确定您的音频会议提供商
+## <a name="step-2-decide-on-your-audio-conferencing-provider"></a>步骤 2： 确定您的音频会议提供商
 <a name="__top"> </a>
 
-音频会议提供商提供的 *音频会议网桥*  。会议网桥设置拨入电话号码、 Pin 和会议 Id 的会议。决定是否使用 Microsoft 或第三方音频会议提供商：
+音频会议提供商提供*音频会议桥*。 会议桥设置您拨入电话号码、 针，并为会议的会议 Id。 决定是否使用 Microsoft 或第三方音频会议提供商：
   
 > [!NOTE]
-> Microsoft 团队用户不能用户第三方音频会议提供商。 
+> Microsoft 小组用户用户的第三方音频会议提供商则不能。 
   
-- **使用 Microsoft 作为您的音频会议提供商** ： 如果您希望的音频会议的最简单的解决方案，选择 Microsoft 作为您的音频会议提供商。
+- **Microsoft 为您的音频会议提供商**： 如果希望将最简单的解决方案的音频会议，选择 Microsoft 为您的音频会议提供商。
     
-- **第三方作为您的音频会议提供商** ： 如果您在其中不可用的 Office 365 中的音频会议、 服务质量好由于它的位置，或不具有现有合同国家/地区，请选择第三方音频会议提供商。若要查找提供商，请转到 **[Microsoft PinPoint](http://go.microsoft.com/fwlink/?LinkId=797530)** 。
+- **第三方音频会议提供商为**： 如果您是在国家 Office 365 中的音频会议不可用，由于它的位置，服务质量不好或有现有的合同中，选择第三方音频会议提供商。 若要查找提供程序，请转到[Microsoft 查明其](http://go.microsoft.com/fwlink/?LinkId=797530)。
     
 > [!TIP]
-> 在您的组织，您可以使用 Microsoft 作为其音频会议提供商，某些人员和其他人使用第三方提供商。但是，这会为您设置和管理更加复杂。 
+> 在您的组织中，您可以使用 Microsoft 作为其音频会议提供商中，一些人和其他人使用第三方提供程序。 但这会为您设置和管理更加复杂。 
   
-为您的音频提供商的 Microsoft 和第三方提供商之间的详细比较，请参阅[比较音频会议提供商](compare-audio-conferencing-providers.md)。
+Microsoft 为您的音频提供商和第三方提供商之间的详细比较，请参见[比较音频会议提供商](compare-audio-conferencing-providers.md)。 
   
-## 步骤 3： 将音频会议提供商分配给前置重叠时间或安排会议的人员
+## <a name="step-3-assign-the-audio-conferencing-provider-to-people-who-lead-or-schedule-meetings"></a>步骤 3： 将音频会议提供商分配给潜在客户或安排会议的人
 <a name="__top"> </a>
 
-现在，您决定您的音频会议提供商，您需要提供商分配给您的组织前置重叠时间或安排会议的人员。请执行下列操作之一：
+既然您决定在您的音频会议提供商，您需要将该提供程序分配给组织中的人员，领导或安排会议。 请执行下列操作之一： 
   
-- [将 Microsoft 作为音频会议提供商分配](assign-microsoft-as-the-audio-conferencing-provider.md) 。
+- [作为音频会议提供商指定的 Microsoft](assign-microsoft-as-the-audio-conferencing-provider.md)。
     
-- [分配第三方音频会议提供商为](assign-a-third-party-as-the-audio-conferencing-provider.md) 。
+- [指定音频会议提供商作为第三方](assign-a-third-party-as-the-audio-conferencing-provider.md)。
     
-## 步骤 4：设置会议邀请
+## <a name="step-4-set-up-meeting-invitations"></a>步骤 4： 设置会议邀请
 <a name="__top"> </a>
 
-以下步骤为 **可选** 步骤，但是很多管理员都倾向于执行这些步骤：
+以下步骤是**可选**的但大量的管理员要做这些：
   
-1. [自定义会议邀请](../set-up-skype-for-business-online/customize-meeting-invitations.md) 。为用户设置的拨入号码将自动添加到要发送给与会者的会议邀请中。但是，你可以添加自己的帮助和法律链接、文本消息和公司的小图片。
+1. [自定义会议邀请](../set-up-skype-for-business-online/customize-meeting-invitations.md)。 为用户设置拨入号码将自动添加到向与会者发送会议邀请。 但是，您可以添加您自己的帮助和法律链接、 文本消息和小型公司的图形。
     
-2. [为会议组织者包含在邀请中设置音频会议电话号码](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md) 。此电话号码将显示在由用户安排的会议中。
+2. [音频会议电话号码为会议组织者邀请中包含的一组](set-the-phone-numbers-included-on-invites.md)。 这是由用户计划的会议中将会显示的电话号码。
     
-3. [设置音频会议自动助理语言](set-auto-attendant-languages-for-audio-conferencing.md) 音频会议自动助理用于问候呼叫者，当他们拨入音频会议电话号码。如果您使用 Microsoft 作为音频提供商，此步骤才适用。
+3. [设置自动助理语言音频会议的](set-auto-attendant-languages-for-audio-conferencing.md)音频会议自动助理用来招呼呼叫者当他们到音频会议电话号码拨入。 如果您使用 Microsoft 为您的音频提供商，此步骤才适用。
     
-4. [设置音频会议的 PIN 的长度](set-the-length-of-the-pin-for-audio-conferencing-meetings.md) 。
+4. [设置音频会议的会议的 PIN 的长度](set-the-pin-length-for-audio-conferencing-meetings.md)。
     
 > [!NOTE]
-> 使用由世纪互联运营的 Office 365 的中国用户尚无法使用此功能。有关详情，请参阅[了解由世纪互联运营的 Office 365](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)。 
+> 此功能尚未提供给客户使用 Office 365 由 21Vianet 在中国。 若要了解详细信息，请参阅[关于由 21Vianet Office 365](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)。 
   
-||
-|:-----|
-|![领英学习快捷图标。](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **刚开始使用 Office 365？**         探索由 LinkedIn Learning 提供的适用于 **Office 365 管理员和 IT 专业人士**的免费视频课程。 |
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
-## 另请参阅
-<a name="MT_Footer"> </a>
-
-#### 其他资源
+## <a name="related-topics"></a>相关主题
 
 [音频会议常见问题](audio-conferencing-common-questions.md)
   
 [设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
-[为音频会议的电话号码](phone-numbers-for-audio-conferencing.md)
+[对于音频会议电话号码](phone-numbers-for-audio-conferencing.md)
   
-[设置联机会议和电话会议的选项](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)
+[设置选项用于联机会议和电话会议](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)
 

@@ -1,51 +1,66 @@
 ---
-title: "不同类型的电话号码，用于进行呼叫计划"
+title: "不同种类的用于调用计划的电话号码"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/10/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: 26602564-0f15-44e6-a27b-c8f26668ba7f
-description: "Skype for Business Online 使用不同的电话号码类型，具体取决于您要使用的电话号码的用途。Skype for Business Online 使用订阅者 编号，可以将分配给您的组织中的用户，并分配服务 （例如） 在 Office 365 中的音频会议自动助理，或呼叫队列服务 编号。服务电话号码有比订阅服务器 （或用户）更高版本的并发呼叫容量 的数字。服务电话号码可用，但通过国家/地区和数字 （无论是收费或免费电话号码） 的类型而异。如果您需要在 Skype for Business 管理中心中看到这些数字以外的其他或其他数字类型，您可以提交到 Microsoft 电话号码服务台的电话号码请求。"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "Skype 的在线业务将使用不同的电话号码类型，具体取决于您要使用的电话号码的目的。"
+ms.openlocfilehash: 503a36e0d5d1e3c1794ed3ac423206e2947069b9
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>不同种类的用于调用计划的电话号码
 
-# 不同类型的电话号码，用于进行呼叫计划
-
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
+Skype 的在线业务将使用不同的电话号码类型，具体取决于您要使用的电话号码的目的。 Skype 的在线业务使用**订户**号，可以把其分派给组织中的用户和**服务**号码，被分配到如 Office 365 中的音频会议服务自动助理或电话队列。 服务电话号码必须与订阅服务器上 （或用户）*更高的并发调用容量*的数字。 服务电话号码可用，但会因国家/地区和类型的数字 （无论是收费或免费电话号码）。 如果您需要附加的或其他的数字类型，而不是业务管理中心为 Skype 在看到这些数字时，您可以提交到 Microsoft 电话号码服务台电话号码请求。
   
-Skype for Business Online 使用不同的电话号码类型，具体取决于您要使用的电话号码的用途。Skype for Business Online 使用 **订阅者** 编号，可以将分配给您的组织中的用户，并分配服务 （例如） 在 Office 365 中的音频会议自动助理，或呼叫队列 **服务** 编号。服务电话号码有比订阅服务器 （或用户） *更高版本的并发呼叫容量*  的数字。服务电话号码可用，但通过国家/地区和数字 （无论是收费或免费电话号码） 的类型而异。如果您需要在 Skype for Business 管理中心中看到这些数字以外的其他或其他数字类型，您可以提交到 Microsoft 电话号码服务台的电话号码请求。
-  
-- **订阅者编号**
+- **订户号**
     
-    订阅者编号分配给用户，并且有两种类型：
+    订户号分配给用户，并有两种类型：
     
-  - **地理位置的数字** 地理数字到地理区域中有关系，并且是最常见。例如，可以仅用于地理的电话号码，在大多数情况下中某些地址、 城市、 状态或国家 / 地区。
+  - **地理位置编号**地理数字到地理区域有关系，并且是最常见。 例如，可以只用于地理的电话号码，在大多数情况下，某些地址、 城市、 省份或地区的国家/地区中。
     
-  - **非地理数字** 非地理数字是国家/地区内国家/地区的地理区域不具有关系的数字。例如，地理非数字通常具有相同的成本时随时随地呼叫的号码国家/地区内。此外，有些国家/地区，如丹麦，只有非地理可用的号码。
+  - **非地理数字**非地理数字是国内看不到某个国家/地区内的地理区域有关系的数字。 例如，非地理数字通常具有相同的成本时从任何位置调用数个国家/地区。 此外，一些国家，如丹麦，只有非地理数字可用。
     
-- **服务编号** 服务编号有几种不同类型，并按国家/地区的可用性会各不相同。
+- **服务编号**服务编号位于几种不同类型，和可用性 does 按国家/地区而异。
     
-  - **收费服务编号**
+  - **收费电话服务号码**
     
-    收费服务号码可能会导致收费成本与呼叫者，并且有两种类型：
+    收费电话服务号码可能产生收费成本到调用方，并且有两种类型：
     
-  - **地理位置的数字** 地理数字具有关系的地理区域。例如，可以仅用于地理的电话号码，在大多数情况下中某些地址、 城市、 状态或国家 / 地区。
+  - **地理位置编号**到一个地理区域，地理数字有关系。 例如，可以只用于地理的电话号码，在大多数情况下，某些地址、 城市、 省份或地区的国家/地区中。
     
-  - **非地理数字** 非地理数字是国家/地区内国家/地区的地理区域不具有关系的数字。例如，地理非数字通常具有相同的成本时随时随地呼叫的号码国家/地区内。
+  - **非地理数字**非地理数字是国内看不到某个国家/地区内的地理区域有关系的数字。 例如，非地理数字通常具有相同的成本时从任何位置调用数个国家/地区。
     
-  - **免费电话服务编号** 这些服务数字通常不会产生收费成本与呼叫者。Skype for Business Online 提供了在 60 国家/地区的国家/地区免费电话号码。
+  - **免费服务编号**这些服务号码通常不会向调用方的收费成本。 Skype 的在线业务提供了超过 60 个国家或地区的国家提供免费电话号码。
     
     > [!CAUTION]
-    > 某些国家/地区和攻击数字类型，如来自移动电话呼叫在某些情况下会收费成本与呼叫者。 
+    > 某些国家/地区和原始数字类型，如调用来自手机，在某些情况下会向调用方的收费成本。 
   
-## 
-<a name="MT_Footer"> </a>
-
 > [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
+> 如果您需要得到比这更多的电话号码，请[联系支持业务产品的管理帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+
+## <a name="related-topics"></a>相关主题
+[传送电话号码的常见问题](transferring-phone-numbers-common-questions.md)
+
+[管理您的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+
+[紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+
 

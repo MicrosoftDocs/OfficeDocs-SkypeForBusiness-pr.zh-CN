@@ -1,45 +1,57 @@
 ---
-title: "获取 Skype for Business 服务电话号码"
+title: "获取服务的电话号码"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: e434aeb2-af99-40e7-981e-a474f0383734
-
-description: "除了从 Office 365 获取个人用户的电话号码，还可以搜索和获取某些服务的收费或免费电话号码，如电话拨入式会议（用于会议网桥）和自动助理（称为服务号码）。服务电话号码具有比用户或订阅者电话号码更高的并发呼叫容量。例如，一个服务号码可同时处理 100 个呼叫，而用户电话号码只能同时处理几个呼叫。"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Phone System
+- Strat_SB_PSTN
+description: "除了从 Office 365 提供为您的用户获取电话号码，您可以搜索并获得收费或免费电话号码 （用于会议桥） 音频会议、 自动助理和呼叫队列 （也称为服务号码） 等服务。 服务电话号码具有更高的并发调用容量，比用户或订阅服务器上的电话号码。"
+ms.openlocfilehash: a2d4319f1d2b7714a228e0a16c391ec769e9b88b
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="getting-service-phone-numbers"></a>获取服务的电话号码
 
-# 获取 Skype for Business 服务电话号码
-
-除了从 Office 365 获取个人用户的电话号码，还可以搜索和获取某些服务的收费或免费电话号码，如电话拨入式会议（用于会议网桥）和自动助理（称为服务号码）。服务电话号码具有比用户或订阅者电话号码更高的并发呼叫容量。例如，一个服务号码可同时处理 100 个呼叫，而用户电话号码只能同时处理几个呼叫。
+除了从 Office 365 提供为您的用户获取电话号码，您可以搜索并获得收费或免费电话号码 （用于会议桥） 音频会议、 自动助理和呼叫队列 （也称为服务号码） 等服务。 服务电话号码具有更高的并发调用容量，比用户或订阅服务器上的电话号码。 例如，一个服务号码可以数百个电话同时处理，而用户的电话号码只能同时处理几个电话。
   
-> [!IMPORTANT]
-> 必须首先设置 PSTN 使用，才能获取免费号码。 
+> [!NOTE]
+> Office 365 通信贷必须首先设置以获得免费电话号码。 请参阅[设置为您的组织的通信贷](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)。 
   
-你可以通过两种方式获取服务号码，从而将其用于 Skype for Business：
+您有两种方法可以获得服务号码，以便您可以将它们与 Skype 业务和 Microsoft 小组：
   
-- 从 Office 365 Skype for Business 获取新号码。
+- Office 365 中获得新的号码。
     
-- 将你的服务提供商或电话运营商为你提供的现有号码转网或转移。
+- 端口或从您的服务提供商或电话运营商的现有数字转移到 Office 365。
     
     > [!NOTE]
-    > 转移服务号码时，强烈建议你联系 [联系 Office 365 商业版支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)，以确保正确考量和配置较高的并发呼叫容量。 
+    > 当您传送您的服务编号时，强烈建议您联系[Microsoft 支持](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)以确保更高的并发调用容量是考虑并正确配置。
   
-## 获取新服务号码
+## <a name="get-new-service-numbers"></a>获取新服务号码
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到" **Office 365 管理中心**">" **Skype for Business**"。
+2. 请转到**Office 365 管理中心** > **业务的 Skype**。
     
-3. 在左侧导航中，转到" **语音**">" **电话号码**">" **添加**"，然后单击" **新的服务号码**"。
+3. 在左侧导航转到**语音** > **电话号码** > **添加新的号码**，然后单击**新服务号码**。
     
-    **重要提示** ：若要在 Skype for Business 管理中心的左侧导航中显示" **语音**"选项，必须先购买至少一个 **企业版 E5 许可证**、一个 **电话系统**附加设备许可证，或一个 **音频会议**附加设备许可证。
+    > [!IMPORTANT] 
+    > 要查看业务管理中心为 Skype 在左边的导航中的**语音**选项，您必须先购买至少一个**企业 E5 许可证**、**电话系统**加载项许可证或一个**音频会议**附加许可证。
     
-4. 在" **添加新的服务号码**"页面中，使用下拉菜单选择：
+4. 在**添加新的服务编号**页上，选择以下：
     
   - **国家/地区**
     
@@ -47,46 +59,27 @@ description: "除了从 Office 365 获取个人用户的电话号码，还可以
     
   - **城市**
     
-5. 在" **数量**"下，输入你的组织所需的电话号码数，然后单击" **添加**"以创建保留。你有 10 分钟的时间选择电话号码，如果超过 10 分钟，电话号码将返回到电话号码池中。
+5. 在**数量**，输入电话号码，您希望您的组织，并单击**添加**以创建预留的数量。 有 10 分钟的时间来选择您的电话号码;如果您需要较长时间超过 10 分钟，电话号码将返回到的电话号码池。
     
     > [!NOTE]
-    > 你可以查看电话号码的数量，其依据是" **你可以获取的用户号码总数**"旁边列出的许可证的数量。 
+    > 您可以看到的电话号码，它基于的旁边列出的许可证数数**总服务编号可以获得**。 有关详细信息，请参阅[您可以得到多少的电话号码？](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
   
-6. 你可以单击" **显示号码**"来查看完整的电话号码列表。如果你不想选择列表中的特定电话号码，这将非常有用。
+6. 您可以单击**显示编号，**以查看完整的电话号码列表。 这是非常有用的如果您不想要从列表中选择一个特定的电话号码。
     
-7. 选择所需的电话号码，然后单击" **获取号码**"。
+7. 选择所需，电话号码，然后单击**获取数字**。
     
-### 分配服务号码
+### <a name="assign-service-numbers"></a>分配服务号码
 
-获取服务号码后，随后可以将这些号码分配给电话拨入式会议网桥。要执行此操作，请参阅[更改收费电话或音频会议网桥上的免费电话号码](../audio-conferencing-in-office-365/change-the-toll-or-toll-free-numbers-on-your-audio-conferencing-bridge.md)。
+一旦您服务的号码，他们可以再分配给现有的音频会议桥。 若要执行此操作，请参阅[更改收费或免费电话号码的音频会议桥](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
   
-### 转网或转移现有服务号码
+### <a name="port-or-transfer-existing-service-numbers"></a>转网或转移现有服务号码
 
-如果要转移来自当前服务提供商或运营商的服务号码，需要向 Microsoft 手动提交转网订单。必须为每种服务号码（收费与免费）提交不同的转网订单，并使用授权书 (LOA) 转移这些号码。在授权书 (LOA) 中，必须选择正确的服务号码类型。联系 Microsoft 支持部门时，请务必指明你要转移的是服务号码（ *不是用户或订阅者号码*  ），否则并发呼叫容量可能不足以处理呼叫容量。如果要了解提交转网订单请求的更多信息，请参阅[手动提交自定义服务请求](../what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request.md)
-  
-## 展开以查看你可以获取多少个电话号码？
+如果您想要从当前的服务提供商或运营商传输服务号码，则需要手动提交到 Microsoft 的端口订单。 您必须提交独立的操作端口将使用授权信函 (LOA) 传输您的每种类型的服务号码 （收费与免费） 的订单。 中信的授权 (LOA)，必须选择正确的服务编号类型。 当联系 Microsoft 技术支持，请确保您指定要传送服务号码 （*并不是用户或订阅服务器上的数字*)，或并发调用容量可能不足以处理电话咨询。 如果您想要转移的电话号码或其他事情要与您的电话号码，请参阅[管理您的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-在查找并获取组织的电话号码时，获取的电话号码会比已分配许可证的电话号码多。但这取决于你已购买并分配的电话号码类型和许可证类型。
-  
-你可以在 Skype for Business 管理中心的" **电话号码** "页面上查看自己可以获取的电话号码，也可以通过运行[Get-CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/en-us/library/mt634605.aspx) cmdlet 进行查看。
-  
-> [!IMPORTANT]
-> 以下限制不包括你已经转网或转移到 Microsoft 的电话号码。 
-  
-||||
-|:-----|:-----|:-----|
-|**下面是电话号码类型** <br/> |**如何获取电话号码总数？** <br/> |**下面是一个示例** <br/> |
-|用户（订阅者）号码  <br/> |电话号码数等于 *国内 + 国内和国际*  语音呼叫计划许可证总数乘以 1.1 + 10 个给定的其他电话号码。 <br/> |如果总共有 50 个使用国内以及国内和国际语音呼叫计划的用户，那么你可以获取 **65** 个电话号码 **(50 x 1.1 + 10)** 。 <br/> |
-|收费服务号码  <br/> | 电话号码数等于 *云 PBX + PSTN 会议*  许可证总数，并使用以下规则： <br/>  如果有 **1-25 个许可证** ，则给定 **5** 个电话号码。 <br/>  如果有 **26-49 个许可证** ，则给定 **10** 个电话号码。 <br/>  如果有 **50-99 个许可证** ，则给定 **20** 个电话号码。 <br/>  如果有 **100-149 个许可证** ，则给定 **30** 个电话号码。 <br/>  如果有 **150-199 个许可证** ，则给定 **40** 个电话号码。 <br/>  如果有 **200-499 个许可证** ，则给定 **65** 个电话号码。 <br/>  如果有 **500-749 个许可证** ，则给定 **90** 个电话号码。 <br/>  如果有 **750-999 个许可证** ，则给定 **110** 个电话号码。 <br/>  如果有 **1,000-1,249 个许可证** ，则给定 **125** 个电话号码。 <br/>  如果有 **1,250-1,499 个许可证** ，则给定 **135** 个电话号码。 <br/>  如果有 **1,500-1,999 个许可证** ，则给定 **160** 个电话号码。 <br/>  如果有 **2,000-2,999 个许可证** ，则给定 **210** 个电话号码。 <br/>  如果有 **3,000-6,999 个许可证** ，则给定 **420** 个电话号码。 <br/>  如果有 **7,000-9,999 个许可证** ，则给定 **500** 个电话号码。 <br/>  如果有 **10,000-14,999 个许可证** ，则给定 **600** 个电话号码。 <br/>  如果有 **15,000-19,999 个许可证** ，则给定 **700** 个电话号码。 <br/>  如果有 **20,000-49,999 个许可证** ，则给定 **1000** 个电话号码。 <br/>  如果有 **50,000 个以上许可证** ，则给定 **1500** 个电话号码。 <br/> |如果你总共有 **51** 个云 PBX 和 PSTN 会议许可证，则可获取 **20** 个收费服务号码。 <br/> |
-|免费服务号码  <br/> | 电话号码数等于 *云 PBX + PSTN 会议*  许可证总数，并使用以下规则： <br/>  如果有 **1-25 个许可证** ，则给定 **5** 个电话号码。 <br/>  如果有 **26-49 个许可证** ，则给定 **10** 个电话号码。 <br/>  如果有 **50-99 个许可证** ，则给定 **20** 个电话号码。 <br/>  如果有 **100-149 个许可证** ，则给定 **30** 个电话号码。 <br/>  如果有 **150-199 个许可证** ，则给定 **40** 个电话号码。 <br/>  如果有 **200-499 个许可证** ，则给定 **65** 个电话号码。 <br/>  如果有 **500-749 个许可证** ，则给定 **90** 个电话号码。 <br/>  如果有 **750-999 个许可证** ，则给定 **110** 个电话号码。 <br/>  如果有 **1,000-1,249 个许可证** ，则给定 **125** 个电话号码。 <br/>  如果有 **1,250-1,499 个许可证** ，则给定 **135** 个电话号码。 <br/>  如果有 **1,500-1,999 个许可证** ，则给定 **160** 个电话号码。 <br/>  如果有 **2,000-2,999 个许可证** ，则给定 **210** 个电话号码。 <br/>  如果有 **3,000-6,999 个许可证** ，则给定 **420** 个电话号码。 <br/>  如果有 **7,000-9,999 个许可证** ，则给定 **500** 个电话号码。 <br/>  如果有 **10,000-14,999 个许可证** ，则给定 **600** 个电话号码。 <br/>  如果有 **15,000-19,999 个许可证** ，则给定 **700** 个电话号码。 <br/>  如果有 **20,000-49,999 个许可证** ，则给定 **1000** 个电话号码。 <br/>  如果有 **50,000 个以上许可证** ，则给定 **1500** 个电话号码。 <br/> |如果你总共有 **1001** 个云 PBX 和 PSTN 会议许可证，则可获取 **125** 个免费服务号码。 <br/> > [!IMPORTANT]> 需要 [为您的组织设置通信贷项](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)才能保留和使用免费电话号码。           |
-   
 > [!NOTE]
-> 如果需要获取更多电话号码，请联系 [联系 Office 365 商业版支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 
+> 如果您需要获得比这更多的电话号码，请[联系业务产品的管理帮助的支持](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 
   
-## 相关主题
+## <a name="related-topics"></a>相关主题
+[以下是您所获得的与 Office 365 中的电话系统](here-s-what-you-get-with-phone-system.md)
 
-[紧急呼叫条款和条件](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
-  
-[音频会议免费拨出时间段](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
-
+[音频会议和调用计划的国家和地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

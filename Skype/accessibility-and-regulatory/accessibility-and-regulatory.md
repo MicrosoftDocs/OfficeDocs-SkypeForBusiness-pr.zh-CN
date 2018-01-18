@@ -1,25 +1,25 @@
 ---
-title: "辅助功能和法规"
+title: "可访问性和管理法规"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/13/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: bfda8317-12a9-4594-9fb3-c0061a82711e
-description: ""
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Legal
+description: "这是必须公布，以满足法规遵从性，可访问性要求的内容和 Skype 在法国在线业务的法规。 "
+ms.openlocfilehash: 11601ff25468f5aed081b422b0b971adcb24c3aa
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
-
-# 辅助功能和法规
-
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
-
+# <a name="accessibility-and-regulatory"></a>可访问性和管理法规

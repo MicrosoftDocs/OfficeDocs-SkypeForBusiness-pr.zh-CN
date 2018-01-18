@@ -1,111 +1,114 @@
 ---
-title: "为什么我输入美国境外的地址信息时遇到问题？"
+title: "为什么要让进入英国的问题 地址信息吗？"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-f1_keywords:
-- ms.lync.lac.CivicAddressGBSyntaxError
-ms.prod: office-online-server
-localization_priority: Normal
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: e2376646-f0d6-4d33-a8fd-68ecbd46fb7a
-description: "下面是一些为什么您可能会遇到问题，获取您的地址或地址以正确验证在英国 （英国） 的原因。"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.CivicAddressGBSyntaxError
+ms.custom: Calling Plans
+description: "下面是一些原因，可能会出现问题，获取您的地址或地址正确验证在大不列颠及北爱尔兰联合王国 （英国） 的原因。"
+ms.openlocfilehash: 7752a6d0f1ff802b8b54ec70f8d51ba1a7f286ea
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>为什么要让进入英国的问题 地址信息吗？
 
-# 为什么我输入美国境外的地址信息时遇到问题？
+下面是一些原因，可能会出现问题，获取您的地址或地址正确验证在大不列颠及北爱尔兰联合王国 （英国） 的原因。
+  
+## <a name="whats-wrong-with-the-company-name"></a>不妥的公司名称是什么？
 
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
+如果在输入公司名称的问题时，请记住：
   
-下面是一些为什么您可能会遇到问题，获取您的地址或地址以正确验证在英国 （英国） 的原因。
-  
-## 公司名有什么问题？
-
-如果您有问题输入公司名称，请记住：
-  
-- 它可以有字母、 数字和下列特殊字符:，/-+。&amp;"_
+- 它可以有字母、 数字和下列特殊字符:，/-+。 ' &amp; " _ 
     
     > [!CAUTION]
-    > 在英国 （英国），公司名称不能有 + 号。 
+    > 在大不列颠及北爱尔兰联合王国 （英国），公司名称不能包含 + 号。 
   
-- 不得超过 80 个字符。
+- 它必须为 80 个字符或更少。
     
-- 不能以特殊字符开头。
+- 它不得包含特殊字符。
     
-## 门牌号有什么问题？
+## <a name="whats-wrong-with-the-house-number"></a>不妥的门牌号是多少？
 
-如果您有问题输入住宅号，请记住：
+如果您有问题输入门牌号，请记住：
   
 - 它可以有字母、 数字和下列特殊字符:-/]
     
-- 必须以数字开头。
+- 它必须以数字开头。
     
-- 不得超过 20 个字符。
+- 它必须是 20 个字符或更少。
     
-- 可以大写或小写字母。
+- 它可以大写或小写字母。
     
-## 住宅名有什么问题？
+## <a name="whats-wrong-with-the-house-name"></a>不妥的房屋名称是什么？
 
-如果您有问题输入房屋名称，请记住：
+如果在输入房屋名称的问题时，请记住：
   
-- 可以包含字母、数字和以下特殊字符 : , / - + . ' &amp; " _
+- 它可以有字母、 数字和下列特殊字符:，/-+。 ' &amp; " _
     
-- 不得超过 50 个字符。
+- 它还为 50 个字符或更少。
     
-- 不能以特殊字符开头。
+- 它不得包含特殊字符。
     
-## 街道名有什么问题？
+## <a name="whats-wrong-with-the-street-name"></a>什么是不妥的街道名称？
 
-如果您有问题输入街道名称，请记住：
+如果在输入街道名称的问题时，请记住：
   
-- 它可以有字母、 数字和下列特殊字符:，/-+。&amp;"_
+- 它可以有字母、 数字和下列特殊字符:，/-+。 ' &amp; " _ 
     
-- 不得超过 50 个字符。
+- 它还为 50 个字符或更少。
     
-- 不能以特殊字符开头。
+- 它不得包含特殊字符。 
     
-## 城市或乡镇有什么问题？
+## <a name="whats-wrong-with-the-city-or-town"></a>不妥的城市或城镇是什么？
 
-如果您有问题输入市 / 县的名称，请记住：
+如果在输入的市 / 县名称的问题时，请记住：
   
-- 它可以有字母、 数字和下列特殊字符:，/-+。&amp;"_
+- 它可以有字母、 数字和下列特殊字符:，/-+。 ' &amp; " _
     
-- 不得超过 50 个字符。
+- 它还为 50 个字符或更少。
     
-- 不能以特殊字符开头。
+- 它不得包含特殊字符。 
     
-## 邮政编码有什么问题？
+## <a name="whats-wrong-with-the-postal-code"></a>不妥的邮政编码是多少？
 
 如果您有问题输入邮政编码，请记住：
   
 - 它只能包含字母、 数字或空格。
     
-- 它必须具有 8 或更少的字母，包括数字和空格。
+- 它必须有 8 或更小的字母，包括数字和空格。
     
-- **请记住，如果您是在英国 （英国）** ，您 **必须** 使用以下格式之一将邮政编码位置的字母 A = 字符 A 到 Z，# 号 = 介于 0-9 以及 _ （下划线） = 的空白区域。下面是一些示例：
+- **请记住，如果您是在大不列颠及北爱尔兰联合王国 （英国）**，您**必须**使用以下格式之一将邮政编码其中字母 A = 字符 A 到 Z，# 符号 = 介于 0-9 和 _ （下划线） = 的空白区域。 下面是一些示例：
     
 |**格式**|**示例**|
 |:-----|:-----|
-|AA#A_#AA  <br/> |EC3B 2BD  <br/> |
-|A#A_#AA  <br/> |E1W 1AP  <br/> |
-|A#_#AA  <br/> |F1 2AG  <br/> |
-|A##_#AA  <br/> |C44 8HT  <br/> |
-|AA#_#AA  <br/> |DR3 6HG  <br/> |
-|AA##_#AA  <br/> |FN35 1TH  <br/> |
-   
-## 
-<a name="MT_Footer"> </a>
+|AA # A_ #AA  <br/> |EC3B 2BD  <br/> |
+|#AA # A_  <br/> |E1W 1AP  <br/> |
+|#AA # _  <br/> |F1 2AG  <br/> |
+|#AA # # _  <br/> |C44 8HT  <br/> |
+|AA # _ #AA  <br/> |DR3 6 HG  <br/> |
+|AA # # _ #AA  <br/> |FN35 1TH  <br/> |
 
 > [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
-## 另请参阅
-<a name="MT_Footer"> </a>
+> 如果您需要得到比这更多的电话号码，请[联系支持业务产品的管理帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-#### 其他资源
+   
+## <a name="related-topics"></a>相关主题
+[传送电话号码的常见问题](transferring-phone-numbers-common-questions.md)
+
+[不同种类的用于调用计划的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
-  
-[音频会议免费拨出时间段](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)

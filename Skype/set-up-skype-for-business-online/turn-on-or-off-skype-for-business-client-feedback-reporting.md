@@ -2,27 +2,33 @@
 title: "开启或关闭 Skype for Business 客户端反馈报告"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/17/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 35562b48-1da1-4081-8a3a-033d0f1986b2
-description: "此功能当前处于预览版，可能在发布或更新后有所更改。"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "您可以启用业务用户能够使用内置 Skype 业务应用程序的反馈工具使用户报告问题并提供反馈意见直接向其体验有关 Microsoft 为您 Skype。"
+ms.openlocfilehash: 72a72a7ac71f3d6e7707ce2a70109b9432f034f7
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>开启或关闭 Skype for Business 客户端反馈报告
 
-# 开启或关闭 Skype for Business 客户端反馈报告
-
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
-  
- **此功能当前处于预览版，可能在发布或更新后有所更改。**
-  
-您可以启用您 Skype for Business 用户使用内置的 Skype for Business 应用程序的反馈工具来让用户报告问题和直接向他们的体验有关 Microsoft 提供反馈。
+您可以启用业务用户能够使用内置 Skype 业务应用程序的反馈工具使用户报告问题并提供反馈意见直接向其体验有关 Microsoft 为您 Skype。 
   
 ![Skype for Business client reporting.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
-使用此工具，用户可以复制日志以帮助 Microsoft 更好地调查并解决问题，他们可能具有其设备上的程序。
+使用此工具，用户可以从该应用程序在其设备，以帮助更好地研究和解决的问题，他们可能拥有的 Microsoft 复制日志。 
   
 ![Skype for Business client reporting.](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
   
@@ -30,14 +36,14 @@ description: "此功能当前处于预览版，可能在发布或更新后有所
   
 ![Skype for Business client reporting form.](../images/d859578d-8116-4d4b-a08f-c0cae28b8b76.png)
   
-> [!安全注释]
-> 将存储日志中收集的应用程序的反馈工具对于正在调查问题时美国最多 90 天。由于此操作，请不要启用此反馈工具如果这不符合您的组织的数据保护策略。 
+> [!IMPORTANT]
+> 将存储的应用程序的反馈工具来收集日志正在调查问题时美国在 90 天内最多的。 因此，请不要启用此反馈工具如果这不符合您组织的数据保护策略。 
   
-## 验证并启动 Windows PowerShell
+## <a name="verify-and-start-windows-powershell"></a>验证并启动 Windows PowerShell
 
 - **检查正在运行的是 Windows PowerShell 3.0 版本或更高版本**
     
-1. 若要验证运行的是 3.0 版本或更高版本：" **开始菜单**">" **Windows PowerShell**"。
+1. 若要验证正在运行版本 3.0 或更高: **「 开始 」 菜单** > **Windows PowerShell**。
     
 2. 通过在" **Windows PowerShell**"窗口中键入  _Get-Host_ 来检查版本。
     
@@ -45,51 +51,33 @@ description: "此功能当前处于预览版，可能在发布或更新后有所
     
 4. 还需要安装 Skype for Business Online 的 Windows PowerShell 模块，才可创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。可访问[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)，从 Microsoft 下载中心下载此模块，此模块仅在 64 位计算机上受支持。出现提示时，请重启计算机。
     
-    如果需要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接所有 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)。
+如果需要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)。
     
 - **启动 Windows PowerShell 会话**
     
-1. 从" **开始菜单**">" **Windows PowerShell**"。
+1. 从**「 开始 」 菜单** > **Windows PowerShell**。
     
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     
     > [!NOTE]
-    > 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
-  
+    > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
 > 
   ```
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+    Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
   ```
-
-> 
-  ```
-  $credential = Get-Credential
-  ```
-
-> 
-  ```
-  $session = New-CsOnlineSession -Credential $credential
-  ```
-
-> 
-  ```
-  Import-PSSession $session
-  ```
-
-    如果想要深入了解如何启动 Windows PowerShell，请参阅[在单个 Windows PowerShell 窗口中连接所有 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)或[使用 Windows PowerShell 连接到 Skype for Business Online](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx)。
+如果想要深入了解如何启动 Windows PowerShell，请参阅[在单个 Windows PowerShell 窗口中连接所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[使用 Windows PowerShell 连接到 Skype for Business Online](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
     
-## 为你组织中的所有用户开启客户端应用反馈报告
+## <a name="turn-on-client-app-feedback-reporting-for-all-the-users-in-your-organization"></a>为你组织中的所有用户开启客户端应用反馈报告
 
-若要启用报告您的组织中的用户的反馈，并让他们提交设备的屏幕截图，运行：
-  
+若要启用报告为您的组织中的用户的反馈，使他们可以提交设备屏幕快照，请运行：
 > 
   ```
   Set-CsClientPolicy -Identity EnableOnlineFeedback -EnableOnlineFeedback $true -EnableOnlineFeedbackScreenshots $true
-
   ```
-
-## 要了解有关 Windows PowerShell 的详细信息？
-
+## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
 - 对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
@@ -103,11 +91,8 @@ description: "此功能当前处于预览版，可能在发布或更新后有所
   - [使用 Windows PowerShell 管理 Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
-    
-## 
-<a name="MT_Footer"> </a>
 
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
+## <a name="related-topics"></a>相关主题
+[设置 Skype for Business Online](set-up-skype-for-business-online.md)
 
+[允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)

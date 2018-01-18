@@ -2,103 +2,108 @@
 title: "查看组织中的电话号码列表"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 93098bc5-df63-4a1f-8734-0b72a6280a69
-description: "Learn how to see a list of all the phone numbers for your organizaton, all the numbers assigned to users, and all the numbers that are assigned to voice users from the Skype for Business admin center."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "了解如何在您的组织、 分配给用户的所有数字和从业务管理中心的 Skype 的语音用户分配的所有数字的所有电话号码的列表，请参阅。"
+ms.openlocfilehash: cfba58f7bb84d7cd67185c7c4ce8c6623c69fa7e
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="see-a-list-of-phone-numbers-in-your-organization"></a>查看组织中的电话号码列表
 
-# 查看组织中的电话号码列表
-
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
+有不同类型的电话号码，您可以分配给用户或其他服务 （服务号码），如对于 Office 365 中的音频会议。
   
-有不同类型的电话号码，您可以分配给用户或其他服务 （service 数字），例如在 Office 365 中的音频会议。
-  
-## 查看贵组织拥有的所有电话号码的列表
+## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>查看贵组织拥有的所有电话号码的列表
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到" **Office 365 管理中心**">" **Skype for Business**"。
+2. 请转到**Office 365 管理中心** > **业务的 Skype**。
     
-3. 在 **Skype for Business 管理中心**的左侧导航中，转到" **语音**">" **电话号码**"。
+3. 在**业务管理中心的 Skype**，在左边的导航中，转到**语音** > **的电话号码**。
     
-    **重要提示** ：若要在 Skype for Business 管理中心的左侧导航中显示" **语音**"选项，必须先购买至少一个 **企业版 E5 许可证**、一个 **电话系统**附加设备许可证，或一个 **音频会议**附加设备许可证。
+    > [!IMPORTANT]
+    > 要查看业务管理中心为 Skype 在左边的导航中的**语音**选项，您必须先购买至少一个**企业 E5 许可证**、**电话系统**加载项许可证或一个**音频会议**附加许可证。
     
-4. 若要查看分配的电话号码，请参阅 **编号**列。
+4. 若要查看指定的电话号码，请参阅**号码**列。
     
 5. 下拉列表可用于筛选的视图：
     
   - 包括服务电话号码在内的 **全部**电话号码。
     
-  - 您设置电话 **号码的区域**。
+  - 设置电话**号码的范围**。
     
-  - **分配给用户**的电话号码。
+  - 是**分配给用户**的电话号码。
     
-  - 电话号码的 **分配给会议**拨入式会议。
+  - 电话号码的**分配给会议**对于拨入会议。
     
-  - **未分配**的电话号码。
+  - **未赋值**的电话号码。
     
-  - 电话号码的 **位置**。
+  - 电话号码的**位置**。
     
-## 查看分配给用户的所有电话号码
+## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>查看分配给用户的所有电话号码
 
 当你设置用户时，你可能只希望查看已分配给用户的电话号码列表以及哪些电话号码可以分配给用户。
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到" **Office 365 管理中心**">" **Skype for Business**"。
+2. 请转到**Office 365 管理中心** > **业务的 Skype**。
     
-3. 在 **Skype for Business 管理中心**的左侧导航中，转到" **语音**">" **语音用户**"。
+3. 在**业务管理中心的 Skype**，在左边的导航中，转到**语音** > **语音用户**。
     
-    **重要提示** ：若要在 Skype for Business 管理中心的左侧导航中显示" **语音**"选项，必须先购买至少一个 **企业版 E5 许可证**、一个 **电话系统**附加设备许可证，或一个 **音频会议**附加设备许可证。
+    > [!IMPORTANT]
+    > 要查看业务管理中心为 Skype 在左边的导航中的**语音**选项，您必须先购买至少一个**企业 E5 许可证**、**电话系统**加载项许可证或一个**音频会议**附加许可证。
     
-4. 您可以筛选您分配给用户的电话号码或电话号码，您可以分配给用户的视图。您可以通过筛选：
+4. 您可以筛选您指派给用户的电话号码或电话号码，您可以分配给用户的视图。 您可以通过筛选：
     
   - 包括服务电话号码在内的 **全部**电话号码。
     
-  - 给用户的 **分配号码**。
+  - **编号分配**给用户。
     
-  - **没有编号分配**给用户。
+  - **无编号分配**给用户。
     
-## 查看分配给语音用户的电话号码
+## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>查看分配给语音用户的电话号码
 
 当你在组织中设置用户以便拨打和接听电话呼叫时，必须首先获得电话号码，然后将其分配给用户。 获得电话号码后，你可能只希望查看已分配了电话号码的用户列表、未分配电话号码的用户列表以及用户是在线托管还是本地托管。
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到" **Office 365 管理中心**">" **Skype for Business**"。
+2. 请转到**Office 365 管理中心** > **业务的 Skype**。
     
-3. 在 **Skype for Business 管理中心**的左侧导航中，转到" **语音**">" **语音用户**"。
+3. 在**业务管理中心的 Skype**，在左边的导航中，转到**语音** > **语音用户**。
     
-    **重要提示** ：若要在 Skype for Business 管理中心的左侧导航中显示" **语音**"选项，必须先购买至少一个 **企业版 E5 许可证**、一个 **电话系统**附加设备许可证，或一个 **音频会议**附加设备许可证。
+    > [!IMPORTANT]
+    > 要查看业务管理中心为 Skype 在左边的导航中的**语音**选项，您必须先购买至少一个**企业 E5 许可证**、**电话系统**加载项许可证或一个**音频会议**附加许可证。
     
-4. 您可以使用下拉列表筛选视图的活动用户，该用户是否联机或内部部署或状态和许可用户的类型。您可以通过筛选：
+4. 可以使用下拉列表来筛选视图为活动用户，该用户是否联机或内部部署或状态和类型的用户的授权。 您可以通过筛选：
     
   - **活动用户**以及用户是在线还是在本地。
     
   - **待处理许可证**以及用户是在线还是在本地。
     
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>相关主题
+[传送电话号码的常见问题](transferring-phone-numbers-common-questions.md)
 
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
-## 另请参阅
-<a name="MT_Footer"> </a>
+[不同种类的用于调用计划的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-#### 其他资源
+[管理您的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
-  
-[音频会议免费拨出时间段](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
+
+[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+
 

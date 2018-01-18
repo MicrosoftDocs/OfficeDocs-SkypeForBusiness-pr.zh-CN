@@ -1,66 +1,66 @@
 ---
-title: "为什么我当前无法使用 Skype for Business Online 管理中心？"
+title: "为什么不能使用 Skype 的在线业务管理中心现在？"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-f1_keywords:
-- ms.lync.lac.TenantInMigration
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: c182d564-1674-4491-b1d9-3e0cb657d4cc
-description: "Learn what you can and can't use in Skype for Business admin center, and other features when your service is being migrated to another Microsoft data center. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.TenantInMigration
+ms.custom: Setup
+description: "了解并能在中使用 Skype 业务管理中心，和其他功能时正在将您的服务迁移到另一个数据中心，Microsoft。 "
+ms.openlocfilehash: ebaa12e7a45875dc8bd0ea2386546647284ef864
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>为什么不能使用 Skype 的在线业务管理中心现在？
 
-# 为什么我当前无法使用 Skype for Business Online 管理中心？
+我们知道当我们将解释这里会发生什么以及为什么会值得等待，无法获得完成，工作很令人沮丧。 
+  
+首先，这是技术说明：
+  
+我们要到距您更近的另一个 Microsoft 数据中心迁移您 Skype 业务在线服务 （即您的用户和组织设置）。 这将提高您的服务并降低延迟。 
+  
+更多技术详细信息，请参阅[期间和之后的数据移动]( https://go.microsoft.com/fwlink/?LinkId=526418)。
+  
+## <a name="ok-so-what-does-that-mean"></a>好吧，那么，意味着什么？
 
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
+首先，让我们打破几个条款。
   
-我们知道当您不能访问工作已完成，以便我们将介绍这里会发生什么，为什么随后值得等待非常令人沮丧。
-  
-首先，下面是技术的解释：
-  
-我们正在将你的 Skype for Business Online 服务（意味着你的用户和组织设置）迁移到更靠近你的另一 Microsoft 数据中心。 这样做将改进你的服务并减少延迟。 
-  
-有关更多技术详细信息，请参阅[期间和数据移动之后]( https://go.microsoft.com/fwlink/?LinkId=526418)。
-  
-## 这意味着什么呢？
-
-首先，我们来分解一些术语。
-  
-- **数据中心** 这是您Office 365的组织中的信息的存储位置，如您的文件和电子邮件的物理位置。如果您真正想要深入了解什么是Office 365数据中心，请查看[本文](https://www.microsoft.com/online/legal/v2/?docid=25)。
+- **数据中心**这是从 Office 365 组织信息的存储位置，您的文件和电子邮件等的物理位置。 如果您真的想要深入了解到 Office 365 提供数据中心是什么，检查出[这篇文章](https://www.microsoft.com/online/legal/v2/?docid=25)。
     
-- **迁移** 这与"移动"差不多。在这种情况下，意味着我们要将你的 Skype for Business Online 用户和设置从一个数据中心移动到更靠近你的另一个数据中心以改进你的服务。
+- **迁移**这是很一样"移动"。 在这种情况下，它意味着我们要从一个数据中心移动业务联机用户和设置您 Skype 为另一种更接近于您可以提高您的服务。
     
-- **延迟** 这是您要访问Office 365管理中心中，请设置所需的时间量更改和保存这些更改。
+- **滞后时间**这是一段时间，它将带您访问 Office 365 管理中心，请设置更改，并保存这些更改。
     
-- **相关 ID** 你可能已经看到你刚刚收到的消息中列出了相关 ID。 此信息由 Microsoft 支持工程师用于帮助你对错误进行故障排除。 如果你联系 Microsoft 支持人员，可能会被要求提供相关 ID。
+- **相关性 ID**您可能已经看到，这只是来自于与邮件中列出。 Microsoft 的支持工程师使用此信息来帮助您解决错误。 如果您与 Microsoft 支持部门联系，可能会要求您为相关性 id。
     
-概言之，我们正在将你的所有 Skype for Business Online 用户和服务设置移动到更靠近你的另一个位置。 越近越好。 好消息是在这段较短的时间过后，你的 Skype for Business Online 服务将得到改善。
+因此，什么是这一切意味着我们正在移动所有您的在线业务用户的 Skype 和服务到距您更近的另一个位置的设置。 越接近越好。 好消息是之后这种短时间内，, 您的在线业务服务 Skype 将提高。
   
 ![Office 365 中的服务迁移](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
   
-## Skype for Business Online 的哪些功能仍将正常工作？
+## <a name="what-skype-for-business-online-features-will-still-work"></a>什么 Skype 的在线业务功能仍然起作用？
 
-虽然你将无法访问 Skype for Business Online 管理中心，但是以下 Skype for Business Online 功能在迁移期间仍将正常工作：
+虽然您不能访问 Skype 的在线业务管理中心，下 Skype 的在线业务功能在迁移期间仍然有效：
   
 - 联机会议
     
-- 状态信息
+- 出席信息
     
-## 我可以完成其他工作吗？
+## <a name="can-i-get-other-work-done"></a>是否可以做其他工作？
 
-当然可以。 当我们迁移你的 Skype for Business Online 服务时，你仍然可以使用 Office 365 中的其他管理中心（例如，Office 365 和 Exchange 管理中心）。 但是，在迁移过程中，你不能使用 Skype for Business Online 管理中心和 Skype for Business Online 远程 PowerShell cmdlet。 
+确实。 虽然我们正在迁移您的在线业务服务 Skype，您仍然可以使用 Office 365 （例如，Office 365 和 Exchange 管理员中心） 中的其他管理中心。 但是，与 Skype 的在线业务管理中心，您将无法在迁移期间业务在线远程 PowerShell cmdlet 使用 Skype。 
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>相关主题
+[设置 Skype for Business Online](set-up-skype-for-business-online.md)
 
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
-
+[允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)

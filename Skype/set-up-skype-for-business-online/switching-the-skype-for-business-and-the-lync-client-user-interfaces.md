@@ -2,46 +2,49 @@
 title: "在 Skype for Business 与 Lync 客户端用户界面之间切换"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 6/1/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_Skype4B_Online_Top
-ms.custom: Adm_O365_FullSet
 ms.assetid: a2394a4c-7522-484c-a047-7b3289742be0
-description: "Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
+ms.openlocfilehash: 8a6dd2b1966bb789d104a3bcdbd330f5a8370a88
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>在 Skype for Business 与 Lync 客户端用户界面之间切换
 
-# 在 Skype for Business 与 Lync 客户端用户界面之间切换
-
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
-  
-对于 Skype for Business Online 组织，你可以使用 Office 365 中的 Remote PowerShell 让你的 Skype for Business 用户使用 Skype for Business 客户端或 Skype for Business (Lync) 客户端用户界面。 默认设置是让用户使用 Skype for Business 客户端用户界面。 如果你希望使用 Lync 客户端体验，则可以管理首次启动客户端行为，以按照本主题后面的步骤显示 Lync 用户界面。
+对 Skype 的在线业务的组织，可用于远程 PowerShell Office 365 中启用您适用于业务用户的 Skype，业务客户端使用 Skype 或业务 (Lync) 客户端用户界面的 Skype。 默认设置是使用 Skype 业务客户端用户界面的用户。 如果您希望使用 Lync 客户端体验，您可以管理第一个启动的客户端行为可按照本主题中后面的步骤中显示 Lync 用户界面。
   
 > [!NOTE]
-> Lync 2013 客户端体验不是 Skype for Business 2016 客户端版本的一个选项。 在尝试将你的客户端环境配置为使用 Lync 2013 客户端之前，请检查客户端版本，以确保它不会以数字 16 开头；例如：16.x.x.x。 
+> [!注释] Lync 2013 客户端体验不是 Skype for Business 2016 客户端版本的一个选项。 在尝试将你的客户端环境配置为使用 Lync 2013 客户端之前，请检查客户端版本，以确保它不会以数字 16 开头；例如：16.x.x.x。 
   
 > [!TIP]
-> 如果您希望轻松切换用户界面，并且不想要执行手动步骤，请参阅[Microsoft 下载中心](https://go.microsoft.com/fwlink/?LinkId=532431)获取 PowerShell 脚本以使其更容易。 
+> [!提示] 如果希望轻松切换用户界面，不希望执行手动步骤，请访问 [Microsoft 下载中心](https://go.microsoft.com/fwlink/?LinkId=532431)以获取 PowerShell 脚本来简化操作。
   
-## 切换用户的 Skype for Business 用户界面
+## <a name="switching-the-skype-for-business-user-interface-for-users"></a>切换用户的 Skype for Business 用户界面
 
-Skype for Business Online 的 Windows PowerShell 模块使您能够创建连接到 Skype for Business Online 的远程的 Windows PowerShell 会话。可以从 Microsoft 下载中心上[的 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载此模块，仅在 64 位计算机支持。有关其他信息，请参阅[配置您的计算机的 Skype for Business Online 管理](https://go.microsoft.com/fwlink/?LinkId=534539)。
+适用于 Skype for Business Online 的 Windows PowerShell 模块让你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。 此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。 有关其他信息，请参阅[为你的计算机配置 Skype for Business Online 管理](https://go.microsoft.com/fwlink/?LinkId=534539)。
   
 > [!IMPORTANT]
-> 用于切换用户界面的  _Global_ 策略设置不会应用于已经应用了自定义设置的用户。 需要为已经应用了自定义策略的每位用户运行下面的命令，才能更改其用户界面：
+> [!重要信息] 用于切换用户界面的  _Global_ 策略设置不会应用于已经应用了自定义设置的用户。 需要为已经应用了自定义策略的每位用户运行下面的命令，才能更改其用户界面：
   
 ```
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 ```
 
 > [!CAUTION]
->  _ClientPolicyEnableSkypeUI_ 策略将替换用户的现有自定义策略设置。
+> [!警告]  _ClientPolicyEnableSkypeUI_ 策略将替换用户的现有自定义策略设置。
   
 要让贵组织中的所有用户使用 Skype for Business 客户端，请打开 Remote PowerShell 并键入以下命令：
   
@@ -53,7 +56,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
   
 ![PowerShell: SkypeUIEnabled](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
   
-要让贵组织中的所有用户使用 Skype for Business (Lync) 客户端，请打开 Remote PowerShell 并键入以下命令：
+要让贵组织中的所有用户使用 Skype for Business (Lync) 客户端，请打开 Remote PowerShell 并键入以下命令： 
   
 ```
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
@@ -71,7 +74,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 
 如果策略设置正确，您将看到：
   
-![Skype for Business Online - 启用 UI](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.gif)
+![Skype for Business Online - 启用 UI](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
   
 要让贵组织中的单个用户使用 Skype for Business (Lync) 客户端，请打开 Remote PowerShell 并键入以下命令：
   
@@ -81,31 +84,24 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 
 如果策略设置正确，您将看到：
   
-![Skype for Business Online - UI 已禁用](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.gif)
+![Skype for Business Online - UI 已禁用](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
   
 要让贵组织中的多个用户使用 Skype for Business 客户端，请打开 Remote PowerShell 并键入以下命令：
   
-> 
-  ```
-  $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
-  ```
 
-> 
-  ```
-  $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
-  ```
+```
+$users = @("sip:bob@contoso.com","sip:fred@contoso.com") 
+
+$users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
+```
 
 要让贵组织中的多个用户使用 Skype for Business (Lync) 客户端，请打开 Remote PowerShell 并键入以下命令：
   
-> 
-  ```
-  $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
-  ```
+```
+$users = @("sip:bob@contoso.com","sip:fred@contoso.com")
 
-> 
-  ```
-  $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
-  ```
+$users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
+```
 
 要让贵组织中的一组用户使用 Skype for Business 客户端，请打开 Remote PowerShell 并键入以下命令：
   
@@ -120,158 +116,59 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
 ```
 
 > [!NOTE]
->  用户的名称是应该为其分配该策略的用户帐户的名称。 可以以下列格式之一输入用户的帐户名称：>  用户的 SIP 地址>  用户的用户主体名称 (UPN)>  用户的域\\用户名>  用户的 Active Directory 显示名称
+>  [!注释]  用户的名称是应该为其分配该策略的用户帐户的名称。 可以以下列格式之一输入用户的帐户名称：>  用户的 SIP 地址>  用户的用户主体名称 (UPN)>  用户的域\\用户名>  用户的 Active Directory 显示名称
   
 [使用 Windows PowerShell 管理 Lync Online](https://go.microsoft.com/fwlink/?LinkID=525453)
   
-## Skype for Business Online 策略设置
+## <a name="skype-for-business-online-policy-settings"></a>Skype for Business Online 策略设置
 
 此表显示首次为用户应用了策略之后的用户体验：
   
 |**管理员策略设置**|**显示的用户界面**|
 |:-----|:-----|
-|未设置策略。  <br/> |用户将继续使用 Skype for Business 客户端用户界面。  <br/> |
-|
-```
-Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
-```
-
-|用户将继续使用 Skype for Business 客户端用户界面。  <br/> |
-|
-```
-Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
-```
-
-|将请用户切换到 Skype for Business (Lync) 客户端用户界面。 他们可以以后切换。  <br/> |
-|
-```
-Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
-```
-
-|用户将使用 Skype for Business 客户端用户界面。  <br/> |
-|
-```
-Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>
-```
-
-|将请用户切换到 Skype for Business (Lync) 客户端用户界面。 管理员可以在以后更改用于将用户切换到 Skype for Business 客户端用户界面的设置。  <br/> |
+|未设置策略。 |用户将继续使用 Skype for Business 客户端用户界面。|
+|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI```<br/>|用户将继续使用 Skype for Business 客户端用户界面。|
+|```Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI```<br/>|将请用户切换到 Skype for Business (Lync) 客户端用户界面。 他们可以以后切换。|
+|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>```|用户将使用 Skype for Business 客户端用户界面。 |
+```Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>```|用户可能需要切换到业务 (Lync) 客户端用户界面的 Skype。 管理员可以更改的设置会将它们转换为业务客户端用户界面的 Skype 的将来。 |
    
 此表显示更改了策略之后的用户体验：
   
 |**管理员策略设置**|**Skype for Business (Lync) 用户界面**|**Skype for Business 用户界面**|
 |:-----|:-----|:-----|
-|
-```
-Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
-```
-
-|将请用户切换到 Skype for Business 客户端用户界面。  <br/> |用户将继续使用 Skype for Business 客户端用户界面。  <br/> |
-|
-```
-Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
-```
-
-|用户将继续使用 Skype for Business (Lync) 界面。  <br/> |将请用户切换到 Skype for Business (Lync) 客户端用户界面。  <br/> |
-|未设置策略。  <br/> |如果不设置策略，用户将永远不会看到 Skype for Business (Lync) 客户端用户界面。 他们将一直使用 Skype for Business 客户端用户界面。  <br/> |用户将继续使用 Skype for Business 客户端用户界面。  <br/> |
+|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI```|将请用户切换到 Skype for Business 客户端用户界面。  <br/> |用户将继续使用 Skype for Business 客户端用户界面。  <br/> |
+|```Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI```|用户将继续使用 Skype 业务 (Lync) 接口。  <br/> |用户可能需要切换到业务 (Lync) 客户端用户界面的 Skype。  <br/> |
+|未设置策略。  <br/> |如果未设置此策略，用户将永远不会看到业务 (Lync) 客户端用户界面的 Skype。 它们将始终使用 Skype 业务客户端用户界面上。  <br/> |用户将继续使用 Skype for Business 客户端用户界面。  <br/> |
    
 此表显示所有可用的联机自定义策略。 已创建新的策略来让管理员能够在 EnableSkypeUI 标志之间切换同时灵活保留旧的自定义策略。 请使用上面的 cmdlet 来向用户授予以下策略之一。
   
 |**策略名称**|**EnableSkypeUI**|
 |:-----|:-----|
-|
-```
-ClientPolicyDefaultPhoto
-```
+```ClientPolicyDefaultPhoto```||
+```ClientPolicyDefaultPhotoDisableSkypeUI``` |假|
+```ClientPolicyNoIMURL```||
+```ClientPolicyNoIMURLDisableSkypeUI``` |假|
+```ClientPolicyNoIMURLPhoto```||
+```ClientPolicyNoIMURLPhotoDisableSkypeUI``` |假|
+```ClientPolicyNoSaveIMNoArchivingI```||
+```ClientPolicyNoSaveIMNoArchivingDisableSkypeUI``` |假|
+```ClientPolicyNoSaveIMNoArchivingNoIMURL```||
+```ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI``` |假|
+```ClientPolicyNoSaveIMNoArchivingNoIMURLPhoto``` ||
+```ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI```|假|
+```ClientPolicyNoSaveIMNoArchivingPhoto```||
+```ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI``` |假|
 
-||
-|
-```
-ClientPolicyDefaultPhotoDisableSkypeUI
-```
-
-|假  <br/> |
-|
-```
-ClientPolicyNoIMURL
-```
-
-||
-|
-```
-ClientPolicyNoIMURLDisableSkypeUI
-```
-
-|假  <br/> |
-|
-```
-ClientPolicyNoIMURLPhoto
-```
-
-||
-|
-```
-ClientPolicyNoIMURLPhotoDisableSkypeUI
-```
-
-|假  <br/> |
-|
-```
-ClientPolicyNoSaveIMNoArchivingI
-```
-
-||
-|
-```
-ClientPolicyNoSaveIMNoArchivingDisableSkypeUI
-```
-
-|假  <br/> |
-|
-```
-ClientPolicyNoSaveIMNoArchivingNoIMURL
-```
-
-||
-|
-```
-ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI
-```
-
-|假  <br/> |
-|
-```
-ClientPolicyNoSaveIMNoArchivingNoIMURLPhoto
-```
-
-||
-|
-```
-ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI
-```
-
-|假  <br/> |
-|
-```
-ClientPolicyNoSaveIMNoArchivingPhoto
-```
-
-||
-|
-```
-ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI
-```
-
-|False  <br/> |
    
 若要开始使用 Windows PowerShell，请参阅下列主题：
   
-- [您可能希望使用 Windows PowerShell 管理 Office 365 的六大原因]( https://go.microsoft.com/fwlink/?LinkId=525041)
+- [为什么需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- [管理 Office 365 的 Windows PowerShell 的最佳方法]( https://go.microsoft.com/fwlink/?LinkId=525142)
+- [使用 Windows PowerShell 管理 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-## 首次启动客户端行为
+## <a name="first-launch-client-behaviors"></a>首次启动客户端行为
 
-默认情况下，当用户首次启动 Skype for Business 时，他们将始终看到 Skype for Business 用户界面，即使你已如前所述通过将客户端策略设置为 Lync 客户端体验 ( `Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`) 来选择 Lync 客户端体验。 几分钟时间后，系统将要求用户切换到 Lync 模式。
+默认情况下，当用户启动 Skype 业务的第一次，他们将始终看到 Skype 为业务用户界面--即使您通过 Lync 客户端体验设置客户端策略选择 Lync 客户端体验 (`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`) 所述以前。 几分钟后，系统会要求用户切换到 Lync 模式。
   
 如果你希望在用户首次启动 Skype for Business 客户端时显示 Lync 用户界面，请在客户端更新后首次启动前执行以下步骤：
   
@@ -279,27 +176,27 @@ ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI
     
 2. 更新用户计算机上的系统注册表。 你应在用户首次启动 Skype for Business 客户端之前执行此操作，且你应仅执行一次此操作。 有关如何创建组策略对象以更新加入域的计算机上的注册表的信息，请参阅本主题后面部分内容。
     
-    在 **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\Lync]** 注册表项中，创建新的" **二进制**"值。 
+    在 **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\Lync]** 注册表项中，创建新的" **二进制**"值。
     
     " **值名称**"必须为 **EnableSkypeUI**，" **值数据**"必须设为 **00 00 00 00**。
     
     该注册表项应类似于以下内容：
     
-> [HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\Lync]
+    [注册表\\软件\\Microsoft\\Office\\Lync]
     
-    "CanSharePptInCollab"=dword:00000001
+    "CanSharePptInCollab"= dword:00000001
     
-    "CanShareOneNoteInCollab"=dword:00000001
+    "CanShareOneNoteInCollab"= dword:00000001
     
-    "CanAppShareInCollab"=dword:00000001
+    "CanAppShareInCollab"= dword:00000001
     
-    "EnableSkypeUI"=hex:00,00,00,00
+    "EnableSkypeUI"= 十六进制： 00 00 00、 00
     
 当用户首次启动 Skype for Business 客户端时，现在将显示 Lync 用户界面。
   
-### 控制欢迎屏幕教程的显示
+### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>控制欢迎屏幕教程的显示
 
-用户打开 Skype for Business 客户端时，默认行为是显示欢迎屏幕，其中包括 *人们最常请求获取的 7 条快速提示*  。 你可以关闭欢迎屏幕的显示，同时仍允许用户通过在客户端计算机上添加以下注册表值来访问教程：
+当用户打开业务客户端的 Skype 时，默认行为是显示欢迎使用屏幕中包含*大多数人寻求 7 个快速提示*。 您可以关闭欢迎屏幕的显示，但仍允许用户在客户端计算机上添加以下注册表值来访问该教程：
   
 在 **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0\\Lync]**注册表项中，创建新的 **DWORD（32 位）值**。 " **值名称**"必须为 **IsBasicTutorialSeenByUser**，" **值数据**"必须设为 **1**。
   
@@ -309,7 +206,7 @@ ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI
 "IsBasicTutorialSeenByUser"=dword:00000001
 ```
 
-### 关闭客户端教程
+### <a name="turn-off-the-client-tutorial"></a>关闭客户端教程
 
 如果你不希望你的用户能够访问教程，你可以使用以下注册表值关闭客户端教程：
   
@@ -321,13 +218,13 @@ ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI
 
 你可以通过将" **值数据**"设为 **1** 来重新打开教程。
   
-## 创建组策略对象以修改加入域的计算机上的注册表
+## <a name="create-a-group-policy-object-to-modify-the-registry-on-a-domain-joined-computer"></a>创建组策略对象以修改加入域的计算机上的注册表
 
 应仅执行一次注册表更新以在用户首次启动 Skype for Business 客户端时显示 Lync 客户端体验。 如果你使用组策略对象 (GPO) 更新注册表，你需要定义对象以创建新值，而非更新值数据。 应用 GPO 时，如果新值不存在，则 GPO 将创建新值并将值数据设为 0。
   
 以下过程介绍了如何修改注册表，使得在用户首次启动 Skype for Business 时显示 Lync 客户端体验。 你还可以如前文所述，使用此过程更新注册表以禁用欢迎屏幕教程。
   
- **若要创建 GPO**
+ **要创建的 GPO**
   
 1. 启动" **组策略管理控制台**"。
     
@@ -341,20 +238,20 @@ ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI
     
 5. 在" **组策略管理编辑器**"中，依次展开" **用户配置**"、" **首选项**"、" **Windows 设置**"，然后选择" **注册表**"节点。
     
-6. 右键单击" **注册表**"节点，然后选择" **新建**">" **注册表项**"。
+6. 在**注册表**节点，右键单击，然后选择**新建** > **注册表项**。
     
 7. 在" **新建注册表属性**"对话框上，更新以下内容：
     
 |**字段**|**要选择或输入的值**|
 |:-----|:-----|
 |**操作** <br/> |**创建** <br/> |
-|**配置单元** <br/> | HKEY_CURRENT_USER <br/> |
-|**注册表项路径** <br/> |Software\\Microsoft\\Office\\Lync  <br/> |
+|**配置单元** <br/> | 注册表 <br/> |
+|**注册表项路径** <br/> |软件\\Microsoft\\Office\\Lync  <br/> |
 |**值名称** <br/> |EnableSkypeUI  <br/> |
 |**值类型** <br/> |REG_BINARY  <br/> |
 |**值数据** <br/> |00000000  <br/> |
    
-8. 单击" **确定**"以保存更改，然后关闭 GPO。
+单击" **确定**"以保存更改，然后关闭 GPO。
     
 接下来，你需要将你创建的 GPO 链接到你希望分配策略的用户组，比如 OU。
   
@@ -378,10 +275,7 @@ ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI
     
 你可以检查注册表以确认 GPO 已成功更新用户计算机上的注册表。 打开注册表编辑器并导航至 **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\Lync]** 注册表项。 如果 GPO 已成功更新注册表，你将看到名为 EnableSkypeUI 的值设为 0。
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>相关主题
+[设置 Skype for Business Online](set-up-skype-for-business-online.md)
 
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
-
+[允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)

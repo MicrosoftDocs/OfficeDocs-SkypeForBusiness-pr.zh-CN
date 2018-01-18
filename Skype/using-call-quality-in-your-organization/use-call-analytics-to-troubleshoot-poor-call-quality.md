@@ -1,77 +1,76 @@
 ---
-title: "使用呼叫分析来进行故障排除较差 Skype for Business 呼叫质量"
+title: "使用调用分析诊断较差企业的 Skype 通话质量"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.date: 6/22/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-ms.prod: office-online-server
-localization_priority: Normal
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
-description: "Use Call Analytics details about devices, networks, and connectivity to troubleshoot user problems with Skype for Business calls and meetings."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "使用调用分析有关设备、 网络和连接的详细信息来解决用户的问题与 Skype 进行业务联络和会议。"
+ms.openlocfilehash: 043c7eac6099f23217c155ad91bf818aa4e57892
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality"></a>使用调用分析诊断较差企业的 Skype 通话质量
 
-# 使用呼叫分析来进行故障排除较差 Skype for Business 呼叫质量
+调用分析可帮助您诊断有关业务 Skype 呼叫或连接问题。 调用分析显示在您的企业往来帐户的 Skype 有关设备、 网络和电话和会议的每个用户的连接的详细的信息。 如果构建，站点，和租户信息已添加到调用的分析，它也将显示为每个调用和会话。 通过调用分析提供的信息可帮助您找出为什么用户会有不良的调用或会议体验。 
+  
+    > [!NOTE]
+    > Call Analytics is currently in preview. Text and images described here may not match your experience. 
+  
+## <a name="troubleshoot-call-quality-problems-using-call-analytics"></a>使用调用分析通话质量问题的疑难解答
 
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
+分配给您的权限级别决定什么类型的信息您调用分析中有权：
   
-呼叫分析可帮助您Skype for Business呼叫或连接问题疑难解答。呼叫分析Skype for Business帐户中显示有关设备、 网络和呼叫和会议的每个用户的连接的详细的信息。如果构建，网站，并租户信息已添加到呼叫分析，它也将显示为每个呼叫和会话。通过呼叫分析提供的信息可以帮助您找出为什么用户具有较差呼叫或会议体验。
-  
-> [!NOTE]
-> 正在预览呼叫分析。文本和图像此处所述可能与您的体验。 
-  
-## 使用呼叫分析呼叫质量问题疑难解答
-
-分配给您的权限级别决定了哪些类型的信息您呼叫的分析中有权访问：
-  
-- **Skype for Business 管理员** ： 呼叫分析和Skype for Business管理中心中，您有权访问的所有信息。
+- **Skype 业务管理员**： 您有权访问所有信息，在调用分析和业务管理中心为 Skype。
     
-- **技术支持人员代理层 1 权限** ： 您看到一组有限的呼叫分析中的数据。您可以解决呼叫，但您将交给问题会议 2 层工程师。您没有访问Skype for Business管理中心中的其余部分。
+- **帮助台代理使用第 1 层权限**： 看到一组有限的数据调用分析中。 您可以解决调用，但将移交问题会议到第 2 层工程师。 您没有访问 Skype 的其余部分的业务管理中心。
     
-- **技术支持人员代理层 2 权限** ： 请参阅呼叫分析中的所有可用的数据，可以帮助您解决问题的呼叫和会议。您没有访问Skype for Business管理中心中的其余部分。
+- **帮助台代理使用第 2 层权限**： 请参见调用分析中的所有可用数据，能够帮助您解决问题的呼叫和会议。 您没有访问 Skype 的其余部分的业务管理中心。
     
-如果您需要具有权限的帮助，请参阅Skype for Business管理员。
+如果您需要使用的权限的帮助，请参阅您 Skype 的业务管理。
   
- **打开呼叫分析层 1 或 2 层技术支持人员代理**
+ **为第 1 层或 2 层支持人员代理打开调用分析**
   
-1. 转到[https://adminportal.services.skypeforbusiness.com](https://adminportal.services.skypeforbusiness.com)，，然后使用您的用户名和密码登录。
+1. 请转到 Office 365 管理中心并使用您的工作或学校的帐户进行登录。 然后在 web 浏览器转到*https://adminportal.services.skypeforbusiness.com*。
     
-2. 在 **用户搜索**，开始键入您想要进行故障诊断，然后从列表中选择用户的呼叫的用户的名称或 sip 地址。
+2. 在**用户搜索**，键入您想要解决问题，然后从列表中选择用户的呼叫的用户的名称或 sip 地址。
     
-    ![Screenshot of the User Search box of Call Analytics in the Skype for Business Admin Center.](../images/db52efc5-dac1-4623-ba72-41e42f0a0fb4.png)
+    ![在业务管理中心为 Skype 呼叫分析用户的搜索框的屏幕快照。](../images/db52efc5-dac1-4623-ba72-41e42f0a0fb4.png)
   
-3. 在 **呼叫历史记录**，请选择您想要解决呼叫或会议。
+3. 在**通话记录**，选择您要排查故障的电话或会议。
     
-    ![Screenshot shows the call history page for a user with information such as the user's contact details, a summary of the 7-day quality and activity for meetings and calls, and an overview of dates and times, recipients, and audio quality,](../images/aef80e09-3b37-46db-8e7b-8cf71712349b.png)
+    ![屏幕抓图显示信息用户的联系人的详细信息，如 7 天质量和为会议和联络活动的摘要和概述日期和时间、 收件人和音频质量，具有权限的用户调用历史页](../images/aef80e09-3b37-46db-8e7b-8cf71712349b.png)
   
-4. 选择 **高级**选项卡，然后查找黄色和红色指示不佳的呼叫质量或连接问题的项目。
+4. 选择**高级**选项卡，然后查找黄色和红色指示较差的呼叫质量或连接问题的项目。
     
-    在每个呼叫或会议的会话详细信息，在黄色出现次要问题。（例如，在下面的屏幕截图中的值是平均抖动、 Max 抖动和平均数据包丢失率的黄色。）如果出现黄色，外部普通区域，并可能导致此问题，但很可能是主问题的原因。如果出现红色，很重要的问题，并很可能较差的呼叫质量此会话的主要原因。
+    对于每个调用或会议会话的详细信息，小问题中出现的黄色。 （例如，在下面的屏幕快照的值是以黄色为平均抖动、 最大抖动和平均数据包丢失率。）如果什么东西是黄色的超出正常范围，以及它可能会造成问题，但它不可能是问题的主要原因。 如果什么东西是红色的很重要的问题，并很可能为此会话较差的呼叫质量的主要原因。 
     
-    ![Screenshot shows the Advanced tab of a user's Call history with the Inbound network section expanded to reveal that the data for average jitter, max jitter, and average packet loss rate are shown in a yellow color, meaning they are minor issues.](../images/13f314ce-97cf-4bd0-a147-14b177d07040.png)
+    ![屏幕抓图显示用户的通话记录的高级选项卡进行入站的网络一部分展开以显示平均抖动、 最大的抖动和平均的数据包丢失率的数据所示的颜色为黄色，表示它们次要问题。](../images/13f314ce-97cf-4bd0-a147-14b177d07040.png)
   
-在出现次数较少的情况下，数据体验的质量未接收到音频会话。通常这被由于呼叫放和连接与客户端终止。 如果发生这种情况，会话分级是"不可用"。
+在极少数情况下，经验数据的质量不会接收到音频会话。 通常这被由于调用放和连接与客户端终止。 在这种情况下，会话评级为"不可用"。
   
-有体验 (QoE) 数据的质量的音频会话下, 表介绍主要有资格为"质量较差。"会话的问题
+对于音频会话具有质量 (QoE) 的经验数据下, 表描述了确认为"较差"。 一个会话的主要问题
   
-|**问题**|**区域**|**描述**|
+|**问题**|**区域**|**说明**|
 |:-----|:-----|:-----|
-|呼叫设置  <br/> |会话  <br/> |错误代码 Ms 诊断 20 29 表示呼叫设置失败。用户无法加入呼叫或会议。  <br/> |
-|音频网络划分不佳的呼叫  <br/> |会话  <br/> |网络质量问题遇到区域数据包丢失、 抖动、 NMOS 降级，RTT，如或隐藏比率。有关用于分类不佳的呼叫的条件的详细信息，请参阅此[Microsoft 博客文章](https://go.microsoft.com/fwlink/p/?linkid=852133)。  <br/> |
-|设备无法正常工作  <br/> |设备  <br/> | 设备未正常工作。设备无法正常工作的比率是： <br/>  DeviceRenderNotFunctioningEventRatio > = 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0.005 <br/> |
+|呼叫设置  <br/> |会话  <br/> |Ms 诊断 20-29 的错误代码指示调用安装程序失败。 用户无法加入电话或会议。  <br/> |
+|音频网络分类较差的呼叫  <br/> |会话  <br/> |网络质量问题遇到诸如数据包丢失、 抖动、 NMOS 降级，RTT，或隐藏比率。 有关用于分类较差的呼叫的条件的详细信息，请参阅以下[Microsoft 博客文章](https://go.microsoft.com/fwlink/p/?linkid=852133)。  <br/> |
+|设备无法正常工作  <br/> |设备  <br/> | 设备运行不正常。 设备无法正常工作的比率如下： <br/>  DeviceRenderNotFunctioningEventRatio > = 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0.005 <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>相关主题
+[Skype 业务调用分析设置](set-up-call-analytics.md)
 
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
-## 另请参阅
-<a name="MT_Footer"> </a>
-
-#### 其他资源
-
-[设置 Skype for Business 呼叫分析](set-up-skype-for-business-call-analytics.md)
+[调用分析和呼叫质量仪表板之间的区别是什么？](difference-between-call-analytics-and-call-quality-dashboard.md)
 

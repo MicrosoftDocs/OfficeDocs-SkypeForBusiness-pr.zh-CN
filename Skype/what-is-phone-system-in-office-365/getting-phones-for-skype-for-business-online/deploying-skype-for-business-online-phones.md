@@ -3,67 +3,74 @@ title: "部署 Skype for Business Online 电话"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 11/10/2017
-ms.audience: Admin
-ms.topic: get-started-article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: faa17eb3-7483-4984-87f2-815d981b68ae
-description: "Learn the deployment steps to get the correct firmware, update it if needed, assign licences, and configure settings for Skype for Business online phones"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Phone System
+- Strat_SB_PSTN
+description: "了解部署步骤获得正确的固件、 如果需要更新、 分配许可证，和配置设置的 Skype 业务在线电话"
+ms.openlocfilehash: c62a3512929152dabe8f9ea0e8e748d38f82f127
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="deploying-skype-for-business-online-phones"></a>部署 Skype for Business Online 电话
 
-# 部署 Skype for Business Online 电话
-
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
-  
 本部署指南将帮助你部署 Skype for Business Online IP 电话。
   
-在所有类型的企业中，有电话号码使用户可以使和获取语音呼叫，并且有业务往来的重要要求。有电话号码的用户将能够跨所有Skype for Business设备包括 IP 电话、 Pc 和移动设备进行语音呼叫。您可以了解有关 Skype for Business IP 电话阅读[获取适用于 Skype for Business Online 的电话](getting-phones-for-skype-for-business-online.md)。
+在所有类型的企业，具有电话号码让用户和获取语音呼叫，并且有业务往来的重要要求。 有电话号码的用户将能够在所有 Skype 业务设备包括 IP 电话、 电脑和移动设备之间进行语音呼叫。 您可以了解有关 Skype 对于业务 IP 电话通过阅读[获得电话的 Skype 的在线业务](getting-phones-for-skype-for-business-online.md)。
   
-## 部署 IP 电话的步骤
+## <a name="deployment-steps-for-ip-phones"></a>部署 IP 电话的步骤
 
-### 第 1 步 - 下载制造商的管理员指南和电话手册
+### <a name="step-1---download-the-manufacturers-administrator-guides-and-phone-manuals"></a>第 1 步 - 下载制造商的管理员指南和电话手册
 
 开始之前，最好先下载电话制造商的管理指南和电话用户手册。
   
-- 对于 Polycom 电话，请参阅 [Polycom 部署指南](https://support.polycom.com/PolycomService/support/us/support/voice/polycom_uc/polycom_uc_software_for_lync.mdl)。
+- Polycom 电话请参见 [Polycom 部署指南] ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)。
     
-- Yealink 电话，请参阅[Yealink Skype for Business HD SIP 电话解决方案](http://www.yealink.com/solution_7.mdl)。
+- Yealink 的电话，请参阅[Yealink Skype 业务高清 SIP 电话解决方案](http://www.yealink.com/products_top_2.html)。
     
-- 对于 AudioCodes 电话，请参阅 [Audiocodes 配置管理指南](https://www.audiocodes.com/products/ems)。
+- 对于 AudioCodes 电话，请参阅 [Audiocodes 配置管理指南](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)。
     
-### 第 2 步 - 确保购买或迁移支持 Skype for Business 的 IP 电话和固件
+### <a name="step-2---make-sure-youre-purchasing-or-migrating-a-skype-for-business-supported-ip-phone-and-firmware"></a>第 2 步 - 确保购买或迁移支持 Skype for Business 的 IP 电话和固件
 
-Skype for Business Online 支持电话和固件是 Skype for Business Server 兼容，但相反始终不正确。以确保您正在购买或设置支持的电话和固件，请参阅[获取适用于 Skype for Business Online 的电话](getting-phones-for-skype-for-business-online.md)。
+Skype 的在线业务支持电话和固件为 Skype 业务服务器兼容，但是相反也不尽然。 要确认购买或资源调配的支持的电话和固件，请参阅[获得电话的 Skype 的在线业务](getting-phones-for-skype-for-business-online.md)。
   
-### 第 3 步 - 检查是否安装了正确的固件并根据需要更新固件。
+### <a name="step-3---checking-that-the-right-firmware-is-installed-and-update-the-firmware-if-required"></a>第 3 步 - 检查是否安装了正确的固件并根据需要更新固件。
 
-检查您的电话上的固件版本。适用于：
+请检查您的电话上的固件版本。 适用于：
   
-- **Polycom VVX 电话** ，请转到" **设置** ">" **状态** ">" **平台** ">" **应用程序** ">" **主要** "。
+- **Polycom VVX 电话**，转到**设置** > **状态** > **平台** > **应用程序** > **主**。
     
 - **Yealink 电话** ，请转到电话主屏幕上的" **状态** "。
     
-- **AudioCodes 电话** ，请从开始屏幕转到" **菜单** ">" **设备状态** ">" **固件版本** "。
+- **AudioCodes 电话**，转到**菜单** > **设备状态** > 开始屏幕中的**固件版本**。
     
     > [!NOTE]
-    > 远程访问电话详细信息，请参阅制造商管理指南。 用户指南和电话手册，请参见上面的链接。 
+    > 有关远程访问电话详细信息，请参阅制造商管理指南。请参阅用户指南和电话手册的上面的链接。 
   
-- **Lync Phone Edition (LPE) 电话** ，请从开始屏幕转到" **菜单** ">" **系统信息** "。
+- **Lync 电话版 (LPE) 电话**，转到**菜单** > **系统信息**从开始屏幕。
     
-### 第 4 步 - 设备更新注意事项
+### <a name="step-4---device-update-considerations"></a>第 4 步 - 设备更新注意事项
 
 > [!NOTE]
-> Polycom 固件 5.5.1.X 之前已将被替换为 Skype for Business 实现"电话锁定"制造商特定设备锁定机制升级到 5.5.1.X"电话 lock"电话"设备 lock"保护 5.4.X.X 不继承从"设备锁，"可以保留不安全的电话的 PIN 代码。已激活"设备锁定"的用户需要启用下面的 Polycom 设备配置文件参数，以向用户提供的升级 (lync.deviceUpdate.popUpSK.enabled=1) 时间的控件。 
+> Polycom 固件之前 5.5.1.X 有一将被替换为业务实现"电话锁定"Skype 的具体制造商的设备锁定机制 升级到 5.5.1.X 与"电话锁定"电话与"设备锁定"保护 5.4.X.X 不会继承来自设备-锁，这样可以使不安全的手机的 PIN 代码。 用户已激活"设备锁定"需要启用以下的 Polycom 设备配置文件参数，为用户提供升级 (lync.deviceUpdate.popUpSK.enabled=1) 时间的控制。 
   
-更新固件由 Skype for Business Service 管理。每个 Skype for Business 认证手机的固件上载到 Skype for Business 更新服务器，并且设备更新所有电话上启用了默认情况下。在电话和轮询间隔处于非活动状态时，根据电话将自动下载并安装最新的认证的生成。您可以通过使用[设置 CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) cmdlet 并将 _EnableDeviceUpdate_参数设置为 `false`禁用的设备更新设置。
+固件更新由 Skype 业务服务管理。 企业的每一个 Skype 认证手机的固件上载到业务更新服务器，Skype 和所有电话上，默认情况下启用设备更新。 根据电话和巡回检测时间间隔上的闲置时间，电话将自动下载并安装最新认证的生成。 您可以通过使用[一组 CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) cmdlet 并将_EnableDeviceUpdate_参数设置为来禁用设备更新设置`false`。
   
 ![Deploying phones.](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
-新的固件时可用，并准备好供下载并安装电话将通知用户。Polycom 电话将通知用户并让他们为 **更新** 或 **推迟** 选项。
+新固件时可用并可供下载和安装，电话将通知用户。Polycom 电话将通知用户，并为他们提供一个选项**更新**或**推迟**。
   
 ![Deploying phones.](../../images/50956fa0-da0c-4085-9bb5-4a2e99aecebb.png)
   
@@ -74,63 +81,63 @@ Skype for Business Online 支持电话和固件是 Skype for Business Server 兼
 还可以选择使用合作伙伴配置系统来管理固件更新。有关包含高级电话自定义的合作伙伴配置系统管理，请参考制造商管理指南。
   
 > [!CAUTION]
-> 确保拥有单个设备更新授权（带内设备更新或第三方配置服务器），以避免更新循环。 
+> [!警告] 确保拥有单个设备更新授权（带内设备更新或第三方配置服务器），以避免更新循环。 
   
-### 第 5 步-配置和基础结构的电话设置
+### <a name="step-5---configuration-and-infrastructure-phone-settings"></a>第 5 步-配置和基础架构的电话设置
 
 你可以使用 Skype for Business 带内管理 Windows PowerShell cmdlet 来设置最常用的电话选项和策略。有关这些参数和设置的详细信息，请参阅 [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx)。
   
-规划网络基础结构，请参阅[Skype 操作框架](https://www.skypeoperationsframework.com/)。
+网络基础架构规划，请参阅[Skype 操作框架](https://www.skypeoperationsframework.com/)。
   
-### 步骤 6-准备用户登录
+### <a name="step-6---preparing-for-users-to-sign-in"></a>步骤 6-为用户注册的准备
 
-若要使用户能够成功登录到 Skype for Business Online 的电话和进行呼叫，需要确保用户分配了正确的许可证。至少需要分配电话系统许可证和呼叫计划。有关其他信息，您可以查看[Skype for Business 和 Microsoft 团队许可加载项](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)和[分配 Skype for Business 和 Microsoft 团队合作的用户许可证](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
+若要使用户能够成功登录到在线业务电话 Skype 和拨打电话，您需要确保用户都被分配了正确的许可证。 至少，您需要分配电话系统许可证并调用计划。 有关其他信息，您可以看到[Skype 为加载项业务和 Microsoft 小组授权](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)和[分配业务和 Microsoft 小组许可证的 Skype](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
   
-可以通过阅读了解更多信息调用计划[什么是致电 Office 365 中计划？](../../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
+可以通过阅读来了解更多有关调用计划[调用中 Office 365 计划是什么？](../../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
   
 - Online 用户可以使用的 **登录选项** 包括：
     
-  - **Polycom VVX 5XX/6XX** 电话的用户将看到：
+  - 与**Polycom VVX 5XX/6XX**电话的用户将会看到：
     
      ![Deploying phones.](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
   
-  - 具有 **Yealink T48G/T46G** 电话的用户将看到：
+  - 与**Yealink T48G/T46G**电话的用户将会看到：
     
      ![Yealink phones logon.](../../images/2a2892ae-850d-4781-8be0-4ffb8af068c9.png)
   
-    支持的制造商登录选项的详细信息，请参阅[获取适用于 Skype for Business Online 的电话](getting-phones-for-skype-for-business-online.md)。
+    支持的制造商的登录选项的详细信息，请参阅[获得电话的 Skype 的在线业务](getting-phones-for-skype-for-business-online.md)。
     
 - **用户 ID** 通过电话键盘或屏幕键盘（如有），用户可以使用其组织的用户名和密码登录电话。例如，他们应使用类似 *amosm@contoso.com*  的 UPN 格式作为其用户名。
     
      ![Deploying phones.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
     > [!NOTE]
-    > Skype for Business Online 不支持对 LPE 和合作伙伴 IP 电话进行 PIN 身份验证。 
+    > [!注释] Skype for Business Online 不支持对 LPE 和合作伙伴 IP 电话进行 PIN 身份验证。 
   
-- **使用 PC** 更好地协作通过以太网 (BToE) 软件是用户的 PC 上安装并启用，用户可以登录到其在其 Windows Skype for Business 应用上使用身份验证窗口中的电话。其他信息，请参阅[第 7 步（可选）- 如果拥有设备配对和 Better Together over Ethernet (BToE)](faa17eb3-7483-4984-87f2-815d981b68ae.md#BK_BTOE) 。
+- **使用一台电脑**通过以太网 (BToE) 软件更好地组合在一起是在用户的计算机上安装并启用，用户可以登录到其电话业务应用程序在其 Windows Skype 上使用身份验证窗口。 其他信息，请参阅[步骤 7 （可选）-如果您有设备配对和以太网 (BToE) 更好地组合在一起](deploying-skype-for-business-online-phones.md#BK_BTOE)。
     
     > [!NOTE]
-    > 用户需要使用其组织的用户名和密码登录电话。例如，他们应使用类似  *amosm@contoso.com*  的 UPN 格式作为其用户名。
+    > [!注释] 用户需要使用其组织的用户名和密码登录电话。例如，他们应使用类似  *amosm@contoso.com*  的 UPN 格式作为其用户名。
   
      ![Deploying phones.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
-- **使用 Web 登录**： 这是一种新联机用户使用标准的 web 浏览器进行身份验证方法。用户将提供一组用户使用浏览器登录时，请按照说明。
+- **使用 Web 登录的**： 这是一种新方法，为在线用户使用标准 web 浏览器进行身份验证。 用户将获得一套他们使用浏览器在每次登录时，请遵循说明。
     
-  - **Polycom VVX 5XX/6XX** 电话的用户将看到：
+  - 与**Polycom VVX 5XX/6XX**电话的用户将会看到：
     
      ![Deploying phones.](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
   
-  - 具有 **Yealink T48G/T46G** 电话的用户将看到：
+  - 与**Yealink T48G/T46G**电话的用户将会看到：
     
      ![Yealink phone logon.](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
   
-    生成的代码将在 15 分钟后过期。过期后，用户必须单击 **重试**或 **确定**以生成新的代码，具体取决于电话。
+    在 15 分钟内，生成的代码将过期。过期后，用户必须单击**重试**或**确定**以生成新代码，具体取决于手机。
     
-  - **Polycom VVX 5XX/6XX** 电话的用户将看到：
+  - 与**Polycom VVX 5XX/6XX**电话的用户将会看到：
     
      ![PIN code expired.](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
   
-  - 具有 **Yealink T48G/T46G** 电话的用户将看到：
+  - 与**Yealink T48G/T46G**电话的用户将会看到：
     
      ![Yealink phones logon.](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
   
@@ -142,7 +149,7 @@ Skype for Business Online 支持电话和固件是 Skype for Business Server 兼
     
      ![Deploying phones.](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
   
-    验证该网站显示"[电话制造商名称] **Skype for Business 认证电话**，"并单击 **继续**。
+    验证该网站是否显示"[电话制造商的名称]**业务认证电话的 Skype**，"并单击**继续**。
     
      ![Deploying phones.](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   
@@ -150,68 +157,69 @@ Skype for Business Online 支持电话和固件是 Skype for Business Server 兼
     
      ![Deploying phones.](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
   
-    显示关注页面时，很安全关闭浏览器。
+    显示下面的页时，则可以安全地关闭浏览器。
     
      ![Deploying phones.](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
   
     > [!NOTE]
-    > 适用于 Skype for Business Online 的 LPE 电话仅支持通过 USB 数据连线登录。 
+    > [!注释] 适用于 Skype for Business Online 的 LPE 电话仅支持通过 USB 数据连线登录。 
   
 - **支持的部署** 下表显示了当前支持的部署模式所支持的身份验证类型，包括 Exchange 集成、使用多因素身份验证 (MFA) 的新式验证以及 Skype for Business Online 和本地部署。
     
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Skype for Business** <br/> |**Exchange** <br/> |**电话登录方法** <br/> |**Skype for Business 访问** <br/> |**禁用新式验证和 MFA 的 Exchange 访问** <br/> |**启用新式验证和 MFA 的 Exchange 访问** <br/> |
+|**Skype for Business** <br/> |**Exchange** <br/> |**电话登录方法** <br/> |**Skype 商业访问** <br/> |**禁用新式验证和 MFA 的 Exchange 访问** <br/> |**启用新式验证和 MFA 的 Exchange 访问** <br/> |
 |Online  <br/> |Online  <br/> |Web 登录  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|Online  <br/> |Online  <br/> |用户名/密码  <br/> |是  <br/> |支持  <br/> |否  <br/> |
+|Online  <br/> |Online  <br/> |用户名/密码  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |Online  <br/> |本地部署  <br/> |Web 登录  <br/> |是  <br/> |否  <br/> |否  <br/> |
-|Online  <br/> |本地部署  <br/> |用户名/密码  <br/> |是  <br/> |支持  <br/> |否  <br/> |
-|本地部署  <br/> |Online/本地部署  <br/> |PIN 身份验证  <br/> |支持  <br/> |否  <br/> |否  <br/> |
+|Online  <br/> |本地部署  <br/> |用户名/密码  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|本地部署  <br/> |Online/本地部署  <br/> |PIN 身份验证  <br/> |是  <br/> |否  <br/> |否  <br/> |
 |本地部署  <br/> |Online/本地部署  <br/> |用户名/密码  <br/> |是  <br/> |是  <br/> |不适用  <br/> |
-|本地部署  <br/> |Online/本地部署  <br/> |通过 PC 登录 (BTOE)  <br/> |是  <br/> |是  <br/> |N/A  <br/> |
+|本地部署  <br/> |Online/本地部署  <br/> |通过 PC 登录 (BTOE)  <br/> |是  <br/> |是  <br/> |不适用  <br/> |
    
-- **电话功能** 功能集可能会有所不同略有基于 IP 电话合作伙伴。完成功能设置和的每个电话制造商的功能的详细信息，请参阅[获取适用于 Skype for Business Online 的电话](getting-phones-for-skype-for-business-online.md)。
+- **电话功能**功能集可能会有所不同的 IP 电话伙伴上有细微的差别。 有关完整的功能设置，每个手机生产商的功能的详细信息，请参阅[获得电话的 Skype 的在线业务](getting-phones-for-skype-for-business-online.md)。
     
-- **电话锁定** 是 Skype for Business 认证电话用于安全电话最近引入的功能。如果已启用，用户将需要创建成功的身份验证时 PIN。创建后，空闲超时定义到期、 用户手动锁定他们的电话，或他们使用手机配对其 PC lock 同步其电话锁定时，将锁定电话。如果多次错误输入电话锁定 PIN，电话将注销用户或需要管理员的代码解锁电话，但这因电话合作伙伴。6 到 15 位之间应用户的 PIN。
+- **电话锁定**是用来保护手机的业务认证电话的 Skype 在最近引入的功能。 如果启用，用户将需要创建一个 PIN 在身份验证成功时。 一旦创建，将时空闲超时定义过期、 用户手动锁定了他们的电话，或它们与使用电话配对其电脑锁同步其电话锁锁定电话。 如果电话锁针错误输入几次，电话将注销用户或需要管理员的代码来解锁手机，但这取决于电话合作伙伴。 该用户的 PIN 应该是 6 到 15 位之间。
     
-    您可以为您的组织 （这默认已启用） 禁用电话锁定、 更改空闲超时，并选择是否处于锁定或不使用带内设置时，用户可以拨打电话。有关这些设置的更多详细信息，请参阅[设置 CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) 。
+    可以禁用电话锁定为您的组织 （这默认启用的）、 空闲超时更改并选择时锁定或没有使用带内设置用户是否可以拨打电话。 有关这些设置的详细信息，请参阅[组 CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) 。
     
-## 第 7 步（可选）- 如果拥有设备配对和 Better Together over Ethernet (BToE)
+## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>第 7 步（可选）- 如果拥有设备配对和 Better Together over Ethernet (BToE)
 <a name="BK_BTOE"> </a>
 
-BToE 是 paining 机制合作伙伴 IP 电话手机，对其 Windows Skype for Business 应用程序 BToE 与用户的电话使用户可以：
+BToE 是 paining 合作伙伴 IP 电话机制对用户的电话，与他们的业务应用程序的 Windows Skype 电话。 BToE 允许用户：
   
-- 登录到其使用其 Skype for Business 桌面应用程序 （使用 PC） 的 IP 电话
+- 登录到其 IP 电话业务桌面应用程序 （使用一台电脑） 使用其 Skype
     
-- 与 PC 锁定同步电话锁定
+- 与电脑锁同步电话锁定
     
 - 单击以呼叫
     
-可以将 BToE 配置为在两个模式下运行: （默认值） 的 *自动*  和 *手动*  。也可以启用 （默认值） / 禁用用户使用 Skype for Business 带内设置的。 *手动*  模式在运行，当用户需要采取额外步骤，以对其 Windows 应用其电话。
+可以将 BToE 配置为运行于两种模式下: （默认值） 的*自动*和*手动*。 它也可以是启用 （默认值） / 对用户使用 Skype 业务带内设置为禁用。 当在*手动*模式下操作时，用户将不得不采取其他步骤，以对他们的电话使用其 Windows 应用程序。
   
- **若要为用户部署 BToE**
+ **用于部署到用户的 BToE**
   
 1. 使用 PC 端口将 PC 与电话相连。
     
      ![Deploying phones.](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
-2. 从制造商网站（链接如下所示）下载并安装最新的 BToE 软件。要获取更好的用户体验，可以使用 System Center Configuration Manager (SCCM) 等管理员分发解决方案来分发并安装 BToE 软件。有关使用 SCCM 的帮助，请参阅[ System Center Configuration Manager 中的软件包和程序](https://docs.microsoft.com/zh-cn/sccm/apps/deploy-use/packages-and-programs)。
+2. 从制造商网站（链接如下所示）下载并安装最新的 BToE 软件。要获取更好的用户体验，可以使用 System Center Configuration Manager (SCCM) 等管理员分发解决方案来分发并安装 BToE 软件。有关使用 SCCM 的帮助，请参阅[ System Center Configuration Manager 中的软件包和程序](https://docs.microsoft.com/en-us/sccm/apps/deploy-use/packages-and-programs)。
     
-  - [Polycom BToE 软件下载网站](https://support.polycom.com/PolycomService/support/us/support/voice/polycom_uc/polycom_uc_software_for_lync.mdl)
+  - [Polycom BToE 软件下载站点](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
-  - [Yealink BToE 软件下载](http://www.yealink.com/solution_info.aspx?ProductsCateID=1471&amp;parentcateid=1471&amp;cateid=1471&amp;BaseInfoCateId=1328&amp;Cate_Id=1471)
+  - [Yealink BToE 软件下载](http://www.yealink.com/products_list_10.html)
     
-  - [AudioCodes BToE 软件下载](ftp://VoP-C12:IPPLync@ftp.audiocodes.com/Release/3.0.0.Beta/BToE_1.1.8/)
+  - [AudioCodes BToE 软件下载](https://www.audiocodes.com/solutions-products/solutions/skype-for-business-microsoft-teams/skype-for-business-online)
     
-3. 默认情况下，BToE 的服务器设置设置为 **已启用** 和 **自动模式** 。若要更改这些设置，请参阅[设置 CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx)。
+3. 默认情况下，BToE 的服务器设置设置为**已启用**并**自动模式**。 若要更改这些设置，请参阅[设置 CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx)。
     
 > [!NOTE]
-> Mac 和 VDI 平台目前不支持 BToE。 
+> [!注释] Mac 和 VDI 平台目前不支持 BToE。 
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>相关主题
+[业务和 Microsoft 小组获得 Skype 服务电话号码](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
+[以下是您所获得的与 Office 365 中的电话系统](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
+
+[音频会议和调用计划的国家和地区可用性](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
 

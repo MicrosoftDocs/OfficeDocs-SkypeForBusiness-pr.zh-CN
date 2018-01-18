@@ -1,29 +1,33 @@
 ---
-title: "Skype 会议直播预览设置"
-ms.author: tonysmit
+title: "Skype 会议广播预览设置"
+mms.author: tonysmit
 author: tonysmit
-ms.date: 11/16/2017
-ms.audience: End User
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.BroadcastMeetingsPreview
-ms.prod: office-online-server
+ms.assetid: 651d4773-cbd8-49e9-b55e-7abb8064060
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
 localization_priority: Normal
-ms.assetid: 651d4773-cbd8-49e9-b55e-7abb8064060a
-description: "Skype for Business 客户预览计划提供您最初对访问新产品和功能。 它使您的组织以获取快速浏览即将推出，测试出您自己的环境中的新增功能和提供反馈，我们发布给公众的产品版本之前。若要了解详细信息，请参阅Skype for Business 预览版。"
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.BroadcastMeetingsPreview
+ms.custom: SMB
+description: "业务客户预览计划 Skype 提供您早期对新产品和新功能。 它使您的公司能够获得抢先看了什么，测试出您自己的环境中的新功能和之前我们发布的产品版本向公众提供反馈。 若要了解详细信息，请参阅预览业务 Skype。"
+ms.openlocfilehash: 73043e342674db1e5a5b5b4acf11927922adef6e
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="skype-meeting-broadcast-preview-settings"></a>Skype 会议广播预览设置
 
-# Skype 会议直播预览设置
+业务客户预览计划 Skype 提供您早期对新产品和新功能。 它使您的公司能够获得抢先看了什么，测试出您自己的环境中的新功能和之前我们发布的产品版本向公众提供反馈。 若要了解详细信息，请参阅[Skype 业务预览](https://www.skypepreview.com/)。
 
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
+## <a name="related-topics"></a>相关主题
+[Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
   
-Skype for Business 客户预览计划提供您最初对访问新产品和功能。 它使您的组织以获取快速浏览即将推出，测试出您自己的环境中的新增功能和提供反馈，我们发布给公众的产品版本之前。若要了解详细信息，请参阅[Skype for Business 预览版](https://www.skypepreview.com/)。
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
+[设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

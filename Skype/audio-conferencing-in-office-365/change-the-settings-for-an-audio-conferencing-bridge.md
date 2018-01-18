@@ -1,96 +1,101 @@
 ---
-title: "更改音频会议网桥的设置"
+title: "更改音频会议桥的设置"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/10/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
-description: "Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business clients. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: 'Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that''s used to prompt callers and gather names and pins for meeting organizers when they''re not using Skype for Business clients. '
+ms.openlocfilehash: 5da33e083999f00d217a86455f61fd58ca2d1713
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议桥的设置
 
-# 更改音频会议网桥的设置
+要设置 Office 365 中的音频会议，将为您的用户从所谓的音频会议网桥收到电话号码。 会议桥可以包含一个或多个电话号码。 调用方拨号加入会议时，将使用这些电话号码。 电话号码是包含在业务或 Microsoft 小组会议邀请的 Skype 的底部。
+  
+会议桥应答呼叫，并提示调用方通过语音提示使用会议自动助理，然后根据您的设置，它可以播放通知，要求调用方来记录他们的姓名，并控制 PIN 设置。 针脚提供给会议组织者，使他们开始会议时不使用 Skype 业务或 Microsoft 团队的应用程序。
 
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
+    > [!IMPORTANT]
+    > A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting. If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting. 
   
-设置 Office 365 中的音频会议时，会为您的用户从所谓的音频会议网桥收到电话号码。会议网桥可以包含一个或多个电话号码。呼叫者拨入会议时，使用这些电话号码。电话号码将包括Skype for Business或 Microsoft 小组会议邀请底部。
-  
-会议网桥应答呼叫，并将呼叫者提示语音提示使用会议自动助理，然后，具体取决于您的设置，可播放通知、 要求呼叫者录制其姓名，然后控制 PIN 设置。Pin 提供给会议组织者以允许他们启动会议时未使用Skype for Business或 Microsoft 小组应用程序。
-  
-> [!IMPORTANT]
-> PIN 只能为所需的会议组织者时Skype for Business或 Microsoft 小组应用用户未已经启动会议。如果每个人都拨入会议，则 PIN 是必需的会议组织者启动会议。 
-  
-## 更改音频会议网桥的设置
+## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议桥的设置
 
- **当呼叫者加入会议时设置会议体验**
+ **当调用方加入会议设置会议经验**
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到" **Office 365 管理中心**">" **Skype for Business**"。
+2. 请转到**Office 365 管理中心** > **业务的 Skype**。
     
-3. 在 **Skype for Business 管理中心**中，在左侧导航中转到 **音频会议**> **Microsoft 网桥的设置**。
+3. 在**业务管理中心的 Skype**，在左边的导航转到**音频会议** > **Microsoft 网桥的设置**。
     
-4. 在 **Microsoft 网桥设置**页面上的在 **会议加入体验**，下，选择：
+4. 在下**会议连接体验**， **Microsoft 网桥的设置**页，请选择：
     
-  - **启用会议进入和退出通知打开**默认情况下选择此选项。如果清除此复选框，则不会收到已加入会议的用户，当有人进入或离开会议。
+  - **启用会议进入和退出通知以打开**默认情况下选择此选项。 如果清除复选框，当有人进入或离开会议，不会通知用户已加入会议。
     
-    当您选择 **启用会议进入和退出通知以打开**时，您可以从 **条目/退出通知类型**列表中选择这些选项：
+    **启用会议进入和退出通知以打开**选择时，您可以从**入口/出口公告类型**列表中选择这些选项：
     
-  - **名字或电话号码**当用户拨入会议时，在加入它时，将播放其电话号码。
+  - **姓名或电话号码**当用户拨号加入会议时，在他们加入时将播放他们的电话号码。
     
-  - **色调**当用户拨入会议时，加入它时，将播放音频的色调。
+  - **拨号音**当用户拨号加入会议时，将它加入后播放音频音调。
     
     > [!NOTE]
-    > 当前所有客户都可以将 **音调**作为通知类型，这是一项预览功能。 
+    > [!注释] 当前所有客户都可以将 **音调**作为通知类型，这是一项预览功能。
   
-  - **要求呼叫者能够录制其姓名之前加入会议**默认情况下选择此选项。如果清除此复选框，不要求呼叫者加入会议之前录制其姓名。
+  - **提出调用方来记录他们的姓名之前加入会议**默认情况下选择此选项。 如果清除复选框，将不要求调用方之前他们加入会议记录他们的姓名。
     
 5. 完成更改后，单击" **保存**"。
     
- **设置会议 PIN 长度**
+**设置会议的针长度**
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到" **Office 365 管理中心**">" **Skype for Business**"。
+2. 请转到**Office 365 管理中心** > **业务的 Skype**。
     
-3. 在 **Skype for Business 管理中心**，在左侧导航中，转到 **音频会议**> **Microsoft 网桥的设置**。
+3. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议** > **Microsoft 网桥的设置**。
     
-4. 在 **Microsoft 网桥设置**页面上，在 **安全性**下输入所需的 pin **PIN 长度**列表中的位数，然后单击 **保存**。
+4. 在**Microsoft 桥设置**页上，在**安全**下，输入 PIN**针长度**列表中，为所需的位数，然后单击**保存**。
     
     > [!IMPORTANT]
-    > 4 到 12 位之间必须固定。 
+    > PIN 必须介于 4 到 12 位。 
   
- **选择是否向用户发送电子邮件**
+**选择是否要将电子邮件发送给您的用户**
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到" **Office 365 管理中心**">" **Skype for Business**"。
+2. 请转到**Office 365 管理中心** > **业务的 Skype**。
     
-3. 在 **Skype for Business 管理中心**，在左侧导航中，转到 **音频会议**> **Microsoft 网桥的设置**。
+3. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议** > **Microsoft 网桥的设置**。
     
-4. 在 **Microsoft 网桥设置**页面中，选择或清除 **其音频会议配置改变时自动发送给用户的电子邮件**，，然后单击 **保存**。
+4. 在**Microsoft 桥设置**页上，选择或清除**其音频会议配置改变时自动发送电子邮件发送给用户**，，然后单击**保存**。
     
-    有关详细信息，请参阅[其音频会议设置更改时自动发送给用户的电子邮件](emails-that-are-automatically-sent-to-users-when-their-audio-conferencing-settin.md)。
+    有关详细信息，请参阅[电子邮件自动发送给用户的音频会议设置更改时](emails-sent-to-users-when-their-settings-change.md)。
     
-## 想知道如何使用 Windows PowerShell 进行管理吗？
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
-- 为节省时间或自动执行此过程，您可以使用[设置 CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 ) cmdlet。
+- 若要节省时间或自动执行此过程，您可以使用[一组 CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 ) cmdlet。
     
-- Windows PowerShell 是有关管理用户和允许或不可以执行哪些用户的所有信息。 使用 Windows PowerShell，您可以管理Office 365使用单一管理，当您有多个要执行的任务可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为什么您需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为什么需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 具有许多优于速度、 简单起见和工作效率中的仅使用 Office 365 管理中心中，例如，当您正在进行设置更改为许多用户，一次。 了解有关以下主题中的以下优势：
+- Windows PowerShell 许多相比具有的优势在速度、 简易性和生产率仅使用 Office 365 管理中心，例如，当将设置更改为许多用户一次。 了解这些优势中的以下主题： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -99,18 +104,9 @@ description: "Get the steps you need to change settings for a Microsoft dial-in 
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。 
+    > [!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>相关主题
 
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
-## 另请参阅
-<a name="MT_Footer"> </a>
-
-#### 其他资源
-
-[Office 365 中的电话拨入式会议](../misctopics/dial-in-conferencing-in-office-365.md)
+[设置 Skype for Business 和 Microsoft Teams 音频会议](set-up-audio-conferencing.md)
 

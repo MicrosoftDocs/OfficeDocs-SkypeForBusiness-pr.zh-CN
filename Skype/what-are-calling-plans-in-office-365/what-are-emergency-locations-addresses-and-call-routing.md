@@ -2,74 +2,72 @@
 title: "什么是紧急位置、地址和呼叫路由？"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.AddressAndLocation
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
-description: "Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.AddressAndLocation
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: 'Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. '
+ms.openlocfilehash: b6f9ffcbba68a7892a137a68565de97fe390d00f
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-are-emergency-locations-addresses-and-call-routing"></a>什么是紧急位置、地址和呼叫路由？
 
-# 什么是紧急位置、地址和呼叫路由？
+当在 Office 365 中配置调用计划时，要求每个电话号码配给一个紧急的地址，或您可以得到的电话号码时指派给用户以支持紧急电话。 将紧急的地址分配给一个电话号码之前, 必须创建并验证一个紧急的地址。 验证可确保紧急通讯被识别并且是可供紧急响应服务的正确格式。 （可选） 可以添加紧急通讯中的位置提供更具体的用户位置。 例如，紧急位置可能是地板、 翼形或链接到特定的紧急通讯的办公室。 即使紧急地址进行验证，并不是位置。
+  
+## <a name="what-are-emergency-addresses"></a>什么是紧急地址？
 
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
+活动的电话号码，需要紧急的地址，但当它是必需是取决于国家/地区。 在美国，紧急通讯时**需要**大量分配给用户。 对于其他国家或地区，如欧洲、 中东和非洲 (EMEA) 紧急通讯时**需要**从 Office 365 或另一个服务提供商或运营商传输收到的电话号码。
   
-要在 Office 365 中配置调用计划，它是必需的紧急地址分配给每个电话号码时，您可以获得的电话号码，或者当其分配给用户支持紧急呼叫。电话号码紧急的地址之前，必须创建并验证紧急的地址。验证确保紧急地址被识别和处于可以由紧急响应服务使用的正确格式。（可选） 可以添加紧急地址中的某个位置，提供更多特定位置的用户。例如，floor、 机翼或链接到特定紧急地址的 office，则可能是紧急的位置。 即使紧急地址进行验证，则不可位置。
+紧急通讯可能称为市政地址、 街道地址或物理地址。 它是业务的为您的组织地点的街道或市政地址。 例如， *12345 北主街道，雷蒙德，WA 98052*用于路由到相应派遣机构的紧急电话，并以帮助定位紧急调用方的地址。 很可能会需要紧急的多个地址，如果您的公司有多个物理的营业地点。
   
-## 什么是紧急地址？
+验证应急通讯涉及确保它合法且紧急响应服务的格式正确。 可以创建并保存紧急地址未验证，但只有经过验证的地址可以是与用户相关联。 紧急通讯是验证并保存后，可以将它分配给用户。 如果需要更改已保存的已验证紧急地址，您将需要创建一个新。
+  
+## <a name="what-are-emergency-locations"></a>什么是紧急位置？
 
-紧急地址需要活动的电话号码，但时，它是必需的依赖于国家/地区。 在美国，紧急地址时 **需要** 数字分配给用户。为其他国家/地区，如欧洲、 中东和非洲 (EMEA) 紧急地址时 **需要** Office 365 中或从另一个服务提供商或运营商传输，获取电话号码。
+紧急位置是使建筑物内的更精确位置紧急地址相关联。 紧急的位置通常是平面布置、 建筑机翼或办公室号码用户所在的位置。 可以有无限个紧急地址相关联的位置。 
   
-紧急的地址可能称为市镇地址、 街道地址或实际地址。它是位置的企业的您的组织的街道或市镇地址。 例如，  *12345 北美主街道，Redmond，WA 98052*  用于传送到相应派遣机构紧急呼叫，并可帮助查找紧急呼叫者的地址。很可能会需要多个紧急地址如果您的公司有多个物理业务位置。
+当用户分配一个紧急的地址，是实际分配地址时采取的引用的位置标识。 位置 ID 包含被引用的紧急地址 （街道或市政地址）。 在构建位置不需要时附带的情况下紧急地址默认紧急位置。 
   
-验证紧急地址涉及确保它合法和紧急响应服务正确格式。可以创建并保存未验证，紧急地址，但只有验证的地址可与用户相关联。验证紧急地址并将其保存后，可以将它分配给用户。如果您需要更改已保存的验证紧急地址，您需要创建一个新。
-  
-## 什么是紧急位置？
+## <a name="what-is-emergency-call-routing"></a>什么是紧急呼叫路由？
 
-紧急位置都具有以为更准确的位置在办公楼紧急地址相关联。紧急位置通常是平面布置、 构建机翼或办公室号码用户所在的位置。您可以添加任意的数量的位置与紧急地址关联。
+紧急的地址和位置路由到相应的派单中心的紧急电话的过程时使用调度紧急的第一反应。 当业务用户的 Skype 拨叫紧急号码时，如何将呼叫路由到服务公共安全应答点 (PSAP) 会因国家/地区。 在某些国家，如美国和英国，该调用将第一次进行检查，以连接到相应调度中心电话之前确定当前用户的位置。 在其他国家/地区，调用将被直接路由到调度中心服务的关联与紧急呼叫的电话号码。
   
-向用户分配紧急地址，实际上是分配地址时引用的位置 ID。 位置 ID 包括引用的紧急地址（街道或市镇地址）。 如果不需要建筑内的位置，则紧急地址将包括默认紧急位置。 
-  
-## 什么是紧急呼叫路由？
+## <a name="creating-adding-and-assigning-emergency-locations-and-addresses-to-your-users"></a>创建、 添加和将紧急位置和地址分配给您的用户
 
-紧急地址和位置路由到相应派遣中心的紧急呼叫过程中时使用调度紧急的第一个响应。 当 Skype for Business 用户拨紧急的数字时，如何将呼叫路由到服务公共安全回答点 (PSAP) 将会因国家/地区。 某些国家/地区，例如在美国和英国，呼叫会先进行检查，以确定当前位置的用户，然后才能连接到相应派遣中心呼叫。 在其他国家/地区，呼叫将被直接路由到调度中心提供与紧急呼叫关联的电话号码。
-  
-## 创建、 添加和分配给您的用户的紧急位置和地址
-
-1. **规划紧急位置**第一步是规划紧急的位置。您需要列出所有您的实际地址。 然后，基础，确定是否需要紧急地址的位置，并且如果是这样，什么是。例如，如果企业具有 3 办公楼每个与 4 楼层，很可能，还需要具有楼层 1-4 对于每个列为位置 3 紧急的地址。
+1. **规划对于紧急的位置**第一步是安排紧急的位置。 您需要列出所有您的物理地址。 然后，此基础，确定是否需要紧急地址的位置，如果出现这种情况，它们是什么。 例如，如果企业具有 3 办公楼每 4 厂用，很可能，必须有 3 个紧急地址，与 1-4 的位置列出每个楼层。
     
-2. **创建并验证紧急位置** 下一步是创建和验证紧急地址。当你创建紧急地址时，可以验证它。要创建紧急地址，请参阅[为你的组织添加或删除紧急地址](add-or-remove-an-emergency-address-for-your-organization.md)。
+2. **创建和验证您的紧急位置**下一步是创建并验证您的紧急地址。 创建一个紧急的地址时，可以对其进行验证。 若要创建一个紧急的地址，请参阅[添加或删除为您的组织满足紧急情况](add-or-remove-an-emergency-address-for-your-organization.md)。
     
     > [!IMPORTANT]
-    > 验证的街道或市镇地址涉及确保它合法和正确格式。很可能部分正确的紧急地址，例如输入错误名称的城市，可能仍通过通过验证。验证过程使用给定的地址的所有部分确定它是否包含足够的信息来传送到相应的紧急派遣中心呼叫。 如果是这样，它会返回验证，然后可以分配给电话号码。 
+    > 验证的街道或市政地址涉及确保它合法且格式正确。 它有可能部分正确的急诊地址，例如键入错误的城市，可能仍然通过密码验证。 验证过程使用给定地址的所有部分来确定它是否包含足够的信息路由到适当的紧急调度中心呼叫。 如果是这样，它会返回验证，然后可以分配到一个电话号码。 
   
-3. **获取电话号码**下一步是为您的用户获取电话号码。通过 Office 365 中收到新的电话号码或""导入或将您现有的电话号码，通过转到 Office 365，您可以执行此操作。若要完成的步骤，请参阅[将电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md)。
+3. **获取电话号码**下一步是获取用户的电话号码。 通过从 Office 365 中获取新的电话号码或"移植"或将对您现有的电话号码转到 Office 365 可以执行此操作。 若要查看完整的步骤，请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。
     
-4. **分配电话号码**最后一步是使用户能够拨打和接听电话呼叫。若要执行此操作，您必须为每个用户分配电话号码。请参阅[为用户分配、更改或删除电话号码](assign-change-or-remove-a-phone-number-for-a-user.md)分配电话号码。
-    
-## 
-<a name="MT_Footer"> </a>
+4. **指定的电话号码**最后一步是使用户能够拨打和接听电话。 若要执行此操作，必须为每个用户分配一个电话号码。 请参阅[指派、 更改或删除的用户的电话号码](assign-change-or-remove-a-phone-number-for-a-user.md)分配的电话号码。
 
 > [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
-## 另请参阅
-<a name="MT_Footer"> </a>
+> 如果您需要得到比这更多的电话号码，请[联系支持业务产品的管理帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-#### 其他资源
+    
+## <a name="related-topics"></a>相关主题
+[什么是地址验证？](what-is-address-validation.md)
 
-[Skype for Business Online： 紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
-  
-[紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
-  
-[音频会议免费拨出时间段](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
+[不同种类的用于调用计划的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
+[紧急呼叫条款和条件](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)

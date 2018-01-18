@@ -1,21 +1,32 @@
 ---
-title: "Skype for Business PSTN 呼叫 - 英国投诉处理准则"
+title: "投诉处理代码为大不列颠及北爱尔兰联合王国 （英国）"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 9/20/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 6f51ee4a-d939-4ba3-8659-ccf012d069f8
-description: "Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Legal
+description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
+ms.openlocfilehash: eb98b00f7301e29a0a0039f78bd86b4bcfa999c5
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>投诉处理代码为大不列颠及北爱尔兰联合王国 （英国）
 
-# Skype for Business PSTN 呼叫 - 英国投诉处理准则
-
-此准则根据英国通信法规制定，用于规范英国 (UK) 小型企业（员工数等于或小于 10 人的组织）客户在 Skype for Business PSTN 呼叫服务（以下称为"服务"）方面的行为。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
+本守则适用于在大不列颠及北爱尔兰联合王国 （英国） Office 365 调用计划服务 （"服务"） 根据英国通信管理法规方面的小型企业客户 （组织与 10 个员工，或更少）。 其他业务服务 Skype 受您与微软公司以及任何其他条款适用于您的特定服务使用的服务协议。
   
-## 如何投诉
+## <a name="how-to-make-a-complaint"></a>如何投诉
 
 获得客户满意是 Skype for Business 的首要任务。 但是，如果由于某些原因导致你对该服务不满意，你可以通过电话或在线提出投诉：
   
@@ -23,7 +34,7 @@ description: "Learn how to make a complaint for Skype for business calling servi
     
 - 在线： 登录 Office 365 管理中心并在" **新建服务请求**"下选择" **支持**"来提交服务请求。 
     
-## 时间表
+## <a name="timelines"></a>时间表
 
 如果在正常营业时间通过电话提出投诉，你将与 Skype for Business 人工代表交谈，该代表会尝试在通话期间解决问题。
   
@@ -33,9 +44,9 @@ description: "Learn how to make a complaint for Skype for business calling servi
   
 Skype for Business 将努力在收到投诉的七个 (7) 工作日内解决与服务相关的所有投诉。 
   
-如果你不满意我们管理服务投诉的方式，可以通过电话或电子邮件，要求处理你投诉的 Skype for Business 代表根据服务协议上报投诉。 Microsoft 会在收到投诉的七个 (7) 工作日内对投诉进行评估。
+如果您不满意，就要针对服务投诉的方式，您可能会问 Skype 业务代表处理您的投诉，通过电话或电子邮件，能够提升到投诉按服务协议。 Microsoft 将收据的七 （7） 天内评估投诉。
   
-## 备选争议解决办法
+## <a name="alternative-dispute-resolution"></a>备选争议解决办法
 
 如果你关于服务的投诉在提交八 (8) 周后未解决或者你收到了表明我们已做出最终决定的来信，你可以将投诉提交给 Ombudsman Services，它是经 Ofcom 批准的处理通信服务投诉的第三方机构。 我们还会以书面形式通知你可以使用此类备选争议解决服务。 
   
@@ -45,15 +56,15 @@ Ombudsman Services 独立于 Microsoft，它会对投诉案情作出公正的决
   
 有关向 Ombudsman Services 提交投诉的步骤，请参阅 Ombudsman Services 的[网站](http://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809)。
   
-你可以通过在 Ombudsman Services 的网站上填写联系表格来联系 Ombudsman Services，也可以通过电话、信件或电子邮件与之联系：
+通过填写联系人窗体 Ombudsman 服务的网站上或通过电话、 信件或电子邮件时，可能会达到 Ombudsman 服务：
   
-- 联系表格： [https://www.ombudsman-services.org/contact-us-communications.html](https://www.ombudsman-services.org/contact-us-communications.mdl)
+- 联系人窗体： [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
     
 - 电话： 0330 440 1614
     
     传真： 0330 440 1615
     
-     文本电话： 0330 440 1600
+    文本电话： 0330 440 1600
     
 - 电子邮件： [osenquiries@os-communications.org](mailto:osenquiries@os-communications.org)
     
@@ -68,3 +79,5 @@ Ombudsman Services 独立于 Microsoft，它会对投诉案情作出公正的决
     WA4 6WU
     
 
+## <a name="related-topics"></a>相关主题
+[音频会议和调用计划的国家和地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

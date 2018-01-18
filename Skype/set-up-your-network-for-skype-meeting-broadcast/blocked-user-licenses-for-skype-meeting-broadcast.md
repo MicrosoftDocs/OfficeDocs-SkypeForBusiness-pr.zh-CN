@@ -1,63 +1,69 @@
 ---
-title: "为 Skype 会议直播阻止用户许可证"
+title: "Skype 会议广播为阻止用户许可证"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/28/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: b898557c-547f-4055-9478-d17fb653285f
-description: "很遗憾，还有某些被阻止的用户许可证当用户转到 https://broadcast.skype.com，并且想要使用 Skype 会议直播。如果用户将看到此消息，他们拥有一个被阻止的许可证分配给他们。如果您仍然希望他们使用它，请将其分配另一个 Office 365 许可证。"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: SMB
+description: "遗憾的是，有某些被禁止的用户许可证当用户转到 https://broadcast.skype.com 并且想要使用 Skype 会议广播。 如果用户看到此消息，它们具有分配给它们的阻止许可证之一。 如果您仍然希望他们能够使用它，请将它们指派另一个 Office 365 提供许可证。"
+ms.openlocfilehash: b4eafe373220a7846b37da52088ed534aa4bc2b9
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Skype 会议广播为阻止用户许可证
 
-# 为 Skype 会议直播阻止用户许可证
+遗憾的是，将用户转到 https://broadcast.skype.com 并且想要使用 Skype 会议广播时，将禁用某些用户许可证。 如果用户看到此消息，它们具有分配给它们的阻止许可证之一。 如果您仍然希望他们能够使用它，请将它们指派另一个 Office 365 提供许可证。
+  
+ *"您的公司策略不允许您使用 Skype 会议广播。请检查与您的系统管理员，以确保启用该服务，并且您具有正确的许可证。* 
+  
+## <a name="blocked-user-licenses"></a>被阻止的用户许可证
 
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
+如果将任何以下用户许可证分配给用户，Skype 会议广播将被阻止。
   
-很遗憾，还有某些被阻止的用户许可证当用户转到 https://broadcast.skype.com，并且想要使用 Skype 会议直播。如果用户将看到此消息，他们拥有一个被阻止的许可证分配给他们。如果您仍然希望他们使用它，请将其分配另一个 Office 365 许可证。
-  
- *"您的公司策略不允许您可以使用 Skype 会议直播。请与您的系统管理员，以确保启用该服务，并且您具有正确的许可证。"* 
-  
-被阻止的用户许可证
-  
-如果任何以下用户许可证分配，Skype 会议直播将被阻止。
-  
-- Office 365 教育版预计完成成本/员工
+- Office 365 教育预计完成成本/人员
     
-- Office 365 教育版学生
+- Office 365 教育学生
     
-- Office 365 教育版以及预计完成成本/员工
+- Office 365 教育再加上预计完成成本/员工
     
-- Office 365 教育版以及学生
+- Office 365 教育再加上学生
     
-- Office 365 教育版 E1 预计完成成本/员工
+- Office 365 教育 E1 预计完成成本/人员
     
-- Office 365 教育版 E1 学生
+- Office 365 教育 E1 学生
     
-- Office 365 教育版 E3 预计完成成本/员工
+- Office 365 教育 E3 预计完成成本/人员
     
-- Office 365 教育版 E3 预计完成成本/教职员工大
+- Office 365 教育 E3 预计完成成本/职工大
     
-- Office 365 教育版 E3 学生
+- Office 365 教育 E3 学生
     
-- Office 365 A3 学生使用优点
+- Office 365 A3 学生使用效益
     
-- Office 365 A5 学生使用优点
+- Office 365 A5 学生使用效益
     
-- Office 365 A5 不含 PSTN 会议学生使用好处
+- Office 365 A5 w/o PSTN 会议学生使用效益
     
-- Microsoft 365 A3 学生使用好处
+- Microsoft 365 A3 学生使用优点
     
-- Microsoft 365 A5 学生使用好处
+- Microsoft 365 A5 学生使用优点
     
-- Microsoft 365 A5 学生使用不带 PSTN 会议的好处
+- PSTN 会议没有 Microsoft 365 A5 学生使用优点
     
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>相关主题
 
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
+[Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
   
-
+[设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)

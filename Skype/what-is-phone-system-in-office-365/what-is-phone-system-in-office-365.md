@@ -1,25 +1,25 @@
 ---
-title: "什么是 Office 365 中的电话系统？"
+title: "Office 365 中的电话系统是什么？"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/14/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 5e87c9ed-c3e8-43b1-b95d-077ee9351c99
-description: ""
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: None
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: None
+description: "了解有关电话系统可以为您做些什么。 "
+ms.openlocfilehash: cbb3ac6582c11e04e9ba7cfaec1c1b387ceb9b3b
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
-
-# 什么是 Office 365 中的电话系统？
-
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
-
+# <a name="what-is-phone-system-in-office-365"></a>Office 365 中的电话系统是什么？

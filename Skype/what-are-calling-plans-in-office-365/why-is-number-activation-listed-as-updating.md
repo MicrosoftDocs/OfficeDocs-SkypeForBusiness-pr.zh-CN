@@ -1,96 +1,102 @@
 ---
-title: "为什么号码激活被列为正在更新？"
+title: "为什么数字激活列为更新？"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-f1_keywords:
-- ms.lync.lac.NumberActivationStateUpdating
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: edc71baa-0899-4bb7-8643-a4c4064af627
-description: "地址验证是设置的致电 Office 365 中计划的重要部分。它提供您的组织中的用户可以使用紧急响应服务紧急呼叫地址。"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.NumberActivationStateUpdating
+ms.custom: Calling Plans
+description: "地址验证是设置 Office 365 中调用计划的重要组成部分。 它提供您的组织中的用户可以使用紧急响应服务的紧急呼叫地址。"
+ms.openlocfilehash: 55a09434d02c083ee59f175e1e13fcb324979be0
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="why-is-number-activation-listed-as-updating"></a>为什么数字激活列为更新？
 
-# 为什么号码激活被列为正在更新？
-
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
+地址验证是设置 Office 365 中调用计划的重要组成部分。 如果电话号码不能激活并列为**更新**地址验证由于某种原因，您需要创建和提交的服务请求。 这如何取决于组织的规模。
   
-地址验证是设置的致电 Office 365 中计划的重要部分。它提供您的组织中的用户可以使用紧急响应服务紧急呼叫地址。
-  
-## 创建服务请求以验证紧急地址
+## <a name="for-organizations-150-or-less-follow-these-steps"></a>对于 150 或更少的组织中，请按照下列步骤
+1. 在**Office 365 管理中心**，选择**需要帮助**？
+2. 在**时需要帮助？**窗格中，告诉我们您需要帮助，然后选择**获取帮助**。
+3. 如果不帮助中的**解决方案**部分的结果，选择下列项之一：
+    - **让我们给您 （推荐） 电话**： 确认您的电话号码，然后按**呼叫我**。 调用的期望的等待时间步所示**需要帮助？**窗格。
+    - **我们的电子邮件**： 确认您的电子邮件地址，然后选择**发送**。 所示的调用响应时间**需要帮助？**窗格。
 
-1. 使用工作或学校帐户，以管理员身份登录 Office 365。
+## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>对于 150 多个用户，创建服务请求来验证紧急地址
+
+1. 使用你的工作或学校帐户，以管理员身份登录 Office 365。
     
-2. 在 Office 365 管理中心内的左导航窗格中，单击" **支持**">" **服务请求**"。
+2. 在 Office 365 管理中心，在左边的导航，请单击**支持** > **新的服务请求**。
     
-3. 在" **服务请求**"下，单击" **添加**"。
+3. 在**服务请求**下单击**添加**。
     
 4. 在" **创建服务请求**"页面上，单击" **联机协作**"。
     
-5. 在" **识别问题**"页面上，选择和输入以下信息：
+5. 在**识别问题**页上，选择并在下面输入：
     
-  - 对于" **功能**"，选择选择" **国内呼叫**"和/或" **国际呼叫**"。
+  - **功能：**选择**国内调用计划**和/或**国内和国际计划**。
     
-  - 对于" **症状**"，输入" **紧急呼叫**"。
+  - **症状：**输入**紧急调用**。
     
-  - 对于" **问题摘要**"，输入" **地址验证**"。
+  - **问题摘要：**输入**地址验证**。
     
-  - 对于" **问题详细信息**"，输入要验证的地址的所有相关详细信息，例如
+  - **发货详细信息：**输入有关要如验证地址的任何详细信息:
     
-  - 街道编号
+      - 街道编号
     
-  - 街道名称
+      - 街道名称
     
-  - 城镇
+      - 城镇或城市
     
-  - 国家/地区
+      - 国家或地区
     
     > [!IMPORTANT]
-    > **输入我们提供 Office 365 通话套餐的国家/地区，其中该套餐会在分配电话号码时尝试用此信息来验证紧急地址。**
+    > **将国家/地区我们提供您正在时您要分配电话号码验证紧急通讯中的 Office 365 中调用计划。**
   
-  - 邮政编码
+      - 邮政编码
     
-6. 单击" **下一步**"页面，然后单击" **是, 继续**"以继续操作。
+6. 单击" **下一步**"页面，然后单击" **是，继续**"以继续。
     
 7. 在" **添加详细信息**"页面上， 选择和输入以下信息：
     
-  - 对于" **你的服务是否不可用?**"，选择" **否**"。
+  - **将您的服务不可用？** 选择**否**。
     
-  - 对于" **有多少用户受到影响?**"，选择" **部分用户**"。
+  - **多少用户会受到影响？** 选择**一些用户**。
     
-  - **输入受此问题影响的用户的电子邮件地址**或保留为空。
+  - **输入电子邮件地址的人受此问题**或保留为空。
     
-  - **选择要列出的域**
+  - **选择您希望列出的域**
     
-  - 若需要验证多个地址，请 **附加文件**。
+  - **附加一个文件**如果您有多个地址您需要验证。
     
   - 单击" **下一步**"。
     
   - 输入联系人的电话号码。
     
-8. 审阅信息，然后单击" **提交请求**"。
+8. 查看信息，，然后单击**提交申请**。
     
 > [!TIP]
-> 将在 Office 365 管理中心中的 **查看服务请求**页上列出的引用编号。 
-  
-## 
-<a name="MT_Footer"> </a>
+> [!提示] 将在 Office 365 管理中心中" **服务请求**"页面上列出参考编号。
 
 > [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
+> 如果您需要得到比这更多的电话号码，请[联系支持业务产品的管理帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
-## 另请参阅
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>相关主题
+[传送电话号码的常见问题](transferring-phone-numbers-common-questions.md)
 
-#### 其他资源
+[不同种类的用于调用计划的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
-  
-[音频会议免费拨出时间段](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)

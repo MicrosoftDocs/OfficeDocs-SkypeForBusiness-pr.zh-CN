@@ -1,46 +1,44 @@
 ---
-title: "如果我的手机运营商未列出为源运营商？"
+title: "如果我的电话运营商不列为源承运人？"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderDetailPanelWhois
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: a8315746-0d17-4c75-ae37-eab82532a3d8
-description: "Learn what to do if your carrier isn't listed in Skype for Business."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderDetailPanelWhois
+ms.custom: Calling Plans
+description: "了解在 Skype 的业务中没有列出您的运营商时应该怎么做。 "
+ms.openlocfilehash: 71a2ba5fd3a91a4ac31586020dd11af3086dcf48
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>如果我的电话运营商不列为源承运人？
 
-# 如果我的手机运营商未列出为源运营商？
-
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
-  
-当您看到您的运营商的名称未列出，它是有点混乱。在大多数情况下，如果服务提供商或运营商不同，很可能是正在转移上方的电话号码归另一个服务提供商或运营商。可以时服务提供商或运营商列出可以不同于当前服务提供商因为您当前的服务提供商可能使用第三方服务提供商的时间。
+当您看到您的运营商名称未列出，它是有点令人困惑。 在大多数情况下，如果服务提供商或运营商不同，很可能会转移到的电话号码均由不同的服务提供商或运营商。 有的次当服务提供商或运营商列出可以不同于您当前的服务提供商由于当前服务提供商可能使用第三方服务提供商。 
   
 示例：
   
-- 如果你要作为运营商从 Skype for Business 转网号码，可能会看到列出了等级 3。
+- 如果正在移植作为运营商的业务的 Skype 之间的数字，可能会看到列出的级别 3。
     
- **完成的分步说明，请参阅[将电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md)。**
-  
-## 
-<a name="MT_Footer"> </a>
+ **完整的逐步说明，请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。**
 
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
-## 另请参阅
-<a name="MT_Footer"> </a>
+    > [!NOTE]
+    > 如果您需要得到比这更多的电话号码，请[联系支持业务产品的管理帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-#### 其他资源
+  
+## <a name="related-topics"></a>相关主题
+[传送电话号码的常见问题](transferring-phone-numbers-common-questions.md)
 
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
-  
-[音频会议免费拨出时间段](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)

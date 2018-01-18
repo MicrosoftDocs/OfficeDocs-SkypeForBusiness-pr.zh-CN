@@ -1,59 +1,63 @@
 ---
-title: "呼叫分析和呼叫质量仪表板之间的区别是什么？"
+title: "调用分析和呼叫质量仪表板之间的区别是什么？"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.date: 5/31/2017
-ms.audience: Admin
-ms.topic: reference
-ms.prod: office-online-server
-localization_priority: Normal
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
-description: "Learn about Call Analytics and Call Quality Dashboard and when to use them to monitor and troubleshoot call-quality problems in Skype for Business."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "了解如何调用分析和呼叫质量控制板以及何时使用它们来监视并排除在业务的 Skype 通话质量问题。"
+ms.openlocfilehash: bc42c5a58520cbb96f523181ba350d46e3c64a3e
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="whats-the-difference-between-call-analytics-and-call-quality-dashboard"></a>调用分析和呼叫质量仪表板之间的区别是什么？
 
-# 呼叫分析和呼叫质量仪表板之间的区别是什么？
-
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
-  
-Skype for Business为您提供了两种方法可以监控和呼叫质量问题疑难解答︰ 呼叫分析和呼叫质量仪表板。本文介绍这两种，并告诉您何时使用每个区域。
+Skype 业务为您提供了两种方法可以监视并排除呼叫质量问题： 调用分析和呼叫质量仪表板。 这篇文章介绍这两类，并告诉您何时使用每个。
   
 > [!NOTE]
-> 正在预览呼叫分析。文本和图像此处所述可能与您的体验。 
+> 调用分析目前在预览中。 文本和此处所述的图像可能会不匹配您的体验。 
   
-## 什么是呼叫分析，以及何时使用它？
+## <a name="whats-call-analytics-and-when-should-i-use-it"></a>调用的分析，是什么和什么时候应该使用它吗？
 
-呼叫分析显示有关设备、 网络和连接到的特定呼叫和会议的Skype for Business帐户中的每个用户相关的详细的信息。如果您是Skype for Business管理员，您可以使用呼叫分析Skype for Business呼叫质量和连接问题疑难解答。
+调用分析显示有关设备、 网络和连接与特定的电话和 Skype 业务帐户的每个用户的会议详细的信息。 如果您是 Skype 业务管理员，可以使用调用分析诊断 Skype 业务呼叫质量和连接问题。
   
-如果您希望非管理员，例如技术支持人员代理从外部的供应商，要使用呼叫分析，您可以分配权限，以便他们可以使用呼叫分析，但不是能访问Skype for Business管理中心中的其余部分︰
+如果想让非管理员，帮助台代理从外部供应商，如用于调用的分析，您可以分配权限，以便他们可以使用调用分析但不是能访问业务管理中心的 Skype 的其余部分： 
   
-- **技术支持人员代理层 1 权限** ︰ 代理看到一组有限的数据和个人身份信息 (PII) 在呼叫分析。他们可以解决呼叫，但它们将交给问题会议 2 层工程师。
+- **使用第 1 层权限的帮助台代理**： 代理查看一组有限的数据和调用分析中的个人身份信息 (PII)。 它们可以解决电话，但他们将交接问题会议到第 2 层工程师。
     
-- **技术支持人员代理层 2 权限** ︰ 代理查看所有可用的数据，在呼叫分析和疑难解答呼叫和会议。他们拥有完全访问权限来呼叫日志和客户的信息。
+- **第 2 层的权限与帮助台代理**： 代理查看所有可用的数据调用分析中，并解决联络和会议。 它们具有完全访问权限来调用日志和客户信息。
     
-有关呼叫分析设置的详细信息，请参阅[设置 Skype for Business 呼叫分析](set-up-skype-for-business-call-analytics.md)。有关如何技术支持人员代理可以处理呼叫分析的详细信息，请参阅[使用呼叫分析来进行故障排除较差 Skype for Business 呼叫质量](use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality.md)。
+有关调用分析设置的详细信息，请参阅[设置业务调用分析的 Skype](set-up-call-analytics.md)。 有关如何帮助台代理调用分析处理的详细信息，请参阅[使用调用分析诊断较差的呼叫质量](use-call-analytics-to-troubleshoot-poor-call-quality.md)。
   
-## 什么是呼叫质量面板中，以及何时使用它？
+## <a name="whats-the-call-quality-dashboard-and-when-should-i-use-it"></a>呼叫质量面板中，是什么和什么时候应该使用它吗？
 
-呼叫分析提供有关呼叫质量经验丰富的用户的详细的特定信息。为什么用户 Tony Smith 是否有不佳呼叫下午？使用呼叫分析， Skype for Business管理员或培训的技术支持人员代理可以调查设备、 网络、 连接以及与 Tony 的呼叫相关的其他因素。
+调用分析为您提供了有关用户遇到通话质量的详细的具体信息。 为什么用户 Tony Smith 未有差调用此下午？ 使用调用分析，商业管理或经过培训的技术支持代理 Skype 可以调查设备、 网络、 连接性和与 Tony 的调用相关的其他因素。
   
-可以在其中 CA 旨在帮助管理员和技术支持人员代理的疑难解答呼叫质量特定呼叫、 呼叫质量仪表板 (CQD) 旨在帮助Skype for Business管理员和网络工程师优化网络。CQD 从特定用户将焦点移，而是检查聚合为整个Skype for Business组织信息。
+其中 CA 旨在帮助管理员和帮助台代理解决特定呼叫，通话质量问题呼叫质量仪表板 (CQD) 旨在帮助 Skype 业务管理员和网络工程师优化网络。 CQD 从特定用户将焦点移，而是检查整个 Skype 业务组织的聚合信息。 
   
-也许 Tony 的较差的呼叫质量是由于网络问题，还会影响许多其他用户。Tony 的单个调用体验未显示在 CQD，但使用Skype for Business进行呼叫的整体质量，将捕获。CQD，与整体模式可能会很明显，从而网络工程师，以使明智的评估的呼叫质量。 CQD 提供让您的见解的呼叫质量度量的报表整体呼叫质量、 客户端服务器和客户端流和语音质量[SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)。
+也许 Tony 的差的呼叫质量是由于网络问题，也影响许多其他用户。 Tony 的单个呼叫体验 CQD 中, 看不到但被捕获的业务使用 Skype 电话的整体质量。 使用 CQD，整体模式可能会变得明显，允许网络工程师进行明智的呼叫质量评估。 CQD 提供呼叫质量测量数据，为您提供深入的洞察力的报告总体呼叫质量、 服务器端和客户端客户端流和语音质量[SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)。 
   
-![Screenshot of Call Quality Dashboard in the Skype for Business Admin Center. Tabs shown are Overall Call Quality, Server - Client, Client - Client, and View Quality SLA.](../images/6eaccf99-8ee8-4f99-bdf2-ba1c72471cb9.png)
+![在业务管理中心的 Skype 通话质量仪表板的屏幕快照。 选项卡显示所调用的总体质量、 服务器-客户端，客户端-客户端和视图质量 SLA。](../images/6eaccf99-8ee8-4f99-bdf2-ba1c72471cb9.png)
   
-有关详细信息，请参阅[Skype for Business Online 呼叫质量仪表板的功能](turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-bu.md#BKMK_FeaturesOfTheCQD)。
+有关更多详细信息，请参阅[的联机业务 Skype 呼叫质量仪表板的功能](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD)。
   
-呼叫分析和 CQD 并行运行，并且可以单独或一起使用。例如，假设 1 层工程师确定他们需要疑难解答呼叫问题的更多帮助。第 1 层工程师传递给第 2 层代理，呼叫分析中有权访问的详细信息，第 1 层工程师比呼叫。反过来，第 2 层代理可以通知网络工程师到问题。网络工程师可能检查 CQD 以查看是否整体网站相关问题可能是调用问题特约原因。
+调用分析和 CQD 并行运行，而且可以单独或一起使用。 例如，假设第 1 层工程师确定他们需要诊断呼叫问题的更多帮助。 第 1 层工程师通过调用第 2 层工程师，第 1 层工程师比调用分析中具有访问权限的详细信息。 反过来，第 2 层工程师可以提醒问题的网络工程师。 网络工程师可能检查 CQD 整体网站有关的问题可能是特约呼叫问题的原因。
   
-有关 CQD 的详细信息，请参阅[打开并使用 Microsoft 团队和 Skype for Business Online 的呼叫质量仪表板](turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-bu.md)和[维度和度量值提供为 Microsoft 团队呼叫质量仪表板和 Skype for Business Online](dimensions-and-measures-available-in-call-quality-dashboard-for-microsoft-teams.md)。
+CQD 有关详细信息，请参阅[打开并使用 Microsoft 小组和 Skype 的在线业务的呼叫质量面板](turning-on-and-using-call-quality-dashboard.md)和[维度和度量值在 Microsoft 小组和 Skype 的在线业务呼叫质量仪表板中可用](dimensions-and-measures-available-in-call-quality-dashboard.md)。
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>相关主题
+[Skype 业务调用分析设置](set-up-call-analytics.md)
 
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
-
+[使用调用分析诊断较差企业的 Skype 通话质量](use-call-analytics-to-troubleshoot-poor-call-quality.md)

@@ -1,42 +1,45 @@
 ---
 title: "打开或关闭移动电话通知"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.OrgMobileNotification
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 2de47013-4f09-493c-abc5-372f56ad69e3
-description: "Learn how to turn mobile phone notirications on or off so your users can receive alerts about incoming, voice mail, and missed instant messages. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.OrgMobileNotification
+ms.custom: Setup
+description: "了解如何打开手机通知或关闭您的用户可以接收通知的接收，语音邮件，从而错过了即时消息。"
+ms.openlocfilehash: 7345859c265c8f300046a22aaac73e17292d0946
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="turn-on-or-off-mobile-phone-notifications"></a>打开或关闭移动电话通知
 
-# 打开或关闭移动电话通知
-
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
-  
-作为您的组织的 **[在 Office 365 中分配管理员角色](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** ，您可以选择在其手机或平板电脑上时， Skype for Business用户是否接收有关传入和错过的即时消息通知。
+作为**[分配管理角色 Office 365 的业务中](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)**为您的组织，您可以选择是否适用于业务用户您 Skype 时在他们的手机或平板电脑上接收到通知有关传入和错过的即时消息。
   
 在 Android 和 Windows Phone 上，将实时弹出 Skype for Business 通知。但是，在 Windows Phone、iPhone 和 iPad 设备上，当你没有在手机或平板电脑上主动使用 Skype for Business 时，则使用推送通知来显示通知。
   
-## 在您组织中所有的 Windows Phone 或 Apple 设备上禁用推送通知
+## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>在您组织中所有的 Windows Phone 或 Apple 设备上禁用推送通知
 <a name="__top"> </a>
 
-1. 登录 Office 365。
+1. 登录到 Office 365。
     
-2. 转到 **Office 365 管理中心**> **Skype for Business**。
+2. 请转到**Office 365 管理中心** > **业务的 Skype**。
     
-3. 转至" **组织**">" **常规**"。
+3. 转到**组织** > **一般**。 
     
 4. 在" **移动电话通知**"下，取消选中要禁用的通知服务旁边的框，然后单击" **保存**"。
     
-请注意：
+请注意： 
   
 - 如果你关闭推送通知，则当用户在移动设备上重新启动 Skype for Business 时，仍会收到所有通知。
     
@@ -45,18 +48,9 @@ description: "Learn how to turn mobile phone notirications on or off so your use
 - 当关闭推送通知时，用户将无法再打开推送通知。
     
 > [!IMPORTANT]
-> Microsoft 使用其他公司提供实时Skype for Business for Windows Phone、 iPhone 和 iPad 用户移动通知。请参阅[Microsoft Skype for Business 产品的隐私声明](https://go.microsoft.com/fwlink/p/?linkid=247732)。 
+>  Microsoft 使用其他公司的业务移动通知 Windows Phone、 iPhone 和 iPad 用户提供实时 Skype。 请参阅[Microsoft Skype 业务产品的隐私保护声明](https://go.microsoft.com/fwlink/p/?linkid=247732)。 
   
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
-## 另请参阅
-<a name="MT_Footer"> </a>
-
-#### 其他资源
+## <a name="related-topics"></a>相关主题
 
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
 

@@ -1,63 +1,61 @@
 ---
-title: "音频会议疑难解答和已知的问题"
+title: "故障排除音频会议和已知的问题"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/9/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 72979911-5319-4de2-a275-4dd9a0f44fe6
-
-description: "Get a list of known isses when using Microsoft as their dial-in conference provider, status, and some work arounds. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "使用 Microsoft 为其拨入会议提供商、 状态和某些解决方法时得到已知问题的列表。 "
+ms.openlocfilehash: 2ceeb81de346b15ea606d1c343e34aa300b2cf59
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="audio-conferencing-troubleshooting-and-known-issues"></a>故障排除音频会议和已知的问题
 
-# 音频会议疑难解答和已知的问题
+ **这篇文章是 Skype 业务和 Microsoft 小组使用 Microsoft 作为其音频会议提供商的用户。它不适用于正在使用第三方音频会议提供商 (ACP) 的客户。**
+  
+## <a name="troubleshooting-and-known-issues"></a>故障排除和已知问题
 
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
+音频会议为音频会议提供商已被跟踪，积极调查并将在以后更新功能时可能解决当前的问题，请使用 Microsoft Office 365 的释放。
   
- **本文是 for Skype Business 和 Microsoft 团队用户使用 Microsoft 作为其音频会议提供商。它不适用于客户在使用第三方音频会议提供商 (ACP)。**
+现在，以此作为参考当解决潜在的问题，与获取设置音频会议和为您的组织中的业务或 Microsoft 小组应用程序使用 Skype 的人工作。
   
-## 疑难解答和已知问题
+### <a name="microsoft-teams-app"></a>Microsoft 小组应用程序
 
-使用 Microsoft 与音频会议提供商具有当前正在跟踪，频繁调查并将该功能在将来更新时可能解决的问题的音频会议的 Office 365 版本。
-  
-现在，以此作为引用进行故障排除获取音频会议设置，然后使用您的组织中的业务或 Microsoft 小组应用 Skype 的人员的工作的潜在问题时。
-  
-### Microsoft 小组应用程序
-
-|**问题**|**行为中的症状**|**已知解决方法**|**发现日期**|
+|**问题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|使用"发件人"号码相同的 PSTN 呼叫者如下所示相同用户在会议名单中。  <br/> |当多个 PSTN 呼叫者加入会议，并将屏蔽为一个数字，其呼叫者 Id 时，它们将显示为单个呼叫者在会议花名册中。  <br/> |暂无解决方法。  <br/> |2017-9/25  <br/> |
-|会议信息面板不会间歇性地出来。  <br/> |会议信息面板可能不会显示在团队客户端中当用户尝试查找会议网桥电话号码或会议 id。  <br/> |查看会议详细信息或 Outlook 日历以查看会议网桥电话号码或会议 id。  <br/> |2017-9/25  <br/> |
-|从 Outlook 加载项的会议邀请中的非美国区域设置的 PSTN 坐标显示垃圾字符。  <br/> |计划使用 Outlook 加载项 for Microsoft 小组与非美国区域设置的计算机上的专用会议，PSTN 坐标可能包含垃圾字符。  <br/> |暂无解决方法。  <br/> |2017-9/25  <br/> |
-|拨出需要使用 5 位或更多位。  <br/> |用户尝试从会议拨出需要键入 5 个或多个数字，即使拨号计划规范化规则是可规范化 E.164 拨简短的数字。  <br/> |通过键入完整的 DID 数字或本地的数字格式，而不是内部分机号码拨出。  <br/> |2017-9/25  <br/> |
-|拨出控件不会间歇性地出来。  <br/> |拨出控件可能不会从会议信息面板。  <br/> |暂无解决方法。  <br/> |2017-9/25  <br/> |
-|不支持的 Microsoft 小组会议的静态会议 ID。  <br/> |如果管理员重写到静态会议 ID 动态会议 ID 的默认设置，此设置才会 Microsoft 小组会议的效果。请参阅[在您的组织中使用音频会议动态 Id](using-audio-conferencing-dynamic-ids-in-your-organization.md)。  <br/> |暂无解决方法。  <br/> |2017-9/25  <br/> |
+|与"发"号码相同的 PSTN 呼叫如下所示相同用户会议名单中。  <br/> |当多 PSTN 呼叫加入会议，并且他们呼叫者 Id 被屏蔽为一个数字时，它们将显示为单个调用方会议名单中。  <br/> |无解决方法。  <br/> |于 2017 9/25 年  <br/> |
+|会议信息面板不间歇地冒。  <br/> |会议信息面板可能不会显示团队客户端中当用户尝试查找会议桥的电话号码或会议 id。  <br/> |查看会议详细信息或 Outlook 日历以查看会议桥的电话号码或会议 id。  <br/> |于 2017 9/25 年  <br/> |
+|从 Outlook 外接程序的会议邀请非美国区域设置的 PSTN 坐标中显示乱码。  <br/> |当使用 Outlook 外接 Microsoft 小组与非美国的区域设置的计算机上的专用会议安排、 PSTN 坐标可能包含垃圾字符。  <br/> |无解决方法。  <br/> |于 2017 9/25 年  <br/> |
+|拨出需要使用 5 位数或更多。  <br/> |试图从会议拨出用户需要键入 5 或更多位数，即使提供规范化为 E.164 短数字拨号了拨号计划规范化规则。  <br/> |通过键入全部 DID 号码或本地的数字格式，而不是内部分机号码拨出。  <br/> |于 2017 9/25 年  <br/> |
+|拨出控制不间歇地冒。  <br/> |拨出控件可能无法从会议信息面板可见。  <br/> |无解决方法。  <br/> |于 2017 9/25 年  <br/> |
+|对于 Microsoft 小组会议不支持静态会议 ID。  <br/> |如果管理员重写默认设置动态会议 ID 静态会议 ID，此设置不会生效为 Microsoft 小组会议。 请参阅[使用音频会议动态 Id，您的组织中](using-audio-conferencing-dynamic-ids-in-your-organization.md)。  <br/> |无解决方法。  <br/> |于 2017 9/25 年  <br/> |
    
-### Skype for Business 应用程序
+### <a name="skype-for-business-app"></a>Skype 的业务应用程序
 
-|**问题**|**行为中的症状**|**已知解决方法**|**发现日期**|
+|**问题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|进入和退出通知时启动会议，但它们关闭不久之后打开会议开始。  <br/> |默认情况下，从两个 Skype for Business 应用程序加入的参与者的位置和拨入时时进入和退出通知的会议中禁用。您可以启用 Skype for Business 应用程序中的 **Skype 会议选项**中的公告。会议拨入所有参与者的位置，并加入会议，为参与者名单不可用到任何参与者进入和退出通知默认中启用。当会议已开始调用条目中的参与者和退出通知将打开，但时使用 Skype for Business 应用参与者联接，通知将关闭。关闭时，可以重新使用 Skype 会议中的 **选项 Skype** for Business 应用程序启用通知。 <br/> |暂无解决方法。  <br/> |2017-8/30  <br/> |
-|如果用户通过分配 E5 许可证设置第一次，有可能音频会议欢迎电子邮件无法发送给用户如果邮箱未启用。  <br/> |如果发生这种情况，您始终可以重新发送在 Skype for Business 管理中心中使用 **音频会议**或使用 PowerShell 的用户的音频会议信息。请参阅[启用或禁用发送电子邮件时更改音频会议设置](enable-or-disable-sending-emails-when-audio-conferencing-settings-change.md)。  <br/> > [!NOTE]> 为了重新发送给用户的音频会议的 PIN，请必须重置 PIN。这也可以通过在 Skype for Business 管理中心中使用 **音频会议**或使用 PowerShell。           |暂无解决方法。  <br/> |2017-8/30  <br/> |
-|音频会议呼叫可能需要多达 24 小时，以显示在使用率报告中。  <br/> |我们正在转发到进行改进，在此区域在将来的服务更新中。  <br/> |暂无解决方法。  <br/> |2017-8/30  <br/> |
-|当呼叫者拨入会议网桥会议已锁定Skype for Business用户之后时，没有通知中Skype for Business应用表明用户正在等待大厅中。  <br/> |当前此设置是特意为之，但我们会考虑此反馈以便在未来的服务更新中支持此功能。  <br/> |暂无解决方法。  <br/> |2017-8/30  <br/> |
+|进入和退出通知时开始会议，但它们正在关闭不久后打开会议开始。  <br/> |默认情况下，进入和退出的通知被禁用会议参与者加入从业务应用程序的两个 Skype 的位置，以及当它们拨入。 您可以启用**Skype 会议选项**在 Skype 的业务应用程序中的通知。 对于所有参与者拨入其中，并加入会议会议，进入和退出通知参与者名单没有给任何参与者如默认启用。 当会议已开始调用条目中的参与者和退出通知将打开，但时为业务应用程序中使用 Skype 参与者联接，通知将关闭。 关闭后，可以重新使用 Skype 在业务应用程序为**Skype 会议选项**启用通知。 <br/> |无解决方法。  <br/> |于 2017 8/30 年  <br/> |
+|如果用户通过赋 E5 许可证设置第一次，有可能为音频会议欢迎电子邮件未被传递到用户如果没有启用邮箱。  <br/> |如果发生这种情况，您始终可以重新发送用户业务管理中心在 Skype 使用**音频会议**或使用 PowerShell 的音频会议信息。 请参阅[启用或禁用音频会议设置更改时发送的电子邮件](enable-or-disable-sending-emails-when-their-settings-change.md)。  <br/> **注意：**为了重新发送给用户的音频会议针，针已被重置。 这也可以通过在业务管理中心为 Skype 使用**音频会议**或使用 PowerShell。          |无解决方法。  <br/> |于 2017 8/30 年  <br/> |
+|音频会议呼叫可能需要 24 小时来显示使用情况报告中。  <br/> |我们期待着未来的服务更新进行该区域上的改进。  <br/> |无解决方法。  <br/> |于 2017 8/30 年  <br/> |
+|当呼叫者拨入会议桥后业务用户的 Skype 已锁定会议时，没有通知中对于业务应用程序指出 Skype 用户正在等待对会议厅中。  <br/> |当前此设置是特意为之，但我们会考虑此反馈以便在未来的服务更新中支持此功能。  <br/> |无解决方法。  <br/> |于 2017 8/30 年  <br/> |
    
-## 相关主题
+## <a name="related-topics"></a>相关主题
 
-[设置音频会议 for Skype Business 和 Microsoft 团队](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
+[设置 Skype for Business 和 Microsoft Teams 音频会议](set-up-audio-conferencing.md)
   
 

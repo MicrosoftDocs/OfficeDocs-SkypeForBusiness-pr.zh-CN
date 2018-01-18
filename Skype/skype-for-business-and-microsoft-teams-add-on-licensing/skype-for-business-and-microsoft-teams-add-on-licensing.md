@@ -1,148 +1,148 @@
 ---
-title: "Skype for Business 和 Microsoft 团队许可加载项"
+title: "Skype 的附加业务和 Microsoft 小组授权"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection:
-- Adm_O365_CommTopIssues
-- Adm_Skype4B_Online
-- Adm_Skype4B_Online_Top
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
-- LIL_Placement
-- Strat_SB_PSTN
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 3ed752b1-5983-43f9-bcfd-760619ab40a7
-
-description: "Learn what add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, PSTN consumption billing, and PSTN calling plans. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Licensing
+- Strat_SB_PSTN
+- LIL_Placement
+description: "了解哪些加载项许可证，哪些功能您可以看到它，如何购买您的产品，以及如何与他们使用您现有的运营商。 可以获得有关 Office 365，通信信用信息定价和计划的详细信息，并调用计划。 "
+ms.openlocfilehash: 18359ce8ddef4e9ebaf7c6f9b5d35e6a3258021b
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="skype-for-business-and-microsoft-teams-add-on-licensing"></a>Skype 的附加业务和 Microsoft 小组授权
 
-# Skype for Business 和 Microsoft 团队许可加载项
+是否需要给某人谈论所有加载项选项？[与客户支持联系业务产品的管理帮助](http://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+  
+Skype 业务和授权的 Microsoft 小组旨在为您提供最大的灵活程度。 例如，在使用一段时间的业务功能基本 Skype 之后, 可以购买附加许可时您就可以在 Office 365 中使用更多的功能，如音频会议或电话系统。
+  
+ **寻找价格？** 请参阅[如何看到价格和购买附加许可证](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how)或下列项之一：
+  
+- [音频会议的定价](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements)
+    
+- [定价的电话系统](https://products.office.com/en-us/skype-for-business/phone-system#requirements)
+    
+- [定价的通话方案](https://products.office.com/en-us/skype-for-business/calling-plans#requirements)
+    
+## <a name="what-are-add-on-licenses"></a>什么是附加许可证？
 
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
-  
-需要找人了解一下有关所有附加选项的信息？[联系 Office 365 商业版支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
-  
-Skype for Business和 Microsoft 小组许可旨在为您提供最大的灵活性。例如，在使用基本Skype for Business功能一段时间后，当您准备好在 Office 365 中使用多个功能，如音频会议或电话系统时您可以购买附加许可。
-  
- **寻找价格？** 请参阅[如何查看价格并购买附加许可证](3ed752b1-5983-43f9-bcfd-760619ab40a7.md#bkmk_how)或下列选项之一：
-  
-- [定价的音频会议](https://products.office.com/en-us/skype-for-business/pstn-conferencing#requirements)
-    
-- [电话系统定价](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements)
-    
-- [用于呼叫计划定价](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
-    
-## 什么是附加许可证？
-
-附加许可是特定Skype for Business和 Microsoft 小组功能的许可证。某些公司希望购买价格竞争仅特定功能的灵活性。若要添加的功能，购买每个用户都将使用它的一个加载项的许可证。
+附加许可证是为特定的业务和 Microsoft 小组功能 Skype 的许可证。 一些公司想购买以低廉的价格只有特定功能的灵活性。 若要添加功能，购买每个用户都将使用它的一个附加许可证。
   
  **附加许可对成本有何影响？** 对于大多数企业，购买企业版计划中的一系列软件将降低总成本。通常，如果你单独购买多个附加许可证而不是将其作为方案的一部分购买，那么最终综合成本会很高。
   
-## 有了附加许可证，我可以获得哪些功能？
+## <a name="what-features-can-i-get-with-add-on-licenses"></a>有了附加许可证，我可以获得哪些功能？
 
-根据其已规划您具有，您可以购买附加许可证的以下Skype for Business和 Microsoft 小组功能：
+根据其已计划您，您可以为业务和 Microsoft 小组功能下 Skype 购买附加许可：
   
 |||
 |:-----|:-----|
 |**功能** <br/> |**说明** <br/> |
-|**音频会议** <br/> |有时您组织中的人员将需要使用电话拨入Skype for Business或 Microsoft 小组会议，而不是使用其计算机。使用这种情况的音频会议功能。  <br/> 若要查找您所在国家或地区是否可用音频会议，请参阅[使用电话号码的 PSTN 会议在我的国家或地区是否可用？](https://support.office.com/article/1096d81e-7e14-488c-95d8-b8322e39c059) <br/> 如果您正在寻找如何得其成本，请参阅[音频会议要求的](https://products.office.com/en-us/skype-for-business/pstn-conferencing#requirements)。  <br/> |
-|**免费电话号码拨入访问您的会议，并且可以从会议拨出好将某人添加通过拨入世界的任何电话号码** <br/> |如果添加音频会议，您可以获取此功能通过[如何设置通信贷项](3ed752b1-5983-43f9-bcfd-760619ab40a7.md#bkmk_billing)通信贷项。[什么是通信贷项？](what-are-communications-credits.md) <br/> |
-|**电话系统** <br/> |PBX 是在企业版中的电话系统。在 Office 365 中的电话系统是在Office 365托管的电话服务。它为您提供传统和创新 PBX 功能，但不复杂和昂贵设备。[下面是可以在 Office 365 中的电话系统获得](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system-in-office-365.md)。  <br/> 如果您正在寻找如何得其成本，请参阅[电话系统要求](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements)。  <br/> |
-|**致电计划** <br/> |呼叫转接到其他Skype for Business用户是免费的但如果您希望用户能够在您的企业之外的任何电话号码呼叫获取[致电 office 365 计划](calling-plans-for-office-365.md)。有计划调用国内和国际呼叫计划在 Office 365 中。  <br/> 如果您正在寻找如何得其成本，请参阅[要求呼叫计划](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)。  <br/> |
-|**Skype 会议室系统第 2 版** <br/> |这不是加载项，而是一项可将视频、音频和内容共享带入会议室的功能。请参阅 [Skype 会议室系统第 2 版许可](3ed752b1-5983-43f9-bcfd-760619ab40a7.md#bkmk_srs)。  <br/> |
+|**音频会议** <br/> |有时您组织中的用户需要使用手机连接到 Skype 的业务或 Microsoft 小组的会议，而不是使用他们的计算机。 针对这种情况下使用音频会议功能。  <br/> 若要查找您所在的国家或地区是否可用音频会议，请参阅[音频会议和调用计划的国家和地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 <br/> 如果您正在寻找如何得其成本，请参阅[音频会议的要求](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements)。  <br/> |
+|**用于拨入会议的免费电话号码，以及通过呼叫世界各地的任何电话号码从会议拨出以添加其他人的功能** <br/> |如果您添加音频会议，我们建议您[设置通信贷](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_billing)。 <br/> |
+|**电话系统** <br/> |PBX 是一项业务中的电话系统。 Office 365 中的电话系统是在 Office 365 的承载的电话服务。 它为您提供传统和创新 PBX 功能，但不复杂和昂贵的设备。 [这里是与 Office 365 中的电话系统获取的内容](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)。  <br/> 如果您正在寻找如何得其成本，请参阅[电话系统的要求](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements)。  <br/> |
+|**通话方案** <br/> |对其他适用于业务用户的 Skype 是免费的但如果您希望用户能够调用任何电话号码，您的公司外部获取[调用计划](calling-plans-for-office-365.md)。 有国内调用计划和国内及国际调用中 Office 365 计划。  <br/> 如果您正在寻找如何得其成本，请参见[调用计划的要求](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)。  <br/> |
+|**Skype 会议室系统第 2 版** <br/> |这不是加载项，而是一项可将视频、音频和内容共享带入会议室的功能。请参阅 [Skype 会议室系统第 2 版许可](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_srs)。<br/> |
    
-## Office 365 商业高级版计划用户指南
+## <a name="guidance-for-office-365-business-premium-plan-customers"></a>Office 365 商业高级版计划用户指南
 
 如果你拥有 [Office 365 商业高级版](https://products.office.com/en-us/business/office-365-business-premium)，则可以使用 Skype for Business 呼叫企业内部包含在订阅中的其他人。例如，如果你的企业有 10 个人，则可以使用 Skype for Business 相互通话和发送即时消息。
   
  **要与企业外部的人员相互拨打和接听电话，可以采用以下两个选项：**
   
-- **选项 1。使用免费[Skype 应用](https://www.skype.com/)** 。如果您有很小企业版 （例如，1-2 的人），使用 Skype 应用程序是好的方法。它是较为便宜用于国内和国际呼叫。仍然可以按住电话会议、 进行视频呼叫，并共享您的桌面版的演示文稿。[签出的费率和付款选项](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled)。
+- **选项 1。使用免费的[Skype 应用程序](https://www.skype.com/)**。 如果您有非常小的业务 （例如，1-2 人），使用 Skype 应用程序是更好的办法。 它是为国内和国际呼叫使用成本较低。 仍然可以容纳会议呼叫、 打视频电话，并共享您的桌面的演示文稿。 [检出率和付款选项](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled)。
     
     请注意 Skype 应用不属于 Office 365 套件，所以无法按 Skype for Business 的方式与 Outlook 2016 集成。这意味着 Outlook 2016 中的联系人不会显示在 Skype 中；你需将联系人添加到 Skype。
     
     建议开始先使用 Skype 应用，以确定它是否能满足你的需要。如果不能，再考虑下一个选项，即升级你的计划。
     
-    **重要** ： 您必须设置一个切换开关以允许您的员工使用Skype for Business搜索 Skype 用户。请参阅[允许 Skype for Business 用户添加 Skype 联系人](../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)。
+    **重要提示**： 您必须设置一个切换开关允许您使用 Skype 业务 Skype 用户搜索的雇员。 请参阅[适用于业务用户让 Skype 将 Skype 联系人添加](../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)。
     
-- **选项 2。升级您的计划，并购买电话系统国内和国际呼叫计划** 。
+- **选项 2。升级您的计划，并购买通讯系统和国内或国内和国际调用计划**。
     
-1. [切换到其他 Office 365 商业版计划](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。如果切换到 E3 计划，你还会获得语音邮件功能。
+1. [切换到其他 Office 365 商业版计划](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。如果切换到 E3 计划，你还会获得语音邮件功能。
     
-2. 购买 **电话系统**加载项。
+2. 购买的**电话系统**加载项。
     
-3. 购买[致电 office 365 计划](calling-plans-for-office-365.md)： 购买 **电话系统**加载项之后，您可以仅购买此。
+3. 购买[Office 365 调用计划](calling-plans-for-office-365.md)： 购买**电话系统**加载项后，您可以只购买这。
     
     对于有多人需要拨打和接听外部电话的企业而言，第二个选项是理想的选择。
     
-## 我需要购买哪些附加许可证才能获得更多功能？
+## <a name="which-add-on-licenses-do-i-need-to-buy-to-get-more-features"></a>我需要购买哪些附加许可证才能获得更多功能？
 <a name="bkmk_whichaddons"> </a>
 
-与加载项许可证，您有许多选项，可以是真正混乱。[联系 Office 365 商业版支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)，我们将引导您完成选项。
+关于附加许可证有很多选项，这些选项确实容易让人混淆。请[联系 Office 365 商业版支持人员 - 管理员帮助](http://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)，我们会为你详细介绍这些选项。
   
-选择具有下方以查看加载项许可证： 用于获取其他Skype for Business和 Microsoft 小组功能，您可以购买的计划。
+选择要查看可以购买其他 Skype 获得业务和 Microsoft 小组功能的附加许可证下面有计划。
   
-### Office 365 高级版、Office 365 专业增强订阅版或 Skype for Business Online 计划 2
+### <a name="office-365-premium-office-365-proplus-or-skype-for-business-online-plan-2"></a>Office 365 高级版、Office 365 专业增强订阅版或 Skype for Business Online 计划 2
 
 如果你已购买 [Office 365 商业高级版](https://products.office.com/en-us/business/office-365-business-premium)、[Office 365 专业增强订阅版](https://products.office.com/en-us/business/office-365-proplus-business-software)或 [Skype for Business Online 计划 2](https://products.office.com/en-us/skype-for-business/online) 计划，以下是获得更多 Skype for Business 功能需要购买的附加许可证。
   
 |||
 |:-----|:-----|
 |**要添加的功能** <br/> |**需要购买的项目** <br/> |
-|**音频会议** <br/> 购买的每个要安排或主持拨入式会议的人员的 1 的 **音频会议**许可证。与会者不需要的许可证。  <br/> |音频会议加载项 一旦您购买的许可证，Microsoft 将您的音频会议提供商。 |
-|**免费电话号码拨入访问您的会议，并且可以从会议拨出好将某人添加通过拨入世界的任何电话号码** <br/> |如何设置通信贷项|
-|**电话系统** <br/> |[切换到其他 Office 365 商业版计划](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。如果切换到 E3 计划，你还会获得语音邮件功能。  <br/>  更新您的订阅后，您将看到用于购买 **电话系统**加载项的选项。  <br/> **电话系统**加载项  <br/>  呼叫计划： 从 Office 365 购买[致电 office 365 计划](calling-plans-for-office-365.md)。  <br/>  或者，使用[如何使用我现有调用计划与Skype for Business？](3ed752b1-5983-43f9-bcfd-760619ab40a7.md#bkmk_existing)。  <br/> |
-|**致电计划** <br/> |[切换到其他 Office 365 商业版计划](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。  <br/> **电话系统**加载项  <br/> [致电 office 365 计划](calling-plans-for-office-365.md) ： 购买 **电话系统**加载项之后，您可以仅购买此。  <br/> |
+|**音频会议** <br/> 要安排或主持拨入会议每人购买 1 个**音频会议**许可证。 与会者不需要许可证。 <br/> |**音频会议**加载项 <br/>一旦购买了许可证，Microsoft 将为您的音频会议提供商。 |
+|**为您的会议，并且能够从会议拨出拨入访问的免费电话号码，要将某人添加通过世界上调用任何电话号码** <br/> |[通信片尾](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_billing)|
+|**电话系统** <br/> |1。[切换到 E1 或 E3 计划](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。 如果您切换到 E3，还可以获取语音邮件。  <br/>  更新您的订阅后，您将看到用于购买**电话系统**加载项的选项。 <br/> 2。**电话系统**加载项 <br/>  3.电话计划： 购买从 Office 365 的[调用计划](calling-plans-for-office-365.md)。 <br/>  或者，使用[现有供应商提供的电话服务](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)。  <br/> |
+|**通话方案** <br/> |1。[切换到不同的 Office 365 的业务计划](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。  <br/> 2。**电话系统**加载项 <br/> 3。[调用计划](calling-plans-for-office-365.md)： 购买**电话系统**加载项后，您可以只购买这。 <br/> |
    
 > [!NOTE]
-> 如果您使用的Skype for Business Online 计划 2 或企业版计划，而不购买 **音频会议**加载项，您可以选择使用第三方音频会议提供商。提供程序也将托管您的音频会议网桥。 
+> 如果您使用 Skype 业务联机计划 2 或企业计划，而不是购买**音频会议**该加载项，您可以选择使用第三方音频会议提供商。 该提供程序还将承载音频会议桥。
   
-### Office 365 企业版 E1、E3 和 E4
+### <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 企业版 E1、E3 和 E4
 
-如果您已购买的[Office 365 企业版 E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software)、 [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software)或 E4 计划，下面是您需要购买以获取更多Skype for Business和 Microsoft 小组功能的加载项许可证。
+如果您已购买[Office 365 企业 E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software)， [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software)或 E4 计划，以下是您需要购买更多 Skype 获得业务和 Microsoft 小组功能的附加许可证。
   
 |||
 |:-----|:-----|
 |**要添加的功能** <br/> |**需要购买的项目** <br/> |
-|**音频会议** <br/> 购买的每个要安排或主持拨入式会议的人员的 1 的 **音频会议**许可证。与会者不需要的许可证。  <br/> |音频会议加载项 一旦您购买的许可证，Microsoft 将您的音频会议提供商。 |
-|**免费电话号码拨入访问您的会议，并且可以从会议拨出好将某人添加通过拨入世界的任何电话号码** <br/> |什么是通信贷项？|
-|**电话系统** <br/> |**Office 365 电话系统**加载项  <br/>  呼叫计划： 从 Office 365 购买[致电 office 365 计划](calling-plans-for-office-365.md)。  <br/>  或者，使用[如何使用我现有调用计划与Skype for Business？](3ed752b1-5983-43f9-bcfd-760619ab40a7.md#bkmk_existing)。  <br/> |
-|**电话系统语音邮件** <br/> |对于 E1 和 E4 计划，购买 Exchange Online 计划 2。 或者，切换到 Exchange Online 计划 2 附带的 Office 套件，如 Office 365 E3。 |
-|**致电计划** <br/> |**电话系统**加载项  <br/> [致电 office 365 计划](calling-plans-for-office-365.md) ： 购买 **电话系统**加载项之后，您可以仅购买此。  <br/> |
+|**音频会议** <br/> 要安排或主持拨入会议每人购买 1 个**音频会议**许可证。 与会者不需要许可证。 <br/> |**音频会议**加载项 <br/>一旦购买了许可证，Microsoft 将为您的音频会议提供商。 |
+|**为您的会议，并且能够从会议拨出拨入访问的免费电话号码，要将某人添加通过世界上调用任何电话号码** <br/> |[通信片尾](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_billing)|
+|**电话系统** <br/> |1。 **office 365 电话系统**加载项 <br/> 2.电话计划： 购买从 Office 365 的[调用计划](calling-plans-for-office-365.md)。 <br/>  或者，使用[现有供应商提供的电话服务](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)。  <br/> |
+|**电话系统语音邮件** <br/> |对于 E1 和 E4 计划，购买 Exchange Online 计划 2。 <br/>或者，切换到 Exchange Online 计划 2 附带的 Office 套件，如 Office 365 E3。 |
+|**通话方案** <br/> |1。**电话系统**加载项 <br/> 2。[调用计划](calling-plans-for-office-365.md)： 购买**电话系统**加载项后，您可以只购买这。 <br/> |
    
 > [!NOTE]
-> 对于包含Skype for Business Online 计划 2，而不是购买 **音频会议**加载项的企业计划，您可以选择使用第三方音频会议提供商。提供程序也将托管您的会议网桥。 
+> 对于商务在线计划 2，而不是购买的**音频会议**加载项包括 Skype 的企业计划，您可以选择使用第三方音频会议提供商。 该提供程序还将举办会议桥。
   
-### Office 365 企业版 E5 （而不是音频会议）
+### <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 企业 E5 （不带音频的会议）
 
-如果您已购买的 Office 365 企业版 E5 （而不是音频会议） 计划，下面是Skype for Business和 Microsoft 小组加载项许可证，您需要购买以获取更多功能。
+如果您已购买 Office 365 企业 E5 （不带音频会议） 计划，以下是 Skype 业务和 Microsoft 小组需要购买以获得更多的功能的附加许可证。
   
 |||
 |:-----|:-----|
 |**要添加的功能** <br/> |**需要购买的项目** <br/> |
-|**音频会议** <br/> | 要获取此附加许可，请执行以下操作： <br/>  如果您已购买了 E5 计划，但在您所在国家或地区音频会议功能不可用，您需要使用第三方音频会议提供商。在[Microsoft PinPoint](https://go.microsoft.com/fwlink/?LinkId=797530)查找第三方音频会议提供商。  <br/>  检查此文章，请参阅是否音频会议将显示在您所在国家或地区：[使用电话号码的 PSTN 会议在我的国家或地区是否可用？](https://support.office.com/article/1096d81e-7e14-488c-95d8-b8322e39c059) <br/>  使用[切换到其他 Office 365 商业版计划](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)（如果可用）转移到包括它的 Office 365 企业版 E5。你也会获得到更多功能！  <br/> |
-|**电话系统是包含 ！** <br/> | 呼叫计划： 从 Office 365 购买[致电 office 365 计划](calling-plans-for-office-365.md)。  <br/>  或者，使用[如何使用我现有调用计划与Skype for Business？](3ed752b1-5983-43f9-bcfd-760619ab40a7.md#bkmk_existing)。  <br/> |
-|**电话系统语音邮件是包含 ！** <br/> |您不需要任何其他内容。  <br/> |
+|**音频会议** <br/> | 要获取此附加许可，请执行以下操作： <br/><br/> 1.如果您已经购买了 E5 计划但音频会议功能不可用在您的国家或地区，您将需要使用第三方音频会议提供商。 在[Microsoft 查明其](https://go.microsoft.com/fwlink/?LinkId=797530)查找第三方音频会议提供商。  <br/><br/>  检查这篇文章在您的国家或地区是否可用音频会议：[国家和地区的音频会议并调用计划的可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) <br/><br/> 2.如果可用，使用[开关计划按钮](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)移动到包含该 Office 365 企业 E5。 过，您将有更多的功能 ！ <br/> |
+|**电话系统将包括 ！** <br/> | 电话计划： 购买从 Office 365 的[调用计划](calling-plans-for-office-365.md)。 <br/>  或者，使用[现有供应商提供的电话服务](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)。  <br/> |
+|**电话系统语音邮件将包括 ！** <br/> |您不需要任何其他操作。  <br/> |
    
-### Office 365 企业版 E5
+### <a name="office-365-enterprise-e5"></a>Office 365 企业版 E5
 
-[Office 365 企业版 E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software)计划包括大多数Skype for Business和 Microsoft 团队功能。有几个其他选项。
+[Office 365 企业 E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software)计划包括大多数 Skype 业务和 Microsoft 小组的功能。 还有几个其他的选项。
   
 |||
 |:-----|:-----|
 |**要添加的功能** <br/> |**需要购买的项目** <br/> |
-|**音频会议是包含 ！** <br/> |一旦您购买的许可证，Microsoft 将您的音频会议提供商。  <br/> |
-|**免费电话号码拨入访问您的会议，并且可以从会议拨出好将某人添加通过拨入世界的任何电话号码。** <br/> |如何设置通信贷项|
-|**电话系统和语音邮件是包含 ！** <br/> |呼叫计划： 从 Office 365 购买致电 office 365 计划。 或者，使用如何使用我现有调用计划与Skype for Business？。 |
+|**音频会议将包括 ！** <br/> |一旦购买了许可证，Microsoft 将为您的音频会议提供商。  <br/> |
+|**免费电话号码拨入访问您的会议，并且能够从会议拨出要将某人添加通过世界上调用任何电话号码。** <br/> |[通信片尾](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_billing)|
+|**电话系统，语音邮件是包括 ！** <br/> |电话计划： 购买从 Office 365 的[调用计划](calling-plans-for-office-365.md)。 <br/>  或者，使用[现有供应商提供的电话服务](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)。 |
    
-## 如何查看价格并购买附加许可证
+## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>如何查看价格并购买附加许可证
 <a name="bkmk_how"> </a>
 
  **购买 Office 365 计划后，可通过 Office 365 管理中心** 查看价格和购买附加许可证。
@@ -151,68 +151,68 @@ Skype for Business和 Microsoft 小组许可旨在为您提供最大的灵活性
   
 展开以下部分可了解如何查看价格和获取适用于你的计划的附加许可证。
   
-### Office 365 商业高级版客户：如何查看价格并购买
+### <a name="office-365-business-premium-customers-how-to-see-prices-and-buy"></a>Office 365 商业高级版客户：如何查看价格并购买
 <a name="bkmk_buypremium"> </a>
 
- **若要获取音频会议和通信贷项：**
+ **若要获取音频会议和通信的贷方：**
   
-1. 登录到 Office 365 管理中心。
+1. 登录 Office 365 管理中心。
     
-2. 转到" **计费**">" **订阅**">" **附加许可证**">" **购买附加许可证**"。
+2. 转到**收费** > **订阅** > **加载项** > **购买的加载项**。
     
     ![To buy an add-on license, choose Buy add-on.](../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
   
-3. 现在，您将看到的价格和购买音频会议和设置通信贷项的选项。
+3. 现在，您将看到价格和购买音频会议和安装通信贷项的选项。
     
- **若要获取电话系统和呼叫计划：**
+**若要获取电话系统和一个调用计划：**
   
 1. 切换到 E1 或 E3 计划。
     
-2. 转到 Office 365 管理中心 >" **计费**">" **订阅**"。
+2. 请转到 Office 365 管理中心 >**计费** > **预订**。
     
-3. 选择 **加载项**。现在，您将看到的价格电话系统，以及购买它的选项。
+3. 选择**加载项**。 现在，您将看到电话系统，以及可以选择购买它的价格。
     
-4. 购买 **电话系统**许可证后，您将看到价格和购买调用计划选项。
+4. 您购买的**电话系统**许可证后，您将看到价格和购买计划调用的选项。
     
-### E1 和 E3 客户：如何查看价格并购买
+### <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>E1 和 E3 客户：如何查看价格并购买
 <a name="bkmk_buypremium"> </a>
 
 1. 登录 Office 365 管理中心。
     
-2. 转到" **计费**">" **订阅**">" **附加许可证**">" **购买附加许可证**"。
+2. 转到**收费** > **订阅** > **加载项** > **购买的加载项**。
     
     ![To buy an add-on license, choose Buy add-on.](../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
   
-3. 购买 **电话系统**许可证后，您将看到价格和购买调用计划选项。
+3. 您购买的**电话系统**许可证后，您将看到价格和购买计划调用的选项。
     
-### 合作伙伴：如何查看价格并购买
+### <a name="partners-how-to-see-prices-and-buy"></a>合作伙伴：如何查看价格并购买
 <a name="bkmk_partners"> </a>
 
-E3 计划是操作 Pack 的一部分。若要购买的 **电话系统**和 **音频会议**的加载项：
+E3 计划是操作包的一部分。 购买的**电话系统**和**音频会议**的加载项：
   
-1. 从我们的[市场营销网站](https://go.microsoft.com/fwlink/?LinkId=24393)购买一个座位的 E3。选择要添加到现有租户客户的选项。
+1. 从我们的[市场营销网站](https://go.microsoft.com/fwlink/?LinkId=24393)购买 E3 的一个的座位。 选择选项以将客户添加到您现有的租户。
     
-2. 登录到 Office 365 管理中心并转到" **计费**">" **订阅**">" **附加许可证**"。
+2. 登录到 Office 365 管理中心并转到**收费** > **订阅** > **加载项**。
     
-    现在，您将看到价格和购买 **电话系统**和 **音频会议**的加载项选项。
+    现在您将看到价格和购买的**电话系统**和**音频会议**的加载项选项。
     
-## 为什么我没有看到用于购买附加许可证的选项？
+## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>为什么我没有看到用于购买附加许可证的选项？
 <a name="bkmk_how"> </a>
 
-在一些情况下，不会看到购买Skype for Business和 Microsoft 团队Office 365 管理中心中的加载项的选项。
+在少数情况下，您不会看到购买 Skype 在 Office 365 管理中心的业务和 Microsoft 小组加载项的选项。
   
-- **购买Office 365 GoDaddy 通过 Business Premium** 。在此例中，您不能购买Skype for Business和 Microsoft 小组加载项。您需要切换到 E3 计划 （它不会出售 GoDaddy），然后购买。[联系 Office 365 商业版支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- **您购买 GoDaddy 通过 Office 365 的业务津贴**。 在这种情况下，您不能购买 Skype 业务和 Microsoft 小组加载项。 您需要切换到 E3 计划 （其中 GoDaddy 不出售），然后再购买。 [与客户支持联系业务产品的管理帮助](http://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
     
-- **您拥有的每月的承诺而不是每年一次提交** 。在某些情况下，拥有每月提交客户不能购买加载项 (这是不同的付款方式，可以从每月)。这是我们要修复的已知的问题。[联系 Office 365 商业版支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- **有的每月承诺而不是每年的承诺**。 在某些情况下，每月承诺的客户不能购买加载项 (这是不同的付款方式，可以从每月)。 这是一个已知的问题，我们正在修复。 [与客户支持联系业务产品的管理帮助](http://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
     
     ![You may need an annual commitment to buy add-ons.](../images/164579c2-f4df-4ae0-bd1d-bff12addb500.png)
   
-## 如何设置通信贷项
+## <a name="how-to-set-up-communications-credits"></a>如何设置通讯片尾
 <a name="bkmk_billing"> </a>
 
-您可以注册通信贷项之前，您将需要以下加载项，为最小的先决条件：
+您可以注册通信信用之前，您将需要以下加载项作为最小的系统必备组件：
   
-- 电话系统和呼叫计划
+- 电话系统和电话计划
     
 - 或者，音频会议
     
@@ -220,102 +220,94 @@ E3 计划是操作 Pack 的一部分。若要购买的 **电话系统**和 **音
   
 1. 登录 Office 365 管理中心。
     
-2. 转到 **帐单**> **订阅**> **通信贷项**。
+2. 转到**收费** > **订阅** > **通信贷**。
     
     ![Choose Skype for Business PSTN Consumption to add funds.](../images/878ae28f-b940-469f-93b1-f86f51f8244d.png)
   
 3. 选择" **添加资金**"。我们强烈建议你设置" **自动充值**"，这样不会出现因为资金用尽而导致用户无法进行呼叫的情况。
     
-4. 有关通信贷项计费注册后，您需要为每个用户分配通信贷项许可证，在您的企业由创建呼叫。将具有任意的数量的可用的许可证。
+4. 通信片尾付费注册后，您需要业务人员进行调用中为每个用户分派通信片尾许可证。 您将有无限的数量的可用的许可证。
     
     ![You'll have an unlimited number of PSTN Consumption licenses to assign to your users.](../images/9b8bf6ab-91df-47ea-927b-0b23beaed094.png)
   
-## Skype 会议室系统第 2 版许可
+## <a name="licensing-for-skype-room-systems-v2"></a>Skype 会议室系统第 2 版许可
 <a name="bkmk_srs"> </a>
 
 下表列出了 [Skype 会议室系统版本 2 帮助](https://support.office.com/article/e667f40e-5aab-40c1-bd68-611fe0002ba2)中提供的功能以及为获得这些功能需要购买的许可证。
   
 > [!NOTE]
-> 要设置的会议室需为用户对象，并且要为其分配这些许可证。 
+> [!注释] 要设置的会议室需为用户对象，并且要为其分配这些许可证。 
   
 |||||
 |:-----|:-----|:-----|:-----|
-|**Skype 会议室系统方案** <br/> |**您当前拥有 Office 365 高级版，Office 365 专业增强订阅版** 或 **Skype for Business独立计划 2。** <br/> **需要购买的项目：** <br/> |**你当前使用的是基于企业的计划。** <br/> **需要购买的项目：** <br/> |**已有 Skype for Business Server 2015（本地或混合）。** <br/> ** **需要购买的项目：**** <br/> |
+|**Skype 会议室系统方案** <br/> |**您当前拥有 Office 365 特优、 Office 365 ProPlus0 或 Skype 的业务独立计划 2。** <br/> **需要购买的项目：** <br/> |**你当前使用的是基于企业的计划。** <br/> **需要购买的项目：** <br/> |**已有 Skype for Business Server 2015（本地或混合）。** <br/> **需要购买的项目：** <br/> |
 |加入计划的会议。  <br/> |Skype for Business 独立计划 1  <br/> |E1、3、4 或 5  <br/> |Skype for Business Server 标准 CAL  <br/> |
-|启动临时会议。  <br/> |Skype for Business 独立计划 2  <br/> |E1、3、4 或 5  <br/> |Skype for Business Server 标准 CAL  <br/> Skype for Business Server 企业 CAL  <br/> |
-|启动临时会议和电话号码从会议拨出。  <br/> |Skype for Business与音频会议的独立计划 2  <br/> > [!NOTE]> 通信贷项是可选的。           |E1 或 E3 与音频会议  <br/> 或者  <br/> E5  <br/> |Skype for Business 标准 CAL  <br/> Skype for Business Server 企业 CAL  <br/> |
-|提供该聊天室的电话号码和进行或接收来自该聊天室的呼叫或加入音频会议中使用的电话号码。  <br/> |Skype for Business使用 Office 365 电话系统和呼叫计划独立计划 2  <br/> > [!NOTE]> 通信贷项是可选的。           |E1 或与 Office 365 电话系统和 Office 365 呼叫计划 E3  <br/> 或者  <br/> E5  <br/> |Skype for Business Server 标准 CAL  <br/> Skype for Business Server Plus CAL  <br/> |
+|启动的特别会议。  <br/> |Skype for Business 独立计划 2  <br/> |E1、3、4 或 5  <br/> |Skype for Business Server 标准 CAL  <br/> Skype for Business Server 企业 CAL  <br/> |
+|发起召开特别会议，从会议到电话号码拨出。  <br/> |Skype 的音频会议的业务独立计划 2  <br/> **注意：**通信片尾是可选的。           |E1 或 E3 与音频会议  <br/> 或者  <br/> E5  <br/> |Skype for Business 标准 CAL  <br/> Skype for Business Server 企业 CAL  <br/> |
+|提供一个电话号码的房间并进行或从文件室中接听或加入音频会议中使用的电话号码。  <br/> |Skype 业务独立计划 2 与 Office 365 的电话系统和电话计划  <br/> **注意：**通信片尾是可选的。           |E1 或 E3 Office 365 电话系统和一个 Office 365 电话计划  <br/> 或者  <br/> E5  <br/> |Skype for Business Server 标准 CAL  <br/> Skype for Business Server Plus CAL  <br/> |
    
- **使用 Windows 10 的正确版本** ： 对于想要将 Windows 10 映像部署到其设备的客户，特定版本的 Windows 10 是必需的且仅适用于批量许可客户此版本。您需要使用 **Windows 10 企业 1607年或更高版本** 图像 Skype Room System 2.0 版设备。您可以从[批量许可服务中心](https://www.microsoft.com/Licensing/servicecenter/)获取副本。
+ **使用正确版本的 Windows 10**： 特定版本的 Windows 10 是必需的对于那些想要将 Windows 10 映像部署到其设备的客户，并且此版本仅适用于正在批量许可客户。 您需要为图像 Skype 的空间系统 2.0 版设备使用**Windows 10 企业 1607年或更高版本**。 您可以复制从[卷授权服务中心](https://www.microsoft.com/Licensing/servicecenter/)。
   
-## 计划和通信贷项费率定价
+## <a name="pricing-for-plans-and-communications-credits-rates"></a>计划和通信贷率定价
 <a name="bkmk_moreprice"> </a>
 
 - [Office 365 企业版计划的价格](https://go.microsoft.com/fwlink/?LinkId=716844)
     
-- [用于呼叫计划价格](https://go.microsoft.com/fwlink/?LinkId=799761)。信息是在该页面的底部。
+- [用于调用计划价格](https://go.microsoft.com/fwlink/?LinkId=799761)。 信息是在该页的底部。
     
-- [为音频会议的消耗率](https://go.microsoft.com/fwlink/?LinkId=799762)。信息是在该页面的底部。
+- [音频会议的消耗率](https://go.microsoft.com/fwlink/?LinkId=799762)。 信息是在该页的底部。
     
 - [电话系统市场营销网站功能的详细信息](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-## 如何使用我现有调用计划与Skype for Business？
+## <a name="how-do-i-use-my-existing-calling-plans-with-skype-for-business"></a>如何使用我现有调用计划与 Skype 的业务？
 <a name="bkmk_existing"> </a>
 
-如果您想要使用您现有调用计划，购买 **电话系统**加载项，然后使用 **[免费的云连接线](https://technet.microsoft.com/en-us/library/mt605227.aspx)** 。
+如果您想要使用您现有调用的规划，购买**电话系统**加载项，并使用它的**[可用云连接器](https://technet.microsoft.com/en-us/library/mt605227.aspx)**。
   
-如果您使用混合用户本地 PSTN 连接，您 *只能*  为用户分配 **电话系统**许可证。 **请不要** 还分配呼叫计划。
+对于混合用户使用内部部署的 PSTN 连接，如果您*只*指定给用户**电话系统**的许可证。 **不**，还分配调用计划。
   
-规划您的部署，包括本地 PSTN 连接，与电话系统广泛的文档，请参阅[规划 Office 365 (云 PBX) 解决方案中电话系统](https://technet.microsoft.com/en-us/library/mt612869.aspx)。
+广泛的文档上规划您的部署，包括电话系统内部的 PSTN 连接，请参阅[规划在 Office 365 (云 PBX) 解决方案电话系统](https://technet.microsoft.com/en-us/library/mt612869.aspx)。
   
-## 方案详细信息
+## <a name="plan-details"></a>方案详细信息
 <a name="bkmk_existing"> </a>
 
 有关各 Skype for Business 计划中功能的详细列表，请参见 [Skype for Business Online 服务说明](https://go.microsoft.com/fwlink/?LinkId=730729)。
   
-## 适用于政府版:、 EDU 和非营利组织哪些功能？
+## <a name="what-features-are-available-to-gov-edu-and-non-profit-organizations"></a>GOV，EDU，和非营利组织提供哪些功能？
 <a name="bkmk_existing"> </a>
 
 |**Skype for Business 功能**|**可用于 .GOV (GCC)**|**可用于 .GOV（非 GCC）**|**可用于 .EDU**|**可用于非营利组织**|
 |:-----|:-----|:-----|:-----|:-----|
-|Skype 会议直播  <br/> |是  <br/> |是  <br/> |不支持  <br/> |是  <br/> |
-|Skype for Business音频会议  <br/> |支持  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|Office 365 电话系统  <br/> |支持  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|Office 365 呼叫计划  <br/> |支持  <br/> |支持  <br/> |支持  <br/> |是  <br/> |
+|Skype 会议直播  <br/> |是  <br/> |是  <br/> |否  <br/> |是  <br/> |
+|Skype 的业务音频会议  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|Office 365 电话系统  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|Office 365 呼叫计划  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
    
 请查看此博客文章：[Office 365 高级功能现在可供美国政府社区云客户使用](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/)。
   
-## 哪些功能可用于由世纪互联运营的 Office 365？
+## <a name="what-features-are-available-for-office-365-operated-by-21vianet"></a>哪些功能可用于由世纪互联运营的 Office 365？
 <a name="bkmk_existing"> </a>
 
-部分而不是所有 Skype for Business 功能可用于使用中国的由世纪互联运营的 Office 365 的客户。有关可用功能和不可用功能的列表，请参阅[了解由世纪互联运营的 Office 365](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE#__lync)中的 [了解由世纪互联运营的 Office 365](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)。
+某些但不是所有的 Skype 业务功能可供使用的 21Vianet 在中国运行的 Office 365 的客户。 什么是和不是可用的列表，请参阅[了解 Office 365 由 21Vianet](http://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)。
   
-## 
+
 <a name="bkmk_existing"> </a>
 
-||
-|:-----|
-|![领英学习快捷图标。](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **刚开始使用 Office 365？**         探索由 LinkedIn Learning 提供的适用于 **Office 365 管理员和 IT 专业人士**的免费视频课程。 |
+
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## 相关文章
+## <a name="related-topics"></a>相关主题
 <a name="bkmk_existing"> </a>
 
 - [设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [设置音频会议 for Skype Business 和 Microsoft 团队](../audio-conferencing-in-office-365/set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+- [设置音频会议 for Skype Business 和 Microsoft 团队](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
     
-- [设置电话系统语音邮件-管理员帮助](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemailadmin-help.md)
+- [设置电话系统语音邮件-管理帮助](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
-- [设置呼叫计划](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) 和[致电 office 365 计划](calling-plans-for-office-365.md)
+- [设置调用计划](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)和[Office 365 调用计划](calling-plans-for-office-365.md)
     
-- [添加资金和管理通信贷项](add-funds-and-manage-communications-credits.md)
+- [添加资金和管理通信片尾](add-funds-and-manage-communications-credits.md)
     
-- [配置云连接器](https://technet.microsoft.com/en-us/library/mt605228.aspx)和[下载云连接器](https://aka.ms/CloudConnectorInstaller)
+- [将云连接器配置](https://technet.microsoft.com/en-us/library/mt605228.aspx)并[下载云连接器](https://aka.ms/CloudConnectorInstaller)
     
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
-

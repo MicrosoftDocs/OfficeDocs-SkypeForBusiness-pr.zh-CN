@@ -1,33 +1,42 @@
 ---
-title: "什么是拨号计划？"
+title: "拨号计划有哪些？"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/17/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: 2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b
-description: "Learn what type of dial calling plans (PSTN Calling dial plans) are available with Office 365 and how to choose one for your company.  "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "了解什么类型的拨号通话方案 （调用 PSTN 拨号计划） 都可以使用 Office 365 以及如何选择一个组织。  "
+ms.openlocfilehash: ad46cf8f6c204f69cf7f1075f79468ddd37f8268
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-are-dial-plans"></a>拨号计划有哪些？
 
-# 什么是拨号计划？
-
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
-  
 拨号计划是一组指定的规范化规则，可将单个用户拨打的电话号码转换为替代格式（通常为 E.164），以用于呼叫授权和呼叫路由。
   
-拨号计划包含一个或多个规范化规则定义如何以各种格式表示的电话号码转换为备用的格式。可能解释相同的拨号字符串，并将其转换不同的拨号计划中的不同，以便根据给定用户分配哪些拨号计划，将相同拨打可能翻译和不同路由数。
+拨号计划包括一个或多个定义如何以各种格式的电话号码转换为其他格式的规范化规则。 相同的拨号字符串可能解释，并在不同的拨号计划中产生不同的翻译，所以这取决于哪个拨号计划分配给指定用户，同一拨可能翻译，以不同的方式路由数。
   
 请参阅[创建和管理拨号计划](create-and-manage-dial-plans.md)来创建和管理租户拨号计划。
   
-## 租户拨号计划范围
+## <a name="tenant-dial-plan-scope"></a>租户拨号计划范围
 
-拨号计划范围确定可应用拨号计划的层次结构级别。范围是不同于在 Skype for Business Server 2015 本地部署。客户端获得适当的拨号计划通过提供用户登录到 Skype for Business Online 时，系统将自动提供的设置。作为管理员，您可以管理和使用远程 PowerShell 分配拨号计划范围级别。
+拨号计划的范围内确定可应用的拨号计划的分层级别。 范围是不同的业务服务器 2015 Skype 在内部部署的。 客户机获得相应的拨号计划通过提供用户在登录 Skype 的在线业务时，将自动提供的设置。 作为管理员，您可以管理和使用远程 PowerShell 指定拨号计划范围级别。
   
-在 Skype for Business Online，有两种类型的拨号计划 - 适用的服务和租户 （这是为您的组织） 范围。为 Office 365 电话系统可每个国家/地区定义范围的服务拨号计划。每个用户将自动分配匹配为用户分配 Office 365 使用地点服务国家/地区拨号计划。不能更改服务的国家/地区拨号计划，但您可以创建范围的租户拨号计划，请增加服务国家/地区拨号计划。客户端将完成设置后，他们将获得"有效拨号计划"，这是服务国家/地区拨号计划和正确限定范围的租户拨号计划的组合。因此，不需要在租户拨号计划中定义所有规范化规则，因为它们可能已存在于服务国家/地区拨号计划。
+在 Skype 的在线业务，有两种类型的拨号计划的服务范围和租户 （这是为您的组织） 范围内。 Office 365 电话系统可在每个国家/地区定义服务范围的拨号计划。 每个用户将自动分配与分配给该用户的 Office 365 使用位置匹配的服务国家拨号计划。 您不能更改服务国家拨号计划中，但是您可以创建范围的租户拨号计划，增强服务国家拨号计划。 根据客户端的设置，他们获得了"有效拨号计划"，即服务国家拨号计划和适当范围内的租户拨号计划的组合。 因此，没有必要定义所有规范化规则租户拨号计划中可能存在于服务国家拨号计划中。
   
 租户拨号计划可进一步划分为两种范围 - 租户范围或用户范围。如果租户定义并分配了用户范围的拨号计划，那么会为该用户配置由用户的服务国家/地区拨号计划和已分配的用户拨号计划构成的有效拨号计划。如果租户定义租户范围拨号计划但没有分配用户范围的拨号计划，那么会为该用户配置由用户的服务国家/地区拨号计划和租户拨号计划构成的有效拨号计划。
   
@@ -37,82 +46,82 @@ description: "Learn what type of dial calling plans (PSTN Calling dial plans) ar
   
 下面是可能的有效拨号计划：
   
- **服务国家/地区** 如果没有限定范围的租户拨号计划指，没有租户范围内的用户拨号计划分配给配置用户，用户将收到映射到其 Office 365 使用地点相关联的服务国家或地区的有效拨号计划。
+ **服务国家/地区**如果没有租户范围拨号计划的定义并没有租户范围用户拨号计划分配给配置的用户，用户将接收映射到其 Office 365 使用位置相关联的服务国家/地区有效的拨号计划。
   
- **租户全局-服务国家/地区** 如果租户用户拨号计划是定义，但不是被分配给用户，配置的用户将收到合并的租户拨号计划和服务国家/地区拨号计划与其 Office 365 使用地点关联组成有效拨号计划。
+ **全局-租户服务国家/地区**如果租户用户拨号计划定义但不是分配给用户，提供的用户将收到合并的租户拨号计划和其 Office 365 使用位置相关联的服务国家拨号计划组成有效的拨号计划。
   
- **租户用户-服务国家/地区** 如果定义并分配给用户的租户用户拨号计划，配置的用户将收到合并的租户用户拨号计划和服务国家/地区拨号计划与其 Office 365 使用地点关联组成有效拨号计划。
+ **租户用户-服务国家/地区**如果租户用户拨号计划定义和分配给用户，提供的用户将收到合并的租户用户拨号计划和其 Office 365 使用位置相关联的服务国家拨号计划组成有效的拨号计划。
   
-请参阅[创建和管理拨号计划](create-and-manage-dial-plans.md)以创建您的租户拨号计划。
+请参阅[创建和管理拨号计划](create-and-manage-dial-plans.md)来创建您的租户拨号计划。
   
-## 规划租户拨号计划
+## <a name="planning-for-tenant-dial-plans"></a>规划租户拨号计划
 
 要规划自定义拨号计划，请执行以下步骤：
   
-- **步骤 1** 决定是否自定义拨号计划需要增强用户拨号体验。通常情况下，需要一个是支持非 E.164 拨号，例如扩展名或缩写国家/地区拨号。
+- **第 1 步**决定是否自定义拨号计划才可增强用户拨打体验。 通常情况下，需要一个是支持非 E.164 拨号，例如扩展或缩写国家拨号。
     
-- **步骤 2** 确定是否需要租户全局或租户范围内的用户拨号计划，或两者。如果用户具有不同的本地拨号要求，则需要范围内的用户拨号计划。
+- **第 2 步**确定是否需要全局的租户或租户范围用户拨号计划，或两者。 如果用户具有不同的本地拨号需求，需要范围内的用户拨号计划。
     
 - **第 3 步** 为需要的每个拨号计划确定有效的号码模式。只需要服务级别的国家/地区拨号计划中未定义的号码模式。
     
 - **第 4 步** 制定用于命名拨号计划的组织范围的方案。采用标准命名方案可确保在组织范围内的一致性，还便于维护和更新。
     
-[FastTrack](https://fasttrack.microsoft.com/microsoft365/capabilities?view=voice)具有额外的资源，可帮助用户实现租户的合作伙伴拨号计划。
+[FastTrack](https://fasttrack.microsoft.com/microsoft365/capabilities?view=voice)有更多的资源和合作伙伴可以帮助您实现租户拨号计划。
   
-## 创建新租户拨号计划
+## <a name="creating-your-new-tenant-dial-plan"></a>创建新租户拨号计划
 
 在创建新拨号计划时，必须填写必填信息。
   
-### 名称和简单名称
+### <a name="name-and-simple-name"></a>名称和简单名称
 
-为用户拨号计划，您应指定将分配给用户标识拨号计划的描述性名称。拨号计划简单名称是预填充派生自拨号计划名称的字符串。简单名称域是可编辑，这使您能够创建拨号计划的更多的描述性命名约定。简单名值不能为空，并且必须唯一。最佳做法是制定您的整个组织的命名约定，然后跨所有站点和用户一致地使用此约定。
+对于用户拨号计划，应指定将指定一个描述性的名称来标识用户的拨号计划。 拨号计划的简单名称是预填充从拨号计划名称的字符串。 “简单名称”字段是可编辑的，从而使您可以为拨号计划创建更具描述性的命名约定。 简单名称值不能为空，并且必须是唯一的。 最佳实践是为整个组织制定一个命名约定，然后在所有站点和用户中统一使用此约定。
   
-### 说明
+### <a name="description"></a>说明
 
 建议输入对应的拨号计划要应用到的地理位置或用户组的通用可识别名称。
   
-### 外部访问前缀
+### <a name="external-access-prefix"></a>外部访问前缀
 
 > [!CAUTION]
-> 当前不支持外部访问前缀。 
+> [!警告] 当前不支持外部访问前缀。 
   
 如果用户需要拨打一个或多个附加的前导数位（例如，9）来获取外线，则可指定最多包含四个字符（#、* 和 0-9）的外部访问前缀。
   
 > [!NOTE]
-> 如果指定外部访问前缀，则不必创建附加的规范化规则来涵盖该前缀。 
+> [!注释] 如果指定外部访问前缀，则不必创建附加的规范化规则来涵盖该前缀。 
   
-请参阅[创建和管理拨号计划](create-and-manage-dial-plans.md)以创建您的租户拨号计划。
+请参阅[创建和管理拨号计划](create-and-manage-dial-plans.md)来创建您的租户拨号计划。
   
-## 规范化规则
+## <a name="normalization-rules"></a>规范化规则
 
 规范化规则定义如何转换以不同格式表示的电话号码。同一号码字符串可能得到不同的解释和转换，具体取决于拨叫该号码所在的区域。如果用户需要拨打缩写的内部或外部号码，则需要制定规范化规则。
   
-必须为一个或多个规范化规则分配到拨号计划。规范化规则匹配从顶部到底部，以便在租户拨号计划中的显示的顺序非常重要。例如，如果租户拨号计划具有 10 规范化规则，请拨打的号码匹配逻辑将尝试使用开头的第一个的规范化规则，如果没有匹配然后第二个，等等。如果匹配，则使用该规则，而不会尝试定义的任何其他规则匹配。在给定的租户拨号计划中可以有 25 规范化规则的最大值。
+必须将一个或多个规范化规则分配给拨号计划。 规范化规则匹配从上到下，租户拨号计划中出现的顺序非常重要。 例如，如果租户拨号计划中有 10 个规范化规则，拨打号码匹配的逻辑将尝试从第一个规范化规则，如果没有匹配项然后第二个，等等。 如果匹配，则使用该规则，没有不会尝试匹配定义的任何其他规则。 给定的租户拨号计划中可以有最多的 25 个规范化规则。
   
-### 确定所需的规范化规则
+### <a name="determining-the-required-normalization-rules"></a>确定所需的规范化规则
 
 由于任何租户拨号计划都与给定用户的服务国家/地区拨号计划有效合并，因此可能需要对服务国家/地区拨号计划的规范化规则进行评估，以确定需要哪些租户拨号计划规范化规则。 **Get-CsEffectiveTenantDialPlan** cmdlet 可用于此用途。该 cmdlet 以用户标识作为输入参数，并将所有适用的规范化规则都返回给用户。
   
-### 创建规范化规则
+### <a name="creating-normalization-rules"></a>创建规范化规则
 
 规范化规则使用 .NET Framework 正则表达式指定服务器为了执行反向号码查找而将拨号字符串转换为 E.164 格式时所用的数字匹配模式。可以通过指定在找到匹配项时要执行的匹配和转换的正则表达式来创建规范化规则。完成之后，你可以输入一个测试号码以验证规范化规则是否可按预期工作。
   
-有关使用.NET Framework 正则表达式的详细信息，请参阅[.NET Framework 正则表达式](https://go.microsoft.com/fwlink/p/?linkId=140927)。
+有关使用.NET Framework 的正则表达式的详细信息，请参见[.NET Framework 正则表达式](https://go.microsoft.com/fwlink/p/?linkId=140927)。
   
-请参阅[创建和管理拨号计划](create-and-manage-dial-plans.md)来创建和管理规范化规则租户拨号计划。
+请参阅[创建和管理拨号计划](create-and-manage-dial-plans.md)来创建和管理规范化规则为您的租户拨号计划。
   
-### 示例规范化规则
+### <a name="sample-normalization-rules"></a>示例规范化规则
 
 下表显示以 .NET Framework 正则表达式形式编写的示例规范化规则。这些示例仅用作示例，不用作创建规范化规则的规范性参考。
   
- **使用.NET Framework 正则表达式的规范化规则**
+ **使用.NET Framework 的正则表达式的规范化规则**
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**规则名称** <br/> |**说明** <br/> |**号码模式** <br/> |**转换** <br/> |**示例** <br/> |
 |4digitExtension  <br/> |转换 4 位数分机号。  <br/> |^(\\d{4})$  <br/> |+1425555$1  <br/> |将 0100 转换为 +14255550100  <br/> |
 |5digitExtension  <br/> |转换 5 位数分机号。  <br/> |^5(\\d{4})$  <br/> |+1425555$1  <br/> |将 50100 转换为 +14255550100  <br/> |
-|7digitcallingRedmond  <br/> |将 7 位数号码转换为雷德蒙德本地号码。  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |将 5550100 转换为 +14255550100  <br/> |
+|7digitcallingRedmond  <br/> |将 7 位数号码转换为雷德蒙德本地号码。  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |将 5550100 转换为 +14255550100  <br/>|
 |RedmondOperator  <br/> |将 0 转换为雷德蒙德话务员。  <br/> |^0$  <br/> |+14255550100  <br/> |将 0 转换为 +14255550100  <br/> |
 |RedmondSitePrefix  <br/> |转换带有网内前缀 (6) 和雷德蒙德站点代码 (222) 的号码。  <br/> |^6222(\\d{4})$  <br/> |+1425555$1  <br/> |将 62220100 转换为 +14255550100  <br/> |
 |5digitRange  <br/> |转换以 3-7（含 3 和 7）之间的数字开头的 5 位数分机号。  <br/> |^([3-7]\\d{4})$  <br/> |+142570$1  <br/> |将 54567 转换为 +14255554567  <br/> |
@@ -122,26 +131,22 @@ description: "Learn what type of dial calling plans (PSTN Calling dial plans) ar
  **上面显示了基于规范化规则的雷德蒙德拨号计划。**
   
 下表根据上表显示的规范化规则对用于雷德蒙德、华盛顿、美国的示例拨号计划进行说明。
-  
-||
-|:-----|
-|**雷德蒙德拨号计划** <br/> |
-|5digitExtension  <br/> |
-|7digitcallingRedmond  <br/> |
-|RedmondSitePrefix  <br/> |
-|RedmondOperator  <br/> |
+|:-----| |**雷德蒙拨号计划** <br/> | | 5digitExtension <br/> | | 7digitcallingRedmond <br/> | |RedmondSitePrefix <br/> | |RedmondOperator <br/> |
    
 > [!NOTE]
-> 上表中所示的规范化规则名称不包含空格，你可以选择是否要包含。例如，该表中的第一个名称，本应写成"5 digit extension"或"5-digit Extension"，但它仍然有效。 
+> [!注释] 上表中所示的规范化规则名称不包含空格，你可以选择是否要包含。例如，该表中的第一个名称，本应写成"5 digit extension"或"5-digit Extension"，但它仍然有效。 
   
-## 相关主题
-
+## <a name="related-topics"></a>相关主题
 [创建和管理拨号计划](create-and-manage-dial-plans.md)
-  
-## 
-<a name="MT_Footer"> </a>
 
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
+[Skype 的附加业务和 Microsoft 小组授权](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 
+[传送电话号码的常见问题](transferring-phone-numbers-common-questions.md)
+
+[不同种类的用于调用计划的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[管理您的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+
+[紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)
