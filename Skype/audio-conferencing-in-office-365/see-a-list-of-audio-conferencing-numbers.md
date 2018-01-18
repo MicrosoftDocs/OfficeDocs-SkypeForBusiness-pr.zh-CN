@@ -1,66 +1,71 @@
 ---
-title: "请参阅音频会议号码列表"
+title: "音频会议号码的列表，请参阅"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 2d6b4ed4-e12b-4691-8405-fae720d69425
-description: "Learn how to look up your dial-in conferencing numbers from within Skype for Business. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: 'Learn how to look up your dial-in conferencing numbers from within Skype for Business. '
+ms.openlocfilehash: 45e4dd113845c9c565162c4ef3047df83e1aeb43
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="see-a-list-of-audio-conferencing-numbers"></a>音频会议号码的列表，请参阅
 
-# 请参阅音频会议号码列表
-
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
+当您设置音频会议为 Skype 业务和 Microsoft 小组的用户时，您可以查看有关音频会议提供给他们的电话号码。 此列表将拥有所有的音频会议电话号码，可供您的组织。
   
-如果设置了音频会议的 Skype for Business 和 Microsoft 小组的用户，您可以查看的音频会议提供给他们的电话号码。此列表将具有所有适用于您的组织的音频会议电话号码。
-  
- **寻找价格？** 请参阅[定价的音频会议](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)。
+ **寻找价格？** 请参阅[音频会议的定价](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)。
   
 > [!IMPORTANT]
-> **没有音频会议包含所有拨入号码的列表的资源。** 如果您希望了解是否存在拨入电话号码可在您的区域或国家/地区中，转到 **Skype for Business 管理中心**> **语音**> **电话号码**，单击 **添加**，然后依次 **新服务编号**.用于 **国家/地区**， **国家/地区列表**，和 **城市**以筛选搜索结果。 > 此外，如果您正在寻找免费服务编号，请选择 **免费**从 **国家/地区**列表。 
+> **没有资源，包含音频会议的所有拨入号码的列表。** 如果您希望看到如果有可用的拨入电话号码在您的区域或国家/地区，请转到**业务管理中心的 Skype** > **语音** > **的电话号码**，单击**添加**，然后单击**新服务编号**。 对于**国家/地区**，请**国家/地区中使用的列表**，和**城市**来筛选搜索结果。 此外，如果您正在寻找免费电话服务号码，选择**免费**从**国家/地区**列表。
   
-如果您的组织中的可用是只有一个电话号码，它将用作默认号码为您的所有用户。有多个电话号码时，您可以选择每个用户的默认电话号码。将Skype for Business和 Microsoft 小组会议邀请中包括此默认号码。
+如果在组织中只有一个电话号码，它将用作默认数量为您的所有用户。 当多个电话号码可用时，您可以选择为每个用户的默认电话号码。 此默认数字将列入业务和 Microsoft 小组会议邀请 Skype。
   
-您可以看到[为会议组织者包含在邀请中设置音频会议电话号码](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md)更改为单个用户的拨入电话号码。
+您可以看到[将的电话号码上包括邀请](set-the-phone-numbers-included-on-invites.md)来更改单个用户的拨入电话号码。
   
 > [!NOTE]
-> 国内拨入号码供你的组织专用，是唯一可以设为默认电话号码的号码。 但是，国际拨入号码可能会在多个组织之间共享。 
+> [!注释] 国内拨入号码供你的组织专用，是唯一可以设为默认电话号码的号码。 但是，国际拨入号码可能会在多个组织之间共享。 
   
-## 若要查看您的音频会议电话号码
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>若要查看您的音频会议电话号码
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到" **Office 365 管理中心**">" **Skype for Business**"。
+2. 请转到**Office 365 管理中心** > **业务的 Skype**。
     
-3. 在 **Skype for Business 管理中心**，在左侧导航中，转到 **音频会议**> **Microsoft 网桥**，然后：
+3. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议** > **Microsoft 桥**，然后：
     
-  - 您可以查看可用的音频会议的电话号码。
+  - 您可以查看所提供的音频会议电话号码。
     
-  - 您还可以查看该位置，并将使用的音频会议的主要和辅助语言自动助理。
+  - 您还可以查看该位置，并将使用音频会议的主要和次要语言自动助理。
     
 > [!NOTE]
-> 您可以转到 **音频会议**> **用户**，然后选择要更改默认的用户的属性通过您的组织中的可用列表中选择新号码编号。请参阅[为会议组织者包含在邀请中设置音频会议电话号码](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md)。 
+> 您可以转到**音频会议** > **用户**和用户的属性来更改默认值通过从可用号码在您的组织中的列表中选择一个新的数字编号的选择。 请参阅[设置数字包括在邀请电话](set-the-phone-numbers-included-on-invites.md)。 
   
-## 想知道如何使用 Windows PowerShell 进行管理吗？
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
-- 为节省时间或自动执行此操作，可以使用[获取 CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) cmdlet。
+- 为节省时间或自动执行此操作，可以使用 [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) cmdlet。
     
-- Windows PowerShell 是有关管理用户和允许或不可以执行哪些用户的所有信息。使用 Windows PowerShell，您可以管理Office 365使用单一管理，当您有多个要执行的任务可以简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为什么您需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为什么需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 具有许多优于速度、 简单起见和工作效率中的仅使用 Office 365 管理中心中，例如，当您正在进行设置更改为许多用户，一次。了解有关以下主题中的以下优势：
+- Windows PowerShell 许多相比具有的优势在速度、 简易性和生产率仅使用 Office 365 管理中心，例如，当将设置更改为许多用户一次。 了解这些优势中的以下主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -69,16 +74,10 @@ description: "Learn how to look up your dial-in conferencing numbers from within
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。 
+    > [!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。
   
-## 相关主题
+## <a name="related-topics"></a>相关主题
 
-[设置音频会议 for Skype Business 和 Microsoft 团队](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
+[设置 Skype for Business 和 Microsoft Teams 音频会议](set-up-audio-conferencing.md)
   
 

@@ -1,75 +1,73 @@
 ---
 title: "自定义会议邀请"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/10/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.MeetingInvitation
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 9af52080-dd56-4b66-b056-41ed1a7aaae3
-description: "Customize Skype meeting invitations with graphic logos, help and legal URLs, and footer text. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.MeetingInvitation
+ms.custom: Setup
+description: "自定义徽标图形、 帮助和法律 Url 和页脚文本与 Skype 会议邀请。 "
+ms.openlocfilehash: bb0b49c910a105e7fffc8180832aca1bb1c051c0
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="customize-meeting-invitations"></a>自定义会议邀请
 
-# 自定义会议邀请
-
-> [!IMPORTANT]
-> 本文是由机器翻译的，请参阅[免责声明]。
+作为一名管理员，您可以确保所有 Skype 业务会议邀请的都包括一些有用的信息，您的用户可能需要如技术支持网站和法律免责声明，您公司的徽标，以及您想要都包括其他文本的链接。 
   
-作为管理员，您可以确保所有Skype for Business会议邀请，都包括一些有用的信息，可能需要您的用户，如链接到您的支持网站和法律免责声明、 您的公司徽标和其他您想要都包括的文本。
-  
-## 用于为会议邀请创建徽标的提示
+## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>创建会议邀请的徽标的技巧
 <a name="__top"> </a>
 
-1. 创建一个图像，其宽度不超过 188 像素，其高度不超过 30 像素（它相当小）。
+1. 创建 30 像素高 （它是相当小） 通过的不超过 188 像素宽的图像。
     
-2. 以 JPG 格式保存该图像。
+2. 将图像保存为 JPG 格式。
     
-3. 将图像存储在一个中心位置可访问您的企业中的每个人，如网络共享，共享 OneDrive for Business 文件夹时，Dropbox，等等。
+3. 将图像存储在一个中心位置，在业务中的每个人都可以访问，例如网络共享，共享业务文件夹，收存箱，OneDrive 等。
     
-    现在可以将它添加到你的会议邀请。 请参阅接下来的步骤。
+    现在可以将其添加到您的会议邀请。 请参阅下一个步骤。
     
-## 自定义会议邀请
+## <a name="customize-your-meeting-invitations"></a>自定义会议邀请
 <a name="__top"> </a>
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 从Office 365 管理中心中，选择 **管理员中心**> **Skype for Business**。
+2. 在 Office 365 管理中心中，选择**管理员中心** > **业务的 Skype**。
     
-3. 在 Skype for Business 管理中心中，选择" **联机会议**"。 
+3. 为业务管理中心 Skype，在选择**联机会议**。 
     
-4. 完成以下框：
+4. 填写以下框：
     
-    ![Here's what it might look like when you complete the form to customize your meeting invitations.](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png)
+    ![这是什么它可能如下所示完成窗体自定义会议邀请时。](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
+
+   **徽标 URL:**输入您的徽标所在的 URL。 请记住，必须是以 JPG 格式 ！ 
+ 
+   **帮助 URL:**如果您的组织具有所需的人员，如果他们有问题，转到技术支持网站，输入下面的 URL。 
+
+   **法律 URL:**如果您的组织具有所需人员转到是否有法律问题的法律网站，，输入下面的 URL。
+    
+   **的页脚文本：**请输入一个纯文本的脚注，将适用于您的用户。  
   
-|**选项**|**说明**|
-|:-----|:-----|
-|**徽标 URL** <br/> |输入您的徽标的存储位置的 URL。请记住，必须是 JPG 格式 ！  <br/> |
-|**帮助 URL** <br/> |如果您的组织具有您希望用户如果他们有问题，转到支持网站，请，输入下面的 URL。  <br/> |
-|**法律 URL** <br/> |如果您的组织具有您希望用户能够法律问题转到法律网站，请，输入下面的 URL。  <br/> |
-|**页脚文本** <br/> |输入适合你用户的、仅含文本的脚注。  <br/> |
    
 5. 选择" **保存**"。
     
-6. 等待大约一小时，让更改在所有 Office 365 服务中得到填充。 然后转到 Outlook，并安排 Skype 会议以查看所做更改的外观。 
+6. 等待一个小时左右的更改来填充整个 Office 365 提供的所有服务。 然后转到 Outlook，并安排 Skype 会议，了解所做的更改。 
     
-    ![Here's what a custom invitation looks like, without the graphic](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![这里是一个自定义的邀请的样子，没有图形](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>相关主题
+<a name="__top"> </a>
 
-> [!NOTE]
-> **机器翻译免责声明**：本文是由无人工介入的计算机系统翻译的。Microsoft 提供机器翻译是为了帮助非英语国家/地区用户方便阅读有关 Microsoft 产品、服务和技术的内容。由于机器翻译的原因，本文可能包含词汇、语法或文法方面的错误。 
-  
-## 另请参阅
-<a name="MT_Footer"> </a>
 
-#### 其他资源
-
-[设置音频会议 for Skype Business 和 Microsoft 团队](../audio-conferencing-in-office-365/set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[设置 Skype for Business 和 Microsoft Teams 音频会议](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
 

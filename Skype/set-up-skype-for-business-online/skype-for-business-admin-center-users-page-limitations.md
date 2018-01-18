@@ -1,34 +1,43 @@
 ---
-title: "Skype for Business Online 管理中心用户页面限制"
-ms.author: TONYSMIT
+title: "Skype 的在线业务管理员中心用户页面的限制"
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 12/9/2015
-ms.audience: Admin
-ms.topic: reference
-f1_keywords:
-- ms.lync.lac.UsersCountLimitationWarning
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 0a24c1d1-11e3-4971-a90d-4c3e69ef165f
-description: "Learn how to work within the limitations of Skype for Business Online admin's display of users. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.UsersCountLimitationWarning
+ms.custom: Setup
+description: "了解如何处理业务在线管理显示用户的 Skype 允许的范围内。 "
+ms.openlocfilehash: fddc126f2c4e9397c1285833f1a3ad444d9ed2ed
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Skype 的在线业务管理员中心用户页面的限制
 
-# Skype for Business Online 管理中心用户页面限制
-
-由于性能原因， **Skype for Business 管理中心**显示用户列表中的前 1,000 名用户。用户数超过 1,000 时，请使用" **筛选**"![筛选](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png)和" **搜索**"![搜索](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png)查找特定人员。
+出于性能原因**业务管理中心的 Skype**用户列表中显示的前 1000 个用户。 如果您有多于 1000 个用户，使用**筛选器**![筛选器](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png)和**搜索**![搜索](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png)来查找要查找的特定人员。
   
-## 批量编辑
+## <a name="bulk-editing"></a>批量编辑
 <a name="__top"> </a>
 
-1. 通过选中列表顶部的" **显示名称**"旁边的框，可选择前 1,000 名用户（或者你的筛选或搜索返回的所有用户）。
+1. 选择的前 1000 个用户 — — 或由您的筛选器或搜索返回的所有人 — — 通过选中列表顶部的**显示名称**旁边的框。
     
-2. 单击" **编辑**"![编辑](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)。
+2. 单击**编辑**![编辑](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)。
     
-您可以用列表底部的控件更改每个页面上显示的用户数：
+您可以更改控件位于列表底部的每一页上显示的用户数：
   
-![用于更改页面上的用户数的用户页面导航](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
+![用户页面导航更改页上的用户数量](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
+## <a name="related-topics"></a>相关主题
+[设置 Skype for Business Online](set-up-skype-for-business-online.md)
 
+[允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
