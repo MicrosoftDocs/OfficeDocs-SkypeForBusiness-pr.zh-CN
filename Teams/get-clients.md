@@ -7,11 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解如何使用支持 Microsoft Teams 的各种客户端，包括 Web、桌面（Windows 和 Mac）和移动（Android、iOS 和 Windows Phone）。"
-ms.openlocfilehash: 2f07ba9fc8c7f08adf608c5d3a0708e680967632
-ms.sourcegitcommit: 18b1af39d6d2cd0e7f2d270dcd844e06c9075ae6
+ms.openlocfilehash: c10dde0e2893bc11f1d5a01eed1c30ed37ff30a0
+ms.sourcegitcommit: 6ddf8daf3aa1f43c67cb5a57721cb01a9c409f7b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/18/2018
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================
@@ -27,20 +27,12 @@ Web 客户端 ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?li
 
 Web 客户端在连接到 [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) 时执行浏览器版本检测，如果检测到不支持的浏览器版本，它将阻止对 Web 界面的访问，并建议用户下载桌面客户端或移动应用。
 
-Microsoft Teams 支持以下浏览器和版本：
-
--   **Edge**：12+
-
--   **Internet Explorer：**11+
-
--   **Chrome**: 51.0+
-
--   **Firefox**：55+
-
-
+<a name="internet-browser-support"></a>Internet 浏览器支持
+------------------------------
+Teams 支持下列 Internet 浏览器，包括：Internet Explorer 11、Microsoft Edge、最新版本的 Chrome 以及最新版本的 Firefox。
 
 > [!NOTE]
-> 尚不支持 Safari，但不久以后将会支持。
+> Safari 目前不受支持。 有关 Teams 中的新功能的新闻，请查看 [Teams 路线图](http://aka.ms/TeamsRoadmap)。 尝试在 Safari 中打开 Teams 的用户将被导向下载 Teams 桌面客户端。
 
 <a name="desktop-clients"></a>桌面客户端
 ------------------------

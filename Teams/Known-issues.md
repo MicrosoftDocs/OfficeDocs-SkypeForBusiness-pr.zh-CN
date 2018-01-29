@@ -7,11 +7,11 @@ ms.date: 12/20/2017
 ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams 客户端应用和管理体验的已知问题当前列表"
-ms.openlocfilehash: b4335a9d3f85b00706b7f6d61c9b232f01193abe
-ms.sourcegitcommit: 18b1af39d6d2cd0e7f2d270dcd844e06c9075ae6
+ms.openlocfilehash: 32eb38ed3e90a3a57f789b2ba5c4566d2a52e115
+ms.sourcegitcommit: f332028d01a15272da0b09c6d751dbf227cb2d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
   
@@ -52,6 +52,6 @@ ms.lasthandoff: 01/03/2018
 |无法保存个人资料图片  <br/> |Exchange 邮箱在本地托管时，用户无法保存其个人资料图片。  <br/> |无解决方法。  <br/> |2017 年 2 月 28 日  <br/> |
 |会议不可用  <br/> |Exchange 邮箱在本地托管时，不提供会议功能和图标。  <br/> |将本地部署升级到 Exchange 2016 CU3 或更高版本  <br/> |2017 年 2 月 28 日  <br/> |
 |没有为组邮箱启用存档（额外存储）功能  <br/> |在 Office 365 安全性和合规性中心中，全局管理员无法对组邮箱启用存档。 他们只能对用户邮箱执行此操作。  <br/> |如果组邮箱容量几乎已满，请联系 Microsoft Office 支持以扩展邮箱大小。  <br/> |2017 年 2 月 1 日  <br/> |
-|Safari Web 客户端支持  <br/> |尝试在 Safari 上打开 Microsoft Teams Web 客户端的用户被导向到下载桌面客户端。 Microsoft 正在着手准备 Safari 支持，并将通过公开 Office 365 路线图共享更新。  <br/> |使用支持的浏览器，包括：Microsoft Edge 12+、Internet Explorer 11+、Firefox 55+ 和 Chrome 51.0+。  <br/> |2016 年 11 月 2 日  <br/> |  
+|Safari Web 客户端支持  <br/> |尝试在 Safari 上打开 Microsoft Teams Web 客户端的用户被导向到下载桌面客户端。 Microsoft 正在着手准备 Safari 支持，并将通过 [Teams 路线图](http://aka.ms/TeamsRoadmap)共享更新。  <br/> |使用支持的 Internet 浏览器，包括：Internet Explorer 11、Microsoft Edge、最新版本的 Chrome 以及最新版本的 Firefox。  <br/> |2016 年 11 月 2 日  <br/> |  
 |团队成员无法加入临时会议。  <br/> |如果双方都使用最新的应用，则支持临时会议。 Windows Phone 应用尚不支持会议。  <br/> |下载并安装最新的桌面、iOS 或 Android 应用以加入会议。  <br/> |2016 年 11 月 2 日  <br/> |
 |本地 Skype for Business 用户无法收到我的消息  <br/> |Microsoft Teams 用户尝试向使用本地 Skype for Business 的其他人发送消息，无法完成消息传递。  <br/> | 支持 Teams 与 Skype for Business Online 上托管的用户之间的互操作性。 Teams 用户可以向使用 Skype for Business Online 的非 Teams 用户发送一对一聊天。 <br/> 不支持 Teams 与本地 Skype for Business 上托管的用户之间的互操作性。 Teams 用户无法向使用本地 Skype for Business 的非 Teams 用户发送一对一聊天。  <br/> |2016 年 11 月 2 日  <br/> |
