@@ -3,16 +3,16 @@ title: "快速入门 - Microsoft Teams 规划指南"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
 description: "使用本指南帮助你在组织中规划、实施和采用 Microsoft Teams。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: dad9788c15c958876dc9a3b4adf637f88fe53b0a
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: 0dc620789a0ca2bf904c3a5795d01aabb755109a
+ms.sourcegitcommit: 3fb8ed855e72a28cd28c94f1414fbe81937d9422
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/23/2018
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>快速入门 - Microsoft Teams 规划指南
 ==========================================================
@@ -63,7 +63,7 @@ ms.lasthandoff: 12/20/2017
 ### <a name="trophy-best-practice"></a>:trophy: 最佳实践：
 在小型组织（通常少于 2500 名用户）中，考虑为整个组织启用 Teams，然后将所有用户添加到一个公司范围的团队。 向该团队添加常用参考项和任务，以简化所有人的协作和生产体验。
 
-如果你使用 Yammer 进行广泛的公司协作，请考虑将 Yammer 集成到 Teams 体验中。 这不会取代本地浏览器或 Yammer 的移动体验，但提供了一种集成方式可跟踪整个组织范围内人们普遍感兴趣的主题。 要了解详细信息，请观看[技术提示：](https://youtu.be/LU-sv-07jcY)[ Yammer 与 Microsoft Teams 的社区管理。](https://youtu.be/LU-sv-07jcY)
+如果你使用 Yammer 进行广泛的公司协作，请考虑将 Yammer 集成到 Teams 体验中。 这不会取代本地浏览器或 Yammer 的移动体验，但提供了一种集成方式可跟踪整个组织范围内人们普遍感兴趣的主题。 要了解详细信息，请观看[技术提示：Yammer 与 Microsoft Teams 的社区管理。](https://youtu.be/LU-sv-07jcY)
 
 ### <a name="dont-forget-mobile"></a>不要忘记移动体验！
 在部署 Teams 时，不要忘记启用移动体验。 允许用户运行 Office 365 移动应用程序可大大提高使用率和满意度。 Office、Outlook、SharePoint、Teams、Planner、Yammer 及其他常用 Office 365 服务均提供移动体验。 最佳实践是在部署桌面和浏览器客户端时同时[启用 Teams 移动体验](get-clients.md#mobile-clients)。
@@ -73,14 +73,14 @@ ms.lasthandoff: 12/20/2017
 
 部署软件并非在组织中推动变革所需的唯一操作。 授权协作更多与人相关，而非技术。 要成功推动 Office 365 和 Teams 的采用，请将重心放在员工的体验上。 下面是入门最佳实践的快速清单。 Microsoft 合作伙伴也可以帮助你设计适合贵组织的采用计划。
 
-1. 如需了解最佳实践，请**阅读 [Office 365 采用指南](https://microsoft.sharepoint.com/:b:/t/ToolkitforTeamwork/ETCwPQo47a1IveJmot1vvb4BywRpFjqfRPrtjPtgF_i_hg?e=bfc85a9e74cd4cac8163286b6ef5ae74)**。  使用我们关于[创建 Microsoft Team 的变更管理策略](change-management-strategy.md)的文章记录你的方法。
+1. 如需了解最佳实践，请**阅读 [Office 365 采用指南]( https://aka.ms/office365adoptionguide)**。 使用我们关于[创建 Microsoft Team 的变更管理策略](change-management-strategy.md)的文章记录你的方法。
 1. **研究 [Office 365 活动报告](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)**，以了解你的整个环境的使用情况。 如果你不是贵公司的 Office 365 管理员，请求管理员向你授予报告读取器的权限，以便你可以访问活动报告。
 2. **获取员工**对 Office 365 和 Teams 体验的反馈。 如果组织的员工数少于 2500 人，请使用 Teams 中的公共频道。 如果贵组织大于 Teams 中的当前成员限制，请使用 Yammer 中的公共组。 
-3. **使用[你的数码节](https://microsoft.sharepoint.com/teams/ToolkitforTeamwork/SitePages/A%20Day%20in%20the%20Digital%20Life.aspx)材料推动常用功能的使用**，方法是鼓励聊天、@提及和云存储（通过 Teams 提供的 OneDrive 和 SharePoint Online），以吸引人们参与体验。 不要大范围发送电子邮件！ 
+
 4. **培养你的支持者并突显你的优势。** 对于采用新工具并且以与公司业务成果有关的创新方式使用这些工具的员工予以奖励。 这一点对于确保 Office 365 和 Teams 的持续采用比上述任何一点都至关重要。
 
 
 ## <a name="next-steps"></a>后续步骤
-1. 继续阅读[研讨会套件：](planning-workshop-practical-guide.md)[ 规划、交付和运营 Teams](planning-workshop-practical-guide.md)
-2. 下载并填写[快速入门指南：](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)[ ](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)[成功启用 Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) 中的技术规划调查表。
+1. 继续阅读[研讨会套件：规划、交付和运营 Teams](planning-workshop-practical-guide.md)
+2. 下载并填写[快速入门指南：成功启用 Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) 中的技术规划调查表。
 3. 下载用于在贵组织中启动 Teams 的研讨会套件：[规划、交付和运营 Teams](http://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)

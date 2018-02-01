@@ -1,23 +1,29 @@
 ---
-title: "研讨会工具包 - 规划、交付和运营 Microsoft Teams"
+title: "工具和研讨会 - 规划、交付和运营 Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 12/15/2017
+ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
-description: "用于帮助管理员开始使用 Microsoft Teams 的规划工具和研讨会工具包。"
+description: "用于帮助管理员开始使用 Microsoft Teams 的规划工具、研讨会和入门工具包。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 0142ced9edd10a64f142e0f8dbb4f92d79593214
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: e14c16ddd71114e90af15174266f14bbbbc5982e
+ms.sourcegitcommit: 6f5fc17ffdc1ef3b3eec42e17f7bebda88cb000b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/24/2018
 ---
-<a name="workshop-kit-plan-deliver-and-operate-microsoft-teams"></a>研讨会工具包：规划、交付和运营 Microsoft Teams
+<a name="tools-and-workshops-plan-deliver-and-operate-microsoft-teams"></a>工具和研讨会：规划、交付和运营 Microsoft Teams
 =============================================================
 
 下载这些工具以指导你在贵组织中规划、交付和运营 Teams。
+
+- [Microsoft Teams 入门工具包](http://microsoft.com/en-us/download/56505) 
+    
+    本指南提供了在贵组织中的不同岗位充分利用 Teams 的提示，包括市场营销、销售、财务、人力资源、信息技术、工程和项目管理。
+
+
 
 - [快速入门指南：成功启用 Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
     

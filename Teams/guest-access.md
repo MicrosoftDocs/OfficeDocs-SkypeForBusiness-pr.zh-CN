@@ -8,14 +8,20 @@ ms.topic: article
 ms.service: msteams
 description: "利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 53fac61c9e8c36c572e77fd302f410ce5dce45d0
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: 07dbb6faca20fd39fc65c6508489500dda143040
+ms.sourcegitcommit: d62b48ee2c21435555255afe78db6349139b070c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/23/2018
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 ======================================
+
+来宾访问在 Teams 中是新功能。 这是客户需求最强烈的的功能之一。 我们仍在努力增强其功能。 你可以按此处所述了解来宾访问功能的最新进展并将你的想法告诉我们：
+- 如果你在使用来宾访问时遇到问题，请查看 [Microsoft Teams 的已知问题](Known-issues.md)。
+- 请在 [Teams 路线图](https://aka.ms/teamsroadmap)中了解即将发布的新功能或更新功能。
+- 请在 [Teams UserVoice](https://aka.ms/TeamsUserVoice) 中将你想要的功能告诉我们。
+- 在下面的“注释”部分中分享你的体验。
 
 
 利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。 
@@ -38,7 +44,7 @@ Teams 建立在 Office 365 组之上，为 Office 365 组提供访问共享资�
  
   
     
-  [帮助、实践指导和工具](support-resources.md)  
+  [Microsoft Teams 的支持资源](support-resources.md)  
  
   
 
