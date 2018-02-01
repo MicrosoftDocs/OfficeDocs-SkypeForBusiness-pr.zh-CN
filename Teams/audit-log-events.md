@@ -3,55 +3,64 @@ title: "在 Microsoft Teams 中搜索事件的审核日志"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
-description: "了解如何从审核日志检索 Microsoft Teams 数据。"
-ms.openlocfilehash: bea1a808fd92d3b43caf8ee61152a999ca3af8a3
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+description: "了解如何从 Office 365 审核日志检索 Microsoft Teams 数据。"
+ms.openlocfilehash: 229ddc5fb1e8a775524564c27ffeecce96483fe1
+ms.sourcegitcommit: 9f185be910855f6312344ea906e96e5e6449cf4c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/23/2018
 ---
-<a name="search-the-audit-log-for-events-in-microsoft-teams"></a><span data-ttu-id="c1f38-103">在 Microsoft Teams 中搜索事件的审核日志</span><span class="sxs-lookup"><span data-stu-id="c1f38-103">Search the audit log for events in Microsoft Teams</span></span>
+<a name="search-the-audit-log-for-events-in-microsoft-teams"></a><span data-ttu-id="d3393-103">在 Microsoft Teams 中搜索事件的审核日志</span><span class="sxs-lookup"><span data-stu-id="d3393-103">Search the audit log for events in Microsoft Teams</span></span>
 ==================================================
 
-<span data-ttu-id="c1f38-104">通过审核日志可以对 Office 365 服务中的重大事件进行特定搜索。</span><span class="sxs-lookup"><span data-stu-id="c1f38-104">The Audit Log provides ad-hoc search capabilities into notable events across Office 365 services.</span></span> <span data-ttu-id="c1f38-105">就 Microsoft Teams 具体而言，下面是一些捕获的事件示例：</span><span class="sxs-lookup"><span data-stu-id="c1f38-105">For Microsoft Teams specifically, below are a few examples of events captured:</span></span>
+<span data-ttu-id="d3393-104">审核日志可帮助你调查 Office 365 服务中的特定活动。</span><span class="sxs-lookup"><span data-stu-id="d3393-104">The audit log can help you investigate specific activities across Office 365 services.</span></span> <span data-ttu-id="d3393-105">对于 Teams，审核的部分活动包括：</span><span class="sxs-lookup"><span data-stu-id="d3393-105">For Teams, here are some of the activities that are audited:</span></span>
 
--   <span data-ttu-id="c1f38-106">团队创建</span><span class="sxs-lookup"><span data-stu-id="c1f38-106">Team Creation</span></span>
+-   <span data-ttu-id="d3393-106">团队创建</span><span class="sxs-lookup"><span data-stu-id="d3393-106">Team Creation</span></span>
 
--   <span data-ttu-id="c1f38-107">团队删除</span><span class="sxs-lookup"><span data-stu-id="c1f38-107">Team Deletion</span></span>
+-   <span data-ttu-id="d3393-107">团队删除</span><span class="sxs-lookup"><span data-stu-id="d3393-107">Team Deletion</span></span>
 
--   <span data-ttu-id="c1f38-108">添加了频道</span><span class="sxs-lookup"><span data-stu-id="c1f38-108">Added Channel</span></span>
+-   <span data-ttu-id="d3393-108">添加频道</span><span class="sxs-lookup"><span data-stu-id="d3393-108">Added Channel</span></span>
 
--   <span data-ttu-id="c1f38-109">更改了设置</span><span class="sxs-lookup"><span data-stu-id="c1f38-109">Changed Setting</span></span>
+-   <span data-ttu-id="d3393-109">更改设置</span><span class="sxs-lookup"><span data-stu-id="d3393-109">Changed Setting</span></span>
 
-<span data-ttu-id="c1f38-110">Office 365 中的完整事件列表相当广泛，请参阅[此处](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US#ID0EABAAA=Audited_activities)。</span><span class="sxs-lookup"><span data-stu-id="c1f38-110">The complete event list across Office 365 is quite extensive and can be found [here](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US#ID0EABAAA=Audited_activities).</span></span>
+<span data-ttu-id="d3393-110">要查看 Office 365 中审核的活动的完整列表，请阅读[在 Office 365 安全与合规中心搜索审核日志](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c?=&PickTab=Activities&ad=US#PickTab=Activities)。</span><span class="sxs-lookup"><span data-stu-id="d3393-110">To see the complete list of activities that are audited in Office 365, read [Search the audit log in the Office 365 Security & Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c?=&PickTab=Activities&ad=US#PickTab=Activities).</span></span>
 
-<span data-ttu-id="c1f38-111">必须先启用审核，你才可以深入探索审核。</span><span class="sxs-lookup"><span data-stu-id="c1f38-111">Before you can dig into audit insights, auditing must first be enabled.</span></span> <span data-ttu-id="c1f38-112">要启用审核，请访问*安全性和合规性*管理中心。</span><span class="sxs-lookup"><span data-stu-id="c1f38-112">To enable Auditing, navigate to the *Security & Compliance* Admin Center.</span></span> <span data-ttu-id="c1f38-113">在*“搜索活动”*下方，单击**“立即开始录制”**。</span><span class="sxs-lookup"><span data-stu-id="c1f38-113">Under *Search for activity*, click on **Start recording now**.</span></span> <span data-ttu-id="c1f38-114">24 小时后，可以通过位于*“搜索和调查”*选项卡下方的*“审核日志搜索”*获取审核数据。</span><span class="sxs-lookup"><span data-stu-id="c1f38-114">After 24hrs, audit data will be available via *Audit Log Search* located under the *Search & Investigation* tab.</span></span>
+## <a name="turn-on-auditing-in-teams"></a><span data-ttu-id="d3393-111">在 Teams 中启用审核</span><span class="sxs-lookup"><span data-stu-id="d3393-111">Turn on auditing in Teams</span></span>
+
+<span data-ttu-id="d3393-112">在查看审核数据之前，你必须首先在**安全与合规中心** (https://protection.office.com) 启用审核。</span><span class="sxs-lookup"><span data-stu-id="d3393-112">Before you can look at audit data, you have to first turn on auditing in the **Security & Compliance Center**(https://protection.office.com).</span></span> <span data-ttu-id="d3393-113">有关启用审核的帮助，请阅读[启用或关闭 Office 365 审核日志搜索](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。</span><span class="sxs-lookup"><span data-stu-id="d3393-113">For help turning on auditing, read [Turn Office 365 audit log search on or off](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).</span></span>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="c1f38-115">只能在启用了审核的点获取审核数据。</span><span class="sxs-lookup"><span data-stu-id="c1f38-115">Audit data is only available from the point at which Auditing was enabled.</span></span>
+> <span data-ttu-id="d3393-114">只有在启用审核后才能获取审核数据。</span><span class="sxs-lookup"><span data-stu-id="d3393-114">Audit data is only available from the point at which Auditing was enabled.</span></span>
 
 
 
-![安全性和合规性中心的“审核日志搜索”页面屏幕截图。](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image2.png)
+## <a name="retrieve-teams-data-from-the-audit-log"></a><span data-ttu-id="d3393-115">从审核日志检索 Teams 数据</span><span class="sxs-lookup"><span data-stu-id="d3393-115">Retrieve Teams data from the audit log</span></span>
 
-<span data-ttu-id="c1f38-117">现在，我们来看看如何从审核日志检索 Microsoft Teams 数据：</span><span class="sxs-lookup"><span data-stu-id="c1f38-117">Now, let’s look at how to retrieve Microsoft Teams data from the Audit Log:</span></span>
-
-1.  <span data-ttu-id="c1f38-118">要检索审核日志信息，请导航到[安全性和合规性管理中心](https://go.microsoft.com/fwlink/?linkid=855775)。</span><span class="sxs-lookup"><span data-stu-id="c1f38-118">To retrieve Audit Log information, navigate to the [Security & Compliance Admin Center](https://go.microsoft.com/fwlink/?linkid=855775).</span></span> <span data-ttu-id="c1f38-119">在*“搜索和调查”*下方，选择**“审核日志搜索”**。</span><span class="sxs-lookup"><span data-stu-id="c1f38-119">Under *Search & Investigation*, select **Audit log search.**</span></span>
-
-    <span data-ttu-id="c1f38-120">a.</span><span class="sxs-lookup"><span data-stu-id="c1f38-120">a.</span></span>  <span data-ttu-id="c1f38-121">Microsoft Teams 已定义可以选择的审核活动，如下所示。</span><span class="sxs-lookup"><span data-stu-id="c1f38-121">Microsoft Teams has defined audit activities that can be selected as shown below.</span></span>
+1.  <span data-ttu-id="d3393-116">要检索审核日志，请转到[安全与合规性中心](https://go.microsoft.com/fwlink/?linkid=855775)。</span><span class="sxs-lookup"><span data-stu-id="d3393-116">To retrieve audit logs, go to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=855775).</span></span> <span data-ttu-id="d3393-117">在“**搜索和调查**”下方，选择“**审核日志搜索**”。</span><span class="sxs-lookup"><span data-stu-id="d3393-117">Under **Search & Investigation**, select **Audit log search.**</span></span>
 
 ![安全性和合规性中心的“审核日志搜索”页面屏幕截图。](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
 
-2.  <span data-ttu-id="c1f38-123">选择感兴趣的活动后，提供要基于其检索 Microsoft Teams 信息的日期范围和用户。</span><span class="sxs-lookup"><span data-stu-id="c1f38-123">After selecting the activities of interest, supply a date range and users to retrieve Microsoft Teams information from.</span></span> <span data-ttu-id="c1f38-124">单击**“搜索”**检索结果。</span><span class="sxs-lookup"><span data-stu-id="c1f38-124">Click **Search** to retrieve the results.</span></span>
+2.  <span data-ttu-id="d3393-119">使用“**搜索**”按活动、日期和你要审核的用户进行筛选。</span><span class="sxs-lookup"><span data-stu-id="d3393-119">Use **Search** to filter by the activities, dates, and users you want to audit.</span></span>
 
-3.  <span data-ttu-id="c1f38-125">此信息可以导出到 Excel，并可以根据需要筛选。</span><span class="sxs-lookup"><span data-stu-id="c1f38-125">This information can be exported to Excel and filtered as needed.</span></span>
+3.  <span data-ttu-id="d3393-120">将结果导出到 Excel 以供进一步分析。</span><span class="sxs-lookup"><span data-stu-id="d3393-120">Export your results to Excel for further analysis.</span></span>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="c1f38-126">如果以前未启用审核，则需要将其启用，数据才会显示在审核日志中。</span><span class="sxs-lookup"><span data-stu-id="c1f38-126">If auditing has not been enabled previously, that needs to be enabled before data will appear in the Audit Log.</span></span>
+> <span data-ttu-id="d3393-121">审核数据仅在审核启用后在审核日志中显示。</span><span class="sxs-lookup"><span data-stu-id="d3393-121">Audit data is only visible in the Audit Log if auditing is turned on.</span></span>
+
+## <a name="video-techtip-using-audit-log-search-in-teams"></a><span data-ttu-id="d3393-122">视频：技术提示：在 Teams 中使用审核日志搜索</span><span class="sxs-lookup"><span data-stu-id="d3393-122">Video: TechTip: Using Audit Log Search in Teams</span></span>
+
+<span data-ttu-id="d3393-123">加入 Teams 计划经理 Ansuman Acharya，他将说明如何在 Office 365 安全与合规中心执行 Teams 审核日志搜索。</span><span class="sxs-lookup"><span data-stu-id="d3393-123">Join Ansuman Acharya, a program manager for Teams, as he demonstrates conducting an Audit Log search for Teams in the Office 365 Security & Compliance Center.</span></span> 
+
+
+> [!VIDEO https://www.youtube.com/embed/UBxaRySAxyE]
+
+
+
+
 
 

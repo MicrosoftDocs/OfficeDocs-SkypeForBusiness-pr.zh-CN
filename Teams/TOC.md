@@ -20,7 +20,7 @@
 ## [在 Teams 中创建团队时规划 Office 365 组](plan-Office-365-groups.md)
 ## [为 Teams 准备贵组织的网络](prepare-network.md)
 ## [Office 365 URL 和 IP 地址范围](Office-365-URLs-IP-address-ranges.md)
-## [研讨会工具包：规划、交付和运营 Teams](planning-workshop-practical-guide.md)
+## [工具和研讨会：规划、交付和运营 Teams](planning-workshop-practical-guide.md)
 
 # 采用
 ## [为 Teams 创建变更管理策略](change-management-strategy.md)
