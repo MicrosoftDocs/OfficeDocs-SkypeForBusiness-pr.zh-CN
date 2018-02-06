@@ -1,46 +1,50 @@
 ---
-title: "英国电话号码管理"
+title: "英国的电话号码管理"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 104dea98-6d0a-4c45-ba79-ea568e588c77
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
-ms.custom: Calling Plans
-description: "使用此表可以找到有关获取和 Skype 的在线业务管理英国的电话号码。"
-ms.openlocfilehash: 51f72b24055ee9b99f869b30bc7f5a7c41048bd1
-ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
-ms.translationtype: MT
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "使用此表查找有关获取和管理适用于 Skype for Business Online 的英国电话号码的信息。"
+ms.openlocfilehash: 8795f835bb2ad515f1a3c7ec38e3e452d7d45ddb
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="phone-number-management-for-the-uk"></a><span data-ttu-id="3f7e6-103">英国电话号码管理</span><span class="sxs-lookup"><span data-stu-id="3f7e6-103">Phone number management for the U.K.</span></span>
+# <a name="phone-number-management-for-the-uk"></a><span data-ttu-id="a0d32-103">英国的电话号码管理</span><span class="sxs-lookup"><span data-stu-id="a0d32-103">Phone number management for the U.K.</span></span>
 
-<span data-ttu-id="3f7e6-104">使用此表可以找到有关获取和 Skype 的在线业务管理英国的电话号码。</span><span class="sxs-lookup"><span data-stu-id="3f7e6-104">Use this table to find information on getting and managing phone numbers in the United Kingdom for Skype for Business Online.</span></span> 
+<span data-ttu-id="a0d32-104">使用此表查找有关获取和管理适用于 Skype for Business Online 的英国电话号码的信息。</span><span class="sxs-lookup"><span data-stu-id="a0d32-104">Use this table to find information on getting and managing phone numbers in the United Kingdom for Skype for Business Online.</span></span> 
   
-<span data-ttu-id="3f7e6-105">有关详细信息，请参阅[管理您的组织的电话号码](manage-phone-numbers-for-your-organization.md)。</span><span class="sxs-lookup"><span data-stu-id="3f7e6-105">For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).</span></span>
+<span data-ttu-id="a0d32-105">有关详细信息，请参阅[为你的组织管理电话号码](manage-phone-numbers-for-your-organization.md)。</span><span class="sxs-lookup"><span data-stu-id="a0d32-105">For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).</span></span>
   
-|<span data-ttu-id="3f7e6-106">**您要不要？**</span><span class="sxs-lookup"><span data-stu-id="3f7e6-106">**What you want to do?**</span></span>|<span data-ttu-id="3f7e6-107">**下载正确的窗体**</span><span class="sxs-lookup"><span data-stu-id="3f7e6-107">**Download the correct forms**</span></span>|
+|<span data-ttu-id="a0d32-106">**你要做什么？**</span><span class="sxs-lookup"><span data-stu-id="a0d32-106">**What do you want to do?**</span></span>|<span data-ttu-id="a0d32-107">**下载正确的表单**</span><span class="sxs-lookup"><span data-stu-id="a0d32-107">**Download the correct forms**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="3f7e6-108">您需要获取未列出的用户数量在 Skype 业务管理中心。</span><span class="sxs-lookup"><span data-stu-id="3f7e6-108">You need to get user numbers that aren't listed in the Skype for Business admin center.</span></span>  <br/> |<span data-ttu-id="3f7e6-109">下载[新电话号码请求英国 （地理号） (v.3.0)(en.us)](../../downloads/nnew-phone-number-request-for-the-u.k.-(geographic-numbers)-(v.3.0)-(en.us).pdf)窗体中，填充出来并[将其发送给我们](mailto:ptneu@microsoft.com)。</span><span class="sxs-lookup"><span data-stu-id="3f7e6-109">Download the [New phone number request for the U.K. (geographic numbers) (v.3.0)(en.us)](../../downloads/nnew-phone-number-request-for-the-u.k.-(geographic-numbers)-(v.3.0)-(en.us).pdf) form, fill it out and [send it to us](mailto:ptneu@microsoft.com).</span></span>  <br/> |
-|<span data-ttu-id="3f7e6-110">您需要获取转移到我们的电话号码。</span><span class="sxs-lookup"><span data-stu-id="3f7e6-110">You need to get phone numbers transferred to us.</span></span>  <br/> |<span data-ttu-id="3f7e6-111">下载下列形式之一：</span><span class="sxs-lookup"><span data-stu-id="3f7e6-111">Download one of these forms:</span></span> <br/> <span data-ttu-id="3f7e6-112">[字母的授权 (LOA) 英国 （地理号） (v.2.0)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en.us).pdf)</span><span class="sxs-lookup"><span data-stu-id="3f7e6-112">[Letter of Authorization (LOA) for the U.K. (geographic numbers) (v.2.0)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en.us).pdf)</span></span> <br/> <span data-ttu-id="3f7e6-113">[字母的授权 (LOA) 英国 （非地理号） (v.2.1)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en.us).pdf)</span><span class="sxs-lookup"><span data-stu-id="3f7e6-113">[Letter of Authorization (LOA) for the U.K. (non-geographic numbers) (v.2.1)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en.us).pdf)</span></span> <br/>  <span data-ttu-id="3f7e6-114">填充出来并[将其发送给我们](mailto:ptneu@microsoft.com)。</span><span class="sxs-lookup"><span data-stu-id="3f7e6-114">Fill it out and [send it to us](mailto:ptneu@microsoft.com).</span></span>  <br/> |
-|<span data-ttu-id="3f7e6-115">您需要发布/取消发布全国电话目录中的电话号码。</span><span class="sxs-lookup"><span data-stu-id="3f7e6-115">You need to publish/unpublish phone number(s) in the national phone directory.</span></span>  <br/> |<span data-ttu-id="3f7e6-116">[向我们发送](mailto:ptneu@microsoft.com)您要发布/取消发布的电话号码列表。</span><span class="sxs-lookup"><span data-stu-id="3f7e6-116">[Send us](mailto:ptneu@microsoft.com) the list of phone numbers you want to publish/unpublish.</span></span> <br/> |
-|<span data-ttu-id="3f7e6-117">您需要更改到一个服务号用户的号码。</span><span class="sxs-lookup"><span data-stu-id="3f7e6-117">You need to change a user's number to a service number.</span></span>  <br/> |<span data-ttu-id="3f7e6-118">[向我们发送](mailto:ptneu@microsoft.com )您想要转换为服务号用户号码的列表。</span><span class="sxs-lookup"><span data-stu-id="3f7e6-118">[Send us](mailto:ptneu@microsoft.com ) the list of user numbers you want to convert to service numbers.</span></span> <br/> |
+|<span data-ttu-id="a0d32-108">你需要获取未在 Skype for Business 管理中心列出的用户号码。</span><span class="sxs-lookup"><span data-stu-id="a0d32-108">You need to get user numbers that aren't listed in the Skype for Business admin center.</span></span>  <br/> |<span data-ttu-id="a0d32-109">下载[英国的新电话号码请求（地理号码）(v.3.0)(en.us)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-u.k.-(geographic-numbers)-(v.3.0)-(en.us).pdf)，填写此请求并[将其发送给我们](mailto:ptneu@microsoft.com)。</span><span class="sxs-lookup"><span data-stu-id="a0d32-109">Download the [New phone number request for the U.K. (geographic numbers) (v.3.0)(en.us)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-u.k.-(geographic-numbers)-(v.3.0)-(en.us).pdf) form, fill it out and [send it to us](mailto:ptneu@microsoft.com).</span></span>  <br/> |
+|<span data-ttu-id="a0d32-110">你需要将电话号码转移给我们。</span><span class="sxs-lookup"><span data-stu-id="a0d32-110">You need to get phone numbers transferred to us.</span></span>  <br/> |<span data-ttu-id="a0d32-111">下载下列表单之一：</span><span class="sxs-lookup"><span data-stu-id="a0d32-111">Download one of these forms:</span></span> <br/> <span data-ttu-id="a0d32-112">[英国授权书 (LOA)（地理号码）(v.2.0)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en.us).pdf)</span><span class="sxs-lookup"><span data-stu-id="a0d32-112">[Letter of Authorization (LOA) for the U.K. (Subscriber numbers) (v.2.0)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en.us).pdf)</span></span> <br/> <span data-ttu-id="a0d32-113">[英国授权书 (LOA)（非地理号码）(v.2.1)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en.us).pdf)</span><span class="sxs-lookup"><span data-stu-id="a0d32-113">[Letter of Authorization (LOA) for the U.K. (Subscriber numbers) (v.2.0)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en.us).pdf)</span></span> <br/>  <span data-ttu-id="a0d32-114">填写此请求并[将其发送给我们](mailto:ptneu@microsoft.com)。</span><span class="sxs-lookup"><span data-stu-id="a0d32-114">Fill it out and [send it to us](mailto:ptneu@microsoft.com).</span></span>  <br/> |
+|<span data-ttu-id="a0d32-115">你需要在国家电话目录中发布/取消发布电话号码。</span><span class="sxs-lookup"><span data-stu-id="a0d32-115">You need to publish/unpublish phone number(s) in the national phone directory.</span></span>  <br/> |<span data-ttu-id="a0d32-116">[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。</span><span class="sxs-lookup"><span data-stu-id="a0d32-116">[Send us](mailto:ptneu@microsoft.com) the list of phone numbers you want to publish/unpublish.</span></span> <br/> |
+|<span data-ttu-id="a0d32-117">你需要将用户的号码更改为服务号码。</span><span class="sxs-lookup"><span data-stu-id="a0d32-117">You need to change a user's number to a service number.</span></span>  <br/> |<span data-ttu-id="a0d32-118">[向我们发送](mailto:ptneu@microsoft.com )你想要转换为服务号码的用户号码列表。</span><span class="sxs-lookup"><span data-stu-id="a0d32-118">[Send us](mailto:ptneu@microsoft.com ) the list of user numbers you want to convert to service numbers.</span></span> <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="3f7e6-119">相关主题</span><span class="sxs-lookup"><span data-stu-id="3f7e6-119">Related topics</span></span>
-[<span data-ttu-id="3f7e6-120">不同种类的用于调用计划的电话号码</span><span class="sxs-lookup"><span data-stu-id="3f7e6-120">Different kinds of phone numbers used for Calling Plans</span></span>](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+## <a name="related-topics"></a><span data-ttu-id="a0d32-119">相关主题</span><span class="sxs-lookup"><span data-stu-id="a0d32-119">Related topics</span></span>
+[<span data-ttu-id="a0d32-120">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="a0d32-120">Different kinds of phone numbers used for Calling Plans</span></span>](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="3f7e6-121">管理您的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="3f7e6-121">Manage phone numbers for your organization</span></span>](manage-phone-numbers-for-your-organization.md)
+[<span data-ttu-id="a0d32-121">管理你的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="a0d32-121">Show phone numbers for your organization</span></span>](manage-phone-numbers-for-your-organization.md)
 
-[<span data-ttu-id="3f7e6-122">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="3f7e6-122">Emergency calling terms and conditions</span></span>](../emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="a0d32-122">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="a0d32-122">Emergency calling terms and conditions</span></span>](../emergency-calling-terms-and-conditions.md)
 
-[<span data-ttu-id="3f7e6-123">Skype for Business Online：紧急呼叫免责标签</span><span class="sxs-lookup"><span data-stu-id="3f7e6-123">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+[<span data-ttu-id="a0d32-123">Skype for Business Online：紧急呼叫免责声明标签</span><span class="sxs-lookup"><span data-stu-id="a0d32-123">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
 
