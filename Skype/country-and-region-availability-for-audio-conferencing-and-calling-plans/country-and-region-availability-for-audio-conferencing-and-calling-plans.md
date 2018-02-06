@@ -3,32 +3,38 @@ title: "音频会议和通话套餐的国家/地区可用性"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
-ms.date: 01/22/2018
+ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
+ms.date: 01/24/2018
 ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
+- Strat_SB_PSTN
 - LIL_Placement
 description: "你可以选择某个国家/地区以查看音频会议、电话系统、通话套餐、通信点数以及收费和免费电话号码是否可用。"
-ms.openlocfilehash: c1d378a37850d8fdb9fb8d4cda68cedb929ba204
-ms.sourcegitcommit: 3fb8ed855e72a28cd28c94f1414fbe81937d9422
+ms.openlocfilehash: 2024b5df01cd1cfa787883fa3b2337500b2dea61
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
 你可以选择某个国家或地区以查看音频会议、电话系统、通话套餐和通信点数是否可用。
+
+> [!Note]
+> 如果你正在查找包含所有国家和地区的电子表格，请下载并保存[所有国家和地区电子表格](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/downloads/country-region-availabilty/country-and-region-availability-(v.01242018)-(en.us).xlsx?raw=true)。
 
 ## <a name="select-your-country-or-region-to-see-whats-available-for-you"></a>选择你的国家或地区以查看对你可用的功能！
 
@@ -47,7 +53,7 @@ ms.lasthandoff: 01/23/2018
 > - [加拿大](availability-in-canada.md)
 > - [智利](availability-in-chile.md)
 > - [中国](availability-in-china.md)
-> - [哥伦比亚](availability-in-columbia.md)
+> - [哥伦比亚](availability-in-colombia.md)
 > - [哥斯达黎加](availability-in-costa-rica.md)
 > - [克罗地亚](availability-in-croatia.md)
 > - [塞浦路斯](availability-in-cyprus.md)
