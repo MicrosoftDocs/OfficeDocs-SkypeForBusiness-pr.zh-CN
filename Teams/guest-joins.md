@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
+ms.reviewer: laal
 description: "简要介绍如何在 Microsoft Teams 中邀请来宾加入团队。"
-ms.openlocfilehash: e7e847fb4f45fa4f026889af16b82cf0a3c47c67
-ms.sourcegitcommit: fe3da7145039ce514fbaa9443a4a1b9879dd6264
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 2aa3e0d720dcab80acf558b84a50b605da2bd4d3
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/15/2018
 ---
 <a name="how-a-guest-joins-a-team"></a>来宾加入团队的方式
 ========================
@@ -29,16 +32,16 @@ Microsoft Teams 中的团队所有者可以通过 Web 或桌面在其团队中�
 
 下面介绍来宾如何成为团队成员：
 
-- **第 1 步** 团队所有者或 Office 365 管理员[向团队添加来宾](https://support.office.com/en-us/article/adds-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_addingguests)。
+- **第 1 步** 团队所有者或 Office 365 管理员[向团队添加来宾](https://support.office.com/article/adds-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_addingguests)。
     
   
 - **第 2 步** Office 365 管理员或团队所有者可以根据需要管理来宾的权限。 例如，允许来宾添加或删除频道，或者禁用对文件的访问权限。
     
   
-- **第 3 步** 来宾收到来自团队所有者的欢迎电子邮件，邀请其加入团队。 来宾接受邀请后，可以[参与团队和频道](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels)、接收和响应频道消息、[访问频道中的文件](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)以及参与聊天。 使用 Teams 时，文本和图标相结合为所有团队成员提供了来宾参与团队情况的清晰说明。 有关更多详细信息，请参阅[来宾体验介绍](guest-experience.md)。
+- **第 3 步** 来宾收到来自团队所有者的欢迎电子邮件，邀请其加入团队。 来宾接受邀请后，可以[参与团队和频道](https://support.office.com/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels)、接收和响应频道消息、[访问频道中的文件](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)以及参与聊天。 使用 Teams 时，文本和图标相结合为所有团队成员提供了来宾参与团队情况的清晰说明。 有关更多详细信息，请参阅[来宾体验介绍](guest-experience.md)。
     
   
-来宾随时可以通过 Teams Web 和桌面客户端离开团队。 有关详细信息，请参阅[如何离开团队？](https://support.office.com/en-us/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
+来宾随时可以通过 Teams Web 和桌面客户端离开团队。 有关详细信息，请参阅[如何离开团队？](https://support.office.com/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
 
 > [!NOTE]
 > 尽管用户可以将团队留为己用，但只有管理员可以从租户中删除用户。 

@@ -8,11 +8,13 @@ ms.topic: article
 ms.service: msteams
 description: "了解在使用 Teams 客户端或 Office 365 管理 Web 控制台的情况下，规划 Office 365 时应制定的决策（例如，选择公用组和专用组），以及如何指导你的团队使用对话。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 330cb6e8eb572fc2fb4141a2cea8a0ad6055d309
-ms.sourcegitcommit: 9861cc3eca070ef1c6b7375896ae1978a438c772
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 2b421d2a87a6c70f1d663366b65a47d35260b484
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/15/2018
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>在 Microsoft Teams 中创建团队时规划 Office 365 组
 ==========================================================
@@ -37,8 +39,8 @@ ms.lasthandoff: 01/25/2018
 
 要了解 Office 365 组的就绪和采用内容，建议参阅以下文章：
 
--   [在 Outlook 中通过组获得更多](https://support.office.com/en-us/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
+-   [在 Outlook 中通过组获得更多](https://support.office.com/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
 
 <!-- -->
 
--   [在 Office 365 管理中心中管理组成员身份](https://support.office.com/en-us/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
+-   [在 Office 365 管理中心中管理组成员身份](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)

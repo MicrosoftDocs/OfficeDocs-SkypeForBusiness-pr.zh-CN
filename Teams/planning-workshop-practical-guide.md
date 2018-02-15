@@ -6,20 +6,23 @@ manager: lolaj
 ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara, lolaj, rowille
 description: "用于帮助管理员开始使用 Microsoft Teams 的规划工具、研讨会和入门工具包。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e14c16ddd71114e90af15174266f14bbbbc5982e
-ms.sourcegitcommit: 6f5fc17ffdc1ef3b3eec42e17f7bebda88cb000b
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cf4b7dad507ee10743df986ca6c489af2bf165b3
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/15/2018
 ---
 <a name="tools-and-workshops-plan-deliver-and-operate-microsoft-teams"></a>工具和研讨会：规划、交付和运营 Microsoft Teams
 =============================================================
 
 下载这些工具以指导你在贵组织中规划、交付和运营 Teams。
 
-- [Microsoft Teams 入门工具包](http://microsoft.com/en-us/download/56505) 
+- [Microsoft Teams 入门工具包](http://microsoft.com/download/56505) 
     
     本指南提供了在贵组织中的不同岗位充分利用 Teams 的提示，包括市场营销、销售、财务、人力资源、信息技术、工程和项目管理。
 
