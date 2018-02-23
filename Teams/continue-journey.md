@@ -8,11 +8,13 @@ ms.topic: article
 ms.service: msteams
 description: "继续从 Skype for Business 到 Microsoft Teams 的旅程指导。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c6a5400ba84c01acd9e53b0cbbe526cbdda92f38
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 803795bb5c6cf3617105938ad964ccc9e3d84fdd
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="drive-value-with-microsoft-teams-through-user-adoption"></a>通过用户采用推动使用 Microsoft Teams 实现价值
 ================================================================

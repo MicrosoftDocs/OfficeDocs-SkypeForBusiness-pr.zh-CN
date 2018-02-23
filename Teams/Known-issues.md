@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 12/20/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: alexb, ninadara, v-leslc
 description: "Microsoft Teams 客户端应用和管理体验的已知问题当前列表"
-ms.openlocfilehash: 32eb38ed3e90a3a57f789b2ba5c4566d2a52e115
-ms.sourcegitcommit: f332028d01a15272da0b09c6d751dbf227cb2d30
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 11c2999f5dcda6ca323ede6fcfa775ad8de726d4
+ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
   
@@ -21,7 +24,7 @@ ms.lasthandoff: 01/17/2018
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |欧盟地区和亚太地区的客户在从其他租户添加来宾用户时收到错误    <br/> | 欧盟地区和亚太地区的客户遇到 Microsoft Teams 与 Azure Active Directory 之间出现复制延迟的问题。 当来自欧盟地区或亚太地区某个租户的用户尝试从任何其他租户添加来宾用户时，收到要求他们重试的错误消息。   <br/> |再次单击重试按钮以执行来宾用户添加操作。  <br/> |11/8/17  <br/> |
-|当你尝试从 Internet Explorer 或 Edge 加入 Teams 时，程序持续循环或崩溃并且无法登录。   <br/> | 贵组织使用 Internet Explorer 中的受信任站点，基于 Web 的 Teams 应用程序无法正常登录，因为 Teams 的受信任站点不被允许。 <br/>|使用管理员权限或群组策略对象，对 IE 设置进行下列更改：<br/><ol><li>在“Internet 选项”&gt;“隐私”&gt;“高级”下，接受第一方和第三方 Cookie，并选中“总是允许会话 Cookie”复选框。</li><li>单击“Internet 选项”&gt;“受信任站点”&gt;“站点”，然后添加下列所有站点：<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>注意</b>：始终验证并允许 Teams 的所有受信任 URL 以及以下文档中的要求：[Office 365 URL 和 IP 地址范围](httpds://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)   <br/> <br/>|11/1/17  <br/> |
+|当你尝试从 Internet Explorer 或 Edge 加入 Teams 时，程序持续循环或崩溃并且无法登录。   <br/> | 贵组织使用 Internet Explorer 中的受信任站点，基于 Web 的 Teams 应用程序无法正常登录，因为 Teams 的受信任站点不被允许。 <br/>|使用管理员权限或群组策略对象，对 IE 设置进行下列更改：<br/><ol><li>在“Internet 选项”&gt;“隐私”&gt;“高级”下，接受第一方和第三方 Cookie，并选中“总是允许会话 Cookie”复选框。</li><li>单击“Internet 选项”&gt;“受信任站点”&gt;“站点”，然后添加下列所有站点：<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>注意</b>：始终验证并允许 Teams 的所有受信任 URL 以及以下文档中的要求：[Office 365 URL 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)   <br/> <br/>|11/1/17  <br/> |
 |按照策略要求，在 OWA/Outlook 上未阻止向 Teams 上载照片   <br/> | Teams 允许用户直接将照片上载到 Office 365，不论策略设置如何，而不是对 OWA 阻止照片上载。   <br/> <br/> |10/16/17  <br/> |
 |带参数的 Teams URL 在登录重定向后被截断  <br/> | 在 Internet Explorer 和 Edge 中，登录后第一次在 Teams Web 应用上打开共享 Teams 文件链接时，你将被重定向到错误的文档。 如果你已登录 Teams Web 应用并单击共享文件链接，链接将按预期正常工作。   <br/> <br/> |10/11/17  <br/> |
 |在 Intune 管理的移动设备上，用户可能无法切换帐户  <br/> |在 Intune 管理的移动设备上，用户可能无法切换帐户。  <br/> |无解决方法。  <br/> |9/20/17  <br/>|
@@ -51,7 +54,7 @@ ms.lasthandoff: 01/17/2018
 |Planner 单一登录 (SSO)  <br/> |SSO 不适用于 Planner。 在每个客户端上首次使用 Planner 时，必须重新登录。  <br/> |无解决方法。 正在准备进一步的身份验证增强功能。  <br/> |2017 年 2 月 28 日  <br/> |
 |无法保存个人资料图片  <br/> |Exchange 邮箱在本地托管时，用户无法保存其个人资料图片。  <br/> |无解决方法。  <br/> |2017 年 2 月 28 日  <br/> |
 |会议不可用  <br/> |Exchange 邮箱在本地托管时，不提供会议功能和图标。  <br/> |将本地部署升级到 Exchange 2016 CU3 或更高版本  <br/> |2017 年 2 月 28 日  <br/> |
-|没有为组邮箱启用存档（额外存储）功能  <br/> |在 Office 365 安全性和合规性中心中，全局管理员无法对组邮箱启用存档。 他们只能对用户邮箱执行此操作。  <br/> |如果组邮箱容量几乎已满，请联系 Microsoft Office 支持以扩展邮箱大小。  <br/> |2017 年 2 月 1 日  <br/> |
-|Safari Web 客户端支持  <br/> |尝试在 Safari 上打开 Microsoft Teams Web 客户端的用户被导向到下载桌面客户端。 Microsoft 正在着手准备 Safari 支持，并将通过 [Teams 路线图](http://aka.ms/TeamsRoadmap)共享更新。  <br/> |使用支持的 Internet 浏览器，包括：Internet Explorer 11、Microsoft Edge、最新版本的 Chrome 以及最新版本的 Firefox。  <br/> |2016 年 11 月 2 日  <br/> |  
+|没有为组邮箱启用存档（额外存储）功能  <br/> |在 Office 365 安全与合规中心中，全局管理员无法对组邮箱启用存档。 他们只能对用户邮箱执行此操作。  <br/> |如果组邮箱容量几乎已满，请联系 Microsoft Office 支持以扩展邮箱大小。  <br/> |2017 年 2 月 1 日  <br/> |
+|Safari Web 客户端支持  <br/> |尝试在 Safari 上打开 Microsoft Teams Web 客户端的用户被导向到下载桌面客户端。 Microsoft 正在着手准备 Safari 支持，并将通过 [Teams 路线图](http://aka.ms/TeamsRoadmap)共享更新。  <br/> |使用支持的 Internet 浏览器，包括：Internet Explorer 11、Microsoft Edge、Chrome 的最新版本（和前两个版本）以及 Firefox 的最新版本（和前两个版本）。  <br/> |2016 年 11 月 2 日  <br/> |  
 |团队成员无法加入临时会议。  <br/> |如果双方都使用最新的应用，则支持临时会议。 Windows Phone 应用尚不支持会议。  <br/> |下载并安装最新的桌面、iOS 或 Android 应用以加入会议。  <br/> |2016 年 11 月 2 日  <br/> |
 |本地 Skype for Business 用户无法收到我的消息  <br/> |Microsoft Teams 用户尝试向使用本地 Skype for Business 的其他人发送消息，无法完成消息传递。  <br/> | 支持 Teams 与 Skype for Business Online 上托管的用户之间的互操作性。 Teams 用户可以向使用 Skype for Business Online 的非 Teams 用户发送一对一聊天。 <br/> 不支持 Teams 与本地 Skype for Business 上托管的用户之间的互操作性。 Teams 用户无法向使用本地 Skype for Business 的非 Teams 用户发送一对一聊天。  <br/> |2016 年 11 月 2 日  <br/> |

@@ -6,24 +6,33 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "为了成功部署 Microsoft Teams，管理员可以使用的培训资源。"
-ms.openlocfilehash: e498987b7f20a276a4fc92771ebe2879162151e2
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.reviewer: lolaj, ninadara
+description: "为了成功部署和采用 Microsoft Teams，管理员可以使用的培训资源。"
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 7e1af76ead0cedd411000fcedc162662c9e29775
+ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/09/2018
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams 的最终用户培训
 =====================================
 
-使用这些培训资源可帮助贵组织上线使用 Microsoft Teams。 
+使用这些培训资源可帮助贵组织从 Microsoft Teams 受益。 
 
 |  |  |
 |---------|---------|
 | [Office 培训中心](https://support.office.com/article/Microsoft-Teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | 用于帮助你的用户充分利用 Microsoft Teams 的培训 |
 | [Microsoft Teams 帮助](https://support.office.com/teams) | Teams 最终用户产品文档 |
+| [欢迎使用 Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)  |  本指南可帮助你快速设置和运行 Teams，这是 Office 365 中以聊天为中心的工作区。 |
 | [Microsoft Teams 提示和技巧](https://support.office.com/office-training-center/Teams-tips) |  |
 | [Microsoft Teams 是什么？](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) | 简要介绍 Teams，这是团队合作的中心  |
-| Microsoft Teams 简介   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7oej3xIQy-Y" frameborder="0" allowfullscreen></iframe>   |
 | [YouTube 上的 Microsoft Teams 频道](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
+| [YouTube 上云频道中的增补内容](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |方法、最佳实践和功能介绍视频  |
+| Microsoft Teams 简介   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7oej3xIQy-Y" frameborder="0" allowfullscreen></iframe>   |
+| 只需 5 分钟即可设置很有用的 Teams、频道和选项卡   | <iframe width="350" height="200" src="https://youtu.be/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+29
+
+
 

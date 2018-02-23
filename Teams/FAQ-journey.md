@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 01/16/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: dearbeen
 description: "有关从 Skype for Business Online 到 Microsoft Teams 的旅程的常见问题。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1723241d5a56119f8f0754d85612aa6e263f56b5
-ms.sourcegitcommit: dd4b10e48e1e4954329eeea1e96aa21a324bfe61
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cdc10fda70358d9e8a2463bdde5c326ea201db4f
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2018
+ms.lasthandoff: 02/03/2018
 ---
 <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>FAQ - 从 Skype for Business 到 Microsoft Teams 的旅程
 ==========================================================

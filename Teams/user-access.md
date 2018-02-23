@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ritikag
 description: "了解如何基于每个用户启用或禁用用户级别访问。"
-ms.openlocfilehash: 66ec29077b83b799c85acce1b5869b82fb0b83f7
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 318d9467bf1565a50987b6716f2b0a1ad86999bf
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>管理对 Microsoft Teams 的用户访问
 =====================================
@@ -37,25 +40,33 @@ Microsoft Teams 用户级别许可证直接通过 Office 365 管理中心用户�
 
 除了使用 Office 365 管理中心外，Office 365 管理员还可以使用 Office 365 PowerShell 分配和删除许可证。 要为用户分配许可证，请使用以下语法：
 
+```
 Set-MsolUserLicense -UserPrincipalName "\<Account\>" -AddLicenses "\<AccountSkuId\>"
+```
 
-以下示例将 litwareinc:ENTERPRISEPACK (Office 365 Enterprise E3) 许可计划中的许可证分配给未授权用户 belindan@litwareinc.com。
+以下示例将 litwareinc:ENTERPRISEPACK（Office 365 企业版 E3）许可计划中的许可证分配给未授权用户 belindan@litwareinc.com。
 
+```
 Set-MsolUserLicense -UserPrincipalName "belindan@litwareinc.com" -AddLicenses "litwareinc:ENTERPRISEPACK"
+```
 
-有关更多详细信息和示例，请参阅[*使用 Office 365 PowerShell 为用户帐户分配许可证*](https://go.microsoft.com/fwlink/?linkid=855755)。
+有关更多详细信息和示例，请参阅[使用 Office 365 PowerShell 为用户帐户分配许可证](https://go.microsoft.com/fwlink/?linkid=855755)。
 
 要从现有用户帐户删除许可证，请使用以下语法：
 
+```
 Set-MsolUserLicense -UserPrincipalName \<Account\> -RemoveLicenses "\<AccountSkuId1\>", "\<AccountSkuId2\>"
+```
 
-以下示例从用户帐户 BelindaN@litwareinc.com 删除 litwareinc:ENTERPRISEPACK (Office 365 Enterprise E3) 许可证。
+以下示例从用户帐户 BelindaN@litwareinc.com 删除 litwareinc:ENTERPRISEPACK（Office 365 企业版 E3）许可证。
 
+```
 Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -RemoveLicenses "litwareinc:ENTERPRISEPACK"
+```
 
-有关更多详细信息和示例，请参阅[*使用 Office 365 PowerShell 从用户帐户删除许可证*](https://go.microsoft.com/fwlink/?linkid=855756)。
+有关更多详细信息和示例，请参阅[使用 Office 365 PowerShell 从用户帐户删除许可证](https://go.microsoft.com/fwlink/?linkid=855756)。
 
 | | | |
 |---------|---------|---------|
 |![决策点图标。](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |决策点         |<ul><li>贵组织在组织中上线 Microsoft Teams 的计划是什么？  （试点或开放）</li></ul>         |
-|![后续步骤图标。](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |后续步骤         |<ul><li>如果通过封闭式试点上线，请确定是通过许可还是有针对性的通信来上线。</li><li>根据决定，采取相应步骤来确保仅允许的试点用户可以访问 Microsoft Teams（如果需要）。</li><li>在下面记录用于规定将有权（无权）访问 Microsoft Teams 的用户的准则。</li></ul>         |
+|![后续步骤图标。](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |后续步骤         |<ul><li>如果通过封闭式试点上线，请确定是通过许可还是有针对性的通信来上线。</li><li>根据决定，采取相应步骤来确保仅允许的试点用户可以访问 Microsoft Teams（如果需要）。</li><li>记录用于规定将有权（或无权）访问 Microsoft Teams 的用户的准则。</li></ul>         |

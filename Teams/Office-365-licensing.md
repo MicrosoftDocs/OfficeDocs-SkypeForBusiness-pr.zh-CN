@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: dearbeen, ninadara
 description: "了解不同的 Office 365 许可证、哪些许可证支持用户使用 Microsoft Teams 以及如何启用或禁用它。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1ae50ce803281135f61e2d4ae4be7a5a8eac57bc
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 401788f354ad57bded48d59a54646d6c10235662
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>适用于 Microsoft Teams 的 Office 365 许可
 ========================================

@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: lucarras
 description: "了解如何使用内置选项卡和自定义选项卡来包括对话、文件、地图等功能。"
-ms.openlocfilehash: c4b76efc6c845eea36d4fc7ed9e4c34b0ec5e58e
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 6e3de0e5967fb99596d29c324187f94fcb0acc07
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>在 Microsoft Teams 中使用内置选项卡和自定义选项卡
 ==================================================

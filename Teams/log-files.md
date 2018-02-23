@@ -7,11 +7,13 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "了解 Microsoft Teams 生成的调试、媒体和桌面日志，可以在哪里找到它们，以及它们如何帮助进行故障排除。"
-ms.openlocfilehash: 109f23ce188c5046d7aeaef7abc9d952a7780f47
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: bef400cd5838848a0eb25f709e930611fac9ed6d
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在对 Microsoft Teams 进行故障排除时使用日志文件
 =================================================

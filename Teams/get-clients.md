@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara
 description: "了解如何使用支持 Microsoft Teams 的各种客户端，包括 Web、桌面（Windows 和 Mac）和移动（Android、iOS 和 Windows Phone）。"
-ms.openlocfilehash: c10dde0e2893bc11f1d5a01eed1c30ed37ff30a0
-ms.sourcegitcommit: 6ddf8daf3aa1f43c67cb5a57721cb01a9c409f7b
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 6fd2edaa5d751cf323b3a866463811ee0ae633b3
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 02/03/2018
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================
@@ -29,7 +32,11 @@ Web 客户端在连接到 [https://teams.microsoft.com](https://go.microsoft.com
 
 <a name="internet-browser-support"></a>Internet 浏览器支持
 ------------------------------
-Teams 支持下列 Internet 浏览器，包括：Internet Explorer 11、Microsoft Edge、最新版本的 Chrome 以及最新版本的 Firefox。
+Teams 支持以下 Internet 浏览器： 
+- Internet Explorer 11
+- Microsoft Edge
+- Chrome 的最新版本以及前两个版本
+- Firefox 的最新版本以及前两个版本
 
 > [!NOTE]
 > Safari 目前不受支持。 有关 Teams 中的新功能的新闻，请查看 [Teams 路线图](http://aka.ms/TeamsRoadmap)。 尝试在 Safari 中打开 Teams 的用户将被导向下载 Teams 桌面客户端。

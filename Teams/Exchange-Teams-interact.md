@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: crowe
 description: "了解 Microsoft Teams 与各种 Exchange 设置之间存在哪些功能，例如，创建和加入团队、创建频道等。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 4fc7da7d68c13bbadec935573c827cf767c9afe4
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 63a464234877c8a93ad0c6aeb61d9a4e8ee3068e
+ms.sourcegitcommit: e01d5af6fca7e8339d80f46c1a6c3f7a8d228bff
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/05/2018
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互 
 =========================================
@@ -50,6 +53,6 @@ ms.lasthandoff: 12/20/2017
 
 -   在 Microsoft Teams 中，安全性和合规性功能（例如，电子数据展示、内容搜索、存档和法定保留）在 Exchange Online 和 SharePoint Online 环境中完全正常。 对于频道对话，消息会记录到 Exchange Online 中的组邮箱，它们在此可用于电子数据展示。 如果在组织中为用户启用了 SharePoint Online 和 OneDrive for Business（使用工作帐户或学校帐户），也可以对 Teams 中的所有文件使用这些合规性功能。
 
-**重要提示：**   参与属于 Microsoft Teams 中聊天列表的对话的用户必须有 Exchange Online（基于云）邮箱，管理员才能搜索聊天对话。 这是因为属于聊天列表的对话存储在聊天参与者的基于云的邮箱中。 如果聊天参与者没有 Exchange Online 邮箱，管理员将无法搜索聊天对话，也无法将聊天对话中的内容置于保留状态。 例如，在 Exchange 混合部署中，具有本地邮箱的用户也许能参与属于 Microsoft Teams 中聊天列表的对话。 但是，在这种情况下，由于用户没有基于云的邮箱，这些对话中的内容不可搜索，也不可置于保留状态。 有关内容搜索和 Microsoft Teams 的更多详细信息，请参阅 [*Microsoft Teams 和 Office 365 组*](https://support.office.com/en-us/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)。
+**重要提示：**   参与属于 Microsoft Teams 中聊天列表的对话的用户必须有 Exchange Online（基于云）邮箱，管理员才能搜索聊天对话。 这是因为属于聊天列表的对话存储在聊天参与者的基于云的邮箱中。 如果聊天参与者没有 Exchange Online 邮箱，管理员将无法搜索聊天对话，也无法将聊天对话中的内容置于保留状态。 例如，在 Exchange 混合部署中，具有本地邮箱的用户也许能参与属于 Microsoft Teams 中聊天列表的对话。 但是，在这种情况下，由于用户没有基于云的邮箱，这些对话中的内容不可搜索，也不可置于保留状态。 有关内容搜索和 Microsoft Teams 的更多详细信息，请参阅[在 Office 365 安全与合规中心中运行内容搜索](https://support.office.com/en-us/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)。
 
 **提示：**   有关如何使用 Azure AD Connect 与 Azure Active Directory 同步的信息，请参阅[*将本地标识与 Azure Active Directory 集成*](https://go.microsoft.com/fwlink/?linkid=854600)。

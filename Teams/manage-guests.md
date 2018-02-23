@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
-description: 
-ms.openlocfilehash: 256fc1ceb44f2a8d9589044610d6bf05cb12cde7
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.reviewer: laal
+description: "IT 管理员可以在租户级别添加来宾、设置和管理来宾用户策略和权限、确定哪些用户可以邀请来宾以及获取有关来宾用户活动的报告。"
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: d665a5a837070eadbbd8d3f7e168da0ad97d642c
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="manage-guest-access-to-microsoft-teams"></a>管理对 Microsoft Teams 的来宾访问
 ======================================

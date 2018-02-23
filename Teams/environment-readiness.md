@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: dansteve
 description: "了解检查你的环境是否为 Microsoft Teams 准备好时要查看的内容。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: fbc76126220857d2864f9159d57fd663ce66fd7b
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 2bd50af24bab2699e6638adeed3b33e602ec5bb6
+ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/11/2018
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>检查你的环境是否为 Microsoft Teams 准备好
 ===========================================

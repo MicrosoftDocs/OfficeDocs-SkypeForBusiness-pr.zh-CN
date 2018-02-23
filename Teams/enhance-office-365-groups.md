@@ -8,11 +8,13 @@ ms.topic: article
 ms.service: msteams
 description: "了解如何使用 Microsoft Teams 将通讯组列表邀请到团队来增强 Office 365 组，以及如何添加启用邮件的安全组等。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 428915dc70a8044fd6a7b4202e5bdefed036daa9
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cf643d5b09ee7117bd451be135fac847c82c5edf
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>使用 Microsoft Teams 增强现有 Office 365 组
 =======================================================

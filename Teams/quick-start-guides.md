@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: lolaj
 description: "查找你设置和运行 Microsoft Teams 所需的快速入门指南。"
-ms.openlocfilehash: 523f13411887e971dcdcbc8ea301d867a79002a4
-ms.sourcegitcommit: 3fb8ed855e72a28cd28c94f1414fbe81937d9422
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: c9e7ed491ecb40abe870724abcbc3abd66c46732
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/03/2018
 ---
 <a name="quick-start-guides-for-microsoft-teams-admins"></a>Microsoft Teams 管理员快速入门指南
 =====================================
