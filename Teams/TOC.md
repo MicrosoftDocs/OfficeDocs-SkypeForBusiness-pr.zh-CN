@@ -5,6 +5,7 @@
 ## [适用于 Teams 的 Office 365 许可](Office-365-licensing.md)
 ## [Teams 中的团队和频道概述](teams-channels-overview.md)
 ## [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
+## [教程：使用 PowerShell 创建公司范围的团队](Company-wide-team-creation-powershell.yml)
 ## [Office 365 组和 Teams](Office-365-groups.md)
 ## [Exchange 与 Teams 如何交互](Exchange-Teams-interact.md)
 ## [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](SharePoint-OneDrive-interact.md)
@@ -36,11 +37,13 @@
 ## [管理对 Teams 的用户访问](user-access.md)
 ## [使用 Teams 增强现有 Office 365 组](enhance-office-365-groups.md)
 ## [配置 Exchange 混合组织以配合使用 Teams](Exchange-hybrid-organization.md)
+## [在 Outlook 中使用 Teams 会议外接程序](teams-add-in-for-outlook.md)
 ## [在 Exchange Online 中将 Teams SMTP 域添加为接受的域](SMTP-accepted-domain.md)
 ## [在 Teams 中使用内置选项卡和自定义选项卡](built-in-custom-tabs.md)
 ## [在 Teams 中使用 Office 365 和自定义连接器](Office-365-custom-connectors.md)
 ## [在 Teams 中为私人聊天和频道添加聊天机器人](add-bots.md)
 ## [Teams 中适用于应用的管理设置](admin-settings.md)
+## [使用 PowerShell 创建公司范围的团队](Company-wide-team-creation-powershell.yml)
 ## [Teams 的 PowerShell cmdlet 参考](https://docs.microsoft.com/powershell/module/teams)
 
 
@@ -61,10 +64,10 @@
 ### [展望](audio-conferencing.md#Envision_AudioConferencing)
 ## [具有通话套餐的电话系统](phone-system-with-calling-plans.md)
 ### [展望](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
-## 快速入门指南
-### [配置通话套餐](configuring-teams-calling-quickstartguide.md)
-## 视频
-### [音频会议](audio-conferencing-videos.md)
+## 通话套餐
+### [快速入门：配置通话套餐](configuring-teams-calling-quickstartguide.md)
+### [了解 Teams 中的通话功能](Tutorial-Calling-in-Teams.yml)
+
 
 # [从 Skype for Business 到 Teams 的旅程](Journey-SkypeforBusiness-Teams.md)
 ## [1 - 针对 Teams 优化你的当前 Skype for Business 环境](prepare-teams.md)
@@ -73,6 +76,7 @@
 ## [4 - 通过用户采用推动价值](continue-journey.md)
 ## [常见问题解答 - Skype for Business 和 Teams 愿景](FAQ-journey.md)
 ## [教程：从 Skype for Business 到 Teams 的旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+
 
 # 视频和培训
 ## [Teams 的 IT 管理员就绪](ITAdmin-readiness.md)
