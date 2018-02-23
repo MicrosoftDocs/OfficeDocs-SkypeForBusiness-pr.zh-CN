@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Microsoft Teams 中的安全性和合规性概述，包括审核和报告、合规性内容搜索以及电子数据展示等。"
+ms.reviewer: anach
+description: "Microsoft Teams 中的安全性和合规性功能概述，包括审核和报告、合规性内容搜索以及电子数据展示等。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: f0b01c70a313e3e9e1cd6240a1eb0b42fa744622
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 1cb2bfe08736f355f01d55d05be7c7091b79f396
+ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/11/2018
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和合规性概述
 ======================================================
@@ -21,21 +24,21 @@ Microsoft Teams 建立在 Office 365 超大规模企业级云之上，提供我�
 
 Teams 在上市时符合 Tier C 标准。 这包括以下标准：ISO 27001、ISO 27018、SSAE16 SOC 1 和 SOC 2、HIPAA 以及欧盟模型条款 (EUMC)。 在 Microsoft 合规性框架中，Microsoft 将 Office 365 应用和服务分类为四种类别。 每种类别均按特定的合规性承诺定义，Office 365 服务或相关的 Microsoft 服务必须履行这些承诺才能列在相应类别中。
 
-默认情况下启用合规性类别 C 和 D 中的服务，它们有行业领先的合规性承诺。 类别 A 和 B 中的服务提供了针对整个组织开启或关闭这些服务的控制功能。 有关详细信息，请参阅[行业标准和规章的合规性框架](https://go.microsoft.com/fwlink/?linkid=855777)。 Microsoft Teams 还支持云安全联盟合规性。
+默认情况下启用合规性类别 C 和 D 中的服务，它们有行业领先的合规性承诺。 类别 A 和 B 中的服务提供了针对整个组织开启或关闭这些服务的控制功能。 有关详细信息，请参阅[行业标准和规章的合规性框架](https://go.microsoft.com/fwlink/?linkid=855777)。 Teams 还支持云安全联盟合规性。
 
 Teams 还强制执行团队范围和组织范围的双重身份验证、通过 Active Directory 进行单一登录以及对正在传输的数据和静态数据加密。 文件存储在 SharePoint 中，并会进行 SharePoint 加密。 笔记存储在 OneNote 中，并会进行 OneNote 加密。
 
 我们还增加了以下支持：审核日志搜索、针对频道、聊天和文件的电子数据展示和法定保留，以及通过 Microsoft Intune 进行移动应用管理。
 
-这些工具位于 Office 365 安全性和合规性门户中，提供以下功能：
+这些工具位于 Office 365 安全与合规门户中，提供以下功能：
 
 -   审核和报告
 
-    -   审核日志搜索置于 Office 365 安全性和合规性中心中，进而可以通过提供审核日志数据对审核事件设置警报和/或进行报告，能够导出工作负荷特定或一般事件集以用于管理和调查，审核时间线无限制。 所有审核日志数据可用于在 Office 365 安全性和合规性中心中设置警报，以及用于筛选和报告以供进一步分析。
+    -   审核日志搜索置于 Office 365 安全与合规中心中，进而可以通过提供审核日志数据对审核事件设置警报和/或进行报告，能够导出工作负荷特定或一般事件集以用于管理和调查，审核时间线无限制。 所有审核日志数据可用于在 Office 365 安全与合规中心中设置警报，以及用于筛选和报告以供进一步分析。
 
 -   合规性内容搜索
 
-    -   可以使用内容搜索通过丰富的筛选功能搜索 Microsoft Teams，并可以将搜索结果导出到特定容器以用于合规性和诉讼活动。 在有无电子数据展示案例的情况下，均可执行此操作。
+    -   可以使用内容搜索通过丰富的筛选功能搜索 Teams，并可以将搜索结果导出到特定容器以用于合规性和诉讼活动。 在有无电子数据展示案例的情况下，均可执行此操作。
 
 -   电子数据展示
 
@@ -43,7 +46,7 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
     -   功能包括对 Teams 数据进行案例管理、保留、搜索、分析和导出。 这些数据包括聊天、消息传递和文件数据。
 
-    -   客户可以利用就地电子数据展示或[高级电子数据展示](https://support.office.com/en-us/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4)。
+    -   客户可以利用就地电子数据展示或[高级电子数据展示](https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4)。
 
     -   下表概括列出了这两者之间的差异：
 
@@ -62,7 +65,7 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 -   法定保留
 
-    -   当 Microsoft Teams 中的任何团队置于就地保留或诉讼保留时，将组邮箱置于保留状态。
+    -   当 Teams 中的任何团队置于就地保留或诉讼保留时，将组邮箱置于保留状态。
 
     -   通常在电子数据展示案例的上下文中应用法定保留。
 
@@ -112,23 +115,25 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 |![决策点图标。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |决策点         |贵组织是否有所需的许可证来满足合规性和安全性业务需求？         |
 |![后续步骤图标。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |后续步骤         |检查贵组织的当前许可，并确认其是否满足合规性和安全性的所有业务需求。         |
 
-在启用其中任何功能之前，请确保你有权访问 Office 365 管理中心中的安全性和合规性中心。 默认情况下，租户管理员有访问权限。
+在启用其中任何功能之前，请确保你有权访问 Office 365 管理中心中的安全与合规中心。 默认情况下，租户管理员有访问权限。
 
-不要求在安全性和合规性中心中启用内容搜索和电子数据展示。
+不要求在安全与合规中心中启用内容搜索和电子数据展示。
 
-<a name="location-of-data-in-microsoft-teams"></a>Microsoft Teams 中的数据的位置
------------------------------------
+<a name="location-of-data-in-teams"></a>Teams 中的数据的位置
+-------------------------
 
-Teams 中的数据基于租户相关性位于相应区域中。 当前，Teams 支持美洲、欧洲、中东和非洲以及亚太地区这些区域。 
+Teams 中的数据位于与你的 Office 365 租户关联的地理区域。 当前，Teams 支持美洲、欧洲、中东和非洲以及亚太地区这些区域。 
 
-自 2017 年 11 月 1 日起，Teams 在英国仅为新租户提供数据驻留。 新租户的定义是，该租户中没有任何一个用户登录过 Microsoft Teams。
+> [!IMPORTANT]
+> Teams 目前在英国和印度仅为新租户提供数据驻留。 新租户的定义是，该租户中没有任何一个用户登录过 Teams。 英国和印度的现有租户将继续分别保留在 EMEA 和 APAC 区域中，直至宣布迁移计划（预计在 2018 年）。
 
-> [!NOTE]
-> 英国的现有租户将继续保留在 EMEA 中，直至发布迁移计划（预计于 2018 年发布）。
+要详细了解为 Teams 启动英国和印度数据驻留的信息，请阅读 Ansuman Acharya 的博客文章 [Microsoft Teams 启动印度数据驻留，其他地理位置不久将启动](https://go.microsoft.com/fwlink/?linkid=867773)。
 
-有关详细信息，请参阅 Microsoft Teams 技术社区中有关启动英国数据驻留的[博客文章](https://go.microsoft.com/fwlink/p/?linkid=862275)。
+要查看哪些区域托管你的租户数据，请转到 [Office 365 管理中心](https://portal.office.com/adminportal/home) > “**设置**” > “**组织配置文件**”。 向下滚动到“**数据位置**”。 
 
-<a name="privacy-in-microsoft-teams"></a>Microsoft Teams 中的隐私
+![Office 365 管理中心中“数据位置”表（包括 Teams）的屏幕截图。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+
+<a name="privacy-in-teams"></a>Teams 中的隐私
 --------------------------
 
 作为 Office 365 的客户，你拥有并控制你的数据。 除了为你提供你已订阅的服务外，Microsoft 不会将你的数据用于任何其他用途。 作为服务提供商，我们不会扫描你的电子邮件、文档或团队来做广告或用于与服务无关的用途。 Microsoft 无权访问上载的内容。 对于 OneDrive for Business 和 SharePoint Online，客户数据位于租户中。

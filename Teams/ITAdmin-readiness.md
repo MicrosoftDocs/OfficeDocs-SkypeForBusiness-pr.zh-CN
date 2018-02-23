@@ -7,11 +7,13 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "这些培训视频介绍 Microsoft Teams，以及向管理员说明如何规划、部署和操作 Microsoft Teams。"
-ms.openlocfilehash: 30d728f1de60791a7d93fb7e59f5058cf66bfed5
-ms.sourcegitcommit: 02403b6dc6e0a9a0a590fbf41fa8a552d2f29e1f
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 550c306e80bcb76dc9c232bb3152b4514c3f7332
+ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/11/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 ==================================
@@ -24,6 +26,7 @@ ms.lasthandoff: 01/09/2018
 | [教程：从 Skype for Business 到 Teams 的旅程](tutorial-journey-skypeforbusiness-to-teams.yml) |浏览你需要了解的有关从 Skype for Business Online 到 Teams 的旅程的所有内容。  |
 | [快速入门 - Microsoft Teams 教育版管理员](teams-quick-start-edu.yml) |供教育版 IT 管理员在你的整个组织内部署 Teams。   |
 [快速入门指南：在 Microsoft Teams 中配置通话套餐](configuring-teams-calling-quickstartguide.md)| 有关在 Teams 中配置通话套餐的快速入门指南。 |
+| [教程：了解 Teams 中的通话功能](tutorial-calling-in-teams.yml)  |  此培训介绍 Teams 中的通话功能，这些功能由 Office 365 中的电话系统功能提供技术支持。 解释了实施电话系统所需的技术规划，如何对其进行配置，以及如何在你的实施中监控使用情况和通话质量。  |
 | [音频会议视频](audio-conferencing-videos.md) |向 IT 管理员介绍 Teams 中的音频会议的视频。  |
 | 部署和操作 Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
 | 深入了解来宾访问 <br>与 Laith Al 和 Karuana Gatimu 进行的云会话中的增补内容  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
