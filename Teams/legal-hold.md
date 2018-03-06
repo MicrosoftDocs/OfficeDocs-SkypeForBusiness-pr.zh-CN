@@ -2,24 +2,24 @@
 title: "将 Microsoft Teams 用户或团队置于法定保留状态"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: "了解如何使用安全与合规中心将 Microsoft Teams 用户或团队置于法定保留状态，以及了解根据数据要求哪些内容需要法定保留。"
+description: "了解如何使用安全性和合规性中心将 Microsoft Teams 用户或团队置于法定保留状态，以及了解根据数据要求哪些内容需要法定保留。"
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91e68a7a2a4b0ee787c6045efa93a4dc3f144d1e
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 66dbf943c34c095db39b9b5399f44872c28d583e
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>将 Microsoft Teams 用户或团队置于法定保留状态
 ==================================================
 
-要将用户或团队置于法定保留状态，请导航到[安全与合规中心](https://go.microsoft.com/fwlink/?linkid=854628)。 在你创建新案例时，系统会为你提供用于将邮箱或网站置于保留状态的选项。
+要将用户或团队置于法定保留状态，请导航到[安全性和合规性中心](https://go.microsoft.com/fwlink/?linkid=854628)。 在你创建新案例时，系统会为你提供用于将邮箱或网站置于保留状态的选项。
 
 > [!NOTE]
 > 将用户置于保留状态并不会自动将组置于保留状态，反之亦然。

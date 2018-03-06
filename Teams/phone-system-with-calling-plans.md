@@ -2,7 +2,7 @@
 title: "Microsoft Teams 中具有通话套餐的电话系统实践指导"
 author: arachmanGitHub
 ms.author: MyAdvisor
-manager: lolaj
+manager: serdars
 ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
@@ -11,11 +11,11 @@ description: "使用展望（规划）、上线（交付）、推动价值（运
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e476956c98e074306f971d58ad6dc9aab6aec0b
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: a5ed92ed1fd156279c32c2627b85eca170a457f0
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Microsoft Teams 中具有通话套餐的电话系统实践指导
 =========================================================================
@@ -320,7 +320,7 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 
 要直接从 Microsoft 获取电话号码，请使用以下任一选项：
 
-- [Skype for Business 管理中心](https://support.office.com/en-us/article/Getting-phone-numbers-for-your-users-aa2ec464-3481-4bbb-8c14-e13e18093df5)
+- [Skype for Business 管理中心](https://support.office.com/article/Getting-phone-numbers-for-your-users-aa2ec464-3481-4bbb-8c14-e13e18093df5)
 - [远程 Windows PowerShell cmdlet](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
 - [提交新电话号码申请表单][https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb]。
 
@@ -342,7 +342,7 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>确定将如何为通话套餐实施的范围内用户位置或办公地点获取电话号码（从 Microsoft 获取，或转移现有电话号码）</li><li>如果你选择从 Microsoft 获取，请确定用于为通话套餐实施的范围内用户位置或办公地点获取电话号码的方法（表单提交或自动）</li><li>确定要为通话套餐实施的范围内用户位置或办公地点收集的紧急位置信息的详细程度</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|后续步骤|<ul><li>记录电话号码获取的主计划，详细说明为通话套餐实施的范围内每个用户位置或办公地点获取电话号码的方式</li><li>如果适用，完成<a href="https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb">新电话号码申请表单</a>，每个位置或办公地点一个表单。</li><li>如果你选择转移现有电话号码，请参阅<a href="https://go.microsoft.com/fwlink/?linkid=859011">携号转网指南</a>以对其进行计划并相应地调整通话套餐实施时间线</li><li>记录通话套餐实施的范围内每个用户位置或办公地点的详细紧急地址和紧急位置</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|后续步骤|<ul><li>记录电话号码获取的主计划，详细说明为通话套餐实施的范围内每个用户位置或办公地点获取电话号码的方式</li><li>如果适用，完成<a href="https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb">新电话号码请求表单</a>，每个位置或办公地点一个表单。</li><li>如果你选择转移现有电话号码，请参阅<a href="https://go.microsoft.com/fwlink/?linkid=859011">携号转网指南</a>以对其进行计划并相应地调整通话套餐实施时间线</li><li>记录通话套餐实施的范围内每个用户位置或办公地点的详细紧急地址和紧急位置</li></ul>|
 
 > [!TIP]
 > 可以使用以下模板记录电话号码获取、电话号码和紧急位置的详细信息：

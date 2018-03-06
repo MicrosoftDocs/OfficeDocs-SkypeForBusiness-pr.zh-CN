@@ -2,7 +2,7 @@
 title: "Office 365 组和 Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ description: "了解 Office 365 组和组成员身份与 Microsoft Teams 如何�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e21a776e9cb259b9a4e73a1bfc7df3e0b408a50
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 981a3ba78f70f7ae1eb8ab90e1fb23a4e60a516e
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 组和 Microsoft Teams
 =====================================

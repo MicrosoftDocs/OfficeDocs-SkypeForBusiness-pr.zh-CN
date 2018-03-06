@@ -2,20 +2,20 @@
 title: "Microsoft Teams 中的安全性和合规性概述"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: "Microsoft Teams 中的安全性和合规性功能概述，包括审核和报告、合规性内容搜索以及电子数据展示等。"
+description: "Microsoft Teams 中的安全性和合规性概述，包括审核和报告、合规性内容搜索以及电子数据展示等。"
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1cb2bfe08736f355f01d55d05be7c7091b79f396
-ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
+ms.openlocfilehash: 376196b4f3d8479437eb4b4824c74574ae3012ce
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和合规性概述
 ======================================================
@@ -30,11 +30,11 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 我们还增加了以下支持：审核日志搜索、针对频道、聊天和文件的电子数据展示和法定保留，以及通过 Microsoft Intune 进行移动应用管理。
 
-这些工具位于 Office 365 安全与合规门户中，提供以下功能：
+这些工具位于 Office 365 安全性和合规性门户中，提供以下功能：
 
 -   审核和报告
 
-    -   审核日志搜索置于 Office 365 安全与合规中心中，进而可以通过提供审核日志数据对审核事件设置警报和/或进行报告，能够导出工作负荷特定或一般事件集以用于管理和调查，审核时间线无限制。 所有审核日志数据可用于在 Office 365 安全与合规中心中设置警报，以及用于筛选和报告以供进一步分析。
+    -   审核日志搜索置于 Office 365 安全性和合规性中心中，进而可以通过提供审核日志数据对审核事件设置警报和/或进行报告，能够导出工作负荷特定或一般事件集以用于管理和调查，审核时间线无限制。 所有审核日志数据可用于在 Office 365 安全性和合规性中心中设置警报，以及用于筛选和报告以供进一步分析。
 
 -   合规性内容搜索
 
@@ -115,9 +115,9 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 |![决策点图标。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |决策点         |贵组织是否有所需的许可证来满足合规性和安全性业务需求？         |
 |![后续步骤图标。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |后续步骤         |检查贵组织的当前许可，并确认其是否满足合规性和安全性的所有业务需求。         |
 
-在启用其中任何功能之前，请确保你有权访问 Office 365 管理中心中的安全与合规中心。 默认情况下，租户管理员有访问权限。
+在启用其中任何功能之前，请确保你有权访问 Office 365 管理中心中的安全性和合规性中心。 默认情况下，租户管理员有访问权限。
 
-不要求在安全与合规中心中启用内容搜索和电子数据展示。
+不要求在安全性和合规性中心中启用内容搜索和电子数据展示。
 
 <a name="location-of-data-in-teams"></a>Teams 中的数据的位置
 -------------------------

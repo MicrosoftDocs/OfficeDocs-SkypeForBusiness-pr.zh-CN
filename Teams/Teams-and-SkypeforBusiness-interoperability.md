@@ -2,7 +2,7 @@
 title: "Microsoft Teams 和 Skype for Business 互操作性"
 author: arachmanGitHub
 ms.author: MyAdvisor
-manager: lolaj
+manager: serdars
 ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ description: "了解 Teams 和 Skype for Business 之间的互操作性，以及
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08954783a3e0aaf8ae6b54c621ea21c67df6208e
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: ca1391aed7279bfb45adeca159b2a3aed6bcee30
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="microsoft-teams-and-skype-for-business-interoperability"></a>Microsoft Teams 和 Skype for Business 互操作性
 =======================================================

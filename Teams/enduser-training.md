@@ -2,7 +2,7 @@
 title: "Microsoft Teams 的最终用户培训"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ ms.reviewer: lolaj, ninadara
 description: "为了成功部署和采用 Microsoft Teams，管理员可以使用的培训资源。"
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e1af76ead0cedd411000fcedc162662c9e29775
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
+ms.openlocfilehash: d9889e88f031abc08a5052e87f8cffcfa814a42b
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams 的最终用户培训
 =====================================
@@ -31,7 +31,7 @@ ms.lasthandoff: 02/09/2018
 | [YouTube 上的 Microsoft Teams 频道](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
 | [YouTube 上云频道中的增补内容](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |方法、最佳实践和功能介绍视频  |
 | Microsoft Teams 简介   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7oej3xIQy-Y" frameborder="0" allowfullscreen></iframe>   |
-| 只需 5 分钟即可设置很有用的 Teams、频道和选项卡   | <iframe width="350" height="200" src="https://youtu.be/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+| 只需 5 分钟即可设置很有用的 Teams、频道和选项卡   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 29
 
 

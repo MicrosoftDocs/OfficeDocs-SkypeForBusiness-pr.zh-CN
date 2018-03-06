@@ -2,7 +2,7 @@
 title: "在 Microsoft Teams 中使用内容搜索"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ ms.reviewer: anach
 description: "了解 Microsoft Teams 中的内容搜索以及如何对来自 Exchange 的频道聊天、来自 SharePoint 的文件上载/修改以及 OneNote 更改进行搜索。"
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e3e74ee4f7285df38ac9d650c7fb2156bdd9225
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: a1d0540e616ae09ca15d0f349235b07a947b6561
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="use-content-search-in-microsoft-teams"></a>在 Microsoft Teams 中使用内容搜索
 =====================================

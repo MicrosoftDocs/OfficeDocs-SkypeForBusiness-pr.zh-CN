@@ -2,7 +2,7 @@
 title: "在 Exchange Online 中将 Microsoft Teams SMTP 域添加为接受的域"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ ms.reviewer: anprakas
 description: "了解如何在 Exchange Online 中将 Microsoft Teams SMTP 域添加为接受的域以向团队成员发送通知。"
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dcddc2f2d36ed4ec6dd0bc12038b88ac0ec93103
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 9f671d64b2928c3b5a81d38993143d9755ce42ba
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-accepted-domain-in-exchange-online"></a>在 Exchange Online 中将 Microsoft Teams SMTP 域添加为接受的域 
 =============================================================================

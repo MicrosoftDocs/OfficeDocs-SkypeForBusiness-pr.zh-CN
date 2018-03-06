@@ -2,7 +2,7 @@
 title: "Microsoft Teams 中的音频会议实践指导"
 author: arachmanGitHub
 ms.author: MyAdvisor
-manager: lolaj
+manager: serdars
 ms.date: 12/22/2017
 ms.topic: article
 ms.service: msteams
@@ -11,11 +11,11 @@ description: "使用展望（规划）、上线（交付）、推动价值（运
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7c2843a2ca982ada7d0ae68762556cd439cb244
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: f845be7ddf83605adad119f7efa53725033a7823
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的音频会议实践指导
 ============================================================
@@ -72,7 +72,7 @@ Office 365 中的音频会议允许参与者从任何电话加入 Teams 会议�
 <a name="identify-key-stakeholders"></a>确定关键利益干系人
 -------------------------
 
-在上一步中定义的业务用例将包括音频会议实施的组织范围，在此基础上，可以完成全面的利益干系人列表以包括将在项目中涉及到的合适人员。
+在上一步中定义的业务用例将包括音频会议实施的组织范围，基于此，可以完成综合性的利益干系人矩阵以包含要在项目中涉及的合适人员。
 
 > [!TIP]
 > 下面是可以用于记录项目利益干系人的利益干系人列表模板示例：
@@ -325,7 +325,7 @@ Office 365 中的音频会议服务包括：
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>确定组织是否需要专用会议桥接电话号码</li><li>确定将如何为音频会议实施的范围内用户位置或办公地点获取专用会议桥接电话号码（从 Microsoft 获取，或转移现有电话号码）</li><li>如果你选择从 Microsoft 获取，请确定用于为音频会议实施的范围内用户位置或办公地点获取电话号码的方法（表单提交或自动）。</li><li>确定要为每个专用会议桥接电话号码设置的语言首选项</li><li>确定租户默认会议桥接电话号码</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|后续步骤|<ul><li>记录电话号码获取的主计划，详细说明为音频会议实施的范围内每个用户位置或办公地点获取电话号码的方式。</li><li>如果适用，完成<a href="https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization">新电话号码申请表单</a>，每个位置或办公地点一个表单。</li><li>如果你选择转移现有电话号码，请参阅<a href="https://go.microsoft.com/fwlink/?linkid=859011">携号转网指南</a>以对其进行计划并相应地调整音频会议实施时间线。</li><li>记录详细的会议桥接电话号码配置（共享和专用会议桥接电话号码、每个专用会议桥接电话号码的语言首选项、租户默认会议桥接电话号码）</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|后续步骤|<ul><li>记录电话号码获取的主计划，详细说明为音频会议实施的范围内每个用户位置或办公地点获取电话号码的方式。</li><li>如果适用，完成<a href="https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization">新电话号码请求表单</a>，每个位置或办公地点一个表单。</li><li>如果你选择转移现有电话号码，请参阅<a href="https://go.microsoft.com/fwlink/?linkid=859011">携号转网指南</a>以对其进行计划并相应地调整音频会议实施时间线。</li><li>记录详细的会议桥接电话号码配置（共享和专用会议桥接电话号码、每个专用会议桥接电话号码的语言首选项、租户默认会议桥接电话号码）</li></ul>|
 
 > [!TIP]
 > 下面是获取会议网桥详细信息的模板示例：

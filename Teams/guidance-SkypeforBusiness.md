@@ -2,7 +2,7 @@
 title: "与 Skype for Business 并行启用 Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -11,11 +11,11 @@ description: "并行使用 Skype for Business 和 Microsoft Teams 指导"
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5cdd6fe97d62676ef931aa12d26fa75851380cc5
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 3052c406675ac8f8423469783c9831c84b3e0e05
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="enable-microsoft-teams-side-by-side-with-skype-for-business"></a>与 Skype for Business 并行启用 Microsoft Teams 
 =============================================================
@@ -197,7 +197,7 @@ Teams 中安排的会议是另一项重叠功能，即用户可以安排 Teams �
 <tr class="odd">
 <td align="left"><strong><br>通话和会议</strong></td>
 <td align="left"><p>允许安排私人会议：<strong>关闭</strong></p><p>允许安排频道会议：<strong>关闭</strong></p><p>允许专线通话：<strong>关闭</strong></p></td>
-<td align="left"><p>禁用此设置将防止用户安排私人会议</p><p>禁用此设置将防止用户安排频道会议</p><p>禁用此设置将防止用户进行专线通话（音频和视频）</p></td>
+<td align="left"><p>禁用此设置将防止用户安排私人会议</p><p>禁用此设置将防止用户安排频道会议</p><p>禁用此设置将防止用户进行私人通话（音频和视频）</p></td>
 </tr>
 </tbody>
 </table>
@@ -294,7 +294,7 @@ Teams 中安排的会议是另一项重叠功能，即用户可以安排 Teams �
 <tr class="odd">
 <td align="left"><strong><br>通话和会议</strong></td>
 <td align="left"><p>允许专线通话：<strong>开启</strong></p></td>
-<td align="left"><p>启用此设置将允许用户进行专线通话（音频和视频）</p></td>
+<td align="left"><p>启用此设置将允许用户进行私人通话（音频和视频）</p></td>
 </tr>
 </tbody>
 </table>

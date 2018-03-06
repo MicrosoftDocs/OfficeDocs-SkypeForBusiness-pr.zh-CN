@@ -2,7 +2,7 @@
 title: "为 Microsoft Teams 准备贵组织的网络"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -11,31 +11,31 @@ description: "了解如何准备和管理你的 Microsoft Teams 网络。 信息
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db9dc97d117ad1844d56c59191bb92ec496a9a83
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 0528d958f7e7f8f06f4dbfb1e38b297577436c56
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备贵组织的网络
 =================================================
 
-Microsoft Teams 组合了三种形式的流量：
+Teams 组合了三种形式的流量：
 
--   Office 365 联机环境与 Microsoft Teams 客户端之间的数据流量（信号发送、联机状态、聊天、文件上载和下载、OneNote 同步）。
+-   Office 365 联机环境与 Teams 客户端之间的数据流量（信号发送、联机状态、聊天、文件上载和下载、OneNote 同步）。
 
 -   点对点实时通信流量（音频、视频、桌面共享）。
 
 -   会议实时通信流量（音频、视频、桌面共享）。
 
-这在两个级别上影响网络：对于点对点应用场景，流量在 Microsoft Teams 客户端之间直接传输；对于会议应用场景，流量在 Office 365 环境与 Microsoft Teams 客户端之间传输。 为了确保获得最佳通信流，必须允许在内部网络段（例如，WAN 上的站点）之间以及网络站点与 Office 365 之间传输流量。 如果未打开正确的端口或主动阻止特定端口，将会导致降低体验。
+这在两个级别上影响网络：对于点对点应用场景，流量在 Teams 客户端之间直接传输；对于会议应用场景，流量在 Office 365 环境与 Teams 客户端之间传输。 为了确保获得最佳通信流，必须允许在内部网络段（例如，WAN 上的站点）之间以及网络站点与 Office 365 之间传输流量。 如果未打开正确的端口或主动阻止特定端口，将会导致降低体验。
 
 
 
 > [!IMPORTANT]
-> 当前，在 iOS 和 Android 移动设备上支持会议，但在 Windows Phone 上不支持（不久以后将会支持 Windows Phone）。
+> 当前，在 iOS 和 Android 移动设备上支持会议，但在 Windows Phone 上不支持。
 
-为了在 Microsoft Teams 中获得实时媒体方面的最佳体验，需要满足 Office 365 的网络连接要求（有关更多详细信息，请参阅以下原始资料：[Skype for Business Online 的媒体质量和网络连接性能](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US)）
+为了在 Teams 中获得实时媒体方面的最佳体验，需要满足 Office 365 的网络连接要求（有关更多详细信息，请参阅以下原始资料：[Skype for Business Online 的媒体质量和网络连接性能](https://support.office.com/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917)） 
 
 两个定义网络段（客户端到 Microsoft Edge 和客户边缘到 Microsoft Edge）必须满足以下要求：
 
@@ -49,7 +49,7 @@ Microsoft Teams 组合了三种形式的流量：
 |**数据包中间间隔抖动**    |< 30 ms，在任何 15 s 时间间隔内         |< 15 ms，在任何 15 s 时间间隔内         |
 |**数据包重新排序**    |< 0.05% 无序数据包         |< 0.01% 无序数据包         |
 
-要测试两个网络段，可以使用网络评估工具（来源：[https://www.microsoft.com/en-us/download/details.aspx?id=53885](https://go.microsoft.com/fwlink/?linkid=855799)）。 此工具可以直接部署在客户端 PC 上，也可以部署在连接到客户网络边缘的 PC/便携式计算机上。 此工具附带内容有限的文档，有关此工具用法的深度文档，请参阅此处：[网络就绪评估](https://go.microsoft.com/fwlink/?linkid=855800)。 通过进行此网络就绪评估，你可以验证你的网络是否为运行实时媒体应用（例如 Microsoft Teams）做好准备。
+要测试两个网段，你可以下载[网络评估工具](https://go.microsoft.com/fwlink/?linkid=855799)。 此工具可以直接部署在客户端 PC 上，也可以部署在连接到客户网络边缘的 PC 上。 此工具包含的文档有限，因此请不要错过下载随附的扩展文档。 通过进行此网络就绪评估，你可以验证你的网络是否已为运行实时媒体应用程序（例如 Teams）做好准备。
 
 
 
@@ -59,14 +59,14 @@ Microsoft Teams 组合了三种形式的流量：
 <a name="bandwidth-requirements"></a>带宽要求
 ----------
 
-Microsoft Teams 的带宽计算很复杂，因此为了帮助进行此计算，创建了一个计算器。 要访问该计算器，请访问：<http://aka.ms/bwcalc/>。
+Teams 的带宽计算很复杂，因此为了帮助进行此计算，创建了一个计算器。 要访问该计算器，请访问：<http://aka.ms/bwcalc>。
 
 下文内容可以用作补充背景信息，但建议客户使用[带宽计算器](https://aka.ms/bwcalc)来跟踪其需求。
 
 
 
 > [!IMPORTANT]
->如果未提供所需的带宽，Microsoft Teams 中的媒体堆栈将降低音频/视频会话的质量以适应较低数量的可用带宽，因而影响通话/会议的质量。 Microsoft Teams 客户端在处理音频质量和视频质量时将尝试优先考虑音频质量。 因此，提供所需带宽非常重要。
+>如果未提供所需的带宽，Teams 中的媒体堆栈将降低音频/视频会话的质量以适应较低的可用带宽，因而会影响通话/会议的质量。 Teams 客户端在处理音频质量和视频质量时将尝试优先考虑音频质量。 因此，提供所需带宽非常重要。
 
 
 |活动  |下载带宽  |上载带宽  |通信流 |
@@ -85,7 +85,7 @@ Microsoft Teams 的带宽计算很复杂，因此为了帮助进行此计算，�
 
 #### <a name="external-name-resolution"></a>**外部名称解析**
 
-确保运行 Microsoft Teams 客户端的所有客户端计算机都可以解析外部 DNS 查询以发现 Office 365 提供的服务。
+确保运行 Teams 客户端的所有客户端计算机都可以解析外部 DNS 查询以发现 Office 365 提供的服务。
 
 #### <a name="nat-pool-size"></a>**NAT 池大小**
 
@@ -100,9 +100,9 @@ Microsoft Teams 的带宽计算很复杂，因此为了帮助进行此计算，�
 <a name="network-health-determination"></a>网络运行状况确定
 -----------------
 
-规划在你的网络中实施 Microsoft Teams 时，你必须确保有所需的带宽、有权访问所有所需的 IP 地址、打开了正确的端口以及满足实时媒体的性能要求。
+规划在你的网络中实施 Teams 时，你必须确保有所需的带宽、有权访问所有所需的 IP 地址、打开了正确的端口以及满足实时媒体的性能要求。
 
-你应清楚，如果你无法满足这些条件，那么你的最终用户在使用 Microsoft Teams 时由于在通话和会议过程中质量较差而无法获得最优体验。
+你应清楚，如果你无法满足这些条件，那么你的最终用户在使用 Teams 时由于在通话和会议过程中质量较差而无法获得最优体验。
 
 如果你未满足这些条件，现在应考虑暂停项目，以确保先满足条件，然后再继续。
 
@@ -110,5 +110,5 @@ Microsoft Teams 的带宽计算很复杂，因此为了帮助进行此计算，�
 |  |  |  |
 |---------|---------|---------|
 |![决策点图标。](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |决策点         |你是否评估了用于支持实时媒体的网络功能？<br></br>如果未正确评估你的网络，或者你知道它将无法支持实时媒体，你是否将禁用视频和屏幕共享功能以降低网络影响和糟糕的 Teams 体验？         |
-|![后续步骤图标。](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |后续步骤         |网络质量未知：按照 skypeoperationsframework.com 上的网络就绪评估指导来确定你的网络是否可以支持实时媒体。<br></br>网络质量较差：执行网络补救步骤以提供合适的环境来支持高质量的实时媒体。<br></br>网络满意：确保可以正确访问所有 IP 地址和端口。           |
+|![后续步骤图标。](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |后续步骤         |网络质量未知：按照[网络就绪评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)指导来确定你的网络是否可以支持实时媒体。<br></br>网络质量较差：执行网络补救步骤以提供合适的环境来支持高质量的实时媒体。<br></br>网络满意：确保可以正确访问所有 IP 地址和端口。           |
 

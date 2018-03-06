@@ -2,18 +2,20 @@
 title: "Microsoft Teams 管理培训"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "这些培训视频介绍 Microsoft Teams，以及向管理员说明如何规划、部署和操作 Microsoft Teams。"
+description: "介绍 Microsoft Teams 并向管理员说明如何规划、部署和操作 Microsoft Teams 的培训视频。"
+ms.custom:
+- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 550c306e80bcb76dc9c232bb3152b4514c3f7332
-ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
+ms.openlocfilehash: 1f5c37becb8fd82953e07dc948e82a51b7c9cf6e
+ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/23/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 ==================================
@@ -32,7 +34,7 @@ ms.lasthandoff: 02/11/2018
 | 深入了解来宾访问 <br>与 Laith Al 和 Karuana Gatimu 进行的云会话中的增补内容  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 | Microsoft Teams 中的电子数据展示 <br> 与 Ansuman Acharya 和 Karuana Gatimu 进行的云会话中的增补内容  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
 | Teams：使用、启用和管理体验的分布简介 <br> Microsoft Mechanics 与 Dan Stevenson 和 Jeremy Chapman 进行的会话 |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
-
+| 管理 Microsoft Teams 中的应用体验 <br> 与 Karuana Gatimu 进行的云会话中的增补内容  | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
 
 
 

@@ -2,20 +2,22 @@
 title: "在你的 Office 365 组织中启用 Microsoft Teams 功能"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 01/29/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 description: "了解可以在你的 Office 365 组织中启用或禁用的所有 Microsoft Teams 功能，包括租户范围的设置、电子邮件集成、应用及云存储等。"
+ms.custom:
+- NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d91d166651cce5adf0ff07a19b29b90047e98e0
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: ad7af6222430f3cd3109ca76ce919a3342b959c8
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="turn-on-microsoft-teams-features-in-your-office-365-organization"></a>在你的 Office 365 组织中启用 Microsoft Teams 功能
 ======================================================
@@ -119,7 +121,7 @@ Office 365 租户可以拥有的最大团队数当前为 500,000。 全局管理
 
 作为管理员，你可以通过使用 Office 365 管理中心中的“组”仪表板管理团队所有者和成员。 要了解详细信息，请单击“**团队和频道**”下的“**使用 Office 365 管理中心中的‘组’仪表板管理团队**”。
 
-你可以控制贵组织中哪些用户可以在 Teams 中创建团队。 Office 365 组定义的相同创建设置适用于 Teams。 有关管理 Office 365 组的详细信息，请参阅[创建 Office 365 组](https://support.office.com/en-us/article/Create-Office-365-groups-74a1ef8b-3844-4d08-9980-9f8f7a36000f)和[控制哪些人可以创建 Office 365 组](https://support.office.com/en-us/article/Control-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。
+你可以控制贵组织中哪些用户可以在 Teams 中创建团队。 Office 365 组定义的相同创建设置适用于 Teams。 有关管理 Office 365 组的详细信息，请参阅[创建 Office 365 组](https://support.office.com/article/Create-Office-365-groups-74a1ef8b-3844-4d08-9980-9f8f7a36000f)和[控制哪些人可以创建 Office 365 组](https://support.office.com/article/Control-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。
 
 > [!NOTE]
 > 无法从“组”仪表板创建团队。 必须使用 Teams 桌面客户端或 Web 应用创建团队。

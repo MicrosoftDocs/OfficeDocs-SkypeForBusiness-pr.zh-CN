@@ -2,7 +2,7 @@
 title: "Microsoft Teams 的支持资源"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ ms.reviewer: lolaj, ninadara
 description: "Microsoft Teams 的支持资源列表，用于帮助你更有效地使用 Microsoft Teams。"
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0ec54a1cd0613b1759f55739862bc5539596c50
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 0c5239c2d6ff78843707fb135a35a82e10d788ad
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="support-resources-for-microsoft-teams"></a>Microsoft Teams 的支持资源
 =====================================
@@ -35,7 +35,7 @@ ms.lasthandoff: 02/03/2018
 
 -   [Microsoft Teams 开发者预览版](https://go.microsoft.com/fwlink/?linkid=854397)
 
--   [已知问题](https://support.office.com/en-US/article/Known-issues-for-Microsoft-Teams-04b35d1b-bdca-420a-991b-878da5157650)
+-   [已知问题](https://support.office.com/article/Known-issues-for-Microsoft-Teams-04b35d1b-bdca-420a-991b-878da5157650)
 
 -   [Teams 客户端发行说明](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 

@@ -2,20 +2,22 @@
 title: "Microsoft Teams 概述"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
 description: "了解 Microsoft Teams、其基础结构以及如何配合使用 Teams 与 Office 365。"
+ms.custom:
+- NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 353e757c12b4e72a72b49abe4381abb9a188166b
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: caf445609922dc62d28a4b78cf568d3f8f278c10
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="overview-of-microsoft-teams"></a>Microsoft Teams 概述
 ===========================
@@ -27,11 +29,9 @@ Microsoft Teams 结合了 Office 365 的完整宽度和深度，为团队合作�
 
 Teams 属于开箱可用，它利用了 Azure Active Directory (Azure AD) 中存储的标识，并与 Office 365 中的其他服务集成在一起，可为创建的每个团队创建 SharePoint Online 网站和 Exchange Online 组邮箱。
 
-与 Office 365 基底交互的聊天服务提供了 Teams 持久聊天功能，呈现了许多 Office 365 内置功能，例如，对 Teams 中交换的数据进行存档和电子数据展示。
+Teams 提供持久聊天功能、通话和会议、快速访问 Office 365 其他组件的功能以及强大的扩展功能。  它提供了一个适用于大型公司、小型组织及其所有成员的团队合作中心。  
 
-Teams 还提供通话和会议体验，这些体验建立在下一代基于云的基础结构之上，而 Skype 和 Skype for Business 也使用该基础结构。 这些技术投资包括用于媒体处理和信号发送的基于 Azure 的云服务、H.264 视频编解码器、SILK 和 Opus 音频编解码器、网络复原、遥测和质量诊断。
-
-要扩展 Teams 功能，请使用连接器、选项卡和聊天机器人（以[应用](https://go.microsoft.com/fwlink/?linkid=854629)方式提供）以将外部信息、内容和聊天机器人交互传入 Teams。
+要扩展 Teams 功能，请使用连接器、选项卡和聊天机器人（以[应用](https://go.microsoft.com/fwlink/?linkid=854629)方式提供）以将外部信息、内容和聊天机器人交互传入 Teams。  
 
 <a name="microsoft-teams-infrastructure"></a>Microsoft Teams 基础结构
 ------------------------------
@@ -40,11 +40,11 @@ Teams 建立在由 Office 365 组联系在一起的现有 Microsoft 技术之上
 
 Teams 中创建的团队立即可用，创建团队时会创建 Office 365 组、SharePoint Online 网站（附带文档库）、Exchange Online 组邮箱（将由 Teams 用于存储会议邀请等信息）。 可以使用现有 Office 365 组创建团队，从而允许现有组成员身份以及 SharePoint Online 和 Exchange Online 中存储的内容转到 Teams。
 
-与 Office 365 交互的聊天服务提供了 Teams 持久聊天功能，呈现了许多 Office 365 内置功能，例如，对 Teams 中交换的数据进行存档和电子数据展示。
-
 为了补充作为持久聊天板的 Teams 功能（在此进行非正式的实时对话），Teams 还提供了建立在下一代基于云的基础结构（Skype 和 Skype for Business 也使用该基础结构）之上的会议体验。 这些技术投资包括用于媒体处理和信号发送的基于 Azure 的云服务、H.264 视频编解码器、SILK 和 Opus 音频编解码器、网络复原、遥测和质量诊断。
 
 Office 365 组利用 Azure Active Directory (Azure AD) 中存储的标识，因此，Teams 可以很容易地使用 Azure AD 中的所有身份验证和授权功能（例如，支持多重身份验证 (MFA)）。
+
+Teams 还提供通话和会议体验，这些体验建立在下一代基于云的基础结构之上，而 Skype 和 Skype for Business 也使用该基础结构。 这些技术投资包括用于媒体处理和信号发送的基于 Azure 的云服务、H.264 视频编解码器、SILK 和 Opus 音频编解码器、网络复原、遥测和质量诊断。
 
 
 <a name="microsoft-teams-and-office-365"></a>Microsoft Teams 和 Office 365
