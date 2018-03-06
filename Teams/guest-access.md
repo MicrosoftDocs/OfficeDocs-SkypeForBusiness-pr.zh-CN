@@ -2,7 +2,7 @@
 title: "Microsoft Teams 中的来宾访问"
 author: LaithAlShamri
 ms.author: laal
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -11,43 +11,43 @@ description: "利用 Microsoft Teams 中的来宾访问功能，贵组织中的�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e5f062d52bc03c6bcd469e8ce33c8f794c00b6c
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 318acad5b5f86b99640653a425e0a1841316ee3e
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
-<a name="guest-access-in-microsoft-teams"></a><span data-ttu-id="747b7-103">Microsoft Teams 中的来宾访问</span><span class="sxs-lookup"><span data-stu-id="747b7-103">Guest access in Microsoft Teams</span></span>
+<a name="guest-access-in-microsoft-teams"></a><span data-ttu-id="49e1c-103">Microsoft Teams 中的来宾访问</span><span class="sxs-lookup"><span data-stu-id="49e1c-103">Guest access in Microsoft Teams</span></span>
 ======================================
 
-<span data-ttu-id="747b7-104">来宾访问在 Teams 中是新功能。</span><span class="sxs-lookup"><span data-stu-id="747b7-104">Guest Access is new in Teams.</span></span> <span data-ttu-id="747b7-105">这是客户需求最强烈的的功能之一。</span><span class="sxs-lookup"><span data-stu-id="747b7-105">It’s one of the features customers asked for the most.</span></span> <span data-ttu-id="747b7-106">我们仍在努力增强其功能。</span><span class="sxs-lookup"><span data-stu-id="747b7-106">We’re still working on it, enhancing its capabilities.</span></span> <span data-ttu-id="747b7-107">你可以按此处所述了解来宾访问功能的最新进展并将你的想法告诉我们：</span><span class="sxs-lookup"><span data-stu-id="747b7-107">Here’s how you can keep up with our progress on Guest Access and tell us your thoughts:</span></span>
-- <span data-ttu-id="747b7-108">如果你在使用来宾访问时遇到问题，请查看 [Microsoft Teams 的已知问题](Known-issues.md)。</span><span class="sxs-lookup"><span data-stu-id="747b7-108">If you’re having trouble with Guest Access, check out [Known issues for Microsoft Teams](Known-issues.md).</span></span>
-- <span data-ttu-id="747b7-109">请在 [Teams 路线图](https://aka.ms/teamsroadmap)中了解即将发布的新功能或更新功能。</span><span class="sxs-lookup"><span data-stu-id="747b7-109">Find out about upcoming new or updated features in the [Teams Roadmap](https://aka.ms/teamsroadmap).</span></span>
-- <span data-ttu-id="747b7-110">请在 [Teams UserVoice](https://aka.ms/TeamsUserVoice) 中将你想要的功能告诉我们。</span><span class="sxs-lookup"><span data-stu-id="747b7-110">Tell us what you want in  [Teams UserVoice](https://aka.ms/TeamsUserVoice).</span></span>
-- <span data-ttu-id="747b7-111">在下面的“注释”部分中分享你的体验。</span><span class="sxs-lookup"><span data-stu-id="747b7-111">Share your experience in the Comments section below.</span></span>
+<span data-ttu-id="49e1c-104">来宾访问在 Teams 中是新功能。</span><span class="sxs-lookup"><span data-stu-id="49e1c-104">Guest Access is new in Teams.</span></span> <span data-ttu-id="49e1c-105">这是客户需求最强烈的的功能之一。</span><span class="sxs-lookup"><span data-stu-id="49e1c-105">It’s one of the features customers asked for the most.</span></span> <span data-ttu-id="49e1c-106">我们仍在努力增强其功能。</span><span class="sxs-lookup"><span data-stu-id="49e1c-106">We’re still working on it, enhancing its capabilities.</span></span> <span data-ttu-id="49e1c-107">你可以按此处所述了解来宾访问功能的最新进展并将你的想法告诉我们：</span><span class="sxs-lookup"><span data-stu-id="49e1c-107">Here’s how you can keep up with our progress on Guest Access and tell us your thoughts:</span></span>
+- <span data-ttu-id="49e1c-108">如果你在使用来宾访问时遇到问题，请查看 [Microsoft Teams 的已知问题](Known-issues.md)。</span><span class="sxs-lookup"><span data-stu-id="49e1c-108">If you’re having trouble with Guest Access, check out [Known issues for Microsoft Teams](Known-issues.md).</span></span>
+- <span data-ttu-id="49e1c-109">请在 [Teams 路线图](https://aka.ms/teamsroadmap)中了解即将发布的新功能或更新功能。</span><span class="sxs-lookup"><span data-stu-id="49e1c-109">Find out about upcoming new or updated features in the [Teams Roadmap](https://aka.ms/teamsroadmap).</span></span>
+- <span data-ttu-id="49e1c-110">请在 [Teams UserVoice](https://aka.ms/TeamsUserVoice) 中将你想要的功能告诉我们。</span><span class="sxs-lookup"><span data-stu-id="49e1c-110">Tell us what you want in  [Teams UserVoice](https://aka.ms/TeamsUserVoice).</span></span>
+- <span data-ttu-id="49e1c-111">在下面的“注释”部分中分享你的体验。</span><span class="sxs-lookup"><span data-stu-id="49e1c-111">Share your experience in the Comments section below.</span></span>
 
 
-<span data-ttu-id="747b7-112">利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。</span><span class="sxs-lookup"><span data-stu-id="747b7-112">Guest access in Microsoft Teams allows teams in your organization to collaborate with people outside your organization by granting them access to teams and channels.</span></span> 
+<span data-ttu-id="49e1c-112">利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。</span><span class="sxs-lookup"><span data-stu-id="49e1c-112">Guest access in Microsoft Teams allows teams in your organization to collaborate with people outside your organization by granting them access to teams and channels.</span></span> 
 
-<span data-ttu-id="747b7-113">所有 Office 365 商业高级版、Office 365 企业版和 Office 365 教育版订阅均包含来宾访问功能。</span><span class="sxs-lookup"><span data-stu-id="747b7-113">Guest access is included with all Office 365 Business Premium, Office 365 Enterprise, and Office 365 Education subscriptions.</span></span> <span data-ttu-id="747b7-114">无需额外的 Office 365 许可证。</span><span class="sxs-lookup"><span data-stu-id="747b7-114">No additional Office 365 license is necessary.</span></span> <span data-ttu-id="747b7-115">来宾访问是 Microsoft Teams 中的租户级别设置，默认情况下关闭。</span><span class="sxs-lookup"><span data-stu-id="747b7-115">Guest access is a tenant-level setting in Microsoft Teams and is turned off by default.</span></span>
+<span data-ttu-id="49e1c-113">所有 Office 365 商业高级版、Office 365 企业版和 Office 365 教育版订阅均包含来宾访问功能。</span><span class="sxs-lookup"><span data-stu-id="49e1c-113">Guest access is included with all Office 365 Business Premium, Office 365 Enterprise, and Office 365 Education subscriptions.</span></span> <span data-ttu-id="49e1c-114">无需额外的 Office 365 许可证。</span><span class="sxs-lookup"><span data-stu-id="49e1c-114">No additional Office 365 license is necessary.</span></span> <span data-ttu-id="49e1c-115">来宾访问是 Microsoft Teams 中的租户级别设置，默认情况下关闭。</span><span class="sxs-lookup"><span data-stu-id="49e1c-115">Guest access is a tenant-level setting in Microsoft Teams and is turned off by default.</span></span>
 
 
-<span data-ttu-id="747b7-116">来宾是贵组织的员工、学生和成员以外的任何人。</span><span class="sxs-lookup"><span data-stu-id="747b7-116">A guest is someone who isn't an employee, student, or member of your organization.</span></span> <span data-ttu-id="747b7-117">他们在贵组织没有学校或工作帐户。</span><span class="sxs-lookup"><span data-stu-id="747b7-117">They don't have a school or work account with your organization.</span></span> <span data-ttu-id="747b7-118">例如，来宾可以包括合作伙伴、供应商、提供商或顾问。</span><span class="sxs-lookup"><span data-stu-id="747b7-118">For example, guests may include partners, vendors, suppliers, or consultants.</span></span> <span data-ttu-id="747b7-119">仅拥有与 Azure Active Directory 或 Office 365 工作或学校帐户对应的电子邮件地址的用户可以添加为来宾用户。</span><span class="sxs-lookup"><span data-stu-id="747b7-119">Only users who have an email address corresponding to an Azure Active Directory or Office 365 work or school account can be added as a guest user.</span></span>
+<span data-ttu-id="49e1c-116">来宾是贵组织的员工、学生和成员以外的任何人。</span><span class="sxs-lookup"><span data-stu-id="49e1c-116">A guest is someone who isn't an employee, student, or member of your organization.</span></span> <span data-ttu-id="49e1c-117">他们在贵组织没有学校或工作帐户。</span><span class="sxs-lookup"><span data-stu-id="49e1c-117">They don't have a school or work account with your organization.</span></span> <span data-ttu-id="49e1c-118">例如，来宾可以包括合作伙伴、供应商、提供商或顾问。</span><span class="sxs-lookup"><span data-stu-id="49e1c-118">For example, guests may include partners, vendors, suppliers, or consultants.</span></span> <span data-ttu-id="49e1c-119">仅拥有与 Azure Active Directory 或 Office 365 工作或学校帐户对应的电子邮件地址的用户可以添加为来宾用户。</span><span class="sxs-lookup"><span data-stu-id="49e1c-119">Only users who have an email address corresponding to an Azure Active Directory or Office 365 work or school account can be added as a guest user.</span></span>
   
        
 
-<span data-ttu-id="747b7-120">使用 Teams 的组织可以向其合作伙伴提供对团队、频道中的文档、资源、聊天和应用的外部访问权限，同时对其自己的公司数据维护完全控制。</span><span class="sxs-lookup"><span data-stu-id="747b7-120">Organizations using Teams can provide external access to teams, documents in channels, resources, chats, and applications to their partners, while maintaining complete control over their own corporate data.</span></span>
+<span data-ttu-id="49e1c-120">使用 Teams 的组织可以向其合作伙伴提供对团队、频道中的文档、资源、聊天和应用的外部访问权限，同时对其自己的公司数据维护完全控制。</span><span class="sxs-lookup"><span data-stu-id="49e1c-120">Organizations using Teams can provide external access to teams, documents in channels, resources, chats, and applications to their partners, while maintaining complete control over their own corporate data.</span></span>
 
-<span data-ttu-id="747b7-121">Teams 建立在 Office 365 组之上，为 Office 365 组提供访问共享资产的全新方式。</span><span class="sxs-lookup"><span data-stu-id="747b7-121">Teams is built upon Office 365 Groups and provides a new way to access shared assets for an Office 365 group.</span></span> <span data-ttu-id="747b7-122">Teams 是实现在组/团队成员之间进行持久聊天的最佳解决方案。</span><span class="sxs-lookup"><span data-stu-id="747b7-122">Teams is the best solution for persistent chat among group/team members.</span></span> <span data-ttu-id="747b7-123">Office 365 是针对一组共享团队资产（例如 SharePoint 网站或 Power BI 仪表板）提供跨应用成员身份的服务，以便团队可以有效且安全地协作。</span><span class="sxs-lookup"><span data-stu-id="747b7-123">Office 365 Groups is a service that provides cross-application membership for a set of shared team assets, like a SharePoint site or a Power BI dashboard, so that the team can collaborate effectively and securely.</span></span>
+<span data-ttu-id="49e1c-121">Teams 建立在 Office 365 组之上，为 Office 365 组提供访问共享资产的全新方式。</span><span class="sxs-lookup"><span data-stu-id="49e1c-121">Teams is built upon Office 365 Groups and provides a new way to access shared assets for an Office 365 group.</span></span> <span data-ttu-id="49e1c-122">Teams 是实现在组/团队成员之间进行持久聊天的最佳解决方案。</span><span class="sxs-lookup"><span data-stu-id="49e1c-122">Teams is the best solution for persistent chat among group/team members.</span></span> <span data-ttu-id="49e1c-123">Office 365 是针对一组共享团队资产（例如 SharePoint 网站或 Power BI 仪表板）提供跨应用成员身份的服务，以便团队可以有效且安全地协作。</span><span class="sxs-lookup"><span data-stu-id="49e1c-123">Office 365 Groups is a service that provides cross-application membership for a set of shared team assets, like a SharePoint site or a Power BI dashboard, so that the team can collaborate effectively and securely.</span></span>
 
     
 
-## <a name="more-information"></a><span data-ttu-id="747b7-124">更多信息</span><span class="sxs-lookup"><span data-stu-id="747b7-124">More information</span></span>
+## <a name="more-information"></a><span data-ttu-id="49e1c-124">更多信息</span><span class="sxs-lookup"><span data-stu-id="49e1c-124">More information</span></span>
 
  
   
     
-  [<span data-ttu-id="747b7-125">Microsoft Teams 的支持资源</span><span class="sxs-lookup"><span data-stu-id="747b7-125">Support resources for Microsoft Teams</span></span>](support-resources.md)  
+  [<span data-ttu-id="49e1c-125">Microsoft Teams 的支持资源</span><span class="sxs-lookup"><span data-stu-id="49e1c-125">Support resources for Microsoft Teams</span></span>](support-resources.md)  
  
   
 
@@ -56,8 +56,8 @@ ms.lasthandoff: 02/03/2018
   
 |  |  |
 |---------|---------|
-| <span data-ttu-id="747b7-126">深入了解来宾访问</span><span class="sxs-lookup"><span data-stu-id="747b7-126">Deep Dive into Guest Access</span></span>   | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
-| <span data-ttu-id="747b7-127">在 Microsoft Teams 中启用来宾访问</span><span class="sxs-lookup"><span data-stu-id="747b7-127">Enabling Guest Access in Microsoft Teams</span></span>   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7T54KmlIHQk" frameborder="0" allowfullscreen></iframe>   |
- | <span data-ttu-id="747b7-128">在 Microsoft Teams 中添加来宾</span><span class="sxs-lookup"><span data-stu-id="747b7-128">Adding Guests in Microsoft Teams</span></span>   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
+| <span data-ttu-id="49e1c-126">深入了解来宾访问</span><span class="sxs-lookup"><span data-stu-id="49e1c-126">Deep Dive into Guest Access</span></span>   | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
+| <span data-ttu-id="49e1c-127">在 Microsoft Teams 中启用来宾访问</span><span class="sxs-lookup"><span data-stu-id="49e1c-127">Enabling Guest Access in Microsoft Teams</span></span>   | <iframe width="350" height="200" src="https://www.youtube.com/embed/g21Hcqdl5tI" frameborder="0" allowfullscreen></iframe>   |
+ | <span data-ttu-id="49e1c-128">在 Microsoft Teams 中添加来宾</span><span class="sxs-lookup"><span data-stu-id="49e1c-128">Adding Guests in Microsoft Teams</span></span>   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
     
 

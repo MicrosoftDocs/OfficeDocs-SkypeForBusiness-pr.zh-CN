@@ -20,6 +20,7 @@
 ## [Teams 部署概述](deployment-overview.md)
 ## [在 Teams 中创建团队时规划 Office 365 组](plan-Office-365-groups.md)
 ## [为 Teams 准备贵组织的网络](prepare-network.md)
+## [Teams 中的 QoS](QoS-in-Teams.md)
 ## [Office 365 URL 和 IP 地址范围](Office-365-URLs-IP-address-ranges.md)
 ## [工具和研讨会：规划、交付和运营 Teams](planning-workshop-practical-guide.md)
 
@@ -61,9 +62,7 @@
 
 # [云语音](cloud-voice-deployment.md)
 ## [音频会议](audio-conferencing.md)
-### [展望](audio-conferencing.md#Envision_AudioConferencing)
 ## [具有通话套餐的电话系统](phone-system-with-calling-plans.md)
-### [展望](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
 ## 通话套餐
 ### [快速入门：配置通话套餐](configuring-teams-calling-quickstartguide.md)
 ### [了解 Teams 中的通话功能](Tutorial-Calling-in-Teams.yml)
@@ -98,6 +97,7 @@
 ## [验证 Teams 的服务运行状况](service-health.md)
 ## [对 Teams 客户端的连接问题进行故障排除](connectivity-issues.md)
 ## [在对 Teams 进行故障排除时使用日志文件](log-files.md)
+
 
 # Teams 教育版
 ## [管理员快速入门 - Teams 教育版](Teams-quick-start-edu.yml)
