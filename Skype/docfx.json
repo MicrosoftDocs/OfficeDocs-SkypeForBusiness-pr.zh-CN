@@ -3,43 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md",
-          "**/**.yml"
+          "**/*.md"
         ],
-        "src": "Hub",
-        "dest": ".",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/**.yml"
-        ],
-        "src": "SfbOnline",
-        "dest": ".",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/**.yml"
-        ],
-        "src": "SfbServer",
-        "dest": ".",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -54,9 +19,7 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg",
-          "**/*.gif",
-          "**/*.pdf"
+          "**/*.jpg"
         ],
         "exclude": [
           "**/obj/**",
@@ -67,9 +30,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "searchScope": ["Skype for Business"],
-      "breadcrumb_path": "/skypeforbusiness/breadcrumb/toc.json",
-      "extendBreadcrumb": "true"
+      "bilingual_type": "hover over"
     },
     "fileMetadata": {},
     "template": [],
