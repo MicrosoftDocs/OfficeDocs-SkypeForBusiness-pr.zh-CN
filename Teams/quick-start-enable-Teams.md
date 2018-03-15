@@ -11,11 +11,11 @@ description: "使用本指南帮助你在组织中规划、实施和采用 Micro
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94d5150ff929afbdc188924fe1c79b2ee0287365
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: 7111e5aea9869a99ffec76f7da655f1ac0261aa8
+ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/01/2018
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>快速入门 - Microsoft Teams 规划指南
 ==========================================================
@@ -29,7 +29,9 @@ ms.lasthandoff: 02/19/2018
 
 从业务部门、IT 部门和用户社区召集一组人，作为 Teams 部署的利益干系人和决策组。 在比较小的组织，可以是两三个人。 务必召集齐这三个社区的人，以确保部署成功。  
 
-## <a name="step-2--prioritize-your-business-scenarios"></a>步骤 2：确定业务方案优先级
+每个组都将提供一些关键技能，尽管这之间可能存在交叉。 在确保你在所有 Office 365 服务之间具有端到端关联的前提下，IT 专业人士通常专注于体验的运行状况、安全性和可管理性。 业务用户将提供实际方案和业务需求，以此提供有价值的测试案例。 这两点对于成功的测试和广泛部署计划都必不可少。    
+
+## <a name="step-2-prioritize-your-business-scenarios"></a>步骤 2：确定业务方案优先级
 
 协作和社区与人相关！ 挑选与你的组织关系最密切的业务方案，而不是空谈功能。 有关帮助你定义贵公司方案的示例，请查看 [Microsoft 365 FastTrack 生产库](https://fasttrack.microsoft.com/microsoft365/productivitylibrary)。 成功的 Teams 部署通常以密切合作的高速团队为中心，例如产品开发、市场营销活动团队、财务部或支持部门。 选择一个方案并快速完成这些用户目前的工作方式的清单，从而以对这些人都有意义的方式高效设计 Teams 体验。
 
@@ -37,6 +39,12 @@ ms.lasthandoff: 02/19/2018
 **将 Teams 与 Teams 一起规划！** 使用 Teams 规划部署的客户可以缓解关键利益干系人的变化曲线。 考虑创建一个名为 Microsoft 365 部署的团队，并为你想部署的不同工作负荷分别创建频道。 你的团队可能如下所示：
 
 ![示例 Microsoft 365 部署团队的屏幕截图。](media/quick-start-enable-Teams-Microsoft365-Deployment-Team.png)
+
+在 Microsoft Teams 中规划团队、频道和选项卡时，请观看此简短视频，其中提供了简单的注意事项。 
+
+<iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
+
+如果你的 Office 365 租户中未启用 Microsoft Teams 并且你是 Office 365 管理员，请按照[在 Office 365 组织中设置 Microsoft Teams](office-365-set-up.md) 一文中的说明进行操作，确保你的用户可以访问 Microsoft Teams。
 
 ## <a name="step-3-complete-technical-planning"></a>步骤 3：完成技术规划
 
@@ -84,6 +92,6 @@ ms.lasthandoff: 02/19/2018
 
 
 ## <a name="next-steps"></a>后续步骤
-1. 继续阅读[研讨会套件：规划、交付和运营 Teams](planning-workshop-practical-guide.md)
+1. 转到[工具和研讨会：规划、交付和采用 Teams](planning-workshop-practical-guide.md)
 2. 下载并填写[快速入门指南：成功启用 Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) 中的技术规划调查表。
 3. 下载用于在贵组织中启动 Teams 的研讨会套件：[规划、交付和运营 Teams](http://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)

@@ -13,11 +13,11 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad7af6222430f3cd3109ca76ce919a3342b959c8
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: 87871cb46c1b9e584308b75376622473a3131888
+ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 <a name="turn-on-microsoft-teams-features-in-your-office-365-organization"></a>在你的 Office 365 组织中启用 Microsoft Teams 功能
 ======================================================
@@ -142,7 +142,7 @@ Office 365 租户可以拥有的最大团队数当前为 500,000。 全局管理
 
 -   **允许安排私人会议：**如果启用此设置，用户可以安排不在任何频道中列出的私人会议。
 
--   **允许临时频道聚会**
+-   **允许临时频道聚会**：打开此功能后，用户可以快速为专为紧急或特定目的而创建的频道快速启动会议。
 
 -   **允许安排频道会议：**如果启用此设置，用户可以为某个频道安排会议，所有频道成员只需单击一下即可轻松加入会议。
 
