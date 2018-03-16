@@ -1,3 +1,4 @@
+
 {
   "build": {
     "content": [
@@ -31,6 +32,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "bilingual_type": "hover over",
       "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
        "extendBreadcrumb": "true",
        "feedback_system": "GitHub",
