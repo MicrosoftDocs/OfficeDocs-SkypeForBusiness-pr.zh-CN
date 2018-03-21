@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "音频会议许可证购买时，Microsoft 托管您为您的组织的音频会议桥。 因此，会议组织者和参与者可以使用它们来加入 Skype 使用电话的业务或 Microsoft 小组会议，音频会议桥提供了出不同位置的拨入电话号码。"
-ms.openlocfilehash: 21603ebc5ea710598a1af70a66fe4388e206cea9
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 10e55f34ca6cdeaf90f00f6004a85c4a5fbbe1fe
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改音频会议网桥上的电话号码
 
@@ -226,4 +228,3 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 ## <a name="related-topics"></a>相关主题
 [更改音频会议网桥的设置](change-the-settings-for-an-audio-conferencing-bridge.md)
-  

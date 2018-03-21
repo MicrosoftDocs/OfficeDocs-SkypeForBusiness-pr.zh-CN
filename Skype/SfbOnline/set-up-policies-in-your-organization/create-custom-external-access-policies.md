@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "Skype 的在线业务允许您创建其他外部访问策略。 与不同的客户端或会议的策略，其中可以有多个组合，有三个预定义的外部访问策略，可以涵盖了大部分方案。"
-ms.openlocfilehash: 7a5e347f3f9629f603544ad9ab06e11d4b649868
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 8ed4549aa1b32ccfb13bda559394e6aa79ab47ed
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="create-custom-external-access-policies"></a>创建自定义的外部访问策略
 
@@ -115,3 +115,6 @@ Skype 的在线业务允许您创建其他外部访问策略。 与不同的客�
 [为你的组织设置客户端策略](set-up-client-policies-for-your-organization.md)
 
 [设置您的组织中的会议策略](set-up-conferencing-policies-for-your-organization.md)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

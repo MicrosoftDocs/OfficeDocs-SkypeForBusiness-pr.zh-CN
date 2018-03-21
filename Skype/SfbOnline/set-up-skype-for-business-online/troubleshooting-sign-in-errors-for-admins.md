@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "了解常见原因为 Skype 的在线业务的符号错误和工作通过解决这些问题。 "
-ms.openlocfilehash: aa5069e5fd5bf40ebd460c03b72ce8d9327da6d2
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: a30375b54db5ef02756253e9419c2cb54f8f2f8b
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>管理员 Skype 业务联机登录错误疑难解答
 
@@ -214,3 +214,6 @@ ms.lasthandoff: 02/19/2018
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
 
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

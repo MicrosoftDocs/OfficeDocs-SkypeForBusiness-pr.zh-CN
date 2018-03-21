@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that''s used to prompt callers and gather names and pins for meeting organizers when they''re not using Skype for Business clients. '
-ms.openlocfilehash: f37af15b4ab66eb5765cccbdba63b3bb6bb14597
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 62307bf26458ae54134772a0d920bcc602265bdc
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议桥的设置
 
@@ -32,8 +34,8 @@ ms.lasthandoff: 02/19/2018
   
 会议桥应答呼叫，并提示调用方通过语音提示使用会议自动助理，然后根据您的设置，它可以播放通知，要求调用方来记录他们的姓名，并控制 PIN 设置。 针脚提供给会议组织者，使他们开始会议时不使用 Skype 业务或 Microsoft 团队的应用程序。
 
-    > [!IMPORTANT]
-    > A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting. If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting. 
+  > [!IMPORTANT]
+  > PIN 只是对于会议组织者时为业务或 Microsoft 小组应用程序用户 Skype 已经没有启动会议是必需的。 每个人都拨号进入会议，针需要为会议组织者开始举行会议。 
   
 ## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议桥的设置
 
@@ -91,13 +93,13 @@ ms.lasthandoff: 02/19/2018
 
 - 若要节省时间或自动执行此过程，您可以使用[一组 CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 ) cmdlet。
     
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 Office 365，这样做可在有多个任务需要执行时简化日常工作。要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为什么需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 许多相比具有的优势在速度、 简易性和生产率仅使用 Office 365 管理中心，例如，当将设置更改为许多用户一次。 请在以下主题中了解这些优点： 
+- Windows PowerShell 许多相比具有的优势在速度、 简易性和生产率仅使用 Office 365 管理中心，例如，当将设置更改为许多用户一次。了解这些优势中的以下主题： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -110,5 +112,4 @@ ms.lasthandoff: 02/19/2018
   
 ## <a name="related-topics"></a>相关主题
 
-[设置音频会议 for Skype Business 和 Microsoft 团队](set-up-audio-conferencing.md)
-
+[设置音频会议](set-up-audio-conferencing.md)

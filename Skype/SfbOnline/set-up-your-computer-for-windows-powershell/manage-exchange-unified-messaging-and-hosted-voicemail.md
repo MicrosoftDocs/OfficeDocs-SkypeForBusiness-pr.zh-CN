@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: "使用 PowerShell 的在线业务管理 Exchange 统一消息功能，如自动助理和订阅者访问并在 Skype 的承载语音邮件。"
-ms.openlocfilehash: 98a7847f6d8ec5bebd1889aef57298bd36696918
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: cc4904768cbb7f6bbcbbd9921efebfe7d4765c55
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>管理 Exchange 统一消息和承载语音邮件
 
@@ -39,3 +39,6 @@ ms.lasthandoff: 02/19/2018
 
 ## <a name="related-topics"></a>相关主题
 [设置计算机上的 Skype 业务在线管理使用 Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

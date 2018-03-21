@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "会议是 Skype for Business Online 的重要部分：通过会议，多组用户可以在线集中在一起来查看幻灯片和视频、共享应用、交换文件以及进行通信与协作。"
-ms.openlocfilehash: 97102f717fbc8703c6bda456acdfadfcfd71276f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 7e2540bc043476ca2a768c701b93c2ce8d6a4431
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>设置您的组织的会议策略
 
@@ -148,3 +148,6 @@ ms.lasthandoff: 02/19/2018
 [块的点对点文件传输](block-point-to-point-file-transfers.md)
 
 [为你的组织设置客户端策略](set-up-client-policies-for-your-organization.md)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

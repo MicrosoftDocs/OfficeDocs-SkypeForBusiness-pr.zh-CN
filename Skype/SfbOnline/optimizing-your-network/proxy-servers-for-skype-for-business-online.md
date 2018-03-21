@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: "本文将提供相关指南，帮助你为 Skype for Business 使用代理服务器。"
-ms.openlocfilehash: 19c12ed4265c6549f00b54b3463215702d3ced2b
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 29438474524c7c1e518fb3130fdaf436e562d76e
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Skype for Business Online 的代理服务器
 
@@ -76,3 +76,6 @@ Bluecoat 代理是否属于您的网络拓扑，请参阅以下链接： https:/
 ## <a name="related-topics"></a>相关主题
 
 [为 Skype for Business Online 优化网络](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

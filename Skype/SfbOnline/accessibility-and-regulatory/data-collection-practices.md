@@ -20,11 +20,11 @@ ms.custom:
 - Legal
 hideEdit: 
 description: "Microsoft 收集人口普查、 用法和错误的数据，了解如何使用 Skype 业务和用户遇到问题的地方。 数据用于产品的改进计划。"
-ms.openlocfilehash: f58a5650da1b6f489c63fdb5e5870321e0f06727
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 9eaebe086e65b68cb13013931b753285f63bd9de
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype 业务和 Microsoft 小组数据集合做法
 
@@ -118,3 +118,6 @@ Skype 会议应用程序和连接的启动器 web 页，控制遥测的方法是
 [客户体验改善计划](https://www.microsoft.com/products/ceip/en-US/default.mspx)
 
 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

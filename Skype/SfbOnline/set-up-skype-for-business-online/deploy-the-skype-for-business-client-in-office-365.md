@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "了解如何规划和部署业务的 Skype 在小型、 中型和大型企业，并将它们提供给您的用户。 "
-ms.openlocfilehash: 5a3af14d7bf507a50ab7d007a066e3bd42d90c50
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 09600c29d2df0299f326e64f75c6b4b7e5ee5178
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>部署 Office 365 中的业务客户端的 Skype
 
@@ -153,4 +153,5 @@ ms.lasthandoff: 02/19/2018
   
 [Skype for Business 和 Microsoft Teams 外接程序许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
-
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

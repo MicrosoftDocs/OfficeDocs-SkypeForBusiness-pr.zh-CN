@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "自定义徽标图形、 帮助和法律 Url 和页脚文本与 Skype 会议邀请。 "
-ms.openlocfilehash: 9d53c59b574cd21333c8749ee2868e918f6bbe6f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 374060876bcf12c5d7283586d3a04710a9b203b4
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="customize-meeting-invitations"></a>自定义会议邀请
 
@@ -73,3 +73,5 @@ ms.lasthandoff: 02/19/2018
 
 [设置音频会议 for Skype Business 和 Microsoft 团队](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
 
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

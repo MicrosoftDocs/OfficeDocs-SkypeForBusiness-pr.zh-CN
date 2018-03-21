@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 2d5d3c87-af1e-487e-b86c-261f2e5a0661
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn how to change the emergency location for your users. With an unlimited number of locations, you can change emergency locations as employees move floors or buildings. '
-ms.openlocfilehash: 981e236186b5b235779ffd732087027590305f23
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 7efdced5612a1a7ad90d1a8d3026588dc62c118c
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="change-the-emergency-location-for-a-user"></a>更改用户的紧急位置
 
@@ -66,4 +68,7 @@ ms.lasthandoff: 02/19/2018
 
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

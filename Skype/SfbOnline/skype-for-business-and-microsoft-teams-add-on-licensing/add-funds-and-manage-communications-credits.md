@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -28,11 +30,11 @@ ms.custom:
 - Licensing
 - Strat_SB_PSTN
 description: "了解如何支付通信贷方 （PSTN 消耗量） Skype 业务服务和计划，以保障连续电话系统访问权限的用户，请参阅。 "
-ms.openlocfilehash: a97b0d3b47e8062ae47def379b22dd73c7909700
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: a53c2e1f92437afa134a26f7203cb36c7714219a
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>添加资金和管理通信片尾
 
@@ -89,3 +91,6 @@ ms.lasthandoff: 02/19/2018
 - [设置调用计划](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)和[Office 365 调用计划](calling-plans-for-office-365.md)
         
 - [将云连接器配置](https://technet.microsoft.com/en-us/library/mt605228.aspx)并[下载云连接器](https://aka.ms/CloudConnectorInstaller)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

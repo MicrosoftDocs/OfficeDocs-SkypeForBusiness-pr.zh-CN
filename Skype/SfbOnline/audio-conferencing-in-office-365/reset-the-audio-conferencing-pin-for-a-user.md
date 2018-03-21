@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 67866a47-89c1-4593-8766-3a68777e2be6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Find out what you should know about PINs and how to reset them for your users. '
-ms.openlocfilehash: 1deacb0a00ccef585e220752ea94c678d1d5a4d3
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 2244e23c1eed616ba5bf4832e634e7a796dfd8b7
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="reset-the-audio-conferencing-pin-for-a-user"></a>重置用户的音频会议 PIN
 

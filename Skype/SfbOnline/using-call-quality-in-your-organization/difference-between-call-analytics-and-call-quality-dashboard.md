@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: "了解如何调用分析和呼叫质量控制板以及何时使用它们来监视并排除在业务的 Skype 通话质量问题。"
-ms.openlocfilehash: a17b98451013f24810fd437fa3eb638f98610a8f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 6c8eb372388ae42863292dbf00a70c5ddd19118d
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="whats-the-difference-between-call-analytics-and-call-quality-dashboard"></a>调用分析和呼叫质量仪表板之间的区别是什么？
 
@@ -64,3 +64,6 @@ CQD 有关详细信息，请参阅[打开并使用 Microsoft 小组和 Skype 的
 [设置 Skype for Business 通话分析](set-up-call-analytics.md)
 
 [使用通话分析解决 Skype for Business 通话质量不佳的问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

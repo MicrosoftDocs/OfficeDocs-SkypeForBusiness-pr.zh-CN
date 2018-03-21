@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
-ms.openlocfilehash: ded1fbf0825fd03645aa2862cc4f51cc10374fbc
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 5e0408618f2c9760aae567671580589d1103e634
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>在 Skype for Business 与 Lync 客户端用户界面之间切换
 
@@ -281,3 +281,6 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
 
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

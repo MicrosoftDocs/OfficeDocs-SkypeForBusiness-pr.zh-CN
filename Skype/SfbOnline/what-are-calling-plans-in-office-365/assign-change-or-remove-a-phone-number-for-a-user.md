@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Learn how to assign, change, or remove a work phone number to your Skype for Business users so outside businesses and clients can call in.
-ms.openlocfilehash: 34d60b9a032cbf3de472eb0f99c1027aea619217
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e30d5949cb667a1a9b6d6bc4c66b82093aa40fbc
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>指派、 更改或删除的用户的电话号码
 
@@ -122,4 +124,7 @@ ms.lasthandoff: 02/19/2018
 
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: "使用 Windows PowerShell 和 Get CsTenant 和 Get CsTenantLicensingConfiguration cmdlet 以获取有关您的在线业务的租户的 Skype 的信息。"
-ms.openlocfilehash: 484911da152ce4bd8f682321575c0cfecafd4e73
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 6461a15baeed3bf3fde0ee79dc24f7863eaabd02
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>管理 Skype 的在线业务组织
 
@@ -47,3 +47,6 @@ Get-CsTenant | Select-Object Name, TenantID
   
 ## <a name="related-topics"></a>相关主题
 [设置计算机上的 Skype 业务在线管理使用 Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

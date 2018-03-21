@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: "下载、 安装和使用 Skype 业务在线连接器创建远程 Windows PowerShell 会话连接到 Skype 的在线业务。 "
-ms.openlocfilehash: e95b65d62434a6ea7a52714536b1b11d47f08a8c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 4b4f611cae3ca46629de42b122ef4e9238402c98
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>下载并安装 Skype 业务在线连接器模块
 
@@ -59,3 +59,6 @@ Import-Module SkypeOnlineConnector
   
 ## <a name="related-topics"></a>相关主题
 [设置计算机上的 Skype 业务在线管理使用 Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

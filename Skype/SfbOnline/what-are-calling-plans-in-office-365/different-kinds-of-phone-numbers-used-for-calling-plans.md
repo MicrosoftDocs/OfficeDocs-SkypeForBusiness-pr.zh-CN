@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 26602564-0f15-44e6-a27b-c8f26668ba7f
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Skype 的在线业务将使用不同的电话号码类型，具体取决于您要使用的电话号码的目的。"
-ms.openlocfilehash: 82cf5b69ae61559b4cf5fa973ed2e0a5220f1ff1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: a417aac7143b7be1afb8f7801b1007b1a1ab69b5
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>不同种类的用于调用计划的电话号码
 
@@ -63,6 +65,7 @@ Skype 的在线业务将使用不同的电话号码类型，具体取决于您�
 
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

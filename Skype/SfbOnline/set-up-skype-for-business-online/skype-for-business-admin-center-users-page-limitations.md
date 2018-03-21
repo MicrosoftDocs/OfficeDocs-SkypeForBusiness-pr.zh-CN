@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "了解如何处理业务在线管理显示用户的 Skype 允许的范围内。 "
-ms.openlocfilehash: b7154c8b8aae4f8f28cd2ebc9e70d1c966507db8
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 7f7189536d1c859b25eb6cacb3fc75c57995d464
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Skype 的在线业务管理员中心用户页面的限制
 
@@ -44,3 +44,6 @@ ms.lasthandoff: 02/19/2018
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
 
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

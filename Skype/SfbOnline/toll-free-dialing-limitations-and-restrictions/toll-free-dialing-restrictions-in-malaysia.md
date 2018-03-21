@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: "这将帮助您了解如何拨打免费电话在每个国家/地区。 选择国家/地区后，它将向特定国家的页包含的特定详细信息、 限制和的免费电话服务的可用性限制免费服务不可。 拨号格式将显示您所需的访问码，每个国家/地区拨打免费电话号码。"
-ms.openlocfilehash: 4093bf48588a503d39ad3a7d5d151b8db4fb66c4
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: f2d232d1661d2fb6044073e4b9bf8d6ac71e2b6c
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-malaysia"></a>在马来西亚的免费电话拨号限制
 
@@ -47,3 +47,6 @@ ms.lasthandoff: 02/19/2018
 [免费电话拨号限制和限制](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

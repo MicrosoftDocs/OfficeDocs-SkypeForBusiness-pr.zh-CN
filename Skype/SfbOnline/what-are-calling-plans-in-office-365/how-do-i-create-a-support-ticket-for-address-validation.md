@@ -20,11 +20,11 @@ f1keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
 ms.custom:
 - Calling Plans
 description: "地址验证是在 Office 365 中设置通话套餐的重要步骤。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。"
-ms.openlocfilehash: 3d6ab2d8b21b3ea2a85b3d7a2379cd5589cb392c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 9c5da69771db1d0ab743d865c3171018a0298fee
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>如何创建支持票证以进行地址验证？
 
@@ -107,3 +107,6 @@ ms.lasthandoff: 02/19/2018
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

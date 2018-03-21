@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: d935a90d-ea61-433d-a820-b400ed9c1f5d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 - Strat_SB_PSTN
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business. Conferencing bridge.
-ms.openlocfilehash: d6c0f4f3a8f903ff180785214d3a4e987321a5b3
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 0193743f9dd2ed6486d93d55c881f3e582e4eb04
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>将 Microsoft 指定为音频会议提供商
 
@@ -203,3 +205,4 @@ ms.lasthandoff: 02/19/2018
 [设置音频会议 for Skype Business 和 Microsoft 团队](set-up-audio-conferencing.md)
   
 [设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+

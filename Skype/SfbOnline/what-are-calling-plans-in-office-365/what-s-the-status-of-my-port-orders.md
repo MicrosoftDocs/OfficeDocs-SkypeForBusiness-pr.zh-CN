@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: b715318beb048940b6fbaa5666217e027836332d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: ae813a8f74ed69ecbfef12c28e03a757c076043d
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="whats-the-status-of-my-port-orders"></a>我的移植订单的状态是什么？
 
@@ -56,4 +56,7 @@ ms.lasthandoff: 02/19/2018
 
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

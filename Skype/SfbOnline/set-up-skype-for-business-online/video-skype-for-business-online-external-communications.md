@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to set up Skype for Business Online external communications for your users can communicate with external Skype contacts. '
-ms.openlocfilehash: d7356ee2468e006bd8d4b622e3100e04344a28a9
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 173e1715bbefec0e446011581fcaaecefcebf4d9
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>视频：Skype for Business Online 外部通信
 
@@ -40,3 +40,6 @@ ms.lasthandoff: 02/19/2018
 [允许用户联系外部 Skype for Business 用户](allow-users-to-contact-external-skype-for-business-users.md)
 
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

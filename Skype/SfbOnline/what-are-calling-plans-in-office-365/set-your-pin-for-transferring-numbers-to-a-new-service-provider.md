@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: f1defa5b-e49c-4d8c-a5f8-3f736201af5e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "可用于传输给其他电话服务提供商或运营商的在线业务端口出从 Skype 电话号码，您将需要手动设置 PIN。 设置 PIN 后，您需要将其包括在您请求端口出一个电话号码时。"
-ms.openlocfilehash: 03e2e0ca76ea434e2458f1dec4a236996a19f7aa
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 5800ca846e4f71490be24ae02d031fa0579e2ce5
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>设置传输到新的服务提供商的数字 PIN
 
@@ -71,8 +73,9 @@ ms.lasthandoff: 02/19/2018
 
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
   
 

@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: "使用调用分析有关设备、 网络和连接的详细信息来解决用户的问题与 Skype 进行业务联络和会议。"
-ms.openlocfilehash: 4f43c517beba318889e12fca8b09a488f6da5916
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: cbb728c14c58393a5ec71cc538ad958ba58fb947
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality"></a>使用调用分析诊断较差企业的 Skype 通话质量
 
@@ -77,3 +77,5 @@ ms.lasthandoff: 02/19/2018
 
 [通话分析与通话质量仪表板之间有何区别？](difference-between-call-analytics-and-call-quality-dashboard.md)
 
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

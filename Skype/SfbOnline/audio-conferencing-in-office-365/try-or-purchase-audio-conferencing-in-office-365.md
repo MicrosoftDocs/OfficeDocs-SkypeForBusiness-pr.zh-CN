@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: d080bb8c-3465-47bb-ad2b-9428f1a3fd24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,11 +23,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "请参阅如何尝试或购买 Office 365 可以设置用户可以拨入的会议呼叫的音频会议 （PSTN 会议） 许可证。 "
-ms.openlocfilehash: 2c2b76bb207d5463c4b431e4cf9be4f0ecdba472
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: ff46a3285a2db4e901388cc3b5dd5bc8045ccfb5
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365"></a>请尝试或购买 Office 365 中的音频会议
 

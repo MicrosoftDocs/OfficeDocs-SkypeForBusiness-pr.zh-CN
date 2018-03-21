@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'See steps to assign a dial-in conferencing license and conference ID to a user, set up a third party conferencing provider, and many other dial-in conferencing settings. '
-ms.openlocfilehash: 6fb10654c5845fb5524264219e642cd0a250e860
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: b890358cebfe6b5d701758c4b6086d6e1f388ca1
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>管理我的组织的音频会议设置
 
@@ -154,7 +156,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 4. 在**会议 ID 重置？**窗口中，单击**是**。 A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
     
     > [!IMPORTANT]
-    >  [!重要信息] 创建新会议 ID 后，呼叫者不能再使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 用户可以使用 Skype 业务会议迁移工具来更新其现有的会议。 若要了解如何下载、 安装和运行 Skype 业务会议更新工具，请参阅: [会议更新工具 Skype 业务和 Lync] ((https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4) [Skype 的在线业务会议迁移工具 （64 位）](http://go.microsoft.com/fwlink/?LinkID=626047)，和[Skype 的在线业务、 会议迁移工具 （32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=54079)。
+    >  [!重要信息] 创建新会议 ID 后，呼叫者不能再使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 用户可以使用 Skype 业务会议迁移工具来更新其现有的会议。 如何下载、 安装和运行 Skype 业务会议更新工具，请参阅: [会议更新工具 Skype 业务和 Lync] ((https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)，[的业务联机，会议迁移工具 Skype (64 位)](http://go.microsoft.com/fwlink/?LinkID=626047)，和[Skype 的在线业务会议迁移工具 （32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=54079)。
   
 请参阅[重置用户的会议 ID](reset-a-conference-id-for-a-user.md)。
   
@@ -399,4 +401,3 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 [管理用户的音频会议设置](manage-the-audio-conferencing-settings-for-a-user.md)
 
 [设置音频会议 for Skype Business 和 Microsoft 团队](set-up-audio-conferencing.md)
-

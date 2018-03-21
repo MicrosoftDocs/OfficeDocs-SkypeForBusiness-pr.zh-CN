@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 8573e540373ce670336915b262199c620b4a25aa
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: ccbc6fe67d0e766d007704ef807316907d492321
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="conference-participant-activity-report"></a>会议参与者的活动报告
 
@@ -112,3 +112,6 @@ ms.lasthandoff: 02/19/2018
     
 ## <a name="related-topics"></a>相关主题
 [Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

@@ -4,12 +4,14 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
-ms.date: 01/22/2018
+ms.date: 03/13/2018
 ms.topic: article
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: "了解如何设置 Skype for Busineses 以便将其他语言用于贵组织的默认语音邮箱问候语。 "
-ms.openlocfilehash: 1c311436ed9010ea20598aac6a55b4806fe18abb
-ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
-ms.translationtype: HT
+ms.openlocfilehash: 04ba9aa11b5cfa49fc72b3ba0b96c1b3c0f9b73b
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>更改问候语和电子邮件的默认语言
 
@@ -40,10 +42,12 @@ ms.lasthandoff: 01/25/2018
     > 用户登录后，可以通过设置更改自己的问候语语言。 
   
 - **是否要录制你的外出语音邮件消息？** 请参阅[检查 Skype for Business 语音邮件和选项](https://support.office.com/en-us/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)。
+
+- **若要更改语音邮件提示语言吗？** 转到[https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail)，然后选择一种新的语言**提示语言**下。
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>更改组织内所有用户的系统语言
 
-1. 使用 [Office 365 全局管理员](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帐户登录 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。 
+1. 使用您的[Office 365 提供全局管理员](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帐户，登录[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。 
     
 2. 在管理中心，选择“**设置**” > “**组织资料**”。 
     
@@ -73,4 +77,5 @@ ms.lasthandoff: 01/25/2018
     
 - [启用或更改键盘布局语言](https://support.office.com/en-us/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
     
-
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "Office 365 中的 Outlook 网页版 (Outlook Web App) 在导航栏中提供基本 Skype for Business Web 客户端。 此基本客户端仅供联机用户的管理尚未配置 Office 365 组织的虚荣 URL。 只要用户帐户处于联机状态，并且没有一个虚荣的 URL，他们仍会看到体验，即使其组织内部部署穴的某些用户帐户。 具有用户帐户内部 （是否有虚荣 URL 或不） 或由 Microsoft 管理的用户会看到 Outlook web 应用程序中的 Lync 体验。"
-ms.openlocfilehash: 38502f19a1204ac18a372367cb1ec24dd422207f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 153cf2599afdd6961126307ca2b5f88fcff3f6fd
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Outlook 网页版中的 Skype for Business Online 支持
 
@@ -46,3 +46,6 @@ Office 365 中的 Outlook 网页版 (Outlook Web App) 在导航栏中提供基�
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
 
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

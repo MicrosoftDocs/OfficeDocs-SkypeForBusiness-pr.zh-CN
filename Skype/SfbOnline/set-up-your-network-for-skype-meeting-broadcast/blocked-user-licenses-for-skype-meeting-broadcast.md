@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - SMB
 description: "遗憾的是，有某些被禁止的用户许可证当用户转到 https://broadcast.skype.com 并且想要使用 Skype 会议广播。 如果用户看到此消息，它们具有分配给它们的阻止许可证之一。 如果您仍然希望他们能够使用它，请将它们指派另一个 Office 365 提供许可证。"
-ms.openlocfilehash: 946e073183f52af84adbbf5f727282f487db07c3
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: b1de6b116793d74fc01d6c95138aa1d9a10ab2c9
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Skype 会议广播为阻止用户许可证
 
@@ -69,3 +69,6 @@ ms.lasthandoff: 02/19/2018
 [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
   
 [设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

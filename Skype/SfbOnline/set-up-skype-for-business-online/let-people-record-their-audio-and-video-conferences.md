@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'How to turn on recording for audio and video conferences, and learn what is and isn''t included in recordings. '
-ms.openlocfilehash: 040bc86ec65f5e0c4fd50ec09f8517b6d7f5699c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 9c8f3107272eaad7911c86f6b914a67bed3902ee
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>让人员可以录制其音频和视频会议
 
@@ -46,3 +46,6 @@ ms.lasthandoff: 02/19/2018
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
 
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

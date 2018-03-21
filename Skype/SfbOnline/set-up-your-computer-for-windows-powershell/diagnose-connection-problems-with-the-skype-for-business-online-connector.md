@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: "创建远程 PowerShell 会话连接到 Skype 的业务联机，包括导入模块、 并发的外壳，Live ID 和权限错误进行故障诊断。"
-ms.openlocfilehash: b98acefed673c08f6b986055fafef82847902f1a
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 779786e073cf4ac420d75780472f8d45d67b292a
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>诊断连接问题与 Skype 业务在线连接器
 
@@ -145,3 +145,5 @@ PowerShell 执行策略有助于确定哪些配置文件可以加载到 PowerShe
 ## <a name="related-topics"></a>相关主题
 [设置计算机上的 Skype 业务在线管理使用 Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

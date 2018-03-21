@@ -20,7 +20,7 @@ ms.custom:
 - Reporting
 description: "设置和使用调用分析来识别和解决 Skype 的通话质量问题，业务和 Microsoft 小组。"
 ms.openlocfilehash: 32900eb98ce4ea25602ed748fc750427b795d313
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 02/19/2018

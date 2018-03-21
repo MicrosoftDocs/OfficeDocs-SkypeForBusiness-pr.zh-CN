@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: "地址验证是在 Office 365 中设置通话套餐的重要步骤。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。"
-ms.openlocfilehash: de5228e90e6d3f6d20b67e7fdba14734f10cf05b
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e8e84deb77a1cdc122c36a1031fe2efa8d3eaf67
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>为什么数字激活列为一样不完整？
 
@@ -105,4 +105,7 @@ ms.lasthandoff: 02/19/2018
 
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

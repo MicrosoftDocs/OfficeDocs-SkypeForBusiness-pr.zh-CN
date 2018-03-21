@@ -20,7 +20,7 @@ ms.custom:
 - Legal
 description: "这是必须公布，以满足法规遵从性，可访问性要求的内容和 Skype 在法国在线业务的法规。 "
 ms.openlocfilehash: 1585f6b03efb75454c18024ae68c8068156a07d6
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 02/19/2018

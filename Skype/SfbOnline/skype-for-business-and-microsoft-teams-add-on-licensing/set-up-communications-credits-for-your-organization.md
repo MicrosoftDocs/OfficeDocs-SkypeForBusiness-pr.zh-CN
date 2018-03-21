@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: bb9f2a8d-f5be-41ed-9d19-25dea5ca9f52
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Licensing
 - Strat_SB_PSTN
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: b2eb4616e9f79392558d421723ee013759a455fd
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 61ee7bb2a4de8417f9e018de369c0a87649b75a1
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>为您的组织设置通信片尾
 
@@ -121,3 +123,6 @@ ms.lasthandoff: 02/19/2018
 - [存入资金和管理通信点数](add-funds-and-manage-communications-credits.md)
     
 - [将云连接器配置](https://technet.microsoft.com/en-us/library/mt605228.aspx)并[下载云连接器](https://aka.ms/CloudConnectorInstaller)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

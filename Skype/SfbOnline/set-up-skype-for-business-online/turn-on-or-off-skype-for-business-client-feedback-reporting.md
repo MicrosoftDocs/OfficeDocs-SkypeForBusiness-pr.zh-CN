@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "您可以启用业务用户能够使用内置 Skype 业务应用程序的反馈工具使用户报告问题并提供反馈意见直接向其体验有关 Microsoft 为您 Skype。"
-ms.openlocfilehash: c60057e2b303fb9265560754fb4bb2643685ac5c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e7af70729d0dcdabbebbfcd1577920b0c404c0e9
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>开启或关闭 Skype for Business 客户端反馈报告
 
@@ -97,3 +97,6 @@ ms.lasthandoff: 02/19/2018
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
 
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

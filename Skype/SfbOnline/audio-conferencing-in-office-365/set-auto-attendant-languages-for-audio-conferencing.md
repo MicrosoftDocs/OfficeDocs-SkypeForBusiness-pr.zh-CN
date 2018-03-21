@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 26d73dda-ab26-4af4-8aec-d17f3479ae50
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "了解如何选择音频会议号码的音频会议自动助理语言。"
-ms.openlocfilehash: 85dd6fb9328e3362d84315f7c8a7f3d7e8e2df86
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: c352609926a7bc6bf7f72015447ba9f7ae115487
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing"></a>设置音频会议自动助理语言
 
@@ -71,4 +73,3 @@ Skype 业务和 Microsoft 小组音频会议自动助理可以上任之初即音
 ## <a name="related-topics"></a>相关主题
 
 [设置音频会议 for Skype Business 和 Microsoft 团队](set-up-audio-conferencing.md)
-

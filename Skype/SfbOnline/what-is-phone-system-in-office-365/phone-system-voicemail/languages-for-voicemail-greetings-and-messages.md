@@ -21,10 +21,10 @@ ms.custom:
 - Strat_SB_PSTN
 description: "了解在 Skype for Business 中可以为默认系统消息设置哪些语言。 "
 ms.openlocfilehash: 256bc49c67ffbbfc4a503ffaf621cd4bb82b0c07
-ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>语音邮件问候语和消息的语言
 

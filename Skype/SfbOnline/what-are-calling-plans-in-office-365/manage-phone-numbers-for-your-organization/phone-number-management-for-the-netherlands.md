@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: f3b75104-bdb9-435a-bec5-9858db9df402
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的荷兰电话号码的信息。"
-ms.openlocfilehash: ce6381433733fff8750f175f6e4473ab29be7926
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: df9c9b53821c6e3dae8a55b06754a78558f3090e
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>荷兰的电话号码管理
 
@@ -34,7 +36,8 @@ ms.lasthandoff: 02/19/2018
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取新的用户电话号码。  <br/> | 下载[荷兰的新电话号码申请（地理号码）(v.3.0)(nl-nl)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(geographic-numbers)-(v.3.0)-(nl-nl).pdf) <br/>  <br/>  填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
+|获取新用户的电话号码没有列出的在 Skype 业务管理中心。   <br/> | 下载[荷兰的新电话号码申请（地理号码）(v.3.0)(nl-nl)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(geographic-numbers)-(v.3.0)-(nl-nl).pdf) <br/>  <br/>  填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
+|在 Skype 获得业务管理中心没有列出的新服务电话号码。 <br/> |在美国以外的服务编号，请[下载此窗体](../../downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf)，填充出来并[将其发送给我们](mailto:ptneu@microsoft.com)。
 |你需要将电话号码转移给我们。  <br/> |下载下列表单之一： <br/> [荷兰授权书 (LOA)（地理号码）(v.2.0)(nl-nl)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl-nl).pdf) <br/> [荷兰授权书 (LOA)（非地理号码）(v.2.0)(nl-nl)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(non-geographic-numbers)-(v.2.0)-(nl-nl).pdf) <br/> <br/>  填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
 |你需要在国家电话目录中发布/取消发布电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
 |你需要将用户的号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要转换为服务号码的用户号码列表。 <br/> |
@@ -46,5 +49,7 @@ ms.lasthandoff: 02/19/2018
 
 [紧急呼叫条款和条件](../emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)
 
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

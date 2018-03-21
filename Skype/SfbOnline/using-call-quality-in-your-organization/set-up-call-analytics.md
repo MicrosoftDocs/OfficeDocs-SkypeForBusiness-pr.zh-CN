@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: "设置和使用调用分析来识别和解决 Skype 的通话质量问题，业务和 Microsoft 小组。"
-ms.openlocfilehash: 81d3f88bf04fa63aaa5857e2056aaf429e7ffcd4
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: ef8f9e10e25e7f67f0161a143c313ed25330db18
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="set-up-skype-for-business-call-analytics"></a>Skype 业务调用分析设置
 
@@ -91,3 +91,6 @@ Skype 的在线业务的管理，您可以使用调用分析来解决 Skype 业�
 [使用通话分析解决 Skype for Business 通话质量不佳的问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [通话分析与通话质量仪表板之间有何区别？](difference-between-call-analytics-and-call-quality-dashboard.md)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

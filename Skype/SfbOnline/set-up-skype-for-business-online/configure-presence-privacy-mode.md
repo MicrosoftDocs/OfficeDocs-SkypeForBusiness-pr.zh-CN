@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "了解如何设置为您的用户隐私模式，以便他们可以更好地控制如何人们看到它们的可用性。 "
-ms.openlocfilehash: c548a0b85b4b458472da0d9196ac0271a92a16c2
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 6a50370afb0e35873536162c9db28e4d75eed96e
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="configure-presence-privacy-mode"></a>配置存在隐私模式
 
@@ -44,3 +44,6 @@ Skype 业务联机展示形式设置为人们提供了更好地控制谁可以�
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
 
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>反馈意见？
+提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
