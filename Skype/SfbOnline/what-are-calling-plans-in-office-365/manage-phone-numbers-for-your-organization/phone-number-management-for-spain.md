@@ -1,0 +1,55 @@
+---
+title: "西班牙的电话号码管理"
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/31/2018
+ms.topic: article
+ms.assetid: e18d2274-cd69-47f6-9a65-1adc59dc5399
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
+ms.audience: Admin
+appliesto:
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的西班牙电话号码的信息。"
+ms.openlocfilehash: 5c901c44a3d72cbb7ed03ca0168ab396eb6fd83e
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/08/2018
+---
+# <a name="phone-number-management-for-spain"></a><span data-ttu-id="aae4e-103">西班牙的电话号码管理</span><span class="sxs-lookup"><span data-stu-id="aae4e-103">Phone number management for Spain</span></span>
+
+<span data-ttu-id="aae4e-104">使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的西班牙电话号码的信息。</span><span class="sxs-lookup"><span data-stu-id="aae4e-104">Use this table to find information on getting and managing phone numbers in Spain for Skype for Business Online and Microsoft Teams.</span></span> 
+  
+<span data-ttu-id="aae4e-105">有关详细信息，请参阅[为你的组织管理电话号码](manage-phone-numbers-for-your-organization.md)。</span><span class="sxs-lookup"><span data-stu-id="aae4e-105">For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).</span></span>
+  
+|<span data-ttu-id="aae4e-106">**你要做什么？**</span><span class="sxs-lookup"><span data-stu-id="aae4e-106">**What you want to do?**</span></span>|<span data-ttu-id="aae4e-107">**下载正确的表单**</span><span class="sxs-lookup"><span data-stu-id="aae4e-107">**Download the correct forms**</span></span>|
+|:-----|:-----|
+|<span data-ttu-id="aae4e-108">获取新用户的电话号码没有列出的在 Skype 业务管理中心。</span><span class="sxs-lookup"><span data-stu-id="aae4e-108">Get new user phone numbers that aren't listed in the Skype for Business admin center.</span></span>   <br/> | <span data-ttu-id="aae4e-109">下载[西班牙的新电话号码申请（地理号码）(v.3.0)(es-es)](../../downloads/new-number-request-forms/new-phone-number-request-for-spain-(geographic-numbers)-(v.3.0)-(es-es).pdf)</span><span class="sxs-lookup"><span data-stu-id="aae4e-109">Download [New phone number request for Spain (geographic numbers) (v.3.0)(es-es)](../../downloads/new-number-request-forms/new-phone-number-request-for-spain-(geographic-numbers)-(v.3.0)-(es-es).pdf)</span></span> <br/><br/>    <span data-ttu-id="aae4e-110">填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。</span><span class="sxs-lookup"><span data-stu-id="aae4e-110">Fill it out and [send it to us](mailto:ptneu@microsoft.com).</span></span>  <br/> |
+|<span data-ttu-id="aae4e-111">在 Skype 获得业务管理中心没有列出的新服务电话号码。</span><span class="sxs-lookup"><span data-stu-id="aae4e-111">Get new service phone numbers that aren't listed in the Skype for Business admin center.</span></span> <br/> |<span data-ttu-id="aae4e-112">在美国以外的服务编号，请[下载此窗体](../../downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf)，填充出来并[将其发送给我们](mailto:ptneu@microsoft.com)。</span><span class="sxs-lookup"><span data-stu-id="aae4e-112">For service numbers outside of the United States, please [download this form](../../downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf), fill it out and [send it to us](mailto:ptneu@microsoft.com).</span></span>
+|<span data-ttu-id="aae4e-113">你需要将电话号码转移给我们。</span><span class="sxs-lookup"><span data-stu-id="aae4e-113">You need to get phone numbers transferred to us.</span></span>  <br/> |<span data-ttu-id="aae4e-114">下载[西班牙授权书 (LOA)（所有号码）(v.1.0)(es-es)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.1.0)-(es-es).pdf)，填写此授权书并[将其发送给我们](mailto:ptneu@microsoft.com)。</span><span class="sxs-lookup"><span data-stu-id="aae4e-114">Download the [Letter of Authorization (LOA) for Spain (all numbers) (v.1.0)(es-es)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.1.0)-(es-es).pdf) form, fill it out and [send it to us](mailto:ptneu@microsoft.com).</span></span> <br/> |
+|<span data-ttu-id="aae4e-115">你需要在国家电话目录中发布/取消发布电话号码。</span><span class="sxs-lookup"><span data-stu-id="aae4e-115">You need to publish/unpublish phone number(s) in the national phone directory.</span></span>  <br/> |<span data-ttu-id="aae4e-116">[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。</span><span class="sxs-lookup"><span data-stu-id="aae4e-116">[Send us](mailto:ptneu@microsoft.com) the list of phone numbers you want to publish/unpublish.</span></span> <br/> |
+|<span data-ttu-id="aae4e-117">你需要将用户的号码更改为服务号码。</span><span class="sxs-lookup"><span data-stu-id="aae4e-117">You need to change a user's number to a service number.</span></span>  <br/> |<span data-ttu-id="aae4e-118">[向我们发送](mailto:ptneu@microsoft.com )你想要转换为服务号码的用户号码列表。</span><span class="sxs-lookup"><span data-stu-id="aae4e-118">[Send us](mailto:ptneu@microsoft.com ) the list of user numbers you want to convert to service numbers.</span></span> <br/> |
+
+## <a name="related-topics"></a><span data-ttu-id="aae4e-119">相关主题</span><span class="sxs-lookup"><span data-stu-id="aae4e-119">Related topics</span></span>
+[<span data-ttu-id="aae4e-120">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="aae4e-120">Different kinds of phone numbers used for Calling Plans</span></span>](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[<span data-ttu-id="aae4e-121">管理你的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="aae4e-121">Manage phone numbers for your organization</span></span>](manage-phone-numbers-for-your-organization.md)
+
+[<span data-ttu-id="aae4e-122">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="aae4e-122">Emergency calling terms and conditions</span></span>](../emergency-calling-terms-and-conditions.md)
+
+[<span data-ttu-id="aae4e-123">Skype for Business Online：紧急呼叫免责标签</span><span class="sxs-lookup"><span data-stu-id="aae4e-123">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a><span data-ttu-id="aae4e-124">反馈意见？</span><span class="sxs-lookup"><span data-stu-id="aae4e-124">Feedback?</span></span>
+<span data-ttu-id="aae4e-125">提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。</span><span class="sxs-lookup"><span data-stu-id="aae4e-125">To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).</span></span>
