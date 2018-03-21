@@ -21,10 +21,10 @@ ms.custom:
 - Strat_SB_PSTN
 description: "有时（具体取决于你的国家/地区），你无法使用 Skype for Business 管理中心获取新号码，或你需要特定的电话号码或区号。 如果是这样，你需要下载表单并将其发送给我们。 我们的服务台将接收该表单并向你通知进度或你的订单。"
 ms.openlocfilehash: 54bcc6ca99434206bf63eeb5a65b0b6dee0f583a
-ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="get-new-user-phone-numbers-request-forms"></a>获取新的用户电话号码申请表
 

@@ -21,10 +21,10 @@ ms.custom:
 - Strat_SB_PSTN
 description: "授权书 (LOA) 为我们提供了以下权限：请求在出现争议的情况下代表你从不同的服务提供商转移现有号码。"
 ms.openlocfilehash: 52f4d51a12b174d1b285e702ce65f8511c2a1500
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="download-a-letter-of-authorization-loa"></a>下载授权书 (LOA) 
 

@@ -1,0 +1,49 @@
+---
+title: "在日本的免费电话拨号限制"
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.reviewer: mikedav, oscarr
+ms.date: 01/22/2018
+ms.topic: article
+ms.assetid: 4e41a962-c578-4154-8b69-30ef95ea9af8
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto:
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: None
+ms.custom:
+- Calling Plans
+description: "这将帮助您了解如何拨打免费电话在每个国家/地区。 选择国家/地区后，它将向特定国家的页包含的特定详细信息、 限制和的免费电话服务的可用性限制免费服务不可。 拨号格式将显示您所需的访问码，每个国家/地区拨打免费电话号码。"
+ms.openlocfilehash: f8a4eeadb6407cbe6bc2f62e47c57bb7ed7fb181
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 02/19/2018
+---
+# <a name="toll-free-dialing-restrictions-in-japan"></a>在日本的免费电话拨号限制
+
+[找到另一个国家或地区](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)，或了解更多的免费电话拨号限制和限制。
+
+
+|**详细信息**|**说明**|
+|:-----|:-----|
+|是免费调用可用？  <br/> |是  <br/> |
+|拨号格式  <br/> |00531 XX XXXX  <br/> |
+|国家/地区的 ISO 代码  <br/> |JP  <br/> |
+|涵盖岛/区域  <br/> |不适用  <br/> |
+|未覆盖的岛/区域  <br/> |不适用  <br/> |
+|有线固定行的可用性  <br/> |是  <br/> |
+|移动网络的可用性  <br/> |部分。 请参阅注释。  <br/> |
+|注释、 限制和访问问题  <br/> |移动网络访问： NTT Docomo、 Au (KDD) 和 Softbank。  <br/> |
+   
+## <a name="related-topics"></a>相关主题
+
+[免费电话拨号限制和限制](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
+
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)

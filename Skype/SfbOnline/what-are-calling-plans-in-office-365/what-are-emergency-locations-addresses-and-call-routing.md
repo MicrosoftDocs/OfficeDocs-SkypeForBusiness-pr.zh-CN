@@ -1,0 +1,76 @@
+---
+title: "什么是紧急位置、地址和呼叫路由？"
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
+ms.topic: article
+ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto:
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+f1keywords:
+- ms.lync.lac.AddressAndLocation
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: 'Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. '
+ms.openlocfilehash: 35553da49cbaffde1a960ce83550b6fc4ce3ef07
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 02/19/2018
+---
+# <a name="what-are-emergency-locations-addresses-and-call-routing"></a>什么是紧急位置、地址和呼叫路由？
+
+当在 Office 365 中配置调用计划时，要求每个电话号码配给一个紧急的地址，或您可以得到的电话号码时指派给用户以支持紧急电话。 将紧急的地址分配给一个电话号码之前, 必须创建并验证一个紧急的地址。 验证可确保紧急通讯被识别并且是可供紧急响应服务的正确格式。 （可选） 可以添加紧急通讯中的位置提供更具体的用户位置。 例如，紧急位置可能是地板、 翼形或链接到特定的紧急通讯的办公室。 即使紧急地址进行验证，并不是位置。
+  
+## <a name="what-are-emergency-addresses"></a>什么是紧急地址？
+
+活动的电话号码，需要紧急的地址，但当它是必需是取决于国家/地区。 在美国，紧急通讯时**需要**大量分配给用户。 对于其他国家或地区，如欧洲、 中东和非洲 (EMEA) 紧急通讯时**需要**从 Office 365 或另一个服务提供商或运营商传输收到的电话号码。
+  
+紧急通讯可能称为市政地址、 街道地址或物理地址。 它是你的组织业务经营场所的街道或市镇地址。 例如， *12345 北主街道，雷蒙德，WA 98052*用于路由到相应派遣机构的紧急电话，并以帮助定位紧急调用方的地址。 如果你的企业有多个物理位置，你可能需要多个紧急地址。
+  
+验证应急通讯涉及确保它合法且紧急响应服务的格式正确。 可以创建并保存紧急地址未验证，但只有经过验证的地址可以是与用户相关联。 验证和保存紧急地址后，即可将其分配给用户。 如果需要更改保存的已验证紧急地址，你需要创建一个新紧急地址。
+  
+## <a name="what-are-emergency-locations"></a>什么是紧急位置？
+
+紧急位置是使建筑物内的更精确位置紧急地址相关联。 紧急位置通常是用户所在的楼层、侧楼或办公室编号。 可以有无限个紧急地址相关联的位置。 
+  
+向用户分配紧急地址，实际上是分配地址时引用的位置 ID。 位置 ID 包含被引用的紧急地址 （街道或市政地址）。 如果不需要建筑内的位置，则紧急地址将包括默认紧急位置。 
+  
+## <a name="what-is-emergency-call-routing"></a>什么是紧急呼叫路由？
+
+紧急的地址和位置路由到相应的派单中心的紧急电话的过程时使用调度紧急的第一反应。 当业务用户的 Skype 拨叫紧急号码时，如何将呼叫路由到服务公共安全应答点 (PSAP) 会因国家/地区。 在某些国家，如美国和英国，该调用将第一次进行检查，以连接到相应调度中心电话之前确定当前用户的位置。 在其他国家/地区，调用将被直接路由到调度中心服务的关联与紧急呼叫的电话号码。
+  
+## <a name="creating-adding-and-assigning-emergency-locations-and-addresses-to-your-users"></a>创建、 添加和将紧急位置和地址分配给您的用户
+
+1. **规划对于紧急的位置**第一步是安排紧急的位置。 您需要列出所有您的物理地址。 然后，此基础，确定是否需要紧急地址的位置，如果出现这种情况，它们是什么。 例如，如果企业具有 3 办公楼每 4 厂用，很可能，必须有 3 个紧急地址，与 1-4 的位置列出每个楼层。
+    
+2. **创建并验证紧急位置** 下一步是创建和验证紧急地址。 当你创建紧急地址时，可以验证它。 若要创建一个紧急的地址，请参阅[添加或删除为您的组织满足紧急情况](add-or-remove-an-emergency-address-for-your-organization.md)。
+    
+    > [!IMPORTANT]
+    > [!重要信息] 验证街道或市镇地址涉及确保该地址是合法的并且格式设置正确。 可能存在不完全正确的紧急地址（例如，城市的名称有错）可能仍会通过验证。 验证过程使用给定的地址的所有部分，确定它是否包含足够的信息来将呼叫路由到适当的紧急派遣中心。 如果是这样，它会返回验证，然后可以分配到一个电话号码。 
+  
+3. **获取电话号码**下一步是获取用户的电话号码。 你可以通过从 Office 365 获取新的电话号码或通过将现有电话号码"转网"或转移到 Office 365 来获取号码。 若要查看完整的步骤，请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。
+    
+4. **分配电话号码** 最后一步是让用户拨打和接听电话呼叫。 要执行此操作，你必须为每个用户分配电话号码。 请参阅[指派、 更改或删除的用户的电话号码](assign-change-or-remove-a-phone-number-for-a-user.md)分配的电话号码。
+
+> [!NOTE]
+> 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+
+    
+## <a name="related-topics"></a>相关主题
+[什么是地址验证？](what-is-address-validation.md)
+
+[用于通话套餐的不同类型的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[紧急呼叫条款和条件](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)

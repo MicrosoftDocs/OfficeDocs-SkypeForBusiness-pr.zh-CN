@@ -21,10 +21,10 @@ ms.custom:
 - Strat_SB_PSTN
 description: "使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的爱尔兰电话号码的信息。"
 ms.openlocfilehash: c92d80a5d09fbbaa0aedc58f8008925bf5b175d0
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="phone-number-management-for-ireland"></a>爱尔兰的电话号码管理
 

@@ -21,10 +21,10 @@ ms.custom:
 - Calling Plans
 description: "了解地址验证是什么、它很重要的原因以及它与紧急地址和服务的关联关系。 "
 ms.openlocfilehash: f5da983796a435ba64d428b21544a44a191e6de4
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="what-is-address-validation"></a>什么是地址验证？
 
