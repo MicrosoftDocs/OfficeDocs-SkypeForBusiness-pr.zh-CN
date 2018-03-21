@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 02/06/2018
+ms.date: 03/19/2018
 ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -24,11 +24,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "在每个国家或地区，为 Skype for Business Online 和 Microsoft Teams 用户获取电话号码的说明均不同。 请访问下面你所在国家或地区对应的链接来获取你所需信息。"
-ms.openlocfilehash: 600d1370d0823c0cf5efab0c75ce0f26d6867828
-ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.openlocfilehash: 01c6f3bbb01d74d021594612561d035163378ba5
+ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>管理组织的电话号码
 有三种方式来获得用户和服务 (收费和免费电话) 为您的组织的数字。
@@ -37,7 +37,7 @@ ms.lasthandoff: 03/20/2018
 - 转移或者"端口"您现有号转移给我们。
 
 > [!IMPORTANT]
-> 在**比利时、 爱尔兰、 德国和荷兰**，无法获取电话新电话号码，使用**Skype 的业务管理中心**;您必须下载并填写表单。
+> 在**比利时、 爱尔兰、 德国和荷兰**，无法获取电话新电话号码，使用**Skype 的业务管理中心**;您必须下载并填写表单。 澳大利亚的新电话号码，请参阅[Telstra 语音服务](http://aka.ms/TelstraVoicePlan)。 
 
 ***
 如果您知道您正在寻找使用拖放到窗体的类型选择国家/地区得到的数字。

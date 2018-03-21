@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "以下是可用的澳大利亚 Skype 业务和 Microsoft 小组的 Office 365 提供服务。"
-ms.openlocfilehash: 7cc3be9976f0a581618cc93b835fceadab302717
-ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.openlocfilehash: 4552e465531ddbb331a0b0226b427ac44de1c558
+ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="availability-in-australia"></a>在澳大利亚的可用性
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 03/20/2018
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-| 自动助理 <br/> |可用  <br/> |
+|自动助理 <br/> |可用  <br/> |
 |呼叫队列  <br/> |可用  <br/> |
 |语音邮件  <br/> |可用  <br/> |
    
@@ -57,7 +57,7 @@ ms.lasthandoff: 03/20/2018
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买通话套餐？  <br/> |是的请参阅[Telstra 服务](http://aka.ms/TelstraVoicePlan)。  <br/> |
+|是否可购买通话套餐？  <br/> |是的请参阅[Telstra 语音服务](http://aka.ms/TelstraVoicePlan)。  <br/> |
 |通话套餐的可用分钟数  <br/> |请参阅[Telstra 服务](http://aka.ms/TelstraVoicePlan)。 <br/> |
 |是否可以拨打呼出电话？  <br/> |请参阅[Telstra 服务](http://aka.ms/TelstraVoicePlan)。 <br/> |
 
@@ -69,7 +69,7 @@ ms.lasthandoff: 03/20/2018
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    
-如果您希望获得收费和免费电话号码的自动助理和呼叫队列，请参阅[Telstra 服务](http://aka.ms/TelstraVoicePlan)。 对于音频会议，[请与我们联络](mailto:ptnapac@microsoft.com)。
+如果您希望获得收费和免费电话号码的自动助理和呼叫队列，请参阅[Telstra 语音服务](http://aka.ms/TelstraVoicePlan)。 有关音频会议服务号码，[请与我们联络](mailto:ptnapac@microsoft.com)。
   
 ## <a name="communications-credits"></a>通信点数
 
