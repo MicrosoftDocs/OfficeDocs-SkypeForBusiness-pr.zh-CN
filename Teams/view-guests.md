@@ -1,30 +1,28 @@
 ---
-title: "在团队中查看来宾用户"
-author: LaithAlShamri
-ms.author: laal
+title: 在团队中查看来宾用户
+author: LolaJacobsen
+ms.author: rramesan
 manager: serdars
 ms.date: 10/23/2017
 ms.topic: article
 ms.service: msteams
-ms.reviwer: laal
-description: "了解管理员如何在 Microsoft Teams 中查看有关来宾用户的信息。"
+ms.reviwer: rramesan
+description: 了解管理员如何在 Microsoft Teams 中查看有关来宾用户的信息。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bffc478e3b15a8e03dc5ef4b663f2e8ae88440ca
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: a314c79b579ad39048ab1703ef5f36383dd8958d
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
-<a name="view-guest-users-in-a-team"></a><span data-ttu-id="47eff-103">在团队中查看来宾用户</span><span class="sxs-lookup"><span data-stu-id="47eff-103">View guest users in a team</span></span>
+<a name="view-guest-users-in-a-team"></a><span data-ttu-id="f8a66-103">在团队中查看来宾用户</span><span class="sxs-lookup"><span data-stu-id="f8a66-103">View guest users in a team</span></span>
 ==========================
+<span data-ttu-id="f8a66-104">在一个团队中的任何人都可以查看团队，包括来宾，通过在 Microsoft 小组的**管理团队**的所有成员。</span><span class="sxs-lookup"><span data-stu-id="f8a66-104">Anyone in a team can see all members of a team, including guests, via **Manage team** in Microsoft Teams.</span></span>  <span data-ttu-id="f8a66-105">[查看谁处于团队或通道中](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7)有更多详细信息。</span><span class="sxs-lookup"><span data-stu-id="f8a66-105">[See who's on a team or in a channel ](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) has more details.</span></span>
 
+<span data-ttu-id="f8a66-106">作为一名管理员，您可以使用 Office 365 管理中心查看组织中的来宾用户。</span><span class="sxs-lookup"><span data-stu-id="f8a66-106">As an admin, you can use the Office 365 Admin center to view guest users in the tenant.</span></span> <span data-ttu-id="f8a66-107">但是，此视图显示*所有*来宾用户的租户，而不仅仅是来宾用户在 Microsoft 小组。</span><span class="sxs-lookup"><span data-stu-id="f8a66-107">However, this view shows *all* guest users in the tenant,  not just guest users in Microsoft Teams.</span></span>
+1. <span data-ttu-id="f8a66-108">在 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 上使用你的 Office 365 全局管理员帐户登录。</span><span class="sxs-lookup"><span data-stu-id="f8a66-108">Sign in with your Office 365 global admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).</span></span>
+2. <span data-ttu-id="f8a66-109">转到**“用户”** > **“来宾用户”**。</span><span class="sxs-lookup"><span data-stu-id="f8a66-109">Go to **Users** > **Guest users**.</span></span>
 
-1. <span data-ttu-id="47eff-104">在 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 上使用你的 Office 365 全局管理员帐户登录。</span><span class="sxs-lookup"><span data-stu-id="47eff-104">Sign in with your Office 365 global admin account at  [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).</span></span>
-    
-  
-2. <span data-ttu-id="47eff-105">转到**“用户”** > **“来宾用户”**。</span><span class="sxs-lookup"><span data-stu-id="47eff-105">Go to **Users** > **Guest users**.</span></span>
-    
-    
-![此屏幕截图显示了在 Office 365 管理中心的“用户”部分中选择了“来宾用户”选项。](media/95b83ff5-72ef-4668-b541-4e25b767620a.png)
+![在 Office 365 管理中心的访客用户选项。](media/95b83ff5-72ef-4668-b541-4e25b767620a.png)
   

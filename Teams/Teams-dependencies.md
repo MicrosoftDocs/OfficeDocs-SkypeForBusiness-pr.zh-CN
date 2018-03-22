@@ -1,5 +1,5 @@
 ---
-title: "在 Microsoft Teams 中授权来宾访问"
+title: 在 Microsoft Teams 中授权来宾访问
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
@@ -7,72 +7,74 @@ ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
 ms.reviwer: laal
-description: "通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。"
+description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19d7bd54e63e67dc02a116cbd06cdfec9de4e180
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: fe399bb7b28f834575aeff344ff3fc4cca1b5dae
+ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/09/2018
 ---
-<a name="authorize-guest-access-in-microsoft-teams"></a><span data-ttu-id="eb367-103">在 Microsoft Teams 中授权来宾访问</span><span class="sxs-lookup"><span data-stu-id="eb367-103">Authorize guest access in Microsoft Teams</span></span>
+<a name="authorize-guest-access-in-microsoft-teams"></a><span data-ttu-id="48e85-103">在 Microsoft Teams 中授权来宾访问</span><span class="sxs-lookup"><span data-stu-id="48e85-103">Authorize guest access in Microsoft Teams</span></span>
 ===========================================
 
-<span data-ttu-id="eb367-104">为满足贵组织的要求，你可以通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。</span><span class="sxs-lookup"><span data-stu-id="eb367-104">To satisfy your organization’s requirements, you can manage Microsoft Teams guest access features and capabilities through four different levels of authorization.</span></span> <span data-ttu-id="eb367-105">所有这些授权级别都适用于你的 Office 365 租户。</span><span class="sxs-lookup"><span data-stu-id="eb367-105">All the authorization levels apply to your Office 365 tenant.</span></span> <span data-ttu-id="eb367-106">每个授权级别按如下所示控制来宾体验：</span><span class="sxs-lookup"><span data-stu-id="eb367-106">Each authorization level controls the guest experience as shown below:</span></span>
-- <span data-ttu-id="eb367-107">**Azure Active Directory**：Microsoft Teams 中的来宾体验依赖于 Azure AD 企业到企业 (B2B) 平台。</span><span class="sxs-lookup"><span data-stu-id="eb367-107">**Azure Active Directory**: Guest access in Microsoft Teams relies on the Azure AD business-to-business (B2B) platform.</span></span> <span data-ttu-id="eb367-108">控制目录、租户和应用程序级别的来宾体验。</span><span class="sxs-lookup"><span data-stu-id="eb367-108">Controls the guest experience at the directory, tenant, and application level.</span></span> 
-- <span data-ttu-id="eb367-109">**Microsoft Teams**：仅控制 Microsoft Teams。</span><span class="sxs-lookup"><span data-stu-id="eb367-109">**Microsoft Teams**: Controls Microsoft Teams only.</span></span> 
-- <span data-ttu-id="eb367-110">**Office 365 组**：控制 Office 365 组和 Microsoft Teams 中的来宾体验。</span><span class="sxs-lookup"><span data-stu-id="eb367-110">**Office 365 Groups**: Controls the guest experience in Office 365 Groups and Microsoft Teams.</span></span>
-- <span data-ttu-id="eb367-111">**SharePoint Online 和 OneDrive for Business**：控制 SharePoint Online、OneDrive for Business、Office 365 组和 Microsoft Teams 中的来宾体验。</span><span class="sxs-lookup"><span data-stu-id="eb367-111">**SharePoint Online and OneDrive for Business**: Controls the guest experience in SharePoint Online, OneDrive for Business, Office 365 Groups, and Microsoft Teams.</span></span>
+<span data-ttu-id="48e85-104">为满足贵组织的要求，你可以通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。</span><span class="sxs-lookup"><span data-stu-id="48e85-104">To satisfy your organization’s requirements, you can manage Microsoft Teams guest access features and capabilities through four different levels of authorization.</span></span> <span data-ttu-id="48e85-105">所有这些授权级别都适用于你的 Office 365 租户。</span><span class="sxs-lookup"><span data-stu-id="48e85-105">All the authorization levels apply to your Office 365 tenant.</span></span> <span data-ttu-id="48e85-106">每个授权级别按如下所示控制来宾体验：</span><span class="sxs-lookup"><span data-stu-id="48e85-106">Each authorization level controls the guest experience as shown below:</span></span>
+- <span data-ttu-id="48e85-107">**Azure Active Directory**：Microsoft Teams 中的来宾体验依赖于 Azure AD 企业到企业 (B2B) 平台。</span><span class="sxs-lookup"><span data-stu-id="48e85-107">**Azure Active Directory**: Guest access in Microsoft Teams relies on the Azure AD business-to-business (B2B) platform.</span></span> <span data-ttu-id="48e85-108">控制目录、租户和应用程序级别的来宾体验。</span><span class="sxs-lookup"><span data-stu-id="48e85-108">Controls the guest experience at the directory, tenant, and application level.</span></span> 
+- <span data-ttu-id="48e85-109">**Microsoft Teams**：仅控制 Microsoft Teams。</span><span class="sxs-lookup"><span data-stu-id="48e85-109">**Microsoft Teams**: Controls Microsoft Teams only.</span></span> 
+- <span data-ttu-id="48e85-110">**Office 365 组**：控制 Office 365 组和 Microsoft Teams 中的来宾体验。</span><span class="sxs-lookup"><span data-stu-id="48e85-110">**Office 365 Groups**: Controls the guest experience in Office 365 Groups and Microsoft Teams.</span></span>
+- <span data-ttu-id="48e85-111">**SharePoint Online 和 OneDrive for Business**：控制 SharePoint Online、OneDrive for Business、Office 365 组和 Microsoft Teams 中的来宾体验。</span><span class="sxs-lookup"><span data-stu-id="48e85-111">**SharePoint Online and OneDrive for Business**: Controls the guest experience in SharePoint Online, OneDrive for Business, Office 365 Groups, and Microsoft Teams.</span></span>
 
-<span data-ttu-id="eb367-112">这些不同的授权级别可让你灵活选择为组织设置来宾访问的方式。</span><span class="sxs-lookup"><span data-stu-id="eb367-112">These different authorization levels provide you with flexibility in how you set up guest access for your organization.</span></span> <span data-ttu-id="eb367-113">例如，如果你不想在 Microsoft Teams 组织中允许来宾用户，只需在 Microsoft Teams 中关闭来宾访问即可。</span><span class="sxs-lookup"><span data-stu-id="eb367-113">For example, if you don’t want to allow guest users in your Microsoft Teams organization, just turn off guest access in Microsoft Teams.</span></span> <span data-ttu-id="eb367-114">其他示例：你可以在 AAD、Teams 和组级别启用来宾访问，然后对匹配一个或多个条件（如数据分类为机密）的选定团队禁用添加来宾用户的功能。</span><span class="sxs-lookup"><span data-stu-id="eb367-114">Another example: You could enable guest access at the AAD, Teams, and Groups levels, but then disable guest users' addition on selected teams that match one or more criteria such as data classification equals confidential.</span></span> <span data-ttu-id="eb367-115">可能你不使用 Office 365 组。</span><span class="sxs-lookup"><span data-stu-id="eb367-115">And, perhaps you don’t use Office 365 Groups.</span></span> <span data-ttu-id="eb367-116">SharePoint Online 和 OneDrive for Business 具有自己的不依赖 Office 365 组的来宾访问设置。</span><span class="sxs-lookup"><span data-stu-id="eb367-116">SharePoint Online and OneDrive for Business have their own guest access settings that don't rely on Office 365 Groups.</span></span> 
+<span data-ttu-id="48e85-112">这些不同的授权级别可让你灵活选择为组织设置来宾访问的方式。</span><span class="sxs-lookup"><span data-stu-id="48e85-112">These different authorization levels provide you with flexibility in how you set up guest access for your organization.</span></span> <span data-ttu-id="48e85-113">例如，如果你不想在 Microsoft Teams 组织中允许来宾用户，只需在 Microsoft Teams 中关闭来宾访问即可。</span><span class="sxs-lookup"><span data-stu-id="48e85-113">For example, if you don’t want to allow guest users in your Microsoft Teams organization, just turn off guest access in Microsoft Teams.</span></span> <span data-ttu-id="48e85-114">其他示例：你可以在 AAD、Teams 和组级别启用来宾访问，然后对匹配一个或多个条件（如数据分类为机密）的选定团队禁用添加来宾用户的功能。</span><span class="sxs-lookup"><span data-stu-id="48e85-114">Another example: You could enable guest access at the AAD, Teams, and Groups levels, but then disable guest users' addition on selected teams that match one or more criteria such as data classification equals confidential.</span></span> <span data-ttu-id="48e85-115">可能你不使用 Office 365 组。</span><span class="sxs-lookup"><span data-stu-id="48e85-115">And, perhaps you don’t use Office 365 Groups.</span></span> <span data-ttu-id="48e85-116">SharePoint Online 和 OneDrive for Business 具有自己的不依赖 Office 365 组的来宾访问设置。</span><span class="sxs-lookup"><span data-stu-id="48e85-116">SharePoint Online and OneDrive for Business have their own guest access settings that don't rely on Office 365 Groups.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="eb367-117">来宾受 [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) 和 [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) 服务限制约束。</span><span class="sxs-lookup"><span data-stu-id="eb367-117">Guests are subject to  [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) and [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) service limits.</span></span> 
+> <span data-ttu-id="48e85-117">来宾受 [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) 和 [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) 服务限制约束。</span><span class="sxs-lookup"><span data-stu-id="48e85-117">Guests are subject to  [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) and [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) service limits.</span></span> 
 
-  <span data-ttu-id="eb367-118">下面的示意图显示了如何授予并在 Azure Active Directory、Microsoft Teams 和 Office 365 之间集成来宾访问授权相关性。</span><span class="sxs-lookup"><span data-stu-id="eb367-118">The following diagram shows how guest access authorization dependency is granted and integrated between Azure Active Directory, Microsoft Teams, and Office 365.</span></span>
+  <span data-ttu-id="48e85-118">下面的示意图显示了如何授予并在 Azure Active Directory、Microsoft Teams 和 Office 365 之间集成来宾访问授权相关性。</span><span class="sxs-lookup"><span data-stu-id="48e85-118">The following diagram shows how guest access authorization dependency is granted and integrated between Azure Active Directory, Microsoft Teams, and Office 365.</span></span>
 
 
 ![用于来宾访问的授权相关性示意图。](media/teams_dependencies_image1.png)
 
 
-##<a name="azure-active-directory"></a><span data-ttu-id="eb367-120">Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="eb367-120">Azure Active Directory</span></span>
+##<a name="azure-active-directory"></a><span data-ttu-id="48e85-120">Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="48e85-120">Azure Active Directory</span></span>
 
-<span data-ttu-id="eb367-121">有了 Azure AD 企业到企业 (B2B) 协作，向潜在来宾用户发送邀请的操作将不局限于租户管理员。</span><span class="sxs-lookup"><span data-stu-id="eb367-121">With Azure AD business-to-business (B2B) collaboration, sending invitations to potential guest users isn’t restricted to tenant admins.</span></span> <span data-ttu-id="eb367-122">你可以使用策略将发送邀请的任务委派给角色允许其发送邀请的用户。</span><span class="sxs-lookup"><span data-stu-id="eb367-122">Instead, you can use policies to delegate sending invitations to users whose roles allow them to send invitations.</span></span>
+<span data-ttu-id="48e85-121">有了 Azure AD 企业到企业 (B2B) 协作，向潜在来宾用户发送邀请的操作将不局限于租户管理员。</span><span class="sxs-lookup"><span data-stu-id="48e85-121">With Azure AD business-to-business (B2B) collaboration, sending invitations to potential guest users isn’t restricted to tenant admins.</span></span> <span data-ttu-id="48e85-122">你可以使用策略将发送邀请的任务委派给角色允许其发送邀请的用户。</span><span class="sxs-lookup"><span data-stu-id="48e85-122">Instead, you can use policies to delegate sending invitations to users whose roles allow them to send invitations.</span></span>
 
-<span data-ttu-id="eb367-123">用于邀请的设置在租户级别应用，并在目录、租户和应用程序级别控制来宾体验。</span><span class="sxs-lookup"><span data-stu-id="eb367-123">The settings for invitations apply at the tenant level and control the guest experience at the directory, tenant, and application level.</span></span>
+<span data-ttu-id="48e85-123">用于邀请的设置在租户级别应用，并在目录、租户和应用程序级别控制来宾体验。</span><span class="sxs-lookup"><span data-stu-id="48e85-123">The settings for invitations apply at the tenant level and control the guest experience at the directory, tenant, and application level.</span></span> <span data-ttu-id="48e85-124">最少支持的客人，**可以邀请成员**必须设置为**是**。</span><span class="sxs-lookup"><span data-stu-id="48e85-124">At a minimum to support guests, **Members can invite** must be set to **Yes**.</span></span>
 
 
 ![Azure Active Directory 门户中用户设置的屏幕截图。](media/teams_dependencies_image2.png)
 
-
-<span data-ttu-id="eb367-125">你可以设置以下邀请策略：</span><span class="sxs-lookup"><span data-stu-id="eb367-125">You can set the following invitation policies:</span></span>
-- <span data-ttu-id="eb367-126">关闭邀请。</span><span class="sxs-lookup"><span data-stu-id="eb367-126">Turn off invitations.</span></span>
-- <span data-ttu-id="eb367-127">只有管理员和具有“来宾邀请者”角色的用户可以邀请。</span><span class="sxs-lookup"><span data-stu-id="eb367-127">Only admins and users in the guest inviter role can invite.</span></span>
-- <span data-ttu-id="eb367-128">管理员、“来宾邀请者”角色和成员可以邀请。</span><span class="sxs-lookup"><span data-stu-id="eb367-128">Admins, the guest inviter role, and members can invite.</span></span>
-- <span data-ttu-id="eb367-129">包括来宾在内的所有用户都可以邀请。</span><span class="sxs-lookup"><span data-stu-id="eb367-129">All users, including guests, can invite.</span></span> <span data-ttu-id="eb367-130">（这是用于租户的默认策略。）</span><span class="sxs-lookup"><span data-stu-id="eb367-130">(This is the default policy for tenants.)</span></span>
-
-
-##<a name="microsoft-teams"></a><span data-ttu-id="eb367-131">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="eb367-131">Microsoft Teams</span></span>
-
-<span data-ttu-id="eb367-132">在 Microsoft Teams 中，你可以控制为组织启用还是禁用来宾体验。</span><span class="sxs-lookup"><span data-stu-id="eb367-132">In Microsoft Teams, you can control whether the guest experience is enabled or disabled for your organization.</span></span> <span data-ttu-id="eb367-133">该设置在默认情况下禁用，仅在租户级别应用于 Microsoft Teams。</span><span class="sxs-lookup"><span data-stu-id="eb367-133">The setting is disabled by default and applies at the tenant level for Microsoft Teams only.</span></span>
+<span data-ttu-id="48e85-126">Azure 广告包括以下设置来配置外部用户：</span><span class="sxs-lookup"><span data-stu-id="48e85-126">Azure AD includes the following settings to configure external users:</span></span>
+- <span data-ttu-id="48e85-127">**来宾用户的权限是有限**：**是**指客人不具有权限的目录中的特定任务，如枚举用户、 组或其他目录资源。</span><span class="sxs-lookup"><span data-stu-id="48e85-127">**Guest user permissions are limited**: **Yes** means that guests don't have permission for certain directory tasks, such as enumerate users, groups, or other directory resources.</span></span> <span data-ttu-id="48e85-128">此外，客人不能分配给您的目录中的管理角色。</span><span class="sxs-lookup"><span data-stu-id="48e85-128">In addition, guests can't be assigned to administrative roles in your directory.</span></span> <span data-ttu-id="48e85-129">携带的**否**意味着具有相同的访问权限对一般用户已在您的目录中的目录数据。</span><span class="sxs-lookup"><span data-stu-id="48e85-129">**No** means that guests have the same access to directory data that regular users have in your directory.</span></span>
+- <span data-ttu-id="48e85-130">**管理员和来宾邀请者角色中的用户可以邀请**:**是**意味着管理员和"来宾邀请者"角色中的用户将能够邀请到租户的客人。</span><span class="sxs-lookup"><span data-stu-id="48e85-130">**Admins and users in the guest inviter role can invite**: **Yes** means that admins and users in the "Guest Inviter" role will be able to invite guests to the tenant.</span></span> <span data-ttu-id="48e85-131">**不**意味着管理员和用户不能邀请到租户的客人。</span><span class="sxs-lookup"><span data-stu-id="48e85-131">**No** means admins and users can't invite guests to the tenant.</span></span>
+- <span data-ttu-id="48e85-132">**成员可以邀请**:**是**意味着您的目录中的非管理员成员可以邀请客人进行协作的 Azure 广告，如 SharePoint 网站或 Azure 资源保护的资源。</span><span class="sxs-lookup"><span data-stu-id="48e85-132">**Members can invite**: **Yes** means that non-admin members of your directory can invite guests to collaborate on resources secured by your Azure AD, such as SharePoint sites or Azure resources.</span></span> <span data-ttu-id="48e85-133">只有管理员可以邀请**否**意味着携带到您的目录。</span><span class="sxs-lookup"><span data-stu-id="48e85-133">**No** means that only admins can invite guests to your directory.</span></span>
+- <span data-ttu-id="48e85-134">**客人可以邀请**:**是**意味着，客人在您的目录本身也可以邀请其他来宾进行协作的 Azure 广告，如 SharePoint 网站或 Azure 资源保护的资源。</span><span class="sxs-lookup"><span data-stu-id="48e85-134">**Guests can invite**: **Yes** means that guests in your directory can themselves invite other guest to collaborate on resources secured by your Azure AD, such as SharePoint sites or Azure resources.</span></span> <span data-ttu-id="48e85-135">携带的**否**意味着不能邀请其他客人与您的组织进行协作。</span><span class="sxs-lookup"><span data-stu-id="48e85-135">**No** means that guests can't invite other guests to collaborate with your organization.</span></span>
+ 
 
 
+> [!NOTE]
+> <span data-ttu-id="48e85-136">您还可以管理哪些域可以为客人邀请到您的租户。</span><span class="sxs-lookup"><span data-stu-id="48e85-136">You can also manage which domains can be invited into your tenant as guests.</span></span> <span data-ttu-id="48e85-137">请参阅[Office 365 组允许/阻止来宾访问](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da)。</span><span class="sxs-lookup"><span data-stu-id="48e85-137">See [Allow/Block guest access to Office 365 groups](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da).</span></span> 
 
-<span data-ttu-id="eb367-134">你可以从 Office 365 管理中心管理 Microsoft Teams 来宾访问设置。</span><span class="sxs-lookup"><span data-stu-id="eb367-134">You can manage Microsoft Teams guest access settings from the Office 365 admin center.</span></span> <span data-ttu-id="eb367-135">有关更多信息，请参阅[开启或关闭 Microsoft Teams 的来宾访问](set-up-guests.md)。</span><span class="sxs-lookup"><span data-stu-id="eb367-135">For more information, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md).</span></span> 
+##<a name="microsoft-teams"></a><span data-ttu-id="48e85-138">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="48e85-138">Microsoft Teams</span></span>
+<span data-ttu-id="48e85-139">在 Microsoft Teams 中，你可以控制为组织启用还是禁用来宾体验。</span><span class="sxs-lookup"><span data-stu-id="48e85-139">In Microsoft Teams, you can control whether the guest experience is enabled or disabled for your organization.</span></span> <span data-ttu-id="48e85-140">该设置在默认情况下禁用，仅在租户级别应用于 Microsoft Teams。</span><span class="sxs-lookup"><span data-stu-id="48e85-140">The setting is disabled by default and applies at the tenant level for Microsoft Teams only.</span></span>
 
 
-##<a name="office-365-groups"></a><span data-ttu-id="eb367-136">Office 365 组</span><span class="sxs-lookup"><span data-stu-id="eb367-136">Office 365 Groups</span></span>
 
-<span data-ttu-id="eb367-137">从 Office 365 组中，你可以控制向组织中的所有 Office 365 组和 Microsoft Teams 添加来宾用户和来宾访问。</span><span class="sxs-lookup"><span data-stu-id="eb367-137">From Office 365 Groups, you can control adding guest users and guest access to all Office 365 groups and Microsoft Teams in your organization.</span></span>
+<span data-ttu-id="48e85-141">你可以从 Office 365 管理中心管理 Microsoft Teams 来宾访问设置。</span><span class="sxs-lookup"><span data-stu-id="48e85-141">You can manage Microsoft Teams guest access settings from the Office 365 admin center.</span></span> <span data-ttu-id="48e85-142">有关更多信息，请参阅[开启或关闭 Microsoft Teams 的来宾访问](set-up-guests.md)。</span><span class="sxs-lookup"><span data-stu-id="48e85-142">For more information, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md).</span></span> 
 
-1. <span data-ttu-id="eb367-138">在 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 上使用你的 Office 365 全局管理员帐户登录。</span><span class="sxs-lookup"><span data-stu-id="eb367-138">Sign in with your Office 365 global admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).</span></span>
+
+##<a name="office-365-groups"></a><span data-ttu-id="48e85-143">Office 365 组</span><span class="sxs-lookup"><span data-stu-id="48e85-143">Office 365 Groups</span></span>
+
+<span data-ttu-id="48e85-144">从 Office 365 组中，你可以控制向组织中的所有 Office 365 组和 Microsoft Teams 添加来宾用户和来宾访问。</span><span class="sxs-lookup"><span data-stu-id="48e85-144">From Office 365 Groups, you can control adding guest users and guest access to all Office 365 groups and Microsoft Teams in your organization.</span></span>
+
+1. <span data-ttu-id="48e85-145">在 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 上使用你的 Office 365 全局管理员帐户登录。</span><span class="sxs-lookup"><span data-stu-id="48e85-145">Sign in with your Office 365 global admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).</span></span>
     
   
-2. <span data-ttu-id="eb367-139">在导航菜单中，依次选择**“设置”**和**“服务&amp;和外接程序”**。</span><span class="sxs-lookup"><span data-stu-id="eb367-139">In the navigation menu, choose **Settings** and then select **Services &amp; add-ins**.</span></span>
+2. <span data-ttu-id="48e85-146">在导航菜单中，依次选择**“设置”**和**“服务&amp;和外接程序”**。</span><span class="sxs-lookup"><span data-stu-id="48e85-146">In the navigation menu, choose **Settings** and then select **Services &amp; add-ins**.</span></span>
     
   
-3. <span data-ttu-id="eb367-140">选择**“Office 365 组”**。</span><span class="sxs-lookup"><span data-stu-id="eb367-140">Select **Office 365 Groups**.</span></span>
+3. <span data-ttu-id="48e85-147">选择**“Office 365 组”**。</span><span class="sxs-lookup"><span data-stu-id="48e85-147">Select **Office 365 Groups**.</span></span>
     
      ![Office 365 组](media/e25a7920-254c-4da3-bc5f-a8c7f6b61423.png)
   
@@ -80,36 +82,36 @@ ms.lasthandoff: 02/19/2018
   
 
   
-4. <span data-ttu-id="eb367-142">在“Office 365 组”页面上，将切换设置为**“开启”**或**“关闭”**，具体取决于你是否要允许贵组织外部的团队和组所有者访问 Office 365 组。</span><span class="sxs-lookup"><span data-stu-id="eb367-142">On the Office 365 Groups page, set the toggle to **On** or **Off**, depending if you want to let team and group owners outside your organization access Office 365 groups.</span></span> <span data-ttu-id="eb367-143">单击或点击**“允许组所有者将组织外部的人员添加到组”**旁边的切换将其设置为**“开启”**。</span><span class="sxs-lookup"><span data-stu-id="eb367-143">Click or tap the toggle to **On** next to **Let group owners add people outside the organization to groups**.</span></span> <span data-ttu-id="eb367-144">如果将此切换设置为“开启”，则会看到另一个选项，用于控制你是否让组和团队所有者将组织外的人员添加到 Office 365 组和 Microsoft Teams。</span><span class="sxs-lookup"><span data-stu-id="eb367-144">If you turn this toggle to On, you'll see another option to control whether you want to let group and team owners add people outside your organization to Office 365 groups and Microsoft teams.</span></span> <span data-ttu-id="eb367-145">如果你想让组和团队所有者添加来宾用户，请将此切换设置为“开启”。</span><span class="sxs-lookup"><span data-stu-id="eb367-145">Set this toggle to On if you want to let group and team owners add guest users.</span></span> <span data-ttu-id="eb367-146">![此屏幕截图显示了“Office 365 组”面板，用于允许组织外部的组成员访问组内容和允许组所有者将组织外部的人员添加到组的选项已开启。](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)</span><span class="sxs-lookup"><span data-stu-id="eb367-146">![Screenshot shows the Office 365 Groups panel with the options turned on to let group members outside the organization access group content and to let group owners add people outside the organization to groups.](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)</span></span>
+4. <span data-ttu-id="48e85-149">在“Office 365 组”页面上，将切换设置为**“开启”**或**“关闭”**，具体取决于你是否要允许贵组织外部的团队和组所有者访问 Office 365 组。</span><span class="sxs-lookup"><span data-stu-id="48e85-149">On the Office 365 Groups page, set the toggle to **On** or **Off**, depending if you want to let team and group owners outside your organization access Office 365 groups.</span></span> <span data-ttu-id="48e85-150">单击或点击**“允许组所有者将组织外部的人员添加到组”**旁边的切换将其设置为**“开启”**。</span><span class="sxs-lookup"><span data-stu-id="48e85-150">Click or tap the toggle to **On** next to **Let group owners add people outside the organization to groups**.</span></span> <span data-ttu-id="48e85-151">如果将此切换设置为“开启”，则会看到另一个选项，用于控制你是否让组和团队所有者将组织外的人员添加到 Office 365 组和 Microsoft Teams。</span><span class="sxs-lookup"><span data-stu-id="48e85-151">If you turn this toggle to On, you'll see another option to control whether you want to let group and team owners add people outside your organization to Office 365 groups and Microsoft teams.</span></span> <span data-ttu-id="48e85-152">如果你想让组和团队所有者添加来宾用户，请将此切换设置为“开启”。</span><span class="sxs-lookup"><span data-stu-id="48e85-152">Set this toggle to On if you want to let group and team owners add guest users.</span></span> <span data-ttu-id="48e85-153">![此屏幕截图显示了“Office 365 组”面板，用于允许组织外部的组成员访问组内容和允许组所有者将组织外部的人员添加到组的选项已开启。](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)</span><span class="sxs-lookup"><span data-stu-id="48e85-153">![Screenshot shows the Office 365 Groups panel with the options turned on to let group members outside the organization access group content and to let group owners add people outside the organization to groups.](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)</span></span>
 
 
 
 
-<span data-ttu-id="eb367-147">上述设置在租户级别应用，并控制 Office 365 组和 Microsoft Teams 中的来宾体验。</span><span class="sxs-lookup"><span data-stu-id="eb367-147">The above settings apply at the tenant level and control the guest experience in Office 365 Groups and Microsoft Teams.</span></span>
+<span data-ttu-id="48e85-154">上述设置在租户级别应用，并控制 Office 365 组和 Microsoft Teams 中的来宾体验。</span><span class="sxs-lookup"><span data-stu-id="48e85-154">The above settings apply at the tenant level and control the guest experience in Office 365 Groups and Microsoft Teams.</span></span>
 
 
-##<a name="sharepoint-online-and-onedrive-for-business"></a><span data-ttu-id="eb367-148">SharePoint Online 和 OneDrive for Business</span><span class="sxs-lookup"><span data-stu-id="eb367-148">SharePoint Online and OneDrive for Business</span></span>
+##<a name="sharepoint-online-and-onedrive-for-business"></a><span data-ttu-id="48e85-155">SharePoint Online 和 OneDrive for Business</span><span class="sxs-lookup"><span data-stu-id="48e85-155">SharePoint Online and OneDrive for Business</span></span>
 
-<span data-ttu-id="eb367-149">Teams 依赖 SharePoint Online 和 OneDrive for Business 存储频道和聊天对话的文件和文档。</span><span class="sxs-lookup"><span data-stu-id="eb367-149">Teams relies on SharePoint Online and OneDrive for Business to store files and documents for channels and chat conversations.</span></span>  
+<span data-ttu-id="48e85-156">Teams 依赖 SharePoint Online 和 OneDrive for Business 存储频道和聊天对话的文件和文档。</span><span class="sxs-lookup"><span data-stu-id="48e85-156">Teams relies on SharePoint Online and OneDrive for Business to store files and documents for channels and chat conversations.</span></span>  
   
     
     
-<span data-ttu-id="eb367-150">为了实现完整的 Teams 来宾访问体验，Office 365 管理员需要对以下设置选择**“开启”**：</span><span class="sxs-lookup"><span data-stu-id="eb367-150">To enable the full Teams guest access experience, Office 365 admins need to select **On** for the following settings:</span></span>
+<span data-ttu-id="48e85-157">为了实现完整的 Teams 来宾访问体验，Office 365 管理员需要对以下设置选择**“开启”**：</span><span class="sxs-lookup"><span data-stu-id="48e85-157">To enable the full Teams guest access experience, Office 365 admins need to select **On** for the following settings:</span></span>
   
     
     
 
-- <span data-ttu-id="eb367-151">在 SharePoint Online 中：**仅允许与已在目录中的外部用户共享**</span><span class="sxs-lookup"><span data-stu-id="eb367-151">In SharePoint Online: **Only allow sharing with external users already in the directory**</span></span>
+- <span data-ttu-id="48e85-158">在 SharePoint Online 中：**仅允许与已在目录中的外部用户共享**</span><span class="sxs-lookup"><span data-stu-id="48e85-158">In SharePoint Online: **Only allow sharing with external users already in the directory**</span></span>
     
-    <span data-ttu-id="eb367-152">有关详细信息，请参阅[为你的 SharePoint Online 环境管理外部共享](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-c8a462eb-0723-4b0b-8d0a-70feafe4be85)。</span><span class="sxs-lookup"><span data-stu-id="eb367-152">For more information, see [Manage external sharing for your SharePoint Online environment](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-c8a462eb-0723-4b0b-8d0a-70feafe4be85).</span></span>
+    <span data-ttu-id="48e85-159">有关详细信息，请参阅[为你的 SharePoint Online 环境管理外部共享](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-c8a462eb-0723-4b0b-8d0a-70feafe4be85)。</span><span class="sxs-lookup"><span data-stu-id="48e85-159">For more information, see [Manage external sharing for your SharePoint Online environment](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-c8a462eb-0723-4b0b-8d0a-70feafe4be85).</span></span>
     
   
-- <span data-ttu-id="eb367-153">在 Office 365 组中：**允许组所有者将组织外部的人员添加到组**</span><span class="sxs-lookup"><span data-stu-id="eb367-153">In Office 365 groups: **Let group owners add people outside the organization to groups**</span></span>
+- <span data-ttu-id="48e85-160">在 Office 365 组中：**允许组所有者将组织外部的人员添加到组**</span><span class="sxs-lookup"><span data-stu-id="48e85-160">In Office 365 groups: **Let group owners add people outside the organization to groups**</span></span>
     
-    <span data-ttu-id="eb367-154">有关详细信息，请参阅[控制对 Microsoft Teams 的来宾访问](#controlguest)。</span><span class="sxs-lookup"><span data-stu-id="eb367-154">For more information, see [Control guest access to Microsoft Teams](#controlguest).</span></span>
+    <span data-ttu-id="48e85-161">有关详细信息，请参阅[控制对 Microsoft Teams 的来宾访问](#controlguest)。</span><span class="sxs-lookup"><span data-stu-id="48e85-161">For more information, see [Control guest access to Microsoft Teams](#controlguest).</span></span>
   
 
-<span data-ttu-id="eb367-155">上述设置在租户级别应用，并控制 SharePoint Online、OneDrive for Business、Office 365 组和 Microsoft Teams 中的来宾体验。</span><span class="sxs-lookup"><span data-stu-id="eb367-155">The above settings apply at the tenant level and control the guest experience at SharePoint Online, OneDrive for Business, Office 365 Groups and Microsoft Teams.</span></span>
+<span data-ttu-id="48e85-162">上述设置在租户级别应用，并控制 SharePoint Online、OneDrive for Business、Office 365 组和 Microsoft Teams 中的来宾体验。</span><span class="sxs-lookup"><span data-stu-id="48e85-162">The above settings apply at the tenant level and control the guest experience at SharePoint Online, OneDrive for Business, Office 365 Groups and Microsoft Teams.</span></span>
 
 
-<span data-ttu-id="eb367-156">你可以管理 Teams 连接的团队网站的 SharePoint Online 外部用户设置。</span><span class="sxs-lookup"><span data-stu-id="eb367-156">You can manage SharePoint Online external user settings for the Teams connected team site.</span></span> <span data-ttu-id="eb367-157">有关更多详细信息，请参阅[管理 SharePoint 团队网站设置](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42)。</span><span class="sxs-lookup"><span data-stu-id="eb367-157">For more details, see  [Manage your SharePoint team site settings](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).</span></span>
+<span data-ttu-id="48e85-163">你可以管理 Teams 连接的团队网站的 SharePoint Online 外部用户设置。</span><span class="sxs-lookup"><span data-stu-id="48e85-163">You can manage SharePoint Online external user settings for the Teams connected team site.</span></span> <span data-ttu-id="48e85-164">有关更多详细信息，请参阅[管理 SharePoint 团队网站设置](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42)。</span><span class="sxs-lookup"><span data-stu-id="48e85-164">For more details, see  [Manage your SharePoint team site settings](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).</span></span>

@@ -1,5 +1,6 @@
 # 入门
 ## [Teams 概述](Teams-overview.md)
+## [适用于 Teams 的 Office 365 许可](office-365-licensing.md)
 ## [快速入门 - Teams 规划指南](quick-start-enable-teams.md)
 ## [工具和研讨会：规划、交付和运营 Teams](planning-workshop-practical-guide.md)
 ## [检查你的环境是否已为 Teams 准备就绪](environment-readiness.md)
@@ -10,6 +11,7 @@
 
 
 # 设置
+## [管理对 Teams 的用户访问](user-access.md)
 ## [获取 Teams 的客户端](get-clients.md)
 ## [Teams 部署概述](deployment-overview.md)
 ## [在你的 Office 365 组织中设置 Teams](Office-365-set-up.md)
@@ -57,6 +59,7 @@
 ## [在 Teams 中使用内置选项卡和自定义选项卡](built-in-custom-tabs.md)
 ## [在 Teams 中使用 Office 365 和自定义连接器](office-365-custom-connectors.md)
 ## [使用 T-Bot 为用户提供 Teams 方面的帮助](t-bot.md)
+## [使用工作组的活动报告](teams-activity-reports.md)
 
 # 会议
 ## [教程：Teams 中的会议](Tutorial-Meetings-in-Teams.yml)
@@ -79,14 +82,29 @@
 ## [向团队添加来宾](add-guests.md)
 ## [在团队中查看来宾用户](view-guests.md)
 ## [编辑来宾用户信息](edit-guests-information.md)
-## [使用 PowerShell 控制对团队的来宾访问](guest-access-powershell.md)
+## [使用 PowerShell 控制对团队的来宾访问](guest-access-PowerShell.md)
+## [来宾访问清单](guest-access-checklist.md)
 
 
+# 云语音
 
 
-# [云语音](cloud-voice-deployment.md)
+## [部署指南](cloud-voice-deployment.md)
+### [定义我成功-音频会议](1-envision-define-my-success-audio-conferencing.md)
+### [决定我服务的音频会议](2-envision-make-my-service-decisions-audio-conferencing.md)
+### [定义我成功-调用计划与电话系统](1-envision-define-my-success-phone-system.md)
+### [决定我服务的调用计划与电话系统](2-envision-make-my-service-decisions-phone-system.md)
+### [评估环境](3-envision-evaluate-my-environment.md)
+### [我的服务管理计划](4-envision-plan-my-service-management.md)
+### [计划我的用户体验](5-envision-plan-my-users-experience.md)
+### [我成功的计划的文档](6-envision-document-my-success-plan.md)
+### [准备我的服务](1-onboard-prepare-my-service.md)
+### [准备我的用户](2-onboard-prepare-my-users.md)
+### [部署服务](3-onboard-deploy-my-service.md)
+### [使用我的服务](1-drive-value-operate-my-service.md)
+### [增强我的服务](2-drive-value-enhance-my-service.md)
 
-## [Teams 中具有通话套餐的电话系统实践指导](phone-system-with-calling-plans.md)
+
 ## [分配 Skype for Business 和 Teams 许可证](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [存入资金和管理通信点数](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [音频会议和通话套餐的国家/地区可用性](/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -95,8 +113,16 @@
 ## [部署座机](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
+
+## 监视通话质量和 QOS
+### [Teams 中的 QoS](QoS-in-Teams.md)
+### [通话质量仪表板中可用的维度和衡量指标](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [设置 Skype for Business 通话分析](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [使用通话分析解决 Skype for Business 通话质量不佳的问题](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [通话分析与通话质量仪表板之间有何区别？](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
+
 ## 音频会议
-### [Teams 中的音频会议实践指导](audio-conferencing.md)
 ### [将第三方指定为音频会议提供商](/SkypeForBusiness/audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [将 Microsoft 指定为音频会议提供商](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [音频会议常见问题](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -105,7 +131,6 @@
 ### [音频会议故障排除和已知问题](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [更改音频会议网桥的设置](/SkypeForBusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [更改音频会议网桥的电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [比较音频会议提供商](/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [从会议拨出，以便其他人可以加入会议](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [用户设置更改时自动向其发送的电子邮件](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [启用或禁用更改音频会议设置时发送电子邮件](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -129,7 +154,6 @@
 ### [在没有 PIN 的情况下通过电话启动音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [试用或购买 Office 365 中的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [打开或关闭会议的进入和退出通知](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [在组织中使用音频会议动态 ID](/SkypeForBusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [音频会议免费拨出期](/SkypeForBusiness/accessibility-and-regulatory/complimentary-dial-out-period?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [视频 - Teams 中的音频会议](audio-conferencing-videos.md)
 
@@ -140,21 +164,14 @@
 ### [添加、更改或删除你的组织的紧急位置](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [为用户分配或更改紧急地址](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [为用户分配、更改或删除电话号码](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [帐户的授权人员](/SkypeForBusiness/what-are-calling-plans-in-office-365/authorized-person-on-the-account?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Office 365 的通话套餐](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [通话套餐已知问题](/SkypeForBusiness/what-are-calling-plans-in-office-365/calling-plans-known-issues?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [更改用户的紧急地址](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [更改用户的紧急位置](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [创建并管理拨号计划](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [用于通话套餐的不同类型的电话号码](/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [下载授权书 (LOA)](/SkypeForBusiness/what-are-calling-plans-in-office-365/download-a-letter-of-authorization-loa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [紧急呼叫条款和条件](/SkypeForBusiness/what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [获取新的用户电话号码申请表](/SkypeForBusiness/what-are-calling-plans-in-office-365/get-new-user-phone-numbers-request-forms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [为用户获取电话号码](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [如何创建支持票证以进行地址验证？](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-do-i-create-a-support-ticket-for-address-validation?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [你可以获取多少个电话号码？](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [我应该如何输入电话号码？](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-should-i-enter-the-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [管理你的组织的电话号码](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [澳大利亚的电话号码管理](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-australia?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [比利时的电话号码管理](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [加拿大的电话号码管理](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-canada?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [法国的电话号码管理](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -164,35 +181,14 @@
 #### [荷兰的电话号码管理](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [英国的电话号码管理](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [美国的电话号码管理](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
-### [手动提交自定义服务请求](/SkypeForBusiness/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [转网订单概述](/SkypeForBusiness/what-are-calling-plans-in-office-365/port-order-overview?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [转网订单帐户信息](/SkypeForBusiness/what-are-calling-plans-in-office-365/port-order-account-information?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [为用户搜索电话号码](/SkypeForBusiness/what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [查看组织中的电话号码列表](/SkypeForBusiness/what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [设置 PIN 以将电话号码转移到新服务提供商](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [提交本地号码转网的服务请求](/SkypeForBusiness/what-are-calling-plans-in-office-365/submitting-a-service-request-for-local-number-porting?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [免费拨号限制](/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [将电话号码转移到 Office 365](/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [关于转移电话号码的常见问题](/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [用户可以拨打到这些国家和地区的出站电话](/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Office 365 中有哪些通话套餐？](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [什么是拨号计划？](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [什么是紧急位置、地址和呼叫路由？](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
-### [如果我的电话运营商未列为源运营商，应该怎么办？](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-if-my-phone-carrier-isn-t-listed-as-the-source-carrier?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [什么是地址验证？](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [我的账单电话号码是什么？](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-my-billing-telephone-number?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [我应该在帐户编号中输入什么？](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-should-i-put-in-for-the-account-number?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [我应该在公司名称中输入什么？](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-should-i-put-in-for-the-company-name?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [我应该在服务地址中输入什么？](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-should-i-put-in-for-the-service-address?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [我的转网订单的状态是什么？](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-s-the-status-of-my-port-orders?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [为什么我在输入英国地址信息时出现问题？](/SkypeForBusiness/what-are-calling-plans-in-office-365/why-am-i-having-problems-entering-u-k-address-information?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [号码激活为什么失败？](/SkypeForBusiness/what-are-calling-plans-in-office-365/why-has-number-activation-failed?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [号码激活为什么暂停？](/SkypeForBusiness/what-are-calling-plans-in-office-365/why-is-number-activation-just-pending?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [号码激活为什么列为未完成？](/SkypeForBusiness/what-are-calling-plans-in-office-365/why-is-number-activation-listed-as-incomplete?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [号码激活为什么列为正在更新？](/SkypeForBusiness/what-are-calling-plans-in-office-365/why-is-number-activation-listed-as-updating?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [已接受你的转网订单](/SkypeForBusiness/what-are-calling-plans-in-office-365/your-port-order-was-accepted?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Office 365 中的通话套餐 - 英国行为准则](/SkypeForBusiness/accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Office 365 中的通话套餐 - 英国投诉处理准则](/SkypeForBusiness/accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
@@ -200,7 +196,6 @@
 ## 电话系统
 ### [更改语音信箱问候语和电子邮件的默认语言](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/change-the-default-language-for-greetings-and-emails?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [创建电话系统呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [获取适用于 Skype for Business Online 的电话](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [下面是 Office 365 中的电话系统的功能](/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [如何在你的组织中使用来电显示](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [语音邮件问候语和消息的语言](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -208,14 +203,6 @@
 ### [设置电话系统自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [设置电话系统语音邮件](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [什么是电话系统自动助理？](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
-
-# 监视通话质量和 QOS
-## [Teams 中的 QoS](QoS-in-Teams.md)
-## [通话质量仪表板中可用的维度和衡量指标](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [设置 Skype for Business 通话分析](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [使用通话分析解决 Skype for Business 通话质量不佳的问题](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [通话分析与通话质量仪表板之间有何区别？](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 # 安全性和合规性
@@ -229,20 +216,23 @@
 
 
 
-# [从 Skype for Business 到 Teams 的旅程](journey-skypeforbusiness-teams.md)
+# [从 Skype for Business 到 Teams 的旅程](Journey-SkypeforBusiness-Teams.md)
 ## [1 - 针对 Teams 优化你的当前 Skype for Business 环境](prepare-teams.md)
+### [1.1-Microsoft 小组范围内部署环境的发现](environmental-discovery-for-microsoft-teams-rollout.md)
 ## [2 - 在使用 Skype for Business 的同时试用 Teams](pilot-essentials.md)
-## [3 - 与 Skype for Business 并行启用 Teams](guidance-skypeforbusiness.md)
-## [4 - 通过用户采用推动 Teams 价值](continue-journey.md)
-## [FAQ - 从 Skype for Business 到 Teams 的旅程](faq-journey.md)
-## [教程：从 Skype for Business 到 Teams 的旅程](tutorial-journey-skypeforbusiness-to-teams.yml)
+### [2.1-选择用户的团队试验](select-users-for-your-teams-pilot.md)
+## [3 - 与 Skype for Business 并行启用 Teams](guidance-SkypeforBusiness.md)
+## [4 - 通过用户采用推动价值](continue-journey.md)
+## [常见问题解答 - Skype for Business 和 Teams 愿景](FAQ-journey.md)
+## [教程：从 Skype for Business 到 Teams 的旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+
 
 
 # 规划、采用和管理
 ## 规划
+### [管理对 Teams 的用户访问](user-access.md)
 ### [获取 Teams 的客户端](get-clients.md)
-### [在你的 Office 365 组织中设置 Teams](office-365-set-up.md)
-### [在你的 Office 365 组织中启用 Teams 功能](enable-features-office-365.md)
+### [管理团队在 Office 365 提供组织中的功能](enable-features-office-365.md)
 ### [在 Teams 中分配角色和权限](assign-roles-permissions.md)
 ### [使用 T-Bot 为用户提供 Teams 方面的帮助](t-bot.md)
 ### [获取工具以支持 Teams 部署](rollout-tools.md)
@@ -252,7 +242,6 @@
 ### [配置 Exchange 混合组织以配合使用 Teams](exchange-hybrid-organization.md)
 ### [使用 Teams 增强现有 Office 365 组](enhance-office-365-groups.md)
 ### [在 Outlook 中使用 Teams 会议外接程序](teams-add-in-for-outlook.md)
-### [管理对 Teams 的用户访问](user-access.md)
 ### [在 Teams 中为私人聊天和频道添加聊天机器人](add-bots.md)
 ### [Teams 中适用于应用的管理设置](admin-settings.md)
 ### [在 Teams 中使用内置选项卡和自定义选项卡](built-in-custom-tabs.md)
