@@ -6,7 +6,6 @@ manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.date: 01/22/2018
 ms.topic: article
-ms.assetid: f6fac40d-bc9e-4038-a537-587942d99066
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
@@ -22,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "此处为埃及提供了 Skype 业务和 Microsoft 小组的 Office 365 提供服务。"
-ms.openlocfilehash: 76a84e6cc9b639b5b72c7babaae534daa4abd98e
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 5ed1349d921c3810032ff95d8e5b0a9cfcfc0807
+ms.sourcegitcommit: ddd923c871b5cd92499cd2bd4ac1f708aeae6467
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="availability-in-egypt"></a>埃及的可用性
 
@@ -65,7 +64,7 @@ ms.lasthandoff: 02/27/2018
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |不适用  <br/> |
 |是否提供收费电话号码？  <br/> |否  <br/> |
-|是否提供免费电话号码？  <br/> |是  <br/> |
+|是否提供免费电话号码？  <br/> |否 <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。
   
@@ -83,5 +82,3 @@ ms.lasthandoff: 02/27/2018
 
 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
