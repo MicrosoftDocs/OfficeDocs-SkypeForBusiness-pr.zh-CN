@@ -1,10 +1,10 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: b58c4759fc66bd9f573123bebf1772609a7a79e2
-ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
-ms.translationtype: HT
+ms.openlocfilehash: c6ed5d7cd16456414991fd08c127cddf3653a40c
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>欢迎访问 docs.microsoft.com 上的 Office 内容
 ## <a name="this-is-a-level-2-heading"></a>这是二级标题
@@ -19,7 +19,7 @@ ms.lasthandoff: 02/23/2018
 3. item 4
 
 
-改为测试文件
+将包含添加到此文件：[!INCLUDE [sample-include-file](includes/sample-include-file.md)]
 
 
 使用 HTML 符号和换行符标记，可以将 Markdown 表伪装成包含符号列表：

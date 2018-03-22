@@ -1,56 +1,51 @@
 ---
-title: "获取 Microsoft Teams 的客户端"
+title: 获取 Microsoft Teams 的客户端
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
-description: "了解如何使用支持 Microsoft Teams 的各种客户端，包括 Web、桌面（Windows 和 Mac）和移动（Android、iOS 和 Windows Phone）。"
+description: 了解如何使用支持 Microsoft Teams 的各种客户端，包括 Web、桌面（Windows 和 Mac）和移动（Android、iOS 和 Windows Phone）。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f2208ed21eb2db33f8d8ff90af97caa5b4912dfd
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 6cc06497da95f6c9e0f4e6a39d851125922e8b31
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 支持 Microsoft Teams 的客户端包括 Web、桌面（Windows 和 Mac）和移动（Android、iOS 和 Windows Phone）。 这些客户端都要求有活动的 Internet 连接，不支持脱机模式。
 
 <a name="web-client"></a>Web 客户端 
 ----------------
 
-Web 客户端 ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) 是具有完整功能的客户端，可以从各种浏览器使用该客户端。 目前，Web 客户端不支持实时通信（即，加入会议和进行一对一通话）。 此外，还必须配置浏览器以允许第三方 Cookie。 
+Web 客户端 ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) 是完整、 功能的客户端可以从多个浏览器使用。 目前，Web 客户端不支持实时通信（即，加入会议和进行一对一通话）。 此外，还必须配置浏览器以允许第三方 Cookie。 
 
 在 Web 浏览器中运行 Teams 无需插件和下载。
 
-Web 客户端在连接到 [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) 时执行浏览器版本检测，如果检测到不支持的浏览器版本，它将阻止对 Web 界面的访问，并建议用户下载桌面客户端或移动应用。
+Web 客户端执行时连接到的浏览器版本检测[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)如果检测到不受支持的浏览器版本，则它将阻止对 Web 接口的访问，并建议用户下载桌面客户端或移动应用程序。
 
 <a name="internet-browser-support"></a>Internet 浏览器支持
 ------------------------------
-Teams 支持以下 Internet 浏览器： 
-- Internet Explorer 11
-- Microsoft Edge
-- Chrome 的最新版本以及前两个版本
-- Firefox 的最新版本以及前两个版本
-
-> [!NOTE]
-> Safari 目前不受支持。 有关 Teams 中的新功能的新闻，请查看 [Teams 路线图](http://aka.ms/TeamsRoadmap)。 尝试在 Safari 中打开 Teams 的用户将被导向下载 Teams 桌面客户端。
+[!INCLUDE [browser-support](includes/browser-support.md)]
 
 <a name="desktop-clients"></a>桌面客户端
 ------------------------
 
-Microsoft Teams 桌面客户端是独立应用，当前不属于 Office 专业增强版。 Microsoft Teams 适用于 Windows (7+)（32 位和 64 版本）和 MacOS (10.10+)。
+Microsoft 小组台式客户机是一个独立的应用程序和当前不属于办公室专业人员加上。 团队是可用于 Windows （7 +）、 32 位和 64 位版本和 MacOS （10.10 +）。 在 Windows 上，团队需要.NET framework 4.5 或更高版本;提供团队安装程序将为您安装它，如果您没有使用它。
 
-桌面客户端为团队会议、群组通话和专线一对一呼叫提供实时通信支持（音频、视频和内容共享）。
+桌面客户端提供团队会议，组呼叫，和私人一对一调用 （音频、 视频和内容共享） 的实时通信支持。
 
-如果最终用户有合适的本地权限（在 PC 上安装 Teams 客户端不需要管理权限，但在 Mac 上需要），可以直接从 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) 下载并安装桌面客户端。
+可以下载并安装的最终用户直接从桌面客户机[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)他们如果有合适的本地权限 （管理员权限在一台 PC 上安装团队客户端不需要，但需要在 Mac 上）。
 
 IT 管理员可以选择其首选方法将安装文件分发到其组织中的计算机上，例如 System Center Configuration Manager (Windows) 或 Casper Suite (MacOS)。
 

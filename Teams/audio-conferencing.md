@@ -1,24 +1,26 @@
 ---
-title: "Microsoft Teams 中的音频会议实践指导"
+title: Microsoft Teams 中的音频会议实践指导
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 12/22/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
-description: "使用展望（规划）、上线（交付）、推动价值（运营）框架在 Microsoft Teams 中规划、部署和管理音频会议的实践指导。"
+description: 使用展望（规划）、上线（交付）、推动价值（运营）框架在 Microsoft Teams 中规划、部署和管理音频会议的实践指导。
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f845be7ddf83605adad119f7efa53725033a7823
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: cb41f929f477a058ee8c811f357caa6ff3de62ac
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的音频会议实践指导
 ============================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Office 365 中的音频会议允许参与者从任何电话加入 Teams 会议。
 
@@ -359,7 +361,7 @@ Office 365 中的音频会议服务包括：
 提供了可以针对每个用户应用的其他配置，用于控制使用免费电话会议桥接电话号码和从会议拨出。
 
 > [!NOTE]
-> 这些与成本相关的控制当前仅预览版用户可用。 你可以在 [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013) 上注册贵组织参与预览版计划。
+> 这些与成本相关的控制当前仅预览版用户可用。 您可以注册您的企业中的预览程序[https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013)。
 
 通过这些控制，你可以确定会议组织者是否可以为其组织的会议提供免费电话会议桥接电话号码，以及控制参与者是否可以从其组织的会议拨出。 拨出控制级别涵盖不允许拨出、仅允许拨出到国内号码、允许拨出到国内号码和国际号码。
 

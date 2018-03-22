@@ -1,5 +1,5 @@
 ---
-title: "与 Skype for Business 并行启用 Microsoft Teams"
+title: 与 Skype for Business 并行启用 Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,15 +7,15 @@ ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: "并行使用 Skype for Business 和 Microsoft Teams 指导"
+description: 并行使用 Skype for Business 和 Microsoft Teams 指导
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66e21cb6e170785c336f4737cd61596d33ae305e
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 27e6f4449f4568f9777be92c8520215721154e2f
+ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/12/2018
 ---
 <a name="enable-microsoft-teams-side-by-side-with-skype-for-business"></a>与 Skype for Business 并行启用 Microsoft Teams 
 =============================================================
@@ -183,7 +183,7 @@ Teams 中安排的会议是另一项重叠功能，即用户可以安排 Teams �
 
 由于默认情况下对于具有符合条件的 Office 365 订阅的贵组织中的用户会启用 Teams，因此，如果要进行有限的 Teams 试点，就要对试点组外的所有用户禁用 Teams 许可证。
 
-为了重点体现 Teams 版本作为协作与私人聊天解决方案，以及减少由于与 Skype for Business 的重叠功能导致的用户混乱，你可以在 Office 365 租户级别更改以下设置。 要更改这些 Office 365 设置，请参阅[在你的 Office 365 组织中设置 Microsoft Teams](Office-365-set-up.md)。
+为了重点体现 Teams 版本作为协作与私人聊天解决方案，以及减少由于与 Skype for Business 的重叠功能导致的用户混乱，你可以在 Office 365 租户级别更改以下设置。 若要更改这些 Office 365 的设置，请参阅[Office 365 提供组织中的管理 Microsoft 小组功能](enable-features-office-365.md)。
 
 <table>
 <thead>

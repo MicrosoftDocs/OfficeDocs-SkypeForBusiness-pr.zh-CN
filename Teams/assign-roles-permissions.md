@@ -1,24 +1,27 @@
 ---
-title: "在 Microsoft Teams 中分配角色和权限"
+title: 在 Microsoft Teams 中分配角色和权限
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
-description: "了解如何在 Microsoft Teams 中分配团队所有者和成员角色，包括创建团队的权限。"
+description: 了解如何在 Microsoft Teams 中分配团队所有者和成员角色，包括创建团队的权限。
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0919d588cedf654a515f47f16fafb70cdc923f16
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: eb5f8d74fbb2d1802bfd96f7c86ffe9786fef827
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>在 Microsoft Teams 中分配角色和权限
 ===============================================
+
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 在 Microsoft Teams 中有两种角色：**所有者**和**成员**。 默认情况下，会为创建新团队的用户授予所有者状态。 如果团队是从现有 Office 365 组创建的，则将继承权限。
 

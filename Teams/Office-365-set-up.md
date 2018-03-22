@@ -1,26 +1,28 @@
 ---
-title: "在你的 Office 365 组织中设置 Microsoft Teams"
+title: 在 Office 365 提供组织中打开 Microsoft 小组
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: "了解如何在你的 Office 365 组织中设置 Microsoft Teams。"
+description: 了解如何为您的 Office 365 组织打开 Microsoft 小组。
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a6ec5e59471ed6527bbaefd4969f5b8e7e5a5bc
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: ac66fd152a5880d23169c93a26d4dcd6d2056942
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
-<a name="set-up-microsoft-teams-in-your-office-365-organization"></a>在你的 Office 365 组织中设置 Microsoft Teams
+<a name="turn-on-microsoft-teams-in-your-office-365-organization"></a>在 Office 365 提供组织中打开 Microsoft 小组
 ======================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 默认情况下，会为所有组织开启 Teams。 如果你在预览期间使用过 Teams，则你在 Teams 预览期间所做的设置将保持不变。
 
@@ -31,7 +33,7 @@ ms.lasthandoff: 02/19/2018
 
 
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>为整个组织开启或关闭 Teams
-
+[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
 1.  使用具有全局管理员权限的帐户登录 [Office 365 管理中心](https://go.microsoft.com/fwlink/?linkid=854614)。
 
@@ -46,7 +48,3 @@ ms.lasthandoff: 02/19/2018
 4.  要为组织启用 Teams，请使用许可证选取器，并选择每个许可证，然后将切换设置为**“开启”**，并单击**“保存”**。
 
     ![Microsoft Teams 设置页面屏幕截图，显示切换设置为“开启”以启用 Microsoft Teams。](media/Services-and-addins-control-Microsoft-Teams.PNG)
-
-
-> [!NOTE]
-> 用于控制 Teams 的开启/关闭状态的租户级别功能是临时性的，将在未来某个时候删除。 那时，只能通过用户级别许可控制对 Teams 的访问。 

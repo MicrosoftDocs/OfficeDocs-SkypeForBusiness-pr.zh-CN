@@ -1,26 +1,28 @@
 ---
-title: "Microsoft Teams 中适用于应用的管理设置"
+title: Microsoft Teams 中适用于应用的管理设置
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/29/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: "了解如何在 Microsoft Teams 中允许和启用应用，包括侧向加载外部应用。"
+description: 了解如何在 Microsoft Teams 中允许和启用应用，包括侧向加载外部应用。
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fb8d7680338ebda68624a765068d4c386ea46b3
-ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
-ms.translationtype: HT
+ms.openlocfilehash: 58fb8598f8e63aa3e8abc943dcffde64452da462
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams 中适用于应用的管理设置
 ==========================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 应用是第三方服务提供的选项卡、连接器或聊天机器人或这三者的任意组合。 可以在 Office 365 管理中心配置 Teams 管理策略来控制允许哪些外部第三方应用。 通过这些策略可以指定允许和不允许哪些应用、新的外部应用行为以及是否允许侧向加载应用。
 
@@ -51,7 +53,8 @@ ms.lasthandoff: 02/23/2018
 
 仅团队所有者或获得权限的成员可以向 Teams 中侧向加载应用。  
 
-![Microsoft Teams 设置的“应用”部分屏幕截图。](media/Admin_settings_for_apps_in_Microsoft_Teams_image1.png) 
+![展开的应用程序部分租户范围设置中的屏幕快照。](media/Admin_settings_for_apps_in_Microsoft_Teams_image2.png)
+
 
 ## <a name="creating-and-uploading-app-packages"></a>创建和上载应用包 
 

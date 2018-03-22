@@ -1,25 +1,27 @@
 ---
-title: "向团队添加来宾"
+title: 向团队添加来宾
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 10/23/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
-description: "了解管理员可用于将新来宾用户添加到组织的工具，包括 Microsoft Teams 桌面客户端和 Web 客户端以及 Azure Active Directory B2B 协作门户。"
+description: 了解管理员可用于将新来宾用户添加到组织的工具，包括 Microsoft Teams 桌面客户端和 Web 客户端以及 Azure Active Directory B2B 协作门户。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b885aec6cfd2ca40603a195009b6e001c7e7226e
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: e84c8f29416f94b78b287275cd473388931105ea
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="add-a-guest-to-a-team"></a>向团队添加来宾
 =====================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-仅拥有与 Azure Active Directory 或 Office 365 工作或学校帐户对应的电子邮件地址的用户可以添加为来宾用户。
+具有业务或使用者的电子邮件帐户，如 Outlook、 Gmail，或其他人，任何人都可以参与以访客身份在团队中。
 
 
 作为管理员，你可以采用多种方式将新来宾用户添加到组织： 
@@ -32,7 +34,7 @@ ms.lasthandoff: 02/19/2018
 
 
 
-你已通过 Azure Active Directory B2B、Office 365 组或 SharePoint Online 添加的来宾用户已准备就绪。 Office 365 管理员或团队所有者可以向其各自团队添加那些来宾。 如果某个团队已使用某个 Office 365 组，向该组添加来宾后，该来宾将有权访问该团队。 通过 Office 365 组添加来宾不会为该来宾生成邀请电子邮件，因此该团队中的人员应通知该来宾。
+您已经添加通过 Azure 活动目录 B2B、 Office 365 组，或 SharePoint Online 的来宾用户便可以开始工作。 Office 365 管理员或团队所有者可以向其各自团队添加那些来宾。 如果某个团队已使用某个 Office 365 组，向该组添加来宾后，该来宾将有权访问该团队。 通过 Office 365 组添加来宾不会为该来宾生成邀请电子邮件，因此该团队中的人员应通知该来宾。
 
 > [!NOTE]
 > 来宾受 [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) 和 [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) 服务限制约束。

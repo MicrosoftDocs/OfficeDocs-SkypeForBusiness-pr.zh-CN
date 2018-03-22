@@ -1,5 +1,5 @@
 ---
-title: "快速入门 - Microsoft Teams 规划指南"
+title: 快速入门 - Microsoft Teams 规划指南
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,15 +7,15 @@ ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, tonysmit
-description: "使用本指南帮助你在组织中规划、实施和采用 Microsoft Teams。"
+description: 使用本指南帮助你在组织中规划、实施和采用 Microsoft Teams。
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7111e5aea9869a99ffec76f7da655f1ac0261aa8
-ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
-ms.translationtype: HT
+ms.openlocfilehash: ce2ac8ff38f5f051a3e288efede53efa4dc0c6e5
+ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/12/2018
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>快速入门 - Microsoft Teams 规划指南
 ==========================================================
@@ -44,7 +44,7 @@ ms.lasthandoff: 03/01/2018
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-如果你的 Office 365 租户中未启用 Microsoft Teams 并且你是 Office 365 管理员，请按照[在 Office 365 组织中设置 Microsoft Teams](office-365-set-up.md) 一文中的说明进行操作，确保你的用户可以访问 Microsoft Teams。
+在 Office 365 租户中未启用 Microsoft 小组，并且管理员执行 Office 365[管理用户访问权限的团队](user-access.md)我们文章中的说明进行操作，以确保您的用户具有访问该应用程序。
 
 ## <a name="step-3-complete-technical-planning"></a>步骤 3：完成技术规划
 

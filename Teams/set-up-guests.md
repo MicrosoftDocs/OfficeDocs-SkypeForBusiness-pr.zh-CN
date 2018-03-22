@@ -1,27 +1,28 @@
 ---
-title: "开启或关闭对 Microsoft Teams 的来宾访问"
+title: 开启或关闭对 Microsoft Teams 的来宾访问
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 11/10/17
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rramesan
-description: "开启或关闭 Microsoft Teams 中的来宾访问功能。"
+description: 开启或关闭 Microsoft Teams 中的来宾访问功能。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9112494945cf97905853c827fbfdb0688e9c7fc
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: ddf9f3b2597300ca872a5ab4135538e9cc6cc5ed
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>开启或关闭对 Microsoft Teams 的来宾访问
 ======================================
 
-
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 
 
@@ -37,7 +38,7 @@ ms.lasthandoff: 02/19/2018
 > [!IMPORTANT]
 > 要启用来宾访问功能的完全体验，非常重要的一点是理解 Microsoft Teams、Azure Active Directory 和 Office 365 之间的核心授权相关性。 有关详细信息，请参阅[在 Microsoft Teams 中授权来宾访问](Teams-dependencies.md)。
 
-1. 在 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 上使用你的 Office 365 全局管理员帐户登录。
+1. 使用 Office 365 全局管理员帐户登录 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。
     
   
 2. 在导航菜单中，依次选择**“设置”**和**“服务&amp;和外接程序”**。

@@ -1,5 +1,5 @@
 ---
-title: "在 Microsoft Teams 中授权来宾访问"
+title: 在 Microsoft Teams 中授权来宾访问
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
@@ -7,14 +7,14 @@ ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
 ms.reviwer: laal
-description: "通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。"
+description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19d7bd54e63e67dc02a116cbd06cdfec9de4e180
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: fe399bb7b28f834575aeff344ff3fc4cca1b5dae
+ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授权来宾访问
 ===========================================
@@ -40,21 +40,23 @@ ms.lasthandoff: 02/19/2018
 
 有了 Azure AD 企业到企业 (B2B) 协作，向潜在来宾用户发送邀请的操作将不局限于租户管理员。 你可以使用策略将发送邀请的任务委派给角色允许其发送邀请的用户。
 
-用于邀请的设置在租户级别应用，并在目录、租户和应用程序级别控制来宾体验。
+用于邀请的设置在租户级别应用，并在目录、租户和应用程序级别控制来宾体验。 最少支持的客人，**可以邀请成员**必须设置为**是**。
 
 
 ![Azure Active Directory 门户中用户设置的屏幕截图。](media/teams_dependencies_image2.png)
 
+Azure 广告包括以下设置来配置外部用户：
+- **来宾用户的权限是有限**：**是**指客人不具有权限的目录中的特定任务，如枚举用户、 组或其他目录资源。 此外，客人不能分配给您的目录中的管理角色。 携带的**否**意味着具有相同的访问权限对一般用户已在您的目录中的目录数据。
+- **管理员和来宾邀请者角色中的用户可以邀请**:**是**意味着管理员和"来宾邀请者"角色中的用户将能够邀请到租户的客人。 **不**意味着管理员和用户不能邀请到租户的客人。
+- **成员可以邀请**:**是**意味着您的目录中的非管理员成员可以邀请客人进行协作的 Azure 广告，如 SharePoint 网站或 Azure 资源保护的资源。 只有管理员可以邀请**否**意味着携带到您的目录。
+- **客人可以邀请**:**是**意味着，客人在您的目录本身也可以邀请其他来宾进行协作的 Azure 广告，如 SharePoint 网站或 Azure 资源保护的资源。 携带的**否**意味着不能邀请其他客人与您的组织进行协作。
+ 
 
-你可以设置以下邀请策略：
-- 关闭邀请。
-- 只有管理员和具有“来宾邀请者”角色的用户可以邀请。
-- 管理员、“来宾邀请者”角色和成员可以邀请。
-- 包括来宾在内的所有用户都可以邀请。 （这是用于租户的默认策略。）
 
+> [!NOTE]
+> 您还可以管理哪些域可以为客人邀请到您的租户。 请参阅[Office 365 组允许/阻止来宾访问](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da)。 
 
 ##<a name="microsoft-teams"></a>Microsoft Teams
-
 在 Microsoft Teams 中，你可以控制为组织启用还是禁用来宾体验。 该设置在默认情况下禁用，仅在租户级别应用于 Microsoft Teams。
 
 

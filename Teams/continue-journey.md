@@ -1,20 +1,20 @@
 ---
-title: "通过用户采用推动使用 Microsoft Teams 实现价值"
+title: 通过用户采用推动使用 Microsoft Teams 实现价值
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
-description: "继续从 Skype for Business 到 Microsoft Teams 的旅程指导。"
+description: 继续从 Skype for Business 到 Microsoft Teams 的旅程指导。
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b897a4de7358faf01bb2c79835a5d7254c88dca
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 2162fdf8a942c9a45949c52efaf4fc9b70b76b00
+ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/09/2018
 ---
 <a name="drive-value-with-microsoft-teams-through-user-adoption"></a>通过用户采用推动使用 Microsoft Teams 实现价值
 ================================================================
@@ -35,7 +35,7 @@ Microsoft 一直在致力于为你提供定制的实践指导，以确保你为�
 - 是否不了解采用和变更管理？ 请参阅 [Office 365 采用指南](https://go.microsoft.com/fwlink/?linkid=859045)
 
 
-## <a name="get-your-organizaton-ready-for-your-future-move-to-teams"></a>使贵组织为将来迁移至 Teams 做好准备
+## <a name="get-your-organization-ready-for-your-future-move-to-teams"></a>您的组织为做好准备将来迁移到团队
 
 - 使用[路线图](https://go.microsoft.com/fwlink/?linkid=859047)指导你的 Teams 旅程
 

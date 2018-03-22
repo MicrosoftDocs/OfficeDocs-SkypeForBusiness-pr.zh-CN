@@ -1,0 +1,33 @@
+---
+title: 启用 Microsoft 小组的 Office 365 提供服务的服务清单
+author: rmw2890
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 03/16/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: 当您配置 Office 365 提供有关团队按照核心待办任务，此核对清单中的活动。
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: f3b5163d6bf89c6c78e44560d857620f28ee1ac9
+ms.sourcegitcommit: d70e5a5e7d05a2226c1d011895fb12187d73fad0
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/17/2018
+---
+# <a name="enable-office-365"></a>启用 Office 365
+ 
+| 否 | 活动或任务| 说明| 已完成？ | 其他信息|
+|----|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1  | 创建 Office 365 租户| 您的组织可以享受团队之前，您必须设置 Office 365 租户。 如果您不具有 Office 365 租户，请参阅本指南中的**其他信息**列，则请参阅。 | | [设置 Office 365 for business](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa) <br/><br/>[如果您需要其他帮助，Microsoft FastTrack 为 Office 365 的团队是可用来帮助](https://fasttrack.microsoft.com/office) |
+| 2  | 购买 Office 365 的许可证 | 根据那样的团队构想阶段的工作结果，处理采购小组以确保贵组织已购买必要的许可证，Sku 或附加服务，他们已经准备好分配给租户。 | | [Office 365 的 Microsoft 小组授权](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing) <br/><br/>[针对业务订阅您 Office 365 提供购买许可证](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1) |
+| 3  | 为租户分配 Office 365 许可证 | 通常情况下，您授权的管理员将收到一个链接从 Microsoft 授权将许可证添加到 Office 365 租户。 <br/><br/>这取决于您使用购买的许可证的通道，可能需要访问**其他信息**栏中列出的指南之一。 | | [将许可证添加到订阅支付使用的产品密钥](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53) <br/><br/>[将许可证添加到卷授权服务中心购买的订阅](https://support.office.com/article/Add-licenses-to-a-subscription-purchased-through-the-Volume-Licensing-Service-Center-82ba88fa-ebdf-4d44-a7b3-cea82b25d71a) |
+| 4  | 可选： 启用通信片尾 | 通信片尾是可选功能，使用有关您组织的会议桥的电话号码，提供免费电话，或到国际会议参与者授予会议组织者的能力拨出。 <br/><br/>除了标准的音频会议每用户许可证，卷和授权机构可以选择启用音频会议功能的付薪每分钟报价。 <br/><br/>确定通信贷方是否为您的组织需要和 — — 如果是 — — 通过将通信贷方附加许可证添加到您的组织启用它。 | | [什么是通信点数？](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) <br/><br/>[为组织设置通信点数](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization) <br/><br/>[音频会议按分钟付费](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute) |
+| 5  | 请确认许可证可用于 Office 365 租户 | 请转到 Office 365 管理门户并验证它显示许可证 Sku 和期望中 Office 365 租户的数量。 <br/><br/>**其他信息**中使用该引用将步行通过这一过程。 | | [是否有哪些 Office 365 业务订阅？](https://support.office.com/article/What-Office-365-for-business-subscription-do-I-have-092252f8-08df-4cdb-a8d2-b8653caa29a1) |
+| 6  | 配置您的环境的标识。 | 用户可以在 Office 365 中创建直接 （在联机部署模型中） 或从内部部署 Active Directory 同步到 Office 365 租户。 <br/><br/>确定是否应使用云身份、 同步的标识或联合的身份。 确定正确的标识类型超出范围本检查表;但是，您可以在**附加信息**列中找到有关这些选项的信息的链接。 <br/><br/>**注意：**如果您正在使用同步或联合的身份，确保内部用户主体名称 (Upn) 匹配 Office 365 Upn，并为与 Azure AD 连接同步配置所有必需的属性。 属性所需的团队，使用属性列表为 Skype 的在线业务。 | | [了解 Office 365 提供身份和 Azure Active Directory](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9) <br/><br/>[准备供应通过目录同步到 Office 365 的用户](https://support.office.com/article/Prepare-to-provision-users-through-directory-synchronization-to-Office-365-01920974-9e6f-4331-a370-13aea4e82b3e) <br/><br/>[Azure AD 连接同步： 到 Azure Active Directory 同步属性](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-attributes-synchronized) |
+| 7  | 租户管理员确认 | 使用您的安全小组开发 Office 365 管理模型。 <br/><br/>请务必确定和记录所有租户和服务管理员。 | | [有关 Office 365 管理角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) |
+| 8  | 为您的租户实施管理角色 | 验证您的管理模型能满足您的组织的需要并将 Office 365 管理角色分配给您的管理员。 | | [Office 365 中的业务的管理角色分配](https://support.office.com/article/Assign-admin-roles-in-Office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) |
+| 9  | 构建信息登录到呼叫质量仪表板 (CQD) 上载。 | 每个小组部署应利用 CQD 要深入的品质和可靠性的小组使用的所有调用。 <br><br>使用中的**其他信息**列列出的 CQD 指南来获得此工具的最大好处。 | | [规划服务管理和质量](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide) <br/><br/>[质量的经验审查指南](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) <br/><br/>[质量的经验审查模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-1-2.zip?raw=true) <br/><br/>[打开并使用呼叫质量仪表板 Microsoft 小组和 Skype 的在线业务](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[将上载构建信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
+| 10  | 验证构建信息进行处理，并且调用质量仪表板 (CQD) 为您的租户可操作。 | | | [通话质量仪表板](https://cqd.lync.com) |

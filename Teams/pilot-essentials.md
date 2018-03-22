@@ -1,20 +1,20 @@
 ---
-title: "在使用 Skype for Business 的同时试用 Microsoft Teams"
+title: 在使用 Skype for Business 的同时试用 Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/02/2018
+ms.date: 03/19/2018
 ms.topic: article
 ms.service: msteams
-description: "指导在继续使用 Skype for Business 的同时，开始 Microsoft Teams 试点以探索 Teams 可以为贵组织完成的所有事项。"
+description: 指导在继续使用 Skype for Business 的同时，开始 Microsoft Teams 试点以探索 Teams 可以为贵组织完成的所有事项。
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5c764212d439ef7e3592b52b841e2b531265ec7
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 386221bfc8a3249ef4c902605171e636f8a48f40
+ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/20/2018
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>在使用 Skype for Business 的同时试用 Microsoft Teams
 ============================================
@@ -102,7 +102,7 @@ ms.lasthandoff: 03/05/2018
 <thead>
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>下一步操作：</strong> 确定试点测试组。</td>
+<td align="left"><strong>下一步操作：</strong>标识您试验测试组使用[选择团队先导部署的用户](https://review.docs.microsoft.com/en-us/MicrosoftTeams/select-users-for-your-teams-pilot?branch=cloudvoice-working)指南。</td>
 </tr>
 </thead>
 <tbody>
@@ -126,7 +126,9 @@ ms.lasthandoff: 03/05/2018
 
 ## <a name="step-four-create-your-communications"></a>第四步：建立沟通方式
 
-向你的试点参与者说明接下来将发生的情况、何时、为什么以及对他们的期望，这对于试点的成功至关重要。 为了激发热情并最大限度地提高参与积极性，请务必在与你的试点参与者沟通时传递最终用户价值。 此外，请确保你的沟通包括指向培训和支持的链接，用户在参与试点过程中可以在这些地方获取其他信息。
+向你的试点参与者说明接下来将发生的情况、何时、为什么以及对他们的期望，这对于试点的成功至关重要。 为了激发热情并最大限度地提高参与积极性，请务必在与你的试点参与者沟通时传递最终用户价值。
+
+此外，请确保你的沟通包括指向培训和支持的链接，用户在参与试点过程中可以在这些地方获取其他信息。 良好的帮助主题以包含是[切换到从 Skype 的业务团队](https://support.office.com/en-us/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)，它显示了一些常见的功能，以及一些新功能，可将在 Microsoft 小组。
 
 <table>
 <thead>
@@ -144,7 +146,7 @@ ms.lasthandoff: 03/05/2018
 所有后期工作就位后，现在可以开始你的试点。 进行试点包括向你的试点用户传递信息、监控你的网络/使用情况以确保你的网络和质量保持正常状况、收集来自参与者的反馈以及检查支持票证来了解与 Teams 有关的问题。
 
 > [!IMPORTANT]
-> Teams 默认情况下处于启用状态，但在开始试点之前，请通过检查确保所有试点用户均已启用 Teams。 在执行此操作时如需帮助，请阅读[在你的 Office 365 组织中启用 Microsoft Teams 功能](enable-features-office-365.md)。
+> Teams 默认情况下处于启用状态，但在开始试点之前，请通过检查确保所有试点用户均已启用 Teams。 有关执行此操作的帮助，请阅读[对团队的管理用户访问](user-access.md)。
 > 
 
 下面是 30 天试点的建议时间线：
