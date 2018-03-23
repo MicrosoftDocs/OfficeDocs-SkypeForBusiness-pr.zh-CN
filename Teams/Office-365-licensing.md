@@ -3,7 +3,7 @@ title: 适用于 Microsoft Teams 的 Office 365 许可
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 03/15/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen, ninadara
@@ -13,11 +13,11 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30982efbc72bee3964e441551dccf15f002ae285
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 84040cb622fb685b52cb6cdc8ef15e2572ddd6c1
+ms.sourcegitcommit: 8e0833319011e22e285e2d84d7cebb2006723665
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/23/2018
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>适用于 Microsoft Teams 的 Office 365 许可
 ========================================
@@ -39,7 +39,9 @@ ms.lasthandoff: 03/15/2018
         
 
 
-从 Teams 核心功能方面来看，不同的 Office 365 订阅之间没有区别。 合规性功能的可用性依赖于正确的订阅级别。 要了解详细信息，请阅读 [Teams 中的安全性和合规性概述](security-compliance-overview.md)。
+根据团队的核心功能，有 Office 365 订阅之间没有差异。 合规性功能的可用性依赖于正确的订阅级别。 要了解详细信息，请阅读 [Teams 中的安全性和合规性概述](security-compliance-overview.md)。
+
+**云的语音功能**： 对于音频会议，您的组织将需要购买和分配给每个用户都将设置拨入会议的音频会议许可。 对于调用计划，每个用户需要电话系统以及一国内或国内和国际调用计划。 若要了解详细信息，请参阅[附加业务和 Microsoft 小组授权的 Skype](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
 
 所有支持的订阅计划都符合访问 Teams 的 Web 客户端、桌面客户端和移动应用的条件。
 
