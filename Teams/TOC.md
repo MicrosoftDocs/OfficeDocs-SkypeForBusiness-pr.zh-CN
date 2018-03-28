@@ -13,9 +13,12 @@
 # 设置
 ## [管理对 Teams 的用户访问](user-access.md)
 ## [获取 Teams 的客户端](get-clients.md)
+## [登录到团队](sign-in-teams.md)
 ## [Teams 部署概述](deployment-overview.md)
 ## [在你的 Office 365 组织中设置 Teams](Office-365-set-up.md)
 ## [在你的 Office 365 组织中启用 Teams 功能](enable-features-office-365.md)
+## [转换为新的 Microsoft 小组和业务管理中心的 Skype 的过程管理团队](manage-teams-skypeforbusiness-admin-center.md)
+## [安装 Microsoft 小组使用 MSI](msi-deployment.md)
 ## [通话质量仪表板中可用的维度和衡量指标](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [设置 Skype for Business 通话分析](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [使用通话分析解决 Skype for Business 通话质量不佳的问题](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -123,6 +126,7 @@
 
 
 ## 音频会议
+### [教程： 在团队中的音频会议](Tutorial-Audio-Conferencing.yml)
 ### [将第三方指定为音频会议提供商](/SkypeForBusiness/audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [将 Microsoft 指定为音频会议提供商](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [音频会议常见问题](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -158,6 +162,7 @@
 ### [视频 - Teams 中的音频会议](audio-conferencing-videos.md)
 
 ## 通话套餐
+### [在团队中调用教程：](Tutorial-calling-in-teams.yml)
 ### [快速入门指南 - 在 Teams 中配置通话套餐](configuring-teams-calling-quickstartguide.md)
 ### [设置通话套餐](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [为你的组织添加、更改或删除紧急地址](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
