@@ -1,7 +1,10 @@
 Teams 支持以下 Internet 浏览器： 
 - Internet Explorer 11
 - Microsoft Edge
+  - 电话和会议支持边缘 RS2 或更高版本
 - Chrome 的最新版本以及前两个版本
+  - 调用支持 Chrome 59 或更高版本
+  - 会议支持即将上市
 - Firefox 的最新版本以及前两个版本
 
 > [!NOTE]

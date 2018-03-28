@@ -3,20 +3,22 @@ title: 获取 Microsoft Teams 的客户端
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 03/26/2018
+audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
+localization_priority: Normal
 description: 了解如何使用支持 Microsoft Teams 的各种客户端，包括 Web、桌面（Windows 和 Mac）和移动（Android、iOS 和 Windows Phone）。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cc06497da95f6c9e0f4e6a39d851125922e8b31
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 837be1b510441a46984585c517e4d125e244599a
+ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================
@@ -26,30 +28,24 @@ ms.lasthandoff: 03/15/2018
 支持 Microsoft Teams 的客户端包括 Web、桌面（Windows 和 Mac）和移动（Android、iOS 和 Windows Phone）。 这些客户端都要求有活动的 Internet 连接，不支持脱机模式。
 
 <a name="web-client"></a>Web 客户端 
-----------------
+----------
 
-Web 客户端 ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) 是完整、 功能的客户端可以从多个浏览器使用。 目前，Web 客户端不支持实时通信（即，加入会议和进行一对一通话）。 此外，还必须配置浏览器以允许第三方 Cookie。 
+Web 客户端 ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) 是完整、 功能的客户端可以从多个浏览器使用。 Web 客户端通过使用 webRTC，因此没有任何插件或下载 web 浏览器中运行团队所必需的支持电话和会议。 浏览器必须配置为允许使用第三方 cookie。 
 
-在 Web 浏览器中运行 Teams 无需插件和下载。
-
-Web 客户端执行时连接到的浏览器版本检测[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)如果检测到不受支持的浏览器版本，则它将阻止对 Web 接口的访问，并建议用户下载桌面客户端或移动应用程序。
-
-<a name="internet-browser-support"></a>Internet 浏览器支持
-------------------------------
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-<a name="desktop-clients"></a>桌面客户端
-------------------------
+Web 客户端执行时连接到的浏览器版本检测[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)如果检测到不受支持的浏览器版本，则它将阻止对 web 接口的访问，并建议用户下载桌面客户端或移动应用程序。
 
-Microsoft 小组台式客户机是一个独立的应用程序和当前不属于办公室专业人员加上。 团队是可用于 Windows （7 +）、 32 位和 64 位版本和 MacOS （10.10 +）。 在 Windows 上，团队需要.NET framework 4.5 或更高版本;提供团队安装程序将为您安装它，如果您没有使用它。
+<a name="desktop-client"></a>桌面客户端
+--------------
+
+Microsoft 小组台式客户机是一个独立的应用程序和当前不属于办公室专业人员加上。 团队是可用于 Windows （7 +）、 32 位和 64 位版本和 MacOS （10.10 +）。 在 Windows 上，团队需要.NET framework 4.5 或更高版本;提供团队安装程序将为您安装它，如果您没有使用它。 
 
 桌面客户端提供团队会议，组呼叫，和私人一对一调用 （音频、 视频和内容共享） 的实时通信支持。
 
 可以下载并安装的最终用户直接从桌面客户机[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)他们如果有合适的本地权限 （管理员权限在一台 PC 上安装团队客户端不需要，但需要在 Mac 上）。
 
-IT 管理员可以选择其首选方法将安装文件分发到其组织中的计算机上，例如 System Center Configuration Manager (Windows) 或 Casper Suite (MacOS)。
-
-
+IT 管理员可以选择其首选方法将安装文件分发到其组织中的计算机上，例如 System Center Configuration Manager (Windows) 或 Casper Suite (MacOS)。 若要获取 Windows 的 MSI 程序包分发，请参阅[安装 Microsoft 小组使用 MSI](msi-deployment.md)。
 
 > [!NOTE]
 > 通过这些机制分发客户端仅适用于初次安装 Microsoft Team 客户端，不适用于将来更新。

@@ -1,5 +1,5 @@
 ---
-title: "在澳大利亚的可用性"
+title: 在澳大利亚的可用性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "以下是可用的澳大利亚 Skype 业务和 Microsoft 小组的 Office 365 提供服务。"
-ms.openlocfilehash: 4552e465531ddbb331a0b0226b427ac44de1c558
-ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
+description: 以下是可用的澳大利亚 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
+ms.openlocfilehash: ec5ac53fc0688aeb6ed960f64c5ffb35ceb216f9
+ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="availability-in-australia"></a>在澳大利亚的可用性
 
@@ -53,13 +53,13 @@ ms.lasthandoff: 03/21/2018
    
 ## <a name="calling-plans"></a>通话套餐
 > [!IMPORTANT]
-> 澳大利亚是仅供预览和早期采用者的客户。 有关详细信息，请参阅[Telstra 的声音](http://aka.ms/TelstraVoicePlan)。 
+> 当前仅用于预览和在澳大利亚的早期采纳。 有关详细信息，请参阅[Telstra 呼吁 Office 365](http://aka.ms/TelstraVoicePlan)。 
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买通话套餐？  <br/> |是的请参阅[Telstra 语音服务](http://aka.ms/TelstraVoicePlan)。  <br/> |
-|通话套餐的可用分钟数  <br/> |请参阅[Telstra 服务](http://aka.ms/TelstraVoicePlan)。 <br/> |
-|是否可以拨打呼出电话？  <br/> |请参阅[Telstra 服务](http://aka.ms/TelstraVoicePlan)。 <br/> |
+|是否可购买通话套餐？  <br/> |是的请参见[Telstra 调用针对 Office 365 提供](http://aka.ms/TelstraVoicePlan)。  <br/> |
+|通话套餐的可用分钟数  <br/> |请参见[office 365 的 Telstra 调用](http://aka.ms/TelstraVoicePlan)。 <br/> |
+|是否可以拨打呼出电话？  <br/> |请参见[office 365 的 Telstra 调用](http://aka.ms/TelstraVoicePlan)。 <br/> |
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
@@ -69,7 +69,7 @@ ms.lasthandoff: 03/21/2018
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    
-如果您希望获得收费和免费电话号码的自动助理和呼叫队列，请参阅[Telstra 语音服务](http://aka.ms/TelstraVoicePlan)。 有关音频会议服务号码，[请与我们联络](mailto:ptnapac@microsoft.com)。
+如果您希望获得收费和免费电话号码的自动助理和呼叫队列，请参阅[Telstra 呼吁 Office 365](http://aka.ms/TelstraVoicePlan)。 有关音频会议服务号码，[请与我们联络](mailto:ptnapac@microsoft.com)。
   
 ## <a name="communications-credits"></a>通信点数
 

@@ -1,1 +1,1 @@
-全新的 Microsoft Teams 和 Skype for Business 管理中心即将推出！  自 2018 年 3 月起，我们会逐步从当前 Skype for Business 管理中心以及 Office 365 管理中心中的 Microsoft Teams 体验迁移设置。 某项设置迁移完成后，你将收到通知，并被定向到该设置在新 Microsoft Teams 和 Skype for Business 管理中心中的位置。
+全新的 Microsoft Teams 和 Skype for Business 管理中心即将推出！  自 2018 年 3 月起，我们会逐步从当前 Skype for Business 管理中心以及 Office 365 管理中心中的 Microsoft Teams 体验迁移设置。 某项设置迁移完成后，你将收到通知，并被定向到该设置在新 Microsoft Teams 和 Skype for Business 管理中心中的位置。 有关详细信息，请参阅[过程过渡到新的 Microsoft 小组和 Skype 业务管理中心的管理团队](../manage-teams-skypeforbusiness-admin-center.md)。

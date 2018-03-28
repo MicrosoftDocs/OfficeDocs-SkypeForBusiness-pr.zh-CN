@@ -13,11 +13,11 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b556a7293ecd6c6158a3fb1f7e882fa87defbc45
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: cbbd2cad0b84ccdcc887d5bcdf272c1556c9c546
+ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 <a name="overview-of-microsoft-teams"></a>Microsoft Teams 概述
 ===========================
@@ -122,6 +122,6 @@ Teams 还提供通话和会议体验，这些体验建立在下一代基于云�
 
 虽然我们首次发布 Teams 时 Teams 管理员 FAQ 使用起来很方便，但它很快变成了“杂物抽屉”，使得很难找到特定内容。 因此，我们将 FAQ 拆分开，并将其有用信息合并到你现在看到的 Teams 文档中。 你将在此文档的上下文中找到以前属于 FAQ 中的所有信息。
 
-如果你遇到在此找不到的信息，请在下面的“**评论**”部分中告诉我们。 我们会尽力在 24 小时内回复你的评论。
+如果您正在寻找在此处找不到的东西，请告诉我们有关它下面的**反馈**部分中。 我们尝试在 24 小时内答复您的反馈意见。
 
 顺便提一下，我们仍**提供**了针对[从 Skype for Business 到 Microsoft Teams 的旅程](FAQ-journey.md)的 FAQ。 
