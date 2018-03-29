@@ -1,0 +1,64 @@
+---
+title: 创建新模板或编辑现有的测试设备
+ms.author: laurawi
+author: LauraWi
+manager: serdars
+ms.date: 3/23/2015
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.ClientDeviceTestEdit
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
+description: 测试设备功能与设备更新功能结合使用。 可以测试设备添加到测试设备页面，并将此设备来验证之前将更新部署到生产设备进行更新的功能。 可以在全局范围（在整个环境中）或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 当您添加一个设备时，似乎 Skype 的测试设备页上的列表中的业务服务器的控制面板。
+ms.openlocfilehash: 022a56797952986f52772cb5fbed6d1f09bf7d75
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/28/2018
+---
+# <a name="test-device-create-new-or-edit-existing"></a><span data-ttu-id="fed94-107">测试设备：创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="fed94-107">Test Device: Create New or Edit Existing</span></span>
+ 
+<span data-ttu-id="fed94-108">测试设备功能与设备更新功能结合使用。</span><span class="sxs-lookup"><span data-stu-id="fed94-108">The Test Device feature works in conjunction with the Device Update feature.</span></span> <span data-ttu-id="fed94-109">可将测试设备添加到“**测试设备**”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。</span><span class="sxs-lookup"><span data-stu-id="fed94-109">You can add a test device to the **Test Device** page and then use this device to verify the functionality of new updates before deploying the updates to production devices.</span></span> <span data-ttu-id="fed94-110">可以在全局范围（在整个环境中）或在单个站点中测试设备。</span><span class="sxs-lookup"><span data-stu-id="fed94-110">You can test a device globally (throughout your entire environment) or within a single site.</span></span> <span data-ttu-id="fed94-111">可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。</span><span class="sxs-lookup"><span data-stu-id="fed94-111">You identify a test device by its Media Access Control (MAC) address or serial number.</span></span> <span data-ttu-id="fed94-112">当您添加一个设备时，似乎 Skype 的**测试设备**页上的列表中的业务服务器的控制面板。</span><span class="sxs-lookup"><span data-stu-id="fed94-112">When you add a device, it appears in the list on the **Test Device** page of the Skype for Business Server Control Panel.</span></span>
+  
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="fed94-113">可执行的任务</span><span class="sxs-lookup"><span data-stu-id="fed94-113">Tasks you can perform</span></span>
+
+<span data-ttu-id="fed94-114">您可以在“**新建测试设备**”或“**编辑测试设备**”页上执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="fed94-114">You can perform the following tasks on the **New Test Device** or **Edit Test Device** page:</span></span>
+  
+- <span data-ttu-id="fed94-115">添加新的测试设备。</span><span class="sxs-lookup"><span data-stu-id="fed94-115">Add a new test device.</span></span>
+    
+- <span data-ttu-id="fed94-116">修改现有测试设备的属性。</span><span class="sxs-lookup"><span data-stu-id="fed94-116">Modify the properties of an existing test device.</span></span>
+    
+## <a name="ui-reference"></a><span data-ttu-id="fed94-117">用户界面参考</span><span class="sxs-lookup"><span data-stu-id="fed94-117">UI Reference</span></span>
+
+<span data-ttu-id="fed94-118">下表介绍了该页上的菜单、命令、字段和属性。</span><span class="sxs-lookup"><span data-stu-id="fed94-118">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
+  
+- <span data-ttu-id="fed94-119">**作用域**标识的测试设备的范围 （全局或站点）。</span><span class="sxs-lookup"><span data-stu-id="fed94-119">**Scope** Identifies the scope (Global or Site) of the test device.</span></span>
+    
+- <span data-ttu-id="fed94-120">**名称**您可以添加或修改测试设备的名称。</span><span class="sxs-lookup"><span data-stu-id="fed94-120">**Name** You can add or modify the name of the test device.</span></span>
+    
+- <span data-ttu-id="fed94-121">**设备名称**您可以添加或修改测试设备的名称。</span><span class="sxs-lookup"><span data-stu-id="fed94-121">**Device name** You can add or modify the name of the test device.</span></span>
+    
+- <span data-ttu-id="fed94-122">**类型标识符**您可以选择用于标识设备通过选择以下任一方法：</span><span class="sxs-lookup"><span data-stu-id="fed94-122">**Identifier type** You can select the method to use to identify the device by selecting one of the following:</span></span>
+    
+  - <span data-ttu-id="fed94-123">**MAC 地址**</span><span class="sxs-lookup"><span data-stu-id="fed94-123">**MAC address**</span></span>
+    
+  - <span data-ttu-id="fed94-124">**序列号**</span><span class="sxs-lookup"><span data-stu-id="fed94-124">**Serial number**</span></span>
+    
+- <span data-ttu-id="fed94-125">**唯一标识符**您可以键入的 MAC 地址或设备的序列号。</span><span class="sxs-lookup"><span data-stu-id="fed94-125">**Unique identifier** You can type the MAC address or serial number of the device.</span></span>
+    
+<span data-ttu-id="fed94-126">测试设备的详细信息，请参阅操作文档中[将设备添加到测试更新功能](http://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx)。</span><span class="sxs-lookup"><span data-stu-id="fed94-126">For details about testing devices, see [Add a Device to Test Update Functionality](http://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) in the Operations documentation.</span></span>
+## <a name="see-also"></a><span data-ttu-id="fed94-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="fed94-127">See also</span></span>
+
+#### 
+
+[<span data-ttu-id="fed94-128">测试设备</span><span class="sxs-lookup"><span data-stu-id="fed94-128">Test Device</span></span>](test-device.md)
+#### 
+
+[<span data-ttu-id="fed94-129">新 CsTestDevice</span><span class="sxs-lookup"><span data-stu-id="fed94-129">New-CsTestDevice</span></span>](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
+  
+[<span data-ttu-id="fed94-130">一组 CsTestDevice</span><span class="sxs-lookup"><span data-stu-id="fed94-130">Set-CsTestDevice</span></span>](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
+  
+[<span data-ttu-id="fed94-131">查看软件更新为您的组织中的设备的</span><span class="sxs-lookup"><span data-stu-id="fed94-131">View Software Updates for Devices in Your Organization</span></span>](http://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
+

@@ -1,0 +1,164 @@
+---
+title: 在 Skype for Business Server 2015 中部署 Web 可下载客户端
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 2/6/2018
+ms.audience: ITPro
+ms.topic: get-started-article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
+description: 摘要： 为企业 Web 应用程序部署 Skype 和 Skype 会议应用程序一起使用 Skype 业务。
+ms.openlocfilehash: e1cee2741e1538da1e4c5ed8e25509415cb16ac3
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/28/2018
+---
+# <a name="deploy-web-downloadable-clients-in-skype-for-business-server-2015"></a><span data-ttu-id="9382c-103">在 Skype for Business Server 2015 中部署 Web 可下载客户端</span><span class="sxs-lookup"><span data-stu-id="9382c-103">Deploy Web downloadable clients in Skype for Business Server 2015</span></span>
+ 
+<span data-ttu-id="9382c-104">**摘要：**为企业 Web 应用程序部署 Skype 和 Skype 会议应用程序一起使用 Skype 业务。</span><span class="sxs-lookup"><span data-stu-id="9382c-104">**Summary:** Deploy the Skype for Business Web App and Skype Meetings App used with Skype for Business.</span></span>
+  
+<span data-ttu-id="9382c-105">Skype 业务 Web 应用程序是安装在服务器上运行 Skype 业务服务器 2015年和默认部署按需会议用户不具有的业务客户端 Skype Internet Information Services (IIS) web 客户端。</span><span class="sxs-lookup"><span data-stu-id="9382c-105">Skype for Business Web App is an Internet Information Services (IIS) web client that is installed on the server running Skype for Business Server 2015 and default it is deployed on demand to meeting users who do not already have the Skype for Business client.</span></span> <span data-ttu-id="9382c-106">这些会议用户通常从你的网络外连接。</span><span class="sxs-lookup"><span data-stu-id="9382c-106">These meeting users are more often than not connecting from outside your network.</span></span> <span data-ttu-id="9382c-107">每当用户单击会议 URL，但不具有的业务客户端安装 Skype，用户会看到选项以使用最新版本的 Skype 业务 Web 应用程序中加入会议。</span><span class="sxs-lookup"><span data-stu-id="9382c-107">Whenever a user clicks a meeting URL but does not have the Skype for Business client installed, the user is presented with the option to join the meeting by using the latest version of Skype for Business Web App.</span></span>
+  
+<span data-ttu-id="9382c-108">语音，视频，和共享功能在 Skype 业务 Web 应用程序需要 Microsoft ActiveX 控件用作用户的浏览器插件。</span><span class="sxs-lookup"><span data-stu-id="9382c-108">The voice, video, and sharing features in Skype for Business Web App require a Microsoft ActiveX control that is used as a plugin by the user's browser.</span></span> <span data-ttu-id="9382c-109">可以预先安装 ActiveX 控件，或者允许用户进行安装时提示您时，发生第一次商业 Web 应用程序使用 Skype 或第一次在使用某一功能需要该 ActiveX 控件。</span><span class="sxs-lookup"><span data-stu-id="9382c-109">You can either install the ActiveX control in advance or allow users to install it when prompted, which happens the first time they use Skype for Business Web App or the first time they access a feature that requires the ActiveX control.</span></span>
+  
+> [!NOTE]
+> <span data-ttu-id="9382c-110">在 Skype 业务服务器 2015年边缘服务器部署，在外围网络中的 HTTPS 反向代理服务器是 Skype 业务 Web 应用程序客户端访问的需要。</span><span class="sxs-lookup"><span data-stu-id="9382c-110">In Skype for Business Server 2015 Edge Server deployments, an HTTPS reverse proxy in the perimeter network is required for Skype for Business Web App client access.</span></span> <span data-ttu-id="9382c-111">你还必须发布简单的 URL。</span><span class="sxs-lookup"><span data-stu-id="9382c-111">You must also publish simple URLs.</span></span> <span data-ttu-id="9382c-112">有关详细信息，请参阅[设置了反向代理服务器](http://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx)和[规划简单的 Url](http://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)。</span><span class="sxs-lookup"><span data-stu-id="9382c-112">For details, see [Setting Up Reverse Proxy Servers](http://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) and [Planning for Simple URLs](http://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx).</span></span> 
+  
+## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a><span data-ttu-id="9382c-113">启用对 Skype 业务 Web 应用程序的多因素身份验证</span><span class="sxs-lookup"><span data-stu-id="9382c-113">Enable Multi-Factor Authentication for Skype for Business Web App</span></span>
+<span data-ttu-id="9382c-114"><a name="MFA"> </a></span><span class="sxs-lookup"><span data-stu-id="9382c-114"></span></span>
+
+<span data-ttu-id="9382c-115">Skype 的 Skype 业务 Web 应用程序的业务服务器 2015年版本支持多因素身份验证。</span><span class="sxs-lookup"><span data-stu-id="9382c-115">The Skype for Business Server 2015 version of Skype for Business Web App supports multi-factor authentication.</span></span> <span data-ttu-id="9382c-116">除了用户名称和密码，您可以要求额外的身份验证方法，例如智能卡或针，当他们登录 Skype 业务会议加入来自外部网络的用户进行身份验证。</span><span class="sxs-lookup"><span data-stu-id="9382c-116">In addition to user name and password, you can require additional authentication methods, such as smart cards or PINs, to authenticate users who are joining from external networks when they sign in to Skype for Business meetings.</span></span> <span data-ttu-id="9382c-117">您可以通过部署活动目录联合身份验证服务 (AD FS) 联合身份验证服务器和启用业务服务器 2015 Skype 在被动身份验证启用多因素身份验证。</span><span class="sxs-lookup"><span data-stu-id="9382c-117">You can enable multi-factor authentication by deploying Active Directory Federation Service (AD FS) federation server and enabling passive authentication in Skype for Business Server 2015.</span></span> <span data-ttu-id="9382c-118">AD FS 配置后，外部用户尝试加入 Skype 业务会议显示 AD FS 的多因素身份验证网页，其中包含用户名称和密码挑战以及任何其他身份验证方法，您已配置。</span><span class="sxs-lookup"><span data-stu-id="9382c-118">After AD FS is configured, external users who attempt to join Skype for Business meetings are presented with an AD FS multi-factor authentication webpage that contains the user name and password challenge along with any additional authentication methods that you have configured.</span></span>
+  
+> [!IMPORTANT]
+> <span data-ttu-id="9382c-119">如果您计划配置 AD FS 以进行多重身份验证，则以下是一些重要注意事项：</span><span class="sxs-lookup"><span data-stu-id="9382c-119">The following are important considerations if you plan to configure AD FS for multi-factor authentication:</span></span> 
+  
+- <span data-ttu-id="9382c-p105">如果会议参加者和组织者位于同一组织中或都来自 AD FS 联盟组织，则 ADFS 多重身份验证生效。ADFS 多重身份验证不适用于 Lync 联盟用户，因为 Lync 服务器 Web 基础结构当前不支持该验证方法。</span><span class="sxs-lookup"><span data-stu-id="9382c-p105">Multi-factor ADFS authentication works if the meeting participant and organizer are both in the same organization or are both from an AD FS federated organization. Multi-factor ADFS authentication does not work for Lync federated users because the Lync server web infrastructure does not currently support it.</span></span>
+    
+- <span data-ttu-id="9382c-122">如果使用硬件负载平衡器，启用负载平衡器上的 cookie 持久性，以便由同一个前端服务器处理来自 Skype 业务 Web 应用程序客户端的所有请求。</span><span class="sxs-lookup"><span data-stu-id="9382c-122">If you use hardware load balancers, enable cookie persistence on the load balancers so that all requests from the Skype for Business Web App client are handled by the same Front End Server.</span></span>
+    
+- <span data-ttu-id="9382c-123">您依赖当事方之间建立信任 Skype 业务服务器和 AD FS 服务器，指定令牌的生命周期足够长，以跨您的 Skype 业务会议的最大长度。</span><span class="sxs-lookup"><span data-stu-id="9382c-123">When you establish a relying party trust between Skype for Business Server and AD FS servers, assign a token life that is long enough to span the maximum length of your Skype for Business meetings.</span></span> <span data-ttu-id="9382c-124">通常，240 分钟的令牌使用时间就足够了。</span><span class="sxs-lookup"><span data-stu-id="9382c-124">Typically, a token life of 240 minutes is sufficient.</span></span>
+    
+- <span data-ttu-id="9382c-125">此配置不适用于 Lync 移动客户端。</span><span class="sxs-lookup"><span data-stu-id="9382c-125">This configuration does not apply to Lync mobile clients.</span></span>
+    
+### <a name="configure-multi-factor-authentication"></a><span data-ttu-id="9382c-126">配置多重身份验证</span><span class="sxs-lookup"><span data-stu-id="9382c-126">Configure Multi-Factor Authentication</span></span>
+
+1. <span data-ttu-id="9382c-127">安装 AD FS 联盟服务器角色。</span><span class="sxs-lookup"><span data-stu-id="9382c-127">Install an AD FS federation server role.</span></span> <span data-ttu-id="9382c-128">有关详细信息，请参阅[活动目录联合身份验证服务 2.0 部署指南](https://go.microsoft.com/fwlink/p/?linkid=267511)</span><span class="sxs-lookup"><span data-stu-id="9382c-128">For details, see the [Active Directory Federation Services 2.0 Deployment Guide](https://go.microsoft.com/fwlink/p/?linkid=267511)</span></span>
+    
+2. <span data-ttu-id="9382c-129">为 AD FS 创建证书。</span><span class="sxs-lookup"><span data-stu-id="9382c-129">Create certificates for AD FS.</span></span> <span data-ttu-id="9382c-130">有关详细信息，请参见["联合身份验证服务器证书"](https://go.microsoft.com/fwlink/p/?LinkId=285376)一节的计划和部署使用单一登录方式进行登录主题的 AD FS。</span><span class="sxs-lookup"><span data-stu-id="9382c-130">For more information, see ["Federation server certificates"](https://go.microsoft.com/fwlink/p/?LinkId=285376) section of the Plan for and deploy AD FS for use with single sign-on topic.</span></span>
+    
+3. <span data-ttu-id="9382c-131">从 Windows PowerShell 命令行界面，运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="9382c-131">From the Windows PowerShell command-line interface, run the following command:</span></span>
+    
+    ```
+    add-pssnapin Microsoft.Adfs.powershell
+    ```
+
+4. <span data-ttu-id="9382c-132">通过运行以下命令来建立合作关系：</span><span class="sxs-lookup"><span data-stu-id="9382c-132">Establish a partnership by running the following command:</span></span>
+    
+    ```
+    Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+    ```
+
+5. <span data-ttu-id="9382c-133">设置以下信赖方规则：</span><span class="sxs-lookup"><span data-stu-id="9382c-133">Set the following relying party rules:</span></span>
+    
+    ```
+   $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+   ```
+ 
+   ```
+   Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
+   ```
+
+   ```
+   Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+   ```
+
+## <a name="disable-branchcache"></a><span data-ttu-id="9382c-134">禁用 BranchCache </span><span class="sxs-lookup"><span data-stu-id="9382c-134">Disable BranchCache</span></span>
+<span data-ttu-id="9382c-135"><a name="MFA"> </a></span><span class="sxs-lookup"><span data-stu-id="9382c-135"></span></span>
+
+<span data-ttu-id="9382c-136">Windows 7 和 Windows Server 2008 R2 中的分支缓存功能可能会干扰 Skype 业务 Web 应用程序的 web 组件。</span><span class="sxs-lookup"><span data-stu-id="9382c-136">The BranchCache feature in Windows 7 and Windows Server 2008 R2 can interfere with Skype for Business Web App web components.</span></span> <span data-ttu-id="9382c-137">为了防止问题为 Skype 业务 Web 应用程序用户，确保为未启用 BranchCache。</span><span class="sxs-lookup"><span data-stu-id="9382c-137">To prevent issues for Skype for Business Web App users, make sure that BranchCache is not enabled.</span></span> 
+  
+<span data-ttu-id="9382c-138">有关禁用分支缓存，有关详细信息请参阅 BranchCache 部署指南 》，可在 Microsoft 下载中心的 Word 格式[http://go.microsoft.com/fwlink/p/?LinkId=268788](http://go.microsoft.com/fwlink/p/?LinkId=268788)和 HTML 格式显示在 Windows Server 2008 R2 技术库在[https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?LinkId=268789)。</span><span class="sxs-lookup"><span data-stu-id="9382c-138">For details about disabling BranchCache, see the BranchCache Deployment Guide, which is available in Word format at the Microsoft Download Center at [http://go.microsoft.com/fwlink/p/?LinkId=268788](http://go.microsoft.com/fwlink/p/?LinkId=268788) and in HTML format in the Windows Server 2008 R2 Technical Library at [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?LinkId=268789).</span></span>
+  
+## <a name="verifying-skype-for-business-web-app-deployment"></a><span data-ttu-id="9382c-139">验证 Skype 业务 Web 应用程序部署</span><span class="sxs-lookup"><span data-stu-id="9382c-139">Verifying Skype for Business Web App Deployment</span></span>
+<span data-ttu-id="9382c-140"><a name="MFA"> </a></span><span class="sxs-lookup"><span data-stu-id="9382c-140"></span></span>
+
+<span data-ttu-id="9382c-141">你可以使用 Test-CsUcwaConference cmdlet 来验证一对测试用户是否可以使用统一通信 Web API (UCWA) 参加会议。</span><span class="sxs-lookup"><span data-stu-id="9382c-141">You can use the Test-CsUcwaConference cmdlet to verify that a pair of test users can participate in a conference using the Unified Communications Web API (UCWA).</span></span> <span data-ttu-id="9382c-142">此 cmdlet 的详细信息，请参阅[测试 CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) Skype 业务服务器管理外壳程序的文档中。</span><span class="sxs-lookup"><span data-stu-id="9382c-142">For details about this cmdlet, see [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) in the Skype for Business Server Management Shell documentation.</span></span>
+  
+## <a name="troubleshooting-plug-in-installation-on-windows-server-2008-r2"></a><span data-ttu-id="9382c-143">在 Windows Server 2008 R2 上的插件安装疑难解答</span><span class="sxs-lookup"><span data-stu-id="9382c-143">Troubleshooting Plug-in Installation on Windows Server 2008 R2</span></span>
+<span data-ttu-id="9382c-144"><a name="MFA"> </a></span><span class="sxs-lookup"><span data-stu-id="9382c-144"></span></span>
+
+<span data-ttu-id="9382c-145">如果运行 Windows Server 2008 R2 的计算机上无法安装插件，您可能需要修改 Internet Explorer 安全设置或 DisableMSI 注册表项设置。</span><span class="sxs-lookup"><span data-stu-id="9382c-145">If installation of the plug-in fails on a computer running Windows Server 2008 R2, you may need to modify the Internet Explorer security setting or the DisableMSI registry key setting.</span></span>
+  
+### <a name="modify-the-security-setting-in-internet-explorer"></a><span data-ttu-id="9382c-146">修改 Internet Explorer 的安全设置</span><span class="sxs-lookup"><span data-stu-id="9382c-146">Modify the security setting in Internet Explorer</span></span>
+
+1. <span data-ttu-id="9382c-147">打开 Internet Explorer。</span><span class="sxs-lookup"><span data-stu-id="9382c-147">Open Internet Explorer.</span></span>
+    
+2. <span data-ttu-id="9382c-148">依次单击**“工具”**、**“Internet 选项”**和**“高级”**。</span><span class="sxs-lookup"><span data-stu-id="9382c-148">Click **Tools**, click **Internet Options**, and then click **Advanced**.</span></span>
+    
+3. <span data-ttu-id="9382c-149">向下滚动至**“安全”**部分。</span><span class="sxs-lookup"><span data-stu-id="9382c-149">Scroll down to the **Security** section.</span></span>
+    
+4. <span data-ttu-id="9382c-150">清除**“不将加密的页存盘”**，然后单击**“确定”**。</span><span class="sxs-lookup"><span data-stu-id="9382c-150">Clear **Do not save encrypted pages to disk**, and then click **OK**.</span></span>
+    
+    > [!NOTE]
+    > <span data-ttu-id="9382c-151">如果选中，此设置时试图从 Skype 为企业 Web 应用程序下载附件也可导致错误。</span><span class="sxs-lookup"><span data-stu-id="9382c-151">If selected, this setting will also cause an error when trying to download an attachment from Skype for Business Web App.</span></span> 
+  
+5. <span data-ttu-id="9382c-p111">重新加入会议。插件应该可以无误地下载。</span><span class="sxs-lookup"><span data-stu-id="9382c-p111">Rejoin the meeting. The plug-in should download without errors.</span></span>
+    
+### <a name="modify-the-disablemsi-registry-setting"></a><span data-ttu-id="9382c-154">修改 DisableMSI 注册表设置</span><span class="sxs-lookup"><span data-stu-id="9382c-154">Modify the DisableMSI Registry setting</span></span>
+
+1. <span data-ttu-id="9382c-155">单击**“开始”**，然后单击**“运行”**。</span><span class="sxs-lookup"><span data-stu-id="9382c-155">Click **Start**, and then click **Run**.</span></span>
+    
+2. <span data-ttu-id="9382c-156">要访问注册表编辑器，请键入 **regedit**。</span><span class="sxs-lookup"><span data-stu-id="9382c-156">To access the Registry Editor, type **regedit**.</span></span>
+    
+3. <span data-ttu-id="9382c-157">导航到 HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Installer。</span><span class="sxs-lookup"><span data-stu-id="9382c-157">Navigate to HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Installer.</span></span>
+    
+4. <span data-ttu-id="9382c-158">编辑或添加类型为 REG_DWORD 的 DisableMSI 注册表项，并将其设置为 0。</span><span class="sxs-lookup"><span data-stu-id="9382c-158">Edit or add the DisableMSI registry key of type REG_DWORD and set it to 0.</span></span>
+    
+5. <span data-ttu-id="9382c-159">重新加入会议。</span><span class="sxs-lookup"><span data-stu-id="9382c-159">Rejoin the meeting.</span></span>
+    
+## <a name="enable-skype-meetings-app-to-replace-skype-for-business-web-app-optional"></a><span data-ttu-id="9382c-160">启用 Skype 会议应用以替换 Skype for Business Web 应用（可选）</span><span class="sxs-lookup"><span data-stu-id="9382c-160">Enable Skype Meetings App to replace Skype for Business Web App (Optional)</span></span>
+<span data-ttu-id="9382c-161"><a name="SMA_Enable"> </a></span><span class="sxs-lookup"><span data-stu-id="9382c-161"></span></span>
+
+<span data-ttu-id="9382c-162">此过程可选。</span><span class="sxs-lookup"><span data-stu-id="9382c-162">This procedure is optional.</span></span> <span data-ttu-id="9382c-163">如果不使用它，外部用户将继续参加会议对企业 Web 应用程序中使用 Skype。</span><span class="sxs-lookup"><span data-stu-id="9382c-163">If you do not use it, external users will continue to join meetings using Skype for Business Web App.</span></span> 
+  
+### <a name="enable-simplified-meeting-join-and-skype-meetings-app"></a><span data-ttu-id="9382c-164">启用简化会议加入和 Skype 会议应用</span><span class="sxs-lookup"><span data-stu-id="9382c-164">Enable simplified meeting join and Skype Meetings App</span></span>
+
+1. <span data-ttu-id="9382c-165">访问到内容传递网络 (CDN) 启用时，用户将具有联机连接到 CDN 并下载 Skype 会议的应用程序的能力，将简化会议连接体验。</span><span class="sxs-lookup"><span data-stu-id="9382c-165">When you enable access to the Content Delivery Network (CDN), users will have the ability to connect to CDN online and get Skype Meetings App, and will use the simplified meeting join experience.</span></span> 
+    
+   ```
+   Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
+   ```
+
+2. <span data-ttu-id="9382c-166">允许客户端从会议的侧面记录遥测加入网页或 Skype 会议应用程序发送到 Microsoft 服务器 （命令的默认值为 false）。</span><span class="sxs-lookup"><span data-stu-id="9382c-166">Allow client side logging telemetry from the meeting join web page or the Skype Meetings App to be sent to Microsoft servers (the command defaults to false).</span></span> 
+    
+   ```
+   Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
+   ```
+
+    <span data-ttu-id="9382c-167">严格遵守[业务数据集合的 Skype](https://support.office.com/en-us/article/Skype-for-Business-data-collection-practices-c17e8ea6-b83b-4345-9401-47a6c8b13aad?ui=en-US&amp;rs=en-US&amp;ad=US)是信息发送给 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="9382c-167">Information sent to Microsoft is in strict compliance with [Skype for Business data collection practices](https://support.office.com/en-us/article/Skype-for-Business-data-collection-practices-c17e8ea6-b83b-4345-9401-47a6c8b13aad?ui=en-US&amp;rs=en-US&amp;ad=US).</span></span>
+    
+3. <span data-ttu-id="9382c-168">设置超时之前回退到本地承载的 Skype 业务 Web 应用程序的体验，如果 CDN 不可用。</span><span class="sxs-lookup"><span data-stu-id="9382c-168">Set the timeout before fall back to the locally hosted Skype for Business Web App experience if CDN isn't available.</span></span> <span data-ttu-id="9382c-169">默认值是 6 秒。</span><span class="sxs-lookup"><span data-stu-id="9382c-169">The default value is 6 seconds.</span></span> <span data-ttu-id="9382c-170">如果将该值设置为 0，则没有超时。</span><span class="sxs-lookup"><span data-stu-id="9382c-170">If this value is set to 0, there will be no timeout.</span></span>
+    
+   ```
+   Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
+   ```
+
+## <a name="see-also"></a><span data-ttu-id="9382c-171">另请参阅</span><span class="sxs-lookup"><span data-stu-id="9382c-171">See also</span></span>
+<span data-ttu-id="9382c-172"><a name="SMA_Enable"> </a></span><span class="sxs-lookup"><span data-stu-id="9382c-172"></span></span>
+
+#### 
+
+[<span data-ttu-id="9382c-173">规划会议客户端 （Web 应用程序和会议的应用程序）</span><span class="sxs-lookup"><span data-stu-id="9382c-173">Plan for Meetings clients (Web App and Meetings App)</span></span>](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
+  
+[<span data-ttu-id="9382c-174">规划会议客户端 （Web 应用程序和会议的应用程序）</span><span class="sxs-lookup"><span data-stu-id="9382c-174">Plan for Meetings clients (Web App and Meetings App)</span></span>](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
+#### 
+
+[<span data-ttu-id="9382c-175">配置加入会议页</span><span class="sxs-lookup"><span data-stu-id="9382c-175">Configuring the Meeting Join Page</span></span>](http://technet.microsoft.com/library/45880423-47f4-49af-b825-cbd8e3fc1046.aspx)
+  
+[<span data-ttu-id="9382c-176">Microsoft Online Services 隐私声明</span><span class="sxs-lookup"><span data-stu-id="9382c-176">Microsoft Online Services Privacy Statement</span></span>](https://www.microsoft.com/en-us/privacystatement/OnlineServices/Default.aspx)
+  
+[<span data-ttu-id="9382c-177">授权条款和文档</span><span class="sxs-lookup"><span data-stu-id="9382c-177">Licensing Terms and Documentation</span></span>](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;amp;DocumentTypeId=31)
+

@@ -1,0 +1,74 @@
+---
+title: 允许用户使用内部部署的企业语音
+ms.author: crowe
+author: CarolynRowe
+manager: serdars
+ms.date: 2/15/2018
+ms.audience: ITPro
+ms.topic: conceptual
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection:
+- Ent_O365_Hybrid
+- IT_Skype16
+- IT_Skype4B_Hybrid
+ms.custom: Strat_SB_Hybrid
+ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
+description: 对于用户在 Office 365 (云 PBX) 中使用电话系统，必须首先启用它们的企业语音并将它们分配电话号码。 您这样做时用户仍驻留在内部部署中使用内部部署。
+ms.openlocfilehash: c661d6da46cc42843346541b29841a728ab0fc16
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/28/2018
+---
+# <a name="enable-the-users-for-enterprise-voice-on-premises"></a><span data-ttu-id="500a1-104">允许用户使用内部部署的企业语音</span><span class="sxs-lookup"><span data-stu-id="500a1-104">Enable the users for Enterprise Voice on premises</span></span>
+ 
+<span data-ttu-id="500a1-105">对于用户在 Office 365 (云 PBX) 中使用电话系统，必须首先启用它们的企业语音并将它们分配电话号码。</span><span class="sxs-lookup"><span data-stu-id="500a1-105">For a user to use Phone System in Office 365 (Cloud PBX), you must first enable them for Enterprise Voice and assign them a phone number.</span></span> <span data-ttu-id="500a1-106">您这样做时用户仍驻留在内部部署中使用内部部署。</span><span class="sxs-lookup"><span data-stu-id="500a1-106">You do this using your on-premises deployment while the user is still homed in the on-premises deployment.</span></span>
+  
+### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a><span data-ttu-id="500a1-107">若要为用户启用内部部署的企业语音和分配电话号码</span><span class="sxs-lookup"><span data-stu-id="500a1-107">To enable a user for Enterprise Voice on premises and assign a phone number</span></span>
+
+1. <span data-ttu-id="500a1-108">使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="500a1-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+    
+2. <span data-ttu-id="500a1-109">使用“开始”菜单或桌面快捷方式打开 Skype for Business Server 控制面板。</span><span class="sxs-lookup"><span data-stu-id="500a1-109">Use the Start menu or desktop shortcut to open the Skype for Business Server Control Panel.</span></span>
+    
+    <span data-ttu-id="500a1-110">也可以打开浏览器窗口，然后输入管理员 URL 以打开 Skype for Business Server 控制面板。</span><span class="sxs-lookup"><span data-stu-id="500a1-110">You can also open a browser window, and then enter the Administrator URL to open the Skype for Business Server Control Panel.</span></span>
+    
+3. <span data-ttu-id="500a1-111">在左导航栏中，单击“**用户**”。</span><span class="sxs-lookup"><span data-stu-id="500a1-111">In the left navigation bar, click **Users**.</span></span>
+    
+4. <span data-ttu-id="500a1-112">在“**搜索用户**”框中，键入要启用的用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“**查找**”。</span><span class="sxs-lookup"><span data-stu-id="500a1-112">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account that you want to enable, and then click **Find**.</span></span>
+    
+5. <span data-ttu-id="500a1-113">在表中，单击您想要启用的企业语音的在线业务用户帐户 Skype。</span><span class="sxs-lookup"><span data-stu-id="500a1-113">In the table, click the Skype for Business Online user account that you want to enable for Enterprise Voice.</span></span>
+    
+6. <span data-ttu-id="500a1-114">在“**编辑**”菜单上，单击“**显示详细信息**”。</span><span class="sxs-lookup"><span data-stu-id="500a1-114">On the **Edit** menu, click **Show Details**.</span></span>
+    
+7. <span data-ttu-id="500a1-115">在“**电话**”下，单击“**企业语音**”。</span><span class="sxs-lookup"><span data-stu-id="500a1-115">Under **Telephony**, click **Enterprise Voice**.</span></span>
+    
+8. <span data-ttu-id="500a1-p103">单击“**线路 URI**”，输入唯一的规范化电话号码（例如，tel:+14255550200）。然后单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="500a1-p103">Click **Line URI**, and type a unique, normalized phone number (for example, tel:+14255550200). Then click **Commit**.</span></span>
+    
+## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a><span data-ttu-id="500a1-118">为用户启用内部部署的企业语音时的特殊注意事项</span><span class="sxs-lookup"><span data-stu-id="500a1-118">Special considerations when enabling users for Enterprise Voice on premises</span></span>
+
+<span data-ttu-id="500a1-119">在某些情况下，可能需要修改为用户启用企业语音的方式来确保他们可以成功地发出和接听呼叫。</span><span class="sxs-lookup"><span data-stu-id="500a1-119">In some cases, you may need to modify the way you enable users for Enterprise Voice to make sure that they can successfully make and receive calls.</span></span> <span data-ttu-id="500a1-120">如果您有您的部署中满足以下条件的用户，请执行步骤包含允许用户为企业语音。</span><span class="sxs-lookup"><span data-stu-id="500a1-120">If you have users in your deployment that meet the following conditions, perform the steps included to enable the user for Enterprise Voice.</span></span>
+  
+- <span data-ttu-id="500a1-121">如果您在部署中创建的用户广告与 Skype 业务在线同步，而无需为业务或企业语音对 Skype 正在启用并没有设置，则运行以下 cmdlet 的每个受影响的用户，替换中的值 LineURI <c0 > <b1></b1>为您的环境的实际值：</span><span class="sxs-lookup"><span data-stu-id="500a1-121">If a user is created in your on-premises AD and then synchronized with Skype for Business Online without being enabled for Skype for Business or for Enterprise Voice and do not have a LineURI set, run the following cmdlets for each affected user, replacing the values in \< \> with actual values for your environment:</span></span>
+    
+  ```
+  Enable-CsUser $username -HostingProvider sipfed.online.lync.com -SipAddress sip:<UserName>@<SIP Domain>
+  ```
+
+  ```
+  Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
+  ```
+
+- <span data-ttu-id="500a1-122">如果用户已为企业内部部署，Skype 为启用，但未启用企业语音或移到 Skype 的在线业务前分配 LineURI，运行以下 cmdlet 的每个用户：</span><span class="sxs-lookup"><span data-stu-id="500a1-122">If a user is already enabled for Skype for Business on premises, but was not enabled for Enterprise Voice or assigned a LineURI before being moved to Skype for Business Online, run the following cmdlet for each user:</span></span>
+    
+  ```
+  Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
+  ```
+
+- <span data-ttu-id="500a1-123">如果用户已经在 Skype 为企业内部部署中启用但未启用为企业语音，即使已分配 LineURI，运行以下 cmdlet 为每个受影响的用户：</span><span class="sxs-lookup"><span data-stu-id="500a1-123">If a user is already enabled in Skype for Business on premises but not enabled for Enterprise Voice, even if already assigned a LineURI, run the following cmdlet for each affected user:</span></span>
+    
+  ```
+  Set-CsUser $username -EnterpriseVoiceEnabled $true
+  ```
+
+

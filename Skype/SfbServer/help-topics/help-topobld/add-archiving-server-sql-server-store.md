@@ -1,0 +1,31 @@
+---
+title: 存档服务器 SQL Server 存储库中添加
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 2/8/2018
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.tb.AddArchivingServerSqlStorePage
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
+description: 存档服务器要求的受支持的 64 位版本的 SQL Server 数据库软件，以存储存档数据。 您可以选择以前定义的 SQL Server 数据库，以用于存档或定义一个新的 SQL Server 数据库将驻留的 SQL Server 数据库，服务器和 SQL Server 的实例指定一个完全限定的域名称 (FQDN)，您想要使用新的 SQL Server 数据库 （这可以是默认实例或命名的实例指定）。
+ms.openlocfilehash: 2c63b6bf71c156bc62e07add023f3049af399095
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/28/2018
+---
+# <a name="add-archiving-server-sql-server-store"></a><span data-ttu-id="46e6f-104">存档服务器 SQL Server 存储库中添加</span><span class="sxs-lookup"><span data-stu-id="46e6f-104">Add Archiving Server SQL Server Store</span></span>
+ 
+<span data-ttu-id="46e6f-105">存档服务器要求的受支持的 64 位版本的 SQL Server 数据库软件，以存储存档数据。</span><span class="sxs-lookup"><span data-stu-id="46e6f-105">Archiving Server requires a supported 64-bit edition of the SQL Server database software to store the archive data.</span></span> <span data-ttu-id="46e6f-106">您可以选择以前定义的 SQL Server 数据库，以用于存档或定义一个新的 SQL Server 数据库将驻留的 SQL Server 数据库，服务器和 SQL Server 的实例指定一个完全限定的域名称 (FQDN)，您想要使用新的 SQL Server 数据库 （这可以是默认实例或命名的实例指定）。</span><span class="sxs-lookup"><span data-stu-id="46e6f-106">You can either select a previously defined SQL Server database to be used for archiving or define a new SQL Server database by specifying a fully qualified domain name (FQDN) of the server on which the SQL Server database will reside, and the instance of SQL Server that you want to use for the new SQL Server database (which can be the default instance or a named instance that you specify).</span></span>
+  
+> [!NOTE]
+> <span data-ttu-id="46e6f-107">如果用于发布拓扑的帐户具有适当的用户权限和权限，您可以创建存档数据库 (LcsLog)，当发布您的拓扑结构。</span><span class="sxs-lookup"><span data-stu-id="46e6f-107">If the account that is used to publish the topology has the appropriate user rights and permissions, you can create the archiving database (LcsLog) when you publish your topology.</span></span> <span data-ttu-id="46e6f-108">您还可以创建数据库之后，作为安装过程的一部分或其他方式。</span><span class="sxs-lookup"><span data-stu-id="46e6f-108">You can also create the database later, as part of the installation procedure, or otherwise.</span></span> 
+  
+> [!NOTE]
+> <span data-ttu-id="46e6f-109">要安装和部署存档的基于 SQL Server 的服务器上的数据库时，您必须是要安装的数据库文件的基于 SQL Server 的服务器的 SQL Server 系统管理员组的成员。</span><span class="sxs-lookup"><span data-stu-id="46e6f-109">To install and deploy the databases on the SQL Server-based server for archiving, you must be a member of the SQL Server sysadmins group for the SQL Server-based server where you are installing the database files.</span></span> <span data-ttu-id="46e6f-110">如果您不是 SQL Server 系统管理员组的成员，则您必须请求部署数据库文件之前要添加到组。</span><span class="sxs-lookup"><span data-stu-id="46e6f-110">If you are not a member of the SQL Server sysadmins group, you must request to be added to the group until the database files are deployed.</span></span> <span data-ttu-id="46e6f-111">如果不能进行系统管理员组的成员，应将您的 SQL Server 数据库管理员提供的脚本来配置和部署数据库。</span><span class="sxs-lookup"><span data-stu-id="46e6f-111">If you cannot be made a member of the sysadmins group, you should provide your SQL Server database administrator with the script to configure and deploy the databases.</span></span> <span data-ttu-id="46e6f-112">有关完成这些过程所需的权限和用户权限的详细信息，请参阅部署文档中的[SQL Server 部署权限](http://technet.microsoft.com/library/56ea0c02-bcf5-4d45-aa13-570531c29074.aspx)。</span><span class="sxs-lookup"><span data-stu-id="46e6f-112">For details about the user rights and permissions that you need to accomplish the procedures, see [Deployment Permissions for SQL Server](http://technet.microsoft.com/library/56ea0c02-bcf5-4d45-aa13-570531c29074.aspx) in the Deployment documentation.</span></span>
+  
+
