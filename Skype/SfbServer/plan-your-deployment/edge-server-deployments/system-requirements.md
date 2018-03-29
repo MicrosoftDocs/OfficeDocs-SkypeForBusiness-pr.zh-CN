@@ -194,7 +194,7 @@ Skype 业务服务器 2015 缩放合并边缘拓扑优化 DNS 负载平衡的新
     
 #### <a name="summary-of-hlb-affinity-requirements"></a>HLB 相关性要求摘要
 
-|**Client/user location**|**外部 web 服务 FQDN 关联需求**|**内部 web 服务 FQSN 仿射性需求**|
+|**客户端/用户位置**|**外部 web 服务 FQDN 关联需求**|**内部 web 服务 FQSN 仿射性需求**|
 |:-----|:-----|:-----|
 |Skype 业务 Web 应用程序 （内部和外部用户）  <br/> 移动设备（内部和外部用户）  <br/> |无相关性  <br/> |源地址相关性  <br/> |
 |Skype 业务 Web 应用程序 （仅适用于外部用户）  <br/> 移动设备（内部和外部用户）  <br/> |无相关性  <br/> |源地址相关性  <br/> |
@@ -207,7 +207,7 @@ Skype 业务服务器 2015 缩放合并边缘拓扑优化 DNS 负载平衡的新
 |**虚拟的 IP 端口**|**节点端口**|**节点机/监视器**|**持久性配置文件**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<池\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |前端  <br/> 5061  <br/> |无  <br/> |HTTPS  <br/> |
-|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |前端  <br/> 5061  <br/> |无  <br/> |HTTP  <br/> |
+|\<池\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |前端  <br/> 5061  <br/> |无  <br/> |HTTP  <br/> |
    
 ## <a name="hardware-and-software-requirements"></a>硬件和软件要求
 

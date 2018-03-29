@@ -11,7 +11,7 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
-description: Learn how to support voice resiliency in Skype for Business Server Enterprise Voice, at both central sites and branch sites. Branch site options include deploying Survivable Branch Appliances or Survivable Branch Servers.
+description: 了解如何支持业务服务器企业语音，在中心站点和分支站点在 Skype 语音留存能力。 分支站点选项包括高存活力的分支装置或高存活力的分支服务器部署。
 ms.openlocfilehash: a4ce7e01ef93ef7bfca2357b65b315b4be5c6781
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT
@@ -20,17 +20,17 @@ ms.lasthandoff: 03/28/2018
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中规划企业语音恢复能力
  
-Learn how to support voice resiliency in Skype for Business Server Enterprise Voice, at both central sites and branch sites. Branch site options include deploying Survivable Branch Appliances or Survivable Branch Servers.
+了解如何支持业务服务器企业语音，在中心站点和分支站点在 Skype 语音留存能力。 分支站点选项包括高存活力的分支装置或高存活力的分支服务器部署。
   
-Voice resiliency refers to the ability of users to continue making and receiving calls if a central site that hosts Skype for Business Server becomes unavailable, whether through a wide area network (WAN) failure or another cause. 如果中央站点发生故障，企业语音服务必须通过无缝故障转移至备份站点以保持不中断。 如果发生 WAN 故障，分支站点的呼叫必须重定向到本地 PSTN 网关。 本节讨论了如何规划在中央站点或 WAN 发生故障时的语音恢复能力。
+语音留存能力指的是用户能够继续进行和接收呼叫，如果中心站点，主机 Skype 业务服务器变得不可用，是否通过广域网络 (WAN) 故障或其他原因。 如果中央站点发生故障，企业语音服务必须通过无缝故障转移至备份站点以保持不中断。 如果发生 WAN 故障，分支站点的呼叫必须重定向到本地 PSTN 网关。 本节讨论了如何规划在中央站点或 WAN 发生故障时的语音恢复能力。
   
 ## <a name="central-site-resiliency"></a>中央站点恢复能力
 
-企业在全球拥有多个站点的情况日益普遍。 Maintaining emergency services, access to help desk, and the ability to conduct critical business tasks when a central site is out of service is essential for any Enterprise Voice resiliency solution. 当中央站点不可用时，必须满足以下条件：
+企业在全球拥有多个站点的情况日益普遍。 维持紧急服务，帮助台以及中央站点故障时执行关键业务任务的能力至关重要的任何企业语音弹性解决方案。 当中央站点不可用时，必须满足以下条件：
   
 - 必须提供语音故障转移。
     
-- Users who ordinarily register with the Front End pool at the central site must be able to register with an alternative Front End pool. This can be done by creating multiple DNS SRV records, each of which resolves to a Director pool or Front End pool in each of your central sites. You can adjust the priority and weights of the SRV records so that users who are served by that central site get the corresponding Director and Front End pool ahead of those in other SRV records.
+- 通常与前端池中心站点注册的用户必须能够注册的备选前端池。 这可以通过创建多个 DNS SRV 记录，其中每个解析到导演池或在每个中心站点的前端池。 这样，由该中心的网站提供服务的用户获得相应的控制器和前端池之前其他 SRV 记录中，您可以调整的优先级和重量的 SRV 记录。
     
 - 必须将其他站点的用户发送和接收的呼叫重新路由到 PSTN。
     
@@ -38,7 +38,7 @@ Voice resiliency refers to the ability of users to continue making and receiving
   
 ### <a name="architecture-and-topology"></a>体系结构和拓扑
 
-Planning for voice resiliency at a central site requires a basic understanding of the central role played by the Skype for Business Server Registrar in enabling voice failover. The Skype for Business Server Registrar is a service that enables client registration and authentication and provides routing services. It runs on all Standard Edition server, Front End Server, Director, or Survivable Branch Appliance. A Registrar pool consists of Registrar Services running on the Front End pool and residing at the same site. A Skype for Business client discovers the Front End pool through the following discovery mechanism: 
+在中心站点的语音留存能力规划要求中心所扮演的角色通过 Skype 业务服务器注册为在启用语音故障转移的一个基本的了解。 为业务服务器注册商 Skype 是允许注册客户端和身份验证并提供路由服务的服务。 它运行在所有标准版服务器、 前端服务器、 导演或高存活力的分支装置上。 注册器池包含和注册服务在前端池上运行并驻留在同一个站点。 Skype 业务客户端通过以下的发现机制发现前端池： 
   
 1. DNS SRV 记录
     
@@ -46,22 +46,22 @@ Planning for voice resiliency at a central site requires a basic understanding o
     
 3. DHCP 选项 120
     
-After the Skype for Business client connects to the Front End pool, it is directed by the load balancer to one of the Front End Servers in the pool. That Front End Server, in turn, redirects the client to a preferred Registrar in the pool.
+Skype 业务客户端连接到前端池后，它将被定向到前端服务器的池中的一个负载平衡器。 该前端服务器，反过来，重定向到池中的首选注册商的客户端。
   
-Each user enabled for Enterprise Voice is assigned to a particular Registrar pool, which becomes that user's primary Registrar pool. 在给定的站点上，通常成百上千个用户共享一个主注册器池。 要说明其状态、会议或故障转移依赖于中央站点的任何分支站点用户使用中央站点资源的情况，建议您将每个分支站点用户视作已在中央站点注册的用户。 There are currently no limits on the number of branch site users, including users registered with a Survivable Branch Appliance.
+企业语音为启用每个用户分配给特定的注册器池，将成为该用户的主注册器池。 在给定的站点上，通常成百上千个用户共享一个主注册器池。 要说明其状态、会议或故障转移依赖于中央站点的任何分支站点用户使用中央站点资源的情况，建议您将每个分支站点用户视作已在中央站点注册的用户。 目前有的分支站点用户，包括用户注册的高存活力的分支装置的数量没有限制。
   
-为确保中央站点具有发生故障时的语音恢复能力，主注册器池必须有一个单独指定的备份注册器池，该注册器池位于另一个站点。 The backup can be configured by using Topology Builder resiliency settings. 假定两个站点之间有一个可恢复的 WAN 链路，其主注册器池不再可用的用户将自动定向到备份注册器池。
+为确保中央站点具有发生故障时的语音恢复能力，主注册器池必须有一个单独指定的备份注册器池，该注册器池位于另一个站点。 可以通过使用拓扑生成器的自我恢复能力设置配置备份。 假定两个站点之间有一个可恢复的 WAN 链路，其主注册器池不再可用的用户将自动定向到备份注册器池。
   
 以下步骤介绍了客户端发现和注册过程：
   
-1. A client discovers Skype for Business Server through DNS SRV records. In Skype for Business Server, DNS SRV records can be configured to return more than one FQDN to the DNS SRV query. 例如，如果企业 Contoso 具有三个中央站点（北美、欧洲和亚太），且每个中央站点有一个控制器池，则 DNS SRV 记录可以指向每个位置中的控制器池 FQDN。 As long as the Director pool in one of the locations is available, the client can connect to the first hop Skype for Business Server.
+1. 客户端通过 DNS SRV 记录业务服务器发现 Skype。 在 Skype 业务服务器，可以配置 DNS SRV 记录到 DNS SRV 查询返回多个 FQDN。 例如，如果企业 Contoso 具有三个中央站点（北美、欧洲和亚太），且每个中央站点有一个控制器池，则 DNS SRV 记录可以指向每个位置中的控制器池 FQDN。 只要导演池位置之一，则客户端可以连接到 Skype 的第一个跃点业务服务器上。
     
     > [!NOTE]
-    > Using a Director pool is optional. A Front End pool can be used instead. 
+    > 导演池的使用是可选的。 可以改为使用前端池。 
   
-2. The Director pool informs the Skype for Business client about the user's primary Registrar pool and backup Registrar pool.
+2. 导演池通知业务客户端的 Skype 用户的主注册池和备份注册器池。
     
-3. The Skype for Business client attempts to connect to the user's primary Registrar pool first. 如果主注册器池可用，则该注册器接受注册。 If the primary Registrar pool is unavailable, the Skype for Business client attempts to connect to the backup Registrar pool. If the backup Registrar pool is available and has determined that the user's primary Registrar pool is unavailable (by detecting a lack of heartbeat for a specified failover interval) the backup Registrar pool accepts the user's registration. 备份注册器检测到主注册器再次可用后，备份注册器池会将故障转移客户端重定向到其主池。
+3. Skype 业务客户端尝试先连接到该用户的主注册器池。 如果主注册器池可用，则该注册器接受注册。 主要的注册器池不可用，如果 Skype 业务客户端将尝试连接到备份注册器池。 如果备份注册器池可用和已确定用户的主注册池不可用 （例如，通过指定的故障转移时间间隔检测缺少的心跳） 备份注册器池将接受用户的注册。 备份注册器检测到主注册器再次可用后，备份注册器池会将故障转移客户端重定向到其主池。
     
 ### <a name="requirements-and-recommendations"></a>要求与建议
 
@@ -71,21 +71,21 @@ Each user enabled for Enterprise Voice is assigned to a particular Registrar poo
     
 - 每个中央站点必须包含由一个或多个注册器组成的注册器池。
     
-- 必须使用 DNS 负载平衡和/或硬件负载平衡使每个注册器池负载平衡。 For detailed information about planning your load balancing configuration, see [Load balancing requirements for Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md).
+- 必须使用 DNS 负载平衡和/或硬件负载平衡使每个注册器池负载平衡。 规划您的负载平衡配置的详细信息，请参阅[负载平衡的 Skype 的业务要求](../../plan-your-deployment/network-requirements/load-balancing.md)。
     
-- Each user must be assigned to a primary Registrar pool by using either the Skype for Business Server Management Shell **set-CsUser** cmdlet or the Skype for Business Server Control Panel.
+- 通过使用任一 Skype 业务服务器管理外壳程序**集 CsUser** cmdlet 或 Skype 业务服务器控件面板，每个用户必须分配到主注册器池。
     
 - 主注册器池必须具有单个备份注册器池，该注册器池位于不同的中央站点。 
     
-- 必须将主注册器池配置为可故障转移到备份注册器池。 默认情况下，将主注册器设置为每隔 300 秒故障转移到备份注册器池。 You can change this interval by using the Skype for Business Server Topology Builder.
+- 必须将主注册器池配置为可故障转移到备份注册器池。 默认情况下，将主注册器设置为每隔 300 秒故障转移到备份注册器池。 通过 Skype 业务服务器拓扑生成器，您可以更改此间隔。
     
 - 配置故障转移路由。配置该路由后，指定网关，该网关的站点与在主路由中指定的网关的站点不同。
     
-- If the central site contained your primary management server and the site is likely to be down for an extended period, you will need to reinstall your management tools at the backup site; otherwise, you won't be able to change any management settings.
+- 如果中心站点包含您的主管理服务器，并且该网站很可能是下一段，您将需要重新安装管理工具备份站点;否则，您将无法更改任何管理设置。
     
 ### <a name="dependencies"></a>依赖项
 
-Skype for Business Server depends on the following infrastructure and software components to assure voice resiliency:
+Skype 业务服务器取决于以下的基础架构和软件组件，以确保语音留存能力：
   
 |||
 |:-----|:-----|
@@ -93,7 +93,7 @@ Skype for Business Server depends on the following infrastructure and software c
 |DNS  <br/> |解析有关服务器到服务器和服务器到客户端连接的 SRV 记录和 A 记录  <br/> |
 |Exchange 和 Exchange Web 服务 (EWS)  <br/> |联系人存储；日历数据  <br/> |
 |Exchange 统一消息和 Exchange Web 服务  <br/> |呼叫日志、语音邮件列表、语音邮件  <br/> |
-|DHCP 选项 120  <br/> |如果 DNS SRV 不可用，则客户端将尝试使用 DHCP 选项 120 来发现注册器。 For this to work, either a DHCP server must be configured or Skype for Business Server DHCP must be enabled.  <br/> |
+|DHCP 选项 120  <br/> |如果 DNS SRV 不可用，则客户端将尝试使用 DHCP 选项 120 来发现注册器。 为此，必须将 DHCP 服务器配置或者必须启用业务服务器 DHCP 的 Skype。  <br/> |
    
 ### <a name="survivable-voice-features"></a>Survivable 语音功能
 
@@ -125,13 +125,13 @@ Skype for Business Server depends on the following infrastructure and software c
     
   - 更改 DNS SRV 记录，使中央站点的 Exchange UM 服务器指向其他站点的备份 Exchange UM 服务器。
     
-  - Configure each user's Exchange UM dial plan to include Exchange UM servers at both the central site and the backup site, but designate the backup Exchange UM servers as disabled. If the primary site becomes unavailable, the Exchange administrator has to mark the Exchange UM servers at the backup site as enabled.
+  - 配置每个用户的 Exchange UM 拨号计划包括 Exchange UM 服务器在中心站点和备份站点，但将备份的 Exchange UM 服务器指定为已禁用。 如果主站点不可用，Exchange 管理员必须将备份站点上的 Exchange UM 服务器标记为已启用。
     
-    If neither of the preceding solutions is possible, then Exchange UM will not be available in the event the central site becomes unavailable.
+    如果这两个上面的解决方案是可能的然后 UM Exchange 将不可用事件中心站点变得不可用。
     
 - 所有类型的会议
     
-    故障转移到备份站点的用户，可以加入到由其池可用但不能在自己的主池（不再可用）上创建或承载会议的组织者创建或承载的会议。 Similarly, others users cannot join conferences that are hosted on the affected user's primary pool.
+    故障转移到备份站点的用户，可以加入到由其池可用但不能在自己的主池（不再可用）上创建或承载会议的组织者创建或承载的会议。 同样，其他用户无法加入会议承载在受影响的用户的主池。
     
 在主中央站点停用时，以下语音功能不会工作：
   
@@ -149,19 +149,19 @@ Skype for Business Server depends on the following infrastructure and software c
     
 ## <a name="branch-site-resiliency"></a>分支站点恢复能力
 
-If you want to provide branch-site resiliency, that is, high-availability Enterprise Voice service, you have three options for doing so:
+如果您想要提供分支站点恢复能力，即高可用性企业语音服务，则有三个这样的选项：
   
 - Survivable Branch Appliance
     
 - Survivable Branch Server
     
-- A full Skype for Business Server deployment at the branch site 
+- 完整的业务服务器在分部地点的部署 Skype 
     
 本指南将帮助您评估最适合组织的恢复能力解决方案，并基于您的恢复能力解决方案选择要使用的 PSTN 连接解决方案。还将通过介绍先决条件和其他规划注意事项来帮助您准备部署所选择的解决方案。
   
 ### <a name="branch-site-resiliency-features"></a>分支站点恢复能力功能
 
-If you provide branch-site resiliency, if a branch site's WAN connection to a central site fails or if the central site is unreachable, the following voice features should continue to be available:
+如果您提供分支站点恢复能力，如果分支站点的 WAN 连接到中央站点出现故障或者中央网站不可访问，应继续以下的语音功能可用于：
   
 - 入站和出站公用电话交换网 (PSTN) 呼叫
     
@@ -171,7 +171,7 @@ If you provide branch-site resiliency, if a branch site's WAN connection to a ce
     
 - 双方即时消息
     
-- Call forwarding, simultaneous ringing of endpoints, call delegation, and team call services, but only if the delegator and delegate (for example, a manager and the manager's administrator), or all team members, are configured at the same site
+- 同时响的终结点，调用委派时和团队调用服务，但仅当在同一站点配置代理者和代理 （例如，经理和管理器的管理员） 或所有的团队成员，调用转发，
     
 - 呼叫详细信息记录 (CDR)
     
@@ -181,7 +181,7 @@ If you provide branch-site resiliency, if a branch site's WAN connection to a ce
     
 - 用户身份验证和授权
     
-The following features will be available only if your resiliency solution is a full-scale Skype for Business Server deployment at the branch site:
+下列功能将为您可恢复性的解决方案是为业务服务器在分部地点的部署全面 Skype 时才可用：
   
 - IM、Web 会议和 A/V 会议
     
@@ -189,28 +189,28 @@ The following features will be available only if your resiliency solution is a f
     
 - 更新呼叫转接设置
     
-- Response Group application and Call Park application
+- 响应组应用程序和应用程序调用公园
     
-- Provisioning new phones and clients, but only if Active Directory Domain Services is present at the branch site.
+- 置备新电话和客户端，但是只有在分支站点 Active Directory 域服务是存在。
     
 - 增强型 9-1-1 (E9-1-1)
     
-    If E9-1-1 is deployed, and the SIP trunk at the central site is not available because the WAN link is down, then the Survivable Branch Appliance will route E9-1-1 calls to the local branch gateway. To enable this feature, the branch-site users' voice policies should route calls to the local gateway in the event of WAN failure.
+    如果 E9-1-1 被部署，以及 SIP 中继中心站点不可用，因为 WAN 链路出现故障，高存活力的分支装置将路由到本地分支关 E9-1-1 调用。 若要启用此功能，分支站点用户的语音策略应传送到本地网关在 WAN 故障发生时调用。
     
 > [!NOTE]
-> XMPP 不支持 SBA（survivable branch office，自动恢复分支机构）。 Users homed in a SBA configurations will not be able to send IMs or see Presence with XMPP contacts. 
+> XMPP 不支持 SBA（survivable branch office，自动恢复分支机构）。 在 SBA 驻留用户配置将不能用 XMPP 联系人发送即时消息或状态。 
   
 ### <a name="branch-site-resiliency-solutions"></a>分支站点恢复能力解决方案
 
-为组织提供分支站点恢复能力的好处显而易见。 Specifically, if you lose the connection to the central site, branch site users will continue to have Enterprise Voice service and voice mail (if you configure voice mail rerouting settings). 但是，对于用户少于 25 名的站点，复原解决方案可能无法为投资带来相应的回报。 
+为组织提供分支站点恢复能力的好处显而易见。 具体来说，如果失去与中心站点的连接，分支网站用户将继续有企业语音服务和语音邮件 （如果配置语音邮件重新路由设置）。 但是，对于用户少于 25 名的站点，复原解决方案可能无法为投资带来相应的回报。 
   
 如果决定提供分支站点复原，有三个选项可供使用。使用下表帮助确定最适合贵组织的选项。
   
-|**If you…**|**我们建议使用...**|
+|**如果您...**|**我们建议使用...**|
 |:-----|:-----|
-|分支站点承载 25 到 1000 位用户，并且投资回报不支持完整部署，或本地管理支持不可用  <br/> |Survivable Branch Appliance  <br/> The Survivable Branch Appliance is an industry-standard blade server with a Skype for Business Server Registrar and Mediation Server running on Windows Server 2008 R2. The Survivable Branch Appliance also contains a public switched telephone network (PSTN) gateway. 合格第三方设备（由 Microsoft 合作伙伴在 Survivable Branch Appliance (SBA) 资格鉴定/认证计划中开发）在 WAN 发生故障时可以提供连续的 PSTN 连接，但不能提供可恢复的状态和会议，因为这些功能依赖于中央站点的前端服务器。  <br/> 高存活力的分支装置有关的详细信息，请参见本主题后面的"高存活力分支装置详细信息"。  <br/> **注意：**如果您决定您高存活力的分支装置，也使用 SIP 中继，请联系您的高存活力的分支装置供应商联系，以了解哪些服务提供商是最适合您的组织。 <br/> |
-|1000 和 2000年用户分支站点之间承载、 缺乏弹性的 WAN 连接，和具有的业务服务器管理员可用培训 Skype  <br/> |Survivable Branch Server or two Survivable Branch Appliances.  <br/> The Survivable Branch Server is a Windows Server meeting specified hardware requirements that has Skype for Business Server Registrar and Mediation Server software installed on it. 它必须连接到 PSTN 网关或电话服务提供商的 SIP 中继。  <br/> For details about Survivable Branch Servers, see "Survivable Branch Server Details," later in this topic.  <br/> |
-|If you require presence and conferencing features in addition to voice features for up to 5000 users, and have trained Skype for Business Server administrators available  <br/> |将 Standard Edition Server 部署为中央站点，而非分支站点。  <br/> 对于业务服务器部署全面 Skype 提供连续的 PSTN 连接和弹性的存在和发生 WAN 故障时的会议。  <br/> |
+|分支站点承载 25 到 1000 位用户，并且投资回报不支持完整部署，或本地管理支持不可用  <br/> |Survivable Branch Appliance  <br/> 高存活力的分支装置是具有的业务服务器注册 Skype 行业标准刀片服务器和运行在 Windows Server 2008 R2 上的中介服务器。 高存活力的分支装置还包含一个公用交换的电话网络 (PSTN) 网关。 合格第三方设备（由 Microsoft 合作伙伴在 Survivable Branch Appliance (SBA) 资格鉴定/认证计划中开发）在 WAN 发生故障时可以提供连续的 PSTN 连接，但不能提供可恢复的状态和会议，因为这些功能依赖于中央站点的前端服务器。  <br/> 高存活力的分支装置有关的详细信息，请参见本主题后面的"高存活力分支装置详细信息"。  <br/> **注意：**如果您决定您高存活力的分支装置，也使用 SIP 中继，请联系您的高存活力的分支装置供应商联系，以了解哪些服务提供商是最适合您的组织。 <br/> |
+|1000 和 2000年用户分支站点之间承载、 缺乏弹性的 WAN 连接，和具有的业务服务器管理员可用培训 Skype  <br/> |自动恢复分支服务器或两个高存活力的分支装置。  <br/> 自动恢复的分支服务器是一台 Windows 服务器满足指定的硬件要求具有的业务服务器注册商和中介服务器在其上安装的软件 Skype。 它必须连接到 PSTN 网关或电话服务提供商的 SIP 中继。  <br/> 高存活力的分支服务器的详细信息，请参见本主题后面的"高存活力分支服务器详细信息"。  <br/> |
+|如果需要中的存在和会议功能添加到语音功能的最多 5000 个用户，并具有的业务服务器管理员可用培训 Skype  <br/> |将 Standard Edition Server 部署为中央站点，而非分支站点。  <br/> 对于业务服务器部署全面 Skype 提供连续的 PSTN 连接和弹性的存在和发生 WAN 故障时的会议。  <br/> |
    
 #### <a name="resiliency-topologies"></a>复原拓扑
 
@@ -232,15 +232,15 @@ Skype 的业务服务器高存活力分支装置包括下列组件：
     
 - SQL Server Express，用于本地用户数据存储
     
-The Survivable Branch Appliance also includes PSTN trunks, analog ports, and an Ethernet adapter. 
+高存活力的分支装置还包括 PSTN 中继、 模拟端口和以太网适配器。 
   
-如果分支站点的 WAN 连接到中央站点不可用，内部分支用户继续使用高存活力的分支装置注册器进行注册和使用的高存活力的分支装置连接获得不间断的语音服务到 PSTN。 从主机或其他远程位置进行连接的分支站点用户，可在连接到分支站点的 WAN 链路不可用时，在中央站点上的注册服务器中注册。 这些用户将具有完整的统一通信功能，一个例外是分支站点的入站呼叫将转到语音邮件。 WAN 连接可用时，将为分支站点用户恢复完整功能。 Neither the failover to the Survivable Branch Appliance nor the restoration of service requires the presence of an IT administrator.
+如果分支站点的 WAN 连接到中央站点不可用，内部分支用户继续使用高存活力的分支装置注册器进行注册和使用的高存活力的分支装置连接获得不间断的语音服务到 PSTN。 从主机或其他远程位置进行连接的分支站点用户，可在连接到分支站点的 WAN 链路不可用时，在中央站点上的注册服务器中注册。 这些用户将具有完整的统一通信功能，一个例外是分支站点的入站呼叫将转到语音邮件。 WAN 连接可用时，将为分支站点用户恢复完整功能。 既不与高存活力的分支装置故障转移也不还原服务要求的 IT 管理员。
   
 Skype 业务服务器的支持最多两个分支地点的高存活力分支装置。 
   
 #### <a name="survivable-branch-appliance-deployment-overview"></a>Survivable Branch Appliance 部署概述
 
-The Survivable Branch Appliance is manufactured by original equipment manufacturers in partnership with Microsoft and deployed on their behalf by value-added retailers. 已在中心站点部署 Skype 业务服务器、 WAN 连接到分支站点处于的位置，并为企业语音分支站点用户启用之后才应进行此部署。
+高存活力的分支装置由原始设备制造商在与 Microsoft 的合作制造和增值零售商部署自己的身份。 已在中心站点部署 Skype 业务服务器、 WAN 连接到分支站点处于的位置，并为企业语音分支站点用户启用之后才应进行此部署。
   
 这三个阶段的详细信息，请参阅部署文档中的[高存活力的分支装置或服务器部署](http://technet.microsoft.com/library/cb780c14-dc5f-41ba-8092-f20ae905bd16.aspx)。
   

@@ -348,9 +348,9 @@ Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:tes
 
 迁移完成后，此命令行中将会成功。
   
-### <a name="xmpp-synthetic-transaction"></a>XMPP Synthetic Transaction
+### <a name="xmpp-synthetic-transaction"></a>XMPP 综合事务
 
-The Extensible Messaging and Presence Protocol (XMPP) IM synthetic transaction requires that you configure the XMPP feature with one or more federated domains.
+可扩展的消息传递和在线协议 (XMPP) IM 综合事务需要与一个或多个联盟域配置 XMPP 功能。
   
 要启用 XMPP 综合事务，必须提供一个 XmppTestReceiverMailAddress 参数可穿绕的 XMPP 域的用户帐户。 例如：
   
@@ -358,32 +358,32 @@ The Extensible Messaging and Presence Protocol (XMPP) IM synthetic transaction r
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
-In this example, a Skype for Business Server 2015 rule will need to exist to route messages for litwareinc.com to an XMPP gateway
+在此示例中，Skype 业务服务器 2015年规则将需要将消息路由到 XMPP 网关 litwareinc.com 的存在
   
-### <a name="video-interop-server-vis-synthetic-transaction"></a>Video Interop Server (VIS) Synthetic Transaction
+### <a name="video-interop-server-vis-synthetic-transaction"></a>互操作的视频服务器 (VIS) 综合事务
 
-The Video Interop Server (VIS) synthetic transaction requires that you download and install the synthetic transaction support files ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
+视频服务器互操作 (VIS) 综合事务都要求您下载并安装综合事务的支持文件 ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921))。 
   
 要安装 VISSTSupportPackage.msi 确保为已安装 msi 的依赖项 （在系统要求）。 运行 VISSTSupportPackage.msi 进行简单的安装。 .Msi 文件安装在以下路径中的所有文件:"%ProgramFiles%\VIS 综合事务支持包"。
   
 有关如何运行 VIS 综合事务的更多详细信息请参阅[测试 CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) cmdlet 的文档。
   
-## <a name="changing-the-run-frequency-for-synthetic-transactions"></a>Changing the Run Frequency for Synthetic Transactions
+## <a name="changing-the-run-frequency-for-synthetic-transactions"></a>综合事务更改运行的频率
 <a name="special_synthetictrans"> </a>
 
-默认情况下，综合事务将运行与已配置用户每隔 15 分钟。 综合事务是一组用户，以避免彼此发生冲突的两个综合事务中按顺序运行。 A longer interval is needed to provide time for all synthetic transactions to complete.
+默认情况下，综合事务将运行与已配置用户每隔 15 分钟。 综合事务是一组用户，以避免彼此发生冲突的两个综合事务中按顺序运行。 较长的间隔需要提供所有的综合事务完成的时间。
   
 如果需要更频繁地运行综合事务，以便一些偶尔的网络延迟的缓冲区所需的时间范围内完成测试应减少综合使用一组给定的用户运行的事务数。 如果运行多个综合事务是理想，创建更多的用户集来运行其他综合事务。
   
 若要更改的综合事务运行的频率，请执行以下步骤：
   
-1. Open System Center Operations Manager. Click Authoring section. 单击规则部分 （下创作）
+1. 开放式系统中心操作管理器。 单击创作节。 单击规则部分 （下创作）
     
 2. 在规则部分中，查找名为"Main 综合事务流道性能收集规则"规则
     
-3. Right click the rule, and select Overrides, select Override the Rule, and then select "For All objects of class: Pool Watcher"
+3. 鼠标右键单击该规则，并选择重写，重写规则，选择，然后选择"类的所有对象： 池观察程序"
     
-4. In the Override Properties window, select Parameter Name "Frequency", and set the Override Value to the desired one.
+4. 重写属性窗口中选择参数名称"频率"，并设置到所需的替代值。
     
 5. 在同一个窗口中，选择此重写需要应用的管理包
     
@@ -392,52 +392,52 @@ The Video Interop Server (VIS) synthetic transaction requires that you download 
 
 综合事务证明有助于确定与系统问题非常有用。 例如，测试 CsRegistration cmdlet 可能警告管理员用户都遇到了困难与 Skype 业务服务器注册的事实。 但是，可能需要更多详细信息以确定故障的真实原因。
   
-For this reason, synthetic transactions provide rich logging. With rich logging, for each activity that a synthetic transaction undertakes, the following information is recorded:
+由于这个原因，综合事务提供丰富的日志记录。 丰富的记录，为综合事务承担，每个活动记录以下信息：
   
 - 活动开始的时间。
     
-- The time that the activity finished.
+- 活动结束的时间。
     
-- The action that was performed (for example, creating, joining, or leaving a conference; signing on to Skype for Business Server; sending an instant message).
+- 已执行的操作 (例如，创建、 加入，或离开会议; 到 Skype 业务服务器签名; 发送即时消息)。
     
-- Informational, verbose, warning, or error messages generated when the activity ran
+- 信息性、 详细信息; 警告或活动运行时生成的错误消息
     
 - SIP 注册消息。
     
-- Exception records or diagnostic codes generated when the activity ran.
+- 异常错误记录或活动运行时生成的诊断代码。
     
-- The net result of running the activity.
+- 正在运行活动的最终结果。
     
-This information is automatically generated each time a synthetic transaction is run, but is not automatically displayed or saved to a log file. If you are manually running a synthetic transaction, you can use the OutLoggerVariable parameter to specify a Windows PowerShell variable in which the information will be stored. From there, you have the option of using one of two methods to save and/or view error messages in the rich log in either XML or HTML format. 
+此信息自动生成的每次运行时的综合事务，但不是会自动显示或保存到日志文件。 如果您手动运行综合事务，您可以使用 OutLoggerVariable 参数指定将在其中存储信息的 Windows PowerShell 变量。 从那里，您可以选择使用两种方法之一保存和/或富中的查看错误消息日志以 XML 或 HTML 格式。 
   
-To retrieve the troubleshooting information, specify the OutLoggerVariable parameter, followed by a variable name that you choose:
+若要检索的疑难解答信息，请指定 OutLoggerVariable 参数，跟您选择的变量名：
   
 ```
 Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 ```
 
 > [!NOTE]
-> : Do not preface the variable name with the $ character. Use a variable name such as RegistrationTest (not $RegistrationTest). 
+> ： 前面使用 $ 字符的变量名。 使用的变量名称，如 RegistrationTest (而不是 $RegistrationTest)。 
   
-When you run this command, you will see output similar to this:
+当您运行此命令时，您会看到类似于下面的输出：
   
-Target Fqdn : atl-cs-001.litwareinc.com Result : Failure Latency : 00:00:00 Error Message : This machine does not have any assigned certificates. Diagnosis :You can access much more detailed information for this failure than just the error message shown here. To access this information in HTML format, use a command similar to this one to save the information stored in the variable RegistrationTest to an HTML file:
+目标 Fqdn: atl-cs-001.litwareinc.com 结果： 故障延迟时间： 00:00:00 的错误消息： 此计算机不具有任何已分配的证书。 诊断： 可以访问此故障比只是此处所示的错误消息的更详细的信息。 若要访问此信息在 HTML 格式，使用类似于此的命令保存到 HTML 文件的 RegistrationTest 变量中存储的信息：
   
 ```
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
 ```
 
-Alternatively, you can use the ToXML() method to save the data to an XML file:
+或者，您可以使用 ToXML() 方法将数据保存到 XML 文件：
   
 ```
 $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 ```
 
-You can view these files by using Windows Internet Explorer, Microsoft Visual Studio, or any other application capable of opening HTML/XML files.
+您可以通过使用 Windows Internet Explorer、 Microsoft Visual Studio 或任何其他应用程序能够打开 HTML/XML 文件来查看这些文件。
   
-Synthetic transactions run from inside of System Center Operations Manager will automatically generate these log files for failures. These logs will not be generated if the execution fails before Skype for Business Server PowerShell is able to load and run the synthetic transaction. 
+综合事务从运行在系统中心操作管理器将自动生成这些日志文件失败。 如果前业务服务器 PowerShell 的 Skype 是能够加载并运行综合事务执行失败，将不会生成这些日志。 
   
 > [!IMPORTANT]
-> By default, Skype for Business Server 2015 saves log files to a folder that is not shared. To make these logs readily accessible, you should share this folder. For example: \\atl-watcher-001.litwareinc.com\WatcherNode. 
+> 默认情况下，业务服务器 2015年的 Skype 将日志文件保存到未共享的文件夹。 若要使这些日志可随时访问，应共享此文件夹。 例如： \\atl-watcher-001.litwareinc.com\WatcherNode。 
   
 

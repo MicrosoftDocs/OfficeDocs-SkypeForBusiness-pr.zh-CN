@@ -67,7 +67,7 @@ To begin configuring users and contacts, load the default file included with the
   
 If you have a preconfigured XML file that already contains your customized settings, you can load that file instead. Fill in the fields in the User Provisioning Tool, as described in the sections below.
   
-### <a name="to-configure-server-options"></a>To configure server options:
+### <a name="to-configure-server-options"></a>要配置服务器选项：
 
 1. In the **Front End Pool FQDN** field, type the fully qualified domain name (FQDN) of the Standard Edition server, or the Front End pool where you want to host the users.
     
@@ -89,7 +89,7 @@ If you have a preconfigured XML file that already contains your customized setti
     
      ![显示“创建用户”选项卡的“用户设置”工具。](../../media/591d8280-8979-4a8c-83bc-af126e87bf29.png)
   
-#### <a name="create-users-button"></a>创建用户按钮
+#### <a name="create-users-button"></a>Create Users button
 
 When you click on the **Create Users** button, the input parameters you've entered are validated. If there are any validation errors, you'll be prompted to fix them. Or, if all the values are correct, users will start appearing in AD (in whichever OU you specified). You'll see a progress bar at the bottom of the tool as it runs. Don't close the application while the progress bar is active.
   
@@ -108,35 +108,35 @@ When you click on the **Delete Users** button, the tab's input parameters will b
 > Only U.S.-formatted phone numbers are supported. Phone numbers are always assigned to users, and all users created by UserProvisioningTool.exe are enabled for Enterprise Voice by default. Any scenarios that use the phone number, such as Conferencing Auto Attendant or UC-PSTN calls, use this phone number to properly route calls. For this reason,  *every user*  must have a *unique phone number*  .
   
 > [!NOTE]
-> **If you have to create users twice, the command will fail unless you use a different area code, or if the previous users have been disabled by using the Disable-CsUser cmdlet.**
+> **如果您需要两次创建用户时，该命令将失败，除非您使用不同的区号，或如果以前的用户已禁用通过禁用 CsUser cmdlet。**
   
 > [!IMPORTANT]
-> 创建联系人之前，需要首先完成用户复制 （这通过用户选项卡）。 
+> Before you create contacts, you first need to complete user replication (which is done from the Users tab). 
   
 > [!IMPORTANT]
-> If you've just created your users, you'll need to wait until Skype for Business Server replication completes and populates the user accounts in the database. **If the users haven't finished replicating, you'll see an error.** 当用户完成复制如果 Skype 业务服务器 2015年前端服务已启动，或者成功上您指定的总数的最后用户运行 Get CsUser cmdlet，您就知道。
+> If you've just created your users, you'll need to wait until Skype for Business Server replication completes and populates the user accounts in the database. **If the users haven't finished replicating, you'll see an error.** You'll know when users have finished replicating if the Skype for Business Server 2015 Front End service has started, or by successfully running the Get-CsUser cmdlet on the last user of the total number you specified.
   
 #### <a name="contacts-creation-tab"></a>联系人创建选项卡
 
-此选项卡让您可以赋予用户的联系人详细信息的测试。
+This tab lets you give users' contacts details for your testing.
   
 ![显示“创建内容”选项卡的“用户设置”工具。](../../media/dfb7fdf1-fb97-4e8e-8608-c4995f95dd5b.png)
   
-### <a name="to-configure-users-contacts-do-the-following"></a>要配置用户的联系人，请执行以下操作：
+### <a name="to-configure-users-contacts-do-the-following"></a>To configure users' contacts, do the following:
 
 1. In the **Average Contacts per User** field, enter the average number of contacts to populate in contact lists for each user.
     
-2. Select the **Fixed** check box if you want to create an equal number of contacts for every user. 如果您想要为用户创建的联系人的数目而有所不同，请清除该复选框。
+2. 如果您想要创建相同数量的每个用户的联系人，请选择**固定**复选框。 If you want to vary the number of contacts created for users, clear that check box.
     
-3. In the **Average Contact Groups per User** field, enter the number of contact groups per user. This number needs to be smaller than **Average Contacts per User**.
+3. 在**每个用户的平均联系组**字段中，输入每个用户的联系人组的数目。 该数字必须小于**平均每个用户的联系人**。
     
 4. In the **Federated / Cross Pool Contacts Percentage** field, give a number between 0 and 100. 将与联盟用户创建联系人的百分比。
     
 5. 在**联合 / 交叉池用户前缀**字段中，为联盟将被添加到本地用户的联系人列表的用户提供用户名。
     
-6. 在**联合 / 交叉池用户的 SIP 域**字段中，提供联盟用户的 SIP 域的名称。
+6. In the **Federated / Cross Pool User SIP Domain** field, give the SIP Domain Name of the federated users.
     
-7. In **User Creation** tab make sure the information is correct. Your contacts will be created from values on the User Creation tab.
+7. 在**创建用户**选项卡中确保信息正确无误。 您的联系人将从创建用户选项卡上的值进行创建。
     
 8. 单击以开始创建联系人**创建联系人**。 此过程可能需要几分钟的时间。 它完成后，一个对话框将出现并显示消息之后,"操作已成功完成。" 您可以验证所创建的登录用户从创建用户选项卡创建的联系人。
     
@@ -167,7 +167,7 @@ Skype 业务服务器 2015年的压力和性能工具可以模拟 Skype 业务 2
   
 #### <a name="location-info-service-config-tab"></a>位置信息服务配置选项卡
 
-The Skype for Business Server 2015 Stress and Performance Tool can also generate dummy configuration files for the Location Information Service. Note that the Location Information Service typically doesn't have significant performance impact on the servers. 
+为业务服务器 2015年压力和性能工具 Skype 的位置信息服务还可以生成虚拟配置文件。 注意，位置信息服务通常并不会显著影响性能的服务器上。 
   
 ![显示“位置信息服务配置”选项卡的“用户设置”工具。](../../media/227662a2-e0c3-4e34-ab54-5f1459344f30.png)
   
@@ -233,45 +233,45 @@ The Skype for Business Server 2015 Stress and Performance Tool can also generate
     
 12. 对于**外部网络服务器设置**字段中，提供访问代理服务器或池的 FQDN，再次，**端口**。 这些设置仅用于外部终结点的负载模拟。
     
-#### <a name="general-scenarios-tab"></a>General Scenarios tab
+#### <a name="general-scenarios-tab"></a>一般情况下选项卡
 
 ![显示“常规方案”选项卡的“加载配置”工具。](../../media/45792e57-4322-4c20-956f-fe480b0de1a7.png)
   
 您可以确定您想要运行或将禁用所提供的一般方案的每个配置的负载水平和参数。 下面是您的常规选项：
   
 > [!NOTE]
-> Load level values for all fields but Local Information Services are **Disabled**, **Low**, **Medium**, **High**, or **Custom**. 如果您选择但已禁用任何设置，都生成每个客户端配置。 High results in the max supported load on the server; medium is 60% of high load; low is 30%. 
+> 负载级别值的所有字段，但本地信息服务被**禁用**，**低**、**中**、**高**、 或**自定义**。 如果您选择但已禁用任何设置，都生成每个客户端配置。 高会导致最大支持服务器的负担;介质是 60%的高负载;低为 30%。 
   
-- **Instant Messaging -** This includes peer-to-peer and conferencing; choose the appropriate value for Load Level.
+- **即时消息的**这包括对等和会议;对于负载级别选择适当的值。
     
-- **音频会议的**选择音频会议*只有*一个负载级别。 Peer-to-peer calls will be tackled a little later in the **Voice Scenarios** section. Open the **Advanced** tab to enable MultiView.
+- **音频会议的**选择音频会议*只有*一个负载级别。 **声音方案**一节中，将稍后处理点到点调用。 打开**高级**选项卡启用多视图。
     
-- **Application Sharing -** Choose a load level for application sharing.
+- **应用程序共享的**选择应用程序共享一个负载级别。
     
 - **数据协作-**选择数据协作，其中包括数据会议的负载级别。
     
-- **通讯组列表扩展-**单击**高级**按钮，并使用相同用户创建工具 (UserProvisioningTool.exe) DL 选项卡上配置的值填充该字段。 Choose a load level.
+- **通讯组列表扩展-**单击**高级**按钮，并使用相同用户创建工具 (UserProvisioningTool.exe) DL 选项卡上配置的值填充该字段。 选择负载级别。
     
-- **Address Book Web Query -** This is the address book lookup service rather than the address book file download. 如果您想要启用此通讯簿文件下载，请单击**高级**按钮，并将**EnableABSDownload**设置为 True。 Give a value for load level.
+- **地址簿 Web 查询-**这是地址簿查找服务，而不是下载通讯簿文件。 如果您想要启用此通讯簿文件下载，请单击**高级**按钮，并将**EnableABSDownload**设置为 True。 对于负载级别赋予一个值。
     
-- **Response Group Service -** Click the **Advanced** button and specify the URIs of the response groups you already created when you provisioned Response Group Service agents. 您必须选择至少一个响应组。 To use more, separate the response groups with semicolons. Update **RGSUriSuffixStartIndex** and **RGSUriSuffixEndIndex** to the actual values. Choose a load level.
+- **响应组服务-**单击**高级**按钮并指定响应组已创建时设置响应组服务代理的 Uri。 您必须选择至少一个响应组。 若要使用的详细信息，请用分号分隔的响应组。 **RGSUriSuffixStartIndex**和**RGSUriSuffixEndIndex**更新为实际的值。 选择负载级别。
     
-- **Location Information Services -** Select a load level of either Enabled or Disabled.
+- **位置信息服务-**选择启用或禁用的负载程度。
     
 > [!NOTE]
-> Each of the scenarios has an Advanced button located next to it, and a set of check boxes that enable variations to the default setting. 
+> 每个方案都有高级按钮旁边，和一套使变体设置为默认设置的复选框。 
   
-- Choosing  *Ad-hoc*  will allow the tool to generate simulation of conferences that will be created throughout the hour.
+- 选择*特别*将允许生成模拟的会议，将整个小时创建工具。
     
-- Choosing  *Large Conf*  means that a Large Conference Scenario will be simulated.
+- 选择*大型会议*表示，将模拟一个大型的会议方案。
     
 -  *外部*通知还模拟外部用户工具。
     
-These buttons and check boxes are extra values specific to each scenario and will change the behavior of the Stress and Performance Tool and make customization possible.
+这些按钮和复选框都是特定于每个方案的额外值将更改的压力和性能工具的行为和使自定义项。
   
-For each scenario on the General Scenarios tab (except for Location Information Services), if the value of Load Level is **Custom**, then the conversation rate will be calculated using the corresponding field in the Advanced dialog box. The field name may differ, depending on the scenario, but the field description will state:  *NOTE This number will only be used if Custom is selected from the drop-down menu*  .
+对于每个方案 （除了位置信息服务） 的一般方案选项卡上，如果负载级别的值是**自定义**、 然后对话速率将计算在高级对话框中使用的相应字段。 字段名称可能会有所不同，具体取决于该方案，但将状态字段的说明：*如果从下拉菜单中选择自定义只使用注意此数量*。
   
-The values **High**, **Medium**, and **Low**, will alter the conversation rates per modality in line with the User Model that is a balance of all the scenarios. If there's a need to change the load level per modality due to a difference in expected usage, use a Custom conversation rate.
+**高**、**中等**和**低**的值将改变每个嵌入的所有方案，一个都平衡的用户模型的模态的对话率。 如果需要更改每由于预期使用情况的不同成像设备的负载级别，请使用自定义对话速度。
   
 #### <a name="voice-scenarios-tab"></a>声音方案选项卡
 
@@ -279,86 +279,86 @@ The values **High**, **Medium**, and **Low**, will alter the conversation rates 
   
 ![“加载配置”工具“语音方案”选项卡。](../../media/042e406f-5156-4095-a4eb-6298f24bb51f.png)
   
-Your options are:
+选项为：
   
-- **VoIP -** Click the **Advanced** button and add values for the PhoneAreaCode and LocationProfile (dial plan) fields. You'll also give a value for Load Level. If you choose a load level for VoIP or UC/PSTN Gateway enabled, then a public-switched telephone network (PSTN) to unified communications (UC) configuration file will be generated to simulate external calls.
+- **VoIP 的**单击**高级**按钮，添加 PhoneAreaCode 和 LocationProfile （拨号计划） 字段的值。 对于负载级别，本文还提供一个值。 如果您选择为 VoIP 或 UC/PSTN 网关启用，然后公共交换电话网络 (PSTN) 为统一通信 (UC) 负载级别将生成配置文件来模拟外部调用。
     
-- **UC/PSTN Gateway -** You need to choose a Load Level value, and when you choose anything other than Disabled, you've also got to supply a value for PSTN area code by clicking the **Advanced** button. Click **Add** under the Mediation Server and PSTN. Make sure you have a route configured for the area code.
+- **UC/PSTN 网关-**您需要选择负载级别值，并且之外其他禁用选择任何内容，您还需要通过单击**高级**按钮提供 PSTN 区域代码的值。 中介服务器和 PSTN 下单击**添加**。 请确保已配置为区号的路由。
     
     > [!TIP]
-    > You can use either the Skype for Business Control Panel or Skype for Business Management Shell to verify your voice route configuration. 
+    > 可用于任何一个 Skype 业务控制面板或 Skype 业务管理外壳程序的验证语音路由配置。 
   
-- **Conferencing Attendant -** Supply a value for Load Level. Any value other than Disabled will enable the **Telephone Number** field. Enter the phone number of the Auto Attendant you want to use. Click **Advanced** and give a value for the **LocationProfile** field.
+- **会议助理-**对于负载级别提供一个值。 已禁用之外的任何值都将启用**电话号码**字段。 请输入您想要使用自动助理的电话号码。 单击**高级**，并为**LocationProfile**字段赋予一个值。
     
-- **Call Parking Service -** Here, supply a Load Level.
+- **停车服务的调用**在这里，提供负载级别。
     
-- **Mediation Server and PSTN -** Each Mediation Server that you want to use needs its own PSTN simulator. After you've determined which client you're going to use for the simulator, configuration your Mediation Server to route calls to that computer on the PSTN Simulator you configured. Click the **Add** button to configure a value for the Mediation Server.
+- **中介服务器和 PSTN 的**每个要使用的中介服务器需要自己 PSTN 模拟器。 已确定哪个客户端，您将使用的模拟器后，配置中介服务器来路由呼叫到该计算机在 PSTN 模拟器上您配置。 单击**添加**按钮以中介服务器的配置的值。
     
     > [!NOTE]
-    > Each scenario has an Advanced button located next to it. Advanced dialog boxes contain settings specific to each scenario that change the behavior of the Stress and Performance Tool and enable customization. > For each scenario on the Voice Scenarios tab, if the value of Load Level is **Custom**, then the conversation rate will be calculated by using the corresponding field in the Advanced dialog box. The field name may differ, depending on the scenario, but the field description will state:  *NOTE This number will only be used if Custom is selected from the drop-down menu*  .
+    > 每个方案都有它旁边位于高级按钮。 高级的对话框包含设置特定于每个方案，改变压力和性能工具的行为，并使自定义。 > 声音方案选项卡上的每种情况下，如果负载级别的值是**自定义**、 然后对话速率将计算通过使用在高级对话框中的相应字段。 字段名称可能会有所不同，具体取决于该方案，但将状态字段的说明：*如果从下拉菜单中选择自定义只使用注意此数量*。
   
-#### <a name="web-app-tab"></a>Web App tab
+#### <a name="web-app-tab"></a>Web 应用程序选项卡
 
 ![“加载配置”工具“Web 应用”选项卡。](../../media/505b54ef-8140-4dec-a43e-08091f592b34.png)
   
-Web App supports conferencing scenarios through the Unified Communications Web API (UCWA) server that's installed on a Front End server. 使用 Web 应用程序选项卡来配置所有 web 应用程序相关的方案。 选项包括：
+Web 应用程序支持通过统一通信 Web API (UCWA) 服务器安装在前端服务器上的会议方案。 使用 Web 应用程序选项卡来配置所有 web 应用程序相关的方案。 选项包括：
   
-- **General Web App Settings -** Click the **Additional Settings** button and set the **ReachTargetServerUrl** to the Directory Pool virtual IP (VIP) of the Front End pool VIP.
+- **常规 Web 应用程序设置-**单击**其他设置**按钮，将**ReachTargetServerUrl**设置为目录池虚拟 IP (VIP) 的前端池 VIP。
     
-- **Application Sharing -** Select a value for Load Level.
+- **应用程序共享的**为负载级别中选择一个值。
     
-- **Data Collaboration -** Select a value for Load Level.
+- **数据协作-**为负载级别中选择一个值。
     
-- **Instant Messaging -** Select a value for Load Level.
+- **即时消息的**为负载级别中选择一个值。
     
-- **Voice Conferencing -** Select a value for Load Level.
+- **语音会议-**为负载级别中选择一个值。
     
 > [!NOTE]
-> Each of the scenarios has an **Advanced** button located next to it. 高级的对话框包含特定于每个方案的值将更改的压力和性能工具的行为，并启用自定义项。 > 对于每个 Web 应用程序方案，如果负载级别**自定义**、 然后指定的值在**ConversationsPerHour**字段使用而不是默认值。
+> 每个方案都有位于它旁边的**高级**按钮。 高级的对话框包含特定于每个方案的值将更改的压力和性能工具的行为，并启用自定义项。 > 对于每个 Web 应用程序方案，如果负载级别**自定义**、 然后指定的值在**ConversationsPerHour**字段使用而不是默认值。
   
-#### <a name="mobility-tab"></a>Mobility tab
+#### <a name="mobility-tab"></a>移动选项卡
 
-Use this tab to configure all of the mobility-related scenarios.
+使用此选项卡来配置所有的与移动相关的方案。
   
 ![“加载配置”工具“移动性”选项卡。](../../media/30af39c2-50ea-476a-8a56-ce2ddf08517e.png)
   
-The options here are:
+此处的选项是：
   
-- **General Mobility Settings -** Click **Additional Settings** and set the field UcwaTargetServerUrl to the Director Pool virtual IP (VIP) or the Front End pool VIP.
+- **常规的移动设置-**单击**其他设置**，将 UcwaTargetServerUrl 字段设置为主任池虚拟 IP (VIP) 或前端池 VIP。
     
-- **Presence and P2P Instant Messaging/Audio -** Select a value for Load Level to enable the Mobility simulation.
+- **状态和 P2P 即时消息传递/音频-**选择要启用移动模拟负载级别的值。
     
 > [!NOTE]
-> Each of the scenarios has an **Advanced** button located next to it. Advanced dialogs contain values specific to each scenario that will change the behavior of the Stress and Performance Tool and enable customization.> For each of the Mobility scenarios, if the Load Level is **Custom**, then the value specified in the **ConversationsPerHour** field is used instead of the default.
+> 每个方案都有位于它旁边的**高级**按钮。 高级的对话框包含特定于每个方案的值将更改的压力和性能工具的行为，并启用自定义项。 > 对于每一个行动方案，如果负载级别**自定义**、 然后指定的值在**ConversationsPerHour**字段使用而不是默认值。
   
-#### <a name="summary-tab"></a>Summary tab
+#### <a name="summary-tab"></a>摘要选项卡
 
-The Summary tab indicates which users to use for each of the scenarios.
+摘要选项卡表明哪些用户可以使用每个方案。
   
 ![“加载配置”工具“摘要”选项卡。](../../media/436fb3f2-d73e-402d-bc6e-e8a6740819d2.png)
   
-The Summary tab indicates which users to use for each of the scenarios. 
+摘要选项卡表明哪些用户可以使用每个方案。 
   
-It's possible to manually configure user number ranges by selecting the **Enable Custom User Range Generation** check box, and then double-clicking the scenario in the table that has the User Range that you want to customize.
+也可以手动配置用户的数字范围，通过选择**启用自定义用户范围生成**复选框，然后双击您要自定义的用户范围的表中的方案。
   
-Check **(RunClient.bat) Add sign-in delay when starting** in order to include delays in the generated batch files to correspond to the sign-in rate. This is useful to prevent server overload when signing in a large number of users.
+要包括在生成的批处理文件中对应的注册率延迟检查**(RunClient.bat) 添加登录延迟启动时**。 这将有助于在大量用户签名时可以防止服务器超载。
   
-Click **Generate Files** and select the folder where you want to generate the configuration. A dialog box will appear when your files have been successfully created.
+单击**生成文件**并选择要用来生成配置的文件夹。 已成功创建您的文件时，将出现一个对话框。
   
 ![“已成功生成加载配置文件”消息框。只需单击“确定”。](../../media/c3c1d4a0-cb44-4837-8124-03354f5d9d8c.png)
   
-## <a name="run-lyncperftool"></a>Run LyncPerfTool
+## <a name="run-lyncperftool"></a>运行 LyncPerfTool
 <a name="BKMK_RunTool"> </a>
 
-You'll need to create users, contacts, and scenarios before running the Skype for Business Server 2015 Stress and Performance Tool (LyncPerfTool.exe). For details about using the tools to perform these actions, see [Create Users and Contacts](using-the-tool.md#BKMK_CreateUsersAndContacts) and [Configure User Profile](using-the-tool.md#BKMK_UserProfile) previously in this article. 运行这些工具还将生成的文件，将压力和性能工具作为的一部分运行一个批处理文件与包含所需的参数。
+您将需要在运行 Skype 业务服务器 2015年的压力和性能工具 (LyncPerfTool.exe) 之前创建的用户、 联系人和方案。 有关使用这些工具来执行这些操作的详细信息，请参阅[创建用户和联系人](using-the-tool.md#BKMK_CreateUsersAndContacts)和[配置用户配置文件](using-the-tool.md#BKMK_UserProfile)以前在这篇文章。 运行这些工具还将生成的文件，将压力和性能工具作为的一部分运行一个批处理文件与包含所需的参数。
   
 ### <a name="running-the-skype-for-business-server-2015-stress-and-performance-tool"></a>运行业务服务器 2015年压力和性能工具 Skype
 
-加载配置工具 (UserProfileGenerator.exe) 创建的批处理文件中，您可以通过注册性能计数器和加载 XML 配置文件来运行压力和性能工具 (LyncPerfTool.exe)。 The batch file runs one instance of LyncPerfTool.exe per configuration file. To run the batch file follow these steps:
+加载配置工具 (UserProfileGenerator.exe) 创建的批处理文件中，您可以通过注册性能计数器和加载 XML 配置文件来运行压力和性能工具 (LyncPerfTool.exe)。 每个配置文件，该批处理文件运行 LyncPerfTool.exe 的一个实例。 若要运行该批处理文件，请执行以下步骤：
   
-### <a name="run-the-stress-and-performance-test"></a>Run the Stress and Performance test
+### <a name="run-the-stress-and-performance-test"></a>运行压力和性能测试
 
-1. Copy the folder with the configuration folders and files inside to the directory that has LyncPerfTool.exe on each client computer. (For example, if you generated the configuration files in the folder named 1.28_13.16.16, copy that folder to the folder with LyncPerfTool.exe in it. Do this on each client.)
+1. 将配置文件夹中的文件与文件夹复制到每台客户端计算机的 LyncPerfTool.exe 目录。 （例如，如果名为 1.28_13.16.16 的文件夹中生成的配置文件，该将文件夹复制到 LyncPerfTool.exe 文件夹中。 执行此操作在每个客户端上。）
     
 2. 导航至客户端文件夹，然后运行**RunClient**批处理脚本。 您可以双击 Windows 资源管理器中的批处理文件，它将为该客户端运行的所有配置文件。 您可以通过使用以下语法从一个客户端文件夹运行脚本：
     
@@ -372,13 +372,13 @@ You'll need to create users, contacts, and scenarios before running the Skype fo
 LyncPerfTool.exe /file:IM_client0.xml
 ```
 
-To have the tool display the values in the configuration file, include the  `/displayfile` parameter on the preceding command, so that it looks like this:
+若要让该工具在配置文件中显示的值，包括`/displayfile`参数在上述命令中，以便使其如下所示：
   
 ```
 LyncPerfTool.exe /file:IM_client0.xml /displayfile
 ```
 
-To  *end*  the process, press Ctrl+C.
+到*结束*该进程，请按 Ctrl + C。
   
 > [!NOTE]
 > 直接运行压力和性能工具之前, 您必须注册性能计数器通过下面的命令：`regsvr32 /i /n /s LyncPerfToolPerf.dll`
@@ -386,7 +386,7 @@ To  *end*  the process, press Ctrl+C.
 > [!NOTE]
 > 启动压力和性能工具的每个实例将立即开始登录用户，通常以一个用户每秒的速率。 
   
-The peak user sign-in rate for the pool is about 12 per second. This means that you shouldn't start more than 12 LyncPerfTool.exe instances at the same time while users are still signing in. 一千的用户大约需要 20 分钟完全在一个每秒登录。
+用户登录用于峰值速率池是大约每秒 12。 这意味着您不应启动超过 12 LyncPerfTool.exe 实例在同一时间同时仍然登录用户。 一千的用户大约需要 20 分钟完全在一个每秒登录。
   
 ## <a name="interpreting-the-results"></a>解释结果
 <a name="BKMK_Interpret"> </a>
@@ -417,7 +417,7 @@ LyncPerfTool.exe 运行每个的实例都有一个单独的计数器实例。 �
 
 |**性能计数器**|**说明**|
 |:-----|:-----|
-|SetPresence Calls  <br/> |Total number of presence change attempts. 不同类型的状态更改，请参见 SetPresence （存在类型） 调用的性能计数器。  <br/> |
+|SetPresence 调用  <br/> |总次数存在更改尝试。 不同类型的状态更改，请参见 SetPresence （存在类型） 调用的性能计数器。  <br/> |
 |SetPresence 的 NNN 响应  <br/> |Nnn 响应代码从服务器接收到的总数量。  <br/> |
 |GetPresence 调用  <br/> |状态请求尝试获取的总数。  <br/> |
 |GetPresence 的 NNN 响应  <br/> |Nnn 响应代码从服务器接收到的总数量。  <br/> |
@@ -426,9 +426,9 @@ LyncPerfTool.exe 运行每个的实例都有一个单独的计数器实例。 �
 
 |**性能计数器**|**说明**|
 |:-----|:-----|
-|ABS Full/Delta File Downloads Attempted  <br/> |Total number of full or delta file download requests attempted.  <br/> |
-|ABS Full/Delta File Downloads Succeeded  <br/> |Total number of full or delta file download requests attempted.  <br/> |
-|Address Book Web Query service related counters  <br/> |Address book file download related counters.  <br/> |
+|ABS 完全/增量文件下载尝试  <br/> |尝试执行完整备份或增量文件下载请求的总数。  <br/> |
+|ABS 完全/增量文件下载成功  <br/> |尝试执行完整备份或增量文件下载请求的总数。  <br/> |
+|地址簿 Web 查询与服务相关的计数器  <br/> |通讯簿文件下载相关的计数器。  <br/> |
 |ABS WS 调用尝试  <br/> |尝试的地址簿 Web 查询服务请求的总数。  <br/> |
 |成功的 ABS WS 调用  <br/> |返回一个成功的响应代码的地址簿 Web 查询服务请求的总数。  <br/> |
 |ABS WS 调用失败  <br/> |返回了错误响应代码的地址簿 Web 查询服务请求的总数。  <br/> |
@@ -440,7 +440,7 @@ LyncPerfTool.exe 运行每个的实例都有一个单独的计数器实例。 �
 
 |**性能计数器**|**说明**|
 |:-----|:-----|
-|Calls Attempted  <br/> |Total number of distribution list expansion (DLX) web service requests attempted.  <br/> |
+|尝试调用  <br/> |尝试的通讯组列表扩展 (DLX) web 服务请求的总数。  <br/> |
 |成功调用  <br/> |返回一个成功的响应代码的 DLX web 服务请求的总数。  <br/> |
 |调用失败  <br/> |返回了错误响应代码的 DLX web 服务请求的总数。  <br/> |
    
@@ -465,55 +465,55 @@ LyncPerfTool.exe 运行每个的实例都有一个单独的计数器实例。 �
 
 |**性能计数器**|**说明**|
 |:-----|:-----|
-|Calls Active  <br/> |Total number of active calls to the Response Group application.  <br/> |
-|Calls Attempted  <br/> |Total number of calls attempted.  <br/> |
+|调用活动  <br/> |为响应组应用程序的活动调用的总次数。  <br/> |
+|尝试调用  <br/> |尝试调用的总次数。  <br/> |
    
-**Instant Messaging (IM) Call Information**
+**即时消息 (IM) 调用信息**
 
-|**Performance Counter**|**说明**|
+|**性能计数器**|**说明**|
 |:-----|:-----|
 |调用活动  <br/> |不断传入/传出即时消息调用总数。  <br/> |
 |终止呼叫  <br/> |传入/传出即时消息调用的总次数已终止。  <br/> |
 |调用接收的 NNN  <br/> |Nnn 响应代码从服务器接收到的总数量。  <br/> |
-|IM Messages Received/Sent  <br/> |Total number of messages received or sent for all sessions.  <br/> |
+|接收/发送的 IM 消息  <br/> |消息总数接收或发送的所有会话。  <br/> |
 |传入/传出呼叫尝试  <br/> |传入/传出即时消息调用尝试的总数。  <br/> |
 |传入/传出呼叫建立  <br/> |传入/传出建立即时消息调用的总次数。  <br/> |
    
 **应用程序共享的呼叫信息**
 
-|**Performance Counter**|**说明**|
+|**性能计数器**|**说明**|
 |:-----|:-----|
-|Calls Active  <br/> |不断传入/传出的应用程序共享的调用总数。  <br/> |
-|终止呼叫  <br/> |Total number of incoming/outgoing application sharing calls already terminated.  <br/> |
-|Calls Received NNN  <br/> |Total number of nnn response codes received from the server.  <br/> |
-|Incoming/Outgoing Calls Attempted  <br/> |Total number of incoming/outgoing application sharing calls attempted.  <br/> |
-|Incoming/Outgoing Calls Established  <br/> |传入/传出的应用程序共享建立的调用总数。  <br/> |
+|调用活动  <br/> |不断传入/传出的应用程序共享的调用总数。  <br/> |
+|终止呼叫  <br/> |总数已共享调用传入/传出应用程序终止。  <br/> |
+|调用接收的 NNN  <br/> |Nnn 响应代码从服务器接收到的总数量。  <br/> |
+|传入/传出呼叫尝试  <br/> |传入/传出的应用程序共享尝试调用的总次数。  <br/> |
+|传入/传出呼叫建立  <br/> |传入/传出的应用程序共享建立的调用总数。  <br/> |
    
-**CAA Call Information**
+**CAA 呼叫信息**
 
-|**Performance Counter**|**说明**|
+|**性能计数器**|**说明**|
 |:-----|:-----|
-|Calls Active  <br/> |Total number of incoming/outgoing public switched telephone network (PSTN) calls ongoing currently.  <br/> |
-|Calls Terminated  <br/> |Total number of incoming/outgoing PSTN calls already terminated.  <br/> |
-|Incoming/Outgoing Calls Attempted  <br/> |Total number of incoming/outgoing PSTN calls attempted.  <br/> |
-|Incoming/Outgoing Calls Established  <br/> |Total number of incoming/outgoing PSTN calls established.  <br/> |
+|调用活动  <br/> |目前正在进行调用传入/传出公用交换的电话网 (PSTN) 的总数。  <br/> |
+|终止呼叫  <br/> |传入/传出 PSTN 呼叫总数已终止。  <br/> |
+|传入/传出呼叫尝试  <br/> |传入/传出 PSTN 呼叫尝试的总数。  <br/> |
+|传入/传出呼叫建立  <br/> |传入/传出 PSTN 呼叫建立的总数。  <br/> |
    
-**Conference Information**
+**会议信息**
 
-|**Performance Counter**|**说明**|
+|**性能计数器**|**说明**|
 |:-----|:-----|
-|Active Instant Messaging Conferences  <br/> |Total number of ongoing instant messaging conferences.  <br/> |
-|Active Audio/Video Conferences  <br/> |Total number of ongoing audio/video (A/V) conferences.  <br/> |
-|Active Application Sharing Conferences  <br/> |Total number of ongoing application sharing conferences.  <br/> |
-|Number of Participants  <br/> |Total number of participants currently connected to conferences.  <br/> |
-|Conference Schedule Failure  <br/> |Total number of failures while trying to schedule a conference.  <br/> |
-|Join Conference Failure  <br/> |Total number of failures while trying to connect to a conference.  <br/> |
+|活动的即时消息会议  <br/> |正在进行的即时消息会议的总次数。  <br/> |
+|当前的音频/视频会议  <br/> |总数持续音频/视频 (A / V) 会议。  <br/> |
+|活动应用程序共享会议  <br/> |日常应用程序共享会议的总次数。  <br/> |
+|参与者人数  <br/> |当前连接到会议参与者的总数。  <br/> |
+|会议计划失败  <br/> |尝试安排会议时失败的总次数。  <br/> |
+|加入会议失败  <br/> |尝试连接到会议时失败的总数量。  <br/> |
    
-**UCWA Client Counters**
+**UCWA 客户端计数器**
 
-|**Performance Counter**|**说明**|
+|**性能计数器**|**说明**|
 |:-----|:-----|
-|Total Number of IMMCU Joins Succeeded  <br/> |Total number of instant messaging conferences joined.  <br/> |
-|Total Number of DMCU Joins Succeeded  <br/> |Total number of A/V conferences joined.  <br/> |
+|总数 IMMCU 连接成功  <br/> |加入了即时消息会议的总次数。  <br/> |
+|总数 DMCU 连接成功  <br/> |总数的 A / V 会议加入。  <br/> |
    
 
