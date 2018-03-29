@@ -70,7 +70,7 @@ Skype 的空间系统 v2 可以扩展到另一个房间的大小，通过根据�
 |[Polycom RealPresence 三个](http://www.polycom.com/voice-conferencing-solutions/conference-phones/realpresence-trio.mdl) <br/> |5.4.4.7511  <br/> |
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0  <br/> |
 |[Polycom CX5100](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0.70232 <br/> |
-|[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
+|[Sennheiser SP 220 毫秒](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
 |[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15  <br/> |
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) <br/> |1.8.0  <br/> |
@@ -99,50 +99,50 @@ Skype 的空间系统 v2 可以扩展到另一个房间的大小，通过根据�
   
 **Skype 的空间系统 v2 认证音频外围设备**
 
-|**Room Type**|**许多人**|**Recommended maximum distance from microphone to person speaking**|**最大的房间大小的设备**|**注释**|
+|**房间类型**|**许多人**|**建议从麦克风向说话的人的最大距离**|**最大的房间大小的设备**|**注释**|
 |:-----|:-----|:-----|:-----|:-----|
-|**Focus** <br/> 10' x 9'  <br/> |2-4  <br/> |1.5 米  <br/> |Logitech Connect  <br/> |The Logitech Connect devices include a camera so it must be positioned at the front of the room (not center of table) to capture local meeting attendees.  <br/> |
-|**Small** <br/> 16' x 16'  <br/> |4-6  <br/> |2.0m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |对于较大的会议室，播放音量可能会受到限制。  <br/> |
-|**Medium** <br/> 18 x 20"  <br/> |6-12  <br/> |2.4 m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS  <br/> |The Logitech MeetUp includes a camera so it must be positioned at the front of room (not center of table to capture local meeting attendees).  <br/> In general, rooms with long rectangular or u-shaped tables may benefit from additional satellite microphones.  <br/> 菊花链配置中必须使用 SP 220 MS。  <br/> |
-|**Large** <br/> 15' x 20'  <br/> |12-16  <br/> |3m  <br/> 此距离也适用于连接到正在使用的音频设备的每个其他卫星麦克风覆盖的区域。  <br/> |Logitech Group + satellite mics  <br/> Polycom Trio+ satellite mics  <br/> Polycom CX5100 + satellite mics  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS + satellite mics  <br/> |All audio devices listed in this row support satellite microphone options.  <br/> CX5100 includes a built-in 360 degree camera so that the device can be positioned in the center of table.  <br/> 菊花链配置中必须使用 SP 220 MS。  <br/> |
+|**焦点** <br/> 10 个 x 9"  <br/> |2-4  <br/> |1.5 米  <br/> |Logitech Connect  <br/> |Logitech 连接设备包括照相机，因此它必须定位在前面的房间 （没有表的中心） 来捕获本地会议与会者。  <br/> |
+|**小** <br/> 16 x 16"  <br/> |4-6  <br/> |2.0 m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |对于较大的会议室，播放音量可能会受到限制。  <br/> |
+|**中等深浅** <br/> 18 x 20"  <br/> |6-12  <br/> |2.4 m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC 毫秒  <br/> |Logitech MeetUp 包括照相机，因此它必须定位在前面的房间 （没有表来捕获本地会议与会者的中心）。  <br/> 一般情况下，房间的长矩形和 u 形表可能会受益于其他附属麦克风。  <br/> 菊花链配置中必须使用 SP 220 MS。  <br/> |
+|**大** <br/> 15 x 20"  <br/> |12-16 日  <br/> |3 米  <br/> 此距离也适用于连接到正在使用的音频设备的每个其他卫星麦克风覆盖的区域。  <br/> |Logitech 组 + 卫星话筒  <br/> Polycom 三 + 卫星话筒  <br/> Polycom CX5100 + 卫星话筒  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC 1000MS + 卫星话筒  <br/> |在这行支持附属麦克风选项中列出的所有音频设备。  <br/> CX5100 包含内置的 360 度照相机，以便该设备可以放置在表的中心。  <br/> 菊花链配置中必须使用 SP 220 MS。  <br/> |
    
-**Skype Room Systems v2 Certified Video Peripherals**
+**Skype 的空间系统 v2 认证视频外设**
 
-|**Room Type**|**Number of People**|**Device by Optimal room size**|**注释**|
+|**房间类型**|**许多人**|**最佳的房间大小的设备**|**注释**|
 |:-----|:-----|:-----|:-----|
-|**Focus** <br/> 10' x 9'  <br/> |2-4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100   <br/> ||
-|**Small** <br/> 16' x 16'  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Logitech PTZ Pro often bundled with Logitech Group  <br/> |
-|**Medium** <br/> 18' x 20'  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
-|**Large** <br/> 15' x 20'  <br/> |12-16  <br/> |Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
+|**焦点** <br/> 10 个 x 9"  <br/> |2-4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100   <br/> ||
+|**小** <br/> 16 x 16"  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ 专业  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Logitech PTZ 专业人士经常与 Logitech 组捆绑在一起  <br/> |
+|**中等深浅** <br/> 18 x 20"  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ 专业  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
+|**大** <br/> 15 x 20"  <br/> |12-16 日  <br/> |Logitech PTZ 专业  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
    
 ## <a name="required-software-downloads"></a>需要下载的软件
 
-You will need the following downloads to build your own Skype Room Systems v2 image:
+您将需要以下下载来构建自己的 Skype 的空间系统 v2 图像：
   
-- The [Skype Room Systems v2 installation package](https://go.microsoft.com/fwlink/?linkid=851168).
+- [Skype 的空间系统 v2 安装包](https://go.microsoft.com/fwlink/?linkid=851168)。
     
-- Obtain a copy of the 64-bit version of Windows 10 Enterprise Creator's Update (English language, build 1703). 
+- 获取 Windows 10 企业创建者更新 （英语语言，生成 1703年） 的 64 位版本的副本。 
     
     > [!NOTE]
-    > The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Skype Room Systems v2 release 3.0.12.0 (update 3). 
+    > 从 Skype 的空间系统第 2 版 3.0.12.0 （更新 3） 不再支持 Windows 10 企业周年纪念版 （英语语言，1607年版本） 的 64 位版本。 
   
-- The supported [Surface Pro 4 drivers](https://go.microsoft.com/fwlink/?linkid=856887) or [Surface Pro drivers](https://go.microsoft.com/fwlink/?linkid=856888).
+- 受支持的[Surface Pro 4 驱动程序](https://go.microsoft.com/fwlink/?linkid=856887)或[Surface Pro 的驱动程序](https://go.microsoft.com/fwlink/?linkid=856888)。
     
-These downloads need to be combined into a bootable Windows installation media disk in a specific way, described further in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). 
+这些下载需要以特定的方式，合并为可引导的 Windows 安装介质盘在[Skype 的空间系统 v2 控制台配置](../../deploy/deploy-clients/console.md)中进一步描述。 
   
-In addition, you will probably want a copy of the [Powershell script](https://go.microsoft.com/fwlink/?linkid=870105) used to provision Skype Room Systems v2 accounts.
+此外，您可能需要用来设置 Skype 的空间系统 v2 帐户[Powershell 脚本](https://go.microsoft.com/fwlink/?linkid=870105)的副本。
   
 ## <a name="see-also"></a>另请参阅
 
 #### 
 
-[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
+[Skype 的空间规划系统 v2](skype-room-systems-v2-0.md)
   
-[Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)
+[部署 Skype 的空间系统 v2](../../deploy/deploy-clients/room-systems-v2.md)
   
-[Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md)
+[配置控制台，Skype 的空间系统 v2](../../deploy/deploy-clients/console.md)
   
-[Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Skype 的机房管理系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 #### 
 
 [Skype for Business 附加许可](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

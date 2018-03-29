@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
-description: 'Summary: Configure two-factor authentication in Skype for Business Server 2015.'
+description: 摘要： 在 Skype 为业务服务器 2015年配置两因素身份验证。
 ms.openlocfilehash: edd32559a136573e7b3cf1fe5dc3a153ce0eb61c
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT
@@ -19,15 +19,15 @@ ms.lasthandoff: 03/28/2018
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置双重身份验证
  
-**Summary:** Configure two-factor authentication in Skype for Business Server 2015.
+**摘要：**在 Skype 为业务服务器 2015年配置两因素身份验证。
   
-以下部分介绍了为您的部署配置双重身份验证所需的步骤。 For more information about Two-factor authentication, see [Enabling Office 365 multi-factor authentication for online administrators - Grid User Post](https://go.microsoft.com/fwlink/p/?LinkId=313332).
+以下部分介绍了为您的部署配置双重身份验证所需的步骤。 关于双因素身份验证的详细信息，请参阅[启用 Office 365 的联机管理员-网格用户开机自检的多因素身份验证](https://go.microsoft.com/fwlink/p/?LinkId=313332)。
   
 ## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>配置企业根证书颁发机构以支持智能卡身份验证
 
 以下步骤介绍如何配置企业根 CA 以支持智能卡身份验证：
   
-For information on how to install an Enterprise Root CA, see [Install an Enterprise Root Certification Authority](https://go.microsoft.com/fwlink/p/?LinkID=313364).
+有关如何安装企业根 CA 的信息，请参阅[安装企业根证书颁发机构](https://go.microsoft.com/fwlink/p/?LinkID=313364)。
   
 1. 使用域管理员帐户登录到企业 CA 计算机。
     
@@ -61,17 +61,17 @@ For information on how to install an Enterprise Root CA, see [Install an Enterpr
     
 ## <a name="configure-windows-8-for-virtual-smart-cards"></a>为 Windows 8 配置虚拟智能卡
 
-部署双重身份验证和智能卡技术时要考虑的一个因素是实施成本。 Windows 8 provides a number of new security capabilities, and one of the most interesting new features is support for virtual smart cards.
+部署双重身份验证和智能卡技术时要考虑的一个因素是实施成本。 Windows 8 提供了大量的新的安全功能和最有趣的新功能之一是对虚拟智能卡支持。
   
-对于配备了符合规范版本 1.2 要求的受信任的平台模块 (TPM) 芯片的计算机，组织现在可以享受智能卡登录带来的好处，不必在硬件方面做任何额外投资。 For more information, see [Using Virtual Smart Cards with Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=313365).
+对于配备了符合规范版本 1.2 要求的受信任的平台模块 (TPM) 芯片的计算机，组织现在可以享受智能卡登录带来的好处，不必在硬件方面做任何额外投资。 有关详细信息，请参阅[Windows 8 使用虚拟智能卡](https://go.microsoft.com/fwlink/p/?LinkId=313365)。
   
 ### <a name="to-configure-windows-8-for-virtual-smart-cards"></a>为 Windows 8 配置虚拟智能卡
 
-1. Log in to the Windows 8 computer using the credentials of a Skype for Business-enabled user.
+1. 登录到 Windows 8 计算机业务启用用户使用 Skype 的凭据。
     
 2. 在 Windows 8“开始”屏幕中，将您的光标移动到屏幕右下角。
     
-3. Select the **Search** option, and then search forCommand Prompt.
+3. 选择**搜索**选项，然后搜索 forCommand 提示。
     
 4. 右键单击“命令提示符”****，然后选择“以管理员身份运行”****。
     
@@ -113,15 +113,15 @@ For information on how to install an Enterprise Root CA, see [Install an Enterpr
 
 通常，可通过两种方法为用户注册智能卡身份验证。较为轻松的方法涉及使用 Web 注册直接为用户注册智能卡身份验证，而较为复杂的方法涉及使用注册代理。本主题着重介绍自动注册智能卡证书。
   
-For more information on enrolling on behalf of users as an enrollment agent, see [Enroll for Certificates on Behalf of Other Users](https://go.microsoft.com/fwlink/p/?LinkID=313367).
+代表用户注册为注册代理的详细信息，请参阅[为代表其他用户的证书注册](https://go.microsoft.com/fwlink/p/?LinkID=313367)。
   
 ### <a name="to-enroll-users-for-smart-card-authentication"></a>为用户注册智能卡身份验证
 
-1. Log in to the Windows 8 workstation using the credentials of a Skype for Business-enabled user.
+1. 登录到 Windows 8 工作站为业务启用用户使用 Skype 的凭据。
     
 2. 启动 Internet Explorer。
     
-3. Browse to the **Certificate Authority Web Enrollment** page (e.g. https://MyCA.contoso.com/certsrv).
+3. 浏览到**证书颁发机构 Web 注册**页 (例如https://MyCA.contoso.com/certsrv)。
     
     > [!NOTE]
     > 如果您正在使用 Internet Explorer 10，则可能需要在兼容模式下查看此网站。 
@@ -142,7 +142,7 @@ For more information on enrolling on behalf of users as an enrollment agent, see
     
     - 对于“密钥用法”****，选择“Exchange”****（这是唯一可用选项）。
     
-    - For **Key Size**, enter 2048
+    - 对于**密钥大小**，请输入 2048
     
     - 确认已选中“自动密钥容器名称”****
     
@@ -154,7 +154,7 @@ For more information on enrolling on behalf of users as an enrollment agent, see
     
     - 对于“哈希算法”****，选择“sha1”****。
     
-    - For **Friendly Name** enterSmardcard Certificate.
+    - 为**友好名称**enterSmardcard 证书。
     
 8. 如果您正在使用物理智能卡读取器，请将智能卡插入设备中。
     
@@ -163,12 +163,12 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 10. 出现提示时，输入用于创建虚拟智能卡的 PIN。
     
     > [!NOTE]
-    > The default virtual smart card PIN value is '12345678'. 
+    > 默认虚拟智能卡 PIN 值是"12345678"。 
   
 11. 颁发证书后，单击“安装此证书”****完成注册过程。
     
     > [!NOTE]
-    >  If your certificate request fails with the error "This Web browser does not support the generation of certificate requests," there are three possible ways to resolve the issue:
+    >  如果您的证书申请失败并出现错误"此 Web 浏览器不支持生成证书申请"，有三种可能的方法来解决此问题：
   
         a. Enable Compatibility View in Internet Explorer 
         b. Enable the Turn on Intranet settings option in Internet Explorer 
@@ -176,10 +176,10 @@ For more information on enrolling on behalf of users as an enrollment agent, see
   
 ## <a name="configure-active-directory-federation-services-ad-fs-20"></a>配置 Active Directory 联合身份验证服务 (AD FS 2.0)
 
-下面一节介绍如何配置 Active Directory 联合身份验证服务 (AD FS 2.0) 来支持多重身份验证。 For information on how to install AD FS 2.0, see [AD FS 2.0 Step-by-Step and How To Guides](https://go.microsoft.com/fwlink/p/?LinkId=313374).
+下面一节介绍如何配置 Active Directory 联合身份验证服务 (AD FS 2.0) 来支持多重身份验证。 有关如何安装 AD FS 2.0 的信息，请参阅[AD FS 2.0 分步和如何参考线](https://go.microsoft.com/fwlink/p/?LinkId=313374)。
   
 > [!NOTE]
-> 安装 AD FS 2.0 时，请勿使用 Windows Server Manager 添加联合身份验证服务角色。 Instead, download and install the [Active Directory Federation Services 2.0 RTW package](https://go.microsoft.com/fwlink/p/?LinkId=313375). 
+> 安装 AD FS 2.0 时，请勿使用 Windows Server Manager 添加联合身份验证服务角色。 相反，下载并安装[活动目录联合身份验证服务 2.0 一项包](https://go.microsoft.com/fwlink/p/?LinkId=313375)。 
   
 ### <a name="to-configure-ad-fs-for-two-factor-authentication"></a>针对双重身份验证配置 AD FS
 
@@ -201,9 +201,9 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 
 5. 从“管理工具”菜单中，启动 AD FS 2.0 管理控制台。
     
-6. Expand **Trust Relationships** > **Relying Party Trusts**.
+6. 展开**的信任关系** > **信赖方信任**。
     
-7. Verify that a new trust has been created for your Skype for Business Server.
+7. 验证新的信任已创建了为您 Skype 业务服务器。
     
 8. 使用 Windows PowerShell 通过运行以下命令为您的依赖方信任创建并分配颁发授权规则：
     
@@ -240,7 +240,7 @@ For more information on enrolling on behalf of users as an enrollment agent, see
     
 - 传输层安全性客户端身份验证
     
-使用基于表单的身份验证，您可以开发一个网页以允许用户使用其用户名/密码或使用其智能卡和 PIN 进行身份验证。 本主题着重介绍如何实施传输层安全性客户端身份验证与 AD FS 2.0。 For more information about AD FS 2.0 authentication types, see [AD FS 2.0: How to Change the Local Authentication Type](https://go.microsoft.com/fwlink/p/?LinkId=313384).
+使用基于表单的身份验证，您可以开发一个网页以允许用户使用其用户名/密码或使用其智能卡和 PIN 进行身份验证。 本主题着重介绍如何实施传输层安全性客户端身份验证与 AD FS 2.0。 有关 AD FS 2.0 的身份验证类型的详细信息，请参阅[AD FS 2.0： 如何更改本地身份验证类型](https://go.microsoft.com/fwlink/p/?LinkId=313384)。
   
 ### <a name="to-configure-ad-fs-20-to-support-client-authentication"></a>配置 AD FS 2.0 以支持客户端身份验证
 
@@ -256,7 +256,7 @@ For more information on enrolling on behalf of users as an enrollment agent, see
     
 6. 从菜单栏中，选择“编辑”****，然后选择“查找”****。
     
-7. Search for \<localAuthenticationTypes\>.
+7. 搜索\<localAuthenticationTypes\>。
     
     请注意，列出了四种身份验证类型，每行一个。
     
@@ -274,7 +274,7 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 
 ## <a name="configuring-skype-for-business-server-passive-authentication"></a>配置 Skype for Business Server 被动身份验证
 
-The following section describes how to configure Skype for Business Server 2015 to support passive authentication. Once enabled, users who are enabled for two-factor authentication will be required to use a physical or virtual smart card and a valid PIN to sign in using the Skype for Business client.
+下一节介绍如何配置以支持被动身份验证的业务服务器 2015年的 Skype。 一旦启用，启用了两因素身份验证的用户将需要使用物理或虚拟智能卡和 PIN 有效使用 Skype 业务客户端登录。
   
 > [!NOTE]
 > 强烈建议用户在服务级别为注册机构和 Web 服务启用被动身份验证。如果在全局级别为注册机构和 Web 服务启用被动身份验证，则可能导致未使用受支持的桌面客户端登录的用户遭遇组织范围身份验证失败。 
@@ -285,11 +285,11 @@ The following section describes how to configure Skype for Business Server 2015 
   
 ### <a name="to-create-a-custom-web-service-configuration"></a>创建自定义 Web 服务配置
 
-1. Log in to your Skype for Business Server 2015 Front End server using a Skype for Business administrator account.
+1. 登录到您的 Skype 业务管理员帐户使用 Skype 业务服务器 2015年前端服务器。
     
-2. Launch the Skype for Business Server Management Shell.
+2. 为业务服务器管理外壳程序启动 Skype。
     
-3. From the Skype for Business Server Management Shell command-line, create a new Web Service configuration for each Director, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following command:
+3. 从业务服务器管理外壳程序命令行的 Skype，每个导演、 企业版池和标准版服务器，将被动的身份验证为启用通过运行下面的命令创建一个新的 Web 服务配置：
     
   ```
   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
@@ -304,7 +304,7 @@ The following section describes how to configure Skype for Business Server 2015 
   Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
   ```
 
-5. 对于客户端，被动身份验证是 Web 票证身份验证最少首选的身份验证方法。 For all Directors, Enterprise Pools, and Standard Edition servers that will be enabled for passive authentication, all other authentication types must be disabled in Skype for Business Web Services by running the following cmdlet:
+5. 对于客户端，被动身份验证是 Web 票证身份验证最少首选的身份验证方法。 对所有股东、 企业版池和标准版服务器，将被动的身份验证为启用，所有其他身份验证类型，必须禁用 Skype 业务 Web 服务通过运行以下 cmdlet:
     
   ```
   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
@@ -318,13 +318,13 @@ The following section describes how to configure Skype for Business Server 2015 
 
 ### <a name="proxy-configuration"></a>代理配置
 
-When certificate authentication is disabled for Skype for Business Web Services, the Skype for Business client will use a less preferred authentication type, such as Kerberos or NTLM, to authenticate to the Registrar service. 仍然需要证书身份验证以允许客户端检索 Web 票证，但是，必须为 Kerberos 和 NTLM 禁用注册机构服务。
+当证书身份验证被禁用业务 Web 服务 Skype 时，Skype 业务客户端将使用小于首选的身份验证类型，例如 Kerberos 或 NTLM，向注册服务进行身份验证。 仍然需要证书身份验证以允许客户端检索 Web 票证，但是，必须为 Kerberos 和 NTLM 禁用注册机构服务。
   
 以下步骤介绍了如何为将启用被动身份验证的边缘池、企业池和 Standard Edition 服务器创建自定义代理配置。
   
 ### <a name="to-create-a-custom-proxy-configuration"></a>创建自定义代理配置
 
-1. From the Skype for Business Server Management Shell command-line, create a new proxy configuration for each Skype for Business Server 2015 Edge Pool, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following commands:
+1. 从 Skype 的业务服务器管理外壳程序命令行，创建新的代理配置为每个 Skype 业务服务器 2015年边缘池、 企业版池和标准版将被动的身份验证为启用运行的服务器下面的命令：
     
   ```
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
@@ -347,7 +347,7 @@ When certificate authentication is disabled for Skype for Business Web Services,
 
 #### 
 
-[Manage two-factor authentication in Skype for Business Server 2015](two-factor-authentication.md)
+[管理在 Skype 的业务服务器 2015年的双因素身份验证](two-factor-authentication.md)
   
-[Use two-factor authentication with Skype for Business client and Skype for Business Server 2015](use.md)
+[使用二元身份验证与 Skype 业务客户端和 Skype 业务服务器 2015](use.md)
 

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-description: 'Summary: Learn about the Call Admission Control Reports used in Skype for Business Server 2015.'
+description: 摘要： 了解使用 Skype 业务服务器 2015年的调用许可控制报告。
 ms.openlocfilehash: 53c3767ad93b7faa4c7f9a7f33213dde21dd7ca5
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.lasthandoff: 03/28/2018
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的呼叫允许控制报告
  
-**Summary:** Learn about the Call Admission Control Reports used in Skype for Business Server 2015.
+**摘要：**了解有关使用 Skype 业务服务器 2015年的调用许可控制报告。
   
 呼叫允许控制报告提供有关对等和由呼叫允许控制设置限制下举行的会议会话的信息。呼叫允许控制为管理员提供一种方法，以允许（或不允许）基于带宽限制的通信会话。例如，管理员可创建对可用于语音和视频呼叫的带宽量施加限制的策略。如果已达到该带宽限制，则可进行新的语音和视频呼叫，直到其中的一个当前呼叫结束并释放所需的网络资源为止。
   
@@ -26,9 +26,9 @@ ms.lasthandoff: 03/28/2018
 
 从监控报告主页可访问呼叫允许控制报告。从呼叫允许控制报告可深入到下列任何报告：
   
-- Conference Detail Report - To access this report, click the Details metric from a conference session. 
+- 会议详细信息报告的访问此报表，请单击从会议会话的详细信息度量。 
     
-- Peer-to-Peer Session Detail Report - To access this report, click the Details metric for a peer-to-peer session.
+- 对等会话详细信息报告-若要访问此报表，单击详细信息度量对等会话。
     
 ## <a name="making-the-best-use-of-the-call-admission-control-report"></a>充分利用呼叫允许控制报告
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 03/28/2018
   
 下表列出了可用于呼叫允许控制报告的筛选器。
   
-**Call Admission Control Report Filters**
+**调用许可控制报表筛选器**
 
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**说明**|
 |:-----|:-----|
@@ -58,9 +58,9 @@ ms.lasthandoff: 03/28/2018
 
 下表列出了对等会话（即，只涉及两个参与者的会话）的呼叫允许控制报告中提供的信息。
   
-**Metrics for Peer-to-Peer Sessions**
+**对等会话的指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**Can you sort on this item?**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**可以在此项上进行排序？**|**说明**|
 |:-----|:-----|:-----|
 |**详情** <br/> |否  <br/> |单击此项时，报告将显示指定会话的对等会话详细信息报告。  <br/> |
 |**来源用户** <br/> |是  <br/> |发起会话的用户的 SIP 地址。  <br/> |
@@ -75,9 +75,9 @@ ms.lasthandoff: 03/28/2018
 
 下表列出了会议会话（即，涉及三个或更多参与者的会话）的呼叫允许控制报告中提供的信息。
   
-**Metrics for Conferencing Sessions**
+**会议会话的度量标准**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**Can you sort on this item?**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**可以在此项上进行排序？**|**说明**|
 |:-----|:-----|:-----|
 |**会议 URI** <br/> |是  <br/> |会议的唯一标识符。单击此项时，报告将显示单个会议参与者。  <br/> |
 |**组织者** <br/> |是  <br/> |组织会议的用户的 SIP 地址。  <br/> |
@@ -89,9 +89,9 @@ ms.lasthandoff: 03/28/2018
 
 下表列出了单个会议参与者的呼叫允许控制报告中提供的信息。
   
-**Metrics for Individual Conference Participants**
+**单独的会议参与者的度量标准**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**Can you sort on this item?**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**可以在此项上进行排序？**|**说明**|
 |:-----|:-----|:-----|
 |**角色** <br/> |否  <br/> |会议参与者扮演的角色（例如“演示者”）。  <br/> |
 |**参与者** <br/> |否  <br/> |会议参与者的 SIP 地址。  <br/> |
