@@ -1,0 +1,54 @@
+---
+title: 在 Skype for Business Server 2015 中导航规划工具
+ms.author: heidip
+author: microsoftheidi
+manager: serdars
+ms.date: 4/5/2016
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: IT_Skype16
+ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
+description: 使用工具栏、 特定于页面的按钮和链接和特定于上下文的窗格的组合业务服务器 2015年计划工具定位 Skype。 特定于上下文的窗格提供与特定页上的选项相关的规划和容量的设计信息。
+ms.openlocfilehash: 59b64478aecf3f32ad3bd89c7d07896776b5a1f6
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/28/2018
+---
+# <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中导航规划工具
+ 
+使用工具栏、 特定于页面的按钮和链接和特定于上下文的窗格的组合业务服务器 2015年计划工具定位 Skype。 特定于上下文的窗格提供与特定页上的选项相关的规划和容量的设计信息。
+  
+在开始规划工具，设计首先看到**规划工具业务服务器 2015年的 Skype 的欢迎**页上。
+  
+![“欢迎使用规划工具”页](../../media/Planning_Tool_Welcome.png)
+  
+在“欢迎”页上，设计人员可选择“**开始**”、“**设计站点**”或“**显示**”。 有关详细信息，请参阅[创建业务服务器 2015年的 Skype 的初始拓扑结构设计](create-the-initial-design.md)。
+  
+规划工具的顶部是一个工具栏，提供了便于访问常用功能。 此处显示的工具栏仅供参考，各项功能将在相关主题中讨论。
+  
+![规划工具 - 工具栏](../../media/Planning_Tool_Toolbar_Annotated.jpg)
+  
+规划工具有工具在左侧外部链接部分。 在此处，设计师可轻松访问规划和部署信息，以及其他技术资源（如培训、技术博客、论坛及其他可下载的资源）。 此外在外部链接部分是 Skype 业务服务器 2015年规划工具小组的反馈链接。
+  
+![规划工具 -“外部链接”对话框](../../media/Planning_Tool_External_Links_Dialog.jpg)
+  
+在规划工具中的许多页面上显示上下文相关的操作窗格。 “操作”窗格使设计师可轻松访问拓扑的主要部分。 “操作”窗格中可用的链接根据拓扑中的详细级别而改变。 完成访谈式问题并显示拓扑后，“操作”窗格才可用。 “操作”窗格中包含“概览”部分，其中显示了设计师在访谈过程中输入的数值。 概览内容与显示的信息上下文相关。
+  
+此外，“操作”窗格下的概览中还显示硬件信息。硬件配置显示当前拓扑推荐的硬件要求列表。
+  
+![规划工具 -“操作”窗格](../../media/Planning_Tool_Actions_Pane.jpg)
+  
+## <a name="see-also"></a>另请参阅
+
+#### 
+
+[创建业务服务器 2015年的 Skype 的初始拓扑结构设计](create-the-initial-design.md)
+#### 
+
+[编辑设计](http://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+  
+[查看管理员报告](http://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
+

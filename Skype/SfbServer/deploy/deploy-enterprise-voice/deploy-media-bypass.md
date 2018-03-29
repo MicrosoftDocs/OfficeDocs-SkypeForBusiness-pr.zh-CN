@@ -1,0 +1,49 @@
+---
+title: 在 Skype for Business Server 2015 中部署媒体旁路
+ms.author: crowe
+author: CarolynRowe
+manager: serdars
+ms.date: 2/7/2018
+ms.audience: ITPro
+ms.topic: get-started-article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: IT_Skype16
+ms.custom: Strat_SB_Admin
+ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
+description: 为业务服务器企业语音部署 Skype 在媒体回避。 包括先决条件和部署过程清单。
+ms.openlocfilehash: 0a42645b9d6fbe90ed36d8b1f474187a4c522f16
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/28/2018
+---
+# <a name="deploy-media-bypass-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中部署媒体旁路
+ 
+为业务服务器企业语音部署 Skype 在媒体回避。 包括先决条件和部署过程清单。
+  
+本主题假定您已发布和至少一个或多个中介服务器和至少一个网关等提供的 PSTN 连接配置。 这些任务的详细信息，请参阅[部署在拓扑生成器在 Skype 业务服务器 2015年的中介服务器](deploy-a-mediation-server.md)和[定义中业务服务器 2015年的 Skype 的拓扑生成器中的网关](define-a-gateway.md)。
+  
+ 如果您连接到的对等方是 SIP 中继提供商的 SBC，请确保该提供商是合格的提供商，且支持媒体旁路。例如，很多 SIP 中继提供商仅允许其 SBC 接收来自中介服务器的流量。如果这样，则不得为出现故障的中继启用旁路。同时，只有您的组织向 SIP 中继提供商显示其内部网络 IP 地址后，您才能启用媒体旁路。
+  
+> [!NOTE]
+> 媒体旁路将不会与每个 PSTN 网关、IP-PBX 和 SBC 进行交互操作。 Microsoft 与认证合作伙伴一起对一组 PSTN 网关和 SBC 进行了测试，另外也对 Cisco IP-PBX 进行了一些测试。 媒体回避仅支持产品和版本列入[统一通信开放互操作性计划-Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406)。 
+  
+如果您已选择配置呼叫允许控制 (CAC)（企业语音的另一种高级功能），请注意，呼叫允许控制所执行的带宽保留不会应用于已应用媒体旁路的任何呼叫。首先验证是否应用了媒体旁路，如果已经应用，则不会对该呼叫使用呼叫允许控制；仅当媒体旁路检查失败时，才会检查呼叫允许控制。因此，对于路由至 PSTN 的任何特定呼叫，这两种功能是相互排斥的。这是符合逻辑的，因为媒体旁路假设呼叫中的媒体终结点间不存在带宽约束；无法在带宽受限的链接上执行媒体旁路。因此，会将以下情形之一应用于 PSTN 呼叫：a) 媒体绕过中介服务器，呼叫允许控制不为呼叫保留带宽；或者，b) 呼叫允许控制将带宽保留应用于呼叫，媒体由呼叫中涉及的中介服务器处理。
+  
+除了为与对等方关联的各个中继连接启用媒体旁路功能外，还必须在全局范围内启用媒体旁路功能。全局媒体旁路设置可以指定始终为对 PSTN 的呼叫尝试媒体旁路，或者指定通过将子网映射到网络站点和网络区域来使用媒体旁路，这与呼叫允许控制（另一高级语音功能）所执行的操作类似。同时启用媒体旁路和呼叫允许控制后，在确定是否使用媒体旁路时，会自动使用为呼叫允许控制指定的网络区域、网络站点和子网信息。这意味着，启用呼叫允许控制后无法指定始终为对 PSTN 的呼叫尝试媒体旁路。
+  
+> [!NOTE]
+> 使用这些步骤配置媒体旁路时，假定客户端和中介服务器对等方（例如，SIP 中继提供商的 PSTN 网关、IP-PBX 或 SBC）之间的连接工作正常。 如果链接上有任何带宽限制，则媒体旁路无法应用于呼叫。 媒体旁路将不会与每个 PSTN 网关、IP-PBX 和 SBC 进行交互操作。 Microsoft 与认证合作伙伴一起对一组 PSTN 网关和 SBC 进行了测试，另外也对 Cisco IP-PBX 进行了一些测试。 媒体回避仅支持产品和版本列入[统一通信开放互操作性计划-Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406)。 
+  
+## <a name="deployment-process-for-media-bypass"></a>媒体旁路的部署过程
+
+下表概述了媒体旁路部署过程。 
+  
+|**阶段**|**步骤**|**角色**|**部署文档**|
+|:-----|:-----|:-----|:-----|
+|配置用于媒体旁路的中继  <br/> |如果还未配置，请配置一个或多个用于媒体旁路的中继。  <br/> | RTCUniversalServerAdmins 组中或 CsVoiceAdministrator、 CsServerAdministrator 或 CsAdministrator 角色的成员的成员 <br/> |[配置中继与媒体回避在 Skype 业务服务器 2015](configure-trunk-with-media-bypass.md) <br/> |
+|全局配置媒体旁路  <br/> |为发给 PSTN 的所有呼叫，或者基于网络站点和网络区域的特定呼叫配置媒体旁路。  <br/> | RTCUniversalServerAdmins 组中或 CsVoiceAdministrator、 CsServerAdministrator 或 CsAdministrator 角色的成员的成员 <br/> |[在 Skype 的业务服务器 2015 始终绕过中介服务器中配置媒体回避](bypass-the-mediation-server.md) <br/> [在 Skype 的业务服务器 2015 使用网站和区域信息配置媒体绕过全局设置](use-site-and-region-information.md) <br/> |
+|如有必要，将子网与网络站点关联  <br/> |如果配置媒体旁路来使用站点和区域信息，那就必须将部署的子网与网络站点和区域关联（如果还未对另一个语音功能进行这样的配置）。  <br/> | RTCUniversalServerAdmins 组中或 CsVoiceAdministrator、 CsServerAdministrator 或 CsAdministrator 角色的成员的成员 <br/> |[Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) <br/> |
+   
+

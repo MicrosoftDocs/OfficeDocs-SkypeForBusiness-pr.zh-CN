@@ -1,0 +1,62 @@
+---
+title: Skype for Business Server 2015 中的诊断报告
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 12/20/2016
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
+description: 摘要： 了解业务服务器 2015年在 Skype 的诊断报告。
+ms.openlocfilehash: 86639f5687cb6d19ff18c9aafb869a74fb777113
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/28/2018
+---
+# <a name="diagnostic-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的诊断报告
+ 
+**摘要：**了解业务服务器 2015年在 Skype 的诊断报告。
+  
+诊断报告提供失败的会话的诊断和故障排除信息。 此信息包括在会话失败时所报告的诊断 ID 和诊断标头。 诊断 ID 是附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），而诊断标头提供诊断 ID 的附带说明。 该报告可能还包含报告组件所了解的有价值的故障排除详细信息。 例如：
+  
+- 由生成故障的 PSTN 网关提供的原因代码。在 PSTN 网络上，传出呼叫失败时，会自动生成 ISDN 用户部分 (ISUP) 原因代码。例如，PSTN 网关可能会发送原因代码 34，指示不存在可用于完成呼叫的任何电路或信道。
+    
+- 针对连接失败的对等方 FQDN、端口和 Winsock 错误。
+    
+- 针对 DNS 解析失败所查找的名称。每次客户端联系名称服务器并请求与指定的设备名称相对应的 IP 地址时，都会进行 DNS 解析。
+    
+## <a name="accessing-the-diagnostic-report"></a>访问诊断报告
+
+可通过单击会议详细信息报表或[对等会话详细信息报表中的业务服务器 2015 Skype](peer-to-peer-session-detail-report.md)的诊断报告 （详细信息） 跃点数访问诊断报告。
+  
+## <a name="filters"></a>筛选器
+
+无。您不能对诊断报告进行筛选。
+  
+## <a name="metrics"></a>指标
+
+下表列出了各会话的诊断报告中提供的信息。
+  
+**诊断报告统计数据**
+
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**可以在此项上进行排序？**|**说明**|
+|:-----|:-----|:-----|
+|**报告时间** <br/> |否  <br/> |记录报告的日期和时间。  <br/> |
+|**响应代码** <br/> |否  <br/> |会话失败时发送的 SIP 响应代码。  <br/> |
+|**请求类型** <br/> |否  <br/> |失败的 SIP 请求类型。例如，INVITE、BYE 或 SERVICE。  <br/> |
+|**来源** <br/> |否  <br/> |错误的来源。  <br/> |
+|**源用户 URI** <br/> |否  <br/> |发起会话的用户的 SIP 地址。  <br/> |
+|**源用户代理** <br/> |否  <br/> |发起会话的用户的终结点使用的软件。  <br/> |
+|**诊断 ID** <br/> |否  <br/> |附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），提供的信息在排查错误时通常很有帮助。  <br/> |
+|**内容类型** <br/> |否  <br/> |失败的媒体内容类型。例如，常见内容类型为 Application/sdp。会话描述协议 (SDP) 是用于会话公告、会话邀请及其他形式的多媒体会话启动的标准 Internet 协议。  <br/> |
+|**应用程序** <br/> |否  <br/> |错误涉及的应用程序。  <br/> |
+|**目标用户 URI** <br/> |否  <br/> |受邀加入会话的用户的 SIP 地址。  <br/> |
+|**会议加入时间（毫秒）** <br/> |否  <br/> |用户加入会议所需的时间量（以毫秒为单位）。  <br/> |
+|**诊断标头** <br/> |否  <br/> |诊断 ID 描述  <br/> |
+   
+在[Ms 诊断标题页](https://msdn.microsoft.com/en-us/library/gg132446%28v=office.12%29.aspx)上找不到诊断错误的列表。
+  
+

@@ -1,0 +1,27 @@
+---
+title: 将前端与边缘关联
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 3/25/2015
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.tb.AssociateFrontEndWithEdgePage
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
+description: 每个前端池只能拥有一个关联的边缘服务器或边缘池。为站点启用外部用户访问时，可提供对远程用户的支持。还可以启用对联盟用户的支持，包括对特定公共即时消息 (IM) 连接提供商（如 Windows Live）用户的支持，以及对匿名用户的支持。
+ms.openlocfilehash: ab8ee5ae7ca44b6b4aa70b355cf9d406f69e64f7
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/28/2018
+---
+# <a name="associate-front-end-with-edge"></a>将前端与边缘关联
+ 
+每个前端池只能拥有一个关联的边缘服务器或边缘池。为站点启用外部用户访问时，可提供对远程用户的支持。还可以启用对联盟用户的支持，包括对特定公共即时消息 (IM) 连接提供商（如 Windows Live）用户的支持，以及对匿名用户的支持。
+  
+站点中的所有池和多个中央站点的池可以使用同一边缘服务器，前提是使用量不超过边缘服务器的容量。 有关监视的详细信息，包括缩放比例，请参阅[规划外部用户访问](http://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)的规划文档中。 关于设计的拓扑结构，以支持外部用户访问权限的详细信息，请参阅部署文档中[定义边拓扑](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)。
+  
+
