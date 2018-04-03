@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "以下是可用法国 Skype 业务和 Microsoft 小组的 Office 365 提供服务。"
-ms.openlocfilehash: bcb2efc2a8a2a423b1074a25d86beb72187abdba
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: b75594d18259155a2480487b64eb33767d53e69f
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="availability-in-france"></a>在法国的可用性
 
@@ -83,5 +83,3 @@ ms.lasthandoff: 02/27/2018
 
 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
