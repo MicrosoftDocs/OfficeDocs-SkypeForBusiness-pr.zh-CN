@@ -1,5 +1,5 @@
 ---
-title: "块点对点文件传输"
+title: 块点对点文件传输
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "在 Skype 的在线业务，必须能够控制点对点 (P2P) 文件传输作为会议的现有策略设置的一部分。 但是，这样，或阻止文件传输它们传输文件，同一组织中的用户或另一个组织中的联合用户的用户。 按照下面的步骤中，您可以阻止联盟的组织或伙伴的 P2P 文件传输。"
-ms.openlocfilehash: e7b3542cfef3b4dd9b663db0aa056e52fccf021d
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 在 Skype 的在线业务，必须能够控制点对点 (P2P) 文件传输作为会议的现有策略设置的一部分。 但是，这样，或阻止文件传输它们传输文件，同一组织中的用户或另一个组织中的联合用户的用户。 按照下面的步骤中，您可以阻止联盟的组织或伙伴的 P2P 文件传输。
+ms.openlocfilehash: 8e3fd112d46a88752b0d6d19cf2e1fbb1787df32
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="block-point-to-point-file-transfers"></a>块点对点文件传输
 
@@ -125,5 +125,5 @@ ms.lasthandoff: 02/27/2018
 
 [设置您的组织中的会议策略](set-up-conferencing-policies-for-your-organization.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

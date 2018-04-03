@@ -1,5 +1,5 @@
 ---
-title: "在伯利兹的可用性"
+title: 在伯利兹的可用性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "以下是可用的伯利兹 Skype 业务和 Microsoft 小组的 Office 365 提供服务。"
-ms.openlocfilehash: 74b81f1ab2d4b7ca8f1e43929f5988793713a1e8
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 以下是可用的伯利兹 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
+ms.openlocfilehash: 438de99c73e7b3d2fc49cddbcaa3c23321b43b53
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-belize"></a>在伯利兹的可用性
 
@@ -82,5 +82,4 @@ ms.lasthandoff: 02/19/2018
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
 

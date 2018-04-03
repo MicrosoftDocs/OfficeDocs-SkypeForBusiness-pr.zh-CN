@@ -1,5 +1,5 @@
 ---
-title: "我付费的电话号码是什么？"
+title: 我付费的电话号码是什么？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoBTN
 ms.custom:
 - Calling Plans
-description: "了解您的付费电话号码业务 Skype 是什么，以及在哪里，如何转移大量获得逐步说明。"
-ms.openlocfilehash: 4b72ded8ee370aca7e0ee1db6edcc917a194de9e
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 了解您的付费电话号码业务 Skype 是什么，以及在哪里，如何转移大量获得逐步说明。
+ms.openlocfilehash: 3cfb34fb26a55a756d910a417da030df2dba64a0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-is-my-billing-telephone-number"></a>我付费的电话号码是什么？
 
@@ -45,3 +45,6 @@ ms.lasthandoff: 02/19/2018
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

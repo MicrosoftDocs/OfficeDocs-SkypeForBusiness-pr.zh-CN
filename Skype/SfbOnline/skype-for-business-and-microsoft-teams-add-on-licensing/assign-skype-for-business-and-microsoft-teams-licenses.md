@@ -1,5 +1,5 @@
 ---
-title: "将 Skype 分配业务和 Microsoft 小组许可证"
+title: 将 Skype 分配业务和 Microsoft 小组许可证
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: fd41934d-f2eb-4a1b-89d8-32cb37702b33
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 - Strat_SB_PSTN
-description: "了解如何将 Skype 业务许可证分配对电话系统、 音频会议、 调用计划，和通信贷。 "
-ms.openlocfilehash: a5cbc36d1b5ce5a7d79587df369b2d3bf3caacd6
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: '了解如何将 Skype 业务许可证分配对电话系统、 音频会议、 调用计划，和通信贷。 '
+ms.openlocfilehash: 12a26dc7b9ebd47ae10005afb66f23a8cb278237
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>将 Skype 分配业务和 Microsoft 小组许可证
 
@@ -113,11 +115,7 @@ ms.lasthandoff: 02/19/2018
 
 - **第三方音频会议提供商**： 如果某人已经设置时要使用第三方音频会议提供商，您分配**音频会议**许可，他们将会更改 Microsoft 作为音频会议提供程序。 你可以将他们更改回第三方提供商。
     
-- 下一步行动： 指定**音频会议**许可证后，您需要指定音频会议提供商。 执行下列操作之一：
-    
-  - [将 Microsoft 指定为音频会议提供商](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
-    
-  - 或者，[指定第三方作为音频会议提供商](../audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider.md)
+- 下一步行动： 指定**音频会议**许可证后，您需要指定音频会议提供商。 请参阅 [分配作为音频会议提供商]。
     
 ### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>如何将音频会议许可分配给一个用户
 
@@ -199,10 +197,10 @@ foreach ($user in $users)
 看一看分配**音频会议**许可的示例脚本。 与分配**通信信用**许可的信息对其进行更新。
   
 ## <a name="related-topics"></a>相关主题
-
-[设置音频会议 for Skype Business 和 Microsoft 团队](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
   
 [设置通话套餐](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
   
 [存入资金和管理通信点数](add-funds-and-manage-communications-credits.md)
   
+  
+ 

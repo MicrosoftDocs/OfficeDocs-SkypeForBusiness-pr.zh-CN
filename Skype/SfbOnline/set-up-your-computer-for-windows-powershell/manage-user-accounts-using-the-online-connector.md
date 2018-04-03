@@ -1,5 +1,5 @@
 ---
-title: "管理用户帐户使用在线连接器"
+title: 管理用户帐户使用在线连接器
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: "使用在 Windows PowerShell Get CsOnlineUser cmdlet 以获得有关信息组织的 Skype 业务联机用户。"
-ms.openlocfilehash: 6cd8f24638622b1581003c1b4f372923ca7c4939
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 使用在 Windows PowerShell Get CsOnlineUser cmdlet 以获得有关信息组织的 Skype 业务联机用户。
+ms.openlocfilehash: 1583e808cc489bb19f51acd6f52c900772138efe
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="manage-user-accounts-using-the-online-connector"></a>管理用户帐户使用在线连接器
 
@@ -114,3 +114,6 @@ Get-CsOnlineUser -LdapFilter "department=Finance"
 
 ## <a name="related-topics"></a>相关主题
 [设置计算机上的 Skype 业务在线管理使用 Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+
+  
+ 

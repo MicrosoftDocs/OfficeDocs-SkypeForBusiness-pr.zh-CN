@@ -1,15 +1,17 @@
 ---
-title: "语音邮件问候语和消息的语言"
+title: 语音邮件问候语和消息的语言
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
-ms.date: 01/22/2018
+ms.date: 03/13/2018
 ms.topic: article
 ms.assetid: 4a57e3d0-8b08-494f-a195-b44afa9cbc0d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "了解在 Skype for Business 中可以为默认系统消息设置哪些语言。 "
-ms.openlocfilehash: 256bc49c67ffbbfc4a503ffaf621cd4bb82b0c07
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: '了解在 Skype for Business 中可以为默认系统消息设置哪些语言。 '
+ms.openlocfilehash: bcb8f00910c0ce15c0e9a1da6e008bc2008cbfad
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>语音邮件问候语和消息的语言
 
@@ -61,9 +63,12 @@ ms.lasthandoff: 02/19/2018
 |西班牙语  <br/> |西班牙  <br/> |es-ES  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |西班牙语  <br/> |墨西哥  <br/> |es-MX  <br/> |是，但使用西班牙西班牙语 (es-ES)。  <br/> |是  <br/> |是，但使用西班牙西班牙语 (es-ES)。  <br/> |
 |瑞典语  <br/> |瑞典  <br/> |sv-SE  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|土耳其语  <br/> |土耳其  <br/> |tr-TR  <br/> |是  <br/> |是  <br/> |否  <br/> |
    
 ## <a name="related-topics"></a>相关主题
 [音频会议和通话套餐的国家/地区可用性](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Office 365 中的电话系统的功能](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
   
+  
+ 

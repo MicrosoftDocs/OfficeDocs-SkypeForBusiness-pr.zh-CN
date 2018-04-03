@@ -1,5 +1,5 @@
 ---
-title: "配置存在隐私模式"
+title: 配置存在隐私模式
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ f1keywords:
 - ms.lync.lac.OrgPresencePrivacy
 ms.custom:
 - Setup
-description: "了解如何设置为您的用户隐私模式，以便他们可以更好地控制如何人们看到它们的可用性。 "
-ms.openlocfilehash: 6a50370afb0e35873536162c9db28e4d75eed96e
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: '了解如何设置为您的用户隐私模式，以便他们可以更好地控制如何人们看到它们的可用性。 '
+ms.openlocfilehash: f053ca555ee17f4c1421ae16d76a071a253e4738
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="configure-presence-privacy-mode"></a>配置存在隐私模式
 
@@ -45,5 +45,5 @@ Skype 业务联机展示形式设置为人们提供了更好地控制谁可以�
 
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

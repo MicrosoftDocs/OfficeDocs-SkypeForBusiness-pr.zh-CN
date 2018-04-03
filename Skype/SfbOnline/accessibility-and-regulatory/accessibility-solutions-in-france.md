@@ -1,5 +1,5 @@
 ---
-title: "在法国的可访问性解决方案"
+title: 在法国的可访问性解决方案
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
+hideEdit: true
 description: "建议人姓名 à se utilisateurs des expériences accessibles est au cœur de la 使命汉阳 s'est fixée Microsoft: permettre à chaque personne et à chaque 组织 de la planète d'accomplir davantage，quelles 汉阳转动一定 ses 才智。 Microsoft le plaisir de 建议人姓名，avec Skype 企业取消某些 nombre de 解决方案 d 'accessibilité qui s'inscrivent dans 儿子订婚 fort 浇注 l' accessibilité et l'inclusion numérique。"
 ms.openlocfilehash: 723746dcc61335f3eb0b655b51d177e804ab4166
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-in-france"></a>Skype 在法国在线业务的可访问性解决方案
 

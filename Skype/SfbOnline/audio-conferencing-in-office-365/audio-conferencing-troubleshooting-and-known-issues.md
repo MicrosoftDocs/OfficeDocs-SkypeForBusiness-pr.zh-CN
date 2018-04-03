@@ -1,5 +1,5 @@
 ---
-title: "故障排除音频会议和已知的问题"
+title: 故障排除音频会议和已知的问题
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 72979911-5319-4de2-a275-4dd9a0f44fe6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "使用 Microsoft 为其拨入会议提供商、 状态和某些解决方法时得到已知问题的列表。 "
-ms.openlocfilehash: 9e566d0ba9f07aeecca222ef586f301b1cd6cf5f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: '使用 Microsoft 为其拨入会议提供商、 状态和某些解决方法时得到已知问题的列表。 '
+ms.openlocfilehash: 3748c6f60c04ea34f327eb371ba16f112a124287
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>故障排除音频会议和已知的问题
 
@@ -46,6 +48,7 @@ ms.lasthandoff: 02/19/2018
 |拨出需要使用 5 位数或更多。  <br/> |试图从会议拨出用户需要键入 5 或更多位数，即使提供规范化为 E.164 短数字拨号了拨号计划规范化规则。  <br/> |通过键入全部 DID 号码或本地的数字格式，而不是内部分机号码拨出。  <br/> |于 2017 9/25 年  <br/> |
 |拨出控制不间歇地冒。  <br/> |拨出控件可能无法从会议信息面板可见。  <br/> |无解决方法。  <br/> |于 2017 9/25 年  <br/> |
 |对于 Microsoft 小组会议不支持静态会议 ID。  <br/> |如果管理员重写默认设置动态会议 ID 静态会议 ID，此设置不会生效为 Microsoft 小组会议。 请参阅[使用音频会议动态 Id，您的组织中](using-audio-conferencing-dynamic-ids-in-your-organization.md)。  <br/> |无解决方法。  <br/> |于 2017 9/25 年  <br/> |
+|PSTN 会议坐标不可用于 Skype 业务内部用户  <br/> |如果用户是企业内部用户分配与 Skype 业务在线、 音频会议和团队许可证，Skype 使用团队安排的所有会议将不包括 PSTN 会议坐标。 <br/> |无解决方法。  <br/> |2/1/2018  <br/> |
    
 ### <a name="skype-for-business-app"></a>Skype 的业务应用程序
 
@@ -58,6 +61,4 @@ ms.lasthandoff: 02/19/2018
    
 ## <a name="related-topics"></a>相关主题
 
-[设置音频会议 for Skype Business 和 Microsoft 团队](set-up-audio-conferencing.md)
-  
-
+[试用或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

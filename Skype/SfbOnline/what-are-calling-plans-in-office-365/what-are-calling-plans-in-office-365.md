@@ -1,5 +1,5 @@
 ---
-title: "Office 365 中调用计划是什么？"
+title: Office 365 中调用计划是什么？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 - LIL_Placement
-description: 'Learn what Office 365 Callings Plans (PSTN calling) are, what regions it''s available in, and where to go for step by step instructions on how to set it up. '
-ms.openlocfilehash: 0fb7bf62be37a196eb5432eb747f77b5a08ecc93
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: "Learn what Office 365 Callings Plans (PSTN calling) are, what regions it's available in, and where to go for step by step instructions on how to set it up. "
+ms.openlocfilehash: cc6405662eef6be5a2461147356b2a1a58fccf0f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-are-calling-plans-in-office-365"></a>Office 365 中调用计划是什么？
 
@@ -71,5 +71,5 @@ ms.lasthandoff: 03/08/2018
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

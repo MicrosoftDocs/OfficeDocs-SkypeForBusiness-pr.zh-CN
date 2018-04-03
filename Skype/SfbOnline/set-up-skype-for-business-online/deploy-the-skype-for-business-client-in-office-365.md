@@ -1,5 +1,5 @@
 ---
-title: "部署 Office 365 中的业务客户端的 Skype"
+title: 部署 Office 365 中的业务客户端的 Skype
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "了解如何规划和部署业务的 Skype 在小型、 中型和大型企业，并将它们提供给您的用户。 "
-ms.openlocfilehash: 09600c29d2df0299f326e64f75c6b4b7e5ee5178
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: '了解如何规划和部署业务的 Skype 在小型、 中型和大型企业，并将它们提供给您的用户。 '
+ms.openlocfilehash: ee7799116f20a8ca1e9f1cb71d8616d44df93c8e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>部署 Office 365 中的业务客户端的 Skype
 
@@ -153,5 +153,5 @@ ms.lasthandoff: 02/27/2018
   
 [Skype for Business 和 Microsoft Teams 外接程序许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

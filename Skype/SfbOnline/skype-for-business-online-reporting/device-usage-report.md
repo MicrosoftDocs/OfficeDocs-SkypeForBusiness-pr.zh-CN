@@ -1,5 +1,5 @@
 ---
-title: "设备使用情况报告"
+title: 设备使用情况报告
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - O365E_ReportsS4BClients
 ms.custom:
 - Reporting
-description: "全新的 Office 365 报告仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，可以使用 Skype 业务设备使用情况报告为要查看的设备，其中包括基于 Windows 的操作系统和 Skype 的业务应用程序的移动设备安装，并将其用于即时消息和会议。 签出在 Office 365 管理中心活动报告，以了解详细信息。"
-ms.openlocfilehash: eef16b8c41ff80d3d472c2efe851d4275f9eb327
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 全新的 Office 365 报告仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，可以使用 Skype 业务设备使用情况报告为要查看的设备，其中包括基于 Windows 的操作系统和 Skype 的业务应用程序的移动设备安装，并将其用于即时消息和会议。 签出在 Office 365 管理中心活动报告，以了解详细信息。
+ms.openlocfilehash: ce749a1439a0cab0edcc0bdd85b34ff0b462bad8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="device-usage-report"></a>设备使用情况报告
 
@@ -108,3 +108,6 @@ ms.lasthandoff: 02/19/2018
     
 ## <a name="related-topics"></a>相关主题
 [Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+
+  
+ 

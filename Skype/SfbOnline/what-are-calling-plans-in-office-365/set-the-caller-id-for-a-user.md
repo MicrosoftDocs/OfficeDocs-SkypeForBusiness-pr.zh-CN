@@ -1,5 +1,5 @@
 ---
-title: "为用户设置来电显示"
+title: 为用户设置来电显示
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Office 365 中的电话系统提供用户的指定的电话号码的默认呼叫方 ID。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 您可以了解有关如何使用您的组织中如何呼叫方 ID 可在您的组织的转的呼叫方 ID 的详细信息。"
-ms.openlocfilehash: 241f75b50a0e874fc4b11213cc80e99f166da937
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: Office 365 中的电话系统提供用户的指定的电话号码的默认呼叫方 ID。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 您可以了解有关如何使用您的组织中如何呼叫方 ID 可在您的组织的转的呼叫方 ID 的详细信息。
+ms.openlocfilehash: 07fc6db1a161f8eca83ea601e1a8f5d70e1f1d5e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-the-caller-id-for-a-user"></a>为用户设置来电显示
 Office 365 中的电话系统提供用户的指定的电话号码的默认呼叫方 ID。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 您可以了解有关如何使用您的组织中[如何呼叫方 ID 可在您的组织](how-can-caller-id-be-used-in-your-organization.md)通过的呼叫方 ID 的详细信息。
@@ -186,7 +186,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
   
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

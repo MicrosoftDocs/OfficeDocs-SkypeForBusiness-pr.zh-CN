@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是可用的澳大利亚 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
-ms.openlocfilehash: ec5ac53fc0688aeb6ed960f64c5ffb35ceb216f9
-ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+ms.openlocfilehash: a8879ca9787caad1c82333b04d812a589abc3511
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-australia"></a>在澳大利亚的可用性
 
@@ -84,6 +84,3 @@ ms.lasthandoff: 03/28/2018
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

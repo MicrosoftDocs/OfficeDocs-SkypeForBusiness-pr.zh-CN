@@ -1,5 +1,5 @@
 ---
-title: "下载并安装 Windows PowerShell 3.0"
+title: 下载并安装 Windows PowerShell 3.0
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 - LIL_Placement
-description: "下载、 安装和使用 Windows PowerShell 3.0 创建远程 PowerShell 会话连接到 Skype 的在线业务。"
-ms.openlocfilehash: 28f4db7492c233f5cfa16137d77ed8e0dc4a6572
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 下载、 安装和使用 Windows PowerShell 3.0 创建远程 PowerShell 会话连接到 Skype 的在线业务。
+ms.openlocfilehash: 56e0c885d25510156b7336e63f83c89c29b07fb4
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="download-and-install-windows-powershell-30"></a>下载并安装 Windows PowerShell 3.0
 
@@ -150,5 +150,5 @@ Auth
 ## <a name="related-topics"></a>相关主题
 [为 Windows PowerShell 设置计算机](set-up-your-computer-for-windows-powershell.md) 
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

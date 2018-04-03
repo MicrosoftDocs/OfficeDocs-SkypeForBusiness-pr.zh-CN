@@ -1,5 +1,5 @@
 ---
-title: "您的组织中设置电话系统"
+title: 您的组织中设置电话系统
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "了解如何为您的组织设置电话系统 (云 PBX)。 "
-ms.openlocfilehash: dfecf35e4e10f74adfcb4d237e4f03c72048ed68
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: '了解如何为您的组织设置电话系统 (云 PBX)。 '
+ms.openlocfilehash: a9715797284f08c3d7f2ecbf3ba45a9269a5e0e0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>您的组织中设置电话系统
 
@@ -183,11 +183,7 @@ ms.lasthandoff: 03/08/2018
     
     - **第三方音频会议提供商为**： 如果您是在国家 Office 365 中的音频会议不可用，由于它的位置，服务质量不好或有现有的合同中，选择第三方音频会议提供商。 若要查找提供程序，请转到[Microsoft 查明其](http://go.microsoft.com/fwlink/?LinkId=797530)。
  
-2.  音频会议提供商给人造成或安排会议。 执行下列操作之一： 
-
-    - [作为音频会议提供商指定的 Microsoft](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)。
-    
-    - [指定音频会议提供商作为第三方](../audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider.md)。
+2.  音频会议提供商给人造成或安排会议。 请参阅[分配作为音频会议提供商](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)。
 
 3. 设置会议邀请。 以下步骤是可选的但大量的管理员要做这些： 
   
@@ -280,5 +276,5 @@ Before you can create and set up your call queues, you will need to get or trans
 
 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

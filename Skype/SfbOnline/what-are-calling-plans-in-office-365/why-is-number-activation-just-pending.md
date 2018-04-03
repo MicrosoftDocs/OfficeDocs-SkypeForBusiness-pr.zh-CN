@@ -1,5 +1,5 @@
 ---
-title: "为什么会只是等待号码激活呢？"
+title: 为什么会只是等待号码激活呢？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.NumberActivationStatePending
 ms.custom:
 - Calling Plans
-description: "地址验证是在 Office 365 中设置通话套餐的重要步骤。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。"
-ms.openlocfilehash: 9e11ffdc522b02082f7a4eb6fcab993a9fa33589
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 地址验证是在 Office 365 中设置通话套餐的重要步骤。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
+ms.openlocfilehash: 0ef01cb445f2dff18638c1714f3e71c9655018e1
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="why-is-number-activation-just-pending"></a>为什么会只是等待号码激活呢？
 
@@ -107,3 +107,6 @@ ms.lasthandoff: 02/19/2018
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

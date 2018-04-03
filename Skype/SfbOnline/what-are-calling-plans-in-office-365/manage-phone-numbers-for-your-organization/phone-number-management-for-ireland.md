@@ -1,5 +1,5 @@
 ---
-title: "爱尔兰的电话号码管理"
+title: 爱尔兰的电话号码管理
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的爱尔兰电话号码的信息。"
-ms.openlocfilehash: c92d80a5d09fbbaa0aedc58f8008925bf5b175d0
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的爱尔兰电话号码的信息。
+ms.openlocfilehash: 44d108e813d6a15cafb507a9a8647c4a7e32adb2
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="phone-number-management-for-ireland"></a>爱尔兰的电话号码管理
 
@@ -35,6 +37,7 @@ ms.lasthandoff: 02/19/2018
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
 |获取新的用户电话号码。  <br/> |在爱尔兰，你无法使用 Skype for Business 管理中心为你的组织获取电话号码。 你必须提交新的电话号码申请。 下载[爱尔兰的新电话号码申请（地理号码）(v.3.0)(en-us)](../../downloads/new-number-request-forms/new-phone-number-request-for-ireland-(geographic-numbers)-(v.3.0)-(en-us).pdf) 表单，填写此表单并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
+|在 Skype 获得业务管理中心没有列出的新服务电话号码。 <br/> |在美国以外的服务编号，请[下载此窗体](../../downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf)，填充出来并[将其发送给我们](mailto:ptneu@microsoft.com)。
 |你需要将电话号码转移给我们。  <br/> |下载下列表单之一： <br/> [爱尔兰授权书 (LOA)（地理号码）(v.3.0)(en-us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(geographic-numbers)-(v.1.0)-(en-us).pdf) <br/> [爱尔兰授权书 (LOA)（非地理号码）(v.1.0)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(non-geographic-numbers)-(v.1.0)-(en-us).pdf) <br/>  <br/>  填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
 |你需要在国家电话目录中发布/取消发布电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
 |你需要将用户的号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com )你想要转换为服务号码的用户号码列表。 <br/> |
@@ -48,3 +51,5 @@ ms.lasthandoff: 02/19/2018
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
 
+  
+ 

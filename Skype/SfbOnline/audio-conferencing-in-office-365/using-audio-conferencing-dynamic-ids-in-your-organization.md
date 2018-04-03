@@ -1,5 +1,5 @@
 ---
-title: "在您的组织中使用音频会议动态 Id"
+title: 在您的组织中使用音频会议动态 Id
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "正在更新音频会议服务以提供每个 Skype 业务和 Microsoft 小组会议与其他会议 Id。 动态的会议 Id 通过静态的会议 Id，是一项显著改进，因为它们提供了："
-ms.openlocfilehash: c4158537f7c36299a82df92d3c6ced6cb6189315
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: 正在更新音频会议服务以提供每个 Skype 业务和 Microsoft 小组会议与其他会议 Id。 动态的会议 Id 通过静态的会议 Id，是一项显著改进，因为它们提供了：
+ms.openlocfilehash: 418e6f486b8108791930c7843bfed8bdc56e83ef
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="using-audio-conferencing-dynamic-ids-in-your-organization"></a>在您的组织中使用音频会议动态 Id
 
@@ -61,7 +61,5 @@ ms.lasthandoff: 03/16/2018
 ## <a name="related-topics"></a>相关主题
 
 - [设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-    
-- [设置音频会议 for Skype Business 和 Microsoft 团队](set-up-audio-conferencing.md)
     
 - [Skype for Business 和 Microsoft Teams 外接程序许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)

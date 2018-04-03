@@ -1,5 +1,5 @@
 ---
-title: "将计算机设置为 Windows PowerShell"
+title: 将计算机设置为 Windows PowerShell
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: "查明的 Skype 通过 Windows PowerShell 在线业务的远程管理的要求，其中包括受支持的操作系统。"
-ms.openlocfilehash: 964a2263fed0984a6e0ed7efc982a9a76021b3f1
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 查明的 Skype 通过 Windows PowerShell 在线业务的远程管理的要求，其中包括受支持的操作系统。
+ms.openlocfilehash: 16ff297e7a7730bdba9a0172efe6d1c559f3050e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>将计算机设置为 Windows PowerShell
 
@@ -56,5 +56,5 @@ ms.lasthandoff: 02/27/2018
 ## <a name="related-topics"></a>相关主题
 [诊断连接问题与 Skype 业务在线连接器](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

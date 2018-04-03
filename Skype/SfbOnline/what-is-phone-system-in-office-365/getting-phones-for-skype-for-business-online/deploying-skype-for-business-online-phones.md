@@ -1,5 +1,5 @@
 ---
-title: "部署 Skype for Business Online 电话"
+title: 部署 Skype for Business Online 电话
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "了解部署步骤获得正确的固件、 如果需要更新、 分配许可证，和配置设置的 Skype 业务在线电话"
-ms.openlocfilehash: c6321222cdd3f6a5214ff17ac950da397b73baf9
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
+description: 了解部署步骤获得正确的固件、 如果需要更新、 分配许可证，和配置设置的 Skype 业务在线电话
+ms.openlocfilehash: ee6f8e0b892b8cef1c70c7bc01ba7e7d9c4cb8e8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>部署 Skype for Business Online 电话
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 03/05/2018
 
 开始之前，最好先下载电话制造商的管理指南和电话用户手册。
   
-- Polycom 电话请参见 [Polycom 部署指南] ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)。
+- Polycom 电话，请参阅 [Polycom 部署指南] ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)。
     
 - Yealink 的电话，请参阅[Yealink Skype 业务高清 SIP 电话解决方案](http://www.yealink.com/products_top_2.html)。
     
@@ -226,5 +226,5 @@ BToE 是 paining 合作伙伴 IP 电话机制对用户的电话，与他们的�
 
 [音频会议和通话套餐的国家/地区可用性](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

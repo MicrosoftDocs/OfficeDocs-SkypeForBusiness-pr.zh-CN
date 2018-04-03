@@ -1,5 +1,5 @@
 ---
-title: "投诉处理代码为大不列颠及北爱尔兰联合王国 （英国）"
+title: 投诉处理代码为大不列颠及北爱尔兰联合王国 （英国）
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
+hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 3a75a9900907963db52c659631fe99e07a7c6ec8
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 1c67d16704f93d256a66595ffacdd4ed70c5b439
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>投诉处理代码为大不列颠及北爱尔兰联合王国 （英国）
 
@@ -62,7 +62,7 @@ Ombudsman Services 独立于 Microsoft，它会对投诉案情作出公正的决
   
 通过填写联系人窗体 Ombudsman 服务的网站上或通过电话、 信件或电子邮件时，可能会达到 Ombudsman 服务：
   
-- 联系人窗体： [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
+- 联系表格： [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
     
 - 电话： 0330 440 1614
     
@@ -86,5 +86,3 @@ Ombudsman Services 独立于 Microsoft，它会对投诉案情作出公正的决
 ## <a name="related-topics"></a>相关主题
 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

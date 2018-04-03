@@ -1,12 +1,12 @@
 ---
-title: "Skype 业务调用分析设置"
+title: Skype 业务调用分析设置
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
 ms.date: 01/22/2018
 ms.topic: article
-ms.assetid: 
+ms.assetid: ''
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "设置和使用调用分析来识别和解决 Skype 的通话质量问题，业务和 Microsoft 小组。"
-ms.openlocfilehash: ef8f9e10e25e7f67f0161a143c313ed25330db18
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 设置和使用调用分析来识别和解决 Skype 的通话质量问题，业务和 Microsoft 小组。
+ms.openlocfilehash: 0169d8e2008ce0d87f4ee666663d4d8ccb71d1b8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-skype-for-business-call-analytics"></a>Skype 业务调用分析设置
 
@@ -72,7 +72,7 @@ Skype 的在线业务的管理，您可以使用调用分析来解决 Skype 业�
     
      ![屏幕抓图显示了使用第 1 层和 2 层权限选项调用分析页面的权限。](../images/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
   
- 通过专用的 URL *https://adminportal.services.skypeforbusiness.com*调用分析获得与这些权限级别的用户。
+ 与这些权限级别的用户到达通过专用的 URL 调用分析*https://adminportal.services.skypeforbusiness.com*。
   
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>传.tsv 或.csv 文件添加构建，站点，和租户信息
 <a name="BKMK_UploadFiles"> </a>
@@ -92,5 +92,5 @@ Skype 的在线业务的管理，您可以使用调用分析来解决 Skype 业�
 
 [通话分析与通话质量仪表板之间有何区别？](difference-between-call-analytics-and-call-quality-dashboard.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

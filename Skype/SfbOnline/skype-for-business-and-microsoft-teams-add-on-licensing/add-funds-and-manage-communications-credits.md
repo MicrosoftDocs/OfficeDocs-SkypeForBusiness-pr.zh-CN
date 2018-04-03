@@ -1,5 +1,5 @@
 ---
-title: "添加资金和管理通信片尾"
+title: 添加资金和管理通信片尾
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -29,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 - Strat_SB_PSTN
-description: "了解如何支付通信贷方 （PSTN 消耗量） Skype 业务服务和计划，以保障连续电话系统访问权限的用户，请参阅。 "
-ms.openlocfilehash: a53c2e1f92437afa134a26f7203cb36c7714219a
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: '了解如何支付通信贷方 （PSTN 消耗量） Skype 业务服务和计划，以保障连续电话系统访问权限的用户，请参阅。 '
+ms.openlocfilehash: c9eb2cb23b4d7be58970a28c928d7c839c30db4b
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>添加资金和管理通信片尾
 
@@ -84,13 +84,11 @@ ms.lasthandoff: 03/08/2018
 
 - [设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [设置音频会议 for Skype Business 和 Microsoft 团队](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-    
 - [设置电话系统语音邮件 - 管理员帮助](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [设置调用计划](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)和[Office 365 调用计划](calling-plans-for-office-365.md)
         
 - [将云连接器配置](https://technet.microsoft.com/en-us/library/mt605228.aspx)并[下载云连接器](https://aka.ms/CloudConnectorInstaller)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

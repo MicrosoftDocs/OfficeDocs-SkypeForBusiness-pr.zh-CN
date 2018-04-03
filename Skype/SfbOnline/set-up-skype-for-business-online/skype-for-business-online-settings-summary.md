@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business Online 设置摘要"
+title: Skype for Business Online 设置摘要
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ ROBOTS: NOIDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Setup
-description: "Skype 的业务组织和用户设置此摘要可以帮助您了解更多有关公用 IM 连接，会议邀请、 录音电话和会议，等等。  "
-ms.openlocfilehash: 0f9bbf7e24d268cb4690212fc3f70abfd024c871
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Skype 的业务组织和用户设置此摘要可以帮助您了解更多有关公用 IM 连接，会议邀请、 录音电话和会议，等等。  '
+ms.openlocfilehash: f730b18110f4c114ebb414a2aa863a9194b427a0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Skype for Business Online 设置摘要
 
@@ -56,3 +56,6 @@ ms.lasthandoff: 02/19/2018
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
 
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
+
+  
+ 

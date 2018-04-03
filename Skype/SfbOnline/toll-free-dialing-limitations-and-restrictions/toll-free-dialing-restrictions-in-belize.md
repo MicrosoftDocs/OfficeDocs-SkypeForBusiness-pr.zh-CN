@@ -1,5 +1,5 @@
 ---
-title: "在伯利兹的免费电话拨号限制"
+title: 在伯利兹的免费电话拨号限制
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: "这将帮助您了解如何拨打免费电话在每个国家/地区。 选择国家/地区后，它将向特定国家的页包含的特定详细信息、 限制和的免费电话服务的可用性限制免费服务不可。 拨号格式将显示您所需的访问码，每个国家/地区拨打免费电话号码。"
-ms.openlocfilehash: 4c530112f9bbbec4347a3105a36ad290b13a75d4
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 这将帮助您了解如何拨打免费电话在每个国家/地区。 选择国家/地区后，它将向特定国家的页包含的特定详细信息、 限制和的免费电话服务的可用性限制免费服务不可。 拨号格式将显示您所需的访问码，每个国家/地区拨打免费电话号码。
+ms.openlocfilehash: 4684f6989f9dd585dfe7c65a062b6e40b0f3edfe
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-belize"></a>在伯利兹的免费电话拨号限制
 
@@ -47,3 +47,5 @@ ms.lasthandoff: 02/19/2018
 
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
+  
+ 

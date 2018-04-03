@@ -1,5 +1,5 @@
 ---
-title: "获取服务的电话号码"
+title: 获取服务的电话号码
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: e434aeb2-af99-40e7-981e-a474f0383734
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "除了从 Office 365 提供为您的用户获取电话号码，您可以搜索并获得收费或免费电话号码 （用于会议桥） 音频会议、 自动助理和呼叫队列 （也称为服务号码） 等服务。 服务电话号码具有比用户或订阅者电话号码更高的并发呼叫容量。"
-ms.openlocfilehash: 16b152fd738b76f0abcfe7e93f2e6a43a2ac55bb
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 除了从 Office 365 提供为您的用户获取电话号码，您可以搜索并获得收费或免费电话号码 （用于会议桥） 音频会议、 自动助理和呼叫队列 （也称为服务号码） 等服务。 服务电话号码具有比用户或订阅者电话号码更高的并发呼叫容量。
+ms.openlocfilehash: 9de4029d38d661ff6e95bbf999146931cda6406b
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="getting-service-phone-numbers"></a>获取服务的电话号码
 
@@ -85,3 +87,6 @@ ms.lasthandoff: 02/19/2018
 [下面是 Office 365 中的电话系统的功能](here-s-what-you-get-with-phone-system.md)
 
 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+  
+ 

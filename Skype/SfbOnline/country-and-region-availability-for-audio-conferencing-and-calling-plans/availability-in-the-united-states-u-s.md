@@ -1,5 +1,5 @@
 ---
-title: "在美国 （美国） 的可用性"
+title: 在美国 （美国） 的可用性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "此处为美国提供了 Skype 业务和 Microsoft 小组的 Office 365 提供服务。"
-ms.openlocfilehash: e0f87e8c75fed8bf45dcf122808b8a7f8b5cd9fc
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 此处为美国提供了 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
+ms.openlocfilehash: 61438e063b540f3eea5b114aa109c0cca4cfe77a
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-the-united-states-us"></a>在美国 （美国） 的可用性
 
@@ -83,5 +83,6 @@ ms.lasthandoff: 02/19/2018
 
 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+  
+ 
 

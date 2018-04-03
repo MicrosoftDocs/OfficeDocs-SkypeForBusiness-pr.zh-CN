@@ -1,5 +1,5 @@
 ---
-title: "Office 365 的通话方案"
+title: Office 365 的通话方案
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -26,11 +26,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 53898ee5c2ac46deca22e8ea0bbfbd327868dfb3
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: 3643819eb5d085580164b837d70250e79bd464f3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365 的通话方案
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 03/08/2018
     ![购买您的云 PBX 许可证时，您将看到一个选项来购买语音拨打计划。](../images/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > 这取决于您的计划，您可能需要购买多个加载项，您可以购买电话系统许可证之前。 若要了解详细信息，请参阅[我需要购买以获得更多的功能的附加许可？](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_whichaddons)
+    > 这取决于您的计划，您可能需要购买多个加载项，您可以购买电话系统许可证之前。 要了解更多信息，看到[Skype 业务和 Microsoft 小组授权加载项](skype-for-business-and-microsoft-teams-add-on-licensing.md)在"许可证选项根据您的计划"。
   
 2. 购买电话系统许可证后，您可以通过登录到**Office 365 管理中心**购买调用计划、 选择**帐单** > **采购服务** > **附加订阅**，然后单击**立即购买**。 您会看到调用计划存在。
     
@@ -99,8 +99,6 @@ ms.lasthandoff: 03/08/2018
 
 - [设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [设置音频会议 for Skype Business 和 Microsoft 团队](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-    
 - [设置电话系统语音邮件 - 管理员帮助](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [设置通话套餐](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
@@ -109,5 +107,5 @@ ms.lasthandoff: 03/08/2018
     
 - [将云连接器配置](https://technet.microsoft.com/en-us/library/mt605228.aspx)并[下载云连接器](https://aka.ms/CloudConnectorInstaller)
   
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

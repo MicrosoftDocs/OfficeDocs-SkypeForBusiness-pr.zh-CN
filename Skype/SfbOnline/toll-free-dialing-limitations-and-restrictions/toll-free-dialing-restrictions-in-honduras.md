@@ -1,5 +1,5 @@
 ---
-title: "在洪都拉斯的免费电话拨号限制"
+title: 在洪都拉斯的免费电话拨号限制
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: "这将帮助您了解如何拨打免费电话在每个国家/地区。 选择国家/地区后，它将向特定国家的页包含的特定详细信息、 限制和的免费电话服务的可用性限制免费服务不可。 拨号格式将显示您所需的访问码，每个国家/地区拨打免费电话号码。"
-ms.openlocfilehash: 9d72d459dc78bd2629fc933e8239419e79f8d4a0
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 这将帮助您了解如何拨打免费电话在每个国家/地区。 选择国家/地区后，它将向特定国家的页包含的特定详细信息、 限制和的免费电话服务的可用性限制免费服务不可。 拨号格式将显示您所需的访问码，每个国家/地区拨打免费电话号码。
+ms.openlocfilehash: e8ded971205c4d373bd6ac62dfbce59220f6be86
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-honduras"></a>在洪都拉斯的免费电话拨号限制
 
@@ -48,5 +48,5 @@ ms.lasthandoff: 02/27/2018
 
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

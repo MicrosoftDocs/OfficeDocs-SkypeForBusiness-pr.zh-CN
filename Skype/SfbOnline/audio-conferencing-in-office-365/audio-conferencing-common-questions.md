@@ -1,5 +1,5 @@
 ---
-title: "音频会议常见问题"
+title: 音频会议常见问题
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,19 +21,17 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "下面是一些最重要的问题我们让我们的客户想要使用音频会议。"
-ms.openlocfilehash: e699cd6a8c481df892114af5365866df8169019e
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: 下面是一些最重要的问题我们让我们的客户想要使用音频会议。
+ms.openlocfilehash: f31f6744fa04697aa2ff24455aa440769f0f824b
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-common-questions"></a>音频会议常见问题
 
 下面是一些最重要的问题我们让我们的客户想要使用音频会议。 
   
-音频会议设置的分步说明，请参阅[设置用于商业和 Microsoft 小组 Skype 的音频会议](set-up-audio-conferencing.md)。
-
 ## <a name="what-are-the-benefits-of-audio-conferencing"></a>音频会议的好处有哪些？
 
 会议呼叫会非常有用，当人在路上，例如，不能参加会议的业务或 Microsoft 小组其便携式计算机或移动设备上的应用程序使用 Skype。 但有其他方案中的使用电话业务或 Microsoft 小组参加 Skype 会议也可能是更好的选择，比在一台计算机上使用的应用程序：
@@ -152,8 +150,6 @@ Skype 为业务或 Microsoft 小组的用户可以通过电子邮件将发送给
    
 ## <a name="related-topics"></a>相关主题
 
-[设置音频会议 for Skype Business 和 Microsoft 团队](set-up-audio-conferencing.md)
-  
 [设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
 [音频会议的电话号码](phone-numbers-for-audio-conferencing.md)

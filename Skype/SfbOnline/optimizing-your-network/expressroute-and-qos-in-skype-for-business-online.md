@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business Online 中的 ExpressRoute 和 QoS"
+title: Skype for Business Online 中的 ExpressRoute 和 QoS
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: 0d2e0cf33df896a3d3cd70f134ae2ab7d5ffc903
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: ae647dc469676b3fa94723f020fd8ac641aa7dd0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>Skype for Business Online 中的 ExpressRoute 和 QoS
 
@@ -404,5 +404,5 @@ Skype for Business 增强了进行业务通信的方式。 Skype for Business �
 
 [ExpressRoute 文档](https://go.microsoft.com/fwlink/?LinkId=690285)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置 Skype 会议室系统 v2 控制台设备及其外围设备。
-ms.openlocfilehash: 6ca029fa7f5560dfdfebd789938d9b53ff2e9abc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6e2ec8384387cefd074342abb3da316288af1f0f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>配置 Skype 会议室系统 v2 控制台
  
@@ -70,13 +70,9 @@ Surface Pro 4 或 Surface Pro 上安装 Skype 的空间系统 v2 应用程序需
     
 5. 启动 Windows 安装程序后，释放调低音量 (-) 按钮。
     
-6. Skype 的空间系统 v2 设备启动后第一次，其行为将取决于在 AutoUnattend.xml 文件中使用 Sysprep.exe 哪个版本 （请参阅[准备安装映像](console.md#Prep_Image)的步骤 7）：
+6. 安装完成后，系统将关闭。
     
-   - 如果启用了 /shutdown 版本的命令，系统将继续执行安装并最终关闭。关闭后，你可以引导至包含 Windows PE 的外部媒体，并使用 DISM 安装语言包、应用映像、从计算机捕获引用映像或执行其他操作。
-    
-   - 如果启用了 /reboot 版本的命令，系统将继续执行安装并最终要求用户选择其区域设置。 选择此选项后，Skype 的空间系统 v2 设备将引导至其初始启动进程。 请参阅[控制台的初始设置](console.md#Initial)
-    
-关闭或重新启动系统后，安全做法是移除 USB 安装盘。 此时，可以将平板电脑置于扩展坞中，并连接会议室所需的外围设备。 请参阅制造商说明。
+系统关闭后，则可以安全地删除 USB 安装盘。 此时，可以将平板电脑置于扩展坞中，并连接会议室所需的外围设备。 请参阅制造商说明。
   
  
 ### <a name="selecting-a-language-in-creators-update"></a>在 Creator Update 中选择语言

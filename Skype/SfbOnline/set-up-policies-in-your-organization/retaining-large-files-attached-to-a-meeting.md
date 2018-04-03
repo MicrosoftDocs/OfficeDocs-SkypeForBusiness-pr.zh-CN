@@ -1,5 +1,5 @@
 ---
-title: "保留大型商务会议 Skype 所附的文件"
+title: 保留大型商务会议 Skype 所附的文件
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "您可以将文件附加到商务会议，哪些参与者然后可以打开并下载 Skype。 附加到 Skype 的用于业务会议的文件保留在其邮箱置于诉讼封存，有应用，Office 365 保留策略或保留与 eDiscovery 案例在 Office 365 安全关联上放置任何参与者的邮箱&amp;法规遵从性中心。 此内容将保存到他们的邮箱中的参与者的恢复项目文件夹。"
-ms.openlocfilehash: fb20055106362143b5c4573115e095637d873599
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 您可以将文件附加到商务会议，哪些参与者然后可以打开并下载 Skype。 附加到 Skype 的用于业务会议的文件保留在其邮箱置于诉讼封存，有应用，Office 365 保留策略或保留与 eDiscovery 案例在 Office 365 安全关联上放置任何参与者的邮箱&amp;法规遵从性中心。 此内容将保存到他们的邮箱中的参与者的恢复项目文件夹。
+ms.openlocfilehash: c2f032a34cc5de604bb5437554add885c29645a0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>保留大型商务会议 Skype 所附的文件
 
@@ -44,5 +44,5 @@ ms.lasthandoff: 02/27/2018
 
 [设置您的组织中的会议策略](set-up-conferencing-policies-for-your-organization.md)
   
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

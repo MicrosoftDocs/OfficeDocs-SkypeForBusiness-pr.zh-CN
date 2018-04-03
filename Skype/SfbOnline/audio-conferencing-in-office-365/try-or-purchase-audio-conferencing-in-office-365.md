@@ -1,5 +1,5 @@
 ---
-title: "请尝试或购买 Office 365 中的音频会议"
+title: 请尝试或购买 Office 365 中的音频会议
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "请参阅如何尝试或购买 Office 365 可以设置用户可以拨入的会议呼叫的音频会议 （PSTN 会议） 许可证。 "
-ms.openlocfilehash: ff46a3285a2db4e901388cc3b5dd5bc8045ccfb5
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: '请参阅如何尝试或购买 Office 365 可以设置用户可以拨入的会议呼叫的音频会议 （PSTN 会议） 许可证。 '
+ms.openlocfilehash: 1dda3a2ecc24e512e9d614b42292233471525805
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365"></a>请尝试或购买 Office 365 中的音频会议
 
@@ -75,7 +75,7 @@ ms.lasthandoff: 03/16/2018
   
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>步骤 2： 设置音频会议提供商的潜在顾客或安排会议的人员
 
-当您将**音频会议**许可分配给组织中的人员，领导或安排会议时，它们是所有的设置和准备就绪 ！ （您不必设置其音频会议提供商。）但如果必须一直使用第三方音频会议提供商 (ACP) 的用户，您将需要[移动用户的音频会议提供商给 Microsoft](moving-a-user-s-audio-conferencing-provider-to-microsoft.md)。
+当您将**音频会议**许可分配给组织中的人员，领导或安排会议时，它们是所有的设置和准备就绪 ！ （您不必设置其音频会议提供商。） 
   
 > [!NOTE]
 > 如果您想要使用第三方 ACP，选择**音频会议** > **Microsoft 桥**。 At the bottom of the page, click **If you would like to configure a third-party audio conferencing provider instead, click here**. 

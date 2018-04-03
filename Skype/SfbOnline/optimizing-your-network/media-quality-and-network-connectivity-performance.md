@@ -1,5 +1,5 @@
 ---
-title: "媒体质量和网络连接的性能"
+title: 媒体质量和网络连接的性能
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: "本主题定义的一套商业在线服务 Skype 的网络性能要求和如何选择要用于互联网或 ExpressRoute 网络和 Skype 之间的连接性在线业务基于网络的评估连接性。 如果您已决定部署专用连接到 Office 365 的 Azure ExpressRoute，本文档还如何规划您的 ExpressRoute 连接不同 Skype 的在线业务的部署方案中提供指导。"
-ms.openlocfilehash: 7b68253fe44850009639de57eadee2edefeb5e0c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 本主题定义的一套商业在线服务 Skype 的网络性能要求和如何选择要用于互联网或 ExpressRoute 网络和 Skype 之间的连接性在线业务基于网络的评估连接性。 如果您已决定部署专用连接到 Office 365 的 Azure ExpressRoute，本文档还如何规划您的 ExpressRoute 连接不同 Skype 的在线业务的部署方案中提供指导。
+ms.openlocfilehash: 11808a2462fff5ec5c3d6472d060dbba698735f3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>媒体质量和网络连接的性能在 Skype 的在线业务
 
@@ -341,3 +341,5 @@ BGP 社区支持，Microsoft 将使用基于的服务所属的适当 BGP 社区�
 
 [Skype for Business Online 中的 ExpressRoute 和 QoS](expressroute-and-qos-in-skype-for-business-online.md)
 
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "传送电话号码的常见问题"
+title: 传送电话号码的常见问题
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "以下是有关常见问题将电话号码转到 Skype 的业务。 复查答案，您应该准备好创建端口订单和转移您的电话号码。 到 Office 365 的传输电话号码的说明，请参阅。"
-ms.openlocfilehash: a7b6b9ea1b028f6578b13f29706c25fb182befc1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 以下是有关常见问题将电话号码转到 Skype 的业务。 复查答案，您应该准备好创建端口订单和转移您的电话号码。 到 Office 365 的传输电话号码的说明，请参阅。
+ms.openlocfilehash: ce62365c337d94c05c7ca1b3ff1703cb39086f97
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>传送电话号码的常见问题
 
@@ -62,7 +64,7 @@ ms.lasthandoff: 02/19/2018
     
 - 来自电话提供商（如 Vonage 或 RingCentral）的电话号码。
     
-- Skype 的混合业务的电话号码。 如果您想要转换这些数据，您需要在<ptn@microsoft.com>给我们发送电子邮件。
+- Skype 的混合业务的电话号码。 如果您想要转换这些数据，您需要发送电子邮件给我们在<ptn@microsoft.com>。
     
  **你无法转移：**
   
@@ -117,7 +119,7 @@ ms.lasthandoff: 02/19/2018
     
 - 带区号的 **免费号码** （如 800、844、855、866、877 和 888）不能包含在其他号码类型的携号转网请求中。 移植这些免费电话号码，您必须[手动提交自定义服务请求](manually-submit-a-custom-service-request.md);不能为业务管理中心 Skype 提交它们。 [管理您的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，请参阅。
     
-    针对要转网的电话号码的国家/地区和类型使用正确的 LOA 是非常重要的。 可以从[下载授权书 (LOA)](download-a-letter-of-authorization-loa.md)下载 LOA。 [管理您的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，请参阅。
+    针对要转网的电话号码的国家/地区和类型使用正确的 LOA 是非常重要的。 您可以下载您需要[下载字母的授权 (LOA) 所需](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)的保证书。
     
 - **移动电话号码** 需使用 PIN 码来授权转移操作。因此，它们需要单独的携号转网请求。
     
@@ -176,4 +178,5 @@ You can check the status of your port order by going to the Skype for Business a
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
   
-
+  
+ 

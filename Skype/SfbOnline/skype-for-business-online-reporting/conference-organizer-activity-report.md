@@ -1,5 +1,5 @@
 ---
-title: "会议组织者活动报告"
+title: 会议组织者活动报告
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: ec7292f1651123d05466cb24bcce4ef7a84f2323
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 3c980c7f72113ab1cd013902904405ea981ea560
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="conference-organizer-activity-report"></a>会议组织者活动报告
 
@@ -120,3 +120,5 @@ ms.lasthandoff: 02/19/2018
 ## <a name="related-topics"></a>相关主题
 [Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
+  
+ 

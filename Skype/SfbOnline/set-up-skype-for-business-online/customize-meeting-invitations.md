@@ -1,5 +1,5 @@
 ---
-title: "自定义会议邀请"
+title: 自定义会议邀请
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ f1keywords:
 - ms.lync.lac.MeetingInvitation
 ms.custom:
 - Setup
-description: "自定义徽标图形、 帮助和法律 Url 和页脚文本与 Skype 会议邀请。 "
-ms.openlocfilehash: 374060876bcf12c5d7283586d3a04710a9b203b4
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: '自定义徽标图形、 帮助和法律 Url 和页脚文本与 Skype 会议邀请。 '
+ms.openlocfilehash: 202669b67cb8feb3af7216a2faf9400a014da88e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="customize-meeting-invitations"></a>自定义会议邀请
 
@@ -70,8 +70,7 @@ ms.lasthandoff: 02/27/2018
 ## <a name="related-topics"></a>相关主题
 <a name="__top"> </a>
 
+[试用或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
-[设置音频会议 for Skype Business 和 Microsoft 团队](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

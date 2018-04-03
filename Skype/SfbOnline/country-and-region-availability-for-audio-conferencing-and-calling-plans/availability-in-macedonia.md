@@ -1,5 +1,5 @@
 ---
-title: "在马其顿的可用性"
+title: 在马其顿的可用性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "以下是可用的马其顿 Skype 业务和 Microsoft 小组的 Office 365 提供服务。"
-ms.openlocfilehash: ce4cbebd73d9da89b6e660c950fe4ceebe8a383d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 以下是可用的马其顿 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
+ms.openlocfilehash: c888799589f8945298e02a7090c5977925a98369
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-macedonia"></a>在马其顿的可用性
 
@@ -83,5 +83,6 @@ ms.lasthandoff: 02/19/2018
 
 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+  
+ 
 

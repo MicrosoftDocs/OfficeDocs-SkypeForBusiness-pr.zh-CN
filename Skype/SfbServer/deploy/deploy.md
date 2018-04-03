@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: 摘要： 探讨这些链接以了解如何安装和配置 Skype 业务服务器 2015年和从 Lync Server 的早期版本升级而来。
-ms.openlocfilehash: d628c6a8c3e942c61d19f4ddfce1f45337110587
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: abce331272dc457bf3444281b810a1e571b1a545
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="deploy-skype-for-business-server-2015"></a>部署 Skype for Business Server 2015
  
@@ -59,6 +59,7 @@ Skype 业务服务器提供即时消息 (IM)、 出席、 会议、 视频和电
 |:-----|:-----|:-----|
 |![技术中心图标](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[适用于 IT 专业人员的业务服务器的 Skype](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |访问技术中心和资源中心，以访问视频、社区网站、文档、下载以及更多资源。  <br/> |
 |![开发人员内容图标](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype 开发平台](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |Skype 的开发人员资源查找业务服务器，包括代码示例、 培训和 Sdk。  <br/> |
-|![新闻、博客等图标](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[更改管理和采用](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [办公室的博客](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Office 365 技术博客](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Skype 团队博客](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |跟上新闻从创建的团队和文档 Skype 业务服务器。  <br/> |
+|![新闻、博客等图标](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[更改管理和采用](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [办公室的博客](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> 
+[Skype 团队博客](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |跟上新闻从创建的团队和文档 Skype 业务服务器。  <br/> |
    
 

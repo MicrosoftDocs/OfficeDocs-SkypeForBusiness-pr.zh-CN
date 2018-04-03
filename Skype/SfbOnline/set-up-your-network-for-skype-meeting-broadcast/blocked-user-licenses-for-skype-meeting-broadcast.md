@@ -1,5 +1,5 @@
 ---
-title: "Skype 会议广播为阻止用户许可证"
+title: Skype 会议广播为阻止用户许可证
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,16 +17,16 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: "遗憾的是，有某些被禁止的用户许可证当用户转到 https://broadcast.skype.com 并且想要使用 Skype 会议广播。 如果用户看到此消息，它们具有分配给它们的阻止许可证之一。 如果您仍然希望他们能够使用它，请将它们指派另一个 Office 365 提供许可证。"
-ms.openlocfilehash: b1de6b116793d74fc01d6c95138aa1d9a10ab2c9
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 遗憾的是，有某些被禁止的用户许可证当用户转到https://broadcast.skype.com，并且想要使用 Skype 会议广播。 如果用户看到此消息，它们具有分配给它们的阻止许可证之一。 如果您仍然希望他们能够使用它，请将它们指派另一个 Office 365 提供许可证。
+ms.openlocfilehash: 59b00fd9b7557177994a1d4279756c56aa5ba613
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Skype 会议广播为阻止用户许可证
 
-遗憾的是，将用户转到 https://broadcast.skype.com 并且想要使用 Skype 会议广播时，将禁用某些用户许可证。 如果用户看到此消息，它们具有分配给它们的阻止许可证之一。 如果您仍然希望他们能够使用它，请将它们指派另一个 Office 365 提供许可证。
+遗憾的是，有某些用户许可证，当用户转到阻止https://broadcast.skype.com并且想要使用 Skype 会议广播。 如果用户看到此消息，它们具有分配给它们的阻止许可证之一。 如果您仍然希望他们能够使用它，请将它们指派另一个 Office 365 提供许可证。
   
  *"您的公司策略不允许您使用 Skype 会议广播。请检查与您的系统管理员，以确保启用该服务，并且您具有正确的许可证。* 
   
@@ -70,5 +70,5 @@ ms.lasthandoff: 02/27/2018
   
 [设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

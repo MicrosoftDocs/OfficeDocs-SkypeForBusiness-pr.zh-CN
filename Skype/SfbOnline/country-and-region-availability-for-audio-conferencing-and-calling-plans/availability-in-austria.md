@@ -1,5 +1,5 @@
 ---
-title: "在奥地利的可用性"
+title: Availability in Austria
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,25 +21,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "以下是可用的奥地利 Skype 业务和 Microsoft 小组的 Office 365 提供服务。"
-ms.openlocfilehash: 44ac2b683ede8a0568ecfaaee944fd7596f7fe19
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Here are the Office 365 services for Skype for Business and Microsoft Teams available for Austria.
+ms.openlocfilehash: aa3b78dbd5c22137ec6887df19ecfa46da55b993
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
-# <a name="availability-in-austria"></a>在奥地利的可用性
+# <a name="availability-in-austria"></a>Availability in Austria
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-以下是可用的奥地利 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
+Here are the Office 365 services for Skype for Business and Microsoft Teams available for Austria.
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是的针对维也纳。 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |Yes, for Vienna. 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -83,5 +83,4 @@ ms.lasthandoff: 02/27/2018
 
 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+

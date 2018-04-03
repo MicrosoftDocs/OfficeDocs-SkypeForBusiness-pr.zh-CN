@@ -1,5 +1,5 @@
 ---
-title: "代码的做法的大不列颠及北爱尔兰联合王国 （英国）"
+title: 代码的做法的大不列颠及北爱尔兰联合王国 （英国）
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
+hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: ec34b528ed31f78e3c6075f357ff96c702371514
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: c1528d1ec28dd940b5b696dd03f9c389f6d16844
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="code-of-practice-for-the-united-kingdom-uk"></a>代码的做法的大不列颠及北爱尔兰联合王国 （英国）
 
@@ -114,7 +114,7 @@ Skype for Business 会将高价位服务呼叫发送给另一家电话公司（"
   
 ### <a name="phonepayplus"></a>PhonepayPlus
 
-所有服务提供商必须向 PhonepayPlus 注册，后者是 Ofcom 批准的独立组织。 PhonepayPlus 会监管高价位服务并调查消费者提出的投诉。 所有服务提供商必须都遵守的做法，可以在[http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice)上找到 PhonepayPlus 代码。 如果服务提供商违反该行为准则，PhonepayPlus 可以：
+所有服务提供商必须向 PhonepayPlus 注册，后者是 Ofcom 批准的独立组织。PhonepayPlus 会监管高价位服务并调查消费者提出的投诉。所有服务提供商必须遵守 PhonepayPlus 行为准则，可在以下位置找到该准则：[http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice)。如果服务提供商违反该行为准则，PhonepayPlus 可以：
   
 - 要求一方对违反行为加以补救
     
@@ -124,7 +124,7 @@ Skype for Business 会将高价位服务呼叫发送给另一家电话公司（"
     
 ### <a name="service-provider-contact-information"></a>服务提供商联系信息
 
-若要查找服务提供商的联系信息，可以在[http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)使用 PhonepayPlus 的 #NumberChecker 工具。 如果你认为自己被错误地收取了高价位服务费用，应直接联系服务提供商。
+要查找服务提供商的联系信息，可以访问以下站点使用 PhonepayPlus 的 #NumberChecker 工具：[http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)。如果你认为自己被错误地收取了高价位服务费用，应直接联系服务提供商。
   
 ### <a name="complaints"></a>投诉
 
@@ -132,7 +132,7 @@ Skype for Business 会将高价位服务呼叫发送给另一家电话公司（"
   
 - 电话：0300 30 300 20（周一至周五上午 9:30 至下午 5:00）
     
-- 在线查询： [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
+- 在线质询：[http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
     
 ### <a name="dispute-resolution"></a>争议解决
 
@@ -148,5 +148,3 @@ Skype for Business 会将高价位服务呼叫发送给另一家电话公司（"
 ## <a name="related-topics"></a>相关主题
 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

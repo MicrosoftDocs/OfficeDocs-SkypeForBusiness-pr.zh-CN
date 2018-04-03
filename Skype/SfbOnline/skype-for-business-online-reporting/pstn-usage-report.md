@@ -1,5 +1,5 @@
 ---
-title: "PSTN 使用情况报告"
+title: PSTN 使用情况报告
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "新 Skype 业务管理中心报告区域显示您呼叫和音频会议活动组织中。 它使您能够深入到报表，以使您更精确地了解每个用户的活动。 例如，你可以使用 Skype for Business PSTN 使用详细信息报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 您可以查看包括通话的成本，这样可以了解您的使用情况并调用记帐详细资料以确定您的组织中使用的音频会议 PSTN 使用状况细节。"
-ms.openlocfilehash: af7e33bc2cdc69d244eed1574ef5a075884f550d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 新 Skype 业务管理中心报告区域显示您呼叫和音频会议活动组织中。 它使您能够深入到报表，以使您更精确地了解每个用户的活动。 例如，你可以使用 Skype for Business PSTN 使用详细信息报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 您可以查看包括通话的成本，这样可以了解您的使用情况并调用记帐详细资料以确定您的组织中使用的音频会议 PSTN 使用状况细节。
+ms.openlocfilehash: c71987882d9c09549a2efb194fa284afaf534f78
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用情况报告
 
@@ -91,8 +91,10 @@ ms.lasthandoff: 02/19/2018
 ***
 ![2 号](../images/sfbcallout2.png)<br/>如果你希望创建将一列或多列中的所有数据进行分组的视图，请单击某个列并将其拖动到" **若要按特定列进行分组，请将列标题拖至此处**"。
  ***
-![数字 3](../images/sfbcallout3.png)<br/>你还可以单击或点击" **导出到 Excel**"按钮，将报告数据导出到 Excel .csv 文件中。 <br/><br/> 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。如果拥有的用户不足 2000 人，你可以在报告本身的表格中进行排序和筛选。如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。
-   
+![数字 3](../images/sfbcallout3.png)<br/>您还可以导出报表数据读入选项卡分隔 Excel 文件，通过单击或点击**导出到 Excel**按钮。 <br/><br/> 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果拥有的用户不足 2000 人，你可以在报告本身的表格中进行排序和筛选。 
+    > [!Note] 
+    > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
+
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他 Skype for Business 报告？
 
 - [Skype 的业务活动报告](activity-report.md)您可以看到多少用户使用对等、 有组织和参与了会议会话。
@@ -114,4 +116,5 @@ ms.lasthandoff: 02/19/2018
 ## <a name="related-topics"></a>相关主题
 [Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
-
+  
+ 

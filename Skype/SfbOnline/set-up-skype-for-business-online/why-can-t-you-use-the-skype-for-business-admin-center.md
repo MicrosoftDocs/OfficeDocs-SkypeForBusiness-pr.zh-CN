@@ -1,5 +1,5 @@
 ---
-title: "为什么不能使用 Skype 的在线业务管理中心现在？"
+title: 为什么不能使用 Skype 的在线业务管理中心现在？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - ms.lync.lac.TenantInMigration
 ms.custom:
 - Setup
-description: "了解并能在中使用 Skype 业务管理中心，和其他功能时正在将您的服务迁移到另一个数据中心，Microsoft。 "
-ms.openlocfilehash: e9d0f2b56ebe11ef95b59ff125434dcf3dd4574d
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: '了解并能在中使用 Skype 业务管理中心，和其他功能时正在将您的服务迁移到另一个数据中心，Microsoft。 '
+ms.openlocfilehash: 0b87061f1ef3861c4c01d9144fa5e2c86f5c2985
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>为什么不能使用 Skype 的在线业务管理中心现在？
 
@@ -68,5 +68,5 @@ ms.lasthandoff: 02/27/2018
 
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

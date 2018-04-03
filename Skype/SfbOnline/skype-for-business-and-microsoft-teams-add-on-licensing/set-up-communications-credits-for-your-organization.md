@@ -1,5 +1,5 @@
 ---
-title: "为您的组织设置通信片尾"
+title: 为您的组织设置通信片尾
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Licensing
 - Strat_SB_PSTN
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 61ee7bb2a4de8417f9e018de369c0a87649b75a1
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: 8a60efc9318354b9873c976cf717d3dd2cf73b3d
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>为您的组织设置通信片尾
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 03/08/2018
   
 - 将**音频会议**许可证分配给用户。 请参阅[指派的 Skype 业务和 Microsoft 小组的许可证](assign-skype-for-business-and-microsoft-teams-licenses.md)。
     
-    分配此许可证后，您将需要设置音频会议。 有关分步说明，请参阅[设置音频会议 for Skype Business 和 Microsoft 团队](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)。
+    分配此许可证后，您将需要设置音频会议。 有关分步说明，请参见[试用或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)。
     
 - 将**电话系统**和国内或国内和国际调用规划许可证分配给用户。 请参阅[指派的 Skype 业务和 Microsoft 小组的许可证](assign-skype-for-business-and-microsoft-teams-licenses.md)。
     
@@ -114,8 +114,6 @@ ms.lasthandoff: 03/08/2018
 
 - [设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [设置音频会议 for Skype Business 和 Microsoft 团队](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-    
 - [设置电话系统语音邮件 - 管理员帮助](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [设置调用计划](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)和[Office 365 调用计划](calling-plans-for-office-365.md)
@@ -124,5 +122,5 @@ ms.lasthandoff: 03/08/2018
     
 - [将云连接器配置](https://technet.microsoft.com/en-us/library/mt605228.aspx)并[下载云连接器](https://aka.ms/CloudConnectorInstaller)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

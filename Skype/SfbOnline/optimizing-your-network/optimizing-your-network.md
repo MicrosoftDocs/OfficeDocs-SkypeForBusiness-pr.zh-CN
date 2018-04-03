@@ -1,5 +1,5 @@
 ---
-title: "优化您的网络"
+title: 优化您的网络
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: "以下要求非常重要，可以确保你要为组织设置的所有 Skype for Business Online 功能能够长期正常和成功运行。 本文档适合技术专家使用，但是有些用户并非精通技术。 如果你需要 Skype for Business Online 设置方面的帮助，请阅读本文档熟悉你需要考虑的事项。 它还将讨论当您正在使用 Microsoft FastTrack 中心、 Microsoft 服务和客户团队，或与 Microsoft 合作伙伴，从而算出如何能够满足这些要求的事情。"
-ms.openlocfilehash: c5af711b17f7f617ae977fad62584a20292fdaf6
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 以下要求非常重要，可以确保你要为组织设置的所有 Skype for Business Online 功能能够长期正常和成功运行。 本文档适合技术专家使用，但是有些用户并非精通技术。 如果你需要 Skype for Business Online 设置方面的帮助，请阅读本文档熟悉你需要考虑的事项。 它还将讨论当您正在使用 Microsoft FastTrack 中心、 Microsoft 服务和客户团队，或与 Microsoft 合作伙伴，从而算出如何能够满足这些要求的事情。
+ms.openlocfilehash: 7817929f89731e13b09f5a6287493ea322b223d1
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>为 Skype for Business Online 优化网络
 
@@ -147,5 +147,5 @@ Skype for Business 客户端使用多个端口和协议。根据交互类型（�
 
 [Skype for Business Online 中的 ExpressRoute 和 QoS](expressroute-and-qos-in-skype-for-business-online.md)
   
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

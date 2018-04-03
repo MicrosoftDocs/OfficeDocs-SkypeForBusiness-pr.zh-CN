@@ -1,5 +1,5 @@
 ---
-title: "打开或关闭移动电话通知"
+title: 打开或关闭移动电话通知
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ f1keywords:
 - ms.lync.lac.OrgMobileNotification
 ms.custom:
 - Setup
-description: "了解如何打开手机通知或关闭您的用户可以接收通知的接收，语音邮件，从而错过了即时消息。"
-ms.openlocfilehash: 5f783c45fa198d02a44bbd2f7501a5bc4f0b5e1e
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 了解如何打开手机通知或关闭您的用户可以接收通知的接收，语音邮件，从而错过了即时消息。
+ms.openlocfilehash: 111d225b77c735dcf139a207f7c338cd228c873f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>打开或关闭移动电话通知
 
@@ -56,5 +56,5 @@ ms.lasthandoff: 02/27/2018
 
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

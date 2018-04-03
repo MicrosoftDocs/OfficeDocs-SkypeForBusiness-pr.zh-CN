@@ -1,5 +1,5 @@
 ---
-title: "在洪都拉斯的可用性"
+title: 在洪都拉斯的可用性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "此处为洪都拉斯提供了 Skype 业务和 Microsoft 小组的 Office 365 提供服务。"
+description: 此处为洪都拉斯提供了 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
 ms.openlocfilehash: 3c5a359bf01f99c6e7f687e30e977ca2e25db11e
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-honduras"></a>在洪都拉斯的可用性
 

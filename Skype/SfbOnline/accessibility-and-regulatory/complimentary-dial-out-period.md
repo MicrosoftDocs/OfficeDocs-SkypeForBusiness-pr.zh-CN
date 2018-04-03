@@ -1,5 +1,5 @@
 ---
-title: "免费拨出时间"
+title: 免费拨出时间
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
-description: "客户可以使用 Office 365 调用计划和 Office 365 音频会议业务联机 PSTN 服务使用术语和客户的批量许可协议允许在 Skype。"
+hideEdit: true
+description: 客户可以使用 Office 365 调用计划和 Office 365 音频会议业务联机 PSTN 服务使用术语和客户的批量许可协议允许在 Skype。
 ms.openlocfilehash: fac5ad1e413d62669e1ed23e6ea19f1c51ea3017
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音频会议免费拨出时间
 

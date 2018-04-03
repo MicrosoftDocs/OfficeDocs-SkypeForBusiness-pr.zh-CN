@@ -1,5 +1,5 @@
 ---
-title: "在法国的一致性的可访问性声明"
+title: 在法国的一致性的可访问性声明
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
-description: "这是必须公布，以满足法规遵从性，可访问性要求的内容和 Skype 在法国在线业务的法规。 "
+hideEdit: true
+description: '这是必须公布，以满足法规遵从性，可访问性要求的内容和 Skype 在法国在线业务的法规。 '
 ms.openlocfilehash: e7898502544b9a72be42f29751356c09d08d9e7d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="accessibility-declaration-of-conformance-for-skype-for-business-online-in-france"></a>一致性为 Skype 的在线业务在法国的可访问性声明
 

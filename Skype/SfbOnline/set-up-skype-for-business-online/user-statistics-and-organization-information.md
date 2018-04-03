@@ -1,5 +1,5 @@
 ---
-title: "用户统计信息和组织信息"
+title: 用户统计信息和组织信息
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ f1keywords:
 - ms.lync.lac.DashboardUserStatistics
 ms.custom:
 - Setup
-description: "了解有哪些 Skype for Business 用户统计信息，例如，已启用的用户数、启用会议的用户数或已启用 Office 365 的用户数。"
-ms.openlocfilehash: 371e1eabb7979dc805f2a4473040a491f3950352
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 了解有哪些 Skype for Business 用户统计信息，例如，已启用的用户数、启用会议的用户数或已启用 Office 365 的用户数。
+ms.openlocfilehash: 29fe9f5aad88e7eb394d09316d5c37c4d6531687
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="user-statistics-and-organization-information"></a>用户统计信息和组织信息
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 02/27/2018
 |:-----|:-----|
 |**属性** <br/> |**如何更改** <br/> |
 |Skype for Business Online 用户  <br/> |要添加或阻止用户使用 Skype for Business 应用，请参阅[为 Office 365 商业版分配或删除许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)或[在 Office 365 商业版中删除用户的许可证](https://support.office.com/article/9b497c85-d0a4-4735-80fa-d3565bc05bd1)。  <br/> 有关用户离开你的企业时需要执行的操作的完整列表，请参阅[从 Office 365 移除以前的员工](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1)。  <br/> |
-|启用音频会议的用户  <br/> |要为用户启用音频会议，请参阅[为 Skype for Business 和 Microsoft Teams 设置音频会议](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)。  <br/> |
+|启用音频会议的用户  <br/> |为了使用户的音频会议，请参见[试用或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)。  <br/> |
 |云中的用户  <br/> |这是拥有 Office 365 帐户的 Skype for Business Online 用户数。  <br/> 要向你的 Office 365 订阅添加用户（即，为其创建 Office 365 帐户），请参阅[以单个或批量方式向 Office 365 添加用户 - 管理员帮助](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec)。  <br/> |
 |已同步并联机托管的用户  <br/> |这是在 Skype for Business Server 本地部署中创建但已同步到 Office 365 的混合用户数。  <br/> 要设置 Skype for Business 混合连接，请参阅[在 Skype for Business Server 和 Skype for Business Online 之前部署混合连接](https://technet.microsoft.com/en-us/library/jj204669.aspx)。  <br/> |
    
@@ -61,5 +61,5 @@ ms.lasthandoff: 02/27/2018
 
 [Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

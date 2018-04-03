@@ -1,5 +1,5 @@
 ---
-title: "无效用户的 Skype 的在线业务支持服务计划"
+title: 无效用户的 Skype 的在线业务支持服务计划
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - ms.lync.lac.ServicePlanNotValid
 ms.custom:
 - Setup
-description: "了解应在何处后 Skype 的在线业务支持服务计划并不是有效的错误分配的用户的有效服务计划。 "
-ms.openlocfilehash: d109386134afdca9641eac6b5f9c9b2aad1f45c1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: '了解应在何处后 Skype 的在线业务支持服务计划并不是有效的错误分配的用户的有效服务计划。 '
+ms.openlocfilehash: f7a68154d3b81e8f7108f147d1016466f71a924a
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>无效用户的 Skype 的在线业务支持服务计划
 
@@ -36,4 +36,5 @@ ms.lasthandoff: 02/19/2018
 
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
   
-
+  
+ 

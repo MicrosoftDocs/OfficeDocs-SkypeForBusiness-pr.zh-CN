@@ -1,5 +1,5 @@
 ---
-title: "设置音频会议的会议的针长度"
+title: 设置音频会议的会议的针长度
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business.
-ms.openlocfilehash: 6ae267edfb75030bfad10d07998e6b59107c8d6d
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.openlocfilehash: 442ec6f4395b71acaf3296bdd6ec6317451dc36f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>设置音频会议的会议的针长度
 
@@ -82,4 +82,4 @@ ms.lasthandoff: 03/16/2018
   
 ## <a name="see-also"></a>另请参阅
 
-[设置 Skype for Business 和 Microsoft Teams 音频会议](set-up-audio-conferencing.md)
+[试用或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

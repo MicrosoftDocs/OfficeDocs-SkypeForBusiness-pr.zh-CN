@@ -1,5 +1,5 @@
 ---
-title: "诊断连接问题与 Skype 业务在线连接器"
+title: 诊断连接问题与 Skype 业务在线连接器
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: "创建远程 PowerShell 会话连接到 Skype 的业务联机，包括导入模块、 并发的外壳，Live ID 和权限错误进行故障诊断。"
-ms.openlocfilehash: 779786e073cf4ac420d75780472f8d45d67b292a
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 创建远程 PowerShell 会话连接到 Skype 的业务联机，包括导入模块、 并发的外壳，Live ID 和权限错误进行故障诊断。
+ms.openlocfilehash: 6a400aa6e3ee201ec65df3e9844cac1e7313f653
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>诊断连接问题与 Skype 业务在线连接器
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 02/27/2018
 
 PowerShell 执行策略有助于确定哪些配置文件可以加载到 PowerShell 控制台中，并且该脚本的用户可以从该控制台上运行。 至少，Skype 业务在线连接器模块不能被导入，除非已设置为 RemoteSigned 执行策略。 如果还没有，然后当您试图导入模块时将收到以下错误消息：
   
-- **错误**： 导入模块*： 文件 c:\\程序文件\\通用文件\\Microsoft Lync Server 2013\\模块\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 无法加载，因为运行在此系统上已禁用脚本。有关详细信息，请参阅在 https://go.microsoft.com/fwlink/?LinkID=135170 的 about_Execution_Policies。*
+- **错误**： 导入模块*： 文件 c:\\程序文件\\通用文件\\Microsoft Lync Server 2013\\模块\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 无法加载，因为运行在此系统上已禁用脚本。有关详细信息，请参阅在 about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170。*
 
 - **解析**要解决此问题，请以管理员的身份，开始 PowerShell，然后运行下面的命令：
     ```
@@ -65,7 +65,7 @@ PowerShell 执行策略有助于确定哪些配置文件可以加载到 PowerShe
   
   - **错误**： 导入模块*： 载入 PowerShell 的版本是"2.0"。模块 d:\\程序文件\\通用文件\\Microsoft Lync Server 2013\\模块\\LyncOnlineConnector\\LyncOnlineConnector.psd1 需要最小 PowerShell 版本的"3.0"执行。请验证安装的 PowerShell，然后再试一次。*
 
-- **解析**： 若要解决此问题的唯一方法就是安装 Windows PowerShell 3.0，这可从 Microsoft 下载中心在[https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595)。
+- **解决方案**： 要解决该问题的唯一方法就是安装 Windows PowerShell 3.0，可从 Microsoft 下载中心获取[https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595)。
   
 ## <a name="failed-to-connect-to-live-id-server"></a>未能连接到 Live ID 服务器
 <a name="BKMKFailedConnect"> </a>
@@ -83,7 +83,7 @@ PowerShell 执行策略有助于确定哪些配置文件可以加载到 PowerShe
     Start-Service "msoidsvc"
     ```
 
-    如果该服务正在运行，您可能会遇到网络连接问题您的计算机与 Microsoft Live ID 身份验证服务器之间。 若要核实此问题，请打开 Internet Explorer 并定位到[https://login.microsoftonline.com/。](https://login.microsoftonline.com/.) 尝试登录到 Office 365 从那里。 如果此操作失败，则您可能遇到网络连接问题。
+    如果该服务正在运行，您可能会遇到网络连接问题您的计算机与 Microsoft Live ID 身份验证服务器之间。 要检查此项，打开 Internet Explorer，然后定位到[https://login.microsoftonline.com/。](https://login.microsoftonline.com/.) 尝试登录到 Office 365 从那里。 如果此操作失败，则您可能遇到网络连接问题。
   
     不太常见的情况是，可能是连接 URI 为 Microsoft Live ID 身份验证服务器已被配置为不正确的值。 如果您已经确定登录助手正在运行，并且您没有遇到网络连接问题，这可能是问题。 在这种情况下，与 Office 365 支持联系。
   
@@ -103,7 +103,7 @@ PowerShell 执行策略有助于确定哪些配置文件可以加载到 PowerShe
 
 - **错误**： 获取 CsWebTicket *： 登录失败，用户 kenmyer@litwareinc.com。请创建一个新的 PSCredential 对象，并确保使用正确的用户名称和密码。*
 
-- **解决方案**： 如果您认为您使用有效的用户帐户，您拥有正确的密码，请尝试重新登录。 如果该操作失败，使用相同的凭据，并尝试在[https://login.microsoftonline.com/](https://login.microsoftonline.com/)上登录。 如果您仍无法登录存在，请与 Office 365 的支持。 
+- **解决方案**： 如果您认为您使用有效的用户帐户，您拥有正确的密码，请尝试重新登录。 如果查找失败，使用相同的凭据并尝试登录[https://login.microsoftonline.com/](https://login.microsoftonline.com/)。 如果您仍无法登录存在，请与 Office 365 的支持。 
 
   
 ## <a name="the-user-does-not-have-permission-to-manage-this-tenant"></a>用户没有权限，管理本组织
@@ -129,7 +129,7 @@ PowerShell 执行策略有助于确定哪些配置文件可以加载到 PowerShe
 
 每个管理员允许的最多的三个同时远程连接到 Skype 的在线业务。 如果您有三个向上的远程 PowerShell 连接和运行，使第四个同时发生的任何尝试连接将失败，并显示以下错误消息：
 
-- **错误**： *New PSSession: [admin.vdomain.com] 连接到远程服务器 admin.vdomain.com 失败，出现以下错误消息： WS 管理服务无法处理此请求。已超出此用户的并发外壳的最大数量。关闭现有命令行程序或引发此用户的配额。有关详细信息，请参阅 [远程故障诊断](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
+- **错误**： *New PSSession: [admin.vdomain.com] 连接到远程服务器 admin.vdomain.com 失败，出现以下错误消息： WS 管理服务无法处理此请求。已超出此用户的并发外壳的最大数量。关闭现有命令行程序或引发此用户的配额。有关详细信息，请参阅 [远程故障诊断] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
 - **解决方案**： 要解决此问题的唯一方法是关闭一个或多个以前的连接。 当您完成了与 Skype 业务联机会话时，我们建议使用**删除 PSSession** cmdlet 以终止会话。 这将有助于防止出现此问题。
   
@@ -138,12 +138,12 @@ PowerShell 执行策略有助于确定哪些配置文件可以加载到 PowerShe
 
 虽然每个管理员可拥有三个同时连接到 Skype 的在线业务的租户，则允许没有单个租户有 9 个以上的并发连接。 例如，三种管理员每个有三个打开的会话。 如果第四个管理员尝试进行连接 （导致总共 10 个同时连接），则此尝试将失败，并显示以下错误消息：
   
-- **错误**： *New PSSession: [admin.vdomain.com] 连接到远程服务器 admin.vdomain.com 失败，出现以下错误消息： WS 管理服务无法处理此请求。已超出此租户的并发外壳的最大数量。关闭现有命令行程序或提高本组织的配额。有关详细信息，请参阅 [远程故障诊断](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
+- **错误**： *New PSSession: [admin.vdomain.com] 连接到远程服务器 admin.vdomain.com 失败，出现以下错误消息： WS 管理服务无法处理此请求。已超出此租户的并发外壳的最大数量。关闭现有命令行程序或提高本组织的配额。有关详细信息，请参阅 [远程故障诊断] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
 - **解决方案**： 要解决此问题的唯一方法是关闭一个或多个以前的连接。 当您完成了与 Skype 业务联机会话时，我们建议使用**删除 PSSession** cmdlet 以终止该会话。 这将有助于防止出现此问题。  
  
 ## <a name="related-topics"></a>相关主题
 [设置计算机上的 Skype 业务在线管理使用 Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

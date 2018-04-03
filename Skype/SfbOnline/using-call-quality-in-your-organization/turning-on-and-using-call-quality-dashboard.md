@@ -1,5 +1,5 @@
 ---
-title: "打开并使用呼叫质量仪表板"
+title: 打开并使用呼叫质量仪表板
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,12 +19,12 @@ f1keywords:
 - ms.lync.lac.ToolsCallQualityDashboard
 ms.custom:
 - Reporting
-description: "请参阅如何打开和使用 Skype 业务在线呼叫质量仪表板和获取的呼叫质量的摘要报告。 "
-ms.openlocfilehash: d2cbcf0a7acdfebd3ba3fb1a2cc109d32f4213a9
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: '请参阅如何打开和使用 Skype 业务在线呼叫质量仪表板和获取的呼叫质量的摘要报告。 '
+ms.openlocfilehash: 5e1bf4a112e36761c18a11d3173b263002ad5e3f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开并使用呼叫质量仪表板 Microsoft 小组和 Skype 的在线业务
 
@@ -249,3 +249,6 @@ CQD 摘要报告控制板包括**租户数据上载**页面，通过从右上角
 [使用调用分析解决差呼叫质量](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [调用分析和通话质量仪表板之间的区别吗？](difference-between-call-analytics-and-call-quality-dashboard.md)
+
+  
+ 

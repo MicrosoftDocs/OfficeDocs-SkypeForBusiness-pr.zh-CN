@@ -1,5 +1,5 @@
 ---
-title: "对 Skype 会议广播为您的组织的设置进行更改"
+title: 对 Skype 会议广播为您的组织的设置进行更改
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - ms.lync.lac.BroadcastMeetings
 ms.custom:
 - SMB
-description: "您可以启用 Skype 会议广播和更改设置和这些会议的策略。"
-ms.openlocfilehash: b61a03178086699a8b5fc27ebc00f1c6b6f72021
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 您可以启用 Skype 会议广播和更改设置和这些会议的策略。
+ms.openlocfilehash: 26b5173ad911632a1a36b499e9f617f6848c2345
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>对 Skype 会议广播为您的组织的设置进行更改
 
@@ -43,5 +43,5 @@ ms.lasthandoff: 02/27/2018
 
 [设置 Skype 会议直播网络](set-up-your-network-for-skype-meeting-broadcast.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

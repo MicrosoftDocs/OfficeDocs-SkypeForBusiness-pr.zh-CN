@@ -1,5 +1,5 @@
 ---
-title: "创建自定义的外部访问策略"
+title: 创建自定义的外部访问策略
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "Skype 的在线业务允许您创建其他外部访问策略。 与不同的客户端或会议的策略，其中可以有多个组合，有三个预定义的外部访问策略，可以涵盖了大部分方案。"
-ms.openlocfilehash: 8ed4549aa1b32ccfb13bda559394e6aa79ab47ed
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Skype 的在线业务允许您创建其他外部访问策略。 与不同的客户端或会议的策略，其中可以有多个组合，有三个预定义的外部访问策略，可以涵盖了大部分方案。
+ms.openlocfilehash: 6eb0d9ecd3eaacc34e8392bbd32329c801505c34
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="create-custom-external-access-policies"></a>创建自定义的外部访问策略
 
@@ -116,5 +116,5 @@ Skype 的在线业务允许您创建其他外部访问策略。 与不同的客�
 
 [设置您的组织中的会议策略](set-up-conferencing-policies-for-your-organization.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

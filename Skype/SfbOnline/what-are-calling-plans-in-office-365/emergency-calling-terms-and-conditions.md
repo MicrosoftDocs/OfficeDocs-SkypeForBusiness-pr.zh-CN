@@ -1,5 +1,5 @@
 ---
-title: "紧急呼叫条款和条件"
+title: 紧急呼叫条款和条件
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ ROBOTS: NOINEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: "了解如何紧急服务 (911) 不同于传统的电话服务，以及如何拨打电话。 "
-ms.openlocfilehash: 4b2bbd8e5c4b9c11b17595f53180f7217518c145
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: '了解如何紧急服务 (911) 不同于传统的电话服务，以及如何拨打电话。 '
+ms.openlocfilehash: 5ba29f0020f17ecb3cd1e0b1abe39f27576a5657
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>紧急呼叫条款和条件
 
@@ -42,3 +42,6 @@ ms.lasthandoff: 02/19/2018
 [管理你的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

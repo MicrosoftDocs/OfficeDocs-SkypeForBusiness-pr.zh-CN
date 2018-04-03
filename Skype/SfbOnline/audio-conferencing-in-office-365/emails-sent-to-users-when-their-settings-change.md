@@ -1,5 +1,5 @@
 ---
-title: "他们设置更改时，向用户发送电子邮件"
+title: 他们设置更改时，向用户发送电子邮件
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 1b46da6d-f93a-4cc0-9ae8-af765935b007
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. '
-ms.openlocfilehash: ccc95e8cee5f4db1729423bc7a1bccecf87ac121
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: f504e9b807afb4a587a9d6f13baf69a3c5b9db68
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="emails-sent-to-users-when-their-settings-change"></a>他们设置更改时，向用户发送电子邮件
 
@@ -71,7 +73,7 @@ ms.lasthandoff: 02/19/2018
     
     **音频会议**许可删除后从用户从 Microsoft 更改用户的音频会议提供商，为第三方音频会议提供商时或为**无**设置提供程序时，将发生这种情况。 此电子邮件包含的指令和信息，为用户使用业务联机会议更新工具 Skype 来删除音频会议的特定信息，例如默认会议电话号码或会议 id。
     
-    请参阅[分配或删除业务的 Office 365 的许可证](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc)或[分配给第三方音频会议提供商作为](assign-a-third-party-as-the-audio-conferencing-provider.md)。
+    请参阅[如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc)。
     
     下面是此电子邮件的一个示例：
     
@@ -162,4 +164,3 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 [启用或禁用发送电子邮件时更改音频会议设置](enable-or-disable-sending-emails-when-their-settings-change.md)
   
 [对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-dial-in-information.md)
-

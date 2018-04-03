@@ -1,5 +1,5 @@
 ---
-title: "什么是地址验证？"
+title: 什么是地址验证？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ f1keywords:
 - ms.lync.lac.CivicAddressValidation
 ms.custom:
 - Calling Plans
-description: "了解地址验证是什么、它很重要的原因以及它与紧急地址和服务的关联关系。 "
-ms.openlocfilehash: 11e53a817eb8e7a759a450f81c699a0e9d745642
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: '了解地址验证是什么、它很重要的原因以及它与紧急地址和服务的关联关系。 '
+ms.openlocfilehash: d67277490afc12d8bdb2c5433d55e70ea6f5395e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-is-address-validation"></a>什么是地址验证？
 
@@ -44,5 +44,5 @@ ms.lasthandoff: 02/27/2018
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

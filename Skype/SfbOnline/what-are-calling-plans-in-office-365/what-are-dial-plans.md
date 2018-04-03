@@ -1,5 +1,5 @@
 ---
-title: "拨号计划有哪些？"
+title: 拨号计划有哪些？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "了解什么类型的拨号通话方案 （调用 PSTN 拨号计划） 都可以使用 Office 365 以及如何选择一个组织。  "
-ms.openlocfilehash: c4915b17ee7870725bd6e41e834d08a0e2b63f7d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: '了解什么类型的拨号通话方案 （调用 PSTN 拨号计划） 都可以使用 Office 365 以及如何选择一个组织。  '
+ms.openlocfilehash: 32efaccf1572bf086f40d0d4b49c910b7ca345f3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-are-dial-plans"></a>拨号计划有哪些？
 
@@ -152,3 +154,6 @@ ms.lasthandoff: 02/19/2018
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

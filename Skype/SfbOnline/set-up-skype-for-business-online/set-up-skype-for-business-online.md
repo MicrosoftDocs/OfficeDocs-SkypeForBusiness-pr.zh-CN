@@ -1,5 +1,5 @@
 ---
-title: "设置 Skype for Business Online"
+title: 设置 Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - Alchemy
 - LIL_Placement
-description: "了解如何设置域、 用户、 IM 和状态显示为您的组织安装 Skype 业务。 另请参阅如何设置音频会议、 电话系统和调用计划，和 Skype 会议广播。 "
-ms.openlocfilehash: 122ff43fd13a2bd9e2207d9e4e1c2b6e5d8be2a8
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: '了解如何设置域、 用户、 IM 和状态显示为您的组织安装 Skype 业务。 另请参阅如何设置音频会议、 电话系统和调用计划，和 Skype 会议广播。 '
+ms.openlocfilehash: ad0608dbb637b4b2343bf39d47b2beea0ca9e12c
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-skype-for-business-online"></a>设置 Skype for Business Online
   
@@ -130,8 +130,6 @@ Skype for Business Online 是 Office 365 服务套件的一部分。要设置 Sk
 
 有时组织中的人员会需要使用电话呼入会议。Skype for Business 包含了正是针对此种情况的音频会议功能。人们可以使用电话呼入 Skype for Business 会议，而无需使用移动设备或电脑上的 Skype for Business 应用。
   
-有关分步设置说明，请参阅在 Office 365 中[设置音频会议 for Skype Business 和 Microsoft 团队](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)。
-  
 ### <a name="set-up-phone-system-and-the-calling-plans-in-office-365"></a>在 Office 365 中设置电话系统和呼叫计划
 
 Office 365 中的电话系统功能提供了适用于你的业务的电话系统。呼叫组织中的其他 Skype for Business 人员是免费的，而且你的员工可以互相并从外部呼叫方接收语音邮件。以下是使用电话系统可获得的功能。
@@ -152,7 +150,7 @@ Skype 会议广播 是一项功能，允许你针对最多 10,000 个与会者�
     
 3. [您网络上的 Skype 会议广播设置](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)： 如果您希望对主机网络研讨会和其他广播同与会者组织外，您需要配置您的网络。
     
-4. [安排 Skype 会议广播](http://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553)和有一个[联接 Skype 会议广播](http://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe)： 请确保广播的会议工作安排在*https://portal.broadcast.skype.com* Skype 会议广播，然后让其他人通过尝试加入会议。
+4. [安排 Skype 会议广播](http://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553)和有一个[联接 Skype 会议广播](http://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe)： 请确保广播的会议的工作安排在 Skype 会议广播*https://portal.broadcast.skype.com*，然后让某个人尝试加入会议。
     
 ## <a name="learn-about-network-connectivity-requirements"></a>了解网络连接的要求
 <a name="bkmk_more"> </a>
@@ -177,5 +175,5 @@ Skype for Business 中音频、视频和应用程序共享的质量很大程度�
 
 [计划 Skype for Business Server 与 Skype for Business Online 之间的混合连接](https://go.microsoft.com/fwlink/p/?linkid=400791)
   
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

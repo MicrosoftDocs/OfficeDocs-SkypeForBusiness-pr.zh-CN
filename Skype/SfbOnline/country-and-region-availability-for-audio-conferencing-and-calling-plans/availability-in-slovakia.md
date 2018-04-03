@@ -1,5 +1,5 @@
 ---
-title: "在斯洛伐克的可用性"
+title: 在斯洛伐克的可用性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "以下是可用的斯洛伐克 Skype 业务和 Microsoft 小组的 Office 365 提供服务。"
-ms.openlocfilehash: 673001ce7c10389b533f54ee646802df7acb450d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 以下是可用的斯洛伐克 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
+ms.openlocfilehash: 27461dfff2590509b6bffcf4a806baef58e570a8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-slovakia"></a>在斯洛伐克的可用性
 
@@ -83,4 +83,5 @@ ms.lasthandoff: 02/19/2018
 
 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+  
+ 

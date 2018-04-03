@@ -1,5 +1,5 @@
 ---
-title: "音频会议支付每分钟"
+title: 音频会议支付每分钟
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 - Strat_SB_PSTN
-description: "除了标准的音频会议每用户许可证，卷和授权机构还可以选择启用音频会议功能，为其组织的付薪每分钟报价。"
-ms.openlocfilehash: 53d42e74893056cdb39ebdd7a7334764c4f0aa8d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 除了标准的音频会议每用户许可证，卷和授权机构还可以选择启用音频会议功能，为其组织的付薪每分钟报价。
+ms.openlocfilehash: 4fbf487a0a20476bfc05f2287478e51871d3c899
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音频会议支付每分钟
 
@@ -65,9 +67,8 @@ ms.lasthandoff: 02/19/2018
 - [定价的通话方案](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
     
 ## <a name="related-topics"></a>相关主题
-
-[设置音频会议 for Skype Business 和 Microsoft 团队](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
   
 [Skype for Business 和 Microsoft Teams 外接程序许可](skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
-
+  
+ 

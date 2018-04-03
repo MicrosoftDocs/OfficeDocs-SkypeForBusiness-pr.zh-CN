@@ -1,5 +1,5 @@
 ---
-title: "设置您的组织的客户端策略"
+title: 设置您的组织的客户端策略
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "客户端策略帮助确定可供用户使用的 Skype for Business Online 功能；例如，你可以为一些用户提供传输文件的权限，但拒绝其他用户拥有此权限。"
-ms.openlocfilehash: 82fa2c828af9aed01652870ea5d3db02ca8248c3
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 客户端策略帮助确定可供用户使用的 Skype for Business Online 功能；例如，你可以为一些用户提供传输文件的权限，但拒绝其他用户拥有此权限。
+ms.openlocfilehash: 2cf7507e4616d54982d8baaf4388ee5830ae64da
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>设置您的组织的客户端策略
 
@@ -152,3 +152,6 @@ ms.lasthandoff: 02/19/2018
 [块的点对点文件传输](block-point-to-point-file-transfers.md)
 
 [设置您的组织中的会议策略](set-up-conferencing-policies-for-your-organization.md)
+
+  
+ 

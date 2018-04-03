@@ -1,5 +1,5 @@
 ---
-title: "未启用此 Skype 的在线业务功能"
+title: 未启用此 Skype 的在线业务功能
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - ms.lync.lac.FeatureNotEnabled
 ms.custom:
 - Setup
-description: "当您获得 Skype 的在线业务的功能不是已启用的错误查找可能的原因和操作建议。 "
-ms.openlocfilehash: ff8e8dca2dc4a196a31f979c6aced400d5a7b194
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: '当您获得 Skype 的在线业务的功能不是已启用的错误查找可能的原因和操作建议。 '
+ms.openlocfilehash: 5d0167ed53f5396d3d048815986dea7600f9182f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>未启用此 Skype 的在线业务功能
 
@@ -39,3 +39,6 @@ ms.lasthandoff: 02/19/2018
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
 
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
+
+  
+ 

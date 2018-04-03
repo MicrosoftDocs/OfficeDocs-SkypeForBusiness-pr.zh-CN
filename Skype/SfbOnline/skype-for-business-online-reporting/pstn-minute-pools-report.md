@@ -1,5 +1,5 @@
 ---
-title: "PSTN 分钟池报告"
+title: PSTN 分钟池报告
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "新 Skype 业务管理中心报告区域显示您呼叫和音频会议活动组织中。 它使您能够深入到报表，以使您更精确地了解每个用户的活动。 例如，可以使用 Skype 业务 PSTN 分钟池报告查看当月在组织内使用的分钟数。"
-ms.openlocfilehash: f0cb22187fe8b791ef143524eeae6b453f89f4f4
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 新 Skype 业务管理中心报告区域显示您呼叫和音频会议活动组织中。 它使您能够深入到报表，以使您更精确地了解每个用户的活动。 例如，可以使用 Skype 业务 PSTN 分钟池报告查看当月在组织内使用的分钟数。
+ms.openlocfilehash: 3db3e0394bc7af9394b4b6988bc28fbaa1da42a5
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN 分钟池报告
 
@@ -92,4 +92,6 @@ ms.lasthandoff: 02/19/2018
     
 ## <a name="related-topics"></a>相关主题
 [Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+
   
+   

@@ -1,5 +1,5 @@
 ---
-title: "在沙特阿拉伯的可用性"
+title: 在沙特阿拉伯的可用性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "以下是可用于沙特阿拉伯 Skype 业务和 Microsoft 小组的 Office 365 提供服务。"
-ms.openlocfilehash: 83d4a8d19a21995ca1aa367b728b6f1f5f57b877
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 以下是可用于沙特阿拉伯 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
+ms.openlocfilehash: d7e179c8d7be74e433000b5ca22a466f278267bc
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-saudi-arabia"></a>在沙特阿拉伯的可用性
 
@@ -83,4 +83,5 @@ ms.lasthandoff: 02/19/2018
 
 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+  
+ 

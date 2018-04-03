@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business Online 的代理服务器"
+title: Skype for Business Online 的代理服务器
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: "本文将提供相关指南，帮助你为 Skype for Business 使用代理服务器。"
-ms.openlocfilehash: 29438474524c7c1e518fb3130fdaf436e562d76e
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 本文将提供相关指南，帮助你为 Skype for Business 使用代理服务器。
+ms.openlocfilehash: 0f4d0b82eeaedd4b81ea84a8d8d3a67993d7be96
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Skype for Business Online 的代理服务器
 
@@ -71,11 +71,11 @@ Microsoft 还强烈建议：
     
 Bluecoat 对 Skype for Business 的本地支持很容易启用，以便识别相关流量并相应地加以管理。这样可确保实现最佳的身份验证、信号传输和媒体流量流，以提供非凡的用户体验，且不会产生安全问题。
     
-Bluecoat 代理是否属于您的网络拓扑，请参阅以下链接： https://support.symantec.com/en_US/article.DOC9757.html
+请参考下面的链接，如果 Bluecoat 代理为您的网络拓扑的一部分：https://support.symantec.com/en_US/article.DOC9757.html
 
 ## <a name="related-topics"></a>相关主题
 
 [为 Skype for Business Online 优化网络](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

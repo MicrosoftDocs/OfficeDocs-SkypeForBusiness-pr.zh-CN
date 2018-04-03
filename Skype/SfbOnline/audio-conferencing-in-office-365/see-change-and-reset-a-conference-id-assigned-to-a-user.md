@@ -1,5 +1,5 @@
 ---
-title: "请参阅、 更改和重置会议 ID 分配给用户"
+title: 请参阅、 更改和重置会议 ID 分配给用户
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: 'Learn how to assign a conference ID to a user in Skype for Business and what the conference ID''s parameters should be. '
-ms.openlocfilehash: b542e764d0b8b1587c34e78a54612410cd72a3bd
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: "Learn how to assign a conference ID to a user in Skype for Business and what the conference ID's parameters should be. "
+ms.openlocfilehash: 12fe2b0f425f58dca8272f5f0536ba5393b2f76c
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="see-change-and-reset-a-conference-id-assigned-to-a-user"></a>请参阅、 更改和重置会议 ID 分配给用户
 
@@ -108,7 +108,6 @@ ms.lasthandoff: 03/16/2018
     
 - 会议 ID 的所有音频会议用户将默认情况下，7 位，不能更改的数字位数。
     
-- 如果用户从 Microsoft 作为移动音频会议提供商给第三方音频会议提供商或音频会议提供商设置为**无**，会议 ID 将不再起作用。 请参阅[指派第三方音频会议提供商作为](assign-a-third-party-as-the-audio-conferencing-provider.md)或[移动用户的音频会议提供商给 Microsoft](moving-a-user-s-audio-conferencing-provider-to-microsoft.md)。
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
@@ -128,5 +127,5 @@ ms.lasthandoff: 03/16/2018
     
 ## <a name="related-topics"></a>相关主题
 
-[设置音频会议 for Skype Business 和 Microsoft 团队](set-up-audio-conferencing.md)
+[试用或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

@@ -1,5 +1,5 @@
 ---
-title: "创建电话系统调用队列"
+title: 创建电话系统调用队列
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 363c6d7eefd63d1f89eb5d1420e516894d432b6b
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: a6eac4b7fec191d9e897f41e3c32b270ab21abcf
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="create-a-phone-system-call-queue"></a>创建电话系统调用队列
 
@@ -95,7 +97,7 @@ ms.lasthandoff: 02/19/2018
 Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. 获取的收费或免费电话服务的电话号码后，它们将显示在**业务管理中心的 Skype** > **语音** > **电话号码**和**数字类型**列出将列为**服务-免费**. 若要获得服务号码，看到[Skype 业务和 Microsoft 团队的前服务电话号码](getting-service-phone-numbers.md)或者如果要传输和现有服务号码，请参阅[传输到 Office 365 的电话号码](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md)。
   
 > [!NOTE]
-> 如果您不在美国境内，不能使用业务管理中心为 Skype 来获得服务号码。 而转[管理您的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)以查看如何做到从外面的美国。
+> 如果您不在美国境内，不能使用业务管理中心为 Skype 来获得服务号码。 转到[管理您的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)改为以查看如何做到从外面的美国。
   
 ## <a name="step-3---create-a-new-call-queue"></a>第 3 步 - 创建新的呼叫队列
 
@@ -138,6 +140,9 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
  1. 在其桌面 Skype 业务客户端中打开**选项**。 
  2. **来电转接**选项卡上，单击**编辑设置联机**链接。
  3. 在用户设置页上单击**调用队列**，，然后清除他们要退出任何队列对应的复选框。
+ 
+    > [!NOTE] 
+    > 代理使用 Mac，移动，或 Lync 2013 的客户端或混合语音用户都承载内部使用 Skype 业务 2015年服务器，可以转到[https://aka.ms/cqsettings](https://aka.ms/cqsettings)访问 opt out 选项。
    
 ### <a name="add-call-agents-to-a-call-queue"></a>向呼叫队列添加呼叫代理
 
@@ -161,7 +166,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 ![2 号](../images/sfbcallout2.png)<br/><br/>**当达到最大重试次数**当调用队列达到最大值 （设置使用**调用队列中的最大值**设置） 时，您可以选择新的传入呼叫会发生什么情况。
 *    **断开连接并显示繁忙信号** 呼叫将断开连接。
 *    **转发到此调用**当您选择此选项时，您将具有下列选项：
-     *    **在您的公司的人**在线用户使用**电话系统**许可证和能够使用企业语音或者具有一个调用计划。 你可以通过此设置将呼叫者直接转到语音邮件。 这样做，请选择**您的公司中的人**并设置此人让其将直接转发至语音邮件的电话。 <br/>
+     *    **在您的公司的人**在线用户使用**电话系统**许可证和能够使用企业语音或者具有一个调用计划。 你可以通过此设置将呼叫者直接转到语音邮件。 这样做，请选择**您的公司中的人**并设置此人让其将直接转发至语音邮件的电话。 <br/> <br/>若要了解有关授权所需的语音邮件，请参阅[设置语音邮件电话系统](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)。 
      
         > [!Note]
         > 用户承载内部使用 Lync Server 2010 中不受支持。<br/>
@@ -175,7 +180,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 ![数字 4](../images/sfbcallout4.png)<br/><br/>**当呼叫超时时** 当呼叫达到" **呼叫在队列中可以等待多长时间**"中设置的限制时，你可以选择如何处理此呼叫：
 *    **断开连接** 呼叫将断开连接。
 *    **转发到此调用**当您选择此选项时，您将具有下列选项：
-     *    **在您的公司的人**在线用户使用**电话系统**许可证和能够使用企业语音或者具有调用计划。 你可以通过此设置将呼叫者直接转到语音邮件。 这样做，请选择**您的公司中的人**并设置此人让其将直接转发至语音邮件的电话。 
+     *    **在您的公司的人**在线用户使用**电话系统**许可证和能够使用企业语音或者具有调用计划。 你可以通过此设置将呼叫者直接转到语音邮件。 这样做，请选择**您的公司中的人**并设置此人让其将直接转发至语音邮件的电话。 </br><br/>  若要了解有关授权所需的语音邮件，请参阅[设置语音邮件电话系统](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)。 
 
         > [!Note]
         > 用户承载内部使用 Lync Server 2010 中不受支持。<br/>
@@ -239,3 +244,6 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](getting-service-phone-numbers.md)
 
 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+  
+ 

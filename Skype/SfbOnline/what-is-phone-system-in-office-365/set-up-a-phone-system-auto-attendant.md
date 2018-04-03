@@ -1,5 +1,5 @@
 ---
-title: "设置电话系统自动助理"
+title: 设置电话系统自动助理
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "了解如何设置和测试有效的呼叫处理您的组织的电话系统 (云 PBX) 自动助理。 "
-ms.openlocfilehash: 60118fa973bc316b1b79f3d97e89953a40c6a9c7
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
+description: '了解如何设置和测试有效的呼叫处理您的组织的电话系统 (云 PBX) 自动助理。 '
+ms.openlocfilehash: 275aececccca18b82cbd08a4f4aa580d1696dcf9
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>设置电话系统自动助理
 
@@ -254,5 +254,5 @@ In the **Skype for Business admin center**, click **Call routing** > **Auto atte
 
 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "为什么要让进入英国的问题 地址信息吗？"
+title: 为什么要让进入英国的问题 地址信息吗？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
-description: "下面是一些原因，可能会出现问题，获取您的地址或地址正确验证在大不列颠及北爱尔兰联合王国 （英国） 的原因。"
-ms.openlocfilehash: e012de9ba4371063bc16e2896a5bd4e3b8814a4d
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 下面是一些原因，可能会出现问题，获取您的地址或地址正确验证在大不列颠及北爱尔兰联合王国 （英国） 的原因。
+ms.openlocfilehash: 75373098af599768aa654f5327c1f40069ed51c7
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>为什么要让进入英国的问题 地址信息吗？
 
@@ -116,7 +116,7 @@ ms.lasthandoff: 02/27/2018
 
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "使用调用分析诊断较差企业的 Skype 通话质量"
+title: 使用调用分析诊断较差企业的 Skype 通话质量
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "使用调用分析有关设备、 网络和连接的详细信息来解决用户的问题与 Skype 进行业务联络和会议。"
-ms.openlocfilehash: cbb728c14c58393a5ec71cc538ad958ba58fb947
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 使用调用分析有关设备、 网络和连接的详细信息来解决用户的问题与 Skype 进行业务联络和会议。
+ms.openlocfilehash: b7f900509506433bd2c863fb6c0c33c4f71f2ab5
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality"></a>使用调用分析诊断较差企业的 Skype 通话质量
 
@@ -46,7 +46,7 @@ ms.lasthandoff: 02/27/2018
   
  **为第 1 层或 2 层支持人员代理打开调用分析**
   
-1. 请转到 Office 365 管理中心并使用您的工作或学校的帐户进行登录。 然后在 web 浏览器转到*https://adminportal.services.skypeforbusiness.com*。
+1. 请转到 Office 365 管理中心并使用您的工作或学校的帐户进行登录。 在 web 浏览器前往*https://adminportal.services.skypeforbusiness.com*。
     
 2. 在**用户搜索**，键入您想要解决问题，然后从列表中选择用户的呼叫的用户的名称或 sip 地址。
     
@@ -77,5 +77,5 @@ ms.lasthandoff: 02/27/2018
 
 [通话分析与通话质量仪表板之间有何区别？](difference-between-call-analytics-and-call-quality-dashboard.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

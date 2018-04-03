@@ -1,5 +1,5 @@
 ---
-title: "设置音频会议自动助理语言"
+title: 设置音频会议自动助理语言
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "了解如何选择音频会议号码的音频会议自动助理语言。"
-ms.openlocfilehash: c352609926a7bc6bf7f72015447ba9f7ae115487
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: 了解如何选择音频会议号码的音频会议自动助理语言。
+ms.openlocfilehash: e7c4adb2129a737ec34e5641a9724bdab665cd23
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing"></a>设置音频会议自动助理语言
 
@@ -72,4 +72,4 @@ Skype 业务和 Microsoft 小组音频会议自动助理可以上任之初即音
   
 ## <a name="related-topics"></a>相关主题
 
-[设置音频会议 for Skype Business 和 Microsoft 团队](set-up-audio-conferencing.md)
+[试用或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

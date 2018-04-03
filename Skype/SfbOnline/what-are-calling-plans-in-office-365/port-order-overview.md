@@ -1,5 +1,5 @@
 ---
-title: "转网订单概述"
+title: 转网订单概述
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderOverview
 ms.custom:
 - Calling Plans
-description: "快速了解如何将某个服务提供商的电话号码转移到 Skype for Business。 "
-ms.openlocfilehash: 6006f03b8780ba499240f2f3c816dda71d457e1c
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: '快速了解如何将某个服务提供商的电话号码转移到 Skype for Business。 '
+ms.openlocfilehash: 503c160e11eaab62b815f0f66a13a30546f6dfd6
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="port-order-overview"></a>转网订单概述
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 02/27/2018
 
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 

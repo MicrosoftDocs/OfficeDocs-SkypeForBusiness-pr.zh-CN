@@ -1,5 +1,5 @@
 ---
-title: "在巴西的可用性"
+title: 在巴西的可用性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "以下是可用的巴西 Skype 业务和 Microsoft 小组的 Office 365 提供服务。"
-ms.openlocfilehash: dd753c4de4838a45335aa43ed82612acd1321ae0
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 以下是可用的巴西 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
+ms.openlocfilehash: 19884b978b04dd4b4c232dd554f5ddb20c63cece
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-brazil"></a>在巴西的可用性
 
@@ -86,6 +86,3 @@ ms.lasthandoff: 02/27/2018
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。

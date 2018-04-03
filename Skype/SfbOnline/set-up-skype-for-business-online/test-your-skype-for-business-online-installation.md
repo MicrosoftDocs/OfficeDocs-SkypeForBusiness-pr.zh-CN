@@ -1,5 +1,5 @@
 ---
-title: "设置 Skype for Business Online 安装"
+title: 设置 Skype for Business Online 安装
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: 6f280e6345fb8a6af72cac35f4844f7a63caab48
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 4ddd99dec5e8c283741380b68e01ef97363fda85
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>设置 Skype for Business Online 安装
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 02/27/2018
     
 - 每个测试帐户一台计算机。就像您的组织中的常用计算机一样设置它们。
     
-- 具有 Skype for Business Online 音频会议提供商的帐户。要了解更多信息，请参阅[设置音频会议 for Skype Business 和 Microsoft 团队](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)。
+- 具有 Skype for Business Online 音频会议提供商的帐户。 
     
 ## <a name="what-do-you-want-to-do"></a>你要做什么？
 
@@ -73,8 +73,6 @@ ms.lasthandoff: 02/27/2018
 - 会议代码和个人标识号 (PIN)（对于你的组织中安排或组织会议的每个用户）。
     
 在你为音频会议设置用户后，这些用户将收到一封自动电子邮件，其中包含拨入号码和会议代码。此信息还会自动添加到新的 Skype for Business 会议请求中。
-  
-有关详细信息，请参阅[设置音频会议 for Skype Business 和 Microsoft 团队](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)。 
   
  **将音频会议信息添加到测试用户之一的帐户**
   
@@ -141,5 +139,5 @@ ms.lasthandoff: 02/27/2018
 
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>反馈意见？
-提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。
+  
+ 
