@@ -1,5 +1,5 @@
 ---
-title: "为什么要让进入英国的问题 地址信息吗？"
+title: 为什么要让进入英国的问题 地址信息吗？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,103 +20,103 @@ f1keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
-description: "下面是一些原因，可能会出现问题，获取您的地址或地址正确验证在大不列颠及北爱尔兰联合王国 （英国） 的原因。"
-ms.openlocfilehash: e012de9ba4371063bc16e2896a5bd4e3b8814a4d
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 下面是一些原因，可能会出现问题，获取您的地址或地址正确验证在大不列颠及北爱尔兰联合王国 （英国） 的原因。
+ms.openlocfilehash: 75373098af599768aa654f5327c1f40069ed51c7
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a><span data-ttu-id="56326-104">为什么要让进入英国的问题</span><span class="sxs-lookup"><span data-stu-id="56326-104">Why am I having problems entering U.K.</span></span> <span data-ttu-id="56326-105">地址信息吗？</span><span class="sxs-lookup"><span data-stu-id="56326-105">address information?</span></span>
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a><span data-ttu-id="bdd59-104">为什么要让进入英国的问题</span><span class="sxs-lookup"><span data-stu-id="bdd59-104">Why am I having problems entering U.K.</span></span> <span data-ttu-id="bdd59-105">地址信息吗？</span><span class="sxs-lookup"><span data-stu-id="bdd59-105">address information?</span></span>
 
-<span data-ttu-id="56326-106">下面是一些原因，可能会出现问题，获取您的地址或地址正确验证在大不列颠及北爱尔兰联合王国 （英国） 的原因。</span><span class="sxs-lookup"><span data-stu-id="56326-106">Here are some reasons why you may be having problems getting your address or addresses to validate correctly in the United Kingdom (U.K.).</span></span>
+<span data-ttu-id="bdd59-106">下面是一些原因，可能会出现问题，获取您的地址或地址正确验证在大不列颠及北爱尔兰联合王国 （英国） 的原因。</span><span class="sxs-lookup"><span data-stu-id="bdd59-106">Here are some reasons why you may be having problems getting your address or addresses to validate correctly in the United Kingdom (U.K.).</span></span>
   
-## <a name="whats-wrong-with-the-company-name"></a><span data-ttu-id="56326-107">不妥的公司名称是什么？</span><span class="sxs-lookup"><span data-stu-id="56326-107">What's wrong with the company name?</span></span>
+## <a name="whats-wrong-with-the-company-name"></a><span data-ttu-id="bdd59-107">不妥的公司名称是什么？</span><span class="sxs-lookup"><span data-stu-id="bdd59-107">What's wrong with the company name?</span></span>
 
-<span data-ttu-id="56326-108">如果在输入公司名称的问题时，请记住：</span><span class="sxs-lookup"><span data-stu-id="56326-108">If you are having a problem entering the company name, remember:</span></span>
+<span data-ttu-id="bdd59-108">如果在输入公司名称的问题时，请记住：</span><span class="sxs-lookup"><span data-stu-id="bdd59-108">If you are having a problem entering the company name, remember:</span></span>
   
-- <span data-ttu-id="56326-109">它可以有字母、 数字和下列特殊字符:，/-+。</span><span class="sxs-lookup"><span data-stu-id="56326-109">It can have letters, numbers, and the following special characters: , / - + .</span></span> <span data-ttu-id="56326-110">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="56326-110"></span></span> 
+- <span data-ttu-id="bdd59-109">它可以有字母、 数字和下列特殊字符:，/-+。</span><span class="sxs-lookup"><span data-stu-id="bdd59-109">It can have letters, numbers, and the following special characters: , / - + .</span></span> <span data-ttu-id="bdd59-110">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="bdd59-110"></span></span> 
     
     > [!CAUTION]
-    > <span data-ttu-id="56326-111">在大不列颠及北爱尔兰联合王国 （英国），公司名称不能包含 + 号。</span><span class="sxs-lookup"><span data-stu-id="56326-111">In the United Kingdom (U.K.), the company name can't have the + sign.</span></span> 
+    > <span data-ttu-id="bdd59-111">在大不列颠及北爱尔兰联合王国 （英国），公司名称不能包含 + 号。</span><span class="sxs-lookup"><span data-stu-id="bdd59-111">In the United Kingdom (U.K.), the company name can't have the + sign.</span></span> 
   
-- <span data-ttu-id="56326-112">它必须为 80 个字符或更少。</span><span class="sxs-lookup"><span data-stu-id="56326-112">It has to be 80 characters or less.</span></span>
+- <span data-ttu-id="bdd59-112">它必须为 80 个字符或更少。</span><span class="sxs-lookup"><span data-stu-id="bdd59-112">It has to be 80 characters or less.</span></span>
     
-- <span data-ttu-id="56326-113">它不得包含特殊字符。</span><span class="sxs-lookup"><span data-stu-id="56326-113">It can't start with a special character.</span></span>
+- <span data-ttu-id="bdd59-113">它不得包含特殊字符。</span><span class="sxs-lookup"><span data-stu-id="bdd59-113">It can't start with a special character.</span></span>
     
-## <a name="whats-wrong-with-the-house-number"></a><span data-ttu-id="56326-114">不妥的门牌号是多少？</span><span class="sxs-lookup"><span data-stu-id="56326-114">What's wrong with the house number?</span></span>
+## <a name="whats-wrong-with-the-house-number"></a><span data-ttu-id="bdd59-114">不妥的门牌号是多少？</span><span class="sxs-lookup"><span data-stu-id="bdd59-114">What's wrong with the house number?</span></span>
 
-<span data-ttu-id="56326-115">如果您有问题输入门牌号，请记住：</span><span class="sxs-lookup"><span data-stu-id="56326-115">If you are having a problem entering the house number, remember:</span></span>
+<span data-ttu-id="bdd59-115">如果您有问题输入门牌号，请记住：</span><span class="sxs-lookup"><span data-stu-id="bdd59-115">If you are having a problem entering the house number, remember:</span></span>
   
-- <span data-ttu-id="56326-116">它可以有字母、 数字和下列特殊字符:-/]</span><span class="sxs-lookup"><span data-stu-id="56326-116">It can have letters, numbers, and the following special characters: - / [ ]</span></span>
+- <span data-ttu-id="bdd59-116">它可以有字母、 数字和下列特殊字符:-/]</span><span class="sxs-lookup"><span data-stu-id="bdd59-116">It can have letters, numbers, and the following special characters: - / [ ]</span></span>
     
-- <span data-ttu-id="56326-117">它必须以数字开头。</span><span class="sxs-lookup"><span data-stu-id="56326-117">It has to start with a number.</span></span>
+- <span data-ttu-id="bdd59-117">它必须以数字开头。</span><span class="sxs-lookup"><span data-stu-id="bdd59-117">It has to start with a number.</span></span>
     
-- <span data-ttu-id="56326-118">它必须是 20 个字符或更少。</span><span class="sxs-lookup"><span data-stu-id="56326-118">It has to be 20 characters or less.</span></span>
+- <span data-ttu-id="bdd59-118">它必须是 20 个字符或更少。</span><span class="sxs-lookup"><span data-stu-id="bdd59-118">It has to be 20 characters or less.</span></span>
     
-- <span data-ttu-id="56326-119">它可以大写或小写字母。</span><span class="sxs-lookup"><span data-stu-id="56326-119">It can have a capital or lowercase letter.</span></span>
+- <span data-ttu-id="bdd59-119">它可以大写或小写字母。</span><span class="sxs-lookup"><span data-stu-id="bdd59-119">It can have a capital or lowercase letter.</span></span>
     
-## <a name="whats-wrong-with-the-house-name"></a><span data-ttu-id="56326-120">不妥的房屋名称是什么？</span><span class="sxs-lookup"><span data-stu-id="56326-120">What's wrong with the house name?</span></span>
+## <a name="whats-wrong-with-the-house-name"></a><span data-ttu-id="bdd59-120">不妥的房屋名称是什么？</span><span class="sxs-lookup"><span data-stu-id="bdd59-120">What's wrong with the house name?</span></span>
 
-<span data-ttu-id="56326-121">如果在输入房屋名称的问题时，请记住：</span><span class="sxs-lookup"><span data-stu-id="56326-121">If you are having a problem entering the house name, remember:</span></span>
+<span data-ttu-id="bdd59-121">如果在输入房屋名称的问题时，请记住：</span><span class="sxs-lookup"><span data-stu-id="bdd59-121">If you are having a problem entering the house name, remember:</span></span>
   
-- <span data-ttu-id="56326-122">它可以有字母、 数字和下列特殊字符:，/-+。</span><span class="sxs-lookup"><span data-stu-id="56326-122">It can have letters, numbers and the following special characters : , / - + .</span></span> <span data-ttu-id="56326-123">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="56326-123"></span></span>
+- <span data-ttu-id="bdd59-122">它可以有字母、 数字和下列特殊字符:，/-+。</span><span class="sxs-lookup"><span data-stu-id="bdd59-122">It can have letters, numbers and the following special characters : , / - + .</span></span> <span data-ttu-id="bdd59-123">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="bdd59-123"></span></span>
     
-- <span data-ttu-id="56326-124">它还为 50 个字符或更少。</span><span class="sxs-lookup"><span data-stu-id="56326-124">It has to be 50 characters or less.</span></span>
+- <span data-ttu-id="bdd59-124">它还为 50 个字符或更少。</span><span class="sxs-lookup"><span data-stu-id="bdd59-124">It has to be 50 characters or less.</span></span>
     
-- <span data-ttu-id="56326-125">它不得包含特殊字符。</span><span class="sxs-lookup"><span data-stu-id="56326-125">It can't start with a special character.</span></span>
+- <span data-ttu-id="bdd59-125">它不得包含特殊字符。</span><span class="sxs-lookup"><span data-stu-id="bdd59-125">It can't start with a special character.</span></span>
     
-## <a name="whats-wrong-with-the-street-name"></a><span data-ttu-id="56326-126">什么是不妥的街道名称？</span><span class="sxs-lookup"><span data-stu-id="56326-126">What's wrong with the street name?</span></span>
+## <a name="whats-wrong-with-the-street-name"></a><span data-ttu-id="bdd59-126">什么是不妥的街道名称？</span><span class="sxs-lookup"><span data-stu-id="bdd59-126">What's wrong with the street name?</span></span>
 
-<span data-ttu-id="56326-127">如果在输入街道名称的问题时，请记住：</span><span class="sxs-lookup"><span data-stu-id="56326-127">If you are having a problem entering the street name, remember:</span></span>
+<span data-ttu-id="bdd59-127">如果在输入街道名称的问题时，请记住：</span><span class="sxs-lookup"><span data-stu-id="bdd59-127">If you are having a problem entering the street name, remember:</span></span>
   
-- <span data-ttu-id="56326-128">它可以有字母、 数字和下列特殊字符:，/-+。</span><span class="sxs-lookup"><span data-stu-id="56326-128">It can have letters, numbers, and the following special characters : , / - + .</span></span> <span data-ttu-id="56326-129">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="56326-129"></span></span> 
+- <span data-ttu-id="bdd59-128">它可以有字母、 数字和下列特殊字符:，/-+。</span><span class="sxs-lookup"><span data-stu-id="bdd59-128">It can have letters, numbers, and the following special characters : , / - + .</span></span> <span data-ttu-id="bdd59-129">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="bdd59-129"></span></span> 
     
-- <span data-ttu-id="56326-130">它还为 50 个字符或更少。</span><span class="sxs-lookup"><span data-stu-id="56326-130">It has to be 50 characters or less.</span></span>
+- <span data-ttu-id="bdd59-130">它还为 50 个字符或更少。</span><span class="sxs-lookup"><span data-stu-id="bdd59-130">It has to be 50 characters or less.</span></span>
     
-- <span data-ttu-id="56326-131">它不得包含特殊字符。</span><span class="sxs-lookup"><span data-stu-id="56326-131">It can't start with a special character.</span></span> 
+- <span data-ttu-id="bdd59-131">它不得包含特殊字符。</span><span class="sxs-lookup"><span data-stu-id="bdd59-131">It can't start with a special character.</span></span> 
     
-## <a name="whats-wrong-with-the-city-or-town"></a><span data-ttu-id="56326-132">不妥的城市或城镇是什么？</span><span class="sxs-lookup"><span data-stu-id="56326-132">What's wrong with the city or town?</span></span>
+## <a name="whats-wrong-with-the-city-or-town"></a><span data-ttu-id="bdd59-132">不妥的城市或城镇是什么？</span><span class="sxs-lookup"><span data-stu-id="bdd59-132">What's wrong with the city or town?</span></span>
 
-<span data-ttu-id="56326-133">如果在输入的市 / 县名称的问题时，请记住：</span><span class="sxs-lookup"><span data-stu-id="56326-133">If you are having a problem entering the name of the city or town, remember:</span></span>
+<span data-ttu-id="bdd59-133">如果在输入的市 / 县名称的问题时，请记住：</span><span class="sxs-lookup"><span data-stu-id="bdd59-133">If you are having a problem entering the name of the city or town, remember:</span></span>
   
-- <span data-ttu-id="56326-134">它可以有字母、 数字和下列特殊字符:，/-+。</span><span class="sxs-lookup"><span data-stu-id="56326-134">It can have letters, numbers, and the following special characters : , / - + .</span></span> <span data-ttu-id="56326-135">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="56326-135"></span></span>
+- <span data-ttu-id="bdd59-134">它可以有字母、 数字和下列特殊字符:，/-+。</span><span class="sxs-lookup"><span data-stu-id="bdd59-134">It can have letters, numbers, and the following special characters : , / - + .</span></span> <span data-ttu-id="bdd59-135">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="bdd59-135"></span></span>
     
-- <span data-ttu-id="56326-136">它还为 50 个字符或更少。</span><span class="sxs-lookup"><span data-stu-id="56326-136">It has to be 50 characters or less.</span></span>
+- <span data-ttu-id="bdd59-136">它还为 50 个字符或更少。</span><span class="sxs-lookup"><span data-stu-id="bdd59-136">It has to be 50 characters or less.</span></span>
     
-- <span data-ttu-id="56326-137">它不得包含特殊字符。</span><span class="sxs-lookup"><span data-stu-id="56326-137">It can't start with a special character.</span></span> 
+- <span data-ttu-id="bdd59-137">它不得包含特殊字符。</span><span class="sxs-lookup"><span data-stu-id="bdd59-137">It can't start with a special character.</span></span> 
     
-## <a name="whats-wrong-with-the-postal-code"></a><span data-ttu-id="56326-138">不妥的邮政编码是多少？</span><span class="sxs-lookup"><span data-stu-id="56326-138">What's wrong with the postal code?</span></span>
+## <a name="whats-wrong-with-the-postal-code"></a><span data-ttu-id="bdd59-138">不妥的邮政编码是多少？</span><span class="sxs-lookup"><span data-stu-id="bdd59-138">What's wrong with the postal code?</span></span>
 
-<span data-ttu-id="56326-139">如果您有问题输入邮政编码，请记住：</span><span class="sxs-lookup"><span data-stu-id="56326-139">If you are having a problem entering the postal code, remember:</span></span>
+<span data-ttu-id="bdd59-139">如果您有问题输入邮政编码，请记住：</span><span class="sxs-lookup"><span data-stu-id="bdd59-139">If you are having a problem entering the postal code, remember:</span></span>
   
-- <span data-ttu-id="56326-140">它只能包含字母、 数字或空格。</span><span class="sxs-lookup"><span data-stu-id="56326-140">It can only have letters, numbers, or spaces.</span></span>
+- <span data-ttu-id="bdd59-140">它只能包含字母、 数字或空格。</span><span class="sxs-lookup"><span data-stu-id="bdd59-140">It can only have letters, numbers, or spaces.</span></span>
     
-- <span data-ttu-id="56326-141">它必须有 8 或更小的字母，包括数字和空格。</span><span class="sxs-lookup"><span data-stu-id="56326-141">It has to have 8 or less letters, including numbers and spaces.</span></span>
+- <span data-ttu-id="bdd59-141">它必须有 8 或更小的字母，包括数字和空格。</span><span class="sxs-lookup"><span data-stu-id="bdd59-141">It has to have 8 or less letters, including numbers and spaces.</span></span>
     
-- <span data-ttu-id="56326-142">**请记住，如果您是在大不列颠及北爱尔兰联合王国 （英国）**，您**必须**使用以下格式之一将邮政编码其中字母 A = 字符 A 到 Z，# 符号 = 介于 0-9 和 _ （下划线） = 的空白区域。</span><span class="sxs-lookup"><span data-stu-id="56326-142">**Remember that if you are in the United Kingdom (U.K.)**, you **must** put the postal code in one of the following formats, where the letter A = character A-Z, the # sign = a number from 0-9, and the _ (underscore) = a blank space.</span></span> <span data-ttu-id="56326-143">下面是一些示例：</span><span class="sxs-lookup"><span data-stu-id="56326-143">Here are some examples:</span></span>
+- <span data-ttu-id="bdd59-142">**请记住，如果您是在大不列颠及北爱尔兰联合王国 （英国）**，您**必须**使用以下格式之一将邮政编码其中字母 A = 字符 A 到 Z，# 符号 = 介于 0-9 和 _ （下划线） = 的空白区域。</span><span class="sxs-lookup"><span data-stu-id="bdd59-142">**Remember that if you are in the United Kingdom (U.K.)**, you **must** put the postal code in one of the following formats, where the letter A = character A-Z, the # sign = a number from 0-9, and the _ (underscore) = a blank space.</span></span> <span data-ttu-id="bdd59-143">下面是一些示例：</span><span class="sxs-lookup"><span data-stu-id="bdd59-143">Here are some examples:</span></span>
     
-|<span data-ttu-id="56326-144">**格式**</span><span class="sxs-lookup"><span data-stu-id="56326-144">**Format**</span></span>|<span data-ttu-id="56326-145">**示例**</span><span class="sxs-lookup"><span data-stu-id="56326-145">**Example**</span></span>|
+|<span data-ttu-id="bdd59-144">**格式**</span><span class="sxs-lookup"><span data-stu-id="bdd59-144">**Format**</span></span>|<span data-ttu-id="bdd59-145">**示例**</span><span class="sxs-lookup"><span data-stu-id="bdd59-145">**Example**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="56326-146">AA # A_ #AA</span><span class="sxs-lookup"><span data-stu-id="56326-146">AA#A_#AA</span></span>  <br/> |<span data-ttu-id="56326-147">EC3B 2BD</span><span class="sxs-lookup"><span data-stu-id="56326-147">EC3B 2BD</span></span>  <br/> |
-|<span data-ttu-id="56326-148">#AA # A_</span><span class="sxs-lookup"><span data-stu-id="56326-148">A#A_#AA</span></span>  <br/> |<span data-ttu-id="56326-149">E1W 1AP</span><span class="sxs-lookup"><span data-stu-id="56326-149">E1W 1AP</span></span>  <br/> |
-|<span data-ttu-id="56326-150">#AA # _</span><span class="sxs-lookup"><span data-stu-id="56326-150">A#_#AA</span></span>  <br/> |<span data-ttu-id="56326-151">F1 2AG</span><span class="sxs-lookup"><span data-stu-id="56326-151">F1 2AG</span></span>  <br/> |
-|<span data-ttu-id="56326-152">#AA # # _</span><span class="sxs-lookup"><span data-stu-id="56326-152">A##_#AA</span></span>  <br/> |<span data-ttu-id="56326-153">C44 8HT</span><span class="sxs-lookup"><span data-stu-id="56326-153">C44 8HT</span></span>  <br/> |
-|<span data-ttu-id="56326-154">AA # _ #AA</span><span class="sxs-lookup"><span data-stu-id="56326-154">AA#_#AA</span></span>  <br/> |<span data-ttu-id="56326-155">DR3 6 HG</span><span class="sxs-lookup"><span data-stu-id="56326-155">DR3 6HG</span></span>  <br/> |
-|<span data-ttu-id="56326-156">AA # # _ #AA</span><span class="sxs-lookup"><span data-stu-id="56326-156">AA##_#AA</span></span>  <br/> |<span data-ttu-id="56326-157">FN35 1TH</span><span class="sxs-lookup"><span data-stu-id="56326-157">FN35 1TH</span></span>  <br/> |
+|<span data-ttu-id="bdd59-146">AA # A_ #AA</span><span class="sxs-lookup"><span data-stu-id="bdd59-146">AA#A_#AA</span></span>  <br/> |<span data-ttu-id="bdd59-147">EC3B 2BD</span><span class="sxs-lookup"><span data-stu-id="bdd59-147">EC3B 2BD</span></span>  <br/> |
+|<span data-ttu-id="bdd59-148">#AA # A_</span><span class="sxs-lookup"><span data-stu-id="bdd59-148">A#A_#AA</span></span>  <br/> |<span data-ttu-id="bdd59-149">E1W 1AP</span><span class="sxs-lookup"><span data-stu-id="bdd59-149">E1W 1AP</span></span>  <br/> |
+|<span data-ttu-id="bdd59-150">#AA # _</span><span class="sxs-lookup"><span data-stu-id="bdd59-150">A#_#AA</span></span>  <br/> |<span data-ttu-id="bdd59-151">F1 2AG</span><span class="sxs-lookup"><span data-stu-id="bdd59-151">F1 2AG</span></span>  <br/> |
+|<span data-ttu-id="bdd59-152">#AA # # _</span><span class="sxs-lookup"><span data-stu-id="bdd59-152">A##_#AA</span></span>  <br/> |<span data-ttu-id="bdd59-153">C44 8HT</span><span class="sxs-lookup"><span data-stu-id="bdd59-153">C44 8HT</span></span>  <br/> |
+|<span data-ttu-id="bdd59-154">AA # _ #AA</span><span class="sxs-lookup"><span data-stu-id="bdd59-154">AA#_#AA</span></span>  <br/> |<span data-ttu-id="bdd59-155">DR3 6 HG</span><span class="sxs-lookup"><span data-stu-id="bdd59-155">DR3 6HG</span></span>  <br/> |
+|<span data-ttu-id="bdd59-156">AA # # _ #AA</span><span class="sxs-lookup"><span data-stu-id="bdd59-156">AA##_#AA</span></span>  <br/> |<span data-ttu-id="bdd59-157">FN35 1TH</span><span class="sxs-lookup"><span data-stu-id="bdd59-157">FN35 1TH</span></span>  <br/> |
 
 > [!NOTE]
-> <span data-ttu-id="56326-158">如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="56326-158">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="bdd59-158">如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="bdd59-158">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
    
-## <a name="related-topics"></a><span data-ttu-id="56326-159">相关主题</span><span class="sxs-lookup"><span data-stu-id="56326-159">Related topics</span></span>
-[<span data-ttu-id="56326-160">关于转移电话号码的常见问题</span><span class="sxs-lookup"><span data-stu-id="56326-160">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
+## <a name="related-topics"></a><span data-ttu-id="bdd59-159">相关主题</span><span class="sxs-lookup"><span data-stu-id="bdd59-159">Related topics</span></span>
+[<span data-ttu-id="bdd59-160">关于转移电话号码的常见问题</span><span class="sxs-lookup"><span data-stu-id="bdd59-160">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
 
-[<span data-ttu-id="56326-161">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="56326-161">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="bdd59-161">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="bdd59-161">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="56326-162">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="56326-162">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="bdd59-162">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="bdd59-162">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
 
-[<span data-ttu-id="56326-163">Skype for Business Online：紧急呼叫免责标签</span><span class="sxs-lookup"><span data-stu-id="56326-163">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+[<span data-ttu-id="bdd59-163">Skype for Business Online：紧急呼叫免责声明标签</span><span class="sxs-lookup"><span data-stu-id="bdd59-163">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a><span data-ttu-id="56326-164">反馈意见？</span><span class="sxs-lookup"><span data-stu-id="56326-164">Feedback?</span></span>
-<span data-ttu-id="56326-165">提供产品反馈意见或让我们知道我们所执行的信息，请参阅[Skype 业务反馈](https://www.skypefeedback.com)。</span><span class="sxs-lookup"><span data-stu-id="56326-165">To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).</span></span>
+  
+ 

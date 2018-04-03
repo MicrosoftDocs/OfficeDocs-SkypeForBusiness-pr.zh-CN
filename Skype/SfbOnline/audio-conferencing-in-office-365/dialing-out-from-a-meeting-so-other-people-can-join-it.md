@@ -1,5 +1,5 @@
 ---
-title: "从会议拨出，以便其他人可以加入会议"
+title: 从会议拨出，以便其他人可以加入会议
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,38 +22,38 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: 55bb15c0c413aa61e863613cdcefedb4e2d477a7
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.openlocfilehash: 1dc1fb9b97381eed3a078e64fb408095df414f6d
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
-# <a name="dialing-out-from-a-meeting-so-other-people-can-join-it"></a><span data-ttu-id="5a2f7-103">从会议拨出，以便其他人可以加入会议</span><span class="sxs-lookup"><span data-stu-id="5a2f7-103">Dialing out from a meeting so other people can join it</span></span>
+# <a name="dialing-out-from-a-meeting-so-other-people-can-join-it"></a><span data-ttu-id="2fb40-103">从会议拨出，以便其他人可以加入会议</span><span class="sxs-lookup"><span data-stu-id="2fb40-103">Dialing out from a meeting so other people can join it</span></span>
 
-<span data-ttu-id="5a2f7-104">作为会议组织者，您可以拨出使用 Skype 业务或 Microsoft 小组应用程序来让其他人加入同一会议使用他们的电话。</span><span class="sxs-lookup"><span data-stu-id="5a2f7-104">As the meeting organizer, you can dial out using a Skype for Business or Microsoft Teams app to let other people join the same meeting using their phone.</span></span> <span data-ttu-id="5a2f7-105">尽管这不是必需的，但是当你拨出给某人时，建议你拨打完整的号码，包括国家/地区代码。</span><span class="sxs-lookup"><span data-stu-id="5a2f7-105">Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code.</span></span> <span data-ttu-id="5a2f7-106">要让拨出功能正常工作，必须满足以下条件：</span><span class="sxs-lookup"><span data-stu-id="5a2f7-106">To get dial-out to work:</span></span>
+<span data-ttu-id="2fb40-104">作为会议组织者，您可以拨出使用 Skype 业务或 Microsoft 小组应用程序来让其他人加入同一会议使用他们的电话。</span><span class="sxs-lookup"><span data-stu-id="2fb40-104">As the meeting organizer, you can dial out using a Skype for Business or Microsoft Teams app to let other people join the same meeting using their phone.</span></span> <span data-ttu-id="2fb40-105">尽管这不是必需的，但是当你拨出给某人时，建议你拨打完整的号码，包括国家/地区代码。</span><span class="sxs-lookup"><span data-stu-id="2fb40-105">Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code.</span></span> <span data-ttu-id="2fb40-106">要让拨出功能正常工作，必须满足以下条件：</span><span class="sxs-lookup"><span data-stu-id="2fb40-106">To get dial-out to work:</span></span>
   
-- <span data-ttu-id="5a2f7-107">您可以拨出只有当您加入会议的业务或 Microsoft 小组应用程序使用 Skype。</span><span class="sxs-lookup"><span data-stu-id="5a2f7-107">You can dial-out only if you join a meeting using a Skype for Business or Microsoft Teams app.</span></span>
+- <span data-ttu-id="2fb40-107">您可以拨出只有当您加入会议的业务或 Microsoft 小组应用程序使用 Skype。</span><span class="sxs-lookup"><span data-stu-id="2fb40-107">You can dial-out only if you join a meeting using a Skype for Business or Microsoft Teams app.</span></span>
     
-- <span data-ttu-id="5a2f7-108">作为会议组织者您已启用音频会议的。</span><span class="sxs-lookup"><span data-stu-id="5a2f7-108">You as the meeting organizer have been enabled for audio conferencing.</span></span>
+- <span data-ttu-id="2fb40-108">作为会议组织者您已启用音频会议的。</span><span class="sxs-lookup"><span data-stu-id="2fb40-108">You as the meeting organizer have been enabled for audio conferencing.</span></span>
 
- <span data-ttu-id="5a2f7-109">**第 1 步：**在邀请会议中，**邀请更多人员**选项用于拨出的电话号码。</span><span class="sxs-lookup"><span data-stu-id="5a2f7-109">**Step 1:** In the invite meeting, use the **Invite More People** option to dial out to a phone number.</span></span>
+ <span data-ttu-id="2fb40-109">**第 1 步：**在邀请会议中，**邀请更多人员**选项用于拨出的电话号码。</span><span class="sxs-lookup"><span data-stu-id="2fb40-109">**Step 1:** In the invite meeting, use the **Invite More People** option to dial out to a phone number.</span></span>
   
 ![Dial-out with Skype for Business.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
   
- <span data-ttu-id="5a2f7-111">**第 2 步：**输入完整的电话号码，在框中包含国家/地区代码。</span><span class="sxs-lookup"><span data-stu-id="5a2f7-111">**Step 2:** Enter the full phone number, including the country/region code in the box.</span></span>
+ <span data-ttu-id="2fb40-111">**第 2 步：**输入完整的电话号码，在框中包含国家/地区代码。</span><span class="sxs-lookup"><span data-stu-id="2fb40-111">**Step 2:** Enter the full phone number, including the country/region code in the box.</span></span>
   
 ![Dial-out phone number in Skype for Business](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
-## <a name="supported-countries-and-regions"></a><span data-ttu-id="5a2f7-113">支持的国家和地区</span><span class="sxs-lookup"><span data-stu-id="5a2f7-113">Supported countries and regions</span></span>
+## <a name="supported-countries-and-regions"></a><span data-ttu-id="2fb40-113">支持的国家和地区</span><span class="sxs-lookup"><span data-stu-id="2fb40-113">Supported countries and regions</span></span>
 
-<span data-ttu-id="5a2f7-114">拨出功能仅适用于某些国家/地区。</span><span class="sxs-lookup"><span data-stu-id="5a2f7-114">Dial-out is only available to some countries/regions.</span></span> <span data-ttu-id="5a2f7-115">有关完整列表，请参阅[音频会议和调用计划的国家和地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。</span><span class="sxs-lookup"><span data-stu-id="5a2f7-115">For complete list, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span></span>
+<span data-ttu-id="2fb40-114">拨出功能仅适用于某些国家/地区。</span><span class="sxs-lookup"><span data-stu-id="2fb40-114">Dial-out is only available to some countries/regions.</span></span> <span data-ttu-id="2fb40-115">有关完整列表，请参阅[音频会议和调用计划的国家和地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。</span><span class="sxs-lookup"><span data-stu-id="2fb40-115">For complete list, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span></span>
   
-## <a name="want-to-know-more-about-audio-conferencing"></a><span data-ttu-id="5a2f7-116">想知道更多有关音频会议吗？</span><span class="sxs-lookup"><span data-stu-id="5a2f7-116">Want to know more about audio conferencing?</span></span>
+## <a name="want-to-know-more-about-audio-conferencing"></a><span data-ttu-id="2fb40-116">想知道更多有关音频会议吗？</span><span class="sxs-lookup"><span data-stu-id="2fb40-116">Want to know more about audio conferencing?</span></span>
 
-- [<span data-ttu-id="5a2f7-117">设置音频会议 for Skype Business 和 Microsoft 团队</span><span class="sxs-lookup"><span data-stu-id="5a2f7-117">Set up Audio Conferencing for Skype for Business and Microsoft Teams</span></span>](set-up-audio-conferencing.md)
+[<span data-ttu-id="2fb40-117">试用或购买 Office 365 中的音频会议</span><span class="sxs-lookup"><span data-stu-id="2fb40-117">Try or purchase Audio Conferencing in Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
-- [<span data-ttu-id="5a2f7-118">Skype for Business 和 Microsoft Teams 外接程序许可</span><span class="sxs-lookup"><span data-stu-id="5a2f7-118">Skype for Business and Microsoft Teams add-on licensing</span></span>](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- [<span data-ttu-id="2fb40-118">Skype for Business 和 Microsoft Teams 外接程序许可</span><span class="sxs-lookup"><span data-stu-id="2fb40-118">Skype for Business and Microsoft Teams add-on licensing</span></span>](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## <a name="related-topics"></a><span data-ttu-id="5a2f7-119">相关主题</span><span class="sxs-lookup"><span data-stu-id="5a2f7-119">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="2fb40-119">相关主题</span><span class="sxs-lookup"><span data-stu-id="2fb40-119">Related topics</span></span>
 
-[<span data-ttu-id="5a2f7-120">安装 Skype for Business</span><span class="sxs-lookup"><span data-stu-id="5a2f7-120">Install Skype for Business</span></span>](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
+[<span data-ttu-id="2fb40-120">安装 Skype for Business</span><span class="sxs-lookup"><span data-stu-id="2fb40-120">Install Skype for Business</span></span>](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
