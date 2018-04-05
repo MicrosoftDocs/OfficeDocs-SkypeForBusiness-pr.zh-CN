@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: 阅读本主题，以了解如何通过使用 Microsoft 操作管理套件 (OMS) 监视您的云连接器 2.1 版和更高版本的部署。
-ms.openlocfilehash: 5e03504f27eadbb235c1b5c84e8c7a19d66aea7d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8cb454cfcb61bb11e0545ab5ff7dd45d1403ce55
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>监视使用操作管理套件 (OMS) 的云连接器
  
@@ -221,9 +221,8 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
     
 下表列出了 Microsoft 建议监视通过停止和开始事件 Id 列出的服务：
   
-|||||
-|:-----|:-----|:-----|:-----|
 |服务名称  <br/> |目标服务器角色  <br/> |停止事件 ID  <br/> |开始事件 ID  <br/> |
+|:-----|:-----|:-----|:-----|
 |RTCMEDSRV  <br/> |中介服务器  <br/> |25003  <br/> |25002  <br/> |
 |RTCSRV  <br/> |边缘服务器  <br/> |12289  <br/> |12288  <br/> |
 |RTCMRAUTH  <br/> |边缘服务器  <br/> |19003  <br/> |19002  <br/> |
@@ -231,9 +230,8 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
    
 下表列出了 Microsoft 建议监视的网络问题：
   
-||||||
-|:-----|:-----|:-----|:-----|:-----|
 |监视器名称  <br/> |目标服务器角色  <br/> |成功事件 ID 表达式  <br/> |错误事件 ID 表达式  <br/> |失败的示例  <br/> |
+|:-----|:-----|:-----|:-----|:-----|
 |中介服务器到网关连接失败  <br/> |中介服务器  <br/> |25062 || 25002  <br/> |25061  <br/> |MS PING （选项） 网关失败  <br/> |
 |中介服务器到网关呼叫完成故障  <br/> |中介服务器  <br/> |25064 || 25002  <br/> |25063  <br/> |MS 试图使到网关呼叫失败  <br/> |
 |关键网络问题  <br/> |边缘服务器  <br/> |14353 || 12288  <br/> |14624  <br/> |TLS 传输本地 IP 地址 192.168.231.14 在端口 5061 上启动失败  <br/> |

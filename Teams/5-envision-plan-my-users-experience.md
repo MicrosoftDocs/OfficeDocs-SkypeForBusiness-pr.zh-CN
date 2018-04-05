@@ -11,13 +11,15 @@ description: 选择团队客户端应用程序，用于终结点质量计划获�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d15d000098a1970c7e3f471d6fec8be202f26ae
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 866395a4dd58016c0989ec4b34f602877251d021
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-my-users-experience"></a>计划我的用户体验
+
+这篇文章概括介绍了正确确定直接影响用户的体验云语音服务部署的元素的要求。 为这些项在部署之前做好准备，将增加成功地提供高质量、 可靠的用户体验的机会。 
 
 ## <a name="client-deployment"></a>客户端部署
 

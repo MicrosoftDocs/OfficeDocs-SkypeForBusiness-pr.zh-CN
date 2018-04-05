@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: c58a8e2475b1b41e02d0abced47fcc9d076d5f25
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 4f019a3ffc8b30de0a5d57a882bd2cdcb78f0508
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>请参阅启用了音频会议的用户列表
 
@@ -34,11 +34,13 @@ ms.lasthandoff: 04/03/2018
   
 ## <a name="viewing-a-list-of-users"></a>查看用户列表
 
-1. 使用你的工作或学校帐户登录 Office 365。
+**使用 Microsoft 小组和 Skype 业务管理中心**
+
+- 在左侧导航中，单击**用户**。
+
+**使用 Skype 业务管理中心**
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
-    
-3. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议** > **用户**。
+- 在左侧的导航中，转到**音频会议** > **用户**。
     
 ## <a name="what-else-should-i-know"></a>我还需了解哪些信息？
 

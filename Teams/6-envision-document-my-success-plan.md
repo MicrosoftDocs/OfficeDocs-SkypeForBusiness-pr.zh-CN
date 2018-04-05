@@ -11,13 +11,15 @@ description: 选择一种部署模式、 开发负责的责任-参考-通知 (RA
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8352608eca00062ed2b8dbdce4682e7bdd437351
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 70ed024e606e7419a5cd2645cb60ef487fa72982
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="document-my-success-plan"></a>我成功的计划的文档
+
+这篇文章概括介绍了正确记录云语音部署的要求。 通过定义和规划云语音部署时记录所有的决策点和下一步，您可以确保所有利益相关者和项目团队成员的对齐上提供了成功的结果。 
 
 ## <a name="execution-planning"></a>执行计划 
 

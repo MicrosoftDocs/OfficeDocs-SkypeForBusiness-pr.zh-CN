@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: 本文根据对业务服务器 2015年在 Skype 的用户模型中所描述的使用数量的用户在该站点，站点需要多少服务器提供指导。
-ms.openlocfilehash: b8395e1fdec1a9d4ed100a911fccd6177b03c665
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 313bd440188b1d97afa95d71fcca4e74b5cb8217
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的容量规划用户模型用法
  
@@ -163,9 +163,8 @@ ms.lasthandoff: 03/28/2018
   
 下表说明了每个用户每天监控和存档数据所需的数据库存储的大致数量。
   
-|||||
-|:-----|:-----|:-----|:-----|
 ||**CDR（监控）** <br/> |**QoE（监控）** <br/> |**存档** <br/> |
+|:-----|:-----|:-----|:-----|
 |每个用户每天所需的磁盘空间  <br/> |49 KB  <br/> |28 KB  <br/> |57 KB  <br/> |
    
 Microsoft 在其性能测试期间对用于监控和存档的数据库服务器使用了下表中的硬件。 测试收集了两个前端池，其中的每个包含 80000 用户的数据。
@@ -181,9 +180,8 @@ Microsoft 在其性能测试期间对用于监控和存档的数据库服务器�
    
 **建议的磁盘配置**
 
-||||
-|:-----|:-----|:-----|
 |**驱动器** <br/> |**RAID 配置** <br/> |**磁盘数** <br/> |
+|:-----|:-----|:-----|
 |单个驱动器上的 CDR、QoE 和存档数据库数据文件  <br/> |1+0  <br/> |16  <br/> |
 |CDR 数据库日志文件  <br/> |1  <br/> |2  <br/> |
 |QoE 数据库日志文件  <br/> |1  <br/> |2  <br/> |

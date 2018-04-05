@@ -11,17 +11,15 @@ description: 测量结果的电话系统调用计划部署并验证获得了您�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9883fb04c70d07a0249d2390b894bba3d491ec04
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 23e471e7917ee188d0c4e601a59c53087ad2f9e0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="define-my-success"></a>我的成功定义
 
-## <a name="introduction"></a>简介
-
-此内容概述了正确定义为您的组织的电话系统调用计划部署成功的要求。 通过正确定义您的成功，可以通过您的部署过程测量结果，并验证您获得的结果，是您想要的结果。
+这篇文章概括介绍了定义为您的组织的电话系统调用计划部署成功的要求。 通过正确定义获得什么样的成果如下所示，可以通过您的部署过程测量结果和验证您获得的结果，是您想要的。
 
 <!--ENDOFSECTION-->
 

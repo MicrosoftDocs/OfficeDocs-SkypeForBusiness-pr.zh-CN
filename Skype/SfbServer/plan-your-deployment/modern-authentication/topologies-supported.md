@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: 本文列出了 Skype for Business 中的新式验证支持的在线和本地拓扑，以及适用于每个拓扑的安全功能。
-ms.openlocfilehash: 13721b9d489b85fa6895469310240eebccc180ec
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a6be001bf1aeeeba9823c291ee9726c33ec9009a
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>支持新式验证的 Skype for Business 拓扑
  
@@ -73,9 +73,8 @@ MA 的另一个重要部分是了解在何处执行用户身份验证 (authN) �
 > [!IMPORTANT]
 > 是否已准备好在 Skype for Business Online 中设置新式验证？ 若要启用此功能的步骤是正确[这里](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)。 
   
-|||||
-|:-----|:-----|:-----|:-----|
 |拓扑名称  <br/> |示例  <br/> |说明  <br/> |支持  <br/> |
+|:-----|:-----|:-----|:-----|
 |仅云  <br/> |![支持 SFB 与 MA 拓扑，仅限云。](../../media/4d19b47f-8257-4a6f-9dab-0755206f7c52.PNG)用户托管/邮箱位置：在线   <br/> |MA 对于 EXO 和 SFBO 为启用状态。  <br/> 因此，授权服务器是 Azure AD。  <br/> |多因素身份验证 (MFA)，基于客户端证书身份验证 (CBA) 条件访问 (CA) / 移动应用程序管理 (MAM) 与 Intune。 \*  <br/> |
 |仅本地  <br/> |![支持 SFB 与 MA 拓扑，仅限本地部署。](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)用户托管/邮箱位置：本地  <br/> |MA 对于 SFB 本地为启用状态。  <br/> 因此，授权服务器是 ADFS。  <br/> 有关配置的详细信息，请参阅[这篇文章。](https://technet.microsoft.com/en-us/library/mt710548.aspx) <br/> |MFA（仅限 Windows 桌面 - 不支持移动客户端）。不提供 Exchange 集成功能。  <br/> |
    
@@ -84,9 +83,8 @@ MA 的另一个重要部分是了解在何处执行用户身份验证 (authN) �
   
 混合拓扑涉及 SFB 拆分域混合组合。当前支持下列混合拓扑：
   
-|||||
-|:-----|:-----|:-----|:-----|
 |拓扑名称  <br/> |示例  <br/> |说明  <br/> |支持  <br/> |
+|:-----|:-----|:-----|:-----|
 |混合 1  <br/> |![支持 SFB 与 MA 拓扑，混合 1 (EXO + SFB)。](../../media/7b2e607a-c83a-4bb3-9b48-a43566516129.PNG)           <br/> 用户托管/邮箱位置：EXO 和 SFB  <br/> |MA 对 SFB 未启用，此拓扑中不提供 SFB MA 功能。  <br/> |SFB 无 MA 功能。  <br/> |
 |混合 2  <br/> |![支持 MA 与 S4B 混合拓扑 2，使用本地 EXCH 的 SFBO 加 MA。](../../media/247a985d-39cd-4c16-a19e-b8b65207d82e.PNG)           <br/> 用户托管/邮箱位置：EXCH 和 SFBO  <br/> |MA 是可以 SFBO 只。 授权服务器是 Azure AD 用户驻留在 SFBO，但 EXCH 场所的广告。  <br/> |MFA，CBA，CA/MAM Intune 使用。\*  <br/> |
 |混合 3  <br/> |![支持 MA 与 SFB，启用了 MA 的 EXO，加本地 EXCH 和 SFB。](../../media/772dc261-c041-4a96-90d0-fd0b5124decf.PNG)           <br/> 用户托管/邮箱位置：EXO + SFB 或 EXCH + SFB  <br/> |此拓扑中不提供 SFB MA 功能  <br/> |SFB 无 MA 功能。  <br/> |

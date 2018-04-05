@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 description: tblNode 包含对象 （类别或聊天室节点树） 托管在控制面板和管理 cmdlet。
-ms.openlocfilehash: b743453225fda70db18a7bc616a5f7b647d5ebff
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0b5e752856272ad7021666822694cd27bb3660ee
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="tblnode"></a>tblNode
  
@@ -34,7 +34,6 @@ tblNode 包含对象 （类别或聊天室节点树） 托管在控制面板和�
 |记录  <br/> |bit  <br/> | 类别： <br/>  如果聊天历史上，则为 true。 <br/>  如果聊天历史处于关闭状态，则为 false。 <br/>  为文件室： <br/>  为空。 <br/> |
 |filePost  <br/> |bit  <br/> | 类别： <br/>  如果允许文件上载，则为 true。 <br/>  如果不允许使用文件上载，则为 false。 <br/>  为文件室： <br/>  为空。 <br/> |
 |禁用  <br/> |位，不为空  <br/> |如果聊天室被禁用，则为 true。 仅适用于聊天室。 （类别为假）。  <br/> |
-|||
 |行为  <br/> |smallint，不为空  <br/> | （在 EnumValue 表中查找） 的行为： <br/>  4： 普通 （正常聊天室）。 <br/>  5： 大会堂 （大会堂聊天室，仅演示者可以参与）。 <br/>  仅适用于聊天室。 <br/> |
 |可见性  <br/> |smallint，不为空  <br/> | （在 EnumValue 表上查找） 的可见性： <br/>  2： 专用 <br/>  3： 范围 <br/>  6： 打开 <br/>  仅适用于聊天室。 <br/> |
 |siopID  <br/> |GUID  <br/> |外接程序 GUID 如果外接程序与此聊天室。 （类别有外接程序）。  <br/> SiopWhiteList 表中查找外接程序的信息。  <br/> |

@@ -11,15 +11,17 @@ description: 了解有关会议、 许可和可用性、 配置会议网桥的�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a4007b328ec66bed0ccae0160491b4ee20f858
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: fa51cda9a9ce57d7672b152b45eb9c8e3cf4ba46
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="make-my-service-decisions"></a>决定我的服务
 
 规划的音频会议服务的技术实现，必须进行一系列的服务决策提前准备好您的组织能够实现的解决方案能够满足您定义的业务需求。
+
+## <a name="audio-conferencing-in-teams"></a>在团队中的音频会议
 
 作为 Microsoft 小组中定义所需的音频会议功能的一部分，第一步是评估最新的公共路线图，以确定：
 

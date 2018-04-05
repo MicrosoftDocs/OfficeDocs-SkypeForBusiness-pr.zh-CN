@@ -22,27 +22,35 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business.
-ms.openlocfilehash: 442ec6f4395b71acaf3296bdd6ec6317451dc36f
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: d8e6073bd60612131e54e10be6498370d8dfe3bb
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>设置音频会议的会议的针长度
 
-当您设置中的音频会议为 Skype 业务或 Microsoft 小组时，您将看到音频会议桥。 会议网桥可以包含一个或多个电话号码。 您设置的电话号码将包括在会议邀请的 Skype 业务和 Microsoft 小组应用程序。
+当您要设置音频会议 Skype 业务或 Microsoft 小组时，您将看到音频会议桥。 会议网桥可以包含一个或多个电话号码。 您设置的电话号码将包括在会议邀请的 Skype 业务和 Microsoft 小组应用程序。
   
 音频会议桥的拨入会议使用电话的人应答呼叫。 从自动助理，然后根据您的设置，它会回答带语音提示的调用方，可以播放通知并要求调用方来记录他们的姓名。 **Microsoft 网桥的设置**允许您更改的设置会议通知和会议加入体验，并将由会议组织者的针脚长度设置。 会议组织者使用针脚来启动会议，如果他们不能参加会议的业务或 Microsoft 小组应用程序使用 Skype。
   
 ## <a name="setting-the-pin-length"></a>设置 PIN 长度
 
-1. 使用你的工作或学校帐户登录 Office 365。
+**使用 Microsoft 小组和 Skype 业务管理中心**
+
+1. 在左侧的导航中，转到**会议** > **会议桥**。 
+
+2. 在**会议桥**页的顶部，单击**桥接器设置**。 
+
+3. 在**网桥的设置**窗格下**针长度**，, 选择的数字所需的针数。
+
+4. 单击“**应用**”。
+
+**使用 Skype 业务管理中心**
+ 
+1. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议** > **Microsoft 网桥的设置**。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
-    
-3. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议** > **Microsoft 网桥的设置**。
-    
-4. 在**安全**下 > **针长度**，选择的针，所需的位数，然后单击**保存**。
+2. 在**安全**下 > **针长度**，选择的针，所需的位数，然后单击**保存**。
     
 > [!NOTE]
 > [!注释] PIN 与会议 ID 不同。 会议 ID 由呼叫者在加入会议时使用。 它们用于标识会议。 PIN 用于对作为会议组织者的呼叫者进行身份验证。 

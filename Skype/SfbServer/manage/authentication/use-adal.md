@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5ca71746-ead6-4e8c-90b1-461e846d1f4a
 description: 本文介绍了如何使用现代的身份验证 （这依赖于活动目录身份验证库 (ADAL) 以及 OAuth 2.0） 3 月 2016年中可以找到有关业务的业务服务器 2015年的 Skype 的 Skype 的累积更新。
-ms.openlocfilehash: efd0e35ce92143e9fb5fda03301eb51d2926c979
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9ef430f770b0b5d2ee22f2744e95b6df47fa95b9
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>如何将新式验证 (ADAL) 与 Skype for Business 配合使用
  
@@ -120,9 +120,8 @@ ADAL 包括在 3 月 2016年累积更新的业务服务器 2015，Skype 和 3 �
     
 - 为要启用新式验证的每个设备或计算机设置这些注册表项。 在大型组织中需要一个 GPO。 如何使一个 GPO 的信息，请参阅创建组策略对象来修改域联接计算机上的注册表[这](https://support.office.com/en-us/article/Switching-between-the-Skype-for-Business-and-the-Lync-client-user-interfaces-a2394a4c-7522-484c-a047-7b3289742be0)篇文章。
     
-||||
-|:-----|:-----|:-----|
 |注册表项  <br/> |类型  <br/> |值  <br/> |
+|:-----|:-----|:-----|
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL  <br/> |REG_DWORD  <br/> |1  <br/> |
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version  <br/> |REG_DWORD  <br/> |1  <br/> |
    

@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: e2a57a63cbc7b633e0240b7ec94f2d548a2dbe31
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: c7582030765db6951c972dc3fa59610aca73417e
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>启用或禁用发送电子邮件时更改音频会议设置
 
@@ -56,22 +56,29 @@ ms.lasthandoff: 04/03/2018
     
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>启用或禁用发送到用户的电子邮件
 
-可以使用业务管理中心为 Skype 或 Windows PowerShell 启用或禁用电子邮件发送给用户。
+您可以使用 Microsoft 小组、 业务管理中心，为 Skype 或 Windows PowerShell 启用或禁用电子邮件发送给用户。
+
+**使用 Microsoft 小组和 Skype 业务管理中心**
+1. 在左侧的导航中，转到**会议** > **会议桥**。 
+
+2. 在**会议桥**页的顶部，单击**桥接器设置**。 
+
+3. **网桥的设置**窗格中启用或禁用**自动发送电子邮件发送给用户，如果他们拨入设置更改**。
+
+4. 单击“**应用**”。
   
- **使用 Skype 业务管理中心**
-  
-1. 使用你的工作或学校帐户登录 Office 365。
+**使用 Skype 业务管理中心**
     
-2. 请转到**Office 365 管理中心** > **业务的 Skype**，并在左边的导航，请单击**音频会议**。
+1. 在**业务管理中心的 Skype**，在左边的导航，请单击**音频会议**。
     
-3. 在**Microsoft 桥设置**页上，选中或清除**自动发送电子邮件发送给用户，如果他们的音频会议设置更改**。
+2. 在**Microsoft 桥设置**页上，选中或清除**自动发送电子邮件发送给用户，如果他们的音频会议设置更改**。
     
-4. 单击" **保存**"。
+3. 单击" **保存**"。
     
     > [!TIP]
     > 您还可以发送电子邮件给用户使用音频会议设置**音频会议**到 > **用户**，选择用户，然后单击**将会议信息通过电子邮件发送**。  如果这样做，将发送一封电子邮件，只包含会议 ID 和会议电话号码，但不是针。  有关详细信息，请参阅[发送一封电子邮件对他们的音频会议信息的用户](send-an-email-to-a-user-with-their-dial-in-information.md)。
   
- **使用 Windows PowerShell**
+**使用 Windows PowerShell**
   
 - 运行以下操作来禁用发送电子邮件： 
     

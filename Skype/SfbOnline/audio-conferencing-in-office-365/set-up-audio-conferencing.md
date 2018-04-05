@@ -1,5 +1,5 @@
 ---
-title: "设置音频会议 for Skype Business 和 Microsoft 团队"
+title: 设置音频会议 for Skype Business 和 Microsoft 团队
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,12 +23,12 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 - LIL_Placement
-description: "了解如何设置拨入或音频会议的人员在您的业务需要加入会议呼叫使用电话。 "
+description: '了解如何设置拨入或音频会议的人员在您的业务需要加入会议呼叫使用电话。 '
 ms.openlocfilehash: 4d82de668ec31f1664fb05202979dd6df94bda2b
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams"></a>设置音频会议 for Skype Business 和 Microsoft 团队
 

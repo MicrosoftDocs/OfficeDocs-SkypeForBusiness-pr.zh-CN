@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
-ms.openlocfilehash: b4244647674f25a10b6ca447a6ee8b4d23b36a9f
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 7c6f0e70780b04e75be52ead1eaf08602bcba003
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin"></a>开始音频会议通过 PIN 没有电话
 
@@ -38,19 +38,29 @@ PIN 不需为会议组织者，如果有人从 Skype 业务或 Microsoft 小组�
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>启用或禁用匿名呼叫者加入会议
 
-1. 使用你的工作或学校帐户登录 Office 365。
+**使用 Microsoft 小组和 Skype 业务管理中心**
+
+1. 在左侧导航中，单击**用户**。 
+
+2. 在列表中，选择用户，然后单击**编辑**页的顶部。 
+
+3. 单击**会议桥**边上的菜单，然后单击**编辑**。
+
+4. **桥的会议提供程序**窗格中启用或禁用**允许未经身份验证的调用方将在会议中的第一人。如果不是，然后他们将等到在休息室已经过身份验证的用户加入**。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+4. 单击“**应用**”。 
+
+**使用 Skype 业务管理中心**
     
-3. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议** > **用户**。 
+1. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议** > **用户**。 
     
-4. 在列表中，选择该用户并在操作窗格中单击**编辑**。 
+2. 在列表中，选择该用户并在操作窗格中单击**编辑**。 
     
-5. 在用户的属性页，在**会议选项**中，选中或清除**允许未经身份验证的调用方将在会议中的第一人。如果不是，然后他们将等到在休息室已经过身份验证的用户加入**。
+3. 在用户的属性页，在**会议选项**中，选中或清除**允许未经身份验证的调用方将在会议中的第一人。如果不是，然后他们将等到在休息室已经过身份验证的用户加入**。
     
-6. 单击" **保存**"。 
+4. 单击" **保存**"。 
     
- **若要启用或禁用对所有用户的会议使用 Windows Powershell 的匿名呼叫者**
+ **使用 Windows Powershell**
   
 - 请运行以下命令： 
     
@@ -82,7 +92,7 @@ PIN 不需为会议组织者，如果有人从 Skype 业务或 Microsoft 小组�
     
   - [为什么需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell 许多相比具有的优势在速度、 简易性和生产率仅使用 Office 365 管理中心，例如当您所更改的设置对于许多用户一次。 请在以下主题中了解这些优点： 
     

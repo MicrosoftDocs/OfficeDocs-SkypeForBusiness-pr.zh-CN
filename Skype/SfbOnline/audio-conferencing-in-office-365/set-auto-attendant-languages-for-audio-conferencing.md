@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 了解如何选择音频会议号码的音频会议自动助理语言。
-ms.openlocfilehash: e7c4adb2129a737ec34e5641a9724bdab665cd23
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 4cd40a54c90559d3886b737b8e9f66f02346358f
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing"></a>设置音频会议自动助理语言
 
@@ -39,22 +39,33 @@ Skype 业务和 Microsoft 小组音频会议自动助理可以上任之初即音
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>设置自动助理语言的会议
 
+**使用 Microsoft 小组和 Skype 业务管理中心**
+
+1. 在左侧的导航中，转到**会议** > **会议桥**。
+
+2. 选择音频会议电话号码，从列表中，并在页面的顶部，单击**编辑**。
+
+3. 在右侧窗格中，选择所需的默认语言和所有备用语言。 
+ 
+    > [!NOTE]
+    > 列出了默认和支持的备用语言。 所选的这些列表中的顺序将向调用方提供的语言的顺序。 
+
+4. 单击“**应用**”。
+
+**在线使用 Skype 业务**
+
 您必须是[Office 365 全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)或[Skype 业务管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行此步骤。
-  
-1. 使用你的工作或学校帐户登录 Office 365。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+1. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议**，然后单击**Microsoft 桥**。
     
-3. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议**，然后单击**Microsoft 桥**。
+2. 从列表中，然后在操作窗格中选择的音频会议电话号码，请单击**设置语言**。 
     
-4. 从列表中，然后在操作窗格中选择的音频会议电话号码，请单击**设置语言**。 
-    
-5. 在**设置语言**页上，单击**主要语言**列表以查看可用语言的完整列表。 如果需要请单击每个**辅助语言**列表以选择第二种语言。
+3. 在**设置语言**页上，单击**主要语言**列表以查看可用语言的完整列表。 如果需要请单击每个**辅助语言**列表以选择第二种语言。
     
     > [!NOTE]
     > [!注释] 则会显示所支持的主要和辅助语言。 所选的这些列表中的顺序将向调用方提供的语言的顺序。 
   
-6. 单击" **保存**"。
+4. 单击" **保存**"。
     
 ## <a name="want-else-should-i-know"></a>还需了解哪些信息？
 

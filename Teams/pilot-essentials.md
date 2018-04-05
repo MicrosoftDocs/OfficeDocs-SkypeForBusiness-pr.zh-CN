@@ -10,11 +10,11 @@ description: 指导在继续使用 Skype for Business 的同时，开始 Microso
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 386221bfc8a3249ef4c902605171e636f8a48f40
-ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.openlocfilehash: ccb09692991eeacc43d035389d245a0735030f1c
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>在使用 Skype for Business 的同时试用 Microsoft Teams
 ============================================
@@ -199,7 +199,7 @@ ms.lasthandoff: 03/20/2018
 <br>-且-<br><br>
 <li>网络运行状况令人满意</li></ul></td>
 <td align="left"><p>对于某些/所有可用应用场景并行部署 Teams 和 Skype for Business。 为了推动了解过程，我们强烈建议逐渐部署功能，而不是采用一次性全部完成的方法。</p>
-<p>详细了解[并行运行 Skype for Business 和 Teams](guidance-SkypeforBusiness.md)。</p>
+<p>了解有关[升级历程和 Skype 业务和团队的共存](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)。</p>
 <p>下载<a href="https://go.microsoft.com/fwlink/?linkid=859044">用户就绪模板</a>以协助与你的最终用户就其全新的并行体验进行沟通。</p></td>
 </tr>
 <tr class="odd">
@@ -207,7 +207,7 @@ ms.lasthandoff: 03/20/2018
 <br>-且-<br><br>
 <li>网络运行状况令人满意</li></ul></td>
 <td align="left"><p>对于所有应用场景并行部署 Teams 和 Skype for Business，鼓励用户尽可能优先使用 Teams。 此外，通知你的客户团队或 Microsoft 支持以让他们了解贵组织可能准备转为使用 Teams。</p>
-<p>详细了解[并行运行 Skype for Business 和 Teams](guidance-SkypeforBusiness.md)。</p>
+<p>了解有关[升级历程和 Skype 业务和团队的共存](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)。</p>
 <p>下载<a href="https://go.microsoft.com/fwlink/?linkid=859044">用户就绪模板</a>以协助与你的用户就其全新的并行体验进行沟通。</p></td>
 </tr>
 <tr class="even">

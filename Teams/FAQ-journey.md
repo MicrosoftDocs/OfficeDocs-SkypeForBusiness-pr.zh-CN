@@ -1,5 +1,5 @@
 ---
-title: "FAQ - 从 Skype for Business 到 Microsoft Teams 的旅程"
+title: FAQ - 从 Skype for Business 到 Microsoft Teams 的旅程
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,15 +7,15 @@ ms.date: 01/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: "有关从 Skype for Business Online 到 Microsoft Teams 的旅程的常见问题。"
+description: 有关从 Skype for Business Online 到 Microsoft Teams 的旅程的常见问题。
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d14538fb0884be77ffaedefd3459c8448d981d34
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 648e43ab121f226893d72c7a38a80923aedda1f2
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>FAQ - 从 Skype for Business 到 Microsoft Teams 的旅程
 ==========================================================
@@ -62,7 +62,7 @@ Teams 由全新的 Skype 后端基础结构提供支持，专为高度可伸缩�
 
 ### <a name="what-support-are-you-offering-to-customers-who-wish-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-in-office-365"></a>你们向希望迁移至 Teams 的客户提供什么支持，尤其是在 Office 365 中的 Skype for Business 付出大量投资的客户？
 
-客户继续使用 Office 365 中的 Skype for Business，直到 Teams 满足其业务需求。 我们将为希望将用户迁移至 Teams 的客户提供工具和指导以控制和管理该过程。 说明性指导和最佳做法将在 [https://aka.ms/skypeandteams](https://aka.ms/skypeandteams) 上提供。 我们将通过专业化首次运行体验和产品内指示标记帮助刚开始使用 Teams 的用户轻松度过过渡期。 FastTrack、客户支持和合作伙伴将在过渡期帮助指导客户。
+客户继续使用 Office 365 中的 Skype for Business，直到 Teams 满足其业务需求。 我们将为希望将用户迁移至 Teams 的客户提供工具和指导以控制和管理该过程。 指导和最佳做法都将显示在[https://aka.ms/skypeandteams](https://aka.ms/skypeandteams)。 我们将通过专业化首次运行体验和产品内指示标记帮助刚开始使用 Teams 的用户轻松度过过渡期。 FastTrack、客户支持和合作伙伴将在过渡期帮助指导客户。
 
 ### <a name="what-does-this-mean-from-a-licensing-perspective-how-will-customers-pay-for-intelligent-communications-services-in-teams"></a>从许可方面来看，这意味着什么？ 客户将如何为 Teams 中的智能通信服务付费？
 
@@ -77,7 +77,7 @@ Teams 在 Office 365 套件中提供。 Office 365 中的 Skype for Business 中
 
 ### <a name="how-can-customers-learn-when-skype-for-business-capabilities-will-be-available-in-teams"></a>客户如何了解何时将在 Teams 中提供 Skype for Business 功能？
 
-我们将在 [Office 365 路线图](https://go.microsoft.com/fwlink/?linkid=859057)中提供有关即将提供的 Teams 功能的信息。 Skype to Teams 路线图位于 [http://aka.ms/skype2teamsroadmap](http://aka.ms/skype2teamsroadmap)。 
+我们将在 [Office 365 路线图](https://go.microsoft.com/fwlink/?linkid=859057)中提供有关即将提供的 Teams 功能的信息。 小组路线图 Skype 位于[http://aka.ms/skype2teamsroadmap](http://aka.ms/skype2teamsroadmap)。 
  
 
 ### <a name="what-apis-and-sdks-will-be-made-available-for-teams"></a>Teams 提供哪些 API和 SDK？
@@ -133,7 +133,7 @@ Teams 正在积极实现 FedRAMP 合规性，并将推出 GCC 产品。
 
 ### <a name="what-is-the-plan-for-video-interoperability-support-for-teams-meetings"></a>对 Teams 会议的视频互操作性支持有什么计划？
 
-会议室设备对于我们对新式工作场所的愿景至关重要。 我们于 9 月 25 日在 Ignite 上宣布我们正在与 Blue Jeans 和 Pexip 合作以实现与 Teams 的云视频互操作性。 客户可以继续配合使用 Polycom Real Connect for Office 365 与 Skype for Business Online。 我们将提供我们的路线图，以便客户可以评估 Teams 是否满足其业务需求。 
+会议室设备对于我们对新式工作场所的愿景至关重要。 我们宣布在我们正在与蓝色牛仔裤、 Pexip 和 Polycom 交付云视频与互操作性小组的 Ignite 9 月 25。 客户可以继续配合使用 Polycom Real Connect for Office 365 与 Skype for Business Online。 我们将提供我们的路线图，以便客户可以评估 Teams 是否满足其业务需求。 
 
 ### <a name="will-the-latest-generation-of-skype-room-systems-v2-support-meetings-in-teams"></a>最新一代的 Skype 会议室系统 (V2) 是否支持 Teams 中的会议？
 

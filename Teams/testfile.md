@@ -1,10 +1,10 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: c6ed5d7cd16456414991fd08c127cddf3653a40c
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: c3d89338f761f8937267b79774ea39a7c88ce4b2
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>欢迎访问 docs.microsoft.com 上的 Office 内容
 ## <a name="this-is-a-level-2-heading"></a>这是二级标题
@@ -31,7 +31,6 @@ ms.lasthandoff: 03/15/2018
 
 <p>我将显示 &#9744;</p>
 <p>我将显示 &#x2610;</p>
-
 
 现在提供 Microsoft Teams 内容。
 [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams)

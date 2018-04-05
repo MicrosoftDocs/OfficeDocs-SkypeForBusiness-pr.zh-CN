@@ -1,5 +1,5 @@
 ---
-title: "打开或关闭会议的进入和退出通知"
+title: 打开或关闭会议的进入和退出通知
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. '
-ms.openlocfilehash: ca109a1e6a1538c6561e8f5a6e29bd0f70cf5efe
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.openlocfilehash: 0e15116061d35af39e8010c8e079395aaa7c4a8b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>打开或关闭会议的进入和退出通知
 
@@ -36,19 +36,31 @@ ms.lasthandoff: 03/16/2018
   
 ## <a name="setting-meeting-join-options"></a>设置会议加入选项
 
-1. 使用你的工作或学校帐户登录 Office 365。
+**使用 Microsoft 小组和 Skype 业务管理中心**
+
+1. 在左侧的导航中，转到**会议** > **会议桥**。 
+
+2. 在**会议桥**页的顶部，单击**桥接器设置**。 
+
+3. **网桥的设置**窗格中启用或禁用**启用会议进入和退出通知以打开**。 默认情况下，此选项处于选中状态。 如果清除它，当有人进入或离开会议，不会通知用户已加入会议。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+4. 在**入口/出口公告类型**，选择**名称或电话号码**或**色调**。
     
-3. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议** > **Microsoft 网桥的设置**。
+5. 启用或禁用**询问呼叫者记下其名称之前加入会议**。
     
-4. 选中或清除**启用会议进入和退出通知以打开****会议连接体验**下。 默认情况下，此选项处于选中状态。 如果清除它，当有人进入或离开会议，不会通知用户已加入会议。
+6. 进行更改后，单击**应用**。
+
+**使用 Skype 业务管理中心**
     
-5. 在**入口/出口公告类型**，选择**名称或电话号码**或**色调**。
+1. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议** > **Microsoft 网桥的设置**。
     
-6. 选中或取消选中**询问呼叫者记下其名称之前加入会议**。
+2. 选中或清除**启用会议进入和退出通知以打开****会议连接体验**下。 默认情况下，此选项处于选中状态。 如果清除它，当有人进入或离开会议，不会通知用户已加入会议。
     
-7. 完成更改后，单击" **保存**"。
+3. 在**入口/出口公告类型**，选择**名称或电话号码**或**色调**。
+    
+4. 选中或取消选中**询问呼叫者记下其名称之前加入会议**。
+    
+5. 完成更改后，单击" **保存**"。
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 

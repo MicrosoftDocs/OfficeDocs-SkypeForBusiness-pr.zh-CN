@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: 规划在 Skype 的响应组的业务服务器企业语音，它使您可以设置呼叫路由到用户组。 包括音频文件要求。
-ms.openlocfilehash: 67b86d6dd15d6dece05261f216c114b377ea3f07
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: dd98ded5af55e39f773b4a0167428ba1644cee87
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server-2015"></a>在Skype for Business Server 2015 中规划响应组应用程序
  
@@ -144,7 +144,6 @@ Windows Media 音频文件格式要求前端服务器运行 Windows Server 2008 
 |Windows Server 2008 R2  <br/> Windows Server 2008 R2 Service Pack 1  <br/> |Internet Explorer 8（本机模式）  <br/> Internet Explorer 9（本机模式）  <br/> |
 |Windows Server 2012  <br/> ||
 |Windows Server 2012 R2  <br/> ||
-|||
    
 ### <a name="response-group-agent-console"></a>响应组代理控制台
 

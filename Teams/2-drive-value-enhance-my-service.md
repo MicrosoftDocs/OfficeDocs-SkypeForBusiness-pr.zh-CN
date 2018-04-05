@@ -11,13 +11,15 @@ description: 定期评估增强团队服务，监控任何感兴趣的增强功�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00fa4db5a2e25cf2a258f85328653f6a28f476d5
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 0c10f4da1c6619ae0f17976a8039c2a77eaadab6
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="enhance-my-service"></a>增强我的服务
+
+这篇文章概括介绍了语音服务为您的组织中获取最大的云的需求。 通过连续监视云语音服务功能，您可以确保您为您的组织提供最大的价值。
 
 ## <a name="enhance-my-service-overview"></a>增强我的服务概述
 已成功部署音频会议或电话系统调用计划服务于您的组织，并正在运行的服务的质量和可靠性下, 一步之后是定期评估是否有任何的机会增强您的服务。

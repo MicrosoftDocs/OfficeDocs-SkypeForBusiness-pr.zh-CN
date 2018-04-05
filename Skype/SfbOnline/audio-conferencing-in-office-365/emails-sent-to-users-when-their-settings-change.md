@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. '
-ms.openlocfilehash: f504e9b807afb4a587a9d6f13baf69a3c5b9db68
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 0cf1eabd25a6be5d6104c2593e5bc286d15d59f0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="emails-sent-to-users-when-their-settings-change"></a>他们设置更改时，向用户发送电子邮件
 
@@ -104,21 +104,27 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 当禁用电子邮件发送给用户时，即使用户拥有分配的许可证，也不会向其发送电子邮件。 在此情况下，会议 ID 中，默认的会议电话号码，并且，更重要的是，不会向用户发送其音频会议针。 发生这种情况时，你必须通过向用户发送单独的电子邮件或呼叫他们进行通知。
   
-默认情况下，电子邮件将发送给您的用户，但如果您想要防止它们接收音频会议的电子邮件，可以使用 Skype 业务管理中心或 Windows PowerShell。 
+默认情况下，电子邮件将发送给您的用户，但如果您想要防止它们被用于音频会议接收电子邮件，可以使用 Microsoft 小组、 Skype 业务管理中心，或 Windows PowerShell。 
+
+**使用 Microsoft 小组和 Skype 业务管理中心**
+
+1. 在左侧的导航中，转到**会议** > **会议桥**。 
+
+2. 在**会议桥**页的顶部，单击**桥接器设置**。 
+
+3. **网桥的设置**窗格中启用或禁用**自动发送电子邮件发送给用户，如果他们拨入设置更改**。
+
+4. 单击“**应用**”。
   
- **使用 Skype 业务管理中心**
-  
-1. 使用你的工作或学校帐户登录 Office 365。
+**使用 Skype 业务管理中心**
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+1. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议** > **Microsoft 网桥的设置**。
     
-3. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议** > **Microsoft 网桥的设置**。
+2. 在**Microsoft 桥设置**页上，选中或清除**自动发送电子邮件发送给用户，如果他们的音频会议设置更改**。 
     
-4. 在**Microsoft 桥设置**页上，选中或清除**自动发送电子邮件发送给用户，如果他们的音频会议设置更改**。 
+3. 单击" **保存**"。 
     
-5. 单击" **保存**"。 
-    
- **使用 Windows PowerShell**
+**使用 Windows PowerShell**
   
 1. 运行以下操作以禁用向你的用户发送所有电子邮件：
     

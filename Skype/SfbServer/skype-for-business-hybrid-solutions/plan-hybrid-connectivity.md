@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: Strat_SB_Hybrid
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 摘要： 请阅读本主题，以了解如何规划业务服务器的 Skype 和 Skype 的在线业务之间的混合连接。 设置混合连接是部署多种 Skype for Business 混合解决方案的第一步。
-ms.openlocfilehash: 86478b373ccc9c39d1a79668ca13487305319cb8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 28ddfa42f11ad76cb353200cf00a4ca4d05a9da0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>规划 Skype for Business Server 与 Skype for Business Online 之间的混合连接
  
@@ -271,9 +271,8 @@ ms.lasthandoff: 03/28/2018
   
 此外，您还需要确保下表中所述的 DNS 解析在您的本地部署中正常运行：
   
-||||
-|:-----|:-----|:-----|
 |DNS 记录  <br/> |解析者  <br/> |DNS 要求  <br/> |
+|:-----|:-----|:-----|
 |_Sipfederationtls._tcp 的 DNS SRV 记录。\<sipdomain.com\>为所有支持的 SIP 域解析为访问边缘外部 IP(s)  <br/> |边缘服务器  <br/> |在混合配置中启用联盟通信。边缘服务器需要知道在什么位置为 SIP 域路由分布在本地设备和在线设备上的联盟流量。  <br/> 必须使用用户名与 SRV 记录中的域之间的严格 DNS 名称匹配。  <br/> |
 |边缘 Web 会议服务 FQDN 的 DNS A 记录，例如解析为 Web 会议边缘外部 IP 的 webcon.contoso.com  <br/> |公司内部网络连接的用户的计算机  <br/> |让在线用户能够在本地托管会议中演示或查看内容。内容包括 PowerPoint 文件、白板、轮询和共享笔记。  <br/> |
    

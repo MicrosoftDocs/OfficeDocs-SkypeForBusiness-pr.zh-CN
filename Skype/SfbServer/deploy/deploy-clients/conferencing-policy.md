@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: 阅读本主题，了解如何为 Skype 会议室系统帐户分配会议策略。
-ms.openlocfilehash: 73ab8f48bc399f4478b0a9c22aceb68d7a54a11b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 07ce5031bd053837d69d3ed3da27aabb344c3a65
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Skype 会议室系统帐户的会议策略
  
@@ -24,9 +24,8 @@ ms.lasthandoff: 03/28/2018
 
 会议策略分配到 Skype 的空间系统帐户必须具有某些特征。 大多数情况下，Skype 的空间系统客户端加入计划的会议，并因此为会议组织者的会议策略会影响会议。 但是，在 Skype 业务服务器，某些功能取决于参与者的配置。 例如，如果参与者的策略允许 1080p 的视频分辨率，参与者将在会议中的此高分辨率视频功能即使遇到组织者的策略不允许它。 下表描述了几个应注意的会议组织中的 Skype 的空间系统帐户策略设置时此类设置。 
   
-||||
-|:-----|:-----|:-----|
 |功能  <br/> |值  <br/> |注释  <br/> |
+|:-----|:-----|:-----|
 |AllowIPAudio  <br/> |TRUE  <br/> |必须满足 Skype 的空间系统音频  <br/> |
 |AllowIPVideo  <br/> |TRUE  <br/> |必须满足 Skype 的空间系统音频工作中立即开会 (ad hoc) 白板会话中 Skype 的空间系统  <br/> |
 |AllowMultiView  <br/> |TRUE  <br/> |让 Skype 的空间系统呈现多视图中，多个视频流  <br/> |

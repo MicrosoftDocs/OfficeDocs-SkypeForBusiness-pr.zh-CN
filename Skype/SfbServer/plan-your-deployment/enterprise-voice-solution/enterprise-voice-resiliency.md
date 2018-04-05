@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: 了解如何支持业务服务器企业语音，在中心站点和分支站点在 Skype 语音留存能力。 分支站点选项包括高存活力的分支装置或高存活力的分支服务器部署。
-ms.openlocfilehash: a4ce7e01ef93ef7bfca2357b65b315b4be5c6781
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4303df46b7430ec8a7e3891baec7f9ff99d85480
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中规划企业语音恢复能力
  
@@ -87,9 +87,8 @@ Skype 业务客户端连接到前端池后，它将被定向到前端服务器�
 
 Skype 业务服务器取决于以下的基础架构和软件组件，以确保语音留存能力：
   
-|||
-|:-----|:-----|
 |**组件** <br/> |**功能** <br/> |
+|:-----|:-----|
 |DNS  <br/> |解析有关服务器到服务器和服务器到客户端连接的 SRV 记录和 A 记录  <br/> |
 |Exchange 和 Exchange Web 服务 (EWS)  <br/> |联系人存储；日历数据  <br/> |
 |Exchange 统一消息和 Exchange Web 服务  <br/> |呼叫日志、语音邮件列表、语音邮件  <br/> |

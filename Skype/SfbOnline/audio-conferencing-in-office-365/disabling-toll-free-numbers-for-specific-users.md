@@ -1,5 +1,5 @@
 ---
-title: "禁用对特定用户的免费电话号码"
+title: 禁用对特定用户的免费电话号码
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "管理员可以控制如何组织者可以使用免费电话号码，为他们的会议。"
-ms.openlocfilehash: fb4b0f8725608928e686307845871b4f5c1976d9
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: 管理员可以控制如何组织者可以使用免费电话号码，为他们的会议。
+ms.openlocfilehash: d0b7703f4dd518caa5ffb339282c5a7bbac4daa3
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="disabling-toll-free-numbers-for-specific-users"></a>禁用对特定用户的免费电话号码
 
@@ -42,14 +42,31 @@ ms.lasthandoff: 03/16/2018
 
  - 参与者可以继续参加会议的组织者使用免费电话号码。 
 
-## <a name="disabling-toll-free-numbers-for-specific-users-using-the-skype-for-business-admin-center"></a>禁用对特定用户使用 Skype 业务管理中心的免费电话号码 
- 1. Go to the **Office 365 admin center** > **Skype for Business**. 
- 2. 在有关业务管理中心在左侧的导航中，Skype 转到**音频会议** > **用户**，然后选择可用的用户列表中用户。 
- 3. 在"操作"窗格中，单击" **编辑**"。 
- 4. 选中或清除**允许使用免费电话号码加入此用户的会议**。 
- 5. 单击" **保存**"。 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>禁用对特定用户的免费电话号码 
+
+**使用 Microsoft 小组和 Skype 业务管理中心**
+
+1. 在左侧的导航中，单击**用户**，然后从可用的用户列表中选择用户。
+
+2. 在页面的顶部，单击**编辑**。
+
+3. 单击**会议桥**边上的菜单，然后在下拉列表中单击**编辑**。
+
+4. 在**会议桥提供程序**窗格中，请关闭**允许使用在组织加入此用户的会议的会议桥的免费电话号码**。 
+
+5. 单击**应用。** 
+
+**使用 Skype 业务管理中心**
+
+1. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议** > **用户**，然后选择可用的用户列表中用户。 
+
+2. 在"操作"窗格中，单击" **编辑**"。 
+
+3. 清除**允许使用免费电话号码加入此用户的会议**。 
  
-## <a name="disabling-toll-free-numbers-for-specific-users-using-powershell"></a>禁用对特定用户使用 PowerShell 的免费电话号码  
+4. 单击" **保存**"。 
+ 
+**使用 PowerShell**  
 
 可以使用一组 CsOnlineDialInConferencingUser cmdlet 的 AllowTollFreeDialIn 参数来启用或禁用此控件。 例如： 
 

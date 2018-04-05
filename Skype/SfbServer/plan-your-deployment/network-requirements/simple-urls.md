@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 摘要： 为 Skype 的 DNS 记录实施的业务服务器 2015年前查看本主题中的简单的 URL 注意事项。
-ms.openlocfilehash: 989ea4f518c1917311759158bbe29355f400138b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 87346a7c4c03837e5ebfdf0143cdb7c786f0e43b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server-2015"></a>在 Skype 的简单 Url 的业务服务器 2015年的 DNS 要求
  
@@ -63,9 +63,8 @@ Skype 业务服务器支持以下三个简单的 Url： 满足，拨入和管理
   
 **简单的 URL 命名选项 1**
 
-|||
-|:-----|:-----|
 |**简单 URL** <br/> |**示例** <br/> |
+|:-----|:-----|
 |会议  <br/> |https://meet.contoso.comhttps://meet.fabrikam.com，依此类推 （一个用于您的组织中的每个 SIP 域）  <br/> |
 |拨入  <br/> |https://dialin.contoso.com  <br/> |
 |管理员  <br/> |https://admin.contoso.com  <br/> |
@@ -74,9 +73,8 @@ Skype 业务服务器支持以下三个简单的 Url： 满足，拨入和管理
   
 **简单的 URL 命名选项 2**
 
-|||
-|:-----|:-----|
 |**简单 URL** <br/> |**示例** <br/> |
+|:-----|:-----|
 |会议  <br/> |https://SfB2015.contoso.com/Meethttps://SfB2015.fabrikam.com/Meet，依此类推 （一个用于您的组织中的每个 SIP 域）  <br/> |
 |拨入  <br/> |https://SfB2015.contoso.com/Dialin  <br/> |
 |管理员  <br/> |https://SfB2015.contoso.com/Admin  <br/> |
@@ -85,9 +83,8 @@ Skype 业务服务器支持以下三个简单的 Url： 满足，拨入和管理
   
 **简单的 URL 命名选项 3**
 
-|||
-|:-----|:-----|
 |**简单 URL** <br/> |**示例** <br/> |
+|:-----|:-----|
 |会议  <br/> |https://SfB2015.contoso.com/contosoSIPdomain/Meet  <br/> https://SfB2015.contoso.com/fabrikamSIPdomain/Meet  <br/> |
 |拨入  <br/> |https://SfB2015.contoso.com/Dialin  <br/> |
 |管理员  <br/> |https://SfB2015.contoso.com/Admin  <br/> |

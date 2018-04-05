@@ -1,5 +1,5 @@
 ---
-title: "更改音频会议桥的设置"
+title: 更改音频会议桥的设置
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: 'Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that''s used to prompt callers and gather names and pins for meeting organizers when they''re not using Skype for Business clients. '
-ms.openlocfilehash: 62307bf26458ae54134772a0d920bcc602265bdc
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: "Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business clients. "
+ms.openlocfilehash: d9b80b06a3c52c6ec386a0e5052f1bb71f914650
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议桥的设置
 
@@ -37,17 +37,39 @@ ms.lasthandoff: 03/16/2018
   > [!IMPORTANT]
   > PIN 只是对于会议组织者时为业务或 Microsoft 小组应用程序用户 Skype 已经没有启动会议是必需的。 每个人都拨号进入会议，针需要为会议组织者开始举行会议。 
   
-## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议桥的设置
+## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议桥的设置 
+
+### <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>使用 Microsoft 小组和 Skype 业务管理中心
+
+1. 在左侧的导航中，转到**会议** > **会议桥**。 
+
+2. 在**会议桥**页的顶部，单击**桥接器设置**。 
+
+3. 在**桥接器设置**窗格中，选择： 
+  - **启用会议进入和退出通知以打开**如果关闭此操作，当有人进入或离开会议，不会通知用户已加入会议。
+    
+    **启用会议进入和退出通知以打开**选择时，您可以从**入口/出口公告类型**列表中选择这些选项：
+    
+  - **姓名或电话号码**当用户拨号加入会议时，在他们加入时将播放他们的电话号码。
+    
+  - **拨号音**当用户拨号加入会议时，将它加入后播放音频音调。
+      
+  - **提出调用方来记录他们的姓名之前加入会议**如果关闭此操作，调用方不需要之前他们加入会议记录他们的姓名。
+
+4. 若要设置会议的针长度，选择的数字位数的 pin**针长度**列表中所需。
+
+5. 若要指定是否要将电子邮件发送给您的用户，请启用或禁用**其音频会议配置改变时自动发送电子邮件发送给用户**。
+    有关详细信息，请参阅[电子邮件自动发送给用户的音频会议设置更改时](emails-sent-to-users-when-their-settings-change.md)。
+ 
+6. 单击“**应用**”。 
+
+### <a name="using-skype-for-business-online"></a>在线使用 Skype 业务
 
  **当调用方加入会议设置会议经验**
-  
-1. 使用你的工作或学校帐户登录 Office 365。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+1. 在**业务管理中心的 Skype**，在左边的导航转到**音频会议** > **Microsoft 网桥的设置**。
     
-3. 在**业务管理中心的 Skype**，在左边的导航转到**音频会议** > **Microsoft 网桥的设置**。
-    
-4. 在下**会议连接体验**， **Microsoft 网桥的设置**页，请选择：
+2. 在下**会议连接体验**， **Microsoft 网桥的设置**页，请选择：
     
   - " **启用会议进入和退出通知**"此选项默认情况下选中。 如果清除复选框，当有人进入或离开会议，不会通知用户已加入会议。
     
@@ -62,7 +84,7 @@ ms.lasthandoff: 03/16/2018
   
   - " **要求呼叫者在加入会议之前录制其名称**"此选项默认情况下选中。 如果清除复选框，将不要求调用方之前他们加入会议记录他们的姓名。
     
-5. 完成更改后，单击" **保存**"。
+3. 完成更改后，单击" **保存**"。
     
 **设置会议的针长度**
   
@@ -93,13 +115,13 @@ ms.lasthandoff: 03/16/2018
 
 - 若要节省时间或自动执行此过程，您可以使用[一组 CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 ) cmdlet。
     
-- Windows PowerShell 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 Office 365，这样做可在有多个任务需要执行时简化日常工作。要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为什么需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 许多相比具有的优势在速度、 简易性和生产率仅使用 Office 365 管理中心，例如，当将设置更改为许多用户一次。了解这些优势中的以下主题： 
+- Windows PowerShell 许多相比具有的优势在速度、 简易性和生产率仅使用 Office 365 管理中心，例如，当将设置更改为许多用户一次。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

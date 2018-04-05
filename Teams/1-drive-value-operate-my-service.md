@@ -11,13 +11,15 @@ description: 任务和活动所需的团队服务管理，包括监视服务运�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f8abb573203bcb3f0292604c3b439f5903aa221
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 308ca6bd3ea0dcd847756392d8db721b48aa8d08
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="operate-my-service"></a>使用我的服务
+
+本文概述了成功运行云语音服务为您的组织的要求。 通过正确运行云语音服务，您可以确保您的组织为他们提供高质量、 可靠的体验。
 
 ## <a name="introduction-to-the-operations-guide"></a>操作指南简介
 

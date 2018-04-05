@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams 中具有通话套餐的电话系统实践指导"
+title: Microsoft Teams 中具有通话套餐的电话系统实践指导
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
@@ -7,15 +7,16 @@ ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor
-description: "使用展望（规划）、上线（交付）、推动价值（运营）框架在 Microsoft Teams 中规划、部署和管理具有通话套餐的电话系统的实践指导。"
+description: 使用展望（规划）、上线（交付）、推动价值（运营）框架在 Microsoft Teams 中规划、部署和管理具有通话套餐的电话系统的实践指导。
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5ed92ed1fd156279c32c2627b85eca170a457f0
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment
+ms.openlocfilehash: 8c658376e3891f8215a5139439e82c17298bee2b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Microsoft Teams 中具有通话套餐的电话系统实践指导
 =========================================================================
@@ -322,7 +323,7 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 
 - [Skype for Business 管理中心](https://support.office.com/article/Getting-phone-numbers-for-your-users-aa2ec464-3481-4bbb-8c14-e13e18093df5)
 - [远程 Windows PowerShell cmdlet](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [提交新电话号码申请表单][https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb]。
+- [提交新电话号码请求窗体][https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb).
 
 新电话号码申请表单适用于计划的电话号码获取，因为你可以申请一组连续的电话号码。 有些国家或地区不能使用 Skype for Business 管理中心或远程 Windows PowerShell 获取电话号码。
 

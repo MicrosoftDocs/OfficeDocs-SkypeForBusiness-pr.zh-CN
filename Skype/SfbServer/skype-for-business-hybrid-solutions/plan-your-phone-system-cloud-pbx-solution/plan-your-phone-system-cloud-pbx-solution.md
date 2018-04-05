@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Hybrid
 ms.assetid: 0c4a0ec4-1a2b-4ce8-8323-f797162ab4fe
 description: 启用呼叫控制和 Office 365 云中的专用分组交换机 (PBX) 功能在 Office 365 (云 PBX) 解决方案中找到有关 Microsoft 的电话系统。
-ms.openlocfilehash: cb4a1548e973d264d30c1dafb966863952b7e6d4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: abef43d3d90f14272beb2eb71d2cc344b80db8bf
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-your-phone-system-in-office-365-cloud-pbx-solution"></a>规划 Office 365 中的电话系统（云 PBX）解决方案
  
@@ -133,9 +133,8 @@ Office 365 中调用计划中提供了特定但不断增长的地理位置。 �
 
 ![云 PBX 决策流程图 2](../../media/6a2d15e6-2846-433f-b449-2f511a13c234.png)
   
-|||
-|:-----|:-----|
 |**您的情况** <br/> |**在 Office 365 提供解决方案的电话系统** <br/> |
+|:-----|:-----|
 |![终结点 A 的标注](../../media/85b51a4e-3984-4ef2-bacb-586f998da632.png)PBX 系统提供了您需要保留的唯一功能。  <br/> |**调查将您的 PBX 替换为 Skype for Business Server。** 可用于 Skype 业务服务器企业语音作为一个完整的 PBX 系统为您的组织，包括通过您当地的操作员的 PSTN 连接。 如果您对 PBX 的需要在未来功能更改，可以重新考虑在 Office 365 的电话系统。 <br/> 有关 Microsoft 的企业语音解决方案的详细信息，请参阅[规划业务服务器 2015年的 Skype 在企业语音解决方案](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)。  <br/> 如果不是所有用户都要求您当前的 PBX，则可以考虑转向那些用户 Skype 的在线业务提供的独特功能。  <br/> |
 |![终结点 B 的标注](../../media/f47d89d4-5f3a-4dfc-9c29-f09295e4a912.png)您 PBX 不提供独特的功能，您需要保留、 Office 365 中调用计划中提供了您的地区，并且希望使用 Microsoft 提供的 PSTN 服务。  <br/> |**Office 365 中调用计划订阅。** 您的所有用户可以位于 Skype for Business Online 上的云中，并且您的组织可以从 Microsoft 接收 PBX 和 PSTN 服务。 如果您的用户已从当前运营商的电话号码，电话号码可以移植到 Office 365 中的电话系统。 根据需要，您可以从 Microsoft 获取额外的电话号码。 <br/> 有关详细信息，请参阅[是 PSTN 调用什么？](https://support.office.com/en-us/article/What-is-PSTN-calling-3dc773b9-95e0-4448-b2f1-887c54022429?ui=en-US&amp;rs=en-US&amp;ad=US) <br/> |
 |![终结点 C 的标注](../../media/c9ba0a6f-d3bb-41e0-925b-0e94cf59e034.png)您 PBX 不提供独特的功能，您需要保留、 Office 365 中调用计划不可用在您的地区和业务服务器部署具有现有 Lync 或 Skype。  <br/> 在此方案中，也有可能你的所有用户都位于美国，但是由于其他原因（例如，与现有运营商的合同义务），你不考虑迁移到 Microsoft 提供的 PSTN。  <br/> |**您现有的业务服务器部署 Skype 与 Office 365 中的电话系统。** PSTN 连接通过内部部署 Skype 上的企业语音提供的业务服务器部署中，但您的组织能够接收来自 Microsoft 云的 PBX 服务。 当您开始将其移至 Skype 的在线业务，您可以保留用户的语音功能。 您可以按照您自己的进度迁移用户，请注意，无论他们驻留在哪里，其语音功能都将继续工作。 <br/> 将来，如果您决定您可以保留您当前的运营商，可以移植到 Microsoft 的完整的电话系统，而与调用计划，提供了所有的 PBX 和 PSTN 功能的 microsoft Office 365 中云用户。  <br/> 有关此选项的详细信息请参阅[计划与 Office 365 中的电话系统部署 Skype 业务服务器中的 PSTN 连接](plan-phone-system-with-on-premises-pstn-connectivity.md)和[允许用户使用 Office 365 中的电话系统内部在 Skype 的 PSTN 连接业务服务器](enable-users-for-phone-system.md).  <br/> |

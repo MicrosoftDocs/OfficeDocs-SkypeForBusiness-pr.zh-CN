@@ -1,5 +1,5 @@
 ---
-title: "重置用户的会议 ID"
+title: 重置用户的会议 ID
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: 'Learn the steps to reset a user''s meeting conference ID, and get links to meeting update and migration tools. '
-ms.openlocfilehash: 2a5ab1adf9335b2bc5c219975aff11c9e54292fa
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
+ms.openlocfilehash: 6cc73876d188f1ae00ec267e14af4771ded7b957
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="reset-a-conference-id-for-a-user"></a>重置用户的会议 ID
 
@@ -41,16 +41,24 @@ ms.lasthandoff: 03/16/2018
   
 ## <a name="resetting-the-conference-id-for-a-user"></a>重置用户的会议 ID
 
-1. 使用你的工作或学校帐户登录 Office 365。
+**使用 Microsoft 小组和 Skype 业务管理中心**
+
+1. 在左侧的导航中，单击**用户**，然后从可用的用户列表中选择用户。
+
+2. 在页面的顶部，单击**编辑**。
+
+3. 单击**会议桥**边上的菜单，然后单击下拉列表中的**重置会议 id** 。
+
+2. 在**重置会议 id**窗口中，单击**确定**。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 默认情况下，电子邮件将发送给用户，但这可以被关闭。   
+
+**使用 Skype 业务管理中心**
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+1. 在**Skype 的业务管理中心**，单击**音频会议** > **用户**选择一个用户，然后在**会议 ID**下的操作窗格中单击**重置**。
     
-3. 在**Skype 的业务管理中心**，单击**音频会议** > **用户**选择一个用户，然后在**会议 ID**下的操作窗格中单击**重置**。
+2. 在**会议 ID 重置？**窗口中，单击**是**。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 默认情况下，电子邮件将发送给用户，但这可以被关闭。
     
-4. 在**会议 ID 重置？**窗口中，单击**是**。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 默认情况下，电子邮件将发送给用户，但这可以被关闭。
-    
-    > [!NOTE]
-    > [!注释] 重置会议 ID 后，会向用户发送包含新会议 ID 的电子邮件。此电子邮件将发送到主电子邮件地址，大多数情况下是其 Office 365 邮箱。电子邮件中包含新的会议 ID、默认拨入电话号码以及使用 Skype for Business 会议更新工具更新现有会议的说明。 
+> [!NOTE]
+> [!注释] 重置会议 ID 后，会向用户发送包含新会议 ID 的电子邮件。此电子邮件将发送到主电子邮件地址，大多数情况下是其 Office 365 邮箱。电子邮件中包含新的会议 ID、默认拨入电话号码以及使用 Skype for Business 会议更新工具更新现有会议的说明。 
   
 ## <a name="what-else-should-i-know"></a>我还需了解哪些信息？
 

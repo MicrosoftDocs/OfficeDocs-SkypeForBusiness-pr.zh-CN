@@ -11,13 +11,15 @@ description: 使用板载清单为小组准备 Office 365 和配置团队核心�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2b3d68d63661c988116f3b6729656eb3f34cf37
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: a1e4b6e690450b8ec81209a0244769444ee2d30d
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="prepare-my-service"></a>准备我的服务
+
+这篇文章概括介绍了准备云语音服务为您的组织的要求。 正确地做好准备，您可以确保您已经准备好提供语音功能为您的组织的云。
 
 ## <a name="onboarding-checklists-for-microsoft-teams-voice-workloads"></a>针对 Microsoft 小组语音工作负载的服务清单
 

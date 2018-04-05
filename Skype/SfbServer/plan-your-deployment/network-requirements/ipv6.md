@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 摘要： 实施 IPv6 的业务服务器 2015年安装 Skype 之前。
-ms.openlocfilehash: e91b0a3afabf8088d6fed2f21124fb17a4f7e94f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 40c5209a582aeb55657e8e1f0b8971f2c8ed79d0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>规划 Skype for Business 中的 IPv6
  
@@ -128,9 +128,8 @@ Skype 业务服务器不支持媒体回避公共交换的电话网络 (PSTN) 调
   
 **前端池和边缘池 （内部边缘） 矩阵**
 
-|||||
-|:-----|:-----|:-----|:-----|
 ||**边缘池：IPv4** <br/> |**边缘池：双协议栈** <br/> |**边缘池：IPv6** <br/> |
+|:-----|:-----|:-----|:-----|
 |**前端池：IPv4** <br/> |是  <br/> |是  <br/> |否  <br/> |
 |**前端池：双协议栈** <br/> |是  <br/> |是  <br/> |否  <br/> |
 |**前端池：IPv6** <br/> |否  <br/> |否  <br/> |是的\*  <br/> |
@@ -141,9 +140,8 @@ Skype 业务服务器不支持媒体回避公共交换的电话网络 (PSTN) 调
   
 **边缘池 （内部边缘） 和边缘池 （外部边缘） 矩阵**
 
-|||||
-|:-----|:-----|:-----|:-----|
 ||**边缘池（外部边缘）：IPv4** <br/> |**边缘池（外部边缘）：双协议栈** <br/> |**边缘池（外部边缘）：IPv6** <br/> |
+|:-----|:-----|:-----|:-----|
 |**边缘池（内部边缘）：IPv4** <br/> |是  <br/> |是  <br/> |否  <br/> |
 |**边缘池（内部边缘）：双协议栈** <br/> |否  <br/> |是  <br/> |否  <br/> |
 |**边缘池（内部边缘）：IPv6** <br/> |否  <br/> |否  <br/> |是的\*  <br/> |

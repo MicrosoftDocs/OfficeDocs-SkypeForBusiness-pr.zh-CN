@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: Strat_SB_Hybrid
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 查找有关 Skype for Business 云连接器版本的信息，云连接器是一组打包的虚拟机 (Vm)，这些虚拟机负责通过 Office 365 中的电话系统（云 PBX）实施本地 PSTN 连接。
-ms.openlocfilehash: f69becbd25ad00ca4353c0b287f2abcc43bdecfd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5c175a09a83d8fb5fe3267329c63075b450a9b1f
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>规划 Skype for Business 云连接器版本
  
@@ -412,9 +412,8 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 主机必须可以访问外部的资源来成功地安装、 更新和管理云连接器。 下表显示了主机计算机与外部资源之间所需的目标和端口。 
   
-||||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |方向  <br/> |源 IP  <br/> |目标 IP  <br/> |源端口  <br/> |目标端口  <br/> |协议  <br/> |用途  <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |出站  <br/> |云的连接器主机 IPs  <br/> |任何  <br/> |任何  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |出站  <br/> |云的连接器主机 IPs  <br/> |任何  <br/> |任何  <br/> |80、 443  <br/> |TCP  <br/> |证书吊销列表 (CRL)  <br/> |
 |出站  <br/> |云的 Connectorr 主机 IPs  <br/> |任何  <br/> |任何  <br/> |80、 443  <br/> |TCP  <br/> |云的连接器更新  <br/> Skype for Business Online  <br/> 管理 PowerShell  <br/> Windows 更新  <br/> |

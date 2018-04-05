@@ -11,13 +11,15 @@ description: 使用角色和网络分析来评估您的组织准备情况，请�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5d22bd46006b3bdd1f874da021045c36975b4ec
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 3b97a588a55eb1b7183315751a9483d69eeb0b6b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="evaluate-my-environment"></a>评估环境
+
+这篇文章概括介绍了使用云语音服务的当前环境进行正确评估的要求。 通过评估您的环境，您可以确定风险和将会影响整体云语音部署的要求。 通过预先确定这些项，可以调整您的驱动器成功的规划。
 
 ## <a name="introduction-to-evaluating-your-environment"></a>评估您的环境简介 
 
@@ -46,20 +48,19 @@ ms.lasthandoff: 03/15/2018
 
 ## <a name="adoption-and-change-management-assessment-capabilities"></a>采用和更改管理评估功能 
 
-您可以通过执行角色分析，提出针对调用计划服务实现的音频会议和电话系统的角色的列表评估贵组织采用的准备工作。 角色分析包括识别附加外围设备或其他设备需要来实现预期的业务成果。
+部署用户的指尖，在将一种新技术，但之后用户真正采用该解决方案作为自己只实现业务成效。 为了帮助确保持续的采用新的解决方案，您需要精力放在用户准备和更改管理。 为获得最佳结果，进行规划与技术准备活动并行工作流为用户准备并将纳入以下活动：
 
-若要执行角色分析，可以通过涉及相关的项目风险承担者，使用[角色协调](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_7)研讨会牌和[角色特征矩阵](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_8)进行研讨会。
-可以使用[角色分析报表](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_9)模板汇总报表中的角色分析研讨会的结果。
+-   **组织和用户分析：**除了使用用例和角色分析更改的组织 receptiveness 的分析
 
->[!NOTE]
->尽管角色资产最初编写的 Skype 的在线业务，是与团队相关的大部分内容。 随意修改和删除不相关的项目目标的项目。
+-   **准备情况和资源准备：**创建目标和广泛的意识、 培训和支持资源，包括专注于消息传递来加速用户购买中的值
+
+使用下列事项评估解决用户更改管理您的组织的应急能力。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li> 谁将负责完成角色的对齐方式和功能评估？</li><li>评估执行采用和更改为您的组织管理能力。</li></ol></td></tr>
-
-
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>文档角色的对齐方式和功能评估的结果。</li><li>如有必要，与外部的资源来协助推动采用并更改为您的组织的管理。</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>您是否遇到以前成功的软件或服务的用户采用率？</li><li>您可以跟踪使用率倡导？</li><li>您是否有资源来设计和管理一个初始&mdash;及以后的例行&mdash;采用市场 （意识、 培训和支持）？</li><li>您是否有一个专用的用户采用/更改管理团队，还是可以投资这些资源，以确保业务成果？</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>如果您对上述所有回答"是"，确定适当的用户更改管理利益干系人并开始用户准备工作规划。</li><li>如果您回答"否"的部分或所有上述，考虑利用外部资源来协助推动变更管理和采用相关的活动，为您的组织。</li></ol></td></tr>
 </table>
+
 
 <!--ENDOFSECTION-->
 

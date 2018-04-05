@@ -11,11 +11,11 @@ description: 浏览你需要了解的有关从 Skype for Business Online 到 Mic
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8d89f0f24f8dc056617ab06890deca74e8fcf60
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: b4341be17cd224e01cc6024d6bf871a6823cdad2
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>从 Skype for Business 到 Microsoft Teams 的旅程
 ==================================================
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/08/2018
 
 [2 - 在使用 Skype for Business 的同时试用 Teams](pilot-essentials.md)
 
-[3 - 与 Skype for Business 并行启用 Teams](guidance-SkypeforBusiness.md)
+[3-升级历程和共存的 Skype 业务和团队](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 [4 - 通过用户采用推动价值](continue-journey.md)
 

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: 阅读本主题，以了解有关管理的 Skype 的空间系统 v2 Skype 的空间系统的下一代。
-ms.openlocfilehash: 5ef699bed1a77fc48f59ba4c5f8eb78ccc286ef7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 562dbeea19fb732caf9348e2bfd632da3579e71a
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="manage-skype-room-systems-v2"></a>管理 Skype 会议室系统 v2
  
@@ -64,7 +64,6 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 |应用更新  <br/> |Windows 应用商店  <br/> |Windows 应用商店  <br/> SCCM  <br/> |
 |Skype 帐户配置  <br/> |当前不支持  <br/> |当前不支持  <br/> |
 |访问日志  <br/> |当前不支持  <br/> |当前不支持  <br/> |
-||||
    
 ## <a name="configuring-group-policy-for-skype-room-systems-v2"></a>为 Skype 会议室系统 v2 配置组策略
 <a name="GroupPolicy"> </a>

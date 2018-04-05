@@ -127,7 +127,7 @@
 
 ## 音频会议
 ### [教程： 在团队中的音频会议](Tutorial-Audio-Conferencing.yml)
-### [将第三方指定为音频会议提供商](/SkypeForBusiness/audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Office 365 中的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [将 Microsoft 指定为音频会议提供商](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [音频会议常见问题](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [音频会议按分钟付费](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -141,7 +141,6 @@
 ### [使用户能够在加入会议时录制其姓名](/SkypeForBusiness/audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [管理用户的音频会议设置](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [管理我的组织的音频会议设置](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [将用户的音频会议提供商更改为 Microsoft](/SkypeForBusiness/audio-conferencing-in-office-365/moving-a-user-s-audio-conferencing-provider-to-microsoft?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [音频会议的电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [音频会议和用户 PSTN 通话的出站通话限制策略](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [重置用户的会议 ID](/SkypeForBusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -153,7 +152,6 @@
 ### [设置音频会议的自动助理语言](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [设置包含在邀请中的电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [设置音频会议的 PIN 长度](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [设置音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [设置会议迁移服务 (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 ### [在没有 PIN 的情况下通过电话启动音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [试用或购买 Office 365 中的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -226,7 +224,7 @@
 ### [1.1-Microsoft 小组范围内部署环境的发现](environmental-discovery-for-microsoft-teams-rollout.md)
 ## [2 - 在使用 Skype for Business 的同时试用 Teams](pilot-essentials.md)
 ### [2.1-选择用户的团队试验](select-users-for-your-teams-pilot.md)
-## [3 - 与 Skype for Business 并行启用 Teams](guidance-SkypeforBusiness.md)
+## [3-升级历程和共存的 Skype 业务和团队](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ## [4 - 通过用户采用推动价值](continue-journey.md)
 ## [常见问题解答 - Skype for Business 和 Teams 愿景](FAQ-journey.md)
 ## [教程：从 Skype for Business 到 Teams 的旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)

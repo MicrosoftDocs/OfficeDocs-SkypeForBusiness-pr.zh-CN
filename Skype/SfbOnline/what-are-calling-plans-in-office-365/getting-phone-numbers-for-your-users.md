@@ -22,21 +22,23 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: 94d68c9caa11057393be66ca38c465f39fad9d7a
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: dc75a47f9e2de6c124675b4ae2cd9f3a9ff17036
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>获取用户的电话号码
 
 您可以设置用户在您的组织可以拨打和接听电话之前，您必须为它们获取电话号码。
   
-有两种方法可为用户获取号码：
-  
-- 获取使用**Skype 业务管理中心的**新数字。
+有三种方法，以获得新用户数：
+
+- **使用 Skype 业务管理中心。** 某些国家/地区，您可以获得的业务管理中心使用 Skype 用户数，请参阅[获取用户的电话号码。](../what-is-phone-system-in-office-365/getting-phone-numbers-for-your-users.md)。
     
-- 端口，或者将您现有的号码从您当前服务提供商或电话运营商转移到 Office 365。
+- **您现有的编号的端口。** 可以端口，也可以将您当前的服务提供商或电话运营商的现有数字转移到 Office 365。 请参阅[转移到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)或[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)的详细信息可帮助您做到这一点。  
+  
+- **使用新的号码请求窗体。** 有时 （具体取决于您的国家/地区） 您不能获取您对业务管理中心，使用 Skype 的新电话号码或者您需要特定的电话号码或区号。 如果是这样，你需要下载表单并将其发送给我们。 有关更多信息，请参见[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
     
 必须使用页上**添加新用户号码**来查看、 搜索、 购买，和保留这些数字。 可以搜索的**国家/地区**、**状态**和**城市**，然后输入的电话号码，您需要为您的用户数。
   

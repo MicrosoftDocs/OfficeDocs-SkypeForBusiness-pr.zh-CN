@@ -1,20 +1,20 @@
 ---
-title: "Microsoft Teams 中的团队和频道概述"
+title: Microsoft Teams 中的团队和频道概述
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "了解可用于各种需求（例如财务、活动计划、销售等）的不同团队、频道和应用。"
+description: 了解可用于各种需求（例如财务、活动计划、销售等）的不同团队、频道和应用。
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 849eade2acc91286a0d2f78b2d0289432e8ef52c
-ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
-ms.translationtype: HT
+ms.openlocfilehash: a3e614cc7ad1f4e803ef6d725eba68a699fb7477
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 =================================================
@@ -52,7 +52,7 @@ ms.lasthandoff: 03/01/2018
 
 默认情况下，所有用户都有权在 Microsoft Teams 中创建团队（要对此进行修改，请参阅[在 Teams 中指定角色和权限](assign-roles-permissions.md)）。 现有 Office 365 组的用户也可以使用 Teams 功能帮助自己。
 
-吸引用户使用 Teams 的一项关键的早期计划活动是帮助人们考虑和了解 Microsoft Teams 如何在其日常生活中增强协作。 与其他用户交谈，帮助他们选择当前以分散方式协作的业务场景。  将他们带入具有可帮助他们完成工作的相关选项卡的频道。 Teams 最强大的用例之一就是跨组织流程。 
+吸引用户使用 Teams 的一项关键的早期计划活动是帮助人们考虑和了解 Microsoft Teams 如何在其日常生活中增强协作。 与人交谈，帮助他们选择业务方案在它们当前协作以零碎的方式。  将他们带入具有可帮助他们完成工作的相关选项卡的频道。 Teams 最强大的用例之一就是跨组织流程。 
 
 <a name="sample-team-set-up"></a>团队建立示例
 ------------------
