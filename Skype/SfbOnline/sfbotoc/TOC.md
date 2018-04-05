@@ -3,7 +3,7 @@
 
 ## [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## Office 365 中的音频会议 
+## Office 365 中的音频会议 (.../ audio-conferencing-in-office-365/audio-conferencing-in-office-365.md） 
 ### [将 Microsoft 指定为音频会议提供商](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [音频会议常见问题](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
 ### [音频会议支持的语言](../audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
@@ -26,6 +26,7 @@
 ### [查看启用了音频会议的用户列表](../audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)
 ### [以电子邮件形式向用户发送拨入信息](../audio-conferencing-in-office-365/send-an-email-to-a-user-with-their-dial-in-information.md)
 ### [设置音频会议的 PIN 长度](../audio-conferencing-in-office-365/set-the-PIN-length-for-audio-conferencing-meetings.md)
+### [设置音频会议](../audio-conferencing-in-office-365//set-up-audio-conferencing.md)
 ### [设置自动助理语言](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)
 ### [设置包含在邀请中的电话号码](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)
 ### [设置会议迁移服务 (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)

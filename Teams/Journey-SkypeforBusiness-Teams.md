@@ -11,42 +11,42 @@ description: 浏览你需要了解的有关从 Skype for Business Online 到 Mic
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8d89f0f24f8dc056617ab06890deca74e8fcf60
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: b4341be17cd224e01cc6024d6bf871a6823cdad2
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/05/2018
 ---
-<a name="journey-from-skype-for-business-to-microsoft-teams"></a><span data-ttu-id="21277-103">从 Skype for Business 到 Microsoft Teams 的旅程</span><span class="sxs-lookup"><span data-stu-id="21277-103">Journey from Skype for Business to Microsoft Teams</span></span>
+<a name="journey-from-skype-for-business-to-microsoft-teams"></a><span data-ttu-id="14efb-103">从 Skype for Business 到 Microsoft Teams 的旅程</span><span class="sxs-lookup"><span data-stu-id="14efb-103">Journey from Skype for Business to Microsoft Teams</span></span>
 ==================================================
 
-<span data-ttu-id="21277-104">作为用于实现更加智能的通话和会议体验的 Microsoft [智能通信愿景](https://aka.ms/intelligentcommunicationsblog)的一部分，我们正在将 Skype for Business 功能置于 Teams 中。</span><span class="sxs-lookup"><span data-stu-id="21277-104">As part of the Microsoft [intelligent communications vision](https://aka.ms/intelligentcommunicationsblog) to deliver smarter calling and meeting experiences, we’re building Skype for Business capabilities into Teams.</span></span> <span data-ttu-id="21277-105">这将是一个逐渐实现的过程，最终，Teams 将成为单一的客户端体验。</span><span class="sxs-lookup"><span data-stu-id="21277-105">This will happen over time, and ultimately Teams will become the single client experience.</span></span> <span data-ttu-id="21277-106">作为重要的 Skype for Business 客户，Microsoft 随时为你在你的 Teams 旅程中每一步提供支持。</span><span class="sxs-lookup"><span data-stu-id="21277-106">As a valued Skype for Business customer, Microsoft is here to support you every step of the way on your journey to Teams.</span></span> <span data-ttu-id="21277-107">我们深知改变需要时间，因此，我们邀请你现在开始探索 Teams 以了解它可以为贵组织提供的价值，同时你继续运行 Skype for Business。</span><span class="sxs-lookup"><span data-stu-id="21277-107">We understand that change takes time, so we invite you to begin exploring Teams today to understand the value it can offer to your organization, while you continue to run Skype for Business.</span></span> 
+<span data-ttu-id="14efb-104">作为用于实现更加智能的通话和会议体验的 Microsoft [智能通信愿景](https://aka.ms/intelligentcommunicationsblog)的一部分，我们正在将 Skype for Business 功能置于 Teams 中。</span><span class="sxs-lookup"><span data-stu-id="14efb-104">As part of the Microsoft [intelligent communications vision](https://aka.ms/intelligentcommunicationsblog) to deliver smarter calling and meeting experiences, we’re building Skype for Business capabilities into Teams.</span></span> <span data-ttu-id="14efb-105">这将是一个逐渐实现的过程，最终，Teams 将成为单一的客户端体验。</span><span class="sxs-lookup"><span data-stu-id="14efb-105">This will happen over time, and ultimately Teams will become the single client experience.</span></span> <span data-ttu-id="14efb-106">作为重要的 Skype for Business 客户，Microsoft 随时为你在你的 Teams 旅程中每一步提供支持。</span><span class="sxs-lookup"><span data-stu-id="14efb-106">As a valued Skype for Business customer, Microsoft is here to support you every step of the way on your journey to Teams.</span></span> <span data-ttu-id="14efb-107">我们深知改变需要时间，因此，我们邀请你现在开始探索 Teams 以了解它可以为贵组织提供的价值，同时你继续运行 Skype for Business。</span><span class="sxs-lookup"><span data-stu-id="14efb-107">We understand that change takes time, so we invite you to begin exploring Teams today to understand the value it can offer to your organization, while you continue to run Skype for Business.</span></span> 
 
-<span data-ttu-id="21277-108">请参阅 [Teams 产品路线图](https://aka.ms/TeamsRoadmap)以了解 Teams 中即将发生的变化，以及确定贵组织迁移至 Teams 的最佳时间。</span><span class="sxs-lookup"><span data-stu-id="21277-108">Visit the [Teams product roadmap](https://aka.ms/TeamsRoadmap) to stay on top of what’s coming next in Teams and decide the best time for your organization to move to Teams.</span></span>
+<span data-ttu-id="14efb-108">请参阅 [Teams 产品路线图](https://aka.ms/TeamsRoadmap)以了解 Teams 中即将发生的变化，以及确定贵组织迁移至 Teams 的最佳时间。</span><span class="sxs-lookup"><span data-stu-id="14efb-108">Visit the [Teams product roadmap](https://aka.ms/TeamsRoadmap) to stay on top of what’s coming next in Teams and decide the best time for your organization to move to Teams.</span></span>
 
-<span data-ttu-id="21277-109">要随时了解有关从 Skype for Business 到 Teams 的旅程的最新信息，另一个很有用的方式是 [Skype for Busineses 到 Microsoft Teams 功能路线图](https://aka.ms/skype2teamsroadmap) - 可下载的 PDF（仅提供英文版，至少现在是这样），该 PDF 提供 Microsoft 对即将在 Teams 中实现的 Skype for Business 功能的当前期望。</span><span class="sxs-lookup"><span data-stu-id="21277-109">Another great way to stay on top of news about the journey from Skype for Business to Teams is the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) - a downloadable PDF (in English only, at least for now) that gives Microsoft's current expectations about Skype for Business capabilities coming to Teams.</span></span>
+<span data-ttu-id="14efb-109">要随时了解有关从 Skype for Business 到 Teams 的旅程的最新信息，另一个很有用的方式是 [Skype for Busineses 到 Microsoft Teams 功能路线图](https://aka.ms/skype2teamsroadmap) - 可下载的 PDF（仅提供英文版，至少现在是这样），该 PDF 提供 Microsoft 对即将在 Teams 中实现的 Skype for Business 功能的当前期望。</span><span class="sxs-lookup"><span data-stu-id="14efb-109">Another great way to stay on top of news about the journey from Skype for Business to Teams is the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) - a downloadable PDF (in English only, at least for now) that gives Microsoft's current expectations about Skype for Business capabilities coming to Teams.</span></span>
 
-<span data-ttu-id="21277-110">为了获得最佳结果，我们建议你按顺序完成此指导：</span><span class="sxs-lookup"><span data-stu-id="21277-110">For best results, we recommend that you follow this guidance in order:</span></span>
+<span data-ttu-id="14efb-110">为了获得最佳结果，我们建议你按顺序完成此指导：</span><span class="sxs-lookup"><span data-stu-id="14efb-110">For best results, we recommend that you follow this guidance in order:</span></span>
 
 
-[<span data-ttu-id="21277-111">1 - 针对 Teams 优化你的当前 Skype for Business 环境</span><span class="sxs-lookup"><span data-stu-id="21277-111">1 - Optimize your current Skype for Business environment for Teams</span></span>](prepare-teams.md)
+[<span data-ttu-id="14efb-111">1 - 针对 Teams 优化你的当前 Skype for Business 环境</span><span class="sxs-lookup"><span data-stu-id="14efb-111">1 - Optimize your current Skype for Business environment for Teams</span></span>](prepare-teams.md)
 
-[<span data-ttu-id="21277-112">2 - 在使用 Skype for Business 的同时试用 Teams</span><span class="sxs-lookup"><span data-stu-id="21277-112">2 - Pilot Teams alongside Skype for Business</span></span>](pilot-essentials.md)
+[<span data-ttu-id="14efb-112">2 - 在使用 Skype for Business 的同时试用 Teams</span><span class="sxs-lookup"><span data-stu-id="14efb-112">2 - Pilot Teams alongside Skype for Business</span></span>](pilot-essentials.md)
 
-[<span data-ttu-id="21277-113">3 - 与 Skype for Business 并行启用 Teams</span><span class="sxs-lookup"><span data-stu-id="21277-113">3 - Enable Teams side-by-side with Skype for Business</span></span>](guidance-SkypeforBusiness.md)
+[<span data-ttu-id="14efb-113">3-升级历程和共存的 Skype 业务和团队</span><span class="sxs-lookup"><span data-stu-id="14efb-113">3 - Upgrade journey and coexistence of Skype for Business and Teams</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-[<span data-ttu-id="21277-114">4 - 通过用户采用推动价值</span><span class="sxs-lookup"><span data-stu-id="21277-114">4 - Drive value through user adoption</span></span>](continue-journey.md)
+[<span data-ttu-id="14efb-114">4 - 通过用户采用推动价值</span><span class="sxs-lookup"><span data-stu-id="14efb-114">4 - Drive value through user adoption</span></span>](continue-journey.md)
 
 
  
-### <a name="see-also"></a><span data-ttu-id="21277-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="21277-115">See also</span></span>
-[<span data-ttu-id="21277-116">教程：从 Skype for Business 到 Teams 的旅程</span><span class="sxs-lookup"><span data-stu-id="21277-116">Tutorial: Journey from Skype for Business to Teams</span></span>](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+### <a name="see-also"></a><span data-ttu-id="14efb-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="14efb-115">See also</span></span>
+[<span data-ttu-id="14efb-116">教程：从 Skype for Business 到 Teams 的旅程</span><span class="sxs-lookup"><span data-stu-id="14efb-116">Tutorial: Journey from Skype for Business to Teams</span></span>](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 
-[<span data-ttu-id="21277-117">常见问题解答 - Skype for Business 和 Teams 愿景</span><span class="sxs-lookup"><span data-stu-id="21277-117">FAQ - Skype for Business & Teams vision</span></span>](FAQ-journey.md)
+[<span data-ttu-id="14efb-117">常见问题解答 - Skype for Business 和 Teams 愿景</span><span class="sxs-lookup"><span data-stu-id="14efb-117">FAQ - Skype for Business & Teams vision</span></span>](FAQ-journey.md)
 
-[<span data-ttu-id="21277-118">Microsoft 小组路线图</span><span class="sxs-lookup"><span data-stu-id="21277-118">Microsoft Teams Roadmap</span></span>](https://aka.ms/teamsroadmap)
+[<span data-ttu-id="14efb-118">Microsoft 小组路线图</span><span class="sxs-lookup"><span data-stu-id="14efb-118">Microsoft Teams Roadmap</span></span>](https://aka.ms/teamsroadmap)
 
-[<span data-ttu-id="21277-119">从 Skype for Business 到 Microsoft Teams：功能路线图</span><span class="sxs-lookup"><span data-stu-id="21277-119">Skype for Business to Microsoft Teams: Capabilities Roadmap</span></span>](https://aka.ms/skype2teamsroadmap)
+[<span data-ttu-id="14efb-119">从 Skype for Business 到 Microsoft Teams：功能路线图</span><span class="sxs-lookup"><span data-stu-id="14efb-119">Skype for Business to Microsoft Teams: Capabilities Roadmap</span></span>](https://aka.ms/skype2teamsroadmap)
 
 
 
