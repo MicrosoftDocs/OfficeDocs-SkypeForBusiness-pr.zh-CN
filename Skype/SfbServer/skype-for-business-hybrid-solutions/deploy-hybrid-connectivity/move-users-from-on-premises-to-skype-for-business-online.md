@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: Strat_SB_Hybrid
 ms.assetid: 6a523c86-2eac-4fa4-973a-4406872c9a7d
 description: 摘要： 了解如何迁移用户设置并进入用户 Skype 的在线业务。
-ms.openlocfilehash: dada94d1bc198a86a06c468dc959fa0684e706d2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 352798c217cb7495134cb32996db783f7e498ded
+ms.sourcegitcommit: cacd16f596460c1400dd514437794afd04bddadc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>将用户从本地迁移至 Skype for Business Online
  
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-confirm-that-an-on-premises-user-account-has-been-synchronized-with-office-365"></a>确认本地用户帐户是否已与 Office 365 同步
 
-1. 为您的租户使用租户管理帐户，打开[Office 365 管理中心](https://portal.office.com/)。
+1. 为您的租户使用租户管理帐户，打开[Office 365 管理中心](https://portal.office.com/)。  租户管理员帐户应被授予两个 Skype 业务管理员角色和用户管理角色 （或全局管理员角色） 在 Office 365 中执行此功能
     
 2. 在左侧导航窗格中，单击“**用户**”，然后单击“**活动用户**”。
     
