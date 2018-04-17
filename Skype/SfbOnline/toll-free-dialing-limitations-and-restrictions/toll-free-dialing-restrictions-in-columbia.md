@@ -6,7 +6,7 @@ manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.date: 01/22/2018
 ms.topic: article
-ms.assetid: ''
+ms.assetid: b13e5e40-b4fe-4386-aa9b-538dbaf4d963
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
@@ -19,12 +19,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: ''
-ms.openlocfilehash: 634ab1e99aad9cbb4ea667f7a7fc78dd9bbb20c6
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: 这将帮助您了解如何拨打免费电话在每个国家/地区。 选择国家/地区后，它将向特定国家的页包含的特定详细信息、 限制和的免费电话服务的可用性限制免费服务不可。 拨号格式将显示您所需的访问码，每个国家/地区拨打免费电话号码。
+ms.openlocfilehash: ac540ddc846090d6c00f0a26d4a88386a0af299c
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-columbia"></a>在哥伦比亚的免费电话拨号限制
 

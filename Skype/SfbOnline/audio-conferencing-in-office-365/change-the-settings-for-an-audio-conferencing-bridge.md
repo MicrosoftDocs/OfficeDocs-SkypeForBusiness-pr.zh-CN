@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
+ms.date: 04/03/2018
 ms.topic: article
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business clients. "
-ms.openlocfilehash: d9b80b06a3c52c6ec386a0e5052f1bb71f914650
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+description: '了解您需要更改用来提示的调用方，并收集名称和会议组织者的针脚时他们正在用于业务或 Microsoft 团队的应用程序不使用 Skype 会议桥的设置步骤。 '
+ms.openlocfilehash: 727392bc81bce2fb3cfd84029e6a275e1eed3e24
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议桥的设置
 
@@ -36,19 +36,20 @@ ms.lasthandoff: 04/05/2018
 
   > [!IMPORTANT]
   > PIN 只是对于会议组织者时为业务或 Microsoft 小组应用程序用户 Skype 已经没有启动会议是必需的。 每个人都拨号进入会议，针需要为会议组织者开始举行会议。 
-  
-## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议桥的设置 
 
-### <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>使用 Microsoft 小组和 Skype 业务管理中心
+> [!CAUTION]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+## <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>使用 Microsoft 小组和 Skype 业务管理中心
 
 1. 在左侧的导航中，转到**会议** > **会议桥**。 
 
 2. 在**会议桥**页的顶部，单击**桥接器设置**。 
 
 3. 在**桥接器设置**窗格中，选择： 
-  - **启用会议进入和退出通知以打开**如果关闭此操作，当有人进入或离开会议，不会通知用户已加入会议。
+  - **会议项，然后退出通知**如果关闭此操作，当有人进入或离开会议，不会通知用户已加入会议。
     
-    **启用会议进入和退出通知以打开**选择时，您可以从**入口/出口公告类型**列表中选择这些选项：
+    当您打开**会议进入和退出的通知**时，您可以选择以下选项：
     
   - **姓名或电话号码**当用户拨号加入会议时，在他们加入时将播放他们的电话号码。
     
@@ -63,7 +64,7 @@ ms.lasthandoff: 04/05/2018
  
 6. 单击“**应用**”。 
 
-### <a name="using-skype-for-business-online"></a>在线使用 Skype 业务
+## <a name="using-skype-for-business-admin-center"></a>使用 Skype 业务管理中心
 
  **当调用方加入会议设置会议经验**
     
@@ -78,9 +79,6 @@ ms.lasthandoff: 04/05/2018
   - **姓名或电话号码**当用户拨号加入会议时，在他们加入时将播放他们的电话号码。
     
   - **拨号音**当用户拨号加入会议时，将它加入后播放音频音调。
-    
-    > [!NOTE]
-    > [!注释] 当前所有客户都可以将 **音调**作为通知类型，这是一项预览功能。
   
   - " **要求呼叫者在加入会议之前录制其名称**"此选项默认情况下选中。 如果清除复选框，将不要求调用方之前他们加入会议记录他们的姓名。
     
@@ -107,7 +105,7 @@ ms.lasthandoff: 04/05/2018
     
 3. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议** > **Microsoft 网桥的设置**。
     
-4. 在**Microsoft 桥设置**页上，选择或清除**其音频会议配置改变时自动发送电子邮件发送给用户**，，然后单击**保存**。
+4. 在**Microsoft 桥设置**页上，选择或清除**其拨入信息改变时自动发送电子邮件发送给用户**，，然后单击**保存**。
     
     有关详细信息，请参阅[电子邮件自动发送给用户的音频会议设置更改时](emails-sent-to-users-when-their-settings-change.md)。
     

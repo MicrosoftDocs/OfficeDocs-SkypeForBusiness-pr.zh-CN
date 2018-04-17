@@ -6,16 +6,16 @@ manager: serdars
 ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: dearbean
 description: 开始从 Skype for Business 到 Microsoft Teams 的旅程指导。
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a9c9d4ccdbe3f3f1a2107c832b5437860e17d73
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: ee2ca43a9338798cd59a64c03f53d0b692d30c35
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/16/2018
 ---
 <a name="optimize-your-current-skype-for-business-environment-for-microsoft-teams"></a>针对 Microsoft Teams 优化你的当前 Skype for Business 环境
 ==============================================================
@@ -48,7 +48,7 @@ ms.lasthandoff: 03/15/2018
 
 观看 [CQD 视频](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)，了解有关如何使用通话质量仪表板调查媒体质量的指导。
 
-要了解有关调用分析，阅读[业务调用分析的 Skype](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。
+To learn more about Call Analytics, read [Skype for Business Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 
 ### <a name="quality-champion-role"></a>质量支持者角色
 

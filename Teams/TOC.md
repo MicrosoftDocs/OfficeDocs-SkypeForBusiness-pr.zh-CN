@@ -6,6 +6,7 @@
 ## [检查你的环境是否已为 Teams 准备就绪](environment-readiness.md)
 ## [为 Teams 准备贵组织的网络](prepare-network.md)
 ## [Office 365 URL 和 IP 地址范围](Office-365-URLs-IP-address-ranges.md)
+## [限制和规范团队](limits-specifications-teams.md)
 
 
 
@@ -224,7 +225,7 @@
 ### [1.1-Microsoft 小组范围内部署环境的发现](environmental-discovery-for-microsoft-teams-rollout.md)
 ## [2 - 在使用 Skype for Business 的同时试用 Teams](pilot-essentials.md)
 ### [2.1-选择用户的团队试验](select-users-for-your-teams-pilot.md)
-## [3-升级历程和共存的 Skype 业务和团队](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+## [3-理解共存和 Skype 业务和团队升级模式](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ## [4 - 通过用户采用推动价值](continue-journey.md)
 ## [常见问题解答 - Skype for Business 和 Teams 愿景](FAQ-journey.md)
 ## [教程：从 Skype for Business 到 Teams 的旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)

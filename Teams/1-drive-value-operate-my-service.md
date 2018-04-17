@@ -3,7 +3,7 @@ title: 对于 Microsoft 小组的操作指南
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 03/13/2018
+ms.date: 04/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -11,11 +11,11 @@ description: 任务和活动所需的团队服务管理，包括监视服务运�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 308ca6bd3ea0dcd847756392d8db721b48aa8d08
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 9d64da9bbe792031afbb3538020b7ff92fbaf493
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="operate-my-service"></a>使用我的服务
 
@@ -415,7 +415,7 @@ NPS 是一个索引，范围从-100 到 100，衡量推荐公司的产品或服�
 
 ### <a name="wi-fi-drivers"></a>Wi-fi 驱动程序
 
-Wi-fi 驱动程序可能有问题。 例如，驱动程序可能必须访问点可以诱发不必要接入点切换，从而导致较差的呼叫质量之间的极具挑战性漫游行为。 可能通过质量经验审查发现差的 Wi-fi 驱动程序 （请参阅更详细[的经验审查指南的质量](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)）。 实施监视新的 Wi-fi 驱动程序并确保他们正在测试然后再部署到的常规用户群体的质量驱动进程至关重要。
+Wi-fi 驱动程序可能有问题。 例如，驱动程序可能必须访问点可以诱发不必要接入点切换，从而导致较差的呼叫质量之间的极具挑战性漫游行为。 可能通过质量经验审查发现差的 Wi-fi 驱动程序 （请参阅更详细[的经验审查指南的质量](https://aka.ms/qerguide)）。 实施监视新的 Wi-fi 驱动程序并确保他们正在测试然后再部署到的常规用户群体的质量驱动进程至关重要。
 
 ### <a name="endpoint-management"></a>终结点管理
 

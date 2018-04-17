@@ -1,10 +1,25 @@
 ---
-标题:"证书请求 （证书颁发机构的帐户）"ms.author: jambirk 作者： jambirk 管理器： serdars ms.date: ms.audience 11/17/2014年: it 专业人员 ms.topic： 文章 f1_keywords:
-- ms.lync.dep.DeployCertRequestCAAccount ms.prod: Skype-的-业务-it 专业人员 localization_priority： 正常 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa 描述:"若要提交请求，您的证书颁发机构 (CA) 可能需要除当前以登录用户的凭据。 若要允许为不同的用户证书申请，请选择复选框指定替代凭据的证书颁发机构，然后键入用户名或可以申请证书的用户的域 \ 用户名。 在密码文本框中键入您指定用户的密码。 用户名和密码是然后发送证书请求过程中，但不是能在实际的证书请求中，作为给联机 CA。
+title: Certificate Request (Certificate Authority Account)
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.dep.DeployCertRequestCAAccount
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
+description: To submit a request, your certification authority (CA) may require credentials other than the ones for the user that you are currently logged in as. To allow a certificate request as a different user, select the check box Specify alternate credentials for the certification authority, and then type the user name or domain\username for a user who can request the certificate. In the Password text box, type the password for the user that you specified. The user name and password are then sent as part of the certificate request process, but not in the actual certificate request, to an online CA.
+ms.openlocfilehash: 47ea9e3c1b83d62faa169fdd291b325f19c8cfad
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 04/16/2018
 ---
-
-# <a name="certificate-request-certificate-authority-account"></a>证书申请 （证书颁发机构帐户）
+# <a name="certificate-request-certificate-authority-account"></a>Certificate Request (Certificate Authority Account)
  
-要提交请求，您的证书颁发机构 (CA) 可能需要除当前以登录用户的凭据。 若要允许为不同的用户证书申请，请选中复选框**指定替代凭据的证书颁发机构**，然后键入用户名或_域_\ 可以申请证书的用户的_用户名_. 在**密码**文本框中键入您指定用户的密码。 用户名称和密码然后发送证书请求过程中，但不是能在实际的证书请求中，作为到联机 CA。
+To submit a request, your certification authority (CA) may require credentials other than the ones for the user that you are currently logged in as. To allow a certificate request as a different user, select the check box **Specify alternate credentials for the certification authority**, and then type the user name or  _domain_\ _username_ for a user who can request the certificate. In the **Password** text box, type the password for the user that you specified. The user name and password are then sent as part of the certificate request process, but not in the actual certificate request, to an online CA.
   
 

@@ -19,18 +19,18 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 使用调用分析有关设备、 网络和连接的详细信息来解决用户的问题与 Skype 进行业务联络和会议。
-ms.openlocfilehash: b7f900509506433bd2c863fb6c0c33c4f71f2ab5
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 8f782a18dd7cb7fe7cbae73c7bd43b3e44c6928c
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality"></a>使用调用分析诊断较差企业的 Skype 通话质量
 
 调用分析可帮助您诊断有关业务 Skype 呼叫或连接问题。 调用分析显示在您的企业往来帐户的 Skype 有关设备、 网络和电话和会议的每个用户的连接的详细的信息。 如果构建，站点，和租户信息已添加到调用的分析，它也将显示为每个调用和会话。 通过调用分析提供的信息可帮助您找出为什么用户会有不良的调用或会议体验。 
   
-    > [!NOTE]
-    > Call Analytics is currently in preview. Text and images described here may not match your experience. 
+> [!NOTE]
+> 调用分析目前在预览中。 文本和此处所述的图像可能会不匹配您的体验。
   
 ## <a name="troubleshoot-call-quality-problems-using-call-analytics"></a>使用调用分析通话质量问题的疑难解答
 

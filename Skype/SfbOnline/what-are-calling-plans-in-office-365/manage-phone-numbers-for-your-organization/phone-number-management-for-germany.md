@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的德国电话号码的信息。
-ms.openlocfilehash: 6f7f6f8f67c2e880472d9c6c97d683dfc138fdbc
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: aff38621cd534ea14c6a57c92ac1d2a163a3b4f0
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="phone-number-management-for-germany"></a>德国的电话号码管理
 
@@ -37,8 +37,8 @@ ms.lasthandoff: 04/03/2018
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
 |获取新用户的电话号码没有列出的在 Skype 业务管理中心。  <br/> | 在德国，你无法使用 Skype for Business 管理中心为你的组织获取电话号码。 你必须提交新的电话号码申请。 首先，下载此表单 <br/> [德国的新电话号码申请（地理号码）(v.3.0)(de-de)](../../downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de-de).pdf)。 <br/>  然后填写此表单并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
-|在 Skype 获得业务管理中心没有列出的新服务电话号码。 <br/> |在美国以外的服务编号，请[下载此窗体](../../downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf)，填充出来并[将其发送给我们](mailto:ptneu@microsoft.com)。
-|你需要将电话号码转移给我们。  <br/> | 下载[德国授权书 (LOA)（地理号码）(v.1.0)(de-de)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de-de).pdf) <br/>  填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
+|在 Skype 获得业务管理中心没有列出的新服务电话号码。 <br/> |下载此窗体 [德国 （服务编号） 的新电话号请求 (v.1.2) (de de)] (.../../downloads/LOA-forms/new-phone-number-request-for-germany-(service-numbers)-(v.1.2)-(de-de.pdf)。<br/> 填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。
+|你需要将电话号码转移给我们。  <br/> | 下载其中一种形式。 <br/> 用户编号： <br/> [德国授权书 (LOA)（地理号码）(v.1.0)(de-de)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de-de).pdf) <br/><br/> 免费电话号码： <br/> [字母的授权 (LOA) 德国 （免费电话号码） (v.2.0) (de de)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.2.0)-(de-de).pdf) <br/><br/> 填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
 |你需要在国家电话目录中发布/取消发布电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
 |你需要将用户的号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com )你想要转换为服务号码的用户号码列表。 <br/> |
    
