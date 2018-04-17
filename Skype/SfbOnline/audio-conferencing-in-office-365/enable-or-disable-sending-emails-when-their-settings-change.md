@@ -1,5 +1,5 @@
 ---
-title: 启用或禁用发送电子邮件，当其设置更改
+title: Enable or disable sending emails when their settings change
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,124 +22,111 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: c7582030765db6951c972dc3fa59610aca73417e
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 4138ed08ef05cc1947131dab22d5470e52eda6c5
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a><span data-ttu-id="9ba66-103">启用或禁用发送电子邮件时更改音频会议设置</span><span class="sxs-lookup"><span data-stu-id="9ba66-103">Enable or disable sending emails when Audio Conferencing settings change</span></span>
+# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a><span data-ttu-id="53039-103">启用或禁用发送电子邮件时更改音频会议设置</span><span class="sxs-lookup"><span data-stu-id="53039-103">Enable or disable sending emails when Audio Conferencing settings change</span></span>
 
-<span data-ttu-id="9ba66-104">自动通过电子邮件通知用户，当他们启用音频会议。</span><span class="sxs-lookup"><span data-stu-id="9ba66-104">Users are automatically notified by email when they are enabled for Audio Conferencing.</span></span> <span data-ttu-id="9ba66-105">可能的时间，不过，当您想要减少发送到 Skype 业务和 Microsoft 小组的用户的电子邮件的数量。</span><span class="sxs-lookup"><span data-stu-id="9ba66-105">There may be times, however, when you want to reduce the number of emails that are sent to Skype for Business and Microsoft Teams user.</span></span> <span data-ttu-id="9ba66-106">在这种情况下，您可以禁用发送电子邮件。</span><span class="sxs-lookup"><span data-stu-id="9ba66-106">In such cases, you can disable sending email.</span></span>
+<span data-ttu-id="53039-104">Users are automatically notified by email when they are enabled for Audio Conferencing.</span><span class="sxs-lookup"><span data-stu-id="53039-104">Users are automatically notified by email when they are enabled for Audio Conferencing.</span></span> <span data-ttu-id="53039-105">There may be times, however, when you want to reduce the number of emails that are sent to Skype for Business and Microsoft Teams user.</span><span class="sxs-lookup"><span data-stu-id="53039-105">There may be times, however, when you want to reduce the number of emails that are sent to Skype for Business and Microsoft Teams user.</span></span> <span data-ttu-id="53039-106">In such cases, you can disable sending email.</span><span class="sxs-lookup"><span data-stu-id="53039-106">In such cases, you can disable sending email.</span></span>
   
-<span data-ttu-id="9ba66-107">音频会议电子邮件如果您禁用发送电子邮件时，将不会发送给您的用户，包括电子邮件的用户启用或禁用音频会议，以及会议 ID 和默认会议电话号码更改时重置其 PIN，.</span><span class="sxs-lookup"><span data-stu-id="9ba66-107">If you disable sending emails, Audio Conferencing emails won't be sent to your users, including emails for when users are enabled or disabled for audio conferencing, when their PIN is reset, and when the conference ID and the default conferencing phone number changes.</span></span>
+<span data-ttu-id="53039-107">If you disable sending emails, Audio Conferencing emails won't be sent to your users, including emails for when users are enabled or disabled for audio conferencing, when their PIN is reset, and when the conference ID and the default conferencing phone number changes.</span><span class="sxs-lookup"><span data-stu-id="53039-107">If you disable sending emails, Audio Conferencing emails won't be sent to your users, including emails for when users are enabled or disabled for audio conferencing, when their PIN is reset, and when the conference ID and the default conferencing phone number changes.</span></span>
   
-<span data-ttu-id="9ba66-108">下面是他们启用音频会议时，向用户发送的电子邮件的一个示例：</span><span class="sxs-lookup"><span data-stu-id="9ba66-108">Here is an example of the email that is sent to users when they are enabled for Audio Conferencing:</span></span>
+<span data-ttu-id="53039-108">Here is an example of the email that is sent to users when they are enabled for Audio Conferencing:</span><span class="sxs-lookup"><span data-stu-id="53039-108">Here is an example of the email that is sent to users when they are enabled for Audio Conferencing:</span></span>
   
-![音频会议电子邮件](../images/audio-conferencing-user-enabled.png)
+![Audio Conferencing email](../images/audio-conferencing-user-enabled.png)
   
-## <a name="when-are-emails-being-sent-to-your-users"></a><span data-ttu-id="9ba66-110">什么时候向用户发送电子邮件？</span><span class="sxs-lookup"><span data-stu-id="9ba66-110">When are emails being sent to your users?</span></span>
+## <a name="when-are-emails-being-sent-to-your-users"></a><span data-ttu-id="53039-110">什么时候向用户发送电子邮件？</span><span class="sxs-lookup"><span data-stu-id="53039-110">When are emails being sent to your users?</span></span>
 
-- <span data-ttu-id="9ba66-111">有几个之后发送给您的组织中的用户启用音频会议的电子邮件：</span><span class="sxs-lookup"><span data-stu-id="9ba66-111">There are several emails that are sent to users in your organization after they are enabled for audio conferencing:</span></span>
+- <span data-ttu-id="53039-111">There are several emails that are sent to users in your organization after they are enabled for audio conferencing:</span><span class="sxs-lookup"><span data-stu-id="53039-111">There are several emails that are sent to users in your organization after they are enabled for audio conferencing:</span></span>
     
-  - <span data-ttu-id="9ba66-112">当**音频会议**许可分配给它们。</span><span class="sxs-lookup"><span data-stu-id="9ba66-112">When an **Audio Conferencing** license is assigned to them.</span></span>
+  - <span data-ttu-id="53039-112">When an **Audio Conferencing** license is assigned to them.</span><span class="sxs-lookup"><span data-stu-id="53039-112">When an **Audio Conferencing** license is assigned to them.</span></span>
     
-  - <span data-ttu-id="9ba66-113">当您手动重置用户的音频会议针。</span><span class="sxs-lookup"><span data-stu-id="9ba66-113">When you manually reset the user's audio conferencing PIN.</span></span>
+  - <span data-ttu-id="53039-113">When you manually reset the user's audio conferencing PIN.</span><span class="sxs-lookup"><span data-stu-id="53039-113">When you manually reset the user's audio conferencing PIN.</span></span>
     
-  - <span data-ttu-id="9ba66-114">当你手动重置用户的会议 ID 时。</span><span class="sxs-lookup"><span data-stu-id="9ba66-114">When you manually reset the user's conference ID.</span></span>
+  - <span data-ttu-id="53039-114">当你手动重置用户的会议 ID 时。</span><span class="sxs-lookup"><span data-stu-id="53039-114">When you manually reset the user's conference ID.</span></span>
     
-  - <span data-ttu-id="9ba66-115">从中删除**音频会议**许可的时间。</span><span class="sxs-lookup"><span data-stu-id="9ba66-115">When the **Audio Conferencing** license is removed from them.</span></span>
+  - <span data-ttu-id="53039-115">When the **Audio Conferencing** license is removed from them.</span><span class="sxs-lookup"><span data-stu-id="53039-115">When the **Audio Conferencing** license is removed from them.</span></span>
     
-  - <span data-ttu-id="9ba66-116">当用户的音频会议提供商从 Microsoft 更改为另一个提供程序，或**无**。</span><span class="sxs-lookup"><span data-stu-id="9ba66-116">When the audio conferencing provider of a user is changed from Microsoft to another provider or **None**.</span></span>
+  - <span data-ttu-id="53039-116">When the audio conferencing provider of a user is changed from Microsoft to another provider or **None**.</span><span class="sxs-lookup"><span data-stu-id="53039-116">When the audio conferencing provider of a user is changed from Microsoft to another provider or **None**.</span></span>
     
-  - <span data-ttu-id="9ba66-117">给 Microsoft 更改时用户的音频会议提供商。</span><span class="sxs-lookup"><span data-stu-id="9ba66-117">When the audio conferencing provider of a user is changed to Microsoft.</span></span>
+  - <span data-ttu-id="53039-117">When the audio conferencing provider of a user is changed to Microsoft.</span><span class="sxs-lookup"><span data-stu-id="53039-117">When the audio conferencing provider of a user is changed to Microsoft.</span></span>
     
-## <a name="enable-or-disable-email-from-being-sent-to-users"></a><span data-ttu-id="9ba66-118">启用或禁用发送到用户的电子邮件</span><span class="sxs-lookup"><span data-stu-id="9ba66-118">Enable or disable email from being sent to users</span></span>
+## <a name="enable-or-disable-email-from-being-sent-to-users"></a><span data-ttu-id="53039-118">Enable or disable email from being sent to users</span><span class="sxs-lookup"><span data-stu-id="53039-118">Enable or disable email from being sent to users</span></span>
 
-<span data-ttu-id="9ba66-119">您可以使用 Microsoft 小组、 业务管理中心，为 Skype 或 Windows PowerShell 启用或禁用电子邮件发送给用户。</span><span class="sxs-lookup"><span data-stu-id="9ba66-119">You can use Microsoft Teams, the Skype for Business admin center, or Windows PowerShell to enable or disable email sent to users.</span></span>
+<span data-ttu-id="53039-119">You can use Microsoft Teams, the Skype for Business admin center, or Windows PowerShell to enable or disable email sent to users.</span><span class="sxs-lookup"><span data-stu-id="53039-119">You can use Microsoft Teams, the Skype for Business admin center, or Windows PowerShell to enable or disable email sent to users.</span></span>
 
-<span data-ttu-id="9ba66-120">**使用 Microsoft 小组和 Skype 业务管理中心**</span><span class="sxs-lookup"><span data-stu-id="9ba66-120">**Using the Microsoft Teams and Skype for Business Admin Center**</span></span>
-1. <span data-ttu-id="9ba66-121">在左侧的导航中，转到**会议** > **会议桥**。</span><span class="sxs-lookup"><span data-stu-id="9ba66-121">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
+<span data-ttu-id="53039-120">**Using the Microsoft Teams and Skype for Business Admin Center**</span><span class="sxs-lookup"><span data-stu-id="53039-120">**Using the Microsoft Teams and Skype for Business Admin Center**</span></span>
+1. <span data-ttu-id="53039-121">In the left navigation, go to **Meetings** > **Conference Bridges**.</span><span class="sxs-lookup"><span data-stu-id="53039-121">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
 
-2. <span data-ttu-id="9ba66-122">在**会议桥**页的顶部，单击**桥接器设置**。</span><span class="sxs-lookup"><span data-stu-id="9ba66-122">At the top of the **Conference Bridges** page, click **Bridge Settings**.</span></span> 
+2. <span data-ttu-id="53039-122">At the top of the **Conference Bridges** page, click **Bridge Settings**.</span><span class="sxs-lookup"><span data-stu-id="53039-122">At the top of the **Conference Bridges** page, click **Bridge Settings**.</span></span> 
 
-3. <span data-ttu-id="9ba66-123">**网桥的设置**窗格中启用或禁用**自动发送电子邮件发送给用户，如果他们拨入设置更改**。</span><span class="sxs-lookup"><span data-stu-id="9ba66-123">In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.</span></span>
+3. <span data-ttu-id="53039-123">In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.</span><span class="sxs-lookup"><span data-stu-id="53039-123">In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.</span></span>
 
-4. <span data-ttu-id="9ba66-124">单击“**应用**”。</span><span class="sxs-lookup"><span data-stu-id="9ba66-124">Click **Apply**.</span></span>
+4. <span data-ttu-id="53039-124">单击“**应用**”。</span><span class="sxs-lookup"><span data-stu-id="53039-124">Click **Apply**.</span></span>
   
-<span data-ttu-id="9ba66-125">**使用 Skype 业务管理中心**</span><span class="sxs-lookup"><span data-stu-id="9ba66-125">**Using the Skype for Business admin center**</span></span>
+<span data-ttu-id="53039-125">**Using the Skype for Business admin center**</span><span class="sxs-lookup"><span data-stu-id="53039-125">**Using the Skype for Business admin center**</span></span>
     
-1. <span data-ttu-id="9ba66-126">在**业务管理中心的 Skype**，在左边的导航，请单击**音频会议**。</span><span class="sxs-lookup"><span data-stu-id="9ba66-126">In the **Skype for Business admin center**, in the left navigation, click **Audio conferencing**.</span></span>
+1. <span data-ttu-id="53039-126">In the **Skype for Business admin center**, in the left navigation, click **Audio conferencing**.</span><span class="sxs-lookup"><span data-stu-id="53039-126">In the **Skype for Business admin center**, in the left navigation, click **Audio conferencing**.</span></span>
     
-2. <span data-ttu-id="9ba66-127">在**Microsoft 桥设置**页上，选中或清除**自动发送电子邮件发送给用户，如果他们的音频会议设置更改**。</span><span class="sxs-lookup"><span data-stu-id="9ba66-127">On the **Microsoft bridge settings** page, select or clear the **Automatically send emails to users if their audio conferencing settings change**.</span></span>
+2. <span data-ttu-id="53039-127">On the **Microsoft bridge settings** page, select or clear the **Automatically send emails to users if their audio conferencing settings change**.</span><span class="sxs-lookup"><span data-stu-id="53039-127">On the **Microsoft bridge settings** page, select or clear the **Automatically send emails to users if their audio conferencing settings change**.</span></span>
     
-3. <span data-ttu-id="9ba66-128">单击" **保存**"。</span><span class="sxs-lookup"><span data-stu-id="9ba66-128">Click **Save**.</span></span>
+3. <span data-ttu-id="53039-128">单击" **保存**"。</span><span class="sxs-lookup"><span data-stu-id="53039-128">Click **Save**.</span></span>
     
     > [!TIP]
-    > <span data-ttu-id="9ba66-129">您还可以发送电子邮件给用户使用音频会议设置**音频会议**到 > **用户**，选择用户，然后单击**将会议信息通过电子邮件发送**。</span><span class="sxs-lookup"><span data-stu-id="9ba66-129">You can also send email to a user with the audio conferencing settings by going to **Audio conferencing** > **Users**, selecting the user, and clicking **Send conference info via email**.</span></span>  <span data-ttu-id="9ba66-130">如果这样做，将发送一封电子邮件，只包含会议 ID 和会议电话号码，但不是针。</span><span class="sxs-lookup"><span data-stu-id="9ba66-130">If you do this, an email will be sent that only includes conference ID and conference phone number, but not the PIN.</span></span>  <span data-ttu-id="9ba66-131">有关详细信息，请参阅[发送一封电子邮件对他们的音频会议信息的用户](send-an-email-to-a-user-with-their-dial-in-information.md)。</span><span class="sxs-lookup"><span data-stu-id="9ba66-131">See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md) for more information.</span></span>
+    > <span data-ttu-id="53039-129">You can also send email to a user with the audio conferencing settings by going to **Audio conferencing** > **Users**, selecting the user, and clicking **Send conference info via email**.</span><span class="sxs-lookup"><span data-stu-id="53039-129">You can also send email to a user with the audio conferencing settings by going to **Audio conferencing** > **Users**, selecting the user, and clicking **Send conference info via email**.</span></span>  <span data-ttu-id="53039-130">If you do this, an email will be sent that only includes conference ID and conference phone number, but not the PIN.</span><span class="sxs-lookup"><span data-stu-id="53039-130">If you do this, an email will be sent that only includes conference ID and conference phone number, but not the PIN.</span></span>  <span data-ttu-id="53039-131">See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md) for more information.</span><span class="sxs-lookup"><span data-stu-id="53039-131">See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md) for more information.</span></span>
   
-<span data-ttu-id="9ba66-132">**使用 Windows PowerShell**</span><span class="sxs-lookup"><span data-stu-id="9ba66-132">**Using Windows PowerShell**</span></span>
+<span data-ttu-id="53039-132">**Using Windows PowerShell**</span><span class="sxs-lookup"><span data-stu-id="53039-132">**Using Windows PowerShell**</span></span>
   
-- <span data-ttu-id="9ba66-133">运行以下操作来禁用发送电子邮件：</span><span class="sxs-lookup"><span data-stu-id="9ba66-133">Run the following to disable sending emails:</span></span> 
+- <span data-ttu-id="53039-133">Run the following to disable sending emails:</span><span class="sxs-lookup"><span data-stu-id="53039-133">Run the following to disable sending emails:</span></span> 
     
   ```
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
   ```
 
-    <span data-ttu-id="9ba66-134">此 cmdlet 的帮助信息，请参阅[设置 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757)。</span><span class="sxs-lookup"><span data-stu-id="9ba66-134">For help with this cmdlet, see [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757).</span></span>
+    <span data-ttu-id="53039-134">For help with this cmdlet, see [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757).</span><span class="sxs-lookup"><span data-stu-id="53039-134">For help with this cmdlet, see [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757).</span></span>
     
-## <a name="what-else-should-you-know"></a><span data-ttu-id="9ba66-135">你还需了解哪些信息？</span><span class="sxs-lookup"><span data-stu-id="9ba66-135">What else should you know?</span></span>
+## <a name="what-else-should-you-know"></a><span data-ttu-id="53039-135">你还需了解哪些信息？</span><span class="sxs-lookup"><span data-stu-id="53039-135">What else should you know?</span></span>
 
-- <span data-ttu-id="9ba66-136">禁用了自动电子邮件，可以手动触发发送一封电子邮件对业务管理中心使用 Skype 的会议 ID 和电话号码。</span><span class="sxs-lookup"><span data-stu-id="9ba66-136">When automatic emails are disabled, you can still manually trigger sending an email with the conference ID and phone number using the Skype for Business admin center.</span></span> <span data-ttu-id="9ba66-137">但是，如果这样做，将不会包含 PIN。</span><span class="sxs-lookup"><span data-stu-id="9ba66-137">However, if you do this, the PIN won't be included.</span></span> <span data-ttu-id="9ba66-138">如果您想重置 PIN 音频会议，发送电子邮件被禁用，需要将其发送给用户，以另一种方式。</span><span class="sxs-lookup"><span data-stu-id="9ba66-138">If you want to reset the audio conferencing PIN and sending emails is disabled, you will need to send it to the user in another way.</span></span>
+- <span data-ttu-id="53039-136">When automatic emails are disabled, you can still manually trigger sending an email with the conference ID and phone number using the Skype for Business admin center.</span><span class="sxs-lookup"><span data-stu-id="53039-136">When automatic emails are disabled, you can still manually trigger sending an email with the conference ID and phone number using the Skype for Business admin center.</span></span> <span data-ttu-id="53039-137">However, if you do this, the PIN won't be included.</span><span class="sxs-lookup"><span data-stu-id="53039-137">However, if you do this, the PIN won't be included.</span></span> <span data-ttu-id="53039-138">If you want to reset the audio conferencing PIN and sending emails is disabled, you will need to send it to the user in another way.</span><span class="sxs-lookup"><span data-stu-id="53039-138">If you want to reset the audio conferencing PIN and sending emails is disabled, you will need to send it to the user in another way.</span></span>
     
-- <span data-ttu-id="9ba66-139">默认情况下，电子邮件的发件人将从 Office 365，但可以更改电子邮件地址和显示名称使用 Windows PowerShell 和还使用[一组 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757) cmdlet。</span><span class="sxs-lookup"><span data-stu-id="9ba66-139">By default, the sender of the emails will be from Office 365, but you can change the email address and display name using Windows PowerShell and also use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757) cmdlet.</span></span>
+- <span data-ttu-id="53039-139">可以使用 Skype for Business 管理中心或 Windows PowerShell 禁用向用户发送电子邮件。</span><span class="sxs-lookup"><span data-stu-id="53039-139">Sending email to your users can be disabled using the Skype for Business admin center or the Windows PowerShell.</span></span>
+    
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a><span data-ttu-id="53039-140">想知道如何使用 Windows PowerShell 进行管理吗？</span><span class="sxs-lookup"><span data-stu-id="53039-140">Want to know how to manage with Windows PowerShell?</span></span>
+
+- <span data-ttu-id="53039-141">You can use these cmdlets to save time or automate this.</span><span class="sxs-lookup"><span data-stu-id="53039-141">You can use these cmdlets to save time or automate this.</span></span>
+    
+  - [<span data-ttu-id="53039-142">Get-CsOnlineDialInConferencingTenantSettings</span><span class="sxs-lookup"><span data-stu-id="53039-142">Get-CsOnlineDialInConferencingTenantSettings</span></span>](https://go.microsoft.com/fwlink/?LinkId=715760)
+    
+  - [<span data-ttu-id="53039-143">Remove-CsOnlineDialInConferencingTenantSettings</span><span class="sxs-lookup"><span data-stu-id="53039-143">Remove-CsOnlineDialInConferencingTenantSettings</span></span>](https://go.microsoft.com/fwlink/?LinkId=715759)
+    
+  - [<span data-ttu-id="53039-144">Get-CsOnlineDialinConferencingTenantConfiguration</span><span class="sxs-lookup"><span data-stu-id="53039-144">Get-CsOnlineDialinConferencingTenantConfiguration</span></span>](https://go.microsoft.com/fwlink/?LinkId=715758)
+    
+  - [<span data-ttu-id="53039-145">Get-CsOnlineDialInConferencingTenantSettings</span><span class="sxs-lookup"><span data-stu-id="53039-145">Get-CsOnlineDialInConferencingTenantSettings</span></span>](https://go.microsoft.com/fwlink/?LinkId=715760)
+    
+-  <span data-ttu-id="53039-p104">Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：</span><span class="sxs-lookup"><span data-stu-id="53039-p104">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
+    
+  - [<span data-ttu-id="53039-149">Why you need to use Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="53039-149">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+    
+  - [<span data-ttu-id="53039-150">使用 Windows PowerShell 管理 Office 365 的最佳方式</span><span class="sxs-lookup"><span data-stu-id="53039-150">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+    
+- <span data-ttu-id="53039-151">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time.</span><span class="sxs-lookup"><span data-stu-id="53039-151">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time.</span></span> <span data-ttu-id="53039-152">请在以下主题中了解这些优点：</span><span class="sxs-lookup"><span data-stu-id="53039-152">Learn about these advantages in the following topics:</span></span> 
+    
+  - [<span data-ttu-id="53039-153">Windows PowerShell 和 Skype for Business Online 简介</span><span class="sxs-lookup"><span data-stu-id="53039-153">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
+    
+  - [<span data-ttu-id="53039-154">使用 Windows PowerShell 管理 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="53039-154">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
+    
+  - [<span data-ttu-id="53039-155">使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务</span><span class="sxs-lookup"><span data-stu-id="53039-155">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    >  <span data-ttu-id="9ba66-140">如果您想要更改的电子邮件地址信息，您需要确保您的环境的入站电子邮件策略允许来自指定发件人地址的自定义的电子邮件。</span><span class="sxs-lookup"><span data-stu-id="9ba66-140">If you want to change the email address information, you need to make sure that the inbound email policies of your environment allow emails that come from the custom specified from address.</span></span>
+    > <span data-ttu-id="53039-p106">[!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。</span><span class="sxs-lookup"><span data-stu-id="53039-p106">The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)</span></span>
   
-  - <span data-ttu-id="9ba66-141">在  _SendEmailFromAddress_ 参数中输入电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="9ba66-141">Enter the email address in the  _SendEmailFromAddress_ parameter.</span></span>
-    
-  - <span data-ttu-id="9ba66-142">在  _SendEmailFromDisplayName_ 参数中输入电子邮件的显示名称。</span><span class="sxs-lookup"><span data-stu-id="9ba66-142">Enter the email display name in the  _SendEmailFromDisplayName_ parameter.</span></span>
-    
-  - <span data-ttu-id="9ba66-143">将_SendEmailOverride_参数设置为_True_。</span><span class="sxs-lookup"><span data-stu-id="9ba66-143">Set the  _SendEmailOverride_ parameter to _True_.</span></span>
-    
-  -  `Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"`
-    
-- <span data-ttu-id="9ba66-144">可以使用 Skype for Business 管理中心或 Windows PowerShell 禁用向用户发送电子邮件。</span><span class="sxs-lookup"><span data-stu-id="9ba66-144">Sending email to your users can be disabled using the Skype for Business admin center or the Windows PowerShell.</span></span>
-    
-## <a name="want-to-know-how-to-manage-with-windows-powershell"></a><span data-ttu-id="9ba66-145">想知道如何使用 Windows PowerShell 进行管理吗？</span><span class="sxs-lookup"><span data-stu-id="9ba66-145">Want to know how to manage with Windows PowerShell?</span></span>
+## <a name="related-topics"></a><span data-ttu-id="53039-158">相关主题</span><span class="sxs-lookup"><span data-stu-id="53039-158">Related topics</span></span>
 
-- <span data-ttu-id="9ba66-146">这些 cmdlet 可用于节省时间或实现自动操作。</span><span class="sxs-lookup"><span data-stu-id="9ba66-146">You can use these cmdlets to save time or automate this.</span></span>
-    
-  - [<span data-ttu-id="9ba66-147">获得 CsOnlineDialInConferencingTenantSettings</span><span class="sxs-lookup"><span data-stu-id="9ba66-147">Get-CsOnlineDialInConferencingTenantSettings</span></span>](https://go.microsoft.com/fwlink/?LinkId=715760)
-    
-  - [<span data-ttu-id="9ba66-148">删除 CsOnlineDialInConferencingTenantSettings</span><span class="sxs-lookup"><span data-stu-id="9ba66-148">Remove-CsOnlineDialInConferencingTenantSettings</span></span>](https://go.microsoft.com/fwlink/?LinkId=715759)
-    
-  - [<span data-ttu-id="9ba66-149">获得 CsOnlineDialinConferencingTenantConfiguration</span><span class="sxs-lookup"><span data-stu-id="9ba66-149">Get-CsOnlineDialinConferencingTenantConfiguration</span></span>](https://go.microsoft.com/fwlink/?LinkId=715758)
-    
-  - [<span data-ttu-id="9ba66-150">获得 CsOnlineDialInConferencingTenantSettings</span><span class="sxs-lookup"><span data-stu-id="9ba66-150">Get-CsOnlineDialInConferencingTenantSettings</span></span>](https://go.microsoft.com/fwlink/?LinkId=715760)
-    
--  <span data-ttu-id="9ba66-p104">Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：</span><span class="sxs-lookup"><span data-stu-id="9ba66-p104">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
-    
-  - [<span data-ttu-id="9ba66-154">为什么需要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="9ba66-154">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
-    
-  - [<span data-ttu-id="9ba66-155">使用 Windows PowerShell 管理 Office 365 的最佳方式</span><span class="sxs-lookup"><span data-stu-id="9ba66-155">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
-    
-- <span data-ttu-id="9ba66-156">Windows PowerShell 许多相比具有的优势在速度、 简易性和生产率仅使用 Office 365 管理中心，例如，当将设置更改为许多用户一次。</span><span class="sxs-lookup"><span data-stu-id="9ba66-156">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time.</span></span> <span data-ttu-id="9ba66-157">请在以下主题中了解这些优点：</span><span class="sxs-lookup"><span data-stu-id="9ba66-157">Learn about these advantages in the following topics:</span></span> 
-    
-  - [<span data-ttu-id="9ba66-158">Windows PowerShell 和 Skype for Business Online 简介</span><span class="sxs-lookup"><span data-stu-id="9ba66-158">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
-    
-  - [<span data-ttu-id="9ba66-159">使用 Windows PowerShell 管理 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="9ba66-159">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
-    
-  - [<span data-ttu-id="9ba66-160">使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务</span><span class="sxs-lookup"><span data-stu-id="9ba66-160">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
-    
-    > [!NOTE]
-    > <span data-ttu-id="9ba66-p106">[!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。</span><span class="sxs-lookup"><span data-stu-id="9ba66-p106">The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)</span></span>
-  
-## <a name="related-topics"></a><span data-ttu-id="9ba66-163">相关主题</span><span class="sxs-lookup"><span data-stu-id="9ba66-163">Related topics</span></span>
+[<span data-ttu-id="53039-159">Emails sent to users when their Audio Conferencing settings change</span><span class="sxs-lookup"><span data-stu-id="53039-159">Emails sent to users when their Audio Conferencing settings change</span></span>](emails-sent-to-users-when-their-settings-change.md)
 
-[<span data-ttu-id="9ba66-164">他们的音频会议设置更改时向用户发送电子邮件</span><span class="sxs-lookup"><span data-stu-id="9ba66-164">Emails sent to users when their Audio Conferencing settings change</span></span>](emails-sent-to-users-when-their-settings-change.md)
-
-[<span data-ttu-id="9ba66-165">对其音频会议信息的用户发送电子邮件</span><span class="sxs-lookup"><span data-stu-id="9ba66-165">Send an email to a user with their Audio Conferencing information</span></span>](send-an-email-to-a-user-with-their-dial-in-information.md)
+[<span data-ttu-id="53039-160">对其音频会议信息的用户发送电子邮件</span><span class="sxs-lookup"><span data-stu-id="53039-160">Send an email to a user with their Audio Conferencing information</span></span>](send-an-email-to-a-user-with-their-dial-in-information.md)
 
 
