@@ -518,6 +518,7 @@
 ### [Skype 会议室系统第 2 版](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 #### [OMS](../manage/skype-room-systems-v2/oms.md)
 #### [XML 配置文件](../manage/skype-room-systems-v2/xml-config-file.md)
+#### [使用恢复工具](../manage/skype-room-systems-v2/recovery-tool.md)
 ### [用户帐户](../manage/user-accounts/user-accounts.md)
 #### [自定义属性](../manage/user-accounts/customize-properties.md)
 ### [管理服务](../manage/manage-services.md)
