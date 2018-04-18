@@ -3,7 +3,6 @@ title: 允许用户联系外部 Skype for Business 用户
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: b414873a-0059-4cd5-aea1-e5d0857dbc94
 ms.tgt.pltfrm: cloud
@@ -26,16 +25,16 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: b7700eeaf9a2fdd39d9a25fce93cfd17f42d4b8e
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 533bf45ff1abd0a1127ff54c91ab4c424c7d2df8
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>允许用户联系外部 Skype for Business 用户
 
 > [!NOTE]
-> Skype for Business federation isn't available to Office 365 operated by 21Vianet and Office 365 Germany organizations. 
+> Skype 业务联盟到 Office 365 由 21Vianet 和 Office 365 德国组织不可。 
   
 在下列情况下，请按照本文的步骤进行操作：
   
@@ -43,19 +42,19 @@ ms.lasthandoff: 04/16/2018
     
 - 希望你组织的人员使用 Skype for Business 联系你组织外特定企业中的人员。
     
--You want anyone else in the world who uses Skype for Business to be able to find and contact you, using your email address. 如果你和他们都使用默认的 Skype for Business 设置，此功能会自动运行。 如果他们更改了默认设置，他们需要确认其配置没有阻止你的域。
+-您想其他任何人在世界中使用 Skype 业务能够找到您并联系您使用您的电子邮件地址的用户。 如果你和他们都使用默认的 Skype for Business 设置，此功能会自动运行。 如果他们更改了默认设置，他们需要确认其配置没有阻止你的域。
     
 ## <a name="enable-business-to-business-communications-for-your-users"></a>为你的用户启用企业到企业通信
 <a name="bk_preview"> </a>
 
-To see how this works, watch this video:
+要观察其工作方式，观看这段视频：
 ***
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false]
 ***
 
-You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in both organizations to do this.
+在这两家公司为此，必须在 Office 365 具有[管理权限](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)。
   
-1. Sign in with your Office 365 admin account. 
+1. 使用您的 Office 365 管理帐户登录。 
     
 2. In the Office 365 admin center, go to **Admin Centers** > **Skype for Business**.
     
@@ -63,25 +62,25 @@ You must have [admin permissions](https://support.office.com/en-us/article/da585
   
 3. 在 **Skype for Business 管理中心**，选择“**组织**” > “**外部通信**”。
     
-4. To set up communication with a specific business or with users in another domain, in the drop-down box, choose **On only for allowed domains**.
+4. 若要设置通讯与特定业务或用户在另一个域中，在下拉列表框中，选择**上只允许域**。
     
     或者，你希望能够与世界各地采用公开的 Skype for Business 策略的所有其他人通信，请选择" **打开(被阻止的域除外)**"。这是默认设置。
     
-5. Under **Blocked or allowed domains**, choose **+** and add the name of the domain you want to allow.
+5. **阻止或允许的域**，请在下选择**+**并添加您希望允许的域的名称。
     
-6. Make sure the admin in the other organization does these same steps in their **Skype for Business admin center**. 例如，在其" **允许的域**"列表中，其管理员需要输入贵企业的域。
+6. 请确保在其他组织中的管理员 does **Skype 业务管理中心的**他们在相同的步骤。 例如，在其" **允许的域**"列表中，其管理员需要输入贵企业的域。
     
 7. 如果你使用的是 Windows 防火墙，Skype for Business 将自动打开所需端口。
     
-    If your organization is using a different firewall solution to restrict computers on your network from connecting to the Internet, ensure your client computers are able to access the following [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges). This may require adding the FQDNs to the outbound allow list in your firewall or proxy infrastructure configuration: **\*.api.skype.com**, \***.users.storage.live.com**, and **graph.skype.com**. For instructions on how to open these ports in your firewall, check the documentation that came with it.
+    If your organization is using a different firewall solution to restrict computers on your network from connecting to the Internet, ensure your client computers are able to access the following [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges). 这可能需要添加到出站 Fqdn 允许列表中您的防火墙或代理服务器基础结构配置： ** \*。 api.skype.com**， \* **。 users.storage.live.com**，和**graph.skype.com**。有关如何在您的防火墙中打开这些端口，请检查随之附带的文档。
     
-    For a list of all ports you need to open, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
+    所有您需要打开的端口的列表，请参阅[Office 365 的 Url 和 IP 地址范围](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)。
 
-8. Make sure that the administrator in the organization has also followed these steps.
+8. 确保组织中的管理员也已经遵循这些步骤。
     
 9. **测试最长需要等待 24 小时** 。如果你更改了外部通信设置，最长需要等待 24 小时才能让更改传播到所有数据中心。
     
-![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) 现在，你可以允许你的用户搜索使用 Skype 这一免费应用的任何人并与其进行即时消息通信！ To learn more, see [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md).
+![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) 现在，你可以允许你的用户搜索使用 Skype 这一免费应用的任何人并与其进行即时消息通信！ 若要了解详细信息，请参阅[适用于业务用户让 Skype 将 Skype 联系人添加](let-skype-for-business-users-add-skype-contacts.md)。
   
 ## <a name="test-and-troubleshoot"></a>测试和故障排除
 <a name="bk_preview"> </a>
@@ -94,7 +93,7 @@ You must have [admin permissions](https://support.office.com/en-us/article/da585
     
 2. 在 Skype for Business 中，搜索你的 Skype for Business 联系人，然后发送聊天请求。
     
-    If you get a message that it couldn't be sent due to company policy, you need to double-check your [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
+    如果您收到一条消息，由于公司政策而无法发送它，您需要仔细检查您的[Office 365 的 Url 和 IP 地址范围](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)。
     
 3. 要求你的 Skype for Business 联系人向你发送聊天请求。如果你未收到其请求，那么你的防火墙有问题（假设他们已确认其防火墙设置正确）。
     
@@ -103,9 +102,9 @@ You must have [admin permissions](https://support.office.com/en-us/article/da585
 ## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>在与其他企业连接时如何查找其他人以及如何被找到
 <a name="bk_preview"> </a>
 
-After you enable external communication with other Skype for Business users, your users can find federated Skype for Business users by searching for their sign-in name: for example, Rob@contoso.com. Then they will need to add the person to their list of contacts.
+启用其他适用于业务用户的 Skype 与外部通信后，用户联合的 Skype 适用于业务用户通过搜索可以找到的他们的登录名： 例如，Rob@contoso.com。然后他们将需要将此人添加到他们的联系人列表。
   
-![To find a user in a federated business, you must search for their email address (this is usually also their sign in name).](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
+![联盟企业中查找用户，您必须搜索其电子邮件地址 （这通常也是其登录名）。](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
   
 ## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>设置联盟企业通信的提示
 <a name="bk_preview"> </a>
@@ -116,24 +115,24 @@ After you enable external communication with other Skype for Business users, you
     
 - 当 Office 365 中的两个 Skype for Business 用户在单独的域上相互通信时，他们只能使用在两个组织中都启用的 Skype for Business 功能（例如，视频对话或桌面共享）。
     
-- If a Skype for Business user in your organization is put on an In-Place or Litigation Hold, any IM conversations between that user and other Skype for Business or Skype users will be saved in **Recoverable Items** in their mailbox. 这些对话将不保存在其邮箱中的" **对话历史记录**"文件夹中。
+- 如果您的组织中的业务用户 Skype 放在适当或诉讼封存，将**可恢复项目**在其邮箱中保存该用户和其他有关业务或 Skype 用户的 Skype 之间的 IM 对话。 这些对话将不保存在其邮箱中的" **对话历史记录**"文件夹中。
     
 ## <a name="turn-off-external-communication-for-specific-individuals"></a>关闭特定个人的外部通信
 <a name="bk_preview"> </a>
 
 为你的整个企业启用外部通信后，你可以仅为特定的个人关闭它。
   
-1. Sign in with your Office 365 admin account.
+1. 使用您的 Office 365 管理帐户登录。
     
-2. In the Office 365 admin center, go to **Users** > **Active users**.
+2. 在 Office 365 管理中心中，请转到**用户** > **活动的用户**。
     
 3. 在用户列表中，选择用户，然后在" **其他设置**"下单击" **编辑 Skype for Business 属性**"。
     
     ![Choose Skype for Business](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
   
-4. In the **Skype for Business admin center**, choose **External communications**.
+4. **Skype 的业务管理中心**，在选择**外部通信**。
     
-    On the **Options** page, all of the choices will be selected. Clear the communications you want to disable. 下图显示了 Jakob 能够与其他可信企业中的人员通信，但是无法与其他 Skype 用户通信。
+    在**选项**页中，将被选中所有选项。 清除要禁用的通信。 下图显示了 Jakob 能够与其他可信企业中的人员通信，但是无法与其他 Skype 用户通信。
     
     ![Choose External contacts](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
   

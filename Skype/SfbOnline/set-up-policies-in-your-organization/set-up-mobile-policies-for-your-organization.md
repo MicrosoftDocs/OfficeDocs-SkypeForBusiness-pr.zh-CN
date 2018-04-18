@@ -3,7 +3,6 @@ title: 设置您的组织的移动策略
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: beea47b2-7b9a-4b28-92d0-af65d80cd00f
 ms.tgt.pltfrm: cloud
@@ -17,11 +16,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 您可以设置如何您的用户连接到 Skype 的在线业务的业务应用程序等功能，使用户可以拨打和接听电话在他们的移动电话而不是他们的移动电话 nu 通过其单位电话号码的移动设备上使用 Skypember。 还需要使用移动策略来要求在拨打或接听电话时使用 Wi-Fi 连接。
-ms.openlocfilehash: f3fa8b2974406827494ea8ceb759b23d01817825
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: cbd981285f6c4dfacf09597b2bd8e687ba124ad8
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>设置您的组织的移动策略
 

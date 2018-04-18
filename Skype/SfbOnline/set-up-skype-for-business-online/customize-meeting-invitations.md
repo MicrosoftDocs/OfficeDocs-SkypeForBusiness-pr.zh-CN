@@ -3,7 +3,6 @@ title: 自定义会议邀请
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 9af52080-dd56-4b66-b056-41ed1a7aaae3
 ms.tgt.pltfrm: cloud
@@ -18,11 +17,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: '自定义徽标图形、 帮助和法律 Url 和页脚文本与 Skype 会议邀请。 '
-ms.openlocfilehash: 202669b67cb8feb3af7216a2faf9400a014da88e
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: f6c5c65c1f12010a6ee6cc625748dfa0287a856a
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="customize-meeting-invitations"></a>自定义会议邀请
 

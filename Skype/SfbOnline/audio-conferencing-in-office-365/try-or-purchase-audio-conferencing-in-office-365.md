@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: d080bb8c-3465-47bb-ad2b-9428f1a3fd24
 ms.tgt.pltfrm: cloud
@@ -23,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: '请参阅如何尝试或购买 Office 365 可以设置用户可以拨入的会议呼叫的音频会议 （PSTN 会议） 许可证。 '
-ms.openlocfilehash: eec26ca81cf9ee29d0d341720c2fdb353038a1e1
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: b1fdf386e778ec907dbeae2ce2178fa2596435ff
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365"></a>请尝试或购买 Office 365 中的音频会议
 

@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.date: 03/22/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -22,11 +21,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: '了解有关附加许可、 功能，以及如何购买 Office 365 的业务津贴计划。 '
-ms.openlocfilehash: 52bddfd90e0eac5b59004cc7a59930147444c4fa
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: edd0017e42a26ef41ea031440a39f6abe57ec7fd
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="office-365-business-premium"></a>Office 365 商业高级版 
 

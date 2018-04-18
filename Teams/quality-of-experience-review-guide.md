@@ -3,7 +3,7 @@ title: Microsoft 小组的经验审查指南的质量
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -11,11 +11,11 @@ description: 通过使用呼叫质量仪表板 (CQD) 分析 Microsoft 小组的�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65591f364cd40db5307208e089b6897cfb60e878
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 42af71e9062b68da6e9d3bc77a6c067eee35ec92
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="quality-of-experience-review-guide"></a>质量的经验审查指南
 
@@ -495,7 +495,7 @@ _表 4-报告筛选器_
 
 ![一个弹出窗口，通知用户该模板已成功导入的屏幕快照。](media/quality-of-experience-review-guide-imagestep5.png)
 
-1.  第二个的 CQD 模板重复步骤 4 和 5。
+6.  第二个的 CQD 模板重复步骤 4 和 5。
 
 > [!NOTE]
 > 每个用户导入的 CQD 模板。 如果其他用户需要使用报表，他们必须登录并将这些模板导入到其 CQD 实例。 

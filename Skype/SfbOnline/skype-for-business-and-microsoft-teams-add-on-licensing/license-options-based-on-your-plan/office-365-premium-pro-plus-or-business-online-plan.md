@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.date: 03/22/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -22,11 +21,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: '了解有关附加许可、 功能，以及如何购买 Office 365 特优、 Office 365 ProPlus 或 Skype 业务联机计划 2。 '
-ms.openlocfilehash: a47f50e33d0b5ba63fc6b57f069ed5ba3094294a
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 1117b5abe6fd3af2155332bc8ecdc707016da7f5
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="office-365-premium-office-365-proplus-or-skype-for-business-online-plan-2"></a>Office 365 高级版、Office 365 专业增强订阅版或 Skype for Business Online 计划 2
 

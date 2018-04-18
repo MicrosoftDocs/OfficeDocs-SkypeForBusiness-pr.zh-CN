@@ -3,7 +3,7 @@ title: 对于 Microsoft 小组的操作指南
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -11,11 +11,11 @@ description: 任务和活动所需的团队服务管理，包括监视服务运�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d64da9bbe792031afbb3538020b7ff92fbaf493
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 4d9b76d62457c541924c6f72eb246bf63f1fe026
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="operate-my-service"></a>使用我的服务
 
@@ -372,7 +372,7 @@ NPS 是一个索引，范围从-100 到 100，衡量推荐公司的产品或服�
 质量冠军利用现有工具和有案可稽的流程，如呼叫质量仪表板 (CQD) 并监视用户体验质量的经验审查指南 》，确定质量趋势，并推动补救措施在需要的地方。
 质量冠军应使用驱动器的补救动作，各自团队和一个指导委员会报告进度和任何打开的问题有关。
 
-[质量的经验审查指南](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)包括评估，并提供了补救措施指导对提高用户体验的影响大的关键领域中的活动。 质量经验审查指南 》 中提供的指南主要讲述如何使用联机 CQD 作为主要工具报告并调查每个区域中的，音频，以最大限度地采用和影响为重点。 为提高音频体验到网络所做的任何优化将还直接翻译为视频和桌面共享的改进。
+[质量的经验审查指南](https://aka.ms/qerguide)包括评估，并提供了补救措施指导对提高用户体验的影响大的关键领域中的活动。 质量经验审查指南 》 中提供的指南主要讲述如何使用联机 CQD 作为主要工具报告并调查每个区域中的，音频，以最大限度地采用和影响为重点。 为提高音频体验到网络所做的任何优化将还直接翻译为视频和桌面共享的改进。
 
 我们强烈建议您尽早提名质量冠军。 在被提名后他们应该开始熟悉质量经验审查指南和相关的培训材料中的内容。
 
@@ -394,7 +394,7 @@ NPS 是一个索引，范围从-100 到 100，衡量推荐公司的产品或服�
 
 [上载的构建信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[质量的经验审查指南](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)
+[质量的经验审查指南](https://aka.ms/qerguide)
 
 <!--ENDOFSECTION-->
 
@@ -443,7 +443,7 @@ Wi-fi 驱动程序可能有问题。 例如，驱动程序可能必须访问点�
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | 终结点要求    | 确保继续满足为团队[获得 Microsoft 小组客户端](https://docs.microsoft.com/microsoftteams/get-clients)的所有软件要求团队的终结点。                                                                                                                                                                                       | 每月   |               |
 | 终结点防火墙       | 维护适当排除在终结点防火墙根据[Office 365 的 Url 和 IP 地址范围](https://aka.ms/o365ips)的文章中的信息。 第三方供应商将有如何维护了排除项的具体指导。 订阅[RSS 源](https://support.office.com/en-us/o365ip/rss)进行的更改会自动通知。 | 根据需要 |               |
-| Wi-fi 驱动程序            | 测试并更新计算机上的 Wi-fi 驱动程序。 通过使用 CQD （[经验审查指南的质量](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)） 来验证结果。                                                                                                                                                                                                                                                                   | 根据需要 |               |
+| Wi-fi 驱动程序            | 测试并更新计算机上的 Wi-fi 驱动程序。 通过使用 CQD （[经验审查指南的质量](https://aka.ms/qerguide)） 来验证结果。                                                                                                                                                                                                                                                                   | 根据需要 |               |
 | 终结点管理      | 维护受支持的终结点和接口设备 （如耳机） 的目录。 管理供应商合同、 保修、 分布、 更换和修复策略。                                                                                                                                                                                                        | 每月   |               |
 | 终结点进行故障排除 | 故障排除任务可以包括;验证连接性、 已知的问题列表、 日志收集、 分析和上报给 Microsoft 技术支持或第三方供应商咨询。                                                                                                                                                                                               | 根据需要 |               |
 
@@ -564,6 +564,6 @@ Wi-fi 驱动程序可能有问题。 例如，驱动程序可能必须访问点�
 
 使用的主要工具作为呼叫质量仪表板 (CQD) 联机报告并调查每个所述，音频，以最大限度地采用和影响为重点的区域重点质量经验审查指南 》 中提供的指导。 为提高音频体验到网络所做的任何优化将还直接翻译为视频和桌面共享的改进。
 
-我们强烈建议您尽早提名质量冠军。 在被提名后他们应该开始熟悉[质量经验审查指南](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)中的内容。
+我们强烈建议您尽早提名质量冠军。 在被提名后他们应该开始熟悉[质量经验审查指南](https://aka.ms/qerguide)中的内容。
 
 <!--ENDOFSECTION-->

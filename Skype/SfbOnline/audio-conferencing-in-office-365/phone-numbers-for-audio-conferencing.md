@@ -1,10 +1,9 @@
 ---
-title: Phone numbers for Audio Conferencing
+title: 对于音频会议电话号码
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 95a08f84-04e5-4f72-88a8-d6472a7c89d7
 ms.tgt.pltfrm: cloud
@@ -23,66 +22,66 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Learn what countries and regions have dial-in conferencing numbers, and how they are automatically assigned.
-ms.openlocfilehash: 9b1fca6a576a9de77e74bcab8df740b5106cf5bc
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: efd0d438f47521cb4c5027e5d9ca51712fa3a68d
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="phone-numbers-for-audio-conferencing"></a>Phone numbers for Audio Conferencing
+# <a name="phone-numbers-for-audio-conferencing"></a>对于音频会议电话号码
 
-When you are setting up **Audio Conferencing** for Skype for Business and Microsoft Teams, dial-in phone numbers are automatically assigned to your organization. You can see the phone numbers that are assigned to your audio conferencing bridge by going to the **Skype for Business admin center** > **Audio conferencing** > **Microsoft bridge**. See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers.md).
+当您要设置**音频会议**Skype 业务和 Microsoft 小组时，拨入电话号码会自动分配给您的组织。 您可以看到分配给音频会议桥转至**业务管理中心的 Skype**电话号码 > **音频会议** > **Microsoft 桥**。 请参阅[音频会议号码的列表，请参阅](see-a-list-of-audio-conferencing-numbers.md)。
   
 > [!NOTE]
-> 没有资源包含音频会议的所有拨入号码的列表。 If you want to see if there are dial-in phone numbers available in your area or country/region, use the **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add**, and then click **New Service Numbers**. 使用“**国家/地区**”、“**州/地区**”和“**城市**”列表对你的搜索进行筛选。 Also, if you are looking for toll-free service numbers, select **Toll-Free** from the **State/Region** list.
+> 没有资源包含音频会议的所有拨入号码的列表。 如果您想要查看如果有可用的拨入电话号码在您的区域或国家/地区，使用**Skype 业务管理中心为** > **的声音** > **的电话号码**，单击**添加**，然后单击**新服务编号**。 使用“**国家/地区**”、“**州/地区**”和“**城市**”列表对你的搜索进行筛选。 此外，如果您正在寻找免费电话服务号码，选择**免费**从**国家/地区**列表。
   
-## <a name="audio-conferencing-coverage-and-pricing"></a>Audio Conferencing coverage and pricing
+## <a name="audio-conferencing-coverage-and-pricing"></a>音频会议覆盖范围和定价
 
-For a complete list of all the countries/regions and cities where Audio Conferencing is available, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). For pricing information, see 
+所有国家/地区和城市其中音频会议是可用的完整列表，请参阅[的国家和地区的音频会议和调用计划的可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 有关定价的信息，请参见 
   
 [音频会议的定价](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>会议邀请中的拨入电话号码
 
-When a Skype for Business Online or Microsoft Teams user schedules a meeting in Outlook or Outlook Web App, the default audio conferencing number that is set for the user is included in the meeting invite. If you want to select a different default number for one or more users, you can change that by going to the **Skype for Business admin center** > **Audio conferencing** > **Users**. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
+为业务联机或 Microsoft 小组的用户 Skype 排定日程时在 Outlook 或 Outlook Web App 会议，在会议邀请中包含为该用户设置默认音频会议号码。 如果您想要选择一个不同的默认数字作为一个或多个用户，您可以更改，通过转至**业务管理中心的 Skype** > **音频会议** > **用户**。 请参阅[设置数字包括在邀请电话](set-the-phone-numbers-included-on-invites.md)。
   
 可以通过单击会议邀请上的" **查找本地号码**"链接来查看其他拨入号码。
   
-## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Dial-in phone numbers set on an audio conferencing bridge
+## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>设置音频会议桥上拨入电话号码
 
-There are two types of audio conferencing phone numbers that can be assigned to your conferencing bridge: **Shared** and **Dedicated**. Both types of these numbers can be used by any caller to join audio meetings that are being held in your organization.
+有两种类型的可分配给会议桥的音频会议电话号码：**共享**和**专用**。 任何调用方可以使用两种类型的这些数字加入您的组织中持有的音频会议。
   
  **专用电话号码** 是只有你组织内的用户才可以使用的电话号码。你可以更改当有人呼入其中的某个号码时使用的语言。
   
  **共享电话号码** 是可以与其他 Office 365 组织共享的电话号码。你无法更改当有人呼入其中的某个号码时使用的语言。
   
-While the default audio conferencing number that is assigned to an organizer is only included in the meeting invite, a caller can use any of the phone numbers that are assigned to your conferencing bridge to join a meeting. 使用每个会议邀请中包含的" **查找本地号码**"链接，可以找到可用于加入会议的电话号码列表。
+虽然只在会议邀请中包含默认音频会议号码分配给组织者，调用方可以使用分配给您的会议桥加入会议电话号码中的任何。 使用每个会议邀请中包含的" **查找本地号码**"链接，可以找到可用于加入会议的电话号码列表。
   
-## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>Automatically assigned audio conferencing phone numbers
+## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>自动分配音频会议电话号码
 
-Shared audio conferencing phone numbers are automatically assigned to organizations when they're enabled for audio conferencing. 分配电话号码时，电话号码会作为默认电话号码分配给会议网桥。 作为网桥默认号码分配的电话号码来自组织所在的国家/地区。
+共享数字自动分配给组织，当他们正在启用音频会议的音频会议电话。 分配电话号码时，电话号码会作为默认电话号码分配给会议网桥。 作为网桥默认号码分配的电话号码来自组织所在的国家/地区。
   
 > [!NOTE]
-> The country or region location of your organization can be found by signing in to the **Office 365 admin center** and looking under **Organization Profile**. 
+> 通过登录到**Office 365 管理中心**，查看下**组织配置文件**找不到您的组织的国家或地区位置。 
   
 > [!CAUTION]
-> Due to limited availability of toll phone numbers in Venezuela, Indonesia, and United Arab Emirates (UAE), organizations from these countries/regions won't have an Audio Conferencing toll number automatically assigned to them. 将根据可用免费电话号码的存量，为这些地区的用户提供免费电话号码。 
+> 由于在委内瑞拉、 印度尼西亚和阿拉伯联合酋长国 （阿联酋） 的收费电话号码的使用受限，而从这些国家/地区的企业不会有音频会议收费电话号码，自动分配给它们。 将根据可用免费电话号码的存量，为这些地区的用户提供免费电话号码。 
   
-Dedicated audio conferencing phone numbers are service numbers that you can get and then assign to your organization. Service numbers can be found by using the **Skype for Business admin center**. For details, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+专用音频会议电话号码的服务编号，您可以获得并将指派给您的组织。 可以通过使用**Skype 业务管理中心为**找到服务号码。 有关详细信息，请参阅[获得 Skype 业务和 Microsoft 团队的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。
   
-To see a list of those countries/regions that have phone numbers automatically assigned to organizations, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+若要查看具有自动分配给组织的电话号码的国家/地区的列表，请参阅[音频会议和调用计划的国家和地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
 
-- To see the list of supported languages for audio conferencing, see [Audio Conferencing supported languages](audio-conferencing-supported-languages.md).
+- 音频会议支持的语言的列表，请参阅[音频会议支持的语言](audio-conferencing-supported-languages.md)。
     
-- You can use the [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) cmdlet to see the dedicated phone numbers for audio conferencing for you organization.
+- 可以使用[Get CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) cmdlet 以音频为您组织的会议的专用的电话号码，请参阅。
     
 - 你可以使用 [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) cmdlet 查看可以对专用拨入电话号码设置的语言。
     
-- You can set up to 4 languages for each audio conferencing phone number - one primary and three secondary. And you can also set languages on a dedicated audio conferencing phone number.
+- 可以为每个音频会议电话号码-设置语言最多 4 个主系统和三个辅助。 然后您可以在一个专用的音频会议电话号码设置语言。
     
-- To set the dial-in phone number for a user, see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
+- 若要设置用户的拨入电话号码，请参阅[设置的电话号码上包括邀请](set-the-phone-numbers-included-on-invites.md)。
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    

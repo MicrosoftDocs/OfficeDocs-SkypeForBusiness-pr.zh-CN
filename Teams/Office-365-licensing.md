@@ -3,36 +3,39 @@ title: 适用于 Microsoft Teams 的 Office 365 许可
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/15/2018
+ms.date: 04/16/2018
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.reviewer: dearbeen, ninadara
+localization_priority: Normal
 description: 了解不同的 Office 365 许可证、哪些许可证支持用户使用 Microsoft Teams 以及如何启用或禁用它。
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84040cb622fb685b52cb6cdc8ef15e2572ddd6c1
-ms.sourcegitcommit: 8e0833319011e22e285e2d84d7cebb2006723665
+ms.openlocfilehash: 3d9d3ae6a085881a3965a4e25a101172c5874b14
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/18/2018
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>适用于 Microsoft Teams 的 Office 365 许可
 ========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-以下 Office 365 订阅支持用户使用 Teams：
+以下 Office 365 订阅启用用户的团队。
 
-|小型企业版计划  |企业版计划  |教育版计划  |
-|---------|---------|---------|
-|Office 365 商业协作版     |Office 365 企业版 E1         |Office 365 教育版         |
-|Office 365 商业高级版     |Office 365 企业版 E3         |Office 365 教育增强版         |
-|     |Office 365 企业版 E4（已停用）         |Office 365 教育版 E3（已停用）         |
-|     |Office 365 企业版 E5         |Office 365 教育版 E5   
-      |Office 365 企业版 F1 |  |
+|小型企业版计划  |企业版计划  |教育版计划  |开发计划 |
+|---------|---------|---------|---------|
+|Office 365 商业协作版     |Office 365 企业版 E1  |Office 365 教育版 |Office 365 的开发人员     |
+|Office 365 商业高级版     |Office 365 企业版 E3         |Office 365 教育增强版         |      |
+|Office 365 企业版 F1     |Office 365 企业版 E4（已停用）         |Office 365 教育版 E3（已停用）         |  |
+|     |Office 365 企业版 E5         |Office 365 教育版 E5  | 
+
+
 
 > [!NOTE]
 > Teams 也适用于非盈利组织。 当前不支持政府许可，但正在调查以便将来支持。

@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 64353277-9949-4cf2-ac04-6d57cce43619
 ms.tgt.pltfrm: cloud
@@ -20,11 +19,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '了解地址验证是什么、它很重要的原因以及它与紧急地址和服务的关联关系。 '
-ms.openlocfilehash: d67277490afc12d8bdb2c5433d55e70ea6f5395e
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: b0c10af098ca4e69fd2e9bd679996cfe729423bf
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="what-is-address-validation"></a>什么是地址验证？
 

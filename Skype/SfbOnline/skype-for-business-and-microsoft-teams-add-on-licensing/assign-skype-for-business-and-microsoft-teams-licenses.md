@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: fd41934d-f2eb-4a1b-89d8-32cb37702b33
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Licensing
 - Strat_SB_PSTN
 description: '了解如何将 Skype 业务许可证分配对电话系统、 音频会议、 调用计划，和通信贷。 '
-ms.openlocfilehash: 12a26dc7b9ebd47ae10005afb66f23a8cb278237
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 08f0612cf3c30464bf16b0aee6cf9fbb19743e8a
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>将 Skype 分配业务和 Microsoft 小组许可证
 

@@ -1,10 +1,9 @@
 ---
-title: 为什么会只是等待号码激活呢？
+title: Why is number activation just pending?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: e51880ae-d09d-46ba-8eaf-7b8b330e37a6
 ms.tgt.pltfrm: cloud
@@ -21,15 +20,15 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 地址验证是在 Office 365 中设置通话套餐的重要步骤。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
-ms.openlocfilehash: 0ef01cb445f2dff18638c1714f3e71c9655018e1
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 200e87489cc99b79d60d156a0dcff95d420798a8
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="why-is-number-activation-just-pending"></a>为什么会只是等待号码激活呢？
+# <a name="why-is-number-activation-just-pending"></a>Why is number activation just pending?
 
-地址验证是在 Office 365 中设置通话套餐的重要步骤。 如果由于某种原因电话号码不能激活并列为**挂起**原因地址验证，您将需要创建和提交的服务请求。 你执行此操作的方式基于你的组织规模。
+地址验证是在 Office 365 中设置通话套餐的重要步骤。 If for some reason a phone number isn't activated and is listed as **pending** because of address validation, you will need to create and submit a service request. 你执行此操作的方式基于你的组织规模。
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>对于人数为 150 人或更少的组织，请遵循下列步骤
 1. 在 **Office 365 管理中心**选择“**需要帮助?**”

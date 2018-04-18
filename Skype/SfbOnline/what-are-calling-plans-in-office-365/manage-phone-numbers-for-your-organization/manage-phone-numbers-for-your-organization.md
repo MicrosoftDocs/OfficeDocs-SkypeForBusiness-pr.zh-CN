@@ -1,10 +1,9 @@
 ---
-title: "管理组织的电话号码"
+title: 管理组织的电话号码
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 03/19/2018
 ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -23,12 +22,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "在每个国家或地区，为 Skype for Business Online 和 Microsoft Teams 用户获取电话号码的说明均不同。 请访问下面你所在国家或地区对应的链接来获取你所需信息。"
-ms.openlocfilehash: 01c6f3bbb01d74d021594612561d035163378ba5
-ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
+description: 在每个国家或地区，为 Skype for Business Online 和 Microsoft Teams 用户获取电话号码的说明均不同。 请访问下面你所在国家或地区对应的链接来获取你所需信息。
+ms.openlocfilehash: 1a1c2a0efafa2edc9e3bae2eff812edadfca1d87
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>管理组织的电话号码
 有三种方式来获得用户和服务 (收费和免费电话) 为您的组织的数字。

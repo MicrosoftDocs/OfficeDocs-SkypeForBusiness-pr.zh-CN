@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: micchan
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: b898557c-547f-4055-9478-d17fb653285f
 ms.tgt.pltfrm: cloud
@@ -18,11 +17,11 @@ f1keywords: None
 ms.custom:
 - SMB
 description: 遗憾的是，有某些被禁止的用户许可证当用户转到https://broadcast.skype.com，并且想要使用 Skype 会议广播。 如果用户看到此消息，它们具有分配给它们的阻止许可证之一。 如果您仍然希望他们能够使用它，请将它们指派另一个 Office 365 提供许可证。
-ms.openlocfilehash: 59b00fd9b7557177994a1d4279756c56aa5ba613
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 536df828081fdda78b6a0079a53661a4b3276e3a
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Skype 会议广播为阻止用户许可证
 

@@ -1,10 +1,9 @@
 ---
-title: Enable or disable sending emails when their settings change
+title: 启用或禁用发送电子邮件，当其设置更改
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 26ea19d3-e420-4fc1-baa3-2692d17e5e1d
 ms.tgt.pltfrm: cloud
@@ -22,97 +21,97 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: 4138ed08ef05cc1947131dab22d5470e52eda6c5
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 9db213285a24ad0a67d305a84f275f21ce741013
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>启用或禁用发送电子邮件时更改音频会议设置
 
-Users are automatically notified by email when they are enabled for Audio Conferencing. There may be times, however, when you want to reduce the number of emails that are sent to Skype for Business and Microsoft Teams user. In such cases, you can disable sending email.
+自动通过电子邮件通知用户，当他们启用音频会议。 可能的时间，不过，当您想要减少发送到 Skype 业务和 Microsoft 小组的用户的电子邮件的数量。 在这种情况下，您可以禁用发送电子邮件。
   
-If you disable sending emails, Audio Conferencing emails won't be sent to your users, including emails for when users are enabled or disabled for audio conferencing, when their PIN is reset, and when the conference ID and the default conferencing phone number changes.
+音频会议电子邮件如果您禁用发送电子邮件时，将不会发送给您的用户，包括电子邮件的用户启用或禁用音频会议，以及会议 ID 和默认会议电话号码更改时重置其 PIN，.
   
-Here is an example of the email that is sent to users when they are enabled for Audio Conferencing:
+下面是他们启用音频会议时，向用户发送的电子邮件的一个示例：
   
-![Audio Conferencing email](../images/audio-conferencing-user-enabled.png)
+![音频会议电子邮件](../images/audio-conferencing-user-enabled.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>什么时候向用户发送电子邮件？
 
-- There are several emails that are sent to users in your organization after they are enabled for audio conferencing:
+- 有几个之后发送给您的组织中的用户启用音频会议的电子邮件：
     
-  - When an **Audio Conferencing** license is assigned to them.
+  - 当**音频会议**许可分配给它们。
     
-  - When you manually reset the user's audio conferencing PIN.
+  - 当您手动重置用户的音频会议针。
     
   - 当你手动重置用户的会议 ID 时。
     
-  - When the **Audio Conferencing** license is removed from them.
+  - 从中删除**音频会议**许可的时间。
     
-  - When the audio conferencing provider of a user is changed from Microsoft to another provider or **None**.
+  - 当用户的音频会议提供商从 Microsoft 更改为另一个提供程序，或**无**。
     
-  - When the audio conferencing provider of a user is changed to Microsoft.
+  - 给 Microsoft 更改时用户的音频会议提供商。
     
-## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Enable or disable email from being sent to users
+## <a name="enable-or-disable-email-from-being-sent-to-users"></a>启用或禁用发送到用户的电子邮件
 
-You can use Microsoft Teams, the Skype for Business admin center, or Windows PowerShell to enable or disable email sent to users.
+您可以使用 Microsoft 小组、 业务管理中心，为 Skype 或 Windows PowerShell 启用或禁用电子邮件发送给用户。
 
-**Using the Microsoft Teams and Skype for Business Admin Center**
-1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+**使用 Microsoft 小组和 Skype 业务管理中心**
+1. 在左侧的导航中，转到**会议** > **会议桥**。 
 
-2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
+2. 在**会议桥**页的顶部，单击**桥接器设置**。 
 
-3. In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.
+3. **网桥的设置**窗格中启用或禁用**自动发送电子邮件发送给用户，如果他们拨入设置更改**。
 
 4. 单击“**应用**”。
   
-**Using the Skype for Business admin center**
+**使用 Skype 业务管理中心**
     
-1. In the **Skype for Business admin center**, in the left navigation, click **Audio conferencing**.
+1. 在**业务管理中心的 Skype**，在左边的导航，请单击**音频会议**。
     
-2. On the **Microsoft bridge settings** page, select or clear the **Automatically send emails to users if their audio conferencing settings change**.
+2. 在**Microsoft 桥设置**页上，选中或清除**自动发送电子邮件发送给用户，如果他们的音频会议设置更改**。
     
 3. 单击" **保存**"。
     
     > [!TIP]
-    > You can also send email to a user with the audio conferencing settings by going to **Audio conferencing** > **Users**, selecting the user, and clicking **Send conference info via email**.  If you do this, an email will be sent that only includes conference ID and conference phone number, but not the PIN.  See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md) for more information.
+    > 您还可以发送电子邮件给用户使用音频会议设置**音频会议**到 > **用户**，选择用户，然后单击**将会议信息通过电子邮件发送**。  如果这样做，将发送一封电子邮件，只包含会议 ID 和会议电话号码，但不是针。  有关详细信息，请参阅[发送一封电子邮件对他们的音频会议信息的用户](send-an-email-to-a-user-with-their-dial-in-information.md)。
   
-**Using Windows PowerShell**
+**使用 Windows PowerShell**
   
-- Run the following to disable sending emails: 
+- 运行以下操作来禁用发送电子邮件： 
     
   ```
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
   ```
 
-    For help with this cmdlet, see [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757).
+    此 cmdlet 的帮助信息，请参阅[设置 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757)。
     
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
 
-- When automatic emails are disabled, you can still manually trigger sending an email with the conference ID and phone number using the Skype for Business admin center. However, if you do this, the PIN won't be included. If you want to reset the audio conferencing PIN and sending emails is disabled, you will need to send it to the user in another way.
+- 禁用了自动电子邮件，可以手动触发发送一封电子邮件对业务管理中心使用 Skype 的会议 ID 和电话号码。 但是，如果这样做，将不会包含 PIN。 如果您想重置 PIN 音频会议，发送电子邮件被禁用，需要将其发送给用户，以另一种方式。
     
 - 可以使用 Skype for Business 管理中心或 Windows PowerShell 禁用向用户发送电子邮件。
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
-- You can use these cmdlets to save time or automate this.
+- 这些 cmdlet 可用于节省时间或实现自动操作。
     
-  - [Get-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
+  - [获得 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
     
-  - [Remove-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715759)
+  - [删除 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715759)
     
-  - [Get-CsOnlineDialinConferencingTenantConfiguration](https://go.microsoft.com/fwlink/?LinkId=715758)
+  - [获得 CsOnlineDialinConferencingTenantConfiguration](https://go.microsoft.com/fwlink/?LinkId=715758)
     
-  - [Get-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
+  - [获得 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
     
 -  Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为什么需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time. 请在以下主题中了解这些优点： 
+- Windows PowerShell 许多相比具有的优势在速度、 简易性和生产率仅使用 Office 365 管理中心，例如，当将设置更改为许多用户一次。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -125,7 +124,7 @@ You can use Microsoft Teams, the Skype for Business admin center, or Windows Pow
   
 ## <a name="related-topics"></a>相关主题
 
-[Emails sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md)
+[他们的音频会议设置更改时向用户发送电子邮件](emails-sent-to-users-when-their-settings-change.md)
 
 [对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-dial-in-information.md)
 

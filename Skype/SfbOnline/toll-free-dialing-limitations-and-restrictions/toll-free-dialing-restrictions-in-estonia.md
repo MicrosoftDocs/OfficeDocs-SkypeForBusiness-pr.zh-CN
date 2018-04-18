@@ -1,10 +1,9 @@
 ---
-title: Toll-free dialing restrictions in Estonia
+title: 在爱沙尼亚的免费电话拨号限制
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 71e0cbbb-8fa9-49d4-b0c9-4e77d500a168
 ms.tgt.pltfrm: cloud
@@ -19,32 +18,32 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: This will help you find out how to dial toll free numbers in each country/region. After you select the country/region, it will take you to a country-specific page that contains specific details, restrictions, and limits for toll-free service availability where toll-free service is available. The dialing format or formats will show you the required access codes within each country/region to dial the toll free number.
-ms.openlocfilehash: e946e2372bfe34f157d6c47ef32a3ce4cbca2dc4
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: 这将帮助您了解如何拨打免费电话在每个国家/地区。 选择国家/地区后，它将向特定国家的页包含的特定详细信息、 限制和的免费电话服务的可用性限制免费服务不可。 拨号格式将显示您所需的访问码，每个国家/地区拨打免费电话号码。
+ms.openlocfilehash: 576ec72746166de2cf7b7ddafc6af80e95bf6e83
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="toll-free-dialing-restrictions-in-estonia"></a>Toll-free dialing restrictions in Estonia
+# <a name="toll-free-dialing-restrictions-in-estonia"></a>在爱沙尼亚的免费电话拨号限制
 
-[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.
+[找到另一个国家或地区](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)，或了解更多的免费电话拨号限制和限制。
 
 
 |**详细信息**|**说明**|
 |:-----|:-----|
-|Is toll-free calling available?  <br/> |是  <br/> |
-|Dialing format(s)  <br/> |800 XXXX (XXX)  <br/> |
-|Country/region ISO code  <br/> |EE  <br/> |
-|Island/territory covered  <br/> |不适用  <br/> |
-|Island/territory not covered  <br/> |不适用  <br/> |
-|Wired/fixed line availability  <br/> |是  <br/> |
-|Mobile network availability  <br/> |是。 可享受优惠费率。  <br/> |
-|Comments, restrictions, and access issues  <br/> |无  <br/> |
+|是免费调用可用？  <br/> |是  <br/> |
+|拨号格式  <br/> |800 XXXX (XXX)  <br/> |
+|国家/地区的 ISO 代码  <br/> |EE  <br/> |
+|涵盖岛/区域  <br/> |不适用  <br/> |
+|未覆盖的岛/区域  <br/> |不适用  <br/> |
+|有线固定行的可用性  <br/> |是  <br/> |
+|移动网络的可用性  <br/> |是。 可享受优惠费率。  <br/> |
+|注释、 限制和访问问题  <br/> |无  <br/> |
    
 ## <a name="related-topics"></a>相关主题
 
-[Toll-free dialing limitations and restrictions](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
+[免费电话拨号限制和限制](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 

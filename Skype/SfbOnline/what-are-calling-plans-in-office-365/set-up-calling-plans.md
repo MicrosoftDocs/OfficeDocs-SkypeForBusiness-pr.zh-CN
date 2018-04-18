@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 03/30/2018
 ms.topic: article
 ms.assetid: 57893158-1acd-44ac-acaf-19f58264a9e0
 ms.tgt.pltfrm: cloud
@@ -23,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 4f591807dcfb4ed4b4d9fceb8340ba18b11549ec
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 194f38811766f96ad192b38730158f01ce9ab234
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="set-up-calling-plans"></a>设置调用计划
 对其他适用于业务用户的 Skype 是免费的但如果您希望用户能够调用外部业务，电话得到国内调用计划或国际调用计划 Office 365 中。 很容易将此值设置为您的业务。 
@@ -46,7 +45,7 @@ ms.lasthandoff: 04/05/2018
 ## <a name="step-3-get-phone-numbers"></a>第 3 步： 获取电话号码
 有三种方法，以获得新用户数：
 
-- **使用 Skype 业务管理中心。** 某些国家/地区，您可以获得的业务管理中心使用 Skype 用户数，请参阅[为您的用户获取电子电话号码。](../what-is-phone-system-in-office-365/getting-phone-numbers-for-your-users.md)。
+- **使用 Skype 业务管理中心。** 某些国家/地区，您可以获得的业务管理中心使用 Skype 用户数，请参阅[为您的用户获取电子电话号码。](getting-phone-numbers-for-your-users.md)。
     
 - **您现有的编号的端口。** 可以端口，也可以将您当前的服务提供商或电话运营商的现有数字转移到 Office 365。 请参阅[转移到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)或[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)的详细信息可帮助您做到这一点。  
   

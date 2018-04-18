@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: brendonb, markjjo
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 12203a1a-4a9f-4838-88c5-3740ea16ed8d
 ms.tgt.pltfrm: cloud
@@ -18,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 您可以将文件附加到商务会议，哪些参与者然后可以打开并下载 Skype。 附加到 Skype 的用于业务会议的文件保留在其邮箱置于诉讼封存，有应用，Office 365 保留策略或保留与 eDiscovery 案例在 Office 365 安全关联上放置任何参与者的邮箱&amp;法规遵从性中心。 此内容将保存到他们的邮箱中的参与者的恢复项目文件夹。
-ms.openlocfilehash: c2f032a34cc5de604bb5437554add885c29645a0
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: ddd4742b3e30ed09a7e538d40712577ab26edfda
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>保留大型商务会议 Skype 所附的文件
 

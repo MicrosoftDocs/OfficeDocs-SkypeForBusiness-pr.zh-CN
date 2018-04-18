@@ -3,7 +3,6 @@ title: 部署 Office 365 中的业务客户端的 Skype
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 8c563b81-22c9-4024-9efe-9fe28c7bbc96
 ms.tgt.pltfrm: cloud
@@ -17,11 +16,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: '了解如何规划和部署业务的 Skype 在小型、 中型和大型企业，并将它们提供给您的用户。 '
-ms.openlocfilehash: ee7799116f20a8ca1e9f1cb71d8616d44df93c8e
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 83c2b0060f7edbb39c24709db2880b8aed014553
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>部署 Office 365 中的业务客户端的 Skype
 

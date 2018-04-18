@@ -3,7 +3,6 @@ title: 管理 Exchange 统一消息和承载语音邮件
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 707198df-df85-4833-9c15-aa29b71f085c
 ms.tgt.pltfrm: cloud
@@ -17,11 +16,11 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: 使用 PowerShell 的在线业务管理 Exchange 统一消息功能，如自动助理和订阅者访问并在 Skype 的承载语音邮件。
-ms.openlocfilehash: 1ececaf2eaefa7373a6707dd4e81f0a3bcaa6d38
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 33fe3c7a3c19916a8a70008f467035c832e5ecb3
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>管理 Exchange 统一消息和承载语音邮件
 

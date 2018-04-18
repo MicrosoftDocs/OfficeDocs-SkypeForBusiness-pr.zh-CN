@@ -1,10 +1,9 @@
 ---
-title: "更改音频会议网桥上的电话号码"
+title: 更改音频会议网桥上的电话号码
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4
 ms.tgt.pltfrm: cloud
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "音频会议许可证购买时，Microsoft 托管您为您的组织的音频会议桥。 因此，会议组织者和参与者可以使用它们来加入 Skype 使用电话的业务或 Microsoft 小组会议，音频会议桥提供了出不同位置的拨入电话号码。"
-ms.openlocfilehash: 10e55f34ca6cdeaf90f00f6004a85c4a5fbbe1fe
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: 音频会议许可证购买时，Microsoft 托管您为您的组织的音频会议桥。 因此，会议组织者和参与者可以使用它们来加入 Skype 使用电话的业务或 Microsoft 小组会议，音频会议桥提供了出不同位置的拨入电话号码。
+ms.openlocfilehash: cb38da52bd2c67a66e354b21712b8cc0d986796c
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改音频会议网桥上的电话号码
 
