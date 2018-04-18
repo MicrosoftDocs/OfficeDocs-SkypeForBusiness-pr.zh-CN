@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: cf2f90e5-d587-4a0b-89c4-9d93a5231a9b
 ms.tgt.pltfrm: cloud
@@ -21,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 了解为什么您需要添加获得授权的人员都可以使用新的本地数字端口订单向导时对帐户进行更改。
-ms.openlocfilehash: 9d0b49828be9bc87443ba77ae8daf7ba16270b42
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 1c31645c5f02c4f5fa6eba5dd7ace579549d1a13
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="authorized-person-on-the-account"></a>授权的用户的帐户上
 

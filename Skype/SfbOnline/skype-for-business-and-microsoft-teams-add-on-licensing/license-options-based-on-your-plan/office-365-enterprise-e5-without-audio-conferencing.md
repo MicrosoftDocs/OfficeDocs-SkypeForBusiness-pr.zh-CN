@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.date: 03/22/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -22,11 +21,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: '了解有关附加许可、 功能，以及如何用于 Office 365 企业 （不含音频会议） 计划购买。 '
-ms.openlocfilehash: 5a4b8e6daa1537bb2f4035a19d229076e8e3bdf1
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 944e3f7d00300c179fc0bf8639c80c7973215df3
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 企业 E5 （不带音频的会议）
 

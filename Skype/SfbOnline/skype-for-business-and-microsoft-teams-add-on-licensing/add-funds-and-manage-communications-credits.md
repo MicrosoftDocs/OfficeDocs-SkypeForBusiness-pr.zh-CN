@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 ms.tgt.pltfrm: cloud
@@ -30,11 +29,11 @@ ms.custom:
 - Licensing
 - Strat_SB_PSTN
 description: '了解如何支付通信贷方 （PSTN 消耗量） Skype 业务服务和计划，以保障连续电话系统访问权限的用户，请参阅。 '
-ms.openlocfilehash: c9eb2cb23b4d7be58970a28c928d7c839c30db4b
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: c791c87d2a3b676aeb8d859441ba427811152619
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>添加资金和管理通信片尾
 

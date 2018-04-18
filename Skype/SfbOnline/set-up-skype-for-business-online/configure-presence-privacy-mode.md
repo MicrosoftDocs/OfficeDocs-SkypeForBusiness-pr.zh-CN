@@ -3,7 +3,6 @@ title: 配置存在隐私模式
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: b33d57fe-b9cf-43c1-961a-edf28db738e8
 ms.tgt.pltfrm: cloud
@@ -18,11 +17,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: '了解如何设置为您的用户隐私模式，以便他们可以更好地控制如何人们看到它们的可用性。 '
-ms.openlocfilehash: f053ca555ee17f4c1421ae16d76a071a253e4738
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 9181962111e8e637af816351eb88ac32f7e50dcc
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="configure-presence-privacy-mode"></a>配置存在隐私模式
 

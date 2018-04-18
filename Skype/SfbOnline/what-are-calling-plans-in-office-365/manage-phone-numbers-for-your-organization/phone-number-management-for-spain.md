@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/31/2018
 ms.topic: article
 ms.assetid: e18d2274-cd69-47f6-9a65-1adc59dc5399
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的西班牙电话号码的信息。
-ms.openlocfilehash: 1b3ab2cf574d972576867e2e0d4e2213cb2fe303
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: b1ee44f7135466a416bf9a8a011d9e3f543a0ed3
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="phone-number-management-for-spain"></a>西班牙的电话号码管理
 
@@ -37,7 +36,7 @@ ms.lasthandoff: 04/03/2018
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
 |获取新用户的电话号码没有列出的在 Skype 业务管理中心。   <br/> | 下载[西班牙的新电话号码申请（地理号码）(v.3.0)(es-es)](../../downloads/new-number-request-forms/new-phone-number-request-for-spain-(geographic-numbers)-(v.3.0)-(es-es).pdf) <br/><br/>    填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
-|在 Skype 获得业务管理中心没有列出的新服务电话号码。 <br/> |在美国以外的服务编号，请[下载此窗体](../../downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf)，填充出来并[将其发送给我们](mailto:ptneu@microsoft.com)。
+|在 Skype 获得业务管理中心没有列出的新服务电话号码。 <br/> |下载此窗体[新的电话号码请求西班牙 （服务号） (v.1.2) (es-es)](../../downloads/new-number-request-forms/new-phone-number-request-for-spain-(service-numbers)-(v.1.2)-(es-es).pdf)。<br/> 填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。
 |你需要将电话号码转移给我们。  <br/> |下载[西班牙授权书 (LOA)（所有号码）(v.1.0)(es-es)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.1.0)-(es-es).pdf)，填写此授权书并[将其发送给我们](mailto:ptneu@microsoft.com)。 <br/> |
 |你需要在国家电话目录中发布/取消发布电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
 |你需要将用户的号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com )你想要转换为服务号码的用户号码列表。 <br/> |

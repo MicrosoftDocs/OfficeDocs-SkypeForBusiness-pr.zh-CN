@@ -1,10 +1,9 @@
 ---
-title: "埃及的可用性"
+title: 埃及的可用性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -20,12 +19,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "此处为埃及提供了 Skype 业务和 Microsoft 小组的 Office 365 提供服务。"
-ms.openlocfilehash: 5ed1349d921c3810032ff95d8e5b0a9cfcfc0807
-ms.sourcegitcommit: ddd923c871b5cd92499cd2bd4ac1f708aeae6467
+description: 此处为埃及提供了 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
+ms.openlocfilehash: ff745abe7ce0dca0e99e6e2e1d03ebcc9c00416b
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="availability-in-egypt"></a>埃及的可用性
 
