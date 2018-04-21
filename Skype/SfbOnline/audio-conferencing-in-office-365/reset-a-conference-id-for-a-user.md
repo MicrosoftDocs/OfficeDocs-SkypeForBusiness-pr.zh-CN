@@ -21,22 +21,19 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
-ms.openlocfilehash: 077b35169b3829262c38c9ebc44451aba8bd110d
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 3c40c4bb59dd6628730542f73d8bdbddae7b9ad7
+ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="reset-a-conference-id-for-a-user"></a>重置用户的会议 ID
 
-您的组织尚未为动态会议 Id 已启用，Skype 为业务或 Microsoft 小组的用户启用了使用 Microsoft 提供的音频会议时，将自动创建一个静态的会议 ID。 此会议 ID 将包括底部的会议邀请以及调用方可以用于对会议所拨入的电话号码。 当用户拨打的电话号码时，自动助理会议会要求调用方输入此会议 ID，这样他们可以参加会议。
+包含底部的会议可由调用方调用中的会议所拨入的电话号码以及邀请是一个动态的会议 ID。 当用户拨打的电话号码时，自动助理会议会要求调用方输入此会议 ID，这样他们可以参加会议。
   
 > [!NOTE]
-> 如果是您的会议提供商，默认情况下用户的会议 Id 设置为仅动态中。 遗憾的是，您不能将业务管理中心或使用 Windows Powershell Skype。 您将需要与 Microsoft 支持部门联系。 
-  
-当您组织中的人不想记得的随机数; 使用静态标识符他们可以选择一定数量或使用一个容易记住。 当使用动态会议 Id 时，每个会议用户计划将获得分配唯一的会议 id。 如果您想要分配动态而非静态的会议 Id，[转到此处](using-audio-conferencing-dynamic-ids-in-your-organization.md)。
-  
-会议 Id 只能自动设置只能用于 Skype 业务和 Microsoft 小组为启用的用户的音频会议作为其音频会议提供商使用 Microsoft。 如果您需要重置用户正在使用第三方音频会议提供商 (ACP) 的会议 ID，您需要为该用户在属性页上手动输入会议 ID。
+> 如果是您的会议提供商，默认情况下用户的会议 Id 设置为仅动态中。 遗憾的是，它不能将业务管理中心或使用 Windows Powershell 成为静态的因为这是现在 Skype 不受支持。
+会议 Id 只能自动设置只能用于 Skype 业务和 Microsoft 小组为启用的用户的音频会议。 
   
 ## <a name="resetting-the-conference-id-for-a-user"></a>重置用户的会议 ID
 

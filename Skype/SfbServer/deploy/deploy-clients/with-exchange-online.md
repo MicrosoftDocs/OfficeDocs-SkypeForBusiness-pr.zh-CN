@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 阅读有关如何部署使用 Exchange Online 的 Skype 的空间系统 v2 本主题。
-ms.openlocfilehash: 59724ae9b0fc77f16a072e0e08b125407c6e43e3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4fea489c2ae8c3e2fbf8205936ad3ddbff52927a
+ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online-hybrid"></a>将 Skype 会议室系统 v2 与 Exchange Online 一起部署（混合）
  
@@ -63,16 +63,8 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. 键入此帐户的密码。你需要重新键入密码进行确认。确保“**密码永不过期**”复选框是选中的唯一选项。
     
-    > [!NOTE]
-    > 选择**密码永不过期**是 Skype 的空间系统 v2 的业务服务器 2015年的 Skype 的要求。 你的域规则可能禁止使用不过期的密码。 如果是这样，您需要针对每一个 Skype 的空间系统 v2 用户帐户创建例外。
-  
-5. 单击“**完成**”创建帐户。
-    
-6. 创建该帐户后，运行目录同步。完成后，转至用户页面并验证在上述步骤中创建的两个帐户是否已合并。
-    
-7. 你需要连接至 Azure AD 来应用一些帐户设置。你可以通过运行此 cmdlet 来进行连接。
+4. 你需要连接至 Azure AD 来应用一些帐户设置。你可以通过运行此 cmdlet 来进行连接。
     
    ```
    Connect-MsolService -Credential $cred
@@ -83,6 +75,16 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 1. 在**Active Directory 用户和计算机广告**工具中，右键单击文件夹或 Skype 的空间系统 v2 将为其创建帐户，请单击**新建**，然后单击**用户**的组织单位。
     
 2. 将上一个 cmdlet 中的显示名称键入“**全名**”框中，将别名键入“**用户登录名**”框中。单击“**下一步**”。
+
+
+3. 键入此帐户的密码。你需要重新键入密码进行确认。确保“**密码永不过期**”复选框是选中的唯一选项。
+    
+    > [!NOTE]
+    > 选择**密码永不过期**是 Skype 的空间系统 v2 的业务服务器 2015年的 Skype 的要求。 你的域规则可能禁止使用不过期的密码。 如果是这样，您需要针对每一个 Skype 的空间系统 v2 用户帐户创建例外。
+  
+4. 单击“**完成**”创建帐户。
+    
+5. 创建该帐户后，运行目录同步。完成后，转至用户页面并验证在上述步骤中创建的两个帐户是否已合并。
     
 ### <a name="assign-an-office-365-license"></a>分配一个 Office 365 许可证
 
@@ -97,6 +99,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Get-MsolAccountSku
    Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
    ```
+
 
 ### <a name="enable-the-user-account-with-skype-for-business-server-2015"></a>使用 Skype for Business Server 2015 启用用户帐户
 

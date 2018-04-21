@@ -11,11 +11,11 @@ description: 管理员可以使用批量团队 MSI 部署 Microsoft 小组要选
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a2031a567b96db6987c6c9c035631f17fd3d03f
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: e8d1f8b77b4b362b95fb03d3f0202bfc6da619e8
+ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/20/2018
 ---
 <a name="install-microsoft-teams-using-msi"></a>安装 Microsoft 小组使用 MSI
 ===========================================
@@ -37,7 +37,7 @@ ms.lasthandoff: 04/05/2018
 不使用 MSI 部署更新，当它检测到新的版本，则可从该服务，客户端将自动更新。 若要重新部署最新的安装程序，请使用重新部署 MSI 如下所述的过程。 如果您部署中的 MSI 程序包的旧版本，客户端将自动更新时可能的用户。 获取部署非常旧的版本，如果 MSI 将触发应用程序更新之前用户可使用团队。 
 
 > [!Important] 
-> 我们不建议您更改默认安装位置，因为这可能会中断更新流程。 它然后最终将阻止用户访问该服务。 
+> 我们不建议您更改默认安装位置，因为这可能会中断更新流程。 具有版本太旧，最终将阻止用户访问该服务。 
 
 
 ## <a name="target-machine-requirements"></a>目标计算机要求
