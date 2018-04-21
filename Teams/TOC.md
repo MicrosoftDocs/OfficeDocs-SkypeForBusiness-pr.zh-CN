@@ -266,7 +266,7 @@
 
 # 故障排除和支持
 ## [获取工具以支持 Teams 部署](rollout-tools.md)
-## [Teams 的已知问题](known-issues.md)
+## [Teams 的已知问题](Known-issues.md)
 ## [Teams 的支持资源](support-resources.md)
 ## [对 Teams 客户端的连接问题进行故障排除](connectivity-issues.md)
 ## [在对 Teams 进行故障排除时使用日志文件](log-files.md)
