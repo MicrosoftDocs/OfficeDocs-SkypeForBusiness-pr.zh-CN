@@ -11,11 +11,11 @@ description: 了解如何在 Microsoft Teams 中分配团队所有者和成员�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb5f8d74fbb2d1802bfd96f7c86ffe9786fef827
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: e0c0e64dc4a112c6f2c9ded4c68b45eb0740b5f3
+ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/20/2018
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>在 Microsoft Teams 中分配角色和权限
 ===============================================
@@ -89,7 +89,7 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
     $Setting = $template.CreateDirectorySetting()
 
-    $setting["EnableGroupCreation"] = "false"
+    $setting["EnableGroupCreation"] = "true"
 
     $setting["GroupCreationAllowedGroupId"] = "&lt;ObjectId of Group Allowed to Create Groups>"
 

@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: 7bd4acd7155851ec99b95fca63f151c477fa70ae
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: c9e5d08879f9ec176cbe4659d49e351ba08ffce7
+ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>获取用户的电话号码
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 04/18/2018
   
 有三种方法，以获得新用户数：
 
-- **使用 Skype 业务管理中心。** 某些国家/地区，您可以获得的业务管理中心使用 Skype 用户数，请参阅[获取用户的电话号码。](getting-phone-numbers-for-your-users.md)。
+- **使用 Skype 业务管理中心。** 某些国家/地区，您可以获得的业务管理中心使用 Skype 用户数，请参阅[获得为您的用户的电话号码](getting-phone-numbers-for-your-users.md)。
     
 - **您现有的编号的端口。** 可以端口，也可以将您当前的服务提供商或电话运营商的现有数字转移到 Office 365。 请参阅[转移到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)或[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)的详细信息可帮助您做到这一点。  
   
@@ -44,9 +44,7 @@ ms.lasthandoff: 04/18/2018
 > [!NOTE]
 > 如果您需要帮助设置您的组织的电话号码，您可以[与客户支持联系业务产品的管理帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 
   
-## 
-
- **为您的用户获取新的电话号码**
+## <a name="get-new-phone-numbers-for-your-users"></a>为用户获取新电话号码
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
@@ -54,7 +52,8 @@ ms.lasthandoff: 04/18/2018
     
 3. 在左边的导航转到**语音** > **的电话号码**，请单击**添加新编号**![添加按钮](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)，然后单击**新用户号码**。
     
-    **重要提示** ：若要在 Skype for Business 管理中心的左侧导航中显示" **语音**"选项，必须先购买至少一个 **企业版 E5 许可证**、一个 **电话系统**附加设备许可证，或一个 **音频会议**附加设备许可证。
+    > [!IMPORTANT]
+    > 要查看业务管理中心为 Skype 在左边的导航中的**语音**选项，您必须先购买至少一个**企业 E5 许可证**、**电话系统**加载项许可证或一个**音频会议**附加许可证。
     
 4. 在**添加新的用户编号**页上，选择以下：
     
