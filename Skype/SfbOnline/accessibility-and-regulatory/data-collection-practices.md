@@ -20,10 +20,10 @@ ms.custom:
 hideEdit: true
 description: Microsoft 收集人口普查、 用法和错误的数据，了解如何使用 Skype 业务和用户遇到问题的地方。 数据用于产品的改进计划。
 ms.openlocfilehash: 46a292e462708b77b60aa1c8a52c2148fbc82775
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype 业务和 Microsoft 小组数据集合做法
 
