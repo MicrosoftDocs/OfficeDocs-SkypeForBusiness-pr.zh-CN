@@ -21,11 +21,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: '了解您需要更改用来提示的调用方，并收集名称和会议组织者的针脚时他们正在用于业务或 Microsoft 团队的应用程序不使用 Skype 会议桥的设置步骤。 '
-ms.openlocfilehash: 1ab6f5f82d8282f9062439f875ea15d2ab6d7fd5
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: d5af21ab1df8b2b4b5b7e6d296a585812a5888c1
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议桥的设置
 
@@ -36,10 +36,9 @@ ms.lasthandoff: 04/18/2018
   > [!IMPORTANT]
   > PIN 只是对于会议组织者时为业务或 Microsoft 小组应用程序用户 Skype 已经没有启动会议是必需的。 每个人都拨号进入会议，针需要为会议组织者开始举行会议。 
 
-> [!CAUTION]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
-## <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>使用 Microsoft 小组和 Skype 业务管理中心
+## <a name="teams-logo-30x30pngimagesteams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![团队的徽标-30x30.png](../images/teams-logo-30x30.png) 使用 Microsoft 小组和 Skype 业务管理中心
+   > [!NOTE]
+   > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 1. 在左侧的导航中，转到**会议** > **会议桥**。 
 
@@ -63,7 +62,7 @@ ms.lasthandoff: 04/18/2018
  
 6. 单击“**应用**”。 
 
-## <a name="using-skype-for-business-admin-center"></a>使用 Skype 业务管理中心
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-skype-for-business-admin-center"></a>![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) 使用 Skype 业务管理中心
 
  **当调用方加入会议设置会议经验**
     

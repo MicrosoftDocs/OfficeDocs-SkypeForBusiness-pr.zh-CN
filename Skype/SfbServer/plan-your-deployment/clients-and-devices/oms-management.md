@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 description: 本文讨论使用 Operations Management Suite 管理你的 Skype for Business Server 2015 实现中的 Skype 会议室系统 v2 设备时的规划注意事项。
-ms.openlocfilehash: e6409370da3597623526379581081e617f48dd81
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b117b243b638c9e06b21901f14515b51d6931d23
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>使用 OMS 规划 Skype 会议室系统 v2 管理
  
@@ -42,9 +42,9 @@ Skype 的空间系统 v2 应用程序在控制台设备会将事件写入到其 
   
 ### <a name="related-tasks"></a>相关任务
 
-1. 一旦订阅了 OMS，创建 （[映射自定义字段](../../deploy/deploy-clients/with-oms.md#Custom_fields)中所述） 的分析将从 Skype 的空间系统 v2 控制台发送信息所需的自定义字段。 这包括了解[了解日志条目](../../manage/skype-room-systems-v2/oms.md#Telemetry)中记录的 JSON 架构。
+1. 一旦订阅了 OMS，创建自定义字段 （如[映射自定义字段](../../deploy/deploy-clients/with-oms.md#Custom_fields)中所述） 所需分析将从 Skype 的空间系统 v2 控制台发送的信息。 这包括了解[了解日志条目](../../manage/skype-room-systems-v2/oms.md#Telemetry)中记录的 JSON 架构。
     
-2. 开发 Skype 的空间系统 v2 管理视图在 OMS （请参见[定义 SRS v2 中 OMS 的视图](../../deploy/deploy-clients/with-oms.md#Views)） 中使用视图设计器前面提到。
+2. 开发中 OMS 的 Skype 的空间系统 v2 管理视图。 您可以[创建使用的导入方法的 Skype 的空间系统 v2 仪表板](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-by-using-the-import-method)） 或[手动创建 Skype 的空间系统 v2 仪表板](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-manually)。
     
 ## <a name="individual-skype-room-systems-v2-console-requirements"></a>单个的 Skype 的空间系统 v2 控制台要求
 

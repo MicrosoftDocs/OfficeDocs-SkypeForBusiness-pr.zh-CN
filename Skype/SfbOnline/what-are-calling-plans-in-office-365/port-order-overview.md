@@ -20,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '快速了解如何将某个服务提供商的电话号码转移到 Skype for Business。 '
-ms.openlocfilehash: b5720d5740f8ba47ea883678def03d277e0bd97f
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: f017f12b34c59836e734c3ba2ecdc17345d71833
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="port-order-overview"></a>转网订单概述
 
@@ -44,9 +44,9 @@ ms.lasthandoff: 04/18/2018
 
 [管理你的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
+[紧急呼叫条款和条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

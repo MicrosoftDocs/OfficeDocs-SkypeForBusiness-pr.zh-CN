@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 以下是有关常见问题将电话号码转到 Skype 的业务。 复查答案，您应该准备好创建端口订单和转移您的电话号码。 到 Office 365 的传输电话号码的说明，请参阅。
-ms.openlocfilehash: f5f267fea1d06f1225773257df2be2d4312f837b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 64ce253ffa9feb62bb2c737082a1162ced301878
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>传送电话号码的常见问题
 
@@ -91,11 +91,11 @@ ms.lasthandoff: 04/18/2018
   
 - **完整转网** 这是指将你的所有号码从当前服务提供商转移到 Skype for Business Online。 当被要求您的电话号码要转移，您*必须包括*和所有您的帐户的其他电话号码的付费电话号码。
     
-    例如，假设您的付费电话号码是*+1 425-555-1234*并且您想要您的 25 电话号码 (*通过 1259年 +1 425-555-1235*) 的所有端口。 按照下面的说明转网号码时，你应该输入： **+14255551234 - +14255551259** 。
+    例如，假设您的付费电话号码是 *+1 425-555-1234*并且您想要您的 25 电话号码 (*通过 1259年 +1 425-555-1235*) 的所有端口。 按照下面的说明转网号码时，你应该输入： **+14255551234 - +14255551259** 。
     
 - **部分转网** 这是指仅将你的部分电话号码从当前服务提供商或运营商转移到 Skype for Business Online。当你想要转网的某些电话号码关联到相同的付费电话号码时， ** *不能包含* ** 该付费电话号码以及你的帐户上的所有其他电话号码。
     
-    例如，假设您付费的电话号码 （按钮） 是*+1 425-555-1234*并且想要端口仅您的 25 电话号码 (*+1 425-555-1235 通过 1259年*) 第 5。 遵循下面的说明进行操作来传输数字时，应输入： **+1 425 555 1235-+ 1 425 555 1239年**。
+    例如，假设您付费的电话号码 （按钮） 是 *+1 425-555-1234*并且想要端口仅您的 25 电话号码 (*+1 425-555-1235 通过 1259年*) 第 5。 遵循下面的说明进行操作来传输数字时，应输入： **+1 425 555 1235-+ 1 425 555 1239年**。
     
 ## <a name="can-i-submit-a-single-number-porting-request-for-all-of-my-numbers-at-one-time"></a>我是否可以一次性针对我的所有号码提交一个携号转网请求？
 <a name="bkmk_type_1"> </a>
@@ -173,9 +173,9 @@ You can check the status of your port order by going to the Skype for Business a
 ## <a name="related-topics"></a>相关主题
 [用于通话套餐的不同类型的电话号码](../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[紧急呼叫条款和条件](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[紧急呼叫条款和条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
   
  

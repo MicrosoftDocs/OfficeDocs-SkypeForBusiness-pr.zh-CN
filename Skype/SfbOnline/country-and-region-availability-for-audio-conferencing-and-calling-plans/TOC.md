@@ -34,6 +34,7 @@
 ### [试用或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [打开或关闭会议的进入和退出通知](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 
+
 ## [Office 365 中的通话套餐](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [添加、更改或删除你的组织的紧急位置](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [为你的组织添加或删除紧急地址](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
@@ -59,7 +60,7 @@
 #### [美国的电话号码管理](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 ### [如何在你的组织中使用来电显示](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)
 ### [你可以获取多少个电话号码？](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
-### [有关调用行 ID 和调用方名称的详细信息](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
+###[有关调用行 ID 和调用方名称的详细信息](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 ### [为用户搜索电话号码](../what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users.md)
 ### [查看组织中的电话号码列表](../what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization.md)
 ### [为用户设置来电显示](../what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md)
@@ -160,11 +161,12 @@
 ### [管理用户帐户](../set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
 ### [使用 Skype for Business Online 连接器管理组织](../set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md)
 
-## 辅助功能和法规
-### [法国 Skype for Business Online 辅助功能合规性声明](../accessibility-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
-### [法国 Skype for Business Online 辅助功能解决方案](../accessibility-and-regulatory/accessibility-solutions-in-france.md)
-### [优惠拨出时段](../accessibility-and-regulatory/complimentary-dial-out-period.md)
-### [英国 (U.K.) 行为准则](../accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
-### [英国 (U.K.) 投诉处理准则](../accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
-### [数据收集做法](../accessibility-and-regulatory/data-collection-practices.md)
-### [生命程序集成业务的 Skype 的与第三方音频会议结束](../accessibility-and-regulatory/end-of-integration-with-3rd-party-providers.md)
+## 法律和管理法规
+### [法国 Skype for Business Online 辅助功能合规性声明](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
+### [法国 Skype for Business Online 辅助功能解决方案](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [优惠拨出时段](../legal-and-regulatory/complimentary-dial-out-period.md)
+### [英国 (U.K.) 行为准则](../legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
+### [英国 (U.K.) 投诉处理准则](../legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [数据收集做法](../legal-and-regulatory/data-collection-practices.md)
+### [紧急调用标签](../legal-and-regulatory/emergency-calling-labels.md)
+### [生命程序集成业务的 Skype 的与第三方音频会议结束](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)

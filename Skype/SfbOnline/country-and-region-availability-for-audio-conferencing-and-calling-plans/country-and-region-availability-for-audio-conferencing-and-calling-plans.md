@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 你可以选择某个国家/地区以查看音频会议、电话系统、通话套餐、通信点数以及收费和免费电话号码是否可用。
-ms.openlocfilehash: 7d0a7efd6c524050f53e168a85ca652095a35c3e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 4be2e366a241dfe07a22dfa6487c377283fd58ba
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -158,7 +158,7 @@ ms.lasthandoff: 04/18/2018
 要从会议拨出到未在下面列出的另一个国家/地区，请使用 [Office 365 通信点数](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)。 对于这些用户，你需要[为你的组织设置通信点数](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)。
   
 > [!NOTE]
-> 在优惠期内，所有组织中的用户均可在使用“呼叫我”功能或在向会议中添加其他人时向以下任意国家/地区拨号，无需额外付费，但应遵守[音频会议优惠拨出期](../accessibility-and-regulatory/complimentary-dial-out-period.md)。 
+> 在优惠期内，所有组织中的用户均可在使用“呼叫我”功能或在向会议中添加其他人时向以下任意国家/地区拨号，无需额外付费，但应遵守[音频会议优惠拨出期](../legal-and-regulatory/complimentary-dial-out-period.md)。 
   
 ### <a name="phone-system"></a>电话系统
 通过电话系统，当你添加通话套餐以便用户可以使用 Skype for Business 处理基本的通话控制任务（例如拨打和接听来电、转接来电以及将通话静音和取消静音）时，你可以创建自动助理和呼叫队列（使用收费或免费电话号码）以接听你的组织的来电。 **电话系统**用户可以单击其通讯簿中的姓名，Skype for Business 将向该人拨打呼叫。 要拨打和接听呼叫，**电话系统**用户可以使用其移动设备、耳机与笔记本电脑或台式机或者使用 Skype for Business 的其中一个 IP 电话。

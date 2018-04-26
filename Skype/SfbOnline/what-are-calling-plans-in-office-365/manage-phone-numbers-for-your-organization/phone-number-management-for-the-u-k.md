@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的英国 (U.K.) 电话号码的信息。
-ms.openlocfilehash: 58cb7e88202c64dfc3f7c32f1d3d00b0f713dde6
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 14c20714870608857e9a60e39d6ff3ddd26ba993
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="phone-number-management-for-the-uk"></a>英国的电话号码管理
 
@@ -46,9 +46,9 @@ ms.lasthandoff: 04/18/2018
 
 [管理你的组织的电话号码](manage-phone-numbers-for-your-organization.md)
 
-[紧急呼叫条款和条件](../emergency-calling-terms-and-conditions.md)
+[紧急呼叫条款和条件](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

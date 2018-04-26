@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的美国（和波多黎各）电话号码的信息。
-ms.openlocfilehash: 352ede716dc1ba24946329a31028a6261b882653
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: edb4ee74eb9b128c529599326dc09a15b6487dab
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="phone-number-management-for-the-us"></a>美国的电话号码管理
 
@@ -45,9 +45,9 @@ ms.lasthandoff: 04/18/2018
 
 [管理你的组织的电话号码](manage-phone-numbers-for-your-organization.md)
 
-[紧急呼叫条款和条件](../emergency-calling-terms-and-conditions.md)
+[紧急呼叫条款和条件](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

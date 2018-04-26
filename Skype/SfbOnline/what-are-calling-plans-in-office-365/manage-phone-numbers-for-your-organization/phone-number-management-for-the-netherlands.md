@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的荷兰电话号码的信息。
-ms.openlocfilehash: 8a1bc4941c9bd79282af5894e6f45079dbc9946d
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: f52e7fc4e0328d7b5c9b5d3e4a5e2cc59c58c9f6
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>荷兰的电话号码管理
 
@@ -46,9 +46,9 @@ ms.lasthandoff: 04/18/2018
 
 [管理你的组织的电话号码](manage-phone-numbers-for-your-organization.md)
 
-[紧急呼叫条款和条件](../emergency-calling-terms-and-conditions.md)
+[紧急呼叫条款和条件](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

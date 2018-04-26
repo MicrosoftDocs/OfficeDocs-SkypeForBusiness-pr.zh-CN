@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: c9e5d08879f9ec176cbe4659d49e351ba08ffce7
-ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
+ms.openlocfilehash: daa722993d0734f0601c9ac5d02f39041d0d082d
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>获取用户的电话号码
 
@@ -73,7 +73,7 @@ ms.lasthandoff: 04/20/2018
 7. 选择所需，电话号码，然后单击**获取数字**。
     
     > [!IMPORTANT]
-    > 电话号码的用户 （订户） 数等于**国内调用计划**和 （或）**国内和国际调用规划**的许可证总数已分配乘以 1.1 版中，再加上 10 个其他电话号码。 例如，如果有 50 个用户总数与国内调用计划和 （或） 国内和国际调用计划中的，您可以获得**65**电话号码**(50 x 1.1 + 10)**。 有关详细信息，请参阅[您可以得到多少的电话号码？](how-many-phone-numbers-can-you-get.md)。 [!注释] 如果需要获取更多电话号码，请联系 [联系 Office 365 商业版支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 
+    > 电话号码的用户 （订户） 数等于**国内调用计划**和 （或）**国内和国际调用规划**的许可证总数已分配乘以 1.1 版中，再加上 10 个其他电话号码。 例如，如果有 50 个用户总数与国内调用计划和 （或） 国内和国际调用计划中的，您可以获得**65**电话号码 **(50 x 1.1 + 10)**。 有关详细信息，请参阅[您可以得到多少的电话号码？](how-many-phone-numbers-can-you-get.md)。 [!注释] 如果需要获取更多电话号码，请联系 [联系 Office 365 商业版支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 
   
  **端口或转移您的服务提供商或电话运营商的电话号码**
   
@@ -110,9 +110,9 @@ ms.lasthandoff: 04/20/2018
 
 [管理你的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
+[紧急呼叫条款和条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

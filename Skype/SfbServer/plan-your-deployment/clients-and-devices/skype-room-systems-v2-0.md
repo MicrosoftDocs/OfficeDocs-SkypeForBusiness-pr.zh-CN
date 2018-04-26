@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 本文介绍了用于部署 Skype 的空间系统的下一代的 Skype 的空间系统 v2 相关规划的考虑因素。
-ms.openlocfilehash: 3d958c5d07cfafd2eeddd6076182a635cfff19de
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 372c920eaeaaee050e420cd25195565555426561
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="plan-for-skype-room-systems-v2"></a>规划 Skype 会议室系统 v2
  
@@ -55,11 +55,11 @@ Skype 的空间系统 v2 是 Microsoft 的最新会议解决方案，旨在转�
     
 - 内置的有线采集可用于将桌面共享投影到会议室和 Skype 会议
     
-- 在应用程序用户所选的会议房间音频和视频的 USB 设备 U1
+- 会议的应用程序在用户选择文件室的音频和视频的 USB 设备和 #x 2776;
     
-- 双屏幕支持 （对于旧系统的奇偶校验） U2
+- 双屏幕支持 （对于旧系统的奇偶校验） 和 #x 2777;
     
-- Themability （内置主题和设置自定义主题的能力） U2
+- （内置主题和设置自定义主题的能力） 的 themability 和 #x 2777;
     
  **易于部署、便于管理**
   
@@ -77,39 +77,39 @@ Skype 的空间系统 v2 是 Microsoft 的最新会议解决方案，旨在转�
     
 - 在 Surface Pro 4 平板电脑上运行
     
-- 集成文件室控制台状态报告功能，为客户使用 Microsoft 操作管理套件 （请参见[计划 Skype 的空间系统 v2 管理与 OMS](oms-management.md)） U1
+- 集成文件室控制台状态报告功能，为客户使用 Microsoft 操作管理套件 （请参见[计划 Skype 的空间系统 v2 管理与 OMS](oms-management.md)） & #x 2776;
     
-- 为公众提供反馈能力生成 U2
+- 公共生成和 #x 2777; 提供反馈的能力
     
-- 围绕会议 U2 的联接可靠性的改进的遥测
+- 会议围绕改进的遥测联接可靠性和 #x 2777;
     
-- 其他报告 U2 的 OMS
+- 其他的 OMS 报告与 #x 2777;
     
-- IT 管理员可以远程配置设备能力 U2
+- IT 管理员可以远程配置设备和 #x 2777; 能力
     <!--  - Front-of-Room UX shows room details pre-meeting U2  -->
-- 在 U3 的 Surface Pro tablet 上运行
+- 在 Surface Pro tablet 和 #x 2778;
     
-- 支持 Windows 10 企业创建者更新 （英语语言，生成 1703年） U3
+- 支持 Windows 10 企业创建者更新 （英语语言，生成 1703年） 和 #x 2778;
     
-- 支持[SR Crestron](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system)停靠 U3 的硬件
+- 对[Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system)停靠硬件和 #x 2778;
     
-- 环境控制 (Crestron) U3 的 OEM 支持
+- OEM 支持环境控件 (Crestron) 和 #x 2778;
     
-- 支持[Polycom MSR 系列](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)坞站 hardwareU4
+- 支持[Polycom MSR 系列](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)坞站硬件和 #x 2779;
     
-- [Logitech Brio](https://www.logitech.com/en-us/product/brio)U4 的支持
+- [Logitech Brio](https://www.logitech.com/en-us/product/brio) & #x 2779; 支持
 
-- 对[联想中心 500](https://www3.lenovo.com/us/en/hub500)U5 支持停靠硬件  
+- 对[联想中心 500](https://www3.lenovo.com/us/en/hub500)支持停靠硬件 & #x277A;  
     
-U1 的更新 1 （ver.软件中引入的功能 2.0.2.0)。
+& #x 2776;-更新 1 （ver.软件中引入的功能 2.0.2.0)。
   
-U2 的更新 2 （ver.软件中引入的功能 3.0.6.0)。 
+& #x 2777;-更新 2 （ver.软件中引入的功能 3.0.6.0)。 
   
-U3-更新 3 （ver.软件中引入的功能 3.0.12.0)。 
+& #x 2778;-更新 3 （ver.软件中引入的功能 3.0.12.0)。 
   
-U4-更新 4 （ver.软件中引入的功能 3.0.15.0)。 
+& #x 2779;-更新 4 （ver.软件中引入的功能 3.0.15.0)。 
 
-U5-更新 5 （ver.软件中引入的功能 3.1.98.0)。 
+& #x277A;-更新 5 （ver.软件中引入的功能 3.1.98.0)。 
   
 ## <a name="preparing-your-skype-for-business-environment"></a>准备 Skype for Business 环境
 

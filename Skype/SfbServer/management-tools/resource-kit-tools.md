@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 本主题介绍的业务服务器 2015年资源工具包，包括每个工具和其用法的示例的目的在 Skype 的工具。 Skype 业务服务器 2015年资源工具包可帮助使日常任务更便于部署和管理业务服务器 2015 Skype 的 IT 管理员。 例如，可以使用 Web 会议数据工具可以很容易地控制在联机会议期间的用户上载的数据。 SEFAUtil 工具可以用于设置委托调用转发和用户的应答。 我们鼓励 IT 管理员可以使用这些工具来更有效地管理业务服务器 2015 Skype。
-ms.openlocfilehash: 8367400ea7730eabbd2686c3bb2b7c16cdf9a1f2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7178b7e5566badfea8096e314b1ac23213173a35
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 资源管理包工具文档
  
@@ -82,6 +82,9 @@ ABSConfig 是一个图形用户界面应用程序，使管理员能够配置通�
 - 使管理员能够还原默认通讯簿服务设置。
     
 可以使用 ABSConfig.exe 文件启动 ABSConfig 工具。 该工具将打开**配置属性**选项卡。此表有 Active Directory 域服务属性映射到的属性字段为 Skype 的业务服务器 2015年以及指定要包含或排除在基于特定属性筛选器的通讯簿服务文件的用户的选项。 它还具有用于自定义在通讯簿文件中包括电话号码的哪个值的选项。 “**还原默认值**”选项使管理员能够将通讯簿服务设置还原为默认值。
+
+> [!NOTE]
+> 重新映射到不同的 OC 字段名称的 AD 属性将只用于通讯簿文件下载并不支持地址簿 Web 查询。
   
 ### <a name="output"></a>输出
 
@@ -383,7 +386,7 @@ ABSConfig 工具为管理员提供了一种快速且易于使用的工具，以�
     
 - **-f**参数 — — 列出当前可用池中轨道式数目。
     
-- **-r \<n\>**参数 — — 列出了\<n\>最后停调用。 显示的信息如下所示：
+- **-r \<n\>** 参数 — — 列出了\<n\>最后停调用。 显示的信息如下所示：
     
   - 呼叫被寄存者的 SIP URI。
     
@@ -393,7 +396,7 @@ ABSConfig 工具为管理员提供了一种快速且易于使用的工具，以�
     
   - 取回或丢弃呼叫时的时间戳。
     
-- **-t\<n\>**参数的测试保留在数据库中，可以显示已分配的轨道号的随机性的行星。
+- **-t\<n\>** 参数的测试保留在数据库中，可以显示已分配的轨道号的随机性的行星。
     
 ### <a name="output"></a>输出
 
@@ -472,9 +475,9 @@ DBAnalyze 是一个命令行工具，可帮助管理员可以收集有关数据�
     
 - **会议模式**Mcu （多点控制单元）、 活动参与者列表，以及每个特定的会议，包括会议、 邀请列表、 列表中的媒体类型的所有计划时间详细信息的报告详细的数据允许参加大会，活动参与者的信号状态。
     
-- **解码会议 ID**对公用交换的电话网络 (PSTN) 会议 ID 指定的**/pstnid**交换机，但无法连接到后端的详细信息进行解码。
+- **解码会议 ID**对公用交换的电话网络 (PSTN) 会议 ID 指定的 **/pstnid**交换机，但无法连接到后端的详细信息进行解码。
     
-- **解析会议**解码 PSTN 会议 ID，它由**/pstnid**开关指定并显示有关会议由 id。
+- **解析会议**解码 PSTN 会议 ID，它由 **/pstnid**开关指定并显示有关会议由 id。
     
 - **Mcu 模式**报告每个池中的 MCU ID、 媒体类型、 URL、 心跳状态、 大会负载和参与者的负载。
     
@@ -874,7 +877,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
   
 ![下载网络配置。](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
   
- **加载和查看 CAC 网络拓扑结构中以图形的形式带宽策略服务器日志文件:**Skype 业务服务器 2015年带宽策略服务器保存 CAC 网络拓扑作为下 Skype 业务服务器 2015年文件共享位置的日志记录机制的一部分。 Skype 业务服务器 2015年管理员可以查看这种文件以图形的形式通过**开放网络配置**选项，如下所示。
+ **加载和查看 CAC 网络拓扑结构中以图形的形式带宽策略服务器日志文件:** Skype 业务服务器 2015年带宽策略服务器保存 CAC 网络拓扑作为下 Skype 业务服务器 2015年文件共享位置的日志记录机制的一部分。 Skype 业务服务器 2015年管理员可以查看这种文件以图形的形式通过**开放网络配置**选项，如下所示。
   
 ![打开带宽策略服务器日志文件。](../media/Reskit_2012_Tools_Documentation_Image24.jpg)
   
@@ -1084,7 +1087,7 @@ SEFAUtil 工具只能在属于受信任应用程序池的一部分的计算机�
 以下命令可显示用户的呼叫处理。  `SEFAUtil.exe /server:SfBS2015server.contoso.com katarina@contoso.com`
   
 > [!NOTE]
-> 此示例使用**/server**开关以指定有关要连接到的服务器业务 Skype。
+> 此示例使用 **/server**开关以指定有关要连接到的服务器业务 Skype。
   
  **输出**
   
