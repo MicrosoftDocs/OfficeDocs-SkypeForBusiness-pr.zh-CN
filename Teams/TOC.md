@@ -94,9 +94,8 @@
 
 
 ## [部署指南](cloud-voice-deployment.md)
-### [定义我成功-音频会议](1-envision-define-my-success-audio-conferencing.md)
+### [我的成功定义](1-envision-define-my-success-cloud-voice.md)
 ### [决定我服务的音频会议](2-envision-make-my-service-decisions-audio-conferencing.md)
-### [定义我成功-调用计划与电话系统](1-envision-define-my-success-phone-system.md)
 ### [决定我服务的调用计划与电话系统](2-envision-make-my-service-decisions-phone-system.md)
 ### [评估环境](3-envision-evaluate-my-environment.md)
 ### [我的服务管理计划](4-envision-plan-my-service-management.md)
@@ -157,7 +156,7 @@
 ### [在没有 PIN 的情况下通过电话启动音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [试用或购买 Office 365 中的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [打开或关闭会议的进入和退出通知](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [音频会议免费拨出期](/SkypeForBusiness/accessibility-and-regulatory/complimentary-dial-out-period?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [音频会议免费拨出期](/SkypeForBusiness/legal-and-regulatory/complimentary-dial-out-period?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [视频 - Teams 中的音频会议](audio-conferencing-videos.md)
 
 ## 通话套餐
@@ -193,8 +192,8 @@
 ### [关于转移电话号码的常见问题](/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Office 365 中有哪些通话套餐？](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [什么是紧急位置、地址和呼叫路由？](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Office 365 中的通话套餐 - 英国行为准则](/SkypeForBusiness/accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Office 365 中的通话套餐 - 英国投诉处理准则](/SkypeForBusiness/accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Office 365 中的通话套餐 - 英国行为准则](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Office 365 中的通话套餐 - 英国投诉处理准则](/SkypeForBusiness/legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 ## 电话系统
@@ -210,7 +209,7 @@
 
 
 # 安全性和合规性
-## [Skype for Business 和 Teams 数据收集做法](/SkypeForBusiness/accessibility-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Skype for Business 和 Teams 数据收集做法](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [在 Teams 中对内容进行电子数据展示调查](ediscovery-investigation.md)
 ## [Teams 中的标识模式和身份验证](identify-models-authentication.md)
 ## [Teams 中的安全性和合规性概述](security-compliance-overview.md)
@@ -275,8 +274,8 @@
 
 
 # 辅助功能
-## [法国 Skype for Business Online 辅助功能合规性声明](/SkypeForBusiness/accessibility-and-regulatory/accessibility-declaration-of-conformance-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [法国 Skype for Business Online 辅助功能解决方案](/SkypeForBusiness/accessibility-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [法国 Skype for Business Online 辅助功能合规性声明](/SkypeForBusiness/legal-and-regulatory/accessibility-declaration-of-conformance-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [法国 Skype for Business Online 辅助功能解决方案](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 #Teams 教育版
 ## [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)

@@ -19,83 +19,83 @@ f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
 description: '了解如何设置电话号码，当您将它们到 Skype 的业务。 '
-ms.openlocfilehash: 66e86d01b11f2dc6ad45d59d19f2ccc5a6f6311a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 74914b98ccc60984f1d2be16f6a3351e7b26b2cf
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="how-should-i-enter-the-phone-numbers"></a><span data-ttu-id="9b11b-103">应输入电话号码的方式</span><span class="sxs-lookup"><span data-stu-id="9b11b-103">How should I enter the phone numbers?</span></span>
+# <a name="how-should-i-enter-the-phone-numbers"></a><span data-ttu-id="d4a31-103">应输入电话号码的方式</span><span class="sxs-lookup"><span data-stu-id="d4a31-103">How should I enter the phone numbers?</span></span>
 
-<span data-ttu-id="9b11b-104">当移植电话号码时，您必须以正确的格式输入它们。</span><span class="sxs-lookup"><span data-stu-id="9b11b-104">When you are porting phone numbers, you must enter them in the correct format.</span></span> 
+<span data-ttu-id="d4a31-104">当移植电话号码时，您必须以正确的格式输入它们。</span><span class="sxs-lookup"><span data-stu-id="d4a31-104">When you are porting phone numbers, you must enter them in the correct format.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="9b11b-105">每个电话号码或电话号码的范围必须分别输入每个行上。</span><span class="sxs-lookup"><span data-stu-id="9b11b-105">Each phone number or range of phone number must be entered separately on each line.</span></span> 
+> <span data-ttu-id="d4a31-105">每个电话号码或电话号码的范围必须分别输入每个行上。</span><span class="sxs-lookup"><span data-stu-id="d4a31-105">Each phone number or range of phone number must be entered separately on each line.</span></span> 
   
-- <span data-ttu-id="9b11b-106">当您正在输入一个电话号码：</span><span class="sxs-lookup"><span data-stu-id="9b11b-106">When you are entering single phone numbers:</span></span>
+- <span data-ttu-id="d4a31-106">当您正在输入一个电话号码：</span><span class="sxs-lookup"><span data-stu-id="d4a31-106">When you are entering single phone numbers:</span></span>
     
-  - <span data-ttu-id="9b11b-107">将忽略所有特殊字符 (包括破折号"-")。</span><span class="sxs-lookup"><span data-stu-id="9b11b-107">All special characters will be ignored (including dash "-").</span></span> <span data-ttu-id="9b11b-108">例如：</span><span class="sxs-lookup"><span data-stu-id="9b11b-108">For example:</span></span>
+  - <span data-ttu-id="d4a31-107">将忽略所有特殊字符 (包括破折号"-")。</span><span class="sxs-lookup"><span data-stu-id="d4a31-107">All special characters will be ignored (including dash "-").</span></span> <span data-ttu-id="d4a31-108">例如：</span><span class="sxs-lookup"><span data-stu-id="d4a31-108">For example:</span></span>
     
-  - <span data-ttu-id="9b11b-109">10 位号码： \*\* &amp; \*(425\*（) (\*&amp;4&amp;\*（)） (\*250649**将修正为**+14255550649\*\*。</span><span class="sxs-lookup"><span data-stu-id="9b11b-109">For a 10-digit number: **&amp;\*(425\*()(\*&amp;4&amp;\*())(\*250649** will be corrected to **+14255550649**.</span></span>
+  - <span data-ttu-id="d4a31-109">10 位号码： \*\* &amp; \*(425\*（) (\*&amp;4&amp;\*（)） (\*250649\*\*将修正为 **+14255550649**。</span><span class="sxs-lookup"><span data-stu-id="d4a31-109">For a 10-digit number: **&amp;\*(425\*()(\*&amp;4&amp;\*())(\*250649** will be corrected to **+14255550649**.</span></span>
     
-  - <span data-ttu-id="9b11b-110">11 位号码： **1\*（) (\*&amp;42&amp;\*（) (\*&amp;55550649**将修正为**+14255550649**。</span><span class="sxs-lookup"><span data-stu-id="9b11b-110">For an 11-digit number: **1\*()(\*&amp;42&amp;\*()(\*&amp;55550649** will be corrected to **+14255550649**.</span></span>
+  - <span data-ttu-id="d4a31-110">11 位号码： **1\*（) (\*&amp;42&amp;\*（) (\*&amp;55550649**将修正为 **+14255550649**。</span><span class="sxs-lookup"><span data-stu-id="d4a31-110">For an 11-digit number: **1\*()(\*&amp;42&amp;\*()(\*&amp;55550649** will be corrected to **+14255550649**.</span></span>
     
-  - <span data-ttu-id="9b11b-111">如果有 10 或 11 位，所有的标记将被忽略。</span><span class="sxs-lookup"><span data-stu-id="9b11b-111">All tags will be ignored if there are 10 or 11 digits.</span></span> <span data-ttu-id="9b11b-112">例如， ** \<div > 4255551234\</div >**将是**+14255551234**。</span><span class="sxs-lookup"><span data-stu-id="9b11b-112">For example, **\<div> 4255551234\</div>** will be **+14255551234**.</span></span>
+  - <span data-ttu-id="d4a31-111">如果有 10 或 11 位，所有的标记将被忽略。</span><span class="sxs-lookup"><span data-stu-id="d4a31-111">All tags will be ignored if there are 10 or 11 digits.</span></span> <span data-ttu-id="d4a31-112">例如， ** \<div > 4255551234\</div >** 将是 **+14255551234**。</span><span class="sxs-lookup"><span data-stu-id="d4a31-112">For example, **\<div> 4255551234\</div>** will be **+14255551234**.</span></span>
     
-  - <span data-ttu-id="9b11b-113">"-"，空间和括号将被忽略。</span><span class="sxs-lookup"><span data-stu-id="9b11b-113">"-", space, and parenthesis will be ignored.</span></span> <span data-ttu-id="9b11b-114">例如：</span><span class="sxs-lookup"><span data-stu-id="9b11b-114">For example:</span></span>
+  - <span data-ttu-id="d4a31-113">"-"，空间和括号将被忽略。</span><span class="sxs-lookup"><span data-stu-id="d4a31-113">"-", space, and parenthesis will be ignored.</span></span> <span data-ttu-id="d4a31-114">例如：</span><span class="sxs-lookup"><span data-stu-id="d4a31-114">For example:</span></span>
     
-  - <span data-ttu-id="9b11b-115">为一个 10 位数字： **(425) 555-6776**将修正为**+14255556776**。</span><span class="sxs-lookup"><span data-stu-id="9b11b-115">For a 10-digit number: **(425) 555-6776** will be corrected to **+14255556776**.</span></span>
+  - <span data-ttu-id="d4a31-115">为一个 10 位数字： **(425) 555-6776**将修正为 **+14255556776**。</span><span class="sxs-lookup"><span data-stu-id="d4a31-115">For a 10-digit number: **(425) 555-6776** will be corrected to **+14255556776**.</span></span>
     
-  - <span data-ttu-id="9b11b-116">11 位号码： **1(425) 555 6776**将修正为**+14255556776**。</span><span class="sxs-lookup"><span data-stu-id="9b11b-116">For an 11-digit number: **1(425) 555-6776** will be corrected to **+14255556776**.</span></span>
+  - <span data-ttu-id="d4a31-116">11 位号码： **1(425) 555 6776**将修正为 **+14255556776**。</span><span class="sxs-lookup"><span data-stu-id="d4a31-116">For an 11-digit number: **1(425) 555-6776** will be corrected to **+14255556776**.</span></span>
     
-  - <span data-ttu-id="9b11b-117">将视为特殊字符，如果 10 位或 11 位数字的电话号码，则忽略所有字母。</span><span class="sxs-lookup"><span data-stu-id="9b11b-117">All letters will be treated as special characters and ignored if there is a 10-digit or 11-digit phone number.</span></span> <span data-ttu-id="9b11b-118">例如：</span><span class="sxs-lookup"><span data-stu-id="9b11b-118">For example:</span></span>
+  - <span data-ttu-id="d4a31-117">将视为特殊字符，如果 10 位或 11 位数字的电话号码，则忽略所有字母。</span><span class="sxs-lookup"><span data-stu-id="d4a31-117">All letters will be treated as special characters and ignored if there is a 10-digit or 11-digit phone number.</span></span> <span data-ttu-id="d4a31-118">例如：</span><span class="sxs-lookup"><span data-stu-id="d4a31-118">For example:</span></span>
     
-  - <span data-ttu-id="9b11b-119">为一个 10 位数字： **14jaosia2reoij05jof55506ajfoj49isdjf**将修正为**+14255550649**。</span><span class="sxs-lookup"><span data-stu-id="9b11b-119">For a 10-digit number: **14jaosia2reoij05jof55506ajfoj49isdjf** will be corrected to **+14255550649**.</span></span>
+  - <span data-ttu-id="d4a31-119">为一个 10 位数字： **14jaosia2reoij05jof55506ajfoj49isdjf**将修正为 **+14255550649**。</span><span class="sxs-lookup"><span data-stu-id="d4a31-119">For a 10-digit number: **14jaosia2reoij05jof55506ajfoj49isdjf** will be corrected to **+14255550649**.</span></span>
     
-  - <span data-ttu-id="9b11b-120">11 位号码： **1ade4jaoda2rfoij05ojof55506dsfoj49if**将修正为**+14255550649**。</span><span class="sxs-lookup"><span data-stu-id="9b11b-120">For an 11-digit number: **1ade4jaoda2rfoij05ojof55506dsfoj49if** will be corrected to **+14255550649**.</span></span>
+  - <span data-ttu-id="d4a31-120">11 位号码： **1ade4jaoda2rfoij05ojof55506dsfoj49if**将修正为 **+14255550649**。</span><span class="sxs-lookup"><span data-stu-id="d4a31-120">For an 11-digit number: **1ade4jaoda2rfoij05ojof55506dsfoj49if** will be corrected to **+14255550649**.</span></span>
     
-  - <span data-ttu-id="9b11b-121">即使在其他语言中的特殊字符的任意组合将得到纠正。</span><span class="sxs-lookup"><span data-stu-id="9b11b-121">Any combination of special characters, even in other languages, will be corrected.</span></span> <span data-ttu-id="9b11b-122">例如：</span><span class="sxs-lookup"><span data-stu-id="9b11b-122">For example:</span></span> 
+  - <span data-ttu-id="d4a31-121">即使在其他语言中的特殊字符的任意组合将得到纠正。</span><span class="sxs-lookup"><span data-stu-id="d4a31-121">Any combination of special characters, even in other languages, will be corrected.</span></span> <span data-ttu-id="d4a31-122">例如：</span><span class="sxs-lookup"><span data-stu-id="d4a31-122">For example:</span></span> 
     
-  - <span data-ttu-id="9b11b-123">10 位号码：**中文4中文2ajj5\*（) (\*(5()...551345**将修正为**+14555551345**。</span><span class="sxs-lookup"><span data-stu-id="9b11b-123">For a 10-digit number: **中文4中文2ajj5\*（）（\*（5()...551345** will be corrected to **+14555551345**.</span></span>
+  - <span data-ttu-id="d4a31-123">10 位号码：**中文4中文2ajj5\*（) (\*(5()...551345**将修正为 **+14555551345**。</span><span class="sxs-lookup"><span data-stu-id="d4a31-123">For a 10-digit number: **中文4中文2ajj5\*（）（\*（5()...551345** will be corrected to **+14555551345**.</span></span>
     
-  - <span data-ttu-id="9b11b-124">11 位号码：**中文4中文2 美元 a5\*（) (\*(5()...55 (.1345**将修正为**+14555551345**。</span><span class="sxs-lookup"><span data-stu-id="9b11b-124">For an 11-digit number: **中文4中文2$a5\*（）（\*（5()...55(.1345** will be corrected to **+14555551345**.</span></span>
+  - <span data-ttu-id="d4a31-124">11 位号码：**中文4中文2 美元 a5\*（) (\*(5()...55 (.1345**将修正为 **+14555551345**。</span><span class="sxs-lookup"><span data-stu-id="d4a31-124">For an 11-digit number: **中文4中文2$a5\*（）（\*（5()...55(.1345** will be corrected to **+14555551345**.</span></span>
     
-  - <span data-ttu-id="9b11b-125">如果任何数字包含少于 10 位或多于 11 位，他们将会突出显示为用户纠正：</span><span class="sxs-lookup"><span data-stu-id="9b11b-125">If any numbers contain fewer than 10 digits or more than 11 digits, they will be highlighted for the user to correct:</span></span>
+  - <span data-ttu-id="d4a31-125">如果任何数字包含少于 10 位或多于 11 位，他们将会突出显示为用户纠正：</span><span class="sxs-lookup"><span data-stu-id="d4a31-125">If any numbers contain fewer than 10 digits or more than 11 digits, they will be highlighted for the user to correct:</span></span>
     
-  - <span data-ttu-id="9b11b-126">\*\*5551245\* \*将突出显示，需要进行更正。</span><span class="sxs-lookup"><span data-stu-id="9b11b-126">\*\*5551245\*\* will be highlighted and need to be corrected.</span></span>
+  - <span data-ttu-id="d4a31-126">\*\*5551245\* \*将突出显示，需要进行更正。</span><span class="sxs-lookup"><span data-stu-id="d4a31-126">\*\*5551245\*\* will be highlighted and need to be corrected.</span></span>
     
-  - <span data-ttu-id="9b11b-127">**1234567891011**将突出显示，需要进行更正。</span><span class="sxs-lookup"><span data-stu-id="9b11b-127">**1234567891011** will be highlighted and need to be corrected.</span></span>
+  - <span data-ttu-id="d4a31-127">**1234567891011**将突出显示，需要进行更正。</span><span class="sxs-lookup"><span data-stu-id="d4a31-127">**1234567891011** will be highlighted and need to be corrected.</span></span>
     
-  - <span data-ttu-id="9b11b-128">将突出显示任何数字的位数少于 10 个或多于 11 位，与任何特殊的字符，而不被自动更正。</span><span class="sxs-lookup"><span data-stu-id="9b11b-128">Any numbers that are fewer than 10 digits or more than 11 digits, with any special characters, will be highlighted without being automatically corrected.</span></span>
+  - <span data-ttu-id="d4a31-128">将突出显示任何数字的位数少于 10 个或多于 11 位，与任何特殊的字符，而不被自动更正。</span><span class="sxs-lookup"><span data-stu-id="d4a31-128">Any numbers that are fewer than 10 digits or more than 11 digits, with any special characters, will be highlighted without being automatically corrected.</span></span>
     
-  - <span data-ttu-id="9b11b-129">不含特殊字符输入的 7 位数编号为： **123456abcdefg7**将突出显示，需要进行更正，但不会忽略字母。</span><span class="sxs-lookup"><span data-stu-id="9b11b-129">For a 7-digit number without special characters that is entered: **123456abcdefg7** will be highlighted and need to be corrected, but the letters won't be ignored.</span></span>
+  - <span data-ttu-id="d4a31-129">不含特殊字符输入的 7 位数编号为： **123456abcdefg7**将突出显示，需要进行更正，但不会忽略字母。</span><span class="sxs-lookup"><span data-stu-id="d4a31-129">For a 7-digit number without special characters that is entered: **123456abcdefg7** will be highlighted and need to be corrected, but the letters won't be ignored.</span></span>
     
-  - <span data-ttu-id="9b11b-130">特殊字符与输入的 7 位数编号为： **12345!@#$%^&amp;\*（)-@# $%^&amp;\*（7)**将突出以修正。</span><span class="sxs-lookup"><span data-stu-id="9b11b-130">For a 7-digit number with special characters that is entered: **12345!@#$%^&amp;\*()--@#$%^&amp;\*()7** will be highlighted to be corrected.</span></span> <span data-ttu-id="9b11b-131">特殊字符不会被忽略。</span><span class="sxs-lookup"><span data-stu-id="9b11b-131">The special characters won't be ignored.</span></span>
+  - <span data-ttu-id="d4a31-130">特殊字符与输入的 7 位数编号为： **12345!@#$%^&amp;\*（)-@# $%^&amp;\*（7)** 将突出以修正。</span><span class="sxs-lookup"><span data-stu-id="d4a31-130">For a 7-digit number with special characters that is entered: **12345!@#$%^&amp;\*()--@#$%^&amp;\*()7** will be highlighted to be corrected.</span></span> <span data-ttu-id="d4a31-131">特殊字符不会被忽略。</span><span class="sxs-lookup"><span data-stu-id="d4a31-131">The special characters won't be ignored.</span></span>
     
-- <span data-ttu-id="9b11b-132">当您输入电话号码的范围。</span><span class="sxs-lookup"><span data-stu-id="9b11b-132">When you are entering a range of phone numbers.</span></span>
+- <span data-ttu-id="d4a31-132">当您输入电话号码的范围。</span><span class="sxs-lookup"><span data-stu-id="d4a31-132">When you are entering a range of phone numbers.</span></span>
     
-  - <span data-ttu-id="9b11b-133">允许仅有两个电话号码。</span><span class="sxs-lookup"><span data-stu-id="9b11b-133">Only two phone numbers are allowed.</span></span> <span data-ttu-id="9b11b-134">较小的数字必须是该区域的第一个数字。</span><span class="sxs-lookup"><span data-stu-id="9b11b-134">The smaller number must be the first number in the range.</span></span>
+  - <span data-ttu-id="d4a31-133">允许仅有两个电话号码。</span><span class="sxs-lookup"><span data-stu-id="d4a31-133">Only two phone numbers are allowed.</span></span> <span data-ttu-id="d4a31-134">较小的数字必须是该区域的第一个数字。</span><span class="sxs-lookup"><span data-stu-id="d4a31-134">The smaller number must be the first number in the range.</span></span>
     
-  - <span data-ttu-id="9b11b-135">所有特殊字符 (除连字符"-") 是一个数字被同等对待。</span><span class="sxs-lookup"><span data-stu-id="9b11b-135">All special characters (except for the dash "-") are treated the same as single numbers.</span></span> <span data-ttu-id="9b11b-136">例如， **(425) 555 0&amp;\*(123-（1425年) 5557899nm**将修正为**+14255550123-+13202040659**。</span><span class="sxs-lookup"><span data-stu-id="9b11b-136">For example, **(425)555 0&amp;\*(123-(1425)5557899nm** will be corrected to **+14255550123 -+13202040659**.</span></span>
+  - <span data-ttu-id="d4a31-135">所有特殊字符 (除连字符"-") 是一个数字被同等对待。</span><span class="sxs-lookup"><span data-stu-id="d4a31-135">All special characters (except for the dash "-") are treated the same as single numbers.</span></span> <span data-ttu-id="d4a31-136">例如， **(425) 555 0&amp;\*(123-（1425年) 5557899nm**将修正为 **+14255550123-+13202040659**。</span><span class="sxs-lookup"><span data-stu-id="d4a31-136">For example, **(425)555 0&amp;\*(123-(1425)5557899nm** will be corrected to **+14255550123 -+13202040659**.</span></span>
     
-  - <span data-ttu-id="9b11b-137">"-"用于只分隔两个数字。</span><span class="sxs-lookup"><span data-stu-id="9b11b-137">The "-" is used for only separating the two numbers.</span></span> <span data-ttu-id="9b11b-138">它不支持包含多个"-"号范围内。</span><span class="sxs-lookup"><span data-stu-id="9b11b-138">It isn't supported to include multiple "-" in the number range.</span></span> <span data-ttu-id="9b11b-139">例如，应作为输入**(425) 555-0649-(425) 555-1115** **(425) 5550649-（425) 5551115**。</span><span class="sxs-lookup"><span data-stu-id="9b11b-139">For example, **(425) 555-0649 - (425) 555-1115** should be entered as **(425) 5550649 - (425) 5551115**.</span></span>
+  - <span data-ttu-id="d4a31-137">"-"用于只分隔两个数字。</span><span class="sxs-lookup"><span data-stu-id="d4a31-137">The "-" is used for only separating the two numbers.</span></span> <span data-ttu-id="d4a31-138">它不支持包含多个"-"号范围内。</span><span class="sxs-lookup"><span data-stu-id="d4a31-138">It isn't supported to include multiple "-" in the number range.</span></span> <span data-ttu-id="d4a31-139">例如，应作为输入 **(425) 555-0649-(425) 555-1115** **(425) 5550649-（425) 5551115**。</span><span class="sxs-lookup"><span data-stu-id="d4a31-139">For example, **(425) 555-0649 - (425) 555-1115** should be entered as **(425) 5550649 - (425) 5551115**.</span></span>
     
- <span data-ttu-id="9b11b-140">**完整的逐步说明，请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。**</span><span class="sxs-lookup"><span data-stu-id="9b11b-140">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
+ <span data-ttu-id="d4a31-140">**完整的逐步说明，请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。**</span><span class="sxs-lookup"><span data-stu-id="d4a31-140">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
 
  > [!NOTE]
-> <span data-ttu-id="9b11b-141">如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="9b11b-141">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="d4a31-141">如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="d4a31-141">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="9b11b-142">相关主题</span><span class="sxs-lookup"><span data-stu-id="9b11b-142">Related topics</span></span>
-[<span data-ttu-id="9b11b-143">关于转移电话号码的常见问题</span><span class="sxs-lookup"><span data-stu-id="9b11b-143">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
+## <a name="related-topics"></a><span data-ttu-id="d4a31-142">相关主题</span><span class="sxs-lookup"><span data-stu-id="d4a31-142">Related topics</span></span>
+[<span data-ttu-id="d4a31-143">关于转移电话号码的常见问题</span><span class="sxs-lookup"><span data-stu-id="d4a31-143">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
 
-[<span data-ttu-id="9b11b-144">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="9b11b-144">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="d4a31-144">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="d4a31-144">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="9b11b-145">管理你的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="9b11b-145">Manage phone numbers for your organization</span></span>](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[<span data-ttu-id="d4a31-145">管理你的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="d4a31-145">Manage phone numbers for your organization</span></span>](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[<span data-ttu-id="9b11b-146">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="9b11b-146">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="d4a31-146">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="d4a31-146">Emergency calling terms and conditions</span></span>](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[<span data-ttu-id="9b11b-147">Skype for Business Online：紧急呼叫免责声明标签</span><span class="sxs-lookup"><span data-stu-id="9b11b-147">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+<span data-ttu-id="d4a31-147">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="d4a31-147">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  
