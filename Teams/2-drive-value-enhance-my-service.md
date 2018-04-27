@@ -1,5 +1,5 @@
 ---
-title: 增强您的 Microsoft 小组服务
+title: 增强您的 Microsoft 团队的服务
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
@@ -7,33 +7,33 @@ ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: 定期评估增强团队服务，监控任何感兴趣的增强功能团队指南的机会。
+description: 定期评估机会增强团队服务、 监控任何有意义的功能增强的团队路线图。
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c10f4da1c6619ae0f17976a8039c2a77eaadab6
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 4fecbd659d03a3335a79aaf43bfcc751da504171
+ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="enhance-my-service"></a>增强我的服务
 
-这篇文章概括介绍了语音服务为您的组织中获取最大的云的需求。 通过连续监视云语音服务功能，您可以确保您为您的组织提供最大的价值。
+这篇文章概述用于获取最有效地使用云的组织的语音服务的要求。 通过持续监视云语音服务功能，您可以确保您为组织提供最大价值。
 
-## <a name="enhance-my-service-overview"></a>增强我的服务概述
-已成功部署音频会议或电话系统调用计划服务于您的组织，并正在运行的服务的质量和可靠性下, 一步之后是定期评估是否有任何的机会增强您的服务。
+## <a name="enhance-my-service-overview"></a>增强我服务概述
+您已成功部署音频会议或电话系统与调用计划服务到您的组织，并运行的服务质量和可靠性下, 一步后是定期评估是否有任何机会增强您的服务。 这是连续的服务改进，它规划云服务管理现代标准的一部分。 
 
-请确保您将始终获得最大的您的服务的好方法是监视[团队公用路线图](https://aka.ms/skype2teamsroadmap)的新增强功能可能会感兴趣的组织。
+请确保您将始终获得最有效地使用您的服务的好方法是监视可能感兴趣的组织的新功能增强的[团队公共路线图](https://products.office.com/en-us/business/office-365-roadmap?filters=microsoft%20teams)。 如果您有权访问 Office 365 管理门户您将收到有关通过我们消息中心的新增和更改功能从我们的定期更新。 
 
-此外，由于组织而增长和改变，您应该花时间重新审查，并在固定的时间间隔，以确保该服务配置以满足组织的当前需要更新您的业务用例。
+此外，因为组织增长和更改，您应花时间随着并以确保该服务配置以满足组织当前需求的定期更新您的业务使用案例。  确保将通过您的组织中建立反馈通道从您的用户和内部拥护者中获取现实世界的反馈。 这些可非正式对话，正则 meeetings 或通过团队频道或 Yammer 社区。 
 
-当您看到增强您的服务的机会时，采取正确的时间。 回到起点，整个部署过程中的循环，并应用相同的端到端指南。 小的增量更改时，不太可能，您将需要完成的所有活动和任务完全，但一定要评估每个活动和任务途中要为自己在成功的最佳机会。
+当您看到增强您的服务的机会时，花时间正确。 随着我们实现阶段 (https://docs.microsoft.com/en-us/MicrosoftTeams/quick-start-enable-teams) ，应用相同的指南端到端。 不太小、 增量更改时，可能需要完成所有活动和完全，任务，但您应该确保评估每个活动和一路以便在成功结果为自己的最大限度地将任务。
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>决定谁将监视公共路线图和有关新功能或服务，您的组织可能会受益于其他服务公告。</li><li>确定用来报告这些新的功能或服务给主要利益相关者，通过筹划指导委员会的节奏性变化。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>实施战略保持最新的服务为您的组织中获取最大价值。</li><li>推动整个项目生命周期，以确保您已正确说明它们对您的部署的影响通过增强的服务功能。</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>决定谁将监视公共路线图和新功能或服务的组织可能会受益于其他服务通知。</li><li>决定要这些新功能或服务向报告主要利益干系人，通过调控委员会节奏。</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>实现用于保持对您的服务，从而可获得您的组织的最大价值的策略。</li><li>驱动器通过整个项目生命周期，以确保您已正确说明它们对您的部署的影响的服务增强功能。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -1,9 +1,9 @@
 
-# [Skype 业务联机管理员](../skype-for-business-online.md)
+# [Skype 业务 Online 管理](../skype-for-business-online.md)
 
 ## [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## [Office 365 中的音频会议](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md)  
+## [Office 365 中的音频会议](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
 ### [将 Microsoft 指定为音频会议提供商](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [音频会议常见问题](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
 ### [音频会议支持的语言](../audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
@@ -11,7 +11,7 @@
 ### [更改音频会议网桥的设置](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md)
 ### [更改音频会议网桥的电话号码](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 ### [从会议拨出，以便其他人可以加入会议](../audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md)
-### [禁用对特定用户的免费电话号码](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
+### [特定用户的禁用免费电话号码](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
 ### [用户设置更改时向其发送的电子邮件](../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md) 
 ### [启用或禁用设置更改时发送电子邮件](../audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change.md)
 ### [使用户能够在加入会议时录制其姓名](../audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting.md)
@@ -35,6 +35,7 @@
 ### [打开或关闭会议的进入和退出通知](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 
 
+
 ## [Office 365 中的通话套餐](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [添加、更改或删除你的组织的紧急位置](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [为你的组织添加或删除紧急地址](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
@@ -48,7 +49,7 @@
 ### [为用户获取电话号码](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)
 ### [如何获取 Office 365 的通话套餐](../what-are-calling-plans-in-office-365/how-to-get-calling-plans-for-office-365.md)
 ### [管理你的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-#### [澳大利亚的电话号码管理](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
+#### [澳大利亚电话号码管理](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 #### [比利时的电话号码管理](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 #### [加拿大的电话号码管理](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
 #### [法国的电话号码管理](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
@@ -60,7 +61,7 @@
 #### [美国的电话号码管理](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 ### [如何在你的组织中使用来电显示](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)
 ### [你可以获取多少个电话号码？](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
-###[有关调用行 ID 和调用方名称的详细信息](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
+###[有关调用行 ID 和呼叫方姓名的详细信息](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 ### [为用户搜索电话号码](../what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users.md)
 ### [查看组织中的电话号码列表](../what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization.md)
 ### [为用户设置来电显示](../what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md)
@@ -84,7 +85,7 @@
 #### [Skype for Business 的语音邮件问候语和消息的语言](../what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md)
 #### [设置电话系统语音邮件 - 管理员帮助](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
 ### [设置电话系统自动助理](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-### [您的组织中设置电话系统](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
+### [设置您的组织中的电话系统](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
 ### [什么是电话系统自动助理？](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 
 ## [设置 Skype 会议直播网络](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
@@ -93,10 +94,19 @@
 ### [更改 Skype 会议直播设置](../set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
 
 ## [Skype for Business 和 Microsoft Teams 外接程序许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+### 基于您的计划的许可证选项
+#### [Office 365 企业高级版](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
+#### [Office 365 Premium、 Office 365 ProPlus，或 for Business 的 Skype Online 计划 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
+#### [Office 365 企业版 E1、 E3 和 E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
+#### [Office 365 企业 E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
+#### [Office 365 企业 E5 （无需音频会议）](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
+#### [Skype 会议室系统第 2 版](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+#### [GOV、 EDU 和非营利组织](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 ### [存入资金和管理通信点数](../skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits.md)
 ### [分配 Skype for Business 和 Microsoft Teams 许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 ### [音频会议按分钟付费](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md)
 ### [为组织设置通信点数](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)
+### [Office 365 的通话套餐](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md)
 ### [什么是通信点数？](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
 
 ## [设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
@@ -161,12 +171,14 @@
 ### [管理用户帐户](../set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
 ### [使用 Skype for Business Online 连接器管理组织](../set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md)
 
-## 法律和管理法规
+## 法律和法规
 ### [法国 Skype for Business Online 辅助功能合规性声明](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
 ### [法国 Skype for Business Online 辅助功能解决方案](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [加拿大-IP 中继注册 （英文）](../legal-and-regulatory/ip-relay-canada-email-signup.md)
+### [加拿大-用户指南 》 中的 IP 中继](../legal-and-regulatory/ip-relay-canada-user-guide.md)
 ### [优惠拨出时段](../legal-and-regulatory/complimentary-dial-out-period.md)
 ### [英国 (U.K.) 行为准则](../legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
 ### [英国 (U.K.) 投诉处理准则](../legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [数据收集做法](../legal-and-regulatory/data-collection-practices.md)
-### [紧急调用标签](../legal-and-regulatory/emergency-calling-labels.md)
-### [生命程序集成业务的 Skype 的与第三方音频会议结束](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
+### [紧急呼叫的标签](../legal-and-regulatory/emergency-calling-labels.md)
+### [对于第三方音频会议的 Skype 的业务集成生命程序结束](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
