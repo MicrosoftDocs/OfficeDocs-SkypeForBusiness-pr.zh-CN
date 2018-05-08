@@ -73,8 +73,7 @@
 ### [什么是紧急位置、地址和呼叫路由？](../what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md)
 ### [什么是拨号计划？](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
-## Office 365 中的电话系统
-### [Office 365 中的电话系统是什么？](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
+## [Office 365 中的电话系统](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [创建电话系统呼叫队列](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [获取适用于 Skype for Business Online 的电话](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [部署 Skype for Business Online 电话](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
@@ -87,6 +86,7 @@
 ### [设置电话系统自动助理](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [设置您的组织中的电话系统](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
 ### [什么是电话系统自动助理？](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+#### [设置电话系统自动助理](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
 ## [设置 Skype 会议直播网络](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
 ### [阻止 Skype 会议直播的用户许可证](../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
