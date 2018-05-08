@@ -20,25 +20,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 此处为美国提供了 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
-ms.openlocfilehash: 34ef8a3ead8dfc37690f3588b8b61c8f1b467f95
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 以下是适用于美国的业务和 Microsoft 团队的 Skype 的 Office 365 服务。
+ms.openlocfilehash: db1d6c2473e45479cc9eca16951946a8c2ead9b5
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="availability-in-the-united-states-us"></a>在美国 （美国） 的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-此处为美国提供了 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
+以下是适用于美国的业务和 Microsoft 团队的 Skype 的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是的针对芝加哥、 达拉斯、 洛杉矶和纽约。 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，针对芝加哥、 达拉斯、 北京和纽约。 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -55,7 +55,16 @@ ms.lasthandoff: 04/18/2018
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
-|通话套餐的可用分钟数  <br/> |国内 3000 分钟或国际 600 分钟（根据日历月份取先达到者）。美国国内呼叫包括拨打至美国所有 50 个州和波多黎各的呼叫。分配了美国和/或波多黎各的许可证使用位置的用户共享同一分钟数池。  <br/> |
+|适用于调用计划的分钟数。 |每月有可用的三个计划选项：
+- 120 分钟国内呼叫计划 （可用性是有限）
+- 240 分钟国内呼叫计划 （可用性是有限）
+- 1200 分钟国内呼叫计划
+- 1200 分钟国内呼叫计划
+- 国际呼叫 （如果您已购买国内和国际呼叫规划） 600 分钟
+
+美国国内呼叫包括拨打至美国所有 50 个州和波多黎各的呼叫。 分配了美国和/或波多黎各的许可证使用位置的用户共享同一分钟数池。
+|||
+|:-----|:-----|
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码

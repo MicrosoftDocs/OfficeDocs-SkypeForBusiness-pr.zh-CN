@@ -7,31 +7,33 @@ ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
-description: 阅读有关如何部署使用 Exchange Online 的 Skype 的空间系统 v2 本主题。
-ms.openlocfilehash: 4fea489c2ae8c3e2fbf8205936ad3ddbff52927a
-ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
+description: 阅读此主题以获取如何部署与 Exchange Online 的 Skype 会议室系统 v2 的信息。
+ms.openlocfilehash: 0db23128f0e472ba1e928fafd274a67f063cf2e0
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online-hybrid"></a>将 Skype 会议室系统 v2 与 Exchange Online 一起部署（混合）
  
-阅读有关如何部署使用 Exchange Online 的 Skype 的空间系统 v2 本主题。
+阅读此主题以获取如何部署与 Exchange Online 的 Skype 会议室系统 v2 的信息。
   
-如果组织中有一些位于内部部署和联机寄宿某些服务，同时，然后您的配置将取决于每个服务所在。 本主题介绍与 Exchange 联机寄宿 Skype 的空间系统 v2 的混合部署。 由于有这么多的不同变体，这种类型的部署中，不可能提供有关它们的详细的说明。 以下过程适用于多种不同的配置。 如果过程不适合于您的安装程序，我们建议您使用 Windows PowerShell (请参见附录： PowerShell) 来实现相同的最终结果，因为有文档记录，和其他部署选项。 然后应使用提供的 Windows PowerShell 脚本以验证您的 Skype 的空间系统 v2 安装。 （请参阅帐户验证脚本）。
+如果您的组织具有其中的部分位于内部部署和一些在线承载的服务，组合，然后您的配置将取决于承载每个服务。 本主题介绍了与 Exchange online 承载的混合部署的 Skype 会议室系统 v2。 由于存在太多不同的变体在这种部署，不能提供的所有这些详细的说明。 以下过程将用于许多配置。 如果过程不适合您的安装程序，我们建议您使用 Windows PowerShell (请参阅附录： PowerShell) 可以记录在这里，以及其他部署选项的获得相同的最终结果。 然后您应使用提供的 Windows PowerShell 脚本验证 Skype 会议室系统 v2 安装程序。 （请参阅帐户验证脚本）。
   
 ## <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>将 Skype 会议室系统 v2 与 Exchange Online 一起部署
 
-部署 Exchange online 的 Skype 的空间系统 v2 之前，请确保已满足要求。 有关详细信息，请参阅[Skype 的空间系统 v2 要求](../../plan-your-deployment/clients-and-devices/requirements.md)。
+部署与 Exchange Online 的 Skype 会议室系统 v2 之前，请确保已满足的要求。 有关详细信息，请参阅[Skype 会议室系统 v2 要求](../../plan-your-deployment/clients-and-devices/requirements.md)。
   
-若要部署 Exchange online 的 Skype 的空间系统 v2，按照下面的步骤。 确保你有合适的权限来运行相关 cmdlet。 
+若要部署与 Exchange Online 的 Skype 会议室系统 v2，按照以下步骤。 确保你有合适的权限来运行相关 cmdlet。 
   
 ### <a name="create-an-account-and-set-exchange-properties"></a>创建帐户并设置 Exchange 属性
 
-1. 在计算机上启动远程 Windows PowerShell 会话和连接到 Exchange Online，如下所示：
+1. 在 PC 上启动远程 Windows PowerShell 会话并连接到 Exchange Online，如下所示：
     
   ```
   Set-ExecutionPolicy Unrestricted
@@ -42,7 +44,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
   ```
 
-2. 之后建立会话，您将创建一个新邮箱和它启用为 RoomMailboxAccount，或者更改现有空间邮箱的设置。 这将允许进行到 Skype 的空间系统 v2 身份验证的帐户。
+2. 后建立会话，您将创建新邮箱并启用作为 RoomMailboxAccount 或更改现有的会议室邮箱的设置。 这将使到 Skype 会议室系统 v2 进行身份验证的帐户。
     
    如果要更改现有的资源邮箱：
     
@@ -56,7 +58,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    New-Mailbox -MicrosoftOnlineServicesID 'PROJECTRIGEL01@contoso.com' -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. 为了提高会议的经验，将需要的用户帐户设置 Exchange 属性如下：
+3. 为了改进的会议体验，您需要设置 Exchange 属性，如下所示的用户帐户：
     
    ```
    Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
@@ -72,7 +74,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>为你的本地域帐户添加电子邮件地址
 
-1. 在**Active Directory 用户和计算机广告**工具中，右键单击文件夹或 Skype 的空间系统 v2 将为其创建帐户，请单击**新建**，然后单击**用户**的组织单位。
+1. 在**Active Directory 用户和计算机 AD**工具中，右键单击 Skype 会议室系统 v2 帐户将创建中，单击**新建**，然后单击**用户**的组织单位的文件夹。
     
 2. 将上一个 cmdlet 中的显示名称键入“**全名**”框中，将别名键入“**用户登录名**”框中。单击“**下一步**”。
 
@@ -80,7 +82,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 3. 键入此帐户的密码。你需要重新键入密码进行确认。确保“**密码永不过期**”复选框是选中的唯一选项。
     
     > [!NOTE]
-    > 选择**密码永不过期**是 Skype 的空间系统 v2 的业务服务器 2015年的 Skype 的要求。 你的域规则可能禁止使用不过期的密码。 如果是这样，您需要针对每一个 Skype 的空间系统 v2 用户帐户创建例外。
+    > 选择**密码永不过期**是 Skype 会议室系统 v2 上的业务服务器 2015 Skype 的要求。 你的域规则可能禁止使用不过期的密码。 如果是这样，您将需要针对每个 Skype 会议室系统 v2 用户帐户创建例外。
   
 4. 单击“**完成**”创建帐户。
     
@@ -88,9 +90,9 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     
 ### <a name="assign-an-office-365-license"></a>分配一个 Office 365 许可证
 
-1. 用户帐户需要具有有效的 Office 365 提供许可证，以确保交换和业务服务器 2015年的 Skype 将起作用。 如果你有许可证，则需要为用户帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。
+1. 需要有有效的 Office 365 许可，以确保 Exchange 和 Skype 的业务服务器 2015年将工作的用户帐户。 如果你有许可证，则需要为用户帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。
     
-2. 接下来，使用 Get MsolAccountSku Office 365 租户为检索可用 Sku 列表。
+2. 接下来，使用 Get-msolaccountsku 的 Office 365 租户中检索可用的 Sku 的列表。
     
 3. 列出 SKU 后，便可使用 Set-MsolUserLicense cmdlet 来添加许可证。在此示例中，$strLicense 是你看到的 SKU 代码（例如，contoso:STANDARDPACK）。
     
@@ -103,7 +105,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 ### <a name="enable-the-user-account-with-skype-for-business-server-2015"></a>使用 Skype for Business Server 2015 启用用户帐户
 
-1. 从一台电脑，如下所示创建远程 Windows PowerShell 会话：
+1. 从 PC 创建远程 Windows PowerShell 会话，如下所示：
     
   ```
   Import-Module LyncOnlineConnector  
@@ -112,13 +114,13 @@ Import-PSSession $cssess -AllowClobber
 
   ```
 
-2. 若要启用业务服务器 2015 Skype 的 Skype 的空间系统 v2 帐户，请运行以下命令：
+2. 若要启用业务服务器 2015 Skype 的 Skype 会议室系统 v2 帐户，请运行以下命令：
     
    ```
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
-    如果不确定要用于您的环境中的 RegistrarPool 参数的值，您可以从现有 Skype 业务服务器 2015年用户使用此命令中获取的值
+    如果不确定哪些值用于您的环境中的 RegistrarPool 参数，您可以从现有 Skype 业务服务器 2015年用户使用此命令获取值
     
    ```
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
@@ -126,15 +128,15 @@ Import-PSSession $cssess -AllowClobber
 
 ### <a name="assign-a-skype-for-business-server-2015-license-to-your-skype-room-systems-v2-account"></a>向你的 Skype 会议室系统 v2 帐户分配一个 Skype for Business Server 2015 许可证
 
-1. 租户管理员的身份登录，打开 Office 365 管理门户网站，然后单击管理应用程序。
+1. 以租户管理员身份登录，打开 Office 365 管理门户，并单击管理中心应用程序。
     
 2. 单击“**用户和组**”，然后单击“**添加用户、重置密码等**”。
     
-3. Skype 的空间系统 v2 帐户，单击，然后单击笔图标可编辑帐户信息。
+3. 单击 Skype 会议室系统 v2 帐户，，然后单击笔图标可编辑帐户信息。
     
 4. 单击“**许可证**”。
     
-5. 在“**分配许可证**”中，根据你的许可和企业语音要求，选择 Skype for Business（计划 2）或 Skype for Business（计划 3）。 您必须使用计划 3 许可证，如果您想要使用 Skype 的空间系统 v2 企业语音。
+5. 在“**分配许可证**”中，根据你的许可和企业语音要求，选择 Skype for Business（计划 2）或 Skype for Business（计划 3）。 您将需要使用规划 3 许可证，如果您想要使用 Skype 会议室系统 v2 企业语音。
     
 6. 单击" **保存**"。
     
@@ -144,11 +146,11 @@ Import-PSSession $cssess -AllowClobber
 
 #### 
 
-[Skype 的空间规划系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[规划 Skype 会议室系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[部署 Skype 的空间系统 v2](room-systems-v2.md)
+[部署 Skype 会议室系统 v2](room-systems-v2.md)
   
-[配置控制台，Skype 的空间系统 v2](console.md)
+[配置 Skype 会议室系统 v2 控制台](console.md)
   
-[Skype 的机房管理系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[管理 Skype 会议室系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

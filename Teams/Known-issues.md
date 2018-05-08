@@ -10,11 +10,11 @@ ms.reviewer: marcl, ninadara, v-leslc
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 303e2d14e009d2a0f6493646f3f2466b94920fa4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 087273d7d5d4d1eb20b83925087479ac702e72a3
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
   
@@ -30,6 +30,10 @@ ms.lasthandoff: 05/03/2018
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |连接器选项是缺失的某些团队  <br/> |右键单击频道时，团队的任何成员都不显示连接器选项。  <br/> |团队的创建者必须有联机邮箱；否则，将不提供连接器选项。 这是预期行为。  <br/> |2017 年 6 月 26 日  <br/> |
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|"分配"app 保持为 visble 时禁用  <br/> |在管理中心中禁用了"分配"应用程序时，尚待团队客户端 EDU 许可用户中可见。 选择时禁用将返回一个错误，指示，"Doh ！ 出现了问题..."  <br/> |无解决方法。  <br/> |12/29/17  <br/> |
 
 ## <a name="authentication"></a>身份验证
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
@@ -73,6 +77,10 @@ ms.lasthandoff: 05/03/2018
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |用户无法重新预先存在的频道名称  <br/> |一旦创建了某个频道名称，即使已将其删除，仍无法重新创建该名称。 我们的系统按信息保护方案维护此数据。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/> |
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|重命名 Microsoft 团队中的通道不重命名 SharePoint Online 中的相应文件夹  <br/> |如果在 Microsoft 团队中重命名通道，SharePoint Online 与团队对应的文档库中的文件夹不会更改以匹配。 而被创建一个新文件夹以与新的通道名称相匹配。 原始文档库文件夹中的文件不会迁移。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/> |
 
 ## <a name="chat"></a>Chat
 

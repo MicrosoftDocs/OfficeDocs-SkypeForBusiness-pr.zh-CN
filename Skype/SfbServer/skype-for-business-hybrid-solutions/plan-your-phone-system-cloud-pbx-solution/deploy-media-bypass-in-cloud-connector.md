@@ -7,29 +7,31 @@ ms.date: 11/15/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
-description: 阅读本主题，了解有关步骤来部署媒体绕过云连接器版 2.0 及更高版本。
-ms.openlocfilehash: a9f03d1d83d398a6aa78f90a4741d0010ea50392
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 阅读本主题可了解部署步骤媒体绕过与云连接器 Edition 2.0 及更高版本。
+ms.openlocfilehash: 61beeec57bf245b899a898beb7bca8b14e462dca
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>在云连接器版本中部署媒体旁路
  
-阅读本主题，了解有关步骤来部署媒体绕过云连接器版 2.0 及更高版本。 
+阅读本主题可了解部署步骤媒体绕过与云连接器 Edition 2.0 及更高版本。 
   
-媒体回避允许客户端直接与公共交换电话网络 (PSTN) 的下一跃点发送媒体 — — 网关或会话边框控制器 (SBC) — — 并消除通过媒体路径中的云连接器版组件。 请参阅[媒体计划绕过云连接器版中](plan-for-media-bypass-in-cloud-connector-edition.md)。
+媒体绕过允许客户端媒体直接发送到下一个跃点公共公用电话交换网 (PSTN) — 网关或会话边界控制器 (SBC) — 并消除通过的媒体路径中的云连接器 Edition 组件。 请参阅[规划媒体绕过云连接器版本中](plan-for-media-bypass-in-cloud-connector-edition.md)。
   
 ## <a name="enable-media-bypass"></a>启用媒体旁路
 
-要启用媒体旁路，你必须在租户配置中配置媒体旁路 Web 服务的 DNS 名称并打开媒体旁路。 媒体旁路 Web 服务会自动在每台中介服务器上部署。 租户管理员必须为混合语音服务（站点）选取名称，此名称应来自为混合语音注册的 SIP 域。 服务名称应跨所有云接头装置和任何客户端位置的所有 PSTN 站点上都是相同的。 Web 服务应仅在网络内部可用。
+要启用媒体旁路，你必须在租户配置中配置媒体旁路 Web 服务的 DNS 名称并打开媒体旁路。 媒体旁路 Web 服务会自动在每台中介服务器上部署。 租户管理员必须为混合语音服务（站点）选取名称，此名称应来自为混合语音注册的 SIP 域。 服务名称应该是相同跨所有云连接器装置和无论客户端的所有 PSTN 网站。 Web 服务应仅在网络内部可用。
   
-租户管理员必须在内部生产 Active Directory 中配置 DNS A 记录。 如果您有一个复杂的多站点环境，请参阅中的示例[示例： 媒体绕过 web 站点在复杂环境中多站点的 DNS 记录](deploy-media-bypass-in-cloud-connector.md#Example)。 DNS 记录应只为内部网络客户端解析，不应为外部网络客户端解析。
+租户管理员必须在内部生产 Active Directory 中配置 DNS A 记录。 如果您有复杂的多站点环境，请参阅中的示例[示例： 媒体绕过网站复杂多站点环境中的 DNS 记录](deploy-media-bypass-in-cloud-connector.md#Example)。 DNS 记录应只为内部网络客户端解析，不应为外部网络客户端解析。
   
-配置完 DNS 之后，通过远程 PowerShell 使用 Skype for Business 管理员凭据连接到 Skype for Business Online。 有关详细信息，请参阅[连接到使用 Windows PowerShell 在线业务 Skype](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+配置完 DNS 之后，通过远程 PowerShell 使用 Skype for Business 管理员凭据连接到 Skype for Business Online。 有关详细信息，请参阅[连接到业务 online 使用 Windows PowerShell 的 Skype](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
   
 在 PowerShell 会话中，输入以下命令，以启用媒体旁路：
   
@@ -39,15 +41,15 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enable
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-启用媒体旁路的过程分为两个步骤。 New-CsNetworkMedia cmdlet 不会立即保存新配置；它只在内存中创建设置。 必须将此 cmdlet 创建的对象保存到一个变量中，再将其分配给网络配置的 MediaBypassSettings 属性。 有关详细信息，请参阅[示例： 媒体绕过 web 站点在复杂环境中多站点的 DNS 记录](deploy-media-bypass-in-cloud-connector.md#Example)。
+启用媒体旁路的过程分为两个步骤。 New-CsNetworkMedia cmdlet 不会立即保存新配置；它只在内存中创建设置。 必须将此 cmdlet 创建的对象保存到一个变量中，再将其分配给网络配置的 MediaBypassSettings 属性。 有关详细信息，请参阅[示例： 媒体绕过网站复杂多站点环境中的 DNS 记录](deploy-media-bypass-in-cloud-connector.md#Example)。
   
-内部部署和联机的组件之间的复制可以达 24 小时，因此 Microsoft 建议您在启用用户之前运行必要的命令。
+在本地和联机组件之间复制可能需要达 24 小时，，以便 Microsoft 建议您为用户启用之前运行必要的命令。
   
 ## <a name="confirm-media-bypass-settings"></a>确认媒体旁路设置
 
 可按如下所述检查媒体旁路设置。 
   
-要检查在线复制到租户池，请在远程 PowerShell 运行下面的命令：
+要检查在线复制到您的租户池，请在远程 PowerShell 中运行以下命令：
   
 ```
 Get-CsTenantHybridConfiguration -LocalStore
@@ -55,17 +57,17 @@ Get-CsNetworkConfiguration -LocalStore
 
 ```
 
-检查内部复制、 连接到云连接器中介服务器、 继续，运行下面的命令并确认该启用 = True 和 AlwaysBypass = True
+检查内部部署复制、 连接到云连接器中介服务器，在 PowerShell 中，运行以下命令并确认该 Enabled = True 且 AlwaysBypass = True
   
 ```
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-要检查的客户端设置，业务客户端登录 Skype、 重新登录，并确认，客户端收到的服务 URL，如下所示：
+若要检查的客户端设置，注销 for Business 客户端的 Skype、 重新登录，并确认客户端已接收的服务 URL，如下所示：
   
 1. 打开 %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog。 
     
-2. Hybridconfigserviceinternalurl 搜索并确认 URL 匹配您定义。
+2. 搜索 hybridconfigserviceinternalurl 并确认 URL 匹配您定义。
     
 ## <a name="change-media-bypass-parameters"></a>更改媒体旁路参数
 
@@ -87,7 +89,7 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-进行更改后，可能需要经过一段时间，才能将更改复制到所有云连接器。 若要检查复制状态，运行以下 cmdlet PowerShell 云连接器中介服务器上： 
+进行更改后，可能需要经过一段时间，才能将更改复制到所有云连接器。 若要检查的复制状态，请云连接器中介服务器上在 PowerShell 中运行以下 cmdlet: 
   
 ```
 Get- CsNetworkConfiguration -LocalStore
@@ -105,20 +107,20 @@ Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass 
 ```
 
-管理员还需要从内部 DNS 服务器中删除用于媒体旁路的 Web 地址。 之后进行更改，可能需要一些时间的更改将复制到所有的云接口装置。 
+管理员还需要从内部 DNS 服务器中删除用于媒体旁路的 Web 地址。 进行更改后, 可能需要一些时间，要复制到所有云连接器装置更改。 
   
 ## <a name="example-media-bypass-web-site-dns-records-in-complex-multi-site-environments"></a>示例：复杂多站点环境中的媒体旁路网站 DNS 记录
 <a name="Example"> </a>
 
-客户端将从内部 DNS 服务器收到媒体旁路 Web 服务的 Web 地址。 Web 服务的名称将跨所有云接头装置和云连接器 PSTN 站点上都是相同的。 在复杂多站点环境中，建议将 Windows 2016 DNS 策略用于基于地理位置的流量管理，这样客户端便可重定向到网络本地的 Web 服务。 
+客户端将从内部 DNS 服务器收到媒体旁路 Web 服务的 Web 地址。 Web 服务的名称将是相同的跨所有云连接器 appliance 和云连接器 PSTN 网站。 在复杂多站点环境中，建议将 Windows 2016 DNS 策略用于基于地理位置的流量管理，这样客户端便可重定向到网络本地的 Web 服务。 
   
 有关 Windows 2016 DNS 策略的详细信息，请参阅[使用 DNS 与主服务器的地理位置基于流量管理策略](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/primary-geo-location)。
   
 下面是具有多个站点的公司使用 Windows 2016 DNS 策略进行基于地理位置的流量管理的配置示例。
   
-绕过服务的名称是 hybridvoice.adatum.biz。
+绕过服务名称为 hybridvoice.adatum.biz。
   
-在阿姆斯特丹的网站有四个云接头装置部署以下的中介服务器 IP 地址：
+阿姆斯特丹中的网站具有四个云连接器 appliance 部署以下中介服务器 IP 地址：
   
 - 192.168.1.45
     
@@ -128,7 +130,7 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
     
 - 192.168.1.48
     
-在西雅图站点有三个云接头装置部署以下的中介服务器 IP 地址：
+西雅图站点有三个云连接器 appliance 部署以下中介服务器 IP 地址：
   
 - 10.10.1.8
     
@@ -183,5 +185,5 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 
 #### 
 
-[计划在云连接器版的媒体跳过](plan-for-media-bypass-in-cloud-connector-edition.md)
+[规划媒体绕过云连接器 Edition 中](plan-for-media-bypass-in-cloud-connector-edition.md)
 

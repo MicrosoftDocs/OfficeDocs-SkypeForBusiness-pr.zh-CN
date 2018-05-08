@@ -15,23 +15,22 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
-description: 呼叫方 ID 可以通过使用称为 CallingLineIdentity 的策略控制入站和出站呼叫的电话系统用户。
-ms.openlocfilehash: 4dc596e8301310f2c229c46add5795e72c432daf
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: 呼叫者 ID 可以通过使用名为 CallingLineIdentity 策略控制的电话系统的用户的入站和出站呼叫。
+ms.openlocfilehash: a1a809805b96152e4b205c8f38b3c8409014eb55
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>如何在你的组织中使用来电显示
 
-呼叫方 ID 可以通过使用称为 CallingLineIdentity 的策略控制入站和出站呼叫的电话系统用户。
+呼叫者 ID 可以通过使用名为 CallingLineIdentity 策略控制的电话系统的用户的入站和出站呼叫。
   
-呼叫方 ID 功能用户都可以使用所有电话系统而不考虑的 PSTN 连接性：
+呼叫者 ID 功能，无论 PSTN 连接的所有电话系统用户：
   
 - 在线 PSTN 连接
     
@@ -46,15 +45,15 @@ ms.lasthandoff: 04/26/2018
 
 出站 PSTN 来电显示有三个对应选项：
   
-- 分配给用户，这是默认值的电话号码。
+- 分配给用户，这是默认电话号码。
     
-- 被归为一种*服务*的电话号码，*免费*在您调用计划在 Office 365 提供电话号码数字库存。 它通常会指派给某个组织自动助理或调用队列。
+- 作为*服务*分类的电话号码和*免费电话*号码在您调用计划在 Office 365 电话号码库存。 它通常分配给组织的自动助理或呼叫的队列。
     
 - 设置为匿名。
     
 但你不能为出站来电显示分配以下类型的电话号码：
   
-- 任何属于调用计划通过电话*用户*的电话号码数字库存
+- 任何电话号码分类为*用户*在您调用计划的电话号码库存
     
 - Skype for Business Server 内部部署电话号码
     
@@ -62,22 +61,22 @@ ms.lasthandoff: 04/26/2018
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>出站来电显示的最终用户控制
 
-EnableUserOverride 属性单个或多个用户可用来更改其呼叫方 ID 设置为**匿名**。 这只适用于 CallingLineIdentity 策略配置 CallingIDSubstitute 参数为 LineURI 或替代。 EnableUserOverride 的默认值为 False。
+EnableUserOverride 属性，单个或多个用户，可以将其呼叫者 ID 设置更改为**匿名**。 这仅适用于 CallingLineIdentity 策略配置 LineURI 或替代 CallingIDSubstitute 参数。 EnableUserOverride 的默认值为 False。
   
-最终用户可以使用的 Skype 的业务桌面客户端的**调用转发设置**选项卡上将其呼叫方 ID 设置为**匿名**。
+最终用户可以使用 for Business 桌面客户端的 Skype 中的**呼叫转接设置**选项卡将其呼叫者 ID 设置为**匿名**。
   
 ||||
 |:-----|:-----|:-----|
 |**Windows** <br/> |**版本** <br/> |**支持** <br/> |
 |即点即用  <br/> |2016 年 12 月 6 日发布的当前频道 - 版本 1611（内部版本 7571.2072）  <br/> |是  <br/> |
 |即点即用  <br/> |2017 年 2 月 22 日发布的延期频道的首次发布 - 版本 1701（内部版本 7766.2060）  <br/> |是  <br/> |
-|即点即用  <br/> |延迟发布的 6 月 13，2017-版本 1701 (生成 7766.2092) 的通道  <br/> |是  <br/> |
+|即点即用  <br/> |延迟通道发布 2017 年 6 月 13，-版本 1701 (生成 7766.2092)  <br/> |是  <br/> |
 |MSI  <br/> |Skype for Business  <br/> |否  <br/> |
 |Mac  <br/> |Skype for Business  <br/> |否  <br/> |
    
 ## <a name="inbound-caller-id"></a>入站来电显示
 
-BlockIncomingCallerID 属性可以阻止传入的 PSTN 呼叫的呼叫者 ID。 您可以设置此属性，但它不是供最终用户在用户设置页上。 当前仅在使用在线 PSTN 连接时可用。
+BlockIncomingCallerID 属性允许阻止上传入 PSTN 呼叫的呼叫者 ID。 您可以设置此属性，而只是向最终用户在用户设置页上可用。 当前仅在使用在线 PSTN 连接时可用。
   
 要设置出站来电显示，请参见[为用户设置来电显示](set-the-caller-id-for-a-user.md)。
   

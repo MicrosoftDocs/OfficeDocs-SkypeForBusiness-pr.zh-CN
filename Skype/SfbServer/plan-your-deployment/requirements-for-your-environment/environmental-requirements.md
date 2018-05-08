@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 摘要： 配置业务服务器 2015 Skype 非服务器的要求。 有很多还要执行您的部署，包括 Active Directory、 DNS、 证书和 Fileshares 之前配置您的内容。
-ms.openlocfilehash: ed01b466abe46a83ca4d44b2cb555c85ab9af248
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 61b5d0a9bbce1fc2549f01f7f13209e87f74caf0
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的环境要求
  
@@ -358,9 +358,9 @@ Skype 的业务服务器 2015年支持**单个公共证书**的使用访问、 w
   
 - 文件共享需要置于直接附加存储 (DAS) 或存储区域网络 (SAN) 上，其中包括分布式文件系统 (DFS) 以及文件存储的独立磁盘冗余阵列 (RAID)。 对于进一步读取在 Windows Server 2012 的 DFS 上，检查出[此 DFS 页面](https://technet.microsoft.com/en-us/library/jj127250.aspx)。
     
-- 建议为文件共享使用共享群集。 如果您正在使用它，您应该组成群集 Windows Server 2012 或 Windows Server 2012 R2。 Windows Server 2008 R2 也是可接受的。 为什么最新的 Windows？ 较旧的版本可能不具备启用所有功能的正确权限。 您可以使用群集管理器创建文件共享，并[创建群集](https://support.microsoft.com/kb/284838)KB 本文将帮助您与这些详细信息。
+- 建议为文件共享使用共享群集。 如果您正在使用它，您应该组成群集 Windows Server 2012 或 Windows Server 2012 R2。 Windows Server 2008 R2 也是可接受的。 为什么最新的 Windows？ 较旧的版本可能不具备启用所有功能的正确权限。 您可以使用群集管理器创建文件共享，以及[如何创建文件共享群集上的](https://support.microsoft.com/en-us/help/224967/how-to-create-file-shares-on-a-cluster)本文将帮助您与这些详细信息。
     
-> [!CAUTION]
+> [!CAUTION] 
 > 您应知道，不支持将网络附加存储 (NAS) 用作文件共享，因此，请使用上述其中一个选项。 
   
 

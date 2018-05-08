@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'See steps to assign a dial-in conferencing license and conference ID to a user, set up a third party conferencing provider, and many other dial-in conferencing settings. '
-ms.openlocfilehash: db355e71ff90a43c46900ad2b95b9e8593a9094d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b2759e4ee1f8e8cac2f753eb5afecbf13642abb0
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>管理我的组织的音频会议设置
 
@@ -72,29 +72,7 @@ Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 827196
 >  [!重要信息]  创建新会议 ID 后，呼叫者不能再使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 用户可以使用业务会议迁移工具的 Skype 更新其现有会议。 若要查看如何下载、 安装和运行 Skype 业务会议更新工具，请参阅： [Skype 商业和 Lync 会议更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)、[业务 online，会议迁移工具 （64 位） 的 Skype](http://go.microsoft.com/fwlink/?LinkID=626047)和[Skype 业务 online 会议迁移工具 （32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=54079)。
   
 请参阅[请参阅、 更改和重置会议 ID 分配给用户](see-change-and-reset-a-conference-id-assigned-to-a-user.md)。
-  
-## <a name="change-the-audio-conferencing-provider-from-microsoft-to-a-third-party-provider"></a>从 Microsoft 的音频会议提供商更改为第三方提供程序
-
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
-
-1. 使用你的工作或学校帐户登录 Office 365。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
-    
-3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **用户**，并选择您想要更改的音频会议提供程序的用户。
-    
-4. 在"操作"窗格中，单击" **编辑**"。 
-    
-5. 在**属性**页上，在**提供程序名称**下选择用户音频会议提供商。
-    
-    > [!NOTE]
-    > 如果选择了多个用户，您可以只选择为音频会议提供商或**无**Microsoft。
-  
-6. 单击" **保存**"。 
-    
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-  
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>启用或禁用发送到音频会议用户的电子邮件
 
 ![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**

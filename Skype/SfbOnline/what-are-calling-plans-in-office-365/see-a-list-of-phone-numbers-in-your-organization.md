@@ -15,21 +15,20 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
-description: 了解如何在您的组织、 分配给用户的所有数字和从业务管理中心的 Skype 的语音用户分配的所有数字的所有电话号码的列表，请参阅。
-ms.openlocfilehash: f1bbb27fc1432d411a8241c75bf4e7ba12ccbe0d
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: 了解如何组织、 分配给用户的所有号码和从业务管理中心的 Skype 分配给语音用户的所有号码中的所有电话号码的列表，请参阅。
+ms.openlocfilehash: 26dc251308d63b2feb91134a052e37c97c145568
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>查看组织中的电话号码列表
 
-有不同类型的电话号码，您可以分配给用户或其他服务 （服务号码），如对于 Office 365 中的音频会议。
+有不同类型的电话号码，您可以分配给用户或其他服务 （服务号码），例如，对于 Office 365 中的音频会议。
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>查看贵组织拥有的所有电话号码的列表
 
@@ -40,21 +39,21 @@ ms.lasthandoff: 04/26/2018
 3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Phone numbers**.
     
     > [!IMPORTANT]
-    > 要查看业务管理中心为 Skype 在左边的导航中的**语音**选项，您必须先购买至少一个**企业 E5 许可证**、**电话系统**加载项许可证或一个**音频会议**附加许可证。
+    > 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
     
-4. 若要查看指定的电话号码，请参阅**号码**列。
+4. 若要查看已分配的电话号码，请参阅**编号**列。
     
 5. 下拉列表可用于筛选的视图：
     
   - 包括服务电话号码在内的 **全部**电话号码。
     
-  - 设置电话**号码的范围**。
+  - 设置电话**号码范围**。
     
   - 是**分配给用户**的电话号码。
     
-  - 电话号码的**分配给会议**对于拨入会议。
+  - 电话号码的**分配给会议**拨入式会议。
     
-  - **未赋值**的电话号码。
+  - 电话号码的**未分配**。
     
   - 电话号码的**位置**。
     
@@ -69,15 +68,15 @@ ms.lasthandoff: 04/26/2018
 3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Voice users**.
     
     > [!IMPORTANT]
-    > 要查看业务管理中心为 Skype 在左边的导航中的**语音**选项，您必须先购买至少一个**企业 E5 许可证**、**电话系统**加载项许可证或一个**音频会议**附加许可证。
+    > 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
     
-4. 您可以筛选您指派给用户的电话号码或电话号码，您可以分配给用户的视图。 你可以按以下内容筛选：
+4. 您可以筛选视图分配给用户的电话号码或您可以分配给用户的电话号码。 你可以按以下内容筛选：
     
   - 包括服务电话号码在内的 **全部**电话号码。
     
-  - **编号分配**给用户。
+  - 向用户**分配编号**。
     
-  - **无编号分配**给用户。
+  - **无号码分配**给用户。
     
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>查看分配给语音用户的电话号码
 
@@ -90,9 +89,9 @@ ms.lasthandoff: 04/26/2018
 3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Voice users**.
     
     > [!IMPORTANT]
-    > 要查看业务管理中心为 Skype 在左边的导航中的**语音**选项，您必须先购买至少一个**企业 E5 许可证**、**电话系统**加载项许可证或一个**音频会议**附加许可证。
+    > 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
     
-4. 可以使用下拉列表来筛选视图为活动用户，该用户是否联机或内部部署或状态和类型的用户的授权。 你可以按以下内容筛选：
+4. 可以使用下拉列表以筛选视图的活动用户，用户是否联机或本地或的状态和用户许可类型。 你可以按以下内容筛选：
     
   - **活动用户**以及用户是在线还是在本地。
     

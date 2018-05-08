@@ -1,19 +1,19 @@
 ---
-title: "在对 Microsoft Teams 进行故障排除时使用日志文件"
+title: 在对 Microsoft Teams 进行故障排除时使用日志文件
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "了解 Microsoft Teams 生成的调试、媒体和桌面日志，可以在哪里找到它们，以及它们如何帮助进行故障排除。"
+description: 了解 Microsoft Teams 生成的调试、媒体和桌面日志，可以在哪里找到它们，以及它们如何帮助进行故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51cac5707b6465b2de4c1c69fdd430914769bb91
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 4fb5cdb663a2769e4362461c69d8313fa24ade88
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 05/08/2018
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在对 Microsoft Teams 进行故障排除时使用日志文件
 =================================================
@@ -87,7 +87,7 @@ ms.lasthandoff: 02/19/2018
 
 |客户端 |位置 |
 |---------|---------|
-|Windows     |%appdata%\Roaming\Microsoft\Teams\media-stack\*.etl         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack\*.etl         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
 
 
@@ -98,5 +98,5 @@ ms.lasthandoff: 02/19/2018
 
 |客户端 |位置 |
 |---------|---------|
-|Windows     |%appdata%\Roaming\Microsoft\Teams\logs.txt         |
+|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |

@@ -7,39 +7,41 @@ ms.date: 12/8/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: 阅读有关如何部署使用 Office 365 的 Skype 的空间系统 v2 本主题。
-ms.openlocfilehash: b05afbf973e814c5adf7b8a8490aefa0cbb04886
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 阅读此主题以获取如何部署与 Office 365 的 Skype 会议室系统 v2 的信息。
+ms.openlocfilehash: 87ae4f7e846cce1cfeca2c7f64fdee93476ae350
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>将 Skype 会议室系统 v2 与 Office 365 一起部署 
  
-阅读有关如何部署使用 Office 365 的 Skype 的空间系统 v2 本主题。
+阅读此主题以获取如何部署与 Office 365 的 Skype 会议室系统 v2 的信息。
   
-本主题介绍如何添加 Skype 的空间系统 v2 的设备帐户，当您拥有 Office 365 提供联机部署。
+本主题介绍如何将 Office 365 联机部署后添加 Skype 会议室系统 v2 的设备帐户。
   
 ## <a name="deploy-skype-room-systems-v2-with-office-365"></a>将 Skype 会议室系统 v2 与 Office 365 一起部署 
 
-部署与 Office 365 的 Skype 的空间系统 v2 之前，请确保已满足要求。 有关详细信息，请参阅[Skype 的空间系统 v2 要求](../../plan-your-deployment/clients-and-devices/requirements.md)。
+部署与 Office 365 的 Skype 会议室系统 v2 之前，请确保已满足的要求。 有关详细信息，请参阅[Skype 会议室系统 v2 要求](../../plan-your-deployment/clients-and-devices/requirements.md)。
   
-若要启用业务的 Skype，您必须：
+若要启用 for Business 的 Skype，您必须：
   
-- Skype 的在线业务 (计划 2) 或更高版本在您 Office 365 的计划。 该计划需要支持会议功能。
+- Skype 业务 online (计划 2) 或更高版本 Office 365 计划中。 该计划需要支持会议功能。
     
-- 如果您需要企业语音 （PSTN 电话服务） 对 Skype 的空间系统 v2 使用电话服务提供程序需要 Skype 业务联机 (计划 3)。
+- 如果您需要企业语音 （PSTN 电话） 使用 Skype 会议室系统 v2 电话服务提供程序需要 Skype 业务 online (计划 3)。
     
-- 租户用户必须具有 Exchange 邮箱。
+- 您的租户用户必须拥有 Exchange 邮箱。
     
-- Skype 的空间系统 v2 帐户需要 Skype 的在线业务 (计划 2) 或 Skype 的在线业务 (计划 3) 许可证，但它不需要 Exchange Online 的许可证。
+- Skype 会议室系统 v2 帐户确实需要 Skype 业务 online (计划 2) 或 Skype 业务 Online (计划 3) 许可证，但它不需要的 Exchange Online 的许可证。
     
 ### <a name="add-a-device-account"></a>添加设备帐户
 
-1. 在计算机上启动远程 Windows PowerShell 会话，并连接到 Exchange。 确保你有合适的权限集来运行相关 cmdlet。 下面是可以在你的环境中使用和修改的一些 cmdlet 示例。
+1. 在 PC 上启动远程 Windows PowerShell 会话并连接到 Exchange。 确保你有合适的权限集来运行相关 cmdlet。 下面是可以在你的环境中使用和修改的一些 cmdlet 示例。
     
    ```
    Set-ExecutionPolicy Unrestricted
@@ -50,7 +52,7 @@ ms.lasthandoff: 03/28/2018
    Import-PSSession $sess
    ```
 
-2. 之后建立会话，您将创建一个新邮箱和它启用为 RoomMailboxAccount，或者更改现有空间邮箱的设置。 这将允许对 Skype 的空间系统 v2 进行身份验证的帐户。
+2. 后建立会话，您将创建新邮箱并启用作为 RoomMailboxAccount 或更改现有的会议室邮箱的设置。 这将允许对 Skype 会议室系统 v2 进行身份验证的帐户。
     
   如果要更改现有的资源邮箱：
     
@@ -93,7 +95,7 @@ ms.lasthandoff: 03/28/2018
    Set-MsolUser -UniversalPrincipalName <upn> -PhoneNumber <phone number>
    ```
 
-6. 设备的帐户需要有一个有效的 Office 365 提供许可证，或交换和业务的 Skype 不起作用。 如果你有许可证，则需为设备帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 可以使用 Get MsolAccountSku，如下所示为 Office 365 租户检索可用 Sku 列表：
+6. 设备帐户需要具有有效的 Office 365 许可证，或 Exchange 和 Skype for Business 将不起作用。 如果你有许可证，则需为设备帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 您可以使用 Get-msolaccountsku，如下所示的 Office 365 租户中检索可用的 Sku 的列表：
     
    ```
    Get-MsolAccountSku
@@ -107,9 +109,9 @@ ms.lasthandoff: 03/28/2018
    Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```
 
-7. 接下来，您需要启用设备的帐户与 Skype 的业务。 请确保您的环境符合[Skype 的空间系统 v2 要求](../../plan-your-deployment/clients-and-devices/requirements.md)中定义的要求。
+7. 接下来，您需要启用 for Business 的 Skype 的设备帐户。 确保您的环境符合[Skype 会议室系统 v2 要求](../../plan-your-deployment/clients-and-devices/requirements.md)中定义的要求。
     
-   启动远程 Windows PowerShell 会话，如下所示 （请务必安装 Skype 业务在线 PowerShell 组件）：
+   启动远程 Windows PowerShell 会话，如下所示 （请务必业务 Online PowerShell 组件安装 Skype）：
     
    ```
    Import-Module LyncOnlineConnector  
@@ -117,38 +119,38 @@ ms.lasthandoff: 03/28/2018
    Import-PSSession $cssess -AllowClobber
    ```
 
-   接下来，让 Skype 的空间系统 v2 帐户 Skype 业务服务器通过运行以下 cmdlet:
+   接下来，您 Skype 会议室系统 v2 帐户启用 Skype 业务服务器通过运行以下 cmdlet:
     
    ```
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-   新的用户帐户在安装过程中，从获取 RegistrarPool 信息，如本示例所示：
+   本示例中所示，请从正在安装程序的新用户帐户中获取 RegistrarPool 信息：
     
     ```
     Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
     ```
 
     > [!NOTE]
-    > 不可能在组织中现有的用户帐户相同的注册器池上创建新的用户帐户。 上面的命令将会阻止这种情况由于开户中的错误。 
+    > 不可能在租户中的现有用户帐户相同的注册器池上创建新的用户帐户。 上面的命令将防止由于这种情况下的帐户设置中的错误。 
   
-完成上述步骤启用联机业务 Skype Skype 的空间系统 v2 帐户后，您需要向 Skype 的空间系统 v2 设备分派许可证。 使用 Office 365 管理门户，在线业务 (计划 2) 或 Skype 业务联机 (计划 3) 许可证的设备分配任一 Skype。
+您已完成上述步骤中 Skype 您 Skype 会议室系统 v2 帐户启用业务联机后，您需要将许可证分配给 Skype 会议室系统 v2 设备。 使用 Office 365 管理门户，为业务 Online (计划 2) 或业务 Online (计划 3) 许可证设备 Skype 分配任一 Skype。
   
 ### <a name="assign-a-license-to-your-account"></a>向你的帐户分配许可证
 
-1. 登录作为租户管理员，打开 Office 365 管理门户网站，并在管理应用程序上单击。
+1. 登录以租户管理员，打开 Office 365 管理门户，并单击管理应用程序。
     
 2. 单击“**用户和组**”，然后单击“**添加用户、重置密码等**”。
     
-3. 选择 Skype 的空间系统 v2 帐户，然后单击或点击笔图标，表示编辑。
+3. 选择 Skype 会议室系统 v2 帐户，然后单击或点击笔图标，表示编辑。
     
 4. 单击“**许可证**”选项。
     
-5. 在**分配许可证**部分中，您需要选择 Skype 业务联机 (计划 2) 或 Skype 业务联机 (计划 3)，具体取决于您的授权和决定方面需要企业语音。 您必须使用计划 3 许可证，如果您想要使用 Skype 的空间系统 v2 云 PBX。 至少需要 CloudPBX 才能进行语音连接。 然后根据 PSTN 连接方法配置混合语音或 PSTN 呼叫。
+5. 在**分配许可证**部分中，您需要选择 Skype 业务 Online (计划 2) 或 Skype 的业务 Online (计划 3)，具体取决于您的授权和决定方面需要企业语音。 您将需要使用规划 3 许可证，如果您想要使用 Skype 会议室系统 v2 云 PBX。 至少需要 CloudPBX 才能进行语音连接。 然后根据 PSTN 连接方法配置混合语音或 PSTN 呼叫。
     
 6. 单击“**保存**”完成任务。
     
-## <a name="sample-room-account-setup-in-exchange-online-and-skype-for-business-online"></a>示例： 房间帐户设置在 Exchange 联机和 Skype 的在线业务
+## <a name="sample-room-account-setup-in-exchange-online-and-skype-for-business-online"></a>示例： 会议室帐户安装在 Exchange Online 和 Skype 业务 online
 
 ```
 New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.com
@@ -180,11 +182,11 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 #### 
 
-[Skype 的空间规划系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[规划 Skype 会议室系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[部署 Skype 的空间系统 v2](room-systems-v2.md)
+[部署 Skype 会议室系统 v2](room-systems-v2.md)
   
-[配置控制台，Skype 的空间系统 v2](console.md)
+[配置 Skype 会议室系统 v2 控制台](console.md)
   
-[Skype 的机房管理系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[管理 Skype 会议室系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

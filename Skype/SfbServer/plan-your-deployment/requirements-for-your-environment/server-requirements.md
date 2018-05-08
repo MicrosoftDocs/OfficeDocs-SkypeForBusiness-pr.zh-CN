@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 摘要： 使用本主题的业务服务器 2015年服务器准备您的 Skype。 硬件、 操作系统、 数据库、 软件、 所有的系统要求和建议在此处要帮助确保成功安装和部署服务器场。
-ms.openlocfilehash: 28e9cf9be6f52a5e7f35a2d958832b1f13ada3b0
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: dfcde40c8084279dca39e830a84ad6e9631530dd
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的服务器要求
  
@@ -153,11 +153,17 @@ ms.lasthandoff: 05/03/2018
 |Windows Media Format Runtime  <br/> | Windows Server 2016、 Windows Server 2012 和 Windows Server 2012 R2，您需要在**服务器管理器**中安装**媒体 Foundation**功能。 现在，您实际可以开始没有此业务服务器 2015年安装您 Skype 系统将提示您安装它，但然后重新启动服务器，业务服务器 2015年 Skype 之前安装继续。 因此最好提前安装。 <br/> |
 |Silverlight  <br/> |您可以安装在[此链接](https://www.microsoft.com/silverlight/)Silverlight 的最新版本。  <br/> |
    
+> [!NOTE] 
+> 您可能还需要启用目录浏览如果您使用的负载平衡器。 否则将加载负载平衡器可能会考虑故障的空白页。 
+
 为帮助您了解相关过程，我们提供了一个示例 PowerShell 脚本，您可以运行此脚本以自动执行此流程：
-  
+
 ```
-Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Desktop-Experience, Telnet-Client
+Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Dir-Browsing, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, BITS, Desktop-Experience, Telnet-Client
 ```
+
+> [!NOTE] 
+> 该命令查找特定的顺序的源文件。 如果您处于联机状态，该命令可访问 Windows Update。 但是，如果您处于脱机状态，则需要确保源文件可被该命令使用。 有关使用 PowerShell 安装角色和功能的详细信息，请参阅[安装或卸载角色、 角色服务或功能](https://technet.microsoft.com/en-us/library/hh831809.aspx)不要忘记 Windows 再次运行更新后安装必备组件，即使您使用的 PowerShell 命令。
 
  **控制器还需要：**
   
