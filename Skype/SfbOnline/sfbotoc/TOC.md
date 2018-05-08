@@ -20,7 +20,7 @@
 ### [音频会议和用户 PSTN 通话的出站通话限制策略](../audio-conferencing-in-office-365/outbound-calling-restriction-policies.md)
 ### [音频会议的电话号码](../audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing.md)
 ### [重置用户的会议 ID](../audio-conferencing-in-office-365/reset-a-conference-id-for-a-user.md)
-### [重置用户的音频会议 PIN](../audio-conferencing-in-office-365/reset-the-audio-conferencing-pin-for-a-user.md)
+### [重置 PIN 的音频会议](../audio-conferencing-in-office-365/reset-the-audio-conferencing-pin.md)
 ### [查看、更改和重置分配给用户的会议 ID](../audio-conferencing-in-office-365/see-change-and-reset-a-conference-id-assigned-to-a-user.md)
 ### [查看音频会议号码列表](../audio-conferencing-in-office-365/see-a-list-of-audio-conferencing-numbers.md)
 ### [查看启用了音频会议的用户列表](../audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)
