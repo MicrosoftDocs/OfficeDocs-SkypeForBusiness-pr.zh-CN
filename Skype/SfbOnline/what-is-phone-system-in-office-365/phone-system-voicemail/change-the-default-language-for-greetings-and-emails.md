@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-- Strat_SB_PSTN
 description: '了解如何设置 Skype for Busineses 以便将其他语言用于贵组织的默认语音邮箱问候语。 '
-ms.openlocfilehash: 5ee5b3e307e21e4b7225fadfbe2a079dd40f72de
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: b5d03806065337312ec35b30b58cfb0e6af1e0b6
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>更改问候语和电子邮件的默认语言
 
@@ -42,11 +41,11 @@ ms.lasthandoff: 04/18/2018
   
 - **是否要录制你的外出语音邮件消息？** 请参阅[检查 Skype for Business 语音邮件和选项](https://support.office.com/en-us/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)。
 
-- **若要更改语音邮件提示语言吗？** 转到[https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail)，然后选择一种新的语言**提示语言**下。
+- **若要更改语音邮件提示语言吗？** 转到[https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail)，然后选择新下**提示的语言**的语言。
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>更改组织内所有用户的系统语言
 
-1. 使用您的[Office 365 提供全局管理员](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帐户，登录[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。 
+1. 使用您的[Office 365 全局管理员](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帐户，登录[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。 
     
 2. 在管理中心，选择“**设置**” > “**组织资料**”。 
     

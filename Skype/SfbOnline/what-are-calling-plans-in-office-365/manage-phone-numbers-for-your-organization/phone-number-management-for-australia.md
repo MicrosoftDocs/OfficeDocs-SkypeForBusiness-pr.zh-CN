@@ -1,5 +1,5 @@
 ---
-title: 澳大利亚的电话号码管理
+title: 澳大利亚电话号码管理
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,38 +14,38 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 此表用于查找信息的获取和在线业务和 Microsoft 小组管理的 Skype 的澳大利亚中的电话号码。
-ms.openlocfilehash: feda32495a539d5a2f6082c9a1e53466a54f1cd4
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: 使用此表可以找到有关获取和管理澳大利亚中的电话号码的 Skype 业务 Online 和 Microsoft 团队。
+ms.openlocfilehash: 7ed10dde6866016f9689cba7f1f0e014e87c4d76
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="phone-number-management-for-australia"></a>澳大利亚的电话号码管理
+# <a name="phone-number-management-for-australia"></a>澳大利亚电话号码管理
 > [!IMPORTANT]
-> 澳大利亚是仅供预览和早期采用者的客户。 有关详细信息，请参阅[Telstra 呼吁 Office 365](http://aka.ms/TelstraVoicePlan)。 
+> 澳大利亚才可供预览和早期使用客户。 有关详细信息，请参阅[Telstra 调用 for Office 365](http://aka.ms/TelstraVoicePlan)。 
 
-在澳大利亚，我们有的采购和供应的调用计划与 Telstra 合作。 Telstra 将销售调用计划和提供支持电话号码管理用户和服务号自动助理电话队列。 但是，服务号码和许可证的音频会议仍出售并由 Office 365 管理。
+在澳大利亚，我们已购买和设置的调用计划与 Telstra 合作。 Telstra 将销售调用计划和提供支持的电话号码管理用户和服务号码自动助理呼叫的队列。 但是，服务号码和音频会议的许可证仍为销售和 Office 365 管理的。
 
-[Telstra 呼吁 Office 365](http://aka.ms/TelstraVoicePlan)的详细信息。
+有关[Telstra 调用 for Office 365](http://aka.ms/TelstraVoicePlan)的详细信息。
 
-此表用于查找信息的获取和在线业务和 Microsoft 小组管理的 Skype 的澳大利亚中的电话号码。 
+使用此表可以找到有关获取和管理澳大利亚中的电话号码的 Skype 业务 Online 和 Microsoft 团队。 
 
 有关详细信息，请参阅[为你的组织管理电话号码](manage-phone-numbers-for-your-organization.md)。
   
 |**你要做什么？**|**执行下列步骤并下载正确的表单**|
 |:-----|:-----|
-|在澳大利亚的调用计划获得新用户的电话号码。   <br/> |请与[Telstra 调用针对 Office 365 提供](http://aka.ms/TelstraVoicePlan)新的电话号码，您的用户。 它们将使您可以将它们分配给您的用户向您的组织添加这些数字。 <br/> 
-|获取可用于电话系统自动助理，为澳大利亚电话队列的新服务电话号码。 <br/> |请与[Telstra 调用针对 Office 365 提供](http://aka.ms/TelstraVoicePlan)新的电话号码。 他们然后将向您的组织将这些数字以便您可以将它们分配给自动助理和电话队列。 <br/>|
-|在澳大利亚获得音频会议新服务电话号码。   <br/> |[请与我们联络](mailto:ptnapac@microsoft.com)。|
-|您需要获取用户、 自动助理和呼叫队列转移到 Office 365 的电话号码。  <br/> |请与[Telstra 呼吁 Office 365](http://aka.ms/TelstraVoicePlan)可以将电话号码的转移。 然后，他们将向您的组织将这些数字。  <br/> |
-|您需要获得用于音频会议转移到 Office 365 的电话号码。  |[请与我们联系](mailto:ptnapac@microsoft.com) |
-|更改紧急解决分配给了调用计划的电话号码的用户。 |请与[Telstra 呼吁 Office 365](http://aka.ms/TelstraVoicePlan)可以紧急地址更改。 他们可以更新此信息。|
-|您需要更改到一个服务号用户号码。 |澳大利亚不支持此类型服务。 
+|获取有关调用计划中澳大利亚新用户电话号码。   <br/> |请联系[Telstra 调用 for Office 365](http://aka.ms/TelstraVoicePlan)的用户的新电话号码。 使您可以将其分配给用户，他们将然后添加到您的组织这些号码。 <br/> 
+|获取新的可与电话系统自动助理，并为澳大利亚调用队列服务电话号码。 <br/> |请联系[Telstra 调用 Office 365 的](http://aka.ms/TelstraVoicePlan)新的电话号码。 以便您可以将其分配给自动助理并调用队列，它们将然后添加到您的组织这些号码。 <br/>|
+|获取音频会议中澳大利亚新服务电话号码。   <br/> |[请与我们联系](mailto:ptnapac@microsoft.com)。|
+|您需要获取用户、 自动助理和呼叫队列传输到 Office 365 的电话号码。  <br/> |请联系[Telstra 调用 for Office 365](http://aka.ms/TelstraVoicePlan)转接电话号码。 然后将这些号码添加到您的组织。  <br/> |
+|您需要获取用于音频会议转接到 Office 365 的电话号码。  |[请与我们联系](mailto:ptnapac@microsoft.com) |
+|更改紧急防范分配给用户具有呼叫规划电话号码。 |请联系[Telstra 调用 for Office 365](http://aka.ms/TelstraVoicePlan)进行紧急地址更改。 他们可以更新此为您的信息。|
+|您需要将用户号更改为服务号码。 |澳大利亚不支持此类型服务。 
    
 ## <a name="related-topics"></a>相关主题
 [用于通话套餐的不同类型的电话号码](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

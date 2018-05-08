@@ -15,45 +15,47 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: d97da976941f0853e5948112e4e7c34c7841afc8
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 28fb899586c6a0904126249b769e6fb0004878ca
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>请参阅启用了音频会议的用户列表
 
-音频会议的组织中启用业务或 Microsoft 小组用户 Skype 之后，您可以查看已启用的用户的列表。 当您查看列表中，您还将看到每个用户在列表中的音频会议提供商，他们所使用的用户的默认拨入电话号码类型，如果您的组织未启用动态的会议 id，静态的会议 Id为他们组织的音频会议会议。
+业务或 Microsoft 团队用户音频会议的组织中启用 Skype 后，您可以查看的已启用这些用户的列表。 当您查看列表中，您还将为每个用户的音频会议提供商的他们使用的，对用户的默认电话拨入式电话号码类型列表中看到和您的组织未启用动态的会议 Id、 静态会议 Id为他们所组织的音频会议。
   
 ## <a name="viewing-a-list-of-users"></a>查看用户列表
 
-**使用 Microsoft 小组和 Skype 业务管理中心**
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
 
-- 在左侧导航中，单击**用户**。
+- 在左侧导航窗格中，单击**用户**。
 
-**使用 Skype 业务管理中心**
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
     
-- 在左侧的导航中，转到**音频会议** > **用户**。
+- 在左侧导航窗格中，转到**音频会议** > **用户**。
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
 ## <a name="what-else-should-i-know"></a>我还需了解哪些信息？
 
-- 当您查看的已启用的用户的列表时，可以从列表中选择用户并使用操作窗格中编辑该用户的音频会议设置。
+- 当您查看已启用的用户列表时，可以从列表中选择用户和使用操作窗格编辑该用户的音频会议设置。
     
-- 选择单个用户配置为使用 Microsoft 作为音频会议提供商时，您可以查看默认的电话号码和您的组织是否启用了动态的会议 Id，您可以重置会议 ID 的会议，用户组织。
+- 选择单个用户的配置为使用 Microsoft 为音频会议提供商时，您可以查看的默认电话号码和您的组织是否启用动态会议 Id，您可以重置会议的会议 ID 的用户组织。
     
-- 选择单个用户配置为使用第三方音频会议提供商时，您可以查看音频会议提供商、 收费电话号码和免费电话号码的名称 （如果它们设置）。
+- 如果您选择配置为使用第三方音频会议提供商的单个用户，您可以查看音频会议提供商、 收费电话号码和免费电话号码的名称 （如果他们设置）。
     
 - 可以使用筛选选项来显示具有以下设置的用户：
     
   - **在音频会议**
     
-  - **关闭音频会议**
+  - **关闭的音频会议**
     
   - **会议提供商 - Microsoft**
     
@@ -65,9 +67,9 @@ ms.lasthandoff: 04/18/2018
     
   - 为这些用户选择其他默认号码。
     
-  - 关闭用户的音频会议，为**无**更改提供程序。
+  - 关闭通过更改为**无**的提供程序的用户的音频会议。
     
-  - 切换到 Microsoft 作为音频会议提供商如果用户已经指定**音频会议**许可。
+  - 切换到 Microsoft 为音频会议提供商已分配的用户的**音频会议**许可证。
     
   - 允许/禁止匿名用户激活选定用户的电话会议。
     
@@ -77,7 +79,7 @@ ms.lasthandoff: 04/18/2018
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [为什么需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为什么您需要使用 Office 365 PowerShell 中](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - 例如当你一次对多个用户更改设置时，Windows PowerShell 比起仅使用 Office 365 管理中心，在速度、简明性和效率方面具有许多优势。通过以下主题了解这些优势：
     

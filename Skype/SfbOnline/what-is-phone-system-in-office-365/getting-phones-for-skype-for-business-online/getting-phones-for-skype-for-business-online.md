@@ -15,31 +15,30 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-- Strat_SB_PSTN
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: a2eab7b314b02c288367a45b68b8c364acefd1eb
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 7efddd118ca80f0610f287746e0f14ee0146d3c3
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>获取适用于 Skype for Business Online 的电话
 
-Skype 的在线业务符合且支持要有传统电话的体验，而不是业务应用程序中使用 Skype 用户桌面电话。 本主题介绍的电话和在线业务和其他信息，可帮助您在您的组织中设置电话 Skype 使用支持的固件版本。
+Skype 业务 online 符合，且支持的需要具有传统的电话体验，而不是使用 Skype 业务应用程序的用户的桌面电话。 本主题介绍的电话和 Skype 中的业务 Online 以及可帮助您的组织中设置 up 电话时的其他信息的使用支持的固件版本。
   
-若要获取最新的更新和支持的设备上的大多数最新的信息，请参阅[Skype 业务设备目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog)。
+若要获取最新的更新和受支持的设备上的大多数最新信息，请参阅[Skype 业务设备目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog)。
   
 ## <a name="supported-phones"></a>支持的电话
 
-Skype 的在线业务的用户，您可以从中选择多个模型中*的业务电话的 Skype 的认证*和电话运行 Lync 电话版 (LPE) 出中[Skype 的在线业务类别 Skype 业务设备目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog)。
+为业务 Online 用户 Skype，您可以从多个模型中*的业务电话的 Skype Certified*选择和电话运行 Lync Phone Edition (LPE) 列出下[Skype 中的业务联机类别 Skype 业务设备目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog)。
   
-Microsoft 是合作和 Polycom、 Yealink 和 AudioCodes 开发和认证业务服务器的各种设备通过伙伴 IP 电话程序 (PIP) 在 Office 365 和 Skype 电话系统与紧密合作。
+Microsoft 是合作，紧密合作 Polycom、 Yealink，与 AudioCodes 开发和业务服务器的 Office 365 和 Skype 中的电话系统确认各种设备通过合作伙伴 IP 电话程序 （点数）。
   
-订购新电话业务的 Skype，时，一定要购买*正确的产品 ID*的电话。 这些产品 Id 将确保您收到的手机具有已安装的联机业务限定版 Skype。
+Skype for Business 的排序新电话，时，务必购买具有*正确的产品 ID*的电话。 这些产品 Id 将确保您将收到电话已安装的业务 Online 限定版本 Skype。
   
 |||
 |:-----|:-----|
@@ -52,18 +51,18 @@ Microsoft 是合作和 Polycom、 Yealink 和 AudioCodes 开发和认证业务�
   
 有关 Yealink 电话的更多详细信息，请参阅 [Skype for Business IP 电话](http://www.yealink.com/products_list_10.html#filter2)。
   
-AudioCodes 手机上的更多详细信息，请参阅[企业 IP 电话的 Skype](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)。
+AudioCodes 电话的详细信息，请参阅[业务 IP 电话的 Skype](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)。
   
 > [!NOTE]
-> Lync 电话版被支持 Skype 的在线业务。 主流支持结束由 2014 年 4 月/10，直到 4 月/11/2023 要对准 Lync Server 2013 产品支持生命周期的延长支持 LPE 平台。 在 LPE 生命周期的详细信息，请参阅[Microsoft 产品生命周期](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO)。 LPE 帽模型不支持 Skype 的在线业务。
+> Lync Phone Edition 与 Skype 的业务联机支持。 主流支持 LPE 平台的 2014 年 4 月/10，直到年 4 月/11/2023 对齐与 Lync Server 2013 的产品支持生命周期的扩展支持结束。 有关 LPE 生命周期的详细信息，请参阅[Microsoft 产品生命周期](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO)。 LPE 帽模型不支持与 Skype 业务联机。
   
 ## <a name="supported-firmware"></a>支持的固件
 
-这是受支持的手机使用 Office 365 中的电话系统所需的最低软件版本：
+这是受支持的电话能够使用 Office 365 中的电话系统所需的最低软件版本：
   
 ||||
 |:-----|:-----|:-----|
-|**电话类型** <br/> |**最低固件** <br/> |**发行日期** <br/> |
+|**电话类型** <br/> |**最低固件** <br/> |**发布日期** <br/> |
 |优化 (Lync Phone Edition)  <br/> |4.0.7577.4463  <br/> |2015 年 5 月  <br/> |
 |已认证的 Polycom VVX 系列  <br/> |5.4.0A  <br/> |2015 年 12 月  <br/> |
 |Yealink  <br/> |X.8.1.52  <br/> |2017 年 2 月  <br/> |
@@ -74,20 +73,20 @@ AudioCodes 手机上的更多详细信息，请参阅[企业 IP 电话的 Skype]
   
 ## <a name="required-licenses"></a>所需的许可证
 
-Skype 的在线业务不需要任何附加的 Microsoft 许可证以外的用户许可证。 若要了解有关所需的用户许可证的详细信息，请参阅[附加业务和 Microsoft 小组授权的 Skype](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+Skype 业务 online 不需要任何其他的 Microsoft 许可之外的用户许可证。 若要了解有关所需的用户许可证的详细信息，请参阅[业务和 Microsoft 团队授权加载项的 Skype](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
   
-商业认证固件可能因制造商授权模型而打开 SIP 和 Skype 之间。 如果打算对开放式 SIP 固件重复使用某个认证模式，则需要向制造商确认固件许可证要求。
+打开 SIP 和 Skype 之间业务认证固件的情况下，制造商许可模型可能会有所不同。 如果打算对开放式 SIP 固件重复使用某个认证模式，则需要向制造商确认固件许可证要求。
   
 ## <a name="skype-for-business-online-connected-phones-feature-set"></a>Skype for Business Online 连接电话功能集
 
-为完整的设备特性和功能，请检查制造商用户指南。
+有关完整的设备特性和功能，检查制造商用户指南。
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**功能** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
 |使用用户凭据登录  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |通过 PC（配对）登录，仅限 Windows  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|使用（Web 登录）登录  <br/>  <br/> **注意：**检查部署指南 》 中的可支持性矩阵。           |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|使用（Web 登录）登录  <br/>  <br/> **注意：**检查部署指南中的可支持性矩阵。           |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |通过单击加入会议  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |单击拨号（配对）  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |会议控制  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
@@ -96,10 +95,10 @@ Skype 的在线业务不需要任何附加的 Microsoft 许可证以外的用户
 |设备更新  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |带内配置  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |QoE  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|日志上传  <br/> <br/> **注意：**目前，所有日志都上载到 Microsoft 技术支持团队通话记录客户访问尚不可用。           |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|日志上传  <br/> <br/> **注意：**目前，所有日志都上载到 Microsoft 支持团队仅;客户访问电话日志尚不可用。           |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |现代化身份验证  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |多个紧急号码  <br/> |是  <br/> |否  <br/> |否  <br/> |是  <br/> |
-|Exchange 日历集成*  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> <br/> **注意：**要求电脑 tethering           |
+|Exchange 日历集成*  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> <br/> **注意：**需要 PC tethering           |
 |状态集成  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |公司目录  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |委派  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |

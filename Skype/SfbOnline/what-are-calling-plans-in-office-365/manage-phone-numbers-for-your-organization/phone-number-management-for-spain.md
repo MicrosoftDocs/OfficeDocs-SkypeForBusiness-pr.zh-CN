@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的西班牙电话号码的信息。
-ms.openlocfilehash: 25b989195a7510d8efb2bd2476c30654bb5c23ef
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: d9457132c3b90d9f9a72558cd40abc17514f15b5
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="phone-number-management-for-spain"></a>西班牙的电话号码管理
 
@@ -35,8 +34,8 @@ ms.lasthandoff: 04/26/2018
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取新用户的电话号码没有列出的在 Skype 业务管理中心。   <br/> | 下载[西班牙的新电话号码申请（地理号码）(v.3.0)(es-es)](../../downloads/new-number-request-forms/new-phone-number-request-for-spain-(geographic-numbers)-(v.3.0)-(es-es).pdf) <br/><br/>    填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
-|在 Skype 获得业务管理中心没有列出的新服务电话号码。 <br/> |下载此窗体[新的电话号码请求西班牙 （服务号） (v.1.2) (es-es)](../../downloads/new-number-request-forms/new-phone-number-request-for-spain-(service-numbers)-(v.1.2)-(es-es).pdf)。<br/> 填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。
+|获取业务管理中心 Skype 中未列出的新用户电话号码。   <br/> | 下载[西班牙的新电话号码申请（地理号码）(v.3.0)(es-es)](../../downloads/new-number-request-forms/new-phone-number-request-for-spain-(geographic-numbers)-(v.3.0)-(es-es).pdf) <br/><br/>    填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
+|获取业务管理中心 Skype 中未列出的新服务电话号码。 <br/> |下载此窗体[西班牙 （服务号码） 的新电话号码请求 (v.1.2) (es es)](../../downloads/new-number-request-forms/new-phone-number-request-for-spain-(service-numbers)-(v.1.2)-(es-es).pdf)。<br/> 填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。
 |你需要将电话号码转移给我们。  <br/> |下载[西班牙授权书 (LOA)（所有号码）(v.1.0)(es-es)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.1.0)-(es-es).pdf)，填写此授权书并[将其发送给我们](mailto:ptneu@microsoft.com)。 <br/> |
 |你需要在国家电话目录中发布/取消发布电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
 |你需要将用户的号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com )你想要转换为服务号码的用户号码列表。 <br/> |

@@ -15,24 +15,23 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
-ms.openlocfilehash: 476e8df7a552ed0924c2fcaee30b1b077ffab820
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 8d34f7d2b4cf72bf3202c8054f203a9f90204a43
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="audio-conferencing-supported-languages"></a>音频会议支持的语言
 
-当您在建立和配置 Office 365 中的音频会议时，您可以选择主服务器和辅助 (达 4) 到 Skype 业务或 Microsoft 小组会议拨入的呼叫时使用的语言。 这是音频会议支持的语言的列表： 
+设置并配置 Office 365 中的音频会议时, 可以选择的主要和次要 (最多 4) 呼叫者拨入到业务或 Microsoft 团队会议 Skype 时所使用的语言。 下面是支持音频会议的语言的列表： 
   
 > [!IMPORTANT]
-> 仅专用音频会议电话号码，可以更改主要和辅助语言。 
+> 仅在专用音频会议的电话号码，可以更改主要和辅助语言。 
   
 ## <a name="currently-supported-languages"></a>当前支持的语言
 
@@ -83,21 +82,21 @@ ms.lasthandoff: 04/18/2018
 |土耳其语  <br/> |土耳其  <br/> |tr-TR  <br/> |
 |乌克兰语  <br/> |乌克兰  <br/> |uk-UA  <br/> |
    
-如果您正在寻找的国家或地区，您可以在其中购买音频会议，请参阅[音频会议和调用计划的国家和地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+如果您要查找的国家或地区，您可以在其中购买音频会议，请参阅[国家和地区音频会议和调用计划的可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   
-如果您正在寻找特定的国家或地区具有音频会议电话号码，请参阅[音频电话会议的电话号码](phone-numbers-for-audio-conferencing.md)。
+如果您要查找的特定国家或地区进行音频会议的电话号码，请参阅[音频会议的电话号码](phone-numbers-for-audio-conferencing.md)。
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
-- 若要节省时间或实现自动操作，您可以使用[Get CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684)或[设置 CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) cmdlet。
+- 来节省时间或自动此操作，您可以使用[Get CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684)或[集 CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) cmdlet。
     
 -  Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为什么需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为什么您需要使用 Office 365 PowerShell 中](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 许多相比具有的优势在速度、 简易性和生产率仅使用 Office 365 管理中心，例如当您所更改的设置对于许多用户一次。 请在以下主题中了解这些优点： 
+- Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过只使用 Office 365 管理中心中的，如时要进行设置更改多个用户一次。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

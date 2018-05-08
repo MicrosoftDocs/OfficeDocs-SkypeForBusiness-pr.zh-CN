@@ -15,46 +15,50 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
-description: 作为 Office 365 管理，您可以编辑音频会议设置 — 如提供程序、 默认收费或免费电话号码、 会议 ID 或针 — — 为您的组织中的单个用户。 如果您想要编辑您的组织的设置，请参阅管理音频会议供组织使用的设置。
-ms.openlocfilehash: 29eb81881bf768b4b398e0fdac38a908ab5833ce
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 作为 Office 365 管理员，您可以编辑的音频会议设置 — 例如提供程序、 默认收费电话或免费电话号码、 会议 ID 或 PIN-为您的组织中的单个用户。 如果您想要编辑您的组织的设置，请参阅 Manage 音频会议设置我的组织。
+ms.openlocfilehash: d842d2cfeb126b799ed1d763834c9a6e90662a2a
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user"></a>管理用户的音频会议设置
 
-作为 Office 365 管理，您可以编辑音频会议设置 — 如提供程序、 默认收费或免费电话号码、 会议 ID 或针 — — 为您的组织中的单个用户。 如果您想要编辑您的组织的设置，请参阅[管理音频会议设置供组织使用](manage-the-audio-conferencing-settings-for-my-organization.md)。
+作为 Office 365 管理员，您可以编辑的音频会议设置 — 例如提供程序、 默认收费电话或免费电话号码、 会议 ID 或 PIN-为您的组织中的单个用户。 如果您想要编辑您的组织的设置，请参阅[管理我的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization.md)。
   
 ![显示用户的音频会议属性页](../images/228550f7-92be-416d-9ab1-7c2ef54dd4e6.png)
-  
+ 
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+ 
 1. 使用你的工作或学校帐户登录 Office 365。
     
 2. Choose **Admin centers** > **Skype for Business**.
     
 3. 在业务管理中心的 Skype，选择**用户**。
     
-4. 选择您要为其管理设置，的用户，然后在操作窗格中，单击**编辑**![显示了编辑图标](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png)。
+4. 选择您要为其管理设置，的用户，然后单击在操作窗格的**编辑**![显示编辑图标](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png)。
     
-5. 选择**音频会议**在左边的导航，然后在用户的**属性**页上，修改如下：
+5. 在左侧导航窗格中，选择**要进行音频会议**，然后在用户**属性**页中，修改以下任一：
     
 |**设置**|**说明**|
 |:-----|:-----|
-|**提供程序名称** <br/> |从列表中选择您的提供商。  <br/><br/> **注意：**此表中的其余设置应用仅当您选择 Microsoft 作为音频会议提供商。           |
-|**默认收费电话号码**（必需） <br/> |对于第三方提供，这些电话号码的音频会议提供商从收到。 如果用户正在使用 Microsoft 作为音频会议提供商，这些消息将在音频会议桥设置的数字。 设置数字的格式，如您希望它们将出现在 Skype 业务和 Microsoft 小组会议请求。  <br/> |
-|**默认免费电话数量** <br/> |对于第三方提供，这些电话号码的音频会议提供商从收到。 如果用户正在使用 Microsoft 作为音频会议提供商，这些消息将在音频会议桥设置的数字。 设置数字的格式，如您希望它们将出现在 Skype 业务和 Microsoft 小组会议请求。  <br/> |
-|**允许在您的组织的 Microsoft 桥使用免费电话号码加入此用户的会议** <br/> |如果您想要允许免费电话号码的用户加入会议，请选择此选项。  <br/> |
-|**将会议信息通过电子邮件发送** <br/> |仅当您想要立即给他或她会议 ID 和电话号码向用户发送一封电子邮件，请单击此链接。 （此电子邮件不包含 PIN）。请参阅[发送一封电子邮件对他们的音频会议信息的用户](send-an-email-to-a-user-with-their-dial-in-information.md)。  <br/> |
-|**会议 ID** <br/> |如果您需要重置该用户的会议 ID，请选择**重置**。 有关详细信息，请参阅[重置用户的会议 ID](reset-a-conference-id-for-a-user.md)。  <br/> |
-|**插针** <br/> |如果您需要重置用户的 PIN，请选择**重置**。 有关详细信息，请参阅[重置用户的音频会议 PIN](reset-the-audio-conferencing-pin-for-a-user.md)。  <br/> |
-|**允许未经身份验证的调用方将在会议中的第一人** <br/> |选择此选项可允许未经身份验证的调用方是第一个加入会议。  <br/> |
-|**限制拨出的会议从该用户的** <br/> |在此列表中选择一个选项，如果您想要限制为仅，国内拨出或如果您想要禁止所有拨出的会议。  <br/> |
+|**提供程序名称** <br/> |从列表中选择您的提供商。  <br/><br/> **注意：**此表中的其余设置应用仅当选择 Microsoft 作为音频会议提供商。           |
+|**默认收费电话号码**（必需） <br/> |对于第三方提供程序，都从音频会议提供商那里收到的以下电话号码。 如果用户正在使用 Microsoft 作为音频会议提供商，这些消息将音频会议桥设置的号码。 设置的数字格式如您所愿 Skype 中显示的业务和 Microsoft 团队会议请求。  <br/> |
+|**默认免费对** <br/> |对于第三方提供程序，都从音频会议提供商那里收到的以下电话号码。 如果用户正在使用 Microsoft 作为音频会议提供商，这些消息将音频会议桥设置的号码。 设置的数字格式如您所愿 Skype 中显示的业务和 Microsoft 团队会议请求。  <br/> |
+|**允许使用组织的 Microsoft 桥中免费电话号码加入此用户的会议** <br/> |如果您想要允许的用户的免费电话号码加入会议，请选择此选项。  <br/> |
+|**发送会议信息通过电子邮件** <br/> |仅当您想要立即将电子邮件发送给他/她会议 ID 和电话号码的用户，请单击此链接。 （此电子邮件不包括 PIN）。请参阅[发送对其进行音频会议信息的用户电子邮件](send-an-email-to-a-user-with-their-dial-in-information.md)。  <br/> |
+|**会议 ID** <br/> |如果您需要重置用户的会议 ID，请选择**重置**。 有关详细信息，请参阅[重置用户的会议 ID](reset-a-conference-id-for-a-user.md)。  <br/> |
+|**PIN** <br/> |如果您需要重置用户的 PIN，请选择**重置**。 有关详细信息，请参阅[重置的音频会议 PIN](reset-the-audio-conferencing-pin.md)。  <br/> |
+|**允许未经身份验证的呼叫者要在会议中的第一个人员** <br/> |选择此选项可允许未经身份验证的呼叫者要加入会议的第一个。  <br/> |
+|**限制为电话拨出会议此用户** <br/> |如果您想要将拨出限制为仅，国内或如果您想要阻止从会议的所有电话拨出此列表中选择一个选项。  <br/> |
    
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="related-topics"></a>相关主题
 
 [管理我的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization.md)

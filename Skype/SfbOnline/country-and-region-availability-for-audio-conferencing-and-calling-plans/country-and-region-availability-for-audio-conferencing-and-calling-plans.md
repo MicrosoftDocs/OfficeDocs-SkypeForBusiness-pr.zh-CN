@@ -15,7 +15,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
@@ -23,17 +23,17 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 你可以选择某个国家/地区以查看音频会议、电话系统、通话套餐、通信点数以及收费和免费电话号码是否可用。
-ms.openlocfilehash: 4be2e366a241dfe07a22dfa6487c377283fd58ba
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 5707784f04dc52697ecd3d65b4c48ec105d10247
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
-您可以选择一个国家或地区，若要查看哪些云语音功能可供您的组织。
+您可以选择国家或地区，请参阅您的组织提供了哪些云语音功能。
 ***
-## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>选择您的国家 / 地区，若要查看适用于您的组织 ！
+## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>选择您的国家或地区，请参阅 what's 适用于您的组织 ！
 
 > [!div class="op_single_selector"]    
 > - [阿根廷](availability-in-argentina.md)
@@ -123,7 +123,7 @@ ms.lasthandoff: 04/26/2018
 > - [委内瑞拉](availability-in-venezuela.md)
 > - [越南](availability-in-vietnam.md)
 
-**如果您正在寻找一个电子表格的所有国家和地区，下载并保存[云语音功能的国家/地区的可用性的电子表格](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/country-and-region-availabilty/country-and-region-availability-(v-03202018)-(en-us).xlsx?raw=true)**。
+**如果您要查找的所有国家和地区，与电子表格下载并保存[云语音功能国家/地区可用性电子表格](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/country-and-region-availabilty/country-and-region-availability-(v-05042018)-(en-us).xlsx?raw=true)**。
 
 ***
 
@@ -131,7 +131,7 @@ ms.lasthandoff: 04/26/2018
 
 > [!NOTE]
 
-> 如果您需要为您的用户收到多个电话号码，请参阅[获得为您的用户的电话号码](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)或电话号码请求窗体、[管理您的组织的电话号码](../what-are-calling-plans-in-office-365\manage-phone-numbers-for-your-organization\manage-phone-numbers-for-your-organization.md)。
+> 如果您需要为您的用户获取更多的电话号码，请参阅[Getting 电话号码为用户](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)或电话号码请求窗体、[管理您的组织的电话号码](../what-are-calling-plans-in-office-365\manage-phone-numbers-for-your-organization\manage-phone-numbers-for-your-organization.md)。
 
 
 ## <a name="want-to-learn-more-about-these-services"></a>想要了解关于这些服务的更多信息？
@@ -163,7 +163,7 @@ ms.lasthandoff: 04/26/2018
 ### <a name="phone-system"></a>电话系统
 通过电话系统，当你添加通话套餐以便用户可以使用 Skype for Business 处理基本的通话控制任务（例如拨打和接听来电、转接来电以及将通话静音和取消静音）时，你可以创建自动助理和呼叫队列（使用收费或免费电话号码）以接听你的组织的来电。 **电话系统**用户可以单击其通讯簿中的姓名，Skype for Business 将向该人拨打呼叫。 要拨打和接听呼叫，**电话系统**用户可以使用其移动设备、耳机与笔记本电脑或台式机或者使用 Skype for Business 的其中一个 IP 电话。
 
-除了从 Office 365 获取个人用户的电话号码，还可以搜索和获取某些服务的收费或免费电话号码，如音频会议（用于会议网桥）、自动助理和呼叫队列。 这些称为服务号码。 [获得服务的电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)，以获取电话号码，请参阅。 但是对于你的用户，在将通话套餐分配给他们之后，你可以分配用户电话号码以便他们可以拨打和接听电话。 你可以在[此处](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)查找这些电话号码。 你还可以参阅[为用户分配、更改或删除电话号码](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)。 
+除了从 Office 365 获取个人用户的电话号码，还可以搜索和获取某些服务的收费或免费电话号码，如音频会议（用于会议网桥）、自动助理和呼叫队列。 这些称为服务号码。 请参阅[Getting 服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)，以获取电话号码。 但是对于你的用户，在将通话套餐分配给他们之后，你可以分配用户电话号码以便他们可以拨打和接听电话。 你可以在[此处](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)查找这些电话号码。 你还可以参阅[为用户分配、更改或删除电话号码](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)。 
 
 [电话系统的定价](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
 
@@ -186,7 +186,7 @@ ms.lasthandoff: 04/26/2018
   
 下面列出了你可以从中获取收费电话号码以用于音频会议和通话套餐的首都和主要城市。 你可以使用 **Skype for Business 管理中心**获取这些位置的收费服务号码。
   
-如果您想要获取的收费或免费的服务编号，您可以看到[前服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。 如果你已有想要从其他提供商转移的收费或免费服务号码，请参阅[管理你的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+如果您想要获取的收费电话或免费电话服务号码，您可以看到[获取服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。 如果你已有想要从其他提供商转移的收费或免费服务号码，请参阅[管理你的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
 使用页面顶部的下拉列表搜索国家或地区以及可用的服务。
 

@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-- Strat_SB_PSTN
 description: '了解在 Skype for Business 中可以为默认系统消息设置哪些语言。 '
-ms.openlocfilehash: 9be0c0677e4769c0974f0d5d53e1e906b4ac47df
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: f76193c5c3fb710ef866b40a4982cd523f9e2004
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>语音邮件问候语和消息的语言
 

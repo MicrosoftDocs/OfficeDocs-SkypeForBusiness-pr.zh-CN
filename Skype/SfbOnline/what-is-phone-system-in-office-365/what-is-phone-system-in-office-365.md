@@ -1,73 +1,74 @@
 ---
-title: Office 365 中的电话系统是什么？
+title: 什么是 Office 365 中的电话系统？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-- Strat_SB_PSTN
-description: '了解有关电话系统可以为您做些什么。 '
-ms.openlocfilehash: 96f062ac14533a47121afbd3d31ea44a61c3c328
-ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
+description: '了解有关电话系统可以为您执行的操作。 '
+ms.openlocfilehash: 91b0b7881894a2c0f2a1aed0a979fc67a8eb5837
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="what-is-phone-system-in-office-365"></a>Office 365 中的电话系统是什么？
+# <a name="what-is-phone-system-in-office-365"></a>什么是 Office 365 中的电话系统？
 
-## <a name="phone-system-in-office-365-and-skype-for-business-server"></a>Office 365 中的系统和 Skype 电话业务服务器
+## <a name="phone-system-in-office-365-and-skype-for-business-server"></a>在 Office 365 和 Skype 业务服务器中的电话系统
 
-**电话系统**是在线业务和 Microsoft 团队中启用呼叫控制和 Skype 与 Office 365 云中的 PBX 功能的 Microsoft 技术。 电话系统允许您替换现有的 PBX 系统的一组功能从 Office 365 提供并紧密地集成到您的组织的云体验。 有关这些功能的详细信息，请参阅[此处是与 Office 365 中的电话系统获取的内容](here-s-what-you-get-with-phone-system.md)。
+**电话系统**是启用业务 Online 和 Microsoft 团队呼叫控制和 PBX 功能在 Office 365 云中与 Skype 的 Microsoft 技术。 电话系统允许您现有的 PBX 系统替换为一组从 Office 365 中发送和紧密集成到您的组织的云体验的功能。 有关功能的详细信息，请参阅[下面是与 Office 365 中的电话系统获取的内容](here-s-what-you-get-with-phone-system.md)。
   
-电话系统，用户可以使用 Skype 的在线业务和 Microsoft 小组来处理基本呼叫控制任务，如放置和接收呼叫，联络和静音和 unmuting 呼叫转移。 电话系统用户可以单击它们的通讯簿中的名称和 Skype 业务或 Microsoft 小组发出呼叫给此人。 发出和接收呼叫，电话系统用户可以使用他们的移动设备使用膝上型电脑或 PC 或对业务和 Microsoft 小组使用 Skype 的许多 IP 电话的一个头戴式耳机。 对于管理员，电话系统提供管理中相同的管理控制台使用的消息服务、 协作、 电话等的能力。
+与电话系统，您的用户可以使用业务 Online 和 Microsoft 团队的 Skype 来处理的基本呼叫控件任务，如发出和接收呼叫、 转接呼叫和静音和 unmuting 呼叫。 电话系统的用户可以单击其通讯簿中的姓名和适用于商务或 Microsoft 团队的 Skype 发出呼叫的人。 要发起和接收呼叫，电话系统用户可以使用其移动设备与便携式计算机或 PC 或使用 Skype 业务和 Microsoft 团队的许多 IP 电话的一个耳麦。 对于管理员，电话系统提供的功能管理呼叫中同一个管理控制台用于消息、 协作，等等。
   
-与传统的 PBX 系统，您组织中的用户之间的调用处理内部电话系统，并永远不会转到 PSTN。 这适用于位于不同的地理区域，您组织中的用户删除这些内部调用的远距离成本之间的调用。
+与传统 PBX 系统，您的组织中的用户之间的呼叫中电话系统，内部处理，并从不转到 PSTN。 这适用于位于不同地理区域，贵组织中的用户删除这些内部呼叫长途成本之间的呼叫。
   
-若要启用对 landlines 和移动电话，电话系统可以连接到 PSTN 中两种方法之一：
+若要启用对 landlines 和移动电话的呼叫，电话系统可以连接到 PSTN 中两种方式之一：
   
-- 通过购买一个调用计划 （国内或国内和国际） 到 Office 365。 请参阅[调用计划是什么？](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
+- 通过购买调用规划 （国内或国内和国际） 到 Office 365。 请参阅[调用计划是什么？](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
     
-- 通过使用内部部署的 PSTN 连接性，与现有的电话基础结构上部署的软件连接的位置。 请参阅[规划您的电话系统](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md)。
+- 通过使用内部部署 PSTN 连接，其中软件本地连接和现有电话基础结构。 请参阅[规划电话系统](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md)。
 
 ![描述云 PBX 服务](../../SfbServer/media/29fd12ab-e86f-422d-b4d6-0b75824211bc.png).
 
-## <a name="more-about-calling-plans"></a>有关调用计划详细信息
+## <a name="more-about-calling-plans"></a>有关调用计划的详细信息
 
-在 Office 365 中使用电话系统调用计划加载项使调用 landlines 和 （取决于服务获得许可的级别） 在世界各地的移动电话的 PSTN 连接。 你的用户驻留在云中，并且启用了 Microsoft 提供的具有呼叫计划附加设备的电话系统。 使用调用计划不需要内部服务器部署。 电话计划仅适用于 Office 365 中的电话系统，不能与另一个 PBX 系统使用调用计划。
+Office 365 中使用电话系统调用规划加载项，用于 landlines 和 （具体取决于的许可的服务级别） 世界各地的移动电话的呼叫的 PSTN 连接。 你的用户驻留在云中，并且启用了 Microsoft 提供的具有呼叫计划附加设备的电话系统。 使用调用计划不需要在本地服务器部署。 呼叫计划只使用 Office 365 中的电话系统，并且无法与另一个 PBX 系统使用调用计划。
 
 ![该拓扑图显示云 PBX 和 PSTN 呼叫（这是完整的云中语音解决方案）。](../../SfbServer/media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
-由于调用计划运行 Office 365 内，这是一种完全-中--云服务，不需要内部服务器部署。 您可以选择使用国内或国内和国际调用计划，它将分配给您希望调用的每个用户。 [想知道更多吗？](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
+调用计划在 Office 365 中运行，因为这是不需要在本地服务器部署完全--云中产品。 您可以使用国内或国内和国际呼叫计划，请选择其分配给每个用户想要发起呼叫。 [想了解更多信息？](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
   
-托管业务联机或 Microsoft Office 365 中的小组在 Skype 的用户将有权访问 Office 365 提供语音服务。 Microsoft 是核心呼叫和 PSTN 服务的提供商，甚至可以提供或移植您的用户的电话号码。 
+驻留在 Skype 业务 Online 或 Office 365 中的 Microsoft 团队的用户将有权访问 Office 365 语音服务。 Microsoft 是核心呼叫和 PSTN 服务的提供商，甚至可以提供或移植您的用户的电话号码。 
   
-Office 365 中调用计划允许您搜索、 获取，并指派到您组织中的用户的电话号码，以便用户可以进行并与组织内外的人接听电话。
+Office 365 中调用计划允许您搜索，获取，以及分配组织中用户的电话号码，以便用户可以发起和接收电话呼叫与您的组织内外的人员。
   
-在所有类型，具有允许用户发送和接收语音呼叫的电话号码是业务的做生意，一项重要要求，因为电话号码用来标识用户，并允许跨部门沟通。 指定电话号码的用户将能够跨所有业务和 Microsoft 的小组的设备，包括 VoIP 电话、 电脑和移动设备为 Skype 进行语音呼叫。 
+在所有类型，具有允许用户发送和接收语音呼叫的电话号码是业务的开展业务，重要的要求，如电话号码用来标识用户和组织允许进行通信。 分配电话号码的用户将能够跨所有 Skype 的业务和 Microsoft 团队的设备，包括 VoIP 电话、 Pc 和移动设备发起语音呼叫。 
 
-（国内和国内和国际） 电话计划的不断增长，但具体的地理位置。 请检查您的国家 / 地区中的[可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 
+特定但不断增长的地理位置中提供了呼叫计划 （国内和国内和国际）。 请检查您的国家 / 地区内的[可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 
 
-**准备好开始了吗？**  若要设置您的通话方案为您的用户，请参阅[设置调用计划](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)。  
+**准备好开始了吗？**  若要设置为您的用户调用计划，请参阅[设置调用计划](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)。  
 
-## <a name="phone-system-with-services"></a>电话服务系统
- Aso 可用于服务和语音邮件的电话系统：
-- **自动助理** 在 Office 365 可以使用自动助理创建为您的组织允许内部和外部的调用方的菜单系统的电话系统移动的菜单系统，以查找并放置或转移求助电话公司用户或您的组织中的部门。 请参阅[电话系统自动助理是什么？](what-are-phone-system-auto-attendants.md)
+## <a name="phone-system-with-services"></a>服务与电话系统
+ 电话系统可以 aso 用于服务和语音邮件：
+- **自动助理** 自动助理可以用于创建您的组织允许外部和内部呼叫者菜单系统的 Office 365 中的电话系统移动菜单系统，以查找并放置或将呼叫转接到的公司用户或您的组织中的部门。 请参阅[电话系统自动助理是什么？](what-are-phone-system-auto-attendants.md)
 
-- **电话队列** 与电话系统，您可以创建调用队列问候某人连接到为您的组织; 一个电话号码时使用这包括能够自动将呼叫置于保持状态并搜索下一个可用的呼叫代理处理该调用时调用收听音乐暂候状态的人的能力。 您可以为您的组织创建单个或多个调用队列。 请参阅[创建电话系统调用队列](create-a-phone-system-call-queue.md)。
+- **呼叫队列** 与电话系统，您可以创建有人呼叫到您的组织; 电话号码时使用的呼叫队列问候语这包括自动将呼叫置于保持状态的功能和下一个可用呼叫代理处理该呼叫时呼叫收听保持音乐的人员搜索的功能。 您可以为组织创建单个或多个呼叫的队列。 请参阅[创建电话系统呼叫队列](create-a-phone-system-call-queue.md)。
 
-- **语音邮件**当电话系统许可证获得用户时，该用户将能够获得由调用方保留的语音邮件。 自动设置和分配给他们的电话系统许可证及电话号码后为用户提供电话系统语音邮件。 请参阅[设置电话系统语音邮件](phone-system-voicemail/set-up-phone-system-voicemail.md)。
+- **语音邮件**当您获取用户的电话系统许可证时，该用户将能够获取已通过呼叫者已离开的语音邮件。 自动设置电话系统的语音邮件并将其分配给他们的电话系统许可证和电话号码后，为用户设置。 请参阅[设置电话系统的语音邮件](phone-system-voicemail/set-up-phone-system-voicemail.md)。
 
-如果你准备好开始，请参阅[设置您的组织中的电话系统](setting-up-your-phone-system.md)。
+如果您已准备好开始，请参阅[设置您的组织中的电话系统](setting-up-your-phone-system.md)。
 
 ## <a name="related-topics"></a>相关主题
 - [Skype for Business 和 Microsoft Teams 外接程序许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)

@@ -15,23 +15,22 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
-description: Office 365 中的电话系统提供用户的指定的电话号码的默认呼叫方 ID。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 您可以了解有关如何使用您的组织中如何呼叫方 ID 可在您的组织的转的呼叫方 ID 的详细信息。
-ms.openlocfilehash: 8935aa0c7cf54ef5bb04fefa10957daaf91a560f
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: Office 365 中的电话系统提供的默认呼叫者 ID 的用户的分配的电话号码。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 您可以了解有关如何使用您的组织中的呼叫者 ID，转如何可以呼叫者 ID 是您组织中使用的详细信息。
+ms.openlocfilehash: 8e1ba6806ea48b0a33e70b0dcc21dfdece8e52a8
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="set-the-caller-id-for-a-user"></a>为用户设置来电显示
-Office 365 中的电话系统提供用户的指定的电话号码的默认呼叫方 ID。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 您可以了解有关如何使用您的组织中[如何呼叫方 ID 可在您的组织](how-can-caller-id-be-used-in-your-organization.md)通过的呼叫方 ID 的详细信息。
+Office 365 中的电话系统提供的默认呼叫者 ID 的用户的分配的电话号码。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 您可以了解有关如何使用您的组织中的呼叫者 ID，转[如何可以呼叫者 ID 是您组织中使用](how-can-caller-id-be-used-in-your-organization.md)的详细信息。
   
 > [!TIP]
-> 对于在线业务，不能阻止当前在 Skype 的传入呼叫。 
+> 不能为业务 Online 阻止正在 Skype 的传入呼叫。 
   
 你可以更改以下设置：
   
@@ -43,9 +42,9 @@ Office 365 中的电话系统提供用户的指定的电话号码的默认呼叫
     > [!NOTE]
     > [!注释] 如果要使用  _Service_ 参数，必须指定有效的服务号码。
   
-- **阻止他们的出站呼叫方 ID**您可以阻止用户拨出的 PSTN 呼叫发送传出的呼叫方 ID。 执行此操作将阻止其电话号码显示在被呼叫者的电话上。
+- **阻止其出站呼叫者 ID**您可以阻止发送用户的传出 PSTN 呼叫传出的呼叫者 ID。 执行此操作将阻止其电话号码显示在被呼叫者的电话上。
     
-- **阻止其传入的呼叫方 ID**您可以阻止用户从任何传入的 PSTN 呼叫接收呼叫方 ID。
+- **阻止其传入的呼叫者 ID**您可以阻止用户接收任何传入 PSTN 呼叫的呼叫者 ID。
     
 > [!IMPORTANT]
 > [!重要信息] 紧急呼叫始终发送用户的电话号码（来电显示号码）。 
@@ -57,7 +56,7 @@ Office 365 中的电话系统提供用户的指定的电话号码的默认呼叫
 ## <a name="set-your-caller-id-policy-settings"></a>设置你的来电显示策略设置
 
 > [!NOTE]
-> 对于所有在 Skype 在线业务的呼叫方 ID 设置，您必须使用 Windows PowerShell 并且您**不能使用****业务管理中心的 Skype**。 
+> 对于所有的呼叫者 ID 设置 Skype 中的业务 Online，您必须使用 Windows PowerShell 和您**不能使用****业务管理中心的 Skype**。 
   
 ### <a name="verify-and-start-windows-powershell"></a>验证并启动 Windows PowerShell
 
@@ -98,50 +97,49 @@ Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modul
   Import-PSSession $session
   ```
 
-如果希望在启动 Windows PowerShell 的详细信息，请参阅[连接到一个 Windows PowerShell 窗口中的所有 Office 365 提供服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[连接到使用 Windows PowerShell 在线业务 Skype](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
     
 ### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>查看你组织中的所有来电显示策略设置
 
-- 若要查看所有的呼叫方 ID 策略设置您的组织中，请运行：
+- 若要查看您的组织中的所有呼叫者 ID 策略设置，请运行：
 
   ```
   Get-CsCallingLineIdentity |fl
   ```
-请参阅[获取 CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx)更多示例和详细信息。
+有关[获取 CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx)，请参阅更多示例和详细信息。
     
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>为你的组织创建新的来电显示策略
 
 
-- 若要创建一个新的呼叫者 ID 策略，将呼叫方 ID 设置为匿名，运行：
+- 若要创建新的呼叫者 ID 策略将呼叫者 ID 设置为匿名，请运行：
     
   ```
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
   ```
-
   > [!NOTE]  
-  > 在所有情况下，在"服务号码"字段不应包括初始"+"。
+  > 在所有情况下，在"服务号码"字段不应包含初始"+"。
 
-  对于[新建 CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx)查看更多示例和详细信息。
+  用于[新建 CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx)，请参阅更多示例和详细信息。
     
-- 若要将您创建的新策略应用于 Amos 大理石，运行：
+- 若要向 Amos 大理石应用您创建的新策略，请运行：
     
   ```
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
   请参阅有关 [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) cmdlet 的更多信息。
     
-如果您已经创建一个策略，可以使用[一组 CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) cmdlet 可以更改现有的策略，并将[授予 CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) cmdlet 将设置应用于您的用户。
+如果您已经创建策略，可以使用[集 CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) cmdlet 可以更改现有的策略，并将[授予 CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) cmdlet 将设置应用于您的用户。
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>对其进行设置以阻止传入来电显示
 
-- 若要阻止传入的呼叫方 ID，请运行：
+- 若要阻止的传入呼叫者 ID，请运行：
     
   ```
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
-  有关[设置 CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx)，请参见更多示例和详细信息。
+  有关[设置 CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx)，请参阅更多示例和详细信息。
     
-- 若要将您创建的策略设置应用于您的组织中的用户，运行：
+- 若要向您的组织中的用户应用您创建的策略设置，请运行：
     
   ```
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
@@ -183,9 +181,11 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 
 [管理你的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
+[有关调用行 ID 和呼叫方姓名的详细信息](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
+
 [紧急呼叫条款和条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
-  
+ 
  

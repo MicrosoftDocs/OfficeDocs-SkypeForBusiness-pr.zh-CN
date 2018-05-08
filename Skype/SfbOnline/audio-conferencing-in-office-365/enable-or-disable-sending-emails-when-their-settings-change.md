@@ -1,5 +1,5 @@
 ---
-title: 启用或禁用发送电子邮件，当其设置更改
+title: 启用或禁用发送电子邮件时其设置更改
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,103 +15,105 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: 9db213285a24ad0a67d305a84f275f21ce741013
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: a588c5b425fe3d71ecd6d73193348b98e8e2f298
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>启用或禁用发送电子邮件时更改音频会议设置
 
-自动通过电子邮件通知用户，当他们启用音频会议。 可能的时间，不过，当您想要减少发送到 Skype 业务和 Microsoft 小组的用户的电子邮件的数量。 在这种情况下，您可以禁用发送电子邮件。
+他们启用音频会议时，将自动通过电子邮件通知用户。 可能有的时间，但是，当您想要减少的电子邮件发送给 Skype 业务和 Microsoft 团队的用户数。 在这种情况下，您可以禁用发送电子邮件。
   
-音频会议电子邮件如果您禁用发送电子邮件时，将不会发送给您的用户，包括电子邮件的用户启用或禁用音频会议，以及会议 ID 和默认会议电话号码更改时重置其 PIN，.
+如果您禁用发送电子邮件，就不会音频会议电子邮件发送给用户，当用户处于启用或禁用音频会议以及会议 ID 和默认会议电话号码的更改时重置其 PIN，包括电子邮件.
   
-下面是他们启用音频会议时，向用户发送的电子邮件的一个示例：
+下面是他们启用音频会议时，向用户发送的电子邮件的示例：
   
 ![音频会议电子邮件](../images/audio-conferencing-user-enabled.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>什么时候向用户发送电子邮件？
 
-- 有几个之后发送给您的组织中的用户启用音频会议的电子邮件：
+- 有多个电子邮件发送给组织中的用户启用了后为音频会议：
     
-  - 当**音频会议**许可分配给它们。
+  - 当**音频会议**许可证分配给它们。
     
-  - 当您手动重置用户的音频会议针。
+  - 当您手动重置用户的音频会议 PIN。
     
   - 当你手动重置用户的会议 ID 时。
     
-  - 从中删除**音频会议**许可的时间。
+  - 当**音频会议**许可证已从它们。
     
-  - 当用户的音频会议提供商从 Microsoft 更改为另一个提供程序，或**无**。
+  - 当用户的音频会议提供商从 Microsoft 更改为其他提供程序或**无**。
     
-  - 给 Microsoft 更改时用户的音频会议提供商。
+  - 向 Microsoft 更改时用户的音频会议提供商。
     
-## <a name="enable-or-disable-email-from-being-sent-to-users"></a>启用或禁用发送到用户的电子邮件
+## <a name="enable-or-disable-email-from-being-sent-to-users"></a>启用或禁用从发送给用户的电子邮件
 
-您可以使用 Microsoft 小组、 业务管理中心，为 Skype 或 Windows PowerShell 启用或禁用电子邮件发送给用户。
+您可以使用的 Microsoft 团队、 业务管理中心中，为 Skype 或 Windows PowerShell 启用或禁用电子邮件发送给用户。
 
-**使用 Microsoft 小组和 Skype 业务管理中心**
-1. 在左侧的导航中，转到**会议** > **会议桥**。 
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
+1. 在左侧导航窗格中，转到**会议** > **会议桥**。 
 
-2. 在**会议桥**页的顶部，单击**桥接器设置**。 
+2. 在**会议桥**页的顶部，单击**网桥的设置**。 
 
-3. **网桥的设置**窗格中启用或禁用**自动发送电子邮件发送给用户，如果他们拨入设置更改**。
+3. 在**桥设置**窗格中，启用或禁用**自动发送电子邮件发送给用户，如果其电话拨入式设置更改**。
 
-4. 单击“**应用**”。
+4. 单击" **保存**"。
   
-**使用 Skype 业务管理中心**
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
     
-1. 在**业务管理中心的 Skype**，在左边的导航，请单击**音频会议**。
+1. 在**业务管理中心的 Skype**，在左侧导航窗格中，单击**音频会议**。
     
-2. 在**Microsoft 桥设置**页上，选中或清除**自动发送电子邮件发送给用户，如果他们的音频会议设置更改**。
+2. 在**Microsoft 网桥的设置**页上，选中或清除**自动发送电子邮件发送给用户，如果其音频会议设置更改**。
     
 3. 单击" **保存**"。
     
     > [!TIP]
-    > 您还可以发送电子邮件给用户使用音频会议设置**音频会议**到 > **用户**，选择用户，然后单击**将会议信息通过电子邮件发送**。  如果这样做，将发送一封电子邮件，只包含会议 ID 和会议电话号码，但不是针。  有关详细信息，请参阅[发送一封电子邮件对他们的音频会议信息的用户](send-an-email-to-a-user-with-their-dial-in-information.md)。
+    > 您还可以发送电子邮件向用户使用音频会议设置，转到**音频会议** > **用户**，选择用户，并单击**发送电子邮件的会议信息**。  如果执行此操作时，将仅包含会议 ID 和会议电话号码，但不是 PIN 发送电子邮件。  有关详细信息，请参阅[发送对其进行音频会议信息的用户电子邮件](send-an-email-to-a-user-with-their-dial-in-information.md)。
   
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 **使用 Windows PowerShell**
   
-- 运行以下操作来禁用发送电子邮件： 
+- 运行以下命令以禁用发送电子邮件： 
     
   ```
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
   ```
 
-    此 cmdlet 的帮助信息，请参阅[设置 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757)。
+    此 cmdlet 的帮助，请参阅[设置 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757)。
     
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
 
-- 禁用了自动电子邮件，可以手动触发发送一封电子邮件对业务管理中心使用 Skype 的会议 ID 和电话号码。 但是，如果这样做，将不会包含 PIN。 如果您想重置 PIN 音频会议，发送电子邮件被禁用，需要将其发送给用户，以另一种方式。
+- 禁用自动电子邮件后，您可以仍手动触发发送电子邮件与业务管理中心的使用 Skype 的会议 ID 和电话号码。 但是，如果执行此操作时，将不会包含 PIN。 如果您要重置 PIN 的音频会议和发送电子邮件被禁用，您需要向用户发送中另一种方法。
     
 - 可以使用 Skype for Business 管理中心或 Windows PowerShell 禁用向用户发送电子邮件。
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
-- 这些 cmdlet 可用于节省时间或实现自动操作。
+- 可以使用这些 cmdlet 来节省时间或自动此操作。
     
-  - [获得 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
+  - [Get CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
     
   - [删除 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715759)
     
-  - [获得 CsOnlineDialinConferencingTenantConfiguration](https://go.microsoft.com/fwlink/?LinkId=715758)
+  - [Get CsOnlineDialinConferencingTenantConfiguration](https://go.microsoft.com/fwlink/?LinkId=715758)
     
-  - [获得 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
+  - [Get CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
     
 -  Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为什么需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为什么您需要使用 Office 365 PowerShell 中](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 许多相比具有的优势在速度、 简易性和生产率仅使用 Office 365 管理中心，例如，当将设置更改为许多用户一次。 请在以下主题中了解这些优点： 
+- Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过只使用 Office 365 管理中心中的，如时要进行设置更改多个用户一次。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -124,7 +126,7 @@ ms.lasthandoff: 04/18/2018
   
 ## <a name="related-topics"></a>相关主题
 
-[他们的音频会议设置更改时向用户发送电子邮件](emails-sent-to-users-when-their-settings-change.md)
+[其音频会议设置更改时向用户发送的电子邮件](emails-sent-to-users-when-their-settings-change.md)
 
 [对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-dial-in-information.md)
 

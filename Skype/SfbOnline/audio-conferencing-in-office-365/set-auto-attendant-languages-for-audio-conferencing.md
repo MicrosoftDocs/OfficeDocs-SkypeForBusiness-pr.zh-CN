@@ -15,70 +15,72 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
-description: 了解如何选择音频会议号码的音频会议自动助理语言。
-ms.openlocfilehash: 6b3d0f2fd9a74429a0b1817fc3987c0fdef8698e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 请参阅如何选择音频会议号码的音频会议自动助理语言。
+ms.openlocfilehash: c4461f61ce05afedc2663a3e5b61d37370394cd4
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing"></a>设置音频会议自动助理语言
 
-Skype 业务和 Microsoft 小组音频会议自动助理可以上任之初即音频呼叫者以多种不同的语言时他们加入会议。
+当用户加入会议时，业务和 Microsoft 团队的 Skype 音频会议自动助理可以通过多种不同的语言问候音频呼叫者。
   
-选择一种主要的语言，多达四种第二语言。 将首先使用您设置的主要语言和辅助语言将由自动助理，以便您选择。 
+选择一种主要语言和高达四种辅助语言。 将首先使用您之前设置的主要语言和自动助理将使用的辅助语言，以便您选择。 
   
 > [!NOTE]
->  在国内的音频访问电话号码，您可以配置语言。
+>  您可以在仅限国内音频访问电话号码配置语言。
   
-## <a name="set-the-conferencing-auto-attendant-languages"></a>设置自动助理语言的会议
+## <a name="set-the-conferencing-auto-attendant-languages"></a>设置会议自动助理语言
 
-**使用 Microsoft 小组和 Skype 业务管理中心**
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
 
-1. 在左侧的导航中，转到**会议** > **会议桥**。
+1. 在左侧导航窗格中，转到**会议** > **会议桥**。
 
-2. 选择音频会议电话号码，从列表中，并在页面的顶部，单击**编辑**。
+2. 选择音频会议电话号码，从列表中，并在页面顶部，单击**编辑**。
 
-3. 在右侧窗格中，选择所需的默认语言和所有备用语言。 
+3. 在右侧窗格中，选择所需的默认语言和任何备用语言。 
  
     > [!NOTE]
-    > 列出了默认和支持的备用语言。 所选的这些列表中的顺序将向调用方提供的语言的顺序。 
+    > 列出默认和备用语言支持。 在其中选择这些列表中的顺序将向呼叫者显示的语言的顺序。 
 
 4. 单击“**应用**”。
 
-**在线使用 Skype 业务**
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **for Business 联机使用 Skype**
 
-您必须是[Office 365 全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)或[Skype 业务管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行此步骤。
+您必须是[Office 365 全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)或[Skype 针对业务管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行此步骤。
     
-1. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议**，然后单击**Microsoft 桥**。
+1. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议**，然后单击**Microsoft 桥**。
     
-2. 从列表中，然后在操作窗格中选择的音频会议电话号码，请单击**设置语言**。 
+2. 选择音频会议电话号码，从列表中，并在操作窗格中，单击**设置语言**。 
     
-3. 在**设置语言**页上，单击**主要语言**列表以查看可用语言的完整列表。 如果需要请单击每个**辅助语言**列表以选择第二种语言。
+3. 在**设置语言**页上，单击**主要语言**列表，以查看可用的语言的完整列表。 如果需要请单击每个**辅助语言**列表选择辅助语言。
     
     > [!NOTE]
-    > [!注释] 则会显示所支持的主要和辅助语言。 所选的这些列表中的顺序将向调用方提供的语言的顺序。 
+    > [!注释] 则会显示所支持的主要和辅助语言。 在其中选择这些列表中的顺序将向呼叫者显示的语言的顺序。 
   
 4. 单击" **保存**"。
     
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="want-else-should-i-know"></a>还需了解哪些信息？
 
-- 以音频会议，请参阅受支持语言的列表，请参阅[音频会议支持的语言](audio-conferencing-supported-languages.md)。
+- 若要进行音频会议，请参阅支持的语言的列表，请参阅[音频会议支持的语言](audio-conferencing-supported-languages.md)。
     
-- 语言设置为专用，但不适用于共享的电话号码。
+- 专用的而不是为共享的电话号码，可以设置语言。
     
-- 若要查看可用的提供程序使用 Microsoft Office 365 中的音频会议是国家/地区的列表，请参阅[音频电话会议的电话号码](phone-numbers-for-audio-conferencing.md)。
+- 若要查看的国家/地区内使用为提供程序的 Microsoft Office 365 中的音频会议位于列表，请参阅[音频会议的电话号码](phone-numbers-for-audio-conferencing.md)。
     
 ## <a name="want-to-use-windows-powershell"></a>要使用 Windows PowerShell？
 
-要自动完成此步骤，您可以使用[组 CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689)和[Get CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) cmdlet。
+自动执行此步骤，您可以使用[集 CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689)和[Get CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) cmdlet。
   
-若要了解详细信息，请参阅[使用 Windows PowerShell 做常用 Skype 业务联机管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
+若要了解详细信息，请参阅[使用 Windows PowerShell，可以执行的业务 Online 管理任务的常见 Skype](https://go.microsoft.com/fwlink/?LinkId=525038)
   
 ## <a name="related-topics"></a>相关主题
 

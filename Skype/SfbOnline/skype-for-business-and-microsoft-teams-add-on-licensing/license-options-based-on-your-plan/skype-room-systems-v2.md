@@ -14,18 +14,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Licensing
-- Strat_SB_PSTN
 - LIL_Placement
-description: '了解在 Skype 的空间系统 v2 中可用的功能。 '
-ms.openlocfilehash: 420fd8dcd7f97ef9ab4844b485eaf84e112b3856
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: '了解 Skype 会议室系统 v2 中可用的功能。 '
+ms.openlocfilehash: 65e40f0a040e5c901e69123135075e01bf183333
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="skype-room-systems-v2"></a>Skype 会议室系统 v2
 <a name="bkmk_srs"> </a>
@@ -37,13 +36,13 @@ ms.lasthandoff: 04/18/2018
   
 |||||
 |:-----|:-----|:-----|:-----|
-|**Skype 会议室系统方案** <br/> |**您当前拥有 Office 365 特优、 Office 365 ProPlus0 或 Skype 的业务独立计划 2。** <br/> **需要购买的项目：** <br/> |**你当前使用的是基于企业的计划。** <br/> **需要购买的项目：** <br/> |**已有 Skype for Business Server 2015（本地或混合）。** <br/> **需要购买的项目：** <br/> |
+|**Skype 会议室系统方案** <br/> |**您当前拥有 Office 365 Premium、 Office 365 ProPlus0 或 Skype 的业务独立计划 2。** <br/> **需要购买的项目：** <br/> |**你当前使用的是基于企业的计划。** <br/> **需要购买的项目：** <br/> |**已有 Skype for Business Server 2015（本地或混合）。** <br/> **需要购买的项目：** <br/> |
 |加入计划的会议。  <br/> |Skype for Business 独立计划 1  <br/> |E1、3、4 或 5  <br/> |Skype for Business Server 标准 CAL  <br/> |
-|启动的特别会议。  <br/> |Skype for Business 独立计划 2  <br/> |E1、3、4 或 5  <br/> |Skype for Business Server 标准 CAL  <br/> Skype for Business Server 企业 CAL  <br/> |
-|发起召开特别会议，从会议到电话号码拨出。  <br/> |Skype 的音频会议的业务独立计划 2  <br/> **注意：**通信片尾是可选的。           |E1 或 E3 与音频会议  <br/> 或者  <br/> E5  <br/> |Skype for Business 标准 CAL  <br/> Skype for Business Server 企业 CAL  <br/> |
-|提供一个电话号码的房间并进行或从文件室中接听或加入音频会议中使用的电话号码。  <br/> |Skype 业务独立计划 2 与 Office 365 的电话系统和电话计划  <br/> **注意：**通信片尾是可选的。           |E1 或 E3 Office 365 电话系统和一个 Office 365 电话计划  <br/> 或者  <br/> E5  <br/> |Skype for Business Server 标准 CAL  <br/> Skype for Business Server Plus CAL  <br/> |
+|启动临时会议。  <br/> |Skype for Business 独立计划 2  <br/> |E1、3、4 或 5  <br/> |Skype for Business Server 标准 CAL  <br/> Skype for Business Server 企业 CAL  <br/> |
+|启动临时会议和电话号码从会议拨出。  <br/> |Skype 的音频会议的业务独立计划 2  <br/> **注意：**Communications 字幕式是可选的。           |E1 或与音频会议 E3  <br/> 或者  <br/> E5  <br/> |Skype for Business 标准 CAL  <br/> Skype for Business Server 企业 CAL  <br/> |
+|提供一个电话号码的聊天室和使聊天室接收呼叫或加入音频会议中使用的电话号码。  <br/> |Skype 的业务独立计划 2 与 Office 365 电话系统和呼叫计划  <br/> **注意：**Communications 字幕式是可选的。           |E1 或 Office 365 电话系统与 Office 365 呼叫计划 E3  <br/> 或者  <br/> E5  <br/> |Skype for Business Server 标准 CAL  <br/> Skype for Business Server Plus CAL  <br/> |
    
- **使用正确版本的 Windows 10**： 特定版本的 Windows 10 是必需的对于那些想要将 Windows 10 映像部署到其设备的客户，并且此版本仅适用于正在批量许可客户。 你需要使用 **Windows 10 企业版 1607 或更高版本** 来映像 Skype 会议室系统 2.0 版设备。 您可以复制从[卷授权服务中心](https://www.microsoft.com/Licensing/servicecenter/)。
+ **使用正确的版本的 Windows 10**： 为想要部署到其设备上的 Windows 10 图像的客户，Windows 10 的特定版本是必需的且仅适用于批量许可客户此版本。 你需要使用 **Windows 10 企业版 1607 或更高版本** 来映像 Skype 会议室系统 2.0 版设备。 从[批量许可服务中心](https://www.microsoft.com/Licensing/servicecenter/)，可以获得的副本。
   
 
     

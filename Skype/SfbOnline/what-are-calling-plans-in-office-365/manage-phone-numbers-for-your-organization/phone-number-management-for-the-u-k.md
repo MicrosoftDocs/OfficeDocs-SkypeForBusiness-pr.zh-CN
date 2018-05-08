@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的英国 (U.K.) 电话号码的信息。
-ms.openlocfilehash: 14c20714870608857e9a60e39d6ff3ddd26ba993
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 19781a5997057010d5a570aa82ac2ab9375bbfd6
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="phone-number-management-for-the-uk"></a>英国的电话号码管理
 
@@ -35,8 +34,8 @@ ms.lasthandoff: 04/26/2018
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取新用户的电话号码没有列出的在 Skype 业务管理中心。   <br/> |下载[英国的新电话号码申请（地理号码）(v.3.0)(en-us)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-u.k.-(geographic-numbers)-(v.3.0)-(en-us).pdf) 表单，填写此表单并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
-|在 Skype 获得业务管理中心没有列出的新服务电话号码。 <br/> |在美国以外的服务编号，请[下载此窗体](../../downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf)，填充出来并[将其发送给我们](mailto:ptneu@microsoft.com)。
+|获取业务管理中心 Skype 中未列出的新用户电话号码。   <br/> |下载[英国的新电话号码申请（地理号码）(v.3.0)(en-us)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-u.k.-(geographic-numbers)-(v.3.0)-(en-us).pdf) 表单，填写此表单并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
+|获取业务管理中心 Skype 中未列出的新服务电话号码。 <br/> |服务美国之外的号码，请[下载此窗体](../../downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf)、 填充出并[将其向我们发送](mailto:ptneu@microsoft.com)。
 |你需要将电话号码转移给我们。  <br/> |下载下列表单之一： <br/> [英国授权书 (LOA)（地理号码）(v.2.0)(en-us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en-us).pdf) <br/> [英国授权书 (LOA)（非地理号码）(v.2.1)(en-us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en-us).pdf) <br/> <br/> 填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
 |你需要在国家电话目录中发布/取消发布电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
 |你需要将用户的号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com )你想要转换为服务号码的用户号码列表。 <br/> |

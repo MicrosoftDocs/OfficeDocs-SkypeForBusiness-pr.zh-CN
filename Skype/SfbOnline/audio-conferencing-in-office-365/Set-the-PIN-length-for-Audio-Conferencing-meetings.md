@@ -1,5 +1,5 @@
 ---
-title: 设置音频会议的会议的针长度
+title: 设置音频会议的 PIN 长度
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,50 +15,52 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business.
-ms.openlocfilehash: b20e782955b946f676cca5221f63b06cdd4d1be1
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 318e24bf30563d0a790584f9c1ccceb01d93c793
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>设置音频会议的会议的针长度
+# <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>设置音频会议的 PIN 长度
 
-当您要设置音频会议 Skype 业务或 Microsoft 小组时，您将看到音频会议桥。 会议网桥可以包含一个或多个电话号码。 您设置的电话号码将包括在会议邀请的 Skype 业务和 Microsoft 小组应用程序。
+当您要设置音频会议的 Skype 适用于商务或 Microsoft 团队时，您将看到音频会议桥。 会议网桥可以包含一个或多个电话号码。 设置您的电话号码将包含在会议邀请上的 Skype 业务和 Microsoft 团队的应用程序。
   
-音频会议桥的拨入会议使用电话的人应答呼叫。 从自动助理，然后根据您的设置，它会回答带语音提示的调用方，可以播放通知并要求调用方来记录他们的姓名。 **Microsoft 网桥的设置**允许您更改的设置会议通知和会议加入体验，并将由会议组织者的针脚长度设置。 会议组织者使用针脚来启动会议，如果他们不能参加会议的业务或 Microsoft 小组应用程序使用 Skype。
+音频会议桥的会议使用电话拨入的人员接听电话。 其接听呼叫者使用语音提示从自动助理，然后，具体取决于您的设置，可以播放通知以及提出呼叫者在记录其姓名。 **Microsoft 桥设置**允许您更改会议通知的设置和会议加入体验，并设置由会议组织者 Pin 长度。 会议组织者使用 Pin 如果无法加入会议的业务或 Microsoft 团队应用程序使用 Skype 启动会议。
   
 ## <a name="setting-the-pin-length"></a>设置 PIN 长度
 
-**使用 Microsoft 小组和 Skype 业务管理中心**
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
 
-1. 在左侧的导航中，转到**会议** > **会议桥**。 
+1. 在左侧导航窗格中，转到**会议** > **会议桥**。 
 
-2. 在**会议桥**页的顶部，单击**桥接器设置**。 
+2. 在**会议桥**页的顶部，单击**网桥的设置**。 
 
-3. 在**网桥的设置**窗格下**针长度**，, 选择的数字所需的针数。
+3. 在**桥设置**窗格中，在**PIN 长度**，下选择所需的 pin 的位数。
 
 4. 单击“**应用**”。
 
-**使用 Skype 业务管理中心**
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
  
-1. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议** > **Microsoft 网桥的设置**。
+1. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 网桥的设置**。
     
-2. 在**安全**下 > **针长度**，选择的针，所需的位数，然后单击**保存**。
+2. 在**安全**下 > **PIN 长度**，选择 PIN，所需的位数，然后单击**保存**。
     
 > [!NOTE]
 > [!注释] PIN 与会议 ID 不同。 会议 ID 由呼叫者在加入会议时使用。 它们用于标识会议。 PIN 用于对作为会议组织者的呼叫者进行身份验证。 
-  
-## <a name="want-to-know-more-about-pin-settings"></a>想知道更多有关 PIN 设置？
 
-- 针脚可以从 4 到 12 位数字;默认值为 5。 在创建 PIN 时只能使用数字。 不能使用字母和特殊字符。
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+  
+## <a name="want-to-know-more-about-pin-settings"></a>想知道 PIN 设置的详细信息吗？
+
+- 旋转中心点到 12 个数字; 可以是从 4默认值为 5。 在创建 PIN 时只能使用数字。 不能使用字母和特殊字符。
     
-- PIN 只是对于会议组织者在为业务或 Microsoft 小组的用户 Skype 时没有已启动会议是必需的。 如果每个人都是拨号进入会议，则会议组织者需要 PIN 才能启动会议。
+- PIN 才所需的会议组织者时为业务或 Microsoft 团队用户 Skype 不起作用已经启动会议。 如果每个人都是拨号进入会议，则会议组织者需要 PIN 才能启动会议。
     
 - PIN 安全设置适用于与 Microsoft 网桥相关联的所有电话号码。它们将应用于使用与给定网桥相关联的电话号码的所有会议。 
     
@@ -70,11 +72,11 @@ ms.lasthandoff: 04/18/2018
     
 - Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为什么需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为什么您需要使用 Office 365 PowerShell 中](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 许多相比具有的优势在速度、 简易性和生产率仅使用 Office 365 管理中心，例如当您所更改的设置对于许多用户一次。 请在以下主题中了解这些优点： 
+- Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过只使用 Office 365 管理中心中的，如时要进行设置更改多个用户一次。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

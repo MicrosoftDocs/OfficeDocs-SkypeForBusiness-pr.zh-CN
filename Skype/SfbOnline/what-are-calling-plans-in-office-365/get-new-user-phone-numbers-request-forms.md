@@ -15,18 +15,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: ms.lync.lac.GetNewNumbers
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: 有时（具体取决于你的国家/地区），你无法使用 Skype for Business 管理中心获取新号码，或你需要特定的电话号码或区号。 如果是这样，你需要下载表单并将其发送给我们。
 robots: noindex
 redirect_url: https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization
 redirect_document_id: true
-ms.openlocfilehash: dcc4748973cdfcdc9c64d2860e93860375f5a620
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 6168fd7160f2345568d344d30de7da0f5e4b76e1
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: 设置调用计划
+title: 设置呼叫计划
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,66 +15,65 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: b1e6f4506ec569d63c7c879c63791068224022e0
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 7ba6ade1e18dd17716a6669d6a97c3150a97a03a
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="set-up-calling-plans"></a>设置调用计划
-对其他适用于业务用户的 Skype 是免费的但如果您希望用户能够调用外部业务，电话得到国内调用计划或国际调用计划 Office 365 中。 很容易将此值设置为您的业务。 
+# <a name="set-up-calling-plans"></a>设置呼叫计划
+适用于业务用户的其他 Skype 调用是免费的但如果您希望用户能够调用您的公司外部的电话得到国内调用规划或国际呼叫规划 Office 365 中。 很容易地设置此功能您的业务。 
 
-## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>第 1 步： 计算出是否调用计划已提供您所在国家/地区
-转到[音频会议和调用计划的国家和地区可用性](..//country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)并选择您的国家 / 地区，若要获取有关调用计划，可用性信息以及有关音频会议电话系统，收费和免费的信息数字和通信的贷方。
+## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>步骤 1： 找出调用计划中是否可用国家/地区
+转到[音频会议和调用计划国家和地区可用性](..//country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)并选择您的国家或地区，获取有关调用计划，可用性信息以及有关音频会议，电话系统，收费和免费电话信息数字和 Communications 字幕式。
   
-## <a name="step-2-buy-and-assign-licenses"></a>第 2 步： 购买和分配许可证
-1. 如果在 Office 365 功能的电话系统没有包含在您的计划，可能需要购买附加许可证**电话系统**。 **电话系统**许可证后，购买[Office 365 调用计划](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md)。 请参阅[附加业务和 Microsoft 小组授权的 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)，并购买许可证和计划。 
+## <a name="step-2-buy-and-assign-licenses"></a>步骤 2： 购买和分配许可证
+1. 如果您计划中不包括 Office 365 功能中的电话系统，您可能需要购买附加许可证**电话系统**。 **电话系统**许可证后，购买[调用 Office 365 的计划](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md)。 请参阅[业务和 Microsoft 团队授权加载项的 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)，and 购买的许可证和计划。 
     
     > [!TIP]
-    > **电话系统**许可证和 Office 365 中调用计划形影不离，因此要查看选择购买调用计划，首先必须具有许可证的**电话系统**。
+    > **电话系统**许可证和调用计划在 Office 365 中，若要查看以购买调用计划选项，您必须首先具有**电话系统**许可证，以便在一起，转。
   
-2. 第一次分配许可证，并将调用计划给您的组织中的人员。 请参阅[指派的 Skype 业务和 Microsoft 小组的许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
+2. 首次分配许可证，并将调用规划给您的组织中的人员。 请参阅[业务和 Microsoft 团队许可证分配 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
     
-## <a name="step-3-get-phone-numbers"></a>第 3 步： 获取电话号码
-有三种方法，以获得新用户数：
+## <a name="step-3-get-phone-numbers"></a>步骤 3： 获取电话号码
+有三种方法，以获得新的用户数：
 
-- **使用 Skype 业务管理中心。** 某些国家/地区，您可以获得的业务管理中心使用 Skype 用户数，请参阅[为您的用户获取电子电话号码。](getting-phone-numbers-for-your-users.md)。
+- **Skype 用于业务管理中心。** 某些国家/地区内，您可以获取用户使用 Skype 业务管理中心的号码，请参阅[为您的用户获取 e 电话号码。](getting-phone-numbers-for-your-users.md)。
     
-- **您现有的编号的端口。** 可以端口，也可以将您当前的服务提供商或电话运营商的现有数字转移到 Office 365。 请参阅[转移到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)或[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)的详细信息可帮助您做到这一点。  
+- **端口您现有的号码。** 您可以端口或将现有号码从您的当前服务提供商或电话运营商转移到 Office 365。 请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)或[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)的详细信息，可帮助您执行此操作。  
   
-- **使用新的号码请求窗体。** 有时 （具体取决于您的国家/地区） 您不能获取您对业务管理中心，使用 Skype 的新电话号码或者您需要特定的电话号码或区号。 如果是这样，你需要下载表单并将其发送给我们。 有关更多信息，请参见[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
+- **使用新的号码的请求窗体。** 有时 （根据您的国家/地区） 您将无法获取您的业务管理中心中，使用 Skype 的新电话号码，或需要特定的电话号码或区域代码。 如果是这样，你需要下载表单并将其发送给我们。 有关详细信息，请参阅[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
 
-## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>步骤 4： 添加紧急地址和位置为您的组织
-<a name="bkmk_add_addresses"></a>紧急的地址必须与电话号码;这种关联发生国家和地区之间不同而异。 例如，在美国，您需要将紧急地址相关联，将电话号码分配给用户。 在英国，您需要从 Office 365 获取电话号码或转移当前服务提供商提供的电话号码时将紧急的电话号码与地址相关联。 
+## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>步骤 4： 添加紧急地址和为您的组织的位置
+<a name="bkmk_add_addresses"></a>的紧急地址必须与电话号码; 相关联此关联发生的情况可能会因国家和地区。 例如，美国，您需要时向用户分配的电话号码关联的紧急地址。 在英国，您需要从 Office 365 中获取的电话号码或从您当前的服务提供商转接电话号码时关联到电话号码的紧急地址。 
 
-若要添加一个紧急地址为您的组织，在业务管理中心为 Skype 转到**语音** > **紧急位置** > **添加新地址**。 有关详细信息，请参阅[添加或删除和紧急地址为您的组织](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)。
+若要添加您的组织的紧急地址，在业务管理中心的 Skype 转到**语音** > **紧急位置** > **添加新地址**。 有关详细信息，请参阅[添加或删除和紧急地址为您的组织](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)。
 
-要添加业务管理中心为 Skype 为您的组织，紧急位置，请转到**语音** > **紧急位置** > **添加新地址**。 有关详细信息，请参阅[添加、 更改或删除您的组织的紧急位置](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)。
+若要添加您的组织的紧急位置业务管理中心的 Skype 中，转到**语音** > **紧急位置** > **添加新地址**。 有关详细信息，请参阅[添加、 更改或删除您的组织的紧急位置](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)。
 
     
-## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>步骤 5： 为用户分配一个紧急的地址和电话号码
-<a name="bkmk_add_addresses"></a>当您设置 Office 365 中调用计划时，必须将一个电话号码和紧急的地址分配给每个用户。 必须先创建紧急地址，然后才能将其与电话号码关联。 
+## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>步骤 5： 将紧急地址和电话号码分配给用户
+<a name="bkmk_add_addresses"></a>时要设置调用计划在 Office 365 中，您必须为每个用户分配电话号码和紧急地址。 必须先创建紧急地址，然后才能将其与电话号码关联。 
 
-要在业务管理中心为 Skype 中添加用户，紧急地址，请转到**语音** > **语音用户** > **紧急位置** > **分配编号** > **更改位置**。 更多详细信息，请参阅[指定或更改用户紧急通讯](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)。
+若要在业务管理中心的 Skype 中添加用户的紧急地址，请转到**语音** > **语音用户** > **紧急位置** > **分配号** > **更改位置**。 有关详细信息，请参阅[分配或更改用户的紧急地址](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)。
 
    > [!NOTE]
-   > 指定的电话号码时，还可以分配一个紧急的地址。
+   > 分配电话号码时，还可以分配一个紧急地址。
 
-若要为用户，为业务管理中心，Skype 在分配电话号码进入**语音** > **语音用户** > **分配编号** > **更改位置**。 有关详细信息，请参阅[指派、 更改或删除的用户的电话号码](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)。
+要将电话号码分配给业务管理中心中，为 Skype 中的用户，请转到**语音** > **语音用户** > **分配号** > **更改位置**。 有关详细信息，请参阅[分配、 更改或删除的用户的电话号码](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)。
 
-## <a name="step-6-tell-your-users-about-their-new-phone-numbers"></a>第 6 步： 用户告诉他们新的电话号码
+## <a name="step-6-tell-your-users-about-their-new-phone-numbers"></a>步骤 6： 告知用户有关其新的电话号码
 <a name="bkmk_add_addresses"> </a>
 
 我们建议通过发送邮件或使用企业的首选通信方式，将新电话号码告知用户。 
 
-下面是如何，他们可以看到其**业务的 Skype**应用程序中的电话号码：
+下面是如何能够看到其**Skype 的业务**应用程序中的电话号码：
   
 1. 登录到桌面上的 Skype for Business。
     
@@ -86,9 +85,9 @@ ms.lasthandoff: 04/26/2018
     
     ![A user can see their assign number in the Skype for Business app by choosing Settings > Tools > Options > Phone.](../images/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
  
-在**Microsoft 的小组**中，用户可以看到他们的电话号码，通过单击左侧导航中的**调用**。 拨号盘上面显示的电话号码。
+在**Microsoft 团队**中，用户可以看到他们的电话号码，通过单击左侧导航窗格中的**呼叫**。 拨号盘上方显示的电话号码。
 
-![用户可以看到通过在左侧的导航窗格中单击调用 Microsoft 小组在其数。](../images/teams-phone-number.png)
+![通过单击左侧导航窗格中的呼叫，用户可以看到中的 Microsoft 团队其号码。](../images/teams-phone-number.png)
 
 ## <a name="what-else-do-you-need-to-know"></a>你还需要了解哪些信息？
 <a name="bkmk_add_addresses"> </a>

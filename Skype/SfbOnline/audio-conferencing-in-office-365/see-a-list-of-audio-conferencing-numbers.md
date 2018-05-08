@@ -15,48 +15,50 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to look up your dial-in conferencing numbers from within Skype for Business. '
-ms.openlocfilehash: d4e1ef41a02a0197133d2b5cc08a4f35f961e4ee
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: c50c7a06aae2e9e68a5f9a2c66fc04f912a35705
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers"></a>音频会议号码的列表，请参阅
 
-当您设置音频会议为 Skype 业务和 Microsoft 小组的用户时，您可以查看有关音频会议提供给他们的电话号码。 此列表将拥有所有的音频会议电话号码，可供您的组织。
+当您设置音频会议的 Skype 的业务和 Microsoft 团队的用户时，您可以查看为音频会议提供给他们的电话号码。 此列表都会将所有可供您的组织的音频会议电话号码。
   
- **正在搜索价格？** 请参阅[音频会议的定价](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)。
+ **正在搜索价格？** 请参阅[定价音频会议](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)。
   
 > [!IMPORTANT]
-> **没有资源，包含音频会议的所有拨入号码的列表。** 如果您希望看到如果有可用的拨入电话号码在您的区域或国家/地区，请转到**业务管理中心的 Skype** > **语音** > **的电话号码**，单击**添加**，然后单击**新服务编号**。 使用“**国家/地区**”、“**州/地区**”和“**城市**”列表对你的搜索进行筛选。 此外，如果您正在寻找免费电话服务号码，选择**免费**从**国家/地区**列表。
+> **没有音频会议中包含的所有电话拨入式号码列表的资源。** 如果您要查找要查看如果电话拨入电话号码中提供了您的区域或国家/地区，请转到**业务管理中心的 Skype** > **语音** > **电话号码**，单击**添加**，然后单击**新服务号码**。 使用“**国家/地区**”、“**州/地区**”和“**城市**”列表对你的搜索进行筛选。 此外，如果您要查找免费电话服务号码，选择**免费电话**从**国家/地区**列表。
   
-如果仅有一个电话号码在你的组织中可用，则会将其作为你的所有用户的默认号码。 当多个电话号码可用时，你可以为每个用户选择默认电话号码。 此默认数字将列入业务和 Microsoft 小组会议邀请 Skype。
+如果仅有一个电话号码在你的组织中可用，则会将其作为你的所有用户的默认号码。 当多个电话号码可用时，你可以为每个用户选择默认电话号码。 此默认号码将 Skype 中包括的业务和 Microsoft 团队的会议邀请。
   
-您可以看到[将的电话号码上包括邀请](set-the-phone-numbers-included-on-invites.md)来更改单个用户的拨入电话号码。
+您可以看到[设置的电话号码包含在邀请](set-the-phone-numbers-included-on-invites.md)以更改为单个用户的电话拨入式电话号码。
   
 > [!NOTE]
 > [!注释] 国内拨入号码供你的组织专用，是唯一可以设为默认电话号码的号码。 但是，国际拨入号码可能会在多个组织之间共享。 
   
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a>若要查看您的音频会议电话号码
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png--to-view-your-audio-conferencing-phone-numbers"></a>![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png)  若要查看您的音频会议电话号码
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.
     
-3. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议** > **Microsoft 桥**，然后：
+3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 桥**，然后：
     
-  - 您可以查看所提供的音频会议电话号码。
+  - 您可以查看可用于音频会议的电话号码。
     
-  - 您还可以查看该位置，并将使用音频会议的主要和次要语言自动助理。
+  - 您还可以查看位置，并将使用的音频会议的主要和辅助语言自动助理。
     
 > [!NOTE]
-> 您可以转到**音频会议** > **用户**和用户的属性来更改默认值通过从可用号码在您的组织中的列表中选择一个新的数字编号的选择。 请参阅[设置数字包括在邀请电话](set-the-phone-numbers-included-on-invites.md)。 
+> 您可以转到**音频会议** > **用户**和用户属性来更改默认号码由从您的组织中的可用号码的列表中选择新号码的选择。 请参阅[设置的电话号码包含在邀请](set-the-phone-numbers-included-on-invites.md)。 
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
@@ -64,11 +66,11 @@ ms.lasthandoff: 04/18/2018
     
 - Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为什么需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为什么您需要使用 Office 365 PowerShell 中](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 许多相比具有的优势在速度、 简易性和生产率仅使用 Office 365 管理中心，例如，当将设置更改为许多用户一次。 请在以下主题中了解这些优点：
+- Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过只使用 Office 365 管理中心中的，如时要进行设置更改多个用户一次。 请在以下主题中了解这些优点：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

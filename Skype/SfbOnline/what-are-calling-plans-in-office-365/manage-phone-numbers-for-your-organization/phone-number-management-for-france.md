@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的法国电话号码的信息。
-ms.openlocfilehash: 125de99f7334c36da4ddba6330c57ee9ea323c06
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 351dd62d27dfcf48076b1eddec1bc18bc1f8773b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="phone-number-management-for-france"></a>法国的电话号码管理
 
@@ -35,8 +34,8 @@ ms.lasthandoff: 04/26/2018
   
 |**你要做什么？**|**下载正确的表单并发送给我们**|
 |:-----|:-----|
-|获取新用户的电话号码没有列出的在 Skype 业务管理中心。   <br/> | 下载此表单 <br/> [法国的新电话号码申请（地理号码）(v.3.0)(fr-fr)](../../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr-fr).pdf)。 <br/>  填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
-|在 Skype 获得业务管理中心没有列出的新服务电话号码。 <br/> |下载此窗体 [新的电话号码请求法国 （服务号） (v.1.2)(fr-fr)](New-phone-number-request-for-france-(service-numbers)-(v.1.2)-(fr-fr.pdf)。<br/> 填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。
+|获取业务管理中心 Skype 中未列出的新用户电话号码。   <br/> | 下载此表单 <br/> [法国的新电话号码申请（地理号码）(v.3.0)(fr-fr)](../../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr-fr).pdf)。 <br/>  填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
+|获取业务管理中心 Skype 中未列出的新服务电话号码。 <br/> |下载此窗体 [法国 （服务号码） 的新电话号码请求 (v.1.2)(fr-fr)](New-phone-number-request-for-france-(service-numbers)-(v.1.2)-(fr-fr.pdf)。<br/> 填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。
 |你需要将电话号码转移给我们。  <br/> |下载下列表单之一： <br/> [法国授权书 (LOA)（免费电话号码）(v.2.0)(fr-fr)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr-fr).pdf) <br/> [法国授权书 (LOA)（地理号码）(v.2.0)(fr-fr)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr-fr).pdf) <br/>  <br/>  填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
 |你需要在国家电话目录中发布/取消发布电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
 |你需要将用户的号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com )你想要转换为服务号码的用户号码列表。 <br/> |
@@ -48,7 +47,7 @@ ms.lasthandoff: 04/26/2018
 
 [紧急呼叫条款和条件](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[紧急调用标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[紧急呼叫的标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

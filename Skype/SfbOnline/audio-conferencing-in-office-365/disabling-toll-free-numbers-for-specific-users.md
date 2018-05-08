@@ -1,5 +1,5 @@
 ---
-title: 禁用对特定用户的免费电话号码
+title: 特定用户的禁用免费电话号码
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,52 +12,51 @@ ms.collection:
 - Strat_SB_PSTN
 ms.audience: Admin
 ms.appliesto: Skype for Business, Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
-description: 管理员可以控制如何组织者可以使用免费电话号码，为他们的会议。
-ms.openlocfilehash: 0d2b4d16d6475587dd85223e0a88f64562664429
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 管理员可以控制如何组织者可以为他们的会议使用免费电话号码。
+ms.openlocfilehash: a63078256ac9ac52b3d405bd3cf1b63120fb77ce
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="disabling-toll-free-numbers-for-specific-users"></a>禁用对特定用户的免费电话号码
+# <a name="disabling-toll-free-numbers-for-specific-users"></a>特定用户的禁用免费电话号码
 
-如果您的组织在其 Microsoft 音频会议桥有免费电话号码，您可以允许或阻止特定组织的会议中它们的用法。  
+如果您的组织具有其 Microsoft 音频会议网桥中免费电话号码，您可以允许或阻止特定的组织者的会议中其使用情况。  
 
-默认情况下，您的组织中的所有用户使用免费电话号码，意味着这些数字，如果可用，可以使用由参与者参加他们的会议都启用。 如果这不是您组织中的某些用户所需的行为，可以从免费电话的号码启用控件通过其会议中使用这些数字来限制特定用户。 
+默认情况下，您的组织中的所有用户都启用使用免费电话号码，这意味着，这些号码，如果可用，可用于参与者加入他们的会议。 如果不为您的组织中的一些用户所需的行为，您可以限制特定用户在其通过免费电话号码启用控件的会议中使用这些号码。 
 
-当给定组织禁用免费电话号码： 
- - 免费电话号码将不再包含在他或她的会议邀请。 
- - 免费电话号码将不再列出中他引用了"查找本地号码"页面上，或者她会议邀请。 
- - 参与者不能加入给定组织者的会议，如果他们拨组织任何免费电话号码。 
- - 将自动重新安排所有会议的组织者，和免费电话号码将它们从中删除。  
+当给定管理器禁用免费电话号码： 
+ - 免费电话号码将不再包括在他或她的会议邀请。 
+ - 免费电话号码将不再列出其中引用的"查找本地号码"页上，或她的会议邀请。 
+ - 参与者将无法加入给定组织者的会议，如果拨组织的任何免费电话号码。 
+ - 将自动重新安排的组织者的所有会议，并将从其删除免费电话号码。  
 
     > [!IMPORTANT]
-    > 这将重新组织者的电子邮件邀请的所有发送给这些会议的所有参与者。 
+    > 这将向这些会议的所有参与者重新组织者的电子邮件邀请的所有发送。 
 
- - 参与者可以继续参加会议的组织者使用免费电话号码。 
+ - 参与者可以继续加入会议的组织者使用收费电话号码。 
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a>禁用对特定用户的免费电话号码 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>特定用户的禁用免费电话号码 
 
-**使用 Microsoft 小组和 Skype 业务管理中心**
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
 
-1. 在左侧的导航中，单击**用户**，然后从可用的用户列表中选择用户。
+1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 
 2. 在页面的顶部，单击**编辑**。
 
-3. 单击**会议桥**边上的菜单，然后在下拉列表中单击**编辑**。
+3. 单击**会议网桥**，旁边的菜单，然后单击下拉列表中的**编辑**。
 
-4. 在**会议桥提供程序**窗格中，请关闭**允许使用在组织加入此用户的会议的会议桥的免费电话号码**。 
+4. 在**会议桥提供程序**窗格中，请关闭**允许使用在组织者要加入此用户的会议的会议桥的免费电话号码**。 
 
 5. 单击**应用。** 
 
-**使用 Skype 业务管理中心**
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
 
-1. 在**业务管理中心的 Skype**，在左边的导航中，转到**音频会议** > **用户**，然后选择可用的用户列表中用户。 
+1. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **用户**，然后选择用户可用的用户列表。 
 
 2. 在"操作"窗格中，单击" **编辑**"。 
 
@@ -65,8 +64,11 @@ ms.lasthandoff: 04/18/2018
  
 4. 单击" **保存**"。 
  
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+ 
 **使用 PowerShell**  
 
-可以使用一组 CsOnlineDialInConferencingUser cmdlet 的 AllowTollFreeDialIn 参数来启用或禁用此控件。 例如： 
+您可以使用集 CsOnlineDialInConferencingUser cmdlet 的 AllowTollFreeDialIn 参数启用或禁用此控件。 例如： 
 
- - 一组 CsOnlineDialInConferencingUser user@contoso.com-AllowTollFreeDialIn $false
+ - 设置 CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false

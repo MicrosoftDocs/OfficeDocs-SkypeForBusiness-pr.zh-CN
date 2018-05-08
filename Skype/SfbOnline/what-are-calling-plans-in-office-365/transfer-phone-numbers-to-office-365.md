@@ -1,5 +1,5 @@
 ---
-title: 转移到 Office 365 的电话号码
+title: 传输到 Office 365 的电话号码
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,33 +15,32 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - ms.lync.lac.PortingNumbersOverview
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: 17641c360dddcefbd4dff99008cc280389107e93
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 79343de6999114964da698683c3999e60739c81b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="transfer-phone-numbers-to-office-365"></a>转移到 Office 365 的电话号码
+# <a name="transfer-phone-numbers-to-office-365"></a>传输到 Office 365 的电话号码
 
 将你的电话号码从当前的服务提供商转移到 Skype for Business 很简单。将你的电话号码转网到 Skype for Business 之后，Microsoft 将成为你的服务提供商并为你出具这些号码的账单。
   
-在开始传输电话号码之前，我们建议您查看中[转移电话号码常见问题](transferring-phone-numbers-common-questions.md)的信息。 如果有服务号码拨入会议桥、 自动助理或其他服务号码，免费电话数字或超过 999 用户 （订户） 电话号码，让您需要转移到 Skype 的业务信息，请参阅[管理的电话号码您的组织](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)下载正确的窗体并将其发送给我们。
+转接电话号码开始之前，我们建议您查看中[转移电话号码常见问题](transferring-phone-numbers-common-questions.md)的信息。 如果您有服务号码拨入式会议网桥、 自动助理或其他服务号码，免费电话号码，或具有超过 999 用户 （订阅服务器） 的电话号码，您需要将传输到 for Business 的 Skype，请参阅[管理的电话号码您的组织](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)下载的正确表单并将其发送给我们。
   > [!NOTE]
-  > 我们处理端口传输的电话号码，只在美国工作日而不是在公共假日或周末的订单。 
+  > 我们处理端口订单的仅在美国工作日上而不是在公共假日或周末转接电话号码。 
   
 ## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-skype-for-business"></a>如何创建转网订单并将电话号码转移到 Skype for Business
 <a name="bk_LNPcountries_1"> </a>
 
   > [!NOTE]
-  > 如果有服务号码拨入会议桥、 自动助理或其他服务号码，免费电话数字或超过 999 用户 （订户） 电话号码，让您需要转移到 Skype 的业务信息，请参阅[管理的电话号码您的组织](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)) 来选择正确的国家/地区，下载正确的窗体并将其发送给我们。
+  > 如果您有服务号码拨入式会议网桥、 自动助理或其他服务号码，免费电话号码，或具有超过 999 用户 （订阅服务器） 的电话号码，您需要将传输到 for Business 的 Skype，请参阅[管理的电话号码您的组织](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)) 选择正确的国家/地区和下载的正确表单并将其发送给我们。
   
 1. 使用你的工作或学校帐户登录 Office 365。
     

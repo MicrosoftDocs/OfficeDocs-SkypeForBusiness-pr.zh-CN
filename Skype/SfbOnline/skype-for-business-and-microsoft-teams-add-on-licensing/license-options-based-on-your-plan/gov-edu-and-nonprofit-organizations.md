@@ -1,5 +1,5 @@
 ---
-title: GOV，EDU 和非营利组织
+title: GOV、 EDU 和非营利组织
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,27 +14,26 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Licensing
-- Strat_SB_PSTN
 - LIL_Placement
-description: 'GOV，EDU 和非盈利性组织计划，了解有关附加许可和功能。 '
-ms.openlocfilehash: 20097c08bf20dd974190532aa19de11a22e51a83
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 'GOV、 EDU 和非营利组织计划，了解有关加载项许可证和功能。 '
+ms.openlocfilehash: cc0777a6dd62e8353ef381c9f0e379e552c6bf18
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>GOV，EDU 和非营利组织
+# <a name="gov-edu-and-non-profit-organizations"></a>GOV、 EDU 和非营利组织
 
-业务功能可供.gov、.edu 和非赢利组织的大多数 Skype。 请参见下的表以了解详细信息。
+业务功能可供.gov、.edu 和非赢利组织的大多数 Skype。 请参阅下的表详细信息。
 
 |**Skype for Business 功能**|**可用于 .GOV (GCC)**|**可用于 .GOV（非 GCC）**|**可用于 .EDU**|**可用于非营利组织**|
 |:-----|:-----|:-----|:-----|:-----|
 |Skype 会议直播  <br/> |是  <br/> |是  <br/> |否  <br/> |是  <br/> |
-|Skype 的业务音频会议  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|Skype 业务音频会议  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |Office 365 电话系统  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |Office 365 呼叫计划  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
    

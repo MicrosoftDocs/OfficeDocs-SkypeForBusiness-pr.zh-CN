@@ -1,5 +1,5 @@
 ---
-title: 对其拨入信息的用户发送电子邮件
+title: 对其的拨入信息的用户发送电子邮件
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,69 +15,69 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
-description: 发送您的用户与他们的音频会议信息的电子邮件。
-ms.openlocfilehash: 23eb461d84395672f97fc4ff97c4c0ded7aa92e2
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 将您的用户发送电子邮件使用他们的音频会议信息。
+ms.openlocfilehash: da006b1e63dd36234acf20bb02fdffba2dc70fa2
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>对其音频会议信息的用户发送电子邮件
 
-有时 Skype 业务或 Microsoft 小组用户可能需要您向他们发送他们的音频会议信息。 你可以通过使用**业务管理中心的 Skype** ，并单击用户属性下的**将会议信息通过电子邮件发送**。 当您发送这封电子邮件时，它将包含所有的音频会议信息，包括：
+有时可能需要 Skype 业务或 Microsoft 团队用户可以向他们发送其音频会议信息。 您可以通过使用**业务管理中心的 Skype**并单击用户属性下的**发送会议信息通过电子邮件**来执行此操作。 当您发送此电子邮件时，它将包含的所有音频会议信息，包括：
   
 - 用户的会议电话或拨入电话号码。
     
 - 用户的会议 ID。
     
-    > [!NOTE]
-    > 当您组织中的人不想记得的随机数; 使用静态标识符他们可以选择一定数量或使用一个容易记住。 当使用动态会议 Id 时，每个会议用户计划将获得分配唯一的会议 id。 如果您想要分配动态而非静态的会议 Id，[转到此处](using-audio-conferencing-dynamic-ids-in-your-organization.md)。 
-  
-下面是发送的电子邮件的一个示例：
+   
+下面是发送的电子邮件的示例：
   
 ![电话拨入式会议电子邮件](../images/audio-conferencing-info.png)
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>使用音频会议信息的电子邮件发送给用户
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-send-an-email-with-audio-conferencing-information-to-a-user"></a>![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) 向用户发送电子邮件与音频会议信息
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 请转到**Office 365 管理中心** > **业务的 Skype**，并在左边的导航，请单击**音频会议**。
+2. 转到**Office 365 管理中心** > **for Business 的 Skype**，在左侧导航窗格中，单击**要进行音频会议**。
     
 3. 单击**用户**，然后选择用户。
     
 4. 在操作窗格中，单击" **通过电子邮件发送会议信息**"。
     
 > [!TIP]
-> 您还可以发送电子邮件给用户使用音频会议设置通过编辑用户的属性，然后单击**音频会议** > **将会议信息通过电子邮件发送**。 
-  
+> 您还可以发送电子邮件向用户使用音频会议设置编辑用户的属性，然后单击**要进行音频会议** > **发送会议信息通过电子邮件**。 
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="what-else-should-you-know-about-this-email"></a>此电子邮件的其他须知事项。
 
-- 有几个之后发送给您的组织中的用户启用音频会议的电子邮件：
+- 有多个电子邮件发送给组织中的用户启用了后为音频会议：
     
-  - 当**音频会议**许可分配给它们。
+  - 当**音频会议**许可证分配给它们。
     
-  - 当您手动重置用户的音频会议针。
+  - 当您手动重置用户的音频会议 PIN。
     
   - 当你手动重置用户的会议 ID 时。
     
-  - 从中删除**音频会议**许可的时间。
+  - 当**音频会议**许可证已从它们。
     
-  - 音频会议提供商为用户更改时由 Microsoft 到另一个提供程序，或**无**。
+  - 当用户音频会议提供商从 Microsoft 更改为其他提供程序或**无**。
     
-  - 给 Microsoft 更改时用户的音频会议提供商。
+  - 向 Microsoft 更改时用户音频会议提供商。
     
-- 默认情况下，电子邮件的发件人将从 Office 365，但可以更改电子邮件地址，并使用 Windows PowerShell 和[一组 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=708983) cmdlet 显示名称。 若要将电子邮件发送到用户的电子邮件地址进行更改，您必须：
+- 默认情况下，电子邮件发件人将从 Office 365，但您可以更改的电子邮件地址，并且可以通过使用 Windows PowerShell 和[设置 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=708983) cmdlet 显示名称。 若要更改向用户发送电子邮件的电子邮件地址，您必须：
     
-  - 在 SendEmailFromAddress 参数中输入电子邮件地址。
+  - SendEmailFromAddress 参数中输入的电子邮件地址。
     
-  - 将 SendEmailOverride 参数设置为 True。
+  - SendEmailOverride 参数设置为 True。
     
-  - 在 SendEmailFromDisplayName 参数中输入电子邮件显示名称。
+  - SendEmailFromDisplayName 参数中输入的电子邮件显示名称。
     
      `Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"`
     
@@ -88,7 +88,7 @@ ms.lasthandoff: 04/18/2018
 
 - 为节省时间或自动执行此操作，可以使用 [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) cmdlet。
     
-    以电子邮件发送给他们的音频会议信息的用户，运行以下命令：
+    若要向其音频会议信息的用户发送电子邮件，请运行以下命令：
     
   ```
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
@@ -96,11 +96,11 @@ ms.lasthandoff: 04/18/2018
 
 -  对于 Windows PowerShell，Skype for Business Online 的功能是管理用户以及允许或不允许用户执行的操作。使用 Windows PowerShell，可以通过单点管理来管理 Office 365，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为什么需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为什么您需要使用 Office 365 PowerShell 中](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 许多相比具有的优势在速度、 简易性和生产率仅使用 Office 365 管理中心，例如，当将设置更改为许多用户一次。 请在以下主题中了解这些优点： 
+- Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过只使用 Office 365 管理中心中的，如时要进行设置更改多个用户一次。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
