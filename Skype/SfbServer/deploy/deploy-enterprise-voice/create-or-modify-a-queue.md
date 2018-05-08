@@ -7,49 +7,51 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
-description: 创建或修改响应组队列，在 Skype 的业务服务器企业语音。
-ms.openlocfilehash: a5b76fd8003fcdd4152f57404b14271c4eaa8ef8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 创建或修改响应组队列，业务 Server 企业语音的 Skype 中。
+ms.openlocfilehash: 5ff696de582a1d0238e9b67bbe0b53affb33ffd2
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business-2015"></a>在 Skype for Business 2015 中创建或修改队列
  
-创建或修改响应组队列，在 Skype 的业务服务器企业语音。
+创建或修改响应组队列，业务 Server 企业语音的 Skype 中。
   
-队列使呼叫者处于保持状态，直到有代理应答呼叫为止。 当响应组应用程序搜索可用的代理时，其列出的顺序搜索代理组。 可以选择分配给队列的代理组并指定队列的行为，如限制队列可容纳的呼叫数，以及呼叫等待代理应答呼叫的时间长度。
+队列使呼叫者处于保持状态，直到有代理应答呼叫为止。 当搜索可用代理的响应组应用程序时，它，以您列出的顺序搜索代理组。 可以选择分配给队列的代理组并指定队列的行为，如限制队列可容纳的呼叫数，以及呼叫等待代理应答呼叫的时间长度。
   
 使用以下其中一个过程来创建或修改队列。
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>若要使用 Skype 业务服务器的控制面板来创建或修改队列
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>若要使用的业务 Server Control Panel Skype 创建或修改队列
 
 1. 以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
     
     > [!NOTE]
     > 如果您是托管工作流的委派响应组管理员之一，则可以创建或修改响应组队列，并将其分配给您管理的工作流。 
   
-2. 打开浏览器窗口，然后输入管理员 URL 打开 Skype 业务服务器控件面板。  
+2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。  
     
 3. 在左侧导航栏中，单击“响应组”****，然后单击“队列”****。
     
-4. 在“队列”****页上，请执行以下操作之一：
+4. 在“队列”**** 页上，请执行以下操作之一：
     
-   - 要创建新队列，请单击“新建”****。 中**选择一个服务**，则需要**应用程序服务器**服务名称的类型部分或全部添加搜索字段中的队列。 在服务结果列表中，单击想要的服务，然后单击“确定”****。
+   - 要创建新队列，请单击“新建”****。 在**选择服务**类型的部分或全部要在其中的**ApplicationServer**服务的名称添加的搜索字段中的队列。 在服务结果列表中，单击想要的服务，然后单击“确定”****。
     
    - 要修改现有的队列，请在搜索字段中键入全部或部分队列名称。在队列结果列表中，单击想要的队列，再单击“编辑”****，然后单击“显示详细信息”****。
     
-5. 在“名称”****中，键入队列的识别名称。
+5. 在“名称”**** 中，键入队列的识别名称。
     
-6. 在“说明”****中，键入队列的说明。
+6. 在“说明”**** 中，键入队列的说明。
     
-7. 在“组”****中，指定要分配给队列的组。请执行以下操作之一： 
+7. 在“组”**** 中，指定要分配给队列的组。请执行以下操作之一： 
     
-   - 要将组添加到队列，请单击“选择”****。在“选择组”****搜索字段中，键入要分配给队列的代理组的全部或部分名称，单击想要的代理组，然后单击“确定”****。
+   - 要将组添加到队列，请单击“选择”****。在“选择组”**** 搜索字段中，键入要分配给队列的代理组的全部或部分名称，单击想要的代理组，然后单击“确定”****。
     
    - 要从队列中删除组，在代理组列表中，请单击要删除的组，然后单击“删除”****。
     
@@ -58,43 +60,43 @@ ms.lasthandoff: 03/28/2018
     > [!NOTE]
     > 服务器搜索队列的可用代理时，将使用组顺序。即，首先搜索列表中的第一个组，然后搜索列表中的第二个组，依此类推。 
   
-8. 要指定代理应答呼叫之前呼叫者处于保持状态的最大时间长度，请选中“启用队列超时”****复选框，然后执行下列操作：
+8. 要指定代理应答呼叫之前呼叫者处于保持状态的最大时间长度，请选中“启用队列超时”**** 复选框，然后执行下列操作：
     
-    a. 在“超时时段(秒)”****中，指定呼叫者等待代理应答呼叫的最长时间（秒）。
+    a. 在“超时时段(秒)”**** 中，指定呼叫者等待代理应答呼叫的最长时间（秒）。
     
-    b. 在“呼叫操作”****中，选择呼叫超时时执行的操作（如下所示）：
+    b. 在“呼叫操作”**** 中，选择呼叫超时时执行的操作（如下所示）：
     
      - 要在超时后断开呼叫，请单击“断开连接”****。
     
-     - 转发的调用以语音邮件，单击**转发语音邮件**，然后在**SIP 地址**字段中，键入格式 sip 中的语音邮件地址：_\<用户名\>_@ _\<域名\>_（对于例如，sip:bob@contoso.com）。
+     - 若要转接呼叫以语音邮件，再单击**转接到语音邮件**，然后在**SIP 地址**字段中，键入语音邮件地址格式 sip:_\<用户名\>_@ _\<domainname\> _ (示例，sip:bob@contoso.com）。
     
-     - 要将呼叫转接至另一个电话号码，单击**前进到电话号码**，然后在**SIP 地址**字段中，键入格式 sip 中的电话号码：_\<号\>_@ _\<\>_ (例如，sip:+14255550121@contoso.com)。
+     - 若要将呼叫转接至另一个电话号码，单击**转接到电话号码**，，然后在**SIP 地址**字段中，键入电话号码格式 sip:_\<号码\>_@ _\<domainname\>_ (例如，sip:+14255550121@contoso.com)。
     
-     - 转发给另一个用户的呼叫，请单击**转发到的 SIP 地址**，然后在**SIP 地址**字段中，键入用户在格式 sip URI:_\<用户名\>_@ _\<域名\>_。
+     - 若要将呼叫转接至另一个用户，单击**转接到 SIP 地址**，，，然后在**SIP 地址**字段中，键入用户在格式 sip URI:_\<用户名\>_@ _\<domainname\>_。
     
      - 要将呼叫转接到其他队列，请单击“转接到其他队列”****，然后浏览至要使用的队列。
     
-9. 要指定队列可以容纳的最大呼叫数，请选中“启用队列溢出”****复选框，然后执行下列操作：
+9. 要指定队列可以容纳的最大呼叫数，请选中“启用队列溢出”**** 复选框，然后执行下列操作：
     
-    a. 在“最大呼叫数”****中，选择希望队列容纳的最大呼叫数。 
+    a. 在“最大呼叫数”**** 中，选择希望队列容纳的最大呼叫数。 
     
-    b. 在“转接呼叫”****中，选择队列已满时要转接的呼叫：“最新呼叫”****或“最早呼叫”****。
+    b. 在“转接呼叫”**** 中，选择队列已满时要转接的呼叫：“最新呼叫”**** 或“最早呼叫”****。
     
-    c. 在“呼叫操作”****中，选择达到溢出阈值时要执行的操作，如下所示：
+    c. 在“呼叫操作”**** 中，选择达到溢出阈值时要执行的操作，如下所示：
     
      - 要在超时后断开呼叫，请单击“断开连接”****。
     
-     - 转发的调用以语音邮件，单击**转发语音邮件**，然后在**SIP 地址**字段中，键入格式 sip 中的语音邮件地址：_\<用户名\>_@ _\<域名\>_（对于例如，sip:bob@contoso.com）。
+     - 若要转接呼叫以语音邮件，再单击**转接到语音邮件**，然后在**SIP 地址**字段中，键入语音邮件地址格式 sip:_\<用户名\>_@ _\<domainname\> _ (示例，sip:bob@contoso.com）。
     
-     - 要将呼叫转接至另一个电话号码，单击**前进到电话号码**，然后在**SIP 地址**字段中，键入格式 sip 中的电话号码：_\<号\>_@ _\<\>_ (例如，sip:+14255550121@contoso.com)。
+     - 若要将呼叫转接至另一个电话号码，单击**转接到电话号码**，，然后在**SIP 地址**字段中，键入电话号码格式 sip:_\<号码\>_@ _\<domainname\>_ (例如，sip:+14255550121@contoso.com)。
     
-     - 转发给另一个用户的呼叫，请单击**转发到的 SIP 地址**，然后在**SIP 地址**字段中，键入用户在格式 sip URI:_\<用户名\>_@ _\<域名\>_。
+     - 若要将呼叫转接至另一个用户，单击**转接到 SIP 地址**，，，然后在**SIP 地址**字段中，键入用户在格式 sip URI:_\<用户名\>_@ _\<domainname\>_。
     
      - 要将呼叫转接到其他队列，请单击“转接到其他队列”****，然后浏览至要使用的队列。
     
 10. 单击“**提交**”。
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>若要使用 Skype 的业务服务器管理外壳程序创建或修改队列
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>使用 Skype 的业务 Server 命令行管理程序创建或修改队列
 
 1. 以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
     
@@ -116,7 +118,7 @@ ms.lasthandoff: 03/28/2018
    ```
 
    > [!NOTE]
-   > 若要提示使用音频文件，请使用**导入 CsRgsAudioFile** cmdlet。 有关详细信息，请参阅[导入 CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
+   > 若要使用的音频文件提示，请使用**Import-csrgsaudiofile** cmdlet。 有关详细信息，请参阅[Import-csrgsaudiofile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
   
 4. 定义在达到队列超时阈值时要采取的操作，并将其保存在变量中。在命令行中运行：
     
@@ -125,7 +127,7 @@ ms.lasthandoff: 03/28/2018
    ```
 
    > [!NOTE]
-   > 有关可能的操作和及其语法的详细信息，请参阅[新建 CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)。 
+   > 有关可能的操作及其语法的详细信息，请参阅[New-csrgscallaction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)。 
   
     例如：
     
@@ -146,7 +148,7 @@ ms.lasthandoff: 03/28/2018
   ```
 
       > [!NOTE]
-      > 若要提示使用音频文件，请使用**导入 CsRgsAudioFile** cmdlet。 有关详细信息，请参阅[导入 CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
+      > 若要使用的音频文件提示，请使用**Import-csrgsaudiofile** cmdlet。 有关详细信息，请参阅[Import-csrgsaudiofile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
   
 6. 定义在达到队列溢出阈值时要采取的操作，并将其保存在变量中。在命令行中运行：
     
@@ -155,7 +157,7 @@ ms.lasthandoff: 03/28/2018
   ```
 
     > [!NOTE]
-    > 有关可能的操作和及其语法的详细信息，请参阅[新建 CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)。 
+    > 有关可能的操作及其语法的详细信息，请参阅[New-csrgscallaction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)。 
   
     例如：
     
@@ -176,7 +178,7 @@ ms.lasthandoff: 03/28/2018
    ```
 
     > [!NOTE]
-    > 有关创建代理组的详细信息，请参阅[新建 CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+    > 有关创建代理组的详细信息，请参阅[New-csrgsagentgroup。](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
 9. 创建队列。在命令行中运行：
     
@@ -200,17 +202,17 @@ ms.lasthandoff: 03/28/2018
 
 #### 
 
-[新 CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
+[New-csrgsqueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   
-[一组 CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
+[Set-csrgsqueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
   
-[新 CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[New-csrgsprompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
-[新 CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+[New-csrgscallaction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
   
-[获得 CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/get-csrgsqueue?view=skype-ps)
+[Get-csrgsqueue](https://docs.microsoft.com/powershell/module/skype/get-csrgsqueue?view=skype-ps)
   
-[导入 CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+[Import-csrgsaudiofile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
   
-[删除 CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)
+[Remove-csrgsqueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)
 

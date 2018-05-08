@@ -7,42 +7,44 @@ ms.date: 7/14/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
-description: '摘要： 了解如何从 Lync Server 2013 升级到 Skype 的业务服务器 2015年。 有关从 Microsoft 评估中心的业务服务器 2015年下载免费试用版的 Skype: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: f3c451e0c1590daab2c6576964c1e1ce5ec3c4ec
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何从 Lync Server 2013 升级到 Skype 的业务服务器 2015年。 下载免费试用版 Skype 业务服务器 2015 从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
+ms.openlocfilehash: 0c869527fe9e07187149b63ed3c360b0290c8a87
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>升级到 Skype for Business Server 2015
  
-**摘要：**了解如何从 Lync Server 2013 升级到 Skype 的业务服务器 2015年。 有关从[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)业务服务器 2015年下载 Skype 的免费试用版。
+**摘要：**了解如何从 Lync Server 2013 升级到 Skype 的业务服务器 2015年。 下载[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)中的业务服务器 2015 Skype 的免费试用版。
   
-本文档中使用过程从升级 Lync Server 2013 到 Skype 的业务服务器 2015年通过 Skype 业务服务器拓扑生成器和新在就地升级功能。 如果您想要从 Lync Server 2010 或办公室通信服务器 2007 R2 升级，请参阅[计划升级到业务服务器 2015年的 Skype](../plan-your-deployment/upgrade.md)。
+使用本文档中的过程以从 Lync Server 2013 使用升级到 Skype 的业务服务器 2015年 Skype 业务 Server 拓扑生成器和就地升级的新功能。 如果您想要从 Lync Server 2010 或 Office Communications Server 2007 R2 升级，请参阅[计划升级到业务服务器 2015年的 Skype](../plan-your-deployment/upgrade.md)。
   
 ## <a name="upgrade-from-lync-server-2013"></a>从 Lync Server 2013 升级
 
-升级到 Skype 的 Lync Server 2013，业务服务器 2015年涉及安装必备软件，使用 Skype 业务服务器拓扑生成器要升级的数据库中该池，并使用 Skype 业务服务器的就地升级每个服务器与池相关联。 要完成升级，请执行此主题中的八个步骤。
+将 Lync Server 2013 升级到 Skype，业务服务器 2015年涉及安装必备软件和使用业务 Server 拓扑生成器的 Skype 池中，数据库升级业务服务器就地升级的每个使用 Skype与池关联的服务器。 要完成升级，请执行此主题中的八个步骤。
   
 ### <a name="before-you-begin"></a>开始之前
 
-- 查看[计划升级到业务服务器 2015年的 Skype](../plan-your-deployment/upgrade.md)。
+- 查看[规划升级到业务服务器 2015年的 Skype](../plan-your-deployment/upgrade.md)。
     
-- 查看[业务服务器 2015年的 Skype 的服务器要求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
+- 查看[Business Server 2015 的 Skype 服务器要求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
     
-- [安装系统必备组件的业务服务器 2015 Skype](install/install-prerequisites.md) 。
+- [安装必备组件的业务服务器 2015 Skype](install/install-prerequisites.md) 。
     
-- [安装 Skype 业务服务器 2015年](install/install.md)。
+- [安装 Business server 2015 Skype](install/install.md) 。
     
 ### <a name="step-1-install-administrator-tools-and-download-topology"></a>第 1 步：安装管理员工具并下载拓扑
 
-1. 连接到不具有 Lync OCSCore 或安装任何其他 Lync 组件拓扑中的计算机。
+1. 连接到计算机中不具有 Lync OCSCore 或安装的任何其他 Lync 组件的拓扑。
     
-2. 从 Skype 业务服务器 2015年安装媒体，从**OCS_Volume\Setup\AMD64**上运行**Setup.exe** 。 
+2. 从业务服务器 2015年安装媒体的 Skype，从**OCS_Volume\Setup\AMD64**运行**Setup.exe** 。 
     
 3. 单击“**安装**”。 
     
@@ -52,7 +54,7 @@ ms.lasthandoff: 03/28/2018
     
      ![已调出“安装管理员工具”链接的“部署向导”屏幕截图。](../media/5bbac2d6-a5b3-42b4-a243-7bcf2b04477a.png)
   
-6. 从 Windows 启动屏幕，打开业务服务器拓扑生成器 Skype。
+6. 在 Windows 开始屏幕中，打开业务 Server 拓扑生成器 Skype。
     
 7. 单击“**从现有部署下载拓扑**”，然后单击“**下一步**”。
     
@@ -62,37 +64,37 @@ ms.lasthandoff: 03/28/2018
     
 ### <a name="step-2-upgrade-and-publish-topology-using-topology-builder"></a>第 2 步：使用拓扑生成器升级和发布拓扑
 
-在开始升级过程之前，必须为您计划升级池运行所有服务。 这是为了保证拓扑更改复制到池中服务器的本地数据库。
+在开始升级过程之前，必须在计划升级的池运行所有服务。 这是为了保证拓扑更改复制到池中服务器的本地数据库。
   
 > [!IMPORTANT]
->  在升级之前保存拓扑文件副本。 升级后，您将不能降级拓扑。 > 如果您的服务数据库，如持久聊天服务是持久聊天数据库所在的服务器上跳过此步骤，因为是在同一服务器上，请转到步骤 4。 停止服务后，请在每台服务器上运行就地升级安装以升级本地数据库。
+>  在升级之前保存拓扑文件副本。 升级后，您将不能降级拓扑。 > 如果服务位于相同的服务器，如数据库，如持久聊天服务位于相同的服务器的持久聊天数据库，请跳过此步骤中，并转到步骤 4。 停止服务后，请在每台服务器上运行就地升级安装以升级本地数据库。
   
 > [!NOTE]
 > 如果拓扑有镜像的后端数据库，那么在使用拓扑生成器**发布拓扑时**，您会看到主数据库和镜像数据库同时出现。发布拓扑时，请确保所有数据库都在主数据库上运行，同时只选择主数据库，而不是镜像数据库，否则，在发布拓扑后，您会看到警告。
   
-选择以下选项来升级和业务服务器 2015年拓扑生成器使用 Skype 发布一个新拓扑结构之一。 在完成这些步骤并发布更新后的拓扑之后，转到本主题中的第 3 步。
+选择一个选项以升级并使用 Skype 业务 Server 2015 拓扑生成器发布新拓扑。 在完成这些步骤并发布更新后的拓扑之后，转到本主题中的第 3 步。
   
 #### <a name="option-1-upgrade-an-isolated-front-end-pool-and-associated-archiving-and-monitoring-stores"></a>选项 1：升级隔离的前端池和关联的存档与监控存储
 
 如果您升级的池依赖于存档和监控存储，则在使用以下步骤时，存档和监控存储也会随之升级。
   
-1. 拓扑生成器中右键单击 Lync Server 2013 池、 选择**升级到业务服务器 2015年的 Skype**，并执行的步骤。 
+1. 在拓扑生成器中，右键单击 Lync Server 2013 池，选择**升级到业务服务器 2015年的 Skype**，并按照步骤。 
     
      ![包含升级选项的 Lync Server 2013 右键单击菜单屏幕截图。](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
-2. 拓扑生成器中单击**操作** > **发布拓扑**或**操作** > **拓扑** > **发布**。 
+2. 在拓扑生成器中，单击**操作** > **发布拓扑**或**操作** > **拓扑** > **发布**。 
     
      ![拓扑生成器中带“发布拓扑”选项的“操作”菜单屏幕截图。](../media/d6712634-9205-401f-a0b0-3ea096ca51bf.png)
   
 3. 在发布期间，选择在存档和监控存储上安装数据库。
     
-#### <a name="option-2-upgrade-front-end-pool-without-upgrading-archiving-and-monitoring-stores"></a>无需升级归档和监控存储选项 2： 升级前端池
+#### <a name="option-2-upgrade-front-end-pool-without-upgrading-archiving-and-monitoring-stores"></a>选项 2： 不存档和监控存储升级的升级的前端池
 
 如果您使用以下 步骤，选定池的存档和监控将被禁用。在升级之后，该池将不会有存档和监控存储。
   
-1. 拓扑生成器中选择您想要升级的 Lync Server 2013 池。
+1. 在拓扑生成器中，选择您想要升级的 Lync Server 2013 池。
     
-2. 移除依赖项 Lync 2013 存档服务器和监视存储。 
+2. 删除 Lync Server 2013 存档和监控存储相关性。 
     
    - 转到**操作** > **编辑属性**。
     
@@ -104,19 +106,19 @@ ms.lasthandoff: 03/28/2018
     
      ![显示“监控”复选框的“编辑属性”对话框的屏幕截图。](../media/880acf33-57bb-4521-8717-cf5b67261ed4.png)
   
-3. 用鼠标右键单击 Lync Server 2013 池、 选择**升级到业务服务器 2015年的 Skype**，并按照步骤。 
+3. 右键单击 Lync Server 2013 池选择**升级到业务服务器 2015年的 Skype**，然后按照的步骤操作。 
     
      ![包含升级选项的 Lync Server 2013 右键单击菜单屏幕截图。](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
-4. 拓扑生成器中单击**操作** > **发布拓扑**或**操作** > **拓扑** > **发布**。 
+4. 在拓扑生成器中，单击**操作** > **发布拓扑**或**操作** > **拓扑** > **发布**。 
     
-#### <a name="option-3-upgrade-front-end-pool-and-associated-it-to-new-skype-for-business-server-2015-archiving-and-monitoring-stores"></a>选项 3： 升级前端池和它与新 Skype 业务服务器 2015年归档和监视存储
+#### <a name="option-3-upgrade-front-end-pool-and-associated-it-to-new-skype-for-business-server-2015-archiving-and-monitoring-stores"></a>选项 3： 升级前端池和关联到新的业务 Server 2015 存档和监控存储的 Skype
 
 如果使用以下步骤，存档和监控将在先前的存储中停止，并在您创建的新存储中启动。 
   
-1. 拓扑生成器中选择您想要升级的 Lync Server 2013 池。 
+1. 在拓扑生成器中，选择您想要升级的 Lync Server 2013 池。 
     
-2. 移除依赖项 Lync 2013 存档服务器和监视存储。 
+2. 删除 Lync Server 2013 存档和监控存储相关性。 
     
    - 转到**操作** > **编辑属性**。
     
@@ -128,13 +130,13 @@ ms.lasthandoff: 03/28/2018
     
      ![显示“监控”复选框的“编辑属性”对话框的屏幕截图。](../media/880acf33-57bb-4521-8717-cf5b67261ed4.png)
   
-3. 用鼠标右键单击 Lync Server 2013 池、 选择**升级到业务服务器 2015年的 Skype**，并按照步骤。 
+3. 右键单击 Lync Server 2013 池选择**升级到业务服务器 2015年的 Skype**，然后按照的步骤操作。 
     
      ![包含升级选项的 Lync Server 2013 右键单击菜单屏幕截图。](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
 4. 为存档创建新的 SQL 存储。 
     
-   - 选择池和**操作** > **编辑属性**。 
+   - 选择的池和**操作** > **编辑属性**。 
     
    -  选中“**存档**”复选框。
     
@@ -144,7 +146,7 @@ ms.lasthandoff: 03/28/2018
   
 5. 为监控创建新的 SQL 存储。 
     
-   - 选择池和**操作** > **编辑属性**。 
+   - 选择的池和**操作** > **编辑属性**。 
     
    -  选中“**监控**”复选框。
     
@@ -152,7 +154,7 @@ ms.lasthandoff: 03/28/2018
     
      ![显示“监控”部分下的“新建”按钮的“编辑属性”对话框的屏幕截图。](../media/729c72a7-0068-4e0d-99dc-e480a6bfbf1d.png)
   
-6. 拓扑生成器中单击**操作** > **发布拓扑**或**操作** > **拓扑** > **发布**。 
+6. 在拓扑生成器中，单击**操作** > **发布拓扑**或**操作** > **拓扑** > **发布**。 
     
 7. 在发布期间，选择在新的存档和监控存储上安装数据库。
     
@@ -162,29 +164,29 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="step-4-stop-all-services-in-pool-to-be-upgraded"></a>第 4 步：停用池中所有需要升级的服务
 
-每个服务器上的服务于您要升级，请运行以下 cmdlet PowerShell 的池：
+每台服务器上的服务于您打算升级，请在 PowerShell 中运行以下 cmdlet 的池：
   
 ```
 Disable-CsComputer -Scorch
 ```
 
-我们建议使用禁用 CsComputer，因为您可能需要在原位升级过程中重新启动服务器。 如果您使用 Stop-CsWindowsService，一些服务可能会在重启后自动重新启动。 这可能导致就地升级失败。
+我们建议使用 Disable-cscomputer，因为您可能需要在就地升级过程中重新启动服务器。 如果您使用 Stop-CsWindowsService，一些服务可能会在重启后自动重新启动。 这可能导致就地升级失败。
   
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>第 5 步：升级前端池和非前端池服务器
 
 > [!NOTE]
->  请升级安装所有新的 Skype 所需业务服务器 2015年必备的软件包括之前： > 至少 32 GB 的可用空间在尝试升级之前。 此外，还要确保驱动器是一个固定的本地驱动器，不连接 USB 或火线，用 NTFS 文件系统格式化、 没有压缩，并且不包含页文件。 > PowerShell 版本 6.2.9200.0 或更高版本。 > 最新 Lync Server 2013安装的累积更新。 > 安装 SQL Server 2012 SP1。 > 以下 KB （自动安装如果使用的 Microsoft 更新） 的安装： > Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> 窗口Server 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
+>  请升级安装的所有新必备组件所需的 Skype 业务服务器 2015年其中包括之前： > 至少 32 GB 的可用空间之前尝试升级。 此外，请确保驱动器是固定的本地驱动器、 未连接通过 USB 或防火墙、 格式化为 NTFS 文件系统、 不压缩，并不包含页面文件。 > PowerShell 版本 6.2.9200.0 或更高版本。 > 最新的 Lync Server 2013安装累积更新。 > 安装 SQL Server 2012 SP1。 > 下列 KB 的安装 （自动安装如果使用 Microsoft Update）： > Windows Server 2008 R2[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> WindowsServer 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
   
-使用适当升级每个服务器上更新的前端池、 边缘池、 中介服务器和持久聊天池。
+使用就地升级每台服务器上更新的前端池、 边缘池、 中介服务器和持久聊天池。
   
-1. 在每个服务器上，运行**Setup.exe** **OCS_Volume\Setup\amd64**从 Skype 业务服务器 2015年安装媒体。
+1. 在每台服务器上，从运行**Setup.exe **OCS_Volume\Setup\amd64** ** Skype 业务服务器 2015年安装媒体上。
     
-2. 接受许可协议，并在适当升级为按照提示进行操作。
+2. 接受许可协议，并按照提示操作的就地升级。
     
-3. 在前端池和非-前端池中的每台服务器上的每台服务器重复上述步骤。
+3. 在前端池和每台非-前端池服务器的每台服务器重复这些步骤。
     
 > [!NOTE]
-> 系统可能会在就地升级期间提示您重启服务器。 这很正常。 重新启动后，在适当升级将继续从离开的位置。 
+> 系统可能会在就地升级期间提示您重启服务器。 这很正常。 就地升级将您重新启动后，继续从其停止。 
   
 成功完成就地升级时，您将看到以下消息。
   
@@ -193,9 +195,9 @@ Disable-CsComputer -Scorch
 ### <a name="step-6-restart-services-on-all-upgraded-servers"></a>第 6 步：在所有升级后的服务器上重启服务
 
 > [!NOTE]
-> 然后重新启动服务，请确保 %ProgramData%\WindowsFabric 在所有前端服务器上不存在。 如果存在，请在启动服务之前将其删除。 
+> 之前重新启动这些服务，请确保在所有前端服务器上不存在 %ProgramData%\WindowsFabric。 如果存在，请在启动服务之前将其删除。 
   
-- 升级前端池中所有服务器之后，重新启动服务，通过使用以下 PowerShell 命令： 
+- 升级中的前端池的所有服务器之后，重新启动服务，通过使用以下 PowerShell 命令： 
     
   ```
   Start-CsPool
@@ -214,9 +216,9 @@ Disable-CsComputer -Scorch
   
 ![显示就地升级成功完成后的后续步骤的屏幕截图。](../media/6a7236b6-9ef9-4df3-8682-b0e4021810f9.png)
   
-### <a name="step-7-verify-skype-for-business-functionality-works"></a>第 7 步： 验证 Skype 业务功能可以正常运行
+### <a name="step-7-verify-skype-for-business-functionality-works"></a>步骤 7： 验证 Skype 业务功能可以正常运行
 
-若要确保升级成功，已升级的池，测试 Skype 的业务，以确保功能达到预期效果。 
+若要确保升级已成功完成，已升级的池，测试 Skype for Business 以确保该功能可以正常工作。 
   
 ### <a name="step-8-upgrade-secondary-pools"></a>第 8 步：升级辅助池
 
@@ -230,17 +232,17 @@ Disable-CsComputer -Scorch
   
 查看页面底部帮您进行疑难解答的完整消息。单击“**查看日志**”获得更多详细信息。
   
-如果在就地升级失败上**验证升级准备情况**或 * * 安装缺少的系统必备组件 * *，请确保服务器有所有最新 Windows 服务器、 Lync 服务器和 SQL Server 更新应用，并且所有所需的软件和角色安装。 现在需要的列表，请参阅[安装系统必备组件的业务服务器 2015 Skype](install/install-prerequisites.md)和[业务服务器 2015年的 Skype 的服务器要求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
+如果上**Verifying 升级准备情况**的就地升级失败或 * * 安装缺少系统必备组件 * *，请确保服务器有所有的最新的 Windows Server、 Lync Server 和 SQL Server 更新应用，并且所有所需的软件和角色安装。 有什么要求的列表，请参阅[安装必备组件的业务服务器 2015 Skype](install/install-prerequisites.md)和[Skype 的业务服务器 2015年服务器要求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
   
 ## <a name="see-also"></a>另请参阅
 
 #### 
 
-[计划升级到 Skype 的业务服务器 2015](../plan-your-deployment/upgrade.md)
+[Plan to upgrade to Skype 的业务服务器 2015](../plan-your-deployment/upgrade.md)
   
-[业务服务器 2015 Skype 的的服务要求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Skype for Business Server 2015 服务器要求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[为业务服务器 2015年安装 Skype 的先决条件](install/install-prerequisites.md)
+[安装 Business Server 2015 Skype 的先决条件](install/install-prerequisites.md)
   
-[为业务服务器 2015年安装 Skype](install/install.md)
+[安装 Business 服务器 2015 Skype](install/install.md)
 

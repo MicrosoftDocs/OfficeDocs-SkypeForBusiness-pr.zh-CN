@@ -7,33 +7,35 @@ ms.date: 8/17/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
-description: 阅读本主题，以了解如何配置增强的业务服务器企业语音紧急服务 (E9-1-1) 在 Skype 的位置策略。
-ms.openlocfilehash: 7635199810e21f33bdbe30d5bf6f229987fa8c77
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 阅读本主题可了解如何配置 Business Server 企业语音的增强型紧急服务 (E9-1-1) 在 Skype 的位置策略。
+ms.openlocfilehash: 2bb2d7fad7906d78d5118f219b0b85d92dd97b23
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-location-policies-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建位置策略
  
-阅读本主题，以了解如何配置增强的业务服务器企业语音紧急服务 (E9-1-1) 在 Skype 的位置策略。 
+阅读本主题可了解如何配置 Business Server 企业语音的增强型紧急服务 (E9-1-1) 在 Skype 的位置策略。 
   
-Skype 业务服务器使用位置策略让 Skype 在客户注册过程 E9-1-1 的业务客户。 位置策略包含定义 E9-1-1 实现方式的设置。 有关详细信息，请参阅[规划业务服务器 2015年的 Skype 的位置策略](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)。
+Skype 业务服务器使用位置策略 Skype 启用客户端注册期间业务客户端 E9-1-1。 位置策略包含定义 E9-1-1 实现方式的设置。 有关详细信息，请参阅[规划业务服务器 2015年的 Skype 的位置策略](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)。
   
-通过 Skype 业务控制面板或通过使用[New CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet，您定义位置的策略。
+使用适用于业务 Control Panel Skype 或使用[New-cslocationpolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet 定义位置策略。
   
 > [!NOTE]
-> Skype 业务服务器现在支持的客户端配置的多个紧急号码。 如果您想要配置多个紧急号码，您必须遵循[多个紧急号码业务服务器 2015年的 Skype 中规划](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)和[配置多个紧急号码业务 2015年的 Skype 在](configure-multiple-emergency-numbers.md)中的信息。 
+> Skype 业务服务器现在支持的客户端的多个紧急号码的配置。 如果您想要配置多个紧急号码，则必须按照中[规划中的业务服务器 2015 Skype 的多个紧急号码](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)和[配置中的业务 2015 Skype 的多个紧急号码](configure-multiple-emergency-numbers.md)的信息。 
   
 可以编辑全局位置策略，并创建新的带标记的位置策略。客户端所在的子网没有关联位置策略，或没有直接为客户端分配位置策略时，客户端会获取全局策略。向子网或用户分配带标记的策略。 
   
 要创建位置策略，必须使用 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator 管理角色成员的帐户，或者具有等效管理员权限的帐户。
   
-有关详细信息，请参阅[规划业务服务器 2015年的 Skype 的位置策略](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)。 此过程中的 Cmdlet 使用通过下列值定义的位置策略。 Cmdlet 参数和值的完整说明，请参阅[新建 CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)。
+有关详细信息，请参阅[规划业务服务器 2015年的 Skype 的位置策略](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)。 此过程中的 Cmdlet 使用通过下列值定义的位置策略。 Cmdlet 参数和值的完整说明，请参阅[New-cslocationpolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)。
   
 |**元素**|**值**|
 |:-----|:-----|

@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 本文列出了在加拿大可用的适用于 Skype for Business 和 Microsoft Teams 的 Office 365 服务。
-ms.openlocfilehash: abc0ecee302e3f646e43fcbb54e5ecf2e19ee5bd
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 6a5f5f0c73d82880acfd9adfa824825ed41b4f85
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="availability-in-canada"></a>在加拿大的可用性
 
@@ -51,8 +51,6 @@ ms.lasthandoff: 04/18/2018
 |语音邮件  <br/> |可用  <br/> |
 
 ## <a name="calling-plans"></a>通话套餐
-> [!IMPORTANT]
-> 加拿大只向预览版和早期采用者客户提供。 有关详细信息，请参阅 [Skype 预览版计划](https://www.skypepreview.com)。
     
 |**功能**|**详细信息**|
 |:-----|:-----|
@@ -69,6 +67,9 @@ ms.lasthandoff: 04/18/2018
 |是否提供免费电话号码？  <br/> |是  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。
+
+> [!Note] 
+> 当调用计划 （国内或国内和国际） 用户在美国拨打的加拿大将被视为国内呼叫中的电话号码。 加拿大中的用户将进行对美国号码的呼叫时，这也是这种情况。
   
 ## <a name="communications-credits"></a>通信点数
 

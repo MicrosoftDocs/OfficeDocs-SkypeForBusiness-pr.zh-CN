@@ -12,14 +12,15 @@ metadata:
   manager: serdars
   ms.service: msteams
   ms.topic: tutorial
+  localization_priority: Priority
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 81407bfcaa3eb9947b77f0793dd01f38570d808a
-  ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
-  ms.translationtype: HT
+  ms.openlocfilehash: ff3bd0ef632b1e694f0e90aa46966641071be2dc
+  ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+  ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/05/2018
+  ms.lasthandoff: 05/03/2018
 items:
 - durationInMinutes: 1
   content: "在此培训中，我们将介绍新的智能通信愿景，展望 Skype for Business 和 Teams 的未来。\n\n此培训面向以下人员： \n\n- IT 专业人士 \n\n- 负责规划、部署或管理 Skype for Business 的人员\n\n- 希望了解如何在贵组织中引入 Teams 的人员\n\n我们将详细介绍如何结合使用这两个产品，并介绍现在可以采取哪些步骤来准备现有 Skype for Business 环境以采用 Teams。 此教程的主要学习内容如下：\n\n- 了解智能通信愿景\n\n- 了解从 Skype for Business Online 到 Teams 的旅程\n\n- 了解现在应该开始采取哪些行动\n\n我们不会介绍有关启用 Teams 或并行运行 Skype for Business 和 Teams 的“操作方法”过程。 有关此信息，请参阅以下资源：\n\n- Microsoft Ignite 2017 会议：[如何为用户启用和配置 Microsoft Teams](https://myignite.microsoft.com/sessions/53318)\n\n- [Skype for Business 与 Teams 的升级旅程和共存](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) \n\n如果对此培训有任何疑问或反馈，请：\n\n- 在此教程的“后续步骤”页面底部的“评论”部分中发布</a>\n\n- 给我们发送电子邮件：[AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey)\n\n- 要向我们提供你的产品反馈（例如功能请求），请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。\n"

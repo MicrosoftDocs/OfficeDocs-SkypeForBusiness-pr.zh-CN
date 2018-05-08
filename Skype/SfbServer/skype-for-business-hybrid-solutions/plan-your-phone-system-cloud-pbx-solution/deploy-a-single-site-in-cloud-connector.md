@@ -7,17 +7,17 @@ ms.date: 9/25/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom:
+localization_priority: Priority
+ms.collection:
 - Strat_SB_Hybrid
-- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: 了解有关在云连接器版本中部署单个 PSTN 站点的信息。
-ms.openlocfilehash: 6268a9207d36e89faf391ac77a7dd832ba65704f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ba6d5e4fe350db5076f7067be01726282f2dcc45
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>在云连接器中部署单个站点
  
@@ -35,7 +35,7 @@ Register-CcAppliance
 
 按照说明提供租户管理员帐户名称和密码。请使用你为云连接器在线管理创建的帐户。此外，按照说明提供外部证书密码、安全模式管理员密码、域管理员密码和虚拟机管理员密码。 
   
-版本 1.4.2 中，前面，还按照提供的外部证书密码，安全模式的管理员密码、 域管理员密码和虚拟机管理员密码的说明进行操作。 
+版本中的 1.4.2 和更早版本，还请按照说明提供外部证书密码、 安全模式管理员密码、 域管理员密码和 VM 管理员密码。 
   
 在 2.0 版和更高版本中，还要按照说明提供外部证书密码、CceService 密码和 CABackupFile 密码。
   
@@ -47,9 +47,9 @@ Install-CcAppliance
 
 ## <a name="add-an-appliance-to-an-existing-site"></a>将设备添加到现有站点
 
-您可以扩展现有的云连接器网站，以通过向网站中添加更多的装置支持高可用性。 
+您可以扩展现有云连接器网站以通过向网站添加更多的装置支持高可用性。 
   
-1. 按照准备云接头装置[准备云接头装置](prepare-your-cloud-connector-appliance.md)所述的步骤。 请注意，有些步骤仅限于部署中的第一个设备。 请确认站点目录已存在且已为支持 HA 进行了正确配置。
+1. 按照准备云连接器装置[准备云连接器装置](prepare-your-cloud-connector-appliance.md)中所述的步骤。 请注意，有些步骤仅限于部署中的第一个设备。 请确认站点目录已存在且已为支持 HA 进行了正确配置。
     
 2. 仅在新添加的主机服务器上运行以下 cmdlet 以更新 Office 365 租户配置中的拓扑信息。如果要同时添加多个设备，请逐个在每个新添加的主机服务器上运行该 cmdlet：
     
@@ -70,7 +70,7 @@ Install-CcAppliance
   ```
 
 > [!NOTE]
-> 如果将站点目录设置为本地文件夹路径，则需为此文件夹定义文件共享，并对新设备上的站点目录使用 UNC 路径。 可将第一个设备站点目录保留为本地路径，或对其进行修改以使用到同一文件夹的共享的 UNC 路径。 如果共享站点目录的位置发生变化，则需卸载再重新安装之前安装的所有设备。 > 要点： CceService 帐户和 CABackupFile 帐户的密码必须相同站点内, 部署的所有装置，以便装置可以访问站点目录共享和加密的网站目录中的 CA 备份的文件。 
+> 如果将站点目录设置为本地文件夹路径，则需为此文件夹定义文件共享，并对新设备上的站点目录使用 UNC 路径。 可将第一个设备站点目录保留为本地路径，或对其进行修改以使用到同一文件夹的共享的 UNC 路径。 如果共享站点目录的位置发生变化，则需卸载再重新安装之前安装的所有设备。 > 重要说明： CceService 帐户和 CABackupFile 帐户的密码必须相同部署在网站的所有装置以便 appliance 可以访问的网站目录共享和网站目录中的加密的 CA 备份文件。 
   
 ## <a name="remove-an-appliance-from-an-existing-site"></a>从现有站点中删除设备
 

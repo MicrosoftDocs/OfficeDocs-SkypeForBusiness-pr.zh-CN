@@ -7,24 +7,26 @@ ms.date: 3/21/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
-description: 阅读本主题可了解如何规划用于共享行外观 (SLA) 在 Skype 业务服务器 2015，11 月 2015年累积更新。
-ms.openlocfilehash: bed7eaf520cb8fd9bfc9c7a9a27093d55647b510
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 阅读本主题可了解如何规划为共享行外观 (SLA) 中 Skype 业务服务器 2015 年 11 月 2015年累积更新。
+ms.openlocfilehash: 3aa5f00294303ce38d74ddc2b959ff3c4956c135
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中规划共享线路外观
  
-阅读本主题可了解如何规划用于共享行外观 (SLA) 在 Skype 业务服务器 2015，11 月 2015年累积更新。 
+阅读本主题可了解如何规划为共享行外观 (SLA) 中 Skype 业务服务器 2015 年 11 月 2015年累积更新。 
   
-共享的行外观用于处理多个调用特定数量称为共享的号是 Skype 的业务功能。 SLA 可以配置任何企业语音启用 Skype 业务用户为具有多行共享数字来响应的多个调用。 这些呼叫实际上并不是通过共享号码接收的，而是转接给担任共享号码的代理人的用户。 其中任何一个代理人都可以接听呼叫，而其余代理人的电话上将收到一个通知，说明已接听呼叫的代理人和哪条线路非常忙碌。 共享号码的线路数和代理人可以在 SLA 中配置。 此外，也可以为共享号码配置高级选项，例如 BusyOption（所有线路都忙碌时发生的情况）和 MissedCallOption（没有人接听呼叫）。
+共享的行外观是用于处理特定数量称为共享的号的多个呼叫的 Skype for Business 中的功能。 SLA 可以配置任何企业语音用户启用了 Skype 业务为多行共享号码以响应多个呼叫。 这些呼叫实际上并不是通过共享号码接收的，而是转接给担任共享号码的代理人的用户。 其中任何一个代理人都可以接听呼叫，而其余代理人的电话上将收到一个通知，说明已接听呼叫的代理人和哪条线路非常忙碌。 共享号码的线路数和代理人可以在 SLA 中配置。 此外，也可以为共享号码配置高级选项，例如 BusyOption（所有线路都忙碌时发生的情况）和 MissedCallOption（没有人接听呼叫）。
   
-SLA 是仅支持以下电话设备 （它不支持 Skype 业务上为客户端计算机、 移动电话或其他设备）： 
+仅在 （其不支持 Skype 业务客户端计算机、 移动电话或其他设备上） 的以下电话设备上支持 SLA: 
   
 - 具有固件更新 5.4.1 的 Polycom VVX300
     
@@ -34,9 +36,9 @@ SLA 是仅支持以下电话设备 （它不支持 Skype 业务上为客户端�
     
 - 具有固件更新 5.4.1 的 Polycom VVX600
     
-SLA 是 Skype 业务服务器中的新功能 11 月 2015年累积更新。 
+SLA 是 Skype 业务服务器中的新功能年 11 月 2015年累积更新。 
   
-有关部署 SLA 的信息，请参阅[部署共享行中的外观业务服务器 2015年的 Skype](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md)。
+有关部署 SLA 的信息，请参阅[部署中的业务服务器 2015 Skype 共享行外观](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md)。
   
 ## <a name="feature-list"></a>功能列表
 

@@ -7,24 +7,26 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
-description: Skype 在企业语音中的 PSTN 连接业务服务器的计划。
-ms.openlocfilehash: 785dd39d4a809283ae53f7eedbe398a6271b7c5b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 规划 Business Server Skype 中的企业语音中的 PSTN 连接。
+ms.openlocfilehash: 228391049988c2eb886c0cb4e7caccce6f55ff3b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-pstn-connectivity-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中规划 PSTN 连接
  
-Skype 在企业语音中的 PSTN 连接业务服务器的计划。
+规划 Business Server Skype 中的企业语音中的 PSTN 连接。
   
-企业级 VoIP 解决方案必须以始终如一的服务质量 (QoS) 提供来往于公用电话交换网 (PSTN) 的呼叫。 发出和接收呼叫的用户不应注意基础技术： 企业语音基础结构和 PSTN 之间的调用应从用户的角度来看，似乎只是另一个电话。
+企业级 VoIP 解决方案必须以始终如一的服务质量 (QoS) 提供来往于公用电话交换网 (PSTN) 的呼叫。 发起和接收呼叫的用户应不必了解底层技术： 从用户的角度来看，企业语音基础结构与 PSTN 之间的呼叫应该就像是另一个电话呼叫。
   
-Skype 业务服务器提供可靠、 可扩展的 PSTN 连接通过使用以下选项：
+Skype 业务服务器通过以下选项提供可靠且可扩展的 PSTN 连接：
   
 - 到 Internet 电话服务提供商 (ITSP) 的 **SIP 中继**
     
@@ -36,14 +38,14 @@ Skype 业务服务器提供可靠、 可扩展的 PSTN 连接通过使用以下�
   
 ## <a name="in-this-section"></a>本节内容
 
-- [在业务服务器 2015年的 Skype 的 SIP 中继](sip-trunking.md)
+- [中的业务服务器 2015 Skype 的 SIP 中继](sip-trunking.md)
     
-- [直接在 Skype 的业务服务器 2015年的 SIP 连接](direct-sip.md)
+- [Skype 中的业务服务器 2015年的直接 SIP 连接](direct-sip.md)
     
-- [在业务服务器 2015年的 Skype 的 M:N 干线](m-n-trunk.md)
+- [M:N 中继中的业务服务器 2015 Skype](m-n-trunk.md)
     
-- [在业务服务器 2015年的 Skype 的转换规则](translation-rules.md)
+- [中的业务服务器 2015 Skype 的转换规则](translation-rules.md)
     
-- [为出站语音路由在 Skype 业务服务器 2015年计划](outbound-voice-routing.md)
+- [规划出站语音路由中 Skype 业务服务器 2015](outbound-voice-routing.md)
     
 

@@ -7,28 +7,30 @@ ms.date: 4/21/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: 阅读本主题，了解如何在 Skype for Business Server 2015 中配置多个紧急号码。
-ms.openlocfilehash: 98d9bbef92f5f3894fb288c01e474288f9f7bb4c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ad2f048294b7eeef6d675fdf80884ae13cc75a61
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business-2015"></a>在 Skype for Business Server 2015 中配置多个紧急号码
  
 阅读本主题，了解如何在 Skype for Business Server 2015 中配置多个紧急号码。
   
-Skype 业务服务器的客户端现在支持多个紧急号码。 多个紧急号码是 6 月的 2016 年引入的新功能累积更新。 配置您的环境以支持多个紧急号码之前，请务必阅读[规划业务服务器 2015年的 Skype 在多个紧急号码](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)。
+Skype 业务服务器现在支持的客户端的多个紧急号码。 多个紧急号码是年 6 月 2016年中引入的新功能累积更新。 在配置您的环境以支持多个紧急号码之前，请务必阅读[Plan for Business Server 2015 的 Skype 中的多个紧急号码](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)。
   
 > [!NOTE]
-> 如果您有尚未升级到 11 月 2016年累积更新，请参阅[更新业务服务器 2015年的 Skype](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)。 与 11 月 2016年累积更新，支持紧急号码数增加从 5 到 100。 
+> 如果您具有尚未升级到年 11 月 2016年累积更新，请参阅[业务服务器 2015年的 Skype 更新](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)。 与年 11 月 2016年累积更新，支持紧急号码数增大从 5 至 100。 
   
 ## <a name="configure-multiple-emergency-numbers"></a>配置多个紧急号码
 
-要配置多个紧急号码，请使用 New CsEmergencyNumber cmdlet，，然后使用[New CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)和[一组 CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) cmdlet 指定 EmergencyNumbers 参数。 所有位置策略参数，如 PSTN 使用和所需，位置的完整说明，请参见[设置 CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps)
+若要配置多个紧急号码，请使用新建 CsEmergencyNumber cmdlet，然后 EmergencyNumbers 参数指定使用[New-cslocationpolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)和[设置 CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) cmdlet。 有关所有位置策略参数，如 PSTN 用法和所需的位置的完整说明，请参阅[设置 CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps)。
   
 以下命令通过使用 New-CsEmergency cmdlet，创建了一个包含拨号串 911 的新紧急号码：
   
@@ -51,7 +53,7 @@ Skype 业务服务器的客户端现在支持多个紧急号码。 多个紧急�
 
 ```
 
-下一个命令创建多个拨号屏蔽的紧急号码：
+下面的命令创建多个拨号掩码紧急号码：
   
 ```
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999 

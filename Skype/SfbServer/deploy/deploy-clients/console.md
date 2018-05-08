@@ -7,58 +7,59 @@ ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: Strat_SB_Admin
+ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置 Skype 会议室系统 v2 控制台设备及其外围设备。
-ms.openlocfilehash: 6e2ec8384387cefd074342abb3da316288af1f0f
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: b9b786de35af63202b168b0664440d28302492e5
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>配置 Skype 会议室系统 v2 控制台
  
 本文介绍如何设置 Skype 会议室系统 v2 控制台设备及其外围设备。
   
-如果有必要 Skype 业务和 Exchange 帐户已经创建并测试[部署 Skype 的空间系统 v2](room-systems-v2.md)中所述，只应执行这些步骤。 您需要的硬件和软件[Skype 的空间系统 v2 要求](../../plan-your-deployment/clients-and-devices/requirements.md)中所述。 本主题包括以下部分：
+如果业务和 Exchange 帐户所需的 Skype 已经创建并测试[部署 Skype 会议室系统 v2](room-systems-v2.md)中所述，应仅执行这些步骤。 您将需要的硬件和软件[Skype 会议室系统 v2 要求](../../plan-your-deployment/clients-and-devices/requirements.md)中所述。 本主题包括以下部分：
   
 - [准备安装映像](console.md#Prep_Image)
     
-- [在 tablet 设备上安装专用的 CA 证书](console.md#Certs)
+- [在平板电脑设备上安装一个私有 CA 证书](console.md#Certs)
     
-- [安装 Windows 10 和 Skype 的空间系统 v2 控制台应用程序](console.md#Reimage)
+- [安装 Windows 10 和 Skype 会议室系统 v2 控制台应用程序](console.md#Reimage)
    
-- [初始设置的控制台](console.md#Initial)
+- [初始设置控制台](console.md#Initial)
     
-- [Skype 的空间系统 v2 部署检查表](console.md#Checklist)
+- [Skype 会议室系统 v2 部署清单](console.md#Checklist)
     
 > [!NOTE]
-> Skype 的空间系统 v2 仅在正确配置的 Skype 的其中设备帐户正确设置[部署 Skype 的空间系统 v2](room-systems-v2.md)中所述的业务环境中工作。 
+> Skype 会议室系统 v2 将其中的设备帐户正确设置[部署 Skype 会议室系统 v2](room-systems-v2.md)中所述的业务环境正确配置 Skype 仅适用。 
   
 ## <a name="prepare-the-installation-image"></a>准备安装映像
 <a name="Prep_Image"> </a>
 
-Surface Pro 4 或 Surface Pro 上安装 Skype 的空间系统 v2 应用程序需要至少 32 gb 内存格式化为 FAT32 磁盘的 USB 存储设备。 应该有该设备上的任何其他文件、 USB 存储上的现有文件将会丢失。 
+Surface Pro 4 或 Surface Pro 上安装 Skype 会议室系统 v2 应用程序需要具有至少 32 GB 内存格式设置为 FAT32 磁盘上的 USB 存储设备。 不应在设备上的任何其他文件，在 USB 存储任何现有文件都将丢失。 
   
 > [!NOTE]
-> 如果未按照这些说明创建你的控制台映像，将很可能导致发生意外行为。 Skype 的空间系统 v2 图像创建不再支持 Windows 10 企业纪念日更新 (版本 1607)。 
+> 如果未按照这些说明创建你的控制台映像，将很可能导致发生意外行为。 Skype 会议室系统 v2 图像创建不再支持 Windows 10 企业周年日 Update (版本 1607)。 
   
 > [!NOTE]
-> 现有的 Skype 的空间系统 v2 与 Windows 10 企业纪念日更新移动到 Windows 应用商店通过 Skype 的空间系统 v2 更新 3 起作用，但新的安装应按如下所述。 
+> 与 Windows 10 企业周年日更新将移至通过 Windows 应用商店的 Skype 会议室系统 v2 更新 3 现有 Skype 会议室系统 v2，但应该执行全新安装，如下所述。 
   
-1. 下载[KB4056892 的 MSU](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)。
+1. 下载[为 KB4056892 MSU](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)。
 2. 下载[CreateSrsMedia.ps1 脚本](https://go.microsoft.com/fwlink/?linkid=867842)。
-3. CreateSrsMedia.ps1 脚本所在的目录中的 KB4056892 为 MSU 的地方。
-4. Windows 10 机器上从提升的提示符下运行 CreateSrsMedia.ps1 脚本。
+3. 将为 KB4056892 MSU CreateSrsMedia.ps1 脚本相同的目录。
+4. Windows 10 计算机上从提升提示符处运行 CreateSrsMedia.ps1 脚本。
 
 
-按照该脚本的说明创建 Skype 的空间系统 v2 USB 安装盘。 完成后，从计算机上删除 U 盘，继续[安装 Windows 10 和 Skype 的空间系统 v2 控制台应用程序](console.md#Reimage)。
+按照脚本的说明创建 Skype 会议室系统 v2 USB 安装盘。 完成后，从计算机中删除 USB 磁盘，并继续[安装 Windows 10 和 Skype 会议室系统 v2 控制台应用程序](console.md#Reimage)。
     
 ## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>安装 Windows 10 和 Skype 会议室系统 v2 控制台应用 
 <a name="Reimage"> </a>
 
-现在，你需要应用创建的映像。 图形输入板作为一种设备将运行并将设置默认用户只能运行 Skype 的空间系统 v2 应用程序。 
+现在，你需要应用创建的映像。 平板电脑将运行作为一种设备，并将设置的默认用户仅运行 Skype 会议室系统 v2 应用程序。 
   
 1. 应该将平板电脑连接到电源。 从完全断电的状态开始。 如有必要，请按下并按住电源按钮，直至平板电脑关闭。
     
@@ -72,12 +73,12 @@ Surface Pro 4 或 Surface Pro 上安装 Skype 的空间系统 v2 应用程序需
     
 6. 安装完成后，系统将关闭。
     
-系统关闭后，则可以安全地删除 USB 安装盘。 此时，可以将平板电脑置于扩展坞中，并连接会议室所需的外围设备。 请参阅制造商说明。
+系统已关闭后，它是安全地移除 USB 安装盘。 此时，可以将平板电脑置于扩展坞中，并连接会议室所需的外围设备。 请参阅制造商说明。
   
  
 ### <a name="selecting-a-language-in-creators-update"></a>在 Creator Update 中选择语言
 
-在创建者的更新，您需要选择隐式语言不提供用户提供他们所需的实际应用程序语言在方案中使用 ApplyCurrentRegionAndLanguage.ps1 脚本 （例如，他们想要的应用程序采用法语，但它是在接下来英语）。
+在创建者的更新中，您将需要使用 ApplyCurrentRegionAndLanguage.ps1 脚本方案中隐式语言选择不提供所需的实际的应用程序语言的用户 （例如，所需应用程序采用法语，但它是在接下来英语） （英文）。
   
 > [!NOTE]
 > 以下说明仅适用于使用 Windows Creator Update 创建的设备。 尚未正确地重新映像至新设置系统的传统/已上市系统将无法使用这些说明，但应该不会受到需要手动干预的初始问题困扰（Anniversary Edition 允许你在设置中显式选择应用语言）。 
@@ -90,15 +91,15 @@ Surface Pro 4 或 Surface Pro 上安装 Skype 的空间系统 v2 应用程序需
     
 3. 选择齿轮图标以启动“**设置**”应用。
     
-4. 选择**时间&amp;语言**。
+4. 选中**时间&amp;语言**。
     
-5. 选择**地区&amp;语言**。
+5. 选中**区域&amp;语言**。
     
 6. 选择“**添加语言**”。
     
 7. 选择要添加的语言。
     
-8. 选择刚刚添加到"语言"列表中的语言。
+8. 选择您刚刚添加到"语言"列表的语言。
     
 9. 选择“**设置为默认值**”。
     
@@ -116,21 +117,21 @@ Surface Pro 4 或 Surface Pro 上安装 Skype 的空间系统 v2 应用程序需
     
 13. 重新启动系统。
     
-现在到 Skype 的空间系统 v2 设备应用所需的语言。
+所需的语言立即应用于 Skype 会议室系统 v2 设备。
 ## <a name="initial-set-up-of-the-console"></a>控制台的初始设置 
 <a name="Initial"> </a>
 
-在安装 Windows 之后，在启动下一步时，或如果 /reboot 选项选择 Skype 的空间系统 v2 应用程序将进入其初始安装过程。
+安装 Windows 后，Skype 会议室系统 v2 应用程序将转到其初始安装过程中，启动下一步时，或者如果已选择 /reboot 选项。
   
 1. 将显示“用户帐户”屏幕。输入要在该设备中使用的会议室帐户的 Skype 登录地址（格式为 user@domain）。
     
 2. 输入会议室帐户的密码，再重新输入以进行确认。
     
-3. 在"配置域"下设置 FQDN Skype 业务服务器。 如果业务 SIP 域的 Skype 是从用户的 Exchange 域不同，在此字段中输入 Exchange 域。
+3. 在"配置域"下的 FQDN 设置为 Skype 业务服务器。 如果业务 SIP 域 Skype 不同的用户的 Exchange 域，请在此字段中输入的 Exchange 域。
     
 4. 单击" **下一步**"。
     
-5. 选择功能在屏幕上的指示的设备，然后单击**下一步**。 默认设置是“自动屏幕共享”设置为“开启”，“隐藏会议名称”设置为“关闭”。 要选择的设备为：
+5. 选择功能屏幕上的指定的设备，然后单击**下一步**。 默认设置是“自动屏幕共享”设置为“开启”，“隐藏会议名称”设置为“关闭”。 要选择的设备为：
     
    - 用于会议的麦克风：此会议室的默认麦克风。
     
@@ -142,10 +143,10 @@ Surface Pro 4 或 Surface Pro 上安装 Skype 的空间系统 v2 应用程序需
     
 6. 单击“**完成**”。
     
-应用程序应立即开始登录 Skype 业务服务器 2015年的上面，输入凭据，应开始使用这些相同的凭据交换与同步其日历。 有关使用应用程序的详细信息，请参阅[Skype 的空间系统第 2 版的帮助](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
+应用程序应立即启动登录到 Skype 的业务服务器 2015年上面，输入凭据，并应开始与使用这些相同的凭据的 Exchange 同步其日历。 有关使用应用程序的详细信息，请参阅[Skype 会议室系统版本 2 帮助](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
   
 > [!IMPORTANT]
-> Skype 的空间系统 v2 依赖认证的控制台硬件 (Logitech SmartDock) 的存在。 即使正确创建的映像包含加载 Surface Pro 4 或 Surface Pro Skype 的空间系统 v2 应用程序无法启动过去的初始安装过程除非检测到该控制台的硬件。 
+> Skype 会议室系统 v2 依赖于认证的控制台硬件 (Logitech SmartDock) 的状态。 除非检测到控制台硬件，即使包含 Skype 会议室系统 v2 应用程序 Surface Pro 4 或 Surface Pro 上加载的正确创建的图像将无法启动过去的初始安装过程。 
   
 > [!NOTE]
 > 在初始安装过程中，如果发生触摸键盘不支持某些符号的情况，一些非英语用户可能需要连接到控制台的物理键盘。 
@@ -153,7 +154,7 @@ Surface Pro 4 或 Surface Pro 上安装 Skype 的空间系统 v2 应用程序需
 ### <a name="install-a-private-ca-certificate-on-the-tablet-device"></a>在平板电脑设备上安装私有 CA 证书
 <a name="Certs"> </a>
 
-Skype 的空间系统 v2 设备都需要信任通过 Skype 使用它连接到您的业务和 Exchange 服务器的证书。 对于 O365 而言，会自动完成此操作，因为这些服务器使用的是公用证书颁发机构，Windows 10 自动信任这些证书颁发机构。 在证书颁发机构是私有的其中一个用例实例与 Active Directory 和 Windows 证书颁发机构，在内部部署中可以将证书添加到 Skype 的空间系统 v2 设备采用两种方法：
+Skype 会议室系统 v2 设备都需要信任由 Skype 用于连接到的业务和 Exchange 服务器的证书。 对于 O365 而言，会自动完成此操作，因为这些服务器使用的是公用证书颁发机构，Windows 10 自动信任这些证书颁发机构。 在情况下证书颁发机构专用，例如内部部署 Active Directory 与 Windows 证书颁发机构，您可以添加到几种方式中的 Skype 会议室系统 v2 设备的证书：
   
 - 如果证书颁发机构已发布至 Active Directory（标准部署选项），则可将设备加入 Active Directory，此操作会自动添加所需证书。
     
@@ -163,7 +164,7 @@ Skype 的空间系统 v2 设备都需要信任通过 Skype 使用它连接到您
 
 1. 将 CA 证书下载到你的计算机，并将其保存到“C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer”。
     
-2. 在管理员模式下放置曲面 4 （请参阅[管理模式和设备管理](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)）。
+2. 曲面 4 置于管理员模式 （请参阅[管理模式和设备管理](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)）。
     
 3. 运行以下命令：
     
@@ -174,11 +175,11 @@ Skype 的空间系统 v2 设备都需要信任通过 Skype 使用它连接到您
 ### <a name="join-an-active-directory-domain-optional"></a>加入 Active Directory 域（可选）
 <a name="Certs"> </a>
 
-Skype 的空间系统 v2 设备可以加入域。 Skype 的空间系统 v2 设备应位于 PC 工作站从一个单独的 OU，因为许多工作站策略不兼容与 Skype 的空间系统 v2。 一个常见的例子是，以防 Skype 的空间系统 v2 自动启动密码实施策略。 GPO 设置的管理有关的信息，请参阅[管理 Skype 的空间系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)。 
+Skype 会议室系统 v2 设备可以加入您的域。 应将 Skype 会议室系统 v2 设备放入从 PC 工作站单独的 OU，因为多个工作站策略不与 Skype 会议室系统 v2 兼容。 常见的示例是将阻止自动启动 Skype 会议室系统 v2 的密码实施策略。 有关管理 GPO 设置的信息，请参阅[管理 Skype 会议室系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)。 
   
 ### <a name="to-join-skype-room-system-v2-to-a-domain"></a>将 Skype 会议室系统 v2 加入域
 
-1. 登录到控制台的管理员帐户 （请参阅[管理模式和设备管理](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)）。
+1. 登录到控制台从管理员帐户 （请参阅[管理模式和设备管理](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)）。
     
 2. 启动提升的 Powershell 命令提示符。
     
@@ -188,13 +189,13 @@ Skype 的空间系统 v2 设备可以加入域。 Skype 的空间系统 v2 设�
   Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
   ```
 
-例如，如果您完全限定的域名是 redmond.corp.microsoft.com 并且要 Skype 的空间系统 v2 设备处于"Skype 的空间系统 v2""资源"OU 的子 OU 中，该命令将是：
+例如，如果您的完全限定的域名为 redmond.corp.microsoft.com 且您希望 Skype 会议室系统 v2 设备处于"Skype 会议室系统 v2"是"Resources"OU 的子级的 OU，则可该命令：
   
 ```
 Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_System,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
 ```
 
- 如果您想要重命名此计算机加入一个域时，请使用跟计算机的新名称的新标志。
+ 如果您想要重命名的计算机加入到域时，，使用计算机的新名称后跟-NewName 标志。
   
 ## <a name="skype-room-systems-v2-deployment-checklist"></a>Skype 会议室系统 v2 部署清单
 <a name="Checklist"> </a>
@@ -210,19 +211,19 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_Syste
 |☐  <br/> |已设置并验证管理员帐户密码  <br/> |
 |☐  <br/> |已应用所有 Surface Pro 4 或 Surface Pro 系统更新  <br/> |
    
-**音频/视频外设**
+**音频/视频外围设备**
 
 |||
 |:-----|:-----|
 |☐  <br/> |摄像头外围设备固件版本正确（如果适用）  <br/> |
-|☐  <br/> |照相机功能和最佳定位  <br/> |
+|☐  <br/> |摄像机功能和定位以最佳方式  <br/> |
 |☐  <br/> |将用于播放默认设备和播放默认通信设备的设置设为预期的音频外围设备  <br/> |
 |☐  <br/> |将用于录制默认通信设备的设置设为预期的音频外围设备  <br/> |
 |☐  <br/> |音频外围设备固件版本正确（如果适用）  <br/> |
 |☐  <br/> |音频输入设备工作正常且位置最佳  <br/> |
 |☐  <br/> |音频输出设备工作正常且位置最佳  <br/> |
    
-**坞站**
+**停靠**
 
 |||
 |:-----|:-----|
@@ -237,11 +238,11 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_Syste
 
 #### 
 
-[Skype 的空间规划系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[规划 Skype 会议室系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[部署 Skype 的空间系统 v2](room-systems-v2.md)
+[部署 Skype 会议室系统 v2](room-systems-v2.md)
   
-[配置控制台，Skype 的空间系统 v2](console.md)
+[配置 Skype 会议室系统 v2 控制台](console.md)
   
-[Skype 的机房管理系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[管理 Skype 会议室系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

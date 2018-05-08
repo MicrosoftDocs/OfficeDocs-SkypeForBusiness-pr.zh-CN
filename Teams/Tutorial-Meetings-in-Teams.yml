@@ -13,14 +13,15 @@ metadata:
   ms.date: 02/27/2018
   ms.service: msteams
   ms.topic: tutorial
+  localization_priority: Priority
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 293a74d706ca5be0ba890f8460d970b77de28621
-  ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+  ms.openlocfilehash: 33d6ab730ccbd0ead444e8ae482bf697efdf3c51
+  ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 03/28/2018
+  ms.lasthandoff: 05/03/2018
 items:
 - durationInMinutes: 1
   content: >
@@ -110,7 +111,7 @@ items:
         - 给我们发送电子邮件：[AskTeams\@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Meetings)。
         - 要向我们提供 Teams 产品反馈或请求新功能，请访问 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)
     4.  保持最新：
-        - 按照[团队博客](https://aka.ms/teamsblog)。
-        - 阅读[小组路线图](https://aka.ms/skype2teamsroadmap)。
-        - 请查阅[发行说明](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)中发布功能。
+        - 按照[团队博客 （英文）](https://aka.ms/teamsblog)。
+        - 阅读[团队路线图](https://aka.ms/skype2teamsroadmap)。
+        - 了解在[发行说明](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)的最新公开发布功能。
     5.  浏览[更多培训和教程](http://aka.ms/Teamsacademy)。

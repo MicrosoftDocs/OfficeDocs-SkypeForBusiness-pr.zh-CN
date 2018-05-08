@@ -7,42 +7,44 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
-description: 摘要： 了解如何通过 Skype 业务服务器控制面板配置呼叫方 ID。
-ms.openlocfilehash: b5460558d621b04ca041bd540f9aba9d3a19bd45
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何使用适用于业务 Server Control Panel Skype 配置呼叫者 ID。
+ms.openlocfilehash: cd4d11be6c24cc6ba092de4655e5d0b9530c3ac8
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建或修改来电显示的转换规则
  
-**摘要：**了解如何通过 Skype 业务服务器控制面板配置呼叫方 ID。
+**摘要：**了解如何使用适用于业务 Server Control Panel Skype 配置呼叫者 ID。
   
-与 Skype 业务服务器，被呼叫的方的电话号码 （即称为电话号码） 可以从 E.164 格式转换为本地拨号格式所需的_干线等_（即关联的网关、 专用分支交换 （PBX)，或 SIP 中继)。 为此，必须定义一个或多个转换规则，以便在将请求 URI 路由至中继对等方之前对其执行转换。
+与 Skype 的企业服务器，调用的方的电话号码 （即，调用的电话号码） 可以由 E.164 格式转换为_中继对等方_（即，关联的网关、 private branch exchange （所需的本地拨号格式PBX)，或 SIP 中继)。 为此，必须定义一个或多个转换规则，以便在将请求 URI 路由至中继对等方之前对其执行转换。
   
-Skype 业务服务器还提供翻译呼叫方的电话号码 （即，调用方调用从电话号码） 的选项从 E.164 格式为本地拨号格式所需的干线等。 例如，可以编写用于删除拨号串开头的 +44 并将其替换为 0144 的转换规则。
+Skype 业务服务器还提供选项还平移呼叫方的电话号码 （即，呼叫者呼叫的电话号码） 从 E.164 格式为本地拨号格式所需的中继对等方。 例如，可以编写用于删除拨号串开头的 +44 并将其替换为 0144 的转换规则。
   
-### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>配置呼叫方 ID 通过 Skype 业务服务器的控制面板
+### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 配置呼叫者 ID
 
-1. 打开 Skype 业务服务器的控制面板。
+1. 打开 Skype 业务 Server Control Panel。
     
 2. 在左侧导航栏中，单击“语音路由”****，然后单击“Trunk 配置”****。
     
-3. 在“Trunk 配置”****页上，双击一个现有中继（例如，“全局”****中继）以显示“编辑 Trunk 配置”****对话框。
+3. 在“Trunk 配置”**** 页上，双击一个现有中继（例如，“全局”**** 中继）以显示“编辑 Trunk 配置”**** 对话框。
     
 4. 配置呼叫者 ID 显示：
     
-   - 要从可用企业语音部署中的所有翻译规则列表中选择一个或多个规则，请单击**选择**。 在“主叫号码转换规则”****中，单击要与中继关联的规则，然后单击“确定”****。
+   - 若要从企业语音部署中可用的所有转换规则的列表中选择一个或多个规则，请单击**选择**。 在“主叫号码转换规则”**** 中，单击要与中继关联的规则，然后单击“确定”****。
     
-   - 要定义新的转换规则并将其与中继相关联，请单击“新建”****。 定义新的规则的详细信息，请参阅部署文档中[定义的转换规则](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)。
+   - 要定义新的转换规则并将其与中继相关联，请单击“新建”****。 有关定义新的规则的详细信息，请参阅部署文档中的[Defining Translation Rules](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) 。
     
-   - 要编辑已与中继关联的转换规则，请单击相应的规则名称，然后单击“显示详细信息”****。 详细信息，请参阅部署文档中[定义的转换规则](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)。
+   - 要编辑已与中继关联的转换规则，请单击相应的规则名称，然后单击“显示详细信息”****。 有关详细信息，请参阅部署文档中的[Defining Translation Rules](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) 。
     
-   - 要复制现有的转换规则以作为定义新规则的起点，请单击相应的规则名称，再单击“复制”****，然后单击“粘贴”****。 有关详细信息，请参阅[定义转换规则](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)。 
+   - 要复制现有的转换规则以作为定义新规则的起点，请单击相应的规则名称，再单击“复制”****，然后单击“粘贴”****。 有关详细信息，请参阅[Defining Translation Rules](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)。 
     
    - 要从中继删除某个转换规则，请突出显示相应的规则名称，然后单击“删除”****。
     

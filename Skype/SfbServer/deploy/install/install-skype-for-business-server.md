@@ -7,67 +7,69 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
-description: '摘要： 了解如何在拓扑结构中每个服务器上安装 Skype 业务服务器 2015年系统组件。 有关从 Microsoft 评估中心的业务服务器 2015年下载免费试用版的 Skype: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: 6d395ff382ae27e47b95d63b01266694108d22cd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何在拓扑中的每台服务器上安装了业务服务器 2015年系统组件 Skype。 下载免费试用版 Skype 业务服务器 2015 从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
+ms.openlocfilehash: 810e08cc6844f29d12536f89f3b877e7a2be8bce
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="install-skype-for-business-server-2015-on-servers-in-the-topology"></a>在拓扑内的服务器上安装 Skype for Business Server 2015
  
-**摘要：**了解如何在拓扑结构中每个服务器上安装 Skype 业务服务器 2015年系统组件。 有关从[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)业务服务器 2015年下载 Skype 的免费试用版。
+**摘要：**了解如何在拓扑中的每台服务器上安装了业务服务器 2015年系统组件 Skype。 下载[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)中的业务服务器 2015 Skype 的免费试用版。
   
-拓扑结构加载到中央管理存储并 Active Directory 知道哪些服务器将执行哪些角色后，您需要每个拓扑中的服务器上安装的业务服务器系统 Skype。 您可以按照任意顺序完成第 1 步至第 5 步。 但第 6、7、8 步必须在第 1 步至第 5 步之后按照图表所示顺序依次完成。 安装业务服务器系统 Skype 是 8 的第 7 步。
+一旦拓扑加载到中央管理存储和 Active Directory 知道哪些服务器将执行哪些角色，您需要在每个拓扑中的服务器上安装 Business Server system 的 Skype。 您可以按照任意顺序完成第 1 步至第 5 步。 但第 6、7、8 步必须在第 1 步至第 5 步之后按照图表所示顺序依次完成。 安装 Business Server system 的 Skype 是 8 的步骤 7。
   
 ![概述图表。](../../media/6855713d-a5b4-4e5b-8f83-fef3d7a5ec5d.png)
   
-## <a name="install-skype-for-business-server-system"></a>安装 Skype 业务服务器系统
+## <a name="install-skype-for-business-server-system"></a>安装 Business Server 系统 Skype
 
-一旦您已发布的拓扑结构，您可以拓扑结构中每个服务器上安装 Skype 业务服务器组件。 这一节将指导您完成为业务服务器安装 Skype，并设置前端池中的服务器角色和前端服务器与搭配任何服务器角色。 要安装和设置服务器角色，则运行 Skype 业务服务器部署向导的每台计算机安装服务器角色。 使用部署向导完成所有四个部署步骤，包括安装本地配置存储、安装前端服务器、配置证书和启动服务。
+一旦发布拓扑，您可以拓扑中的每台服务器上安装业务服务器组件的 Skype。 本节将指导您完成为业务服务器安装 Skype 和设置的前端池的服务器角色和与前端服务器并置任何服务器角色。 若要安装和设置服务器角色，请业务 Server 部署向导的每台计算机上要安装的一个服务器角色运行 Skype。 使用部署向导完成所有四个部署步骤，包括安装本地配置存储、安装前端服务器、配置证书和启动服务。
   
 > [!IMPORTANT]
-> 您必须使用拓扑生成器完成并发布拓扑结构，才能安装 Skype 业务服务器的服务器上。 
+> 您必须使用拓扑生成器来完成并发布拓扑，然后才能在服务器上的业务服务器安装 Skype。 
   
 > [!NOTE]
 > 必须对拓扑中的所有服务器完成此步骤。 
   
 > [!CAUTION]
-> 在前端服务器上的业务服务器安装 Skype 之后，首次开始服务，您必须确保 Windows 防火墙服务正在运行的服务器上。 
+> Skype 安装前端服务器上的业务服务器后，首次启动服务，您必须确保 Windows 防火墙服务的服务器上运行。 
   
 > [!CAUTION]
-> 执行这些步骤之前，请确保您正在登录到该服务器具有本地管理员和 RTCUniversalServerAdmins 组成员的域用户帐户。 
+> 请按照下列步骤之前，请确保您登录到域用户帐户是本地管理员和 RTCUniversalServerAdmins 组的成员服务器。 
   
 > [!NOTE]
-> 如果在此服务器上没有运行业务服务器安装 Skype，系统将提示您驱动器和安装路径。 如果您的组织要求安装到系统驱动器之外的某个驱动器上或者您考虑空间问题，这将允许您安装到非系统驱动器上。 您可以向一个新的可用驱动器 Skype 业务服务器文件的**安装程序**对话框中更改安装位置路径。 如果您将安装程序文件安装到此路径，包括 OCSCore.msi，Skype 业务服务器文件的其余部分将部署那里也。
+> 如果您尚未此服务器上的业务服务器安装程序运行 Skype，系统将提示您驱动器和安装路径。 如果您的组织要求安装到系统驱动器之外的某个驱动器上或者您考虑空间问题，这将允许您安装到非系统驱动器上。 您可以更改安装位置路径**设置**对话框中的业务服务器文件的 Skype 到新的、 可用驱动器。 如果安装文件安装到此路径，包括 OCSCore.msi 业务服务器文件的 Skype 的其余部分将部署那里以及。
   
 > [!IMPORTANT]
-> 在开始安装之前，请确保 Windows 服务器是通过 Windows 更新保持最新。 
+> 在开始安装之前，请确保 Windows Server 是使用 Windows Update 保持最新。 
   
 ![Windows Server 最新版本。](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
   
-### <a name="install-skype-for-business-server-system"></a>安装 Skype 业务服务器系统
+### <a name="install-skype-for-business-server-system"></a>安装 Business Server 系统 Skype
 
-1. 插入 Skype 业务服务器 2015年安装媒体。 如果安装未自动开始，请双击“**安装**”。
+1. 插入业务服务器 2015年安装媒体 Skype。 如果安装未自动开始，请双击“**安装**”。
     
 2. 安装介质需要 Microsoft Visual C++ 才能运行。将有一个对话框弹出，询问您是否要安装。单击“**是**”。
     
 3. 仔细阅读许可协议，如果同意条款，请选择“**我接受许可协议中的条款**”，然后单击“**确定**”。 
     
-4. 智能安装程序是在其中您可以连接到互联网以检查有更新从 Microsoft 更新 (MU) 在安装过程中，如图中所示的业务服务器 2015年的 Skype 的功能。 这能确保你获得最新产品更新，从而提供更好的体验。 单击“**安装**”开始安装。
+4. 智能安装程序中的业务服务器 2015 其中可以连接到 Internet 以检查更新从 Microsoft Update (MU) 在安装过程中，如图所示的 Skype 的功能。 这能确保你获得最新产品更新，从而提供更好的体验。 单击“**安装**”开始安装。
     
     > [!NOTE]
-    > 很多组织在其企业环境中部署了 Windows Server Update Services (WSUS)。 WSUS 可以让管理员完全管理通过 Microsoft Update 发布到其网络中的计算机的更新分发过程。 累积更新 1 发行版的一部分作为业务服务器的 Skype 引入智能安装程序才能使用 WSUS 的支持。 与第一次业务服务器部署 Skype 或从 Lync Server 2013 环境使用适当升级功能升级的 WSUS 客户可以智能提取 WSUS Skype 的 Windows 更新数据而不获取更新的安装程序从 MU。 想使用智能设置的客户在运行 Setup.exe 之前，需要在所有计算机上运行 SmartSetupWithWSUS.psq。 
+    > 很多组织在其企业环境中部署了 Windows Server Update Services (WSUS)。 WSUS 可以让管理员完全管理通过 Microsoft Update 发布到其网络中的计算机的更新分发过程。 累积更新 1 发行版的一部分 Skype 业务服务器引入智能安装程序以使用 WSUS 的支持。 与 WSUS 部署第一次 for Business Server Skype 或从使用就地升级功能的 Lync Server 2013 环境升级的客户将具有智能提取 WSUS Skype 的 Windows 更新数据而不提取更新的安装程序从 MU。 想使用智能设置的客户在运行 Setup.exe 之前，需要在所有计算机上运行 SmartSetupWithWSUS.psq。 
   
      ![智能设置屏幕截图。](../../media/d35c6cd9-3b8d-4510-871c-30ad07b1f4f2.png)
   
-5. 在部署向导页中，单击**安装或更新 Skype 业务服务器系统**。
+5. 在部署向导页上，单击**安装或更新 Skype 业务 Server 系统**。
     
-6. 如果您完成了这些在下面的过程中，执行的步骤，单击**退出**以关闭 [部署向导]。 对池中的每台前端服务器重复此过程。
+6. 如果您已完成它们在下面的过程中，执行的步骤，单击**退出**以关闭部署向导。 对池中的每台前端服务器重复此过程。
     
 ### <a name="step-1-install-local-configuration-store"></a>步骤 1：安装本地配置存储
 
@@ -84,19 +86,19 @@ ms.lasthandoff: 03/28/2018
     
 ### <a name="step-2-setup-or-remove-skype-for-business-server-components"></a>步骤 2： 安装或删除 Skype 业务服务器组件
 
-1. 检查系统必备组件，，然后单击**运行**下一步**步骤 2： 安装或删除的 Skype 业务服务器组件的**。
+1. 查看先决条件，，然后单击**运行**下一步为**步骤 2： 安装或删除业务服务器组件的 Skype**。
     
-2. 在**设置了 Skype 业务服务器组件的**页面上，单击**下一步**中您已发布的拓扑定义设置组件。
+2. 在**设置 Up Skype 的业务 Server 组件**页上，单击**下一**设置组件，如在已发布的拓扑中定义。
     
-3. “**正在执行命令**”页将显示安装过程中的命令和安装信息摘要。 完成后，您可以使用列表来选择一个日志以查看，，然后单击**查看日志**。
+3. “**正在执行命令**”页将显示安装过程中的命令和安装信息摘要。 完成后，您可以使用列表选择要查看，请关闭日志，，然后单击**查看日志**。
     
-4. 当 Skype 业务服务器组件安装完毕并已审阅日志，根据需要时单击**完成**以完成此步骤安装中。
+4. 完成业务服务器组件安装程序的 Skype 并根据需要已审阅日志，请单击**完成**以完成安装中的此步骤。
     
     > [!NOTE]
-    > 如果提示重新启动服务器（如果需要安装 Windows 桌面体验则可能会发生这种情况），请执行此操作。 当计算机重新启动并且正在运行，您需要运行此 (步骤 2： 安装或删除业务服务器组件的 Skype) 试程序。 
+    > 如果提示重新启动服务器（如果需要安装 Windows 桌面体验则可能会发生这种情况），请执行此操作。 计算机时重新启动并正在运行，需要运行这 (步骤 2： 安装或删除业务服务器组件的 Skype) 再次过程。 
   
     > [!NOTE]
-    > 如果安装程序发现存在任何未满足的先决条件，系统将向您通知一条“不满足先决条件”消息，如图所示。 满足必需的系统必备，然后再开始这 (步骤 2： 安装或删除业务服务器组件的 Skype) 试程序。 
+    > 如果安装程序发现存在任何未满足的先决条件，系统将向您通知一条“不满足先决条件”消息，如图所示。 满足所需的必备组件，然后再启动此 (步骤 2： 安装或删除业务服务器组件的 Skype) 再次过程。 
   
      ![需要必备组件。](../../media/21a84dfe-70ff-4f76-bd7e-41032660200a.png)
   
@@ -104,19 +106,19 @@ ms.lasthandoff: 03/28/2018
     
      ![安装组件时已完成的前两个步骤。](../../media/59851804-d805-4fa8-854b-60c3de2d109f.png)
   
-6. 运行**Windows 更新**再次以检查是否有任何更新后的业务服务器组件安装 Skype。
+6. 运行**Windows Update**再次以检查是否有任何更新后的业务服务器组件安装 Skype。
     
 ### <a name="step-3-request-install-or-assign-certificates"></a>步骤 3：请求、安装或分配证书
 
 1. 检查先决条件，然后单击“**步骤 3：请求、安装或分配证书**”旁边的“**运行**”。
     
     > [!NOTE]
-    > Skype 业务服务器支持 sha-2 套件 (SHA 2 使用摘要长度 224、 256、 384 或 512 位) 摘要哈希和签名算法来从运行 Windows 10、 Windows 8，Windows 7、 Windows Server 2012 R2、 Windows 的客户端连接的Server 2012 或 Windows Server 2008 R2 的操作系统。 要支持使用 SHA-2 套件进行外部访问，外部证书必须由公共 CA 颁发，公共 CA 也可颁发具有相同位长度摘要的证书。 
+    > Skype 业务服务器包括 160、SHA-2 套件支持 (160、SHA-2 使用摘要长度 224 256、 384 或 512 位) 的摘要式哈希和签名算法来从运行 Windows 10、 Windows 8、 Windows 7、 Windows Server 2012 R2、 Windows 的客户端连接Server 2012 或 Windows Server 2008 R2 操作系统。 要支持使用 SHA-2 套件进行外部访问，外部证书必须由公共 CA 颁发，公共 CA 也可颁发具有相同位长度摘要的证书。 
   
     > [!IMPORTANT]
-    > 选择哪种哈希摘要和签名算法取决于将使用证书的客户端和服务器，客户端和服务器将与其通信的其他计算机和设备也必须知道如何使用证书中使用的算法。 在哪些摘要长度支持操作系统和一些客户端应用程序中的信息，请参阅[Windows PKI 博客 SHA2 和窗口](https://go.microsoft.com/fwlink/p/?LinkId=287002)。 
+    > 选择哪种哈希摘要和签名算法取决于将使用证书的客户端和服务器，客户端和服务器将与其通信的其他计算机和设备也必须知道如何使用证书中使用的算法。 上的摘要式长度受支持的操作系统和某些客户端应用程序中的信息，请参阅[Windows PKI 博客-SHA2 和 Windows](https://go.microsoft.com/fwlink/p/?LinkId=287002)。 
   
-    每台 Standard Edition 或前端服务器最多需要四个证书：oAuthTokenIssuer 证书、默认证书、Web 内部证书和 Web 外部证书。 但是，也可以请求和分配单个具有相应使用者替代名称条目的默认证书以及 oAuthTokenIssuer 证书。 有关证书要求的详细信息，请参阅[有关业务服务器 2015年的 Skype 的环境要求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。
+    每台 Standard Edition 或前端服务器最多需要四个证书：oAuthTokenIssuer 证书、默认证书、Web 内部证书和 Web 外部证书。 但是，也可以请求和分配单个具有相应使用者替代名称条目的默认证书以及 oAuthTokenIssuer 证书。 有关证书要求的详细信息，请参阅[环境要求 Skype 的业务服务器 2015年](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。
     
     > [!IMPORTANT]
     > 以下过程介绍了如何配置来自基于内部 Active Directory 证书服务的证书颁发机构的证书。 
@@ -127,7 +129,7 @@ ms.lasthandoff: 03/28/2018
     
 4. 在“**延迟的请求或即时请求**”页上，可通过单击“**下一步**”接受默认的“**立即将请求发送给联机证书颁发机构**”选项。如果选择此选项，具有自动联机注册的内部 CA 必须可用。如果选择了延迟请求的选项，系统将提示您输入用于保存证书请求文件的名称和位置。证书请求必须由组织内部的 CA 或公共 CA 提出和处理。然后您需要导入证书响应并将其分配给适当的证书角色。
     
-5. 在**选择一个证书颁发机构 (CA)**页上，选择**选择从列表在您的环境中检测到 CA**选项，，然后选择 （通过在 Active Directory 域服务中注册） 已知 CA 列表中的。 或者，选择“**指定其他证书颁发机构**”选项，在框中输入其他 CA 的名称，然后单击“**下一步**”。
+5. 在**选择证书颁发机构 (CA)** 页上，选择**选择一个 CA 从您的环境中检测到的列表**选项中，，然后选择 （通过 Active Directory 域服务中注册） 的已知列表中的 CA。 或者，选择“**指定其他证书颁发机构**”选项，在框中输入其他 CA 的名称，然后单击“**下一步**”。
     
 6. 在“**证书颁发机构帐户**”页上，将提示您提供凭据，以在 CA 中请求证书和处理证书请求。您应该已经确定提前请求证书是否需要用户名和密码。CA 管理员将拥有所需的信息，并且可能需要协助您完成此步骤。如果需要提供备用凭据，请选中相应的复选框，在文本框中输入用户名和密码，然后单击“**下一步**”。
     
@@ -136,10 +138,10 @@ ms.lasthandoff: 03/28/2018
     > [!NOTE]
     > 如果组织已经创建了模板，以用作默认 Web 服务器 CA 模板的备用模板，请选中相应的复选框，然后输入备用模板的名称。您将需要 CA 管理员定义的模板名称。 
   
-8. 在“**名称和安全设置**”页上，指定一个“**友好名称**”。 通过使用友好名称，您可以快速标识证书和目的。 如果将此处留空，则系统会自动生成一个名称。 设置密钥的“**位长度**”，或接受默认值 2048 位。 如果您确定，证书和私钥需要移动或复制到其他系统，则选择**标记为可导出的证书的专用密钥**，然后单击**下一步**。
+8. 在“**名称和安全设置**”页上，指定一个“**友好名称**”。 通过使用友好名称，您可以快速标识证书和目的。 如果将此处留空，则系统会自动生成一个名称。 设置密钥的“**位长度**”，或接受默认值 2048 位。 如果您确定的证书和私钥需要移动或复制到其他系统中，选中**标记为可导出的证书的私钥**，然后单击**下一步**。
     
     > [!NOTE]
-    > Skype 业务服务器有可导出私钥的最低要求。 其中一个可导出的位置是池中的边缘服务器，在这里媒体中继身份验证服务使用证书副本，而不是对池中的每个实例都分别使用单个证书。 
+    > Skype 业务服务器具有可导出的私钥的最低要求。 其中一个可导出的位置是池中的边缘服务器，在这里媒体中继身份验证服务使用证书副本，而不是对池中的每个实例都分别使用单个证书。 
   
 9. 在“**组织信息**”页上，可选择提供组织信息，然后单击“**下一步**”。
     
@@ -155,9 +157,9 @@ ms.lasthandoff: 03/28/2018
     
 15. 在“**正在执行命令**”页上，单击“**下一步**”。
     
-16. 在“**联机证书请求状态**”页上，检查返回的信息。 请注意，证书已发布并安装到本地证书存储中。 如果它报告为已经发出和安装，但它是无效，请确保已安装了 CA 根证书服务器的受信任根 CA 存储中。 有关如何检索受信任根 CA 证书的信息，请参阅 CA 文档。 如果需要查看检索的证书，请单击“**查看证书详细信息**”。 默认情况下，为**业务服务器证书用途的 Skype 向其分配证书**复选框被选中。 如果要手动分配证书，请清除此复选框，然后单击“**完成**”。
+16. 在“**联机证书请求状态**”页上，检查返回的信息。 请注意，证书已发布并安装到本地证书存储中。 如果其报告为具有已颁发并安装，但它并不有效，请确保已安装程序 CA 根证书服务器的受信任根 CA 存储中。 有关如何检索受信任根 CA 证书的信息，请参阅 CA 文档。 如果需要查看检索的证书，请单击“**查看证书详细信息**”。 默认情况下，选中为**业务服务器证书用法的 Skype 向其分配证书**复选框。 如果要手动分配证书，请清除此复选框，然后单击“**完成**”。
     
-17. 如果您在上一页上**业务服务器证书用途的 Skype 向其分配证书**的清除了复选框，您将看到**证书分配**页。 单击“**下一步**”。
+17. 如果您在前一页上的**业务服务器证书用法的 Skype 向其分配证书**清除复选框，您将看到**证书分配**页。 单击“**下一步**”。
     
 18. 在“**证书存储**”页上，选择已请求的证书。如果要查看证书，请单击“**查看证书详细信息**”，然后单击“**下一步**”继续。
     
@@ -176,20 +178,20 @@ ms.lasthandoff: 03/28/2018
     > 如果您在实验室环境中进行安装，并且使用 Active Directory 证书服务设置了证书颁发机构，您需要重新启动运行证书服务的服务器和前端服务器，然后才能成功颁发证书。 
   
     > [!TIP]
-    >  有关在 Active Directory 证书服务的证书的详细信息，请参阅[Active Directory 证书服务](https://technet.microsoft.com/en-us/windowsserver/dd448615.aspx)。 
+    >  有关 Active Directory 证书服务中的证书的详细信息，请参阅[Active Directory 证书服务](https://technet.microsoft.com/en-us/windowsserver/dd448615.aspx)。 
   
 ### <a name="step-4-start-services"></a>步骤 4：启动服务
 
 1. 检查“**步骤 4：启动服务**”的先决条件。
     
-2. 如果是具有至少三台服务器的 Enterprise Edition 前端池，将使用 Windows Fabric，同时您必须使用 **Start-CsPool** cmdlet。 如果一台服务器使用，则始终是与标准版的这种情况，您必须使用**开始 CsWindowsService** cmdlet。 在此示例中我们有三个前端服务器的池中使用企业版， **Skype 的业务服务器管理外壳程序**打开并运行**开始 CsPool** cmdlet，如图中所示。 对于其他所有角色（包括 Standard Edition 服务器），您必须使用 **Start-CsWindowsService**。 要部署前端角色之外的角色，请参见这些特定角色的说明文档。
+2. 如果是具有至少三台服务器的 Enterprise Edition 前端池，将使用 Windows Fabric，同时您必须使用 **Start-CsPool** cmdlet。 如果使用了一台服务器，它始终是与 Standard Edition 的情况，您必须使用**Start-cswindowsservice** cmdlet。 在此示例，我们使用有三个前端服务器池中的 Enterprise Edition 中打开**Skype 的业务 Server Management Shell**并运行**开始 CsPool** cmdlet，如下图所示。 对于其他所有角色（包括 Standard Edition 服务器），您必须使用 **Start-CsWindowsService**。 要部署前端角色之外的角色，请参见这些特定角色的说明文档。
     
      ![启动 Skype for Business 服务。](../../media/f52ec719-9476-419f-9a78-df08368395f7.png)
   
 3. 在“**正在执行命令**”页上，成功启动所有服务后，单击“**完成**”。
     
     > [!IMPORTANT]
-    > 用于启动服务器上的服务的命令是报告实际上已启动服务的最佳方法。 该命令可能无法反映服务的实际状态。 建议使用步骤“**服务状态（可选）**”来打开 Microsoft 管理控制台 (MMC) 并确认服务已成功启动，如图所示。 如果任何 Skype 业务服务器服务未启动，可以用鼠标右键单击在 MMC 中，该服务，然后单击**启动**。 
+    > 用于启动服务器上的服务的命令是报告实际上已启动服务的最佳方法。 该命令可能无法反映服务的实际状态。 建议使用步骤“**服务状态（可选）**”来打开 Microsoft 管理控制台 (MMC) 并确认服务已成功启动，如图所示。 如果尚未启动任何 Skype 业务 Server 服务，您可以右键单击在 MMC 中，该服务，然后单击**开始**。 
   
      ![验证服务是否已启动。](../../media/47906fb7-9d37-4d55-8d8d-e5a4a2366510.png)
   

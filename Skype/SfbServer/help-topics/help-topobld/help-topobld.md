@@ -8,23 +8,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c7a60ee-b803-4cd4-a7cc-6552f3b238b8
-description: 在此处插入介绍。
-ms.openlocfilehash: 4f78365e47c5f15916c21641c2a11e44af05fcab
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 拓扑生成器主题
+ms.openlocfilehash: 87d64bd6282386903dfcdc08f476b5b99ec602d8
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="help-topobld"></a>帮助 TopoBld
  
-在此处插入介绍。
+此节点包含业务 Server 拓扑生成器的 Skype 的帮助主题。
   
-## <a name="section-heading"></a>节标题
 
-在此处插入节正文。
-  
-### <a name="subsection-heading"></a>子节标题
-
-在此处插入子节正文。
   
 

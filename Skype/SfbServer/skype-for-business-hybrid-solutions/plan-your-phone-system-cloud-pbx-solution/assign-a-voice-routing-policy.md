@@ -7,38 +7,39 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
-description: 摘要： 阅读本主题，以了解如何分配语音策略为用户在 Office 365 的电话系统使用内部部署的 PSTN 连接性。
-ms.openlocfilehash: bcc4102157a3689208c45d7430a7954ce9a1e3f9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 阅读本主题可了解如何分配 Office 365 中的电话系统使用内部部署 PSTN 连接的用户的语音策略。
+ms.openlocfilehash: fc11fabeb7f6a8bacc0f3a6dd48d6ed24edd3403
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="assign-a-voice-routing-policy"></a>分配语音路由策略
  
-**摘要：**阅读本主题，以了解如何分配语音策略为用户在 Office 365 的电话系统使用内部部署的 PSTN 连接性。
+**摘要：**阅读本主题可了解如何分配 Office 365 中的电话系统使用内部部署 PSTN 连接的用户的语音策略。
   
-一旦用户 Skype 的在线业务和内部的 PSTN 连接在 Office 365 中使用电话系统上，两个语音策略将应用于它们。 一是将分配在场所内部语音路由策略。 这个策略可以是全局或特定于用户并定义哪些 PSTN 使用记录是与用户相关联。 本主题介绍了如何分配此策略。
+Skype 业务 Online 和 Office 365 中的电话系统使用内部部署 PSTN 连接上用户后，两个语音策略将应用于它们。 一个是在本地将分配给内部部署语音路由策略。 此策略可以是全局或特定于用户并定义与用户关联的 PSTN 用法记录。 本主题介绍了如何分配此策略。
   
-其他语音策略定义了哪些调用功能可供用户;此语音策略定义由 Microsoft 和相同的 Office 365 中的所有电话系统与内部 PSTN 连接用户。 它会自动分配到电话系统中 Office 365 的用户。
+其他语音策略定义了哪些呼叫功能可供用户;此语音策略定义由 Microsoft，相同的 Office 365 中的所有电话系统与内部部署 PSTN 连接用户。 它是自动分配给电话系统中的 Office 365 用户。
   
-||**内部用户**|**与内部 PSTN 连接用户的 Office 365 中的电话系统**|
+||**内部部署用户**|**与内部部署 PSTN 连接用户的 Office 365 中的电话系统**|
 |:-----|:-----|:-----|
-|定义的呼叫功能  <br/> |语音策略  <br/> |预定义的语音策略，在用户许可中 Office 365 的电话系统时自动分配。  <br/> |
+|定义的呼叫功能  <br/> |语音策略  <br/> |预定义用户许可 Office 365 中的电话系统时自动分配语音策略。  <br/> |
 |相关联的 PSTN 用法记录  <br/> |语音策略  <br/> |当用户仍驻留在本地时分配的语音路由策略。  <br/> |
    
-执行下列步骤使用内部部署，而用户仍驻留在内部部署中。
+执行以下步骤时用户仍驻留在本地部署中使用您的本地部署。
   
 ## <a name="using-a-global-voice-routing-policy"></a>使用全局语音路由策略
 
-在使用之前全球语音路由策略为您在 Office 365 的电话系统与内部 PSTN 连接用户，必须向策略中添加 PSTN 使用记录。
+内部部署 PSTN 连接用户与电话系统 Office 365 中使用全局语音路由策略之前, 必须向策略中添加 PSTN 用法记录。
   
 ### <a name="to-assign-pstn-usage-records-to-the-global-voice-routing-policy"></a>向全局语音路由策略分配 PSTN 用法记录
 
@@ -46,7 +47,7 @@ ms.lasthandoff: 03/28/2018
     
 2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
     
-3. 向策略中添加的 PSTN 使用情况记录：
+3. 向策略中添加 PSTN 用法记录：
     
   ```
   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
@@ -106,6 +107,6 @@ ms.lasthandoff: 03/28/2018
 
 在此示例中，向显示名称为 Bob Kelly 的用户分配之前创建的名为 HybridVoice 的语音策略。
   
-有关语音路由策略的详细信息，请参阅[创建或修改语音策略和业务 2015年的 Skype 在配置 PSTN 使用记录](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)， [New CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)，并[授予 CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps)。
+有关语音路由策略的详细信息，请参阅[创建或修改语音策略和配置 PSTN 用法记录中的业务 2015 Skype](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)， [New-csvoiceroutingpolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)和[Grant-csvoicepolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps)。
   
 

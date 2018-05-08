@@ -1,8 +1,8 @@
 ### YamlMime:Tutorial
-title: "使用 PowerShell 在 Microsoft Teams 中创建公司范围的团队"
+title: 使用 PowerShell 在 Microsoft Teams 中创建公司范围的团队
 metadata:
-  title: "使用 PowerShell 在 Microsoft Teams 中创建公司范围的团队"
-  description: "指导 IT 管理员利用 PowerShell 创建公司范围的团队"
+  title: 使用 PowerShell 在 Microsoft Teams 中创建公司范围的团队
+  description: 指导 IT 管理员利用 PowerShell 创建公司范围的团队
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -12,33 +12,34 @@ metadata:
   ms.date: 02/07/2018
   ms.service: msteams
   ms.topic: tutorial
+  localization_priority: Priority
   ms.collection: Strat_MT_TeamsAdmin
-  ms.openlocfilehash: 135bc66aa4fd71180809c0692b73e7d7a4103324
-  ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-  ms.translationtype: HT
+  ms.openlocfilehash: bd9a5e04709b49703de43af48794115c9a48604e
+  ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+  ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/19/2018
+  ms.lasthandoff: 05/03/2018
 items:
 - durationInMinutes: 3
   content: "\n此培训提供用于在 Teams 中创建公司范围的公共团队的 PowerShell 脚本。 该脚本使用 MicrosoftTeams PowerShell 模块（当前在 beta 版中提供）创建公司范围的公共团队。 它还使用 AzureAD PowerShell 模块提取你的租户中的用户列表。 \n\n如果你想要尝试使用一些简单的 PowerShell 命令并熟悉此功能强大的企业工具，这是一个很好的起点。 PowerShell 是用于对 AzureAd 组的其他方面（包括组创建控制 - 即如何管理哪些人可以在 Teams 中创建团队）进行管理的一个关键组件。 \n\n### <a href=\"https://docs.microsoft.com/MicrosoftTeams/scripts/powershell-script-sample-create-company-wide-team\" target=\"_blank\">:arrow_down: 获取 PowerShell 脚本</a>\n\n> [!IMPORTANT]\n> 此 PowerShell 脚本仅将前 2500 个成员添加到团队中。 2500 是当前的团队大小限制。 \n\n\n此培训面向 IT 管理员或希望自动完成团队创建的 Teams 用户。 你将了解以下内容：  \n- 在 PowerShell 中安装相关模块\n- 使用该脚本 \n\n以下内容在此不做介绍：\n1. 深入了解 PowerShell。 我们仅介绍设置和运行 PowerShell 脚本所需的 PowerShell 信息。 要了解详细信息，请参阅 <a href=\"https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-5.1\" target=\"_blank\">Windows PowerShell 入门</a>\n2. <a href=\"https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0\" target=\"_blank\">AzureAD</a> 模块的功能。 此 PowerShell 脚本使用 AzureAD 模块实现一个用于提取租户中的用户的命令。 \n3. <a href=\"https://github.com/MicrosoftDocs/office-docs-powershell/tree/master/teams/teams-ps/teams\" target=\"_blank\">MicrosoftTeams</a> 模块中的 cmdlet。 \n4. 详细介绍 PowerShell 脚本。 \n\n\n要就此培训提出问题或发送反馈：\n  - 在此教程的“[后续步骤](company-wide-team-creation-powershell.yml#step-7)”页面底部的“评论”部分中发布。\n  - 给我们发送电子邮件：[AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Create company-wide team using PowerShell)。\n  - 要向我们提供你的产品反馈（例如功能请求），请访问 <a href=\"https://aka.ms/TeamsUserVoice\" target=\"_blank\">UserVoice</a>。\n"
-- title: "最低要求"
+- title: 最低要求
   durationInMinutes: 2
   content: "\n### <a name=\"user-requirements\"></a>用户要求\n\n你需要对你的计算机拥有管理员权限，以便你能够以管理员身份运行应用程序。 \n\n### <a name=\"system-requirements\"></a>系统要求\n此脚本中使用的模块要求使用以下操作系统之一：\n\n- Windows 10\n- Windows 8.1 Pro\n- Windows 8.1 Enterprise\n- Windows 7 SP1\n- Windows Server 2016\n- Windows Server 2012 R2\n- Windows Server 2008 R2 SP1\n\n这些模块还要求使用 .NET Framework 4.5 或更高版本。 <a href=\"https://msdn.microsoft.com/library/5a4x27ek.aspx\" target=\"_blank\">安装面向开发人员的 .NET Framework</a>。\n"
-- title: "入门"
+- title: 入门
   durationInMinutes: 10
   content: "\n\n要开始使用，你需要满足以下条件：\n1. 试用版的 <a href=\"https://products.office.com/business/office-365-enterprise-e3-business-software\" target=\"_blank\">Office 365 企业版 E3</a>。 建议先在测试租户中测试并了解情况，然后开始在实际租户中操作。 将一些测试用户添加到你的租户（最少 5 个），以帮助你了解该脚本的使用。 \n\n2. 以管理员权限启动 PowerShell。 下面介绍在 Windows 10 中的操作方式：\n \n  a. 单击“**开始**”。\n \n  b. 键入 **Windows PowerShell**。\n \n  c. 单击右键并选择“**以管理员身份运行**”。\n\n3. <a href=\"https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-groups-settings-v2-cmdlets#install-the-azure-ad-powershell-module\" target=\"_blank\">安装 AzureAD PowerShell 模块</a>。 \n  \n  > [!NOTE]\n  > 在执行这些步骤期间，PowerShellGet 可能会提示你更新 NuGet 提供程序。 如果出现提示，请在看到“是否要让 PowerShellGet 立即安装并导入 NuGet 提供程序?”时选择“**是**”。 你可能还会看到有关不受信任的存储库的提示：“是否确实要从“PSGallery”安装模块?” 此处也选择“**是**”。 \n\n4. 安装 MicrosoftTeams PowerShell 模块。 如果你已满足安装 AzureAD 模块的所有条件，则安装 MicrosoftTeams 模块将会很快（它们的条件相同）。 要安装 MicrosoftTeams 模块，请运行此命令： \n\n          Install-Module MicrosoftTeams\n\n  > [!NOTE]\n  > 你可能会再次看到有关不受信任的存储库的提示。 \n\n5. <a href=\"https://docs.microsoft.com/MicrosoftTeams/scripts/PowerShell-script-sample-create-company-wide-team.md\" target=\"_blank\">获取 PowerShell 脚本</a>\n"
-- title: "参数指导"
+- title: 参数指导
   durationInMinutes: 2
   content: "\n所有参数均设置为可选，但如果未设置任何参数，则该脚本无法运行。 你将使用参数组合来创建和更新你的公司范围的团队。 我们将在后面的部分中介绍示例，帮助你根据你的应用场景执行该脚本。 \n\n|参数| 说明 |\n| ---  | ---  |\n|Owners | 至少指定两个成员（其中一个可以是你，但脚本要求至少有两个）。 我们建议有多个所有者，尤其是对于租户范围的团队。 |\n|TeamName | 如果你打算创建一个新团队，则指定此参数。 如果未指定此参数，则必须指定现有团队的 GroupId。 |\n|TeamDescription | 这是你要创建的新团队的说明。 这不会更新现有团队的说明。 |\n|频道 | 你想要创建的频道列表。 此脚本要求至少有两个频道（如果你使用此参数）。 该脚本运行时，它将要求你提供每个频道的说明。 |\n|GroupId | 如果你有一个现有团队，并希望通过添加更多成员以使其成为公司范围的团队，则指定此参数。 如果你指定此参数，则不会创建新团队。 |\n|Members | 如果你不希望所有人都添加进来，则可以指定成员列表。 该列表至少有 2 个成员。 |\n"
-- title: "运行脚本"
+- title: 运行脚本
   durationInMinutes: 5
   content: "\n提供的脚本是未签名脚本。 要了解详细信息，请阅读<a href=\"https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-5.1&viewFallbackFrom=powershell-Microsoft.PowerShell.Core\" target=\"_blank\">关于执行策略</a>。 在更改执行策略之前，通过运行以下命令提取当前策略：\n\n        Get-ExecutionPolicy\n\n记下此策略级别。 运行此脚本创建你的公司范围的团队后，要将其更改回此级别。 要将策略更改为 RemoteSigned，请运行此命令：\n\n        Set-ExecutionPolicy -ExecutionPolicy RemoteSigned\n\n下面是可以使用该脚本完成的操作： \n1. 创建包含你的租户中所有成员的新团队（最多 2500 个成员）。\n\n          .\\CreateCompanyWideTeam.ps1 -Owners \"CBeane@Contoso.onmicrosoft.com\", \"PHampton@Contoso.onmicrosoft.com\" -TeamName \"Contoso Team\" -TeamDescription \"Tenant wide team to get everyone into one place. Use this team to share announcements, hold townhalls, or just encourage a more open work environment for everyone\" -Channels \"Announcements\", \"Townhalls\"\n\n2. 将你的租户中所有成员添加到现有团队中（最多 2500 个成员）。\n    \n          .\\CreateCompanyWideTeam.ps1 -GroupID \"45f7b85e-149b-4ae4-bf43-9cedf9415e34\"\n\n3. 将指定的一组成员添加到新团队或现有团队中。\n    \n          .\\CreateCompanyWideTeam.ps1 -Owners \"CBeane@Contoso.onmicrosoft.com\", \"PHampton@Contoso.onmicrosoft.com\" -TeamName \"Project Scorpio\" -TeamDescription \"Wanted to reserve a cool project name, now we need a project\" -Channels \"Code Reviews\", \"Engineering Alerts\" -Members \"BMcMillan@Contoso.onmicrosoft.com\", \"DTodd@Contoso.onmicrosoft.com\", \"DMills@Contoso.onmicrosoft.com\"\n"
-- title: "示例公司范围的团队"
+- title: 示例公司范围的团队
   durationInMinutes: 6
   content: "\n下表显示了如何为一家销售公司设置团队。 其中包括建议的频道、选项卡、连接器和聊天机器人。 建议至少一开始时创建一些频道。 如果这是将包含很多人的第一个团队，它将帮助他们了解要创建哪些种类的频道。 在其中一些初始频道中填入数据还将帮助新用户熟悉该产品以及了解此工作方式。 目前，无法使用 PowerShell 向频道中添加数据，因此必须手动执行此操作。 \n\n> [!Tip]\n> 下载我们的 <a href=\"https://www.microsoft.com/download/confirmation.aspx?id=56505\" target=\"_blank\">Microsoft Teams 入门工具包</a>。 本指南包括“要在 Teams 中完成的前 10 件事”。 你将了解在贵组织中的不同岗位（包括市场营销、销售、财务、人力资源、信息技术、工程和项目管理）充分利用 Teams 的提示。\n\n#### <a name=\"trophy-best-practices\"></a>:trophy: 最佳实践：\n- 在此阶段，请勿创建你想到的每个频道，只需开始创建一些即可。 在出现新的方面时，继续创建频道。\n- 请勿重命名频道，因为基础 SharePoint 文件夹结构不会持续与频道名称保持一致。 \n\n \n  > [!NOTE]\n  > 不能使用相同名称重新创建已删除的频道，但你仍可以找到 SharePoint 文件。\n\n\n下表概括列出了一个示例团队，并提供了建议的选项卡、连接器和聊天机器人。 这绝不是一个完整列表，但足以让你了解哪些种类的频道可能对贵公司有用。 \n|频道|选项卡和资源|\n|-------|----------------|\n|常规|<ul><li>上线指导</li><li>角色信息</li><li>培训视频</li></ul>|\n|帐户计划|<ul><li>OneNote 用于战略帐户</li><li>文件夹用于帐户计划</li></ul>|\n|预测|<ul><li>Power BI 仪表板</li><li>业务线 (LOB) 应用</li><li>查看日历和任务</li></ul>|\n|需要帮助|<ul><li>有关需要帮助的对话</li><li>事务审核表单</li></ul>|\n|区域内市场营销|<ul><li>市场营销日历</li><li>客户指导</li></ul>|\n|产品更新和反馈|<ul><li>定价指南</li><li>产品手册</li><li>参考链接</li></ul>|\nContoso 的团队合作|<ul><li>适用于 Teams 的工具包（*正在构建 - 请以后回来查看*)</li><li>方法文章（例如，贵组织的快速入门指南）</li></ul>|\n|闲谈|<ul><li>团队建设主题</li><li>社交活动</li></ul>|\n\n观看我们的视频“技术提示：团队、频道和选项卡设置指导”（4 分钟），了解设置团队、频道和选项卡以最大限度地提高工作效率的最佳实践。\n> [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]\n"
-- title: "脚本概览"
+- title: 脚本概览
   durationInMinutes: 2
   content: "\n此脚本有 5 个部分（按从上到下的顺序列出）：\n1. **文档和变量定义**\n2. **Function Create-Team**：创建团队（如果需要）。 如果你未指定 GroupID，则此部分将使用指定的 TeamName 和 TeamDescription 创建团队。\n3. **Function Add-Channels**：如果你指定了频道，则在此提供频道说明，然后创建频道。 \n4. **Function Add-Members**：在此部分进行所有成员管理。 此部分连接到 AzureAD、提取一组用户，然后将其添加到团队（如果你未提供成员列表）。 此部分处理添加所有者和成员以及不添加已属于团队的成员的逻辑。 \n5. **Main program**：这是各功能的执行顺序。 \n"
-- title: "行动号召"
+- title: 行动号召
   durationInMinutes: 5
-  content: "\n### <a name=\"next-steps\"></a>后续步骤\n\n1. 计划你的公司范围的团队（如果你还没有可以用于此用途的现有团队）。 确定名称、说明、所需的所有者以及有用的初始频道。 \n\n2. 在你的测试租户中使用你的参数测试该脚本。 添加一些示例内容，并确保其正确。 \n\n3. 运行该脚本在你的租户中创建团队。 或者，也可以通过 Teams UI 手动创建团队、填入所有数据（频道、聊天机器人、应用、连接器），然后只是利用该脚本添加所有所有者和成员。 要查看你创建的团队列表及其 GroupID，请使用：\n\n        Connect-MicrosoftTeams\n        Get-Team\n\n    然后使用此 GroupID 并运行该脚本，指定更多所有者：\n\n        .\\CreateCompanyWideTeam.ps1 -GroupID \"45f7b85e-149b-4ae4-bf43-9cedf9415e34\" -Owners \"CBeane@Contoso.onmicrosoft.com\", \"PHampton@Contoso.onmicrosoft.com\"\n\n    现在，当有人加入此团队时，他们就会知道还可以放置、连接哪些内容或就哪些展开聊天。 \n\n5.  向我们发送反馈\n    - 在此页面底部的**评论**部分中向我们提供有关此培训的反馈或提出相关问题\n    - 给我们发送电子邮件：[AskTeams@Microsoft.com](mailto:askteams@microsoft.com?subject=Create company-wide team using PowerShell)\n    - 要向我们提供 Teams 产品反馈或请求新功能，请访问 <a href=\"https://aka.ms/TeamsUserVoice\" target=\"_blank\">Teams UserVoice</a>\0"
+  content: "\n### <a name=\"next-steps\"></a>后续步骤\n\n1. 计划你的公司范围的团队（如果你还没有可以用于此用途的现有团队）。 确定名称、说明、所需的所有者以及有用的初始频道。 \n\n2. 在你的测试租户中使用你的参数测试该脚本。 添加一些示例内容，并确保其正确。 \n\n3. 运行该脚本在你的租户中创建团队。 或者，也可以通过 Teams UI 手动创建团队、填入所有数据（频道、聊天机器人、应用、连接器），然后只是利用该脚本添加所有所有者和成员。 要查看你创建的团队列表及其 GroupID，请使用：\n\n        Connect-MicrosoftTeams\n        Get-Team\n\n    然后使用此 GroupID 并运行该脚本，指定更多所有者：\n\n        .\\CreateCompanyWideTeam.ps1 -GroupID \"45f7b85e-149b-4ae4-bf43-9cedf9415e34\" -Owners \"CBeane@Contoso.onmicrosoft.com\", \"PHampton@Contoso.onmicrosoft.com\"\n\n    现在，当有人加入此团队时，他们就会知道还可以放置、连接哪些内容或就哪些展开聊天。 \n\n5.  向我们发送反馈\n    - 在此页面底部的**评论**部分中向我们提供有关此培训的反馈或提出相关问题\n    - 给我们发送电子邮件：[AskTeams@Microsoft.com](mailto:askteams@microsoft.com?subject=Create company-wide team using PowerShell)\n    - 要向我们提供 Teams 产品反馈或请求新功能，请访问 <a href=\"https://aka.ms/TeamsUserVoice\" target=\"_blank\">Teams UserVoice</a>"

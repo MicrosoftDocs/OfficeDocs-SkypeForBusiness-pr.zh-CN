@@ -7,25 +7,26 @@ ms.date: 12/3/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 3a8176fc-47ee-4809-ba2f-d8b8090c1cf3
-description: 实际上，将用户移动到 Office 365 之前, 必须首先确认它们同步到云，并将它们分配许可证。 为此，请使用 Office 365 管理中心。
-ms.openlocfilehash: 7f7e10a6367a7ebb134ea5f9e82ce205998640f2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 实际上，将用户移动到 Office 365 之前, 必须先确认他们同步到云，并将其分配许可证。 为此，请使用 Office 365 管理中心。
+ms.openlocfilehash: 71f989f1b6151f227aa10f0a334654b9733cbf1a
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="synchronize-users-to-the-cloud-and-assign-licenses"></a>将用户同步到云并分配许可证
  
-实际上，将用户移动到 Office 365 之前, 必须首先确认它们同步到云，并将它们分配许可证。 为此，请使用 Office 365 管理中心。
+实际上，将用户移动到 Office 365 之前, 必须先确认他们同步到云，并将其分配许可证。 为此，请使用 Office 365 管理中心。
   
-### <a name="to-confirm-that-a-user-is-synchronized-with-office-365"></a>要确认用户同步与 Office 365
+### <a name="to-confirm-that-a-user-is-synchronized-with-office-365"></a>确认用户与 Office 365 同步
 
 1. 打开 Office 365 管理中心 (https://portal.office.com)。
     
@@ -35,10 +36,10 @@ ms.lasthandoff: 03/28/2018
     
 4. 确认您看到用户，并且其状态为“**已与 Active Directory 同步**”。
     
-    如果用户尚未同步，则应在三小时内执行下一次自动同步。 或者，您可以强制同步更快地。 有关详细信息，请参阅[强制目录同步](https://msdn.microsoft.com/en-us/library/azure/JJ151771.aspx)。
+    如果用户尚未同步，则应在三小时内执行下一次自动同步。 或者，您可能会强制更快地进行同步。 有关详细信息，请参阅[强制目录同步](https://msdn.microsoft.com/en-us/library/azure/JJ151771.aspx)。
     
 ## <a name="to-assign-the-license"></a>分配许可证
 
-若要指定 Office 365 中的许可，请参阅[指派或取消指派用户的云 PBX 许可证](https://support.office.com/article/Assign-or-unassign-a-Cloud-PBX-license-for-a-user-36c6d5a6-5ea8-4c44-9f18-fea33d5a847e)。
+若要分配 Office 365 中的许可证，请参阅[分配或取消分配用户的云 PBX 许可证](https://support.office.com/article/Assign-or-unassign-a-Cloud-PBX-license-for-a-user-36c6d5a6-5ea8-4c44-9f18-fea33d5a847e)。
   
 

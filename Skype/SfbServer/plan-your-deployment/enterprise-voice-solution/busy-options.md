@@ -7,25 +7,27 @@ ms.date: 2/24/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
-description: 阅读有关在 Skype 忙选项功能业务服务器 2015年。
-ms.openlocfilehash: ed04ae8709215d8b247672f789e84ea2be64949d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 阅读有关 Skype 中的忙选项功能业务服务器 2015年。
+ms.openlocfilehash: b800989d091a0363e75901c8420d5b71a8030f10
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>规划适用于 Skype for Business Server 的忙碌选项
  
-阅读有关在 Skype 忙选项功能业务服务器 2015年。
+阅读有关 Skype 中的忙选项功能业务服务器 2015年。
   
 忙碌选项是 2016 年 7 月累积更新中引入的新语音策略，允许你配置当用户正在接听电话或参加会议或将呼叫置于等待状态时传入呼叫的处理方式。 可以通过忙音信号拒绝新呼叫或传入呼叫，也可以将新呼叫或传入呼叫转接到语音邮件。 
   
 已配对前端池和 Survivable Branch Server (SBS) 上的故障转移和灾难恢复支持忙碌选项策略。
   
-本主题描述忙碌选项的功能。 有关如何安装和配置忙选项的信息，请参见[安装和配置忙 Skype 业务服务器的选项](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md)。
+本主题描述忙碌选项的功能。 有关如何安装和配置忙选项的信息，请参阅[安装和配置忙业务服务器 Skype 选项](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md)。
   
 ## <a name="configuration-options"></a>配置选项
 
@@ -35,15 +37,15 @@ ms.lasthandoff: 03/28/2018
     
 - Voicemail on Busy - 如果用户忙碌，新的传入呼叫会转接到语音邮件。
     
-忙碌选项功能可提供故障转移功能。 如果用户故障转移到另一台前端服务器或另一个池在 Skype 业务服务器出现问题时，他们忙选项设置将被保留。
+忙碌选项功能可提供故障转移功能。 如果出现问题，并且用户故障转移到另一个前端服务器或另一个池中 Skype 业务服务器，将保留其忙选项设置。
   
 无论其忙碌选项如何配置，都不会阻止通话或会议中的用户或将呼叫置于等待状态的用户发起新呼叫或会议。   
   
-完成配置后，忙选项设置为有效的业务呼叫设备和客户端的所有用户的 Skype。 基于用户的忙碌选项设置，被拒绝或发送至语言邮件的呼叫不会在用户已登录的任何呼叫设备（包括 Macintosh、Windows 桌面、移动客户端或 IP 电话）上响铃。 
+配置后，忙选项设置为有效商业调用设备和客户端的所有用户的 Skype。 基于用户的忙碌选项设置，被拒绝或发送至语言邮件的呼叫不会在用户已登录的任何呼叫设备（包括 Macintosh、Windows 桌面、移动客户端或 IP 电话）上响铃。 
   
-用户将用于企业客户端和设备，其 Skype 上看到未接电话通知，他们将通过电子邮件以及收到通知。 由于 Busy on Busy 而被拒绝的呼叫的呼叫者将在其 Skype for Business 客户端中看到一个通知，表明他们尝试联系的用户正在通话中。
+用户将业务客户端和设备，其 Skype 上查看错过的呼叫通知，便可得到通知通过电子邮件以及。 由于 Busy on Busy 而被拒绝的呼叫的呼叫者将在其 Skype for Business 客户端中看到一个通知，表明他们尝试联系的用户正在通话中。
   
-通过 Skype 业务 PowerShell cmdlet，您可以配置忙选项功能：
+您可以使用 Skype 业务 PowerShell cmdlet 配置选项忙功能：
   
 - 为企业启用或禁用忙碌选项语言策略。
     
@@ -57,7 +59,7 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="interoperability-with-voice-applications"></a>与语音应用程序的互操作性
 
-繁忙的选项提供与 Skype 业务在以下的语音应用程序互操作性：
+忙选项提供以下语音应用程序中的业务的 Skype 的互操作性：
   
 - 响应组 (RGS)
     
@@ -71,7 +73,7 @@ ms.lasthandoff: 03/28/2018
     
 - Team Call－ 团队呼叫
     
-  - 为团队调用设置的用户的传入呼叫将按优先级顺序，忽略上闲闲和忙设置语音邮件。
+  - 将确定优先级传入呼叫的团队呼叫设置用户忽略上忙闲和忙碌设置语音邮件。
     
   - 使用为用户设置的忙碌选项时，当前的团队呼叫体验将保持不变。
     
@@ -79,7 +81,7 @@ ms.lasthandoff: 03/28/2018
     
 - 上级/管理员委派  
     
-  - 传入呼叫的用户设置为老板/管理员委派既为老板或管理者将按优先级顺序，忽略上闲闲和忙设置语音邮件。
+  - 将优先顺序到用户的经理/管理员委派为上级或管理员可以设置的传入呼叫忽略上忙闲和忙碌设置语音邮件。
     
   - 使用为管理员或上级设置的忙碌选项时，当前的上级/管理员委派体验将保持不变。
     
@@ -89,7 +91,7 @@ ms.lasthandoff: 03/28/2018
     
   - 用户帐户中为共享线路外观设置的忙碌选项将被忽略。 
     
-  - 共享的行外观本机忙上忙和闲选项的语音邮件将改为有效。
+  - 将改为有效共享的行外观上忙碌的本机闲和忙碌选项的语音邮件。
     
 - 呼叫寄存服务  
     

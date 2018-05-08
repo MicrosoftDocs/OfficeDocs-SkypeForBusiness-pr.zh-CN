@@ -3,38 +3,38 @@ title: Microsoft Teams 的已知问题
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl, ninadara, v-leslc
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c8ce7b7d53e03ae265f41105dabd09978a62e61
-ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
+ms.openlocfilehash: 303e2d14e009d2a0f6493646f3f2466b94920fa4
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
   
-这篇文章列出了 Microsoft 小组，按功能区域的已知的问题。
+本文列出了 Microsoft 团队，按功能区域的已知的问题。
 ## 
 
 ## <a name="administration"></a>管理
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|管理员管理的租户范围内连接器已不再可用  <br/> |我们尝试在客户端和联机版本中添加连接符时出现错误： 发生了意外的错误。 请再试一次。 一组 OrganizationConfig ConnectorsEnabled = True   <br/> |与团队设置禁用。 请参阅支持文章https://msdn.microsoft.com/en-us/microsoft-teams/connectors  <br/> |2017 年 6 月 21 日  <br/> |
+|不再可用的租户范围连接器的管理员管理  <br/> |我们尝试在客户端和联机版本中添加连接器时收到错误： 出现意外的错误。 请重试。 Set-organizationconfig ConnectorsEnabled = True   <br/> |禁用使用团队设置。 请参阅支持文章https://msdn.microsoft.com/en-us/microsoft-teams/connectors  <br/> |2017 年 6 月 21 日  <br/> |
 
 ## <a name="apps"></a>应用
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|接头选购件是缺少某些球队  <br/> |右键单击频道时，团队的任何成员都不显示连接器选项。  <br/> |团队的创建者必须有联机邮箱；否则，将不提供连接器选项。 这是预期行为。  <br/> |2017 年 6 月 26 日  <br/> |
+|连接器选项是缺失的某些团队  <br/> |右键单击频道时，团队的任何成员都不显示连接器选项。  <br/> |团队的创建者必须有联机邮箱；否则，将不提供连接器选项。 这是预期行为。  <br/> |2017 年 6 月 26 日  <br/> |
 
 ## <a name="authentication"></a>身份验证
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|当你尝试从 Internet Explorer 或 Edge 加入 Teams 时，程序持续循环或崩溃并且无法登录。   <br/> | 贵组织使用 Internet Explorer 中的受信任站点，基于 Web 的 Teams 应用程序无法正常登录，因为 Teams 的受信任站点不被允许。 <br/>|使用管理员权限或群组策略对象，对 IE 设置进行下列更改：<br/><ol><li>在**Internet 选项**下&gt;**隐私** &gt; **高级**，接受第一方和第三方 cookie 和**总是允许会话 cookie**选中复选框。</li><li>单击**Internet 选项** &gt; **受信任的站点** &gt; **网站**，并添加以下所有：<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>注意</b>：始终验证并允许 Teams 的所有受信任 URL 以及以下文档中的要求：[Office 365 URL 和 IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)   <br/> |11/1/17  <br/> |
+|当你尝试从 Internet Explorer 或 Edge 加入 Teams 时，程序持续循环或崩溃并且无法登录。   <br/> | 贵组织使用 Internet Explorer 中的受信任站点，基于 Web 的 Teams 应用程序无法正常登录，因为 Teams 的受信任站点不被允许。 <br/>|使用管理员权限或群组策略对象，对 IE 设置进行下列更改：<br/><ol><li>在**Internet 选项**下&gt;**隐私** &gt; **高级**，接受第一方和第三方 cookie 和**总是允许会话 cookie**的复选框。</li><li>单击**Internet 选项** &gt; **受信任的站点** &gt; **网站**，并添加以下所有条件：<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>注意</b>：始终验证并允许 Teams 的所有受信任 URL 以及以下文档中的要求：[Office 365 URL 和 IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)   <br/> |11/1/17  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -42,15 +42,15 @@ ms.lasthandoff: 04/20/2018
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|Microsoft 小组始终登录到加入域的计算机帐户。   <br/> |如果用户具有两个不同的组帐户，具有与一台计算机加入域的启用，团队将使用加入域的配置文件在计算机上自动登录到的团队的用户。 若要切换到其他团队帐户，用户必须手动注销应用程序并输入到记录中的第二个帐户的凭据。 如果用户注销团队，然后重新启动计算机，重新启动时，团队会自动记录在使用加入域的配置文件。 <br/> | 无解决方法。 <br/> |2017 年 8 月 2 日  <br/> |
+|Microsoft 团队始终将登录到加入域的计算机帐户。   <br/> |如果用户具有两个不同的团队帐户并具有与计算机加入域的启用，团队将用于加入域的配置文件在计算机上自动登录到团队的用户。 若要切换到其他团队帐户，用户必须手动退出应用程序和第二个帐户，登录到输入凭据。 如果用户注销团队并重新启动计算机，重新启动时，团队将自动登录中使用的加入域的配置文件。 <br/> | 无解决方法。 <br/> |2017 年 8 月 2 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|现代身份验证失败-未启用的窗体身份验证  <br/> |多重身份验证首次失败后，使用 Web 应用进行身份验证。  <br/> 有关详细信息，请参阅 [Active Directory 联合身份验证服务 prompt=login 参数支持](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login)。  <br/> |检查此设置：Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior Disabled。  <br/> |2017 年 6 月 19 日  <br/> |
+|现代身份验证失败-未启用的表单身份验证  <br/> |多重身份验证首次失败后，使用 Web 应用进行身份验证。  <br/> 有关详细信息，请参阅 [Active Directory 联合身份验证服务 prompt=login 参数支持](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login)。  <br/> |检查此设置：Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior Disabled。  <br/> |2017 年 6 月 19 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|单一登录 (SSO) 生成计划 <br/> |SSO 不适用于 Planner。 在每个客户端上首次使用 Planner 时，必须重新登录。  <br/> |无解决方法。 正在准备进一步的身份验证增强功能。  <br/> |2017 年 2 月 28 日  <br/> |
+|单一登录 (SSO) 生成的计划程序 <br/> |SSO 不适用于 Planner。 在每个客户端上首次使用 Planner 时，必须重新登录。  <br/> |无解决方法。 正在准备进一步的身份验证增强功能。  <br/> |2017 年 2 月 28 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -59,16 +59,16 @@ ms.lasthandoff: 04/20/2018
 ## <a name="browser"></a>浏览器
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|在 Chrome 中呈现视频时，出现绿色非自然信号  <br/> |查看视频或共享在电话屏幕或铬在 meetup 时显示绿色项目。  <br/> |在 Chrome 中禁用硬件加速设置。  <br/> |2017 年 8 月 3 日  <br/> |
+|在 Chrome 中呈现视频时，出现绿色非自然信号  <br/> |绿色项目时查看视频或共享中的呼叫屏幕上或 meetup 部件版式中的显示。  <br/> |在 Chrome 中禁用硬件加速设置。  <br/> |2017 年 8 月 3 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|Safari Web 客户端支持  <br/> |尝试在 Safari 上打开 Microsoft Teams Web 客户端的用户被导向到下载桌面客户端。 Microsoft 正在着手准备 Safari 支持，并将通过 [Teams 路线图](http://aka.ms/TeamsRoadmap)共享更新。  <br/> |支持使用 internet 浏览器，包括： Internet Explorer 11 +、 Microsoft 边缘 12 +、 铬 51.0 + 和 Firefox 47.0 +。  <br/> |2016 年 11 月 2 日  <br/> |
+|Safari Web 客户端支持  <br/> |尝试在 Safari 上打开 Microsoft Teams Web 客户端的用户被导向到下载桌面客户端。 Microsoft 正在着手准备 Safari 支持，并将通过 [Teams 路线图](http://aka.ms/TeamsRoadmap)共享更新。  <br/> |使用支持的 internet 浏览器，其中包括： Internet Explorer 11 +、 Microsoft 边缘 12 +、 Chrome 51.0 + 和 Firefox 47.0 +。  <br/> |2016 年 11 月 2 日  <br/> |
 
 ## <a name="channels"></a>频道
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|当用户离开公司时，它将显示在 Microsoft 小组为"未知用户"<br/> |当用户离开公司时，它将显示在 Microsoft 小组为"未知用户"。 此外，会话选项卡还显示:"未知的用户已被添加到团队。 问题归为：https://domoreexp.visualstudio.com/MSTeams/_workitems/edit/168830  <br/> |无解决方法。  <br/> |9/12/17  <br/> |
+|当用户离开公司时，它显示在 Microsoft 团队中为"未知用户"<br/> |当用户离开公司时，它显示在 Microsoft 团队中为"未知用户"。 此外，对话选项卡显示:"未知的用户已添加到团队。" 作为字段的问题：https://domoreexp.visualstudio.com/MSTeams/_workitems/edit/168830  <br/> |无解决方法。  <br/> |9/12/17  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -78,7 +78,7 @@ ms.lasthandoff: 04/20/2018
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|有关 @ 记录已删除的邮件发送通道链路的通知  <br/> |没有已知的通知限制时您不在的提到了在邮件中删除;数据源中的通知将导航到通道而不是特定的消息。 <br/> | 通过设计 <br/> | 3/28/17  <br/>|
+|已删除邮件的 @ 提及发送包含通道链路通知  <br/> |没有已知的通知限制时在-提到在邮件中删除;订阅源中的通知将导航到该频道，但不适用于特定的邮件。 <br/> | 通过设计 <br/> | 3/28/17  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -91,15 +91,15 @@ ms.lasthandoff: 04/20/2018
 ## <a name="client"></a>客户端
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|团队不会自动更新   <br/> | 当使用安装脚本的程序文件，而不是默认位置安装了 Microsoft 小组时，客户机不会自动更新新版本可用时。    <br/> | 设计使然。 请务必在默认位置安装应用程序： user\Appdata。  <br/> | 9/7/17  <br/> |
+|团队不会自动更新   <br/> | 使用安装脚本的程序文件，而不是默认位置安装后的 Microsoft 团队，客户端不会自动更新新版本可用时。    <br/> | 通过设计。 请务必在默认位置安装应用程序： user\Appdata。  <br/> | 9/7/17  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|符号链接或 mappying C:\users 驱动器使应用程序能够启动与白色屏幕  <br/> | 当使用安装脚本的程序文件，而不是默认位置安装了 Microsoft 小组时，客户机不会自动更新新版本可用时。   <br/> | 设计使然。 请务必在默认位置安装应用程序： user\Appdata。 如果必须存在该映射，则应使用 Microsoft 小组的 web 版本。  <br/> | 9/7/17  <br/> |
+|符号链接或 mappying 到 C:\users 驱动器导致应用程序中，启动与白屏  <br/> | 使用安装脚本的程序文件，而不是默认位置安装后的 Microsoft 团队，客户端不会自动更新新版本可用时。   <br/> | 通过设计。 请务必在默认位置安装应用程序： user\Appdata。 如果必须存在映射，您应使用的 web 版的 Microsoft 团队。  <br/> | 9/7/17  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|符号链接或将驱动器映射到 c:\users 将导致应用程序启动到白色屏幕  <br/> |在 C:\users 的默认位置\<用户 > \appData 更改移动 C:\users 文件夹或使用符号链接，该应用程序将启动并白屏。   <br/> |没有任何已知的解决办法。 如果必须存在该映射，则应使用 Microsoft 小组的 web 版本。   <br/> |2017 年 3 月 13 日  <br/> |
+|符号链接或映射驱动器到 c:\users 将导致应用程序中，启动与白屏  <br/> |当 C:\users 的默认位置\<用户 > \appData 更改通过移动 C:\users 文件夹或使用符号链接，应用程序将启动与白屏。   <br/> |没有任何已知的解决办法。 如果必须存在映射，您应使用的 web 版的 Microsoft 团队。   <br/> |2017 年 3 月 13 日  <br/> |
 
 ## <a name="environment"></a>环境
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
@@ -118,7 +118,7 @@ ms.lasthandoff: 04/20/2018
 ## <a name="meetings"></a>会议
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|用户不能访问会议/连接器，但拥有在线 Exchange 邮箱。 <br/> |客户主动会阻止 EWS 中 Exchange 联机服务的但需要有 MS 团队内 EWS 策略兼容。 <br/> |要使 MS 团队符合标准，您必须添加 EWSAllowList 中的 MS 工作组的以下的用户代理字符串： *skypespaces*，包括星号。 完整的命令是： 集 organizationconfig-ewsallowlist *skypespaces*<br/> 了解详细信息：https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |5/30/17  <br/>|
+|用户无法访问会议/连接器，但具有 Exchange Online 邮箱。 <br/> |客户主动 EWS 阻止来自 Exchange Online 中的服务，但需要有 MS 团队符合 EWS 策略中。 <br/> |若要使 MS 团队兼容，您必须添加内 EWSAllowList MS 团队以下用户代理字符串： *skypespaces*，包括星号。 完整的命令是： 设置 organizationconfig-ewsallowlist *skypespaces*<br/> 有关详细信息：https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |5/30/17  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -126,7 +126,7 @@ ms.lasthandoff: 04/20/2018
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|缺少**会议**被发现使用 Exchange 自动发现。 <br/> Microsoft 的小组还不支持邮箱驻留在 Exchange 在左侧的导航栏中的图标 <br/> |为应用程序栏上的**会议**图标仅启用用户对其邮箱目前 Office 365 的多租户并很少有人专门可以其位置的邮箱的用户选择部署和 Exchange 专用。 正在调查此情况；但没有提供此功能的时间安排。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/>|
+|缺少**会议**是发现使用 Exchange 自动发现。 <br/> Microsoft 团队还不支持邮箱驻留在 Exchange 在左侧的导航栏中的图标 <br/> |应用程序栏上的**会议**图标是当前仅对用户启用邮箱是在 Office 365 多租户和少专用的用户其邮箱位置可以-选择内部部署组织和 Exchange 专用上。 正在调查此情况；但没有提供此功能的时间安排。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -137,25 +137,31 @@ ms.lasthandoff: 04/20/2018
 |会议不可用  <br/> |Exchange 邮箱在本地托管时，不提供会议功能和图标。  <br/> |将本地部署升级到 Exchange 2016 CU3 或更高版本  <br/> |2017 年 2 月 28 日  <br/> |
 
 ## <a name="mobile"></a>移动
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|无法看到自动 favorited 通道  <br/> |某些成员都不能移动应用程序上看到自动 favorited 通道。  <br/> |成员必须登录到桌面或 web 应用程序首先以查看其移动应用程序上的自动 favorited 通道。  <br/> |4/30/18  <br/>|
+
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |在 Intune 管理的移动设备上，用户可能无法切换帐户  <br/> |在 Intune 管理的移动设备上，用户可能无法切换帐户。  <br/> |无解决方法。  <br/> |9/20/17  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|无法使用乐趣选取器或 Giphys 或移动应用程序中的不干胶标签  <br/> |不能使用 gif 图像、 emojis 或不干胶标签上的移动客户端。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/> |
+|无法使用有趣选取器 Giphys 或移动应用程序中的标签  <br/> |不能在移动客户端上使用 gif、 emojis 或标签。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|移动客户端组布局的差异  <br/> |按字母顺序列出了小组和在移动客户端，不能折叠通道。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/>|
+|移动客户端团队布局差异  <br/> |按字母顺序列出了工作组和不能在移动客户端上折叠通道。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/>|
+
 
 ## <a name="people"></a>人员
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|用户个人资料照片  <br/> | 当前的团队并没有一种机制来防止用户更改照片。 BTS 团队取得的开发团队人员已归档的考虑因素如下： 功能 108874: IT 策略来禁用上传个人资料照片   <br/> | 如果您的客户希望能够防止在团队中的个人资料照片上传，请让他们将其投票和业务用例添加到您的评语：https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos
+|用户配置文件照片  <br/> | 当前团队没有一种机制，以防止用户更改照片。 与开发团队具有字段为考虑以下满足 BTS 团队： 功能 108874: IT 策略禁用配置文件照片上载   <br/> | 如果您有客户只希望阻止配置文件照片上载团队中的功能，请让他们注释此处添加其投票和业务案例：https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos
  <br/> |3/1/17 <br/> |
 
-## <a name="provisioning"></a>资源调配
+## <a name="provisioning"></a>设置
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |为 Microsoft Teams SharePoint 网站创建的 SharePoint 用户不正确  <br/> |Microsoft Teams 组的 SharePoint 创建者显示为 SharePoint 管理员，而不是正确的用户。  <br/> 从 SharePoint 管理控制台审核时，与根据 Microsoft Teams 中的团队创建的 Office 365 组关联的网站集合页面的创建者是 SharePoint 管理员。  <br/> |无解决方法。  <br/> |2017 年 7 月 21 日  <br/> |
@@ -167,7 +173,7 @@ ms.lasthandoff: 04/20/2018
 ## <a name="tabs"></a>选项卡
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|不可行，因为条件访问已启用的选项卡 <br/> |某些选项卡可能不会加载了桌面客户端中由于租户已启用条件的访问。 使用 Web 客户端时，将加载选项卡。 某些选项卡可能会影响是： PowerBI、 窗体、 VSTS，PowerApps 和 SharePoint 列表。  <br/> |以查看受影响选项卡您必须使用安装 Windows 10 帐户扩展团队中边、 IE 或镶边。 某些选项卡仍取决于 web 身份验证、 CA 启用桌面客户端中不起作用。 我们正在与伙伴合作，以支持这些方案;到目前为止我们已经启用了进度表，OneNote 和流。 <br/> |4/5/18  <br/>|
+|不可行，因为条件访问已启用的选项卡 <br/> |可能无法在桌面客户端中不再加载某些选项卡，因为租户上已启用条件的访问。 使用 Web 客户端时，将加载选项卡。 可能会影响某些选项卡是： PowerBI、 窗体、 VSTS、 PowerApps，和 SharePoint 列表。  <br/> |若要查看受影响的选项卡必须安装 Windows 10 帐户扩展名使用 リ モ ・ 边缘、 IE 或 Chrome。 某些选项卡仍取决于 web 身份验证，无法在桌面客户端中启用 CA 时。 我们正在与合作伙伴协作启用这些方案;到目前为止，我们已启用规划器、 OneNote 和流。 <br/> |4/5/18  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -179,7 +185,7 @@ ms.lasthandoff: 04/20/2018
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|工作组规划器与集成规划器在线 <br/> |任务桶进度表中的不再显示在规划器的在线体验。  <br/> |无解决方法。 <br/> |2017 年 2 月 28 日  <br/>|
+|工作组规划器与集成计划程序联机 <br/> |任务计划程序中的存储桶不会显示在计划工具联机体验中。  <br/> |无解决方法。 <br/> |2017 年 2 月 28 日  <br/>|
 
 ## <a name="teams"></a>Teams
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
@@ -192,11 +198,11 @@ ms.lasthandoff: 04/20/2018
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|团队名称包含特殊字符，可以创建会议创建错误  <br/> |试图创建的名称中包含特殊字符的团队会议时，用户将以红色收到**出错**消息。   <br/> |重命名或重新创建团队名称中不包含"/"。  <br/> |2017 年 7 月 13 日  <br/> |
+|包含特殊字符的工作组名称可以创建的会议创建的错误  <br/> |尝试为工作组名称中具有特殊字符的创建会议时，用户将红色收到**错误**消息。   <br/> |重命名或重新创建不包含同名的工作组"/"。  <br/> |2017 年 7 月 13 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|与团队名称&amp;符号断开连接器功能  <br/> |创建的团队名称中包含 &amp; 符号时，无法在团队/组中建立连接器。  <br/> |请勿在团队名称中使用特殊字符。  <br/> |2017 年 6 月 21 日  <br/> |
+|工作组名称与&amp;中的符号断开连接器功能  <br/> |创建的团队名称中包含 &amp; 符号时，无法在团队/组中建立连接器。  <br/> |请勿在团队名称中使用特殊字符。  <br/> |2017 年 6 月 21 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -204,9 +210,9 @@ ms.lasthandoff: 04/20/2018
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|删除团队还将删除与之关联的组。  <br/> |用户可能不了解删除团队时会删除基础 Office 365 组。 此外，如果删除基础 Office 365 组，也会删除团队。  <br/> |Microsoft Teams 其他语言版本向用户提供此信息。 Office 365 组界面上未提供此信息。 帮助台可以恢复已删除的组/团队。  <br/> |2017 年 3 月 13 日  <br/> |
+|删除团队还将删除与之关联的组。  <br/> |用户可能不了解删除团队时会删除基础 Office 365 组。 此外，如果删除基础 Office 365 组，也会删除团队。  <br/> |Microsoft Teams 其他语言版本向用户提供此信息。 Office 365 组界面上未提供此信息。 技术支持可以恢复已删除的组/工作组。  <br/> |2017 年 3 月 13 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|  
-|团队的白色屏幕显示的桌面应用程序  <br/> | <br/> |请尝试删除或重新安装图形驱动程序，在计算机上或开始团队从命令行中使用禁用的 GPU 标志：<ul><li>窗口： 打开命令提示符并输入以下内容： cd %localappdata%\microsoft\teams\current 运行 Teams.exe-禁用 gpu</li><li>Mac： 开始终端并输入以下内容： cd \Applications 文件夹 Microsoft\ Teams.app/Contents/MacOS/Teams-禁用 gpu</li></ul> <br/> |<br/> |
+|显示白屏团队桌面应用程序  <br/> | <br/> |请尝试删除或重新图形驱动程序安装在计算机或开始团队需要从命令行使用禁用 GPU 标志：<ul><li>Windows： 中，打开命令提示符，并输入以下命令： cd %localappdata%\microsoft\teams\current 运行 Teams.exe-禁用 gpu</li><li>用于 Mac： 开始终端和输入以下命令： cd \Applications 文件夹 Microsoft\ Teams.app/Contents/MacOS/Teams-禁用 gpu</li></ul> <br/> |<br/> |
 

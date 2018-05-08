@@ -1,5 +1,5 @@
 ---
-title: 从 Skype 业务联机到内部部署的移动用户
+title: Skype 业务 online 到本地移动用户
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,50 +7,51 @@ ms.date: 12/19/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
-description: 摘要： 了解如何将用户帐户移到联机部署在 Skype 上业务服务器。
-ms.openlocfilehash: e429aebc6847146ad5bef2b34d6ccfa7d2997ec6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何移动用户帐户从联机到本地 Skype 中的业务服务器。
+ms.openlocfilehash: 867fb34cbbb0e908fd8af521cff9a1867caa30a7
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="move-users-from-skype-for-business-online-to-on-premises"></a>从 Skype 业务联机到内部部署的移动用户
+# <a name="move-users-from-skype-for-business-online-to-on-premises"></a>Skype 业务 online 到本地移动用户
  
-**摘要：**了解如何将用户帐户移到联机部署在 Skype 上业务服务器。
+**摘要：**了解如何移动用户帐户从联机到本地 Skype 中的业务服务器。
   
-您可能需要将用户帐户移到联机，内部部署，以确保用户在线穴，并在场所发现到另一个。 为可发现到另一个，所有用户必须都有内部部署 Active Directory 中存在。 有关详细信息，请参阅[规划业务服务器和 Skype 的在线业务 Skype 之间的混合连接](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)。 您可能想要在线将用户移动到在场所，例如，如果： 
+您可能需要将用户帐户从联机到移动本地以确保用户驻留在线和本地是到另一个可供搜索。 若要向其他可供搜索，所有用户必须都具有内部部署 Active Directory 中的状态。 有关详细信息，请参阅[规划 Skype 业务服务器和 Skype 业务 online 之间的混合连接性](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)。 您可能需要 online 将用户移动到在本地，例如，如果： 
   
-- 有需要在内部部署中创建，然后移动到云的新用户。
+- 您必须是在本地创建，然后移到云中所需要的新用户。
     
-- 您的组织部署 Skype 业务联机之前该业务服务器部署 Skype。 因此，第一，创建在云中的用户，现在需要转向内部部署，才能移动到 Skype 的在线业务。 
+- 您的组织部署业务 online Skype，其业务服务器部署 Skype 之前。 因此，您有首先，创建在云中的用户，并且现在需要移至本地移动到 Skype 业务 online 才能。 
     
 本主题介绍两种方案：
   
-- [将在线用户移动 — — 谁是最初在线 — — 为在部署](move-users-from-skype-for-business-online-to-on-premises.md#BKMK_originallyonline)
+- [移动 online 用户 — 谁是最初联机 — 为本地](move-users-from-skype-for-business-online-to-on-premises.md#BKMK_originallyonline)
     
-- [在场所移动到在线用户 （人最初是在场所）](move-users-from-skype-for-business-online-to-on-premises.md#BKMK_originallyonprem)
+- [本地移动到联机用户 （人员最初在本地）](move-users-from-skype-for-business-online-to-on-premises.md#BKMK_originallyonprem)
     
-## <a name="move-online-userswho-were-originally-onlineto-on-premises"></a>将在线用户移动 — — 谁是最初在线 — — 为在部署
+## <a name="move-online-userswho-were-originally-onlineto-on-premises"></a>移动 online 用户 — 谁是最初联机 — 为本地
 <a name="BKMK_originallyonline"> </a>
 
-此部分仅适用于谁已创建和启用联机状态，但又不在内部部署 Active Directory 中具有帐户的用户。 
+本节仅适用于用户创建和启用联机状态，但用户在本地 Active Directory 中没有帐户的用户。 
   
 开始将联机用户迁移到本地环境之前，请检查确保符合以下全部条件：
   
-- 本地环境必须完全完成部署并通过验证。 有关详细信息，请参阅[部署 Lync Server 2013](http://technet.microsoft.com/library/b76795a4-4e71-4c70-a5c0-d1197fa8028c.aspx)或[部署的业务服务器 2015年的 Skype](../../deploy/deploy.md)，这取决于哪一个版本使用的场所。 
+- 本地环境必须完全完成部署并通过验证。 有关详细信息，请参阅[Deploying Lync Server 2013](http://technet.microsoft.com/library/b76795a4-4e71-4c70-a5c0-d1197fa8028c.aspx)或[部署的 Business Server 2015 的 Skype](../../deploy/deploy.md)，具体取决于哪个版本将在本地。 
     
-- 您在线租户必须配置为远程 PowerShell 访问。
+- 远程 PowerShell 访问，必须配置您的 online 租户。
     
-    若要执行此操作，首先安装 Skype 业务在线连接器模块 Windows PowerShell，您可以在此处： [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?LinkId=391911)。
+    若要执行此操作，首先安装 for Business 联机连接器模块 Skype 用于 Windows PowerShell，您可以在此处获取： [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?LinkId=391911)。
     
-    安装本模块后，您可以通过键入以下 cmdlet Skype 业务服务器管理外壳程序的建立远程会话：
+    安装本模块后，您可以通过键入以下 cmdlet Skype 中的业务 Server 命令行管理程序建立远程会话：
     
   ```
   Import-Module SkypeOnlineConnector
@@ -68,26 +69,26 @@ ms.lasthandoff: 03/28/2018
   Import-PSSession $CSSession -AllowClobber
   ```
 
-    有关如何建立远程 PowerShell 会话与 Skype 的在线业务的详细信息，请参阅[连接到 Lync 在线通过使用 Windows PowerShell](http://technet.microsoft.com/library/6167dad9-9628-4fdb-bed1-bdb3f7108e64.aspx)。
+    有关如何为业务联机建立与 Skype 的远程 PowerShell 会话的详细信息，请参阅[连接到 Lync Online 通过使用 Windows PowerShell](http://technet.microsoft.com/library/6167dad9-9628-4fdb-bed1-bdb3f7108e64.aspx)。
     
-    有关使用 Skype 业务在线连接器 PowerShell 模块的详细信息，请参阅[管理 Lync Online 对使用 Windows PowerShell](http://technet.microsoft.com/library/9ef2d853-10fb-4e02-a552-dcf6818d7153.aspx)。
+    有关使用的业务 Online 连接器 PowerShell 模块 Skype 的详细信息，请参阅[使用 Windows PowerShell 管理 Lync Online](http://technet.microsoft.com/library/9ef2d853-10fb-4e02-a552-dcf6818d7153.aspx)。
     
-- 您在线租户必须配置为共享的 SIP 地址空间。 若要执行此操作，首先启动远程 Powershell 会话与 Skype 的在线业务。 然后运行以下 cmdlet：
+- 必须为共享的 SIP 地址空间配置您的 online 租户。 若要执行此操作，首先开始远程 Powershell 会话 Skype 业务 online。 然后运行以下 cmdlet：
     
   ```
   Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
   ```
 
     > [!NOTE]
-    > 保持联机移动到最后，直到"真"，没有用户的 SharedSipAddressSpace 特性需求保持在场所。 
+    > 在本地保留 SharedSipAddressSpace 属性需要保留搕 Rue 联机移动到是最终的直到和任何用户。 
   
-您完成这些步骤后，您可以迁移的用户帐户，如下面的过程所述：
+完成这些步骤后，您可以迁移用户帐户，如下面的过程中所述：
   
-### <a name="move-user-accounts-originally-enabled-online-to-an-on-premises-deployment"></a>最初到内部部署中启用联机移动用户帐户
+### <a name="move-user-accounts-originally-enabled-online-to-an-on-premises-deployment"></a>移动最初部署到的本地部署 online 启用的用户帐户
 
-1. 首先，确保组织配置为混合，包括 Azure Active Directory Connect 和同步工具。 有关详细信息，请参阅[规划业务服务器和 Skype 的在线业务 Skype 之间的混合连接](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)。
+1. 首先，确保组织配置为混合，包括 Azure Active Directory Connect 和同步工具。 有关详细信息，请参阅[规划 Skype 业务服务器和 Skype 业务 online 之间的混合连接性](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)。
     
-  - 在内部部署，为业务服务器管理外壳，Skype 键入以下 cmdlet 创建联机业务 Skype 的承载提供程序。 可以对 Identity 和 Name 参数使用您想要的任何值。
+  - 有关您的本地部署、 业务 Server Management Shell，Skype 中键入以下 cmdlet 以创建业务联机 Skype 承载服务提供商。 可以对 Identity 和 Name 参数使用您想要的任何值。
     
   ```
   Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
@@ -97,7 +98,7 @@ ms.lasthandoff: 03/28/2018
   New-CsHostingProvider -Identity SkypeforBusinessOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
   ```
 
-2. 确认内部部署边缘服务器上有证书链，使连接到 Skype 的在线业务下, 表中所示。 您可以下载此链此处： [https://corp.sts.microsoft.com/Onboard/ADFS_Onboarding_Pack/corp_sts_certs.zip](https://corp.sts.microsoft.com/Onboard/ADFS_Onboarding_Pack/corp_sts_certs.zip)。
+2. 确认在内部部署边缘服务器，您有证书链，连接到 Skype 业务 online 下, 表中所示。 您可以下载此链此处： [https://corp.sts.microsoft.com/Onboard/ADFS_Onboarding_Pack/corp_sts_certs.zip](https://corp.sts.microsoft.com/Onboard/ADFS_Onboarding_Pack/corp_sts_certs.zip)。
     
 |**证书**|**证书存储区**|
 |:-----|:-----|
@@ -105,7 +106,7 @@ ms.lasthandoff: 03/28/2018
 |Microsoft Internet Authority（新 CA 证书）  <br/> |中间 CA  <br/> |
 |MSIT Machine Auth CA2（新颁发的 CA2）  <br/> |中间 CA  <br/> |
    
-3. 在内部部署 Active Directory 为内部部署的业务服务器 2015年启用 Skype 为受影响的用户帐户。 为此，可以单独为每个相关用户键入以下 cmdlet： 
+3. 您的本地 Active Directory 中，为本地业务服务器 2015年启用的 Skype 受影响的用户帐户。 为此，可以单独为每个相关用户键入以下 cmdlet： 
     
   ```
   Enable-CsUser
@@ -123,21 +124,21 @@ ms.lasthandoff: 03/28/2018
 -HostingProviderProxyFqdn "sipfed.online.lync.com"
   ```
 
-4. 更新现有内部用户与同步在线的用户。 有关详细信息，请参阅[目录集成工具](https://go.microsoft.com/fwlink/p/?LinkId=530320)。
+4. 更新内部部署用户同步联机用户。 有关详细信息，请参阅[目录集成工具](https://go.microsoft.com/fwlink/p/?LinkId=530320)。
     
-5. 更新下面的 DNS 记录，将定向到内部部署的所有 SIP 通信：
+5. 更新定向到内部部署的所有 SIP 流量的以下 DNS 记录：
     
   - 将 **lyncdiscover.contoso.com** A 记录更新为指向本地反向代理服务器的 FQDN。
     
-  - 更新 * * *_sip* 。 _tls.contoso.com** SRV 记录解析为 Lync 部署的访问边缘服务的公共 IP 或 VIP 地址。
+  - 更新 * * *_sip* 。 _tls.contoso.com** SRV 记录来解析到 Lync 内部部署的访问边缘服务公用 IP 或 VIP 地址。
     
-  - 更新 * * *_sipfederationtls* 。 _tcp.contoso.com** SRV 记录的内部业务服务器 2015年到 Skype 的访问边缘服务的公共 IP 或 VIP 地址解析。
+  - 更新 * * *_sipfederationtls* 。 _tcp.contoso.com** SRV 记录来解析到 Skype 的访问边缘服务公用 IP 或 VIP 地址的业务服务器 2015年本地。
     
-  - 如果您的组织使用拆分 DNS （有时称为"分裂 DNS"），请确保通过内部 DNS 区域的名称解析的用户被定向到前结束池。
+  - 如果组织使用拆分 DNS （有时称为"拆分式 DNS"），请确保用户解析名称通过内部 DNS 区域时转到 Front End Pool。
     
-6. 类型`Get-CsUser`用于检查您将移动用户有关的某些属性。 您需要确保 HostingProviderProxyFQDN 设置为`"sipfed.online.lync.com"`，且 SIP 地址设置正确。
+6. 键入`Get-CsUser`cmdlet 来检查您将移动的用户的某些属性。 您需要确保 HostingProviderProxyFQDN 设置为`"sipfed.online.lync.com"`，且 SIP 地址设置正确。
     
-7. 在场所移动到在线用户。
+7. 联机将用户移动到本地。
     
     要移动单个用户，请键入：
     
@@ -149,13 +150,13 @@ ms.lasthandoff: 03/28/2018
   Move-CsUser -Identity <username>@contoso.com  -Target "<fe-pool>.contoso.com " -Credential $cred -HostedMigrationOverrideURL <URL>
   ```
 
-    您可以通过使用**Get CsUSer** cmdlet 移动多个用户使用的筛选器参数选择具有特定属性的用户。 例如，您可以通过筛选 {承载提供程序-eq"sipfed.online.lync.om"} 选择所有在线的用户。 您可以通过管道**移动 CsUSer** cmdlet，返回的用户，如下所示。
+    您可以通过使用**Get-csuser** cmdlet 移动多个用户使用-Filter 参数，选择与特定属性的用户。 例如，您无法通过筛选 {宿主提供商-eq"sipfed.online.lync.om"} 选择所有联机用户。 您可以通过管道返回的用户到**Move-csuser** cmdlet，如下所示。
     
   ```
   Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com " -Credential $creds -HostedMigrationOverrideURL <URL>
   ```
 
-    指定**HostedMigrationOverrideUrl**参数必须到池承载迁移服务正在运行，按以下格式的 URL 的 URL 的格式： _Https://\<池的 FQDN\>/HostedMigration/hostedmigrationService.svc_。
+    指定的**HostedMigrationOverrideUrl**参数必须为托管迁移服务正在运行，采用以下格式的池的 URL 的 url 格式： _Https://\<池 FQDN\>/HostedMigration/hostedmigrationService.svc_。
     
     您可以通过查看 Office 365 租户帐户的 Lync Online 控制面板的 URL 来确定托管迁移服务的 URL。
     
@@ -165,7 +166,7 @@ ms.lasthandoff: 03/28/2018
     
 2. 打开“Skype for Business 管理中心”****。
     
-3. 显示“Skype for Business 管理中心”****后，选中并复制地址栏中一直到 **lync.com** 的 URL。示例 URL 如下所示：
+3. 显示“Skype for Business 管理中心”**** 后，选中并复制地址栏中一直到 **lync.com** 的 URL。示例 URL 如下所示：
     
      `https://webdir0a.online.lync.com/lscp/?language=en-US&amp;tenantID=`
     
@@ -175,14 +176,14 @@ ms.lasthandoff: 03/28/2018
     
 5. 向 URL 附加以下字符串：**/HostedMigration/hostedmigrationservice.svc**。
     
-    所生成的 URL，这是**HostedMigrationOverrideUrl**的值，应如下所示：
+    结果的 URL，即**HostedMigrationOverrideUrl**的值应如下所示：
     
      `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
     
     > [!NOTE]
-    > rtcxds 数据库事务日志文件的默认大小上限为 16 GB。 这可能不是足够大，如果要移动大量的用户，尤其是如果您有启用镜像。 为解决此问题，您可以扩大文件大小，或者定期备份日志文件。 有关详细信息，请参阅[https://support.microsoft.com/kb/2756725](https://support.microsoft.com/kb/2756725)。 
+    > rtcxds 数据库事务日志文件的默认大小上限为 16 GB。 这可能不是足够大，如果要同时移动大量用户尤其在您必须启用镜像。 为解决此问题，您可以扩大文件大小，或者定期备份日志文件。 有关详细信息，请参阅[https://support.microsoft.com/kb/2756725](https://support.microsoft.com/kb/2756725)。 
   
-8. 这是一个可选步骤。 如果需要集成 Exchange 2013 Online，那么需要使用额外的托管服务提供商。 有关详细信息，请参阅[配置业务服务器 2015年和 Outlook Web App 内部 Skype 之间的集成](../../deploy/integrate-with-exchange-server/outlook-web-app.md)。
+8. 这是一个可选步骤。 如果需要集成 Exchange 2013 Online，那么需要使用额外的托管服务提供商。 有关详细信息，请参阅[Configure 集成业务服务器 2015年和 Outlook Web App 的内部部署 Skype](../../deploy/integrate-with-exchange-server/outlook-web-app.md)。
     
 9. 现在用户已经移动。为核查下表所示的用户属性具有正确的值，键入此 cmdlet： 
     
@@ -190,7 +191,7 @@ ms.lasthandoff: 03/28/2018
   Get-CsUser | fl DisplayName,HostingProvider,SipAddress,Enabled
   ```
 
-|**活动目录属性**|**属性名称**|**在线用户的正确值**|**对于内部用户正确的值**|
+|**Active Directory 属性**|**属性名称**|**联机用户正确的值**|**内部部署用户的正确值**|
 |:-----|:-----|:-----|:-----|
 |msRTCSIP DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed.online.lync.com  <br/> |SRV：  <br/> |
 |msRTCSIP PrimaryUserAddress  <br/> |SIPAddress  <br/> |sip:userName@contoso.com  <br/> |sip:userName@contoso.com  <br/> |
@@ -200,14 +201,14 @@ ms.lasthandoff: 03/28/2018
     
     请注意，排定的会议不会从联机迁移到本地。用户在迁移后需要重新安排这些会议。
     
-    HostingProvider 属性更新 DNS 记录和所有用户将被都定向到内部部署后，指导用户使用 SRV 记录，或者将它们应用到的联机提供"sipfed.online.lync.com"。
+    HostingProvider 属性更新的 DNS 记录和所有用户被都定向到内部部署后，指示用户使用 SRV 记录，或将其应用到在线提供商"sipfed.online.lync.com。"
     
-## <a name="move-online-users-who-were-originally-on-premises-to-on-premises"></a>在场所移动到在线用户 （人最初是在场所）
+## <a name="move-online-users-who-were-originally-on-premises-to-on-premises"></a>本地移动到联机用户 （人员最初在本地）
 <a name="BKMK_originallyonprem"> </a>
 
-此部分仅适用于创建和启用内部部署，然后从内部部署移动到在线用户。 
+本节仅适用于用户创建和启用内部部署，然后从内部部署移动到 online。 
   
-- 运行以下 cmdlet 以后退用户从 Skype 的在线业务到内部部署，替换更正您的环境的值**标识**和**目标**参数的值：
+- 运行以下 cmdlet 来移动用户从 Skype 的业务联机回内部部署，替换更正值为您的环境使用**Identity**和**目标**参数的值：
     
   ```
   $cred=Get-Credential
@@ -217,9 +218,9 @@ ms.lasthandoff: 03/28/2018
   Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
   ```
 
-为**HostedMigrationOverrideUrl**参数指定的 URL 的格式必须是到池承载迁移服务正在运行，按以下格式的 URL:
+**HostedMigrationOverrideUrl**参数指定的 URL 的格式必须为托管迁移服务正在运行，采用以下格式的池的 URL:
   
- _Https://\<池的 FQDN\>/HostedMigration/hostedmigrationService.svc_。 您可以通过查看 Office 365 租户帐户的 Lync Online 控制面板的 URL 来确定托管迁移服务的 URL。
+ _Https://\<池 FQDN\>/HostedMigration/hostedmigrationService.svc_。 您可以通过查看 Office 365 租户帐户的 Lync Online 控制面板的 URL 来确定托管迁移服务的 URL。
   
 ### <a name="to-determine-the-hosted-migration-service-url-for-your-office-365-tenant"></a>确定 Office 365 租户的托管迁移服务 URL
 
@@ -227,7 +228,7 @@ ms.lasthandoff: 03/28/2018
     
 2. 打开“Skype for Business 管理中心”****。
     
-3. 显示“Skype for Business 管理中心”****后，选中并复制地址栏中一直到 **lync.com** 的 URL。示例 URL 如下所示：
+3. 显示“Skype for Business 管理中心”**** 后，选中并复制地址栏中一直到 **lync.com** 的 URL。示例 URL 如下所示：
     
      `https://webdir0a.online.lync.com/lscp/?language=en-US&amp;tenantID=`
     
@@ -237,7 +238,7 @@ ms.lasthandoff: 03/28/2018
     
 5. 向 URL 附加以下字符串：**/HostedMigration/hostedmigrationservice.svc**。
     
-    所生成的 URL，这是**HostedMigrationOverrideUrl**的值，应如下所示：
+    结果的 URL，即**HostedMigrationOverrideUrl**的值应如下所示：
     
      `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
     
