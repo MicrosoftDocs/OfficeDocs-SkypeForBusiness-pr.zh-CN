@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 03b6f3b2ce270d1dd6e2855dec4ee2af9a2447c8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0ade5a68483319fe437d83c51dbe40ddb4f0fbc0
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="set-the-phone-numbers-included-on-invites"></a>设置的电话号码包含在邀请
 
@@ -38,7 +38,28 @@ Office 365 中的音频会议，组织中的用户创建的业务和 Microsoft �
 > [!NOTE]
 > 可以有一个收费和一个免费电话号码的会议组织者，会议邀请上的最大值，但还有位于底部的每个打开的完整列表可用于加入会议的所有电话拨入电话号码的会议邀请的链接。 
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) 为会议组织者设置的默认电话拨入式电话号码
+## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>为会议组织者设置的默认电话拨入式电话号码
+
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
+
+1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
+
+    ![显示选择的 Microsoft 团队和 Skype 的业务管理中心中的用户](../images/teamsselectusers.png)
+
+2. 在页面的顶部，单击**编辑**。
+
+    ![单击编辑中的 Microsoft 团队和 Skype 的业务管理中心](../images/teamsedituser.png)
+
+3. **音频会议**，旁边单击**编辑**。 
+    
+    ![单击编辑旁边音频会议](../images/teamseditaudioconf.png)
+
+4. 使用**收费电话号码**或**免费电话号码**字段，用户输入的数字。
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
@@ -70,11 +91,23 @@ Office 365 中的音频会议，组织中的用户创建的业务和 Microsoft �
     > 它可以设置为默认免费电话号码的用户之前，必须为至少一个免费电话号码分配到您的会议桥。 若要获取免费电话号码，请参阅[业务和 Microsoft 团队的 Skype 获取服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。 
   
   - **第三方是提供程序**： 使用**收费电话号码**和**免费电话号码**字段，用户输入的数字。
-    
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-reset-audio-conferencing-phone-numbers"></a>![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) 重置音频会议的电话号码
+
+## <a name="change-the-audio-conferencing-phone-number-for-users"></a>更改用户的音频会议电话号码
+
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
+
+1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
+
+2. 在页面的顶部，单击**编辑**。
+
+3. **音频会议**，旁边单击**编辑**。 
+    
+4. 使用**收费电话号码**或**免费电话号码**字段，用户输入的数字。
+
+## <a name="reset-audio-conferencing-phone-numbers"></a>重置音频会议的电话号码
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
 
 1. 在**Skype 业务管理中心的**中，选择**要进行音频会议**。
     

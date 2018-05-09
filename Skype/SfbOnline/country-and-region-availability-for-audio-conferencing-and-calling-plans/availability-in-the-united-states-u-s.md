@@ -21,8 +21,8 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于美国的业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: db1d6c2473e45479cc9eca16951946a8c2ead9b5
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 36a33915108d11a65349e8c1fca73c57fe1feae7
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/08/2018
@@ -55,17 +55,10 @@ ms.lasthandoff: 05/08/2018
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
-|适用于调用计划的分钟数。 |每月有可用的三个计划选项：
-- 120 分钟国内呼叫计划 （可用性是有限）
-- 240 分钟国内呼叫计划 （可用性是有限）
-- 1200 分钟国内呼叫计划
-- 1200 分钟国内呼叫计划
-- 国际呼叫 （如果您已购买国内和国际呼叫规划） 600 分钟
-
-美国国内呼叫包括拨打至美国所有 50 个州和波多黎各的呼叫。 分配了美国和/或波多黎各的许可证使用位置的用户共享同一分钟数池。
-|||
-|:-----|:-----|
-|是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。  <br/> |
+|适用于调用计划的分钟数。 |每月有可用的四个规划选项： <ul><li>120 分钟国内调用规划 （可用性是有限）</li><li>240 分钟国内调用规划 （可用性是有限）</li></li><li>3000 minute 国内调用规划 </li></li><li>国内和国际呼叫计划 600 分钟</li></li> 
+|是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
+>[!Note] 
+> 美国国内呼叫包括拨打至美国所有 50 个州和波多黎各的呼叫。 分配了美国和/或波多黎各的许可证使用位置的用户共享同一分钟数池。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 

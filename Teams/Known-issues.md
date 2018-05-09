@@ -3,15 +3,15 @@ title: Microsoft Teams 的已知问题
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 4/30/2018
+ms.date: 5/8/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl, ninadara, v-leslc
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 087273d7d5d4d1eb20b83925087479ac702e72a3
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 5aaa22ee981fc3369d82aa118fafe017cc6dda01
+ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/08/2018
@@ -22,6 +22,10 @@ ms.lasthandoff: 05/08/2018
 ## 
 
 ## <a name="administration"></a>管理
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|无法将成员添加到团队，当 UsersPermissionToReadOtherUsersEnabled 设置为 false  <br/> |当此值设置为 false 在 AAD、 客户不能在 Microsoft 团队中添加外部/内部成员和显示以下错误消息:"无法添加成员。 我们会遇到问题。 请稍后再试。" 但是，可以直接向 Office 365 组添加成员。    <br/> |为 true AAD 中更改此设置。  <br/> |4/10/18  <br/> |
+
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |不再可用的租户范围连接器的管理员管理  <br/> |我们尝试在客户端和联机版本中添加连接器时收到错误： 出现意外的错误。 请重试。 Set-organizationconfig ConnectorsEnabled = True   <br/> |禁用使用团队设置。 请参阅支持文章https://msdn.microsoft.com/en-us/microsoft-teams/connectors  <br/> |2017 年 6 月 21 日  <br/> |
@@ -179,6 +183,10 @@ ms.lasthandoff: 05/08/2018
 |用户无法创建团队  <br/> |贵公司可以设置策略用于限制可以创建 Office 365 组或团队的人员。  <br/> |与 IT 管理员联系以了解贵公司的组和团队创建策略。  <br/> |2017 年 3 月 13 日  <br/> |
 
 ## <a name="tabs"></a>选项卡
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|网站选项卡，从而导致客户混乱  <br/> |网站选项卡不等于您的浏览器。 多个站点，尤其是需要身份验证或使用弹出窗口，将无法运行时固定作为网站选项卡。  <br/> |我们正在提高 UI 以使其更清晰的客户。  <br/> |5/2/18  <br/> |
+
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |不可行，因为条件访问已启用的选项卡 <br/> |可能无法在桌面客户端中不再加载某些选项卡，因为租户上已启用条件的访问。 使用 Web 客户端时，将加载选项卡。 可能会影响某些选项卡是： PowerBI、 窗体、 VSTS、 PowerApps，和 SharePoint 列表。  <br/> |若要查看受影响的选项卡必须安装 Windows 10 帐户扩展名使用 リ モ ・ 边缘、 IE 或 Chrome。 某些选项卡仍取决于 web 身份验证，无法在桌面客户端中启用 CA 时。 我们正在与合作伙伴协作启用这些方案;到目前为止，我们已启用规划器、 OneNote 和流。 <br/> |4/5/18  <br/>|

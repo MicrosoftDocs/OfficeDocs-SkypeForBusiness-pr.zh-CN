@@ -19,9 +19,9 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'See steps to assign a dial-in conferencing license and conference ID to a user, set up a third party conferencing provider, and many other dial-in conferencing settings. '
-ms.openlocfilehash: b2759e4ee1f8e8cac2f753eb5afecbf13642abb0
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+description: '请参阅步骤将电话拨入式会议许可和会议 ID 分配给用户和许多其他电话拨入式会议设置。 '
+ms.openlocfilehash: 7a5f82a827049f591d012af7f752e26ac4f9d87b
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/08/2018
@@ -51,28 +51,6 @@ ms.lasthandoff: 05/08/2018
 > [!NOTE]
 > 分配许可证后，Microsoft 可能不作为最初在列表中的音频会议提供商。 如果发生这种情况，请退出 Office 365 管理中心或按 Ctrl+F5 刷新浏览器窗口。 
   
-## <a name="assign-a-conference-id-for-a-user"></a>为用户分配会议 ID
-
-设置为使用 Microsoft 作为音频会议提供商的音频会议时，会议 ID 自动分配给用户。 安排会议时，将会议邀请中发送的会议 ID。 将获取每个用户安排的会议分配一个唯一的会议 id。
-  
-不能使用 Skype for Business 管理中心来向用户分配会议 ID，但你可以使用 Windows PowerShell cmdlet 来执行此操作。
-  
-若要为用户设置会议 ID，请运行以下命令：
-  
-```
-Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 8271964 
-```
-
-> [!IMPORTANT]
-> 会议 ID 必须包含 7 位，并且不能在 Skype 业务管理中心或使用 Windows PowerShell 中进行更改。 
-  
-请参阅 [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) 以了解有关 cmdlet 的更多信息。
-  
-> [!IMPORTANT]
->  [!重要信息]  创建新会议 ID 后，呼叫者不能再使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 用户可以使用业务会议迁移工具的 Skype 更新其现有会议。 若要查看如何下载、 安装和运行 Skype 业务会议更新工具，请参阅： [Skype 商业和 Lync 会议更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)、[业务 online，会议迁移工具 （64 位） 的 Skype](http://go.microsoft.com/fwlink/?LinkID=626047)和[Skype 业务 online 会议迁移工具 （32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=54079)。
-  
-请参阅[请参阅、 更改和重置会议 ID 分配给用户](see-change-and-reset-a-conference-id-assigned-to-a-user.md)。
-    
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>启用或禁用发送到音频会议用户的电子邮件
 
 ![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
@@ -212,9 +190,19 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 请参阅[对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-dial-in-information.md)。
   
-## <a name="setting-the-default-audio-conferencing-phone-number-for-meeting-organizers"></a>为会议组织者设置的默认音频会议电话号码
+## <a name="setting-the-phone-numbers-included-on-invites"></a>设置的电话号码包含在邀请
 
- **若要为会议组织者，您将为用户启用音频会议时设置默认音频会议电话号码**
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
+
+1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
+
+2. **音频会议**，旁边单击**编辑**。
+ 
+3. 在**音频会议**窗格中，您可以设置**收费电话号码**，如果允许，**免费电话号码**。
+
+4. 单击" **保存**"。
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**  
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
@@ -222,39 +210,12 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     
 3. 在左侧导航窗格中，转到**音频会议** > **用户**。 选择您想要启用音频会议的用户。
     
-4. 在操作窗格中，在用户属性中，单击**编辑**。
-    
-5. 在**属性**页上，在**提供程序名称**下使用下拉列表选择音频会议提供商。
-    
-  - 如果选择 Microsoft 作为音频会议提供商，您可以从列表中选择默认音频会议的电话号码。  
-    
-  - 如果您选择第三方 ACP 作为音频会议提供商，您将需要手动输入收费电话和如果需要，免费电话号码。 这些电话号码将作为默认电话号码。
-    
-    用户的默认音频会议电话号码是他们安排会议时，会议邀请显示的号码。
-    
-6. 单击" **保存**"。 
+4. 在操作窗格中，您可以设置**收费电话号码**，如果允许，**免费电话号码**。
+
+5. 单击" **保存**"。
     
 请参阅[设置的电话号码包含在邀请](set-the-phone-numbers-included-on-invites.md)。
   
- **若要为启用音频会议用户后，会议组织者设置的默认音频会议电话号码**
-  
-1. 使用你的工作或学校帐户登录 Office 365。
-    
-2. Go to the **Office 365 admin center** > **Skype for Business**.
-    
-3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **用户**，选择所需的用户，并在操作页上，单击**编辑**。
-    
-4. 在**属性**页上，在**提供程序名称**下使用下拉列表选择音频会议提供商。
-    
-  - 如果用户使用 Microsoft 为音频会议提供商，您可以从列表中选择默认音频会议的电话号码。  
-    
-  - 如果用户使用第三方 ACP 作为音频会议提供商，您将需要手动输入收费电话和如果需要，免费电话号码。
-    
-    用户的默认音频会议电话号码是他们安排会议时，会议邀请显示的号码。
-    
-5. 单击" **保存**"。 
-    
-请参阅[设置的电话号码包含在邀请](set-the-phone-numbers-included-on-invites.md)。
   
 ## <a name="choosing-audio-conferencing-bridge-settings"></a>选择音频会议网桥的设置
 
@@ -378,7 +339,20 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     
 请参阅[设置音频会议自动助理语言](set-auto-attendant-languages-for-audio-conferencing.md)。
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png--see-audio-conferencing-dial-in-numbers"></a>![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png)  请参阅音频会议拨入号码
+## <a name="see-audio-conferencing-dial-in-numbers"></a>请参阅音频会议拨入号码
+
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
+
+1. 在左侧导航窗格中，转到**会议** > **会议桥**。 
+
+2. 从列表中选择一个电话号码，单击**编辑**。 此处可以：
+    
+  - 查看 Office 365 设置要用于音频会议的电话号码。 
+    
+  - 查看位置，和主要语言，将使用的音频会议自动助理。
+
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**  
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
@@ -413,7 +387,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 要获得有关每个 cmdlet 的更多帮助，请参阅 [Skype for Business Online cmdlet](https://go.microsoft.com/fwlink/?LinkId=627324)。
 
 下面是组织级别设置： 
-> 
+ 
 - **设置条目/退出通知**默认值为 _$true_。
   ```
   Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false 

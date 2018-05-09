@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 将您的用户发送电子邮件使用他们的音频会议信息。
-ms.openlocfilehash: da006b1e63dd36234acf20bb02fdffba2dc70fa2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0ac6aa097b9c34c23c27afb2e99e4e40e3f587c8
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>对其音频会议信息的用户发送电子邮件
 
@@ -39,7 +39,25 @@ ms.lasthandoff: 05/03/2018
   
 ![电话拨入式会议电子邮件](../images/audio-conferencing-info.png)
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-send-an-email-with-audio-conferencing-information-to-a-user"></a>![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) 向用户发送电子邮件与音频会议信息
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>向用户发送电子邮件与音频会议信息
+
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
+
+1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
+
+2. 在页面的顶部，单击**编辑**。
+
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+
+1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
+
+2. 在页面的顶部，单击**编辑**。
+
+3. 在**音频会议**，单击**发送电子邮件中的会议信息**。
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
@@ -51,9 +69,6 @@ ms.lasthandoff: 05/03/2018
     
 > [!TIP]
 > 您还可以发送电子邮件向用户使用音频会议设置编辑用户的属性，然后单击**要进行音频会议** > **发送会议信息通过电子邮件**。 
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="what-else-should-you-know-about-this-email"></a>此电子邮件的其他须知事项。
 

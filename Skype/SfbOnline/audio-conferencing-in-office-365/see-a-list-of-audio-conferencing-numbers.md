@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to look up your dial-in conferencing numbers from within Skype for Business. '
-ms.openlocfilehash: c50c7a06aae2e9e68a5f9a2c66fc04f912a35705
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: bccd4a5c02dbb6bc32c27e315b80a39705284429
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers"></a>音频会议号码的列表，请参阅
 
@@ -42,7 +42,19 @@ ms.lasthandoff: 05/03/2018
 > [!NOTE]
 > [!注释] 国内拨入号码供你的组织专用，是唯一可以设为默认电话号码的号码。 但是，国际拨入号码可能会在多个组织之间共享。 
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png--to-view-your-audio-conferencing-phone-numbers"></a>![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png)  若要查看您的音频会议电话号码
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>若要查看您的音频会议电话号码
+
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
+
+1. 在左侧导航窗格中，转到**会议** > **会议桥**。 
+2.  查看可用于音频会议的电话号码。
+
+- 您还可以查看的位置和音频会议自动助理将使用的主要语言。
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
@@ -57,8 +69,6 @@ ms.lasthandoff: 05/03/2018
 > [!NOTE]
 > 您可以转到**音频会议** > **用户**和用户属性来更改默认号码由从您的组织中的可用号码的列表中选择新号码的选择。 请参阅[设置的电话号码包含在邀请](set-the-phone-numbers-included-on-invites.md)。 
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 

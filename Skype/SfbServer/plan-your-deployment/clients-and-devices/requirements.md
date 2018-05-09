@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: 本文汇总了支持 Skype 会议室系统 v2 的要求。
-ms.openlocfilehash: 6b0265c8fc6269b7451a7757b8266078433ec9d5
-ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
+ms.openlocfilehash: 1c9e998c096b92788a2e214220987dfe4aafffca
+ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype 会议室系统 v2 要求
  
@@ -104,7 +104,7 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
 |**焦点** <br/> 10 个 x 9"  <br/> |2-4  <br/> |1.5 m  <br/> |Logitech Connect  <br/> |Logitech 连接设备包括了摄像机，因此它必须定位在前面的聊天室 （不表的中心） 捕获本地与会者。  <br/> |
 |**小型** <br/> 16 x 16"  <br/> |4-6  <br/> |2.0 m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |对于较大的会议室，播放音量可能会受到限制。  <br/> |
 |**中等** <br/> 18 x 20"  <br/> |6-12  <br/> |2.4 m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC 毫秒  <br/> |Logitech MeetUp 包含了摄像机，因此它必须定位在前面的聊天室 （不中心要捕获本地与会者表）。  <br/> 一般来说，与长矩形或 u 形表聊天室可以受益于其他附属麦克风。  <br/> 菊花链配置中必须使用 SP 220 MS。  <br/> |
-|**大型** <br/> 15' x 20"  <br/> |12 16  <br/> |3m  <br/> 此距离也适用于连接到正在使用的音频设备的每个其他卫星麦克风覆盖的区域。  <br/> |Logitech 组 + 附属话筒  <br/> Polycom 三个 + 附属话筒  <br/> Polycom CX5100 + 附属话筒  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC 1000MS + 附属话筒  <br/> |此行支持附属麦克风选项中列出的所有音频设备。  <br/> CX5100 包含内置 360 度摄像机，从而使设备可以位于表的中心。  <br/> 菊花链配置中必须使用 SP 220 MS。  <br/> |
+|**大型** <br/> 15' x 32"  <br/> |12 16  <br/> |3m  <br/> 此距离也适用于连接到正在使用的音频设备的每个其他卫星麦克风覆盖的区域。  <br/> |Logitech 组 + 附属话筒  <br/> Polycom 三个 + 附属话筒  <br/> Polycom CX5100 + 附属话筒  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC 1000MS + 附属话筒  <br/> |此行支持附属麦克风选项中列出的所有音频设备。  <br/> CX5100 包含内置 360 度摄像机，从而使设备可以位于表的中心。  <br/> 菊花链配置中必须使用 SP 220 MS。  <br/> |
    
 **Skype 会议室系统 v2 认证视频外围设备**
 
@@ -113,7 +113,7 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
 |**焦点** <br/> 10 个 x 9"  <br/> |2-4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100   <br/> ||
 |**小型** <br/> 16 x 16"  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ 专业人员  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Logitech PTZ 专业人员通常与 Logitech 组捆绑在一起  <br/> |
 |**中等** <br/> 18 x 20"  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ 专业人员  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
-|**大型** <br/> 15' x 20"  <br/> |12 16  <br/> |Logitech PTZ 专业人员  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
+|**大型** <br/> 15' x 32"  <br/> |12 16  <br/> |Logitech PTZ 专业人员  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
    
 ## <a name="required-software-downloads"></a>需要下载的软件
 
