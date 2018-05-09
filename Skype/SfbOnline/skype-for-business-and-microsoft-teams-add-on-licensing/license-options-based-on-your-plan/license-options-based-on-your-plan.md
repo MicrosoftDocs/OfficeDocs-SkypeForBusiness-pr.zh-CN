@@ -1,5 +1,5 @@
 ---
-title: 许可选项根据您的计划
+title: 基于您的计划的许可证选项
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,16 +14,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom: None
-description: 请查阅电话系统语音邮件。
-ms.openlocfilehash: 9c7fc5fb882bed5bd54c9aad50ee327955095b41
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 了解电话系统的语音邮件。
+ms.openlocfilehash: 120299cbb635fc8bed3734307763a65f344aa66b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="6990a-103">许可选项根据您的计划</span><span class="sxs-lookup"><span data-stu-id="6990a-103">License options based on your plan</span></span>
+# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="8ec24-103">基于您的计划的许可证选项</span><span class="sxs-lookup"><span data-stu-id="8ec24-103">License options based on your plan</span></span>
 
 
