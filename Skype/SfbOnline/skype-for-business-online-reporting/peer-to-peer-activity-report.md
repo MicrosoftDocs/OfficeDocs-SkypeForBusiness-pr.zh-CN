@@ -20,30 +20,30 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: ad2e9745d68a3c47e60aa03f957054a1eeef1deb
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 96878a2deb9a75ab0c927c2e1cd2c9e4dd34c2bd
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="peer-to-peer-activity-report"></a>对等活动报告
 
-全新的 Office 365" **报告**"仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如， **Skype 业务对等活动的**报告可用于查看您的用户正在使用 IM，音频、 视频、 应用程序共享和文件传输的多少。 
+全新的 Office 365" **报告**"仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，可以使用**业务对等活动的 Skype**报告以查看您的用户使用 IM、 音频、 视频、 应用程序共享和文件传输的多少。 
 
-签出[报表概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+签出[报告概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
-本报告中的，以及其他 Skype 业务报表，提供您详细信息活动整个组织。 当你为组织进行调查、规划及执行其他业务决策时，这些详细信息非常有用。 
+此报告中的，以及其他 Skype 业务报告为您提供了详细信息活动在整个组织。 当你为组织进行调查、规划及执行其他业务决策时，这些详细信息非常有用。 
   
 > [!NOTE]
 > [!注释] 以管理员身份登录 Office 365 管理中心后，可以查看所有 Skype for Business 报告。 
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>如何获取 Skype for Business 对等活动报告
 
-1. 请转到**Office 365 管理中心** > **报告** > **的使用**。
+1. 转到**Office 365 管理中心** > **报告** > **使用率**。
     
-2. 在**使用**页上，单击**选择报表的列表**在左边上的**Skype 业务对等活动**。 或者，单击**Skype 业务活动**构件，然后在**Skype 业务活动**列表中单击**Skype 业务对等活动**。
+2. 在**使用率**页上，单击**业务对等活动的 Skype**上**选择的报告列表**左侧的。 或者，单击**业务活动的 Skype**小部件，然后单击**Skype 的业务活动**列表上的**业务对等活动的 Skype** 。
     
-     ![Skype 点对点菜单选择](../images/603ec74a-7f39-4e12-8f10-00979f7ee977.PNG)
+     ![选定的 Skype 对等菜单](../images/603ec74a-7f39-4e12-8f10-00979f7ee977.PNG)
   
     > [!IMPORTANT]
     > [!重要信息] 你可能无法看到此处所示的所有产品和活动报告，具体取决于你拥有的 Office 365 订阅。 
@@ -52,34 +52,34 @@ ms.lasthandoff: 04/18/2018
 
 你可以通过查看" **活动**"、" **用户**"和" **分钟数**"图表了解你的 Skype for Business 对等活动。
   
-![带标注的 Skype 对等报告。](../images/82dec398-ca05-46c7-b0fe-affcbfc0ddd5.PNG)
+![带标注的 Skype 对等报表。](../images/82dec398-ca05-46c7-b0fe-affcbfc0ddd5.PNG)
   
 ***
-![1 号](../images/sfbcallout1.png)<br/>可以查看" **Skype for Business 对等活动**"报告以了解过去 7 天、30 天、90 天或 180 天的趋势。
+![1 号](../images/sfbcallout1.png)<br/>可以查看" **Skype for Business 对等活动**"报告以了解过去 7 天、30 天、90 天或 180 天的趋势。 但是，如果您单击到报告中某一天，表 （请参阅 7 号） 将显示数据 30 天，最多为日期 （请参阅编号 2） 的报告生成的时间。
 
     > [!Note]
     > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
 ***
-![2 号](../images/sfbcallout2.png)<br/>每个报表包含此报表的生成日期。 该报告通常反映活动的时间从 24 到 48 小时延迟。 
+![2 号](../images/sfbcallout2.png)<br/>每个报表包含此报表的生成日期。 报表通常反映活动的时间从 24 到 48 小时延迟。 
 ***
-![数字 3](../images/sfbcallout3.png)<br/>使用" **活动**"图表上的交互式图表数据可了解使用趋势并查看组织中正在进行的每个会话类型的会话总数。 它将显示您的总数和类型的**即时消息**、**音频**、**视频**、**应用程序共享**和**文件传输**会话在您的组织。 
+![3 号](../images/sfbcallout3.png)<br/>使用" **活动**"图表上的交互式图表数据可了解使用趋势并查看组织中正在进行的每个会话类型的会话总数。 它将显示您的总数量和类型的**IM**、**音频**、**视频**、**应用程序共享**和**文件传输**会话在整个组织。 
 ***
-![数字 4](../images/sfbcallout4.png)<br/>使用" **用户**"图表上的交互式图表数据可了解使用趋势并查看参与组织中正在进行的对等活动的单独用户数。 它将显示您的总数和类型的**即时消息**、**音频**、**视频**、**应用程序共享**和**文件传输**的用户会话中的对等。
+![4 号](../images/sfbcallout4.png)<br/>使用" **用户**"图表上的交互式图表数据可了解使用趋势并查看参与组织中正在进行的对等活动的单独用户数。 它将显示您的**IM**、**音频**、**视频**、**应用程序共享**和**文件传输**类型以及用户总数对等会话中。
 ***
-![数字 5](../images/sfbcallout5.png)<br/>使用" **分钟数**"图表上的交互式图表数据可了解使用趋势并查看用户在使用音频和视频进行对等活动时所用的分钟数。它将显示在对等会话中使用的 **音频**和 **视频**的总分钟数。
+![5 号](../images/sfbcallout5.png)<br/>使用" **分钟数**"图表上的交互式图表数据可了解使用趋势并查看用户在使用音频和视频进行对等活动时所用的分钟数。它将显示在对等会话中使用的 **音频**和 **视频**的总分钟数。
 ***
-![数字 6](../images/sfbcallout6.png)<br/>每个图表都具有"X"（水平）轴和"Y"（垂直）轴。 
+![6 号](../images/sfbcallout6.png)<br/>每个图表都具有"X"（水平）轴和"Y"（垂直）轴。 
 *    在" **活动**"活动图表中，Y 轴代表组织中的用户举行的即时消息、音频、视频、应用程序共享和文件传输会话的总数。
-*    **用户**活动图中，Y 轴为总用户数由 IM，音频、 视频、 应用程序共享和传输文件的会话。 
+*    在**用户**活动图表中，Y 轴是总用户数的保留 IM、 音频、 视频、 应用程序共享和传输文件会话。 
 *    在" **分钟数**"活动图表中，Y 轴代表组织中的用户使用音频和视频对等会话的总分钟数。 
 
 这两个图表的 X 轴都表示此特定报表的所选日期范围。
 ***
-![数字 7](../images/sfbcallout7.png)<br/>你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如，在**活动**图中，单击或点击**即时消息**、**音频**、**视频**、**应用程序共享**和**文件传输**来只与每个相关的信息，请参阅。 更改此选择不会更改网格表中的信息。 
+![7 号](../images/sfbcallout7.png)<br/>你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如，在**活动**图表中，单击或点击**IM**、**音频**、**视频**、**应用程序共享**和**文件传输**以查看仅与每个相关的信息。 更改此选择不会更改网格表中的信息。 
 ***
-![数字 8](../images/sfbcallout8.png)<br/>该表格显示了按用户细分的对等活动。它将显示所有分配了 Skype for Business 的用户及其对等活动。你可以向该表格中添加其他列。
+![8 号](../images/sfbcallout8.png)<br/>该表格显示了按用户细分的对等活动。它将显示所有分配了 Skype for Business 的用户及其对等活动。你可以向该表格中添加其他列。
 *    " **用户名**"是用户的名称。
-*    " **已删除**"表示用户的许可证已删除。 <br/> <br/> **注意：** 只要他或她被授权在所选的时间段的某些时候，报告中仍会显示已删除的用户的活动。 The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.  <br/><br/>
+*    " **已删除**"表示用户的许可证已删除。 <br/> <br/> **注意：** 只要他或她已授权的过程选定的时间段中的某个时间，已删除的用户的活动仍会显示在报表中。 The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.  <br/><br/>
 *    **Deleted date** is the date on which the user's license was removed. 
 *    " **上次活动日期(UTC)**"是该用户的上次活动日期 (UTC)。
 *    " **即时消息**"显示该用户使用的对等会话的总数。
@@ -90,29 +90,29 @@ ms.lasthandoff: 04/18/2018
 *    " **音频分钟数**"显示整个组织使用的音频的总分钟数。 
 *    " **视频分钟数**"显示整个组织使用的视频的总分钟数。 
 
-如果您的组织策略禁止查看报表可识别用户信息在哪里，您可以更改所有这些报告的隐私设置。 签出**如何隐藏用户级别的详细信息？** [在 Office 365 管理中心活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)中的部分。 
+如果贵组织的策略会阻止您查看报告可识别用户信息在哪里，您可以更改所有这些报告的隐私设置。 签出**如何隐藏用户级别的详细信息？** [Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)中的部分。 
 ***
-![数字 9](../images/sfbcallout9.png)<br/>你还可以单击或点击" **导出**"按钮，将报告数据导出到 Excel .csv 文件中。           <br/> ![Skype 业务报告的导出按钮。](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。如果拥有的用户不足 2000 人，你可以在报告本身的表格中进行排序和筛选。如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。
+![数字 9](../images/sfbcallout9.png)<br/>你还可以单击或点击" **导出**"按钮，将报告数据导出到 Excel .csv 文件中。           <br/> ![用于业务报告的 Skype 导出按钮。](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。如果拥有的用户不足 2000 人，你可以在报告本身的表格中进行排序和筛选。如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。
 ***
-![10 号](../images/sfbcallout10.png)<br/>![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)<br/>单击或点击任何要添加或删除报表中的列的列的**列**图标。         
+![数字 10](../images/sfbcallout10.png)<br/>![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)<br/>单击或点击中的任何列添加或从报表中删除列**列**图标。         
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他 Skype for Business 报告？
 
-- [Skype 的业务活动报告](activity-report.md)您可以看到多少用户使用对等、 有组织和参与了会议会话。
+- [Skype 的业务活动报告](activity-report.md)您可以看到多少您的用户将对等、 组织，和参加会议会话。
     
-- [Skype 的业务设备使用情况报告](device-usage-report.md)您可以查看包括基于 Windows 操作系统的设备，拥有 Skype 的业务应用程序的移动设备安装，并将其用于即时消息和会议。
+- [Skype 的业务设备使用情况报告](device-usage-report.md)您可以查看设备包括基于 Windows 的操作系统和移动设备具有业务应用程序 Skype 的安装和使用它的 IM 和会议。
     
-- [Skype 业务会议组织者活动报告](conference-organizer-activity-report.md)您可以看到您的用户多少组织使用 IM，音频/视频、 应用程序共享，Web，拨入/出 — 第三方，并拨入/出-Microsoft 的会议。
+- [Skype 的业务会议组织者活动报告](conference-organizer-activity-report.md)您可以看到多少您的用户的组织使用 IM、 音频/视频、 应用程序共享、 Web、 电话拨入/出 — 第三方和电话拨入/出-Microsoft 的会议。
     
-- [Skype 业务会议参与者的活动报告](conference-participant-activity-report.md)您可以看到多少 IM，音频/视频、 应用程序共享、 Web 和拨入/出会议会议都要参加。
+- [Skype 的业务会议参与者活动报告](conference-participant-activity-report.md)您可以看到多少 IM、 音频/视频，应用程序共享、 Web 和电话拨入/出会议会议正在参与。
     
-- [适用于业务用户的 Skype 阻塞报表](users-blocked-report.md)您可以查看组织中的用户进行 PSTN 呼叫已被阻止。
+- [适用于业务用户的 Skype 阻止报告](users-blocked-report.md)您可以看到您的组织中被阻止发出 PSTN 呼叫的用户。
     
-- [Skype 的业务 PSTN 使用情况报告](pstn-usage-report.md)您可以看到所花费的入站/出站呼叫和成本为这些调用的分钟数。
+- [Skype 的业务 PSTN 使用率报告](pstn-usage-report.md)您可以看到所用的入站/出站呼叫和成本这些呼叫分钟数。
     
-- [Skype 业务 PSTN 分钟池报告](pstn-minute-pools-report.md)您可以看到在本月组织内消耗的分钟数。
+- [Skype 业务 PSTN minute 池报表](pstn-minute-pools-report.md)，您可以看到在组织内当前月份消耗的分钟数。
 
-- [Skype 的业务会话详细信息报告](session-details-report.md)您可以查看有关单个用户的呼叫体验的详细信息。
+- [Skype 业务会话详细信息报表](session-details-report.md)您可以看到有关单个用户的呼叫体验的详细信息。
     
 ## <a name="related-topics"></a>相关主题
 [Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

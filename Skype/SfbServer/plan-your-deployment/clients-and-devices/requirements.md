@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: 本文汇总了支持 Skype 会议室系统 v2 的要求。
-ms.openlocfilehash: 1c9e998c096b92788a2e214220987dfe4aafffca
-ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
+ms.openlocfilehash: 0fb1fbcde28c343787967485dd6cae36491311b7
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype 会议室系统 v2 要求
  
@@ -108,13 +108,16 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
    
 **Skype 会议室系统 v2 认证视频外围设备**
 
-|**聊天室类型**|**人员数量**|**按最佳会议室大小的设备**|**注释**|
+|会议室类型|人数|按最佳会议室大小的设备|备注|
 |:-----|:-----|:-----|:-----|
 |**焦点** <br/> 10 个 x 9"  <br/> |2-4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100   <br/> ||
 |**小型** <br/> 16 x 16"  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ 专业人员  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Logitech PTZ 专业人员通常与 Logitech 组捆绑在一起  <br/> |
 |**中等** <br/> 18 x 20"  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ 专业人员  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
 |**大型** <br/> 15' x 32"  <br/> |12 16  <br/> |Logitech PTZ 专业人员  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
    
+ > [!NOTE]
+ > 前面的聊天室显示解决方案应设置为不超过 1920x1080p。
+
 ## <a name="required-software-downloads"></a>需要下载的软件
 
 您将需要以下下载构建您自己的 Skype 会议室系统 v2 图像：

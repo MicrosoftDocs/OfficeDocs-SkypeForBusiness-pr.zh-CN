@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: 7efddd118ca80f0610f287746e0f14ee0146d3c3
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: cba66559fada6edb0965fb5bf7095bccdedaa307
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>获取适用于 Skype for Business Online 的电话
 
@@ -68,8 +68,7 @@ AudioCodes 电话的详细信息，请参阅[业务 IP 电话的 Skype](https://
 |Yealink  <br/> |X.8.1.52  <br/> |2017 年 2 月  <br/> |
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |2016 年 12 月  <br/> |
    
-> [!NOTE]
-> [!注释] 你为本地部署设置的 Lync Phone Edition (LPE) 电话必须加以更新，以符合最低或最新的必要固件要求，之后才能将这些用户转移到 Skype for Business Online。如果在更新电话上的固件之前将用户从本地部署迁移到 Skype for Business Online，这些电话将无法连接到 Skype for Business Online。 
+> [注意]您已设置为在本地部署的 Lync Phone Edition (LPE) 电话必须为之前进入这些用户 Skype 业务 online 最小值或更高版本所需的固件更新。 如果在更新电话上的固件之前将用户从本地部署迁移到 Skype for Business Online，这些电话将无法连接到 Skype for Business Online。 
   
 ## <a name="required-licenses"></a>所需的许可证
 
