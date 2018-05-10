@@ -1,11 +1,10 @@
 ---
-title: 部署 Skype for Business Online 电话
+title: 设置公用区域电话
 description: 了解获取正确的固件，如果需要对其进行更新、 分配许可证和为公用区域电话配置设置的部署步骤。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
-ms.date: 01/22/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -20,13 +19,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-ms.openlocfilehash: 453f9db6a022e924406594c567ea564b10f58694
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 12ed7d5c24649903f7cd3020d66ee4e9fcb77b6f
+ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/10/2018
 ---
-## <a name="common-area-phones"></a>公用区域电话
+# <a name="set-up-common-area-phones"></a>设置公用区域电话
+
 公用区域电话或盖，通常放置在共享区域并不与单个用户关联。 例如，接收区域电话，门电话或会议室电话，大写设置为设备，而不是用户和自动登录到网络。 在下面的步骤中，我们将帮助您为 Microsoft 电话系统与调用计划设置帐户，然后部署帽。
 
 ## <a name="prerequisites-for-common-area-phones"></a>公用区域电话的先决条件
@@ -36,7 +36,6 @@ ms.lasthandoff: 05/09/2018
     - 购买公共区域电话 SKU 
     - 更新的固件 （请参阅支持固件主题中https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
     - 批准 （查看在列表的电话https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones) 
-
 
 ## <a name="check-the-firmware-for-your-phone"></a>检查您的电话的固件
 - **Polycom VVX phones**, go to **Settings** > **Status** > **Platform** > **Application** > **Main**.
@@ -84,37 +83,38 @@ ms.lasthandoff: 05/09/2018
     
 ## <a name="configure-phone"></a>配置电话
 
-**准备物理电话** 
+**准备物理电话**
 
-所选的电话需要有公用区域电话模式。 
+选的电话需要有公用区域电话模式。 
 
 ***示例 Polycom VVX 电话***
 
-通过执行以下步骤来启用 Polycom VVX 公共区域电话模式：
+通过执行以下步骤为 Polycom VVX 启用公共区域电话模式：
 1. 在浏览器中，使用 web 界面启用 VVX 帽模式
 2. 转至**设置**业务设置选项 Skype 中，选择**公用区域电话**。
-3. 单击**保存**以保存您的配置设置。
+3. 单击**是**以保存您的配置设置。
 
-既然帽电话模式已启用，则设置使用电话的显示电话。
+既然帽电话模式已启用，则设置使用电话的显示电话。 显示应显示"启用 CaAP。"
 
-1. 在设置，选择**高级**。
-2. 输入密码。
-3. 在管理设置中，选择**公共区域电话设置**。
-4. 启用 Common Area Phone and 帽管理
-5. 选择**保存配置**。
+1. 单击**设置**。
+2. 选择**高级**。
+3. 输入密码。
+4. 在管理设置中，选择**公共区域电话设置**。
+5. 启用**上限**和**帽管理员模式**。
+6. 单击**保存配置**。
 
 您的电话登录在主屏幕上时将创建以下情况下已准备好进行设置。
 
-1. 通过选择登录**设置 > 功能 > for Business 的 Skype。**
-2. 选择用户凭据，然后选择选择**web 登录助手 （帽）**生成代码正在
-3. 转到设置门户http://aka.ms/skypecap，并以**管理员身份**登录。
+1. 通过选择**设置**登录 > **功能** > **for Business 的 Skype。**
+2. 选择**用户凭据**，然后选择**web 登录助手 （帽）**生成代码正在
+3. 转到设置门户网站位于http://aka.ms/skypecap，并以**管理员身份**登录。
 4. 输入显示名称 （例如，Main 接收） 以查看您帽。
 
 >[注意]如果"为公用区域电话的搜索"被选中，清除该复选框，并再次进行搜索。
 
 5. 在配对的代码窗口中，输入电话上显示的代码，并单击**设置**。
 
-预缴税金此最后一步，电话应自动登录。
+以下此最后一步，电话应自动登录。
 
 了解有关在可用电话[](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones)。
 

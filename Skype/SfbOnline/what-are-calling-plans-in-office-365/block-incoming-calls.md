@@ -1,7 +1,24 @@
 ---
-标题:"块入站呼叫中 Skype 的业务联机"ms.author: tonysmit 作者： tonysmit 管理器： serdars ms.date: 05/07/2018 ms.topic： 文章 ms.assetid: ms.tgt.pltfrm： 云 ms.service: Skype-的-业务-联机 ms.collection: Adm_Skype4B_联机 ms.audience： 管理 appliesto： 业务 localization_priority 的 Skype： 正常 f1keywords： 无 ms.custom: PowerShell 说明:"使用 PowerShell 管理入站情况呼叫中 Skype 阻止业务 online"。
+title: 联机 for Business 阻止 Skype 中的入站的呼叫
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.date: 05/07/2018
+ms.topic: article
+ms.assetid: ''
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto: Skype for Business
+localization_priority: Normal
+ms.custom: Use PowerShell to manage inbound call blocking in Skype for Business Online.
+ms.openlocfilehash: 9a9ff446d7b95588f1d9c2460db1284de717e557
+ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/10/2018
 ---
-
  # <a name="block-inbound-calls"></a>阻止入站的呼叫
 
 为业务联机调用计划的 Skype 现在支持阻止从公用电话交换网 (PSTN) 的入站调用。 此功能允许号码的模式，以定义以便的每个传入 PSTN 呼叫者 ID 调用租户的租户全局列表可以用于匹配对照列表检查。 如果进行匹配时，被拒绝的传入呼叫。 
@@ -14,7 +31,6 @@
 
 ## <a name="call-blocking-admin-controls-and-information"></a>阻止管理控件和信息的呼叫
 仅使用 PowerShell 提供管理阻止的号码的控件。 号码块模式定义为正则表达式模式。 表达式的顺序并不重要 – 在列表中匹配的第一个模式将导致呼叫被阻止。 新的数字或模式添加或删除被阻止呼叫者列表可能需要多达 24 小时到要变为活动状态的模式。
-
 ## <a name="call-blocking-powershell-commands"></a>调用阻止 PowerShell 命令
 
 *InboundBlockedNumberPattern*通过**新建**、**获取**、**设置**和**删除**的*CsInboundBlockedNumberPattern*命令管理号码模式。  
@@ -57,4 +73,4 @@
 如上文所述，是通过模式匹配的阻止呼叫者使用正则表达式 (regex)。 有多个工具可以联机帮助验证正则表达式模式匹配。 如果您不熟悉正则表达式模式，建议您花一些时间来熟悉基础知识，以确保获取预期的结果，使用工具，用于验证模式匹配，然后将新阻止号码的匹配项添加到您的租户。 
 
 ## <a name="related-topics"></a>相关主题
-[设置您的计算机的业务联机管理使用 Windows PowerShell 的 Skype](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell )
+[业务联机管理使用 Windows PowerShell 中设置 Skype 计算机](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell )
