@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '了解如何设置电话拨入式或音频会议的人员在您的业务需要加入使用电话的电话会议。 '
-ms.openlocfilehash: 303b22f43a756fcade575dd63ae9bba205e6cbda
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d91a3637a0f7d35d319368017e0f9c6611faf2a7
+ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams"></a>设置音频会议 for Skype Business 和 Microsoft 团队
 
@@ -69,7 +69,11 @@ ms.lasthandoff: 05/03/2018
 
 获取后收费和/或免费电话号码的会议桥，您需要分配的号码，以便他们可以在会议邀请上使用。  
 
-若要将新的电话号码分配给音频的会议桥，转到**Office 365 管理中心** > **管理中心** > **for Business 的 Skype** > **语音** > **电话号码**，选择电话数字，然后单击**分配**。
+若要分配给音频的会议桥的新电话号码：
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **业务管理中心的使用 Skype:**
+
+ 转到**Office 365 管理中心** > **管理中心** > **for Business 的 Skype** > **语音** > **电话号码**，选择电话号码，然后单击**分配**。
 
 有关详细信息，请参阅[分配到音频会议桥的新电话号码](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
 
@@ -78,6 +82,12 @@ ms.lasthandoff: 05/03/2018
 
 接下来，您要[进行音频会议自动助理语言设置](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)会议自动助理使用它们拨入电话号码的音频会议时问候呼叫者。 
 
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype for Business Admin Center:**
+
+从仪表板中，转到**会议** > **会议网桥**，选择的会议桥接电话号码，单击**编辑**，然后选择的默认语言。
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **业务管理中心的使用 Skype:**
+
 转到**Office 365 管理中心** > **管理中心** > **for Business 的 Skype** > **音频会议** > **Microsoft 网桥的设置**，选择的会议桥接电话号码，然后单击**设置语言**。
 
 ## <a name="step-6-set-your-conferencing-bridge-settings"></a>第 6 步： 设置您的会议桥
@@ -85,15 +95,27 @@ ms.lasthandoff: 05/03/2018
     
 设置您的会议桥之后, 验证的默认设置，如条目/退出通知和 PIN 长度想要使用; 的起来如果不，您可以更改它们。 
 
-您可以转到**Office 365 管理中心** > **管理中心** > **for Business 的 Skype** > **音频会议** > **Microsoft 网桥的设置**。 这将打开**Microsoft 桥设置**页。 有关详细信息，请参阅[更改现有音频会议桥的设置](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md)。
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype for Business Admin Center:**
 
-## <a name="step-7-assign-the-audio-conferencing-provider-and-dial-in-phone-numbers"></a>步骤 7： 分配音频会议提供程序和电话拨入电话号码
+从仪表板中，转到**会议** > **会议网桥** > **网桥的设置**。 这将打开**桥设置**窗格。 有关详细信息，请参阅[更改现有音频会议桥的设置](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md)。
 
-现在，您需要确保 Microsoft 分配为提供程序，且在同一时间为其设置收费和免费电话号码。
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **业务管理中心的使用 Skype:**
 
-为提供程序的 Microsoft 分配的人员在组织中领导或安排会议，转到**Office 365 管理中心** > **for Business 的 Skype** > **音频会议** > **用户**，然后选择用户从列表中，单击**编辑**。 如果您需要更多详细信息，请参阅[分配 Microsoft 作为音频会议提供商](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)。
+转到**Office 365 管理中心** > **管理中心** > **for Business 的 Skype** > **音频会议** > **Microsoft 网桥的设置**。 这将打开**Microsoft 桥设置**页。 有关详细信息，请参阅[更改现有音频会议桥的设置](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md)。
 
-在设置提供程序时，您还可以设置收费电话，并将添加到会议的免费电话号码邀请为该用户。 只需选择下拉列表中的电话号码。 有关详细信息，请参阅[设置的电话号码包含在邀请](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)。 
+## <a name="step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings"></a>步骤 7： 导致会议的用户分配电话拨入式电话号码
+
+在创建音频会议网桥后，您需要为您的用户设置收费和免费电话号码。
+
+您将需要执行此操作的人员在组织中会导致或安排会议的所有。 若要此操作：
+
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype for Business Admin Center:**
+
+从仪表板，单击**用户**，从列表中选择用户、 单击**编辑**，单击**音频会议**，旁边的**编辑**，然后在**音频会议**窗格中，选择**收费电话号码**和**的数字免费电话**的列表编号。
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **业务管理中心的使用 Skype:**
+
+转到**Office 365 管理中心** > **for Business 的 Skype** > **音频会议** > **用户**，然后从列表中选择用户并单击**编辑**。 如果您需要更多详细信息，请参阅[分配 Microsoft 作为音频会议提供商](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)。
 
 
 ## <a name="step-8-set-up-meeting-invitations-optional"></a>步骤 8： 设置会议邀请 （可选）

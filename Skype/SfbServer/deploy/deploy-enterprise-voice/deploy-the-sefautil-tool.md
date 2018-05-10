@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: 为业务 Server 部署中 Skype 的 SEFAUtil 工具。
-ms.openlocfilehash: f0bb660218b761e513e120f4ea5786eb9278b12a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 48fa0077315169e6a80e65e91d7ce9a31583cdb5
+ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business-2015"></a>在 Skype for Business 2015 中部署 SEFAUtil 工具
  
@@ -27,7 +27,7 @@ ms.lasthandoff: 05/03/2018
 部署和管理组呼叫分拣，您需要 Skype 用于业务服务器版本的 SEFAUtil 工具。 
   
 > [!IMPORTANT]
-> Microsoft 统一通信托管 API (UCMA) 3.0 核心 SDK 必须安装在您计划运行 SEFAUtil 工具的任何计算机上。 
+> 必须在打算运行 SEFAUtil 工具的任何计算机上安装 Microsoft 统一通信托管 API (UCMA) 5 运行时。 从此处下载： [Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=47344)。 您还可以下载 UCMA 5 SDK，其中包括运行时，此处： [UCMA 5.0 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=47345)。
   
 在部署中，可以在任何前端池中运行 SEFAUtil 工具。
   

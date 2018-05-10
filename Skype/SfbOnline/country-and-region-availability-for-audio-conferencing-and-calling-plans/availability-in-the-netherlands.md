@@ -1,5 +1,5 @@
 ---
-title: 在荷兰的可用性
+title: 荷兰的可用性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,25 +20,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是可用的荷兰 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
-ms.openlocfilehash: fdc36b7b66b400fae01c584ef348c57fd935f14d
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 荷兰可用的项目。
+ms.openlocfilehash: 9f48184cc28a2d5803f6354225039f12e3df0570
+ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
-# <a name="availability-in-the-netherlands"></a>在荷兰的可用性
+# <a name="availability-in-the-netherlands"></a>荷兰的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-以下是可用的荷兰 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
+以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 荷兰可用的项目。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是的针对阿姆斯特丹。 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，针对阿姆斯特丹。 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -51,12 +51,12 @@ ms.lasthandoff: 04/18/2018
 |语音邮件  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通话套餐
-
+    
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
-|通话套餐的可用分钟数  <br/> |国内 1200 分钟或国际 600 分钟（根据日历月份取先达到者）。  <br/> |
-|是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。  <br/> |
+|适用于调用计划的分钟数。 |每月有可用的四个规划选项： <ul><li>120 分钟国内调用规划 </li><li>240 分钟国内调用规划</li></li><li>3000 minute 国内调用规划 </li></li><li>国内和国际呼叫计划 600 分钟</li></li> 
+|是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
