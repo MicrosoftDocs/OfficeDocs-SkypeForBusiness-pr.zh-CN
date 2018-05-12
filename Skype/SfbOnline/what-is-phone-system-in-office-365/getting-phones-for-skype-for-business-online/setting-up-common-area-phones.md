@@ -1,6 +1,5 @@
 ---
 title: 设置公用区域电话
-description: 了解获取正确的固件，如果需要对其进行更新、 分配许可证和为公用区域电话配置设置的部署步骤。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,107 +17,129 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-- Strat_SB_PSTN
-ms.openlocfilehash: b7e3a20bc08af0900a64ceacc817bdeaffd5f326
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+description: 了解获取正确的固件，如果需要对其进行更新、 分配许可证和为公用区域电话配置设置的部署步骤。
+ms.openlocfilehash: bcf7d8eaf287af0b801168c62e7c22915f735aa2
+ms.sourcegitcommit: 6b868f683e1f2354eb42fdf33911e77b7a3a83e2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="set-up-common-area-phones"></a>设置公用区域电话
-
-公用区域电话或盖，通常放置在共享区域并不与单个用户关联。 例如，接收区域电话，门电话或会议室电话，大写设置为设备，而不是用户和自动登录到网络。 在下面的步骤中，我们将帮助您为 Microsoft 电话系统与调用计划设置帐户，然后部署帽。
+公用区域电话 （帽） 通常位于类似会议厅区域或可供很多人的另一个区域。 例如，接收区域电话，门电话或会议室电话，大写设置为设备，而不是用户和自动登录到网络。 下面的步骤中，我们将帮助您与调用计划的电话系统，以便您可以为您的组织中部署这些类型的电话的帐户设置。
 
 ## <a name="prerequisites-for-common-area-phones"></a>公用区域电话的先决条件
 
-确认您具有以下内容：
+首先需要执行的是以确认您具有以下：
 
--   - 购买公共区域电话 SKU 
--   - 更新的固件 (请参阅本主题中的支持固件：https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
--   - 批准电话 (查看处的列表：            
-        https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones)
+ - 购买公共区域电话的许可证和调用规划。
+ - 搜索和购买已批准的电话 (查看列表[此处](deploying-skype-for-business-online-phones.md))。         
+ - 更新电话上的固件 （请参阅支持固件[本主题中](getting-phones-for-skype-for-business-online.md)。  您可以通过执行此操作来检查您的电话上的固件：       
+    - **Polycom VVX 电话**： 转到**设置** > **状态** > **平台** > **应用程序** > **主**。
+    - **Yealink 电话**： 主要电话屏幕上转到**状态**。
+    - **AudioCodes 电话**： 转到**菜单** > **设备状态** > 从开始屏幕的**固件版本**。 
+    - **Lync Phone Edition (LPE) 电话**： 转到**菜单** > **系统信息**开始屏幕。
 
-## <a name="check-the-firmware-for-your-phone"></a>检查您的电话的固件
-- **Polycom VVX phones**, go to **Settings** > **Status** > **Platform** > **Application** > **Main**.
-- **Yealink 电话** ，请转到电话主屏幕上的" **状态** "。
-- **AudioCodes phones**, go to **Menu** > **Device Status** > **Firmware version** from the start screen. 
-- **Lync Phone Edition (LPE) phones**, go to **Menu** > **System Information** from the start screen.
+    固件更新由 Skype for Business 服务管理。 每个通过 Skype for Business 认证的电话固件都上传到 Skype for Business 更新服务器，并且默认情况下在所有电话上启用设备更新。 
 
-固件更新由 Skype for Business 服务管理。 每个通过 Skype for Business 认证的电话固件都上传到 Skype for Business 更新服务器，并且默认情况下在所有电话上启用设备更新。 
+    根据电话的非活动时间和轮训间隔，电话将自动下载并安装最新认证的内部版本。 您可以通过使用[Set CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy) cmdlet 并将*EnableDeviceUpdate*参数设置为禁用设备更新设置`false`。
 
-根据电话的非活动时间和轮训间隔，电话将自动下载并安装最新认证的内部版本。 您可以通过使用[Set CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) cmdlet 并将_EnableDeviceUpdate_参数设置为禁用设备更新设置`false`。
+## <a name="setting-up-a-common-area-phone"></a>设置公用区域电话
+您将需要执行以下步骤：
 
-## <a name="create-cap"></a>创建盖
-通过配置之前设置物理电话的设置创建帽。
+### <a name="set-up-your-user-account-for-the-phone"></a>设置您的电话的用户帐户
 
-#### <a name="purchase-the-common-area-phone-sku"></a>购买公共区域电话 SKU。 
-    In the Office 365 admin center, go to **Billing > Purchase Services**, and add **Common Area Phone**.
+#### <a name="step-1---buy-the-licenses"></a>步骤 1-购买许可证
+1. 在 Office 365 管理中心，转到**帐单** > **购买服务**，并将其添加**其他计划**。
 
-#### <a name="set-up-the-common-area-phone-----this-section-could-use-a-screen-shot--"></a>设置公用区域电话<!-- this section could use a screen shot-->
+    ![盖 license.png](../../images/cap-license.png)
+2. **公用区域电话**上单击 > **立即购买**> 上**立即购买****签出**页上单击。
+3. 单击以展开**加载项订阅**，然后单击上若要购买调用规划。 选择**国内调用计划**或**规划国内和国际呼叫**。
 
-**创建用户** 
-1. 分配公用区域电话 SKU
-2. 分配调用规划 （如果与调用计划使用 Microsoft 电话系统）。 
-3. 分配 Business Admin Center Skype 中可用的电话号码或请求新的电话号码。
+> [!Note]
+> 您无需电话系统许可证。 它包含使用**公用区域电话**的许可证。
 
-**创建新用户**
+许可证的详细信息，请参阅[业务和 Microsoft 团队授权加载项的 Skype](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
 
-1. 在设置窗格中，存在一个选项，输入名字和姓氏名称 (例如，接收 Main)。
-2. 输入显示名称 （必需），例如，"Main 接收。"
-3. 输入用户名 （必需），例如"MainReception"@"域"（公司或企业名称）
-4. 输入位置 （国家/地区）。
+#### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>步骤 2-创建新的用户帐户的电话和分配许可证
+1. 在 Office 365 管理中心，转到**用户** > **活动用户** > **添加用户**。
+2. 放入**用户名**类似"Main"的第一个名称和"接收"的第二个名称。
+3. 如果不是，则自动生成类似"Main 接收"将其放在一个**显示名称**。
+4. 放入类似"MainReception"或"Mainlobby"**用户名**。
+5. 为公用区域电话，您可能需要手动设置密码或您的公用区域电话的所有有相同的密码。 此外，您可能会认为取消选择**进行此更改其密码它们首次登录时的用户**信息。
 
-**分配公用区域电话 SKU**在 Office 365 管理中心，转到**帐单 > 购买服务**并将其添加**公用区域电话**
+    > [!Tip]
+    > 等待 ！ 不要单击**添加**！ 嗯，如果未单击**添加**执行这： Office 365 管理中心 >**用户** > **活动用户**，然后查找用户。 然后在用户的属性页上，单击**产品许可证**，然后单击**编辑**。 在**产品许可证**页上，打开**公用区域电话**和选取是**国内调用规划**或国内和**国际呼叫规划**。
 
-**分配呼叫帽 SKU 中的计划**
+6. 如果仍然存在，则将许可证分配给该用户。 在同一页上，单击以展开**产品许可证**。 启用以下：
+    - 公用区域电话
+    - 然后，您需要选择是**国内调用规划**或国内和**国际呼叫规划**。
+     
+    分配许可证将显示如下：
 
-1. 选择调用计划启用电话。 
-2. 添加业务 Online 计划 2 中帽 SKU 中启用电话系统和 Skype 的帽。 <!-- odd order for step -->
+    ![TurnOnCapLicense.png](../../images/cap-license-turn-on.png)
 
-**分配电话号码**
-1. 检查下可用的电话号码**语音 > 电话号码**。
-2. 从可用的电话号码的号码列表中选择一个号码。
-3. 确认您的选择通过选择**语音**和**电话号码**。
+    > [!Note]
+    > 只要您知道，业务计划 2 的 Skype 随**公用区域电话**的许可证。
 
-    >[!NOTE]
-    语音用户仅显示是否他们所应用，电话系统许可，尽管甚至应用后，可能需要刷新的时间。 当时重新 Skype 打开业务管理中心帮助。
-    
-## <a name="configure-phone"></a>配置电话
+有关详细信息，请参阅[添加用户](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec)。
 
-**准备物理电话**
+#### <a name="step-3---assign-a-phone-number-to-the-user"></a>步骤 3-向用户分配电话号码
+![sfb-徽标-30x30.png](../../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+1. 在 Office 365 管理中心 >**管理中心** > **for Business 的 Skype**。
+2. 在**业务管理中心的 Skype** >  **语音** > **电话号码**。
+3. 从的电话号码列表中选择一个号码，然后单击**分配**。
+4. 在**分配**页上，在**语音用户**框中输入用于电话然后选择下拉列表中**选择一个语音用户**的用户的用户的名称。 
+5. 您有时将需要添加紧急地址。 一旦您搜索，查找下**选择紧急地址**选取适合您。
+6. 单击**保存**和您的用户应如下所示：
 
-选的电话需要有公用区域电话模式。 
+    ![盖-用户 number.png](../../images/cap-user-number.png)
 
-***示例 Polycom VVX 电话***
+   > [!Note]
+   > 用户将仅显示它们是否能应用的**电话系统**许可。 如果您刚这，然后有时计有点显示在列表中的用户。
 
-通过执行以下步骤为 Polycom VVX 启用公共区域电话模式：
-1. 在浏览器中，使用 web 界面启用 VVX 帽模式
-2. 转至**设置**业务设置选项 Skype 中，选择**公用区域电话**。
-3. 单击**是**以保存您的配置设置。
+更多的东西，请参阅[为用户获取电话号码](../../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)。
 
-既然帽电话模式已启用，则设置使用电话的显示电话。 显示应显示"启用 CaAP。"
+如果您想知道，您还可使您的电话号码与另一个运营商和"*端口*"或其转移到 Office 365。 请参阅[传输到 Office 365 的电话号码](../../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md)。
 
-1. 单击**设置**。
-2. 选择**高级**。
-3. 输入密码。
-4. 在管理设置中，选择**公共区域电话设置**。
-5. 启用**上限**和**帽管理员模式**。
-6. 单击**保存配置**。
+## <a name="step-4---setting-up-your-phone"></a>步骤 4-设置您的电话
 
-您的电话登录在主屏幕上时将创建以下情况下已准备好进行设置。
+**在电话上设置模式**
 
-1. 通过选择**设置**登录 > **功能** > **for Business 的 Skype。**
-2. 选择**用户凭据**，然后选择**web 登录助手 （帽）**生成代码正在
-3. 转到设置门户网站位于http://aka.ms/skypecap，并以**管理员身份**登录。
-4. 输入显示名称 （例如，Main 接收） 以查看您帽。
+电话或电话必须必须打开公用区域电话模式。 您可能想要检查的以确保这些操作。 
 
->[!NOTE]
-如果"为公用区域电话的搜索"被选中，清除该复选框，并再次进行搜索。
+**下面是一个有关如何设置 Polycom VVX 电话示例**
 
-5. 在配对的代码窗口中，输入电话上显示的代码，并单击**设置**。
+- 通过执行以下步骤为 Polycom VVX 启用公用区域电话模式：
+    1. 在浏览器中，连接到的 web 接口，以便您可以启用帽模式。
+    2. 然后转至**设置****业务设置 Skype**选项中，选择**公用区域电话**。
+    3. 单击**是**以保存您的设置。
 
-以下此最后一步，电话应自动登录。
+- 既然帽模式已启用，则设置使用电话的显示电话。 显示应显示**CaAP 已启用**。 然后执行以下操作：
 
-了解有关在[部署的 Skype Online 业务电话的](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones)可用电话。
+    1. 单击**设置**。
+    2. 选择**高级**。
+    3. 输入密码。
+    4. 在**管理设置**中，选择**公共区域电话设置**。
+    5. 启用**上限**和**帽管理员模式**。
+    6. 单击**保存配置**。
+
+- 确定，现在您的电话已准备以便您可以在主屏幕上登录。
+
+    1. 通过选择**设置**登录 > **功能** > **for Business 的 Skype。**
+    2. 选择**用户凭据**，然后选择**web 登录助手 （帽）**生成代码。
+    3. 转到[设置门户](http://aka.ms/skypecap)，并以**管理员**身份登录。
+    4. 输入显示名称 （例如，Main 接收）。
+
+       > [!Note]
+       > 如果选中**为公用区域电话的搜索**，则清除该复选框，并再次进行搜索。
+
+    5. 在配对的代码窗口中，输入电话上显示的代码，并单击**设置**。
+
+        以下此最后一步，电话应自动登录。
+
+### <a name="related-topics"></a>相关主题
+
+- 了解有关在[部署的 Skype Online 业务电话的](deploying-skype-for-business-online-phones.md)可用电话。
+- [获取适用于 Skype for Business Online 的电话](getting-phones-for-skype-for-business-online.md)
 
 

@@ -77,6 +77,7 @@
 ### [创建电话系统呼叫队列](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [获取适用于 Skype for Business Online 的电话](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [部署 Skype for Business Online 电话](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
+###[设置 up 公共区域电话 （帽）](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [电话系统的功能](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### 电话系统语音邮件
