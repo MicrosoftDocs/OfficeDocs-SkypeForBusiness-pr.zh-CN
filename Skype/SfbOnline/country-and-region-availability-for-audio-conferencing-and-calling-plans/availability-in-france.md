@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 法国可用的项目。
-ms.openlocfilehash: 27b20b58acd55329be1fc748b980d19ff2d8ce28
-ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
+ms.openlocfilehash: d9149fdf8f2c220526164b2f3244359ab60dda8b
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="availability-in-france"></a>在法国的可用性
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/09/2018
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，针对巴黎。 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，为：<br/><ul><li> 巴黎</ul> 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -62,7 +62,7 @@ ms.lasthandoff: 05/09/2018
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> | 昂热 <br/>  波尔多 <br/>  卡尔卡松尼 <br/>  第戎 <br/>  格勒诺布尔 <br/>  勒阿弗尔 <br/>  里尔 <br/>  里昂 <br/>  马赛 <br/>  蒙彼利埃 <br/>  南特 <br/>  尼斯 <br/>  巴黎 <br/>  兰斯 <br/>  雷恩 <br/>  圣艾蒂安 <br/>  斯特拉斯堡 <br/>  土伦 <br/>  图卢兹 <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>昂热 <li>  波尔多 <li>  卡尔卡松尼 <li>  第戎 <li>  格勒诺布尔 <li>  勒阿弗尔 <li>  里尔 <li>  里昂 <li>  马赛 <li>  蒙彼利埃 <li>  南特 <li>  尼斯 <li>  巴黎 <li>  兰斯 <li>  雷恩 <li>  圣艾蒂安 <li>  斯特拉斯堡 <li>  土伦 <li>  图卢兹 </ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

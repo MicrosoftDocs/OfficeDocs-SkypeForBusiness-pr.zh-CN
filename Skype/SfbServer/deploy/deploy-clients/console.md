@@ -12,11 +12,11 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置 Skype 会议室系统 v2 控制台设备及其外围设备。
-ms.openlocfilehash: b9b786de35af63202b168b0664440d28302492e5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b82343f98304b0607bb3525b508aecf81e80a031
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>配置 Skype 会议室系统 v2 控制台
  
@@ -49,7 +49,7 @@ Surface Pro 4 或 Surface Pro 上安装 Skype 会议室系统 v2 应用程序需
 > 与 Windows 10 企业周年日更新将移至通过 Windows 应用商店的 Skype 会议室系统 v2 更新 3 现有 Skype 会议室系统 v2，但应该执行全新安装，如下所述。 
   
 1. 下载[为 KB4056892 MSU](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)。
-2. 下载[CreateSrsMedia.ps1 脚本](https://go.microsoft.com/fwlink/?linkid=867842)。
+2. 下载[CreateSrsMedia.ps1 脚本](room-systems-v2-scripts.md)。
 3. 将为 KB4056892 MSU CreateSrsMedia.ps1 脚本相同的目录。
 4. Windows 10 计算机上从提升提示符处运行 CreateSrsMedia.ps1 脚本。
 
@@ -164,7 +164,7 @@ Skype 会议室系统 v2 设备都需要信任由 Skype 用于连接到的业务
 
 1. 将 CA 证书下载到你的计算机，并将其保存到“C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer”。
     
-2. 曲面 4 置于管理员模式 （请参阅[管理模式和设备管理](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)）。
+2. 曲面 4 置于管理员模式 （请参阅[管理模式和设备管理](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)）。
     
 3. 运行以下命令：
     
@@ -175,11 +175,11 @@ Skype 会议室系统 v2 设备都需要信任由 Skype 用于连接到的业务
 ### <a name="join-an-active-directory-domain-optional"></a>加入 Active Directory 域（可选）
 <a name="Certs"> </a>
 
-Skype 会议室系统 v2 设备可以加入您的域。 应将 Skype 会议室系统 v2 设备放入从 PC 工作站单独的 OU，因为多个工作站策略不与 Skype 会议室系统 v2 兼容。 常见的示例是将阻止自动启动 Skype 会议室系统 v2 的密码实施策略。 有关管理 GPO 设置的信息，请参阅[管理 Skype 会议室系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)。 
+Skype 会议室系统 v2 设备可以加入您的域。 应将 Skype 会议室系统 v2 设备放入从 PC 工作站单独的 OU，因为多个工作站策略不与 Skype 会议室系统 v2 兼容。 常见的示例是将阻止自动启动 Skype 会议室系统 v2 的密码实施策略。 有关管理 GPO 设置的信息，请参阅[管理 Skype 会议室系统 v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md)。 
   
 ### <a name="to-join-skype-room-system-v2-to-a-domain"></a>将 Skype 会议室系统 v2 加入域
 
-1. 登录到控制台从管理员帐户 （请参阅[管理模式和设备管理](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)）。
+1. 登录到控制台从管理员帐户 （请参阅[管理模式和设备管理](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)）。
     
 2. 启动提升的 Powershell 命令提示符。
     

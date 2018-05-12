@@ -1,5 +1,5 @@
 ---
-title: 使用 Skype 的空间系统 v2 恢复工具
+title: 使用 Skype 会议室系统 v2 恢复工具
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,54 +8,53 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
-description: 本文讨论如何使用恢复工具 Skype 的空间系统 v2，用来将已过期的系统引入到受支持的状态。
-ms.openlocfilehash: 7c7a6188ec1cbd1153c09b768e81789fcffd266e
-ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
+description: 本文讨论如何使用 Skype 会议室系统 v2，您将用于将过期系统导入支持状态恢复工具。
+ms.openlocfilehash: fd71fc189b7471e4e315b6602014a967be09f9c0
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 05/11/2018
 ---
-# <a name="use-the-skype-room-systems-v2-recovery-tool"></a>使用 Skype 的空间系统 v2 恢复工具
+# <a name="use-the-skype-room-systems-v2-recovery-tool"></a>使用 Skype 会议室系统 v2 恢复工具
  
-本文讨论如何使用恢复工具 Skype 的空间系统 v2，用来将已过期的系统引入到受支持的状态。 当 Skype 的空间系统 v2 控制台显示"系统配置已过期"错误，您将使用此工具。
+本文讨论如何使用 Skype 会议室系统 v2，您将用于将过期系统导入支持状态恢复工具。 Skype 会议室系统 v2 控制台将显示"系统配置过期"错误时，应使用此工具。
   
 
 <a name="Prerequisites"> </a>  
 ## <a name="prerequisites"></a>先决条件
 
-将最新的[Skype 的空间系统 v2 安装包](https://go.microsoft.com/fwlink/?linkid=851168)下载并解压缩到 USB 内存棒或网络可访问的共享到 Skype 的空间系统 v2 设备。
+下载最新的[Skype 会议室系统 v2 安装包](https://go.microsoft.com/fwlink/?linkid=851168)，并将其提取到某个 USB 内存继续有效或网络共享访问 Skype 会议室系统 v2 设备。
 
 您可能还需要安装[KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)。
 
 <a name="Windows-ver"> </a>
 ## <a name="verify-windows-version"></a>验证 Windows 版本 
 
-1. 登录到管理员帐户转到**设置 > Windows 设置 > 管理登录**从 Skype 的空间系统 v2 设备。 此选项将带您到登录屏幕。
-2. 登录到管理员帐户，默认管理员帐户被`admin`密码`sfb`。
-3. 单击开始菜单和类型`winver.exe`到搜索框中，单击 * 结果上的*运行命令*。
-4. 在版本的第二行上的信息窗格后请记数。
+1. 转到的管理员帐户登录**设置 > Windows 设置 > 管理员登录**从 Skype 会议室系统 v2 设备。 此选项将您带到登录屏幕。
+2. 登录到一个管理帐户，默认管理员帐户进行`admin`使用密码`sfb`。
+3. 单击开始菜单和类型`winver.exe`到搜索框和单击 **运行命令*的结果。
+4. 记数后版本第二条直线上的信息窗格。
 
 >[!NOTE]
->如果显示的版本是 1607年或更早版本，<a href="#Perform">执行恢复</a>的步骤按照前进行<a href="#Windows-up">更新 Windows 在恢复之前</a>步骤中的步骤。 如果大于 1607年版本显示，请按照只<a href="#Perform">执行一次恢复</a>。
+>如果显示的版本为 1607年或更早版本，向<a href="#Perform">执行恢复</a>步骤按照之前进行的<a href="#Windows-up">更新 Windows 恢复之前</a>步骤中的步骤。 如果显示的版本大于 1607年，请按照仅<a href="#Perform">执行恢复</a>中的步骤。
 
 <a name="Windows-up"> </a>
 ## <a name="update-windows-before-recovery-if-needed"></a>在恢复之前更新 Windows （如果需要）
 
-1. 虽然仍以管理员用户身份登录，则启动提升的 Powershell 提示符。
+1. 仍在登录为管理员用户，启动一个提升的 Powershell 提示符。
 2. 运行命令`Remove-Item -Path 'c:\Recovery\OEM\$oem$\$1\Rigel' -Force -Recurse`。
-3. 运行 Windows 更新并为 Windows 1709 安装更新。
-4. 为 1709年更新后完成登录回管理员帐户，并安装[KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)。 此更新可以从链接或使用 Windows 更新。
-5. 一个可选的步骤，从 Windows Update 安装其他所有可用的更新。
+3. 运行 Windows 更新并安装 Windows 1709 的更新。
+4. 1709 到更新后完成登录回管理员帐户，并安装[KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)。 更新可能完成从链接或使用 Windows Update。
+5. 作为一个可选步骤，安装 Windows Update 提供任何其他更新。
 
 <a name="Perform"> </a>
 ## <a name="perform-a-recovery"></a>执行恢复
 
-1. 登录到管理员帐户上 Skype 的空间系统 v2 设备，并启动提升的命令提示符。
-2. 从 Skype 的空间系统 v2 设备验证您是否可以访问`RecoveryTool.ps1`文件，其中包括在从 Skype 的空间系统 v2 安装程序包中提取文件。 工具包可以位于网络共享或准备系统必备组件时使用的 USB 驱动器。
+1. 登录到 Skype 会议室系统 v2 设备上的管理帐户并启动提升的命令提示符。
+2. 从 Skype 会议室系统 v2 设备验证您是否能够访问`RecoveryTool.ps1`文件，其中包含在从 Skype 会议室系统 v2 安装程序包中提取的文件。 可以使用准备先决条件时的 USB 驱动器或网络共享上找到工具包。
 3. 运行 Powershell.exe 命令`-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`。
-4. 当提示您的脚本选择选项`1:"Repair System"`。
-5. 完成后，重新启动 Skype 的空间系统 v2 设备。 它会自动再次重新引导，并提出完全恢复第二次。
+4. 当提示您的选择脚本选项`1:"Repair System"`。
+5. 完成后，重新启动 Skype 会议室系统 v2 设备。 它将重新自动重新启动，并提出完全恢复第二次。
 
 
 
@@ -64,6 +63,7 @@ ms.lasthandoff: 04/20/2018
 
 
 #### 
+[Skype 会议室系统版本 2 帮助](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Skype 的机房管理系统 v2](skype-room-systems-v2.md)
+[管理 Skype 会议室系统 v2](skype-room-systems-v2.md)
 #### 

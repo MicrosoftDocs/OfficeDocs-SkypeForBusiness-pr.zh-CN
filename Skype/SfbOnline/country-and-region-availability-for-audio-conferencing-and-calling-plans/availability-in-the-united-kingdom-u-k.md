@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于英国业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 51509ecbd2f1944cb8f0406efab557756536bbcf
-ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
+ms.openlocfilehash: fd81f016ede49843a1f2ae8b431514d07ba55c5f
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>英国 （英国） 中的可用性
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/09/2018
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，针对 London。 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，为： <br/><ul><li> 伦敦</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -62,7 +62,7 @@ ms.lasthandoff: 05/09/2018
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> | 伯明翰 <br/>  博尔顿 <br/>  博内茅斯 <br/>  布拉德福 <br/>  布赖顿 <br/>  布里斯托尔 <br/>  考文垂 <br/>  赫尔 <br/>  利兹 <br/>  莱斯特 <br/>  利物浦 <br/>  伦敦 <br/>  曼彻斯特 <br/>  纽卡斯尔 <br/>  诺丁汉 <br/>  普利茅斯 <br/>  谢菲尔德 <br/>  斯托克 <br/>  蒂赛德（米德尔斯布勒） <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>伯明翰 <li>  博尔顿 <li>  博内茅斯 <li>  布拉德福 <li>  布赖顿 <li>  布里斯托尔 <li>  考文垂 <li>  赫尔 <li>  利兹 <li>  莱斯特 <li>  利物浦 <li>  伦敦 <li>  曼彻斯特 <li>  纽卡斯尔 <li>  诺丁汉 <li>  普利茅斯 <li>  谢菲尔德 <li>  斯托克 <li>  蒂赛德（米德尔斯布勒） </ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

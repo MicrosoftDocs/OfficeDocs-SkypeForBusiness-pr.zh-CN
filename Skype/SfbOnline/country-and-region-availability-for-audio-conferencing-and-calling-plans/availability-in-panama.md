@@ -1,5 +1,5 @@
 ---
-title: 在巴拿马的可用性
+title: 巴拿马中的可用性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,25 +20,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是可用的巴拿马 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
-ms.openlocfilehash: 6f9840b4e3414d3c1ec861c6094047d97b4a56e2
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 下面是可用于巴拿马业务和 Microsoft 团队的 Skype 的 Office 365 服务。
+ms.openlocfilehash: b8871587e416b84355037ed40a64535d2966fcb1
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
 ---
-# <a name="availability-in-panama"></a>在巴拿马的可用性
+# <a name="availability-in-panama"></a>巴拿马中的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-以下是可用的巴拿马 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
+下面是可用于巴拿马业务和 Microsoft 团队的 Skype 的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是的针对巴拿马城市。 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，为：<br/><ul><li> 巴拿马城</ul> 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |不可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统

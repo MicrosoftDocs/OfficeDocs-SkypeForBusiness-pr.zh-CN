@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 本文列出了在加拿大可用的适用于 Skype for Business 和 Microsoft Teams 的 Office 365 服务。
-ms.openlocfilehash: e79b8960366881ae4f5e6d2205cd5b935b468b08
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: ecb8310f6440698ba8cd367d6128cde5b643b088
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="availability-in-canada"></a>在加拿大的可用性
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/08/2018
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是的，在多伦多。 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，为：<br/><ul><li> 多伦多</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -64,7 +64,7 @@ ms.lasthandoff: 05/08/2018
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> | 卡尔加里 <br/>  蒙特利尔 <br/>  多伦多 <br/>  温哥华 <br/>  温尼伯 <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>卡尔加里 <li>  蒙特利尔 <li>  多伦多 <li>  温哥华 <li>  温尼伯 </ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

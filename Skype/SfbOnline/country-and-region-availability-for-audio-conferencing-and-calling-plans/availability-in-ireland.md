@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于爱尔兰业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 65c7ffe5a1d6a20abfd0473490b2c749295a9b48
-ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
+ms.openlocfilehash: 1445895530403fcf3f38cfa787faa4df7e1dfdb2
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="availability-in-ireland"></a>在爱尔兰的可用性
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/09/2018
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，针对都柏林。 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，为：<br/><ul><li> 都柏林</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统

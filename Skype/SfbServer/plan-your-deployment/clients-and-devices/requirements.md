@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: 本文汇总了支持 Skype 会议室系统 v2 的要求。
-ms.openlocfilehash: 0fb1fbcde28c343787967485dd6cae36491311b7
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: b1216989dd5ac18f8cd4b4f97e7be975ca7289d7
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype 会议室系统 v2 要求
  
@@ -28,35 +28,37 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
   
 - 32 GB 或更大的 USB 磁盘将 Windows 10 enterprise 配置为可引导的 Windows 安装介质。 
     
-- 下面的平板电脑之一：
+- 下面的平板电脑或控制台之一：
     
 **支持的平板电脑**
-
-
-|**平板电脑**|**处理器**|**RAM**|**磁盘**|
+|平板电脑|处理器|RAM|磁盘|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4 和 sup1;  <br/> |核心 i5  <br/> |4 GB  <br/> |128 GB  <br/> |
-|Surface Pro 4 和 sup1;  <br/> |核心 i5  <br/> |8 GB  <br/> |256 GB  <br/> |
-|Surface Pro = sup1; <br/> |核心 i5  <br/> |4 GB  <br/> |128 GB  <br/> |
-|Surface Pro = sup1; <br/> |核心 i5  <br/> |8 GB  <br/> |256 GB  <br/> |
-|Surface Pro = sup1; <br/> |核心 i7  <br/> |8 GB  <br/> |128 GB  <br/> |
-|Surface Pro = sup1; <br/> |核心 i7  <br/> |16 GB  <br/> |512 GB  <br/> |
-|Surface Pro = sup1; <br/> |核心 i7  <br/> |16 GB  <br/> |1 TB  <br/> |
+|Surface Pro 4    |核心 i5  |4 GB  |128 GB  |
+|Surface Pro 4    |核心 i5  |8 GB  |256 GB  |    
+|Surface Pro (2017)  |核心 i5  |4 GB  |128 GB  |
+|Surface Pro (2017)  |核心 i5  |8 GB  |256 GB  |
+|Surface Pro (2017)  |核心 i7  |8 GB  |128 GB  |
+|Surface Pro (2017)  |核心 i7  |16 GB  |512 GB  |
+|Surface Pro (2017) |核心 i7  |16 GB  |1 TB  |
    
-& sup1;— 此模型不支持核心 M3 处理器。
+> [!NOTE]
+> 核心 M3 处理器不受支持。
+
+**支持的控制台**
+|控制台|处理器|RAM|磁盘|
+|:-----|:-----|:-----|:-----|
+|[联想集线器 500](https://www3.lenovo.com/us/en/hub500) |核心 i5  |8 GB  |128 GB  |  
+ <!-- HP dock is still pending  -->  
     
- 
+- 以下的停靠站选项，以确保以安全会议平板电脑之一会议室表。 
     
-- 以下的停靠站选项，以确保以安全会议 tablet 之一会议室表。 
-    
-  - [Logitech SmartDock](https://www.logitech.com/en-us/product/smartdock)
+  - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
     
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
     
   - [Polycom MSR 系列](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
-  - [联想集线器 500](https://www3.lenovo.com/us/en/hub500)  
-<!-- HP dock is still pending  -->  
+
  
 **认证的 USB 音频和视频外围设备的固件版本**
 |**Skype 会议室系统 v2 外围设备**|**Skype 会议室系统 v2 认证的固件版本**|
@@ -133,7 +135,7 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
     
 这些下载需要以特定方式合并为可引导的 Windows 安装媒体磁盘中所述进一步[配置的 Skype 会议室系统 v2 控制台](../../deploy/deploy-clients/console.md)。 
   
-此外，您可能需要一份用于设置 Skype 会议室系统 v2 帐户的[Powershell 脚本](https://go.microsoft.com/fwlink/?linkid=870105)。
+此外，您可能需要一份[SkypeRoomProvisioningScript.ps1](../../deploy/deploy-clients/room-systems-v2-scripts.md)，用于设置 Skype 会议室系统 v2 帐户。
   
 ## <a name="see-also"></a>另请参阅
 

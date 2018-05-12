@@ -20,25 +20,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 此处为新西兰提供了 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
-ms.openlocfilehash: f817dcdf3527f91ee27fef14a191f1feb4834081
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 下面是可用于新西兰业务和 Microsoft 团队的 Skype 的 Office 365 服务。
+ms.openlocfilehash: 21a8587275ad88027aa3afb3821fe59db1ca6397
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="availability-in-new-zealand"></a>新西兰的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-此处为新西兰提供了 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
+下面是可用于新西兰业务和 Microsoft 团队的 Skype 的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是的惠灵顿的。 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，为：<br/><ul><li> 惠灵顿</ul> 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -62,7 +62,7 @@ ms.lasthandoff: 04/18/2018
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> | 奥克兰 <br/>  克赖斯特彻奇 <br/>  达尼丁 <br/>  哈密尔顿 <br/>  惠灵顿 <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>奥克兰 <li>  克赖斯特彻奇 <li>  达尼丁 <li>  哈密尔顿 <li>  惠灵顿 </ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

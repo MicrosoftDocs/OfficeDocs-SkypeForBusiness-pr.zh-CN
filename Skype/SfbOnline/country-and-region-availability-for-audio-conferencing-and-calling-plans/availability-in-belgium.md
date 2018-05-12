@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 比利时可用的项目。
-ms.openlocfilehash: 6bb8f95f8ce3e1957076bd4900c0362d6c97b73c
-ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
+ms.openlocfilehash: d13461ca83362b056dca0eab9e58c2c9b1f77810
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="availability-in-belgium"></a>比利时的可用性
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/09/2018
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，针对布鲁塞尔。 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，为：<br/><ul><li> 布鲁塞尔</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -62,7 +62,7 @@ ms.lasthandoff: 05/09/2018
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> | 布鲁日 <br/>  布鲁塞尔 <br/>  沙勒洛 <br/>  根特 <br/>  列日 <br/>  纳慕尔 <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>布鲁日<li>  布鲁塞尔 <li>沙勒洛 <li>  根特 <li>  列日 <li>  纳慕尔 </ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

@@ -13,11 +13,11 @@ ms.audience: Admin
 appliesto: Skype for Business
 localization_priority: Normal
 ms.custom: Use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 9a9ff446d7b95588f1d9c2460db1284de717e557
-ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.openlocfilehash: 7a9d9637973f18e5322e1c39d38627b0883f2c9f
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2018
+ms.lasthandoff: 05/11/2018
 ---
  # <a name="block-inbound-calls"></a>阻止入站的呼叫
 
@@ -27,7 +27,8 @@ ms.lasthandoff: 05/10/2018
 
 此功能尚不可用的直接路由。
 
->[注意]阻止呼叫者可能会遇到略有不同行为时其已被阻止。 将基于行为阻止呼叫者的运营商如何处理呼叫不允许成功完成的通知。 示例可能包括运营商消息指出拨出，无法完成呼叫或放呼叫。
+>[!NOTE]
+ 阻止呼叫者可能会遇到略有不同行为时其已被阻止。 将基于行为阻止呼叫者的运营商如何处理呼叫不允许成功完成的通知。 示例可能包括运营商消息指出拨出，无法完成呼叫或放呼叫。
 
 ## <a name="call-blocking-admin-controls-and-information"></a>阻止管理控件和信息的呼叫
 仅使用 PowerShell 提供管理阻止的号码的控件。 号码块模式定义为正则表达式模式。 表达式的顺序并不重要 – 在列表中匹配的第一个模式将导致呼叫被阻止。 新的数字或模式添加或删除被阻止呼叫者列表可能需要多达 24 小时到要变为活动状态的模式。

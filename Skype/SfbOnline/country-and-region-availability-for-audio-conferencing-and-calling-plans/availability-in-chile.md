@@ -1,5 +1,5 @@
 ---
-title: 在智利的可用性
+title: 智利中的可用性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,25 +20,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 此处为智利提供了 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
-ms.openlocfilehash: 87fb67e88057a37b5d624e4e8041a7819a93d13f
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 下面是可用于智利业务和 Microsoft 团队的 Skype 的 Office 365 服务。
+ms.openlocfilehash: 4c7b9305c1a3fc6d77e84e4b5538bce2a950118f
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
 ---
-# <a name="availability-in-chile"></a>在智利的可用性
+# <a name="availability-in-chile"></a>智利中的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-此处为智利提供了 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
+下面是可用于智利业务和 Microsoft 团队的 Skype 的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是的为圣地亚哥 （仅适用于组织内智利）。 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，为：<br/><ul><li> （仅适用于组织内智利） 圣地亚哥</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |不可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -62,8 +62,8 @@ ms.lasthandoff: 04/18/2018
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |圣地亚哥  <br/> > [!注释]> 仅供位于智利的组织使用。           |
-|是否提供收费电话号码？  <br/> |是  <br/> > [!注释]> 仅供位于智利的组织使用。           |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |圣地亚哥  <br/> **注意：**仅适用于组织内智利。           |
+|是否提供收费电话号码？  <br/> |是  <br/> **注意：**仅适用于组织内智利。           |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。

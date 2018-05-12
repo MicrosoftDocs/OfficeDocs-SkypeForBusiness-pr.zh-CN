@@ -1,5 +1,5 @@
 ---
-title: 在斯洛伐克的可用性
+title: 斯洛伐克中的可用性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,25 +20,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是可用的斯洛伐克 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
-ms.openlocfilehash: fb6f8b984ea8195f58ee58063241ca60e602a02b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 斯洛伐克可用的项目。
+ms.openlocfilehash: 1c37481d254425c4d054191ad9508824d425107d
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
 ---
-# <a name="availability-in-slovakia"></a>在斯洛伐克的可用性
+# <a name="availability-in-slovakia"></a>斯洛伐克中的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-以下是可用的斯洛伐克 Skype 业务和 Microsoft 小组的 Office 365 提供服务。
+以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 斯洛伐克可用的项目。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是的针对 Bratislava。 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，为： <br/><ul><li> 布拉迪斯拉发</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -62,7 +62,7 @@ ms.lasthandoff: 04/18/2018
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> | 布拉迪斯拉发 <br/>  科希策 <br/>  尼特拉 <br/>  普雷绍夫 <br/>  日利纳 <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>布拉迪斯拉发 <li>  科希策 <li>  尼特拉 <li>  普雷绍夫 <li>  日利纳 </ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    
