@@ -1,5 +1,5 @@
 ---
-title: 代码的做法的大不列颠及北爱尔兰联合王国 （英国）
+title: 代码的实践的英国 （英国）
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,15 +19,15 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: 99a416cbbbd91e9af894f5d981836485491146f1
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: ea932232e889a91966c6f6e6a9d040976188332d
+ms.sourcegitcommit: c63e7a8a746d427a1c886e8dca4d631c851e417c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/14/2018
 ---
-# <a name="code-of-practice-for-the-united-kingdom-uk"></a>代码的做法的大不列颠及北爱尔兰联合王国 （英国）
+# <a name="code-of-practice-for-the-united-kingdom-uk"></a>代码的实践的英国 （英国）
 
-本守则适用于在大不列颠及北爱尔兰联合王国 （英国） Office 365 调用计划服务 （"服务"） 根据英国通信管理法规方面的小型企业客户 （组织与 10 个员工，或更少）。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
+此代码适用于小型企业客户 （组织 10 名员工或更少） 在英国 （英国） 与 Office 365 调用规划服务 （"服务"） 按照英国 communications 法规。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
   
 ## <a name="1-about-skype-for-business"></a>1 关于 Skype for Business
 
@@ -47,7 +47,7 @@ Skype for Business 在英国由 Microsoft Ireland Operations Limited 提供，�
   
 ## <a name="3-complaints-and-dispute-resolution"></a>3 投诉和争议解决
 
-获得客户满意和提供卓越服务是我们的首要任务。 但是，如果你有投诉，我们将快速响应并帮助你解决问题。 我们[调用中 Office 365 的投诉处理代码为大不列颠及北爱尔兰联合王国 （英国） 计划](code-of-practice-for-the-united-kingdom-u-k.md)网页，详细介绍了小型企业能够与我们以及我们独立的争议解析方案与投诉的过程。
+获得客户满意和提供卓越服务是我们的首要任务。 但是，如果你有投诉，我们将快速响应并帮助你解决问题。 我们[调用计划在 Office 365-投诉处理代码的英国 （英国） 中](code-of-practice-for-the-united-kingdom-u-k.md)的页面详细介绍的过程适用于小型企业与我们我们独立争议解析方案文件的投诉。
   
 ## <a name="4-number-porting"></a>4 携号转网
 
@@ -55,13 +55,13 @@ Skype for Business 在英国由 Microsoft Ireland Operations Limited 提供，�
   
 ## <a name="5-service-reliability"></a>5 服务可靠性
 
-Office 365 调用计划依赖于您的宽带连接。 如果宽带连接断电或出现故障，将无法拨打电话。 导致这些故障的原因是我们无法控制的。
+规划 office 365 调用依赖于宽带连接。 如果宽带连接断电或出现故障，将无法拨打电话。 导致这些故障的原因是我们无法控制的。
   
 ## <a name="6-emergency-calls"></a>6 紧急呼叫
 
-Skype for Business 向英格兰、威尔士、苏格兰和北爱尔兰地区的客户提供对 999/112 公共紧急呼叫服务的访问。 但是，999 或 112 紧急电话以不同的方式运行的 Office 365 调用计划服务比在传统电话服务。 客户需要通知这些不同的 Office 365 调用计划服务的每个用户。
+Skype for Business 向英格兰、威尔士、苏格兰和北爱尔兰地区的客户提供对 999/112 公共紧急呼叫服务的访问。 但是，紧急呼叫到 999 或 112 不同操作与 Office 365 调用规划服务比在传统电话服务。 客户需要通知这些差异的 Office 365 调用规划服务的每个用户。
   
-这些差异包括: (i) 为业务 Skype 可能并不了解的实际位置的调用方，可能会导致紧急服务正在 despatched 指向错误的位置;（ii） 如果业务用户的 Skype 拨打紧急电话，用户可能需要由运营商提供他或她当前的位置，以帮助正确紧急呼叫路由和 despatching 紧急服务;（iii） 如果用户的设备不能通电，遇到停电或者因为某种原因，不能访问互联网，用户不能拨打紧急通过 Office 365 调用计划服务;和 (iv) 尽管 Office 365 调用计划服务可以使用任何地方在世界上的互联网连接可用，用户不应调用 999 或外，英格兰、 威尔士、 苏格兰或北爱尔兰 112 因为可能的调用将不传送到适当的紧急服务。
+差异包括: (i) for Business 的 Skype 可能不知道呼叫者，这会导致位置错误; 正在 despatched 紧急服务的实际位置（ii） 时业务用户 Skype 拨打紧急呼叫，用户可能会要求由运营提供他或她当前的位置，以帮助进行正确将紧急呼叫路由和 despatching 紧急服务;（iii） 如果用户的设备已没有电源、 遇到停电或者出于任何原因无法访问 Internet，用户无法发出紧急呼叫通过 Office 365 调用规划服务;并且 (iv) 虽然 Office 365 调用规划服务可以使用无处不在世界其中 Internet 连接可用，用户不应调用 999 或外部英国、 威尔士、 苏格兰或北爱尔兰 112 因为呼叫可能不会路由至相应的紧急服务。
   
 每位客户应注册用户的位置并使此信息保持在最新状态下，以便向紧急服务中心提供此信息，这一点非常重要。你可以通过 Skype for Business 管理员门户在线更改位置信息。
   

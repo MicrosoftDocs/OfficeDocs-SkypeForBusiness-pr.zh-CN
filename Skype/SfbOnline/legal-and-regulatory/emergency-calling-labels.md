@@ -18,18 +18,18 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 您可以下载这些紧急调用时，您正在调用计划中使用 Office 365 的标签。
-ms.openlocfilehash: 6ca40a1520f85dbf09b7e524e4eda929084be50f
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: 您可以下载用于紧急呼叫，Office 365 中使用调用计划时这些标签。
+ms.openlocfilehash: 8236a63a2da20441afb0949e5a201750e118615f
+ms.sourcegitcommit: c63e7a8a746d427a1c886e8dca4d631c851e417c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/14/2018
 ---
-# <a name="emergency-calling-labels"></a>紧急电话标签
+# <a name="emergency-calling-labels"></a>紧急呼叫标签
 
-这些都是紧急调用 (911) 免责声明标签或贴纸的使用 Avery 5160 地址标签 （1 2 5/8 英寸），或如果您想要使用其他类型的标签可以调整。
+这些是紧急呼叫 (911) 免责声明标签或标签的用于 Avery 5160 地址标签 （1"x 2 5/8"），如果您想要使用其他类型的标签可以调整大小。
 
-[单击以下载.zip 文件紧急调用标签 (en-我们)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)。
+[单击下载紧急呼叫的标签的.zip 文件 (en-我们)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)。
 
 ## <a name="related-topics"></a>相关主题
 

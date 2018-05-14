@@ -1,5 +1,5 @@
 ---
-title: 投诉处理代码为大不列颠及北爱尔兰联合王国 （英国）
+title: 投诉处理代码的英国 （英国）
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,15 +19,15 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 0d6a5a0f71dee2c218b8f4cd477fc8379ef69b4f
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 6be6321191451fe55ec764290a8aa0db03c11417
+ms.sourcegitcommit: c63e7a8a746d427a1c886e8dca4d631c851e417c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/14/2018
 ---
-# <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>投诉处理代码为大不列颠及北爱尔兰联合王国 （英国）
+# <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>投诉处理代码的英国 （英国）
 
-本守则适用于在大不列颠及北爱尔兰联合王国 （英国） Office 365 调用计划服务 （"服务"） 根据英国通信管理法规方面的小型企业客户 （组织与 10 个员工，或更少）。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
+此代码适用于小型企业客户 （组织 10 名员工或更少） 在英国 （英国） 与 Office 365 调用规划服务 （"服务"） 按照英国 communications 法规。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
   
 ## <a name="how-to-make-a-complaint"></a>如何投诉
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 04/26/2018
   
 Skype for Business 将努力在收到投诉的七个 (7) 工作日内解决与服务相关的所有投诉。 
   
-如果您不满意，就要针对服务投诉的方式，您可能会问 Skype 业务代表处理您的投诉，通过电话或电子邮件，能够提升到投诉按服务协议。 Microsoft 会在收到投诉的七个 (7) 工作日内对投诉进行评估。
+如果您是不满意，在其中管理投诉有关该服务的方式，您可能会要求业务代表处理投诉，通过电话或电子邮件、 提升到投诉按照您的服务协议的 Skype。 Microsoft 会在收到投诉的七个 (7) 工作日内对投诉进行评估。
   
 ## <a name="alternative-dispute-resolution"></a>备选争议解决办法
 
@@ -59,7 +59,7 @@ Ombudsman Services 独立于 Microsoft，它会对投诉案情作出公正的决
   
 有关向 Ombudsman Services 提交投诉的步骤，请参阅 Ombudsman Services 的[网站](http://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809)。
   
-通过填写联系人窗体 Ombudsman 服务的网站上或通过电话、 信件或电子邮件时，可能会达到 Ombudsman 服务：
+通过填写 Ombudsman 服务的网站上的联系人窗体或通过电话、 信件或电子邮件，您可能会达到 Ombudsman 服务：
   
 - 联系表格： [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
     

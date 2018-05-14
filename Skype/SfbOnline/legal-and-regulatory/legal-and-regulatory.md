@@ -1,5 +1,5 @@
 ---
-title: 法律和管理法规
+title: 法律和法规
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,11 +17,11 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Legal
-description: '这是必须公布，以满足法规遵从性，可访问性要求的内容和 Skype 在法国在线业务的法规。 '
-ms.openlocfilehash: 498fbb07ab5d2dd6ea036e1ceeb1e5598203a8cf
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: '这是必须发布以满足辅助功能、 合规性要求的内容和法规的 Skype 在法国业务 online。 '
+ms.openlocfilehash: 7c17cd60f7ba693a182e22aeba8d160942a6bf37
+ms.sourcegitcommit: c63e7a8a746d427a1c886e8dca4d631c851e417c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/14/2018
 ---
-# <a name="legal-and-regulatory"></a>法律和管理法规
+# <a name="legal-and-regulatory"></a>法律和法规
