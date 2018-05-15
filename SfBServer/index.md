@@ -1,1 +1,0 @@
-# <a name="welcome-to-officedocs-skypeforbusinessserver"></a><span data-ttu-id="baa97-101">欢迎使用 OfficeDocs SkypeForBusinessServer ！</span><span class="sxs-lookup"><span data-stu-id="baa97-101">Welcome to OfficeDocs-SkypeForBusinessServer!</span></span>
