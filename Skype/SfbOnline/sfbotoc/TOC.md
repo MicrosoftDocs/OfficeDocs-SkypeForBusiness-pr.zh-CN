@@ -34,13 +34,12 @@
 ### [试用或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [打开或关闭会议的进入和退出通知](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 
-
-
 ## [Office 365 中的通话套餐](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [添加、更改或删除你的组织的紧急位置](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [为你的组织添加或删除紧急地址](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [为用户分配、更改或删除电话号码](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [为用户分配或更改紧急地址](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
+### [阻止传入呼叫](../what-are-calling-plans-in-office-365/block-incoming-calls.md)
 ### [通话套餐已知问题](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [更改用户的紧急地址](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [更改用户的紧急位置](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
@@ -77,6 +76,7 @@
 ### [创建电话系统呼叫队列](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [获取适用于 Skype for Business Online 的电话](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [部署 Skype for Business Online 电话](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
+#### [设置 up 公共区域电话 （帽）](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [电话系统的功能](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### 电话系统语音邮件
