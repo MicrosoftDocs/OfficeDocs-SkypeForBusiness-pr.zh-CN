@@ -17,15 +17,15 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 摘要： 阅读本主题可了解如何规划业务服务器 Skype 和 Skype 业务 online 之间的混合连接性。 设置混合连接是部署多种 Skype for Business 混合解决方案的第一步。
-ms.openlocfilehash: ef2ecb665baf5942d1ad9ee9d5175192e348a2f6
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: dbd7d2e00bf31b926ec4d54a0717c000459e8479
+ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>规划 Skype for Business Server 与 Skype for Business Online 之间的混合连接
  
-**摘要：**阅读本主题可了解如何规划 Skype for Business Server 与 Skype for Business Online 之间的混合连接。 设置混合连接是部署多种 Skype for Business 混合解决方案的第一步。
+**摘要：** 阅读本主题可了解如何规划 Skype for Business Server 与 Skype for Business Online 之间的混合连接。 设置混合连接是部署多种 Skype for Business 混合解决方案的第一步。
   
 本主题提供了概述，并描述基础结构和系统要求您需要配置混合连接之间您现有的内部部署 Skype Business Server 部署的 — 与在您的内部部署中创建的用户Active Directory — 和 Skype for Business 联机。 
   
@@ -298,10 +298,10 @@ ms.lasthandoff: 05/03/2018
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |SIP (MTLS)  <br/> |TCP  <br/> |访问边缘  <br/> |Office 365  <br/> |任何  <br/> |5061  <br/> |信号  <br/> |
 |SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |访问边缘  <br/> |任何  <br/> |5061  <br/> |信号  <br/> |
-|STUN  <br/> |TCP  <br/> |A/V 边缘  <br/> |Office 365  <br/> |50000-59999  <br/> |443，50000-59999  <br/> |为音频、视频、应用程序共享会话打开  <br/> |
-|STUN  <br/> |TCP  <br/> |Office 365  <br/> |A/V 边缘  <br/> |443  <br/> |50000-59999  <br/> |为音频、视频、应用程序共享会话打开  <br/> |
+|STUN  <br/> |TCP  <br/> |A/V 边缘  <br/> |Office 365  <br/> |50000-59999  <br/> |443  <br/> |为音频、视频、应用程序共享会话打开  <br/> |
+|STUN  <br/> |TCP  <br/> |Office 365  <br/> |A/V 边缘  <br/> |任何  <br/> |443  <br/> |为音频、视频、应用程序共享会话打开  <br/> |
 |STUN  <br/> |UDP  <br/> |A/V 边缘  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |为音频、视频会话打开  <br/> |
-|STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V 边缘  <br/> |3478  <br/> |3478  <br/> |为音频、视频会话打开  <br/> |
+|STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V 边缘  <br/> |任何  <br/> |3478  <br/> |为音频、视频会话打开  <br/> |
    
 有关端口和防火墙的边缘服务器规划的详细信息，请参阅[中的业务服务器 2015 Skype 的边缘服务器环境要求](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)。 请参阅[服务器的端口和协议要求](../plan-your-deployment/network-requirements/ports-and-protocols.md)和[协议工作负荷图表](http://go.microsoft.com/fwlink/p/?LinkId=550989)。
   
@@ -336,6 +336,6 @@ ms.lasthandoff: 05/03/2018
     
 - **客户端支持**他们会移动到 Skype 业务 online 时，某些用户可能需要新的客户端版本。 为 Office Communications Server 2007 R2，用户必须将移动到 Skype 之前迁移到 Skype 业务 online 业务服务器或 Lync Server 2013 的池。
     
-- **在本地策略和配置 （非用户）**联机和本地策略要求单独的配置。 无法设置适用于二者的全局策略。
+- **在本地策略和配置 （非用户）** 联机和本地策略要求单独的配置。 无法设置适用于二者的全局策略。
     
 

@@ -146,11 +146,12 @@
 ### [Skype for Business Online 的代理服务器](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 
 ## 使用组织中的通话质量
+### [呼叫分析和呼叫质量仪表板](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [通话质量仪表板中可用的维度和衡量指标](../using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [设置 Skype for Business 通话分析](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [启用和使用通话质量仪表板](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [使用通话分析解决通话质量不佳的问题](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [通话分析与通话质量仪表板之间的区别](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
+
 
 ## [Skype for Business Online 报告](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [活动报告](../skype-for-business-online-reporting/activity-report.md)

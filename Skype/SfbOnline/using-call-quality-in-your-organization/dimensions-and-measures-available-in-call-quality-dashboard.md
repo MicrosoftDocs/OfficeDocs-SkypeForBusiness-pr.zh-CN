@@ -1,5 +1,5 @@
 ---
-title: 维度和度量值在调用质量面板中可用
+title: 维度和度量呼叫质量仪表板中可用
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,25 +18,25 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: 86b244db777fd4b0a0a8d43e768f45432e3a4096
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 657a441f2dc3415006d0f126da876fa525a8610c
+ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
-# <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>维度和度量值在调用质量面板中可用
+# <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>维度和度量呼叫质量仪表板中可用
 
-呼叫质量仪表板 (CQD) 为 Microsoft 小组和 Skype 的在线业务允许您深入了解调用使用 Microsoft 小组和 Skype 业务服务的质量。 本主题详细介绍了 CQD 提供的维度和衡量指标。 若要了解有关 CQD 以及如何启用它的详细信息，请参阅[打开并使用 Microsoft 小组和 Skype 的在线业务呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)。
+呼叫质量仪表板 (CQD) 的 Microsoft 团队和 Skype 业务 online 使您能够获得见解进行业务服务使用的 Microsoft 团队和 Skype 的呼叫的质量。 本主题详细介绍了 CQD 提供的维度和衡量指标。 若要了解有关 CQD 以及如何启用它的详细信息，请参阅[打开和使用的 Microsoft 团队和 Skype 业务 online 呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)。
   
 ## <a name="first-and-second-endpoint-classification"></a>第一和第二终结点分类
 
 通话质量仪表板 (CQD) 中的很多维度和衡量指标被标记为第一或第二。以下逻辑用于确定将流或通话中涉及的哪些终结点标为第一。
   
-- 第一次将始终 （AV MCU、 中介服务器等） 的服务器终结点服务器涉及流调用中。
+- 首先将始终保持 （AV MCU、 中介服务器等） 中的服务器终结点如果流/呼叫中涉及的服务器。
     
 - 第二始终是指客户端终结点，除非流的两端均为服务器终结点。
     
-- 如果两个终结点具有相同的类型，其顺序是第一个与第二个取决于内部用户代理类别排序。 这样可以确保排序的一致性。
+- 如果两个端点都相同的类型，其中的顺序是第一个与第二基于用户代理类别的内部排序。 这样可以确保排序的一致性。
     
 例如，每行表示流中涉及的一对用户代理：
   
@@ -61,51 +61,51 @@ ms.lasthandoff: 04/18/2018
 |||||
 |:-----|:-----|:-----|:-----|
 |**维度名称** <br/> |**数据类型/单位** <br/> |**说明** <br/> |**值** <br/> |
-|First Network  |字符串   |当上载到门户的子网与租户建筑物映射数据中存在子网时，第一终结点用于媒体流的子网。   |空值表明子网映射数据中未定义未报告的终结点或网络的网络数据。  <br/>  **示例值：** 10.0.1.12.0  |
-|First Network Name  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点用于媒体流的子网的名称。  <br/> |空值表示终结点未报告网络数据，或网络的子网映射数据中没有定义网络名称。   <br/> **示例值：**美国 / 华盛顿 / 雷蒙德  <br/> |
+|First Network  |字符串   |当上载到门户的子网与租户建筑物映射数据中存在子网时，第一终结点用于媒体流的子网。   |空值指示网络数据不报告的终结点或网络子网映射数据中未定义。  <br/>  **示例值：** 10.0.1.12.0  |
+|First Network Name  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点用于媒体流的子网的名称。  <br/> |空值表示终结点未报告网络数据，或网络的子网映射数据中没有定义网络名称。   <br/> **示例值：** 美国 / WA / 雷德蒙德  <br/> |
 |First Network Range  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点用于媒体流的子网的网络前缀/范围。  <br/> |空值表示终结点未报告网络数据，或网络的子网映射数据中没有定义网络范围。  <br/>  **示例值：** 24 <br/> |
-|First Building Name  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点所在建筑物的名称。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义建筑物名称。  <br/> **示例值：**主  <br/> |
-|First Ownership Type  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点所在建筑物的所有权类型。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义所有权。 <br/>  **示例值：**Contoso IT  <br/> |
-|First Building Type  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点所在建筑物的类型。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义建筑物类型。   <br/> **示例值：**打开 Office  <br/> |
-|First Building Office Type  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点所在建筑物的办公类型。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义建筑物办公类型。   <br/> **示例值：**办公室  <br/> |
-|First City  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点所在的城市。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义城市。 <br/>  **示例值：**雷德蒙  <br/> |
-|First Zip Code  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点所在地的邮政编码。  <br/> |空值表示没有报告该终结点，网络的网络数据 <br/> k 不在公司网络中或网络中没有定义子网映射数据中的邮政编码。<br/> **示例值：** 98052  <br/> |
-|First Country  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点所在的国家/地区。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义国家/地区。 <br/>   **示例值：**美国  <br/> |
-|First State  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点所在的省/自治区/直辖市。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义省/自治区/直辖市。   <br/> **示例值：**华盛顿州  <br/> |
-|First Region  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点所在的地区。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义地区。  <br/>  **示例值：**北美地区  <br/> |
+|First Building Name  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点所在建筑物的名称。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义建筑物名称。  <br/> **示例值：** 主  <br/> |
+|First Ownership Type  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点所在建筑物的所有权类型。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义所有权。 <br/>  **示例值：** Contoso IT  <br/> |
+|First Building Type  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点所在建筑物的类型。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义建筑物类型。   <br/> **示例值：** 打开 Office  <br/> |
+|First Building Office Type  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点所在建筑物的办公类型。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义建筑物办公类型。   <br/> **示例值：** Office  <br/> |
+|First City  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点所在的城市。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义城市。 <br/>  **示例值：** 雷德蒙德  <br/> |
+|First Zip Code  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点所在地的邮政编码。  <br/> |空值指示不报告由终结点网络的网络数据 <br/> k 不是企业网络内部或网络没有子网映射数据中定义的邮政编码。<br/> **示例值：** 98052  <br/> |
+|First Country  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点所在的国家/地区。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义国家/地区。 <br/>   **示例值：** 美国  <br/> |
+|First State  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点所在的省/自治区/直辖市。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义省/自治区/直辖市。   <br/> **示例值：** WA  <br/> |
+|First Region  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第一终结点所在的地区。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义地区。  <br/>  **示例值：** 北美  <br/> |
 |First Express Route  <br/> |布尔值  <br/> |如果根据上载到门户的子网与租户建筑物映射数据，第一终结点用于媒体流的子网启用了快速路由，则为 True。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有设置快速路由标志。  <br/> **示例值：** ，则返回 true  <br/> |
-|Second Network  <br/> |字符串  <br/> |当上载到门户的子网与租户建筑物映射数据中存在子网时，第二终结点用于媒体流的子网。  <br/> |空值表明子网映射数据中未定义未报告的终结点或网络的网络数据。   <br/> **示例值：** 10.0.1.12.0  <br/> |
-|Second Network Name  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点用于媒体流的子网的名称。  <br/> |空值表示终结点未报告网络数据，或网络的子网映射数据中没有定义网络名称。   <br/> **示例值：**美国 / 华盛顿 / 雷蒙德  <br/> |
+|Second Network  <br/> |字符串  <br/> |当上载到门户的子网与租户建筑物映射数据中存在子网时，第二终结点用于媒体流的子网。  <br/> |空值指示网络数据不报告的终结点或网络子网映射数据中未定义。   <br/> **示例值：** 10.0.1.12.0  <br/> |
+|Second Network Name  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点用于媒体流的子网的名称。  <br/> |空值表示终结点未报告网络数据，或网络的子网映射数据中没有定义网络名称。   <br/> **示例值：** 美国 / WA / 雷德蒙德  <br/> |
 |Second Network Range  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点用于媒体流的子网的网络前缀/范围。  <br/> |空值表示终结点未报告网络数据，或网络的子网映射数据中没有定义网络范围。   <br/> **示例值：** 24  <br/> |
-|Second Building Name  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点所在建筑物的名称。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义建筑物名称。 <br/>  **示例值：**主  <br/> |
-|Second Ownership Type  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点所在建筑物的所有权类型。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义所有权。  <br/> **示例值：**Contoso-IT  <br/> |
-|Second Building Type  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点所在建筑物的类型。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义建筑物类型。 <br/>  **示例值：**打开 Office  <br/> |
-|Second Building Office Type  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点所在建筑物的办公类型。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义建筑物办公类型。   <br/> **示例值：**办公室  <br/> |
-|Second City  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点所在的城市。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义城市。  <br/>  **示例值：**雷德蒙  <br/> |
+|Second Building Name  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点所在建筑物的名称。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义建筑物名称。 <br/>  **示例值：** 主  <br/> |
+|Second Ownership Type  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点所在建筑物的所有权类型。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义所有权。  <br/> **示例值：** Contoso-IT  <br/> |
+|Second Building Type  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点所在建筑物的类型。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义建筑物类型。 <br/>  **示例值：** 打开 Office  <br/> |
+|Second Building Office Type  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点所在建筑物的办公类型。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义建筑物办公类型。   <br/> **示例值：** Office  <br/> |
+|Second City  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点所在的城市。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义城市。  <br/>  **示例值：** 雷德蒙德  <br/> |
 |Second Zip Code  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点所在地的邮政编码。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义邮政编码。  <br/> **示例值：** 98052  <br/> |
-|Second Country  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点所在的国家/地区。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义国家/地区。  <br/> **示例值：**美国  <br/> |
-|Second State  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点所在的省/自治区/直辖市。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义省/自治区/直辖市。  <br/>  **示例值：**华盛顿州  <br/> |
-|Second Region  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点所在的地区。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义地区。   <br/> **示例值：**北美地区  <br/> |
+|Second Country  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点所在的国家/地区。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义国家/地区。  <br/> **示例值：** 美国  <br/> |
+|Second State  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点所在的省/自治区/直辖市。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义省/自治区/直辖市。  <br/>  **示例值：** WA  <br/> |
+|Second Region  <br/> |字符串  <br/> |根据上载到门户的子网与租户建筑物映射数据，第二终结点所在的地区。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有定义地区。   <br/> **示例值：** 北美  <br/> |
 |Second Express Route  <br/> |布尔值  <br/> |如果根据上载到门户的子网与租户建筑物映射数据，第二终结点用于媒体流的子网启用了快速路由，则为 True。  <br/> |空值表示终结点未报告网络数据、网络不在企业网络内或网络的子网映射数据中没有设置快速路由标志。  <br/>  **示例值：** ，则返回 true  <br/> |
-|First Inside Corp  <br/> |枚举  <br/> | 根据上载到门户的子网与租户建筑物映射数据，指出第一终结点是否位于企业网络内部的子网上。默认情况下，认为终结点位于外部。 <br/>  可能的值： <br/>  内部，外部 <br/>| **示例值：**内部  <br/> |
-|Second Inside Corp  <br/> |枚举  <br/> | 根据上载到门户的子网与租户建筑物映射数据，指出第二终结点是否位于企业网络内部的子网上。默认情况下，认为终结点位于外部。 <br/>  可能的值： <br/>  内部，外部 <br/> | **示例值：**内部，外部  <br/> |
+|First Inside Corp  <br/> |枚举  <br/> | 根据上载到门户的子网与租户建筑物映射数据，指出第一终结点是否位于企业网络内部的子网上。默认情况下，认为终结点位于外部。 <br/>  可能的值： <br/>  内部，外部 <br/>| **示例值：** 内部  <br/> |
+|Second Inside Corp  <br/> |枚举  <br/> | 根据上载到门户的子网与租户建筑物映射数据，指出第二终结点是否位于企业网络内部的子网上。默认情况下，认为终结点位于外部。 <br/>  可能的值： <br/>  内部，外部 <br/> | **示例值：** 内部，外部  <br/> |
 |First Tenant Id  <br/> |字符串  <br/> |第一终结点的 Office 365 租户 ID。  <br/> |空值表示无法确定第一终结点的租户 ID。这可能意味着该终结点登录到了本地 Skype for Business Server 部署。<br/> **示例值：** 00000000-0000-0000-0000-000000000000  <br/> |
 |Second Tenant Id  <br/> |字符串  <br/> |第二终结点的 Office 365 租户 ID。  <br/> |空值表示无法确定第二终结点的租户 ID。 这可能意味着该终结点登录到了本地 Skype for Business Server 部署。  **示例值：** 00000000-0000-0000-0000-000000000000  <br/> |
 |First Pool  <br/> |字符串  <br/> |分配给第一终结点的 Skype for Business Online 池 FQDN  <br/> |空值表示无法确定第一终结点的 Skype for Business Online 池。这可能意味着该终结点登录到了本地 Skype for Business Server 部署。<br/> **示例值：** pool1.lync.com  <br/> |
 |Second Pool  <br/> |字符串  <br/> |分配给第二终结点的 Skype for Business Online 池 FQDN  <br/> |空值表示无法确定第二终结点的 Skype for Business Online 池。这可能意味着该终结点登录到了本地 Skype for Business Server 部署。<br/> **示例值：** pool1.lync.com  <br/> |
-|Is Federated  <br/> |布尔值  <br/> |如果流的两端是联盟租户，则为 True，否则为 False。  <br/> |空值表示无法确定是否为联盟流，或者没有收集某些信号数据。  <br/>  **示例值：**假  <br/> |
-|QoE Record Available  <br/> |布尔值  <br/> |如果为通话/会话提供至少一个用户体验质量报告，则为 True。很多维度和衡量指标仅在 QoE 记录可用时才可用。如果通话没有成功建立，QoE 记录将不可用。  <br/> |  **示例值：**真  <br/> |
-|CDR Record Available  <br/> |布尔值  <br/> |如果为通话/会话提供至少一个呼叫详细记录，则为 True。  <br/> |**示例值：**真 <br/> |
+|Is Federated  <br/> |布尔值  <br/> |如果流的两端是联盟租户，则为 True，否则为 False。  <br/> |空值表示无法确定是否为联盟流，或者没有收集某些信号数据。  <br/>  **示例值：** False  <br/> |
+|QoE Record Available  <br/> |布尔值  <br/> |如果为通话/会话提供至少一个用户体验质量报告，则为 True。很多维度和衡量指标仅在 QoE 记录可用时才可用。如果通话没有成功建立，QoE 记录将不可用。  <br/> |  **示例值：** True  <br/> |
+|CDR Record Available  <br/> |布尔值  <br/> |如果为通话/会话提供至少一个呼叫详细记录，则为 True。  <br/> |**示例值：** True <br/> |
 |Media Line Label  <br/> |整型  <br/> |SDP 中用于媒体行的标签。使用"媒体类型"来确定是否为视频、音频、应用共享或基于视频的屏幕共享使用标签。  <br/> |空值表示终结点未报告此数据。  <br/>  **示例值：** 0  <br/> |
-|Media Type  <br/> |字符串  <br/> |媒体的类型（视频、音频、应用共享或基于视频的屏幕共享）。  | **示例值：**音频  <br/> |
-|First Is Server  <br/> |枚举  <br/> |指示第一个终结点是如会议服务器 （AVMCU，ASMCU） 或其他媒体服务器 （中介服务器） 的服务器终结点或者是客户端终结点。 可能的值：客户端、服务器。 |  **示例值：**客户端  <br/> |
-|Second Is Server  <br/> |枚举  <br/> |指示是否第二个终结点是服务器端点，例如会议服务器 （AVMCU，ASMCU） 或其他媒体服务器 （中介服务器），或客户端终结点。 可能的值：客户端、服务器。  | **示例值：**客户端  <br/> |
-|First Is Caller  <br/> |布尔值  <br/> |如果第一个终结点为呼叫方（启动会话的建立），则为 True。 |  **示例值：**真  <br/> |
-|First Network Connection Detail  <br/> |字符串  <br/> | 第一终结点使用的网络类型。可能的值： <br/>  有线 <br/>  Wifi <br/>  MobileBB <br/>  隧道 <br/>  其他 <br/> |空值表示终结点未报告此数据。  <br/>  **示例值：**有线  <br/> |
-|Second Network Connection Detail  <br/> |字符串  <br/> | 第二终结点使用的网络类型。可能的值： <br/>  有线 <br/>  Wifi <br/>  MobileBB <br/>  隧道 <br/>  其他 <br/> |空值表示终结点未报告此数据。  <br/> **示例值：**有线  <br/> |
-|Stream Direction  <br/> |字符串  <br/> | 指示流在终结点之间的方向。可能的值： <br/>  第一到第二 <br/>  第二到第一 <br/> |空值表示没有报告可以指示流方向的数据。  <br/>  **示例值：**第二个第一  <br/> |
-|Payload Description  <br/> |字符串  <br/> |流中最后使用的编解码器的名称。  <br/> |空值表示没有数据可用。 <br/>  **示例值：**SILKWide  <br/> |
-|Audio and Video Call  <br/> |布尔值  <br/> |如果通话同时包括音频流和视频流，则为 True，否则为 False。  <br/> |空值表示没有报告可以指示流媒体类型的数据。 <br/>   **示例值：**真  <br/> |
+|Media Type  <br/> |字符串  <br/> |媒体的类型（视频、音频、应用共享或基于视频的屏幕共享）。  | **示例值：** 音频  <br/> |
+|First Is Server  <br/> |枚举  <br/> |指示是否第一个终结点是会议服务器 （AVMCU、 ASMCU） 或其他媒体服务器 （中介服务器），如服务器终结点，或者是客户端终结点。 可能的值：客户端、服务器。 |  **示例值：** 客户端  <br/> |
+|Second Is Server  <br/> |枚举  <br/> |指示是否第二个终结点是会议服务器 （AVMCU、 ASMCU） 或其他媒体服务器 （中介服务器），如服务器终结点，或者是客户端终结点。 可能的值：客户端、服务器。  | **示例值：** 客户端  <br/> |
+|First Is Caller  <br/> |布尔值  <br/> |如果第一个终结点为呼叫方（启动会话的建立），则为 True。 |  **示例值：** True  <br/> |
+|First Network Connection Detail  <br/> |字符串  <br/> | 第一终结点使用的网络类型。可能的值： <br/>  有线 <br/>  Wifi <br/>  MobileBB <br/>  隧道 <br/>  其他 <br/> |空值表示终结点未报告此数据。  <br/>  **示例值：** 有线  <br/> |
+|Second Network Connection Detail  <br/> |字符串  <br/> | 第二终结点使用的网络类型。可能的值： <br/>  有线 <br/>  Wifi <br/>  MobileBB <br/>  隧道 <br/>  其他 <br/> |空值表示终结点未报告此数据。  <br/> **示例值：** 有线  <br/> |
+|Stream Direction  <br/> |字符串  <br/> | 指示流在终结点之间的方向。可能的值： <br/>  第一到第二 <br/>  第二到第一 <br/> |空值表示没有报告可以指示流方向的数据。  <br/>  **示例值：** 第一秒  <br/> |
+|Payload Description  <br/> |字符串  <br/> |流中最后使用的编解码器的名称。  <br/> |空值表示没有数据可用。 <br/>  **示例值：** SILKWide  <br/> |
+|Audio and Video Call  <br/> |布尔值  <br/> |如果通话同时包括音频流和视频流，则为 True，否则为 False。  <br/> |空值表示没有报告可以指示流媒体类型的数据。 <br/>   **示例值：** True  <br/> |
 |Duration 5 seconds or less  <br/> |布尔值  <br/> |如果流的持续时间小于或等于 5 秒，则为 True，否则为 False。  |<br/> **示例值：** ，则返回 true  <br/> |
 |Duration 60 seconds or more  <br/> |布尔值  <br/> |如果流的持续时间大于或等于 60 秒，则为 True，否则为 False。  |**示例值：** ，则返回 true  <br/> |
 |Duration (Seconds)  <br/> |范围（秒）  <br/> |流的持续时间，以秒为单位。值按范围分组表示。 |  **示例值：** 062: [1-2)  <br/> |
@@ -118,25 +118,25 @@ ms.lasthandoff: 04/18/2018
 |Minute  <br/> |整型  <br/> |流开始的分钟时间。  | **示例值：** 30  <br/> |
 |Second  <br/> |整型  <br/> |流开始的秒钟时间。  |**示例值：** 12  <br/> |
 |Day Of Year  <br/> |整型  <br/> |流的开始日期是一年中的第几天。  | **示例值：** 32  <br/> |
-|Day Of Week  <br/> |字符串  <br/> |流的开始时间是星期几。  | **示例值：**（星期三)  <br/> |
+|Day Of Week  <br/> |字符串  <br/> |流的开始时间是星期几。  | **示例值：** 星期三  <br/> |
 |Day Number Of Week  <br/> |整型  <br/> |流的开始时间是一周的第几天。  | **示例值：** 3  <br/> |
 |Month Year  <br/> |字符串  <br/> |流开始的月份和年份。  |**示例值：** 2017年-02  <br/> |
 |Full Month  <br/> |日期时间  <br/> |流开始的完整月份。  | **示例值：** 2017年-02-01 T00:00:00  <br/> |
 |First Domain  <br/> |字符串  <br/> |使用第一终结点的用户的域。如果第一终结点是会议服务器，则为会议组织者的域。也可能是场景中使用的服务帐户的域。  <br/> |**示例值：** contoso.com  <br/> |
 |Second Domain  <br/> |字符串  <br/> |使用第二终结点的用户的域。如果第二终结点是会议服务器，则为会议组织者的域。也可能是场景中使用的服务帐户的域。  | **示例值：** contoso.com  <br/> |
-|First User Agent Category  <br/> |字符串  <br/> |第一终结点的用户代理的类别。  <br/> |空值表示当前没有映射的用户代理，如第三方用户代理。  <br/>  **示例值：**OC  <br/> |
-|Second User Agent Category  <br/> |字符串  <br/> |第二终结点的用户代理的类别。  <br/> |空值表示当前没有映射的用户代理，如第三方用户代理。 <br/>  **示例值：**OC  <br/> |
-|First User Agent  <br/> |字符串  <br/> |第一终结点的用户代理字符串。  <br/> |空值表示第一终结点未报告用户代理。 <br/>   **示例值：**UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype 业务)  <br/> |
-|Second User Agent  <br/> |字符串  <br/> |第二终结点的用户代理字符串。  <br/> |空值表示第二终结点未报告用户代理。  <br/>  **示例值：**UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype 业务)  <br/> |
+|First User Agent Category  <br/> |字符串  <br/> |第一终结点的用户代理的类别。  <br/> |空值表示当前没有映射的用户代理，如第三方用户代理。  <br/>  **示例值：** OC  <br/> |
+|Second User Agent Category  <br/> |字符串  <br/> |第二终结点的用户代理的类别。  <br/> |空值表示当前没有映射的用户代理，如第三方用户代理。 <br/>  **示例值：** OC  <br/> |
+|First User Agent  <br/> |字符串  <br/> |第一终结点的用户代理字符串。  <br/> |空值表示第一终结点未报告用户代理。 <br/>   **示例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (for Business 的 Skype)  <br/> |
+|Second User Agent  <br/> |字符串  <br/> |第二终结点的用户代理字符串。  <br/> |空值表示第二终结点未报告用户代理。  <br/>  **示例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (for Business 的 Skype)  <br/> |
 |Conference Type  <br/> |字符串  <br/> |会议 URI 的类型。可能的值： <br/>  conf:applicationsharing <br/>  conf:audio-video <br/>  conf:focus <br/> |空值表示非会议场景。 <br/>   **示例值：** conf:audio-视频  <br/> |
 |Conference Id  <br/> |字符串  <br/> |与流关联的会议 ID。请注意，此维度可能包含过多的行，导致无法用作报告中的一个维度。它可能会转为用作筛选器。  <br/> |空值表示非会议场景。  <br/>  **示例值：** 0001P6GK  <br/> |
 |First Client App Version  <br/> |字符串  <br/> |第一终结点使用的应用程序的版本。数据从用户代理字符串解析。  <br/> |空值表示无法解析版本字符串或未报告该值。 <br/>  **示例值：** 16.0.7766.2047  <br/> |
 |Second Client App Version  <br/> |字符串  <br/> |第二终结点使用的应用程序的版本。数据从用户代理字符串解析。  <br/> |空值表示无法解析版本字符串或未报告该值。  <br/>  **示例值：** 16.0.7766.2047  <br/> |
-|Transport  <br/> |字符串  <br/> | 流使用的网络传输类型。可能的值： <br/>  UDP <br/>  TCP <br/>  无法识别 <br/>  "无法识别"表示系统无法确定传输类型是 TCP 还是 UDP。 <br/> |空值表示未报告传输类型或未建立媒体路径。 <br/> **示例值：**UDP  <br/> |
-|First Connectivity Ice  <br/> |字符串  <br/> | 第一终结点使用的 ICE 连接类型。可能的值： <br/>  直接 - 直接网络路径 <br/>  中继 - 通过中继 <br/>  HTTP - 通过 HTTP 代理 <br/>  失败 - 连接失败。 <br/> |空值表示未报告连接类型或未建立媒体路径。  <br/>  **示例值：**直接  <br/> |
-|Second Connectivity Ice  <br/> |字符串  <br/> | 第二终结点使用的 ICE 连接类型。可能的值： <br/>  直接 - 直接网络路径 <br/>  中继 - 通过中继 <br/>  HTTP - 通过 HTTP 代理 <br/>  失败 - 连接失败。 <br/> |空值表示未报告连接类型或未建立媒体路径。  <br/>  **示例值：**直接  <br/> |
+|Transport  <br/> |字符串  <br/> | 流使用的网络传输类型。可能的值： <br/>  UDP <br/>  TCP <br/>  无法识别 <br/>  "无法识别"表示系统无法确定传输类型是 TCP 还是 UDP。 <br/> |空值表示未报告传输类型或未建立媒体路径。 <br/> **示例值：** UDP  <br/> |
+|First Connectivity Ice  <br/> |字符串  <br/> | 第一终结点使用的 ICE 连接类型。可能的值： <br/>  直接 - 直接网络路径 <br/>  中继 - 通过中继 <br/>  HTTP - 通过 HTTP 代理 <br/>  失败 - 连接失败。 <br/> |空值表示未报告连接类型或未建立媒体路径。  <br/>  **示例值：** 直接  <br/> |
+|Second Connectivity Ice  <br/> |字符串  <br/> | 第二终结点使用的 ICE 连接类型。可能的值： <br/>  直接 - 直接网络路径 <br/>  中继 - 通过中继 <br/>  HTTP - 通过 HTTP 代理 <br/>  失败 - 连接失败。 <br/> |空值表示未报告连接类型或未建立媒体路径。  <br/>  **示例值：** 直接  <br/> |
 |First IP Address  <br/> |字符串  <br/> |第一终结点的 IP 地址。请注意，此维度可能包含过多的行，导致无法用作报告中的一个维度。它可能会转为用作筛选器。  <br/> |空值表示终结点未报告此数据或未建立媒体路径。  <br/>  **示例值：** 10.0.0.10  <br/> |
-|Second IP Address  <br/> |字符串  <br/> |第二终结点的 IP 地址。  <br/>  **注意：**此维度可能要用作报表中维度的行太多。 它可能会转为用作筛选器。           |空值表示终结点未报告此数据或未建立媒体路径。  <br/>  **示例值：** 10.0.0.10  <br/> |
+|Second IP Address  <br/> |字符串  <br/> |第二终结点的 IP 地址。  <br/>  **注意：** 此维度可能要用作报表中的维度的行太多。 它可能会转为用作筛选器。           |空值表示终结点未报告此数据或未建立媒体路径。  <br/>  **示例值：** 10.0.0.10  <br/> |
 |First Link Speed  <br/> |位/秒  <br/> |第一终结点使用的网络适配器报告的链路速度，以"位/秒"为单位。  <br/> |空值表示终结点未报告此数据或未建立媒体路径。 <br/>  **示例值：** 10000000  <br/> |
 |Second Link Speed  <br/> |位/秒  <br/> |第二终结点使用的网络适配器报告的链路速度，以"位/秒"为单位。  <br/> |空值表示终结点未报告此数据或未建立媒体路径。 <br/>   **示例值：** 10000000  <br/> |
 |First Port  <br/> |端口号  <br/> |第一终结点用于媒体的网络端口号。  <br/> |空值表示终结点未报告此数据或未建立媒体路径。  <br/>  **示例值：** 50018  <br/> |
@@ -147,55 +147,55 @@ ms.lasthandoff: 04/18/2018
 |Second Relay IP  <br/> |字符串  <br/> |第二终结点分配的媒体中继服务器的 IP 地址。  <br/> |空值表示终结点未报告此数据或未建立媒体路径。 <br/>  **示例值：** 104.43.195.251  <br/> |
 |First Relay Port  <br/> |整型  <br/> |第一终结点在媒体中继服务器上分配的媒体端口。  <br/> |空值表示终结点未报告此数据或未建立媒体路径。 <br/>  **示例值：** 3478  <br/> |
 |Second Relay Port  <br/> |整型  <br/> |第二终结点在媒体中继服务器上分配的媒体端口。  <br/> |空值表示终结点未报告此数据或未建立媒体路径。   <br/> **示例值：** 3478  <br/> |
-|First Subnet  <br/> |字符串  <br/> |第一终结点用于媒体流的子网，每个八进制数用短划线隔开。  <br/> |空值表示媒体路径未建立或使用 IPv6 不报告该终结点，此数据。  <br/>  **示例值：** 104.43.195.0  <br/> |
-|Second Subnet  <br/> |字符串  <br/> |第二终结点用于媒体流的子网，每个八进制数用短划线隔开。  <br/> |空值表示媒体路径未建立或使用 IPv6 不报告该终结点，此数据。  <br/> **示例值：** 104.43.195.0  <br/> |
-|First VPN  <br/> |布尔值  <br/> |如果第一终结点使用的网络适配器指出它是 VPN 连接则为 True，否则为 False。有些 VPN 不会正确报告此数据。  <br/> |空值表示终结点未报告此数据或未建立媒体路径。   <br/> **示例值：**真  <br/> |
-|Second VPN  <br/> |布尔值  <br/> |如果第二终结点使用的网络适配器指出它是 VPN 连接则为 True，否则为 False。有些 VPN 不会正确报告此数据。  <br/> |空值表示终结点未报告此数据或未建立媒体路径。   <br/> **示例值：**真  <br/> |
-|Applied Bandwidth Source  <br/> |字符串  <br/> | 指示应用于流的带宽来源。可能的值： <br/>  Static Max <br/>  API Modality <br/>  API Modality_All <br/>  Api SendSide BWLimit <br/>  首选值 <br/>  TURN <br/>  ReceiveSide TURN <br/>  API SDP Modality、Remote RecvSide BWLimit <br/>  API ServiceQuality <br/>  API SDP <br/>  Receive SidePDP <br/> |空值表示终结点未报告此数据或未建立媒体路径。  <br/> **示例值：**StaticMax  <br/> |
+|First Subnet  <br/> |字符串  <br/> |第一终结点用于媒体流的子网，每个八进制数用短划线隔开。  <br/> |空值指示未建立的媒体路径，或用 IPv6 不报告由终结点，此数据。  <br/>  **示例值：** 104.43.195.0  <br/> |
+|Second Subnet  <br/> |字符串  <br/> |第二终结点用于媒体流的子网，每个八进制数用短划线隔开。  <br/> |空值指示未建立的媒体路径，或用 IPv6 不报告由终结点，此数据。  <br/> **示例值：** 104.43.195.0  <br/> |
+|First VPN  <br/> |布尔值  <br/> |如果第一终结点使用的网络适配器指出它是 VPN 连接则为 True，否则为 False。有些 VPN 不会正确报告此数据。  <br/> |空值表示终结点未报告此数据或未建立媒体路径。   <br/> **示例值：** True  <br/> |
+|Second VPN  <br/> |布尔值  <br/> |如果第二终结点使用的网络适配器指出它是 VPN 连接则为 True，否则为 False。有些 VPN 不会正确报告此数据。  <br/> |空值表示终结点未报告此数据或未建立媒体路径。   <br/> **示例值：** True  <br/> |
+|Applied Bandwidth Source  <br/> |字符串  <br/> | 指示应用于流的带宽来源。可能的值： <br/>  Static Max <br/>  API Modality <br/>  API Modality_All <br/>  Api SendSide BWLimit <br/>  首选值 <br/>  TURN <br/>  ReceiveSide TURN <br/>  API SDP Modality、Remote RecvSide BWLimit <br/>  API ServiceQuality <br/>  API SDP <br/>  Receive SidePDP <br/> |空值表示终结点未报告此数据或未建立媒体路径。  <br/> **示例值：** StaticMax  <br/> |
 |Bandwidth Est  <br/> |范围（位/秒）  <br/> |第一和第二终结点之间可用的平均带宽估计值，以"位/秒"为单位。  <br/> |空值表示终结点未报告此数据或未建立媒体路径。  <br/>  **示例值：** 026: [260000-270000)  <br/> |
-|Mediation Server Bypass Flag  <br/> |布尔值  <br/> |如果媒体流绕过中介服务器，在客户端与 PSTN 网关/PBX 之间直接传输，则为 True。否则为 False。  <br/> |空值表示终结点未报告此数据或未建立媒体路径。  <br/>  **示例值：**真  <br/> |
-|First Cdr Connectivity Type  <br/> |字符串  <br/> | 指示第一终结点选择用于此流的 ICE 连接路径。可能的值； <br/>  OS <br/>  PeerDerived <br/>  Stun <br/>  Turn <br/> |空值表示终结点未报告此数据或未建立媒体路径。 <br/>   **示例值：**操作系统  <br/> |
-|Second Cdr Connectivity Type  <br/> |字符串  <br/> | 指示第二终结点选择用于此流的 ICE 连接路径。可能的值； <br/>  OS <br/>  PeerDerived <br/>  Stun <br/>  Turn <br/> |空值表示终结点未报告此数据或未建立媒体路径。 <br/>  **示例值：**操作系统  <br/> |
-|First Capture Dev  <br/> |字符串  <br/> | 第一终结点使用的捕获设备的名称。对于： <br/>  音频流 - 用于麦克风的设备 <br/>  视频流 - 用于照相机的设备 <br/>  基于视频的屏幕共享流 - 屏幕截取器 <br/>  应用共享流 - 空 <br/> |空值表示，未建立介质路径，或流是基于视频的屏幕共享应用程序终结点，不报告此数据。   <br/> **示例值：**头戴式麦克风 (Microsoft LifeChat LX-6000)  <br/> |
-|Second Capture Dev  <br/> |字符串  <br/> | 第二终结点使用的捕获设备的名称。对于： <br/>  音频流 - 用于麦克风的设备 <br/>  视频流 - 用于照相机的设备 <br/>  基于视频的屏幕共享流 - 屏幕截取器 <br/>  应用共享流 - 空 <br/> |空值表示，未建立介质路径，或流是基于视频的屏幕共享应用程序终结点，不报告此数据。  <br/>  **示例值：**头戴式麦克风 (Microsoft LifeChat LX-6000)  <br/> |
-|First Capture Dev Driver  <br/> |字符串  <br/> | 第一终结点使用的捕获设备驱动器的名称，格式为"制造商: 版本"。对于： <br/>  音频流 - 用于麦克风的驱动器 <br/>  视频流 - 用于照相机的驱动器 <br/>  基于视频的屏幕共享和应用共享流 - 空 <br/> |空值表示，未建立介质路径，或流是基于视频的屏幕共享应用程序终结点，不报告此数据。 <br/>   **示例值：**Microsoft: 10.0.14393.0  <br/> |
-|Second Capture Dev Driver  <br/> |字符串  <br/> | 第二终结点使用的捕获设备驱动器的名称，格式为"制造商: 版本"。对于： <br/>  音频流 - 用于麦克风的驱动器 <br/>  视频流 - 用于照相机的驱动器 <br/>  基于视频的屏幕共享和应用共享流 - 空 <br/> |空值表示，未建立介质路径，或流是基于视频的屏幕共享应用程序终结点，不报告此数据。 <br/>  **示例值：**Microsoft: 10.0.14393.0  <br/> |
-|First Render Dev  <br/> |字符串  <br/> | 第一终结点使用的呈现设备的名称。对于： <br/>  音频流的设备用于扬声器 <br/>  视频和视频-基于-屏幕共享流-用于显示设备 <br/>  应用共享流 - 空 <br/> |空值表示，未建立介质路径，或流的应用程序不报告该终结点，此数据共享。 <br/> **示例值：**头戴式耳机 (Microsoft LifeChat LX-6000)  <br/> |
-|Second Render Dev  <br/> |字符串  <br/> | 第二终结点使用的呈现设备的名称。对于： <br/>  音频流的设备用于扬声器 <br/>  视频和视频-基于-屏幕共享流-用于显示设备 <br/>  应用共享流 - 空 <br/> |空值表示，未建立介质路径，或流的应用程序不报告该终结点，此数据共享。  <br/>  **示例值：**头戴式耳机 (Microsoft LifeChat LX-6000)  <br/> |
-|First Render Dev Driver  <br/> |字符串  <br/> | 第一终结点使用的呈现设备驱动器的名称。对于： <br/>  音频流-用于扬声器驱动程序 <br/>  视频和视频-基于-屏幕共享流-用于显示驱动程序 <br/>  应用共享流 - 空 <br/> |空值表示，未建立介质路径，或流的应用程序不报告该终结点，此数据共享。   <br/> **示例值：**Microsoft: 10.0.14393.0  <br/> |
-|Second Render Dev Driver  <br/> |字符串  <br/> | 第二终结点使用的呈现设备驱动器的名称。对于： <br/>  音频流-用于扬声器驱动程序 <br/>  视频和视频-基于-屏幕共享流-用于显示驱动程序 <br/>  应用共享流 - 空 <br/> |空值表示，未建立介质路径，或流的应用程序不报告该终结点，此数据共享。  <br/>  **示例值：**Microsoft: 10.0.14393.0  <br/> |
-|First CPU Name  <br/> |字符串  <br/> |第一终结点使用的 CPU 的名称。  <br/> |空值表示终结点未报告此数据。  <br/>  **示例值：**Contoso CPU X11 @ 1.80 GHz  <br/> |
-|Second CPU Name  <br/> |字符串  <br/> |第二终结点使用的 CPU 的名称。  <br/> |空值表示终结点未报告此数据。  <br/>  **示例值：**Contoso CPU X11 @ 1.80 GHz  <br/> |
+|Mediation Server Bypass Flag  <br/> |布尔值  <br/> |如果媒体流绕过中介服务器，在客户端与 PSTN 网关/PBX 之间直接传输，则为 True。否则为 False。  <br/> |空值表示终结点未报告此数据或未建立媒体路径。  <br/>  **示例值：** True  <br/> |
+|First Cdr Connectivity Type  <br/> |字符串  <br/> | 指示第一终结点选择用于此流的 ICE 连接路径。可能的值； <br/>  OS <br/>  PeerDerived <br/>  Stun <br/>  Turn <br/> |空值表示终结点未报告此数据或未建立媒体路径。 <br/>   **示例值：** 操作系统  <br/> |
+|Second Cdr Connectivity Type  <br/> |字符串  <br/> | 指示第二终结点选择用于此流的 ICE 连接路径。可能的值； <br/>  OS <br/>  PeerDerived <br/>  Stun <br/>  Turn <br/> |空值表示终结点未报告此数据或未建立媒体路径。 <br/>  **示例值：** 操作系统  <br/> |
+|First Capture Dev  <br/> |字符串  <br/> | 第一终结点使用的捕获设备的名称。对于： <br/>  音频流 - 用于麦克风的设备 <br/>  视频流 - 用于照相机的设备 <br/>  基于视频的屏幕共享流 - 屏幕截取器 <br/>  应用共享流 - 空 <br/> |空值指示此数据不报告由终结点，，，未建立的媒体路径，或流已基于视频的屏幕共享或应用程序共享。   <br/> **示例值：** 头戴式麦克风 (Microsoft LifeChat LX-6000)  <br/> |
+|Second Capture Dev  <br/> |字符串  <br/> | 第二终结点使用的捕获设备的名称。对于： <br/>  音频流 - 用于麦克风的设备 <br/>  视频流 - 用于照相机的设备 <br/>  基于视频的屏幕共享流 - 屏幕截取器 <br/>  应用共享流 - 空 <br/> |空值指示此数据不报告由终结点，，，未建立的媒体路径，或流已基于视频的屏幕共享或应用程序共享。  <br/>  **示例值：** 头戴式麦克风 (Microsoft LifeChat LX-6000)  <br/> |
+|First Capture Dev Driver  <br/> |字符串  <br/> | 第一终结点使用的捕获设备驱动器的名称，格式为"制造商: 版本"。对于： <br/>  音频流 - 用于麦克风的驱动器 <br/>  视频流 - 用于照相机的驱动器 <br/>  基于视频的屏幕共享和应用共享流 - 空 <br/> |空值指示此数据不报告由终结点，，，未建立的媒体路径，或流已基于视频的屏幕共享或应用程序共享。 <br/>   **示例值：** Microsoft: 10.0.14393.0  <br/> |
+|Second Capture Dev Driver  <br/> |字符串  <br/> | 第二终结点使用的捕获设备驱动器的名称，格式为"制造商: 版本"。对于： <br/>  音频流 - 用于麦克风的驱动器 <br/>  视频流 - 用于照相机的驱动器 <br/>  基于视频的屏幕共享和应用共享流 - 空 <br/> |空值指示此数据不报告由终结点，，，未建立的媒体路径，或流已基于视频的屏幕共享或应用程序共享。 <br/>  **示例值：** Microsoft: 10.0.14393.0  <br/> |
+|First Render Dev  <br/> |字符串  <br/> | 第一终结点使用的呈现设备的名称。对于： <br/>  音频流-用于扬声器设备 <br/>  视频和视频-基于-屏幕共享流-用于显示的设备 <br/>  应用共享流 - 空 <br/> |空值指示此数据不报告由终结点，，，未建立的媒体路径，或流是否已应用程序共享。 <br/> **示例值：** 头戴式耳机 (Microsoft LifeChat LX-6000)  <br/> |
+|Second Render Dev  <br/> |字符串  <br/> | 第二终结点使用的呈现设备的名称。对于： <br/>  音频流-用于扬声器设备 <br/>  视频和视频-基于-屏幕共享流-用于显示的设备 <br/>  应用共享流 - 空 <br/> |空值指示此数据不报告由终结点，，，未建立的媒体路径，或流是否已应用程序共享。  <br/>  **示例值：** 头戴式耳机 (Microsoft LifeChat LX-6000)  <br/> |
+|First Render Dev Driver  <br/> |字符串  <br/> | 第一终结点使用的呈现设备驱动器的名称。对于： <br/>  音频流-用于扬声器驱动程序 <br/>  视频和视频-基于-屏幕共享流-用于显示驱动程序 <br/>  应用共享流 - 空 <br/> |空值指示此数据不报告由终结点，，，未建立的媒体路径，或流是否已应用程序共享。   <br/> **示例值：** Microsoft: 10.0.14393.0  <br/> |
+|Second Render Dev Driver  <br/> |字符串  <br/> | 第二终结点使用的呈现设备驱动器的名称。对于： <br/>  音频流-用于扬声器驱动程序 <br/>  视频和视频-基于-屏幕共享流-用于显示驱动程序 <br/>  应用共享流 - 空 <br/> |空值指示此数据不报告由终结点，，，未建立的媒体路径，或流是否已应用程序共享。  <br/>  **示例值：** Microsoft: 10.0.14393.0  <br/> |
+|First CPU Name  <br/> |字符串  <br/> |第一终结点使用的 CPU 的名称。  <br/> |空值表示终结点未报告此数据。  <br/>  **示例值：** Contoso CPU X11 @ 1.80 GHz  <br/> |
+|Second CPU Name  <br/> |字符串  <br/> |第二终结点使用的 CPU 的名称。  <br/> |空值表示终结点未报告此数据。  <br/>  **示例值：** Contoso CPU X11 @ 1.80 GHz  <br/> |
 |First CPU Number Of Cores  <br/> |内核数量  <br/> |第一终结点上可用的 CPU 内核数。  <br/> |空值表示终结点未报告此数据。  <br/>  **示例值：** 8  <br/> |
 |Second CPU Number Of Cores  <br/> |内核数量  <br/> |第二终结点上可用的 CPU 内核数。  <br/> |空值表示终结点未报告此数据。 <br/>  **示例值：** 8  <br/> |
 |First CPU Processor Speed  <br/> |CPU 速度，单位为 MHz  <br/> |第一终结点使用的 CPU 的速度，单位为 MHz。  <br/> |空值表示终结点未报告此数据。  <br/>  **示例值：** 1800年  <br/> |
 |Second CPU Processor Speed  <br/> |CPU 速度，单位为 MHz  <br/> |第二终结点使用的 CPU 的速度，单位为 MHz。  <br/> |空值表示终结点未报告此数据。  <br/>  **示例值：** 1800年  <br/> |
-|First Endpoint  <br/> |字符串  <br/> |如果第一终结点为服务器或云服务客户端，此终结点报告的计算机名称。  <br/> |空值表示终结点未报告此数据。  <br/>  **示例值：**计算机名  <br/> |
-|Second Endpoint  <br/> |字符串  <br/> |如果第二终结点为服务器或云服务客户端，此终结点报告的计算机名称。  <br/> |空值表示终结点未报告此数据。  <br/>  **示例值：**计算机名  <br/> |
-|First OS  <br/> |字符串  <br/> |第一终结点报告的完整操作系统和体系结构字符串。  <br/> |空值表示终结点未报告此数据。 <br/>   **示例值：**Windows 10.0.14996 SP: 0.0 类型： 1(Workstation) 套件： 256 弧： x64 WOW64： 真  <br/> |
-|Second OS  <br/> |字符串  <br/> |第二终结点报告的完整操作系统和体系结构字符串。  <br/> |空值表示终结点未报告此数据。 <br/>   **示例值：**Windows 10.0.14996 SP: 0.0 类型： 1(Workstation) 套件： 256 弧： x64 WOW64： 真  <br/> |
-|First OS Filtered  <br/> |字符串  <br/> |第一终结点报告的操作系统名称和主要版本及次要版本。有时候此字符串可能包含多个操作系统名称和版本。  <br/> |空值表示此终结点没有报告该信息或没有收到此终结点的报告。 <br/>  **示例值：**Windows 10  <br/> |
-|Second OS Filtered  <br/> |字符串  <br/> |第二终结点报告的操作系统名称和主要版本及次要版本。有时候此字符串可能包含多个操作系统名称和版本。  <br/> |空值表示此终结点没有报告该信息或没有收到此终结点的报告。  <br/>  **示例值：**Windows 10  <br/> |
+|First Endpoint  <br/> |字符串  <br/> |如果第一终结点为服务器或云服务客户端，此终结点报告的计算机名称。  <br/> |空值表示终结点未报告此数据。  <br/>  **示例值：** 计算机名  <br/> |
+|Second Endpoint  <br/> |字符串  <br/> |如果第二终结点为服务器或云服务客户端，此终结点报告的计算机名称。  <br/> |空值表示终结点未报告此数据。  <br/>  **示例值：** 计算机名  <br/> |
+|First OS  <br/> |字符串  <br/> |第一终结点报告的完整操作系统和体系结构字符串。  <br/> |空值表示终结点未报告此数据。 <br/>   **示例值：** Windows 10.0.14996 SP: 0.0 类型： 1(Workstation) 套件： 256 拱形： x64 WOW64: True  <br/> |
+|Second OS  <br/> |字符串  <br/> |第二终结点报告的完整操作系统和体系结构字符串。  <br/> |空值表示终结点未报告此数据。 <br/>   **示例值：** Windows 10.0.14996 SP: 0.0 类型： 1(Workstation) 套件： 256 拱形： x64 WOW64: True  <br/> |
+|First OS Filtered  <br/> |字符串  <br/> |第一终结点报告的操作系统名称和主要版本及次要版本。有时候此字符串可能包含多个操作系统名称和版本。  <br/> |空值表示此终结点没有报告该信息或没有收到此终结点的报告。 <br/>  **示例值：** Windows 10  <br/> |
+|Second OS Filtered  <br/> |字符串  <br/> |第二终结点报告的操作系统名称和主要版本及次要版本。有时候此字符串可能包含多个操作系统名称和版本。  <br/> |空值表示此终结点没有报告该信息或没有收到此终结点的报告。  <br/>  **示例值：** Windows 10  <br/> |
 |First OS Architecture  <br/> |字符串  <br/> |第一终结点报告的硬件体系结构。  <br/> |空值表示此终结点没有报告该信息、没有收到此终结点的报告或无法识别体系结构的格式。  <br/>  **示例值：** |x64  <br/> |
 |Second OS Architecture  <br/> |字符串  <br/> |第二终结点报告的硬件体系结构。  <br/> |空值表示此终结点没有报告该信息、没有收到此终结点的报告或无法识别体系结构的格式。 <br/>  **示例值：** x64  <br/> |
 |First Virtualization Flag  <br/> |字符串  <br/> | 指示第一终结点报告的虚拟化环境类型的标志。可能的值： <br/>  "0x00"- 无 <br/>  "0x01"- HyperV <br/>  "0x02"- VMWare <br/>  "0x04" - 虚拟 PC <br/>  "0x08"- Xen PC <br/> |空值表示终结点未报告此数据。   <br/> **示例值：** 0x00  <br/> |
 |Second Virtualization Flag  <br/> |字符串  <br/> | 指示第二终结点报告的虚拟化环境类型的标志。可能的值： <br/>  "0x00"- 无 <br/>  "0x01"- HyperV <br/>  "0x02"- VMWare <br/>  "0x04" - 虚拟 PC <br/>  "0x08"- Xen PC <br/> |空值表示终结点未报告此数据。 <br/>  **示例值：** 0x00  <br/> |
-|First Wifi Microsoft Driver  <br/> |字符串  <br/> |第一终结点报告的所使用的 Microsoft WiFi 驱动器的名称。值可能会根据终结点使用的语言进行本地化。  <br/> |空值表示终结点没有使用 WiFi 或未报告驱动器信息。  <br/>  **示例值：**Microsoft 托管的网络虚拟适配器  <br/> |
-|Second Wifi Microsoft Driver  <br/> |字符串  <br/> |第二终结点报告的所使用的 Microsoft WiFi 驱动器的名称。值可能会根据终结点使用的语言进行本地化。  <br/> |空值表示终结点没有使用 WiFi 或未报告驱动器信息。   <br/> **示例值：**Microsoft 托管的网络虚拟适配器  <br/> |
-|First Wifi Vendor Driver  <br/> |字符串  <br/> |第一终结点报告的 Wifi 驱动器的供应商和名称。  <br/> |空值表示终结点没有使用 WiFi 或未报告驱动器信息。  <br/>  **示例值：** ontoso 双频段无线交流驱动程序  <br/> |
-|Second Wifi Vendor Driver  <br/> |字符串  <br/> |第二终结点报告的 Wifi 驱动器的供应商和名称。  <br/> |空值表示终结点没有使用 WiFi 或未报告驱动器信息。  <br/>  **示例值：**Contoso 双频段无线交流驱动程序  <br/> |
-|First Wifi Microsoft Driver Version  <br/> |字符串  <br/> |第一终结点报告的 Microsoft Wifi 驱动器的版本。  <br/> |空值表示终结点没有使用 WiFi 或未报告驱动器信息。  <br/>  **示例值：**Microsoft: 10.0.14393.0  <br/> |
-|Second Wifi Microsoft Driver Version  <br/> |字符串  <br/> |第二终结点报告的 Microsoft Wifi 驱动器的版本。  <br/> |空值表示终结点没有使用 WiFi 或未报告驱动器信息。  <br/>  **示例值：**Microsoft: 10.0.14393.0  <br/> |
-|First Wifi Vendor Driver Version  <br/> |字符串  <br/> |第一终结点报告的 Wifi 驱动器的供应商和版本。  <br/> |空值表示终结点没有使用 WiFi 或未报告驱动器信息。  <br/>  **示例值：**Contoso:15.1.1.0  <br/> |
-|Second Wifi Vendor Driver Version  <br/> |字符串  <br/> |第二终结点报告的 Wifi 驱动器的供应商和版本。  <br/> |空值表示终结点没有使用 WiFi 或未报告驱动器信息。 <br/>   **示例值：**Contoso:15.1.1.0  <br/> |
+|First Wifi Microsoft Driver  <br/> |字符串  <br/> |第一终结点报告的所使用的 Microsoft WiFi 驱动器的名称。值可能会根据终结点使用的语言进行本地化。  <br/> |空值表示终结点没有使用 WiFi 或未报告驱动器信息。  <br/>  **示例值：** Microsoft 承载的网络虚拟适配器  <br/> |
+|Second Wifi Microsoft Driver  <br/> |字符串  <br/> |第二终结点报告的所使用的 Microsoft WiFi 驱动器的名称。值可能会根据终结点使用的语言进行本地化。  <br/> |空值表示终结点没有使用 WiFi 或未报告驱动器信息。   <br/> **示例值：** Microsoft 承载的网络虚拟适配器  <br/> |
+|First Wifi Vendor Driver  <br/> |字符串  <br/> |第一终结点报告的 Wifi 驱动器的供应商和名称。  <br/> |空值表示终结点没有使用 WiFi 或未报告驱动器信息。  <br/>  **示例值：** ontoso 双带无线交流驱动程序  <br/> |
+|Second Wifi Vendor Driver  <br/> |字符串  <br/> |第二终结点报告的 Wifi 驱动器的供应商和名称。  <br/> |空值表示终结点没有使用 WiFi 或未报告驱动器信息。  <br/>  **示例值：** Contoso 双带无线交流驱动程序  <br/> |
+|First Wifi Microsoft Driver Version  <br/> |字符串  <br/> |第一终结点报告的 Microsoft Wifi 驱动器的版本。  <br/> |空值表示终结点没有使用 WiFi 或未报告驱动器信息。  <br/>  **示例值：** Microsoft: 10.0.14393.0  <br/> |
+|Second Wifi Microsoft Driver Version  <br/> |字符串  <br/> |第二终结点报告的 Microsoft Wifi 驱动器的版本。  <br/> |空值表示终结点没有使用 WiFi 或未报告驱动器信息。  <br/>  **示例值：** Microsoft: 10.0.14393.0  <br/> |
+|First Wifi Vendor Driver Version  <br/> |字符串  <br/> |第一终结点报告的 Wifi 驱动器的供应商和版本。  <br/> |空值表示终结点没有使用 WiFi 或未报告驱动器信息。  <br/>  **示例值：** Contoso:15.1.1.0  <br/> |
+|Second Wifi Vendor Driver Version  <br/> |字符串  <br/> |第二终结点报告的 Wifi 驱动器的供应商和版本。  <br/> |空值表示终结点没有使用 WiFi 或未报告驱动器信息。 <br/>   **示例值：** Contoso:15.1.1.0  <br/> |
 |First Wifi Channel  <br/> |字符串  <br/> |第一终结点使用的 Wifi 频道。  <br/> |空值表示未使用 WiFi 或未报告频道。  <br/>  **示例值：** 10  <br/> |
 |Second Wifi Channel  <br/> |字符串  <br/> |第二终结点使用的 Wifi 频道。  <br/> |空值表示未使用 WiFi 或未报告频道。  <br/>  **示例值：** 10  <br/> |
 |First Wifi Radio Type  <br/> |字符串  <br/> |第一终结点使用的 WiFi 无线电的类型。HRDSSS 等于 802.11b。  <br/> |空值表示未使用 WiFi 或未报告 WiFi 类型。  <br/> **示例值：** 802.11ac  <br/> |
 |Second Wifi Radio Type  <br/> |字符串  <br/> |第二终结点使用的 WiFi 无线电的类型。HRDSSS 等于 802.11b。  <br/> |空值表示未使用 WiFi 或未报告 WiFi 类型。 <br/>  **示例值：** 802.11ac  <br/> |
 |First DNS Suffix  <br/> |字符串  <br/> |第一终结点报告的与网络适配器关联的 DNS 后缀。请注意，可能会为任何类型的网络适配器报告此值。  <br/> |空值表示终结点未报告此值。  <br/> **示例值：** corp.contoso.com  <br/> |
 |Second DNS Suffix  <br/> |字符串  <br/> |第二终结点报告的与网络适配器关联的 DNS 后缀。请注意，可能会为任何类型的网络适配器报告此值。  <br/> |空值表示终结点未报告此值。  <br/>  **示例值：** corp.contoso.com  <br/> |
-|First Wifi Band  <br/> |字符串  <br/> |第一终结点报告的所使用的 Wifi 波段。  <br/> |空值表示终结点未计算或未报告此值。 <br/>  **示例值：** 5.0 g h z  <br/> |
-|Second Wifi Band  <br/> |字符串  <br/> |第二终结点报告的所使用的 Wifi 波段。  <br/> |空值表示终结点未计算或未报告此值。   <br/> **示例值：** 5.0 g h z  <br/> |
+|First Wifi Band  <br/> |字符串  <br/> |第一终结点报告的所使用的 Wifi 波段。  <br/> |空值表示终结点未计算或未报告此值。 <br/>  **示例值：** 5.0 Ghz  <br/> |
+|Second Wifi Band  <br/> |字符串  <br/> |第二终结点报告的所使用的 Wifi 波段。  <br/> |空值表示终结点未计算或未报告此值。   <br/> **示例值：** 5.0 Ghz  <br/> |
 |First Wifi Signal Strength  <br/> |字符串  <br/> |第一终结点报告的 WiFi 信号强度百分比 [0-99]。  <br/> |空值表示终结点未计算或未报告此值。  <br/> **示例值：** 081: [90-100)  <br/> |
 |Second Wifi Signal Strength  <br/> |字符串  <br/> |第二终结点报告的 WiFi 信号强度百分比 [0-99]。  <br/> |空值表示终结点未计算或未报告此值。  <br/> **示例值：** 081: [90-100)  <br/> |
 |First Wifi Battery Charge  <br/> |范围（百分比）  <br/> |第一终结点报告的电池剩余电量的百分比估计值 [0-99]。值按范围分组表示。0 表示设备已插电。  <br/> |空值表示未使用 WiFi 或未报告电量值。 <br/>   **示例值：** 081: [90-100)  <br/> |
@@ -222,8 +222,8 @@ ms.lasthandoff: 04/18/2018
 |Spoiled Tile Percent Total  <br/> |范围（百分比）  <br/> |没有被发送到远程对等点（例如，从 MCU 到查看器）而是被丢弃的图块的百分比。值按范围分组表示。丢弃图块可能是由于客户端与服务器之间的带宽限制所致。  <br/> |空值表示流不是应用程序共享流，或发送流的终结点未报告此数据。  <br/>  **示例值：** 140: [34-34.5)  <br/> |
 |AppSharing Relative OneWay Average  <br/> |范围（毫秒）  <br/> |终结点之间的应用程序共享流的相对单向平均延迟，以毫秒为单位。值按范围分组表示。  <br/> |空值表示流不是应用程序共享流，或发送流的终结点未报告此数据。  <br/> **示例值：** 126: [27-27.5)  <br/> |
 |AppSharing RDP Tile Processing Latency Average  <br/> |范围（毫秒）  <br/> |在会议服务器上处理 RDP 堆栈图块的平均延迟，以毫秒为单位。值按范围分组表示。  <br/> |空值表示流不是会议中的应用程序共享流，或发送流的终结点未报告此数据。   <br/> **示例值：** 103: [15.5-16)  <br/> |
-|Audio FEC Used  <br/> |布尔值  <br/> |True 表示通话期间在某些点上使用了音频前向纠错 (FEC)。False 表示未使用。  <br/> |空值表示流不是音频流，或发送流的终结点未报告此数据。  <br/>  **示例值：**真  <br/> |
-|ClassifiedPoorCall  <br/> |布尔值  <br/> |如果根据以下文章中列出的指标将流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |空值表示没有报告可以将流分类为好或差的足够指标。  <br/>  **示例值：**真  <br/> |
+|Audio FEC Used  <br/> |布尔值  <br/> |True 表示通话期间在某些点上使用了音频前向纠错 (FEC)。False 表示未使用。  <br/> |空值表示流不是音频流，或发送流的终结点未报告此数据。  <br/>  **示例值：** True  <br/> |
+|ClassifiedPoorCall  <br/> |布尔值  <br/> |如果根据以下文章中列出的指标将流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |空值表示没有报告可以将流分类为好或差的足够指标。  <br/>  **示例值：** True  <br/> |
 |Video Poor Due To VideoPostFecplr  <br/> |布尔值  <br/> |如果根据以下文章中列出的"FEC PLR 后的视频"指标阈值将流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非视频流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是视频流。   <br/> **示例值：** ，则返回 true  <br/> |
 |Video Poor Due To Video Local Frame Loss Percentage Avg  <br/> |布尔值  <br/> |如果根据以下文章中列出的"视频本地帧丢失平均百分比"指标阈值将视频流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非视频流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是视频流。  <br/>  **示例值：** |true  <br/> |
 |Video Poor Due To Recv Frame Rate Average  <br/> |布尔值  <br/> |如果根据以下文章中列出的"帧平均接收速率"指标阈值将视频流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非视频流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是视频流。  <br/> **示例值：** ，则返回 true  <br/> |
@@ -247,19 +247,19 @@ ms.lasthandoff: 04/18/2018
 |Audio Poor Due To Concealed Ratio  <br/> |布尔值  <br/> |如果根据以下文章中列出的"隐藏比率"指标阈值将音频流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非音频流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是音频共享流。   <br/> **示例值：** ，则返回 true  <br/> |
 |Unclassified  <br/> |布尔值  <br/> |如果具有可以将流分类为好或差的足够数据，则为 0。否则为 1。 | **示例值：** 1  <br/> |
 |OnePercent PacketLoss  <br/> |布尔值  <br/> |如果丢包率超过 1%，则为 1。否则为 0。 | **示例值：** 1  <br/> |
-|Poor Reason  <br/> |标志  <br/> | 用于确定为何将流分类为差的一系列标志。 由于将流分类为差的原因有很多，因此可能会有设置多个标记。 请参阅[分类差在 Lync 2013 QoE 为调用的基础是什么？](https://aka.ms/cqd_quality_thresholds)的详细信息。 <br/>  可能的值： <br/>  隐藏比率 <br/>  降级 <br/>  Jitter <br/>  丢包 <br/>  Round Trip <br/>  Dynamic Capability Percent <br/>  Low Frame Rate Call Percent <br/>  Recv Frame Rate Average <br/>  Video Frame Rate Avg <br/>  Video Local Frame Loss Percentage Avg <br/>  Video Packet Loss Rate <br/>  Fec plr 后的视频 <br/>  RDP 图块处理平均延迟 <br/>  相对单向平均延迟 总损坏图块百分比 <br/> |空值表示流未被分类为差。 <br/>  **示例值：**ConcealedRatio | 降级  <br/> |
+|Poor Reason  <br/> |标志  <br/> | 用于确定为何将流分类为差的一系列标志。 由于将流分类为差的原因有很多，因此可能会有设置多个标记。 请参阅[用于进行分类为 Lync 2013 QoE 中的质量欠佳的呼叫的基准是什么？](https://aka.ms/cqd_quality_thresholds)的详细信息。 <br/>  可能的值： <br/>  隐藏比率 <br/>  降级 <br/>  Jitter <br/>  丢包 <br/>  Round Trip <br/>  Dynamic Capability Percent <br/>  Low Frame Rate Call Percent <br/>  Recv Frame Rate Average <br/>  Video Frame Rate Avg <br/>  Video Local Frame Loss Percentage Avg <br/>  Video Packet Loss Rate <br/>  Fec plr 后的视频 <br/>  RDP 图块处理平均延迟 <br/>  相对单向平均延迟 总损坏图块百分比 <br/> |空值表示流未被分类为差。 <br/>  **示例值：** ConcealedRatio | 降级  <br/> |
 |Poor  <br/> |布尔值  <br/> |如果具有可以将流分类为好或差的足够数据且流被分类为差，则为 1。否则为 0。  | **示例值：** 1  <br/> |
 |Good  <br/> |布尔值  <br/> |如果具有可以将流分类为好或差的足够数据且流被分类为好，则为 1。否则为 0。  |**示例值：** 1  <br/> |
 |First Feedback Rating  <br/> |用户评级 (1-5)  <br/> |第一终结点对与流关联的通话进行的评级，等级为 1-5（5 = 很好）。0 表示向用户显示了通话评级调查，但用户没有对其体验进行评级。  <br/> |空值表示没有向第一终结点显示调查。   <br/> **示例值：** 5  <br/> |
 |Second Feedback Rating  <br/> |用户评级 (1-5)  <br/> |第二终结点对与流关联的通话进行的评级，等级为 1-5（5 = 很好）。0 表示向用户显示了通话评级调查，但用户没有对其体验进行评级。  <br/> |空值表示没有向第二终结点显示调查。   <br/> **示例值：** 5  <br/> |
-|First Feedback Tokens  <br/> |字符串  <br/> |包含反馈标记列表的字符串，每个反馈标记都具有布尔标志，用于指出该标记是否通过第一终结点的用户提供反馈进行了设置。  <br/> |空值表示第一终结点的用户没有提供反馈。   <br/> **示例值：**{DistortedSpeech:1;ElectronicFeedback:1;BackgroundNoise:1;MuffledSpeech:1;回应： 1;}  <br/> |
-|Second Feedback Tokens  <br/> |字符串  <br/> |包含反馈标记列表的字符串，每个反馈标记都具有布尔型标志，用于指出该标记是否通过第二终结点的用户提供反馈进行了设置。  <br/> |空值表示第二终结点的用户没有提供反馈。   <br/> **示例值：**{DistortedSpeech:1;ElectronicFeedback:1;BackgroundNoise:1;MuffledSpeech:1;回应： 1;}  <br/> |
-|First Feedback Has Audio Issue  <br/> |布尔值  <br/> |如果第一终结点的反馈标记指出流包含音频问题，则为 True，否则为 False。|   **示例值：**假  <br/> |
-|Second Feedback Has Audio Issue  <br/> |布尔值  <br/> |如果第二终结点的反馈标记指出流包含音频问题，则为 True，否则为 False。| **示例值：**假  <br/> |
-|First Feedback Has Video Issue  <br/> |布尔值  <br/> |如果第一终结点的反馈标记指出流包含视频问题，则为 True，否则为 False。| **示例值：**假  <br/> |
-|Second Feedback Has Video Issue  <br/> |布尔值  <br/> |如果第二终结点的反馈标记指出流包含视频问题，则为 True，否则为 False。 |**示例值：**假  <br/> |
-|First Echo Event Causes  <br/> |标志  <br/> | 指示第一终结点上发生设备回声事件的原因的标志。一个流可能拥有多个标志。标志包括： <br/>  BAD_TIMESTAMP - 从所使用的具有较差质量的捕获设备或呈现设备上获得的音频时间戳 <br/>  POSTAEC_ECHO - 消除回声后仍具有较高水平的回声 <br/>  MIC_CLIPPING - 拥有最大信号强度显著实例的捕获设备上的信号强度 <br/>  EVENT_ANLP - 包含高噪音的捕获设备上的音频采样。 <br/> |空值表示非音频流，或者第一终结点未报告事件原因。 <br/>**示例值：**BAD_TIMESTAMP | POSTAEC_ECHO  <br/> |
-|Second Echo Event Causes  <br/> |标志  <br/> | 指示第二终结点上发生设备回声事件的原因的标志。一个流可能拥有多个标志。标志包括： <br/>  BAD_TIMESTAMP - 从所使用的具有较差质量的捕获设备或呈现设备上获得的音频时间戳 <br/>  POSTAEC_ECHO - 消除回声后仍具有较高水平的回声 <br/>  MIC_CLIPPING - 拥有最大信号强度显著实例的捕获设备上的信号强度 <br/>  EVENT_ANLP - 包含高噪音的捕获设备上的音频采样。 <br/> |空值表示非音频流，或者第一终结点未报告事件原因。 <br/> **示例值：**BAD_TIMESTAMP | POSTAEC_ECHO  <br/> |
+|First Feedback Tokens  <br/> |字符串  <br/> |包含反馈标记列表的字符串，每个反馈标记都具有布尔标志，用于指出该标记是否通过第一终结点的用户提供反馈进行了设置。  <br/> |空值表示第一终结点的用户没有提供反馈。   <br/> **示例值：**{DistortedSpeech:1;ElectronicFeedback:1;BackgroundNoise:1;MuffledSpeech:1;回声： 1;}  <br/> |
+|Second Feedback Tokens  <br/> |字符串  <br/> |包含反馈标记列表的字符串，每个反馈标记都具有布尔型标志，用于指出该标记是否通过第二终结点的用户提供反馈进行了设置。  <br/> |空值表示第二终结点的用户没有提供反馈。   <br/> **示例值：**{DistortedSpeech:1;ElectronicFeedback:1;BackgroundNoise:1;MuffledSpeech:1;回声： 1;}  <br/> |
+|First Feedback Has Audio Issue  <br/> |布尔值  <br/> |如果第一终结点的反馈标记指出流包含音频问题，则为 True，否则为 False。|   **示例值：** false  <br/> |
+|Second Feedback Has Audio Issue  <br/> |布尔值  <br/> |如果第二终结点的反馈标记指出流包含音频问题，则为 True，否则为 False。| **示例值：** false  <br/> |
+|First Feedback Has Video Issue  <br/> |布尔值  <br/> |如果第一终结点的反馈标记指出流包含视频问题，则为 True，否则为 False。| **示例值：** false  <br/> |
+|Second Feedback Has Video Issue  <br/> |布尔值  <br/> |如果第二终结点的反馈标记指出流包含视频问题，则为 True，否则为 False。 |**示例值：** false  <br/> |
+|First Echo Event Causes  <br/> |标志  <br/> | 指示第一终结点上发生设备回声事件的原因的标志。一个流可能拥有多个标志。标志包括： <br/>  BAD_TIMESTAMP - 从所使用的具有较差质量的捕获设备或呈现设备上获得的音频时间戳 <br/>  POSTAEC_ECHO - 消除回声后仍具有较高水平的回声 <br/>  MIC_CLIPPING - 拥有最大信号强度显著实例的捕获设备上的信号强度 <br/>  EVENT_ANLP - 包含高噪音的捕获设备上的音频采样。 <br/> |空值表示非音频流，或者第一终结点未报告事件原因。 <br/>**示例值：** BAD_TIMESTAMP | POSTAEC_ECHO  <br/> |
+|Second Echo Event Causes  <br/> |标志  <br/> | 指示第二终结点上发生设备回声事件的原因的标志。一个流可能拥有多个标志。标志包括： <br/>  BAD_TIMESTAMP - 从所使用的具有较差质量的捕获设备或呈现设备上获得的音频时间戳 <br/>  POSTAEC_ECHO - 消除回声后仍具有较高水平的回声 <br/>  MIC_CLIPPING - 拥有最大信号强度显著实例的捕获设备上的信号强度 <br/>  EVENT_ANLP - 包含高噪音的捕获设备上的音频采样。 <br/> |空值表示非音频流，或者第一终结点未报告事件原因。 <br/> **示例值：** BAD_TIMESTAMP | POSTAEC_ECHO  <br/> |
 |First Echo Percent Mic In  <br/> |范围（百分比）  <br/> |在消除回声之前，第一终结点从捕获设备或麦克风设备检测到音频中存在回声的时间百分比。值按范围分组表示。  <br/> |空值表示非音频流，或者第一终结点未报告数据。 <br/>**示例值：** 068: [5-10)  <br/> |
 |Second Echo Percent Mic In  <br/> |范围（百分比）  <br/> |在消除回声之前，第二终结点从捕获设备或麦克风设备检测到音频中存在回声的时间百分比。值按范围分组表示。  <br/> |空值表示非音频流，或者第二终结点未报告数据。<br/>  **示例值：** 068: [5-10)  <br/> |
 |First Echo Percent Send  <br/> |范围（百分比）  <br/> |在消除回声之后，第一终结点从捕获设备或麦克风设备检测到音频中存在回声的时间百分比。值按范围分组表示。  <br/> |空值表示非音频流，或者第一终结点未报告数据。<br/>  **示例值：** 068: [5-10)  <br/> |
@@ -308,26 +308,26 @@ ms.lasthandoff: 04/18/2018
 |Second Device Multiple Endpoints Event Count  <br/> |范围（比率）  <br/> |通话期间，第二终结点检测到同一房间或声音环境中存到多个终结点的次数。值按范围分组表示。  <br/> |空值表示非音频流，或者第二终结点未报告数据。 <br/>**示例值：** 016: [0.02-0.03)  <br/> |
 |First Device Howling Event Count  <br/> |范围（比率）  <br/> |通话期间，第一终结点检测到同一房间或声音环境中存到两个或更多个终结点并因此导致存在啸声或尖叫声的差质量音频的次数。值按范围分组表示。  <br/> |空值表示非音频流，或者第一终结点未报告数据。  <br/>**示例值：** 016: [0.02-0.03)  <br/> |
 |Second Device Howling Event Count  <br/> |范围（比率）  <br/> |通话期间，第二终结点检测到同一房间或声音环境中存到两个或更多个终结点并因此导致存在啸声或尖叫声的差质量音频的次数。值按范围分组表示。  <br/> |空值表示非音频流，或者第二终结点未报告数据。  <br/>**示例值：** 016: [0.02-0.03)  <br/> |
-|Error Report Sender  <br/> |字符串  <br/> |指示发送流的通话错误报告的终结点。此报告包含额外的遥测并可能指出通话中的通话设置或断线问题。  <br/> |空值表示没有发送通话错误报告。  <br/>**示例值：**第一个  <br/> |
-|Is Media Error  <br/> |字符串  <br/> |指示为流报告的通话错误是否为媒体级错误。此报告包含额外的遥测并可能指出通话中的通话设置或断线问题。  <br/> |空值表示没有发送通话错误报告。 <br/>**示例值：**真  <br/> |
-|Media Failure Type  <br/> |字符串  <br/> | 与流关联的媒体故障的类型。可能的值： <br/>  Midcall <br/>  CallSetup <br/>  NotMediaFailure。 <br/> |空值表示没有发送通话错误报告。 <br/> **示例值：**Midcall  <br/> |
-|Rtp Rtcp Mux  <br/> |布尔值  <br/> |True 表示在同一端口多路复用 RTP 和 RTCP。否则为 False。  <br/> |空值表示终结点未报告此数据。 <br/>**示例值：**真  <br/> |
+|Error Report Sender  <br/> |字符串  <br/> |指示发送流的通话错误报告的终结点。此报告包含额外的遥测并可能指出通话中的通话设置或断线问题。  <br/> |空值表示没有发送通话错误报告。  <br/>**示例值：** 第一个  <br/> |
+|Is Media Error  <br/> |字符串  <br/> |指示为流报告的通话错误是否为媒体级错误。此报告包含额外的遥测并可能指出通话中的通话设置或断线问题。  <br/> |空值表示没有发送通话错误报告。 <br/>**示例值：** True  <br/> |
+|Media Failure Type  <br/> |字符串  <br/> | 与流关联的媒体故障的类型。可能的值： <br/>  Midcall <br/>  CallSetup <br/>  NotMediaFailure。 <br/> |空值表示没有发送通话错误报告。 <br/> **示例值：** Midcall  <br/> |
+|Rtp Rtcp Mux  <br/> |布尔值  <br/> |True 表示在同一端口多路复用 RTP 和 RTCP。否则为 False。  <br/> |空值表示终结点未报告此数据。 <br/>**示例值：** True  <br/> |
 |Stun Version  <br/> |整型  <br/> |建立通话所使用的 STUN 协议的版本。  <br/> |空值表示终结点未报告此数据。  <br/>**示例值：** 2  <br/> |
 |Media Relay  <br/> |字符串  <br/> |用于会话的一个或多个媒体中继的 IP 地址。对于流，可能会报告一对中继，中间用"+"隔开。  <br/> |空值表示终结点未报告此数据。 <br/>**示例值：**"13.107.8.2 + 13.107.8.2"  <br/> |
-|Call Setup Failure Reason  <br/> |枚举  <br/> | 通话未能建立媒体连接的原因分类。可能的值： <br/>  缺少 FW 深度包检测免除规则 - 表示由于深度包检测规则，路径上的网络设备可能阻止建立媒体路径。这可能是因为未正确配置代理或防火墙规则。 <br/>  缺少 FW IP 阻止免除规则 - 表示路径上的网络设备可能阻止与 Office 365 网络建立媒体路径。这可能是因为未正确将代理或防火墙规则配置为允许访问用于 Skype for Business 流量的 IP 地址和端口。 <br/>  其他 - 表示通话无法建立媒体路径，但是未能对根本原因进行分类。 <br/>  没有介质故障的指示与介质路径建立检测到任何问题。 <br/> |空值表示通话没有因为已知的媒体问题而未能建立。  <br/>**示例值：**缺少转发 IP 块例外规则  <br/> |
-|Is Anonymous Join Session  <br/> |布尔值  <br/> |如果用户匿名加入会议，则为 True，否则为 False。  <br/> |空值表示没有数据可以确定用户是否为匿名加入。 <br/> **示例值：**真  <br/> |
-|Has Media Diag Blob  <br/> |布尔值  <br/> |如何会话具有媒体诊断数据，则为 True，否则为 False。  <br/> |空值表示没有为此流收集某些信号数据。 <br/> **示例值：**真  <br/> |
-|Used Dns Resolve Cache  <br/> |布尔值  <br/> |如果终结点使用了 DNS 缓存来解析媒体中继地址，则为 True，否则为 False。  <br/> |空值表示终结点未报告此数据。 <br/> **示例值：**假  <br/> |
-|Network Connection Detail Pair  <br/> |枚举对  <br/> | 表示第一和第二终结点的网络连接详情的成对值。可能的值： <br/>  wifi : wifi <br/>  wifi : 有线 <br/>  有线 : wifi <br/>  有线 : 有线 <br/>  MobileBB : MobileBB <br/>  MobileBB : 其他 <br/>  MobileBB : 隧道 <br/>  MobileBB : wifi <br/>  MobileBB : 有线 <br/>  其他 : 其他 <br/>  其他 : wifi <br/>  其他 : 有线 <br/>  隧道 : 隧道 <br/>  隧道 : wifi <br/>  隧道 : 有线 <br/>  : MobileBB <br/>  : 其他 <br/>  : 隧道 <br/>  : wifi <br/>  : 有线 <br/>  : <br/> |枚举中的空值表示终结点网络连接类型未知。当无法建立通话时可能会出现这种情况。<br/> **示例值：**有线： 有线  <br/> |
-|User Agent Category Pair  <br/> |枚举对  <br/> |表示第一和第二终结点的用户代理类别的成对值。  <br/> |枚举中的空值表示终结点用户代理不是已知类型。 <br/> **示例值：**AV MCU: OC  <br/> |
-|Is Server Pair  <br/> |枚举对  <br/> |表示第一和第二终结点是客户端还是服务器的成对值。可能的值：客户端 : 客户端、客户端 : 服务器、服务器 : 服务器。  <br/> |没有空值  <br/>**示例值：**客户端： 服务器  <br/> |
-|Connectivity Ice Pair  <br/> |枚举对  <br/> | 表示每个终结点使用的 ICE 连接类型的成对值。可能的值： <br/>  直接 : 直接 <br/>  直接 : 失败 <br/>  直接 : HTTP <br/>  失败 : 失败 <br/>  失败 : 中继 <br/>  HTTP : 中继 <br/>  : <br/>  : 直接 <br/>  : 失败 <br/>  : HTTP <br/>  : 中继 <br/> |枚举中的空值表示终结点使用的 ICE 连接未知或未被报告。  <br/>**示例值：**直接： 中继  <br/> |
-|OS Pair  <br/> |枚举对  <br/> |表示第一和第二终结点的操作系统名称和版本的成对值。  <br/> |枚举中的空值表示无法解析或终结点未报告操作系统名称。 <br/>**示例值：**Windows 10: Windows 10  <br/> |
+|Call Setup Failure Reason  <br/> |枚举  <br/> | 通话未能建立媒体连接的原因分类。可能的值： <br/>  缺少 FW 深度包检测免除规则 - 表示由于深度包检测规则，路径上的网络设备可能阻止建立媒体路径。这可能是因为未正确配置代理或防火墙规则。 <br/>  缺少 FW IP 阻止免除规则 - 表示路径上的网络设备可能阻止与 Office 365 网络建立媒体路径。这可能是因为未正确将代理或防火墙规则配置为允许访问用于 Skype for Business 流量的 IP 地址和端口。 <br/>  其他 - 表示通话无法建立媒体路径，但是未能对根本原因进行分类。 <br/>  不媒体失败-指示使用的媒体路径建立检测到没有问题。 <br/> |空值表示通话没有因为已知的媒体问题而未能建立。  <br/>**示例值：** 缺少 FW IP 阻止免除规则  <br/> |
+|Is Anonymous Join Session  <br/> |布尔值  <br/> |如果用户匿名加入会议，则为 True，否则为 False。  <br/> |空值表示没有数据可以确定用户是否为匿名加入。 <br/> **示例值：** True  <br/> |
+|Has Media Diag Blob  <br/> |布尔值  <br/> |如何会话具有媒体诊断数据，则为 True，否则为 False。  <br/> |空值表示没有为此流收集某些信号数据。 <br/> **示例值：** True  <br/> |
+|Used Dns Resolve Cache  <br/> |布尔值  <br/> |如果终结点使用了 DNS 缓存来解析媒体中继地址，则为 True，否则为 False。  <br/> |空值表示终结点未报告此数据。 <br/> **示例值：** False  <br/> |
+|Network Connection Detail Pair  <br/> |枚举对  <br/> | 表示第一和第二终结点的网络连接详情的成对值。可能的值： <br/>  wifi : wifi <br/>  wifi : 有线 <br/>  有线 : wifi <br/>  有线 : 有线 <br/>  MobileBB : MobileBB <br/>  MobileBB : 其他 <br/>  MobileBB : 隧道 <br/>  MobileBB : wifi <br/>  MobileBB : 有线 <br/>  其他 : 其他 <br/>  其他 : wifi <br/>  其他 : 有线 <br/>  隧道 : 隧道 <br/>  隧道 : wifi <br/>  隧道 : 有线 <br/>  : MobileBB <br/>  : 其他 <br/>  : 隧道 <br/>  : wifi <br/>  : 有线 <br/>  : <br/> |枚举中的空值表示终结点网络连接类型未知。当无法建立通话时可能会出现这种情况。<br/> **示例值：** 有线： 有线  <br/> |
+|User Agent Category Pair  <br/> |枚举对  <br/> |表示第一和第二终结点的用户代理类别的成对值。  <br/> |枚举中的空值表示终结点用户代理不是已知类型。 <br/> **示例值：** AV MCU: OC  <br/> |
+|Is Server Pair  <br/> |枚举对  <br/> |表示第一和第二终结点是客户端还是服务器的成对值。可能的值：客户端 : 客户端、客户端 : 服务器、服务器 : 服务器。  <br/> |没有空值  <br/>**示例值：** 客户端： 服务器  <br/> |
+|Connectivity Ice Pair  <br/> |枚举对  <br/> | 表示每个终结点使用的 ICE 连接类型的成对值。可能的值： <br/>  直接 : 直接 <br/>  直接 : 失败 <br/>  直接 : HTTP <br/>  失败 : 失败 <br/>  失败 : 中继 <br/>  HTTP : 中继 <br/>  : <br/>  : 直接 <br/>  : 失败 <br/>  : HTTP <br/>  : 中继 <br/> |枚举中的空值表示终结点使用的 ICE 连接未知或未被报告。  <br/>**示例值：** 直接： 中继  <br/> |
+|OS Pair  <br/> |枚举对  <br/> |表示第一和第二终结点的操作系统名称和版本的成对值。  <br/> |枚举中的空值表示无法解析或终结点未报告操作系统名称。 <br/>**示例值：** Windows Windows 10: 10  <br/> |
 |Tenant Id Pair  <br/> |枚举对  <br/> |表示第一和第二终结点的租户 ID 的成对值。  <br/> |枚举中的空值表示无法确定租户标识符。当终结点登录到了本地 Skype for Business Server 部署时可能会出现此情况。<br/> **示例值：** 00000000-0000-0000-0000-000000000000: 00000000-0000-0000-0000-000000000000  <br/> |
-|Building Name Pair  <br/> |枚举对  <br/> |表示第一和第二终结点的建筑物名称的成对值。  <br/> |枚举中的空值表示无法确定终结点的建筑物名称。这可能是因为终结点位于企业网络外部，或正在从没有子网映射的站点访问网络。<br/>**示例值：**主建筑： 分支站点构建  <br/> |
-|Inside Corp Pair  <br/> |枚举对  <br/> | 根据子网映射，显示终结点位于企业网络内部还是外部的成对值。可能的值： <br/>  内部 : 内部 <br/>  内部 : 外部 <br/>  外部 : 外部 <br/> |**示例值：**内部： 内部  <br/> |
-|Scenario Pair  <br/> |枚举对  <br/> |显示终结点位于企业网络内部还是外部（根据子网映射确定）以及网络连接详情的成对值。  <br/> **注意：**对分隔的-。           |枚举中的空值表示一个或两个终结点的网络连接类型未知。 <br/>**示例值：**内部客户端-客户端-内-wifi  <br/> |
-|是团队  <br/> |布尔值  <br/> |True 指示流的第一个或第二个用户代理是 Microsoft 小组终结点。  <br/> False 指示用户代理的 Skype 业务终结点。  |**示例值：**真  |
+|Building Name Pair  <br/> |枚举对  <br/> |表示第一和第二终结点的建筑物名称的成对值。  <br/> |枚举中的空值表示无法确定终结点的建筑物名称。这可能是因为终结点位于企业网络外部，或正在从没有子网映射的站点访问网络。<br/>**示例值：** 主构建： 分支站点构建  <br/> |
+|Inside Corp Pair  <br/> |枚举对  <br/> | 根据子网映射，显示终结点位于企业网络内部还是外部的成对值。可能的值： <br/>  内部 : 内部 <br/>  内部 : 外部 <br/>  外部 : 外部 <br/> |**示例值：** 内部： 内部  <br/> |
+|Scenario Pair  <br/> |枚举对  <br/> |显示终结点位于企业网络内部还是外部（根据子网映射确定）以及网络连接详情的成对值。  <br/> **注意：** 使用分隔对-。           |枚举中的空值表示一个或两个终结点的网络连接类型未知。 <br/>**示例值：** 客户端内部-客户端-内部 wifi  <br/> |
+|是团队  <br/> |布尔值  <br/> |True 指示流的第一个或第二个用户代理的 Microsoft 团队终结点。  <br/> False 指示用户代理的 Skype 业务终结点。  |**示例值：** True  |
    
 ### <a name="notes-on-dimension-data-typeunits"></a>关于维度数据类型/单位的说明：
 
@@ -335,7 +335,7 @@ ms.lasthandoff: 04/18/2018
 
 按范围或分组表示的维度值使用以下格式显示：
   
- _\<排序顺序的字符串\>[\<下限含\> - \<上限独占\>)_
+ _\<排序顺序字符串\>[\<下限非独占\> - \<上限独占\>)_
   
 例如，持续时间（分钟）维度表示以分钟为单位的通话持续时间，报告的值以取值范围的形式表示。
   
@@ -394,8 +394,8 @@ ms.lasthandoff: 04/18/2018
 |Audio OnePercent PacketLoss Count  <br/> |流的数量  <br/> |丢包率大于 1% 的音频流的数量。  <br/> |
 |Audio OnePercent PacketLoss Percentage  <br/> |百分比  <br/> |丢包率大于 1% 的所有音频流的百分比。  <br/> |
 |Audio Poor Due To Jitter Count  <br/> |流的数量  <br/> |抖动指标超过以下文章中所列阈值的音频流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Audio Poor Due To PacketLoss Count  <br/> |流的数量  <br/> |此处列出的数据包丢失指标超过了阈值的音频流数量：[分类差在 Lync 2013 QoE 为调用的基础是什么？](https://aka.ms/cqd_quality_thresholds)  <br/> |
-|Audio Poor Due To Degradation Count  <br/> |流的数量  <br/> |其中下降指标超过阈值的音频流的数目如下：[分类差在 Lync 2013 QoE 为调用的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
+|Audio Poor Due To PacketLoss Count  <br/> |流的数量  <br/> |此处列出的数据包丢失指标超过了阈值的音频流数：[用于进行分类为 Lync 2013 QoE 中的质量欠佳的呼叫的基准是什么？](https://aka.ms/cqd_quality_thresholds)  <br/> |
+|Audio Poor Due To Degradation Count  <br/> |流的数量  <br/> |此处列出性能降低指标超过了阈值的音频流数：[用于进行分类为 Lync 2013 QoE 中的质量欠佳的呼叫的基准是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
 |Audio Poor Due To RoundTrip Count  <br/> |流的数量  <br/> |往返时间超过以下文章中所列阈值的音频流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
 |Audio Poor Due To ConcealedRatio Count  <br/> |流的数量  <br/> |隐藏比率超过以下文章中所列阈值的音频流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
 |AppSharing Poor Due To SpoiledTilePercentTotal Count  <br/> |流的数量  <br/> |总损坏图块百分比指标超过以下文章中所列阈值的应用程序共享流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
@@ -437,16 +437,16 @@ ms.lasthandoff: 04/18/2018
 |Second Feedback Rating Poor Percentage  <br/> |被评级的流的数量  <br/> |被使用第二终结点的用户评级为 1 或 2 的所有流的百分比。通话评级分为 1-5 级，评级适用于通话的所有流。  <br/> |
 |First Feedback Token Audio Issue Count  <br/> |被评级流的数量  <br/> |被使用第一终结点的用户指出存在音频问题的流的数量。  <br/> |
 |Second Feedback Token Audio Issue Count  <br/> |被评级流的数量  <br/> |被使用第二终结点的用户指出存在音频问题的流的数量。  <br/> |
-|First Feedback Token Video Issue Count  <br/> |被评级的流的数量  <br/> |用户使用的第一个端点位置指示显卡有问题的流数。  <br/> |
-|Second Feedback Token Video Issue Count  <br/> |被评级的流的数量  <br/> |用户使用第二个端点位置指示显卡有问题的流数。  <br/> |
-|Audio SLA Good Call Count  <br/> |通话的数量  <br/> |归类为满足网络性能目标的 Skype 语音业务的质量 SLA （[批量许可的 Microsoft 产品和在线服务](http://aka.ms/voicequalitysla)） 的范围内的音频呼叫数。  <br/> |
-|Audio SLA Poor Call Count  <br/> |通话的数量  <br/> |Skype 业务语音质量 SLA （[批量许可的 Microsoft 产品和在线服务](http://aka.ms/voicequalitysla)） 归为不能满足网络性能目标的范围内的音频呼叫数。  <br/> |
-|Audio SLA Call Count  <br/> |通话的数量  <br/> |Skype 语音业务的质量 SLA （[批量许可的 Microsoft 产品和在线服务](http://aka.ms/voicequalitysla)） 的范围内的音频呼叫数。  <br/> |
+|First Feedback Token Video Issue Count  <br/> |被评级的流的数量  <br/> |用户使用的第一个终结点其中指出将问题与视频流的数目。  <br/> |
+|Second Feedback Token Video Issue Count  <br/> |被评级的流的数量  <br/> |用户使用的第二个终结点其中指出将问题与视频流的数目。  <br/> |
+|Audio SLA Good Call Count  <br/> |通话的数量  <br/> |分类为会议网络性能目标的 Skype 的业务语音质量 SLA （[批量许可的 Microsoft 产品和联机服务](http://aka.ms/voicequalitysla)） 的范围内的音频呼叫的数目。  <br/> |
+|Audio SLA Poor Call Count  <br/> |通话的数量  <br/> |Skype 业务语音质量 SLA （[批量许可的 Microsoft 产品和联机服务](http://aka.ms/voicequalitysla)） 归类为无法满足网络性能目标的范围内的音频呼叫数。  <br/> |
+|Audio SLA Call Count  <br/> |通话的数量  <br/> |Skype 业务语音质量 SLA （[批量许可的 Microsoft 产品和联机服务](http://aka.ms/voicequalitysla)） 的范围内的音频呼叫数。  <br/> |
 |Audio SLA Good Call Percentage  <br/> |百分比  <br/> |Skype for Business 语音质量 SLA（[Microsoft 产品和在线服务的批量许可](http://aka.ms/voicequalitysla)）范围内被分类为满足网络性能目标的音频通话的百分比。  <br/> |
-|Audio Good Call Stream Count  <br/> |流的数量  <br/> |其中两个音频流中调用 （调用腿） 不属于基于网络标准差的音频流的数目如下：[分类差在 Lync 2013 QoE 为调用的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Audio Poor Call Stream Count  <br/> |流的数量  <br/> |此处列出的音频流调用 （调用腿） 中的至少一个音频流被分为基于网络跃点值的差数：[分类差在 Lync 2013 QoE 为调用的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Audio Unclassified Call Stream Count  <br/> |流的数量  <br/> |在其中调用 （调用腿） 中的两个音频流可能不属于由于缺少网络跃点值的音频流的数目。  <br/> |
-|Audio Poor Call Percentage  <br/> |百分比  <br/> |此处列出的所有音频流调用 （调用腿） 中的至少一个音频流被分为基于网络标准差的百分比：[分类差在 Lync 2013 QoE 为调用的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
+|Audio Good Call Stream Count  <br/> |流的数量  <br/> |其中两个音频流 （呼叫线路） 的调用中不属于根据网络指标的质量欠佳的音频流数此处列出：[用于进行分类为 Lync 2013 QoE 中的质量欠佳的呼叫的基准是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
+|Audio Poor Call Stream Count  <br/> |流的数量  <br/> |此处列出其中至少一个音频流 （呼叫线路） 的调用中已归类为质量欠佳根据网络指标的音频流数：[用于进行分类为 Lync 2013 QoE 中的质量欠佳的呼叫的基准是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
+|Audio Unclassified Call Stream Count  <br/> |流的数量  <br/> |其中两个音频流 （呼叫线路） 的调用中可能不属于由于缺少网络指标的音频流的数目。  <br/> |
+|Audio Poor Call Percentage  <br/> |百分比  <br/> |此处列出的所有音频流其中至少一个音频流 （呼叫线路） 的调用中已归类为质量欠佳根据网络指标的百分比：[用于进行分类为 Lync 2013 QoE 中的质量欠佳的呼叫的基准是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
 |Avg First Echo Percent Mic In  <br/> |百分比  <br/> |在流持续期间，第一终结点在消除回声之前通过捕获设备或麦克风设备在音频中检测到回声的持续时间的平均百分比。  <br/> |
 |Avg Second Echo Percent Mic In  <br/> |百分比  <br/> |在流持续期间，第二终结点在消除回声之前通过捕获设备或麦克风设备在音频中检测到回声的持续时间的平均百分比。  <br/> |
 |Avg First Echo Percent Send  <br/> |百分比  <br/> |在流持续期间，第一终结点在消除回声之后通过捕获设备或麦克风设备在音频中检测到回声的持续时间的平均百分比。  <br/> |
@@ -477,7 +477,7 @@ ms.lasthandoff: 04/18/2018
 |Total Media Succeeded Stream Count  <br/> |流的数量  <br/> |媒体路径成功建立并正常终止的流的数量。  <br/> |
 |Total Call Setup Succeeded Stream Count  <br/> |流的数量  <br/> |呼叫之初在终结点之间成功建立媒体路径的流的数量。  <br/> |
 |Total Call Setup Failure Percentage  <br/> |百分比  <br/> |呼叫之初无法在终结点之间建立媒体路径的所有流的百分比。  <br/> |
-|Total Call Dropped Failure Percentage  <br/> |百分比  <br/> |地方媒体路径未正常终止的成功建立流的百分比。  <br/> |
+|Total Call Dropped Failure Percentage  <br/> |百分比  <br/> |已成功建立流其中媒体路径未正常终止的百分比。  <br/> |
 |Total Answer Seizure Ratio  <br/> |比率  <br/> |持续时间低于 5 秒钟的通话占通话总数的比率。  <br/> |
 |Total Short Call Percentage  <br/> |百分比  <br/> |长度低于 1 分钟的所有通话的百分比。  <br/> |
 |Total Media Failure Percentage  <br/> |百分比  <br/> |媒体路径未能建立或未正常终止的所有流的百分比。  <br/> |
@@ -513,7 +513,7 @@ ms.lasthandoff: 04/18/2018
 
 [使用通话分析解决 Skype for Business 通话质量不佳的问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[通话分析与通话质量仪表板之间有何区别？](Difference-between-call-analytics-and-call-quality-dashboard.md)
+[呼叫分析和呼叫质量仪表板](Difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  
