@@ -25,7 +25,7 @@
 ## [通话质量仪表板中可用的维度和衡量指标](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [设置 Skype for Business 通话分析](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [使用通话分析解决 Skype for Business 通话质量不佳的问题](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [通话分析与通话质量仪表板之间有何区别？](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [呼叫分析和呼叫质量仪表板](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 
@@ -50,7 +50,6 @@
 ## [配置 Exchange 混合组织以配合使用 Teams](exchange-hybrid-organization.md)
 ## [在 Exchange Online 中将 Teams SMTP 域添加为接受的域](smtp-accepted-domain.md)
 ## [在 Outlook 中使用 Teams 会议外接程序](teams-add-in-for-outlook.md)
-
 
 
 
@@ -122,10 +121,10 @@
 
 ## 监视通话质量和 QOS
 ### [Teams 中的 QoS](QoS-in-Teams.md)
+### [呼叫分析和呼叫质量仪表板](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [通话质量仪表板中可用的维度和衡量指标](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [设置 Skype for Business 通话分析](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [使用通话分析解决 Skype for Business 通话质量不佳的问题](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [通话分析与通话质量仪表板之间有何区别？](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 ## 音频会议
