@@ -7,6 +7,7 @@
 ## [为 Teams 准备贵组织的网络](prepare-network.md)
 ## [Office 365 URL 和 IP 地址范围](Office-365-URLs-IP-address-ranges.md)
 ## [限制和规格团队](limits-specifications-teams.md)
+## [创建更改管理策略](change-management-strategy.md)
 
 
 
@@ -253,6 +254,7 @@
 ### [教程：使用 PowerShell 创建公司范围的团队](company-wide-team-creation-powershell.yml)
 
 ## 管理
+### [查看用户体验指南的质量](quality-of-experience-review-guide.md)
 ### [为 Teams 准备贵组织的网络](prepare-network.md)
 ### [工具和研讨会：规划、交付和运营 Teams](planning-workshop-practical-guide.md)
 ### [Teams 部署概述](deployment-overview.md)
