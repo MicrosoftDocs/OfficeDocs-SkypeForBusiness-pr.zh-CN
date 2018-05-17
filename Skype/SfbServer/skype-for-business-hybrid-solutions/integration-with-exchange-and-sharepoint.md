@@ -17,15 +17,15 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 摘要： 了解与 Exchange 和 SharePoint 的业务服务器 2015年集成 Skype。
-ms.openlocfilehash: 12f6974a6a0d3641242eda072332667ece31c72a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 51943ac3b67ec204429a1970836f03f04acec0d5
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>与 Exchange 和 SharePoint 集成
  
-**摘要：**了解与 Exchange 和 SharePoint 的业务服务器 2015年集成的 Skype。
+**摘要：** 了解与 Exchange 和 SharePoint 的业务服务器 2015年集成的 Skype。
   
 您可以为与 Microsoft Exchange Server 2016、 Microsoft Exchange Server 2013、 Microsoft Exchange Server 2010 和 SharePoint Server，这两个本地集成的业务服务器 2015年部署配置 Skype 和联机。 除非另行指定，否则所有客户端都支持下表中列出的功能。 有关客户端的详细信息支持，请参阅在[业务 online Skype 的客户端](https://go.microsoft.com/fwlink/p/?LinkId=281902)的业务联机客户端比较表的[Skype for Business 的桌面客户端功能比较](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)和 Skype。
   
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/03/2018
   
  **Skype 的本地业务服务器和本地 Exchange**
   
-| |
+
 |**功能**|**说明**|
 |:-----|:-----|
 |Outlook 中的 IM/状态  <br/> |有关详细信息，请参阅[IM 和状态](http://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx)。  <br/> |
@@ -55,7 +55,7 @@ ms.lasthandoff: 05/03/2018
    
  **Skype Business Server 本地和 Exchange Online**
   
-| |
+
 |**功能**|**说明**|
 |:-----|:-----|
 |Outlook 中的 IM/状态  <br/> |有关详细信息，请参阅[配置集成业务服务器 2015年和 Outlook Web App 的内部部署 Skype](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
@@ -75,7 +75,7 @@ ms.lasthandoff: 05/03/2018
    
  **Skype 业务在线和本地 Exchange**
   
-| |
+ 
 |**功能**|**说明**|
 |:-----|:-----|
 |Outlook 中的状态  <br/> ||
@@ -92,7 +92,7 @@ ms.lasthandoff: 05/03/2018
    
  **Skype for Business Online 和 Exchange Online**
   
-| |
+
 |**功能**|**说明**|
 |:-----|:-----|
 |Outlook 中的 IM/状态  <br/> ||

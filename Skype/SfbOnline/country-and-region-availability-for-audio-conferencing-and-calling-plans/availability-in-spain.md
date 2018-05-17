@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于西班牙业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: d526d9395865a6582b76356afe41ae4c231c2dfe
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: d09b0a7a00cf11c4b2fe6a3fcd85df59bf7fb3ac
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-spain"></a>西班牙中的可用性
 
@@ -56,6 +56,7 @@ ms.lasthandoff: 05/11/2018
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
 |适用于调用计划的分钟数。 |每月有可用的四个规划选项： <ul><li>120 分钟国内调用规划 </li><li>240 分钟国内调用规划</li></li><li>3000 minute 国内调用规划 </li></li><li>国内和国际呼叫计划 600 分钟</li></li> 
+|可以发起出站呼叫到声讯电话号码？ <br/> | 不支持这一次。 <br/> |
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码

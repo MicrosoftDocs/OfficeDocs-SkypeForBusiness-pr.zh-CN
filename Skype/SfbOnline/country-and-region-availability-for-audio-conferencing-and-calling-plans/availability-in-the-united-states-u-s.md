@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于美国的业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 5ecc646fc00725d05c2623d0097b236ee4ff1f80
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: b1d5f66f1ebb63553904a9b1992bf9e08d46a98a
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-the-united-states-us"></a>在美国 （美国） 的可用性
 
@@ -56,6 +56,7 @@ ms.lasthandoff: 05/11/2018
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
 |适用于调用计划的分钟数。 |每月有可用的四个规划选项： <ul><li>120 分钟国内调用规划 （可用性是有限）</li><li>240 分钟国内调用规划 （可用性是有限）</li></li><li>3000 minute 国内调用规划 </li></li><li>国内和国际呼叫计划 600 分钟</li></li> 
+|可以发起出站呼叫到声讯电话号码？ <br/> | 不支持这一次。 <br/> |
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
 >[!Note] 
 > 美国国内呼叫包括拨打至美国所有 50 个州和波多黎各的呼叫。 分配了美国和/或波多黎各的许可证使用位置的用户共享同一分钟数池。

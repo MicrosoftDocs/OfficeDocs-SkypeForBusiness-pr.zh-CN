@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 本文列出了在加拿大可用的适用于 Skype for Business 和 Microsoft Teams 的 Office 365 服务。
-ms.openlocfilehash: ecb8310f6440698ba8cd367d6128cde5b643b088
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 7547e82f6e5554ccb881ac167719f67d578ca5fe
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-canada"></a>在加拿大的可用性
 
@@ -56,6 +56,7 @@ ms.lasthandoff: 05/11/2018
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
 |适用于调用计划的分钟数。 |每月有可用的四个规划选项： <ul><li>120 分钟国内调用规划 </li><li>240 分钟国内调用规划</li></li><li>3000 minute 国内调用规划 </li></li><li>国内和国际呼叫计划 600 分钟</li></li> 
+|可以发起出站呼叫到声讯电话号码？  <br/> | 不支持这一次。<br/> |
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
 > [!Note]
 > 向美国的呼叫将被视为国内呼叫。
