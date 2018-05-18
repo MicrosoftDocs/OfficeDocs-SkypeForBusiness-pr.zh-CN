@@ -143,10 +143,9 @@
 ### [使用 ExpressRoute 的呼叫流](../optimizing-your-network/call-flow-using-expressroute.md)
 ### [Skype for Business Online 中的 ExpressRoute 和 QoS](../optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md)
 ### [媒体质量和网络连接性能](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
-### [Skype for Business Online 的代理服务器](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
+### [Skype for Business Online 的代理服务器](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md) 
 
-## 使用组织中的通话质量
-### [呼叫分析和呼叫质量仪表板](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
+## [呼叫分析和呼叫质量仪表板](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [通话质量仪表板中可用的维度和衡量指标](../using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [设置 Skype for Business 通话分析](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [启用和使用通话质量仪表板](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
