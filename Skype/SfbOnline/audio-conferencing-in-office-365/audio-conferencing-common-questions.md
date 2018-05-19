@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 下面是一些我们获得我们想要使用音频会议的客户的主要问题。
-ms.openlocfilehash: bc902c8c01abc7edab52c8e5341b93d2aaaaaeb7
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 1162b8550eac78f72d64202c681961f4b0eb723c
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="audio-conferencing-common-questions"></a>音频会议的常见问题
 
@@ -54,7 +54,7 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="can-i-add-a-toll-free-number-for-my-audio-conferencing-users"></a>可以将一个免费电话号码添加我的音频会议用户
 
-是，免费电话号码 （服务号码） 都可用，但仅在某些国家/地区。 若要查看的号码的可用列表转[此处](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+是，免费电话号码 （服务号码） 都可用，但仅在某些国家/地区。 可用号码列表，请参阅[国家和地区音频会议和调用计划的可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   
 ## <a name="how-many-local-dial-in-numbers-are-currently-supported"></a>目前支持多少个本地拨入号码？
 

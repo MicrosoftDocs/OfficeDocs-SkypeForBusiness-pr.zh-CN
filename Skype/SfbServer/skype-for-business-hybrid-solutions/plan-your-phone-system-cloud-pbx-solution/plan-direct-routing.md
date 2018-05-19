@@ -10,8 +10,8 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 阅读本主题可了解如何 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。
-ms.openlocfilehash: 9809c4acb5d80f18dc076b07e81c052caa6fbc0d
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 3e7a0899fd7a79003a522d59fe1f4f7508978a51
+ms.sourcegitcommit: 0d584174263c044c2ba12e32d2c924349226075c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/17/2018
@@ -190,9 +190,9 @@ SBC 使 DNS 查询解析 sip.pstnhub.microsoft.com。根据 SBC 位置和数据�
 |三级的数据中心 (sip3.pstnhub.microsoft.com)|亚洲|亚洲|欧盟|
 |||||
 
-## <a name="media-traffic-ip-addresses-and-port-ranges"></a>媒体流量： IP 地址和端口范围
+## <a name="media-traffic-port-ranges"></a>媒体流量： 端口范围
 
-媒体流量排列与单独的 Microsoft 云服务。 下表中显示的媒体处理器 IP 范围：
+媒体流量排列与单独的 Microsoft 云服务。 下表中显示的媒体处理器的端口范围： 
 
 |**流量**|**从**|**到**|**源端口**|**目标端口**|
 |:--- |:--- |:--- |:--- |:--- |

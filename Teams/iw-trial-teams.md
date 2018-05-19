@@ -1,9 +1,9 @@
 ---
-title: 管理 Microsoft 团队 IW 试用版
+title: 管理 Microsoft 团队商业云试用版
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
-ms.date: 04/27/2018
+ms.date: 05/17/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,16 +11,16 @@ ms.service: msteams
 localization_priority: Normal
 description: Office 365 用户未授权的 Microsoft 团队可以发起 1 年试用版的团队。
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 491f7503843d1feebbff88579fba1eae11895e0e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e282481cc8cdb5eba23a56ef32adff2e812fefbf
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/19/2018
 ---
-<a name="manage-the-iw-trial-offer-for-microsoft-teams"></a>管理 Microsoft 团队 IW 试用版
-=============================================
+<a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft 团队商业云试用版
+=======================================================
 
-Microsoft 团队是为您的组织的绝佳协作工具。 它使人和团队讨论、 创新和共享想法使用 Office 365 的能力。 IW 试用版的 Microsoft 团队提供了您的组织中未授权的 Microsoft 团队启动 1 年试用版的产品的现有 Office 365 用户。 管理员能够打开或关闭此功能可供其租户中的用户。
+Microsoft 团队是为您的组织的绝佳协作工具。 它使人和团队讨论、 创新和共享想法使用 Office 365 的能力。 Microsoft 团队商业云试用版提供了您的组织中未授权的 Microsoft 团队启动 1 年试用版的产品的现有 Office 365 用户。 管理员能够打开或关闭此功能可供其租户中的用户。
 
 ## <a name="whats-in-the-offer"></a>什么是在优惠中
 
@@ -38,11 +38,16 @@ Microsoft 团队是为您的组织的绝佳协作工具。 它使人和团队讨
 
 ## <a name="who-is-eligible"></a>谁有资格参与
 
-没有包括团队的 Office 365 许可证的用户可以启动 IW 试用版。 例如，如果用户具有 Office 365 企业高级版 （其中包括团队），并且禁用团队服务计划，它们不适合试用版。
+没有包括团队的 Office 365 许可证的用户可以启动 Microsoft 团队商业云试用版。 例如，如果用户具有 Office 365 企业高级版 （其中包括团队），并且禁用团队服务计划，它们不适合试用版。
 
-在租户级别，作为服务团队需要启用 （在工作组管理中心）。 （有关详细信息，请参阅[Office 365 组织中的管理 Microsoft 团队功能](enable-features-office-365.md)。 此外，用户必须启用以注册应用程序和试用 （英文） (Office 365 管理中心中）。 有关详细信息，请参阅本文后面的[管理试用，IW](#manage-the-iw-trial) 。
+此外，您的租户不符合试用 if 条件： 
+- 您是联合合作伙伴客户
+- 您是经销商合作伙伴客户
+- 您是 GCC、 GOV 或 EDU 客户
 
-GOV 和 EDU 租户不适合试用，IW。
+此外，如果您的租户的 Microsoft 团队商业云试用版不符合要求，您将不会看到**让用户安装试用版应用程序和服务**的开关。
+
+在租户级别，作为服务团队需要启用 （在工作组管理中心）。 有关详细信息，请参阅[Office 365 组织中的管理 Microsoft 团队 features](enable-features-office-365.md)。 此外，用户必须启用以注册应用程序和试用 （英文） (Office 365 管理中心中）。 有关详细信息，请参阅本文后面的[管理试用，IW](#manage-the-iw-trial) 。
 
 ## <a name="how-users-sign-up-for-the-trial"></a>如何用户注册试用版
 

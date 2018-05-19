@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 当您购买音频会议许可证时，Microsoft 承载您的组织的音频会议桥。 音频会议桥出从不同位置的电话拨入电话号码，即使这样会议组织者和参与者可以使用其加入 Skype 业务或 Microsoft 团队的会议使用电话。
-ms.openlocfilehash: de5959a6182e354a9f12669100b60f66fd70f88f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 89bc5d0ad31deec9ebc0a970bedc62cb5ed50bee
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改您的音频会议网桥上的电话号码
 
@@ -39,6 +39,9 @@ ms.lasthandoff: 05/03/2018
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>步骤 1-将新的电话号码分配给音频的会议桥
 
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 1. 使用你的工作帐户登录 Office 365。
     
 2. 转到**Office 365 管理中心** > **管理中心** > **for Business 的 Skype** > **语音** > **电话号码**。
@@ -52,8 +55,7 @@ ms.lasthandoff: 05/03/2018
     > [!NOTE]
     > [!注释] 分配了新电话号码后，即使该号码已经是新默认号码，现有用户的默认号码也不会更改。 设置默认收费和免费电话号码添加到组织者的会议邀请，请参阅[设置的电话号码包含在邀请](set-the-phone-numbers-included-on-invites.md)。 
   
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 
 ### <a name="step-2---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>第 2 步 - 更改用户的会议邀请中包含的默认电话号码（可选）
 
@@ -140,15 +142,15 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 ### <a name="to-verify-that-windows-powershell-is-ready-to-go"></a>确认 Windows PowerShell 是否准备就绪
 
- **检查正在运行的是 Windows PowerShell 3.0 版本或更高版本**
+ 这些步骤检查您运行 Windows PowerShell 版本 3.0 或更高。
   
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. 键入**开始菜单** > **Windows PowerShell**。
     
-2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
+2. 在检查版本**Windows PowerShell**窗口中键入_获取主机_。
     
 3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。请参阅 [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) 以下载 Windows PowerShell 并将其更新到 4.0 版本。出现提示时，请重启计算机。
     
-4. 还需要安装 Skype for Business Online 的 Windows PowerShell 模块，才可创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。可访问[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)，从 Microsoft 下载中心下载此模块，此模块仅在 64 位计算机上受支持。出现提示时，请重启计算机。
+4. 您还需要安装 Skype 业务 online，使您能够创建远程 Windows PowerShell 会话连接到 Skype 业务 online Windows PowerShell 模块。 本模块只能在 64 位计算机上支持，并可以从 Microsoft 下载中心上[的 Skype 业务 online Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。 出现提示时，请重启计算机。
     
 如果需要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)。
   
@@ -173,9 +175,9 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
   
-### <a name="save-time-or-automate"></a>节省时间或自动执行
+### <a name="save-time-and-automate"></a>节省时间并自动给出
 
-若要保存时间或自动执行此过程，可以使用[集 CsOnlineDialInConferencingUser](http://go.microsoft.com/fwlink/?LinkId=617688)或**集 CsOnlineDialInConferencingUserDefaultNumber** cmdlet。
+要通过自动执行此过程来节省时间，可以使用[集 CsOnlineDialInConferencingUser](http://go.microsoft.com/fwlink/?LinkId=617688)或**集 CsOnlineDialInConferencingUserDefaultNumber** cmdlet。
   
 - 使用 [Set-CsOnlineDialInConferencingUser](http://go.microsoft.com/fwlink/?LinkId=617688) cmdlet 可更改特定用户的默认收费电话号码或免费电话号码。
     
@@ -213,7 +215,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
   
 ## <a name="about-windows-powershell"></a>有关 Windows PowerShell
 
-对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。若要开始使用 Windows PowerShell，请参阅下列主题：
+使用 Windows PowerShell 中，您可以管理用户和它们是或不允许执行操作。 Windows PowerShell 可以帮助您管理 Office 365 和 Skype 业务 online 使用单点管理，可以简化您的日常工作，尤其是当您有多个要执行的任务。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

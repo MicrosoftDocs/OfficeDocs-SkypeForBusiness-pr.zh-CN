@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '获取所需更改用于提示呼叫者和它们不使用 Skype 业务或 Microsoft 团队的应用程序时收集名称和 pin 的会议组织者的会议桥的设置的步骤。 '
-ms.openlocfilehash: c58c1b3031da9e9ebe8408568bed0fd4b8c9ae9b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 439907b6b1055db2487491c4b0be89cbb96bdf72
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改现有音频会议桥的设置
 
@@ -75,13 +75,13 @@ ms.lasthandoff: 05/03/2018
     
   - " **启用会议进入和退出通知**"此选项默认情况下选中。 如果清除该复选框，某人进入或离开会议时，已加入会议的用户不会收到通知。
     
-    当选择了**启用会议进入和退出通知，以打开**时，您可以从**项/退出通知类型**列表选择这些选项：
+  - 当选择了**启用会议进入和退出通知，以打开**时，您可以从**项/退出通知类型**列表选择这些选项：
     
-  - **姓名或电话号码**当用户拨入会议时，当用户加入它时将播放其电话号码。
+   - **姓名或电话号码**当用户拨入会议时，当用户加入它时将播放其电话号码。
     
-  - **音**当用户拨入会议时，当用户加入它时将播放音频音。
+   - **音**当用户拨入会议时，当用户加入它时将播放音频音。
   
-  - " **要求呼叫者在加入会议之前录制其名称**"此选项默认情况下选中。 如果清除该复选框，呼叫者不需要记录其姓名，他们加入会议之前。
+   - " **要求呼叫者在加入会议之前录制其名称**"此选项默认情况下选中。 如果清除该复选框，呼叫者不需要记录其姓名，他们加入会议之前。
     
 3. 完成更改后，单击" **保存**"。
     

@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 你可以选择某个国家/地区以查看音频会议、电话系统、通话套餐、通信点数以及收费和免费电话号码是否可用。
-ms.openlocfilehash: 5707784f04dc52697ecd3d65b4c48ec105d10247
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: c106f90cee586fccbeb87b9b45757691191b449e
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -163,7 +163,7 @@ ms.lasthandoff: 05/08/2018
 ### <a name="phone-system"></a>电话系统
 通过电话系统，当你添加通话套餐以便用户可以使用 Skype for Business 处理基本的通话控制任务（例如拨打和接听来电、转接来电以及将通话静音和取消静音）时，你可以创建自动助理和呼叫队列（使用收费或免费电话号码）以接听你的组织的来电。 **电话系统**用户可以单击其通讯簿中的姓名，Skype for Business 将向该人拨打呼叫。 要拨打和接听呼叫，**电话系统**用户可以使用其移动设备、耳机与笔记本电脑或台式机或者使用 Skype for Business 的其中一个 IP 电话。
 
-除了从 Office 365 获取个人用户的电话号码，还可以搜索和获取某些服务的收费或免费电话号码，如音频会议（用于会议网桥）、自动助理和呼叫队列。 这些称为服务号码。 请参阅[Getting 服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)，以获取电话号码。 但是对于你的用户，在将通话套餐分配给他们之后，你可以分配用户电话号码以便他们可以拨打和接听电话。 你可以在[此处](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)查找这些电话号码。 你还可以参阅[为用户分配、更改或删除电话号码](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)。 
+除了从 Office 365 获取个人用户的电话号码，还可以搜索和获取某些服务的收费或免费电话号码，如音频会议（用于会议网桥）、自动助理和呼叫队列。 这些称为服务号码。 请参阅[Getting 服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)，以获取电话号码。 但是对于你的用户，在将通话套餐分配给他们之后，你可以分配用户电话号码以便他们可以拨打和接听电话。 要查找这些电话号码，请转到[您的用户获取电话号码](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)。 你还可以参阅[为用户分配、更改或删除电话号码](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)。 
 
 [电话系统的定价](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
 

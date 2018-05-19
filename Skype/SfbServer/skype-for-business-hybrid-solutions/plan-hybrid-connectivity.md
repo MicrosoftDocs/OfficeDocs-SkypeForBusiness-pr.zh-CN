@@ -17,11 +17,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 摘要： 阅读本主题可了解如何规划业务服务器 Skype 和 Skype 业务 online 之间的混合连接性。 设置混合连接是部署多种 Skype for Business 混合解决方案的第一步。
-ms.openlocfilehash: dbd7d2e00bf31b926ec4d54a0717c000459e8479
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 31c10423c6ba838e595de75e39d6f166de30c756
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>规划 Skype for Business Server 与 Skype for Business Online 之间的混合连接
  
@@ -299,9 +299,9 @@ ms.lasthandoff: 05/17/2018
 |SIP (MTLS)  <br/> |TCP  <br/> |访问边缘  <br/> |Office 365  <br/> |任何  <br/> |5061  <br/> |信号  <br/> |
 |SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |访问边缘  <br/> |任何  <br/> |5061  <br/> |信号  <br/> |
 |STUN  <br/> |TCP  <br/> |A/V 边缘  <br/> |Office 365  <br/> |50000-59999  <br/> |443  <br/> |为音频、视频、应用程序共享会话打开  <br/> |
-|STUN  <br/> |TCP  <br/> |Office 365  <br/> |A/V 边缘  <br/> |任何  <br/> |443  <br/> |为音频、视频、应用程序共享会话打开  <br/> |
+|STUN  <br/> |TCP  <br/> |Office 365  <br/> |A/V 边缘  <br/> |50000-59999  <br/> |443  <br/> |为音频、视频、应用程序共享会话打开  <br/> |
 |STUN  <br/> |UDP  <br/> |A/V 边缘  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |为音频、视频会话打开  <br/> |
-|STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V 边缘  <br/> |任何  <br/> |3478  <br/> |为音频、视频会话打开  <br/> |
+|STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V 边缘  <br/> |443  <br/> |3478  <br/> |为音频、视频会话打开  <br/> |
    
 有关端口和防火墙的边缘服务器规划的详细信息，请参阅[中的业务服务器 2015 Skype 的边缘服务器环境要求](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)。 请参阅[服务器的端口和协议要求](../plan-your-deployment/network-requirements/ports-and-protocols.md)和[协议工作负荷图表](http://go.microsoft.com/fwlink/p/?LinkId=550989)。
   
