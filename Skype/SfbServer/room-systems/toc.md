@@ -16,7 +16,6 @@
 ### [配置控制台](../deploy/deploy-clients/console.md)
 ### [使用 System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
 ### [使用 OMS 管理](../deploy/deploy-clients/with-oms.md)
-### [Skype 会议室系统 v2 脚本](../deploy/deploy-clients/room-systems-v2-scripts.md)
 ## 管理
 ### [管理概述](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 ### [维护和操作](../manage/skype-room-systems-v2/room-systems-v2-operations.md)
