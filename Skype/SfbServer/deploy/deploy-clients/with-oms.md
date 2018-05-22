@@ -13,11 +13,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文讨论如何在使用 Microsoft 操作管理套件集成的端到端方式中部署的 Skype 会议室系统 v2 设备管理。
-ms.openlocfilehash: 13648c9a74cbd30f69884eb19fde5004999cc4e3
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 7d8dc8a7e7f5a74c68fbc7bf5ecb98664c2b02ad
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>使用 OMS 部署 Skype 会议室系统 v2 管理
  
@@ -169,7 +169,7 @@ ms.lasthandoff: 05/11/2018
 
 可以导入的操作管理套件仪表板并启动立即监控您的设备。 执行以下步骤以导入仪表板：
 
-1.  获取[SkypeRoomSystems_v2.omsview](room-systems-v2-scripts.md)仪表板文件。
+1.  获取[SkypeRoomSystems_v2.omsview](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview)仪表板文件。
 2.  登录到[Microsoft 操作管理套件门户](http://aka.ms/omsportal)。
 3.  打开**视图设计器**。
 4.  选择**导入**，，然后选择**SkypeRoomSystems_v2.omsview**文件。
@@ -184,10 +184,10 @@ ms.lasthandoff: 05/11/2018
 2.  选择**概述图块**，并从库选择**两个数字**。
 3.  名称平铺**Skype 会议室系统**。
 4.  定义**第一个图块**：<br>
-    **图例：**至少执行一次在上个月内发送检测信号的设备<br>
+    **图例：** 至少执行一次在上个月内发送检测信号的设备<br>
     **查询：**```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
 5.  定义**第二个图块**：<br>
-    **图例：**发送检测信号的最后一个小时内的活动设备<br>
+    **图例：** 发送检测信号的最后一个小时内的活动设备<br>
     **查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
 6.  选择**应用**。
 
@@ -195,16 +195,16 @@ ms.lasthandoff: 05/11/2018
 1.  选择**视图仪表板**开始添加您的图块数为单位。
 2.  从库中选择**号码和列表**
 3.  定义**常规**属性：<br>
-    **组标题：**检测信号状态<br>
-    **新组：**选择
+    **组标题：** 检测信号状态<br>
+    **新组：** 选择
 4.  定义**平铺**属性：<br>
-    **图例：**活动设备 （检测信号发送前 20 分钟内）<br>
+    **图例：** 活动设备 （检测信号发送前 20 分钟内）<br>
     **平铺查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  定义**列表**的属性：<br>
     **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 6.  定义**列标题**：<br>
-    **名称：**显示名称<br>
-    **值：**最后一个检测信号
+    **名称：** 显示名称<br>
+    **值：** 最后一个检测信号
 7.  定义**导航查询**。<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 8.  选择**应用**，然后**关闭**。
@@ -212,16 +212,16 @@ ms.lasthandoff: 05/11/2018
 ### <a name="create-a-tile-that-displays-devices-that-have-connectivity-issues"></a>创建具有连接问题的设备将显示一个图块
 1.  从库中，选择**号码和列表**，然后添加新的平铺。
 2.  定义**常规**属性：<br>
-    **组标题：**将保留为空<br>
-    **新组：**未选定
+    **组标题：** 将保留为空<br>
+    **新组：** 未选定
 3.  定义**平铺**属性：<br>
-    **图例：**非活动设备 （发送前 20 分钟内无检测信号消息）<br>
+    **图例：** 非活动设备 （发送前 20 分钟内无检测信号消息）<br>
     **平铺查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  定义**列表**的属性：<br>
     **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
 5.  定义**列标题**：<br>
-    **名称：**显示名称<br>
-    **值：**最后一个检测信号
+    **名称：** 显示名称<br>
+    **值：** 最后一个检测信号
 6.  定义**导航查询**：<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 7.  选择**应用**，然后**关闭**。
@@ -230,16 +230,16 @@ ms.lasthandoff: 05/11/2018
 
 1.  从库中，选择**号码和列表**，然后添加新的平铺。
 2.  定义**常规**属性：<br>
-    **组标题：**硬件<br>
-    **新组：**选择
+    **组标题：** 硬件<br>
+    **新组：** 选择
 3.  定义**平铺**属性：<br>
-    **图例：**最后一个小时内遇到硬件错误的设备 <br>
+    **图例：** 最后一个小时内遇到硬件错误的设备 <br>
     **平铺查询：**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  定义**列表**的属性：<br>
     **列表查询：**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer```
 5.  定义**列标题**：<br>
-    **名称：**显示名称<br>
-    **值：**最后一个错误
+    **名称：** 显示名称<br>
+    **值：** 最后一个错误
 6.  定义**导航查询**：<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
 7.  选择**应用**，然后**关闭**。
@@ -248,22 +248,22 @@ ms.lasthandoff: 05/11/2018
 
 1.  从库中，选择**圆环和列表**，然后添加新的平铺。
 2.  定义**常规**属性：<br>
-    **组标题：**Skype 会议室系统 v2 应用程序的详细信息 <br>
-    **新组：**选择
+    **组标题：** Skype 会议室系统 v2 应用程序的详细信息 <br>
+    **新组：** 选择
 3.  定义**标头**属性：<br>
-    **标题：**应用程序版本<br>
-    **副标题：**设备运行特定应用程序版本
+    **标题：** 应用程序版本<br>
+    **副标题：** 设备运行特定应用程序版本
 4.  定义**圆环**属性：<br>
     **查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize App_Version = max(SRSAppVersion_CF) by Computer | summarize AggregatedValue = count() by App_Version | sort by App_Version asc```<br>
-    **使文本居中：**设备<br>
-    **操作：**Sum
+    **使文本居中：** 设备<br>
+    **操作：** Sum
 5.  定义**列表**的属性。<br>
     **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
-    **隐藏图：**选择<br>
-    **启用迷你图：**未选定
+    **隐藏图：** 选择<br>
+    **启用迷你图：** 未选定
 6.  定义**列标题**。<br>
-    **名称：**显示名称<br>
-    **值：**将保留为空
+    **名称：** 显示名称<br>
+    **值：** 将保留为空
 7.  定义**导航查询**。<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 8.  选择**应用**，然后**关闭**。
@@ -272,16 +272,16 @@ ms.lasthandoff: 05/11/2018
 
 1.  从库中，选择**号码和列表**，然后添加新的平铺。
 2.  定义**常规**属性。<br>
-    **组标题：**将保留为空<br>
-    **新组：**未选定
+    **组标题：** 将保留为空<br>
+    **新组：** 未选定
 3.  定义**平铺**属性。<br>
-    **图例：**设备所遇最后一个小时内的应用程序错误<br>
+    **图例：** 设备所遇最后一个小时内的应用程序错误<br>
     **平铺查询：**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  定义**列表**的属性。<br>
     **列表查询：**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  定义**列标题**。<br>
-    **名称：**显示名称<br>
-    **值：**最后一个错误
+    **名称：** 显示名称<br>
+    **值：** 最后一个错误
 6.  定义**导航查询**。<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 2001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
 7.  选择**应用**，然后**关闭**。
@@ -290,16 +290,16 @@ ms.lasthandoff: 05/11/2018
 
 1.  从库中，选择**号码和列表**，然后添加新的平铺。
 2.  定义**常规**属性。<br>
-    **组标题：**将保留为空<br>
-    **新组：**未选定
+    **组标题：** 将保留为空<br>
+    **新组：** 未选定
 3.  定义**平铺**属性。<br>
-    **图例：**其中已重新启动应用程序中的最后一个 24 小时和重新启动次数的设备<br>
+    **图例：** 其中已重新启动应用程序中的最后一个 24 小时和重新启动次数的设备<br>
     **平铺查询：**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
 4.  定义**列表**的属性。<br>
     **列表查询：**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
 5.  定义**列标题**。<br>
-    **名称：**显示名称<br>
-    **值：**重新启动次数
+    **名称：** 显示名称<br>
+    **值：** 重新启动次数
 6.  定义**导航查询**。<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 7.  选择**应用**，然后**关闭**。
@@ -346,15 +346,15 @@ ms.lasthandoff: 05/11/2018
 4.  执行查询后，选择**通知**。 这将打开**添加通知规则**页。
 
 5.  使用下面的信息配置通知设置：<br>
-    **规则名称：**Skype 会议室系统硬件故障警报<br>
-    **说明：**遇到硬件问题的最后一个小时内的设备的列表<br>
-    **严重性：**关键<br>
-    **查询：**使用预填充的搜索查询<br>
+    **规则名称：** Skype 会议室系统硬件故障警报<br>
+    **说明：** 遇到硬件问题的最后一个小时内的设备的列表<br>
+    **严重性：** 关键<br>
+    **查询：** 使用预填充的搜索查询<br>
     **时间段：** 1 小时<br>
     **通知的频率：** 1 小时<br>
-    **的结果数：**大于 0<br>
-    **电子邮件主题：**Skype 会议室系统硬件故障警报<br>
-    **收件人：**包括使用分号作为分隔符的电子邮件地址<br>
+    **的结果数：** 大于 0<br>
+    **电子邮件主题：** Skype 会议室系统硬件故障警报<br>
+    **收件人：** 包括使用分号作为分隔符的电子邮件地址<br>
 
 6.  选择**保存**。
 
@@ -375,15 +375,15 @@ ms.lasthandoff: 05/11/2018
 3.  执行查询后，选择**通知**。 这将打开**添加通知规则**页。
 
 4.  使用下面的信息配置通知设置：<br>
-    **规则名称：**Skype 会议室系统应用程序失败通知<br>
-    **说明：**遇到的应用程序问题的最后一个小时内的设备的列表<br>
-    **严重性：**关键<br>
-    **查询：**使用预填充的搜索查询<br>
+    **规则名称：** Skype 会议室系统应用程序失败通知<br>
+    **说明：** 遇到的应用程序问题的最后一个小时内的设备的列表<br>
+    **严重性：** 关键<br>
+    **查询：** 使用预填充的搜索查询<br>
     **时间段：** 1 小时<br>
     **通知的频率：** 1 小时<br>
-    **的结果数：**大于 0<br>
-    **电子邮件主题：**Skype 会议室系统应用程序失败通知<br>
-    **收件人：**包括使用分号作为分隔符的电子邮件地址
+    **的结果数：** 大于 0<br>
+    **电子邮件主题：** Skype 会议室系统应用程序失败通知<br>
+    **收件人：** 包括使用分号作为分隔符的电子邮件地址
 
 5.  选择**保存**。
 

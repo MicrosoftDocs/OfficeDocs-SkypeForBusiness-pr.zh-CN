@@ -10,11 +10,11 @@ ms.reviewer: marcl, ninadara, v-leslc
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13db401651181bf186a61f643b80c7750b9978a0
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 6624aa94ef6581805e3ba2b79f09aefb95616bb0
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
   
@@ -84,7 +84,7 @@ ms.lasthandoff: 05/09/2018
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|重命名 Microsoft 团队中的通道不重命名 SharePoint Online 中的相应文件夹  <br/> |如果在 Microsoft 团队中重命名通道，SharePoint Online 与团队对应的文档库中的文件夹不会更改以匹配。 而被创建一个新文件夹以与新的通道名称相匹配。 原始文档库文件夹中的文件不会迁移。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/> |
+|重命名 Microsoft 团队中的通道不重命名 SharePoint Online 中的相应文件夹  <br/> |如果在 Microsoft 团队中重命名通道，SharePoint Online 与团队对应的文档库中的文件夹不会更改以匹配。 在重命名的通道文件选项卡的顶部显示正确的 SharePoint Online 文件夹名称。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/> |
 
 ## <a name="chat"></a>Chat
 
