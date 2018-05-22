@@ -11,11 +11,11 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5913b67c8c15fbff7f59b1155f7c2e366d6bb93c
-ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
+ms.openlocfilehash: e93a69394c1de57c32a9ce8185dbbd406890d55d
+ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 05/22/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 ==================================
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/19/2018
 | [音频会议视频](audio-conferencing-videos.md) |向 IT 管理员介绍 Teams 中的音频会议的视频。  |
 | [教程：Teams 中的会议](tutorial-meetings-in-teams.yml) | 此培训介绍团队中的会议。 它包括了会议功能，以及要求和规划注意事项。 |
 | 部署和操作 Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
-| 直接路由 （预览） 的 Microsoft 团队   | <iframe width="350" height="200" src="https://www.youtube.com/watch?v=RjJAn9BAxDw" frameborder="0" allowfullscreen></iframe>   |
+| 直接路由 （预览） 的 Microsoft 团队   | <iframe width="350" height="200" src="https://www.youtube.com/embed/RjJAn9BAxDw" frameborder="0" allowfullscreen></iframe>   |
 | 深入了解来宾访问 <br>与 Laith Al 和 Karuana Gatimu 进行的云会话中的增补内容  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 | Microsoft Teams 中的电子数据展示 <br> 与 Ansuman Acharya 和 Karuana Gatimu 进行的云会话中的增补内容  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
 | Teams：使用、启用和管理体验的分布简介 <br> Microsoft Mechanics 与 Dan Stevenson 和 Jeremy Chapman 进行的会话 |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |

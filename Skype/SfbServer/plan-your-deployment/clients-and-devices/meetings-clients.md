@@ -14,15 +14,15 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 摘要： IT 专业人员应规划的 Skype 业务服务器 2015年时查看 Skype 企业 Web 应用程序和 Skype 会议应用程序的支持要求。 这篇文章不适合于这些应用程序的用户。
-ms.openlocfilehash: d99d718f02950cd643f7ccf79064eae3b0b83f72
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 921afbb6c446633128b2e2ead3c714dcdad91dd3
+ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>规划会议客户端 （Web 应用程序和会议应用程序）
  
-**摘要：**IT 专业人员应规划的 Skype 业务服务器 2015年时查看 Skype 企业 Web 应用程序和 Skype 会议应用程序的支持要求。 这篇文章不适合于这些应用程序的用户。
+**摘要：** IT 专业人员应规划的 Skype 业务服务器 2015年时查看 Skype 企业 Web 应用程序和 Skype 会议应用程序的支持要求。 这篇文章不适合于这些应用程序的用户。
   
 您已实现后 Skype 业务服务器，贵组织的用户可能会业务客户端部署过程的一部分安装 Skype。 
   
@@ -49,7 +49,6 @@ Skype 会议应用程序提供了有关下载和安装应用程序和加入会�
 用于 Skype 企业 Web 应用程序，用户必须有下列选项之一支持的操作系统和浏览器组合。 
   
 **操作系统和的 Skype 业务 Web 应用程序的最小的浏览器支持**
-
 
 | 操作系统 | Edge | 32 位和 64 位 Internet Explorer 11 或更高版本 | 32 位和 64 位 Internet Explorer 10 或更高版本 | 32 位和 64 位 Internet Explorer 9 或更高版本 | 32 位和 64 位版本的 Firefox 12.X 或更高版本 | 32 位和 64 位版本的 Chrome 18.X 或更高版本 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -95,7 +94,6 @@ Skype 会议应用程序使用 Windows 10、 Windows 8.1、 Windows 8 和 Window
 <a name="BKMK_Conferencing"> </a>
 
 下表比较业务 Web 应用程序、 Skype 会议应用程序和 Lync Web App 供业务客户端的 Skype、 Skype 的用户的会议功能。 功能比较目的列出 Lync Web App： 用户将仅下载和使用 Lync Web App，如果 Lync 2013 服务器上已承载会议。
-  
 
 | 特性/功能 | Skype 业务 2016年客户端 | Skype for Mac 客户端上的 Business | Skype 会议应用 | Skype for Business Web App | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -178,9 +176,7 @@ Skype 会议应用程序使用 Windows 10、 Windows 8.1、 Windows 8 和 Window
 <a name="BKMK_Conferencing"> </a>
 
 #### 
-
 [部署业务服务器 2015 Skype Web 可下载客户端](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
+
 #### 
-
 [Skype 会议应用程序所支持的平台](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
-
