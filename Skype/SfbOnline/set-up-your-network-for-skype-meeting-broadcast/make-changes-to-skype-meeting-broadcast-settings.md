@@ -1,5 +1,5 @@
 ---
-title: 对 Skype 会议广播为您的组织的设置进行更改
+title: 对您的组织的 Skype 会议广播设置进行更改
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,26 +17,26 @@ f1keywords:
 - ms.lync.lac.BroadcastMeetings
 ms.custom:
 - SMB
-description: 您可以启用 Skype 会议广播和更改设置和这些会议的策略。
-ms.openlocfilehash: e4e51e7e23138fe2e0b0cd1ce05d19f275c085b9
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 您可以启用 Skype 会议广播和更改的设置和这些会议策略。
+ms.openlocfilehash: 7cba3f66713d76e32da01d3dd318a6096dbed35c
+ms.sourcegitcommit: faea19005301c56a081b6e6157965becac76ec2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/22/2018
 ---
-# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>对 Skype 会议广播为您的组织的设置进行更改
+# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>对您的组织的 Skype 会议广播设置进行更改
 
-您可以启用 Skype 会议广播和更改设置和这些会议的策略。
+您可以启用 Skype 会议广播和更改的设置和这些会议策略。
   
-- **启用 Skype 会议广播**使 Skype 会议广播。 启用了 Skype 会议广播之后，您需要[设置您网络上的 Skype 会议广播](set-up-your-network-for-skype-meeting-broadcast.md)。 如果要为您的公司外部的人员担任研讨会和其他广播，请执行此步骤。 
+- **启用 Skype 会议广播**允许 Skype 会议广播。 启用 Skype 会议广播后，您需要[设置的 Skype 会议广播网络](set-up-your-network-for-skype-meeting-broadcast.md)。 如果您想要保留的您的公司外部的人员的网络研讨会和其他广播，请执行此步骤。 
     
-- **为组织启用 Skype 会议广播预览功能**Skype 的业务客户程序提供了对新产品和功能的早期访问。 这样，您的组织先睹为快了什么和您自己的环境中测试新的功能和之前我们发布的产品版本向公众提供反馈的机会。<br/>[Skype 业务预览](https://www.skypepreview.com/)
+- **我的组织启用 Skype 会议广播预览功能**业务客户程序 Skype 提供对新产品和功能的及早访问。 这样，您的组织快速浏览内容即将和在您自己的环境中测试的新功能并提供反馈，我们释放向公众的产品版本之前的机会。<br/>[Skype 业务 preview](https://www.skypepreview.com/)
     
-- **允许组织以匿名会议安排**这使组织者不要关闭隐藏字幕和广播会议的翻译。
+- **允许组织者安排匿名会议**这样可以创建允许任何人加入而不需要登录其组织外部的广播的事件的组织者。
     
-- **允许广播的会议记录**这使得任何具有录制演示者或组织者的会议。
+- **允许广播的会议记录**这样，您需要演示者或组织者记录任何会议。
     
-- **帮助台支持的与会者 URL**输入用于广播会议与会者使用如果他们需要帮助连接或参加广播的会议的链接。
+- **帮助台支持针对与会者的 URL**输入会议广播与会者使用如果他们需要帮助连接或参加广播的会议链接。
     
 ## <a name="related-topics"></a>相关主题
 
