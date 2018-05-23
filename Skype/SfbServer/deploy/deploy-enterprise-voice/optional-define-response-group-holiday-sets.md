@@ -10,16 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: 创建或修改响应节日设置组，在 Skype 的业务服务器企业语音。
-ms.openlocfilehash: b176a90b11957128fe485cd608608798d6ff6365
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 创建或修改业务 Server 企业语音的 Skype 中的响应组假日集。
+ms.openlocfilehash: 267e57e47b45d30889ba5deb992b4ecf951ab593
+ms.sourcegitcommit: 926416cb538abeb2d601298346de97d697ea1a65
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business-2015"></a>（可选）在 Skype for Business 2015 中定义响应组假日集
  
-创建或修改响应节日设置组，在 Skype 的业务服务器企业语音。
+创建或修改业务 Server 企业语音的 Skype 中的响应组假日集。
   
 假日设置定义响应组停止办公的日期并指定在这些日期采取的操作。假日集是指适用于响应组的假日的集合。
   
@@ -47,19 +47,15 @@ ms.lasthandoff: 03/28/2018
     以下示例显示一个包含两个假日的假日集：
     
    ```
-   $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2013 12:00 AM" -EndDate "1/1/2013 12:00 AM" 
+   $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2013 12:00 AM" -EndDate "1/2/2013 12:00 AM" 
    $b = New-CsRgsHoliday -Name "Independence Day" -StartDate "7/4/2013 12:00 AM" -EndDate "7/5/2013 12:00 AM" 
-   New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com -Name "2013 Holidays" -HolidayList ($a, $b)
+   New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com" -Name "2013 Holidays" -HolidayList ($a, $b)
    ```
 
 ## <a name="see-also"></a>另请参阅
 
-#### 
+[设计和创建响应组工作流中的业务 2015 Skype](designing-and-creating-response-group-workflows.md)
 
-[设计和创建响应组的工作流业务 2015年的 Skype](designing-and-creating-response-group-workflows.md)
-#### 
+[New-csrgsholiday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
-[新 CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
-  
-[新 CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)
-
+[New-csrgsholidayset](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)
