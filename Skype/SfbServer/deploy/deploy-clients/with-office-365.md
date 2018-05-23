@@ -13,11 +13,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读此主题以获取如何部署与 Office 365 的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 87ae4f7e846cce1cfeca2c7f64fdee93476ae350
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: ac6cbd53f16fb9fe07e24ef288eddbc5acca1b00
+ms.sourcegitcommit: 5e094591704e27d9d802ff86c1ada6d775ab783a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>将 Skype 会议室系统 v2 与 Office 365 一起部署 
  
@@ -92,7 +92,7 @@ ms.lasthandoff: 05/08/2018
    你还可以为会议室设置电话号码，如下所示：
     
    ```
-   Set-MsolUser -UniversalPrincipalName <upn> -PhoneNumber <phone number>
+   Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
    ```
 
 6. 设备帐户需要具有有效的 Office 365 许可证，或 Exchange 和 Skype for Business 将不起作用。 如果你有许可证，则需为设备帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 您可以使用 Get-msolaccountsku，如下所示的 Office 365 租户中检索可用的 Sku 的列表：
