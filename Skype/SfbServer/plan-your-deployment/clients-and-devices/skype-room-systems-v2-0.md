@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 本文介绍部署 Skype 会议室系统 v2 下, 一代 Skype 会议室系统相关的规划的注意事项。
-ms.openlocfilehash: 89bcfb0e668526893b14dba5202a4e22fed2e8a8
-ms.sourcegitcommit: 6b868f683e1f2354eb42fdf33911e77b7a3a83e2
+ms.openlocfilehash: 20c2163988d73eb704b09ee8f845a1a046a593af
+ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="plan-skype-room-systems-v2"></a>规划 Skype 会议室系统 v2 
 
@@ -126,7 +126,7 @@ _您的组织的的示例 Skype 会议室系统 v2 部署模板_
 | 中等 18 by 20    | 6&ndash;12                  |                                  |                         |                 |
 | 大型 15"by 32     | 12&ndash;16                 |                                  |                         |                 |
 
-**专业人员提示 –**现在是开始收集信息 Skype 会议室系统 v2 解决方案选择了一个极好。 我们建议您处理您的供应商，以讨论完成要捕获将与您的部署; 相关的信息的设计模板您可以从 MyAdvisor[下载此通过单一便捷式模板](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_11)。 
+**专业人员提示 –** 现在是开始收集信息 Skype 会议室系统 v2 解决方案选择了一个极好。 我们建议您处理您的供应商，以讨论完成要捕获将与您的部署; 相关的信息的设计模板您可以从 MyAdvisor[下载此通过单一便捷式模板](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_11)。 
 
 ## <a name="procurement"></a>采购 
 

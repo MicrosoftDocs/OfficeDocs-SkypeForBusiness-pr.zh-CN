@@ -39,7 +39,6 @@
 ### [为你的组织添加或删除紧急地址](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [为用户分配、更改或删除电话号码](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [为用户分配或更改紧急地址](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
-### [阻止传入呼叫](../what-are-calling-plans-in-office-365/block-incoming-calls.md)
 ### [通话套餐已知问题](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [更改用户的紧急地址](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [更改用户的紧急位置](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
@@ -150,7 +149,6 @@
 ### [设置 Skype for Business 通话分析](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [启用和使用通话质量仪表板](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [使用通话分析解决通话质量不佳的问题](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
-
 
 ## [Skype for Business Online 报告](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [活动报告](../skype-for-business-online-reporting/activity-report.md)

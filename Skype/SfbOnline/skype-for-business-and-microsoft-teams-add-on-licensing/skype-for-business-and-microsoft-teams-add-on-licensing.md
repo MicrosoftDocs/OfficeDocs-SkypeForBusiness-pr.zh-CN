@@ -1,5 +1,6 @@
 ---
 title: Skype 业务和 Microsoft 团队许可加载项
+ms.date: 05/23/2018
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,11 +22,11 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关加载项许可证，哪些功能您将使用其、 如何购买的产品，以及如何与他们使用您现有的运营商。 您可以获取 Office 365，通信字幕式定价和计划的详细信息和呼叫计划。 '
-ms.openlocfilehash: 4bc58d0863890ab9cdd610f3bfa21803c81f8671
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 8de537ccec1e1ff10d42c1b31bae539bde671ba8
+ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="skype-for-business-and-microsoft-teams-add-on-licensing"></a>Skype 业务和 Microsoft 团队许可加载项
 
