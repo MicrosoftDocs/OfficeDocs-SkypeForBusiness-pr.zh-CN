@@ -14,15 +14,15 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 摘要： 了解如何为业务服务器 2015 Skype 安装准备 Active Directory 域。 下载免费试用版 Skype 业务服务器 2015 从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: 96b45f02bbb8d14ed9c72d24092fc20183e37c6d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 6dfd6452e2ff0296fdeb90bd4f81296efac2be62
+ms.sourcegitcommit: 4eae947e339e728e5e1f338677860b910aafc029
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server-2015"></a>为 Skype for Business Server 2015 准备 Active Directory
  
-**摘要：**了解如何为业务服务器 2015 Skype 安装准备 Active Directory 域。 下载[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)中的业务服务器 2015 Skype 的免费试用版。
+**摘要：** 了解如何为业务服务器 2015 Skype 安装准备 Active Directory 域。 下载[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)中的业务服务器 2015 Skype 的免费试用版。
   
 与 Active Directory 紧密 Skype 业务服务器。 您必须准备使用 Skype 业务服务器的 Active Directory 域。 将在部署向导中完成此流程，且仅对该域执行一次该流程。 这是因为，该流程会创建组和修改域，您仅需完成一次此项操作。 第 1 步至第 5 步可以按任意顺序执行。 但是，第 6、7、8 步必须在第 1 步至第 5 步之后按图表所示顺序执行。 准备 Active Directory 是 8 个步骤中的第 4 步。 有关规划 Active Directory 的详细信息，请参阅[环境要求 Skype 的业务服务器 2015年](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。
   
@@ -174,3 +174,7 @@ ms.lasthandoff: 05/03/2018
      ![Active Directory 准备工作已完成。](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
   
 
+## <a name="see-also"></a>另请参阅
+
+#### 
+[业务服务器 2015 Skype 的的 active Directory 域服务](../../plan-your-deployment/security/active-directory-domain-services.md)
