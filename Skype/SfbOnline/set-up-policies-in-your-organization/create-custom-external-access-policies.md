@@ -1,5 +1,5 @@
 ---
-title: 创建自定义的外部访问策略
+title: 创建自定义外部访问策略
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,35 +15,35 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Skype 的在线业务允许您创建其他外部访问策略。 与不同的客户端或会议的策略，其中可以有多个组合，有三个预定义的外部访问策略，可以涵盖了大部分方案。
-ms.openlocfilehash: 424102ddf9570ac4b3a8d02917b2d9cafe6bff6f
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Skype 业务 online 允许您创建其他外部访问策略。 与客户端或会议策略，其中可以有多个的组合，有三个可以代替大多数的方案的预定义的外部访问策略。
+ms.openlocfilehash: 8d0cff680ebf225a9dc62e585f39ab3f0b27e3c3
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/25/2018
 ---
-# <a name="create-custom-external-access-policies"></a>创建自定义的外部访问策略
+# <a name="create-custom-external-access-policies"></a>创建自定义外部访问策略
 
-Skype 的在线业务允许您创建其他外部访问策略。 与不同的客户端或会议的策略，其中可以有多个组合，有三个预定义的外部访问策略，可以涵盖了大部分方案。 包括：
+Skype 业务 online 允许您创建其他外部访问策略。 与客户端或会议策略，其中可以有多个的组合，有三个可以代替大多数的方案的预定义的外部访问策略。 包括：
   
-- 无联合或 Skype 使用者访问权限 (_标记： NoFederationAndPIC_ )
+- 无联盟或 Skype 使用者访问 (_标记： NoFederationAndPIC_ )
     
-- 只有联合的访问 (_标记： FederationOnly_ )
+- 仅联盟的访问 (_标记： FederationOnly_ )
     
-- 联合和使用者访问 (_FederationAndPICDefault_)
+- 联盟和使用者访问 (_FederationAndPICDefault_)
     
-自定义外部策略允许您创建其他不涉及上述设置的内容的策略。 当创建该策略时，您将需要设置所有必需的参数和以后无法更改它们。 创建新的自定义策略，可以控制功能，如 Skype 使用者的访问或策略来禁用公共云音频/视频，这是一些没有涉及使用预定义设置。 自定义外部访问策略，请按照与客户端、 移动性和会议策略相同的语法。 您可以了解有关这些设置的详细信息[在此处](https://technet.microsoft.com/en-us/library/mt228132.aspx)。
+自定义外部策略允许您创建其他策略不包含上面的设置的。 已创建策略，您将需要设置所有必需的参数和更高版本无法更改它们。 创建新的自定义策略允许您控制功能，如 Skype 使用者访问或一个策略来禁用公共云音频/视频，这是使用预定义的设置未涵盖的内容。 自定义外部访问策略按照语法与客户端和移动性、 会议策略相同。 您可以了解这些设置的详细信息[此处](https://technet.microsoft.com/en-us/library/mt228132.aspx)。
   
-若要使此项工作，用户必须使用受支持的版本的 2016年点用 Skype 为支持它的业务应用程序。 以下的最小版本的 Skype 业务 2016年单击以运行客户机是必需的：
+若要使此项工作，用户必须使用 2016年是受支持的版本支持的业务应用程序的单击即点即用 Skype。 下面的最低版本的 Skype 业务 2016年单击即点即用客户端时，需要：
   
-|**类型**|**发行日期**|**版本**|**生成**|
+|**类型**|**发布日期**|**版本**|**生成**|
 |:-----|:-----|:-----|:-----|
-|当前通道的第一版  <br/> |2016 年 11/17  <br/> |16.0.7571.2006  <br/> |1611 (Build 7571.2006) 版本  <br/> |
-|当前通道  <br/> |2016 年 12/6  <br/> |16.0.7571.2072  <br/> |1611 (Build 7571.2072) 版本  <br/> |
-|延迟的通道  <br/> |于 2017 2/22 年  <br/> |16.0.7369.2118  <br/> |1609 (Build 7369.2118) 版本  <br/> |
+|第一版当前通道  <br/> |2016 年 11/17  <br/> |16.0.7571.2006  <br/> |版本 1611 （构建 7571.2006）  <br/> |
+|当前通道  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |版本 1611 （构建 7571.2072）  <br/> |
+|延迟的通道  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |版本 1609 （构建 7369.2118）  <br/> |
    
 > [!CAUTION]
-> 为业务窗口应用程序或 Mac 客户端使用 Skype 的较早版本的用户将仍能够传输文件。 
+> 使用较早版本的 Skype 业务 Windows 应用程序或 Mac 客户端的用户仍可以传输文件。 
   
 ## <a name="verify-and-start-windows-powershell"></a>验证并启动 Windows PowerShell
 
@@ -75,9 +75,9 @@ Skype 的在线业务允许您创建其他外部访问策略。 与不同的客�
     Import-PSSession $session
   ```
 
-  如果希望在启动 Windows PowerShell 的详细信息，请参阅[连接到一个 Windows PowerShell 窗口中的所有 Office 365 提供服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[连接到使用 Windows PowerShell 在线业务 Skype](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+  如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
     
-## <a name="create-a-custom-external-access-policy-for-a-user"></a>创建用户自定义的外部访问策略
+## <a name="create-a-custom-external-access-policy-for-a-user"></a>创建自定义外部访问策略的用户
 
 若要执行此操作，请运行：
   
@@ -94,11 +94,11 @@ Skype 的在线业务允许您创建其他外部访问策略。 与不同的客�
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
 
-- 对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [为什么需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为什么您需要使用 Office 365 PowerShell 中](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - 例如当你一次对多个用户更改设置时，Windows PowerShell 比起仅使用 Office 365 管理中心，在速度、简明性和效率方面具有许多优势。通过以下主题了解这些优势：
     
@@ -109,7 +109,7 @@ Skype 的在线业务允许您创建其他外部访问策略。 与不同的客�
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
     
 ## <a name="related-topics"></a>相关主题
-[块的点对点文件传输](block-point-to-point-file-transfers.md)
+[阻止点对点文件传输](block-point-to-point-file-transfers.md)
 
 [为你的组织设置客户端策略](set-up-client-policies-for-your-organization.md)
 

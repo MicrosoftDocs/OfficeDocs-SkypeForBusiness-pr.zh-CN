@@ -20,17 +20,19 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: '了解如何为电话系统、 音频会议、 调用计划，和 Communications 字幕式业务许可证分配 Skype。 '
-ms.openlocfilehash: 00c80637e4b94a66f63c43e51f0bc3e562d42bea
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9cc11ea1e527ccfae205152ae869316bbb3ffa88
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>为业务和 Microsoft 团队许可证分配 Skype
 
 本文为您提供了有关将许可证分配给您要进行音频会议和电话系统，调用计划等功能的用户提示。 它还提供了脚本分配批量许可证。
+
+> [!IMPORTANT]
+> 信息，请参阅[业务和 Microsoft 团队的加载项的 Skype 许可](skype-for-business-and-microsoft-teams-add-on-licensing.md)**如何购买**哪些需要购买的许可证以及它们的具体取决于您的 Office 365 计划-以便用户获取音频会议、 免费电话号码，以及呼叫的功能外部业务电话号码。
   
- **重要说明**： 什么许可您有关的信息，请参阅[业务和 Microsoft 团队授权加载项的 Skype](skype-for-business-and-microsoft-teams-add-on-licensing.md)需要购买和**如何购买**他们的具体取决于您的 Office 365 计划的用户获取音频会议，免费电话号码，以便和能够调用您的公司外部的电话号码。
   
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>电话系统和调用计划： 提示和分配许可证的脚本
 

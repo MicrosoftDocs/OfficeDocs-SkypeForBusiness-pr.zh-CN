@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 81fbb40aad10687d3a75020a23b20cbeee7d5c2e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 119e56f27edc992466a6565235715d2703b1cb12
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="create-a-phone-system-call-queue"></a>创建电话系统呼叫队列
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 05/03/2018
 - 使用串行路由时，在队列中的第一个呼叫将打给所有呼叫代理逐个。
     
     > [!NOTE]
-    > 不会调用呼叫代理都**处于脱机状态**、 已将其状态设置为**请勿打扰，**或已退出呼叫队列。
+    > 不会调用呼叫代理都**处于脱机状态**、 已将其状态设置为**请勿打扰，** 或已退出呼叫队列。
   
 - 同一时间只会向呼叫代理发送一个传入呼叫通知（队列最前面的呼叫）。
     
@@ -127,7 +127,10 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 ![显示通讯组方法选项的呼叫](../images/5d249515-d532-4af2-90da-011404028b89.png)
   
 ***
-![1 号](../images/sfbcallout1.png)<br/>**呼叫分发方法**呼叫队列分发方法，可以选择**助理**或**串行**。 所有新的和现有呼叫队列将具有默认情况下选中助理路由。 若要使用串行路由，必须明确 UI 和 cmdlet 中选择**串行**路由选项。 <br/><br/> 当选定串行路由，并保存呼叫队列，从队列的呼叫将打给代理逐个，从代理列表的开头开始。 如果代理消除或不拾取呼叫，呼叫将打给列表的下一个代理，并将尝试所有代理逐个直到它选取或出在队列中等待的时间。  <br/><br/>  **注意：**串行路由将跳过处于**脱机状态**、 已将其状态设置为**请勿打扰**，或具有从此队列中获取呼叫**下已选择加入**代理。  
+![1 号](../images/sfbcallout1.png)<br/>**呼叫分发方法**呼叫队列分发方法，可以选择**助理**或**串行**。 所有新的和现有呼叫队列将具有默认情况下选中助理路由。 若要使用串行路由，必须明确 UI 和 cmdlet 中选择**串行**路由选项。 <br/><br/> 当选定串行路由，并保存呼叫队列，从队列的呼叫将打给代理逐个，从代理列表的开头开始。 如果代理消除或不拾取呼叫，呼叫将打给列表的下一个代理，并将尝试所有代理逐个直到它选取或出在队列中等待的时间。   
+
+> [!NOTE]
+> 串行路由将跳过处于**脱机状态**、 已将其状态设置为**请勿打扰**，或具有从此队列中获取呼叫**下已选择加入**代理。 
    
 ### <a name="select-an-agent-opt-out-option"></a>选择代理退出选项
 
@@ -222,7 +225,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
     
 ### <a name="more-about-windows-powershell"></a>有关 Windows PowerShell 的详细信息
 
-- 对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
