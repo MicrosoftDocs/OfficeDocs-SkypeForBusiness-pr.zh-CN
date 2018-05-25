@@ -1,0 +1,35 @@
+---
+title: 监控范围节点
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 3/25/2015
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.tb.MonitoringServerScopeNode
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
+description: 在 Lync Server 2013 拓扑生成器中，您可以执行与单个通过右键单击控制台树中，运行监控的服务器运行监控服务器相关的任务，在工具栏中，单击操作或单击操作窗格中的任务，然后单击运行监控服务器的以下选项之一：
+ms.openlocfilehash: f1e59900993444218df820f81668c1c6d4762162
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/24/2018
+---
+# <a name="monitoring-scope-node"></a>监控范围节点
+ 
+在 Lync Server 2013 拓扑生成器中，您可以执行与单个通过右键单击服务器运行监控的控制台树中，在工具栏中，单击**操作**或单击操作中的任务运行监控服务器相关的任务窗格中，，然后单击运行监控服务器的以下选项之一：
+  
+- **编辑属性**。 打开**编辑属性**页上运行的监控，可在其中更改的完全限定的域名 (FQDN) 运行监控或监控 SQL Server 数据库的服务器的服务器。
+    
+- **删除**。 删除拓扑和监控 SQL Server 数据库中运行监控服务器。
+    
+除了本主题之前介绍的监控服务器选项之外，“监控”节点还具有控制台树中的其他节点也具有的一些常规选项。其中包括以下选项：
+  
+- **拓扑**。可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库或者删除部署。
+    
+- **帮助**。可以使用此选项访问活动节点的“帮助”。
+    
+
