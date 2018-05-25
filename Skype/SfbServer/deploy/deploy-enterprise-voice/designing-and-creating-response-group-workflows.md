@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 设计和创建响应组工作流中的业务 Server 企业语音的 Skype。 包括智能寻线工作流和互动工作流。
-ms.openlocfilehash: 71380d7dc048663eca9543a31d67462ead0321c3
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 21c4b5beb8b4653bc31481d956f235a2c4fe722e
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business-2015"></a>在 Skype for Business 2015 中设计和创建响应组工作流
  
@@ -306,9 +306,9 @@ IVR 问题及呼叫者的响应提供给接受呼叫的响应代理。
   
  **问题：**“感谢您致电人力资源部。如果要与薪酬组通话，请说‘薪酬’。否则，请说‘人力资源’。”
   
-- **选择选项 1：**将呼叫者路由至薪酬组。
+- **选择选项 1：** 将呼叫者路由至薪酬组。
     
-- **选择选项 2：**将呼叫者路由至人力资源组。
+- **选择选项 2：** 将呼叫者路由至人力资源组。
     
 下图显示了相应的呼叫流。
   
@@ -322,25 +322,25 @@ IVR 问题及呼叫者的响应提供给接受呼叫的响应代理。
   
  **问题：**“感谢您致电 IT 技术支持。如果有网络访问问题，请按 1 或说网络。如果有软件问题，则按 2 或说软件。如果有硬件问题，则按 3 或说硬件。”
   
-- **选择选项 1：**将呼叫者路由至网络支持组。
+- **选择选项 1：** 将呼叫者路由至网络支持组。
     
-- **选择选项 2：**向呼叫者提出后续问题：
+- **选择选项 2：** 向呼叫者提出后续问题：
     
     **问题：**“如果是操作系统的问题，请按 1 或说操作系统。如果是内部应用程序的问题，请按 2 或说内部应用程序。否则，请按 3 或说其他。”
     
-  - **选择选项 1：**将呼叫者路由至操作系统支持组。
+  - **选择选项 1：** 将呼叫者路由至操作系统支持组。
     
-  - **选择选项 2：**将呼叫者路由至内部应用程序支持组。
+  - **选择选项 2：** 将呼叫者路由至内部应用程序支持组。
     
-  - **选择选项 3：**将呼叫者路由至软件支持组。
+  - **选择选项 3：** 将呼叫者路由至软件支持组。
     
-- **选择选项 3：**向呼叫者提出后续问题：
+- **选择选项 3：** 向呼叫者提出后续问题：
     
     **问题：**“如果是打印机问题，请按 1。否则，请按 2。”
     
-  - **选择选项 1：**将呼叫者路由至打印机支持组。
+  - **选择选项 1：** 将呼叫者路由至打印机支持组。
     
-  - **选择选项 2：**将呼叫者路由至硬件支持组。
+  - **选择选项 2：** 将呼叫者路由至硬件支持组。
     
 下图显示了相应的呼叫流。
   
@@ -646,10 +646,8 @@ IVR 问题及呼叫者的响应提供给接受呼叫的响应代理。
 #### 
 
 [（可选）定义响应组假日集中的业务 2015 Skype](optional-define-response-group-holiday-sets.md)
-#### 
 
 [（可选）中的业务 2015 Skype 定义响应组工作时间](optional-define-response-group-business-hours.md)
-#### 
 
 [New-csrgsworkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
   

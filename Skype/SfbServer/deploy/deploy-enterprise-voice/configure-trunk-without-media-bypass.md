@@ -14,15 +14,15 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 摘要： 业务服务器 2015年的 Skype 启用媒体旁路的情况下配置中继。
-ms.openlocfilehash: 1885ef2a599398fa0ef9d36075d80e0a9f588dd5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 399ee06eeddb309fe9820ad13a5c30e931b3486d
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置无媒体旁路功能的中继
  
-**摘要：**Skype 的业务服务器 2015年启用媒体旁路的情况下配置中继。
+**摘要：** Skype 的业务服务器 2015年启用媒体旁路的情况下配置中继。
   
 如果要配置禁用媒体旁路功能的中继，请执行以下步骤。 如果您想要启用媒体旁路配置中继，请参阅[Configure 与媒体中继中的业务服务器 2015 Skype 绕过](configure-trunk-with-media-bypass.md)。
   
@@ -167,7 +167,6 @@ ms.lasthandoff: 05/03/2018
 #### 
 
 [为业务服务器 2015年使用 Skype 中的媒体旁路配置中继](configure-trunk-with-media-bypass.md)
-#### 
 
 [定义转换规则](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
 

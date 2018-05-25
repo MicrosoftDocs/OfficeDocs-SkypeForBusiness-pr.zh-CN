@@ -9,11 +9,11 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文讨论如何使用 Skype 会议室系统 v2，您将用于将过期系统导入支持状态恢复工具。
-ms.openlocfilehash: fd71fc189b7471e4e315b6602014a967be09f9c0
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 63deb332a520a0752242140f85f200a160eefe0d
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="use-the-skype-room-systems-v2-recovery-tool"></a>使用 Skype 会议室系统 v2 恢复工具
  
@@ -66,4 +66,3 @@ ms.lasthandoff: 05/11/2018
 [Skype 会议室系统版本 2 帮助](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [管理 Skype 会议室系统 v2](skype-room-systems-v2.md)
-#### 

@@ -16,6 +16,7 @@
 ## [管理对 Teams 的用户访问](user-access.md)
 ## [获取 Teams 的客户端](get-clients.md)
 ## [团队应用程序的硬件要求](hardware-requirements-for-the-teams-app.md)
+## [迁移和 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
 ## [登录到团队](sign-in-teams.md)
 ## [Teams 部署概述](deployment-overview.md)
 ## [在你的 Office 365 组织中设置 Teams](Office-365-set-up.md)

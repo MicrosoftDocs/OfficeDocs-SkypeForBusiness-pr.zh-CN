@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: 本文讨论远程管理的 Skype 会议室系统 v2 设备，包括应用自定义主题使用的默认设置。
-ms.openlocfilehash: 74f098e44e3b25eafd48d1309e0454034f56d1f5
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: a83416eb36f63391cdcf210e4fffb711c810d440
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 配置文件远程管理 Skype 会议室系统 v2 控制台设置
  
@@ -130,7 +130,6 @@ XML 配置文件必须在设备启动时更新以识别主题图像。处理和�
 #### 
 
 [管理 Skype 会议室系统 v2](skype-room-systems-v2.md)
-#### 
 
 [配置文件项](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
 

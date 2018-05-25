@@ -10,32 +10,32 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
-description: 使用工具栏、 特定于页面的按钮和链接和特定于上下文的窗格的组合业务服务器 2015年计划工具定位 Skype。 特定于上下文的窗格提供与特定页上的选项相关的规划和容量的设计信息。
-ms.openlocfilehash: 59b64478aecf3f32ad3bd89c7d07896776b5a1f6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 您的业务 Server 2015 规划工具中导航 Skype 使用工具栏、 特定于页上的按钮和链接和上下文特定窗格的组合。 特定于上下文的窗格提供与特定页上的选项相关的规划和容量的设计信息。
+ms.openlocfilehash: a2e8ff3c25476c6524656d2d11abf624603d6acd
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中导航规划工具
  
-使用工具栏、 特定于页面的按钮和链接和特定于上下文的窗格的组合业务服务器 2015年计划工具定位 Skype。 特定于上下文的窗格提供与特定页上的选项相关的规划和容量的设计信息。
+您的业务 Server 2015 规划工具中导航 Skype 使用工具栏、 特定于页上的按钮和链接和上下文特定窗格的组合。 特定于上下文的窗格提供与特定页上的选项相关的规划和容量的设计信息。
   
-在开始规划工具，设计首先看到**规划工具业务服务器 2015年的 Skype 的欢迎**页上。
+在开始规划工具，designer 首先看到**欢迎使用规划工具的业务服务器 2015 Skype**页。
   
 ![“欢迎使用规划工具”页](../../media/Planning_Tool_Welcome.png)
   
-在“欢迎”页上，设计人员可选择“**开始**”、“**设计站点**”或“**显示**”。 有关详细信息，请参阅[创建业务服务器 2015年的 Skype 的初始拓扑结构设计](create-the-initial-design.md)。
+在“欢迎”页上，设计人员可选择“**开始**”、“**设计站点**”或“**显示**”。 有关详细信息，请参阅[Create 业务服务器 2015年的 Skype 的初始拓扑设计](create-the-initial-design.md)。
   
-规划工具的顶部是一个工具栏，提供了便于访问常用功能。 此处显示的工具栏仅供参考，各项功能将在相关主题中讨论。
+顶部的规划工具是工具栏提供对常用功能的轻松访问权。 此处显示的工具栏仅供参考，各项功能将在相关主题中讨论。
   
 ![规划工具 - 工具栏](../../media/Planning_Tool_Toolbar_Annotated.jpg)
   
-规划工具有工具在左侧外部链接部分。 在此处，设计师可轻松访问规划和部署信息，以及其他技术资源（如培训、技术博客、论坛及其他可下载的资源）。 此外在外部链接部分是 Skype 业务服务器 2015年规划工具小组的反馈链接。
+规划工具具有该工具的左侧外部链接部分。 在此处，设计师可轻松访问规划和部署信息，以及其他技术资源（如培训、技术博客、论坛及其他可下载的资源）。 此外在外部链接部分是指向业务 Server 2015 规划工具团队 Skype 的反馈。
   
 ![规划工具 -“外部链接”对话框](../../media/Planning_Tool_External_Links_Dialog.jpg)
   
-在规划工具中的许多页面上显示上下文相关的操作窗格。 “操作”窗格使设计师可轻松访问拓扑的主要部分。 “操作”窗格中可用的链接根据拓扑中的详细级别而改变。 完成访谈式问题并显示拓扑后，“操作”窗格才可用。 “操作”窗格中包含“概览”部分，其中显示了设计师在访谈过程中输入的数值。 概览内容与显示的信息上下文相关。
+在规划工具中的多个页面上显示上下文相关的操作窗格。 “操作”窗格使设计师可轻松访问拓扑的主要部分。 “操作”窗格中可用的链接根据拓扑中的详细级别而改变。 完成访谈式问题并显示拓扑后，“操作”窗格才可用。 “操作”窗格中包含“概览”部分，其中显示了设计师在访谈过程中输入的数值。 概览内容与显示的信息上下文相关。
   
 此外，“操作”窗格下的概览中还显示硬件信息。硬件配置显示当前拓扑推荐的硬件要求列表。
   
@@ -45,8 +45,7 @@ ms.lasthandoff: 03/28/2018
 
 #### 
 
-[创建业务服务器 2015年的 Skype 的初始拓扑结构设计](create-the-initial-design.md)
-#### 
+[为业务服务器 2015 Skype 创建初始拓扑设计](create-the-initial-design.md)
 
 [编辑设计](http://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
   
