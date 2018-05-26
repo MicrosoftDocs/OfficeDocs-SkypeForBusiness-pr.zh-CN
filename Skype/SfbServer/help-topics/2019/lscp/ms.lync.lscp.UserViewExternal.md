@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: f66aa25725e4e56db9774fab385ab0f1d251ee30
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 6a03ad27657e912b52e37450ea12925f7572a87a
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
-# <a name="users-view-or-configure-external-access-policy"></a><span data-ttu-id="69b90-104">用户： 查看或配置外部访问策略</span><span class="sxs-lookup"><span data-stu-id="69b90-104">Users: View or Configure External Access Policy</span></span>
+# <a name="users-view-or-configure-external-access-policy"></a><span data-ttu-id="c269a-104">用户： 查看或配置外部访问策略</span><span class="sxs-lookup"><span data-stu-id="c269a-104">Users: View or Configure External Access Policy</span></span>
  
-<span data-ttu-id="69b90-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="69b90-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="c269a-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="c269a-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="69b90-107">为用户配置联盟、 远程用户访问和公共 IM 连接</span><span class="sxs-lookup"><span data-stu-id="69b90-107">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [<span data-ttu-id="c269a-107">为用户配置联盟、 远程用户访问和公共 IM 连接</span><span class="sxs-lookup"><span data-stu-id="c269a-107">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
-<span data-ttu-id="69b90-108">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="69b90-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="c269a-108">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="c269a-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
 

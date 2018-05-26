@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 description: 要指定的 SQL Server Reporting Services (SSRS) 以访问监控数据库的凭据，请执行以下操作：
-ms.openlocfilehash: 16b00bc0327ab6389018036205ea1aa9af718412
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 00b06c9f13d06ebac5990fd0456eae92f4dc26b3
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
-# <a name="sql-server-reporting-services-credentials"></a><span data-ttu-id="28160-103">SQL Server Reporting Services （凭据）</span><span class="sxs-lookup"><span data-stu-id="28160-103">SQL Server Reporting Services (Credentials)</span></span>
+# <a name="sql-server-reporting-services-credentials"></a><span data-ttu-id="8ef2b-103">SQL Server Reporting Services （凭据）</span><span class="sxs-lookup"><span data-stu-id="8ef2b-103">SQL Server Reporting Services (Credentials)</span></span>
  
-<span data-ttu-id="28160-104">要指定的 SQL Server Reporting Services (SSRS) 以访问监控数据库的凭据，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="28160-104">To specify the credentials for the SQL Server Reporting Services (SSRS) to access the Monitoring database, do the following:</span></span>
+<span data-ttu-id="8ef2b-104">要指定的 SQL Server Reporting Services (SSRS) 以访问监控数据库的凭据，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="8ef2b-104">To specify the credentials for the SQL Server Reporting Services (SSRS) to access the Monitoring database, do the following:</span></span>
   
-<span data-ttu-id="28160-105">在**指定凭据页**中，指定您想要用于访问监控数据库 （QoEMetrics 和 LcsCDR） 的用户凭据。</span><span class="sxs-lookup"><span data-stu-id="28160-105">In the **Specify Credential Page**, specify the user credentials that you want to use to access the Monitoring database (QoEMetrics and LcsCDR).</span></span> 
+<span data-ttu-id="8ef2b-105">在**指定凭据页**中，指定您想要用于访问监控数据库 （QoEMetrics 和 LcsCDR） 的用户凭据。</span><span class="sxs-lookup"><span data-stu-id="8ef2b-105">In the **Specify Credential Page**, specify the user credentials that you want to use to access the Monitoring database (QoEMetrics and LcsCDR).</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="28160-106">有关详细信息，在看到"凭据和连接信息的报表数据源 (SSRS) 指定" [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431)。</span><span class="sxs-lookup"><span data-stu-id="28160-106">For details, see "Specifying Credential and Connection Information for Report Data Sources (SSRS)" at [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431).</span></span> 
+> <span data-ttu-id="8ef2b-106">有关详细信息，在看到"凭据和连接信息的报表数据源 (SSRS) 指定" [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431)。</span><span class="sxs-lookup"><span data-stu-id="8ef2b-106">For details, see "Specifying Credential and Connection Information for Report Data Sources (SSRS)" at [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431).</span></span> 
   
-<span data-ttu-id="28160-107">有关部署运行监控服务器的 Reporting Services 报告的详细信息，请参阅[中的业务服务器 2015 Skype 安装监控报告](../../deploy/deploy-monitoring/install-monitoring-reports.md)。</span><span class="sxs-lookup"><span data-stu-id="28160-107">For details about deploying the Reporting Services reports for the server running Monitoring, see [Install Monitoring Reports in Skype for Business Server 2015](../../deploy/deploy-monitoring/install-monitoring-reports.md).</span></span>
+<span data-ttu-id="8ef2b-107">有关部署运行监控服务器的 Reporting Services 报告的详细信息，请参阅[中的业务服务器 2015 Skype 安装监控报告](../../../deploy/deploy-monitoring/install-monitoring-reports.md)。</span><span class="sxs-lookup"><span data-stu-id="8ef2b-107">For details about deploying the Reporting Services reports for the server running Monitoring, see [Install Monitoring Reports in Skype for Business Server 2015](../../../deploy/deploy-monitoring/install-monitoring-reports.md).</span></span>
   
 
