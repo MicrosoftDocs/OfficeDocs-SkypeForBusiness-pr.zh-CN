@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 description: 持久聊天页的外接程序部分可用于将 Url 与持久聊天聊天室相关联。 这些 URL 将显示在对话可扩展性窗格的聊天室中的客户端中。 管理员必须将外接程序添加到注册的外接程序列表中，且聊天室管理员/创建者必须将聊天室与其中一个注册的外接程序相关联，这样用户才能在其客户端中看到此升级。
-ms.openlocfilehash: 701a128095cd2d9e001109fb6623659d189b2fbb
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7c7dab8b3109834882e2f8cd8fc8285269fbec89
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-add-in-main-page"></a>持久聊天外接程序主页
  
@@ -24,13 +24,13 @@ ms.lasthandoff: 05/24/2018
   
 外接程序用于扩展聊天室内体验。 典型的加载项可能包含指向截获当股票代码张贴到聊天室，并将扩展性窗格中显示库存的历史记录的 Silverlight 应用程序的 URL。 其他示例包括将 OneNote 2013 URL 作为外接程序嵌入聊天室，以包括一些共享上下文，如“指导思想”或“今日主题”。
   
-若要创建的持久聊天聊天室加载项，请参阅[配置外接程序中的业务服务器 2015 Skype 的持久聊天聊天室](../../manage/persistent-chat/configure-add-ins.md)。 如果您是 a Persistent Chat Administrator，您可以使用控制面板或 Windows PowerShell cmdlet 创建加载项。
+若要创建的持久聊天聊天室加载项，请参阅[配置外接程序中的业务服务器 2015 Skype 的持久聊天聊天室](../../../manage/persistent-chat/configure-add-ins.md)。 如果您是 a Persistent Chat Administrator，您可以使用控制面板或 Windows PowerShell cmdlet 创建加载项。
   
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
 您可以在“**外接程序**”页上执行以下任务：
   
-- [在 Skype for Business Server 2015 配置外接程序的持久聊天聊天室](../../manage/persistent-chat/configure-add-ins.md)
+- [在 Skype for Business Server 2015 配置外接程序的持久聊天聊天室](../../../manage/persistent-chat/configure-add-ins.md)
     
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>配置聊天室外接程序
 
@@ -58,6 +58,6 @@ ms.lasthandoff: 05/24/2018
     
 ### 
 
-有关详细信息 Persistent Chat Server 特性和功能，请参阅[Plan for Persistent Chat Server in 业务服务器 2015年的 Skype](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)、[部署持久聊天服务器中的 Business Server 2015 Skype](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)和[管理持久聊天服务器在业务服务器 2015 Skype](../../manage/persistent-chat/persistent-chat.md)。
+有关详细信息 Persistent Chat Server 特性和功能，请参阅[Plan for Persistent Chat Server in 业务服务器 2015年的 Skype](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)、[部署持久聊天服务器中的 Business Server 2015 Skype](../../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)和[管理持久聊天服务器在业务服务器 2015 Skype](../../../manage/persistent-chat/persistent-chat.md)。
   
 

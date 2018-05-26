@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 description: 右键单击在拓扑生成器以执行以下 Office Web Apps 服务器：
-ms.openlocfilehash: fccc7fc89c069b45a9482c3cea21b9faf189dc74
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 4418b338be168d997b3e3b703cbbfa8211332d39
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps 服务器范围节点扩展器
  
@@ -26,7 +26,7 @@ ms.lasthandoff: 05/24/2018
     
 除了新建 Office Web Apps 服务器选项中，您可以执行以下常规任务：
   
-![Office WebApps Server 范围节点](../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Office WebApps Server 范围节点](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
 - **拓扑**。可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并以前版本的组件或删除部署。
     

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 description: 配置持久聊天服务器或持久聊天服务器池将提供备份数据库的备份 SQL Server 存储。
-ms.openlocfilehash: 67dc09cca54f0079fc4b7bac16355bbd8dc64633
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: feb4b212c24bc6764dc35f3b4f238be655d50c7e
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>添加持久聊天备份 SQL Server 存储
  
@@ -48,11 +48,11 @@ ms.lasthandoff: 05/24/2018
 
 #### 
 
-[规划持久聊天服务器 Skype 中的业务 Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[规划持久聊天服务器 Skype 中的业务 Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Skype for Business Server 2015 服务器要求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Skype for Business Server 2015 服务器要求](../../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[硬件和软件要求对于 Persistent Chat Server in Skype 业务服务器 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[硬件和软件要求对于 Persistent Chat Server in Skype 业务服务器 2015](../../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[为业务服务器 2015年对于 Persistent Chat Server in Skype 配置高可用性和灾难恢复](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+[为业务服务器 2015年对于 Persistent Chat Server in Skype 配置高可用性和灾难恢复](../../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
 

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: 位置策略确定是否启用增强型 9-1-1 (E9-1-1) 和如何使用它，以及如何将位置信息用于用户和联系人。
-ms.openlocfilehash: fa1ca0907d3316066e2ca6e1fcf8a1d09a9c315a
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 0a4d438ac208af88229f75e7fc8f9eec4d3e7697
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="location-policy"></a>位置策略
  
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/24/2018
 - **用户策略 （可选）：** 您可以创建一个或多个用户位置策略，其中每个适用于特定用户或用户组。 用户策略会覆盖全局策略和站点策略。
     
 > [!NOTE]
-> 也可以向网络站点（即子网组）分配位置策略。 分配给网络站点的位置策略优先于所有其他用户策略。 有关使用 cmdlet 将位置策略分配给网络站点的详细信息，请参阅[Add 与网络站点中的业务服务器 2015 Skype 位置策略](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md)。 有关使用业务 Server Control Panel 的 Skype 与网络站点分配位置策略的详细信息，请参阅[配置网络站点](http://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)。 
+> 也可以向网络站点（即子网组）分配位置策略。 分配给网络站点的位置策略优先于所有其他用户策略。 有关使用 cmdlet 将位置策略分配给网络站点的详细信息，请参阅[Add 与网络站点中的业务服务器 2015 Skype 位置策略](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md)。 有关使用业务 Server Control Panel 的 Skype 与网络站点分配位置策略的详细信息，请参阅[配置网络站点](http://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)。 
   
 “**位置策略**”页显示一个为组织定义的所有位置策略的列表。
   

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 description: 您可以将测试设备添加到测试设备页，然后使用此设备来验证新更新之前部署到生产设备更新的功能。 可以在全局范围（在整个环境中）或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 如果添加设备时，它显示在 Skype 测试设备页上的列表的业务 Server Control Panel。
-ms.openlocfilehash: de08a562695af309e795b0ded98c66ea738d0183
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9d58c474b08cf1938a289743e57725cdf33d123f
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="test-device"></a>测试设备
  
@@ -55,7 +55,7 @@ ms.lasthandoff: 05/24/2018
 
 #### 
 
-[测试设备： 创建新的或编辑现有的](test-device-create-new-or-edit-existing.md)
+[测试设备： 创建新的或编辑现有的](ms.lync.lscp.ClientDeviceTestEdit.md)
 #### 
 
 [新 CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)

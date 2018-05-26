@@ -13,11 +13,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: 通过池服务器冗余性基于业务服务器 2015年的 Skype 中的大多数服务器角色的主高可用性方案。 如果运行特定服务器角色的服务器发生故障，池中运行同一角色的其他服务器将接手该服务器的负载。
-ms.openlocfilehash: 8441db5ee4a84c573ed6a1642473b827382e4654
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: cd8861177f066030e71edf5cc62b891b863b2abb
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="high-availability-planning-tool"></a>高可用性 （规划工具）
  
@@ -33,6 +33,6 @@ Skype 的业务服务器 2015年为了实现高可用性要求至少两个前端
     
 规划工具还添加镜像 SQL 数据库的所有数据库。 例如，如果没有前端 SQL 服务器数据库，规划工具将作为此镜像数据库中添加其他数据库并将其命名为"前端镜像 SQL 数据库。
   
-有关准备您的环境的高可用性的详细信息，请参阅[规划高可用性和灾难恢复的业务服务器 2015 Skype 中](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
+有关准备您的环境的高可用性的详细信息，请参阅[规划高可用性和灾难恢复的业务服务器 2015 Skype 中](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
   
 

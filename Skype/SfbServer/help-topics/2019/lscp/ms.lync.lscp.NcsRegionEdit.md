@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0277b988-e12e-4786-9001-9c212495cb89
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 298d688935bd8ebcb28a3091744c04046761324c
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 763017a605328b4fcaabcf79d7970cee6e608baf
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="configure-a-network-region-create-new-or-edit-existing"></a>配置网络区域： 创建新的或编辑现有的
  
@@ -24,5 +24,5 @@ ms.lasthandoff: 05/24/2018
   
 - [配置网络区域](http://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
     
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
+有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
 

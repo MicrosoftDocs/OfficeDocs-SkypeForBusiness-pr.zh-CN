@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: 您可以向编辑日志设置页上，确定最大日志缓存大小、 最大日志文件大小或在被清除之前保留日志文件的时间长度添加设备日志配置。 您可以更改这些设置根据贵组织的要求。
-ms.openlocfilehash: 8003014f7b94824d0ef36a8d1328c6430e98d894
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f933d71016b626648e6fb142af91872da4ed04ff
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="device-log-configuration-edit"></a>设备日志配置： 编辑
  
@@ -53,5 +53,5 @@ ms.lasthandoff: 05/24/2018
 
 #### 
 
-[设备日志配置](device-log-configuration.md)
+[设备日志配置](ms.lync.lscp.ClientDeviceCfgMain.md)
 

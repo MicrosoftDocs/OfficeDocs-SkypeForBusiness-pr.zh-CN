@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 3a7b4efe4f79b43ad9613e9bb0b60975960c7d65
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 1cc2718b740f141f29d6a8eb24342079a2813232
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>XMPP 联盟伙伴： 创建新的或编辑现有的
  
@@ -26,5 +26,5 @@ ms.lasthandoff: 05/24/2018
     
 - [协商设置表的 XMPP 联盟伙伴](http://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
     
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
+有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
 

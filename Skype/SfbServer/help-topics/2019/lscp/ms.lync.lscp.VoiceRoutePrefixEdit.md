@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 description: 若要定义前缀或起始数字，添加此路由应处理，包括的号码前缀 + 必要。 例如，您可以与 +123 开头的所有号码相都匹配。
-ms.openlocfilehash: af937453bd365480bfbe2474308a2a95c288beaf
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c13a9eab14f7e16f7c0af2f1b4e64ea0b73103b6
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="prefix-edit"></a>前缀编辑
  
 若要定义前缀或起始数字，添加此路由应处理，包括的号码前缀 + 必要。 例如，您可以与 +123 开头的所有号码相都匹配。
   
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
+有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
   
 

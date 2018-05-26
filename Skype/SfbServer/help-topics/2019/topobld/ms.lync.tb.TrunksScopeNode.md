@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 description: 右键单击中继在拓扑生成器以执行以下操作：
-ms.openlocfilehash: e164e11c3185e8306146f3558459afbcf9fe52f5
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: fbd9f99a8f8b98589f204835a45a5ed7bd0984da
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="trunks-scope-node"></a>中继范围节点
  
@@ -26,7 +26,7 @@ ms.lasthandoff: 05/24/2018
     
 除了“新建中继”选项之外，还可以执行以下常规任务：
   
-![中继范围节点](../../media/Trunks_Scope_Node.jpg)
+![中继范围节点](../../../media/Trunks_Scope_Node.jpg)
   
 - **拓扑**。可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并以前版本的组件或删除部署。
     

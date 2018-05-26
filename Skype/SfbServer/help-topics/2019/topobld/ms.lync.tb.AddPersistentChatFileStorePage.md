@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1068706-ff61-4a98-8e51-4202111d936a
 description: 必须为 Standard Edition Server 或 Enterprise Edition 前端池指定用作文件存储的文件共享。可以将现有的文件共享用作文件存储，也可以通过指定文件共享所在的文件服务器的完全限定域名 (FQDN) 和新文件共享的文件夹名称来指定新的文件共享。
-ms.openlocfilehash: 76b116d469bf6369174815d6b396a64149518f17
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 989e11adfd7059c94067dd8360527d86759ae81c
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="add-persistent-chat-file-store"></a>添加持久聊天文件存储
  
@@ -35,13 +35,13 @@ ms.lasthandoff: 05/24/2018
 
 #### 
 
-[规划持久聊天服务器 Skype 中的业务 Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[规划持久聊天服务器 Skype 中的业务 Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[向您 Skype 业务服务器 2015年拓扑添加持久聊天服务器](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[向您 Skype 业务服务器 2015年拓扑添加持久聊天服务器](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
   
-[硬件和软件要求对于 Persistent Chat Server in Skype 业务服务器 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[硬件和软件要求对于 Persistent Chat Server in Skype 业务服务器 2015](../../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[Skype for Business Server 2015 服务器要求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Skype for Business Server 2015 服务器要求](../../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[拓扑的业务服务器 2015 Skype 的基础知识](../../plan-your-deployment/topology-basics/topology-basics.md)
+[拓扑的业务服务器 2015 Skype 的基础知识](../../../plan-your-deployment/topology-basics/topology-basics.md)
 

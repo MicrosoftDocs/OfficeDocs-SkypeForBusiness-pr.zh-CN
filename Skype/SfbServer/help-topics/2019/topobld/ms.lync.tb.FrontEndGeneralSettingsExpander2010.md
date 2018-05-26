@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 您可以通过编辑或配置以下属性编辑前端服务器或前端池的属性。 配置页可分为以下几节：
-ms.openlocfilehash: 2e249f1bd7f0f42cdc23429d79afde86d3f175a3
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 11d93e27ab333fc03a65d0d578ca3bbeb933a43a
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 的前端常规设置扩展器
  
@@ -39,7 +39,7 @@ ms.lasthandoff: 05/24/2018
     
 - 如果选择会议，可以选择**拨入式 (PSTN) 会议**。 选中该复选框以启用电话拨入式会议功能。
     
-- 如果您打算部署功能，可以启用 Lync Server 2013 以用作 IP (电话 VoIP) 技术，包括部署话筒电话的选项通过使用语音电话语音系统，SIP 中继或公共，选中此复选框**企业语音**交换的电话网络连接使用中介服务器、 PSTN 网关和 IP-PBX 组合或单独，基于的设计和要求。 企业语音的详细信息，请参阅[企业语音](http://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx)和[规划中的业务服务器 2015 Skype 的企业语音](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- 如果您打算部署功能，可以启用 Lync Server 2013 以用作 IP (电话 VoIP) 技术，包括部署话筒电话的选项通过使用语音电话语音系统，SIP 中继或公共，选中此复选框**企业语音**交换的电话网络连接使用中介服务器、 PSTN 网关和 IP-PBX 组合或单独，基于的设计和要求。 企业语音的详细信息，请参阅[企业语音](http://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx)和[规划中的业务服务器 2015 Skype 的企业语音](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
     
     **关联**
     

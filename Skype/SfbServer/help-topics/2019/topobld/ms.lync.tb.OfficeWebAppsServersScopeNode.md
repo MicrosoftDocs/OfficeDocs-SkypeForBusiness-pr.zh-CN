@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 description: 右键单击 Office Web Apps 服务器，并选择新的 Office Web Apps Server 以打开 Office Online 的向导。
-ms.openlocfilehash: 796ddee08de9410fe68ae412f177c88f7cd488c4
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c8aadd94d79f5fd99b1eb28fcea684b9057513c7
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps Servers 范围节点
  
 右键单击“**Office Web Apps Server**”，然后选择“**新建 Office Web Apps Server**”以打开 Office Online 向导。
   
-![OfficeWebApps Servers 范围节点](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
+![OfficeWebApps Servers 范围节点](../../../media/OfficeWebApps_Servers_Scope_Node.jpg)
   
 - **拓扑**。可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并以前版本的组件或删除部署。
     

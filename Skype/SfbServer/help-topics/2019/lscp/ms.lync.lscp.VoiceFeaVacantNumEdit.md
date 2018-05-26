@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
-ms.openlocfilehash: b4cdd3d4efad5299b855c546edf2359698ef6a47
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 4b12efb58891d093e6ae74a6659b8e268053dac8
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>未分配的电话号码： 创建新的或编辑现有的
  
@@ -51,6 +51,6 @@ ms.lasthandoff: 05/24/2018
     
   - **自动助理电话号码**选择 Exchange UM 自动助理的电话号码。
     
-有关通知特性和功能的详细信息，请参阅规划文档中的[计划中的业务 2015 Skype 的通知应用程序](../../plan-your-deployment/enterprise-voice-solution/announcement.md)。 有关使用未分配号码范围的详细信息，请参阅操作文档中的[配置路由的未分配电话号码](http://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)。
+有关通知特性和功能的详细信息，请参阅规划文档中的[计划中的业务 2015 Skype 的通知应用程序](../../../plan-your-deployment/enterprise-voice-solution/announcement.md)。 有关使用未分配号码范围的详细信息，请参阅操作文档中的[配置路由的未分配电话号码](http://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)。
   
 

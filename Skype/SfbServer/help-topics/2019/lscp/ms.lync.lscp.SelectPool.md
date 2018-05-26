@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: 使用选择服务对话框查找服务环境中可用。 要使用现有服务，请单击服务列表中的，然后单击确定。
-ms.openlocfilehash: fa302a1ed6273d54dbd1e6ea74e6e2c6acb0daba
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 8e7d96479a0c5703a8b480ce88267ba74e5a35d7
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-a-service"></a>选择一个服务
  
 使用“**选择服务**”对话框查找环境中可用的服务。要使用现有服务，请单击列表中的某个服务，然后单击“**确定**”。 
   
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
+有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
   
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/24/2018
     
 - [在全局范围或为持久聊天服务器池配置持久聊天服务器选项](http://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
     
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
+有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>配置聊天室的类别
 

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: 搜索查询的结果可用于配置用户的 Skype 业务服务器。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。 还可以使用 Lync Server 控制面板或 Active Directory 用户和计算机管理单元搜索用户。
-ms.openlocfilehash: 9cf6384d10cc4b6d2931fb21c75fd09da873d383
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 188c60467f5579a56cd4b5fa85a616f2e4639663
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="control-panel---updated-user-search"></a>控制面板 - 已更新：用户搜索
  
@@ -30,19 +30,19 @@ ms.lasthandoff: 05/24/2018
     
 - [启用或禁用 Users for Lync Server 2010](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
-- [移动用户](move-user.md)
+- [移动用户](ms.lync.lscp.UserMove.md)
     
-- [移动所有用户](move-all-users.md)
+- [移动所有用户](ms.lync.lscp.UserMoveAll.md)
     
 - [将策略分配给用户](http://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
     
-- [Skype 中的企业语音的用户启用业务服务器 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Skype 中的企业语音的用户启用业务服务器 2015](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [为用户配置联盟、 远程用户访问和公共 IM 连接](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
 - [为用户配置电话](http://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
     
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
+有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
   
 ## <a name="ui-reference"></a>用户界面参考
 
@@ -72,9 +72,9 @@ ms.lasthandoff: 05/24/2018
   
 ### <a name="search-results-menus"></a>搜索结果菜单
 
-- **启用用户**单击可打开[用户： 新建 Lync Server 用户](users-new-lync-server-user.md)对话框中，其中您可将新用户添加到 Skype 业务服务器。
+- **启用用户**单击可打开[用户： 新建 Lync Server 用户](ms.lync.lscp.UserNew.md)对话框中，其中您可将新用户添加到 Skype 业务服务器。
     
-    若要添加新的联系人，单击向下箭头，然后选择**启用联系人**以打开[用户： New Contact Objects](users-new-contact-objects.md)对话框。
+    若要添加新的联系人，单击向下箭头，然后选择**启用联系人**以打开[用户： New Contact Objects](ms.lync.lscp.UserNewContact.md)对话框。
     
 - **编辑**单击**编辑**，然后单击**显示详细信息**以显示所选用户的详细信息，或单击**选择所有搜索结果**以都选择结果表中显示的所有用户。
     
@@ -84,11 +84,11 @@ ms.lasthandoff: 05/24/2018
     
   - **暂时禁用 Lync server**禁用的用户帐户的 Skype 业务服务器，直到您重新启用它，而无需删除的用户帐户。
     
-  - **将策略分配**打开[用户： 分配策略](users-assign-policies.md)对话框中，您可在其中配置分配给用户的策略。
+  - **将策略分配**打开[用户： 分配策略](ms.lync.lscp.UserAssignPolicy.md)对话框中，您可在其中配置分配给用户的策略。
     
-  - **查看 PIN 状态**打开[用户： 查看 PIN 状态](users-view-pin-status.md)对话框，可显示所选用户的 PIN 数据。
+  - **查看 PIN 状态**打开[用户： 查看 PIN 状态](ms.lync.lscp.UserViewPin.md)对话框，可显示所选用户的 PIN 数据。
     
-  - **设置 PIN**打开[Set PIN](set-pin.md)对话框，其中所选用户设置 PIN。
+  - **设置 PIN**打开[Set PIN](ms.lync.lscp.UserSetPin.md)对话框，其中所选用户设置 PIN。
     
   - **锁定 PIN**锁定用户的 PIN。
     
@@ -98,8 +98,8 @@ ms.lasthandoff: 05/24/2018
     
   - **删除用户证书**删除授予用户的所有证书。
     
-  - **移动所选的用户移动到池**打开[Move User](move-user.md)对话框，您可以在其中选择一个池移动到所选的用户。
+  - **移动所选的用户移动到池**打开[Move User](ms.lync.lscp.UserMove.md)对话框，您可以在其中选择一个池移动到所选的用户。
     
-  - **移动所有用户移动到池**打开[Move User](move-user.md)对话框，您可以在其中选择一个池移动到的所有选定的用户。
+  - **移动所有用户移动到池**打开[Move User](ms.lync.lscp.UserMove.md)对话框，您可以在其中选择一个池移动到的所有选定的用户。
     
 

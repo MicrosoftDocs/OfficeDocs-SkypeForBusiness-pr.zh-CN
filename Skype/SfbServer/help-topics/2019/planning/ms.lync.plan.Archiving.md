@@ -13,16 +13,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
 description: 适用于业务 Server archiving Skype 中提供了一种存档通过 Skype 业务服务器发送的通信的方法。
-ms.openlocfilehash: 6082df30fb2dd827e5db03ad779533e49604332d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: df8346a27e9c61cf3f081401846810c4e35df2fe
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="archiving-planning-tool"></a>存档 （规划工具）
  
 适用于业务 Server archiving Skype 中提供了一种存档通过 Skype 业务服务器发送的通信的方法。
   
-为存档服务器准备您的环境详细信息，请参阅[Plan for Business Server 2015 的 Skype 的存档](../../plan-your-deployment/archiving/archiving.md)。
+为存档服务器准备您的环境详细信息，请参阅[Plan for Business Server 2015 的 Skype 的存档](../../../plan-your-deployment/archiving/archiving.md)。
   
 

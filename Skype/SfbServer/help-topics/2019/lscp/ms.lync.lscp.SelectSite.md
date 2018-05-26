@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: 使用选择网站对话框查找您环境中可用的网站。 若要使用现有网站，单击列表中的某个站点，然后单击确定。
-ms.openlocfilehash: 7c39b0d4d0fad775f1c271542f76889060267c33
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7aba1089d73188c2d65771a87f01a20f93c48c4a
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-a-site"></a>选择站点
  
@@ -25,7 +25,7 @@ ms.lasthandoff: 05/24/2018
 > [!NOTE]
 > 要检索所有可用的站点，请不要在搜索框中键入任何内容，然后单击搜索图标。 
   
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
+有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
   
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/24/2018
     
 - [为持久聊天创建站点策略](http://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
     
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
+有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
   
 ## <a name="to-configure-persistent-chat-options-globally"></a>全局配置持久聊天选项
 

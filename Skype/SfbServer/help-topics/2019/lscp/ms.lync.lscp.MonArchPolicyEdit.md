@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 description: 您可以使用存档策略来控制用户的企业服务器驻留在 Skype 上部署中的内部和外部通信的存档。 存档策略包括全局策略以及可选的一个或多个站点和用户策略：
-ms.openlocfilehash: af8038371cd421b0232ce2df0ba92aa5b079702e
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f01fb0c53d88000d76a00e74353cd1c6005163f0
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>存档策略：创建新的或编辑现有的
  
@@ -46,5 +46,5 @@ ms.lasthandoff: 05/24/2018
     
 - **外部通信的存档**选中此复选框以启用包括外部用户，例如 （包括匿名用户和 PIC 设置用户），远程用户和联盟伙伴的通信的存档。 默认情况下，这不是中的任何策略启用。
     
-有关的存档功能和功能，包括 Exchange 集成的详细信息，请参阅[规划存档中的业务服务器 2015 Skype](../../plan-your-deployment/archiving/archiving.md)、[业务服务器 2015年的 Skype 存档的部署](../../deploy/deploy-archiving/deploy-archiving.md)，和[管理存档中的 Skype业务服务器 2015年](../../manage/archiving/archiving.md)。
+有关的存档功能和功能，包括 Exchange 集成的详细信息，请参阅[规划存档中的业务服务器 2015 Skype](../../../plan-your-deployment/archiving/archiving.md)、[业务服务器 2015年的 Skype 存档的部署](../../../deploy/deploy-archiving/deploy-archiving.md)，和[管理存档中的 Skype业务服务器 2015年](../../../manage/archiving/archiving.md)。
 

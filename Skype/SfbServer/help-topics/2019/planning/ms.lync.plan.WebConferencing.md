@@ -13,11 +13,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: 业务服务器 2015 web 会议的 Skype 包括文档协作、 应用程序共享和桌面共享。
-ms.openlocfilehash: 3755a922970942451f08e19c2ba59884cd8b91d3
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 1e2863895e9e0666381d6095e5846456029205b7
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="web-conferencing-planning-tool"></a>Web 会议 （规划工具）
  
@@ -28,12 +28,12 @@ ms.lasthandoff: 05/24/2018
   
 有关在组织中启用 Web 会议的规划详细信息，请参阅以下主题： 
   
-- [规划业务服务器 2015 Skype 中的会议](../../plan-your-deployment/conferencing/conferencing.md)
+- [规划业务服务器 2015 Skype 中的会议](../../../plan-your-deployment/conferencing/conferencing.md)
     
-- [硬件和软件要求的 Skype 中的会议业务服务器 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [硬件和软件要求的 Skype 中的会议业务服务器 2015](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
-- [规划电话拨入式会议中 Skype 业务服务器 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
+- [规划电话拨入式会议中 Skype 业务服务器 2015](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
-- [规划大型会议中 Skype 业务服务器 2015](../../plan-your-deployment/conferencing/large-meetings.md)
+- [规划大型会议中 Skype 业务服务器 2015](../../../plan-your-deployment/conferencing/large-meetings.md)
     
 

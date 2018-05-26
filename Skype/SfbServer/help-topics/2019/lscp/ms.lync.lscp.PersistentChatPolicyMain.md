@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: 持久聊天组的持久聊天策略页可用于管理在全局、 池、 站点或用户级别，其中包括配置默认全局策略以及创建一个或多个其他用户和站点策略部署的策略。 如果用户策略启用了持久聊天服务器，然后持久聊天服务器环境中将显示他们的客户端。
-ms.openlocfilehash: 14d600c558a7a72887aa7ff3e349857115e8a792
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 173264b08feddbc77bf3a3d8be4d4ad8d1978669
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-policy-main-page"></a>持久聊天策略主页
  
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/24/2018
 您可以创建和配置多个站点和用户策略的全局策略，以及为用户启用持久聊天服务器。 池和站点的持久聊天服务器策略将覆盖全局持久聊天服务器策略，但仅对该网站的用户。 用户策略将覆盖分配有用户策略的用户的全局、池和站点策略。
   
 > [!NOTE]
-> 配置和使用持久聊天服务器，必须首先使用拓扑生成器向持久聊天服务器支持的拓扑，添加，然后发布该拓扑。 有关详细信息，请参阅[将持久聊天服务器添加到您的业务服务器 2015年拓扑的 Skype](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)。 
+> 配置和使用持久聊天服务器，必须首先使用拓扑生成器向持久聊天服务器支持的拓扑，添加，然后发布该拓扑。 有关详细信息，请参阅[将持久聊天服务器添加到您的业务服务器 2015年拓扑的 Skype](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)。 
   
 ## <a name="tasks-that-you-can-perform"></a>可执行的任务
 

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 description: 使用选择文件类型扩展名对话框中选择您想要阻止或允许通过 （到块） 选中或清除 （以允许） 的文件类型扩展名在文件下的扩展旁边的复选框类型扩展。 单击箭头以展开类别并查看所有类别的文件类型扩展名。 如果您想要选择所有类别的文件类型扩展名，选择类别名称。
-ms.openlocfilehash: 9f5bf31772f8683451eb2e9f8767109b9a3f1364
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 8a1633022f58f0f8f2845efd6867c798fac9b1a5
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-file-type-extensions"></a>选择文件类型扩展名
  
@@ -26,6 +26,6 @@ ms.lasthandoff: 05/24/2018
   
 您已将所有所需的文件类型扩展名添加到**选择文件类型扩展名**列表后，单击**确定**。
   
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
+有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
   
 

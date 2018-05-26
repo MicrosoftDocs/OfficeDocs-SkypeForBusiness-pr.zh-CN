@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 description: 配置持久聊天服务器或持久聊天服务器池将提供数据库的 SQL Server 存储。
-ms.openlocfilehash: 062092ff60fa30f7b8ac19725a12a3f62e1b9ec6
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9ab15949a4cc051e56407fc56063e4d8980be87e
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="add-persistent-chat-sql-server-store"></a>添加持久聊天 SQL Server 存储
  
@@ -48,15 +48,15 @@ ms.lasthandoff: 05/24/2018
 
 #### 
 
-[规划持久聊天服务器 Skype 中的业务 Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[规划持久聊天服务器 Skype 中的业务 Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[向您 Skype 业务服务器 2015年拓扑添加持久聊天服务器](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[向您 Skype 业务服务器 2015年拓扑添加持久聊天服务器](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
   
-[硬件和软件要求对于 Persistent Chat Server in Skype 业务服务器 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[硬件和软件要求对于 Persistent Chat Server in Skype 业务服务器 2015](../../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[Skype for Business Server 2015 服务器要求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Skype for Business Server 2015 服务器要求](../../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[拓扑的业务服务器 2015 Skype 的基础知识](../../plan-your-deployment/topology-basics/topology-basics.md)
+[拓扑的业务服务器 2015 Skype 的基础知识](../../../plan-your-deployment/topology-basics/topology-basics.md)
   
-[为业务服务器 2015年对于 Persistent Chat Server in Skype 配置高可用性和灾难恢复](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+[为业务服务器 2015年对于 Persistent Chat Server in Skype 配置高可用性和灾难恢复](../../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
 

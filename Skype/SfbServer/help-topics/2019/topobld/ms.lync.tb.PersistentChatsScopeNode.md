@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: 右键单击在拓扑生成器以执行以下的持久聊天池：
-ms.openlocfilehash: 0fce18fb4e0882141b28cb073ce1b4e608487c02
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9109199dd1569d7d197d50c32725bc9f23cd1226
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>创建持久聊天服务器范围节点
  
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/24/2018
 
 #### 
 
-[规划持久聊天服务器 Skype 中的业务 Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[规划持久聊天服务器 Skype 中的业务 Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[向您 Skype 业务服务器 2015年拓扑添加持久聊天服务器](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[向您 Skype 业务服务器 2015年拓扑添加持久聊天服务器](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
 

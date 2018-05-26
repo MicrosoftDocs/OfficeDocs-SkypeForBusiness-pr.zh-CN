@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 编辑配置 Office Web Apps Server 的属性。 可编辑以下属性：
-ms.openlocfilehash: 44f9218ff8e125389dae06396a9b06e5cc197e44
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: b7da5e19d6d9c300d96442c97bf4866116a60af3
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="edit-office-web-apps-server-settings"></a>编辑 Office Web Apps Server 设置
  
@@ -28,7 +28,7 @@ ms.lasthandoff: 05/24/2018
   
 如果此服务器部署在外围网络中或部署在将外围网络、低信任度网络和互联网与你的内部部署隔离的内部防火墙外部的其他网络区域中，则选中“**在外部网络中部署 Office Web Apps Server**”复选框。
   
-![Office Web Apps 设置扩展器](../../media/OfficeWebApps_Settings_Expander.jpg)
+![Office Web Apps 设置扩展器](../../../media/OfficeWebApps_Settings_Expander.jpg)
   
 ## <a name="see-also"></a>另请参阅
 

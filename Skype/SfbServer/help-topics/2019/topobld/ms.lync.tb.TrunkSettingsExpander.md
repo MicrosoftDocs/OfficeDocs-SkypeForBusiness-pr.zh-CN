@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 若要编辑或修改 SIP 中继的设置，请执行下列操作：
-ms.openlocfilehash: 13ea9abfb6d53b57333c2c96b8a2f8adde963ebf
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 511f1496d77b44dbd1ce94a229915a1edfa32e32
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="trunk-settings-expander"></a>中继设置扩展器
  
@@ -37,7 +37,7 @@ ms.lasthandoff: 05/24/2018
   
  **关联的中介服务器端口**： 必需的值，这设置为值中介服务器配置为侦听。
   
-![中继设置扩展器](../../media/Trunk_Settings_Expander.jpg)
+![中继设置扩展器](../../../media/Trunk_Settings_Expander.jpg)
   
 ## <a name="see-also"></a>另请参阅
 

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 description: 您可以使用持久聊天页上的类别部分配置类别。 持久聊天聊天室类别是组织聊天室的逻辑结构。 类别定义一组默认的访问控制列表 (ACL)，以便控制可以创建或加入聊天室的用户和用户组。 您还可以使用类别强制在组织中不同部门之间使用信息隔离墙。
-ms.openlocfilehash: 24be7e342e5c87d355d577a05a7039872c0b2602
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: e3daf85b6d20fcf5f56681dbda02b50d7122d4c1
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-category"></a>持久聊天类别
  
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/24/2018
   
 聊天室类别可以包含聊天室，但不包含其他类别。 每个类别描述其内容和元数据，例如_名称_和_说明_。 此外，该类别具有属性可设置来控制行为的聊天室属于该功能，例如，如果聊天室允许_邀请_或_文件上载_，或包含_聊天历史记录_。
   
-若要创建新类别，请参阅[Persistent Chat Server 中的业务服务器 2015 Skype 中管理类别](../../manage/persistent-chat/categories.md)。 如果您是 a Persistent Chat Administrator，您可以使用控制面板或 Windows PowerShell cmdlet 创建类别。
+若要创建新类别，请参阅[Persistent Chat Server 中的业务服务器 2015 Skype 中管理类别](../../../manage/persistent-chat/categories.md)。 如果您是 a Persistent Chat Administrator，您可以使用控制面板或 Windows PowerShell cmdlet 创建类别。
   
 ## <a name="tasks-that-you-can-perform"></a>可执行的任务
 
@@ -77,6 +77,6 @@ ms.lasthandoff: 05/24/2018
     
 ### 
 
-有关详细信息 Persistent Chat Server 特性和功能，请参阅[Plan for Persistent Chat Server in 业务服务器 2015年的 Skype](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)、[部署持久聊天服务器中的 Business Server 2015 Skype](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)和[管理持久聊天服务器在业务服务器 2015 Skype](../../manage/persistent-chat/persistent-chat.md)。
+有关详细信息 Persistent Chat Server 特性和功能，请参阅[Plan for Persistent Chat Server in 业务服务器 2015年的 Skype](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)、[部署持久聊天服务器中的 Business Server 2015 Skype](../../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)和[管理持久聊天服务器在业务服务器 2015 Skype](../../../manage/persistent-chat/persistent-chat.md)。
   
 

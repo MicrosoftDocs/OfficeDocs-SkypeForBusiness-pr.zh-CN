@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解关于 Pin 应知道什么以及如何重置它们。 '
-ms.openlocfilehash: 092d51061c374e14485527993a95e03e8e29649d
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 956c8e1ec7a83832c9aa2605845bc7fd42a047f7
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="reset-the-audio-conferencing-pin"></a>重置 PIN 的音频会议
 
@@ -32,7 +32,17 @@ PIN 是为每个 Skype 业务和 Microsoft 团队由启用了音频会议的用�
   
 使用 Skype 业务或 Microsoft 团队的应用程序或组织者通过电话加入与他/她的 PIN 的身份验证的用户加入时，可以启动会议。 如果会议要求提供 PIN 才能启动，则通过电话加入会议的所有用户都将进入会议厅并将收听保持音乐，直至会议启动。 如果会议组织者不需要 PIN 来通过电话启动会议，则当呼叫者加入会议时，系统不会要求他们提供 PIN。
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-reset-a-users-pin"></a>![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) 重置用户的 PIN
+## <a name="reset-a-users-pin"></a>重置用户的 PIN
+
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
+
+1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
+
+2. 在页面的顶部，单击**编辑**。
+
+3. 在**音频会议**，下单击**重置 PIN**。
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png)  **使用业务管理中心的 Skype**
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
@@ -45,9 +55,16 @@ PIN 是为每个 Skype 业务和 Microsoft 团队由启用了音频会议的用�
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
    
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-have-a-user-reset-his-or-her-own-pin"></a>![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) 具有重置其自己的 PIN 的用户
+## <a name="have-a-user-reset-his-or-her-own-pin"></a>具有重置其自己的 PIN 的用户
 
-通过使用**电话拨入式会议**页面上的**重置 PIN**选项，用户可以重置 PIN。 该页面可访问三种方式之一：
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
+
+1. 让用户转到[https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing)。
+2. 单击**重置 PIN**。 
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png)  **使用业务管理中心的 Skype**
+
+通过使用**电话拨入式会议**页面上的**重置 PIN**选项，用户可以重置 PIN。 此页可访问三种方式之一：
 
 * 在浏览器中，转到[https://mysettings.lync.com/pstncalling](https://mysettings.lync.com/pstncalling)。
 * 在 for Business 的 Skype，单击**选项**，旁边的**显示菜单**箭头，然后单击**工具** > **电话拨入式会议设置**。

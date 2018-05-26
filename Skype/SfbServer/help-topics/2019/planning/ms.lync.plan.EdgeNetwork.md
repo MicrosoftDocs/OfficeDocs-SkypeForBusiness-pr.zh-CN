@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 大多数边缘组件都部署在外围网络中。 以下组件组成了外围网络的边缘拓扑。 除非另有说明的组件是边缘服务器中的业务服务器 2015 Skype 的方案的一部分，以及在外围网络中。 边缘组件包括下列各项：
-ms.openlocfilehash: 48b574c749d96a0b252b2f5d90946cb3c66991a5
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 380529975aa5c09f1f97bafa633a432ae3109164
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="edge-network-planning-tool"></a>边缘网络 （规划工具）
  
-大多数边缘组件都部署在外围网络中。 以下组件组成了外围网络的边缘拓扑。 除非另有说明的组件是[边缘服务器中的业务服务器 2015 Skype 的方案](../../plan-your-deployment/edge-server-deployments/scenarios.md)的一部分，以及在外围网络中。 边缘组件包括下列各项：
+大多数边缘组件都部署在外围网络中。 以下组件组成了外围网络的边缘拓扑。 除非另有说明的组件是[边缘服务器中的业务服务器 2015 Skype 的方案](../../../plan-your-deployment/edge-server-deployments/scenarios.md)的一部分，以及在外围网络中。 边缘组件包括下列各项：
   
 - 边缘服务器
     
@@ -37,7 +37,7 @@ ms.lasthandoff: 05/24/2018
 
 #### 
 
-[规划边缘服务器部署中 Skype 的业务服务器 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[规划边缘服务器部署中 Skype 的业务服务器 2015](../../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[边缘服务器的系统要求中 Skype 业务服务器 2015](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+[边缘服务器的系统要求中 Skype 业务服务器 2015](../../../plan-your-deployment/edge-server-deployments/system-requirements.md)
 

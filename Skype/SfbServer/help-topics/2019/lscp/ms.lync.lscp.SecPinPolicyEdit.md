@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: d415b056e66ec0dd3757691f8b027c605f5bd01d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9e991433dd416424a7dc99f0b60daba5c4cd193f
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>PIN 策略： 创建新的或编辑现有的
  
 您希望执行什么操作？单击您要执行的任务所对应的链接。
   
-- [为业务服务器 2015 Skype 创建新的 PIN 策略](../../manage/authentication/create-a-new-pin-policy.md)
+- [为业务服务器 2015 Skype 创建新的 PIN 策略](../../../manage/authentication/create-a-new-pin-policy.md)
     
-- [修改业务服务器 2015 Skype 中现有的 PIN 策略](../../manage/authentication/modify-an-existing-pin-policy.md)
+- [修改业务服务器 2015 Skype 中现有的 PIN 策略](../../../manage/authentication/modify-an-existing-pin-policy.md)
     
-- [删除业务服务器 2015年中 Skype 的 PIN 策略](../../manage/authentication/delete-a-pin-policy.md)
+- [删除业务服务器 2015年中 Skype 的 PIN 策略](../../../manage/authentication/delete-a-pin-policy.md)
     
 - [创建或修改站点或用户组的电话拨入式会议 PIN 设置](http://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
     
@@ -34,5 +34,5 @@ ms.lasthandoff: 05/24/2018
     
 - [删除站点或用户组的电话拨入式会议 PIN 设置](http://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
     
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
+有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
 

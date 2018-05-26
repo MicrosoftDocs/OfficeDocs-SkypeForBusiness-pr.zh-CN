@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 description: 本文档是预备文档，可能随时更改。空白主题均以占位符的形式包含在内。
-ms.openlocfilehash: 3bb3a5d28be508b1070baa62e1fc1b269157c906
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9705e4502984cd8239038ef14916e8cd7959da56
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="install-database-create-mirror-database-page"></a>安装数据库创建镜像数据库页
  
@@ -28,7 +28,7 @@ ms.lasthandoff: 05/24/2018
 
 #### 
 
-[部署 SQL 镜像的后端服务器高可用性 Skype 业务服务器 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
+[部署 SQL 镜像的后端服务器高可用性 Skype 业务服务器 2015](../../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
 #### 
 
 [Install-csmirrordatabase](https://docs.microsoft.com/powershell/module/skype/install-csmirrordatabase?view=skype-ps)

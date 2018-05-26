@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
 description: 键入一个.NET Framework 正则表达式指定向其应用此路由的目标电话号码的匹配模式。
-ms.openlocfilehash: d1a17074f6a6013107ce1a754a5d6815af4dfd74
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 545119aa03301a124efb82af399c8e76232b61d5
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="normalization-rule-type-a-regular-expression"></a>规范化规则： 键入正则表达式
  
 键入一个.NET Framework 正则表达式指定向其应用此路由的目标电话号码的匹配模式。 
   
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
+有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
   
 
