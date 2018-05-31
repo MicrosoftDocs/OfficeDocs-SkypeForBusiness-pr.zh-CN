@@ -14,6 +14,7 @@ ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "19179285"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a><span data-ttu-id="2a861-103">Skype 会议室系统 v2 维护和操作</span><span class="sxs-lookup"><span data-stu-id="2a861-103">Skype Room Systems v2 maintenance and operations</span></span> 
  

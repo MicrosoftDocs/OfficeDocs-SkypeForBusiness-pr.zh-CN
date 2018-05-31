@@ -15,6 +15,7 @@ ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "19179278"
 ---
 # <a name="prepare-your-environment"></a><span data-ttu-id="2969e-103">准备您的环境</span><span class="sxs-lookup"><span data-stu-id="2969e-103">Prepare your environment</span></span>
 
