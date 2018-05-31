@@ -19,22 +19,23 @@ f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'GOV、 EDU 和非营利组织计划，了解有关加载项许可证和功能。 '
-ms.openlocfilehash: cc0777a6dd62e8353ef381c9f0e379e552c6bf18
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '了解有关加载项许可证和 GOV、 EDU 和非营利组织计划的功能。 '
+ms.openlocfilehash: bf1678efce8f6e08398147db7bb88c771da75bbb
+ms.sourcegitcommit: 3255d091396cb78478fa8899e98e53e149d89f28
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/29/2018
+ms.locfileid: "19493979"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV、 EDU 和非营利组织
 
-业务功能可供.gov、.edu 和非赢利组织的大多数 Skype。 请参阅下的表详细信息。
+最 Skype 业务功能可供.gov、.edu 和非赢利组织。 请参阅下的表详细信息。
 
-|**Skype for Business 功能**|**可用于 .GOV (GCC)**|**可用于 .GOV（非 GCC）**|**可用于 .EDU**|**可用于非营利组织**|
+|**业务功能的 Skype** |**供.GOV (GCC)** | **Available to.GOV (非 GCC)** |**供.EDU** | **Available to 非营利组织**|
 |:-----|:-----|:-----|:-----|:-----|
-|Skype 会议直播  <br/> |是  <br/> |是  <br/> |否  <br/> |是  <br/> |
+|Skype 会议广播  <br/> |是  <br/> |是  <br/> |无  <br/> |是  <br/> |
 |Skype 业务音频会议  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|Office 365 电话系统  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|Office 365 呼叫计划  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|Office 365 的电话系统  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|Office 365 调用计划  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
    
-请查看此博客文章：[Office 365 高级功能现在可供美国政府社区云客户使用](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/)。
+此博客文章，请参阅： [高级 Office 365 功能现在适用于美国政府社区云客户] (https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/)。
