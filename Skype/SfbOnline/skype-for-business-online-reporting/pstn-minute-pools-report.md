@@ -1,5 +1,5 @@
 ---
-title: PSTN 分钟池报告
+title: PSTN minute 池报告
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,81 +16,83 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: 新 Skype 业务管理中心报告区域显示您呼叫和音频会议活动组织中。 它使您能够深入到报表，以使您更精确地了解每个用户的活动。 例如，可以使用 Skype 业务 PSTN 分钟池报告查看当月在组织内使用的分钟数。
-ms.openlocfilehash: 850a6659311b030fff6ca6c10660491694c50c27
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 新 Skype 业务管理中心报告区域显示您呼叫和音频会议活动在组织中。 使您钻取报告为您提供更精细了解每个用户的活动。 例如，可以使用业务 PSTN minute 池报表 Skype 以查看在组织内当前月份消耗的分钟数。
+ms.openlocfilehash: be1b3cbea37f8d66c25ef6c1e75f18e7473a299e
+ms.sourcegitcommit: 0a0fd436d4d732710bb65e1809ac28dd2e0df41a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/31/2018
+ms.locfileid: "19526941"
 ---
-# <a name="pstn-minute-pools-report"></a><span data-ttu-id="189c6-105">PSTN 分钟池报告</span><span class="sxs-lookup"><span data-stu-id="189c6-105">PSTN minute pools report</span></span>
+# <a name="pstn-minute-pools-report"></a><span data-ttu-id="6af65-105">PSTN minute 池报告</span><span class="sxs-lookup"><span data-stu-id="6af65-105">PSTN minute pools report</span></span>
 
 >[!NOTE]
-><span data-ttu-id="189c6-106">此报表仅可预览客户。</span><span class="sxs-lookup"><span data-stu-id="189c6-106">This report is only available to preview customers.</span></span>
+><span data-ttu-id="6af65-106">此报告才可用预览客户。</span><span class="sxs-lookup"><span data-stu-id="6af65-106">This report is only available to preview customers.</span></span>
 
-<span data-ttu-id="189c6-107">新 Skype 业务管理中心**报告**区域显示您呼叫和音频会议活动组织中。</span><span class="sxs-lookup"><span data-stu-id="189c6-107">The new Skype for Business Admin Center **Reports** area shows you calling and audio conferencing activity in your organization.</span></span> <span data-ttu-id="189c6-108">它使您能够深入到报表，以使您更精确地了解每个用户的活动。</span><span class="sxs-lookup"><span data-stu-id="189c6-108">It enables you to drill into reports to give you more granular insight about the activities of each user.</span></span> <span data-ttu-id="189c6-109">例如，可以使用**Skype 业务 PSTN 分钟池的**报告查看当月在组织内使用的分钟数。</span><span class="sxs-lookup"><span data-stu-id="189c6-109">For example, you can use the **Skype for Business PSTN minute pools** report to see the number of minutes consumed during the current month within your organization.</span></span>
+<span data-ttu-id="6af65-107">新 Skype Business Admin Center**报告**区域显示您呼叫和音频会议活动在组织中。</span><span class="sxs-lookup"><span data-stu-id="6af65-107">The new Skype for Business Admin Center **Reports** area shows you calling and audio conferencing activity in your organization.</span></span> <span data-ttu-id="6af65-108">使您钻取报告为您提供更精细了解每个用户的活动。</span><span class="sxs-lookup"><span data-stu-id="6af65-108">It enables you to drill into reports to give you more granular insight about the activities of each user.</span></span> <span data-ttu-id="6af65-109">例如，可以使用**业务 PSTN minute 池的 Skype**报告以查看在组织内当前月份消耗的分钟数。</span><span class="sxs-lookup"><span data-stu-id="6af65-109">For example, you can use the **Skype for Business PSTN minute pools** report to see the number of minutes consumed during the current month within your organization.</span></span>
   
-<span data-ttu-id="189c6-110">检查出更多可用的报告的[报告概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)。</span><span class="sxs-lookup"><span data-stu-id="189c6-110">Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) for more reports that are available.</span></span>
+<span data-ttu-id="6af65-110">签出[报告概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)可用的详细报告。</span><span class="sxs-lookup"><span data-stu-id="6af65-110">Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) for more reports that are available.</span></span>
   
-<span data-ttu-id="189c6-111">本报告中的，以及其他 Skype 业务报表，提供您详细信息活动整个组织。</span><span class="sxs-lookup"><span data-stu-id="189c6-111">This report, along with the other Skype for Business reports, gives you details on activity across your organization.</span></span> <span data-ttu-id="189c6-112">这些详细信息是非常有用的研究、 规划和进行其他业务决策为您的组织设置[通信片尾](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)时</span><span class="sxs-lookup"><span data-stu-id="189c6-112">These details are very helpful when investigating, planning, and making other business decisions for your organization and for setting up [Communications Credits](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)</span></span>
+<span data-ttu-id="6af65-111">此报告中的，以及其他 Skype 业务报告为您提供了详细信息活动在整个组织。</span><span class="sxs-lookup"><span data-stu-id="6af65-111">This report, along with the other Skype for Business reports, gives you details on activity across your organization.</span></span> <span data-ttu-id="6af65-112">调查 （英文）、 规划，以及使其他业务决策为您的组织和设置[Communications 字幕式](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)时非常有用，这些详细信息</span><span class="sxs-lookup"><span data-stu-id="6af65-112">These details are very helpful when investigating, planning, and making other business decisions for your organization and for setting up [Communications Credits](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="189c6-113">[!注释] 以管理员身份登录 Office 365 管理中心后，可以查看所有 Skype for Business 报告。</span><span class="sxs-lookup"><span data-stu-id="189c6-113">You can see all of the Skype for Business reports when you log on as an administrator to the Office 365 admin center.</span></span> 
+> <span data-ttu-id="6af65-113">[!注释] 以管理员身份登录 Office 365 管理中心后，可以查看所有 Skype for Business 报告。</span><span class="sxs-lookup"><span data-stu-id="6af65-113">You can see all of the Skype for Business reports when you log on as an administrator to the Office 365 admin center.</span></span> 
   
-## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a><span data-ttu-id="189c6-114">如何获取对 Skype 业务 PSTN 分钟池报告</span><span class="sxs-lookup"><span data-stu-id="189c6-114">How to get to the Skype for Business PSTN minute pools report</span></span>
+## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a><span data-ttu-id="6af65-114">如何获取业务 PSTN minute 池报表 Skype</span><span class="sxs-lookup"><span data-stu-id="6af65-114">How to get to the Skype for Business PSTN minute pools report</span></span>
 
-- <span data-ttu-id="189c6-115">请转到**Office 365 管理中心** > **管理中心** > **业务管理中心的 Skype** > **报告** > **PSTN 分钟池**。</span><span class="sxs-lookup"><span data-stu-id="189c6-115">Go to **Office 365 admin center** > **Admin centers** > **Skype for Business admin center** > **Reports** > **PSTN minute pools**.</span></span>
+<span data-ttu-id="6af65-115">![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**</span><span class="sxs-lookup"><span data-stu-id="6af65-115">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
+
+- <span data-ttu-id="6af65-116">转到**Office 365 管理中心** > **管理中心** > **业务管理中心的 Skype** > **报告** > **PSTN minute 池**。</span><span class="sxs-lookup"><span data-stu-id="6af65-116">Go to **Office 365 admin center** > **Admin centers** > **Skype for Business admin center** > **Reports** > **PSTN minute pools**.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="189c6-116">这取决于您拥有 Office 365 订阅，您可能看不到统一的此处所示的详细信息。</span><span class="sxs-lookup"><span data-stu-id="189c6-116">Depending on the Office 365 subscription you have, you might not see all the same details shown here.</span></span> 
+> <span data-ttu-id="6af65-117">根据您具有的 Office 365 订阅，您可能看不到统一的详细信息，如下所示。</span><span class="sxs-lookup"><span data-stu-id="6af65-117">Depending on the Office 365 subscription you have, you might not see all the same details shown here.</span></span> 
   
-## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a><span data-ttu-id="189c6-117">解释 Skype 业务 PSTN 分钟池报告</span><span class="sxs-lookup"><span data-stu-id="189c6-117">Interpret the Skype for Business PSTN minute pools report</span></span>
+## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a><span data-ttu-id="6af65-118">解释业务 PSTN minute 池报表 Skype</span><span class="sxs-lookup"><span data-stu-id="6af65-118">Interpret the Skype for Business PSTN minute pools report</span></span>
 
-<span data-ttu-id="189c6-118">通过查看每个要显示的列，可以到用户的 Skype 业务每分钟池获取图。</span><span class="sxs-lookup"><span data-stu-id="189c6-118">You can get a view into your user's Skype for Business minute pools by looking at each of the columns that are displayed.</span></span>
+<span data-ttu-id="6af65-119">您可以通过查看每个显示的列到业务 minute 池的用户的 Skype 获取视图。</span><span class="sxs-lookup"><span data-stu-id="6af65-119">You can get a view into your user's Skype for Business minute pools by looking at each of the columns that are displayed.</span></span>
   
-<span data-ttu-id="189c6-119">以下是此报告的外观。</span><span class="sxs-lookup"><span data-stu-id="189c6-119">This is what the report looks like.</span></span>
+<span data-ttu-id="6af65-120">以下是此报告的外观。</span><span class="sxs-lookup"><span data-stu-id="6af65-120">This is what the report looks like.</span></span>
   
 ## 
 
-![Skype 业务 PSTN 分钟池报告](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
+![对于业务 PSTN 分钟的 Skype 池报告](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
 ***
-![1 号](../images/sfbcallout1.png)<br/><span data-ttu-id="189c6-122">下表显示了根据许可证 （功能） 和使用位置分钟池的细目分类。</span><span class="sxs-lookup"><span data-stu-id="189c6-122">The table shows you a breakdown of minute pools by license (capability) and usage location.</span></span> 
-*    <span data-ttu-id="189c6-123">**功能**是用于调用的许可证/服务计划。</span><span class="sxs-lookup"><span data-stu-id="189c6-123">**Capability** is the license/service plan used for the call.</span></span> <span data-ttu-id="189c6-124">您可能会看到此报表中的许可证/服务计划包括：</span><span class="sxs-lookup"><span data-stu-id="189c6-124">The license/service plans you may see in this report include:</span></span>
-     * <span data-ttu-id="189c6-125">MCOPSTNPP-通信片尾</span><span class="sxs-lookup"><span data-stu-id="189c6-125">MCOPSTNPP - Communications Credits</span></span>
-     * <span data-ttu-id="189c6-126">MCOPSTN1-国内调用计划 （3000 分钟分钟 1200年美国/欧盟计划</span><span class="sxs-lookup"><span data-stu-id="189c6-126">MCOPSTN1 - Domestic Calling Plan (3000-minute US/1200-minute EU plans</span></span>
-     * <span data-ttu-id="189c6-127">MCOPSTN2-国际电话计划</span><span class="sxs-lookup"><span data-stu-id="189c6-127">MCOPSTN2 - International Calling Plan</span></span>
-     * <span data-ttu-id="189c6-128">MCOPSTN5-国内调用计划 （120 分钟调用计划）</span><span class="sxs-lookup"><span data-stu-id="189c6-128">MCOPSTN5 - Domestic Calling Plan (120-minute calling plan)</span></span>
-     * <span data-ttu-id="189c6-129">MCOMEETADD-音频会议</span><span class="sxs-lookup"><span data-stu-id="189c6-129">MCOMEETADD - Audio Conferencing</span></span>
-     * <span data-ttu-id="189c6-130">MCOMEETACPEA-按每分钟的音频会议</span><span class="sxs-lookup"><span data-stu-id="189c6-130">MCOMEETACPEA - Pay Per Minute Audio Conferencing</span></span>
-*    <span data-ttu-id="189c6-131">**功能说明**是用于调用的许可证类型的说明。</span><span class="sxs-lookup"><span data-stu-id="189c6-131">**Capability Description** is a description of the license type utilized for the call.</span></span>
-*    <span data-ttu-id="189c6-132">**国家分钟池**是共享分钟池的用户许可使用位置。</span><span class="sxs-lookup"><span data-stu-id="189c6-132">**Country Minute Pool** is the license usage location of the user(s) who share the minute pool.</span></span> 
-*    <span data-ttu-id="189c6-133">**使用分**是每个月使用的分钟数。</span><span class="sxs-lookup"><span data-stu-id="189c6-133">**Used Minutes** is the number of minutes used each month.</span></span>
-*    <span data-ttu-id="189c6-134">**总分钟数**是总个月用的分钟数。</span><span class="sxs-lookup"><span data-stu-id="189c6-134">**Total Minutes** is the total number of minutes available for the month.</span></span> 
-*    <span data-ttu-id="189c6-135">**使用 %**是用于月分钟 %。</span><span class="sxs-lookup"><span data-stu-id="189c6-135">**Percent Used** is the percent of minutes used for the month.</span></span> 
+![1 号](../images/sfbcallout1.png)<br/><span data-ttu-id="6af65-123">下表显示了按许可证 （功能） 和使用率位置 minute 池的细分。</span><span class="sxs-lookup"><span data-stu-id="6af65-123">The table shows you a breakdown of minute pools by license (capability) and usage location.</span></span> 
+*    <span data-ttu-id="6af65-124">**功能**是用于呼叫的许可证/服务计划。</span><span class="sxs-lookup"><span data-stu-id="6af65-124">**Capability** is the license/service plan used for the call.</span></span> <span data-ttu-id="6af65-125">您可能会看到此报告中的许可证/服务计划包括：</span><span class="sxs-lookup"><span data-stu-id="6af65-125">The license/service plans you may see in this report include:</span></span>
+     * <span data-ttu-id="6af65-126">MCOPSTN1-国内调用规划 （3000 分钟美国/1200年分钟欧盟计划</span><span class="sxs-lookup"><span data-stu-id="6af65-126">MCOPSTN1 - Domestic Calling Plan (3000-minute US/1200-minute EU plans</span></span>
+     * <span data-ttu-id="6af65-127">MCOPSTN2-国际呼叫计划</span><span class="sxs-lookup"><span data-stu-id="6af65-127">MCOPSTN2 - International Calling Plan</span></span>
+     * <span data-ttu-id="6af65-128">MCOPSTN5-国内调用计划 （120 分钟调用计划）</span><span class="sxs-lookup"><span data-stu-id="6af65-128">MCOPSTN5 - Domestic Calling Plan (120-minute calling plan)</span></span>
+     * <span data-ttu-id="6af65-129">MCOPSTN6-国内调用计划 （240 分钟调用计划）</span><span class="sxs-lookup"><span data-stu-id="6af65-129">MCOPSTN6 - Domestic Calling Plan (240-minute calling plan)</span></span>
+     * <span data-ttu-id="6af65-130">MCOMEETADD-音频会议</span><span class="sxs-lookup"><span data-stu-id="6af65-130">MCOMEETADD - Audio Conferencing</span></span>
+*    <span data-ttu-id="6af65-131">**功能描述**是用于呼叫的许可证类型的说明。</span><span class="sxs-lookup"><span data-stu-id="6af65-131">**Capability Description** is a description of the license type utilized for the call.</span></span>
+*    <span data-ttu-id="6af65-132">**国家/地区分钟池**是之共享的分钟的池的用户的许可证使用情况位置。</span><span class="sxs-lookup"><span data-stu-id="6af65-132">**Country Minute Pool** is the license usage location of the user(s) who share the minute pool.</span></span> 
+*    <span data-ttu-id="6af65-133">**使用分钟**是使用每个月的分钟数。</span><span class="sxs-lookup"><span data-stu-id="6af65-133">**Used Minutes** is the number of minutes used each month.</span></span>
+*    <span data-ttu-id="6af65-134">**总分钟数**是总月提供的分钟数。</span><span class="sxs-lookup"><span data-stu-id="6af65-134">**Total Minutes** is the total number of minutes available for the month.</span></span> 
+*    <span data-ttu-id="6af65-135">**使用 %** 是用于月份的分钟数的百分比。</span><span class="sxs-lookup"><span data-stu-id="6af65-135">**Percent Used** is the percent of minutes used for the month.</span></span> 
 ***
-<span data-ttu-id="189c6-136">![2 号](../images/sfbcallout2.png)</span><span class="sxs-lookup"><span data-stu-id="189c6-136">![Number 2](../images/sfbcallout2.png)</span></span><br/><span data-ttu-id="189c6-137">如果你希望创建将一列或多列中的所有数据进行分组的视图，请单击某个列并将其拖动到" **若要按特定列进行分组，请将列标题拖至此处**"。</span><span class="sxs-lookup"><span data-stu-id="189c6-137">Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.</span></span> 
+<span data-ttu-id="6af65-136">![2 号](../images/sfbcallout2.png)</span><span class="sxs-lookup"><span data-stu-id="6af65-136">![Number 2](../images/sfbcallout2.png)</span></span><br/><span data-ttu-id="6af65-137">如果你希望创建将一列或多列中的所有数据进行分组的视图，请单击某个列并将其拖动到" **若要按特定列进行分组，请将列标题拖至此处**"。</span><span class="sxs-lookup"><span data-stu-id="6af65-137">Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.</span></span> 
 ***
-<span data-ttu-id="189c6-138">![数字 3](../images/sfbcallout3.png)</span><span class="sxs-lookup"><span data-stu-id="189c6-138">![Number 3](../images/sfbcallout3.png)</span></span><br/><span data-ttu-id="189c6-139">你还可以单击或点击" **导出到 Excel**"按钮，将报告数据导出到 Excel .csv 文件中。</span><span class="sxs-lookup"><span data-stu-id="189c6-139">You can also export the report data into an Excel .csv file, by clicking or tapping the **Export to Excel** button.</span></span> <br/><br/> <span data-ttu-id="189c6-140">此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。</span><span class="sxs-lookup"><span data-stu-id="189c6-140">This exports data of all users and enables you to do simple sorting and filtering for further analysis.</span></span> <span data-ttu-id="189c6-141">如果您有少于 2000年用户，您可以排序和筛选报告本身中的表内。</span><span class="sxs-lookup"><span data-stu-id="189c6-141">If you have fewer than 2000 users, you can sort and filter within the table in the report itself.</span></span> <span data-ttu-id="189c6-142">如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。</span><span class="sxs-lookup"><span data-stu-id="189c6-142">If you have more than 2000 users, in order to filter and sort, you will need to export the data.</span></span>
+<span data-ttu-id="6af65-138">![3 号](../images/sfbcallout3.png)</span><span class="sxs-lookup"><span data-stu-id="6af65-138">![Number 3](../images/sfbcallout3.png)</span></span><br/><span data-ttu-id="6af65-139">你还可以单击或点击" **导出到 Excel**"按钮，将报告数据导出到 Excel .csv 文件中。</span><span class="sxs-lookup"><span data-stu-id="6af65-139">You can also export the report data into an Excel .csv file, by clicking or tapping the **Export to Excel** button.</span></span> <br/><br/> <span data-ttu-id="6af65-140">此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。</span><span class="sxs-lookup"><span data-stu-id="6af65-140">This exports data of all users and enables you to do simple sorting and filtering for further analysis.</span></span> <span data-ttu-id="6af65-141">如果您有超过 2000年用户，您可以排序和筛选报告本身中的表中。</span><span class="sxs-lookup"><span data-stu-id="6af65-141">If you have fewer than 2000 users, you can sort and filter within the table in the report itself.</span></span> <span data-ttu-id="6af65-142">如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。</span><span class="sxs-lookup"><span data-stu-id="6af65-142">If you have more than 2000 users, in order to filter and sort, you will need to export the data.</span></span>
    
-## <a name="want-to-see-other-skype-for-business-reports"></a><span data-ttu-id="189c6-143">想要查看其他 Skype for Business 报告？</span><span class="sxs-lookup"><span data-stu-id="189c6-143">Want to see other Skype for Business reports?</span></span>
+## <a name="want-to-see-other-skype-for-business-reports"></a><span data-ttu-id="6af65-143">想要查看其他 Skype for Business 报告？</span><span class="sxs-lookup"><span data-stu-id="6af65-143">Want to see other Skype for Business reports?</span></span>
 
-- <span data-ttu-id="189c6-144">[Skype 的业务活动报告](activity-report.md)您可以看到多少用户使用对等、 有组织和参与了会议会话。</span><span class="sxs-lookup"><span data-stu-id="189c6-144">[Skype for Business activity report](activity-report.md) You can see how much your users are using peer-to-peer, organized, and participated in conferencing sessions.</span></span>
+- <span data-ttu-id="6af65-144">[Skype 的业务活动报告](activity-report.md)您可以看到多少您的用户将对等、 组织，和参加会议会话。</span><span class="sxs-lookup"><span data-stu-id="6af65-144">[Skype for Business activity report](activity-report.md) You can see how much your users are using peer-to-peer, organized, and participated in conferencing sessions.</span></span>
     
-- <span data-ttu-id="189c6-145">[Skype 的业务设备使用情况报告](device-usage-report.md)您可以查看包括基于 Windows 操作系统的设备，拥有 Skype 的业务应用程序的移动设备安装，并将其用于即时消息和会议。</span><span class="sxs-lookup"><span data-stu-id="189c6-145">[Skype for Business device usage report](device-usage-report.md) You can to see the devices including Windows-based operating systems and mobile devices that have the Skype for Business app installed and are using it for IM and meetings.</span></span>
+- <span data-ttu-id="6af65-145">[Skype 的业务设备使用情况报告](device-usage-report.md)您可以查看设备包括基于 Windows 的操作系统和移动设备具有业务应用程序 Skype 的安装和使用它的 IM 和会议。</span><span class="sxs-lookup"><span data-stu-id="6af65-145">[Skype for Business device usage report](device-usage-report.md) You can to see the devices including Windows-based operating systems and mobile devices that have the Skype for Business app installed and are using it for IM and meetings.</span></span>
     
-- <span data-ttu-id="189c6-146">[Skype 业务会议组织者活动报告](conference-organizer-activity-report.md)您可以看到您的用户多少组织使用 IM，音频/视频、 应用程序共享，Web，出的第三方的 /dial 和 /dial-Microsoft 的会议。</span><span class="sxs-lookup"><span data-stu-id="189c6-146">[Skype for Business conference organizer activity report](conference-organizer-activity-report.md) You can see how much your users are organizing conferences that use IM, audio/video, application sharing, Web, /dial out - 3rd party, and /dial out - Microsoft.</span></span>
+- <span data-ttu-id="6af65-146">[Skype 的业务会议组织者活动报告](conference-organizer-activity-report.md)您可以看到多少您的用户的组织使用 IM、 音频/视频，应用程序共享、 Web、 /dial 出 — 第三方和 /dial 出-Microsoft 的会议。</span><span class="sxs-lookup"><span data-stu-id="6af65-146">[Skype for Business conference organizer activity report](conference-organizer-activity-report.md) You can see how much your users are organizing conferences that use IM, audio/video, application sharing, Web, /dial out - 3rd party, and /dial out - Microsoft.</span></span>
     
-- <span data-ttu-id="189c6-147">[Skype 业务会议参与者的活动报告](conference-participant-activity-report.md)您可以看到多少 IM，音频/视频、 应用程序共享、 Web 和拨出音频会议都要参加。</span><span class="sxs-lookup"><span data-stu-id="189c6-147">[Skype for Business conference participant activity report](conference-participant-activity-report.md) You can see how many IM, audio/video, application sharing, Web and dial out audio conferences are being participated in.</span></span>
+- <span data-ttu-id="6af65-147">[Skype 的业务会议参与者活动报告](conference-participant-activity-report.md)您可以看到多少 IM、 音频/视频，应用程序共享、 Web 和拨出音频会议正在参与。</span><span class="sxs-lookup"><span data-stu-id="6af65-147">[Skype for Business conference participant activity report](conference-participant-activity-report.md) You can see how many IM, audio/video, application sharing, Web and dial out audio conferences are being participated in.</span></span>
     
-- <span data-ttu-id="189c6-148">[Skype 业务对等活动报告](peer-to-peer-activity-report.md)您可以看到您的用户使用 IM，音频/视频、 应用程序共享和文件传输的多少。</span><span class="sxs-lookup"><span data-stu-id="189c6-148">[Skype for Business peer-to-peer activity report](peer-to-peer-activity-report.md) You can see how much your users are using IM, audio/video, application sharing and transferring files.</span></span>
+- <span data-ttu-id="6af65-148">[Skype 的业务对等活动报告](peer-to-peer-activity-report.md)您可以看到多少用户使用 IM、 音频/视频、 应用程序共享和文件传输。</span><span class="sxs-lookup"><span data-stu-id="6af65-148">[Skype for Business peer-to-peer activity report](peer-to-peer-activity-report.md) You can see how much your users are using IM, audio/video, application sharing and transferring files.</span></span>
     
-- <span data-ttu-id="189c6-149">[适用于业务用户的 Skype 阻塞报表](users-blocked-report.md)您可以查看组织中的用户进行 PSTN 呼叫已被阻止。</span><span class="sxs-lookup"><span data-stu-id="189c6-149">[Skype for Business users blocked report](users-blocked-report.md) You can see the users in your organization that have been blocked from making PSTN calls.</span></span>
+- <span data-ttu-id="6af65-149">[适用于业务用户的 Skype 阻止报告](users-blocked-report.md)您可以看到您的组织中被阻止发出 PSTN 呼叫的用户。</span><span class="sxs-lookup"><span data-stu-id="6af65-149">[Skype for Business users blocked report](users-blocked-report.md) You can see the users in your organization that have been blocked from making PSTN calls.</span></span>
 
-- <span data-ttu-id="189c6-150">[Skype 的业务会话详细信息报告](session-details-report.md)您可以查看有关单个用户的呼叫体验的详细信息。</span><span class="sxs-lookup"><span data-stu-id="189c6-150">[Skype for Business session details report](session-details-report.md) You can see details about individual user's call experiences.</span></span>
+- <span data-ttu-id="6af65-150">[Skype 业务会话详细信息报表](session-details-report.md)您可以看到有关单个用户的呼叫体验的详细信息。</span><span class="sxs-lookup"><span data-stu-id="6af65-150">[Skype for Business session details report](session-details-report.md) You can see details about individual user's call experiences.</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="189c6-151">相关主题</span><span class="sxs-lookup"><span data-stu-id="189c6-151">Related topics</span></span>
-[<span data-ttu-id="189c6-152">Office 365 管理中心中的活动报告</span><span class="sxs-lookup"><span data-stu-id="189c6-152">Activity Reports in the Office 365 admin center</span></span>](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+## <a name="related-topics"></a><span data-ttu-id="6af65-151">相关主题</span><span class="sxs-lookup"><span data-stu-id="6af65-151">Related topics</span></span>
+[<span data-ttu-id="6af65-152">Office 365 管理中心中的活动报告</span><span class="sxs-lookup"><span data-stu-id="6af65-152">Activity Reports in the Office 365 admin center</span></span>](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
    
