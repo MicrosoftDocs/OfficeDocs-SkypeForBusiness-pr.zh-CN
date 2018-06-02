@@ -16,7 +16,6 @@
 ## [管理对 Teams 的用户访问](user-access.md)
 ## [获取 Teams 的客户端](get-clients.md)
 ## [团队应用程序的硬件要求](hardware-requirements-for-the-teams-app.md)
-## [迁移和 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
 ## [登录到团队](sign-in-teams.md)
 ## [Teams 部署概述](deployment-overview.md)
 ## [在你的 Office 365 组织中设置 Teams](Office-365-set-up.md)
@@ -41,7 +40,7 @@
 
 
 # 与 Office 365 的互操作性
-## [Teams 和 Skype for Business 互操作性](teams-and-skypeforbusiness-interoperability.md)
+## [迁移和 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
 ## [Office 365 组和 Teams](office-365-groups.md)
 ## [使用 Teams 增强现有 Office 365 组](enhance-office-365-groups.md)
 ## [在 Teams 中创建团队时规划 Office 365 组](plan-office-365-groups.md)
@@ -227,6 +226,7 @@
 ## [2 - 在使用 Skype for Business 的同时试用 Teams](pilot-essentials.md)
 ### [2.1-选择您的团队试生产用户](select-users-for-your-teams-pilot.md)
 ## [3-了解共存和业务和团队的 Skype 升级模式](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [3.1-团队和 Skype 的业务共存及互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 ## [4 - 通过用户采用推动价值](continue-journey.md)
 ## [常见问题解答 - Skype for Business 和 Teams 愿景](FAQ-journey.md)
 ## [教程：从 Skype for Business 到 Teams 的旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
