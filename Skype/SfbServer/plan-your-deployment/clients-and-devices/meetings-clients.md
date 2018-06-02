@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 摘要： IT 专业人员应规划的 Skype 业务服务器 2015年时查看 Skype 企业 Web 应用程序和 Skype 会议应用程序的支持要求。 这篇文章不适合于这些应用程序的用户。
-ms.openlocfilehash: 1e843f0f6ba5d25958f4396c272d97943445239f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 88006a758909f56f21724706bf9670077d603caa
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19546559"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>规划会议客户端 （Web 应用程序和会议应用程序）
  
@@ -158,24 +159,13 @@ Skype 会议应用程序使用 Windows 10、 Windows 8.1、 Windows 8 和 Window
     
 - 您可能需要[打开 JavaScript](https://support.office.com/en-us/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd)到支持在浏览器中的企业 Web 应用程序功能的一些 Skype 以按预期方式工作。
     
-### <a name="cryptographic-requirements-due-to-asp-net-45"></a>由于 ASP.NET 4.5 加密要求
+### <a name="aes-support"></a>AES 支持 
 
-截止业务服务器 2015 CU5 的 Skype，AES 不支持 ASP.NET 4.6，这可能会导致 Skype 会议应用程序无法启动。 如果客户端使用的作为计算机关键验证值 AES 需要计算机密钥值重置为 sha-1 或在 IIS 上的 Skype 会议应用程序网站级别上的另一个受支持的算法。 如有必要，请参阅[IIS 8.0 ASP.NET 配置管理](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management)说明。
-  
-其他支持的值包括：
-  
-- HMACSHA256
-    
-- HMACSHA384
-    
-- HMACSHA512
-    
- AES、 3DES 和 MD5 不再允许，像一次 ASP.NET 4 中的值。[ASP.NET 4.5，磅 2 中的加密改进](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/)具有更多详细信息。
+截止业务服务器 2015 CU5 的 Skype，AES 不支持 ASP.NET 4.6，这可能会导致 Skype 会议应用程序无法启动。 [由于 ASP.NET 4.5 加密要求](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45)有更多详细信息。
   
 ## <a name="see-also"></a>另请参阅
 <a name="BKMK_Conferencing"> </a>
 
-#### 
 [部署业务服务器 2015 Skype Web 可下载客户端](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
 [Skype 会议应用程序所支持的平台](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

@@ -14,19 +14,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 摘要： 为业务服务器 2015年实现 Skype 之前查看端口使用情况注意事项。
-ms.openlocfilehash: 4bf9b7f9f1d0d0b99a8add76c4f73d4adcebea16
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 576b0247631e4f01909acb717e12efbb954d5cb0
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19546590"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>服务器的端口和协议要求
  
-**摘要：**为业务服务器 2015年实现 Skype 之前查看端口使用情况注意事项。
+**摘要：** 为业务服务器 2015年实现 Skype 之前查看端口使用情况注意事项。
   
 Skype 业务服务器要求的特定端口的外部和内部防火墙上打开。 此外，如果在您的组织中部署了 Internet 协议安全性 (IPsec)，则必须在用于传送音频、视频和全景视频的端口范围内禁用 IPSec。 
   
-尽管这看似位令人望而生畏开始时，可以完成规划此繁重使用[Skype 业务服务器 2015年规划工具](https://www.microsoft.com/en-us/download/details.aspx?id=50357)。 后已经历有关哪些功能您打算使用的向导的问题，为每个网站定义您可以查看防火墙报告在边缘管理报告，并使用列出那里来创建 yourfirewall 规则的信息。 您还可以制作调整的许多名称和 IP 地址用于详细信息，请参阅[查看防火墙报告](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)。 需要记住的提醒您可以导出边缘管理报告 Excel 电子表格，并防火墙报告将一个文件中的工作表。 
+尽管这看似位令人望而生畏开始时，可以完成规划此繁重使用[Skype 业务服务器 2015年规划工具](https://go.microsoft.com/fwlink/p/?LinkID=282725)。 后已经历有关哪些功能您打算使用的向导的问题，为每个网站定义您可以查看防火墙报告在边缘管理报告，并使用列出那里来创建 yourfirewall 规则的信息。 您还可以制作调整的许多名称和 IP 地址用于详细信息，请参阅[查看防火墙报告](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)。 需要记住的提醒您可以导出边缘管理报告 Excel 电子表格，并防火墙报告将一个文件中的工作表。 
   
 通过查看协议工作负荷海报移开[Technical diagrams for Business Server 2015 Skype 的](../../technical-diagrams.md)文章链接，还可以在这些表关系图窗体中找到信息。
   
