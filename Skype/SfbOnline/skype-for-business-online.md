@@ -1,22 +1,23 @@
 ---
-title: "Skype for Business Online 管理"
-description: "了解如何为你的组织管理 Skype for Business Online。"
+title: Skype for Business Online 管理
+description: 了解如何为你的组织管理 Skype for Business Online。
 services: skype-for-business-online-admin
 author: tonysmit
 manager: serdars
 ms.date: 01/22/2018
 layout: LandingPage
-ms.assetid: 
+ms.assetid: ''
 ms.service: skype-for-business-online-admin
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: 3de4ba1e928dfef92a259738507a94a279e9ca1e
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: MT
+ms.openlocfilehash: e92f5fdf9aa3b7d60ccf956d0eca872fd7b3f43f
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19546457"
 ---
 # <a name="skype-for-business-online-admin"></a>Skype for Business Online 管理
 
@@ -30,7 +31,7 @@ ms.lasthandoff: 02/19/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_get-started.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -48,7 +49,7 @@ ms.lasthandoff: 02/19/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_support.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -66,7 +67,7 @@ ms.lasthandoff: 02/19/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_account-management.svg" alt="User account" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/user-accounts.svg" alt="User account" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -84,7 +85,7 @@ ms.lasthandoff: 02/19/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_tools.svg" alt="Troubleshoot" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="Troubleshoot" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -102,7 +103,7 @@ ms.lasthandoff: 02/19/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_teams-flag.svg" alt="Flag" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-blue.svg" alt="Flag" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -112,6 +113,65 @@ ms.lasthandoff: 02/19/2018
             </div>
         </div>
         </a>
+    </li>
+</ul>
+
+---
+
+<h2>最新内容</h2>
+
+<ul class="panelContent cardsF">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg" alt="Article" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>资讯</h3>
+                        <p><a href=" ">链接名称</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-blue.svg" alt="What's new" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>新功能
+</h3>
+                        <p><a href=" ">链接名称</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/connector-blue.svg" alt="Updates" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>重大更新</h3>
+                        <p><a href=" ">链接名称</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </li>
 </ul>
 
