@@ -16,15 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 摘要： 了解如何移动用户帐户从联机到本地 Skype 中的业务服务器。
-ms.openlocfilehash: 867fb34cbbb0e908fd8af521cff9a1867caa30a7
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 7e0400a0a77a50253e6932c8255c64eb58574229
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569475"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>Skype 业务 online 到本地移动用户
  
-**摘要：**了解如何移动用户帐户从联机到本地 Skype 中的业务服务器。
+**摘要：** 了解如何移动用户帐户从联机到本地 Skype 中的业务服务器。
   
 您可能需要将用户帐户从联机到移动本地以确保用户驻留在线和本地是到另一个可供搜索。 若要向其他可供搜索，所有用户必须都具有内部部署 Active Directory 中的状态。 有关详细信息，请参阅[规划 Skype 业务服务器和 Skype 业务 online 之间的混合连接性](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)。 您可能需要 online 将用户移动到在本地，例如，如果： 
   
@@ -144,9 +145,6 @@ ms.lasthandoff: 05/03/2018
     
   ```
   $cred = Get-Credential
-  ```
-
-  ```
   Move-CsUser -Identity <username>@contoso.com  -Target "<fe-pool>.contoso.com " -Credential $cred -HostedMigrationOverrideURL <URL>
   ```
 

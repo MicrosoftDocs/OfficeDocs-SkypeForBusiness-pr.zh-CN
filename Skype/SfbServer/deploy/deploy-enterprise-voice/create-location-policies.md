@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: 阅读本主题可了解如何配置 Business Server 企业语音的增强型紧急服务 (E9-1-1) 在 Skype 的位置策略。
-ms.openlocfilehash: 2bb2d7fad7906d78d5118f219b0b85d92dd97b23
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 6687e5ac8d414ef9db49c2fccdde9dceedb93889
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568295"
 ---
 # <a name="create-location-policies-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建位置策略
  
@@ -62,14 +63,12 @@ Skype 业务服务器使用位置策略 Skype 启用客户端注册期间业务�
     
    ```
    Set-CsLocationPolicy -Identity Global -EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -PstnUsage "emergencyUsage" -EmergencyDialString "911" -ConferenceMode "twoway" -ConferenceUri "sip:+14255550123@litwareinc.com" -EmergencyDialMask "112" NotificationUri "sip:security@litwareinc.com" -UseLocationForE911Only $true -LocationRefreshInterval 2
-
    ```
 
 3. 运行以下命令创建带标记的位置策略。
     
    ```
    New-CsLocationPolicy -Identity Tag:Redmond - EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -UseLocationForE911Only $false -PstnUsage "EmergencyUsage" -EmergencyDialString "911" -EmergencyDialMask "112" -NotificationUri "sip:security@litwareinc.com" -ConferenceUri "sip:+14255550123@litwareinc.com" -ConferenceMode "twoway" -LocationRefreshInterval 2
-
    ```
 
 4. 运行以下 cmdlet 将步骤 3 中创建的带标记的位置策略应用于用户策略。
@@ -77,5 +76,3 @@ Skype 业务服务器使用位置策略 Skype 启用客户端注册期间业务�
    ```
    (Get-CsUser | where { $_.Name -match "UserName" }) | Grant-CsLocationPolicy -PolicyName Redmond
    ```
-
-

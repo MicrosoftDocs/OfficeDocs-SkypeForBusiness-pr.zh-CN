@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: 修改 Skype 中的业务 Server 企业语音的呼叫寄存设置。
-ms.openlocfilehash: 15dc57d5a069ead8fd18dbf6489f748df4ff30a6
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c0aacdf23788c56d2bd0204665d5971dc715df3b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568302"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business-2015"></a>在 Skype for Business 2015 中配置呼叫寄存设置
  
@@ -49,7 +50,7 @@ ms.lasthandoff: 05/24/2018
    ```
 
    > [!TIP]
-   > 使用**Get-cssite** cmdlet 来标识该网站。 有关详细信息，请参阅 Lync Server Management Shell 文档。
+   > 使用**Get-cssite** cmdlet 来标识该网站。 有关详细信息，请参阅 for Business Server Management Shell 文档的 Skype。
   
     例如：
     
@@ -59,8 +60,6 @@ ms.lasthandoff: 05/24/2018
 
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [自定义业务 2015年的保留 inSkype 的呼叫寄存音乐](customize-call-park-music-on-hold.md)
 
 [新 CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
@@ -68,4 +67,3 @@ ms.lasthandoff: 05/24/2018
 [Set-cscpsconfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
   
 [Get-cssite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)
-

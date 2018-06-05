@@ -9,18 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
-description: 摘要： 了解如何创建在 Skype 业务服务器 2015年会议目录。
-ms.openlocfilehash: aa261dbe92507fad2721f57d743be57bea89de2a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何为业务服务器 2015 Skype 创建会议目录。
+ms.openlocfilehash: 861172a76da68d39fd9f8213de6e45a892aa1780
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568743"
 ---
 # <a name="create-conference-directories-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建会议目录
  
-**摘要：**了解如何创建在 Skype 业务服务器 2015年会议目录。
+**摘要：** 了解如何为业务服务器 2015 Skype 创建会议目录。
   
-会议目录维护参与者加入会议，商务，在使用 Skype 时使用的字母数字会议 ID 和拨入会议参与者用来参加会议的仅数字会议 ID 之间的映射。 
+会议目录维护参与者加入会议的业务，使用 Skype 时使用的字母数字会议 ID 和电话拨入式会议参与者使用加入会议的仅含数字会议 ID 之间的映射。 
   
 ## <a name="create-a-conference-directory"></a>创建会议目录
 
@@ -31,17 +32,16 @@ ms.lasthandoff: 03/28/2018
 会议 ID 的格式如下： 
   
 ```
-<housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
-
+  <housekeeping digit (1 digit)><conference directory (usually 1-2 digits> 
+  <conference number (variable number of digits><check digit (1 digit)>
 ```
 
 若要创建会议目录，请使用 **New-CsConferenceDirectory** cmdlet。例如，下面的命令创建 Identify 为 42 的会议目录，托管在池 atl-cs-001.litwareinc.com 上面：
   
 ```
 New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"
-
 ```
 
-有关详细信息，请参阅[新建 CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps)。
+有关详细信息，请参阅[New-csconferencedirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps)。
   
 

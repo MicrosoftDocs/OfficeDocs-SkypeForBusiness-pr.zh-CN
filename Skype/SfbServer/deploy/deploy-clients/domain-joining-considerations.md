@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: 阅读本主题，了解如何将 Skype 会议室系统家用电脑加入你的域。
-ms.openlocfilehash: e858122b8c931c53a7cb2eff0fe58ff225547a07
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: ffc55984df3b42b06f4db8faa6a286ea41e99480
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568659"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype 会议室系统域加入注意事项
  
@@ -57,7 +58,6 @@ $username = "contso.local\LRS01"
 $password = ConvertTo-SecureString "password123" -AsPlainText -Force
 $myCred = New-Object System.Management.Automation.PSCredential $username, $password
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
-
 ```
 
 即使你创建单独的 OU 并阻止集成，但是有些策略可能会在较高级别引起问题。 具有“禁止替代”设置的组策略会打败具有“阻止策略继承”设置的 OU。 详细信息，请参阅文章"无重写 as 相比收件人阻止策略继承"中的组策略文档http://technet.microsoft.com/en-us/library/cc978255.aspx。
@@ -65,8 +65,6 @@ Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomS
 你可能有多种方法来解决这些问题。 我们建议你咨询 Active Directory 专家来确保为你提供的 OU 具有合适的 GPO 设置或者至少其中不存在上面所述的策略。 建议为 Skype 会议室系统设备启用服务质量 (QoS)。
 
 ## <a name="see-also"></a>另请参阅
-
-#### 
   
 [设备配置： 创建新的或编辑现有的](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 

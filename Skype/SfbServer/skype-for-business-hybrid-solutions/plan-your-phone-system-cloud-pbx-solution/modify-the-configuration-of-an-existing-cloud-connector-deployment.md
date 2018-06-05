@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: 按照本主题可修改现有的 Skype 商务云连接器版 1.4.1 或更高版本的部署的配置中的步骤。
-ms.openlocfilehash: 86efbf21efae3dc95508528850a984912e4930a1
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9e660744e05bfd0628c19b86110ad33443c58671
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569566"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>修改现有云连接器部署的配置
  
@@ -235,7 +236,6 @@ Get-CcCredential -AccountType CABackupFile -DisplayPassword
 Get-CcCredential -AccountType CceService -DisplayPassword
 Get-CcCredential -AccountType VMAdmin -DisplayPassword
 Get-CcCredential -AccountType DomainAdmin -DisplayPassword
-
   ```
 
 2. 运行 Enter CcUpdate cmdlet 排出设备，并将其移到手动维护模式。

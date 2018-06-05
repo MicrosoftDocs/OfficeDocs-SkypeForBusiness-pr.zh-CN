@@ -9,20 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
-description: 摘要： 了解如何在 Skype 为业务服务器 2015年配置持久聊天服务器法规遵从性服务。
-ms.openlocfilehash: a77b07b0e05a248c351e73c5b8a5f2cebf97236c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何在 Skype for Business Server 2015 配置持久聊天服务器合规性服务。
+ms.openlocfilehash: 99c09408fbc404edd7ccd6c3844f59dca77a35f0
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568624"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>为 Skype for Business Server 2015 中的持久聊天服务器配置合规性服务
  
-**摘要：**了解如何在 Skype 为业务服务器 2015年配置持久聊天服务器法规遵从性服务。
+**摘要：** 了解如何在 Skype for Business Server 2015 配置持久聊天服务器合规性服务。
   
-持久聊天合规性允许管理员保留持久聊天消息和活动的存档。 法规遵从性服务记录，并存档相关的每个持久聊天服务器对话，包括参与者的数据：
+持久聊天合规性允许管理员保留持久聊天消息和活动的存档。 合规性服务记录并存档与每个持久聊天服务器对话，包括当参与者相关的数据：
   
-- 加入一个持久聊天房间
+- 加入持久聊天聊天室
     
 - 离开聊天室
     
@@ -54,7 +55,7 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
   
 - AdapterType - 允许您指定适配器类型。 适配器是一个第三方产品，可将合规性数据库中的数据转换为特定格式。 XML 为默认格式。
     
-- OneChatRoomPerOutputFile-此参数允许您指定单独的报表中要创建的每个聊天室。
+- OneChatRoomPerOutputFile-此参数允许您指定的分隔每个聊天室创建的报告。
     
 - AddChatRoomDetails - 启用时，此参数会在数据库中记录有关每个聊天室的其他详细信息。 由于此设置可大幅增加数据库的规模，默认将予以禁用。
     
@@ -66,23 +67,23 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
     
 ## <a name="use-a-customized-compliance-adapter"></a>使用自定义的合规性适配器
 
-您可以编写自定义适配器而不是使用持久聊天服务器安装 XmlAdapter。 若要实现此目的，您必须提供包含实现 **IComplianceAdapter** 接口的公共类的 .NET Framework 程序集。 必须将持久聊天服务器安装文件夹中每个服务器中的此程序集放在持久聊天服务器池。 任一合规性服务器都可以为您的适配器提供合规性数据，但合规性服务器不会为您的适配器的多个实例提供重复的合规性数据。
+您可以编写自定义而不是使用随持久聊天服务器一起安装 XmlAdapter 适配器。 若要实现此目的，您必须提供包含实现 **IComplianceAdapter** 接口的公共类的 .NET Framework 程序集。 您必须先在每台服务器的持久聊天服务器安装文件夹中将此程序集，在持久聊天服务器池。 任一合规性服务器都可以为您的适配器提供合规性数据，但合规性服务器不会为您的适配器的多个实例提供重复的合规性数据。
   
-Compliance.dll 程序集中的命名空间中定义接口`Microsoft.Rtc.Internal.Chat.Server.Compliance`。 接口定义必须实现您的自定义适配器的两种方法。
+Compliance.dll 程序集中的命名空间中定义接口`Microsoft.Rtc.Internal.Chat.Server.Compliance`。 该接口定义您的自定义适配器必须实现的两种方法。
   
-首次加载适配器时持久聊天的法规遵从性服务器将调用下面的方法。 `AdapterConfig`包含相关的法规遵从性适配器持久聊天的法规遵从性配置：
+首次加载适配器时，持久聊天合规性服务器将调用以下方法。 `AdapterConfig`包含与合规性适配器相关的持久聊天合规性配置：
   
 ```
 void SetConfig(AdapterConfig config)
 ```
 
-持续聊天的法规遵从性服务器定期调用以下方法，只要没有新的数据转换。 此时间间隔等于`RunInterval`中的持久聊天的法规遵从性配置设置：
+持久聊天合规性服务器定期调用以下方法，只要没有要翻译的新数据。 此时间间隔等于`RunInterval`中的持久聊天合规性配置设置：
   
 ```
 void Translate(ConversationCollection conversations)
 ```
 
-`ConversationCollection`包含收集从最后一次调用此方法的会话信息。
+`ConversationCollection`包含的上次调用此方法时收集的对话信息。
   
 ## <a name="customize-the-xslt-definition-file"></a>自定义 XSLT 定义文件
 
@@ -127,9 +128,9 @@ void Translate(ConversationCollection conversations)
 
 下表描述了消息属性类型、内容和 ID。
   
-**消息元素属性**
+**Messages 元素属性**
 
-|**属性**|**说明**|**可选/要求**|
+|**属性**|**说明**|**可选/需要**|
 |:-----|:-----|:-----|
 |类型  <br/> |指定消息类型。消息类型将在" Message 元素消息类型"表中进行介绍。  <br/> |是否必需  <br/> |
 |内容  <br/> |包含消息的内容。具有 Join 或 Part 类型的消息不使用此属性。  <br/> |可选  <br/> |
@@ -137,9 +138,9 @@ void Translate(ConversationCollection conversations)
    
 每个 Sender 元素包含五个属性：用户名、ID、电子邮件、Internal 和 URI。这些属性将在下表中进行介绍。
   
-**发件人元素属性**
+**Sender 元素属性**
 
-|**属性**|**说明**|**可选/要求**|
+|**属性**|**说明**|**可选/需要**|
 |:-----|:-----|:-----|
 |Username  <br/> |发送者的名称。  <br/> |可选  <br/> |
 |ID  <br/> |发件人的唯一 id。  <br/> |是否必需  <br/> |
@@ -147,9 +148,9 @@ void Translate(ConversationCollection conversations)
 |内部  <br/> |确定用户是内部用户还是联盟用户。如果值设为 True，则用户为内部用户。  <br/> |可选  <br/> |
 |Uri  <br/> |用户的 SIP URI。  <br/> |必需  <br/> |
    
-下面的示例演示消息元素可以包含的消息类型。 它还提供了如何使用每个元素的示例。
+下面的示例演示了 Messages 元素可以包含邮件类型。 它还提供了如何使用每个元素的示例。
   
-加入-用户加入聊天室。
+加入的用户加入聊天室。
   
 ```
 <Message type="JOIN" content="" id="0">
@@ -158,7 +159,7 @@ void Translate(ConversationCollection conversations)
 </Message
 ```
 
-一部分的用户离开聊天室。
+部件-用户离开聊天室。
   
 ```
 <Message type="PART" content="" id="0">
@@ -176,7 +177,7 @@ void Translate(ConversationCollection conversations)
 </Message>
 ```
 
-Backchat-用户请求内容从聊天记录。
+聊天记录-用户请求聊天历史记录中的内容。
   
 ```
 <Message type="BACKCHAT" content="backchatcontent" id="0">
@@ -185,7 +186,7 @@ Backchat-用户请求内容从聊天记录。
 </Message>
 ```
 
-文件上载的用户上载的文件。
+文件上载-用户上载文件。
   
 ```
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
@@ -194,7 +195,7 @@ Backchat-用户请求内容从聊天记录。
 </Message>
 ```
 
-下载文件的用户下载文件。
+文件下载-用户下载文件。
   
 ```
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
@@ -203,7 +204,7 @@ Backchat-用户请求内容从聊天记录。
 </Message>
 ```
 
-### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>默认持久性聊天输出 XSD 和示例 XSL 转换
+### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>默认持久聊天输出 XSD 和示例 XSL 转换
 
 以下代码示例包含合规性服务器中的默认输出：
   
@@ -376,5 +377,3 @@ Backchat-用户请求内容从聊天记录。
 </xsl:stylesheet>
 
 ```
-
-

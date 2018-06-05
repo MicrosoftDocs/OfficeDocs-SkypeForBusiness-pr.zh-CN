@@ -17,15 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a523c86-2eac-4fa4-973a-4406872c9a7d
 description: 摘要： 了解如何迁移用户设置和业务 online 将用户移至 Skype。
-ms.openlocfilehash: 4c6a54bf5d197e4836c733975b60242c0fd3d431
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 25065f5765f46d5432e59d8053573a13e37dc8a1
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569412"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>将用户从本地迁移至 Skype for Business Online
  
-**摘要：**了解如何迁移用户设置和业务 online 将用户移至 Skype。
+**摘要：** 了解如何迁移用户设置和业务 online 将用户移至 Skype。
   
 在实际将用户迁移到 Office 365 时，必须首先确认用户帐户已同步到云并为他们分配许可证。为此，请使用 Office 365 管理中心。
   
@@ -88,5 +89,3 @@ Get-CsUser -OU "cn=hybridusers,cn=contoso.." | Move-CsUser -Target sipfed.online
   ```
   Get-CsUser -Identity
   ```
-
-

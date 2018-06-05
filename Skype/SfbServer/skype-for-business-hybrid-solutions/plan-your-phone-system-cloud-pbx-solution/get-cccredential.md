@@ -1,5 +1,5 @@
 ---
-title: 获得 CcCredential
+title: Get CcCredential
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,17 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: Get-CcCredential cmdlet 用于返回当前 Skype for Business 云连接器版本部署的凭据。
-ms.openlocfilehash: 4d8c9d95b9de0930e0c332f419f00947ca271821
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cff2ba89f7ebf3151a92a753e4dc6adc490dde05
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569992"
 ---
-# <a name="get-cccredential"></a>获得 CcCredential
+# <a name="get-cccredential"></a>Get CcCredential
  
 Get-CcCredential cmdlet 用于返回当前 Skype for Business 云连接器版本部署的凭据。 
   
-2.0 版和更高版本，您还可以使用-DisplayPassword 参数 TenantAdmin、 DomainAdmin，和 VMAdmin 显示密码。
+使用版本 2.0 及更高版本，您还可以使用-DisplayPassword 参数 TenantAdmin、 DomainAdmin，和 VMAdmin 显示相应的密码。
   
 ```
 Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin | ExternalCert | TenantAdmin}]
@@ -53,7 +54,6 @@ $bstr = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($password);
 $text = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($bstr);
 [System.Runtime.InteropServices.Marshal]::ZeroFreeBSTR($bstr);
 Write-Host $text
-
 ```
 
 ## <a name="parameters"></a>参数
@@ -61,7 +61,7 @@ Write-Host $text
 
 |**参数**|**必填**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> |必需  <br/> | System.String <br/> | AccountType 值可以是以下项之一： <br/>  VmAdmin： 云连接器的虚拟机的本地管理员。 <br/>  DomainAdmin： 云接口虚拟计算机域的域管理员联系。 <br/>  SafeModeAdmin：云连接器虚拟机域控制器的 SafeModeAdmin。 <br/>  ExternalCert：边缘服务器上安装的外部证书的帐户。 <br/>  TenantAdmin：O365 租户的管理员。 <br/> |
+| AccountType <br/> |必需  <br/> | System.String <br/> | AccountType 值可以是以下项之一： <br/>  VmAdmin： 云连接器虚拟机的本地管理员。 <br/>  DomainAdmin： 云连接器虚拟机域的域管理员。 <br/>  SafeModeAdmin：云连接器虚拟机域控制器的 SafeModeAdmin。 <br/>  ExternalCert：边缘服务器上安装的外部证书的帐户。 <br/>  TenantAdmin：O365 租户的管理员。 <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
@@ -76,6 +76,6 @@ Get-CcCredential cmdlet 返回 System.Management.Automation.PSCredential 对象�
 ## <a name="see-also"></a>另请参阅
 <a name="ReturnTypes"> </a>
 
-[一组 CcCredential](set-cccredential.md)
+[设置 CcCredential](set-cccredential.md)
   
 

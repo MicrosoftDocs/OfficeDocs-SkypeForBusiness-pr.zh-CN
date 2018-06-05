@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 如果您需要删除目前充当业务服务器 2015年部署您 Skype 的文件存储的文件服务器，或如果您需要进行其他更改，使当前文件存储不可用，首先需要创建新的共享。 然后需要执行以下步骤：
-ms.openlocfilehash: 0fe535bef6878406f60560a256d6c89f91b91375
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: cb79fe34afee093647b7d871bdd3096ce6040f7a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569419"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>将文件存储数据移动到 Skype for Business Server 2015 中的新文件存储
  
@@ -69,7 +70,6 @@ ms.lasthandoff: 05/24/2018
     
   ```
   Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
-
   ```
 
     > [!TIP]
@@ -85,9 +85,6 @@ ms.lasthandoff: 05/24/2018
     
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [重新分配到不同的文件存储的服务器](http://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
   
 [删除文件存储](http://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
-

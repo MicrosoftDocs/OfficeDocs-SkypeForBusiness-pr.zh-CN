@@ -17,15 +17,16 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
-ms.openlocfilehash: 9edbc3642a0b8459cc658d32d135eb21e0b3edf8
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 27d6d29f3a3e8528e0d9c5076249ff821a5c666d
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568370"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>在 Skype for Business 与 Lync 客户端用户界面之间切换
 
-对于 Skype for Business Online 组织，你可以使用 Office 365 中的 Remote PowerShell 让你的 Skype for Business 用户使用 Skype for Business 客户端或 Skype for Business (Lync) 客户端用户界面。 默认设置是让用户使用 Skype for Business 客户端用户界面。 如果您希望使用 Lync 客户端体验，您可以管理第一个启动的客户端行为可按照本主题中后面的步骤中显示 Lync 用户界面。
+对于 Skype for Business Online 组织，你可以使用 Office 365 中的 Remote PowerShell 让你的 Skype for Business 用户使用 Skype for Business 客户端或 Skype for Business (Lync) 客户端用户界面。 默认设置是让用户使用 Skype for Business 客户端用户界面。 如果您想要使用的 Lync 客户端体验，您可以管理要按照本主题后面的步骤中显示 Lync 用户界面的第一个启动客户端行为。
   
 > [!NOTE]
 > [!注释] Lync 2013 客户端体验不是 Skype for Business 2016 客户端版本的一个选项。 在尝试将你的客户端环境配置为使用 Lync 2013 客户端之前，请检查客户端版本，以确保它不会以数字 16 开头；例如：16.x.x.x。 
@@ -128,48 +129,48 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
 |**管理员策略设置**|**显示的用户界面**|
 |:-----|:-----|
 |未设置策略。 |用户将继续使用 Skype for Business 客户端用户界面。|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI```<br/>|用户将继续使用 Skype for Business 客户端用户界面。|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI```<br/>|将请用户切换到 Skype for Business (Lync) 客户端用户界面。 他们可以以后切换。|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>```|用户将使用 Skype for Business 客户端用户界面。 |
-```Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>```|用户可能需要切换到业务 (Lync) 客户端用户界面的 Skype。 管理员可以在以后更改用于将用户切换到 Skype for Business 客户端用户界面的设置。 |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`<br/>|用户将继续使用 Skype for Business 客户端用户界面。|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|将请用户切换到 Skype for Business (Lync) 客户端用户界面。 他们可以以后切换。|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>`|用户将使用 Skype for Business 客户端用户界面。 |
+`Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>`|将要求用户要切换到业务 (Lync) 客户端用户界面的 Skype。 管理员可以在以后更改用于将用户切换到 Skype for Business 客户端用户界面的设置。 |
    
 此表显示更改了策略之后的用户体验：
   
 |**管理员策略设置**|**Skype for Business (Lync) 用户界面**|**Skype for Business 用户界面**|
 |:-----|:-----|:-----|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI```|将请用户切换到 Skype for Business 客户端用户界面。  <br/> |用户将继续使用 Skype for Business 客户端用户界面。  <br/> |
-|```Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI```|用户将继续使用 Skype 业务 (Lync) 接口。  <br/> |用户可能需要切换到业务 (Lync) 客户端用户界面的 Skype。  <br/> |
-|未设置策略。  <br/> |如果未设置此策略，用户将永远不会看到业务 (Lync) 客户端用户界面的 Skype。 他们将一直使用 Skype for Business 客户端用户界面。  <br/> |用户将继续使用 Skype for Business 客户端用户界面。  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|将请用户切换到 Skype for Business 客户端用户界面。  <br/> |用户将继续使用 Skype for Business 客户端用户界面。  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|用户将继续 Skype 用于业务 (Lync) 接口。  <br/> |将要求用户要切换到业务 (Lync) 客户端用户界面的 Skype。  <br/> |
+|未设置策略。  <br/> |如果未设置策略，用户不会看到业务 (Lync) 客户端用户界面的 Skype。 他们将一直使用 Skype for Business 客户端用户界面。  <br/> |用户将继续使用 Skype for Business 客户端用户界面。  <br/> |
    
 此表显示所有可用的联机自定义策略。 已创建新的策略来让管理员能够在 EnableSkypeUI 标志之间切换同时灵活保留旧的自定义策略。 请使用上面的 cmdlet 来向用户授予以下策略之一。
   
 |**策略名称**|**EnableSkypeUI**|
 |:-----|:-----|
-```ClientPolicyDefaultPhoto```||
-```ClientPolicyDefaultPhotoDisableSkypeUI``` |假|
-```ClientPolicyNoIMURL```||
-```ClientPolicyNoIMURLDisableSkypeUI``` |假|
-```ClientPolicyNoIMURLPhoto```||
-```ClientPolicyNoIMURLPhotoDisableSkypeUI``` |假|
-```ClientPolicyNoSaveIMNoArchivingI```||
-```ClientPolicyNoSaveIMNoArchivingDisableSkypeUI``` |假|
-```ClientPolicyNoSaveIMNoArchivingNoIMURL```||
-```ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI``` |假|
-```ClientPolicyNoSaveIMNoArchivingNoIMURLPhoto``` ||
-```ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI```|假|
-```ClientPolicyNoSaveIMNoArchivingPhoto```||
-```ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI``` |假|
+`ClientPolicyDefaultPhoto`||
+`ClientPolicyDefaultPhotoDisableSkypeUI` |假|
+`ClientPolicyNoIMURL`||
+`ClientPolicyNoIMURLDisableSkypeUI` |假|
+`ClientPolicyNoIMURLPhoto`||
+`ClientPolicyNoIMURLPhotoDisableSkypeUI` |假|
+`ClientPolicyNoSaveIMNoArchivingI`||
+`ClientPolicyNoSaveIMNoArchivingDisableSkypeUI` |假|
+`ClientPolicyNoSaveIMNoArchivingNoIMURL`||
+`ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI` |假|
+`ClientPolicyNoSaveIMNoArchivingNoIMURLPhoto` ||
+`ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI`|假|
+`ClientPolicyNoSaveIMNoArchivingPhoto`||
+`ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI` |假|
 
    
 若要开始使用 Windows PowerShell，请参阅下列主题：
   
-- [为什么需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+- [为什么您需要使用 Office 365 PowerShell 中](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - [使用 Windows PowerShell 管理 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 ## <a name="first-launch-client-behaviors"></a>首次启动客户端行为
 
-默认情况下，当用户启动 Skype 业务的第一次，他们将始终看到 Skype 为业务用户界面--即使您通过 Lync 客户端体验设置客户端策略选择 Lync 客户端体验 (`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`) 所述以前。 几分钟时间后，系统将要求用户切换到 Lync 模式。
+默认情况下，当用户第一次，启动 for Business 的 Skype 他们将始终看到业务用户界面-Skype 即使选择通过将客户端策略设置为 Lync 客户端体验的 Lync 客户端体验 (`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`) 所述以前。 几分钟时间后，系统将要求用户切换到 Lync 模式。
   
 如果你希望在用户首次启动 Skype for Business 客户端时显示 Lync 用户界面，请在客户端更新后首次启动前执行以下步骤：
   
@@ -183,7 +184,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
     
     该注册表项应类似于以下内容：
     
-    [注册表\\软件\\Microsoft\\Office\\Lync]
+    [HKEY_CURRENT_USER\\软件\\Microsoft\\Office\\Lync]
     
     "CanSharePptInCollab"= dword:00000001
     
@@ -197,21 +198,19 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
   
 ### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>控制欢迎屏幕教程的显示
 
-当用户打开业务客户端的 Skype 时，默认行为是显示欢迎使用屏幕中包含*大多数人寻求 7 个快速提示*。 你可以关闭欢迎屏幕的显示，同时仍允许用户通过在客户端计算机上添加以下注册表值来访问教程：
+当用户打开 Skype 业务客户端时的默认行为是显示欢迎屏幕包含*多数人寻求 7 导航的快速提示*。 你可以关闭欢迎屏幕的显示，同时仍允许用户通过在客户端计算机上添加以下注册表值来访问教程：
   
-在 **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0\\Lync]**注册表项中，创建新的 **DWORD（32 位）值**。 " **值名称**"必须为 **IsBasicTutorialSeenByUser**，" **值数据**"必须设为 **1**。
+在 **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0\\Lync]** 注册表项中，创建新的 **DWORD（32 位）值**。 " **值名称**"必须为 **IsBasicTutorialSeenByUser**，" **值数据**"必须设为 **1**。
   
 该注册表项应类似于以下内容：
   
-```
-"IsBasicTutorialSeenByUser"=dword:00000001
-```
+`"IsBasicTutorialSeenByUser"=dword:00000001`
 
 ### <a name="turn-off-the-client-tutorial"></a>关闭客户端教程
 
 如果你不希望你的用户能够访问教程，你可以使用以下注册表值关闭客户端教程：
   
-在 **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0\\Lync]**注册表项中，创建新的 **DWORD（32 位）值**。 " **值名称**"必须为 **TutorialFeatureEnabled**，" **值数据**"必须设为 **0**。
+在 **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0\\Lync]** 注册表项中，创建新的 **DWORD（32 位）值**。 " **值名称**"必须为 **TutorialFeatureEnabled**，" **值数据**"必须设为 **0**。
   
 ```
 "TutorialFeatureEnabled"=dword:00000000
@@ -225,7 +224,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
   
 以下过程介绍了如何修改注册表，使得在用户首次启动 Skype for Business 时显示 Lync 客户端体验。 你还可以如前文所述，使用此过程更新注册表以禁用欢迎屏幕教程。
   
- **要创建的 GPO**
+ **创建 GPO**
   
 1. 启动" **组策略管理控制台**"。
     
@@ -246,7 +245,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
 |**字段**|**要选择或输入的值**|
 |:-----|:-----|
 |**操作** <br/> |**创建** <br/> |
-|**配置单元** <br/> | 注册表 <br/> |
+|**配置单元** <br/> | HKEY_CURRENT_USER <br/> |
 |**注册表项路径** <br/> |软件\\Microsoft\\Office\\Lync  <br/> |
 |**值名称** <br/> |EnableSkypeUI  <br/> |
 |**值类型** <br/> |REG_BINARY  <br/> |

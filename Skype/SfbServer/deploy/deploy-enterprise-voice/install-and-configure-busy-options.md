@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: 阅读有关如何安装和配置忙选项中 Skype 业务服务器 2015年。
-ms.openlocfilehash: ff0f9a892d0882adcc2af0c4c41c1177b3488520
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d9348077c5779984879d3ac9f0d68bf68fd0c561
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568212"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>安装和配置适用于 Skype for Business Server 的忙碌选项
  
@@ -102,14 +103,12 @@ ms.lasthandoff: 05/03/2018
   
 ```
 Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
-
 ```
 
 在下一个示例中，该命令可配置用户“Chrystal Velasquez”的忙碌选项。 在此配置中，当“Chrystal Velasquez”已接听电话时，向其发起的新传入呼叫都将转接到语言邮件。
   
 ```
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy 
-
 ```
 
 您可以通过使用[Get-CsBusyOptions](http://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) cmdlet 检索有关忙选项的配置信息。 以下示例返回"KenMyer@Contoso.com"的忙选项设置：
@@ -122,7 +121,6 @@ Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
   
 ```
 Remove-CsBusyOptions -Identity "Ken Myer"
-
 ```
 
 有关 cmdlet 用于配置忙选项的详细信息，请参阅[设置 CsBusyOptions](http://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx)、 [Get CsBusyOptions](http://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)，和[删除 CsBusyOptions](http://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx)的技术参考内容。
@@ -137,24 +135,21 @@ $p2 = New-CsClsProvider -Name Sipstack -Type WPP -Level Info -Flags
  "TF_PROTOCOL,TF_CONNECTION,TF_SECURITY,TF_DIAG,TF_SHOW_CONFERENCE,TF_SHOW_ALLREQUESTS,TF_SHOW_ALLSIPHEADERS" -Role Registrar
 $p3 = New-CsClsProvider -Name BusyOptions -Type WPP -Level Verbose -Flags All
 New-CsClsScenario -Parent Global -Name BusyOptions -Provider @{Add=$p1,$p2,$p3} 
-
 ```
 
 ## <a name="verify-and-troubleshoot"></a>验证和故障排除
 
 安装后忙选项，可以验证已成功安装使用[Get-csserverapplication](https://docs.microsoft.com/powershell/module/skype/get-csserverapplication?view=skype-ps) cmdlet 检索服务器应用程序的列表。 如果忙碌选项已正确安装，该 cmdlet 的输出应显示忙碌选项配置，如下所示：
   
-|||
-|:-----|:-----|
-|Identity   <br/> |  ：Service:Registrar:pool0.vdomain.com/BusyOptions <br/> |
-|优先级  <br/> | : 5 <br/> |
-|Uri   <br/> |: http://www.microsoft.com/LCS/BusyOptions  <br/> |
-|名称  <br/> |  ：BusyOptions <br/> |
-|已启用  <br/> |：True  <br/> |
-|严重  <br/> |：False  <br/> |
-|ScriptName  <br/> | : <br/> |
-|脚本   <br/> | : <br/> |
-   
-您还可以使用 Windows 事件查看器验证忙选项安装成功和 Skype 业务服务器成功加载忙选项。 若要验证忙选项，请打开**事件查看器-\>应用程序和服务日志-\> Skype （或 Lync） Server** ，然后搜索事件 ID = 30253。
+<pre>
+Identity   : Service:Registrar:pool0.vdomain.com/BusyOptions 
+Priority   : 5 
+Uri        : http://www.microsoft.com/LCS/BusyOptions 
+Name       : BusyOptions 
+Enabled    : True 
+Critical   : False  
+ScriptName : 
+Script     : 
+</pre> 
   
-
+您还可以使用 Windows 事件查看器验证忙选项安装成功和 Skype 业务服务器成功加载忙选项。 若要验证忙选项，请打开**事件查看器-\>应用程序和服务日志-\> Skype （或 Lync） Server** ，然后搜索事件 ID = 30253。

@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: 阅读本主题，了解如何在 Skype for Business Server 2015 的 2015 年 11 月累积更新中部署共享线路外观 (SLA)。SLA 是用于处理对特定号码（称为“共享号码”）的多个呼叫的功能。
-ms.openlocfilehash: b333751b5bc4e651a7f1080e459803e8ad87da80
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e8325cd7bbd6c1777143ac83ad88aae07a3a48a0
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568336"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中部署共享线路外观
  
@@ -51,8 +52,7 @@ ms.lasthandoff: 05/03/2018
     c. 重新启动所有池中已安装并启用 SLA 的所有前端服务器（RTCSRV 服务）：
     
   ```
-   Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
-                
+   Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV   
   ```
 
 ### <a name="create-an-sla-group-and-add-users-to-it"></a>创建一个 SLA 组并向该组添加用户
@@ -60,10 +60,7 @@ ms.lasthandoff: 05/03/2018
 1. 使用[组 CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) cmdlet 创建的 SLA 组：
     
   ```
-  Set-CsSlaConfiguration -Identity <IdentityOfGroup>
-          -MaxNumberOfCalls <Number> -BusyOption
-          <BusyOnBusy|Voicemail|Forward> [-Target
-          <TargetUserOrPhoneNumber>]
+  Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
   ```
 
     Set-CsSlaConfiguration cmdlet 会将企业语音帐户 SLAGroup1 标记为 SLA 实体，并且 SLAGroup1 的号码将变为 SLA 组的号码。对 SLAGroup1 的所有呼叫将拨打整个 SLA 组。
@@ -73,8 +70,7 @@ ms.lasthandoff: 05/03/2018
     命令会将新 SLA 组的最大并发呼叫数设置为 3，超过该数目的呼叫将听到忙音信号：
     
   ```
-  Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3
-          -BusyOption BusyOnBusy
+  Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3 -BusyOption BusyOnBusy
   ```
 
     您可以使用 Set-CsSlaConfiguration 创建新的 SLA 组或修改现有 SLA 组。
@@ -92,8 +88,7 @@ ms.lasthandoff: 05/03/2018
     以下示例将向 SLA 组添加一个用户。 添加到组中每个用户必须是有效的启用了企业语音的用户：
     
   ```
-  Add-CsSlaDelegates -Identity SLAGroup1 -Delegate
-          sip:SLA_Delegate1@contoso.com
+  Add-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate1@contoso.com
   ```
 
     对要添加到组的每个用户重复该 cmdlet。用户只能属于单个 SLA 组。
@@ -103,15 +98,13 @@ ms.lasthandoff: 05/03/2018
 - 配置 SLA 忙选项组使用[集 CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) cmdlet:
     
   ```
-  Set-CsSlaConfiguration -Identity <IdentityOfGroup>
-          -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
+  Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
   ```
 
     以下示例会将超过最大并发呼叫数的呼叫设置为转接到电话号码 202-555-1234。 目标可能而不是一个电话号码; 您组织内的用户在这种情况下，接收呼叫转移的人员的语法是相同时指定代理人： `sip:<NameofDelegate@domain>`。 其他可能的参数的`BusyOption`是`Voicemail`:
     
   ```
-  Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward
-          -Target tel:+2025551234]
+  Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234]
   ```
 
 ### <a name="configure-the-sla-group-missed-call-option"></a>配置 SLA 组未接来电选项
@@ -119,17 +112,13 @@ ms.lasthandoff: 05/03/2018
 1. 使用[组 CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) cmdlet 配置 SLA 组错过呼叫选项：
     
   ```
-  Set-CsSlaConfiguration -Identity <IdentityOfGroup> 
-          -MissedCallOption <Option> -MissedCallForwardTarget
-          <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
+  Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
   ```
 
 2. 下面的示例指定错过的呼叫转接至指定的用户`sla_forward_number`。 有效选项`-MissedCallOption`参数`Forward`， `BusySignal`，或`Disconnect`。 如果您选择`Forward`，还必须包括`-MissedCallForwardTarget`参数，作为目标用户或电话号码：
     
   ```
-  Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
-          Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 
-    -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com 
+  Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com 
   ```
 
 ### <a name="remove-a-delegate-from-a-group"></a>从组中删除代理人
@@ -137,15 +126,13 @@ ms.lasthandoff: 05/03/2018
 - 使用[删除 CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates?view=skype-ps) cmdlet 从组中删除代理人：
     
   ```
-  Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
-          <NameOfDelegate@domain>
+  Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
   ```
 
     例如：
     
   ```
-  Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate
-          sip:SLA_Delegate3@contoso.com
+  Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate3@contoso.com
   ```
 
 ### <a name="delete-an-sla-group"></a>删除 SLA 组
@@ -154,7 +141,6 @@ ms.lasthandoff: 05/03/2018
     
   ```
   Remove-CsSlaConfiguration -Identity <IdentityOfGroup>
-          
   ```
 
     例如： 

@@ -9,26 +9,27 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
-description: 摘要： 请阅读本主题，以了解如何配置适用于业务用户的 Skype 客户端体验。
-ms.openlocfilehash: 9c1bc182c383ea7d806ce779f3d727e7925a59d4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 阅读本主题可了解如何配置 Skype 业务用户的客户端体验。
+ms.openlocfilehash: 28d7968a631e4ee0cca172d300e924596b6d2147
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569824"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business"></a>配置 Skype for Business 的客户端体验
  
-**摘要：**阅读本主题，以了解如何配置适用于业务用户的 Skype 客户端体验。
+**摘要：** 阅读本主题可了解如何配置 Skype 业务用户的客户端体验。
   
-Skype 为业务提供了新的用户体验，基于 Skype 使用者的产品体验。 Lync 的所有功能，除了 Skype 为业务提供新功能和简化的控件和熟悉的图标。 新的客户端体验的详细信息，请参阅[Lync 现在 Skype 业务和 #x 2014年; 最新信息，请参阅](https://go.microsoft.com/fwlink/?LinkId=529022)。
+Skype for Business 提供基于 Skype 使用者产品体验的新用户体验。 Lync 的所有功能，除了 for Business 的 Skype 提供了简化的控件与熟悉的图标的新功能。 有关新的客户端体验的详细信息，请参阅[Lync 是现在 Skype 的业务和 #x 2014年; 请参阅 what's new](https://go.microsoft.com/fwlink/?LinkId=529022)。
   
-Skype 业务服务器支持新的 Skype 业务客户端体验以及 Lync 客户端体验。 作为管理员，你可以为用户选择首选客户端体验。 例如，可能要直到您组织中的用户将接受全面培训业务体验新的 Skype 在部署 Lync 客户端体验。 或者，如果您有尚未升级所有用户到 Skype 业务服务器，您可能希望所有用户直到所有都升级到新的服务器具有相同的客户端体验。
+Skype 业务服务器支持的商业客户端体验，以及 Lync 客户端体验的新 Skype。 作为管理员，你可以为用户选择首选客户端体验。 例如，您可能想要部署 Lync 客户端体验，直到您的组织中的用户进行完全培训中商业体验的新的 Skype。 或者，如果您具有尚未升级所有用户到 Skype 业务服务器，您可能希望所有用户都相同的客户端体验，直到所有都升级到新服务器。
   
 > [!IMPORTANT]
-> 如果您的组织有两个 Skype 业务服务器，Lync Server 部署的默认客户端体验会随服务器版本和 UI 设置。 当用户首次启动业务的 Skype 时，他们将始终看到对于业务用户界面--Skype，即使选择了 Lync 客户端体验。 几分钟后，询问用户要切换到 Lync 模式。 有关更多信息，请参阅本主题后面部分的**首次启动客户端行为**。
+> 如果您的组织有两个 Skype 业务 server 和 Lync Server 部署，将根据服务器版本和 UI 设置不同默认客户端体验。 当用户首次启动 for Business 的 Skype 时，它们始终会看到业务用户界面-Skype，即使您所选择的 Lync 客户端体验。 几分钟后，询问用户要切换到 Lync 模式。 有关更多信息，请参阅本主题后面部分的**首次启动客户端行为**。
   
 > [!NOTE]
-> Lync 2013 客户端体验不是 Skype 业务 2016年的客户端版本的选项。 在尝试将你的客户端环境配置为使用 Lync 2013 客户端之前，请检查客户端版本，以确保它不会以数字 16 开头；例如：16.x.x.x。 
+> Lync 2013 客户端体验不是业务 2016年客户端版本的 Skype 选项。 在尝试将你的客户端环境配置为使用 Lync 2013 客户端之前，请检查客户端版本，以确保它不会以数字 16 开头；例如：16.x.x.x。 
   
 ## <a name="configure-the-client-experience"></a>配置客户端体验
 
@@ -40,27 +41,27 @@ Set-CsClientPolicy  [-Identity <XdsIdentity] [-EnableSkypeUI <$true | $false>]
 
 其中 XdsIdentity 表示全局策略或指定站点策略。
   
-下面的命令影响全球政策的组织中选择为所有用户的业务客户端体验的 Skype （请记住，站点或特定于用户的策略重写全局策略）： 
+下面的命令组织受全局策略中选定的所有用户的商业客户端体验的 Skype （请记住，站点或特定于用户策略将覆盖全局策略）： 
   
 ```
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $true
 ```
 
-下一步的命令组织受全球策略中选择 Lync 客户端体验的所有用户：
+下一个命令选择受全局策略在组织中的所有用户的 Lync 客户端体验：
   
 ```
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $false
 ```
 
-下一步的命令选择业务客户端体验雷蒙德站点内的所有用户的 Skype:
+下一个命令选择为 Redmond 站点内的所有用户的商业客户端体验的 Skype:
   
 ```
 Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
 ```
 
-如果您想要配置为您组织中特定用户的客户端体验，您可以通过使用**New CsClientPolicy** cmdlet，创建新的用户策略，然后通过**授予 CsClientPolicy**将策略分配给特定的用户cmdlet。
+如果您想要配置组织内的特定用户的客户端体验，您可以使用**New-csclientpolicy** cmdlet 创建一个新用户策略，然后使用**Grant-csclientpolicy**将策略分配给特定用户cmdlet。
   
-例如，以下命令将创建新的客户端策略，SalesClientUI，选择业务客户端体验的 Skype:
+例如，以下命令创建新的客户端策略，SalesClientUI，选择业务客户端体验的 Skype 的：
   
 ```
 New-CsClientPolicy -Identity SalesClientUI -EnableSkypeUI $true
@@ -74,11 +75,11 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
 
 ## <a name="first-launch-client-behaviors"></a>首次启动客户端行为
 
-默认情况下，当用户启动 Skype 业务的第一次，他们将始终看到 Skype 为业务用户界面--即使选择通过将 EnableSkypeUI 参数的值设置为 $False，如前面所述的 Lync 客户端体验. 几分钟时间后，系统将要求用户切换到 Lync 模式。
+默认情况下，当用户第一次，启动 for Business 的 Skype 他们将始终看到业务用户界面-Skype 即使选择通过将 EnableSkypeUI 参数的值设置为 $False，如前面所述的 Lync 客户端体验. 几分钟时间后，系统将要求用户切换到 Lync 模式。
   
 如果你希望在用户首次启动 Skype for Business 客户端时显示 Lync 用户界面，请在客户端更新后首次启动前执行以下步骤：
   
-1. 确认的值`EnableSkypeUI`到 $False 中都使用前面所述的策略设置。
+1. 确认的值`EnableSkypeUI`设置为 $False 中使用如前面所述的策略。
     
 2. 更新用户计算机上的系统注册表。 你应在用户首次启动 Skype for Business 客户端之前执行此操作，且你应仅执行一次此操作。 有关如何创建组策略对象以更新加入域的计算机上的注册表的信息，请参阅本主题后面部分内容。
     
@@ -88,13 +89,13 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
     
     该注册表项应类似于以下内容：
     
-  ```
-  [HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]
+ <pre>
+[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]
 "CanSharePptInCollab"=dword:00000001
 "CanShareOneNoteInCollab"=dword:00000001
 "CanAppShareInCollab"=dword:00000001
 "EnableSkypeUI"=hex:00,00,00,00
-  ```
+</pre>
 
 当用户首次启动 Skype for Business 客户端时，现在将显示 Lync 用户界面。
   
@@ -106,9 +107,7 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
   
 该注册表项应类似于以下内容：
   
-```
-"IsBasicTutorialSeenByUser"=dword:00000001
-```
+`"IsBasicTutorialSeenByUser"=dword:00000001`
 
 ### <a name="turn-off-the-client-tutorial"></a>关闭客户端教程
 
@@ -126,35 +125,35 @@ Lync
   
 ## <a name="default-client-behaviors"></a>默认客户端行为
 
-如果您的组织有两个 Skype 业务服务器，Lync Server 部署的客户端体验会随服务器版本和 Skype 用户界面设置。 下表显示了基于服务器版本和 UI 设置的初始客户端体验：
+如果您的组织有两个 Skype 业务 server 和 Lync Server 部署，客户端体验将将有所不同具体取决于服务器版本和 Skype UI 设置。 下表显示了基于服务器版本和 UI 设置的初始客户端体验：
   
 
 |**服务器版本**|**EnableSkypeUI 设置**|**客户端体验**|
 |:-----|:-----|:-----|
 |Skype for Business Server 2015  <br/> |默认  <br/> |Skype for Business  <br/> |
 |Skype for Business Server 2015  <br/> |True  <br/> |Skype for Business  <br/> |
-|Skype for Business Server 2015  <br/> |False  <br/> |要求用户切换到 Lync 模式 （用户可以切换到 Skype 的业务以后的用户界面设置更改为 $true）  <br/> |
-|Lync Server 2010 或 Lync Server 2013 （与正确的修补程序）  <br/> |默认  <br/> |要求用户切换到 Lync 模式 （用户可以切换到 Skype 的业务以后的用户界面设置更改为 $true）  <br/> |
-|Lync Server 2010 或 Lync Server 2013 （与正确的修补程序）  <br/> |True  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 或 Lync Server 2013 （与正确的修补程序）  <br/> |False  <br/> |要求用户切换到 Lync 模式 （用户可以切换到 Skype 的业务以后的用户界面设置更改为 $true）  <br/> |
-|Lync Server 2010 或 Lync Server 2013 （不带修补程序）  <br/> |默认  <br/> |要求用户切换到 Lync 模式 （用户无法切换到 Skype 的业务以后）  <br/> |
+|Skype for Business Server 2015  <br/> |False  <br/> |要求用户切换到 Lync 模式 （用户可以切换到 for Business 更高版本的 Skype 如果将 UI 设置更改为 $true）  <br/> |
+|Lync Server 2010 或 Lync Server 2013 （具有正确的修补程序）  <br/> |默认  <br/> |要求用户切换到 Lync 模式 （用户可以切换到 for Business 更高版本的 Skype 如果将 UI 设置更改为 $true）  <br/> |
+|Lync Server 2010 或 Lync Server 2013 （具有正确的修补程序）  <br/> |True  <br/> |Skype for Business  <br/> |
+|Lync Server 2010 或 Lync Server 2013 （具有正确的修补程序）  <br/> |False  <br/> |要求用户切换到 Lync 模式 （用户可以切换到 for Business 更高版本的 Skype 如果将 UI 设置更改为 $true）  <br/> |
+|Lync Server 2010 或 Lync Server 2013 （不带修补程序）  <br/> |默认  <br/> |要求用户切换到 Lync 模式 （用户无法切换到 Skype for Business 更高版本）  <br/> |
    
-下表显示了客户端体验管理员更改 Skype 用户界面体验的初始设置时：
+下表显示了客户端体验时管理员变化的 Skype UI 体验的初始设置：
   
 
-|**服务器版本**|**EnableSkypeUI 设置**|**客户端 UI = Lync**|**客户端 UI = Skype 业务**|
+|**服务器版本**|**EnableSkypeUI 设置**|**客户端 UI = Lync**|**客户端 UI = Skype for Business**|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Server 2015  <br/> |True  <br/> |要求用户切换到 Skype 的业务  <br/> |Skype for Business  <br/> |
+|Skype for Business Server 2015  <br/> |True  <br/> |要求用户要切换到 Skype for Business  <br/> |Skype for Business  <br/> |
 |Skype for Business Server 2015  <br/> |False  <br/> |Lync 模式  <br/> |要求用户切换到 Lync 模式  <br/> |
-|Lync Server 2010 或 Lync Server 2013 （与正确的修补程序）  <br/> |True  <br/> |要求用户切换到 Skype 的业务  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 或 Lync Server 2013 （与正确的修补程序）  <br/> |False  <br/> |Lync 模式  <br/> |要求用户切换到 Lync 模式  <br/> |
-|Lync Server 2010 或 Lync Server 2013 （不带修补程序）  <br/> |默认  <br/> |Lync 模式 （不能切换到 Skype 业务）  <br/> |Lync 模式 （不能切换到 Skype 业务）  <br/> |
+|Lync Server 2010 或 Lync Server 2013 （具有正确的修补程序）  <br/> |True  <br/> |要求用户要切换到 Skype for Business  <br/> |Skype for Business  <br/> |
+|Lync Server 2010 或 Lync Server 2013 （具有正确的修补程序）  <br/> |False  <br/> |Lync 模式  <br/> |要求用户切换到 Lync 模式  <br/> |
+|Lync Server 2010 或 Lync Server 2013 （不带修补程序）  <br/> |默认  <br/> |Lync 模式 （不能切换到 for Business 的 Skype）  <br/> |Lync 模式 （不能切换到 for Business 的 Skype）  <br/> |
    
-管理业务客户端的 Skype 的配置所需的修补程序版本包括：
+管理业务客户端 Skype 的配置所需的修补程序版本是：
   
-- Lync Server 2010-2015 2 月累积更新 (4.0.7577.710) 的 Lync Server 2010。 有关信息，请参阅[Lync Server 2010 中的更新](https://go.microsoft.com/fwlink/p/?LinkId=532771)
+- Lync Server 2010-Lync Server 2010 的 2015 年 2 月版累积更新 (4.0.7577.710)。 有关信息，请参阅[Lync Server 2010 更新](https://go.microsoft.com/fwlink/p/?LinkId=532771)
     
-- Lync Server 2013-2014 年 12 月累积更新 (5.0.8308.857) 的 Lync Server 2013。 有关信息，请参阅[更新 Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532772)。
+- Lync Server 2013-Lync Server 2013 的 2014 年 12 月累积更新 (5.0.8308.857)。 有关信息，请参阅[Lync Server 2013 的更新](https://go.microsoft.com/fwlink/p/?LinkId=532772)。
     
 ## <a name="create-a-group-policy-object-to-modify-the-registry-on-a-domain-joined-computer"></a>创建组策略对象以修改加入域的计算机上的注册表
 
@@ -183,7 +182,7 @@ Lync
    |**字段**|**要选择或输入的值**|
    |:-----|:-----|
    |**操作** <br/> |**创建** <br/> |
-   |**配置单元** <br/> | 注册表 <br/> |
+   |**配置单元** <br/> | HKEY_CURRENT_USER <br/> |
    |**键路径** <br/> |Software\Microsoft\Office\Lync  <br/> |
    |**值名称** <br/> |EnableSkypeUI  <br/> |
    |**值类型** <br/> |REG_BINARY  <br/> |

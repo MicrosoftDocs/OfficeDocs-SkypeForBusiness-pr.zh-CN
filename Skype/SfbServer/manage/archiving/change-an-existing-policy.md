@@ -9,24 +9,25 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: 摘要： 了解如何更改用户的业务服务器 2015 Skype 的存档策略。
-ms.openlocfilehash: f03ddc0799868e825c46fad2f93ba93d3b8a071a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何更改用户存档策略的 Skype 业务服务器 2015年。
+ms.openlocfilehash: 21774eaff8b58c585b347e1f657aa7afcc3b6106
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569405"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中更改现有存档策略
  
-**摘要：**了解如何更改用户的业务服务器 2015 Skype 的存档策略。
+**摘要：** 了解如何更改用户存档策略的 Skype 业务服务器 2015年。
   
-当您第一次部署业务服务器 2015 Skype 时，您设置初始归档策略，用以确定如何归档为您部署中的用户实现。 本主题介绍了如何管理和修订策略。 
+当您首次部署业务服务器 2015 Skype 时，您设置确定如何实施存档的部署中用户的初始存档策略。 本主题介绍了如何管理和修订策略。 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>使用控制面板更改存档策略
 
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。 
     
-2. 打开浏览器窗口，然后输入管理员 URL 打开 Skype 业务服务器控件面板。 
+2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
     
 3. 在左侧导航栏中，单击“**监控和存档**”，然后单击“**存档策略**”。
     
@@ -47,7 +48,7 @@ ms.lasthandoff: 03/28/2018
 6. 单击“**提交**”。
     
     > [!IMPORTANT]
-    > 用户策略的设置仅适用于要应用该策略的特定用户和用户组。 有关详细信息，请参阅[应用中业务服务器 2015年的 Skype 用户的存档策略](apply-a-policy-to-users.md)。 
+    > 用户策略的设置仅适用于要应用该策略的特定用户和用户组。 有关详细信息，请参阅[应用到业务服务器 2015年的 Skype 中的用户存档策略](apply-a-policy-to-users.md)。 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>使用 Windows PowerShell 更改存档策略
 
@@ -59,21 +60,18 @@ ms.lasthandoff: 03/28/2018
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True
-
 ```
 
 要启用外部通信会话的存档，请将 ArchiveExternal 数的值设置为 True ($True)： 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True
-
 ```
 
-要启用这两个内部和外部通信会话存档，请使用 ArchiveInternal 和 ArchiveExternal 参数的值设置为 True: 
+若要启用这两个内部和外部通信会话的存档，设置为 True 的 ArchiveInternal 和 ArchiveExternal 参数的值： 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
-
 ```
 
 ### <a name="disable-archiving-policies"></a>禁用存档策略
@@ -82,5 +80,4 @@ Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
-
 ```

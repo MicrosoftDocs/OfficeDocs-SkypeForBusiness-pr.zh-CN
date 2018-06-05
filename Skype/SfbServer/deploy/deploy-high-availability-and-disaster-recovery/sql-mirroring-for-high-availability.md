@@ -9,47 +9,48 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
-description: 为了能够部署 SQL 镜像，你的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主服务器、镜像服务器和见证服务器。 有关详细信息，请参阅更新 SQL Server 2008 Service Pack 1 包 9 累计。
-ms.openlocfilehash: 8de94fc0e15b1d851b43b386b476abfa776fad2d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 为了能够部署 SQL 镜像，你的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主服务器、镜像服务器和见证服务器。 有关详细信息，请参阅累积更新程序包 9 的 SQL Server 2008 Service Pack 1。
+ms.openlocfilehash: 9edbda5d793fed48d31625c3e0d53ab2f9e6d349
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569136"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中针对后端服务器高可用性部署 SQL 镜像
  
 
-为了能够部署 SQL 镜像，你的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主服务器、镜像服务器和见证服务器。 有关详细信息，请参阅[累计更新程序包的 SQL Server 2008 Service Pack 1 9 ](http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)。
+为了能够部署 SQL 镜像，你的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主服务器、镜像服务器和见证服务器。 有关详细信息，请参阅[累积更新程序包 9 SQL Server 2008 Service Pack 1 ](http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)。
   
 通常，在两台具有见证的后端服务器之间设置 SQL 镜像需要满足以下条件：
   
-- 主服务器的 SQL Server 版本必须支持 SQL 镜像。
+- SQL server 的主服务器的版本必须支持 SQL 镜像。
     
 - 主、镜像和见证（如果部署）必须具有同一版本的 SQL Server。 
     
 - 主和镜像必须具有同一版本的 SQL Server。见证可以具有不同版本。
     
-对于 SQL 在哪些 SQL 版本方面的最佳做法支持见证服务器角色的信息，请参阅[数据库镜像见证](https://go.microsoft.com/fwlink/p/?LinkId=247345)。
+有关见证角色支持的 SQL 版本的 SQL 最佳实践，请参阅[数据库镜像见证](https://go.microsoft.com/fwlink/p/?LinkId=247345)。
   
-使用拓扑生成器来部署 SQL 镜像。 拓扑生成器要镜像的数据库中选择的选项和拓扑生成器设置镜像 （如果您希望包括设置见证） 发布拓扑时。 请注意，设置或删除见证服务器会同时设置或删除镜像服务器。 没有用于仅部署或删除见证服务器的单独命令。
+使用拓扑生成器来部署 SQL 镜像。 在拓扑生成器中进行镜像数据库，选择一个选项和设置镜像 （如果您希望包括设置见证） 拓扑生成器发布拓扑时。 请注意，设置或删除见证服务器会同时设置或删除镜像服务器。 没有用于仅部署或删除见证服务器的单独命令。
   
-要配置服务器镜像，必须正确设置 SQL 数据库权限。 有关详细信息，请参阅[设置了登录帐户的数据库镜像或 AlwaysOn 可用性组 (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268454)。
+要配置服务器镜像，必须正确设置 SQL 数据库权限。 有关详细信息，请参阅[设置建立登录帐户的数据库镜像或 AlwaysOn 可用性组 (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268454)。
   
 对于 SQL 镜像，数据库恢复模式始终设置为“**完全**”，这意味着你必须密切监控事务日志大小并定期备份事务日志以避免后端服务器上的磁盘空间不足。事务日志备份频率取决于日志增长速率，反过来，日志增长速率又取决于前端池上的用户活动所产生的数据库事务数。建议确定你的部署工作负载预计将达到的事务日志增长幅度，以便相应地进行规划。以下文章提供了有关 SQL 备份和日志管理的其他信息：
   
 - [数据库恢复模型](https://go.microsoft.com/fwlink/p/?LinkId=268446)
     
-- [备份概述](https://go.microsoft.com/fwlink/p/?LinkId=268449)
+- [备份概述 （英文)](https://go.microsoft.com/fwlink/p/?LinkId=268449)
     
 - [备份事务日志](https://go.microsoft.com/fwlink/p/?LinkId=268452)
     
 对于 SQL 镜像，可在创建池时或之后为镜像配置拓扑。
   
 > [!IMPORTANT]
-> 使用拓扑生成器或 cmdlet 来设置和删除 SQL 镜像仅在主服务器、 镜像和 （如果需要） 见证服务器所有属于相同的域时，才支持。 如果您需要在不同域中的服务器之间设置 SQL 镜像，请参阅 SQL Server 文档。 
+> 使用拓扑生成器或 cmdlet 来设置和删除 SQL 镜像仅当主、 镜像和见证 （如果需要） 服务器所有属于同一域时，才支持。 如果您需要在不同域中的服务器之间设置 SQL 镜像，请参阅 SQL Server 文档。 
   
 > [!IMPORTANT]
-> 只要更改了后端数据库镜像关系，就必须重新启动池中的所有前端服务器。 > 为镜像中的更改，（例如，更改镜像的位置），必须使用拓扑生成器来执行以下三个步骤： 
+> 只要更改了后端数据库镜像关系，就必须重新启动池中的所有前端服务器。 > 对于镜像的更改，（如更改镜像位置），您必须使用拓扑生成器以执行以下三个步骤： 
   
 1. 从旧镜像服务器中删除镜像。
     
@@ -58,9 +59,9 @@ ms.lasthandoff: 03/28/2018
 3. 发布拓扑。
     
 > [!NOTE]
-> 必须为要写入到的镜像文件创建文件共享，SQL Server 和 SQL 代理在其下运行的服务需要读取/写入访问权限。 如果 SQL Server 服务的网络服务环境下运行，您可以添加\<域\>\\< SQLSERVERNAME\>$ 主体和镜像 SQL 服务器的共享权限。 $ 非常重要，可用于标识这是一个计算机帐户。 
+> 必须为要写入到的镜像文件创建文件共享，SQL Server 和 SQL 代理在其下运行的服务需要读取/写入访问权限。 如果网络服务的上下文中运行 SQL Server 服务，您可以添加\<域\>\\< SQLSERVERNAME\>$ 的主体和镜像 SQL Server 在共享权限。 $ 非常重要，可用于标识这是一个计算机帐户。 
   
-## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>若要配置 SQL 镜像拓扑生成器中创建池时
+## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>配置 SQL 镜像时在拓扑生成器中创建池
 
 1. 在“**定义 SQL 存储**”页上，单击“**SQL 存储**”框旁边的“**新建**”。
     
@@ -78,17 +79,17 @@ ms.lasthandoff: 03/28/2018
     
     c. 指定端口号（默认为 7022）并单击“**确定**”。 
     
-6. 在定义您的拓扑结构，前端池和所有其他角色使用拓扑生成器来发布拓扑。 发布拓扑结构时，如果承载中央管理存储的前端池已启用 SQL 镜像，您将看到一个选项以创建两个主服务器和镜像 SQL 存储数据库。
+6. 后在拓扑中，定义前端池和所有其他角色使用拓扑生成器发布拓扑。 发布拓扑时，如果承载中央管理存储的前端池已启用 SQL 镜像，您将看到创建两个主和镜像 SQL 存储数据库放在一个选项。
     
     单击“**设置**”，并键入要用作镜像备份的文件共享的路径。
     
     单击“**确定**”，然后单击“**下一步**”以创建数据库并发布拓扑。这将部署镜像服务器和见证服务器（如果已指定）。
     
-拓扑生成器可用于编辑现有池启用 SQL 镜像的属性。 
+可以使用拓扑生成器-编辑已现有池以启用 SQL 镜像的属性。 
   
-## <a name="to-add-sql-mirroring-to-an-existing-front-end-pool-in-topology-builder"></a>若要添加 SQL 镜像到拓扑生成器中现有前端池
+## <a name="to-add-sql-mirroring-to-an-existing-front-end-pool-in-topology-builder"></a>若要添加到拓扑生成器中的现有前端池的 SQL 镜像
 
-1. 拓扑生成器中右键单击该池，然后单击**编辑属性**。
+1. 在拓扑生成器中，右键单击池，然后单击**编辑属性**。
     
 2. 选中“**启用 SQL 存储镜像**”，然后单击“**镜像 SQL 存储**”旁边的“**新建**”。 
     
@@ -118,29 +119,27 @@ ms.lasthandoff: 03/28/2018
     
   - [指定服务器网络地址 （数据库镜像）](https://go.microsoft.com/fwlink/p/?LinkId=247346)
     
-  - [数据库镜像端点 (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=247347)
+  - [数据库镜像终结点 (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=247347)
     
-## <a name="using-skype-for-business-server-management-shell-cmdlets-to-set-up-sql-mirroring"></a>使用业务服务器管理外壳 Cmdlet 的 Skype 设置 SQL 镜像
+## <a name="using-skype-for-business-server-management-shell-cmdlets-to-set-up-sql-mirroring"></a>使用 Skype 业务服务器管理命令行管理程序 cmdlet 设置 SQL 镜像
 
-设置镜像的最简单方法是使用拓扑生成器，但是您还可以使用 cmdlet 完成。
+设置镜像的最简单方式是使用拓扑生成器，但您还可以使用 cmdlet 完成。
   
-1. 打开 Skype 业务服务器管理外壳窗口并运行以下 cmdlet:
+1. 打开业务 Server 命令行管理程序窗口 Skype 并运行以下 cmdlet:
     
    ```
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose 
-
    ```
 
     例如：
     
    ```
    Install-CsMirrorDatabase -ConfiguredDatabases -FileShare \\PRIMARYBE\csdatabackup -SqlServerFqdn primaryBE.contoso.com -DropExistingDatabasesOnMirror -Verbose 
-
    ```
 
     你将看到以下内容：
     
-  ```
+ <pre>
   Database Name:rtcxds 
         Data File:D:\CsData\BackendStore\rtc\DbPath\rtcxds.mdf 
          Log File:D:\CsData\BackendStore\rtc\LogPath\rtcxds.ldf 
@@ -214,8 +213,7 @@ ms.lasthandoff: 03/28/2018
      Witness SQL : AB14-lct.los_a.lsipt.local\rtc 
           Account: LOS_A\AB14-lct$
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"): 
-
-  ```
+</pre>
 
 2. 验证以下内容：
     
@@ -225,7 +223,7 @@ ms.lasthandoff: 03/28/2018
     
     - 如果在见证 SQL Server AB14-lct.los_a.lsipt.local\rtc 中启用 Windows 防火墙，则可通过防火墙访问端口 7022。 
     
-   - 运行所有的主计算机上的 SQL 服务器和 SQL 服务器镜像的帐户具有读/写权限的文件共享\\E04 OCS\csdatabackup 
+   - 运行 SQL 服务器上所有主和镜像 SQL server 的帐户具有对文件共享的读/写权限\\E04-OCS\csdatabackup 
     
    - 验证 Windows Management Instrumentation (WMI) 提供程序是否正在所有这些服务器上运行。该 cmdlet 使用此提供程序查找在所有主服务器、镜像服务器和见证服务器上运行的 SQL Server 服务的帐户信息。 
     
@@ -237,13 +235,13 @@ ms.lasthandoff: 03/28/2018
     
     将配置镜像。
     
-    **安装 CsMirrorDatabase**安装镜像，并配置镜像的主 SQL 存储区上的所有数据库。 如果您想要配置为仅特定数据库镜像，您可以使用-DatabaseType 选项，或者如果您想要配置的除少数之外的所有数据库镜像，您可以使用-ExcludeDatabaseList 选项，以逗号分隔的数据库列表要排除的名称。
+    **Install-csmirrordatabase**安装镜像并配置有在主 SQL 存储区的所有数据库的镜像。 如果您想要配置为仅特定数据库镜像，则可以使用-DatabaseType 选项，或者如果您想要配置的一些除外的所有数据库镜像，您可以使用-ExcludeDatabaseList 选项，以及数据库的以逗号分隔列表若要排除的名称。
   
-    例如，如果您将下面的选项添加到**安装 CsMirrorDatabase**，rtcab 和 rtcxds 之外的所有数据库会被都镜像。
+    例如，如果您将以下选项添加到**Install-csmirrordatabase**，除 rtcab 和 rtcxds 之外的所有数据库将进行都镜像。
   
     `-ExcludeDatabaseList rtcab,rtcxds`
   
-   例如，如果**安装 CsMirrorDatabase**中添加下面的选项，只有 rtcab、 rtcshared 和 rtcxds 数据库会被镜像。
+   例如，如果将以下选项添加到**Install-csmirrordatabase**中，将镜像仅 rtcab、 rtcshared 和 rtcxds 数据库。
   
     `-DatabaseType User`
   
@@ -253,17 +251,15 @@ ms.lasthandoff: 03/28/2018
   
 ```
 Uninstall-CsMirrorDatabase -SqlServerFqdn <SQLServer FQDN> [-SqlInstanceName <SQLServer instance name>] -DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance> [-DropExistingDatabasesOnMirror] [-Verbose]
-
 ```
 
 例如，要删除镜像并删除针对用户数据库的数据库，请键入：
   
 ```
 Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
-
 ```
 
-`-DropExistingDatabasesOnMirror`选项将导致受影响的数据库可以从镜像中删除。
+`-DropExistingDatabasesOnMirror`选项会导致从镜像中删除受影响的数据库。
   
 然后，要从拓扑中删除镜像，请执行以下操作：
   
@@ -275,7 +271,7 @@ Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName
     
 ## <a name="removing-a-mirroring-witness"></a>删除镜像见证
 
-如果您需要从后端服务器镜像配置中删除证人，则使用此过程。
+如果您需要从后端服务器镜像配置中删除见证，请使用此过程。
   
 1. 在拓扑生成器中，右键单击该池并单击“**编辑属性**”。 
     
@@ -283,14 +279,14 @@ Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName
     
 3. 发布拓扑。
     
-    发布拓扑结构拓扑生成器后您将看到一条消息，包含了下列
+    后发布拓扑生成器的拓扑，您将看到一条消息，包括以下
     
    ```
    Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
    ```
 
-    但是，请不要按照该步骤，并且没有键入`Uninstall-CsMirrorDatabase`一样，将卸载整个镜像配置。
+    但是，不执行该步骤，并且不要键入`Uninstall-CsMirrorDatabase`，这将卸载整个镜像配置。
     
-4. 若要删除从 SQL Server 配置只是证人，按照[删除数据库镜像会话 (SQL Server) 从尺寸界线](https://go.microsoft.com/fwlink/p/?LinkId=268456)中的说明进行操作。
+4. 若要从 SQL Server 配置中删除见证，请按照中[删除见证从数据库镜像会话 (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268456)的说明。
     
 

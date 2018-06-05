@@ -1,5 +1,5 @@
 ---
-title: 获取项的祖先
+title: 获取项祖先
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,41 +10,42 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
-description: 摘要： 了解如何获取项上级操作，这是项服务的一部分。 此项服务是呼叫质量仪表板存储库 API 的一部分。 通话质量仪表板是用于业务服务器 2015年的 Skype 的工具。
-ms.openlocfilehash: ab5cc9dd388d1192922430e2a728bb8073b3e0d7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何获取项目祖先操作，即项服务的一部分。 项服务是呼叫质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
+ms.openlocfilehash: 60d77ff1fd14a994d55a42516cd686891a56595f
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569199"
 ---
-# <a name="get-item-ancestors"></a>获取项的祖先
+# <a name="get-item-ancestors"></a>获取项祖先
  
-**摘要：**了解有关获取项上级操作，这是项服务的一部分。 此项服务是呼叫质量仪表板存储库 API 的一部分。 通话质量仪表板是用于业务服务器 2015年的 Skype 的工具。
+**摘要：** 了解有关获取项目祖先操作，即项服务的一部分。 项服务是呼叫质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
   
-获取项上级操作是项服务存储库 API 调用质量仪表板中的一部分。
+获取项祖先操作是用于呼叫的质量仪表板的存储库 API 中的项服务的一部分。
   
-## <a name="get-item-ancestors"></a>获取项的祖先
+## <a name="get-item-ancestors"></a>获取项祖先
 
-从存储库中获取项上级返回特定项目祖先。
+从存储库中获取项目祖先返回特定项目上级。
   
 
-|**方法**|**请求的 URI**|**HTTP 版本**|
+|**方法**|**请求 URI**|**HTTP 版本**|
 |:-----|:-----|:-----|
-|获取  <br/> |https://\<门户网站\>/QoERepositoryService/存储库/itemAncestors / {itemId}  <br/> |HTTP/1.1  <br/> |
+|获取  <br/> |https://\<门户\>/QoERepositoryService/存储库/itemAncestors / {itemId}  <br/> |HTTP/1.1  <br/> |
    
  **URI 参数**-无。
   
- **请求标头**的任何其他标头。
+ **请求标头**的任何其他的标头。
   
  **请求正文**-无。
   
- **响应**-响应包括 HTTP 状态代码和一套响应标头。
+ **响应**-响应包括 HTTP 状态代码和一响应标头。
   
- **状态代码**-操作成功返回状态码 200 (OK)。 如果找不到 ID 指定的用户，它将返回状态代码 404 （未找到）。
+ **状态代码**-成功的操作返回状态代码 200 （确定)。 如果找不到 ID 指定的用户，则将返回状态代码的 404 （未找到）。
   
- **响应标头**的任何其他标头。
+ **响应标头**的任何其他的标头。
   
- **响应正文**-下面是 json 格式的示例响应负载。
+ **响应正文**-下面是以 json 格式的示例响应负载。
   
 ```
 [{
@@ -57,12 +58,11 @@ ms.lasthandoff: 03/28/2018
 "item2": 1,
 "item3": "All Audio Streams"
 }]
-
 ```
 
- *Item1*的项的 ID。
+ *Item1* -项目的 ID。
   
- *Item2* -深度是从物料的距离。 0 是的直接父级。
+ *Item2* -深度是从项目之间的距离。 0 是直接父。
   
  *Item3* -项目的标题。
   

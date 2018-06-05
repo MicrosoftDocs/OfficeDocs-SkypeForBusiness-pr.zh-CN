@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 阅读此主题以获取如何部署与 Exchange Online 的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 0db23128f0e472ba1e928fafd274a67f063cf2e0
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 210f01f4d016ee0d3855edc79f20e2adceaa4f18
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568875"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online-hybrid"></a>将 Skype 会议室系统 v2 与 Exchange Online 一起部署（混合）
  
@@ -35,14 +36,12 @@ ms.lasthandoff: 05/08/2018
 
 1. 在 PC 上启动远程 Windows PowerShell 会话并连接到 Exchange Online，如下所示：
     
-  ```
-  Set-ExecutionPolicy Unrestricted
+```
+Set-ExecutionPolicy Unrestricted
 $org='contoso.microsoft.com'
 $cred=Get-Credential $admin@$org
-$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/ps1-liveid/ -Credential $cred -Authentication Basic 
--AllowRedirection
-
-  ```
+$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/ps1-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
+```
 
 2. 后建立会话，您将创建新邮箱并启用作为 RoomMailboxAccount 或更改现有的会议室邮箱的设置。 这将使到 Skype 会议室系统 v2 进行身份验证的帐户。
     
@@ -107,12 +106,11 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 1. 从 PC 创建远程 Windows PowerShell 会话，如下所示：
     
-  ```
-  Import-Module LyncOnlineConnector  
-$cssess=New-CsOnlineSession -Credential $cred  
-Import-PSSession $cssess -AllowClobber
-
-  ```
+    ```
+    Import-Module LyncOnlineConnector  
+    $cssess=New-CsOnlineSession -Credential $cred  
+    Import-PSSession $cssess -AllowClobber
+    ```
 
 2. 若要启用业务服务器 2015 Skype 的 Skype 会议室系统 v2 帐户，请运行以下命令：
     

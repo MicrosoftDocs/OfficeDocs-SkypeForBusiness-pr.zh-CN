@@ -17,12 +17,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: 下载和安装，然后使用 Windows PowerShell 3.0 创建连接到 Skype 业务 online 的远程 PowerShell 会话。
-ms.openlocfilehash: 6679e9749efd6ee09a7c26f383b1b411caadb43e
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 9c2b0f02d9da7e44cdb5585314c13a6bafbe58c6
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19493989"
+ms.locfileid: "19568319"
 ---
 # <a name="download-and-install-windows-powershell-30"></a>下载并安装 Windows PowerShell 3.0
 
@@ -34,17 +34,17 @@ ms.locfileid: "19493989"
     
 2. 在 PowerShell 控制台中，键入以下命令，然后按 ENTER:
     
-    ```
+   ```
    Get-Host | Select-Object Version
    ```
 
 3. 然后应控制台窗口中显示类似于以下的信息：
     
-    ```
-    Version
-    -------
+    <pre>
+    Version <BR>
+    ------- <BR>
     3.0
-    ```
+    </pre>
 
     如果返回的版本号是 3.0，您正在运行 Windows PowerShell 3.0。 如果返回的版本号不是 3.0，您需要安装 Windows PowerShell 3.0。 您可以从[Microsoft 下载中心](https://www.microsoft.com/en-us/download/details.aspx?id=34595)下载 Windows Management Framework 3.0，其中包括 Windows PowerShell 3.0。
   
@@ -79,9 +79,7 @@ Get-ExecutionPolicy
 
 如果您获得以下值，然后所有已正确配置：
   
-```
-RemoteSigned
-```
+`RemoteSigned`
 
 如果您当前未运行 Windows PowerShell 3.0，您还需要下载并安装 Windows Management Framework 3.0 从 Microsoft 下载中心。 这是一个安装包，包括 Windows PowerShell 3.0 和 Windows 远程管理 (WinRM) 3.0。 如果运行 Windows 7 和尚未更新到 Windows PowerShell 3.0，可能需要此安装软件包。 如果您运行的 Windows Server 2012、 Windows Server 2012 R2、 Windows 8 或 Windows 8.1，应该有无需安装 Windows PowerShell 3.0。 Windows PowerShell 3.0 这些操作系统的亮起预安装。
   
@@ -115,11 +113,11 @@ Get-Service winrm
 
 然后，有关 WinRM 服务的信息将显示在屏幕上：
   
-```
+<pre>
 Status   Name               DisplayName
 ------   ----               -----------
 Running  winrm              Windows Remote Management (WS-Manag...
-```
+</pre>
 
 如果该服务状态不等于"运行"，通过键入以下命令并按 ENTER 启动 WinRM 服务：
   
@@ -135,7 +133,7 @@ winrm set winrm/config/client/auth '@{Basic="True"}'
 
 类似于以下的信息将显示在屏幕上：
   
-```
+<pre>
 Auth
     Basic = true
     Digest = true
@@ -143,7 +141,7 @@ Auth
     Negotiate = true
     Certificate = true
     CredSSP = false
-```
+</pre>
 
 如果基本身份验证已设置为 true，然后便可以使用 PowerShell 连接到 Skype 业务 online。
   

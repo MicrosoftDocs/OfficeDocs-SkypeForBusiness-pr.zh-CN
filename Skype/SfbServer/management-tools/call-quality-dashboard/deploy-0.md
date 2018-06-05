@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 摘要： 了解呼叫质量仪表板的部署过程。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
-ms.openlocfilehash: 8a15d8da91235b4927bfaf35eadad625db42f45c
-ms.sourcegitcommit: 0a0fd436d4d732710bb65e1809ac28dd2e0df41a
+ms.openlocfilehash: 0d096ba8c2303ca952100a8142b356944b775dcc
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2018
-ms.locfileid: "19526380"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569185"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>为业务 Server 2015 Skype 部署呼叫质量仪表板
  
@@ -268,8 +268,7 @@ INSERT INTO
 [BuildingTypeDesc])
 VALUES
 (1, 
-'Headquarters') 
-  
+'Headquarters')   
 ```
 
 在 BuildingTypeId 和 BuildingTypeDesc 参数是必需的。
