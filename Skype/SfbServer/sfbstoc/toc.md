@@ -69,6 +69,8 @@
 #### 规划 Microsoft 电话系统直接路由
 ##### [规划直接路由](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing.md)
 ##### [配置直接路由](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing.md)
+##### [迁移到直接路由](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/migrating-to-direct-routing.md)
+##### [使用 PSTN 连接的混合环境中的用户帐户](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/user-accounts-in-a-hybrid-environment-with-pstn.md)
 ### [规划混合连接性](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)
 ### [部署混合连接性](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
 #### [配置联合身份验证与 Skype 的业务联机](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)
@@ -102,6 +104,7 @@
 #### [与 Office 兼容性](../plan-your-deployment/clients-and-devices/compatibility-with-office.md)
 #### [视频分辨率](../plan-your-deployment/clients-and-devices/video-resolutions.md)
 #### [会议客户端](../plan-your-deployment/clients-and-devices/meetings-clients.md)
+##### [Skype 会议应用程序最小的网络要求](../plan-your-deployment/clients-and-devices/minimum-network-requirements.md)
 #### [Windows Phone 的要求](../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md)
 #### [Skype 会议室系统第 2 版](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ##### [当前分支版本的支持](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
