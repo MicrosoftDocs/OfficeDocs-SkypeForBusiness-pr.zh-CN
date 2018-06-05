@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 本文介绍的基础结构准备部署 Skype 会议室系统 v2。
-ms.openlocfilehash: b8f1e52686cfab957f2fb81a33deecc778514673
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 46e40acf8d82c0fe5feee66781ac9ebefda68f3e
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "19179278"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504766"
 ---
 # <a name="prepare-your-environment"></a>准备您的环境
 
@@ -165,8 +165,6 @@ Skype 会议室系统 v2 的默认密码设置为"sfb"。 可以转到 Windows �
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [规划 Skype 会议室系统 v2](skype-room-systems-v2-0.md)
 
 [Skype 会议室系统 v2 要求](requirements.md)
@@ -176,4 +174,3 @@ Skype 会议室系统 v2 的默认密码设置为"sfb"。 可以转到 Windows �
 [配置 Skype 会议室系统 v2 控制台](../../deploy/deploy-clients/console.md)
   
 [管理 Skype 会议室系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-

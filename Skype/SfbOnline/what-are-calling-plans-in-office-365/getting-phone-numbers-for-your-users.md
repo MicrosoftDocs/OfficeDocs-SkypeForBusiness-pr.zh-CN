@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: ff7716a057ee2b3bb27b01a4912f718d28e3739b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a4ede7e5bac4b7e1fe5931f404a6d2c9e4f63056
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500860"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>为用户获取电话号码
 
@@ -44,6 +45,8 @@ ms.lasthandoff: 05/03/2018
 > 如果您需要帮助设置为您的组织的电话号码，您可以[对业务产品-管理员技术联系人支持](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>为用户获取新电话号码
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
@@ -81,6 +84,8 @@ ms.lasthandoff: 05/03/2018
 - 如果您需要端口超过 999 电话号码，请参阅[手动提交自定义服务请求](manually-submit-a-custom-service-request.md)提交的端口顺序服务请求或顺序获取所有移植转移到 Office 365 这些电话号码。
     
 ## <a name="show-phone-numbers-for-your-organization"></a>显示你的组织的电话号码
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
 
 1. 使用你的工作或学校帐户登录 Office 365。
     

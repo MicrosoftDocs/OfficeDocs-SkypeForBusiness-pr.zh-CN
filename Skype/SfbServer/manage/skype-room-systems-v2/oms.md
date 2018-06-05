@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 description: 本文讨论如何使用 Microsoft Operations Management Suite 以集成的端到端方式管理 Skype 会议室系统 v2 设备。
-ms.openlocfilehash: 4290e89f2a5faba6fa4efdfb48e57345bc0c35f5
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: b77f7216593d30c843eb49fd8879a83b5b0025c8
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504234"
 ---
 # <a name="manage-skype-room-systems-v2-devices-with-oms"></a>使用 OMS 管理 Skype 会议室系统 v2 设备
  
@@ -40,11 +41,8 @@ ms.lasthandoff: 05/11/2018
 |4000  <br/> 信息  <br/> |这是应用重启事件。 每次应用重启时，都会将此事件记录到 Windows 事件日志中。  <br/> | {"Description":"App restarts.","ResourceState":"Healthy","OperationName":"Restart","OperationResult":"Pass","OS":"Windows 10","OSVersion":"10.0.14393.693","Alias":"alias@domain.com","DisplayName":"Display Name","AppVersion":"1.0.38.0","IPv4Address":"10.10.10.10","IPv6Address":"ip v6 address"} <br/> Skype for Business 应用可能会因为多种原因重启。 在考虑到功率波动和电源故障等已知问题的前提下，将相同大楼和不同大楼中的设备重启频率进行比较，因为这样可能可以为解决基础设施问题提供提示。 <br/> |
    
 ## <a name="see-also"></a>另请参阅
-<a name="Telemetry"> </a>
-
-#### 
+<a name="Telemetry"></a>
 
 [规划使用 OMS 的 Skype 会议室系统 v2 管理](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
 [部署使用 OMS 的 Skype 会议室系统 v2 管理](../../deploy/deploy-clients/with-oms.md)
-

@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 阅读此主题以了解有关在 Exchange 配置帐户 Skype 会议室系统 v2 和 Skype 的业务服务器 2015年。
-ms.openlocfilehash: 6efd8f32a19ff54958583e11e7910fb17a882953
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+ms.openlocfilehash: 1aa6c3d9ca8d80f054550cfa167a7a75e032ef0f
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501374"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>配置帐户 Skype 会议室系统 v2
  
@@ -80,8 +81,6 @@ Skype 会议室系统 v2 需要 Active Directory、 Exchange 和 Skype for Busin
 如果您希望使用 Windows PowerShell cmdlet 通过 Office 365 用户界面，可以手动执行一些步骤。 请参阅[创建设备帐户使用 Office 365](https://technet.microsoft.com/itpro/surface-hub/create-a-device-account-using-office-365)。
   
 ## <a name="see-also"></a>另请参阅
-
-#### 
 
 [规划 Skype 会议室系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   

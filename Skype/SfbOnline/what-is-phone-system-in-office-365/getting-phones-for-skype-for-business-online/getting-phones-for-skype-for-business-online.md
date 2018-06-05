@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: 894637bbde15a80f377098e61d1eba77fbef4bf2
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: c58f9c6fe4174f58f4c430fe121cd071a0b5b9a5
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19494009"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>获取适用于 Skype for Business Online 的电话
 
@@ -71,13 +72,13 @@ AudioCodes 电话的详细信息，请参阅[业务 IP 电话的 Skype](https://
 > [!NOTE]
 [!注释] 你为本地部署设置的 Lync Phone Edition (LPE) 电话必须加以更新，以符合最低或最新的必要固件要求，之后才能将这些用户转移到 Skype for Business Online。如果在更新电话上的固件之前将用户从本地部署迁移到 Skype for Business Online，这些电话将无法连接到 Skype for Business Online。 
   
-## <a name="required-licenses"></a>所需的许可证
+## <a name="required-licenses"></a>必需的许可证
 
 Skype 业务 online 不需要任何其他的 Microsoft 许可之外的用户许可证。 若要了解有关所需的用户许可证的详细信息，请参阅[业务和 Microsoft 团队授权加载项的 Skype](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
   
 打开 SIP 和 Skype 之间业务认证固件的情况下，制造商许可模型可能会有所不同。 如果打算对开放式 SIP 固件重复使用某个认证模式，则需要向制造商确认固件许可证要求。
   
-## <a name="skype-for-business-online-connected-phones-feature-set"></a>Skype for Business Online 连接电话功能集
+## <a name="skype-for-business-online-connected-phones-feature-set"></a>业务 Online 连接的电话功能集的的 Skype
 
 有关完整的设备特性和功能，检查制造商用户指南。
   
@@ -86,7 +87,7 @@ Skype 业务 online 不需要任何其他的 Microsoft 许可之外的用户许�
 |**功能** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
 |使用用户凭据登录  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |通过 PC（配对）登录，仅限 Windows  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|使用（Web 登录）登录  <br/>  <br/> **注意：**检查部署指南中的可支持性矩阵。           |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|使用（Web 登录）登录  <br/>  <br/> **注意：** 检查部署指南中的可支持性矩阵。           |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |通过单击加入会议  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |单击拨号（配对）  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |会议控制  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
@@ -95,26 +96,27 @@ Skype 业务 online 不需要任何其他的 Microsoft 许可之外的用户许�
 |设备更新  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |带内配置  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |QoE  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|日志上传  <br/> <br/> **注意：**目前，所有日志都上载到 Microsoft 支持团队仅;客户访问电话日志尚不可用。           |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|日志上传  <br/> <br/> **注意：** 目前，所有日志都上载到 Microsoft 支持团队仅;客户访问电话日志尚不可用。           |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |现代化身份验证  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |多个紧急号码  <br/> |是  <br/> |否  <br/> |否  <br/> |是  <br/> |
-|Exchange 日历集成*  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> <br/> **注意：**需要 PC tethering           |
+|Exchange 日历集成*  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> <br/> **注意：** 需要 PC tethering           |
 |状态集成  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |公司目录  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |委派  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |联系人图片集成  <br/> |否  <br/> |是  <br/> |否  <br/> |是  <br/> |
 ||||||
 
-    > [!NOTE]
-    > CX 600 or any other Aries phones don't support multifactor authentication (MFA). If you force MFA, these devices will fail to sign-in. These devices must use only Org ID for authetication.
-   
+     
+> [!NOTE]
+> CX 600 或任何其他 Aries 电话不支持多因素身份验证 (MFA)。 如果您强制 MFA，这些设备将无法登录。 这些设备必须使用的身份验证仅组织 ID。
+ 
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
 有关分步设置说明，请参阅[部署 Skype for Business Online 电话](deploying-skype-for-business-online-phones.md)。
 
 ## <a name="related-topics"></a>相关主题
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)
 
-[下面是 Office 365 中的电话系统的功能](../here-s-what-you-get-with-phone-system.md)
+[Office 365 中的电话系统的功能](../here-s-what-you-get-with-phone-system.md)
 
 [音频会议和通话套餐的国家/地区可用性](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

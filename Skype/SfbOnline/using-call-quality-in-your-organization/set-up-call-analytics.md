@@ -18,11 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 设置和使用调用分析确定并解决 Skype 的业务和 Microsoft 团队呼叫质量问题。
-ms.openlocfilehash: 0fea9e37933908ef64f1b2eb100f3851f84a6690
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 5cba53e1a01b1aff3a08f4ec84cea60dc455fb35
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500690"
 ---
 # <a name="set-up-skype-for-business-call-analytics"></a>设置为商业调用 Analytics Skype
 
@@ -57,6 +58,8 @@ ms.lasthandoff: 05/17/2018
    
  **设置呼叫分析中的分层权限**
  <a name="BKMK_SetUpTier"> </a>
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
   
 1. 第 1 层和第 2 层中创建 Office 365 安全组，并将所需的人员添加到每个组。 您还可以重用现有的安全组。 有关详细信息，请参阅[在 Office 365 管理中心中创建、编辑或删除安全组](https://support.office.com/article/55c96b32-e086-4c9e-948b-a018b44510cb)。
     

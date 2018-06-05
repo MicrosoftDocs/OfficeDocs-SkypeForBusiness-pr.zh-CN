@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: 创建或修改业务 Server 企业语音的呼叫寄存通道范围表 Skype 中。
-ms.openlocfilehash: 805323783cee06f76ee4bf0c1c2ecdb427070a8f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a2f2495683c3a3d937cc675876ae918ef0558b5c
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500958"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business-2015"></a>在 Skype for Business 2015 中创建或修改呼叫寄存通道范围
  
@@ -99,11 +100,8 @@ ms.lasthandoff: 05/03/2018
 
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [新 CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
   
 [设置 CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
   
 [删除呼叫寄存通道范围](http://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
-

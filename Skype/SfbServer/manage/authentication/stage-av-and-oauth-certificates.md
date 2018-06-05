@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 摘要： 用于业务服务器 2015年的 Skype 阶段 AV 和 OAuth 证书。
-ms.openlocfilehash: 7c5abf07c5b30e4e015936fcf0987e989f1d8117
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 8d13a2e647861fadcc89c0a95442a79fe45c6124
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504913"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-2015-using--roll-in-set-cscertificate"></a>在 Set-CsCertificate 中使用 -Roll 在 Skype for Business Server 2015 中暂存 AV 和 OAuth 证书
  
@@ -130,11 +131,8 @@ Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [管理服务器到服务器身份验证 (OAuth) 和 Skype 中的业务服务器 2015年的合作伙伴应用程序](server-to-server-and-partner-applications.md)
 
 [Set-cscertificate](https://docs.microsoft.com/powershell/module/skype/set-cscertificate?view=skype-ps)
   
 [删除 CsCertificate](https://docs.microsoft.com/powershell/module/skype/remove-cscertificate?view=skype-ps)
-

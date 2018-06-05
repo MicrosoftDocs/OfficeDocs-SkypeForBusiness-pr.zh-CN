@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 您可以通过编辑或配置以下属性编辑前端服务器或前端池的属性。 配置页可分为以下几节：
-ms.openlocfilehash: 11d93e27ab333fc03a65d0d578ca3bbeb933a43a
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 3fcc23cfb794260f79e285e6e49efc7c657e4df0
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19502477"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 的前端常规设置扩展器
  
@@ -97,7 +98,4 @@ ms.lasthandoff: 05/25/2018
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [定义和配置前端池或 Standard Edition Server](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)
-

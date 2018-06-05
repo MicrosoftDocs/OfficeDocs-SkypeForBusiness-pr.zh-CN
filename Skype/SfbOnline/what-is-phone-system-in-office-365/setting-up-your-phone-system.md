@@ -19,11 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为组织设置电话系统 (云 PBX)。 '
-ms.openlocfilehash: 3092442f9b2421bb0dc8a7a6ac7683761176d64c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 26ffa60322c4b3f37b8f524c43efdf9a74cb1305
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501037"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>设置您的组织中的电话系统
 
@@ -39,7 +40,7 @@ ms.lasthandoff: 05/03/2018
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>步骤 2： 购买和分配电话系统和调用规划许可证
 
-若要将电话系统和调用规划许可证分配给单个用户的步骤是相同分配 Office 365 许可证。 请参阅[业务和 Microsoft 团队许可证分配 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。 如果您想要分配批量的多个用户，请参阅 (.../ skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md）。
+若要将电话系统和调用规划许可证分配给单个用户的步骤是相同分配 Office 365 许可证。 请参阅[业务和 Microsoft 团队许可证分配 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。 如果您想要分配批量的多个用户，请参阅[业务和 Microsoft 团队许可证分配 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
 
 ## <a name="step-3-get-phone-numbers-for-your-users"></a>步骤 3： 为用户获取电话号码
 
@@ -53,7 +54,10 @@ ms.lasthandoff: 05/03/2018
 必须使用**添加新用户号码**页上，请参阅、 搜索、 获取，并保留这些号码。 您可以通过国家/地区、 状态和市/县搜索，然后输入电话号码，您将需要为您的用户数。 
 
 ### <a name="get-new-user-phone-numbers"></a>获取新用户电话号码 
-  
+ 
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+
+ 
 1. 使用你的工作或学校帐户登录 Office 365。
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.
@@ -77,6 +81,9 @@ ms.lasthandoff: 05/03/2018
 除了从 Office 365 用户获取电话号码，您可以搜索并获取收费电话或音频会议 （会议网桥）、 自动助理等呼叫队列 （也称为服务号码） 服务的免费电话号码。 服务电话号码具有比用户或订阅者电话号码更高的并发呼叫容量。 例如，服务号码可以处理数百个呼叫同时，而用户的电话号码只能同时处理几个呼叫。
 
 ### <a name="get-new-service-numbers"></a>获取新服务号码
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
@@ -262,7 +269,7 @@ Before you can create and set up your call queues, you will need to get or trans
     
 3. 在"操作"窗格中的" **产品许可证**"下，单击" **编辑**"。
     
-4. 在**产品许可证**页上，切换 * * Communications 字幕式 * ***在上**分配此许可证，，然后单击**保存**到。
+4. 在**产品许可证**页上，切换到**在上**分配此许可证， **Communications 字幕式**，然后单击**保存**。
     
     > [!NOTE]
     > 即使已经分配一个**企业 E5**许可证的用户，仍建议您这样做。
@@ -270,7 +277,7 @@ Before you can create and set up your call queues, you will need to get or trans
 **若要了解有关分配 Communications 字幕式许可证的详细信息，请参阅[设置为您的组织的通信字幕式](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)。**
 
 ## <a name="related-topics"></a>相关主题
-[下面是 Office 365 中的电话系统的功能](here-s-what-you-get-with-phone-system.md)
+[Office 365 中的电话系统的功能](here-s-what-you-get-with-phone-system.md)
 
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](getting-service-phone-numbers.md)
 

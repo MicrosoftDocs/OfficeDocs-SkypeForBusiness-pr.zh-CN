@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 1eb72cd0260826c845b033aca849e85a94d6ba6b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 849e3329bce87414c9544b79429a295a2c72a22e
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500897"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>为组织设置 Communications 字幕式
 
@@ -89,7 +90,7 @@ ms.lasthandoff: 05/03/2018
     
 3. 在"操作"窗格中的" **产品许可证**"下，单击" **编辑**"。
     
-4. 在**产品许可证**页上，切换 * * Communications 字幕式 * ***在上**分配此许可证，，然后单击**保存**到。
+4. 在**产品许可证**页上，切换到**在上**分配此许可证， **Communications 字幕式**，然后单击**保存**。
     
     > [!NOTE]
     > 即使已经分配一个**企业 E5**许可证的用户，仍建议您这样做。

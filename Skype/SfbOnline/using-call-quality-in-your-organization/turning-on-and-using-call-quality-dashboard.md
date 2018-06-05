@@ -19,11 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '请参阅如何启用和 Skype 用于业务联机呼叫质量仪表板并获取呼叫的质量摘要报告。 '
-ms.openlocfilehash: f8a7a71a0e0c0e64ceb7447c53c15483d977e16a
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 966dc71705344b1cece9b0e706539d64df95bf50
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501265"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用呼叫质量仪表板的 Microsoft 团队和 Skype 业务 online
 
@@ -50,7 +51,9 @@ ms.lasthandoff: 05/17/2018
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>激活 Microsoft 呼叫质量仪表板 (CQD) 摘要报告
 
 您可以开始使用 CQD 之前，您需要激活的 Office 365 组织。
-  
+ 
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+ 
 1. 登录到 Office 365 组织使用管理帐户，，然后选择**管理员**图块打开在管理中心。
     
 2. 在左窗格中，在**管理中心**，选择打开业务管理中心的 Skype **for Business 的 Skype** 。
@@ -59,11 +62,11 @@ ms.lasthandoff: 05/17/2018
     
      ![Skype 业务工具](../images/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
   
-4. 在打开的页面上，使用您的全局管理员帐户，登录，然后提供帐户出现提示时的凭据。
+4. 在打开页上，使用您的全局管理员帐户，登录，然后提供出现提示时的帐户的凭据。
     
      ![CQD 登录](../images/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
-您登录后，一旦被激活后之后, CQD 将开始收集和处理数据。
+登录，一旦被激活后后, CQD 将开始收集和处理数据。
   
 > [!NOTE]
 > 可能需要几个小时处理数据不足，无法在报表中显示有意义的结果。 

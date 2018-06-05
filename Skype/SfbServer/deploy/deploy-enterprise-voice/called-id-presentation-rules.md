@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 摘要： 了解如何通过使用生成的转换规则工具的 Skype 中的业务服务器 2015年定义转换规则。
-ms.openlocfilehash: cdaa26a832b453e641bf4b7fbd2df30a80324f7d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: eeff210b409d9d53ae54a30041207cffaa618f32
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500870"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建或修改来电显示的转换规则
  
@@ -100,8 +101,6 @@ ms.lasthandoff: 05/24/2018
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [为业务服务器 2015年使用 Skype 中的媒体旁路配置中继](configure-trunk-with-media-bypass.md)
   
 [配置无媒体绕过 Skype 中的业务服务器 2015年的中继](configure-trunk-without-media-bypass.md)
@@ -109,4 +108,3 @@ ms.lasthandoff: 05/24/2018
 [挂起更改语音路由配置中的业务 2015 Skype 的发布](voice-route-config-changes.md)
 
 [部署业务服务器 2015 Skype 中的媒体绕过](deploy-media-bypass.md)
-

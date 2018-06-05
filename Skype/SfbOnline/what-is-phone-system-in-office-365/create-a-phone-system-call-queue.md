@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 119e56f27edc992466a6565235715d2703b1cb12
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: c3ac8c47d0936ecede1532bd9356d0db0807142a
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501089"
 ---
 # <a name="create-a-phone-system-call-queue"></a>创建电话系统呼叫队列
 
@@ -98,6 +99,8 @@ Before you can create and set up your call queues, you will need to get or trans
 > 如果您在美国以外，您无法使用业务管理中心的 Skype 获取服务号码。 转到[管理您的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)而是以了解如何执行从美国的外部。
   
 ## <a name="step-3---create-a-new-call-queue"></a>第 3 步 - 创建新的呼叫队列
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
 
 In the **Skype for Business admin center**, click **Call routing** > **Call queues**, then click **Add new**:
   
@@ -240,7 +243,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
     
 ## <a name="related-topics"></a>相关主题
-[下面是 Office 365 中的电话系统的功能](here-s-what-you-get-with-phone-system.md)
+[Office 365 中的电话系统的功能](here-s-what-you-get-with-phone-system.md)
 
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](getting-service-phone-numbers.md)
 

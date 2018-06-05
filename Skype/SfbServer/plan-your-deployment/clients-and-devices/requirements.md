@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: 本文汇总了支持 Skype 会议室系统 v2 的要求。
-ms.openlocfilehash: 7259e82be2ed0e57ba784a96774c12b10f990170
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 443f24e80b8d7e66c38fdb0e2e99ab6926bce4b4
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504794"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype 会议室系统 v2 要求
  
@@ -139,8 +140,6 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [规划 Skype 会议室系统 v2](skype-room-systems-v2-0.md)
   
 [部署 Skype 会议室系统 v2](../../deploy/deploy-clients/room-systems-v2.md)
@@ -150,4 +149,3 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
 [管理 Skype 会议室系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Skype for Business 附加许可](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)
-

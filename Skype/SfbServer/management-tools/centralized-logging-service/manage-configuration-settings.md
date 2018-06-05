@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 摘要： 了解如何检索、 更新和为业务服务器 2015 Skype 创建 the Centralized Logging Service 配置设置。
-ms.openlocfilehash: 8fe02cc4d2c04f9433736c4bced429f84f84d915
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: e386c22b8e8c1543b553ca1b9f242e9554ee5c85
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504570"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中管理集中日志记录服务配置设置
  
@@ -180,8 +181,6 @@ Cmdlet **Get-csclsconfiguration**始终显示属于给定范围内的配置的�
 如果选择删除站点级配置，站点将使用全局设置。
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [在 Skype for Business Server 2015 配置提供程序集中日志记录服务](configure-providers.md)
   
 [为业务服务器 2015 the Centralized Logging Service 中 Skype 的配置方案](configure-scenarios.md)
@@ -195,4 +194,3 @@ Cmdlet **Get-csclsconfiguration**始终显示属于给定范围内的配置的�
 [New-csclsconfiguration](https://docs.microsoft.com/powershell/module/skype/new-csclsconfiguration?view=skype-ps)
   
 [Remove-csclsconfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csclsconfiguration?view=skype-ps)
-

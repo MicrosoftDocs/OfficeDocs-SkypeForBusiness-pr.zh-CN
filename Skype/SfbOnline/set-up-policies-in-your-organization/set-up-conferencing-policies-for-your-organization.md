@@ -1,5 +1,5 @@
 ---
-title: 设置您的组织的会议策略
+title: 设置为您的组织的会议策略
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,26 +16,27 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 会议是 Skype for Business Online 的重要部分：通过会议，多组用户可以在线集中在一起来查看幻灯片和视频、共享应用、交换文件以及进行通信与协作。
-ms.openlocfilehash: f5c507e23d7ccd4875ebc65bd821e253621ed903
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 9e4c0bc5a90a97ae249b9308fd0ffc62a654a824
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500561"
 ---
-# <a name="set-up-conferencing-policies-for-your-organization"></a>设置您的组织的会议策略
+# <a name="set-up-conferencing-policies-for-your-organization"></a>设置为您的组织的会议策略
 
 会议是 Skype for Business Online 的重要部分：通过会议，多组用户可以在线集中在一起来查看幻灯片和视频、共享应用、交换文件以及进行通信与协作。
   
-很重要的会议和会议设置的控制。在某些情况下，可能有安全方面的考虑： 默认情况下，任何人，包括未经授权的用户可以参与会议并保存的任何幻灯片或在这些会议期间分发的讲义。此外，可能会有偶尔的法律问题。例如，默认情况下，会议参与者允许对共享的内容; 使注释不过，会议存档时，不保存这些批注。如果您的组织需要保留所有的电子通信的记录，您可能要禁用注释。 
+务必要维护对会议的控制和会议设置。 在有些情况下，可能会有安全问题：默认情况下，任何人（包括未经身份验证的用户）都可以参与会议，并保存在那些会议期间分发的任何幻灯片或讲义。 此外，偶尔可能有法律问题。 例如，默认情况下，会议允许参与者共享内容; 上进行注释但是，存档会议时，不会保存这些批注。 如果你的组织需要保留所有电子通信记录，你可能希望禁用批注。 
   
-在 Skype 的在线业务，通过会议策略管理会议。会议策略确定的特性和功能，可在会议中，包括从会议可以包括 IP 音频和视频最大数量的人员可以出席会议。在全局范围内或每个用户范围，则可以配置会议策略。这为管理员提供很强的灵活性为决定哪些功能会对可用的用户时。
+业务 online Skype，通过使用会议策略进行管理会议。 会议策略确定可以在会议中使用的特性和功能，包括从会议是否可以包括 IP 音频和视频到可以参加会议的最大人数等所有内容。 可以按全局范围或单个用户范围来配置会议策略。 这为管理员在决定哪些功能可供哪些用户使用时提供了极大的灵活性。
   
-策略设置可以配置在创建策略时，也可以使用**一组 CsConferencingPolicy** cmdlet 来修改现有的策略设置。
+策略设置可以配置时创建的策略，或者您可以使用**Set-csconferencingpolicy** cmdlet 修改现有的策略的设置。
   
 ## <a name="set-your-conferencing-policies"></a>设置你的会议策略
 
 > [!NOTE]
-> 对于所有会议策略中设置的 Skype 的在线业务，您必须都使用 Windows PowerShell 并且您都**不能都使用** **Skype 的业务管理中心**。 
+> 对于所有会议策略的设置中 Skype 业务 online，您必须都使用 Windows PowerShell 和您都**不能都使用****业务管理中心的 Skype**。 
   
 ### <a name="verify-and-start-windows-powershell"></a>验证并启动 Windows PowerShell
 
@@ -67,67 +68,67 @@ ms.lasthandoff: 04/18/2018
     Import-PSSession $session
   ```
 
-  如果希望在启动 Windows PowerShell 的详细信息，请参阅[连接到一个 Windows PowerShell 窗口中的所有 Office 365 提供服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[连接到使用 Windows PowerShell 在线业务 Skype](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+  如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
     
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>在会议期间阻止文件传输和桌面共享
 
-- 若要创建新的策略，这些设置，请运行：
+- 若要创建这些设置的新策略，请运行：
 > 
   ```
   New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
   ```
-  请参阅详细信息[新建 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) cmdlet。
+  请参阅有关[-New-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) cmdlet 的详细信息。
     
-- 若要授予您组织中的所有用户创建新的策略，请运行：
+- 若要授予您的组织中的为所有用户创建新策略，请运行：
 > 
   ```
   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
   ```
-  请参阅详细信息[授予 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet。
+  请参阅[Grant-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet 的详细信息。
     
-  如果您已经创建一个策略，可以使用[一组 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) cmdlet 可以更改现有的策略，并将[授予 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet 将设置应用于您的用户。
+  如果您已经创建策略，可以使用[Set-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) cmdlet 可以更改现有的策略，并将[Grant-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet 将设置应用于您的用户。
   
-### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>阻止的会议记录，并防止匿名会议参与者
+### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>阻止录制的会议，并防止匿名会议参与者
 
-- 若要创建新的策略，这些设置，请运行： 
+- 若要创建这些设置的新策略，请运行： 
 > 
   ```
   New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
   ```
-请参阅详细信息[新建 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) cmdlet。
+请参阅有关[-New-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) cmdlet 的详细信息。
     
-- 若要创建新策略授予 Amos 大理石，运行：
+- 若要授予 Amos 大理石您创建的新策略，请运行：
 > 
   ```
    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
   ```
-请参阅详细信息[授予 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet。
+请参阅[Grant-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet 的详细信息。
     
-如果您已经创建一个策略，可以使用[一组 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) cmdlet 可以更改现有的策略，并将[授予 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet 将设置应用于您的用户。
+如果您已经创建策略，可以使用[Set-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) cmdlet 可以更改现有的策略，并将[Grant-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet 将设置应用于您的用户。
   
 ### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>阻止匿名参与者录制会议和外部用户保存会议内容
 
-- 若要创建新的策略，这些设置，请运行：  
+- 若要创建这些设置的新策略，请运行：  
 > 
   ```
   New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
   ```
-请参阅详细信息[新建 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) cmdlet。
+请参阅有关[-New-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) cmdlet 的详细信息。
     
-- 若要授予组织中为所有用户都创建新策略，请运行：
+- 若要授予对所有用户在组织中都创建新策略，请运行：
     
 > 
   ```
   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
   ```
 
-请参阅详细信息[授予 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet。
+请参阅[Grant-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet 的详细信息。
     
-如果您已经创建一个策略，可以使用[一组 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) cmdlet 可以更改现有的策略，并将[授予 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet 将设置应用于您的用户。
+如果您已经创建策略，可以使用[Set-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) cmdlet 可以更改现有的策略，并将[Grant-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet 将设置应用于您的用户。
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
 
-- 对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -144,7 +145,7 @@ ms.lasthandoff: 04/18/2018
 ## <a name="related-topics"></a>相关主题
 [创建自定义外部访问策略](create-custom-external-access-policies.md)
 
-[块的点对点文件传输](block-point-to-point-file-transfers.md)
+[阻止点对点文件传输](block-point-to-point-file-transfers.md)
 
 [为你的组织设置客户端策略](set-up-client-policies-for-your-organization.md)
 

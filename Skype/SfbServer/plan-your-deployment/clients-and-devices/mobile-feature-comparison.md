@@ -14,15 +14,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 摘要： 规划的 Skype 业务服务器 2015年时查看对移动客户端的功能支持。
-ms.openlocfilehash: 3ec2662915b72993de41b2398355bb4010810b3d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b4e7e0bd186a3622c8f6fdf671799efdd8ab792d
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504297"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Skype for Business 的移动客户端功能比较
  
-**摘要：**规划业务服务器 2015年的 Skype 时查看对移动客户端的功能支持。
+**摘要：** 规划业务服务器 2015年的 Skype 时查看对移动客户端的功能支持。
   
 本文比较的特性和 Skype 业务移动客户端和 Skype 业务按以下类别的桌面客户端之间的功能：
   
@@ -166,7 +167,7 @@ ms.lasthandoff: 05/03/2018
 |导航您的会议列表  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |即使您没有商业帐户 Skype 加入会议  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |查看有关会议参与者的更多信息  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|直接从您的客户端或设备启动与多个参与者的未计划的组对话   <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|直接从您的客户端或设备启动与多个参与者的未计划的组对话   <br/> |& #x 2714;|& #x 2714;|& #x 2714;||
    
  & #x 2776; 为 Office 365 用户，此功能需要企业语音，这是 E5 许可证的一部分。
   

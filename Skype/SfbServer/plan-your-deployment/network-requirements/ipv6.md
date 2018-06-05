@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 摘要： 实现 IPv6 的业务服务器 2015年安装 Skype 之前。
-ms.openlocfilehash: 4bd7a76e6b55b0b09cf0be469cb84c3d6384f109
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 20a1e711d5a9a3a195d9b89328b3c2903d13988c
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504220"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>规划 Skype for Business 中的 IPv6
  
@@ -203,8 +204,6 @@ Lync Server 2010 或 Office Communications Server 不支持 IP 版本 6 (IPv6)�
 ## <a name="see-also"></a>另请参阅
 <a name="migration"> </a>
 
-#### 
-
 [Skype for Business 中配置 IP 地址类型](ip-address-types.md)
 
 [IP 版本 6 寻址体系结构](https://tools.ietf.org/html/rfc4291)
@@ -212,4 +211,3 @@ Lync Server 2010 或 Office Communications Server 不支持 IP 版本 6 (IPv6)�
 [IPv6 全局单播地址格式](https://tools.ietf.org/html/rfc3587)
   
 [唯一本地 IPv6 单播地址](https://tools.ietf.org/html/rfc4193)
-

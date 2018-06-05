@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 摘要： 了解升级到 Skype 规划业务服务器 2015年时应考虑。 下载免费试用版 Skype 业务服务器 2015 从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: d5d7885f7392ee5316b526ff90682303f6fed421
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 51123e58c57445a0ad9deffb720a7e9c378cf58c
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19505137"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>规划升级到 Skype for Business Server 2015
  
@@ -182,11 +183,8 @@ Skype 的业务服务器 2015年不支持就地升级的 Survivable Branch Appli
 ## <a name="see-also"></a>另请参阅
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
 
-#### 
-
 [升级到业务服务器 2015 Skype](../deploy/upgrade-to-skype-for-business-server.md)
   
 [Skype for Business Server 2015 环境要求](requirements-for-your-environment/environmental-requirements.md)
   
 [Skype for Business Server 2015 服务器要求](requirements-for-your-environment/server-requirements.md)
-

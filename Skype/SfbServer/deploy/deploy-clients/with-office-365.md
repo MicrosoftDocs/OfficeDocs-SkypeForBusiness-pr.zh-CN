@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读此主题以获取如何部署与 Office 365 的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: ac6cbd53f16fb9fe07e24ef288eddbc5acca1b00
-ms.sourcegitcommit: 5e094591704e27d9d802ff86c1ada6d775ab783a
+ms.openlocfilehash: 8226ee1f7ca91176380d9db8404487c076ac4135
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19502029"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>将 Skype 会议室系统 v2 与 Office 365 一起部署 
  
@@ -179,8 +180,6 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 > 这将添加 CloudPBX 和 PSTNCallingDomesticAndInternational。此外，还需要使用管理界面来指定电话号码。 
   
 ## <a name="see-also"></a>另请参阅
-
-#### 
 
 [规划 Skype 会议室系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   

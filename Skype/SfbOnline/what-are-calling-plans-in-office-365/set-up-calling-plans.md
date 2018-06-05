@@ -21,11 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 7ba6ade1e18dd17716a6669d6a97c3150a97a03a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 104b682ebf7b28b09e7f44c75d37cf2874e34c47
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500965"
 ---
 # <a name="set-up-calling-plans"></a>设置呼叫计划
 适用于业务用户的其他 Skype 调用是免费的但如果您希望用户能够调用您的公司外部的电话得到国内调用规划或国际呼叫规划 Office 365 中。 很容易地设置此功能您的业务。 
@@ -44,7 +45,7 @@ ms.lasthandoff: 05/03/2018
 ## <a name="step-3-get-phone-numbers"></a>步骤 3： 获取电话号码
 有三种方法，以获得新的用户数：
 
-- **Skype 用于业务管理中心。** 某些国家/地区内，您可以获取用户使用 Skype 业务管理中心的号码，请参阅[为您的用户获取 e 电话号码。](getting-phone-numbers-for-your-users.md)。
+- **Skype 用于业务管理中心。** 某些国家/地区内，您可以获取用户使用 Skype 业务管理中心的号码，请参阅[为用户获取电话号码](getting-phone-numbers-for-your-users.md)。
     
 - **端口您现有的号码。** 您可以端口或将现有号码从您的当前服务提供商或电话运营商转移到 Office 365。 请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)或[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)的详细信息，可帮助您执行此操作。  
   
@@ -53,20 +54,36 @@ ms.lasthandoff: 05/03/2018
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>步骤 4： 添加紧急地址和为您的组织的位置
 <a name="bkmk_add_addresses"></a>的紧急地址必须与电话号码; 相关联此关联发生的情况可能会因国家和地区。 例如，美国，您需要时向用户分配的电话号码关联的紧急地址。 在英国，您需要从 Office 365 中获取的电话号码或从您当前的服务提供商转接电话号码时关联到电话号码的紧急地址。 
 
-若要添加您的组织的紧急地址，在业务管理中心的 Skype 转到**语音** > **紧急位置** > **添加新地址**。 有关详细信息，请参阅[添加或删除和紧急地址为您的组织](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)。
+**若要添加您的组织的紧急地址**
 
-若要添加您的组织的紧急位置业务管理中心的 Skype 中，转到**语音** > **紧急位置** > **添加新地址**。 有关详细信息，请参阅[添加、 更改或删除您的组织的紧急位置](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)。
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+
+在业务管理中心的 Skype，转到**语音** > **紧急位置** > **添加新地址**。 有关详细信息，请参阅[添加或删除和紧急地址为您的组织](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)。
+
+**若要添加您的组织的紧急位置** 
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+
+在业务管理中心的 Skype，转到**语音** > **紧急位置** > **添加新地址**。 有关详细信息，请参阅[添加、 更改或删除您的组织的紧急位置](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)。
 
     
 ## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>步骤 5： 将紧急地址和电话号码分配给用户
 <a name="bkmk_add_addresses"></a>时要设置调用计划在 Office 365 中，您必须为每个用户分配电话号码和紧急地址。 必须先创建紧急地址，然后才能将其与电话号码关联。 
 
-若要在业务管理中心的 Skype 中添加用户的紧急地址，请转到**语音** > **语音用户** > **紧急位置** > **分配号** > **更改位置**。 有关详细信息，请参阅[分配或更改用户的紧急地址](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)。
+**若要添加的用户的紧急地址** 
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+
+在业务管理中心的 Skype，转到**语音** > **语音用户** > **紧急位置** > **分配号** > **更改位置**。 有关详细信息，请参阅[分配或更改用户的紧急地址](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)。
 
    > [!NOTE]
    > 分配电话号码时，还可以分配一个紧急地址。
 
-要将电话号码分配给业务管理中心中，为 Skype 中的用户，请转到**语音** > **语音用户** > **分配号** > **更改位置**。 有关详细信息，请参阅[分配、 更改或删除的用户的电话号码](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)。
+**若要分配给用户的电话号码**
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+
+在业务管理中心的 Skype，转到**语音** > **语音用户** > **分配号** > **更改位置**。 有关详细信息，请参阅[分配、 更改或删除的用户的电话号码](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)。
 
 ## <a name="step-6-tell-your-users-about-their-new-phone-numbers"></a>步骤 6： 告知用户有关其新的电话号码
 <a name="bkmk_add_addresses"> </a>

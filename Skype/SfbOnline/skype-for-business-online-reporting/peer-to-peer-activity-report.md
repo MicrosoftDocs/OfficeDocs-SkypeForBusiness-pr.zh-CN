@@ -20,17 +20,18 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 96878a2deb9a75ab0c927c2e1cd2c9e4dd34c2bd
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 7303a87d263148f091d6cd2f1b44d79a4b9c0ae8
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500507"
 ---
 # <a name="peer-to-peer-activity-report"></a>对等活动报告
 
 全新的 Office 365" **报告**"仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，可以使用**业务对等活动的 Skype**报告以查看您的用户使用 IM、 音频、 视频、 应用程序共享和文件传输的多少。 
 
-签出[报告概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+签出[报告概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)。
   
 此报告中的，以及其他 Skype 业务报告为您提供了详细信息活动在整个组织。 当你为组织进行调查、规划及执行其他业务决策时，这些详细信息非常有用。 
   
@@ -57,8 +58,9 @@ ms.lasthandoff: 05/09/2018
 ***
 ![1 号](../images/sfbcallout1.png)<br/>可以查看" **Skype for Business 对等活动**"报告以了解过去 7 天、30 天、90 天或 180 天的趋势。 但是，如果您单击到报告中某一天，表 （请参阅 7 号） 将显示数据 30 天，最多为日期 （请参阅编号 2） 的报告生成的时间。
 
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> 如果您单击到特定日期的详细信息，表将仅显示报告生成的时间的日期最 30 天内的数据。
+
 ***
 ![2 号](../images/sfbcallout2.png)<br/>每个报表包含此报表的生成日期。 报表通常反映活动的时间从 24 到 48 小时延迟。 
 ***

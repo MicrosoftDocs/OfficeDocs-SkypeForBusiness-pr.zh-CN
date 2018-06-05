@@ -14,15 +14,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 摘要： 为业务服务器 2015年实现 Skype 之前查看下面的网络组件注意事项。
-ms.openlocfilehash: 64c1a42ba1ed5003f60ea6bad31adabb611e077f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: cd3d1650903e1615fdaca309be1e8070624fd7b0
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19505060"
 ---
 # <a name="plan-network-requirements-for-skype-for-business-2015"></a>规划 Skype for Business 2015 的网络要求
  
-**摘要：**为业务服务器 2015年实现 Skype 之前查看下面的网络组件注意事项。
+**摘要：** 为业务服务器 2015年实现 Skype 之前查看下面的网络组件注意事项。
   
 在[网络规划、 监控设备以及与 Lync Server 疑难解答](https://www.microsoft.com/en-us/download/details.aspx?id=39084)的其他详细信息和深度白皮书还讨论这些主题中的信息。 而内容是指显式 Lync 2010 和 Lync 2013，业务服务器 2015年的注意事项的 Skype 保持不变。
   
@@ -225,7 +226,7 @@ Skype 业务服务器支持多个解决方案。 这将允许 Skype 业务服务
 服务质量 (QoS) 是某些组织中所使用的一种网络技术，目的是有助于针对音频和视频通信提供最佳的最终用户体验。QoS 最常用于带宽有限的网络上：其中大量的网络数据包争用相对数量较小的可用带宽。QoS 允许管理员为承载音频或视频数据的数据包分配较高的优先级。通过为这些数据包提供较高的优先级，与涉及诸如文件传输、Web 浏览或数据库备份等内容的网络会话相比，音频和视频通信可能会以更快的速度完成，并且发生更少的中断。这是因为针对用于文件传输或数据库备份的网络数据包分配了“最佳效果”优先级。
   
 > [!NOTE]
-> 一般而言，QoS 仅适用于内部网络上的通信会话。在实施 QoS 时，您将服务器和路由器配置为支持数据包标记，但 Internet 或其他网络上可能不支持您所使用的特定方式。即使在其他网络上支持服务质量，也不能保证以您配置服务的相同方式来配置 QoS。如果您使用 MPLS，则需要与您的 MPLS 提供商合作。 
+> 一般而言，QoS 仅适用于内部网络上的通信会话。 在实施 QoS 时，您将服务器和路由器配置为支持数据包标记，但 Internet 或其他网络上可能不支持您所使用的特定方式。 即使其他网络支持的服务质量，没有将完全相同的方式配置该服务中配置 QoS 不做任何担保。 如果您使用 MPLS，则需要与您的 MPLS 提供商合作。 
   
 Skype 业务服务器不需要 QoS，但强烈建议。 如果遇到网络上的数据包丢失问题提供解决方案是要添加更多的带宽或实现 QoS。 如果无法增加带宽，则实施 QoS 可能是您解决该问题的唯一办法。
   
@@ -255,8 +256,6 @@ Skype 业务服务器提供完全支持的 QoS:，意味着已在使用 QoS 的�
 ## <a name="see-also"></a>另请参阅
 <a name="man_QOS"> </a>
 
-#### 
-
 [规划 Skype 中的 IPv6 for Business](ipv6.md)
   
 [负载平衡的 Skype 的业务要求](load-balancing.md)
@@ -264,4 +263,3 @@ Skype 业务服务器提供完全支持的 QoS:，意味着已在使用 QoS 的�
 [For Business Server 2015 Skype 的 DNS 要求](dns.md)
   
 [服务器的端口和协议要求](ports-and-protocols.md)
-

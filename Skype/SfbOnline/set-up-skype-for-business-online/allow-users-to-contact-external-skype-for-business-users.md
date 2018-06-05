@@ -25,11 +25,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: 59ef459db2af5fe42c7a84fbef2d2a09b70ee783
-ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
+ms.openlocfilehash: d8cac3838550530666c2e7550c616a0b77cfd820
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500680"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>允许用户联系外部 Skype for Business 用户
 
@@ -48,6 +49,8 @@ ms.lasthandoff: 04/27/2018
 <a name="bk_preview"> </a>
 
 在这两个组织为此，您必须在 Office 365 中具有[管理员权限](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
   
 1. 使用 Office 365 管理员帐户登录。 
     
@@ -67,7 +70,7 @@ ms.lasthandoff: 04/27/2018
     
 7. 如果你使用的是 Windows 防火墙，Skype for Business 将自动打开所需端口。
     
-    If your organization is using a different firewall solution to restrict computers on your network from connecting to the Internet, ensure your client computers are able to access the following [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges). 这可能需要添加到出站的 Fqdn 允许在防火墙或代理的列表基础结构配置： ** \*。 api.skype.com**， \* **。 users.storage.live.com**，和**graph.skype.com**。有关如何在防火墙中打开这些端口上的说明，检查与其附带的文档。
+    If your organization is using a different firewall solution to restrict computers on your network from connecting to the Internet, ensure your client computers are able to access the following [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges). 这可能需要添加到出站的 Fqdn 允许在防火墙或代理的列表基础结构配置： ** \*。 api.skype.com**， \* **。 users.storage.live.com**，和**graph.skype.com**。 有关如何在防火墙中打开这些端口上的说明，检查与其附带的文档。
     
     您需要打开的所有端口的列表，请参阅[Office 365 Url 和 IP 地址范围](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)。
 
@@ -97,7 +100,7 @@ ms.lasthandoff: 04/27/2018
 ## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>在与其他企业连接时如何查找其他人以及如何被找到
 <a name="bk_preview"> </a>
 
-您的用户启用与其他 Skype 业务用户的外部通信后，可以通过搜索其登录名为企业用户查找联盟的 Skype： 例如，Rob@contoso.com。然后他们将需要将此人添加到他们的联系人列表。
+您的用户启用与其他 Skype 业务用户的外部通信后，可以通过搜索其登录名为企业用户查找联盟的 Skype： 例如，Rob@contoso.com。 然后他们将需要将此人添加到他们的联系人列表。
   
 ![若要联合的商业中查找用户，您必须搜索其电子邮件地址 （这通常也是其登录名）。](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
   

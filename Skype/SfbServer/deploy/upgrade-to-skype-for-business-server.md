@@ -14,15 +14,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 摘要： 了解如何从 Lync Server 2013 升级到 Skype 的业务服务器 2015年。 下载免费试用版 Skype 业务服务器 2015 从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: 0c869527fe9e07187149b63ed3c360b0290c8a87
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 36d692788e84c0e7f136d947d7c3b2709b490b9f
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501075"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>升级到 Skype for Business Server 2015
  
-**摘要：**了解如何从 Lync Server 2013 升级到 Skype 的业务服务器 2015年。 下载[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)中的业务服务器 2015 Skype 的免费试用版。
+**摘要：** 了解如何从 Lync Server 2013 升级到 Skype 的业务服务器 2015年。 下载[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)中的业务服务器 2015 Skype 的免费试用版。
   
 使用本文档中的过程以从 Lync Server 2013 使用升级到 Skype 的业务服务器 2015年 Skype 业务 Server 拓扑生成器和就地升级的新功能。 如果您想要从 Lync Server 2010 或 Office Communications Server 2007 R2 升级，请参阅[计划升级到业务服务器 2015年的 Skype](../plan-your-deployment/upgrade.md)。
   
@@ -236,8 +237,6 @@ Disable-CsComputer -Scorch
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [Plan to upgrade to Skype 的业务服务器 2015](../plan-your-deployment/upgrade.md)
   
 [Skype for Business Server 2015 服务器要求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
@@ -245,4 +244,3 @@ Disable-CsComputer -Scorch
 [安装 Business Server 2015 Skype 的先决条件](install/install-prerequisites.md)
   
 [安装 Business 服务器 2015 Skype](install/install.md)
-

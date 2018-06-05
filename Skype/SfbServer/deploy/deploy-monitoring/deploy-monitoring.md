@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 摘要： 了解如何部署监控中 Skype 业务服务器 2015年。
-ms.openlocfilehash: a25165add0ca6f9acd08e77efeda42cf7a8819ef
-ms.sourcegitcommit: 4eae947e339e728e5e1f338677860b910aafc029
+ms.openlocfilehash: 8f96fa2b240bc41e83de8e618114d948127c6c55
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19502015"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中部署监控
  
@@ -95,7 +96,5 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
 您已看到，上面的示例在全局范围启用监控；即，它们在贵组织内启用 CDR 和 QoE 监控。 您也可以在站点范围创建单独的 CDR 和 QoE 配置设置，然后有选择地为每个站点启用或禁用监控。 例如，可以为您的 Redmond 站点启用 CDR 监控，而为您的 Dublin 站点禁用 CDR 监控。 管理监控配置设置的详细信息，请参阅部署指南的主题[配置呼叫详细信息记录和 Skype 的业务服务器 2015年中的用户体验质量设置](call-detail-recording-and-qoe.md)。
   
 ## <a name="see-also"></a>另请参阅
-
-#### 
 
 [规划业务服务器 2015 Skype 中监控](../../plan-your-deployment/monitoring.md)

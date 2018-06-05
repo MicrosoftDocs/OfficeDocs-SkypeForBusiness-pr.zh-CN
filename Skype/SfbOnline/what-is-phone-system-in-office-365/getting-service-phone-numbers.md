@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 除了从 Office 365 用户获取电话号码，您可以搜索并获取收费电话或音频会议 （会议网桥）、 自动助理等呼叫队列 （也称为服务号码） 服务的免费电话号码。 服务电话号码具有比用户或订阅者电话号码更高的并发呼叫容量。
-ms.openlocfilehash: 9a7761ca39295ef36531f74b835d9e0dbd498d51
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 78bb84b60e6c7b4632e8eef84e2b6dc057af136e
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500724"
 ---
 # <a name="getting-service-phone-numbers"></a>获取服务电话号码
 
@@ -43,6 +44,8 @@ ms.lasthandoff: 05/03/2018
     > 当您传输服务号码时，强烈建议您联系[Microsoft 支持](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)以确保较高的并发呼叫容量是视为并正确配置。
   
 ## <a name="get-new-service-numbers"></a>获取新服务号码
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
@@ -82,7 +85,7 @@ ms.lasthandoff: 05/03/2018
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 
   
 ## <a name="related-topics"></a>相关主题
-[下面是 Office 365 中的电话系统的功能](here-s-what-you-get-with-phone-system.md)
+[Office 365 中的电话系统的功能](here-s-what-you-get-with-phone-system.md)
 
 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

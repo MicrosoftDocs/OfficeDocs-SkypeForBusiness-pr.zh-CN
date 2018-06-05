@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: 了解有关在 Skype 的 SIP 中继的业务 Server 企业语音
-ms.openlocfilehash: 39300bfd518729cf99e41accfc64412bbcf4afb4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 01f8401f6573220c8995df99f863bfd95a08ffb8
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504101"
 ---
 # <a name="sip-trunking-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 SIP 中继
  
@@ -182,7 +183,4 @@ SIP 中继连接的服务提供商端的实现方式因 ITSP 而异。 有关部
     
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [中的业务服务器 2015 Skype 的分支站点 SIP 中继](branch-site.md)
-

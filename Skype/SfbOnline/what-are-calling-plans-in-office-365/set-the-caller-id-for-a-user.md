@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Office 365 中的电话系统提供的默认呼叫者 ID 的用户的分配的电话号码。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 您可以了解有关如何使用您的组织中的呼叫者 ID，转如何可以呼叫者 ID 是您组织中使用的详细信息。
-ms.openlocfilehash: 8e1ba6806ea48b0a33e70b0dcc21dfdece8e52a8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a48edfd6f0b6967f1f9c628b415f781b8c4832c7
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500850"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>为用户设置来电显示
 Office 365 中的电话系统提供的默认呼叫者 ID 的用户的分配的电话号码。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 您可以了解有关如何使用您的组织中的呼叫者 ID，转[如何可以呼叫者 ID 是您组织中使用](how-can-caller-id-be-used-in-your-organization.md)的详细信息。
@@ -160,7 +161,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
 
-- 对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -181,7 +182,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 
 [管理你的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[有关调用行 ID 和呼叫方姓名的详细信息](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
+[更多关于呼叫线路 ID 和主叫方名称的信息](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 
 [紧急呼叫条款和条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 

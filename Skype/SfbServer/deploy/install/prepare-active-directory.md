@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 摘要： 了解如何为业务服务器 2015 Skype 安装准备 Active Directory 域。 下载免费试用版 Skype 业务服务器 2015 从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: 6dfd6452e2ff0296fdeb90bd4f81296efac2be62
-ms.sourcegitcommit: 4eae947e339e728e5e1f338677860b910aafc029
+ms.openlocfilehash: 0e031cc16bef00fc7b1ca8c2bd910fd0d36d5dde
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500989"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server-2015"></a>为 Skype for Business Server 2015 准备 Active Directory
  
@@ -175,6 +176,5 @@ ms.lasthandoff: 05/24/2018
   
 
 ## <a name="see-also"></a>另请参阅
-
-#### 
+ 
 [业务服务器 2015 Skype 的的 active Directory 域服务](../../plan-your-deployment/security/active-directory-domain-services.md)

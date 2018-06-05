@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文讨论如何在使用 Microsoft 操作管理套件集成的端到端方式中部署的 Skype 会议室系统 v2 设备管理。
-ms.openlocfilehash: 7d8dc8a7e7f5a74c68fbc7bf5ecb98664c2b02ad
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+ms.openlocfilehash: b0e43360b92b2ac8fdc32794a03942ec5c7755dc
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501030"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>使用 OMS 部署 Skype 会议室系统 v2 管理
  
@@ -495,7 +496,6 @@ ms.lasthandoff: 05/21/2018
 
 ## <a name="see-also"></a>另请参阅
 
-#### 
 [规划使用 OMS 的 Skype 会议室系统 v2 管理](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
 [管理与 OMS 的 Skype 会议室系统 v2 设备](../../manage/skype-room-systems-v2/oms.md)

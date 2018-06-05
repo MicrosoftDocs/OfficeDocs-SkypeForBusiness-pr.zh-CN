@@ -18,11 +18,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: ed65aaed214a35b961c9c13c0d789a224e41258f
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 7917920c0eeaf5b5e0c1f31ee4eca9bafed10c85
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500778"
 ---
 # <a name="conference-organizer-activity-report"></a>会议组织者活动报告
 
@@ -55,8 +56,9 @@ ms.lasthandoff: 05/09/2018
 ***
 ![1 号](../images/sfbcallout1.png)<br/>可以查看" **Skype for Business 会议组织者活动**"报告以了解过去 7 天、30 天、90 天或 180 天的趋势。 但是，如果您单击到报告中某一天，表 （请参阅 7 号） 将显示数据 30 天，最多为日期 （请参阅编号 2） 的报告生成的时间。
 
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> 如果您单击到特定日期的详细信息，表将仅显示报告生成的时间的日期最 30 天内的数据。
+
 ***
 ![2 号](../images/sfbcallout2.png)<br/>每个报表包含此报表的生成日期。 报表通常反映活动的时间从 24 到 48 小时延迟。 
 ***
@@ -79,7 +81,9 @@ ms.lasthandoff: 05/09/2018
 ![8 号](../images/sfbcallout8.png)<br/>该表格显示了每个用户组织的会议活动的细分。它将显示分配了 Skype for Business 的所有用户及其组织的会议。你可以向该表格中添加其他列。 
 *    " **用户名**"是用户的名称。 
 *    " **已删除**"表示用户的许可证已删除。<br/><br/>
-     **注意：** 只要他或她已授权的过程选定的时间段中的某个时间，已删除的用户的活动仍会显示在报表中。 The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.<br/> <br/>
+    > [!NOTE]
+    > 只要他或她已授权的过程选定的时间段中的某个时间，已删除的用户的活动仍会显示在报表中。 The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
+     
 *    **Deleted date** is the date on which the user's license was removed. 
 *    " **上次活动日期(UTC)**"是该用户的上次活动日期 (UTC)。 
 *    " **即时消息**"显示组织的即时消息会议的总数。 

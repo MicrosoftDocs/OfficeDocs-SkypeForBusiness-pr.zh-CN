@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: 了解网络区域、网络站点和 IP 子网。 所有这些必须配置为媒体绕过中的业务 2015，Skype 部署计划规划呼叫允许控制 Skype 中的业务服务器 2015年），或计划在 Skype 的紧急服务的 Skype 中的业务服务器 2015年业务 Server 企业语音。
-ms.openlocfilehash: c08ac0a4e5f93c15cc3bfa43bd622381017118be
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e76c88df482dfd5e58d6c0e11449eb6f6242b796
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504094"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中高级企业语音功能的网络设置
  
@@ -69,11 +70,8 @@ CAC 要求每个网络区域具有关联的 Skype 业务 Server 管理中心网�
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [规划呼叫允许控制 Skype 中的业务服务器 2015](call-admission-control.md)
   
 [规划紧急服务中 Skype 业务服务器 2015](emergency-services.md)
   
 [规划媒体绕过中的业务 2015 Skype](media-bypass.md)
-

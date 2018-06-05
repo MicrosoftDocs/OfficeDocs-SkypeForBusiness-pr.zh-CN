@@ -12,11 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置 Skype 会议室系统 v2 控制台设备及其外围设备。
-ms.openlocfilehash: 96fb2a88d699ca364f02f24af58d2f17dc555e11
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+ms.openlocfilehash: eed37791c73b2deeb9e5f0605dbf1265d9a1d02d
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501023"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>配置 Skype 会议室系统 v2 控制台
  
@@ -236,8 +237,6 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_Syste
 ## <a name="see-also"></a>另请参阅
 <a name="Checklist"> </a>
 
-#### 
-
 [规划 Skype 会议室系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [部署 Skype 会议室系统 v2](room-systems-v2.md)
@@ -245,4 +244,3 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_Syste
 [配置 Skype 会议室系统 v2 控制台](console.md)
   
 [管理 Skype 会议室系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-

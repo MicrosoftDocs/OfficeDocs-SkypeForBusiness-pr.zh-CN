@@ -18,11 +18,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 36aef8125e27d4d327b5d6f279a9cd711af3e490
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: e629a03a26542d14b2186b27a9fb4d44e7bdaf3e
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500656"
 ---
 # <a name="conference-participant-activity-report"></a>会议参与者活动报告
 
@@ -52,15 +53,15 @@ ms.lasthandoff: 05/09/2018
   
 ***
 ![1 号](../images/sfbcallout1.png)<br/>可以查看" **Skype for Business 会议参与者活动**"报告以了解过去 7 天、30 天、90 天或 180 天的趋势。 但是，如果您单击到报告中某一天，表 （请参阅 7 号） 将显示数据 30 天，最多为日期 （请参阅编号 2） 的报告生成的时间。
-
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> 如果您单击到特定日期的详细信息，表将仅显示报告生成的时间的日期最 30 天内的数据。
+     
 ***
 ![2 号](../images/sfbcallout2.png)<br/>每个报表包含此报表的生成日期。 报表通常反映活动的时间从 24 到 48 小时延迟。 
 ***
-![3 号](../images/sfbcallout3.png)<br/>使用" **活动**"图表上的交互式图表数据可了解使用趋势并查看组织中用户参与的会议总数和正在召开的会议类型。它将显示整个组织中有人参与的 **即时消息**、 **音频/视频**、 **应用程序共享**、 **Web** 和 **拨入/拨出（第三方）**会议的总数和类型。
+![3 号](../images/sfbcallout3.png)<br/>使用" **活动**"图表上的交互式图表数据可了解使用趋势并查看组织中用户参与的会议总数和正在召开的会议类型。它将显示整个组织中有人参与的 **即时消息**、 **音频/视频**、 **应用程序共享**、 **Web** 和 **拨入/拨出（第三方）** 会议的总数和类型。
 ***
-![4 号](../images/sfbcallout4.png)<br/>使用" **用户**"图表上的交互式图表数据可了解使用趋势并查看参与组织中正在举行的会议的单独用户数。它将显示用户总数以及所组织的 **即时消息**、 **音频/视频**、 **应用程序共享**、 **Web** 和 **拨入/拨出（第三方）**会议的类型。
+![4 号](../images/sfbcallout4.png)<br/>使用" **用户**"图表上的交互式图表数据可了解使用趋势并查看参与组织中正在举行的会议的单独用户数。它将显示用户总数以及所组织的 **即时消息**、 **音频/视频**、 **应用程序共享**、 **Web** 和 **拨入/拨出（第三方）** 会议的类型。
 ***
 ![5 号](../images/sfbcallout5.png)<br/>若要了解使用率趋势以及查看他们所组织的会议使用音频/视频，以及电话拨入式和拨出的 Microsoft 作为其音频会议时，用户所使用的分钟数**分钟**图表上使用的交互式图表数据提供程序。 它将显示在有人参与的会议中使用的 **音频/视频**总分钟数。
 ***

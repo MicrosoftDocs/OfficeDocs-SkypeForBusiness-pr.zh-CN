@@ -14,15 +14,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 摘要： 创建或修改语音策略和使用适用于业务 Server Control Panel Skype 配置 PSTN 用法记录。
-ms.openlocfilehash: fc1d60cb66dd0cf73c63b9896f153bb83c8fec24
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 69904c28d8121cd8416b547e17fcad866260a319
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501047"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business-2015"></a>在 Skype for Business 2015 中创建或修改语音策略和配置 PSTN 使用记录
  
-**摘要：**创建或修改语音策略和配置 PSTN 用法记录使用 Skype 业务 Server Control Panel。
+**摘要：** 创建或修改语音策略和配置 PSTN 用法记录使用 Skype 业务 Server Control Panel。
   
 > [!NOTE]
 > 每个语音策略必须至少具有一条关联的公用电话交换网 (PSTN) 用法记录。 若要查看所有 PSTN 用法记录企业语音部署中可用，并查看其属性，请都参阅[查看 PSTN 用法记录中的业务 2015 Skype](view-pstn-usage-records.md)。 
@@ -335,8 +336,6 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [查看 PSTN 用法记录中的业务 2015 Skype](view-pstn-usage-records.md)
   
 [创建或修改语音路由中的业务 2015 Skype](create-or-modify-a-voice-route.md)
@@ -344,4 +343,3 @@ ms.lasthandoff: 05/03/2018
 [挂起更改语音路由配置中的业务 2015 Skype 的发布](voice-route-config-changes.md)
   
 [配置中的业务 2015 Skype 的语音邮件转义](configure-voice-mail-escape.md)
-

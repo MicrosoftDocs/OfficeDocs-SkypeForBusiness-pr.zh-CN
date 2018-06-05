@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 摘要： 查看有关如何为业务服务器 2015 2016 Exchange 服务器或 Exchange Server 2013 中集成 Skype 本主题。
-ms.openlocfilehash: 3c71509fc05ecabdf34f1d6ce8ec4f1a7af523be
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 2534cd1d2b3bd02998beb2034c704259b6b14c49
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19505116"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>计划集成 Skype for Business 和 Exchange
  
@@ -112,8 +113,6 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 ## <a name="see-also"></a>另请参阅
 <a name="feature_support"> </a>
 
-#### 
-
 [配置业务服务器 2015年的内部部署 Skype 和 Outlook Web App 之间的集成](../../deploy/integrate-with-exchange-server/outlook-web-app.md)
   
 [在本地配置 Skype 业务 online 和 Exchange 之间的 OAuth](../../deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md)
@@ -123,4 +122,3 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 [如何将 Exchange Server 2013 与 Lync Server 2013、 Skype 业务 online 或 Lync Server 2013 混合部署](https://go.microsoft.com/fwlink/p/?LinkId=746494)
   
 [在 Skype for Business Server 2015 和 Microsoft Exchange Server 中配置合作伙伴应用程序](https://go.microsoft.com/fwlink/p/?LinkId=746495)
-

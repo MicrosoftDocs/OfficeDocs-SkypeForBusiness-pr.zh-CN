@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何设置和测试高效处理您的组织的呼叫的电话系统 (云 PBX) 自动助理。 '
-ms.openlocfilehash: dae8dc68162944f6547615626d5e94912a99caf2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 255b93c40419eaf10994b42de214d4495cd09b6a
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501106"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>设置电话系统自动助理
 
@@ -46,6 +47,9 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>第 2 步 - 创建新的自动助理
 
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+
+
 In the **Skype for Business admin center**, click **Call routing** > **Auto attendants**, then click **Add new**:
   
 ### <a name="edit-general-info-page"></a>"编辑常规信息"页面
@@ -58,8 +62,9 @@ In the **Skype for Business admin center**, click **Call routing** > **Auto atte
 
 ![2 号](../images/sfbcallout2.png)<br/>**电话号码**此设置是可选的。 如果您愿意，选择一个电话号码自动助理。 您可以选择任何可用的服务或已为您的组织的免费电话号码。 如果没有列出任何电话号码，则需要获取收费或免费服务电话号码。 转[此处](getting-service-phone-numbers.md)来获取它们。 <br/> <br/>
 
-    > [!Note]
-    > **User (subscriber)** numbers can't be assigned to auto attendants.
+> [!NOTE]
+> **User (subscriber)** numbers can't be assigned to auto attendants.
+    
 ***
 ![3 号](../images/sfbcallout3.png)<br/>**时区** 必须为自动助理设置时区，但是此时区无需与组织的主要地址所在的时区对应。每个自动助理可以有不同的时区，为自动助理设置的营业时间将根据你在此处选择的时区进行设置。
 ***
@@ -115,13 +120,17 @@ In the **Skype for Business admin center**, click **Call routing** > **Auto atte
 ***
 ![3 号](../images/sfbcallout3.png)<br/>**菜单提示** 要创建主菜单提示，可以使用文本到语音转换或上载音频文件（.wav, .mp3 或 .wma）。可以在 **呼叫者将听到**框中输入提示或录制音频文件并播报，例如"如需销售，请按或报 1。如需服务，请按或报 2。如需客户支持，请按或报 3。如需接线员，请按或报 0。如需重听此菜单，请按星号键或报'重复'。" **创建自定义提示** 如果选择此选项，应输入希望系统播报的文本（最多 1000 个字符）。 **上载音频文件** 如果选择此选项，则需要录制问候语并上载音频文件（.wav, .mp3 或 .wma 格式）。
 ***
-![4 号](../images/sfbcallout4.png)<br/>**按名称拨号**如果您选择此选项，这将使呼叫中的组织使用目录搜索中的人员搜索的人员。 You can select which people will be listed as available or not available for Dial by Name by setting up those options on the **Dial scope** page. 任何联机用户与**电话系统**许可证或任何用户承载的本地业务服务器 2015年或 Lync Server 2013 中使用 Skype 可以找到与拨号的名称。<br/><br/>  **注意：**用户托管在本地与按名称拨号使用 Lync 2010**无法联系**。
+![4 号](../images/sfbcallout4.png)<br/>**按名称拨号**如果您选择此选项，这将使呼叫中的组织使用目录搜索中的人员搜索的人员。 You can select which people will be listed as available or not available for Dial by Name by setting up those options on the **Dial scope** page. 任何联机用户与**电话系统**许可证或任何用户承载的本地业务服务器 2015年或 Lync Server 2013 中使用 Skype 可以找到与拨号的名称。<br/><br/>  
+
+> [!WARNING]
+> 用户托管在本地与按名称拨号使用 Lync 2010**无法联系**。
 ***
 
-![5 号](../images/sfbcallout5.png)<br/>**Edit menu options** Menu options can be added or removed by using key buttons on the keypad. To add a menu option, press the corresponding key on the keypad. The keys in use will change in color and the corresponding row of options will appear below. 若要删除的菜单选项，只需单击键盘控件以取消选择此项上的相应项。 将删除的键映射行。<br/><br/>  **提示：**您将需要更新菜单提示文本或重新添加到删除选项，因为它不会自动完成的现有菜单提示时单独录制音频。  <br/><br/>  任何菜单选项可以添加和删除任何顺序和关键映射不必是连续的。 很有可能，例如，使用键 0、 1 和 3 时不使用项 2 映射到选项，创建一个菜单。<br/><br/> 
+![5 号](../images/sfbcallout5.png)<br/>**Edit menu options** Menu options can be added or removed by using key buttons on the keypad. To add a menu option, press the corresponding key on the keypad. The keys in use will change in color and the corresponding row of options will appear below. 若要删除的菜单选项，只需单击键盘控件以取消选择此项上的相应项。 将删除的键映射行。<br/><br/>  **提示：** 您将需要更新菜单提示文本或重新添加到删除选项，因为它不会自动完成的现有菜单提示时单独录制音频。  <br/><br/>  任何菜单选项可以添加和删除任何顺序和关键映射不必是连续的。 很有可能，例如，使用键 0、 1 和 3 时不使用项 2 映射到选项，创建一个菜单。<br/><br/> 
 
-    > [!Note] 
-    > The keys * (Repeat) and # (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing * will correspond with "Repeat" and # will correspond with the "Back" voice commands. <br/><br/>
+> [!NOTE]
+> 注册表项 * （时可重复） # （后） 是由系统保留和不能重新分配。 如果已启用语音识别，按 * 将"重复"与对应和 # 将对应的"后退"语音命令。
+
 
 若要设置您菜单选项中，选择将密钥后，您将需要： 
 - **输入的选项名称**此地址可以是最多为 64 个字符，并且可以包含多个单词，如"客户服务"或"操作和可能导致。" 如果已启用语音识别，将自动识别名称，并呼叫的人将能够按 3、 说"3，"或者说"客户服务"，选择映射到 3 键选项。 
@@ -231,7 +240,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Auto atte
    
 ### <a name="more-about-windows-powershell"></a>有关 Windows PowerShell 的详细信息
 
-- 对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -246,7 +255,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Auto atte
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
 
 ## <a name="related-topics"></a>相关主题
-[下面是 Office 365 中的电话系统的功能](here-s-what-you-get-with-phone-system.md)
+[Office 365 中的电话系统的功能](here-s-what-you-get-with-phone-system.md)
 
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](getting-service-phone-numbers.md)
 

@@ -14,15 +14,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 摘要： 为业务服务器 2015 Skype 选择您的拓扑。 了解有关的 Skype 的业务服务器 2015年的服务器并置。
-ms.openlocfilehash: aec5cc781e571361f80b84fafd9d101dd8a97c19
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d7760ecc2998bdb2ace400cfaeec6eddaf5fcb5b
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504521"
 ---
 # <a name="topology-basics-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的拓扑基础知识
  
-**摘要：**为 Skype for Business Server 2015 选择拓扑。了解 Skype for Business Server 2015 的服务器并置。
+**摘要：** 为 Skype for Business Server 2015 选择拓扑。了解 Skype for Business Server 2015 的服务器并置。
   
 之前准备任何其他操作，您需要知道您的业务服务器 2015 Skype 的部署计划右拓扑。 如果您将对业务服务器 2015年拥有 Skype 的内部部署或您打算将这与在混合部署中的业务 Server 联机部署的 Skype 相结合的首先需要决定。 两种方法，您将需要进一步，阅读，我们将详细介绍在本地拓扑在这里，但混合详细信息记录在各自的部分。
   
@@ -283,7 +284,4 @@ Standard Edition server 具有以下角色并置在一起 （其他配置为需�
     
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [为业务服务器 2015 Skype 的参考拓扑](reference-topologies.md)
-
