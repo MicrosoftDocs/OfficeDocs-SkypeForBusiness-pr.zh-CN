@@ -14,15 +14,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 摘要： 查看的负载平衡的业务服务器 2015年实现 Skype 之前的考虑事项。
-ms.openlocfilehash: 5d5c1c58746fe9656a0eb123d211ed5b3f330063
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: dee231f9c50e8ad71ead0ad6b31ad20e00da1b7a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569489"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Skype for Business 的负载平衡要求
  
-**摘要：**查看的负载平衡的业务服务器 2015年实现 Skype 之前的考虑事项。
+**摘要：** 查看的负载平衡的业务服务器 2015年实现 Skype 之前的考虑事项。
   
 负载平衡分布在池中的服务器之间的流量。 如果您有前端池、 中介服务器池或边缘服务器池，需要部署负载平衡的这些池。
   
@@ -151,6 +152,12 @@ Skype 业务服务器支持的负载平衡的客户端到服务器的通信解�
 Skype 业务服务器启用 DNS 负载平衡，可以大幅降低负载平衡在您的网络管理开销的软件解决方案。 DNS 负载平衡平衡是唯一的 Skype 的企业服务器，例如 SIP 流量和媒体流量的网络流量。
   
 如果您部署 DNS 负载平衡，就可以最贵组织的管理开销的硬件负载平衡器。 此外，还可以免除解决 SIP 流量负载平衡器配置错误相关问题的复杂过程。 您还可以阻止服务器连接以使服务器脱机。 同时，DNS 负载平衡还可确保硬件负载平衡器问题不会影响 SIP 流量的元素，例如基本呼叫路由。
+
+下图显示了示例同时包含内部和外部 DNS 负载平衡： 
+  
+**使用公共 IPv4 地址边缘网络图**
+
+![DNS 网络图表示例](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
 与为所有类型的流量使用硬件负载平衡器相比，使用 DNS 负载平衡还可以降低您购买硬件负载平衡器的成本。 您应使用过去 Business Server 测试与 Skype 的互操作性认证的负载平衡器。 有关负载平衡器的互操作性测试的详细信息，请参阅[Lync Server 2010 负载平衡器合作伙伴](https://go.microsoft.com/fwlink/p/?linkId=202452)。 为业务 Server 适用于 Skype 中存在的内容。
   
@@ -160,7 +167,7 @@ Skype 业务服务器启用 DNS 负载平衡，可以大幅降低负载平衡在
   
 例如，如果名为 pool01.contoso.com 的池中有三台前端服务器，则会发生以下情形：
   
-- 运行 for Business 的 Skype 的客户端 DNS 查询 pool01.contoso.com。查询将返回三个 IP 地址，并将其缓存，如下所示 （不一定是按此顺序）：
+- 运行 for Business 的 Skype 的客户端 DNS 查询 pool01.contoso.com。 此查询将返回三个 IP 地址并将其按如下方式进行缓存（不需要按此顺序）：
     
     pool01.contoso.com 192.168.10.90
     

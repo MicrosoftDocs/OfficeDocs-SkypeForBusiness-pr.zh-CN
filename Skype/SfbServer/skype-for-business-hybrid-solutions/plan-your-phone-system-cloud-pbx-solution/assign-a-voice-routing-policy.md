@@ -16,15 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 摘要： 阅读本主题可了解如何分配 Office 365 中的电话系统使用内部部署 PSTN 连接的用户的语音策略。
-ms.openlocfilehash: 0699e4c4da94c680f86ec607950a1c3b42b5690a
-ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.openlocfilehash: 43d8939e6e0cd49f66234e127f05cb421700a15a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569496"
 ---
 # <a name="assign-a-voice-routing-policy"></a>分配语音路由策略
  
-**摘要：**阅读本主题可了解如何分配 Office 365 中的电话系统使用内部部署 PSTN 连接的用户的语音策略。 
+**摘要：** 阅读本主题可了解如何分配 Office 365 中的电话系统使用内部部署 PSTN 连接的用户的语音策略。 
   
 Skype 业务 Online 和 Office 365 中的电话系统使用内部部署 PSTN 连接上用户后，两个语音策略将应用于它们。 一个是在本地将分配给内部部署语音路由策略。 此策略可以是全局或特定于用户并定义与用户关联的 PSTN 用法记录。 本主题介绍了如何分配此策略。
   
@@ -51,14 +52,12 @@ Skype 业务 Online 和 Office 365 中的电话系统使用内部部署 PSTN 连
     
   ```
   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
-
   ```
 
     例如：
     
   ```
   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
-
   ```
 
 ## <a name="creating-a-new-voice-routing-policy"></a>创建新的语音路由策略
