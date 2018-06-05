@@ -9,18 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
-description: 摘要： 了解如何配置针无会议中 Skype 业务服务器 2015年的连接选项。
-ms.openlocfilehash: 6e9e26f856fec85b3f7436684d1b084eb3873ba9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何配置 PIN 小于会议加入业务服务器 2015年中 Skype 选项。
+ms.openlocfilehash: 375c008cd8cec072e9d2b71de1765756e4c0f881
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569339"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>在 Skype for Business Server 中配置无 PIN 会议加入
  
-**摘要：**了解如何配置针无会议中 Skype 业务服务器 2015年的连接选项。
+**摘要：** 了解如何配置 PIN 小于会议加入业务服务器 2015年中 Skype 选项。
   
-当拨入呼叫者尝试加入会议时，大会自动助理 (CAA) 服务在调用方控股笔不同的会议厅和 #x 2014;如果演示者已不在调用上，拨入呼叫者没有进入引线针。 无 PIN 会议加入选项使拨入呼叫方无需输入主持人 PIN 就能加入会议，即使他们是第一个从加入通话的人也是如此。 
+当电话拨入式呼叫者尝试加入会议时，会议自动助理 (CAA) 服务会将呼叫者放在不同从会议厅 #x 2014; 保持笔如果演示者已不在呼叫，请与电话拨入式呼叫者未进入主持人 PIN。 无 PIN 会议加入选项使拨入呼叫方无需输入主持人 PIN 就能加入会议，即使他们是第一个从加入通话的人也是如此。 
   
 配置此功能时，请记住以下几点：
   
@@ -38,11 +39,11 @@ ms.lasthandoff: 03/28/2018
     
   - **任何人（没有限制）和呼叫者可以直接参加**（这是默认设置。）
     
-- 当配置为启用无 PIN 加入时，CAA 服务仍会提示提供主持人 PIN。 无论是否输入 PIN，用户都可以加入会议。 但是，保留输入 PIN 的领导者的能力允许拨入呼叫者以领导者的身份验证和管理的会议，如有必要。
+- 当配置为启用无 PIN 加入时，CAA 服务仍会提示提供主持人 PIN。 无论是否输入 PIN，用户都可以加入会议。 但是，保留能够输入 PIN 主持人允许拨入呼叫者可以作为主持人身份验证和管理会议必要。
     
 ## <a name="configure-pin-less-meeting-join"></a>配置无 PIN 会议加入
 
-若要启用用户的 PIN 不太会议联接，使用[集 CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) cmdlet AllowAnonymousPstnActivation 参数，如下所示：
+若要为您的用户的 PIN 小于与会，请使用[Set-csdialinconferencingconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) cmdlet AllowAnonymousPstnActivation 参数，如下所示：
   
 ```
 Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -AllowAnonymousPstnActivation $True
@@ -52,16 +53,14 @@ Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -Al
   
 ```
 Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstnActivation $True
-
 ```
 
 为安全起见，当启用无 PIN 会议加入时，你可能需要通过确保 ConferencingPolicy 设置如下来限制匿名用户拨出：
   
 ```
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False
-
 ```
 
-有关详细信息，请参阅[设置 CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
+有关详细信息，请参阅[Set-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
   
 

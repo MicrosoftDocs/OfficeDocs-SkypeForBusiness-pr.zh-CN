@@ -1,5 +1,5 @@
 ---
-title: "在 Microsoft Teams 中使用 Office 365 和自定义连接器"
+title: 在 Microsoft Teams 中使用 Office 365 和自定义连接器
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,35 +7,36 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara, lucarras
-description: "连接器通过将你常用的服务中的内容和更新传输到频道，使你的团队持续获得最新信息。"
+description: 连接器通过将你常用的服务中的内容和更新传输到频道，使你的团队持续获得最新信息。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 119d2a7bac94f3695a068e64f56b5613b5687e2f
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 0a5243e32b100f648a71b5e07e55061bd8b3d6aa
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570077"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft Teams 中使用 Office 365 和自定义连接器
 =======================================================
 
 连接器通过将你常用的服务中的内容和更新传输到频道，使你的团队持续获得最新信息。 通过使用连接器，你的 Microsoft Teams 用户可以在其团队的聊天流中接收来自常用服务（例如 Twitter、Trello、Wunderlist、GitHub 和 VSTS）的更新。
 
-团队的任何成员都可以通过连接器将其团队连接到常用云服务，所有团队成员都将收到来自该服务的活动通知。 如果从某个团队中删除某个用户，则由该被删除用户添加到该团队的任何连接器都将停止工作。 该用户安排的会议继续有效，因为它们在群组日历上。
+工作组中的任何成员可以连接到使用连接器的常用云服务其工作组，如果团队权限允许，并且所有团队成员都通知的活动从该服务。 连接器将继续在最初安装连接器已离开的成员后正常工作。 添加/删除对具有权限的任何团队成员可以修改连接器设置其他成员。
 
 Office 365 连接器可以与 Microsoft Teams 和 Office 365 组配合使用，这样，可以更轻松地让所有成员保持同步并快速收到相关信息。 Microsoft Teams 和 Exchange 使用相同的连接器模型，这样，你可以在两个平台中使用相同的连接器。
 
 当前，可以使用 Microsoft Teams 桌面和 Web 客户端添加连接器。 但是，可以使用包括移动设备在内的**所有客户端**查看这些连接器发布的信息。
 
-1.  要将连接器添加到频道，请单击频道名称右侧的**省略号 (…)**，然后单击**“连接器”**。
+1.  要将连接器添加到频道，请单击频道名称右侧的**省略号 (…)**，然后单击 **“连接器”**。
 
     ![选择了一个频道名称并选择了“连接器”选项的 Teams 界面屏幕截图。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
-2.  用户可以从多个可用连接器中选择，然后单击**“添加”**。
+2.  用户可以从多个可用连接器中选择，然后单击 **“添加”**。
 
     ![“连接器”对话框屏幕截图，显示可用于添加的连接器。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
 
-3.  填充选定连接器的所需信息，然后单击**“保存”**。 每个连接器都需要一组不同的信息才能正常运行，有些连接器可能会要求你使用连接器配置页面上提供的链接登录服务。
+3.  填充选定连接器的所需信息，然后单击 **“保存”**。 每个连接器都需要一组不同的信息才能正常运行，有些连接器可能会要求你使用连接器配置页面上提供的链接登录服务。
 
     ![RSS 连接器的配置页面屏幕截图。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
 
@@ -52,7 +53,7 @@ Office 365 连接器可以与 Microsoft Teams 和 Office 365 组配合使用，�
 
     ![用于添加传入 Webhook 连接器的选项屏幕截图。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image5.png)
 
-2.  要创建 Webhook，请指定**名称**、更新 Webhook 图片（如果需要），然后单击**“创建”**。
+2.  要创建 Webhook，请指定**名称**、更新 Webhook 图片（如果需要），然后单击 **“创建”**。
 
     ![传入 Webhook 连接器的配置页面屏幕截图。 ](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
 

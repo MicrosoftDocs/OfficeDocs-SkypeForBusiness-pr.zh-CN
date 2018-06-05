@@ -1,5 +1,5 @@
 ---
-title: 知识库 API 呼叫质量仪表板 (CQD) 在 Skype 业务服务器 2015
+title: 在业务服务器 2015 Skype 呼叫质量仪表板 (CQD) 的存储库 API
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,50 +10,51 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
-description: 摘要： 了解关于存储库 API 呼叫质量仪表板。 通话质量仪表板是用于业务服务器 2015年的 Skype 的工具。
-ms.openlocfilehash: 0f84e3967bd4f78f8852dbcfed8ce5d59cbe4e8c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解呼叫质量仪表板的存储库 API。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
+ms.openlocfilehash: 083a7b3a9a539757769ba0a2d2fcf0d3ea2f9b1b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570190"
 ---
-# <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>知识库 API 呼叫质量仪表板 (CQD) 在 Skype 业务服务器 2015
+# <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>在业务服务器 2015 Skype 呼叫质量仪表板 (CQD) 的存储库 API
  
-**摘要：**请查阅知识库 API 呼叫质量仪表板。 通话质量仪表板是用于业务服务器 2015年的 Skype 的工具。
+**摘要：** 对于呼叫质量的仪表板，请了解库 API。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
   
-知识库 API 提供编程访问调用质量仪表板为 Skype 业务服务器 2015年个。
+存储库 API 提供编程访问呼叫质量仪表板的 Skype 的业务服务器 2015年。
   
-## <a name="repository-api-for-call-quality-dashboard"></a>知识库 API 呼叫质量仪表板
+## <a name="repository-api-for-call-quality-dashboard"></a>呼叫质量仪表板的库 API
 
-知识库 API 提供对知识库数据库的数据访问接口。 存储库可以树或图结构中，使用户可以将它们分组到对用户有意义的方式组织内容。 存储库中支持两种一般类型的用户： 系统用户，它是内置用户表示存储库中，并表示存储库中的授权的用户的一般用户。
+存储库 API 提供了一个数据访问接口到存储库数据库。 存储库中允许的内容，以便用户可以将它们组合中对用户有意义的方式来组织树或图结构中。 存储库支持两种常规用户： 系统的用户，即表示存储库，内置用户与表示存储库的授权的用户的常规用户。
   
-知识库 API 包含三个常规服务： 
+存储库 API 包含三个常规服务： 
   
-- [CQD 的用户服务](user-service.md)的访问用户。
+- [用户服务 CQD](user-service.md) -用于访问用户。
     
-- [项目服务呼叫质量仪表板 (CQD)](item-service.md) -用于访问项目和项中存储的内容。
+- [项服务的呼叫质量仪表板 (CQD)](item-service.md) -用于访问项目和存储在项目中的内容。
     
-- [用户设置服务呼叫质量仪表板 (CQD)](user-settings-service.md) -用于访问用户设置。
+- [用户设置服务的呼叫质量仪表板 (CQD)](user-settings-service.md) -用于访问用户设置。
     
-通话质量仪表板使用知识库 API 来管理以下信息： 
+呼叫质量仪表板使用存储库 API 来管理的以下信息： 
   
-- **用户**-用户有权访问存储库的表示形式。
+- **用户**-表示形式到存储库具有访问权的用户。
     
-- **报告**-列出查询、 存储为存储库项目中的内容。
+- **报表**-包含查询，作为存储库项目中的内容存储的列表。
     
-- **查询**-用于从数据 API，作为一个内容存储库项目中存储中检索数据。
+- **查询**-用于检索数据 API，作为存储库项目中的内容存储中的数据。
     
-- **用户设置**的描述用户可选的应用程序的行为。
+- **用户设置**-介绍用户可选的应用程序行为。
     
- **跨原始资源共享知识库 API (CORS) 支持**
+ **跨源资源共享 (CORS) 库 API 支持**
   
-知识库 API 支持跨原始资源共享 (CORS)。 CORS 是 HTTP 功能，可以将 web 应用程序运行在一个域访问另一个域中的资源。 Web 浏览器实现称为[同源策略](https://www.w3.org/Security/wiki/Same_Origin_Policy)同源策略使 web 页从另一个域中调用的 Api 的安全限制。 CORS 提供一种安全的方法，以允许一个域 （原始域） 另一个域中调用的 Api。 请参阅 CORS [CORS 技术指标](https://www.w3.org/TR/cors/)的详细信息。
+存储库 API 支持跨源资源共享 (CORS)。 CORS 是 HTTP 功能，使运行下一个域的 web 应用程序以访问其他域中的资源。 Web 浏览器实现称为阻止从不同域中的调用 Api 网页的[同源策略](https://www.w3.org/Security/wiki/Same_Origin_Policy)同源策略的安全限制。 CORS 提供安全的方式，以允许一个域 （原点而言的） 来调用其他域中的 Api。 请参阅 CORS [CORS 规范](https://www.w3.org/TR/cors/)的详细信息。
   
- **启用对存储库 API CORS**
+ **启用库 API 的 CORS**
   
- 以下是摘录的知识库 API web.config 文件中，显示在 corsTrustedOrigin 应用程序设置中列出的两个域。 从这些服务器加载的脚本所做的所有请求都受信任存储库 API。
+ 下面是摘录存储库 API web.config，显示 corsTrustedOrigin 应用程序设置中列出的两个域。 通过从这些服务器中加载脚本所做的所有请求都受信任库 API。
   
-请务必包括具体协议、 主机名称和端口 （如果有的话）。 不要不将任何反斜杠字符 （/） 结尾。 通过用逗号分隔，可以指定多个条目。
+请记住要包含的确切协议、 主机名和端口 （如果有）。 不将任何反斜杠 （/） 字符末尾。 通过用逗号分隔，可以指定多个条目。
   
 ```
 <repositoryConfiguration>
@@ -62,7 +63,6 @@ ms.lasthandoff: 03/28/2018
       <traceLog enabled="true" fileName="repository_trace.log" />
     </diagnostics>
  </repositoryConfiguration>
-
 ```
 
 

@@ -14,15 +14,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: 摘要： 了解如何使用 Skype 业务 Server Control Panel 或 Skype for Business Server 命令行管理程序查看 PSTN 用法记录。
-ms.openlocfilehash: e4e58326fade20a48b032cf6cdc575894152fac0
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 3d7682be31bdd8afc3a4700943789f555d3a3944
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568219"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business-2015"></a>在 Skype for Business 2015 中查看 PSTN 用法记录
  
-**摘要：**了解如何使用 Skype 业务 Server Control Panel 或 Skype for Business Server 命令行管理程序查看 PSTN 用法记录。
+**摘要：** 了解如何使用 Skype 业务 Server Control Panel 或 Skype for Business Server 命令行管理程序查看 PSTN 用法记录。
   
 公用电话交换网 (PSTN) 用法记录指定组织中各个用户或用户组所能发出的呼叫类别（如内部、本地或长途）。 有关详细信息，请参阅规划文档中的[PSTN 用法记录](http://technet.microsoft.com/library/b5f624aa-abe8-455b-a8e3-c228be230463.aspx)。
   
@@ -47,14 +48,11 @@ ms.lasthandoff: 05/03/2018
 
     此命令会返回类似下列信息：
     
-  ```
+<pre>
   Identity : Global
   Usage    : {Internal, Local, Long Distance}
-  ```
+</pre>
 
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [创建或修改语音策略和配置 PSTN 用法记录中的业务 2015 Skype](voice-policy-and-pstn-usage-records.md)
-

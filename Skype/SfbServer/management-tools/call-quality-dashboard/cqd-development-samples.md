@@ -10,16 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
-description: 摘要： 查看呼叫质量仪表板教程和开发示例。 通话质量仪表板是用于业务服务器 2015年的 Skype 的工具。
-ms.openlocfilehash: 40e6defd85cc9e8dd86956a3539b51e1846b6da5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 查看呼叫质量仪表板的教程和开发的示例。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
+ms.openlocfilehash: 567e6e22e3763183158562a6cf733a0127893ba6
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569817"
 ---
 # <a name="cqd-development-samples"></a>CQD 开发示例
  
-**摘要：**查看呼叫质量仪表板的教程和开发示例。呼叫质量仪表板是 Skype for Business Server 2015 的一个工具。
+**摘要：** 查看呼叫质量仪表板的教程和开发示例。呼叫质量仪表板是 Skype for Business Server 2015 的一个工具。
   
 本文提供开发呼叫质量仪表板 (CQD) 的教程和示例。
   
@@ -31,13 +32,13 @@ ms.lasthandoff: 03/28/2018
 
 通过 CQD，可以快速轻松地访问本地 Skype for Business Server 部署的聚合呼叫质量信息。 CQD 由三个组件组成：QoE 存档数据库、多维数据集和门户。 门户是主要表示层，可以再进一步分成以下三个组件：
   
-1. 数据服务，[数据 API 的呼叫质量仪表板 (CQD) 业务服务器 2015年的 Skype 在](data-api.md)通过身份验证的用户的访问。
+1. 数据服务，它是通过[数据 API 的呼叫质量仪表板 (CQD) 中的业务服务器 2015 Skype](data-api.md)的经过身份验证用户访问。
     
-2. 存储库服务，这是可访问的[存储库 API 的呼叫质量仪表板 (CQD) 业务服务器 2015年的 Skype 在](repository-api.md)通过身份验证的用户。
+2. 存储库服务，它是通过[库 API 的呼叫质量仪表板 (CQD) 中的业务服务器 2015 Skype](repository-api.md)的经过身份验证用户访问。
     
 3. Web 门户，这是基于 HTML5 的界面，CQD 用户会看到此界面，并与之交互。通过身份验证的用户可以访问 Web 门户。
     
-Web 门户上显示的报表分为"报告设置"。 图中显示了有两份报告的报告集。 以下仪表板中的每个报告显示了在应用不同的筛选器后得到的查询结果，这些结果反映了多个月内质量良好呼叫和质量欠佳呼叫的数量，以及质量欠佳呼叫所占的百分比。 
+Web 门户上显示的报表分为"报表设置"。 图中显示了有两份报告的报告集。 以下仪表板中的每个报告显示了在应用不同的筛选器后得到的查询结果，这些结果反映了多个月内质量良好呼叫和质量欠佳呼叫的数量，以及质量欠佳呼叫所占的百分比。 
   
 ![CQD 示例报告](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
   
@@ -45,7 +46,7 @@ CQD 是按照呼叫质量方法 (CQM) 创建的，所以默认报告集设计为
   
 ### <a name="how-the-dashboard-consumes-the-data-service"></a>仪表板如何使用数据服务
 
-当导航到 CQD 主页 (例如http://localhost/cqd)、 设置报表和经过身份验证和授权的用户对相应的报告将从存储库服务。 将从报告集 ID 和年-月构造完整的 URL （报告集 ID 是整数后 / #/ 部分中的 URL，默认情况下当前年月附加报告集 ID 的末尾斜杠后）。 报告定义以 JSON 格式存储，在从存储库服务检索到该定义后，该定义将随后作为数据服务的输入。 数据服务根据该输入生成多维表达式 (MDX) 查询，然后对多维数据集运行这些 MDX 查询来为每个报告检索数据。 
+导航到 CQD 主页时 (例如http://localhost/cqd)、 设置报表和将从存储库服务中检索的经过身份验证和授权的用户的相应报告。 将从报表设置 ID 和年-月构造的完整 URL （报告集 ID 是在 URL 的 / #/ 节之后的整数个数和默认情况下当前年-月追加报告集 ID 末尾斜杠后）。 报告定义以 JSON 格式存储，在从存储库服务检索到该定义后，该定义将随后作为数据服务的输入。 数据服务根据该输入生成多维表达式 (MDX) 查询，然后对多维数据集运行这些 MDX 查询来为每个报告检索数据。 
   
 ### <a name="building-customized-reports"></a>生成自定义报告
 
@@ -63,8 +64,7 @@ CQD 是按照呼叫质量方法 (CQM) 创建的，所以默认报告集设计为
   
 我们所要做的是，以正确的参数向数据服务发出调用，然后在 HTML 表中显示查询结果。下面是 JavaScript 示例代码：
   
-```
-        
+```        
 $($.fn.freeFormReport = function (queries, urlApi, presentation) {
             var query = {
                 Dimensions: [{ DataModelName: '[StartDate].[Month]' }],
@@ -94,12 +94,11 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
            }
             });
         });
-
 ```
 
 此示例可进一步解构成三个步骤：
   
-1. 构造的查询 （在本例中这查询到变量中定义的）。 query 定义为 JSON 对象，它包含以下数据：
+1. 构造 （这变量查询中定义的示例） 中的查询。 query 定义为 JSON 对象，它包含以下数据：
     
    a. 零个或更多维度。 每个维度由 DataModelName 表示。
     
@@ -109,7 +108,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
     
       - Value（将由操作数比较的值）。
     
-      - 操作数 （0 表示"等于"比较类型）。
+      - 操作数 （比较类型，0 表示"等于"）。
     
     c. 一项或多项指标。
     
@@ -119,11 +118,11 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
     
    b. （这是在查询变量中定义的 JSON 对象的字符串表示形式） 的数据。 数据服务将查询结果作为查询成功时调用的回调函数的参数返回。
     
-   c. 键入 (为 QoEDataService，RunQuery 只接受 POST 请求)。
+   c. 键入 （QoEDataService，为仅接受 RunQuery 发布请求）。
     
    d. async（指出 AJAX 调用应该为同步还是异步的标志）。
     
-   电子。 contentType （应该是"应用程序/json"）。
+   e。 contentType （应为"application/json"）。
     
    f。 success（AJAX 调用成功完成时调用的回调函数）。
     
@@ -188,7 +187,6 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
     </table>
 </body>
 </html>
-
 ```
 
 目前为止，报告仍然显得非常简单。用户可以添加更多指标、维度或筛选器来自定义报告。例如，如果要显示 AppSharing 质量欠佳呼叫百分比，那么需要添加有关 AppSharing 的新指标。如果要显示所有 TCP 呼叫与 UDP 呼叫的对比，那么应添加有关传输类型的新维度。如果要显示特定大楼内质量欠佳呼叫的数量，那么应添加新的筛选器来选择进出该大楼的呼叫。
@@ -203,7 +201,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
   
 为了创建报告定义查看器工具，我们需要向存储库服务发出调用，以检索我们所要的每个报告集定义的 JSON 字符串表示形式。存储库 API 将根据给定的报告集 ID 返回报告集定义。 
   
-快速示例如下，代码所含的代码块是一个简单示例，它向存储库服务发出查询，以根据存储库项的标识符获取该项的内容。 下一段代码（processReportSetData 方法）发出 AJAX 调用来获取该报告集内每个报告的定义。 由于 CQD Web 门户中的 ID 是报告集的 ID，因此 AJAX 调用将返回报告集项。 更多详细信息的存储库 api 和具体而言，GetItems，找中[获取项](get-items.md)。 
+快速示例如下，代码所含的代码块是一个简单示例，它向存储库服务发出查询，以根据存储库项的标识符获取该项的内容。 下一段代码（processReportSetData 方法）发出 AJAX 调用来获取该报告集内每个报告的定义。 由于 CQD Web 门户中的 ID 是报告集的 ID，因此 AJAX 调用将返回报告集项。 更多详细信息在存储库 API，具体而言，GetItems，可以[获取项](get-items.md)中找到。 
   
 ```
 <!DOCTYPE html>
@@ -310,16 +308,15 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
     </script>
 </body>
 </html>
-
 ```
 
-上述将导致网页 （不含初次访问时报表定义） 图中所示。 从 CQD 门户网站获取报表集 ID (后 / #/ 登录 CQD 门户 URL （例如 在报告的第一个图形设置 ID 为编号为 3024），并将此报告集 ID 放入此网页的输入部分。 按"加载"按钮并查看报表集的完整定义 （度量值、 维度、 筛选器列表）。
+上述将导致网页 （不在初次访问时的报告定义） 图中所示。 获取报告的集 ID 从 CQD 门户 (' / #/ CQD 门户登录后 URL （例如 在报表的第一个图形集 ID 为编号为 3024），并将此报告的集 ID 放入该网页上的输入部分。 按"加载"按钮并查看报告集中的完整定义 （度量、 维度、 筛选器列表）。
   
 总的来说，为了快速获得报告/报告集的完整定义，应遵循的步骤如下：
   
-1. 转到门户网站，并使用查询编辑器中自定义报表 （单击"编辑"按钮上方的报告编辑、 添加、 删除筛选器测量/尺寸，然后保存该报表）。
+1. 转到门户，并使用查询编辑器自定义报表 （单击"编辑"按钮上方报表编辑、 添加、 删除筛选器度量/维度，然后保存报告）。
     
-2. 获取报表集 ID 从 URL （在 URL 中签署 / #/ ' 后的整数）。
+2. 从 （' / #/ 之后的整数登录 URL） 的 URL 获取报告的集 ID。
     
 3. 启动示例 2 中创建的报告定义网页，输入报告集 ID，检索报告集的完整定义（将在数据 API 调用中使用）。
     
@@ -331,9 +328,9 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
   
 以下是基于示例 1 提供的示例，获得图中的记分卡页所需的详细步骤：
   
-1. 从查询变量中更新量化指标`[Measures].[Audio Good Streams JPDR Count]`和`[Measures].[Audio Poor Streams JPDR Count]`为`[Measures].[AudioPoorJPDRPercentage]`。 
+1. 更新度量值中的查询变量从`[Measures].[Audio Good Streams JPDR Count]`和`[Measures].[Audio Poor Streams JPDR Count]`到`[Measures].[AudioPoorJPDRPercentage]`。 
     
-2. 更新筛选器。 JSON 数据的示例 1 中的筛选器具有一个筛选器，它在维度设置`[StartDate].[Month]`。 由于 Filters 是 JSON 数组，因此其他维度可添加到筛选器列表中。 例如，若要获取"currentMonth"内有线呼叫服务器客户端，我们应具有以下筛选器：
+2. 更新筛选器。 示例 1 中的筛选器的 JSON 数据具有一个筛选器，它在维度设置`[StartDate].[Month]`。 由于 Filters 是 JSON 数组，因此其他维度可添加到筛选器列表中。 例如，若要获取"currentMonth"有线呼叫内部服务器客户端，我们应具有以下筛选器：
     
   ```
   Filters: [
@@ -351,14 +348,14 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
   ```
 
-  这里尺寸`[Scenarios].[ScenarioPair]`设置为等于`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`。 `[Scenario.][ScenarioPair]`是特殊维度创建以简化创建报告。 它有六个值，分别对应于 `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`。 因此，我们只需要使用 1 个筛选器，而无需使用 6 个筛选器的组合来定义方案。 在我们的示例中，值`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`相当于方案其中： 首先是服务器，第二不是服务器、 第一次是在内，第二是第一种连接类型有线的和第二个连接类型有线的这是确切的定义"服务器-客户端的内部有线"。
+  此处维度`[Scenarios].[ScenarioPair]`设置为等于`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`。 `[Scenario.][ScenarioPair]`是创建用于简化报告创建的特殊维度。 它有六个值，分别对应于 `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`。 因此，我们只需要使用 1 个筛选器，而无需使用 6 个筛选器的组合来定义方案。 在我们的示例，值`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`于的方案转换其中： 首先是服务器、 第二不是服务器，首先位于，第二位于第一种连接类型有线，和第二个连接类型有线，即的确切定义"服务器的客户端-内部有线"。
     
 3. 每个方案创建一个筛选器集。图中记分卡的每一行表示一个不同的方案，这些方案将成为不同的筛选器（虽然维度和指标保持不变）。 
     
 4. 解析从 AJAX 调用获得的结果，将其放入表格的正确位置。由于这主要是 HTML 和 JavaScript 处理，因此这里我们不深入研究细节，而是在附录 A 中提供相关代码。
     
     > [!NOTE]
-    >  如果启用跨原始资源共享 (CORS)，则用户可能会遇到错误，如"没有访问-控制-允许的原点标头，则在所请求的资源。 原点 null 因此不被允许访问"。 要解决此问题，请安装该门户的位置的文件夹下放置 HTML 文件 (默认情况下，它应该是`%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)`。 然后通过任何浏览器的 url 来访问 html `http://<servername>/cqd/<html_file_name>`。 (本地 CQD 仪表板的默认 URL 是`http://<servername>/cqd.`) 
+    >  如果启用跨源资源共享 (CORS)，则用户可能会遇到错误，如"无 Access-控件-允许-原点标头是存在于请求的资源。 原点 null 因此不允许访问"。 若要解决该问题，放置门户的安装位置的文件夹下的 HTML 文件 (默认情况下该文件应该是`%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)`。 然后通过使用 URL 的任何浏览器访问 html `http://<servername>/cqd/<html_file_name>`。 (本地 CQD 仪表板的默认 url `http://<servername>/cqd.`) 
   
 ### <a name="appendix-a"></a>附录 A
 
@@ -735,7 +732,4 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
     </script>
 </body>
 </html>
-
 ```
-
-

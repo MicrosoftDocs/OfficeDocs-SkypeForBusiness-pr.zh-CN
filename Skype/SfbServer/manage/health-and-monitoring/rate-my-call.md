@@ -9,61 +9,61 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: 摘要： 了解的业务服务器 2015年的 Skype 的速率我调用功能。
-ms.openlocfilehash: 1e0088c563f38be59bda0fad10dbd367ea0646e9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解为业务服务器 2015年的 Skype 中的速率我的呼叫功能。
+ms.openlocfilehash: 54e751731e305767eecb755f274de667949379f2
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569795"
 ---
 # <a name="rate-my-call-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中评价我的呼叫
  
-**摘要：**了解业务服务器 2015年的 Skype 的速率我调用功能。
+**摘要：** 为业务服务器 2015年了解 Skype 中的速率我的呼叫功能。
   
-速度我调用是 Skype 业务 2015年和 2016年上为企业提供从最终用户获得反馈的方法的 Windows 的客户端中的新功能。
+速率我呼叫是 Skype 业务 2015年和 2016年提供一种反馈获得最终用户的企业版的 Windows 上的客户端中的新功能。
   
-速度我调用窗口提供"星级"系统和音频和视频呼叫的预定义的标记。 此外，管理员可以启用自定义字段来提供反馈。
+速率我的呼叫窗口提供"星"评级系统和用于音频和视频呼叫的预定义的令牌。 此外，管理员可以使自定义字段提供反馈。
   
-收集的“评价我的呼叫”数据当前不包含在现有监控报告中，但其具有单独的监控报告。 可以通过运行 SQL 查询的 SQL 表中收集数据。
+收集的“评价我的呼叫”数据当前不包含在现有监控报告中，但其具有单独的监控报告。 可通过运行 SQL 查询的 SQL 表中收集数据。
   
-## <a name="rate-my-call-prerequisites"></a>评价我呼叫系统必备组件
+## <a name="rate-my-call-prerequisites"></a>评价我的呼叫必备组件
 
-您 Skype 业务服务器部署中的用户可以访问率我呼叫功能之前，必须部署和配置以下组件组：
+您 Skype 业务服务器部署中的用户可以访问速率我呼叫功能之前，必须部署以下组件组，并将其配置中：
   
--  您必须有 Skype 业务服务器安装 （9160 或更高版本）。
+-  您必须具有 Skype 业务服务器安装 （9160 或更高版本）。
     
-- 让您的用户安装并更新到最新版本的 Skype 业务中，还要求他们对业务用户界面使用 Skype。
+- 让您安装，并更新到 for Business 的 Skype 的最新版本，还可以询问他们使用的业务 UI Skype 的用户。
     
-- 用户必须被驻留在业务前端服务器池 Skype 上。
+- 用户必须驻留在业务 Server 前端池的 Skype。
     
-- 您必须有 Skype 的业务服务器监视数据库部署并与您 Skype 业务服务器池相关联。
+- 您必须具有业务服务器监控数据库部署和关联到您的业务服务器池的 Skype Skype。
     
 - 我们建议部署呼叫质量仪表板 (CQD)。
     
-## <a name="configure-rate-my-call"></a>配置率我调用
+## <a name="configure-rate-my-call"></a>配置速率我的呼叫
 
-默认情况下，具有以下设置的客户端策略中启用了率我调用功能：
+使用以下设置的客户端策略中的默认情况下启用速率我的呼叫功能：
   
 - 评价我呼叫显示百分比-10%
     
-- 评价我调用允许自定义用户反馈-禁用
+- 评价我呼叫允许自定义用户反馈-禁用
     
-启用基本的特征，但是所需的任何操作，但如果您希望自定义反馈您需要单独启用它。 下面的 Windows PowerShell cmdlet 是一种启用自定义最终用户反馈和更改的时间间隔从 10%到 80%。
+若要启用基本功能，但是需执行任何操作，但如果您希望自定义的反馈，您需要单独启用。 以下 Windows PowerShell cmdlet 启用自定义最终用户反馈和更改的时间间隔为 10%为 80%的示例。
   
 ```
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
-
 ```
 
-## <a name="accessing-rate-my-call-data"></a>我呼叫数据的访问速度
+## <a name="accessing-rate-my-call-data"></a>访问我的呼叫数据速率
 
-监视数据库中两个表中收集来自用户的数据。
+来自用户的数据收集监控数据库中的两个表中。
   
- **[QoeMetrics]。[dbo]。[CallQualityFeedbackToken]**-此表包含最终用户的令牌轮询的结果。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedbackToken]**-此表包含的最终用户的令牌轮询结果。
   
- **[QoeMetrics]。[dbo]。[CallQualityFeedbackTokenDef]**-此表包含标记的定义。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedbackTokenDef]**-此表包含令牌的定义。
   
-标记定义经过编码，如下所示：
+令牌定义编码，如下所示：
   
 |||
 |:-----|:-----|
@@ -106,11 +106,11 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
    
- **[QoeMetrics]。[dbo]。[CallQualityFeedback]**如果启用，此表将包含来自"星型"投票和客户反馈的轮询结果。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedback]** 如果启用，则此表包含从"Star"投票和客户反馈的投票结果。
   
-表中的数据可以通过调用**选择\*[Table.Name] 从**查询或通过使用 Microsoft SQL Server 管理 Studio。
+可以通过调用表中的数据**选择\*从 [Table.Name]** 查询或使用 Microsoft SQL Server Management Studio。
   
-可以用下面的 SQL 查询：
+可以使用以下 SQL 查询：
   
  **音频**
   
@@ -187,9 +187,9 @@ SELECT
             Caller.UserKey = CallerCqf.FromURI
 ```
 
-## <a name="updating-token-definitions"></a>更新标记定义
+## <a name="updating-token-definitions"></a>更新令牌定义
 
-业务客户端最新 Skype 报告新问题标记 Id (\> 100)，可能不会显示在您 [QoeMetrics]。[dbo]。[CallQualityFeedbackTokenDef] 表。 若要更新数据库表中的最新的标记定义以下 SQL 命令可以运行使用 Microsoft SQL Server 管理 Studio 的监视数据库。 此命令将替换 [QoeMetrics] 中的所有条目。[dbo]。[CallQualityFeedbackTokenDef] 表。
+业务客户端的最新的 Skype 报告新问题令牌 Id (\> 100) 可能不存在您 [QoeMetrics] 中。[dbo]。[CallQualityFeedbackTokenDef] 表。 若要使用的最新的令牌定义，更新的数据库表下方 SQL 命令可以运行使用 Microsoft SQL Server Management Studio 的监控数据库。 此命令将替换 [QoeMetrics] 中的所有条目。[dbo]。[CallQualityFeedbackTokenDef] 表。
   
 ```
 DELETE FROM [CallQualityFeedbackTokenDef];

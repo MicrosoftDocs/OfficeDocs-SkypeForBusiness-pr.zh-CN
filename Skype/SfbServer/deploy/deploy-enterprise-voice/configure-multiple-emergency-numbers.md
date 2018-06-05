@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: 阅读本主题，了解如何在 Skype for Business Server 2015 中配置多个紧急号码。
-ms.openlocfilehash: ad2f048294b7eeef6d675fdf80884ae13cc75a61
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 176233639a6ca935165e4640471377cc012db103
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568233"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business-2015"></a>在 Skype for Business Server 2015 中配置多个紧急号码
  
@@ -36,7 +37,6 @@ Skype 业务服务器现在支持的客户端的多个紧急号码。 多个紧�
   
 ```
 > $a = New-CsEmergencyNumber -DialString 911 
-
 ```
 
 下一个命令通过在 Set-CsLocationPolicy cmdlet 中指定 EmergencyNumbers 参数，将此号码与指定的位置策略关联起来：

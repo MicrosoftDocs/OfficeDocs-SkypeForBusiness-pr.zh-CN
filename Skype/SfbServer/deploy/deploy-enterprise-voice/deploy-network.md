@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 创建或修改网络区域、 网络站点，并将 Skype 中的网络子网关联的业务服务器。 所有这些用于高级企业语音功能： 媒体绕过、 呼叫允许控制和基于位置的路由。
-ms.openlocfilehash: 17696844d20bda6a709b3ae609e6963d8fb4a090
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 39fb65f3f2bef0ab81833b42fe50cbf866bee65b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501016"
+ms.locfileid: "19568380"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business-2015"></a>在 Skype for Business 2015 中部署网络区域、站点和子网
  
@@ -53,7 +53,6 @@ ms.locfileid: "19501016"
     
    ```
    New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
-
    ```
 
     本示例中，您将创建名为"NorthAmerica"网络区域与站点 ID 为 CHICAGO 的中央站点关联。
@@ -94,7 +93,6 @@ ms.locfileid: "19501016"
     
    ```
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
-
    ```
 
     在此示例中，您可以通过更改说明修改现有网络区域称为"NorthAmerica"（创建使用本主题中前面的过程）。 此命令说明存在"NorthAmerica"区域，如果将覆盖此值;如果已设置没有描述，然后该命令将设置它。
@@ -137,7 +135,6 @@ ms.locfileid: "19501016"
     
    ```
    New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
-
    ```
 
     本示例中，您将创建一个称为"Chicago"的网络站点的位于"NorthAmerica"网络区域。
@@ -191,7 +188,6 @@ ms.locfileid: "19501016"
     
    ```
    Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
-
    ```
 
     本示例中，名为"阿尔"的网站移至"NorthAmerica"网络区域。 要修改网络站点配置以部署呼叫允许控制、E9-1-1 或媒体旁路，请分别运行带有 BWPolicyProfileID 参数或 LocationPolicy 参数的 Set-CsNetworkSite cmdlet 来修改网络站点设置。

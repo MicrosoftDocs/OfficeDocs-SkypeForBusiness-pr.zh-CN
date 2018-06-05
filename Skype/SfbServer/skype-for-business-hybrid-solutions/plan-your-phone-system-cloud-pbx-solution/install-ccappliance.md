@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: Install-CcAppliance cmdlet 用于在主机服务器上安装 Skype for Business 云连接器版本设备，包括 AD、中央管理存储、中介服务器和边缘服务器虚拟机。
-ms.openlocfilehash: a3717e510ccadaa930d50573f067888780f7dce5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d35a102f7d3ade7b64bcf43388eaf03dc455c27b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569985"
 ---
 # <a name="install-ccappliance"></a>安装 CcAppliance
  
@@ -24,7 +25,6 @@ Install-CcAppliance cmdlet 用于在主机服务器上安装 Skype for Business 
 Install-CcAppliance [-Steps <array>] [-SkipExistingObjects] [-Upgrade] [-UpdateAllCredentials] [<CommonParameters>]
 Install-CcAppliance [-Steps <array>] [-PrepareOnly]  [<CommonParameters>]
 Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
-
 ```
 
 ## <a name="examples"></a>示例
@@ -32,7 +32,7 @@ Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
 
 ### <a name="example-1"></a>示例 1
 
-下面的示例将新云接头装置安装在主机服务器上：
+下面的示例在主机服务器上安装新的云连接器装置：
   
 ```
 Install-CcAppliance
@@ -40,7 +40,7 @@ Install-CcAppliance
 
 ### <a name="example-2"></a>示例 2
 
-下面的示例将云连接器升级到最新版本：
+下面的示例升级到最新版本的云连接器：
   
 ```
 Install-CcAppliance -Upgrade
@@ -48,7 +48,7 @@ Install-CcAppliance -Upgrade
 
 ### <a name="example-3"></a>示例 3
 
-下面的示例移除所有云连接器凭据缓存在主机服务器上，会提示用户指定所有凭据信息，，然后再安装云连接器：
+下面的示例删除所有缓存的主机服务器上，提示用户指定再次，所有的凭据信息的云连接器凭据，然后安装云连接器：
   
 ```
 Install-CcAppliance -UpdateAllCredentials
@@ -66,7 +66,7 @@ Install-CcAppliance -ShowStepsOnly
   
 ### <a name="example-5"></a>示例 5
 
-以下示例在主机服务器上为每个部署步骤生成配置文件。 配置文件保存到\<ApplianceRoot\>\Instances\\< 版本\>-default\ExportedConfig 的主机服务器上的文件夹：
+以下示例在主机服务器上为每个部署步骤生成配置文件。 配置文件保存到\<ApplianceRoot\>\Instances\\< 版本\>-default\ExportedConfig 主机服务器上的文件夹：
   
 ```
 Install-CcAppliance -PrepareOnly
@@ -94,11 +94,11 @@ SkipExistingObjects 参数必须与 Steps 参数一起使用。
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-安装 CcAppliance cmdlet 用于部署到新装置的云连接器或将现有设备升级到最新版本。
+安装 CcAppliance cmdlet 用于将云连接器部署到新装置或升级到最新版本的现有设备。
   
-如果你有新设备，请务必先阅读“为云连接器准备你的环境”，运行 Register-CcAppliance cmdlet 来注册该设备，然后运行 Install-CcAppliance cmdlet。 有关详细信息，请参阅[部署单个站点在云接头](deploy-a-single-site-in-cloud-connector.md)和[部署云连接器中的多个站点](deploy-multiple-sites-in-cloud-connector.md)。 
+如果你有新设备，请务必先阅读“为云连接器准备你的环境”，运行 Register-CcAppliance cmdlet 来注册该设备，然后运行 Install-CcAppliance cmdlet。 有关详细信息，请参阅[部署云 Connector 中单个网站](deploy-a-single-site-in-cloud-connector.md)和[部署云 Connector 中的多个网站](deploy-multiple-sites-in-cloud-connector.md)。 
   
-如果您有云连接器的现有部署，并且您想要升级，请按照在[升级到新版本的云连接器](upgrade-to-a-new-version-of-cloud-connector.md)中的说明进行操作。
+如果您具有云连接器的现有部署并且要升级，请按照[升级到云连接符的新版本](upgrade-to-a-new-version-of-cloud-connector.md)中的说明。
   
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>
@@ -110,7 +110,7 @@ SkipExistingObjects 参数必须与 Steps 参数一起使用。
 |SkipExistingObjects  <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |此参数必须与 Steps 参数一起使用。此参数仅用于故障排除。  <br/> |
 |步骤  <br/> |可选  <br/> |System.Array  <br/> |运行部署步骤。此参数仅用于故障排除。  <br/> |
 |升级  <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |将现有云连接器升级到最新版本。  <br/> |
-|UpdateAllCredentials  <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |删除所有云连接器凭据缓存中。 提示用户为安装指定新凭据信息。  <br/> |
+|UpdateAllCredentials  <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |在缓存中删除所有云连接器凭据。 提示用户为安装指定新凭据信息。  <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
@@ -125,12 +125,12 @@ SkipExistingObjects 参数必须与 Steps 参数一起使用。
 ## <a name="see-also"></a>另请参阅
 <a name="ReturnTypes"> </a>
 
-[将发布 CcAppliance](publish-ccappliance.md)
+[发布 CcAppliance](publish-ccappliance.md)
   
 [注册 CcAppliance](register-ccappliance.md)
   
-[取消注册 CcAppliance](unregister-ccappliance.md)
+[注销 CcAppliance](unregister-ccappliance.md)
   
-[卸载-CcAppliance](uninstall-ccappliance.md)
+[卸载 CcAppliance](uninstall-ccappliance.md)
   
 

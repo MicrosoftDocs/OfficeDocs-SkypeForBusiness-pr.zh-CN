@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: 在 Skype for Business Server 企业语音配置 E9-1-1 语音路由。
-ms.openlocfilehash: c31ac7c264fb931c127375eca5a383d10998c3f1
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b61b77fce36e0415d9c6f1189d8ecf2a5659d2f9
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568226"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置 E9-1-1 语音路由
  
@@ -49,7 +50,6 @@ ms.lasthandoff: 05/03/2018
     
    ```
    New-CsVoiceRoute -Name "EmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="EmergencyUsage"} -PstnGatewayList @{add="co1-pstngateway-1"}
-
    ```
 
 5. （可选） 对于 SIP 中继连接，我们建议您运行以下 cmdlet 以创建本地路由的 E9-1-1 服务提供商的 SIP 中继不会处理的呼叫。 如果 E9-1-1 服务提供商的连接不可用，则使用此路由。 

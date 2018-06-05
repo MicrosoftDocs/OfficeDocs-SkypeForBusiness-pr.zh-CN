@@ -9,16 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
-description: 摘要： 了解如何测试业务服务器 2015 Skype 在拨入会议。
-ms.openlocfilehash: 9df525710513dbccc2fd488dc9bb5a6f7ed49200
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何为业务服务器 2015年在 Skype 测试电话拨入式会议。
+ms.openlocfilehash: 7e6e53d5d4ee3e3e28beadc54ca86a79c6118637
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569269"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中测试电话拨入式会议
  
-**摘要：**了解如何测试业务服务器 2015 Skype 在拨入会议。
+**摘要：** 了解如何为业务服务器 2015年在 Skype 测试电话拨入式会议。
   
 最终验证电话拨入式会议配置后，你可以搜索具有尚未被任何访问号码使用的电话拨入式会议区域的拨号计划，还可以搜索未指定电话拨入式会议区域的访问号码。 你还应验证电话拨入式会议设置网页和拨入访问号码是否可以正常使用。
   
@@ -36,7 +37,7 @@ ms.lasthandoff: 03/28/2018
 
     此 cmdlet 返回具有尚未被访问号码使用的电话拨入式会议区域的所有拨号计划。
     
-有关详细信息，请参阅[获取 CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
+有关详细信息，请参阅[Get-csdialinconferencingaccessnumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
   
 ## <a name="find-access-numbers-without-assigned-regions"></a>查找未分配区域的访问号码
 
@@ -52,7 +53,7 @@ ms.lasthandoff: 03/28/2018
 
     此 cmdlet 返回尚未与区域关联的所有电话拨入式会议访问号码。
     
-有关详细信息，请参阅[获取 CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
+有关详细信息，请参阅[Get-csdialinconferencingaccessnumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
   
 ## <a name="test-webpage-and-access-numbers"></a>测试网页和访问号码
 
@@ -75,11 +76,10 @@ ms.lasthandoff: 03/28/2018
    User name:  testuser1@contoso.com
    Password:  ********
 Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
-
   ```
 
-    得出的报告将显示 Success 或 Failure，以及具体的诊断信息。 -详细标记提供更详细的有关数字找多少访问的信息以及有关它们的详细信息。
+    得出的报告将显示 Success 或 Failure，以及具体的诊断信息。 -Verbose 标志提供更多详细信息多少访问找到编号和详细信息。
     
-有关详细信息，请参阅[测试 CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps)。
+有关详细信息，请参阅[Test-csdialinconferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps)。
   
 

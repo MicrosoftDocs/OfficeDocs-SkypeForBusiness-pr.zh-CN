@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 摘要： 在 Skype for Business Server 2015 配置双重身份验证。
-ms.openlocfilehash: f7394c0415fb14698ae837c4604f1a2ceaa22931
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 96e1e355aa248b8cfc0ac1efbca7e41f056022be
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504647"
+ms.locfileid: "19569115"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置双重身份验证
  
@@ -328,20 +328,17 @@ ms.locfileid: "19504647"
 1. 从业务 Server 命令行管理程序命令行的 Skype，创建新的代理配置为将为被动身份验证启用通过运行的业务服务器 2015年边缘池、 企业版池和 Standard Edition server 的每个 Skype以下命令：
     
   ```
-  New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
--UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+  New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
   ```
-  New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" 
--UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+  New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
 2. 通过运行以下命令来验证所有其他代理身份验证类型是否已成功禁用：
     
   ```
-  Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com"
- | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
+  Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
   ```
 
 ## <a name="see-also"></a>另请参阅

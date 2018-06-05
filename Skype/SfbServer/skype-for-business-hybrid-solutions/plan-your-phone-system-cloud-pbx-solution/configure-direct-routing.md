@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 了解如何配置 Microsoft 电话系统直接路由。
-ms.openlocfilehash: e2f9629de713c363de02124a922b21882853d54d
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 2a600b7f6e61ae9dead69e5bfac534e2196974b1
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570169"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -59,14 +60,14 @@ gcm *onlinePSTNGateway*
 
 您的命令将返回如下所示，将允许您管理 SBCs 的四个功能。 
 
-```
+<pre>
 CommandType    Name                       Version    Source 
 -----------    ----                       -------    ------ 
 Function       Get-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
 Function       New-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
 Function       Remove-CsOnlinePSTNGateway 1.0        tmp_v5fiu1no.wxt 
 Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
-```   
+</pre>   
 
 
 ### <a name="pair-the-sbc-to-the-tenant"></a>对到租户 SBC 
@@ -78,7 +79,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
 ```
   > [!NOTE]
   > 1. 我们强烈建议 SBC，设置限制使用可以找到 SBC 文档中的信息。 如果 SBC 处于容量级别限制将触发通知。
-  > 2. 您可以仅配对的 FQDN，其中名称的域部分匹配一个除在您的租户中注册的域与 SBC \*。 onmicrosoft.com。使用\*。 omicrosoft.com 域名不支持的 SBC FQDN 名称。 例如，如果您有两个域名：<br/><br/>
+  > 2. 您可以仅配对的 FQDN，其中名称的域部分匹配一个除在您的租户中注册的域与 SBC \*。 onmicrosoft.com。 使用\*。 omicrosoft.com 域名不支持的 SBC FQDN 名称。 例如，如果您有两个域名：<br/><br/>
   > **abc**.xyz<br/>**abc**。 onmicrosoft.com<br/><br/>
   > SBC 名称，您可以使用名称 sbc.abc.xyz。 如果您尝试配对名称 sbc.xyz.abc 与 SBC，系统将不允许您，如此租户不属于域。
 
@@ -86,7 +87,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
 ```
 返回：
-``` 
+<pre>
 Identity              : sbc.contoso.com 
 Fqdn                  : sbc.contoso.com 
 SipSignallingPort     : 5067 
@@ -96,7 +97,7 @@ ForwardPai            : False
 SendSipOptions        : True 
 MaxConcurrentSessions : 100 
 Enabled               : True   
-```
+</pre>
 还有其他可在配对设置的选项。 在上面的示例中，但是，仅的最低要求参数所示。 
  
 下表列出了您可以设置的*新建 CsOnlinePstnGateway*参数中使用的其他参数。 
@@ -129,7 +130,7 @@ Enabled               : True
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
 ```
 返回结果：
-``` 
+<pre>
 Identity              : sbc.contoso.com  
 Fqdn                  : sbc.contoso.com 
 SipSignallingPort     : 5067 
@@ -141,7 +142,7 @@ ForwardPai            : False
 SendSipOptions        : True 
 MaxConcurrentSessions : 100 
 Enabled               : True 
-```
+</pre>
 
 #### <a name="validate-sip-options-flow"></a>验证 SIP Options 流 
 
@@ -290,7 +291,7 @@ Get-CSOnlinePSTNUsage
   Usage     : {testusage, US and Canada, International, karlUsage. . .}
 ```
 在下面的示例中，您可以查看正在运行的结果的 PowerShell 命令*`(Get-CSOnlinePSTNUsage).usage`* 显示 （不会被截断） 的完整名称。    
-```
+<pre>
  testusage
  US and Canada
  International
@@ -300,7 +301,7 @@ Get-CSOnlinePSTNUsage
  karlUsage2
  Unrestricted
  Two trunks
-  ```
+</pre>
 
 **步骤 2:** 在 PowerShell 中的业务联机 Skype 会话中创建三个路由： Redmond 1，2 和其他 + 1，Redmond 上表中所述。 
 
@@ -312,7 +313,7 @@ Get-CSOnlinePSTNUsage
   ```
 
 返回结果：
-```
+<pre>
 Identity                : Redmond 1
 Priority            : 1
 Description         :
@@ -322,7 +323,7 @@ OnlinePstnGatewayList   : {sbc1.contoso.biz, sbc2.contoso.biz}
 Name            : Redmond 1
 SuppressCallerId    :
 AlternateCallerId   :
-```
+</pre>
 若要创建 Redmond 2 路由，请输入：
 
 ```
@@ -355,7 +356,7 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 New-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 应返回其中：
-```
+<pre>
 Identity            : Redmond 1 
 Priority            : 1
 Description     : 
@@ -378,7 +379,7 @@ NumberPattern       : ^\+1(425|206) (\d{7})$
 OnlinePstnUsages    : {US and Canada}    
 OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
-```
+</pre>
 
 在示例中，该路由"其他 + 1"已自动分配优先级。 
 
@@ -392,12 +393,12 @@ New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
 
 在此示例中显示结果：
 
-```
+<pre>
 Identity        : Tag:US only
 OnlinePstnUsages    : {US and Canada}
 Description         :
 RouteType           : BYOT
-```
+</pre>
 
 **步骤 4:** 向用户授予 Spence 低语音路由策略使用 PowerShell。
 
@@ -411,12 +412,11 @@ RouteType           : BYOT
 Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
 返回结果：
-```
+<pre>
 OnlineVoiceRoutingPolicy
 ------------------------
 US Only
-
-```
+</pre>
 
 #### <a name="creating-a-voice-routing-policy-with-several-pstn-usages"></a>使用多个 PSTN 用法创建语音路由策略
 
@@ -470,7 +470,7 @@ John Woods – 允许任意数量的呼叫。 当调用雷德蒙德号码范围�
   ```
   返回结果：
 
-  ```
+  <pre>
   Identity                  : International 
   Priority                      : 5
   Description                   : 
@@ -480,27 +480,29 @@ John Woods – 允许任意数量的呼叫。 当调用雷德蒙德号码范围�
   Name                            : International
   SupressCallerId           :
   AlternateCallerId         :
-  ```
+</pre>
 3.  接下来，创建语音路由策略"无限制"。 若要保留的呼叫就可以为本地域或内部呼叫号码"+1 425 XXX XX XX"和"+1 206 XXX XX XX"的特殊处理此语音路由策略中重复使用的 PSTN 用法"Redmond 1"和"Redmond"。
 
-    ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”```
+```
+New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”
+```
 
-    记下顺序 PSTN 用法：
+    Take note of the order of PSTN Usages:
 
-    a. 如果号码"+ 1425 XXX XX XX"配置如下所示的用法与发出呼叫，呼叫路由设置中"美国和加拿大"使用情况并应用的特殊的路由逻辑。 即，该呼叫会路由使用 sbc1<span></span>。 contoso.biz 和 sbc2<span></span>。 contoso.biz，然后再 sbc3<span></span>。 contoso.biz 和 sbc4<span></span>。 contoso.biz 作为备份的路由。 
+    a. If a call made to number “+1425 XXX XX XX” with the usages configured as in the following example, the call follows the route set in “US and Canada” usage and the special routing logic is applied. That is, the call is routed using  sbc1<span></span>.contoso.biz and sbc2<span></span>.contoso.biz first, and then  sbc3<span></span>.contoso.biz and sbc4<span></span>.contoso.biz as the backup routes. 
 
-    b.  如果"国际"PSTN 用法"美国和加拿大"之前，则会将调用 + 1425 XXX XX XX 路由至 sbc2<span></span>。 contoso.biz 和 sbc5<span></span>。 contoso.biz 的路由逻辑的一部分。 输入命令：
+    b.  If “International” PSTN usage is before “US and Canada,” calls to + 1425 XXX XX XX are routed to sbc2<span></span>.contoso.biz and sbc5<span></span>.contoso.biz as part of the routing logic. Enter the command:
 
     ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”```
 
    其返回
 
-   ```
+  <pre>
    Identity     : International 
    OnlinePstnUsages     : {US and Canada, International}     
    Description      :  
    RouteType        : BYOT
-   ```
+  </pre>
 
 4.  将语音路由策略分配给用户"John Woods"使用以下命令。
 
@@ -515,11 +517,11 @@ John Woods – 允许任意数量的呼叫。 当调用雷德蒙德号码范围�
   ```
   返回结果：
 
-  ```
-  OnlineVoiceRoutingPolicy
-  ------------------------
-  No Restrictions
-  ```
+<pre>
+    OnlineVoiceRoutingPolicy
+    ------------------------
+    No Restrictions
+</pre>
 
 应用于 John Woods 呼叫的语音策略是不受限制，并将按照适用于美国、 加拿大和国际呼叫的呼叫路由逻辑，结果。
 

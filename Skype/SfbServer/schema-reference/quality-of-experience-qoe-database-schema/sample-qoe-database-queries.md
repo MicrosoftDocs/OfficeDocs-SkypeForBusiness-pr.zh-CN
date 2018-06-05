@@ -9,24 +9,25 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
-description: 本节包含示例体验质量 (QoE) 数据库的查询。
-ms.openlocfilehash: 20ca6bc8aea6035ebe27fc5f77d512464cd82dcc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 此部分包含的用户体验质量 (QoE) 数据库的示例查询。
+ms.openlocfilehash: 70fff2c34e7eade21e5f2c29893a175ee65e39b0
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570176"
 ---
 # <a name="sample-qoe-database-queries"></a>示例 QoE 数据库查询
  
-本节包含示例体验质量 (QoE) 数据库的查询。 
+此部分包含的用户体验质量 (QoE) 数据库的示例查询。 
   
-使用下面的示例获取抖动和包丢失的所有音频流的平均。
+下面的示例用于获取所有音频流的抖动和丢包平均。
   
 ```
 select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 ```
 
-使用下面的示例查找使用会议控制台的会议的总数字。
+下面的示例用于查找使用 Meeting Console 的会议的总号码。
   
 ```
 select avg(ConversationalMOS)
@@ -37,10 +38,9 @@ on s.ConferenceDateTime = m.ConferenceDateTime
    and m.MediaLineLabel = 0 -- audio media line
    and s.CallerUserAgentType = 4 -- Lync
    and s.CalleeUserAgentType = 4 -- Lync
-
 ```
 
-使用下面的示例获取每个捕获设备的 ConversstionalMOS、 SendingMOS 和 ListendingMOS。
+下面的示例用于获取每个捕获设备的 ConversstionalMOS、 SendingMOS 和 ListendingMOS。
   
 ```
 select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS
@@ -65,7 +65,4 @@ from
 )as t
 group by t.DeviceName
 order by SampleNum desc
-
 ```
-
-

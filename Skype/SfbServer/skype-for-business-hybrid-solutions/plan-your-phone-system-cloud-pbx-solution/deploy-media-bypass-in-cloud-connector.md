@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: 阅读本主题可了解部署步骤媒体绕过与云连接器 Edition 2.0 及更高版本。
-ms.openlocfilehash: 0d147cbd1f6497757aa73e380ebeca0c03f1de7b
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: fc1ebe85ff3d26d66688173ea70c53c441d96e77
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505193"
+ms.locfileid: "19570042"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>在云连接器版本中部署媒体旁路
  
@@ -55,7 +55,6 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
-
 ```
 
 检查内部部署复制、 连接到云连接器中介服务器，在 PowerShell 中，运行以下命令并确认该 Enabled = True 且 AlwaysBypass = True

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: 有关基于视频的屏幕共享 (VbSS)，这是现在可供下载的业务服务器 2015年规划和配置信息的 Skype： 业务服务器 2015年累积更新 KB3061064 的 Skype。
-ms.openlocfilehash: 50ba16703d391724a413e59e5d9e41cdb94b06af
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: a76778db02ece625d7c9933662d88aea99dbdf7f
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504360"
+ms.locfileid: "19569255"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server-2015"></a>适用于 Skype for Business Server 2015 的基于视频的屏幕共享
  
@@ -97,7 +97,7 @@ Skype 业务服务器想要提高人的 1-为-1，以及其 1 对多 （多方�
     
 此表中的数字受个别网络和所共享内容的影响。请通过测试建立一个或多个网络的基准。
   
-|**1080p 内容**|**RPD 平均值**|**RDP 峰值**|**VbSS 平均值**|**VbSS 峰值**|
+|**1080p 内容**|**RDP 平均值**|**RDP 峰值**|**VbSS 平均值**|**VbSS 峰值**|
 |:-----|:-----|:-----|:-----|:-----|
 |PPT  <br/> |200 kbps  <br/> |12mbps  <br/> |100 kbps  <br/> |3mbps  <br/> |
 |CAD  <br/> |3mbps  <br/> |7mbps  <br/> |1mbps  <br/> |3mbps  <br/> |
@@ -121,7 +121,8 @@ VbSS 带宽为：
 - 如果 for Business 客户端使用的 Skype 较早版本的任何人加入会话，例如任何人都使用低于 16.0.6330.1000，对于业务会议室系统设备，Skype 或业务移动应用程序的 Skype 任何 Windows 客户端版本。 
 - 如果用户正在共享 Skype 的企业 Web 应用程序。
 - 如果某人的 Businesson Mac 使用 Skype 并不驻留在 Skype 业务 online。
-- 如果某人在会话期间启动任何程序/Windows 共享和/或录制。
+- 如果某人开始任何程序/Windows 共享。
+- 如果某人开始录制会话。
 - 如果某人在会话期间调用远程屏幕控制。
 
     请注意，会话切换到 RDP 后，将不会切换回 VbSS。另外，从 VbSS 进行切换应为无缝操作，并且希望在大多数情况下不容易被检测到。

@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 阅读本主题可了解如何 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。
-ms.openlocfilehash: 3e7a0899fd7a79003a522d59fe1f4f7508978a51
-ms.sourcegitcommit: 0d584174263c044c2ba12e32d2c924349226075c
+ms.openlocfilehash: 8fb9ca844c8397d57bba7c87b1a7b8701beff20f
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569978"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -69,7 +70,7 @@ Microsoft 还提供了一云语音解决方案，如调用规划。  但是，�
 |SBC 的完全限定的域名 (FQDN)|SBC，其中 FQDN 的域部分是其中一个 Office 365 租户中注册的域的 FQDN。 有关详细信息，请参阅[SBC 域名](#sbc-domain-names)。|
 |SBC 的公共 DNS 条目 |映射到公共 IP 地址的 SBC FQDN 公共 DNS 条目。 |
 |SBC 的受信任的公共证书 |SBC 用于直接路由中的所有通信的证书。 有关详细信息，请参阅[SBC 的受信任的公共证书](#public-trusted-certificate-for-the-sbc)。|
-|直接路由的连接点 |直接路由的连接点是具有以下三个 Fqdn:<br/><br/>```sip.pstnhub.microsoft.com```– 必须首先尝试全局 FQDN。<br/>```sip2.pstnhub.microsoft.com```– 辅助 FQDN，地理位置映射到第二个优先级区域。<br/>```sip3.pstnhub.microsoft.com```– 第三级 FQDN，地理位置映射到第三个优先级区域。<br/><br/>有关配置要求的信息，请参阅[SIP 信号： Fqdn 和防火墙端口](#sip-signaling-fqdns-and-firewall-ports)。|
+|直接路由的连接点 |直接路由的连接点是具有以下三个 Fqdn:<br/><br/>`sip.pstnhub.microsoft.com`– 必须首先尝试全局 FQDN。<br/>`sip2.pstnhub.microsoft.com`– 辅助 FQDN，地理位置映射到第二个优先级区域。<br/>`sip3.pstnhub.microsoft.com`– 第三级 FQDN，地理位置映射到第三个优先级区域。<br/><br/>有关配置要求的信息，请参阅[SIP 信号： Fqdn 和防火墙端口](#sip-signaling-fqdns-and-firewall-ports)。|
 |防火墙的 IP 地址和直接路由的媒体端口 |SBC 对下列服务在云中进行通信：<br/><br/>SIP 代理，处理的信号<br/>媒体处理器，处理媒体-除媒体绕过位于<br/><br/>这两个服务具有单独的 IP 地址中 Microsoft 云，本文档后面所述。<br/><br/>有关详细信息，请参阅[Office 365 Url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)中的[Microsoft 团队部分](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)。 |
 |媒体传输配置文件|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 防火墙的 IP 地址和端口的 Microsoft 团队媒体 |有关详细信息，请参阅[Office 365 Url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)。 |
@@ -180,7 +181,7 @@ SIP/TLS|SBC|SIP 代理服务器|SBC 上定义|5061|
 
 ### <a name="failover-mechanism-for-sip-signaling"></a>用于 SIP 信号故障转移机制
 
-SBC 使 DNS 查询解析 sip.pstnhub.microsoft.com。根据 SBC 位置和数据中心性能指标，主数据中心处于选中状态。 如果主数据中心体验问题、 SBC 将尝试 sip2.pstnhub.microsoft.com，将解析为第二个分配数据中心，并在极少数情况下该数据中心中两个区域都不可用，SBC 重试最后的 FQDN （sip3.pstnhub.microsoft.com)，从而提高了三级的数据中心 IP。
+SBC 使 DNS 查询解析 sip.pstnhub.microsoft.com。 根据 SBC 位置和数据中心性能指标，主数据中心处于选中状态。 如果主数据中心体验问题、 SBC 将尝试 sip2.pstnhub.microsoft.com，将解析为第二个分配数据中心，并在极少数情况下该数据中心中两个区域都不可用，SBC 重试最后的 FQDN （sip3.pstnhub.microsoft.com)，从而提高了三级的数据中心 IP。
 
 下表总结了主要、 第二和第三级的数据中心之间的关系：
 

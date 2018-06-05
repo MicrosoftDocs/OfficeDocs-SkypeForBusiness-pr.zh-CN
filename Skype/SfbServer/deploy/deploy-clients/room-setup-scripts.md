@@ -10,19 +10,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: 阅读本主题，了解如何查找用于设置 Skype 会议室系统帐户的示例脚本。
-ms.openlocfilehash: 671b9a9700148ca9a09a380cc168253015299c63
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 957b8ada37c0391f86e4486f7a56899957c9b770
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568694"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype 会议室系统会议室设置脚本
  
 阅读本主题，了解如何查找用于设置 Skype 会议室系统帐户的示例脚本。
   
-本部分阐述了调配 Skype 的空间系统帐户时可以使用的示例脚本。 这些脚本仅用于说明目的，并且只应在咨询你的 IT 专家或域管理员之后使用。
+本部分介绍可用于设置 Skype 会议室系统帐户的示例脚本。 这些脚本仅用于说明目的，并且只应在咨询你的 IT 专家或域管理员之后使用。
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>示例安装程序脚本： Skype 业务和 Exchange Server （内部部署）
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>示例安装脚本： Skype 商业和 Exchange Server （本地）
 
 ```
 # On Exchange 
@@ -34,10 +35,9 @@ $true -AdditionalResponse "This is an LRS room!" -DeleteSubject $false -Automate
 # The following is used to preserve the Lync Meeting invitations - so create these based on your Lync Federated partners# Per Lync Federated Partner as a Recommended Practice to ensure Meetings show in Lync with Join#New-RemoteDomain -DomainName Microsoft.com -Name Microsoft$true#Set-RemoteDomain -Identity Microsoft -TNEFEnabled $true
 Set-ADAccountPassword -Identity "conference room"# Paste the next command on its own. Enter a blank password first, then enter the new password "password" twiceEnable-ADAccount -Identity "confroom"# On LyncEnable-CsMeetingRoom -SipAddress "sip:confroom@contoso.com" -RegistrarPool cie-srv-02.contoso.com -Identity 'conference room' 
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
-
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>示例安装程序脚本： Skype 业务和 Exchange Server 联机
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>商业和 Exchange 服务器联机的示例安装脚本： Skype
 
 在运行脚本之前，请务必查看以下先决条件：
   
@@ -69,7 +69,8 @@ Set-CalendarProcessing -Identity $rmURI -RemovePrivateProperty $false -AddOrgani
  "This is an LRS room!"# Configure the Account to Not Expire
 Set-MsolUser -UserPrincipalName $rm -PasswordNeverExpires $true# You need to detect your Lync Pool Registrar name. Using a normal Offic365/LyncOnline user account from your tenant, run the next command and update the RegistrarPool value for the second command coming up
 Get-CsOnlineUser -Identity 'admin@YourTenantName.onmicrosoft.com' | fl *registrar*# Update with above result
-Enable-CsMeetingRoom -Identity $rmURI -RegistrarPool "sippoolsn20a07.infra.lync.com" -SipAddressType EmailAddress# If the previous command fails with an error regarding the account name not being found you might need to wait and try again in a few minutes. If you wait too long, you'll need to sign in again to remote PowerShell as detailed above.
+Enable-CsMeetingRoom -Identity $rmURI -RegistrarPool "sippoolsn20a07.infra.lync.com" -SipAddressType EmailAddress
+# If the previous command fails with an error regarding the account name not being found you might need to wait and try again in a few minutes. If you wait too long, you'll need to sign in again to remote PowerShell as detailed above.
 ```
 
 

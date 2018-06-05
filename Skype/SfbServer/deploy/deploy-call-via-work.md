@@ -13,15 +13,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 摘要： 了解如何部署业务服务器 2015年呼叫通过单位电话的 Skype 的部分或所有用户。
-ms.openlocfilehash: e101cf39daedb8d94879b6cf99cd0c7b4ae00e8d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 6b4dcb12458fb3421db5b500b550061c24d51bc1
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568247"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中部署单位电话呼叫
  
-**摘要：**了解如何部署业务服务器 2015年呼叫通过单位电话的 Skype 的部分或所有用户。
+**摘要：** 了解如何部署业务服务器 2015年呼叫通过单位电话的 Skype 的部分或所有用户。
   
 使用以下步骤为用户部署通过单位电话呼叫。 [规划呼叫通过单位电话中的业务服务器 2015 Skype](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)中讨论了规划注意事项。 在早期版本的 Lync Server 远程呼叫控制是一种功能，允许用户控制其 PBX 电话与 Lync Server。 在业务服务器 Skype，此功能已取代与通过单位电话呼叫。 
   
@@ -72,9 +73,7 @@ ms.lasthandoff: 05/03/2018
 - 键入以下 cmdlet
     
   ```
-  New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber
-    <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
-
+  New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
     例如，以下 cmdlet 创建名为 ContosoUser1CvWP 呼叫通过单位电话策略、 要求用户使用管理员回拨号码，并将该回拨号码设置为 1-555-789-1234。
@@ -98,8 +97,6 @@ ms.lasthandoff: 05/03/2018
   ```
 
 ## <a name="see-also"></a>另请参阅
-
-#### 
 
 [规划用单位电话的 Skype 业务服务器 2015年呼叫](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

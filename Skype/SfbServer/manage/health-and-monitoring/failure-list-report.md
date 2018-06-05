@@ -9,22 +9,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: 摘要： 了解业务服务器 2015年在 Skype 的故障列表报告。
-ms.openlocfilehash: ef5b11f92997e6919de0fd9056acdeebddc898d0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解有关的故障列表报告中 Skype 业务服务器 2015年。
+ms.openlocfilehash: 7cb146569958908e79700e725d473bc246295c9d
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569318"
 ---
 # <a name="failure-list-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的故障列表报告
  
-**摘要：**了解业务服务器 2015年在 Skype 的故障列表报告。
+**摘要：** 了解有关的故障列表报告中 Skype 业务服务器 2015年。
   
 故障列表报告提供有关参加失败的对等会话或会议会话的各个参与者的信息。此信息包括遇到问题的用户的 URI，以及与故障相关联的 SIP 响应代码和诊断 ID。
   
 ## <a name="accessing-the-failure-list-report"></a>访问故障列表报告
 
-故障列表报告通过单击任何[失败分发报告中业务服务器 2015年的 Skype](failure-distribution-report.md)上的下列指标：
+通过单击以下指标[故障分布报告中的业务服务器 2015 Skype](failure-distribution-report.md)上任一方式访问故障列表报告：
   
 - 主要诊断原因（会话）
     
@@ -42,7 +43,7 @@ ms.lasthandoff: 03/28/2018
     
 - 主要来源用户代理（会话）
     
-从故障列表报告可以通过单击会话详细信息度量对等会话访问[业务服务器 2015年的 Skype 在对等会话详细信息报告](peer-to-peer-session-detail-report.md)。 也可以单击会议的”会议“指标，以访问会议详细信息报告。
+从故障列表报告可以通过单击对等会话的会话详细信息指标来访问[对等会话中的业务服务器 2015 Skype 的详细信息报告](peer-to-peer-session-detail-report.md)。 也可以单击会议的”会议“指标，以访问会议详细信息报告。
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>充分利用故障列表报告
 
@@ -50,7 +51,7 @@ ms.lasthandoff: 03/28/2018
   
 为用户创建媒体时发生内部服务器错误。
   
-务必注意，故障列表报告并未提供一种简单直观的方式来直接检索至少参加一次失败会话的所有用户列表，也未提供一种用来确定失败会话中最常涉及哪些用户的方法。 （首先，故障列表报告有任何筛选功能。）但是，如果将数据导出，然后将其转换为逗号分隔值文件，可以使用 Windows PowerShell 找到这些问题的答案。 例如，假设将数据保存到名为 C:\Data\Failure_List.csv 的 .CSV 文件。 根据该文件中所保存的数据，以下命令会列出至少一次失败会话中所涉及的所有用户： 
+务必注意，故障列表报告并未提供一种简单直观的方式来直接检索至少参加一次失败会话的所有用户列表，也未提供一种用来确定失败会话中最常涉及哪些用户的方法。 （一方面，Failure List Report 具有没有筛选功能。）但是，如果将数据导出，然后将其转换为以逗号分隔值文件，您可以使用 Windows PowerShell 查找类似的问题的解答。 例如，假设将数据保存到名为 C:\Data\Failure_List.csv 的 .CSV 文件。 根据该文件中所保存的数据，以下命令会列出至少一次失败会话中所涉及的所有用户： 
   
 ```
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
@@ -59,15 +60,15 @@ $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 
 该命令将返回与以下类似的列表：
   
-```
-From user
-----
-Pilar.Ackerman@litwareinc.com
-Henrik.Jensen@litwareinc.com
-Gilead.Amosnino@litwareinc.com
-David.Ahs@litwareinc.com
-Ken.Myer@litwareinc.com
-```
+<pre>
+    From user
+    ----
+    Pilar.Ackerman@litwareinc.com
+    Henrik.Jensen@litwareinc.com
+    Gilead.Amosnino@litwareinc.com
+    David.Ahs@litwareinc.com
+    Ken.Myer@litwareinc.com
+</pre>
 
 以下两个命令将返回涉及每个用户的失败会话总数：
   
@@ -78,7 +79,7 @@ $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -
 
 这将返回与以下类似的数据：
   
-```
+<pre>
 Count    Name
  -----    ----
     20    Pilar.Ackerman@litwareinc.com
@@ -86,7 +87,7 @@ Count    Name
     16    Gilead.Amosnino@litwareinc.com
     16    Ken.Myero@litwareinc.com
     14    Henrik.Jensen@litwareinc.com
-```
+</pre>
 
 ## <a name="filters"></a>筛选器
 
@@ -96,9 +97,9 @@ Count    Name
 
 下表列出了各失败呼叫的故障列表报告中提供的信息。
   
-**错误列表中报告统计数据**
+**故障列表报告指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**可以在此项上进行排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**您可以按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**报告时间** <br/> |否  <br/> |记录报告的日期和时间。  <br/> |
 |**请求** <br/> |否  <br/> |失败的 SIP 请求类型。例如 INVITE 或 BYE。  <br/> |
