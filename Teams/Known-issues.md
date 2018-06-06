@@ -10,11 +10,12 @@ ms.reviewer: marcl, ninadara, v-leslc
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6624aa94ef6581805e3ba2b79f09aefb95616bb0
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+ms.openlocfilehash: 420e303ebd517a472dcd3bcde1004acf44ca2dc3
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569897"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
   
@@ -99,6 +100,10 @@ ms.lasthandoff: 05/21/2018
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |本地 Skype for Business 用户无法收到我的消息  <br/> |Microsoft Teams 用户尝试向使用本地 Skype for Business 的其他人发送消息，无法完成消息传递。 <br/> | 支持 Teams 与 Skype for Business Online 上托管的用户之间的互操作性。 Teams 用户可以向使用 Skype for Business Online 的非 Teams 用户发送一对一聊天。 <br/> 不支持 Teams 与本地 Skype for Business 上托管的用户之间的互操作性。 Teams 用户无法向使用本地 Skype for Business 的非 Teams 用户发送一对一聊天。 <br/> |2016 年 11 月 2 日  <br/> |
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|Skype 的互操作性业务和团队 <br/> |一旦用户升级到团队它们无法关闭团队客户端，然后使用 Skype for Business 客户端中相同的方式之前升级到团队。 <br/> | 一旦用户已升级到团队的团队和 Skype 的应拥有业务客户端同时打开或者只有团队客户端打开。 他们应避免仅 Skype 业务客户端打开否则消息将转到电子邮件。<br/> |05/01/18  <br/> |
 
 ## <a name="client"></a>客户端
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|

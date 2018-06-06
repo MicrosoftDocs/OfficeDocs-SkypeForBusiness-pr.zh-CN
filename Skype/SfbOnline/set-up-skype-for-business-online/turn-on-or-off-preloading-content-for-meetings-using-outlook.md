@@ -16,18 +16,19 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: 312a008c85acb5067f0198e7a1b0a88cbbced8b5
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 7a572689575a708707aeca3eb963d5eb7d864594
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568268"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>打开或关闭允许使用 Outlook 为会议预加载内容
 
-用户可以预先加载内容、 文件或连接到 Outlook 会议邀请业务联机会议，Skype 的附件，但是您可以将其打开或关闭。 默认情况下，所有使用 Skype 的在线业务的组织，它被打开的。 请参阅如何[为 Skype for Business 会议预加载附件](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)。
+用户可以预加载内容、 文件或附加到业务联机会议时，Skype 的 Outlook 会议邀请的附件，但您可以将其打开或关闭。 它被打开默认情况下，所有业务 online 使用 Skype 的组织。 请参阅如何[为 Skype for Business 会议预加载附件](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)。
   
 > [!NOTE]
-> 目前，没有 cmdlet Skype 的在线业务中设置或查看联机值为_MaxContentStorageMB_和_MaxUploadFileMB_。 它们仅适用于本地部署。 务必要知道如果附件的内容超过_MaxUploadFileSizeMB_或者_MaxContentStorageMB_到期时该内容会上载到会议。
+> 目前，没有可用 Skype 业务 online 中设置或_MaxContentStorageMB_和_MaxUploadFileMB_查看联机值的任何 cmdlet。 它们仅适用于本地部署。 务必要了解的内容不上载到会议，如果附加的内容超出_MaxUploadFileSizeMB_或者达到_MaxContentStorageMB_限制。
   
 ## <a name="to-get-you-started"></a>开始使用
 
@@ -56,34 +57,21 @@ ms.lasthandoff: 04/18/2018
     > [!NOTE]
     > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
   
-> 
-  ```
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
-  ```
+```
+Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+$credential = Get-Credential
+$session = New-CsOnlineSession -Credential $credential
+Import-PSSession $session
+```
 
-> 
-  ```
-  $credential = Get-Credential
-  ```
-
-> 
-  ```
-  $session = New-CsOnlineSession -Credential $credential
-  ```
-
-> 
-  ```
-  Import-PSSession $session
-  ```
-
-如果希望在启动 Windows PowerShell 的详细信息，请参阅[连接到一个 Windows PowerShell 窗口中的所有 Office 365 提供服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[连接到使用 Windows PowerShell 在线业务 Skype](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
   
 ## <a name="turning-it-on-or-off"></a>打开或关闭该功能
 
-默认情况下，能够预先加载附加到 Outlook 会议邀请 Skype 业务联机会议的内容打开，但您可能需要防止用户在您的组织从预加载内容在其会议中。
+默认情况下，能够预加载附加到的 Outlook 会议邀请 Skype 业务联机会议的内容打开，但您可能需要防止组织预加载在其会议中的内容中的用户。
   
 > [!IMPORTANT]
-> 此设置可以只会打开或关闭您的整个组织;为单个用户，您无法将其打开或关闭。 
+> 此设置可以只被打开还是关闭整个组织;为单个用户，您无法将其打开或关闭。 
   
  **若要将其关闭，请打开 Windows PowerShell 并执行下列操作：**
   
@@ -99,7 +87,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
 
-- 对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

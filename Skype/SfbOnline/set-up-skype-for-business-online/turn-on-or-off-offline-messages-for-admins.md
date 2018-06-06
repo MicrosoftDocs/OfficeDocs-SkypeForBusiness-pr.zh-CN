@@ -16,25 +16,26 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 99238998f5bb5396f0c2c97226ac9dc37180fe01
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 84455ad8efceda6af8f7f077ff9968485debed06
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568394"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>打开或关闭脱机消息（面向管理员）
 
-您可以向您的联系人的业务 IMs 为发送 Skype 即使没有登录。 此功能可让你的联系人知道你已尝试联系他们。 你不必等待直到有人在线才发送消息给他们。 
+您可以向您的联系人的业务 Im 的发送 Skype 即使未登录。 此功能可让你的联系人知道你已尝试联系他们。 你不必等待直到有人在线才发送消息给他们。 
   
 对于脱机消息，请务必了解：
   
 - 脱机消息不会在用户的邮箱中存档。
     
-- 脱机消息将被发送到用户的邮箱，并登录 Skype 业务时，将通知用户。
+- 脱机消息将发送到用户的邮箱，并登录到 for Business 的 Skype 时将通知用户。
     
-- 如果邮件收件人的状态设置为**请勿打扰**或**演示**时，他们将收到从收件人的 Skype 业务客户端发送丢失报的文。
+- 如果在邮件收件人的状态设置为**请勿打扰**或**演示**，他们将收到错过的消息所发送的收件人的 Skype 业务客户端。
     
-有关详细信息，请参阅[使用脱机消息在 Skype 的业务](http://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d)。
+有关详细信息，请参阅[使用脱机消息 for Business 的 Skype](http://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d)。
   
 ## <a name="to-get-you-started"></a>开始使用
 
@@ -66,31 +67,19 @@ ms.lasthandoff: 04/18/2018
 > 
   ```
   Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
-  ```
-
-> 
-  ```
   $credential = Get-Credential
-  ```
-
-> 
-  ```
   $session = New-CsOnlineSession -Credential $credential
-  ```
-
-> 
-  ```
   Import-PSSession $session
   ```
 
-如果希望在启动 Windows PowerShell 的详细信息，请参阅[连接到一个 Windows PowerShell 窗口中的所有 Office 365 提供服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[连接到使用 Windows PowerShell 在线业务 Skype](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
   
 ## <a name="turning-on-or-off-offline-im"></a>打开或关闭脱机即时消息
 
 > [!NOTE]
-> 脱机消息**仅**在业务客户端的即点即用 Skype 最新版本中可用和不可用时使用为业务早即点即用 Skype 或 *.msi 文件安装 Skype 业务客户端所使用。
+> 脱机消息**仅**在单击即点即用 Skype 业务客户端的最新版本中可用和不可用时使用 for Business 旧单击即点即用 Skype 或 *.msi 文件用于安装业务客户端 Skype。
   
-若要启用或禁用脱机邮件发送脱机消息您组织中的用户设置为_EnableIMAutoArchiving_ `True`或`False`。 默认情况下，此设置为`True`。
+启用或禁用脱机邮件发送脱机消息在组织中的用户设置为_EnableIMAutoArchiving_ `True`或`False`。 默认情况下，这设置为`True`。
   
 要将其禁用，请使用 **Set-CsClientPolicy** cmdlet 并运行：
   
@@ -98,26 +87,18 @@ ms.lasthandoff: 04/18/2018
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
-要启用或禁用用户脱机邮件发送脱机消息，请将_EnableIMAutoArchiving_设置为`True`或`False`。 默认情况下设置为  `True`。 您可以使用现有策略或创建一个类似于下面的示例。
+要启用或禁用脱机邮件发送脱机邮件的用户，请将_EnableIMAutoArchiving_设置为`True`或`False`。 默认情况下设置为  `True`。 您可以使用现有的策略或创建一个类似于下面的示例。
   
-> 
+ 
   ```
   New-CsClientPolicy -Identity OfflineIM
-  ```
-
-> 
-  ```
   Set-CsClientPolicy -Identity OfflineIM -EnableIMAutoArchiving $False
-  ```
-
-> 
-  ```
   Grant -CsClientPolicy -Identity "Tony Smith" - PolicyName OfflineIM
   ```
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
 
-- 对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

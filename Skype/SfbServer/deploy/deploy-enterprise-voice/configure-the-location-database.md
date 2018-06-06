@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: 配置、 填充和业务 Server 企业语音中 Skype 发布 E9-1-1 位置数据库。
-ms.openlocfilehash: 0a08d248c5eb7ec406a86f8357c565507bb10ed6
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f07eafbbbfcbb62c7176e35faba48e0d1281ce39
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568329"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置位置数据库
  
@@ -70,7 +71,6 @@ ms.lasthandoff: 05/03/2018
    ```
    $g = Import-Csv subnets.csv
    $g | Set-CsLisSubnet
-
    ```
 
 2. 运行以下 cmdlet，以将无线位置添加到位置数据库。
@@ -125,7 +125,6 @@ ms.lasthandoff: 05/03/2018
    ```
    $pwd = Read-Host -AsSecureString <password>
    Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
-
    ```
 
 3. 运行以下 cmdlet 验证位置数据库中的地址。
@@ -150,7 +149,6 @@ ms.lasthandoff: 05/03/2018
     
   ```
   Publish-CsLisConfiguration
-
   ```
 
 

@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: 了解有关在云连接器版本中部署多个 PSTN 站点的信息。
-ms.openlocfilehash: 2bc56f2cdff3f852bf2557fc3ae98e1a2f8fa854
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: c0e41408b43574fdfd3e8dc6b1d2c8ffc434d8c5
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569524"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>在云连接器中部署多个站点
  
@@ -45,7 +46,6 @@ ExternalSIPIPs=192.168.1.4
 ExternalMRFQDNPoolName=mr1
 ExternalMRIPs=192.168.1.4
 ExternalMRPublicIPs=23.99.115.35
-
 ```
 
 PSTN 站点 2
@@ -64,7 +64,6 @@ ExternalSIPIPs=192.168.1.5
 ExternalMRFQDNPoolName=mr2
 ExternalMRIPs=192.168.1.5
 ExternalMRPublicIPs=104.42.226.134
-
 ```
 
 对于您要添加的每个 PSTN 网站，请按照[Deploy 云 Connector 中单个网站](deploy-a-single-site-in-cloud-connector.md)中的步骤。
