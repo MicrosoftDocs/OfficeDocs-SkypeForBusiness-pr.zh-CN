@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '请参阅如何启用和 Skype 用于业务联机呼叫质量仪表板并获取呼叫的质量摘要报告。 '
-ms.openlocfilehash: 966dc71705344b1cece9b0e706539d64df95bf50
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 856cf70085bbd0c7ca5cd5e253aec991bb970d62
+ms.sourcegitcommit: dfcdb18d0eb3205ef9180f048674f586aac92de0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501265"
+ms.locfileid: "19570313"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用呼叫质量仪表板的 Microsoft 团队和 Skype 业务 online
 
@@ -250,7 +250,7 @@ CQD 摘要报告仪表板包含一个**租户数据上载**的页，通过从右
 
 [使用呼叫分析解决质量欠佳的呼叫质量](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Cll 分析和呼叫质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
+[呼叫分析和呼叫质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  
