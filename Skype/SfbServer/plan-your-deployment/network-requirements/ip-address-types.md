@@ -14,15 +14,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 摘要： 为业务服务器 2015年实现 Skype 之前查看下面的 IP 地址类型注意事项。
-ms.openlocfilehash: d94995e75ecbb4df973a01ebfa5f00ed91575c19
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: adebab15a0c10310b25af30f6e933625df61dc3d
+ms.sourcegitcommit: a612ebe25e06c2cb090f776325712caf3cf3b943
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19630145"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>在 Skype for Business 中配置 IP 地址类型
  
-**摘要：**为业务服务器 2015年实现 Skype 之前查看下面的 IP 地址类型注意事项。
+**摘要：** 为业务服务器 2015年实现 Skype 之前查看下面的 IP 地址类型注意事项。
   
 使用拓扑生成器中配置的拓扑设置部署 IP 地址类型。 本节介绍如何部署前端服务器、 中介服务器和边缘服务器上的 IP 地址类型。
   
@@ -78,20 +79,15 @@ ms.lasthandoff: 05/03/2018
     > [!NOTE]
     > 不支持其他的 Nic 来支持的 PSTN IP 地址配置独立的中介服务器上安装。 有关支持的 Skype 业务服务器的 NIC 配置的详细信息，请参阅[Lync Server 2013 的硬件与 Server hardware platforms](http://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)。 
   
-## <a name="deploy-ip-address-types-on-a-edge-server"></a>在边缘服务器上部署 IP 地址类型
+## <a name="deploy-ip-address-types-on-an-edge-server"></a>在边缘服务器上部署 IP 地址类型
 
-使用拓扑生成器，请执行以下过程可部署边缘服务器上的 IP 地址类型中的步骤。
+使用拓扑生成器，请执行以下步骤：
   
 ### <a name="to-deploy-ip-address-types-on-an-edge-server"></a>在边缘服务器上部署 IP 地址类型
 
 1. 在拓扑生成器，**边缘池**，右键单击池内的服务器，然后选择**编辑属性**。 （或者，选择服务器，，然后单击从**操作**菜单的**编辑属性**。）
     
-2. 在“**编辑属性**”窗口中，选择要支持的 IP 地址配置。下图显示用于内部接口和外部接口的双协议栈配置。
-    
-   **双协议栈边缘服务器内部接口**
-
-   **双堆积的边缘服务器外部接口**
+2. 在“**编辑属性**”窗口中，选择要支持的 IP 地址配置。    
 
 3. 对于您选择的每个地址类型，必须提供适当的内部和外部地址。
     
-

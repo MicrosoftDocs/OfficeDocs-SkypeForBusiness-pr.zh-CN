@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 摘要： 为业务服务器 2015年实现 Skype 之前查看端口使用情况注意事项。
-ms.openlocfilehash: 576b0247631e4f01909acb717e12efbb954d5cb0
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 9f47cf2f04db02765f9693b1128fe1f9440b59e6
+ms.sourcegitcommit: a612ebe25e06c2cb090f776325712caf3cf3b943
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2018
-ms.locfileid: "19546590"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19630152"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>服务器的端口和协议要求
  
@@ -30,6 +30,9 @@ Skype 业务服务器要求的特定端口的外部和内部防火墙上打开�
 尽管这看似位令人望而生畏开始时，可以完成规划此繁重使用[Skype 业务服务器 2015年规划工具](https://go.microsoft.com/fwlink/p/?LinkID=282725)。 后已经历有关哪些功能您打算使用的向导的问题，为每个网站定义您可以查看防火墙报告在边缘管理报告，并使用列出那里来创建 yourfirewall 规则的信息。 您还可以制作调整的许多名称和 IP 地址用于详细信息，请参阅[查看防火墙报告](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)。 需要记住的提醒您可以导出边缘管理报告 Excel 电子表格，并防火墙报告将一个文件中的工作表。 
   
 通过查看协议工作负荷海报移开[Technical diagrams for Business Server 2015 Skype 的](../../technical-diagrams.md)文章链接，还可以在这些表关系图窗体中找到信息。
+> [!NOTE]
+> - 为业务 Online 用户的 Skype 应该参考的[Office 365 Url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 
+> - 您可以有硬件或软件的防火墙，我们不需要特定的模型或版本。 重要的是哪些端口是白名单，因此防火墙将不会影响 Skype 正常业务服务器。
   
 ## <a name="port-and-protocol-details"></a>端口和协议详细信息
 
