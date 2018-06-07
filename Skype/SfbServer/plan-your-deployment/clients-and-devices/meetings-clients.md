@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 摘要： IT 专业人员应规划的 Skype 业务服务器 2015年时查看 Skype 企业 Web 应用程序和 Skype 会议应用程序的支持要求。 这篇文章不适合于这些应用程序的用户。
-ms.openlocfilehash: 832cc68dfb645132c95baaefb9c9af5d9e996a2a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 88006a758909f56f21724706bf9670077d603caa
+ms.sourcegitcommit: 1b4e93727f65b120068a74064b4144f0117f230c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569880"
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19691200"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>规划会议客户端 （Web 应用程序和会议应用程序）
  
@@ -165,8 +165,6 @@ Skype 会议应用程序使用 Windows 10、 Windows 8.1、 Windows 8 和 Window
   
 ## <a name="see-also"></a>另请参阅
 <a name="BKMK_Conferencing"> </a>
-
-[Skype 会议应用程序最小的网络要求](minimum-network-requirements.md)
 
 [部署业务服务器 2015 Skype Web 可下载客户端](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 

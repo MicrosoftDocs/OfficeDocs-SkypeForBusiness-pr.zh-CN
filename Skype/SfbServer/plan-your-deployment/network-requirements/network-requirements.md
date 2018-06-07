@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 摘要： 为业务服务器 2015年实现 Skype 之前查看下面的网络组件注意事项。
-ms.openlocfilehash: cd3d1650903e1615fdaca309be1e8070624fd7b0
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 4cf76cc162e358de0e59ffdd325381fc13583d37
+ms.sourcegitcommit: 1b4e93727f65b120068a74064b4144f0117f230c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505060"
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19691207"
 ---
 # <a name="plan-network-requirements-for-skype-for-business-2015"></a>规划 Skype for Business 2015 的网络要求
  
@@ -261,5 +261,3 @@ Skype 业务服务器提供完全支持的 QoS:，意味着已在使用 QoS 的�
 [负载平衡的 Skype 的业务要求](load-balancing.md)
   
 [For Business Server 2015 Skype 的 DNS 要求](dns.md)
-  
-[服务器的端口和协议要求](ports-and-protocols.md)
