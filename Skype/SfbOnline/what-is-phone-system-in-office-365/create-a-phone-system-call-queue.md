@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: c3ac8c47d0936ecede1532bd9356d0db0807142a
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 18988c7d6f913b85d11bc465c336dfd265fa34a0
+ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501089"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19649579"
 ---
 # <a name="create-a-phone-system-call-queue"></a>创建电话系统呼叫队列
 
@@ -155,7 +155,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 ***
 ![1 号](../images/sfbcallout1.png)<br/><br/>呼叫代理 (50 最大)，可以：
 *    与**电话系统**许可证 Online 用户启用企业语音或调用规划。 <br/><br/> **注意：** 要重定向呼叫的人员在组织中联机，它们必须具有**电话系统**许可证和启用了企业语音或其调用规划。 请参阅[业务和 Microsoft 团队许可证分配 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。 要为他们启用企业语音，可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
-*    与联机用户与**电话系统**许可证和调用规划添加到 Office 365 组、 已启用邮件的通讯组列表或安全组。 It might take up to 30 minutes for a new agent added for a distribution list or a security group to start receiving calls from a call queue. 新建通讯组列表或安全组可能需要长达 48 小时成为可用于呼叫的队列。 新创建的 Office 365 组会几乎立即可用。 <br/> 
+*    联机用户与**电话系统**许可证和调用规划添加到 Office 365 组、 已启用邮件的通讯组列表或安全组。 It might take up to 30 minutes for a new agent added for a distribution list or a security group to start receiving calls from a call queue. 新建通讯组列表或安全组可能需要长达 48 小时成为可用于呼叫的队列。 新创建的 Office 365 组会几乎立即可用。 <br/> 
 
     > [!NOTE] 
     > 用户托管在本地不支持使用 Lync Server 2010。           

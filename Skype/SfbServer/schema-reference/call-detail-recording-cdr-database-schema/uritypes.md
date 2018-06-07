@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
 description: UriTypes 表包含的业务服务器 2015 Skype 中监控的不同 URI （统一资源标识符） 类型。
-ms.openlocfilehash: e21fe7d88c64acf57ad8d318a755b7fa6c73c1c2
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: d1a796367ae068dcd814b13b1b0ec6ce9ae453f1
+ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570056"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19649603"
 ---
 # <a name="uritypes-table"></a>UriTypes 表
  
 UriTypes 表包含的业务服务器 2015 Skype 中监控的不同 URI （统一资源标识符） 类型。
 
-当创建 CDR 数据库后时，将创建两个记录表示 PhoneUri 和 UserUri 和其他内容 
+创建 CDR 数据库后，创建两个记录表示 PhoneUri 和 UserUri，并在的动态分配 UriTypeId 后创建的记录。 
   
 |**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|

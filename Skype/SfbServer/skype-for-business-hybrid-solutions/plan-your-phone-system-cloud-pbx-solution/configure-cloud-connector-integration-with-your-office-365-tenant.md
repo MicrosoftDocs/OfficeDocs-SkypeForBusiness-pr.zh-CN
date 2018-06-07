@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: 了解如何配置云连接器与 Office 365 租户的集成。
-ms.openlocfilehash: 62caf2cd70b16f0a8e85a38b381478d49e4ee37c
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 40cb3334fb3d45432ada1a63aae8368a60433ad0
+ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19649641"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>配置云连接器与 Office 365 租户的集成
  
@@ -165,7 +166,7 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
     
     用作用户域云连接器 （.ini 文件中的第一个 SIP 域） 的默认 SIP 域。
     
-    请勿向你创建的帐户分配任何 Office 365 许可证（如 E5）。等待 Office 365 AD 同步完成。
+    将 Office 365 许可证 （如 E5) 分配给您创建的帐户。
     
 2. 启动租户远程 PowerShell 会话使用租户管理员凭据，然后运行以下 cmdlet 以将中介服务器和边缘服务器 FQDN 设置为该用户帐户，替换\<DisplayName\>用户的显示名称您创建的帐户：
     
