@@ -101,6 +101,7 @@
 ### [定义我成功](1-envision-define-my-success-cloud-voice.md)
 ### [决定我 service-音频会议](2-envision-make-my-service-decisions-audio-conferencing.md)
 ### [决定我服务-与调用计划的电话系统](2-envision-make-my-service-decisions-phone-system.md)
+### [决定我服务-电话系统直接路由](2-envision-make-my-service-decisions-direct-routing.md)
 ### [评估我的环境](3-envision-evaluate-my-environment.md)
 ### [规划我服务管理](4-envision-plan-my-service-management.md)
 ### [规划我的用户体验](5-envision-plan-my-users-experience.md)
