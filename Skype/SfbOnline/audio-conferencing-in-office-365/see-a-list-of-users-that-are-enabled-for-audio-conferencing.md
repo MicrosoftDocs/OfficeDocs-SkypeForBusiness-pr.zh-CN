@@ -20,15 +20,19 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: 28fb899586c6a0904126249b769e6fb0004878ca
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d7a5c272968def249df22af25fd36d257f8c74a0
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703461"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>请参阅启用了音频会议的用户列表
 
 业务或 Microsoft 团队用户音频会议的组织中启用 Skype 后，您可以查看的已启用这些用户的列表。 当您查看列表中，您还将为每个用户的音频会议提供商的他们使用的，对用户的默认电话拨入式电话号码类型列表中看到和您的组织未启用动态的会议 Id、 静态会议 Id为他们所组织的音频会议。
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>查看用户列表
 
@@ -40,9 +44,6 @@ ms.lasthandoff: 05/03/2018
     
 - 在左侧导航窗格中，转到**音频会议** > **用户**。
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-    
 ## <a name="what-else-should-i-know"></a>我还需了解哪些信息？
 
 - 当您查看已启用的用户列表时，可以从列表中选择用户和使用操作窗格编辑该用户的音频会议设置。
@@ -75,7 +76,7 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
-- 对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

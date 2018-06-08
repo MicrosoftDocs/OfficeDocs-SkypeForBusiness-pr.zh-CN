@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "Learn how to assign a conference ID to a user in Skype for Business and what the conference ID's parameters should be. "
-ms.openlocfilehash: 73c5d3cc95b7967cd9d6eaae83a14e19143e431b
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: eccbcd31add14026d2b5f3a57348ae5d6f1db2a5
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703401"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user"></a>查看和重置分配给用户的会议 ID
 
@@ -33,6 +34,9 @@ ms.lasthandoff: 05/08/2018
 虽然会议 ID 将自动创建并分配给用户，有时可能时用户不是要使用此并且您希望将其设置为一个特定号码，或当用户忘记或丢失其会议 id。 您可以使用**Skype 的业务管理中心**和 Windows PowerShell 查看、 更改和重置用户的会议 id。
   
 电子邮件将发送到用户的会议 ID 和默认音频会议的电话号码，或如果重置的会议 ID 将将包括会议 ID，但不是 PIN 发送不同的电子邮件。 有关重置会议组织者的 PIN，[转到此处](reset-a-conference-id-for-a-user.md)的详细信息。 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="view-and-reset-conference-ids"></a>查看和重置会议 Id
 
@@ -48,11 +52,7 @@ ms.lasthandoff: 05/08/2018
 
     > [!TIP]
     > 您可以向中包括的会议 ID 和音频的电话号码，通过单击**发送电子邮件中的会议信息**链接的电子邮件的用户发送的所有会议信息。
-
   
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 您可以使用 Windows PowerShell 查看用户的会议 ID。 为此，请运行：
     
   ```
@@ -114,7 +114,7 @@ ms.lasthandoff: 05/08/2018
     
 3. 在**业务管理中心的 Skype**> **音频会议** > **用户**，在**会议 ID**下的操作窗格中单击**重置**。
     
-4. 在**重置的会议 ID？**窗口中，单击**是**。 A conference ID will be automatically created and an email sent to the user with the new conference ID.
+4. 在**重置的会议 ID？** 窗口中，单击**是**。 A conference ID will be automatically created and an email sent to the user with the new conference ID.
     
     您可以通过使用 Windows PowerShell 重置用户的会议 ID。 若要执行此操作，请运行：
     

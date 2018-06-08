@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
-ms.openlocfilehash: eb827cff5bdfbc86bf85aab63a8f29165a91f034
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 3a02ae779b55aa9ca4f340d5a88d6e5fb9c5f750
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703411"
 ---
 # <a name="reset-a-conference-id-for-a-user"></a>重置用户的会议 ID
 
@@ -33,7 +34,10 @@ ms.lasthandoff: 05/08/2018
 > [!NOTE]
 > 如果您的会议提供商是 Microsoft，默认情况下用户的会议 Id 设置为仅动态中。 遗憾的是，它不能更改业务管理中心或使用 Windows Powershell 成为静态的因为这是现在 Skype 中不受支持。
 仅为业务和 Microsoft 团队为启用的用户进行音频会议的 Skype 仅自动设置会议 Id。 
-  
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="resetting-the-conference-id-for-a-user"></a>重置用户的会议 ID
 
 ![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
@@ -50,7 +54,7 @@ ms.lasthandoff: 05/08/2018
     
 1. 中的**Skype 业务管理中心的**中，单击**音频会议** > **用户**，选择一个用户，，，然后单击下**的会议 ID**操作窗格中的**重置**。
     
-2. 在**重置的会议 ID？**窗口中，单击**是**。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 默认情况下电子邮件发送给用户，但这可以关闭。
+2. 在**重置的会议 ID？** 窗口中，单击**是**。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 默认情况下电子邮件发送给用户，但这可以关闭。
     
 > [!NOTE]
 > [!注释] 重置会议 ID 后，会向用户发送包含新会议 ID 的电子邮件。此电子邮件将发送到主电子邮件地址，大多数情况下是其 Office 365 邮箱。电子邮件中包含新的会议 ID、默认拨入电话号码以及使用 Skype for Business 会议更新工具更新现有会议的说明。 

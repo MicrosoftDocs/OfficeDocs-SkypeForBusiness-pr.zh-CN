@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '获取所需更改用于提示呼叫者和它们不使用 Skype 业务或 Microsoft 团队的应用程序时收集名称和 pin 的会议组织者的会议桥的设置的步骤。 '
-ms.openlocfilehash: 439907b6b1055db2487491c4b0be89cbb96bdf72
-ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
+ms.openlocfilehash: d01ef5f96483ae26ccfaf429e87221b1a5c61d11
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703675"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改现有音频会议桥的设置
 
@@ -35,7 +36,7 @@ ms.lasthandoff: 05/19/2018
   > [!IMPORTANT]
   > PIN 才所需的会议组织者时为业务或 Microsoft 团队的应用程序用户 Skype 不起作用已经启动会议。 所有人都拨入会议，PIN 需要会议组织者要开始会议。 
 
-> [!CAUTION]
+> [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="teams-logo-30x30pngimagesteams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![团队-徽标-30x30.png](../images/teams-logo-30x30.png) 使用 Microsoft 团队和 Skype for Business Admin Center

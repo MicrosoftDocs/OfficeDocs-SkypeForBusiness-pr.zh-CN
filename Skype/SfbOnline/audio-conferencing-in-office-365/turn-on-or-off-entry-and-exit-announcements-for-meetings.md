@@ -20,17 +20,21 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. '
-ms.openlocfilehash: 8c2eee6d9a6631fa9ade4e3f1dc4b54b74ea4465
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 18b22e5491b67b6f4ec3f089803bcfb5e486eb14
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703451"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>打开或关闭会议的进入和退出通知
 
 当您要设置 Office 365 中的音频会议时，您将看到音频会议桥。 会议桥可以包含一个或多个人员将用于连接到企业或 Microsoft 团队会议 Skype 的电话号码。 
   
 会议网桥负责应答使用电话拨入会议的用户的呼叫。 会议桥应答来自会议自动助理的呼叫者使用语音提示并随后，具体取决于您的设置，可以播放通知，向呼叫者提出记录其姓名，并设置 PIN 安全。 PIN 赋予业务或 Microsoft 团队会议组织者，Skype 并允许其开始会议，如果它们无法启动会议使用 Skype 业务或 Microsoft 团队的应用程序。 但是，可以将它以便启动会议不需要 PIN。
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-meeting-join-options"></a>设置会议加入选项
 
@@ -60,8 +64,6 @@ ms.lasthandoff: 05/03/2018
     
 5. 完成更改后，单击" **保存**"。
     
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 

@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
-ms.openlocfilehash: 4deb415e9fd7154d72b7d598bcc5dfb8eabed6ed
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 8abdd9bcd61c55c7d55d896feef36afed22b312f
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703471"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin"></a>通过电话的 PIN 不开始音频会议
 
@@ -33,6 +34,9 @@ ms.lasthandoff: 05/03/2018
 如果会议组织者在调用会议，默认情况下，启动会议需要 PIN。 您可以将它设置以便任何人都可以拨号加入会议并不会提示输入 PIN 才能启动会议。 你可以使用 Skype for Business 管理中心为单个用户启用或禁用此设置。
   
 PIN 不需要会议组织者，如果某人已从业务或 Microsoft 团队应用程序的 Skype 开始会议。 只有当会议组织者通过电话加入会议时，才需要 PIN。 已分配的**音频会议**许可证并启用了音频会议时，将向音频用户发送会议的 PIN。 请参阅[发送对其进行音频会议信息的用户电子邮件](send-an-email-to-a-user-with-their-dial-in-information.md)和[自动发送给其音频会议设置更改时的用户的电子邮件](emails-sent-to-users-when-their-settings-change.md)。
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>启用或禁用匿名呼叫者加入会议
 
@@ -58,8 +62,7 @@ PIN 不需要会议组织者，如果某人已从业务或 Microsoft 团队应�
     
 4. 单击" **保存**"。 
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
     
  **使用 Windows Powershell**
   
@@ -93,7 +96,7 @@ PIN 不需要会议组织者，如果某人已从业务或 Microsoft 团队应�
     
   - [为什么您需要使用 Office 365 PowerShell 中](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过只使用 Office 365 管理中心中的，如时要进行设置更改多个用户一次。 请在以下主题中了解这些优点： 
     

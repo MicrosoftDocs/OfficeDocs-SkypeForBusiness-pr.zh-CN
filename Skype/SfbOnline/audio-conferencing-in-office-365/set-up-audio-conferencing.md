@@ -22,11 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '了解如何设置电话拨入式或音频会议的人员在您的业务需要加入使用电话的电话会议。 '
-ms.openlocfilehash: d91a3637a0f7d35d319368017e0f9c6611faf2a7
-ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
+ms.openlocfilehash: 52872b9995d5973ee872e3105c870ccf7bb07abc
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703481"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams"></a>设置音频会议 for Skype Business 和 Microsoft 团队
 
@@ -35,6 +36,9 @@ ms.lasthandoff: 05/09/2018
 您只需为建立音频会议计划安排或潜在顾客会议的人员。 拨入会议与会者不需要任何许可证分配给他们或其他设置。
   
 有关音频会议的常见问题进行了问题，请参阅[音频会议的常见问题](audio-conferencing-common-questions.md)。
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="step-1-find-out-if-audio-conferencing-is-available-in-your-countryregion"></a>步骤 1： 找出音频会议是否在您的国家/地区中可用
 <a name="__top"> </a>

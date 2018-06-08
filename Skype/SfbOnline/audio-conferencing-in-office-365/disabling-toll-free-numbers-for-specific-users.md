@@ -17,11 +17,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理员可以控制如何组织者可以为他们的会议使用免费电话号码。
-ms.openlocfilehash: a63078256ac9ac52b3d405bd3cf1b63120fb77ce
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: c144f807a20088f8e2330b541ba18b1da4b40e10
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703795"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-users"></a>特定用户的禁用免费电话号码
 
@@ -39,6 +40,9 @@ ms.lasthandoff: 05/03/2018
     > 这将向这些会议的所有参与者重新组织者的电子邮件邀请的所有发送。 
 
  - 参与者可以继续加入会议的组织者使用收费电话号码。 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>特定用户的禁用免费电话号码 
 

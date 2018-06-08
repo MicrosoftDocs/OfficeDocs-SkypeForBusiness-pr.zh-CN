@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to look up your dial-in conferencing numbers from within Skype for Business. '
-ms.openlocfilehash: bccd4a5c02dbb6bc32c27e315b80a39705284429
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 70602e252d7c31bff7d6181c0cd5a51353da2def
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703655"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers"></a>音频会议号码的列表，请参阅
 
@@ -41,7 +42,10 @@ ms.lasthandoff: 05/08/2018
   
 > [!NOTE]
 > [!注释] 国内拨入号码供你的组织专用，是唯一可以设为默认电话号码的号码。 但是，国际拨入号码可能会在多个组织之间共享。 
-  
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>若要查看您的音频会议电话号码
 
 ![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
@@ -50,9 +54,6 @@ ms.lasthandoff: 05/08/2018
 2.  查看可用于音频会议的电话号码。
 
 - 您还可以查看的位置和音频会议自动助理将使用的主要语言。
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
 

@@ -20,17 +20,21 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: abb9a526a73951c3b3d4326fff67dc928691e2f1
-ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
+ms.openlocfilehash: 934513c3f119044f05835e49fe73f8aba74de753
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703725"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>指定 Microsoft 作为音频会议提供商
 
 商业和 Microsoft 团队，与 Skype 的 Office 365 中使用音频会议，您的组织中的用户需要已分配给它们的音频会议许可证。 请参阅[尝试或购买 Office 365 中的音频会议](try-or-purchase-audio-conferencing-in-office-365.md)获取许可和成本的详细信息。
 
 Microsoft 音频会议提供电话拨入电话号码和 Pin，会议程序可以使用的会议参与者加入您所在组织的会议 Id。 您只需将 Microsoft 作为音频会议提供商分配给要安排或导致 Skype 业务或 Microsoft 团队会议的人员。
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>指定 Microsoft 作为音频会议提供商
 

@@ -12,28 +12,28 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17a2a7e4be22878cf0625077b23fad388b38bc9e
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 6aaa763c423d7756808856706375f96f99224b9e
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19576949"
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694886"
 ---
-<a name="manage-the-microsoft-teams-private-app-store"></a>管理 Microsoft 团队专用应用程序商店
+<a name="publish-apps-to-the-microsoft-teams-private-app-store"></a>应用程序发布到 Microsoft 团队专用应用程序商店
 ============================================
 
 > [!IMPORTANT]
 > 此页介绍预发布功能，并包含在发布之前，可能下述更改的初步内容。 任何屏幕截图的占位符和外观可能不同于您所看到的内容。
 
-您可以使用 Microsoft 团队专用应用程序商店以构建和分发到您的组织的业务线应用程序。 
+您可以使用 Microsoft 团队专用应用程序商店测试和分发到您的组织的业务线应用程序。 
 
 Microsoft 团队专用应用程序商店允许您分发您生成专门针对您的组织的业务线应用程序和所依赖的完成向用户的关键业务功能。 
  
-有两种方法来管理工作组专用应用程序存储区：
+有两种方法将发布到团队的专用应用程序商店的应用程序：
 - 直接从团队客户端 
-- 利用 Microsoft Graph Api （此方法尚不可用。） Cmdlet
+- 利用 Microsoft Graph Api （此方法尚不可用的预览。） Cmdlet
 
-## <a name="manage-the-teams-private-app-store-from-the-teams-client"></a>从工作组客户端管理团队专用应用程序商店
+## <a name="publish-an-app-to-the-teams-private-app-store-from-the-teams-client"></a>发布到团队的专用应用程序商店的应用程序，来自团队客户端
 
 ### <a name="get-a-teams-app-package"></a>获取团队应用程序包
 

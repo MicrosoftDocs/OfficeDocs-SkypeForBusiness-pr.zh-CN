@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: a588c5b425fe3d71ecd6d73193348b98e8e2f298
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9656dc25347661626397e4f95daee7bd5f460a6d
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703441"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>启用或禁用发送电子邮件时更改音频会议设置
 
@@ -52,6 +53,9 @@ ms.lasthandoff: 05/03/2018
     
   - 向 Microsoft 更改时用户的音频会议提供商。
     
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>启用或禁用从发送给用户的电子邮件
 
 您可以使用的 Microsoft 团队、 业务管理中心中，为 Skype 或 Windows PowerShell 启用或禁用电子邮件发送给用户。

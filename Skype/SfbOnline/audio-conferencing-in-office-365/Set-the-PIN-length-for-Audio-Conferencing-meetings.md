@@ -20,17 +20,21 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business.
-ms.openlocfilehash: 318e24bf30563d0a790584f9c1ccceb01d93c793
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 16b6a34e5de790964f5472cb2ef598eebf4f838f
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703815"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>设置音频会议的 PIN 长度
 
 当您要设置音频会议的 Skype 适用于商务或 Microsoft 团队时，您将看到音频会议桥。 会议网桥可以包含一个或多个电话号码。 设置您的电话号码将包含在会议邀请上的 Skype 业务和 Microsoft 团队的应用程序。
   
 音频会议桥的会议使用电话拨入的人员接听电话。 其接听呼叫者使用语音提示从自动助理，然后，具体取决于您的设置，可以播放通知以及提出呼叫者在记录其姓名。 **Microsoft 桥设置**允许您更改会议通知的设置和会议加入体验，并设置由会议组织者 Pin 长度。 会议组织者使用 Pin 如果无法加入会议的业务或 Microsoft 团队应用程序使用 Skype 启动会议。
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-the-pin-length"></a>设置 PIN 长度
 
@@ -53,9 +57,6 @@ ms.lasthandoff: 05/03/2018
 > [!NOTE]
 > [!注释] PIN 与会议 ID 不同。 会议 ID 由呼叫者在加入会议时使用。 它们用于标识会议。 PIN 用于对作为会议组织者的呼叫者进行身份验证。 
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-  
 ## <a name="want-to-know-more-about-pin-settings"></a>想知道 PIN 设置的详细信息吗？
 
 - 旋转中心点到 12 个数字; 可以是从 4默认值为 5。 在创建 PIN 时只能使用数字。 不能使用字母和特殊字符。

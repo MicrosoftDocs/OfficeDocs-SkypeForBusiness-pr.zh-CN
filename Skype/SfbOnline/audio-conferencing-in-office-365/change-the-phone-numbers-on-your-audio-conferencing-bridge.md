@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 当您购买音频会议许可证时，Microsoft 承载您的组织的音频会议桥。 音频会议桥出从不同位置的电话拨入电话号码，即使这样会议组织者和参与者可以使用其加入 Skype 业务或 Microsoft 团队的会议使用电话。
-ms.openlocfilehash: 0eceff97470bf6c0df6b0818734955ebf71d0f76
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 1801a3501e865ca91081a0e298efc45882a872eb
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568360"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703645"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改您的音频会议网桥上的电话号码
 
@@ -35,13 +35,13 @@ ms.locfileid: "19568360"
   
 > [!NOTE]
 > 若要能够分配/取消分配的会议桥的电话号码的电话号码必须是*服务*号码。 您可以看到它是通过导航到**语音**的号码的类型 > **电话号码**和在**数字类型**列中查找。 Office 365 Communications 字幕式必须设置以使用户拨入免费电话号码上桥的第一个。 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>将新的服务电话号码分配给会议网桥的操作步骤
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>步骤 1-将新的电话号码分配给音频的会议桥
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 1. 使用你的工作帐户登录 Office 365。
     

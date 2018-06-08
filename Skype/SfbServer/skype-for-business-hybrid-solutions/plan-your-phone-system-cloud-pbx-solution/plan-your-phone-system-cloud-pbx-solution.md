@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0c4a0ec4-1a2b-4ce8-8323-f797162ab4fe
 description: 启用呼叫控制和 Office 365 云中的专用交换机 (PBX) 功能在 Office 365 (云 PBX) 解决方案中查找 Microsoft 的电话系统的信息。
-ms.openlocfilehash: 2b8fbad9d5ec81f4e950aa7dfe9041913761f1fb
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9949c2559bcaf6a46e788a0fe640b42c7a66c1b7
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695101"
 ---
 # <a name="plan-your-phone-system-in-office-365-cloud-pbx-solution"></a>规划 Office 365 中的电话系统（云 PBX）解决方案
  
@@ -26,7 +27,11 @@ ms.lasthandoff: 05/03/2018
   
 Microsoft 提供了多种选项为您的用户启用呼叫 landlines 和移动电话通过公共公用电话交换网 (PSTN) — 是否其帐户存在 Skype 上的 Office 365 中的业务联机或您的本地 Skype for Business服务器或 Lync Server 2013 部署。
   
-本文概述了不同的 Microsoft 语音产品，然后即可提供选项可能最适合您，具体取决于组织的当前状态和未来计划在其的指南。 本文 Skype 以及可用于业务联机语音解决方案海报[Visio](https://download.microsoft.com/download/2/E/E/2EE5C4DE-7F12-475C-A507-37870020F0D3/Plan Voice Solution poster - Final.vsdx)和[PDF](https://download.microsoft.com/download/2/E/E/2EE5C4DE-7F12-475C-A507-37870020F0D3/Plan Voice Solution poster - Final.pdf)格式下载。
+本文概述了不同的 Microsoft 语音产品，然后即可提供选项可能最适合您，具体取决于组织的当前状态和未来计划在其的指南。 
+
+可用于业务联机语音解决方案海报的 Visio 和 PDF 格式下载以及 Skype 这篇文章：
+* [Visio](https://download.microsoft.com/download/2/E/E/2EE5C4DE-7F12-475C-A507-37870020F0D3/Plan%20Voice%20Solution%20poster%20-%20Final.vsdx)
+* [PDF](https://download.microsoft.com/download/2/E/E/2EE5C4DE-7F12-475C-A507-37870020F0D3/Plan%20Voice%20Solution%20poster%20-%20Final.pdf)
   
 ## <a name="enterprise-voice"></a>企业语音
 

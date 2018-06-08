@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: 66cf9e662231a9afefe605649e8bae0d4652713b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 31d81b1a61838d4fcb8151ef467b14a9c1240c4b
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703381"
 ---
 # <a name="dialing-out-from-a-meeting-so-other-people-can-join-it"></a>从会议拨出，以便其他人可以加入会议
 
@@ -33,6 +34,9 @@ ms.lasthandoff: 05/03/2018
 - 您可以拨出，仅当您加入会议使用 Skype 业务或 Microsoft 团队的应用程序。
     
 - 您作为会议组织者已启用音频会议。
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
  **步骤 1:** 在邀请会议中，使用**邀请多人**选项拨出电话号码。
   

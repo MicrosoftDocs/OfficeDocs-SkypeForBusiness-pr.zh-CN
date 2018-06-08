@@ -20,17 +20,21 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解关于 Pin 应知道什么以及如何重置它们。 '
-ms.openlocfilehash: 956c8e1ec7a83832c9aa2605845bc7fd42a047f7
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 85e890327da538016ffb874ee01be0e86959f47e
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703755"
 ---
 # <a name="reset-the-audio-conferencing-pin"></a>重置 PIN 的音频会议
 
 PIN 是为每个 Skype 业务和 Microsoft 团队由启用了音频会议的用户创建的数字组成的代码。 音频会议 Pin 使用会议组织者标识它们是会议组织者，并允许通过电话开始会议。 如果他们使用的业务或 Microsoft 团队应用程序 Skype 开始会议，不需要 PIN。 如果用户忘记了其 PIN，他们不能在他们已启用音频会议时发送给他们的电子邮件中找到它，管理员可以重置其 PIN，或者他们可以重置其自己的 PIN。
   
 使用 Skype 业务或 Microsoft 团队的应用程序或组织者通过电话加入与他/她的 PIN 的身份验证的用户加入时，可以启动会议。 如果会议要求提供 PIN 才能启动，则通过电话加入会议的所有用户都将进入会议厅并将收听保持音乐，直至会议启动。 如果会议组织者不需要 PIN 来通过电话启动会议，则当呼叫者加入会议时，系统不会要求他们提供 PIN。
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="reset-a-users-pin"></a>重置用户的 PIN
 

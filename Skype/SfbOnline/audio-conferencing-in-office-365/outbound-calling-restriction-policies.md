@@ -16,11 +16,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理员可以控制音频会议和最终用户 PSTN 的呼叫可以由用户所做的类型。
-ms.openlocfilehash: 2929198a8bfff866f0d9f6d375593cd429885b2e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0533a15d6c60720f37c859f110b30af617d95774
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703421"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>出站调用的限制策略的音频会议和用户 PSTN 呼叫
 
@@ -36,6 +37,8 @@ ms.lasthandoff: 05/03/2018
    > [!NOTE]
    > 呼叫被确定为国内如果的呼叫的电话号码位于相同的国家/地区作为会议 （对于音频会议） 或最终用户 （对于最终用户 PSTN 呼叫） 的组织者设置 Office 365 中的国家或地区。 
 
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>限制音频会议出站呼叫 
 

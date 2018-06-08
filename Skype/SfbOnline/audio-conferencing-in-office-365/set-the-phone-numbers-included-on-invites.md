@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 5ddc20d1b9166315581a6f894c5d630d9e247881
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: eb2c5c5e8cdc0562cb5a2e391c741763b1da0bd4
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568278"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703745"
 ---
 # <a name="set-the-phone-numbers-included-on-invites"></a>设置的电话号码包含在邀请
 
@@ -38,6 +38,9 @@ Office 365 中的音频会议，组织中的用户创建的业务和 Microsoft �
   
 > [!NOTE]
 > 可以有一个收费和一个免费电话号码的会议组织者，会议邀请上的最大值，但还有位于底部的每个打开的完整列表可用于加入会议的所有电话拨入电话号码的会议邀请的链接。 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>为会议组织者设置的默认电话拨入式电话号码
 
@@ -56,9 +59,6 @@ Office 365 中的音频会议，组织中的用户创建的业务和 Microsoft �
     ![单击编辑旁边音频会议](../images/teamseditaudioconf.png)
 
 4. 使用**收费电话号码**或**免费电话号码**字段，用户输入的数字。
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
 

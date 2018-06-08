@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 会议迁移服务 (MMS) 是在后台运行，并为用户的业务和 Microsoft 团队会议将自动更新 Skype 业务服务 Skype。 MMS 旨在消除用户运行会议迁移工具需要更新其 Skype 业务和 Microsoft 团队的会议。
-ms.openlocfilehash: f81c394d676da951cf98f34f080fb26f135b9550
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 820726451c1ed9a28d29882903348f231ee4ce16
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500996"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703805"
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>设置会议迁移服务 (MMS)
 
@@ -141,6 +141,9 @@ MMS 会像会议迁移工具一样代表用户发送会议更新。 因此，只
 ## <a name="managing-mms"></a>管理 MMS
 
 您需要使用 Windows PowerShell 管理 MMS 和检查持续迁移的状态。 本部分信息的前提是你了解如何使用 PowerShell 管理你的 Skype for Business 组织。 如果您是新手 PowerShell，请参阅本文末尾[使用 PowerShell 管理 Business 组织您 Skype](setting-up-the-meeting-migration-service-mms.md#WPSInfo)节。
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ### <a name="how-do-i-check-the-status-of-meeting-migrations"></a>我应该如何检查会议迁移的状态？
 

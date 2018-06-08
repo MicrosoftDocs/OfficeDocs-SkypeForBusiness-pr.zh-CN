@@ -20,15 +20,19 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 作为 Office 365 管理员，您可以编辑的音频会议设置 — 例如提供程序、 默认收费电话或免费电话号码、 会议 ID 或 PIN-为您的组织中的单个用户。 如果您想要编辑您的组织的设置，请参阅 Manage 音频会议设置我的组织。
-ms.openlocfilehash: 141ede21a99ff251786c7dfc63f4c55358b61c72
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 064625919cab532c10cdadd16ad95e144d301419
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703371"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user"></a>管理用户的音频会议设置
 
 作为 Office 365 管理员，您可以编辑的音频会议设置 — 例如提供程序、 默认收费电话或免费电话号码、 会议 ID 或 PIN-为您的组织中的单个用户。 如果您想要编辑您的组织的设置，请参阅[管理我的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization.md)。
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
 
@@ -64,7 +68,7 @@ ms.lasthandoff: 05/08/2018
     
 |**设置**|**说明**|
 |:-----|:-----|
-|**提供程序名称** <br/> |从列表中选择您的提供商。  <br/><br/> **注意：**此表中的其余设置应用仅当选择 Microsoft 作为音频会议提供商。           |
+|**提供程序名称** <br/> |从列表中选择您的提供商。  <br/><br/> **注意：** 此表中的其余设置应用仅当选择 Microsoft 作为音频会议提供商。           |
 |**默认收费电话号码**（必需） <br/> |对于第三方提供程序，都从音频会议提供商那里收到的以下电话号码。 如果用户正在使用 Microsoft 作为音频会议提供商，这些消息将音频会议桥设置的号码。 设置的数字格式如您所愿 Skype 中显示的业务和 Microsoft 团队会议请求。  <br/> |
 |**默认免费对** <br/> |对于第三方提供程序，都从音频会议提供商那里收到的以下电话号码。 如果用户正在使用 Microsoft 作为音频会议提供商，这些消息将音频会议桥设置的号码。 设置的数字格式如您所愿 Skype 中显示的业务和 Microsoft 团队会议请求。  <br/> |
 |**允许使用组织的 Microsoft 桥中免费电话号码加入此用户的会议** <br/> |如果您想要允许的用户的免费电话号码加入会议，请选择此选项。  <br/> |

@@ -20,15 +20,19 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '请参阅步骤将电话拨入式会议许可和会议 ID 分配给用户和许多其他电话拨入式会议设置。 '
-ms.openlocfilehash: 7a5f82a827049f591d012af7f752e26ac4f9d87b
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 26d80b71344227aeaec7089e2bb9f9a9dfe32ad2
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703665"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>管理我的组织的音频会议设置
 
 可能是您更轻松地查看所有业务和在一个位置的 Microsoft 团队 Skype 的音频会议设置。 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="assign-an-audio-conferencing-license"></a>分配音频会议许可
 
@@ -119,7 +123,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 3. 在**音频会议**，下单击**重置会议 ID**。  
 
-4. 在**重置的会议 ID？**窗口中，单击**重置**。 A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
+4. 在**重置的会议 ID？** 窗口中，单击**重置**。 A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
 
 ![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**  
 
@@ -129,7 +133,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     
 3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议**，并在**会议 ID**下的操作窗格中，单击**重置**。
     
-4. 在**重置的会议 ID？**窗口中，单击**是**。 A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
+4. 在**重置的会议 ID？** 窗口中，单击**是**。 A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
     
     > [!IMPORTANT]
     >  [!重要信息] 创建新会议 ID 后，呼叫者不能再使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 用户可以使用业务会议迁移工具的 Skype 更新其现有会议。 若要查看如何下载、 安装和运行 Skype 业务会议更新工具，请参阅： [Skype 商业和 Lync 会议更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)、[业务 online，会议迁移工具 （64 位） 的 Skype](http://go.microsoft.com/fwlink/?LinkID=626047)和[Skype 业务 online 会议迁移工具 （32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=54079)。
@@ -323,7 +327,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 2. 从列表中选择一个电话号码，单击**编辑**。
 
-3. 选择**默认语言**和**（可选） 的备用语言**下所需的语言。
+3. 选择**默认语言**和 **（可选） 的备用语言**下所需的语言。
 
 ![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype** 
 

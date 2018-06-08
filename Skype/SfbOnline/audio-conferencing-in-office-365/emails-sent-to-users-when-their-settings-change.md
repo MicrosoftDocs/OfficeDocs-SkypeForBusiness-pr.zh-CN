@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. '
-ms.openlocfilehash: 47225eff4d7d8bd091b2b7ba9d795c600cbd4b0e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4766f8f236cbe94b11660165b8659a892d301285
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703431"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change"></a>其设置更改时向用户发送的电子邮件
 
@@ -77,6 +78,9 @@ ms.lasthandoff: 05/03/2018
     
      ![电话拨入式会议已关闭。](../images/audio-conferencing-turned-off.png)
   
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>更改发送给用户的电子邮件
 
 您可以对会自动向用户的电子邮件地址和*从*联系人信息中包括的显示名称包括发送的电子邮件进行更改。 默认情况下，电子邮件发件人将从 Office 365，但您可以更改电子邮件地址，并显示名称使用 Windows PowerShell 和[设置 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet。 若要更改向用户发送电子邮件的电子邮件地址，您必须：
