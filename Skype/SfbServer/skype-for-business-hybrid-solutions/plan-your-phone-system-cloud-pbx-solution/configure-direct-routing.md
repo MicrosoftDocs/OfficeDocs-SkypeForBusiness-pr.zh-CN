@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 了解如何配置 Microsoft 电话系统直接路由。
-ms.openlocfilehash: 2a600b7f6e61ae9dead69e5bfac534e2196974b1
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 225189778a2ab6650cc874d43a6db0fa9f684dfa
+ms.sourcegitcommit: 9dc1c9afccb1792611b6e6d60dfcf62302dbde81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570169"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19709167"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -102,7 +102,7 @@ Enabled               : True
  
 下表列出了您可以设置的*新建 CsOnlinePstnGateway*参数中使用的其他参数。 
 
-|**必填？**|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**说明**|**默认**|**可能的值**|**类型和限制**|
+|必填？|名称|描述|默认|可能的值|类型和限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |是|FQDN|SBC 的 FQDN 名称 |无|NoneFQDN 名称，限制 63 个字符|字符串，在[Active Directory 中的计算机、 域、 站点和 Ou 中的命名约定](https://support.microsoft.com/en-us/help/909264)的允许和禁止字符的列表|
 |否|MediaBypass |参数留作将来使用。 参数指示的 SBC 支持媒体绕过功能，管理员希望使用它。|无|True<br/>False|布尔值|
@@ -207,7 +207,7 @@ Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMai
 例如，若要添加的用户"Spencer 低"的电话号码，您可输入下列： 
 
 ```
-Set-CsUser - “Spencer Low" -OnPremisLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsUser - “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
 使用的电话号码必须配置为完整的 E.164 电话号码与国家/地区代码。 
@@ -334,7 +334,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 若要创建的其他 + 1 路由，请输入：
 
 ```
-New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
+New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
 
@@ -375,7 +375,7 @@ Name            : Redmond 2
 Identity        : Other +1 
 Priority            : 4
 Description     : 
-NumberPattern       : ^\+1(425|206) (\d{7})$
+NumberPattern       : ^\\+1(\d{10})$
 OnlinePstnUsages    : {US and Canada}    
 OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
@@ -413,9 +413,9 @@ Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
 返回结果：
 <pre>
-OnlineVoiceRoutingPolicy
-------------------------
-US Only
+    OnlineVoiceRoutingPolicy
+    ---------------------
+    US Only
 </pre>
 
 #### <a name="creating-a-voice-routing-policy-with-several-pstn-usages"></a>使用多个 PSTN 用法创建语音路由策略
