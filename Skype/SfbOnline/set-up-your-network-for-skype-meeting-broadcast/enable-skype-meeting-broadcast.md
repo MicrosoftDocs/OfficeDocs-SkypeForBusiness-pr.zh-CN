@@ -16,27 +16,28 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: 您的组织中的人员可以使用 Skype 会议广播之前，您需要启用它。 若要执行此操作，您需要了解如何使用 Windows PowerShell。 如果你不了解 Windows PowerShell，请考虑聘用 Microsoft 合作伙伴为你执行此步骤。
-ms.openlocfilehash: 847630e92d0a8ea26edcc7bb70213ee9f932517d
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 您的组织中的人员可以使用 Skype 会议广播之前，您需要启用它。 若要执行此操作，您需要知道如何使用 Windows PowerShell。 如果你不了解 Windows PowerShell，请考虑聘用 Microsoft 合作伙伴为你执行此步骤。
+ms.openlocfilehash: 2564cf8acc809cb3b3973519bfea3518c851eb34
+ms.sourcegitcommit: 0fa147c33b1d7b5790af8d93339700ab62939430
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19744258"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>启用 Skype 会议直播
 
-您的组织中的人员可以使用 Skype 会议广播之前，您需要启用它。 若要执行此操作，您需要了解如何使用 Windows PowerShell。 如果你不了解 Windows PowerShell，请考虑聘用 [Microsoft 合作伙伴](https://go.microsoft.com/fwlink/?linkid=391089)为你执行此步骤。
-  
-> [!CAUTION]
-> 因为广播会议的媒体内容分发使用 Microsoft Azure 内容传递网络 (CDN)，以达到非常高的比例，支持数千个用户观看广播，Skype 会议广播默认情况下已关闭中。通过 CDN 的分块的媒体内容进行加密，然后 CDN 缓存具有有限的寿命。此外，Azure CDN 组件可能不尚未满足欧盟模型子句而造成的欧盟数据保护指令中的所有元素。启用此功能后，您同意本声明。 
+您的组织中的人员可以使用 Skype 会议广播之前，您需要启用它。 若要执行此操作，您需要知道如何使用 Windows PowerShell。 如果你不了解 Windows PowerShell，请考虑聘用 [Microsoft 合作伙伴](https://go.microsoft.com/fwlink/?linkid=391089)为你执行此步骤。
+
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>使用 Skype for Business 管理中心启用 Skype 会议直播
+
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
 
 1. 使用 Office 365 全局管理员帐户登录 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。
     
 2. In the Office 365 Admin center go to **Admin centers** > **Skype for Business**.
     
-3. 在**Skype 的业务管理中心**，转到**联机会议** > **广播会议**，然后选择**启用 Skype 会议广播**。
+3. 在**Skype 业务管理中心的**中，转到**联机会议** > **广播会议**，并**启用 Skype 会议广播**然后选择。
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>使用 PowerShell 启用 Skype 会议直播
 
@@ -76,7 +77,7 @@ ms.lasthandoff: 04/18/2018
   Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
   ```
 
-    您可以确认该设置是否启用了通过运行`Get-CsBroadcastMeetingConfiguration`再次。
+    您可以确认是否已设置启用通过运行`Get-CsBroadcastMeetingConfiguration`再次。
     
      ![Skype 会议直播启用组织 Cmdlet。](../images/788515f0-32c9-415a-9235-6bfbe095e6f3.png)
   
