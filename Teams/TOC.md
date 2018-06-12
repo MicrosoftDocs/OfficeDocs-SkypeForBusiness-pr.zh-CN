@@ -41,6 +41,7 @@
 
 # 与 Office 365 的互操作性
 ## [迁移和 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
+## [设置您的共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 组和 Teams](office-365-groups.md)
 ## [使用 Teams 增强现有 Office 365 组](enhance-office-365-groups.md)
 ## [在 Teams 中创建团队时规划 Office 365 组](plan-office-365-groups.md)
