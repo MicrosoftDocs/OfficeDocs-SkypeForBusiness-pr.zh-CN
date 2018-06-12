@@ -1,5 +1,5 @@
 ---
-title: Skype 会议广播为阻止用户许可证
+title: Skype 会议广播的阻止用户许可证
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,52 +16,46 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: 遗憾的是，有某些被禁止的用户许可证当用户转到https://broadcast.skype.com，并且想要使用 Skype 会议广播。 如果用户看到此消息，它们具有分配给它们的阻止许可证之一。 如果您仍然希望他们能够使用它，请将它们指派另一个 Office 365 提供许可证。
-ms.openlocfilehash: 536df828081fdda78b6a0079a53661a4b3276e3a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 很遗憾，还有阻止某些用户许可证时用户转到https://broadcast.skype.com并且想要使用 Skype 会议广播。 如果用户会看到此消息，他们可以分配给他们的阻止许可证之一。 如果您仍希望他们使用它，请将其分配其他 Office 365 许可证。
+ms.openlocfilehash: f7a7bb44a6de3cfaa5af282f855b0345f0a3ea76
+ms.sourcegitcommit: 2290f152ea13d87fb1fd70007fe19523184ce947
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/12/2018
+ms.locfileid: "19844596"
 ---
-# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Skype 会议广播为阻止用户许可证
+# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Skype 会议广播的阻止用户许可证
 
-遗憾的是，有某些用户许可证，当用户转到阻止https://broadcast.skype.com并且想要使用 Skype 会议广播。 如果用户看到此消息，它们具有分配给它们的阻止许可证之一。 如果您仍然希望他们能够使用它，请将它们指派另一个 Office 365 提供许可证。
+很遗憾，还有被阻止，当用户转到某些用户许可证https://broadcast.skype.com并且想要使用 Skype 会议广播。 如果用户会看到此消息，他们可以分配给他们的阻止许可证之一。 如果您仍希望他们使用它，请将其分配其他 Office 365 许可证。
   
- *"您的公司策略不允许您使用 Skype 会议广播。请检查与您的系统管理员，以确保启用该服务，并且您具有正确的许可证。* 
+ *"您的公司策略不允许您可以使用 Skype 会议广播。咨询您的系统管理员，以确保启用了服务并且具有正确的许可证。"* 
   
-## <a name="blocked-user-licenses"></a>被阻止的用户许可证
+## <a name="blocked-user-licenses"></a>阻止的用户许可证
 
-如果将任何以下用户许可证分配给用户，Skype 会议广播将被阻止。
+如果任何以下用户许可证分配给用户，将会阻止 Skype 会议广播。
   
 - Office 365 教育预计完成成本/人员
     
-- Office 365 教育学生
+- Office 365 教育版学生
     
-- Office 365 教育再加上预计完成成本/员工
+- Office 365 教育以及预计完成成本/员工
     
-- Office 365 教育再加上学生
+- Office 365 教育以及学生
     
-- Office 365 教育 E1 预计完成成本/人员
+- Office 365 教育版 E1 预计完成成本/人员
     
-- Office 365 教育 E1 学生
+- Office 365 教育版 E1 学生
     
-- Office 365 教育 E3 预计完成成本/人员
+- Office 365 教育版 E3 预计完成成本/员工
     
-- Office 365 教育 E3 预计完成成本/职工大
+- Office 365 教育版 E3 预计完成成本/员工大型
     
-- Office 365 教育 E3 学生
+- Office 365 教育版 E3 学生
     
-- Office 365 A3 学生使用效益
+- Office 365 A1 学生使用好处
     
-- Office 365 A5 学生使用效益
-    
-- Office 365 A5 w/o PSTN 会议学生使用效益
-    
-- Microsoft 365 A3 学生使用优点
-    
-- Microsoft 365 A5 学生使用优点
-    
-- PSTN 会议没有 Microsoft 365 A5 学生使用优点
+- Microsoft 365 A1 学生使用好处
+
     
 ## <a name="related-topics"></a>相关主题
 
