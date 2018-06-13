@@ -48,7 +48,7 @@
 ### [用于通话套餐的不同类型的电话号码](../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md)
 ### [为用户获取电话号码](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)
 ### [如何获取 Office 365 的通话套餐](../what-are-calling-plans-in-office-365/how-to-get-calling-plans-for-office-365.md)
-### [管理你的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+### [管理组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 #### [澳大利亚的电话号码管理](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 #### [比利时的电话号码管理](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 #### [加拿大的电话号码管理](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
@@ -97,7 +97,7 @@
 ## [Skype for Business 和 Microsoft Teams 外接程序许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 ### 基于计划的许可证选项
 #### [Office 365 商业高级版](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
-#### [Office 365 高级版、Office 365 专业增强订阅版或 Skype for Business Online 计划 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
+#### [Office 365 高级版、Office 365 专业增强版或 Skype for Business Online 计划 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
 #### [Office 365 企业版 E1、E3 和 E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
 #### [Office 365 企业版 E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
 #### [Office 365 企业版 E5（无音频会议）](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
@@ -146,7 +146,7 @@
 ### [媒体质量和网络连接性能](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
 ### [Skype for Business Online 的代理服务器](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 
-## [呼叫分析和通话质量仪表板]（../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md）
+## [呼叫分析和通话质量仪表板](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [通话质量仪表板中可用的维度和衡量指标](../using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [设置 Skype for Business 通话分析](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [启用和使用通话质量仪表板](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
