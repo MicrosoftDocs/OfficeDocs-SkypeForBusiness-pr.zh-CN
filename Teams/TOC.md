@@ -13,15 +13,16 @@
 
 
 # 设置
+## [Teams 部署概述](deployment-overview.md)
 ## [管理对 Teams 的用户访问](user-access.md)
 ## [获取 Teams 的客户端](get-clients.md)
 ## [团队应用程序的硬件要求](hardware-requirements-for-the-teams-app.md)
 ## [登录到团队](sign-in-teams.md)
-## [Teams 部署概述](deployment-overview.md)
 ## [在你的 Office 365 组织中设置 Teams](Office-365-set-up.md)
 ## [在你的 Office 365 组织中启用 Teams 功能](enable-features-office-365.md)
 ## [转换为新的 Microsoft 团队和业务管理中心的 Skype 的过程管理团队](manage-teams-skypeforbusiness-admin-center.md)
 ## [安装 Microsoft 团队使用 MSI](msi-deployment.md)
+## [与其他组织中的团队用户通信](let-your-teams-users-communicate-with-other-people.md)
 ## [通话质量仪表板中可用的维度和衡量指标](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [设置 Skype for Business 通话分析](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [使用通话分析解决 Skype for Business 通话质量不佳的问题](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -258,6 +259,7 @@
 ### [教程：使用 PowerShell 创建公司范围的团队](company-wide-team-creation-powershell.yml)
 
 ## 管理
+### [让您与其他人进行通信的用户](let-your-teams-users-communicate-with other-people.md)
 ### [查看用户体验指南的质量](quality-of-experience-review-guide.md)
 ### [为 Teams 准备贵组织的网络](prepare-network.md)
 ### [工具和研讨会：规划、交付和运营 Teams](planning-workshop-practical-guide.md)
@@ -266,8 +268,6 @@
 ### [在 Teams 中创建团队时规划 Office 365 组](plan-office-365-groups.md)
 ### [使用 PowerShell 创建公司范围的团队](company-wide-team-creation-powershell.yml)
 ### [Teams 的 PowerShell cmdlet 参考](https://docs.microsoft.com/powershell/module/teams)
-
-
 
 
 # 故障排除和支持
