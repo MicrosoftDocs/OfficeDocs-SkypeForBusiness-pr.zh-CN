@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 阅读此主题以了解有关在 Exchange 配置帐户 Skype 会议室系统 v2 和 Skype 的业务服务器 2015年。
-ms.openlocfilehash: 1aa6c3d9ca8d80f054550cfa167a7a75e032ef0f
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: fb0bbe4b8048bfeda0acf10a0e6cfc73ce8163ea
+ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501374"
+ms.lasthandoff: 06/12/2018
+ms.locfileid: "19856161"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>配置帐户 Skype 会议室系统 v2
  

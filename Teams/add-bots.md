@@ -10,18 +10,19 @@ ms.reviewer: lucarras
 description: 了解如何在 Microsoft Teams 中为私人聊天和频道添加聊天机器人、创建自定义聊天机器人以及为私人聊天侧向加载你自己的聊天机器人。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50abaf5e6fb15451bfa1695ab2a16e0ce1747232
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 08417f4aafae8c7fd844cb253a889b833d0e6266
+ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 06/12/2018
+ms.locfileid: "19856025"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>在 Microsoft Teams 中为私人聊天和频道添加聊天机器人
 ==========================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-聊天机器人是自动化程序，它们可响应查询或者提供有关用户感兴趣或想要及时了解的详细信息的更新和通知。 聊天机器人允许用户在 Microsoft Teams 中通过聊天对话与云服务（例如，任务管理、计划和轮询）交互。 适用于 Microsoft Teams 的聊天机器人基于 [Microsoft Bot Framework](https://go.microsoft.com/fwlink/?linkid=854370) 构建而成， 可以轻松地为 Microsoft Teams 启用使用此框架开发的聊天机器人。 有关详细信息，请参阅[Office 365 提供组织中的管理 Microsoft 小组功能](enable-features-office-365.md)。
+聊天机器人是自动化程序，它们可响应查询或者提供有关用户感兴趣或想要及时了解的详细信息的更新和通知。 聊天机器人允许用户在 Microsoft Teams 中通过聊天对话与云服务（例如，任务管理、计划和轮询）交互。 适用于 Microsoft Teams 的聊天机器人基于 [Microsoft Bot Framework](https://go.microsoft.com/fwlink/?linkid=854370) 构建而成， 可以轻松地为 Microsoft Teams 启用使用此框架开发的聊天机器人。 有关详细信息，请参阅[Office 365 组织中的管理 Microsoft 团队 features](enable-features-office-365.md)。
 
 当前，Microsoft Teams 支持在私人聊天和团队的频道中使用聊天机器人。 管理员可以控制在 Office 365 租户中是允许还是禁止使用聊天机器人。<span id="_T-Bot" class="anchor"></span>
 
@@ -44,11 +45,11 @@ ms.lasthandoff: 03/15/2018
 <a name="side-load-your-own-bot-for-private-chat"></a>为私人聊天侧向加载你自己的聊天机器人
 ---------------------------------------
 
-1.  创建聊天机器人后，转到你开发的聊天机器人的**“聊天机器人仪表板”**[页面](https://go.microsoft.com/fwlink/?linkid=854374)，然后在**“详细信息”**下复制**“Microsoft 应用 ID”**。![突出显示 Microsoft 应用 ID 的聊天机器人的详细信息页面屏幕截图。](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png) 
+1. 您已创建您自动程序后，转到**应用程序设置**为自动程序您开发，然后在**应用程序设置**下，复制**MicrosoftAppId**设置的值。![与 Microsoft 应用程序 ID 突出显示自动程序的应用程序设置的屏幕截图页。](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
 
 
 
-2.  在 Microsoft Teams 中的**“聊天”**窗格上，选择**添加聊天图标**。 将你的聊天机器人的 **Microsoft 应用 ID** 粘贴到**“至:”**。 ![具有“添加聊天”图标且“至:”行中突出显示了 Microsoft 应用 ID 的聊天窗格屏幕截图。](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
+2.  在 Microsoft Teams 中的 **“聊天”** 窗格上，选择**添加聊天图标**。 将你的聊天机器人的 **Microsoft 应用 ID** 粘贴到 **“至:”**。 ![具有“添加聊天”图标且“至:”行中突出显示了 Microsoft 应用 ID 的聊天窗格屏幕截图。](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
 
 
 

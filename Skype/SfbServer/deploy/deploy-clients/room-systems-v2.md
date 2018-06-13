@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读此文，了解有关部署 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 4ca621e17ea00a1f7f75ae0c34a1404f8962896c
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+ms.openlocfilehash: e87d6563b155131a2eee1e08653c9320777b842b
+ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/12/2018
+ms.locfileid: "19856144"
 ---
 # <a name="deployment-overview"></a>部署概述
 

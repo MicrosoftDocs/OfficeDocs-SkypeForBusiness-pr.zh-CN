@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 description: 阅读此主题以获取如何部署与 Exchange 内部部署混合环境中的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: f2550fb5dffcd8be3f3f8e330db2e3cfa32651dd
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: cf816fe8b2a80f10ce34c46cb527bb72774ebd10
+ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500788"
+ms.lasthandoff: 06/12/2018
+ms.locfileid: "19856018"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-on-premises-hybrid"></a>将 Skype 会议室系统 v2 与本地 Exchange 一起部署（混合）
  
@@ -66,16 +66,15 @@ ms.locfileid: "19500788"
 1. 通过具有管理员权限打开您的本地 Exchange 命令行管理程序启用远程邮箱并运行以下命令：
      
    ```
-   Enable-Mailbox 'PROJECTRIGEL01@contoso.com' -RemoteRoutingAddress 'PROJECTRIGEL01@contoso.com' -Room
+   Enable-Mailbox 'PROJECTRIGEL01@contoso.com' -Room
    ```
 
 2. 启动远程 Windows PowerShell 会话并连接到 Microsoft Exchange。 从 Office 365 租户，运行以下命令：
     
    ```
-   Set-ExecutionPolicy Unrestricted
    $org='contoso.com'
    $cred=Get-Credential $admin@$org
-   $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri 'https://outlook.office365.com/ps1-liveid/' -Credential $cred -Authentication Basic -AllowRedirection 
+   $sess = New-PSSession -ConfigurationName Microsoft.Exchange -Credential $cred -AllowRedirection -Authentication Basic -ConnectionUri "https://<ExchangeServerFQDN>/PowerShell"
    Import-PSSession $sess
    ```
 
