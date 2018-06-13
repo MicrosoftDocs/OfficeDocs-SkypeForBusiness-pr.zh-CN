@@ -12,12 +12,12 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: e92f5fdf9aa3b7d60ccf956d0eca872fd7b3f43f
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 8df54547474376266cabad2f70be6877f12f246d
+ms.sourcegitcommit: 75f9d15ec5c6284191c28e783761619326b57d53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2018
-ms.locfileid: "19546457"
+ms.lasthandoff: 06/13/2018
+ms.locfileid: "19862897"
 ---
 # <a name="skype-for-business-online-admin"></a>Skype for Business Online 管理
 
@@ -132,7 +132,9 @@ ms.locfileid: "19546457"
                     </div>
                     <div class="cardText">
                         <h3>资讯</h3>
-                        <p><a href=" ">链接名称</a></p>
+                        <p><a 
+                        href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">在组织中设置电话系统</a></p>
+                        <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">与音频会议的第三方集成</a></p>
                     </div>
                 </div>
             </div>
@@ -150,7 +152,8 @@ ms.locfileid: "19546457"
                     <div class="cardText">
                         <h3>新功能
 </h3>
-                        <p><a href=" ">链接名称</a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">加拿大的通话套餐（通用）</a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">澳大利亚的通话套餐（仅限预览）</a></p>
                     </div>
                 </div>
             </div>
@@ -167,7 +170,7 @@ ms.locfileid: "19546457"
                     </div>
                     <div class="cardText">
                         <h3>重大更新</h3>
-                        <p><a href=" ">链接名称</a></p>
+                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing">设置音频会议</a></p>
                     </div>
                 </div>
             </div>
