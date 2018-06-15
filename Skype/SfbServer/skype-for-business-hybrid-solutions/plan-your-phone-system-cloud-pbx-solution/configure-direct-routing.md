@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 了解如何配置 Microsoft 电话系统直接路由。
-ms.openlocfilehash: 225189778a2ab6650cc874d43a6db0fa9f684dfa
-ms.sourcegitcommit: 9dc1c9afccb1792611b6e6d60dfcf62302dbde81
+ms.openlocfilehash: 8b132174a305e55d79b935ceec5105fcfc1fc2e6
+ms.sourcegitcommit: 6c3bf5f453188bc951e92aa26b5562bf6680d4d7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19709167"
+ms.lasthandoff: 06/15/2018
+ms.locfileid: "19907942"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -346,7 +346,7 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\\+1(\d{10})$"
 - 所有将呼叫路由到相同的 SBC
 
     ```
-    Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern "." 
+    Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" 
      -OnlinePstnGatewayList sbc1.contoso.biz
     ```
 
