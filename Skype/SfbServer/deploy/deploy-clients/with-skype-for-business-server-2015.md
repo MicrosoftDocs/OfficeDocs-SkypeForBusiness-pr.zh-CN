@@ -13,28 +13,28 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: 阅读本主题有关如何部署业务服务器 2015年与 Skype 的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 9705d849027f03a4d4befc6c433f0fe6fb4bc414
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: da5d0319e3dd582d6f446471424814ece3a9d178
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568254"
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887825"
 ---
-# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a><span data-ttu-id="c4b7d-103">将 Skype 会议室系统 v2 与 Skype for Business Server 2015 一起部署</span><span class="sxs-lookup"><span data-stu-id="c4b7d-103">Deploy Skype Room Systems v2 with Skype for Business Server 2015</span></span>
- 
-<span data-ttu-id="c4b7d-104">阅读本主题有关如何部署业务服务器 2015年与 Skype 的 Skype 会议室系统 v2 的信息。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-104">Read this topic for information on how to deploy Skype Room Systems v2 with Skype for Business Server 2015.</span></span>
+# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a><span data-ttu-id="085a9-103">将 Skype 会议室系统 v2 与 Skype for Business Server 2015 一起部署</span><span class="sxs-lookup"><span data-stu-id="085a9-103">Deploy Skype Room Systems v2 with Skype for Business Server 2015</span></span>
   
-<span data-ttu-id="c4b7d-105">本主题介绍如何为单林在本地部署后添加 Skype 会议室系统 v2 的设备帐户。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-105">This topic explains how you add a device account for Skype Room Systems v2 when you have a single-forest, on-premises deployment.</span></span>
+<span data-ttu-id="085a9-104">本主题介绍如何为单林在本地部署后添加 Skype 会议室系统 v2 的设备帐户。</span><span class="sxs-lookup"><span data-stu-id="085a9-104">This topic explains how you add a device account for Skype Room Systems v2 when you have a single-forest, on-premises deployment.</span></span>
   
-<span data-ttu-id="c4b7d-106">如果您具有单林、 内部部署 Exchange 2013 sp1 或更高版本和 Skype 的业务服务器 2015年或更高版本，然后可以使用提供的 Windows PowerShell 脚本创建设备帐户。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-106">If you have a single-forest, on-premises deployment with Exchange 2013 SP1 or later and Skype for Business Server 2015 or later, then you can use the provided Windows PowerShell scripts to create device accounts.</span></span> <span data-ttu-id="c4b7d-107">如果您正在使用的多林部署，您可以使用将产生相同的结果的等效 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-107">If you're using a multi-forest deployment, you can use equivalent cmdlets that will produce the same results.</span></span> <span data-ttu-id="c4b7d-108">本节中对这些 cmdlet 进行了介绍。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-108">Those cmdlets are described in this section.</span></span>
-  
-## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a><span data-ttu-id="c4b7d-109">将 Skype 会议室系统 v2 与 Skype for Business Server 2015 一起部署</span><span class="sxs-lookup"><span data-stu-id="c4b7d-109">Deploy Skype Room Systems v2 with Skype for Business Server 2015</span></span>
+<span data-ttu-id="085a9-105">如果您具有单林、 内部部署 Exchange 2013 sp1 或更高版本和 Skype 的业务服务器 2015年或更高版本，然后可以使用提供的 Windows PowerShell 脚本创建设备帐户。</span><span class="sxs-lookup"><span data-stu-id="085a9-105">If you have a single-forest, on-premises deployment with Exchange 2013 SP1 or later and Skype for Business Server 2015 or later, then you can use the provided Windows PowerShell scripts to create device accounts.</span></span> <span data-ttu-id="085a9-106">如果您正在使用的多林部署，您可以使用将产生相同的结果的等效 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="085a9-106">If you're using a multi-forest deployment, you can use equivalent cmdlets that will produce the same results.</span></span> <span data-ttu-id="085a9-107">本节中对这些 cmdlet 进行了介绍。</span><span class="sxs-lookup"><span data-stu-id="085a9-107">Those cmdlets are described in this section.</span></span>
 
-<span data-ttu-id="c4b7d-110">为业务服务器 2015年部署与 Skype 的 Skype 会议室系统 v2 之前，请确保已满足的要求。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-110">Before you deploy Skype Room Systems v2 with Skype for Business Server 2015, be sure you have met the requirements.</span></span> <span data-ttu-id="c4b7d-111">有关详细信息，请参阅[Skype 会议室系统 v2 要求](../../plan-your-deployment/clients-and-devices/requirements.md)。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-111">For more information, see [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).</span></span>
+<span data-ttu-id="085a9-108">设置用户帐户的最简单方式是它们使用远程 Windows PowerShell 进行配置。</span><span class="sxs-lookup"><span data-stu-id="085a9-108">The easiest way to set up user accounts is to configure them using remote Windows PowerShell.</span></span> <span data-ttu-id="085a9-109">Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，脚本将帮助创建新的用户帐户，或验证必须以帮助您将它们转换为兼容的 Skype 会议室系统 v2 用户帐户的现有资源帐户。</span><span class="sxs-lookup"><span data-stu-id="085a9-109">Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts.</span></span> <span data-ttu-id="085a9-110">如果您愿意，您可以按照以下步骤来配置您的 Skype 会议室系统 v2 设备将使用的帐户。</span><span class="sxs-lookup"><span data-stu-id="085a9-110">If you prefer, you can follow the steps below to configure accounts your Skype Room Systems v2 device will use.</span></span>
   
-<span data-ttu-id="c4b7d-112">开始部署 Skype 会议室系统 v2 之前，请确保您具有正确的权限运行相关联的 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-112">Before you begin to deploy Skype Room Systems v2, be sure you have the right permissions to run the associated cmdlets.</span></span>
+## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a><span data-ttu-id="085a9-111">将 Skype 会议室系统 v2 与 Skype for Business Server 2015 一起部署</span><span class="sxs-lookup"><span data-stu-id="085a9-111">Deploy Skype Room Systems v2 with Skype for Business Server 2015</span></span>
+
+<span data-ttu-id="085a9-112">为业务服务器 2015年部署与 Skype 的 Skype 会议室系统 v2 之前，请确保已满足的要求。</span><span class="sxs-lookup"><span data-stu-id="085a9-112">Before you deploy Skype Room Systems v2 with Skype for Business Server 2015, be sure you have met the requirements.</span></span> <span data-ttu-id="085a9-113">有关详细信息，请参阅[Skype 会议室系统 v2 要求](../../plan-your-deployment/clients-and-devices/requirements.md)。</span><span class="sxs-lookup"><span data-stu-id="085a9-113">For more information, see [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).</span></span>
   
-1. <span data-ttu-id="c4b7d-113">从 PC 启动远程 Windows PowerShell 会话并连接到 Exchange。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-113">Start a remote Windows PowerShell session from a PC and connect to Exchange.</span></span> 
+<span data-ttu-id="085a9-114">开始部署 Skype 会议室系统 v2 之前，请确保您具有正确的权限运行相关联的 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="085a9-114">Before you begin to deploy Skype Room Systems v2, be sure you have the right permissions to run the associated cmdlets.</span></span>
+  
+1. <span data-ttu-id="085a9-115">从 PC 启动远程 Windows PowerShell 会话并连接到 Exchange。</span><span class="sxs-lookup"><span data-stu-id="085a9-115">Start a remote Windows PowerShell session from a PC and connect to Exchange.</span></span> 
     
    ```
    Set-ExecutionPolicy Unrestricted
@@ -48,25 +48,25 @@ ms.locfileid: "19568254"
  
    ```
 
-   <span data-ttu-id="c4b7d-114">请注意，$strExchangeServer 是您的 Exchange 服务器的完全限定的域名 (FQDN) 和 $strLyncFQDN 是业务服务器 2015年部署您 Skype 的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-114">Note that $strExchangeServer is the fully qualified domain name (FQDN) of your Exchange server, and $strLyncFQDN is the FQDN of your Skype for Business Server 2015 deployment.</span></span>
+   <span data-ttu-id="085a9-116">请注意，$strExchangeServer 是您的 Exchange 服务器的完全限定的域名 (FQDN) 和 $strLyncFQDN 是业务服务器 2015年部署您 Skype 的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="085a9-116">Note that $strExchangeServer is the fully qualified domain name (FQDN) of your Exchange server, and $strLyncFQDN is the FQDN of your Skype for Business Server 2015 deployment.</span></span>
     
-2. <span data-ttu-id="c4b7d-115">后建立会话，您将创建新邮箱并启用作为 RoomMailboxAccount 或更改现有的会议室邮箱的设置。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-115">After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox.</span></span> <span data-ttu-id="c4b7d-116">这将允许对 Skype 会议室系统 v2 进行身份验证的帐户。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-116">This will allow the account to authenticate to Skype Room Systems v2.</span></span>
+2. <span data-ttu-id="085a9-117">后建立会话，您将创建新邮箱并启用作为 RoomMailboxAccount 或更改现有的会议室邮箱的设置。</span><span class="sxs-lookup"><span data-stu-id="085a9-117">After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox.</span></span> <span data-ttu-id="085a9-118">这将允许对 Skype 会议室系统 v2 进行身份验证的帐户。</span><span class="sxs-lookup"><span data-stu-id="085a9-118">This will allow the account to authenticate to Skype Room Systems v2.</span></span>
     
-    <span data-ttu-id="c4b7d-117">如果要更改现有的资源邮箱：</span><span class="sxs-lookup"><span data-stu-id="c4b7d-117">If you're changing an existing resource mailbox:</span></span>
+    <span data-ttu-id="085a9-119">如果要更改现有的资源邮箱：</span><span class="sxs-lookup"><span data-stu-id="085a9-119">If you're changing an existing resource mailbox:</span></span>
     
    ```
    Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password>
    -AsPlainText -Force)
    ```
 
-   <span data-ttu-id="c4b7d-118">如果您正在创建新的资源邮箱：</span><span class="sxs-lookup"><span data-stu-id="c4b7d-118">If you're creating a new resource mailbox:</span></span>
+   <span data-ttu-id="085a9-120">如果您正在创建新的资源邮箱：</span><span class="sxs-lookup"><span data-stu-id="085a9-120">If you're creating a new resource mailbox:</span></span>
     
    ```
    New-Mailbox -UserPrincipalName PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room 
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. <span data-ttu-id="c4b7d-119">设备帐户以改善会议体验的人员，您可以设置各种 Exchange 属性。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-119">You can set various Exchange properties on the device account to improve the meeting experience for people.</span></span> <span data-ttu-id="c4b7d-120">你可以看到需要在 Exchange 属性部分设置的属性。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-120">You can see which properties need to be set in the Exchange properties section.</span></span>
+3. <span data-ttu-id="085a9-121">设备帐户以改善会议体验的人员，您可以设置各种 Exchange 属性。</span><span class="sxs-lookup"><span data-stu-id="085a9-121">You can set various Exchange properties on the device account to improve the meeting experience for people.</span></span> <span data-ttu-id="085a9-122">你可以看到需要在 Exchange 属性部分设置的属性。</span><span class="sxs-lookup"><span data-stu-id="085a9-122">You can see which properties need to be set in the Exchange properties section.</span></span>
     
    ```
    Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments 
@@ -74,28 +74,28 @@ ms.locfileid: "19568254"
    Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. <span data-ttu-id="c4b7d-121">如果您决定具有不过期的密码，您可以设置的使用 Windows PowerShell cmdlet 太。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-121">If you decide to have the password not expire, you can set that with Windows PowerShell cmdlets too.</span></span> <span data-ttu-id="c4b7d-122">有关详细信息，请参阅“密码管理”。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-122">See Password management for more information.</span></span>
+4. <span data-ttu-id="085a9-123">如果您决定具有不过期的密码，您可以设置的使用 Windows PowerShell cmdlet 太。</span><span class="sxs-lookup"><span data-stu-id="085a9-123">If you decide to have the password not expire, you can set that with Windows PowerShell cmdlets too.</span></span> <span data-ttu-id="085a9-124">有关详细信息，请参阅“密码管理”。</span><span class="sxs-lookup"><span data-stu-id="085a9-124">See Password management for more information.</span></span>
     
    ```
    Set-AdUser $acctUpn -PasswordNeverExpires $true
    ```
 
-5. <span data-ttu-id="c4b7d-123">启用 Active Directory 中的帐户，因此它将向 Skype 会议室系统 v2 中进行身份验证。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-123">Enable the account in Active Directory so it will authenticate to Skype Room Systems v2.</span></span>
+5. <span data-ttu-id="085a9-125">启用 Active Directory 中的帐户，因此它将向 Skype 会议室系统 v2 中进行身份验证。</span><span class="sxs-lookup"><span data-stu-id="085a9-125">Enable the account in Active Directory so it will authenticate to Skype Room Systems v2.</span></span>
     
    ```
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. <span data-ttu-id="c4b7d-124">使您在 Skype 业务服务器 2015年池上的 Skype 会议室系统 v2 Active Directory 帐户，从而启用业务服务器 2015 Skype 的设备帐户：</span><span class="sxs-lookup"><span data-stu-id="c4b7d-124">Enable the device account with Skype for Business Server 2015 by enabling your Skype Room Systems v2 Active Directory account on a Skype for Business Server 2015 pool:</span></span>
+6. <span data-ttu-id="085a9-126">使您在 Skype 业务服务器 2015年池上的 Skype 会议室系统 v2 Active Directory 帐户，从而启用业务服务器 2015 Skype 的设备帐户：</span><span class="sxs-lookup"><span data-stu-id="085a9-126">Enable the device account with Skype for Business Server 2015 by enabling your Skype Room Systems v2 Active Directory account on a Skype for Business Server 2015 pool:</span></span>
     
    ```
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com 
    -RegistrarPool LYNCPool15.contoso.com -Identity PROJECTRIGEL01
    ```
 
-    <span data-ttu-id="c4b7d-125">该项目需要使用会话初始协议 (SIP) 地址和域控制器。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-125">You'll need to use the Session Initiation Protocol (SIP) address and domain controller for the Project</span></span> 
+    <span data-ttu-id="085a9-127">该项目需要使用会话初始协议 (SIP) 地址和域控制器。</span><span class="sxs-lookup"><span data-stu-id="085a9-127">You'll need to use the Session Initiation Protocol (SIP) address and domain controller for the Project</span></span> 
     
-7. <span data-ttu-id="c4b7d-126">**可选。**</span><span class="sxs-lookup"><span data-stu-id="c4b7d-126">**Optional.**</span></span> <span data-ttu-id="c4b7d-127">您还可以允许 Skype 会议室系统 v2 发起和接收通过您的帐户为启用企业语音的公用电话交换网 (pstn) 电话呼叫。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-127">You can also allow Skype Room Systems v2 to make and receive public switched telephone network (PSTN) phone calls by enabling Enterprise Voice for your account.</span></span> <span data-ttu-id="c4b7d-128">企业语音不需要 Skype 会议室系统 v2，但如果您希望 PSTN 拨号功能 Skype 会议室系统 v2 客户端，下面是如何启用它：</span><span class="sxs-lookup"><span data-stu-id="c4b7d-128">Enterprise Voice isn't a requirement for Skype Room Systems v2, but if you want PSTN dialing functionality for the Skype Room Systems v2 client, here's how to enable it:</span></span>
+7. <span data-ttu-id="085a9-128">**可选。**</span><span class="sxs-lookup"><span data-stu-id="085a9-128">**Optional.**</span></span> <span data-ttu-id="085a9-129">您还可以允许 Skype 会议室系统 v2 发起和接收通过您的帐户为启用企业语音的公用电话交换网 (pstn) 电话呼叫。</span><span class="sxs-lookup"><span data-stu-id="085a9-129">You can also allow Skype Room Systems v2 to make and receive public switched telephone network (PSTN) phone calls by enabling Enterprise Voice for your account.</span></span> <span data-ttu-id="085a9-130">企业语音不需要 Skype 会议室系统 v2，但如果您希望 PSTN 拨号功能 Skype 会议室系统 v2 客户端，下面是如何启用它：</span><span class="sxs-lookup"><span data-stu-id="085a9-130">Enterprise Voice isn't a requirement for Skype Room Systems v2, but if you want PSTN dialing functionality for the Skype Room Systems v2 client, here's how to enable it:</span></span>
     
    ```
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
@@ -104,9 +104,9 @@ ms.locfileid: "19568254"
    Grant-CsDialPlan -PolicyName DP1 -Identity PROJECTRIGEL01
    ```
 
-   <span data-ttu-id="c4b7d-p107">同样，需要用你自己的信息替换所提供的域控制器和电话号码示例。参数值 $true 保持不变。</span><span class="sxs-lookup"><span data-stu-id="c4b7d-p107">Again, you'll need to replace the provided domain controller and phone number examples with your own information. The parameter value $true stays the same.</span></span>
+   <span data-ttu-id="085a9-p108">同样，需要用你自己的信息替换所提供的域控制器和电话号码示例。参数值 $true 保持不变。</span><span class="sxs-lookup"><span data-stu-id="085a9-p108">Again, you'll need to replace the provided domain controller and phone number examples with your own information. The parameter value $true stays the same.</span></span>
     
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-2015-on-premises"></a><span data-ttu-id="c4b7d-131">Exchange 和 Skype 的本地业务服务器 2015年中的示例： 会议室帐户设置</span><span class="sxs-lookup"><span data-stu-id="c4b7d-131">Sample: room account setup in Exchange and Skype for Business Server 2015 on premises</span></span>
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-2015-on-premises"></a><span data-ttu-id="085a9-133">Exchange 和 Skype 的本地业务服务器 2015年中的示例： 会议室帐户设置</span><span class="sxs-lookup"><span data-stu-id="085a9-133">Sample: room account setup in Exchange and Skype for Business Server 2015 on premises</span></span>
 
 ```
 New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force) 
@@ -122,12 +122,14 @@ Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
 Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 ```
 
-## <a name="see-also"></a><span data-ttu-id="c4b7d-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c4b7d-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="085a9-134">另请参阅</span><span class="sxs-lookup"><span data-stu-id="085a9-134">See also</span></span>
 
-[<span data-ttu-id="c4b7d-133">规划 Skype 会议室系统 v2</span><span class="sxs-lookup"><span data-stu-id="c4b7d-133">Plan for Skype Room Systems v2</span></span>](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[<span data-ttu-id="085a9-135">配置帐户 Skype 会议室系统 v2</span><span class="sxs-lookup"><span data-stu-id="085a9-135">Configure accounts for Skype Room Systems v2</span></span>](room-systems-v2-configure-accounts.md)
+
+[<span data-ttu-id="085a9-136">规划 Skype 会议室系统 v2</span><span class="sxs-lookup"><span data-stu-id="085a9-136">Plan for Skype Room Systems v2</span></span>](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[<span data-ttu-id="c4b7d-134">部署 Skype 会议室系统 v2</span><span class="sxs-lookup"><span data-stu-id="c4b7d-134">Deploy Skype Room Systems v2</span></span>](room-systems-v2.md)
+[<span data-ttu-id="085a9-137">部署 Skype 会议室系统 v2</span><span class="sxs-lookup"><span data-stu-id="085a9-137">Deploy Skype Room Systems v2</span></span>](room-systems-v2.md)
   
-[<span data-ttu-id="c4b7d-135">配置 Skype 会议室系统 v2 控制台</span><span class="sxs-lookup"><span data-stu-id="c4b7d-135">Configure a Skype Room Systems v2 console</span></span>](console.md)
+[<span data-ttu-id="085a9-138">配置 Skype 会议室系统 v2 控制台</span><span class="sxs-lookup"><span data-stu-id="085a9-138">Configure a Skype Room Systems v2 console</span></span>](console.md)
   
-[<span data-ttu-id="c4b7d-136">管理 Skype 会议室系统 v2</span><span class="sxs-lookup"><span data-stu-id="c4b7d-136">Manage Skype Room Systems v2</span></span>](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[<span data-ttu-id="085a9-139">管理 Skype 会议室系统 v2</span><span class="sxs-lookup"><span data-stu-id="085a9-139">Manage Skype Room Systems v2</span></span>](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
