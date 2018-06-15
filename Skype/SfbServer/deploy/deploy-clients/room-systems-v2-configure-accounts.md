@@ -12,19 +12,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ''
-description: 阅读此主题以了解有关在 Exchange 配置帐户 Skype 会议室系统 v2 和 Skype 的业务服务器 2015年。
-ms.openlocfilehash: fb0bbe4b8048bfeda0acf10a0e6cfc73ce8163ea
-ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
+description: 阅读本主题以了解如何在 Exchange 中配置的 Skype 会议室系统 v2 的帐户和 Skype 的业务。
+ms.openlocfilehash: 8284795df5f3cc50db0a4089deb9755239e5876e
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19856161"
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887896"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>配置帐户 Skype 会议室系统 v2
  
-阅读本主题可了解 Skype 会议室系统 v2 以及如何将其集成 Exchange 与 Skype 的业务服务器 2015年。
+阅读本主题可了解 Skype 会议室系统 v2 以及它如何与 Exchange 和 Skype 的业务集成。
   
-本主题介绍如何创建用于通过在 Microsoft Exchange 和 Skype 的 Skype 会议室系统 v2 业务服务器 2015年的帐户。 Skype 会议室系统 v2 设备的部署说明涵盖在[配置 Skype 会议室系统 v2 控制台](console.md)。 你的基础结构很可能属于以下配置之一：
+本主题介绍如何创建 for Business 使用在 Microsoft Exchange 和 Skype 的 Skype 会议室系统 v2 的帐户。 Skype 会议室系统 v2 设备的部署说明涵盖在[配置 Skype 会议室系统 v2 控制台](console.md)。 你的基础结构很可能属于以下配置之一：
   
 - Online 部署： 完全在 Office 365 上部署您的组织的环境。 有关详细信息，请参阅[Office 365 的部署 Skype 会议室系统 v2](with-office-365.md)。
     
@@ -76,7 +76,7 @@ Skype 会议室系统 v2 需要 Active Directory、 Exchange 和 Skype for Busin
 |:-----|:-----|
 |基于证书的身份验证  <br/> |Exchange 和 Skype 业务服务器可能需要使用证书。 要部署证书，可以在以管理员身份登录时加载它们。  <br/> |
    
-设置用户帐户的最佳方式是它们使用远程 Windows PowerShell 进行配置。 Microsoft 提供的[SkypeRoomProvisioningScript.ps1](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomProvisioningScript.ps1.txt)，脚本将帮助创建新的用户帐户，或验证必须以帮助您将它们转换为兼容的 Skype 会议室系统 v2 用户帐户的现有资源帐户。
+设置用户帐户的最简单方式是它们使用远程 Windows PowerShell 进行配置。 Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，脚本将帮助创建新的用户帐户，或验证必须以帮助您将它们转换为兼容的 Skype 会议室系统 v2 用户帐户的现有资源帐户。
   
 如果您希望使用 Windows PowerShell cmdlet 通过 Office 365 用户界面，可以手动执行一些步骤。 请参阅[创建设备帐户使用 Office 365](https://technet.microsoft.com/itpro/surface-hub/create-a-device-account-using-office-365)。
   

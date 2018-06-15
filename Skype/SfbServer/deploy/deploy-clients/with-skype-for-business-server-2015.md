@@ -13,20 +13,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: 阅读本主题有关如何部署业务服务器 2015年与 Skype 的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 9705d849027f03a4d4befc6c433f0fe6fb4bc414
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: da5d0319e3dd582d6f446471424814ece3a9d178
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568254"
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887825"
 ---
 # <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>将 Skype 会议室系统 v2 与 Skype for Business Server 2015 一起部署
- 
-阅读本主题有关如何部署业务服务器 2015年与 Skype 的 Skype 会议室系统 v2 的信息。
   
 本主题介绍如何为单林在本地部署后添加 Skype 会议室系统 v2 的设备帐户。
   
 如果您具有单林、 内部部署 Exchange 2013 sp1 或更高版本和 Skype 的业务服务器 2015年或更高版本，然后可以使用提供的 Windows PowerShell 脚本创建设备帐户。 如果您正在使用的多林部署，您可以使用将产生相同的结果的等效 cmdlet。 本节中对这些 cmdlet 进行了介绍。
+
+设置用户帐户的最简单方式是它们使用远程 Windows PowerShell 进行配置。 Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，脚本将帮助创建新的用户帐户，或验证必须以帮助您将它们转换为兼容的 Skype 会议室系统 v2 用户帐户的现有资源帐户。 如果您愿意，您可以按照以下步骤来配置您的 Skype 会议室系统 v2 设备将使用的帐户。
   
 ## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>将 Skype 会议室系统 v2 与 Skype for Business Server 2015 一起部署
 
@@ -123,6 +123,8 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 ```
 
 ## <a name="see-also"></a>另请参阅
+
+[配置帐户 Skype 会议室系统 v2](room-systems-v2-configure-accounts.md)
 
 [规划 Skype 会议室系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   

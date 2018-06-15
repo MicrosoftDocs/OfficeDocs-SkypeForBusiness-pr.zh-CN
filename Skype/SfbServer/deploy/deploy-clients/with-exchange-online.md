@@ -1,5 +1,5 @@
 ---
-title: 将 Skype 会议室系统 v2 与 Exchange Online 一起部署（混合）
+title: 将 Skype 会议室系统 v2 与 Exchange Online 一起部署
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,18 +13,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 阅读此主题以获取如何部署与 Exchange Online 的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: bb9f236db41b4eabd2dd73f2e9344f1ff3681cf7
-ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
+ms.openlocfilehash: dad47f56d96da0f84383b2638684c65554e5a8f9
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/14/2018
-ms.locfileid: "19881572"
+ms.locfileid: "19887889"
 ---
-# <a name="deploy-skype-room-systems-v2-with-exchange-online-hybrid"></a>将 Skype 会议室系统 v2 与 Exchange Online 一起部署（混合）
+# <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>将 Skype 会议室系统 v2 与 Exchange Online 一起部署 
  
-阅读此主题以获取如何部署与 Exchange Online 的 Skype 会议室系统 v2 的信息。
+阅读此主题以获取如何部署与 Exchange Online 和 Skype 业务服务器本地的 Skype 会议室系统 v2 的信息。
   
-如果您的组织具有其中的部分位于内部部署和一些在线承载的服务，组合，然后您的配置将取决于承载每个服务。 本主题介绍了与 Exchange online 承载的混合部署的 Skype 会议室系统 v2。 由于存在太多不同的变体在这种部署，不能提供的所有这些详细的说明。 以下过程将用于许多配置。 如果过程不适合您的安装程序，我们建议您使用 Windows PowerShell (请参阅附录： PowerShell) 可以记录在这里，以及其他部署选项的获得相同的最终结果。 然后您应使用提供的 Windows PowerShell 脚本验证 Skype 会议室系统 v2 安装程序。 （请参阅帐户验证脚本）。
+如果您的组织具有其中的部分位于内部部署和一些在线承载的服务，组合，然后您的配置将取决于承载每个服务。 本主题介绍了与 Exchange online 承载的混合部署的 Skype 会议室系统 v2。 由于存在太多不同的变体在这种部署，不能提供的所有这些详细的说明。 以下过程将用于许多配置。 如果过程不适合您的安装程序，我们建议您使用 Windows PowerShell 可以获得相同的最终结果记录在这里，以及其他部署选项的。 
+
+设置用户帐户的最简单方式是它们使用远程 Windows PowerShell 进行配置。 Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，脚本将帮助创建新的用户帐户，或验证必须以帮助您将它们转换为兼容的 Skype 会议室系统 v2 用户帐户的现有资源帐户。 如果您愿意，您可以按照以下步骤来配置您的 Skype 会议室系统 v2 设备将使用的帐户。
+
+
   
 ## <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>将 Skype 会议室系统 v2 与 Exchange Online 一起部署
 
@@ -141,6 +145,8 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 进行验证，您应该能够使用任何 Skype 业务客户端登录到此帐户。
   
 ## <a name="see-also"></a>另请参阅
+
+[配置帐户 Skype 会议室系统 v2](room-systems-v2-configure-accounts.md)
 
 [规划 Skype 会议室系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   

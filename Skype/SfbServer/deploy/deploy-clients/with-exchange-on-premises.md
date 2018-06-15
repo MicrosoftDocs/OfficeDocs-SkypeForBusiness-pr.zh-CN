@@ -1,5 +1,5 @@
 ---
-title: 将 Skype 会议室系统 v2 与本地 Exchange 一起部署（混合）
+title: 将 Skype 会议室系统 v2 与本地 Exchange 一起部署
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,18 +11,20 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 description: 阅读此主题以获取如何部署与 Exchange 内部部署混合环境中的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: cf816fe8b2a80f10ce34c46cb527bb72774ebd10
-ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
+ms.openlocfilehash: 4fd9b1f2ef7f40f0dac72bd97c25b59d18698154
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19856018"
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887832"
 ---
-# <a name="deploy-skype-room-systems-v2-with-exchange-on-premises-hybrid"></a>将 Skype 会议室系统 v2 与本地 Exchange 一起部署（混合）
+# <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>将 Skype 会议室系统 v2 与本地 Exchange 一起部署
  
-阅读此主题以获取如何部署与 Exchange 内部部署混合环境中的 Skype 会议室系统 v2 的信息。
+阅读本主题有关如何为业务 Online 部署在混合环境与本地 Exchange 和 Skype 的 Skype 会议室系统 v2 的信息。
   
-如果您的组织具有其中的部分位于内部部署和一些在线承载的服务，组合，然后您的配置将取决于承载每个服务。 本主题介绍与部署上承载的 Exchange 混合部署的 Skype 会议室系统 v2。 由于存在太多不同的变体在这种部署，不能提供的所有这些详细的说明。 以下过程将用于许多配置。 如果过程不适合您的安装程序，我们建议您使用 Windows PowerShell 可以获得相同的最终结果记录在这里，以及其他部署选项的。 然后您应使用提供的 Windows PowerShell 脚本验证 Skype 会议室系统 v2 安装程序。 （请参阅帐户验证脚本）。
+如果您的组织具有其中的部分位于内部部署和一些在线承载的服务，组合，然后您的配置将取决于承载每个服务。 本主题介绍与部署上承载的 Exchange 混合部署的 Skype 会议室系统 v2。 由于存在太多不同的变体在这种部署，不能提供的所有这些详细的说明。 以下过程将用于许多配置。 如果过程不适合您的安装程序，我们建议您使用 Windows PowerShell 可以获得相同的最终结果记录在这里，以及其他部署选项的。 
+
+Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，脚本将帮助创建新的用户帐户，或验证必须以帮助您将它们转换为兼容的 Skype 会议室系统 v2 用户帐户的现有资源帐户。 如果您愿意，您可以按照以下步骤来配置您的 Skype 会议室系统 v2 设备将使用的帐户。
   
 ## <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>将 Skype 会议室系统 v2 与本地 Exchange 一起部署
 
@@ -146,6 +148,8 @@ ms.locfileid: "19856018"
 进行验证，您应该能够使用任何 Skype 业务客户端登录到此帐户。
   
 ## <a name="see-also"></a>另请参阅
+
+[配置帐户 Skype 会议室系统 v2](room-systems-v2-configure-accounts.md)
 
 [规划 Skype 会议室系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   

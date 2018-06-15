@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: 本文汇总了支持 Skype 会议室系统 v2 的要求。
-ms.openlocfilehash: 443f24e80b8d7e66c38fdb0e2e99ab6926bce4b4
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 1d44178beb69cda78b72bb8d0e599af81be39321
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504794"
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887875"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype 会议室系统 v2 要求
  
@@ -136,7 +136,7 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
     
 这些下载需要以特定方式合并为可引导的 Windows 安装媒体磁盘中所述进一步[配置的 Skype 会议室系统 v2 控制台](../../deploy/deploy-clients/console.md)。 
   
-此外，您可能需要一份[SkypeRoomProvisioningScript.ps1](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomProvisioningScript.ps1.txt)，用于设置 Skype 会议室系统 v2 帐户。
+此外，您可能需要一份[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，通常用于设置 Skype 会议室系统 v2 帐户。
   
 ## <a name="see-also"></a>另请参阅
 

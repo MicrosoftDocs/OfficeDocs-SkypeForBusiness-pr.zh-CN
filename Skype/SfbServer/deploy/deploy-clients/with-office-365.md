@@ -13,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读此主题以获取如何部署与 Office 365 的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: b44633ae7e0dab875771cbc3146688215d1bdcbc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: bf23da871b3e736bd9fce2ee821b716fc43830b1
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569517"
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887903"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>将 Skype 会议室系统 v2 与 Office 365 一起部署 
  
-阅读此主题以获取如何部署与 Office 365 的 Skype 会议室系统 v2 的信息。
-  
-本主题介绍如何将 Office 365 联机部署后添加 Skype 会议室系统 v2 的设备帐户。
+阅读此主题以获取如何部署与 Office 365，其中的业务和 Exchange Skype 都联机 Skype 会议室系统 v2 的信息。 
+
+设置用户帐户的最简单方式是它们使用远程 Windows PowerShell 进行配置。 Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，脚本将帮助创建新的用户帐户，或验证必须以帮助您将它们转换为兼容的 Skype 会议室系统 v2 用户帐户的现有资源帐户。 如果您愿意，您可以按照以下步骤来配置您的 Skype 会议室系统 v2 设备将使用的帐户。
   
 ## <a name="deploy-skype-room-systems-v2-with-office-365"></a>将 Skype 会议室系统 v2 与 Office 365 一起部署 
 
@@ -180,6 +180,8 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 > 这将添加 CloudPBX 和 PSTNCallingDomesticAndInternational。此外，还需要使用管理界面来指定电话号码。 
   
 ## <a name="see-also"></a>另请参阅
+
+[配置帐户 Skype 会议室系统 v2](room-systems-v2-configure-accounts.md)
 
 [规划 Skype 会议室系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
