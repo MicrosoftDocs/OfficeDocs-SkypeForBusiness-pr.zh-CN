@@ -18,11 +18,13 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 全新的 Office 365 报告仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，您可以使用业务设备使用情况报告的 Skype 查看设备，包括基于 Windows 的操作系统和具有业务应用程序 Skype 的移动设备安装并使用其为 IM 和会议。 查看 Office 365 管理中心中的活动报告以了解详细信息。
-ms.openlocfilehash: 415522c9b8999229e32c90b2ac3be0a69a068a9c
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+search.appverid: MET150
+ms.openlocfilehash: 722a1302f3c94737b520c3c8e23101cc04629a70
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933094"
 ---
 # <a name="device-usage-report"></a>设备使用情况报告
 

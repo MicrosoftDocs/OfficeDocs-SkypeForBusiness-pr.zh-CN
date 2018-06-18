@@ -20,14 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解 Office 365 哪种类型的拨号计划 （PSTN 呼叫拨号计划） 的呼叫，以及如何为您的组织选择一种。  '
-search.appverid:
-- MED150
-- MOE150
-ms.openlocfilehash: ae3ab844279db56f4d3e66551555894935eb8942
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 5df6b2e9f9e5ccb83d6320cbd43f78ef4fc44424
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933162"
 ---
 # <a name="what-are-dial-plans"></a>拨号计划是什么？
 

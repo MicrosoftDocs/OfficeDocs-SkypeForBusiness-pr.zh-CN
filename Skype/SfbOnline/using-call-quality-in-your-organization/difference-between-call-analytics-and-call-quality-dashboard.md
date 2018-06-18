@@ -18,18 +18,19 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 了解有关呼叫分析和呼叫质量仪表板以及何时使用它们来监视和解决 Skype for Business 中的呼叫质量问题。
-ms.openlocfilehash: c8d73ee128425f106174ccad60a0b0c947cc07e5
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 59be26d9f5adc48b71b2b675f872025b13eb206e
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933064"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>呼叫分析和呼叫质量仪表板
 
 Skype for Business 为您提供了两种方法可以监视和解决呼叫质量问题： 呼叫分析和呼叫质量仪表板。 本文介绍这两类，并告诉您何时使用每个。
   
 > [!NOTE]
-> 呼叫分析当前处于预览。 文本和此处描述的图像与您的体验可能不匹配。 
+> 呼叫分析当前处于预览。 文本和此处描述的图像与您的体验可能不匹配。 调用分析中的可用仅最近 30 天的数据。
   
 ## <a name="whats-call-analytics-and-when-should-i-use-it"></a>什么是呼叫分析，我何时应使用它？
 

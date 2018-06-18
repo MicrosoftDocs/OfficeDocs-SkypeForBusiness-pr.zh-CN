@@ -17,12 +17,13 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 新 Skype 业务管理中心报告区域显示您呼叫和音频会议活动在组织中。 使您钻取报告为您提供更精细了解每个用户的活动。 例如，可以使用业务 PSTN minute 池报表 Skype 以查看在组织内当前月份消耗的分钟数。
-ms.openlocfilehash: be1b3cbea37f8d66c25ef6c1e75f18e7473a299e
-ms.sourcegitcommit: 0a0fd436d4d732710bb65e1809ac28dd2e0df41a
+search.appverid: MET150
+ms.openlocfilehash: 876455807887694f7e885038e7473634a40f5f21
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2018
-ms.locfileid: "19526941"
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933054"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN minute 池报告
 

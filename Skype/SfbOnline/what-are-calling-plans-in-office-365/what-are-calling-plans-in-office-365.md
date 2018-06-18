@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: "Learn what Office 365 Callings Plans (PSTN calling) are, what regions it's available in, and where to go for step by step instructions on how to set it up. "
-search.appverid: MED150, MOE150
-ms.openlocfilehash: fa3d5226ce5427bf2431f6f01c49717bc93c5bc4
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 77009e50a1242bf0339dc4aeeb4f12b76373b15f
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933074"
 ---
 # <a name="what-are-calling-plans-in-office-365"></a>什么是 Office 365 中调用计划？
 
