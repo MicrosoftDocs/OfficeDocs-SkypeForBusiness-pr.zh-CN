@@ -10,16 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: 本主题讨论 for Business 连接到远程虚拟桌面时使用 Skype 的部署过程。
-ms.openlocfilehash: 47491b4409f21386cf28f811b6c2c3cbffe1e69b
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 4e4193998a9374c1aa0160999ad53a9ec3d8aab7
+ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501669"
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19927850"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中部署 Lync VDI 插件
  
-本主题讨论 for Business 连接到远程虚拟桌面时使用 Skype 的部署过程。 
+本主题讨论 for Business 连接到远程虚拟桌面时使用 Skype 的部署过程。 [规划在 VDI 环境中的业务的 Skype](../../plan-your-deployment/clients-and-devices/vdi-environments.md)位于规划注意事项。
   
 某些对安全问题及合规性问题特别敏感的组织使用虚拟桌面基础结构 (Virtual Desktop Infrastructure, VDI) 环境。 这些组织的用户驻留在本地 Windows 计算机上并使用虚拟桌面上的客户端。 使用 Skype for Business 连接这样需要其他 VDI 插件软件。
   
