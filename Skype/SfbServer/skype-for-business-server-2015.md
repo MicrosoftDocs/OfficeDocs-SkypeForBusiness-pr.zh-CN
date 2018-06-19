@@ -11,16 +11,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
-description: 摘要： 探讨这些链接以了解如何实现业务服务器 2015 Skype。
-ms.openlocfilehash: ac6462e1604f487ad703fb2e543361a4360a811d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 浏览这些链接以了解如何实现业务服务器 2015 Skype。
+ms.openlocfilehash: 21a776b96c640b152e512b3c052340e2ed8f45d9
+ms.sourcegitcommit: 3356670f2849306ce329899509d2104fe0404939
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19949813"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype for Business Server 2015
 
-Skype 的业务是通信和协作的平台，汇集与企业级安全性、 法规遵从性和控制客户端体验 Skype 的灵感来源。 Skype 为企业提供包括状态、 即时消息、 语音和视频呼叫和联机会议的功能。 
+Skype for Business 是将企业级安全、 合规性以及控制结合在一起的 Skype 灵感来源的客户端体验的沟通和协作平台。 Skype for Business 提供了功能，包括状态、 IM、 语音和视频呼叫和联机会议。 
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -30,7 +31,7 @@ Skype 的业务是通信和协作的平台，汇集与企业级安全性、 法�
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_tasks.svg" alt="Tasks" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-blue.svg" alt="Tasks" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -48,7 +49,7 @@ Skype 的业务是通信和协作的平台，汇集与企业级安全性、 法�
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/SkypeForBusiness/sfbserver/media/icon-hybrid.svg" alt="Hybrid" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid-blue.svg" alt="Hybrid" />
 
                         </div>
                     </div>
@@ -67,7 +68,7 @@ Skype 的业务是通信和协作的平台，汇集与企业级安全性、 法�
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_deploy.svg" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="Deploy" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -85,7 +86,7 @@ Skype 的业务是通信和协作的平台，汇集与企业级安全性、 法�
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_upgrade.svg" alt="Upgrade" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/upload-blue.svg" alt="Upgrade" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -103,7 +104,7 @@ Skype 的业务是通信和协作的平台，汇集与企业级安全性、 法�
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_architecture.svg" alt="Architecture" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/process-flow-blue.svg" alt="Architecture" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -121,11 +122,11 @@ Skype 的业务是通信和协作的平台，汇集与企业级安全性、 法�
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_download-generic.svg" alt="Download" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/download-blue.svg" alt="Download" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>从业务评估中心为 Skype 下载</h3>
+                        <h3>从业务评估中心 Skype 下载</h3>
                     </div>
                 </div>
             </div>
@@ -144,7 +145,7 @@ Skype 的业务是通信和协作的平台，汇集与企业级安全性、 法�
                 <div class="card">
                     <div class="cardText">
                         <h3>在开始之前</h3>
-                        <p>[您的环境的的要求](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)</p>
+                        <p>[针对您的环境的要求](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)</p>
                         <p>[网络要求](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)</p>
                         <p>[客户端和设备](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)</p>
                     </div>
@@ -158,8 +159,8 @@ Skype 的业务是通信和协作的平台，汇集与企业级安全性、 法�
                 <div class="card">
                     <div class="cardText">
                         <h3>安装和管理</h3>
-                        <p>[为业务服务器安装 Skype](/SkypeForBusiness/deploy/install/install)</p>
-                        <p>[管理 Skype 业务服务器](/SkypeForBusiness/manage/manage)</p>
+                        <p>[安装 Business 服务器的 Skype](/SkypeForBusiness/deploy/install/install)</p>
+                        <p>[Skype 管理业务服务器 （英文）](/SkypeForBusiness/manage/manage)</p>
                      </div>
                 </div>
             </div>
@@ -185,7 +186,7 @@ Skype 的业务是通信和协作的平台，汇集与企业级安全性、 法�
                     <div class="cardText">
                         <h3>Skype 会议直播</h3>
                         <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">这是什么？</a></p>
-                        <p>[配置内部部署的 Skype 会议广播](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)
+                        <p>[配置您的本地部署中的 Skype 会议广播](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)
                     </div>
                 </div>
             </div>
@@ -197,9 +198,9 @@ Skype 的业务是通信和协作的平台，汇集与企业级安全性、 法�
                 <div class="card">
                     <div class="cardText">
                         <h3>混合解决方案</h3>
-                        <p>[计划混合连接](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)</p>
+                        <p>[规划混合连接性](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)</p>
                         <p>[规划您的电话系统 (云 PBX) 解决方案](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)</p>
-                        <p>[针对云连接器版的计划](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)</p>
+                        <p>[规划云连接器 Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)</p>
                </div>
                 </div>
             </div>
@@ -211,7 +212,7 @@ Skype 的业务是通信和协作的平台，汇集与企业级安全性、 法�
                 <div class="card">
                     <div class="cardText">
                         <h3>其他资源</h3>
-                        <p><a href="https://infopedia.eventbuilder.com/?landingpageid=7p1c8p">Skype 业务准备情况系列</a></p>
+                        <p><a href="https://infopedia.eventbuilder.com/?landingpageid=7p1c8p">Skype 业务准备系列</a></p>
                     </div>
                 </div>
             </div>
