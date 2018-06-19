@@ -3,7 +3,7 @@ title: 对于教育管理员的 Microsoft 团队资源
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 06/14/2018
+ms.date: 06/18/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47f8660cbcecad81f4d7c7c4d1040a0f824850ec
-ms.sourcegitcommit: 4077dc6e2607a5129554f2013ef50f114211bcf6
+ms.openlocfilehash: cf9d7ce2e4f1e7ca69eecc1da579eeb5d3823135
+ms.sourcegitcommit: 5ccd7b9dad04ac8c1fd7e39e859a9cd1583b6c16
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19900317"
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19952711"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>对于教育管理员的 Microsoft 团队资源
 ==============================================
@@ -28,15 +28,15 @@ ms.locfileid: "19900317"
 
 |可自定义电子邮件模板 |         |
 |---------|---------|
-|**了解团队基础知识**<br>[下载.zip 文件](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/live/teams/downloads/edu-resources/getting-started.zip?raw=true)<br> ![了解团队基础知识的屏幕截图电子邮件模板。](media/outlook-template-teams-basics.png)   |**自定义环境学习**<br>[下载.zip 文件](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/live/teams/downloads/edu-resources/customize-learning.zip?raw=true)<br>![自定义的屏幕截图学习环境电子邮件模板。](media/outlook-template-teams-learn.png)       |
-|**请参阅 how to 简化您的团队中的工作流**<br>[下载.zip 文件](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/live/teams/downloads/edu-resources/workflows.zip?raw=true)<br>![屏幕截图的，请参阅如何优化您的工作流中团队电子邮件模板。](media/outlook-template-teams-workflow.png)     |**了解如何聊天像 pro**<br>[下载.zip 文件](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/live/teams/downloads/edu-resources/chat.zip?raw=true)<br>![了解的屏幕截图如何聊天和专业人员的电子邮件模板类似。](media/outlook-template-teams-chat.png)        |
-|**在执行团队**<br>[下载.zip 文件](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/live/teams/downloads/edu-resources/get-teams.zip?raw=true)<br>![转电子邮件模板上的执行团队的屏幕截图。](media/outlook-template-teams-connect.png)    |          |
+|**了解团队基础知识**<br>[下载.zip 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/getting-started.zip?raw=true)<br> ![了解团队基础知识的屏幕截图电子邮件模板。](media/outlook-template-teams-basics.png)   |**自定义环境学习**<br>[下载.zip 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/customize-learning.zip?raw=true)<br>![自定义的屏幕截图学习环境电子邮件模板。](media/outlook-template-teams-learn.png)       |
+|**请参阅 how to 简化您的团队中的工作流**<br>[下载.zip 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/workflows.zip?raw=true)<br>![屏幕截图的，请参阅如何优化您的工作流中团队电子邮件模板。](media/outlook-template-teams-workflow.png)     |**了解如何聊天像 pro**<br>[下载.zip 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/chat.zip?raw=true)<br>![了解的屏幕截图如何聊天和专业人员的电子邮件模板类似。](media/outlook-template-teams-chat.png)        |
+|**在执行团队**<br>[下载.zip 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-teams.zip?raw=true)<br>![转电子邮件模板上的执行团队的屏幕截图。](media/outlook-template-teams-connect.png)    |          |
 
 |可自定义和就绪为打印海报和海报  |        |
 |---------|---------|
-|**面向教育机构的值中引入的 Microsoft 团队**<br>[下载可自定义.docx 文件](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/teams-edu-customizable-poster-intro-values.docx?raw=true)<br>[下载就绪为打印.pdf 文件](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![面向教育机构的值海报的简介 Microsoft 团队的屏幕截图。](media/poster-intro-values.png)    |**面向教育机构的功能引入的 Microsoft 团队**<br>[下载可自定义.docx 文件](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/team-edu-customizable-poster-intro-features.docx?raw=true)<br>[下载就绪为打印.pdf 文件](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![面向教育机构的功能海报的简介 Microsoft 团队的屏幕截图。](media/poster-intro-features.png)          |
-|**为提供强大功能与 Microsoft 团队的值**<br>[下载可自定义.docx 文件](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/teams-edu-customizable-poster-empower-values.docx?raw=true)<br>[下载就绪为打印.pdf 文件](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![与 Microsoft 团队-值海报助力的屏幕截图。](media/poster-empower-values.png)   |**为提供强大功能与 Microsoft 团队的功能**<br>[下载可自定义.docx 文件](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/teams-edu-customizable-poster-empower-features.docx?raw=true)<br>[下载就绪为打印.pdf 文件](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![与 Microsoft 团队-功能海报助力的屏幕截图。](media/poster-empower-features.png)          |
-|**面向教育机构的 Microsoft 团队的值**<br>[下载可自定义.docx 文件](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[下载就绪为打印.pdf 文件](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/teams-edu-flyer-values.pdf?raw=true)<br>![教育海报的 Microsoft 团队的值的屏幕截图。](media/flyer-values.png)    |**面向教育机构的 Microsoft 团队的功能**<br>[下载可自定义.docx 文件](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[下载就绪为打印.pdf 文件](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/teams-edu-flyer-features.pdf?raw=true)<br>![教育海报的 Microsoft 团队的功能的屏幕截图。](media/flyer-features.png)        |
+|**面向教育机构的值中引入的 Microsoft 团队**<br>[下载可自定义.docx 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-intro-values.docx?raw=true)<br>[下载就绪为打印.pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![面向教育机构的值海报的简介 Microsoft 团队的屏幕截图。](media/poster-intro-values.png)    |**面向教育机构的功能引入的 Microsoft 团队**<br>[下载可自定义.docx 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/team-edu-customizable-poster-intro-features.docx?raw=true)<br>[下载就绪为打印.pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![面向教育机构的功能海报的简介 Microsoft 团队的屏幕截图。](media/poster-intro-features.png)          |
+|**为提供强大功能与 Microsoft 团队的值**<br>[下载可自定义.docx 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-values.docx?raw=true)<br>[下载就绪为打印.pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![与 Microsoft 团队-值海报助力的屏幕截图。](media/poster-empower-values.png)   |**为提供强大功能与 Microsoft 团队的功能**<br>[下载可自定义.docx 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-features.docx?raw=true)<br>[下载就绪为打印.pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![与 Microsoft 团队-功能海报助力的屏幕截图。](media/poster-empower-features.png)          |
+|**面向教育机构的 Microsoft 团队的值**<br>[下载可自定义.docx 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[下载就绪为打印.pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-values.pdf?raw=true)<br>![教育海报的 Microsoft 团队的值的屏幕截图。](media/flyer-values.png)    |**面向教育机构的 Microsoft 团队的功能**<br>[下载可自定义.docx 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[下载就绪为打印.pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-features.pdf?raw=true)<br>![教育海报的 Microsoft 团队的功能的屏幕截图。](media/flyer-features.png)        |
 
 ## <a name="call-to-action"></a>行动号召
 
