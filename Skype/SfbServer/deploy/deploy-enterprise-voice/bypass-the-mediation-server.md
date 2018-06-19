@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 description: 启用媒体绕过以始终绕过中介服务器中 Skype，业务 Server 企业语音。
-ms.openlocfilehash: d7a80d9fb0365dde437f10696b13262f8667addf
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9e28af8bd794c3c0924e9a6688eeca159c435d28
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500432"
 ---
 # <a name="configure-media-bypass-in-skype-for-business-server-2015-to-always-bypass-the-mediation-server"></a>Skype 的业务服务器 2015 以始终绕过中介服务器中配置媒体绕过
  
@@ -44,9 +45,6 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [规划媒体绕过中的业务 2015 Skype](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
 [部署业务服务器 2015 Skype 中的媒体绕过](deploy-media-bypass.md)
-

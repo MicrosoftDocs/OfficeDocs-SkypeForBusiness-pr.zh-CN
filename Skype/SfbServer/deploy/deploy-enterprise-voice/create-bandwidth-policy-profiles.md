@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: 创建或修改带宽策略，使用 Skype 中的企业语音呼叫允许控制业务服务器。
-ms.openlocfilehash: 6cb3e22151596fe388f5f72f3a9325c97671e257
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 51516e07a75cc4239d89310c9d33194a225b3a02
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500588"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建带宽策略配置文件
  
@@ -91,8 +92,6 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [新 CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
 [Get-csnetworkbandwidthpolicyprofile](https://docs.microsoft.com/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
@@ -100,4 +99,3 @@ ms.lasthandoff: 05/03/2018
 [设置 CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/set-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
 [删除 CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkbandwidthpolicyprofile?view=skype-ps)
-

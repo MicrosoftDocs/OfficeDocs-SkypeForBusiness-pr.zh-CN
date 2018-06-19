@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: 创建或删除 Skype 中为 Business Server 企业语音的通知应用程序的通知。 这将影响如何处理打给未分配号码的呼叫。
-ms.openlocfilehash: 2b290c54f805951cdb3dede67c3dafe1a0d542d1
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 5e635ec066ee5a3b76f0d3d9f25d095f57a8bf2e
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500710"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server-2015"></a>创建或删除业务服务器 2015年中 Skype 通知
  
@@ -114,8 +115,6 @@ ms.lasthandoff: 05/24/2018
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [创建或删除业务服务器 2015年中 Skype 通知](create-an-announcement.md)
 
 [Import-csannouncementfile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
@@ -125,4 +124,3 @@ ms.lasthandoff: 05/24/2018
 [Remove-csannouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
   
 [Get-csannouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
-

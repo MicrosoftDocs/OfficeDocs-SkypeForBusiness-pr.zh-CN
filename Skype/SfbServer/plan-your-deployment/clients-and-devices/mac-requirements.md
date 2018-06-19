@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: 阅读此主题以了解有关硬件、 软件和基础结构要求运行 for Business 的 Skype mac。
-ms.openlocfilehash: a963a3bd563f82a2fd26b2a72e0610c10c0be742
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9fd03dbc04937dc34145c97a3abd4fc561ae0270
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503954"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype for Business Mac 客户端要求
  
@@ -73,11 +74,8 @@ HTTP 证书吊销列表必须已定义并且可由客户端访问。 例如，�
 ## <a name="see-also"></a>另请参阅
 <a name="Infrastructure"> </a>
 
-#### 
-
 [For Business Server 2015 Skype 的 DNS 要求](../../plan-your-deployment/network-requirements/dns.md)
 
 [常见问题 (英文）](https://go.microsoft.com/fwlink/p/?LinkId=798227)
   
 [已知的问题](https://go.microsoft.com/fwlink/p/?LinkId=798228)
-

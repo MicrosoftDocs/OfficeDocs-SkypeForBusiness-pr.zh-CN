@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: 了解您可以从 Outlook 和其他 Microsoft Office 应用程序的业务功能访问 Skype 的方法。
-ms.openlocfilehash: 186b8951718e6903ec7cc4f8c317504b74917716
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 49bfb52925855ad7fd5ce0564056cfd8c5039ef6
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503982"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype 业务 Office 相关应用程序的兼容性
  
@@ -60,20 +61,17 @@ ms.lasthandoff: 05/03/2018
 |**Exchange Server 版本**|**Skype 业务支持**|
 |:-----|:-----|
 |Exchange Server 2016  <br/> |与 Exchange Server 2013 支持相同  <br/> |
-|Exchange Server 2013  <br/> |Exchange Server 2010 支持，并添加了相同  <br/>&bull;&nbsp;&nbsp;统一的联系人存储库  <br/>&bull;&nbsp;&nbsp;高分辨率图片  <br/>&bull;&nbsp;&nbsp;存档集成  <br/> **注意：**有关详细信息，请参阅[业务服务器 2015 与 Exchange Server 的集成 Skype](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)。  <br/> |
+|Exchange Server 2013  <br/> |Exchange Server 2010 支持，并添加了相同  <br/>&bull;&nbsp;&nbsp;统一的联系人存储库  <br/>&bull;&nbsp;&nbsp;高分辨率图片  <br/>&bull;&nbsp;&nbsp;存档集成  <br/> **注意：** 有关详细信息，请参阅[业务服务器 2015 与 Exchange Server 的集成 Skype](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)。  <br/> |
 |Exchange Server 2010  <br/> |只有通过 EWS 才能使用以下功能：  <br/>&bull;&nbsp;&nbsp;读取或删除对话历史记录文件夹中的项  <br/>&bull;&nbsp;&nbsp;读取或删除语音邮件项  <br/>&bull;&nbsp;&nbsp;显示扩展的忙/闲信息和会议主题和位置  <br/>&bull;&nbsp;&nbsp;Exchange 联系人同步  <br/> 公用文件夹在 Exchange Server 2010 中是可选的。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
  
-
 [Windows 客户端要求和软件支持](windows-requirements.md)
   
 [规划会议客户端 （Web 应用程序和会议应用程序）](meetings-clients.md)
-#### 
 
 [Lync 2013 中的客户端互操作性](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)
   
 [客户端系统要求](http://technet.microsoft.com/library/38f3a465-dac1-4381-bc59-270a4ef07ced.aspx)
   
 [Lync Windows 应用商店应用程序要求](http://technet.microsoft.com/library/5f2e0a40-8450-4f61-b6f6-913fc1906020.aspx)
-

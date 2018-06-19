@@ -14,15 +14,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 摘要： 了解如何在中央站点的业务服务器 2015年的 Skype 部署企业语音。
-ms.openlocfilehash: 858519652b9f50e11e87c2ac9d3777bae9371ae0
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 1f5a81882e1e4dd7c580e7dba084e6aa5d2f01a1
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500809"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中部署企业语音
  
-**摘要：**了解如何为业务服务器 2015 中央站点部署 for Skype 的企业语音。
+**摘要：** 了解如何为业务服务器 2015 中央站点部署 for Skype 的企业语音。
   
 使用本主题将在中央站点的企业语音部署。 若要部署企业语音，在分支站点，请跳到[部署分支站点](http://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx)。
   
@@ -59,7 +60,4 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [规划业务服务器 2015 Skype 中的企业语音](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
-

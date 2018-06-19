@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: 为用户启用组中 Skype 调用的分拣业务 Server 企业语音，并分配组数。
-ms.openlocfilehash: ce360bc1f66f3e7b55d3c0f8ea9e392d957f25ea
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 11d62ea5aa29fc5fdd98fb9e1e5851dbc60a1547
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500517"
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business-2015"></a>在 Skype for Business 2015 中为用户启用组内呼叫应答并分配组号码
  
@@ -47,7 +48,4 @@ ms.lasthandoff: 05/03/2018
 
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [用户的禁用组分拣](http://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
-

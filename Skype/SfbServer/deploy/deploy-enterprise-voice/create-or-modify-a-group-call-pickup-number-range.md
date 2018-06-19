@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: 创建或修改业务 Server 企业语音中 Skype 的组呼叫分拣号码范围。
-ms.openlocfilehash: e67c8094bf66590d006fbce75f49258bb3f4f2a9
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b0fd219fb415439712d73e0c5dad22ba3f92b4fa
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500833"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business-2015"></a>在 Skype for Business 2015 中创建或修改组内呼叫应答号码范围
  
@@ -76,11 +77,8 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [新 CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
   
 [设置 CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
   
 [删除呼叫寄存通道范围](http://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
-

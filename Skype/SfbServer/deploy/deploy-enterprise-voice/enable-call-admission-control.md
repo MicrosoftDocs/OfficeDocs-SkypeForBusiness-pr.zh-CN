@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: 启用业务 Server 企业语音中 Skype 的呼叫允许控制。
-ms.openlocfilehash: 321b7838a2a818a9791b72e3851312006eb8dc7e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 86fdd52cb57849d55502190dcc39bbdd243ba6ae
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500802"
 ---
 # <a name="enable-call-admission-control-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中启用呼叫允许控制
  
@@ -61,11 +62,8 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [Get-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
   
 [Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
   
 [删除 CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)
-

@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 摘要： 规划业务服务器 2015 Skype 时查看 Windows 客户端支持要求。
-ms.openlocfilehash: 72e34e334a9b43139b77aec93f29adb76dd56241
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: bbfdef4a9ed811ca0bae7e07a45dbf24aa48d4cb
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19504080"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows 客户端要求和软件支持
  
@@ -70,8 +71,6 @@ Skype 业务服务器 2015年客户端支持与各种版本的 Microsoft Office 
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [规划会议客户端 （Web 应用程序和会议应用程序）](meetings-clients.md)
   
 [Skype for Business Mac 客户端要求](mac-requirements.md)
@@ -79,4 +78,3 @@ Skype 业务服务器 2015年客户端支持与各种版本的 Microsoft Office 
 [下载 for Business 的 Skype 跨所有设备](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)
   
 [Office 365 系统要求](https://products.office.com/en-us/office-system-requirements)
-

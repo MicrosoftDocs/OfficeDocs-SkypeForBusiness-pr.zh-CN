@@ -17,15 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a10bd1d5-c003-46db-9f57-7d55d3fa08da
 description: 摘要： 了解如何为业务 Online 配置内部部署和 Skype 之间的互操作性。
-ms.openlocfilehash: 403cabdd808cd197ece2289564b14fea62a5c72a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 24a3d95c1da90abd083835a9838e246d25c8a954
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19504444"
 ---
 # <a name="configure-federation-with-skype-for-business-online"></a>配置与 Skype for Business Online 联盟
  
-**摘要：**了解如何为业务 Online 配置内部部署和 Skype 之间的互操作性。
+**摘要：** 了解如何为业务 Online 配置内部部署和 Skype 之间的互操作性。
   
 按照本节业务 online 配置内部部署和 Skype 之间的互操作性中的步骤。
   
@@ -82,7 +83,4 @@ Import-PSSession $CSSession -AllowClobber
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [新 CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
-

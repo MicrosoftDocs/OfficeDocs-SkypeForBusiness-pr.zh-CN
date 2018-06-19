@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: 为业务 Server 企业语音的 E9-1-1 在 Skype 配置辅助位置源 （另外） 数据库。
-ms.openlocfilehash: 4eaab1b6dfaae9b1298cce3544d89f8b6724733e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 8f89afa61f235e05955d053e1a28b66a948d42fc
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500493"
 ---
 # <a name="configure-a-secondary-location-information-service-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置辅助位置信息服务
  
@@ -38,7 +39,4 @@ Skype 业务服务器提供了可用于指向辅助位置源 （另外） 数据
 
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [通过 Set-cswebserviceconfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
-
