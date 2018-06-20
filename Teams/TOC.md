@@ -287,6 +287,7 @@
 
 #Teams 教育版
 ## [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
+## [对于教育管理员团队资源](resources-teams-edu.md)
 
 # [Teams 的开发人员文档](https://docs.microsoft.com/microsoftteams/platform)
 
