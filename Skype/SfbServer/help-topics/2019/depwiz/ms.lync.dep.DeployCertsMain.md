@@ -3,7 +3,6 @@ title: 证书向导
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 description: 请求、 分配，请删除，或查看证书，您可以使用证书向导。 必须以 RTCUniversalServerAdmins 组成员的身份登录。 要向公共证书颁发机构 (CA) 请求证书，无需具备其他任何组成员身份。 若要从您的组织的公钥基础结构 (PKI) 申请证书，您需要确认什么其他 — 如果任何 — 组需要的成员身份。 期间请求任务中，您可以输入备用凭据将用于请求来自 PKI 证书的颁发 CA。
-ms.openlocfilehash: d700a6cae510bbc12ed2e37c9c3df166d2704269
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 5216b190aafc095f00cd66e931c84caebd115a69
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19997036"
 ---
 # <a name="certificate-wizard"></a>证书向导
  

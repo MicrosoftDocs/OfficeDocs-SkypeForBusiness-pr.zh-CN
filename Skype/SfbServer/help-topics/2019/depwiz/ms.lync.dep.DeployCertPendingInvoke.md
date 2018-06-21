@@ -3,7 +3,6 @@ title: 待处理的证书 （调用）
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 description: 正在执行命令页上显示要检索的待处理的证书的命令的状态。 完成任务后，检索待处理证书日志文件位于。 单击查看日志，若要查看的处理和任务完成状态。 单击下一步。
-ms.openlocfilehash: 3195ca99c14ba0ca25a3923c4be32d6557feb0fe
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 5846ea840c7caccddb428b00f7d5c33e570667dd
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19996966"
 ---
 # <a name="pending-certificate-invoke"></a>待处理的证书 （调用）
  

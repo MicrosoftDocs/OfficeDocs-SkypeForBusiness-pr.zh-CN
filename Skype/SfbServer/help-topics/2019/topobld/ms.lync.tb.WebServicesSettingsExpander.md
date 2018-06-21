@@ -3,7 +3,6 @@ title: Web 服务设置扩展器
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: 从拓扑生成器中可以修改用于两个内部和外部 web 服务的端口设置。 此外，如果您正在部署域名系统 (DNS) 负载平衡，您可以使用拓扑生成器配置的完全限定的域名 (FQDN) 解析为池中的所有服务器的物理 IP 地址的池和。
-ms.openlocfilehash: 537f9faaf89fbf82e80741d022e0913aa57a02f9
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 775268e598120e28ff6402ac09483e6fa987eceb
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19997071"
 ---
 # <a name="web-services-settings-expander"></a>Web 服务设置扩展器
  

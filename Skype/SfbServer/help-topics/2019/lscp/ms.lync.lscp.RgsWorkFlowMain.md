@@ -3,7 +3,6 @@ title: 响应组工作流
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: 响应组组成代理组、 队列和工作流。 响应组工作流定义响应组应用程序接收电话呼叫时执行的操作。
-ms.openlocfilehash: 1ba3d977aca60e40a5ba09f75a31dfe8f569e4c9
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 6af4d40b75ae090cd3e99746ea111e3d804aed60
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19997022"
 ---
 # <a name="response-groups-workflow"></a>响应组工作流
  
@@ -56,6 +56,6 @@ ms.lasthandoff: 05/25/2018
     
 - **启用**指示是否激活工作流接收呼叫。
     
-有关响应组特性和功能的详细信息，请参阅规划文档中的[计划中的业务服务器 2015 Skype 的响应组应用程序](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 有关使用响应组工作流的详细信息，请参阅操作文档中的[管理响应组工作流](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx)。
+有关响应组特性和功能的详细信息，请参阅[规划响应组应用程序中的业务服务器 Skype](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 有关使用响应组工作流的详细信息，请参阅操作文档中的[管理响应组工作流](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx)。
   
 

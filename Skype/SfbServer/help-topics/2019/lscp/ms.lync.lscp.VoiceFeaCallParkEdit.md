@@ -3,7 +3,6 @@ title: 呼叫寄存创建新的或编辑现有的
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 description: 呼叫寄存号码范围定义临时号码直到有人取回他们或其超时寄存的呼叫保存。
-ms.openlocfilehash: 2bea2933cd61f5f3ea327f06436b736f5bddb4fc
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: fe41af980026c35f7b705a359632a926dd6a416e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19996980"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>呼叫寄存：创建新的或编辑现有的
  
@@ -44,6 +44,6 @@ ms.lasthandoff: 05/25/2018
     
 - **目标服务器的 FQDN**选择相应的完全限定的域名 (FQDN) 或服务 ID 承载呼叫寄存应用程序的应用程序服务。 所有呼叫都寄存的起始号指定的范围内的号码，并会向此服务器或池路由中的号码范围的结束号码。
     
-有关呼叫寄存特性和功能的详细信息，请参阅[规划中的业务 2015 Skype 的呼叫寄存](../../../plan-your-deployment/enterprise-voice-solution/call-park.md)。 有关使用呼叫寄存号码范围的详细信息，请参阅[寄存呼叫配置电话号码的扩展](http://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx)。
+有关呼叫寄存特性和功能的详细信息，请参阅[Plan for Business 的 Skype 中的呼叫寄存](../../../plan-your-deployment/enterprise-voice-solution/call-park.md)。 有关使用呼叫寄存号码范围的详细信息，请参阅[寄存呼叫配置电话号码的扩展](http://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx)。
   
 
