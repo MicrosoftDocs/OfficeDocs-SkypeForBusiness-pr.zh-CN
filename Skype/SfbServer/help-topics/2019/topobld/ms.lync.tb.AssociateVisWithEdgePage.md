@@ -3,7 +3,6 @@ title: 将 VIS 与边缘关联
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,12 +10,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
-description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机 VIS Skype 池中创建的业务服务器 2015年。
-ms.openlocfilehash: eb828abb527e9edb6f8118fa456f2a75b72bb061
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机创建 VIS 池中 Skype 业务服务器。
+ms.openlocfilehash: 4c4bf15d59fa9aa65a747a552d54ac879c06b51a
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19967668"
 ---
 # <a name="associate-vis-with-edge"></a>将 VIS 与边缘关联
  
@@ -32,7 +32,4 @@ ms.lasthandoff: 05/25/2018
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [规划视频互操作性中的服务器 Skype 业务 Server 2015](../../../plan-your-deployment/video-interop-server.md)
-

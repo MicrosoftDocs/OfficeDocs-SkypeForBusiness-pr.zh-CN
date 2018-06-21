@@ -3,7 +3,6 @@ title: 添加边缘服务器内部 IP
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 description: 内部 IP 地址是边缘服务器的内部接口的 IP 地址。
-ms.openlocfilehash: 5571efd62897b45059daad0e5a5786c7ebc0e38c
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: d2307511b263a041d118c4a4fbe801a9d90e7be6
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974210"
 ---
 # <a name="add-edge-server-internal-ip"></a>添加边缘服务器内部 IP
  

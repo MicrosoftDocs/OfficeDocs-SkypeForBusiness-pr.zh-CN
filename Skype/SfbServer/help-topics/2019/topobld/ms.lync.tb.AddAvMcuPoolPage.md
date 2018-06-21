@@ -3,7 +3,6 @@ title: 添加 A / V MCU 池
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 description: 所有 Enterprise Edition 前端服务器的中央站点没有并置的 A / V 会议服务可以使用相同的独立 A / V 会议池。 每个 a / V 会议池，必须指定完全限定的域名 (FQDN) 的池以及是否将具有单个 A / V 会议服务器或多个负载平衡 A / V 会议服务器。
-ms.openlocfilehash: d1712829030836446c06a2e335c424d51a19e466
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 67cb56d1a8556464906e0b05bae26c0c6a2e7340
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19966849"
 ---
 # <a name="add-av-mcu-pool"></a>添加 A / V MCU 池
  

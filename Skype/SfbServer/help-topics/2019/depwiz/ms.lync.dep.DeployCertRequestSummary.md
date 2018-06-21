@@ -3,7 +3,6 @@ title: 证书请求（摘要）
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e907e36b-c168-464c-8b52-edd409704a02
 description: 证书请求摘要页上显示的所有选项和配置证书的详细的摘要。 摘要中显示证书请求将包含的内容，以及后续将如何颁发证书。 您应仔细阅读摘要以确保选择的所有条目和选项都是正确的。 如果您选择正确，请单击下一步来继续请求的生成并准备将其发送到证书颁发机构 (CA)。
-ms.openlocfilehash: b1724300480560f92425d5eada02523826784370
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 5345078a9b05ad5966eff0b00f40229f1de57d82
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19975811"
 ---
 # <a name="certificate-request-summary"></a>证书请求（摘要）
  

@@ -3,7 +3,6 @@ title: 创建数据库
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 description: 拓扑生成器提供一种方法在 SQL Server 存储上安装数据库。 使用拓扑生成器安装数据库时，应用程序从拓扑中读取信息，然后将所需的数据库安装在指定的 SQL Server 计算机或 SQL Server 群集。 这是唯一可以使用拓扑生成器进行的数据库安装类型。 如果您需要在特定计算机上，安装特定数据库，或者必须安装并置的数据库，您必须改为使用 Windows PowerShell 命令行界面和的 Install-csdatabase cmdlet。
-ms.openlocfilehash: 9bee333e0b56a6eeb8f4363e6657be2fabfa1ace
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f9d351d4b6b7cb37d2daeb889caabb1f4090e74e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979797"
 ---
 # <a name="create-database"></a>创建数据库
  
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/24/2018
   
 ### <a name="creating-a-database"></a>创建数据库
 
-1. 单击业务服务器 2015年节点 Skype，然后单击**安装数据库**。
+1. 单击 Skype 业务服务器节点，然后单击**安装数据库**。
     
 2. 在**安装数据库**对话框中，在**创建数据库**页上，选择新数据库要创建的 SQL Server 存储的完全限定的域名 (FQDN)。
     

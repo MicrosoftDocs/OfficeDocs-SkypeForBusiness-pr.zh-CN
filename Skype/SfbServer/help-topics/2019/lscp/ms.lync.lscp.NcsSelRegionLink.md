@@ -3,7 +3,6 @@ title: 选择区域链接
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 description: 使用区域链接对话框查找您环境中可用的区域链接。 若要使用现有的区域链接，单击列表中的区域链接，然后单击确定。
-ms.openlocfilehash: bc7261f326ee5f4c512d79465b86318d0f875b8b
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 608f6ce5eaa9800bb43e84d5de42d6b24b468774
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19968900"
 ---
 # <a name="select-a-region-link"></a>选择区域链接
  

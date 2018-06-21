@@ -3,7 +3,6 @@ title: 添加中介服务器下一跃点
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ede4123a-b863-4c53-916b-edf776948dd7
 description: 若要定义您所定义的中介服务器的下一个跃点，选择 Enterprise Edition server 或 Standard Edition server 将充当中介服务器下一个跃点下一跃点池下拉列表中。 单击下一步。
-ms.openlocfilehash: e3e1467fdc98a1320a82b5458885bd41751215a1
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: b83cd5fd18b4d90bc286781fbbfb5ab1248d7b24
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979370"
 ---
 # <a name="add-mediation-server-nexthop"></a>添加中介服务器下一跃点
  

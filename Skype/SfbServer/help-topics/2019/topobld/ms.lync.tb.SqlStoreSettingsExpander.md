@@ -3,7 +3,6 @@ title: SQL 存储设置扩展器
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 description: 若要编辑的 SQL Server 数据库的属性，则必须更改 SQL Server 数据库实例。 不能使用编辑属性对话框中执行任务，例如将存档服务器数据库从一台计算机移动到另一个。 此外，您不能使用编辑属性对话框来更改 SQL Server 实例承载中央管理存储。
-ms.openlocfilehash: 2a1fc051e3dc848272a7cad539eaa749ff95d9b9
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: d9ba91dca9cb6e0e779f154925a4d00065458866
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19972229"
 ---
 # <a name="sql-store-settings-expander"></a>SQL 存储设置扩展器
  

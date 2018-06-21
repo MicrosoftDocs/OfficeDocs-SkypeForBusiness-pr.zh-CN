@@ -3,7 +3,6 @@ title: 添加边缘计算机内部 IP 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31b0ac1d-f320-4677-bd0f-b4b0dc84a6a2
 description: 此页用于指定的内部 IP 地址和内部完全限定的域名 (FQDN) 边缘服务器。
-ms.openlocfilehash: 2fedde361e252d400f4362add4757df3f0c40057
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: d25819b45fea7ba46501e931beeb8d5032b43c1f
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19975383"
 ---
 # <a name="add-edge-machine-internal-ip-2010"></a>添加边缘计算机内部 IP 2010
  

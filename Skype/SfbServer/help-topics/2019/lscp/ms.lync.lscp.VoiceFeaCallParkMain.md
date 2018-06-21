@@ -3,7 +3,6 @@ title: 呼叫寄存
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: 驻留呼叫后，它被传输到临时号码呼叫将保存，直到有人取回它或超时。您需要使用的保留用于寄存呼叫的分机号码范围配置的表。 这些分机需要为虚拟分机（即未向其分配用户或电话的分机）。 运行呼叫寄存应用程序的每个池可以有一个或多个区域的扩展名。 这些范围在部署中必须是全局唯一的。
-ms.openlocfilehash: 64cd83d8efd692b7ac6d221588eb3b56dead2c0b
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 03c435b5fa67fc5a9ee8f1d89f1e68c2d7cb7073
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19966051"
 ---
 # <a name="call-park"></a>呼叫寄存
  
@@ -54,6 +54,6 @@ ms.lasthandoff: 05/25/2018
     
 - **目标**完全限定域名 (FQDN) 或服务 ID 的号码范围的呼叫寄存应用程序承载的应用程序服务。
     
-有关呼叫寄存特性和功能的详细信息，请参阅[规划中的业务 2015 Skype 的呼叫寄存](../../../plan-your-deployment/enterprise-voice-solution/call-park.md)。 有关使用呼叫寄存号码范围的详细信息，请参阅[寄存呼叫配置电话号码的扩展](http://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx)。
+有关呼叫寄存特性和功能的详细信息，请参阅[Plan for Business 的 Skype 中的呼叫寄存](../../../plan-your-deployment/enterprise-voice-solution/call-park.md)。 有关使用呼叫寄存号码范围的详细信息，请参阅[寄存呼叫配置电话号码的扩展](http://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx)。
   
 

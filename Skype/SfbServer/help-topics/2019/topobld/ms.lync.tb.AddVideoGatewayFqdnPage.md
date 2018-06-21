@@ -3,7 +3,6 @@ title: 添加视频网关 FQDN
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,12 +10,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 268e718c-9b8c-458a-b3b9-853f49994e5b
-description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机 VIS Skype 池中创建的业务服务器 2015年。
-ms.openlocfilehash: d075fe680c87da1b01b1fd0e1ba40d9cf6892947
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机创建 VIS 池中 Skype 业务服务器。
+ms.openlocfilehash: a5980b54eaa8ed8a7e559acafd4208bd039dd8df
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964082"
 ---
 # <a name="add-video-gateway-fqdn"></a>添加视频网关 FQDN
  
@@ -32,7 +32,4 @@ ms.lasthandoff: 05/25/2018
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [规划视频互操作性中的服务器 Skype 业务 Server 2015](../../../plan-your-deployment/video-interop-server.md)
-

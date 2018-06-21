@@ -3,7 +3,6 @@ title: 控制面板-更新用户搜索
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 5/21/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: 搜索查询的结果可用于配置用户的 Skype 业务服务器。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。 还可以使用 Lync Server 控制面板或 Active Directory 用户和计算机管理单元搜索用户。
-ms.openlocfilehash: 188c60467f5579a56cd4b5fa85a616f2e4639663
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 6bd837326e70b3712eb478d662cd6b5a41336953
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19971403"
 ---
 # <a name="control-panel---updated-user-search"></a>控制面板 - 已更新：用户搜索
  
@@ -36,7 +36,7 @@ ms.lasthandoff: 05/25/2018
     
 - [将策略分配给用户](http://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
     
-- [Skype 中的企业语音的用户启用业务服务器 2015](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Skype 中的企业语音的用户启用企业服务器](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [为用户配置联盟、 远程用户访问和公共 IM 连接](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     

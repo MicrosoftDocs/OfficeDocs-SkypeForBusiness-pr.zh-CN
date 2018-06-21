@@ -3,7 +3,6 @@ title: 注册器 SBA 设置扩展器
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 description: 编辑恢复能力的设置和配置以下属性：
-ms.openlocfilehash: cdc367d1f010749e72ea2144e757d673bd41ba4a
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 78c25613f1a552dbcfbfcaed9db787cf9a0fb7eb
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19976772"
 ---
 # <a name="registrar-sba-settings-expander"></a>注册器 SBA 设置扩展器
  
@@ -39,7 +39,4 @@ ms.lasthandoff: 05/24/2018
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [规划企业语音恢复能力](http://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
-

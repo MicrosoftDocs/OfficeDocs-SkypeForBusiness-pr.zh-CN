@@ -3,7 +3,6 @@ title: 安装和创建数据库
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 description: 选择您要为您的部署创建的数据库。 默认情况下，数据库将在定义网站中，在定义 SQL 服务器上创建和将自动部署并配置根据您要将数据库放在 SQL Server 数据库文件。
-ms.openlocfilehash: cf838e66dc5e9592ba71dd9d44fa5fc333c6dbc7
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 70bd185b4e559215df7d3623dc5591648e718ed9
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979356"
 ---
 # <a name="install-and-create-databases"></a>安装和创建数据库
  
@@ -25,7 +25,7 @@ ms.lasthandoff: 05/24/2018
  **选择您想要创建的数据库**： 选中您打算部署和配置任何数据库的复选框。 选择将部署的任何或所有数据库的复选框。 
   
 > [!CAUTION]
-> SQL Server 必须已进行了配置实例 （如果有），并且必须打开防火墙端口以容纳要部署到的数据库的实例。 有关详细信息，请参阅[Lync Server 2013 preview 配置 SQL Server](http://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)
+> SQL Server 必须已进行了配置实例 （如果有），并且必须打开防火墙端口以容纳要部署到的数据库的实例。 有关详细信息，请参阅[Configure SQL Server](http://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)
   
  **高级**： 单击 SQL Server 上，单击**高级**按钮以选择 SQL Server 上的文件位置选项的数据库。 有关高级的数据库文件位置的详细信息，请参阅[数据库安装使用 Lync Server 命令行管理程序](http://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)
   

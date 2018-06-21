@@ -3,7 +3,6 @@ title: 文件存储范围节点
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
 description: 文件存储节点列出了您的拓扑中的文件存储。 可以执行以下操作：
-ms.openlocfilehash: 8cb399b89332a23e1844b13033ba203f59bbfcd1
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 91ad72e19c45f5695310ccff01209a86089604c2
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19966317"
 ---
 # <a name="file-stores-scope-node"></a>文件存储范围节点
  

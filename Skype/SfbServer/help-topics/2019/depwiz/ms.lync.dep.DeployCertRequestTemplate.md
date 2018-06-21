@@ -3,7 +3,6 @@ title: 证书请求（指定模板）
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 description: 指定替代证书模板页上，可以定义证书模板之外的默认情况下使用 web 服务器证书模板。 选择选定的证书颁发机构复选框使用备用证书模板，然后在文本框证书的模板名称中定义的备用证书模板的名称。 必须使用在证书颁发机构 (CA) 中定义的模板名称。 单击返回到返回到前一页。 单击取消结束证书请求进程。
-ms.openlocfilehash: 856ad66b4bf2974e43e8684ca6016494df26019f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 730992312f13557145ebe88aef757bd0fdf433d8
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979930"
 ---
 # <a name="certificate-request-specify-termplate"></a>证书请求（指定模板）
  

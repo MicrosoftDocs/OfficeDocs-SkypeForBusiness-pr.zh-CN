@@ -3,7 +3,6 @@ title: 添加前端 SQL Server 存储
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 description: 部署 Standard Edition server 自动安装所需的 Microsoft SQL Server Express 数据库软件和 SQL Server 数据库。 因此，所有选项都预先都填充，并且您无法更改为默认配置。
-ms.openlocfilehash: facb2e91511323e6fc87015016b060ba5076c8f6
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 2b7527207974310c30b559011a580fe8871164d1
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964489"
 ---
 # <a name="add-front-end-sql-server-store"></a>添加前端 SQL Server 存储
  
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/24/2018
   
 Enterprise Edition 服务器部署中的前端池的后端数据库需要的 SQL Server 数据库软件的支持的 64 位版本。 您可以选择先前定义的 SQL Server 数据库，用于后端数据库，或通过指定在其上驻留，SQL Server 数据库的服务器和 SQL S 实例的完全限定的域名 (FQDN) 来定义新的 SQL Server 数据库您想要用于新的 SQL Server 数据库 （这可以是默认的实例或您指定的命名的实例） 的服务器。 您还可以选择启用镜像 SQL Server 存储，并指定镜像见证的自动故障转移。
   
-有关 SQL Server 的详细信息支持，请参阅可支持性文档中的[数据库软件和群集支持](http://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx)。 有关为后端数据库的 SQL Server 设置的详细信息，请参阅部署文档中的[Lync Server 2010 配置 SQL Server](http://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx) 。
+有关 SQL Server 的详细信息支持，请参阅可支持性文档中的[数据库软件和群集支持](http://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx)。 有关为后端数据库的 SQL Server 设置的详细信息，请参阅部署文档中的[配置 SQL Server](http://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx) 。
   
 > [!NOTE]
 > 如果用于发布拓扑的帐户具有适当的用户权限和权限，您可以创建后端数据库 （实时通信 (RTC)） 发布您的拓扑时。 您还可以创建数据库更高版本，包括安装过程的一部分。 

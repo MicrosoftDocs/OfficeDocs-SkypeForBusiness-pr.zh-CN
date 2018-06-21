@@ -3,7 +3,6 @@ title: 控制器 （规划工具）
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 4/8/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,16 +11,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
-description: 控制器是运行业务服务器 2015年通信软件可以进行身份验证的用户请求，但不承载任何用户帐户的 Skype 的服务器。
-ms.openlocfilehash: b379388b05e4beda934b13517f36bc792b6f0748
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: 控制器是运行 Business Server 通信软件可以进行身份验证的用户请求，但不承载任何用户帐户的 Skype 的服务器。
+ms.openlocfilehash: a1920d11ed354cab3409a9f2a1fd39280ce2d29d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19975986"
 ---
 # <a name="director-planning-tool"></a>控制器 （规划工具）
  
-控制器是运行业务服务器 2015年通信软件可以进行身份验证的用户请求，但不承载任何用户帐户的 Skype 的服务器。 
+控制器是运行 Business Server 通信软件可以进行身份验证的用户请求，但不承载任何用户帐户的 Skype 的服务器。 
   
 此角色是可选的您应当选择以下两种方案中部署控制器：
   

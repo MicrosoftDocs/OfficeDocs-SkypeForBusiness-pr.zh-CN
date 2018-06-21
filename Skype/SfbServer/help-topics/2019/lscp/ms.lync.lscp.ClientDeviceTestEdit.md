@@ -1,9 +1,8 @@
 ---
 title: 测试设备创建新的或编辑现有的
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 description: 测试设备功能与设备更新功能结合使用。 您可以将测试设备添加到测试设备页，然后使用此设备来验证新更新之前部署到生产设备更新的功能。 可以在全局范围（在整个环境中）或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 如果添加设备时，它显示在 Skype 测试设备页上的列表的业务 Server Control Panel。
-ms.openlocfilehash: 0eb79ad604b228ce4531738b4f7f1423ab5b98e2
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 3f3c896f0ec6c373a4edfc3049a9838b815bb448
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974255"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>测试设备：创建新的或编辑现有的
  
@@ -51,14 +51,10 @@ ms.lasthandoff: 05/25/2018
 有关测试设备的详细信息，请参阅操作文档中的[Add a Device to Test Update Functionality](http://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) 。
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [测试设备](ms.lync.lscp.ClientDeviceTestMain.md)
-#### 
 
 [新 CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
   
 [设置 CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
   
 [视图的组织中设备的软件更新](http://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
-

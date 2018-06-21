@@ -3,7 +3,6 @@ title: 定义新 IP 或 PSTN 网关的根 Trunk
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: '您通过配置以下 IP 或公用电话交换网 (PSTN) 定义的根 trunk:'
-ms.openlocfilehash: 230c6def2706df1f7ef274ead174d8b603c248d8
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 2ebf044a72b4e2951469bee7ea1d74b271e23e0c
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19978179"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>定义新 IP 或 PSTN 网关的根 Trunk
  
@@ -34,12 +34,8 @@ ms.lasthandoff: 05/25/2018
     
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
-[为业务服务器 2015年使用 Skype 中的媒体旁路配置中继](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+[为业务 Server 使用 Skype 中的媒体旁路配置中继](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
   
-[配置无媒体绕过 Skype 中的业务服务器 2015年的中继](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
-#### 
+[配置无媒体绕过中 Skype 业务服务器的中继](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
 [SIP 中继支持](http://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
-

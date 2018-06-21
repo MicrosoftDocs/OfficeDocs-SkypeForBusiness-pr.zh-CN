@@ -3,7 +3,6 @@ title: 编辑 Office Web Apps Server 设置
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/19/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 编辑配置 Office Web Apps Server 的属性。 可编辑以下属性：
-ms.openlocfilehash: b7da5e19d6d9c300d96442c97bf4866116a60af3
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: ee630ec6e011b816465cc7c78d4497c98798e2da
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19971353"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>编辑 Office Web Apps Server 设置
  
@@ -32,7 +32,4 @@ ms.lasthandoff: 05/25/2018
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [会议的组件和拓扑](http://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
-

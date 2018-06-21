@@ -3,7 +3,6 @@ title: PIN 策略
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: f09e6e876a6f4d4c8a91d79de02587e8c6fd167b
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 75c931737a85cefb60d911f8c58ac00ac55b4883
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19972502"
 ---
 # <a name="pin-policy"></a>PIN 策略
  

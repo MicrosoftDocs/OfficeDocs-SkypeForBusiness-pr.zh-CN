@@ -3,7 +3,6 @@ title: 证书请求（证书颁发机构）
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 description: 当对联机证书颁发机构 (CA) 证书请求 （通常，这些是位于内部网络的服务器） 在选择证书颁发机构 (CA) 页上，您看到两个选项：
-ms.openlocfilehash: 6fea8ba9500e1612ff13796f4c58550687baa99a
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 0092e29f7cb477686cb873aa7318519d12381f72
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19973113"
 ---
 # <a name="certificate-request-certificate-authority"></a>证书请求（证书颁发机构）
  

@@ -3,7 +3,6 @@ title: 准备单个 Standard Edition Server （调用）
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 description: 在正在执行命令页中，可以在任务窗格中查看 SQL Server Express 安装和配置为充当中央管理存储的任务。 默认情况下创建名为 RTC 的基于 SQL Server 数据库的实例。 此外可以创建防火墙规则允许入站和出站访问服务器和客户端与数据库和实例进行通信。 在任务完成后，您可以从下拉列表中选择日志文件。 日志文件中名为 Bootstrap 本地计算机。 选择日志文件之后，单击查看日志。 查看日志文件的任何错误和警告。 当您准备好继续时，单击完成。 如果您没有，现在应定义您的拓扑使用拓扑生成器。
-ms.openlocfilehash: d900c383d0f434176ff18b3f310c41042df75b2e
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: ec6cd9d7f8e7812ca61138e053fd18abf4e24d96
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964531"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>准备单个 Standard Edition Server （调用）
  

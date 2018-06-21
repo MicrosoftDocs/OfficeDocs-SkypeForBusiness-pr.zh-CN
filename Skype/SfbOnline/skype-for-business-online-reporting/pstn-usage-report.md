@@ -18,12 +18,12 @@ ms.custom:
 - Reporting
 description: 新 Skype 业务管理中心报告区域显示您呼叫和音频会议活动在组织中。 使您钻取报告为您提供更精细了解每个用户的活动。 例如，你可以使用 Skype for Business PSTN 使用详细信息报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 您可以查看音频会议的 PSTN 用法详细信息，包括呼叫的成本，以便您可以了解您的使用，并调用帐单的详细信息，以确定您的组织内的使用情况。
 search.appverid: MET150
-ms.openlocfilehash: 62b6bff4952a590bfeef47a6d1fe23e1fe3d49d5
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 59a1fbae9614fa6742f73b46c442d7912c71f88d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933124"
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19973365"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用率报告
 
@@ -89,6 +89,7 @@ ms.locfileid: "19933124"
      *    **MCOPSTNPP** -Communications 字幕式 <br/> **MCOPSTN1** -国内调用规划 (3000 min 美国 / 1200 min 欧盟计划) 
      *    **MCOPSTN2** -国际呼叫计划 
      *    **MCOPSTN5** -国内调用计划 （120 分钟调用计划） 
+     *    **MCOPSTN6** -国内调用计划 （240 分钟调用计划） 的说明： 有限的状态
      *    **MCOMEETADD** -音频会议
      *    **MCOMEETACPEA** -付薪每分钟的音频会议 
 ***

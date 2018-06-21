@@ -3,7 +3,6 @@ title: Lync Server 2010 的中介服务设置扩展器
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 230e0a08-9e16-4bbd-b550-1f04bad8ddbc
 description: 通过定义以下属性编辑中介服务的属性：
-ms.openlocfilehash: d8529a97459de70270fbe709d06c92e5a1b37af3
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 61d4d9a6bcda39fa30fcd5febdd5d94baf218a82
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19972558"
 ---
 # <a name="mediation-service-settings-expander-for-lync-server-2010"></a>Lync Server 2010 的中介服务设置扩展器
  

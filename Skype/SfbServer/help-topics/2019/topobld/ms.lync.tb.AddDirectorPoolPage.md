@@ -3,7 +3,6 @@ title: 添加控制器池
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 description: 若要定义控制器池 FQDN，选择将包含两个或多个控制器负载平衡池中的多个计算机池或单计算机池。 您还必须键入的完全限定的域名 (FQDN) 将用于连接到控制器池或单个控制器的 FQDN。 对于控制器计算机的池，这将为硬件负载平衡器的虚拟 IP 的域名系统 (DNS) 条目或 DNS 负载平衡的共享的 DNS 条目。
-ms.openlocfilehash: d71219f6e9c51d69bee8d2457cc30c19f4fa6c89
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 84f74962465645890e976a6f1ff77b6ef55ca930
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19967178"
 ---
 # <a name="add-director-pool"></a>添加控制器池
  

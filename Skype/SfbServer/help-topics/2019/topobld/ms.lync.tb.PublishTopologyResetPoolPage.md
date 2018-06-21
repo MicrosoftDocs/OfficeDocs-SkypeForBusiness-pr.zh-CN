@@ -3,7 +3,6 @@ title: 发布拓扑重置池页
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 description: 本文档是预备文档，可能随时更改。空白主题均以占位符的形式包含在内。
-ms.openlocfilehash: 7a56f502e5e0f6f2747076e5eab423e91d363f20
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 20cea17c618ecab64e9d18668b63dd5d9d2b93b7
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974913"
 ---
 # <a name="publish-topology-reset-pool-page"></a>发布拓扑重置池页
  
@@ -26,7 +26,4 @@ ms.lasthandoff: 05/25/2018
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
-[创建和发布新拓扑中 Skype 的业务服务器 2015](../../../deploy/install/create-and-publish-new-topology.md)
-
+[创建和发布新拓扑中 Skype 业务服务器](../../../deploy/install/create-and-publish-new-topology.md)

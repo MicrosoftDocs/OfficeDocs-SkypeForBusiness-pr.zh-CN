@@ -3,7 +3,6 @@ title: 启动服务（简介）
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,15 +10,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 524c6ff0-d695-45e1-9c47-c68698f5f3ce
-description: 在要部署的 Business Server 2015 角色服务器的 Skype 上启动服务，请查看简介屏幕。 请注意，启动该服务不等待发出业务服务器启动 Skype 的命令。 这是启动服务的最佳操作，您应当使用 Windows 服务 Microsoft 管理控制台 (MMC) 监控服务的实际状态。 单击下一步开始执行启动服务任务。
-ms.openlocfilehash: acc802728ae9bd1eb62cd5ec0e8f75b597d0aead
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: 在要部署的 Business Server 角色服务器 Skype 上启动服务，请查看简介屏幕。 请注意，启动该服务不等待发出业务服务器启动 Skype 的命令。 这是启动服务的最佳操作，您应当使用 Windows 服务 Microsoft 管理控制台 (MMC) 监控服务的实际状态。 单击下一步开始执行启动服务任务。
+ms.openlocfilehash: 21993f8597fc4380a773636c1804016c4e052776
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19967717"
 ---
 # <a name="startservices-intro"></a>启动服务（简介）
  
-在要部署的 Business Server 2015 角色服务器的 Skype 上启动服务，请查看简介屏幕。 请注意，启动该服务不等待发出业务服务器启动 Skype 的命令。 这是启动服务的最佳操作，您应当使用 Windows 服务 Microsoft 管理控制台 (MMC) 监控服务的实际状态。 单击“**下一步**”开始“**启动服务**”任务。
+在要部署的 Business Server 角色服务器 Skype 上启动服务，请查看简介屏幕。 请注意，启动该服务不等待发出业务服务器启动 Skype 的命令。 这是启动服务的最佳操作，您应当使用 Windows 服务 Microsoft 管理控制台 (MMC) 监控服务的实际状态。 单击“**下一步**”开始“**启动服务**”任务。
   
 

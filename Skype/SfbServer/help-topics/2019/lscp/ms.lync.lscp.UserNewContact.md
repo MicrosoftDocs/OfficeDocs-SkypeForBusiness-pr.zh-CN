@@ -3,7 +3,6 @@ title: 用户新联系对象
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 25473441ef9b50344d785090800cc21f960449c1
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 498a4ecfe1a0c693e4fdaeb73858592de5390df7
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19965561"
 ---
 # <a name="users-new-contact-objects"></a>用户： 新建联系人对象
  
@@ -36,7 +36,7 @@ ms.lasthandoff: 05/25/2018
     
 - [为用户分配位置策略](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
     
-- [Skype 中的企业语音的用户启用业务服务器 2015](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Skype 中的企业语音的用户启用企业服务器](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [为用户配置联盟、 远程用户访问和公共 IM 连接](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     

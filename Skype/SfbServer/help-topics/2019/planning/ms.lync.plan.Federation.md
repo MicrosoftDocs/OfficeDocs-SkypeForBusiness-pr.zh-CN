@@ -3,7 +3,6 @@ title: 联合身份验证 （规划工具）
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 4/8/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -13,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: 可以配置边缘服务器允许在合作伙伴组织或服务中的联系人的访问的内部和外部用户。
-ms.openlocfilehash: 2c4e87831a971b50852ffda41e7b8268e6c3392f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: da8580752a07d5d2552adbffd3bdf5924ad5b8e1
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19972362"
 ---
 # <a name="federation-planning-tool"></a>联合身份验证 （规划工具）
  

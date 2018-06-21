@@ -3,7 +3,6 @@ title: 会议策略
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 description: 会议策略定义的特性和功能 （也称为会议） 会议期间用户可以使用。
-ms.openlocfilehash: e1fea90ed978602c45abf7b71035506b0c039058
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: d44411bc3d38587e71491e68acc447e855b85955
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974892"
 ---
 # <a name="conferencing-policy"></a>会议策略
  

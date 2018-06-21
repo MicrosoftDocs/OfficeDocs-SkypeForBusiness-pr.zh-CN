@@ -3,7 +3,6 @@ title: 存档配置创建新的或编辑现有的
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 使用存档配置可控制用于部署的存档选项。存档配置包括全局配置以及可选的一个或多个站点和池配置：
-ms.openlocfilehash: 93bddc8bbba3280ae4e40c0031e65acc6965aa72
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 3cc5c560ebafdf5dbf1ddac05d7c6b25653c0eb4
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19976870"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>存档配置：创建新的或编辑现有的
  
@@ -29,7 +29,7 @@ ms.lasthandoff: 05/25/2018
 - **池配置 （可选）** 您可以指定一个或多个池存档配置，来控制特定池的存档选项。 池配置会覆盖全局配置和站点配置，但仅限于在存档池配置中指定的池。 可以编辑或删除池配置。
     
 > [!NOTE]
-> 存档配置适用于用户的企业服务器驻留在 Skype 上，如果您启用 Microsoft Exchange 集成选项以使用 Exchange 2013 存储存档数据在 Microsoft Exchange、 用户驻留在 Exchange 2013。 但是，某些选项实现略有不同的用户驻留在 Exchange 2013 一节中所述。 
+> 存档配置适用于用户的企业服务器驻留在 Skype 上，如果您启用 Microsoft Exchange 集成选项以使用 Exchange 存储中的存档数据 Microsoft Exchange、 用户驻留在 Exchange。 但是，某些选项实现略有不同的用户驻留在 Exchange 上一节中所述。 
   
 若要配置新的或现有的存档配置的设置，请指定以下选项：
 - **名称**每个存档配置需要的名称。 名称取决于要添加或编辑的配置的类型：
@@ -58,7 +58,7 @@ ms.lasthandoff: 05/25/2018
     
     IM 和会议都能在修复故障后自动恢复。
     
-- **Microsoft Exchange 集成**如果有用户驻留在 Exchange 2013，请选择此选项。 使用此选项，Exchange 2013 用于存储数据的用户，如果其邮箱已被置于就地保留。 如果您的所有用户都驻留在 Exchange 2013 中，您不需要单独的 SQL Server 数据库来存储存档数据设置。
+- **Microsoft Exchange 集成**如果有用户驻留在 Exchange 上，请选择此选项。 使用此选项，Exchange 用于存储数据的用户，如果其邮箱已被置于就地保留。 如果您的所有用户都驻留在 Exchange 中，您不需要单独的 SQL Server 数据库来存储存档数据设置。
     
 - **启用清除存档数据功能**选择此选项可启用清除功能并指定清除选项，包括以下各项：
     
@@ -67,7 +67,7 @@ ms.lasthandoff: 05/25/2018
   - 之后的存档数据清除已导出 （如果启用 Microsoft Exchange 集成，其中包括已上载到 Exchange 的数据）。
     
     > [!NOTE]
-    > 如果您启用 Microsoft Exchange 集成，请清除用户驻留在 Exchange 2013 和 exchange 控制其邮箱置于就地保留。 对于会议文件，存储在 Lync Server 文件共享中是唯一的例外。 如果您选择在已导出存档数据后清除数据，或在指定的最长天数（如果您指定了最长保留天数）后清除数据，则仅在导出文件（上载到 Exchange）后才从文件共享中清除这些文件。 
+    > 如果您启用 Microsoft Exchange 集成，请清除用户驻留在 Exchange 和 exchange 控制其邮箱置于就地保留。 对于会议文件，存储在 Lync Server 文件共享中是唯一的例外。 如果您选择在已导出存档数据后清除数据，或在指定的最长天数（如果您指定了最长保留天数）后清除数据，则仅在导出文件（上载到 Exchange）后才从文件共享中清除这些文件。 
   
 有关的存档功能和功能，包括 Exchange 集成的详细信息，请参阅[规划存档中的业务服务器 2015 Skype](../../../plan-your-deployment/archiving/archiving.md)、[业务服务器 2015年的 Skype 存档的部署](../../../deploy/deploy-archiving/deploy-archiving.md)，和[管理存档中的 Skype业务服务器 2015年](../../../manage/archiving/archiving.md)。
 

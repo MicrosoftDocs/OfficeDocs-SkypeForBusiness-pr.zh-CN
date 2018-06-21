@@ -3,7 +3,6 @@ title: Exchange 统一消息 （规划工具）
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,16 +11,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
-description: Skype 的业务服务器 2015年支持的组合语音消息传递和电子邮件到单个消息传递基础结构与 Exchange 统一消息 (UM) 集成。
-ms.openlocfilehash: 009a595e637bfa556b864922757548ddfcfcf496
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: Skype 业务服务器支持的组合语音消息传递和电子邮件到单个消息传递基础结构与 Exchange 统一消息 (UM) 集成。
+ms.openlocfilehash: 8cecd30382306aa3a57ae275ac57e4feb2a4a121
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19965855"
 ---
 # <a name="exchange-unified-messaging-planning-tool"></a>Exchange 统一消息 （规划工具）
  
-Skype 的业务服务器 2015年支持的组合语音消息传递和电子邮件到单个消息传递基础结构与 Exchange 统一消息 (UM) 集成。
+Skype 业务服务器支持的组合语音消息传递和电子邮件到单个消息传递基础结构与 Exchange 统一消息 (UM) 集成。
   
 有关详细信息，请参阅：
   

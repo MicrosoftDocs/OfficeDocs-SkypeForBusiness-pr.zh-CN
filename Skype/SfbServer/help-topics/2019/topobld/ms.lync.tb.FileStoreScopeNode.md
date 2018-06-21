@@ -3,7 +3,6 @@ title: 文件存储范围节点
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 description: 此节点显示该文件存储的完全限定域名 (FQDN) 和相关池。可以执行以下操作：
-ms.openlocfilehash: 3c1d773dda85bd4832059693f3065ca2c93e05d8
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 4b359a3a8527a337596f97c069dceef2a06157b9
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979153"
 ---
 # <a name="file-store-scope-node"></a>文件存储范围节点
  

@@ -3,7 +3,6 @@ title: 控制器范围节点
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 description: 控制器池节点列出了控制器池拓扑中。 可以执行以下操作：
-ms.openlocfilehash: 390b4615a42f40bc73e99fe3b536c3c1610790a7
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c50862bdcb9ace37d58098134f726fe718df6f20
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974787"
 ---
 # <a name="directors-scope-node"></a>控制器范围节点
  

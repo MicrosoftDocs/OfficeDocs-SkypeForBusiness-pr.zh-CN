@@ -3,7 +3,6 @@ title: 存档策略
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: 使用存档策略以启用和禁用存档的用户的企业服务器驻留在 Skype。 在每个存档策略中，您可以对以下任一项或者两项启用或禁用存档：
-ms.openlocfilehash: 6bdccd0f717314fb36a698ee8dd9d237a47d6bdd
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: efe2a17e5f3e85b83e937e38613b630e3a78f7d9
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979965"
 ---
 # <a name="archiving-policy"></a>存档策略
  
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2018
 - **（可选） 的用户策略**您可以指定一个或多个用户存档策略，您可以配置每种启用和禁用存档的内部或外部通信的特定用户或用户组。 用户策略会覆盖全局策略和站点策略，但仅限于分配了用户级别存档策略的用户和用户组。 可以编辑或删除用户策略。
     
 > [!NOTE]
-> 存档策略仅适用于用户的企业服务器驻留在 Skype 上。 如果您使用 Exchange 集成存储存档数据在 Microsoft Exchange、 然后 Exchange 2013 策略控制的用户存档驻留在 Exchange 2013。 要启用存档这些用户，用户邮箱必须置于就地保留上。 
+> 存档策略仅适用于用户的企业服务器驻留在 Skype 上。 如果您使用 Exchange 集成在 Microsoft Exchange 中存储存档数据，则 Exchange 策略控制的存档用户驻留在 Exchange 中。 要启用存档这些用户，用户邮箱必须置于就地保留上。 
   
 “**存档策略**”页将列出为部署配置的每个存档策略。该页还将显示策略名称、范围（全局、站点或用户）以及为每个存档策略启用的存档选项。在“**存档策略**”页上，您有以下选项：
 - **新**您可以添加一个或多个以下可选存档策略：

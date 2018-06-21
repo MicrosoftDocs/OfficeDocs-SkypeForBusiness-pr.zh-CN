@@ -3,7 +3,6 @@ title: Skype for Business Server 根范围节点
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/10/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 description: Lync Server 节点列出中央站点拓扑中。 可以执行以下操作：
-ms.openlocfilehash: ca9ba70369c62498d5cd9b1feb0089d3b8c484df
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 40812dbac2ab3fe9e21c7996cf15c11449ee789e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19973085"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Skype for Business Server 根范围节点
  

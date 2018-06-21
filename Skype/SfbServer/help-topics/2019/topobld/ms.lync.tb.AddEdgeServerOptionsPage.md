@@ -3,7 +3,6 @@ title: 添加边缘服务器选项
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 description: 选择要为边缘池启用的每个功能。默认情况下，边缘池支持组织中使用虚拟专用网络 (VPN) 从防火墙外登录的远程用户。此外，还具有以下边缘池功能选项：
-ms.openlocfilehash: c2c73a664e15a48fd0fae3282e987b5e9b2954e3
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: bf6e4d27529f2b3e6f0a8f0c4bb457f25abe0458
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19970855"
 ---
 # <a name="add-edge-server-options"></a>添加边缘服务器选项
  

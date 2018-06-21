@@ -3,7 +3,6 @@ title: 功能概述 （规划工具）
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 4/6/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,16 +11,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
-description: Skype for Business Server 2015 规划工具
-ms.openlocfilehash: 8d35b9babe99b4899cda51804f40dd6e3302feeb
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: Skype 业务 server 规划工具
+ms.openlocfilehash: a5c482dadf2ffd39e8927e1924e50117dd13e1c8
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974027"
 ---
 # <a name="feature-overview-planning-tool"></a>功能概述 （规划工具）
  
-Skype for Business Server 2015 规划工具
+Skype 业务 server 规划工具
   
 您可以使用**中央站点**页上的规划工具设计业务服务器部署 Skype。 可以创建两个集中或分布式部署。 集中的部署只有一个中央站点，哪些用户的组织中的业务用户的所有 Skype 的都这些。 分布式部署有多个中央站点。 如果您的业务 Server 上的多个中央站点部署 Skype，然后将规划工具中输入每个中央站点的用户的数。
   
@@ -75,15 +75,15 @@ Skype for Business Server 2015 规划工具
     
 - **与基于 XMPP 的服务提供商的联盟**
     
-    Skype 的业务服务器 2015年引入了 （部署边缘服务器上） 的完全集成的 XMPP 代理和 XMPP 网关部署在前端服务器上。 您可以部署添加和配置 XMPP 代理和 XMPP 网关将允许您 Skype 业务服务器 2015年用户将联系人从基于 XMPP 的合作伙伴的即时消息 (IM) 和状态。
+    Skype 业务服务器引入了 （部署边缘服务器上） 的完全集成的 XMPP 代理和 XMPP 网关部署在前端服务器上。 您可以部署添加和配置 XMPP 代理和 XMPP 网关将允许您 Skype 业务 Server 用户将联系人从基于 XMPP 的合作伙伴的即时消息 (IM) 和状态。
     
 - **移动性**
     
-    在部署 Skype 的业务服务器 2015 Mobility Service 时，用户可以使用支持的 Apple iOS、 Android、 Windows Phone 或 Nokia 移动设备执行如下活动发送和接收即时消息、 查看联系人和查看状态中。
+    在部署 Skype 的业务服务器 Mobility Service 时，用户可以使用支持的 Apple iOS、 Android、 Windows Phone 或 Nokia 移动设备执行如下活动发送和接收即时消息、 查看联系人和查看状态中。
     
 - **W15 Exchange 邮箱**
     
-    Skype 的业务服务器 2015年使您能够具有语音邮件消息存储在 Exchange 统一消息 (UM);然后，这些语音邮件消息将显示为用户的收件箱中的电子邮件。
+    Skype 业务服务器，您可以存储在 Exchange 统一消息 (UM); 中的语音邮件然后，这些语音邮件消息将显示为用户的收件箱中的电子邮件。
     
 ### <a name="voice"></a>语音
 
@@ -95,7 +95,7 @@ Skype for Business Server 2015 规划工具
     
 - **Exchange 统一消息**
     
-    Exchange 统一消息 (UM) 合并语音邮件和电子邮件到单个消息传递基础结构。 Skype 的业务服务器 2015年使用 Exchange UM 来提供呼叫应答、 订阅者访问、 呼叫通知和自动助理服务。 如果您使用这些服务，您需要将 Exchange UM 和 Skype 为共享的 Active Directory 拓扑中的业务 Server 相集成。
+    Exchange 统一消息 (UM) 合并语音邮件和电子邮件到单个消息传递基础结构。 Skype 业务 server 使用 Exchange UM 来提供呼叫应答、 订阅者访问、 呼叫通知和自动助理服务。 如果您使用这些服务，您需要将 Exchange UM 和 Skype 为共享的 Active Directory 拓扑中的业务 Server 相集成。
     
 ### <a name="additional-deployment-options"></a>其他部署选项
 
@@ -119,7 +119,7 @@ Skype for Business Server 2015 规划工具
     
 - **Exchange 存档集成**
     
-    如果您有用户驻留在 Exchange 2013 上和其邮箱已被置于就地保留，可以选择将 Skype 集成业务服务器 2015年存储与 Exchange 存储的选项。
+    如果您有用户驻留在 Exchange 上且其邮箱已被置于就地保留，您可以选择业务服务器存储与 Exchange 存储的集成 Skype 选项。
     
 - **IPv4**
     

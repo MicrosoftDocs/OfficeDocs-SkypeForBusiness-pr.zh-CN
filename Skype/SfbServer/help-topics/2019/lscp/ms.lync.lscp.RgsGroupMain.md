@@ -3,7 +3,6 @@ title: 响应组组
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 description: 响应组组成代理组、 队列和工作流。 代理组是人员的一组指定为应答响应组呼叫。
-ms.openlocfilehash: c2636da9d21532a9f449f1663b9458ac253ecf27
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: ea4441a65abe6d2acb3f57a920b75e9f893e9b72
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974217"
 ---
 # <a name="response-groups-group"></a>响应组： 组
  
@@ -52,6 +52,6 @@ ms.lasthandoff: 05/25/2018
     
 - **说明**代理组的描述。
     
-有关响应组特性和功能的详细信息，请参阅规划文档中的[计划中的业务服务器 2015 Skype 的响应组应用程序](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) 。
+有关响应组特性和功能的详细信息，请参阅[规划响应组应用程序中的业务服务器 Skype](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) 。
   
 

@@ -3,7 +3,6 @@ title: 服务器设置扩展器
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 description: 此节点显示该服务器的完全限定域名 (FQDN) 和 IP 地址配置。可以执行以下操作：
-ms.openlocfilehash: ba6af8ec91f93ecb29bae490f964bd42b33ba67a
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7b2f6acf518181bba8b85ad2a0596602a3edf969
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19966835"
 ---
 # <a name="server-settings-expander"></a>服务器设置扩展器
  
