@@ -3,7 +3,6 @@ title: 分支机构设备范围节点
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,24 +11,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 description: Survivable Branch Appliance 节点列出了在此分支站点 Survivable Branch Appliance。 可以执行以下操作：
-ms.openlocfilehash: c31e91d3d6076950b80dae9f34faa97700031c7a
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 35edd7329a293c4f5aea92ebaf4c3fa71c2c0e8e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991626"
 ---
-# <a name="branch-office-appliances-scope-node"></a><span data-ttu-id="eab2e-104">分支机构设备范围节点</span><span class="sxs-lookup"><span data-stu-id="eab2e-104">Branch Office Appliances Scope Node</span></span>
+# <a name="branch-office-appliances-scope-node"></a><span data-ttu-id="ee71e-104">分支机构设备范围节点</span><span class="sxs-lookup"><span data-stu-id="ee71e-104">Branch Office Appliances Scope Node</span></span>
  
-<span data-ttu-id="eab2e-105">**Survivable Branch Appliance**节点列出了在此分支站点 Survivable Branch Appliance。</span><span class="sxs-lookup"><span data-stu-id="eab2e-105">The **Survivable Branch Appliances** node lists the Survivable Branch Appliances at this branch site.</span></span> <span data-ttu-id="eab2e-106">可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="eab2e-106">You can perform the following action:</span></span>
+<span data-ttu-id="ee71e-105">**Survivable Branch Appliance**节点列出了在此分支站点 Survivable Branch Appliance。</span><span class="sxs-lookup"><span data-stu-id="ee71e-105">The **Survivable Branch Appliances** node lists the Survivable Branch Appliances at this branch site.</span></span> <span data-ttu-id="ee71e-106">可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="ee71e-106">You can perform the following action:</span></span>
   
-- <span data-ttu-id="eab2e-107">**新建 Survivable Branch Appliance**。</span><span class="sxs-lookup"><span data-stu-id="eab2e-107">**New Survivable Branch Appliance**.</span></span> <span data-ttu-id="eab2e-108">启动**定义新 Survivable Branch Appliance**向导，用于将新的 Survivable Branch Appliance 添加到此网站。</span><span class="sxs-lookup"><span data-stu-id="eab2e-108">Starts the **Define New Survivable Branch Appliance** wizard, which you use to add a new Survivable Branch Appliance to this site.</span></span>
+- <span data-ttu-id="ee71e-107">**新建 Survivable Branch Appliance**。</span><span class="sxs-lookup"><span data-stu-id="ee71e-107">**New Survivable Branch Appliance**.</span></span> <span data-ttu-id="ee71e-108">启动**定义新 Survivable Branch Appliance**向导，用于将新的 Survivable Branch Appliance 添加到此网站。</span><span class="sxs-lookup"><span data-stu-id="ee71e-108">Starts the **Define New Survivable Branch Appliance** wizard, which you use to add a new Survivable Branch Appliance to this site.</span></span>
     
-<span data-ttu-id="eab2e-109">除了 Survivable Branch Appliance 选项中，您可以执行以下常规任务：</span><span class="sxs-lookup"><span data-stu-id="eab2e-109">In addition to the Survivable Branch Appliance option, you can perform the following general tasks:</span></span>
+<span data-ttu-id="ee71e-109">除了 Survivable Branch Appliance 选项中，您可以执行以下常规任务：</span><span class="sxs-lookup"><span data-stu-id="ee71e-109">In addition to the Survivable Branch Appliance option, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="eab2e-p104">**拓扑**。可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并以前版本的组件或删除部署。</span><span class="sxs-lookup"><span data-stu-id="eab2e-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
+- <span data-ttu-id="ee71e-p104">**拓扑**。可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并以前版本的组件或删除部署。</span><span class="sxs-lookup"><span data-stu-id="ee71e-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
     
-- <span data-ttu-id="eab2e-p105">**视图**。可以使用此选项通过在控制台树视图中选择要显示和隐藏的项目来自定义拓扑生成器视图。</span><span class="sxs-lookup"><span data-stu-id="eab2e-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="ee71e-p105">**视图**。可以使用此选项通过在控制台树视图中选择要显示和隐藏的项目来自定义拓扑生成器视图。</span><span class="sxs-lookup"><span data-stu-id="ee71e-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="eab2e-p106">**帮助**。可以使用此选项访问活动节点的“帮助”。</span><span class="sxs-lookup"><span data-stu-id="eab2e-p106">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="ee71e-p106">**帮助**。可以使用此选项访问活动节点的“帮助”。</span><span class="sxs-lookup"><span data-stu-id="ee71e-p106">**Help**. You can use this option to access Help for the active node.</span></span>
     
 
