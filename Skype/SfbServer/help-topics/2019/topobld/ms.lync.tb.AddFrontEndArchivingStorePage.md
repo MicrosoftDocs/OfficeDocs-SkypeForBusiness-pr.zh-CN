@@ -3,7 +3,6 @@ title: 添加前端存档存储
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 description: 存档，需要支持的 64 位版本的 Microsoft SQL Server 数据库软件存储存档数据。 您可以选择先前定义的 SQL Server 数据库，用于存档，或通过指定在其上驻留，除了 SQL Se 实例的 SQL Server 数据库的服务器完全限定的域名 (FQDN) 来定义新的 SQL Server 数据库您想要用于新的 SQL Server 数据库 （这可以是默认的实例或您指定的命名的实例） 进行的服务器。
-ms.openlocfilehash: 528c8062b07593a4c7e4cc00f3d1d2566c05f77e
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 0dc4192c2eb6e7d9569094d6b03c7fb5fcebf6ad
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19990033"
 ---
 # <a name="add-front-end-archiving-store"></a>添加前端存档存储
  

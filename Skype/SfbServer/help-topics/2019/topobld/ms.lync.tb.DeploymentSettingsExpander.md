@@ -3,7 +3,6 @@ title: 部署设置扩展器
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 可以使用以下部分编辑现有部署的属性：
-ms.openlocfilehash: 79355ac9017ddb2e073a053d7b2aed1c60278fe7
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: e2ead1d674d6cfd3b01854d3ec0ca7bafd353b15
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991576"
 ---
 # <a name="deployment-settings-expander"></a>部署设置扩展器
  

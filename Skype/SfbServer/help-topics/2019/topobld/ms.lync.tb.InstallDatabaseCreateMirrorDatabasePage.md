@@ -3,7 +3,6 @@ title: 安装数据库创建镜像数据库页
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 description: 本文档是预备文档，可能随时更改。空白主题均以占位符的形式包含在内。
-ms.openlocfilehash: 9705e4502984cd8239038ef14916e8cd7959da56
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 9aa2538cf0fbdf45500af9782d5fe2901dcecb6f
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991703"
 ---
 # <a name="install-database-create-mirror-database-page"></a>安装数据库创建镜像数据库页
  
@@ -26,12 +26,8 @@ ms.lasthandoff: 05/25/2018
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
-[部署 SQL 镜像的后端服务器高可用性 Skype 业务服务器 2015](../../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
-#### 
+[部署 SQL 镜像后端服务器高可用性 Skype 业务服务器](../../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
 
 [Install-csmirrordatabase](https://docs.microsoft.com/powershell/module/skype/install-csmirrordatabase?view=skype-ps)
   
 [Install-csdatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps)
-

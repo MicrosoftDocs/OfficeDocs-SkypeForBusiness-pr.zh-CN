@@ -3,7 +3,6 @@ title: 添加前端关联 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a01dff6c-50cc-463d-ac08-9f22e044bdc8
 description: 您可以通过将服务器角色与前端池关联此时需要部署其他服务器的特定功能的支持。 还可以选择以后将服务器角色与前端池相关联。 可与前端池关联的服务器角色包括：
-ms.openlocfilehash: 74cf2ca8e04043d9cf6556bc220b42502e014a07
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 8362b2989b9845ba070af30cca0fd3bad19674fb
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19990637"
 ---
 # <a name="add-front-end-associations-2010"></a>添加前端关联 2010
  

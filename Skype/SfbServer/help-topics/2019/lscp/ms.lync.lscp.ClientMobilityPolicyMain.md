@@ -3,7 +3,6 @@ title: 客户端移动策略
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 description: 客户端移动策略页显示部署中可用的移动策略。
-ms.openlocfilehash: 27fe7bd4d92591ae3ff35f225a2841d576d03d7a
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 32ebb45e8622ec5f442a2506f55d73427865da66
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19989886"
 ---
 # <a name="clients-mobility-policy"></a>客户端： 移动策略
  
@@ -50,9 +50,6 @@ ms.lasthandoff: 05/24/2018
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [Planning for Mobility](http://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
   
 [Deploying Mobility](http://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
-

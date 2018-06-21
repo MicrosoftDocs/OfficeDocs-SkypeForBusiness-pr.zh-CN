@@ -3,7 +3,6 @@ title: 监控范围节点
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
-description: 在 Lync Server 2013 拓扑生成器中，您可以执行与单个通过右键单击控制台树中，运行监控的服务器运行监控服务器相关的任务，在工具栏中，单击操作或单击操作窗格中的任务，然后单击运行监控服务器的以下选项之一：
-ms.openlocfilehash: f1e59900993444218df820f81668c1c6d4762162
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: 在拓扑生成器中，您可以执行与单个通过右键单击控制台树中，运行监控的服务器运行监控服务器相关的任务，在工具栏中，单击操作或单击操作窗格中的任务，然后单击之一运行监控服务器的以下选项：
+ms.openlocfilehash: 006bfb85db15bd5d842644ca63edf55cf3b9b495
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987270"
 ---
 # <a name="monitoring-scope-node"></a>监控范围节点
  
-在 Lync Server 2013 拓扑生成器中，您可以执行与单个通过右键单击服务器运行监控的控制台树中，在工具栏中，单击**操作**或单击操作中的任务运行监控服务器相关的任务窗格中，，然后单击运行监控服务器的以下选项之一：
+在拓扑生成器中，您可以执行与单个通过右键单击控制台树中，运行监控的服务器运行监控服务器相关的任务，在工具栏中，单击**操作**或单击操作窗格中的任务，然后单击运行监控服务器的以下选项之一：
   
 - **编辑属性**。 打开**编辑属性**页上运行的监控，可在其中更改的完全限定的域名 (FQDN) 运行监控或监控 SQL Server 数据库的服务器的服务器。
     

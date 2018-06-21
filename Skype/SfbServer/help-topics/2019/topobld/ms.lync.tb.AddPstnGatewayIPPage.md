@@ -3,7 +3,6 @@ title: 定义 IP 或 PSTN 网关的 IP 地址
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 description: 您可以通过选择启用 IPv4 或启用 IPv6 定义 IP 或电话电话交换网 (pstn) 网关的 IPv4 或 IPv6 地址。 您可以选择，请使用所有已配置的 IP 地址或服务使用率限制为所选的 IP 地址。
-ms.openlocfilehash: 13e8cd916a568174b754ba8804faeb2612656421
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: adb8bfee46bbf32edef6111ee40843ebf47bb453
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987352"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>定义 IP 或 PSTN 网关的 IP 地址
  
@@ -26,7 +26,4 @@ ms.lasthandoff: 05/24/2018
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [电话拨入式会议要求](http://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)
-

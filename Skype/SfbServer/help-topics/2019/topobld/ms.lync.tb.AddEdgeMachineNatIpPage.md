@@ -3,7 +3,6 @@ title: 添加边缘计算机 NAT IP
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 71fb7752-c37f-46bb-a470-b5a8083aa95f
 description: 如果此边缘池的公共 IP 地址已翻译的网络地址转换 (NAT)，则必须指定要转换的公共 IP 地址。 这应该是外部 IP 地址的 A / V 边缘服务。
-ms.openlocfilehash: a6c63fc740a9833099b3582418ec2f53a9197421
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c0672bfa4ffacb10432713c7248a0a6355f4f57e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991569"
 ---
 # <a name="add-edge-machine-nat-ip"></a>添加边缘计算机 NAT IP
  

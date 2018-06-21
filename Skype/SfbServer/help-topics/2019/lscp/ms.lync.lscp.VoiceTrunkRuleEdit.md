@@ -3,7 +3,6 @@ title: 转换规则创建新的或编辑现有的
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 00dd53cbd289475c761015a3b65415580dec97e4
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 9208bc2d48770e2a66706a64f9bc3aa4b24ee649
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19992165"
 ---
 # <a name="translation-rule-create-new-or-edit-existing"></a>转换规则： 创建新的或编辑现有的
  
 您希望执行什么操作？单击您要执行的任务所对应的链接。
   
-- [创建或修改转换规则的呼叫 ID 演示文稿中 Skype 业务服务器 2015](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [创建或修改转换规则的呼叫 ID 演示文稿中 Skype 业务服务器](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
     
 - [手动创建或修改转换规则](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
     

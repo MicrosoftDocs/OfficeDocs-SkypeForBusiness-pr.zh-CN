@@ -3,7 +3,6 @@ title: 准备架构
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 description: 准备 Active Directory 域服务的架构，您运行架构准备步骤中 Skype 业务 Server 部署向导。 单击运行以开始的架构准备。 架构准备步骤读取/程序文件/Microsoft Lync Server 2013/部署/安装目录中运行部署向导的系统上提供的架构定义文件。 这些文件也是支持/架构目录中的安装媒体上可用。 “准备架构”步骤将扩展架构并报告准备过程的状态。 还将在完成准备过程时通知您。 通过摘要屏幕可以查看该过程的日志。 查看日志以确保准备工作已成功完成。
-ms.openlocfilehash: 190ee654984916e1f3417769ea65863f82566853
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7aea3a6f99182ba164d27e95ca2f34296d45c831
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987709"
 ---
 # <a name="prepare-schema"></a>准备架构
  
@@ -25,7 +25,7 @@ ms.lasthandoff: 05/24/2018
 > [!IMPORTANT]
 > 要扩展架构，必须以 Schema Admins 和 Enterprise Admins 组成员身份登录域。 
   
-添加的类和属性扩展 Active Directory 域服务架构以支持 Skype 业务服务器 2015年服务器、 服务和用户对象。 在扩展架构之前，应该对担任架构主机角色的域控制器进行系统状态备份。 有关 Windows Server 2008 R2 sp1 的备份过程的详细信息，请参阅[https://go.microsoft.com/fwlink/p/?linkId=207198](https://go.microsoft.com/fwlink/p/?linkId=207198)。 Windows Server 2003 和 Windows Server 2003 R2，请参阅[https://go.microsoft.com/fwlink/p/?linkId=207199](https://go.microsoft.com/fwlink/p/?linkId=207199)。
+添加的类和属性扩展 Active Directory 域服务架构以支持 Skype Business Server 服务器、 服务和用户对象。 在扩展架构之前，应该对担任架构主机角色的域控制器进行系统状态备份。 有关 Windows Server 2008 R2 sp1 的备份过程的详细信息，请参阅[https://go.microsoft.com/fwlink/p/?linkId=207198](https://go.microsoft.com/fwlink/p/?linkId=207198)。 Windows Server 2003 和 Windows Server 2003 R2，请参阅[https://go.microsoft.com/fwlink/p/?linkId=207199](https://go.microsoft.com/fwlink/p/?linkId=207199)。
   
 > [!CAUTION]
 > 扩展架构是不可逆的。 应尽一切努力限制失败的架构扩展的潜在影响，并确保架构扩展能够成功。 在通信中断或服务器上出现任何其他故障的情况下，这一点尤为重要。 您应执行备份的架构主机的域控制器和 Active Directory 的完整备份。 

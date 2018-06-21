@@ -3,7 +3,6 @@ title: 响应组创建新的或编辑现有的代理组
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 description: 代理组定义可应答针对响应组（称为代理）的呼叫的人员以及应用于组中所有代理的设置。
-ms.openlocfilehash: f1802c77c991f91b317f6ac6f6a405259c1bec30
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: af09b13d6fc6853a43719688b0f97ab60c20990f
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19988444"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>响应组：创建新的或编辑现有的代理组
  
@@ -61,12 +61,12 @@ ms.lasthandoff: 05/25/2018
     > 通讯组列表中代理排列的顺序将影响代理接收呼叫以进行循环和串行路由的顺序。 
   
     > [!NOTE]
-    > 隐藏成员身份或隐藏的列表可能会变为可见到响应组管理员或用户。 有关详细信息，请参阅[创建或修改代理组中的业务 2015 Skype](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md)。 
+    > 隐藏成员身份或隐藏的列表可能会变为可见到响应组管理员或用户。 有关详细信息，请参阅[创建或修改代理组中的业务的 Skype](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md)。 
   
   - 选择“**定义自定义代理组**”可选择您要分配为响应组代理的用户。单击“**选择**”可将代理添加到列表中。单击“**删除**”可从列表中删除所选代理。
     
     向上和向下箭头可在代理列表中向上和向下移动所选代理。列表中代理的排列顺序将影响代理接收呼叫以进行循环和串行路由的顺序。
     
-有关响应组特性和功能的详细信息，请参阅规划文档中的[计划中的业务服务器 2015 Skype 的响应组应用程序](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) 。
+有关响应组特性和功能的详细信息，请参阅[规划响应组应用程序中的业务服务器 Skype](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) 。
   
 

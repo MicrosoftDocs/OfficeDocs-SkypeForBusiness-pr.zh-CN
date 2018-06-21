@@ -1,27 +1,26 @@
 ---
-title: 将文件存储数据移动到 Skype for Business Server 2015 中的新文件存储
+title: 移动文件存储数据移到新文件存储中的业务服务器 Skype
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/30/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
-description: 如果您需要删除目前充当业务服务器 2015年部署您 Skype 的文件存储的文件服务器，或如果您需要进行其他更改，使当前文件存储不可用，首先需要创建新的共享。 然后需要执行以下步骤：
-ms.openlocfilehash: cb79fe34afee093647b7d871bdd3096ce6040f7a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 如果您需要删除目前充当业务服务器部署中，您 Skype 的文件存储的文件服务器，或如果您需要进行其他更改，使当前文件存储不可用，首先需要创建新的共享。 然后需要执行以下步骤：
+ms.openlocfilehash: fd8869a7cd0ca5f29d839de373e3e7d2f3d76faa
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569419"
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19988269"
 ---
-# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>将文件存储数据移动到 Skype for Business Server 2015 中的新文件存储
+# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>移动文件存储数据移到新文件存储中的业务服务器 Skype
  
-如果您需要删除目前充当业务服务器 2015年部署您 Skype 的文件存储的文件服务器，或如果您需要进行其他更改，使当前文件存储不可用，首先需要创建新的共享。 然后需要执行以下步骤：
+如果您需要删除目前充当业务服务器部署中，您 Skype 的文件存储的文件服务器，或如果您需要进行其他更改，使当前文件存储不可用，首先需要创建新的共享。 然后需要执行以下步骤：
   
-1. 关闭业务服务器 2015年用于使用的服务计划删除的文件存储 Skype。
+1. 关闭使用计划删除的文件存储的业务 Server 服务的 Skype。
     
 2. 拓扑生成器中定义的文件存储，然后发布更改，以使新文件存储供您的部署。
     
@@ -33,7 +32,7 @@ ms.locfileid: "19569419"
     
 ### <a name="to-move-file-store-data-from-one-file-store-to-a-new-file-store"></a>将文件存储数据从一个文件存储移动到新文件存储
 
-1. 安装 Business Server 2015，管理工具的 Skype 以 RTCUniversersalServerAdmins 或 CsServerAdministrator 组的成员身份登录到计算机。
+1. 安装 Business Server，管理工具的 Skype 以 RTCUniversersalServerAdmins 或 CsServerAdministrator 组的成员身份登录到计算机。
     
 2.  打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。  
     
@@ -43,7 +42,7 @@ ms.locfileid: "19569419"
     
 5. 以 Domain Admins 组和 RTCUniversalServerAdmins 组成员的身份登录安装了拓扑生成器的计算机。
     
-6. 启动拓扑生成器： 单击**开始**，单击**所有程序**、 都单击**业务服务器 2015年的 Skype**，，然后都单击**业务 Server 2015Topology 生成器的 Skype**。
+6. 启动拓扑生成器： 单击**开始**，单击**所有程序**、 都单击**Skype 业务服务器**，，然后都单击**Skype 的业务 Server 拓扑生成器**。
     
 7. 选择使用文件存储的服务器或池，然后执行以下操作：
     

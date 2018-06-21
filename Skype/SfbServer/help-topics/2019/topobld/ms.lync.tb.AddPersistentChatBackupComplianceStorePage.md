@@ -3,7 +3,6 @@ title: 添加持久聊天合规性备份 SQL Server 存储
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 description: 您配置的备份合规性 SQL Server 存储将 for Persistent Chat Server 提供备份数据库或持久聊天服务器合规性 SQL Server 存储。
-ms.openlocfilehash: 7143ecdc51caf941196f1499e9cc1dc35764b0d3
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 5dd121facf9008cb1698b0b9ee46eb0dbaa76afa
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987373"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>添加持久聊天合规性备份 SQL Server 存储
  
@@ -46,8 +46,6 @@ ms.lasthandoff: 05/25/2018
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [规划持久聊天服务器 Skype 中的业务 Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
 [Skype for Business Server 2015 服务器要求](../../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
@@ -57,4 +55,3 @@ ms.lasthandoff: 05/25/2018
 [为业务服务器 2015 Skype 中配置持久聊天服务器合规性的服务](../../../manage/persistent-chat/configure-compliance.md)
   
 [为业务服务器 2015年对于 Persistent Chat Server in Skype 配置高可用性和灾难恢复](../../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
-

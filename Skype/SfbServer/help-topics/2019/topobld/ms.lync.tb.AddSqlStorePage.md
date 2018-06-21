@@ -3,7 +3,6 @@ title: 添加 SQL 存储
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 description: 若要定义新的 SQL 存储，这意味着要指定基于 SQL Server 数据库和 SQL Server 的实例 — 默认实例或命名的实例 — 指定以下。
-ms.openlocfilehash: fcc498ea217afec1cac09ed4dc167878c58002f0
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 3e61767b1c014692a5375ede6de103fffcf5284f
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987303"
 ---
 # <a name="add-sql-store"></a>添加 SQL 存储
  

@@ -3,7 +3,6 @@ title: XMPP 联盟伙伴
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: c5a50bfb0fb80dfe83037b7d877ca02c82ad5994
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 618c2d5ee2be307ed6fd8007de02207f8bbbee7e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19988990"
 ---
 # <a name="xmpp-federated-partners"></a>XMPP 联盟伙伴
  
