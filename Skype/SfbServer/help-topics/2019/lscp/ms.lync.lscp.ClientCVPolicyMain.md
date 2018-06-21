@@ -1,9 +1,8 @@
 ---
 title: 客户端版本策略
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,51 +10,52 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
-description: 可以指定环境中支持的客户端版本。 当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。 地利用最大的业务服务器 2015 Skype 中包含的功能和改进的整体用户体验，您可以使用客户端版本筛选器来限制在您的环境中使用的客户端版本。 使用客户端版本筛选器还有助于降低支持多个客户端版本的相关成本。
-ms.openlocfilehash: cdba87f684af4a0bac4f36e9a856957a70499840
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: 可以指定环境中支持的客户端版本。 当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。 以最大利用业务服务器 Skype 中包含的功能和改进的整体用户体验，您可以使用客户端版本筛选器来限制在您的环境中使用的客户端版本。 使用客户端版本筛选器还有助于降低支持多个客户端版本的相关成本。
+ms.openlocfilehash: 539d0fe24678b9bc9784adf9d3512c1441298010
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19969573"
 ---
-# <a name="client-version-policy"></a><span data-ttu-id="a8a73-106">客户端版本策略</span><span class="sxs-lookup"><span data-stu-id="a8a73-106">Client Version Policy</span></span>
+# <a name="client-version-policy"></a><span data-ttu-id="a5b33-106">客户端版本策略</span><span class="sxs-lookup"><span data-stu-id="a5b33-106">Client Version Policy</span></span>
  
-<span data-ttu-id="a8a73-107">可以指定环境中支持的客户端版本。</span><span class="sxs-lookup"><span data-stu-id="a8a73-107">You can specify the version of clients that are supported in your environment.</span></span> <span data-ttu-id="a8a73-108">当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。</span><span class="sxs-lookup"><span data-stu-id="a8a73-108">When two clients that are running different versions interact, the features that are available to either client can be limited by the capabilities of the other client.</span></span> <span data-ttu-id="a8a73-109">地利用最大的业务服务器 2015 Skype 中包含的功能和改进的整体用户体验，您可以使用客户端版本筛选器来限制在您的环境中使用的客户端版本。</span><span class="sxs-lookup"><span data-stu-id="a8a73-109">To make the greatest use of features included in Skype for Business Server 2015 and to improve the overall user experience, you can use the client version filter to restrict the client versions that are used in your environment.</span></span> <span data-ttu-id="a8a73-110">使用客户端版本筛选器还有助于降低支持多个客户端版本的相关成本。</span><span class="sxs-lookup"><span data-stu-id="a8a73-110">By using the client version filter, you can also help reduce costs associated with supporting multiple client versions.</span></span>
+<span data-ttu-id="a5b33-107">可以指定环境中支持的客户端版本。</span><span class="sxs-lookup"><span data-stu-id="a5b33-107">You can specify the version of clients that are supported in your environment.</span></span> <span data-ttu-id="a5b33-108">当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。</span><span class="sxs-lookup"><span data-stu-id="a5b33-108">When two clients that are running different versions interact, the features that are available to either client can be limited by the capabilities of the other client.</span></span> <span data-ttu-id="a5b33-109">以最大利用业务服务器 Skype 中包含的功能和改进的整体用户体验，您可以使用客户端版本筛选器来限制在您的环境中使用的客户端版本。</span><span class="sxs-lookup"><span data-stu-id="a5b33-109">To make the greatest use of features included in Skype for Business Server and to improve the overall user experience, you can use the client version filter to restrict the client versions that are used in your environment.</span></span> <span data-ttu-id="a5b33-110">使用客户端版本筛选器还有助于降低支持多个客户端版本的相关成本。</span><span class="sxs-lookup"><span data-stu-id="a5b33-110">By using the client version filter, you can also help reduce costs associated with supporting multiple client versions.</span></span>
   
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="a8a73-111">可执行的任务</span><span class="sxs-lookup"><span data-stu-id="a8a73-111">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="a5b33-111">可执行的任务</span><span class="sxs-lookup"><span data-stu-id="a5b33-111">Tasks you can perform</span></span>
 
-<span data-ttu-id="a8a73-112">您可以在“**客户端版本策略**”页上执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="a8a73-112">You can perform the following tasks on the **Client Version Policy** page:</span></span>
+<span data-ttu-id="a5b33-112">您可以在“**客户端版本策略**”页上执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="a5b33-112">You can perform the following tasks on the **Client Version Policy** page:</span></span>
   
-- <span data-ttu-id="a8a73-113">编辑默认 （**全局**） 客户端版本策略。</span><span class="sxs-lookup"><span data-stu-id="a8a73-113">Edit the default ( **Global**) client version policy.</span></span>
+- <span data-ttu-id="a5b33-113">编辑默认（“**全局**”）客户端版本策略。</span><span class="sxs-lookup"><span data-stu-id="a5b33-113">Edit the default (**Global**) client version policy.</span></span>
     
-- <span data-ttu-id="a8a73-114">为特定站点或池创建客户端版本策略。</span><span class="sxs-lookup"><span data-stu-id="a8a73-114">Create client version policies for a particular site or pool.</span></span>
+- <span data-ttu-id="a5b33-114">为特定站点或池创建客户端版本策略。</span><span class="sxs-lookup"><span data-stu-id="a5b33-114">Create client version policies for a particular site or pool.</span></span>
     
-- <span data-ttu-id="a8a73-115">创建可分配给各个用户的客户端版本策略。</span><span class="sxs-lookup"><span data-stu-id="a8a73-115">Create client version policies that can be assigned to individual users.</span></span>
+- <span data-ttu-id="a5b33-115">创建可分配给各个用户的客户端版本策略。</span><span class="sxs-lookup"><span data-stu-id="a5b33-115">Create client version policies that can be assigned to individual users.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="a8a73-116">由于匿名用户未与用户、站点或服务关联，因此匿名用户仅受全局级别策略的影响。</span><span class="sxs-lookup"><span data-stu-id="a8a73-116">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span> 
+> <span data-ttu-id="a5b33-116">由于匿名用户未与用户、站点或服务关联，因此匿名用户仅受全局级别策略的影响。</span><span class="sxs-lookup"><span data-stu-id="a5b33-116">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span> 
   
-## <a name="ui-reference"></a><span data-ttu-id="a8a73-117">用户界面参考</span><span class="sxs-lookup"><span data-stu-id="a8a73-117">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="a5b33-117">用户界面参考</span><span class="sxs-lookup"><span data-stu-id="a5b33-117">UI Reference</span></span>
 
-<span data-ttu-id="a8a73-118">下表介绍了该页上的菜单、命令、字段和属性。</span><span class="sxs-lookup"><span data-stu-id="a8a73-118">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
+<span data-ttu-id="a5b33-118">下表介绍了该页上的菜单、命令、字段和属性。</span><span class="sxs-lookup"><span data-stu-id="a5b33-118">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
   
-- <span data-ttu-id="a8a73-119">**新**您可以创建一个或多个以下客户端版本策略：</span><span class="sxs-lookup"><span data-stu-id="a8a73-119">**New** You can create one or more of each of the following client version policies:</span></span>
+- <span data-ttu-id="a5b33-119">**新**您可以创建一个或多个以下客户端版本策略：</span><span class="sxs-lookup"><span data-stu-id="a5b33-119">**New** You can create one or more of each of the following client version policies:</span></span>
     
-  - <span data-ttu-id="a8a73-120">站点策略</span><span class="sxs-lookup"><span data-stu-id="a8a73-120">Site policy</span></span>
+  - <span data-ttu-id="a5b33-120">站点策略</span><span class="sxs-lookup"><span data-stu-id="a5b33-120">Site policy</span></span>
     
-  - <span data-ttu-id="a8a73-121">池策略</span><span class="sxs-lookup"><span data-stu-id="a8a73-121">Pool policy</span></span>
+  - <span data-ttu-id="a5b33-121">池策略</span><span class="sxs-lookup"><span data-stu-id="a5b33-121">Pool policy</span></span>
     
-  - <span data-ttu-id="a8a73-122">用户策略</span><span class="sxs-lookup"><span data-stu-id="a8a73-122">User policy</span></span>
+  - <span data-ttu-id="a5b33-122">用户策略</span><span class="sxs-lookup"><span data-stu-id="a5b33-122">User policy</span></span>
     
-- <span data-ttu-id="a8a73-123">**编辑**您可以更改的任何客户端版本策略的选项。</span><span class="sxs-lookup"><span data-stu-id="a8a73-123">**Edit** You can change the options of any of the client version policies.</span></span> <span data-ttu-id="a8a73-124">使用此选项，可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="a8a73-124">Using this option, you can do the following:</span></span>
+- <span data-ttu-id="a5b33-123">**编辑**您可以更改的任何客户端版本策略的选项。</span><span class="sxs-lookup"><span data-stu-id="a5b33-123">**Edit** You can change the options of any of the client version policies.</span></span> <span data-ttu-id="a5b33-124">使用此选项，可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="a5b33-124">Using this option, you can do the following:</span></span>
     
-  - <span data-ttu-id="a8a73-125">**显示详细信息**此选项可打开一个对话框，您可以在其中更改客户端版本策略的选项。</span><span class="sxs-lookup"><span data-stu-id="a8a73-125">**Show details** This option opens a dialog box in which you can change the options for a client version policy.</span></span>
+  - <span data-ttu-id="a5b33-125">**显示详细信息**此选项可打开一个对话框，您可以在其中更改客户端版本策略的选项。</span><span class="sxs-lookup"><span data-stu-id="a5b33-125">**Show details** This option opens a dialog box in which you can change the options for a client version policy.</span></span>
     
-  - <span data-ttu-id="a8a73-126">**选择全部**此选项可选择列表中所有客户端版本策略。</span><span class="sxs-lookup"><span data-stu-id="a8a73-126">**Select All** This option selects all client version policies in the list.</span></span>
+  - <span data-ttu-id="a5b33-126">**选择全部**此选项可选择列表中所有客户端版本策略。</span><span class="sxs-lookup"><span data-stu-id="a5b33-126">**Select All** This option selects all client version policies in the list.</span></span>
     
-  - <span data-ttu-id="a8a73-127">**删除**此选项可删除所有选定的客户端版本策略。</span><span class="sxs-lookup"><span data-stu-id="a8a73-127">**Delete** This option deletes all selected client version policies.</span></span>
+  - <span data-ttu-id="a5b33-127">**删除**此选项可删除所有选定的客户端版本策略。</span><span class="sxs-lookup"><span data-stu-id="a5b33-127">**Delete** This option deletes all selected client version policies.</span></span>
     
-- <span data-ttu-id="a8a73-128">**刷新**您可以刷新客户端版本策略列表以验证所有客户端版本策略的选项状态。</span><span class="sxs-lookup"><span data-stu-id="a8a73-128">**Refresh** You can refresh the client version policy list to verify the status of the options of all client version policies.</span></span>
+- <span data-ttu-id="a5b33-128">**刷新**您可以刷新客户端版本策略列表以验证所有客户端版本策略的选项状态。</span><span class="sxs-lookup"><span data-stu-id="a5b33-128">**Refresh** You can refresh the client version policy list to verify the status of the options of all client version policies.</span></span>
     
-<span data-ttu-id="a8a73-129">有关客户端和客户端版本之间的互操作性的详细信息，请参阅规划文档中的[Client Interoperability in Lync 2013 Preview](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="a8a73-129">For details about interoperability among clients and client versions, see [Client Interoperability in Lync 2013 Preview](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in the Planning documentation.</span></span> <span data-ttu-id="a8a73-130">有关使用客户端版本策略的详细信息，请参阅操作文档中的[指定 the Client Versions Supported in Your Organization](http://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="a8a73-130">For details about working with client version policies, see [Specify the Client Versions Supported in Your Organization](http://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="a5b33-129">有关客户端和客户端版本之间的互操作性的详细信息，请参阅规划文档中的[客户端互操作性](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)。</span><span class="sxs-lookup"><span data-stu-id="a5b33-129">For details about interoperability among clients and client versions, see [Client Interoperability](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in the Planning documentation.</span></span> <span data-ttu-id="a5b33-130">有关使用客户端版本策略的详细信息，请参阅操作文档中的[指定 the Client Versions Supported in Your Organization](http://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="a5b33-130">For details about working with client version policies, see [Specify the Client Versions Supported in Your Organization](http://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) in the Operations documentation.</span></span>
 
