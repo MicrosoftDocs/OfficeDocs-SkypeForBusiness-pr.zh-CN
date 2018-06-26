@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 3ebfb0ed83107912865834ea028c5c2c5e89852c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 92b9ce6b7d1d81ac72d230dd28cac59491aaadd1
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970533"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20046261"
 ---
-# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="e16ce-104">用户： 查看或配置位置策略</span><span class="sxs-lookup"><span data-stu-id="e16ce-104">Users: View or Configure Location Policy</span></span>
+# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="8c507-104">用户： 查看或配置位置策略</span><span class="sxs-lookup"><span data-stu-id="8c507-104">Users: View or Configure Location Policy</span></span>
  
-<span data-ttu-id="e16ce-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="e16ce-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="8c507-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="8c507-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="e16ce-107">为用户分配位置策略</span><span class="sxs-lookup"><span data-stu-id="e16ce-107">Assign a Location Policy to a User</span></span>](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [<span data-ttu-id="8c507-107">为用户分配位置策略</span><span class="sxs-lookup"><span data-stu-id="8c507-107">Assign a Location Policy to a User</span></span>](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
     
-<span data-ttu-id="e16ce-108">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="e16ce-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+ 
 
