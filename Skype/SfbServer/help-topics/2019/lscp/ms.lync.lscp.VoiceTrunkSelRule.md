@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 55776a94-4888-4436-a3b6-0e6f8252e392
 description: 企业语音要求所有拨号串都规范化为 E.164 格式，以便执行反向号码查找 （rnl） 会。 中继对等方（即，关联网关、PBX 或 SIP 中继）可能要求号码采用本地拨号格式。 要将 E.164 格式的号码转换为本地拨号格式，可以在将其路由至中继对等方之前，选择定义一个或多个转换规则以处理请求 URI。 例如，可以编写用于删除拨号串开头的 +44 并将其替换为 0144 的转换规则。
-ms.openlocfilehash: 66e9c86679ead2832ecb8e0069e60fdcc9eae49f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 326d56aea92bf63e9ea813d91d2a3f7c816bce48
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992130"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044507"
 ---
 # <a name="select-translation-rules"></a>选择转换规则
  
@@ -27,6 +27,6 @@ ms.locfileid: "19992130"
   
 要使用现有的转换规则，请单击列表中的某个规则，然后单击“**确定**”。
   
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
+ 
   
 

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: b5bb05ef0f5015ec7bd072b565b8d2829d92381b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: a6532ccbb2f02faace58575198c79039fef3c38d
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987786"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20043897"
 ---
 # <a name="topology-view-simple-url-detail"></a>拓扑： 查看简单 URL 详细信息
  
@@ -28,5 +28,5 @@ ms.locfileid: "19987786"
     
 - [管理简单 Url](http://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
     
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
+ 
 

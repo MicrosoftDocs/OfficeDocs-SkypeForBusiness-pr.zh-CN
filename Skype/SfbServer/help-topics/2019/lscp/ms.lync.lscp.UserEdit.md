@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: a7d6fe9ef73026825c4367bb21432ec5d4b56630
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 437346f430f0454b1c06338864b42b8863e46970
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973907"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20043904"
 ---
 # <a name="users-edit-user"></a>用户： 编辑用户
  
@@ -42,5 +42,5 @@ ms.locfileid: "19973907"
     
 - [分配每用户移动策略](http://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
     
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
+ 
 

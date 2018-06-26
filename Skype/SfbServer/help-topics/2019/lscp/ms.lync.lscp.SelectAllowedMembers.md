@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: 创建和管理的持久聊天聊天室类别的正确使用与要容易得多。 持久聊天管理员可以为每个类别定义 AllowedMembers 和 Creators 和还可以定义默认聊天室设置和将应用于所有聊天室的类别中创建的行为。 持久聊天管理员创建和使用控制面板或 Windows PowerShell cmdlet 管理类别。
-ms.openlocfilehash: f83ff99905a9c2ada133c6a21d235a8385261545
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c29163a88394fd9c3653e9bbbdae8c9f744f610e
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974668"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045608"
 ---
 # <a name="select-allowed-members"></a>选择允许的成员
  
@@ -32,7 +32,7 @@ ms.locfileid: "19974668"
     
 - [持久聊天服务器的新增功能](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
     
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
+ 
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>配置聊天室的类别
 

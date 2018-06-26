@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: CsPersistentChatAdministrator 角色 （持久聊天管理员） 的成员可以向其他用户和自己授予聊天室管理员权限和权限。
-ms.openlocfilehash: bc19f9d4ae7592bf1d3451bee01355c763cf3b1f
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 0b12223fd51158d2525986b2a475e62604ab7252
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045251"
 ---
 # <a name="users-view-persistent-chat"></a>用户： 查看持久聊天
  
@@ -44,6 +45,6 @@ A Persistent Chat Administrator 可以执行以下操作：
     
 - [了解持久聊天成员身份](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
     
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
+ 
   
 

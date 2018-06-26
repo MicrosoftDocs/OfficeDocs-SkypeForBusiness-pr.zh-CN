@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb07d783-e084-4256-a928-a67a6ac006cb
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: acb24642f915cc1f28c9c25facf9b10eb376c858
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 53340ed93b90a084d4661aaee08e96ba850b4fa0
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990595"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20046739"
 ---
 # <a name="voice-policy-create-new-or-edit-existing"></a>语音策略： 创建新的或编辑现有的
  
@@ -26,5 +26,5 @@ ms.locfileid: "19990595"
     
 - [修改语音策略和配置 PSTN 用法记录](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
     
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
+ 
 

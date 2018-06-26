@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 079ef16414e5ceb3dd21f51f691845fc3232b3e1
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 4a5a0c430fa8cd9fc7e84ca35229c2b14c608ff3
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987590"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044100"
 ---
 # <a name="url-filter-create-new-or-edit-existing"></a>URL 筛选器： 创建新的或编辑现有的
  
@@ -26,5 +26,5 @@ ms.locfileid: "19987590"
     
 - [创建新的 URL 筛选器以处理 IM 对话中的超链接](http://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
     
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
+ 
 

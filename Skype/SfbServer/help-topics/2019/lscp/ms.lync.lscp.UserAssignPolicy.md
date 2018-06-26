@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: d5b283658b0e38efb0c0e153e9058578f31be056
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: cf071e29a12aca3f52deed997e2767ecb5e8426b
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992109"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045272"
 ---
 # <a name="users-assign-policies"></a>用户： 分配策略
  
@@ -26,7 +26,7 @@ ms.locfileid: "19992109"
     
 - [指定用户登录支持的客户端版本](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-- [为业务服务器 2015年分配 Skype 中的每用户 PIN 策略](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [为业务服务器分配 Skype 中的每用户 PIN 策略](../../../manage/authentication/assign-a-per-user-pin-policy.md)
     
 - [为用户配置联盟、 远程用户访问和公共 IM 连接](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
@@ -40,5 +40,5 @@ ms.locfileid: "19992109"
     
 - [分配每用户持久聊天策略](http://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
     
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
+ 
 

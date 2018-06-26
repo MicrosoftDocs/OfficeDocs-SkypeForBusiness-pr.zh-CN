@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 description: 使用区域链接对话框查找您环境中可用的区域链接。 若要使用现有的区域链接，单击列表中的区域链接，然后单击确定。
-ms.openlocfilehash: 608f6ce5eaa9800bb43e84d5de42d6b24b468774
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 58d82b7448e179c2d48e5ddd4573fa54c1d09643
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19968900"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045615"
 ---
 # <a name="select-a-region-link"></a>选择区域链接
  
@@ -25,6 +25,6 @@ ms.locfileid: "19968900"
 > [!NOTE]
 > 要检索所有可用的区域链接，请不要在搜索框中键入任何内容，然后单击搜索图标。 
   
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
+ 
   
 

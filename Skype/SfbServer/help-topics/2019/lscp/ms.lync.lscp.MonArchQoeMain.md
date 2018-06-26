@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 1a2482e259000d290ce62564358d64702d03e693
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 0d0108cef812dd6eea72bb7a0fef9fb5c7723298
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997064"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044135"
 ---
 # <a name="quality-of-experience-qoe-data"></a>质量体验 (QoE) 数据
  
@@ -28,5 +28,5 @@ ms.locfileid: "19997064"
     
 - [为 Business Server Skype 创建用户体验质量配置设置](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
+ 
 

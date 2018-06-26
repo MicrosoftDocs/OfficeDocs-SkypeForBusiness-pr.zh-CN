@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 8f9f4f5859b263162c5693e5c35bc71cc3471171
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d7f31af610a0d69398d614eb9e3ac8ca98a79b38
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970715"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045146"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>Web 服务安全设置： 创建新的或修改现有的
  
@@ -28,5 +28,5 @@ ms.locfileid: "19970715"
     
 - [删除 Web 服务](http://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
     
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
+ 
 

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 3e490953a750a8512f08d3314afafc6ee5a5e039
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: fbd9d275966460bf77ee046f3fcbfba8aa4e41bd
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987653"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20043995"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>中继配置： 创建新的或编辑现有的
  
@@ -30,5 +30,5 @@ ms.locfileid: "19987653"
     
 - [手动创建或修改转换规则](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
     
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
+ 
 
