@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: 您可以使用保存语音路由测试用例信息对话框保存临时语音路由测试用例。 在保存语音路由测试用例信息，键入您想要在名称中授予的测试用例，然后单击确定的名称。
-ms.openlocfilehash: a226952ed118d78210c0bbc4056d719b97986868
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 0193210cfe7d38c56782a6f20d7e54efdf04bd99
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19966898"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20049098"
 ---
 # <a name="save-voice-routing-test-case-information"></a>保存语音路由测试用例信息
  
@@ -25,6 +25,6 @@ ms.locfileid: "19966898"
 > [!NOTE]
 > 保存临时的测试用例，都不保存到中央管理存储。 相反，它使测试用例可从**语音路由**页上的**测试语音路由**选项卡。 与**Uncommitted**的状态将显示为测试用例。 要保存到中央管理存储的测试用例，则必须通过单击**语音路由**页中任何**操作**菜单中的**全部提交**提交的语音配置。
   
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
+ 
   
 

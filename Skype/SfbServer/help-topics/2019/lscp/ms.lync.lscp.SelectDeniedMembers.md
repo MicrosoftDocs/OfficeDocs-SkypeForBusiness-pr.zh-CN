@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: 持久聊天管理员可以创建和管理聊天室类别。 作为创建和管理聊天室类别的一部分，a Persistent Chat Administrator 可配置有权在特定类别的聊天室的成员/创建者的主体 （Active Directory 域服务组/容器/用户）。 A Persistent Chat Administrator 还可以将 DeniedMembers 添加到类别和这些成为显式排除到允许列表。 DeniedMembers 重写 AllowedMembers 中是什么。
-ms.openlocfilehash: 98e57342296f181971c799bafa1b77eccd24b509
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: b5d203c02e8bec67da2a9a94fb7726675a6151cf
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20049084"
 ---
 # <a name="select-denied-members"></a>选择被拒绝的成员
  
@@ -30,7 +31,7 @@ ms.lasthandoff: 05/25/2018
     
 - [持久聊天服务器的新增功能](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
     
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../../manage/manage.md)。
+ 
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>配置聊天室的类别
 
@@ -42,7 +43,4 @@ ms.lasthandoff: 05/25/2018
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [了解持久聊天成员身份](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
-
