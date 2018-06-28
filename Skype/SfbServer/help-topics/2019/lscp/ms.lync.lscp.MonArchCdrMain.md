@@ -11,20 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 6f624495d71fd99c3f64acbe168e21e87ae3fffe
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: f2f1e3965788aaa0afa90b9a31984b5518c6784c
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20046205"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088502"
 ---
-# <a name="call-detail-recording"></a><span data-ttu-id="44188-104">呼叫详细信息记录</span><span class="sxs-lookup"><span data-stu-id="44188-104">Call Detail Recording</span></span>
+# <a name="call-detail-recording"></a><span data-ttu-id="2b1a2-104">呼叫详细信息记录</span><span class="sxs-lookup"><span data-stu-id="2b1a2-104">Call Detail Recording</span></span>
  
-<span data-ttu-id="44188-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="44188-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="2b1a2-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="2b1a2-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="44188-107">启用业务服务器 2015 Skype 中的呼叫详细信息记录</span><span class="sxs-lookup"><span data-stu-id="44188-107">Enable call detail recording in Skype for Business Server 2015</span></span>](../../../manage/health-and-monitoring/enable-cdr.md)
+- [<span data-ttu-id="2b1a2-107">为业务服务器启用呼叫详细信息记录在 Skype</span><span class="sxs-lookup"><span data-stu-id="2b1a2-107">Enable call detail recording in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-cdr.md)
     
-- [<span data-ttu-id="44188-108">为业务服务器 2015 Skype 中指定保留 CDR 数据</span><span class="sxs-lookup"><span data-stu-id="44188-108">Specify retention of CDR data in Skype for Business Server 2015</span></span>](../../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [<span data-ttu-id="2b1a2-108">指定保留 CDR 数据在 Skype 业务服务器</span><span class="sxs-lookup"><span data-stu-id="2b1a2-108">Specify retention of CDR data in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
  
 
