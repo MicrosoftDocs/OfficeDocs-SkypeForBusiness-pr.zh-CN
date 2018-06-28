@@ -1,5 +1,5 @@
 
-# [Skype 业务 Online 管理](../skype-for-business-online.md)
+# [Skype for Business Online 管理](../skype-for-business-online.md)
 
 ## [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
@@ -11,7 +11,7 @@
 ### [更改音频会议网桥的设置](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md)
 ### [更改音频会议网桥的电话号码](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 ### [从会议拨出，以便其他人可以加入会议](../audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md)
-### [特定用户的禁用免费电话号码](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
+### [禁用特定用户的免费电话号码](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
 ### [用户设置更改时向其发送的电子邮件](../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md) 
 ### [启用或禁用设置更改时发送电子邮件](../audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change.md)
 ### [使用户能够在加入会议时录制其姓名](../audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting.md)
@@ -59,7 +59,7 @@
 #### [美国的电话号码管理](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 ### [如何在你的组织中使用来电显示](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)
 ### [你可以获取多少个电话号码？](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
-###[有关调用行 ID 和呼叫方姓名的详细信息](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
+###[更多关于呼叫线路 ID 和主叫方名称的信息](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 ### [为用户搜索电话号码](../what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users.md)
 ### [查看组织中的电话号码列表](../what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization.md)
 ### [为用户设置来电显示](../what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md)
@@ -75,7 +75,7 @@
 ### [创建电话系统呼叫队列](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [获取适用于 Skype for Business Online 的电话](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [部署 Skype for Business Online 电话](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
-#### [设置 up 公共区域电话 （帽）](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
+#### [设置公用区域电话 (CAP)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [电话系统的功能](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### 电话系统语音邮件
@@ -83,7 +83,7 @@
 #### [Skype for Business 的语音邮件问候语和消息的语言](../what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md)
 #### [设置电话系统语音邮件 - 管理员帮助](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
 ### [设置电话系统自动助理](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-### [设置您的组织中的电话系统](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
+### [在你有组织中设置电话系统](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
 ### [什么是电话系统自动助理？](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 #### [设置电话系统自动助理](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
@@ -93,14 +93,14 @@
 ### [更改 Skype 会议直播设置](../set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
 
 ## [Skype for Business 和 Microsoft Teams 外接程序许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
-### 基于您的计划的许可证选项
-#### [Office 365 企业高级版](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
+### 基于计划的许可证选项
+#### [Office 365 商业高级版](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
 #### [Office 365 Premium、 Office 365 ProPlus，或 for Business 的 Skype Online 计划 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
 #### [Office 365 企业版 E1、 E3 和 E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
 #### [Office 365 企业 E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
 #### [Office 365 企业 E5 （无需音频会议）](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
 #### [Skype 会议室系统第 2 版](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
-#### [GOV、 EDU 和非营利组织](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
+#### [GOV、EDU 和非营利组织](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 ### [存入资金和管理通信点数](../skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits.md)
 ### [分配 Skype for Business 和 Microsoft Teams 许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 ### [音频会议按分钟付费](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md)
@@ -149,6 +149,7 @@
 ### [设置 Skype for Business 通话分析](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [启用和使用通话质量仪表板](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [使用通话分析解决通话质量不佳的问题](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [呼叫质量仪表板中的流分类](../using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard.md)
 
 ## [Skype for Business Online 报告](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [活动报告](../skype-for-business-online-reporting/activity-report.md)
@@ -169,14 +170,14 @@
 ### [管理用户帐户](../set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
 ### [使用 Skype for Business Online 连接器管理组织](../set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md)
 
-## 法律和法规
+## 法律和监管
 ### [法国 Skype for Business Online 辅助功能合规性声明](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
 ### [法国 Skype for Business Online 辅助功能解决方案](../legal-and-regulatory/accessibility-solutions-in-france.md)
-### [加拿大-IP 中继注册 （英文）](../legal-and-regulatory/ip-relay-canada-email-signup.md)
-### [加拿大-用户指南 》 中的 IP 中继](../legal-and-regulatory/ip-relay-canada-user-guide.md)
+### [加拿大的 IP 中继 - 注册](../legal-and-regulatory/ip-relay-canada-email-signup.md)
+### [加拿大 IP 中继 - 用户指南](../legal-and-regulatory/ip-relay-canada-user-guide.md)
 ### [优惠拨出时段](../legal-and-regulatory/complimentary-dial-out-period.md)
 ### [英国 (U.K.) 行为准则](../legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
 ### [英国 (U.K.) 投诉处理准则](../legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [数据收集做法](../legal-and-regulatory/data-collection-practices.md)
-### [紧急呼叫的标签](../legal-and-regulatory/emergency-calling-labels.md)
-### [对于第三方音频会议的 Skype 的业务集成生命程序结束](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
+### [紧急呼叫标签](../legal-and-regulatory/emergency-calling-labels.md)
+### [将 Skype for Business 与第三方音频会议集成的生命周期结束计划](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)

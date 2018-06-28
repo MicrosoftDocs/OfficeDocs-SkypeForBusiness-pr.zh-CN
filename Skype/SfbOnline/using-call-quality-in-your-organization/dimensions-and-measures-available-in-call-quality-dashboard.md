@@ -1,5 +1,5 @@
 ---
-title: 维度和度量呼叫质量仪表板中可用
+title: 通话质量仪表板中可用的维度和衡量指标
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,13 +18,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: 657a441f2dc3415006d0f126da876fa525a8610c
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: a28819244829b26e19ad8a3c108438e37431fb06
+ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20091660"
 ---
-# <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>维度和度量呼叫质量仪表板中可用
+# <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>通话质量仪表板中可用的维度和衡量指标
 
 呼叫质量仪表板 (CQD) 的 Microsoft 团队和 Skype 业务 online 使您能够获得见解进行业务服务使用的 Microsoft 团队和 Skype 的呼叫的质量。 本主题详细介绍了 CQD 提供的维度和衡量指标。 若要了解有关 CQD 以及如何启用它的详细信息，请参阅[打开和使用的 Microsoft 团队和 Skype 业务 online 呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)。
   
@@ -110,18 +111,18 @@ ms.lasthandoff: 05/17/2018
 |Duration 60 seconds or more  <br/> |布尔值  <br/> |如果流的持续时间大于或等于 60 秒，则为 True，否则为 False。  |**示例值：** ，则返回 true  <br/> |
 |Duration (Seconds)  <br/> |范围（秒）  <br/> |流的持续时间，以秒为单位。值按范围分组表示。 |  **示例值：** 062: [1-2)  <br/> |
 |Duration (Minutes)  <br/> |范围（分钟）  <br/> |流的持续时间，以分钟为单位。值按范围分组表示。 |  **示例值：** 065: [3-4)  <br/> |
-|结束时间  <br/> |日期时间  <br/> |流结束的时间。请注意，此维度可能包含过多的行，导致无法用作报告中的一个维度。它可能会转为用作筛选器。  |**示例值：** 2017年-02-01 T00:00:01  <br/> |
-|Year  <br/> |整型  <br/> |流开始的年份。  | **示例值：** 2017年  <br/> |
-|Month  <br/> |整型  <br/> |流开始的月份。  | **示例值：** 2  <br/> |
-|Day  <br/> |整型  <br/> |流开始的日期。  |**示例值：** 1  <br/> |
-|Hour  <br/> |整型  <br/> |流开始的小时时间。  | **示例值：** 1  <br/> |
-|Minute  <br/> |整型  <br/> |流开始的分钟时间。  | **示例值：** 30  <br/> |
-|Second  <br/> |整型  <br/> |流开始的秒钟时间。  |**示例值：** 12  <br/> |
-|Day Of Year  <br/> |整型  <br/> |流的开始日期是一年中的第几天。  | **示例值：** 32  <br/> |
-|Day Of Week  <br/> |字符串  <br/> |流的开始时间是星期几。  | **示例值：** 星期三  <br/> |
-|Day Number Of Week  <br/> |整型  <br/> |流的开始时间是一周的第几天。  | **示例值：** 3  <br/> |
-|Month Year  <br/> |字符串  <br/> |流开始的月份和年份。  |**示例值：** 2017年-02  <br/> |
-|Full Month  <br/> |日期时间  <br/> |流开始的完整月份。  | **示例值：** 2017年-02-01 T00:00:00  <br/> |
+|日期  <br/> |字符串  <br/> |日期结束的流。  |**示例值：** 2018年-06-01  <br/> |
+|Year  <br/> |整型  <br/> |年的流末尾。  | **示例值：** 2018年  <br/> |
+|Month  <br/> |整型  <br/> |流末尾的月份。  | **示例值：** 2  <br/> |
+|Day  <br/> |整型  <br/> |流末尾的某一天。  |**示例值：** 1  <br/> |
+|Hour  <br/> |整型  <br/> |小时的流末尾。  | **示例值：** 1  <br/> |
+|Minute  <br/> |整型  <br/> |分钟数流末尾。  | **示例值：** 30  <br/> |
+|Second  <br/> |整型  <br/> |第二个流末尾。  |**示例值：** 12  <br/> |
+|Day Of Year  <br/> |整型  <br/> |流末尾年的某一天。  | **示例值：** 32  <br/> |
+|Day Of Week  <br/> |字符串  <br/> |星期流末尾的一天。  | **示例值：** 星期三  <br/> |
+|Day Number Of Week  <br/> |整型  <br/> |一天的流末尾的周数。  | **示例值：** 3  <br/> |
+|Month Year  <br/> |字符串  <br/> |月份和年份的流末尾。  |**示例值：** 2017年-02  <br/> |
+|Full Month  <br/> |日期时间  <br/> |流末尾的完整月份。  | **示例值：** 2017年-02-01 T00:00:00  <br/> |
 |First Domain  <br/> |字符串  <br/> |使用第一终结点的用户的域。如果第一终结点是会议服务器，则为会议组织者的域。也可能是场景中使用的服务帐户的域。  <br/> |**示例值：** contoso.com  <br/> |
 |Second Domain  <br/> |字符串  <br/> |使用第二终结点的用户的域。如果第二终结点是会议服务器，则为会议组织者的域。也可能是场景中使用的服务帐户的域。  | **示例值：** contoso.com  <br/> |
 |First User Agent Category  <br/> |字符串  <br/> |第一终结点的用户代理的类别。  <br/> |空值表示当前没有映射的用户代理，如第三方用户代理。  <br/>  **示例值：** OC  <br/> |
@@ -215,7 +216,6 @@ ms.lasthandoff: 05/17/2018
 |Video Local Frame Loss Percentage Avg  <br/> |范围（百分比）  <br/> |向用户显示的视频帧丢失平均百分比。值按范围分组表示。其中包括从网络丢失恢复的帧。  <br/> |空值表示流不是视频流或基于视频的屏幕共享流，或接收流的终结点未报告此数据。  <br/> **示例值：** 160: [80-85)  <br/> |
 |Recv Frame Rate Average  <br/> |范围（每秒帧数）  <br/> |在会话持续期间计算到的所有视频流每秒接收的平均帧数。值按范围分组表示。  <br/> |空值表示流不是视频流或基于视频的屏幕共享流，或接收流的终结点未报告此数据。  <br/> **示例值：** 101: [14.5-15)  <br/> |
 |Low Frame Rate Call Percent  <br/> |范围（百分比）  <br/> |帧速率低于 7.5 帧/秒的通话时间的百分比。值按范围分组表示。  <br/> |空值表示流不是视频流或基于视频的屏幕共享流，或接收流的终结点未报告此数据。  <br/>  **示例值：** 099: [13.5-14)  <br/> |
-|Low Resolution Call Percent  <br/> |范围（百分比）  <br/> |分辨率较低的通话时间的百分比。值按范围分组表示。较小维度的阈值为 120 像素。  <br/> |空值表示流不是视频流或基于视频的屏幕共享流，或接收流的终结点未报告此数据。  <br/> |
 |Video Packet Loss Rate  <br/> |范围（比率）  <br/> |在会话持续期间计算到的平均丢包比率（小数），根据 RFC3550 指定。值按范围分组表示。  <br/> |空值表示流不是视频流或基于视频的屏幕共享流，或接收流的终结点未报告此数据。  <br/> **示例值：** 037: [0.75-0.8)  <br/> |
 |Video Frame Rate Avg  <br/> |范围（每秒帧数）  <br/> |在会话持续期间计算到的视频流每秒接收的平均帧数。值按范围分组表示。  <br/> |空值表示流不是视频流或基于视频的屏幕共享流，或接收流的终结点未报告此数据。   <br/> **示例值：** 135: [31.5-32)  <br/> |
 |Dynamic Capability Percent  <br/> |范围（百分比）  <br/> |客户端以低于此类型 CPU 预期视频处理容量的 70% 运行的时间的百分比，按范围分组。  <br/> |空值表示流不是视频流或基于视频的屏幕共享流，或接收流的终结点未报告此数据。  <br/> **示例值：** 122: [25-25.5)  <br/> |
@@ -223,31 +223,24 @@ ms.lasthandoff: 05/17/2018
 |AppSharing Relative OneWay Average  <br/> |范围（毫秒）  <br/> |终结点之间的应用程序共享流的相对单向平均延迟，以毫秒为单位。值按范围分组表示。  <br/> |空值表示流不是应用程序共享流，或发送流的终结点未报告此数据。  <br/> **示例值：** 126: [27-27.5)  <br/> |
 |AppSharing RDP Tile Processing Latency Average  <br/> |范围（毫秒）  <br/> |在会议服务器上处理 RDP 堆栈图块的平均延迟，以毫秒为单位。值按范围分组表示。  <br/> |空值表示流不是会议中的应用程序共享流，或发送流的终结点未报告此数据。   <br/> **示例值：** 103: [15.5-16)  <br/> |
 |Audio FEC Used  <br/> |布尔值  <br/> |True 表示通话期间在某些点上使用了音频前向纠错 (FEC)。False 表示未使用。  <br/> |空值表示流不是音频流，或发送流的终结点未报告此数据。  <br/>  **示例值：** True  <br/> |
-|ClassifiedPoorCall  <br/> |布尔值  <br/> |如果根据以下文章中列出的指标将流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |空值表示没有报告可以将流分类为好或差的足够指标。  <br/>  **示例值：** True  <br/> |
-|Video Poor Due To VideoPostFecplr  <br/> |布尔值  <br/> |如果根据以下文章中列出的"FEC PLR 后的视频"指标阈值将流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非视频流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是视频流。   <br/> **示例值：** ，则返回 true  <br/> |
-|Video Poor Due To Video Local Frame Loss Percentage Avg  <br/> |布尔值  <br/> |如果根据以下文章中列出的"视频本地帧丢失平均百分比"指标阈值将视频流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非视频流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是视频流。  <br/>  **示例值：** |true  <br/> |
-|Video Poor Due To Recv Frame Rate Average  <br/> |布尔值  <br/> |如果根据以下文章中列出的"帧平均接收速率"指标阈值将视频流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非视频流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是视频流。  <br/> **示例值：** ，则返回 true  <br/> |
-|Video Poor Due To Low Frame Rate Call Percent  <br/> |布尔值  <br/> |如果根据以下文章中列出的"低帧速率通话百分比"指标阈值将视频流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非视频流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是视频流。  <br/> **示例值：** ，则返回 true  <br/> |
-|Video Poor Due To Low Resolution Call Percent  <br/> |布尔值  <br/> |如果根据以下文章中列出的"低分辨率通话百分比"指标阈值将视频流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非视频流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是视频流。  <br/> **示例值：** ，则返回 true  <br/> |
-|Video Poor Due To Video Packet Loss Rate  <br/> |布尔值  <br/> |如果根据以下文章中列出的"视频丢包率"指标阈值将视频流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds.)。对于非视频流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是视频流。 <br/>  **示例值：** ，则返回 true  <br/> |
-|Video Poor Due To Video Frame Rate Avg  <br/> |布尔值  <br/> |如果根据以下文章中列出的"视频帧平均速率"指标阈值将视频流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非视频流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是视频流。   <br/> **示例值：** ，则返回 true  <br/> |
-|Video Poor Due To Dynamic Capability Percent  <br/> |布尔值  <br/> |如果根据以下文章中列出的"动态容量百分比"指标阈值将视频流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非视频流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是视频流。  <br/> **示例值：** ，则返回 true  <br/> |
-|VBSS Poor Due To Video Post Fec plr  <br/> |布尔值  <br/> |如果根据以下文章中列出的"FEC PLR 后的视频"指标阈值将基于视频的屏幕共享流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于基于视频的屏幕共享流以外的流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是基于视频的屏幕共享流。  <br/> **示例值：** ，则返回 true  <br/> |
-|VBSS Poor Due To Video Local Frame Loss Percentage Avg  <br/> |布尔值  <br/> |如果根据以下文章中列出的"视频本地帧丢失平均百分比"指标阈值将基于视频的屏幕共享流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于基于视频的屏幕共享流以外的流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是基于视频的屏幕共享流。  <br/>  **示例值：** ，则返回 true  <br/> |
-|VBSS Poor Due To Recv Frame Rate Average  <br/> |布尔值  <br/> |如果根据以下文章中列出的"帧平均接收速率"指标阈值将基于视频的屏幕共享流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于基于视频的屏幕共享流以外的流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是基于视频的屏幕共享流。  <br/>  **示例值：** ，则返回 true  <br/> |
-|VBSS Poor Due To Low Frame Rate Call Percent  <br/> |布尔值  <br/> |如果根据以下文章中列出的"低帧速率通话百分比"指标阈值将基于视频的屏幕共享流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于基于视频的屏幕共享流以外的流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是基于视频的屏幕共享流。  <br/>  **示例值：** ，则返回 true  <br/> |
-|VBSS Poor Due To LowResolutionCallPercent  <br/> |布尔值  <br/> |如果根据以下文章中列出的"低分辨率通话百分比"指标阈值将 VBSS 分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于基于视频的屏幕共享流以外的流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是基于视频的屏幕共享流。  <br/> **示例值：** ，则返回 true  <br/> |
-|AppSharing Poor Due To Spoiled Tile Percent Total  <br/> |布尔值  <br/> |如果根据以下文章中列出的"总损坏图块百分比"指标阈值将应用程序共享流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非应用程序共享流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是应用程序共享流。   <br/> **示例值：** ，则返回 true  <br/> |
-|AppSharing Poor Due To Relative OneWay Average  <br/> |布尔值  <br/> |如果根据以下文章中列出的"相对单向平均延迟"指标阈值将应用程序共享流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非应用程序共享流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是应用程序共享流。  <br/>  **示例值：** ，则返回 true  <br/> |
-|AppSharing Poor Due To RDP Tile Processing Latency Average  <br/> |布尔值  <br/> |如果根据以下文章中列出的"RDP 图块处理平均延迟"指标阈值将应用程序共享流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非应用程序共享流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是应用程序共享流。 <br/>   **示例值：** ，则返回 true  <br/> |
-|Audio Poor Due To Jitter  <br/> |布尔值  <br/> |如果根据以下文章中列出的"抖动"指标阈值将音频流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非音频流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是音频共享流。  <br/>  **示例值：** ，则返回 true  <br/> |
-|Audio Poor Due To RoundTrip  <br/> |布尔值  <br/> |如果根据以下文章中列出的"往返时间"指标阈值将音频流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非音频流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是音频共享流。   <br/> **示例值：** ，则返回 true  <br/> |
-|Audio Poor Due To Packet Loss  <br/> |布尔值  <br/> |如果根据以下文章中列出的"丢包"指标阈值将音频流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非音频流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是音频共享流。   <br/> **示例值：** ，则返回 true  <br/> |
-|Audio Poor Due To Degradation  <br/> |布尔值  <br/> |如果根据以下文章中列出的"降级"指标阈值将音频流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非音频流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是音频共享流。  <br/>  **示例值：** ，则返回 true  <br/> |
-|Audio Poor Due To Concealed Ratio  <br/> |布尔值  <br/> |如果根据以下文章中列出的"隐藏比率"指标阈值将音频流分类为差，则为 True：[在 Lync 2013 QoE 中将通话分类为差的基础的是什么？](https://aka.ms/cqd_quality_thresholds)。对于非音频流，始终为 False。<br/> |空值表示终结点未报告此数据，或流不是音频共享流。   <br/> **示例值：** ，则返回 true  <br/> |
+|ClassifiedPoorCall  <br/> |布尔值  <br/> |如果流是已归类为质量欠佳基于此处列出的标准：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |空值表示没有报告可以将流分类为好或差的足够指标。  <br/>  **示例值：** True  <br/> |
+|Video Poor Due To VideoPostFecplr  <br/> |布尔值  <br/> |如果流是已归类为质量欠佳基于此处列出的视频 Post FEC PLR 规格阈值，则返回 true：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非视频流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是视频流。   <br/> **示例值：** ，则返回 true  <br/> |
+|由于 VideoLocalFrameLossPercentageAvg 视频质量欠佳  <br/> |布尔值  <br/> |如果视频流是已归类为质量欠佳基于视频本地框架丢失百分比平均指标阈值此处列出：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非视频流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是视频流。  <br/>  **示例值：** |true  <br/> |
+|由于 VideoFrameRateAvg 视频质量欠佳  <br/> |布尔值  <br/> |如果视频流是已归类为质量欠佳基于指标阈值此处列出视频帧速率平均：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非视频流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是视频流。   <br/> **示例值：** ，则返回 true  <br/> |
+|由于 VideoFrameRateAvg VBSS 差  <br/> |布尔值  <br/> |如果基于屏幕共享的视频流是已归类为质量欠佳基于指标阈值此处列出视频帧速率平均：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于基于视频的屏幕共享流以外的流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是基于视频的屏幕共享流。  <br/> **示例值：** ，则返回 true  <br/> |
+|由于 VideoPostFecplr VBSS 差  <br/> |布尔值  <br/> |如果基于屏幕共享的视频流是已归类为质量欠佳基于视频 Post Fec plr 指标阈值此处列出：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于基于视频的屏幕共享流以外的流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是基于视频的屏幕共享流。  <br/> **示例值：** ，则返回 true  <br/> |
+|由于 VideoLocalFrameLossPercentageAvg VBSS 差  <br/> |布尔值  <br/> |如果基于屏幕共享的视频流是已归类为质量欠佳基于视频本地框架丢失百分比平均指标阈值此处列出：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于基于视频的屏幕共享流以外的流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是基于视频的屏幕共享流。  <br/>  **示例值：** ，则返回 true  <br/> |
+|AppSharing Poor Due To Spoiled Tile Percent Total  <br/> |布尔值  <br/> |如果应用程序共享流是已归类为质量欠佳基于 Spoiled 图块百分比总指标阈值此处列出：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非应用程序共享流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是应用程序共享流。   <br/> **示例值：** ，则返回 true  <br/> |
+|AppSharing Poor Due To Relative OneWay Average  <br/> |布尔值  <br/> |如果应用程序共享流是已归类为质量欠佳基于相对一个 Wa yAverage 指标阈值此处列出：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非应用程序共享流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是应用程序共享流。  <br/>  **示例值：** ，则返回 true  <br/> |
+|AppSharing Poor Due To RDP Tile Processing Latency Average  <br/> |布尔值  <br/> |如果应用程序共享流是已归类为质量欠佳基于 RDP 图块处理延迟平均指标阈值此处列出：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非应用程序共享流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是应用程序共享流。 <br/>   **示例值：** ，则返回 true  <br/> |
+|Audio Poor Due To Jitter  <br/> |布尔值  <br/> |如果音频流是已归类为质量欠佳基于指标阈值此处列出抖动：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非音频流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是音频共享流。  <br/>  **示例值：** ，则返回 true  <br/> |
+|Audio Poor Due To RoundTrip  <br/> |布尔值  <br/> |如果音频流是已归类为质量欠佳基于指标阈值此处列出的往返：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非音频流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是音频共享流。   <br/> **示例值：** ，则返回 true  <br/> |
+|Audio Poor Due To Packet Loss  <br/> |布尔值  <br/> |如果音频流是已归类为质量欠佳基于指标阈值此处列出的数据包丢失：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非音频流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是音频共享流。   <br/> **示例值：** ，则返回 true  <br/> |
+|Audio Poor Due To Degradation  <br/> |布尔值  <br/> |如果音频流是已归类为质量欠佳基于指标阈值此处列出的下降：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非音频流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是音频共享流。  <br/>  **示例值：** ，则返回 true  <br/> |
+|Audio Poor Due To Concealed Ratio  <br/> |布尔值  <br/> |如果音频流是已归类为质量欠佳基于指标阈值此处列出隐藏比率：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非音频流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是音频共享流。   <br/> **示例值：** ，则返回 true  <br/> |
 |Unclassified  <br/> |布尔值  <br/> |如果具有可以将流分类为好或差的足够数据，则为 0。否则为 1。 | **示例值：** 1  <br/> |
 |OnePercent PacketLoss  <br/> |布尔值  <br/> |如果丢包率超过 1%，则为 1。否则为 0。 | **示例值：** 1  <br/> |
-|Poor Reason  <br/> |标志  <br/> | 用于确定为何将流分类为差的一系列标志。 由于将流分类为差的原因有很多，因此可能会有设置多个标记。 请参阅[用于进行分类为 Lync 2013 QoE 中的质量欠佳的呼叫的基准是什么？](https://aka.ms/cqd_quality_thresholds)的详细信息。 <br/>  可能的值： <br/>  隐藏比率 <br/>  降级 <br/>  Jitter <br/>  丢包 <br/>  Round Trip <br/>  Dynamic Capability Percent <br/>  Low Frame Rate Call Percent <br/>  Recv Frame Rate Average <br/>  Video Frame Rate Avg <br/>  Video Local Frame Loss Percentage Avg <br/>  Video Packet Loss Rate <br/>  Fec plr 后的视频 <br/>  RDP 图块处理平均延迟 <br/>  相对单向平均延迟 总损坏图块百分比 <br/> |空值表示流未被分类为差。 <br/>  **示例值：** ConcealedRatio | 降级  <br/> |
+|Poor Reason  <br/> |标志  <br/> | 用于确定为何将流分类为差的一系列标志。 由于将流分类为差的原因有很多，因此可能会有设置多个标记。 有关详细信息，请参阅[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 <br/>  可能的值： <br/>  隐藏比率 <br/>  降级 <br/>  Jitter <br/>  丢包 <br/>  Round Trip <br/>  Video Frame Rate Avg <br/>  Video Local Frame Loss Percentage Avg <br/>  Fec plr 后的视频 <br/>  RDP 图块处理平均延迟 <br/>  相对单向平均延迟 总损坏图块百分比 <br/> |空值表示流未被分类为差。 <br/>  **示例值：** ConcealedRatio | 降级  <br/> |
 |Poor  <br/> |布尔值  <br/> |如果具有可以将流分类为好或差的足够数据且流被分类为差，则为 1。否则为 0。  | **示例值：** 1  <br/> |
 |Good  <br/> |布尔值  <br/> |如果具有可以将流分类为好或差的足够数据且流被分类为好，则为 1。否则为 0。  |**示例值：** 1  <br/> |
 |First Feedback Rating  <br/> |用户评级 (1-5)  <br/> |第一终结点对与流关联的通话进行的评级，等级为 1-5（5 = 很好）。0 表示向用户显示了通话评级调查，但用户没有对其体验进行评级。  <br/> |空值表示没有向第一终结点显示调查。   <br/> **示例值：** 5  <br/> |
@@ -387,45 +380,38 @@ ms.lasthandoff: 05/17/2018
 |AppSharing Stream Count  <br/> |流的数量  <br/> |基于 RDP 的应用程序共享流的数量。  <br/> |
 |Video Stream Count  <br/> |流的数量  <br/> |视频流的数量。  <br/> |
 |VBSS Stream Count  <br/> |流的数量  <br/> |基于视频的屏幕共享流的数量。  <br/> |
-|Audio Poor Stream Count  <br/> |流的数量  <br/> |根据以下文章中列出的网络指标被分类为差的音频流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Audio Good Stream Count  <br/> |流的数量  <br/> |根据以下文章中列出的网络指标被分类为好的音频流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Audio Unclassified Stream Count  <br/> |流的数量  <br/> |数据不足，无法根据以下文章中列出的网络指标被分类为好或坏的音频流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Audio Poor Percentage  <br/> |百分比  <br/> |根据以下文章中列出的网络指标被分类为差的所有音频流的百分比：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
+|Audio Poor Stream Count  <br/> |流的数量  <br/> |此处列出归类为质量欠佳根据网络指标的音频流数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|Audio Good Stream Count  <br/> |流的数量  <br/> |此处列出归类为根据网络指标的良好的音频流数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|Audio Unclassified Stream Count  <br/> |流的数量  <br/> |没有足够的数据分类为良好或质量欠佳的音频流的号码基于在此处列出的网络指标：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|Audio Poor Percentage  <br/> |百分比  <br/> |此处列出的所有已归类为质量欠佳根据网络指标的音频流的百分比：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
 |Audio OnePercent PacketLoss Count  <br/> |流的数量  <br/> |丢包率大于 1% 的音频流的数量。  <br/> |
 |Audio OnePercent PacketLoss Percentage  <br/> |百分比  <br/> |丢包率大于 1% 的所有音频流的百分比。  <br/> |
-|Audio Poor Due To Jitter Count  <br/> |流的数量  <br/> |抖动指标超过以下文章中所列阈值的音频流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Audio Poor Due To PacketLoss Count  <br/> |流的数量  <br/> |此处列出的数据包丢失指标超过了阈值的音频流数：[用于进行分类为 Lync 2013 QoE 中的质量欠佳的呼叫的基准是什么？](https://aka.ms/cqd_quality_thresholds)  <br/> |
-|Audio Poor Due To Degradation Count  <br/> |流的数量  <br/> |此处列出性能降低指标超过了阈值的音频流数：[用于进行分类为 Lync 2013 QoE 中的质量欠佳的呼叫的基准是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Audio Poor Due To RoundTrip Count  <br/> |流的数量  <br/> |往返时间超过以下文章中所列阈值的音频流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Audio Poor Due To ConcealedRatio Count  <br/> |流的数量  <br/> |隐藏比率超过以下文章中所列阈值的音频流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|AppSharing Poor Due To SpoiledTilePercentTotal Count  <br/> |流的数量  <br/> |总损坏图块百分比指标超过以下文章中所列阈值的应用程序共享流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|AppSharing Poor Due To RelativeOneWayAverage Count  <br/> |流的数量  <br/> |总损坏图块百分比指标超过以下链接中所列阈值的应用程序共享流的数量：[https://aka.ms/cqd_quality_thresholds](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|AppSharing Poor Due To RDPTileProcessingLatencyAverage Count  <br/> |流的数量  <br/> |RDP 图块处理平均延迟超过以下文章中所列阈值的应用程序共享流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Video Poor Due To VideoPostFecplr Count  <br/> |流的数量  <br/> |Fec plr 后的视频超过以下文章中所列阈值的视频流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Video Poor Due To VideoLocalFrameLossPercentageAvg Count  <br/> |流的数量  <br/> |视频本地帧丢失平均百分比超过以下文章中所列阈值的视频流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Video Poor Due To RecvFrameRateAverage Count  <br/> |流的数量  <br/> |帧平均接收速率超过以下文章中所列阈值的视频流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Video Poor Due To LowFrameRateCallPercent Count  <br/> |流的数量  <br/> |低帧速率通话百分比超过以下文章中所列阈值的视频流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Video Poor Due To LowResolutionCallPercent Count  <br/> |流的数量  <br/> |低分辨率通话百分比超过以下文章中所列阈值的视频流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Video Poor Due To VideoPacketLossRate Count  <br/> |流的数量  <br/> |视频丢包率超过以下链接中所列阈值的视频流的数量：[https://aka.ms/cqd_quality_thresholds](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Video Poor Due To VideoFrameRateAvg Count  <br/> |流的数量  <br/> |视频帧平均速率超过以下文章中所列阈值的视频流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Video Poor Due To DynamicCapabilityPercent Count  <br/> |流的数量  <br/> |动态容量百分比超过以下文章中所列阈值的视频流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|VBSS Poor Due To VideoPostFecplr Count  <br/> |流的数量  <br/> |Fec plr 后的视频超过以下文章中所列阈值的基于视频的屏幕共享流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|VBSS Poor Due To VideoLocalFrameLossPercentageAvg Count  <br/> |流的数量  <br/> |视频本地帧丢失平均百分比超过以下链接中所列阈值的基于视频的屏幕共享流的数量：[https://aka.ms/cqd_quality_thresholds](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|VBSS Poor Due To RecvFrameRateAverage Count  <br/> |流的数量  <br/> |帧平均接收速率超过以下文章中所列阈值的基于视频的屏幕共享流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|VBSS Poor Due To LowFrameRateCallPercent Count  <br/> |流的数量  <br/> |低帧速率通话百分比超过以下文章中所列阈值的基于视频的屏幕共享流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。<br/> |
-|VBSS Poor Due To LowResolutionCallPercent Count  <br/> |流的数量  <br/> |低分辨率通话百分比超过以下文章中所列阈值的基于视频的屏幕共享流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。<br/> |
-|Video Poor Stream Count  <br/> |流的数量  <br/> |根据以下文章中列出的网络指标被分类为差的视频流的数量：[https://aka.ms/cqd_quality_thresholds](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Video Good Stream Count  <br/> |流的数量  <br/> |根据以下文章中列出的网络指标被分类为好的视频流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Video Unclassified Stream Count  <br/> |流的数量  <br/> |数据不足，无法根据以下文章中列出的网络指标被分类为好或坏的视频流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Video Poor Percentage  <br/> |百分比  <br/> |根据以下文章中列出的网络指标被分类为差的所有视频流的百分比：[https://aka.ms/cqd_quality_thresholds](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|AppSharing Poor Stream Count  <br/> |流的数量  <br/> |根据以下文章中列出的网络指标被分类为差的应用程序共享流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|AppSharing Good Stream Count  <br/> |流的数量  <br/> |根据以下文章中列出的网络指标被分类为好的应用程序共享流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|AppSharing Unclassified Stream Count  <br/> |流的数量  <br/> |数据不足，无法根据以下文章中列出的网络指标被分类为好或坏的应用程序共享流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|AppSharing Poor Percentage  <br/> |百分比  <br/> |根据以下文章中列出的网络指标被分类为差的所有应用程序共享流的百分比：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|VBSS Poor Stream Count  <br/> |流的数量  <br/> |根据以下文章中列出的网络指标被分类为差的基于视频的屏幕共享流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|VBSS Good Stream Count  <br/> |流的数量  <br/> |根据以下文章中列出的网络指标被分类为好的基于视频的屏幕共享流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|VBSS Unclassified Stream Count  <br/> |流的数量  <br/> |数据不足，无法根据以下文章中列出的网络指标被分类为好或坏的基于视频的屏幕共享流的数量：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|VBSS Poor Percentage  <br/> |百分比  <br/> |根据以下文章中列出的网络指标被分类为差的所有基于视频的屏幕共享流的百分比：[在 Lync 2013 QoE 中将通话分类为差的基础是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
+|Audio Poor Due To Jitter Count  <br/> |流的数量  <br/> |此处列出其中的抖动指标超过阈值的音频流数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|Audio Poor Due To PacketLoss Count  <br/> |流的数量  <br/> |此处列出的数据包丢失指标超过了阈值的音频流数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)  <br/> |
+|Audio Poor Due To Degradation Count  <br/> |流的数量  <br/> |此处列出性能降低指标超过了阈值的音频流数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|Audio Poor Due To RoundTrip Count  <br/> |流的数量  <br/> |此处列出的往返行程超过了阈值的音频流数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|Audio Poor Due To ConcealedRatio Count  <br/> |流的数量  <br/> |此处列出的隐藏的比率超过了阈值的音频流数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|AppSharing Poor Due To SpoiledTilePercentTotal Count  <br/> |流的数量  <br/> |此处列出的应用程序共享的流损坏图块百分比总指标超过了阈值数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|AppSharing Poor Due To RelativeOneWayAverage Count  <br/> |流的数量  <br/> |此处列出的应用程序共享的流损坏图块百分比总指标超过了阈值数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|AppSharing Poor Due To RDPTileProcessingLatencyAverage Count  <br/> |流的数量  <br/> |此处列出的应用程序共享的流处理延迟平均 RDP 图块超过了阈值数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|Video Poor Due To VideoPostFecplr Count  <br/> |流的数量  <br/> |此处列出视频 Post Fec plr 超过了阈值的视频流数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|Video Poor Due To VideoLocalFrameLossPercentageAvg Count  <br/> |流的数量  <br/> |此处列出的视频的本地框架丢失百分比平均超过了阈值的视频流数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|Video Poor Due To VideoFrameRateAvg Count  <br/> |流的数量  <br/> |此处列出的视频帧速率平均超过了阈值的视频流数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|由于 VideoFrameRateAvg 计数 VBSS 差  <br/> |流的数量  <br/> |此处列出的视频帧速率平均超过了阈值的视频-基于-屏幕共享的流数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|VBSS Poor Due To VideoPostFecplr Count  <br/> |流的数量  <br/> |此处列出视频-基于-屏幕共享的流视频 Post Fec plr 超过了阈值数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|VBSS Poor Due To VideoLocalFrameLossPercentageAvg Count  <br/> |流的数量  <br/> |此处列出视频-基于-屏幕共享的流视频的本地框架丢失百分比平均超过了阈值数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|Video Poor Stream Count  <br/> |流的数量  <br/> |视频流归类为质量欠佳根据的网络指标此处列出[流呼叫的质量仪表板中的分类](stream-classification-in-call-quality-dashboard.md)数。  <br/> |
+|Video Good Stream Count  <br/> |流的数量  <br/> |此处列出归类为根据网络指标的良好的视频流数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|Video Unclassified Stream Count  <br/> |流的数量  <br/> |没有足够的数据分类为良好或质量欠佳的视频流数基于此处列出的网络指标：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|Video Poor Percentage  <br/> |百分比  <br/> |总已归类为质量欠佳根据的网络指标此处列出[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)的视频流的百分比。  <br/> |
+|AppSharing Poor Stream Count  <br/> |流的数量  <br/> |此处列出的应用程序共享流归类为质量欠佳根据网络指标数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|AppSharing Good Stream Count  <br/> |流的数量  <br/> |此处列出的应用程序共享流归类为良好根据网络指标数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|AppSharing Unclassified Stream Count  <br/> |流的数量  <br/> |应用程序共享没有足够的数据分类为良好或质量欠佳的流数基于此处列出的网络指标：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|AppSharing Poor Percentage  <br/> |百分比  <br/> |此处列出的总应用程序共享流的已归类为质量欠佳根据网络指标的百分比：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|VBSS Poor Stream Count  <br/> |流的数量  <br/> |此处列出视频-基于-屏幕共享流归类为质量欠佳根据网络指标数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|VBSS Good Stream Count  <br/> |流的数量  <br/> |此处列出归类为根据网络指标的良好的视频-基于-屏幕共享流数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|VBSS Unclassified Stream Count  <br/> |流的数量  <br/> |没有足够的数据分类为良好或质量欠佳的视频-基于-屏幕共享流数基于此处列出的网络指标：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|VBSS Poor Percentage  <br/> |百分比  <br/> |总视频-基于-屏幕共享百分比流分类为质量欠佳基于此处列出的网络指标：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
 |Avg Call Duration  <br/> |秒  <br/> |流的平均持续时间，以秒为单位。  <br/> |
 |First Feedback Rating Avg  <br/> |用户评级 (1-5)  <br/> |使用第一终结点的用户报告的流平均评级。通话评级分为 1-5 级，评级适用于通话的所有流。  <br/> |
 |Second Feedback Rating Avg  <br/> |用户评级 (1-5)  <br/> |使用第二终结点的用户报告的流平均评级。通话评级分为 1-5 级，评级适用于通话的所有流。  <br/> |
@@ -443,10 +429,10 @@ ms.lasthandoff: 05/17/2018
 |Audio SLA Poor Call Count  <br/> |通话的数量  <br/> |Skype 业务语音质量 SLA （[批量许可的 Microsoft 产品和联机服务](http://aka.ms/voicequalitysla)） 归类为无法满足网络性能目标的范围内的音频呼叫数。  <br/> |
 |Audio SLA Call Count  <br/> |通话的数量  <br/> |Skype 业务语音质量 SLA （[批量许可的 Microsoft 产品和联机服务](http://aka.ms/voicequalitysla)） 的范围内的音频呼叫数。  <br/> |
 |Audio SLA Good Call Percentage  <br/> |百分比  <br/> |Skype for Business 语音质量 SLA（[Microsoft 产品和在线服务的批量许可](http://aka.ms/voicequalitysla)）范围内被分类为满足网络性能目标的音频通话的百分比。  <br/> |
-|Audio Good Call Stream Count  <br/> |流的数量  <br/> |其中两个音频流 （呼叫线路） 的调用中不属于根据网络指标的质量欠佳的音频流数此处列出：[用于进行分类为 Lync 2013 QoE 中的质量欠佳的呼叫的基准是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Audio Poor Call Stream Count  <br/> |流的数量  <br/> |此处列出其中至少一个音频流 （呼叫线路） 的调用中已归类为质量欠佳根据网络指标的音频流数：[用于进行分类为 Lync 2013 QoE 中的质量欠佳的呼叫的基准是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
+|Audio Good Call Stream Count  <br/> |流的数量  <br/> |此处列出其中两个音频流 （呼叫线路） 的调用中不属于根据网络指标的质量欠佳的音频流数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
+|Audio Poor Call Stream Count  <br/> |流的数量  <br/> |此处列出其中至少一个音频流 （呼叫线路） 的调用中已归类为质量欠佳根据网络指标的音频流数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
 |Audio Unclassified Call Stream Count  <br/> |流的数量  <br/> |其中两个音频流 （呼叫线路） 的调用中可能不属于由于缺少网络指标的音频流的数目。  <br/> |
-|Audio Poor Call Percentage  <br/> |百分比  <br/> |此处列出的所有音频流其中至少一个音频流 （呼叫线路） 的调用中已归类为质量欠佳根据网络指标的百分比：[用于进行分类为 Lync 2013 QoE 中的质量欠佳的呼叫的基准是什么？](https://aka.ms/cqd_quality_thresholds)。  <br/> |
+|Audio Poor Call Percentage  <br/> |百分比  <br/> |此处列出的所有音频流其中至少一个音频流 （呼叫线路） 的调用中已归类为质量欠佳根据网络指标的百分比：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
 |Avg First Echo Percent Mic In  <br/> |百分比  <br/> |在流持续期间，第一终结点在消除回声之前通过捕获设备或麦克风设备在音频中检测到回声的持续时间的平均百分比。  <br/> |
 |Avg Second Echo Percent Mic In  <br/> |百分比  <br/> |在流持续期间，第二终结点在消除回声之前通过捕获设备或麦克风设备在音频中检测到回声的持续时间的平均百分比。  <br/> |
 |Avg First Echo Percent Send  <br/> |百分比  <br/> |在流持续期间，第一终结点在消除回声之后通过捕获设备或麦克风设备在音频中检测到回声的持续时间的平均百分比。  <br/> |
@@ -496,13 +482,16 @@ ms.lasthandoff: 05/17/2018
 |Avg Video Local Frame Loss Percentage  <br/> |百分比  <br/> |向用户显示的流视频帧丢失平均百分比。其中包括从网络丢失恢复的帧。  <br/> |
 |Avg Video Recv Frame Rate Average  <br/> |帧/秒  <br/> |在会话持续期间计算到的流的所有视频流每秒接收的平均帧数的平均值。  <br/> |
 |Avg Video Low Frame Rate Call Percent  <br/> |百分比  <br/> |帧速率低于 7.5 帧/秒的流通话时间的平均百分比。  <br/> |
-|Avg Video Low Resolution Call Percent  <br/> |百分比  <br/> |分辨率较低的流通话时间的平均百分比。较小维度的阈值为 120 像素。  <br/> |
 |Avg Video Packet Loss Rate  <br/> |比率  <br/> |在会话持续期间计算到的流的平均丢包比率（小数）的平均值，根据 RFC3550 指定。  <br/> |
 |Avg Video Frame Rate  <br/> |帧/秒  <br/> |在会话持续期间计算到的视频流每秒接收的平均帧数。值按范围分组表示。  <br/> |
 |Avg Video Dynamic Capability Percent  <br/> |毫秒  <br/> |客户端以低于此类型 CPU 预期视频处理容量的 70% 运行的流时间的平均百分比。  <br/> |
 |Avg AppSharing Spoiled Tile Percent Total  <br/> |毫秒  <br/> |没有被发送到远程对等点（例如，从 MCU 到查看器）而是被丢弃的图块的平均百分比。丢弃图块可能是由于客户端与服务器之间的带宽限制所致。  <br/> |
 |Avg AppSharing Relative OneWay  <br/> |毫秒  <br/> |终结点之间的应用程序共享流的相对单向平均延迟的平均值，以毫秒为单位。  <br/> |
 |Avg AppSharing RDP Tile Processing Latency  <br/> |毫秒  <br/> |在会议服务器上处理 RDP 堆栈图块的流平均延迟的平均值，以毫秒为单位。  <br/> |
+|平均第一个设备捕获无法正常工作的事件比率  <br/> |比率  <br/> |无法正常工作的第一个终结点检测到的捕获设备的呼叫的时间占平均值。  <br/> |
+|平均秒设备捕获无法正常工作的事件比率  <br/> |比率  <br/> |无法正常工作的第二个端点检测到的捕获设备的呼叫的时间占平均值。  <br/> |
+|平均第一个设备呈现无法正常工作的事件比率  <br/> |比率  <br/> |无法正常工作的第一个终结点检测到的呈现设备的呼叫的时间占平均值。  <br/> |
+|平均秒设备呈现无法正常工作的事件比率  <br/> |比率  <br/> |无法正常工作的第二个端点检测到的呈现设备的呼叫的时间占平均值。  <br/> |
 |Media Failed Due To Firewall IP Blocked Stream Count  <br/> |流的数量  <br/> |由于网络设备阻止访问 Skype for Business 服务器而未能建立的流的数量。这些故障通常意味着未正确将代理、防火墙或其他网络安全设备配置为允许访问 Office 365 中的 Skype for Business 使用的 IP 地址和端口。  <br/> |
 |Firewall IP Blocked Media Failure Percentage  <br/> |百分比  <br/> |由于网络设备阻止访问 Skype for Business 服务器而未能建立的流的百分比。这些故障通常意味着未正确将代理、防火墙或其他网络安全设备配置为允许访问 Office 365 中的 Skype for Business 使用的 IP 地址和端口。  <br/> |
 |Media Failed Due To Firewall DPI Stream Count  <br/> |流的数量  <br/> |由于深度包检测不允许 Skype for Business 流量导致网络设备阻止访问进而未能建立的流的数量。这些故障通常意味着未正确将代理、防火墙或其他网络安全设备配置为允许访问 Office 365 中的 Skype for Business 使用的 IP 地址和端口。  <br/> |

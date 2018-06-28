@@ -1,5 +1,5 @@
 ---
-title: 打开和使用呼叫质量仪表板
+title: 启用和使用通话质量仪表板
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '请参阅如何启用和 Skype 用于业务联机呼叫质量仪表板并获取呼叫的质量摘要报告。 '
-ms.openlocfilehash: 856cf70085bbd0c7ca5cd5e253aec991bb970d62
-ms.sourcegitcommit: dfcdb18d0eb3205ef9180f048674f586aac92de0
+ms.openlocfilehash: 6651525ced62b89b690a8100ec69a36b5fd5695c
+ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570313"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20091605"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用呼叫质量仪表板的 Microsoft 团队和 Skype 业务 online
 
@@ -42,7 +42,9 @@ ms.locfileid: "19570313"
 - 包括除了 Skype Online 业务数据的 Microsoft 团队数据。
     
 - 摘要报告包括产品筛选器以选择所有数据、 Microsoft 团队数据或 Skype Online 业务数据。
-    
+
+- 已更新视频和 VBSS 流质量分类逻辑。 最新的分类器定义，请参阅[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。
+
 请参阅此列表的[维度和度量值可用呼叫质量仪表板中](dimensions-and-measures-available-in-call-quality-dashboard.md)的文章。
   
 > [!NOTE]
@@ -117,7 +119,7 @@ CQD 这两个版本提供高级入口点的整个呼叫质量信息，但信息�
   
 ![CQD 数据键](../images/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-流分为三个组： 良好、 不佳，和未分类。 存在进行还计算*差 %* 值的授予您的流比率归类为*质量欠佳*到总保密的流计数。 由于*差 %= 差流 / （不佳流 + 良好流） * 100* ，这将使*差 %* 受到与多个*自解除保密*流状态。 有关将用于分类为质量欠佳或良好流，请参阅[呼叫质量阈值](https://aka.ms/cqd_quality_thresholds)。
+流分为三个组： 良好、 不佳，和未分类。 存在进行还计算*差 %* 值的授予您的流比率归类为*质量欠佳*到总保密的流计数。 由于*差 %= 差流 / （不佳流 + 良好流） * 100* ，这将使*差 %* 受到与多个*自解除保密*流状态。 有关将用于分类为质量欠佳或良好流，请参阅[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。
   
 使用左侧刻度度量值流计数。
   
