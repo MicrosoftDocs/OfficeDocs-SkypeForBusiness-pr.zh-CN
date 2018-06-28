@@ -9,27 +9,28 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
-description: 业务服务器 2015 Skype 的空间系统 v1 Skype (SRS v1，前身为 Lync 室系统) 管理 Web 门户是 web 门户的组织可以用来维护其 Skype 的空间系统的会议室。 管理员可以使用 SRS v1 管理 Web 门户来监控设备运行状况，例如通过监视音频/视频设备。 与此门户网站，管理员可以远程收集诊断信息，以监测会议空间状况。
-ms.openlocfilehash: d87241cc983fabf76a952bce4941063169f787c2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 为业务服务器 2015 Skype 会议室系统 v1 Skype (SR v1、 之前被称为 Lync 会议室系统) 管理 Web 门户是以便组织用来维护其 Skype 会议室系统会议室的 web 门户。 管理员可以使用 SR v1 管理 Web 门户以进行监视，设备运行状况，例如监视音频/视频设备。 与此门户，管理员可以远程收集诊断信息来监视会议室内运行状况。
+ms.openlocfilehash: 84f9d84861980f970fb496f957c712a1d7dfead4
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088530"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中部署 SRS v1 管理 Web 门户
  
-业务服务器 2015 Skype 的空间系统 v1 Skype (SRS v1，前身为 Lync 室系统) 管理 Web 门户是 web 门户的组织可以用来维护其 Skype 的空间系统的会议室。 管理员可以使用 SRS v1 管理 Web 门户来监控设备运行状况，例如通过监视音频/视频设备。 与此门户网站，管理员可以远程收集诊断信息，以监测会议空间状况。
+为业务服务器 2015 Skype 会议室系统 v1 Skype (SR v1、 之前被称为 Lync 会议室系统) 管理 Web 门户是以便组织用来维护其 Skype 会议室系统会议室的 web 门户。 管理员可以使用 SR v1 管理 Web 门户以进行监视，设备运行状况，例如监视音频/视频设备。 与此门户，管理员可以远程收集诊断信息来监视会议室内运行状况。
   
-若要使用此功能，需要为业务服务器前端服务器部署在每个 Skype 上 SRS v1 管理 Web 门户。 本指南面向管理员提供有关如何安装和配置 SRS 管理 Web 门户的说明。 这被专为管理员拥有 Skype 的业务服务器管理的知识和拥有管理员权限才能修改业务服务器拓扑 Skype。
+若要使用此功能，需要为业务 Server 前端服务器部署在每个 Skype SR v1 管理 Web 门户。 本指南面向管理员提供有关如何安装和配置 SRS 管理 Web 门户的说明。 这被专为管理员拥有业务服务器管理，Skype 的知识和谁具有管理员用户权限，才能修改企业服务器拓扑的 Skype。
   
-之后 SRS v1 管理 Web 门户部署在服务器，管理员可以从自己的计算机或便携式计算机登录到站点状态 SRS v1 设备检查。 
+之后的服务器部署管理 Web 门户 SR v1，管理员可以通过从其自己的计算机或便携式计算机登录到网站检查状态 SR v1 设备。 
   
 > [!IMPORTANT]
-> 下载[Skype Microsoft 文件室系统 Skype 业务服务器 2015 v1 管理 Web 门户](https://www.microsoft.com/en-us/download/details.aspx?id=46906)。 
+> 下载[Microsoft Skype 会议室业务服务器 2015 Skype 系统 v1 管理 Web 门户](https://www.microsoft.com/en-us/download/details.aspx?id=46906)。 
   
 在本主题中：
   
-- [SRS v1 管理 Web 门户的配置环境](room-system-v1-administrative-web-portal.md#Config_Env)
+- [针对 SRS v1 管理 Web 门户配置你的环境](room-system-v1-administrative-web-portal.md#Config_Env)
     
 - [安装 SRS v1 管理 Web 门户](room-system-v1-administrative-web-portal.md#Install_SRS)
     
@@ -43,13 +44,13 @@ ms.lasthandoff: 03/28/2018
 > [!IMPORTANT]
 > 如果服务器同时配置了 Kerberos 和 NTLM 身份验证，并且 SRS 在未加入域的计算机上运行，则 Kerberos 身份验证将会失败，并且用户在管理门户中看不到 SRS 的状态。要解决此问题，请为服务器配置 NTLM 身份验证或者同时配置 NTLM 和 TLS-DSK 身份验证（无 Kerberos），或者将 SRS 计算机加入域。 
   
-1. 为业务 Skype 业务服务器拓扑中的服务器累积更新安装 Skype。 
+1. 安装 Business Server 累积更新中的企业服务器拓扑 Skype Skype。 
     
-    若要获取更新或查看它所包含，请参阅[更新业务服务器 2015年的 Skype](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)。
+    若要获取更新或参阅与其具有包含的内容，请参阅[更新业务服务器 2015年的 Skype](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)。
     
 2. 创建启用了 SIP 的 Active Directory 用户。
     
-    SRS v1 管理 Web 门户使用这些凭据查询信息从 Skype 业务服务器。 给定示例中的用户名是 LRSApp。
+    SR v1 管理 Web 门户使用这些凭据查询信息从 Skype 业务服务器。 给定示例中的用户名是 LRSApp。
     
 3. 创建名称为 LRSSupportAdminGroup 的 Active Directory 安全组。
     
@@ -63,9 +64,9 @@ ms.lasthandoff: 03/28/2018
   
 5. 创建名称为 LRSPowerUserAdminsGroup 的 Active Directory 安全组。 
     
-    创建“组作用域”为“全局”、“组类型”为“安全”的组。 添加到此组启用了 SIP 用户有权使用所有管理门户功能包括 Skype 业务间的大容量管理。 
+    创建“组作用域”为“全局”、“组类型”为“安全”的组。 启用了 SIP 的用户添加到此组有权使用包括 Skype 批量管理业务聊天室的所有管理门户功能。 
     
-6. 将 SRSFullAccessAdminGroup 添加为 LRSSupportAdminGroup 的成员。
+6. 将 LRSFullAccessAdminGroup 添加为 LRSSupportAdminGroup 的成员。
     
      ![LRSSupportAdminGroup 属性 -“成员”页](../../media/LRS_Add_LRSSupportAdminGroup.png)
   
@@ -73,16 +74,16 @@ ms.lasthandoff: 03/28/2018
     
      ![LRSSupportAdminGroup 属性 -“成员”页](../../media/LRS_Add_LRS_SIP_SupportUser.png)
   
-8. [ASP.NET MVC 4 Visual Studio 2010 sp1 和可视 Web 开发人员 2010 SP1](http://go.microsoft.com/fwlink/p/?LinkId=323967)的安装。
+8. 安装[ASP.NET MVC 4 的 Visual Studio 2010 SP1 和可视 Web 开发人员 2010 SP1](http://go.microsoft.com/fwlink/p/?LinkId=323967)。
     
 ## <a name="install-the-srs-v1-administrative-web-portal"></a>安装 SRS v1 管理 Web 门户
 <a name="Install_SRS"> </a>
 
-下载[Skype Microsoft 文件室系统 Skype 业务服务器 2015 v1 管理 Web 门户](https://www.microsoft.com/en-us/download/details.aspx?id=46906)。 
+下载[Microsoft Skype 会议室业务服务器 2015 Skype 系统 v1 管理 Web 门户](https://www.microsoft.com/en-us/download/details.aspx?id=46906)。 
   
 要安装 SRS v1 管理 Web 门户，请执行以下步骤。
   
-1. 通过运行以下 cmdlet 在 Skype 业务服务器管理外壳配置受信任的应用程序端口：
+1. 通过运行以下 cmdlet 中 Skype 业务 Server 命令行管理程序配置受信任应用程序端口：
     
    ```
    Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
@@ -94,7 +95,7 @@ ms.lasthandoff: 03/28/2018
     
     %Program Files%\Skype for Business Server 2015\Web Components\Meeting Room Portal\Int\Handler\
     
-4. 在 Web.Config 文件中，改为 PortalUserName 下部分"[配置 SRS v1 管理 Web 门户的环境](room-system-v1-administrative-web-portal.md#Config_Env)"（在步骤的建议的名称为 LRSApp） 在第 2 步中创建的用户名： 
+4. 在 Web.Config 文件中，更改为在步骤 2 中创建在部分的"[配置您的环境 SR v1 管理 Web 门户的](room-system-v1-administrative-web-portal.md#Config_Env)"（步骤中建议的名称是 LRSApp） 下 username PortalUserName: 
     
     ```
     <add key="PortalUserName" value="sip:LRSApp@domain.com" />
@@ -106,7 +107,7 @@ ms.lasthandoff: 03/28/2018
    <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
    ```
 
-6. 如果所用的端口 other than 5061，在 Web.Config 文件中添加以下行： 
+6. 如果使用的端口不是 5061，则需要在 Web.Config 文件中添加以下行： 
     
    ```
    <add key="PortalUserRegistrarPort" value="5061" />
@@ -128,7 +129,7 @@ ms.lasthandoff: 03/28/2018
     
     https://\<fe 服务器\>/lrs
     
-    若要访问此页，您需要添加的 DNS 记录，如"[需要的 DNS 记录有关自动客户端登录](https://go.microsoft.com/fwlink/p/?LinkId=318056)"中所述
+    若要访问页上，您需要添加的 DNS 记录，如"[所需的自动客户端登录的 DNS 记录](https://go.microsoft.com/fwlink/p/?LinkId=318056)"中所述
     
 ## <a name="use-the-srs-administrative-web-portal"></a>使用 SRS 管理 Web 门户
 <a name="Use_Portal"> </a>
@@ -149,20 +150,20 @@ ms.lasthandoff: 03/28/2018
 
 摘要页面为服务器上部署的所有 SRS 会议室提供以下信息：
   
-- **标记**自定义管理员可以使该文件室的名称。 可以通过在门户中单击会议室名称来设置标记。
+- **标记**聊天室管理员提供自定义名称。 可以通过在门户中单击会议室名称来设置标记。
     
-- **健康状况**健康状态的房间，从文件室，而在空间设置页的健康部分会显示的聚合的健康状况。
+- **运行状况**运行状况状态的聊天室，派生的聊天室，显示在聊天室设置页的运行状况部分的聚合健康状态。
     
-- **下一次会议**计划的日期和时间下一次会议。
+- **下次会议**计划的日期和时间在下次会议。
     
-- **SRS 版本、 制造商、 型号**这些值是预设在 SRS。 根据制造商，这些字段可能留空。
+- **SR 版本，制造商，模型**这些值是在 SR 预设的。 根据制造商，这些字段可能留空。
     
-- **上次刷新**显示的上次刷新该 web 页。
+- **上次刷新**显示的上次刷新网页。
     
 ![Lync 聊天室系统管理门户摘要视图](../../media/LRS_AdminPortal_Summary_view.png)
   
 > [!NOTE]
-> 如果您是 LRSPowerUserAdminsGroup 安全组的一部分，只会看到批量管理菜单。 
+> 如果您是 LRSPowerUserAdminsGroup 安全组的一部分，将只能看到批量管理菜单。 
   
 ### <a name="srs-room-information"></a>SRS 会议室信息
 
@@ -176,7 +177,7 @@ ms.lasthandoff: 03/28/2018
   
 #### <a name="details"></a>详细信息
 
-详细信息部分中提供的 SRS 文件室的设置，包括只读摘要： 上次刷新; 时间下一次会议;最后一次更新、 维护和校准;默认扬声器、 麦克风和铃声设置;版本。SIP URI;屏幕和每个屏幕中; 有关详细信息的数量状态和活动。
+详细信息部分中提供的 SR 会议室的设置，包括只读摘要： 上次刷新; 的时间下次会议;上次更新、 维护和校准;默认扬声器和麦克风，铃声设置;版本;SIP URI;屏幕和每个屏幕; 有关详细信息的数量状态和活动。
   
 ![Lync 聊天室系统管理门户详细信息视图](../../media/LRS_AdminPortal_Detail_view.png)
   
@@ -186,14 +187,14 @@ ms.lasthandoff: 03/28/2018
   
 #### <a name="health"></a>运行状况
 
-健康一节提供 Skype 业务服务器连接、 音频设备、 视频设备、 复原状态和屏幕设备的运行状况的可视化的表示。
+运行状况部分提供了直观的指示 Business Server 连接、 音频设备、 视频设备、 恢复能力状态和屏幕设备的 Skype 的运行状况。
   
 ![Lync 聊天室系统管理门户聊天室运行状况](../../media/LRS_AdminPortal_RoomInfoHealth.png)
   
 ### <a name="additional-notes-about-the-administrative-web-portal"></a>有关管理 Web 门户的其他说明
 
 > [!NOTE]
->  设置更改仅在 SRS 系统重新启动后应用。 > 如果 LRSApp 帐户密码已过期，您将不能查看房间的状态。 配置的 LRSAppuser 帐户密码，以便它永远不会过期，或一定要更新密码，当它接近到期。 > 内部部署仅支持 SRS 管理 web 门户。
+>  仅在 SR 系统重新启动后，将应用设置更改。 > 如果 LRSApp 帐户密码过期，您将不能查看聊天室的状态。 配置 LRSAppuser 帐户密码，以便它永不过期，或一定要更新的密码到期。 附近时 > SR 管理 web 门户支持仅限本地部署。
   
 ### <a name="bulk-management"></a>批量管理 
 
@@ -209,13 +210,13 @@ SRS 会议室批量管理是一项专门面向高级 IT 管理员的功能，用
 
 #### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>为什么我无法登录到管理 web 门户？
 
-当您打开https://localhost/lrs，您将能够看到登录页面，但您在凭据中键入时，您不能登录。 在这种情况下，您必须打开https://FQDNofFEserver/SRS以用于登录到管理 web 门户。
+当您打开https://localhost/lrs，您将能够看到登录页上，但时您键入您的凭据，因此您无法登录。 在这种情况下，必须打开https://FQDNofFEserver/SRSto sign in to 管理 web 门户。
   
-#### <a name="why-cant-i-see-srs-v1-in-the-administrative-web-portal"></a>为什么看不到管理 web 门户中的 SRS v1？
+#### <a name="why-cant-i-see-srs-v1-in-the-administrative-web-portal"></a>为什么看不到 SR v1 管理 web 门户中？
 
-- 确保你的部署中有 SRS 帐户，并且它们是按照 SRS 管理 Web 门户部署建议创建的。 请确保使用 Skype 业务服务器上启用 CsMeetingRoom，不启用 CsUser，调配 SRS 帐户。
+- 确保你的部署中有 SRS 帐户，并且它们是按照 SRS 管理 Web 门户部署建议创建的。 请确保使用业务服务器 Skype Enable-csmeetingroom，不启用 CsUser，设置 SR 帐户。
     
-- 如果已创建 SRS 帐户无法看到管理 web 门户中的帐户，通过 Skype 业务服务器日志记录工具与选择， **MeetingPortal**组件收集服务器日志，然后将它们发送给您的 SRS 支持联系人。
+- 如果您创建了 SR 帐户，不能查看管理 web 门户中的帐户，使用 Skype 业务服务器日志记录工具与所选， **MeetingPortal**组件收集服务器日志，然后将它们发送到您的 SR 支持联系人。
     
 - 如果你已创建 SRS 帐户，但是在管理 Web 门户中看不到这些帐户，请使用 Fiddler 来收集客户端日志，并从浏览器开发工具复制控制台日志，然后将它们发送给你的 SRS 支持联系人。你还可以在 Web.config 中修改跟踪级别值以获取更详细的日志。
     
@@ -232,15 +233,15 @@ SRS 会议室批量管理是一项专门面向高级 IT 管理员的功能，用
   </system.diagnostics>
   ```
 
-#### <a name="why-cant-i-see-the-status-of-srs-in-the-administrative-web-portal"></a>为什么看不到管理 web 门户中的 SRS 状态？
+#### <a name="why-cant-i-see-the-status-of-srs-in-the-administrative-web-portal"></a>为什么看不到 SR 管理 web 门户中的状态？
 
 - 请确保 LRSApp 用户帐户已启用 SIP。
     
-- 如果仍有问题，收集**Trace.log**文件 SRS 系统中 D:\Tracing\LRSAdminLogs\, ，然后将其发送给您的 SRS 支持联系人。
+- 如果您仍然存在问题，收集**Trace.log**文件 SR 系统中从 D:\Tracing\LRSAdminLogs\, ，然后将其发送到您的 SR 支持联系人。
     
-#### <a name="why-cant-i-see-the-bulk-management-menus-for-srs-in-the-administrative-web-portal"></a>为什么看不到的批量管理菜单的 SRS 管理 web 门户中？
+#### <a name="why-cant-i-see-the-bulk-management-menus-for-srs-in-the-administrative-web-portal"></a>为什么我看不批量管理菜单的 SR 管理 web 门户中？
 
-确保 LRSApp 用户帐户是 SIP 启用的并且是 LRSPowerUserAdminsGroup 安全组的一部分。 
+请确保 LRSApp 用户帐户已启用 SIP，并且是 LRSPowerUserAdminsGroup 安全组的一部分。 
   
 #### <a name="does-the-srs-v1-administrative-web-portal-work-with-skype-room-systems-v2"></a>SRS v1 管理 Web 门户是否可以使用 Skype Room Systems v2？
 

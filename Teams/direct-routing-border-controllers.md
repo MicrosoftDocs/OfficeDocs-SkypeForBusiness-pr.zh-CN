@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 直接路由中使用与所选的 SBC 供应商，以确认其 SBC 的 Microsoft 合作伙伴。
-ms.openlocfilehash: 92ecd76a50668b0a2e03a0580daa2193d93c197e
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 0de9b13cb6a1b4df24c83959b1f01843b912ccf6
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084438"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088466"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>认证的直接路由的会话边界控制器的列表
 
@@ -38,18 +38,18 @@ Microsoft 与选定会话边界控制器 (SBC) 供应商认证的合作伙伴用
 
 |供应商  |产品  |非媒体绕过  |媒体绕过  |软件版本|
 |---------|---------|---------|---------|---------|
-|[Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways)    |   Mediant 500 SBC       |         |    挂起      |     7.20A.200.055     |
-|  |   Mediant 800 SBC       |         |     挂起    |      7.20A.200.055    |
-|     |      Mediant 2600 SBC    |         |    挂起     |    7.20A.200.055      |
-|     |   Mediant 4000 SBC       |         |    挂起     |    7.20A.200.055      |
-|     |    Mediant 1000B SBC      |         |  挂起       |    7.20A.200.055      |
-|     |   虚拟版 SBC       |     |挂起         |     7.20A.200.055     |
-|[功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110         |         |   挂起      |     V6.2     |
-|     |SBC 5110         |         |    挂起     |    V6.2      |
-|     | SBC 5400         |         |    挂起     |   V6.2       |
-|     |SBC 7000         |         |    挂起     |    V6.2      |
-|     | SBC SWe         |         |    挂起     |    V6.2      |
-|     |SBC 1000         |         |     挂起    |    V7.0.2      |
-|     | SBC 2000         |         |    挂起     |    V7.0.2      |
+|[Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways)    |   Mediant 500 SBC       |    & #10004;     |    挂起      |     7.20A.200.055     |
+|  |   Mediant 800 SBC       |    & #10004;      |     挂起    |      7.20A.200.055    |
+|     |      Mediant 2600 SBC    |     & #10004;     |    挂起     |    7.20A.200.055      |
+|     |   Mediant 4000 SBC       |     & #10004;     |    挂起     |    7.20A.200.055      |
+|     |    Mediant 1000B SBC   |    & #10004;      |  挂起       |    7.20A.200.055   |
+|     |   虚拟版 SBC    |   & #10004;   |挂起         |     7.20A.200.055     |
+|[功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    & #10004;      |   挂起      |     V6.2     |
+|     |SBC™ 5210     |     & #10004;     |    挂起     |    V6.2      |
+|     | SBC 5400     |    & #10004;      |    挂起     |   V6.2    |
+|     |SBC 7000     |     & #10004;     |    挂起     |    V6.2      |
+|     | SBC SWe  |   & #10004;       |    挂起     |    V6.2      |
+|     |SBC 1000   |     & #10004;     |     挂起    |    V7.0.2   |& #10004; 
+|     | SBC 2000    |     & #10004;     |    挂起     |    V7.0.2      |
 |[Thinktel](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    考虑 365 SBC      |  挂起       |    挂起     |   V1.4       |
 |     |         |         |         |         |

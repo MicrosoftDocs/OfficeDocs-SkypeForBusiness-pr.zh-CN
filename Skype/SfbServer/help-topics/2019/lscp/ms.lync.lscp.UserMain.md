@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: 搜索查询的结果可用于配置用户的 Skype 业务服务器。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。 还可以使用 Lync Server 控制面板或 Active Directory 用户和计算机管理单元搜索用户。
-ms.openlocfilehash: 253dfd6a2e454b7d68211b18a5c1c3e8c6c4a837
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: eb123d3fcbf13b75687f40d7311d8d9af8cb8fda
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20046436"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088544"
 ---
 # <a name="control-panel---updated-user-search"></a>控制面板 - 已更新：用户搜索
  
@@ -26,9 +26,9 @@ ms.locfileid: "20046436"
 
 您可以在“**用户搜索**”控制面板页上执行以下任务：
   
-- [搜索 Lync Server 2010 用户](http://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
+- [搜索用户](http://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
     
-- [启用或禁用 Users for Lync Server 2010](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [启用或禁用用户](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
 - [移动用户](ms.lync.lscp.UserMove.md)
     

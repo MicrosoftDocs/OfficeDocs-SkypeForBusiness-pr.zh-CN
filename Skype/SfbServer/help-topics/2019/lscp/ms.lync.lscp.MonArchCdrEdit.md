@@ -11,20 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: f616cc125180c3e6257d7b813de538dd7ef4e311
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: a0359969b959fbd9efdd09fb853f8fa0db3ef041
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20043932"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088481"
 ---
 # <a name="call-detail-recording-create-new-or-edit-existing"></a>呼叫详细信息记录： 创建新的或编辑现有的
  
 您希望执行什么操作？单击您要执行的任务所对应的链接。
   
-- [启用业务服务器 2015 Skype 中的呼叫详细信息记录](../../../manage/health-and-monitoring/enable-cdr.md)
+- [为业务服务器启用呼叫详细信息记录在 Skype](../../../manage/health-and-monitoring/enable-cdr.md)
     
-- [为业务服务器 2015 Skype 中指定保留 CDR 数据](../../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [指定保留 CDR 数据在 Skype 业务服务器](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
  
 
