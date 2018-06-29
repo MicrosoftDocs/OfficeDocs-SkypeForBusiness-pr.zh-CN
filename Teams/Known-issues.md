@@ -6,16 +6,16 @@ manager: serdars
 ms.date: 5/9/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: marcl, ninadara, v-leslc
+ms.reviewer: marcl, ninadara
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6624aa94ef6581805e3ba2b79f09aefb95616bb0
-ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
+ms.openlocfilehash: 65417bc9d64ac895811736f11dfdb565c42704f2
+ms.sourcegitcommit: f7554cd4fab65ce948aba269f8aabde2fe5fa082
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19691214"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "20136931"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
   
@@ -23,6 +23,10 @@ ms.locfileid: "19691214"
 ## 
 
 ## <a name="administration"></a>管理
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|审核日志可能会报告不正确的用户名为启动器时已从团队删除某人  <br/> |团队团队是 AAD 中的现代组。 当您添加/删除通过用户界面团队成员时，流知道完全哪一个用户进行更改，并审核日志反映了正确的信息。 但是，如果用户将添加/删除通过 AAD 成员，更改同步到团队后端不让团队知道谁开始执行该操作。 Microsoft 团队为发起者，最终会反映在审核日志以及选取团队的第一个所有者。    <br/> |  <br/> |5/11/18  <br/> |
+
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |无法将成员添加到团队，当 UsersPermissionToReadOtherUsersEnabled 设置为 false  <br/> |当此值设置为 false 在 AAD、 客户不能在 Microsoft 团队中添加外部/内部成员和显示以下错误消息:"无法添加成员。 我们会遇到问题。 请稍后再试。" 但是，可以直接向 Office 365 组添加成员。    <br/> |为 true AAD 中更改此设置。  <br/> |4/10/18  <br/> |
@@ -149,7 +153,7 @@ ms.locfileid: "19691214"
 |:-----|:-----|:-----|:-----|
 |会议不可用  <br/> |Exchange 邮箱在本地托管时，不提供会议功能和图标。  <br/> |将本地部署升级到 Exchange 2016 CU3 或更高版本  <br/> |2017 年 2 月 28 日  <br/> |
 
-## <a name="mobile"></a>移动
+## <a name="mobile"></a> 手机
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -205,6 +209,10 @@ ms.locfileid: "19691214"
 |工作组规划器与集成计划程序联机 <br/> |任务计划程序中的存储桶不会显示在计划工具联机体验中。  <br/> |无解决方法。 <br/> |2017 年 2 月 28 日  <br/>|
 
 ## <a name="teams"></a>Teams
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|审核日志可能会报告不正确的用户名为启动器时已从团队删除某人  <br/> |团队团队是 AAD 中的现代组。 当您添加/删除通过用户界面团队成员时，流知道完全哪一个用户进行更改，并审核日志反映了正确的信息。 但是，如果用户将添加/删除通过 AAD 成员，更改同步到团队后端不让团队知道谁开始执行该操作。 Microsoft 团队为发起者，最终会反映在审核日志以及选取团队的第一个所有者。    <br/> |  <br/> |5/11/18  <br/> |
+
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |按照策略要求，在 OWA/Outlook 上未阻止向 Teams 上载照片   <br/> | Teams 允许用户直接将照片上载到 Office 365，不论策略设置如何，而不是对 OWA 阻止照片上载。   <br/> |<br/>  |10/16/17  <br/> |
