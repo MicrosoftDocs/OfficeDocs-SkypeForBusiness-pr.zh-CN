@@ -1,13 +1,14 @@
 ---
 layout: HubPage
-hide_bc: ''
+hide_bc: true
 title: Skype for Business
 description: Skype for Business
-ms.openlocfilehash: be9c878aacde44a547ecbaa2d85ca85ad411fec3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: MT
+ms.openlocfilehash: 8c09204d6651787de29de48e37ff517b5d70a746
+ms.sourcegitcommit: fb1022abfa10e9cc07528e9b6b821a7214bf45bd
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19942658"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -26,12 +27,12 @@ ms.lasthandoff: 03/28/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/skype_business_online.svg" alt="Skype for Business Online" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-Online-400x140.svg" alt="Skype for Business Online" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Skype for Business Online</h3>
-                                                    <p>在 Office 365 提供环境管理的在线业务的 Skype 找到资源。</p>
+                                                    <p>在 Office 365 环境中查找用于管理 Skype for Business Online 的资源。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -45,12 +46,12 @@ ms.lasthandoff: 03/28/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="/Office/media/hybrid-environment.svg" alt="Hybrid solutions" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-hybrid-400x140.svg" alt="Hybrid solutions" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>混合解决方案</h3>
-                                                    <p>查找有关规划业务混合部署 Skype。</p>
+                                                    <p>查找有关规划 Skype for Business 混合部署的信息。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -64,12 +65,12 @@ ms.lasthandoff: 03/28/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/skype_business_server.svg" alt="Skype for Business Server" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-Server-400x140.svg" alt="Skype for Business Server" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Skype for Business Server</h3>
-                                                    <p>部署和管理组织的业务服务器的 Skype。</p>
+                                                    <p>为您的组织部署和管理 Skype for Business Server。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -83,12 +84,12 @@ ms.lasthandoff: 03/28/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/powershell_reference.svg" alt="PowerShell" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-Powershell-400x140.svg" alt="PowerShell" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>为业务 Skype 的 PowerShell 引用</h3>
-                                                    <p>了解您需要管理业务和 Skype 的在线业务 Skype PowerShell cmdlet。</p>
+                                                    <h3>适用于 Skype for Business 的 PowerShell 参考</h3>
+                                                    <p>了解管理 Skype for Business 和 Skype for Business Online 所需的 PowerShell cmdlet。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -102,12 +103,12 @@ ms.lasthandoff: 03/28/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/Microsoft_teams.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-MicrosoftTeams-400x140.svg" alt="Microsoft Teams" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Microsoft Teams</h3>
-                                                    <p>获取计划过程中，如何使用，和您需要成功部署 Microsoft 小组的实用指南。</p>
+                                                    <p>获取成功推出 Microsoft Teams 所需的计划、方式和实际指导。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -121,12 +122,31 @@ ms.lasthandoff: 03/28/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/journey_skype_business_teams.svg" alt="Journey" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-JourneytoTeams-400x140.svg" alt="Journey" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>从 Skype for Business 到 Microsoft Teams 的旅程</h3>
-                                                    <p>找到的指南和工具可以为团队探索最佳路径。</p>
+                                                    <p>了解探索 Teams 最佳采用方式的指导和工具。</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>                            
+                            <li>
+                                <a href="/SkypeForBusiness/room-systems/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-RoomSystems-400x140.svg" alt="Room Systems" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Skype 会议室系统 v2</h3>
+                                                    <p>了解如何规划、部署和管理 Skype 会议室系统 v2。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -140,12 +160,12 @@ ms.lasthandoff: 03/28/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="/Office/media/Office-help-support-training.svg" alt="End users" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-EndUsers-400x140.svg" alt="End users" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>最终用户</h3>
-                                                    <p>适用于业务用户在 support.office.com 上找到帮助、 培训和技术支持，Skype 的。</p>
+                                                    <h3>终端用户</h3>
+                                                    <p>在 support.office.com 上查找 Skype for Business 用户的帮助、培训和技术支持。</p>
                                                 </div>
                                             </div>
                                         </div>
