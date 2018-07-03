@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 2015 中配置混合环境
+title: 配置服务器到服务器身份验证的 Skype Business Server 混合环境
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
-description: 摘要： 配置混合环境中业务服务器 2015 Skype。
-ms.openlocfilehash: 4798839bd001e6320870d7ca97ba99108e3b32de
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 配置服务器到服务器身份验证的 Skype Business Server 混合环境。
+ms.openlocfilehash: 889e62cf2c462dc9f1cc9ab4b96ae73f99bc9c6e
+ms.sourcegitcommit: 3d1556113ce4050b79ee34c138482b34273b8c1d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570183"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "20178813"
 ---
-# <a name="configure-a-hybrid-environment-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置混合环境
+# <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>配置服务器到服务器身份验证的 Skype Business Server 混合环境。
  
-**摘要：** 配置混合环境中的业务服务器 2015 Skype。
+**摘要：** 配置服务器到服务器身份验证的 Skype Business Server 混合环境。
   
 在混合配置中，某些用户驻留在本地安装的 Skype 的业务服务器 2015年时其他用户都驻留在 Office 365 版本的 Skype 业务服务器。 要在混合环境中配置服务器到服务器身份验证，您必须首先配置业务服务器 2015 信任 Office 365 授权服务器的 Skype 您的本地的安装。 可以通过运行以下 Skype 业务 Server 命令行管理程序脚本来执行此过程中的初始步骤：
   
