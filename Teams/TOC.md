@@ -30,6 +30,7 @@
 ## [获取 Teams 的客户端](get-clients.md)
 ### [团队应用程序的硬件要求](hardware-requirements-for-the-teams-app.md)
 ### [安装 Microsoft 团队使用 MSI](msi-deployment.md)
+### [曲面集线器部署团队](teams-surface-hub.md)
 ## [在您的组织中启用的 Microsoft 团队](Office-365-set-up.md)
 ## [管理组织中的团队功能](enable-features-office-365.md)
 ### [转换为新的 Microsoft 团队和业务管理中心的 Skype 的过程管理团队](manage-teams-skypeforbusiness-admin-center.md)
@@ -130,6 +131,7 @@
 ### [在 Exchange Online 中将 Teams SMTP 域添加为接受的域](smtp-accepted-domain.md)
 ### [在 Outlook 中使用 Teams 会议外接程序](teams-add-in-for-outlook.md)
 ## [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](sharepoint-onedrive-interact.md)
+## [Office 365 多地理位置启用租户中的团队体验](teams-experience-o365odb-spo-multi-geo.md)
 <!-- ============================================================ -->
 
 
