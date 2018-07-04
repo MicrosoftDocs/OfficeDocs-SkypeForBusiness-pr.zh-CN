@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 直接路由中使用与所选的 SBC 供应商，以确认其 SBC 的 Microsoft 合作伙伴。
-ms.openlocfilehash: d5cb169aaf1545d496e19e533c1466e68258d35c
-ms.sourcegitcommit: 13bec625269307e5988acecd3b765c29594d66fe
+ms.openlocfilehash: de006d216b81b3aaa2b07749855f1313be646d05
+ms.sourcegitcommit: b7b6bdaf9d40b70151ce7b5d1b659b5466f0841c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/04/2018
-ms.locfileid: "20192657"
+ms.locfileid: "20195385"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>认证的直接路由的会话边界控制器的列表
 
@@ -33,7 +33,7 @@ Microsoft 与选定会话边界控制器 (SBC) 供应商认证的合作伙伴用
 
 下表列出了用于直接路由认证的设备。 
 
-[了解更多有关直接路由](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-NOW-in-Public-Preview/ba-p/193915)。 
+[了解更多有关直接路由](https://aka.ms/dr)。 
 
 
 |供应商  |产品  |非媒体绕过  |媒体绕过  |软件版本|
