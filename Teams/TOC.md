@@ -123,7 +123,7 @@
 <!-- ============================================================ -->
 # 使用 Office 365 Interopearability
 ## [迁移和 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
-## [设置您的共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)
+## [设置您共存并升级设置](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 组和 Teams](office-365-groups.md)
 ## [使用 Teams 增强现有 Office 365 组](enhance-office-365-groups.md)
 ## [Exchange 与 Teams 如何交互](exchange-teams-interact.md)
