@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
-description: 摘要： 使用本主题的业务服务器 2015年服务器准备您的 Skype。 硬件、 操作系统、 数据库、 软件、 所有的系统要求和建议在此处要帮助确保成功安装和部署服务器场。
+description: 摘要：利用本主题准备 Skype for Business Server 2015 服务器。这里提供了硬件、OS、数据库、软件、所有系统要求和建议，可帮助确保服务器场的安装和部署获得成功。
 ms.openlocfilehash: dfcde40c8084279dca39e830a84ad6e9631530dd
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.sourcegitcommit: 98c0d578f5ebbe884a5965ccaba131ee4dd84185
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/05/2018
+ms.locfileid: "19046018"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的服务器要求
  
-**摘要：**利用本主题准备 Skype for Business Server 2015 服务器。这里提供了硬件、OS、数据库、软件、所有系统要求和建议，可帮助确保服务器场的安装和部署获得成功。
+**摘要：** 利用本主题准备 Skype for Business Server 2015 服务器。这里提供了硬件、OS、数据库、软件、所有系统要求和建议，可帮助确保服务器场的安装和部署获得成功。
   
 如预期的那样，有一些进行准备开始部署业务服务器 2015 Skype 之前。 本文将指导你制定以下规划：
   
@@ -41,7 +42,7 @@ ms.lasthandoff: 05/08/2018
   
 建议的硬件的前端服务器、 后端服务器、 Standard Edition server 和持久聊天服务器：
   
-|**硬件组件**|**建议**|
+|**硬件组件**|**推荐**|
 |:-----|:-----|
 |CPU  <br/> |64 位双处理器、六核、2.26 GHz 或更快。  <br/> Intel Itanium 处理器不支持 Skype 业务服务器 2015年角色。  <br/> |
 |内存  <br/> |32 GB。  <br/> |
@@ -50,7 +51,7 @@ ms.lasthandoff: 05/08/2018
    
 建议的边缘服务器、 独立中介服务器、 视频互操作服务器和控制器的硬件：
   
-|**硬件组件**|**建议**|
+|**硬件组件**|**推荐**|
 |:-----|:-----|
 |CPU  <br/> |64 位双处理器、四核、2.26 GHz 或更快。  <br/> Intel Itanium 处理器不支持 Skype 业务服务器 2015年角色。  <br/> |
 |内存  <br/> |16 GB。  <br/> |
@@ -139,7 +140,7 @@ ms.lasthandoff: 05/08/2018
   
 |**软件/角色**|**详细信息**|
 |:-----|:-----|
-|Windows PowerShell 3.0  <br/> |为业务 Server 服务器的所有 Skype 都需要安装的 Windows PowerShell 3.0。  <br/> • 如果您正在制作 Windows Server 2012 或 Windows Server 2012 R2 上的安装，您正在设置，因为它已存在。  <br/> • 如果您正在执行 Windows Server 2008 R2 上的升级，您可以下载[Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595)即可使用它。 <br/> **提示：**在那里正确 PowerShell 后，确认其 BuildVersion 6.2.9200.0 或更高版本，转到 PowerShell 提示并键入`$PSVersionTable`。 此操作将显示你所需的信息。  <br/> |
+|Windows PowerShell 3.0  <br/> |为业务 Server 服务器的所有 Skype 都需要安装的 Windows PowerShell 3.0。  <br/> • 如果您正在制作 Windows Server 2012 或 Windows Server 2012 R2 上的安装，您正在设置，因为它已存在。  <br/> • 如果您正在执行 Windows Server 2008 R2 上的升级，您可以下载[Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595)即可使用它。 <br/> **提示：** 在那里正确 PowerShell 后，确认其 BuildVersion 6.2.9200.0 或更高版本，转到 PowerShell 提示并键入`$PSVersionTable`。 此操作将显示你所需的信息。  <br/> |
 |Microsoft .NET Framework  <br/> |WCF 服务是一项**功能**已安装作为 Windows 功能，在**服务器管理器**下没有所需的下载。 <br/> • 所需安装此功能，或者如果它已经安装并正在对其，检查的**HTTP 激活**选项还会检查和安装，以确保，如下所示： <br/> ![显示在.NET Framework 4.5 功能下的 HTTP 激活选项的屏幕截图。](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)不要担心，如果您收到反映其他一些操作需要安装的 HTTP 激活安装其他弹出窗口。 这种情况非常正常，只要单击“确定”，继续操作即可。 如果未看到此弹出信息，则可以假设这些功能均已安装，您可以继续操作。  <br/> 通常安装 Microsoft.NET Framework 安装 Windows Server 2012 R2 或 Windows Server 2016 时。 Skype 业务 server 适用于以下的 Microsoft.NET Framework 版本：  <br/> •.NET 3.5  <br/> •.NET 4.5  <br/> •.NET 4.6.x  <br/> •.NET 4.7 （对于业务 Server 累积更新 5 或更高版本的 Skype)  <br/>  可能将默认情况下，在 Windows Server 2008 R2 计算机上安装.NET framework 3.5 （肯定检查以确保在升级之前），但它实际上不是 Windows Server 2012/Windows Server 2012 R2 服务器 （针对新安装） 上。 若要添加中，您将需要访问安装驱动器或媒体 （Windows Server 从，安装位置或安装文件所在现在）。 然后继续操作，并从服务器管理器将其作为功能进行安装，在提示时指向安装媒体（即 **\sources\sxs** 文件夹），然后继续安装。 <br/> |
 |媒体基础  <br/> |Windows Server 2016、 Windows Server 2012 和 Windows Server 2012 R2 与 Microsoft 媒体 Foundation 将安装 Windows Media Format Runtime。  <br/> 用于会议的所有前端服务器和 Standard Edition 服务器需要 Windows Media Format Runtime，若要运行的 Windows Media 音频 (.wma) 文件的呼叫寄存、 通知和响应组应用程序播放通知和保持音乐。  <br/> |
 |Windows Identity Foundation  <br/> |我们需要 Windows Identity Foundation 3.5 对业务服务器 2015 Skype 支持服务器到服务器身份验证方案。  <br/> ？ 对于 Windows Server 2012 和 Windows Server 2012 R2，则不需要下载任何内容。 打开**服务器管理器**，转到**添加角色和功能向导**。 **Windows Identity Foundation 3.5** 在**功能**部分列出。 如果选中，您很好。 否则请选中它，并单击“下一步”，然后单击**安装**按钮。 <br/> |
