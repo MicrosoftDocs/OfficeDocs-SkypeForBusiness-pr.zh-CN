@@ -18,24 +18,27 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 了解有关呼叫分析和呼叫质量仪表板以及何时使用它们来监视和解决 Skype for Business 中的呼叫质量问题。
-ms.openlocfilehash: 59be26d9f5adc48b71b2b675f872025b13eb206e
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 3871db21fef268f9589246b31ee285aa117d0412
+ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933064"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "20205083"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>呼叫分析和呼叫质量仪表板
 
-Skype for Business 为您提供了两种方法可以监视和解决呼叫质量问题： 呼叫分析和呼叫质量仪表板。 本文介绍这两类，并告诉您何时使用每个。
+Microsoft 团队和 for Business 的 Skype 提供两种方法可以监视和解决呼叫质量问题： 呼叫分析和呼叫质量仪表板。 本文介绍这两类，并告诉您何时使用每个。
   
 > [!NOTE]
-> 呼叫分析当前处于预览。 文本和此处描述的图像与您的体验可能不匹配。 调用分析中的可用仅最近 30 天的数据。
+> 呼叫分析现已在 Microsoft 团队和 Skype 的业务管理中心，网址为https://admin.teams.microsoft.com。 调用分析中的可用仅最近 30 天的数据。
   
 ## <a name="whats-call-analytics-and-when-should-i-use-it"></a>什么是呼叫分析，我何时应使用它？
 
-呼叫分析显示设备、 网络和与特定的呼叫和业务帐户 Skype 中每个用户的会议相关的连接的详细的信息。 如果您的业务管理 Skype，您可以使用调用分析业务呼叫质量和连接问题解决 Skype。
-  
+呼叫分析显示设备、 网络和与特定的呼叫和会议中每个用户的 Microsoft 团队或 Skype 业务帐户相关的连接的详细的信息。 如果您是 Office 365 管理员，您可以使用调用分析解决的 Microsoft 团队和 Skype for Business 中的呼叫质量和连接问题。
+
+> [!NOTE]
+> 帮助台代理权限和网络拓扑上载中将提供新的管理门户在几个月。
+
 如果您希望非管理员，例如从外部供应商，帮助台代理用于呼叫的分析，就可以分配权限，以便他们可以使用调用分析，但不是能访问业务管理中心的 Skype 的其余部分： 
   
 - **第 1 层权限的帮助台代理**： 代理，请参阅一组有限的数据和呼叫分析中的个人身份信息 (PII)。 它们可以解决呼叫，但它们将交给会议问题的第 2 层代理。
@@ -46,7 +49,7 @@ Skype for Business 为您提供了两种方法可以监视和解决呼叫质量�
   
 ## <a name="whats-the-call-quality-dashboard-and-when-should-i-use-it"></a>什么是呼叫质量仪表板中，以及何时使用它？
 
-呼叫分析为您提供了有关呼叫质量用户遇到详细的具体信息。 为何用户 Tony Smith 未有此下午质量欠佳的呼叫？ 使用呼叫分析，业务管理员或培训帮助台代理 Skype 可以调查设备、 网络、 连接和与 Tony 的呼叫相关的其他因素。
+呼叫分析为您提供了有关呼叫质量用户遇到详细的具体信息。 为何用户 Tony Smith 未有此下午质量欠佳的呼叫？ 使用呼叫分析，Microsoft 团队或业务管理员或培训帮助台代理的 Skype 可以调查设备、 网络、 连接和与 Tony 的呼叫相关的其他因素。
   
 其中 CA 旨在帮助管理员和帮助台代理排除特定的呼叫，呼叫质量问题呼叫质量仪表板 (CQD) 旨在帮助 Skype 对于业务管理员和网络工程师优化网络。 CQD 从特定的用户将焦点移，而是检查业务组织整个 Skype 聚合信息。 
   

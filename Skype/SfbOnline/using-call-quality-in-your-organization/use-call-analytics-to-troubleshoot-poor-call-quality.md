@@ -1,5 +1,5 @@
 ---
-title: 使用呼叫分析解决 for Business 的差 Skype 呼叫质量
+title: 使用通话分析解决 Skype for Business 通话质量不佳的问题
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,18 +19,19 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 使用设备、 网络和连接的呼叫分析信息解决用户问题与 Skype 的业务呼叫和会议。
-ms.openlocfilehash: cb887a1c582c9547616c2133c2f175ac634e2da8
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 933c041fd9683dd84d82fd9abdcf4cc627cf4366
+ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "20205002"
 ---
-# <a name="use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality"></a>使用呼叫分析解决 for Business 的差 Skype 呼叫质量
+# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用通话分析解决通话质量不佳的问题
 
-呼叫分析可帮助您解决 for Business 的 Skype 调用或连接问题。 对呼叫和会议的每个用户在您的业务帐户 Skype 调用分析显示有关设备、 网络和连接的详细的信息。 如果生成，网站，并租户信息已添加到呼叫分析，它还会显示为每个呼叫和会话。 可通过调用分析获得的信息可帮助您明白为什么用户具有质量欠佳的呼叫或会议体验。 
+呼叫分析可帮助您解决 Microsof 团队和 for Business 的 Skype 调用或连接问题。 呼叫分析您的 Office 365 帐户中显示有关设备、 网络和连接的呼叫和会议的每个用户的详细的信息。 如果生成，网站，并租户信息已添加到呼叫分析，它还会显示为每个呼叫和会话。 可通过调用分析获得的信息可帮助您明白为什么用户具有质量欠佳的呼叫或会议体验。 
   
 > [!NOTE]
-> 呼叫分析当前处于预览。 文本和此处描述的图像与您的体验可能不匹配。
+> 呼叫分析现已在 Microsoft 团队和 Skype 的业务管理中心，网址为https://admin.teams.microsoft.com。  帮助台代理权限和网络拓扑上载中将提供新的管理门户在几个月。  同时，您可以继续使用上的终结点https://adminportal.services.skypeforbusiness.com1 层和第 2 层帮助台访问。
   
 ## <a name="troubleshoot-call-quality-problems-using-call-analytics"></a>解决使用调用分析的呼叫质量问题
 

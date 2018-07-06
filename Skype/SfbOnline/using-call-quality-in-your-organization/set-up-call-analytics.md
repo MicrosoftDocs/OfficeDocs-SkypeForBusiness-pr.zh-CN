@@ -1,5 +1,5 @@
 ---
-title: 设置为商业调用 Analytics Skype
+title: 设置 Skype for Business 通话分析
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,14 +18,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 设置和使用调用分析确定并解决 Skype 的业务和 Microsoft 团队呼叫质量问题。
-ms.openlocfilehash: 5cba53e1a01b1aff3a08f4ec84cea60dc455fb35
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: d9483d702280bfe7119ff64431e5d42b168f9021
+ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500690"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "20205012"
 ---
-# <a name="set-up-skype-for-business-call-analytics"></a>设置为商业调用 Analytics Skype
+# <a name="set-up-skype-for-business-call-analytics"></a>设置 Skype for Business 通话分析
 
 为业务联机管理 Skype，您可以使用调用分析解决 for Business 的 Skype 和 Microsoft 团队呼叫质量和连接问题。 您可能会发现有用设置呼叫分析中的以下功能：
   
@@ -34,7 +34,7 @@ ms.locfileid: "19500690"
 - 上载.tsv 或.csv 数据文件，可以将构建、 网站和租户信息添加到呼叫分析。
     
 > [!NOTE]
-> 呼叫分析当前处于预览。 文本和此处描述的图像与您的体验可能不匹配。 
+> 呼叫分析现已在 Microsoft 团队和 Skype 的业务管理中心，网址为https://admin.teams.microsoft.com。 帮助台代理权限和网络拓扑上载中将提供新的管理门户在几个月。 同时，您可以继续使用上的终结点https://adminportal.services.skypeforbusiness.com1 层和第 2 层帮助台访问。 
   
 ## <a name="set-call-analytics-permissions"></a>设置呼叫分析的权限
 <a name="BKMK_SetCAPerms"></a>
