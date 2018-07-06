@@ -37,7 +37,7 @@
 ### [在 Teams 中分配角色和权限](assign-roles-permissions.md)
 ## [现代身份验证](sign-in-teams.md)
 ## [与其他组织中的团队用户通信](let-your-teams-users-communicate-with-other-people.md)
-## [云 voide 部署指南](cloud-voice-deployment.md)
+## [云语音部署指南](cloud-voice-deployment.md)
 ### [定义我成功](1-envision-define-my-success-cloud-voice.md)
 ### [决定我 service-音频会议](2-envision-make-my-service-decisions-audio-conferencing.md)
 ### [决定我服务-与调用计划的电话系统](2-envision-make-my-service-decisions-phone-system.md)

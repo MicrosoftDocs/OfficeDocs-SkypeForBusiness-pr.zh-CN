@@ -15,14 +15,15 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: c4fc0b4e75a7e4e3cd2c391102580c37c0b826af
-  ms.sourcegitcommit: 8ceb230c058471210b89449dde0034300e6c4da1
+  ms.openlocfilehash: d072c7f8d1ca0998fbe0a1ddee152717b6c69843
+  ms.sourcegitcommit: 1fde3af8f5c93c1328842990c7d14cbc0fbfdf97
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 05/17/2018
+  ms.lasthandoff: 07/05/2018
+  ms.locfileid: "20201355"
 items:
 - durationInMinutes: 1
-  content: "在此培训中，我们将介绍新的智能通信愿景，展望 Skype for Business 和 Teams 的未来。\n\n此培训面向以下人员： \n\n- IT 专业人士 \n\n- 负责规划、部署或管理 Skype for Business 的人员\n\n- 希望了解如何在贵组织中引入 Teams 的人员\n\n我们将详细介绍如何结合使用这两个产品，并介绍现在可以采取哪些步骤来准备现有 Skype for Business 环境以采用 Teams。 此教程的主要学习内容如下：\n\n- 了解智能通信愿景\n\n- 了解从 Skype for Business Online 到 Teams 的旅程\n\n- 了解现在应该开始采取哪些行动\n\n我们不会介绍有关启用 Teams 或并行运行 Skype for Business 和 Teams 的“操作方法”过程。 有关此信息，请参阅以下资源：\n\n- Microsoft Ignite 2017 会议：[如何为用户启用和配置 Microsoft Teams](https://myignite.microsoft.com/sessions/53318)\n\n- [Skype for Business 与 Teams 的升级旅程和共存](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) \n\n如果对此培训有任何疑问或反馈，请：\n\n- 在此教程的“后续步骤”页面底部的“评论”部分中发布</a>\n\n- 给我们发送电子邮件：[AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey)\n\n- 要向我们提供你的产品反馈（例如功能请求），请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。\n"
+  content: "在此培训中，我们将介绍新的智能通信愿景，展望 Skype for Business 和 Teams 的未来。\n\n此培训面向以下人员： \n\n- IT 专业人士 \n\n- 负责规划、部署或管理 Skype for Business 的人员\n\n- 希望了解如何在贵组织中引入 Teams 的人员\n\n我们将详细介绍如何结合使用这两个产品，并介绍现在可以采取哪些步骤来准备现有 Skype for Business 环境以采用 Teams。 此教程的主要学习内容如下：\n\n- 了解智能通信愿景\n\n- 了解从 Skype for Business Online 到 Teams 的旅程\n\n- 了解现在应该开始采取哪些行动\n\n我们不会介绍有关启用 Teams 或并行运行 Skype for Business 和 Teams 的“操作方法”过程。 有关此信息，请参阅以下资源：\n\n- Microsoft Ignite 2017 会议：[如何为用户启用和配置 Microsoft Teams](https://myignite.microsoft.com/sessions/53318)\n\n- [Skype for Business 与 Teams 的升级旅程和共存](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) \n\n如果对此培训有任何疑问或反馈，请：\n\n- 在此教程的“后续步骤”页面底部的“评论”部分中发布</a>\n\n- 要向我们提供你的产品反馈（例如功能请求），请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。\n"
 - title: 了解智能通信
   durationInMinutes: 4
   content: >
@@ -111,5 +112,4 @@ items:
 
     5.  向我们发送反馈
         - 在此页面底部的**评论**部分中向我们提供有关此培训的反馈或提出相关问题
-        - 给我们发送电子邮件：[AskTeams@Microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey)
         - 要向我们提供 Teams 产品反馈或请求新功能，请访问 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)

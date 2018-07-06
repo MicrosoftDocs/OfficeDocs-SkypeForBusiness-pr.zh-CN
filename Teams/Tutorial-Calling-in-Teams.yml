@@ -14,14 +14,15 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 623fffb3f6470571b039c106ec5f0a4205f6c35a
-  ms.sourcegitcommit: 8ceb230c058471210b89449dde0034300e6c4da1
+  ms.openlocfilehash: b60fb38354f3fb309850ba62286d301c69d7ea69
+  ms.sourcegitcommit: 1fde3af8f5c93c1328842990c7d14cbc0fbfdf97
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 05/17/2018
+  ms.lasthandoff: 07/05/2018
+  ms.locfileid: "20201379"
 items:
 - durationInMinutes: 1
-  content: "在此培训中，介绍了 Teams 中的通话功能，这些功能由 Office 365 中的电话系统功能提供技术支持。 将解释实施电话系统所需的技术规划，如何对其进行配置，以及如何在你的实施中监控使用情况和通话质量。\n\n此培训面向以下人员： \n\n- IT 专业人士。\n\n- 负责规划、部署或管理 Teams。\n\n- 计划在你的 Teams 部署中引入通话功能。\n\n你将了解：\n\n- Teams 中的通话功能是什么？\n\n- 如何在 Teams 中规划通话功能。\n\n- 如何在 Teams 中配置通话功能。\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]\n\n如果对此培训有任何疑问或反馈，请：\n\n- 在此教程的“后续步骤”页面底部的“评论”部分中发布</a>\n\n- 给我们发送电子邮件：[AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Calling)\n\n要向我们提供有关 Teams 的产品反馈（例如，新功能想法），请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。\n"
+  content: "在此培训中，介绍了 Teams 中的通话功能，这些功能由 Office 365 中的电话系统功能提供技术支持。 将解释实施电话系统所需的技术规划，如何对其进行配置，以及如何在你的实施中监控使用情况和通话质量。\n\n此培训面向以下人员： \n\n- IT 专业人士。\n\n- 负责规划、部署或管理 Teams。\n\n- 计划在你的 Teams 部署中引入通话功能。\n\n你将了解：\n\n- Teams 中的通话功能是什么？\n\n- 如何在 Teams 中规划通话功能。\n\n- 如何在 Teams 中配置通话功能。\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]\n\n如果对此培训有任何疑问或反馈，请：\n\n- 在此教程的“后续步骤”页面底部的“评论”部分中发布</a>\n\n要向我们提供有关 Teams 的产品反馈（例如，新功能想法），请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。\n"
 - title: Teams 中的通话功能是什么？
   durationInMinutes: 15
   content: >
@@ -125,4 +126,4 @@ items:
   content: "\n现在，你已在你的环境中正确规划和实施了电话系统，你需要确保它得到使用并提供卓越的用户体验。 尽管完整的详细信息不在此培训的范围内，但我们依然要指出参与的最重要的方面：\n\n-   采用和变更管理  \n在你向用户提供该服务后，他们可能就会开始使用， 也可能不会。 因此，务必要执行合适的采用和变更管理。\n\n-   监控和推动使用  \n建议将你的一个 KSI 设置为活跃用户数，以帮助你衡量 Teams 作为电话客户端的接受程度。\n\n-   监控和推动质量\n\n用户的满意度直接与其通话质量相关；因此，务必要监控通话质量并进行改进（如果需要）。 要了解如何报告通话质量，请访问“通话质量仪表板”培训。 尽管这些视频已生成的 Skype for Business 后，它们应用于团队也： <http://aka.ms/sof-cqd>。\n"
 - title: 后续步骤
   durationInMinutes: 1
-  content: "\n此培训涵盖了以下主要学习内容：  \n-   Teams 中的通话功能是什么？\n\n-   如何在 Teams 中规划通话功能\n\n-   如何在 Teams 中配置通话功能\n\n要了解详细信息，请参阅：\n\n-   [Microsoft Teams 中具有通话套餐的电话系统实践指导](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)\n\n-   [快速入门指南：在 Microsoft Teams 中配置通话套餐](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\n后续步骤\n\n1.  注册 [MyAdvisor](http://aka.ms/myadvisor) 以获取个性化部署指导。\n2.  开始为 Teams 部署电话系统\n3.  向我们发送反馈：\n    - 在此页面底部的“评论”部分发布。\n    - 给我们发送电子邮件：[AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Calling)。\n    - 要向我们提供有关 Teams 的反馈，或分享你对新功能的想法，请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。\n4.  保持最新：\n    - 按照[团队博客 （英文）](https://aka.ms/teamsblog)。\n    - 阅读[团队路线图](https://aka.ms/skype2teamsroadmap)。\n    - 了解在[发行说明](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)的最新公开发布功能。\n5.  浏览[更多培训和教程](http://aka.ms/Teamsacademy)。"
+  content: "\n此培训涵盖了以下主要学习内容：  \n-   Teams 中的通话功能是什么？\n\n-   如何在 Teams 中规划通话功能\n\n-   如何在 Teams 中配置通话功能\n\n要了解详细信息，请参阅：\n\n-   [Microsoft Teams 中具有通话套餐的电话系统实践指导](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)\n\n-   [快速入门指南：在 Microsoft Teams 中配置通话套餐](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\n后续步骤\n\n1.  注册 [MyAdvisor](http://aka.ms/myadvisor) 以获取个性化部署指导。\n2.  开始为 Teams 部署电话系统\n3.  向我们发送反馈：\n    - 在此页面底部的“评论”部分发布。\n    - 要向我们提供有关 Teams 的反馈，或分享你对新功能的想法，请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。\n4.  保持最新：\n    - 按照[团队博客 （英文）](https://aka.ms/teamsblog)。\n    - 阅读[团队路线图](https://aka.ms/skype2teamsroadmap)。\n    - 了解在[发行说明](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)的最新公开发布功能。\n5.  浏览[更多培训和教程](http://aka.ms/Teamsacademy)。"

@@ -16,11 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 5f72133bacc1c299ad47eb3bc928827f733e87a8
-  ms.sourcegitcommit: 8ceb230c058471210b89449dde0034300e6c4da1
+  ms.openlocfilehash: 4cb5a14f2bce0a9450788de178cff8e27cbc4e33
+  ms.sourcegitcommit: 1fde3af8f5c93c1328842990c7d14cbc0fbfdf97
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 05/16/2018
+  ms.lasthandoff: 07/05/2018
+  ms.locfileid: "20201412"
 items:
 - durationInMinutes: 1
   content: >
@@ -58,8 +59,6 @@ items:
 
 
     -   在本教程"下一步步骤"页底部的注释部分发布内容
-
-    -   给我们发送电子邮件：[AskTeams\@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Audio%20Conferencing)。
 
 
     要向我们提供有关 Teams 的产品反馈（例如，新功能想法），请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
@@ -105,7 +104,6 @@ items:
 
     3.  向我们发送反馈：
         - 在此页面底部的“评论”部分发布。
-        - 电子邮件向我们在[AskTeams\@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Audio%20Conferencing)
         - 要向我们提供 Teams 产品反馈或请求新功能，请访问 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)
     4.  保持最新：
         - 按照[团队博客 （英文）](https://aka.ms/teamsblog)。
