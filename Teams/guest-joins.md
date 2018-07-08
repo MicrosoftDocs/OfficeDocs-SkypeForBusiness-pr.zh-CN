@@ -10,12 +10,12 @@ ms.reviewer: laal
 description: 简要介绍如何在 Microsoft Teams 中邀请来宾加入团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb8672168b3f9f249f5f2d538c6f152c9012e29f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: aa6efbf95d0f68b6871aa0693a6e6bf1062b9f84
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969369"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211049"
 ---
 <a name="how-a-guest-joins-a-team"></a>来宾加入团队的方式
 ========================
@@ -46,4 +46,4 @@ Microsoft Teams 中的团队所有者可以通过 Web 或桌面在其团队中�
 来宾随时可以通过 Teams Web 和桌面客户端离开团队。 有关详细信息，请参阅[如何离开团队？](https://support.office.com/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
 
 > [!NOTE]
-> 离开团队不会移除组织/租户来宾帐户。 有关如何将自己组织中删除，请参阅[保留作为来宾用户组织](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization)。 此外，组织的管理员可以从租户删除来宾用户。
+> 离开团队不会移除组织/租户来宾帐户。 有关如何从组织中删除自己，请参阅[保留作为来宾用户组织](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization)。 此外，组织的管理员可以从租户删除来宾用户。

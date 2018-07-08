@@ -1,5 +1,5 @@
 ---
-title: 设置 Skype for Business 通话分析
+title: 设置呼叫分析
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,14 +18,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 设置和使用调用分析确定并解决 Skype 的业务和 Microsoft 团队呼叫质量问题。
-ms.openlocfilehash: d9483d702280bfe7119ff64431e5d42b168f9021
-ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
+ms.openlocfilehash: 748f421a9ec2d5d44ca41192db50c48cc6edcf05
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "20205012"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211039"
 ---
-# <a name="set-up-skype-for-business-call-analytics"></a>设置 Skype for Business 通话分析
+# <a name="set-up-call-analytics"></a>设置呼叫分析
 
 为业务联机管理 Skype，您可以使用调用分析解决 for Business 的 Skype 和 Microsoft 团队呼叫质量和连接问题。 您可能会发现有用设置呼叫分析中的以下功能：
   
@@ -33,13 +33,15 @@ ms.locfileid: "20205012"
     
 - 上载.tsv 或.csv 数据文件，可以将构建、 网站和租户信息添加到呼叫分析。
     
-> [!NOTE]
-> 呼叫分析现已在 Microsoft 团队和 Skype 的业务管理中心，网址为https://admin.teams.microsoft.com。 帮助台代理权限和网络拓扑上载中将提供新的管理门户在几个月。 同时，您可以继续使用上的终结点https://adminportal.services.skypeforbusiness.com1 层和第 2 层帮助台访问。 
+**呼叫分析现已推出中的 Microsoft 团队和 Skype 的业务 Admin Center。** 若要查看的所有呼叫信息和用户的数据，请使用**通话记录**选项卡。您可以通过仪表板用户可以搜索用户的配置文件页上查找或**用户**的左侧导航中查找用户执行此操作。
+
+> [!IMPORTANT]
+> 帮助台代理权限和网络拓扑上载中将提供新的管理门户在几个月。 同时，您可以继续使用https://adminportal.services.skypeforbusiness.com1 层和第 2 层帮助台访问。
   
 ## <a name="set-call-analytics-permissions"></a>设置呼叫分析的权限
 <a name="BKMK_SetCAPerms"></a>
 
-作为管理员，您获取的呼叫分析的所有功能的完全访问权限。 此外，您可以使用帮助台模型中包括层 1 和 2 层权限组的呼叫的分析。 具有 1 层权限的用户可以访问仅有限的呼叫分析视图。 第 2 层权限的用户可以访问呼叫分析的全部功能。 这两个权限级别防止对业务管理中心的 Skype 的其余部分的访问。 您可以通过添加包含到 Tier 1 或权限页上的第 2 层一部分用户组授予对层的访问。 有关详细信息，请参阅[设置呼叫分析中的分层权限](set-up-call-analytics.md#BKMK_SetUpTier)。
+作为管理员，您获取的呼叫分析的所有功能的完全访问权限。 此外，您可以使用帮助台模型中包括层 1 和 2 层权限组的呼叫的分析。 具有 1 层权限的用户可以访问仅有限的呼叫分析视图。 第 2 层权限的用户可以访问呼叫分析的全部功能。 这两个权限级别防止对其余的 Microsoft 团队和 Skype 业务管理中心的访问。 您可以通过添加包含到 Tier 1 或权限页上的第 2 层一部分用户组授予对层的访问。 有关详细信息，请参阅[设置呼叫分析中的分层权限](set-up-call-analytics.md#BKMK_SetUpTier)。
   
 第 1 层帮助台代理处理基本呼叫质量问题。 第 1 层代理不调查问题与会议;它们收集相关的信息，然后升级到第 2 层代理。 第 2 层代理，请参阅详细的呼叫日志的从 1 层代理处于隐藏状态的信息。 下表概述了至代理使用调用分析的可用信息。
 
@@ -59,16 +61,16 @@ ms.locfileid: "20205012"
  **设置呼叫分析中的分层权限**
  <a name="BKMK_SetUpTier"> </a>
 
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
   
 1. 第 1 层和第 2 层中创建 Office 365 安全组，并将所需的人员添加到每个组。 您还可以重用现有的安全组。 有关详细信息，请参阅[在 Office 365 管理中心中创建、编辑或删除安全组](https://support.office.com/article/55c96b32-e086-4c9e-948b-a018b44510cb)。
     
 2. 在 Office 365 管理中心，转到**管理中心** > **for Business 的 Skype**。
-    
+
     > [!NOTE]
-    > 如果您位于业务管理中心的旧的 Skype 中，请通过单击**位于尝试我们的新管理中心**转到新版本。 
+    > 如果您使用的**Microsoft 团队和 Skype 的业务管理中心**，在左侧导航窗格中，单击**旧门户**。
   
-3. 在业务管理中心新 Skype，单击**权限**。
+3. 在**调用分析 (preview)** 中，单击**权限**。
     
 4. 将 Office 365 安全组添加到**Tier 1**和**2 层**框中。 您可以将多个组添加到每个角色。
     
@@ -90,7 +92,7 @@ ms.locfileid: "20205012"
 ## <a name="related-topics"></a>相关主题
 <a name="BKMK_UploadFiles"> </a>
 
-[使用通话分析解决 Skype for Business 通话质量不佳的问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[使用通话分析解决通话质量不佳的问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [呼叫分析和呼叫质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
 

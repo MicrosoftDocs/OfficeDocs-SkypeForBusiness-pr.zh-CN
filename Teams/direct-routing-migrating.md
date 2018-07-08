@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 了解什么需要迁移到直接路由从 Skype 业务联机和团队配置角度。
-ms.openlocfilehash: 4a1cb3d96d6f5d024b8da6a42288b09b3a8cde3d
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 04e8f141776dd3003352b3df888092960e23dcf6
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084435"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211141"
 ---
 # <a name="migrating-to-direct-routing"></a>迁移到直接路由
 
@@ -99,7 +99,7 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
  
 ```
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
-Set-CsUserPstnSettings -Identity <UPN> -AllowInternationCalls $false -HybridPSTNSite $null 
+Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPSTNSite $null 
 ```
 
 
