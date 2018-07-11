@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 了解如何在 Microsoft Teams 和 Skype for Business Online 的呼叫质量仪表板中进行流质量分类。
-ms.openlocfilehash: 7eb0e7f7a3a2447f69f4e42826d74169e1dba549
-ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
+ms.openlocfilehash: 7806178b355d3f86cbc470f6d7401b3f76077b12
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20136903"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246620"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>通话质量仪表板中的流分类
 
@@ -50,8 +50,8 @@ ms.locfileid: "20136903"
 
 |**步骤编号**|**指标**|**条件**|**如果条件为真的分类**|**如果条件为假的分类**|**如果指标不可用的分类**|**解释**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50|差|好|继续前往步驟 2|向用户显示的视频帧丢失平均百分比。 其中包括从网络丢失恢复的帧。|
-|2|Video Frame Rate Avg|< 7|差|好|继续前往步驟 3|在会话持续期间计算到的视频流每秒接收的平均帧数。|
+|1|Video Local Frame Loss Percentage Avg|> 50% |差|好|继续前往步驟 2|向用户显示的视频帧丢失平均百分比。 其中包括从网络丢失恢复的帧。|
+|2|Video Frame Rate Avg|< 7|差|好|继续前往步驟 3|在会话持续期间计算而得到的视频流每秒接收的平均帧数。|
 |3|Video Post FECPLR|> 0.15|差|好|未经分类|应用 FEC 后，跨所有视频流和编解码器汇总的丢包率。|
 
 ### <a name="vbss-classifier"></a>VBSS 分类器
@@ -60,9 +60,9 @@ VBSS 流根据第一个可用指标的值按以下顺序标记为“好”或“
 
 |**步骤编号**|**指标**|**条件**|**如果条件为真的分类**|**如果条件为假的分类**|**如果指标不可用的分类**|**解释**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50|差|好|继续前往步驟 2|向用户显示的视频帧丢失平均百分比。 其中包括从网络丢失恢复的帧。|
-|2|Video Frame Rate Avg|<2|差|好|继续前往步驟 3|在会话持续期间计算到的视频流每秒接收的平均帧数。|
-|3|Video Post FECPLR|> 0.15|差|好|未经分类|未经分类|应用 FEC 后，跨所有视频流和编解码器汇总的丢包率。|
+|1|VBSS 本地帧丢失百分比平均值|> 50% |差|好|继续前往步驟 2|向用户显示的视频帧丢失平均百分比。 其中包括从网络丢失恢复的帧。|
+|2|VBSS Frame Rate Avg|<2|差|好|继续前往步驟 3|在会话持续期间计算而得到的视频流每秒接收的平均帧数。|
+|3|VBSS Post FECPLR|> 0.15|差|好|未经分类|未经分类|应用 FEC 后，跨所有视频流和编解码器汇总的丢包率。|
 
 ### <a name="application-sharing-classifier"></a>应用程序共享分类器
 
@@ -70,7 +70,7 @@ VBSS 流根据第一个可用指标的值按以下顺序标记为“好”或“
 
 **指标**|**条件**|**解释**|
 |:-----|:-----|:-----|
-|Spoiled Tile Percent Total|> 36|没有被发送到远程对等点（例如，从 MCU 到查看器）而是被丢弃的图块的百分比。 丢弃 (spoiled) 图块可能是由于客户端与服务器之间的带宽限制所致。|
+|Spoiled Tile Percent Total|> 36|没有被发送到远程对等点（例如，从 MCU 到查看器）而被丢弃的图块的百分比。 丢弃 (spoiled) 图块可能是由于客户端与服务器之间的带宽限制所致。|
 |AppSharing RDP Tile Processing Latency Average|> 400|在会议服务器上处理 RDP 堆栈图块的平均延迟，以毫秒为单位。|
 |AppSharing Relative OneWay Average|> 1.75|终结点之间的应用程序共享流的相对单向平均延迟，以毫秒为单位。|
 
@@ -96,7 +96,7 @@ VBSS 流根据第一个可用指标的值按以下顺序标记为“好”或“
     - 当用户加入会议来聆听演讲者但从不说话（可能像在大多数呼叫中那样将麦克风静音）时，会出现常见的低数据包利用率。 在这种情况下，一个音频流将具有高数据包利用率（入站到客户端），而另一个音频流几乎不具有数据包利用率（从客户端出站）。 在这种情况下，流的持续时间可能为一小时或更长，但由于麦克风被静音，从客户端到服务器的流数据包利用率将非常低，从而导致未分类的流。
 
 > [!TIP]
->  "Packet Utilization" 维度和 "Avg Packet Utilization" 度量可用于确定流的数据包活动。
+> "Packet Utilization" 维度和 "Avg Packet Utilization" 度量可用于确定流的数据包活动。
 
 
 ## <a name="related-topics"></a>相关主题
