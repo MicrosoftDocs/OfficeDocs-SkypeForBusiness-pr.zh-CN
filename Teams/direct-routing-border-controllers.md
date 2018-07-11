@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 直接路由中使用与所选的 SBC 供应商，以确认其 SBC 的 Microsoft 合作伙伴。
-ms.openlocfilehash: de006d216b81b3aaa2b07749855f1313be646d05
-ms.sourcegitcommit: b7b6bdaf9d40b70151ce7b5d1b659b5466f0841c
+ms.openlocfilehash: 27586342fd81046dc21c97267b6875c41926de71
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/04/2018
-ms.locfileid: "20195385"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246646"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>认证的直接路由的会话边界控制器的列表
 
@@ -51,5 +51,5 @@ Microsoft 与选定会话边界控制器 (SBC) 供应商认证的合作伙伴用
 |     | SBC SWe  |   & #10004;    |    挂起     |    V6.2      |
 |     |SBC 1000   |     & #10004;   |     挂起    |    V7.0.2   |& #10004; 
 |     | SBC 2000    |     & #10004;   |    挂起     |    V7.0.2      |
-|[Thinktel](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    考虑 365 SBC      |  & #10004;       |    挂起     |   V1.4       |
+|[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)     |    考虑 365 SBC      |  & #10004;       |    挂起     |   V1.4       |
 |     |         |         |         |         |

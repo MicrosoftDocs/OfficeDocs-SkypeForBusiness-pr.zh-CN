@@ -3,7 +3,7 @@ title: 曲面集线器部署的 Microsoft 团队
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/02/2018
+ms.date: 07/10/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 948f9f9ed32f4e5846248dfbcd2b96577a0f34ee
-ms.sourcegitcommit: 2b15226723c299fe94f1a012aa21222173fe3af8
+ms.openlocfilehash: cfd9e5fd267de180907c2ea41c53541c08ff28b7
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "20192177"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20266935"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>曲面集线器部署的 Microsoft 团队
 ======================================
@@ -141,46 +141,33 @@ Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>从 Microsoft 存储的表面集线器安装团队 
 
-这些说明包括当前安装的 Microsoft 存储中的图面集线器团队解决方法。 
+安装 Microsoft 存储中的图面集线器团队供以下说明。 
  
-1. 启动 Windows 应用商店：<br>
+1. 启动 Microsoft 存储：<br>
    a. 点击**开始** > **所有应用程序** > **设置**。<br> b. 点击**面集线器设备帐户、 管理**。<br>
    c. 在左侧，点击**应用程序和功能**选项卡。<br> d. 在右侧，点击**打开存储**按钮。 
-2. 从 Microsoft 存储，搜索*的 Microsoft 团队*。 将显示**图面集线器 （预览） 的 Microsoft 团队**。 点击**获取应用程序**按钮以安装。  
+2. 从 Microsoft 存储，搜索*的 Microsoft 团队*。 将显示**图面中心的 Microsoft 团队**。 点击**获取应用程序**按钮以安装。  
 3. 安装完成后，重新启动面集线器。 
-4. 曲面集线器重新启动后，您应该能够从**开始**菜单启动团队应用程序并从日历加入会议。 
 
-## <a name="make-teams-the-default-vtc-application"></a>使团队默认 VTC 应用程序
+> [!NOTE]
+> 不点击从商店列表页的**启动**。
 
-最多为默认 VTC 应用程序，而不是 for Business 的 Skype，均可以设置团队。 移动设备管理 (MDM) 策略需要应用于面集线器设备。 
+## <a name="make-teams-the-default-calling-and-meetings-application"></a>使团队默认呼叫和会议应用程序
  
-有两种配置 MDM 策略： 
+有两种配置的默认呼叫和会议应用程序策略： 
 
-- 如果您已配置的策略，则将其添加通过设备管理应用程序。 
-- 如果您没有配置的远程策略，我们将拖放到 usb 闪存盘上可以加载的设置的包文件。
-
-### <a name="device-management-configuration"></a>设备管理配置
-
-下面是添加配置从管理中心 MDM 颁发机构 MDM 策略的示例。 如果您位于企业网络时，您可以使用以下说明原义，包括用户帐户。 
+- **选项 1**： 配置通过 USB 键。 
+- **选项 2**： 通过如 InTune MDM 配置。
  
-1. 在**设备管理**部分中，点击**+**。<br>
-   将打开**连接工作或学校**对话框。 
-2. 输入的策略电子邮件地址和密码提示时。<br>
-   **注意：** 在已输入您的设备管理帐户后不自动刷新 UI OS 没有 bug。 您需要关闭并重新打开设置，以便查看列出的帐户。 
-3. 它将执行几分钟，以便同步 MDM 策略设置。如果您想要强制进行同步，点击**MDM 帐户**按钮，，，然后点击**信息**按钮。 此操作将显示信息窗口，然后点击**同步**。 
-4. 若要验证已您的需要您可以检查注册表。 您应看到**HKLM\Software\Microsoft\Windows\CurrentVersion\PPI\VtcCallSettings**下的两个键。 <br><br>
-   **VtcAppMeetingHandlingMode** DWORD 值指示团队是默认应用程序。 可识别以下值。 <br><br>
-    |数字 | 值   |
-    |-------|---------|
-    |0      | SkypePreferred            |
-    |1      | VtcPreferred （工作组）      |
-    |2      | VtcExclusive （仅适用于工作组） |
+### <a name="option-1-configure-via-usb-key"></a>选项 1： 配置通过 USB 键 
+ 
+此[下载页](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g)上，可以找到包。 选择相应的包的安装，并将其复制到 usb 闪存盘您计划。 要使用的正确.ppkg 文件取决于您想要应用，如下所示的默认应用程序策略： 
 
-    **VtcCallAppPackageId**是已安装的团队包的名称。 如果这不会显示，请确保您已安装工作组包，并重新同步。 
- 
-### <a name="configure-mdm-via-usb-key"></a>配置 MDM 通过 USB 键 
- 
-此[下载页](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g)上，可以找到包。 选择相应的包的安装，并将其复制到 usb 闪存盘您计划。 要使用的正确.ppkg 文件取决于已安装了从存储区，团队包和您想要应用 （Skype 独占、 首选的 Skype 团队首选，团队独占） 的策略。 
+|数字  |说明  |
+|---------|---------|
+|0     | Skype 团队会议可用的启动屏幕上的首选应用程序        |
+|1     | 团队 Skype 会议可用的启动屏幕上的首选应用程序        |
+|2     | 在开始屏幕 (Skype app 不可用) 团队专用应用程序        |
  
 1. 将 usb 闪存盘附加到面集线器设备。 
 2. 打开面集线器设备上的**设置**应用程序。 
@@ -189,8 +176,27 @@ Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
 5. 单击**添加或删除设置包**。 
 6. 单击**添加包**。
 7. 从下拉列表菜单中选择**可移动媒体**选项。 
-8. 添加**Allowbuildspreview.ppkg**，，然后选择您要添加的图面集线器程序包。 
+8. 添加适当的**TeamsRTMMode*.ppkg**包以前复制到 usb 闪存盘。 
 9. 重新启动面集线器设备。 
+10. 设备重新启动后，您应该能够从开始屏幕中启动团队应用程序并从日历加入会议。 
+
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>选项 2： 配置通过如 InTune MDM 
+
+使用以下配置通过 InTune 的默认呼叫和会议应用程序策略。
+
+|设置   |值    |说明    |
+|----------|---------|---------|
+|路径      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
+|数据类型 | 整数 (0-2)   |0-团队会议可用的启动屏幕上的 Skype 首选应用程序<br>1-团队 Skype 会议可用的启动屏幕上的首选应用程序<br>2-团队 （不可用 Skype 应用程序） 在开始屏幕上的专用应用程序 |
+|运营| 获取、 设置        |
+
+|设置   |值    |
+|----------|---------|
+|路径      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
+|数据类型 | 字符串 （作为- **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe 团队应用程序包 ID 设置字符串 ！团队**) |
+|运营| 获取、 设置        |
+
+重新启动面集线器设备。 设备重新启动后，您应该能够从开始屏幕中启动团队应用程序并从日历加入会议。
 
 > [!NOTE]
 > 如果您的设备或组织的设备不是当前的一部分 Windows 内幕计划和中介绍的一般数据保护法规 (GDPR) 的国家/地区 （或您已手动更改为基本的遥测设置），则您必须重新检查是否具有允许完全遥测之前加入内幕计划。 GDPR 更改在欧盟为基本设置遥测面集线器设备的默认行为。

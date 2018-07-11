@@ -1,5 +1,5 @@
 ---
-title: 数据集做法
+title: 数据收集做法
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft 收集统计、 使用和错误的数据，以了解如何使用 for Business 的 Skype 和其中用户遇到问题。 使用的数据来规划产品改进。
-ms.openlocfilehash: 9f0e0886df721397fe82a60672ef3947c14a3860
-ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
+ms.openlocfilehash: 2175d3fea0ab5cc2ca7cb573d48e3c700ac2bd03
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19856033"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246475"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype 的业务和 Microsoft 团队数据集做法
 
@@ -77,15 +77,10 @@ Skype 的业务服务器 2015年、 业务 online，以及应用程序业务和 
   
 打开或关闭，最终用户无法启用使用率数据集。
   
-Skype 会议应用程序和联接启动器网页，控制遥测的方法是通过此策略： <<<<<<< 标头
-  
-<a name="set-cswebserviceconfiguration--meetinguxenabletelemetry-true"></a>通过 Set-cswebserviceconfiguration MeetingUxEnableTelemetry $True
-=======
+Skype 会议应用程序和联接启动器网页，控制遥测的方法是通过此策略：
  
 `Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True` 
 
->>>>>>> 母版
-  
 此策略默认为 false，因此默认情况下关闭为遥测集合。 此设置是每个池，并控制与 Skype 会议应用程序连接到该服务器上承载会议的所有用户。
   
 ## <a name="error-reporting-data"></a>错误报告数据
@@ -105,16 +100,9 @@ Skype 会议应用程序和联接启动器网页，控制遥测的方法是通�
   
 - 在服务器上或租户管理员中心 （这是默认状态） DisableAutomaticSendTracing 组策略设置设置为 False。 有关详细信息，请参阅[中的业务服务器 2015 Skype 的配置客户端引导策略](https://technet.microsoft.com/EN-US/library/gg425941.aspx)。
     
-<<<<<<< HEAD
-- 最终用户分别选择中常规选项卡 （齿轮图标和选项对话框将打开常规选项卡显示与单击） 从加入 Skype 业务客户端。
-    
-     ![齿轮图标](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)
-=======
 - 最终用户单独常规选项卡中加入 (单击齿轮图标![齿轮图标](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)，然后将**选项**对话框打开与显示**常规**选项卡) 中的商业客户端 Skype。
     
  
->>>>>>> 母版
-  
 ![Skype 选项中的业务数据集复选框 > 常规对话框](../images/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   
 对于 Skype 会议应用程序，MeetingUxEnableTelemetry 还将控制错误报告，但对 Windows 上崩溃，Watson 设置控制上载崩溃信息。 在桌面客户端对话框中看到如 Skype 会议应用程序没有用户设置。

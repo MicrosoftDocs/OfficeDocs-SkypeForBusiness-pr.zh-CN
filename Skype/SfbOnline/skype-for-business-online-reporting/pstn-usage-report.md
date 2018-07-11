@@ -1,5 +1,5 @@
 ---
-title: PSTN 使用率报告
+title: PSTN 使用报告
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ ms.custom:
 - Reporting
 description: 新 Skype 业务管理中心报告区域显示您呼叫和音频会议活动在组织中。 使您钻取报告为您提供更精细了解每个用户的活动。 例如，你可以使用 Skype for Business PSTN 使用详细信息报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 您可以查看音频会议的 PSTN 用法详细信息，包括呼叫的成本，以便您可以了解您的使用，并调用帐单的详细信息，以确定您的组织内的使用情况。
 search.appverid: MET150
-ms.openlocfilehash: 59a1fbae9614fa6742f73b46c442d7912c71f88d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 3c2148b54c04950867feef1844a4ca1595f708e5
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973365"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246485"
 ---
-# <a name="pstn-usage-report"></a>PSTN 使用率报告
+# <a name="pstn-usage-report"></a>PSTN 使用报告
 
 新 Skype Business Admin Center**报告**区域显示您呼叫和音频会议活动在组织中。 使您钻取报告为您提供更精细了解每个用户的活动。 例如，你可以使用 **Skype for Business PSTN 使用详细信息**报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 您可以查看音频会议的 PSTN 用法详细信息，包括呼叫的成本，以便您可以了解您的使用，并调用帐单的详细信息，以确定您的组织内的使用情况。
   
@@ -74,8 +74,9 @@ ms.locfileid: "19973365"
      *    **conf_out**（出站呼叫从音频会议网桥通常以向会议添加 PSTN 号码）
 
      **统一的通信应用程序 (UCAP)** 
-     *    **ucap_in**（如自动助理或呼叫的队列的 UC 应用程序对入站的调用） 
-     *    **ucap_out**（出站呼叫从如自动助理或呼叫的队列的 UC 应用程序）
+     *    **ucap_in**（如自动助理或呼叫的队列的 UC 应用程序到入站的 PSTN 呼叫） 
+     *    **ucap_out**（如自动助理或呼叫的队列的 UC 应用程序从出站 PSTN 呼叫）
+     *    **注意：** 呼叫已转接到用户的 UC 应用程序从如自动助理或呼叫队列不会出现在 PSTN 用法报告为这些呼叫条引线是对等 (P2P) 音频呼叫。 您可能访问业务管理中心，在"工具 > Skype 的商业调用分析"下的 Skype 的 P2P 调用和搜索按用户名或 SIP 地址关联的日期/时间呼叫和/或发起 CLID （调用行 ID）。 
 *     
      **国内/国际**告诉您是否已发出的呼叫被视为国内 （在国家/地区） 或国际 （之外的国家/地区） 基于用户的位置。 
 *    **拨打的目标**是国家/地区目标如法国、 德国或美国 （美国） 时所拨打的名称。 

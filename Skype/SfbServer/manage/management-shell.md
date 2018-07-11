@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: 业务 Server 命令行管理程序 Skype 服务器管理和管理提供命令行界面。 它基于 Windows PowerShell，并包含一组全面的管理和管理特定于 Skype 和旧式 Lync server 产品的 cmdlet。
-ms.openlocfilehash: e1c954c75f03be7e7603866c4bb58d5927f2c3f8
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 50e76784526a3430c6e91a3c6cfdd76962fda3cd
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569370"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20266879"
 ---
 # <a name="skype-for-business-server-2015-management-shell"></a>Skype for Business Server 2015 命令行管理程序
  
@@ -70,5 +70,8 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
   ```
 
     有关详细信息，请参阅[有关可更新帮助](https://technet.microsoft.com/library/hh847735.aspx)。
+    
+    > [!NOTE]
+    > 如果您使用的 PowerShell 远程您可能需要允许通过防火墙的通信。 若要了解有关 PowerShell 远程处理使用的端口的详细信息，请参阅[哪些端口不 PowerShell 远程处理使用？](https://blogs.technet.microsoft.com/christwe/2012/06/20/what-port-does-powershell-remoting-use/)。
     
 
