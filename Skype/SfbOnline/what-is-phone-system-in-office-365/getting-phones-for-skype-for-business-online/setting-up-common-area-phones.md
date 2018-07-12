@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解部署步骤以获取正确的固件、根据需要进行更新、分配许可证并配置公共区域电话的设置。
-ms.openlocfilehash: ef5f1de6af237d26571e6914087a01341808dbaa
-ms.sourcegitcommit: 10eb49f35e5d76e483b6f5af13d59c3059d66acf
+ms.openlocfilehash: b32995839da45975449cd8b4cd077c97cff8ad38
+ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2018
-ms.locfileid: "19403756"
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20302177"
 ---
 # <a name="set-up-common-area-phones"></a>设置公共区域电话
 公共区域电话 (CAP) 通常放置在诸如大厅或另一个可供很多人使用的的区域。 例如，CAP 可以是接待室电话、门铃电话或会议室电话，它们设置为设备而不是用户并自动登录网络。 在以下步骤中，我们将帮助你设置带通话套餐的电话系统帐户，以便你为组织部署这些类型的电话。
@@ -42,7 +42,7 @@ ms.locfileid: "19403756"
 
     固件更新由 Skype for Business 服务管理。 每个通过 Skype for Business 认证的电话固件都上传到 Skype for Business 更新服务器，并且默认情况下在所有电话上启用设备更新。 
 
-    根据电话的非活动时间和轮询间隔，电话将自动下载并安装最新认证的版本。 你可以通过使用 [Set-CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy) cmdlet 并将 *EnableDeviceUpdate* 参数设置为 `false` 来禁用设备更新设置。
+    根据电话的非活动时间和轮训间隔，电话将自动下载并安装最新认证的内部版本。 你可以通过使用 [Set-CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy) cmdlet 并将 *EnableDeviceUpdate* 参数设置为 `false` 来禁用设备更新设置。
 
 ## <a name="setting-up-a-common-area-phone"></a>设置公共区域电话
 你需要按照以下步骤操作：
@@ -84,7 +84,7 @@ ms.locfileid: "19403756"
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>第 3 步 - 将电话号码分配给公共区域电话用户帐户
 
-[sfb-logo-30x30.png](../../images/sfb-logo-30x30.png) 使用 **Skype for Business 管理中心**将电话号码分配给用户
+![sfb-logo-30x30.png](../../images/sfb-logo-30x30.png) 使用 **Skype for Business 管理中心**将电话号码分配给用户
 
 1. 在 Office 365 管理中心，转至**管理中心** > **Skype for Business**。
 2. 在 **Skype for Business 管理中心** >  **语音** > **电话号码**。
@@ -137,6 +137,11 @@ ms.locfileid: "19403756"
     5. 在配对代码窗口中，输入电话上显示的代码并单击**设置**。
 
         执行最后一步之后，电话应自动登录。
+        
+
+> [!NOTE]
+> CAP 设置站点声明它将 CAP 帐户的密码重置为随机密码。 请注意，CAP 所指的帐户是 Azure Active Directory (AAD) 帐户。 如果仅在 AAD 中创建了帐户，则该过程非常简单。 如果已将本地 Active Directory 同步到 AAD，请确保记下正在使用的凭据，这些凭据将在 CAP 设置中更改。
+
 
 ### <a name="related-topics"></a>相关主题
 
