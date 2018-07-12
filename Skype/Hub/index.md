@@ -3,12 +3,12 @@ layout: HubPage
 hide_bc: true
 title: Skype for Business
 description: Skype for Business
-ms.openlocfilehash: 8c09204d6651787de29de48e37ff517b5d70a746
-ms.sourcegitcommit: fb1022abfa10e9cc07528e9b6b821a7214bf45bd
+ms.openlocfilehash: 1962f30a1a6ea4f6822c369c95dd1d72758e8e6d
+ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19942658"
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20299383"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -127,7 +127,7 @@ ms.locfileid: "19942658"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>从 Skype for Business 到 Microsoft Teams 的旅程</h3>
-                                                    <p>了解探索 Teams 最佳采用方式的指导和工具。</p>
+                                                    <p>了解探索迁移到 Teams 的最佳路径的指导和工具。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -147,6 +147,25 @@ ms.locfileid: "19942658"
                                                 <div class="cardText">
                                                     <h3>Skype 会议室系统 v2</h3>
                                                     <p>了解如何规划、部署和管理 Skype 会议室系统 v2。</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>                            
+                            <li>
+                                <a href="/SkypeForBusiness/certification/overview">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-Certified-400x140.svg" alt="Certification" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Skype for Business 认证计划</h3>
+                                                    <p>了解经认证的解决方案和设备。</p>
                                                 </div>
                                             </div>
                                         </div>
