@@ -250,6 +250,7 @@
 #### [规划直接路由](direct-routing-plan.md)
 #### [配置直接路由](direct-routing-configure.md)
 #### [迁移到直接路由](direct-routing-migrating.md)
+#### [监视和故障排除直接路由](direct-routing-monitor-and-troubleshoot.md)
 #### [使用 PSTN 连接的混合环境中的用户帐户](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [为多个租户配置会话边界控制器](direct-routing-sbc-multiple-tenants.md)
 #### [认证的直接路由的会话边界控制器的列表](direct-routing-border-controllers.md)
