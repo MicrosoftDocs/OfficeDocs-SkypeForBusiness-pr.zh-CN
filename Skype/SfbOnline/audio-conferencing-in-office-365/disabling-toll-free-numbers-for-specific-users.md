@@ -1,5 +1,5 @@
 ---
-title: 特定用户的禁用免费电话号码
+title: 禁用特定用户的免费电话号码
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,14 +17,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理员可以控制如何组织者可以为他们的会议使用免费电话号码。
-ms.openlocfilehash: c144f807a20088f8e2330b541ba18b1da4b40e10
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 2f506163ce815f71d18935040dbf13bf4af4f04c
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703795"
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20324138"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-users"></a>特定用户的禁用免费电话号码
+# <a name="disabling-toll-free-numbers-for-specific-users"></a>禁用特定用户的免费电话号码
 
 如果您的组织具有其 Microsoft 音频会议网桥中免费电话号码，您可以允许或阻止特定的组织者的会议中其使用情况。  
 
@@ -44,7 +44,7 @@ ms.locfileid: "19703795"
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a>特定用户的禁用免费电话号码 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>禁用特定用户的免费电话号码 
 
 ![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
 

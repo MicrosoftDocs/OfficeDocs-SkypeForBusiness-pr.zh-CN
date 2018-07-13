@@ -1,5 +1,5 @@
 ---
-title: Communications 字幕式有哪些？
+title: 什么是通信点数？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 5d3a1c2b3565f8497bf108d9af6ad44379f2515b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 070816cf38fd86bf89bb05d27f1aedf5a5f90da5
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20326992"
 ---
-# <a name="what-are-communications-credits"></a>Communications 字幕式有哪些？
+# <a name="what-are-communications-credits"></a>什么是通信点数？
 
 Communications 字幕式是音频会议和调用规划分钟支付的便捷方法。 它有助于确保您和您的用户都不会陷入能够：
   
@@ -76,7 +77,7 @@ Communications 字幕式是音频会议和调用规划分钟支付的便捷方�
   
 ## <a name="recommended-funding-amounts"></a>推荐的存款金额
 
-我们建议您在开始使用小的投资量，其中的小型组织可能甚至是 $20 的最小值。 收集一个月或两个 PSTN 用法使用 PSTN 用法详细信息报表之后，您将能够调整以满足您的组织中的正常使用情况的金额。
+我们建议您在开始使用小的投资量，其中的小型组织可能甚至是 $50 的最小值。 收集一个月或两个 PSTN 用法使用 PSTN 用法详细信息报表之后，您将能够调整以满足您的组织中的正常使用情况的金额。
   
 如果您已准备好所有最多为此设置，请参阅[设置为您的组织的通信字幕式](set-up-communications-credits-for-your-organization.md)。
   
@@ -84,7 +85,7 @@ Communications 字幕式是音频会议和调用规划分钟支付的便捷方�
 
 您可以看到计划和定价通过访问以下链接之一：
   
-- [调用计划](https://go.microsoft.com/fwlink/?linkid=799761)
+- [通话套餐](https://go.microsoft.com/fwlink/?linkid=799761)
     
 - [音频会议](https://go.microsoft.com/fwlink/?linkid=799762)
     

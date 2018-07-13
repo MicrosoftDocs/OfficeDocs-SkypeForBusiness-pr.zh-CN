@@ -29,9 +29,10 @@
 ## [管理对 Teams 的用户访问](user-access.md)
 ## [获取 Teams 的客户端](get-clients.md)
 ### [团队应用程序的硬件要求](hardware-requirements-for-the-teams-app.md)
-### [安装 Microsoft 团队使用 MSI](msi-deployment.md)
+### [安装团队使用 MSI](msi-deployment.md)
 ### [曲面集线器部署团队](teams-surface-hub.md)
-## [在您的组织中启用的 Microsoft 团队](Office-365-set-up.md)
+## [在虚拟环境中运行团队](virtual-environment-teams.md)
+## [在您的组织中启用团队](Office-365-set-up.md)
 ## [管理组织中的团队功能](enable-features-office-365.md)
 ### [转换为新的 Microsoft 团队和业务管理中心的 Skype 的过程管理团队](manage-teams-skypeforbusiness-admin-center.md)
 ### [在 Teams 中分配角色和权限](assign-roles-permissions.md)
@@ -70,7 +71,7 @@
 ### [设置 Skype for Business 通话分析](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [使用通话分析解决 Skype for Business 通话质量不佳的问题](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [呼叫分析和呼叫质量仪表板](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Teams 的 PowerShell cmdlet 参考](https://docs.microsoft.com/powershell/module/teams)
+
 ## 故障排除和支持
 ### [Teams 的已知问题](Known-issues.md)
 ### [Teams 的支持资源](support-resources.md)
@@ -264,5 +265,6 @@
 ## [对于教育管理员团队资源](resources-teams-edu.md)
 <!-- ============================================================ -->
 
+# [Teams 的 PowerShell cmdlet 参考](https://docs.microsoft.com/powershell/module/teams)
 
 # [Teams 的开发人员文档](https://docs.microsoft.com/microsoftteams/platform)

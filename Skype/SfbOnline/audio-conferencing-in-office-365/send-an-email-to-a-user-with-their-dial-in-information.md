@@ -1,5 +1,5 @@
 ---
-title: 对其的拨入信息的用户发送电子邮件
+title: 以电子邮件形式向用户发送拨入信息
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 将您的用户发送电子邮件使用他们的音频会议信息。
-ms.openlocfilehash: 363c2ada59dfc0e61944e032d19f6d47a2d30343
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 28d3f83259033b5e587c299464a334710797e149
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703391"
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20324120"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>对其音频会议信息的用户发送电子邮件
 
