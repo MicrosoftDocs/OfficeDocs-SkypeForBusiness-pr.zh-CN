@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 了解如何在 Microsoft Teams 和 Skype for Business Online 的呼叫质量仪表板中进行流质量分类。
-ms.openlocfilehash: 7806178b355d3f86cbc470f6d7401b3f76077b12
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 6cd19fb1f163f6e7a9e11598b03f539b5fc1a02d
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246620"
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20327075"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>通话质量仪表板中的流分类
 
@@ -51,7 +51,7 @@ ms.locfileid: "20246620"
 |**步骤编号**|**指标**|**条件**|**如果条件为真的分类**|**如果条件为假的分类**|**如果指标不可用的分类**|**解释**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Video Local Frame Loss Percentage Avg|> 50% |差|好|继续前往步驟 2|向用户显示的视频帧丢失平均百分比。 其中包括从网络丢失恢复的帧。|
-|2|Video Frame Rate Avg|< 7|差|好|继续前往步驟 3|在会话持续期间计算而得到的视频流每秒接收的平均帧数。|
+|2|Video Frame Rate Avg|< 7|差|好|继续前往步驟 3|在会话持续期间计算得到的视频流每秒接收的平均帧数。|
 |3|Video Post FECPLR|> 0.15|差|好|未经分类|应用 FEC 后，跨所有视频流和编解码器汇总的丢包率。|
 
 ### <a name="vbss-classifier"></a>VBSS 分类器
@@ -60,9 +60,9 @@ VBSS 流根据第一个可用指标的值按以下顺序标记为“好”或“
 
 |**步骤编号**|**指标**|**条件**|**如果条件为真的分类**|**如果条件为假的分类**|**如果指标不可用的分类**|**解释**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|VBSS 本地帧丢失百分比平均值|> 50% |差|好|继续前往步驟 2|向用户显示的视频帧丢失平均百分比。 其中包括从网络丢失恢复的帧。|
-|2|VBSS Frame Rate Avg|<2|差|好|继续前往步驟 3|在会话持续期间计算而得到的视频流每秒接收的平均帧数。|
-|3|VBSS Post FECPLR|> 0.15|差|好|未经分类|未经分类|应用 FEC 后，跨所有视频流和编解码器汇总的丢包率。|
+|1|Video Local Frame Loss Percentage Avg|> 50% |差|好|继续前往步驟 2|向用户显示的视频帧丢失平均百分比。 其中包括从网络丢失恢复的帧。|
+|2|Video Frame Rate Avg|<2|差|好|继续前往步驟 3|在会话持续期间计算得到的视频流每秒接收的平均帧数。|
+|3|Video Post FECPLR|> 0.15|差|好|未经分类|应用 FEC 后，跨所有视频流和编解码器汇总的丢包率。|
 
 ### <a name="application-sharing-classifier"></a>应用程序共享分类器
 
@@ -72,7 +72,7 @@ VBSS 流根据第一个可用指标的值按以下顺序标记为“好”或“
 |:-----|:-----|:-----|
 |Spoiled Tile Percent Total|> 36|没有被发送到远程对等点（例如，从 MCU 到查看器）而被丢弃的图块的百分比。 丢弃 (spoiled) 图块可能是由于客户端与服务器之间的带宽限制所致。|
 |AppSharing RDP Tile Processing Latency Average|> 400|在会议服务器上处理 RDP 堆栈图块的平均延迟，以毫秒为单位。|
-|AppSharing Relative OneWay Average|> 1.75|终结点之间的应用程序共享流的相对单向平均延迟，以毫秒为单位。|
+|AppSharing Relative OneWay Average|> 1.75|端点之间的应用程序共享流的相对单向平均延迟，以毫秒为单位。|
 
 ## <a name="unclassified-streams"></a>未经分类的流
 
