@@ -3,19 +3,18 @@ title: Skype for Business Server 2015 中持久聊天服务器的硬件和软件
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 摘要： 阅读本主题可了解有关硬件和软件要求对于 Persistent Chat Server in Skype 业务服务器 2015年。
-ms.openlocfilehash: 8db3bda71cb27ec059dcf4c73f8d4754ffcb8b2d
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 4daf53219937a4ffcfee0e51d80cffb7f1626cf5
+ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246654"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "20363928"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中持久聊天服务器的硬件和软件要求
  
@@ -61,7 +60,7 @@ ms.locfileid: "20246654"
   
 在数据库服务器上，确保安装了以下软件应用程序之一：
 
-- Microsoft SQL Server 2016，并且您必须运行与 Skype 业务 Server 累积更新 7 或更高版本。 我们建议将运行 SQL Server 2016 带有最新的 service pack。 有关如何安装 Microsoft SQL Server 2016 的详细信息，请参阅[安装 SQL Server 2016](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016)。
+- Microsoft SQL Server 2014，并且您必须运行与 Skype 业务 Server 累积更新 6 或更高版本。 我们建议最新的 service pack 运行 SQL Server 2014。 有关如何安装 Microsoft SQL Server 2014 的详细信息，请参阅[安装 SQL Server 2014](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014)。
 
 - Microsoft SQL Server 2012 （64 位版本），以及我们建议最新的 service pack 的运行。 有关如何安装 Microsoft SQL Server 2012 的详细信息，请参阅[安装 SQL Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=248559)。
 

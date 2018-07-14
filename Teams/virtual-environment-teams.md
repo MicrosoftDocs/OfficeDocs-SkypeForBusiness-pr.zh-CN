@@ -3,7 +3,7 @@ title: 在虚拟环境中运行的 Microsoft 团队
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/12/2018
+ms.date: 07/13/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d00ee6a3c14b5a1bb97685124293b13977c323af
-ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
+ms.openlocfilehash: 08a82c2450d238a59d7e076ceb95368c3dce91e2
+ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20328726"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "20363920"
 ---
 <a name="run-microsoft-teams-in-a-virtual-environment"></a>在虚拟环境中运行的 Microsoft 团队
 ============================================
@@ -55,7 +55,7 @@ ms.locfileid: "20328726"
 \>> *导入 PSSession $sfboSession*<br>
 3.  查看的调用策略选项的列表：<br>
 \>> *Get CsTeamsCallingPolicy*
-4.  查找其中禁用所有会议策略前 canned 选项：<br>
+4.  查找其中禁用所有呼叫策略前 canned 选项：<br>
 ![与禁用的所有会议策略的会议选项的屏幕截图。](media/virtual-environment-image2.png)
 5.  适用于所有用户都将使用团队虚拟化环境中的"DisallowCalling"前 canned 的策略选项：<br>
 \>> *授予 CsTeamsMeetingPolicy PolicyName AllOff-Identity"用户电子邮件 id"*

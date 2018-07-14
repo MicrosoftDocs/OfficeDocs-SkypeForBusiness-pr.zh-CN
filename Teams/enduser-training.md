@@ -10,12 +10,12 @@ ms.reviewer: lolaj, ninadara
 description: 为了成功部署和采用 Microsoft Teams，管理员可以使用的培训资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12c490717f0b2b6242735a01bd4e420588b3b06f
-ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
+ms.openlocfilehash: 95841fe18e8435d319c4f1c5e5e7c5754a46d0c6
+ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "20266105"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "20361127"
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams 的最终用户培训
 =====================================
@@ -33,9 +33,8 @@ ms.locfileid: "20266105"
 | [YouTube 上的 Microsoft Teams 频道](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
 | [YouTube 上云频道中的增补内容](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |方法、最佳实践和功能介绍视频  |
 | Microsoft Teams 简介   | <iframe width="350" height="200" src="https://www.youtube.com/embed/GPmjfqnvuG4" frameborder="0" allowfullscreen></iframe>   |
-| 面向教育机构的 Microsoft 团队简介  | <iframe width="350" height="200" src="https://youtu.be/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
-| 只需 5 分钟即可设置很有用的 Teams、频道和选项卡   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
-| 向您的 Microsoft 团队的来宾广泛的协作  | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   |
-| 加快您协作-使用中的 Microsoft 团队的命令栏  | <iframe width="350" height="200" src="https://www.youtube.com/embed/wYrRCRphrp0" frameborder="0" allowfullscreen></iframe>   |
+| 面向教育机构的 Microsoft 团队简介  | <iframe width="350" height="200" src="https://youtube.com/embed/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
+
+|5 分钟至设置出色的工作组、 通道和选项卡 | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | |广泛的协作来宾向您的 Microsoft 团队 | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | |加快您协作-使用中的 Microsoft 团队的命令栏 | <iframe width="350" height="200" src="https://www.youtube.com/embed/wYrRCRphrp0" frameborder="0" allowfullscreen></iframe>   |
 
 
