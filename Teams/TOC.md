@@ -122,7 +122,7 @@
 
 
 <!-- ============================================================ -->
-# 使用 Office 365 Interopearability
+# 与 Office 365 的互操作性
 ## [迁移和 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
 ## [设置您共存并升级设置](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 组和 Teams](office-365-groups.md)
@@ -165,6 +165,11 @@
 ### [团队云会议录制](cloud-recording.md)
 ### [在 Outlook 中使用 Teams 会议外接程序](teams-add-in-for-outlook.md)
 ### [设置会议迁移服务 (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+### Live 事件
+#### [什么是团队 live 事件？](what-are-teams-live-events.md)
+
+
+
 ## 应用和服务
 ### [Teams 中适用于应用的管理设置](admin-settings.md)
 ### [在 Teams 中为私人聊天和频道添加聊天机器人](add-bots.md)
