@@ -1,7 +1,7 @@
 ---
 title: 已知的问题
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文讨论有关 Skype 会议室系统 v2，按功能区域的已知的问题。
-ms.openlocfilehash: 2fde12d616260963dc342df2d9cef94acf616756
-ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
+ms.openlocfilehash: 2880cdfd2098a0c6ac63e5aab8157e76381943f6
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19881540"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20412309"
 ---
 # <a name="known-issues"></a>已知的问题 
  
@@ -24,7 +24,7 @@ ms.locfileid: "19881540"
 <a name="update"> </a>  
 ## <a name="update"></a>更新 
 
-| 问题标题 |  行为\/症状 | 已知的解决方法 | 知识库文章 |
+| 问题标题 |  行为\/症状 | 已知解决方法 | 知识库文章 |
 |  ---        |      ---             |   ---            | --- |
 |  过期的应用程序         |    Skype 会议室系统 v2 控制台将显示"系统配置过期"错误。                |   [使用 Skype 会议室系统 v2 恢复工具](recovery-tool.md)             |  无 |
 
@@ -32,7 +32,7 @@ ms.locfileid: "19881540"
 <a name="OS-conflicts"> </a>  
 ## <a name="user-interface"></a>用户界面 
 
-| 问题标题 |  行为\/症状 | 已知的解决方法 | 知识库文章 |
+| 问题标题 |  行为\/症状 | 已知解决方法 | 知识库文章 |
 |  ---        |      ---             |   ---            | --- |
 |虚拟键盘缺少   | 当您需要在 Skype 会议室系统 v2 中输入信息时，不显示虚拟键盘。 在其运行 Skype 会议室系统 v2 Surface Pro 4 上安装 Windows 10 创建者更新 （版本 1703年） 后，将发生此问题。 | 若要解决此问题，请手动打开虚拟键盘。 若要执行此操作，请按照以下步骤：<br><br> **1。** 点击和保留任务栏，然后点击**显示触摸键盘**按钮。 键盘图标应显示在任务条形图的右侧。 <br><br> **2。** 点击键盘图标以打开虚拟键盘。 | [KB4037694](https://support.microsoft.com/en-us/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
    
@@ -40,7 +40,7 @@ ms.locfileid: "19881540"
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>硬件
 
-| 问题标题 |  行为\/症状 | 已知的解决方法 | 知识库文章 |
+| 问题标题 |  行为\/症状 | 已知解决方法 | 知识库文章 |
 |  ---        |      ---             |   ---            |   --- |
 | 未检测到的监视器 | 当您运行 Surface Pro (模型 2017) 设备上的 Skype 会议室系统 v2 时，监视器未检测到。 |  20 个或多个秒钟按住 Surface Pro 电源按钮。 这样做，设备会重新启动，并清除图形缓存。 |[KB4055681](https://support.microsoft.com/en-us/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
           
