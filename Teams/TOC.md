@@ -18,6 +18,7 @@
 ## [在 Teams 中创建团队时规划 Office 365 组](plan-office-365-groups.md)
 ## [创建更改管理策略](change-management-strategy.md)
 ## [获取工具以支持 Teams 部署](rollout-tools.md)
+## [Microsoft 365 政府版-GCC 部署规划](plan-for-government-gcc.md)
 <!-- ============================================================ -->
 
 
@@ -95,20 +96,7 @@
 <!-- ============================================================ -->
 
 
-<!-- 
-# [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
-## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
-### [1.1 - Environmental Discovery for Microsoft Teams Rollout](environmental-discovery-for-microsoft-teams-rollout.md)
-## [2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
-### [2.1 - Select users for your Teams pilot](select-users-for-your-teams-pilot.md)
-## [3 - Understand coexistence and upgrade modes for Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [3.1 - Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-## [4 - Drive value through user adoption](continue-journey.md)
-## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
-## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
- -->
-
-<!-- NEW ============================================================ -->
+<!-- ============================================================ -->
 # [从 for Business 的 Skype 升级到 Microsoft 团队](Journey-SkypeforBusiness-Teams.md)
 ## [教程：从 Skype for Business 到 Teams 的旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [升级基本](upgrade-basic.md)
@@ -140,7 +128,7 @@
 ### [增强您的服务](upgrade-enhance-my-service.md)
 ## [常见问题](FAQ-journey.md)
 
-<!-- END NEW ============================================================ -->
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # 安全性和合规性
@@ -206,7 +194,7 @@
 ## 应用和服务
 ### [Teams 中适用于应用的管理设置](admin-settings.md)
 ### [在 Teams 中为私人聊天和频道添加聊天机器人](add-bots.md)
-### [应用程序发布到团队的专用应用程序商店](tenant-apps-catalog-teams.md)
+### [将应用程序发布到团队租户的应用程序目录](tenant-apps-catalog-teams.md)
 ### [在 Teams 中使用内置选项卡和自定义选项卡](built-in-custom-tabs.md)
 ### [在 Teams 中使用 Office 365 和自定义连接器](office-365-custom-connectors.md)
 ### [使用 T-Bot 为用户提供 Teams 方面的帮助](t-bot.md)

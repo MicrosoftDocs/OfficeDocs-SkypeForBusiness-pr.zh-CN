@@ -1,7 +1,7 @@
 ---
 title: 发行说明
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,11 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文讨论中 Skype 会议室系统 v2 累积改进。
-ms.openlocfilehash: 3c8c314000fddf78f9247efaefa989f586c1e7b4
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: bd99a4c3772836d6352228bfd90cecd592af557f
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20412323"
 ---
 # <a name="release-notes"></a>发行说明 
 
@@ -97,8 +98,7 @@ Introduced in this update:
 - 提供反馈的公共生成的功能     
 - 改进了的遥测周围会议加入可靠性     
 - 报告的其他 OMS     
-- IT 管理员来远程配置设备的功能 
-    <!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
+- IT 管理员来远程配置设备的功能<!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
 
 
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
@@ -139,8 +139,6 @@ Introduced in this update:
 <a name="See"> </a>  
 ## <a name="see-also"></a>另请参阅
 
-
-#### 
 [Skype 会议室系统版本 2 帮助](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [业务环境准备您的 Skype](srs-v2-prep.md)

@@ -1,5 +1,5 @@
 ---
-title: Users can make outbound calls to these countries and regions
+title: 用户可以拨打到这些国家和地区的出站电话
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,19 +19,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: This topic contains all of the countries/regions that users can place outbound calls to if they have a Calling Plan.
-ms.openlocfilehash: bd8ce62b5f1d5c8b032503a045e40c72bbe5d00b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 本主题包含所有用户可以发起出站调用，如果拥有调用规划国家/地区。
+ms.openlocfilehash: 036fd70b067d461505c4fccf83fe1e4b5a5c408f
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20409368"
 ---
-# <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Users can make outbound calls to these countries and regions
+# <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>用户可以拨打到这些国家和地区的出站电话
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-a-domestic-or-domestic-and-international-calling-plan-license"></a>See what countries/regions users can make outbound calls to if the user has a Domestic or Domestic and International Calling Plan license
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-a-domestic-or-domestic-and-international-calling-plan-license"></a>请参阅国家/地区内用户可以发起出站呼叫到，如果用户具有一个国内或国内和国际呼叫规划许可证
 
-
-|**A - D**| **E - H**|**I - L**|**M - O**|**P - S**|**T - Z**|
+|**A-D**| **E-H**|**我-L**|**M-O**|**P-S**|**T-Z**|
 ---|---|---|---|---|---|
 |阿富汗|厄瓜多尔 |冰岛 |澳门特别行政区 |巴基斯坦 |台湾   |
 |阿尔巴尼亚|埃及 |印度 |马其顿 |帕劳 |塔吉克斯坦   |
@@ -60,8 +60,8 @@ ms.lasthandoff: 04/18/2018
 |玻利维亚 |圭亚那| |新喀里多尼亚 |斯洛文尼亚 |津巴布韦 |
 |波斯尼亚和黑塞哥维那 |海地 ||新西兰 |南非 | 
 |博茨瓦纳 |洪都拉斯 ||尼加拉瓜 |西班牙 |
-|Bazil |香港特别行政区 ||尼日尔 |斯里兰卡 | 
-|Bunei Darussalam |匈牙利 ||尼日利亚 |圣皮埃尔和密克隆群岛 | 
+|巴西 |香港特别行政区 ||尼日尔 |斯里兰卡 | 
+|Bunei 达鲁萨兰 |匈牙利 ||尼日利亚 |圣皮埃尔和密克隆群岛 | 
 |保加利亚 |||北马里亚纳群岛 |苏丹 |
 |布基纳法索 |||挪威 |苏里南 |
 |柬埔寨 |||阿曼 |斯威士兰 | 

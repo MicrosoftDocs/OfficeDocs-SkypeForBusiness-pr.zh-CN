@@ -11,12 +11,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aae2fb4118a5069c7f1f85a90326ec9c158037db
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: eed2f652ae91c8f6c5296fc558d5008fb0e5e607
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569594"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20409309"
 ---
 <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 ==================================
@@ -28,7 +28,7 @@ ms.locfileid: "19569594"
 
 |  |  |
 |---------|---------|
-| [教程：从 Skype for Business 到 Teams 的旅程](tutorial-journey-skypeforbusiness-to-teams.yml) |浏览你需要了解的有关从 Skype for Business Online 到 Teams 的旅程的所有内容。  |
+| [教程： 从 Skype for Business 到升级的 Microsoft 团队](tutorial-journey-skypeforbusiness-to-teams.yml) |指导您完成要了解有关升级到团队从 Skype 业务 online 所需的所有。  |
 | [教程： 团队中的音频会议](Tutorial-Audio-Conferencing.yml) | 此交互式培训指导您完成团队中的音频会议。 |
 | [快速入门： 对于教育管理员的 Microsoft 团队](teams-quick-start-edu.yml) |供教育版 IT 管理员在你的整个组织内部署 Teams。   |
 | [快速入门： 在 Microsoft 团队中配置调用计划](configuring-teams-calling-quickstartguide.md)| 有关在 Teams 中配置通话套餐的快速入门指南。 |
