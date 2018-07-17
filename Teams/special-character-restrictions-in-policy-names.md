@@ -17,26 +17,93 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - me.teamsadmincenter.policies.naming.error
 description: 请参阅有与特殊字符的策略和解决办法可以执行的操作的名称中哪些问题。
-ms.openlocfilehash: 7d835669f0acc7cd2a2e42acb1aa9fa9d2fdf765
-ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
+ms.openlocfilehash: 4ddd6a618c42f629acd64162ad608aede6b1819f
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "20205075"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20397086"
 ---
-# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a><span data-ttu-id="311c5-103">什么是团队策略中的特殊字符限制？</span><span class="sxs-lookup"><span data-stu-id="311c5-103">What are the special character restrictions in Teams policies?</span></span>
+# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a><span data-ttu-id="3eb2a-103">什么是团队策略中的特殊字符限制？</span><span class="sxs-lookup"><span data-stu-id="3eb2a-103">What are the special character restrictions in Teams policies?</span></span>
 
-<span data-ttu-id="311c5-104">**虽然可以使用 PowerShell 创建团队策略使用特殊字符，您将在管理这些策略限制。 因此，我们强烈建议策略名称不包含特殊字符。**</span><span class="sxs-lookup"><span data-stu-id="311c5-104">**Although special characters can be used for creating Teams policies with PowerShell, you will be limited in managing these policies .  As such, we strongly recommend policy names do not include special characters.**</span></span>
+<span data-ttu-id="3eb2a-104">**您无法创建或编辑 Business Admin Center 中的 Microsoft 团队和 Skype 的名称中具有特殊字符的策略 （对于消息、 会议、 等）。**</span><span class="sxs-lookup"><span data-stu-id="3eb2a-104">**You can't create or edit policies (for messaging, meetings, etc.) that have a special character in the name in the Microsoft Teams and Skype for Business Admin Center.**</span></span> 
 
-<span data-ttu-id="311c5-105">策略名称创建会议使用 PowerShell 和聊天中团队可以如具有特殊字符 @，#、 $。</span><span class="sxs-lookup"><span data-stu-id="311c5-105">Policy names that you create using PowerShell for meetings and chat in Teams can have special characters such as @,#,$.</span></span> <span data-ttu-id="311c5-106">但是，如果您希望编辑业务管理中心中的 Microsoft 团队和 Skype 的策略，将看不到。</span><span class="sxs-lookup"><span data-stu-id="311c5-106">However, if you are wanting to edit the policy in the Microsoft Teams and Skype for Business admin center, you won't be able to.</span></span> <span data-ttu-id="311c5-107">您必须使用 Windows PowerShell 和正确的策略 cmdlet 进行更改。</span><span class="sxs-lookup"><span data-stu-id="311c5-107">You must use Windows PowerShell and the correct policy cmdlet to make changes.</span></span>
+<span data-ttu-id="3eb2a-105">如果某个策略名称包含特殊字符，您将在管理中的 Microsoft 团队和业务管理中心的 Skype 这些策略限制。</span><span class="sxs-lookup"><span data-stu-id="3eb2a-105">If a policy name contains special characters, you will be limited in managing these policies in the Microsoft Teams and Skype for Business Admin Center.</span></span> <span data-ttu-id="3eb2a-106">**因此，我们强烈建议策略名称不包含特殊字符**。</span><span class="sxs-lookup"><span data-stu-id="3eb2a-106">**As such, we strongly recommend that policy names don't include special characters**.</span></span> 
 
-<span data-ttu-id="311c5-108">如果您具有特殊字符的策略对象和您想要移除的特殊字符，以便更好地管理业务管理中心中的 Microsoft 团队和 Skype 的策略，您将需要使用以下过程。</span><span class="sxs-lookup"><span data-stu-id="311c5-108">If you have a policy object with special characters and you want to remove the special characters in order to better manage the policy in the Microsoft Teams and Skype for Business admin center, you will need to use the below procedure.</span></span> 
+<span data-ttu-id="3eb2a-107">使用 PowerShell 的会议和消息团队可以如具有特殊字符已创建的策略名称 @，#、 $。</span><span class="sxs-lookup"><span data-stu-id="3eb2a-107">Policy names that have been created using PowerShell for meetings and messaging in Teams can have special characters such as @,#,$.</span></span> <span data-ttu-id="3eb2a-108">但是，如果您想对中的 Microsoft 团队和 Skype 业务管理中心的策略进行更改，将看不到。</span><span class="sxs-lookup"><span data-stu-id="3eb2a-108">However, if you are wanting to make changes to the policy in the Microsoft Teams and Skype for Business Admin Center,you won't be able to.</span></span> 
 
-<span data-ttu-id="311c5-109">注意： 明确提出的过程在此处使用的消息策略的示例。</span><span class="sxs-lookup"><span data-stu-id="311c5-109">Note: The procedure articulated here uses the example of a Messaging policy.</span></span>  <span data-ttu-id="311c5-110">通过 subsituting 相关的 cmdlet，将为另一种策略类型 （例如会议） 使用相同的过程。</span><span class="sxs-lookup"><span data-stu-id="311c5-110">The same process would be used for another policy type (Meetings for example) by subsituting the relevant cmdlets.</span></span> 
+<span data-ttu-id="3eb2a-109">如果必须具有特殊字符的策略，您将需要编辑策略使用 Windows PowerShell （始终） 或创建新策略中的 Microsoft 团队和业务管理中心的 Skype 与旧策略相同的设置和将其分配给同一分组p 的用户。</span><span class="sxs-lookup"><span data-stu-id="3eb2a-109">If you have a policy with special characters, you will need to either edit the policy using Windows PowerShell (forever) or create a new policy in the Microsoft Teams and Skype for Business Admin Center with the same settings as the old policy and assign it to the same group of users.</span></span>
 
-<span data-ttu-id="311c5-111">1) 调用 Get-CSMessagingPolicy-identity < old_policy_name > 和捕获的策略的输出。</span><span class="sxs-lookup"><span data-stu-id="311c5-111">1.) Call Get-CSMessagingPolicy -identity <old_policy_name> and capture the output of the policy.</span></span>
-<span data-ttu-id="311c5-112">2)。 呼叫设置 CSMessagingPolicy-identity < new_policy_name > 具有相同的配置的原始策略但不包含任何特殊字符，在名称中创建新策略。</span><span class="sxs-lookup"><span data-stu-id="311c5-112">2.) Call Set-CSMessagingPolicy -identity <new_policy_name> to create a new policy with the same configuration as the original policy but without any special characters in the name.</span></span>
-<span data-ttu-id="311c5-113">3)。 呼叫删除 CSMessagingPolicy-要删除的策略的标识 < old_policy_name >。</span><span class="sxs-lookup"><span data-stu-id="311c5-113">3.) Call Delete-CSMessagingPolicy -identity <old_policy_name> to delete the policy.</span></span>  <span data-ttu-id="311c5-114">如果此命令成功执行，在您完成，并可以开始将用户分配给业务管理中心的使用 PowerShell 或 Microsoft 团队和 Skype 的新策略。</span><span class="sxs-lookup"><span data-stu-id="311c5-114">If this command succeeds, you're done and can begin to assign users to the new policy using either PowerShell or the Microsoft Teams and Skype for Business admin center.</span></span>
-<span data-ttu-id="311c5-115">4。) 如果以上命令不成功，这是因为旧策略已分配给用户。</span><span class="sxs-lookup"><span data-stu-id="311c5-115">4.) If the above command does not succeed, it is because the old policy has been assigned to a user.</span></span>  <span data-ttu-id="311c5-116">运行取消分配 cmdlet，以取消该策略分配给用户，分配新的策略，然后再次运行 dwlete。</span><span class="sxs-lookup"><span data-stu-id="311c5-116">Run unassign cmdlet to unassign the policy from user, assign new policy, then run dwlete again.</span></span>
+## <a name="to-remove-special-characters"></a><span data-ttu-id="3eb2a-110">若要删除特殊字符</span><span class="sxs-lookup"><span data-stu-id="3eb2a-110">To remove special characters</span></span>
 
 
+
+<span data-ttu-id="3eb2a-111">**步骤 1 – 进行远程 powershell 连接。**
+如果尚未尚未[设置您的计算机的 Windows PowerShell](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 。</span><span class="sxs-lookup"><span data-stu-id="3eb2a-111">**Step 1 - Make a remote connection with PowerShell.**
+[Set up your computer for Windows PowerShell](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) if you haven't yet.</span></span>
+```
+ Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+ $credential = Get-Credential
+ $session = New-CsOnlineSession -Credential $credential
+ Import-PSSession $session
+```
+
+
+<span data-ttu-id="3eb2a-112">**步骤 2-获取旧策略设置和捕获输出。**</span><span class="sxs-lookup"><span data-stu-id="3eb2a-112">**Step 2 - Get the settings for the old policy and capture the output.**</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="3eb2a-113">此示例适用于[消息](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps)策略。</span><span class="sxs-lookup"><span data-stu-id="3eb2a-113">This example is for a [Messaging](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) policy.</span></span>  <span data-ttu-id="3eb2a-114">步骤是其他策略类型相同，但您必须使用正确的 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="3eb2a-114">The steps would be the same for other policy types but you must use the correct cmdlet.</span></span> 
+
+  ```
+  Get-CsTeamsMessagingPolicy -id <old_policy_name>
+  ```
+
+
+<span data-ttu-id="3eb2a-115">**步骤 3-创建新的策略。**</span><span class="sxs-lookup"><span data-stu-id="3eb2a-115">**Step 3 - Create a new policy.**</span></span>
+
+<span data-ttu-id="3eb2a-116">您可以使用相同的设置用于业务管理中心或 PowerShell 的 Microsoft 团队和 Skype 创建新策略。</span><span class="sxs-lookup"><span data-stu-id="3eb2a-116">You can either create the new policy with the same setting using the Microsoft Teams and Skype for Business Admin Center or PowerShell.</span></span>
+
+<span data-ttu-id="3eb2a-117">运行此会为您创建新策略，但您需要通过查看[设置 CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) ，然后运行它添加正确设置：</span><span class="sxs-lookup"><span data-stu-id="3eb2a-117">Running this will create a new policy for you but you will need to add the correct settings by seeing [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) and then running it:</span></span>
+
+  ```
+  Set-CsTeamsMessagingPolicy -id <new_policy_name>
+ ```
+<span data-ttu-id="3eb2a-118">**步骤 4-将策略分配。**</span><span class="sxs-lookup"><span data-stu-id="3eb2a-118">**Step 4 - Assign the policy.**</span></span>
+ ```
+Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
+ ```
+<span data-ttu-id="3eb2a-119">请参阅[授予 CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps)有关此 cmdlet 的详细信息。</span><span class="sxs-lookup"><span data-stu-id="3eb2a-119">See, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) for more information on this cmdlet.</span></span>
+
+<span data-ttu-id="3eb2a-120">**步骤 5-删除旧的策略。**</span><span class="sxs-lookup"><span data-stu-id="3eb2a-120">**Step 5 - Delete the old policy.**</span></span>
+
+<span data-ttu-id="3eb2a-121">这将删除特殊字符的旧策略。</span><span class="sxs-lookup"><span data-stu-id="3eb2a-121">This will delete the old policy with the special characters.</span></span>
+  ```
+  Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
+  ```
+<span data-ttu-id="3eb2a-122">请参阅[删除 CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps)有关此 cmdlet 的详细信息。</span><span class="sxs-lookup"><span data-stu-id="3eb2a-122">See, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) for more information on this cmdlet.</span></span>
+
+<span data-ttu-id="3eb2a-123">如果此命令成功执行，即已完成。</span><span class="sxs-lookup"><span data-stu-id="3eb2a-123">If this command succeeds, you're done.</span></span> <span data-ttu-id="3eb2a-124">如果上述命令将返回错误，这是因为旧策略分配给用户，因此您需要运行以从策略中删除所有已分配的用户：</span><span class="sxs-lookup"><span data-stu-id="3eb2a-124">If the above command returns an error, it is because the old policy is assigned to users so you need to run to remove all assigned users from the policy:</span></span>
+
+```
+Grant-CsMessagingPolicy -Policy <old_policy_name> $null
+```
+### <a name="want-to-know-how-to-manage-with-windows-powershell"></a><span data-ttu-id="3eb2a-125">想知道如何使用 Windows PowerShell 进行管理吗？</span><span class="sxs-lookup"><span data-stu-id="3eb2a-125">Want to know how to manage with Windows PowerShell?</span></span>
+
+<span data-ttu-id="3eb2a-p105">Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：</span><span class="sxs-lookup"><span data-stu-id="3eb2a-p105">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
+    
+  - [<span data-ttu-id="3eb2a-129">为什么需要使用 Office 365 PowerShell？</span><span class="sxs-lookup"><span data-stu-id="3eb2a-129">Why you need to use Office 365 PowerShell?</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+    
+  - [<span data-ttu-id="3eb2a-130">使用 Windows PowerShell 管理 Office 365 的最佳方式</span><span class="sxs-lookup"><span data-stu-id="3eb2a-130">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+    
+- <span data-ttu-id="3eb2a-131">Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过只使用 Office 365 管理中心中的，如时要进行设置更改多个用户一次。</span><span class="sxs-lookup"><span data-stu-id="3eb2a-131">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making settings changes for many users at one time.</span></span> <span data-ttu-id="3eb2a-132">请在以下主题中了解这些优点：</span><span class="sxs-lookup"><span data-stu-id="3eb2a-132">Learn about these advantages in the following topics:</span></span>
+    
+  - [<span data-ttu-id="3eb2a-133">Windows PowerShell 和 Skype for Business Online 简介</span><span class="sxs-lookup"><span data-stu-id="3eb2a-133">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
+    
+    [<span data-ttu-id="3eb2a-134">使用 Windows PowerShell 管理 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="3eb2a-134">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
+    
+  - [<span data-ttu-id="3eb2a-135">使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务</span><span class="sxs-lookup"><span data-stu-id="3eb2a-135">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
+    
+    > [!NOTE]
+    > <span data-ttu-id="3eb2a-136">Skype 业务 online 的 Windows PowerShell 模块使您能够创建了业务 Online 和 Microsoft 团队连接到 Skype 远程 Windows PowerShell 会话。</span><span class="sxs-lookup"><span data-stu-id="3eb2a-136">The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online and Microsoft Teams.</span></span> <span data-ttu-id="3eb2a-137">此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。</span><span class="sxs-lookup"><span data-stu-id="3eb2a-137">This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)</span></span>
+  
+### <a name="related-topics"></a><span data-ttu-id="3eb2a-138">相关主题</span><span class="sxs-lookup"><span data-stu-id="3eb2a-138">Related topics</span></span>
