@@ -3,7 +3,7 @@ title: 曲面集线器部署的 Microsoft 团队
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/10/2018
+ms.date: 07/16/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfd9e5fd267de180907c2ea41c53541c08ff28b7
-ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
+ms.openlocfilehash: abb049c0185fa52b804c893d6f7abf73a1a902ab
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "20266935"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20397060"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>曲面集线器部署的 Microsoft 团队
 ======================================
@@ -193,7 +193,7 @@ Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
 |设置   |值    |
 |----------|---------|
 |路径      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
-|数据类型 | 字符串 （作为- **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe 团队应用程序包 ID 设置字符串 ！团队**) |
+|数据类型 | 字符串-团队应用程序包 ID 为**Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe 设置字符串 ！团队** |
 |运营| 获取、 设置        |
 
 重新启动面集线器设备。 设备重新启动后，您应该能够从开始屏幕中启动团队应用程序并从日历加入会议。

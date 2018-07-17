@@ -95,19 +95,52 @@
 <!-- ============================================================ -->
 
 
-<!-- ============================================================ -->
-# [从 Skype for Business 到 Teams 的旅程](Journey-SkypeforBusiness-Teams.md)
-## [1 - 针对 Teams 优化你的当前 Skype for Business 环境](prepare-teams.md)
-### [1.1-的 Microsoft 团队推出环境发现](environmental-discovery-for-microsoft-teams-rollout.md)
-## [2 - 在使用 Skype for Business 的同时试用 Teams](pilot-essentials.md)
-### [2.1-选择您的团队试生产用户](select-users-for-your-teams-pilot.md)
-## [3-了解共存和业务和团队的 Skype 升级模式](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [3.1-团队和 Skype 的业务共存及互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-## [4 - 通过用户采用推动价值](continue-journey.md)
-## [常见问题解答 - Skype for Business 和 Teams 愿景](FAQ-journey.md)
-## [教程：从 Skype for Business 到 Teams 的旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-<!-- ============================================================ -->
+<!-- 
+# [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
+## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
+### [1.1 - Environmental Discovery for Microsoft Teams Rollout](environmental-discovery-for-microsoft-teams-rollout.md)
+## [2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
+### [2.1 - Select users for your Teams pilot](select-users-for-your-teams-pilot.md)
+## [3 - Understand coexistence and upgrade modes for Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [3.1 - Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+## [4 - Drive value through user adoption](continue-journey.md)
+## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
+## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+ -->
 
+<!-- NEW ============================================================ -->
+# [从 for Business 的 Skype 升级到 Microsoft 团队](Journey-SkypeforBusiness-Teams.md)
+## [教程：从 Skype for Business 到 Teams 的旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [升级基本](upgrade-basic.md)
+### [示例电子邮件和调查](upgrade-emails-surveys.md)
+## [升级专业人员](upgrade-pro.md)
+## [规划您升级旅程](upgrade-plan-journey.md)
+### [登记项目利益干系人](upgrade-enlist-stakeholders.md)
+### [定义您的项目范围](upgrade-define-project-scope.md)
+### [了解共存及互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [规划质量](upgrade-plan-for-quality.md)
+## [为团队准备环境](upgrade-prepare-environment.md)
+### [准备团队 IT 人员](upgrade-prepare-IT-pros.md)
+### [先决条件](upgrade-plan-journey-prerequisites.md)
+### [评估环境](upgrade-plan-journey-evaluate-environment.md)
+### [准备您的网络](upgrade-prepare-environment-prepare-network.md)
+### [准备您的服务](upgrade-prepare-environment-prepare-service.md)
+## [准备您的组织团队](upgrade-prepare-organization.md)
+### [评估组织更改准备情况](upgrade-org-change-readiness.md)
+### [准备用户就绪性计划](upgrade-user-readiness.md)
+## [召开用户试生产](pilot-essentials.md)
+## [执行升级到团队](upgrade-to-teams.md)
+### [从联机业务的 Skype 升级到团队](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+### [从 Skype 业务混合升级，向工作组](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
+### [从升级 Skype 业务本地到团队](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
+## [通过用户采用驱动器值](continue-journey.md)
+### [运行您的服务](upgrade-operate-my-service.md)
+### [监视质量](upgrade-monitor-quality.md)
+### [增强您的服务](upgrade-enhance-my-service.md)
+## [常见问题](FAQ-journey.md)
+
+<!-- END NEW ============================================================ -->
 
 <!-- ============================================================ -->
 # 安全性和合规性

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: 本文汇总了支持 Skype 会议室系统 v2 的要求。
-ms.openlocfilehash: 6b31c9bc69fd9329902ca3eb2b77b8883b3b58bb
-ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
+ms.openlocfilehash: 8c473ee6d1d94b2f382c43ad1383546a69138781
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "20176182"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20397145"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype 会议室系统 v2 要求
  
@@ -123,20 +123,13 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
 
 ## <a name="required-software-downloads"></a>需要下载的软件
 
-您将需要以下下载构建您自己的 Skype 会议室系统 v2 图像：
-  
-- [Skype 会议室系统 v2 安装包](https://go.microsoft.com/fwlink/?linkid=851168)。
-    
-- 获取 Windows 10 企业 Creator 更新 （英语、 生成 1703年） 的 64 位版本的副本。 
-    
+若要构建您自己的 Skype 会议室系统 v2 图像，按照中[配置的 Skype 会议室系统 v2 控制台](../../deploy/deploy-clients/console.md)的说明。 这些说明将指导您完成下载所有必需的软件安装过程。 
+
     > [!NOTE]
-    > 从 Skype 会议室系统 v2 版本 3.0.12.0 （更新 3） 不再支持 64 位版本的 Windows 10 企业周年日 edition （英语、 版本 1607年）。 
-  
-- 支持的[Surface Pro 4 驱动程序](https://go.microsoft.com/fwlink/?linkid=856887)或[Surface Pro 驱动程序](https://go.microsoft.com/fwlink/?linkid=856888)。
-    
-这些下载需要以特定方式合并为可引导的 Windows 安装媒体磁盘中所述进一步[配置的 Skype 会议室系统 v2 控制台](../../deploy/deploy-clients/console.md)。 
-  
+    > IT professionals will need access to Windows 10 Enterprise ISO files through their volume licensing agreement.
+
 此外，您可能需要一份[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，通常用于设置 Skype 会议室系统 v2 帐户。
+
   
 ## <a name="see-also"></a>另请参阅
 
