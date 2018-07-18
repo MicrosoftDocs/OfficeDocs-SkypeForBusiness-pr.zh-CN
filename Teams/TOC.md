@@ -16,9 +16,10 @@
 ## [Office 365 URL 和 IP 地址范围](office-365-urls-ip-address-ranges.md)
 ## [限制和规格团队](limits-specifications-teams.md)
 ## [在 Teams 中创建团队时规划 Office 365 组](plan-office-365-groups.md)
-## [创建更改管理策略](change-management-strategy.md)
 ## [获取工具以支持 Teams 部署](rollout-tools.md)
 ## [Microsoft 365 政府版-GCC 部署规划](plan-for-government-gcc.md)
+## 推动采纳率
+### [创建更改管理策略](change-management-strategy.md)
 <!-- ============================================================ -->
 
 
