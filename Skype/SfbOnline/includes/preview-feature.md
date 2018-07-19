@@ -1,1 +1,1 @@
-<span data-ttu-id="075cf-101">这是预览版或早期版本功能。</span><span class="sxs-lookup"><span data-stu-id="075cf-101">This is a preview or early release feature.</span></span>
+<span data-ttu-id="9f8d1-101">这是预览版或早期版本功能。</span><span class="sxs-lookup"><span data-stu-id="9f8d1-101">This is a preview or early release feature.</span></span>
