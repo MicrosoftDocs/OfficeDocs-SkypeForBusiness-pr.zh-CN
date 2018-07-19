@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: 本文汇总了支持 Skype 会议室系统 v2 的要求。
-ms.openlocfilehash: e99b425e16bb26ff8fc8f225b703b46224d1f4a4
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 405b7cd6fefd7fb6fbd6168957bbc2b41a83bea8
+ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412274"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "20509533"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype 会议室系统 v2 要求
  
@@ -125,8 +125,8 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
 
 若要构建您自己的 Skype 会议室系统 v2 图像，按照中[配置的 Skype 会议室系统 v2 控制台](../../deploy/deploy-clients/console.md)的说明。 这些说明将指导您完成下载所有必需的软件安装过程。 
 
-    > [!NOTE]
-    > IT professionals will need access to Windows 10 Enterprise ISO files through their volume licensing agreement.
+> [!NOTE]
+> IT 专业人员需要对其的批量许可协议通过 Windows 10 企业 ISO 文件的访问。
 
 此外，您可能需要一份[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，通常用于设置 Skype 会议室系统 v2 帐户。
 
