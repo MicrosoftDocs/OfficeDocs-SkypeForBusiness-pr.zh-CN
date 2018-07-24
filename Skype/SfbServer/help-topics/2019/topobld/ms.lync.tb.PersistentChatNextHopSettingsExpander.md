@@ -3,7 +3,6 @@ title: 持久聊天下一跃点设置扩展器
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,27 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 description: 通过从列表中选择一个前端服务器或前端池配置持久聊天下一个跃点池。
-ms.openlocfilehash: cd7051aac31b185f619e254e0856f7f2af72842e
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: d1734e46b33234b10a61e0e15b3e861e3f5d9915
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026657"
 ---
-# <a name="persistent-chat-next-hop-settings-expander"></a><span data-ttu-id="dbacf-103">持久聊天下一跃点设置扩展器</span><span class="sxs-lookup"><span data-stu-id="dbacf-103">Persistent Chat Next Hop Settings Expander</span></span>
- 
-<span data-ttu-id="dbacf-104">通过从列表中选择一个前端服务器或前端池配置持久聊天**下一个跃点池**。</span><span class="sxs-lookup"><span data-stu-id="dbacf-104">You configure the Persistent Chat **Next hop pool** by selecting a Front End Server or Front End pool from the list.</span></span>
-  
- <span data-ttu-id="dbacf-105">**确定** 接受更改并通过对话框提交更改。</span><span class="sxs-lookup"><span data-stu-id="dbacf-105">**OK** Accepts and commits changes to the dialog.</span></span>
-  
- <span data-ttu-id="dbacf-106">**取消** 放弃更改并关闭对话框。</span><span class="sxs-lookup"><span data-stu-id="dbacf-106">**Cancel** Discards changes and closes the dialog.</span></span>
-  
- <span data-ttu-id="dbacf-107">**帮助** 显示此帮助屏幕。</span><span class="sxs-lookup"><span data-stu-id="dbacf-107">**Help** Displays this help screen.</span></span>
-  
-## <a name="see-also"></a><span data-ttu-id="dbacf-108">另请参阅</span><span class="sxs-lookup"><span data-stu-id="dbacf-108">See also</span></span>
+# <a name="persistent-chat-next-hop-settings-expander"></a><span data-ttu-id="8b19d-103">持久聊天下一跃点设置扩展器</span><span class="sxs-lookup"><span data-stu-id="8b19d-103">Persistent Chat Next Hop Settings Expander</span></span>
 
-#### 
-
-[<span data-ttu-id="dbacf-109">规划持久聊天服务器 Skype 中的业务 Server 2015</span><span class="sxs-lookup"><span data-stu-id="dbacf-109">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[<span data-ttu-id="dbacf-110">向您 Skype 业务服务器 2015年拓扑添加持久聊天服务器</span><span class="sxs-lookup"><span data-stu-id="dbacf-110">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+> [!NOTE] 
+> <span data-ttu-id="8b19d-104">持久聊天中的业务服务器 2015 Skype 可用但业务服务器 2019年不再支持在 Skype。</span><span class="sxs-lookup"><span data-stu-id="8b19d-104">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="8b19d-105">中团队提供了相同的功能。</span><span class="sxs-lookup"><span data-stu-id="8b19d-105">The same functionality is available in Teams.</span></span> <span data-ttu-id="8b19d-106">有关详细信息，请参阅[为 Microsoft 团队业务的 Skype 升级](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams)。</span><span class="sxs-lookup"><span data-stu-id="8b19d-106">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="8b19d-107">如果您需要使用持久聊天，请选择要迁移要求向工作组此功能的用户或继续对业务服务器 2015年使用 Skype。</span><span class="sxs-lookup"><span data-stu-id="8b19d-107">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

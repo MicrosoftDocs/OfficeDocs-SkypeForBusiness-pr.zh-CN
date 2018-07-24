@@ -3,7 +3,7 @@ title: 配置网络站点
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,17 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9d65238a-d255-4b13-abe8-e4301b44c21c
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 5f17cbc434b052126048330b9661b64202c333e5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d7aa58e04cbe66f716972ece76deaa53a9fae8ab
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015049"
 ---
-# <a name="configure-a-network-site"></a><span data-ttu-id="dce1b-104">配置网络站点</span><span class="sxs-lookup"><span data-stu-id="dce1b-104">Configure a Network Site</span></span>
+# <a name="configure-a-network-site"></a><span data-ttu-id="54542-104">配置网络站点</span><span class="sxs-lookup"><span data-stu-id="54542-104">Configure a Network Site</span></span>
  
-<span data-ttu-id="dce1b-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="dce1b-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="54542-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="54542-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="dce1b-107">配置网络站点</span><span class="sxs-lookup"><span data-stu-id="dce1b-107">Configuring Network Sites</span></span>](http://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
+- [<span data-ttu-id="54542-107">配置网络站点</span><span class="sxs-lookup"><span data-stu-id="54542-107">Configuring Network Sites</span></span>](http://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
     
-<span data-ttu-id="dce1b-108">您还可以通过 Skype 业务服务器控件面板的不同过程的详细信息，请参阅[管理的业务服务器 2015年的 Skype](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="dce1b-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="54542-108">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="54542-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
