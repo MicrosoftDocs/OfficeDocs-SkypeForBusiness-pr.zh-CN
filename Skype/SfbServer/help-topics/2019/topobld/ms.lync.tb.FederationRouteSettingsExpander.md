@@ -11,25 +11,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 description: 若要设置站点联盟路由分配，首先必须在边缘服务器或边缘服务器池启用联盟。 如果边缘服务器或池上未启用联盟，则站点联盟路由分配设置将不可用进行修改。
-ms.openlocfilehash: 7933809dc53be713a9a745e2c1fd100e4de1c6b6
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 260a5dd836adb0c2e99d660f134e57a15a257f18
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988283"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986811"
 ---
-# <a name="federation-route-settings-expander"></a><span data-ttu-id="d46bf-104">联盟路由设置扩展器</span><span class="sxs-lookup"><span data-stu-id="d46bf-104">Federation Route Settings Expander</span></span>
+# <a name="federation-route-settings-expander"></a><span data-ttu-id="cc71a-104">联盟路由设置扩展器</span><span class="sxs-lookup"><span data-stu-id="cc71a-104">Federation Route Settings Expander</span></span>
  
-<span data-ttu-id="d46bf-105">若要设置站点联盟路由分配，首先必须在边缘服务器或边缘服务器池启用联盟。</span><span class="sxs-lookup"><span data-stu-id="d46bf-105">To set a site federation route assignment, you must first have federation enabled on the Edge Server or Edge Server pool.</span></span> <span data-ttu-id="d46bf-106">如果边缘服务器或池上未启用联盟，则站点联盟路由分配设置将不可用进行修改。</span><span class="sxs-lookup"><span data-stu-id="d46bf-106">If federation is not enabled on the Edge Server or pool, the federation route assignment settings for the site will not be available for modification.</span></span>
-  
-## 
+<span data-ttu-id="cc71a-105">若要设置站点联盟路由分配，首先必须在边缘服务器或边缘服务器池启用联盟。</span><span class="sxs-lookup"><span data-stu-id="cc71a-105">To set a site federation route assignment, you must first have federation enabled on the Edge Server or Edge Server pool.</span></span> <span data-ttu-id="cc71a-106">如果边缘服务器或池上未启用联盟，则站点联盟路由分配设置将不可用进行修改。</span><span class="sxs-lookup"><span data-stu-id="cc71a-106">If federation is not enabled on the Edge Server or pool, the federation route assignment settings for the site will not be available for modification.</span></span>
 
-<span data-ttu-id="d46bf-107">如果尚未配置边缘服务器或池联盟设置，您可以配置以下选项：</span><span class="sxs-lookup"><span data-stu-id="d46bf-107">If the federation setting at the Edge Server or pool has been configured, you can configure the following options:</span></span> 
+<span data-ttu-id="cc71a-107">如果尚未配置边缘服务器或池联盟设置，您可以配置以下选项：</span><span class="sxs-lookup"><span data-stu-id="cc71a-107">If the federation setting at the Edge Server or pool has been configured, you can configure the following options:</span></span> 
   
-- <span data-ttu-id="d46bf-108">**允许联盟路由分配给所有网站**此设置会影响所有网站。</span><span class="sxs-lookup"><span data-stu-id="d46bf-108">**Allow federation route assignments to all sites** This setting will affect all sites.</span></span> <span data-ttu-id="d46bf-109">确保您要在该站点上配置的设置是适用于所有网站。</span><span class="sxs-lookup"><span data-stu-id="d46bf-109">Be sure that the setting that you are configuring at this site is appropriate for all sites.</span></span>
+- <span data-ttu-id="cc71a-108">**允许联盟路由分配给所有网站**此设置会影响所有网站。</span><span class="sxs-lookup"><span data-stu-id="cc71a-108">**Allow federation route assignments to all sites** This setting will affect all sites.</span></span> <span data-ttu-id="cc71a-109">确保您要在该站点上配置的设置是适用于所有网站。</span><span class="sxs-lookup"><span data-stu-id="cc71a-109">Be sure that the setting that you are configuring at this site is appropriate for all sites.</span></span>
     
-- <span data-ttu-id="d46bf-110">**启用 SIP 联盟**选择此选项可启用 SIP 联盟路由，并作为联盟路由选择一个控制器或边缘池。</span><span class="sxs-lookup"><span data-stu-id="d46bf-110">**Enable SIP federation** Select this option to enable a SIP federation route, and then select a Director or Edge pool as the federation route.</span></span>
+- <span data-ttu-id="cc71a-110">**启用 SIP 联盟**选择此选项可启用 SIP 联盟路由，并作为联盟路由选择一个控制器或边缘池。</span><span class="sxs-lookup"><span data-stu-id="cc71a-110">**Enable SIP federation** Select this option to enable a SIP federation route, and then select a Director or Edge pool as the federation route.</span></span>
     
-- <span data-ttu-id="d46bf-111">**启用 XMPP 联盟**选择此选项可启用 XMPP 联盟路由，并作为联盟路由选择一个控制器或边缘池。</span><span class="sxs-lookup"><span data-stu-id="d46bf-111">**Enable XMPP federation** Select this option to enable an XMPP federation route, and then select a Director or Edge pool as the federation route.</span></span>
+- <span data-ttu-id="cc71a-111">**启用 XMPP 联盟**选择此选项可启用 XMPP 联盟路由，并作为联盟路由选择一个控制器或边缘池。</span><span class="sxs-lookup"><span data-stu-id="cc71a-111">**Enable XMPP federation** Select this option to enable an XMPP federation route, and then select a Director or Edge pool as the federation route.</span></span>
     
 

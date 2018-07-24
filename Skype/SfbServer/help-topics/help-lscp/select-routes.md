@@ -3,7 +3,7 @@ title: 选择路由
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,20 +11,21 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
-description: 使用路由选择对话框中查找现有的语音路由，您可以使用。
-ms.openlocfilehash: ba2213fcc443536b3dad2687a58069a2977c967c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 使用选择路由对话框查找可以使用的现有语音路由。
+ms.openlocfilehash: 82dee6d6f369576bb0461cffb89e9137739a12e7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967591"
 ---
-# <a name="select-routes"></a><span data-ttu-id="a9e3d-103">选择路由</span><span class="sxs-lookup"><span data-stu-id="a9e3d-103">Select Routes</span></span>
+# <a name="select-routes"></a><span data-ttu-id="7da41-103">选择路由</span><span class="sxs-lookup"><span data-stu-id="7da41-103">Select Routes</span></span>
  
-<span data-ttu-id="a9e3d-104">使用**路由选择**对话框中查找现有的语音路由，您可以使用。</span><span class="sxs-lookup"><span data-stu-id="a9e3d-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
+<span data-ttu-id="7da41-104">使用**选择路由**对话框查找可以使用的现有语音路由。</span><span class="sxs-lookup"><span data-stu-id="7da41-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="a9e3d-105">若要检索所有可用语音路由，执行不在搜索框中键入任何内容，然后单击搜索图标。</span><span class="sxs-lookup"><span data-stu-id="a9e3d-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="7da41-105">若要检索所有可用的语音路由，请执行不在搜索框中键入任何内容，然后单击搜索图标。</span><span class="sxs-lookup"><span data-stu-id="7da41-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
   
-<span data-ttu-id="a9e3d-106">您还可以通过 Skype 业务服务器控件面板的不同过程的详细信息，请参阅[管理的业务服务器 2015年的 Skype](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="a9e3d-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="7da41-106">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="7da41-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

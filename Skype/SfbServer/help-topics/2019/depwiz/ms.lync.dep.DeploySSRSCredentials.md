@@ -10,23 +10,24 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
+ROBOTS: NOINDEX, NOFOLLOW
 description: 要指定的 SQL Server Reporting Services (SSRS) 以访问监控数据库的凭据，请执行以下操作：
-ms.openlocfilehash: cf990287a622185771260bc93f8dbe4fada37ff2
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: f8071067cb099031709c281d983ebf8e1f9a368b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987345"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973484"
 ---
-# <a name="sql-server-reporting-services-credentials"></a><span data-ttu-id="a1468-103">SQL Server Reporting Services （凭据）</span><span class="sxs-lookup"><span data-stu-id="a1468-103">SQL Server Reporting Services (Credentials)</span></span>
+# <a name="sql-server-reporting-services-credentials"></a><span data-ttu-id="4437e-103">SQL Server Reporting Services （凭据）</span><span class="sxs-lookup"><span data-stu-id="4437e-103">SQL Server Reporting Services (Credentials)</span></span>
  
-<span data-ttu-id="a1468-104">要指定的 SQL Server Reporting Services (SSRS) 以访问监控数据库的凭据，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="a1468-104">To specify the credentials for the SQL Server Reporting Services (SSRS) to access the Monitoring database, do the following:</span></span>
+<span data-ttu-id="4437e-104">要指定的 SQL Server Reporting Services (SSRS) 以访问监控数据库的凭据，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="4437e-104">To specify the credentials for the SQL Server Reporting Services (SSRS) to access the Monitoring database, do the following:</span></span>
   
-<span data-ttu-id="a1468-105">在**指定凭据页**中，指定您想要用于访问监控数据库 （QoEMetrics 和 LcsCDR） 的用户凭据。</span><span class="sxs-lookup"><span data-stu-id="a1468-105">In the **Specify Credential Page**, specify the user credentials that you want to use to access the Monitoring database (QoEMetrics and LcsCDR).</span></span> 
+<span data-ttu-id="4437e-105">在**指定凭据页**中，指定您想要用于访问监控数据库 （QoEMetrics 和 LcsCDR） 的用户凭据。</span><span class="sxs-lookup"><span data-stu-id="4437e-105">In the **Specify Credential Page**, specify the user credentials that you want to use to access the Monitoring database (QoEMetrics and LcsCDR).</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="a1468-106">有关详细信息，在看到"凭据和连接信息的报表数据源 (SSRS) 指定" [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431)。</span><span class="sxs-lookup"><span data-stu-id="a1468-106">For details, see "Specifying Credential and Connection Information for Report Data Sources (SSRS)" at [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431).</span></span> 
+> <span data-ttu-id="4437e-106">有关详细信息，在看到"凭据和连接信息的报表数据源 (SSRS) 指定" [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431)。</span><span class="sxs-lookup"><span data-stu-id="4437e-106">For details, see "Specifying Credential and Connection Information for Report Data Sources (SSRS)" at [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431).</span></span> 
   
-<span data-ttu-id="a1468-107">有关部署运行监控服务器的 Reporting Services 报告的详细信息，请参阅[Skype 业务服务器中安装监控报告](../../../deploy/deploy-monitoring/install-monitoring-reports.md)。</span><span class="sxs-lookup"><span data-stu-id="a1468-107">For details about deploying the Reporting Services reports for the server running Monitoring, see [Install Monitoring Reports in Skype for Business Server](../../../deploy/deploy-monitoring/install-monitoring-reports.md).</span></span>
+<span data-ttu-id="4437e-107">有关部署运行监控服务器的 Reporting Services 报告的详细信息，请参阅[Skype 业务服务器中安装监控报告](../../../deploy/deploy-monitoring/install-monitoring-reports.md)。</span><span class="sxs-lookup"><span data-stu-id="4437e-107">For details about deploying the Reporting Services reports for the server running Monitoring, see [Install Monitoring Reports in Skype for Business Server](../../../deploy/deploy-monitoring/install-monitoring-reports.md).</span></span>
   
 

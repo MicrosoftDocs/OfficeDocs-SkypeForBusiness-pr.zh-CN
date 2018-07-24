@@ -10,48 +10,49 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
+ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组组成代理组、 队列和工作流。 代理组是人员的一组指定为应答响应组呼叫。
-ms.openlocfilehash: ea4441a65abe6d2acb3f57a920b75e9f893e9b72
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: f2915ab536ceb5dc7f4bf58defedcc737e705eec
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974217"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973149"
 ---
-# <a name="response-groups-group"></a><span data-ttu-id="ded47-104">响应组： 组</span><span class="sxs-lookup"><span data-stu-id="ded47-104">Response Groups: Group</span></span>
+# <a name="response-groups-group"></a><span data-ttu-id="0ff24-104">响应组： 组</span><span class="sxs-lookup"><span data-stu-id="0ff24-104">Response Groups: Group</span></span>
  
-<span data-ttu-id="ded47-105">响应组组成代理组、 队列和工作流。</span><span class="sxs-lookup"><span data-stu-id="ded47-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="ded47-106">代理组是人员的一组指定为应答响应组呼叫。</span><span class="sxs-lookup"><span data-stu-id="ded47-106">An agent group is a group of people who are designated to answer Response Group calls.</span></span> 
+<span data-ttu-id="0ff24-105">响应组组成代理组、 队列和工作流。</span><span class="sxs-lookup"><span data-stu-id="0ff24-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="0ff24-106">代理组是人员的一组指定为应答响应组呼叫。</span><span class="sxs-lookup"><span data-stu-id="0ff24-106">An agent group is a group of people who are designated to answer Response Group calls.</span></span> 
   
-<span data-ttu-id="ded47-107">**响应组** - **组**页显示一个为组织定义的所有代理组的列表。</span><span class="sxs-lookup"><span data-stu-id="ded47-107">The **Response Groups** - **Group** page displays a list of all the agent groups that are defined for your organization.</span></span>
+<span data-ttu-id="0ff24-107">**响应组** - **组**页显示一个为组织定义的所有代理组的列表。</span><span class="sxs-lookup"><span data-stu-id="0ff24-107">The **Response Groups** - **Group** page displays a list of all the agent groups that are defined for your organization.</span></span>
   
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="ded47-108">可执行的任务</span><span class="sxs-lookup"><span data-stu-id="ded47-108">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="0ff24-108">可执行的任务</span><span class="sxs-lookup"><span data-stu-id="0ff24-108">Tasks you can perform</span></span>
 
-<span data-ttu-id="ded47-109">您可以在**响应组**执行以下任务 - **组**页：</span><span class="sxs-lookup"><span data-stu-id="ded47-109">You can perform the following tasks from the **Response Groups** - **Group** page:</span></span>
+<span data-ttu-id="0ff24-109">您可以在**响应组**执行以下任务 - **组**页：</span><span class="sxs-lookup"><span data-stu-id="0ff24-109">You can perform the following tasks from the **Response Groups** - **Group** page:</span></span>
   
-- <span data-ttu-id="ded47-110">创建新的代理组</span><span class="sxs-lookup"><span data-stu-id="ded47-110">Create a new agent group</span></span>
+- <span data-ttu-id="0ff24-110">创建新的代理组</span><span class="sxs-lookup"><span data-stu-id="0ff24-110">Create a new agent group</span></span>
     
-- <span data-ttu-id="ded47-111">更改现有代理组</span><span class="sxs-lookup"><span data-stu-id="ded47-111">Change an existing agent group</span></span>
+- <span data-ttu-id="0ff24-111">更改现有代理组</span><span class="sxs-lookup"><span data-stu-id="0ff24-111">Change an existing agent group</span></span>
     
-- <span data-ttu-id="ded47-112">删除代理组</span><span class="sxs-lookup"><span data-stu-id="ded47-112">Delete an agent group</span></span>
+- <span data-ttu-id="0ff24-112">删除代理组</span><span class="sxs-lookup"><span data-stu-id="0ff24-112">Delete an agent group</span></span>
     
-## <a name="ui-reference"></a><span data-ttu-id="ded47-113">用户界面参考</span><span class="sxs-lookup"><span data-stu-id="ded47-113">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="0ff24-113">用户界面参考</span><span class="sxs-lookup"><span data-stu-id="0ff24-113">UI Reference</span></span>
 
-<span data-ttu-id="ded47-114">下表介绍了该页上的各个命令。</span><span class="sxs-lookup"><span data-stu-id="ded47-114">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="0ff24-114">下表介绍了该页上的各个命令。</span><span class="sxs-lookup"><span data-stu-id="0ff24-114">The following list describes the commands on the page.</span></span>
   
-- <span data-ttu-id="ded47-115">**新**启动新的代理组。</span><span class="sxs-lookup"><span data-stu-id="ded47-115">**New** Starts a new agent group.</span></span>
+- <span data-ttu-id="0ff24-115">**新**启动新的代理组。</span><span class="sxs-lookup"><span data-stu-id="0ff24-115">**New** Starts a new agent group.</span></span>
     
-- <span data-ttu-id="ded47-116">**编辑**打开所选的代理组以进行编辑，在列表中，选择所有代理组或删除选定的代理组。</span><span class="sxs-lookup"><span data-stu-id="ded47-116">**Edit** Opens the selected agent group to edit it, selects all agent groups in the list, or deletes the selected agent groups.</span></span>
+- <span data-ttu-id="0ff24-116">**编辑**打开所选的代理组以进行编辑，在列表中，选择所有代理组或删除选定的代理组。</span><span class="sxs-lookup"><span data-stu-id="0ff24-116">**Edit** Opens the selected agent group to edit it, selects all agent groups in the list, or deletes the selected agent groups.</span></span>
     
-- <span data-ttu-id="ded47-117">**刷新**刷新代理组的列表。</span><span class="sxs-lookup"><span data-stu-id="ded47-117">**Refresh** Refreshes the list of agent groups.</span></span>
+- <span data-ttu-id="0ff24-117">**刷新**刷新代理组的列表。</span><span class="sxs-lookup"><span data-stu-id="0ff24-117">**Refresh** Refreshes the list of agent groups.</span></span>
     
-<span data-ttu-id="ded47-118">下表介绍了该页上的各个字段。</span><span class="sxs-lookup"><span data-stu-id="ded47-118">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="0ff24-118">下表介绍了该页上的各个字段。</span><span class="sxs-lookup"><span data-stu-id="0ff24-118">The following list describes the fields on the page.</span></span>
   
-- <span data-ttu-id="ded47-119">**名称**标识代理组的唯一名称。</span><span class="sxs-lookup"><span data-stu-id="ded47-119">**Name** The unique name that identifies the agent group.</span></span>
+- <span data-ttu-id="0ff24-119">**名称**标识代理组的唯一名称。</span><span class="sxs-lookup"><span data-stu-id="0ff24-119">**Name** The unique name that identifies the agent group.</span></span>
     
-- <span data-ttu-id="ded47-120">**服务**承载的代理组的**ApplicationServer**服务。</span><span class="sxs-lookup"><span data-stu-id="ded47-120">**Service** The **ApplicationServer** service that hosts the agent group.</span></span>
+- <span data-ttu-id="0ff24-120">**服务**承载的代理组的**ApplicationServer**服务。</span><span class="sxs-lookup"><span data-stu-id="0ff24-120">**Service** The **ApplicationServer** service that hosts the agent group.</span></span>
     
-- <span data-ttu-id="ded47-121">**说明**代理组的描述。</span><span class="sxs-lookup"><span data-stu-id="ded47-121">**Description** The description for the agent group.</span></span>
+- <span data-ttu-id="0ff24-121">**说明**代理组的描述。</span><span class="sxs-lookup"><span data-stu-id="0ff24-121">**Description** The description for the agent group.</span></span>
     
-<span data-ttu-id="ded47-122">有关响应组特性和功能的详细信息，请参阅[规划响应组应用程序中的业务服务器 Skype](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。</span><span class="sxs-lookup"><span data-stu-id="ded47-122">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md).</span></span> <span data-ttu-id="ded47-123">有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="ded47-123">For details about working with agent groups, see [Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="0ff24-122">有关响应组特性和功能的详细信息，请参阅规划文档中的[计划中的业务服务器 Skype 的响应组应用程序](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。</span><span class="sxs-lookup"><span data-stu-id="0ff24-122">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="0ff24-123">有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="0ff24-123">For details about working with agent groups, see [Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in the Operations documentation.</span></span>
   
 

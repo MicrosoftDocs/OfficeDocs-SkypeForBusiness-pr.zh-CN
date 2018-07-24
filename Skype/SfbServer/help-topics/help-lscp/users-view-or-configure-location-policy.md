@@ -3,7 +3,7 @@ title: 用户查看或配置位置策略
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,17 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: f5c200f30aa5a8b3ab73325122384e265a0d9df8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9af3182dbdbb3ead2e2a5473dcf50431f5ff2a59
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997255"
 ---
-# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="751c8-104">用户： 查看或配置位置策略</span><span class="sxs-lookup"><span data-stu-id="751c8-104">Users: View or Configure Location Policy</span></span>
+# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="4b5bd-104">用户： 查看或配置位置策略</span><span class="sxs-lookup"><span data-stu-id="4b5bd-104">Users: View or Configure Location Policy</span></span>
  
-<span data-ttu-id="751c8-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="751c8-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="4b5bd-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="4b5bd-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="751c8-107">为用户分配一个位置策略</span><span class="sxs-lookup"><span data-stu-id="751c8-107">Assign a Location Policy to a User</span></span>](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [<span data-ttu-id="4b5bd-107">为用户分配位置策略</span><span class="sxs-lookup"><span data-stu-id="4b5bd-107">Assign a Location Policy to a User</span></span>](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
     
-<span data-ttu-id="751c8-108">您还可以通过 Skype 业务服务器控件面板的不同过程的详细信息，请参阅[管理的业务服务器 2015年的 Skype](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="751c8-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="4b5bd-108">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="4b5bd-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
