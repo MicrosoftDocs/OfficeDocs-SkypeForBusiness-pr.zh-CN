@@ -1,9 +1,9 @@
 ---
-title: Lync Server 网站设置扩展器
+title: Lync Server 站点设置扩展器
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,36 +11,37 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
-description: 要编辑现有网站的属性，请执行以下操作：
-ms.openlocfilehash: 6ae0154da4e53cffb9d0b6bb02a2eda3cb0cbaa8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 若要编辑现有站点的属性，请执行以下操作：
+ms.openlocfilehash: 8d1c2818a2e1271de6bcbbee4c30876a14913392
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965903"
 ---
-# <a name="lync-server-site-settings-expander"></a><span data-ttu-id="3c1dc-103">Lync Server 网站设置扩展器</span><span class="sxs-lookup"><span data-stu-id="3c1dc-103">Lync Server Site Settings Expander</span></span>
+# <a name="lync-server-site-settings-expander"></a><span data-ttu-id="7ca4a-103">Lync Server 站点设置扩展器</span><span class="sxs-lookup"><span data-stu-id="7ca4a-103">Lync Server Site Settings Expander</span></span>
  
-<span data-ttu-id="3c1dc-104">要编辑现有网站的属性，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="3c1dc-104">To edit the properties of an existing site, do the following:</span></span>
+<span data-ttu-id="7ca4a-104">若要编辑现有站点的属性，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="7ca4a-104">To edit the properties of an existing site, do the following:</span></span>
   
-## 
 
-### <a name="site-properties"></a><span data-ttu-id="3c1dc-105">网站属性</span><span class="sxs-lookup"><span data-stu-id="3c1dc-105">Site properties</span></span>
 
-<span data-ttu-id="3c1dc-106">在站点属性，可以更改或修改网站名称 （必需的），说明 （可选）、 城市 （可选）、 州/省 （可选） 和国家/地区代码 （可选）。</span><span class="sxs-lookup"><span data-stu-id="3c1dc-106">In site properties, you can change or modify the site Name (required), Description (optional), City (optional), State/Province (optional), and the Country/Region Code (optional).</span></span>
-  
-<span data-ttu-id="3c1dc-107">有关站点属性的详细信息，请参阅[添加分支站点添加到您的拓扑结构](http://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx)。</span><span class="sxs-lookup"><span data-stu-id="3c1dc-107">For details about site properties, see [Add Branch Sites to Your Topology](http://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx).</span></span>
-  
-### <a name="federation-route-properties"></a><span data-ttu-id="3c1dc-108">联合身份验证路由属性</span><span class="sxs-lookup"><span data-stu-id="3c1dc-108">Federation Route properties</span></span>
+## <a name="site-properties"></a><span data-ttu-id="7ca4a-105">网站属性</span><span class="sxs-lookup"><span data-stu-id="7ca4a-105">Site properties</span></span>
 
-<span data-ttu-id="3c1dc-109">若要设置站点联盟路由分配，首先必须将边缘服务器池边缘服务器上启用联盟。</span><span class="sxs-lookup"><span data-stu-id="3c1dc-109">To set a site federation route assignment, you must first have federation enabled on an Edge Server or an Edge Server pool.</span></span> <span data-ttu-id="3c1dc-110">如果边缘服务器或池上未启用联合身份验证，则网站的联合工艺路线作业设置将不能进行修改。</span><span class="sxs-lookup"><span data-stu-id="3c1dc-110">If federation is not enabled on an Edge Server or pool, the federation route assignment settings for the site will not be available for modification.</span></span>
+<span data-ttu-id="7ca4a-106">在网站属性，您可以更改或修改站点名称 （必需）、 说明 （可选）、 城市 （可选）、 州/省 （可选） 和国家/地区代码 （可选）。</span><span class="sxs-lookup"><span data-stu-id="7ca4a-106">In site properties, you can change or modify the site Name (required), Description (optional), City (optional), State/Province (optional), and the Country/Region Code (optional).</span></span>
   
-<span data-ttu-id="3c1dc-111">如果已配置的边缘服务器或池的联合身份验证设置，可选择在站点级别**启用**。</span><span class="sxs-lookup"><span data-stu-id="3c1dc-111">If the federation setting at the Edge Server or pool has been configured, select **Enable** at the site level.</span></span> <span data-ttu-id="3c1dc-112">然后从下拉列表设置为联合路由选择一条边或主任。</span><span class="sxs-lookup"><span data-stu-id="3c1dc-112">Then select an Edge or a Director from the drop-down list to set as the federation route.</span></span>
+<span data-ttu-id="7ca4a-107">有关站点属性的详细信息，请参阅[Add Branch Sites to Your Topology](http://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx)。</span><span class="sxs-lookup"><span data-stu-id="7ca4a-107">For details about site properties, see [Add Branch Sites to Your Topology](http://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx).</span></span>
+  
+## <a name="federation-route-properties"></a><span data-ttu-id="7ca4a-108">联盟路由属性</span><span class="sxs-lookup"><span data-stu-id="7ca4a-108">Federation Route properties</span></span>
+
+<span data-ttu-id="7ca4a-109">若要设置站点联盟路由分配，首先必须在边缘服务器或边缘服务器池启用联盟。</span><span class="sxs-lookup"><span data-stu-id="7ca4a-109">To set a site federation route assignment, you must first have federation enabled on an Edge Server or an Edge Server pool.</span></span> <span data-ttu-id="7ca4a-110">如果边缘服务器或池上未启用联盟，则站点联盟路由分配设置将不可用进行修改。</span><span class="sxs-lookup"><span data-stu-id="7ca4a-110">If federation is not enabled on an Edge Server or pool, the federation route assignment settings for the site will not be available for modification.</span></span>
+  
+<span data-ttu-id="7ca4a-111">如果尚未配置边缘服务器或池联盟设置，请选中**启用**在网站级别。</span><span class="sxs-lookup"><span data-stu-id="7ca4a-111">If the federation setting at the Edge Server or pool has been configured, select **Enable** at the site level.</span></span> <span data-ttu-id="7ca4a-112">从下拉列表作为联盟路由设置，然后选择边缘或控制器。</span><span class="sxs-lookup"><span data-stu-id="7ca4a-112">Then select an Edge or a Director from the drop-down list to set as the federation route.</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="3c1dc-113">此设置将影响所有站点。</span><span class="sxs-lookup"><span data-stu-id="3c1dc-113">This setting will affect all sites.</span></span> <span data-ttu-id="3c1dc-114">请确保在此站点所配置的设置适用于所有的站点。</span><span class="sxs-lookup"><span data-stu-id="3c1dc-114">Be sure that the setting that you are configuring at this site is appropriate for all sites.</span></span> 
+> <span data-ttu-id="7ca4a-113">此设置会影响所有网站。</span><span class="sxs-lookup"><span data-stu-id="7ca4a-113">This setting will affect all sites.</span></span> <span data-ttu-id="7ca4a-114">确保您要在该站点上配置的设置是适用于所有网站。</span><span class="sxs-lookup"><span data-stu-id="7ca4a-114">Be sure that the setting that you are configuring at this site is appropriate for all sites.</span></span> 
   
-### 
+## <a name="see-also"></a><span data-ttu-id="7ca4a-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7ca4a-115">See also</span></span>
 
-<span data-ttu-id="3c1dc-115">有关详细信息，请参阅[外部用户访问的拓扑](http://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx)。</span><span class="sxs-lookup"><span data-stu-id="3c1dc-115">For details, see [Topologies for External User Access](http://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx).</span></span>
+<span data-ttu-id="7ca4a-116">有关详细信息，请参阅[外部用户访问的拓扑](http://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx)。</span><span class="sxs-lookup"><span data-stu-id="7ca4a-116">For details, see [Topologies for External User Access](http://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx).</span></span>
   
 
