@@ -1,25 +1,24 @@
 ---
-title: 在 Skype for Business Server 2015 中测试电话拨入式会议
+title: 测试电话拨入式会议中的业务服务器 Skype
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
-description: 摘要： 了解如何为业务服务器 2015年在 Skype 测试电话拨入式会议。
-ms.openlocfilehash: 7e6e53d5d4ee3e3e28beadc54ca86a79c6118637
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解如何为业务服务器在 Skype 测试电话拨入式会议。
+ms.openlocfilehash: 258c860a0a808b40384a766bc5151e671789a03c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569269"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966410"
 ---
-# <a name="test-dial-in-conferencing-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中测试电话拨入式会议
+# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>测试电话拨入式会议中的业务服务器 Skype
  
-**摘要：** 了解如何为业务服务器 2015年在 Skype 测试电话拨入式会议。
+**摘要：** 了解如何为业务服务器在 Skype 测试电话拨入式会议。
   
 最终验证电话拨入式会议配置后，你可以搜索具有尚未被任何访问号码使用的电话拨入式会议区域的拨号计划，还可以搜索未指定电话拨入式会议区域的访问号码。 你还应验证电话拨入式会议设置网页和拨入访问号码是否可以正常使用。
   

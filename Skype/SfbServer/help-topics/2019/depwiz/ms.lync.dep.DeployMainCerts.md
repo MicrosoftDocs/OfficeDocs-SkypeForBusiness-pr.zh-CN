@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
-description: 步骤 3： 请求、 安装或分配证书启动证书向导时单击运行。 通过向导配置证书基于业务服务器拓扑的已配置并发布到中央管理存储的拓扑生成器的 Skype 的定义。 要成功运行组织中联机证书颁发机构 (CA) 的证书向导，必须以计算机本地 Administrators 组成员的用户身份登录计算机。 您还必须是计算机和 CA 所在的域中经过身份验证的域用户。 证书向导提供了能够指定用于访问的备用凭据贵组织的 CA。
-ms.openlocfilehash: 12f55778d5c8652c9b04d3d26193dae75c2dad53
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 单击“运行”后，“步骤 3：请求、安装或分配证书”会启动证书向导。 通过向导配置证书基于业务服务器拓扑的已配置并发布到中央管理存储的拓扑生成器的 Skype 的定义。 要成功运行组织中联机证书颁发机构 (CA) 的证书向导，必须以计算机本地 Administrators 组成员的用户身份登录计算机。 您还必须是计算机和 CA 所在的域中经过身份验证的域用户。 证书向导提供了能够指定用于访问的备用凭据贵组织的 CA。
+ms.openlocfilehash: cf61a6e2c065ea01e18ae5935c3b4e0e49d9ea36
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992137"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966213"
 ---
 # <a name="request-install-or-assign-certificates"></a>请求、安装或分配证书
  

@@ -3,7 +3,7 @@ title: Lync Server 2010 的前端常规设置扩展器
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 您可以通过编辑或配置以下属性编辑前端服务器或前端池的属性。 配置页可分为以下几节：
-ms.openlocfilehash: 4d18d8499c053d2fbed5b0b3dba97bda263f28cd
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: dbe4e83065f7869d860fec1a0c8868283f8e8414
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504087"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966375"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 的前端常规设置扩展器
  
@@ -54,7 +54,7 @@ ms.locfileid: "19504087"
     
 - 选择**关联边缘池 (用于媒体组件**复选框以启用此前端服务器或前端池的边缘服务器。 选择复选框后, 从列表中选择一个现有边缘服务器或池，或单击**新建**创建新的边缘服务器或池的定义。
     
- **恢复能力**
+ **复原**
   
 - 选择**关联备份注册器池**复选框，以从列表中选择一个将备份注册器的前端服务器或前端池 (即，指定为辅助注册器前端服务器或前端池的主失败）
     
