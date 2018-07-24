@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
-description: 控制器池节点列出了控制器池拓扑中。 可以执行以下操作：
-ms.openlocfilehash: c50862bdcb9ace37d58098134f726fe718df6f20
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: “控制器池”节点列出了拓扑中的控制器池。可以执行以下操作：
+ms.openlocfilehash: 0a71f6395f62716fe54b07e7660c362ef4d20a96
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974787"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21063929"
 ---
 # <a name="directors-scope-node"></a>控制器范围节点
  

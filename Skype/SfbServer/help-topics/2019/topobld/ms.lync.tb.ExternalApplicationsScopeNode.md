@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
-description: 受信任应用程序服务器节点列出了在此站点的受信任应用程序池。 受信任应用程序池包含运行受信任的 Microsoft 统一通信应用程序，但不要运行 Skype 业务服务器角色的服务器。 可以执行以下操作：
-ms.openlocfilehash: 4d71f5527b97b290c03ff125b49c5a2a57d22d3d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: “受信任应用程序服务器”节点列出了该站点上的受信任应用程序池。 受信任应用程序池包含运行受信任的 Microsoft 统一通信应用程序，但不要运行 Skype 业务服务器角色的服务器。 可以执行以下操作：
+ms.openlocfilehash: 24f167f8ab81983d596c2686da7342c6858830ff
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990061"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21062620"
 ---
 # <a name="external-applications-scope-node"></a>外部应用程序范围节点
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
+ROBOTS: NOINDEX, NOFOLLOW
 description: 使用此页指定的内部 IP 地址和内部完全限定的域名 (FQDN) 边缘服务器。
-ms.openlocfilehash: 350ae933f176ed83950df61bc7dcd70f9b3bde1a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: dbb4f2b953e91640d9bf205f53106f4a4d6ce531
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991506"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21067749"
 ---
 # <a name="add-edge-machine-internal-ip"></a>添加边缘计算机内部 IP
  

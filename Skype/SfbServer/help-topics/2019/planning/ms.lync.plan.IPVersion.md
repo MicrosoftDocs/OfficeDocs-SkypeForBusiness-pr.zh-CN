@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
+ROBOTS: NOINDEX, NOFOLLOW
 description: 配置 IP 地址中 Skype 业务服务器时，您可以具有三个选项。 您可以配置的业务服务器支持仅 IP 版本 4 (IPv4)，仅 IP 版本 6 (IPv6) 的 Skype 或二者的组合 （称为双协议栈）。
-ms.openlocfilehash: 35f4ea9ec0f0fd24632df4c879130065f6ebf602
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 244004d045d267aff7b57e0bb93e338f0e3c88d5
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987569"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069192"
 ---
 # <a name="ip-version-planning-tool"></a>IP 版本 （规划工具）
  

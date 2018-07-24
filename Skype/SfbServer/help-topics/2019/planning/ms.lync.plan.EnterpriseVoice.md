@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
-description: 与企业语音，Skype 业务服务器提供了独立 Voice over Internet Protocol (VoIP) 提供增强或替换传统的专用交换机 (pbx) 系统。 企业语音用户可以在贵组织的 VoIP 网络或 PBX 上调用同事和它们可以呼叫组织外部的传统的电话号码。 企业语音解决方案包括常见的呼叫功能，如应答、 转发、 传输、 保留、 转移、 版本和寄存，和增强型 9-1-1 (E9-1-1) 呼叫 （E9-1-1。 只能在美国）企业语音还支持各种当前及较早 IP 和 USB 设备。
-ms.openlocfilehash: 2da7fc040bbe922bdc51bf53375a8f607b887aaa
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 与企业语音，Skype 业务服务器提供了独立 Voice over Internet Protocol (VoIP) 提供增强或替换传统的专用交换机 (pbx) 系统。
+ms.openlocfilehash: f507ae79ae7547d5ee10bb7bb628d509cb0882c6
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19989039"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069270"
 ---
 # <a name="enterprise-voice-planning-tool"></a>企业语音 （规划工具）
  

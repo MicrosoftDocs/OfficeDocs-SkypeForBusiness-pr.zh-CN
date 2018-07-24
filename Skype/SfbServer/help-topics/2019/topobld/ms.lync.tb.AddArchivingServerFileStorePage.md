@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e95f938e-4dd2-48b8-95a3-05b4c63d4810
+ROBOTS: NOINDEX, NOFOLLOW
 description: 要启用即时消息 (IM) 和 Web 会议内容的存档，必须指定文件共享以用作所有 Web 会议内容副本的文件存储。可以将现有的文件共享用作存档文件存储，也可以通过指定文件共享所在的文件服务器的完全限定域名 (FQDN) 和新文件共享的文件夹名称来指定新的文件共享。
-ms.openlocfilehash: a2948f40e449d3b7326e622e22d9e657dcb4f96c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d0b9f836857d978cb9968fcddedfad634b55afda
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19996891"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21060535"
 ---
 # <a name="add-archiving-server-file-store"></a>添加存档服务器文件存储
  

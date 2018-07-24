@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
+ROBOTS: NOINDEX, NOFOLLOW
 description: 若要编辑的定义的文件存储的属性：
-ms.openlocfilehash: 96fda408c4b12cf4e8c3fe75aadc484eae5f0189
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: b88e681aeb2c35d1de5b1dcc78cc30d659ee952c
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991731"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21065576"
 ---
 # <a name="file-store-settings-expander"></a>文件存储设置扩展器
  

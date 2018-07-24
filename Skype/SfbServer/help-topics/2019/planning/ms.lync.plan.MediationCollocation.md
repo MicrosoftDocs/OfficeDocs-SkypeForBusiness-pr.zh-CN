@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
+ROBOTS: NOINDEX, NOFOLLOW
 description: 中介服务器与前端服务器并置默认情况下。 中介服务器还可以部署在独立的池中出于性能原因，或如果部署 SIP 中继，在这种情况下的独立池强烈建议。 Lync Server 2013 中未并置在 Skype 的完全相同的业务服务器功能。 有关详细信息，请参阅以下主题：
-ms.openlocfilehash: e39d166f152bd16507293fc1e871937a7529e3b2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 845b31a934318e0de2b10189ab6fa4d83be92482
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969301"
+ms.locfileid: "21066413"
 ---
 # <a name="mediation-collocation-planning-tool"></a>并置中介 （规划工具）
  

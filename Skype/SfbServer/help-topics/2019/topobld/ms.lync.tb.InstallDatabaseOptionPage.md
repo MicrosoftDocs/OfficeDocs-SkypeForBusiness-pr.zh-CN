@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
+ROBOTS: NOINDEX, NOFOLLOW
 description: 配置高级的选项的 SQL Server 上的数据库和日志文件的位置。 可用的选项是：
-ms.openlocfilehash: 398f773c87215a0b480d79861384631c0767a70b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1ef0ba28adb8bbd164fbe9bc24b85430202a5143
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969825"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21064855"
 ---
 # <a name="install-database-options-page"></a>安装数据库选项页
  

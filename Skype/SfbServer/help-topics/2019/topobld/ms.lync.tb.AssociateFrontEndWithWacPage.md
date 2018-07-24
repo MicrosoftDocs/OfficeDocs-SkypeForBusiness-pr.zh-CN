@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
+ROBOTS: NOINDEX, NOFOLLOW
 description: Office Web Apps Server 提供类似于演讲者上载文档以供会议使用的服务，但支持之前的版本中不支持的其他功能。
-ms.openlocfilehash: af10702b84021caa5d2e9a7c874e3dcaad2f54ff
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 390a6d5522f82926c7ea5154c9bf582d3dab3d9f
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985807"
+ms.locfileid: "21058974"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>将前端与 Office Web Apps 服务器关联页面
  

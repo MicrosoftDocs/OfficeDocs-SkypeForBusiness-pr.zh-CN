@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
+ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示该文件存储的完全限定域名 (FQDN) 和相关池。可以执行以下操作：
-ms.openlocfilehash: 4b359a3a8527a337596f97c069dceef2a06157b9
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: fd5ee616bae7e955e9d7f47a3d731fc9a255e7d4
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979153"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069277"
 ---
 # <a name="file-store-scope-node"></a>文件存储范围节点
  

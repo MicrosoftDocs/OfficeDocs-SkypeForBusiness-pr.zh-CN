@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
+ROBOTS: NOINDEX, NOFOLLOW
 description: Skype 的业务服务器 2015年支持的组合语音消息传递和电子邮件到单个消息传递基础结构与 Exchange 统一消息 (UM) 集成。
-ms.openlocfilehash: ab1ee6c6ce811f728b05a04544611ffa638daf8e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 56a2b5ea42ba2b94f3cfb084b6940905c6d97c3c
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981387"
+ms.locfileid: "21062641"
 ---
 # <a name="exchange-unified-messaging-planning-tool-in-skype-for-business-2015"></a>Exchange 统一消息 （规划工具） 中的业务 2015 Skype
  

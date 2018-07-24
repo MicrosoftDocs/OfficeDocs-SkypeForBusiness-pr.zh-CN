@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
+ROBOTS: NOINDEX, NOFOLLOW
 description: 要定义新分支站点，请指定以下内容：
-ms.openlocfilehash: 4eb15db5cca29a978a5da0a28baaf1d7278003ae
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2ba7bf77d8a929d61c1347261b7a362358e73e62
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19996931"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057590"
 ---
 # <a name="add-branch-site-name"></a>添加分支站点名称
  

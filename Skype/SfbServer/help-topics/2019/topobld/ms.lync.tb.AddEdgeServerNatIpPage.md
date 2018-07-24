@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
+ROBOTS: NOINDEX, NOFOLLOW
 description: 公共 IP 地址是由网络地址转换 (NAT) 的 IP 地址。 IP 地址必须公共可路由。 这是必需的因为您选择此边缘池转换 NAT 选项在此向导的选择功能页上的外部 IP 地址。
-ms.openlocfilehash: 64bdb9f64abfc81e1338067d9afe780f1e40cb48
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: ee4a2d12d44e17c3219395174451f00db7674e76
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964567"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21059288"
 ---
 # <a name="add-edge-server-nat-ip"></a>添加边缘服务器 NAT IP
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
+ROBOTS: NOINDEX, NOFOLLOW
 description: 要编辑现有前端池或 Standard Edition Server 的设置，可参考以下各节内容：
-ms.openlocfilehash: 6ec94dffe46bf29b7665ef362f8084a8fd2a4948
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 36a11ac51fd70c41e3538a850cfc5d998b5afdbb
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988909"
+ms.locfileid: "21067724"
 ---
 # <a name="front-end-general-settings-expander"></a>前端常规设置扩展器
  

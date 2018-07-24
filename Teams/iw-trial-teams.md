@@ -3,7 +3,7 @@ title: 管理 Microsoft 团队商业云试用版
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,12 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 description: Office 365 用户未授权的 Microsoft 团队可以发起 1 年试用版的团队。
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ec12fa2687255fb3097d4bbe637389bc643d77cd
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 23d36f161b19af18ff379c2a929ea5b701b8cc6b
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412330"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21068920"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft 团队商业云试用版
 =======================================================
@@ -33,7 +33,7 @@ Microsoft 团队是为您的组织的绝佳协作工具。 它使人和团队讨
 - Microsoft 团队 （Teams1、 团队 IW）
 - Office Online
 - Office 365 的 PowerApps 计划 1
-- SharePoint Online 计划 1
+- SharePoint Online Kiosk
 - Sway
 - Yammer Enterprise
 
@@ -56,9 +56,11 @@ Microsoft 团队是为您的组织的绝佳协作工具。 它使人和团队讨
 
 ![团队 IW 试用版的起始页的屏幕截图。](media/iw-trial-start-screen.png)
 
-IW 试用版授予对您的整个组织的 1 年试用版。 组织内的其他合格用户可以注册 IW 试用一般通过相同的过程。
- 
+试用授予对您的整个组织的一年试用版。 此试用版将使 500000 许可证分配可用。 为每个分配的许可证，试用将分配 2 GB 的 SharePoint Online 的存储空间。 组织内的其他合格用户可以注册试用一般通过相同的过程。
+
 组织内的所有 trials 都共享相同的开始和结束日期，即的日期的第一个用户登录试用。 例如，如果用户 A 启动 2018 年 4 月 25，在第一个试用版，用户 B 启动年 6 月 3 2018年上的试用这两个用户的试用版将上 2019 年 4 月 25，过期。
+
+注册试用版的第一个人是订阅的"所有者"。 只有该用户可以管理订阅。 
 
 ## <a name="manage-the-trial"></a>管理试用版
 

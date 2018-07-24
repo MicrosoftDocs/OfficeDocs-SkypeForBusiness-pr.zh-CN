@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
+ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以通过选择启用 IPv4 或启用 IPv6 定义 IP 或电话电话交换网 (pstn) 网关的 IPv4 或 IPv6 地址。 您可以选择，请使用所有已配置的 IP 地址或服务使用率限制为所选的 IP 地址。
-ms.openlocfilehash: adb8bfee46bbf32edef6111ee40843ebf47bb453
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 472b87c91a1f34bffac797df401053c427d45881
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987352"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21067677"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>定义 IP 或 PSTN 网关的 IP 地址
  

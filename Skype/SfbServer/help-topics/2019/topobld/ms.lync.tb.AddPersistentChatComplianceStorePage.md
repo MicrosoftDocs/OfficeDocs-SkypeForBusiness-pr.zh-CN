@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
+ROBOTS: NOINDEX, NOFOLLOW
 description: 配置 SQL Server 存储将持久聊天服务器或持久聊天服务器合规性功能提供数据库的合规性。
-ms.openlocfilehash: 271816f75150e4d211ff75f44ee2673cbbc7540a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 337c221b3d20572c026ca98afd9db2ed267ac1f8
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974642"
+ms.locfileid: "21064391"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>添加持久聊天合规性 SQL Server 存储
 

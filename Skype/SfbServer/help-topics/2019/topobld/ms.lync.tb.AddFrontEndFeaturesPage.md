@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
+ROBOTS: NOINDEX, NOFOLLOW
 description: 选择您要在其中启用的前端池的每个功能。 必须至少部署即时消息 (IM) 哪些总是处于启用状态，无法取消选择。 您还可以选择部署其他功能，如会议，企业语音和呼叫允许控制 (CAC)。 某些功能是取决于您的拓扑。
-ms.openlocfilehash: c0d9248e6e8d0165a98b4ba38a4f95b9a2e992ef
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9a6b6f38983174e3b13982b9d273e45a7dd5dacb
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976835"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21067817"
 ---
 # <a name="add-front-end-features"></a>添加前端功能
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f6e69ed-4add-4dc8-acb8-dfe050819f5a
+ROBOTS: NOINDEX, NOFOLLOW
 description: 使用此向导可以定义网站的新前端池。 每个网站必须具有至少一个企业版池或 Standard Edition server。 有关使用向导创建一个新的前端池的要求的详细信息，请参阅 Define and Configure a Front End Pool，部署文档中。
-ms.openlocfilehash: 3b5a79a848c0dda8ba798790fa828cd5eb5fcf9b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 3c89bdcf3ae2116b8e28d8601d4c5633a076f7f8
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979195"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069171"
 ---
 # <a name="front-end-start-page"></a>前端开始页
  

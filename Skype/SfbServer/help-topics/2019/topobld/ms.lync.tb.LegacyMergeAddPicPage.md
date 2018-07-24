@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
+ROBOTS: NOINDEX, NOFOLLOW
 description: Web 会议的外部 FQDN 允许外部用户可以加入内部会议。 输入旧边缘服务器的 web 会议外部接口的完全限定的域名 (FQDN)。
-ms.openlocfilehash: 5871af367ac2c060637b056daa824eda21eac784
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 7ba81731c463196eda4c47dc615f27eb15246259
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987765"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069622"
 ---
 # <a name="legacy-merge"></a>旧版合并
  

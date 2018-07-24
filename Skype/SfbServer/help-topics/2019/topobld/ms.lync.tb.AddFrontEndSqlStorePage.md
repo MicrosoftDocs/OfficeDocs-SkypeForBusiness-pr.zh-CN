@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
+ROBOTS: NOINDEX, NOFOLLOW
 description: 部署 Standard Edition server 自动安装所需的 Microsoft SQL Server Express 数据库软件和 SQL Server 数据库。 因此，所有选项都预先都填充，并且您无法更改为默认配置。
-ms.openlocfilehash: 2b7527207974310c30b559011a580fe8871164d1
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9a05561ac1e3c59aa8d66d6a872bc5159308f162
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964489"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21060960"
 ---
 # <a name="add-front-end-sql-server-store"></a>添加前端 SQL Server 存储
  

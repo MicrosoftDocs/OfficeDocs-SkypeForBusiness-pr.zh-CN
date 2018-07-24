@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
-description: 如果已部署边缘服务器，并且必须提供供外部使用的媒体服务，选择边缘服务器或通过在下拉列表中选择将与 Survivable Branch Appliance 或 Survivable Branch Server 关联的池。 单击下一步。
-ms.openlocfilehash: 760cdcc357e1a605edd0842d47703142ac1ad174
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 如果已部署边缘服务器，并且必须提供供外部使用的媒体服务，选择边缘服务器或通过在下拉列表中选择将与 Survivable Branch Appliance 或 Survivable Branch Server 关联的池。 单击“下一步”继续。
+ms.openlocfilehash: 9f4bb9510cec5ae7f4c196892ff109760f8f81b4
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19968039"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21062405"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>将分支机构设备与边缘关联
  

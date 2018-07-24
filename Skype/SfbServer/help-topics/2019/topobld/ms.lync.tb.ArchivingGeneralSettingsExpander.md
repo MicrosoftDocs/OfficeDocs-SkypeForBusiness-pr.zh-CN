@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
-description: 在拓扑生成器中，您可以编辑各个可以通过右键单击存档运行在控制台树中，单击操作，在工具栏中，或通过单击操作窗格中的任务，然后单击编辑的服务器的存档服务器的属性属性和更改以下选项之一：
-ms.openlocfilehash: 9ccad6b4808bc5ffe2066576eff9b2e298f9c236
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 在拓扑生成器中，可以通过右键单击控制台树中的“存档服务器”，再单击工具栏中的“操作”，或单击“操作”窗格中的任务，然后单击“编辑属性”并更改以下任意选项来编辑各个存档服务器的属性：
+ms.openlocfilehash: 6419b7b4fff2c533a0dc91ab0819b0a58044447d
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19978172"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21060110"
 ---
 # <a name="archiving-server-general-settings-expander"></a>存档服务器常规设置扩展器
  

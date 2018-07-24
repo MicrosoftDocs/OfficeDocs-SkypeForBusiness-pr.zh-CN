@@ -1,11 +1,27 @@
 ---
-标题:"转换规则类型正则表达式"ms.author: kenwith 作者： kenwith 管理器： serdars ms.audience: it 专业人员 ms.topic： 文章 f1_keywords:
-- ms.lync.lscp.VoiceRuleRegexEdit ms.prod: Skype-的-业务-it 专业人员 localization_priority： 正常 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4 ROBOTS: NOINDEX，NOFOLLOW 说明:"匹配此模式字段中，在指定的模式的将用于匹配要转换的号码。 在转换规则字段中，指定转换后的号码格式的模式。 例如，如果输入 ^\+(\d{9}\d+)$ 在匹配此模式字段和 011$ 1 转换规则字段中，该规则会将 + 441235551010 转换为 011441235551010。"
+title: 转换规则类型的正则表达式
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.VoiceRuleRegexEdit
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
+ROBOTS: NOINDEX, NOFOLLOW
+description: '在匹配此模式字段中，指定将用于匹配要转换的号码的模式。 在转换规则字段中，指定转换后的号码格式的模式。 '
+ms.openlocfilehash: 5a3696122c721fab3ece2d33a573d0e2f089fb96
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069524"
 ---
-
 # <a name="translation-rule-type-a-regular-expression"></a>转换规则： 键入正则表达式
  
-在**匹配此模式**字段中，指定将用于匹配要转换的号码的模式。 在**转换规则**字段中，指定转换后的号码格式的模式。 例如，如果输入 ^\+(\d{9}\d+)$ 中**匹配此模式**字段和 011$ 1**转换规则**字段中，该规则会将 + 441235551010 转换为 011441235551010。
+在**匹配此模式**字段中，指定将用于匹配要转换的号码的模式。 在**转换规则**字段中，指定转换后的号码格式的模式。 例如，如果输入 ^\+(\d{9}\d+)$ 中**匹配此模式**字段和 011$ 1**转换规则**字段中，该规则会将 + 441235551010 转换为 011441235551010。 
   
  
   

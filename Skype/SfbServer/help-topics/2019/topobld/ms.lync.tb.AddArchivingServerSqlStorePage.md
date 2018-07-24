@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
+ROBOTS: NOINDEX, NOFOLLOW
 description: 存档服务器需要支持的 64 位版本的 SQL Server 数据库软件存储存档数据。 您可以选择先前定义的 SQL Server 数据库，用于存档或通过指定在其将驻留的 SQL Server 数据库，server 和 SQL Server 实例的完全限定的域名 (FQDN) 来定义新的 SQL Server 数据库的您想要用于新的 SQL Server 数据库 （这可以是默认实例或您指定的命名的实例）。
-ms.openlocfilehash: 80b77efdda5f2a844f92d30fe76a584e8ef25b7e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 25987e72efc7906af49e30cc839d495e374d29ec
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988983"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21067699"
 ---
 # <a name="add-archiving-server-sql-server-store"></a>添加存档 SQL Server 存储
  

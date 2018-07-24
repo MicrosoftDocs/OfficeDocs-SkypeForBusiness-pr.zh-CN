@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
+ROBOTS: NOINDEX, NOFOLLOW
 description: 编辑配置 Office Web Apps Server 的属性。 可编辑以下属性：
-ms.openlocfilehash: ee630ec6e011b816465cc7c78d4497c98798e2da
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6a31b55e4e3282dfefb376916e11a2a1d19034b7
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19971353"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21066210"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>编辑 Office Web Apps Server 设置
  

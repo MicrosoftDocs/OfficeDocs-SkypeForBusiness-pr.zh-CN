@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7fe2522-1bd2-416a-9dbb-51cacea9c6e0
+ROBOTS: NOINDEX, NOFOLLOW
 description: 指定要添加为此池中前端服务器的每台计算机的完全限定的域名 (FQDN)。 将计算机添加到列表中后，可以更新计算机的 FQDN 或在发布拓扑前随时将其从池中删除。 发布拓扑后，更改 FQDN，必须删除拓扑生成器中的服务器，然后将新服务器添加到新的 FQDN 与池。 有关向拓扑添加前端池的详细信息，请参阅 Define and Configure a Front End Pool 部署文档中。
-ms.openlocfilehash: e40fe589cbfdde806a29d9cc414284f5d0a8ca21
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 17ba2dfed9e43ab9414935fd765ad4f4469a9843
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997078"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21060883"
 ---
 # <a name="add-front-end-machine"></a>添加前端计算机
  

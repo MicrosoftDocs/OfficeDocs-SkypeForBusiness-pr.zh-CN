@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c508eab-0b08-4fb2-b2b2-eca2eaf2053a
+ROBOTS: NOINDEX, NOFOLLOW
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机创建 VIS 池中 Skype 业务服务器。
-ms.openlocfilehash: 638ca3116331211d1d29941747b73c11180300cb
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: f4481737612e6e57a50f3b2c9070aea53eb61178
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20045559"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21065887"
 ---
 # <a name="video-interop-server-general-settings"></a>视频互操作服务器常规设置
  

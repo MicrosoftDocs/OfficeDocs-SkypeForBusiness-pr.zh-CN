@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
+ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示的完全限定的域名 (FQDN)，关联的池和服务器，以及此 Survivable Branch Appliance 的恢复能力信息。 可以执行以下操作：
-ms.openlocfilehash: 8de93c1041e19f00c7f7f61ce61c3cdd028d540d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 53c2d42088dc9ea6d1b295265053e41494ab3af5
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964089"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057333"
 ---
 # <a name="branch-office-appliance-scope-node"></a>分支机构设备范围节点
  

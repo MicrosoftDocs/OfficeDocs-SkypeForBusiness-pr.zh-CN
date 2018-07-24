@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
+ROBOTS: NOINDEX, NOFOLLOW
 description: 要编辑的属性的 a / V 会议服务器池具有已定义的情况下，执行以下操作：
-ms.openlocfilehash: 1d9222b895d9df025519c2e7ad01f37757f2ed68
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9bbdeb4d03971884d6a68ed858da94912f2f6911
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20991492"
+ms.locfileid: "21069552"
 ---
 # <a name="av-mcu-settings-expander"></a>AV MCU 设置扩展器
  

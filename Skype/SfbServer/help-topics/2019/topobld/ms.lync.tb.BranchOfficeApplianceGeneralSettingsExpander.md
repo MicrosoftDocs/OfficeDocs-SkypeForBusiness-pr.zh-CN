@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
+ROBOTS: NOINDEX, NOFOLLOW
 description: 若要编辑现有 Survivable Branch Appliance 或 Survivable Branch Server 的设置，可参考以下各节内容：
-ms.openlocfilehash: 194324a845442041b8dd2bc11274b100ba145276
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2a0d0c7ec22baa781f1931f4be7ecfc67d6aa6be
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989075"
+ms.locfileid: "21058865"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>分支机构设备常规设置扩展器
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
+ROBOTS: NOINDEX, NOFOLLOW
 description: 启动拓扑生成器配置的属性和部署的配置。 在启动时，拓扑生成器显示一个对话框，询问将哪些拓扑文档的来源。 您选择三个选项之一：
-ms.openlocfilehash: ef7a55e36fd360ec86eb166e653f802b7eb270c3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d0bd1ca60710b5e2b11e5a393b0536c947b914fc
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "21020564"
+ms.locfileid: "21064298"
 ---
 # <a name="topology-builder-startup-dialog"></a>拓扑生成器启动对话框
  

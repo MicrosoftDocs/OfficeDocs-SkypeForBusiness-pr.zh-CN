@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
+ROBOTS: NOINDEX, NOFOLLOW
 description: 仅当您想要停用整个部署，请运行删除部署向导。 此向导创建空拓扑组成的单个前端服务器。 在运行此向导并发布空拓扑后，您无法将其还原到原始拓扑。
-ms.openlocfilehash: 3e83ba506cf3376a90a7ec245816627328853816
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2e94504c9ab33392219ad98ecad39ad37794800e
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19966716"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21066008"
 ---
 # <a name="remove-deployment-introduction"></a>删除部署简介
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
+ROBOTS: NOINDEX, NOFOLLOW
 description: 若要编辑或修改公用电话交换网 (PSTN) 网关的设置，请修改以下字段：
-ms.openlocfilehash: 87c5666e10fb152b087c1f31e75495caace85bdf
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6b23d419b12fcb13dc5de07e550fbedd3a866ab5
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19989914"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21058334"
 ---
 # <a name="pstn-gateway-settings-expander"></a>PSTN 网关设置扩展器
  

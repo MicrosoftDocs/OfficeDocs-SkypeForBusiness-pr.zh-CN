@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
+ROBOTS: NOINDEX, NOFOLLOW
 description: 若要将新服务器添加到现有池的服务器，其中池是以下项之一：
-ms.openlocfilehash: 4972815a8e390896f40809f2604bf74b75c8500f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 57f791910ea81a552c58d94c865938c3c1f82e61
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988745"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21064883"
 ---
 # <a name="add-server"></a>添加服务器
  

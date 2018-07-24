@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bd9c2b2-8329-4b31-a937-e462f5cc7293
+ROBOTS: NOINDEX, NOFOLLOW
 description: 要在拓扑设计中引入边缘服务器或边缘服务器池，需指定要在其上部署边缘服务器或边缘服务器池的服务器的完全限定的域名 (FQDN)。 发布拓扑，其中包括边缘服务器或边缘服务器池和安装 Business Server Skype 之前, 您应已完成部署外部用户访问的所有先决条件。 有关这些先决条件的详细信息，请参阅部署文档中的外围网络中安装的服务器的准备。
-ms.openlocfilehash: d5021404bc9e8445433f1acdae2c022045f45628
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 18f94e958c8a0e7b0859b598dd5b307dcb2d2411
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987366"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21068589"
 ---
 # <a name="add-edge-server"></a>添加边缘服务器
  

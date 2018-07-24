@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
+ROBOTS: NOINDEX, NOFOLLOW
 description: 监控服务器需要支持的 64 位版本的 SQL Server 数据库软件存储监视数据。 您可以选择先前定义的 SQL Server 数据库，用于监控，或通过指定在其的 SQL Server 数据库将位于，除了 SQL 实例的服务器的完全限定的域名 (FQDN) 来定义新的 SQL Server 数据库您想要用于新的 SQL Server 数据库 （这可以是默认的实例或您指定的命名的实例） 的服务器。
-ms.openlocfilehash: 362f4be3d778d0c5607f6c0ee1233d85d6b9149e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1a8a5dc3e17daa63ed844a3fa566089ee0ee7064
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969769"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069503"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>添加监控服务器 SQL Server 存储
  

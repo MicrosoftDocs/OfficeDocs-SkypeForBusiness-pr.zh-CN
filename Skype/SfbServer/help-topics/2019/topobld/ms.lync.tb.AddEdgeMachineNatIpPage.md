@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 71fb7752-c37f-46bb-a470-b5a8083aa95f
+ROBOTS: NOINDEX, NOFOLLOW
 description: 如果此边缘池的公共 IP 地址已翻译的网络地址转换 (NAT)，则必须指定要转换的公共 IP 地址。 这应该是外部 IP 地址的 A / V 边缘服务。
-ms.openlocfilehash: c0672bfa4ffacb10432713c7248a0a6355f4f57e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: f9fa4bd5df5e6bf2ccad64caacc282df0b595c08
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991569"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21063287"
 ---
 # <a name="add-edge-machine-nat-ip"></a>添加边缘计算机 NAT IP
  

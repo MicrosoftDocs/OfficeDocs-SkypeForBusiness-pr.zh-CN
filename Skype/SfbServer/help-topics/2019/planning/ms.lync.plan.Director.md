@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
+ROBOTS: NOINDEX, NOFOLLOW
 description: 控制器是运行 Business Server 通信软件可以进行身份验证的用户请求，但不承载任何用户帐户的 Skype 的服务器。
-ms.openlocfilehash: a1920d11ed354cab3409a9f2a1fd39280ce2d29d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: e6210c6c4c6b4f92b99eb9287f82e6268db5df12
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19975986"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21058270"
 ---
 # <a name="director-planning-tool"></a>控制器 （规划工具）
  

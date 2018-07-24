@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
+ROBOTS: NOINDEX, NOFOLLOW
 description: 配置持久聊天服务器或持久聊天服务器池将提供数据库的 SQL Server 存储。
-ms.openlocfilehash: f22530a6fbf53a584383cae170d2076d8228eb2f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7cb703f0939adf39b8964956ca4bac9f88518fbd
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20977782"
+ms.locfileid: "21061126"
 ---
 # <a name="add-persistent-chat-sql-server-store"></a>添加持久聊天 SQL Server 存储
 

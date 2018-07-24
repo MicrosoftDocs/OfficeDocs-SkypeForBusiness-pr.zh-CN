@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
+ROBOTS: NOINDEX, NOFOLLOW
 description: 选择您要为您的部署创建的数据库。 默认情况下，数据库将在定义网站中，在定义 SQL 服务器上创建和将自动部署并配置根据您要将数据库放在 SQL Server 数据库文件。
-ms.openlocfilehash: 70bd185b4e559215df7d3623dc5591648e718ed9
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6138608bc98b921ba90401e35bea584efe37a9cb
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979356"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21063008"
 ---
 # <a name="install-and-create-databases"></a>安装和创建数据库
  

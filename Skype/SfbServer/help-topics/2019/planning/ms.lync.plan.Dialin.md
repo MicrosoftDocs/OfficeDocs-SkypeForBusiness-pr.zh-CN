@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
+ROBOTS: NOINDEX, NOFOLLOW
 description: Skype Business Server 电话拨入式会议，用户可以通过使用公用电话交换网 (pstn) 电话，而无需第三方音频会议提供商加入 Skype Business Server 会议的音频部分。
-ms.openlocfilehash: 0b9534e68d3cfaf5638f076b7d53cedf1ec51a19
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 86d52085023bc9600f794a63d47f86f6df161d61
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20049203"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057804"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>电话拨入式会议 （规划工具）
  

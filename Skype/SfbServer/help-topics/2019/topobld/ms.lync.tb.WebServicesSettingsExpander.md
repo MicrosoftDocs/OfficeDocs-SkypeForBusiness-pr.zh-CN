@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
+ROBOTS: NOINDEX, NOFOLLOW
 description: 从拓扑生成器中可以修改用于两个内部和外部 web 服务的端口设置。 此外，如果您正在部署域名系统 (DNS) 负载平衡，您可以使用拓扑生成器配置的完全限定的域名 (FQDN) 解析为池中的所有服务器的物理 IP 地址的池和。
-ms.openlocfilehash: 775268e598120e28ff6402ac09483e6fa987eceb
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 8b607ed42cbb97bbf305fdad916ed2637c9935c5
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997071"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21058463"
 ---
 # <a name="web-services-settings-expander"></a>Web 服务设置扩展器
  

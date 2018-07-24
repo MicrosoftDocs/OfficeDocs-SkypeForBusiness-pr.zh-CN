@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
+ROBOTS: NOINDEX, NOFOLLOW
 description: 若要编辑现有控制器的设置，可参考以下各节内容：
-ms.openlocfilehash: fb42d87140b3a4db2cef0bb70a976d1b9242bbf8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1c292ec694583994131c926094e11eb0a7303e93
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003411"
+ms.locfileid: "21065305"
 ---
 # <a name="director-general-settings-expander"></a>控制器常规设置扩展器
  

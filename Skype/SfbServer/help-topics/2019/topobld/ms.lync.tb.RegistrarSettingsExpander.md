@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
+ROBOTS: NOINDEX, NOFOLLOW
 description: 恢复能力提供高可用性和灾难恢复的注册器池。 通过提供发生故障的主注册器，备份注册器可以接管失败的注册器，为备份注册器允许用户登录并进行通信。 用户可能可以体验缩减的功能，具体取决于其系统已失败的主注册器。
-ms.openlocfilehash: b1609bfa8fd3fe9fb58d02c2154a3427c5ba94c0
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: ff8193ced1f731812cdd4d4095013d1a7cf72cee
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964686"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21067536"
 ---
 # <a name="registrar-settings-expander"></a>注册器设置扩展器
  

@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
+ROBOTS: NOINDEX, NOFOLLOW
 description: 持久聊天服务器，用户可以参与随着时间的推移保留的、 基于主题的多方对话。
-ms.openlocfilehash: b1a9715effc40e2b2e0126e1d48b0dcac11c32a3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ea9127695e9b547b05efcfa4ca1873d7cd058737
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983418"
+ms.locfileid: "21067809"
 ---
 # <a name="persistent-chat-planning-tool"></a>持久聊天 （规划工具）
 

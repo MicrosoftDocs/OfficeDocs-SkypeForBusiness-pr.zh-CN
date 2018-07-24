@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
+ROBOTS: NOINDEX, NOFOLLOW
 description: '您通过配置以下 IP 或公用电话交换网 (PSTN) 定义的根 trunk:'
-ms.openlocfilehash: 2ebf044a72b4e2951469bee7ea1d74b271e23e0c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 957f764cd75e5ca3b4ac389131e3c2a9941b5d55
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19978179"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21063838"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>定义新 IP 或 PSTN 网关的根 Trunk
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
+ROBOTS: NOINDEX, NOFOLLOW
 description: 激活或停用使用的服务器或池机状态设置中列出的部署持久聊天服务器或持久聊天服务器池。 在列表中选择一个服务器或池，并单击“变为活动状态”按钮可将服务器或池设为活动状态。
-ms.openlocfilehash: 25a2dc09d45bb01be1f2e4e03093a3fe2186755a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ab24577f06fea56a2115e3db3c336f05aff472c2
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974985"
+ms.locfileid: "21064848"
 ---
 # <a name="persistent-chat-machines-expander"></a>持久聊天计算机扩展器
 

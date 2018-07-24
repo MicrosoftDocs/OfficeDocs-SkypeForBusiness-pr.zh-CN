@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
+ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示拓扑中定义的站点之一。可以执行以下操作：
-ms.openlocfilehash: 2fc1501f8e5976fdbdc779e59ce1a4fd3d9c09ea
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 26c33e7d2e68351986198afe973f5453085d4a6a
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979300"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21062412"
 ---
 # <a name="test---skype-for-business-server-site-scope-node"></a>Lync Server 站点范围节点
  

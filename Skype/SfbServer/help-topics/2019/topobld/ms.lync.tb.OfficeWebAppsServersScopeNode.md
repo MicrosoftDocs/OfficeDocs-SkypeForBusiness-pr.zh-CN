@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
+ROBOTS: NOINDEX, NOFOLLOW
 description: 右键单击“Office Web Apps Server”，然后选择“新建 Office Web Apps Server”以打开 Office Online 向导。
-ms.openlocfilehash: 58876626e778945a91b6155b18d21f28b5cdb4a9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 95c7d60b4ffe230ab597004d1ceb006fcecbc9c0
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20984356"
+ms.locfileid: "21067924"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps Servers 范围节点
  

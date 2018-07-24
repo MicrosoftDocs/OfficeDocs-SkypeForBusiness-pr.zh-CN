@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
+ROBOTS: NOINDEX, NOFOLLOW
 description: 每个前端池只能拥有一个关联的边缘服务器或边缘池。为站点启用外部用户访问时，可提供对远程用户的支持。还可以启用对联盟用户的支持，包括对特定公共即时消息 (IM) 连接提供商（如 Windows Live）用户的支持，以及对匿名用户的支持。
-ms.openlocfilehash: b4faaf7e6708af6b369846391087ac35742e1d42
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 79c4a17f1d59a071470534915f5421e964f59d1b
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987338"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21063061"
 ---
 # <a name="associate-front-end-with-edge"></a>将前端与边缘关联
  

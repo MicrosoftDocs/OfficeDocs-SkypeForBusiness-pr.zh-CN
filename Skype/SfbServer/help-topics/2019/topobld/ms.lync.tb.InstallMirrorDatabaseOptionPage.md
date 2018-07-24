@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
+ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以通过以下定义配置镜像数据库设置：
-ms.openlocfilehash: fe86501c88282d5caa6ee5921617a1d06c5afaa8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 878df89da759de661729d1e248722cbe8e755085
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983446"
+ms.locfileid: "21064033"
 ---
 # <a name="install-mirror-database-option-page"></a>安装镜像数据库选项页
  

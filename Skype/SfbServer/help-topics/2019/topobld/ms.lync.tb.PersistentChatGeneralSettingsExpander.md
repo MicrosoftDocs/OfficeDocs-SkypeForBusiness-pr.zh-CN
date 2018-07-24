@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
+ROBOTS: NOINDEX, NOFOLLOW
 description: 通过配置或定义以下属性编辑持久聊天服务器或持久聊天服务器池的常规设置：
-ms.openlocfilehash: 08d684b462a05d5848d0bb5eba9a828e410478f3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a5dfceb237d50ec34c3dcbea86c63fb2093df6f2
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995910"
+ms.locfileid: "21069531"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>持久聊天常规设置扩展器
 

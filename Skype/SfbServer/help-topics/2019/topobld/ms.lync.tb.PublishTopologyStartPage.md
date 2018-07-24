@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2ea9613d-e74f-434b-aa51-eaaab206ff1e
+ROBOTS: NOINDEX, NOFOLLOW
 description: 开始发布过程时，将显示发布拓扑页面。 阅读并确认列出的任务已完成，然后您才能继续。 当您准备好继续时，单击下一步。 如果您必须关闭超出发布过程，请单击取消。
-ms.openlocfilehash: b623901f09ce5585a9c59a1907333c165091cf48
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: ebe6cb66c85b27464af2fb9d01c2e190a64c84be
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991745"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21062613"
 ---
 # <a name="publish-topology"></a>发布拓扑
  
