@@ -1,27 +1,26 @@
 ---
-title: 为业务服务器 2015 Skype 中配置呼叫详细信息记录和用户体验质量设置
+title: 为业务 Server Skype 中配置呼叫详细信息记录和用户体验质量设置
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
-description: 摘要： 了解如何为业务服务器 2015 Skype 中配置 CDR 和 QoE。
-ms.openlocfilehash: 0d5a6ba25a524578a13f16c92149977b0180fbdb
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解如何为业务 Server Skype 中配置 CDR 和 QoE。
+ms.openlocfilehash: 7c94815efd30f7f3a30b3a72cfae756085e6aad4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569454"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015001"
 ---
-# <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server-2015"></a>为业务服务器 2015 Skype 中配置呼叫详细信息记录和用户体验质量设置
+# <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>为业务 Server Skype 中配置呼叫详细信息记录和用户体验质量设置
  
-**摘要：** 了解如何为业务服务器 2015 Skype 中配置 CDR 和 QoE。
+**摘要：** 了解如何为业务 Server Skype 中配置 CDR 和 QoE。
   
-配置 CDR 和 QoE 监控 SQL Server Reporting Services 报告的 Skype 使用的业务服务器 2015年。
+配置 CDR 和 QoE 监控的 Skype 业务服务器使用 SQL Server Reporting Services 报表。
   
 ## <a name="configure-cdr-and-qoe"></a>配置 CDR 和 QoE
 
@@ -31,14 +30,14 @@ ms.locfileid: "19569454"
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 ```
 
-为业务服务器 2015年安装 Skype 时，您还将安装预定义的 CDR 和 QoE 的全局配置设置的集合。 下表显示了呼叫详细记录使用的一些较常用设置的默认值：
+在安装 Skype 业务服务器时，您还将安装预定义的 CDR 和 QoE 的全局配置设置的集合。 下表显示了呼叫详细记录使用的一些较常用设置的默认值：
   
 |**属性**|**说明**|**默认值**|
 |:-----|:-----|:-----|
 |EnableCDR  <br/> |指示是否启用 CDR。如果为 True，将收集所有 CDR 记录并写入监控数据库。  <br/> |True  <br/> |
 |EnablePurging  <br/> |指示是否定期从数据库中删除 CDR 记录。如果为 True，则将在属性 KeepCallDetailForDays（对于 CDR 记录）和 KeepErrorReportForDays（对于 CDR 错误）指定的时间段后删除记录。如果为 False，则将无限期保留 CDR 记录。  <br/> |True  <br/> |
 |KeepCallDetailForDays  <br/> |指示 CDR 记录在数据库中保留的天数；超过指定天数的任何记录将自动删除。但是，只有在启用了清除时才会发生这种情况。  <br/> KeepCallDetailForDays 可以设置为 1 到 2562 天（大约 7 年）之间的任意整数值。  <br/> |60 天  <br/> |
-|KeepErrorReportForDays  <br/> |指示保留 CDR 错误报告的天数；超过指定天数的任何报告将自动删除。 CDR 错误报告是由客户端应用程序如 Skype 业务服务器 2015年上载诊断报告。  <br/> 您可以将此属性设置为 1 到 2562 天之间的任意整数值。  <br/> |60 天  <br/> |
+|KeepErrorReportForDays  <br/> |指示保留 CDR 错误报告的天数；超过指定天数的任何报告将自动删除。 CDR 错误报告是由如 Skype 业务服务器的客户端应用程序上载诊断报告。  <br/> 您可以将此属性设置为 1 到 2562 天之间的任意整数值。  <br/> |60 天  <br/> |
    
 类似地，此表中也显示了选定 QoE 设置的默认值：
   

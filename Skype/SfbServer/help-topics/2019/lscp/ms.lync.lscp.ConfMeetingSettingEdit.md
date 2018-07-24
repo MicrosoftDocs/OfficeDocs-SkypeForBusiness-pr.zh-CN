@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
-description: 会议配置设置中定义的用户安排的会议的用户加入体验。 这些设置仅适用于安排的会议。 它们不适用于通过单击客户端中的立即开会选项创建的临时会议。
-ms.openlocfilehash: cdb5c64bc84c7fbc755296c0082ff3323b9a32cb
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 会议配置设置可定义用户预定会议的用户加入体验。这些设置只适用于预定的会议，不适用于通过单击客户端中的“现在开会”选项创建的临时会议。
+ms.openlocfilehash: bbcbd0858fd620bbe5158454401b2e1355995915
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990756"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009699"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>会议配置：创建新的或编辑现有的
  

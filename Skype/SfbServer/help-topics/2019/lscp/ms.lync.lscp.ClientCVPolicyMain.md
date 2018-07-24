@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
-description: 可以指定环境中支持的客户端版本。 当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。 以最大利用业务服务器 Skype 中包含的功能和改进的整体用户体验，您可以使用客户端版本筛选器来限制在您的环境中使用的客户端版本。 使用客户端版本筛选器还有助于降低支持多个客户端版本的相关成本。
-ms.openlocfilehash: 539d0fe24678b9bc9784adf9d3512c1441298010
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 可以指定环境中支持的客户端版本。 当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。
+ms.openlocfilehash: 2743c62f6fbd692723c4ed9ea464e665a65d0abc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969573"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009692"
 ---
 # <a name="client-version-policy"></a>客户端版本策略
  
@@ -26,7 +27,7 @@ ms.locfileid: "19969573"
 
 您可以在“**客户端版本策略**”页上执行以下任务：
   
-- 编辑默认（“**全局**”）客户端版本策略。
+- 编辑默认 （**全局**） 客户端版本策略。
     
 - 为特定站点或池创建客户端版本策略。
     

@@ -1,9 +1,9 @@
 ---
-title: 添加简单的 URL
+title: 添加简单 URL
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,24 +11,25 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
-description: 若要将其他简单的 Url 添加到部署的定义，指定新的简单的 URL 的 URL。
-ms.openlocfilehash: cbe129419d52e0030311c62c1cd6afeec97eef36
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 若要将其他简单 Url 添加到部署的定义，指定新的简单 URL 的 URL。
+ms.openlocfilehash: 20db564e90051ffa274aa46587603273a8ca7581
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21007272"
 ---
-# <a name="add-simple-url"></a>添加简单的 URL
+# <a name="add-simple-url"></a>添加简单 URL
  
-若要将其他简单的 Url 添加到部署的定义，指定新的简单的 URL 的 URL。 URL 的格式是_http://\<简单的 URL 类型\>。\<域名\>_或_http://\<域名\>/\<简单的 URL 类型\>_，其中简单的 URL 类型是下列之一：
+若要将其他简单 Url 添加到部署的定义，指定新的简单 URL 的 URL。 URL 的格式是_http://\<简单 URL 类型\>。\<域名\>_ 或_http://\<域名\>/\<简单 URL 类型\>_，其中的简单 URL 类型是以下项之一：
   
 - 会议
     
 - 拨入
     
 > [!IMPORTANT]
-> 您可以随时激活的满足一个简单 URL 简单的 URL 中的一拨。 添加新的简单的 URL 并使其活动 URL 会设置所有以后的请求使用新简单的 URL。 将非活动简单的 URL 来处理会议和其他活动较早的简单 URL 时所做的请求。 
+> 您可以有一个电话拨入式简单 URL 和随时活动的会议一个简单 URL。 添加新的简单 URL，并使其为活动 URL 会设置所有将来的请求，以使用新的简单 URL。 保留的非活动的简单 URL 来处理会议和所做的旧的简单 URL 处于活动状态时的其他请求。 
   
-有关添加简单的 URL 的详细信息，请参阅[DNS 要求业务服务器 2015年的 Skype 在简单的 Url](../../plan-your-deployment/network-requirements/simple-urls.md)。
+有关添加简单 URL 详细信息，请参阅[中的业务服务器 2015 Skype 的简单 Url 的 DNS 要求](../../plan-your-deployment/network-requirements/simple-urls.md)。
   
 

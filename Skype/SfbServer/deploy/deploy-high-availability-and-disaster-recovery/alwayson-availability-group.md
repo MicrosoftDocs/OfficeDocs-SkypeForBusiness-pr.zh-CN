@@ -1,9 +1,8 @@
 ---
-title: 部署业务服务器 2015年中 Skype 的后端服务器上始终在可用性组
+title: 为业务服务器部署在 Skype 的后端服务器上始终在可用性组
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,14 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: 部署 （安装） 始终在可用性组中您 Skype 业务服务器部署。
-ms.openlocfilehash: 7a277421c13243ba7096a794b59ed93218644f22
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 93d27fc86393a28f4c0e546d034cbf9819ecce87
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569503"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026730"
 ---
-# <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server-2015"></a>部署业务服务器 2015年中 Skype 的后端服务器上始终在可用性组
+# <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>为业务服务器部署在 Skype 的后端服务器上始终在可用性组
  
 部署 （安装） 始终在可用性组 (AG) 中您 Skype 业务服务器部署。
   
@@ -122,13 +121,13 @@ AG 的部署方式取决于是否要在新的池、 使用镜像，一个现有�
     
    - 在**摘要**页上，验证所有设置并单击完成。
     
-7. 使用拓扑生成器来创建前端池中, 所述[创建和发布新拓扑中 Skype 的业务服务器 2015年](../../deploy/install/create-and-publish-new-topology.md)。 执行操作时，指定 AG 为池的 SQL 存储。
+7. 使用拓扑生成器来创建前端池中, 所述[创建和发布新拓扑中 Skype 业务服务器](../../deploy/install/create-and-publish-new-topology.md)。 执行操作时，指定 AG 为池的 SQL 存储。
     
 8. 部署的池以及 AG 后，执行一些最终的步骤，以确保 SQL 登录名位于每个 AlwaysOn 可用性组中的副本。 
     
    - 打开拓扑生成器，选择**下载从现有部署的拓扑**，然后单击**确定**。
     
-   - 依次展开 Skype for Business Server、你的拓扑，以及“**SQL Server 存储**”。 右键单击 SQL 存储的新的 AlwaysOn 可用性组，然后单击 * * 编辑属性 * *。
+   - 依次展开 Skype for Business Server、你的拓扑，以及“**SQL Server 存储**”。 右键单击新 AlwaysOn 可用性组的 SQL 存储，然后单击**编辑属性**。
     
     - 在**SQL Server FQDN**框中，页的底部的值更改为 AG 的侦听器的 FQDN。
     
@@ -418,7 +417,7 @@ AG 的部署方式取决于是否要在新的池、 使用镜像，一个现有�
     
     - 打开拓扑生成器，选择**下载从现有部署的拓扑**，然后单击**确定**。
     
-    - 依次展开 Skype for Business Server、你的拓扑，以及“**SQL Server 存储**”。 右键单击 SQL 存储的新 AG，然后单击 * * 编辑属性 * *。
+    - 依次展开 Skype for Business Server、你的拓扑，以及“**SQL Server 存储**”。 右键单击新 AG 的 SQL 存储，然后单击**编辑属性**。
     
     - 在**SQL Server FQDN**框中，页的底部的值更改为 AG 的侦听器的 FQDN。
     

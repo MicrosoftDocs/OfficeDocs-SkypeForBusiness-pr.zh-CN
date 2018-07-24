@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
+ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组组成代理组、 队列和工作流。 响应组队列保留对响应组呼叫，直到代理应答呼叫。
-ms.openlocfilehash: 8ebdc6a421261f049bcfdd1da8054d3d05849f3f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9d5176b84612c627ed9fbba333c6524ea55be539
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19971473"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026607"
 ---
 # <a name="response-groups-queue"></a>响应组队列
  
@@ -52,6 +53,6 @@ ms.locfileid: "19971473"
     
 - **说明**队列的说明。
     
-有关响应组特性和功能的详细信息，请参阅[规划响应组应用程序中的业务服务器 Skype](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 有关使用响应组队列的详细信息，请参阅操作文档中的[Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) 。
+有关响应组特性和功能的详细信息，请参阅规划文档中的[计划中的业务服务器 Skype 的响应组应用程序](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 有关使用响应组队列的详细信息，请参阅操作文档中的[Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) 。
   
 

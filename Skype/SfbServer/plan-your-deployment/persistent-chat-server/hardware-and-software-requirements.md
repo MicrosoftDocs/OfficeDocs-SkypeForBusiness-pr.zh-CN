@@ -3,18 +3,19 @@ title: Skype for Business Server 2015 中持久聊天服务器的硬件和软件
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
+ms.date: 7/19/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 摘要： 阅读本主题可了解有关硬件和软件要求对于 Persistent Chat Server in Skype 业务服务器 2015年。
-ms.openlocfilehash: 4daf53219937a4ffcfee0e51d80cffb7f1626cf5
-ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
+ms.openlocfilehash: 16a04616a1ec15b4cfffc17cd3a3d9bc271b0dde
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2018
-ms.locfileid: "20363928"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21027001"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中持久聊天服务器的硬件和软件要求
  
@@ -35,6 +36,9 @@ ms.locfileid: "20363928"
 - 消息队列软件。 如果部署 Persistent Chat Server 和持久聊天合规性服务，使用。
     
 以下各节介绍对于 Persistent Chat Server 和存储的持久聊天数据的数据库的特定要求。
+
+> [!NOTE] 
+> 持久聊天中的业务服务器 2015 Skype 可用但业务服务器 2019年不再支持在 Skype。 中团队提供了相同的功能。 有关详细信息，请参阅[从企业对 Microsoft 团队的 Skype 旅程](/microsoftteams/journey-skypeforbusiness-teams)。 如果您需要使用持久聊天，您的选择是也迁移要求给团队，此功能的用户或继续对业务服务器 2015年使用 Skype。 
   
 ## <a name="front-end-server-requirements"></a>前端服务器要求
 

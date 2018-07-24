@@ -3,7 +3,7 @@ title: 中继配置
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,23 +12,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 499b6966-25f4-4b90-a225-d6be48ddab19
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: dc99a55bfbf10c2bb308ee518a7c80d5ef3e3609
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a4a048a82c0b7c808ba8705800fb99cd2ec348ba
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008319"
 ---
 # <a name="trunk-configuration"></a>中继配置
  
 您希望执行什么操作？单击您要执行的任务所对应的链接。
   
-- [配置中继与媒体回避在 Skype 业务服务器 2015](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [在 Skype for Business Server 2015 中配置带媒体旁路的中继](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
     
-- [配置中继不跳过在 Skype 的媒体的业务服务器 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+- [在 Skype for Business Server 2015 中配置无媒体旁路功能的中继](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
     
-- [创建或修改调用 ID 的演示文稿在 Skype 业务服务器 2015年的翻译规则](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [在 Skype for Business Server 2015 中创建或修改来电显示的转换规则](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
     
-- [创建或手动修改转换规则](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [手动创建或修改转换规则](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
     
-您还可以通过 Skype 业务服务器控件面板的不同过程的详细信息，请参阅[管理的业务服务器 2015年的 Skype](../../manage/manage.md)。
+有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
 

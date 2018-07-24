@@ -1,27 +1,26 @@
 ---
-title: Skype for Business Server 2015 中的设备报告
+title: 设备报告中 Skype 业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
-description: 摘要： 了解业务服务器 2015 Skype 的设备报告。
-ms.openlocfilehash: af09f26bc91c132363367c8145846837734ad73f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解业务服务器中 Skype 的设备报告。
+ms.openlocfilehash: d62aa2fbf1bb597b34609d2069ecbccb62f1ef0c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569482"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008650"
 ---
-# <a name="device-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的设备报告
+# <a name="device-report-in-skype-for-business-server"></a>设备报告中 Skype 业务服务器
  
-**摘要：** 了解业务服务器 2015 Skype 的设备报告。
+**摘要：** 了解业务服务器中 Skype 的设备报告。
   
-设备报告可能更好地为麦克风和扬声器报告加了标题；这是因为，该设备报告检索按呼叫中使用的麦克风和扬声器分组的呼叫相关的指标（例如，质量欠佳的呼叫百分比、回声和语音切换时间）。 如果您感兴趣 IP 电话 （通常也称为"设备"），使用[IP 电话清单报告中的业务服务器 2015 Skype](ip-phone-inventory-report.md) 。
+设备报告可能更好地为麦克风和扬声器报告加了标题；这是因为，该设备报告检索按呼叫中使用的麦克风和扬声器分组的呼叫相关的指标（例如，质量欠佳的呼叫百分比、回声和语音切换时间）。 如果您感兴趣 IP 电话 （通常也称为"设备"），使用[IP 电话清单报告中的业务服务器 Skype](ip-phone-inventory-report.md) 。
   
 该设备报告在管理员确定特定类型的设备遇到的质量欠佳的呼叫量是否高于其他呼叫时极其有用。转而，这会对即将购买新设备或替换现有设备时所做的任何决策产生影响。
   
@@ -52,13 +51,13 @@ ms.locfileid: "19569482"
    
 ## <a name="accessing-the-device-report"></a>访问设备报告
 
-通常可从监控报告主页访问该设备报告。 但是，如果您要查看[中的业务服务器 2015 Skype 呼叫详情报告](call-detail-report.md)您可以向下钻取设备报告为特定设备通过单击以下指标之一：
+通常可从监控报告主页访问该设备报告。 但是，如果您要查看[中的业务服务器 Skype 呼叫详情报告](call-detail-report.md)您可以向下钻取设备报告为特定设备通过单击以下指标之一：
   
 - 捕获设备
     
 - 呈现设备
     
-从该设备报告您可以向下钻取[中的业务服务器 2015 Skype Call List Report](call-list-report-0.md)通过单击以下指标之一：
+从该设备报告您可以向下钻取[中的业务服务器 Skype Call List Report](call-list-report-0.md)通过单击以下指标之一：
   
 - 呼叫量
     
@@ -105,7 +104,7 @@ ms.locfileid: "19569482"
 - Aastra 6725ip 麦克风（USB 音频设备）-V0
     
 > [!NOTE]
-> 请记住，捕获设备名称可能相同如果您正在运行的业务服务器 2015 Skype 的本地化的版本。 美国英语中名为 Aastra 6725ip 麦克风 (Aastra 6725ip)-V0 的设备在法语和西班牙语中可能会有不同的名称。 
+> 请记住，捕获设备名称可能相同如果业务服务器运行 Skype 的本地化的版本。 美国英语中名为 Aastra 6725ip 麦克风 (Aastra 6725ip)-V0 的设备在法语和西班牙语中可能会有不同的名称。 
   
 很多时候，您想拥有该级别的详细信息；但在其他时候，您可能仅对多少呼叫在使用普通的 Aastra 麦克风感兴趣，而与型号无关。获得类似此信息的一个方法是将设备报告数据导出到 Microsoft Excel，然后将此数据保存到以逗号分隔的值文件（例如，C:\Data\Devices_Report.csv）中。然后使用一组类似这些的命令，将 .CSV 文件导入到 Windows PowerShell 中，并报告回使用 Aastra 捕获设备所做的呼叫总数：
   
@@ -143,9 +142,9 @@ $x
 
 下表列出了设备报告中提供的信息。
   
-**设备报告指标**
+**设备报告度量**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**您可以按此项排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**捕获设备** <br/> |是  <br/> |用于传输音频的设备（例如麦克风或网络摄像机）。  <br/> |
 |**呈现设备** <br/> |是  <br/> |用于接收音频的设备（例如耳机或扬声器）。  <br/> |

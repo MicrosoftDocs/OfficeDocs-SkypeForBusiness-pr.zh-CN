@@ -1,27 +1,26 @@
 ---
-title: 在 Skype for Business Server 2015 中管理会议服务器配置设置
+title: 管理会议服务器配置设置中 Skype 业务服务器
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
-description: 摘要： 了解如何管理会议服务器配置设置中 Skype 业务服务器 2015年。
-ms.openlocfilehash: e59bfce2a1317d67b1a77f7277996d5a964a314f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解如何管理会议服务器配置设置中 Skype 业务服务器。
+ms.openlocfilehash: ede34c37e957340f0aa01ac511378d2f4bb3a80e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569461"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009892"
 ---
-# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中管理会议服务器配置设置
+# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>管理会议服务器配置设置中 Skype 业务服务器
  
-**摘要：** 了解如何管理会议服务器配置设置中 Skype 业务服务器 2015年。
+**摘要：** 了解如何管理会议服务器配置设置中 Skype 业务服务器。
   
-本主题描述如何管理会议配置设置。 有关如何规划和部署会议的详细信息，请参阅[中的业务服务器 2015 Skype 会议规划](../../plan-your-deployment/conferencing/conferencing.md)和[部署中的业务服务器 2015 Skype 的会议](../../deploy/deploy-conferencing/deploy-conferencing.md)。
+本主题描述如何管理会议配置设置。 有关如何规划和部署会议的详细信息，请参阅[Plan for Business Server 的 Skype 中的会议](../../plan-your-deployment/conferencing/conferencing.md)和[Skype 业务服务器中的部署会议](../../deploy/deploy-conferencing/deploy-conferencing.md)。
   
 会议配置设置确定诸如最大允许大小会议内容和讲义;最大数量的带宽为应用程序共享会议服务;存储限制和过期时段;内部和外部 Url 下载的受支持的客户端;指向内部和外部 Url，用户可从中获取会议帮助和资源。和用于应用程序共享、 客户端音频、 文件传输和媒体流量的端口。 这些设置可让你管理实际服务器本身。 这些设置可以设置使用 Skype 业务 Server Management Shell。
   
@@ -50,7 +49,7 @@ New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
   
 下一个示例定义了一个新的会议配置设置集合，这些设置最初存储在内存中，然后在晚些时候应用到 Redmond 站点。 
   
-第一条命令使用 **New-CsConferencingConfiguration** cmdlet 创建一个新的保存在内存中的设置集合，并存储在变量 $x 中。 InMemory 参数指定应在内存中创建集合，而不立即将该集合应用于 Redmond 站点。
+第一条命令使用 **New-CsConferencingConfiguration** cmdlet 创建一个新的保存在内存中的设置集合，并存储在变量 $x 中。InMemory 参数指定应在内存中创建集合，而不立即将该集合应用于 Redmond 站点。
   
 创建集合后，第二个命令将 Organization 属性的值设置为 Litwareinc。 
   
@@ -62,6 +61,6 @@ $x.Organization = "Litwareinc"
 Set-CsConferencingConfiguration -Instance $x
 ```
 
-如果不调用 **Set-CsConferencingConfiguration**，新的设置就不会生效。 相反，只要你结束 Windows PowerShell 会话或删除变量 $x，它们就会立即消失。
+如果不调用 **Set-CsConferencingConfiguration**，新的设置就不会生效。相反，只要你结束 Windows PowerShell 会话或删除变量 $x，它们就会立即消失。
   
 

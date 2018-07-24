@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
-description: 配置其他使用者替代名称选项提供了对之前完成和申请证书的证书的添加任何其他使用者替代名称 (San) 的机会。 若要添加 SAN，键入 SAN 的完全限定的域名 (FQDN)，然后单击添加。 如果您已添加必须删除了 SAN，突出显示的 SAN 条目，然后单击删除。 若要删除所有已添加的 SAN 条目，请单击全部清除。
-ms.openlocfilehash: b22adb3b02974273856fe0001598d4999a37d5a6
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: “配置其他使用者替代名称”选项提供了一个在最终确定并请求证书之前，向证书添加其他任何使用者替代名称 (SAN) 的机会。要添加 SAN，请键入 SAN 的完全限定域名 (FQDN)，然后单击“添加”。如果已添加必须删除的 SAN，请突出显示该 SAN 条目，然后单击“删除”。要删除已添加的所有 SAN 条目，请单击“全部清除”。
+ms.openlocfilehash: 7410319f0f04d5e162476919978ef2f92eeabd0e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991527"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21011340"
 ---
 # <a name="certificate-request-additional-subject-alternate-names"></a>证书请求（其他使用者替代名称）
  

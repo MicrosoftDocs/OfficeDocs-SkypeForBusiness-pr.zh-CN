@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
 description: 本文档是预备文档，可能随时更改。空白主题均以占位符的形式包含在内。
-ms.openlocfilehash: 90e7bcc235f2613789e56cb31e2b0dec654506b9
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: e6b20c1050630507bf48fbfc075dcf182a30fe91
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988255"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21007250"
 ---
 # <a name="publish-topology-create-mirror-database-page"></a>发布拓扑创建镜像数据库页
  
@@ -26,6 +26,3 @@ ms.locfileid: "19988255"
   
  如果您选择选择不安装一个或所有这些数据库，此时，您将清除您将不会安装的数据库。 稍后，您选择用于**安装数据库**通过右键单击在拓扑生成器中的大多数节点项。
   
-## <a name="see-also"></a>另请参阅
-
-[部署 SQL 镜像后端服务器高可用性 Skype 业务服务器](../../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

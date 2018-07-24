@@ -1,28 +1,28 @@
 ---
-title: Skype for Business Server 2015 中的媒体质量指标分布报告
+title: 媒体质量指标分布报告中 Skype 业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
-description: 摘要： 了解媒体质量指标分布报告在 Skype 业务服务器 2015年。
-ms.openlocfilehash: 8883a15e4d78ee0eb5fad298fcbdddea6aedb5a3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解媒体质量指标分布报告中 Skype 业务服务器。
+ms.openlocfilehash: ef15807cdc0377d2548a83f8da56de9b6cf85e04
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014136"
 ---
-# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的媒体质量指标分布报告
+# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>媒体质量指标分布报告中 Skype 业务服务器 
  
-**摘要：**了解媒体质量指标分布报告在 Skype 业务服务器 2015年。
+**摘要：** 了解媒体质量指标分布报告中 Skype 业务服务器。
   
 通过媒体质量指标分布报告可以查看显示用户体验质量指标（如抖动或数据包丢失）分布值的图形。例如，假设您的用户总共进行 10 次电话呼叫；这 10 次呼叫报告以下往返时间：
   
-|**呼叫号码**|**往返时间 （毫秒）**|
+|**呼叫编号**|**往返时间（毫秒）**|
 |:-----|:-----|
 |1  <br/> |50  <br/> |
 |2  <br/> |50  <br/> |
@@ -45,7 +45,7 @@ ms.lasthandoff: 03/28/2018
 
 利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。下表列出了可用于媒体质量指标分布报告的筛选器。
   
-**媒体质量指标分发报表筛选器**
+**媒体质量指标分布报告筛选器**
 
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**说明**|
 |:-----|:-----|

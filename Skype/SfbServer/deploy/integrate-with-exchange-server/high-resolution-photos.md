@@ -1,27 +1,28 @@
 ---
-title: 在 Skype for Business Server 2015 中配置使用高分辨率照片
+title: 在 Skype for Business Server 中配置使用高分辨率照片
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
-description: 摘要： 为业务服务器 2015年 2016 Exchange 服务器或 Exchange Server 2013 和 Skype 中配置使用高分辨率照片。
-ms.openlocfilehash: 43ca3ca0444339ff61811c8aad5860989e45ca33
-ms.sourcegitcommit: faea19005301c56a081b6e6157965becac76ec2f
+description: 摘要： 在 Exchange Server 2016 或 Exchange Server 2013 和 Skype for Business Server 配置使用高分辨率照片。
+ms.openlocfilehash: 224c8dc238d8427deddc706b883614fd04c9b133
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21007235"
 ---
-# <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置使用高分辨率照片
+# <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>在 Skype for Business Server 中配置使用高分辨率照片
  
-**摘要：** 为业务服务器 2015年 2016 Exchange 服务器或 Exchange Server 2013 和 Skype 中配置使用高分辨率照片。
+**摘要：** 在 Exchange Server 2016 或 Exchange Server 2013 和 Skype for Business Server 配置使用高分辨率照片。
   
-中的业务服务器 2015 Skype 照片可以存储在用户的 Exchange Server 2016 或 Exchange Server 2013 邮箱，从而实现照片大小达 648 像素 x 648 像素。 此外，Exchange Server 可以自动为在不同的产品中使用这些照片根据需要调整大小。 通常，这意味着有三种不同的照片大小和分辨率：
+在业务服务器的 Skype 照片可以存储在用户的 Exchange Server 2016 或 Exchange Server 2013 邮箱，从而实现照片大小达 648 像素 x 648 像素。 此外，Exchange Server 可以自动为在不同的产品中使用这些照片根据需要调整大小。 通常，这意味着有三种不同的照片大小和分辨率：
   
 - 64 像素 x 64 像素，用于 Active Directory thumbnailPhoto 属性的大小。 如果将照片上载到 Exchange 服务器后，Exchange 将自动创建的照片 64 像素版本 64 像素和更新用户 thumbnailPhoto 属性。 但请注意，反向不为 true： 如果您手动更新 Active Directory 中的 thumbnailPhoto 属性在用户的 Exchange 邮箱的照片将不自动更新。
     

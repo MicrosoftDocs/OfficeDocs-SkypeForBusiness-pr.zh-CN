@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 112c77cf-3625-4a97-a1a4-be6f3234cd53
+ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: a3066219a002c4af4a2047e18372e50866c3bf57
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: fed50977da27139a31ed23b849b10b637d506cf9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20049105"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21011582"
 ---
 # <a name="users-view-or-configure-conferencing-policy"></a>用户： 查看或配置会议策略
  

@@ -1,28 +1,27 @@
 ---
-title: 配置 Skype for Business Server 2015 的本地合作伙伴应用程序
+title: 配置内部部署合作伙伴应用程序的 Skype 业务服务器
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
-description: 摘要： 配置内部部署合作伙伴应用程序的 Skype 的业务服务器 2015年。
-ms.openlocfilehash: 2f13196288fb7b609e5e3d39996c12eab04493dc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 配置内部部署合作伙伴应用程序的 Skype 业务服务器。
+ms.openlocfilehash: 1377957797108f3cbc8e290b7750e9fba489cbf8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569447"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009723"
 ---
-# <a name="configure-an-on-premises-partner-application-for-skype-for-business-server-2015"></a>配置 Skype for Business Server 2015 的本地合作伙伴应用程序
+# <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>配置内部部署合作伙伴应用程序的 Skype 业务服务器
  
-**摘要：** 为业务服务器 2015年的 Skype 配置内部部署合作伙伴应用程序。
+**摘要：** 为业务服务器的 Skype 配置内部部署合作伙伴应用程序。
   
-分配 OAuthTokenIssuer 证书后，您必须然后配置您 Skype 业务服务器 2015年合作伙伴应用程序。 （即将要讨论的过程同时配置 Microsoft Exchange Server 2013 和 SharePoint 作为合作伙伴应用程序，它是可选。）若要配置内部部署合作伙伴应用程序，您必须首先复制以下 Windows PowerShell 脚本并粘贴到记事本 （或任何其他文本编辑器） 的代码：
+分配 OAuthTokenIssuer 证书后，您必须然后配置您 Skype Business Server 合作伙伴应用程序。 （即将要讨论的过程同时配置 Microsoft Exchange Server 2013 和 SharePoint 作为合作伙伴应用程序，它是可选。）若要配置内部部署合作伙伴应用程序，您必须首先复制以下 Windows PowerShell 脚本并粘贴到记事本 （或任何其他文本编辑器） 的代码：
   
 ```
 if ((Get-CsPartnerApplication -ErrorAction SilentlyContinue) -ne $Null)
@@ -102,7 +101,7 @@ New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Ex
 
 此错误消息通常指示以下两种情况之一：1) 在脚本中指定的某个 URL 无效（即，某个元数据 URL 不是实际的元数据 URL）；2) 无法联系某个元数据 URL。如果出现此情况，请验证 URL 是否正确且可访问，然后重新运行此脚本。
   
-创建业务服务器 2015 Skype 为合作伙伴应用程序后，您必须然后配置 Skype 的业务合作伙伴应用程序的 Exchange 2013 服务器。 您可以通过运行该脚本 Configure-EnterprisePartnerApplication.ps1; 配置 Exchange 2013 的合作伙伴应用程序您需要执行所有是指定的元数据 URL 的 Skype 业务服务器并指示 Skype 业务服务器是新合作伙伴应用程序。 
+创建合作伙伴应用程序的 Skype 业务服务器后，您必须然后配置业务合作伙伴应用程序的 Exchange 2013 服务器的 Skype。 您可以通过运行该脚本 Configure-EnterprisePartnerApplication.ps1; 配置 Exchange 2013 的合作伙伴应用程序您需要执行所有是指定的元数据 URL 的 Skype 业务服务器并指示 Skype 业务服务器是新合作伙伴应用程序。 
   
 若要配置 Skype 业务服务器的合作伙伴应用程序 exchange，打开 Exchange Management Shell 并运行类似如下的命令
   

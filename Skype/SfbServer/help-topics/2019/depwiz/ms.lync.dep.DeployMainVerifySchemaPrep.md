@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
+ROBOTS: NOINDEX, NOFOLLOW
 description: 若要验证架构扩展已在 Active Directory 域服务林中成功复制，请执行以下操作：
-ms.openlocfilehash: 964e5e235326f9579893676f4b739dd1eac4781f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: bfcc5cba79f023c746aac3d5c312871003f333b2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964756"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020463"
 ---
 # <a name="verify-replication-of-schema-partition"></a>验证架构分区的复制
  
@@ -35,7 +36,7 @@ ms.locfileid: "19964756"
     
 5. 在“**连接设置**”对话框中的“**选择一个已知命名上下文**”下，选择“**架构**”，然后单击“**确定**”。
     
-6. 在架构容器中下, 搜索 CN = ms RTC SIP SchemaVersion。 如果此对象存在，并且**rangeUpper**属性的值为 1150年， **rangeLower**属性的值为 3，然后架构已成功更新和复制。 如果此对象不存在，或**rangeUpper**和**rangeLower**属性的值不为指定，然后架构未经过修改或尚未复制。
+6. 在架构容器下，搜索“CN=ms-RTC-SIP-SchemaVersion”。 如果此对象存在，并且**rangeUpper**属性的值为 1150年， **rangeLower**属性的值为 3，然后架构已成功更新和复制。 如果此对象不存在，或**rangeUpper**和**rangeLower**属性的值不为指定，然后架构未经过修改或尚未复制。
     
 > [!NOTE]
 > 如果架构的复制您复选尚未不显示成功复制，等待约为 15 分钟，然后再次检查。 Active Directory 复制是基于松散一致性模型和一些复制延迟可能发生，根据多种因素的服务器和基础结构中。 

@@ -3,19 +3,19 @@ title: 示例 QoE 数据库查询
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 description: 此部分包含的用户体验质量 (QoE) 数据库的示例查询。
-ms.openlocfilehash: 70fff2c34e7eade21e5f2c29893a175ee65e39b0
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: c66d0fdc51ee3382034f5fba1e98f93a8799f312
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570176"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020595"
 ---
 # <a name="sample-qoe-database-queries"></a>示例 QoE 数据库查询
  

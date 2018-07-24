@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 摘要： 了解如何在 Skype for Business Server 2015 配置持久聊天服务器合规性服务。
-ms.openlocfilehash: 99c09408fbc404edd7ccd6c3844f59dca77a35f0
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: e41afe6b9d6d36a73d818af7fc297e7b20006dcf
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568624"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026614"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>为 Skype for Business Server 2015 中的持久聊天服务器配置合规性服务
  
@@ -36,6 +36,9 @@ ms.locfileid: "19568624"
 - 下载文件
     
 可根据需要，从合规性 SQL 数据库检索此信息。 
+
+> [!NOTE]
+> 持久聊天中的业务服务器 2015 Skype 可用但业务服务器 2019年不再支持在 Skype。 中团队提供了相同的功能。 有关详细信息，请参阅[从企业对 Microsoft 团队的 Skype 旅程](/microsoftteams/journey-skypeforbusiness-teams)。 如果您需要使用持久聊天，您的选择是也迁移要求给团队，此功能的用户或继续对业务服务器 2015年使用 Skype。 
   
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>使用 Windows PowerShell 配置合规性服务
 
@@ -130,7 +133,7 @@ void Translate(ConversationCollection conversations)
   
 **Messages 元素属性**
 
-|**属性**|**说明**|**可选/需要**|
+|**属性**|**说明**|**可选/必需**|
 |:-----|:-----|:-----|
 |类型  <br/> |指定消息类型。消息类型将在" Message 元素消息类型"表中进行介绍。  <br/> |是否必需  <br/> |
 |内容  <br/> |包含消息的内容。具有 Join 或 Part 类型的消息不使用此属性。  <br/> |可选  <br/> |
@@ -140,7 +143,7 @@ void Translate(ConversationCollection conversations)
   
 **Sender 元素属性**
 
-|**属性**|**说明**|**可选/需要**|
+|**属性**|**说明**|**可选/必需**|
 |:-----|:-----|:-----|
 |Username  <br/> |发送者的名称。  <br/> |可选  <br/> |
 |ID  <br/> |发件人的唯一 id。  <br/> |是否必需  <br/> |

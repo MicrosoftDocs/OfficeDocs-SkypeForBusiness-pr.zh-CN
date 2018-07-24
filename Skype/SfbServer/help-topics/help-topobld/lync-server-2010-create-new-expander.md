@@ -1,9 +1,9 @@
 ---
-title: Lync Server 2010 中创建新的扩展器
+title: Lync Server 2010 创建新的扩展器
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,15 +11,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ef810ad3-1689-4c21-b995-d45e5486f8b0
-description: 可以通过右击 Lync Server 2010 上 Lync Server 2010 中节点的拓扑生成器中创建新的服务器角色，选择新建，然后选择要创建的服务器角色。
-ms.openlocfilehash: 405a359f48d55bd3075bc8ee171e70a06d2259e4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 您可以通过右键单击 Lync Server 2010 的拓扑生成器 Lync Server 2010 节点中创建新的服务器角色，选择新建，然后选择要创建的服务器角色。
+ms.openlocfilehash: 67a6714bf941d7d70fc8e047e18d5f499cfb706d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008513"
 ---
-# <a name="lync-server-2010-create-new-expander"></a>Lync Server 2010 中创建新的扩展器
+# <a name="lync-server-2010-create-new-expander"></a>Lync Server 2010 创建新的扩展器
  
-可以通过右击**Lync Server 2010**上 Lync Server 2010 中节点的拓扑生成器中创建新的服务器角色，选择**新建**，然后选择要创建的服务器角色。
+您可以通过右键单击**Lync Server 2010**的拓扑生成器 Lync Server 2010 节点中创建新的服务器角色，选择**新建**，然后选择要创建的服务器角色。
   
 

@@ -3,19 +3,18 @@ title: Skype 会议室系统的部署概述
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
 description: 阅读有关如何执行部署 Skype 会议室系统，会议房间解决方案集成的硬件和软件的优化业务会议加入 Skype 组成。
-ms.openlocfilehash: ed31a1892ca1661282f87775fae805da5b5f8504
-ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
+ms.openlocfilehash: a985a209c63d6d0262db42fb07f78133960444ca
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19927800"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020470"
 ---
 # <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>部署规划中的业务的 Skype 的 Skype 会议室系统
  
@@ -76,7 +75,7 @@ Skype 会议室系统无法早于 Lync Server 2013 驻留在 Lync server 版本�
 下表指示 Skype 会议室系统与 Exchange Server 版本的客户端可支持性： 
   
 
-|**Exchange**|**本地**|**联机**|**混合**|
+|**Exchange**|**内部部署**|**Online**|**混合**|
 |:-----|:-----|:-----|:-----|
 |Exchange 2010  <br/> |是（仅限单林）  <br/> |不适用  <br/> |不适用  <br/> |
 |Exchange 2013  <br/> |是（多林支持适用于 Exchange 2013 CU6 和更高版本）  <br/> |是  <br/> |是  <br/> |

@@ -1,31 +1,30 @@
 ---
-title: 在 Skype for Business Server 2015 中查看用户 PIN 信息
+title: 查看用户 PIN 信息中 Skype 业务服务器
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-description: 摘要： 用于业务服务器 2015 Skype 中查看用户 PIN 信息。
-ms.openlocfilehash: fecd4c983cad20b0efa77cbd5c6fc809db777aec
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 业务服务器 Skype 中查看用户 PIN 信息。
+ms.openlocfilehash: 4b0eda76e4429ee5c6d658f4d161783bc4d356a3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568757"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008557"
 ---
-# <a name="view-user-pin-information-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中查看用户 PIN 信息
+# <a name="view-user-pin-information-in-skype-for-business-server"></a>查看用户 PIN 信息中 Skype 业务服务器
  
-**摘要：** 查看用户 PIN 信息中 Skype 业务服务器 2015年。
+**摘要：** 查看用户 PIN 信息中 Skype 业务服务器。
   
-若要加入电话拨入式会议作为经过身份验证的用户，具有 Active Directory 域服务 (AD DS) 凭据的业务服务器 2015年用户 Skype 需要个人标识号 (PIN)。 您可以查看用户 PIN 信息从 Skype 业务 Server Control Panel。
+若要加入电话拨入式会议作为经过身份验证的用户，具有 Active Directory 域服务 (AD DS) 凭据的企业服务器用户 Skype 需要的个人标识号 (PIN)。 您可以查看用户 PIN 信息从 Skype 业务 Server Control Panel。
   
 > [!NOTE]
-> 您可以查看 PIN 状态信息（如是否已设置 PIN 或上次更改 PIN 的时间），但无法通过查看 PIN 状态来查看当前 PIN。 如果用户已丢失其 PIN，您可以通过重置其中[设置用户的电话拨入式会议中的业务服务器 2015 Skype 的 PIN](set-a-user-s-dial-in-conferencing-pin.md)的步骤
+> 您可以查看 PIN 状态信息（如是否已设置 PIN 或上次更改 PIN 的时间），但无法通过查看 PIN 状态来查看当前 PIN。 如果用户已丢失其 PIN，您可以通过重置其中[设置用户的电话拨入式会议 PIN Skype 业务服务器中](set-a-user-s-dial-in-conferencing-pin.md)的过程
   
 ### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>若要查看用户 PIN Skype 中的业务 Server Control Panel
 
@@ -87,6 +86,6 @@ PinExpirationTime :
   
 ## <a name="see-also"></a>另请参阅
 
-[业务服务器 2015 Skype 中设置用户的电话拨入式会议 PIN](set-a-user-s-dial-in-conferencing-pin.md)
+[为业务服务器 Skype 中设置用户的电话拨入式会议 PIN](set-a-user-s-dial-in-conferencing-pin.md)
   
-[锁定或解锁用户 PIN Skype 中的业务服务器 2015](lock-or-unlock-a-user-pin.md)
+[锁定或解锁用户 PIN Skype 中的业务服务器](lock-or-unlock-a-user-pin.md)
