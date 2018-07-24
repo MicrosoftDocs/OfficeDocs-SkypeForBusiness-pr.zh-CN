@@ -9,24 +9,28 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
-description: 摘要： 阅读本主题，以了解如何创建启用初始配置和管理的持久聊天服务 Skype 业务服务器 2015年的持久聊天服务器管理员角色。
-ms.openlocfilehash: 4efe5dff2821784a24f51712b8a19dad83e47c3b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 阅读本主题可了解如何创建启用初始配置和管理业务服务器 2015年持久聊天中的 services Skype 的持久聊天服务器管理员角色。
+ms.openlocfilehash: df2c62964d6c1d315f6fda04132c829d235e6038
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966113"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建持久聊天管理员
  
-**摘要：**阅读本主题，以了解如何创建启用初始配置和管理的持久聊天服务 Skype 业务服务器 2015年的持久聊天服务器管理员角色。
+**摘要：** 阅读本主题可了解如何创建启用初始配置和管理业务服务器 2015年持久聊天中的 services Skype 的持久聊天服务器管理员角色。
   
-在 Skype 业务服务器，必须为一个或多个特定组的成员分配用户执行特定任务。 使用基于角色的访问控制 (RBAC) 是通过将用户分配到预定义的 Skype 业务服务器管理角色授予的权限。 这些角色对应 Active Directory 域服务中的通用安全组。 持续聊天管理员安全组，CsPersistentChatAdministrator 的成员会被授予访问持久聊天服务器的 cmdlet，可以为企业使用的业务服务器管理外壳 Skype 或 Skype 执行服务器的控制面板。
+在 Skype 业务服务器，必须将执行特定任务的用户分配为一个或多个特定组的成员。 基于角色的访问控制 (RBAC) 用于通过向预定义 Skype 业务服务器管理角色分配用户授予权限。 这些角色对应 Active Directory 域服务中的通用安全组。 CsPersistentChatAdministrator，Persistent Chat Administrator 安全组的成员会被授予访问可用于业务业务 Server 命令行管理程序 Skype 或 Skype 执行的持久聊天服务器 cmdletServer Control Panel。
   
 在配置和管理持久聊天服务器之前，请确保已分配相应的用户权限，并将充当持久聊天管理员的任何用户添加到持久聊天管理员安全组中。
   
+> [!NOTE] 
+> 持久聊天中的业务服务器 2015 Skype 可用但业务服务器 2019年不再支持在 Skype。 中团队提供了相同的功能。 有关详细信息，请参阅[从企业对 Microsoft 团队的 Skype 旅程](/microsoftteams/journey-skypeforbusiness-teams)。 如果您需要使用持久聊天，您的选择是也迁移要求给团队，此功能的用户或继续对业务服务器 2015年使用 Skype。
+
 ## <a name="create-a-persistent-chat-administrator"></a>创建持久聊天管理员
 
-若要将用户添加到的持续聊天管理员安全组中，CsPersistentChatAdministrator，请执行以下步骤：
+若要将用户添加到持久聊天管理员安全组，CsPersistentChatAdministrator，执行以下步骤：
   
 1. 使用具有修改 Active Directory 组成员身份权限的帐户，登录到已安装“Active Directory 用户和计算机”的计算机。
     

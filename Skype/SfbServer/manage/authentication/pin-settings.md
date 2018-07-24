@@ -1,46 +1,46 @@
 ---
-title: 管理 Skype for Business Server 2015 中的 PIN 设置
+title: 管理业务服务器中 Skype PIN 设置
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4a104e2-830c-47f1-a5dd-de7a937cc83a
-description: 摘要： 管理 PIN 设置在 Skype 业务服务器 2015年。
-ms.openlocfilehash: 62b3c4f81b874cf5b635a89aba1946e61613c065
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 管理业务服务器中 Skype PIN 设置。
+ms.openlocfilehash: 4c5d9ac081256230ea4699bcbf03ee71a8d1a712
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965651"
 ---
-# <a name="manage-pin-settings-in-skype-for-business-server-2015"></a>管理 Skype for Business Server 2015 中的 PIN 设置
+# <a name="manage-pin-settings-in-skype-for-business-server"></a>管理业务服务器中 Skype PIN 设置
  
-**摘要：**管理业务服务器 2015年在 Skype 的 PIN 设置。
+**摘要：** 管理业务服务器中 Skype PIN 设置。
   
-以下各节中使用过程管理的业务服务器 2015年的 Skype 的针脚。
+使用以下各节过程来管理业务服务器中 Skype 的 Pin。
   
-对于业务服务器 2015 PIN 策略从 Skype 业务服务器的控制面板或 Skype 的业务服务器管理外壳，您可以管理 Skype。 使用以下过程为您的组织配置 PIN 策略。
+从业务 Server Control Panel 的 Skype 或业务 Server Management Shell 的 Skype 业务服务器 PIN 策略的您可以管理 Skype。 使用以下过程为您的组织配置 PIN 策略。
   
-- [在 Skype 的 PIN 策略信息查看业务服务器 2015](view-pin-policy-information.md)
+- [业务服务器 Skype 中查看 PIN 策略信息](view-pin-policy-information.md)
     
-- [在 Skype 为业务服务器 2015年中创建的新 PIN 策略](create-a-new-pin-policy.md)
+- [为 Business Server Skype 创建新的 PIN 策略](create-a-new-pin-policy.md)
     
-- [修改现有的 PIN 策略在 Skype 业务服务器 2015](modify-an-existing-pin-policy.md)
+- [修改业务服务器 Skype 中现有的 PIN 策略](modify-an-existing-pin-policy.md)
     
-- [删除业务服务器 2015年在 Skype 的 PIN 策略](delete-a-pin-policy.md)
+- [删除业务服务器中 Skype 的 PIN 策略](delete-a-pin-policy.md)
     
-- [每个用户 PIN 在分配策略 Skype 的业务服务器 2015](assign-a-per-user-pin-policy.md)
+- [为业务服务器分配 Skype 中的每用户 PIN 策略](assign-a-per-user-pin-policy.md)
     
-使用以下过程来管理用户的拨入会议针从 Skype 的**用户**部分业务服务器的控制面板。
+使用以下过程为业务 Server Control Panel 从 Skype 的**用户**部分管理用户的电话拨入式会议 Pin。
   
-- [设置用户的拨入会议针在 Skype 业务服务器 2015](set-a-user-s-dial-in-conferencing-pin.md)
+- [为业务服务器 Skype 中设置用户的电话拨入式会议 PIN](set-a-user-s-dial-in-conferencing-pin.md)
     
-- [查看用户 PIN 信息在 Skype 业务服务器 2015](view-user-pin-information.md)
+- [查看用户 PIN 信息中 Skype 业务服务器](view-user-pin-information.md)
     
-- [锁定或解锁针脚，Skype 用户的业务服务器 2015](lock-or-unlock-a-user-pin.md)
+- [锁定或解锁用户 PIN Skype 中的业务服务器](lock-or-unlock-a-user-pin.md)
     
 
