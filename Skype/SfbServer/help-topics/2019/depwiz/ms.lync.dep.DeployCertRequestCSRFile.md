@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
-description: 若要创建的脱机请求，您必须首先创建的证书签名请求 (CSR)。 在文件名文本框中键入 CSR 的路径和文件名称。 您可以单击浏览以选择一个位置创建 CSR。 单击下一步。
-ms.openlocfilehash: ee87c82da4889f40a1cfdb0d977986b95fc6e445
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 若要创建的脱机请求，您必须首先创建的证书签名请求 (CSR)。 在文件名文本框中键入 CSR 的路径和文件名称。 您可以单击浏览以选择一个位置创建 CSR。 单击“下一步”继续。
+ms.openlocfilehash: 70a59dc8a7641ec39a5b5ec657f73f9ea23b3536
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974048"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968150"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>证书请求 （证书签名请求）
  

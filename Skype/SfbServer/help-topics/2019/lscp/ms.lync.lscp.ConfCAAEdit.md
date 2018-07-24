@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
+ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 97bda95c77d667cde2742fbec70cbafc0438aa69
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: b9f6873b8479572586781967401d16f0fd3f744c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973494"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995186"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>拨入访问号码：创建新的或编辑现有的
  

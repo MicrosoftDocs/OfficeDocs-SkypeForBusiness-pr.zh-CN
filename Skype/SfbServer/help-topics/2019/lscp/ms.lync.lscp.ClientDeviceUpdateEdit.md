@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
+ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以向编辑日志设置页上，确定最大日志缓存大小、 最大日志文件大小或在被清除之前保留日志文件的时间长度添加设备日志配置。 您可以更改这些设置根据贵组织的要求。
-ms.openlocfilehash: 712ba87ab19d2b69792ba720e984d64dd4aac478
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 7e2e5091c662f105b47e2a3a8574c144457753dc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19972327"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974436"
 ---
 # <a name="device-log-configuration-edit"></a>设备日志配置： 编辑
  

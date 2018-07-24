@@ -1,26 +1,26 @@
 ---
-title: Skype for Business Server 2015 中的会议诊断报告
+title: 会议中 Skype 业务服务器的诊断报告
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
-description: 摘要： 了解使用 Skype 业务服务器 2015年会议诊断报告。
-ms.openlocfilehash: 6d638efbd011026cd4481d3a68d0a4836fb792a3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解在 Skype 用于 Business Server 会议诊断报告。
+ms.openlocfilehash: 75d12f8b2906e84a8ca786a7103ce41d87f3f300
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981127"
 ---
-# <a name="conference-diagnostic-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的会议诊断报告
+# <a name="conference-diagnostic-report-in-skype-for-business-server"></a>会议中 Skype 业务服务器的诊断报告
  
-**摘要：**了解有关使用 Skype 业务服务器 2015年会议诊断报告。
+**摘要：** 了解有关会议诊断报告中 Skype 用于业务服务器的信息。
   
-会议诊断报告提供有关所有会议会话成功和失败的信息。 请注意，Skype 业务服务器区分不同类型的故障：
+会议诊断报告提供有关所有会议会话成功和失败的信息。 请注意，业务服务器 Skype 区分不同种类的失败：
   
 - **预期失败**。预期失败通常仅是大多数技术意义上的失败。例如，假定有人启动会议，但在任何人可加入前挂起。技术上的失败：会议已启动，但没有完成。但是，以下是预期发生的失败：如果任何人可加入前组织取消会议，则将不会预期会议要完成。
     
@@ -28,15 +28,15 @@ ms.lasthandoff: 03/28/2018
     
 请注意，成功、预期失败和意外失败指标可能无法添加到总会话数指标。例如，可能会看到报告中的下列值：
   
-|**成功**|**预期的故障**|**意外的故障**|**会话总数**|
+|**成功**|**预期失败**|**意外失败**|**会话总数**|
 |:-----|:-----|:-----|:-----|
 |2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
-如果 2024 + 469 + 16 得到 2,509 个会话，而总会话列显示 2,521 个总会话数。 “丢失的”12 个会话是系统无法作为成功或失败进行分类的会话。 当第三方产品引入了新的诊断代码都不熟悉到监视服务器，，有时会出现这种情况。 如果发生这种情况，使用该产品制定的呼叫和报告该诊断代码的呼叫无法总是作为成功、预期失败或意外失败进行分类。
+如果 2024 + 469 + 16 得到 2,509 个会话，而总会话列显示 2,521 个总会话数。 “丢失的”12 个会话是系统无法作为成功或失败进行分类的会话。 第三方产品引入了一个新的诊断代码，不熟悉向监控服务器时，有时将向的大小写。 如果发生这种情况，使用该产品制定的呼叫和报告该诊断代码的呼叫无法总是作为成功、预期失败或意外失败进行分类。
   
 ## <a name="accessing-the-conference-diagnostic-report"></a>访问会议诊断报告
 
-可从监控报告主页访问会议诊断报告。 通过单击以下指标之一，可以访问[业务服务器 2015年的 Skype 在故障分布报告](failure-distribution-report.md)：
+可从监控报告主页访问会议诊断报告。 您可以通过单击以下指标之一来访问[故障分布报告中 Skype 业务服务器](failure-distribution-report.md)：
   
 - 意外失败量
     
@@ -44,7 +44,7 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>充分利用会议诊断报告
 
-会议诊断报告包括一系列图形。 图形中显示的每个列实际是个超链接。 如果单击某一列，将深入这个时间段和该会议类型的[业务服务器 2015年的 Skype 在失败分发报告](failure-distribution-report.md)。
+会议诊断报告包括一系列图形。 图形中显示的每个列实际是个超链接。 如果单击了列，您将向下钻取[故障分布报告中的业务服务器 Skype](failure-distribution-report.md)的时间段和该会议类型。
   
 ## <a name="filters"></a>筛选器
 
@@ -66,9 +66,9 @@ ms.lasthandoff: 03/28/2018
 
 下表列出了每种会议会话的会议诊断报告中提供的信息。
   
-**会议诊断报告统计数据**
+**会议诊断报告指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**可以在此项上进行排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**成功量** <br/> |否  <br/> |成功的会议总数。  <br/> |
 |**成功百分比** <br/> |否  <br/> |已完成且没有严重问题的会议百分比。计算方法是“成功量”除以“会话总数”。  <br/> |

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
+ROBOTS: NOINDEX, NOFOLLOW
 description: 若要准备 Active Directory 域服务林，必须成功扩展架构，如 Running Schema Preparation 主题中所述，并确保架构已复制。
-ms.openlocfilehash: f993236fc13fc2274acaa8bb4c6b0ae1105afccb
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 8bab8fecef4980c2d82f92a90f5c11c6bf7870f1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987485"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971895"
 ---
 # <a name="prepare-current-forest"></a>准备当前林
  
@@ -29,7 +30,7 @@ ms.locfileid: "19987485"
 2. 在“**准备林**”页上，单击“**下一步**”。
     
     > [!NOTE]
-    > 林准备过程，可以选择放置的 Skype 的通用组位置的业务服务器 2015年。 选择与组织要求一致的位置。 
+    > 林准备过程，可以选择业务服务器放置的 Skype 的通用组的位置。 选择与组织要求一致的位置。 
   
 3. 在“**正在执行命令**”页上，查找“**任务状态：已完成**”，然后单击“**查看日志**”。确保没有任何错误。查看警告以确定对于您的基础结构来说，它们是否为预期和典型的问题。
     

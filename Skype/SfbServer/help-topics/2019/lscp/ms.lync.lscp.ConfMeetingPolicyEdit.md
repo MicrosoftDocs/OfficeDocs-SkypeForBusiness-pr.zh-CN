@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
+ROBOTS: NOINDEX, NOFOLLOW
 description: 会议策略定义会议期间用户可以使用的各种功能。
-ms.openlocfilehash: cd4fc43470c2e05136309d3dea0143554f623ee6
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 4a230f7ce9aeb0943ad754d5ea842b681c4cca48
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19968711"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20994684"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>会议策略：创建新的或编辑现有的
  

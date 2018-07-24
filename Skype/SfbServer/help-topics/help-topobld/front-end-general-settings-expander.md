@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 要编辑现有前端池或 Standard Edition Server 的设置，可参考以下各节内容：
-ms.openlocfilehash: 84b26c929f2f662c93163df2fd73a6e3576a3a97
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 74a26ca009d0a050babd10e72aeae2e814905cd4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986867"
 ---
 # <a name="front-end-general-settings-expander"></a>前端常规设置扩展器
  
@@ -32,7 +33,7 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="front-end-pool"></a>前端池
 
-对于前端池，可以配置常规设置、复原设置、Web 服务设置和中介服务器设置。 有关详细信息，请参阅以下子节中的信息。 定义和配置为前端池的设置的详细信息，请参阅[部署中介服务器和定义等](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
+对于前端池，可以配置常规设置、复原设置、Web 服务设置和中介服务器设置。 有关详细信息，请参阅以下子节中的信息。 有关定义和配置前端池设置的详细信息，请参阅[Deploying Mediation Servers and Defining Peers](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
   
 ### <a name="general-settings"></a>常规设置
 
@@ -46,7 +47,7 @@ ms.lasthandoff: 03/28/2018
     
   - **会议**。包含音频、视频和应用程序共享。选择此选项后，您可以选择电话拨入式 (PSTN) 会议。可以在本节后面的“中介服务器设置”子节下指定并定义公用电话交换网 (PSTN) 网关。
     
-  - **企业语音**。 使业务客户端可以通过合格的电话机和设备和 Skype 的 IP 呼叫内部的声音。 若要启用外部呼叫功能，需要包含中介服务器。 有关详细信息，请参阅本主题后面的“中介服务器”。
+  - **企业语音**。 启用业务客户端通过 IP 限定的话筒设备和 Skype 调用内部语音。 若要启用外部呼叫功能，需要包含中介服务器。 有关详细信息，请参阅本主题后面的“中介服务器”。
     
 - 在“**关联**”中，编辑或指定以下内容：
     
@@ -99,7 +100,7 @@ ms.lasthandoff: 03/28/2018
 对于“**内部 Web 服务**”，请指定以下内容：
   
 > [!CAUTION]
-> 如果您有多个前端池或前端服务器，外部 Web 服务 FQDN 必须是唯一的。 例如，如果您定义为**pool01.contoso.com**的外部 Web 服务前端服务器的 FQDN，则不能为另一个前端池或前端服务器使用**pool01.contoso.com** 。 如果还部署控制器，FQDN 的外部 Web 服务定义的任何主管或主管池必须不同于任何其他控制器或控制器为很好地从任何前端池池或前端服务器。 如果您决定要重写的内部 web 服务使用自定义的 FQDN，每个 FQDN 必须是唯一的从任何其他前端池、 部长或主任池。
+> 如果您有多个前端池或前端服务器，外部 Web 服务 FQDN 必须是唯一的。 例如，如果您定义的外部 Web 服务的前端服务器的 FQDN 为**pool01.contoso.com**，不能使用**pool01.contoso.com** ，另一个前端池或前端服务器。 如果您还部署控制器、 外部 Web 服务 FQDN 定义任何控制器或控制器池必须不同于任何其他控制器或控制器池，如也来任何前端池或前端服务器。 如果您决定覆盖内部 web 服务与自定义的 FQDN，每个 FQDN 必须是唯一从任何其他前端池、 控制器或控制器池。
   
 - 如果选择“**覆盖 FQDN**”，则可以为池上的“**内部 Web 服务**”标识指定不同的 FQDN。默认情况下，该设置是为前端池定义的当前池名称。
     
@@ -109,7 +110,7 @@ ms.lasthandoff: 03/28/2018
   
 - 外部 Web 服务的 FQDN。此处指定的 FQDN 通常由外部连接要求（如反向代理）定义。
     
-- 部署所需的 HTTP 和 HTTPS 侦听端口和已发布端口。 最初定义为端口 8080（对于 HTTP）和端口 4443（对于 HTTPS）的默认设置。 根据反向代理的要求和外部网络要求，更改侦听端口的这些设置。 已发布端口设置为端口 80（对于 HTTP）和端口 443（对于 HTTPS）的默认值。 这些值确定了该池将侦听哪些端口的传入请求。 通常情况下，这些不需要进行更改，除非端口要求池上的冲突。 建议使用相同端口值的内部和外部已发布端口。 这不会出现冲突。
+- 部署所需的 HTTP 和 HTTPS 侦听端口和已发布端口。 最初定义为端口 8080（对于 HTTP）和端口 4443（对于 HTTPS）的默认设置。 根据反向代理的要求和外部网络要求，更改侦听端口的这些设置。 已发布端口设置为端口 80（对于 HTTP）和端口 443（对于 HTTPS）的默认值。 这些值确定了该池将侦听哪些端口的传入请求。 通常，这些不需要更改，除非存在冲突的池上的端口要求。 建议使用相同端口值的内部和外部已发布端口。 这不会出现冲突。
     
 ### <a name="mediation-server"></a>中介服务器
 
@@ -123,17 +124,17 @@ ms.lasthandoff: 03/28/2018
     
 - 如果有多个中继与中介服务器关联，可以通过选择相应中继，然后单击“**设为默认值**”，指定默认中继。若要取消选择中继作为默认中继，请单击“**取消设为默认值**”。 
     
-定义和配置为前端池的设置的详细信息，请参阅[部署中介服务器和定义等](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
+有关定义和配置前端池设置的详细信息，请参阅[Deploying Mediation Servers and Defining Peers](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
   
 ## <a name="standard-edition-server"></a>Standard Edition Server
 
-对于 Standard Edition Server，可以配置常规设置、复原设置、Web 服务设置和中介服务器设置。 有关详细信息，请参阅以下子节中的信息。 定义和配置标准版服务器的设置的详细信息，请参阅[定义和配置拓扑结构](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)，以及[部署中介服务器和定义等](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
+对于 Standard Edition Server，可以配置常规设置、复原设置、Web 服务设置和中介服务器设置。 有关详细信息，请参阅以下子节中的信息。 有关定义和配置设置的 Standard Edition server 的详细信息，请参阅[Defining and Configuring the Topology](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)和[Deploying Mediation Servers and Defining Peers](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
   
 ### <a name="general-settings"></a>常规设置
 
 可以配置以下常规设置：
   
-- * * FQDN * *。 请注意，无法更改 FQDN。 必须删除并重新定义 Standard Edition Server 才能更改与其关联的 FQDN。
+- **FQDN**。 请注意，无法更改 FQDN。 必须删除并重新定义 Standard Edition Server 才能更改与其关联的 FQDN。
     
 - 选择“**使用所有已配置的 IP 地址**”或“**将服务用途限制为所选 IP 地址**”。如果选择将服务用途限制为定义的 IP 地址，则需要定义服务器用于除 PSTN 外的所有通信的主 IP 地址。需要定义单独的 IP 地址用于 PSTN。也可以选择“**启用 IPv6**”为此服务器启用 IPv6。
     
@@ -143,7 +144,7 @@ ms.lasthandoff: 03/28/2018
     
   - **会议**。包含音频、视频和应用程序共享。选择此选项后，您可以选择“**电话拨入式 (PSTN) 会议**”。稍后可以在中介服务器设置下指定并定义 PSTN 网关。
     
-  - **企业语音**。 使业务客户端可以通过合格的电话机和设备和 Skype 的 IP 呼叫内部的声音。 若要启用外部呼叫功能，需要包含中介服务器。 有关详细信息，请参阅本主题后面的“中介服务器”。
+  - **企业语音**。 启用业务客户端通过 IP 限定的话筒设备和 Skype 调用内部语音。 若要启用外部呼叫功能，需要包含中介服务器。 有关详细信息，请参阅本主题后面的“中介服务器”。
     
 - 在“**关联**”中，可以编辑或指定以下内容：
     
@@ -202,6 +203,6 @@ ms.lasthandoff: 03/28/2018
     
 - 如果有多个网关与中介服务器关联，可以通过选择相应网关，然后单击“**设为默认值**”，指定默认网关。若要取消选择网关作为默认网关，请单击“**取消设为默认值**”。 
     
-定义和配置标准版服务器的设置的详细信息，请参阅[定义和配置拓扑结构](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)，以及[部署中介服务器和定义等](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
+有关定义和配置设置的 Standard Edition server 的详细信息，请参阅[Defining and Configuring the Topology](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)和[Deploying Mediation Servers and Defining Peers](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
   
 

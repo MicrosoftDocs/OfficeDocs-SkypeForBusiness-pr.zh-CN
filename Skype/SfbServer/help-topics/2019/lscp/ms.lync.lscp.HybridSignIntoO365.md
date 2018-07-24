@@ -14,13 +14,14 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
+ROBOTS: NOINDEX, NOFOLLOW
 description: 使用业务服务器混合可管理性向导 Skype 可帮助您配置的混合环境与 Skype 的业务联机。
-ms.openlocfilehash: 03183e8935119b7caf623e9478ec2239f29c352d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 012acb21f78707a17f8c90fde490d4d7d9a2b1fb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19968515"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971137"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>混合向导：登录到 Office 365
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
+ROBOTS: NOINDEX, NOFOLLOW
 description: 使用选择超链接前缀对话框中选择您想要阻止、 发送一条警告消息，或通过选中 （以阻止或发送一条警告消息） 或清除允许 （以允许） 的超链接的类型及其扩展名下的类别中对应的复选框超链接前缀。 单击箭头以展开类别并查看所有类别的超链接前缀。 如果您想要选择的所有类别的超链接前缀，选择类别名称。
-ms.openlocfilehash: 85b2e240921e18dcb596bf930faf88894f4a5a5e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 4fbceccc00d95466190859d6eb8a9be9e5b4134b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964735"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989448"
 ---
 # <a name="select-hyperlink-prefix"></a>选择超链接前缀
  
@@ -26,6 +27,6 @@ ms.locfileid: "19964735"
   
 您已将所有所需的超链接前缀添加到**选择超链接前缀**列表中后，单击**确定**。
   
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[业务服务器管理 Skype](../../../manage/manage.md)。
+ 
   
 

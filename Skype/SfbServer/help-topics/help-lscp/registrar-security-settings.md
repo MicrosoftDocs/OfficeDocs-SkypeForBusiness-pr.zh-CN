@@ -1,9 +1,9 @@
 ---
-title: 注册机安全性设置
+title: 注册器安全设置
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,21 +12,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 72dfa2d75ae1191d90ed2eb213c96a2a5c01559e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6861b7f47536370683b9ebb93753054fce6cc41f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975597"
 ---
-# <a name="registrar-security-settings"></a>注册机安全性设置
+# <a name="registrar-security-settings"></a>注册器安全设置
  
 您希望执行什么操作？单击您要执行的任务所对应的链接。
   
-- [管理在 Skype 业务服务器 2015年的注册器配置设置](../../manage/authentication/registrar-configuration-settings.md)
+- [在 Skype for Business Server 2015 中管理注册器配置设置](../../manage/authentication/registrar-configuration-settings.md)
     
-- [修改现有的注册](http://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
+- [修改现有的注册器](http://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
     
-- [删除注册](http://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
+- [删除注册器](http://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
     
-您还可以通过 Skype 业务服务器控件面板的不同过程的详细信息，请参阅[管理的业务服务器 2015年的 Skype](../../manage/manage.md)。
+有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
 

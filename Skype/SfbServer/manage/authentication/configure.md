@@ -1,26 +1,25 @@
 ---
-title: 在 Skype for Business Server 2015 中配置双重身份验证
+title: 在 Skype for Business Server 中配置双重身份验证
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
-description: 摘要： 在 Skype for Business Server 2015 配置双重身份验证。
-ms.openlocfilehash: 96e1e355aa248b8cfc0ac1efbca7e41f056022be
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 在 Skype for Business Server 配置双重身份验证。
+ms.openlocfilehash: 3b77a6cbbbeb7be83bb4a27491982d97939e1936
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569115"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969524"
 ---
-# <a name="configure-two-factor-authentication-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置双重身份验证
+# <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>在 Skype for Business Server 中配置双重身份验证
  
-**摘要：** 为业务服务器 2015 Skype 中配置双重身份验证。
+**摘要：** 在 Skype for Business Server 配置双重身份验证。
   
 以下部分介绍了为您的部署配置双重身份验证所需的步骤。 有关双重身份验证的详细信息，请参阅[启用 Office 365 联机管理员-网格用户公告的多因素身份验证](https://go.microsoft.com/fwlink/p/?LinkId=313332)。
   
@@ -143,7 +142,7 @@ ms.locfileid: "19569115"
     
     - 对于“密钥用法”****，选择“Exchange”****（这是唯一可用选项）。
     
-    - 对于**键大小**，请输入 2048
+    - 对于“密码大小”****，输入 2048
     
     - 确认已选中“自动密钥容器名称”****
     
@@ -275,7 +274,7 @@ ms.locfileid: "19569115"
 
 ## <a name="configuring-skype-for-business-server-passive-authentication"></a>配置 Skype for Business Server 被动身份验证
 
-下面一节介绍如何配置 Business Server 2015 以支持被动身份验证的 Skype。 启用后，启用双重身份验证的用户需要使用物理或虚拟智能卡和有效 PIN 使用 Skype for Business 客户端登录。
+下面一节介绍如何配置 Skype 业务服务器支持被动身份验证。 启用后，启用双重身份验证的用户需要使用物理或虚拟智能卡和有效 PIN 使用 Skype for Business 客户端登录。
   
 > [!NOTE]
 > 强烈建议用户在服务级别为注册机构和 Web 服务启用被动身份验证。如果在全局级别为注册机构和 Web 服务启用被动身份验证，则可能导致未使用受支持的桌面客户端登录的用户遭遇组织范围身份验证失败。 
@@ -286,7 +285,7 @@ ms.locfileid: "19569115"
   
 ### <a name="to-create-a-custom-web-service-configuration"></a>创建自定义 Web 服务配置
 
-1. 登录到您的业务管理员帐户使用 Skype 的业务 Server 2015 前端服务器的 Skype。
+1. 登录到您的业务 Server 前端服务器使用 Skype 业务管理员帐户的 Skype。
     
 2. 为业务 Server 命令行管理程序启动 Skype。
     
@@ -325,7 +324,7 @@ ms.locfileid: "19569115"
   
 ### <a name="to-create-a-custom-proxy-configuration"></a>创建自定义代理配置
 
-1. 从业务 Server 命令行管理程序命令行的 Skype，创建新的代理配置为将为被动身份验证启用通过运行的业务服务器 2015年边缘池、 企业版池和 Standard Edition server 的每个 Skype以下命令：
+1. 从业务 Server 命令行管理程序命令行的 Skype，创建新的代理配置为将为被动身份验证启用通过运行以下的业务服务器边缘池、 企业版池和 Standard Edition server 的每个 Skype命令：
     
   ```
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
@@ -343,6 +342,6 @@ ms.locfileid: "19569115"
 
 ## <a name="see-also"></a>另请参阅
 
-[管理 Skype 中的业务服务器 2015年的双重身份验证](two-factor-authentication.md)
+[管理 Skype 中的业务服务器的双重身份验证](two-factor-authentication.md)
   
-[使用双重身份验证与 Skype 的业务客户端和 Skype 业务服务器 2015](use.md)
+[用于双重身份验证与 Skype 的业务客户端和 Skype 业务服务器](use.md)

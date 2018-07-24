@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 中的会议加入时间报告
+title: 会议加入时间报告中 Skype 业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
-description: 摘要： 了解会议加入时间摘要报告在 Skype 业务服务器 2015年。
-ms.openlocfilehash: ce5bd7b3f1182c9c00171b87a2b0b63556992327
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解有关会议加入时间摘要报告中 Skype 业务服务器。
+ms.openlocfilehash: 111222b915aafee346f27e4a509c0484e2ec3e00
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981120"
 ---
-# <a name="conference-join-time-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的会议加入时间报告
+# <a name="conference-join-time-report-in-skype-for-business-server"></a>会议加入时间报告中 Skype 业务服务器
  
-**摘要：**了解会议加入时间摘要报告在 Skype 业务服务器 2015年。
+**摘要：** 了解有关会议加入时间摘要报告中 Skype 业务服务器。
   
 会议加入时间摘要可使您确定用户要花多长时间才能加入会议。该报告显示平均加入时间（以毫秒计），同时提供一个细目，让您知道有多少用户在 2 秒或更少时间内加入了会议，有多少用户要求在 2 秒和 5 秒间加入会议等。
   
@@ -44,20 +44,20 @@ ms.lasthandoff: 03/28/2018
 
 下表列出了会议加入时间报告中提供的信息。
   
-**会议加入时间报告统计数据**
+**会议加入时间报告标准**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**可以在此项上进行排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**日期** <br/> 此指标的实际标题完全取决于所选的间隔。  <br/> |否  <br/> |会议发生的日期和时间。  <br/> |
 |**会话总数** <br/> |否  <br/> |会话的总数，包括成功的会话、失败的会话（预期失败和意外失败）及未归类的会话。  <br/> |
 |**平均 (ms)** <br/> |否  <br/> |参与者加入会议花费的平均时间量（以毫秒计）。  <br/> |
-|**会话\<2 秒钟，卷** <br/> |否  <br/> |在不到 2 秒的时间内加入会议的参与者的人数。  <br/> |
-|**会话\<2 秒钟，百分比** <br/> |否  <br/> ||
+|**会话\<2 秒，量** <br/> |否  <br/> |在不到 2 秒的时间内加入会议的参与者的人数。  <br/> |
+|**会话\<2 秒，百分比** <br/> |否  <br/> ||
 |**会话 2-5 秒，量** <br/> |否  <br/> |在 2 秒到 5 秒之间加入到会议参与者的人数。  <br/> |
 |**会话 2-5 秒，百分比** <br/> |否  <br/> |在 2 秒到 5 秒间加入会议的总呼叫参与者的百分比。  <br/> |
 |**会话 5-10 秒，量** <br/> |否  <br/> |在 5 秒到 10 秒之间加入到会议参与者的人数。  <br/> |
 |**会话 5-10 秒，百分比** <br/> |否  <br/> |在 5 秒到 10 秒间加入会议的总呼叫参与者的百分比。  <br/> |
-|**会话\>10 秒钟，卷** <br/> |否  <br/> |需要 10 秒之上加入会议的参与者人数。  <br/> |
-|**会话\>10 秒钟，百分比** <br/> |否  <br/> |需要 10 秒之上加入会议的总呼叫参与者百分比。  <br/> |
+|**会话\>10 秒，量** <br/> |否  <br/> |需要 10 秒之上加入会议的参与者人数。  <br/> |
+|**会话\>10 秒，百分比** <br/> |否  <br/> |需要 10 秒之上加入会议的总呼叫参与者百分比。  <br/> |
    
 

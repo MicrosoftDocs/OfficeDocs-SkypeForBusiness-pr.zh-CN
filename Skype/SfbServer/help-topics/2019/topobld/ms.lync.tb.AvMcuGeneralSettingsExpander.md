@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 description: 要编辑的属性的 a / V 会议服务器池的已定义，您可以执行以下操作：
-ms.openlocfilehash: 1ecc843ec0324a6b07a62d9ba114a2b30fbc6f45
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 8029dd22de0032a2a19f33d94eca8390df2a3125
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19966870"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20982361"
 ---
 # <a name="av-mcu-general-settings-expander"></a>AV MCU 常规设置扩展器
  
@@ -33,7 +33,6 @@ ms.locfileid: "19966870"
 > [!NOTE]
 > 如果没有前端池都显示在**选择要与此 A 关联的前端池 / V 会议池**窗格中，或者已并置的 A / V 会议服务器与前端池或未选择要在**功能中添加会议和功能**前端池属性的部分。
   
-## 
 
 完成后，单击**确定**以完成编辑 A / V 会议服务器池设置。 单击“**取消**”将放弃所有更改。
   

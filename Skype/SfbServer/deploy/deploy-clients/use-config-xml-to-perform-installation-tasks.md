@@ -1,23 +1,22 @@
 ---
-title: 在 Skype for Business Server 2015 中使用 Config.xml 执行安装任务
+title: 使用 Config.xml 执行安装任务 Skype 中的商业客户端
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
-description: 摘要： 如何使用 Config.xml 文件来指定其他安装说明。
-ms.openlocfilehash: 4e3c27aab3e821f7dcd621e40fd4339e4db2b985
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要：如何使用 Config.xml 文件指定附加安装说明。
+ms.openlocfilehash: ea869fe2b49d5c1a5b4e04c3bc75cfd52b66555e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568554"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003506"
 ---
-# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中使用 Config.xml 执行安装任务
+# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>使用 Config.xml 执行安装任务 Skype 中的商业客户端
  
 **摘要：** 如何使用 Config.xml 文件指定附加安装说明。
   
@@ -48,13 +47,13 @@ ms.locfileid: "19568554"
 |**元素**|**说明**|
 |:-----|:-----|
 |配置  <br/> |顶级元素（必需）。包含 Product 属性，例如：Product=Lync（这适用于 Skype for Business 客户端）  <br/> |
-|OptionState  <br/> | 指定在安装期间如何处理特定产品功能。 使用以下属性来防止安装 Business Connectivity Services，其中包括 Outlook 2016 会干扰的共享的组件： <br/>  Id ="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
+|OptionState  <br/> | 指定在安装期间如何处理特定产品功能。 使用以下属性来防止安装 Business Connectivity Services，其中包括 Outlook 会干扰的共享的组件： <br/>  Id ="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 |Display  <br/> | 安装程序向用户显示的 UI 级别。典型属性包括： <br/>  CompletionNotice ="Yes" | "No"(default) <br/>  AcceptEula ="Yes" | "No"(default) <br/> |
 |日志记录  <br/> | 安装程序执行的日志记录类型的选项。典型属性包括： <br/>  类型 ="Off" | "Standard"(default) | "Verbose" <br/>  模板 =" _filename_.txt"（日志文件的名称）  <br/> |
 |设置  <br/> | 指定 Windows Installer 属性的值。典型属性包括：<br/>  Setting Id =" _name_"（Windows Installer 属性的名称）  <br/>  值 ="_值_"（要分配给属性的值）  <br/> |
 |DistributionPoint  <br/> | 从该位置运行安装的网络安装点的完全限定路径。包括 Location 属性：<br/>  位置 ="_路径_"  <br/> |
    
-下面的示例演示 for Business 的 Skype 的典型无提示安装的 Config.xml 文件。 
+下面的示例演示业务客户端 Skype 的典型无提示安装的 Config.xml 文件。 
   
 ```
 <Configuration Product="Lync"> 

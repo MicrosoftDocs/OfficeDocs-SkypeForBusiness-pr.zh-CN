@@ -1,29 +1,28 @@
 ---
-title: 配置 CUCM 以与 Skype for Business Server 2015 进行互操作
+title: 为业务服务器与 Skype 的互操作配置 CUCM
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
-description: 摘要： 配置 CUCM 以使用 Skype 的业务服务器 2015年。
-ms.openlocfilehash: 04913508ba0200da4b34e8b1e18c3e57a5fc7141
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 摘要： 配置 CUCM 以使用 Skype 业务服务器。
+ms.openlocfilehash: 6ace5eb2f6cb9763bf78b3930536ae50f8fee815
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501967"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986556"
 ---
-# <a name="configure-cucm-for-interoperation-with-skype-for-business-server-2015"></a>配置 CUCM 以与 Skype for Business Server 2015 进行互操作
+# <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>为业务服务器与 Skype 的互操作配置 CUCM
  
-**摘要：** 配置 CUCM 以使用 Skype 的业务服务器 2015年。
+**摘要：** 配置 CUCM 以使用 Skype 业务服务器。
   
 > [!CAUTION]
-> 使用仅通过 TCP 的中继设置在 CUCM 10.5 版上测试了此功能。请验证 CUCM 环境是否满足这些条件，然后方可继续下一步。 
+> 此功能测试与 Cisco 统一通信管理器 （CallManager 或 CUCM） 版本使用中继的 10.5 tcp 仅安装。 请验证 CUCM 环境是否满足这些条件，然后方可继续下一步。 
   
 此处所述的设置，旨在仅作为 CUCM 可以配置方式的示例使用 VIS. 也可使用其他设置和/或备选 CUCM 功能来实现同样的结果。 示例中不对适用于特定场景的最佳配置作任何推荐暗示。
   
@@ -62,7 +61,7 @@ ms.locfileid: "19501967"
    
 9. 在同一个屏幕上，向下滚动 SDP 配置文件信息部分。 “**Early Offer 和重新邀请的 SDP 会话级别带宽修饰符**”选项默认设为 TIAS 和 AS。 将此选项更改为仅 TIAS。 如果您将此选项保留为其默认设置，Skype 业务服务器不能理解的 SIP 消息对话中的带宽修饰符信息。 TIAS 表示 Transport Independent Application Specific（特定于传输独立的应用程序），AS 表示 Application Specific（特定于应用程序）。 这些是在 RFC3890 中指定的 SIP 选项。
     
-10. 在同一屏幕上，继续向下滚动。 在 SIP 配置文件的中继特定配置下选择 * * 早期的语音和视频呼叫 * * 提供支持，并将其设置为**强制 （插入 MTP 如果需要）** 选项。 这使得 CUCM 能够设置具有 Early Offer 的传出 SIP 呼叫。 CUCM 8.5 中有一些新增功能，其中一个在于，它无需媒体端点 (MTP) 便可支持具有 Early Offer 的传出呼叫设置。
+10. 在同一屏幕上，继续向下滚动。 SIP 配置文件的中继特定配置下选择**的语音和视频呼叫的最早提供支持**，并将其设置为**强制 （插入 MTP 如果需要）** 选项。 这使得 CUCM 能够设置具有 Early Offer 的传出 SIP 呼叫。 CUCM 8.5 中有一些新增功能，其中一个在于，它无需媒体端点 (MTP) 便可支持具有 Early Offer 的传出呼叫设置。
     
 11. 在“SIP 选项 ping”部分，验证是否选中“启用选项 Ping 以监控具有服务类型‘无（默认）’的中继的目标状态”旁边的复选框。
     
@@ -141,4 +140,4 @@ ms.locfileid: "19501967"
   
 ## <a name="see-also"></a>另请参阅
 
-[为业务服务器 2015年与 Skype 的互操作配置 VTC](configure-a-vtc-for-interoperation.md)
+[为业务服务器与 Skype 的互操作配置 VTC](configure-a-vtc-for-interoperation.md)

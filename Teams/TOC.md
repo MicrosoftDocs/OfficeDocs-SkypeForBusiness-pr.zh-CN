@@ -195,7 +195,6 @@
 ## 应用和服务
 ### [Teams 中适用于应用的管理设置](admin-settings.md)
 ### [在 Teams 中为私人聊天和频道添加聊天机器人](add-bots.md)
-### [将应用程序发布到团队租户的应用程序目录](tenant-apps-catalog-teams.md)
 ### [在 Teams 中使用内置选项卡和自定义选项卡](built-in-custom-tabs.md)
 ### [在 Teams 中使用 Office 365 和自定义连接器](office-365-custom-connectors.md)
 ### [使用 T-Bot 为用户提供 Teams 方面的帮助](t-bot.md)

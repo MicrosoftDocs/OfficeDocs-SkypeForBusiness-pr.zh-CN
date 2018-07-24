@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
+ROBOTS: NOINDEX, NOFOLLOW
 description: 设备更新 Web 服务会自动创建记录设备更新活动的日志文件。 作为您的组织数据管理策略的一部分，您可能想要设置阈值日志数据缓存大小、 日志文件大小或的日志文件在被清除之前保留的时间长度。 您可以更改这些设置根据贵组织的要求。 如果不希望设备更新 Web 服务自动清除日志文件，可以根据需要进行手动清除。 可以在全局范围或针对每个站点更改日志设置。
-ms.openlocfilehash: 69e75062038bdbc6072e48c18ed09193c7090659
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: e345f65fdffa5a3db6bd67dff1e16ef1f196d094
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988360"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20982970"
 ---
 # <a name="device-log-configuration"></a>设备日志配置
  

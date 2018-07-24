@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
-description: 请求、 分配，请删除，或查看证书，您可以使用证书向导。 必须以 RTCUniversalServerAdmins 组成员的身份登录。 要向公共证书颁发机构 (CA) 请求证书，无需具备其他任何组成员身份。 若要从您的组织的公钥基础结构 (PKI) 申请证书，您需要确认什么其他 — 如果任何 — 组需要的成员身份。 期间请求任务中，您可以输入备用凭据将用于请求来自 PKI 证书的颁发 CA。
-ms.openlocfilehash: 5216b190aafc095f00cd66e931c84caebd115a69
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 要“请求”、“分配”、“删除”或“查看”证书，可使用证书向导。 必须以 RTCUniversalServerAdmins 组成员的身份登录。 要向公共证书颁发机构 (CA) 请求证书，无需具备其他任何组成员身份。 若要从您的组织的公钥基础结构 (PKI) 申请证书，您需要确认什么其他 — 如果任何 — 组需要的成员身份。 期间请求任务中，您可以输入备用凭据将用于请求来自 PKI 证书的颁发 CA。
+ms.openlocfilehash: 6254ae2601387fa7ef6c6900fe7479db9d7c6ee3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997036"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001459"
 ---
 # <a name="certificate-wizard"></a>证书向导
  

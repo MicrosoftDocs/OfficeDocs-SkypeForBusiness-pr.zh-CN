@@ -1,27 +1,26 @@
 ---
-title: 在 Skype for Business Server 2015 中更改现有存档策略
+title: 更改现有业务服务器存档策略中 Skype
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: 摘要： 了解如何更改用户存档策略的 Skype 业务服务器 2015年。
-ms.openlocfilehash: 21774eaff8b58c585b347e1f657aa7afcc3b6106
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解如何更改用户存档策略的 Skype 业务服务器。
+ms.openlocfilehash: 6c92d4f7e4c2a464d248f6b981165de000615432
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569405"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974649"
 ---
-# <a name="change-an-existing-archiving-policy-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中更改现有存档策略
+# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>更改现有业务服务器存档策略中 Skype
  
-**摘要：** 了解如何更改用户存档策略的 Skype 业务服务器 2015年。
+**摘要：** 了解如何更改用户存档策略的 Skype 业务服务器。
   
-当您首次部署业务服务器 2015 Skype 时，您设置确定如何实施存档的部署中用户的初始存档策略。 本主题介绍了如何管理和修订策略。 
+您首先部署业务服务器 Skype，您设置确定如何实施存档的部署中用户的初始存档策略。 本主题介绍了如何管理和修订策略。 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>使用控制面板更改存档策略
 
@@ -48,7 +47,7 @@ ms.locfileid: "19569405"
 6. 单击“**提交**”。
     
     > [!IMPORTANT]
-    > 用户策略的设置仅适用于要应用该策略的特定用户和用户组。 有关详细信息，请参阅[应用到业务服务器 2015年的 Skype 中的用户存档策略](apply-a-policy-to-users.md)。 
+    > 用户策略的设置仅适用于要应用该策略的特定用户和用户组。 有关详细信息，请参阅[应用到 Skype 业务服务器中的用户存档策略](apply-a-policy-to-users.md)。 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>使用 Windows PowerShell 更改存档策略
 

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec6b9b09-2be0-45e7-b23c-f94b64839e65
+ROBOTS: NOINDEX, NOFOLLOW
 description: 有关使用部署向导安装业务服务器的 Skype 的详细信息，请参阅业务服务器安装 Skype。
-ms.openlocfilehash: 6e9bf2388602f8b914c32de1b689187510d37767
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: e1abd43569b31eefd925ba7bc2bb041d5b3a3b0c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19968977"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997657"
 ---
 # <a name="deployment-wizard-admin-tools"></a>部署向导：管理工具
  

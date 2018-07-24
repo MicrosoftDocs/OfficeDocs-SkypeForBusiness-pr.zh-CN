@@ -3,7 +3,7 @@ title: 曲面集线器部署的 Microsoft 团队
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abb049c0185fa52b804c893d6f7abf73a1a902ab
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: e7757f7d220ae58914a296e3dc3850179219b475
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20397060"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981576"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>曲面集线器部署的 Microsoft 团队
 ======================================
@@ -140,6 +140,9 @@ Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
 6. 单击“**保存**”完成任务。
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>从 Microsoft 存储的表面集线器安装团队 
+
+> [!NOTE]
+> 若要使用的图面集线器 （预览） 的 Microsoft 团队，必须在 Windows 内幕计划中注册您的设备。 若要离开内幕计划，必须重置面集线器使用云恢复。<br> 成为 Windows 内幕计划成员，面集线器必须设置为完全遥测加入 Windows 内幕计划之前。 由于 GDPR 法规，更改默认设置的 Windows 遥测最近从完整为基本在欧盟国家/地区。 您应验证之前加入 Windows 内幕计划设置。 尝试加入 Windows 内幕计划时设置为基本遥测可能需要的图面集线器重置。 要验证面集线器上的 Windows 遥测设置，请选择**设置** > **隐私** > **反馈和诊断**，和设置为**Full**。
 
 安装 Microsoft 存储中的图面集线器团队供以下说明。 
  

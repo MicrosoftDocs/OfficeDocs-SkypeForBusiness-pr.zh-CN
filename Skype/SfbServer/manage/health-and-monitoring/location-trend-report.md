@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 中的位置趋势报告
+title: 位置趋势报告中 Skype 业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
-description: 摘要： 了解业务服务器 2015年在 Skype 的位置趋势报告。
-ms.openlocfilehash: c28a22fdf4122dde45b506e90cf752794deaf781
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解在 Skype 业务服务器位置趋势报告。
+ms.openlocfilehash: 007bd549dbccffdbbe83ff4d96ebd09b83b7c5e3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973603"
 ---
-# <a name="location-trend-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的位置趋势报告
+# <a name="location-trend-report-in-skype-for-business-server"></a>位置趋势报告中 Skype 业务服务器
  
-**摘要：**了解业务服务器 2015年在 Skype 的位置趋势报告。
+**摘要：** 了解业务服务器位置趋势报告中 Skype。
   
 位置趋势报告提供网络位置的呼叫质量趋势信息。
   
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/28/2018
   
 下表列出了可用于位置趋势报告的筛选器。 
   
-**位置趋势报表筛选器**
+**位置趋势报告筛选器**
 
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**说明**|
 |:-----|:-----|

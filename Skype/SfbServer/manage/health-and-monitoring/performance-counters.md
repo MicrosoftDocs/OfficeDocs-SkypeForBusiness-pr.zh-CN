@@ -1,34 +1,37 @@
 ---
-title: Skype for Business Server 2015 中的移动性能计数器
+title: Skype 业务服务器中的移动性能计数器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: 摘要： 了解可用于监视服务器运行统一通信 Web API (UCWA) 和 Skype 业务服务器 2015 Mcx 移动服务的性能计数器。
-ms.openlocfilehash: 7f82f263969deb5fc71e448f0e514dd0056c31eb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解可用于监视服务器运行统一通信 Web API (UCWA) 和 Skype 业务服务器 Mcx Mobility Service 的性能计数器。
+ms.openlocfilehash: a1e44d0ba7fec9eb50d7d1f1bcea78a85a1f4955
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969843"
 ---
-# <a name="mobility-performance-counters-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的移动性能计数器
+# <a name="mobility-performance-counters-in-skype-for-business-server"></a>Skype 业务服务器中的移动性能计数器
  
-**摘要：**了解可用于监视服务器运行统一通信 Web API (UCWA) 和 Skype 业务服务器 2015 Mcx 移动服务的性能计数器。
+**摘要：** 了解可用于监视服务器运行统一通信 Web API (UCWA) 和 Skype 业务服务器 Mcx Mobility Service 的性能计数器。
   
-下表列出的名称和说明性能计数器可用于监视服务器运行业务服务器 2015 Mcx 移动服务的统一通信 Web API (UCWA) 和 Skype。 
+下表列出的名称和说明可用于监视服务器运行统一通信 Web API (UCWA) 和 Skype 业务服务器 Mcx Mobility Service 的性能计数器。 
   
-UCWA 表中的计数器的类别名称为**LS:WEB-UCWA**。
+UCWA 表中的计数器的类别名称是**LS:WEB-UCWA**。
   
 Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communication Service**。
+
+> [!NOTE]
+> MCX 旧的移动客户端支持不再可用的业务服务器 2019 Skype 中。 您的用户需要升级到当前客户端。
   
 ## <a name="performance-counters-for-ucwa"></a>UCWA 性能计数器
 
-|**计数器**|**说明**|
+|计数器|描述|
 |:-----|:-----|
 |Active Application Count  <br/> |当前应用程序数目  <br/> |
 |Active Application Sharing Modality Count  <br/> |当前应用程序共享形式数目  <br/> |
@@ -56,7 +59,7 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communi
 |Number of Active Directory Photo Get Failures  <br/> |从 Active Directory 中检索照片的总失败次数  <br/> |
 |Number of Contact Search failures  <br/> |在 Exchange 中搜索联系人的总失败次数  <br/> |
 |Number of Deserialization Failures  <br/> |反序列化的总失败次数  <br/> |
-|HD 照片获取失败的次数  <br/> |从 Exchange 中检索 HD 照片的总失败次数  <br/> |
+|高清照片 Get 失败的次数  <br/> |从 Exchange 中检索 HD 照片的总失败次数  <br/> |
 |Over The Maximum Subscriptions Per Application  <br/> |允许的每应用程序最大订阅请求数  <br/> |
 |Over The Maximum Subscriptions Per Batch  <br/> |允许的每批次最大订阅请求数  <br/> |
 |Presence Subscription Failures  <br/> |订阅状态失败次数  <br/> |
@@ -74,7 +77,7 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communi
 |Total Sessions Terminated Because of Idle Timeout  <br/> |因用户空闲超时终止的会话总数  <br/> |
 |Total Throttled Applications  <br/> |阻止的应用程序数  <br/> |
    
-**Mcx 移动服务的性能计数器**
+**Mcx Mobility Service 性能计数器**
 
 |**计数器**|**说明**|
 |:-----|:-----|
@@ -110,4 +113,5 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communi
 |Total Successful Inbound Voice Calls  <br/> |成功的入站语音呼叫总数  <br/> |
 |Total Successful Outbound Voice Calls  <br/> |成功的出站语音呼叫总数  <br/> |
    
-
+> [!NOTE]
+> MCX 旧的移动客户端支持不再可用的业务服务器 2019 Skype 中。 您的用户需要升级到当前客户端。

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
+ROBOTS: NOINDEX, NOFOLLOW
 description: 组织信息窗格中，可以指定您的组织和组织单位 (OU) （通常分部或部门） 的请求证书的名称。 在组织和组织单位文本框中键入信息出现在证书，并用于标识用户申请证书，证书查看其他人时。
-ms.openlocfilehash: 5afe780e15902ebc766e47cba31467d433662d87
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 69ba17a0860921d4fa3cb2c09799a56c5d0770b5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970463"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974880"
 ---
 # <a name="certificate-request-organization-information"></a>证书请求 （组织信息）
  

@@ -1,9 +1,9 @@
 ---
-title: 添加 Lync Server 2010 中的边缘服务器选项
+title: 添加 Lync Server 2010 边缘服务器选项
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,31 +11,29 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
-description: 定义新的边缘服务器或池边缘，将新的服务器或池的功能定义的机会提供。 您可以选择的选项有：
-ms.openlocfilehash: c031480dd3553aa4fc1ca2f2a8ddd03f67d9bc02
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 定义新的边缘服务器或边缘池和显示定义的新服务器或池的功能的机会。 您可以选择的选项包括：
+ms.openlocfilehash: 7cd5af525e87f23bc07245f5fed139bc2c9c7356
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967619"
 ---
-# <a name="add-edge-server-options-for-lync-server-2010"></a>添加 Lync Server 2010 中的边缘服务器选项
+# <a name="add-edge-server-options-for-lync-server-2010"></a>添加 Lync Server 2010 边缘服务器选项
  
-定义新的边缘服务器或池边缘，将新的服务器或池的功能定义的机会提供。 您可以选择的选项有：
+定义新的边缘服务器或边缘池和显示定义的新服务器或池的功能的机会。 您可以选择的选项包括：
   
-- **使用单个的 FQDN 和 IP 地址**： 选中复选框 （如果您选择使用 IPv4 和 IPv6，则将需要定义每个 IP 地址类型之一） 使用单个 IPv4 或 IPv6 地址和完全限定的域名称 (FQDN) 为外部边缘的接口。 
+- **使用单个 FQDN 和 IP 地址**： 选中的复选框 （如果您选择使用 IPv4 和 IPv6，则您将需要定义每个 IP 地址类型之一） 使用单个 IPv4 或 IPv6 地址和完全限定的域名 (FQDN) 的外部边缘接口。 
     
     > [!IMPORTANT]
-    > 如果您选择此选项，您将使用只有一个 IP 地址，或一个 IPv4 和一个 IPv6，但您必须为每个边界面分配不同的端口号。 
+    > 如果您选择此选项，您将使用只有一个 IP 地址，或一个 IPv4 和一个 IPv6，但必须将不同的端口号分配给每个边缘接口。 
   
-- **启用联盟 （端口 5061）**： 选中此复选框，如果您将与其他 SIP 联合体、 提供者或使用会话初始化协议 (SIP) 的托管的服务联盟。
+- **启用联盟 （端口 5061）**： 如果您将与其他 SIP 联盟、 提供程序或使用会话初始协议 (SIP) 的托管的服务建立联盟，请选中此复选框。
     
-- **此边池的外部 IP 地址翻译通过 NAT**： 选中此复选框，如果对于边缘外部接口使用专用 IP 地址，并且将提供网络地址转换 (NAT) 设备将边缘服务器或逻辑上边缘池隐藏。
+- **此边缘池的外部 IP 地址由 NAT 转换**： 选中此复选框，如果您使用的边缘外部接口的专用 IP 地址并将提供一个网络地址转换 (NAT) 设备，以将边缘服务器或边缘池逻辑隐藏。
     
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
-[为外部用户访问计划](http://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)
+[规划外部用户访问](http://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)
   
-[部署的外部用户访问权限](http://technet.microsoft.com/library/d40c9574-c16b-4fe6-b848-21ae0b7e4f0e.aspx)
-
+[部署外部用户访问](http://technet.microsoft.com/library/d40c9574-c16b-4fe6-b848-21ae0b7e4f0e.aspx)

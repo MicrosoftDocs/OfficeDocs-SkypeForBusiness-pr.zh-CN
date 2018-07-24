@@ -1,31 +1,31 @@
 ---
-title: 访问 Skype for Business Server 2015 中的监控数据
+title: 监视业务 Server 的 Skype 中的数据的访问
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 845385ca-5532-4fa2-91b9-51c6de6fec91
-description: 摘要： 了解如何使用 Skype 业务服务器 2015年监视数据。
-ms.openlocfilehash: 908ebbff4e88985cdba606098dc5a5ace271e30d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何在 Skype 用于 Business Server 监视数据。
+ms.openlocfilehash: 4bd7d7c55f2d041d1bd3d80cf056544cd5bf5ee1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986584"
 ---
-# <a name="access-monitoring-data-in-skype-for-business-server-2015"></a>访问 Skype for Business Server 2015 中的监控数据
+# <a name="access-monitoring-data-in-skype-for-business-server"></a>监视业务 Server 的 Skype 中的数据的访问
  
-**摘要：**了解有关使用 Skype 业务服务器 2015年监视数据。
+**摘要：** 了解 Business Server Skype 中使用的监控数据。
   
 监控数据存储在一对 SQL Server 数据库中：LcsCdr 用于存储呼叫详细信息记录数据，而 QoEMetrics 用于存储用户体验质量数据。这两个数据库没有什么特别之处；也就是说您可使用通常用于访问和分析 SQL Server 数据的任何工具访问这两个数据库中存储的数据。
   
-应考虑用于访问和分析监视数据的工具之一是 Skype 的业务服务器监视报告。 监控报告包含一组由 Microsoft SQL Server Reporting Service 发布的标准报告。 这些报告可通过 Web 浏览器进行访问，它们提供了使用情况、呼叫诊断信息和媒体质量信息，所有这些信息全部基于呼叫详细记录 (CDR) 和用户体验质量 (QoE) 数据库中存储的 CDR 和 QoE 记录。 监视报告附带的业务服务器 2015年的 Skype，可以从安装 Skype 业务服务器部署向导后 Skype 业务服务器已安装和配置监视。
+您应考虑用于访问和分析监控数据的工具之一是业务服务器监控报告 Skype。 监控报告包含一组由 Microsoft SQL Server Reporting Service 发布的标准报告。 这些报告可通过 Web 浏览器进行访问，它们提供了使用情况、呼叫诊断信息和媒体质量信息，所有这些信息全部基于呼叫详细记录 (CDR) 和用户体验质量 (QoE) 数据库中存储的 CDR 和 QoE 记录。 监控报告附带 Skype 业务服务器可以之后，安装从 Skype 业务 Server 部署向导 Skype 业务服务器已经安装并配置监控。
   
 如前所述，监控报告需要使用 SQL Server Reporting Service。SQL Server Reporting Service 可在安装 SQL Server 时安装，也可以在安装 SQL Server 后随时安装。
   
-有关详细信息，请参阅主题[在 Skype 的业务服务器 2015年安装监视报告](../../deploy/deploy-monitoring/install-monitoring-reports.md)在 Skype 业务服务器 2015年部署指南。
+有关详细信息，请参阅主题[中的业务服务器 Skype 安装监控报告](../../deploy/deploy-monitoring/install-monitoring-reports.md)。
   
 

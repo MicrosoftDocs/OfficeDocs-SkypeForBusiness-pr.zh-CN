@@ -1,30 +1,30 @@
 ---
-title: Skype for Business Server 2015 中的 UCWA 事件
+title: Skype 业务服务器中的 UCWA 事件
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-description: 摘要： 了解统一的通信 Web API (UCWA) 在 Skype 业务服务器 2015年。
-ms.openlocfilehash: cc9b62a4d00e9c4ed4feadfbfecfa4e3f8ca79fa
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解业务服务器的 Skype 中统一的通信 Web API (UCWA)。
+ms.openlocfilehash: 5a9fa42fa1367cd4afd74bc40f30549ca5777950
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981091"
 ---
-# <a name="ucwa-events-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 UCWA 事件
+# <a name="ucwa-events-in-skype-for-business-server"></a>Skype 业务服务器中的 UCWA 事件
  
-**摘要：**了解有关统一的通信 Web API (UCWA) 在 Skype 业务服务器 2015年。
+**摘要：** 了解业务服务器中 Skype 统一的通信 Web API (UCWA)。
   
-Skype 的业务服务器 2015年用于多种用途，从到移动客户端的更新状态的联系人搜索访问 Microsoft Exchange 统一通信 Web API (UCWA)。
+Skype 业务服务器使用多种用途，以进行移动客户端的更新状态的联系人搜索访问 Microsoft Exchange 统一通信 Web API (UCWA)。
   
 UCWA 将运行行为的记录编写成“信息”、“警告”和“错误”事件类型。下表介绍了可由 UCWA 组件编写的事件。
   
-|**事件 ID**|**事件类型**|**摘要**|**原因和解决办法**|
+|**事件 ID**|**事件类型**|**摘要**|**原因和解决方法**|
 |:-----|:-----|:-----|:-----|
 |20001  <br/> |信息  <br/> |UCWA 已初始化  <br/> |不适用  <br/> 不适用  <br/> |
 |20002  <br/> |错误  <br/> |UCWA 在初始化期间遇到意外异常  <br/> |初始化期间出现意外错误  <br/> 检查相关事件日志条目中的异常详细信息以确定可能的原因  <br/> |

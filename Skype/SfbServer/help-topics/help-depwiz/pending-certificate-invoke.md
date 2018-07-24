@@ -1,9 +1,9 @@
 ---
-title: 挂起的证书 （调用）
+title: 待处理的证书 （调用）
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,18 +11,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
-description: 执行命令页将显示命令会检索挂起证书的状态。 完成任务后，检索待定证书日志文件才可用。 单击查看日志检查的处理和任务的完成状态。 单击下一步。
-ms.openlocfilehash: 3195ca99c14ba0ca25a3923c4be32d6557feb0fe
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 正在执行命令页上显示要检索的待处理的证书的命令的状态。 完成任务后，检索待处理证书日志文件位于。 单击查看日志，若要查看的处理和任务完成状态。 单击“下一步”继续。
+ms.openlocfilehash: 2f2601e5501a777d78285ca39d5eb7b895dd980c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986521"
 ---
-# <a name="pending-certificate-invoke"></a>挂起的证书 （调用）
+# <a name="pending-certificate-invoke"></a>待处理的证书 （调用）
  
-**执行命令**页将显示命令会检索挂起证书的状态。 完成任务后，**检索待定证书**日志文件才可用。 单击**查看日志**检查的处理和任务的完成状态。 单击“**下一步**”继续。
+**正在执行命令**页上显示要检索的待处理的证书的命令的状态。 完成任务后，**检索待处理证书**日志文件位于。 单击**查看日志**若要查看的处理和任务完成状态。 单击“**下一步**”继续。
   
 > [!IMPORTANT]
-> 如果证书未批准的证书颁发机构管理员，检索挂起的请求日志文件将指示是否存在挂起的请求。 如果证书颁发机构管理员已拒绝的请求，日志文件将指示出现故障，并将报告错误指示的请求被拒绝，拒绝的请求的人员的用户名。 
+> 如果证书未批准的证书颁发机构管理员，日志文件中检索挂起的请求将指示存在待处理请求。 如果证书颁发机构管理员已拒绝的请求，日志文件将指示故障，并将报告错误、 指示请求被拒绝和拒绝的请求的人员的用户名。 
   
 

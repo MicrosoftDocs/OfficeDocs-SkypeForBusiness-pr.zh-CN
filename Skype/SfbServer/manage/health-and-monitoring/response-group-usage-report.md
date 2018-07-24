@@ -1,27 +1,26 @@
 ---
-title: Skype for Business Server 2015 中的响应组使用情况报告
+title: Skype 中的业务服务器的响应组使用情况报告
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
-description: 摘要： 了解业务服务器 2015 Skype 中的响应组应用程序。
-ms.openlocfilehash: 815158fbe7d477dd263591f161312d054480808c
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解 Business Server Skype 中的响应组应用程序。
+ms.openlocfilehash: 78d1645a0651d39a6860f9e65456f48b1740d265
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569021"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001159"
 ---
-# <a name="response-group-usage-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的响应组使用情况报告
+# <a name="response-group-usage-report-in-skype-for-business-server"></a>Skype 中的业务服务器的响应组使用情况报告
  
-**摘要：** 了解业务服务器 2015 Skype 中的响应组应用程序。
+**摘要：** 了解 Business Server Skype 中的响应组应用程序。
   
-响应组应用程序提供一种方法的 Skype 的业务服务器 2015 应答和路由电话呼叫基于拨打的号码和 （可选） 在呼叫者的响应的一系列问题。 通常，不会将响应组呼叫路由到个人，而是路由到称为代理组的一组人员。 例如，如果有人的技术支持呼叫的电话号码，业务服务器 2015年的 Skype 可以自动该呼叫路由到的第一个可用的帮助台代理。 此外，Skype 业务服务器无法提出一系列问题 ("按 1 如果您有硬件问题。 如果您有软件问题，请按 2。 按 3 如果遇到网络问题。"），然后将呼叫路由至最适合帮助台代理基于这些问题的答案和。
+响应组应用程序提供一种方法的 Skype 供业务服务器来应答和路由电话呼叫基于拨打的号码和 （可选） 在呼叫者的响应的一系列问题。 通常，不会将响应组呼叫路由到个人，而是路由到称为代理组的一组人员。 例如，如果有人的技术支持呼叫的电话号码，Skype 业务服务器可以自动该呼叫路由到的第一个可用的帮助台代理。 此外，Skype 业务服务器无法提出一系列问题 ("按 1 如果您有硬件问题。 如果您有软件问题，请按 2。 按 3 如果遇到网络问题。"），然后将呼叫路由至最适合帮助台代理基于这些问题的答案和。
   
 响应组使用情况报告提供所有响应组工作流接收到的电话呼叫数的详细信息，然后将这些呼叫细分为更多有限类别，例如发起的呼叫、应答的呼叫和放弃的呼叫。
   
@@ -45,7 +44,7 @@ ms.locfileid: "19569021"
   
 ## <a name="accessing-the-response-group-usage-report"></a>访问响应组使用情况报告
 
-可从监控报告主页访问响应组使用情况报告。 您可以向下钻取[响应组呼叫列表报告中的业务服务器 2015 Skype](call-list-report.md)通过单击以下指标之一：
+可从监控报告主页访问响应组使用情况报告。 您可以向下钻取[响应组呼叫列表报告中的业务服务器 Skype](call-list-report.md)通过单击以下指标之一：
   
 - 收到的呼叫
     
@@ -111,7 +110,7 @@ Get-CsRgsWorkflow -Name "New Ad Campaign" | Select-Object Name, PrimaryUri
   
 **响应组使用情况报告指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**您可以按此项排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**每小时** <br/> **每天** <br/> **每周** <br/> **每月** <br/> |否  <br/> |指示所选的时间间隔。如果适用，可单击某一给定的时间间隔以查看该间隔的详细信息。例如，如果使用“每天”间隔并单击 2015/7/7，可查看当日用户注册活动的每小时细分信息。  <br/> |
 |**收到的呼叫** <br/> |否  <br/> |响应组应用程序的所有实例收到的呼叫总数。单击此项时，报告向您显示所选时间段的响应组呼叫列表报告。  <br/> |

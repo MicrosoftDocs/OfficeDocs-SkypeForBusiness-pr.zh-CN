@@ -1,30 +1,29 @@
 ---
-title: 在 Skype for Business Server 2015 中向用户应用存档策略
+title: 向 Skype 中的用户的存档策略应用于业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
-description: 摘要： 了解如何为业务服务器 2015年在 Skype 中向用户分配存档策略。
-ms.openlocfilehash: 0a9b19f6b02daae09f71b1f9933c90bfc86c5e23
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解如何为业务服务器在 Skype 中向用户分配存档策略。
+ms.openlocfilehash: bc54c25a710e4e1cca44fb7311a47101f31ef7df
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569384"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985614"
 ---
-# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中向用户应用存档策略
+# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>向 Skype 中的用户的存档策略应用于业务服务器
 
-**摘要：** 了解如何为业务服务器 2015年在 Skype 中向用户分配存档策略。
+**摘要：** 了解如何为业务服务器在 Skype 中向用户分配存档策略。
   
-如果您已创建了一个或多个用户策略的用户的存档的业务服务器 2015年驻留在 Skype，您可以通过将适当的策略应用于这些用户或用户组来实现特定用户的存档支持。 例如，如果您创建策略，以支持的内部通信存档，可将其应用于至少一个用户或用户组，以支持存档的用户的 Skype 业务服务器 2015年通信。
+如果您已创建了一个或多个用户策略的用户的存档业务服务器驻留在 Skype，您可以通过将适当的策略应用于这些用户或用户组来实现特定用户的存档支持。 例如，如果您创建策略，以支持的内部通信存档，可将其应用于至少一个用户或用户组，以支持存档的用户的 Skype 的业务服务器通信。
   
 > [!NOTE]
-> 如果您为您的部署，Exchange 就地保留策略控件上启用 Microsoft Exchange 集成，是否驻留在 Exchange 上的用户启用存档，并且具有其邮箱置于就地保留。 有关详细信息，请参阅[规划存档中的业务服务器 2015 Skype](../../plan-your-deployment/archiving/archiving.md)和[配置与业务服务器 2015年的 Skype 的 Exchange 存储的集成](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)。 
+> 如果您为您的部署，Exchange 就地保留策略控件上启用 Microsoft Exchange 集成，是否驻留在 Exchange 上的用户启用存档，并且具有其邮箱置于就地保留。 有关详细信息，请参阅[规划存档中的业务服务器 Skype](../../plan-your-deployment/archiving/archiving.md)和[配置与业务服务器 Skype 的 Exchange 存储的集成](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)。 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>使用控制面板应用用户策略
 

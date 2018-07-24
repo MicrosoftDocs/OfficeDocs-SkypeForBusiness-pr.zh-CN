@@ -11,26 +11,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 description: 若要编辑现有站点的属性，请执行以下操作：
-ms.openlocfilehash: da25eb65d041f52668c9b854d48da3d7894d193b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 5dd36f11528152be260f378fd2253b5655834088
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988472"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971867"
 ---
 # <a name="lync-server-site-settings-expander"></a>Lync Server 站点设置扩展器
  
 若要编辑现有站点的属性，请执行以下操作：
   
-## 
 
-### <a name="site-properties"></a>网站属性
+
+## <a name="site-properties"></a>网站属性
 
 在网站属性，您可以更改或修改站点名称 （必需）、 说明 （可选）、 城市 （可选）、 州/省 （可选） 和国家/地区代码 （可选）。
   
 有关站点属性的详细信息，请参阅[Add Branch Sites to Your Topology](http://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx)。
   
-### <a name="federation-route-properties"></a>联盟路由属性
+## <a name="federation-route-properties"></a>联盟路由属性
 
 若要设置站点联盟路由分配，首先必须在边缘服务器或边缘服务器池启用联盟。 如果边缘服务器或池上未启用联盟，则站点联盟路由分配设置将不可用进行修改。
   
@@ -39,7 +39,7 @@ ms.locfileid: "19988472"
 > [!CAUTION]
 > 此设置会影响所有网站。 确保您要在该站点上配置的设置是适用于所有网站。 
   
-### 
+## <a name="see-also"></a>另请参阅
 
 有关详细信息，请参阅[外部用户访问的拓扑](http://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx)。
   

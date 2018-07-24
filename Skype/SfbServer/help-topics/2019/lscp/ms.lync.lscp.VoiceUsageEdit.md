@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
+ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: c9acc0e4be35d6e5b68c97578bc3b417a0ecc2ad
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: fa5168f99db8e113ed2e02fc79ef4c9e7af4f1a6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20043862"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997399"
 ---
 # <a name="pstn-usage-create-new-or-edit-existing"></a>PSTN 用法： 创建新的或编辑现有的
  

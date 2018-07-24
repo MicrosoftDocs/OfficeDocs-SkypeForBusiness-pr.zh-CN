@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
-description: 使用区域链接对话框查找您环境中可用的区域链接。 若要使用现有的区域链接，单击列表中的区域链接，然后单击确定。
-ms.openlocfilehash: 58d82b7448e179c2d48e5ddd4573fa54c1d09643
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ROBOTS: NOINDEX, NOFOLLOW
+description: 使用“区域链接”对话框查找环境中可用的区域链接。要使用现有区域链接，请单击列表中的某个区域链接，然后单击“确定”。
+ms.openlocfilehash: 3674a21689de265ac167415c2433e2e4c9ace25b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20045615"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973413"
 ---
 # <a name="select-a-region-link"></a>选择区域链接
  

@@ -1,26 +1,26 @@
 ---
-title: Skype for Business Server 2015 中的呼叫详情报告
+title: 为业务 Server Skype 中呼叫详情报告
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: 摘要： 了解使用 Skype 业务服务器 2015年呼叫详细信息报告。
-ms.openlocfilehash: 942562ed33462506c9da137b3e4377e102d0ec98
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解用于在 Skype 业务服务器的呼叫详情报告。
+ms.openlocfilehash: 3f560a2d4217b5afd61036b39100b39888fe577a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978880"
 ---
-# <a name="call-detail-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的呼叫详情报告
+# <a name="call-detail-report-in-skype-for-business-server"></a>为业务 Server Skype 中呼叫详情报告
  
-**摘要：**了解有关使用 Skype 业务服务器 2015年呼叫详细信息报告。
+**摘要：** 了解用于在 Skype 业务服务器的呼叫详情报告。
   
-呼叫详细信息报告提供了详细地观察单个调用;该报告包括几乎所有质量经验指标和统计数据收集通过 Skype 的业务服务器 2015，如划分为报表节：
+呼叫详情报告提供详细的看则单个呼叫;此报告包括几乎所有用户体验质量指标和 Skype 业务服务器收集的统计信息划分为报表节如：
   
 - 呼叫信息 
     
@@ -48,17 +48,17 @@ ms.lasthandoff: 03/28/2018
 
 可以从下列任意报告中访问呼叫详情报告：
   
-- （通过单击调用卷或较差的呼叫百分比度量）[中业务服务器 2015年的 Skype 的位置报告](location-report.md)
+- [Location Report （通过单击呼叫量或质量欠佳的呼叫百分比指标） 的业务服务器 (位置 report.md) 的 Skype 中
     
-- [媒体质量摘要报表中的业务服务器 2015 Skype](summary.md) （通过单击呼叫或差呼叫百分比度量）
+- [Media Quality Summary Report 中 Skype 业务服务器 (summary.md) （通过单击呼叫量或质量欠佳的呼叫百分比指标）
     
-- [媒体质量比较报表中的业务服务器 2015年的 Skype](comparison.md) （通过单击[在业务服务器 2015年的 Skype 呼叫列表报表](call-list-report-0.md)，然后单击详细信息度量）。
+- [媒体质量比较报告中的业务服务器 Skype](comparison.md) （通过单击[中的业务服务器 Skype Call List Report](call-list-report-0.md) ，然后单击详细信息指标）。
     
-- （通过单击呼叫或差呼叫百分比度量）[中的业务服务器 2015 Skype 的服务器性能报告](server-performance.md)
+- [Skype 业务服务器中的 Server Performance Report](server-performance.md) （通过单击呼叫量或质量欠佳的呼叫百分比指标）
     
-- （通过单击详细信息度量）[中的业务服务器 2015 Skype 呼叫列表报告](call-list-report-0.md)
+- [在业务服务器的 Skype Call List Report](call-list-report-0.md) （通过单击详细信息指标）
     
-从呼叫详细信息报表中可以访问[在 Skype 的业务服务器 2015年设备报告](device-report.md)通过单击以下指标：
+从呼叫详情报告中您可以访问[设备报告 Skype 业务服务器中](device-report.md)通过单击以下指标之一：
   
 - 捕获设备
     
@@ -82,9 +82,9 @@ ms.lasthandoff: 03/28/2018
 
 下表列出了每个呼叫的呼叫详情报告中提供的信息。
   
-**呼叫详细信息报告统计数据**
+**呼叫详情报告指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**可以在此项上进行排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**呼叫者 PAI** <br/> |否  <br/> |发起呼叫的用户的 P-Asserted-Identity。P-Asserted-Identity 用于传达受信任网络内用户经验证的身份。  <br/> |
 |**呼叫者 URI** <br/> |否  <br/> |发起呼叫的用户的 SIP 地址。  <br/> |

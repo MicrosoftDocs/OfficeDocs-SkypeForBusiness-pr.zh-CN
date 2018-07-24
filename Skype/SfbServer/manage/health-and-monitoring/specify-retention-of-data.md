@@ -1,26 +1,26 @@
 ---
-title: 在 Skype for Business Server 2015 中指定 CDR 数据的保留
+title: 指定保留 CDR 数据在 Skype 业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
-description: 摘要： 了解如何管理呼叫详细记录 (CDR) 数据为 Skype 业务服务器 2015年。
-ms.openlocfilehash: cb15468f1980f0103c2333676a92ae1ca1280f1b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何管理呼叫详细信息记录 (CDR) 数据的 Skype 业务服务器。
+ms.openlocfilehash: ce35d8d2cac0968cca912031ec5e406ebe93e2eb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005830"
 ---
-# <a name="specify-retention-of-cdr-data-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中指定 CDR 数据的保留
+# <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>指定保留 CDR 数据在 Skype 业务服务器
  
-**摘要：**了解如何管理呼叫详细记录 (CDR) 数据为 Skype 业务服务器 2015年。
+**摘要：** 了解如何管理呼叫详细信息记录 (CDR) 数据的 Skype 业务服务器。
   
-默认情况下，呼叫详细信息记录 (CDR) 数据会在 60 天后清除。可以使用“呼叫详细信息记录”****页上的设置将该数据保留更长或更短的时间。如果禁用 CDR，则在启用 CDR 之前捕获的数据也将清除。
+默认情况下，呼叫详细信息记录 (CDR) 数据会在 60 天后清除。可以使用“呼叫详细信息记录”**** 页上的设置将该数据保留更长或更短的时间。如果禁用 CDR，则在启用 CDR 之前捕获的数据也将清除。
   
 > [!NOTE]
 > 应该对 CDR 和用户体验质量 (QoE) 进行配置，使二者保留数据的天数相同。监控服务器报告网页上提供的呼叫详细信息报告 (CDR) 中的每个呼叫均包括 CDR 和 QoE 信息。如果 CDR 和 QoE 的清除期限不同，则某些呼叫可能只包含 CDR 数据，而其他呼叫可能只包含 QoE 数据。 
@@ -29,13 +29,13 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-specify-retention-of-cdr-data"></a>指定 CDR 数据的保留
 
-1. 从一个用户帐户，是 RTCUniversalServerAdmins 组的成员 （或具有相当的用户的权限），或者是指派到 CsServerAdministrator 或 CsAdministrator 的角色，在其中您部署 Skype 业务服务器的网络中任何计算机的登录2015。
+1. 从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机.
     
-2. 打开浏览器窗口，然后输入管理员 URL 打开 Skype 业务服务器控件面板。  
+2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。  
     
 3. 在左侧导航栏中，单击“监控和存档”****，然后单击“呼叫详细信息记录”****。
     
-4. 在“呼叫详细信息记录”****页上，单击表中的相应站点，再单击“编辑”****，然后单击“显示详细信息”****。
+4. 在“呼叫详细信息记录”**** 页上，单击表中的相应站点，再单击“编辑”****，然后单击“显示详细信息”****。
     
 5. 要打开清除，请选择“启用 CDR 清除”****。
     
@@ -47,7 +47,7 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>通过使用 Windows PowerShell cmdlet 指定 CDR 保留
 
-您可以通过使用 Windows PowerShell 和一组 CsCdrConfiguration cmdlet 创建 CDR 保留设置。 可以从 Skype 业务服务器管理外壳程序或从 Windows PowerShell 的远程会话来运行该 cmdlet。 有关使用远程 Windows PowerShell Skype 业务服务器的连接的详细信息，请参阅博客文章["快速启动:: 管理 Microsoft Lync 服务器 2010年使用远程 PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 该过程是相同的 Skype 业务服务器。
+您可以使用 Windows PowerShell 和 Set-cscdrconfiguration cmdlet 创建 CDR 保留设置。 可以从 Skype 业务 Server 命令行管理程序或从 Windows PowerShell 远程会话来运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Skype 业务服务器的详细信息，请参阅博客文章["快速启动:: 管理 Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 过程是相同的 Skype 业务服务器。
   
 ### <a name="to-specify-cdr-retention-for-a-specific-location"></a>指定特定位置的 CDR 保留
 
@@ -65,11 +65,8 @@ ms.lasthandoff: 03/28/2018
   Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
   ```
 
-有关详细信息，请参阅[设置 CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息，请参阅[Set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet 的帮助主题。
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
-[呼叫详细记录 (CDR) 在 Skype 业务服务器 2015](call-detail-recording-cdr.md)
-
+[呼叫详细信息记录 (CDR) 中 Skype 业务服务器](call-detail-recording-cdr.md)

@@ -1,44 +1,43 @@
 ---
-title: 在 Skype for Business Server 2015 中部署 Web 可下载客户端
+title: 为业务服务器部署中 Skype Web 可下载的客户端
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 摘要： 部署企业 Web 应用程序和 Skype 会议应用程序与 Skype 用于业务 Skype。
-ms.openlocfilehash: 9dcb528a43ca80135cda30505739cde11e499d8c
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 216d1a3bc82c3845a8302847c3488dd9f495fa74
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569538"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995839"
 ---
-# <a name="deploy-web-downloadable-clients-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中部署 Web 可下载客户端
+# <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>为业务服务器部署中 Skype Web 可下载的客户端
  
-**摘要：** 部署企业 Web 应用程序和 Skype 会议应用程序与 Skype 用于业务 Skype。
+**摘要：** 部署企业 2015 Web 应用程序的 Skype 和 Skype 会议应用程序与 Skype 用于业务服务器 2015年。
   
-企业 Web 应用程序的 Skype 是 Skype 业务服务器 2015年和部署的默认按需运行会议用户尚不具有业务客户端 Skype 服务器安装了 Internet 信息服务 (IIS) web 客户端。 这些会议用户通常从你的网络外连接。 只要用户单击会议 URL，但没有业务客户端安装 Skype，用户将显示使用最新版本的 Skype 企业 Web 应用程序加入会议选项。
+企业 Web 应用程序的 Skype 是运行业务服务器 2015 Skype 服务器安装了 Internet 信息服务 (IIS) web 客户端，默认情况下，它将部署需要向会议用户尚不具有业务客户端的 Skype。 这些会议用户通常从你的网络外连接。 只要用户单击会议 URL，但没有业务客户端安装 Skype，用户将显示使用最新版本的 Skype 企业 Web 应用程序或 Skype 会议应用程序加入会议选项。
   
 视频和共享的语音功能 Skype 中的企业 Web 应用程序要求用作用户的浏览器插件一个 Microsoft ActiveX 控件。 您可以提前安装 ActiveX 控件或允许用户安装它出现提示时，发生第一次企业 Web 应用程序使用 Skype 或他们访问功能在首次需要的 ActiveX 控件。
   
 > [!NOTE]
-> Skype 业务 Server 2015 边缘服务器部署，在外围网络中的 HTTPS 反向代理是需要的 Skype 业务 Web App 客户端访问。 你还必须发布简单的 URL。 有关详细信息，请参阅[设置 Up Reverse Proxy Servers](http://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) and [Planning for Simple URLs](http://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)。 
+> Skype 业务 Server 2015 边缘服务器部署，在外围网络中的 HTTPS 反向代理是需要的 Skype 业务 Web App 客户端访问。 你还必须发布简单的 URL。 有关详细信息，请参阅[设置 Up Reverse Proxy Servers](http://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) and [Skype 业务服务器中的简单 Url 的 DNS 要求](../../plan-your-deployment/network-requirements/simple-urls.md)。 
   
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>启用 Skype 业务 Web 应用程序的多因素身份的验证
 <a name="MFA"> </a>
 
-Skype 业务 Web 应用程序的业务服务器 2015年版 Skype 支持多因素身份验证。 除了用户名和密码，您可以要求其他身份验证方法，例如智能卡或旋转中心点，当用户登录到 Skype 业务会议加入从外部网络的用户进行身份验证。 您可以通过部署 Active Directory 联合身份验证服务 (AD FS) 联合服务器和启用业务服务器 2015年中 Skype 被动身份验证启用多重身份验证。 配置 AD FS 后，尝试业务会议加入 Skype 的外部用户显示包含用户名的 AD FS 多因素身份验证网页，以及任何其他身份验证方法的密码质询您已配置。
+企业 Web 应用程序的 Skype 和 Skype 会议应用程序支持多因素身份验证。 除了用户名和密码，您可以要求其他身份验证方法，例如智能卡或旋转中心点，当用户登录到 Skype 业务会议加入从外部网络的用户进行身份验证。 您可以通过部署 Active Directory 联合身份验证服务 (AD FS) 联合服务器和启用业务服务器中 Skype 被动身份验证启用多重身份验证。 配置 AD FS 后，尝试业务会议加入 Skype 的外部用户显示包含用户名的 AD FS 多因素身份验证网页，以及任何其他身份验证方法的密码质询您已配置。
   
 > [!IMPORTANT]
 > 如果您计划配置 AD FS 以进行多重身份验证，则以下是一些重要注意事项： 
   
 - 如果会议参加者和组织者位于同一组织中或都来自 AD FS 联盟组织，则 ADFS 多重身份验证生效。ADFS 多重身份验证不适用于 Lync 联盟用户，因为 Lync 服务器 Web 基础结构当前不支持该验证方法。
     
-- 如果您使用硬件负载平衡器，请启用负载平衡器上的 cookie 持久性，以便使来自业务 Web App 客户端 Skype 的所有请求均由同一前端服务器都处理。
+- 如果您使用硬件负载平衡器，请启用负载平衡器上的 cookie 持久性，以便使来自业务 Web 应用程序或会议应用程序的客户端的 Skype 的所有请求均由同一前端服务器都处理。
     
 - 当您信赖方之间建立信任业务服务器和 AD FS 服务器的 Skype 时，分配足够跨业务会议您 Skype 的最大长度令牌生命。 通常，240 分钟的令牌使用时间就足够了。
     
@@ -75,7 +74,7 @@ Skype 业务 Web 应用程序的业务服务器 2015年版 Skype 支持多因素
 
 Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能中，可以干扰业务 Web 应用程序 web 组件的 Skype。 若要为企业 Web 应用程序用户的 Skype 阻止问题，请确保为未启用 BranchCache。 
   
-有关禁用 BranchCache，有关详细信息，请参阅 BranchCache 部署指南中，可在 Microsoft 下载中心 Word 格式[http://go.microsoft.com/fwlink/p/?LinkId=268788](http://go.microsoft.com/fwlink/p/?LinkId=268788)和 Windows Server 2008 R2 技术库中在 HTML 格式[https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?LinkId=268789)。
+有关禁用 BranchCache 的详细信息，请参阅[BranchCache 部署指南](https://docs.microsoft.com/en-us/windows-server/networking/branchcache/deploy/branchcache-deployment-guide)。
   
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>验证 Skype 业务 Web 应用程序部署
 <a name="MFA"> </a>
@@ -114,10 +113,10 @@ Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能中，可以干扰
     
 5. 重新加入会议。
     
-## <a name="enable-skype-meetings-app-to-replace-skype-for-business-web-app-optional"></a>启用 Skype 会议应用以替换 Skype for Business Web 应用（可选）
+## <a name="enable-skype-meetings-app-to-replace-skype-for-business-web-app-optional-skype-for-business-server-2015-only"></a>启用 Skype 会议应用程序的业务 Web 应用程序 （可选，仅业务服务器 2015年的 Skype） 替换 Skype
 <a name="SMA_Enable"> </a>
 
-此过程可选。 如果不使用它，外部用户将继续使用 Skype 的企业 Web 应用程序加入会议。 
+此过程是可选的并且适用于 Skype 业务服务器 2015 CU5 及更高版本。 如果不使用它，外部用户将继续使用 Skype 的企业 Web 应用程序加入会议。 
   
 ### <a name="enable-simplified-meeting-join-and-skype-meetings-app"></a>启用简化会议加入和 Skype 会议应用
 
@@ -133,7 +132,7 @@ Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能中，可以干扰
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    在严格符合[业务数据集做法的 Skype](https://support.office.com/en-us/article/Skype-for-Business-data-collection-practices-c17e8ea6-b83b-4345-9401-47a6c8b13aad?ui=en-US&amp;rs=en-US&amp;ad=US)信息发送给 Microsoft。
+    在严格符合[业务数据集做法的 Skype](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices)信息发送给 Microsoft。
     
 3. 设置超时之前回退到本地承载 Skype 的业务 Web 应用程序体验中，如果 CDN 不可用。 默认值是 6 秒。 如果将该值设置为 0，则没有超时。
     
@@ -145,10 +144,8 @@ Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能中，可以干扰
 <a name="SMA_Enable"> </a>
 
 [规划会议客户端 （Web 应用程序和会议应用程序）](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
-  
-[规划会议客户端 （Web 应用程序和会议应用程序）](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
 
-[配置与会页面](http://technet.microsoft.com/library/45880423-47f4-49af-b825-cbd8e3fc1046.aspx)
+[配置会议中的业务服务器 Skype 的与会页面](../../manage/conferencing/meeting-join-page.md)
   
 [Microsoft Online Services 隐私声明](https://www.microsoft.com/en-us/privacystatement/OnlineServices/Default.aspx)
   

@@ -1,25 +1,24 @@
 ---
-title: 管理用户帐户的 Skype 业务服务器 2015
+title: 管理用户帐户的 Skype 业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
-description: 本文中的各节介绍如何启用、 暂时禁用或删除业务服务器 2015 Skype 从 Active Directory 用户。
-ms.openlocfilehash: 00e1f40e72e6073d73a906c814dfc942e6588ba9
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 本文中的各节介绍如何启用、 暂时禁用或删除业务服务器从 Skype Active Directory 用户。
+ms.openlocfilehash: ee6a82c5b5def06866379467beddae788d85171b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505158"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976735"
 ---
-# <a name="manage-user-accounts-for-skype-for-business-server-2015"></a>管理用户帐户的 Skype 业务服务器 2015
+# <a name="manage-user-accounts-for-skype-for-business-server"></a>管理用户帐户的 Skype 业务服务器
  
-本文中的各节介绍如何启用、 暂时禁用或删除业务服务器 2015 Skype 从 Active Directory 用户。
+本文中的各节介绍如何启用、 暂时禁用或删除业务服务器从 Skype Active Directory 用户。
   
 有关如何启用 Active Directory 用户的信息，请参阅[创建一个新的用户帐户](https://technet.microsoft.com/en-us/library/cc732336%28v=ws.11%29.aspx)。 有关如何删除 Active Directory 用户的信息，请参阅[删除用户帐户](https://technet.microsoft.com/en-us/library/cc753730%28v=ws.11%29.aspx)。
   
@@ -29,7 +28,7 @@ ms.locfileid: "19505158"
   
 - [搜索一个或多个用户](user-accounts.md#Search)
     
-- [添加和启用业务服务器 2015年用户新 Skype](user-accounts.md#Add)
+- [添加和启用新的 Skype Business Server 用户](user-accounts.md#Add)
     
 - [禁用或重新启用以前启用的 Skype 业务服务器的用户帐户](user-accounts.md#Disable)
     
@@ -40,7 +39,7 @@ ms.locfileid: "19505158"
 ## <a name="to-search-for-one-or-more-users"></a>搜索一个或多个用户
 <a name="Search"> </a>
 
-搜索查询的结果可用于配置 Active Directory 用户的 Skype 业务服务器 2015年。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。
+可以使用搜索查询的结果配置 Active Directory 用户的 Skype 业务服务器。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。
   
 您可以通过使用 Skype 业务 Server Control Panel 或 Active Directory 用户来搜索用户和计算机管理单元。 以下过程介绍如何使用业务 Server Control Panel 的 Skype 搜索用户。
   
@@ -67,10 +66,10 @@ ms.locfileid: "19505158"
     
 6. 在**搜索结果**下显示搜索结果。 您可以在列表中选择任一或所有用户，并对您都选择的用户执行配置任务。
     
-## <a name="add-and-enable-a-new-skype-for-business-server-2015-user"></a>添加和启用业务服务器 2015年用户新 Skype
+## <a name="add-and-enable-a-new-skype-for-business-server-user"></a>添加和启用新的 Skype Business Server 用户
 <a name="Add"> </a>
 
-启用后 Active Directory 用户和计算机中的用户帐户，可以使用业务 Server Control Panel 的 Skype 创建和启用业务服务器 2015年用户帐户的新 Skype 业务服务器 2015年向 Skype 添加 Active Directory 用户。
+启用后 Active Directory 用户和计算机中的用户帐户，可以使用业务 Server Control Panel 的 Skype 创建和启用业务 Server 用户帐户的新 Skype 业务服务器向 Skype 添加 Active Directory 用户。
   
 您还可以使用 cmdlet，特别是[启用 CsUser](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps)。
   
@@ -86,7 +85,7 @@ ms.locfileid: "19505158"
     
 6. 在**搜索用户**框中键入所有或名称的第一部分，显示名称、 名字、 姓氏、 安全帐户管理器 (SAM) 帐户名称、 电子邮件地址、 用户主体名称 (UPN) 或电话号码所需的 Active Directory 用户帐户，然后单击**查找**。
     
-7. 在表中，选择您想要将添加到 Skype for Business Server 2015 的帐户，然后单击**确定**。
+7. 在表中，选择您想要添加到 Skype 业务服务器的帐户，然后单击**确定**。
     
 8. 将用户分配给池，指定其他任何详细信息，并将策略分配给您希望的用户，然后单击**启用**。
     
@@ -136,7 +135,7 @@ ms.locfileid: "19505158"
 ## <a name="disable-a-user-for-enterprise-voice"></a>禁用企业语音的用户
 <a name="Disable_EV"> </a>
 
-使用以下过程的用户帐户的 Skype 的启用业务服务器 2015年禁用企业语音。
+使用以下过程为 Skype 业务 server 启用用户帐户禁用企业语音。
   
 ### <a name="to-disable-a-user-account-for-enterprise-voice"></a>若要禁用企业语音的用户帐户
 
@@ -159,11 +158,11 @@ ms.locfileid: "19505158"
   
 8. 单击“**提交**”。
     
-现在，用户不能使用企业语音功能。 相关的信息： <br/>[企业语音和移动性](http://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [Skype 中的企业语音的用户启用业务服务器 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype 的业务服务器 2015年命令行管理程序](../management-shell.md)
+现在，用户不能使用企业语音功能。 相关的信息： <br/>[企业语音和移动性](http://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [Skype 中的企业语音的用户启用企业服务器](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server 管理程序](../management-shell.md)
 ## <a name="remove-a-user-account-with-the-skype-for-business-server-management-shell"></a>业务 Server 命令行管理程序删除与 Skype 的用户帐户
 <a name="Remove"> </a>
 
-可以使用以下过程为业务服务器 2015 Skype 删除以前添加的用户帐户。 
+您可以使用以下过程中 Skype 业务服务器删除以前添加的用户帐户。 
   
 > [!NOTE]
 > 删除用户将导致丢失的用户帐户配置的任何设置。 如果您想要暂时改为禁用的用户帐户，请参阅[禁用或重新启用以前启用了企业服务器的 Skype 的用户帐户](user-accounts.md#Disable)。 

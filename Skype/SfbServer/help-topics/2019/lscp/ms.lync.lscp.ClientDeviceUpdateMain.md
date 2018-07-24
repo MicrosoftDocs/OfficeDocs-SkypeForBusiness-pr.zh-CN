@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
-description: Microsoft 会定期会的 Skype 的一组新的设备固件更新业务 Phone edition，您可以导入到您的服务器，并将分发给用户发布。 您可以通过 Microsoft 网站上转到帮助和支持页上，并搜索 forPhone Edition.Download 的最新的更新程序包获取最新的设备更新规则集，并将文件提取到的文件夹的计算机上，更新要上载。 在提取文件后，可以使用 Import-csdeviceupdate cmdlet 导入设备更新规则中提取找到。CAB 文件 （后者会名称 UCUpdates.cab）。 有关详细信息，请参阅 Import-csdeviceupdate。
-ms.openlocfilehash: 793f7328d3396f1e734e709f24f61bb802c26a47
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Microsoft 会定期会的 Skype 的一组新的设备固件更新业务 Phone edition，您可以导入到您的服务器，并将分发给用户发布。 您可以通过 Microsoft 网站上转到帮助和支持页上，并搜索 forPhone Edition.Download 的最新的更新程序包获取最新的设备更新规则集，并将文件提取到的文件夹的计算机上，更新要上载。 解压缩文件后，可以使用 Import-CsDeviceUpdate cmdlet 导入解压缩后的 .CAB 文件（其名称为 UCUpdates.cab）中包含的设备更新规则。 有关详细信息，请参阅 Import-csdeviceupdate。
+ms.openlocfilehash: 3c8ddfbaeabb2b70fcc2661271573ea4a7f62036
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19978067"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967860"
 ---
 # <a name="device-update"></a>设备更新
  

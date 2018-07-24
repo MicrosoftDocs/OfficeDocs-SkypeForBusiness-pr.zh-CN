@@ -3,19 +3,18 @@ title: Skype 会议室系统单林本地部署
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: 阅读本主题，了解如何在单林本地环境中部署 Skype 会议室系统。
-ms.openlocfilehash: 9d9e3b837ea4adc0244ee83d843c05b47625f6eb
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 8c931aca8505aa4d41175dbf5e1a138b668323d0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569956"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967903"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype 会议室系统单林本地部署
  
@@ -25,7 +24,7 @@ ms.locfileid: "19569956"
   
 ## <a name="single-forest-on-premises-deployments"></a>单林本地部署
 
-如果您已为会议房间资源邮箱帐户，您可以使用它。 否则，您需要创建一个新的成员。 您可以使用 Exchange 命令行管理程序 (PowerShell) 或 Exchange 管理控制台创建新资源邮箱帐户。 我们建议使用新 （删除旧的邮箱并重新创建） 的 Skype 会议室系统资源邮箱。 请确保备份之前删除的邮箱数据，然后将其导出到使用 Outlook 客户端重新创建邮箱 （请参阅 Export 或备份邮件、 日历、 任务和联系人的详细信息）。 若要还原的会议丢失通过删除邮箱，请参阅[连接或还原已删除的邮箱](https://technet.microsoft.com/en-us/library/jj863438%28v=exchg.150%29.aspx)。 
+如果您已为会议房间资源邮箱帐户，您可以使用它。 否则，您需要创建一个新的成员。 您可以使用 Exchange 命令行管理程序 (PowerShell) 或 Exchange 管理控制台创建新资源邮箱帐户。 我们建议使用新 （删除旧的邮箱并重新创建） 的 Skype 会议室系统资源邮箱。 请确保备份之前删除的邮箱数据，然后将其导出到使用 Outlook 客户端重新创建邮箱 （请参阅 Export 或备份邮件、 日历、 任务和联系人的详细信息）。 若要还原的会议丢失通过删除邮箱，请参阅[连接或还原已删除的邮箱](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx)。 
   
 要使用现有资源邮箱帐户（例如 LRS-01），请按照下面的步骤进行操作：
   

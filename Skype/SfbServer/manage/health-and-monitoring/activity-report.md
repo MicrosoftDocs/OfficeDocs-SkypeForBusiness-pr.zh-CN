@@ -1,32 +1,32 @@
 ---
-title: Skype for Business Server 2015 中的会议活动报告
+title: 会议活动报告中 Skype 业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
-description: 摘要： 了解使用 Skype 业务服务器 2015年会议活动报告。
-ms.openlocfilehash: 9655858acf63dc93b3441cce7c94def7444cbcf1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解用于在 Skype 业务服务器的会议活动报告。
+ms.openlocfilehash: ae88379434bdd33882721ba07ecc311b457b4000
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997482"
 ---
-# <a name="conference-activity-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的会议活动报告
+# <a name="conference-activity-report-in-skype-for-business-server"></a>会议活动报告中 Skype 业务服务器
  
-**摘要：**了解有关使用 Skype 业务服务器 2015年会议活动报告。
+**摘要：** 了解用于在 Skype 业务服务器的会议活动报告。
   
-会议活动报告很容易为您回答诸如此类的问题： 多少会议正在保存每一天，并在这些会议的持续吗？ 类似这样的信息很有用不仅在其自己的权利，而且还可用作故障排除工具。 例如，假设用户抱怨网络尤其是似乎在白天很慢。 快速浏览一下会议活动报告可能会建议一个可能的原因： 上午 10:00 的时间，然后在任何其他时间下午 2:00 之间已安排更多会议。
+会议活动报告使您方便地回答以下问题： 如何很多会议正在保留每日和时这些会议的持续？ 如下所示的信息作为故障排除工具但也是在其自己的右侧，而不是只有用。 例如，假设用户抱怨网络看似特别是在白天慢。 快速浏览一下会议活动报告可表示一个可能的原因： 更多的会议已安排的上午 10:00 小时数和 2:00 然后在其他任何时间之间。
   
 如果因网速慢而导致出现问题，您可以鼓励用户将他们的一些会议重新安排在一天中流量较少的时段。
   
 ## <a name="accessing-the-conference-activity-report"></a>访问会议活动报告
 
-会议活动报告通过[业务服务器 2015年的 Skype 在大会总结报告](conference-summary-report.md)中单击任一以下指标：
+通过单击以下指标之一情况下，从[Conference Summary Report 中的业务服务器 Skype](conference-summary-report.md)访问会议活动报告：
   
 - 会议总数
     
@@ -46,7 +46,7 @@ ms.lasthandoff: 03/28/2018
 
 利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。下表列出了可用于会议活动报告的筛选器。
   
-**会议活动报表筛选器**
+**会议活动报告筛选器**
 
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**说明**|
 |:-----|:-----|
@@ -59,9 +59,9 @@ ms.lasthandoff: 03/28/2018
 
 下表列出了每个池的会议活动报告中的信息。
   
-**会议由池标准**
+**按池分类的会议的指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**可以在此项上进行排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**池** <br/> |否  <br/> |会议中使用的注册器池或边缘服务器的名称。  <br/> |
 |**日期/时间** <br/> |否  <br/> |召开会议的日期和时间。  <br/> |
@@ -71,9 +71,9 @@ ms.lasthandoff: 03/28/2018
 
 下表列出了每种服务器类型的会议活动报告中的信息。
   
-**会议由服务器类型的度量标准**
+**按服务器类型分类的会议的指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**可以在此项上进行排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**会议服务器类型** <br/> |否  <br/> | 会议中使用的服务器的类型，通常为下列类型之一： <br/>  Web 会议服务器 <br/>  IM 会议服务器 <br/>  电话会议服务器 <br/>  AV 会议服务器 <br/>  应用程序共享 <br/> |
 |**日期/时间** <br/> |否  <br/> |召开会议的日期和时间。  <br/> |

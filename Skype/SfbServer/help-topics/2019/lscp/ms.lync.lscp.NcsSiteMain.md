@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9d65238a-d255-4b13-abe8-e4301b44c21c
+ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 918090f2b036d8f933a5e7c7afa6593611535493
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 0950f1ce38dd2b6063c56e25e52e2086a1beb453
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20044366"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987502"
 ---
 # <a name="configure-a-network-site"></a>配置网络站点
  

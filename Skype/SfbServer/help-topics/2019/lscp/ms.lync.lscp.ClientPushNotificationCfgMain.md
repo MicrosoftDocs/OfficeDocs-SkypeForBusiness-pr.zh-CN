@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
+ROBOTS: NOINDEX, NOFOLLOW
 description: 若要配置的 Microsoft 推送通知和 Apple 推送通知，您必须创建策略，以定义需要哪些类型的推送通知。
-ms.openlocfilehash: 5570ab2f25359d847c6b594f36f865a1c37e170e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 03142994c6d591ec524f6b67b28cb0ad9790fc06
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19971240"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003589"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>移动客户端： 推送通知配置
  

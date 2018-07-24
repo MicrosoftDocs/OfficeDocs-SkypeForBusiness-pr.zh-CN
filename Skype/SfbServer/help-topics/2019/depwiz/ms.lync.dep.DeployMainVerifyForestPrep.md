@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
+ROBOTS: NOINDEX, NOFOLLOW
 description: 若要确认全局编录复制和林准备期间创建的对象已成功，执行以下操作：
-ms.openlocfilehash: f45fb8f6c24d0cd9e8bcc108afbd9ec8cc9aa607
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 26ea7b544e3b38c47fd33bdcd0dbaa22f49e59be
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964524"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967938"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>验证林准备的复制
  

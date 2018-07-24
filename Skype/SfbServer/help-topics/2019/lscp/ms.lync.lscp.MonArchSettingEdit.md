@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
+ROBOTS: NOINDEX, NOFOLLOW
 description: 使用存档配置可控制用于部署的存档选项。存档配置包括全局配置以及可选的一个或多个站点和池配置：
-ms.openlocfilehash: 3cc5c560ebafdf5dbf1ddac05d7c6b25653c0eb4
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1e85367566618638da8e8c9a826c56eecad6b029
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976870"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974806"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>存档配置：创建新的或编辑现有的
  
@@ -69,5 +70,5 @@ ms.locfileid: "19976870"
     > [!NOTE]
     > 如果您启用 Microsoft Exchange 集成，请清除用户驻留在 Exchange 和 exchange 控制其邮箱置于就地保留。 对于会议文件，存储在 Lync Server 文件共享中是唯一的例外。 如果您选择在已导出存档数据后清除数据，或在指定的最长天数（如果您指定了最长保留天数）后清除数据，则仅在导出文件（上载到 Exchange）后才从文件共享中清除这些文件。 
   
-有关的存档功能和功能，包括 Exchange 集成的详细信息，请参阅[规划存档中的业务服务器 2015 Skype](../../../plan-your-deployment/archiving/archiving.md)、[业务服务器 2015年的 Skype 存档的部署](../../../deploy/deploy-archiving/deploy-archiving.md)，和[管理存档中的 Skype业务服务器 2015年](../../../manage/archiving/archiving.md)。
+有关的存档功能和功能，包括 Exchange 集成的详细信息，请参阅[Plan for Business Server 的 Skype 的存档](../../../plan-your-deployment/archiving/archiving.md)、 [Skype 业务服务器存档的部署](../../../deploy/deploy-archiving/deploy-archiving.md)，和[管理存档中 Skype for Business服务器](../../../manage/archiving/archiving.md)。
 

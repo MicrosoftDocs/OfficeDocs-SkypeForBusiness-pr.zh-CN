@@ -1,26 +1,26 @@
 ---
-title: 修补或更新 Skype for Business Server 2015 中的前端服务器
+title: 修补程序或更新业务服务器 Skype 在前端服务器
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 4/4/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
-description: 摘要： 了解如何向前端服务器在 Skype 业务服务器应用升级或修补程序。
-ms.openlocfilehash: 1f5ccd6531338d1e6b47dd8363b9386bcbeba0fc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何为业务 Server 到 Skype 在前端服务器应用升级或修补程序。
+ms.openlocfilehash: 29191192b1dab16b79cc594cc0a7b3b68aaa906f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972770"
 ---
-# <a name="patch-or-update-front-end-servers-in-skype-for-business-server-2015"></a>修补或更新 Skype for Business Server 2015 中的前端服务器
+# <a name="patch-or-update-front-end-servers-in-skype-for-business-server"></a>修补程序或更新业务服务器 Skype 在前端服务器
  
-**摘要：**了解如何到前端服务器在 Skype 业务服务器应用升级或修补程序。
+**摘要：** 了解如何为业务 Server 到 Skype 在前端服务器应用升级或修补程序。
   
-当修补在前端池中的服务器时，您需要这样一台服务器执行一次。 
+修补程序在前端池中的服务器时，您一次执行因此一台服务器。 
   
 ### <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a>对池中的前端服务器应用升级
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 03/28/2018
   Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
   ```
 
-    此 cmdlet 将所有服务都移动到其他前端服务器的池中，并将该服务器脱机。
+    此 cmdlet 将所有服务都移动到其他前端服务器池中，并使此服务器脱机。
     
 3. 为此服务器应用升级或修补。
     

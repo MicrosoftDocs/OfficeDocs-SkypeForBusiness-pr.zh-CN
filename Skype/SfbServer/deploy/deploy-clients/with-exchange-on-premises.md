@@ -3,7 +3,6 @@ title: 将 Skype 会议室系统 v2 与本地 Exchange 一起部署
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,12 +10,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 description: 阅读此主题以获取如何部署与 Exchange 内部部署混合环境中的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 4fd9b1f2ef7f40f0dac72bd97c25b59d18698154
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+ms.openlocfilehash: 930cc8916459562af89c15aefb60a2bf2c33c7e4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887832"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965448"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>将 Skype 会议室系统 v2 与本地 Exchange 一起部署
  

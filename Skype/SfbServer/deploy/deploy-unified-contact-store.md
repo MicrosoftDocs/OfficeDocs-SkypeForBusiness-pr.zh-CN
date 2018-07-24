@@ -1,27 +1,26 @@
 ---
-title: 在 Skype for Business Server 2015 中部署统一联系人存储
+title: '部署统一的联系人存储中 Skype 业务服务器 '
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
-description: 摘要： 启用统一的联系人存储中 Skype 的业务服务器 2015年。
-ms.openlocfilehash: 2004ab4074af98381fbbfdf67ba4ce0bac9503a8
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 启用统一的联系人存储中 Skype 业务服务器。
+ms.openlocfilehash: 36515e9542a18d422254292b0cf2a2b4ef937178
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568715"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978219"
 ---
-# <a name="deploy-unified-contact-store-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中部署统一联系人存储
+# <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>部署统一的联系人存储中 Skype 业务服务器
  
-**摘要：** 启用统一的联系人存储中 Skype 的业务服务器 2015年。
+**摘要：** 启用统一的联系人存储中 Skype 业务服务器。
   
-启用统一的联系人存储库中 Skype 业务服务器 2015年不需要任何拓扑设置。 要为用户启用统一的联系人存储库，需要：
+启用统一的联系人存储中 Skype 业务服务器不需要任何拓扑设置。 要为用户启用统一的联系人存储库，需要：
   
 - 启用统一的联系人存储库策略（将启用默认值）。
     
@@ -34,11 +33,11 @@ ms.locfileid: "19568715"
   
 ## <a name="enable-users-for-unified-contact-store"></a>为用户启用统一联系人存储
 
-当您部署业务服务器 2015 Skype 并发布拓扑时，统一联系人存储库默认情况下启用为所有用户。 不需要执行任何其他操作来启用统一的联系人存储库的业务服务器 2015年部署 Skype 后。 但是， **Set-csuserservicespolicy** cmdlet 可用于自定义哪些用户有统一联系人存储库可用。 可以全局启用此功能，或者按站点、租户、个人或个人组启用此功能。
+当您部署业务服务器 Skype 并发布拓扑时，统一联系人存储库默认情况下启用为所有用户。 不需要执行任何其他操作来业务服务器部署 Skype 后启用统一的联系人存储库。 但是， **Set-csuserservicespolicy** cmdlet 可用于自定义哪些用户有统一联系人存储库可用。 可以全局启用此功能，或者按站点、租户、个人或个人组启用此功能。
   
 ### <a name="to-enable-users-for-unified-contact-store"></a>为用户启用统一联系人存储
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 为业务 Server 命令行管理程序启动 Skype： 单击**开始**，单击**所有程序**、 都单击**for Business 的 Skype**，，然后都单击**Skype 的业务 Server Management Shell**。
     
 2. 请执行以下任一操作：
     
@@ -90,7 +89,7 @@ ms.locfileid: "19568715"
    ```
 
     > [!NOTE]
-    > 在上述示例中，第一个命令创建新的每用户策略的了将 UcsAllowed 标记设置为 True 以命名 UCS 启用用户。 第二个命令将该策略分配给显示名称为 Ken Myer 的用户，这意味着现在已为 Ken Myer 启用统一的联系人存储库。
+    > 在上面的示例中，第一个命令创建一个名为“启用 UCS 的用户”的新每用户策略，并将 UcsAllowed 标记设置为 True。第二个命令将该策略分配给显示名称为 Ken Myer 的用户，这意味着现在已为 Ken Myer 启用统一的联系人存储库。
   
 ## <a name="migrate-users-to-unified-contact-store"></a>将用户迁移到统一联系人存储
 
@@ -124,11 +123,11 @@ ms.locfileid: "19568715"
 
 如果需要回滚统一的联系人存储功能，但仅当您将用户移回到 Exchange 2010 或 Lync Server 2010 回滚联系人。 若要回滚，禁用对用户策略，然后再运行**Invoke-csucsrollback** cmdlet。 只需运行**Invoke-csucsrollback**本身不足以确保永久回滚，因为如果不禁用此策略，则将再次启动统一联系人存储库迁移。 例如，如果用户回滚原因 Exchange 2013 回滚到 Exchange 2010，然后将该用户的邮箱移到 Exchange 2013，统一联系人存储库迁移将启动再次七天后回滚，只要统一的联系人存储仍用户服务策略中为用户启用。
   
-**Move-csuser** cmdlet 自动回滚用户的联系人存储从 Exchange 2013 到 Skype 的业务服务器 2015年在下列情况下：
+**Move-csuser** cmdlet 自动回滚用户的联系人存储从 Exchange 2013 到 Skype 业务服务器在下列情况下：
   
-- 当用户移动 Skype 的业务服务器 2015年到 Microsoft Lync Server 2013 或 Lync Server 2010。 
+- 当用户移动 Skype 业务服务器到 Microsoft Lync Server 2013 或 Lync Server 2010。 
     
-- 当用户交叉迁移，如当用户从移动 Skype 业务 online 到 Skype 业务服务器 2015年本地，反之亦然。
+- 当用户交叉迁移，如当用户从移动 Skype 业务 online 到 Skype 的业务服务器的本地，反之亦然。
     
 如果统一联系人存储模式在导出和导入之间发生更改，则从备份数据库中导入统一联系人存储数据，可能导致统一联系人存储数据和用户数据发生损坏。例如：
   

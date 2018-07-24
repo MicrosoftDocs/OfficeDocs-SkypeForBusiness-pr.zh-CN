@@ -1,25 +1,24 @@
 ---
-title: Skype for Business Server 2015 中的用户活动报告
+title: 用户活动报告中 Skype 业务服务器 25
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
-description: 摘要： 了解业务服务器 2015 Skype 中的用户活动报告。
-ms.openlocfilehash: ed0e61d2e5593287c4f793d8b0c4cf647d772478
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解在 Skype 业务服务器的用户活动报告。
+ms.openlocfilehash: 13e5eb691e81994e2fac368244522fdcab2003df
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569391"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981204"
 ---
-# <a name="user-activity-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的用户活动报告
+# <a name="user-activity-report-in-skype-for-business-server"></a>Skype 中的企业服务器用户活动报告
  
-**摘要：** 了解业务服务器 2015 Skype 中的用户活动报告。
+**摘要：** 了解业务服务器的用户活动报告中 Skype。
   
 用户活动报告提供了由用户在给定时间段内执行的对等会话和会议会话的详细列表。与很多监控报告不同，用户活动报告会将每个呼叫与单个用户绑定。例如，对等会话指定发起呼叫（源用户）的人员以及被呼叫（目标用户）的人员的 SIP URI。如果展开会议的信息，则会看到所有会议参与者及其在该会议中担任的角色的列表。
   
@@ -41,14 +40,14 @@ Ken.my
   
 ## <a name="to-access-the-user-activity-report"></a>访问用户活动报告
 
-用户活动报告是从“监控报告”主页访问的。 您还可以通过单击[IP 电话清单报告中的业务服务器 2015 Skype](ip-phone-inventory-report.md)上的用户 URI 指标来访问用户活动报告。 在用户活动报告中，单击“会议 URI”（针对会议）会将您转到会议详细信息报告。 同样，单击对等呼叫详细信息指标可转到[对等会话中的业务服务器 2015 Skype 的详细信息报告](peer-to-peer-session-detail-report.md)。
+用户活动报告是从“监控报告”主页访问的。 您还可以通过单击[IP 电话清单报告中 Skype 业务服务器](ip-phone-inventory-report.md)上的用户 URI 指标来访问用户活动报告。 在用户活动报告中，单击“会议 URI”（针对会议）会将您转到会议详细信息报告。 同样，单击对等呼叫详细信息指标可转到[Skype 业务服务器中的对等会话详细信息报告](peer-to-peer-session-detail-report.md)。
   
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>充分利用用户活动报告
 
-尽管用户活动报告中有很多有用的信息，但这些信息有时候可能很难找到。 用户活动报告; 例如，包含指定时段内组织中发生的所有用户活动是指淹没、 报告中，则有关哪些用户实际上用于 Skype 业务服务器 2015年以某种方式的信息。
+尽管用户活动报告中有很多有用的信息，但这些信息有时候可能很难找到。 用户活动报告; 例如，包含指定时段内组织中发生的所有用户活动是指淹没、 报告中，则有关哪些用户实际上用于 Skype 业务服务器以某种方式的信息。
   
 > [!NOTE]
-> 技术上讲，则可能某些用户活动可能转债务： 时 Skype 的业务服务器都在努力保留所有电话有关的信息可能的呼叫可能已进行了不写入到该呼叫的信息数据库。 Skype 业务服务器旨在提供业务服务器 2015年的 Skype 如何使用的极准确，但不是一定是理想查看。 （这一事实存在的 100%的所有呼叫都将记录不能保证情况说明为什么业务服务器监控的 Skype 应不能用作帐单系统）。其次，监控报告可以仅显示，最 1,000 记录。 根据您具有的用户活动的数量以及您工作的时间段，这意味着您的查询可能无法返回数据库中实际存储的所有数据。 
+> 技术上讲，则可能某些用户活动可能转债务： 时 Skype 的业务服务器都在努力保留所有电话有关的信息可能的呼叫可能已进行了不写入到该呼叫的信息数据库。 Skype 业务服务器旨在使在 Skype 业务 server 如何使用的极准确，但不是一定是理想外观。 （这一事实存在的 100%的所有呼叫都将记录不能保证情况说明为什么业务服务器监控的 Skype 应不能用作帐单系统）。其次，监控报告可以仅显示，最 1,000 记录。 根据您具有的用户活动的数量以及您工作的时间段，这意味着您的查询可能无法返回数据库中实际存储的所有数据。 
   
 - 哪些用户在此时间段内实际上使用了系统？
     
@@ -129,7 +128,7 @@ $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Se
   
 **对等会话的指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**您可以按此项排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**详情** <br/> |否  <br/> |单击此项时，报告将显示所选会话的对等会话详细信息报告。  <br/> |
 |**来源用户** <br/> |是  <br/> |发起对等会话的用户的 SIP 地址。  <br/> |
@@ -146,7 +145,7 @@ $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Se
   
 **会议会话的指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**您可以按此项排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**会议 URI** <br/> |是  <br/> |唯一会议标识符。单击此项时，报告将显示所选会话的会议详细信息报告。展开此项时，报告将显示有关会议参与者的信息。有关详细信息，请参阅本主题后面的“会议参与者的指标”一节。  <br/> |
 |**组织者** <br/> |是  <br/> |组织会议的用户的 SIP 地址。  <br/> |
@@ -160,7 +159,7 @@ $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Se
   
 **会议参与者的指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**您可以按此项排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**角色** <br/> |否  <br/> |用户的会议角色（例如，演示者）。  <br/> |
 |**参与者** <br/> |否  <br/> |用户的 SIP 地址。  <br/> |

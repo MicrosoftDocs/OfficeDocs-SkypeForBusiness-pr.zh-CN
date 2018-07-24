@@ -1,38 +1,38 @@
 ---
-title: Skype for Business Server 2015 中的点对点活动摘要报告
+title: 对等活动中 Skype 业务服务器的摘要报告
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
-description: 摘要： 了解对等活动摘要报告在 Skype 业务服务器 2015年。
-ms.openlocfilehash: bebef02fbae79f1b85cab8c03f6f27c8e49ea879
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解对等活动摘要报告中 Skype 业务服务器。
+ms.openlocfilehash: 20eab96b870b0ce4bef0e516116cbc39d6a4c7e5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975723"
 ---
-# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的点对点活动摘要报告
+# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>对等活动中 Skype 业务服务器的摘要报告
  
-**摘要：**了解对等活动摘要报告在 Skype 业务服务器 2015年。
+**摘要：** 了解对等活动摘要报告中 Skype 业务服务器。
   
-对等活动摘要报告提供对等通信会话的整体视图。 对等会话通常涉及到的只是两个用户，并且不需要使用 Skype 业务服务器会议服务。 比较而言，会议通常涉及两个以上的用户和业务服务器 2015年会议服务要求使用 Skype。 会议活动在会议摘要报告上进行报告。
+对等活动摘要报告提供对等通信会话的整体视图。 对等会话通常涉及两个用户，并不需要使用 Skype Business Server 会议服务。 相比之下，会议通常涉及两个以上的用户和业务 Server 会议服务需要 Skype 使用。 会议活动在会议摘要报告上进行报告。
   
 对等活动摘要报告帮助您回答诸如下列问题：
   
 - 在特定某一天，我的用户发送了多少对等即时消息？
     
-- 任何我的用户是实际利用 Skype 业务服务器应用程序共享和文件传输功能的？
+- 我的任何用户是否确实利用业务服务器应用程序共享和文件传输功能的 Skype？
     
 - 用户曾报怨在一天的特定时间网络看上去很慢。在此期间对等音频和视频会话占用了多少分钟时间？
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>访问对等活动摘要报告
 
-可从监视报告主页访问对等活动摘要报告。 您可以通过单击以下指标之一打开[业务服务器 2015年的 Skype 对等 IM 报表](im-report.md)：
+可从监视报告主页访问对等活动摘要报告。 您可以通过单击以下指标之一打开[Skype 业务服务器中的对等 IM 报告](im-report.md)：
   
 - 对等 IM 会话总数
     
@@ -58,7 +58,7 @@ ms.lasthandoff: 03/28/2018
   
 下表列出了可用于对等活动摘要报告的筛选器。
   
-**对等活动摘要的报告筛选器**
+**对等活动摘要报告筛选器**
 
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**说明**|
 |:-----|:-----|
@@ -70,9 +70,9 @@ ms.lasthandoff: 03/28/2018
 
 下表列出了对等活动摘要报告中提供的信息。
   
-**对等活动摘要的报告统计数据**
+**对等活动摘要报告指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**可以在此项上进行排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**每小时** <br/> **每天** <br/> **每周** <br/> **每月** <br/> |否  <br/> |指示在筛选器工具栏上选择的时间间隔。如果适用，可单击某一给定的时间间隔以查看该间隔的详细信息。例如，如果使用“每天”间隔并单击 2015/7/17，可查看当日用户注册活动的每小时细分信息。  <br/> |
 |**对等会话总数** <br/> |否  <br/> |发起的对等会话总数（无论是哪种会话类型）。  <br/> |

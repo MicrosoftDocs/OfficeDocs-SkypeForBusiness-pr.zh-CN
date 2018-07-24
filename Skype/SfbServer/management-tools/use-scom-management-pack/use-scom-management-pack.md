@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 摘要： 了解如何配置您 Skype 业务服务器 2015年基础结构，以使用 System Center Operations Manager。
-ms.openlocfilehash: cb2eb053142bcbc4c24a61f6dbd7322a3772f4a6
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: b94490c60234f76b0e07f0b7732d76cc2354eaad
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504787"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20994960"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>使用 SCOM 管理包管理 Skype for Business Server 2015
  
@@ -118,7 +118,7 @@ ms.locfileid: "19504787"
 
 业务 Server 2015 管理包的 Skype 提供增加的范围通过综合事务的通知。 综合事务是集成测试的端到端用户方案的 Operations Manager 管理包的 Windows PowerShell cmdlet。 当指定服务器以执行综合事务时，这些 cmdlet 管理包定期触发。 生成综合事务的故障生成状态通知。 下面是受支持的 Skype 的业务服务器 2015年的综合事务：
   
-**支持注册、 状态和联系人综合事务**
+**支持的注册、状态和联系人综合事务**
 
 ||||
 |:-----|:-----|:-----|
@@ -134,8 +134,11 @@ ms.locfileid: "19504787"
 |:-----|:-----|:-----|
 |6  <br/> |对等即时消息  <br/> |Lync Server 2010 中及其他认证实战可用  <br/> |
 |7  <br/> |对等音频视频  <br/> |Lync Server 2010 中及其他认证实战可用  <br/> |
-|8  <br/> |MCX 对等即时消息（移动）  <br/> |2011 年 9 月版本的 Lync Server 2010 及其他认证实战中提供  <br/> |
-   
+|8  <br/> |MCX 对等即时消息（移动）  <br/> |2011 年 9 月版中 Lync Server 2010 的业务 2015 Skype 到可用  <br/> |
+ 
+> [!NOTE]
+> MCX 旧的移动客户端支持不再可用的业务服务器 2019 Skype 中。 您的用户需要升级到当前客户端。
+  
 **支持的会议和持久聊天综合事务**
 
 ||||
@@ -156,7 +159,7 @@ ms.locfileid: "19504787"
 |17  <br/> |AV 边缘连接  <br/> |Lync Server 2013 中及其他认证实战可用  <br/> |
 |18  <br/> |AV 边缘连接 Exchange 统一消息连接（语音邮件）  <br/> |Lync Server 2013 中及其他认证实战可用  <br/> |
 |19  <br/> |PSTN 对等呼叫  <br/> |Lync Server 2010 中及其他认证实战可用  <br/> |
-|20  <br/> |XMPP 即时消息（联合）  <br/> |Lync Server 2013 中及其他认证实战可用  <br/> |
+|20  <br/> |XMPP 即时消息（联合）  <br/> |Lync Server 2013 和 Skype 的业务 2015年中可用  <br/> |
 |21  <br/> |视频互操作服务器  <br/> |Skype 业务服务器 2015年中的新增功能  <br/> |
    
 ## <a name="how-health-rolls-up"></a>运行状况的累计方法

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
+ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组队列保留对响应组呼叫，直到代理应答呼叫。 队列已分配的代理组。 当您创建或编辑队列时，您使用选择组对话框选择要分配给队列的一个或多个代理组。
-ms.openlocfilehash: 8b8ebcce726b92e40f20f077319dcec1272d35f2
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 288efe4395361b508e7ebe245155c55319161581
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973999"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967853"
 ---
 # <a name="select-groups"></a>选择组
  

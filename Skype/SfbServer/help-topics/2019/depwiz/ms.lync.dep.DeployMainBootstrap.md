@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8813f25-eafa-4006-a186-94e4ebcc5ac7
-description: 若要安装和激活或停用或卸载 Skype 业务服务器组件，您可以使用步骤 2： 安装或删除 Skype 服务器组件。 您必须登录在计算机上的本地管理员为您已安装或修改和必须能够读取 Active Directory 域服务用户和当前域中的组。 若要开始，请单击运行。 执行此操作时，会读取基于中央管理存储的拓扑定义。 需要根据中央管理存储中定义的角色来安装和配置必需的软件组件。 安装完成后，查看摘要，然后单击完成。
-ms.openlocfilehash: 6e815f8a8bcac415abccf7e8821067476a5c3921
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 若要安装和激活或停用或卸载 Skype 业务服务器组件，您可以使用步骤 2： 安装或删除 Skype 服务器组件。 您必须登录在计算机上的本地管理员为您已安装或修改和必须能够读取 Active Directory 域服务用户和当前域中的组。 要开始，请单击“运行”。 执行此操作时，会读取基于中央管理存储的拓扑定义。 需要根据中央管理存储中定义的角色来安装和配置必需的软件组件。 安装完成后，请检查摘要，然后单击“完成”。
+ms.openlocfilehash: e08eb866067f982d0134d56f80b97ca0cb5ab581
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19965575"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971249"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components"></a>安装或删除 Skype for Business Server 组件
  

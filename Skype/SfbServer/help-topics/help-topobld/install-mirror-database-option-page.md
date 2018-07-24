@@ -3,7 +3,7 @@ title: 安装镜像数据库选项页
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,21 +11,22 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
-description: 您可以通过定义以下配置镜像数据库设置：
-ms.openlocfilehash: c51c3c6e4ee4c86fe97830c639374ab9d97278da
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 您可以通过以下定义配置镜像数据库设置：
+ms.openlocfilehash: aadb4ddc61603a827ff1e9f2bc1c2d332ad8d7db
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974590"
 ---
 # <a name="install-mirror-database-option-page"></a>安装镜像数据库选项页
  
-您可以通过定义以下配置**镜像数据库设置**：
+您可以通过以下定义配置**镜像数据库设置**：
   
-- 键入**文件路径共享**来定义要镜像的数据库的备份 SQL Server 文件的位置。
+- 键入**文件的路径共享**定义要镜像的数据库的备份 SQL Server 文件的位置。
     
     > [!NOTE]
-    > （命名的实例或默认实例） 的主 SQL Server 实例必须具有文件共享在此处定义的写入权限。 镜像 （命名的实例或默认实例） 的 SQL Server 实例必须具有读取访问相同的文件共享的权限。 
+    > 主要的 SQL Server 实例 （命名的实例或默认实例） 必须具有此处定义的文件共享的写入权限。 镜像 SQL Server 实例 （命名的实例或默认实例） 必须具有读取访问相同的文件共享的权限。 
   
  **确定** 接受更改并通过对话框提交更改。
   
@@ -35,7 +36,4 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
-[部署 SQL 后端服务器高可用性在 Skype 业务服务器 2015年镜像](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
-
+[在 Skype for Business Server 2015 中针对后端服务器高可用性部署 SQL 镜像](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

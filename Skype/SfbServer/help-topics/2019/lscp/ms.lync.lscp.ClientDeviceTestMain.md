@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
-description: 您可以将测试设备添加到测试设备页，然后使用此设备来验证新更新之前部署到生产设备更新的功能。 可以在全局范围（在整个环境中）或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 如果添加设备时，它显示在 Skype 测试设备页上的列表的业务 Server Control Panel。
-ms.openlocfilehash: a95366b712d9dcdc44d6bc3b4f7f51af0d59f5aa
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在全局范围（在整个环境中）或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 如果添加设备时，它显示在 Skype 测试设备页上的列表的业务 Server Control Panel。
+ms.openlocfilehash: fad6d8295ba10715aa3808be053d4150ba546568
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969580"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20999947"
 ---
 # <a name="test-device"></a>测试设备
  
@@ -53,7 +54,7 @@ ms.locfileid: "19969580"
 有关测试设备的详细信息，请参阅操作文档中的[Add a Device to Test Update Functionality](http://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) 。
 ## <a name="see-also"></a>另请参阅
 
-[测试设备： 创建新的或编辑现有的](ms.lync.lscp.ClientDeviceTestEdit.md)
+[测试设备：创建新的或编辑现有的](ms.lync.lscp.ClientDeviceTestEdit.md)
 
 [新 CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
   

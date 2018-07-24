@@ -1,34 +1,33 @@
 ---
-title: 管理服务的 Skype 的业务服务器 2015
+title: Skype 的服务管理业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
-description: 本文介绍如何管理业务服务器 2015年拓扑的 Skype 中运行的服务。
-ms.openlocfilehash: 87bf9fd90c68155504e6be5b28b56d571eaad924
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 本文介绍如何管理企业服务器拓扑的 Skype 中运行的服务。
+ms.openlocfilehash: 0bf12ed7719be7804b2cb4d69e29a7d0a058e142
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569573"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977001"
 ---
-# <a name="manage-services-for-skype-for-business-server-2015"></a>管理服务的 Skype 的业务服务器 2015
+# <a name="manage-services-for-skype-for-business-server"></a>Skype 的服务管理业务服务器
 
-本文介绍如何管理业务服务器 2015年拓扑的 Skype 中运行的服务。
+本文介绍如何管理企业服务器拓扑的 Skype 中运行的服务。
   
-## <a name="view-a-list-of-computers-running-skype-for-business-server-2015"></a>查看计算机的业务服务器 2015年运行 Skype 的列表
+## <a name="view-a-list-of-computers-running-skype-for-business-server"></a>查看业务服务器运行 Skype 的计算机列表
 <a name="view_list"> </a>
 
-Skype 的业务 Server Control Panel 可用于查看的所有计算机的业务服务器 2015 拓扑中运行 Skype 并查看每个服务状态的列表。 您可以通过计算机、 池或网站列表进行排序。 
+您可以使用业务 Server Control Panel 的 Skype 查看列表的所有计算机的业务服务器拓扑中运行 Skype 并查看每个服务状态。 您可以通过计算机、 池或网站列表进行排序。 
   
 ### <a name="to-view-a-list-of-computers-running-skype-for-business-server"></a>若要查看的计算机的业务服务器运行 Skype 列表
 
-1. 分配给任何预定义管理角色的 Skype 进行业务服务器 2015年的用户帐户，登录到内部部署中的任何计算机。 有关业务服务器 2015年的 Skype 中提供的预定义管理角色的详细信息，请参阅**Planning for Role-based Access Control**。   
+1. 分配给任何预定义管理角色的 Skype 业务服务器的用户帐户，登录到内部部署中的任何计算机。 有关业务服务器 Skype 中提供的预定义管理角色的详细信息，请参阅**Planning for Role-based Access Control**。   
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。   
 3. 在左侧的导航栏中，单击**拓扑**，然后单击**状态**。   
 4. 在**状态**页上执行根据需要以下任一操作：
@@ -36,7 +35,7 @@ Skype 的业务 Server Control Panel 可用于查看的所有计算机的业务�
    - 单击**刷新**以查看最新的列表。  
    - 通过在搜索字段中键入计算机名称来搜索特定的计算机。
     
-## <a name="view-the-status-of-services-running-on-a-skype-for-business-2015-server"></a>查看 Skype 业务 2015年服务器上运行的服务的状态
+## <a name="view-the-status-of-services-running-on-a-skype-for-business-server"></a>查看 Business server Skype 上运行的服务的状态
 <a name="view-status"> </a>
 
 您可以使用业务 Server Control Panel 的 Skype 查看您 Skype 企业服务器拓扑中特定计算机上运行并查看每种服务的状态的所有服务。
@@ -84,7 +83,7 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
   
 ### <a name="to-view-details-for-a-service"></a>若要查看服务详细信息
 
-1. 分配给任何预定义管理角色的 Skype 进行业务服务器 2015年的用户帐户，登录到内部部署中的任何计算机。 有关业务服务器 2015年的 Skype 中提供的预定义管理角色的详细信息，请参阅**Planning for Role-based Access Control**。
+1. 分配给任何预定义管理角色的 Skype 业务服务器的用户帐户，登录到内部部署中的任何计算机。 有关业务服务器 Skype 中提供的预定义管理角色的详细信息，请参阅**Planning for Role-based Access Control**。
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
 3. 在左侧的导航栏中，单击**拓扑**，然后单击**状态**。
 4. 在**状态**页中，进行排序或搜索列表，然后单击您想要查看的计算机。
@@ -95,14 +94,14 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
    - 要查看特定服务的详细信息，请单击**属性**，然后单击**关闭**。
    - 要返回拓扑中的所有计算机的列表，请单击**关闭**。
     
-## <a name="start-or-stop-skype-for-business-server-2015-services"></a>启动或停止 Skype 业务服务器 2015年服务
+## <a name="start-or-stop-skype-for-business-server-services"></a>启动或停止 Skype 业务 Server 服务
 <a name="StartStop"> </a>
 
-您可以使用业务 Server Control Panel 的 Skype 启动或停止特定计算机上运行的业务服务器 2015年服务的所有 Skype 或者启动或都停止特定服务。
+您可以使用业务 Server Control Panel 的 Skype 启动或停止特定计算机上运行的业务服务器服务的所有 Skype 或者启动或都停止特定服务。
   
 ### <a name="to-start-or-stop-all-skype-for-business-services-on-a-computer"></a>若要启动或停止所有 Skype 业务服务的计算机上
 
-1. 从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机2015。 您可以确定是否已将您分配 CsServerAdministrator 或 CsAdministrator RBAC 角色通过运行类似于以下命令：
+1. 从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机. 您可以确定是否已将您分配 CsServerAdministrator 或 CsAdministrator RBAC 角色通过运行类似于以下命令：
     
   ```
   Get-CsAdminRoleAssignment -Identity "kenmyer"
@@ -129,11 +128,11 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
 ## <a name="prevent-sessions-for-services"></a>阻止服务的会话
 <a name="prevent_session"> </a>
 
-为特定计算机上运行的业务服务器 2015年服务的所有 Skype 阻止新会话或阻止新会话的特定 Skype 业务服务器 2015年服务，可以使用 Skype 的业务 Server Control Panel。
+为特定计算机上运行的业务服务器服务的所有 Skype 阻止新会话或阻止新会话的特定业务服务器服务的 Skype，可以使用 Skype 的业务 Server Control Panel。
   
 ### <a name="to-prevent-new-sessions-for-all-skype-for-business-services-on-a-computer"></a>为业务服务的计算机上的所有 Skype 阻止新会话
 
-1. 从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机2015。
+1. 从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机.
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
 3. 在左侧的导航栏中，单击**拓扑**，然后单击**状态**。
 4. 在**状态**页上排序或列表作为搜索所需找到正在运行要为其阻止新会话，然后单击的服务的计算机。
@@ -142,7 +141,7 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
     
 ### <a name="to-prevent-new-sessions-for-a-specific-service"></a>阻止特定服务的新会话
 
-1. 从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机2015。
+1. 从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机.
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
 3. 在左侧的导航栏中，单击**拓扑**，然后单击**状态**。
 4. **状态**页、 排序或搜索列表根据需要查找运行服务的计算机上要启动或停止，然后单击它。 

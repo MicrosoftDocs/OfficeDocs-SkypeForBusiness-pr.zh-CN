@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
+ROBOTS: NOINDEX, NOFOLLOW
 description: 若要开始安装，或 Business Server 更新的 Skype 现有部署中，单击安装或更新 Skype 业务服务器。 本节中的步骤将特定的组件安装到给定的服务器角色，基于拓扑生成器文档。 在开始此系列步骤之前，您必须在拓扑生成器中定义部署。 必须以本地管理员和服务器所在的域中 Domain Admins 组成员的身份登录到要部署的计算机。 在完成此步骤之前，计算机必须加入该域。
-ms.openlocfilehash: 5551dd10c37b21b51b396a8415eb3a3419ae8b81
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: ceea3f69824498f818799e39ee3a0aef4d0d6cb0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19978032"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006003"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>安装或更新 Skype for Business Server 系统
  

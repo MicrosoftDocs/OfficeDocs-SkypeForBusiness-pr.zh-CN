@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中规划视频互操作服务器
+title: 规划视频互操作性中的服务器 Skype 业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 f1_keywords:
@@ -11,23 +10,23 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
-description: 摘要： 查看 while planning to 将 Skype 与第三方电话会议设备集成的业务服务器 2015年本主题。
-ms.openlocfilehash: cd8d4ec7ad854dc87d9bf9c86e2552996a09215d
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 摘要： 查看 while planning to 将 Skype 与第三方电话会议设备集成业务服务器本主题。
+ms.openlocfilehash: c4308b27371c9e0da312eee0fa5c52602674c45c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505179"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975632"
 ---
-# <a name="plan-for-video-interop-server-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中规划视频互操作服务器
+# <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>规划视频互操作性中的服务器 Skype 业务服务器
  
-**摘要：** While planning to 将 Skype 与第三方电话会议设备集成的业务服务器 2015年查看以下主题。
+**摘要：** While planning to 将 Skype 与第三方电话会议设备集成业务服务器查看以下主题。
   
 Skype 业务服务器现在可以使用某些第三方 VTC （视频电话会议系统） 解决方案的集成。 启用此视频会议的互操作性的新服务器角色是视频互操作服务器 (VIS)，其当前作为独立服务器角色仅适用于本地安装实现。 VIS 作为中介的第三方电话会议系统和 Skype 业务服务器部署。 对于此版本，VIS 着重实现了与 Cisco/Tandberg 视频系统之间的互操作性。 查看此文，确定是否业务服务器安装在您 Skype 中使用此功能。
   
 ## <a name="device-interoperability"></a>设备互操作性
 
-在 Cisco VTC 向 CUCM 版本 10.5 注册，并且在 CUCM 与 VIS 之间设置了 TCP SIP 中继的情况下，互操作性经过测试，并得到支持。
+测试数据并进行互操作 Cisco VTCs 注册支持与 Cisco 统一通信管理器 （CallManager 或 CUCM） 版本 10.5 和 TCP SIP 中继设置 CUCM 和 VIS.之间
   
 当前支持的 VTC 包括：
   
@@ -117,9 +116,9 @@ VIS 支持通过视频 SIP 中继传递的、来自 CUCM 的传入呼叫。 可�
     VIS 还会为来自视频 SIP 中继的呼叫设置 10 秒计时。 如果在呼叫的视频的 SIP 中继和主下一个跃点前端池没有应答使用一些 （包括 100 尝试） 的 SIP 消息为邀请向其发送此计时器值时，呼叫 s 的备份下一个跃点代理中使用了主要的下一个跃点前端池如果配置，尝试 hould。 
     
     > [!NOTE]
-    > 如果首次尝试备份的下一个跃点，将不会下一步尝试主。 
+    > 如果首先尝试了备用下一跃点，则接下来不会尝试主下一跃点。 
   
-    管理员还可以使用 Windows PowerShell 故障转移命令强制 VIS 时要使用备份前端池，例如，维护具有主前端池上执行。
+    管理员还可以使用 Windows PowerShell 故障转移命令强制 VIS 使用备用前端池（例如，当必须在主前端池上执行维护时）。
     
 ## <a name="co-existence-of-voice-and-video-trunks-to-the-same-gateway-peer"></a>指向同一网关对等方的语音和视频中继的共存
 <a name="resiliency"> </a>
@@ -147,11 +146,11 @@ VIS 只能部署的 Skype 业务部署的一部分。 它可以与 Lync 2013 会
   
 VIS 不支持在 RTV 和 H.264 之间进行代码转换。 在会议中，Lync 2013 之前的客户端与 VTC 参与者之间不存在视频互操作性。
   
-在会议中无预 Lync 2013 客户端会导致移动客户端发送使用 RTV 导致 VTCs 时移动客户端将成为基准扬声器接收到任何视频。
+在会议中拥有 Lync 2013 之前的客户端将导致移动客户端使用 RTV 进行发送，因此，当移动客户端成为主要发言方时，VTC 将无法收到任何视频。
   
-Lync 2013 为了使 Lync 2013 与 VIS 属于业务部署 Skype 正常工作，需要相应的 CU 要应用的升级的 Lync 2013 客户端，CAA 和 AVMCU，以使用 VIS.
+为了让 Lync 2013 能够与作为 Skype for Business 部署一部分的 VIS 正常开展协作，Lync 2013 需要应用相应的 CU，以便升级 Lync 2013 客户端、CAA 和 AVMCU，从而可以与 VIS 开展协作。
   
-为业务桌面客户端 VIS 与 Lync 2013 和 Skype 的互操作性已经过测试和支持。
+VIS 与 Lync 2013 和 Skype for Business 桌面客户端之间的互操作性已经过测试，确定受到支持。
   
 与非桌面 （Android、 Ipad、 Iphone、 Windows Phone、 LMX 等） 的 VIS 互操作性为业务客户端可用 VIS 发行版时适用的应用程序存储中的 Skype 已经过测试和支持。
   
@@ -187,4 +186,4 @@ Skype for Business 不支持 VTC 通过 VIS 加入联盟会议。
 ## <a name="see-also"></a>另请参阅
 <a name="resiliency"> </a>
 
-[部署业务服务器 2015年视频中 Skype 的互操作性服务器](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)
+[为业务服务器部署中 Skype 视频互操作性的服务器](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)

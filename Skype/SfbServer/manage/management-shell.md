@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 命令行管理程序
+title: Skype for Business Server 管理程序
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 9/20/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,14 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: 业务 Server 命令行管理程序 Skype 服务器管理和管理提供命令行界面。 它基于 Windows PowerShell，并包含一组全面的管理和管理特定于 Skype 和旧式 Lync server 产品的 cmdlet。
-ms.openlocfilehash: 50e76784526a3430c6e91a3c6cfdd76962fda3cd
-ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
+ms.openlocfilehash: 34bf761cfa6d9cfe648360319084b3a304d9f6e6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "20266879"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997354"
 ---
-# <a name="skype-for-business-server-2015-management-shell"></a>Skype for Business Server 2015 命令行管理程序
+# <a name="skype-for-business-server-management-shell"></a>Skype for Business Server 管理程序
  
 业务 Server 命令行管理程序 Skype 服务器管理和管理提供命令行界面。 它基于 Windows PowerShell，并包含一组全面的管理和管理特定于 Skype 和旧式 Lync server 产品的 cmdlet。
   
@@ -27,7 +26,7 @@ Windows PowerShell，可以从命令行管理 Microsoft 应用程序。 它包�
 > [!NOTE]
 > Skype for Business cmdlet 参考已移至 docs.microsoft.com。 单击下面的链接将转至新的 docs.microsoft.com 页面。 内容现在是开源的，可通过 GitHub 用于社区投稿。 对投稿感兴趣？ 查看自述文件在此处 repo 中：[https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
   
-Skype 的业务服务器 2015年附带使管理员能够管理对业务 Server 命令行管理程序中使用 Skype 的业务服务器 Skype 的多个 700 cmdlet。 您可以通过键入以下类似命令，从命令行直接检索 cmdlet 的相关帮助：
+Skype 业务服务器附带使管理员能够管理对业务 Server 命令行管理程序中使用 Skype 的业务服务器 Skype 的多个 700 cmdlet。 您可以通过键入以下类似命令，从命令行直接检索 cmdlet 的相关帮助：
   
 ```
 Get-Help New-CsVoicePolicy -Full

@@ -1,26 +1,25 @@
 ---
-title: 在 Skype for Business Server 2015 中将监视存储与前端池关联
+title: 将监控存储与 Skype 中的前端池相关联的业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 9/1/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
-description: 摘要： 了解如何将前端池与使用 Skype 业务服务器 2015年监视存储相关联。
-ms.openlocfilehash: 6706185264df4220b723f72c0863f11d84e2dc05
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何将前端池与监控存储由 Skype 用于业务服务器相关联。
+ms.openlocfilehash: a7a7965016ed659d120cf4bff642e85e9941b193
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968207"
 ---
-# <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中将监视存储与前端池关联
- 
-**摘要：**了解如何将前端池与使用 Skype 业务服务器 2015年监视存储相关联。
+# <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>将监控存储与 Skype 中的前端池相关联的业务服务器 
+**摘要：** 了解如何将前端池与监控存储由 Skype 用于业务服务器相关联。
   
-在业务服务器 2015年的 Skype，监视数据可以只收集已与监视存储，在拓扑生成器定义前端池时通常执行的任务相关联的前端池上。
+Skype 业务服务器，在监控数据可以仅收集已与监控存储，在拓扑生成器中定义前端池时通常执行的任务相关联的前端池上。
   
 ## <a name="associate-a-monitoring-store-with-a-front-end-pool"></a>将监控存储与前端池关联
 
@@ -28,23 +27,23 @@ ms.lasthandoff: 03/28/2018
   
 或者，可以通过完成以下过程将现有前端池与新的或不同的监控存储关联：
   
-1. 单击**开始**，单击**所有程序**、**业务服务器 2015年的 Skype**，请都单击，然后都单击**Skype 业务服务器拓扑生成器**。
+1. 单击**开始**，单击**所有程序**、 都单击**业务服务器 2015年的 Skype**，，然后都单击**Skype 的业务 Server 拓扑生成器**。
     
 2. 在“**拓扑生成器**”对话框中，选择“**从现有部署下载拓扑**”，然后单击“**确定**”。
     
 3. 在“**另存为**”对话框中，为当前拓扑输入一个文件名，然后单击“**保存**”。如果新拓扑出现问题，可以取回并重新发布已保存的拓扑。
     
-4. 在拓扑生成器中，依次展开**Skype 业务服务器**和包含前端池，该网站的名称，然后单击展开**前端企业版池**。
+4. 在拓扑生成器中，依次展开**Skype 业务服务器**和包含前端池的站点的名称，然后单击扩展**Enterprise Edition 前端池**。
     
 5. 右键单击要与监控存储关联的池的名称，然后单击“**编辑属性**”。
     
 6. 在“**编辑属性**”对话框中的“**常规**”选项卡上，选择选项“**监控（CDR 和 QoE 度量）**”，然后从“**监控 SQL Server 存储**”下拉列表中选择现有 SQL Server 数据库。（或者，单击“**新建**”将池与新的数据库存储关联。）如果选择使用新的数据库存储，则在“**定义新的 SQL 存储**”对话框中输入“**Sql Server FQDN**”框中 SQL Server 计算机的完全限定域名。如果想要将默认 SQL Server 实例用于该存储，请选择“**默认实例**”；否则选择“**命名实例**”并在“**命名实例**”框中输入实例名称。
     
-    通过“**编辑属性**”对话框还可以创建监控数据库的 SQL 镜像（通过一个 SQL 镜像可以维护两个监控数据库副本，一个副本存储在监控存储计算机上，另一个存储在 SQL 镜像计算机上）。 启用镜像，选择 T**镜像关系处于他 SQL 实例**和镜像服务器中的**镜像端口号**框中输入的端口号。
+    通过“**编辑属性**”对话框还可以创建监控数据库的 SQL 镜像（通过一个 SQL 镜像可以维护两个监控数据库副本，一个副本存储在监控存储计算机上，另一个存储在 SQL 镜像计算机上）。 若要启用镜像，请选择 T**其 SQL 实例处于镜像关系**，为镜像服务器中**镜像端口号**框中输入的端口号。
     
 7. 在“**编辑属性**”对话框中，单击“**确定**”。
     
-将监控存储与前端池关联后，必须发布新拓扑才能使更改生效。 若要发布新的拓扑结构，完成拓扑生成器中的下列步骤：
+将监控存储与前端池关联后，必须发布新拓扑才能使更改生效。 若要发布新拓扑，请完成拓扑生成器中的下列步骤：
   
 1. 单击“**操作**”，指向“**拓扑**”，然后单击“**发布**”。
     
@@ -52,15 +51,15 @@ ms.lasthandoff: 03/28/2018
     
 3. 在“**发布向导完成**”页上，单击“**完成**”。
     
-拓扑发布完毕后，可以在将要承载监控存储的计算机上安装监控数据库。 可以通过使用 Skype 业务服务器管理外壳程序和 Windows PowerShell 安装监视数据库。 安装本地数据库 (即，正在为业务服务器管理外壳程序运行 Skype 的同一计算机上安装数据库)，相应的计算机上启动命令行管理程序，然后键入下面的命令并按 ENTER:
+拓扑发布完毕后，可以在将要承载监控存储的计算机上安装监控数据库。 可以使用 Skype 的业务 Server 命令行管理程序和 Windows PowerShell 安装监控数据库。 安装本地数据库 (即，其中的业务 Server 命令行管理程序运行 Skype 同一台计算机上安装数据库)，在相应计算机上，启动命令行管理程序，然后键入以下命令并按 ENTER:
   
 ```
 Install-CsDatabase -LocalDatabases
 ```
 
-当您运行前面的命令时，安装 CsDatabase 将读取当前 Skype 业务服务器拓扑，确定哪些数据库需要安装在本地计算机上，然后自动安装和配置每个这些数据库。
+运行上述命令时，Install-csdatabase 将读取当前 Skype 企业服务器拓扑，确定哪些数据库需要在本地计算机上安装，然后自动安装和配置每个这些数据库。
   
-要在远程计算机（即，没有运行命令行管理程序的计算机）上安装数据库，必须包含至少两个参数：ConfiguredDatabases 参数和 SqlServerFqdn 参数。 这些参数告诉安装 CsDatabase 用于检索业务服务器拓扑 Skype 然后安装和配置所需的数据库由 SqlServerFqdn 参数指定的计算机上。 SqlServerFqdn 参数使用的参数值必须表示要安装数据库的计算机的完全限定域名。
+要在远程计算机（即，没有运行命令行管理程序的计算机）上安装数据库，必须包含至少两个参数：ConfiguredDatabases 参数和 SqlServerFqdn 参数。 这些参数告知的 Install-csdatabase cmdlet 检索企业服务器拓扑的 Skype 然后安装和 SqlServerFqdn 参数指定的计算机上配置所需的数据库。 SqlServerFqdn 参数使用的参数值必须表示要安装数据库的计算机的完全限定域名。
   
 例如，以下命令在计算机 atl-sql-001.litwareinc.com 上安装监控数据库：
   
@@ -68,20 +67,20 @@ Install-CsDatabase -LocalDatabases
 Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn atl-sql-001.litwareinc.com
 ```
 
-或者，您可以通过 Skype 业务服务器部署向导的计算机上运行将承载监视存储安装监视数据库。 为此，请登录到相应的计算机并完成以下过程：
+此外，您可以通过将承载监控存储的计算机上运行 Business Server 部署向导 Skype 安装监控数据库。 为此，请登录到相应的计算机并完成以下过程：
   
-1. 单击**开始**，单击**所有程序**、**业务服务器 2015年的 Skype**，请都单击，然后都单击**Skype 业务服务器部署向导**。
+1. 单击**开始**，单击**所有程序**、 都单击**业务服务器 2015年的 Skype**，，然后都单击**Skype 的业务 Server 部署向导**。
     
-2. 在部署向导中，单击**安装或更新 Skype 业务服务器系统**。
+2. 在部署向导中，单击**安装或更新 Skype 业务 Server 系统**。
     
-3. 在**部署**页上，在**步骤 2： 安装或删除的 Skype 业务服务器组件**，**运行再次**单击。
+3. 在**部署**页中，在**步骤 2： 安装或删除业务服务器组件的 Skype**，**再次运行**单击。
     
-4. 在安装 Skype 的业务服务器组件向导中，在**业务服务器组件的安装 Skype**页上，单击**下一步**。
+4. 中安装 Skype Business Server 组件向导，在**业务服务器组件的安装程序 Skype**页上，单击**下一步**。
     
-5. 在**指定路径 Msi**页上，键入 Ocscore.msi （随您 Skype 业务服务器安装媒体文件） 的文件的路径，然后单击**下一步**。
+5. 在**指定 Msi 的路径**页上，键入文件 Ocscore.msi （包含您的业务 Server 安装介质的 Skype 文件） 的路径，然后单击**下一步**。
     
 6. 在“**正在执行命令**”页上，单击“**完成**”。
     
-为确保业务服务器服务所需的所有 Skype 已经都启动，单击**运行的标题下****步骤 4： 启动服务**在**部署**页
+若要确保已启动 Business Server 服务的所有必需的 Skype，单击**运行**标题下的**步骤 4： 启动服务****部署**页上
   
 

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
+ROBOTS: NOINDEX, NOFOLLOW
 description: 向 Skype 授予访问权限的业务服务器，执行以下操作：
-ms.openlocfilehash: 9f9342b02f89b31c22a50f834aa08347ba7fd798
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c90290184b461e6662672ef3b6c32096ca63871f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979027"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973085"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>创建 Skype for Business Server 控制面板管理员
  
@@ -49,7 +50,7 @@ ms.locfileid: "19979027"
     
 - **CsUserAdministrator：** 成员可以管理、启用和禁用用户，以及将现有策略分配给用户。
     
-- **CsViewOnlyAdministrator:** 成员可以查看部署和配置服务器信息。 此成员资格使成员 to monitor the health 的业务服务器 2015年运行 Skype 的服务器。
+- **CsViewOnlyAdministrator:** 成员可以查看部署和配置服务器信息。 此成员资格使成员 to monitor the health 业务服务器运行 Skype 的服务器。
     
 - **CsVoiceAdministrator:** 成员可以创建、 配置和管理 Skype 中的业务服务器的语音相关的设置。
     

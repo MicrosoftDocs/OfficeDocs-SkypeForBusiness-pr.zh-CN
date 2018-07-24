@@ -1,27 +1,26 @@
 ---
-title: Skype for Business Server 2015 中的响应组呼叫列表报告
+title: 响应组呼叫列表报告中 Skype 业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
-description: 摘要： 了解业务服务器 2015 Skype 中的响应组应用程序。
-ms.openlocfilehash: 6f7d2938f02b84942b2dc09e4fc3058ab6ee63db
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解 Business Server Skype 中的响应组应用程序。
+ms.openlocfilehash: 90806465f3de57d30701eaf541f7ca685be180d3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568997"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997241"
 ---
-# <a name="response-group-call-list-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的响应组呼叫列表报告
+# <a name="response-group-call-list-report-in-skype-for-business-server"></a>响应组呼叫列表报告中 Skype 业务服务器
  
-**摘要：** 了解业务服务器 2015 Skype 中的响应组应用程序。
+**摘要：** 了解 Business Server Skype 中的响应组应用程序。
   
-响应组应用程序提供一种方法的 Skype 的业务服务器 2015 应答和路由电话呼叫基于拨打的号码和 （可选） 在呼叫者的响应的一系列问题。 通常，不会将响应组呼叫路由到个人，而是路由到称为代理组的一组人员。 例如，如果有人的技术支持呼叫的电话号码，业务服务器 2015年的 Skype 可以自动该呼叫路由到的第一个可用的帮助台代理。 此外，Skype 业务服务器无法提出一系列问题 ("按 1 如果您有硬件问题。 如果您有软件问题，请按 2。 按 3 如果您有网络问题。"）然后将呼叫路由至最适合帮助台代理基于这些问题的答案。
+响应组应用程序提供一种方法的 Skype 供业务服务器来应答和路由电话呼叫基于拨打的号码和 （可选） 在呼叫者的响应的一系列问题。 通常，不会将响应组呼叫路由到个人，而是路由到称为代理组的一组人员。 例如，如果有人的技术支持呼叫的电话号码，Skype 业务服务器可以自动该呼叫路由到的第一个可用的帮助台代理。 此外，Skype 业务服务器无法提出一系列问题 ("按 1 如果您有硬件问题。 如果您有软件问题，请按 2。 按 3 如果您有网络问题。"）然后将呼叫路由至最适合帮助台代理基于这些问题的答案。
   
 响应组呼叫列表报告代表针对指定的时间段和指定的呼叫类型所进行的呼叫集合。响应组使用报告（必需先打开该报告，才能打开响应组呼叫列表报告）可识别以下呼叫类型：
   
@@ -39,7 +38,7 @@ ms.locfileid: "19568997"
     
 ## <a name="accessing-the-response-group-call-list-report"></a>访问响应组呼叫列表报告
 
-只能通过单击[中的业务服务器 2015 Skype Response Group Usage Report](response-group-usage-report.md)上找到的以下指标之一来访问响应组呼叫列表报告：
+只能通过单击[Skype 业务服务器中的 Response Group Usage Report](response-group-usage-report.md)上找到的以下指标之一来访问响应组呼叫列表报告：
   
 - 收到的呼叫
     
@@ -55,7 +54,7 @@ ms.locfileid: "19568997"
 
 响应组呼叫列表报告允许您将所显示的数据限制为涉及特定响应组工作流的呼叫。为执行此操作，需要在“工作流 URI”框中输入工作流 URI（工作流的 SIP 地址）。但是，您必须实际上能够看到“工作流 URI”框，才能执行此操作。要显示响应组呼叫列表报告的筛选选项，请单击报告窗口左上部分的“显示/隐藏参数”按钮。
   
-请注意，如果将鼠标停留在其中任一指标上，响应组呼叫列表不会显示有关响应代码或诊断 ID 的信息。 如果您需要的详细信息，您可能的响应代码和/或诊断 ID，请注意，然后搜索[中的业务服务器 2015 Skype 的主要故障报告](top-failures-report.md)中的这些值。
+请注意，如果将鼠标停留在其中任一指标上，响应组呼叫列表不会显示有关响应代码或诊断 ID 的信息。 如果您需要的详细信息，您可能的响应代码和/或诊断 ID，请注意，然后搜索[Skype 业务服务器中的主要故障报告](top-failures-report.md)中的这些值。
   
 对于类似如下的问题：“哪个个别工作流收到的呼叫数最多？”，您可以执行以下操作：
   
@@ -103,7 +102,7 @@ Count    Name
   
 **响应组呼叫列表报告指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**您可以按此项排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**呼叫者** <br/> |否  <br/> |呼叫者的 SIP 地址  <br/> |
 |**工作流** <br/> |否  <br/> |响应组工作流的 SIP 地址。  <br/> |

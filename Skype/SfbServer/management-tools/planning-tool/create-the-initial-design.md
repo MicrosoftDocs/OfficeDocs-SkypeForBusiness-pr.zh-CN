@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: 安装 Business Server 规划工具 Skype 后，即可开始规划工具并开始设计建议的 Skype 业务服务器 2015年基础结构。
-ms.openlocfilehash: 4a2d1fc8215091011ad6fdbdc4a3c0a956d981e4
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 504c6b6c3f0675af06a6edb79d3f47a1569a27d8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504836"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969871"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>为 Skype for Business Server 2015 创建初始拓扑设计
  
@@ -42,7 +42,7 @@ ms.locfileid: "19504836"
 4. 通过选择适合你的设计的条件回答每部分的问题，然后单击“**下一步**”继续进入下一个向导页。单击“**上一步**”可更改之前的页面。
     
     > [!TIP]
-    > 每个页面中都有对选择条件的说明以及基于首选做法和容量规划给出的建议。 如果您需要的其他详细信息，请单击**了解更多**读取 for Business Server 2015 规划 Microsoft TechNet 网站上的文档 Skype 的详细的信息。 要访问 Microsoft TechNet 网站，必须具有 Internet 连接。
+    > 每个页面中都有对选择条件的说明以及基于首选做法和容量规划给出的建议。 如果您需要的其他详细信息，请单击**详细了解**从 Microsoft 网站上的业务 Server 2015 规划文档 Skype 读取的详细的信息。 您必须具有 Internet 连接访问 Microsoft 网站。
   
 5. 为设计选择适当的选项。定义初始条件后，会出现一个页面，确认“功能概述”已完成。 
     

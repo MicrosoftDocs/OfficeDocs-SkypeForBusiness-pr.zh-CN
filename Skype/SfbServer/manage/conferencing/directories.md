@@ -1,25 +1,24 @@
 ---
-title: 在 Skype for Business Server 2015 中创建会议目录
+title: 为 Business Server Skype 创建会议目录
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
-description: 摘要： 了解如何为业务服务器 2015 Skype 创建会议目录。
-ms.openlocfilehash: 861172a76da68d39fd9f8213de6e45a892aa1780
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解如何为业务服务器 Skype 创建会议目录。
+ms.openlocfilehash: d54f9782e43c85d5119d0d6138131dc1858ee8f0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568743"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967724"
 ---
-# <a name="create-conference-directories-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建会议目录
+# <a name="create-conference-directories-in-skype-for-business-server"></a>为 Business Server Skype 创建会议目录
  
-**摘要：** 了解如何为业务服务器 2015 Skype 创建会议目录。
+**摘要：** 了解如何为业务服务器 Skype 创建会议目录。
   
 会议目录维护参与者加入会议的业务，使用 Skype 时使用的字母数字会议 ID 和电话拨入式会议参与者使用加入会议的仅含数字会议 ID 之间的映射。 
   

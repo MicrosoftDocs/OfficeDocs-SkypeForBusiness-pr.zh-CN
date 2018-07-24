@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
+ROBOTS: NOINDEX, NOFOLLOW
 description: 代理是被指定为应答响应组呼叫的用户。 响应组必须具有一个分配的代理组来识别可接收针对响应组的呼叫的代理。 创建代理组的一种方法就是通过选择合格用户来定义自定义组。 合格的用户被启用 Skype Business Server 和企业语音。
-ms.openlocfilehash: b8d4071bca715712e7f90f3e7fcad64db0367ac7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c1455dcb42a13ebd9a4edc6b922a5ff3d14a94aa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976469"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989469"
 ---
 # <a name="select-agents"></a>选择代理
  

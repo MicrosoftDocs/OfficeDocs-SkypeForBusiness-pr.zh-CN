@@ -1,44 +1,44 @@
 ---
-title: 在 Skype for Business Server 2015 中使用监控报告
+title: 使用监控报告中 Skype 业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
-description: 摘要： 了解有关业务服务器 2015年监控在 Skype 的报告。
-ms.openlocfilehash: ff34efdf698e19006e99819c52c01c68dba2c3ae
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何监视业务 Server 的 Skype 中的报告。
+ms.openlocfilehash: 68fcf3a738d2cf849bd51959a86f2d61e53db603
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003791"
 ---
-# <a name="using-monitoring-reports-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中使用监控报告
+# <a name="using-monitoring-reports-in-skype-for-business-server"></a>使用监控报告中 Skype 业务服务器 
  
-**摘要：**了解业务服务器 2015年监控在 Skype 的报告。
+**摘要：** 了解业务服务器监控 Skype 中的报告。
   
-Skype 的业务服务器 2015年包括一套由 Microsoft SQL Server 报表服务发布的标准报告。 这些报告可通过 Web 浏览器进行访问，它们提供了使用情况、呼叫诊断信息和媒体质量信息，所有这些信息全部基于呼叫详细记录 (CDR) 和用户体验质量 (QoE) 数据库中存储的 CDR 和 QoE 记录。
+Skype 业务服务器包含一组由 Microsoft SQL Server Reporting 服务发布的标准报告。 这些报告可通过 Web 浏览器进行访问，它们提供了使用情况、呼叫诊断信息和媒体质量信息，所有这些信息全部基于呼叫详细记录 (CDR) 和用户体验质量 (QoE) 数据库中存储的 CDR 和 QoE 记录。
   
-若要使用这些报表，必须正在运行的 SQL Server 实例的计算机上安装监视报告。
+若要使用这些报告，您必须正在运行的 SQL Server 实例的计算机上安装监控报告。
   
 ## <a name="in-this-section"></a>本节内容
 
-- [使用中业务服务器 2015年的 Skype 的监视仪表板](monitoring-dashboard.md)为管理员提供系统健康状况和系统使用情况的概述。
+- [使用监控仪表板中的业务服务器 Skype](monitoring-dashboard.md)为管理员提供其系统运行状况和系统使用情况的快速概述。
     
-- [在业务服务器 2015年的 Skype 的系统使用情况报告](system-usage-reports.md)提供基于收集的业务服务器通过 Skype 的 CDR 数据系统使用率信息。
+- [Skype 业务服务器中的系统使用情况报告](system-usage-reports.md)提供了基于业务服务器收集的 Skype CDR 数据的系统使用情况信息。
     
-- [调用诊断报告 （每个用户） 在 Skype 的业务服务器 2015](call-diagnostic-reports-per-user.md)提供有关失败的对等和会议会话的每个用户信息。
+- [呼叫诊断报告 （每个用户） 中的业务服务器 Skype](call-diagnostic-reports-per-user.md)提供有关失败的对等和会议会话的每用户信息。
     
-- [调用在 Skype 业务服务器 2015年的诊断报告](call-diagnostic-reports.md)提供了摘要信息和诊断故障的点到点和会议会话的数据。
+- [呼叫诊断报告中的业务服务器 Skype](call-diagnostic-reports.md)提供的摘要信息及诊断数据失败-对等会话和会议会话。
     
-- [在 Skype 业务服务器 2015年的媒体质量诊断报告](media-quality-diagnostic-reports.md)提供了有关呼叫质量信息以及电话故障诊断和故障排除信息。
+- [Skype 业务服务器中的媒体质量诊断报告](media-quality-diagnostic-reports.md)提供有关呼叫质量的信息以及失败的呼叫的诊断和疑难解答信息。
     
 ## <a name="locating-records"></a>查找记录
 
-监控报告在任一时刻仅在屏幕上显示有限数量的记录。 屏幕上显示的实际记录数因报告而异。 若要查看当前未显示在屏幕的记录可以使用标准向前和向后控制 （在每个报表工具栏上找到），可用于分页浏览数据。 您还可以快速跳转到数据集的第一页或最后一页。
+监控报告在任一时刻仅在屏幕上显示有限数量的记录。 屏幕上显示的实际记录数因报告而异。 若要查看当前未显示在屏幕的记录可以使用标准向前和向后 （每个报告工具栏上找到） 的控件使您能够逐页数据。 您还可以快速跳转到数据集的第一页或最后一页。
   
 除了使用前进和后退控件，您还可以通过在“**当前页**”框中键入页码，然后按 Enter 来跳转到数据集中的任一页。
   
@@ -46,7 +46,7 @@ Skype 的业务服务器 2015年包括一套由 Microsoft SQL Server 报表服�
   
 如前所述，监控报告仅提供最基本的搜索功能。例如，您无法指定应在哪个字段中查找值。搜索机制自动在每条记录中的每个字段中搜索匹配值。您无法在搜索中使用通配符，所有搜索都将查找部分值。这意味着，如果您搜索 111，则搜索不仅将返回值 111，还返回值 11100、811、3112、611A5B 以及在字段中的任何位置包含值 111 的任何其他字段。
   
-每个报告配置为显示一组默认记录。 例如，默认情况下，用户注册报告显示上周的用户注册活动。 有些情况下，这可能生成不返回任何记录的报告。 在这种情况下，意味着上周没有发生任何用户注册。 如果您看到消息"没有结果匹配报表筛选器"，请尝试更改筛选器值 （例如，将时间段更改到上个月，而不是过去的一周），然后重新运行该查询。 有关详细信息，请参阅本主题后面的“筛选数据”一节。
+每个报告配置为显示一组默认记录。 例如，默认情况下，用户注册报告显示上周的用户注册活动。 有些情况下，这可能生成不返回任何记录的报告。 在这种情况下，意味着上周没有发生任何用户注册。 如果您看到消息"任何结果匹配报告筛选器"，请尝试更改筛选器值 （例如，更改的时间段上个月，而不是过去一周），然后重新运行查询。 有关详细信息，请参阅本主题后面的“筛选数据”一节。
   
 ## <a name="filtering-data"></a>筛选数据
 
@@ -72,7 +72,7 @@ Skype 的业务服务器 2015年包括一套由 Microsoft SQL Server 报表服�
     
 - Word
     
-选择格式后，单击“**导出**”。出现“**文件下载**”对话框时，单击“**保存**”。在“另存为”****对话框中，选择目标文件夹，输入文件名，然后单击“**保存**”。
+选择格式后，单击“**导出**”。出现“**文件下载**”对话框时，单击“**保存**”。在“另存为”**** 对话框中，选择目标文件夹，输入文件名，然后单击“**保存**”。
   
 如果安装了 Microsoft OneNote，还可以将报告数据复制到 OneNote 中。为此，请右键单击工具栏上的“**查看报告**”按钮。在“**在 OneNote 中选择位置**”对话框中，在 OneNote 中选择要复制数据的分区，然后单击“**确定**”。
   

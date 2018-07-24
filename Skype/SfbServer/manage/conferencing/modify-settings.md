@@ -1,32 +1,32 @@
 ---
-title: 在 Skype for Business Server 2015 中修改会议配置设置
+title: 修改会议配置设置中 Skype 业务服务器
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
-description: 摘要： 了解如何修改会议在 Skype 业务服务器 2015年的配置设置。
-ms.openlocfilehash: 95f28f35859553f79fc6f74f8850f224bda54deb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何修改会议配置设置中 Skype 业务服务器。
+ms.openlocfilehash: b4b8307711fcf7b120c867debe5ab3e2978f6ef7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978965"
 ---
-# <a name="modify-meeting-configuration-settings-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中修改会议配置设置
+# <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>修改会议配置设置中 Skype 业务服务器
  
-**摘要：**了解如何修改会议在 Skype 业务服务器 2015年的配置设置。
+**摘要：** 了解如何修改会议配置设置中 Skype 业务服务器。
   
-您可以修改会议通过 Skype 业务服务器控件面板或通过 Skype 业务服务器管理外壳程序的配置设置。
+您可以修改会议配置设置，使用的业务 Server Control Panel Skype 或使用 Skype 业务 Server Management Shell。
   
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>修改会议通过 Skype 业务服务器控制面板配置设置
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>修改使用适用于业务 Server Control Panel Skype 会议配置设置
 
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2.  打开 Skype 业务服务器的控制面板。
+2.  打开 Skype 业务 Server Control Panel。
     
 3. 在左侧导航栏中，单击“**会议**”，然后单击“**会议配置**”。
     
@@ -36,7 +36,7 @@ ms.lasthandoff: 03/28/2018
     
 6. 单击“**提交**”。
     
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>修改会议通过 Skype 业务服务器管理外壳程序的配置设置
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>修改会议使用 Skype 业务 Server 命令行管理程序配置设置
 
 若要修改会议配置设置，请使用 **Set-CsMeetingConfiguration** cmdlet。
   
@@ -46,6 +46,6 @@ ms.lasthandoff: 03/28/2018
 Set-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-包括的参数的完整列表的详细信息，请参阅[设置 CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps)。
+有关详细信息，包括完成参数的列表，请参阅[Set-csmeetingconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps)。
   
 

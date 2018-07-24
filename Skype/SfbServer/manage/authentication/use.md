@@ -1,26 +1,25 @@
 ---
-title: 对 Skype for Business 客户端 和 Skype for Business Server 2015 使用双重身份验证
+title: 用于双重身份验证与 Skype 的业务客户端和 Skype 业务服务器
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
-description: 摘要： 业务服务器 2015年和 Skype for Business 使用与 Skype 的双重身份验证。
-ms.openlocfilehash: 081065facfcf01b6bb87bce3d621cf4a6ecd4dd6
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 摘要： 业务服务器和 Skype for Business 使用与 Skype 的双重身份验证。
+ms.openlocfilehash: 95e44c50dec37eea86b90317575a09509df80649
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504920"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986549"
 ---
-# <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server-2015"></a>对 Skype for Business 客户端 和 Skype for Business Server 2015 使用双重身份验证
+# <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>用于双重身份验证与 Skype 的业务客户端和 Skype 业务服务器
  
-**摘要：** 业务服务器 2015年和 Skype for Business 使用与 Skype 的双重身份验证。
+**摘要：** 使用双重身份验证 Skype 业务服务器和 Skype 的业务。
   
 ## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>首次登录 Skype for Business
 
@@ -46,7 +45,7 @@ ms.locfileid: "19504920"
 
 完成 for Business 使用 Skype 时，您可以关闭显示，登录到您的会话，或退出程序，所有从文件菜单。 下表说明了这些选项之间的差异。
   
-|**选项**|**它的用途**|**如何执行它**|
+|**选项**|**执行的结果**|**如何执行**|
 |:-----|:-----|:-----|
 |关闭  <br/> |关闭您显示，但允许 Skype 业务会话标识与您的用户 ID 继续运行。 因此，您可以继续接收通知并与其他人互动。 <br/> <br/> 您可以通过单击任务栏上或在屏幕底部的通知区域上的业务图标 Skype 获取随时后显示。  <br/> | 在业务主窗口的 Skype，执行以下任一操作： <br/> 1.选择**选项**按钮，然后选择**文件** > **关闭**。  <br/> 2.在窗口的右上角，单击**关闭**按钮 (X)。 <br/> |
 |注销  <br/> |结束与您的用户 ID 但 for Business 的 Skype 关联的会话继续在后台运行。 注销时，登录窗口将会出现。  <br/> **提示：** 注销若要从计算机中删除您的登录 ID 和密码的记录时，请选择**删除我登录信息**。 这样做使支持人员可以更轻松地解决登录问题。 还通过使未经授权的用户难以使用您的凭据登录来帮助确保您的登录信息更安全。 <br/> |在业务主窗口的 Skype，选择**选项**按钮，然后选择**文件** > **注销**。  <br/> |
@@ -62,7 +61,7 @@ ms.locfileid: "19504920"
     
 ### <a name="enroll-your-smart-card"></a>注册智能卡
 
-您可以使用智能卡登录之前，请在卡片必须"注册"— 即，您的用户凭据必须与卡标识。 不管是物理智能卡还是虚拟智能卡都是如此。 此过程可能已被签出由您 Skype 业务服务器 2015年管理员执行。 如果您不确定是否已完成的则检查与他们。
+您可以使用智能卡登录之前，请在卡片必须"注册"— 即，您的用户凭据必须与卡标识。 不管是物理智能卡还是虚拟智能卡都是如此。 此过程可能已被签出的企业服务器管理员将 Skype 执行。 如果您不确定是否已完成的则检查与他们。
   
 > [!NOTE]
 > 因为每个虚拟智能卡仅与设备相关联安装它的、 一张卡将需要您使用的每台 Windows 8 计算机的注册。 
@@ -143,6 +142,6 @@ ms.locfileid: "19504920"
   
 ## <a name="see-also"></a>另请参阅
 
-[管理 Skype 中的业务服务器 2015年的双重身份验证](two-factor-authentication.md)
+[管理 Skype 中的业务服务器的双重身份验证](two-factor-authentication.md)
   
-[在 Skype for Business Server 2015 配置双重身份验证](configure.md)
+[在 Skype for Business Server 中配置双重身份验证](configure.md)

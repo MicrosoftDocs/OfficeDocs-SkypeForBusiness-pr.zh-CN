@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
+ROBOTS: NOINDEX, NOFOLLOW
 description: 拓扑： 服务器应用程序页显示部署中的服务器应用程序。
-ms.openlocfilehash: 2f9289878e2b4d7d8bf38d51157e5f8301595a0b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 4306964b827dd9d8b03e29a4805080548bd44c86
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987583"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967910"
 ---
 # <a name="topology-server-application"></a>拓扑： 服务器应用程序
  
