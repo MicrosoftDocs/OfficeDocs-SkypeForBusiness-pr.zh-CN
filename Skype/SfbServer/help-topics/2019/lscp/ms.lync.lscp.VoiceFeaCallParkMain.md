@@ -10,19 +10,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
+ROBOTS: NOINDEX, NOFOLLOW
 description: 驻留呼叫后，它被传输到临时号码呼叫将保存，直到有人取回它或超时。您需要使用的保留用于寄存呼叫的分机号码范围配置的表。 这些分机需要为虚拟分机（即未向其分配用户或电话的分机）。 运行呼叫寄存应用程序的每个池可以有一个或多个区域的扩展名。 这些范围在部署中必须是全局唯一的。
-ms.openlocfilehash: 03c435b5fa67fc5a9ee8f1d89f1e68c2d7cb7073
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c3b87225c4cd9fa4c0736ba6ab1ba86ab3405162
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19966051"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019608"
 ---
 # <a name="call-park"></a>呼叫寄存
  
 驻留呼叫后，它被传输到临时号码呼叫将保存，直到有人取回它或超时。您需要使用的保留用于寄存呼叫的分机号码范围配置的表。 这些分机需要为虚拟分机（即未向其分配用户或电话的分机）。 运行呼叫寄存应用程序的每个池可以有一个或多个区域的扩展名。 这些范围在部署中必须是全局唯一的。
   
-* * 呼叫寄存 * * 页上显示的所有呼叫寄存号码范围定义为您的组织的列表。
+**呼叫寄存**页上显示的所有呼叫寄存号码范围定义为您的组织的列表。
   
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 

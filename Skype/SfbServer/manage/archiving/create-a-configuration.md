@@ -1,24 +1,24 @@
 ---
-title: 在 Skype for Business Server 2015 中创建存档配置
+title: 为 Business Server Skype 创建存档配置
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
-description: 摘要： 了解如何创建业务服务器 2015 Skype 的存档配置。
-ms.openlocfilehash: 5675117d14d35e0055c7e494ce9476d421dda443
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何为业务服务器 Skype 创建存档配置。
+ms.openlocfilehash: b46aa3605d34ba083b7021424536b9c2d1c9bbea
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019843"
 ---
-# <a name="create-an-archiving-configuration-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建存档配置
+# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>为 Business Server Skype 创建存档配置
 
-**摘要：**了解如何创建业务服务器 2015 Skype 的存档配置。
+**摘要：** 了解如何为 Skype for Business Server 创建存档配置。
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>使用控制面板配置存档选项
 
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/28/2018
   
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。 
     
-2. 打开浏览器窗口，然后输入管理员 URL 打开 Skype 业务服务器控件面板。 
+2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
     
 3. 在左侧导航栏中，单击“**监控和存档**”，然后单击“**存档配置**”。
     
@@ -48,7 +48,7 @@ ms.lasthandoff: 03/28/2018
     
    - 要在存档不可用时阻止活动，请选中“**存档失败时阻止即时消息 (IM) 或 Web 会议会话**”复选框。
     
-   - 要使用 Microsoft Exchange Server 存储存档数据，请单击**Microsoft Exchange 集成**复选框。
+   - 若要使用 Microsoft Exchange Server 存储存档数据，请单击**Microsoft Exchange 集成**复选框。
     
    - 若要启用数据清除，请选中“**启用存档数据清除**”复选框，然后执行下列操作之一：
     
@@ -82,4 +82,4 @@ New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly"
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 ```
 
-有关详细信息，请参阅有关[新建 CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息，请参阅[New-csarchivingconfiguration](https://docs.microsoft.com/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps) cmdlet 的帮助主题。

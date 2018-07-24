@@ -1,34 +1,33 @@
 ---
-title: 在 Skype for Business Server 2015 中启用或禁用脱机即时消息 (IM)
+title: 启用或禁用业务服务器脱机即时消息 (IM) 中 Skype
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 6/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
-description: 了解如何启用或禁用脱机即时消息 (IM) 中 Skype 业务服务器 2015年。
-ms.openlocfilehash: 46adfbea2e3164944d9670310819d3ae46d8d07c
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 了解如何启用或禁用业务服务器脱机即时消息 (IM) Skype 中。
+ms.openlocfilehash: f033a3953e2be215f4acb587414cad4faf35855f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569810"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019557"
 ---
-# <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中启用或禁用脱机即时消息 (IM)
+# <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>启用或禁用业务服务器脱机即时消息 (IM) 中 Skype
  
-了解如何启用或禁用脱机即时消息 (IM) 中 Skype 业务服务器 2015年。
+了解如何启用或禁用业务服务器脱机即时消息 (IM) Skype 中。
   
-## <a name="enable-offline-instant-messaging-im-in-skype-for-business-server-2015"></a>为业务 Server 2015 Skype 中启用脱机即时消息 (IM)
+## <a name="enable-offline-instant-messaging-im-in-skype-for-business-server"></a>启用业务服务器脱机即时消息 (IM) 中 Skype
 
-脱机 IM 是内置 Skype 业务客户端的客户端侧功能 (2016 C2R 构建 16.0.6701.1000 或更高版本) 的利用 Exchange Web Services (EWS) 将消息从业务客户端 Skype 发送到用户的 Exchange 邮箱。 脱机 IM 使用 Exchange Web Services (EWS) 从业务客户端 Skype 的脱机消息发送到收件人的邮箱。 EWS 必须可供用于脱机发送的消息的业务客户端 Skype。 若要了解更多有关规划即时消息和状态，请参阅[规划即时消息和状态中的业务服务器 2015 Skype](../../plan-your-deployment/instant-messaging-and-presence.md)。
+脱机 IM 是内置 Skype 业务客户端的客户端侧功能 (2016 C2R 构建 16.0.6701.1000 或更高版本) 的利用 Exchange Web Services (EWS) 将消息从业务客户端 Skype 发送到用户的 Exchange 邮箱。 脱机 IM 使用 Exchange Web Services (EWS) 从业务客户端 Skype 的脱机消息发送到收件人的邮箱。 EWS 必须可供用于脱机发送的消息的业务客户端 Skype。 若要了解更多有关规划即时消息和状态，请参阅[规划即时消息和 Skype 业务服务器中的状态](../../plan-your-deployment/instant-messaging-and-presence.md)。
   
 > [!NOTE]
 > 业务客户端 （2016 C2R 生成 16.0.6920.1000） Skype 如果用户的邮箱位于中 Exchange 内部部署，则需要 
   
-### <a name="to-enable-or-disable-offline-im-in-skype-for-business-server-2015-with-cu3"></a>若要启用或禁用与 CU3 业务服务器 2015年脱机 Skype 中的 IM
+### <a name="to-enable-or-disable-offline-im-in-skype-for-business-server"></a>若要启用或禁用业务服务器脱机 Skype 中的 IM
 
 1. 打开 Skype 业务 Server 命令行管理程序。
     
@@ -64,4 +63,4 @@ ms.locfileid: "19569810"
 业务 ETL 日志主 Skype 将包含有关脱机消息处理的信息，调查/故障排除您最佳源。 
   
 > [!NOTE]
-> 我们收到了关于离线消息发送失败并且消息显示在“草稿”文件夹中的问题报告。此问题出现在 Exchange 内部部署邮箱中。此问题已在 2016 年 6 月 14 日之后的所有 C2R 渠道中得以解决。  
+> 我们收到了关于离线消息发送失败并且消息显示在“草稿”文件夹中的问题报告。此问题出现在 Exchange 内部部署邮箱中。此问题已在 2016 年 6 月 14 日之后的所有 C2R 渠道中得以解决。   
