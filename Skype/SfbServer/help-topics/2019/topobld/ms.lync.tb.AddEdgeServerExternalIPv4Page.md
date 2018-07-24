@@ -10,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4f22de3-d825-495e-9e85-99a75b8a20e3
+ROBOTS: NOINDEX, NOFOLLOW
 description: 在外部 IPv4，输入的外部 IP 地址指向访问边缘服务、 Web 会议边缘服务和 A / V 边缘服务。
-ms.openlocfilehash: 966952f633a4b1cd8659188a5b843c7e85c1e10a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 5124f53767bf024322586af322fa75c6ba9019c7
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991962"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21060103"
 ---
-# <a name="add-edge-server-external-ipv4"></a><span data-ttu-id="a1c2c-103">添加边缘服务器外部 IPv4</span><span class="sxs-lookup"><span data-stu-id="a1c2c-103">Add Edge Server External IPv4</span></span>
+# <a name="add-edge-server-external-ipv4"></a><span data-ttu-id="51a3c-103">添加边缘服务器外部 IPv4</span><span class="sxs-lookup"><span data-stu-id="51a3c-103">Add Edge Server External IPv4</span></span>
  
-<span data-ttu-id="a1c2c-104">在**外部 IPv4**中，输入的外部 IP 地址指向访问边缘服务、 Web 会议边缘服务和 A / V 边缘服务。</span><span class="sxs-lookup"><span data-stu-id="a1c2c-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="51a3c-104">在**外部 IPv4**中，输入的外部 IP 地址指向访问边缘服务、 Web 会议边缘服务和 A / V 边缘服务。</span><span class="sxs-lookup"><span data-stu-id="51a3c-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
   
 

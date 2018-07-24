@@ -10,18 +10,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
+ROBOTS: NOINDEX, NOFOLLOW
 description: A / V 会议启用实时音频和视频您的用户之间的通信 （即，如果他们有相应的客户端设备，如适用于音频会议的耳麦和用于视频会议的网络摄像机）。 如果您的部署支持会议并启用 web 会议和 A / V 会议，您可以将并置的 A / V 会议服务器与前端服务器)，或者您可以部署一个或多个独立的 A / V 会议服务器 (A / V 会议池). 如果您选择的选项以部署独立的 A / V 会议服务器，您必须定义它在拓扑生成器中。
-ms.openlocfilehash: 978000c4c3ab459542734f30fe50a040127cb99b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 27484924ee08a413de831e2d33edd20c9c17d763
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973225"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069608"
 ---
-# <a name="associate-front-end-with-av-mcu"></a><span data-ttu-id="8a05a-105">将前端与 AV MCU 关联</span><span class="sxs-lookup"><span data-stu-id="8a05a-105">Associate Front End With AV MCU</span></span>
+# <a name="associate-front-end-with-av-mcu"></a><span data-ttu-id="46f87-105">将前端与 AV MCU 关联</span><span class="sxs-lookup"><span data-stu-id="46f87-105">Associate Front End With AV MCU</span></span>
  
-<span data-ttu-id="8a05a-106">A / V 会议启用实时音频和视频您的用户之间的通信 （即，如果他们有相应的客户端设备，如适用于音频会议的耳麦和用于视频会议的网络摄像机）。</span><span class="sxs-lookup"><span data-stu-id="8a05a-106">A/V Conferencing enables real-time audio and video communications between your users (that is, if they have appropriate client devices, such as headsets for audio conferences, and webcams for video conferences).</span></span> <span data-ttu-id="8a05a-107">如果您的部署支持会议并启用 web 会议和 A / V 会议，您可以将并置的 A / V 会议服务器与前端服务器)，或者您可以部署一个或多个独立的 A / V 会议服务器 (A / V 会议池).</span><span class="sxs-lookup"><span data-stu-id="8a05a-107">If your deployment supports conferencing and you enable both web conferencing and A/V Conferencing, you can collocate the A/V Conferencing Server with the Front End Server), or you can deploy one or more stand-alone A/V Conferencing Servers (A/V Conferencing pool).</span></span> <span data-ttu-id="8a05a-108">如果您选择的选项以部署独立的 A / V 会议服务器，您必须定义它在拓扑生成器中。</span><span class="sxs-lookup"><span data-stu-id="8a05a-108">If you choose the option to deploy a stand-alone A/V Conferencing Server, you must define it in Topology Builder.</span></span>
+<span data-ttu-id="46f87-106">A / V 会议启用实时音频和视频您的用户之间的通信 （即，如果他们有相应的客户端设备，如适用于音频会议的耳麦和用于视频会议的网络摄像机）。</span><span class="sxs-lookup"><span data-stu-id="46f87-106">A/V Conferencing enables real-time audio and video communications between your users (that is, if they have appropriate client devices, such as headsets for audio conferences, and webcams for video conferences).</span></span> <span data-ttu-id="46f87-107">如果您的部署支持会议并启用 web 会议和 A / V 会议，您可以将并置的 A / V 会议服务器与前端服务器)，或者您可以部署一个或多个独立的 A / V 会议服务器 (A / V 会议池).</span><span class="sxs-lookup"><span data-stu-id="46f87-107">If your deployment supports conferencing and you enable both web conferencing and A/V Conferencing, you can collocate the A/V Conferencing Server with the Front End Server), or you can deploy one or more stand-alone A/V Conferencing Servers (A/V Conferencing pool).</span></span> <span data-ttu-id="46f87-108">如果您选择的选项以部署独立的 A / V 会议服务器，您必须定义它在拓扑生成器中。</span><span class="sxs-lookup"><span data-stu-id="46f87-108">If you choose the option to deploy a stand-alone A/V Conferencing Server, you must define it in Topology Builder.</span></span>
   
-<span data-ttu-id="8a05a-109">在站点的所有池和多个中央站点的池可以使用相同的 A / V 会议服务器，如果使用量不超过容量的 A / V 会议服务器。</span><span class="sxs-lookup"><span data-stu-id="8a05a-109">All pools at a site and the pools of multiple central sites can use the same A/V Conferencing Server, if usage does not exceed the capacity of the A/V Conferencing Server.</span></span> 
+<span data-ttu-id="46f87-109">在站点的所有池和多个中央站点的池可以使用相同的 A / V 会议服务器，如果使用量不超过容量的 A / V 会议服务器。</span><span class="sxs-lookup"><span data-stu-id="46f87-109">All pools at a site and the pools of multiple central sites can use the same A/V Conferencing Server, if usage does not exceed the capacity of the A/V Conferencing Server.</span></span> 
   
 

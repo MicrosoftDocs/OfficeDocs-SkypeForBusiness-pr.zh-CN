@@ -10,28 +10,29 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
+ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示的完全限定的域名 (FQDN)，关联的中介服务器和其他有关此公用电话交换网 (pstn) 网关的基本信息。 可以执行以下操作：
-ms.openlocfilehash: 1c511c68f38cda0d135037b098b1192381fabde3
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: dcdb2ee6710f2c5b13fb3ff3b25b4dd229155f40
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979986"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069058"
 ---
-# <a name="pstn-gateway-scope-node"></a><span data-ttu-id="a92e7-104">PSTN 网关范围节点</span><span class="sxs-lookup"><span data-stu-id="a92e7-104">PSTN Gateway Scope Node</span></span>
+# <a name="pstn-gateway-scope-node"></a><span data-ttu-id="77da8-104">PSTN 网关范围节点</span><span class="sxs-lookup"><span data-stu-id="77da8-104">PSTN Gateway Scope Node</span></span>
  
-<span data-ttu-id="a92e7-105">此节点显示的完全限定的域名 (FQDN)，关联的中介服务器和其他有关此公用电话交换网 (pstn) 网关的基本信息。</span><span class="sxs-lookup"><span data-stu-id="a92e7-105">This node shows the fully qualified domain name (FQDN), associated Mediation Server, and other basic information about this public switched telephone network (PSTN) gateway.</span></span> <span data-ttu-id="a92e7-106">可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="a92e7-106">You can perform the following actions:</span></span>
+<span data-ttu-id="77da8-105">此节点显示的完全限定的域名 (FQDN)，关联的中介服务器和其他有关此公用电话交换网 (pstn) 网关的基本信息。</span><span class="sxs-lookup"><span data-stu-id="77da8-105">This node shows the fully qualified domain name (FQDN), associated Mediation Server, and other basic information about this public switched telephone network (PSTN) gateway.</span></span> <span data-ttu-id="77da8-106">可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="77da8-106">You can perform the following actions:</span></span>
   
-- <span data-ttu-id="a92e7-p103">**编辑属性**。打开该网关的“**编辑属性**”页，在其中可以更改其 FQDN（如果尚未发布拓扑）、侦听端口、传输协议和备用媒体 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="a92e7-p103">**Edit Properties**. Opens the **Edit Properties** page for this gateway, where you can change its FQDN (if the topology is not already published), listening port, transport protocol, and alternate media IP address.</span></span>
+- <span data-ttu-id="77da8-p103">**编辑属性**。打开该网关的“**编辑属性**”页，在其中可以更改其 FQDN（如果尚未发布拓扑）、侦听端口、传输协议和备用媒体 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="77da8-p103">**Edit Properties**. Opens the **Edit Properties** page for this gateway, where you can change its FQDN (if the topology is not already published), listening port, transport protocol, and alternate media IP address.</span></span>
     
-- <span data-ttu-id="a92e7-p104">**删除**。从拓扑中删除服务器。</span><span class="sxs-lookup"><span data-stu-id="a92e7-p104">**Delete**. Deletes the server from the topology.</span></span>
+- <span data-ttu-id="77da8-p104">**删除**。从拓扑中删除服务器。</span><span class="sxs-lookup"><span data-stu-id="77da8-p104">**Delete**. Deletes the server from the topology.</span></span>
     
-<span data-ttu-id="a92e7-111">除了这些选项之外，还可以执行以下常规任务：</span><span class="sxs-lookup"><span data-stu-id="a92e7-111">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="77da8-111">除了这些选项之外，还可以执行以下常规任务：</span><span class="sxs-lookup"><span data-stu-id="77da8-111">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="a92e7-p105">**拓扑**。可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并组件或者删除部署。</span><span class="sxs-lookup"><span data-stu-id="a92e7-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="77da8-p105">**拓扑**。可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并组件或者删除部署。</span><span class="sxs-lookup"><span data-stu-id="77da8-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="a92e7-p106">**视图**。可以使用此选项通过在控制台树视图中选择要显示和隐藏的项目来自定义拓扑生成器视图。</span><span class="sxs-lookup"><span data-stu-id="a92e7-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="77da8-p106">**视图**。可以使用此选项通过在控制台树视图中选择要显示和隐藏的项目来自定义拓扑生成器视图。</span><span class="sxs-lookup"><span data-stu-id="77da8-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="a92e7-p107">**帮助**。可以使用此选项访问活动节点的“帮助”。</span><span class="sxs-lookup"><span data-stu-id="a92e7-p107">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="77da8-p107">**帮助**。可以使用此选项访问活动节点的“帮助”。</span><span class="sxs-lookup"><span data-stu-id="77da8-p107">**Help**. You can use this option to access Help for the active node.</span></span>
     
 
