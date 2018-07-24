@@ -10,19 +10,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: efaf7b2a-257f-4aef-9c25-40ea93b03ef4
+ROBOTS: NOINDEX, NOFOLLOW
 description: 若要部署的服务器角色上启动的服务，单击运行在步骤 4： 启动服务。 您必须以本地 Administrators 组或等效的成员身份登录。
-ms.openlocfilehash: a2cb07d4e28dae6afce1abac0bdc7e66d48869ac
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1c2d76bd0dffa9541dce8e66883d54be8db74031
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979237"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981591"
 ---
-# <a name="start-services"></a><span data-ttu-id="6a9ff-104">启动服务</span><span class="sxs-lookup"><span data-stu-id="6a9ff-104">Start Services</span></span>
+# <a name="start-services"></a><span data-ttu-id="4a860-104">启动服务</span><span class="sxs-lookup"><span data-stu-id="4a860-104">Start Services</span></span>
  
-<span data-ttu-id="6a9ff-105">若要部署的服务器角色上启动服务，请单击中的**运行****步骤 4： 启动服务**。</span><span class="sxs-lookup"><span data-stu-id="6a9ff-105">To start the services on the deployed server role, click **Run** in **Step 4: Start Services**.</span></span> <span data-ttu-id="6a9ff-106">您必须以本地 Administrators 组或等效的成员身份登录。</span><span class="sxs-lookup"><span data-stu-id="6a9ff-106">You must be logged on as a member of the local Administrators group or an equivalent.</span></span> 
+<span data-ttu-id="4a860-105">若要部署的服务器角色上启动服务，请单击中的**运行****步骤 4： 启动服务**。</span><span class="sxs-lookup"><span data-stu-id="4a860-105">To start the services on the deployed server role, click **Run** in **Step 4: Start Services**.</span></span> <span data-ttu-id="4a860-106">您必须以本地 Administrators 组或等效的成员身份登录。</span><span class="sxs-lookup"><span data-stu-id="4a860-106">You must be logged on as a member of the local Administrators group or an equivalent.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="6a9ff-107">如果已运行**启动服务**，您可以通过单击**再次运行**重新运行该命令。</span><span class="sxs-lookup"><span data-stu-id="6a9ff-107">If **Start Services** has been run, you can rerun the command by clicking **Run Again**.</span></span> 
+> <span data-ttu-id="4a860-107">如果已运行**启动服务**，您可以通过单击**再次运行**重新运行该命令。</span><span class="sxs-lookup"><span data-stu-id="4a860-107">If **Start Services** has been run, you can rerun the command by clicking **Run Again**.</span></span> 
   
 

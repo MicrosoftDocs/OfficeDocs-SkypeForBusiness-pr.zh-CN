@@ -1,9 +1,9 @@
 ---
-title: 添加受信任的应用程序池的 FQDN
+title: 添加受信任应用程序池 FQDN
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,24 +11,25 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
-description: 要定义受信任的应用程序池完全合格的域名称 (FQDN)，请指定以下项：
-ms.openlocfilehash: af21ab09797a5b81f2071a37a2668d556f0a4012
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 要定义受信任应用程序池完全限定的域名 (FQDN)，请指定以下内容：
+ms.openlocfilehash: 287e38d4568a45c14dc27e3c1b3f9b0124c9893a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983796"
 ---
-# <a name="add-trusted-application-pool-fqdn"></a><span data-ttu-id="37547-103">添加受信任的应用程序池的 FQDN</span><span class="sxs-lookup"><span data-stu-id="37547-103">Add Trusted Application Pool FQDN</span></span>
+# <a name="add-trusted-application-pool-fqdn"></a><span data-ttu-id="3e05f-103">添加受信任应用程序池 FQDN</span><span class="sxs-lookup"><span data-stu-id="3e05f-103">Add Trusted Application Pool FQDN</span></span>
  
-<span data-ttu-id="37547-104">要定义受信任的应用程序池完全合格的域名称 (FQDN)，请指定以下项：</span><span class="sxs-lookup"><span data-stu-id="37547-104">To define a Trusted Applications pool fully qualified domain name (FQDN), specify the following:</span></span>
+<span data-ttu-id="3e05f-104">要定义受信任应用程序池完全限定的域名 (FQDN)，请指定以下内容：</span><span class="sxs-lookup"><span data-stu-id="3e05f-104">To define a Trusted Applications pool fully qualified domain name (FQDN), specify the following:</span></span>
   
-<span data-ttu-id="37547-105">服务器将承载受信任的应用程序池或服务器的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="37547-105">An FQDN of the server or pool of servers that will host the trusted applications.</span></span>
+<span data-ttu-id="3e05f-105">服务器或服务器将承载受信任应用程序池的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="3e05f-105">An FQDN of the server or pool of servers that will host the trusted applications.</span></span>
   
-<span data-ttu-id="37547-106">如果您正在部署一个池的负载平衡和高可用性，从受信任的应用程序服务器或选择**单台计算机池**，如果您不需要负载平衡或高可用性，请选择**多个计算机池**。</span><span class="sxs-lookup"><span data-stu-id="37547-106">Select **Multiple computer pool** if you are deploying a pool of servers for the trusted applications from load balancing and high availability, or select **Single computer pool** if you do not need load balancing or high availability.</span></span>
+<span data-ttu-id="3e05f-106">如果您要部署的服务器从负载平衡和高可用性的受信任应用程序池，或选择**单计算机池**，如果您不需要负载平衡或高可用性，请选择**多计算机池**。</span><span class="sxs-lookup"><span data-stu-id="3e05f-106">Select **Multiple computer pool** if you are deploying a pool of servers for the trusted applications from load balancing and high availability, or select **Single computer pool** if you do not need load balancing or high availability.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="37547-107">单个受信任的应用程序服务器不能转换为更高版本的服务器池。</span><span class="sxs-lookup"><span data-stu-id="37547-107">A single Trusted Applications Server cannot be converted to a pool of servers later.</span></span> <span data-ttu-id="37547-108">如果您认为将来可能需要一个池，可以部署多个服务器池中包含一台计算机，并添加服务器时所需。</span><span class="sxs-lookup"><span data-stu-id="37547-108">If you think you may need a pool in the future, you can deploy a multiple server pool containing a single computer now, and add servers when needed.</span></span> 
+> <span data-ttu-id="3e05f-107">单一的受信任应用程序服务器无法转换为的更高版本服务器池。</span><span class="sxs-lookup"><span data-stu-id="3e05f-107">A single Trusted Applications Server cannot be converted to a pool of servers later.</span></span> <span data-ttu-id="3e05f-108">如果您认为您将来可能需要一个池，您可以部署多个服务器池现在，包含一台计算机，并添加时所需的服务器。</span><span class="sxs-lookup"><span data-stu-id="3e05f-108">If you think you may need a pool in the future, you can deploy a multiple server pool containing a single computer now, and add servers when needed.</span></span> 
   
-<span data-ttu-id="37547-109">有关受信任的应用程序池的详细信息，请参阅[新建 CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="37547-109">For details about Trusted Applications pools, see [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).</span></span>
+<span data-ttu-id="3e05f-109">关于受信任应用程序池的详细信息，请参阅[New-cstrustedapplicationpool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="3e05f-109">For details about Trusted Applications pools, see [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).</span></span>
   
 

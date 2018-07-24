@@ -10,17 +10,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
+ROBOTS: NOINDEX, NOFOLLOW
 description: 若要定义前缀或起始数字，添加此路由应处理，包括的号码前缀 + 必要。 例如，您可以与 +123 开头的所有号码相都匹配。
-ms.openlocfilehash: c4ccbb572830581aa58d27c7af2bfad1e4001dcd
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 62fdb4c329d2a3b07f9fc1f1f45a2339b2157759
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20045174"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989225"
 ---
-# <a name="prefix-edit"></a><span data-ttu-id="88136-104">前缀编辑</span><span class="sxs-lookup"><span data-stu-id="88136-104">Prefix Edit</span></span>
+# <a name="prefix-edit"></a><span data-ttu-id="4f467-104">前缀编辑</span><span class="sxs-lookup"><span data-stu-id="4f467-104">Prefix Edit</span></span>
  
-<span data-ttu-id="88136-105">若要定义前缀或起始数字，添加此路由应处理，包括的号码前缀 + 必要。</span><span class="sxs-lookup"><span data-stu-id="88136-105">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary.</span></span> <span data-ttu-id="88136-106">例如，您可以与 +123 开头的所有号码相都匹配。</span><span class="sxs-lookup"><span data-stu-id="88136-106">For example, you can match all numbers starting with +123.</span></span>
+<span data-ttu-id="4f467-105">若要定义前缀或起始数字，添加此路由应处理，包括的号码前缀 + 必要。</span><span class="sxs-lookup"><span data-stu-id="4f467-105">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary.</span></span> <span data-ttu-id="4f467-106">例如，您可以与 +123 开头的所有号码相都匹配。</span><span class="sxs-lookup"><span data-stu-id="4f467-106">For example, you can match all numbers starting with +123.</span></span>
   
  
   

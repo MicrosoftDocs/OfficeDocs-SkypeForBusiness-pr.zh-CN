@@ -10,21 +10,22 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
+ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: ca43cd417a4a3a996c65ea06bab7254c080a4948
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 489a8a2db9edf08ab2ab7e6923aab16f9818039e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19978236"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998797"
 ---
-# <a name="file-filter-create-new-or-edit-existing"></a><span data-ttu-id="88e6f-104">文件筛选器： 创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="88e6f-104">File Filter: Create New or Edit Existing</span></span>
+# <a name="file-filter-create-new-or-edit-existing"></a><span data-ttu-id="3cc9f-104">文件筛选器： 创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="3cc9f-104">File Filter: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="88e6f-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="88e6f-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="3cc9f-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="3cc9f-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="88e6f-107">修改默认文件传输筛选器</span><span class="sxs-lookup"><span data-stu-id="88e6f-107">Modify the Default File Transfer Filter</span></span>](http://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
+- [<span data-ttu-id="3cc9f-107">修改默认文件传输筛选器</span><span class="sxs-lookup"><span data-stu-id="3cc9f-107">Modify the Default File Transfer Filter</span></span>](http://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
     
-- [<span data-ttu-id="88e6f-108">为特定站点创建新的文件传输筛选器</span><span class="sxs-lookup"><span data-stu-id="88e6f-108">Create a New File Transfer Filter for a Specific Site</span></span>](http://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
+- [<span data-ttu-id="3cc9f-108">为特定站点创建新的文件传输筛选器</span><span class="sxs-lookup"><span data-stu-id="3cc9f-108">Create a New File Transfer Filter for a Specific Site</span></span>](http://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
     
-<span data-ttu-id="88e6f-109">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[业务服务器管理 Skype](../../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="88e6f-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server](../../../manage/manage.md).</span></span>
+ 
 

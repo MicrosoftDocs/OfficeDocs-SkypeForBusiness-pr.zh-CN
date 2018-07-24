@@ -10,23 +10,24 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
+ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: d17644fb9105ffb484215989f46d845408e1e7a2
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+ms.openlocfilehash: ba9cd40219b4d82cd2c0202cb3bfb1541298cb55
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088509"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004445"
 ---
-# <a name="registrar-security-settings-create-new-or-edit-existing"></a><span data-ttu-id="100d8-104">注册器安全设置： 创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="100d8-104">Registrar Security Settings: Create New or Edit Existing</span></span>
+# <a name="registrar-security-settings-create-new-or-edit-existing"></a><span data-ttu-id="012cf-104">注册器安全设置： 创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="012cf-104">Registrar Security Settings: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="100d8-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="100d8-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="012cf-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="012cf-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="100d8-107">管理业务服务器的注册器配置设置中 Skype</span><span class="sxs-lookup"><span data-stu-id="100d8-107">Manage Registrar configuration settings in Skype for Business Server</span></span>](../../../manage/authentication/registrar-configuration-settings.md)
+- [<span data-ttu-id="012cf-107">管理业务服务器的注册器配置设置中 Skype</span><span class="sxs-lookup"><span data-stu-id="012cf-107">Manage Registrar configuration settings in Skype for Business Server</span></span>](../../../manage/authentication/registrar-configuration-settings.md)
     
-- [<span data-ttu-id="100d8-108">修改现有的注册器</span><span class="sxs-lookup"><span data-stu-id="100d8-108">Modify an Existing Registrar</span></span>](http://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
+- [<span data-ttu-id="012cf-108">修改现有的注册器</span><span class="sxs-lookup"><span data-stu-id="012cf-108">Modify an Existing Registrar</span></span>](http://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
     
-- [<span data-ttu-id="100d8-109">删除注册器</span><span class="sxs-lookup"><span data-stu-id="100d8-109">Delete a Registrar</span></span>](http://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
+- [<span data-ttu-id="012cf-109">删除注册器</span><span class="sxs-lookup"><span data-stu-id="012cf-109">Delete a Registrar</span></span>](http://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
     
  
 

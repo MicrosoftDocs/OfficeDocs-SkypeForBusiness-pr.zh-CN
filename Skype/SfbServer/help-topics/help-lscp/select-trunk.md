@@ -1,9 +1,9 @@
 ---
-title: 选择中继
+title: 选择 Trunk
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,20 +11,21 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
-description: 使用中继选择对话框中查找可以使用现有干线。
-ms.openlocfilehash: faeb9acc4de95ec156e41fa08abfee528c0b8f23
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 使用选择 Trunk 对话框查找可以使用的现有 trunk。
+ms.openlocfilehash: 3852fbc32efc4dec6800a59e75eb3c69708169e2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973596"
 ---
-# <a name="select-trunk"></a><span data-ttu-id="8b081-103">选择中继</span><span class="sxs-lookup"><span data-stu-id="8b081-103">Select Trunk</span></span>
+# <a name="select-trunk"></a><span data-ttu-id="a97a7-103">选择 Trunk</span><span class="sxs-lookup"><span data-stu-id="a97a7-103">Select Trunk</span></span>
  
-<span data-ttu-id="8b081-104">使用**中继选择**对话框中查找可以使用现有干线。</span><span class="sxs-lookup"><span data-stu-id="8b081-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
+<span data-ttu-id="a97a7-104">使用**选择 Trunk**对话框查找可以使用的现有 trunk。</span><span class="sxs-lookup"><span data-stu-id="a97a7-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="8b081-105">若要检索所有可用的中继，执行不在搜索框中键入任何内容，然后单击搜索图标。</span><span class="sxs-lookup"><span data-stu-id="8b081-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="a97a7-105">若要检索所有可用 trunk，请执行不在搜索框中键入任何内容，然后单击搜索图标。</span><span class="sxs-lookup"><span data-stu-id="a97a7-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
   
-<span data-ttu-id="8b081-106">您还可以通过 Skype 业务服务器控件面板的不同过程的详细信息，请参阅[管理的业务服务器 2015年的 Skype](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="8b081-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="a97a7-106">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="a97a7-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 
