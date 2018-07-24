@@ -1,23 +1,8 @@
 ---
-title: 转换规则类型的正则表达式
-ms.author: kenwith
-author: kenwith
-manager: serdars
-ms.audience: ITPro
-ms.topic: article
-f1_keywords:
-- ms.lync.lscp.VoiceRuleRegexEdit
-ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
-description: 在匹配此模式字段中，指定将用于匹配要转换的号码的模式。 在转换规则字段中，指定转换后的号码格式的模式。 例如，如果输入 ^\+(\d{9}\d+)$ 在匹配此模式字段和 011$ 1 转换规则字段中，该规则会将 + 441235551010 转换为 011441235551010。
-ms.openlocfilehash: f7218ae5b10b0e0b9ad4358eed37f181141f3469
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20049182"
+标题:"转换规则类型正则表达式"ms.author: kenwith 作者： kenwith 管理器： serdars ms.audience: it 专业人员 ms.topic： 文章 f1_keywords:
+- ms.lync.lscp.VoiceRuleRegexEdit ms.prod: Skype-的-业务-it 专业人员 localization_priority： 正常 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4 ROBOTS: NOINDEX，NOFOLLOW 说明:"匹配此模式字段中，在指定的模式的将用于匹配要转换的号码。 在转换规则字段中，指定转换后的号码格式的模式。 例如，如果输入 ^\+(\d{9}\d+)$ 在匹配此模式字段和 011$ 1 转换规则字段中，该规则会将 + 441235551010 转换为 011441235551010。"
 ---
+
 # <a name="translation-rule-type-a-regular-expression"></a>转换规则： 键入正则表达式
  
 在**匹配此模式**字段中，指定将用于匹配要转换的号码的模式。 在**转换规则**字段中，指定转换后的号码格式的模式。 例如，如果输入 ^\+(\d{9}\d+)$ 中**匹配此模式**字段和 011$ 1**转换规则**字段中，该规则会将 + 441235551010 转换为 011441235551010。

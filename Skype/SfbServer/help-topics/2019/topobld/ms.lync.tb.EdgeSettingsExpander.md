@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 要编辑包含单个或多个服务器的现有边缘池的设置，可参考以下各节内容：
-ms.openlocfilehash: 642e71aed428326140dd72646426f833c8d760b7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 601350dc96da80e04bccb975572b7655dc3c3e52
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964581"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987689"
 ---
 # <a name="edge-settings-expander"></a>边缘设置扩展器
  
@@ -28,23 +28,22 @@ ms.locfileid: "19964581"
     
 - 边缘服务器配置
     
-## 
 
-### <a name="general-settings"></a>常规设置
+## <a name="general-settings"></a>常规设置
 
 边缘服务器池的内部池完全限定域名 (FQDN)。编辑池的 FQDN 以更改此设置。
   
-如果您将设置与 Lync Server 2013 的联盟 Microsoft Lync Server 2010 或 Microsoft Office Communications Server 2007 R2 的受信任的合作伙伴，请选择**为此边缘池 (端口 5061) 启用联盟**复选框。
+如果您将设置与 Lync Server 2013、 Microsoft Lync Server 2010 或 Microsoft Office Communications Server 2007 R2 的受信任合作伙伴的联盟，请选择**为此边缘池 (端口 5061) 启用联盟**复选框。
   
 选中“**为此边缘池启用 XMPP 联盟**”可启用 XMPP 联盟。
   
 为“**内部配置复制端口 (HTTPS)**”指定端口号。
   
-### <a name="next-hop-selection-settings"></a>下一个跃点选择设置
+## <a name="next-hop-selection-settings"></a>下一个跃点选择设置
 
 要设置或修改边缘服务器将用于与内部基础结构通信的“**下一个跃点池**”，请从下拉列表框中选择控制器、控制器池、前端服务器或前端服务器池。 只有控制器或前端已配置拓扑生成器中将显示选定内容。
   
-### <a name="edge-server-configuration"></a>边缘服务器配置
+## <a name="edge-server-configuration"></a>边缘服务器配置
 
 要编辑或指定边缘服务器的“**外部设置**”的设置，首先必须确定 SIP 访问、Web 会议和音频/视频服务是否要使用单独的 IP 地址。
   
@@ -60,7 +59,7 @@ ms.locfileid: "19964581"
 > [!IMPORTANT]
 > 如果对这些设置进行任何更改，包括使用单独的 FQDN 和 IP 地址或端口，则必须更新将依赖最初配置的值的其他所有服务。 
   
-### 
+## <a name="see-also"></a>另请参阅 
 
 有关定义和配置边缘服务的设置的详细信息，请参阅[Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)。
   

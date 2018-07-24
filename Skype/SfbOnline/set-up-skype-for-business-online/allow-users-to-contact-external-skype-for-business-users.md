@@ -25,12 +25,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: d8cac3838550530666c2e7550c616a0b77cfd820
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: bd03e7c85b91bb9995dcbac3fc5d885cba2c7bd0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500680"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968457"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>允许用户联系外部 Skype for Business 用户
 
@@ -107,9 +107,9 @@ ms.locfileid: "19500680"
 ## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>设置联盟企业通信的提示
 <a name="bk_preview"> </a>
 
-- 要配置 Skype for Business 2015 与 Skype for Business Online 之间的联盟，请参阅 TechNet 文章：[配置与 Skype for Business Online 联盟](https://technet.microsoft.com/en-us/library/jj205126.aspx)。
+- 若要配置的业务 2015 Skype 和 Skype 业务 online 之间的联盟，请参阅这篇文章：[配置与业务 online Skype 的联合身份验证](https://technet.microsoft.com/en-us/library/jj205126.aspx)。
     
-- 要配置 Lync 与 Skype for Business Online 之间的联盟，请参阅 TechNet 文章：[为 Lync Online 客户配置联盟支持](https://technet.microsoft.com/en-us/library/hh202193.aspx)。
+- 若要配置的业务 Online 之间 Lync 和 Skype 联合身份验证，请参阅这篇文章：[为 Lync Online 客户配置联盟支持](https://technet.microsoft.com/en-us/library/hh202193.aspx)。
     
 - 当 Office 365 中的两个 Skype for Business 用户在单独的域上相互通信时，他们只能使用在两个组织中都启用的 Skype for Business 功能（例如，视频对话或桌面共享）。
     

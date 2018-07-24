@@ -15,12 +15,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: ee53b786fbe27c4d21af98d3e1d195ae5679a2e3
-  ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
+  ms.openlocfilehash: 2412dbd848f4da4cc619b21d0aa296eb35d43386
+  ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 07/19/2018
-  ms.locfileid: "20506763"
+  ms.lasthandoff: 07/24/2018
+  ms.locfileid: "20987547"
 items:
 - durationInMinutes: 1
   content: "本教程是简介 for Business Skype 的 Microsoft 团队升级旅程和我们的端到端升级成功框架。 本教程将快速您定向到的推荐升级路径和资源可用于您刚开始进行规划，已在运行旁 Skype for Business，团队是否支持您在您旅程，或已准备好升级到团队。\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]\n\n此培训面向以下人员：\n-   IT 专业人员负责规划、 部署或管理 for Business 的 Skype。\n-   负责规划组织内的用户更改管理。\n-   希望了解如何为组织成功升级从 for Business 的 Skype 接近到团队。\n\n我们将转到有关如何这两种产品可以汇聚在一起，并解释哪些采取的步骤可以立即准备团队现有 Skype 业务环境的详细信息。 \n\n我们将讨论可帮助您规划和执行升级，概述包括跨技术和用户准备情况驱动获得最佳体验的主要活动的框架。\n\n本教程的主要目标是：\n-   浏览可帮助您规划您升级的升级路径。\n-   了解准备和实现升级所需的关键步骤。\n-   确定深入指导、 模板和资源可帮助您在您旅程。\n-   共享接下来的步骤开始使用我们的指南。\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]\n\n如果您有任何疑问或有关此培训的反馈，请发布在本教程的注释部分底部的\"下一步步骤\"页。\n\n要向我们提供有关 Teams 的产品反馈（例如，新功能想法），请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。\n"

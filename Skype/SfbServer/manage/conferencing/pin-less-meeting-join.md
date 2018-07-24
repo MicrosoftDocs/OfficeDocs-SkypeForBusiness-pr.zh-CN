@@ -3,23 +3,22 @@ title: 在 Skype for Business Server 中配置无 PIN 会议加入
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
-description: 摘要： 了解如何配置 PIN 小于会议加入业务服务器 2015年中 Skype 选项。
-ms.openlocfilehash: 375c008cd8cec072e9d2b71de1765756e4c0f881
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解如何配置 PIN 小于会议加入业务服务器中 Skype 选项。
+ms.openlocfilehash: 843ea92a331391faa47e4cbc32191312c6dfbc6b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569339"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985961"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>在 Skype for Business Server 中配置无 PIN 会议加入
  
-**摘要：** 了解如何配置 PIN 小于会议加入业务服务器 2015年中 Skype 选项。
+**摘要：** 了解如何配置 PIN 小于会议加入业务服务器中 Skype 选项。
   
 当电话拨入式呼叫者尝试加入会议时，会议自动助理 (CAA) 服务会将呼叫者放在不同从会议厅 #x 2014; 保持笔如果演示者已不在呼叫，请与电话拨入式呼叫者未进入主持人 PIN。 无 PIN 会议加入选项使拨入呼叫方无需输入主持人 PIN 就能加入会议，即使他们是第一个从加入通话的人也是如此。 
   

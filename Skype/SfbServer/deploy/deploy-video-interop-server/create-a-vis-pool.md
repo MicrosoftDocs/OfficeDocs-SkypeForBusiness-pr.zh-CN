@@ -1,30 +1,29 @@
 ---
-title: 在 Skype for Business Server 2015 中创建 VIS 池
+title: 为 Business Server Skype 创建 VIS 池
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
-description: 摘要： 为业务服务器 2015 使用拓扑生成器创建 Skype 视频互操作服务器池。
-ms.openlocfilehash: c66889530bbcc8753e8003667e6ea26589cd5daf
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 摘要： 为业务服务器使用拓扑生成器创建 Skype 视频互操作服务器池。
+ms.openlocfilehash: f284163bc52f4e62c3ec5b1c7966f3c663ee09f7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501700"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978814"
 ---
-# <a name="create-a-vis-pool-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建 VIS 池
+# <a name="create-a-vis-pool-in-skype-for-business-server"></a>为 Business Server Skype 创建 VIS 池
  
-**摘要：** 为业务服务器 2015 使用拓扑生成器创建 Skype 视频互操作服务器池。
+**摘要：** 为业务服务器使用拓扑生成器创建 Skype 视频互操作服务器池。
   
 ### <a name="create-a-vis-or-vis-pool-using-topology-builder"></a>使用拓扑生成器创建 VIS 或 VIS 池
 
-1. 在前端服务器上打开拓扑生成器。 从拓扑生成器的左窗格中，右键单击 * * 视频互操作服务器池 * *，然后选择**新的视频互操作服务器池**。 
+1. 在前端服务器上打开拓扑生成器。 从拓扑生成器的左窗格中，右键单击**视频互操作服务器池**，然后选择**新的视频互操作服务器池**。 
     
 2. 这将打开“**创建新的视频互操作服务器池**”向导。 为新的视频互操作服务器提供池 FQDN，然后选择**此池具有一台服务器**或**此池中具有多个服务器**基于您的要求，然后按**下一步**。
     
@@ -42,7 +41,7 @@ ms.locfileid: "19501700"
     
 5. 设置 TCP 或 TLS 端口。
     
-    从拓扑生成器的左窗格中选择新添加的视频互操作服务器，右键单击它，然后选择**编辑属性**。 根据您的要求启用或更新 TCP 或 TLS 端口，然后选择“**确定**”。 尽管默认会添加 TLS，但只为 CUCM 全面测试了 TCP。
+    从拓扑生成器的左窗格中选择新添加的视频互操作服务器，右键单击它，然后选择**编辑属性**。 根据您的要求启用或更新 TCP 或 TLS 端口，然后选择“**确定**”。 虽然默认情况下添加了 TLS，但仅 TCP 经过充分测试与 Cisco 统一通信管理器 （CallManager 或 CUCM）。
     
 6. 添加视频网关。要执行此操作，展开“共享组件”，右键单击“**视频网关**”，然后选择“**新建视频网关**”。
     
@@ -65,8 +64,8 @@ ms.locfileid: "19501700"
 现已完成所有使用拓扑生成器执行的任务。请继续在新的 VIS 服务器上安装软件。
 ## <a name="see-also"></a>另请参阅
 
-[为业务服务器 2015年部署中 Skype VIS 服务器角色](deploy-the-vis-server-role.md)
+[为业务服务器部署中 Skype VIS 服务器角色](deploy-the-vis-server-role.md)
 
-[规划视频互操作性中的服务器 Skype 业务 Server 2015](../../plan-your-deployment/video-interop-server.md)
+[规划视频互操作性中的服务器 Skype 业务服务器](../../plan-your-deployment/video-interop-server.md)
   
-[创建和发布新拓扑中 Skype 的业务服务器 2015](../../deploy/install/create-and-publish-new-topology.md)
+[在 Skype for Business Server 2015 中创建和发布新拓扑](../../deploy/install/create-and-publish-new-topology.md)

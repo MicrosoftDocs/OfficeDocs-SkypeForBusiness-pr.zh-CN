@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
+ROBOTS: NOINDEX, NOFOLLOW
 description: 在编辑移动策略对话框中，您可以编辑移动策略的详细信息。
-ms.openlocfilehash: 6e7c8f1b043219fbc7cb098f15c006e907d1822d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 5f0a38dc4cd5a9d61412aeabbf333af587afae01
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969587"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987703"
 ---
 # <a name="edit-client-mobility-policy"></a>编辑客户端移动策略
  
@@ -26,7 +27,6 @@ ms.locfileid: "19969587"
 
 下表介绍了该页上的菜单、命令、字段和属性。
   
-### 
 
 - **提交**单击以保存对策略设置所做的更改。
     

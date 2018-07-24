@@ -11,17 +11,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
-description: Skype 业务服务器支持的组合语音消息传递和电子邮件到单个消息传递基础结构与 Exchange 统一消息 (UM) 集成。
-ms.openlocfilehash: 8cecd30382306aa3a57ae275ac57e4feb2a4a121
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+description: Skype 的业务服务器 2015年支持的组合语音消息传递和电子邮件到单个消息传递基础结构与 Exchange 统一消息 (UM) 集成。
+ms.openlocfilehash: ab1ee6c6ce811f728b05a04544611ffa638daf8e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19965855"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981387"
 ---
-# <a name="exchange-unified-messaging-planning-tool"></a>Exchange 统一消息 （规划工具）
+# <a name="exchange-unified-messaging-planning-tool-in-skype-for-business-2015"></a>Exchange 统一消息 （规划工具） 中的业务 2015 Skype
  
-Skype 业务服务器支持的组合语音消息传递和电子邮件到单个消息传递基础结构与 Exchange 统一消息 (UM) 集成。
+> [!NOTE]
+> Exchange 统一消息为以前已知不再可用在 Exchange 2019，但您可以仍使用电话系统中的记录的语音邮件，然后用户的 Exchange 邮箱中保留录制。 有关详细信息，请参阅[规划语音邮件云服务](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)。
+
+Skype 的业务服务器 2015年支持的组合语音消息传递和电子邮件到单个消息传递基础结构与 Exchange 统一消息 (UM) 集成。
   
 有关详细信息，请参阅：
   

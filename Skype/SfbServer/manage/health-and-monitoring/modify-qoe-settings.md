@@ -1,24 +1,24 @@
 ---
-title: 在 Skype for Business Server 2015 中修改用户体验质量设置
+title: 修改业务服务器 Skype 中的用户体验质量设置
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
-description: 摘要： 了解如何指定 QoE 数据保留在 Skype 业务服务器 2015年。
-ms.openlocfilehash: 99a85a389b225d57b48b52b3f6f1d5b66e93f122
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何为业务服务器中 Skype 指定 QoE 数据的保留。
+ms.openlocfilehash: a456a2528b78242849f651209e70c98046ebe0c3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012664"
 ---
-# <a name="modify-quality-of-experience-settings-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中修改用户体验质量设置
+# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>修改业务服务器 Skype 中的用户体验质量设置
  
-**摘要：**了解如何指定 QoE 数据保留在 Skype 业务服务器 2015年。
+**摘要：** 了解如何为业务服务器中 Skype 指定 QoE 数据的保留。
   
 默认情况下，用户体验质量 (QoE) 数据会在 60 天后清除。可以使用“**用户体验质量数据**”页上的设置将该数据保留更长或更短的时间。如果禁用 QoE，则在启用 QoE 之前捕获的数据也将清除。
   
@@ -27,11 +27,11 @@ ms.lasthandoff: 03/28/2018
   
 以下过程介绍如何配置 QoE 数据的清除设置。 
   
-### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>若要指定保留的 QoE 数据通过 Skype 业务服务器的控制面板
+### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 指定 QoE 数据的保留
 
-1.  作为 RTCUniversalServerAdmins 组的成员身份或 CsVoiceAdministrator、 CsServerAdministrator 或 CsAdministrator 角色的成员登录到该计算机。 有关详细信息，请参阅**代理安装程序权限**。
+1.  以 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator、 CsServerAdministrator 或 CsAdministrator 角色的成员身份登录到计算机。 有关详细信息，请参阅**Delegate Setup Permissions**。
     
-2. 打开浏览器窗口，然后输入管理员 URL 打开 Skype 业务服务器控件面板。  
+2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。  
     
 3. 在左侧导航栏中，单击“**监控和存档**”，然后单击“**用户体验质量数据**”。
     
@@ -43,9 +43,9 @@ ms.lasthandoff: 03/28/2018
     
 7. 单击“**提交**”。
     
-## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>通过使用 Windows PowerShell Cmdlet 指定 QoE 保留
+## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 指定 QoE 保留
 
-您可以通过使用 Windows PowerShell 和**一组 CsQoEConfiguration** cmdlet 创建 QoE 保留设置。 可以从 Skype 业务服务器管理外壳程序或从 Windows PowerShell 的远程会话来运行该 cmdlet。 有关使用远程 Windows PowerShell Skype 业务服务器的连接的详细信息，请参阅博客文章["快速启动:: 管理 Microsoft Lync 服务器 2010年使用远程 PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 该过程是相同的 Skype 业务服务器。
+您可以使用 Windows PowerShell 和**Set-csqoeconfiguration** cmdlet 创建 QoE 保留设置。 可以从 Skype 业务 Server 命令行管理程序或从 Windows PowerShell 远程会话来运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Skype 业务服务器的详细信息，请参阅博客文章["快速启动:: 管理 Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 过程是相同的 Skype 业务服务器。
   
 ### <a name="to-specify-qoe-retention-for-a-specific-location"></a>为特定位置指定 QoE 保留
 
@@ -63,11 +63,8 @@ ms.lasthandoff: 03/28/2018
   Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20 
   ```
 
-有关详细信息，请参阅[设置 CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息，请参阅[Set-csqoeconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps) cmdlet 的帮助主题。
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
-[部署监视](http://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
-
+[部署监控](http://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

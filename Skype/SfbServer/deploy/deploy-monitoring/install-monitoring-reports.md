@@ -1,49 +1,48 @@
 ---
-title: 在 Skype for Business Server 2015 中安装监视报告
+title: 为业务服务器在 Skype 安装监控报告
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/21/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
-description: 摘要： 了解如何安装将监控报告中生成 Skype 的业务服务器 2015年服务。
-ms.openlocfilehash: 239274c6692358c06863d2e074bda1daf9d6c6b3
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解如何安装将监控报告中生成 Skype 业务服务器服务。
+ms.openlocfilehash: 51d7e452be546c41daacbb0a0a77c142bace6e31
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569545"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016596"
 ---
-# <a name="install-monitoring-reports-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中安装监视报告
+# <a name="install-monitoring-reports-in-skype-for-business-server"></a>为业务服务器在 Skype 安装监控报告
  
-**摘要：** 了解如何安装将监控报告中生成 Skype 的业务服务器 2015年服务。
+**摘要：** 了解如何安装将监控报告中生成 Skype 业务服务器服务。
   
-Skype 业务服务器 2015年监控报告为您提供了大量有关组织中进行通信会话的数量和质量的信息。 
+Skype 业务服务器监控报告为您提供了大量有关组织中进行通信会话的数量和质量的信息。 
   
 ## <a name="install-monitoring-reports"></a>安装监控报告
 
-未为业务服务器 2015; 安装 Skype 时自动安装监控报告相反，您必须单独安装监控报告，并在计算机上安装了仅后的 Skype 业务服务器。
+未为业务服务器; 安装 Skype 时自动安装监控报告相反，您必须单独安装监控报告，并在计算机上安装了仅后的 Skype 业务服务器。
   
 > [!NOTE]
 > 建议您在安装监控数据库的同一台计算机上安装监控报告。这可简化分配用于访问报告的权限的过程：在承载监控存储的计算机上安装监控报告意味着，您无需配置允许一台计算机上的数据库与另一台计算机上正在运行的 Reporting Services 进行交互的权限。 
   
 Skype 业务服务器监控报告包括 30 报告旨在提供有关会议、 对等 IM 会话、 用户注册、 响应组应用程序，和更多详细的信息。 2013 版本中，业务服务器监控报告的 Skype 包括大量的增强功能：
   
-- **新增了语音质量报告**。 这些新报表包括[媒体质量比较报告中的业务服务器 2015 Skype](../../manage/health-and-monitoring/comparison.md)，它比较不同类型的呼叫 （例如，之间有线的呼叫和无线呼叫）; 之间的质量和加入会议的用户需要[会议加入时间报告中的业务服务器 2015 Skype](../../manage/health-and-monitoring/join-time-report.md)，它提供信息的时间量。 
+- **新增了语音质量报告**。 这些新报表包括[媒体质量比较报告中的业务服务器 Skype](../../manage/health-and-monitoring/comparison.md)，它比较不同类型的呼叫 （例如，之间有线的呼叫和无线呼叫）; 之间的质量和加入会议的用户需要[Skype 业务服务器中的会议加入时间报告](../../manage/health-and-monitoring/join-time-report.md)，它提供信息的时间量。 
     
-- **改进了用于分析视频和应用程序共享会话并对其进行故障排除的报告。** [Media Quality Summary Report 中的业务服务器 2015 Skype](../../manage/health-and-monitoring/summary.md)提供分析视频和应用程序共享呼叫时[服务器性能报告中的业务服务器 2015 Skype](../../manage/health-and-monitoring/server-performance.md)详细信息的服务器的性能的方式生成这些呼叫。 通过[对等会话详细信息报告中的业务服务器 2015 Skype](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md)和[会议详细信息报告中的业务服务器 2015 Skype](../../manage/health-and-monitoring/detail-report.md)现在还报告视频和应用程序共享指标。
+- **改进了用于分析视频和应用程序共享会话并对其进行故障排除的报告。** [Media Quality Summary Report 中的业务服务器 Skype](../../manage/health-and-monitoring/summary.md)提供分析视频和应用程序共享呼叫时[Skype 业务服务器中的服务器性能报告](../../manage/health-and-monitoring/server-performance.md)详细信息生成这些服务器的性能的方式呼叫。 通过[对等会话详细信息报告中的业务服务器 Skype](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md)和[会议详细信息报告中的业务服务器 Skype](../../manage/health-and-monitoring/detail-report.md)现在还报告视频和应用程序共享指标。
     
 - **改进了报告性能**。这包括更短的响应和数据检索时间，以及更快且更轻松的报告导航。
     
 监控报告文档中提供了有关各个报告的详细信息。
   
 > [!NOTE]
-> 没有另一报表-QoE 呼叫详细信息子报表-Skype 中包含的业务服务器 2015年。 但此报告主要供内部使用，且无法直接访问。 
+> 没有另一报表-QoE 呼叫详细信息子报表-Skype 中包含业务服务器。 但此报告主要供内部使用，且无法直接访问。 
   
-有两种方法安装业务服务器监控报告 Skype： 您可用于业务 Server 部署向导的 Skype 或者您可以使用 Windows PowerShell 脚本包含业务服务器 2015年安装文件的 Skype。 无论您使用哪种方法安装此报告，都必须先确保：
+有两种方法安装业务服务器监控报告 Skype： 您可用于业务 Server 部署向导的 Skype 或者您可以使用 Windows PowerShell 脚本包含业务服务器安装文件的 Skype。 无论您使用哪种方法安装此报告，都必须先确保：
   
 - 具有向监控数据库中的用户帐户添加数据库角色的权限。
     
@@ -73,7 +72,7 @@ C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.p
 
 上面的命令中使用的参数如下表所示：
   
-|**参数名**|**必填**|**说明**|
+|**参数名称**|**必需**|**说明**|
 |:-----|:-----|:-----|
 |storedUserName  <br/> |是  <br/> |用于访问监控存储的用户帐户（格式为 domain\username）；例如：  <br/> ```-storedUserName "litwareinc\kenmyer"```此帐户必须具有之前指定的 SQL Server 和 SQL Server Reporting Services 权限，否则脚本将失败。  <br/> |
 |storedPassword  <br/> |是  <br/> |用于访问监控存储的用户帐户的密码。  <br/> |
@@ -95,6 +94,6 @@ New-CsReportingConfiguration -Identity 'service:MonitoringDatabase:atl-sql-001.l
     
 3. 在“Reporting Services 配置管理器”中，单击“报告管理器 URL”。“报告管理器 URL”窗格中应显示一个或多个 URL。虽然可将其中的任一 URL 用作报告 URL，但再次建议 ReportingUrl 使用 HTTPS 协议。
     
-如果已为您的监控数据库设置镜像数据库，您也必须将监控报告与镜像数据库相关联。 请参阅文章[关联的镜像数据库中的业务服务器 2015 Skype 监控报告](monitoring-reports-with-a-mirror-database.md)的详细信息。
+如果已为您的监控数据库设置镜像数据库，您也必须将监控报告与镜像数据库相关联。 请参阅文章[关联的镜像数据库中的业务服务器 Skype 监控报告](monitoring-reports-with-a-mirror-database.md)的详细信息。
   
 

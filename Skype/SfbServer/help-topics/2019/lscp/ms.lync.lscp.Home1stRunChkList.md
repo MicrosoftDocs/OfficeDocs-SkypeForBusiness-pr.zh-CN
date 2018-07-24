@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
+ROBOTS: NOINDEX, NOFOLLOW
 description: 欢迎使用 Skype 业务 Server Control Panel，管理和 Skype 管理业务服务器的基于 web 的用户界面。 您可以使用控制面板执行以前版本中使用 Microsoft 管理控制台执行的各种管理任务。
-ms.openlocfilehash: 6dabfb48568d7b0eeff5148c4c35dc1a9ceec255
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+ms.openlocfilehash: 543edca48ad12c5047e2a68004aaa5a9ec7f5178
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088459"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968521"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Skype for Business Server 控制面板的首次运行检查表
  
@@ -38,6 +39,6 @@ ms.locfileid: "20088459"
 |如果已部署或要部署企业语音，请配置 SIP 中继连接以启用与公用电话交换网 (PSTN) 的连接。  <br/> |**语音路由** <br/> |[配置中继和转换规则](http://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx) <br/> |
 |如果已部署企业语音，请验证企业语音路由设置。  <br/> |**语音路由** <br/> |[测试语音路由](http://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx) <br/> |
 |如果已部署存档服务器，请验证存档策略和设置是否满足组织的合规性要求。  <br/> |**监控和存档** <br/> |[管理存档](http://technet.microsoft.com/library/48c6cc8c-c2c1-4534-9a8a-fd5eb738076a.aspx) <br/> |
-|如果已部署监控服务器，请查看监控服务器报告以查看使用情况和诊断信息。  <br/> |**主页** <br/> |[在 Skype for Business Server 2015 中管理运行状况和监视](../../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
+|如果已部署监控服务器，请查看监控服务器报告以查看使用情况和诊断信息。  <br/> |**主页** <br/> |[管理运行状况和监控 Skype 中的业务服务器](../../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
    
 

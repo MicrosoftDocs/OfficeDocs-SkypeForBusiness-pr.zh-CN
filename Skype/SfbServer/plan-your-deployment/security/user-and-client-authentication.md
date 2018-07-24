@@ -1,25 +1,24 @@
 ---
-title: Skype for Business Server 2015 的用户和客户端身份验证
+title: 用户和客户端身份验证的 Skype 业务服务器
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 7/14/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
-description: 受信任的用户是指其凭据已经过身份验证的 Skype 中的受信任服务器的业务服务器 2015年。 此服务器通常是 Standard Edition server，Enterprise Edition 前端服务器或控制器。 Skype 业务服务器依赖于 Active Directory 域服务的用户凭据的单一的受信任后端存储库。
-ms.openlocfilehash: 0cdf51da260c8251ca5abbb3ce0834e196a8d51b
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 受信任的用户是指其凭据已经过身份验证的 Skype 中的受信任服务器的企业服务器。 此服务器通常是 Standard Edition server，Enterprise Edition 前端服务器或控制器。 Skype 业务服务器依赖于 Active Directory 域服务的用户凭据的单一的受信任后端存储库。
+ms.openlocfilehash: c16e70641d2ce6e25b932904e9371f7ddf03bdd8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2018
-ms.locfileid: "19546521"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21010644"
 ---
-# <a name="user-and-client-authentication-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的用户和客户端身份验证
+# <a name="user-and-client-authentication-for-skype-for-business-server"></a>用户和客户端身份验证的 Skype 业务服务器
  
-受信任的用户是指其凭据已经过身份验证的 Skype 中的受信任服务器的业务服务器 2015年。 此服务器通常是 Standard Edition server，Enterprise Edition 前端服务器或控制器。 Skype 业务服务器依赖于 Active Directory 域服务的用户凭据的单一的受信任后端存储库。
+受信任的用户是指其凭据已经过身份验证的 Skype 中的受信任服务器的企业服务器。 此服务器通常是 Standard Edition server，Enterprise Edition 前端服务器或控制器。 Skype 业务服务器依赖于 Active Directory 域服务的用户凭据的单一的受信任后端存储库。
   
 身份验证是向受信任的服务器提供用户凭据的过程。 Skype 业务服务器使用以下身份验证协议，具体取决于状态和用户的位置。
   
@@ -28,11 +27,11 @@ ms.locfileid: "19546521"
 - **NTLM 协议**-用于具有 Active Directory 凭据且从企业防火墙外部的终结点进行连接的用户。 访问边缘服务将登录请求传递给 Director，如果存在此参数或前端服务器进行身份验证。 访问边缘服务本身不执行任何身份验证。
     
     > [!NOTE]
-    > 与 Kerberos 相比，NTLM 协议提供的攻击保护较弱，所以有些组织最大程度地减少了对 NTLM 的使用。 因此，访问 Skype 的业务服务器 2015年可能仅限于内部或客户端通过 VPN 或 DirectAccess 连接进行连接。 
+    > 与 Kerberos 相比，NTLM 协议提供的攻击保护较弱，所以有些组织最大程度地减少了对 NTLM 的使用。 因此，访问 Skype 的业务服务器可能仅限于内部或客户端通过 VPN 或 DirectAccess 连接进行连接。 
   
 - **摘要式协议** - 用于所谓的匿名用户。匿名用户是指满足以下条件的外部用户：这些用户虽然不具备认可的 Active Directory 凭据，但已被邀请参与内部会议并且拥有有效的会议密钥。摘要式身份验证不用于其他客户端交互。
     
-Skype 业务服务器 2015年身份验证包括两个阶段：
+Skype 业务服务器身份验证包括两个阶段：
   
 1. 在客户端和服务器之间建立安全关联。
     
@@ -44,7 +43,7 @@ Skype 业务服务器 2015年身份验证包括两个阶段：
   
 ICE 和 TURN 协议也使用摘要式质询，如 IETF TURN RFC 中所述。
   
-客户端证书提供用户进行身份验证的 Skype 的业务服务器 2015年另一种的方法。 用户无需提供用户名和密码，因为他们具有证书以及解析加密质询所需的与证书对应的私钥。 （此证书必须使用者名称或使用者替代名称的标识用户必须由受信任的服务器运行业务服务器 2015 Skype 根 CA 颁发、 位于内的证书有效期限和不具有已吊销。）要进行身份验证，用户只需键入个人标识号 (PIN)。 证书对电话、移动电话和其他难以输入用户名和密码的设备特别有用。
+客户端证书提供用户进行身份验证的 Skype 业务服务器另一种的方法。 用户无需提供用户名和密码，因为他们具有证书以及解析加密质询所需的与证书对应的私钥。 （此证书必须使用者名称或使用者替代名称的标识用户必须由业务服务器运行 Skype 服务器信任的根 CA 颁发、 位于内的证书有效期限和不具有已吊销。）要进行身份验证，用户只需键入个人标识号 (PIN)。 证书对电话、移动电话和其他难以输入用户名和密码的设备特别有用。
   
 ### <a name="cryptographic-requirements-due-to-asp-net-45"></a>由于 ASP.NET 4.5 加密要求 
 

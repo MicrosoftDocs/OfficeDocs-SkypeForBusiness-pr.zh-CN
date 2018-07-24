@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 中的会议摘要子报告
+title: 会议摘要子报表中的业务服务器 Skype
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
-description: 摘要： 了解业务服务器 2015年的 Skype 会议摘要子报表。
-ms.openlocfilehash: 39c71ebfa5798d861a9b8afd8865486dba033c1d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解有关会议摘要子报表中 Skype 业务服务器。
+ms.openlocfilehash: 1a35d772e368fe9755d0b7640d6a69f1ec46d4ff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997727"
 ---
-# <a name="conference-summary-subreport-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的会议摘要子报告
+# <a name="conference-summary-subreport-in-skype-for-business-server"></a>会议摘要子报表中的业务服务器 Skype
  
-**摘要：**了解业务服务器 2015 Skype 会议摘要子报表。
+**摘要：** 了解业务服务器 Skype 会议摘要子报表。
   
 会议摘要子报告提供了失败的会议会话的总体概述。这些失败的会话按以下会话类型进一步细分：焦点会话和 MCU 会话。
   
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/28/2018
 
 利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。下表列出了可用于会议摘要子报告的筛选器。
   
-**会议摘要子报表筛选器**
+**会议摘要子报告筛选器**
 
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**说明**|
 |:-----|:-----|
@@ -38,9 +38,9 @@ ms.lasthandoff: 03/28/2018
 
 下表列出了会议摘要子报告中提供的信息。
   
-**会议摘要子报表指标**
+**会议摘要子报告指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**可以在此项上进行排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**会议总数** <br/> |否  <br/> |举行的会议总数。  <br/> |
 |**会议会话总数** <br/> |否  <br/> |会议会话总数。单个会议可以具有多个会话；例如，会议可能同时包括焦点会话和 MCU 会话。  <br/> |

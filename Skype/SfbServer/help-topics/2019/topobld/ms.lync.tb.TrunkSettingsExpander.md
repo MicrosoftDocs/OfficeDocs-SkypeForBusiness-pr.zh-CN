@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 若要编辑或修改 SIP 中继的设置，请执行下列操作：
-ms.openlocfilehash: cfb8626d0aa7933444269c93ab69992c6a43185a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 4f8f6e2f0851b00f9e7702391ce051a42dd686c3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19989865"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985831"
 ---
 # <a name="trunk-settings-expander"></a>中继设置扩展器
  
@@ -33,7 +33,7 @@ ms.locfileid: "19989865"
  **关联的中介服务器**： 从部署 SIP 中继相关联选择现有的中介服务器。
   
 > [!NOTE]
-> 只能将根 trunk 可与 Lync Server 2010 或 Lync Server 2013 中介服务器相关联。 
+> 只能将根 trunk 可与中介服务器相关联。 
   
  **关联的中介服务器端口**： 必需的值，这设置为值中介服务器配置为侦听。
   

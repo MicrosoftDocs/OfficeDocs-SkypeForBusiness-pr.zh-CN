@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
+ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: ca43cd417a4a3a996c65ea06bab7254c080a4948
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 489a8a2db9edf08ab2ab7e6923aab16f9818039e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19978236"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998797"
 ---
 # <a name="file-filter-create-new-or-edit-existing"></a>文件筛选器： 创建新的或编辑现有的
  
@@ -26,5 +27,5 @@ ms.locfileid: "19978236"
     
 - [为特定站点创建新的文件传输筛选器](http://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
     
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[业务服务器管理 Skype](../../../manage/manage.md)。
+ 
 

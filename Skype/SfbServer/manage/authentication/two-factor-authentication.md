@@ -1,32 +1,31 @@
 ---
-title: 管理 Skype for Business Server 2015 中的双重身份验证
+title: 管理 Skype 中的业务服务器的双重身份验证
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
-description: 摘要： 管理 Skype 中的业务服务器 2015年的双重身份验证。
-ms.openlocfilehash: c72e998b7e12993f328aa4e331c67d5b660e94aa
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 摘要： 管理 Skype 中的业务服务器的双重身份验证。
+ms.openlocfilehash: f6ea9eb228a0c36df3c1ab9318f766a68a370cad
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504514"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002855"
 ---
-# <a name="manage-two-factor-authentication-in-skype-for-business-server-2015"></a>管理 Skype for Business Server 2015 中的双重身份验证
+# <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>管理 Skype 中的业务服务器的双重身份验证
  
-**摘要：** 管理 Skype 中的业务服务器 2015年的双重身份验证。
+**摘要：** 管理业务服务器中 Skype 双重身份验证。
   
 双重身份验证要求用户提供两种形式的身份验证或身份识别，即用户名/密码组合以及令牌或证书，从而提供了更高的安全性。 这是也称为"的内容，您知道。" 
   
 使用证书进行双重身份验证的一个典型示例是使用智能卡。智能卡包含与用户帐户相关联的证书，可对照服务器上存储的用户和证书信息进行验证。通过将用户信息（用户名和密码）与提供的证书进行比较，服务器将验证凭据并验证用户身份。
   
-配置业务服务器 2015年环境 Skype 以支持双重身份验证时，请考虑以下主题。
+配置业务服务器环境的 Skype 以支持双重身份验证时，请考虑以下主题。
   
 ## <a name="client-support"></a>客户端支持
 
@@ -34,9 +33,9 @@ Lync Server 2013 累积更新： 2013 年 7 月桌面客户端和业务客户端
   
 ## <a name="topology-requirements"></a>拓扑要求
 
-强烈建议，部署使用专用的 Skype 的业务服务器 2015年边缘、 控制器和用户池的双重身份验证的客户。 要为用户启用被动身份验证，必须为其他角色和服务禁用其他身份验证方法，包括以下各项：
+强烈建议，部署使用专用的 Skype 业务服务器边缘、 控制器和用户池的双重身份验证的客户。 要为用户启用被动身份验证，必须为其他角色和服务禁用其他身份验证方法，包括以下各项：
   
-|**配置类型**|**服务类型**|**服务器角色**|**禁用身份验证类型**|
+|**配置类型**|**服务类型**|**服务器角色**|**要禁用的身份验证类型**|
 |:-----|:-----|:-----|:-----|
 |Web 服务  <br/> |Web 服务器  <br/> |控制器  <br/> |Kerberos、NTLM 和证书  <br/> |
 |Web 服务  <br/> |Web 服务器  <br/> |前端  <br/> |Kerberos、NTLM 和证书  <br/> |
@@ -57,7 +56,7 @@ Lync Server 2013 累积更新： 2013 年 7 月桌面客户端和业务客户端
 
 Skype 的业务用户的配置，以便利用统一联系人存储功能会发现的联系人不再可用后登录时双重身份验证。
   
-应使用**Invoke-csucsrollback** cmdlet 从统一联系人存储库中删除现有的用户联系人并将其存储在 Skype 的业务服务器 2015年启用双重身份验证之前。
+应使用**Invoke-csucsrollback** cmdlet 从统一联系人存储库中删除现有的用户联系人并将其存储在 Skype 业务服务器启用双重身份验证之前。
   
 ## <a name="skill-search"></a>技能搜索
 
@@ -73,7 +72,7 @@ Skype 的业务用户的配置，以便利用统一联系人存储功能会发�
   
 ### <a name="disablentcredentials"></a>DisableNTCredentials
 
-采用 Kerberos 或 NTLM 身份验证方法时，身份验证可以自动使用用户的 Windows 凭据。 在启用了 Kerberos 和/或 NTLM 是身份验证的业务服务器 2015年部署典型 Skype，用户不必输入其凭据登录每次。
+采用 Kerberos 或 NTLM 身份验证方法时，身份验证可以自动使用用户的 Windows 凭据。 在启用了 Kerberos 和/或 NTLM 是身份验证的企业服务器部署典型 Skype，用户不必输入其凭据登录每次。
   
 如果在提示用户输入其 PIN 之前无意中提示用户输入凭据，则可能通过组策略在客户端计算机上无意中配置了 **DisableNTCredentials** 注册表项。
   
@@ -109,6 +108,5 @@ AD FS 2.0 提供了一项功能称为“令牌重播检测”，借助该功能�
   
 ## <a name="see-also"></a>另请参阅
 
-[在 Skype for Business Server 2015 配置双重身份验证](configure.md)
+[在 Skype for Business Server 中配置双重身份验证](configure.md)
   
-[在 Skype for Business Server 2015 配置双重身份验证](configure.md)

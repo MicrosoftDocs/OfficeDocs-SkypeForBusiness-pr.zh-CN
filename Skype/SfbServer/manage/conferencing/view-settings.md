@@ -1,25 +1,24 @@
 ---
-title: 在 Skype for Business Server 2015 中查看会议配置设置
+title: 查看会议中 Skype 业务服务器的配置设置
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
-description: 摘要： 了解如何查看会议配置设置中 Skype 业务服务器 2015年。
-ms.openlocfilehash: 1af530732df37ed78e47ee5b5d5914c00fbbd4bf
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解如何查看会议中 Skype 业务服务器的配置设置。
+ms.openlocfilehash: 44154b9cdba4743eed9c2a4153545651657d4e72
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568722"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988823"
 ---
-# <a name="view-meeting-configuration-settings-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中查看会议配置设置
+# <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>查看会议中 Skype 业务服务器的配置设置
  
-**摘要：** 了解如何查看会议配置设置中 Skype 业务服务器 2015年。
+**摘要：** 了解如何查看会议中 Skype 业务服务器的配置设置。
   
 您可以查看会议配置设置，使用的业务 Server Control Panel Skype 或使用 Skype 业务 Server Management Shell。
   
@@ -38,7 +37,7 @@ ms.locfileid: "19568722"
     
     **编辑会议配置-\<策略\>** 打开显示所选策略的设置。
     
-    有关配置设置的详细信息，请参阅[创建会议中的业务服务器 2015 Skype 的配置设置](create-settings.md)。
+    有关配置设置的详细信息，请参阅[创建会议配置设置中的业务服务器 Skype](create-settings.md)。
     
 ## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>查看会议配置设置，使用 Skype 业务 Server 命令行管理程序
 <a name="BKMK_ViewJoinSettings"> </a>

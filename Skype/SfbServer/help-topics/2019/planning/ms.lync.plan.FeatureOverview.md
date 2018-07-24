@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Skype 业务 server 规划工具
-ms.openlocfilehash: a5c482dadf2ffd39e8927e1924e50117dd13e1c8
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: ea3c9375a1a28f5c36ad464fa7c71338383fe7bc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974027"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983117"
 ---
 # <a name="feature-overview-planning-tool"></a>功能概述 （规划工具）
  
@@ -60,6 +60,9 @@ Skype 业务 server 规划工具
 - **持久聊天**
     
     通过持久聊天，多个用户可以参与可在其中发布和访问有关特定主题的内容（包括文本、链接和文件）的对话。尽管在会话过程中用户可以实时通信，但每个会话的内容都是持久存在的，这意味着在会话结束后，内容仍然可用。
+
+    > [!NOTE] 
+    > 持久聊天中的业务服务器 2015 Skype 可用但业务服务器 2019年不再支持在 Skype。 中团队提供了相同的功能。 有关详细信息，请参阅[为 Microsoft 团队业务的 Skype 升级](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams)。 如果您需要使用持久聊天，请选择要迁移要求向工作组此功能的用户或继续对业务服务器 2015年使用 Skype。
     
 ### <a name="users"></a>用户
 
@@ -75,7 +78,7 @@ Skype 业务 server 规划工具
     
 - **与基于 XMPP 的服务提供商的联盟**
     
-    Skype 业务服务器引入了 （部署边缘服务器上） 的完全集成的 XMPP 代理和 XMPP 网关部署在前端服务器上。 您可以部署添加和配置 XMPP 代理和 XMPP 网关将允许您 Skype 业务 Server 用户将联系人从基于 XMPP 的合作伙伴的即时消息 (IM) 和状态。
+    Skype 的业务服务器 2015年引入 （部署边缘服务器上） 的完全集成的 XMPP 代理和 XMPP 网关部署在前端服务器上。 您可以部署添加和配置 XMPP 代理和 XMPP 网关将允许您 Skype 业务 Server 用户将联系人从基于 XMPP 的合作伙伴的即时消息 (IM) 和状态。
     
 - **移动性**
     
@@ -84,6 +87,9 @@ Skype 业务 server 规划工具
 - **W15 Exchange 邮箱**
     
     Skype 业务服务器，您可以存储在 Exchange 统一消息 (UM); 中的语音邮件然后，这些语音邮件消息将显示为用户的收件箱中的电子邮件。
+
+    > [!NOTE]
+    > Exchange 统一消息为以前已知不再可用在 Exchange 2019，但您可以仍使用电话系统中的记录的语音邮件，然后用户的 Exchange 邮箱中保留录制。 有关详细信息，请参阅[规划语音邮件云服务](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)。
     
 ### <a name="voice"></a>语音
 
@@ -95,7 +101,10 @@ Skype 业务 server 规划工具
     
 - **Exchange 统一消息**
     
-    Exchange 统一消息 (UM) 合并语音邮件和电子邮件到单个消息传递基础结构。 Skype 业务 server 使用 Exchange UM 来提供呼叫应答、 订阅者访问、 呼叫通知和自动助理服务。 如果您使用这些服务，您需要将 Exchange UM 和 Skype 为共享的 Active Directory 拓扑中的业务 Server 相集成。
+    Exchange 统一消息 (UM) 合并语音邮件和电子邮件到单个消息传递基础结构。 Skype 的业务服务器 2015年使用 Exchange UM 来提供呼叫应答、 订阅者访问、 呼叫通知和自动助理服务。 如果您使用这些服务，您需要将 Exchange UM 和 Skype 为共享的 Active Directory 拓扑中的业务 Server 相集成。
+
+    > [!NOTE]
+    > Exchange 统一消息为以前已知不再可用在 Exchange 2019，但您可以仍使用电话系统中的记录的语音邮件，然后用户的 Exchange 邮箱中保留录制。 有关详细信息，请参阅[规划语音邮件云服务](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)。
     
 ### <a name="additional-deployment-options"></a>其他部署选项
 

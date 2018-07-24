@@ -1,9 +1,9 @@
 ---
-title: 证书申请 （组织信息）
+title: 证书请求 （组织信息）
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,18 +11,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
-description: 组织信息窗格使您可以指定您的组织和组织单位 (OU) （通常的分部或部门） 请求证书的名称。 组织和组织单位文本框中键入的信息将出现在该证书上，用于标识谁提出证书申请的当其他人查看证书。
-ms.openlocfilehash: e6e731ff20db223917cbb324c2f29ad51367a876
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 组织信息窗格中，可以指定您的组织和组织单位 (OU) （通常分部或部门） 的请求证书的名称。 在组织和组织单位文本框中键入信息出现在证书，并用于标识用户申请证书，证书查看其他人时。
+ms.openlocfilehash: 549f95cf8bf4f80feff83bc9e6d82baa0eb99b82
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003108"
 ---
-# <a name="certificate-request-organization-information"></a>证书申请 （组织信息）
+# <a name="certificate-request-organization-information"></a>证书请求 （组织信息）
  
-**组织信息**窗格使您可以指定您的组织和组织单位 (OU) （通常的分部或部门） 请求证书的名称。 **组织**和**组织单位**文本框中键入的信息将出现在该证书上，用于标识请求证书，证书由其他人查看时。
+**组织信息**窗格中，可以指定您的组织和组织单位 (OU) （通常分部或部门） 的请求证书的名称。 在**组织**和**组织单位**文本框中键入信息出现在证书并用于标识由请求证书，证书查看其他人时。
   
 > [!NOTE]
-> 证书上的 OU 名称不一定是一个 OU，用 Active Directory 域服务相同。 这取决于您如何配置 Active Directory，您使用的名称可能会也可能不相同。 
+> 证书上的 OU 名称不一定与 Active Directory 域服务中的 OU 相同。 根据您已配置 Active Directory 方式，您使用的名称可能也可能不能相同。 
   
 

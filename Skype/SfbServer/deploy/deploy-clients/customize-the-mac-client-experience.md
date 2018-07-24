@@ -3,18 +3,18 @@ title: 在 Skype for Business 中自定义 Mac 客户端体验
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: 本文介绍 Mac 客户端上对 Skype for Business 可用的客户端首选项和默认值，以及如何在应用外部对其进行编辑。
-ms.openlocfilehash: 8c779ad35d82b42bc8e162599265f6a25f7a65c3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 37ea82cc87e58303ab412c7adbd427dd11c74f89
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014638"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>在 Skype for Business 中自定义 Mac 客户端体验
  
@@ -22,18 +22,18 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="skype-for-business-on-mac-client-preference-settings"></a>Mac 客户端上的 Skype for Business 首选项设置
 
-某些功能和可供业务的 Skype Mac 客户端的行为由在客户端的首选项设置确定。 业务对 Mac 首选项为 Skype 在 Mac 安装 Skype 业务客户端位于以下路径上的文件中找到： 
+某些功能和供 Mac 客户端的业务的 Skype 的行为由客户端上的首选项设置确定。 在 Mac 首选项的业务 Skype 找到文件位于安装业务客户端位于以下路径的 Skype 的 Mac 中： 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
-要设置这些首选项，请转到客户端的 Mac 上的终端提示符并作为需要输入默认值写入 com.microsoft.SkypeForBusiness 键命令使用下表中描述的首项。
+若要设置这些首选项，获取客户端的 Mac 上的终端提示符下，并作为需要输入默认值写入 com.microsoft.SkypeForBusiness 关键命令使用下表中所述的首选项键。
   
-**客户端首选项键**
+**客户端首选项关键字**
 
 
-|**密钥**|**类型**|**值**|**说明**|
+|**关键字**|**类型**|**值**|**说明**|
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDicoveryURLs  <br/> |Bool  <br/> |0 = 手动配置服务器  <br/> 1 = 自动检测服务器（默认）  <br/> |指定传输和服务器以在登录过程中使用 Skype 业务标识的方式。 如果启用此策略设置，则必须指定 **internalAutoDiscoveryURL** 和 **externalAutoDiscoveryURL**。 <br/> |
+|AutoDetectAutoDicoveryURLs  <br/> |Bool  <br/> |0 = 手动配置服务器  <br/> 1 = 自动检测服务器（默认）  <br/> |指定 for Business 的 Skype 识别传输类型和服务器登录过程中使用的方式。 如果启用此策略设置，则必须指定 **internalAutoDiscoveryURL** 和 **externalAutoDiscoveryURL**。 <br/> |
 |internalAutoDiscoveryURL  <br/> |字符串  <br/> |完全自动发现 URL  <br/> |内部自动发现 URL  <br/> |
 |externalAutoDiscoveryURL  <br/> |字符串  <br/> |完全自动发现 URL  <br/> |外部自动发现 URL  <br/> |
 |httpProxyDomain  <br/> |字符串  <br/> ||HTTP 代理域  <br/> |
@@ -42,21 +42,20 @@ ms.lasthandoff: 03/28/2018
 |trustedDomainList  <br/> |数组  <br/> ||HTTP 重定向的受信任域列表。  <br/> |
 |autoAcceptTimeout  <br/> |数字  <br/> |300（默认值）  <br/> |无服务器端对话历史记录时，用户的自动接受超时时间。  <br/> |
 |warnWhenUnknownLocationForE911  <br/> |Bool  <br/> |0 = 已禁用  <br/> 1 = 已启用  <br/> |从未知位置拨打紧急号码时警告用户。  <br/> |
-|sipAddress  <br/> |字符串  <br/> ||SIP 地址 （电子邮件） 用来登录到 Skype 的业务。  <br/> |
-|用户名  <br/> |字符串  <br/> ||用来登录到业务的 Skype UPN （用户名）。  <br/> |
-|userNameInAdvancedOnly  <br/> |Bool  <br/> |0 = 主登录屏幕上，并在高级属性对话框中显示的用户名字段  <br/> 1 = 仅在 （默认值） 的高级属性对话框中显示用户名称字段  <br/> |指定在登录期间显示用户名字段中的位置。  <br/> |
+|sipAddress  <br/> |字符串  <br/> ||SIP 地址 （电子邮件） 用于登录到 for Business 的 Skype。  <br/> |
+|用户名  <br/> |字符串  <br/> ||用来登录到 for Business 的 Skype UPN （用户名）。  <br/> |
+|userNameInAdvancedOnly  <br/> |Bool  <br/> |0 = 主要的登录屏幕上和高级属性对话框中显示用户名称字段  <br/> 1 = 只在高级属性对话框 （默认值） 显示用户名称字段  <br/> |指定用户名字段登录过程中的显示位置。  <br/> |
    
 ### <a name="usage-examples"></a>使用示例
 
-要添加到受信任的域列表中的单个域 (Contoso.com) 可使用 trustedDomainList 键，如下所示：
+若要向受信任的域列表添加单个域 (Contoso.com) 需要使用 trustedDomainList 键，如下所示：
   
-默认值写入 com.microsoft.SkypeForBusiness trustedDomainList-阵列-添加"Contoso.com"
+默认值写入 com.microsoft.SkypeForBusiness trustedDomainList-数组-添加"Contoso.com"
   
 要将多个域添加到受信任域列表，按如下所示使用 trustedDomainList 关键字：
   
-默认值写入 com.microsoft.SkypeForBusiness trustedDomainList-阵列-添加"sfb.com""abc.com""test.org"
+默认值写入 com.microsoft.SkypeForBusiness trustedDomainList-数组-添加"sfb.com""abc.com""test.org"
   
-[Apple 的引用库](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/defaults.1.mdl)中找不到的默认值命令的使用指南。 尽管此页面比较旧且不再维护，但有关默认命令的信息未发生变化，仍然适用。
   
 ### <a name="sample-unedited-settings"></a>未编辑的设置示例
 

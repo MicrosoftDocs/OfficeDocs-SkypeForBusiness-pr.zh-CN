@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
+ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 37e7539262df878cce845e449c6ef5a16170efb6
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 312ca3802aba6624454047cf1de0256d07e2a6f0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973344"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005387"
 ---
 # <a name="access-edge-configuration-edit"></a>访问边缘配置：编辑
  

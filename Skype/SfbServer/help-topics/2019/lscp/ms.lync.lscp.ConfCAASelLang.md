@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
+ROBOTS: NOINDEX, NOFOLLOW
 description: 选择要用于电话拨入式会议访问号码的语言。 有关详细信息，请参阅创建或修改电话拨入式会议访问号码。
-ms.openlocfilehash: d40f15c24d54a3d3987ab9fd7054761cc0c9fd18
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: ba9b33e54c3534ffe8b5c95a15f80e686f5b76ca
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976112"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973696"
 ---
 # <a name="select-languages"></a>选择语言
  

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 若要编辑现有控制器的设置，可参考以下各节内容：
-ms.openlocfilehash: 47eddf9761c9751960f887c173521587c4e6c54a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: fb42d87140b3a4db2cef0bb70a976d1b9242bbf8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19971339"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003411"
 ---
 # <a name="director-general-settings-expander"></a>控制器常规设置扩展器
  
@@ -26,9 +26,8 @@ ms.locfileid: "19971339"
     
 - Web 服务
     
-## 
 
-### <a name="general-settings"></a>常规设置
+## <a name="general-settings"></a>常规设置
 
 控制器池的完全限定名称 (FQDN)。 编辑服务器的 FQDN 以更改该值。 必须具有与新值一致的域名系统 (DNS) 主机 (A) 记录。
   
@@ -41,7 +40,7 @@ ms.locfileid: "19971339"
 > [!IMPORTANT]
 > 发布新定义的拓扑之前，所指定的服务器必须存在并已加入到域。 如果您创建新的文件共享，则必须在您指定的服务器上创建的文件共享。 
   
-### <a name="web-services"></a>Web 服务
+## <a name="web-services"></a>Web 服务
 
 若要编辑或指定其他设置的 Web 服务上的控制器池，您修改或指定设置中的内部 Web 服务和外部 Web 服务。
   
@@ -50,7 +49,7 @@ ms.locfileid: "19971339"
 > [!CAUTION]
 > 如果您有多个前端池或前端服务器的外部 Web 服务 FQDN 必须是唯一的。 例如，如果您定义的外部 Web 服务的前端服务器的 FQDN 为**pool01.contoso.com**，不能使用**pool01.contoso.com** ，另一个前端池或前端服务器。 如果还要部署控制器、 外部 Web 服务 FQDN 定义任何控制器或控制器池必须不同于任何其他控制器池以及任何前端池或前端服务器。 如果您决定覆盖内部 web 服务与自定义的 FQDN，每个 FQDN 必须是唯一从任何其他前端池、 控制器或控制器池。
   
-如果选择覆盖 FQDN，您可以在池上指定不同 FQDN 的内部 Web 服务标识。 默认情况下设置是当前的池名称，因为定义控制器池。
+如果选择“覆盖 FQDN”，则可以为池上的“内部 Web 服务”标识指定不同的 FQDN。 默认情况下设置是当前的池名称，因为定义控制器池。
   
 您可以指定 HTTP 和 HTTPS 部署所需侦听和已发布端口。 和默认设置的端口 80 HTTP 端口 443 用于 HTTPS 是最常用的设置，通常不需要被更改，除非您有您的组织和基础设施设计中的特定要求。
   

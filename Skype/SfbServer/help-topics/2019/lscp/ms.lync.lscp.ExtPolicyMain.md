@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 336ef724-ab2f-4215-b689-60248a90917f
+ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: cdc11eb722b93916fe5ce63ee10d293f08262633
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: b619699d88faac7f0343bc088d279c8032206f80
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964054"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012671"
 ---
 # <a name="external-access-policy"></a>外部访问策略
  

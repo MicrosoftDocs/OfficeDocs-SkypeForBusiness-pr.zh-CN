@@ -1,32 +1,32 @@
 ---
-title: 在 Skype for Business Server 2015 中创建会议策略
+title: 为 Business Server Skype 创建会议策略
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: 摘要： 了解如何创建在 Skype 业务服务器 2015年会议策略。
-ms.openlocfilehash: 301474d57998d5c9a794a978c4ec8877b1e53bc7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何为业务服务器 Skype 创建会议策略。
+ms.openlocfilehash: 3c71962e42e083ada13b14bdecbefafbbc44f72b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996599"
 ---
-# <a name="create-conferencing-policies-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建会议策略
+# <a name="create-conferencing-policies-in-skype-for-business-server"></a>为 Business Server Skype 创建会议策略
  
-**摘要：**了解如何创建在 Skype 业务服务器 2015年会议策略。
+**摘要：** 了解如何为业务服务器 Skype 创建会议策略。
   
-可以通过 Skype 业务服务器控件面板或通过 Skype 业务服务器管理外壳程序创建会议策略。
+使用适用于业务 Server Control Panel Skype 或使用 Skype 业务 Server 命令行管理程序，您可以创建会议策略。
   
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>通过 Skype 业务服务器控件面板中创建会议策略
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 创建会议策略
 
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2.  打开 Skype 业务服务器的控制面板。
+2.  打开 Skype 业务 Server Control Panel。
     
 3. 在左侧导航栏中，单击“**会议**”，然后单击“**会议策略**”。
     
@@ -43,7 +43,7 @@ ms.lasthandoff: 03/28/2018
     
 6. 在“**组织者策略**”下的“**最大会议大小**”中，键入允许参加一次会议的最大用户数。默认情况下，最大会议大小为 250。
     
-7. 若要阻止用户邀请匿名用户参加会议，请清除“**允许参与者邀请匿名用户**”复选框。 匿名用户将因此没有在您的组织的 Active Directory 域服务和人员、 凭据、 未经过身份验证的用户。 默认情况下，用户可以邀请匿名用户参加会议。
+7. 若要阻止用户邀请匿名用户参加会议，请清除“**允许参与者邀请匿名用户**”复选框。 匿名用户是用户不具有凭据在贵组织的 Active Directory 域服务和用户，因此，不进行身份验证。 默认情况下，用户可以邀请匿名用户参加会议。
     
 8. 在“**录制**”中，执行下列操作之一：
     
@@ -113,16 +113,16 @@ ms.lasthandoff: 03/28/2018
     
 21. 单击“**提交**”。
     
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>通过 Skype 业务服务器管理外壳程序创建会议策略
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用 Skype 业务 Server 命令行管理程序创建会议策略
 
 若要创建新的会议策略，请使用 **New-CsConferencingPolicy** cmdlet。
   
-下面的示例创建具有标识 SalesConferencingPolicy 新会议策略。 该策略将全部使用会议策略的默认值，以下值除外：MaxMeetingSize。 在此示例中，会议的最大大小将设置为 50，而不是默认值 250：
+下面的示例使用 Identity SalesConferencingPolicy 创建新的会议策略。 该策略将全部使用会议策略的默认值，以下值除外：MaxMeetingSize。 在此示例中，会议的最大大小将设置为 50，而不是默认值 250：
   
 ```
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-包括完整的语法描述和参数的列表的详细信息，请参阅[新建 CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps)。
+有关详细信息，包括完整语法说明和参数的列表，，请参阅[New-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps)。
   
 

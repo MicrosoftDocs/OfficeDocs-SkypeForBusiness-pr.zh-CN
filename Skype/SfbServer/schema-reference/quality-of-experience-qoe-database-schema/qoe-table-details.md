@@ -3,22 +3,23 @@ title: QoE 表详细信息
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-description: 以下各节详细说明了每个体验质量 (QoE) 数据库架构表中的列。
-ms.openlocfilehash: 692a453519d4e74c773e1c2e90f0c94c15998f66
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 以下各节详细介绍每个用户体验质量 (QoE) 数据库架构表中的列。
+ms.openlocfilehash: eaf942c7eedbd8ab515ceb402435439f500dd7b4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016542"
 ---
 # <a name="qoe-table-details"></a>QoE 表详细信息
  
-以下各节详细说明了每个体验质量 (QoE) 数据库架构表中的列。
+以下各节详细介绍每个用户体验质量 (QoE) 数据库架构表中的列。
   
 - [AppliedBandwidthSource 表](appliedbandwidthsource.md)
     
@@ -34,19 +35,19 @@ ms.lasthandoff: 03/28/2018
     
 - [CodecDescription 表](codecdescription.md)
     
-- [会议桌](conference.md)
+- [Conference 表](conference.md)
     
-- [设备表](device.md)
+- [Device 表](device.md)
     
 - [DeviceDriver 表](devicedriver.md)
     
-- [对话框表](dialog.md)
+- [Dialog 表](dialog.md)
     
-- [终结点表](endpoint.md)
+- [Endpoint 表](endpoint.md)
     
 - [EndpointSubnet 表](endpointsubnet.md)
     
-- [Ip 地址表](ipaddress.md)
+- [IPAddress 表](ipaddress.md)
     
 - [MacAddress 表](macaddress.md)
     
@@ -60,25 +61,25 @@ ms.lasthandoff: 03/28/2018
     
 - [PayloadDescription 表](payloaddescription.md)
     
-- [池表](pool.md)
+- [Pool 表](pool.md)
     
 - [PurgeSettings 表 (QoE)](purgesettings-qoe.md)
     
-- [区域表](region.md)
+- [Region 表](region.md)
     
-- [服务器表](server.md)
+- [Server 表](server.md)
     
-- [会话列表](session.md)
+- [Session 表](session.md)
     
 - [SessionCorrelation 表](sessioncorrelation.md)
     
-- [子网表](subnet.md)
+- [Subnet 表](subnet.md)
     
-- [路由追踪表](traceroute.md)
+- [TraceRoute 表](traceroute.md)
     
-- [用户表](user-0.md)
+- [User 表](user-0.md)
     
-- [用户代理表](useragent.md)
+- [UserAgent 表](useragent.md)
     
 - [UserAgentDef 表 (QoE)](useragentdef-qoe.md)
     

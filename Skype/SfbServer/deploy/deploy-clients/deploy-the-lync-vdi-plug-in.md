@@ -1,23 +1,22 @@
 ---
-title: 在 Skype for Business Server 2015 中部署 Lync VDI 插件
+title: 部署 Lync VDI 插件与 Skype 业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: 本主题讨论 for Business 连接到远程虚拟桌面时使用 Skype 的部署过程。
-ms.openlocfilehash: 4e4193998a9374c1aa0160999ad53a9ec3d8aab7
-ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
+ms.openlocfilehash: d939d2b269d6488de1df09e3f8aff08e2b83458e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19927850"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986101"
 ---
-# <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中部署 Lync VDI 插件
+# <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>部署 Lync VDI 插件与 Skype 业务服务器
  
 本主题讨论 for Business 连接到远程虚拟桌面时使用 Skype 的部署过程。 [规划在 VDI 环境中的业务的 Skype](../../plan-your-deployment/clients-and-devices/vdi-environments.md)位于规划注意事项。
   
@@ -25,14 +24,14 @@ ms.locfileid: "19927850"
   
 有两个解决方案一个提供 Microsoft 和 Citrix 提供一个可用于 VDI 插件组件-。 Microsoft 建议在新部署中使用新的 HDX 实时 Optimization Pack 解决方案，但将继续支持生命周期的其余部分的原始 Lync VDI 插件。 
   
-本主题提供有关部署 Microsoft Lync VDI 插件，它在 Windows 7 和 Windows 8 或 Windows Server 2008，才支持并仅支持业务 2015年客户端的 Lync 2013 或 Skype 的详细信息。 没有计划更新此插件，但根据需要将会更新 for Business 的 Skype [Citrix HDX 实时 Optimization Pack](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT) 。
+本主题提供有关部署 Microsoft Lync VDI 插件，它在 Windows 7 和 Windows 8 或 Windows Server 2008，才支持并仅支持业务客户端的 Lync 2013 或 Skype 的详细信息。 没有计划更新此插件，但根据需要将会更新 for Business 的 Skype [Citrix HDX 实时 Optimization Pack](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT) 。
   
 ## <a name="prepare-your-environment-for-the-lync-vdi-plug-in"></a>针对 Lync VDI 插件准备你的环境
 <a name="Prepare_vdi"> </a>
 
-1. 中的业务服务器 2015 Skype，确保针对所有 Lync VDI 插件用户将 EnableMediaRedirection 设置为 TRUE。 有关详细信息，请参阅[New-csclientpolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps) cmdlet 和[Set-csclientpolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps) cmdlet 的帮助主题。
+1. 中的 Business Server Skype，确保针对所有 Lync VDI 插件用户将 EnableMediaRedirection 设置为 TRUE。 有关详细信息，请参阅[New-csclientpolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps) cmdlet 和[Set-csclientpolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps) cmdlet 的帮助主题。
     
-2. 在数据中心服务器上，安装在所有虚拟机上的业务 2015年客户端 Skype。
+2. 在数据中心服务器上，安装在所有虚拟机上的业务客户端 Skype。
     
 3. 在本地计算机上安装 Lync VDI 插件。
     
@@ -64,15 +63,13 @@ ms.locfileid: "19927850"
 ## <a name="sign-in-and-use-skype-for-business-on-the-virtual-desktop"></a>登录到和使用虚拟桌面上的 Skype for Business
 <a name="SfB_signin"> </a>
 
-启用 Lync VDI 插件后，用户在虚拟桌面上登录到业务 2015年的 Skype 时遵循这些步骤。
+启用 Lync VDI 插件后，用户在虚拟桌面上登录到 for Business 的 Skype 时遵循这些步骤。
   
-1. 在用户键入他/她凭据在虚拟机上运行的业务 2015年客户端 Skype。
+1. 在用户键入他/她凭据在虚拟机上运行的业务客户端 Skype。
     
-2. Skype 的业务 2015年检测 Lync VDI 插件之后，业务 2015年的 Skype 提示用户重新输入凭据。 在此对话框中，建议用户选中“**保存我的密码**”复选框以便后续登录期间不需要输入凭据。
+2. Skype for Business 检测 Lync VDI 插件后，for Business 的 Skype 提示用户重新输入凭据。 在此对话框中，建议用户选中“**保存我的密码**”复选框以便后续登录期间不需要输入凭据。
     
-3. Skype 的业务 2015年开始使用 Lync VDI 插件配对。 时出现这种情况，客户端中的业务 2015年状态栏 Skype 显示两个图标。 左下角的图标指示没有可用的音频设备，而右下角的闪烁图标指示 VDI 配对正在进行：
-    4. VDI 配对成功后，这两个图标将更改为分别指示用于呼叫的音频设备和 VDI 配对成功：
-    5. 用户现在可以看到他/她状态 Skype 上的业务 2015年兼容设备的连接到本地计算机，并进行呼叫和应答像往常一样。
+3. Skype for Business 开始使用 Lync VDI 插件配对。 时出现这种情况，客户端中的业务状态栏 Skype 显示两个图标。 左下角的图标指示有无音频设备，并且的右下角的闪烁图标指示 VDI 配对正在：。 VDI 配对成功后，图标更改为分别指示将用于呼叫和 VDI 配对成功的音频设备： b。 用户现在可以看到他/她状态 Skype 上的业务兼容设备的连接到本地计算机，并进行呼叫和应答像往常一样。
     
 ## <a name="troubleshoot-the-lync-vdi-plug-in"></a>Lync VDI 插件故障排除
 <a name="tshoot_VDI"> </a>
@@ -117,9 +114,9 @@ ms.locfileid: "19927850"
     
   - UcVdi.dll
     
-- **业务 2015年客户端 Skype 本地计算机上运行。**
+- **业务客户端 Skype 本地计算机上运行。**
     
-    若要使用 Lync VDI 插件，不能在本地计算机上运行业务 2015年客户端 Skype，否则配对将失败。 作为最佳实践，用户不应安装业务 2015年客户端 Skype 本地计算机上。
+    若要使用 Lync VDI 插件，不能在本地计算机上运行业务客户端 Skype，否则配对将失败。 作为最佳实践，用户不应安装业务客户端 Skype 本地计算机上。
     
 ## <a name="see-also"></a>另请参阅
 <a name="tshoot_VDI"> </a>

@@ -1,25 +1,24 @@
 ---
-title: 管理业务服务器 2015年中 Skype 电话拨入式会议 PIN 策略
+title: 管理 Business Server （英文） 中 Skype 电话拨入式会议 PIN 策略
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
-description: 摘要： 了解如何为业务服务器 2015年管理中 Skype 电话拨入式会议 PIN 策略。
-ms.openlocfilehash: ee6a303a59ef6bc17ca3bd3300a701505cf9042b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解如何管理业务服务器中 Skype 电话拨入式会议 PIN 策略。
+ms.openlocfilehash: 0fd6d8a3ebfaeee0c6b4b3757a7b58b8d3882d71
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569049"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013412"
 ---
-# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server-2015"></a>管理业务服务器 2015年中 Skype 电话拨入式会议 PIN 策略
+# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>管理 Business Server （英文） 中 Skype 电话拨入式会议 PIN 策略
  
-**摘要：** 了解如何管理业务服务器 2015年中 Skype 电话拨入式会议 PIN 策略。
+**摘要：** 了解如何管理业务服务器中 Skype 电话拨入式会议 PIN 策略。
   
 Skype 的组织中拥有 Active Directory 域服务 (AD DS) 凭据的企业服务器用户可以加入电话拨入式会议作为经过身份验证的用户使用个人标识号 (PIN)。 PIN 策略定义电话拨入式会议 PIN 工作方式的规则。
   
@@ -27,7 +26,7 @@ Skype 的组织中拥有 Active Directory 域服务 (AD DS) 凭据的企业服�
   
 如果要将特定策略应用于某个站点或某个用户组，可以创建新的 PIN 策略。
   
-PIN 策略既可以应用于少数用户，也可以应用于众多用户。 如果为用户分配用户级别的 PIN 策略，则优先应用这些设置。 如果没有分配用户策略，则将应用站点级别的 PIN 策略（如果存在）。 如果未应用用户策略或站点策略，则全局 PIN 策略会提供默认设置。
+PIN 策略既可以应用于少数用户，也可以应用于众多用户。如果为用户分配用户级别的 PIN 策略，则优先应用这些设置。如果没有分配用户策略，则将应用站点级别的 PIN 策略（如果存在）。如果未应用用户策略或站点策略，则全局 PIN 策略会提供默认设置。
   
 ## <a name="view-information-about-pin-policies"></a>查看有关 PIN 策略的信息
 
@@ -35,7 +34,7 @@ PIN 策略既可以应用于少数用户，也可以应用于众多用户。 如
   
 ### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>查看有关使用适用于业务 Server Control Panel Skype 的 PIN 策略的信息
 
-1.  从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机2015。
+1.  从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机.
     
 2.  打开 Skype 业务 Server Control Panel。
     
@@ -59,7 +58,7 @@ Get-CsPinPolicy -Identity "site:Redmond"
   
 ### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 修改全局电话拨入式会议 PIN 策略
 
-1.  从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机2015。
+1.  从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机.
     
 2.  打开 Skype 业务 Server Control Panel。
     
@@ -104,7 +103,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
   
 ### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 创建的用户或站点 PIN 策略
 
-1. 从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机2015。
+1. 从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机.
     
 2.  打开 Skype 业务 Server Control Panel。
     
@@ -155,7 +154,7 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
   
 ### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 修改的用户或站点 PIN 策略
 
-1.  从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机2015。
+1.  从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机.
     
 2.  打开 Skype 业务 Server Control Panel。
     
@@ -185,7 +184,7 @@ Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
   
 ### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 中删除用户或站点 PIN 策略
 
-1.  从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机2015。
+1.  从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机.
     
 2.  打开 Skype 业务 Server Control Panel。
     

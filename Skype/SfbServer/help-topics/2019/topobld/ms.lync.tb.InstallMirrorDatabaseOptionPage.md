@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: 您可以通过以下定义配置镜像数据库设置：
-ms.openlocfilehash: 2cd793883baf5e5d567e9248e60f6601f8e1aa96
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: fe86501c88282d5caa6ee5921617a1d06c5afaa8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19989760"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983446"
 ---
 # <a name="install-mirror-database-option-page"></a>安装镜像数据库选项页
  
@@ -33,6 +33,3 @@ ms.locfileid: "19989760"
   
  **帮助** 显示此帮助屏幕。
   
-## <a name="see-also"></a>另请参阅
-
-[部署 SQL 镜像后端服务器高可用性 Skype 业务服务器](../../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

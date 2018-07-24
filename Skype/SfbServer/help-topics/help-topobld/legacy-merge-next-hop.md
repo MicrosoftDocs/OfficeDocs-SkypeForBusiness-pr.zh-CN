@@ -1,9 +1,9 @@
 ---
-title: 传统的合并下一跃点
+title: 旧版合并下一个跃点
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,15 +11,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c19ac6-f91d-41cb-b6a2-e54ed06b9596
-description: 下一个跃点的 FQDN 标识传统边缘服务器将内部通信路由到下一个跃点服务器。 键入此边缘服务器将内部的通信路由到下一个跃点服务器的完全合格的域名称 (FQDN)，然后选择是否前端池或控制器。
-ms.openlocfilehash: 1d3b46f52e3414a01d82c921048beeac0e816a3c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 下一个跃点 FQDN 标识旧边缘服务器将内部流量路由到的下一个跃点服务器。 键入此边缘服务器将内部流量路由到的下一个跃点服务器的完全限定的域名 (FQDN)，然后选择是否是前端池或控制器。
+ms.openlocfilehash: f93dc2db27806661ddca654363e51a49a3420abe
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21010651"
 ---
-# <a name="legacy-merge-next-hop"></a>传统的合并下一跃点
+# <a name="legacy-merge-next-hop"></a>旧版合并下一个跃点
  
-**下一个跃点的 FQDN**标识传统边缘服务器将内部通信路由到下一个跃点服务器。 键入此边缘服务器将内部的通信路由到下一个跃点服务器的完全合格的域名称 (FQDN)，然后选择是否**前端池**或**控制器**。 
+**下一个跃点 FQDN**标识旧边缘服务器将内部流量路由到的下一个跃点服务器。 键入此边缘服务器将内部流量路由到的下一个跃点服务器的完全限定的域名 (FQDN)，然后选择是否是**前端池**或**控制器**。 
   
 

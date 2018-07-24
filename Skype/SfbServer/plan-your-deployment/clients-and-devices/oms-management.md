@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
-description: 本文讨论使用 Operations Management Suite 管理你的 Skype for Business Server 2015 实现中的 Skype 会议室系统 v2 设备时的规划注意事项。
-ms.openlocfilehash: d69916854b4d737b4d1e52bdf45a5ee453d48e55
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+description: 本文讨论使用操作管理套件管理 Skype 会议室系统 v2 设备中您 Skype 业务服务器实现的规划注意事项。
+ms.openlocfilehash: 3e39075ab16c8cd8d8c688043bf7fa370af1f5b0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504633"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984755"
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>使用 OMS 规划 Skype 会议室系统 v2 管理
  
- 本文讨论使用 Operations Management Suite 管理你的 Skype for Business Server 2015 实现中的 Skype 会议室系统 v2 设备时的规划注意事项。
+ 本文讨论使用操作管理套件管理 Skype 会议室系统 v2 设备中您 Skype 业务服务器实现的规划注意事项。
   
 [操作管理套件](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-overview)(OMS) 是旨在从开始在云中的管理服务的集合。 OMS 组件并不部署和管理本地资源，而是完全托管在 Azure 中。 只需进行最少的配置，即可在几分钟内开机运行。 具有一些自定义工作，有助于在通过为单个会议室系统提供的系统运行状况或错误的实时通知管理 Skype 会议室系统 v2 会议系统和它可能可扩展到数千个 Skype 会议室系统管理v2 会议室。
   
@@ -61,6 +61,6 @@ ms.locfileid: "19504633"
     
 ## <a name="see-also"></a>另请参阅
 
-[部署使用 OMS 的 Skype 会议室系统 v2 管理](../../deploy/deploy-clients/with-oms.md)
+[使用 OMS 部署 Skype 会议室系统 v2 管理](../../deploy/deploy-clients/with-oms.md)
   
-[管理与 OMS 的 Skype 会议室系统 v2 设备](../../manage/skype-room-systems-v2/oms.md)
+[使用 OMS 管理 Skype 会议室系统 v2 设备](../../manage/skype-room-systems-v2/oms.md)

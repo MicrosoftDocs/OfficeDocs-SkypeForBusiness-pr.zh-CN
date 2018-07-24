@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1da76935-ab93-46e5-a862-3f2a77171760
-description: 您必须指明需要在林中创建通用组。 通用组位置页上使用的登录到计算机为默认的成员的域。 如果您想要在非默认的本地域域中创建的通用组，选择域 FQDN，并在文本框中键入完全限定的域名 (FQDN)。 提供的备用域很有帮助从以外，在您想通用组域运行林准备任务时创建。 单击下一步。
-ms.openlocfilehash: 38445a33422bf4ee97fc60f0f91183b8490b9f06
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 您必须指明需要在林中创建通用组。 通用组位置页上使用的登录到计算机为默认的成员的域。 如果您想要在非默认的本地域域中创建的通用组，选择域 FQDN，并在文本框中键入完全限定的域名 (FQDN)。 提供的备用域很有帮助从以外，在您想通用组域运行林准备任务时创建。 单击“下一步”继续。
+ms.openlocfilehash: 0abf9be2bea6b69545d2274c34fd433b0ecc9c00
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987254"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980014"
 ---
 # <a name="prepare-current-forest-universal-group-location"></a>准备当前林 （通用组位置）
  

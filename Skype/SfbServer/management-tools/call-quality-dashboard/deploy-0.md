@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 摘要： 了解呼叫质量仪表板的部署过程。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
-ms.openlocfilehash: 0d096ba8c2303ca952100a8142b356944b775dcc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 860792fc39deed592f0d4369018cf85dd7de4a74
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569185"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988984"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>为业务 Server 2015 Skype 部署呼叫质量仪表板
  
@@ -48,11 +48,11 @@ QoE 存档的安装过程包括创建 QoE 存档数据库、 部署将源的 QoE
 |授予用户访问权限。  <br/> |用于管理到门户的用户授权，我们建议使用 URL 授权，在 IIS 7.0 中引入。 有关详细信息，请参阅[Understanding IIS 7.0 URL 授权](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization)。  <br/> |属于本地 Administrators 组成员的域用户。  <br/> |部署文档中的门户部分管理用户的访问。  <br/> |
 |可选： 提供子网映射信息。  <br/> |填充网络和 QoE 存档数据库中的构建映射表。  <br/> |具有写访问 QoE 存档数据库的帐户。  <br/> |用户文档中的"提供子网信息"部分。  <br/> |
    
-## 
+
 
 呼叫质量仪表板的部署涉及设置基础结构和安装软件。 下面的过程概述的过程。
   
-### <a name="deployment-steps"></a>部署步骤
+## <a name="deployment-steps"></a>部署步骤
 
 1. 将 CallQualityDashboard.msi 复制到其中 CQD 的存档数据库组件是安装在计算机 （这是已安装的 SQL Server 的计算机）。 
     
@@ -168,7 +168,7 @@ QoE 存档的安装过程包括创建 QoE 存档数据库、 部署将源的 QoE
 > [!IMPORTANT]
 > 非常重要仅更改此设置为 CQD 应用程序，而不是针对两个 API 应用程序： QoEDataService 和 QoERepositoryService。 
   
-### <a name="configuring-file-access-for-the-cqd-dashboard"></a>配置文件访问 CQD （仪表板）
+## <a name="configuring-file-access-for-the-cqd-dashboard"></a>配置文件访问 CQD （仪表板）
 
 1. 打开配置编辑器的 CQD。
     
@@ -184,7 +184,7 @@ QoE 存档的安装过程包括创建 QoE 存档数据库、 部署将源的 QoE
   
 4. 单击**应用**页面的右侧。
     
-## <a name="known-issues"></a>已知的问题
+## <a name="known-issues"></a>已知问题
 
 在极少数情况下，安装程序无法在 IIS 中创建了正确的设置。 允许用户登录到 CQD 需要手动更改。 如果用户在登录时出现问题，请按照以下步骤：
   
@@ -214,7 +214,7 @@ HTTP 和 HTTPS 端口绑定安装程序将在默认端口号 （端口 80 用于
     
 2. 在 SQL Server 连接启用 TLS 的说明，请参阅[如何启用 SSL 加密使用 Microsoft 管理控制台的 SQL Server 的实例](https://support.microsoft.com/en-us/kb/316898/)。
     
-### <a name="cube-sync-fails"></a>多维数据集同步失败
+## <a name="cube-sync-fails"></a>多维数据集同步失败
 
 QoEMetrics 可能包含根据最终用户时钟某些无效记录。 如果倾斜的时间大于 60 年，多维数据集导入将失败。
   

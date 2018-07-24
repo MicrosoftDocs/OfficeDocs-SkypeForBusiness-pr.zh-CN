@@ -1,5 +1,5 @@
 ---
-title: 适用于 Skype for Business Server 2015 的基于视频的屏幕共享
+title: 视频基于屏幕共享的 Skype 业务服务器
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/20/2018
@@ -8,17 +8,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
-description: 有关基于视频的屏幕共享 (VbSS)，这是现在可供下载的业务服务器 2015年规划和配置信息的 Skype： 业务服务器 2015年累积更新 KB3061064 的 Skype。
-ms.openlocfilehash: a76778db02ece625d7c9933662d88aea99dbdf7f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: Skype 的基于视频的屏幕共享 (VbSS) 的业务服务器规划和配置信息
+ms.openlocfilehash: 8f76fbe0879cc9abd452d8b1e0064627c215b20e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569255"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968324"
 ---
-# <a name="video-based-screen-sharing-for-skype-for-business-server-2015"></a>适用于 Skype for Business Server 2015 的基于视频的屏幕共享
+# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>视频基于屏幕共享的 Skype 业务服务器 
  
-有关基于视频的屏幕共享 (VbSS)，这是现在可供下载的业务服务器 2015年规划和配置信息的 Skype：[业务服务器 2015年累积更新 KB3061064 的 Skype](https://www.microsoft.com/en-us/download/details.aspx?id=47690)。
+基于视频的屏幕中的业务服务器 2015 Skype 中共享 (VbSS) 现可供下载：[业务服务器 2015年累积更新 KB3061064 的 Skype](https://www.microsoft.com/en-us/download/details.aspx?id=47690)。 附带的业务服务器 2019 Skype VbSS。
   
 基于视频的屏幕共享，或者 VbSS，变得从 Lync 注销屏幕共享。 VbSS 与传统屏幕共享之间的区别与所用的基础协议及其所擅长的技能有关。 屏幕共享使用远程桌面协议 (RDP)，该协议擅长在各用户计算机之间创建数千个一对一会话。 较新的技术 VbSS 将使用用户数据报协议 (UDP)。
   
@@ -75,13 +75,13 @@ Skype 业务服务器想要提高人的 1-为-1，以及其 1 对多 （多方�
    
 ### <a name="capacity-planning"></a>容量规划
 
-每个前端服务器运行 Skype 业务服务器 2015年累积更新 2 (CU2) 支持针对屏幕显示使用 RDP (每个会议的虽然只 250) 共享达 375 参与者。 引入并使用 VbSS 时，此容量在 CU3 后不会更改。
+每个前端服务器运行 Skype 业务服务器 2015年累积更新 2 (CU2) 或更高版本支持的屏幕共享使用 RDP (每个会议的虽然只 250) 达 375 参与者。 引入并使用 VbSS 时，此容量在 CU3 后不会更改。
   
 也就是说，我们已在实验室中完成性能和压力测试，并且就你自己的部署还应考虑以下度量（当然具体要取决于使用情况）。
   
 假设：
   
-- 您将 Skype 用于业务 Server 2015 CU2 部署中。
+- 您正在使用 Skype 业务 Server 2015 CU2 或更高版本中您的部署。
     
 - 在您 Skype 业务服务器环境中的所有用户都具有高于 1920 x 1080 的屏幕分辨率。
     
@@ -97,7 +97,7 @@ Skype 业务服务器想要提高人的 1-为-1，以及其 1 对多 （多方�
     
 此表中的数字受个别网络和所共享内容的影响。请通过测试建立一个或多个网络的基准。
   
-|**1080p 内容**|**RDP 平均值**|**RDP 峰值**|**VbSS 平均值**|**VbSS 峰值**|
+|**1080p 内容 **|**RDP 平均值**|**RDP 峰值**|**VbSS 平均值**|**VbSS 峰值**|
 |:-----|:-----|:-----|:-----|:-----|
 |PPT  <br/> |200 kbps  <br/> |12mbps  <br/> |100 kbps  <br/> |3mbps  <br/> |
 |CAD  <br/> |3mbps  <br/> |7mbps  <br/> |1mbps  <br/> |3mbps  <br/> |
@@ -134,7 +134,7 @@ VbSS 带宽为：
   
 ## <a name="enabling-disabling-and-configuring-vbss"></a>启用、禁用和配置 VbSS
 
-很好的做法是，您已经为业务服务器 2015年累积更新 3 (CU3)，所有用户将默认情况下启用为 1-1 和多方 VbSS 安装 Skype 后。 如果你有理由不为所有用户启用此功能，这对你来说可能有问题。 在这种情况下，你可以使用这些步骤禁用用户（然后执行启用用户步骤）：
+很好的做法是，您已安装 Skype 业务服务器 2015年累积更新 3 (CU3) 或更高版本，您的所有用户将为都启用 1-1 和多方 VbSS 默认情况下之后。 如果你有理由不为所有用户启用此功能，这对你来说可能有问题。 在这种情况下，你可以使用这些步骤禁用用户（然后执行启用用户步骤）：
   
 ### <a name="how-to-disable-users-from-using-vbss"></a>如何禁止用户使用 VbSS
 

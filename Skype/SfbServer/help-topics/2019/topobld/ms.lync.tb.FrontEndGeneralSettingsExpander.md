@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 要编辑现有前端池或 Standard Edition Server 的设置，可参考以下各节内容：
-ms.openlocfilehash: d992854753cf3b6c11481c0b3725d0e5bb30329b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6ec94dffe46bf29b7665ef362f8084a8fd2a4948
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973071"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988909"
 ---
 # <a name="front-end-general-settings-expander"></a>前端常规设置扩展器
  
@@ -133,7 +133,7 @@ ms.locfileid: "19973071"
 
 可以配置以下常规设置：
   
-- * * FQDN * *。 请注意，无法更改 FQDN。 必须删除并重新定义 Standard Edition Server 才能更改与其关联的 FQDN。
+- **FQDN**。 请注意，无法更改 FQDN。 必须删除并重新定义 Standard Edition Server 才能更改与其关联的 FQDN。
     
 - 选择“**使用所有已配置的 IP 地址**”或“**将服务用途限制为所选 IP 地址**”。如果选择将服务用途限制为定义的 IP 地址，则需要定义服务器用于除 PSTN 外的所有通信的主 IP 地址。需要定义单独的 IP 地址用于 PSTN。也可以选择“**启用 IPv6**”为此服务器启用 IPv6。
     

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: 若要指定新、 删除现有或更改活动的简单 Url，请执行以下操作：
-ms.openlocfilehash: 5aa9b62c9c87002544fdc0ee5b045436ee80dd84
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 064d26bb3b77f0ba151ee3a6714e0ac233a7bfa0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992221"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20990593"
 ---
 # <a name="simple-url-settings-expander"></a>简单 URL 设置扩展器
  
@@ -44,7 +44,7 @@ ms.locfileid: "19992221"
   
 在编辑属性页上的所有更改都完成后，单击**确定**以保存所做的更改。 单击“**取消**”将放弃更改。
   
-## 
+###  <a name="see-also"></a>另请参阅
 
 有关详细信息，请参阅[规划简单 Url](http://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)
   

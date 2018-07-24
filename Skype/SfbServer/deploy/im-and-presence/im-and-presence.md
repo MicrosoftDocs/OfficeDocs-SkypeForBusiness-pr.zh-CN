@@ -1,33 +1,33 @@
 ---
-title: 部署 Skype for Business Server 2015 中的即时消息和状态
+title: 部署业务服务器即时消息和 Skype 中的状态
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 6/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ad792bb2-aee0-4986-a070-116ff3c10fe7
-description: 摘要： 了解的业务服务器 2015年的即时消息和 Skype 遍布的部署步骤。
-ms.openlocfilehash: b46034e6fd689e081287623f84c3e2516858a427
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解业务服务器的即时消息和状态 Skype 的部署步骤。
+ms.openlocfilehash: d55c8d495f3dd47b299c0854a05036c149db58d7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005515"
 ---
-# <a name="deploy-instant-messaging-and-presence-in-skype-for-business-server-2015"></a>部署 Skype for Business Server 2015 中的即时消息和状态
+# <a name="deploy-instant-messaging-and-presence-in-skype-for-business-server"></a>部署业务服务器即时消息和 Skype 中的状态
  
-**摘要：**了解 Skype for Business Server 2015 中的即时消息和状态的部署步骤。
+**摘要：** 了解业务服务器即时消息和状态 Skype 的部署步骤。
   
 ## <a name="deployment-steps-for-instant-messaging-and-presence"></a>即时消息和状态的部署步骤
 
-即时消息和状态的规划文章介绍了有关规划部署的信息。 您为业务服务器 2015年安装 Skype 时启用即时消息和状态。 要了解更多有关计划即时消息和状态，请参阅[计划即时消息和 Skype 的业务服务器 2015年遍布](../../plan-your-deployment/instant-messaging-and-presence.md)。
+即时消息和状态的规划文章介绍了有关规划部署的信息。 为业务服务器安装 Skype 时启用即时消息和状态。 若要了解更多有关规划即时消息和状态，请参阅[规划即时消息和 Skype 业务服务器中的状态](../../plan-your-deployment/instant-messaging-and-presence.md)。
   
-在本节中，您了解一些您可以自定义精确的部署步骤调整您的即时消息和状态方案。
+了解的一些部署步骤可自定义以查找此部分中，优化您的即时消息和状态方案。
   
 ## <a name="in-this-section"></a>本节内容
 
-> [启用或禁用脱机即时消息 (IM) 在 Skype 业务服务器 2015](enable-or-disable-offline-im.md)
+> [启用或禁用业务服务器脱机即时消息 (IM) 中 Skype](enable-or-disable-offline-im.md)
     
 

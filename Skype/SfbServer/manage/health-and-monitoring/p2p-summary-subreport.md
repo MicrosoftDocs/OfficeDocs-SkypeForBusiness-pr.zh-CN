@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 中的 P2P 摘要子报告
+title: P2P 摘要子报表中的业务服务器 Skype
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
-description: 摘要： 了解业务服务器 2015年的 Skype P2P 摘要子报表。
-ms.openlocfilehash: db610f21eda9b4decd01facf55f69699c48aa9f2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解有关 P2P 摘要子报表中 Skype 业务服务器。
+ms.openlocfilehash: 216545644456a3cfd6285aaf73a4279879a12ef1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981787"
 ---
-# <a name="p2p-summary-subreport-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 P2P 摘要子报告
+# <a name="p2p-summary-subreport-in-skype-for-business-server"></a>P2P 摘要子报表中的业务服务器 Skype
  
-**摘要：**了解业务服务器 2015 Skype P2P 摘要子报表。
+**摘要：** 了解业务服务器 Skype P2P 摘要子报表。
   
 P2P 摘要子报表对失败对等通信会话提供一个总体视图。
   
@@ -38,9 +38,9 @@ P2P 摘要子报表对失败对等通信会话提供一个总体视图。
 
 下表列出了 P2P 摘要子报表中提供的信息。
   
-**P2P 摘要子报表指标**
+**P2P 摘要子报告指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**可以在此项上进行排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**会话总数** <br/> |否  <br/> |会话的总数，包括成功的会话、失败的会话（预期失败和意外失败）及未归类的会话。  <br/> |
 |**故障率** <br/> |否  <br/> |失败的对等会话百分比。  <br/> |

@@ -1,42 +1,42 @@
 ---
-title: 在 Skype for Business Server 2015 中管理运行状况和监视
+title: 管理运行状况和监控 Skype 中的业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
-description: 摘要： 了解业务服务器 2015年的监视和运行状况在 Skype 的配置任务。
-ms.openlocfilehash: 015e08170a356e509bf43d263eae95bda5bcc9fa
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解业务服务器中 Skype 的监控和运行状况配置任务。
+ms.openlocfilehash: 5f87b5884521b29d86d4995f3b13df13def55108
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016824"
 ---
-# <a name="manage-health-and-monitoring-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中管理运行状况和监视
+# <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>管理运行状况和监控 Skype 中的业务服务器
  
-**摘要：**对于业务服务器 2015年了解在 Skype 的监视和运行状况配置任务。
+**摘要：** 了解有关 Skype 中的监控和运行状况配置任务的业务服务器。
   
-本节中的主题提供分步操作过程的监视和健康配置任务可以执行 Skype 业务服务器的控制面板和 Skype 的业务服务器管理程序。
+本节中的主题提供的监控的分步过程和运行状况配置任务您可以按执行 Skype 业务 Server Control Panel 和 Skype 的业务 Server Management Shell。
   
 ## <a name="in-this-section"></a>本节内容
 
-- [呼叫详细记录 (CDR) 在 Skype 业务服务器 2015](call-detail-recording-cdr.md)
+- [呼叫详细信息记录 (CDR) 中 Skype 业务服务器](call-detail-recording-cdr.md)
     
-- [在 Skype 业务服务器 2015年的经验 (QoE) 的质量](quality-of-experience.md)
+- [体验质量 (QoE 中的业务服务器 Skype)](quality-of-experience.md)
     
-- [监视业务服务器 2015年的性能在 Skype 的移动性](monitor-mobility-performance.md)
+- [监视移动性的 Skype 业务服务器的性能](monitor-mobility-performance.md)
     
-- [使用业务服务器 2015年监控在 Skype 的报告](monitoring-reports.md)
+- [使用监控报告中 Skype 业务服务器](monitoring-reports.md)
     
 ## <a name="see-also"></a>另请参阅
 
 
 
-[为监控在 Skype 业务服务器 2015年计划](http://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
+[规划监视](http://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
   
-[部署监视在 Skype 业务服务器 2015](http://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[部署监控](http://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
 

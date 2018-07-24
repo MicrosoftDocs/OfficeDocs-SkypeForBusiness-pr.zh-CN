@@ -1,26 +1,25 @@
 ---
-title: 在 Skype for Business Server 2015 中部署 Skype 连接
+title: 为业务服务器部署中 Skype 的 Skype 连接
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
-description: 摘要： 了解如何将 Skype 与 Skype 的使用者连接的业务服务器 2015年。 也称为 Skype 连接。
-ms.openlocfilehash: 4d81d2529435d250957c775d954a33a562bed1e9
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解如何将 Skype 与 Skype 的使用者连接业务服务器。 也称为 Skype 连接。
+ms.openlocfilehash: f40b109fe63c05b3e7b0f2dc6a2b58b9a42d4434
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569164"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988499"
 ---
-# <a name="deploy-skype-connectivity-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中部署 Skype 连接
+# <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>为业务服务器部署中 Skype 的 Skype 连接
  
-**摘要：** 了解如何将 Skype for Business Server 2015 与 Skype 客户相连。也称为 Skype 连接。
+**摘要：** 了解如何将 Skype 与 Skype 的使用者连接业务服务器。 也称为 Skype 连接。
   
 本文介绍了 Skype 连接的部署。
   
@@ -50,17 +49,17 @@ Skype 目录搜索功能允许 Skype for Business 用户搜索 Skype 联系人�
 下表概述了对 Skype 目录搜索的支持。
   
 
-||**Skype 的业务 Server 2015 前端**|**Lync Server 2013 （或更低） 前端**|**注释**|
+||**Skype 的业务 Server 前端**|**Lync Server 2013（或更早版本）前端**|**注释**|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Server 2015 边缘  <br/> |支持  <br/> |否  <br/> |Skype for Business Server 2015 和边缘是 Skype 目录搜索的必备组件  <br/> |
-|Skype for Business Server 2015 边缘 + Lync Server 2013 边缘并行部署  <br/> |支持  <br/> |否  <br/> |Skype 目录搜索流量流经 Skype for Business Server 边缘服务器。联盟流量流经管理员配置的边缘。例如，管理员可以选择继续通过不支持 Skype 目录搜索的 Lync Server 2013 边缘服务器发送联盟流量。  <br/> |
+|Skype 的业务服务器边缘  <br/> |支持  <br/> |否  <br/> |Skype 业务服务器和边缘是 Skype 目录搜索的前提条件  <br/> |
+|Skype 业务服务器边缘 + Lync Server 2013 边缘部署并排比较  <br/> |支持  <br/> |否  <br/> |Skype 目录搜索流量流经 Skype for Business Server 边缘服务器。联盟流量流经管理员配置的边缘。例如，管理员可以选择继续通过不支持 Skype 目录搜索的 Lync Server 2013 边缘服务器发送联盟流量。  <br/> |
 |Lync Server 2013（或更早版本）边缘  <br/> |否  <br/> |否  <br/> ||
    
 > [!NOTE]
-> 在 Skype for Business Server 2015 前端上运行的通讯簿服务可根据 2015 边缘服务器中存在的 Skype 搜索端口 4443 来查找 2015 边缘。 
+> Skype 上运行的业务 Server 前端的通讯簿服务中的边缘服务器的 Skype 搜索端口 4443 的存在情况查找边缘。 
   
 > [!NOTE]
-> 如果客户在其本地部署中拥有多个站点，并且他们只部署了一个 Skype for Business Server 2015 边缘服务器/池，则来自所有站点的搜索流量将流经单台可用的边缘服务器。管理员需要确保来自所有站点的池可以访问部署的 Skype for Business Server 2015 边缘服务器/池。 
+> 客户可以在其内部部署，多个站点的情况下，如果它们已部署只有一个 Skype 对于业务 Server 边缘服务器/池，然后搜索所有网站流量将通过一个可用的边缘服务器。 管理员需要确保从所有站点的池可以访问业务 Server 边缘服务器/池部署的 Skype。 
   
 > [!NOTE]
 > 如果请求率超过 15 个请求/秒，Skype 图形服务将限制来自本地或 Office 365 客户的搜索请求。 
@@ -69,7 +68,7 @@ Skype 目录搜索功能允许 Skype for Business 用户搜索 Skype 联系人�
 > 对于大型企业本地客户，需要使用 Skype 搜索服务对域建立白名单才能允许更高的请求率。 
   
 > [!NOTE]
-> 如果队列中待处理的请求过多，Skype for Business Server 2015 将限制传入请求。 
+> 如果队列中有太多的待处理请求，Skype 业务服务器将限制传入请求。 
   
 ## <a name="deploying-skype-connectivity-for-skype-for-business-online-in-office-365"></a>在 Office 365 中部署 Skype for Business Online 的 Skype 连接
 
@@ -81,26 +80,22 @@ Skype 连接同样是 Skype for Business Online（Office 365 的一部分）的�
   
 有关 Skype for Business Online 管理的更多信息，请参阅：
   
-- [允许 Skype 业务联机用户与外部 Skype 业务或 Skype 联系人通信](https://support.office.com/en-us/article/Let-Skype-for-Business-Online-users-communicate-with-external-Lync-or-Skype-contacts-b414873a-0059-4cd5-aea1-e5d0857dbc94?ui=en-US&amp;rs=en-US&amp;ad=US )
-    
-- [让组织 [Small Business] 外部通信业务 Online 用户的 Skype](https://support.office.com/en-US/article/Let-Lync-Online-users-communicate-outside-your-organization-Small-Business-7F488F09-F004-4DB5-AEC5-01C262AA3D34)
-    
+- [允许用户联系外部 Skype for Business 用户](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+
 - [要尝试如果无法 IM Skype 业务或 Skype 外部联系人](https://support.office.com/en-us/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
     
-- [使用 Skype for Business 连接与外部联系人](https://support.office.com/en-US/article/Use-Lync-to-connect-with-external-contacts-E6DA21CE-FFB8-4AF3-A171-871CA245BC30)
-    
 - [Skype for Business 中添加联系人](https://support.office.com/en-US/article/Add-a-contact-in-Skype-for-Business-89338023-2adf-4f5c-90b6-f8b6f72fadd1)
+  
+- [管理员：为单个用户配置 Skype for Business 设置](../../SfbOnline/set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md)
     
-- [为各个用户配置设置](https://support.office.com/en-US/article/Configure-settings-for-individual-users-77B26EAC-8228-4161-BA9F-733B187BD836)
-    
-## <a name="deploying-skype-connectivity-for-skype-for-business-server-2015"></a>部署 Skype for Business Server 2015 的 Skype 连接
+## <a name="deploying-skype-connectivity-for-skype-for-business-server"></a>部署 Business Server for Skype Skype 连接
 
-Skype for Business Server 2015 使用联盟访问体系结构支持与 Skype 的连接。 此连接允许您的 Skype for Business Server 用户添加 Skype。 Skype 客户端也可向联系人列表添加 Skype for Business 用户。 根据管理性设置用户将能够使用即时消息进行通信的业务服务器中 Skype 的策略，查看彼此的状态，并启动音频和视频呼叫。 Skype 连接也是 Skype for Business Online 的一项功能，可从 Office 365 门户中的 Skype for Business 管理中心为 Skype for Business Online 客户启用。
+Skype 业务服务器使用的联合身份验证访问体系结构以支持与 Skype 的连接。 此连接允许您的 Skype for Business Server 用户添加 Skype。 Skype 客户端也可向联系人列表添加 Skype for Business 用户。 根据管理性设置用户将能够使用即时消息进行通信的业务服务器中 Skype 的策略，查看彼此的状态，并启动音频和视频呼叫。 Skype 连接也是 Skype for Business Online 的一项功能，可从 Office 365 门户中的 Skype for Business 管理中心为 Skype for Business Online 客户启用。
   
 > [!NOTE]
 > 如果 Skype for Business Server 已配置为通过使用公共即时消息连接 (PIC) 连接 Windows Messenger，则您的部署已配置好了 Skype 连接。您可能希望作出的唯一更改是将您的现有 Messenger PIC 条目重命名为 Skype。 
   
-### <a name="accessing-the-skype-for-business-server-public-im-connectivity-provisioning-site-from-skype-for-business-server-2015"></a>从 Skype for Business Server 2015 访问 Skype for Business Server 公共 IM 连接设置站点
+### <a name="accessing-the-skype-for-business-server-public-im-connectivity-provisioning-site-from-skype-for-business-server"></a>为业务服务器从 Skype 访问业务 Server 公共 IM 连接设置网站 Skype
 
 此设置过程最多需要 30 天才能完成，但也可能仅花费几天时间，具体取决于请求量。建议您在完成文档中的其余步骤之前先开始此过程。在为您的帐户完成 Skype 设置过程后，该帐户将被激活，并且将为符合资格的用户启用公共 IM 连接。 
   
@@ -157,7 +152,7 @@ Skype for Business Server 2015 使用联盟访问体系结构支持与 Skype 的
 需要联盟，Skype 用户才能与您的组织中的 Skype for Business 用户进行通信。公共即时消息连接 (PIC) 是一种联盟类别，必须配置它，您的 Skype for Business 用户才能够与 Skype 用户进行通信。联盟和 PIC 可使用 Skype for Business Server 控制面板进行配置。
   
 > [!NOTE]
-> Live Communication Server 2005 SP1 或 Office Communications Server 2007 不再支持 PIC 联盟。支持 PIC 联盟的平台包括 Skype for Business Server 2015、Lync Server 2013、Lync Server 2010 和 Office Communications Server 2007 R2。 
+> Live Communication Server 2005 SP1 或 Office Communications Server 2007 不再支持 PIC 联盟。 支持的平台 PIC 联盟包含 Skype Business Server、 Lync Server 2013、 Lync Server 2010 和 Office Communications Server 2007 R2。 
   
 需要联盟，Skype 用户才能与您的组织中的 Skype for Business 用户进行通信。公共即时消息连接 (PIC) 是一种联盟类别，必须配置它，您的 Skype for Business Server 用户才能够与 Skype 用户进行通信。联盟和 PIC 可使用 Skype for Business Server 控制面板的边缘配置对话框进行配置，如图所示。
   
@@ -224,9 +219,9 @@ Skype for Business Server 2015 使用联盟访问体系结构支持与 Skype 的
 下表概括介绍了最新版本的 Skype 消费者产品与最新版本的 Skype for Business 之间的互操作状况。
   
 
-|**Skype 客户端**|**添加联系人、 IM、 状态、 音频和视频呼叫**|**注释**|
+|**Skype 客户端**|**添加联系人、IM、状态、语音和视频呼叫**|**注释**|
 |:-----|:-----|:-----|
-|Skype Windows 桌面  <br/> |7.6 或更高版本，Windows XP 和更高版本  <br/> |**新建**： 添加对 Windows XP 和 Windows Vista 上运行的 Windows Skype 客户端支持 * * （需要 7.26 或更高的最新客户端版本） * * <br/> |
+|Skype Windows 桌面  <br/> |7.6 或更高版本，Windows XP 和更高版本  <br/> |**新建**： 添加对运行 Windows XP 和 Windows Vista **（需要 7.26 或更高的最新客户端版本）** 上的 Windows Skype 客户端的支持 <br/> |
 |Skype 移动 - Android 手机和平板电脑   <br/> |6.19 或更高版本，运行 Android OS 4.0.3 或更高版本  <br/> |低规格设备可能不支持视频呼叫  <br/> |
 |Skype Mobile-iOS  <br/> |6.11 或更高版本，在 IOS 7 或更高版本上  <br/> |在 iPhone 4 和更早版本、iPod 第 4 代和更早版本、Pad 第 1 代上不受支持  <br/> |
 |Skype Mac  <br/> |7.19 或更高版本，在 Mac OS X 10.9 (Mavericks) 或更高版本上  <br/> |需要 Mac OSX 10.9 或更高版本  <br/> |
@@ -234,9 +229,9 @@ Skype for Business Server 2015 使用联盟访问体系结构支持与 Skype 的
    
 下表概括介绍了最新版本的 Skype for Business 与最新版本的 Skype 消费者产品之间的互操作状况。 
   
-|**客户端**|**Skype 目录搜索和添加联系人**|**Skype A / V IM 互操作**|
+|**客户端**|**Skype 目录搜索和添加联系人**|**Skype A/V、IM 互操作**|
 |:-----|:-----|:-----|
-|Skype for Business 2015  <br/> |是  <br/> |是  <br/> |
+|Skype for Business  <br/> |是  <br/> |是  <br/> |
 |Mac 版 Skype for Business  <br/> |可以添加（无搜索）  <br/> |是  <br/> |
 |Lync Desktop 2013  <br/> |可以添加（无搜索）  <br/> |是  <br/> |
 |Lync Web App - 联机和本地  <br/> |不适用  <br/> |不适用  <br/> |

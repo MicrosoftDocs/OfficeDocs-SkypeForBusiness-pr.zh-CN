@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb8e30aa-6b3c-4c8f-b22f-02db9e5fb8c0
-description: 在移动用户页中，您可以选择移动到所选的用户的目标池。
-ms.openlocfilehash: 28aa7fb074d4aed5d4d770091cb545917e7cb6df
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 在“移动用户”页上，可以选择要将所选用户移动到的目标池。
+ms.openlocfilehash: 90aec8c75a444e0d8ac11c7296df28ad2ca141d6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19975004"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992602"
 ---
 # <a name="move-user"></a>移动用户
  

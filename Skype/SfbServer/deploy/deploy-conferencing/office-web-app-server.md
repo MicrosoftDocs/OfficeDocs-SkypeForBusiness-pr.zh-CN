@@ -1,39 +1,39 @@
 ---
-title: 在 Skype for Business Server 2015 中配置与 Office Web Apps Server 的集成
+title: 配置与 Skype 中的 Office Web Apps Server 的集成的企业服务器
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
-description: 摘要： 请阅读本主题，以了解如何配置以启用 web 会议的 PowerPoint 演示文稿的 Office Web 应用程序服务器和业务服务器 2015年的 Skype 之间的集成。
-ms.openlocfilehash: da6b5765cf62fc97fcc20b72e2411db306b37f0e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 阅读本主题可了解如何配置 Office Web Apps Server 和 Skype 业务服务器启用 web 会议的 PowerPoint 演示文稿之间的集成。
+ms.openlocfilehash: 558ba648cab4dfd2667251ea96bc83d313746f10
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997312"
 ---
-# <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置与 Office Web Apps Server 的集成
+# <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>配置与 Skype 中的 Office Web Apps Server 的集成的企业服务器
  
-**摘要：**阅读本主题，以了解如何配置以启用 web 会议的 PowerPoint 演示文稿的 Office Web 应用程序服务器和业务服务器 2015年的 Skype 之间的集成。
+**摘要：** 阅读本主题可了解如何配置 Office Web Apps Server 和 Skype 业务服务器启用 web 会议的 PowerPoint 演示文稿之间的集成。
   
-Skype 业务服务器使用 Office Web 应用程序服务器，以处理 web 会议的 PowerPoint 演示文稿。 有关此方法的优点的信息，请参阅[规划业务服务器 2015年的 Skype 在会议](../../plan-your-deployment/conferencing/conferencing.md)。
+Skype 业务服务器使用 Office Web Apps Server 处理的 web 会议的 PowerPoint 演示文稿。 有关此方法的优点的信息，请参阅[Plan for Business Server 的 Skype 中的会议](../../plan-your-deployment/conferencing/conferencing.md)。
   
-可以配置 Skype 业务服务器使用 Office Web 应用程序服务器之前，必须确保已部署和配置 Office Web 应用程序服务器。 Office Web 应用程序服务器的信息，请参阅文章[部署基础结构： Office 联机服务器](https://go.microsoft.com/fwlink/p/?linkid=257525)。 
+您可以配置供业务服务器使用 Office Web Apps Server 的 Skype 之前，必须确保已部署和配置 Office Web Apps Server。 Office Web Apps Server 的信息，请参阅文章[部署基础结构： Office Online Server](https://go.microsoft.com/fwlink/p/?linkid=257525)。 
   
-Office Web 应用程序服务器已成功安装并正确配置您的 Web 服务器场，必须再配置业务服务器与新服务器通信的将 Office Web 应用程序服务器搜索 URL 添加到您的业务的 Skype 的 Skype 后服务器拓扑结构。 
+已成功安装 Office Web Apps Server 和正确配置您的 Web 服务器场，必须然后配置业务服务器通过将 Office Web Apps 服务器发现 URL 添加到您的业务 Skype 与新的服务器进行通信的 Skype 后服务器拓扑。 
   
 > [!NOTE]
-> Office Web 应用程序服务器的最新小版本名为 Office 联机服务器，它受业务服务器 2015 Skype。 有关详细信息，请参阅[Office 联机服务器的文档](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx)。 
+> Office Web Apps Server 的最新小名为 Office Online Server，业务服务器支持的 Skype。 有关详细信息，请参阅[Office Online Server 文档](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx)。 
   
-## <a name="configure-skype-for-business-server-to-communicate-with-office-web-apps-server"></a>Skype 与 Office Web 应用程序服务器进行通信的业务服务器的配置
+## <a name="configure-skype-for-business-server-to-communicate-with-office-web-apps-server"></a>配置业务服务器与 Office Web Apps Server 通信的 Skype
 
 若要向拓扑中添加 Office Web Apps 服务器，请完成下列步骤：
   
-1.  打开 Skype 业务服务器拓扑生成器。
+1.  业务 Server 拓扑生成器打开 Skype。
     
 2. 在“**拓扑生成器**”对话框中，选择“**从现有部署下载拓扑**”，然后单击“**确定**”。
     
@@ -45,7 +45,7 @@ Office Web 应用程序服务器已成功安装并正确配置您的 Web 服务�
     
 6. 在“**定义新的 Office Web Apps 服务器**”对话框的“**Office Web Apps 服务器 FQDN**”框中，键入你的 Office Web Apps 服务器计算机的完全限定域名 (FQDN)；执行此操作时，你的 Office Web Apps 服务器搜索 URL 应自动输入到“**Office Web Apps 服务器搜索 URL**”框中。
     
-  - 如果 Office Web 应用程序服务器是内部部署安装和 Skype 业务服务器然后选择相同的网络分区**Office Web 应用程序服务器被部署在外部网络 (也就是说，外围/Internet)**应该不会选择。
+  - 如果 Office Web Apps Server 内部安装并作为 Business Server 然后选项的 Skype 的同一个网络区域中**的外部网络 (即，外围 /internet) 中部署 Office Web Apps Server**没有被选中。
     
   - 如果 Office Web Apps 服务器部署在内部防火墙之外，则请选择选项“**在外部网络(即，外围/Internet)中部署 Office Web Apps 服务器**”。
     
@@ -65,11 +65,11 @@ Office Web 应用程序服务器已成功安装并正确配置您的 Web 服务�
     
 ## <a name="configure-access-for-external-users"></a>配置外部用户访问
 
-如果您希望为外部用户 （即，从登录您所在组织的防火墙之外） 有权访问 Office Web 应用程序服务器 PowerPoint 演示文稿，则需要使用 Office Web 应用程序服务器和反向代理服务器。 你还需要创建和配置网站发布规则，这有助于确保用户能连接到服务器。 
+如果您希望外部用户 （即从组织防火墙外部登录的用户） 有权访问 Office Web Apps 服务器 PowerPoint 演示文稿，则需要使用 Office Web Apps Server 和反向代理服务器。 你还需要创建和配置网站发布规则，这有助于确保用户能连接到服务器。 
   
 ## <a name="validate-the-configuration"></a>验证配置
 
-Office Web 应用程序服务器添加到拓扑结构中之后和在发布该拓扑结构之后，您应该看到两个新 Skype 业务服务器事件日志中的事件日志事件。 首先，应该添加 LS 数据 MCU 事件（事件 ID 41034）；此事件将报告已发现 Office Web Apps Server：
+Office Web Apps Server 已添加到拓扑之后，发布该拓扑后，您应看到两个新的事件日志事件中为 Business Server 事件日志 Skype。 首先，应该添加 LS 数据 MCU 事件（事件 ID 41034）；此事件将报告已发现 Office Web Apps Server：
   
  **已发现 Web 会议服务器 Office Web Apps Server，启用了 PowerPoint 内容。**
   
@@ -77,20 +77,20 @@ Office Web 应用程序服务器添加到拓扑结构中之后和在发布该拓
   
  **已成功发现 Web 会议服务器 Office Web Apps Server。**
   
- **Office 应用程序的 Web 服务器内部演示者网页： https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp;嵌入 =**
+ **Office Web Apps Server 内部演示者页面： https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp; 嵌入 =**
   
- **Office 应用程序的 Web 服务器内部与会者网页： https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;嵌入 = true&amp;=**
+ **Office Web Apps Server 内部与会者页面： https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp; 嵌入 = true&amp;=**
   
-如果配置了外部用户访问，你还将看到类似下面的内容：
+如果已配置外部用户访问，您将看到类似于：
   
- **Office Web 应用程序服务器外部演示者网页： https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp;嵌入**
+ **Office Web Apps Server 外部演示者页面： https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp; 嵌入**
   
- **Office 应用程序的 Web 服务器内部与会者网页： https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;嵌入 = true&amp;**
+ **Office Web Apps Server 内部与会者页面： https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp; 嵌入 = true&amp;**
   
-如果出现事件 id 为 41033，则意味着该 Office Web 应用程序服务器发现 LS 数据 MCU 事件失败。 在这种情况下，Skype 业务服务器将尝试发现新配置 Office Web 应用程序服务器所需的次数。 如果发现过程反复失败应从拓扑文档中删除 Office Web 应用程序服务器、 发布更新的拓扑，然后尝试连接问题都已解决之后返回到拓扑结构中添加 Office Web 应用程序服务器。
+如果您看到的 41033 事件 id，则意味着的 Office Web Apps Server 发现 LS Data MCU 事件已失败。 在这种情况下，Skype 业务服务器将发现新配置 Office Web Apps Server 所需的多次重试。 如果发现过程失败重复您应从拓扑文档中删除 Office Web Apps Server、 发布更新的拓扑，然后再尝试后已解决连接问题后向拓扑添加 Office Web Apps Server。
   
-如果 Office Web 应用程序服务器看起来正确配置并且已经识别了发现过程可以验证 Office Web 应用程序服务器工作所需的共享一对 Skype 业务客户端之间的 PowerPoint 演示文稿。 如果用户 A 可以加载并显示 PowerPoint 演示文稿，并且用户 B 可以加入会议并观看该演示文稿时使用 Office Web 应用程序服务器。
+如果 Office Web Apps Server 出现正确配置，并且已被识别由发现过程，您可以验证 Office Web Apps Server 可以正常工作的共享 PowerPoint 演示文稿的 Skype 一对业务的客户端之间。 如果用户 A 可以加载和显示 PowerPoint 演示文稿并且用户 B 然后可以加入会议并查看演示文稿使用 Office Web Apps Server。
   
-即使 Office Web 应用程序服务器看起来正确配置，您可能有可能收到错误消息"一些共享功能是由于服务器连接问题而不可用"当您尝试共享的 PowerPoint 演示文稿。 如果您收到此错误消息，您应该重新启动与新的 Office Web 应用程序服务器前端服务器 （或服务器）。
+即使 Office Web Apps Server 出现正确配置，您无法可能收到错误消息"一些共享功能将因服务器连接问题而无法使用"当您尝试进行共享 PowerPoint 演示文稿。 如果您收到此错误消息应重新启动新的 Office Web Apps Server 相关联的前端服务器 （或服务器）。
   
 

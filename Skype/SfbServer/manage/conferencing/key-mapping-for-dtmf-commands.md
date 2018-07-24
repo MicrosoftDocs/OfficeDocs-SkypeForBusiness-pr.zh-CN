@@ -1,28 +1,28 @@
 ---
-title: 在 Skype for Business Server 2015 中管理 DTMF 命令的键映射
+title: 管理业务服务器中 Skype 的 DTMF 命令的键映射
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
-description: 摘要： 了解如何管理业务服务器 2015年在 Skype 的双音多频 (DTMF) 命令的键映射。
-ms.openlocfilehash: 0dca7143b59b7cf4ded0302f763053e71be3bb2b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何管理业务服务器中 Skype 的双音多频 (DTMF) 命令的键映射。
+ms.openlocfilehash: 629db0c94b71b9cbf54ebf2c6f6a5074b4b611fa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992680"
 ---
-# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中管理 DTMF 命令的键映射
+# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>管理业务服务器中 Skype 的 DTMF 命令的键映射
  
-**摘要：**了解如何管理业务服务器 2015年在 Skype 的双音多频 (DTMF) 命令的键映射。
+**摘要：** 了解如何管理业务服务器中 Skype 的双音多频 (DTMF) 命令的键映射。
   
 电话拨入式会议用户可以在电话小键盘上按键以执行双音多频 (DTMF) 命令。通过 DTMF 命令，拨入会议的用户可以使用其电话上的小键盘控制会议设置（例如，将自己静音和取消静音，或者锁定和解锁会议）。 
   
-若要管理用于 DTMF 命令的键，使用 Skype 业务服务器命令行管理程序使用**Get CsDialinConferencingDtmfConfiguration**、**集 CsDialinConferencingDtmfConfiguration**和**新 CsDialinConferencingDtmfConfiguration** cmdlet。
+若要管理使用 DTMF 命令的键，用于 Skype **Get-csdialinconferencingdtmfconfiguration**、 **Set-csdialinconferencingdtmfconfiguration**，和**业务 Server Management Shell新 CsDialinConferencingDtmfConfiguration** cmdlet。
   
 为站点创建新的 DTMF 设置后，站点设置将优先于全局设置。 
 
@@ -56,6 +56,6 @@ ms.lasthandoff: 03/28/2018
 Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
 ```
 
-有关详细信息，请参阅[获取 CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps)、[集 CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)和[新建 CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps)。
+有关详细信息，请参阅[Get-csdialinconferencingdtmfconfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps)、 [Set-csdialinconferencingdtmfconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)和[新建 CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps)。
   
 

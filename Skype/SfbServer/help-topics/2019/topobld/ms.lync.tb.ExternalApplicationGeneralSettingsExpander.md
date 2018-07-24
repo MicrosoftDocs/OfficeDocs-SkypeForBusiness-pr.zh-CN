@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: 若要编辑已定义的受信任应用程序服务器的属性，请按照以下说明。
-ms.openlocfilehash: f6acc3f31e294cab08b688327c7cc9b8f25bea3b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: b01e48a3d2a003295956df981c4b571a7494be34
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987282"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993097"
 ---
 # <a name="external-application-general-settings-expander"></a>外部应用程序常规设置扩展器
  
@@ -38,7 +38,6 @@ ms.locfileid: "19987282"
 
 您可以通过从下拉列表中选择的定义的 Enterprise Edition 前端池或 Standard Edition 前端服务器指定受信任应用程序服务器池的下一个跃点服务器。 控制器或控制器池不受信任应用程序服务器下一个跃点是有效的选项，将不会出现在列表中。
   
-## 
 
 单击**确定**接受并保存所做的更改。 单击“**取消**”将放弃所做的更改并退出属性页面。
   

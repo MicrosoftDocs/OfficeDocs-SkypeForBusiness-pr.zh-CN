@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
+ROBOTS: NOINDEX, NOFOLLOW
 description: 客户端版本配置设置用于打开或关闭客户端版本控制。 全局客户端版本配置与 Skype 的业务服务器安装，并用于启用或禁用整个服务器部署的客户端版本控制。 当全局配置处于启用状态时，用户尝试登录后您所拥有的任何客户端版本策略都将生效。 如果不希望发生任何客户端版本控制，则可以禁用全局客户端版本配置。
-ms.openlocfilehash: 3b03ae27b20ddd84a371c91c95bb3372457df33b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: a5647926d8fca4548dd376da6218e6f9aac27d3c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987576"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983768"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>客户端版本配置：创建新的或编辑现有的
  

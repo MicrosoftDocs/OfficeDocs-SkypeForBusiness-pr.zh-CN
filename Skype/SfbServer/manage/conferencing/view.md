@@ -1,25 +1,24 @@
 ---
-title: 在 Skype for Business Server 2015 中查看会议策略
+title: 查看会议策略中的业务服务器 Skype
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
-description: 摘要： 了解如何为业务服务器 2015 Skype 中查看会议策略。
-ms.openlocfilehash: 5a0e99506d5c9fb7bc8799abcb15e4bb4224a3bc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解如何为业务服务器在 Skype 中查看会议策略。
+ms.openlocfilehash: 161b9f172af935b105e01bda88c1c3dbef2e3a9f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568666"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992334"
 ---
-# <a name="view-conferencing-policies-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中查看会议策略
+# <a name="view-conferencing-policies-in-skype-for-business-server"></a>查看会议策略中的业务服务器 Skype
  
-**摘要：** 了解如何为业务服务器 2015年在 Skype 中查看会议策略。
+**摘要：** 了解如何为业务服务器在 Skype 中查看会议策略。
   
 使用适用于业务 Server Control Panel Skype 或使用 Skype 业务 Server 命令行管理程序，您可以查看会议策略。
   
@@ -37,7 +36,7 @@ ms.locfileid: "19568666"
     
     **编辑会议策略-\<策略\>** 打开显示所选策略的设置。
     
-    有关配置设置的详细信息，请参阅[中的业务服务器 2015 Skype 的创建会议策略](create-policies.md)。
+    有关配置设置的详细信息，请参阅[Skype 业务服务器中的创建会议策略](create-policies.md)。
     
 ## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用 Skype 业务 Server 命令行管理程序查看会议策略
 

@@ -1,26 +1,25 @@
 ---
-title: 在 Skype for Business Server 2015 中配置视频互操作服务器
+title: 为业务 Server Skype 中配置视频互操作性服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
-description: 摘要： 在 Skype for Business Server 2015 配置视频互操作服务器 (VIS) 角色。
-ms.openlocfilehash: 783900004d4f3ed9b060e7f237a62dfc5cf124f1
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 摘要： 在 Skype for Business Server 配置视频互操作服务器 (VIS) 角色。
+ms.openlocfilehash: 68931d9523fba92211295805e2f041869bc3e774
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501929"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20982529"
 ---
-# <a name="configure-the-video-interop-server-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置视频互操作服务器
+# <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>为业务 Server Skype 中配置视频互操作性服务器
  
-**摘要：** 为业务服务器 2015 Skype 中配置视频互操作服务器 (VIS) 角色。
+**摘要：** 在 Skype for Business Server 配置视频互操作服务器 (VIS) 角色。
   
  配置 VIS 将将与使用 Windows PowerShell 的视频中继相关联的设置。 安装 VIS 服务后，将创建全局范围的视频中继配置。 如果中继的视频中继配置不具有更加具体的范围，VIS 将对其应用此视频中继配置。 请注意，视频中继配置是一组适用于视频中继的设置。
   
@@ -32,7 +31,7 @@ ms.locfileid: "19501929"
   
 ### <a name="configure-the-vis-using-windows-powershell"></a>配置使用 Windows PowerShell VIS
 
-1. 创建新的视频的中继配置 （设置的集合） 用于 VIS 和 CUCM，使用以下 Windows PowerShell cmdlet 之间中继：
+1. 创建新的视频的中继配置 （设置的集合） 用于 VIS 和 Cisco 统一通信管理器 （CallManager 或 CUCM） 之间的中继使用以下 Windows PowerShell cmdlet:
     
    ```
    New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
@@ -72,7 +71,7 @@ ms.locfileid: "19501929"
 从其请求 URI 包含非 E.164 号码视频网关视频 SIP 中继呼叫，VIS 将读取与关联的中继，相关联的拨号计划的名称，并将包括在邀请该 VI 请求 URI 的电话上下文部分中的拨号计划名称S 将发送到前端。 然后前端的转换应用程序会提取与拨号计划关联的规范化规则并将其应用于请求 URI。
 ## <a name="trunk-configuration-options"></a>中继配置选项
 
-为前面提到的视频的中继配置的 Windows PowerShell cmdlet 的业务服务器 2015 Skype 过。 需要对与视频中继配置关联的设置进行简要说明。
+为前面提到的视频的中继配置的 Windows PowerShell cmdlet 已业务服务器 2015年的 Skype 的新增内容。 需要对与视频中继配置关联的设置进行简要说明。
   
  **GatewaySendsRtcpForActiveCalls**此参数确定是否 RTCP 数据包从发送 VTC 到 VIS 的活动呼叫。 此情况下的活动呼叫是指允许媒体沿至少一个方向流动的呼叫。 如果 GatewaySendsRtcpForActiveCalls 设置为 True，则 VIS 可以终止呼叫，如果它不会收到超过 30 秒一段的 RTCP 数据包。 默认值为**True**。
   
@@ -86,4 +85,4 @@ ms.locfileid: "19501929"
   
 ## <a name="see-also"></a>另请参阅
 
-[为业务服务器 2015年与 Skype 的互操作配置 CUCM](configure-cucm-for-interoperation.md)
+[为业务服务器与 Skype 的互操作配置 CUCM](configure-cucm-for-interoperation.md)

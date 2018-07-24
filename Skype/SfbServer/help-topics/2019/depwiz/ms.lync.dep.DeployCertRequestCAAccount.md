@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
-description: 若要提交一个请求，证书颁发机构 (CA) 可能需要之外的当前以登录用户的凭据。 要允许其他用户的证书请求，请选择证书颁发机构的复选框指定备用凭据，然后键入的用户名称或作为可申请证书的用户的域 \ 用户名。 在密码文本框中，键入您指定的用户的密码。 用户名和密码然后发送一部分的证书请求过程中，但不能在实际的证书请求到联机 CA。
-ms.openlocfilehash: e4f2f4576fc621bf0409b461b2b51ae9983760f3
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 若要提交一个请求，证书颁发机构 (CA) 可能需要之外的当前以登录用户的凭据。
+ms.openlocfilehash: 5dba120d79cda59babb4f4e3dc3854c6c40083fd
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974948"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016772"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>证书请求 （证书颁发机构帐户）
  

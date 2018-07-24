@@ -1,26 +1,29 @@
 ---
-title: 在 Skype for Business Server 2015 中监视移动性能
+title: 监视移动性的 Skype 业务服务器的性能
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
-description: 摘要： 了解移动服务 (Mcx) 和统一的通信 Web API (UCWA) 在 Skype 业务服务器 2015年。
-ms.openlocfilehash: 1981bff8398f3fab9206f9dab748c545268f7edf
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解 Mobility Service (Mcx) 和统一的通信 Web API (UCWA) 中 Skype 业务服务器。
+ms.openlocfilehash: 4affcb532697f24c87d62e18fc26552639dc00e1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20990635"
 ---
-# <a name="monitor-mobility-for-performance-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中监视移动性能
+# <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>监视移动性的 Skype 业务服务器的性能
  
-**摘要：**了解有关移动服务 (Mcx) 和统一的通信 Web API (UCWA) 在 Skype 业务服务器 2015年。
+**摘要：** 了解有关 Mobility Service (Mcx) 和统一的通信 Web API (UCWA) Skype 中的业务服务器。
   
-Skype 业务服务器移动服务 (Mcx) 和统一通信 Web API (UCWA) 增加前端服务器和前端池上的负载。 即使在移动应用程序最小化，如 Android 和诺基亚设备运行 Lync 2010 移动，以及运行 Lync 2013 移动，Android 和苹果的设备时保持与服务器的连接的移动设备施加比设备的负荷越大，移动应用程序已最小化时终止与服务器的连接。 随着移动使用率不断增加，必须监视移动性能，以确定何时需要增加容量。
+针对业务服务器 Mobility Service (Mcx) 和统一通信 Web API (UCWA) Skype 增加前端服务器和前端池的负载。 移动应用程序最小化，例如 Android 和 Nokia 设备运行 Lync 2010 移动，以及 Android 和 Apple 设备运行 Lync 2013 Mobile，即使维护与服务器的连接的移动设备施加更多负载比设备的移动应用程序最小化时终止其连接到服务器。 随着增加移动使用情况，您必须监视移动性能，以确定当您需要增加容量。
+
+> [!NOTE]
+> MCX 旧的移动客户端支持不再可用的业务服务器 2019 Skype 中。 您的用户需要升级到当前客户端。
   
 有几项限制会影响移动性能： 
   
@@ -36,14 +39,14 @@ Skype 业务服务器移动服务 (Mcx) 和统一通信 Web API (UCWA) 增加前
   
 ## <a name="in-this-section"></a>本节内容
 
-- [服务器内存容量限制在商业服务器 2015年的 Skype 的监视器](server-memory-capacity-limits.md)
+- [监控服务器内存容量限制 Skype 业务服务器](server-memory-capacity-limits.md)
     
-- [在 Skype 的移动服务和 UCWA 使用情况监视业务服务器 2015](service-and-ucwa-usage.md)
+- [监视 Mobility Service 和 UCWA 使用量 Skype 的业务服务器](service-and-ucwa-usage.md)
     
-- [在 Skype 的业务服务器 2015年的高性能配置移动服务](configure-service.md)
+- [配置 Mobility Service 以实现高性能 Skype 中的业务服务器](configure-service.md)
     
-- [监视 IIS 请求跟踪的日志文件在 Skype 业务服务器 2015](iis-request-tracing-log-files.md)
+- [监视 IIS 请求跟踪日志文件中 Skype 业务服务器](iis-request-tracing-log-files.md)
     
-- [在业务服务器 2015年的 Skype 的移动性能计数器](performance-counters.md)
+- [Skype 业务服务器中的移动性能计数器](performance-counters.md)
     
 

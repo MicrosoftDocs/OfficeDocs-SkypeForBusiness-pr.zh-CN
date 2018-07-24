@@ -3,7 +3,7 @@ title: 分配属性
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,16 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
 description: 使用分配属性对话框中一次指定为多个子网的说明和网络站点 ID。 在说明中，键入您想要用于所选的子网的说明。 在网络站点 ID 中，选择您想要分配给所选的子网的网络站点 ID。 若要将这些属性分配给所选的子网，请单击确定。
-ms.openlocfilehash: 17ea661fbc02bb554c47e7a6b47916c234e6c0f7
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 5111f74c27ea2c367218a79c9ea1e0fbb0df0a3a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20044079"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20990272"
 ---
 # <a name="assign-properties"></a>分配属性
  
 使用**分配属性**对话框中一次指定为多个子网的说明和网络站点 ID。 在**说明**框中，键入您想要用于所选的子网的说明。 在**网络站点 ID**框中，选择您想要分配给所选的子网的网络站点 ID。 若要将这些属性分配给所选的子网，请单击**确定**。
   
-
+有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
+  
 

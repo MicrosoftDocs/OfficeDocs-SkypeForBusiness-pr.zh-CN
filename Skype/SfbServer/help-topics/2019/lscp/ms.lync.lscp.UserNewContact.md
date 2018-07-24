@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
+ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: a614c27c50266b04419eca7d8dbf1e0cab2b7c87
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+ms.openlocfilehash: 680c801d09d89bfccfec60c69fb22ced84edf4b0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088488"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984699"
 ---
 # <a name="users-new-contact-objects"></a>用户： 新建联系人对象
  
@@ -43,8 +44,6 @@ ms.locfileid: "20088488"
 - [为用户配置电话](http://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
     
 - [分配每用户移动策略](http://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
-    
-- [分配每用户持久聊天策略](http://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
     
  
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 摘要： 配置测试用户帐户和业务服务器综合事务的 Skype 的观察程序节点设置。
-ms.openlocfilehash: ee5330f10dd97e8ecc8a3e3e30962e6e8a69555b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 3881fc1878ed3b248aa3109b79a3e384ec4a5fb7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569873"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989886"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>配置观察程序节点测试用户和设置
  
@@ -31,9 +31,9 @@ ms.locfileid: "19569873"
 ## <a name="configure-test-user-accounts"></a>配置测试用户帐户
 <a name="testuser"> </a>
 
-测试帐户不需要表示实际的人员，但他们必须是有效的 Active Directory 帐户。 此外，这些帐户必须为业务服务器 2015年启用的 Skype、 它们必须具有有效的 SIP 地址和它们应启用企业语音 （以便使用 Test-cspstnpeertopeercall 综合事务）。 
+测试帐户不需要表示实际的人员，但他们必须是有效的 Active Directory 帐户。 此外，这些帐户必须为 Business Server 启用的 Skype、 它们必须具有有效的 SIP 地址和它们应启用企业语音 （以便使用 Test-cspstnpeertopeercall 综合事务）。 
   
-如果您使用的 TrustedServer 身份验证方法，您需要执行所有是确保这些帐户存在，并将其如前所述配置。 为每个要测试的池的至少三个测试用户，您应将其分配。 如果您使用的协商身份验证方法，您还必须使用 Set-cstestusercredential cmdlet 和业务 Server 命令行管理程序启用这些 Skype 测试帐户的综合事务处理。 通过运行类似于以下 （这些命令假定已创建了三个 Active Directory 用户帐户和这些帐户启用了 Skype 的业务服务器 2015年） 命令执行此操作：
+如果您使用的 TrustedServer 身份验证方法，您需要执行所有是确保这些帐户存在，并将其如前所述配置。 为每个要测试的池的至少三个测试用户，您应将其分配。 如果您使用的协商身份验证方法，您还必须使用 Set-cstestusercredential cmdlet 和业务 Server 命令行管理程序启用这些 Skype 测试帐户的综合事务处理。 执行此操作通过运行类似以下 （这些命令假定已创建了三个 Active Directory 用户帐户并为业务服务器的 Skype 启用这些帐户） 的命令：
   
 ```
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -84,7 +84,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
 > [!NOTE]
 > 此命令的结果必须存储在变量中。 本示例中，该变量名为 $pstnTest。 
   
-接下来，您可以使用**New-cswatchernodeconfiguration** cmdlet 将业务服务器 2015年池 Skype 的测试类型 （存储在变量 $pstnTest） 相关联。 例如，以下命令创建新观察程序节点配置的池 atl-cs-001.litwareinc.com，添加三个测试用户之前，创建和添加 PSTN 测试类型：
+接下来，您可以使用**New-cswatchernodeconfiguration** cmdlet 将业务服务器池 Skype 的测试类型 （存储在变量 $pstnTest） 相关联。 例如，以下命令创建新观察程序节点配置的池 atl-cs-001.litwareinc.com，添加三个测试用户之前，创建和添加 PSTN 测试类型：
   
 ```
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
@@ -128,7 +128,7 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
     
 - JoinLauncher
     
-- MCXP2PIM （移动设备即时消息）
+- MCXP2PIM （旧的移动设备即时消息）
     
 - P2PVideoInteropServerSipTrunkAV
     
@@ -244,7 +244,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabl
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
 ```
 
-该命令删除指定的计算机，这样可以防止在该计算机自动运行综合事务的所有观察程序节点配置设置。 但是，该命令不会卸载 System Center 代理文件或业务服务器 2015年系统文件的 Skype。
+该命令删除指定的计算机，这样可以防止在该计算机自动运行综合事务的所有观察程序节点配置设置。 但是，该命令不会卸载 System Center 代理文件或业务 Server 系统文件 Skype。
   
 默认情况下，观察程序节点使用组织的外部 Web Url 时进行测试。 但是，观察程序节点，还可以配置为使用组织的内部 Web Url。 这使管理员可以确认 for 位于外围网络的用户的 URL 访问。 若要配置观察程序节点以使用内部 Url，而不是外部 Url，请将 UseInternalWebURls 属性设置为 True ($True):
   
@@ -326,7 +326,7 @@ Test-cspstnpeertopeercall 综合事务验证发起和接收通过公用电话交
     
 ### <a name="unified-contact-store-synthetic-transaction"></a>统一的联系人存储库综合事务
 
-统一联系人存储库综合事务验证业务服务器 2015 从 Exchange 中检索代表用户的联系人的 Skype 的能力。
+统一联系人存储库综合事务验证业务服务器从 Exchange 中检索代表用户的联系人的 Skype 的能力。
   
 若要使用此综合事务，必须满足以下条件：
   
@@ -358,7 +358,10 @@ Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:tes
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
-本示例中，业务服务器 2015年规则 Skype 需要路由到 XMPP 网关的 litwareinc.com 的消息已存在
+本示例中，业务服务器规则 Skype 需要路由到 XMPP 网关的 litwareinc.com 的消息已存在。
+
+> [!NOTE]
+> XMPP 网关和代理中的业务服务器 2015 Skype 可用，但业务服务器 2019年不再支持在 Skype。 有关详细信息，请参阅[迁移 XMPP 联盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md)。 
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>视频互操作性服务器 (VIS) 综合事务
 
@@ -438,4 +441,4 @@ $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 在 System Center Operations Manager 从运行综合事务将自动生成这些日志文件的故障。 如果在执行失败，无法加载并运行综合事务的业务 Server PowerShell Skype 之前，将不会生成这些日志。 
   
 > [!IMPORTANT]
-> 默认情况下，业务服务器 2015年的 Skype 将日志文件保存到不共享的文件夹。 若要使无法访问这些日志，您应共享该文件夹。 例如： \\atl-watcher-001.litwareinc.com\WatcherNode。 
+> 默认情况下，业务服务器 Skype 将日志文件存储不共享的文件夹。 若要使无法访问这些日志，您应共享该文件夹。 例如： \\atl-watcher-001.litwareinc.com\WatcherNode。 

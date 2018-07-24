@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 中的点对点会话详细信息报告
+title: Skype 中的业务服务器的对等会话详细信息报告
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-description: 摘要： 了解在 Skype 业务服务器 2015年的对等会话详细信息报告。
-ms.openlocfilehash: 454a31449ceff109ac81bd266f1ef7c21f7c0afd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解在 Skype 业务服务器的对等会话详细信息报告。
+ms.openlocfilehash: 6ac6a26c52fcc0eaca4890631b1d91f338930421
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000724"
 ---
-# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的点对点会话详细信息报告
+# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Skype 中的业务服务器的对等会话详细信息报告
  
-**摘要：**了解在 Skype 业务服务器 2015年的对等会话详细信息报告。
+**摘要：** 了解业务服务器的对等会话详细信息报告中 Skype。
   
 对等会话详细信息报告返回有关对等会话的详细信息。例如，如果您选择即时消息会话，则此报告将告知您会话中两个用户各自发送的消息数。
   
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/28/2018
     
 - 故障列表报告 
     
-从对等会话详细信息报表中您可以访问[业务服务器 2015年的 Skype 在诊断报告](diagnostic-report.md)通过单击规格，诊断报告 （详细信息）。 此外，还可以通过单击这两个指标之一来访问主要故障报告：
+从对等会话详细信息报告中可以访问[诊断报告中的业务服务器 Skype](diagnostic-report.md)通过单击诊断报告 （详细信息） 指标。 此外，还可以通过单击这两个指标之一来访问主要故障报告：
   
 - 响应
     
@@ -56,7 +56,7 @@ ms.lasthandoff: 03/28/2018
 
 下表列出了每个会话的对等会话详细信息报告中提供的信息。
   
-**会话信息度量**
+**会话信息指标**
 
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**说明**|
 |:-----|:-----|
@@ -83,9 +83,9 @@ ms.lasthandoff: 03/28/2018
 
 下表列出了每种会话形式的对等会话详细信息报告中提供的信息。
   
-**对于情态的指标**
+**形式指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**可以在此项上进行排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**形式** <br/> |否  <br/> |会话中使用的形式。例如，即时消息 (IM) 或文件传输。  <br/> |
 |**源用户消息** <br/> |否  <br/> |启动会话的用户发送的消息数。  <br/> |
@@ -95,9 +95,9 @@ ms.lasthandoff: 03/28/2018
 
 下表列出了每个诊断报告的对等会话详细信息报告中提供的信息。
   
-**诊断报告的度量标准**
+**诊断报告指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**可以在此项上进行排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**详情** <br/> |否  <br/> |当您单击此项时，报告显示会话的诊断报告。  <br/> |
 |**报告时间** <br/> |否  <br/> |记录报告的日期和时间。  <br/> |

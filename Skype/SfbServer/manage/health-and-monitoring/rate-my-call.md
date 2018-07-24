@@ -1,33 +1,32 @@
 ---
-title: 在 Skype for Business Server 2015 中评价我的呼叫
+title: 为业务服务器中 Skype 评价我的呼叫
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/13/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: 摘要： 了解为业务服务器 2015年的 Skype 中的速率我的呼叫功能。
-ms.openlocfilehash: 54e751731e305767eecb755f274de667949379f2
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解业务服务器的 Skype 中的速率我的呼叫功能。
+ms.openlocfilehash: 737d6a71f6880139d558d601a14d8f76c61d80f2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569795"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989061"
 ---
-# <a name="rate-my-call-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中评价我的呼叫
+# <a name="rate-my-call-in-skype-for-business-server"></a>为业务服务器中 Skype 评价我的呼叫
  
-**摘要：** 为业务服务器 2015年了解 Skype 中的速率我的呼叫功能。
+**摘要：** 了解业务服务器 Skype 中的速率我的呼叫功能。
   
-速率我呼叫是 Skype 业务 2015年和 2016年提供一种反馈获得最终用户的企业版的 Windows 上的客户端中的新功能。
+速率我呼叫已 Skype 业务 2015年和 2016年提供一种反馈获得最终用户的企业版的 Windows 上的客户端中的新功能。
   
 速率我的呼叫窗口提供"星"评级系统和用于音频和视频呼叫的预定义的令牌。 此外，管理员可以使自定义字段提供反馈。
   
 收集的“评价我的呼叫”数据当前不包含在现有监控报告中，但其具有单独的监控报告。 可通过运行 SQL 查询的 SQL 表中收集数据。
   
-## <a name="rate-my-call-prerequisites"></a>评价我的呼叫必备组件
+## <a name="rate-my-call-prerequisites"></a>“评价我的呼叫”先决条件
 
 您 Skype 业务服务器部署中的用户可以访问速率我呼叫功能之前，必须部署以下组件组，并将其配置中：
   
@@ -41,7 +40,7 @@ ms.locfileid: "19569795"
     
 - 我们建议部署呼叫质量仪表板 (CQD)。
     
-## <a name="configure-rate-my-call"></a>配置速率我的呼叫
+## <a name="configure-rate-my-call"></a>配置“评价我的呼叫”
 
 使用以下设置的客户端策略中的默认情况下启用速率我的呼叫功能：
   
@@ -55,7 +54,7 @@ ms.locfileid: "19569795"
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
 
-## <a name="accessing-rate-my-call-data"></a>访问我的呼叫数据速率
+## <a name="accessing-rate-my-call-data"></a>访问“评价我的呼叫”数据
 
 来自用户的数据收集监控数据库中的两个表中。
   
@@ -63,7 +62,7 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
   
  **[QoeMetrics]。[dbo]。[CallQualityFeedbackTokenDef]**-此表包含令牌的定义。
   
-令牌定义编码，如下所示：
+令牌定义采用了如下编码：
   
 |||
 |:-----|:-----|
@@ -110,7 +109,7 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
   
 可以通过调用表中的数据**选择\*从 [Table.Name]** 查询或使用 Microsoft SQL Server Management Studio。
   
-可以使用以下 SQL 查询：
+可使用以下 SQL 查询：
   
  **音频**
   

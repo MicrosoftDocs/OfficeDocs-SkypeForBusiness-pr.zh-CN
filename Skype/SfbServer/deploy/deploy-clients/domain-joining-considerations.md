@@ -3,19 +3,18 @@ title: Skype 会议室系统域加入注意事项
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: 阅读本主题，了解如何将 Skype 会议室系统家用电脑加入你的域。
-ms.openlocfilehash: ffc55984df3b42b06f4db8faa6a286ea41e99480
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: b89ca5c5619c8d090aa765d0be1765b0b13900de
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568659"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972476"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype 会议室系统域加入注意事项
  
@@ -60,12 +59,12 @@ $myCred = New-Object System.Management.Automation.PSCredential $username, $passw
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
 ```
 
-即使你创建单独的 OU 并阻止集成，但是有些策略可能会在较高级别引起问题。 具有“禁止替代”设置的组策略会打败具有“阻止策略继承”设置的 OU。 详细信息，请参阅文章"无重写 as 相比收件人阻止策略继承"中的组策略文档http://technet.microsoft.com/en-us/library/cc978255.aspx。
+即使你创建单独的 OU 并阻止集成，但是有些策略可能会在较高级别引起问题。 具有“禁止替代”设置的组策略会打败具有“阻止策略继承”设置的 OU。 有关详细信息，请参阅[禁止替代与阻止策略继承](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10))的组策略文档中的文章。
   
 你可能有多种方法来解决这些问题。 我们建议你咨询 Active Directory 专家来确保为你提供的 OU 具有合适的 GPO 设置或者至少其中不存在上面所述的策略。 建议为 Skype 会议室系统设备启用服务质量 (QoS)。
 
 ## <a name="see-also"></a>另请参阅
   
-[设备配置： 创建新的或编辑现有的](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
+[设备配置：创建新的或编辑现有的](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 
 [管理服务质量](../../plan-your-deployment/network-requirements/network-requirements.md#managing-quality-of-service)

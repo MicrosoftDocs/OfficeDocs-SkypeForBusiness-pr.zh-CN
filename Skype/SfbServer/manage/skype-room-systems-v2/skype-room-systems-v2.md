@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Skype 会议室系统 v2 的管理概述。
-ms.openlocfilehash: 5e6fe310051d5fc48875a878e64868a8a5672346
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 81ad0e43f68127e3a178434ebdd8ac8a43c94adc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014901"
 ---
 # <a name="management-overview"></a>管理概述 
 
@@ -39,7 +40,7 @@ Skype 会议室系统 v2 应用程序和连接的外围设备的状态信息写�
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (dword) 1  <br/> |允许 Skype 会议室系统 v2 启动  <br/> |
 |电源管理-\>上交流，关闭屏幕 10 分钟后  <br/> 电源管理-\>上交流，从不提供系统进入休眠模式  <br/> |允许 Skype 会议室系统 v2 附加显示关闭并自动唤醒  <br/> |
-|net accounts /maxpwage:unlimited  <br/> 或对本地帐户禁用密码过期的等效方法。 如果此操作失败，将最终导致 Skype 帐户无法登录，且被告知密码过期。 请注意，这会影响计算机上的所有本地帐户，因此，此设置失败还会导致已有的管理帐户最终也过期。  <br/> |启用 Skype 帐户以始终登录  <br/> |
+|net accounts /maxpwage:unlimited  <br/> 或对本地帐户禁用密码过期的等效方法。如果此操作失败，将最终导致 Skype 帐户无法登录，且被告知密码过期。请注意，这会影响计算机上的所有本地帐户，因此，此设置失败还会导致已有的管理帐户最终也过期。  <br/> |启用 Skype 帐户以始终登录  <br/> |
    
 使用组策略的文件传输将在[配置文件项](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)讨论。
   
@@ -74,7 +75,7 @@ Skype 会议室系统 v2 应用程序和连接的外围设备的状态信息写�
 
 有关疑难解答和管理模式的详细信息，请参阅[管理 Skype 会议室系统 v2](room-systems-v2-operations.md#admin-mode-and-device-management)。 
 
-### <a name="see-also"></a>另请参阅
+## <a name="see-also"></a>另请参阅
 
 [Skype 会议室系统版本 2 帮助](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

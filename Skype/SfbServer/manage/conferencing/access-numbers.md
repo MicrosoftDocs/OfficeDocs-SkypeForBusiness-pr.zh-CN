@@ -1,29 +1,28 @@
 ---
-title: 在 Skype for Business Server 2015 中管理电话拨入式会议访问号码
+title: '管理 Business Server （英文） 中 Skype 的电话拨入式会议访问号码 '
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
-description: 摘要： 了解如何为业务服务器 2015年管理 Skype 中的电话拨入式会议访问号码。
-ms.openlocfilehash: 3bbde214863fa7d08214569e4d9aa2a767016eb4
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解如何为业务服务器管理 Skype 中的电话拨入式会议访问号码。
+ms.openlocfilehash: a9e93b52a329a4fdce6817a758b6c6dcb29a0348
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569433"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008186"
 ---
-# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中管理电话拨入式会议访问号码
+# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>管理 Business Server （英文） 中 Skype 的电话拨入式会议访问号码
  
-**摘要：** 了解如何管理业务服务器 2015 Skype 中的电话拨入式会议访问号码。
+**摘要：** 了解如何为业务服务器管理 Skype 中的电话拨入式会议访问号码。
   
-部署电话拨入式会议时，需要设置用户可以从公用电话交换网 (PSTN) 拨打以加入会议的音频部分的电话号码。 这些拨入访问号码显示在会议邀请和“电话拨入式会议设置”网页上。 
+部署电话拨入式会议时，需要设置用户可以从公用电话交换网 (PSTN) 拨打以加入会议的音频部分的电话号码。这些拨入访问号码显示在会议邀请和“电话拨入式会议设置”网页上。 
   
-本主题描述如何查看、修改或删除现有的电话拨入式会议访问号码。 有关如何创建初始电话拨入访问号码的详细信息，请参阅[配置电话拨入式会议中的业务服务器 2015 Skype](../../deploy/deploy-conferencing/dial-in-conferencing.md)。
+本主题描述如何查看、修改或删除现有的电话拨入式会议访问号码。 有关如何创建初始电话拨入访问号码的详细信息，请参阅[Skype 业务服务器中的电话拨入式会议配置](../../deploy/deploy-conferencing/dial-in-conferencing.md)。
   
 ## <a name="view-dial-in-conferencing-access-numbers"></a>查看拨入会议访问号码
 
@@ -122,7 +121,7 @@ Regions            : {US}
     
     最多可以为每个拨入访问号码选择四种辅助语言。用户通过电话拨入加入会议时，在输入会议 ID 之前可以选择一种辅助语言。
     
-12. 若要添加的电话拨入访问号码，在**关联区域**，下的区域单击 * * 添加 * *，单击与针对此拨入访问号码，拨号计划关联的一个或多个区域，然后单击**确定**。
+12. 若要添加区域的拨入访问号码，在**关联区域**，下单击**添加**，单击一个或多个区域，与拨号计划针对此拨入访问号码，然后单击**确定**。
     
 13. 要从拨入访问号码中删除某个区域，请在“关联区域”**** 下，单击要删除的区域，然后单击“删除”****。
     
@@ -152,7 +151,7 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
   
 ### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 删除电话拨入式会议访问号码
 
-1.  从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机2015。
+1.  从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机.
     
 2.  打开 Skype 业务 Server Control Panel。
     

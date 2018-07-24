@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 可以使用以下部分编辑现有部署的属性：
-ms.openlocfilehash: 79355ac9017ddb2e073a053d7b2aed1c60278fe7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d5bf68df276cf7c5136bf694d7592e09b1357571
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20991601"
 ---
 # <a name="deployment-settings-expander"></a>部署设置扩展器
  
@@ -69,10 +70,10 @@ ms.lasthandoff: 03/28/2018
 > [!IMPORTANT]
 > 为基础结构定义、发布并部署中央管理存储后，则必须通过外部进程将中央管理存储重新定位至其他前端，然后才能更改中央管理存储的位置。 
   
-有关移动中央管理存储的详细信息，请参阅 Windows PowerShell cmdlet 引用中的[移动 CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) 。
+有关移动中央管理存储的详细信息，请参阅 Windows PowerShell cmdlet 参考中的[Move-csmanagementserver](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) 。
   
-## 
+## <a name="see-also"></a>另请参阅
 
-定义和配置这些设置的详细信息，请参阅[定义和配置拓扑结构](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)。
+有关定义和配置这些设置的详细信息，请参阅[Defining and Configuring the Topology](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)。
   
 

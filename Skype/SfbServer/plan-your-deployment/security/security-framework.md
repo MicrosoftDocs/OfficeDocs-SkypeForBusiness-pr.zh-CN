@@ -1,29 +1,29 @@
 ---
-title: Skype for Business Server 2015 安全框架
+title: Skype 业务服务器的安全框架
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 7/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-description: 本节概述了业务服务器 2015年的 Skype 形成安全框架的基本元素。 了解这些元素在一起工作的方式对有关保护您特定的业务服务器 2015年部署 Skype 明智决策至关重要。
-ms.openlocfilehash: c29941a3e903b6318db2de0453589b5017e6f51b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 本节概述了业务服务器 Skype 的表单的安全框架的基本要素。 了解这些要素协同工作的方式对于做出有关保护您的业务服务器部署的特定 Skype 的明智的决定至关重要。
+ms.openlocfilehash: 487b3ea7f57c1a008327be2b9b31664a160e8425
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983614"
 ---
-# <a name="security-framework-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 安全框架
+# <a name="security-framework-for-skype-for-business-server"></a>Skype 业务服务器的安全框架
  
-本节概述了业务服务器 2015年的 Skype 形成安全框架的基本元素。 了解这些元素在一起工作的方式对有关保护您特定的业务服务器 2015年部署 Skype 明智决策至关重要。
+本节概述了业务服务器 Skype 的表单的安全框架的基本要素。 了解这些要素协同工作的方式对于做出有关保护您的业务服务器部署的特定 Skype 的明智的决定至关重要。
   
 这些要素如下所示：
   
-- Active Directory 域服务 (AD DS) 提供一个可靠的后端存储库的用户帐户和网络资源。
+- Active Directory 域服务 (AD DS) 为用户帐户和网络资源提供单个受信任的后端存储库。
     
 - 通过基于角色的访问控制 (RBAC)，您能够在保持高标准安全性的同时委派管理任务。
     
@@ -33,26 +33,26 @@ ms.lasthandoff: 03/28/2018
     
 - 用于用户身份验证的行业标准协议，如果可能。
     
-- Windows PowerShell 提供安全功能，默认情况下启用，以便用户不能轻松地不知不觉地或运行脚本。
+- Windows PowerShell 提供默认启用的以便用户无法轻松或在不知情的情况下运行脚本的安全功能。
     
-这些基本的安全元素一起工作来定义受信任的用户、 服务器、 连接和操作，来帮助确保安全的基础的 Skype 业务服务器 2015年。
+这些基本安全要素共同定义受信任的用户、 服务器、 连接和操作，以帮助确保安全的基础的 Skype 业务服务器。
   
 ## <a name="in-this-section"></a>本节内容
 
-本节中的主题描述每个基本元素的工作方式来提高您 Skype 业务服务器基础结构的安全性。
+本节中的主题介绍每个基本要素如何工作以增强您 Skype Business Server 基础结构的安全性。
   
-- [Skype 业务服务器 2015年的 active Directory 域服务](active-directory-domain-services.md)
+- [业务服务器 Skype 的的 active Directory 域服务](active-directory-domain-services.md)
     
-- [为业务服务器 2015年的 Skype 的基于角色的访问控制 (RBAC)](role-based-access-control-rbac.md)
+- [基于角色的访问控制 (RBAC) 的 Skype 业务服务器](role-based-access-control-rbac.md)
     
-- [Skype 业务服务器 2015年的公钥基础结构](public-key-infrastructure-for-skype.md)
+- [公钥基础结构 Skype 业务服务器](public-key-infrastructure-for-skype.md)
     
-- [TLS 和 Skype 业务服务器 2015年的 MTLS](tls-and-mtls.md)
+- [Skype 业务服务器的 TLS 和 MTLS](tls-and-mtls.md)
     
-- [对 Skype 业务服务器 2015年的加密](encryption.md)
+- [Skype 加密业务服务器](encryption.md)
     
-- [用户和客户端的身份验证为 Skype 的业务服务器 2015](user-and-client-authentication.md)
+- [用户和客户端身份验证的 Skype 业务服务器](user-and-client-authentication.md)
     
-- [Windows PowerShell 和 Skype 业务服务器 2015年管理工具](management-tools.md)
+- [Windows PowerShell 和 Skype 的业务 Server 管理工具](management-tools.md)
     
 

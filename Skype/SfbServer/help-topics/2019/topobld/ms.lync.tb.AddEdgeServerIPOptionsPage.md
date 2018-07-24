@@ -10,17 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
-description: Microsoft Lync Server 2013，可以为边缘服务器和边缘池配置为每个接口的 IPv4 和 IPv6 地址。 若要执行此操作，请执行以下操作：
-ms.openlocfilehash: a303c4dc3d6fe82617449795507ef87017676a4a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+description: Skype 业务服务器可以为边缘服务器和边缘池配置为每个接口的 IPv4 和 IPv6 地址。 若要执行此操作，请执行以下操作：
+ms.openlocfilehash: 5ddad12c17041b84c36ccdd99ee4ed76d27fb553
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974955"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016986"
 ---
 # <a name="add-edge-server-ip-options"></a>添加边缘服务器 IP 选项
  
-Microsoft Lync Server 2013，可以为边缘服务器和边缘池配置为每个接口的 IPv4 和 IPv6 地址。 若要执行此操作，请执行以下操作：
+Skype 业务服务器可以为边缘服务器和边缘池配置为每个接口的 IPv4 和 IPv6 地址。 若要执行此操作，请执行以下操作：
   
 - **内部接口上启用 IPv4**： 如果您想要将 IPv4 地址应用到边缘服务器或边缘池内部接口选中复选框
     

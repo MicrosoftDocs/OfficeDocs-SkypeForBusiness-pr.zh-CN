@@ -1,27 +1,26 @@
 ---
-title: Skype for Business Server 2015 中的 PSTN 会议摘要报告
+title: PSTN 会议摘要报告中 Skype 业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
-description: 摘要： 了解 PSTN 会议摘要报告中 Skype 业务服务器 2015年。
-ms.openlocfilehash: cda98ec62d8f59992f028cd9189e5f696ffaf2ac
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解 PSTN 会议摘要报告中 Skype 业务服务器。
+ms.openlocfilehash: 0a748fe092af9e2cebd089c5dbadf36e9df1f8ab
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569290"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002862"
 ---
-# <a name="pstn-conference-summary-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 PSTN 会议摘要报告
+# <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>PSTN 会议摘要报告中 Skype 业务服务器
  
-**摘要：** 了解 PSTN 会议摘要报告中 Skype 业务服务器 2015年。
+**摘要：** 了解 PSTN 会议摘要报告中 Skype 业务服务器。
   
-在业务服务器 2015年的 Skype，PSTN 会议是在其中至少一个参与者拨入的音频部分使用 PSTN （公用电话交换网） 电话的任何会议。 (PSTN 电话是"固定电话"，移动电话或其他任何不进行的语音使用 ip 电话。)尽管称为 PSTN 会议监控报告，这些会议也许更通常称为电话拨入式会议。
+Skype 业务服务器，在 PSTN 会议是在其中至少一个参与者拨入的音频部分使用 PSTN （公用电话交换网） 电话的任何会议。 (PSTN 电话是"固定电话"，移动电话或其他任何不进行的语音使用 ip 电话。)尽管称为 PSTN 会议监控报告，这些会议也许更通常称为电话拨入式会议。
   
 PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（即，所有至少有一个电话拨入式用户的会议）的信息。此报告包括有关 PSTN 会议总数和参与这些会议的人员总数的信息，并且可能包括有关电话拨入式用户的总数（PSTN 参与者指标总计）的信息（此信息最重要）。
   
@@ -31,7 +30,7 @@ PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（
   
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>最充分地利用 PSTN 会议摘要报告
 
-若要确定包括电话拨入式用户的所有会议的百分比，与在[Conference Summary Report 中的业务服务器 2015 Skype](conference-summary-report.md)上找到的会议总数指标的总 PSTN 会议指标总计的值进行比较。
+若要确定包括电话拨入式用户的所有会议的百分比，比较[中的业务服务器 Skype Conference Summary Report](conference-summary-report.md)上找到的会议总数指标与总 PSTN 会议指标总计的值。
   
 如果您未看到所预计数目的 PSTN 会议，请记住，组织允许电话拨入式用户的会议的能力取决于已分配给用户的会议策略：如果仅允许几个用户主持 PSTN 会议，则可以明显看到 PSTN 会议的数目极少。 您可以快速验证的会议策略 （如果有） 使用户可以通过为业务 Server Management Shell 中运行以下命令从 Skype 中的安排 PSTN 会议：
   
@@ -71,7 +70,7 @@ Tag:DublinDialInUsers                                       True
   
 **PSTN 会议摘要报告指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**您可以按此项排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**每小时** <br/> **每天** <br/> **每周** <br/> **每月** <br/> |否  <br/> |指示所选的时间间隔。如果适用，可单击某一给定的时间间隔以查看该间隔的详细信息。例如，如果使用“每天”间隔并单击 2015/7/7，可查看当日用户注册活动的每小时细分信息。  <br/> |
 |**PSTN 会议总数** <br/> |否  <br/> |允许拨入访问的会议总数。  <br/> |

@@ -1,42 +1,42 @@
 ---
-title: Skype for Business Server 2015 中的主要故障报告
+title: Skype 中的业务服务器的主要故障报告
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: 摘要： 了解业务服务器 2015 Skype 的 Top 错误报告。
-ms.openlocfilehash: 3eb536fdeaa606c16c78954401bc43e91dd520d9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解业务服务器中 Skype 的主要故障报告。
+ms.openlocfilehash: 7050c156d78ed7b4c254976cf4fd2027f3a677d0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002156"
 ---
-# <a name="top-failures-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的主要故障报告
+# <a name="top-failures-report-in-skype-for-business-server"></a>Skype 中的业务服务器的主要故障报告
  
-**摘要：**了解业务服务器 2015 Skype 的 Top 错误报告。
+**摘要：** 了解业务服务器中 Skype 的主要故障报告。
   
 主要故障报告说明了最常报告的故障及其在一段时间内的趋势。故障基于以下两项指标的组合：
   
 - **诊断 ID**。附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式）。诊断 ID 提供的信息在解决与呼叫相关的问题时很有用。
     
-- **响应代码**。 响应代码在 SIP 通信会话中用来响应 SIP 请求。 例如，假定 Ken 将 INVITE 请求发送给 Pilar Ackerman（即，假定 Ken Myer 呼叫 Pilar Ackerman）。 如果 Pilar 应答，则她的电话将发送响应代码 200（确定），以便让 Ken 的电话获知 Pilar 已应答。 前故障报告只包括响应代码发送的响应与调用的失败;Skype 业务服务器不跟踪的所有发布过程中调用的响应码。
+- **响应代码**。 响应代码在 SIP 通信会话中用来响应 SIP 请求。 例如，假定 Ken 将 INVITE 请求发送给 Pilar Ackerman（即，假定 Ken Myer 呼叫 Pilar Ackerman）。 如果 Pilar 应答，则她的电话将发送响应代码 200（确定），以便让 Ken 的电话获知 Pilar 已应答。 主要故障报告只包括发送响应呼叫失败; 的响应代码Skype 业务服务器不会不跟踪的过程中调用发出的所有响应代码。
     
 不仅将报告与出现故障的会话的总数相关的信息，而且还将报告与受故障影响的用户总数相关的信息。
   
 ## <a name="accessing-the-top-failures-report"></a>访问主要故障报告
 
-可从监控报告主页访问主要故障报告。 单击报告会话指标将进入[业务服务器 2015年的 Skype 在失败分发报告](failure-distribution-report.md)。
+可从监控报告主页访问主要故障报告。 单击报告会话指标会将您导引到[故障分布报告中的业务服务器 Skype](failure-distribution-report.md)。
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>最充分地利用主要故障报告
 
-主要故障报告有一个与众不同的方面：它允许您一次性对最多 5 个诊断 ID 进行筛选。 （通常只能筛选对一个项目-例如，一个用户的 SIP 地址的一次。）若要对多个诊断 Id 筛选，只是在诊断 Id 框中，使用逗号分隔的 Id 输入每个 ID。 （如果您愿意，您可以使空白空间每个逗号后）。例如：
+主要故障报告有一个与众不同的方面：它允许您一次性对最多 5 个诊断 ID 进行筛选。 （通常只能筛选一个项-例如，一个用户的 SIP 地址的上一次。）多个诊断 Id 的筛选器，只需在诊断 Id 框中，用逗号隔开 Id 中输入每个 ID。 （如果需要，则可以留下的空白区域后每个逗号。）例如：
   
-1011、 2412年、 1033，52116、 1008年
+1011，2412年，1033，52116、 1008年
   
 这样一来，将仅显示报告了这五个诊断 ID 中的至少一个 ID 的失败呼叫。
   
@@ -50,7 +50,7 @@ ms.lasthandoff: 03/28/2018
   
 下表列出了可用于主要故障报告的筛选器。
   
-**Top 错误报表筛选器**
+**主要故障报告筛选器**
 
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**说明**|
 |:-----|:-----|
@@ -67,9 +67,9 @@ ms.lasthandoff: 03/28/2018
 
 下表列出了主要故障报告中提供的信息。
   
-**Top 错误报告统计数据**
+**主要故障报告指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**可以在此项上进行排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**等级** <br/> |是  <br/> |基于报告的会话数确定的相对等级。  <br/> |
 |**报告的会话** <br/> |是  <br/> |基于诊断 ID 和 SIP 响应代码确定的失败会话总数。  <br/> |

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
+ROBOTS: NOINDEX, NOFOLLOW
 description: 若要开始 Skype 业务服务器安装，必须准备 Active Directory 域服务架构、 林和域将承载服务器和用户。 Skype 的业务 Server 部署向导将指导您完成准备 Active Directory，开始与架构然后再转换林准备所需的步骤。 确认后 Active Directory 复制已成功，然后准备每个将承载任何用户或服务器的域。
-ms.openlocfilehash: 69c101d7aa22e5129253760883ed0d83f1c8f164
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 501fbfe8b98e7334386e116c76812502f92ac53c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991043"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987654"
 ---
 # <a name="prepare-active-directory"></a>准备 Active Directory
  

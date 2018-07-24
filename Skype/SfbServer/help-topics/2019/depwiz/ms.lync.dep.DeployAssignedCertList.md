@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfc6db2d-141e-4395-819a-65ba4629ccca
-description: 在查看证书页上，没有使您能够选择本地证书存储中的任何有效的证书的窗格。 您可以选择一个证书，，然后单击查看证书详细信息。 将一个新的窗格中显示了证书。 在证书窗格中，您可以查看的一般的证书信息。 单击详细信息选项卡以显示有关该证书，如使用者名称和使用者替代名称的详细的信息。 证书路径将显示的信任证书链的路径。 完成检查证书信息后，单击确定。
-ms.openlocfilehash: da08cf6b50bfdc522a8bcc36852e94678c390ffd
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 在查看证书页上，没有使您能够选择本地证书存储中的任何有效的证书的窗格。 您可以选择一个证书，，然后单击查看证书详细信息。 将一个新的窗格中显示了证书。 在证书窗格中，您可以查看的一般的证书信息。 单击详细信息选项卡以显示有关该证书，如使用者名称和使用者替代名称的详细的信息。 证书路径将显示 thechain 的信任证书的路径。 完成检查证书信息后，单击确定。
+ms.openlocfilehash: a08606e7ec1901ca3cb8dd0d5d166667e6eef654
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969475"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21017780"
 ---
 # <a name="view-certificate"></a>查看证书
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 83697d4c-320b-4797-beb0-dd0bc4f1d0d6
-description: 若要创建的延迟的请求或脱机请求，请选中现在准备请求，但发送它更高版本 （脱机证书请求）。 若要创建即时请求给联机证书颁发机构 （通常在贵组织的公钥基础结构内部系统），选择立即将请求发送给联机证书颁发机构。
-ms.openlocfilehash: 562a7f8e5d35e1444b9a4ef91d96da767ed7c7e2
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 要创建延迟请求或脱机请求，请选择“立即准备请求，但是稍后发送（脱机证书请求）”。 若要创建即时请求给联机证书颁发机构 （通常在贵组织的公钥基础结构内部系统），选择立即将请求发送给联机证书颁发机构。
+ms.openlocfilehash: 09f5b97bba4cad9799d3f3cdcb30816b7f69fd6c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990651"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003019"
 ---
 # <a name="certificate-request-online-offline"></a>证书请求（联机/脱机）
  

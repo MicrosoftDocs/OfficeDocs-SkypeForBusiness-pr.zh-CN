@@ -1,25 +1,24 @@
 ---
-title: 在 Skype for Business Server 2015 中部署 SRS v1 管理 Web 门户
+title: 为业务服务器部署中 Skype SR v1 管理 Web 门户
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/3/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
-description: 为业务服务器 2015 Skype 会议室系统 v1 Skype (SR v1、 之前被称为 Lync 会议室系统) 管理 Web 门户是以便组织用来维护其 Skype 会议室系统会议室的 web 门户。 管理员可以使用 SR v1 管理 Web 门户以进行监视，设备运行状况，例如监视音频/视频设备。 与此门户，管理员可以远程收集诊断信息来监视会议室内运行状况。
-ms.openlocfilehash: 84f9d84861980f970fb496f957c712a1d7dfead4
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+description: 为业务服务器 Skype 会议室系统 v1 Skype (SR v1、 之前被称为 Lync 会议室系统) 管理 Web 门户是以便组织用来维护其 Skype 会议室系统会议室的 web 门户。 管理员可以使用 SR v1 管理 Web 门户以进行监视，设备运行状况，例如监视音频/视频设备。 与此门户，管理员可以远程收集诊断信息来监视会议室内运行状况。
+ms.openlocfilehash: f9f11674bdc40a5a93b9d2e40c9a02a12fe30214
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088530"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013361"
 ---
-# <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中部署 SRS v1 管理 Web 门户
+# <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>为业务服务器部署中 Skype SR v1 管理 Web 门户
  
-为业务服务器 2015 Skype 会议室系统 v1 Skype (SR v1、 之前被称为 Lync 会议室系统) 管理 Web 门户是以便组织用来维护其 Skype 会议室系统会议室的 web 门户。 管理员可以使用 SR v1 管理 Web 门户以进行监视，设备运行状况，例如监视音频/视频设备。 与此门户，管理员可以远程收集诊断信息来监视会议室内运行状况。
+为业务服务器 Skype 会议室系统 v1 Skype (SR v1、 之前被称为 Lync 会议室系统) 管理 Web 门户是以便组织用来维护其 Skype 会议室系统会议室的 web 门户。 管理员可以使用 SR v1 管理 Web 门户以进行监视，设备运行状况，例如监视音频/视频设备。 与此门户，管理员可以远程收集诊断信息来监视会议室内运行状况。
   
 若要使用此功能，需要为业务 Server 前端服务器部署在每个 Skype SR v1 管理 Web 门户。 本指南面向管理员提供有关如何安装和配置 SRS 管理 Web 门户的说明。 这被专为管理员拥有业务服务器管理，Skype 的知识和谁具有管理员用户权限，才能修改企业服务器拓扑的 Skype。
   

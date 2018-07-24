@@ -1,25 +1,24 @@
 ---
-title: Skype for Business Server 2015 中的 IP 电话清单报告
+title: IP 电话清单报告中 Skype 业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
-description: 摘要： 了解 IP 电话清单报告中 Skype 业务服务器 2015年。
-ms.openlocfilehash: fd68e94f9d4c30aafb86302d8211b52909f737db
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解 IP 电话清单报告中 Skype 业务服务器。
+ms.openlocfilehash: bbcbe74fe95d719bee2b8c660d110854088b1150
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569552"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21017976"
 ---
-# <a name="ip-phone-inventory-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 IP 电话清单报告
+# <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>IP 电话清单报告中 Skype 业务服务器
  
-**摘要：** 了解 IP 电话清单报告中 Skype 业务服务器 2015年。
+**摘要：** 了解 IP 电话清单报告中 Skype 业务服务器。
   
 IP 电话清单报告会报告有关您的组织中目前所使用的 IP 电话的信息。IP 清单报告提供了在指定的报告期间实际上所使用的详细 IP 电话列表。除此之外，管理员还可以通过此报告了解是否存在应进行替换但仍在使用中的任何旧的、过时的电话；该报告还可以就组织中存在很少使用的昂贵电话这一实际情况，向管理员发出警报。当应该购买新电话或重新分配现有的电话时，该类型的信息非常重要。（例如，可能要求很少使用其昂贵电话的用户与较为频繁使用其电话的用户交换电话。）
   
@@ -111,7 +110,7 @@ Last activity    :
   
 **IP 电话清单报告指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**您可以按此项排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**制造商** <br/> |是  <br/> |制造 IP 电话的公司的名称。  <br/> |
 |**硬件版本** <br/> |是  <br/> |IP 电话的版本号。  <br/> |

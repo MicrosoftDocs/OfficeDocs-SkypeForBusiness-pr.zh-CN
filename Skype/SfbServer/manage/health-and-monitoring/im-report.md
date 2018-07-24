@@ -1,30 +1,30 @@
 ---
-title: Skype for Business Server 2015 中的对等 IM 报告
+title: Skype 中的业务服务器的对等 IM 报告
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
-description: 摘要： 了解业务服务器 2015 Skype 的对等 IM 报告。
-ms.openlocfilehash: 0b7fc3d60aebc22e6c4c53e2e8c38fea12b0a6c0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解业务服务器的对等 IM 报告中 Skype。
+ms.openlocfilehash: e7e65e11d6a8710c4a37fc3afe0a983d5ce9b14d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968612"
 ---
-# <a name="peer-to-peer-im-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的对等 IM 报告
+# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Skype 中的业务服务器的对等 IM 报告
  
-**摘要：**了解业务服务器 2015 Skype 的对等 IM 报告。
+**摘要：** 了解业务服务器的对等 IM 报告中 Skype。
   
 对等 IM 报告提供了有关按池和身份验证类型分类的对等即时消息 (IM) 会话的趋势信息。该报告可以显示在指定时间段内（例如，每天或每小时）进行的会话总数或显示在该时间段内发送的即时消息总数。
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>访问对等 IM 报告
 
-可通过对等 IM 报告只打开[对等活动摘要报告中业务服务器 2015年的 Skype](peer-to-peer-activity-summary-report.md) ，再单击任一以下指标：
+您只能通过打开的[对等活动摘要报告中的业务服务器 Skype](peer-to-peer-activity-summary-report.md) ，然后单击以下指标之一访问对等 IM 报告：
   
 - 对等 IM 会话总数
     
@@ -38,7 +38,7 @@ ms.lasthandoff: 03/28/2018
 
 利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。下表列出了可用于对等 IM 报告的筛选器。
   
-**对等 IM 报表筛选器**
+**对等 IM 报告筛选器**
 
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**说明**|
 |:-----|:-----|
@@ -51,9 +51,9 @@ ms.lasthandoff: 03/28/2018
 
 下表列出了对等 IM 报告中提供的信息。
   
-**按池对等 IM 会话的度量标准**
+**按池列出的对等 IM 会话的指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**可以在此项上进行排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**池** <br/> |否  <br/> |注册器池或边缘服务器的名称。  <br/> |
 |**日期/时间** <br/> |否  <br/> |会话发生的日期和时间。  <br/> |
@@ -63,9 +63,9 @@ ms.lasthandoff: 03/28/2018
 
 下表列出了对等会话中的参与者所用各个身份验证类型的对等 IM 报告中提供的信息。
   
-**通过身份验证类型的对等 IM 会话的指标**
+**按身份验证类型列出的对等 IM 会话的指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**可以在此项上进行排序？**|**说明**|
+|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**身份验证类型** <br/> |否  <br/> | 会话参与者使用的身份验证的类型。通常可指定下列值之一： <br/>  Enterprise <br/>  Federated <br/>  PIC <br/> |
 |**日期/时间** <br/> |否  <br/> |会话发生的日期和时间。  <br/> |

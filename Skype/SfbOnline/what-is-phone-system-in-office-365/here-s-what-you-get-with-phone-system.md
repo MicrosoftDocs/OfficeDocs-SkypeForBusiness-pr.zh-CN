@@ -1,5 +1,5 @@
 ---
-title: 下面是与 Office 365 中的电话系统获取的内容
+title: Office 365 中的电话系统的功能
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: e2ba535de48e11e503280b8bd65fbe78611dc47d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4d3ec5d9d490a7ad0064611d36b788da69b726e2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975440"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>下面是与 Office 365 中的电话系统获取的内容
+# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 中的电话系统的功能
 
 PBX 是一个企业内部电话系统。 Office 365 加载项中的电话系统为您提供了 PBX 的功能，但不带复杂和昂贵设备。 
   
@@ -77,7 +78,7 @@ PBX 是一个企业内部电话系统。 Office 365 加载项中的电话系统�
   
 - [设置呼叫计划](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)： 本文已获取设置与您的电话号码，或要转接到 for Business 的 Skype 您现有的电话号码的分步说明。
     
-- [规划 Office 365 (云 PBX) 解决方案中电话系统](https://go.microsoft.com/fwlink/?LinkId=708645)： 此 TechNet 文章排放所有部署选项。 其中还介绍了如何规划只有云的完整解决方案。 
+- [规划 Office 365 (云 PBX) 解决方案中电话系统](https://go.microsoft.com/fwlink/?LinkId=708645)： 本文排放所有部署选项。 其中还介绍了如何规划只有云的完整解决方案。 
     
 - [加载项业务和 Microsoft 团队授权的 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)： 了解您需要购买 Office 365 中获取电话系统的许可证。
     

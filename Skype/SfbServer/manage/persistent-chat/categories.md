@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 摘要： 了解如何管理 Persistent Chat Server 类别中 Skype for Business Server 2015。
-ms.openlocfilehash: 418cdc395a611c880da5b9455c10367fe19c6843
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 01b1bad9fd8b68eee68e1980fcb79f69462e9dfa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568617"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979503"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中管理持久聊天服务器内的类别
  
@@ -36,6 +36,9 @@ ms.locfileid: "19568617"
 配置类别之前，请务必阅读[持久聊天类别、 聊天室和用户角色中的业务服务器 2015 Skype](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)。
   
 您可以使用控制面板或 Windows PowerShell cmdlet 配置和管理类别。
+
+> [!NOTE]
+> 持久聊天中的业务服务器 2015 Skype 可用但业务服务器 2019年不再支持在 Skype。 中团队提供了相同的功能。 有关详细信息，请参阅[从企业对 Microsoft 团队的 Skype 旅程](/microsoftteams/journey-skypeforbusiness-teams)。 如果您需要使用持久聊天，您的选择是也迁移要求给团队，此功能的用户或继续对业务服务器 2015年使用 Skype。 
   
 ## <a name="configure-categories-by-using-the-control-panel"></a>使用控制面板配置类别
 

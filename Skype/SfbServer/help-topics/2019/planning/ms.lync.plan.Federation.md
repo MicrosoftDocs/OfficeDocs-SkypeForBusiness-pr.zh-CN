@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: 可以配置边缘服务器允许在合作伙伴组织或服务中的联系人的访问的内部和外部用户。
-ms.openlocfilehash: da8580752a07d5d2552adbffd3bdf5924ad5b8e1
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d3541fae214d64a87f9bbc51603e3ae19346c686
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19972362"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983810"
 ---
 # <a name="federation-planning-tool"></a>联合身份验证 （规划工具）
  
 可以配置边缘服务器允许在合作伙伴组织或服务中的联系人的访问的内部和外部用户。
   
- 联合身份验证适用于 Microsoft Lync 2013 的一样。 有关准备环境以实现联盟的更多详细信息，请参阅以下主题：
+ 联合身份验证中 Skype 适用于 Business Server Microsoft Lync 2013 的一样。 有关准备环境以实现联盟的更多详细信息，请参阅以下主题：
   
 - [规划 Lync Server 2013 和 Office Communications Server 联盟](https://technet.microsoft.com/en-us/library/jj205335%28v=ocs.15%29.aspx)
     

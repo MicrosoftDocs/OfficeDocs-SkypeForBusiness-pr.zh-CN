@@ -1,26 +1,25 @@
 ---
-title: 在 Skype for Business Server 2015 中分配每用户 PIN 策略
+title: 为业务服务器分配 Skype 中的每用户 PIN 策略
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
-description: 摘要： 用于业务服务器 2015年的 Skype 阶段 AV 和 OAuth 证书。
-ms.openlocfilehash: 6eba19d67f2b2b04c98ed993fa02ca0c2052f28a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 业务服务器 Skype 的阶段 AV 和 OAuth 证书。
+ms.openlocfilehash: fc7444aae0dfea0f22500f524490aea470c83903
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569510"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005951"
 ---
-# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中分配每用户 PIN 策略
+# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>为业务服务器分配 Skype 中的每用户 PIN 策略
 
-**摘要：** 为业务服务器 2015 Skype 的阶段 AV 和 OAuth 证书。
+**摘要：** Skype 业务服务器的阶段 AV 和 OAuth 证书。
   
 电话拨入式会议个人标识号 (pin) 策略是可以为业务 Server Control Panel Skype 中配置的用户帐户的各项设置之一。
   
@@ -67,7 +66,7 @@ ms.locfileid: "19569510"
     > [!NOTE]
     > 由于存在您可以使用**分配策略**对话框中，配置的多个策略**\<保持原样\>** 默认情况下，在对话框中的每个策略处于选中状态。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
   
-   - 允许业务服务器 2015 自动选择全局级别策略的 Skype 或，如果已定义站点级别的策略。
+   - 允许 Skype 业务服务器自动选择全局级别的策略或，如果已定义站点级别的策略。
     
    - 单击之前在“PIN 策略”**** 页中定义的每用户 PIN 策略的名称。
     
@@ -108,4 +107,4 @@ ms.locfileid: "19569510"
   
 ## <a name="see-also"></a>另请参阅
 
-[为业务服务器 2015 Skype 创建新的 PIN 策略](create-a-new-pin-policy.md)
+[为 Business Server Skype 创建新的 PIN 策略](create-a-new-pin-policy.md)

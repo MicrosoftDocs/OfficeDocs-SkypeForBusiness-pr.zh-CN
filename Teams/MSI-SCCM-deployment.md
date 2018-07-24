@@ -6,16 +6,17 @@ manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara
+ms.reviewer: ''
 description: 管理员可以使用团队 MSI （与 SCCM) 批量 dpeloy 选择用户或计算机的 Microsoft 团队。
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26ccdc54ab8ba60cf3bfb8c147ff2e08e496aa30
-ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
+ms.openlocfilehash: ad50a2f7dbece3eb72f4709fa1873828519f4c77
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997797"
 ---
 <a name="install-microsoft-teams-using-msi-with-sccm"></a>安装 Microsoft 团队使用 MSI （与 SCCM)
 ===========================================

@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: Office Web Apps Server 提供类似于演讲者上载文档以供会议使用的服务，但支持之前的版本中不支持的其他功能。
-ms.openlocfilehash: ea7df7254dc17b3db0107df9d92ba69d8c51b128
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: af10702b84021caa5d2e9a7c874e3dcaad2f54ff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970659"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985807"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>将前端与 Office Web Apps 服务器关联页面
  
 Office Web Apps Server 提供类似于演讲者上载文档以供会议使用的服务，但支持之前的版本中不支持的其他功能。
   
-如果选择了会议作为您 Skype 业务服务器 2015年配置功能的选项之一，可以为部署选择 Office Web Apps Server。
+如果选择了会议作为您的业务服务器配置的 Skype 功能的选项之一，可以为部署选择 Office Web Apps Server。
   
 此对话框中的选项为您提供以下选择：
   

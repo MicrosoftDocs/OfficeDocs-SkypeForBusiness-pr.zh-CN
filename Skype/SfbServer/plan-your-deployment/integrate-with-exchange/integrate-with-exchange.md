@@ -3,34 +3,31 @@ title: 计划集成 Skype for Business 和 Exchange
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
-description: 摘要： 查看有关如何为业务服务器 2015 2016 Exchange 服务器或 Exchange Server 2013 中集成 Skype 本主题。
-ms.openlocfilehash: 2534cd1d2b3bd02998beb2034c704259b6b14c49
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 摘要： 查看有关如何为业务 Server 与 Exchange Server 2016 或 Exchange Server 2013 中集成 Skype 本主题。
+ms.openlocfilehash: 0fc7975e35d84cf6fda75addacee9ffbb8f25b52
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505116"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013235"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>计划集成 Skype for Business 和 Exchange
  
-**摘要：** 查看此主题以获取有关如何为业务服务器 2015 2016 Exchange 服务器或 Exchange Server 2013 中集成 Skype 的信息。
+**摘要：** 查看此主题以获取有关如何为业务 Server 与 Exchange Server 2016 或 Exchange Server 2013 中集成 Skype 的信息。
   
-您可以将 Skype 集成业务服务器 2015年和 Exchange 服务器之前，您必须确保 Exchange Server 和 Skype 的业务服务器 2015年完全安装和启动并运行。 
+您可以将 Skype 集成的业务 Server 和 Exchange Server 之前，您必须确保 Exchange Server 和 Skype 业务服务器的完全安装和启动并运行。 
   
 有关安装 Exchange Server 详细信息，请参阅为您的 Exchange 版本的 Exchange Server 规划和部署文档。 
+   
+服务器启动并正在运行后，必须为服务器到服务器身份验证证书分配这两个 Skype 的业务 Server 和 Exchange Server;这些证书允许 Skype 的业务 Server 和 Exchange Server 以交换信息以及相互进行通信。 当您安装 Exchange Server 时，自签名的证书名称为 Microsoft Exchange Server 身份验证证书会为您创建。 此证书，可以在本地计算机证书存储中找到，应用于 Exchange 服务器上的服务器到服务器身份验证。 有关分配 Exchange Server 中的证书的详细信息，请参阅[配置邮件流和客户端访问](https://go.microsoft.com/fwlink/p/?LinkId=268540)。
   
-有关安装 Business Server 2015 Skype 详细信息，请参阅[部署的 Skype 的业务服务器 2015年](../../deploy/deploy.md)。
-  
-服务器启动并正在运行后，必须为服务器到服务器身份验证证书分配这两个 Skype 业务服务器 2015年和 Exchange Server;这些证书允许 Skype 业务服务器 2015年和 Exchange Server 以交换信息以及相互进行通信。 当您安装 Exchange Server 时，自签名的证书名称为 Microsoft Exchange Server 身份验证证书会为您创建。 此证书，可以在本地计算机证书存储中找到，应用于 Exchange 服务器上的服务器到服务器身份验证。 有关分配 Exchange Server 中的证书的详细信息，请参阅[配置邮件流和客户端访问](https://go.microsoft.com/fwlink/p/?LinkId=268540)。
-  
-对于业务服务器 2015年的 Skype 您可以使用现有的 Skype 业务服务器证书作为您的服务器到服务器身份验证证书;例如，默认证书也可以用作 OAuthTokenIssuer 证书。 Skype 的业务服务器 2015年可以用作服务器到服务器身份验证的证书提供的任何 Web 服务器证书：
+对于业务服务器 Skype 您可以使用现有的 Skype 业务服务器证书作为您的服务器到服务器身份验证证书;例如，默认证书也可以用作 OAuthTokenIssuer 证书。 Skype 业务服务器可以使用任何 Web 服务器证书，如提供的服务器到服务器身份验证证书：
   
 - 该证书包括主题字段中 SIP 域的名称。
     
@@ -38,7 +35,7 @@ ms.locfileid: "19505116"
     
 - 该证书长度至少为 2048 字节。
     
-有关业务服务器 2015年的 Skype 的服务器到服务器身份验证证书的详细信息，请参阅[分配到的业务服务器 2015 Skype 的服务器到服务器身份验证证书](../../manage/authentication/assign-a-server-to-server-certificate.md)。
+有关 Skype 业务服务器的服务器到服务器身份验证证书的详细信息，请参阅[分配到 Skype 业务服务器的服务器到服务器身份验证证书](../../manage/authentication/assign-a-server-to-server-certificate.md)。
   
 已分配证书后，然后必须在 Exchange 服务器上配置自动发现服务。 Exchange Server 中的自动发现服务配置用户配置文件，并提供 Exchange 服务的访问，当用户在登录到系统。 用户为自动发现服务提供其电子邮件地址和密码，而这些服务为用户提供诸如以下信息：
   
@@ -50,7 +47,7 @@ ms.locfileid: "19505116"
     
 - Outlook 无处不在服务器设置。
     
-您可以将 Skype 集成业务服务器 2015年和 Exchange 服务器之前，必须配置自动发现服务。 您可以验证已通过从 Exchange Server Management Shell 中运行以下命令并检查 AutoDiscoverServiceInternalUri 属性的值配置自动发现服务：
+您可以将 Skype 集成的业务 Server 和 Exchange Server 之前，必须配置自动发现服务。 您可以验证已通过从 Exchange Server Management Shell 中运行以下命令并检查 AutoDiscoverServiceInternalUri 属性的值配置自动发现服务：
   
 ```
 Get-ClientAccessServer | Select-Object Name, AutoDiscoverServiceInternalUri | Format-List
@@ -64,9 +61,9 @@ Get-ClientAccessServer | Select-Object Name, AutoDiscoverServiceInternalUri | Fo
 Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 ```
 
-有关自动发现服务的详细信息，请参阅[了解自动发现服务](https://go.microsoft.com/fwlink/p/?LinkId=268542)。
+有关自动发现服务的详细信息，请参阅[自动发现服务](https://go.microsoft.com/fwlink/p/?LinkId=268542)。
   
-在配置自动发现服务后，您必须修改业务服务器 OAuth 配置设置; Skype这样可确保业务服务器的 Skype 知道查找自动发现服务的位置。 要修改业务服务器 2015 Skype 中的 OAuth 配置设置，请运行 Business Server 命令行管理程序从 Skype 中的以下命令。 当运行此命令，确保您指定您的 Exchange 服务器上运行的自动发现服务的 URI，并且您使用**autodiscover.svc**指向而不是**autodiscover.xml** （它指向的 XML 文件的服务位置由服务）：
+在配置自动发现服务后，您必须修改业务服务器 OAuth 配置设置; Skype这样可确保业务服务器的 Skype 知道查找自动发现服务的位置。 要修改的 OAuth 配置设置中 Skype 业务服务器，请运行 Business Server 命令行管理程序从 Skype 中的以下命令。 当运行此命令，确保您指定您的 Exchange 服务器上运行的自动发现服务的 URI，并且您使用**autodiscover.svc**指向而不是**autodiscover.xml** （它指向的 XML 文件的服务位置由服务）：
   
 ```
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
@@ -83,14 +80,14 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
   
 除了配置自动发现服务，您还必须创建指向您的 Exchange 服务器的服务的 DNS 记录。 例如，如果您自动发现服务位于 autodiscover.litwareinc.com 您将需要创建 autodiscover.litwareinc.com 解析为您的 Exchange 服务器的完全限定的域名 （例如的 DNS 记录atl-exchange-001.litwareinc.com)。
   
-如果要与 Exchange Online 的业务服务器集成 Skype，则后续步骤是[配置内部部署 Skype 业务服务器 2015年和 Outlook Web App 之间](../../deploy/integrate-with-exchange-server/outlook-web-app.md)的集成，否则请参阅[集成 Skype 的业务服务器 2015Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)。
+如果要与 Exchange Online 的业务服务器集成 Skype，则后续步骤是[配置内部部署 Skype 业务服务器和 Outlook Web App 之间](../../deploy/integrate-with-exchange-server/outlook-web-app.md)的集成，否则请[Business Server 的集成 Skype 参阅与 Exchange服务器](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)。
   
 ## <a name="feature-support"></a>功能支持
 <a name="feature_support"> </a>
 
 下表详细介绍在各种组合的联机或本地 Exchange 和 for Business 的 Skype 支持的功能。
   
-||**Exchange 2016/2013年/2010 （本地） + （本地） 的业务服务器 2015年的 Skype**|**Exchange Online + Skype 业务服务器 2015 （本地） (英文）**|**Exchange 2010 （本地） + Skype 业务 online**|**Exchange 2016/2013(on premises) + Skype 业务 online**|**Exchange Online + for Business 联机 Skype**|
+||**Exchange 2016/2013年/2010 （本地） + Skype 业务服务器 （本地）**|**Exchange Online + Skype 业务服务器 （本地） (英文）**|**Exchange 2010 （本地） + Skype 业务 online**|**Exchange 2016/2013(on premises) + Skype 业务 online**|**Exchange Online + for Business 联机 Skype**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Outlook 中的状态  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |通过 IM 响应、PSTN 呼叫、Skype 通话或从 Outlook 电子邮件进行视频通话  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
@@ -113,12 +110,12 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 ## <a name="see-also"></a>另请参阅
 <a name="feature_support"> </a>
 
-[配置业务服务器 2015年的内部部署 Skype 和 Outlook Web App 之间的集成](../../deploy/integrate-with-exchange-server/outlook-web-app.md)
+[配置业务服务器的内部部署 Skype 和 Outlook Web App 之间的集成](../../deploy/integrate-with-exchange-server/outlook-web-app.md)
   
-[在本地配置 Skype 业务 online 和 Exchange 之间的 OAuth](../../deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md)
+[在 Skype for Business Online 和 Exchange 本地之间配置 OAuth](../../deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md)
 
-[为业务 Server 2015 与 Exchange Server 集成 Skype](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)
+[为业务 Server 与 Exchange Server 集成 Skype](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)
   
 [如何将 Exchange Server 2013 与 Lync Server 2013、 Skype 业务 online 或 Lync Server 2013 混合部署](https://go.microsoft.com/fwlink/p/?LinkId=746494)
   
-[在 Skype for Business Server 2015 和 Microsoft Exchange Server 中配置合作伙伴应用程序](https://go.microsoft.com/fwlink/p/?LinkId=746495)
+[在 Skype for Business Server 和 Microsoft Exchange Server 中配置合作伙伴应用程序](../../deploy/integrate-with-exchange-server/configure-partner-applications.md)

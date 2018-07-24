@@ -1,32 +1,32 @@
 ---
-title: 在 Skype for Business Server 2015 中创建用户体验质量配置设置
+title: 为 Business Server Skype 创建用户体验质量配置设置
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
-description: 摘要： 了解在 Skype 业务服务器 2015年的体验质量 (QoE) 设置。
-ms.openlocfilehash: a6ba2906b54ac5d963b0c8394c1fcf254cffd12d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何在 Skype 业务服务器的用户体验质量 (QoE) 设置。
+ms.openlocfilehash: 678f57ba06008244bf9872ee44b26ea0c1e9a0f2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968193"
 ---
-# <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建用户体验质量配置设置
+# <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>为 Business Server Skype 创建用户体验质量配置设置
  
-**摘要：**了解如何在 Skype 业务服务器 2015年的体验质量 (QoE) 设置。
+**摘要：** 了解业务服务器的 Skype 中的用户体验质量 (QoE) 设置。
   
 用户体验质量 (QoE) 指标跟踪组织中发出的语音和视频呼叫的质量，包括网络数据包丢失数目、背景噪音、"抖动"量（数据包延迟的差异）等。这些指标与其他数据（如呼叫详细信息记录）分开存储在一个数据库中，这样您就可以独立于其他数据记录启用和禁用 QoE。
   
-商业服务器 2015，单一的安装 Skype 时为您创建全局 QoE 配置设置的集合。 管理员还具有创建站点作用域的自定义设置的选项。 使用这些站点作用域设置时，它们将优先于全局设置。 例如，如果您为 Redmond 站点创建了站点作用域设置，则这些设置（而不是全局设置）将用于管理 Redmond 内的 QoE。
+对于业务服务器，单个，安装 Skype 时为您创建的 QoE 配置设置的全局集合。 管理员还具有创建站点作用域的自定义设置的选项。 使用这些站点作用域设置时，它们将优先于全局设置。 例如，如果您为 Redmond 站点创建了站点作用域设置，则这些设置（而不是全局设置）将用于管理 Redmond 内的 QoE。
   
-可以通过使用任一 Skype 业务服务器的控制面板或[新建 CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) cmdlet 创建 QoE 配置设置。 如果您使用 Skype 业务服务器的控制面板来创建新设置以下选项将可用：
+可以通过使用任一 Skype 业务 Server Control Panel 或[New-csqoeconfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) cmdlet 创建 QoE 配置设置。 如果使用的业务 Server Control Panel Skype 来创建新设置以下选项将可供您：
   
-|**用户界面设置**|**PowerShell 参数**|**说明**|
+|**UI 设置**|**PowerShell 参数**|**说明**|
 |:-----|:-----|:-----|
 |名称  <br/> |Identity  <br/> |要创建的设置的唯一标识符。只能创建站点作用域的 QoE 配置设置。  <br/> |
 |启用对 QoE 数据的监视  <br/> |EnableQoE  <br/> |指定是否收集 QoE 记录并将其保存到监控数据库。  <br/> |
@@ -34,13 +34,13 @@ ms.lasthandoff: 03/28/2018
 |QoE 数据最长保留期限(天)  <br/> |KeepQoEDataForDays  <br/> |从数据库清除 QoE 数据之前存储的天数。如果禁用清除，则忽略此值。  <br/> |
    
 > [!NOTE]
-> 新 CsQoEConfiguration cmdlet 包括附加选项不可用于 Skype 业务服务器的控制面板。 有关详细信息，请参阅[新建 CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps)的帮助主题。
+> New-csqoeconfiguration cmdlet 包括用于业务 Server Control Panel Skype 中不可用的其他选项。 有关详细信息，请参阅[New-csqoeconfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps)帮助主题。
   
-### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>若要通过 Skype 业务服务器控件面板创建 QoE 配置设置
+### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 创建 QoE 配置设置
 
-1. 作为 RTCUniversalServerAdmins 组的成员身份或 CsVoiceAdministrator、 CsServerAdministrator 或 CsAdministrator 角色的成员登录到该计算机。 有关详细信息，请参阅**代理安装程序权限**。
+1. 以 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator、 CsServerAdministrator 或 CsAdministrator 角色的成员身份登录到计算机。 有关详细信息，请参阅**Delegate Setup Permissions**。
     
-2. 打开浏览器窗口，然后输入管理员 URL 打开 Skype 业务服务器控件面板。  
+2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。  
     
 3. 在左侧导航栏中，单击“**监控和存档**”，然后单击“**用户体验质量数据**”。
     
@@ -58,9 +58,9 @@ ms.lasthandoff: 03/28/2018
     
 7. 单击“**提交**”。
     
-## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>通过使用 Windows PowerShell Cmdlet 创建 QoE 配置设置
+## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 创建 QoE 配置设置
 
-通过使用 Windows PowerShell 和新建 CsQoEConfiguration cmdlet，您可以创建 QoE 配置设置。 可以从 Skype 业务服务器管理外壳程序或从 Windows PowerShell 的远程会话来运行该 cmdlet。 有关使用远程 Windows PowerShell Skype 业务服务器的连接的详细信息，请参阅博客文章["快速启动:: 管理 Microsoft Lync 服务器 2010年使用远程 PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 该过程是相同的 Skype 业务服务器。
+您可以使用 Windows PowerShell 和 New-csqoeconfiguration cmdlet 创建 QoE 配置设置。 可以从 Skype 业务 Server 命令行管理程序或从 Windows PowerShell 远程会话来运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Skype 业务服务器的详细信息，请参阅博客文章["快速启动:: 管理 Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 过程是相同的 Skype 业务服务器。
   
 ### <a name="to-create-a-new-collection-of-qoe-configuration-settings"></a>创建新的 QoE 配置设置的集合
 
@@ -86,6 +86,6 @@ ms.lasthandoff: 03/28/2018
   New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 30 -PurgeHourOfDay 3
   ```
 
-有关详细信息，请参阅有关[新建 CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息，请参阅[New-csqoeconfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) cmdlet 的帮助主题。
   
 

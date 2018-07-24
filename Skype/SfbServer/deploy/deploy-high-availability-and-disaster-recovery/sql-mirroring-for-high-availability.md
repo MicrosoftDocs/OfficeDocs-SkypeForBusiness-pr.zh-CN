@@ -3,21 +3,20 @@ title: 在 Skype for Business Server 2015 中针对后端服务器高可用性�
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 为了能够部署 SQL 镜像，你的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主服务器、镜像服务器和见证服务器。 有关详细信息，请参阅累积更新程序包 9 的 SQL Server 2008 Service Pack 1。
-ms.openlocfilehash: 9edbda5d793fed48d31625c3e0d53ab2f9e6d349
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: a0baf639b050d323a29eb347c14b38505f059ef2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569136"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016204"
 ---
-# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中针对后端服务器高可用性部署 SQL 镜像
+# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>部署 SQL 镜像后端服务器高可用性 Skype 中的业务服务器 2015
  
 
 为了能够部署 SQL 镜像，你的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主服务器、镜像服务器和见证服务器。 有关详细信息，请参阅[累积更新程序包 9 SQL Server 2008 Service Pack 1 ](http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)。
@@ -121,11 +120,11 @@ ms.locfileid: "19569136"
     
   - [数据库镜像终结点 (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=247347)
     
-## <a name="using-skype-for-business-server-management-shell-cmdlets-to-set-up-sql-mirroring"></a>使用 Skype 业务服务器管理命令行管理程序 cmdlet 设置 SQL 镜像
+## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>Skype 用于业务服务器 2015年管理命令行管理程序 Cmdlet 设置 SQL 镜像
 
 设置镜像的最简单方式是使用拓扑生成器，但您还可以使用 cmdlet 完成。
   
-1. 打开业务 Server 命令行管理程序窗口 Skype 并运行以下 cmdlet:
+1. 打开业务服务器 2015年命令行管理程序窗口 Skype 并运行以下 cmdlet:
     
    ```
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose 

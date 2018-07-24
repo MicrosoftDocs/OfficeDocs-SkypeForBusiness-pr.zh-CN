@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
+ROBOTS: NOINDEX, NOFOLLOW
 description: 若要开始将保存中央管理存储的本地只读副本的数据库的安装，您选择之间检索发布使用拓扑生成器从已安装并配置管理中心的定义的配置管理存储或从其他媒体读取定义的配置。 对于位于组织的内部网络的计算机，选择检索配置自动从中央管理存储。
-ms.openlocfilehash: 4a061ddec04e2b80412b8e60badb8600633093d9
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 87d2620b6b4b9eb36ee96e7f9b693016620d3a49
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19980000"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003143"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>安装本地配置存储调用 （配置）
  

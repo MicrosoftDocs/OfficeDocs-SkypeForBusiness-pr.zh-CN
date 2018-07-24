@@ -10,17 +10,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
-description: 联机证书请求状态页将显示的重要信息从成功创建和发布的联机证书请求的结果。 此页提供唯一标识证书的证书指纹。 默认情况下，选中分配此证书 Skype 的业务服务器证书用法复选框。 如果单击完成时，证书将自动分配给 Lync Server 2013 的过程创建证书申请的步骤中定义，以便。 默认情况下，将分配证书的目的是：
-ms.openlocfilehash: 74ee0fba06add0d069473bc5b6b580c1b1d5810a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 联机证书请求状态页将显示的重要信息从成功创建和发布的联机证书请求的结果。 此页提供唯一标识证书的证书指纹。 默认情况下，选中分配此证书 Skype 的业务服务器证书用法复选框。 如果单击完成时，证书将自动分配给 Skype 业务服务器的证书请求执行创建步骤的过程定义，以便。 默认情况下，将分配证书的目的是：
+ms.openlocfilehash: 2de8bae390ed8406883f5c6cd74709990c6c450b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976595"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983754"
 ---
 # <a name="certificate-request-returned"></a>证书请求 （已返回）
  
-**联机证书请求状态**页将显示的重要信息从成功创建和发布的联机证书请求的结果。 此页提供唯一标识证书的证书指纹。 默认情况下，选中**分配此证书 Skype 的业务服务器证书用法**复选框。 如果单击**完成**时，证书将自动分配给 Lync Server 2013 的过程创建证书申请的步骤中定义，以便。 默认情况下，将分配证书的目的是：
+**联机证书请求状态**页将显示的重要信息从成功创建和发布的联机证书请求的结果。 此页提供唯一标识证书的证书指纹。 默认情况下，选中**分配此证书 Skype 的业务服务器证书用法**复选框。 如果单击**完成**时，证书将自动分配给 Skype 业务服务器的证书请求执行创建步骤的过程定义，以便。 默认情况下，将分配证书的目的是：
   
 - 服务器默认值为相互传输层安全性 (MTLS) 的客户端之间的连接及其他服务器
     

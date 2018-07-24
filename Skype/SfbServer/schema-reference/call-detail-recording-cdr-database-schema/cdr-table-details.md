@@ -1,82 +1,83 @@
 ---
-title: 在业务服务器 2015年的 Skype 的 CDR 表详细信息
+title: CDR 表中的业务服务器 2015 Skype 的详细信息
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
-description: 下面的主题详细介绍每个呼叫详细记录 (CDR) 数据库架构表中的列。
-ms.openlocfilehash: 36426f194219ecb8cf64e071eb40b24e9dc52bc3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 以下主题详细介绍每个呼叫详细信息记录 (CDR) 数据库架构表中的列。
+ms.openlocfilehash: 631a7ad4bd24dc5c41302f6f67ad97b6add0a490
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012435"
 ---
-# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>在业务服务器 2015年的 Skype 的 CDR 表详细信息
+# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>CDR 表中的业务服务器 2015 Skype 的详细信息
  
-下面的主题详细介绍每个呼叫详细记录 (CDR) 数据库架构表中的列。
+以下主题详细介绍每个呼叫详细信息记录 (CDR) 数据库架构表中的列。
   
 ## <a name="in-this-section"></a>本节内容
 
-- [在业务服务器 2015年的 Skype 应用程序表](application.md)
+- [应用程序表中的业务服务器 2015 Skype](application.md)
     
-- [在业务服务器 2015年的 Skype 的 CallPriorities 表](callpriorities.md)
+- [CallPriorities 表中的业务服务器 2015 Skype](callpriorities.md)
     
-- [在业务服务器 2015年的 Skype 的 CallType 表](calltype.md)
+- [CallType 表中的业务服务器 2015 Skype](calltype.md)
     
-- [在业务服务器 2015年的 Skype 的 ClientVersions 表](clientversions.md)
+- [请参阅 ClientVersions table 中的业务服务器 2015 Skype](clientversions.md)
     
-- [在业务服务器 2015年的 Skype 的 ConferenceJoinTimeThresholds 表](conferencejointimethresholds.md)
+- [ConferenceJoinTimeThresholds 表中的业务服务器 2015 Skype](conferencejointimethresholds.md)
     
-- [在业务服务器 2015年的 Skype 的 ConferenceMessageCount 表](conferencemessagecount.md)
+- [ConferenceMessageCount 表中的业务服务器 2015 Skype](conferencemessagecount.md)
     
-- [在业务服务器 2015年的 Skype 会议表](conferences.md)
+- [Conferences 表中的业务服务器 2015 Skype](conferences.md)
     
-- [在业务服务器 2015年的 Skype 的 ConferenceSessionDetails 表](conferencesessiondetails-0.md)
+- [ConferenceSessionDetails 表中的业务服务器 2015 Skype](conferencesessiondetails-0.md)
     
-- [在业务服务器 2015年的 Skype 的 ConferenceUris 表](conferenceuris.md)
+- [ConferenceUris 表中的业务服务器 2015 Skype](conferenceuris.md)
     
-- [在业务服务器 2015年的 Skype 的内容类型表](contenttypes.md)
+- [ContentTypes 表中的业务服务器 2015 Skype](contenttypes.md)
     
-- [在业务服务器 2015年的 Skype 的 DeRegisterType 表](deregistertype.md)
+- [DeRegisterType 表中的业务服务器 2015 Skype](deregistertype.md)
     
-- [在 Skype 的业务服务器 2015年设备表](devices.md)
+- [Devices 表中的业务服务器 2015 Skype](devices.md)
     
-- [在业务服务器 2015年的 Skype 的对话表](dialogs.md)
+- [Dialogs 表中的业务服务器 2015 Skype](dialogs.md)
     
-- [在业务服务器 2015年的 Skype 的 EdgeServers 表](edgeservers.md)
+- [EdgeServers 表中的业务服务器 2015 Skype](edgeservers.md)
     
-- [在业务服务器 2015年的 Skype 的 ErrorCategory 表](errorcategory.md)
+- [ErrorCategory 表中的业务服务器 2015 Skype](errorcategory.md)
     
-- [在业务服务器 2015年的 Skype 的 ErrorDef 表](errordef.md)
+- [ErrorDef 表中的业务服务器 2015 Skype](errordef.md)
     
-- [在业务服务器 2015年的 Skype 的 ErrorReport 表](errorreport.md)
+- [ErrorReport 表中的业务服务器 2015 Skype](errorreport.md)
     
-- [在业务服务器 2015年的 Skype 的 FileTransfers 表](filetransfers-0.md)
+- [FileTransfers 表中的业务服务器 2015 Skype](filetransfers-0.md)
     
-- [在业务服务器 2015年的 Skype 的 FocusJoinsAndLeaves 表](focusjoinsandleaves.md)
+- [FocusJoinsAndLeaves 表中的业务服务器 2015 Skype](focusjoinsandleaves.md)
     
-- [在业务服务器 2015年的 Skype 的前端表](frontend.md)
+- [FrontEnd 表中的业务服务器 2015 Skype](frontend.md)
     
-- [在业务服务器 2015年的 Skype 的网关表](gateways.md)
+- [Gateways 表中的业务服务器 2015 Skype](gateways.md)
     
-- [在业务服务器 2015年的 Skype 的 HardwareVersions 表](hardwareversions.md)
+- [HardwareVersions 表中的业务服务器 2015 Skype](hardwareversions.md)
     
-- [在业务服务器 2015年的 Skype 的 IMReportSummary 表](imreportsummary.md)
+- [IMReportSummary 表中的业务服务器 2015 Skype](imreportsummary.md)
     
-- [在业务服务器 2015年的 Skype 的位置表](locations.md)
+- [Locations 表中的业务服务器 2015 Skype](locations.md)
     
-- [在业务服务器 2015年的 Skype 的制造商表](manufacturers.md)
+- [Manufacturers 表中的业务服务器 2015 Skype](manufacturers.md)
     
-- [在业务服务器 2015年的 Skype 的 McuJoinsAndLeaves 表](mcujoinsandleaves.md)
+- [McuJoinsAndLeaves 表中的业务服务器 2015 Skype](mcujoinsandleaves.md)
     
-- [在业务服务器 2015年的 Skype 的 Mcu 表](mcus.md)
+- [Mcus 表中的业务服务器 2015 Skype](mcus.md)
     
-- [媒体表](media.md)
+- [Media 表](media.md)
     
 - [MediaList 表](medialist.md)
     
@@ -84,19 +85,19 @@ ms.lasthandoff: 03/28/2018
     
 - [MSMQProcessing 表](msmqprocessing.md)
     
-- [电话表](phones.md)
+- [Phones 表](phones.md)
     
-- [池表](pools.md)
+- [Pools 表](pools.md)
     
 - [ProgressReport 表](progressreport.md)
     
 - [PurgeSettings 表](purgesettings.md)
     
-- [登记表](registration.md)
+- [Registration 表](registration.md)
     
-- [角色表](roles.md)
+- [Roles 表](roles.md)
     
-- [服务器表](servers.md)
+- [Servers 表](servers.md)
     
 - [SessionDetails 表](sessiondetails.md)
     
@@ -108,11 +109,11 @@ ms.lasthandoff: 03/28/2018
     
 - [任务表](task.md)
     
-- [租户表](tenants.md)
+- [Tenants 表](tenants.md)
     
 - [UriTypes 表](uritypes.md)
     
-- [用户表](users.md)
+- [Users 表](users.md)
     
 - [UserAgentDef 表](useragentdef.md)
     

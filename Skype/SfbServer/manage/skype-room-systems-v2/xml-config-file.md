@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: 本文讨论远程管理的 Skype 会议室系统 v2 设备，包括应用自定义主题使用的默认设置。
-ms.openlocfilehash: 939b0ce13aac70a9a80b1cae246a9491b4c098de
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 9310683d3dbe274721f2bdcd583492b63a10d821
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569157"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015597"
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 配置文件远程管理 Skype 会议室系统 v2 控制台设置
  
@@ -67,7 +67,7 @@ ms.locfileid: "19569157"
   
 **XML 元素**
  
-|**元素**|**类型**|**级别**|**使用情况**|
+|**元素**|**类型**|**等级**|**用法**|
 |:-----|:-----|:-----|:-----|
 |\<SkypeSettings\>  <br/> |所有元素的容器。  <br/> ||必需。  <br/> |
 | \<AutoScreenShare\> <br/> |布尔值和 #x 2777; <br/> |第一个链接 #x 2776; <br/> | 如果为 true，则启用自动屏幕共享。 <br/> |
@@ -75,10 +75,10 @@ ms.locfileid: "19569157"
 |\<用户帐户\>  <br/> |容器  <br/> |第一个链接 #x 2776; <br/> |凭据参数的容器。  <br/> 登录地址、 Exchange 地址或电子邮件地址通常是相同的如 RanierConf<span></span>@contoso.com。  <br/> |
 |\<SkypeMeetingsEnabled\>  <br/> |布尔值和 #x 2777; <br/> |第一个链接 #x 2776; <br/> |默认为启用。  <br/> |
 |\<TeamsMeetingsEnabled\>  <br/> |布尔值和 #x 2777; <br/> |第一个链接 #x 2776; <br/> |默认为禁用。  <br/> XML 文件被视为格式不正确，如果两个\<SkypeMeetingsEnabled\>和\<TeamsMeetingsEnabled\>被禁用，但它并可接受已启用同时这两个设置。  <br/> |
-|\<SkypeSignInAddress\>  <br/> |字符串 3 <br/> ||控制台的 Skype for Business 设备帐户的登录名。  <br/> |
-|\<ExchangeAddress\>  <br/> |字符串 3 <br/> ||控制台的 Exchange 设备帐户的登录名。  <br/> 如果忽略 ExchangeAddress，则不会自动重用 SkypeSignInAddress。  <br/> |
+|\<SkypeSignInAddress\>  <br/> |String 3 <br/> ||控制台的 Skype for Business 设备帐户的登录名。  <br/> |
+|\<ExchangeAddress\>  <br/> |String 3 <br/> ||控制台的 Exchange 设备帐户的登录名。  <br/> 如果忽略 ExchangeAddress，则不会自动重用 SkypeSignInAddress。  <br/> |
 |\<DomainUsername\>  <br/> |字符串和 #x 2778; <br/> ||控制台设备的域和用户名，例如 Seattle\RanierConf。  <br/> |
-|\<密码\>  <br/> |字符串 3 <br/> || 密码参数是用于 Skype for Business 设备帐户登录的相同密码。 <br/> |
+|\<密码\>  <br/> |String 3 <br/> || 密码参数是用于 Skype for Business 设备帐户登录的相同密码。 <br/> |
 | \<ConfigureDomain\> <br/> |字符串和 #x 2778; <br/> ||你可以列出多个域，以逗号分隔。  <br/> |
 |\<AutoRotatePassword\>  <br/> |布尔值和 #x 2777; <br/> |||
 | \<DualScreenMode\> <br/> |布尔值和 #x 2777; <br/> |第一个链接 #x 2776; <br/> |如果为 true，则启用双屏幕模式。 否则设备将使用单屏模式。  <br/> |
@@ -86,9 +86,9 @@ ms.locfileid: "19569157"
 |\<EmailAddressForLogsAndFeedback\>  <br/> |字符串和 #x 2778; <br/> ||这会设置一个可选的电子邮件地址，当“提供反馈”窗口出现时，日志可发送到此地址。  <br/> |
 |\<SendLogsAndFeedback\>  <br/> |布尔值和 #x 2777; <br/> || 如果为 true，将日志发送到域。如果为 false，仅将反馈发送给管理员（不发送日志）。 <br/> |
 | \<设备\> <br/> |容器  <br/> |第一个链接 #x 2776; <br/> | 子元素中的已连接音频设备名称与设备管理器应用中列出的值相同。 配置可能包含目前系统中不存在的设备，例如当前未连接到控制台的 A/V 设备。 可能会为各个设备保留配置。 <br/> |
-|\<MicrophoneForCommunication\>  <br/> |字符串 3 <br/> ||设置将在会议中用作录音设备的麦克风。  <br/> |
-|\<SpeakerForCommunication\>  <br/> |字符串 3 <br/> ||用作会议扬声器的设备。 此设置用于设置将在通话中用于接收音频的扬声器设备。  <br/> |
-|\<DefaultSpeaker\>  <br/> |字符串 3 <br/> ||用于播放来自 HDMI 摄入源的音频的设备。  <br/> |
+|\<MicrophoneForCommunication\>  <br/> |String 3 <br/> ||设置将在会议中用作录音设备的麦克风。  <br/> |
+|\<SpeakerForCommunication\>  <br/> |String 3 <br/> ||用作会议扬声器的设备。 此设置用于设置将在通话中用于接收音频的扬声器设备。  <br/> |
+|\<DefaultSpeaker\>  <br/> |String 3 <br/> ||用于播放来自 HDMI 摄入源的音频的设备。  <br/> |
 | \<主题设置\> <br/> |容器  <br/> |第一个链接 #x 2776; <br/> |可以使用 XML 文件应用的一项功能是为组织设置自定义主题。 您将能够指定主题名称、 背景图像和颜色。  <br/> |
 |\<ThemeName\>  <br/> |字符串和 #x 2778; <br/> || 用于识别客户端上的主题。 主题名称选项包括“默认”、提供的预设主题之一或“自定义”。 <br/>  自定义主题名称应该始终使用*自定义*的名称。 可以在控制台上将客户端 UI 设置为“默认”或预设主题之一，但应用自定义主题只能由管理员远程设置。 <br/>  预设主题包括： <br/>  默认 <br/>  蓝色波浪 <br/>  数字丛林 <br/>  追梦人 <br/>  莱姆汁 <br/>  完美像素 <br/>  路线图 <br/>  夕阳 <br/>  若要禁用当前主题，用于 ThemeName 中的"无主题"。 <br/> |
 |\<CustomThemeImageUrl\>  <br/> |字符串和 #x 2778; <br/> ||使用自定义主题时为必填，否则为可选。 自定义主题图像，请参阅下面的详细信息的[自定义主题图像](xml-config-file.md#Themes)部分。 <br/> |
@@ -105,7 +105,7 @@ ms.locfileid: "19569157"
   
 ## <a name="manage-console-settings-using-an-xml-configuration-file"></a>使用 XML 配置文件管理控制台设置
 
-在启动时，如果找到了一个名为 SkypeSettings.xml 的位置的 XML 文件的 Skype 会议室系统 v2 控制台 * * C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**，它将应用所指示的配置设置由 XML 文件，然后删除该 XML 文件。
+在启动时，如果找到了一个名为 SkypeSettings.xml **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**，位置的 XML 文件的 Skype 会议室系统 v2 控制台它将应用配置设置由 XML 文件，然后删除 XML 文件。
   
 您的企业具有根据多少 Skype 会议室系统 v2 设备和如何选择管理对它们进行配置，有多种方法来将 XML 配置文件。 文件推送到控制台之后，重启以处理配置更改。 成功处理 XML 配置文件后会将其删除。 建议的 Skype 会议室系统 v2 设备管理方法如下所述：
   

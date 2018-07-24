@@ -1,28 +1,28 @@
 ---
-title: 将监视报告与 Skype 在镜像数据库相关联的业务服务器 2015
+title: 将监控报告与 Skype 中的镜像数据库相关联的业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
-description: 摘要： 了解如何监视报告相关联的业务服务器 2015 Skype 使用镜像数据库。
-ms.openlocfilehash: 246f16fd54133e2a6cf1e26a8126d0ec546bd686
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解如何将监控报告与业务服务器使用 Skype 镜像数据库相关联。
+ms.openlocfilehash: e5d9072c2315a2d82f2f41559167a488747fa205
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000769"
 ---
-# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server-2015"></a>将监视报告与 Skype 在镜像数据库相关联的业务服务器 2015
+# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>将监控报告与 Skype 中的镜像数据库相关联的业务服务器 
  
-**摘要：**了解如何监视报告相关联的业务服务器 2015 Skype 使用镜像数据库。
+**摘要：** 了解如何将监控报告与业务服务器使用 Skype 镜像数据库相关联。
   
 ## <a name="monitor-reports-with-a-mirror-database"></a>监控报告与镜像数据库
 
-如果您为监控数据库配置了镜像，该镜像数据库将在发生故障转移时接任主数据库。 但是，如果您使用 Skype 业务服务器监视报告并且发生故障转移，您可能发现您监视报告都无法连接到镜像数据库。 这是因为在安装监控报告时，您仅指定了主数据库的位置，未指定镜像数据库的位置。
+如果您为监控数据库配置了镜像，该镜像数据库将在发生故障转移时接任主数据库。 但是，如果发生故障转移 Skype 用于业务服务器监控报告，您可能会发现，您监控报告未连接到镜像数据库。 这是因为在安装监控报告时，您仅指定了主数据库的位置，未指定镜像数据库的位置。
   
 要使监控报告自动故障转移到镜像数据库，您必须将镜像数据库作为“故障转移合作伙伴”添加到监控报告使用的两个数据库（一个数据库用于存放呼叫详细信息记录数据，另一个用于存放用户体验质量 (QoE) 数据）。（注意，此步骤应在安装监控报告后执行。）您可以通过手动编辑这两个数据库使用的连接字符串值来添加故障转移伙伴信息。为此，请完成以下过程：
   
@@ -40,7 +40,7 @@ ms.lasthandoff: 03/28/2018
     
     **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
-2. 访问 Reporting Services 主页后，单击“**ServerReports**”，然后单击“**Reports_Content**”。 这样，就会到**Reports_Content**页的 Skype 的业务服务器监视报告。
+2. 访问 Reporting Services 主页后，单击“**ServerReports**”，然后单击“**Reports_Content**”。 这样，就会 ' **Reports_Content**页上的 Skype 业务服务器监控报告。
     
 3. 在“**Reports_Content**”页上，单击“**CDRDB**”数据源。
     
@@ -66,9 +66,6 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
-[安装业务服务器 2015年监控在 Skype 的报告](install-monitoring-reports.md)
+[为业务服务器在 Skype 安装监控报告](install-monitoring-reports.md)
   
-[使用业务服务器 2015年监控在 Skype 的报告](../../manage/health-and-monitoring/monitoring-reports.md)
-
+[使用监控报告中 Skype 业务服务器](../../manage/health-and-monitoring/monitoring-reports.md)

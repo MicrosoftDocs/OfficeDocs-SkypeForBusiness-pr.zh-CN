@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 若要编辑现有 Survivable Branch Appliance 或 Survivable Branch Server 的设置，可参考以下各节内容：
-ms.openlocfilehash: eb82254746ea74e06dcd51231712d4694fa8aa9c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 194324a845442041b8dd2bc11274b100ba145276
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991598"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989075"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>分支机构设备常规设置扩展器
  
@@ -28,7 +28,6 @@ ms.locfileid: "19991598"
     
 - 中介服务器设置
     
-## 
 
 对于 Survivable Branch Appliance 或 Survivable Branch Server，可参考以下：
   
@@ -70,7 +69,6 @@ Survivable Branch Appliance 或 Survivable Branch Server 的完全限定域名 (
   
 如果您有多个网关与中介服务器相关联，关联的第一个网关将默认网关。 如果必须选择其他网关作为默认网关，请选择要设为默认值的网关，然后单击“**设为默认值**”。
   
-### 
 
 有关定义和配置 Survivable Branch Appliance 或 Survivable Branch Server 的设置的详细信息，请参阅[Branch-site Resiliency Solutions](http://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx)。
   

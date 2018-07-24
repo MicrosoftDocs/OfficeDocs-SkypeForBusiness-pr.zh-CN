@@ -1,26 +1,25 @@
 ---
-title: 在 Skype for Business Server 2015 中查看 PIN 策略信息
+title: 业务服务器 Skype 中查看 PIN 策略信息
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
-description: 摘要： 查看用户 PIN 策略信息的 Skype 业务服务器 2015年。
-ms.openlocfilehash: 57960037f5a89cd93e03dc37d3f010343313e1e6
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 查看用户 PIN 策略信息的 Skype 业务服务器。
+ms.openlocfilehash: 8401f429184122539f66186c470034f2829536b3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568764"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21017153"
 ---
-# <a name="view-pin-policy-information-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中查看 PIN 策略信息
+# <a name="view-pin-policy-information-in-skype-for-business-server"></a>业务服务器 Skype 中查看 PIN 策略信息
  
-**摘要：** 查看用户 PIN 策略信息的 Skype 业务服务器 2015年。
+**摘要：** 查看用户 PIN 策略信息的 Skype 业务服务器。
   
 您可以使用视图个人识别号 (PIN) 身份验证的用户连接到业务与 IP 电话的 Skype **PIN 策略**选项卡。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”****。
   
@@ -28,7 +27,7 @@ ms.locfileid: "19568764"
   
 ### <a name="to-view-information-about-a-pin-policy-in-skype-for-business-server-control-panel"></a>以查看 PIN 策略的信息中 Skype 业务 Server Control Panel
 
-1.  从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机2015。
+1.  从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机.
     
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。  
     
@@ -64,4 +63,4 @@ MaximumLogonAttempts :
   
 ## <a name="see-also"></a>另请参阅
 
-[为业务服务器 2015 Skype 创建新的 PIN 策略](create-a-new-pin-policy.md)
+[为 Business Server Skype 创建新的 PIN 策略](create-a-new-pin-policy.md)

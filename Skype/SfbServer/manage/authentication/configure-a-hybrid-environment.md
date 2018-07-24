@@ -3,7 +3,6 @@ title: 配置服务器到服务器身份验证的 Skype Business Server 混合�
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,18 +10,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 摘要： 配置服务器到服务器身份验证的 Skype Business Server 混合环境。
-ms.openlocfilehash: 889e62cf2c462dc9f1cc9ab4b96ae73f99bc9c6e
-ms.sourcegitcommit: 3d1556113ce4050b79ee34c138482b34273b8c1d
+ms.openlocfilehash: d0934b8451c59577007812965f9d04f22f90445b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "20178813"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005597"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>配置服务器到服务器身份验证的 Skype Business Server 混合环境。
  
 **摘要：** 配置服务器到服务器身份验证的 Skype Business Server 混合环境。
   
-在混合配置中，某些用户驻留在本地安装的 Skype 的业务服务器 2015年时其他用户都驻留在 Office 365 版本的 Skype 业务服务器。 要在混合环境中配置服务器到服务器身份验证，您必须首先配置业务服务器 2015 信任 Office 365 授权服务器的 Skype 您的本地的安装。 可以通过运行以下 Skype 业务 Server 命令行管理程序脚本来执行此过程中的初始步骤：
+在混合配置中，某些用户驻留在本地安装的 Skype 业务服务器时其他用户都驻留在 Office 365 版本的 Skype 业务服务器。 要在混合环境中配置服务器到服务器身份验证，您必须首先配置的本地安装的 Skype 业务服务器以信任 Office 365 授权服务器。 可以通过运行以下 Skype 业务 Server 命令行管理程序脚本来执行此过程中的初始步骤：
   
 ```
 $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
@@ -71,14 +70,14 @@ Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 $TenantID = (Get-CsTenant -DisplayName "Fabrikam.com").TenantId
 ```
 
-脚本完成后，然后必须配置的业务服务器 2015 Skype 和授权服务器之间的信任关系和 Exchange 2013 和授权服务器之间的第二个信任关系。 这只能使用 Microsoft Online Services cmdlet 来完成。
+脚本完成后，您必须然后配置 Skype 业务服务器和授权服务器之间的信任关系和 Exchange 2013 和授权服务器之间的第二个信任关系。 这只能使用 Microsoft Online Services cmdlet 来完成。
   
 > [!NOTE]
 > 如果你尚未安装 Microsoft Online Services cmdlet，则你需要先完成两项操作，然后再继续。 首先，下载并安装 64 位版本的 Microsoft Online Services 登录助手。 安装完成后，下载并安装 Microsoft Online Services 模块用于 Windows PowerShell 的 64 位版本。 Office 365 网站上可找到的安装和使用 Microsoft Online Services 模块的详细的信息。 这些说明将还告诉您如何配置单一登录、 联盟和 Office 365 和 Active Directory 之间的同步。 
   
 如果您未安装这些 cmdlet，您的脚本将失败，因为 Get-CsTenant cmdlet 不可用。
   
-配置 Office 365 后和业务服务器 2015年和 Exchange 2013，都在服务主体的 Skype 创建 Office 365 后，您将需要使用这些服务主体注册您的凭据。 为此，您必须先获取另存为 .CER 文件的 X.509 Base64。 然后，此证书都将应用于 Office 365 服务主体。
+配置 Office 365 后和业务服务器和 Exchange 2013，都在服务主体的 Skype 创建 Office 365 后，您将需要使用这些服务主体注册您的凭据。 为此，您必须先获取另存为 .CER 文件的 X.509 Base64。 然后，此证书都将应用于 Office 365 服务主体。
   
 当获取 X.509 证书时，启动 Microsoft Online Services 模块 （单击**开始**，单击**所有程序**，都单击**Microsoft Online Services**，然后都单击**Microsoft Online Services 模块 for WindowsPowerShell**)。 服务模块打开后，键入以下内容以导入 Microsoft Online Windows PowerShell 模块包含可用于管理的服务主体的 cmdlet:
   
@@ -122,7 +121,7 @@ $binaryValue = $certificate.GetRawCertData()
 $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 ```
 
-导入证书并将其编码后，您然后可以将证书分配给您的 Office 365 服务主体。 为此，首先使用 Get-MsolServicePrincipal 业务服务器 Skype 和 Microsoft Exchange 服务主体; 检索 AppPrincipalId 属性的值AppPrincipalId 属性的值将用于标识其分配证书的服务主体。 AppPrincipalId 属性值的 Skype 业务服务器 2015年手中，使用以下命令业务服务器的证书分配给 Skype 的 Office 365 版本：
+导入证书并将其编码后，您然后可以将证书分配给您的 Office 365 服务主体。 为此，首先使用 Get-MsolServicePrincipal 业务服务器 Skype 和 Microsoft Exchange 服务主体; 检索 AppPrincipalId 属性的值AppPrincipalId 属性的值将用于标识其分配证书的服务主体。 AppPrincipalId 属性值的 Skype Business Server 手中，使用以下命令业务服务器的证书分配给 Skype 的 Office 365 版本：
   
 ```
 New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue 
@@ -153,7 +152,7 @@ Usage     : Verify
 Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -KeyId bc2795f3-2387-4543-a95d-f92c85c7a1b0
 ```
 
-除了分配证书，您必须配置 Exchange Online 服务主体，并将您的本地版本的 Skype 业务服务器 2015年外部 Web 服务 url 配置为 Office 365 服务主体。 可通过执行下面两条命令达到此目的。 
+除了分配证书，您必须配置 Exchange Online 服务主体，并将您的本地版本的 Skype Business Server 外部 Web 服务 url 配置为 Office 365 服务主体。 可通过执行下面两条命令达到此目的。 
   
 以下示例中，在 lync.contoso.com 是业务服务器池的 Skype 的外部 Web 服务 URL。 您应重复这些步骤以添加在部署中的所有外部 Web 服务 Url。
   

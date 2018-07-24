@@ -3,26 +3,29 @@ title: 在 Skype for Business Server 2015 中监视 IIS 请求跟踪日志文件
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
-description: 摘要： 了解对于旧客户端的业务服务器 2015年支持 Skype 在移动服务 (Mcx)。
-ms.openlocfilehash: 51913162603203333cd201c64ed21770825bdaf7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 了解旧客户端的业务服务器 2015年支持 Mobility Service (Mcx) Skype 中。
+ms.openlocfilehash: 5ed817290bdf86d11dd4a2cf0e95c83fb4c31d9a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983824"
 ---
 # <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中监视 IIS 请求跟踪日志文件
  
-**摘要：**了解业务服务器 2015年支持旧式客户端的移动服务 (Mcx) 在 Skype。
+**摘要：** 了解业务服务器 2015年支持旧客户端的 Skype 中 Mobility Service (Mcx)。
   
 本主题仅适用于支持 Lync 2010 Lync Mobile 客户端的部署，面向的是 Mobility Service (Mcx)。
+
+> [!NOTE]
+> MCX 旧的移动客户端支持不再可用的业务服务器 2019 Skype 中。 您的用户需要升级到当前客户端。
   
-当启用了 Internet Information Services (IIS) 请求跟踪 Skype 业务服务器移动服务 (Mcx) 时，生成的日志文件可能会消耗达三吉字节的磁盘空间，每一天。 默认情况下，IIS 跟踪日志记录已启用。 您应该监视前端服务器，以确保他们不要运行磁盘空间不足。 
+为业务服务器 Mobility Service (Mcx) 的 Skype 启用 Internet Information Services (IIS) 请求跟踪时生成的日志文件可以使用最多为三个千兆字节的每日的磁盘空间。 默认情况下，IIS 跟踪日志记录已启用。 您应监视前端服务器以确保它们不要运行磁盘空间不足。 
   
 默认情况下，IIS 将在 %SystemDrive%\inetpub\logs\LogFiles 中存储日志文件。
   
@@ -32,6 +35,6 @@ ms.lasthandoff: 03/28/2018
 %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 ```
 
-**HttpLogging**命令的详细信息，请参阅[命令参考](https://go.microsoft.com/fwlink/p/?linkId=234927)。
+有关**httpLogging**命令的详细信息，请参阅[命令参考](https://go.microsoft.com/fwlink/p/?linkId=234927)。
   
 
