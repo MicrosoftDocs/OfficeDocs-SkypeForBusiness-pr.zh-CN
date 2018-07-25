@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
+ROBOTS: NOINDEX, NOFOLLOW
 description: 若要开始业务 server 合并与 Skype 的旧部署，请单击下一步。
-ms.openlocfilehash: 126fd401c7ef87a0012690a45abf5a0d3031e484
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 0f9e606dfe184fd2084f3a65c65de456d2c485e7
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974822"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21082571"
 ---
 # <a name="legacy-merge-start"></a>旧版合并启动
  

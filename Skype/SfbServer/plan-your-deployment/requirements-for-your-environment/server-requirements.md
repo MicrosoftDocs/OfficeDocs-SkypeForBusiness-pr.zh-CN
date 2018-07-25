@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 摘要：利用本主题准备 Skype for Business Server 2015 服务器。这里提供了硬件、OS、数据库、软件、所有系统要求和建议，可帮助确保服务器场的安装和部署获得成功。
-ms.openlocfilehash: dfcde40c8084279dca39e830a84ad6e9631530dd
-ms.sourcegitcommit: 98c0d578f5ebbe884a5965ccaba131ee4dd84185
+ms.openlocfilehash: c0ff92de1c822a49fe94deec9a21f100ed291d35
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/05/2018
-ms.locfileid: "19046018"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967450"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的服务器要求
  
@@ -98,7 +98,29 @@ ms.locfileid: "19046018"
   
 > [!NOTE]
 > 您还将需要安装 SQL Server Reporting Services 的监控服务器角色，但我们需要您知道这不会与 SQL 始终上才支持 post-RTM。 
+
+### <a name="microsoft-exchange-storage"></a>Microsoft Exchange 存储
+会议内容文件（比如 PowerPoint 演示文稿）都作为附件进行存档。 如果您想要存储 Skype 业务 Exchange 合规性数据的存档数据，您必须使用 Exchange 部署 Exchange，并确保的最大存储大小支持存储会议内容文件。 您必须部署 Exchange 之前部署和启用存档使用 Microsoft Exchange 集成选项。 
+    
+    If you choose to use Exchange storage, you do not need to deploy separate SQL Server databases for archiving, unless you have Skype for Business users who are not homed on your Exchange servers. If you deploy archiving using the Microsoft Exchange integration option, Skype for Business archive data is stored with Exchange compliance data only for the users who are homed on your Exchange servers. 
   
+## <a name="hardware-and-software-requirements-for-archiving-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的存档的硬件和软件要求
+  
+存档不是定义的服务器角色，您无需安装单独的存档服务器。 统一的数据收集代理是自动安装并激活的每个 Enterprise Edition 前端池和每个 Standard Edition Server 上。 您需要使用拓扑生成器启用和发布存档拓扑。
+    
+存档使用 Skype Business Server 文件存储临时存储会议内容文件，因此您不设置单独的文件存储的存档。
+    
+Microsoft 消息队列不是必需的。
+    
+您需要为存档存储设置基础结构。 这包括选择任一 Exchange 或存档使用 SQL Server 存储。   Skype 业务 Server 存档基础结构要求都与部署 Skype 业务服务器相同。 有关详细信息，请参阅[您 Skype 业务环境要求](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)。 
+  
+> [!NOTE]
+> 以支持用户均未驻留在 Exchange 服务器上或如果您不希望使用的 Microsoft Exchange 集成选项，则必须部署使用 64 位 SQL Server 数据库的存档存储。 
+    
+您必须设置之前部署和启用存档的 SQL Server 平台。 如果用于发布拓扑的帐户具有适当的管理员权限，则可在发布拓扑时创建存档数据库 (LcsLog)。 您稍后还可创建数据库（包括在安装过程中）。 有关 SQL Server 的详细信息，请参阅[SQL Server 文档](https://go.microsoft.com/fwlink/p/?linkID=129045)。
+    
+存档带来的负载提升可能非常显著。 因此，您应确保磁盘空间足够的前端服务器启用存档。
+
 ### <a name="sql-mirroring-sql-clustering-and-sql-always-on"></a>SQL 镜像、SQL 群集和 SQL Always On
 
 您可以与 Skype 的业务服务器 2015年使用 SQL 镜像或 SQL 群集，它受支持。 SQL 镜像设置通过 Skype 业务 Server 拓扑生成器。 如果您在设置 SQL 群集的用途，完成在 SQL Server 中。
@@ -129,8 +151,11 @@ ms.locfileid: "19046018"
 如果您需要阅读 up SQL 镜像的详细信息，我们具有后端服务器高可用性中 Skype 业务服务器 2015年主题。 配置 SQL Server 群集的业务服务器 2015年的 Skype 具有用于获取就绪群集的步骤。 还有更多链接上故障转移群集的 SQL， [2014年](https://technet.microsoft.com/en-us/library/hh231721.aspx)、 [2012年](https://technet.microsoft.com/en-us/library/hh231721%28v=sql.110%29.aspx)和[2008年](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx)。
   
 > [!NOTE]
-> 此版本新增了 SQL Always On 支持。 支持，并且您可以阅读更多有关该产品[中的业务服务器 2015 Skype 的后端服务器高可用性](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)主题中。
-  
+> 新的 2015年版本中为 SQL Always On 支持。 支持，并且您可以阅读更多有关该产品[中的业务服务器 2015 Skype 的后端服务器高可用性](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)主题中。
+
+> [!NOTE]
+> SQL 镜像的业务服务器 2015 Skype 中可用，但业务服务器 2019年不再支持在 Skype。 AlwaysOn 可用性组、 AlwaysOn 故障转移群集实例 (FCI)，和 SQL 故障转移群集方法是首选与 Skype 的业务服务器 2019年。  
+
 ## <a name="software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment"></a>应在 Skype for Business Server 2015 部署之前安装的软件
 <a name="Software"> </a>
 
@@ -141,7 +166,7 @@ ms.locfileid: "19046018"
 |**软件/角色**|**详细信息**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |为业务 Server 服务器的所有 Skype 都需要安装的 Windows PowerShell 3.0。  <br/> • 如果您正在制作 Windows Server 2012 或 Windows Server 2012 R2 上的安装，您正在设置，因为它已存在。  <br/> • 如果您正在执行 Windows Server 2008 R2 上的升级，您可以下载[Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595)即可使用它。 <br/> **提示：** 在那里正确 PowerShell 后，确认其 BuildVersion 6.2.9200.0 或更高版本，转到 PowerShell 提示并键入`$PSVersionTable`。 此操作将显示你所需的信息。  <br/> |
-|Microsoft .NET Framework  <br/> |WCF 服务是一项**功能**已安装作为 Windows 功能，在**服务器管理器**下没有所需的下载。 <br/> • 所需安装此功能，或者如果它已经安装并正在对其，检查的**HTTP 激活**选项还会检查和安装，以确保，如下所示： <br/> ![显示在.NET Framework 4.5 功能下的 HTTP 激活选项的屏幕截图。](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)不要担心，如果您收到反映其他一些操作需要安装的 HTTP 激活安装其他弹出窗口。 这种情况非常正常，只要单击“确定”，继续操作即可。 如果未看到此弹出信息，则可以假设这些功能均已安装，您可以继续操作。  <br/> 通常安装 Microsoft.NET Framework 安装 Windows Server 2012 R2 或 Windows Server 2016 时。 Skype 业务 server 适用于以下的 Microsoft.NET Framework 版本：  <br/> •.NET 3.5  <br/> •.NET 4.5  <br/> •.NET 4.6.x  <br/> •.NET 4.7 （对于业务 Server 累积更新 5 或更高版本的 Skype)  <br/>  可能将默认情况下，在 Windows Server 2008 R2 计算机上安装.NET framework 3.5 （肯定检查以确保在升级之前），但它实际上不是 Windows Server 2012/Windows Server 2012 R2 服务器 （针对新安装） 上。 若要添加中，您将需要访问安装驱动器或媒体 （Windows Server 从，安装位置或安装文件所在现在）。 然后继续操作，并从服务器管理器将其作为功能进行安装，在提示时指向安装媒体（即 **\sources\sxs** 文件夹），然后继续安装。 <br/> |
+|Microsoft .NET Framework  <br/> |WCF 服务是一项**功能**已安装作为 Windows 功能，在**服务器管理器**下没有所需的下载。 <br/> • 所需安装此功能，或者如果它已经安装并正在对其，检查的**HTTP 激活**选项还会检查和安装，以确保，如下所示： <br/> ![显示在.NET Framework 4.5 功能下的 HTTP 激活选项的屏幕截图。](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)不要担心，如果您收到反映其他一些操作需要安装的 HTTP 激活安装其他弹出窗口。 这种情况非常正常，只要单击“确定”，继续操作即可。 如果未看到此弹出信息，则可以假设这些功能均已安装，您可以继续操作。  <br/> 通常安装 Microsoft.NET Framework 安装 Windows Server 2012 R2 或 Windows Server 2016 时。 Skype 业务 server 适用于以下的 Microsoft.NET Framework 版本：  <br/> •.NET 3.5  <br/> •.NET 4.5  <br/> •.NET 4.6.x  <br/> •.NET 4.7.1 及更高 （对于业务 Server 累积更新 5 或更高版本的 Skype)  <br/>  可能将默认情况下，在 Windows Server 2008 R2 计算机上安装.NET framework 3.5 （肯定检查以确保在升级之前），但它实际上不是 Windows Server 2012/Windows Server 2012 R2 服务器 （针对新安装） 上。 若要添加中，您将需要访问安装驱动器或媒体 （Windows Server 从，安装位置或安装文件所在现在）。 然后继续操作，并从服务器管理器将其作为功能进行安装，在提示时指向安装媒体（即 **\sources\sxs** 文件夹），然后继续安装。 <br/> |
 |媒体基础  <br/> |Windows Server 2016、 Windows Server 2012 和 Windows Server 2012 R2 与 Microsoft 媒体 Foundation 将安装 Windows Media Format Runtime。  <br/> 用于会议的所有前端服务器和 Standard Edition 服务器需要 Windows Media Format Runtime，若要运行的 Windows Media 音频 (.wma) 文件的呼叫寄存、 通知和响应组应用程序播放通知和保持音乐。  <br/> |
 |Windows Identity Foundation  <br/> |我们需要 Windows Identity Foundation 3.5 对业务服务器 2015 Skype 支持服务器到服务器身份验证方案。  <br/> ？ 对于 Windows Server 2012 和 Windows Server 2012 R2，则不需要下载任何内容。 打开**服务器管理器**，转到**添加角色和功能向导**。 **Windows Identity Foundation 3.5** 在**功能**部分列出。 如果选中，您很好。 否则请选中它，并单击“下一步”，然后单击**安装**按钮。 <br/> |
 |远程服务器管理工具  <br/> |角色管理工具：AD DS 和 AD LDS 工具  <br/> |
