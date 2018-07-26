@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 阅读本主题可了解如何 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。
-ms.openlocfilehash: f38748988268fdb2d515cf8a09550f4826b47c70
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 4aa222a98a0c95dd49b40172543aa1f5482a964f
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084434"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21148514"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -76,7 +76,6 @@ Microsoft 还提供了一云语音解决方案，如调用规划。  但是，�
 
 直接路由中的用户必须具有以下许可证分配 Office 365 中： 
 
-- Skype for Business Online（计划 2） 
 - Microsoft 电话系统 
 - Microsoft Teams 
 - Microsoft 音频会议 

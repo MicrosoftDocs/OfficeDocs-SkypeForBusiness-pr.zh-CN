@@ -1,5 +1,5 @@
 ---
-title: 拨号计划是什么？
+title: 什么是拨号计划？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解 Office 365 哪种类型的拨号计划 （PSTN 呼叫拨号计划） 的呼叫，以及如何为您的组织选择一种。  '
-ms.openlocfilehash: 5df6b2e9f9e5ccb83d6320cbd43f78ef4fc44424
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 27e65cb0651171f7e0a5d0262db0072b4d620851
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933162"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145290"
 ---
-# <a name="what-are-dial-plans"></a>拨号计划是什么？
+# <a name="what-are-dial-plans"></a>什么是拨号计划？
 
 拨号计划是一组指定的规范化规则，可将单个用户拨打的电话号码转换为替代格式（通常为 E.164），以用于呼叫授权和呼叫路由。
   
@@ -127,7 +127,7 @@ ms.locfileid: "19933162"
 |7digitcallingRedmond  <br/> |将 7 位数号码转换为雷德蒙德本地号码。  <br/> |^ (\\d{7}) $  <br/> |+1425$1  <br/> |将 5550100 转换为 +14255550100  <br/>|
 |RedmondOperator  <br/> |将 0 转换为雷德蒙德话务员。  <br/> |^0$  <br/> |+14255550100  <br/> |将 0 转换为 +14255550100  <br/> |
 |RedmondSitePrefix  <br/> |转换带有网内前缀 (6) 和雷德蒙德站点代码 (222) 的号码。  <br/> |^6222 (\\d{4}) $  <br/> |+1425555$1  <br/> |将 62220100 转换为 +14255550100  <br/> |
-|5digitRange  <br/> |转换以 3-7（含 3 和 7）之间的数字开头的 5 位数分机号。  <br/> |^ ([3-7]\\d{4}) $  <br/> |+142570$1  <br/> |将 54567 转换为 +14255554567  <br/> |
+|5digitRange  <br/> |转换以 3-7（含 3 和 7）之间的数字开头的 5 位数分机号。  <br/> |^ ([3-7]\\d{4}) $  <br/> |+ 142555$ 1 <br/> |将 54567 转换为 +14255554567  <br/> |
 |PrefixAdded  <br/> |在对第一位和第三位数字有限制的 9 位数号码前添加国家/地区前缀。  <br/> |^ ([2-9]\\d\\d [2-9]\\d{6}) $  <br/> |1$1  <br/> |将 4255554567 转换为 14255554567  <br/> |
 |NoTranslation  <br/> |匹配 5 位数，但不转换。  <br/> |^ (\\d{5}) $  <br/> |$1  <br/> |将 34567 转换为 34567  <br/> |
    

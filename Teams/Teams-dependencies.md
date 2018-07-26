@@ -6,15 +6,16 @@ manager: serdars
 ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
-ms.reviwer: laal
+ms.reviewer: laal
 description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe399bb7b28f834575aeff344ff3fc4cca1b5dae
-ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.openlocfilehash: 0d31bb8eafdaa6a04fe34f8433e8484ec447e7c1
+ms.sourcegitcommit: 2ce680aba13d1d781019b766a04e4e7d46d4f72c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21136304"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授权来宾访问
 ===========================================
@@ -36,27 +37,27 @@ ms.lasthandoff: 03/09/2018
 ![用于来宾访问的授权相关性示意图。](media/teams_dependencies_image1.png)
 
 
-##<a name="azure-active-directory"></a>Azure Active Directory
+## <a name="azure-active-directory"></a>Azure Active Directory
 
 有了 Azure AD 企业到企业 (B2B) 协作，向潜在来宾用户发送邀请的操作将不局限于租户管理员。 你可以使用策略将发送邀请的任务委派给角色允许其发送邀请的用户。
 
-用于邀请的设置在租户级别应用，并在目录、租户和应用程序级别控制来宾体验。 最少支持的客人，**可以邀请成员**必须设置为**是**。
+用于邀请的设置在租户级别应用，并在目录、租户和应用程序级别控制来宾体验。 至少支持来宾**成员可以邀请**必须设置为**是**。
 
 
 ![Azure Active Directory 门户中用户设置的屏幕截图。](media/teams_dependencies_image2.png)
 
-Azure 广告包括以下设置来配置外部用户：
-- **来宾用户的权限是有限**：**是**指客人不具有权限的目录中的特定任务，如枚举用户、 组或其他目录资源。 此外，客人不能分配给您的目录中的管理角色。 携带的**否**意味着具有相同的访问权限对一般用户已在您的目录中的目录数据。
-- **管理员和来宾邀请者角色中的用户可以邀请**:**是**意味着管理员和"来宾邀请者"角色中的用户将能够邀请到租户的客人。 **不**意味着管理员和用户不能邀请到租户的客人。
-- **成员可以邀请**:**是**意味着您的目录中的非管理员成员可以邀请客人进行协作的 Azure 广告，如 SharePoint 网站或 Azure 资源保护的资源。 只有管理员可以邀请**否**意味着携带到您的目录。
-- **客人可以邀请**:**是**意味着，客人在您的目录本身也可以邀请其他来宾进行协作的 Azure 广告，如 SharePoint 网站或 Azure 资源保护的资源。 携带的**否**意味着不能邀请其他客人与您的组织进行协作。
+Azure AD 包括以下设置来配置外部用户：
+- **来宾用户权限被限制**:**是**意味着来宾不具有某些目录任务权限，如枚举用户、 组或其他目录资源。 此外，来宾无法分配给您的目录中的管理角色。 携带**无**意味着具有对目录数据的正则用户在您的目录中具有相同的访问。
+- **管理员和来宾邀请者角色中的用户可以邀请**:**是**意味着管理员和"来宾邀请者"角色中的用户将能够邀请到租户的来宾。 **无**意味着管理员和用户不能邀请到租户的来宾。
+- **成员可以邀请**:**是**意味着您的目录的非管理员成员可以邀请来宾进行协作的 Azure AD，如 SharePoint 站点或 Azure 资源安全的资源。 到您的目录携带**无**意味着只有管理员可以邀请。
+- **来宾可以邀请**:**是**意味着，您的目录中的来宾本身也可以邀请其他来宾进行协作的 Azure AD，如 SharePoint 站点或 Azure 资源安全的资源。 携带**无**方法不能邀请其他来宾与您的组织进行协作。
  
 
 
 > [!NOTE]
-> 您还可以管理哪些域可以为客人邀请到您的租户。 请参阅[Office 365 组允许/阻止来宾访问](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da)。 
+> 您还可以管理哪些域可以作为来宾邀请到您的租户。 请参阅[Office 365 组允许/阻止来宾访问](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da)。 
 
-##<a name="microsoft-teams"></a>Microsoft Teams
+## <a name="microsoft-teams"></a>Microsoft Teams
 在 Microsoft Teams 中，你可以控制为组织启用还是禁用来宾体验。 该设置在默认情况下禁用，仅在租户级别应用于 Microsoft Teams。
 
 
@@ -64,17 +65,17 @@ Azure 广告包括以下设置来配置外部用户：
 你可以从 Office 365 管理中心管理 Microsoft Teams 来宾访问设置。 有关更多信息，请参阅[开启或关闭 Microsoft Teams 的来宾访问](set-up-guests.md)。 
 
 
-##<a name="office-365-groups"></a>Office 365 组
+## <a name="office-365-groups"></a>Office 365 组
 
 从 Office 365 组中，你可以控制向组织中的所有 Office 365 组和 Microsoft Teams 添加来宾用户和来宾访问。
 
-1. 在 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 上使用你的 Office 365 全局管理员帐户登录。
+1. 使用 Office 365 全局管理员帐户登录 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。
     
   
-2. 在导航菜单中，依次选择**“设置”**和**“服务&amp;和外接程序”**。
+2. 在导航菜单中，依次选择 **“设置”** 和 **“服务&amp;和外接程序”**。
     
   
-3. 选择**“Office 365 组”**。
+3. 选择 **“Office 365 组”**。
     
      ![Office 365 组](media/e25a7920-254c-4da3-bc5f-a8c7f6b61423.png)
   
@@ -82,7 +83,7 @@ Azure 广告包括以下设置来配置外部用户：
   
 
   
-4. 在“Office 365 组”页面上，将切换设置为**“开启”**或**“关闭”**，具体取决于你是否要允许贵组织外部的团队和组所有者访问 Office 365 组。 单击或点击**“允许组所有者将组织外部的人员添加到组”**旁边的切换将其设置为**“开启”**。 如果将此切换设置为“开启”，则会看到另一个选项，用于控制你是否让组和团队所有者将组织外的人员添加到 Office 365 组和 Microsoft Teams。 如果你想让组和团队所有者添加来宾用户，请将此切换设置为“开启”。 ![此屏幕截图显示了“Office 365 组”面板，用于允许组织外部的组成员访问组内容和允许组所有者将组织外部的人员添加到组的选项已开启。](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)
+4. 在“Office 365 组”页面上，将切换设置为 **“开启”** 或 **“关闭”**，具体取决于你是否要允许贵组织外部的团队和组所有者访问 Office 365 组。 单击或点击 **“允许组所有者将组织外部的人员添加到组”** 旁边的切换将其设置为 **“开启”**。 如果将此切换设置为“开启”，则会看到另一个选项，用于控制你是否让组和团队所有者将组织外的人员添加到 Office 365 组和 Microsoft Teams。 如果你想让组和团队所有者添加来宾用户，请将此切换设置为“开启”。 ![此屏幕截图显示了“Office 365 组”面板，用于允许组织外部的组成员访问组内容和允许组所有者将组织外部的人员添加到组的选项已开启。](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)
 
 
 
@@ -90,13 +91,13 @@ Azure 广告包括以下设置来配置外部用户：
 上述设置在租户级别应用，并控制 Office 365 组和 Microsoft Teams 中的来宾体验。
 
 
-##<a name="sharepoint-online-and-onedrive-for-business"></a>SharePoint Online 和 OneDrive for Business
+## <a name="sharepoint-online-and-onedrive-for-business"></a>SharePoint Online 和 OneDrive for Business
 
 Teams 依赖 SharePoint Online 和 OneDrive for Business 存储频道和聊天对话的文件和文档。  
   
     
     
-为了实现完整的 Teams 来宾访问体验，Office 365 管理员需要对以下设置选择**“开启”**：
+为了实现完整的 Teams 来宾访问体验，Office 365 管理员需要对以下设置选择 **“开启”**：
   
     
     

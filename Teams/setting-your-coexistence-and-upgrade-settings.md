@@ -11,12 +11,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b23869226081b46a3668d33b0a25528de4e04ec4
-ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
+ms.openlocfilehash: c2f5b518beceb00909e7b6b97f7bfd6eb513edd8
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "20266887"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21148422"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>设置您的共存和升级设置
 
@@ -26,6 +26,10 @@ ms.locfileid: "20266887"
 升级您的业务用户来使用团队 Skype 时, 有几个选项可帮助您让您的用户的无缝过程。 您可以选择使共存和升级的同时，组织中的用户的所有设置，或您可以为一个或一组用户设置更改您的组织中。 请注意，旧版本的 Skype 业务客户端无法服从这些设置。
 
 分配用户级别的设置优先于组织范围级别设置。 您可以获得更好地了解通过阅读[了解共存和升级的业务和团队的 Skype 旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)可供您的模式的类型。  
+
+> [!IMPORTANT]
+> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+
 
 ## <a name="setting-upgrade-options-for-all-users-in-your-organization"></a>设置为在组织中的所有用户的的升级选项
 
