@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 关于部署 Skype 会议室系统 v2，以及如何部署和管理的系统相关的规划注意事项。
-ms.openlocfilehash: d52f44c302b9f99389b45c1f8e74bef6ef362447
-ms.sourcegitcommit: 3356670f2849306ce329899509d2104fe0404939
+ms.openlocfilehash: 02dcbb2ccdd1b7737dff25475fa8f623d5cff926
+ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19949791"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21249227"
 ---
 <h2>Skype 会议室系统 v2 = #x 2013; <br>下一代 Skype 会议室系统 </h2>
 <ul class="panelContent cardsW cols cols2">
@@ -106,7 +106,7 @@ ms.locfileid: "19949791"
 </ul>
 
 > [!NOTE]
-> Skype 会议室系统 v2 旨在用于与 Skype 业务服务器 2015年或 Skype 业务 online。 Microsoft 团队支持即将非常提供。 <br><br>不应使用 Skype 会议室系统 v2 早期平台，如 Lync Server 2013。 
+> Skype 会议室系统 v2 旨在用于业务服务器 2019年的 Skype、 Skype for Business Server 2015、 Microsoft 团队或 Skype 业务 online。  <br><br>不应使用 Skype 会议室系统 v2 早期平台，如 Lync Server 2013。 
 
 这些文章旨在人员需要规划、 部署和管理这些设备，而不用于系统的用户。 用户将更感兴趣 Skype 会议室系统 v2[联机帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
 

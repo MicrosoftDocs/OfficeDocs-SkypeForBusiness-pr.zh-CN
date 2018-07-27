@@ -3,7 +3,7 @@ title: 对于教育管理员的 Microsoft 团队资源
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 06/18/2018
+ms.date: 07/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -12,19 +12,19 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b411722b94e7a540fe5af4dc8b098ad935876c00
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6eb38d1dc24094233bac94f75967bf8f1e42b93d
+ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995984"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21251881"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>对于教育管理员的 Microsoft 团队资源
 ==============================================
 
 ## <a name="adoption-content"></a>采用内容
 
-创建自定义的电子邮件和海报、 传单学校的信息和徽标。 或使用就绪为打印海报和传单要获取组织兴奋的 Microsoft 团队。
+创建自定义的电子邮件和海报、 传单学校的信息和徽标。 或使用就绪为打印海报、 传单和其他讲义让您的组织兴奋的 Microsoft 团队。
 
 |可自定义电子邮件模板 |         |
 |---------|---------|
@@ -37,6 +37,10 @@ ms.locfileid: "20995984"
 |**面向教育机构的值中引入的 Microsoft 团队**<br>[下载可自定义.docx 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-intro-values.docx?raw=true)<br>[下载就绪为打印.pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![面向教育机构的值海报的简介 Microsoft 团队的屏幕截图。](media/poster-intro-values.png)    |**面向教育机构的功能引入的 Microsoft 团队**<br>[下载可自定义.docx 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/team-edu-customizable-poster-intro-features.docx?raw=true)<br>[下载就绪为打印.pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![面向教育机构的功能海报的简介 Microsoft 团队的屏幕截图。](media/poster-intro-features.png)          |
 |**为提供强大功能与 Microsoft 团队的值**<br>[下载可自定义.docx 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-values.docx?raw=true)<br>[下载就绪为打印.pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![与 Microsoft 团队-值海报助力的屏幕截图。](media/poster-empower-values.png)   |**为提供强大功能与 Microsoft 团队的功能**<br>[下载可自定义.docx 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-features.docx?raw=true)<br>[下载就绪为打印.pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![与 Microsoft 团队-功能海报助力的屏幕截图。](media/poster-empower-features.png)          |
 |**面向教育机构的 Microsoft 团队的值**<br>[下载可自定义.docx 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[下载就绪为打印.pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-values.pdf?raw=true)<br>![教育海报的 Microsoft 团队的值的屏幕截图。](media/flyer-values.png)    |**面向教育机构的 Microsoft 团队的功能**<br>[下载可自定义.docx 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[下载就绪为打印.pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-features.pdf?raw=true)<br>![教育海报的 Microsoft 团队的功能的屏幕截图。](media/flyer-features.png)        |
+
+|准备对打印数据包  |        |
+|---------|---------|
+|**入门面向教育机构的 Microsoft 团队的提示和技巧**<br>[下载就绪为打印.pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-packet-get-started.pdf?raw=true)<br>![获取的屏幕截图入门的 Microsoft 团队的培训数据包。](media/package-teams-edu-get-started.png)    |
 
 ## <a name="call-to-action"></a>行动号召
 
