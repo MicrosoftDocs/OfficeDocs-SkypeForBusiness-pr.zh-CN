@@ -134,15 +134,21 @@
 <!-- ============================================================ -->
 # 安全性和合规性
 ## [Teams 中的安全性和合规性概述](security-compliance-overview.md)
-## [Skype for Business 和 Teams 数据收集做法](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [在 Teams 中对内容进行电子数据展示调查](ediscovery-investigation.md)
 ## [Teams 中的标识模式和身份验证](identify-models-authentication.md)
 ## [将 Teams 用户或团队置于法定保留状态](legal-hold.md)
 ## [在 Teams 中搜索事件的审核日志](audit-log-events.md)
 ## [在 Teams 中使用内容搜索](content-search.md)
+## [在法国的 Microsoft 团队的一致性声明的辅助功能声明](accessibility-declaration-of-conformance-in-france-for-teams.md)
+##  [Skype 业务 Online 和 Microsoft 团队的辅助功能解决方案](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [在英国实践的代码](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [符合标准的处理的代码英国](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [免费拨出期](/SkypeForBusiness/legal-and-regulatory/?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [数据收集做法](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [紧急呼叫标签](/SkypeForBusiness/legal-and-regulatory/emergency-calling-lables?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [紧急呼叫条款和条件](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
 <!-- ============================================================ -->
-
-
 <!-- ============================================================ -->
 # 与 Office 365 的互操作性
 ## [迁移和 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
