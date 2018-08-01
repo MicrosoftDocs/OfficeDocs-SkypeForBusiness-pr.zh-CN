@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: a28819244829b26e19ad8a3c108438e37431fb06
-ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
+ms.openlocfilehash: 2949f170aef6567d186adcd8414e39c7689537e2
+ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20091660"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "21645207"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>通话质量仪表板中可用的维度和衡量指标
 
@@ -220,7 +220,7 @@ ms.locfileid: "20091660"
 |Video Frame Rate Avg  <br/> |范围（每秒帧数）  <br/> |在会话持续期间计算到的视频流每秒接收的平均帧数。值按范围分组表示。  <br/> |空值表示流不是视频流或基于视频的屏幕共享流，或接收流的终结点未报告此数据。   <br/> **示例值：** 135: [31.5-32)  <br/> |
 |Dynamic Capability Percent  <br/> |范围（百分比）  <br/> |客户端以低于此类型 CPU 预期视频处理容量的 70% 运行的时间的百分比，按范围分组。  <br/> |空值表示流不是视频流或基于视频的屏幕共享流，或接收流的终结点未报告此数据。  <br/> **示例值：** 122: [25-25.5)  <br/> |
 |Spoiled Tile Percent Total  <br/> |范围（百分比）  <br/> |没有被发送到远程对等点（例如，从 MCU 到查看器）而是被丢弃的图块的百分比。值按范围分组表示。丢弃图块可能是由于客户端与服务器之间的带宽限制所致。  <br/> |空值表示流不是应用程序共享流，或发送流的终结点未报告此数据。  <br/>  **示例值：** 140: [34-34.5)  <br/> |
-|AppSharing Relative OneWay Average  <br/> |范围（毫秒）  <br/> |终结点之间的应用程序共享流的相对单向平均延迟，以毫秒为单位。值按范围分组表示。  <br/> |空值表示流不是应用程序共享流，或发送流的终结点未报告此数据。  <br/> **示例值：** 126: [27-27.5)  <br/> |
+|AppSharing Relative OneWay Average  <br/> |范围（秒）  <br/> |平均相对的一种方法之间的延迟秒用于应用程序共享流的终结点。 值按范围分组表示。  <br/> |空值表示流不是应用程序共享流，或发送流的终结点未报告此数据。  <br/> **示例值：** 015: [0.01-0.02)  <br/> |
 |AppSharing RDP Tile Processing Latency Average  <br/> |范围（毫秒）  <br/> |在会议服务器上处理 RDP 堆栈图块的平均延迟，以毫秒为单位。值按范围分组表示。  <br/> |空值表示流不是会议中的应用程序共享流，或发送流的终结点未报告此数据。   <br/> **示例值：** 103: [15.5-16)  <br/> |
 |Audio FEC Used  <br/> |布尔值  <br/> |True 表示通话期间在某些点上使用了音频前向纠错 (FEC)。False 表示未使用。  <br/> |空值表示流不是音频流，或发送流的终结点未报告此数据。  <br/>  **示例值：** True  <br/> |
 |ClassifiedPoorCall  <br/> |布尔值  <br/> |如果流是已归类为质量欠佳基于此处列出的标准：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |空值表示没有报告可以将流分类为好或差的足够指标。  <br/>  **示例值：** True  <br/> |
@@ -231,7 +231,7 @@ ms.locfileid: "20091660"
 |由于 VideoPostFecplr VBSS 差  <br/> |布尔值  <br/> |如果基于屏幕共享的视频流是已归类为质量欠佳基于视频 Post Fec plr 指标阈值此处列出：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于基于视频的屏幕共享流以外的流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是基于视频的屏幕共享流。  <br/> **示例值：** ，则返回 true  <br/> |
 |由于 VideoLocalFrameLossPercentageAvg VBSS 差  <br/> |布尔值  <br/> |如果基于屏幕共享的视频流是已归类为质量欠佳基于视频本地框架丢失百分比平均指标阈值此处列出：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于基于视频的屏幕共享流以外的流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是基于视频的屏幕共享流。  <br/>  **示例值：** ，则返回 true  <br/> |
 |AppSharing Poor Due To Spoiled Tile Percent Total  <br/> |布尔值  <br/> |如果应用程序共享流是已归类为质量欠佳基于 Spoiled 图块百分比总指标阈值此处列出：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非应用程序共享流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是应用程序共享流。   <br/> **示例值：** ，则返回 true  <br/> |
-|AppSharing Poor Due To Relative OneWay Average  <br/> |布尔值  <br/> |如果应用程序共享流是已归类为质量欠佳基于相对一个 Wa yAverage 指标阈值此处列出：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非应用程序共享流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是应用程序共享流。  <br/>  **示例值：** ，则返回 true  <br/> |
+|AppSharing Poor Due To Relative OneWay Average  <br/> |布尔值  <br/> |如果应用程序共享流是已归类为质量欠佳基于相对单向平均指标阈值此处列出：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非应用程序共享流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是应用程序共享流。  <br/>  **示例值：** ，则返回 true  <br/> |
 |AppSharing Poor Due To RDP Tile Processing Latency Average  <br/> |布尔值  <br/> |如果应用程序共享流是已归类为质量欠佳基于 RDP 图块处理延迟平均指标阈值此处列出：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非应用程序共享流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是应用程序共享流。 <br/>   **示例值：** ，则返回 true  <br/> |
 |Audio Poor Due To Jitter  <br/> |布尔值  <br/> |如果音频流是已归类为质量欠佳基于指标阈值此处列出抖动：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非音频流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是音频共享流。  <br/>  **示例值：** ，则返回 true  <br/> |
 |Audio Poor Due To RoundTrip  <br/> |布尔值  <br/> |如果音频流是已归类为质量欠佳基于指标阈值此处列出的往返：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非音频流，始终为 False。  <br/> |空值表示终结点未报告此数据，或流不是音频共享流。   <br/> **示例值：** ，则返回 true  <br/> |
@@ -486,7 +486,7 @@ ms.locfileid: "20091660"
 |Avg Video Frame Rate  <br/> |帧/秒  <br/> |在会话持续期间计算到的视频流每秒接收的平均帧数。值按范围分组表示。  <br/> |
 |Avg Video Dynamic Capability Percent  <br/> |毫秒  <br/> |客户端以低于此类型 CPU 预期视频处理容量的 70% 运行的流时间的平均百分比。  <br/> |
 |Avg AppSharing Spoiled Tile Percent Total  <br/> |毫秒  <br/> |没有被发送到远程对等点（例如，从 MCU 到查看器）而是被丢弃的图块的平均百分比。丢弃图块可能是由于客户端与服务器之间的带宽限制所致。  <br/> |
-|Avg AppSharing Relative OneWay  <br/> |毫秒  <br/> |终结点之间的应用程序共享流的相对单向平均延迟的平均值，以毫秒为单位。  <br/> |
+|Avg AppSharing Relative OneWay  <br/> |秒  <br/> |以秒为单位的应用程序共享流终结点之间的平均相对单向延迟的平均值。  <br/> |
 |Avg AppSharing RDP Tile Processing Latency  <br/> |毫秒  <br/> |在会议服务器上处理 RDP 堆栈图块的流平均延迟的平均值，以毫秒为单位。  <br/> |
 |平均第一个设备捕获无法正常工作的事件比率  <br/> |比率  <br/> |无法正常工作的第一个终结点检测到的捕获设备的呼叫的时间占平均值。  <br/> |
 |平均秒设备捕获无法正常工作的事件比率  <br/> |比率  <br/> |无法正常工作的第二个端点检测到的捕获设备的呼叫的时间占平均值。  <br/> |

@@ -8,7 +8,7 @@ appliesto:
 注意： 这是预览或早期版本的功能。
 
 ## <a name="overview"></a>概述
-Microsoft 365 中的实时事件使用户能够广播视频和大型联机访问群体的内容。  Microsoft 365 live 事件使实时视频流式传输到新的级别，超越了什么以前可能与 Skype 会议广播，鼓励连接在整个项目生命周期与与会者之前、 升级期间和之后 live 事件。 不管您访问群体、 团队或社区驻留，使用 Microsoft 流、 Microsoft 团队或 Yammer，您可以创建 live 事件。  
+Microsoft 365 中的实时事件使用户能够广播视频和大型联机访问群体的内容。  Microsoft 365 live 事件使 live 视频流到新的级别，鼓励连接在整个项目生命周期与与会者之前、 升级期间和之后 live 事件。 不管您访问群体、 团队或社区驻留，使用 Microsoft 流、 Microsoft 团队或 Yammer，您可以创建 live 事件。  
 
 Microsoft 团队提供了基于聊天的协作，调用，会议和 live 事件，您可以展开您的会议的访问群体。 Microsoft 团队 live 事件是一种扩展的团队会议，使用户能够为大型联机访问群体广播视频和会议内容。 通过这些方法，其中的事件宿主前导之间的交互和访问群体参与主要是为了查看共享的主机的内容-一对多通信。 与会者可以观看 Yammer、 团队和/或 Microsoft 流的活动或录制事件，并可以与通过仲裁 Q & A 演示者进行交互或 Yammer 对话。 
 
@@ -17,9 +17,9 @@ Microsoft 团队提供了基于聊天的协作，调用，会议和 live 事件�
 相关的文章： 
 
 - [跨 Yammer、 Microsoft 团队和 Microsoft 流中的 Microsoft 365 live 事件](https://docs.microsoft.com/stream/live-event-m365)
-- [中的 Microsoft 团队的实时事件](https://support.office.com/en-us/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US)
-- [Yammer 中的实时事件](https://support.officeppe.com/en-us/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57?ui=en-US&rs=en-US&ad=US)
-- [Microsoft 流中的实时事件](https://review.docs.microsoft.com/en-us/stream/live-event-overview)
+- [中的 Microsoft 团队的实时事件](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
+- [Yammer 中的实时事件](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
+- [Microsoft 流中的实时事件](https://review.docs.microsoft.com/stream/live-event-overview)
 
 ## <a name="key-components"></a>主要组件
 下图显示了高级别组件参与 Microsoft 365 live 事件。 
@@ -138,7 +138,9 @@ Office 365 许可证需要参加的实时事件作为经过身份验证的用户
   - 事件团队成员和与会者将不能使用团队 live 事件，因为 Azure CDN 不是在中国可访问。 解决方法是使用公司 VPN 连接，获取通过客户的企业网络连接到 CDN 的客户端。
 
 ### <a name="set-up-your-network-for-live-events-in-microsoft-teams"></a>设置您的网络中的 Microsoft 团队的实时事件
-即将推出。
+快速入门 live 事件要求您[准备贵组织的网络中的 Microsoft 团队](https://docs.microsoft.com/en-us/microsoftteams/prepare-network)。  
+
+快速入门和外部编码器 live 事件 
 
 ### <a name="set-up-ecdn-provider-for-live-events-in-microsoft-teams"></a>设置 eCDN 提供程序中的 Microsoft 团队的实时事件 
 Live 事件视频播放使用流式处理 (ABR) 的自适应比特率，但它并单播流，这意味着每个查看器从 internet 获取其自己的视频流。 对于 live 事件或发送到您的组织的大部分内容的视频，可能有大量的 internet 带宽使用查看器。  对于希望减少 live 事件此 internet 通信的组织，与 Microsoft 的集成解决方案的实时事件受信任提供软件的视频传送合作伙伴定义网络 (SDNs) 或企业内容交付网络 (eCDNs)。 这些 SDN / eCDN 平台启用组织牺牲最终用户查看体验的情况下优化网络带宽。 我们的合作伙伴可帮助您在企业网络中启用多可扩展且高效的视频分布。

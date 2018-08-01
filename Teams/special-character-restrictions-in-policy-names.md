@@ -15,14 +15,14 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
-- me.teamsadmincenter.policies.naming.error
+- ms.teamsadmincenter.policies.naming.error
 description: 请参阅有与特殊字符的策略和解决办法可以执行的操作的名称中哪些问题。
-ms.openlocfilehash: 4ddd6a618c42f629acd64162ad608aede6b1819f
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 6aabd3c1d7e373c048ea1d1f723f83ad1108dbe0
+ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20397086"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "21645385"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>什么是团队策略中的特殊字符限制？
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '请参阅步骤将电话拨入式会议许可和会议 ID 分配给用户和许多其他电话拨入式会议设置。 '
-ms.openlocfilehash: 26d80b71344227aeaec7089e2bb9f9a9dfe32ad2
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: f3ab0f2d1ac32de5744dc4ac994e8030a1540ba4
+ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703665"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "21642472"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>管理我的组织的音频会议设置
 
@@ -86,7 +86,7 @@ ms.locfileid: "19703665"
 - 你还可以使用 Windows PowerShell 并运行以下命令： 
     
   ```
-  Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $true|$false
+  Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
     [设置 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285)可用于管理您的组织，包括电子邮件的其他设置。
