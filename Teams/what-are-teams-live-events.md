@@ -1,11 +1,25 @@
--标题： 什么是团队 live 事件？作者： TonySmith ms.author: tonysmit 管理器： serdars ms.date: 7/11/2018 ms.topic： 文章 ms.service: msteams ms.reviwer: tonysmit 说明： 了解如何 Live 事件使用户能够向 Microsoft 团队中的大型联机访问群体广播视频和内容Yammer 和 Microsoft 流。  
-appliesto: 
-- Microsoft Teams
 ---
-
+title: 什么是团队 live 事件？
+author: tonysmith
+ms.author: tonysmit
+manager: serdars
+ms.topic: article
+ms.service: msteams
+ms.reviwer: tonysmit
+description: 了解如何 Live 事件使用户能够广播视频和 Microsoft 团队、 Yammer 和 Microsoft 流中的大型联机访问群体的内容。
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: e8050f105202063a0404de281100deaeca29584d
+ms.sourcegitcommit: d802b3091f9dccc851093eed0e2acbc34d1e9d9b
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "21653682"
+---
 # <a name="what-are-teams-live-events"></a>什么是团队 live 事件？
-**摘要**： 了解如何 live 事件使用户能够广播视频和 Microsoft 团队、 Yammer 和 Microsoft 流中的大型联机访问群体的内容。  
-注意： 这是预览或早期版本的功能。
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
+
+了解如何 live 事件使用户能够广播视频和 Microsoft 团队、 Yammer 和 Microsoft 流中的大型联机访问群体的内容。  
 
 ## <a name="overview"></a>概述
 Microsoft 365 中的实时事件使用户能够广播视频和大型联机访问群体的内容。  Microsoft 365 live 事件使 live 视频流到新的级别，鼓励连接在整个项目生命周期与与会者之前、 升级期间和之后 live 事件。 不管您访问群体、 团队或社区驻留，使用 Microsoft 流、 Microsoft 团队或 Yammer，您可以创建 live 事件。  
@@ -13,13 +27,6 @@ Microsoft 365 中的实时事件使用户能够广播视频和大型联机访问
 Microsoft 团队提供了基于聊天的协作，调用，会议和 live 事件，您可以展开您的会议的访问群体。 Microsoft 团队 live 事件是一种扩展的团队会议，使用户能够为大型联机访问群体广播视频和会议内容。 通过这些方法，其中的事件宿主前导之间的交互和访问群体参与主要是为了查看共享的主机的内容-一对多通信。 与会者可以观看 Yammer、 团队和/或 Microsoft 流的活动或录制事件，并可以与通过仲裁 Q & A 演示者进行交互或 Yammer 对话。 
 
 团队 live 事件被视为 Skype 会议广播的下一个版本和最终将替换 Skype 会议广播中提供的功能。 对于 live 事件的公共预览版本，Microsoft 将继续支持服务的新的或将来事件不会中断的 Skype 会议广播。 我们建议您试用团队利用新功能包括屏幕共享，attendee 计数中的实时事件和外部的硬件软件编码器的支持。 
-
-相关的文章： 
-
-- [跨 Yammer、 Microsoft 团队和 Microsoft 流中的 Microsoft 365 live 事件](https://docs.microsoft.com/stream/live-event-m365)
-- [中的 Microsoft 团队的实时事件](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
-- [Yammer 中的实时事件](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
-- [Microsoft 流中的实时事件](https://review.docs.microsoft.com/stream/live-event-overview)
 
 ## <a name="key-components"></a>主要组件
 下图显示了高级别组件参与 Microsoft 365 live 事件。 
@@ -35,7 +42,7 @@ Microsoft 365 中的实时事件支持生产方案提供了一系列，包括使
 - **外部编码器**： 外部编码器允许用户产生直接从外部硬件或与 Microsoft 流基于软件的编码器其 live 事件。 如果您已有 studio 质量设备 （如媒体混音器） 的支持流 RTMP 服务最佳此选项。 如 executive 城镇大厅 – 其中从媒体混音器为单个流广播到该访问群体的大型事件通常使用此选项。 
 
 ### <a name="streaming-platform"></a>流式平台
-这是组成的以下部分。
+这是组成的以下部分：
 
 #### <a name="azure-media-services"></a>Azure 媒体服务
 [Azure Media Services](https://docs.microsoft.com/en-us/azure/media-services/previous/)为您提供了广播质量视频流的服务访问今天的最常用的移动设备上的较大访问群体。 Media Services 增强辅助功能、 分发和可伸缩性，并使其简单且经济高效流内容到您的本地和全球访问群体 — 同时保护您的内容。
@@ -50,7 +57,7 @@ ECDN 的目标是从 internet 视频内容并不会影响网络性能分布在�
 - 提升 （即将推出快速开始到）
 
 ### <a name="attendee-experience"></a>参与者的体验
-参与者的体验是 live 事件的最重要方面和很重要的与会者可以参加的实时事件毫无问题。 参与者的体验使用 Azure 媒体播放器并跨桌面、 浏览器中，和 mobile (iOS，Android) 的工作方式。 Microsoft 365 提供 Yammer 和团队为两个协作集线器和 live attendee 体验集成到这些协作工具。 也可以通过 Microsoft 流门户中的与会者访问的基于外部编码器 live 事件。
+参与者的体验是 live 事件的最重要方面和很重要的与会者可以参加的实时事件毫无问题。 参与者的体验使用 Azure 媒体播放器并跨桌面、 浏览器中，和 mobile (iOS，Android) 的工作方式。 Office 365 提供 Yammer 和团队为两个协作集线器和 live attendee 体验集成到这些协作工具。 也可以通过 Microsoft 流门户中的与会者访问的基于外部编码器 live 事件。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -63,12 +70,12 @@ ECDN 的目标是从 internet 视频内容并不会影响网络性能分布在�
 - 用户具有权限 （对于外部编码器生产） 在 Microsoft 流中创建 live 事件。
 
 > [!NOTE]
-> O365 来宾，联盟和匿名用户不能为生产者或团队 live 事件中的演示者邀请。 
+> Office 365 来宾，联盟和匿名用户不能为生产者或团队 live 事件中的演示者邀请。 
  
 ### <a name="who-can-watch-live-event"></a>谁可以观看 live 事件
 查看下查看谁可以参加的实时事件表。 
 
-|Attendee 可见性           |快速入门  |外部编码器  |
+|**Attendee 可见性**           |**快速入门** |**外部编码器**  |
 |------------------------------|-------------|------------------|
 |公共 （匿名用户）      |  是        |  否              |
 |来宾用户 *                   |  否         |  否              |
@@ -161,7 +168,7 @@ Kollective 的基于云的、 智能对等分发平台利用您现有的网络�
 #### <a name="configure-ecdn-for-quick-start-live-events"></a>配置"快速启动"live 事件的 eCDN 
 您可以通过 PowerShell 自定义的 Microsoft 团队中配置实时事件 eCDN 提供的程序。 注意： 只有一个 eCDN 提供商可以配置租户在任何给定时间。 
 
-配置配置单元 eCDN 提供程序 
+**配置配置单元 eCDN 提供程序** 
 
 您可以使用[集 CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) PowerShell cmdlet 配置 eCDN 提供程序。 
 1. 从配置单元联系人获取许可证 ID 和 API 模板的 URL。 
@@ -170,7 +177,7 @@ Kollective 的基于云的、 智能对等分发平台利用您现有的网络�
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
 
-配置 Kollective eCDN 提供程序 
+**配置 Kollective eCDN 提供程序** 
 
 您可以使用[集 CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) PowerShell cmdlet 配置 eCDN 提供程序。 
 1. 获取来自您 Kollective 联系人 API 令牌和 API 模板 URL。 
@@ -179,13 +186,10 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
 
-配置提升 eCDN 提供程序 
-
-即将提供 
+**配置提升 eCDN 提供程序**
 
 #### <a name="configure-ecdn-for-external-encoder-live-events"></a>配置 eCDN"外部编码器"live 事件 
 如果您计划来创建使用外部编码器的实时事件，您将需要以及[配置与 Microsoft 流您 eCDN 提供商](https://docs.microsoft.com/stream/network-caching)。 如果您打算创建通过 Microsoft 团队或 Yammer live 事件的"快速启动"，需要配置集成在一起的 Microsoft 团队以及您 SDN/eCDN 提供程序。
-
 
 ### <a name="enable-live-event-scheduling-for-the-user"></a>启用的用户安排 live 事件
 默认情况下，为团队用户启用 live 事件计划时。  
@@ -248,7 +252,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ### <a name="configure-attendee-visibility-options"></a>配置 attendee 可见性选项
 这将允许 live 事件组织者具有适当的与会者可见性创建事件。
 
-|值  |行为  |
+|**值**  |**行为**  |
 |---------|---------|
 |所有人     |用户具有一个选项以创建具有以下 attendee 可见性 live 事件： 公共，公司和特定人员中的每个人。 |
 |EveryoneInCompany     |用户具有一个选项以创建具有以下 attendee 可见性 live 事件： 公司和特定人员中的每个人。 用户无法创建可由匿名用户参加的实时事件。|
@@ -270,7 +274,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 
 始终记录的实时事件，从不记录还是事件组织者可以决定记录事件，这样，管理员控制。  
 
-|值  |行为  |
+|**值**  |**行为**  |
 |---------|---------|
 |始终启用 |始终记录此用户组织的 live 事件。 用户不具有用于重写的选项。 如果记录的实时事件，事件团队成员是否能够下载事件之后录制并与会者可以观看后的事件是通过的事件。 |
 |AlwaysDisabled |永远不会记录此用户组织的 live 事件。 用户不具有用于重写的选项。 如果记录的实时事件，事件工作组成员创建不录制并与会者无法观看结束后的事件。 |
@@ -319,3 +323,10 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
   - [使用 Windows PowerShell 管理 Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
 
+
+### <a name="related-topics"></a>相关的主题： 
+
+- [跨 Yammer、 Microsoft 团队和 Microsoft 流中的 Microsoft 365 live 事件](https://docs.microsoft.com/stream/live-event-m365)
+- [中的 Microsoft 团队的实时事件](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
+- [Yammer 中的实时事件](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
+- [Microsoft 流中的实时事件](https://review.docs.microsoft.com/stream/live-event-overview)
