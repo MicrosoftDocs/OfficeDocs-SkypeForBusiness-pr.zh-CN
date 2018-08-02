@@ -4,17 +4,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 阅读本主题可了解如何 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。
-ms.openlocfilehash: 4aa222a98a0c95dd49b40172543aa1f5482a964f
-ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
+ms.openlocfilehash: 66929e86e6e049ee1dd5c839bfcc4adcc3edf35f
+ms.sourcegitcommit: 9e112a00c9766af8bd30bc13980201d23d1928d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21148514"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21752560"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -107,8 +108,10 @@ SBC 域名必须介于 1"域"的租户中注册的名称。 不能使用 *。 on
 |**DNS 名称**|**可用于 SBC FQDN**|**FQDN 名称示例**|
 |:--- |:--- |:--- |
 contoso.com|是|**有效的名称：**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
-|contoso.onmicrosoft.com|否|**非有效的名称：**<br/>sbc1.europe.contoso.com （需要首先注册"域"中的域名称 europe.contoso.com）
-|
+|contoso.onmicrosoft.com|否|<br/>使用 *。 onmicrosoft.com 域不支持的 SBC 名称
+
+如果您想要使用新的域名。 例如，您的租户具有 contoso.com 为您的租户中注册的域名。 要使用 sbc1.sip.contoso.com。 您可以对使用名称 sbc1.sip.contoso.com SBC 之前需要在您的租户中注册域名称 sip.contoso.com"域"中。 如果您尝试配对 SBC sbc1.sip.contoso.com 您将收到错误"不能使用"sbc1.sip.contoso.com"域所不配置此租户。"
+添加域名后还需要使用 UPN user@sip.contoso.com 和 assing"团队"lisence 创建用户。 可能需要 24 小时后将其添加到"域"的租户、 用户创建的新名称和分配给用户 lisence 完全设置的域名。 
 
 则可能公司有一个租户中的多个 SIP 地址空间。 例如，公司可能必须作为 SIP 地址空间的 contoso.com 和 fabrikam.com 为第二个 SIP 地址空间。 某些用户具有地址 user@contoso.com 和某些用户具有地址 user@fabrikam.com。 
 
@@ -212,7 +215,7 @@ Microsoft 仅支持认证的 SBC，可直接路由与配对。 企业语音的�
 - [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
 - 功能区 (以前称为 Sonus):
    - [SBC 边缘系列](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
-   - [SBC 核心系列 TBD](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
+   - [SBC 核心系列](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
 - ThinkTel: ThinkTel 不销售到企业 SBCs，但其 SBC 正在认证。  
  
 ## <a name="see-also"></a>另请参阅
