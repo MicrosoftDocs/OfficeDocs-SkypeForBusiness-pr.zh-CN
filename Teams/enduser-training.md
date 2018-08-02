@@ -10,12 +10,12 @@ ms.reviewer: lolaj, ninadara
 description: 为了成功部署和采用 Microsoft Teams，管理员可以使用的培训资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95841fe18e8435d319c4f1c5e5e7c5754a46d0c6
-ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
+ms.openlocfilehash: 6b3842fb45e7537589746f69e7514691419eb27c
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2018
-ms.locfileid: "20361127"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21708321"
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams 的最终用户培训
 =====================================
@@ -31,7 +31,8 @@ ms.locfileid: "20361127"
 | [团队提示和技巧](https://support.office.com/office-training-center/Teams-tips) |  |
 | [什么是团队？](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) | 简要介绍 Teams，这是团队合作的中心  |
 | [YouTube 上的 Microsoft Teams 频道](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
-| [YouTube 上云频道中的增补内容](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |方法、最佳实践和功能介绍视频  |
+| [YouTube 上云频道中的增补内容](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |操作方法、 最佳实践和功能查看视频-查看内容。  |
+| [在云本播客上 iTunes 咖啡](https://itunes.apple.com/us/podcast/coffee-in-the-cloud/id1417729403?mt=2) |操作方法、 最佳实践和功能查看播客节目-侦听旅途。  |
 | Microsoft Teams 简介   | <iframe width="350" height="200" src="https://www.youtube.com/embed/GPmjfqnvuG4" frameborder="0" allowfullscreen></iframe>   |
 | 面向教育机构的 Microsoft 团队简介  | <iframe width="350" height="200" src="https://youtube.com/embed/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
 

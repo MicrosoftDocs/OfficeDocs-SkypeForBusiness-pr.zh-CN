@@ -9,12 +9,12 @@ ms.reviwer: tonysmit
 description: 了解如何 Live 事件使用户能够广播视频和 Microsoft 团队、 Yammer 和 Microsoft 流中的大型联机访问群体的内容。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8050f105202063a0404de281100deaeca29584d
-ms.sourcegitcommit: d802b3091f9dccc851093eed0e2acbc34d1e9d9b
+ms.openlocfilehash: 4017e059f202a89451b9aad419fd007bb4758765
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "21653682"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21711067"
 ---
 # <a name="what-are-teams-live-events"></a>什么是团队 live 事件？
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
@@ -147,7 +147,7 @@ Office 365 许可证需要参加的实时事件作为经过身份验证的用户
 ### <a name="set-up-your-network-for-live-events-in-microsoft-teams"></a>设置您的网络中的 Microsoft 团队的实时事件
 快速入门 live 事件要求您[准备贵组织的网络中的 Microsoft 团队](https://docs.microsoft.com/en-us/microsoftteams/prepare-network)。  
 
-快速入门和外部编码器 live 事件 
+快速入门和外部编码器的实时事件，详细和最新的 Url、 IP 地址、 端口和协议必须正确配置个团队和流的列表，请转到[Office 365 Url 和 IP 地址范围](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)。 Microsoft 在不断改进 Office 365 服务，并添加新功能，这意味着所需的端口，Url 和 IP 地址可能会随时间。 我们建议您通过以接收通知，此信息更新或更改时的 RSS 订阅。
 
 ### <a name="set-up-ecdn-provider-for-live-events-in-microsoft-teams"></a>设置 eCDN 提供程序中的 Microsoft 团队的实时事件 
 Live 事件视频播放使用流式处理 (ABR) 的自适应比特率，但它并单播流，这意味着每个查看器从 internet 获取其自己的视频流。 对于 live 事件或发送到您的组织的大部分内容的视频，可能有大量的 internet 带宽使用查看器。  对于希望减少 live 事件此 internet 通信的组织，与 Microsoft 的集成解决方案的实时事件受信任提供软件的视频传送合作伙伴定义网络 (SDNs) 或企业内容交付网络 (eCDNs)。 这些 SDN / eCDN 平台启用组织牺牲最终用户查看体验的情况下优化网络带宽。 我们的合作伙伴可帮助您在企业网络中启用多可扩展且高效的视频分布。

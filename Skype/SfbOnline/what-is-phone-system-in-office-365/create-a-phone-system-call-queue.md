@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 18988c7d6f913b85d11bc465c336dfd265fa34a0
-ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
+ms.openlocfilehash: 9b86bec84846dff36e509488eb34f0415fe8cd95
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19649579"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21708347"
 ---
 # <a name="create-a-phone-system-call-queue"></a>创建电话系统呼叫队列
 
@@ -90,6 +90,14 @@ ms.locfileid: "19649579"
   - iPhone 业务客户端的 Skype (版本 6.16.0 及更高版本)
     
   - 业务客户端的 Skype iPad (版本 6.16.0 及更高版本)
+
+  - Microsoft 团队 Windows 客户端 （32 和 64 位版本）
+
+  - Microsoft 团队 Mac 客户端
+
+  - Microsoft 团队 iPhone 应用程序
+
+  - Microsoft 团队 Android 应用程序
     
 ## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>第 2 步 - 获取或转移收费或免费服务电话号码
 
