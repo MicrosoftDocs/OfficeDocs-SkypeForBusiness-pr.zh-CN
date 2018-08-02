@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 了解如何配置 Microsoft 电话系统直接路由。
-ms.openlocfilehash: c73141e4f77816d5e090a1cf0208eb66a1e29811
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 112381db7d4d2bc160917b41c7e8e437ef737bcf
+ms.sourcegitcommit: d619e44d685e2109b995ffd67ff4b98e5647c8ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084436"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21762940"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -530,47 +530,8 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-the-users"></a>作为首选的呼叫客户端为用户的 Microsoft 团队
 
-直接路由将将仅对 Microsoft 团队的呼叫路由，因此您需要确保 Microsoft 团队是首选调用客户端的用户。 这是由 TeamsCallingPolicy 和 TeamsInteropPolicy 进行控制。 
+直接路由仅将呼叫路由到用户与如果他们使用团队 Cleint。 如果您的组织仅使用团队 cleint，"仅工作组"设置模式中升级策略建议。 如果您的组织使用业务 online 业务服务器或 Skype Skype，请查看以下文档[的业务和团队的 Skype 了解共存和升级旅程](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)，并选择适当的选项。 
 
-1. 首先，使用远程 PowerShell 会话中的业务 Online 管理中心 Skype 中以下 cmdlet 以查看已分配的用户的策略。 
-
-  ```
-  Get-CsOnlineUser -identity <User Name> | fl *teams*
-  ```
- 
-2. 接下来，查看不同的策略实例。 
-
-  ```
-  Get-CsTeamsCallingPolicy
-  ``` 
- 和 
-
-  ```
-  Get-CsTeamsInteropPolicy
-  ``` 
-
-Microsoft 团队用户可以使用该服务之前，其他一些的步骤可能需要采取应用调用策略，并允许呼叫。
-
-### <a name="teams-calling-policy"></a>团队呼叫策略
-
-您需要确保用户具有与 AllowCalling TeamsCallingPolicy = True。 此策略可以是您的租户中的全局策略或向用户授予的特定策略。 如果您需要向用户授予的特定策略，您可以使用此 cmdlet:
-
-```
-Grant-CsTeamsCallingPolicy -PolicyName <policy> -Identity <User Name>
-```
-
-### <a name="teams-interop-policy"></a>团队互操作性策略
-
-请确保用户具有首选的调用客户端，将设置为 Microsoft 团队。 这可以完成以下两种方式：
-
-- 用户设置首选调用客户端中的 Microsoft 团队客户端。
-- 设置首选调用客户端策略已分配的用户。
-
-若要指定将 Microsoft 团队设置为首选调用客户端策略，请确保用户被授予 CallingDefaultClient 策略 = 团队。 示例 cmdlet 如下所示：
-
-```
-Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Identity “<User Name>”
-```
 
 ## <a name="see-also"></a>另请参阅
 

@@ -3,7 +3,7 @@ title: 将应用程序发布到 Microsoft 团队租户的应用程序目录
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/13/2018
+ms.date: 08/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11db7dec3122de3eb783152483a1575cf92dc585
-ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
+ms.openlocfilehash: 655a9da3670a7894e581cd2e6adebd02ef22706b
+ms.sourcegitcommit: d619e44d685e2109b995ffd67ff4b98e5647c8ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2018
-ms.locfileid: "20363902"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21762932"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>将应用程序发布到 Microsoft 团队租户的应用程序目录
 =======================================================
@@ -32,7 +32,7 @@ ms.locfileid: "20363902"
 
 ### <a name="get-a-teams-app-package"></a>获取团队应用程序包
 
-使用[团队应用程序 Studio](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/get-started-app-studio)创建团队应用程序包。 在应用程序包后，您可以将其添加到企业应用程序目录。 时为租户中的所有用户都可以都查看应用程序目录，只有管理员能够管理它。
+使用[团队应用程序 Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)创建团队应用程序包。 在应用程序包后，您可以将其添加到企业应用程序目录。 时为租户中的所有用户视图应用程序目录，当前仅全局管理员可以发布和管理它的功能。 （最终，团队 admins 都将能够执行此操作以及。）
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>转到租户的应用程序目录
 
