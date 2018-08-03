@@ -10,12 +10,12 @@ ms.reviewer: marcl, ninadara
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee04fc9452342b78dc94a3c5c4e977f944d9164b
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: b7053bade0b01a35ba8e43607b182c9faec63879
+ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246543"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21779516"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
   
@@ -59,7 +59,7 @@ ms.locfileid: "20246543"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|现代身份验证失败-未启用的表单身份验证  <br/> |多重身份验证首次失败后，使用 Web 应用进行身份验证。  <br/> 有关详细信息，请参阅 [Active Directory 联合身份验证服务 prompt=login 参数支持](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login)。  <br/> |检查此设置：Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior Disabled。  <br/> |2017 年 6 月 19 日  <br/> |
+|现代身份验证失败-未启用的表单身份验证  <br/> |多重身份验证首次失败后，使用 Web 应用进行身份验证。  <br/> 有关详细信息，请参阅 [Active Directory 联合身份验证服务 prompt=login 参数支持](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login)。  <br/> |检查此设置： `Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior Disabled`。  <br/> |2017 年 6 月 19 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -104,15 +104,15 @@ ms.locfileid: "20246543"
 ## <a name="client"></a>客户端
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|团队不会自动更新   <br/> | 使用安装脚本的程序文件，而不是默认位置安装后的 Microsoft 团队，客户端不会自动更新新版本可用时。    <br/> | 通过设计。 请务必在默认位置安装应用程序： user\Appdata。  <br/> | 9/7/17  <br/> |
+|团队不会自动更新   <br/> | 使用安装脚本的程序文件，而不是默认位置安装后的 Microsoft 团队，客户端不会自动更新新版本可用时。    <br/> | 通过设计。 请务必在默认位置安装应用程序： `user\Appdata`。  <br/> | 9/7/17  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|符号链接或 mappying 到 C:\users 驱动器导致应用程序中，启动与白屏  <br/> | 使用安装脚本的程序文件，而不是默认位置安装后的 Microsoft 团队，客户端不会自动更新新版本可用时。   <br/> | 通过设计。 请务必在默认位置安装应用程序： user\Appdata。 如果必须存在映射，您应使用的 web 版的 Microsoft 团队。  <br/> | 9/7/17  <br/> |
+|符号链接或 mappying 到 C:\users 驱动器导致应用程序中，启动与白屏  <br/> | 使用安装脚本的程序文件，而不是默认位置安装后的 Microsoft 团队，客户端不会自动更新新版本可用时。   <br/> | 通过设计。 请务必在默认位置安装应用程序： `user\Appdata`。 如果必须存在映射，您应使用的 web 版的 Microsoft 团队。  <br/> | 9/7/17  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|符号链接或映射驱动器到 c:\users 将导致应用程序中，启动与白屏  <br/> |当 C:\users 的默认位置\<用户 > \appData 更改通过移动 C:\users 文件夹或使用符号链接，应用程序将启动与白屏。   <br/> |没有任何已知的解决办法。 如果必须存在映射，您应使用的 web 版的 Microsoft 团队。   <br/> |2017 年 3 月 13 日  <br/> |
+|符号链接或映射驱动器到 c:\users 将导致应用程序中，启动与白屏  <br/> |时的默认位置`C:\users\<user>\appData`更改通过移动`C:\users`与白屏文件夹或使用符号链接，将启动应用程序。   <br/> |没有任何已知的解决办法。 如果必须存在映射，您应使用的 web 版的 Microsoft 团队。   <br/> |2017 年 3 月 13 日  <br/> |
 
 ## <a name="environment"></a>环境
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
@@ -131,7 +131,7 @@ ms.locfileid: "20246543"
 ## <a name="meetings"></a>会议
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|用户无法访问会议/连接器，但具有 Exchange Online 邮箱。 <br/> |客户主动 EWS 阻止来自 Exchange Online 中的服务，但需要有 MS 团队符合 EWS 策略中。 <br/> |若要使 MS 团队兼容，您必须添加内 EWSAllowList MS 团队以下用户代理字符串： *skypespaces*，包括星号。 完整的命令是： 设置 organizationconfig-ewsallowlist *skypespaces*<br/> 有关详细信息：https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |5/30/17  <br/>|
+|用户无法访问会议/连接器，但具有 Exchange Online 邮箱。 <br/> |客户主动 EWS 阻止来自 Exchange Online 中的服务，但需要有 MS 团队符合 EWS 策略中。 <br/> |若要使 MS 团队兼容，您必须添加内 EWSAllowList MS 团队以下用户代理字符串： `*skypespaces*`，包括星号。 完整的命令为：`set-organizationconfig -ewsallowlist *skypespaces*`<br/> 有关详细信息：https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |5/30/17  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -235,5 +235,5 @@ ms.locfileid: "20246543"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|  
-|显示白屏团队桌面应用程序  <br/> | <br/> |请尝试删除或重新图形驱动程序安装在计算机或开始团队需要从命令行使用禁用 GPU 标志：<ul><li>Windows： 中，打开命令提示符，并输入以下命令： cd %localappdata%\microsoft\teams\current 运行 Teams.exe-禁用 gpu</li><li>用于 Mac： 开始终端和输入以下命令： cd \Applications 文件夹 Microsoft\ Teams.app/Contents/MacOS/Teams-禁用 gpu</li></ul> <br/> |<br/> |
+|显示白屏团队桌面应用程序  <br/> | <br/> |请尝试删除或重新图形驱动程序安装在计算机或开始团队需要从命令行使用禁用 GPU 标志：<ul><li>Windows： 打开命令提示符，然后输入以下：`cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>用于 Mac： 开始终端和输入以下命令：`cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 

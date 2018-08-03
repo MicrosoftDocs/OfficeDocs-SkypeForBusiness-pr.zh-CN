@@ -12,12 +12,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a10056c201ad5adb1192f599106c533571507ef
-ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.openlocfilehash: a7d30f5516ba0b44bc5ff854fcc9f5482fdf24c2
+ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "21597542"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21779508"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>管理对 Microsoft Teams 的用户访问
 =====================================
@@ -31,7 +31,7 @@ ms.locfileid: "21597542"
 > [!NOTE]
 >Microsoft 建议，您打开团队公司中的所有用户，以便团队可以该库格式正确的项目和其他动态计划。 即使您决定为试点，它可能仍会有所帮助保持团队启用所有用户，但仅具有与试点的用户组的通信。
 
-## <a name="manage-directly-through-the-office-365-admin-center"></a>直接通过 Office 365 管理中心管理
+## <a name="manage-teams-through-the-office-365-admin-center"></a>通过在 Office 365 管理中心管理团队
 
 直接通过 Office 365 admin center 用户管理界面进行管理团队用户级许可证。 管理员可以在创建新用户帐户时为新用户分配许可证，也可以为已有帐户的用户分配许可证。 管理员必须拥有 Office 365 全局管理员或用户管理管理员权限才能管理 Microsoft Teams 许可证。
 
@@ -66,19 +66,6 @@ ms.locfileid: "21597542"
 |![决策点图标。](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |决策点         |<ul><li>什么是整个组织内的组织规划团队入职培训？  （试点或开放）</li></ul>         |
 |![后续步骤图标。](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |后续步骤         |<ul><li>如果通过封闭式试点上线，请确定是通过许可还是有针对性的通信来上线。</li><li>决策，根据需要步骤以确保仅试验用户有权访问工作组 （如果需要）。</li><li>文档的准则为哪些用户将 （或不会） 有权访问团队。</li></ul>         |
 
-## <a name="manage-via-office-sku-level-switch"></a>通过 Office Sku 级别交换机管理
+## <a name="manage-teams-at-the-office-365-tenant-level"></a>管理 Office 365 租户级别的团队
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
-1.  使用具有全局管理员权限的帐户登录 [Office 365 管理中心](https://go.microsoft.com/fwlink/?linkid=854614)。
-
-2.  转至“**设置**” > “**服务和外接程序**”。
-
-    ![Office 365 管理中心中的“设置”部分（选择了“服务和外接程序”）屏幕截图。 ](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image1.png)
-
-3.  在“服务和外接程序”页面上，单击 **“Microsoft Teams”**。
-
-    ![选择了“Microsoft Teams”的“服务和外接程序”页面屏幕截图。](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
-
-4.  要为组织启用 Teams，请使用许可证选取器，并选择每个许可证，然后将切换设置为 **“开启”**，并单击 **“保存”**。
-
-    ![Microsoft Teams 设置页面屏幕截图，显示切换设置为“开启”以启用 Microsoft Teams。](media/Services-and-addins-control-Microsoft-Teams.PNG)
