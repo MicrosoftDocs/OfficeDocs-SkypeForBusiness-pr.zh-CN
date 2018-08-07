@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: c58f9c6fe4174f58f4c430fe121cd071a0b5b9a5
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: f12952944c85c77778a018de0f4f4b2bd39945b0
+ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19494009"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22101961"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>获取适用于 Skype for Business Online 的电话
 
@@ -55,7 +55,9 @@ Skype for Business 的排序新电话，时，务必购买具有*正确的产品
 AudioCodes 电话的详细信息，请参阅[业务 IP 电话的 Skype](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)。
   
 > [!NOTE]
-> Lync Phone Edition 与 Skype 的业务联机支持。 主流支持 LPE 平台的 2014 年 4 月/10，直到年 4 月/11/2023 对齐与 Lync Server 2013 的产品支持生命周期的扩展支持结束。 有关 LPE 生命周期的详细信息，请参阅[Microsoft 产品生命周期](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO)。 LPE 帽模型不支持与 Skype 业务联机。
+> Lync Phone Edition 支持 Skype 业务 online，但不是与 Microsoft 团队。 主流支持 LPE 平台的 2014 年 4 月/10，直到年 4 月/11/2023 对齐与 Lync Server 2013 的产品支持生命周期的扩展支持结束。 有关 LPE 生命周期的详细信息，请参阅[Microsoft 产品生命周期](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO)。 LPE 帽模型不支持与 Skype 业务联机。
+>
+> 今年更高版本，Office 365 不支持任何版本的 TLS 早于 1.2。 由于 LPE 底层操作系统不支持 TLS 1.2，LPE 将不支持不再连接到 Office 365。 有关详细信息，请参阅[强制使用 TLS 1.2 Office 365 中的 Preparing](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) 。
   
 ## <a name="supported-firmware"></a>支持的固件
 

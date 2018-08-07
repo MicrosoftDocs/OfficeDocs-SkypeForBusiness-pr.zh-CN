@@ -10,12 +10,12 @@ ms.reviewer: laal
 description: 简要介绍如何在 Microsoft Teams 中邀请来宾加入团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa6efbf95d0f68b6871aa0693a6e6bf1062b9f84
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 8d8853e9b383d90ca2b030edd6f6a9f896a6bed7
+ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211049"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22100130"
 ---
 <a name="how-a-guest-joins-a-team"></a>来宾加入团队的方式
 ========================
@@ -33,7 +33,7 @@ Microsoft Teams 中的团队所有者可以通过 Web 或桌面在其团队中�
 
 下面介绍来宾如何成为团队成员：
 
-- **第 1 步** 团队所有者或 Office 365 管理员[向团队添加来宾](https://support.office.com/article/adds-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_addingguests)。
+- **第 1 步** 团队所有者或 Office 365 管理员[向团队添加来宾](https://support.office.com/en-us/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
     
   
 - **第 2 步** Office 365 管理员或团队所有者可以根据需要管理来宾的权限。 例如，允许来宾添加或删除频道，或者禁用对文件的访问权限。
