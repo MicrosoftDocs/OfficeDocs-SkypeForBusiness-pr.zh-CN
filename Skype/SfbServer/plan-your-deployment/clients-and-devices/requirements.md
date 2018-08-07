@@ -10,18 +10,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: 本文汇总了支持 Skype 会议室系统 v2 的要求。
-ms.openlocfilehash: 405b7cd6fefd7fb6fbd6168957bbc2b41a83bea8
-ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
+ms.openlocfilehash: c6267f24771954c31cfc4c75f8fff7b1aa8b9b66
+ms.sourcegitcommit: 1f345f13c8edf04efb0a8dd02d6c11f793ba201a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "20509533"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22111844"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype 会议室系统 v2 要求
  
 本文汇总了支持 Skype 会议室系统 v2 的要求。 
   
 您的部署将涉及[部署 Skype 会议室系统 v2](../../deploy/deploy-clients/room-systems-v2.md)中所述的帐户创建和设置[配置的 Skype 会议室系统 v2 控制台](../../deploy/deploy-clients/console.md)中所述的会议控制台。 您可能还需要引用[Skype 业务加载项授权的](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)。
+
+> [!NOTE]
+> Skype 会议室系统 v2 旨在用于业务服务器 2019年的 Skype、 Skype for Business Server 2015、 Microsoft 团队或 Skype 业务 online。  <br><br>不应使用 Skype 会议室系统 v2 早期平台，如 Lync Server 2013。 
   
 ## <a name="hardware-requirements"></a>硬件要求
 
@@ -34,13 +37,13 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
 **支持的平板电脑**
 |平板电脑|处理器|RAM|磁盘|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4    |核心 i5  |4 GB  |128 GB  |
-|Surface Pro 4    |核心 i5  |8 GB  |256 GB  |    
+|Surface Pro 4       |核心 i5  |4 GB  |128 GB  |
+|Surface Pro 4       |核心 i5  |8 GB  |256 GB  |    
 |Surface Pro (2017)  |核心 i5  |4 GB  |128 GB  |
 |Surface Pro (2017)  |核心 i5  |8 GB  |256 GB  |
 |Surface Pro (2017)  |核心 i7  |8 GB  |128 GB  |
-|Surface Pro (2017)  |核心 i7  |16 GB  |512 GB  |
-|Surface Pro (2017) |核心 i7  |16 GB  |1 TB  |
+|Surface Pro (2017)  |核心 i7  |16 GB |512 GB  |
+|Surface Pro (2017)  |核心 i7  |16 GB |1 TB    |
    
 > [!NOTE]
 > 核心 M3 处理器不受支持。
@@ -62,7 +65,7 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
 
  
 **认证的 USB 音频和视频外围设备的固件版本**
-|**Skype 会议室系统 v2 外围设备**|**Skype 会议室系统 v2 认证的固件版本**|
+|Skype 会议室系统 v2 外围设备|Skype 会议室系统 v2 认证的固件版本|
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |音频-1.0.172  <br/> 视频-1.0.156  <br/> |
