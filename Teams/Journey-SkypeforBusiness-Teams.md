@@ -1,53 +1,59 @@
 ---
-title: 从 Skype for Business 到 Microsoft Teams 的旅程
-author: LolaJacobsen
-ms.author: lolaj
+title: Skype for Business 的 Microsoft 团队升级
+author: dearbeen
+ms.author: dearbeen
 manager: serdars
-ms.date: 03/02/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: MyAdvisor, dearbeen
-description: 浏览你需要了解的有关从 Skype for Business Online 到 Microsoft Teams 的旅程的所有内容。
+ms.reviewer: dearbeen
+description: 使用经验证的成功框架帮助贵组织的升级旅程，从 for Business 的 Skype 到团队
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4341be17cd224e01cc6024d6bf871a6823cdad2
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 1cb5d785df33059fa26c4a081b3ebef70540d65b
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145281"
 ---
-<a name="journey-from-skype-for-business-to-microsoft-teams"></a><span data-ttu-id="14efb-103">从 Skype for Business 到 Microsoft Teams 的旅程</span><span class="sxs-lookup"><span data-stu-id="14efb-103">Journey from Skype for Business to Microsoft Teams</span></span>
-==================================================
-
-<span data-ttu-id="14efb-104">作为用于实现更加智能的通话和会议体验的 Microsoft [智能通信愿景](https://aka.ms/intelligentcommunicationsblog)的一部分，我们正在将 Skype for Business 功能置于 Teams 中。</span><span class="sxs-lookup"><span data-stu-id="14efb-104">As part of the Microsoft [intelligent communications vision](https://aka.ms/intelligentcommunicationsblog) to deliver smarter calling and meeting experiences, we’re building Skype for Business capabilities into Teams.</span></span> <span data-ttu-id="14efb-105">这将是一个逐渐实现的过程，最终，Teams 将成为单一的客户端体验。</span><span class="sxs-lookup"><span data-stu-id="14efb-105">This will happen over time, and ultimately Teams will become the single client experience.</span></span> <span data-ttu-id="14efb-106">作为重要的 Skype for Business 客户，Microsoft 随时为你在你的 Teams 旅程中每一步提供支持。</span><span class="sxs-lookup"><span data-stu-id="14efb-106">As a valued Skype for Business customer, Microsoft is here to support you every step of the way on your journey to Teams.</span></span> <span data-ttu-id="14efb-107">我们深知改变需要时间，因此，我们邀请你现在开始探索 Teams 以了解它可以为贵组织提供的价值，同时你继续运行 Skype for Business。</span><span class="sxs-lookup"><span data-stu-id="14efb-107">We understand that change takes time, so we invite you to begin exploring Teams today to understand the value it can offer to your organization, while you continue to run Skype for Business.</span></span> 
-
-<span data-ttu-id="14efb-108">请参阅 [Teams 产品路线图](https://aka.ms/TeamsRoadmap)以了解 Teams 中即将发生的变化，以及确定贵组织迁移至 Teams 的最佳时间。</span><span class="sxs-lookup"><span data-stu-id="14efb-108">Visit the [Teams product roadmap](https://aka.ms/TeamsRoadmap) to stay on top of what’s coming next in Teams and decide the best time for your organization to move to Teams.</span></span>
-
-<span data-ttu-id="14efb-109">要随时了解有关从 Skype for Business 到 Teams 的旅程的最新信息，另一个很有用的方式是 [Skype for Busineses 到 Microsoft Teams 功能路线图](https://aka.ms/skype2teamsroadmap) - 可下载的 PDF（仅提供英文版，至少现在是这样），该 PDF 提供 Microsoft 对即将在 Teams 中实现的 Skype for Business 功能的当前期望。</span><span class="sxs-lookup"><span data-stu-id="14efb-109">Another great way to stay on top of news about the journey from Skype for Business to Teams is the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) - a downloadable PDF (in English only, at least for now) that gives Microsoft's current expectations about Skype for Business capabilities coming to Teams.</span></span>
-
-<span data-ttu-id="14efb-110">为了获得最佳结果，我们建议你按顺序完成此指导：</span><span class="sxs-lookup"><span data-stu-id="14efb-110">For best results, we recommend that you follow this guidance in order:</span></span>
+# <a name="skype-for-business-to-microsoft-teams-upgrade"></a><span data-ttu-id="61a9d-103">Skype for Business 的 Microsoft 团队升级</span><span class="sxs-lookup"><span data-stu-id="61a9d-103">Skype for Business to Microsoft Teams upgrade</span></span>
 
 
-[<span data-ttu-id="14efb-111">1 - 针对 Teams 优化你的当前 Skype for Business 环境</span><span class="sxs-lookup"><span data-stu-id="14efb-111">1 - Optimize your current Skype for Business environment for Teams</span></span>](prepare-teams.md)
+<span data-ttu-id="61a9d-104">支持 Microsoft 的智能 communications 远景，Microsoft 团队是中心点，用于团队合作，聊天、 会议、 呼叫、 协作、 应用程序集成和文件存储在一起。</span><span class="sxs-lookup"><span data-stu-id="61a9d-104">Supporting Microsoft’s intelligent communications vision, Microsoft Teams is the central hub for teamwork, bringing together chat, meetings, calling, collaboration, app integration, and file storage.</span></span> <span data-ttu-id="61a9d-105">为业务客户现有 Skype，邀请您升级到 Microsoft 团队，以体验此全套中的单个客户端体验的通信和协作功能。</span><span class="sxs-lookup"><span data-stu-id="61a9d-105">As an existing Skype for Business customer, you’re invited to upgrade to Microsoft Teams, to experience this full suite of communication and collaboration capabilities in a single client experience.</span></span>
 
-[<span data-ttu-id="14efb-112">2 - 在使用 Skype for Business 的同时试用 Teams</span><span class="sxs-lookup"><span data-stu-id="14efb-112">2 - Pilot Teams alongside Skype for Business</span></span>](pilot-essentials.md)
+<span data-ttu-id="61a9d-106">您升级旅程可能需要一些时间，以及我们将支持您的方式每一个步骤。</span><span class="sxs-lookup"><span data-stu-id="61a9d-106">Your upgrade journey might take some time, and we’re here to support you every step of the way.</span></span> <span data-ttu-id="61a9d-107">您刚开始与团队，已 for Business，使用旁 Skype 团队还是准备升级，我们正在努力使您适当级别的组织的指南和建议您执行下一步步骤开始意识到值团队可以提供您的组织。</span><span class="sxs-lookup"><span data-stu-id="61a9d-107">Whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade, we’re working hard to bring you the right level of guidance for your organization and encourage you to take the next steps to begin realizing the value Teams can offer your organization.</span></span>
 
-[<span data-ttu-id="14efb-113">3-升级历程和共存的 Skype 业务和团队</span><span class="sxs-lookup"><span data-stu-id="14efb-113">3 - Upgrade journey and coexistence of Skype for Business and Teams</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+<span data-ttu-id="61a9d-108">查看团队升级旅程，包括核心概念、 框架和升级途径为 for Business Skype 简介本[概述](https://aka.ms/UpgradeOverview)。</span><span class="sxs-lookup"><span data-stu-id="61a9d-108">View this [overview](https://aka.ms/UpgradeOverview) for an introduction to the Skype for Business to Teams upgrade journey, including core concepts, framework, and upgrade paths.</span></span>
 
-[<span data-ttu-id="14efb-114">4 - 通过用户采用推动价值</span><span class="sxs-lookup"><span data-stu-id="14efb-114">4 - Drive value through user adoption</span></span>](continue-journey.md)
+## <a name="upgrade-journey-framework"></a><span data-ttu-id="61a9d-109">升级旅程框架</span><span class="sxs-lookup"><span data-stu-id="61a9d-109">Upgrade journey framework</span></span>
+
+<span data-ttu-id="61a9d-110">为了帮助您升级旅程猜测，我们已采用驱动更改，经验证的成功框架引入指南、 提示和整个资源。</span><span class="sxs-lookup"><span data-stu-id="61a9d-110">To help take the guesswork out of your upgrade journey, we’ve employed a proven success framework for driving change, incorporating guidance, tips, and resources throughout.</span></span> <span data-ttu-id="61a9d-111">每个步骤构建在上一，以获得最佳效果，建议下面的步骤顺序。</span><span class="sxs-lookup"><span data-stu-id="61a9d-111">Each step builds on the previous one and for optimal results, we recommend following the steps in order.</span></span>
+
+<span data-ttu-id="61a9d-112">如下所示，成功升级首先组合在一起的右团队项目利益干系人阶段中，然后将其移动到其中巩固范围、 目标和日程表的项目定义。</span><span class="sxs-lookup"><span data-stu-id="61a9d-112">As illustrated below, a successful upgrade begins by bringing the right team together in the Project Stakeholder stage and then moving to Project Definition where the scope, goals, and timeline are solidified.</span></span> <span data-ttu-id="61a9d-113">这有助于创建为您升级旅程坚实的基础。</span><span class="sxs-lookup"><span data-stu-id="61a9d-113">This helps create a solid foundation for your upgrade journey.</span></span> <span data-ttu-id="61a9d-114">从，很关键准备之前上部署和实施技术的准备情况_和_用户准备阶段。</span><span class="sxs-lookup"><span data-stu-id="61a9d-114">From there, it’s critical to prepare for both the Technical Readiness _and_ User Readiness stages before moving on to Deployment and Implementation.</span></span> <span data-ttu-id="61a9d-115">Plan for 试验验证广泛推出之前的准备工作。</span><span class="sxs-lookup"><span data-stu-id="61a9d-115">Plan for a pilot to validate readiness before a broad rollout.</span></span> <span data-ttu-id="61a9d-116">卓越运营阶段的最大好处，建立监视质量并加快了用户应用的计划。</span><span class="sxs-lookup"><span data-stu-id="61a9d-116">For maximum benefit during the Operational Excellence stage, establish a plan that monitors for quality and accelerates user adoption.</span></span>
+
+> [!Tip]
+> <span data-ttu-id="61a9d-117">若要帮助您浏览您升级旅程，查找相关的页面，以确定您所在的过程中在此图形。</span><span class="sxs-lookup"><span data-stu-id="61a9d-117">To help you navigate through your upgrade journey, look for this graphic on related pages to identify where you are in the process.</span></span> <span data-ttu-id="61a9d-118">为与右项目团队成功设置![确保您的项目。定义项目范围、 目标和日程表。确认技术和用户准备情况。执行套推广计划。维护 momentum 以最大限度地结果。]为与右项目团队成功设置(media/upgrade-banner-main.png "确保您的项目。定义项目范围、 目标和日程表。确认技术和用户准备情况。执行套推广计划。维护 momentum 以最大限度地结果。")</span><span class="sxs-lookup"><span data-stu-id="61a9d-118">![Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.](media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.")</span></span>
+
+## <a name="to-get-started"></a><span data-ttu-id="61a9d-119">若要开始...</span><span class="sxs-lookup"><span data-stu-id="61a9d-119">To get started...</span></span>
+
+<span data-ttu-id="61a9d-120">我们了解客户不主动通用。</span><span class="sxs-lookup"><span data-stu-id="61a9d-120">We understand that customers don’t come one-size-fits-all.</span></span> <span data-ttu-id="61a9d-121">添加了灵活性，我们组织到两个路径框架： 基本升级和升级专业人员。</span><span class="sxs-lookup"><span data-stu-id="61a9d-121">For added flexibility, we’ve organized the framework into two paths: Upgrade Basic and Upgrade Pro.</span></span> <span data-ttu-id="61a9d-122">选择最适合您组织需求的迁移。</span><span class="sxs-lookup"><span data-stu-id="61a9d-122">Choose the journey that best meets your organization’s needs.</span></span>
+
+<span data-ttu-id="61a9d-123">选择下列选项之一，或浏览同时为您确定最佳的路径。</span><span class="sxs-lookup"><span data-stu-id="61a9d-123">Select one of the options below or explore both to determine the optimal path for you.</span></span> <span data-ttu-id="61a9d-124">详细信息将联机随时间推移，因此检查后，您的组织将继续其迁移到团队。</span><span class="sxs-lookup"><span data-stu-id="61a9d-124">More information will be coming online over time, so check back as your organization continues its journey to Teams.</span></span> <span data-ttu-id="61a9d-125">为了帮助我们更好地了解您的升级路径以及哪些其他指导信息可能有用，请花些时间<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">共享您的反馈</a>。</span><span class="sxs-lookup"><span data-stu-id="61a9d-125">To help us better understand your upgrade path and what additional guidance might be helpful, take a moment to <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">share your feedback</a>.</span></span>
 
 
- 
-### <a name="see-also"></a><span data-ttu-id="14efb-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="14efb-115">See also</span></span>
-[<span data-ttu-id="14efb-116">教程：从 Skype for Business 到 Teams 的旅程</span><span class="sxs-lookup"><span data-stu-id="14efb-116">Tutorial: Journey from Skype for Business to Teams</span></span>](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-
-[<span data-ttu-id="14efb-117">常见问题解答 - Skype for Business 和 Teams 愿景</span><span class="sxs-lookup"><span data-stu-id="14efb-117">FAQ - Skype for Business & Teams vision</span></span>](FAQ-journey.md)
-
-[<span data-ttu-id="14efb-118">Microsoft 小组路线图</span><span class="sxs-lookup"><span data-stu-id="14efb-118">Microsoft Teams Roadmap</span></span>](https://aka.ms/teamsroadmap)
-
-[<span data-ttu-id="14efb-119">从 Skype for Business 到 Microsoft Teams：功能路线图</span><span class="sxs-lookup"><span data-stu-id="14efb-119">Skype for Business to Microsoft Teams: Capabilities Roadmap</span></span>](https://aka.ms/skype2teamsroadmap)
-
+<div class="mx-tableFixed">
+<table>
+<tbody>
+<tr><td><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-basic"><img src="media/upgrade-to-teams-upgrade-basic-icon.png" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Basic checklist steps you through activities designed to quickly move your entire organization to Teams."></a></td>
+<td>
+<a href="https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-pro"><img src="media/upgrade-to-teams-upgrade-pro-icon.png" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization."></a></td></tr>
+</tbody></table>
+</div>
 
 
-
+> [!IMPORTANT]
+> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
