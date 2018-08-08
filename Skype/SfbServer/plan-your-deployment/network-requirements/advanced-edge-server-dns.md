@@ -1,8 +1,7 @@
 ---
-title: 高级边缘服务器的 DNS 规划的 Skype 业务服务器 2015
+title: 高级边缘服务器的 DNS 规划 Skype 业务服务器
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,18 +11,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
-description: 摘要： 查看的 Skype 方案业务服务器 2015年部署选项。 是否希望一台服务器或首选 DNS 或 HLB 的服务器池，应帮助本主题。
-ms.openlocfilehash: 52a083f0df806d719cba2b596ded1e016c838ea8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 查看的 Skype 方案的业务服务器部署选项。 是否希望一台服务器或首选 DNS 或 HLB 的服务器池，应帮助本主题。
+ms.openlocfilehash: e692e6b4b86ef0f03d19e3c7d1fc0124cfb0db9d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987076"
 ---
-# <a name="advanced-edge-server-dns-planning-for-skype-for-business-server-2015"></a>高级边缘服务器的 DNS 规划的 Skype 业务服务器 2015
+# <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>高级边缘服务器的 DNS 规划 Skype 业务服务器
  
-**摘要：**回顾 Skype for Business Server 2015 部署选项的方案。无论你想要单服务器，还是偏好采用 DNS 或 HLB 的服务器池，本主题都应该有帮助。
+**摘要：** 为业务服务器部署选项的 Skype 查看方案。 是否希望一台服务器或首选 DNS 或 HLB 的服务器池，应帮助本主题。
   
-当谈到的 Skype 域名系统 (DNS) 规划业务服务器 2015年时，有大量的可能播放到您的决定因素。 如果组织的域结构已经就位，那么这可能就是考虑如何继续的问题。 我们将从下面提供的主题开始：
+当谈到域名系统 (DNS) 规划 Skype 业务服务器时，有大量的可能播放到您的决定因素。 如果组织的域结构已经就位，那么这可能就是考虑如何继续的问题。 我们将从下面提供的主题开始：
   
 - [Walkthrough of Skype for Business clients locating services](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)
     
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/03/2018
 ## <a name="walkthrough-of-skype-for-business-clients-locating-services"></a>Walkthrough of Skype for Business clients locating services
 <a name="WalkthroughOfSkype"> </a>
 
-Skype 业务客户端在类似于早期版本的 Lync 客户端如何查找和访问业务服务器 2015 Skype 中的服务。 本节详述服务查找过程。
+Skype 业务客户端在类似于早期版本的 Lync 客户端如何查找和访问业务服务器 Skype 中的服务。 本节详述服务查找过程。
   
 1. lyncdiscoverinternal。\<域\>
     
@@ -98,19 +98,19 @@ Skype 业务客户端在类似于早期版本的 Lync 客户端如何查找和�
     
 - 这个内部 contoso.com 包含：
     
-  - DNS A 和 AAAA （如果您正在使用 IPv6 寻址） 记录前端池、 控制器池或控制器池名称和组织的网络中运行业务服务器 2015 Skype 的所有内部服务器。
+  - DNS A 和 AAAA （如果您正在使用 IPv6 寻址） 记录前端池、 控制器池或控制器池名称和业务服务器运行 Skype，贵组织的网络中的所有内部服务器。
     
-  - DNS A 和 AAAA （如果您正在使用 IPv6 寻址） 记录您的边缘内部接口的每个 Skype 业务服务器 2015年边缘服务器的外围网络中。
+  - DNS A 和 AAAA （如果您正在使用 IPv6 寻址） 记录您边缘内部接口的每个 Skype 业务 Server 边缘服务器在外围网络中。
     
   - （这是**可选**的反向代理的管理） 外围网络中每台反向代理服务器的内部接口的 DNS A 和 AAAA （如果您正在使用 IPv6 寻址） 记录。
     
-  - DNS A 和 AAAA （如果您正在使用 IPv6 寻址） 和 SRV 记录内部 Skype 业务服务器 2015年客户端自动配置 （它是**可选**的）。
+  - DNS A 和 AAAA （如果您正在使用 IPv6 寻址） 和 SRV 记录内部 Skype Business Server 客户端自动配置 （它是**可选**的）。
     
-  - DNS A 和 AAAA （如果您正在使用 IPv6 寻址） 或 CNAME 记录的自动发现的 Skype Business Server 2015 Web services （这是**可选**的）。
+  - DNS A 和 AAAA （如果您正在使用 IPv6 寻址） 或 CNAME 记录的自动发现的 Skype Business Server Web services （这是**可选**的）。
     
-- 您的业务服务器 2015年外围网络中的内部边缘接口的所有 Skype 可都用于解决对 contoso.com 的查询此内部 DNS 区域。
+- 您的业务服务器内部边缘接口外围网络中的所有 Skype 可都用于解决对 contoso.com 的查询此内部 DNS 区域。
     
-- 业务服务器 2015年和企业网络中运行业务服务器 2015 Skype 的客户端运行 Skype 的所有服务器都指向内部 DNS 服务器，以解决对 contoso.com 的查询或他们 （如果使用的每台边缘服务器和列表 A 和 AAAA 上的主机文件您正在使用 IPv6 寻址） 记录 （特别是对于控制器或控制器池 VIP、 Front End 池 VIP 或 Standard Edition server） 的下一个跃点服务器。
+- 业务提供，和企业网络中运行业务服务器 Skype 的客户端运行 Skype 的所有服务器都指向内部 DNS 服务器，以解决对 contoso.com 的查询或他们使用主机文件上每个边缘服务器和列表 A 和 AAAA （如果您正在使用（特别是对于控制器或控制器池 VIP、 Front End 池 VIP 或 Standard Edition server） 的下一个跃点服务器 IPv6 寻址） 记录。
     
 ### <a name="external-dns"></a>外部 DNS
 
@@ -118,18 +118,18 @@ Skype 业务客户端在类似于早期版本的 Lync 客户端如何查找和�
     
 - 此外部 contoso.com 包含：
     
-  - DNS A 和 AAAA （如果您正在使用 IPv6 寻址） 或 CNAME 记录的自动发现的 Skype 业务服务器 2015 web 服务。 这是用于移动。
+  - DNS A 和 AAAA （如果您正在使用 IPv6 寻址） 或 CNAME 记录的自动发现的 Skype 业务服务器 web 服务。 这是用于移动。
     
-  - DNS A 和 AAAA （如果您正在使用 IPv6 寻址） 和 SRV 记录的边缘外部接口的每个 Skype 业务 Server 2015 边缘服务器或硬件负载平衡 (HLB) VIP 外围网络中。
+  - DNS A 和 AAAA （如果您正在使用 IPv6 寻址） 和 SRV 记录的边缘外部接口的每个 Skype 业务 Server 边缘服务器或硬件负载平衡 (HLB) VIP 外围网络中。
     
   - DNS A 和 AAAA （如果您正在使用 IPv6 寻址） 和 SRV 记录的外部接口 (VIP 的反向代理服务器池)，反向代理服务器的外围网络中。
     
-  - DNS A 和 AAAA （如果您正在使用 IPv6 寻址） 和 SRV 记录的 Skype 业务服务器 2015年客户端自动配置 （**可选**）。
+  - DNS A 和 AAAA （如果您正在使用 IPv6 寻址） 和 SRV 记录的 Skype Business Server 客户端自动配置 （**可选**）。
     
 ## <a name="automatic-configuration-without-split-brain-dns"></a>没有拆分式 DNS 时的自动配置
 <a name="NoSplitBrainDNS"> </a>
 
-如果不使用拆分式 DNS，内部自动配置运行 for Business 的 Skype 的客户端不会起作用，除非您使用我们在这里有解决方法之一。 为什么不进行合计？ 因为业务服务器 2015年的 Skype 需要用户的 SIP URI 匹配指定用于自动配置的前端池的域。 此尚未更改从早期版本的 Lync Server。
+如果不使用拆分式 DNS，内部自动配置运行 for Business 的 Skype 的客户端不会起作用，除非您使用我们在这里有解决方法之一。 为什么不进行合计？ 因为 Skype 业务服务器需要用户的 SIP URI 匹配指定用于自动配置的前端池的域。 此尚未更改从早期版本的 Lync Server。
   
 所以，如果正在使用两个 SIP 域，那么需要以下 DNS SRV 记录：
   
@@ -158,7 +158,7 @@ Skype 业务客户端在类似于早期版本的 Lync 客户端如何查找和�
   
 - **匹配内部区域**
     
-    您需要创建匹配外部 DNS 区域 (例如，contoso.com)，在内部 dns 区域，然后创建 DNS A （和 AAAA 如果您使用的 IPv6 寻址） 记录对应于业务服务器 2015年池用于自动 Skype配置。
+    您需要创建匹配外部 DNS 区域 (例如，contoso.com)，在内部 dns 区域，然后创建 DNS A （和 AAAA 如果您使用的 IPv6 寻址） 对应的业务服务器池用于自动 Skype 的记录配置。
     
     例如，如果您有用户驻留在 pool01.contoso.net，但迹象到 Skype 的业务作为 bob@contoso.com，创建名为 contoso.com，内部 DNS 区域，您需要在其中创建 DNS A （和 AAAA 如果正在使用 IPv6 寻址） 记录pool01.contoso.com。
     
@@ -199,13 +199,13 @@ Skype 业务客户端在类似于早期版本的 Lync 客户端如何查找和�
 ## <a name="dns-disaster-recovery"></a>DNS 灾难恢复
 <a name="DNSDR"> </a>
 
-若要配置 DNS 以将 Skype 重定向到您的灾难恢复 （灾难恢复） 和故障转移网站的业务服务器 2015 web 通信，您需要使用支持 GeoDNS DNS 提供程序。 您可以设置 DNS 记录以支持灾难恢复，以便使用 web 服务的功能继续即使一个整个前端池不可用。 此 DR 功能支持自动发现、会议和拨入式简单 URL。
+若要配置 DNS 以将 Skype 重定向到您的灾难恢复 （灾难恢复） 和故障转移网站的企业服务器的 web 通信，您需要使用支持 GeoDNS DNS 提供程序。 您可以设置 DNS 记录以支持灾难恢复，以便使用 web 服务的功能继续即使一个整个前端池不可用。 此 DR 功能支持自动发现、会议和拨入式简单 URL。
   
 你可以在 GeoDNS 提供商处定义和配置用于 Web 服务的内部和外部解析额外的 DNS 主机 A（如果使用 IPv6，则为 AAAA）记录。以下详细信息假定池已配对，地理位置分散，且提供商支持的 GeoDNS **要么**使用循环 DNS，**要么**配置为使用 Pool1 作为主池，并且在发生通信丢失或电源故障时故障转移到 Pool2。
   
 下表中的所有 DNS 记录均为示例。
   
-|**GeoDNS 记录**|**池记录**|**CNAME 记录**|**DNS 设置 （选择一个选项）**|
+|**GeoDNS 记录**|**池记录**|**CNAME 记录**|**DNS 设置（选择一个选项）**|
 |:-----|:-----|:-----|:-----|
 |开会 int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com 的 Meet.contoso.com 别名  <br/> Pool2InternalWebFQDN.contoso.com 的 Meet.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
 |开会 ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com 的 Meet.contoso.com 别名  <br/> Pool2ExternalWebFQDN.contoso.com 的 Meet.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
@@ -223,7 +223,7 @@ Skype 业务客户端在类似于早期版本的 Lync 客户端如何查找和�
   
 例如，如果名为 pool01.contoso.com 的池中有三个前端服务器，以下会发生：
   
-- 运行 for Business 的 Skype 的客户端 DNS 查询 pool01.contoso.com。查询返回三个 IP 地址，并将其缓存，如下所示 （在某些顺序）：
+- 运行 for Business 的 Skype 的客户端 DNS 查询 pool01.contoso.com。 此查询将返回三个 IP 地址并如下方式缓存它们（按某种顺序）：
     
    |||
    |:-----|:-----|
@@ -235,7 +235,7 @@ Skype 业务客户端在类似于早期版本的 Lync 客户端如何查找和�
     
 - 如果 TCP 连接成功，则客户端与 TLS 协商连接到 pool01.contoso.com 上的主注册器。
     
-- 如果客户端尝试了所有缓存的条目不成功连接的情况下，用户将收到通知，任何服务器运行业务服务器 2015 Skype 此时都已可用。
+- 如果客户端尝试了所有缓存的条目不成功连接的情况下，用户将收到通知，任何服务器运行 Business Server Skype 此时都已可用。
     
 > [!NOTE]
 > 基于 DNS 的负载平衡不同于 DNS 循环 (DNS RR)，后者通常是指依靠 DNS 来提供与池中服务器对应的不同顺序的 IP 地址来进行负载平衡。通常 DNS RR 启用负载分配，但不允许启用故障转移。例如，如果无法连接到由 DNS A 和 AAAA（如果使用 IPv6 寻址）查询返回的某个 IP 地址，则连接失败。这使得，DNS RR 的可靠性不如基于 DNS 的负载平衡。如果需要，可以将 DNS RR 与基于 DNS 的负载平衡结合使用。 

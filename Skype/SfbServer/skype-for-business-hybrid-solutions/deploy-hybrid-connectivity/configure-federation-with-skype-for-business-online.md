@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a10bd1d5-c003-46db-9f57-7d55d3fa08da
 description: 摘要： 了解如何为业务 Online 配置内部部署和 Skype 之间的互操作性。
-ms.openlocfilehash: 24a3d95c1da90abd083835a9838e246d25c8a954
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 6a48e3cc579fd3827cc95f7f36d0c637d540ed56
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504444"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176117"
 ---
 # <a name="configure-federation-with-skype-for-business-online"></a>配置与 Skype for Business Online 联盟
  
@@ -77,9 +77,8 @@ $CSSession = New-CsOnlineSession -Credential $cred
 Import-PSSession $CSSession -AllowClobber
 ```
 
-有关如何为业务联机建立与 Skype 的远程 PowerShell 会话的详细信息，请参阅[连接到 Lync Online 通过使用 Windows PowerShell](http://technet.microsoft.com/library/6167dad9-9628-4fdb-bed1-bdb3f7108e64.aspx)。
-  
-有关使用的业务 Online 连接器 PowerShell 模块 Skype 的详细信息，请参阅[使用 Windows PowerShell 管理 Lync Online](http://technet.microsoft.com/library/9ef2d853-10fb-4e02-a552-dcf6818d7153.aspx)。
+有关使用 PowerShell 和 Skype 业务 online 的详细信息，请参阅[Windows PowerShell 将计算机设置](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+
   
 ## <a name="see-also"></a>另请参阅
 

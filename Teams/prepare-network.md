@@ -1,5 +1,5 @@
 ---
-title: "为 Microsoft Teams 准备贵组织的网络"
+title: 为 Microsoft Teams 准备贵组织的网络
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,15 +7,17 @@ ms.date: 02/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: arachman
-description: "了解如何准备和管理你的 Microsoft Teams 网络。 信息包括网络要求、带宽要求和其他考虑事项。"
+description: 了解如何准备和管理你的 Microsoft Teams 网络。 信息包括网络要求、带宽要求和其他考虑事项。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e734014ff72c8b7eb6ba0e9f27cce7489ec3daf9
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 3fec119a29ea29d9d5c897395c82e27fdaed5e48
+ms.sourcegitcommit: 8c13d6279760749f60776a3c9e46118f029ae818
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 06/23/2018
+ms.locfileid: "20024195"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备贵组织的网络
 =================================================
@@ -35,7 +37,7 @@ Teams 组合了三种形式的流量：
 
 为了在 Microsoft Teams 中获得实时媒体方面的最佳体验，需要满足 Office 365 的网络连接要求。 有关详细信息，请参阅 [Skype for Business Online 中的媒体质量和网络连接性能](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US)。
 
-两个定义网络段（客户端到 Microsoft Edge 和客户边缘到 Microsoft Edge）必须满足以下要求：
+两个定义网络段 （客户端到 Microsoft 边缘） 和客户边缘到 Microsoft 边缘，请考虑以下建议。
 
 
 |值  |客户端到 Microsoft Edge  |客户边缘到 Microsoft Edge  |
@@ -57,22 +59,23 @@ Teams 组合了三种形式的流量：
 
 Microsoft Teams 的带宽计算很复杂，因此为了帮助进行此计算，创建了一个计算器。 要访问计算器，请转到 [MyAdvisor 中的网络规划器](http://aka.ms/bwcalc/)。
 
-下文内容可以用作补充背景信息，但建议客户使用[网络规划器](https://aka.ms/bwcalc)来跟踪其需求。
+<!--
+The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
 
 > [!IMPORTANT]
->如果未提供所需的带宽，Teams 中的媒体堆栈将降低音频/视频会话的质量以适应较低的可用带宽，因而会影响通话/会议的质量。 Teams 客户端在处理音频质量和视频质量时将尝试优先考虑音频质量。 因此，提供所需带宽非常重要。
+>If the required bandwidth is not available, the media stack inside Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Teams client will attempt to prioritize the quality of audio over the quality of video. It is therefore extremely important to have the expected bandwidth available.
 
 
-|活动  |下载带宽  |上载带宽  |通信流 |
+|Activity  |Download Bandwidth  |Upload Bandwidth  |Traffic Flow |
 |---------|---------|---------|---------|
-|**点对点音频通话**     |0.1 Mb         |0.1 Mb         |客户端 <> 客户端         |
-|**点对点视频通话（全屏幕）**     |4 Mb         |4 Mb         |客户端 <> 客户端          |
-|**点对点桌面共享（1920*1080 分辨率）**     |4 Mb         |4 Mb         |客户端 <> 客户端          |
-|**2 个参与者的会议**     |4 Mb         |4 Mb         |客户端 <> Office 365         |
-|**3 个参与者的会议**     |8 Mb         |6.5 Mb         |客户端 <> Office 365           |
-|**4 个参与者的会议**     |5.5 Mb         |4 Mb         |客户端 <> Office 365           |
-|**5 个以上参与者的会议**     |6 Mb         |1.5 Mb         |客户端 <> Office 365           |
-
+|**Peer to peer Audio Call**     |0.1 Mb         |0.1Mb         |Client <> Client         |
+|**Peer to peer Video Call (full screen)**     |4 Mb         |4Mb         |Client <> Client          |
+|**Peer to peer Desktop Sharing (1920*1080 resolution)**     |4 Mb         |4 Mb         |Client <> Client          |
+|**2 Participant Meeting**     |4 Mb         |4 Mb         |Client <> Office 365         |
+|**3 participant meeting**     |8 Mb         |6.5 Mb         |Client <> Office 365           |
+|**4 participant meeting**     |5.5 Mb         |4 Mb         |Client <> Office 365           |
+|**5 participant+ meeting**     |6 Mb         |1.5 Mb         |Client <> Office 365           |
+-->
 
 <a name="additional-network-considerations"></a>其他网络考虑事项
 ---------------

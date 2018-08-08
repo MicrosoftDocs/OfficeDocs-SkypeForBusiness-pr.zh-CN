@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中包含安全服务台
+title: 为业务服务器中 Skype 包括安全服务台
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
 description: 规划如何将贵组织的安全服务台包含业务 Server 企业语音的 Skype E9-1-1 部署中。
-ms.openlocfilehash: adaa1096651c5e3f86d15af1b2409a8de03e6c9c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9363956a9b0f1cc598224b9d573677ff424c9e23
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989562"
 ---
-# <a name="include-the-security-desk-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中包含安全服务台
+# <a name="include-the-security-desk-in-skype-for-business-server"></a>为业务服务器中 Skype 包括安全服务台
  
 规划如何将贵组织的安全服务台包含业务 Server 企业语音的 Skype E9-1-1 部署中。
   

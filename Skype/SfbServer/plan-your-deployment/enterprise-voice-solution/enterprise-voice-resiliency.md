@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中规划企业语音恢复能力
+title: 规划业务服务器 Skype 中的企业语音恢复能力
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: 了解如何支持在 Skype 业务 Server 企业语音，在中央站点和分支站点语音恢复能力。 分支站点选项包括部署 Survivable Branch Appliance 或 Survivable Branch Server。
-ms.openlocfilehash: f5497c31e407d5d03564ab7caf7a0b8c8d4e0914
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: fb3dadfc1dcb38508ec696e1f0c257638f6ec5a7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966648"
 ---
-# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中规划企业语音恢复能力
+# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>规划业务服务器 Skype 中的企业语音恢复能力
  
 了解如何支持在 Skype 业务 Server 企业语音，在中央站点和分支站点语音恢复能力。 分支站点选项包括部署 Survivable Branch Appliance 或 Survivable Branch Server。
   
@@ -207,9 +207,9 @@ Skype 业务 server 取决于以下的基础结构和软件组件，以确保语
   
 如果决定提供分支站点复原，有三个选项可供使用。使用下表帮助确定最适合贵组织的选项。
   
-|**如果您...**|**我们建议使用...**|
+|**如果...**|**建议使用...**|
 |:-----|:-----|
-|分支站点承载 25 到 1000 位用户，并且投资回报不支持完整部署，或本地管理支持不可用  <br/> |Survivable Branch Appliance  <br/> Survivable Branch Appliance 是与业务服务器注册器 Skype 行业标准刀片服务器和 Windows Server 2008 R2 上运行的中介服务器。 Survivable Branch Appliance 还包含一个公用电话交换网 (pstn) 网关。 合格第三方设备（由 Microsoft 合作伙伴在 Survivable Branch Appliance (SBA) 资格鉴定/认证计划中开发）在 WAN 发生故障时可以提供连续的 PSTN 连接，但不能提供可恢复的状态和会议，因为这些功能依赖于中央站点的前端服务器。  <br/> 有关 Survivable Branch Appliance 的详细信息，请参阅本主题后面的"Survivable Branch Appliance 详细信息"。  <br/> **注意：**如果您决定在 Survivable Branch Appliance，也使用 SIP 中继，请联系 Survivable Branch Appliance 供应商，以了解有关该服务提供程序最适合于组织。 <br/> |
+|分支站点承载 25 到 1000 位用户，并且投资回报不支持完整部署，或本地管理支持不可用  <br/> |Survivable Branch Appliance  <br/> Survivable Branch Appliance 是与业务服务器注册器 Skype 行业标准刀片服务器和 Windows Server 2008 R2 上运行的中介服务器。 Survivable Branch Appliance 还包含一个公用电话交换网 (pstn) 网关。 合格第三方设备（由 Microsoft 合作伙伴在 Survivable Branch Appliance (SBA) 资格鉴定/认证计划中开发）在 WAN 发生故障时可以提供连续的 PSTN 连接，但不能提供可恢复的状态和会议，因为这些功能依赖于中央站点的前端服务器。  <br/> 有关 Survivable Branch Appliance 的详细信息，请参阅本主题后面的"Survivable Branch Appliance 详细信息"。  <br/> **注意：** 如果您决定在 Survivable Branch Appliance，也使用 SIP 中继，请联系 Survivable Branch Appliance 供应商，以了解有关该服务提供程序最适合于组织。 <br/> |
 |承载 1000年到 2000年位分支站点的用户，缺少可恢复的 WAN 连接，并且具有经过 Skype 培训为可用的业务服务器管理员  <br/> |Survivable Branch Server 或两个 Survivable Branch Appliance。  <br/> Survivable Branch Server 是会议指定的硬件要求已安装的业务服务器注册器和中介服务器软件的 Skype 的 Windows 服务器。 它必须连接到 PSTN 网关或电话服务提供商的 SIP 中继。  <br/> 有关 Survivable Branch Server 的详细信息，请参阅本主题后面的"Survivable Branch Server 详细信息"。  <br/> |
 |如果您需要中的状态和会议功能对语音功能为最多 5000 位用户，并且具有经过培训 Skype 为可用的业务服务器管理员  <br/> |将 Standard Edition Server 部署为中央站点，而非分支站点。  <br/> 对于业务服务器部署全面 Skype 提供连续的 PSTN 连接和可恢复的状态和会议发生 WAN 故障时。  <br/> |
    
@@ -217,7 +217,7 @@ Skype 业务 server 取决于以下的基础结构和软件组件，以确保语
 
 下图显示了推荐的分支站点复原拓扑。
   
-**分支站点恢复能力选项**
+**分支站点复原选项**
 
 ![语音分支站点恢复能力选项](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
   
@@ -284,7 +284,7 @@ Skype 业务服务器支持在分支站点的最多两个 Survivable Branch Appl
 > [!NOTE]
 > 要说明其状态、会议或故障转移依赖于中央站点的任何分支站点用户使用中央站点资源的情况，建议您将每个分支站点用户视作已在中央站点进行注册。 目前不受限制的分支站点用户，其中包括与 Survivable Branch Appliance 注册的用户数。 
   
-我们还建议您创建一个用户级别的拨号计划和语音策略，然后将它分配给分支站点用户。 有关详细信息，请参阅[创建或修改拨号计划中 Skype 业务服务器 2015年](../../deploy/deploy-enterprise-voice/dial-plans.md)和部署文档中[创建 VoIP 路由策略为分支用户](http://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx)。
+我们还建议您创建一个用户级别的拨号计划和语音策略，然后将它分配给分支站点用户。 有关详细信息，请参阅[创建或修改拨号计划中 Skype Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)和部署文档中[创建 VoIP 路由策略为分支用户](http://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx)。
   
 #### <a name="routing-extension-numbers"></a>路由分机号
 
@@ -292,7 +292,7 @@ Skype 业务服务器支持在分支站点的最多两个 Survivable Branch Appl
   
 与包含分机号（无论是只包含一个完整的 E.164 电话号码还是包含其他的电话号码）的线路 URI 匹配的标准化规则和转换规则还有其他要求。本节介绍了为带分机号的线路 URI 路由呼叫的几种示例情况。
   
-如果您的组织没有针对单个用户配置的外线直拨拨号 (DID) 电话号码和分机号配置每个用户的线路 URI，内部用户可以呼叫相互通过拨打仅分机号。 但是，您必须配置规范化规则，并且这些规则要能应用到与这些分机号相匹配的从分支站点用户发给中央站点用户的呼叫。
+如果您的组织没有为单个用户配置外线直拨分机 (DID) 电话号码，并且每个用户的线路 URI 只配置了一个分机号，则内部用户只需拨打分机号即可相互呼叫。但是，您必须配置规范化规则，并且这些规则要能应用到与这些分机号相匹配的从分支站点用户发给中央站点用户的呼叫。
   
 如果分支站点和中央站点之间的 WAN 链路可用，那么分支站点用户发给中央站点用户的呼叫就无需通过匹配的规范化规则来转换号码，因为该呼叫不会通过 PSTN 来路由。例如：
   
@@ -368,7 +368,7 @@ Survivable Branch Server 的要求是前端服务器的要求相同。 有关详
 
  以下示例显示在 Dallas-GW1 因维护而关闭或因其他原因不可用时，管理员如何定义故障转移路由以供使用。下面的表显示了所需的配置更改。
   
-**表 1。用户策略**
+**表 1. 用户策略**
 
 |**用户策略**|**电话用法**|
 |:-----|:-----|
@@ -376,7 +376,7 @@ Survivable Branch Server 的要求是前端服务器的要求相同。 有关详
 |Redmond 本地策略  <br/> |RedmondLocal  <br/> |
 |Dallas 呼叫策略  <br/> |名为 DallasUsers  <br/> GlobalPSTNHopoff  <br/> |
    
-**表 2。路由**
+**表 2. 路由**
 
 |**路由名称**|**号码模式**|**电话用法**|**中继**|**网关**|
 |:-----|:-----|:-----|:-----|:-----|

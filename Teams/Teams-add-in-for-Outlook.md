@@ -4,22 +4,23 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 04/09/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara
-localization_priority: Normal
+ms.reviewer: ''
+localization_priority: Priority
 description: Microsoft Teams 会向 Outlook 中安装外接程序，从而让用户可以在 Outlook 中安排 Teams 会议。
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 109911e27a881ea09fb9854bb84ab19222722c39
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 76b1dcb9c7f34780d4e49611d6e97f2ca890b329
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987125"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -63,17 +64,21 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 - 当前只能邀请公司内部的人员，因为外部用户还不能加入会议。
 - 此外接程序用于特定参与者的安排会议，而非用于频道中的会议。 频道会议必须从 Teams 中安排。 当前，仅面向 Windows 用户提供 Outlook 中的 Teams 会议外接程序，但即将面向 Mac 用户提供。
 - 如果用户的 PC 和 Teams 服务的网络路径中存在身份验证代理，则此外接程序将无法工作。
+- 外接程序要增量推出和可能不可用，贵组织尚未。
 
 ## <a name="troubleshooting"></a>疑难解答
 
-如果能团队会议接安装 outlook，请尝试下列疑难解答步骤。
+如果无法让团队会议外接程序 Outlook 安装，请尝试以下疑难解答步骤。
 
 - 重新启动团队桌面客户端。
-- 注销并再次登录到团队的桌面客户端。
-- 重新启动 Outlook 桌面客户端。 （请确认 Outlook 没有在管理员模式下运行。）
-- 请确保已登录的用户帐户名称不包含空格。 （这是一个已知的问题，并将在将来的更新中修复。
-- 请确保启用了单一登录 (SSO)。
+- 注销并重新登录到团队桌面客户端。
+- 重新启动 Outlook 桌面客户端。 （确保 Outlook 没有运行管理员模式中。）
+- 请确保已登录的用户帐户名不包含空格。 （这是一个已知的问题，并将在以后更新修复。）
+- 请确保已启用单一登录 (SSO)。
 
 有关如何禁用外接程序的一般指导，请参阅[在 Office 程序中查看、管理和安装外接程序](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)。
 
 详细了解 [Microsoft Teams 中的会议和通话](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)。
+
+[!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
+

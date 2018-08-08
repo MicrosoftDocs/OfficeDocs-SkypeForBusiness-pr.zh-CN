@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 中的中继间路由
+title: 内部中继路由中 Skype 业务服务器
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 description: 了解如何为业务 Server 企业语音的 Skype 支持内部中继路由。
-ms.openlocfilehash: 97a47e44eb86fc35ff13e3a139a3f811f98fe71d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a019e0340d9077874b35af0a116731f0ede97d67
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965399"
 ---
-# <a name="inter-trunk-routing-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的中继间路由
+# <a name="inter-trunk-routing-in-skype-for-business-server"></a>内部中继路由中 Skype 业务服务器
  
 了解如何为业务 Server 企业语音的 Skype 支持内部中继路由。
   

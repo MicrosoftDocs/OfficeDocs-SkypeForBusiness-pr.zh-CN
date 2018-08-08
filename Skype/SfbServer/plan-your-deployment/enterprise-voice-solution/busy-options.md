@@ -3,7 +3,6 @@ title: 规划适用于 Skype for Business Server 的忙碌选项
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/24/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,16 +11,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
-description: 阅读有关 Skype 中的忙选项功能业务服务器 2015年。
-ms.openlocfilehash: b800989d091a0363e75901c8420d5b71a8030f10
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 阅读有关 Skype 中的忙选项功能业务服务器。
+ms.openlocfilehash: 42e970defa9535a8ae51ec52b0f9033009e58258
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974114"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>规划适用于 Skype for Business Server 的忙碌选项
  
-阅读有关 Skype 中的忙选项功能业务服务器 2015年。
+阅读有关 Skype 中的忙选项功能业务服务器。
   
 忙碌选项是 2016 年 7 月累积更新中引入的新语音策略，允许你配置当用户正在接听电话或参加会议或将呼叫置于等待状态时传入呼叫的处理方式。 可以通过忙音信号拒绝新呼叫或传入呼叫，也可以将新呼叫或传入呼叫转接到语音邮件。 
   

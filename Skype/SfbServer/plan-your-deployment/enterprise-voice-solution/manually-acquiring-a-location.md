@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中定义手动获取位置的用户体验
+title: 定义手动获取业务服务器的 Skype 中的位置的用户体验
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
 description: 规划漫游业务 Server 企业语音的 Skype 中使用 SIP 中继提供商，E9-1-1 部署中的用户。
-ms.openlocfilehash: 3e5c8776768212c6be179700a33261382949deee
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0b439cc52a5724f5642bd8c61288cededefe754c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988477"
 ---
-# <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中定义手动获取位置的用户体验
+# <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>定义手动获取业务服务器的 Skype 中的位置的用户体验
  
 规划漫游业务 Server 企业语音的 Skype 中使用 SIP 中继提供商，E9-1-1 部署中的用户。
   

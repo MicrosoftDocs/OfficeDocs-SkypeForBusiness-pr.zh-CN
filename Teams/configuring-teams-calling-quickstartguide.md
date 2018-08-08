@@ -1,21 +1,23 @@
 ---
-title: "快速入门指南 - 在 Microsoft Teams 中配置通话套餐"
+title: 快速入门指南 - 在 Microsoft Teams 中配置通话套餐
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 12/12/2017
+ms.date: 6/1/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
-description: "有关在 Microsoft Teams 中配置通话套餐的快速入门指南。"
+description: 有关在 Microsoft Teams 中配置通话套餐的快速入门指南。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a32b615905d39bf8b91688f461f804a28d5a52d
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 0ded826a87bbde3e95af3734eb310988db5d7aef
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694799"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>快速入门指南：在 Microsoft Teams 中配置通话套餐
 ==============================================================
@@ -31,22 +33,24 @@ ms.lasthandoff: 02/19/2018
 
 ![在 Teams 中进行通话](media/Calling_in_Teams.png)
 
-## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>在 Teams 中启用**“通话”**选项卡的先决条件
-要在 Teams 中启用**“通话”**选项卡，并允许你的用户拨打和接听 PSTN 呼叫，你需要为电话系统和通话套餐预配用户。 要了解如何对此进行设置，请参阅[设置通话套餐](https://support.office.com/article/Set-up-Calling-Plans-57893158-1acd-44ac-acaf-19f58264a9e0)。
-
-> [!IMPORTANT]
-> 在 Teams 中配置通话套餐之前，请注意以下限制：
-> * **Teams 不支持混合语音** - Teams 当前不支持混合语音。 建议混合语音客户不要为了在 Teams 接听电话而更改任一策略，因为这会导致服务中断。
-> * **Teams 不支持联合呼叫** - Teams 当前不支持联合呼叫（在租户/公司之间呼叫）。 在 Teams 中支持联合呼叫之前，它们会一直路由到 Skype for Business，无论你如何配置呼叫。
+## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>在 Teams 中启用 **“通话”** 选项卡的先决条件
+要在 Teams 中启用 **“通话”** 选项卡，并允许你的用户拨打和接听 PSTN 呼叫，你需要为电话系统和通话套餐预配用户。 要了解如何对此进行设置，请参阅[设置通话套餐](https://support.office.com/article/Set-up-Calling-Plans-57893158-1acd-44ac-acaf-19f58264a9e0)。
 
 ## <a name="teams-interop-policy-configuration"></a>Teams 互操作性策略配置
-为了能够在 Teams 中开始接听呼叫，需要结合使用远程 Windows PowerShell 会话与 Skype for Business [`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype) cmdlet 来更新 Teams 互操作性策略，以将呼叫重定向至 Teams。 有关 Teams 互操作性策略的详细信息，请参阅 [Microsoft Teams 和 Skype for Business 互操作性](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability)。
+若要启用团队以开始接收呼叫，您将需要更新团队升级策略和团队互操作性策略，使用[的 Microsoft 团队业务管理中心的 Skype](https://aka.ms/teamsadmincenter)或使用远程 Windows PowerShell 会话 Skype for Business [ `*-CsTeamsUpgradePolicy`和`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype)cmdlet，以将重定向到团队呼叫。
+
+有关升级团队的策略和团队互操作性策略的详细信息，请参阅[迁移和组织使用团队一起 for Business 的 Skype 的互操作性指南](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)。
 
 > [!TIP]
-> 要查找你所需的 PowerShell cmdlet，请在 [Skype for Business PowerShell cmdlet 文档](https://docs.microsoft.com/powershell/module/skype)中的**“筛选”**框中键入 "CsTeamsInteropPolicy"。
+> 若要查找所需的 PowerShell cmdlet，键入"CsTeamsUpgradePolicy"或"CsTeamsInteropPolicy"的**筛选器**框中[的业务 PowerShell cmdlet 文档 Skype](https://docs.microsoft.com/powershell/module/skype)。
 
-### <a name="default-teams-interop-policy"></a>默认 Teams 互操作性策略
+### <a name="default-teams-upgrade-and-interop-policies"></a>默认团队需要升级和互操作性策略
 Teams 具有默认策略配置，旨在确保在部署 Teams 期间，现有业务工作流不会中断。 默认情况下，向你的用户拨打的 VoIP、PSTN 和联合呼叫将仍路由至 Skype for Business，直到你更新策略以在 Teams 中启用入站通话。 这可确保在你开始试点和部署 Teams 时，语音服务不会出现意外中断。
+
+默认情况下升级策略保留在将服从团队互操作性策略，以确定要在其中聊天和呼叫的路由-的旧版模式的团队团队或 for Business 的 Skype。
+
+> [!NOTE]
+> 团队的行为升级策略和[迁移和组织使用团队一起 for Business 的 Skype 的互操作性指南](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)中所述，将发生更改团队互操作性策略
 
 Teams 互操作性策略具有以下默认配置：
 
@@ -62,69 +66,42 @@ Teams 互操作性策略具有以下默认配置：
 > [!NOTE]
 > 对于预配了用于 Skype for Business Online 的电话系统和通话套餐许可证并且配置了默认全局 Teams 互操作性策略的用户，Teams 中将会启用“通话”选项卡，在无需管理员采取任何管理操作的情况下，他们可以从 Teams 进行出站 PSTN 呼叫。
 
-#### <a name="how-to-configure-teams-to-use-the-default-policy"></a>如何配置 Teams 以使用默认策略
-默认情况下，全局 Teams 互操作性策略应用于你的租户中的所有用户，且该策略配置有默认设置，如上文所述。 如果由于某种原因，你向你的用户授予了不同的策略，但希望恢复默认设置，则需要通过 Skype for Business 远程 Windows PowerShell 会话应用全局 Teams 互操作性策略：
-
-    Grant-CsTeamsInteropPolicy -PolicyName Global -Identity user@contoso.com
-
-> [!WARNING]
-> 虽然可以修改全局 Teams 互操作性策略的默认值，但我们强烈建议不要这么做。 
-
 ## <a name="configuring-teams-to-receive-inbound-pstn-calls"></a>配置 Teams 以接听入站 PSTN 呼叫
-要在 Teams 中接听入站 PSTN 呼叫，需要应用 `CallingDefaultClient` 参数设置为 Teams 的 Teams 互操作性策略，以将 Teams 配置为默认通话应用程序。
+若要接收团队中的入站的 PSTN 呼叫，您需要通过应用与相应团队互操作性策略设置的团队升级策略调用应用程序的默认配置团队`CallingDefaultClient`团队参数。
 
 > [!IMPORTANT]
 > 我们建议在进行较广范围或组织级别的更改之前，对一组初始用户应用此配置以利用 Teams 中这些令人兴奋的新通话功能。
 
-请考虑使用以下预配置的 Teams 互操作性策略以将入站 PSTN 呼叫路由至 Teams：
+如果您选择要继续使用旧的团队升级策略，则使用下面的预配置的团队互操作性策略路由到团队的入站的 PSTN 呼叫：
 
     Identity                   : Tag:DisallowOverrideCallingTeamsChatTeams
     AllowEndUserClientOverride : False
     CallingDefaultClient       : Teams
     ChatDefaultClient          : Teams
 
+如果您选择使用更新的团队升级策略，您需要向用户分配 TeamsOnly 模式。
+
 以上策略的行为如下：
-* **对于现有 Skype for Business 客户**，此策略旨在将传入呼叫重定向至 Teams。 这包括 VoIP（来自 Teams 和 Skype for Business）和 PSTN 呼叫。 联合呼叫仍将在 Skype for Business 中接听。 
-* **对于没有 Skype for Business 的客户**，此策略生效后，PSTN 呼叫将在 Teams 中接听。 Teams 当前**不支持**联合呼叫。
+* **对于现有 Skype for Business 客户**，此策略旨在将传入呼叫重定向至 Teams。 这包括 VoIP（来自 Teams 和 Skype for Business）和 PSTN 呼叫。 
+* **对于没有 Skype for Business 的客户**，此策略生效后，PSTN 呼叫将在 Teams 中接听。
 
 > [!WARNING]
 > 当前，将 `CallingDefaultClient` 更改为 Teams 还将影响向 Skype for Business IP 电话拨打的呼叫。 传入呼叫不会在电话上接收，而只会使 Teams 客户端响铃。 有关对现有的已认证 SIP 电话的支持的信息，请参阅 [Skype for Business 到 Microsoft Teams 功能路线图](https://aka.ms/skype2teamsroadmap)。
 
-### <a name="how-to-configure-teams-to-receive-pstn-calls"></a>如何配置 Teams 以接听 PSTN 呼叫
-通过 Skype for Business 远程 Windows PowerShell 会话应用上文所述的 Teams 互操作性策略以将呼叫重定向至 Teams：
+### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>如何配置用户以接收 PSTN 呼叫的团队中
+使用旧的团队升级策略时应用团队互操作性策略，如上述通过业务远程 Windows PowerShell 会话的 Skype 重定向到团队呼叫：
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
-## <a name="configuring-teams-to-allow-users-to-change-their-preferred-calling-experience"></a>配置 Teams 以允许用户更改其首选通话体验
-为了让用户自行决定首选通话体验（在 Teams 中还是在 Skype for Business 中接听呼叫），你需要创建启用 `AllowEndUserClientOverride` 参数的自定义 Teams 互操作性策略。
+如果您选择使用 TeamsOnly 模式，您可以更改为 TeamsOnly 通过 Microsoft 团队和 Skype 的业务管理中心中，或通过业务远程 Windows PowerShell 会话的 Skype 重定向到团队呼叫的用户的共存模式：
 
-下面是用于支持用户选择首选通话体验的 Teams 互操作性策略示例：
-
-    Identity                   : Tag:CustomPolicy
-    AllowEndUserClientOverride : True
-    CallingDefaultClient       : Default
-    ChatDefaultClient          : Default
-
-向用户应用此自定义策略后，Teams 客户端中将提供用于更改首选通话应用程序的选项，以便用户自行进行更改。
-
-![首选通话应用程序选项](media/Preferred_calling_application_option.png)
-
-> [!IMPORTANT]
-> 建议在进行较广范围或组织级别的更改之前，对一组初始用户应用此配置。
-
-### <a name="how-to-create-and-apply-the-custom-teams-interop-policy"></a>如何创建和应用自定义 Teams 互操作性策略
-要通过 Skype for Business 远程 Windows PowerShell 会话创建上文所述的自定义 Teams 互操作性策略，请执行以下操作：
-
-    New-CsTeamsInteropPolicy -Identity tag:CustomPolicy -AllowEndUserClientOverride:$True -CallingDefaultClient:Default -ChatDefaultClient:Default
-
-    Grant-CsTeamsInteropPolicy -PolicyName tag:CustomPolicy -Identity user@contoso.com
-
-
+    Grant-CsTeamsUpgradePolicy -PolicyName tag:UpgradeToTeams -Identity user@contoso.com
+    Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
 ## <a name="see-also"></a>另请参阅
 [设置通话套餐](https://support.office.com/article/Set-up-Calling-Plans-57893158-1acd-44ac-acaf-19f58264a9e0)
 
-[Microsoft Teams 和 Skype for Business 互操作性](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability)
+[使用团队一起 Skype for Business 的组织的迁移和互操作性指南](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
 [Microsoft Teams 中具有通话套餐的电话系统实践指导](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
 

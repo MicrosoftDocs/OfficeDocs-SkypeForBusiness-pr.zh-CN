@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 中高级企业语音功能的网络设置
+title: Skype 中的高级企业语音功能 Business server 网络设置
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,19 +12,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
-description: 了解网络区域、网络站点和 IP 子网。 所有这些必须配置为媒体绕过中的业务 2015，Skype 部署计划规划呼叫允许控制 Skype 中的业务服务器 2015年），或计划在 Skype 的紧急服务的 Skype 中的业务服务器 2015年业务 Server 企业语音。
-ms.openlocfilehash: e76c88df482dfd5e58d6c0e11449eb6f6242b796
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 了解网络区域、网络站点和 IP 子网。 所有这些必须配置为媒体绕过中的业务，规划 Skype 部署规划呼叫允许控制中的 Skype 业务服务器），或计划在 Skype 的紧急服务 Business 中的服务器 Skype 业务 Server 企业语音。
+ms.openlocfilehash: ca8cbe6de733f5a2a27552229d3f71c9fbad3b4d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504094"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981190"
 ---
-# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中高级企业语音功能的网络设置
+# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Skype 中的高级企业语音功能 Business server 网络设置
  
-了解网络区域、网络站点和 IP 子网。 所有这些必须配置为部署[规划媒体绕过中的业务 2015 Skype](media-bypass.md)，[规划呼叫允许控制业务服务器 2015年的 Skype 中](call-admission-control.md)），或在为 Skype[规划中的业务服务器 2015 Skype 的紧急服务](emergency-services.md)业务 Server 企业语音。
+了解网络区域、网络站点和 IP 子网。 必须配置所有这些业务服务器部署[规划媒体绕过中的业务的 Skype](media-bypass.md)、[规划呼叫允许控制业务服务器 Skype 中](call-admission-control.md)，或在 Skype[规划中的业务服务器 Skype 的紧急服务](emergency-services.md)企业语音。
   
-Skype 业务服务器具有三个高级的企业语音功能：[规划呼叫允许控制业务服务器 2015年的 Skype 中](call-admission-control.md))，[规划中的业务服务器 2015 Skype 的紧急服务](emergency-services.md)和中的 Skype[规划媒体绕过业务 2015年](media-bypass.md)。 这些功能与网络站点共享网络区域、 网络站点和关联中的企业服务器拓扑 Skype 每个子网某些配置的要求。 
+Skype 业务服务器具有三个高级的企业语音功能：[规划中的业务服务器 Skype 的呼叫允许控制](call-admission-control.md)、[规划紧急服务中的业务服务器 Skype](emergency-services.md)和[规划媒体绕过 Skype for Business 中](media-bypass.md). 这些功能与网络站点共享网络区域、 网络站点和关联中的企业服务器拓扑 Skype 每个子网某些配置的要求。 
   
 本主题概述了通用于所有三种高级企业语音功能的配置要求。
   
@@ -38,11 +37,11 @@ Skype 业务服务器具有三个高级的企业语音功能：[规划呼叫允�
   
 CAC 要求每个网络区域具有关联的 Skype 业务 Server 管理中心网站，其管理的区域中的媒体流量 (即，它使决策基于策略的已配置，关于是否实时音频或视频会话可以建立）。 地理位置，但而逻辑组为池配置的服务器或池的一组并不表示 Business Server 中央站点的 Skype。 
   
-若要配置网络区域，可以用于业务 Server Control Panel，**区域**选项卡上的 Skype**网络配置**部分，或运行**New-csnetworkregion**或**Set-csnetworkregion** Skype for BusinessServer 命令行管理程序 cmdlet。 有关说明，请参阅部署文档中的[部署网络区域、 站点和子网中的业务 2015 Skype](../../deploy/deploy-enterprise-voice/deploy-network.md)或引用的业务 Server Management Shell 文档 Skype。
+若要配置网络区域，可以用于业务 Server Control Panel，**区域**选项卡上的 Skype**网络配置**部分，或运行**New-csnetworkregion**或**Set-csnetworkregion** Skype for BusinessServer 命令行管理程序 cmdlet。 有关说明，请参阅部署文档中的[部署网络区域、 站点和 Skype for Business 中的子网](../../deploy/deploy-enterprise-voice/deploy-network.md)或引用的业务 Server Management Shell 文档 Skype。
   
 共享相同的网络区域定义的所有三个高级企业语音功能。 如果已经为某个功能创建了网络区域，则不必再为其他功能新建网络区域。 但是，可能需要修改现有的网络区域定义，以应用特定于功能的设置。 例如，如果已为 E9-1-1（它不要求有关联的中央站点）创建网络区域，稍后部署呼叫允许控制，则必须修改每个网络区域定义以指定中央站点。
   
-将 Business Server 中央站点 Skype 与网络区域相关联，您可以指定中央站点名称，使用的 Skype 业务 Server 控制面板的**网络配置**部分中，或通过运行**New-csnetworkregion**或**Set-csnetworkregion** cmdlet。 有关说明，请参阅部署文档中的[部署网络区域、 站点和子网中的业务 2015 Skype](../../deploy/deploy-enterprise-voice/deploy-network.md)或引用的业务 Server Management Shell 文档 Skype。
+将 Business Server 中央站点 Skype 与网络区域相关联，您可以指定中央站点名称，使用的 Skype 业务 Server 控制面板的**网络配置**部分中，或通过运行**New-csnetworkregion**或**Set-csnetworkregion** cmdlet。 有关说明，请参阅部署文档中的[部署网络区域、 站点和 Skype for Business 中的子网](../../deploy/deploy-enterprise-voice/deploy-network.md)或引用的业务 Server Management Shell 文档 Skype。
   
 ## <a name="network-sites"></a>网络站点
 
@@ -70,8 +69,9 @@ CAC 要求每个网络区域具有关联的 Skype 业务 Server 管理中心网�
   
 ## <a name="see-also"></a>另请参阅
 
-[规划呼叫允许控制 Skype 中的业务服务器 2015](call-admission-control.md)
+[规划呼叫允许控制 Skype 中的业务服务器](call-admission-control.md)
   
-[规划紧急服务中 Skype 业务服务器 2015](emergency-services.md)
+[规划业务服务器中 Skype 的紧急服务](emergency-services.md)
   
-[规划媒体绕过中的业务 2015 Skype](media-bypass.md)
+[规划媒体绕过 Skype for Business 中](media-bypass.md)
+

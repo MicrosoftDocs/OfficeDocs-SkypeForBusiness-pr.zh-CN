@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中管理 SIP 中继服务提供商的位置
+title: 管理 Business Server Skype SIP 中继服务提供商的位置
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: 所必需的规划决策位置信息数据库或类似的外部数据库中，对于业务 Server 企业语音的 Skype 中使用 SIP 中继提供商，E9-1-1 部署。
-ms.openlocfilehash: 61aec2a537a9351c73c9e1e903685f686d500517
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 079e921debe9e5b61839795e61db199a018879aa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996772"
 ---
-# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中管理 SIP 中继服务提供商的位置
+# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>管理 Business Server Skype SIP 中继服务提供商的位置
  
 所必需的规划决策位置信息数据库或类似的外部数据库中，对于业务 Server 企业语音的 Skype 中使用 SIP 中继提供商，E9-1-1 部署。
   
@@ -51,7 +51,7 @@ ms.lasthandoff: 05/03/2018
   
 通过使用辅助位置信息服务选项来连接到第三方数据库，您可以组和管理使用脱机平台的位置。 除了将位置与网络标识符关联外，此方法的优点还在于将位置与用户关联。 这意味着位置信息服务，可返回多个地址，来自业务客户端 Skype 到辅助位置信息服务。 然后，用户可以选择最适合的位置。 
   
-若要将位置信息服务与相集成，第三方数据库必须执行的 Lync Server 位置请求/响应架构。 有关详细信息，请参阅["[MS E911WS]: E911 支持协议规范的 Web 服务"](https://go.microsoft.com/fwlink/p/?linkid=213819)。 有关部署辅助位置信息服务的详细信息，请参阅部署文档中的[配置中的业务服务器 2015 Skype 的辅助位置信息服务](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)。
+若要将位置信息服务与相集成，第三方数据库必须执行的 Lync Server 位置请求/响应架构。 有关详细信息，请参阅["[MS E911WS]: E911 支持协议规范的 Web 服务"](https://go.microsoft.com/fwlink/p/?linkid=213819)。 有关部署辅助位置信息服务的详细信息，请参阅部署文档中的[Configure Skype 业务服务器中的辅助位置信息服务](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)。
   
 有关填充位置数据库的详细信息，请参阅部署文档中的[Configure the Location Database](http://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) 。
   

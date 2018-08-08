@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: 按照本主题可修改现有的 Skype 商务云连接器版 1.4.1 或更高版本的部署的配置中的步骤。
-ms.openlocfilehash: 9e660744e05bfd0628c19b86110ad33443c58671
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 0a89c4a03d7cb316674490bc81768f27cd1a9c66
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569566"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176081"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>修改现有云连接器部署的配置
  
@@ -279,7 +279,7 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
 
 要添加到现有的云连接器部署一个新的 SIP 域 （或多个 SIP 域），请执行以下操作：
   
-1. 确保你已完成在 Office 365 中更新域的步骤并且能够添加 DNS 记录。 有关如何设置您在 Office 365 中的域的详细信息，请参阅[设置您的域在 Office 365 中](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US)的视频。
+1. 确保你已完成在 Office 365 中更新域的步骤并且能够添加 DNS 记录。 有关如何设置您在 Office 365 中的域的详细信息，请参阅[添加到 Office 365 域](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
     
 2. 更新云连接器配置文件的新的 SIP 域或域。
     
@@ -300,7 +300,7 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
 
 如果您需要更改云连接器部署中的主 SIP 域，请执行以下操作：
   
-1. 确保你已完成在 Office 365 中更新域的步骤并且能够添加 DNS 记录。 有关如何设置您在 Office 365 中的域的详细信息，请参阅[设置您的域在 Office 365 中](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US)的视频。
+1. 确保你已完成在 Office 365 中更新域的步骤并且能够添加 DNS 记录。 有关如何设置您在 Office 365 中的域的详细信息，请参阅[添加到 Office 365 域](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
     
 2. 更新新的 SIP 域与云连接器配置文件。
     
@@ -322,7 +322,7 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
 
 6. 
     
-    为业务 Online PowerShell Skype 中运行以下 cmdlet 来删除每个站点的站点注册：
+    通过在 Skype for Business Online PowerShell 中运行以下 cmdlet 来删除每个网站的网站注册：
     
   ```
   Remove-CsHybridPSTNSite

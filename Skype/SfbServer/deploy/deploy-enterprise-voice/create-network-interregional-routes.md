@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中创建网络区域间路由
+title: 创建网络 interregional 路由中 Skype 业务服务器
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: 创建或修改网络 interregional 路由，使用 Skype 中的企业语音呼叫允许控制业务服务器。
-ms.openlocfilehash: f9f395325ecf2df35ac43730501603c2fdda9157
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: b099910a6881958919ed9707424a9ae77f0f8983
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500605"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978916"
 ---
-# <a name="create-network-interregional-routes-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建网络区域间路由
+# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>创建网络 interregional 路由中 Skype 业务服务器
  
 创建或修改网络 interregional 路由，使用 Skype 中的企业语音呼叫允许控制业务服务器。 
   
-网络 interregional 路由定义一对网络区域之间的路由。 呼叫允许控制部署中的每对网络区域均需要网络区域间路由。 这样部署中的每个网络区域便能够访问任何其他区域。
+网络区域间路由定义一对网络区域之间的路由。呼叫允许控制部署中的每对网络区域均需要网络区域间路由。这样部署中的每个网络区域便能够访问任何其他区域。
   
 虽然区域链接会对区域之间的连接设置带宽限制，但是区域间路由可确定连接从一个区域到另一个区域将遍历的链接路径。
   

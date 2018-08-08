@@ -1,9 +1,8 @@
 ---
-title: 为 Skype for Business Server 2015 规划位置策略
+title: 规划业务 Server Skype 的位置策略
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,20 +13,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: 阅读本主题可了解如何规划业务 Server 企业语音的增强型紧急服务 (E9-1-1) 部署 Skype 中的位置策略。
-ms.openlocfilehash: 013eeea9858910c6ef94c928f92c42a742908355
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: cbc4bdbf552c3839cef0701dcf3e47e4603a270e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971165"
 ---
-# <a name="plan-location-policies-for-skype-for-business-server-2015"></a>为 Skype for Business Server 2015 规划位置策略
+# <a name="plan-location-policies-for-skype-for-business-server"></a>规划业务 Server Skype 的位置策略
  
 阅读本主题可了解如何规划业务 Server 企业语音的增强型紧急服务 (E9-1-1) 部署 Skype 中的位置策略。 
   
 > [!NOTE]
-> Skype 业务服务器现在支持的客户端的多个紧急号码的配置。 如果您想要配置多个紧急号码，则必须按照中[规划中的业务服务器 2015 Skype 的多个紧急号码](multiple-emergency-numbers.md)和[配置中的业务 2015 Skype 的多个紧急号码](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)的信息。 
+> Skype 业务服务器现在支持的客户端的多个紧急号码的配置。 如果您想要配置多个紧急号码，则必须按照[Skype 业务服务器中的多个紧急号码规划](multiple-emergency-numbers.md)和[配置 Skype for Business 中的多个紧急号码](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)中的信息。 
   
-使用适用于业务 Control Panel Skype 或使用[New-cslocationpolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet，您可以创建位置策略。 有关详细信息，请参阅[中的业务服务器 2015 Skype 的创建位置策略](../../deploy/deploy-enterprise-voice/create-location-policies.md)。
+使用适用于业务 Control Panel Skype 或使用[New-cslocationpolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet，您可以创建位置策略。 有关详细信息，请参阅[Skype 业务服务器中的创建位置策略](../../deploy/deploy-enterprise-voice/create-location-policies.md)。
   
 每个位置策略包含以下信息：
   
@@ -37,7 +37,7 @@ ms.lasthandoff: 05/03/2018
   
  **位置**
   
-仅当启用**启用增强型 9-1-1**时，才使用此设置。
+仅当**启用增强型 9-1-1** 为启用状态时才使用此设置。
   
 你可以将**位置**设置配置为按如下所示定义客户端行为：
   

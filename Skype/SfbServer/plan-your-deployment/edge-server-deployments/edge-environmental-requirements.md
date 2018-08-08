@@ -1,8 +1,7 @@
 ---
-title: Skype for Business Server 2015 的边缘服务器环境要求
+title: 边缘服务器环境要求中 Skype 业务服务器
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,18 +11,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
-description: 摘要： 了解业务服务器 2015 Skype 中的边缘服务器的环境要求。
-ms.openlocfilehash: 1e4eb8f63089ed4074489342727aa9a70f0211da
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 了解 Business Server Skype 中的边缘服务器的环境要求。
+ms.openlocfilehash: ca0f5e1366c767617aa7c8b36be74263b373714d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965455"
 ---
-# <a name="edge-server-environmental-requirements-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 的边缘服务器环境要求
+# <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>边缘服务器环境要求中 Skype 业务服务器
  
-**摘要：**了解业务服务器 2015 Skype 中的边缘服务器的环境要求。
+**摘要：** 了解 Business Server Skype 中的边缘服务器的环境要求。
   
-大量的规划和准备需要执行之外的业务 Server 2015 边缘服务器环境本身 Skype。 本文中，我们将按照下面的列表回顾需要在组织环境中进行哪些准备工作：
+大量的规划和准备需要执行之外的业务 Server 边缘服务器环境本身 Skype。 本文中，我们将按照下面的列表回顾需要在组织环境中进行哪些准备工作：
   
 - [Topology planning](edge-environmental-requirements.md#TopoPlan)
     
@@ -36,7 +36,7 @@ ms.lasthandoff: 05/03/2018
 ## <a name="topology-planning"></a>拓扑规划
 <a name="TopoPlan"> </a>
 
-Skype 的业务服务器 2015年边缘服务器拓扑还可以使用：
+Skype 的业务 Server 边缘服务器拓扑还可以使用：
   
 - 可路由的公用 IP 地址。
     
@@ -49,7 +49,7 @@ Skype 的业务服务器 2015年边缘服务器拓扑还可以使用：
   
 - 需要在**所有三个**外部接口上使用可路由的专用 IP 地址。
     
-- 需要为传入和传出流量配置**对称** NAT。 对称 NAT 是仅支持可用于业务 Server 2015 边缘服务器与 Skype 的 NAT。
+- 需要为传入和传出流量配置**对称** NAT。 对称 NAT 是仅支持可用于业务 Server 边缘服务器与 Skype 的 NAT。
     
 - 将 NAT 配置为不要更改传入的源地址。 A / V 边缘服务需要能够接收传入的源地址，要查找的最佳媒体路径。
     
@@ -61,7 +61,7 @@ Skype 的业务服务器 2015年边缘服务器拓扑还可以使用：
   
 ### <a name="summary-of-edge-server-topology-options"></a>边缘服务器拓扑选项摘要
 
-我们有几个的拓扑结构选项可用 Skype 业务 Server 2015 边缘服务器部署：
+我们有几个的拓扑结构选项可用 Skype 业务 Server 边缘服务器部署：
   
 - 使用专用 IP 地址和 NAT 的单一合并边缘
     
@@ -96,7 +96,7 @@ Skype 的业务服务器 2015年边缘服务器拓扑还可以使用：
   
 #### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a>扩展合并边缘的 IP 地址要求（每个角色一个 IP 地址）
 
-|**每个池的边缘服务器的数量**|**数所需的 IP 地址的 DNS 负载平衡**|**所需的硬件负载平衡的 IP 地址的数目**|
+|**每个池的边缘服务器的数量**|**DNS 负载平衡所需的 IP 地址数量**|**硬件负载平衡所需的 IP 地址数量**|
 |:-----|:-----|:-----|
 |2  <br/> |6  <br/> |3（每个 VIP 1 个）6  <br/> |
 |3  <br/> |9  <br/> |3（每个 VIP 1 个）9  <br/> |
@@ -105,7 +105,7 @@ Skype 的业务服务器 2015年边缘服务器拓扑还可以使用：
    
 #### <a name="ip-address-requirements-for-scale-consolidated-edge-single-ip-address-for-all-roles"></a>扩展合并边缘的 IP 地址要求（所有角色一个 IP 地址）
 
-|**每个池的边缘服务器的数量**|**数所需的 IP 地址的 DNS 负载平衡**|**所需的硬件负载平衡的 IP 地址的数目**|
+|**每个池的边缘服务器的数量**|**DNS 负载平衡所需的 IP 地址数量**|**硬件负载平衡所需的 IP 地址数量**|
 |:-----|:-----|:-----|
 |2  <br/> |2  <br/> |1（每个 VIP 1 个）2  <br/> |
 |3  <br/> |3  <br/> |1（每个 VIP 1 个）3  <br/> |
@@ -122,12 +122,20 @@ Skype 的业务服务器 2015年边缘服务器拓扑还可以使用：
     
 - **DNS 负载平衡**： 的 UM、 Exchange 2010 SP1 和更高版本是否能够支持的 DNS 负载平衡。 请注意，如果您需要使用 DNS 负载平衡的早期版本的 Exchange 转，它将作用，但此的所有流量将都转到第一台服务器池中，是否不可用，该流量随后将失败。
     
-    如果您正在联盟与使用 Lync Server 2010、 Lync Server 2013 和 Microsoft Office 365 的公司还建议 DNS 负载平衡。
+    如果您正在使用的公司联盟，还建议 DNS 负载平衡：
+- 业务服务器 2015 的 Skype:
+    - Lync Server 2010
+    - Lync Server 2013
+    - Microsoft Office O365
+- Skype for Business 服务 2019年:
+    - Lync Server 2013
+    - Skype for Business Server 2015
+    - Microsoft Office 365。
     
 ## <a name="dns-planning"></a>DNS 规划
 <a name="DNSPlan"> </a>
 
-当谈到 Skype 业务 Server 2015 边缘服务器部署时，至关重要正确准备 DNS。 如果正确的记录就位，部署就会容易得多。 但愿你选择了上一节中的拓扑，因为我们将作一下总结，然后列出几张表，这些表概列了适用于那些方案的 DNS 记录。 我们还必须一些[高级边缘服务器 DNS 规划业务服务器 2015年的 Skype](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md)以进行更多深入读取，如果您需要它。
+当谈到 Skype 业务 Server 边缘服务器部署时，至关重要正确准备 DNS。 如果正确的记录就位，部署就会容易得多。 但愿你选择了上一节中的拓扑，因为我们将作一下总结，然后列出几张表，这些表概列了适用于那些方案的 DNS 记录。 我们还必须一些[高级边缘服务器 DNS 规划 Skype 业务服务器](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md)以进行更多深入读取，如果您需要它。
   
 ### <a name="dns-records-for-single-consolidated-edge-server-scenarios"></a>DNS 记录的单个合并边缘服务器方案
 
@@ -136,7 +144,7 @@ Skype 的业务服务器 2015年边缘服务器拓扑还可以使用：
 - 内部网络适配器：172.25.33.10（未分配默认网关的地址）
     
     > [!NOTE]
-    > 确保存在从包含边缘内部接口到包含业务服务器 2015年或 Lync Server 2013 的客户端 （例如，从 172.25.33.0 到 192.168.10.0) 运行 Skype 的服务器的任何网络的网络的路由。 
+    > 确保存在从包含边缘内部接口到包含业务服务器或 Lync Server 2013 的客户端 （例如，从 172.25.33.0 到 192.168.10.0) 运行 Skype 的服务器的任何网络的网络的路由。 
   
 - 外部网络适配器：
     
@@ -170,9 +178,9 @@ Web 会议和 A / V 边缘公共 IP 地址附加 （辅） 的 IP 地址的高�
 |**位置**|**类型**|**端口**|**FQDN 或 DNS 记录**|**IP 地址或 FQDN**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |外部 DNS  <br/> |A 记录  <br/> |NA  <br/> |sip.contoso.com  <br/> |**公共：** 131.107.155.10 <br/> **专用：** 10.45.16.10 <br/> |访问边缘服务的外部接口。 您将需要一个用于每个 SIP 域与 Skype 的企业用户。  <br/> |
-|外部 DNS  <br/> |A 记录  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**公共：** 131.107.155.20 <br/> **专用：**分配 10.45.16.20 <br/> |Web 会议边缘服务的外部接口。  <br/> |
-|外部 DNS  <br/> |A 记录  <br/> |NA  <br/> |av.contoso.com  <br/> |**公共：** 131.107.155.30 <br/> **专用：**分配 10.45.16.30 <br/> |外部接口 a / V 边缘服务。  <br/> |
-|外部 DNS  <br/> |SRV 记录  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |访问边缘服务的外部接口。 为业务服务器 2015年、 Lync Server 2013 和 Lync Server 2010 的客户端，用于实现在外部的 Skype 需要此 SRV 记录。 您将需要一个用于与 Skype 的每个域的企业用户。  <br/> |
+|外部 DNS  <br/> |A 记录  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**公共：** 131.107.155.20 <br/> **专用：** 分配 10.45.16.20 <br/> |Web 会议边缘服务的外部接口。  <br/> |
+|外部 DNS  <br/> |A 记录  <br/> |NA  <br/> |av.contoso.com  <br/> |**公共：** 131.107.155.30 <br/> **专用：** 分配 10.45.16.30 <br/> |外部接口 a / V 边缘服务。  <br/> |
+|外部 DNS  <br/> |SRV 记录  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |访问边缘服务的外部接口。 为 Business Server、 Lync Server 2013 和 Lync Server 2010 的客户端，用于实现在外部的 Skype 需要此 SRV 记录。 您将需要一个用于与 Skype 的每个域的企业用户。  <br/> |
 |外部 DNS  <br/> |SRV 记录  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |访问边缘服务的外部接口。 称为“允许的 SIP 域”的联盟伙伴的自动 DNS 发现需要此 SRV 记录。 您将需要一个用于与 Skype 的每个域的企业用户。  <br/> |
 |内部 DNS  <br/> |A 记录  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10  <br/> |合并边缘的内部接口。  <br/> |
    
@@ -187,7 +195,7 @@ Web 会议和 A / V 边缘公共 IP 地址附加 （辅） 的 IP 地址的高�
   - 节点 2：172.25.33.11（未分配默认网关的地址）
     
     > [!NOTE]
-    > 确保存在从包含边缘内部接口到包含业务服务器 2015年或 Lync Server 2013 的客户端 （例如，从 172.25.33.0 到 192.168.10.0) 运行 Skype 的服务器的任何网络的网络的路由。 
+    > 确保存在从包含边缘内部接口到包含业务服务器或 Lync Server 2013 的客户端 （例如，从 172.25.33.0 到 192.168.10.0) 运行 Skype 的服务器的任何网络的网络的路由。 
   
 - 外部网络适配器：
     
@@ -244,9 +252,9 @@ Web 会议和 A / V 边缘公共 IP 地址附加 （辅） 的 IP 地址的高�
 |**位置**|**类型**|**端口**|**FQDN 或 DNS 记录**|**IP 地址或 FQDN**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |外部 DNS  <br/> |A 记录  <br/> |NA  <br/> |sip.contoso.com  <br/> |**公共：** 131.107.155.10 和 131.107.155.11 <br/> **专用：** 10.45.16.10 和 10.45.16.11 <br/> |访问边缘服务的外部接口。 您将需要一个用于每个 SIP 域与 Skype 的企业用户。  <br/> |
-|外部 DNS  <br/> |A 记录  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**公共：** 131.107.155.20 和 131.107.155.21 <br/> **专用：**分配 10.45.16.20 和 10.45.16.21 <br/> |Web 会议边缘服务的外部接口。  <br/> |
-|外部 DNS  <br/> |A 记录  <br/> |NA  <br/> |av.contoso.com  <br/> |**公共：** 131.107.155.30 和 131.107.155.31 <br/> **专用：**分配 10.45.16.30 和 10.45.16.31 <br/> |外部接口 a / V 边缘服务。  <br/> |
-|外部 DNS  <br/> |SRV 记录  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |访问边缘服务的外部接口。 为业务服务器 2015年、 Lync Server 2013 和 Lync Server 2010 的客户端，用于实现在外部的 Skype 需要此 SRV 记录。 您将需要一个用于与 Skype 的每个域的业务。  <br/> |
+|外部 DNS  <br/> |A 记录  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**公共：** 131.107.155.20 和 131.107.155.21 <br/> **专用：** 分配 10.45.16.20 和 10.45.16.21 <br/> |Web 会议边缘服务的外部接口。  <br/> |
+|外部 DNS  <br/> |A 记录  <br/> |NA  <br/> |av.contoso.com  <br/> |**公共：** 131.107.155.30 和 131.107.155.31 <br/> **专用：** 分配 10.45.16.30 和 10.45.16.31 <br/> |外部接口 a / V 边缘服务。  <br/> |
+|外部 DNS  <br/> |SRV 记录  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |访问边缘服务的外部接口。 为 Business Server、 Lync Server 2013 和 Lync Server 2010 的客户端，用于实现在外部的 Skype 需要此 SRV 记录。 您将需要一个用于与 Skype 的每个域的业务。  <br/> |
 |外部 DNS  <br/> |SRV 记录  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |访问边缘服务的外部接口。 称为“允许的 SIP 域”的联盟伙伴的自动 DNS 发现需要此 SRV 记录。 您将需要一个用于与 Skype 的每个域的业务。  <br/> |
 |内部 DNS  <br/> |A 记录  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10 和 172.25.33.11  <br/> |合并边缘的内部接口。  <br/> |
    
@@ -254,19 +262,22 @@ Web 会议和 A / V 边缘公共 IP 地址附加 （辅） 的 IP 地址的高�
 
 |**位置**|**类型**|**端口**|**FQDN**|**FQDN 主机记录**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|外部 DNS  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |SIP 访问边缘外部接口所需的自动 DNS 发现。 由其他潜在的联盟伙伴使用。 这也称为“允许的 SIP 域”。 您将需要下列任一每个 SIP 域与 Skype 的企业用户。  <br/><br/> **注意：**移动性和推送通知交换所需要此 SRV 记录。 <br/> |
+|外部 DNS  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |SIP 访问边缘外部接口所需的自动 DNS 发现。 由其他潜在的联盟伙伴使用。 这也称为“允许的 SIP 域”。 您将需要下列任一每个 SIP 域与 Skype 的企业用户。  <br/><br/> **注意：** 移动性和推送通知交换所需要此 SRV 记录。 <br/> |
    
 ### <a name="dns-records-for-extensible-messaging-and-presence-protocol"></a>可扩展消息传递和状态协议的 DNS 记录
 
-|**位置**|**类型**|**端口**|**FQDN**|**IP 地址或 FQDN 的主机记录**|**说明**|
+|**位置**|**类型**|**端口**|**FQDN**|**IP 地址或 FQDN 主机记录**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|外部 DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |访问边缘服务或边缘池上的 XMPP 代理接口。 您需要重复上述过程所需的所有内部 SIP 域与 Skype 业务启用用户，通过允许与 XMPP 联系人的联系人的位置：  <br/> • 全局策略  <br/> • 启用了用户的站点策略  <br/> • for Business Skype 应用于用户策略启用用户  <br/> 在 XMPP 联盟用户策略中，还需要配置允许的 XMPP 策略。  <br/> |
+|外部 DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |访问边缘服务或边缘池上的 XMPP 代理接口。 您需要重复上述过程所需的所有内部 SIP 域与 Skype 业务 Server 启用用户，通过允许与 XMPP 联系人的联系人的位置：  <br/> • 全局策略  <br/> • 启用了用户的站点策略  <br/> • 业务服务器应用到 Skype 的用户策略启用用户  <br/> 在 XMPP 联盟用户策略中，还需要配置允许的 XMPP 策略。  <br/> |
 |外部 DNS  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |承载 XMPP 代理服务的边缘池的边缘服务器上的访问边缘服务的 IP 地址  <br/> |这点到上边缘服务器或边缘池的访问边缘服务承载 XMPP 代理服务。 通常，你创建的 SRV 记录将指向主机（A 或 AAAA）记录。  <br/> |
    
+> [!NOTE]
+> XMPP 网关和代理中的业务服务器 2015 Skype 可用，但业务服务器 2019年不再支持在 Skype。 有关详细信息，请参阅[迁移 XMPP 联盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md)。
+
 ## <a name="certificate-planning"></a>证书规划
 <a name="CertPlan"> </a>
 
-Skype 的业务服务器 2015年使用安全的加密通信服务器之间兼从服务器到客户端证书。 正如你料想的那样，证书需要服务器的 DNS 记录与证书中的任何使用者名称 (SN) 和使用者替代名称 (SAN) 匹配。 在规划阶段，现在这需要花些功夫，确保在 DNS 中注册对应于证书 SN 和 SAN 条目的正确 FQDN。
+Skype 业务 server 使用证书实现同时服务器之间以及从服务器到客户端的安全的加密通信。 正如你料想的那样，证书需要服务器的 DNS 记录与证书中的任何使用者名称 (SN) 和使用者替代名称 (SAN) 匹配。 在规划阶段，现在这需要花些功夫，确保在 DNS 中注册对应于证书 SN 和 SAN 条目的正确 FQDN。
   
 我们将分别讨论外部和内部证书需求，然后查看提供两种需求的表。
   
@@ -301,50 +312,50 @@ Skype 的业务服务器 2015年使用安全的加密通信服务器之间兼从
 
 这里有一个表可帮助你申请证书。此处的 FQDN 条目只适用于示例域。你需要根据自己的专用域和公共域提出申请，不过这里有我们所用内容的指南：
   
-- contoso.com：公共 FQDN
+- contoso<span></span>.com： 公共 FQDN
     
-- fabrikam.com：第二个公共 FQDN（作为要申请内容的演示添加，如果有多个 SIP 域可参考）
+- fabrikam<span></span>.com： 第二个公共 （作为演示了要请求如果您有多个 SIP 域添加） 的 FQDN
     
-- Contoso.net：内部域
+- Contoso<span></span>.net： 内部域
     
 #### <a name="edge-certificate-table"></a>边缘证书表
 
 无论是否正在制作了一个边缘服务器或边缘池，这是您将需要为您的证书：
   
-|**组件**|**使用者名称 (SN)**|**使用者替代名称 (SAN) / 顺序**|**说明**|
+|**组件**|**使用者名称 (SN)**|**使用者替代名称 (SAN)/顺序**|**说明**|
 |:-----|:-----|:-----|:-----|
-|外部边缘  <br/> |sip.contoso.com  <br/> |sip.contoso.com  <br/> webcon.contoso.com  <br/> sip.fabrikam.com  <br/> |这是需要从公共 CA 申请获得的证书。需要将其分配给以下服务的外部边缘接口：<br/> • 访问边缘  <br/> • Web 会议边缘  <br/> • 音频/视频身份验证  <br/> <br/>San 会自动添加到您的证书请求，并因此后的证书提交请求，基于此部署拓扑生成器中定义的内容，好的消息。 你只需要添加任何其他 SIP 域的 SAN 条目或需要支持的其他条目。 为什么此例中会复制 sip.contoso.com？ 这也是自动发生的，为了让系统正常工作，需要如此。  <br/><br/> **注意：**此证书还可用于公共即时消息连接。 对此，你无需进行任何其他操作，但是在本文档以前的版本中，这作为单独的表列出，而现在不是。 <br/> |
+|外部边缘  <br/> |sip.contoso.com  <br/> |sip.contoso.com  <br/> webcon.contoso.com  <br/> sip.fabrikam.com  <br/> |这是需要从公共 CA 申请获得的证书。需要将其分配给以下服务的外部边缘接口：<br/> • 访问边缘  <br/> • Web 会议边缘  <br/> • 音频/视频身份验证  <br/> <br/>San 会自动添加到您的证书请求，并因此后的证书提交请求，基于此部署拓扑生成器中定义的内容，好的消息。 你只需要添加任何其他 SIP 域的 SAN 条目或需要支持的其他条目。 为什么此例中会复制 sip.contoso.com？ 这也是自动发生的，为了让系统正常工作，需要如此。  <br/><br/> **注意：** 此证书还可用于公共即时消息连接。 对此，你无需进行任何其他操作，但是在本文档以前的版本中，这作为单独的表列出，而现在不是。 <br/> |
 |内部边缘  <br/> |sfbedge.contoso.com  <br/> |NA  <br/> |可以从公共 CA 或内部 CA 获得此证书。该证书需要包含服务器 EKU（增强型密钥使用），你要将其分配给内部边缘界面。  <br/> |
    
 如果可扩展消息传递和状态协议 (XMPP) 需要证书，该证书看上去与上面的外部边缘表条目完全相同，但是有以下两条额外的 SAN 条目：
   
-- xmpp.contoso.com
+- xmpp。<span> </span>contoso<span></span>.com
     
-- \*。 contoso.com
+- \*.contoso<span></span>.com
     
-请记住，目前只有 Google Talk 支持 XMPP，如果需要将其用于任何其他地方，需要与涉及的第三方厂商确认该功能。
+请记住，当前 XMPP 仅支持 Skype 业务服务器的 Google Talk，如果您希望或需要使用的任何其他操作，您需要与第三方供应商涉及确认该功能。
   
 ## <a name="port-and-firewall-planning"></a>端口和防火墙规划
 <a name="PortFirewallPlan"> </a>
 
-获取您规划右端口和防火墙的 Skype 业务 Server 边缘服务器部署可以保存您天或数周的故障排除和压力。 因此，我们会列出几张表，这些表指出了我们的协议用途，以及对于 NAT 和公共 IP 方案，需要开放哪些端口，包括入站和出站。 我们还针对硬件负载平衡方案 (HLB) 提供了单独的表，以及这方面的进一步指导。 对于从该处的更多读取，我们还具有[业务服务器 2015年的 Skype 的技术图表](../../technical-diagrams.md)，以及您可以为特定部署问题签出一些[边缘服务器中的业务服务器 2015 Skype 的方案](scenarios.md)。
+获取您规划右端口和防火墙的 Skype 业务 Server 边缘服务器部署可以保存您天或数周的故障排除和压力。 因此，我们会列出几张表，这些表指出了我们的协议用途，以及对于 NAT 和公共 IP 方案，需要开放哪些端口，包括入站和出站。 我们还针对硬件负载平衡方案 (HLB) 提供了单独的表，以及这方面的进一步指导。 对于从该处的更多读取，我们还具有可以签出的特定部署问题进行一些[Skype 业务服务器中的边缘服务器方案](scenarios.md)。
   
 ### <a name="general-protocol-usage"></a>常规协议用途
 
 在查看外部和内部防火墙的摘要表之前，让我们同样考虑下面的表：
   
-|**音频/视频传输**|**使用情况**|
+|**音频/视频传输**|**使用**|
 |:-----|:-----|
 |UDP  <br/> |音频和视频的首选传输层协议。  <br/> |
-|TCP  <br/> |音频和视频的回退传输层协议。  <br/> 应用程序共享到 Skype 业务服务器 2015年、 Lync Server 2013 和 Lync Server 2010 所需的传输层协议。  <br/> 文件传输到业务服务器 2015年、 Lync Server 2013 和 Lync Server 2010 的 Skype 所需的传输层协议。  <br/> |
+|TCP  <br/> |音频和视频的回退传输层协议。  <br/> 应用程序共享到 Skype Business Server、 Lync Server 2013 和 Lync Server 2010 所需的传输层协议。  <br/> 文件传输到 Business Server、 Lync Server 2013 和 Lync Server 2010 的 Skype 所需的传输层协议。  <br/> |
    
 ### <a name="external-port-firewall-summary-table"></a>外部端口防火墙摘要表
 
-源 IP 地址和目标 IP 地址将包含相应的信息，这些信息可供结合 NAT 使用专用 IP 地址的用户，以及使用公用 IP 地址的用户使用。 这将涵盖我们[中的业务服务器 2015 Skype 的边缘服务器方案](scenarios.md)一节中的所有排列。
+源 IP 地址和目标 IP 地址将包含相应的信息，这些信息可供结合 NAT 使用专用 IP 地址的用户，以及使用公用 IP 地址的用户使用。 这将涵盖我们[Skype 业务服务器中的边缘服务器方案](scenarios.md)一节中的所有排列。
   
 |**角色或协议**|**TCP 或 UDP**|**目标端口或端口范围**|**源 IP 地址**|**目标 IP 地址**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP  <br/> |TCP  <br/> |5269  <br/> |任意  <br/> |XMPP 代理服务 （与访问边缘服务共享 IP 地址  <br/> |XMPP 代理服务接受来自所定义的 XMPP 联盟中 XMPP 联系人的流量。  <br/> |
+|XMPP  <br/> 不支持在 Skype 业务服务器 2019 |TCP  <br/> |5269  <br/> |任意  <br/> |XMPP 代理服务 （与访问边缘服务共享 IP 地址  <br/> |XMPP 代理服务接受来自所定义的 XMPP 联盟中 XMPP 联系人的流量。  <br/> |
 |访问/HTTP  <br/> |TCP  <br/> |80  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |任意  <br/> |证书吊销和 CRL 检查和检索。  <br/> |
 |访问/DNS  <br/> |TCP  <br/> |53  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |任意  <br/> |通过 TCP 的 DNS 查询。  <br/> |
 |访问/DNS  <br/> |UDP  <br/> |53  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |任意  <br/> |通过 UDP 的 DNS 查询。  <br/> |
@@ -363,7 +374,7 @@ Skype 的业务服务器 2015年使用安全的加密通信服务器之间兼从
 
 |**协议**|**TCP 或 UDP**|**端口**|**源 IP 地址**|**目标 IP 地址**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |运行 XMPP 网关服务的以下任一项：  <br/> • 前端服务器  <br/> • 前端池  <br/> |边缘服务器内部接口  <br/> |从前端服务器或前端池上运行 XMPP 网关服务的出站 XMPP 流量。  <br/> |
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |运行 XMPP 网关服务的以下任一项：  <br/> • 前端服务器  <br/> • 前端池  <br/> |边缘服务器内部接口  <br/> |从前端服务器或前端池上运行 XMPP 网关服务的出站 XMPP 流量。  <br/> **注意：** XMPP 网关和代理中的业务服务器 2015 Skype 可用，但业务服务器 2019年不再支持在 Skype。 有关详细信息，请参阅[迁移 XMPP 联盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md)。|
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |任意：  <br/> • 控制器  <br/> • 控制器池  <br/> • 前端服务器  <br/> • 前端池  <br/> |边缘服务器内部接口  <br/> |从控制器，控制器池、 前端服务器或前端池到边缘服务器内部接口的出站 SIP 流量。  <br/> |
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |边缘服务器内部接口  <br/> |任意：  <br/> • 控制器  <br/> • 控制器池  <br/> • 前端服务器  <br/> • 前端池  <br/> |入站到控制器、 控制器池、 前端服务器或前端池的 SIP 流量从边缘服务器内部接口。  <br/> |
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |任意：  <br/> • 前端服务器  <br/> • 每台前端服务器  <br/>  在前端池 <br/> |边缘服务器内部接口  <br/> |从 web 会议流量在前端服务器或每个前端服务器 （如果您具有一个前端池） 到您的边缘服务器内部接口。  <br/> |
@@ -381,7 +392,7 @@ Skype 的业务服务器 2015年使用安全的加密通信服务器之间兼从
   
 #### <a name="external-port-firewall-summary-table"></a>外部端口防火墙摘要表
 
-源 IP 地址和目标 IP 地址将包含相应的信息，这些信息可供结合 NAT 使用专用 IP 地址的用户，以及使用公用 IP 地址的用户使用。 这将涵盖我们[中的业务服务器 2015 Skype 的边缘服务器方案](scenarios.md)一节中的所有排列。
+源 IP 地址和目标 IP 地址将包含相应的信息，这些信息可供结合 NAT 使用专用 IP 地址的用户，以及使用公用 IP 地址的用户使用。 这将涵盖我们[Skype 业务服务器中的边缘服务器方案](scenarios.md)一节中的所有排列。
   
 |**角色或协议**|**TCP 或 UDP**|**目标端口或端口范围**|**源 IP 地址**|**目标 IP 地址**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -399,7 +410,7 @@ Skype 的业务服务器 2015年使用安全的加密通信服务器之间兼从
 
 |**协议**|**TCP 或 UDP**|**端口**|**源 IP 地址**|**目标 IP 地址**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |运行 XMPP 网关服务的以下任一项：  <br/> • 前端服务器  <br/> • 前端池运行 XMPP 网关服务的 VIP 地址  <br/> |边缘服务器内部接口  <br/> |从前端服务器或前端池上运行 XMPP 网关服务的出站 XMPP 流量。  <br/> |
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |运行 XMPP 网关服务的以下任一项：  <br/> • 前端服务器  <br/> • 前端池运行 XMPP 网关服务的 VIP 地址  <br/> |边缘服务器内部接口  <br/> |从前端服务器或前端池上运行 XMPP 网关服务的出站 XMPP 流量。  <br/><br/> **注意：** XMPP 网关和代理中的业务服务器 2015 Skype 可用，但业务服务器 2019年不再支持在 Skype。 有关详细信息，请参阅[迁移 XMPP 联盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md)。 |
 |HTTPS  <br/> |TCP  <br/> |端口 4443  <br/> |任意：  <br/> • 包含中央管理存储的前端服务器  <br/> • 包含中央管理存储的前端池  <br/> |边缘服务器内部接口  <br/> |从中央管理存储到边缘服务器的更改复制。  <br/> |
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |任意：  <br/> • 前端服务器  <br/> • 前端池中每个前端服务器  <br/> |边缘服务器内部接口  <br/> |从 web 会议流量在前端服务器或每个前端服务器 （如果您具有一个前端池） 到您的边缘服务器内部接口。  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |任意：  <br/> • 前端服务器  <br/> • 前端池中每个前端服务器  <br/> |边缘服务器内部接口  <br/> |首选的路径为 A / V 媒体传输内部和外部用户与您的 Survivable Branch Appliance 或 Survivable Branch Server 之间。  <br/> |
@@ -412,8 +423,8 @@ Skype 的业务服务器 2015年使用安全的加密通信服务器之间兼从
 
 |**角色或协议**|**TCP 或 UDP**|**目标端口或端口范围**|**源 IP 地址**|**目标 IP 地址**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP  <br/> |TCP  <br/> |5269  <br/> |任意  <br/> |XMPP 代理服务 （与访问边缘服务共享 IP 地址）  <br/> |XMPP 代理服务接受来自所定义的 XMPP 联盟中 XMPP 联系人的流量。  <br/> |
-|XMPP  <br/> |TCP  <br/> |5269  <br/> |XMPP 代理服务 （与访问边缘服务共享 IP 地址）  <br/> |任何  <br/> |XMPP 代理服务发送来自所定义的 XMPP 联盟中 XMPP 联系人的流量。  <br/> |
+|XMPP  <br/> Skype 的业务服务器 2019年中不支持 |TCP  <br/> |5269  <br/> |任意  <br/> |XMPP 代理服务 （与访问边缘服务共享 IP 地址）  <br/> |XMPP 代理服务接受来自所定义的 XMPP 联盟中 XMPP 联系人的流量。  <br/> |
+|XMPP  <br/>Skype 的业务服务器 2019年中不支持 |TCP  <br/> |5269  <br/> |XMPP 代理服务 （与访问边缘服务共享 IP 地址）  <br/> |任何  <br/> |XMPP 代理服务发送来自所定义的 XMPP 联盟中 XMPP 联系人的流量。  <br/> |
 |访问/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |外部用户访问的客户端到服务器 SIP 通信。  <br/> |
 |访问/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |任意  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |适用于使用 SIP 的联盟和公共 IM 连接。  <br/> |
 |访问/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |任意  <br/> |适用于使用 SIP 的联盟和公共 IM 连接。  <br/> |

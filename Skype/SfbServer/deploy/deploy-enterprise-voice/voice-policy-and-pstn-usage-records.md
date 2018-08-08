@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中创建或修改语音策略和配置 PSTN 使用记录
+title: 创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,19 +13,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 摘要： 创建或修改语音策略和使用适用于业务 Server Control Panel Skype 配置 PSTN 用法记录。
-ms.openlocfilehash: 69904c28d8121cd8416b547e17fcad866260a319
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 04cfca012490174bfefaa39c4456041ee294385c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501047"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965469"
 ---
-# <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business-2015"></a>在 Skype for Business 2015 中创建或修改语音策略和配置 PSTN 使用记录
+# <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype
  
 **摘要：** 创建或修改语音策略和配置 PSTN 用法记录使用 Skype 业务 Server Control Panel。
   
 > [!NOTE]
-> 每个语音策略必须至少具有一条关联的公用电话交换网 (PSTN) 用法记录。 若要查看所有 PSTN 用法记录企业语音部署中可用，并查看其属性，请都参阅[查看 PSTN 用法记录中的业务 2015 Skype](view-pstn-usage-records.md)。 
+> 每个语音策略必须至少具有一条关联的公用电话交换网 (PSTN) 用法记录。 若要查看所有 PSTN 用法记录企业语音部署中可用，并查看其属性，请都参阅[查看 PSTN 用法记录中的业务的 Skype](view-pstn-usage-records.md)。 
   
 ### <a name="to-create-a-voice-policy"></a>创建语音策略
 
@@ -98,7 +97,7 @@ ms.locfileid: "19501047"
     
    - 要删除 PSTN 用法记录中的某个路由，请突出显示该路由，然后单击“删除”****。
     
-   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务 2015 Skype](create-or-modify-a-voice-route.md)。
+   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务的 Skype](create-or-modify-a-voice-route.md)。
     
    - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。 
     
@@ -114,7 +113,7 @@ ms.locfileid: "19501047"
     
    - 要删除 PSTN 用法记录中的某个路由，请突出显示该路由，然后单击“删除”****。
     
-   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务 2015 Skype](create-or-modify-a-voice-route.md)。
+   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务的 Skype](create-or-modify-a-voice-route.md)。
     
    - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。 
     
@@ -152,7 +151,7 @@ ms.locfileid: "19501047"
     
    - 要删除 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”****。
     
-   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务 2015 Skype](create-or-modify-a-voice-route.md)。
+   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务的 Skype](create-or-modify-a-voice-route.md)。
     
    - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。 
     
@@ -168,7 +167,7 @@ ms.locfileid: "19501047"
     
    - 要删除此 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”****。
     
-   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务 2015 Skype](create-or-modify-a-voice-route.md)。
+   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务的 Skype](create-or-modify-a-voice-route.md)。
     
    - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。 
     
@@ -181,9 +180,9 @@ ms.locfileid: "19501047"
 12. 在“语音策略”**** 页上，单击“提交”****，然后单击“全部提交”****。 
     
     > [!NOTE]
-    > 任何时候创建或修改语音策略，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[挂起更改语音路由配置中的业务 2015 Skype 的发布](voice-route-config-changes.md)。
+    > 任何时候创建或修改语音策略，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[Publish 挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)。
   
-13. （可选）语音邮件转义检测呼叫已由用户的移动电话语音邮件，立即接听和断开连接的移动电话语音邮件将呼叫。 这样呼叫继续在用户拨打的其他终结点，使用户能够应答呼叫。 有关如何配置语音邮件策略的详细信息，请参阅[中的业务 2015 Skype 配置语音邮件转义](configure-voice-mail-escape.md)。
+13. （可选）语音邮件转义检测呼叫已由用户的移动电话语音邮件，立即接听和断开连接的移动电话语音邮件将呼叫。 这样呼叫继续在用户拨打的其他终结点，使用户能够应答呼叫。 有关如何配置语音邮件策略的详细信息，请参阅[Configure Skype for Business 中的语音邮件转义](configure-voice-mail-escape.md)。
     
 ### <a name="to-modify-a-voice-policy"></a>修改语音策略
 
@@ -247,7 +246,7 @@ ms.locfileid: "19501047"
     
    - 要删除 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”****。
     
-   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务 2015 Skype](create-or-modify-a-voice-route.md)。
+   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务的 Skype](create-or-modify-a-voice-route.md)。
     
    - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。 
     
@@ -263,7 +262,7 @@ ms.locfileid: "19501047"
     
    - 要删除此 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”****。
     
-   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务 2015 Skype](create-or-modify-a-voice-route.md)。
+   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务的 Skype](create-or-modify-a-voice-route.md)。
     
    - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。 
     
@@ -301,7 +300,7 @@ ms.locfileid: "19501047"
     
    - 要删除 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”****。
     
-   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务 2015 Skype](create-or-modify-a-voice-route.md)。
+   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务的 Skype](create-or-modify-a-voice-route.md)。
     
    - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。 有关详细信息，请参阅[修改语音路由](http://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)。
     
@@ -317,7 +316,7 @@ ms.locfileid: "19501047"
     
      - 要删除此 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”****。
     
-     - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务 2015 Skype](create-or-modify-a-voice-route.md)。
+     - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务的 Skype](create-or-modify-a-voice-route.md)。
     
      - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。 有关详细信息，请参阅[修改语音路由](http://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)。
     
@@ -330,16 +329,17 @@ ms.locfileid: "19501047"
 11. 在“语音策略”**** 页上，单击“提交”****，然后单击“全部提交”****。 
     
     > [!NOTE]
-    > 只要创建或修改语音策略，就必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[挂起更改语音路由配置中的业务 2015 Skype 的发布](voice-route-config-changes.md)。
+    > 只要创建或修改语音策略，就必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[Publish 挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)。
   
-12. （可选）语音邮件转义检测呼叫已由用户的移动电话语音邮件，立即接听和断开连接的移动电话语音邮件将呼叫。 这样呼叫继续在用户拨打的其他终结点，使用户能够应答呼叫。 有关如何配置语音邮件策略的详细信息，请参阅[中的业务 2015 Skype 配置语音邮件转义](configure-voice-mail-escape.md)。
+12. （可选）语音邮件转义检测呼叫已由用户的移动电话语音邮件，立即接听和断开连接的移动电话语音邮件将呼叫。 这样呼叫继续在用户拨打的其他终结点，使用户能够应答呼叫。 有关如何配置语音邮件策略的详细信息，请参阅[Configure Skype for Business 中的语音邮件转义](configure-voice-mail-escape.md)。
     
 ## <a name="see-also"></a>另请参阅
 
-[查看 PSTN 用法记录中的业务 2015 Skype](view-pstn-usage-records.md)
+[查看 PSTN 用法记录中的业务的 Skype](view-pstn-usage-records.md)
   
-[创建或修改语音路由中的业务 2015 Skype](create-or-modify-a-voice-route.md)
+[创建或修改 Skype for Business 中的语音路由](create-or-modify-a-voice-route.md)
   
-[挂起更改语音路由配置中的业务 2015 Skype 的发布](voice-route-config-changes.md)
+[发布挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)
   
-[配置中的业务 2015 Skype 的语音邮件转义](configure-voice-mail-escape.md)
+[Skype for Business 中配置语音邮件转义](configure-voice-mail-escape.md)
+

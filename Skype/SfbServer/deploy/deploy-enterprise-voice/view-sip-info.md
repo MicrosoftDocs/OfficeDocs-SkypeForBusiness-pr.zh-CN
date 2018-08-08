@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中查看有关各个 SIP 中继的信息
+title: 查看 Business server Skype 中的单个 SIP 中继的信息
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
-description: 摘要： 了解如何为业务服务器 2015 Skype 中查看有关 SIP 中继的信息。
-ms.openlocfilehash: fb9990ec4315ffd26f51adaee2414810a053a97f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解如何为业务服务器在 Skype 中查看有关 SIP 中继的信息。
+ms.openlocfilehash: 10f45def1727c083f89afcdba43fb9c1c4e7e45e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568240"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968696"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中查看有关各个 SIP 中继的信息
+# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>查看 Business server Skype 中的单个 SIP 中继的信息
  
-**摘要：** 了解如何为业务服务器 2015 Skype 中查看有关 SIP 中继的信息。
+**摘要：** 了解如何为业务服务器在 Skype 中查看有关 SIP 中继的信息。
   
 SIP 中继用于通过 IP 电话网络与公共公用电话交换网 (PSTN) 的业务 Server 语音连接 Skype。 在本产品的以前版本中，中继用来将出站呼叫从中介服务器路由到 PSTN 网关，并且每个网关仅限于一个中继。 因此，PSTN 网关和 SIP 中继基本上完全相同。 对于管理员而言，这意味着他们只需通过查看有关相关联的 PSTN 网关的信息，即可查看有关个别 SIP 中继的信息。
   

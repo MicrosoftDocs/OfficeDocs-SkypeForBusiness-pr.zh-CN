@@ -1,29 +1,31 @@
 ---
-title: 用户采用的电子邮件模板 Microsoft 小组或 Skype 业务的推广
+title: 用户应用的电子邮件模板的 Microsoft 团队或 Skype 业务大规模的部署
 author: dearbeen
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: 使用模板来向用户发送电子邮件，在您在团队或 Skype 业务实施云语音功能。
+description: 使用模板来向用户发送电子邮件，如团队或 Skype for Business 中实现云语音功能。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e3ba28ef4e2e8eca93a7c1b8b11d25ea898f39b
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 22ef253084427e4eb5a61505726a3dccf5f4fbb5
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694823"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>促进新的在线电话系统的用户采用率
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>加快用户应用的新联机电话系统
 
-一部电话可以是用户的生命线。 从传统的电话系统切换到联机电话系统表示重大更改用户的工作的方式中，可以对工作效率产生负面影响。 耗费时间通知，指南 》，并支持用户通过此更改有助于确保良好的用户体验和投资回报率最大化。
+电话可以是用户的生命线。 从传统电话系统切换到重大更改方式用户工作时，并会产生负面影响的生产率联机电话系统表示。 用于通知，指南和支持用户通过此更改可帮助确保良好的用户体验，并最大限度地投资回报率的做笔记时间。
 
-本文包含可自定义的电子邮件模板，可帮助用户告知他们新的电话系统。 自定义并发送适当的电子邮件，以配合特定的语音部署。 我们使用了括号来指示部分简单的个性化，但我们建议您添加特定于组织的消息，从而使您的用户最相关公告。 如果适用于您的部署，替换所有参考"团队""Skype 业务。"
+本文包含可自定义电子邮件模板，可帮助通知用户有关其新的电话系统。 自定义和发送适当的电子邮件，以便满足特定的语音部署。 我们使用方括号以指示轻松个性化的各节，但我们建议您将添加特定于组织的消息进行通知最相关的用户。 如果适用于您的部署，替换"for Business 的 Skype。"的"工作组"的所有引用
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>1 号的电子邮件： 发送三个星期之前启动
+## <a name="email-number-1-send-three-weeks-before-launch"></a>电子邮件 1 号： 发送投放前三个星期
 
 主题行：
 
@@ -88,7 +90,7 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>通过电子邮件发送数字 2： 一周前启动发送
+## <a name="email-number-2-send-one-week-before-launch"></a>电子邮件 2 号： 投放前一周发送
 
 主题行：
 
@@ -132,7 +134,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>通过电子邮件发送数字 3： 启动当天发送
+## <a name="email-number-3-send-on-launch-day"></a>电子邮件 3 号： 发送上启动天
 
 主题行：
 
@@ -169,7 +171,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>通过电子邮件发送数字 4： 发送应用程序启动后的两周
+## <a name="email-number-4-send-two-weeks-after-launch"></a>4 号的电子邮件： 发送后启动两周
 
 主题行：
 

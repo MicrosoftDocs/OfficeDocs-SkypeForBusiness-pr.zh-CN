@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 中的 SIP 中继
+title: Skype 业务服务器中的 SIP 中继
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: 了解有关在 Skype 的 SIP 中继的业务 Server 企业语音
-ms.openlocfilehash: 01f8401f6573220c8995df99f863bfd95a08ffb8
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 19029bd2006d269736e4b49830d202ddf07c6a79
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504101"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980074"
 ---
-# <a name="sip-trunking-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 SIP 中继
+# <a name="sip-trunking-in-skype-for-business-server"></a>Skype 业务服务器中的 SIP 中继
  
 了解有关在 Skype 的 SIP 中继的业务 Server 企业语音
   
-会话初始协议 (SIP) 用于启动和管理基本电话服务和其他实时通信服务（例如即时消息、会议、状态检测和多媒体）的 IP 语音 (VoIP) 通信会话。 此部分提供用于实现 SIP 中继，一种扩展到的本地网络边界以外的 SIP 连接的规划信息。
+会话初始协议 (SIP) 用于启动和管理基本电话服务和其他实时通信服务（例如即时消息、会议、状态检测和多媒体）的 IP 语音 (VoIP) 通信会话。本节提供实现 SIP 中继（一种 SIP 连接，可以扩展到本地网络以外）的规划信息。
   
 ## <a name="what-is-sip-trunking"></a>什么是 SIP 中继？
 
@@ -62,7 +61,7 @@ SIP 中继是一种 IP 连接，在您的组织与防火墙以外的 Internet �
 
 术语中继源自电路交换技术。 它指的是连接电话交换设备的专用物理线路。 其前置任务，时分多路复用 (TDM) 中继，如 SIP 中继的两个单独的 SIP 网络之间的连接 — Business Server enterprise Skype 和 ITSP。 SIP 中继是可以通过任何支持的 SIP 中继连接类型建立的虚拟连接，这一点与电路交换中继不同。
   
-而直接 SIP 连接指的是不能跨越本地网络边界的 SIP 连接（也就是说，它们连接到内部网络内的公用电话交换网 (PSTN) 网关或专用交换机 (PBX)）。 有关如何使用直接 SIP 连接使用 Skype 业务服务器的详细信息，请参阅[中的业务服务器 2015 Skype 的直接 SIP 连接](direct-sip.md)。 
+而直接 SIP 连接指的是不能跨越本地网络边界的 SIP 连接（也就是说，它们连接到内部网络内的公用电话交换网 (PSTN) 网关或专用交换机 (PBX)）。 有关如何使用直接 SIP 连接使用 Skype 业务服务器的详细信息，请参阅[中的业务服务器 Skype 的直接 SIP 连接](direct-sip.md)。 
   
 ## <a name="how-do-i-implement-sip-trunking"></a>如何实施 SIP 中继？
 
@@ -70,7 +69,7 @@ SIP 中继是一种 IP 连接，在您的组织与防火墙以外的 Internet �
   
 每台中介服务器具有一个内部网络接口和外部网络接口。 内部接口连接到前端服务器。 因为它通常用于连接到公用电话交换网 (pstn) 网关或 IP PBX 的中介服务器的外部接口通常称为网关接口。 若要实现 SIP 中继，则中介服务器的外部接口连接到 ITSP 的外部边缘组件。 ITSP 的外部边缘组件可以是会话边界控制器 (SBC)、路由器或网关。
   
-有关中介服务器的详细信息，请参阅[中的业务服务器 2015 Skype 的中介服务器组件](mediation-server.md)。 
+有关中介服务器的详细信息，请参阅[Skype 业务服务器中的中介服务器组件](mediation-server.md)。 
   
 ### <a name="centralized-vs-distributed-sip-trunking"></a>集中 SIP 中继和分布式 SIP 中继
 
@@ -95,7 +94,7 @@ SIP 中继是一种 IP 连接，在您的组织与防火墙以外的 Internet �
 确定部署集中 SIP 中继还是分布式 SIP 中继之前需要进行成本效益分析。 某些情况下，虽然并不是必需的，但选择分布式部署模型可能会比较有益。 在完全集中部署中，通过 WAN 链接路由所有分支站点流量。 如果您不想支付 WAN 链路所需的带宽费用，则可能需要使用分布式 SIP 中继。 例如，您可能想要将在分支站点使用联盟 Standard Edition server 部署到中心网站，或要部署 Survivable Branch Appliance 或 Survivable Branch Server 的小型网关。
   
 > [!NOTE]
-> 有关分布式 SIP 中继的详细信息，请参阅[中的业务服务器 2015 Skype 的分支站点 SIP 中继](branch-site.md)。 
+> 有关分布式 SIP 中继的详细信息，请参阅[Skype 业务服务器中的分支站点 SIP 中继](branch-site.md)。 
   
 ### <a name="supported-sip-trunking-connection-types"></a>支持的 SIP 中继连接类型
 
@@ -183,4 +182,5 @@ SIP 中继连接的服务提供商端的实现方式因 ITSP 而异。 有关部
     
 ## <a name="see-also"></a>另请参阅
 
-[中的业务服务器 2015 Skype 的分支站点 SIP 中继](branch-site.md)
+[Skype 业务服务器中的分支站点 SIP 中继](branch-site.md)
+

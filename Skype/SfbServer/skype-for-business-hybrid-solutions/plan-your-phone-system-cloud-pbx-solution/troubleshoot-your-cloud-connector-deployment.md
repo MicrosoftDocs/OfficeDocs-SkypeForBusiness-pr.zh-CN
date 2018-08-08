@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: 解决云连接器 Edition 部署。
-ms.openlocfilehash: 41d2d43c5b47c3c0774cbdf6a29304d8c86132dc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 82fcc8e45e231617b5804c9caac4c8adc638457b
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569668"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246468"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>云连接器部署故障排除
  
@@ -85,7 +85,7 @@ ms.locfileid: "19569668"
 
 - 
     
-    **问题： 安装在 Active Directory 服务器和林之后，CMS 服务器和/或中介服务器未加入域正确。**
+    **问题：安装 Active Directory 服务器和林后，CMS 服务器和/或中介服务器未正确加入域。**
     
     **解决方法：** 要解决此问题，请执行以下步骤：
     
@@ -118,7 +118,7 @@ ms.locfileid: "19569668"
     
     **问题：应用 Windows 更新时主机服务器重新启动，由此服务器支持的调用失败。**
     
-    **解决方法：** 如果您部署的高可用性环境，Microsoft 提供的 cmdlet 来帮助移动一个主机 （部署实例） 迁入或迁出当前拓扑时检查和手动安装 Windows update。 使用以下步骤实现这一点：
+    **解决方法：** 如果你已部署高可用性环境，Microsoft 提供的 cmdlet 可以帮助你在手动检查和安装 Windows 更新时将一台主机（部署实例）移入或移出当前拓扑。要完成此操作，请执行以下步骤：
     
 1. 在主机服务器上，以管理员身份启动 PowerShell 控制台，然后运行：
     
@@ -202,7 +202,7 @@ ms.locfileid: "19569668"
     
     **如果证书颁发机构证书受到威胁，并且只有一个装置的站点中，** 执行以下步骤：
     
-1. 运行排出服务和装置置于维护模式下 Enter CcUpdate cmdlet。
+1. 运行 Enter-CcUpdate cmdlet 以排出服务并将该设备置于维护模式。
     
 2. 运行以下 cmdlet 以重置证书颁发机构证书和所有内部服务器证书并创建相应的新证书：
     
@@ -222,9 +222,9 @@ ms.locfileid: "19569668"
     Remove-CcLegacyServerCertificate 
     ```
 
-3. 运行退出 CcUpdate cmdlet 启动的服务和退出维护模式。
+3. 运行 Exit-CcUpdate cmdlet 以启动服务并退出维护模式。
     
-4. 运行导出 CcRootCertificate cmdlet 上的本地文件中设备，然后复制并将导出的证书安装到 PSTN 网关。
+4. 对设备上的本地文件运行 Export-CcRootCertificate cmdlet，然后将导出的证书复制并安装到 PSTN 网关。
     
     **如果证书颁发机构证书受到威胁，并且有多个装置的站点中，** 执行以下顺序步骤在网站中每个设备上。
     
@@ -274,7 +274,7 @@ ms.locfileid: "19569668"
     
     **解决方法：** 所有云连接器凭据都存储在以下文件:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml"。 当主机服务器上的密码更改时，您将需要更新本地存储的凭据。
     
-    **如果您运行的云连接器版本 1.4.2，** 重新生成所有云连接器密码，按照以下步骤：
+    **如果你运行的是云连接器 1.4.2 版，** 请通过执行以下步骤来重新生成所有云连接器密码：
     
     1. 重新启动主机服务器。
     
@@ -317,7 +317,13 @@ ms.locfileid: "19569668"
 - **问题： 云连接器 2.1 及更高版本，设备上运行注册 CcAppliance 或其他 cmdlet 时您会收到一条错误消息如:"为每个对象: 常用找不到此对象的属性。验证属性存在。在 C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 字符： 14"**
     
     **解决方法：** 云连接器 2.1 和更高版本需要.NET Framework 4.6.1 或更高版本。 请.NET Framework 更新至版本 4.6.1 设备上或更高版本，然后再次运行 cmdlet(s)。
-    
+
+- **问题： 云连接器 Edition 2.1，运行安装 CcAppliance 时，您会收到一条错误消息如:"安装错误的新实例失败： 无法设置"状态"，因为仅字符串可用作值来设置 XmlNode 属性"**
+
+   **解决方法：** 在 Cloudconnector.ini 下 [常见] 部分，, 请添加"State"配置，如下所示： 国家/地区代码 = 美国状态 = WA 市/县 = 雷德蒙德
+
+   就不强制"State"行具有值，但不能从 Cloudconnector.ini 文件中删除"State"行。
+
 - **问题： 您将收到以下错误消息"卸除 WindowsImage： 卸除 WindowsImage 失败。错误代码 = 0xc1550115"安装或升级云连接器 Edition 时。**
     
     **解决方法：** 启动 PowerShell 控制台，请以管理员身份运行"DISM-清理-Wim'"。 这将清除所有故障的图像。 再次运行安装 CcAppliance 或等待的位自动升级。

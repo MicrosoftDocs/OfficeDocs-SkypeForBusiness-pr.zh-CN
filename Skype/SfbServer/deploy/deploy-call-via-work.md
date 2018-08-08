@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中部署单位电话呼叫
+title: 部署呼叫通过业务服务器 Skype 中工作
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,19 +11,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
-description: 摘要： 了解如何部署业务服务器 2015年呼叫通过单位电话的 Skype 的部分或所有用户。
-ms.openlocfilehash: 6b4dcb12458fb3421db5b500b550061c24d51bc1
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解如何部署为部分或全部用户呼叫通过单位电话的 Skype 业务服务器。
+ms.openlocfilehash: 60890f510f5f895f3a99f070cd9cf1a7c997da61
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568247"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20991043"
 ---
-# <a name="deploy-call-via-work-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中部署单位电话呼叫
+# <a name="deploy-call-via-work-in-skype-for-business-server"></a>部署呼叫通过业务服务器 Skype 中工作
  
-**摘要：** 了解如何部署业务服务器 2015年呼叫通过单位电话的 Skype 的部分或所有用户。
+**摘要：** 了解如何部署为部分或全部用户呼叫通过单位电话的 Skype 业务服务器。
   
-使用以下步骤为用户部署通过单位电话呼叫。 [规划呼叫通过单位电话中的业务服务器 2015 Skype](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)中讨论了规划注意事项。 在早期版本的 Lync Server 远程呼叫控制是一种功能，允许用户控制其 PBX 电话与 Lync Server。 在业务服务器 Skype，此功能已取代与通过单位电话呼叫。 
+使用以下步骤为用户部署通过单位电话呼叫。 [规划呼叫通过中工作的企业服务器的 Skype](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)中讨论了规划注意事项。 在早期版本的 Lync Server 远程呼叫控制是一种功能，允许用户控制其 PBX 电话与 Lync Server。 在业务服务器 Skype，此功能已取代与通过单位电话呼叫。 
   
 ## <a name="prerequisites-for-call-via-work"></a>用单位电话呼叫的先决条件
 
@@ -98,5 +97,5 @@ ms.locfileid: "19568247"
 
 ## <a name="see-also"></a>另请参阅
 
-[规划用单位电话的 Skype 业务服务器 2015年呼叫](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
+[规划用单位电话的 Skype 业务服务器的呼叫](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

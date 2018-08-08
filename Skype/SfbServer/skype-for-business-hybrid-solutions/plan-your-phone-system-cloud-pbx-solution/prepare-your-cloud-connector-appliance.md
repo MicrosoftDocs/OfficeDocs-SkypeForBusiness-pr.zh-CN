@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: 了解如何准备云连接器设备的部署和使用 Office 365 (云 PBX) 中的电话系统。
-ms.openlocfilehash: 130d593ba94eff9da163363a652bc389b713d1b0
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 54ee8394c9da5b00e6a9c9afa7d4a1f3419c2f41
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176088"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>准备云连接器设备
  
@@ -80,7 +81,7 @@ ms.lasthandoff: 05/03/2018
   Set-CcSiteDirectory <UNC File path>
   ```
 
-    如果您网站部署高可用性 (HA)，请确保运行 cmdlet 以将**网站目录**设置为网站中每个主机服务器上的同一位置。
+    如果要为站点部署高可用性 (HA)，请确保运行该 cmdlet 以将站点中每个主机服务器上的**网站目录**设置为相同位置。
     
     当您登录和部署网站中的每个设备时，请确保您当前的登录帐户具有适当访问权限**网站目录**。
     
@@ -117,7 +118,7 @@ ms.lasthandoff: 05/03/2018
     指定外部证书的完整路径，包括文件名。 证书可以存储在本地或文件共享中。 如果证书存储在共享文件夹中，该共享文件夹必须创建在每个站点的第一个设备上，且必须可由属于同一站点的其他设备访问。 此 cmdlet 将外部证书复制到**设备目录**。
     
     > [!IMPORTANT]
-    > **如果您已更新到云连接器 1.4.2 版或更高版本**，请确保您准备好外部证书包含私钥和完整的证书链包括根 CA 证书和中间 CA 证书。 >**如果您有尚未更新到云连接器 1.4.2 版**，请确保您准备好外部证书包含私钥。 默认情况下，此外部证书必须由 Windows 信任的证书颁发机构颁发。
+    > **如果你已更新到云连接器 1.4.2 版或更高版本**，请确保准备好的外部证书包含私钥和完整证书链（包括根 CA 证书和中间 CA 证书）。 **如果你尚未更新到云连接器 1.4.2 版**，请确保准备好的外部证书包含私钥。 默认情况下，此外部证书必须由 Windows 信任的证书颁发机构颁发。
   
 ## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>设置外部 PSTN 网关/SBC 证书的路径
 
@@ -159,28 +160,28 @@ Export-CcConfigurationSampleFile
 
 示例模板存储在**设备目录**中。
   
-使用环境的值更新文件后，在**设备目录**中将其另存为 CloudConnector.ini。 您可以运行**Get CcApplianceDirectory**确定**装置目录**的路径。
+使用环境的值更新文件后，在**设备目录**中将其另存为 CloudConnector.ini。你可以运行 **Get-CcApplianceDirectory** 以确定**设备目录**的路径。
   
 更新 .ini 文件时，请考虑以下内容：
   
 > [!NOTE]
-> 本节并未讨论 .ini 文件中的所有值，只涵盖了需要特别注意的值。 完整列表，请参阅[Determine 部署参数](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)一部分[商务云连接器版的 Skype 的规划](plan-skype-for-business-cloud-connector-edition.md)主题。 > 需要更改为其他设备或新网站的值的详细信息，请参阅[单个网站具有高可用性 (HA) 与多站点部署相比](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site)中[部署多个站点云 Connector 中](deploy-multiple-sites-in-cloud-connector.md)的主题。 
+> 本节并未讨论 .ini 文件中的所有值，只涵盖了需要特别注意的值。 完整列表，请参阅[Plan for Business 云连接器 edition Skype](plan-skype-for-business-cloud-connector-edition.md)主题的[Determine 部署参数](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)部分。 有关需要为其他设备或新站点更改哪些值的详细信息，请参阅[主题中的](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site)支持高可用性 (HA) 的单站点部署与多站点部署比较[Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md)。 
   
-- **SiteName：**默认值为 **Site1**。你必须在部署云连接器之前更新该值，因为当通过运行 **Register-CcAppliance** 将设备注册到现有站点或新站点时，该 cmdlet 将使用 **SiteName** 来确定要注册到的站点。
+- **SiteName：** 默认值为 **Site1**。你必须在部署云连接器之前更新该值，因为当通过运行 **Register-CcAppliance** 将设备注册到现有站点或新站点时，该 cmdlet 将使用 **SiteName** 来确定要注册到的站点。
     
      如果要将设备注册到新站点，**SiteName** 值必须唯一，并且与现有站点不同。 如果您要注册到现有网站 appliance， **SiteName** .ini 文件中的值必须匹配您的 Office 365 租户配置中定义的名称。 如果要将配置文件从一个站点复制到另一个站点，请确保相应地更新每个站点的 **SiteName** 值。
     
-- **ServerName：**服务器名称不应包含域名，且不应超过 15 个字符。
+- **ServerName：** 服务器名称不应包含域名，且不应超过 15 个字符。
     
 - **HardwareType:** 如果不设置，或保留为空，则将使用**普通**的默认值。 如果您打算部署的较大云连接器以支持每个主机，如[Plan for Business 云连接器 edition Skype](plan-skype-for-business-cloud-connector-edition.md)中所述的 500 同时呼叫版，请使用**普通**。 用于小型部署支持 50 个呼叫的**最小值**。
     
-- **Internet/公司网络/管理虚拟交换机**：添加已创建的虚拟交换机的名称。 对于管理虚拟交换机，只需保留默认值即可。 部署脚本将在部署开始时创建管理虚拟交换机，在部署结束时将其删除。
+- **Internet/公司网络/管理虚拟交换机**：添加已创建的虚拟交换机的名称。对于管理虚拟交换机，只需保留默认值即可。部署脚本将在部署开始时创建管理虚拟交换机，在部署结束时将其删除。
     
 - **ManagementIPPrefix：**“网络”部分中的 ManagementIPPrefix 必须是不同于其他内部 IP 的子网。例如，如默认值所示，ManagementIPPrefix 为 192.168.213.0，而 AD IP 地址为 192.168.0.238。
     
     部署脚本会在每台虚拟机上创建管理网络适配器，分配管理 IP，并将其连接到管理虚拟交换机。这样可使主机服务器通过此管理网络连接到每台虚拟机并对其进行管理。部署结束时，会删除管理虚拟交换机。
     
-- **基本 VM 特定配置：**本节中的设置必须**转换 CcIsoToVhdx** cmdlet 配置。
+- **基本虚拟机特定配置：** 必须为 **Convert-CcIsoToVhdx** cmdlet 配置本节中的设置。
     
     在准备基本虚拟机映像期间，基本虚拟机将连接到内部网络交换机。为使虚拟机能够访问 Internet，以下设置至关重要：
     
@@ -306,7 +307,7 @@ Set-ExecutionPolicy RemoteSigned
 
 Skype 业务 Online 和 Office 365 中的电话系统与 Office 365 租户是必需的。 请确保您的租户已设置并尝试使用云连接器之前配置。
   
-一些 Office 365 安装步骤要求您以使用远程 PowerShell 租户 (TRPS) 配置 Office 365 租户。 **它应安装在主机服务器上。** 您可以从 powershell 下载业务 Online 模块 Skype:[Skype 业务 online，Windows PowerShell 模块](https://www.microsoft.com/en-us/download/details.aspx?id=39366)。
+一些 Office 365 安装步骤要求您以使用远程 PowerShell 租户 (TRPS) 配置 Office 365 租户。 **它应安装在主机服务器上。** 您可以从 powershell 下载业务 Online 模块 Skype: [Skype 业务 online，Windows PowerShell 模块](https://www.microsoft.com/en-us/download/details.aspx?id=39366)。
   
 创建专用的 Skype 云连接器联机管理，例如 CceOnlineManagmentAdministrator 业务管理员帐户。 设备将使用该帐户添加或删除设备、启用或禁用操作系统自动更新、启用或禁用二进制文件自动更新。 请将该帐户的密码设置为永不过期，从而无需在每次过期时为服务更改密码。
   

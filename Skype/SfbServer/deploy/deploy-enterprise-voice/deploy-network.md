@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中部署网络区域、站点和子网
+title: 部署网络区域、 站点和 Skype for Business 中的子网
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,24 +13,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 创建或修改网络区域、 网络站点，并将 Skype 中的网络子网关联的业务服务器。 所有这些用于高级企业语音功能： 媒体绕过、 呼叫允许控制和基于位置的路由。
-ms.openlocfilehash: 39fb65f3f2bef0ab81833b42fe50cbf866bee65b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 427ab9102fe7a840aee68e0dbc2c372b908930e8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568380"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980772"
 ---
-# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business-2015"></a>在 Skype for Business 2015 中部署网络区域、站点和子网
+# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>部署网络区域、 站点和 Skype for Business 中的子网
  
 创建或修改网络区域、 网络站点，并将 Skype 中的网络子网关联的业务服务器。 所有这些用于高级企业语音功能： 媒体绕过、 呼叫允许控制和基于位置的路由。
   
-高级企业语音功能是[call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)、[media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)、[ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)和 [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)。 所有这些功能需要您创建网络区域、 网络站点和子网。 例如，所有这些功能都要求拓扑中的每个子网与特定网络站点关联，每个网络站点必须与网络区域关联。 将这些术语的详细信息，请参阅[中的业务服务器 2015 Skype 的高级企业语音功能的网络设置](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
+高级企业语音功能是[call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)、[media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)、[ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)和 [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)。 这些功能全都需要您创建网络区域、网络站点和子网。 例如，所有这些功能都要求拓扑中的每个子网与特定网络站点关联，每个网络站点必须与网络区域关联。 将这些术语的详细信息，请参阅[Skype 业务服务器中的高级企业语音功能的网络设置](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
   
 呼叫允许控制和 E9-1-1 对网络站点具有其他配置要求：
   
-- 呼叫允许控制要求的带宽策略配置文件指定为每个受 WAN 带宽限制的网站。 如果您计划部署呼叫允许控制，您必须[创建带宽策略配置文件中的业务服务器 2015 Skype](create-bandwidth-policy-profiles.md)之前配置网络站点。
+- 呼叫允许控制要求为由 WAN 带宽限制限定的每个站点指定带宽策略配置文件。 如果您计划部署呼叫允许控制，您必须[创建带宽策略配置文件中的业务服务器 Skype](create-bandwidth-policy-profiles.md)之前配置网络站点。
     
-- E9-1-1 要求为每个网站的指定位置策略。 如果您计划部署 E9-1-1，您必须[创建位置策略中的业务服务器 2015 Skype](create-location-policies.md)之前配置网络站点。
+- E9-1-1 要求为每个站点指定位置策略。 如果您计划部署 E9-1-1，您必须[创建位置策略中的业务服务器的 Skype](create-location-policies.md)之前配置网络站点。
     
 ## <a name="create-or-modify-a-network-region"></a>创建或修改网络区域
 
@@ -314,6 +313,7 @@ ms.locfileid: "19568380"
 ## <a name="see-also"></a>另请参阅
 <a name="BKMK_AssociateSubnets"> </a>
 
+
 [新 CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
   
 [Get-csnetworkregion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
@@ -329,3 +329,4 @@ ms.locfileid: "19568380"
 [设置 CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
   
 [删除 CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
+

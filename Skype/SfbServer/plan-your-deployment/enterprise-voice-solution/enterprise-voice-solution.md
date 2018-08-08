@@ -1,9 +1,8 @@
 ---
-title: 规划企业语音解决方案中 Skype 业务服务器 2015
+title: 规划企业语音解决方案中 Skype 业务 Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/21/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
-description: 摘要： 了解如何规划业务服务器 2015 Skype 中的统一的语音和通信解决方案的选项。
-ms.openlocfilehash: b8870cb252613a362c38262185e779b06dff6136
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+description: 摘要： 了解如何规划业务服务器中 Skype 统一的语音和通信解决方案的选项。
+ms.openlocfilehash: 5043646f122aec8f7ba80b8b584b6e77f18a9062
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504255"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988555"
 ---
-# <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server-2015"></a>规划企业语音解决方案中 Skype 业务服务器 2015
+# <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>规划企业语音解决方案中 Skype 业务 Server
  
-**摘要：** 了解用于规划业务服务器 2015 Skype 中的统一的语音和通信解决方案的选项。
+**摘要：** 了解用于规划业务服务器中 Skype 统一的语音和通信解决方案的选项。
   
 Skype 业务服务器提供了两个本地企业语音选项 — 企业语音和通过单位电话呼叫-要将您的组织的电话系统与业务服务器部署您 Skype 相集成，使一个真正的统一通信解决方案。 这两个选项使用户能够使用其 Skype 业务客户端与其他用户，贵组织内外启动语音呼叫。
   
@@ -31,7 +30,7 @@ Skype 业务服务器提供了两个本地企业语音选项 — 企业语音和
   
 您可以在一起使用企业语音和通过单位电话呼叫。
   
-- 企业语音是最完整语音提供。 它是一套基于软件的 IP 语音 (VoIP) 解决方案，提供了丰富的功能集，包括与 Outlook 和 Exchange 的丰富集成以及许多强大的功能，比如响应组、呼叫寄存、团队呼叫、组内呼叫应答和增强型紧急 E9-1-1 支持。 企业语音用户使用的音频设备，例如耳麦与他们的计算机，或已启用 VoIP 的电话，而不是传统 PSTN 或 PBX 电话。
+- 企业语音是最完整的语音解决方案。 它是一套基于软件的 IP 语音 (VoIP) 解决方案，提供了丰富的功能集，包括与 Outlook 和 Exchange 的丰富集成以及许多强大的功能，比如响应组、呼叫寄存、团队呼叫、组内呼叫应答和增强型紧急 E9-1-1 支持。 企业语音用户使用的音频设备，例如耳麦与他们的计算机，或已启用 VoIP 的电话，而不是传统 PSTN 或 PBX 电话。
     
 - 通过单位电话呼叫提供了一种方法，以将您的业务解决方案的 Skype 与您现有的 PBX 电话系统集成。 启用呼叫通过单位电话的用户可以单击 for Business 呼叫另一个用户，可以在部署或外部用户的 Skype 中。 呼叫使用用户的 PBX 电话完成。 此外，这些用户可以单击中 Skype for Business 加入会议。
     
@@ -46,8 +45,10 @@ Skype 业务服务器提供了两个本地企业语音选项 — 企业语音和
   
 ## <a name="see-also"></a>另请参阅
 
-[规划业务服务器 2015 Skype 中的企业语音](enterprise-voice.md)
+
+[规划业务服务器的 Skype 中的企业语音](enterprise-voice.md)
   
-[规划用单位电话的 Skype 业务服务器 2015年呼叫](call-via-work.md)
+[规划用单位电话的 Skype 业务服务器的呼叫](call-via-work.md)
   
-[规划业务 2015年的 Skype 中的远程呼叫控制](remote-call-control.md)
+[Plan for Business 的 Skype 中的远程呼叫控制](remote-call-control.md)
+

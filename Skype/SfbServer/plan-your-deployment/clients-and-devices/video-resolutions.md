@@ -12,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
-description: 摘要： 规划的 Skype 业务服务器 2015年时查看客户端视频要求。
-ms.openlocfilehash: ea4c7e1cf9e0e1df24b00e817cac22128df1d0b8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 规划的 Skype 业务 Server 时查看客户端视频要求。
+ms.openlocfilehash: 4009cb348c9a839fb200901808555521f453d5b8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966754"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype 业务的客户端视频分辨率
  
-**摘要：**规划业务服务器 2015年的 Skype 时查看客户端视频要求。
+**摘要：** 查看规划 Skype 业务服务器时的客户端视频要求。
   
 本文介绍的 Skype 对业务视频呼叫的视频硬件支持，并介绍如何确定各种计算机、 平板电脑和移动设备配置的预期视频质量。 
   
@@ -39,7 +40,7 @@ Skype for Business 使用硬件加速视频编码和解码基于 H.264/mpeg-4 �
 |:-----|:-----|
 |使用 DirectX 视频加速 (DXVA) 的硬件加速 H.264 解码  <br/> |• 显卡必须支持 DirectX 9.0 且必须公开 DXVA2_ModeH264_VLD_NoFGT 解码模式和 DirectX 9 API。  <br/> • 必须安装最新的显卡驱动程序。  <br/> |
 |硬件加速 H.264 编码：芯片集要求  <br/> |支持以下 Intel 硬件加速视频编码解决方案：  <br/> • 第二和第 3 代 Intel 高清图形 2000年、 2500年、 3000 和 4000 芯片集 （或更高版本） 使用集成的硬件视频编码器。 需要安装 Intel 高清显卡驱动程序 15.28.9.2884 或包含以下内容的最新驱动程序：  <br/> • 显示驱动程序 9.17.10.2884 或最新驱动程序  <br/> • 硬件媒体基础转换 (HMFT) 版本 3.12.10.31 或最新 HMFT  <br/> 支持以下 AMD 硬件加速视频编码解决方案：  <br/> • AMD 视频编解码器引擎，可在多个离散图形卡和集成加速处理单位 AMD A 系列更快处理器。 必须安装 AMD 视频编解码引擎驱动程序 9.12.0.0 或更高版本。  <br/> |
-|硬件加速 H.264 编码：摄像机要求  <br/> |具有符合 USB Video Class (UVC) 规格版本 1.5 的集成 H.264 硬件编码器的 USB 视频摄像机。  <br/> **注意：**Skype for Business 支持与 Windows 8 或 Windows 8.1，其中包括支持 UVC 1.5 UVC 1.5 照相机。 Windows 7 不包括对 UVC 1.5 的支持，因为 for Business 的 Skype 视为 UVC 1.5 照相机正则摄像机不编码支持的硬件。 <br/> |
+|硬件加速 H.264 编码：摄像机要求  <br/> |具有符合 USB Video Class (UVC) 规格版本 1.5 的集成 H.264 硬件编码器的 USB 视频摄像机。  <br/> **注意：** Skype for Business 支持与 Windows 8 或 Windows 8.1，其中包括支持 UVC 1.5 UVC 1.5 照相机。 Windows 7 不包括对 UVC 1.5 的支持，因为 for Business 的 Skype 视为 UVC 1.5 照相机正则摄像机不编码支持的硬件。 <br/> |
    
 ### <a name="determining-h264-video-encoding-and-decoding-capabilities"></a>确定 H.264 视频编码和解码功能
 
@@ -61,7 +62,7 @@ Windows 系统评估工具 (WinSAT) 确定 WEI。在运行 WinSAT 工具时，�
     
 以下三个表说明了不同的 PC 类型依据其支持的硬件加速所具有的最大编码功能和解码功能。对于 640x360 和更高分辨率，最大支持帧速率为 30 帧/秒 (fps)。对于低于 640x360 的分辨率，最大支持帧速率为 15 fps。
   
-**计算机不带 DXVA 且不带硬件加速编码器**
+**不带 DXVA 且不带硬件加速编码器的计算机**
 
 |**支持的编码器分辨率**|**支持的解码器分辨率**|**要求**|
 |:-----|:-----|:-----|
@@ -73,7 +74,7 @@ Windows 系统评估工具 (WinSAT) 确定 WEI。在运行 WinSAT 工具时，�
 |1280 x 720  <br/> |1920 x 1080  <br/> |四核且 VideoEncodeScore ≥ 7.3  <br/> |
 |1920 x 1080  <br/> |1920 x 1080  <br/> |不适用  <br/> |
    
-**计算机带 DXVA 但不带硬件加速编码器**
+**带 DXVA 但不带硬件加速编码器的计算机**
 
 |**支持的编码器分辨率**|**支持的解码器分辨率**|**要求**|
 |:-----|:-----|:-----|
@@ -86,7 +87,7 @@ Windows 系统评估工具 (WinSAT) 确定 WEI。在运行 WinSAT 工具时，�
 > [!NOTE]
 > Windows 7 上的 WinSAT 分数最高为 7.9。因此，不带硬件加速编码器的计算机的编码功能仅可在 Windows 8 或 Windows 8.1 上实现，其中最高 WinSAT 分数为 9.9。 
   
-**计算机带 DXVA 且带 Intel 高清显卡硬件加速编码器**
+**带 DXVA 且带 Intel 高清显卡硬件加速编码器的计算机**
 
 |**支持的编码器分辨率**|**支持的解码器分辨率**|**要求**|
 |:-----|:-----|:-----|

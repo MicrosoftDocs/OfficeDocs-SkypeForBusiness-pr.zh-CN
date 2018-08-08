@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 中响应组的部署过程
+title: Skype for Business 中的响应组部署过程
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: 部署过程和步骤中的业务 Server 企业语音的 Skype 的响应组。
-ms.openlocfilehash: e84d8507ca64228a1bf6773110b5122d25286636
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: c6b46aae2a7bcf46bba02780cf04032149ebcba9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981169"
 ---
-# <a name="deployment-process-for-response-group-in-skype-for-business-2015"></a>Skype for Business 2015 中响应组的部署过程
+# <a name="deployment-process-for-response-group-in-skype-for-business"></a>Skype for Business 中的响应组部署过程
  
 部署过程和步骤中的业务 Server 企业语音的 Skype 的响应组。
   
@@ -68,7 +68,7 @@ ms.lasthandoff: 05/03/2018
     
 ### <a name="enabling-users"></a>启用用户
 
-配置响应组的第一步是创建代理组。 您可以创建代理组之前，必须启用的用户将成为业务和企业语音的 Skype 的响应组代理。 为用户启用 for Business 的 Skype 通常是 Enterprise Edition server 或 Standard Edition server 部署中的步骤。 有关为用户启用 for Business 的 Skype 详细信息，请参阅[Enable or Disable Users for Lync Server 2013 Preview](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)。 为用户启用企业语音通常是企业语音部署中的步骤。 有关详细信息，请参阅[启用 Business Server 2015 的 Skype 中的企业语音的用户](enable-users-for-enterprise-voice.md)。 
+配置响应组的第一步是创建代理组。 您可以创建代理组之前，必须启用的用户将成为业务和企业语音的 Skype 的响应组代理。 为用户启用 for Business 的 Skype 通常是 Enterprise Edition server 或 Standard Edition server 部署中的步骤。 有关为用户启用 for Business 的 Skype 详细信息，请参阅[Enable or Disable Users for Lync Server 2013 Preview](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)。 为用户启用企业语音通常是企业语音部署中的步骤。 有关详细信息，请参阅[启用 Skype 业务服务器中的企业语音的用户](enable-users-for-enterprise-voice.md)。 
   
 ### <a name="complying-with-fips-requirements"></a>符合 FIPS 要求
 
@@ -133,9 +133,9 @@ SQL Server 2008 R2 和 SQL Server 2012，使用 Latin_General_100 （区分重�
 
 |**阶段**|**步骤**|**权限**|**部署文档**|
 |:-----|:-----|:-----|:-----|
-|为用户启用 Skype 业务和企业语音  <br/> |使用户成为代理 Skype 业务和企业语音。 必须先启用用户，然后才能将其添加到代理组。 通常情况下，为用户启用 for Business 的 Skype 在 Enterprise Edition 或 Standard Edition server 部署过程。 企业语音部署过程中用户启用企业语音。  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[启用或禁用 Lync Server 2013 preview 的用户](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) <br/> [Skype 中的企业语音的用户启用业务服务器 2015](enable-users-for-enterprise-voice.md) <br/> |
-|创建和配置由代理组、队列和工作流构成的响应组  <br/> |1.使用 Skype 业务 Server Control Panel 或业务 Server Management Shell 的 Skype 执行下列操作：  <br/> a. 创建和配置代理组。  <br/> b. 创建和配置队列。  <br/> 2.（可选） 使用 Skype 的业务 Server 命令行管理程序创建预定义的响应组工作时间和假日。  <br/> 3.使用响应组配置工具或 Skype 的业务 Server 命令行管理程序创建工作流 （智能寻线或互动语音响应 (IVR) 呼叫流），包括自定义响应组工作时间和假日。  <br/> 为业务 Server Control Panel，可以通过 Skype 访问响应组配置工具。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[创建响应组代理组](http://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [创建响应组队列](http://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [（可选）中的业务 2015 Skype 定义响应组工作时间](optional-define-response-group-business-hours.md) <br/> [（可选）定义响应组假日集中的业务 2015 Skype](optional-define-response-group-holiday-sets.md) <br/> [设计和创建响应组工作流中的业务 2015 Skype](designing-and-creating-response-group-workflows.md) <br/> |
-|（可选）自定义应用程序级别设置  <br/> |使用业务 Server Management Shell 的 Skype 自定义的默认保留音乐配置、 默认上保留音乐音频文件、 代理回拨宽限期和呼叫上下文配置。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[管理应用程序级别中的业务 2015 Skype 的响应组设置](managing-application-level-response-group-settings.md) <br/> |
+|为用户启用 Skype 业务和企业语音  <br/> |使用户成为代理 Skype 业务和企业语音。 必须先启用用户，然后才能将其添加到代理组。 通常情况下，为用户启用 for Business 的 Skype 在 Enterprise Edition 或 Standard Edition server 部署过程。 企业语音部署过程中用户启用企业语音。  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[启用或禁用 Lync Server 2013 preview 的用户](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) <br/> [Skype 中的企业语音的用户启用企业服务器](enable-users-for-enterprise-voice.md) <br/> |
+|创建和配置由代理组、队列和工作流构成的响应组  <br/> |1.使用 Skype 业务 Server Control Panel 或业务 Server Management Shell 的 Skype 执行下列操作：  <br/> a. 创建和配置代理组。  <br/> b. 创建和配置队列。  <br/> 2.（可选） 使用 Skype 的业务 Server 命令行管理程序创建预定义的响应组工作时间和假日。  <br/> 3.使用响应组配置工具或 Skype 的业务 Server 命令行管理程序创建工作流 （智能寻线或互动语音响应 (IVR) 呼叫流），包括自定义响应组工作时间和假日。  <br/> 为业务 Server Control Panel，可以通过 Skype 访问响应组配置工具。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[创建响应组代理组](http://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [创建响应组队列](http://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [（可选）Skype for Business 中定义响应组工作时间](optional-define-response-group-business-hours.md) <br/> [（可选）Skype for Business 中定义响应组假日集](optional-define-response-group-holiday-sets.md) <br/> [设计和 Skype for Business 中创建响应组工作流](designing-and-creating-response-group-workflows.md) <br/> |
+|（可选）自定义应用程序级别设置  <br/> |使用业务 Server Management Shell 的 Skype 自定义的默认保留音乐配置、 默认上保留音乐音频文件、 代理回拨宽限期和呼叫上下文配置。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[管理应用程序级 Skype for Business 中的响应组设置](managing-application-level-response-group-settings.md) <br/> |
 |（可选）委派响应组的管理  <br/> |将用户分配 CsResponseGroupManager 角色委派响应组的配置。 响应组管理员可以配置分配给它们的响应组。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[规划基于角色的访问控制](http://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) <br/> |
 |验证响应组部署  <br/> |测试智能寻线和互动语音响应工作流的应答呼叫，以确保您的配置按预期工作。  <br/> |-  <br/> |-  <br/> |
    

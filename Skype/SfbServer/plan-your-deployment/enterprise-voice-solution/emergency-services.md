@@ -1,9 +1,8 @@
 ---
-title: 规划紧急服务中 Skype 业务服务器 2015
+title: 规划业务服务器中 Skype 的紧急服务
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,23 +13,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: 了解业务 Server 企业语音，包括位置获取 Skype 中的增强型 9-1-1 (E9-1-1) 服务和呼叫路由。
-ms.openlocfilehash: 7a4c03da5a7e138e68495c3bacd473f9ea073178
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f32a8dcc818795b47aa955c95084c1bc3d224236
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967309"
 ---
-# <a name="plan-for-emergency-services-in-skype-for-business-server-2015"></a>规划紧急服务中 Skype 业务服务器 2015
+# <a name="plan-for-emergency-services-in-skype-for-business-server"></a>规划业务服务器中 Skype 的紧急服务
  
 了解业务 Server 企业语音，包括位置获取 Skype 中的增强型 9-1-1 (E9-1-1) 服务和呼叫路由。
   
 Skype 业务服务器支持的企业语音部署一部分美国境内的增强型 9-1-1 (E9-1-1) 服务。 E9-1-1 是一项紧急派发功能，对于来自办公楼和其他多租户设施的呼叫，该功能可将 9-1-1 呼叫与紧急响应位置 (ERL) 相关联，紧急响应位置包含市政（即街道）地址和其他更具体的位置信息，例如楼层号。 通过使用提供的 ERL，公共安全应答点 (PSAP) 可以立即向需要帮助的呼叫者派遣第一批响应者，从而降低因疏忽而将响应者指向不正确或模糊不清的位置的风险。
   
 > [!NOTE]
-> Skype 业务服务器现在支持的客户端的多个紧急号码的配置。 有关详细信息，请参阅[规划中的业务服务器 2015 Skype 的多个紧急号码](multiple-emergency-numbers.md)。 
+> Skype 业务服务器现在支持的客户端的多个紧急号码的配置。 有关详细信息，请参阅[规划 Skype 业务服务器中的多个紧急号码](multiple-emergency-numbers.md)。 
   
 > [!NOTE]
-> Skype 业务服务器具有三个高级的企业语音功能： 呼叫允许控制、 紧急服务 (E9-1-1) 和媒体绕过。 适用于所有这三个这些功能的规划信息的概述，请参阅[中的业务服务器 2015 Skype 的高级企业语音功能的网络设置](network-settings-for-advanced-features.md)。 
+> Skype 业务服务器具有三个高级的企业语音功能： 呼叫允许控制、 紧急服务 (E9-1-1) 和媒体绕过。 适用于所有这三个这些功能的规划信息的概述，请参阅[Skype 业务服务器中的高级企业语音功能的网络设置](network-settings-for-advanced-features.md)。 
   
 Skype 业务服务器支持增强型 9-1-1 (E9-1-1) 从 Skype 调用业务客户端和 Lync Phone Edition 设备。 当业务服务器的 Skype 配置 E9-1-1、 紧急呼叫从 for Business 的 Skype 发出或 Lync Phone Edition 包括紧急响应位置 (ERL) 从位置信息服务数据库的信息。 ERL 包含市政（即街道）地址，以及有助于确定在办公楼和其他多租户设施中的更精确位置的其他信息。 当用户发出紧急呼叫时，业务服务器 Skype 路由呼叫音频，以及位置和回叫的信息，通过中介服务器到 E9-1-1 服务提供商。 E9-1-1 服务提供商会使用呼叫者的市政地址，将呼叫路由到为呼叫者所在的位置提供服务的公共安全应答点 (PSAP)，并沿着 PSAP 用来查找呼叫者 ERL 的紧急服务查询键 (ESQK) 进行发送。 
   
@@ -65,7 +65,7 @@ Skype 业务服务器支持两种方法将紧急呼叫路由到 E9-1-1 服务提
     
 本节介绍这些阶段的工作原理。
   
-如果计划将基础结构配置为自动检测客户端位置，则首先需要确定将使用哪些网络元素将呼叫者映射到不同位置。 有关可能的选项的详细信息，请参阅[的定义的网络元素用于确定在业务服务器 2015年的 Skype 的位置](network-location.md)。 
+如果计划将基础结构配置为自动检测客户端位置，则首先需要确定将使用哪些网络元素将呼叫者映射到不同位置。 有关可能的选项的详细信息，请参阅[的定义的网络元素用于确定在 Skype 业务服务器的位置](network-location.md)。 
   
 ## <a name="acquiring-a-location"></a>获取位置
 
@@ -93,7 +93,7 @@ Skype 业务服务器支持两种方法将紧急呼叫路由到 E9-1-1 服务提
   
 下图显示了如何将紧急呼叫从路由 Skype 业务服务器到公共安全应答点 (PSAP) 时使用的 SIP 中继和合格的 E9-1-1 服务提供商。
   
-**通过 SIP 中继的 E9-1-1 呼叫路由**
+**通过 SIP 中继路由 E9-1-1 呼叫**
 
 ![从 Lync Server 路由到 PSAP 的紧急呼叫](../../media/Plan_LyncServer_E911_CallRouting.jpg)
   
@@ -113,9 +113,9 @@ Skype 业务服务器支持两种方法将紧急呼叫路由到 E9-1-1 服务提
     
 ## <a name="routing-e9-1-1-calls-by-using-an-elin-gateway"></a>使用 ELIN 网关路由 E9-1-1 呼叫
 
-统一通信开放互操作性计划中的某些合作伙伴提供了合格的支持紧急位置标识号 (ELIN) 的网关，该网关可充当合格 E9-1-1 服务提供商的 SIP 中继连接的备选项。 ELIN 网关支持 ISDN 或与基于公用电话交换网 (PSTN) 的 E9-1-1 服务的集中式自动通话记帐 (CAMA) 连接。 有关提供 ELIN 网关和为其文档的链接的合作伙伴的详细信息，请参阅[符合 Microsoft Lync 要求的基础结构](https://go.microsoft.com/fwlink/p/?LinkId=248425)和[Skype for Business 的电话基础结构](https://technet.microsoft.com/en-us/office/dn947483)。 
+统一通信开放互操作性计划中的某些合作伙伴提供了合格的支持紧急位置标识号 (ELIN) 的网关，该网关可充当合格 E9-1-1 服务提供商的 SIP 中继连接的备选项。 ELIN 网关支持 ISDN 或与基于公用电话交换网 (PSTN) 的 E9-1-1 服务的集中式自动通话记帐 (CAMA) 连接。 有关提供 ELIN 网关和为其文档的链接的合作伙伴的详细信息，请参阅[符合 Microsoft Lync 要求的基础结构](https://go.microsoft.com/fwlink/p/?LinkId=248425)和[Skype for Business 的电话基础结构](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。  
   
-与 E9-1-1 服务提供商的 SIP 中继连接相似，ELIN 网关还提供了将紧急呼叫路由到呼叫者的最合适的公共安全应答点 (PSAP) 的方法，但这些网关将 ELIN 用作位置标识符。 每个紧急响应位置 (ERL) 在组织中定义 Elin （有关详细信息，请参阅[中的业务服务器 2015 Skype ELIN 网关的管理位置](elin-gateways.md)）。 
+与 E9-1-1 服务提供商的 SIP 中继连接相似，ELIN 网关还提供了将紧急呼叫路由到呼叫者的最合适的公共安全应答点 (PSAP) 的方法，但这些网关将 ELIN 用作位置标识符。 每个紧急响应位置 (ERL) 在组织中定义 Elin （有关详细信息，请参阅[管理对于 ELIN 网关 Skype 业务服务器中的位置](elin-gateways.md)）。 
   
 在使用 ELIN 网关用于紧急呼叫时，您应使用的 SIP 中继连接的业务服务器 E9-1-1 基础结构使用相同的 Skype。 即，位置信息服务数据库到 Skype 业务客户端提供位置和位置策略启用的功能定义的路由。 使用 ELIN 网关，但是，您需要将 Elin 添加到位置信息服务数据库并具有 PSTN 运营商将其上载到的自动位置识别 (ALI) 数据库。
   
@@ -128,7 +128,7 @@ ELIN 网关仅支持来自您组织的网络中的紧急呼叫。它们不支持
   
 下图显示了如何将紧急呼叫时从路由 Skype 业务服务器至 PSAP 使用 ELIN 网关。
   
-**使用 ELIN 网关的路由 E9-1-1 呼叫**
+**使用 ELIN 网关路由 E9-1-1 呼叫**
 
 ![显示紧急服务呼叫如何经由中介服务器，随后传输到紧急服务提供商。在此之后，可以选择通过 IM 发送给现场安全部门和/或回拨原始呼叫方。](../../media/Plan_LyncServer_E911_ELINCallRouting.jpg)
   

@@ -6,18 +6,20 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara
+ms.reviewer: ''
 description: 了解 Microsoft Teams、其基础结构以及如何配合使用 Teams 与 Office 365。
+localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cbbd2cad0b84ccdcc887d5bcdf272c1556c9c546
-ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+ms.openlocfilehash: 86698a3bb7535a20b7fb1b6833062d118f2f9eae
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967126"
 ---
 <a name="overview-of-microsoft-teams"></a>Microsoft Teams 概述
 ===========================
@@ -29,7 +31,7 @@ Microsoft Teams 结合了 Office 365 的完整宽度和深度，为团队合作�
 
 Teams 属于开箱可用，它利用了 Azure Active Directory (Azure AD) 中存储的标识，并与 Office 365 中的其他服务集成在一起，可为创建的每个团队创建 SharePoint Online 网站和 Exchange Online 组邮箱。
 
-具有业务或使用者的电子邮件帐户，如 Outlook、 Gmail，或其他人，任何人都可以参与以访客身份在团队中。 相同的法规遵从性和审核保护 Office 365 的其余部分被覆盖在团队中的所有客人，客人可以在 Azure 广告内安全地管理。 管理员可以集中管理客人在其 Office 365 提供环境中的参与方式和方便地查看、 添加或撤销对主机租户的来宾访问权限。
+具有业务或使用者的电子邮件帐户，如 Outlook、 Gmail，或其他任何人都可以作为来宾团队中参与。 团队中的所有来宾都涵盖的相同的遵从性和 Office 365 的其余部分的审核保护并来宾可以安全地管理 Azure AD 中。 管理员可以集中管理来宾其 Office 365 环境中的参与如何和轻松地查看、 添加或取消对主机租户来宾访问权限。
 
 Teams 提供持久聊天功能、通话和会议、快速访问 Office 365 其他组件的功能以及强大的扩展功能。  它提供了一个适用于大型公司、小型组织及其所有成员的团队合作中心。  
 
@@ -42,14 +44,12 @@ Teams 建立在由 Office 365 组联系在一起的现有 Microsoft 技术之上
 
 Teams 中创建的团队立即可用，创建团队时会创建 Office 365 组、SharePoint Online 网站（附带文档库）、Exchange Online 组邮箱（将由 Teams 用于存储会议邀请等信息）。 可以使用现有 Office 365 组创建团队，从而允许现有组成员身份以及 SharePoint Online 和 Exchange Online 中存储的内容转到 Teams。
 
-为了补充作为持久聊天板的 Teams 功能（在此进行非正式的实时对话），Teams 还提供了建立在下一代基于云的基础结构（Skype 和 Skype for Business 也使用该基础结构）之上的会议体验。 这些技术投资包括用于媒体处理和信号发送的基于 Azure 的云服务、H.264 视频编解码器、SILK 和 Opus 音频编解码器、网络复原、遥测和质量诊断。
+若要为多个持久聊天主板其中非正式、 实时对话进行，也团队补充团队功能提供呼叫和会议体验的下一个生成基于云的基础结构还使用 Skype 和 Skype 的构建业务。 这些技术投资包括用于媒体处理和信号发送的基于 Azure 的云服务、H.264 视频编解码器、SILK 和 Opus 音频编解码器、网络复原、遥测和质量诊断。
 
 Office 365 组利用 Azure Active Directory (Azure AD) 中存储的标识，因此，Teams 可以很容易地使用 Azure AD 中的所有身份验证和授权功能（例如，支持多重身份验证 (MFA)）。
 
-Teams 还提供通话和会议体验，这些体验建立在下一代基于云的基础结构之上，而 Skype 和 Skype for Business 也使用该基础结构。 这些技术投资包括用于媒体处理和信号发送的基于 Azure 的云服务、H.264 视频编解码器、SILK 和 Opus 音频编解码器、网络复原、遥测和质量诊断。
-
 > [!NOTE]
-> 根据客户的反馈，导致在 Microsoft 小组创建团队生成的新 Office 365 组将不再显示在 Outlook 中，默认情况。 对于想要继续使用现有的 Outlook 中显示这些组行为的客户，将可以使 Outlook 体验组提供 Exchange 联机 PowerShell cmdlet。 通过 Outlook 创建和稍后启用团队组将继续显示在 Outlook 和团队。 此更新将逐渐滚动出跨 Outlook 和团队在几个月。
+> 根据客户反馈，由于 Microsoft 团队在创建团队生成的新 Office 365 组将不再显示在 Outlook 中默认情况下。 对于要继续在 Outlook 中显示这些组的现有行为的客户，将其可以启用 Outlook 体验的组提供 Exchange Online PowerShell cmdlet。 组创建通过 Outlook 和更高版本启用团队将继续要显示在 Outlook 和团队。 此更新将逐步执行跨 Outlook 和团队滚月。
 
 
 <a name="microsoft-teams-and-office-365"></a>Microsoft Teams 和 Office 365
@@ -75,7 +75,7 @@ Teams 还提供通话和会议体验，这些体验建立在下一代基于云�
 
 -   对希望快速对项目进行重复操作同时共享文件并对共享交付物进行协作的团队提供帮助。
 
--   允许用户连接到其工作区 （如计划、 电源 BI，GitHub 等） 的各种工具。
+-   允许用户连接到其工作区 （如规划器、 Power BI、 GitHub 等） 的各种工具。
 
 ![Microsoft Outlook 图标。](media/Overview_of_Microsoft_Teams_image2.png)
 
@@ -122,6 +122,6 @@ Teams 还提供通话和会议体验，这些体验建立在下一代基于云�
 
 虽然我们首次发布 Teams 时 Teams 管理员 FAQ 使用起来很方便，但它很快变成了“杂物抽屉”，使得很难找到特定内容。 因此，我们将 FAQ 拆分开，并将其有用信息合并到你现在看到的 Teams 文档中。 你将在此文档的上下文中找到以前属于 FAQ 中的所有信息。
 
-如果您正在寻找在此处找不到的东西，请告诉我们有关它下面的**反馈**部分中。 我们尝试在 24 小时内答复您的反馈意见。
+如果您正在寻找您无法找到下面的内容，请告诉我们在下面的**反馈**部分。 我们尝试在 24 小时内响应您的反馈。
 
 顺便提一下，我们仍**提供**了针对[从 Skype for Business 到 Microsoft Teams 的旅程](FAQ-journey.md)的 FAQ。 

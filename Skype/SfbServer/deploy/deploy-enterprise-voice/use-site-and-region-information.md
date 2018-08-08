@@ -1,9 +1,8 @@
 ---
-title: 配置媒体绕过全局设置中的业务服务器 2015 以使用站点和区域信息的 Skype
+title: 在 Business Server 以使用站点和区域信息的 Skype 中配置媒体绕过全局设置
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: 配置媒体绕过以用于某些网站和区域中 Skype 业务 Server 企业语音。
-ms.openlocfilehash: df9e36fff04e86b5df743710d35762e458b1c44e
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 081be80d969c2503abc7e2de4e9865b6057a363b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500795"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995977"
 ---
-# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-2015-to-use-site-and-region-information"></a>配置媒体绕过全局设置中的业务服务器 2015 以使用站点和区域信息的 Skype
+# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>在 Business Server 以使用站点和区域信息的 Skype 中配置媒体绕过全局设置
  
 配置媒体绕过以用于某些网站和区域中 Skype 业务 Server 企业语音。 
   
@@ -53,8 +52,9 @@ ms.locfileid: "19500795"
     
 接着，将子网添加到网络站点中，如[Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets)中所述。将所有子网与网络站点相关联后，媒体旁路即部署完成。
 > [!IMPORTANT]
-> 如果尚未创建网络区域和网络站点，则必须先创建这些区域和站点，才能部署媒体旁路。 有关详细信息，请参阅[Deploy 网络区域、 网站和业务 2015年的 Skype 中的子网](deploy-network.md)。 
+> 如果尚未创建网络区域和网络站点，则必须先创建这些区域和站点，才能部署媒体旁路。 有关详细信息，请参阅[Deploy 网络区域、 站点和 Skype for Business 中的子网](deploy-network.md)。 
   
 ## <a name="see-also"></a>另请参阅
 
 [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets)
+

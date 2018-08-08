@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中删除现有 SIP 中继配置设置的集合
+title: 删除现有的 SIP 中继配置设置中 Skype 业务服务器集合
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,15 +13,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 摘要： 了解如何使用适用于业务 Server Control Panel Skype 删除中继配置设置的集合。
-ms.openlocfilehash: 64831efe35880b3e211543c80d9ba00939128354
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 94f6e24c645a85bf2ed9ba5ded2f8eb4f207209f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968829"
 ---
-# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中删除现有 SIP 中继配置设置的集合
+# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>删除现有的 SIP 中继配置设置中 Skype 业务服务器集合
  
-**摘要：**了解如何使用适用于业务 Server Control Panel Skype 删除中继配置设置的集合。
+**摘要：** 了解如何使用适用于业务 Server Control Panel Skype 删除中继配置设置的集合。
   
 SIP 中继配置设置可定义中介服务器与服务提供商的公用电话交换网 (PSTN) 网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。这些设置可执行如下所指定内容的操作：
   

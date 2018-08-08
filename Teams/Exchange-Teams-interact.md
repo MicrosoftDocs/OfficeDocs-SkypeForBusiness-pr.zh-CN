@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: crowe
 description: 了解 Microsoft Teams 与各种 Exchange 设置之间存在哪些功能，例如，创建和加入团队、创建频道等。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65bbcc3155147141b99f63be686a92b85f87c119
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: a89f3670d2dda14ae5d15647213aca5d1d5398af
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569912"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互 
 =========================================
@@ -30,12 +32,12 @@ ms.lasthandoff: 04/26/2018
 
 **支持的操作：** 
 
-| 用户的邮箱托管在： | eDisovery| 法定保留 | 保留| 团队和渠道管理 |创建和查看会议| 修改用户个人资料图片 | 通话记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件 |添加和配置连接器|添加和配置选项卡|添加和配置聊天机器人| 
+| 用户的邮箱托管在： | eDisovery| 法定保留 | 保留| 团队和频道的管理 |创建和查看会议| 修改用户个人资料图片 | 呼叫历史记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件 |添加和配置连接器|添加和配置选项卡|添加和配置聊天机器人| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|是|是|是|是|是|是|是|是|是|是|是|是|是|
 |**Exchange Online Dedicated vNext**|是|是|是|是|是|是|是|是|是|是|是|是|是|
-|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是 （允许列表）|否|否|是|否|否|是|是|否|是 （Exchange 2013 +）|否|是|是|
-|**本地 Exchange**（同步到所需 Azure AD）|是 （允许列表）|否|否|是|是 （交换 2016 CU3 +）|否|是|是|否|是 （Exchange 2013 +）|否|是|是|
+|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是 （[允许列表](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)）|否|否|是|否|否|是|是|否|是 （Exchange 2013 +）|否|是|是|
+|**本地 Exchange**（同步到所需 Azure AD）|是 （[允许列表](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)）|否|否|是|是 （Exchange 2016 CU3 +）|否|是|是|否|是 （Exchange 2013 +）|否|是|是|
                                                             
 *\*支持 Exchange 2016 CU3 及更高版本*
 
@@ -57,7 +59,7 @@ ms.lasthandoff: 04/26/2018
 > 当前，如果贵组织具有合规性要求以确保所有会议讨论均可发现，当组织者有本地 Exchange 邮箱时，你应禁用私人会议。
 
 > [!IMPORTANT]
-  参与对话的聊天列表中 Microsoft 小组的一部分的用户必须具有管理员搜索聊天 Exchange Online （云） 邮箱。 这是因为属于聊天列表的对话存储在聊天参与者的基于云的邮箱中。 如果聊天参与者没有 Exchange Online 邮箱，管理员将无法搜索聊天对话，也无法将聊天对话中的内容置于保留状态。 例如，在 Exchange 混合部署中，具有本地邮箱的用户也许能参与属于 Microsoft Teams 中聊天列表的对话。 但是，在这种情况下，由于用户没有基于云的邮箱，这些对话中的内容不可搜索，也不可置于保留状态。 有关内容搜索和 Microsoft Teams 的更多详细信息，请参阅[在 Office 365 安全与合规中心中运行内容搜索](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)。
+  参与对话的一部分的 Microsoft 团队中的聊天列表中的用户必须拥有管理员可以搜索聊天 Exchange Online （基于云的） 邮箱。 这是因为属于聊天列表的对话存储在聊天参与者的基于云的邮箱中。 如果聊天参与者没有 Exchange Online 邮箱，管理员将无法搜索聊天对话，也无法将聊天对话中的内容置于保留状态。 例如，在 Exchange 混合部署中，具有本地邮箱的用户也许能参与属于 Microsoft Teams 中聊天列表的对话。 但是，在这种情况下，由于用户没有基于云的邮箱，这些对话中的内容不可搜索，也不可置于保留状态。 有关内容搜索和 Microsoft Teams 的更多详细信息，请参阅[在 Office 365 安全与合规中心中运行内容搜索](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)。
 
 > [!TIP]
-  有关如何使用 Azure AD 连接使用 Azure 活动目录同步的信息，请参阅[*集成内部标识使用 Azure 活动目录*](https://go.microsoft.com/fwlink/?linkid=854600)。
+  有关如何使用 Azure AD 连接将与 Azure Active Directory 同步的信息，请参阅[*将您的本地标识与 Azure Active Directory 集成*](https://go.microsoft.com/fwlink/?linkid=854600)。

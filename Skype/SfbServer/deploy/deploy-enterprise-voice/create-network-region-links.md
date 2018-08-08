@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中创建网络区域链接
+title: 为 Business Server Skype 创建网络区域链接
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,20 +13,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: 创建或修改网络区域链接，使用 Skype 中的企业语音呼叫允许控制业务服务器。
-ms.openlocfilehash: d1f8814c60a99ecd76fe87993549e8dba733e52c
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: f184e18da816bae693fd209a97704681240538e7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500673"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965427"
 ---
-# <a name="create-network-region-links-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建网络区域链接
+# <a name="create-network-region-links-in-skype-for-business-server"></a>为 Business Server Skype 创建网络区域链接
  
 创建或修改网络区域链接，使用 Skype 中的企业语音呼叫允许控制业务服务器。 
   
-网络内的区域通过物理 WAN 连接进行链接。 网络区域链接创建两个区域配置为呼叫允许控制 (CAC) 之间的链接，并对这些区域之间的音频和视频通信设置带宽限制。
+网络内的区域通过物理 WAN 连接进行链接。网络区域链接在为呼叫允许控制 (CAC) 配置的两个区域之间创建链接，并为这两个区域之间的音频和视频流量设置带宽限制。
   
-示例拓扑具有一条 North America 和 APAC 区域之间的链接，以及一条 EMEA 和 APAC 区域之间的链接。 每个区域链接受 WAN 带宽区域链路带宽信息表中所述[示例： 收集业务服务器 2015 Skype 中的呼叫允许控制的要求](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。
+示例拓扑具有一条 North America 和 APAC 区域之间的链接，以及一条 EMEA 和 APAC 区域之间的链接。 每个区域链接受 WAN 带宽区域链路带宽信息表中所述[示例： 收集呼叫允许控制 Skype 中的业务服务器的要求](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。
   
 ### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>若要使用 Skype 业务 Server 命令行管理程序创建网络区域链接
 

@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中导出或导入语音路由配置文件
+title: 导出或导入语音路由配置中的文件 Skype for Business
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
-description: 摘要： 了解如何导出或为业务服务器 2015年导入语音路由配置文件中 Skype，使用 Skype 业务 Server Control Panel。
-ms.openlocfilehash: ba16e68ec3218a06d1baf21c238b14e3f566f630
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 了解如何导出或为业务服务器导入语音路由配置文件中 Skype，使用 Skype 业务 Server Control Panel。
+ms.openlocfilehash: 462bcf471e4a43bfedf32b0d062731ea7cbd06f9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965406"
 ---
-# <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business-2015"></a>在 Skype for Business 2015 中导出或导入语音路由配置文件
+# <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>导出或导入语音路由配置中的文件 Skype for Business
  
-**摘要：**了解如何导出或为业务服务器 2015年导入语音路由配置文件中 Skype，使用 Skype 业务 Server Control Panel。
+**摘要：** 了解如何导出或为业务服务器导入语音路由配置文件中 Skype，使用 Skype 业务 Server Control Panel。
   
 如果要在未发布语音路由配置的情况下保存该配置，请按照以下步骤保存和检索语音路由配置的快照。 
   
@@ -57,6 +57,6 @@ ms.lasthandoff: 05/03/2018
 6. 单击“提交”****，然后单击“全部提交”****。
     
     > [!NOTE]
-    > 任何时候导入语音配置文件，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[挂起更改语音路由配置中的业务 2015 Skype 的发布](voice-route-config-changes.md)。
+    > 任何时候导入语音配置文件，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[Publish 挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)。
   
 

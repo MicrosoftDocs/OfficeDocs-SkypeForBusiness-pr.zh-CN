@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中查看 PSTN 用法记录
+title: 查看 PSTN 用法记录中的业务的 Skype
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: 摘要： 了解如何使用 Skype 业务 Server Control Panel 或 Skype for Business Server 命令行管理程序查看 PSTN 用法记录。
-ms.openlocfilehash: 3d7682be31bdd8afc3a4700943789f555d3a3944
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: c5775f619c1da1e94ff6aad0b4794e686611ab92
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568219"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967141"
 ---
-# <a name="view-pstn-usage-records-in-skype-for-business-2015"></a>在 Skype for Business 2015 中查看 PSTN 用法记录
+# <a name="view-pstn-usage-records-in-skype-for-business"></a>查看 PSTN 用法记录中的业务的 Skype
  
 **摘要：** 了解如何使用 Skype 业务 Server Control Panel 或 Skype for Business Server 命令行管理程序查看 PSTN 用法记录。
   
@@ -55,4 +54,5 @@ ms.locfileid: "19568219"
 
 ## <a name="see-also"></a>另请参阅
 
-[创建或修改语音策略和配置 PSTN 用法记录中的业务 2015 Skype](voice-policy-and-pstn-usage-records.md)
+[创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype](voice-policy-and-pstn-usage-records.md)
+

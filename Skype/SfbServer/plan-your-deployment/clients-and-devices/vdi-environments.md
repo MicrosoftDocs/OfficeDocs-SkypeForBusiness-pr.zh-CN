@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: 本主题讨论使用 Skype for Business 连接到远程虚拟桌面时的规划注意事项。
-ms.openlocfilehash: 2b682b010211f46ebd405131ed47bebc1b0d1e29
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 40591ed1e0560d23bb48979bdaa6b18d2c68c9ef
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972525"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>在 VDI 环境中规划 Skype for Business
  
@@ -34,7 +35,7 @@ ms.lasthandoff: 05/03/2018
 - 业务，开发 VMWare，与协作的 Skype **VMWare 范围虚拟化包**允许您在虚拟桌面提供 for Business 的 Skype，同时提供了出色的用户体验。 利用在客户端优化的解决方案，创建与客户端终结点提供媒体的媒体引擎的解决方案的工作原理卸载音频和视频呼叫的功能。 此解决方案可提供音频和视频，或者直接之间的一对一协作终结点或卸载它到中央多点控制单元 (MCU) 的多方会议呼叫或会议。
     
 > [!NOTE]
-> Skype 业务基本 2015年或 2016年客户端不支持与 Citrix HDX 实时 Optimization Pack 或 VMWare 范围虚拟化包。 
+> 业务基本客户端的 Skype 不支持与 Citrix HDX 实时 Optimization Pack 或 VMWare 范围虚拟化包。 
   
 ## <a name="citrix-hdx-realtime-optimization-pack"></a>Citrix HDX RealTime Optimization Pack
 <a name="Citrix_RT"> </a>
@@ -87,7 +88,7 @@ Microsoft Lync VDI 插件仅支持某些 Windows 操作系统和业务 2015年�
     
 - [Lync VDI 插件先决条件](vdi-environments.md#VDI_prereq)
     
-- [部署 Lync VDI 插件与 Skype 业务服务器 2015](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
+- [部署 Lync VDI 插件与 Skype 业务服务器](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
     
 - Citrix 知识中心文章[CTX138408](https://support.citrix.com/article/CTX138408)
     
@@ -116,13 +117,13 @@ Lync VDI 插件旨在使用独立于平台的 Api 调用动态虚拟通道 (DVCs
 在 VDI 环境中，虚拟机和用户的本地计算机必须满足本节中所述的要求。
   
 > [!NOTE]
->  虚拟化解决方案提供商会提供有关如何安装和部署其环境的详细信息。 有关部署基于 HYPER-V 和远程桌面服务的虚拟化的环境的常规信息，请参阅 Microsoft TechNet 库中的以下文章： [HYPER-V](https://go.microsoft.com/fwlink/p/?linkid=247514)、 [Windows Server 2008 R2 中的远程桌面服务](https://go.microsoft.com/fwlink/p/?linkid=247513) 
+>  虚拟化解决方案提供商会提供有关如何安装和部署其环境的详细信息。 有关部署基于 HYPER-V 和远程桌面服务的虚拟化的环境的常规信息，请参阅 Microsoft 库中的以下文章： [HYPER-V](https://go.microsoft.com/fwlink/p/?linkid=247514)、 [Windows Server 2008 R2 中的远程桌面服务](https://go.microsoft.com/fwlink/p/?linkid=247513) 
   
 带有最新的 service pack，虚拟机必须配置与 Windows 8、 Windows 7 或 Windows Server 2008 R2。
   
 用户的本地计算机必须满足以下要求：
   
-- 用户必须驻留在 Skype，业务服务器 2015年或 Lync Server 2013。
+- 用户必须驻留在 Skype，业务服务器或 Lync Server 2013。
     
 - 本地计算机必须运行 Windows Embedded Standard 7 SP1、 Windows 7 SP1 或 Windows 8。
     
@@ -165,5 +166,5 @@ Office 365 环境中不支持 Lync VDI 插件。
 ## <a name="see-also"></a>另请参阅
 <a name="Citrix_RT"> </a>
 
-[部署 Lync VDI 插件与 Skype 业务服务器 2015](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
+[部署 Lync VDI 插件与 Skype 业务服务器](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
 

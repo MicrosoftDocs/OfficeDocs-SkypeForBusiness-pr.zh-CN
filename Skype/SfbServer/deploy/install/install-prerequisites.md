@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 的安装先决条件
+title: 安装 Business Server Skype 的先决条件
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
-description: 摘要： 了解有关的服务器和服务器角色的业务服务器 2015年安装 Skype 之前必须配置。 下载免费试用版 Skype 业务服务器 2015 从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: f37954b4eddffbcef08c270dc86234e3a56e7079
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+description: 摘要： 了解有关的服务器和业务服务器安装 Skype 之前必须配置的服务器角色。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
+ms.openlocfilehash: ffd286262686d1faf55591f88df75b0e0323acc2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972918"
 ---
-# <a name="install-prerequisites-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的安装先决条件
+# <a name="install-prerequisites-for-skype-for-business-server"></a>安装 Business Server Skype 的先决条件
  
-**摘要：**了解有关服务器和服务器角色，则必须配置为业务服务器 2015年安装 Skype。 下载[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)中的业务服务器 2015 Skype 的免费试用版。
+**摘要：** 了解有关服务器和业务服务器安装 Skype 之前必须配置的服务器角色。 从[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)业务服务器下载 Skype 的免费试用版。
   
 安装必备软件包括通过在拓扑中的每台服务器上安装所需的角色和功能来设置 Windows Server。 这些要求基于服务器将在拓扑中承担的角色。 第 1 步至第 5 步可以按任意顺序执行。 但是，第 6、7、8 步必须在第 1 步至第 5 步之后按图表所示顺序执行。 安装必备软件是 8 个步骤中的第 1 步。
   
@@ -30,7 +31,7 @@ ms.lasthandoff: 05/08/2018
   
 ## <a name="setup-windows-server"></a>设置 Windows Server
 
-业务服务器 2015年的 Skype 需要 Windows Server 操作系统和大量的必备组件，才能安装。 有关规划必备组件的详细信息，请参阅[业务服务器 2015年的 Skype 服务器要求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。 
+Skype 业务服务器需要 Windows Server 操作系统和必备组件数，才能安装。 有关规划必备组件的详细信息，请参阅[Business Server 的 Skype 服务器要求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。 
   
 > [!TIP]
 > 此过程使用 Windows Server 2012 R2。如果您要使用其他版本的 Windows Server，该过程可能略有不同。 
@@ -48,7 +49,7 @@ ms.lasthandoff: 05/08/2018
 
 您可以安装必需的角色和功能使用服务器管理器。 
     
-1. 安装[服务器 requirements for Business Server 2015 的 Skype](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)中列出的必备软件功能。 在将运行业务服务器 2015 Skype 的服务器上必须是所需的软件。
+1. 安装[服务器 requirements for Business Server 的 Skype](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)中列出的必备软件功能。 将业务服务器运行 Skype 的服务器上必须是所需的软件。
     
     > [!CAUTION]
     > Windows Server 2012 R2 不会默认安装必要功能的所有源文件。 如果服务器未连接 Internet，您需要插入 Windows Server 2012 R2 媒体并选择“**指定备用源路径**”以安装必要功能。 源文件位于 sources\sxs 目录中。 例如，如果 Windows Server 2012 R2 媒体在驱动器 D 中，则您将路径设为 `d:\sources\sxs`。 请务必通过 Windows Update 获取最新更新。 如果您没有连接到 Internet，您需要手动安装所有相关更新以及更新所需的必备软件。 
@@ -61,6 +62,6 @@ ms.lasthandoff: 05/08/2018
 
 
 > [!IMPORTANT]
-> 执行前端服务器以外的角色（例如控制器、持久聊天或边缘角色）的服务器具备自己的先决条件。 有关每种服务器类型所需的确切先决条件的详细信息，请参阅[业务服务器 2015年的 Skype 服务器要求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。 
+> 执行前端服务器以外的角色（例如控制器、持久聊天或边缘角色）的服务器具备自己的先决条件。 有关每种服务器类型所需的确切先决条件的详细信息，请参阅[Business Server 的 Skype 服务器要求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。 
   
 

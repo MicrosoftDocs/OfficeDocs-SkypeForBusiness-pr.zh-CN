@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中规划企业语音
+title: 规划业务服务器的 Skype 中的企业语音
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: 企业语音规划业务服务器中 Skype 的基础知识，包括网站、 区域、 网络站点间的链接和估计语音用法流量。
-ms.openlocfilehash: f1bd8f2f8514f34390cd085bd1407894e9788620
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 413887b29a45ccdf022a4fb4c847cb0b504bb4b1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977939"
 ---
-# <a name="plan-for-enterprise-voice-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中规划企业语音
+# <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>规划业务服务器的 Skype 中的企业语音
  
 企业语音规划业务服务器中 Skype 的基础知识，包括网站、 区域、 网络站点间的链接和估计语音用法流量。
   
@@ -54,24 +54,24 @@ Microsoft Lync Server 2013、 规划工具使用以下任一指标来估计每�
 
 规划企业语音部署，请参阅以下各节的详细信息。
   
-- [所需的业务服务器 2015 Skype 中的企业语音组件](components-required-for-enterprise-voice.md)
+- [所需的 Skype 中的企业语音的企业服务器组件](components-required-for-enterprise-voice.md)
     
-- [规划业务服务器 2015 Skype 中的 PSTN 连接](pstn-connectivity-0.md)
+- [规划业务服务器中 Skype 的 PSTN 连接](pstn-connectivity-0.md)
     
-- [Skype 中的高级企业语音功能的业务服务器 2015年网络设置](network-settings-for-advanced-features.md)
+- [Skype 中的高级企业语音功能 Business server 网络设置](network-settings-for-advanced-features.md)
     
-- [规划呼叫允许控制 Skype 中的业务服务器 2015](call-admission-control.md)
+- [规划呼叫允许控制 Skype 中的业务服务器](call-admission-control.md)
     
-- [规划紧急服务中 Skype 业务服务器 2015](emergency-services.md)
+- [规划业务服务器中 Skype 的紧急服务](emergency-services.md)
     
-- [规划媒体绕过中的业务 2015 Skype](media-bypass.md)
+- [规划媒体绕过 Skype for Business 中](media-bypass.md)
     
-- [规划与业务 2015年的 Skype 的专用电话线路](private-telephone-lines.md)
+- [规划与业务的 Skype 的专用电话线路](private-telephone-lines.md)
     
-- [规划基于位置的路由中的业务 2015 Skype](location-based-routing.md)
+- [Plan for Business 中 Skype 基于位置的路由](location-based-routing.md)
     
-- [规划业务 2015年的 Skype 中呼叫管理功能](call-management-features.md)
+- [Plan for Business 的 Skype 中呼叫管理功能](call-management-features.md)
     
-- [规划业务服务器 2015 Skype 中的企业语音恢复能力](enterprise-voice-resiliency.md)
+- [规划业务服务器 Skype 中的企业语音恢复能力](enterprise-voice-resiliency.md)
     
 

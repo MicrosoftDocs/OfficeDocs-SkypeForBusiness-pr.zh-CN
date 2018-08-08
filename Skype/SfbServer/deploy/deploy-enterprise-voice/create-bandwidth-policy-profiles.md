@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中创建带宽策略配置文件
+title: 创建带宽策略配置文件中 Skype 业务服务器
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,20 +13,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: 创建或修改带宽策略，使用 Skype 中的企业语音呼叫允许控制业务服务器。
-ms.openlocfilehash: 51516e07a75cc4239d89310c9d33194a225b3a02
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: ddc74ad5327651225bb6f0e78f83d8248c290806
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500588"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986441"
 ---
-# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建带宽策略配置文件
+# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>创建带宽策略配置文件中 Skype 业务服务器 
  
 创建或修改带宽策略，使用 Skype 中的企业语音呼叫允许控制业务服务器。 
   
-带宽策略定义为实时音频和视频形式的带宽使用率限制。 带宽策略是应用的 tobandwidth 策略配置文件，它们可以应用于的呼叫允许控制的多个网络站点。
+“带宽策略”定义对实时音频和视频内容的带宽使用量的限制。 带宽策略是应用的 tobandwidth 策略配置文件，它们可以应用于的呼叫允许控制的多个网络站点。
   
-有关哪些带宽限制的准则应 CAC 部署中设置，请参阅[规划中的业务服务器 2015 Skype 的呼叫允许控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
+有关哪些带宽限制的准则应 CAC 部署中设置，请参阅[Plan for Business Server 的 Skype 中的呼叫允许控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
   
 以下过程中创建的示例策略会为音频总流量、各个音频会话、视频总流量和各个视频会话设置限制。例如，5Mb_Link 带宽策略配置文件将设置以下限制： 
   

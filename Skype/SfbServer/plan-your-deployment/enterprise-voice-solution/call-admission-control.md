@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business 2015 中规划呼叫允许控制
+title: 规划呼叫允许控制 Skype 中的业务服务器
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,13 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: 了解有关呼叫允许控制，可以防止他们中的业务 Server 企业语音的 Skype 必须较差的媒体质量，如果正在进行的呼叫。
-ms.openlocfilehash: 11a73cb6065802b700694d6c3ffd589d935659db
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d9af6094ae851d59775d9ce4b012ee06028901e6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988407"
 ---
-# <a name="plan-for-call-admission-control-in-skype-for-business-server-2015"></a>在 Skype for Business 2015 中规划呼叫允许控制
+# <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>规划呼叫允许控制 Skype 中的业务服务器
  
 了解有关呼叫允许控制，可以防止他们中的业务 Server 企业语音的 Skype 必须较差的媒体质量，如果正在进行的呼叫。
   
@@ -33,7 +34,7 @@ ms.lasthandoff: 05/03/2018
 本节介绍了呼叫允许控制功能，并解释了如何规划 CAC。
   
 > [!NOTE]
-> Skype 业务服务器具有三个高级的企业语音功能： 呼叫允许控制 (CAC)、 紧急服务 (E9-1-1) 和媒体绕过。 适用于所有这三个这些功能的规划信息的概述，请参阅[中的业务服务器 2015 Skype 的高级企业语音功能的网络设置](network-settings-for-advanced-features.md)。 
+> Skype 业务服务器具有三个高级的企业语音功能： 呼叫允许控制 (CAC)、 紧急服务 (E9-1-1) 和媒体绕过。 适用于所有这三个这些功能的规划信息的概述，请参阅[Skype 业务服务器中的高级企业语音功能的网络设置](network-settings-for-advanced-features.md)。 
   
 Skype 业务服务器中的 CAC 设计提供了四个主属性：
   
@@ -82,17 +83,17 @@ CAC 仅控制实时语音和视频流量，不控制数据流量。
   
 ### <a name="call-admission-control-of-outside-users"></a>外部用户的呼叫允许控制
 
-呼叫允许控制业务服务器 2015年组织 Skype 的限制以外的不强制执行。 CAC 不能应用于遍历 Internet，这将为业务服务器 2015年不由 Skype 的媒体流量。 将流经企业网络的呼叫的终结点所属的组织，如果呼叫的部分执行 CAC 检查和边缘服务器添加到网络配置，如[呼叫允许控制所述部署： 最终清单业务服务器 2015年的 Skype](../../deploy/deploy-enterprise-voice/final-checklist.md)。 如果呼叫的端点不属于该组织，例如联盟用户或 PIC 用户，则不会执行任何带宽策略检查，并且传出呼叫将忽略任何 CAC 限制。
+呼叫允许控制业务服务器组织 Skype 的限制以外的不强制执行。 CAC 不能应用于遍历 Internet，这将业务服务器不由 Skype 的媒体流量。 将流经企业网络的呼叫的终结点所属的组织，如果呼叫的部分执行 CAC 检查和边缘服务器添加到网络配置，如[呼叫允许控制所述部署： 最终清单业务服务器 Skype](../../deploy/deploy-enterprise-voice/final-checklist.md)。 如果呼叫的端点不属于该组织，例如联盟用户或 PIC 用户，则不会执行任何带宽策略检查，并且传出呼叫将忽略任何 CAC 限制。
   
 ### <a name="call-admission-control-of-pstn-connections"></a>PSTN 连接的呼叫允许控制
 
-无论是否连接到的 IP/PBX、 PSTN 网关或 SIP 中继的中介服务器上强制实施呼叫允许控制。 由于中介服务器背对背用户代理 (B2BUA)，它会终止媒体。 它具有两个连接侧面： 业务服务器和网关一侧，并连接到 PSTN 网关、 IP Pbx 或 SIP 中继连接到 Skype 一侧。 有关 PSTN 连接的详细信息，请参阅[规划中的业务服务器 2015 Skype 的 PSTN 连接](pstn-connectivity-0.md)。
+无论是否连接到的 IP/PBX、 PSTN 网关或 SIP 中继的中介服务器上强制实施呼叫允许控制。 由于中介服务器背对背用户代理 (B2BUA)，它会终止媒体。 它具有两个连接侧面： 业务服务器和网关一侧，并连接到 PSTN 网关、 IP Pbx 或 SIP 中继连接到 Skype 一侧。 有关 PSTN 连接的详细信息，请参阅[Plan for Business Server 的 Skype 中的 PSTN 连接](pstn-connectivity-0.md)。
   
-除非启用媒体绕过，则可以两侧中介服务器上强制实施 CAC。 如果启用媒体绕过，则媒体流量不遍历中介服务器，但改为直接 Skype 业务客户端和网关之间流动。 在这种情况下，不需要使用 CAC。 有关详细信息，请参阅[规划媒体绕过中的业务 2015 Skype](media-bypass.md)。
+除非启用媒体绕过，则可以两侧中介服务器上强制实施 CAC。 如果启用媒体绕过，则媒体流量不遍历中介服务器，但改为直接 Skype 业务客户端和网关之间流动。 在这种情况下，不需要使用 CAC。 有关详细信息，请参阅[规划媒体绕过 Skype for Business 中](media-bypass.md)。
   
 下图说明了如何在启用和不启用媒体旁路的情况下在 PSTN 连接上实施 CAC。
   
-**实施呼叫允许控制到 PSTN 的连接**
+**在 PSTN 连接上实施呼叫允许控制**
 
 ![语音 CAC 媒体绕过连接强制实施](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
   
@@ -100,9 +101,9 @@ CAC 仅控制实时语音和视频流量，不控制数据流量。
 
 规划呼叫允许控制 (CAC) 需要有关企业网络拓扑的详细信息。为了帮助您规划呼叫允许控制策略，请执行以下步骤。
   
-1. 确认企业网络中的中心/中枢 （称为网络区域）。
+1. 确认企业网络中的中心/中枢（称为网络区域）。
     
-2. 确定每个网络区域中的办公室或位置 （称为网络站点）。
+2. 确认每个网络区域中的办公室或位置（称为网络站点）。
     
 3. 确定每对网络区域之间的网络路由。
     
@@ -122,7 +123,7 @@ CAC 仅控制实时语音和视频流量，不控制数据流量。
 > [!NOTE]
 > 所有网络站点都与一个网络区域关联。例如，波特兰、里诺和阿尔伯克基包括在北美区域中。在此图中，只显示应用了 CAC 策略、具有带宽限制的 WAN 链路。芝加哥、纽约和底特律的网络站点在北美区域椭圆中显示，因为这些区域没有带宽限定，因此不需要 CAC 策略。 
   
-以下各节将介绍此示例拓扑的组件。 有关如何计划这种拓扑结构，包括带宽限制，有关详细信息，请参阅[示例： 收集业务服务器 2015 Skype 中的呼叫允许控制的要求](example-gathering-requirements.md)。
+以下各节将介绍此示例拓扑的组件。 有关如何计划这种拓扑结构，包括带宽限制，有关详细信息，请参阅[示例： 收集呼叫允许控制 Skype 中的业务服务器的要求](example-gathering-requirements.md)。
   
 ### <a name="identify-network-regions"></a>确认网络区域
 
@@ -139,7 +140,7 @@ CAC 要求 Business Server 中央站点 Skype 定义每个网络区域。 从该
 > [!NOTE]
 > 中央站点不一定与网络站点对应。 在本文档的示例中，某些中央站点（芝加哥、伦敦和北京）与网络站点共享同一名称。 但是，即使中央站点和网络站点共享相同的名称，中央站点是企业服务器拓扑的 Skype 元素而网络站点是整个网络企业服务器拓扑的 Skype 所在的一部分。 
   
-**网络区域、 中央站点和网络站点**
+**网络区域、中央站点和网络站点**
 
 |**网络区域**|**中央站点**|**网络站点**|
 |:-----|:-----|:-----|
@@ -165,7 +166,7 @@ CAC 要求 Business Server 中央站点 Skype 定义每个网络区域。 从该
 
 与您的网络运营团队一起确定可用于组织中跨 WAN 链路的实时音频和视频流量的带宽。如果带宽使用量受限；即，如果预期使用的带宽大于可为音频和视频形式分配的带宽，则带宽策略通常应用于 WAN 链路。
   
-CAC 带宽策略定义了可以为实时音频和视频形式保留的最大带宽。 由于 CAC 不限制其他流量的带宽，因此它无法阻止其他数据流量（如大型文件传输、音乐流）占用所有网络带宽。
+CAC 带宽策略定义可为实时音频和视频形式保留的最大带宽。由于 CAC 不限制其他流量的带宽，因此它无法阻止其他数据流量（如大型文件传输、音乐流）占用所有网络带宽。
   
 CAC 带宽策略可定义下列任何内容或所有内容：
   
@@ -181,7 +182,7 @@ CAC 带宽策略可定义下列任何内容或所有内容：
 > 所有 CAC 带宽值均都表示最大*单向*的带宽限制。
   
 > [!NOTE]
-> 为业务服务器语音策略功能 Skype 提供检查的传入呼叫的用户 （不为用户发出的传出呼叫） 的带宽策略覆盖的能力。 建立会话后，将准确计算带宽消耗。 应慎用此设置。 有关详细信息，请参阅[创建或修改语音策略和配置 PSTN 用法记录中的业务 2015 Skype](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)或[修改语音策略和配置 PSTN 用法记录](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)部署文档中。
+> 为业务服务器语音策略功能 Skype 提供检查的传入呼叫的用户 （不为用户发出的传出呼叫） 的带宽策略覆盖的能力。 建立会话后，将准确计算带宽消耗。 应慎用此设置。 有关详细信息，请参阅[创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)或[修改语音策略和配置 PSTN 用法记录](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)部署文档中。
   
 要基于每个会话优化带宽用量，请考虑将要使用的音频和视频编解码器的类型。特别要避免出现为预期要频繁使用的编解码器分配的带宽不足的情况。相反，如果要阻止媒体使用需要更多带宽的编解码器，则应将每个会话的最大带宽设置为足以阻止此类使用的较低值。对于音频，并不是每一种编解码器都适用于每一种方案。例如：
   
@@ -193,9 +194,9 @@ CAC 带宽策略可定义下列任何内容或所有内容：
     
 借助下表优化每个会话的最大带宽设置。
   
-**编解码器的带宽用量**
+**不同编解码器的带宽用量要求**
 
-|**编解码器**|**带没有前向纠错 (FEC) 的带宽要求**|**带前向纠错 (FEC) 的带宽要求**|
+|**编解码器**|**不带前向纠错 (FEC) 的带宽要求**|**带前向纠错 (FEC) 的带宽要求**|
 |:-----|:-----|:-----|
 |RTAudio (8kHz)  <br/> |49.8 kbps  <br/> |61.6 kbps  <br/> |
 |RTAudio (16kHz)  <br/> |67 kbps  <br/> |96 kbps  <br/> |
@@ -218,9 +219,9 @@ Siren 编解码器用于在 Skype 业务服务器在下列情况下：
     
 - 如果 Communications Server 2007 或 Communications Server 2007 R2 客户端连接到业务 Server 会议服务 Skype （因为这些客户端不支持 G.722 编解码器）。
     
-**方案的带宽用量**
+**不同方案的带宽用量要求**
 
-|**方案**|**优化的数量 (kbps) 的带宽要求**|**平衡模式下 (kbps) 的带宽要求**|**针对质 (kbps) 优化的带宽要求**|
+|**应用场景**|**针对量优化的带宽要求 (kbps)**|**平衡模式下的带宽要求 (kbps)**|**针对质优化的带宽要求 (kbps)**|
 |:-----|:-----|:-----|:-----|
 |对等音频呼叫  <br/> |45 kbps  <br/> |62 kbps  <br/> |91 kbps  <br/> |
 |电话会议  <br/> |53 kbps  <br/> |101 kbps  <br/> |165 kbps  <br/> |

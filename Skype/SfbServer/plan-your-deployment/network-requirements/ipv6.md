@@ -3,7 +3,6 @@ title: 规划 Skype for Business 中的 IPv6
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
-description: 摘要： 实现 IPv6 的业务服务器 2015年安装 Skype 之前。
-ms.openlocfilehash: 20a1e711d5a9a3a195d9b89328b3c2903d13988c
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 摘要： 实现 IPv6 业务服务器安装 Skype 之前。
+ms.openlocfilehash: 6bd33522492edb68ba3e0a6873e81afee59216d8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504220"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968136"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>规划 Skype for Business 中的 IPv6
  
-**摘要：** 为业务服务器 2015年安装 Skype 之前实现 IPv6。
+**摘要：** 在您安装 Skype 业务服务器之前，请实现 IPv6。
   
 Skype 业务服务器包括对 IP 版本 6 (IPv6) 的支持地址，以及持续支持 ip 版本 4 (IPv4) 地址。 
 
@@ -103,7 +102,7 @@ IPv4 地址是 32 位地址，允许计算机通过 Internet 进行通信。 由
 
 Skype 业务服务器不支持媒体绕过公用电话交换网 (pstn) 呼叫流量是否通过 IPv6 接口。 如果需要媒体旁路，则我们建议将 PSTN 网关配置为 IPv4。 
   
-|**主接口 1**|**PSTN 接口 （在中介服务器上）**|**PSTN 网关设置**|
+|**主接口 1**|**PSTN 接口（位于中介服务器上）**|**PSTN 网关设置**|
 |:-----|:-----|:-----|
 |IPv4  <br/> |双协议栈  <br/> |IPv4  <br/> |
 |双协议栈  <br/> |双协议栈  <br/> |IPv4  <br/> |
@@ -116,7 +115,7 @@ Skype 业务服务器不支持媒体绕过公用电话交换网 (pstn) 呼叫流
 
 与远程用户的对等通信包括即时消息、音频/视频、应用程序共享和文件传输。
   
-|**远程用户网络**|**边缘服务器 （外部边缘）**|
+|**远程用户网络**|**边缘服务器（外部边缘）**|
 |:-----|:-----|
 |IPv4  <br/> |IPv4  <br/> |
 |双协议栈  <br/> |IPv4  <br/> |
@@ -129,25 +128,25 @@ Skype 业务服务器不支持媒体绕过公用电话交换网 (pstn) 呼叫流
 
 下表显示了前端服务器池和内部边缘服务器池之间的支持矩阵。
   
-**前端池和边缘池 （内部边缘） 矩阵**
+**前端池和边缘池（内部边缘）矩阵**
 
 ||**边缘池：IPv4** <br/> |**边缘池：双协议栈** <br/> |**边缘池：IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
 |**前端池：IPv4** <br/> |是  <br/> |是  <br/> |否  <br/> |
 |**前端池：双协议栈** <br/> |是  <br/> |是  <br/> |否  <br/> |
-|**前端池：IPv6** <br/> |否  <br/> |否  <br/> |是的\*  <br/> |
+|**前端池：IPv6** <br/> |否  <br/> |否  <br/> |是\*  <br/> |
    
 \*仅在实验室环境中使用此组合。
   
 下表是内部和外部边缘接口支持的组合矩阵。
   
-**边缘池 （内部边缘） 和边缘池 （外部边缘） 矩阵**
+**边缘池（内部边缘）和边缘池（外部边缘）矩阵**
 
 ||**边缘池（外部边缘）：IPv4** <br/> |**边缘池（外部边缘）：双协议栈** <br/> |**边缘池（外部边缘）：IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
 |**边缘池（内部边缘）：IPv4** <br/> |是  <br/> |是  <br/> |否  <br/> |
 |**边缘池（内部边缘）：双协议栈** <br/> |否  <br/> |是  <br/> |否  <br/> |
-|**边缘池（内部边缘）：IPv6** <br/> |否  <br/> |否  <br/> |是的\*  <br/> |
+|**边缘池（内部边缘）：IPv6** <br/> |否  <br/> |否  <br/> |是\*  <br/> |
    
 \*仅在实验室环境中使用此组合。
   
@@ -204,7 +203,7 @@ Lync Server 2010 或 Office Communications Server 不支持 IP 版本 6 (IPv6)�
 ## <a name="see-also"></a>另请参阅
 <a name="migration"> </a>
 
-[Skype for Business 中配置 IP 地址类型](ip-address-types.md)
+[在 Skype for Business 中配置 IP 地址类型](ip-address-types.md)
 
 [IP 版本 6 寻址体系结构](https://tools.ietf.org/html/rfc4291)
   

@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 拓扑生成器中定义其他中继
+title: 为业务服务器中 Skype 的拓扑生成器中定义其他中继
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,23 +12,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
-description: 摘要： 了解如何为业务服务器 2015 Skype 中的拓扑生成器中定义其他中继的中介服务器和对等网关之间。
-ms.openlocfilehash: e76555d0f03b884ad3f3c91c5ca4ad5d687711a2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 了解如何为业务服务器中 Skype 的拓扑生成器中定义其他中继的中介服务器和对等网关之间。
+ms.openlocfilehash: 65ed4bb850c88c873b61090cbc34a133cb9d95e8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979739"
 ---
-# <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 拓扑生成器中定义其他中继
+# <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>为业务服务器中 Skype 的拓扑生成器中定义其他中继
  
-**摘要：**了解如何为业务服务器 2015 Skype 中的拓扑生成器中定义其他中继的中介服务器和对等网关之间。
+**摘要：** 了解如何为业务服务器中 Skype 的拓扑生成器中定义其他中继的中介服务器和对等网关之间。
   
 按照以下步骤来定义其他中继到可与中介服务器关联的对等方。 对等方提供连接到公共公用电话交换网 (PSTN) 启用了企业语音的用户。 对等方可以是用于 Internet 电话服务提供商 (ITSP) 的 PSTN 网关、IP-PBX 或会话边界控制器 (SBC)。
   
 中继是中介服务器和网关之间的逻辑连接。
   
 > [!NOTE]
-> 本主题假定您具有安装 PSTN 网关和根 trunk 与至少一个并置或独立中介服务器或池的如部署文档中所述[定义拓扑生成器中的业务服务器 2015 Skype 的网关](define-a-gateway.md)。
+> 本主题假定您具有安装 PSTN 网关和根 trunk 与至少一个并置或独立中介服务器或池的如部署文档中所述[定义拓扑生成器中的业务服务器 Skype 的网关](define-a-gateway.md)。
   
 ### <a name="to-define-an-additional-trunk-between-a-mediation-server-and-a-gateway-peer"></a>若要定义其他中继的中介服务器和对等网关之间
 

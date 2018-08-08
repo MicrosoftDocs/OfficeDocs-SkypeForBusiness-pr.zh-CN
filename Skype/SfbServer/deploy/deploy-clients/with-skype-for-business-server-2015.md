@@ -1,9 +1,8 @@
 ---
-title: 将 Skype 会议室系统 v2 与 Skype for Business Server 2015 一起部署
+title: 部署 Skype 会议室与 Skype 的业务服务器的系统 v2
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,15 +11,15 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
-description: 阅读本主题有关如何部署业务服务器 2015年与 Skype 的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: da5d0319e3dd582d6f446471424814ece3a9d178
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+description: 阅读此主题以如何部署业务服务器与 Skype 的 Skype 会议室系统 v2 的信息。
+ms.openlocfilehash: a1d46012979cd908a00113c4573133da63e844ba
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887825"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976826"
 ---
-# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>将 Skype 会议室系统 v2 与 Skype for Business Server 2015 一起部署
+# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>部署 Skype 会议室与 Skype 的业务服务器的系统 v2
   
 本主题介绍如何为单林在本地部署后添加 Skype 会议室系统 v2 的设备帐户。
   
@@ -28,9 +27,9 @@ ms.locfileid: "19887825"
 
 设置用户帐户的最简单方式是它们使用远程 Windows PowerShell 进行配置。 Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，脚本将帮助创建新的用户帐户，或验证必须以帮助您将它们转换为兼容的 Skype 会议室系统 v2 用户帐户的现有资源帐户。 如果您愿意，您可以按照以下步骤来配置您的 Skype 会议室系统 v2 设备将使用的帐户。
   
-## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>将 Skype 会议室系统 v2 与 Skype for Business Server 2015 一起部署
+## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>部署 Skype 会议室与 Skype 的业务服务器的系统 v2
 
-为业务服务器 2015年部署与 Skype 的 Skype 会议室系统 v2 之前，请确保已满足的要求。 有关详细信息，请参阅[Skype 会议室系统 v2 要求](../../plan-your-deployment/clients-and-devices/requirements.md)。
+您部署与 Skype 的 Skype 会议室系统 v2 业务服务器之前，请确保已满足的要求。 有关详细信息，请参阅[Skype 会议室系统 v2 要求](../../plan-your-deployment/clients-and-devices/requirements.md)。
   
 开始部署 Skype 会议室系统 v2 之前，请确保您具有正确的权限运行相关联的 cmdlet。
   
@@ -48,7 +47,7 @@ ms.locfileid: "19887825"
  
    ```
 
-   请注意，$strExchangeServer 是您的 Exchange 服务器的完全限定的域名 (FQDN) 和 $strLyncFQDN 是业务服务器 2015年部署您 Skype 的 FQDN。
+   请注意，$strExchangeServer 是您的 Exchange 服务器的完全限定的域名 (FQDN) 和 $strLyncFQDN 是业务服务器部署您 Skype 的 FQDN。
     
 2. 后建立会话，您将创建新邮箱并启用作为 RoomMailboxAccount 或更改现有的会议室邮箱的设置。 这将允许对 Skype 会议室系统 v2 进行身份验证的帐户。
     
@@ -86,7 +85,7 @@ ms.locfileid: "19887825"
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. 使您在 Skype 业务服务器 2015年池上的 Skype 会议室系统 v2 Active Directory 帐户，从而启用业务服务器 2015 Skype 的设备帐户：
+6. 使您在 Skype 业务服务器池上的 Skype 会议室系统 v2 Active Directory 帐户，从而启用业务 Server Skype 的设备帐户：
     
    ```
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com 
@@ -106,7 +105,7 @@ ms.locfileid: "19887825"
 
    同样，需要用你自己的信息替换所提供的域控制器和电话号码示例。参数值 $true 保持不变。
     
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-2015-on-premises"></a>Exchange 和 Skype 的本地业务服务器 2015年中的示例： 会议室帐户设置
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>Exchange 和 Skype 的本地业务服务器中的示例： 会议室帐户设置
 
 ```
 New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force) 

@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中规划呼叫寄存
+title: 规划呼叫寄存中 Skype for Business
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: 这样可使业务 Server 企业语音规划呼叫寄存 Skype 中，将呼叫置于保持状态并将呼叫转接到的部门。 包括容量规划、支持的呼叫和支持的客户端。
-ms.openlocfilehash: 71166aa866f2242248dc090da19212a5e1122161
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a675100f8b40e1ab293c0240ea0acbe3beb7fa27
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988548"
 ---
-# <a name="plan-for-call-park-in-skype-for-business-2015"></a>在 Skype for Business 2015 中规划呼叫寄存
+# <a name="plan-for-call-park-in-skype-for-business"></a>规划呼叫寄存中 Skype for Business
  
 这样可使业务 Server 企业语音规划呼叫寄存 Skype 中，将呼叫置于保持状态并将呼叫转接到的部门。 包括容量规划、支持的呼叫和支持的客户端。
   
@@ -126,7 +126,7 @@ ms.lasthandoff: 05/03/2018
   
 **呼叫寄存用户模型**
 
-|**指标**|**每个前端池<br/>（具有 8 前端服务器）**|**每台 Standard Edition 服务器**|
+|**指标**|**每个前端池<br/>（具有 8 前端服务器）**|**每台 Standard Edition Server**|
 |:-----|:-----|:-----|
 |寄存速率  <br/> |每分钟 8 个  <br/> |每分钟 1 个  <br/> |
 |取回寄存呼叫的速率  <br/> |每分钟 8 个  <br/> |每分钟 1 个  <br/> |

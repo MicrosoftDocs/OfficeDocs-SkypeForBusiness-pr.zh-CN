@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中为用户启用呼叫寄存
+title: Skype for Business 中的用户启用呼叫寄存
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Skype 中的呼叫寄存的用户启用业务 Server 企业语音。
-ms.openlocfilehash: 88385ae1332905ae242cf0b4a5002f96b336a1af
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 44e72cab776b08cbd0290bb15010d36d370d86b3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500449"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968221"
 ---
-# <a name="enable-call-park-for-users-in-skype-for-business-2015"></a>在 Skype for Business 2015 中为用户启用呼叫寄存
+# <a name="enable-call-park-for-users-in-skype-for-business"></a>Skype for Business 中的用户启用呼叫寄存
  
 Skype 中的呼叫寄存的用户启用业务 Server 企业语音。
   
@@ -65,4 +64,7 @@ Skype 中的呼叫寄存的用户启用业务 Server 企业语音。
 
 ## <a name="see-also"></a>另请参阅
 
-[创建或修改语音策略和配置 PSTN 用法记录中的业务 2015 Skype](voice-policy-and-pstn-usage-records.md)
+
+
+[创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype](voice-policy-and-pstn-usage-records.md)
+

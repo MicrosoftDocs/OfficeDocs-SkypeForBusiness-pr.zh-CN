@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中管理 ELIN 网关的位置
+title: 管理 ELIN 网关 Skype 中的业务服务器的位置
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: 所必需的规划决策位置信息数据库或类似的外部数据库中，E9-1-1 部署中的业务 Server 企业语音的 Skype 使用 ELIN 网关。
-ms.openlocfilehash: c89f09af2011d316485094f9fc817580b56d1d81
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ace81abc47ac401db48b7a34fe9a229a29f18881
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974233"
 ---
-# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中管理 ELIN 网关的位置
+# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>管理 ELIN 网关 Skype 中的业务服务器的位置
  
 所必需的规划决策位置信息数据库或类似的外部数据库中，E9-1-1 部署中的业务 Server 企业语音的 Skype 使用 ELIN 网关。
   
@@ -57,7 +57,7 @@ ms.lasthandoff: 05/03/2018
 
 在您决定想要如何将建筑物空间分成多个位置后，需要决定为每个位置分配多少个 ELIN。例如，在多层或多租户建筑物中，可以为建筑物中不同的区域分配不同的紧急区域。通常，建筑物的每层都会被指定为一个位置。每个位置会被分配一个或多个 ELIN，这些 ELIN 用作紧急呼叫时的呼叫号码。请联系您的 PSTN 运营商以获得可用于 ELIN 的电话号码。下表提供了特定街道地址的位置示例。
   
-**示例位置和 ELIN 分配**
+**位置和 ELIN 分配示例**
 
 |**建筑物区域**|**位置**|**ELIN**|
 |:-----|:-----|:-----|
@@ -83,7 +83,7 @@ ms.lasthandoff: 05/03/2018
   
 通过使用辅助位置信息服务选项来连接到第三方数据库，您可以组和管理使用脱机平台的位置。 除了将位置与网络标识符关联外，此方法的优点还在于将位置与用户关联。 这意味着位置信息服务，可返回多个地址，来自业务客户端 Skype 到辅助位置信息服务。 然后，用户可以选择最适合的位置。 
   
-若要将位置信息服务与相集成，第三方数据库必须执行业务服务器位置请求/响应架构 Skype。 有关详细信息，请参阅[E911 支持协议的 Web 服务](https://go.microsoft.com/fwlink/p/?linkid=213819)。 有关部署辅助位置信息服务的详细信息，请参阅部署文档中的[配置中的业务服务器 2015 Skype 的辅助位置信息服务](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)。
+若要将位置信息服务与相集成，第三方数据库必须执行业务服务器位置请求/响应架构 Skype。 有关详细信息，请参阅[E911 支持协议的 Web 服务](https://go.microsoft.com/fwlink/p/?linkid=213819)。 有关部署辅助位置信息服务的详细信息，请参阅部署文档中的[Configure Skype 业务服务器中的辅助位置信息服务](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)。
   
 有关填充位置数据库的详细信息，请参阅部署文档中的[Configure the Location Database](http://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) 。
   

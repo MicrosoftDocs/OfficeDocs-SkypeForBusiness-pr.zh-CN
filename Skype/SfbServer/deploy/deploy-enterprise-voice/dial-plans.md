@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中创建或修改拨号计划
+title: 创建或修改拨号计划中 Skype 业务服务器
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 摘要： 了解如何创建或修改拨号计划使用 Skype 业务 Server Control Panel。
-ms.openlocfilehash: 9ded641ead3aef5cb6b42b27ca06da34ba9133c6
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: cafaeaa2813586e7e3cd15827745703685148d08
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501061"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980006"
 ---
-# <a name="create-or-modify-a-dial-plan-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建或修改拨号计划
+# <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>创建或修改拨号计划中 Skype 业务服务器
  
 **摘要：** 了解如何创建或修改拨号计划使用 Skype 业务 Server Control Panel。
   
@@ -68,7 +67,7 @@ ms.locfileid: "19501061"
     
     - 若要从所有企业语音部署中可用的规范化规则的列表中选择一个或多个规则，请单击**选择**。 在“选择规范化规则”**** 中，突出显示要与拨号计划关联的规则，然后单击“确定”****。
     
-   - 要定义新的规范化规则并将其与拨号计划相关联，请单击“新建”****。 有关定义新的规则的详细信息，请参阅[创建或修改规范化规则中的业务 2015 Skype](normalization-rules.md)。
+   - 要定义新的规范化规则并将其与拨号计划相关联，请单击“新建”****。 有关定义新的规则的详细信息，请参阅[创建或修改规范化规则中的业务的 Skype](normalization-rules.md)。
     
    - 要编辑已经与拨号计划关联的规范化规则，请突出显示相应的规则名称，然后单击“显示详细信息”****。 
     
@@ -77,7 +76,7 @@ ms.locfileid: "19501061"
    - 要从拨号计划中删除某个规范化规则，请突出显示相应的规则名称，然后单击“删除”****。
     
      > [!NOTE]
-     > 每个拨号计划都必须至少有一个关联的规范化规则。 有关如何确定的规范化规则的所有拨号计划都需要，请参阅规划文档中的[规划出站语音路由中的业务服务器 2015 Skype](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) 。
+     > 每个拨号计划都必须至少有一个关联的规范化规则。 有关如何确定的规范化规则的所有拨号计划都需要，请参阅规划文档中的[规划出站语音路由 Skype 业务服务器中](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md)。
   
 10. 确认正确的顺序排列的拨号计划的规范化规则。 若要更改列表中的规则的位置，请突出显示相应的规则名称然后单击向上或向下箭头。
     
@@ -91,7 +90,7 @@ ms.locfileid: "19501061"
 13. 在“拨号计划”**** 页上，单击“提交”****，然后单击“全部提交”****。 
     
     > [!NOTE]
-    > 任何时候创建拨号计划，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[挂起更改语音路由配置中的业务 2015 Skype 的发布](voice-route-config-changes.md)。
+    > 任何时候创建拨号计划，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[Publish 挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)。
   
 ### <a name="to-modify-a-dial-plan"></a>修改拨号计划
 
@@ -127,7 +126,7 @@ ms.locfileid: "19501061"
     
    - 若要从所有企业语音部署中可用的规范化规则的列表中选择一个或多个规则，请单击**选择**。 在“选择规范化规则”**** 对话框中，突出显示要与拨号计划关联的规则，然后单击“确定”****。
     
-   - 要定义新的规范化规则并将其与拨号计划相关联，请单击“新建”****。 有关定义新的规则的详细信息，请参阅[创建或修改规范化规则中的业务 2015 Skype](normalization-rules.md)。
+   - 要定义新的规范化规则并将其与拨号计划相关联，请单击“新建”****。 有关定义新的规则的详细信息，请参阅[创建或修改规范化规则中的业务的 Skype](normalization-rules.md)。
     
    - 要编辑已经与拨号计划关联的规范化规则，请突出显示相应的规则名称，然后单击“显示详细信息”****。 
     
@@ -136,7 +135,7 @@ ms.locfileid: "19501061"
    - 要从拨号计划中删除某个规范化规则，请突出显示相应的规则名称，然后单击“删除”****。
     
     > [!NOTE]
-    > 每个拨号计划都必须至少有一个关联的规范化规则。 计划都需要有关如何确定的规范化规则的所有拨入详细信息，请参阅规划文档中的[规划出站语音路由中的业务服务器 2015 Skype](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) 。
+    > 每个拨号计划都必须至少有一个关联的规范化规则。 计划都需要有关如何确定的规范化规则的所有拨入详细信息，请参阅规划文档中的[规划出站语音路由 Skype 业务服务器中](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md)。
   
 10. 确认正确的顺序排列的拨号计划的规范化规则。 若要更改列表中的规则的位置，请突出显示相应的规则名称然后单击向上或向下箭头。
     
@@ -153,8 +152,9 @@ ms.locfileid: "19501061"
 13. 在“拨号计划”**** 页上，单击“提交”****，然后单击“全部提交”****。 
     
     > [!NOTE]
-    > 任何时候创建或修改拨号计划，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[挂起更改语音路由配置中的业务 2015 Skype 的发布](voice-route-config-changes.md)。
+    > 任何时候创建或修改拨号计划，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[Publish 挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)。
   
 ## <a name="see-also"></a>另请参阅
 
-[挂起更改语音路由配置中的业务 2015 Skype 的发布](voice-route-config-changes.md)
+[发布挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)
+

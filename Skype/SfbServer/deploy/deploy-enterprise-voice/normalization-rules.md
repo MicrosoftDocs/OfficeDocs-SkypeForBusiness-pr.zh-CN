@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中创建或修改规范化规则
+title: 创建或修改规范化规则中的业务的 Skype
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
-description: 摘要： 了解如何定义、 创建和修改业务服务器 2015 Skype 中的规范化规则。
-ms.openlocfilehash: 5ee0b138d118d0c437255cb3e90321019119aedf
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 了解如何定义、 创建和修改企业服务器中 Skype 的规范化规则。
+ms.openlocfilehash: d9c56d96c0eb9069e4ec02b196a326ad8b599e75
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972546"
 ---
-# <a name="create-or-modify-a-normalization-rule-in-skype-for-business-2015"></a>在 Skype for Business 2015 中创建或修改规范化规则
+# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>创建或修改规范化规则中的业务的 Skype
  
-**摘要：**了解如何定义、 创建和修改业务服务器 2015 Skype 中的规范化规则。
+**摘要：** 了解如何定义、 创建和修改企业服务器中 Skype 的规范化规则。
   
 定义、 创建和修改企业服务器中 Skype 的规范化规则。
   
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/03/2018
 
 1. 打开 Skype 业务 Server Control Panel
     
-2. （可选）请按照本文[创建或修改拨号计划中 Skype 业务服务器 2015年](dial-plans.md)通过步骤 11 或[修改拨号计划](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)前 10 个步骤。
+2. （可选）请按照本文[创建或修改拨号计划中 Skype Business Server](dial-plans.md)通过步骤 11 或[修改拨号计划](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)前 10 个步骤。
     
 3. 在**新的规范化规则**或**编辑规范化规则**中，键入描述要进行规范化**名称**(例如，5DigitExtension) 中的号码模式的名称。
     
@@ -72,13 +72,13 @@ ms.lasthandoff: 05/03/2018
 11. 在“拨号计划”**** 页上，单击“提交”****，然后单击“全部提交”****。 
     
     > [!NOTE]
-    > 无论何时创建或更改规范化规则，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[挂起更改语音路由配置中的业务 2015 Skype 的发布](voice-route-config-changes.md)。
+    > 无论何时创建或更改规范化规则，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[Publish 挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)。
   
 ### <a name="to-define-a-normalization-rule-manually"></a>手动定义规范化规则
 
 1. 打开 Skype 业务 Server Control Panel
     
-2. （可选）请按照本文[创建或修改拨号计划中 Skype 业务服务器 2015年](dial-plans.md)。 
+2. （可选）请按照本文[创建或修改拨号计划中 Skype Business Server](dial-plans.md)。 
     
 3. 在**新的规范化规则**或**编辑规范化规则**中，键入描述要进行规范化在**名称**（例如，名称规范化 rule5DigitExtension） 的号码模式的名称。
     
@@ -105,6 +105,6 @@ ms.lasthandoff: 05/03/2018
 11. 在“拨号计划”**** 页上，单击“提交”****，然后单击“全部提交”****。
     
     > [!NOTE]
-    > 无论何时创建或更改规范化规则，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[挂起更改语音路由配置中的业务 2015 Skype 的发布](voice-route-config-changes.md)。
+    > 无论何时创建或更改规范化规则，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[Publish 挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)。
   
 

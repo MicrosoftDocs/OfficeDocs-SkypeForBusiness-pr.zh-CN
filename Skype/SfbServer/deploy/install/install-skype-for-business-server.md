@@ -1,5 +1,5 @@
 ---
-title: 在拓扑内的服务器上安装 Skype for Business Server 2015
+title: 在拓扑内的服务器上安装 Skype for Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
-description: 摘要： 了解如何在拓扑中的每台服务器上安装了业务服务器 2015年系统组件 Skype。 下载免费试用版 Skype 业务服务器 2015 从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: 810e08cc6844f29d12536f89f3b877e7a2be8bce
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 了解如何在拓扑中的每台服务器上安装了 Business Server 系统组件 Skype。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
+ms.openlocfilehash: 41fbe8db0d279d9cace577e1977c093fd794693b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20994703"
 ---
-# <a name="install-skype-for-business-server-2015-on-servers-in-the-topology"></a>在拓扑内的服务器上安装 Skype for Business Server 2015
+# <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>在拓扑内的服务器上安装 Skype for Business Server
  
-**摘要：**了解如何在拓扑中的每台服务器上安装了业务服务器 2015年系统组件 Skype。 下载[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)中的业务服务器 2015 Skype 的免费试用版。
+**摘要：** 了解如何在拓扑中的每台服务器上安装了 Business Server 系统组件 Skype。 从[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)业务服务器下载 Skype 的免费试用版。
   
 一旦拓扑加载到中央管理存储和 Active Directory 知道哪些服务器将执行哪些角色，您需要在每个拓扑中的服务器上安装 Business Server system 的 Skype。 您可以按照任意顺序完成第 1 步至第 5 步。 但第 6、7、8 步必须在第 1 步至第 5 步之后按照图表所示顺序依次完成。 安装 Business Server system 的 Skype 是 8 的步骤 7。
   
@@ -54,13 +55,13 @@ ms.lasthandoff: 05/03/2018
   
 ### <a name="install-skype-for-business-server-system"></a>安装 Business Server 系统 Skype
 
-1. 插入业务服务器 2015年安装媒体 Skype。 如果安装未自动开始，请双击“**安装**”。
+1. 插入业务 Server 安装介质的 Skype。 如果安装未自动开始，请双击“**安装**”。
     
 2. 安装介质需要 Microsoft Visual C++ 才能运行。将有一个对话框弹出，询问您是否要安装。单击“**是**”。
     
 3. 仔细阅读许可协议，如果同意条款，请选择“**我接受许可协议中的条款**”，然后单击“**确定**”。 
     
-4. 智能安装程序中的业务服务器 2015 其中可以连接到 Internet 以检查更新从 Microsoft Update (MU) 在安装过程中，如图所示的 Skype 的功能。 这能确保你获得最新产品更新，从而提供更好的体验。 单击“**安装**”开始安装。
+4. 智能安装程序中的业务服务器，其中可以连接到 Internet 以检查更新从 Microsoft Update (MU) 在安装过程中，如图所示的 Skype 的功能。 这能确保你获得最新产品更新，从而提供更好的体验。 单击“**安装**”开始安装。
     
     > [!NOTE]
     > 很多组织在其企业环境中部署了 Windows Server Update Services (WSUS)。 WSUS 可以让管理员完全管理通过 Microsoft Update 发布到其网络中的计算机的更新分发过程。 累积更新 1 发行版的一部分 Skype 业务服务器引入智能安装程序以使用 WSUS 的支持。 与 WSUS 部署第一次 for Business Server Skype 或从使用就地升级功能的 Lync Server 2013 环境升级的客户将具有智能提取 WSUS Skype 的 Windows 更新数据而不提取更新的安装程序从 MU。 想使用智能设置的客户在运行 Setup.exe 之前，需要在所有计算机上运行 SmartSetupWithWSUS.psq。 
@@ -118,7 +119,7 @@ ms.lasthandoff: 05/03/2018
     > [!IMPORTANT]
     > 选择哪种哈希摘要和签名算法取决于将使用证书的客户端和服务器，客户端和服务器将与其通信的其他计算机和设备也必须知道如何使用证书中使用的算法。 上的摘要式长度受支持的操作系统和某些客户端应用程序中的信息，请参阅[Windows PKI 博客-SHA2 和 Windows](https://go.microsoft.com/fwlink/p/?LinkId=287002)。 
   
-    每台 Standard Edition 或前端服务器最多需要四个证书：oAuthTokenIssuer 证书、默认证书、Web 内部证书和 Web 外部证书。 但是，也可以请求和分配单个具有相应使用者替代名称条目的默认证书以及 oAuthTokenIssuer 证书。 有关证书要求的详细信息，请参阅[环境要求 Skype 的业务服务器 2015年](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。
+    每台 Standard Edition 或前端服务器最多需要四个证书：oAuthTokenIssuer 证书、默认证书、Web 内部证书和 Web 外部证书。 但是，也可以请求和分配单个具有相应使用者替代名称条目的默认证书以及 oAuthTokenIssuer 证书。 有关证书要求的详细信息，请参阅[环境要求 Skype 业务服务器](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)或[服务器要求的业务服务器 2019 Skype](../../../SfBServer2019/plan/system-requirements.md)。
     
     > [!IMPORTANT]
     > 以下过程介绍了如何配置来自基于内部 Active Directory 证书服务的证书颁发机构的证书。 

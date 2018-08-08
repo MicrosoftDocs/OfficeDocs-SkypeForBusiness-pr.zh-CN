@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 2015 中创建和发布新拓扑
+title: 创建和发布新拓扑中 Skype 业务服务器
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
-description: 摘要： 了解如何创建、 发布和业务服务器安装 Skype 之前验证新拓扑。 下载免费试用版 Skype 业务服务器 2015 从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: d49230c1fc8124e15f411ca4c93cd2a5392e64f5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 了解如何创建、 发布和业务服务器安装 Skype 之前验证新拓扑。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
+ms.openlocfilehash: 4a7ce9f078ec5b52d000c348dac7610e52f91d21
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967337"
 ---
-# <a name="create-and-publish-new-topology-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建和发布新拓扑
+# <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>创建和发布新拓扑中 Skype 业务服务器
  
-**摘要：**了解如何创建、 发布和业务服务器安装 Skype 之前验证新拓扑。 下载免费试用版 Skype 业务服务器 2015 从 Microsoft 评估中心，网址为： [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
+**摘要：** 了解如何创建、 发布和业务服务器安装 Skype 之前验证新拓扑。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
 您可以在每个拓扑中的服务器上安装 Business Server system 的 Skype 之前，您必须创建一个拓扑，并将其发布。 发布拓扑时，拓扑信息会载入中央管理存储数据库。 如果这是 Enterprise Edition 池，您将在初次发布新拓扑时创建中央管理存储数据库。 如果是 Standard Edition，则需要运行部署向导中的“准备第一个 Standard Edition Server”流程，之后才能发布拓扑。 这将安装 SQL Server Express Edition 实例，并创建中央管理存储，从而为 Standard Edition 做好准备。 第 1 步至第 5 步可以按任意顺序执行。 但是，第 6、7、8 步必须在第 1 步至第 5 步之后按图表所示顺序执行。 如何创建和发布新拓扑在 8 个步骤中的第 6 步介绍。
   
@@ -69,7 +70,7 @@ ms.lasthandoff: 05/03/2018
 2. 输入池的完全限定域名 (FQDN) 并选择“**Enterprise Edition 前端池**”或“**Standard Edition Server**”，然后单击“**下一步**”，如图所示。
     
     > [!TIP]
-    > 对于业务 Server Enterprise Edition 的 Skype 可以包括协作以提供前端角色的多台服务器。 当多个服务器用于满足角色时，它被调用池。 因此，协同工作以提供前端角色的多个服务器也称为前端池。 对于业务 Server Standard Edition 的 Skype 可以包括只有一个服务器提供前端角色。 即便只通过一台服务器来提供该角色，通常也将它称为前端池。 
+    > 对于业务 Server Enterprise Edition 的 Skype 可以包括协作以提供前端角色的多台服务器。 使用多台服务器来履行角色职责时，此配置被称作池。 因此，通过协作来提供前端角色的多台服务器也被称作前端池。 对于业务 Server Standard Edition 的 Skype 可以包括只有一个服务器提供前端角色。 即便只通过一台服务器来提供该角色，通常也将它称为前端池。 
   
      ![定义前端池。](../../media/c1447557-261e-4260-a362-ab8d19070eb9.png)
   
@@ -86,7 +87,7 @@ ms.lasthandoff: 05/03/2018
   
 5. 在**选择并置的服务器角色**页中，您可以选择并置中介服务器在前端服务器上，或您可以选择部署为独立服务器。
     
-    如果您要在 Enterprise Edition 前端池上并置中介服务器，请确保选中该复选框。 将在池服务器上部署服务器角色。 如果您要将中介服务器部署为独立服务器，请清除相应的复选框。 完全部署前端服务器后，您将部署一个单独的部署步骤中的中介服务器。 有关规划有关并置的详细信息，请参阅[拓扑的业务服务器 2015年的 Skype 的基础知识](../../plan-your-deployment/topology-basics/topology-basics.md)。
+    如果您要在 Enterprise Edition 前端池上并置中介服务器，请确保选中该复选框。 将在池服务器上部署服务器角色。 如果您要将中介服务器部署为独立服务器，请清除相应的复选框。 完全部署前端服务器后，您将部署一个单独的部署步骤中的中介服务器。 有关规划有关并置的详细信息，请参阅[拓扑的 Skype 业务服务器的基础知识](../../plan-your-deployment/topology-basics/topology-basics.md)。
     
 6. 通过“**将服务器角色与此前端池关联**”页，可以定义服务器角色并将服务器角色与前端池关联。以下角色可用：
     
@@ -104,7 +105,7 @@ ms.lasthandoff: 05/03/2018
     
    - 在这种情况下，需选择打算部署的角色或要与新的前端池相关联的角色。无论在哪种情况下，都需要定义角色，设置任何所需硬件，然后继续安装。
     
-7. 接下来，您将定义用于拓扑的 SQL Server 存储。 在此示例中，我们使用默认实例。 有关 SQL Server 的功能，例如高可用性的详细信息，请参阅[规划高可用性和灾难恢复的业务服务器 2015 Skype 中](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
+7. 接下来，您将定义用于拓扑的 SQL Server 存储。 在此示例中，我们使用默认实例。 有关 SQL Server 的功能，例如高可用性的详细信息，请参阅[规划高可用性和灾难恢复 Skype 业务服务器中](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
     
    - 若要使用已在拓扑中定义的现有 SQL Server 存储，请选择“**SQL 存储**”中的一个实例。
     
@@ -115,6 +116,9 @@ ms.lasthandoff: 05/03/2018
    - 要使用默认实例，请单击“**默认实例**”。
     
    - 若要使用 SQL 镜像，请选择“**启用 SQL 镜像**”，选择现有实例或创建一个新实例。
+
+    > [!NOTE]
+    > SQL 镜像的业务服务器 2015 Skype 中可用，但业务服务器 2019年不再支持在 Skype。 AlwaysOn 可用性组、 AlwaysOn 故障转移群集实例 (FCI)，和 SQL 故障转移群集方法是首选与 Skype 的业务服务器 2019年。
     
     在此示例中，我们输入 **SQL Server FQDN** 并配置相关的高可用性设置，然后单击**确定**，如图所示。
     
@@ -131,9 +135,9 @@ ms.lasthandoff: 05/03/2018
     在此示例中，我们将单击“**定义新文件存储**”，输入“**文件服务器 FQDN**”和“**文件共享**”，然后单击“**下一步**”。
     
     > [!NOTE]
-    > Skype 业务服务器的文件共享可以并置，但出于性能原因不建议。 注意，在此示例中，文件共享位于充当文件共享的单个专用服务器上。 但是，建议使用其他更加强大的文件共享系统，比如使用 Windows Server 2012 R2 的 DFS。 有关受支持的文件共享系统的详细信息，请参阅[您 Skype 业务环境要求](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)。 有关创建文件共享的详细信息，请参阅[创建文件共享中的业务服务器 2015 Skype](create-a-file-share.md)。 你可以在未创建文件共享的情况下定义文件共享。 你需要首先在定义的位置创建文件共享，然后才能发布拓扑。 
+    > Skype 业务服务器的文件共享可以并置，但出于性能原因不建议。 注意，在此示例中，文件共享位于充当文件共享的单个专用服务器上。 但是，建议使用其他更加强大的文件共享系统，比如使用 Windows Server 2012 R2 的 DFS。 有关受支持的文件共享系统的详细信息，请参阅[您 Skype 业务环境要求](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)。 有关创建文件共享的详细信息，请参阅[创建 Skype 业务服务器中的文件共享](create-a-file-share.md)。 你可以在未创建文件共享的情况下定义文件共享。 你需要首先在定义的位置创建文件共享，然后才能发布拓扑。 
   
-10. 在“指定 Web 服务 URL”页上，您必须决定是否需要覆盖内部 Web 服务池基 URL。 此覆盖的原因与负载平衡有关。 可通过简单的 DNS 负载平衡来对基本 SIP 流量进行负载平衡。 但是，HTTP/S Web 服务网络流量则必需使用受支持的硬件或软件负载平衡解决方案。 支持的负载平衡器，请参阅[for Business 的 Skype 的基础结构](https://technet.microsoft.com/en-us/office/dn947483)。 在此示例中，我们使用面向 SIP 流量的 DNS 负载平衡和支持的软件负载平衡解决方案。 由于我们通过这种方式来划分流量，我们需要覆盖内部 Web 服务池 FQDN。 或者，如果我们拥有上层负载平衡器并通过它来发送所有流量（而非使用面向 SIP 流量的 DNS 负载平衡），我们就不需要覆盖 Web 服务 URL。 
+10. 在“指定 Web 服务 URL”页上，您必须决定是否需要覆盖内部 Web 服务池基 URL。 此覆盖的原因与负载平衡有关。 可通过简单的 DNS 负载平衡来对基本 SIP 流量进行负载平衡。 但是，HTTP/S Web 服务网络流量则必需使用受支持的硬件或软件负载平衡解决方案。 支持的负载平衡器，请参阅[for Business 的 Skype 的基础结构](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。 在此示例中，我们使用面向 SIP 流量的 DNS 负载平衡和支持的软件负载平衡解决方案。 由于我们通过这种方式来划分流量，我们需要覆盖内部 Web 服务池 FQDN。 或者，如果我们拥有上层负载平衡器并通过它来发送所有流量（而非使用面向 SIP 流量的 DNS 负载平衡），我们就不需要覆盖 Web 服务 URL。 
     
     在此主题的 DNS 部分，我们为 webint.contoso.local 创建了一个 A 记录。 这是我们用于 Web 服务 HTTP/S 流量的 URL，它必需通过我们设置的、支持的软件负载平衡器。 因此，本示例中，我们重写让业务服务器 Skype 知道 HTTP/S 的所有流量应都转到 webint.contoso.local 而不是 pool.contoso.local，如图所示的 URL。 有关详细信息负载平衡，请参阅[负载平衡的 Skype 的业务要求](../../plan-your-deployment/network-requirements/load-balancing.md)。
     
@@ -181,7 +185,7 @@ ms.lasthandoff: 05/03/2018
     > 建议尽可能使用最简单的 URL 作为管理 URL。 简单的选项是https://admin。_\<域\>_。 管理 URL 可以是内部或外部域，例如 contoso.local 或 contoso.com（只要任一记录可以在内部 DNS 中得到解析）。 
   
     > [!IMPORTANT]
-    > 如果在初始部署后更改简单 URL，您必须注意哪些更改会影响简单 URL 的域名系统 (DNS) 记录和证书。 如果更改影响的基简单 URL，则必须太更改的 DNS 记录和证书。 例如，从更改https://sfb.contoso.com/Meet到https://meet.contoso.com的基 URL 从变为 sfb.contoso.com meet.contoso.com，因此需要更改 DNS 记录和证书来引用 meet.contoso.com。如果您已经更改中的简单 URLhttps://sfb.contoso.com/Meet到https://sfb.contoso.com/Meetings、 sfb.contoso.com 的基 URL 保持不变，因此没有 DNS 或所需证书的更改。 无论何时更改简单 URL 名称，但是，您必须运行**Enable-cscomputer** cmdlet 在每台控制器和前端服务器以注册该更改。
+    > 如果在初始部署后更改简单 URL，您必须注意哪些更改会影响简单 URL 的域名系统 (DNS) 记录和证书。 如果更改影响的基简单 URL，则必须太更改的 DNS 记录和证书。 例如，从更改https://sfb.contoso.com/Meet到https://meet.contoso.com的基 URL 从变为 sfb.contoso.com meet.contoso.com，因此需要更改 DNS 记录和证书来引用 meet.contoso.com。 如果您已经更改中的简单 URLhttps://sfb.contoso.com/Meet到https://sfb.contoso.com/Meetings、 sfb.contoso.com 的基 URL 保持不变，因此没有 DNS 或所需证书的更改。 无论何时更改简单 URL 名称，但是，您必须运行**Enable-cscomputer** cmdlet 在每台控制器和前端服务器以注册该更改。
   
 ### <a name="publish-and-verify-the-topology"></a>发布并验证拓扑
 
@@ -197,7 +201,7 @@ ms.lasthandoff: 05/03/2018
     
     如果已验证拓扑并且未出现验证错误，则发布拓扑的准备工作应该已经就绪。如果出现验证错误，则必须先更正错误，然后才能发布拓扑。
     
-6. 右键单击**业务服务器 2015年的 Skype**节点中，，然后单击**发布拓扑**。
+6. 右键单击“**Skype for Business Server**”节点，然后单击“**发布拓扑**”。
     
 7. 在“**发布拓扑**”页上，单击“**下一步**”。
     
@@ -211,7 +215,7 @@ ms.lasthandoff: 05/03/2018
 9. 在“**选择数据库**”页上，选择要发布的数据库。
     
     > [!NOTE]
-    > 如果您没有适当的权限创建数据库，可以清除这些数据库旁边的复选框，然后具有适当权限的人员可以创建数据库。 要求的详细信息，请参阅[业务服务器 2015年的 Skype 服务器要求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。 
+    > 如果您没有适当的权限创建数据库，可以清除这些数据库旁边的复选框，然后具有适当权限的人员可以创建数据库。 要求的详细信息，请参阅[Business Server 的 Skype 服务器要求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。 
   
 10. 也可以单击“**高级**”。通过使用高级 SQL Server 数据文件放置选项，您可以在以下选项之间进行选择： 
     
@@ -240,6 +244,6 @@ ms.lasthandoff: 05/03/2018
     
     在数据库创建过程中，出现“已完成，但带有警告”消息并不表示发生错误。 安装过程必须更改 Business Server 能够正确的 Skype 的 SQL Server 中的设置。 SQL Server 中的设置发生更改时，该事件会被记录为警告，使得 SQL Server 管理员能够准确理解安装过程完成了哪些任务。 如果您收到一条警告，可以选择记录，然后单击**查看日志**以查看警告的详细信息。
     
-    在已成功发布拓扑，您可以开始运行拓扑中的业务服务器 2015 Skype 每台服务器上安装中央管理存储的本地副本。 我们建议您从第一个前端池开始。 
+    在已成功发布拓扑，您可以开始运行 Skype 企业服务器拓扑中每台服务器上安装中央管理存储的本地副本。 我们建议您从第一个前端池开始。 
     
 

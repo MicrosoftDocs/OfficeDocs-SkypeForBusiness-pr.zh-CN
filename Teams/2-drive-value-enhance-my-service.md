@@ -2,20 +2,22 @@
 title: 增强您的 Microsoft 团队的服务
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: 定期评估机会增强团队服务、 监控任何有意义的功能增强的团队路线图。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fecbd659d03a3335a79aaf43bfcc751da504171
-ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
+ms.openlocfilehash: 98ccde7b481b8b57f32979bc73f6c69f4e0d24cd
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694807"
 ---
 # <a name="enhance-my-service"></a>增强我的服务
 

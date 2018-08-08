@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 2015 拓扑生成器中部署中介服务器
+title: 业务服务器部署在拓扑生成器中 Skype 在中介服务器
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
-description: 摘要： 了解如何定义和部署业务服务器 2015年在拓扑生成器中 Skype 在中介服务器。
-ms.openlocfilehash: 1923b75f36690cf6c4ab49cb69591032b188ace5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 了解如何定义和部署业务服务器在拓扑生成器中 Skype 在中介服务器。
+ms.openlocfilehash: cc5990db7a1e8323205f6fbddbd937ad5ee75f19
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975328"
 ---
-# <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 拓扑生成器中部署中介服务器
+# <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>业务服务器部署在拓扑生成器中 Skype 在中介服务器
  
-**摘要：**了解如何定义和部署业务服务器 2015年在拓扑生成器中 Skype 在中介服务器。
+**摘要：** 了解如何定义和部署业务服务器在拓扑生成器中 Skype 在中介服务器。
   
 企业语音工作负荷、 电话拨入式会议和高级的企业语音应用程序 （响应组应用程序、 呼叫寄存应用程序、 呼叫允许控制 (CAC) 等） 中提供了前端池。 中介服务器的功能是内置前端服务器。 不需要单独的独立中介服务器。 
   
@@ -79,7 +80,7 @@ Skype 业务服务器 （中介服务器上的前端池或独立的中介服务�
    - 如果您想要部署多台中介服务器池中提供高可用性，然后选择**多计算机池**。
     
     > [!NOTE]
-    > 您必须部署 (.../../ plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) 以支持有多个中介服务器的中介服务器池。
+    > 您必须[部署](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing)以支持有多个中介服务器的中介服务器池。
   
    - 如果您想要部署在池中只有一台中介服务器，因为不要求具备高可用性，然后选择**单计算机池**。 跳过以下步骤。
     

@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中创建网络站点间策略
+title: 创建网络站点间策略中 Skype 业务服务器
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: 创建网络站点间策略，使用 Skype 中的企业语音呼叫允许控制业务服务器。
-ms.openlocfilehash: 6dc1469950bfac46110953c0e354cd50f4f89688
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 49405bbaa1d761f1acc10c7506e44992cc03a153
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500717"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988520"
 ---
-# <a name="create-network-intersite-policies-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建网络站点间策略
+# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>创建网络站点间策略中 Skype 业务服务器
  
 创建网络站点间策略，使用 Skype 中的企业语音呼叫允许控制业务服务器。 
   
-网络站点间策略定义具有直接 WAN 链接它们之间的站点间带宽限制。
+网络站点间策略定义其间具有直接 WAN 链路的站点间的带宽限制。
   
 > [!IMPORTANT]
 > 两个网络站点之间没有直接交叉链接时所需*仅*网络站点间策略。

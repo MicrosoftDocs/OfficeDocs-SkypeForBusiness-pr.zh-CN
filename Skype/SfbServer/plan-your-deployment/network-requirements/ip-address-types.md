@@ -3,7 +3,6 @@ title: 在 Skype for Business 中配置 IP 地址类型
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/22/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
-description: 摘要： 为业务服务器 2015年实现 Skype 之前查看下面的 IP 地址类型注意事项。
-ms.openlocfilehash: adebab15a0c10310b25af30f6e933625df61dc3d
-ms.sourcegitcommit: a612ebe25e06c2cb090f776325712caf3cf3b943
+description: 摘要： 实现 Skype 业务服务器之前查看下面的 IP 地址类型注意事项。
+ms.openlocfilehash: 6d1e3a53e65bb3d1b3475dc19a7a2f9e1101195d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19630145"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967162"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>在 Skype for Business 中配置 IP 地址类型
  
-**摘要：** 为业务服务器 2015年实现 Skype 之前查看下面的 IP 地址类型注意事项。
+**摘要：** 实现 Skype 业务服务器之前查看下面的 IP 地址类型注意事项。
   
 使用拓扑生成器中配置的拓扑设置部署 IP 地址类型。 本节介绍如何部署前端服务器、 中介服务器和边缘服务器上的 IP 地址类型。
   
@@ -37,7 +36,7 @@ ms.locfileid: "19630145"
     
 2. 在“**编辑属性**”对话框中，选择您要配置的 IP 地址类型。对于双协议栈配置，则选择“**启用 IPv4**”和“**启用 IPv6**”，如下图所示。
     
-   **编辑前端服务器池的属性对话框**
+   **前端服务器池的“编辑属性”对话框**
 
   - **使用所有配置 IP 地址**。如果您希望允许使用计算机上定义的任何 IP 地址，请选择此选项。 
     
@@ -63,7 +62,7 @@ ms.locfileid: "19630145"
     
 - 在“**编辑属性**”对话框中，选择您要配置的 IP 地址类型。对于双协议栈配置，则选择“**启用 IPv4**”和“**启用 IPv6**”，如下图所示。
     
-   **编辑中介服务器池的属性对话框**
+   **用于中介服务器池的“编辑属性”对话框**
 
   - **使用所有配置 IP 地址**。如果您希望允许使用计算机上定义的任何 IP 地址，请选择此选项。 
     

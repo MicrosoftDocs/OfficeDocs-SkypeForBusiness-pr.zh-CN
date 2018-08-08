@@ -3,7 +3,7 @@ title: Skype for Business Server 2015 的技术图示
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: hub-page
 ms.prod: skype-for-business-itpro
@@ -13,22 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
-description: 摘要： 规划、 实施或管理业务服务器 2015 Skype 时查看根据需要这些海报。
-ms.openlocfilehash: 4a83cd7877e087bb8efcb69190aec9be0b2753ea
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 规划、 实施或管理 Skype 的业务服务器同时查看根据需要这些海报。
+ms.openlocfilehash: 4ddc9e61f3266c357cc7dd1b88b293efb8e79e09
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980835"
 ---
-# <a name="technical-diagrams-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的技术图示
+# <a name="technical-diagrams-for-skype-for-business-server"></a>Skype 业务服务器的技术图表 
 
-**摘要：**查看规划、 实施或管理业务服务器 2015 Skype 时根据需要这些海报。
+**摘要：** 规划、 实施或管理 Skype 的业务服务器同时查看根据需要这些海报。
   
 这些资源采用 Visio (.vsdx) 格式 (Visio 2015) 和 PDF 格式。 有关如何打印文档的信息，请参阅[打印大型格式海报小提示](technical-diagrams.md#tips)。
   
 您可能需要使用其他软件才能查看这些文件。有关详细信息，请参见下表。
   
-|**文件类型**|**软件**|
+|文件类型|软件|
 |:--- |:--- |
 |.vsd  <br/> |Visio 2010、 Visio 2013 或[免费 Visio 查看器](https://go.microsoft.com/fwlink/p/?LinkId=393676) <br/> 如果您使用 Visio viewer，请右键单击 VSD 链接，单击“**目标另存为**”，将文件保存到您的计算机，然后从您的计算机打开文件。  <br/> |
 |.pdf  <br/> |任何 PDF 查看器，如[Adobe Reader](https://go.microsoft.com/fwlink/p/?LinkId=393675) <br/> |
@@ -36,14 +37,14 @@ ms.lasthandoff: 05/03/2018
    
 ## <a name="posters"></a>招贴
 
-这些招贴详细描绘了特定的技术领域，旨在与 TechNet 上的相应文章或下载中心提供的内容配合使用。 
+这些海报详细介绍特定的技术领域，并且可用于与相应文章或下载中心上的可用内容一起使用。 
   
 |**标题**|**说明**|
 |:-----|:-----|
-|**Skype for Business Server 2015 协议工作负载** <br/>![SfB 协议工作负荷海报](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[PDF 版本](https://go.microsoft.com/fwlink/p/?LinkId=550989)（最适用于移动设备或平板电脑） <br/> [Visio 版本](https://go.microsoft.com/fwlink/p/?LinkId=550991)（最适用于 Visio 用户） <br/> |下载此招贴以更好地理解 Skype for Business 2015 服务器和客户端在各种服务复杂等级下的要求。<br/>  <br/> 大小：11 x 17 英寸（多张，尺寸便于在大多数办公室打印机上打印）  <br/> <br/> 此招贴是使用 Visio 2015 创建的。应该无需针对特定环境进行修改。  <br/> |
-|**Skype for Business 呼叫质量方法** <br/> ![](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[PDF 版本](https://go.microsoft.com/fwlink/p/?LinkId=617899)（最适用于移动设备或平板电脑） CQM 海报的缩略图 <br/> [Visio 版本](https://go.microsoft.com/fwlink/p/?LinkId=617900)（最适用于 Visio 用户） <br/> |下载此招贴了解 CQM，即适用于 Skype for Business 的呼叫质量方法 (Call Quality Methodology)，对于包含企业语音功能的实现，此方法有助于发现和消除影响其呼叫质量和用户体验的问题。  <br/> <br/> 使用[下载详细信息页面](https://go.microsoft.com/fwlink/p/?LinkId=617898)要获取的可打印卡和规则，如果您想要播放作为棋盘游戏。 此海报使用[CQM 记分卡](https://go.microsoft.com/fwlink/p/?LinkId=617904)。  <br/><br/> 大小：34 × 44 英寸  <br/> <br/> 此招贴是使用 Visio 2015 创建的。应该无需针对特定环境进行修改。<br/> |
-|**企业语音解决方案的 Skype** <br/> ![规划语音解决方案海报缩略图](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [PDF 版本](https://go.microsoft.com/fwlink/?linkid=869123)（最适用于移动设备或平板电脑） <br/> [Visio 版本](https://go.microsoft.com/fwlink/?linkid=869124)（最适用于 Visio 用户） <br/> |Microsoft 提供了各种各样的选项来让用户能够通过公用电话交换网 (PSTN) 拨打座机和手机 -- 无论他们的帐户存在于 Skype for Business Online 上的 Office 365 中还是本地 Skype for Business Server 部署中。此招贴概括介绍了不同的 Microsoft 语音服务，并根据组织的当前状态和未来计划提供了有关可能最适合您的选项的指导。 <br/> <br/> 大小：34 × 44 英寸  <br/><br/> 此招贴是使用 Visio 2015 创建的。应该无需针对特定环境进行修改。  <br/> |
-|**Skype for Business 架构模型** <br/> ![Skype 的业务体系结构模型缩略图](media/0734153f-af7b-4cf3-b095-96bdd1de3fb0.png) <br/> [PDF 版本](https://go.microsoft.com/fwlink/?linkid=869125)（最适用于移动设备或平板电脑） <br/> [Visio 版本](https://go.microsoft.com/fwlink/?linkid=869126)（最适用于 Visio 用户） <br/> |此招贴系列面向 IT 专业受众，旨在提高受众对使用 Skype for Business Online 和 Skype for Business 本地部署可以借助的不同基础架构模型的认识。 开始与最佳无论配置适合您组织的需要和将来的计划。 根据需要考虑并使用其他配置。 例如，您可能需要考虑与 Exchange 和 SharePoint 或利用 Microsoft 的云 PBX 产品的解决方案的集成。  <br/><br/> 大小：11 × 17 英寸  <br/><br/> 此招贴使用 Visio 2010 创建。应该无需针对特定环境进行修改。  <br/> |
+|**业务 Server 协议工作负荷的 Skype** <br/>![SfB 协议工作负载发布者](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[PDF 版本](https://go.microsoft.com/fwlink/p/?LinkId=550989)（最适用于移动设备或平板电脑） <br/> [Visio 版本](https://go.microsoft.com/fwlink/p/?LinkId=550991)（最适用于 Visio 用户） <br/> |下载此海报以更好地理解的 Skype 业务服务器和客户端在不同级别的服务复杂性要求。<br/>  <br/> 大小：11 x 17 英寸（多张，尺寸便于在大多数办公室打印机上打印）  <br/> <br/> 此招贴是使用 Visio 2015 创建的。应该无需针对特定环境进行修改。  <br/> |
+|**Skype for Business 呼叫质量方法** <br/> ![](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[PDF 版本](https://go.microsoft.com/fwlink/p/?LinkId=617899)（最适用于移动设备或平板电脑） CQM 海报的缩略图 <br/> [Visio 版本](https://go.microsoft.com/fwlink/p/?LinkId=617900)（最适用于 Visio 用户） <br/> |下载此海报以了解 CQM，可帮助您找到并消除问题影响呼叫质量和用户体验的包括企业语音功能的实现的业务服务器 2015年的 Skype 调用质量方法。  <br/> <br/> 使用[下载详细信息页面](https://go.microsoft.com/fwlink/p/?LinkId=617898)要获取的可打印卡和规则，如果您想要播放作为棋盘游戏。 此海报使用[CQM 记分卡](https://go.microsoft.com/fwlink/p/?LinkId=617904)。  <br/><br/> 大小：34 × 44 英寸  <br/> <br/> 此招贴是使用 Visio 2015 创建的。应该无需针对特定环境进行修改。<br/> |
+|**企业语音解决方案的 Skype** <br/> ![规划语音解决方案招贴缩略图](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [PDF 版本](https://go.microsoft.com/fwlink/?linkid=869123)（最适用于移动设备或平板电脑） <br/> [Visio 版本](https://go.microsoft.com/fwlink/?linkid=869124)（最适用于 Visio 用户） <br/> |Microsoft 提供各种呼叫 landlines 和移动电话通过公共公用电话交换网 (PSTN)-为您的用户启用选项是否其帐户存在 Skype 上的 Office 365 中的业务联机或您的本地 Skype for Business服务器 2015年部署。 此招贴概括介绍了不同的 Microsoft 语音服务，并根据组织的当前状态和未来计划提供了有关可能最适合您的选项的指导。 <br/> <br/> 大小：34 × 44 英寸  <br/><br/> 此招贴是使用 Visio 2015 创建的。应该无需针对特定环境进行修改。  <br/> |
+|**Skype for Business 架构模型** <br/> ![Skype for Business 架构模型缩略图](media/0734153f-af7b-4cf3-b095-96bdd1de3fb0.png) <br/> [PDF 版本](https://go.microsoft.com/fwlink/?linkid=869125)（最适用于移动设备或平板电脑） <br/> [Visio 版本](https://go.microsoft.com/fwlink/?linkid=869126)（最适用于 Visio 用户） <br/> |此海报系列适用于 IT 专业人员的访问群体认知度通过其业务 online Skype 和 Skype 的本地业务服务器 2015年可使用的不同基本体系结构模型。 开始与最佳无论配置适合您组织的需要和将来的计划。 根据需要考虑并使用其他配置。 例如，您可能需要考虑与 Exchange 和 SharePoint 或利用 Microsoft 的云 PBX 产品的解决方案的集成。  <br/><br/> 大小：11 × 17 英寸  <br/><br/> 此招贴使用 Visio 2010 创建。应该无需针对特定环境进行修改。  <br/> |
    
 ## <a name="visual-assets"></a>可视资源
 

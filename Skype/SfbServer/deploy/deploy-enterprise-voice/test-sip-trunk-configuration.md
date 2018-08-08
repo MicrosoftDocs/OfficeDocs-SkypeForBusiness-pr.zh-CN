@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中测试 SIP 中继配置设置
+title: 测试 SIP 中继配置设置中 Skype 业务服务器
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,15 +13,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: 摘要： 了解如何使用 Skype 业务 Server 命令行管理程序测试 SIP 中继配置设置。
-ms.openlocfilehash: d71fe946a9a205d6305595ad9c5202d44b89ce56
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ea0874eabacfb814c5cc668654c56c86c788beff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984069"
 ---
-# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中测试 SIP 中继配置设置
+# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>测试 SIP 中继配置设置中 Skype 业务服务器
  
-**摘要：**了解如何使用 Skype 业务 Server 命令行管理程序测试 SIP 中继配置设置。
+**摘要：** 了解如何使用 Skype 业务 Server 命令行管理程序测试 SIP 中继配置设置。
   
 SIP 中继配置设置可定义中介服务器与服务提供商的公用电话交换网 (PSTN) 网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。这些设置可执行如下所指定内容的操作：
   

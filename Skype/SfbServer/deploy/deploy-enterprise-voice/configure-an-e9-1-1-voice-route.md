@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中配置 E9-1-1 语音路由
+title: 在 Skype for Business Server 中配置 E9-1-1 语音路由
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: 在 Skype for Business Server 企业语音配置 E9-1-1 语音路由。
-ms.openlocfilehash: b61b77fce36e0415d9c6f1189d8ecf2a5659d2f9
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 85259b6490b0f14d94d4d7c26f343d638911d909
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568226"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988746"
 ---
-# <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置 E9-1-1 语音路由
+# <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>在 Skype for Business Server 中配置 E9-1-1 语音路由
  
 在 Skype for Business Server 企业语音配置 E9-1-1 语音路由。 
   
-若要部署 E9-1-1，首先需配置紧急呼叫语音路由。 有关创建语音路由的详细信息，请参阅[创建或修改语音路由中的业务 2015 Skype](create-or-modify-a-voice-route.md)。 例如，如果部署包括主要 SIP 中继和辅助 SIP 中继，则可定义多个路由。 
+若要部署 E9-1-1，首先需配置紧急呼叫语音路由。 有关创建语音路由的详细信息，请参阅[创建或修改语音路由中的业务的 Skype](create-or-modify-a-voice-route.md)。 例如，如果部署包括主要 SIP 中继和辅助 SIP 中继，则可定义多个路由。 
   
 > [!NOTE]
 > 若要在 E9-1-1 INVITE 中包含位置信息，您需要配置连接到 E9-1-1 服务提供商的 SIP 中继以便通过网关路由紧急呼叫。 若要执行此操作，请对**Set-cstrunkconfiguration** cmdlet 为 True 设置 EnablePIDFLOSupport 标志。 EnablePIDFLOSupport 的默认值为 False。 例如： `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` ，无需为回退公共交换电话交换网 (PSTN) 网关和紧急位置识别号码 (ELIN) 网关启用接收位置。
@@ -38,7 +37,7 @@ ms.locfileid: "19568226"
     
 3. 运行以下 cmdlet 以创建新的 PSTN 用法记录。 
     
-    该名称必须与将用于位置策略中的 **PSTN** 设置的名称相同。 尽管部署中将具有多个电话用法记录，但以下示例将“紧急用法”添加到可用 PSTN 用法的当前列表。 有关详细信息，请参阅[配置语音策略、 PSTN 用法记录和中的业务 2015 Skype 的语音路由](voice-and-pstn.md)。
+    该名称必须与将用于位置策略中的 **PSTN** 设置的名称相同。 尽管部署中将具有多个电话用法记录，但以下示例将“紧急用法”添加到可用 PSTN 用法的当前列表。 有关详细信息，请参阅[配置语音策略、 PSTN 用法记录和 Skype for Business 中的语音路由](voice-and-pstn.md)。
     
    ```
    Set-CsPstnUsage -Usage @{add='EmergencyUsage'}

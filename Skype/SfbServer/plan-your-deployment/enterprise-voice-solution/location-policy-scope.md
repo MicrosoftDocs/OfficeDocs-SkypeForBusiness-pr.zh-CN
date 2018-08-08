@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中分配位置策略作用域
+title: 为业务服务器分配位置策略作用域中 Skype
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
 description: 规划业务 Server 企业语音中 Skype E9-1-1 部署的位置策略。
-ms.openlocfilehash: 745151092f0bc17abdfff2d26dd0186f24b8d038
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 26d621877a61f372a6f40d20f8253954e3d43e5d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966276"
 ---
-# <a name="assign-location-policy-scope-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中分配位置策略作用域
+# <a name="assign-location-policy-scope-in-skype-for-business-server"></a>为业务服务器分配位置策略作用域中 Skype
  
 规划业务 Server 企业语音中 Skype E9-1-1 部署的位置策略。
   

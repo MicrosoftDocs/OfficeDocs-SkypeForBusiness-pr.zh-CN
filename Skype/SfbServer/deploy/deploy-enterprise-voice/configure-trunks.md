@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中配置中继
+title: 在 Skype for Business Server 中配置中继
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
-description: 摘要： 了解如何在 Skype for Business Server 2015 配置中介服务器与企业语音的对等方之间的中继。
-ms.openlocfilehash: 4944cac2b06d837facf0cf014fb3a4fd32343305
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 了解如何在 Skype for Business Server 中配置中介服务器与企业语音的对等方之间的中继。
+ms.openlocfilehash: 7d40201cbf2305f464f66ead66ae3a8e7126ca03
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992390"
 ---
-# <a name="configure-trunks-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置中继
+# <a name="configure-trunks-in-skype-for-business-server"></a>在 Skype for Business Server 中配置中继
  
-**摘要：**了解如何在 Skype for Business Server 2015 配置中介服务器与企业语音的对等方之间的中继。
+**摘要：** 了解如何在 Skype for Business Server 中配置中介服务器与企业语音的对等方之间的中继。
   
 作为企业语音部署的一部分，您可以配置中介服务器和一个或多个您的组织中的企业语音客户端和设备提供公用电话交换网 (pstn) 连接的以下的对等方之间中继：
   
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/03/2018
     
 - 专用交换机 (PBX)
     
-有关详细信息，请参阅[规划中的业务服务器 2015 Skype 的 PSTN 连接](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)。
+有关详细信息，请参阅[规划中的业务服务器 Skype 的 PSTN 连接](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)。
   
 业务服务器功能的 Skype 支持多个网关和中介服务器之间的关联。 通过定义是中介服务器池和公用电话交换网 (pstn) 网关，会话边界控制器 (SBC) 或 IP PBX 之间的逻辑关联 a trunk 进行这些关联。 使用拓扑生成器将网关与中介服务器 （即，中继） 相关联。
   

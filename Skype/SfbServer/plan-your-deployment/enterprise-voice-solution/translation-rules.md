@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 中的转换规则
+title: Skype 业务服务器中的转换规则
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: 了解转换规则，并拨号字符串规范化 Skype 中的业务 Server 企业语音。
-ms.openlocfilehash: c72e3909fdc0e4485683382b84a5d737fa75b8fc
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4ef5f92b8c5ef91abeb5ce2b6ea1e4c0eebe7580
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973184"
 ---
-# <a name="translation-rules-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的转换规则
+# <a name="translation-rules-in-skype-for-business-server"></a>Skype 业务服务器中的转换规则
  
 了解转换规则，并拨号字符串规范化 Skype 中的业务 Server 企业语音。
   
@@ -37,7 +37,7 @@ ms.lasthandoff: 05/03/2018
   
 有关如何实施转换规则的详细信息，请参阅部署文档中的[Defining Translation Rules](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) 。
   
-|**说明**|**起始数字**|**长度**|**删除的数字**|**要添加的数字**|**匹配模式**|**转换**|**示例**|
+|**说明**|**起始数字**|**长度**|**要删除的数字**|**要添加的数字**|**匹配模式**|**转换**|**示例**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |美国常规长途拨号  <br/> (去掉 +)  <br/> |+ 1  <br/> |正好 12 位  <br/> |1  <br/> |0  <br/> |^\+(1\d{10}) $  <br/> |$1  <br/> |+14255551010 变为 14255551010  <br/> |
 |美国国际长途拨号  <br/> (去掉 + 并添加 011)  <br/> |+  <br/> |至少 11 位  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d+)$  <br/> |011$1  <br/> |+441235551010 变为 011441235551010  <br/> |

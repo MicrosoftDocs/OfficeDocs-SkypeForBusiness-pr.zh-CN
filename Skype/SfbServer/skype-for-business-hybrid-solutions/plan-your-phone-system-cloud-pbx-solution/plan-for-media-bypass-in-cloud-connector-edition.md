@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: 阅读本主题，以了解使用云连接器版本 2.0 版和更高版本实现媒体旁路的规划注意事项。 有关部署媒体绕过，请参阅 Deploy 媒体绕过云连接器版本中。
-ms.openlocfilehash: 0cf79a256030635ccab92653f8f7b40b5ba0b555
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 70c7f8721386c3ef0270e7ef938624a70184b942
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504563"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967134"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>在云连接器版本中规划媒体旁路
  
@@ -36,7 +36,7 @@ ms.locfileid: "19504563"
   
 例如，在以下拓扑 — 不采用媒体的旁路 — Skype 业务客户端发起 PSTN 呼叫外部号码的 SIP 信号转到 Office 365 和 Office 365 便会根据最终用户语音信号流量策略。 云连接器用户语音策略将定向到云连接器边缘服务器，然后将信号流量路由到 PSTN 会话边界控制器 (SBC) 或通过云连接器中介服务器的网关的信号流量。 媒体从流动业务客户端 Skype 云连接器中介服务器，然后写入的 SBC 或网关，如下图中所示：
   
-**媒体和信号路径没有媒体绕过**
+**没有媒体旁路功能的媒体和信号路径**
 
 ![没有媒体旁路功能的信号](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
   
@@ -44,7 +44,7 @@ ms.locfileid: "19504563"
   
 下一个拓扑中 — 采用媒体的旁路 — 信号采用相同的路径，但直接之间业务客户端和 SBC 或网关，Skype 流动的媒体，如下图中所示：
   
-**媒体和信号路径与媒体绕过**
+**具有媒体旁路功能的媒体和信号路径**
 
 ![有媒体旁路功能的信号](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
   
@@ -52,7 +52,7 @@ ms.locfileid: "19504563"
 
 您想要提供多个网站使用单个云连接器装置的电话服务时，则也可以媒体绕过。 云连接器无法将基于源或目标号码的呼叫路由，因为大多数企业部署的 SBC 或云连接器后面的网关做出路由决定。 在此方案中，媒体旁路使客户端与中心 SBC 或网关之间不再存在跃点，如下图所示：
   
-**多网站应用程序**
+**多站点应用**
 
 ![云连接器多站点示例](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
@@ -79,7 +79,7 @@ ms.locfileid: "19504563"
   
 有关版本通道的详细信息，请参阅[Overview of Office 365 ProPlus 的更新通道](https://support.office.com/en-us/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US)。
   
-当前发行版本中舂中的客户端，请参阅[更新通道版本的 Office 365 客户端](https://technet.microsoft.com/en-us/office/mt465751.aspx)。 
+当前发行版本中舂中的客户端，请参阅[发布的更新 Office 365 ProPlus 的信息](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)。 
   
 ## <a name="cloud-connector-capacity-considerations-with-media-bypass"></a>使用媒体旁路功能时的云连接器容量注意事项
 
@@ -112,4 +112,4 @@ ms.locfileid: "19504563"
   
 ## <a name="see-also"></a>另请参阅
 
-[部署在云连接器 Edition 中的媒体绕过](deploy-media-bypass-in-cloud-connector.md)
+[在云连接器版本中部署媒体旁路](deploy-media-bypass-in-cloud-connector.md)

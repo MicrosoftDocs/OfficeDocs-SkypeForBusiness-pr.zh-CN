@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 中的通知应用程序部署过程
+title: Skype 中为 Business Server 的通知应用程序的部署过程
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: 部署过程和 Skype 中为 Business Server 企业语音的通知应用程序的步骤。
-ms.openlocfilehash: 08a52569dede43bbe54b1bf7e62f37114ba68853
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 6aabc5090d233b991e1fd89ef61f364a6b1c5666
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968911"
 ---
-# <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的通知应用程序部署过程
+# <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Skype 中为 Business Server 的通知应用程序的部署过程
  
 部署过程和 Skype 中为 Business Server 企业语音的通知应用程序的步骤。
   
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/03/2018
 
 |**阶段**|**步骤**|**角色**|**部署文档**|
 |:-----|:-----|:-----|:-----|
-|配置通知设置  <br/> | 通过录制并上载音频文件或使用文本到语音转换 (TTS) 来创建通知。 <br/>  配置未分配号码表中的未分配号码范围，然后将其与相应的通知关联。 <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> |[创建或删除业务服务器 2015年中 Skype 通知](create-an-announcement.md) <br/> [创建或修改业务服务器 2015 Skype 中的未分配号码范围](create-or-modify-an-unassigned-number-range.md) <br/> |
-|验证通知部署  <br/> |通过侦听通知来进行测试以验证配置是否按预期工作。  <br/> |-  <br/> |[（可选）验证通知部署中的业务 2015 Skype](optional-verify-announcement-deployment.md) <br/> |
+|配置通知设置  <br/> | 通过录制并上载音频文件或使用文本到语音转换 (TTS) 来创建通知。 <br/>  配置未分配号码表中的未分配号码范围，然后将其与相应的通知关联。 <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> |[创建或删除业务服务器中 Skype 通知](create-an-announcement.md) <br/> [创建或修改业务服务器 Skype 中的未分配号码范围](create-or-modify-an-unassigned-number-range.md) <br/> |
+|验证通知部署  <br/> |通过侦听通知来进行测试以验证配置是否按预期工作。  <br/> |-  <br/> |[（可选）验证通知部署中的业务的 Skype](optional-verify-announcement-deployment.md) <br/> |
    
 

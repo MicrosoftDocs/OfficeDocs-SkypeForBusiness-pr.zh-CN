@@ -1,241 +1,110 @@
 ---
-title: 在使用 Skype for Business 的同时试用 Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: 试点旁 for Business 的 Microsoft 团队的 Skype 的 Microsoft 团队
+author: dearbeen
+ms.author: dearbeen
 manager: serdars
-ms.date: 03/19/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-description: 指导在继续使用 Skype for Business 的同时，开始 Microsoft Teams 试点以探索 Teams 可以为贵组织完成的所有事项。
+ms.reviewer: dearbeen
+description: 启动 Microsoft 团队试浏览所有团队的指南可以提供您的组织时您继续使用 Skype for Business
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccb09692991eeacc43d035389d245a0735030f1c
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 35ec24edb381f48992c2f558d1b7e68b1ffd6d74
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20393924"
 ---
-<a name="pilot-microsoft-teams-alongside-skype-for-business"></a>在使用 Skype for Business 的同时试用 Microsoft Teams
-============================================
+![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
 
-作为现有的 Skype for Business 和 Office 365 客户，贵组织已参与了新式工作场所运动，从而帮助你的用户变得更具有创造力和创新性且工作效率更高。 Microsoft Teams 通过增加的功能（例如，团队合作的协作中心、应用集成和文件存储）进一步扩展了各种可能性。 当你将 Skype for Business 的当前功能与 Teams 的增值服务结合使用时，你即采用了功能强大的通信与协作解决方案，这可以彻底改变用户的工作方式。
+这篇文章属于您升级旅程，部署和实施阶段并共享见解运行有效试验。 在继续之前，确认您已完成以下活动：
 
-你的 Teams 旅程以及今后发展建议基于你的试点成果。 虽然你仍在使用 Skype for Business，但我们鼓励你探索 Teams 可以为贵组织完成的所有事项。 由于 Teams 与 Skype for Business 之间存在一些重叠功能，因此务必要先进行用户试点。 试点是小规模部署，通过它可以验证在你的环境中与 Skype for Business 的互操作性，了解你的最终用户如何能够最大限度地提高其工作效率，同时最大限度地减少并行运行两个产品带来的混乱。
+-   [登记项目利益干系人](upgrade-enlist-stakeholders.md)
+-   [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
+-   [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
+-   [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+-   [准备您的环境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+-   [准备您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
 
-此资源是为当前 Skype for Business 客户定制的，提供了指导和最佳做法，以帮助你开始：
-
--   个性化操作步骤和建议以最好地符合贵组织的情况。
-
--   下载和自定义[试点要素资源](https://go.microsoft.com/fwlink/?linkid=859067)中提供的通信和反馈模板，以确保你的意图得到你的最终用户的回应。
-
-<a name="get-started"></a>入门
-===========
-
-试点旨在确认组织的就绪情况，它是在你进行组织范围的部署之前，对大型规模所需的资源和过程进行实际验证。  为了获得最符合实际的结果，试点计划应模拟用户当前通信和协作的方式，从而验证采用 Skype for Business 和 Microsoft Teams 的理想部署方案。 无论贵组织是考虑并行运行 Skype for Business 和 Teams，还是在将来某个时间过渡到 Teams，试点都可以帮助确定适合贵组织的正确前进方向。 *我们开始吧！*
-
-![试点项目的流程步骤示意图。](media/pilot_essentials_image3.png)
-
-## <a name="step-one-define-your-pilot-program-logistics"></a>第一步：定义试点计划后勤工作
-
-正规的试点应定义作为目标的前进方向，并包括一个项目团队、[SMART](https://wikipedia.org/wiki/SMART_criteria) 目标、设定的时间线、明确的测试计划以及反馈机制。 花时间解决这些问题以帮助概括列出试点计划物流：
-
--   试点的项目利益干系人是谁？
-
-    -   利益干系人应包括对试点成功负有责任的代表。 例如：
-
-        -   **执行发起人** 全面负责协作和通信解决方案在贵组织中的成功。
-
-        -   **项目（试点）主管：** 管理试点的后勤工作，协调利益干系人。
-
-        -   **IT 专业人士：** 确保为 Teams 试点完成网络就绪。
-
-        -   **支持主管：** 负责为 Teams 准备好支持。
-
-        -   **市场营销/沟通主管：** 负责所有认知和培训沟通。
-
-<!-- -->
-
--   Teams 和 Skype for Business 的业务应用场景是什么？
-
-    -   使用情况和用例将有助于为你的测试计划提供信息。 查看 Skype for Business 的当前[使用情况报告](https://support.office.com/article/Active-user-in-Office-365-usage-reports-093A6D0D-890B-489E-9F46-B15687D3FE4F)和/或以你的 Skype for Business 主要用户为焦点小组来更好地了解其当前协作和通信应用场景。
-
--   你是否熟悉 Teams 路线图？
-
-    -   花时间了解 Teams [路线图](https://go.microsoft.com/fwlink/?linkid=859047)，这有助于你了解试点的范围和执行时间。 相应地安排试点和功能/应用场景测试的时间，以确保对在贵组织中的适用性进行实际验证。
-
--   你的 Teams 试点的目标和成功标准是什么？
-
-    -   设定清晰的目标将提供用于衡量成功和定义最佳前进方向的机制。 [试点要素资源](https://go.microsoft.com/fwlink/?linkid=859067)中提供了目标和成功标准示例。
-
--   你的试点时间线是什么？
-
-    -   定义试点的明确开始日期和结束日期以保持推进力以及预留时间对影响进行评估。 建议试点至少为 30 天。 先从小型试点开始，然后根据情况扩大试点规模 - 无论是其他工作负荷/功能还是其他用户，并预留时间在后续过程中评估结果和调整试点。 你甚至可以选择在按路线图发布 Teams 新功能时进行后续试点。
+# <a name="conduct-a-user-pilot"></a>召开用户试生产
 
 
+通过部署新技术，您的组织实现的业务价值，如成本节约、 安全合规性、 员工满意度和运营效率，但它还会影响用户工作效率和组织的基础结构 （您的网络）。 在整个组织中启用新技术之前, 进行正式用户试验。 像绘制整个聊天室之前，将绘制的背景墙上的颜色小修补程序，您将通过进行试验验证技术和用户准备情况测试较小范围广泛推出、 标识和缓解一些问题，并帮助确保成功组织范围内实现。 
 
-> [!TIP]
-> 应在你的生产环境中进行试点以便获得最佳效果。 在开始试点之前，确认已完成所有技术先决条件，例如，你的试点用户可以创建新团队和频道。
+若要获得最实际结果，试用应涉及实际用户、 模仿通信和协作，并验证技术和用户的体验如何。 无论您的组织正在考虑运行 Skype 业务和团队并排，升级到团队将来，或部署的新功能，这样的呼叫或会议，试验可以帮助确定您的组织的右转接的路径。 有时视为推出的第 1 阶段，理想试用利用您已经启动的准备工作，并实现与目标组的用户定义的计划。 
 
-<table>
-<thead>
-<tr class="header">
-<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>下一步操作：</strong><ul><li>组建试点计划团队</li><li>明确将在试点中测试的业务应用场景和功能</li><li>设定成功标准和目标</li><li>制定试点时间线</li></ul></td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>如何使用试，告知项目方向？</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>下一步|<ul><li>使用以下指南来设计和执行您正式试验。</li></ul>|
 
-## <a name="step-two-select-your-pilot-participants"></a>第二步：选择试点参与者
+> [!Tip]
+> 使用示例[试验资源](https://aka.ms/UpgradeSuccessKit)以帮助设计您的通信，测试计划和反馈调查。
 
-试点计划最重要的任务之一是仔细选择参与者。 理想的试点组包括旨在验证组织要求和功能集预期用途的所有使用场景的典型用户。  这包括来自贵组织中各种角色（行政主管、管理层、项目经理、会议高级用户）、不同部门/业务单位以及多个区域（如果适用）的典型用户。 试点应扩展到 IT、培训和支持部门的关键人员。  这样，可以在全面优化项目管理资源时进行充分验证。
+## <a name="1-outline-pilot-logistics"></a>1.大纲试点物流
 
-为了进行最优验证，请考虑包括大约 2-5% 的用户群，或至少 50 个用户，以最能代表贵组织的情况为准。 根据你的试点时间线，你可以选择先从小型试点开始，然后逐渐扩展到其他试点用户。
+成功试验已定义的开始和结束日期，以及用于测量成功[明确的定义目标](upgrade-define-project-scope.md#project-goals)。 这些目标应何时记录您的对齐与您更广泛的项目的范围[定义您的项目范围](upgrade-define-project-scope.md)和可用于通知您转接的路径，您的试生产结束后。 您还应确保项目的持续时间内包含了右利益干系人。  您需要以确保留出足够的时间运行试行和评估及其影响： 建议 30 天内的最小值。
 
+开始的并将添加到您的试生产根据 — 通过添加的工作负荷或功能或其他用户是否 — 进行时间评估结果和调整您的试生产循环。 您甚至可能选择运行后续示范，如每路线图释放团队的新功能。
 
-> [!TIP]
-> 选择你的 Teams 试点组参与者时，请务必包括 Skype for Business 的资深采用者以及将从 Teams 的团队合作中心功能受益的用户/组。 请考虑在选择试点用户时使用当前跨团队项目工作流程，以及在你的测试计划中使用实际用例。
+## <a name="2-select-your-pilot-participants-and-test-scenarios"></a>2.选择试点参与者和测试方案
 
-<table>
-<thead>
-<tr class="header">
-<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>下一步操作：</strong>标识您试验测试组使用[选择团队先导部署的用户](https://review.docs.microsoft.com/en-us/MicrosoftTeams/select-users-for-your-teams-pilot?branch=cloudvoice-working)指南。</td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+试点计划最重要的任务之一是仔细选择参与者。 请记住团队专为团队合作，因此请确保选择试点参与者而不仅仅基于角色或角色，但也基于其项目和跨团队工作。 开始的好地方实际可以验证团队中的项目在要求您的利益干系人和部门经理。 基于角色的示例可能是项目的使用与组织销售团队以确保字段代表可以轻松访问它们需要并与其他域成员共享见解的资源。 基于项目的工时的示例可能协调具有市场营销、 培训、 公共关系和规划工作组的事件的产品发布事件。 选择，无论方案试用应扩展到中的关键人员 IT、 培训和帮助台，以便同时完全优化项目管理资源进行全面验证解决方案。
 
-## <a name="step-three-design-your-test-plan-and-feedback-survey"></a>第三步：设计测试计划和反馈调查
+> [!Tip]
+> 时选择您的团队试用组参与者，请确保包括顶部的 Skype for Business 的用户。 检查与这些用户了解如何使用 Skype for Business 如今，然后构建测试计划验证团队可以满足他们当前的需求。
 
-成功的试点体验可为你的参与者提供要完成的定义清晰的任务以及反馈途径。 将任务分组到一起，以便向用户呈现真实场景，从而说明与其日常活动的相关性。 贵组织可以选择一次性试用所有功能，也可以采用渐进式方法（例如，先试用协作，然后试用会议，再试用聊天和通话）。 确保你具有开放反馈渠道，以便跟踪进度和评估成果。 预定义的调查是一种轻松获取和评估试点结果的方式，应根据测试计划中的应用场景和功能进行设计。
+## <a name="3-design-your-test-plan-and-feedback-survey"></a>3.设计测试计划和反馈调查
 
-<table>
-<thead>
-<tr class="header">
-<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>下一步操作：</strong> 根据你将测试的用例和功能对<a href="https://go.microsoft.com/fwlink/?linkid=859067">试点要素资源</a>中提供的示例测试计划和反馈调查进行定制。</td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+为了成功的生产体验，请提供参与者明确定义的任务完成以及一种方法可以共享他们的反馈。 任务组，在一起以提供给用户，演示其每日活动到相关性现实世界方案。 让您测试[评估组织更改就绪性](https://aka.ms/OrgReadiness)指南中定义的情况下计划的使用。
 
-## <a name="step-four-create-your-communications"></a>第四步：建立沟通方式
+您的组织可以选择同时试用所有功能或使用逐步方法 — 例如，首先，都试用协作，则会议，然后聊天和调用。 确保您有打开反馈通道来跟踪进度和衡量产出。 使用预定义的调查可以方便地捕获和评估试点结果;调查设计应基于场景和功能测试计划中。 
 
-向你的试点参与者说明接下来将发生的情况、何时、为什么以及对他们的期望，这对于试点的成功至关重要。 为了激发热情并最大限度地提高参与积极性，请务必在与你的试点参与者沟通时传递最终用户价值。
+## <a name="4-create-your-communications-plan"></a>4.创建沟通计划
 
-此外，请确保你的沟通包括指向培训和支持的链接，用户在参与试点过程中可以在这些地方获取其他信息。 良好的帮助主题以包含是[切换到从 Skype 的业务团队](https://support.office.com/en-us/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)，它显示了一些常见的功能，以及一些新功能，可将在 Microsoft 小组。
+至关重要的告知试点参与者的最新动态，时，及使用原因，和预期的试生产成功。 来兴奋和最大参与驱动器，请务必包括用户值消息除了链接培训和支持用户可从中获取其他信息通过试行进行处理时。 下面是一些示例资源以帮助您着手试点通信计划：
 
-<table>
-<thead>
-<tr class="header">
-<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>下一步操作：</strong> 根据你将测试的用例和功能对<a href="https://go.microsoft.com/fwlink/?linkid=859067">试点要素资源</a>中提供的示例电子邮件模板进行自定义。</td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+-   [试验资源](https://aka.ms/UpgradeSuccessKit)，包括电子邮件模板和示例反馈调查问题
+-   [切换到 for Business 的 Skype 来自团队](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)，旨在帮助 Skype 业务用户的快速入门指南入门团队
 
-## <a name="step-five-conduct-your-pilot"></a>第五步：进行试点 
+## <a name="5-conduct-your-pilot"></a>5.开展您的试生产
 
-所有后期工作就位后，现在可以开始你的试点。 进行试点包括向你的试点用户传递信息、监控你的网络/使用情况以确保你的网络和质量保持正常状况、收集来自参与者的反馈以及检查支持票证来了解与 Teams 有关的问题。
+与就地物流所有，您现在已准备好开始您的试生产。 开展您的试生产包括与您的用户，您的网络和用法，以确保您的网络性能监控和查看问题的支持人员票证有关和呼叫质量保持正常运行，从参与者收集反馈团队。
 
-> [!IMPORTANT]
-> Teams 默认情况下处于启用状态，但在开始试点之前，请通过检查确保所有试点用户均已启用 Teams。 有关执行此操作的帮助，请阅读[对团队的管理用户访问](user-access.md)。
-> 
+### <a name="tips-for-pilot-success"></a>试验成功提示
+
+以下提示可帮助确保您的试生产成功：
+-   在开始之前您的试生产，确认启用要验证相应[共存模式](https://aka.ms/SkypeToTeams-SetCoexistence)的所有试点参与者。
+-   每周，在您的试生产整个会见项目利益干系人，查看用户反馈、 使用率数据、 网络数据和支持人员票证，以确保您的试生产顺利。 根据需要进行调整。
+
+### <a name="suggested-timeline"></a>建议的时间线
 
 下面是 30 天试点的建议时间线：
 
--   试点启动之前一周：向试点用户发送初步沟通信息
+-   试点启动前一个星期： 向试点用户发送初始通信。
+-   第 1 天： 向试点用户发送启动通信。
+-   天 7： 保留第一次每周项目团队检查点会议。
+-   天 14： 发送到您的试生产用户的中点通信、 保留每周的项目工作组检查点会议。
+-   天 21： 保留每周的项目工作组检查点会议。
+-   天 30： 向试生产用户发送最后的通信。
+-   31 – 45 天： 评估试点结果，以及如何规划后续步骤。
+ 
+## <a name="6-assess-learnings-and-evaluate-your-go-forward-plan"></a>6.评估经验教训并评估您转转接的计划
 
--   第 1 天：向试点用户发送启动沟通信息
+您的试生产完毕后，它是收集所有反馈调查、 最终网络 stats 和针对您的目标分析支持票证，并确定是否将实现转转接计划的时间。 您可能发现您的组织已准备好广泛的部署，或您想要将您的试生产扩展到多个用户，或者您想要在以后后已减轻了您已确定任何问题随着试用。 请记住，您的试生产是好办法预测技术和_控制_环境; 中的用户产出是精心有关跳转提前太快。
 
--   第 7 天：每周项目团队检查点（与你的试点项目团队会面，检查用户反馈、使用情况数据、网络数据和支持票证以确保你的试点进展顺利。 根据需要进行任何调整）
+如果您结果表明：
 
--   第 14 天：向你的试点用户发送中点沟通信息，每周项目团队检查点
+-   **实现您试点目标 （例如，用户满意度和网络质量）**，您应该已准备好继续与您的推出的下一个阶段。 根据您的目标，这可能是项目的下列选项之一：
+   -   扩展到其他参与者的试生产
+   -   [启用您的组织的部分或全部团队旁 Skype for Business （**群岛**模式）](https://aka.ms/SkypeToTeams-SetCoexistence)
+   -   [将用户从 for Business 的 Skype 向工作组 （**仅团队**模式） 升级为部分或全部您的组织](https://aka.ms/SkypeToTeams-SetCoexistence)
+-   **您的试生产未实现的输出您在需要 （例如，用户满意度和网络质量）**，需要进行适当的调整到您的计划和重新访问您的试生产的时间。
 
--   第 21 天：每周项目团队检查点
-
--   第 30 天：向试点用户发送最终沟通信息
-
-<table>
-<thead>
-<tr class="header">
-<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td><p><strong>下一步操作：</strong> 根据你的试点时间线定制时间线操作。</p></td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-
-## <a name="step-six-assess-learnings-and-evaluate-go-forward-plan"></a>第六步：评估试点结果及制定今后发展计划
-
-完成试点后，应收集所有反馈调查、最终网络统计信息和支持票证，以针对你的目标进行分析，以及确定今后发展计划。
-
-根据你的成果，下面提供了你继续从 Skype for Business 到 Teams 的旅程中贵组织可能采取的一些建议方式：
-
-<table>
-<thead>
-<tr class="header">
-<th align="left">今后发展建议</th>
-<th align="left"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><strong>如果</strong>你的试点结果表明</td>
-<td align="left"><strong>那么</strong>你可以考虑</td>
-</tr>
-<tr class="even">
-<td align="left"><ul><li>80% 或更高比例的用户认同可以轻松地与 Skype for Business 一起利用 Teams</li>
-<br>-且-<br><br>
-<li>根据当前用例和应用场景，低于 80% 的用户认同 Teams 可以替代 Skype for Business</li>
-<br>-且-<br><br>
-<li>网络运行状况令人满意</li></ul></td>
-<td align="left"><p>对于某些/所有可用应用场景并行部署 Teams 和 Skype for Business。 为了推动了解过程，我们强烈建议逐渐部署功能，而不是采用一次性全部完成的方法。</p>
-<p>了解有关[升级历程和 Skype 业务和团队的共存](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)。</p>
-<p>下载<a href="https://go.microsoft.com/fwlink/?linkid=859044">用户就绪模板</a>以协助与你的最终用户就其全新的并行体验进行沟通。</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><ul><li>根据当前用例和应用场景，80% 或更高比例的用户认同 Teams 可以替代 Skype for Business</li>
-<br>-且-<br><br>
-<li>网络运行状况令人满意</li></ul></td>
-<td align="left"><p>对于所有应用场景并行部署 Teams 和 Skype for Business，鼓励用户尽可能优先使用 Teams。 此外，通知你的客户团队或 Microsoft 支持以让他们了解贵组织可能准备转为使用 Teams。</p>
-<p>了解有关[升级历程和 Skype 业务和团队的共存](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)。</p>
-<p>下载<a href="https://go.microsoft.com/fwlink/?linkid=859044">用户就绪模板</a>以协助与你的用户就其全新的并行体验进行沟通。</p></td>
-</tr>
-<tr class="even">
-<td align="left"><ul><li>低于 80% 的用户认同可以轻松地与 Skype for Business 一起利用 Teams</li>
-<br>-且-<br><br>
-<li>根据当前用例和应用场景，低于 80% 的用户认同 Teams 可以替代 Skype for Business</li></ul></td>
-<td align="left">继续使用 Skype for Business 进行通信（例如，即时消息、会议、通话），同时利用 Teams 的新式协作功能（例如，团队/频道）。 按<a href="https://go.microsoft.com/fwlink/?linkid=859047">路线图</a>发布新功能时，重审 Teams 试点以验证通信功能。</td>
-</tr>
-</tbody>
-</table>
-
-
-> [!NOTE]
-> 请务必利用你的试点参与者作为[支持者](https://go.microsoft.com/fwlink/?linkid=859068)，以协助向新用户推行 Teams 以及使新用户上手使用 Teams。
-
-<table>
-<thead>
-<tr class="header">
-<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left">
-<p><strong>下一步操作：</strong></p><ul><li>分析你的试点结果和确定前进方向。 如果你选择与 Skype for Business 一起部署 Teams，请务必利用[用户就绪模板](https://go.microsoft.com/fwlink/?linkid=859044)以帮助你开始。</li><li>查看 [Teams 路线图](https://go.microsoft.com/fwlink/?linkid=859047)并将其设为书签。</li>
-<li>一旦你的试点结果表明用户接受使用 Teams，请[为贵组织并行启用 Teams](continue-journey.md)。</li></ul></td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-
-
-
-
+> [!Tip]
+> 登记试点参与者作为对等方拥护者可帮助宣传和向工作组的板载新用户。 对等方拥护者可以轻松地与其他用户共享其自己的体验和经验教训，并为其同事提供支持和指南。 了解有关[拥护者](https://go.microsoft.com/fwlink/?linkid=859068)和如何在您自己的推出使用它们。 
