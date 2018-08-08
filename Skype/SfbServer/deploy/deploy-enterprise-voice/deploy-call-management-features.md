@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中部署呼叫管理功能
+title: 部署 Skype for Business 中的呼叫管理功能
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: 为业务 Server 企业语音部署 Skype 中的呼叫管理功能。
-ms.openlocfilehash: 181c8e983416c91e6847869786170ad2f73c8728
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a63f53970b25c9148c65c95890df14e77feb0008
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025657"
 ---
-# <a name="deploy-call-management-features-in-skype-for-business-2015"></a>在 Skype for Business 2015 中部署呼叫管理功能
+# <a name="deploy-call-management-features-in-skype-for-business"></a>部署 Skype for Business 中的呼叫管理功能
  
 为业务 Server 企业语音部署 Skype 中的呼叫管理功能。
   
@@ -38,12 +38,12 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="in-this-section"></a>本节内容
 
-- [部署过程中的业务 2015 Skype 的呼叫寄存](deployment-process-for-call-park.md)
+- [Skype for Business 中的呼叫寄存的部署过程](deployment-process-for-call-park.md)
     
-- [Deployment process for Group Call Pickup in Skype for Business 2015](deployment-process-for-group-call-pickup.md)
+- [组中的业务的 Skype 调用的分拣的部署过程](deployment-process-for-group-call-pickup.md)
     
-- [部署过程中的业务 2015 Skype 的响应组](deployment-process-for-response-group.md)
+- [Skype for Business 中的响应组部署过程](deployment-process-for-response-group.md)
     
-- [业务服务器 2015 Skype 中的通知应用程序的部署过程](deployment-process-for-the-announcement-application.md)
+- [Skype 中为 Business Server 的通知应用程序的部署过程](deployment-process-for-the-announcement-application.md)
     
 

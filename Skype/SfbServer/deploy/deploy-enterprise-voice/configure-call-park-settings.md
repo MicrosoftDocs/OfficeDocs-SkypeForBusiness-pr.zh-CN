@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中配置呼叫寄存设置
+title: Skype for Business 中配置呼叫寄存设置
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: 修改 Skype 中的业务 Server 企业语音的呼叫寄存设置。
-ms.openlocfilehash: c0aacdf23788c56d2bd0204665d5971dc715df3b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 518cefda9cd6186c8362dea83bb80acb046d441d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568302"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019515"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business-2015"></a>在 Skype for Business 2015 中配置呼叫寄存设置
+# <a name="configure-call-park-settings-in-skype-for-business"></a>Skype for Business 中配置呼叫寄存设置
  
 修改 Skype 中的业务 Server 企业语音的呼叫寄存设置。
   
@@ -60,7 +59,7 @@ ms.locfileid: "19568302"
 
 ## <a name="see-also"></a>另请参阅
 
-[自定义业务 2015年的保留 inSkype 的呼叫寄存音乐](customize-call-park-music-on-hold.md)
+[在 Skype for Business 2015 中自定义呼叫寄存保持音乐](customize-call-park-music-on-hold.md)
 
 [新 CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
   

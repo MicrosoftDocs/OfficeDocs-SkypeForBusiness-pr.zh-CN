@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中规划单位电话呼叫
+title: 规划用单位电话的 Skype 业务服务器的呼叫
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: 用于呼叫通过 Skype 中规划 Business Server，这样可使 for Business 的 Skype 和 PBX 电话系统，之间的集成，以便用户可以使用 for Business 的 Skype 控制其 PBX 电话。
-ms.openlocfilehash: 29c7c894d15621c0560eeef30ac7e5cbb28044fa
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 3a79ac426ff009ddc934d5bb4b1dadd0077941dc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003925"
 ---
-# <a name="plan-for-call-via-work-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中规划单位电话呼叫
+# <a name="plan-for-call-via-work-in-skype-for-business-server"></a>规划用单位电话的 Skype 业务服务器的呼叫
  
 用于呼叫通过 Skype 中规划 Business Server，这样可使 for Business 的 Skype 和 PBX 电话系统，之间的集成，以便用户可以使用 for Business 的 Skype 控制其 PBX 电话。
   
@@ -98,9 +98,7 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
-[规划业务 2015年的 Skype 中的远程呼叫控制](remote-call-control.md)
+[Plan for Business 的 Skype 中的远程呼叫控制](remote-call-control.md)
   
-[部署呼叫通过业务服务器 2015 Skype 中工作](../../deploy/deploy-call-via-work.md)
+[在 Skype for Business Server 2015 中部署单位电话呼叫](../../deploy/deploy-call-via-work.md)
 

@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中部署 SEFAUtil 工具
+title: 部署中的业务的 Skype 的 SEFAUtil 工具
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: 为业务 Server 部署中 Skype 的 SEFAUtil 工具。
-ms.openlocfilehash: 4def73d0bca655569275f61d9ebfeafb4ab7e3d4
-ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.openlocfilehash: 55079f1727a6671a41e87582edd5810a4daa731f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001201"
 ---
-# <a name="deploy-the-sefautil-tool-in-skype-for-business-2015"></a>在 Skype for Business 2015 中部署 SEFAUtil 工具
+# <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>部署中的业务的 Skype 的 SEFAUtil 工具
  
 为业务 Server 部署中 Skype 的 SEFAUtil 工具。
   
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/10/2018
 在部署中，可以在任何前端池中运行 SEFAUtil 工具。 若要运行 SEFAUtil 工具必须运行步骤 1、 2 和 3 从 Skype 业务部署向导的受信任的应用程序计算机上。 SEFAUtil 需要本地配置存储为存在此参数，以及证书。
   
 > [!NOTE]
-> 有关运行 SEFAUtil，有关详细信息，请参阅 Technet 博客文章，"[如何获取 SEFAutil 运行？](https://go.microsoft.com/fwlink/?LinkId=278940)"。 
+> 有关运行 SEFAUtil，有关详细信息，请参阅博客文章"[如何获取 SEFAutil 运行？](https://go.microsoft.com/fwlink/?LinkId=278940)"。 
   
 ### <a name="to-deploy-sefautil"></a>部署 SEFAUtil
 

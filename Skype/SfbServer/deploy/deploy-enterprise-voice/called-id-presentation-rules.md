@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中创建或修改来电显示的转换规则
+title: 创建或修改转换规则的呼叫 ID 演示文稿中 Skype 业务服务器
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
-description: 摘要： 了解如何通过使用生成的转换规则工具的 Skype 中的业务服务器 2015年定义转换规则。
-ms.openlocfilehash: eeff210b409d9d53ae54a30041207cffaa618f32
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 摘要： 了解如何使用生成的转换规则工具中 Skype 业务服务器定义转换规则。
+ms.openlocfilehash: 61c68f03ab3c9f1a34f9ae5c24f727954365fb6a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500870"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006565"
 ---
-# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建或修改来电显示的转换规则
+# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>创建或修改转换规则的呼叫 ID 演示文稿中 Skype 业务服务器
  
-**摘要：** 了解如何通过使用生成的转换规则工具的 Skype 中的业务服务器 2015年定义转换规则。
+**摘要：** 了解如何使用生成的转换规则工具中 Skype 业务服务器定义转换规则。
   
 如果您想要在**建立转换规则**工具中输入的一组值和启用业务 Server 控制面板为您生成的相应匹配模式和转换规则的 Skype 定义转换规则，请按照以下步骤。 或者，可以手动编写正则表达式来定义匹配模式和转换规则。 有关详细信息，请参阅[创建或修改转换规则手动](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)。
   
@@ -31,7 +30,7 @@ ms.locfileid: "19500870"
 
 1. 打开 Skype 业务 Server Control Panel。
     
-2. 要开始定义转换规则，请按照中的步骤[配置与媒体中继绕过中的业务服务器 2015 Skype](configure-trunk-with-media-bypass.md)通过 10 个步骤或[配置无媒体中继绕过中的业务服务器 2015 Skype](configure-trunk-without-media-bypass.md)前 9 个步骤。
+2. 要开始定义转换规则，请按照中的步骤[配置与媒体中继绕过 Skype 业务服务器中](configure-trunk-with-media-bypass.md)通过 10 个步骤或[配置无媒体中继绕过中的业务服务器 Skype](configure-trunk-without-media-bypass.md)前 9 个步骤。
     
 3. 在“新建转换规则”**** 或“编辑转换规则”**** 页上的“名称”**** 下，键入描述要转换的号码模式的名称。
     
@@ -39,13 +38,13 @@ ms.locfileid: "19500870"
     
 5. 在对话框的“构建转换规则”**** 部分的以下字段中输入值：
     
-   - **起始数字**：（可选）指定要使模式与之匹配的号码的前导数字。 例如，输入 + 在此字段匹配的 E.164 号码设置的格式 (其中开头 +)。
+   - **起始数字**：（可选）指定要使模式与之匹配的号码的前导数字。例如，在此字段输入 +，可与 E.164 格式（以 + 开头）的号码匹配。
     
    - **长度**：指定匹配模式中的数字位数，并选择希望模式匹配的号码是必须具有此准确长度、至少具有此长度还是可以具有任何长度。 例如，输入 11 和 selectAt 最匹配的长度至少 11 位数字的号码下拉列表中。
     
    - **要删除的数字**：（可选）指定要删除的起始数字的位数。 例如，输入 1 去掉 + 从编号的开头。
     
-   - **要添加的数字**：（可选）指定要附加到转换号码前面的数字。 如果您希望 011 应用规则时要预置到转换后的号码，例如，输入 011。
+   - **要添加的数字**：（可选）指定要附加到转换号码前面的数字。例如，如果要在应用规则时将 011 附加到转换号码的前面，则输入 011。
     
     这些字段中输入的值将反映在“要匹配的模式”**** 和“转换规则”**** 字段中。例如，如果指定前面示例中的值，则“要匹配的模式”**** 字段中生成的正则表达式为：
     
@@ -53,7 +52,7 @@ ms.locfileid: "19500870"
     
     “转换规则”**** 字段指定转换号码格式的模式。该模式由两部分组成：
     
-   - 一个代表匹配模式中的位数的值 (例如，$1)
+   - 代表匹配模式中数字位数的值（例如，$1）
     
    - （可选）可以通过在“要添加的数字”**** 字段中输入来附加的值
     
@@ -68,13 +67,13 @@ ms.locfileid: "19500870"
 8. 在“Trunk 配置”**** 页上，单击“提交”****，然后单击“全部提交”****。 
     
    > [!NOTE]
-   > 每当创建或修改转换规则时，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[挂起更改语音路由配置中的业务 2015 Skype 的发布](voice-route-config-changes.md)。
+   > 每当创建或修改转换规则时，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[Publish 挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)。
   
 ### <a name="to-define-a-translation-rule-manually"></a>手动定义转换规则
 
 1. 打开 Skype 业务 Server Control Panel
     
-2. 要开始定义转换规则，请按照中的步骤[配置与媒体中继绕过中的业务服务器 2015 Skype](configure-trunk-with-media-bypass.md)通过 10 个步骤或[配置无媒体中继绕过中的业务服务器 2015 Skype](configure-trunk-without-media-bypass.md)前 9 个步骤。
+2. 要开始定义转换规则，请按照中的步骤[配置与媒体中继绕过 Skype 业务服务器中](configure-trunk-with-media-bypass.md)通过 10 个步骤或[配置无媒体中继绕过中的业务服务器 Skype](configure-trunk-without-media-bypass.md)前 9 个步骤。
     
 3. 在“新建转换规则”**** 或“编辑转换规则”**** 页上的“名称”**** 字段中，键入描述要转换的号码模式的名称。
     
@@ -97,14 +96,15 @@ ms.locfileid: "19500870"
 9. 在“Trunk 配置”**** 页上，单击“提交”****，然后单击“全部提交”****。 
     
     > [!NOTE]
-    > 每当创建或修改转换规则时，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[挂起更改语音路由配置中的业务 2015 Skype 的发布](voice-route-config-changes.md)。
+    > 每当创建或修改转换规则时，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[Publish 挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)。
   
 ## <a name="see-also"></a>另请参阅
 
-[为业务服务器 2015年使用 Skype 中的媒体旁路配置中继](configure-trunk-with-media-bypass.md)
+[为业务 Server 使用 Skype 中的媒体旁路配置中继](configure-trunk-with-media-bypass.md)
   
-[配置无媒体绕过 Skype 中的业务服务器 2015年的中继](configure-trunk-without-media-bypass.md)
+[配置无媒体绕过中 Skype 业务服务器的中继](configure-trunk-without-media-bypass.md)
   
-[挂起更改语音路由配置中的业务 2015 Skype 的发布](voice-route-config-changes.md)
+[发布挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)
 
-[部署业务服务器 2015 Skype 中的媒体绕过](deploy-media-bypass.md)
+[为业务服务器部署中 Skype 的媒体绕过](deploy-media-bypass.md)
+

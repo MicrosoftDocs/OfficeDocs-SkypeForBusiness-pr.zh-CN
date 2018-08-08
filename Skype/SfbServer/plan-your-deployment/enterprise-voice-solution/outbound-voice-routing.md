@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中规划出站语音路由
+title: 规划出站语音路由中 Skype 业务服务器
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: 了解有关出站语音业务企业语音，包括呼叫路由设置中 Skype 路由、 拨号计划、 规范化规则、 语音策略、 PSTN 用法记录和语音路由。
-ms.openlocfilehash: 35ba2a8991b35a22b6abcacc42f1323d167c0d4d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 1f399ff44eafdc1fc61fb5bab41b0d8949127e62
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21029187"
 ---
-# <a name="plan-for-outbound-voice-routing-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中规划出站语音路由
+# <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>规划出站语音路由中 Skype 业务服务器
  
 了解有关出站语音业务企业语音，包括呼叫路由设置中 Skype 路由、 拨号计划、 规范化规则、 语音策略、 PSTN 用法记录和语音路由。
   
@@ -81,7 +81,7 @@ ms.lasthandoff: 05/03/2018
     
     如果您的组织跨多个位置维护一个拨号计划，可能仍然需要创建单独的拨号计划的企业语音用户专用交换机 (PBX) 从迁移用户和用户需要保留其现有的扩展。
     
-- 确定是否需要每用户拨号计划。 例如，如果必须在分支站点上注册与中央站点的用户或如果您有 Survivable Branch Appliance 注册的用户，可以考虑特殊拨号方案此类用户使用每用户拨号计划和规范化规则. 有关详细信息，请参阅[规划企业语音恢复能力的业务服务器 2015 Skype 中](enterprise-voice-resiliency.md)。
+- 确定是否需要每用户拨号计划。 例如，如果必须在分支站点上注册与中央站点的用户或如果您有 Survivable Branch Appliance 注册的用户，可以考虑特殊拨号方案此类用户使用每用户拨号计划和规范化规则. 有关详细信息，请参阅[规划企业语音恢复能力 Skype 业务服务器中](enterprise-voice-resiliency.md)。
     
 - 确定拨号计划作用域（如本主题上文所述）。
     
@@ -141,7 +141,7 @@ ms.lasthandoff: 05/03/2018
 
 下表显示以 .NET Framework 正则表达式形式编写的示例规范化规则。这些示例仅用作示例，不用作创建规范化规则的规范性参考。
   
-**使用.NET Framework 正则表达式的表 1.规范化规则**
+**表 1. 使用 .NET Framework 正则表达式的规范化规则**
 
 |**规则名称**|**说明**|**号码模式**|**转换**|**示例**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -159,7 +159,7 @@ ms.lasthandoff: 05/03/2018
    
 下表基于上表中显示的规范化规则，说明了美国华盛顿雷德蒙德的示例拨号计划。
   
-**表 2。基于表 1 中显示的规范化规则的 Redmond 拨号计划**
+**表 2. 基于表 1 中所示规范化规则的雷德蒙德拨号计划**
 
 |**Redmond.forestFQDN**|
 |:-----|
@@ -197,7 +197,7 @@ Skype Business Server 语音策略定义每个用户、 站点或组织的分配
     
 ### <a name="voice-policy-scope"></a>语音策略作用域
 
-语音策略作用域确定会应用该策略的层次结构级别。 在业务服务器 Skype，您可以用以下范围级别配置语音策略 (列出从最大到最一般的特定于)。
+语音策略作用域确定可以应用策略的层次级别。 在业务服务器 Skype，您可以用以下范围级别配置语音策略 (列出从最大到最一般的特定于)。
   
 - **用户语音策略**：可分配给各个用户、组或联系人对象。这是最低级别的策略。可以部署用户语音策略，以便为某个站点上的特定用户或组启用某些功能，但不会为同一站点中的其他人启用这些功能。例如，您可能希望对某些员工禁用长途拨号。为了分配语音策略，会将联系人对象视为单个用户。
     

@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中为用户启用组内呼叫应答并分配组号码
+title: 为用户启用组呼叫分拣和分配 Skype for Business 中的一组数
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: 为用户启用组中 Skype 调用的分拣业务 Server 企业语音，并分配组数。
-ms.openlocfilehash: 11d62ea5aa29fc5fdd98fb9e1e5851dbc60a1547
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 5a4173a16a40557742a7cdbd47edb917f89b4737
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500517"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006518"
 ---
-# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business-2015"></a>在 Skype for Business 2015 中为用户启用组内呼叫应答并分配组号码
+# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>为用户启用组呼叫分拣和分配 Skype for Business 中的一组数 
  
 为用户启用组中 Skype 调用的分拣业务 Server 企业语音，并分配组数。
   
@@ -49,3 +48,4 @@ ms.locfileid: "19500517"
 ## <a name="see-also"></a>另请参阅
 
 [用户的禁用组分拣](http://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
+

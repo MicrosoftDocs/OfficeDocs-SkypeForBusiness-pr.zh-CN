@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中规划呼叫管理功能
+title: Plan for Business 的 Skype 中呼叫管理功能
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: Overview of Business Server 企业语音的 Skype 中的受支持的呼叫管理功能。
-ms.openlocfilehash: d7a0f171af9ddd79e5f373af89787423bc752ffe
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9e09775adbd664032f65e9ed15a661763fc11a16
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006532"
 ---
-# <a name="plan-for-call-management-features-in-skype-for-business-2015"></a>在 Skype for Business 2015 中规划呼叫管理功能
+# <a name="plan-for-call-management-features-in-skype-for-business"></a>Plan for Business 的 Skype 中呼叫管理功能
  
 Overview of Business Server 企业语音的 Skype 中的受支持的呼叫管理功能。
   

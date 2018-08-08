@@ -1,9 +1,8 @@
 ---
-title: 呼叫允许控制最终的部署清单 Skype 的业务服务器 2015
+title: 呼叫允许控制最终的部署清单 Skype 业务服务器
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: 业务 Server 企业语音部署呼叫允许控制 (CAC) Skype 中的最后一个清单。
-ms.openlocfilehash: beec5c03f47d8f06ec862c3e9a3609fba7b66f2c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e5791aa6f3b32e423f36021314bec930fa7f74e5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025672"
 ---
-# <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的呼叫允许控制部署：最终检查表
+# <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>呼叫允许控制部署： Skype 业务服务器的最终清单
  
 业务 Server 企业语音部署呼叫允许控制 (CAC) Skype 中的最后一个清单。 
   
@@ -31,11 +31,11 @@ ms.lasthandoff: 05/03/2018
     > [!NOTE]
     > 边缘服务器无需实现 CAC。 
   
-- 请确保已启用 CAC，为中指定[的业务服务器 2015 Skype 中启用呼叫允许控制](enable-call-admission-control.md)。
+- 请确保已启用 CAC，为中指定的[Skype 业务服务器中的启用呼叫允许控制](enable-call-admission-control.md)。
     
 - 确保已在所有中央站点启用 CAC。 这可以通过在拓扑生成器。 如果您发布时生成一条警告，则*不*忽略它。
     
-- 确保已在网络配置设置中配置在企业网络中管理的所有子网。 也是必需的每个子网将关联到网络站点，如[部署网络区域、 站点和子网中的业务 2015 Skype](deploy-network.md)中所述。
+- 确保已在网络配置设置中配置在企业网络中管理的所有子网。 也是必需的每个子网将关联到网络站点，如[部署网络区域、 站点和 Skype for Business 中的子网](deploy-network.md)中所述。
     
 - 确保已在网络配置设置中配置所有前端服务器、Survivable Branch Appliance (SBA)、音频/视频会议服务器（如果位于单独的池中）和中介服务器的子网或 IP 地址。
     

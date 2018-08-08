@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 中的 PSTN 连接组件
+title: Skype 业务服务器中的 PSTN 连接组件
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: 了解有关 SIP 中继和 PSTN 网关的 Skype 中的企业语音的企业服务器。
-ms.openlocfilehash: 4f346209b483a3d469beba233bd22ee39e45745a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 69b010d7f4e444214581ebc1b84babadbf14e68f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998516"
 ---
-# <a name="pstn-connectivity-components-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 PSTN 连接组件
+# <a name="pstn-connectivity-components-in-skype-for-business-server"></a>Skype 业务服务器中的 PSTN 连接组件
  
 了解有关 SIP 中继和 PSTN 网关的 Skype 中的企业语音的企业服务器。
   

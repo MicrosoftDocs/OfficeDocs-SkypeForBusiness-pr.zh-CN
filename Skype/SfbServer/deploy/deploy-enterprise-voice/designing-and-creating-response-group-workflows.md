@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中设计和创建响应组工作流
+title: 设计和 Skype for Business 中创建响应组工作流
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 设计和创建响应组工作流中的业务 Server 企业语音的 Skype。 包括智能寻线工作流和互动工作流。
-ms.openlocfilehash: a1fe613d006378f8908b038ed0f03449c06b3fdf
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: a4a0d436e4ed2387218825559bca2b383a95c8b4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501299"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006597"
 ---
-# <a name="designing-and-creating-response-group-workflows-in-skype-for-business-2015"></a>在 Skype for Business 2015 中设计和创建响应组工作流
+# <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>设计和 Skype for Business 中创建响应组工作流
  
 设计和创建响应组工作流中的业务 Server 企业语音的 Skype。 包括智能寻线工作流和互动工作流。
   
-工作流定义了从电话响铃到有人接听电话这段时间内呼叫的行为。 工作流指定要用于存放呼叫的队列，并指定要用于智能寻线组工作流或问题和答案用于互动响应组工作流的路由方法。 
+工作流定义了从电话响铃到有人接听电话这段时间内呼叫的行为。工作流指定用于保留呼叫的队列，并指定用于 智能寻线工作流的路由方法或用于 互动响应组工作流的问题和答案。 
   
 工作流还定义了诸如欢迎消息、保持音乐、工作时间和假日等设置。
   
@@ -122,7 +121,7 @@ ms.locfileid: "19501299"
    - 要使用预定义工作时间日程表，请单击“使用预设日程表”****，然后从下拉列表中选择要使用的日程表。
     
      > [!NOTE]
-     > 之前您必须至少已定义一个预设日程表才能选择该选项。 可使用  **New-CSRgsHoursOfBusiness** cmdlet 来定义预设日程表。 有关详细信息，请参阅[中的业务 2015 Skype （可选） 定义响应组工作时间](optional-define-response-group-business-hours.md)。 
+     > 之前您必须至少已定义一个预设日程表才能选择该选项。 可使用  **New-CSRgsHoursOfBusiness** cmdlet 来定义预设日程表。 有关详细信息，请参阅[Skype for Business 中的 （可选） 定义响应组工作时间](optional-define-response-group-business-hours.md)。 
   
      > [!NOTE]
      > 选择预设日程表时，“天”****、“开放”**** 和“关闭”**** 中会自动填写响应组可以应答的日期和时间。
@@ -161,7 +160,7 @@ ms.locfileid: "19501299"
 24. 在“步骤 5 指定您的假日”**** 下，单击定义响应组停止营业日期的一个或多个假日集对应的复选框。
     
     > [!NOTE]
-    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅[中的业务 2015 Skype （可选） 定义响应组假日集](optional-define-response-group-holiday-sets.md)。 
+    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅[在 for Business 的 Skype （可选） 定义响应组假日集](optional-define-response-group-holiday-sets.md)。 
   
 25. 如果要在假日播放消息，请选中“假期播放消息”**** 复选框，然后通过执行以下操作之一指定要播放的消息：
     
@@ -242,7 +241,7 @@ ms.locfileid: "19501299"
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. 如果要定义工作时间和假日，则需要在创建或修改工作流之前创建工作时间和假日。 有关详细信息，请参阅[中的业务 2015 Skype （可选） 定义响应组工作时间](optional-define-response-group-business-hours.md)和[中的业务 2015 Skype （可选） 定义响应组假日集](optional-define-response-group-holiday-sets.md)。
+6. 如果要定义工作时间和假日，则需要在创建或修改工作流之前创建工作时间和假日。 有关详细信息，请参阅[Skype for Business 中的 （可选） 定义响应组工作时间](optional-define-response-group-business-hours.md)和[（可选） 定义响应组假日设置 for Business 的 Skype](optional-define-response-group-holiday-sets.md)。
     
 7. 如果您希望具有的工作时间不足或假日接收呼叫的提示，使用**新建 CsRgsPrompt** cmdlet 可定义在提示符处，并使用**New-csrgscallaction**定义提示后执行操作。 有关详细信息，请参阅[新建 CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)和[New-csrgscallaction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)。
     
@@ -452,7 +451,7 @@ IVR 问题及呼叫者的响应提供给接受呼叫的响应代理。
    - 要使用预定义工作时间日程表，请单击“使用预设日程表”****，然后从下拉列表中选择要使用的日程表。
     
      > [!NOTE]
-     > 之前您必须至少已定义一个预设日程表才能选择该选项。 可使用  **New-CSRgsHoursOfBusiness** cmdlet 来定义预设日程表。 有关详细信息，请参阅[中的业务 2015 Skype （可选） 定义响应组工作时间](optional-define-response-group-business-hours.md)。 选择预设日程表时，“天”****、“开放”**** 和“关闭”**** 中会自动填写响应组可以应答的日期和时间。
+     > 之前您必须至少已定义一个预设日程表才能选择该选项。 可使用  **New-CSRgsHoursOfBusiness** cmdlet 来定义预设日程表。 有关详细信息，请参阅[Skype for Business 中的 （可选） 定义响应组工作时间](optional-define-response-group-business-hours.md)。 选择预设日程表时，“天”****、“开放”**** 和“关闭”**** 中会自动填写响应组可以应答的日期和时间。
   
    - 要使用仅适用于该工作流的自定义日程表，请单击“使用自定义日程表”****。
     
@@ -488,7 +487,7 @@ IVR 问题及呼叫者的响应提供给接受呼叫的响应代理。
 24. 在“步骤 5 指定您的假日”**** 下，单击定义响应组停止营业日期的一个或多个假日集对应的复选框。
     
     > [!NOTE]
-    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅[中的业务 2015 Skype （可选） 定义响应组假日集](optional-define-response-group-holiday-sets.md)。 
+    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅[在 for Business 的 Skype （可选） 定义响应组假日集](optional-define-response-group-holiday-sets.md)。 
   
 25. 如果要在假日播放消息，请选中“假期播放消息”**** 复选框，然后通过执行以下操作之一指定要播放的消息：
     
@@ -644,9 +643,9 @@ IVR 问题及呼叫者的响应提供给接受呼叫的响应代理。
   
 ## <a name="see-also"></a>另请参阅
 
-[（可选）定义响应组假日集中的业务 2015 Skype](optional-define-response-group-holiday-sets.md)
+[（可选）Skype for Business 中定义响应组假日集](optional-define-response-group-holiday-sets.md)
 
-[（可选）中的业务 2015 Skype 定义响应组工作时间](optional-define-response-group-business-hours.md)
+[（可选）Skype for Business 中定义响应组工作时间](optional-define-response-group-business-hours.md)
 
 [New-csrgsworkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
   
@@ -655,3 +654,4 @@ IVR 问题及呼叫者的响应提供给接受呼叫的响应代理。
 [New-csrgsprompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
 [New-csrgscallaction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+

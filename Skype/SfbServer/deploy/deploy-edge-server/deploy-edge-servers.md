@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中部署边缘服务器
+title: 在部署边缘服务器 Skype 业务服务器
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,18 +11,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
-description: 摘要： 了解如何将边缘服务器部署到您 Skype 业务服务器 2015年环境。
-ms.openlocfilehash: c7dfdfeef9eea4ffae0e113665b487da4856b83c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 了解如何为您 Skype 业务服务器环境中部署边缘服务器。
+ms.openlocfilehash: fc4791918ef078bc43e73f8e404aad758531eb21
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003122"
 ---
-# <a name="deploy-edge-servers-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中部署边缘服务器
+# <a name="deploy-edge-servers-in-skype-for-business-server"></a>在部署边缘服务器 Skype 业务服务器
  
-**摘要：**了解如何将边缘服务器部署到您 Skype 业务服务器 2015年环境。
+**摘要：** 了解如何为您 Skype 业务服务器环境中部署边缘服务器。
   
-以下各节包含为了后已审阅 for Business Server 2015[规划边缘服务器部署中的业务服务器 2015 Skype](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)文档 Skype 遵循的步骤。 部署步骤如下：
+以下各节包含为了后已审阅 for Business Server[规划边缘服务器部署中的业务服务器 Skype](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)文档 Skype 遵循的步骤。 部署步骤如下：
   
 - 网络接口
     
@@ -48,11 +48,11 @@ ms.lasthandoff: 05/03/2018
     
    a. 在外部外围网络子网上配置三个静态 IP 地址，并将默认网关指向外部防火墙的内部接口。 配置适配器 DNS 设置以指向一对外围 DNS 服务器。
     
-   b. 在外部外围网络子网上配置一个静态 IP 地址，并将默认网关指向外部防火墙的内部接口。 配置适配器 DNS 设置以指向一对外围 DNS 服务器。 此配置仅可接受的如果已配置拓扑使其具有非标准值中的端口分配，其[创建的业务服务器 2015 Skype 的边缘拓扑](create-your-edge-topology.md)一文中介绍。
+   b. 在外部外围网络子网上配置一个静态 IP 地址，并将默认网关指向外部防火墙的内部接口。 配置适配器 DNS 设置以指向一对外围 DNS 服务器。 此配置仅可接受的如果已配置拓扑在端口分配中, 具有非标准值的[边缘拓扑的 Skype 业务服务器创建](create-your-edge-topology.md)一文中介绍。
     
 3. 在内部接口上配置内部外围网络子网上, 一个静态 IP 和未设置默认网关。 配置适配器 DNS 设置，以指向至少一台 DNS 服务器，但最好是一对外围 DNS 服务器。
     
-4. 在客户端，Skype 业务服务器 2015年和 Exchange 统一消息 (UM) 服务器所在所有内部网络的内部接口上创建永久静态路由。
+4. 在客户端，Skype Business Server 和 Exchange 统一消息 (UM) 服务器所在所有内部网络的内部接口上创建永久静态路由。
     
 ### <a name="interface-configuration-without-dns-servers-in-the-perimeter-network"></a>不使用外围网络中 DNS 服务器的接口配置
 
@@ -65,17 +65,17 @@ ms.lasthandoff: 05/03/2018
     
    a. 在外部外围网络子网上配置三个静态 IP 地址。 您还需要将默认网关配置的外部接口，例如，定义为默认网关的面向 internet 的路由器或外部防火墙。 将适配器 DNS 设置配置为指向一台外部 DNS 服务器，最好是一对外部 DNS 服务器。
     
-   b. 在外部外围网络子网上配置一个静态 IP 地址。 您还需要将默认网关配置的外部接口，例如，定义为默认网关的面向 internet 的路由器或外部防火墙。 将适配器 DNS 设置配置为指向一台外部 DNS 服务器，最好是一对外部 DNS 服务器。 此配置仅可接受的如果已配置拓扑使其具有非标准值中的端口分配，其[创建的业务服务器 2015 Skype 的边缘拓扑](create-your-edge-topology.md)一文中介绍。
+   b. 在外部外围网络子网上配置一个静态 IP 地址。 您还需要将默认网关配置的外部接口，例如，定义为默认网关的面向 internet 的路由器或外部防火墙。 将适配器 DNS 设置配置为指向一台外部 DNS 服务器，最好是一对外部 DNS 服务器。 此配置仅可接受的如果已配置拓扑在端口分配中, 具有非标准值的[边缘拓扑的 Skype 业务服务器创建](create-your-edge-topology.md)一文中介绍。
     
 3. 在内部接口上配置内部外围网络子网上, 一个静态 IP 和未设置默认网关。 另外将适配器 DNS 设置留空。
     
-4. 在客户端，Skype 业务服务器 2015年和 Exchange 统一消息 (UM) 服务器所在所有内部网络的内部接口上创建永久静态路由。
+4. 在客户端，Skype Business Server 和 Exchange 统一消息 (UM) 服务器所在所有内部网络的内部接口上创建永久静态路由。
     
 5. 编辑上包含的下一个跃点服务器的记录每台边缘服务器或虚拟 IP (VIP) 的主机文件。 此记录将控制器、 Standard Edition server 或前端池配置为在拓扑生成器中的边缘服务器下一个跃点地址。 如果您正在使用 DNS 负载平衡，包括行的下一个跃点池的每个成员。
     
 ## <a name="installation"></a>安装
 
-若要成功完成这些步骤，您将需要已执行[创建边缘拓扑的业务服务器 2015年的 Skype](create-your-edge-topology.md)一文中的步骤。
+要成功完成这些步骤，您将需要遵循了[创建边缘拓扑的 Skype 业务 server](create-your-edge-topology.md)文章中的步骤。
   
 1. 登录到您已具有帐户的本地管理员组中的边缘服务器角色的已配置的服务器。
     
@@ -95,7 +95,7 @@ ms.lasthandoff: 05/03/2018
     
 9. “**正在执行命令**”过程完成后，单击“**完成**”。
     
-10. 在部署向导中，单击**步骤 2。安装或删除业务服务器组件 Skype**。 然后，该向导将安装已存储在本地计算机的 XML 配置文件中指定的业务服务器 2015年边缘组件的 Skype。
+10. 在部署向导中，单击**步骤 2。安装或删除业务服务器组件 Skype**。 然后，该向导将安装已存储在本地计算机的 XML 配置文件中指定的业务服务器边缘组件的 Skype。
     
 11. 一旦安装的完整信息，您可以将其移动到下面的**证书**部分中的步骤。
     
@@ -114,7 +114,7 @@ ms.lasthandoff: 05/03/2018
  
 #### <a name="nbspnbspnbsp-a-download-using-certsrv-web-site"></a>&nbsp;&nbsp;&nbsp;一个。 使用 certsrv 网站下载
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我。 以本地 Administrators 组的成员身份登录到内部网络中的业务服务器 2015年服务器 Skype。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我。 登录到 Skype 业务服务器在内部网络中以本地 Administrators 组的成员身份。
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii。 打开**开始**，请**运行**（或**搜索**和**运行**），然后键入以下命令：
     
@@ -150,7 +150,7 @@ ms.lasthandoff: 05/03/2018
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vi。 “**证书导出向导**”随即打开。 单击“**下一步**”。
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vii。 打开“**导出文件格式**”对话框，选择要导出到的格式。 我们的建议是“**加密消息语法标准 – PKCS #7 证书(P7b)**”。 如果您的所选择的请记住还选中**如果可能，包括证书路径中的所有证书**复选框，如这还将导出的证书链，包括根 CA 证书和任何中间证书。 单击" **下一步**"。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vii。 打开“**导出文件格式**”对话框，选择要导出到的格式。 我们的建议是“**加密消息语法标准 – PKCS #7 证书(P7b)**”。 如果您的所选择的请记住还选中**如果可能，包括证书路径中的所有证书**复选框，如这还将导出的证书链，包括根 CA 证书和任何中间证书。 单击“**下一步**”。
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;viii。 在“**要导出的文件**”对话框的文件名输入框中，键入导出的证书的路径和文件名（默认扩展名为 .p7b）。 如果是在您更轻松地，选择**浏览**按钮以转到要保存到，导出的证书的位置，然后命名导出的证书。 准备好之后，单击**保存**，然后**下一步**。
     
@@ -188,7 +188,7 @@ ms.lasthandoff: 05/03/2018
     
 &nbsp;&nbsp;&nbsp;b。 在“**证书请求**”页上，确保“**内部边缘证书**”已选中，然后单击“**请求**”。
     
-&nbsp;&nbsp;&nbsp;c。 在“**延迟的请求或即时请求**”页上，如果你有权从边缘环境访问联机证书颁发机构，请选择“**立即将请求发送至联机证书颁发机构**”，否则选择“**现在准备请求，但稍后发送**”。
+&nbsp;&nbsp;&nbsp;c。 在**延迟请求或即时请求**页上，选择**发送给联机证书颁发机构立即请求**如果您从边缘环境或**现在，准备请求，但稍后发送**否则为之一可以访问。
     
 &nbsp;&nbsp;&nbsp;d。 在“**证书请求文件**”页上，输入将保存该文件的完整路径和文件名（例如，c:\SkypeInternalEdgeCert.cer）。 单击“**下一步**”。
     
@@ -202,7 +202,7 @@ ms.lasthandoff: 05/03/2018
     
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii。 如果需要可导出的证书，必须选中“**将证书私钥标记为可导出**”复选框。
     
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv。 单击" **下一步**"。
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv。 单击“**下一步**”。
     
 &nbsp;&nbsp;&nbsp;g。 在“**组织信息**”页上，输入组织和组织单位 (OU) 的名称。 可以输入分部或部门（如 IT）。
     
@@ -229,7 +229,7 @@ ms.lasthandoff: 05/03/2018
     
 &nbsp;&nbsp;&nbsp;d。 在“**导入证书**”页上，键入上一节中获得的证书的完整路径和文件名（也可单击“**浏览**”查找并选择该文件）。
     
-&nbsp;&nbsp;&nbsp;e。 如果您的证书包含私钥的其他成员的边缘池，正在导入的证书，请务必选择**，其中包含证书的私钥的证书文件**复选框，并指定密码。 单击“**下一步**”继续。
+&nbsp;&nbsp;&nbsp;e。 如果您的证书包含私钥的其他成员的边缘池，正在导入的证书，请务必选择 **，其中包含证书的私钥的证书文件**复选框，并指定密码。 单击“**下一步**”继续。
     
 &nbsp;&nbsp;&nbsp;f。 在**摘要**页上，单击**下一步**，一旦成功导入证书后，您已确认信息和**完成**。
     
@@ -316,7 +316,7 @@ ms.lasthandoff: 05/03/2018
     
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii。 如果需要可导出的证书，必须选中“**将证书私钥标记为可导出**”复选框。
     
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv。 单击" **下一步**"。
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv。 单击“**下一步**”。
     
 &nbsp;&nbsp;&nbsp;h。 在“**组织信息**”页上，输入组织和组织单位 (OU) 的名称。 可以输入分部或部门（如 IT）。
     
@@ -378,15 +378,15 @@ ms.lasthandoff: 05/03/2018
     
 &nbsp;&nbsp;&nbsp;g。 双击“**证书(本地计算机)**”展开证书存储。 双击“**个人**”，然后单击“**证书**”。
     
-    > [!NOTE]
-    > You may be here, and you don't see any certificates in the Certificates Personal store for the local computer. You don't need to hunt around, if the key's not there, the imported certificate didn't have a private key associated with it. Try the request and import steps above one more time, and if you're sure you got all that right, talk to your CA administrator or provider. 
+   > [!NOTE]
+   > 您可能在这里，并且您看不到中证书个人存储的本地计算机任何证书。 您不需要智能寻线周围，如果该密钥的不存在，导入证书没有与其关联的私钥。 重试请求并导入一个更多时间，上述步骤和如果您确保您获取的右侧，与您的 CA 管理员或提供程序。 
   
 &nbsp;&nbsp;&nbsp;h。 在**个人证书存储**的本地计算机，请右键单击要从中导出的证书。 从得到的菜单中选择“**所有任务**”，然后单击“**导出**”。
     
 &nbsp;&nbsp;&nbsp;我。 在“**证书导出向导**”中，单击“**下一步**”。 选择“**是，导出私钥**”。 单击“**下一步**”。
     
-    > [!NOTE]
-    > If **Yes, export the private key** isn't available, then the private key for this certificate wasn't marked for export before you got it. You need to request the certificate from the provider again, with the private key set to export, before doing this successfully.
+   > [!NOTE]
+   > 如果**是，导出私钥**不可用，则此证书的私钥未标记为导出之前你猜对。 你需要再次向提供商提出证书请求，要求将私钥设置为导出，然后导出才能成功。
   
 &nbsp;&nbsp;&nbsp;j。 在“导出文件格式”对话框中，选择“个人信息交换 - PKCS#12 (.PFX)”，然后选择以下选项：
     
@@ -394,8 +394,8 @@ ms.lasthandoff: 05/03/2018
     
  &nbsp;&nbsp;&nbsp;ii。 导出所有扩展属性。
     
-    > [!NOTE]
-    > **NEVER** select **Delete the private key if the export is successful**. It'll mean you have to reimport the certificate and private key back to this Edge Server.
+   > [!NOTE]
+   > **切勿**选择“**如果导出成功，删除私钥**”。 它将意味着您必须重新导入的证书和私钥返回到此边缘服务器。
   
 &nbsp;&nbsp;&nbsp;k。 如果要分配密码来保护私钥，可以键入私钥的密码。 重新输入该密码进行确认，然后单击“**下一步**”。
     
@@ -425,7 +425,7 @@ ms.lasthandoff: 05/03/2018
 &nbsp;&nbsp;&nbsp;g。 完成此过程后，它是非常好的方法，以打开证书 MMC 管理单元中每台服务器上，展开**证书 （本地计算机）**、 展开**个人**，单击**证书**，确认在内部边缘证书的详细信息窗格中列出。
     
    > [!NOTE]
-    > 你还需要设置反向代理服务器的证书。 介绍安装反向代理服务器的 Skype 业务服务器 2015年主题。 
+   > 你还需要设置反向代理服务器的证书。 
   
 ## <a name="starting-the-edge-servers"></a>启动边缘服务器
 
@@ -439,6 +439,6 @@ ms.lasthandoff: 05/03/2018
     
 4. （可选）仍然在“**步骤 4: 启动服务**”下，单击“**服务状态**”。
     
-5.  在**服务 MMC**每台服务器上，确认业务服务器 2015年服务的所有 Skype 都在都运行。
+5.  在**服务 MMC**每台服务器上，确认 Business Server 服务的所有 Skype 都在都运行。
     
 

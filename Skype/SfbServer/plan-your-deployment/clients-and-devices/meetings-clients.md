@@ -13,31 +13,31 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
-description: 摘要： IT 专业人员应规划的 Skype 业务服务器 2015年时查看 Skype 企业 Web 应用程序和 Skype 会议应用程序的支持要求。 这篇文章不适合于这些应用程序的用户。
-ms.openlocfilehash: 88006a758909f56f21724706bf9670077d603caa
-ms.sourcegitcommit: 1b4e93727f65b120068a74064b4144f0117f230c
+description: 摘要： IT 专业人员应规划的 Skype 业务 Server 时查看 Skype 企业 Web 应用程序和 Skype 会议应用程序的支持的要求。 这篇文章不适合于这些应用程序的用户。
+ms.openlocfilehash: f0fbf6cfec073ba3fdd25bdd4cb87c458144d3b7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19691200"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009678"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>规划会议客户端 （Web 应用程序和会议应用程序）
  
-**摘要：** IT 专业人员应规划的 Skype 业务服务器 2015年时查看 Skype 企业 Web 应用程序和 Skype 会议应用程序的支持要求。 这篇文章不适合于这些应用程序的用户。
+**摘要：** IT 专业人员应规划的 Skype 业务 Server 时查看 Skype 企业 Web 应用程序和 Skype 会议应用程序的支持要求。 这篇文章不适合于这些应用程序的用户。
   
 您已实现后 Skype 业务服务器，贵组织的用户可能会业务客户端部署过程的一部分安装 Skype。 
   
 更高版本上，这些用户可以创建会议并邀请组织外部的用户，这些会议的被邀请者可能没有任何版本的业务客户端 Skype。 当这些用户单击会议邀请的 URL 时，将检测到缺少的客户端，并且不业务客户端 Skype 被邀请者将需要下载并安装轻型、 仅会议客户端，以便他们可以加入会议。
   
 > [!NOTE]
-> 尝试无 for Business Skype 登录到会议时，业务 Web App 的 Skype 和 Skype 会议应用程序才可用。 这些应用程序的用户帮助位于[https://aka.ms/smahelp](https://aka.ms/smahelp)。 
+> 尝试无 for Business 的 Skype 登录到会议时，业务 Web App 的 Skype 和 Skype 会议应用程序才可用。 这些应用程序的用户帮助位于[https://aka.ms/smahelp](https://aka.ms/smahelp)。 
   
 > [!NOTE]
 > 不能预安装任一 Skype，企业 Web 应用程序或 Skype 会议应用程序，但[智能手机](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-1)和[平板电脑](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-2)用户可能无法安装它们可用于参加会议的便宜移动客户端。
   
 默认情况下主持会议的服务器将直接下载并安装 Skype 业务 Web App 加入会议的用户。 企业 Web 应用程序的 Skype 存储在前端服务器上，并获取发送给会议参与者。 
   
-启动与 Skype 的业务服务器 CU5 Skype 会议应用程序是可用作替换 Skype 对于业务 Web 应用程序，但提供 Skype 会议应用程序需要[启用 Skype 会议应用程序替换为 Skype 中介绍的其他配置企业 Web 应用程序 （可选）](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。 如果启用 Skype 会议应用程序，则用户将从 Office 365 内容交付网络 (CDN) 而不是从您的业务服务器 Skype 下载最新版本的应用程序。
+对于业务服务器 2015年的 Skype，作为企业 Web 应用程序从开始 CU5，替换的 Skype 都 Skype 会议应用程序，但提供 Skype 会议应用程序需要[启用 Skype 会议应用程序替换中介绍的其他配置企业 Web 应用程序 （可选） 的 Skype](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。  如果启用 Skype 会议应用程序，则用户将从 Office 365 内容交付网络 (CDN) 而不是从您的业务服务器 Skype 下载最新版本的应用程序。 为企业服务器 2019 Skype 会议应用程序的 Skype 是唯一的选项。
   
 Skype 会议应用程序提供了有关下载和安装应用程序和加入会议，包括用户的 Internet Explorer 的一次单击加入简化的浏览器体验。 Skype 会议应用程序也有很多改进通过 theSkype 业务 Web 应用程序以实现可靠性和会议体验。 
   
@@ -87,7 +87,7 @@ Skype 会议应用程序使用 Windows 10、 Windows 8.1、 Windows 8 和 Window
 ## <a name="network-requirements"></a>网络要求
 <a name="Network"> </a>
 
-如果会议的连接问题的企业 Web 应用程序或 Skype 会议应用程序体验 Skype 用户，很可能其组织的网络基础结构不配置为支持 Office 365， [Office 365 Url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)中所述。 会议已由用户创建的 Skype 业务联机或 Skype 的业务服务器 2015年是否，这种情况。 
+如果会议的连接问题的企业 Web 应用程序或 Skype 会议应用程序体验 Skype 用户，很可能其组织的网络基础结构不配置为支持 Office 365， [Office 365 Url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)中所述。 会议已由用户创建的 Skype 业务联机或 Skype 业务服务器是否，这种情况。 
   
 如果用户是在网络上未配置如下所述，多个应用程序功能可能也可能不起作用，它们可能无法在能够连接到所有会议。
   
@@ -96,10 +96,10 @@ Skype 会议应用程序使用 Windows 10、 Windows 8.1、 Windows 8 和 Window
 
 下表比较业务 Web 应用程序、 Skype 会议应用程序和 Lync Web App 供业务客户端的 Skype、 Skype 的用户的会议功能。 功能比较目的列出 Lync Web App： 用户将仅下载和使用 Lync Web App，如果 Lync 2013 服务器上已承载会议。
 
-| 特性/功能 | Skype 业务 2016年客户端 | Skype for Mac 客户端上的 Business | Skype 会议应用 | Skype for Business Web App | Lync Web App |
+| 特性/功能 | Skype 业务 2016年或 2019年客户端 | Skype for Mac 客户端上的 Business | Skype 会议应用 | Skype for Business Web App | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|添加计算机音频  <br/> |& #x 2714;|& #x 2714;|& #x 2714年;(requires plug-in)  <br/> |& #x 2714年;(requires plug-in)  <br/> |& #x 2714年;(requires plug-in)  <br/> |
-|添加视频  <br/> |& #x 2714;|& #x 2714;|& #x 2714年;(requires plug-in)  <br/> |& #x 2714年;(requires plug-in)  <br/> |& #x 2714年;(requires plug-in)  <br/> |
+|添加计算机音频  <br/> |& #x 2714;|& #x 2714;|& #x 2714;（需要插件）  <br/> |& #x 2714;（需要插件）  <br/> |& #x 2714;（需要插件）  <br/> |
+|添加视频  <br/> |& #x 2714;|& #x 2714;|& #x 2714;（需要插件）  <br/> |& #x 2714;（需要插件）  <br/> |& #x 2714;（需要插件）  <br/> |
 |切换到电话音频，经过身份验证的参与者  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |切换到电话音频，为来宾参与者  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||
 |查看多方视频（库视图）  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
@@ -166,6 +166,6 @@ Skype 会议应用程序使用 Windows 10、 Windows 8.1、 Windows 8 和 Window
 ## <a name="see-also"></a>另请参阅
 <a name="BKMK_Conferencing"> </a>
 
-[部署业务服务器 2015 Skype Web 可下载客户端](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
+[为业务服务器部署中 Skype Web 可下载的客户端](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
 [Skype 会议应用程序所支持的平台](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

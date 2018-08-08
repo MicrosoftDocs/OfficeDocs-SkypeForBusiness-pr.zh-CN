@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 拓扑生成器中定义网关
+title: 为业务服务器中 Skype 的拓扑生成器中定义网关
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
-description: 摘要： 了解如何为业务服务器 2015 Skype 中的拓扑生成器中定义 PSTN 网关。
-ms.openlocfilehash: ae8656d60d819a92a22db6e97f83ea847ee15765
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 了解如何为业务服务器中 Skype 的拓扑生成器中定义 PSTN 网关。
+ms.openlocfilehash: c83951c26a125c568535bfba7d487324a9b725d0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998551"
 ---
-# <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 拓扑生成器中定义网关
+# <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>为业务服务器中 Skype 的拓扑生成器中定义网关
  
-**摘要：**了解如何为业务服务器 2015 Skype 中的拓扑生成器中定义 PSTN 网关。
+**摘要：** 了解如何为业务服务器中 Skype 的拓扑生成器中定义 PSTN 网关。
   
 按照以下步骤使用拓扑生成器定义可以与其关联将为用户启用企业语音提供连接到公用电话交换网 (PSTN) 的中介服务器的对等方。 PSTN 网关、 IP PBX 或会话边界控制器 (SBC) 的 Internet 电话服务提供商 (ITSP) 您通过配置 SIP 中继连接，可以是到中介服务器的对等方。
   
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/03/2018
   
 4. 定义新的 PSTN 网关的 IP 地址的侦听模式（IPv4 或 IPv6），然后单击“下一步”****。
 
-5. 定义 PSTN 网关的根中继。 中继是中介服务器与由元组唯一标识的网关之间的逻辑连接。
+5. 定义 PSTN 网关的 根中继。 中继是中介服务器与由元组唯一标识的网关之间的逻辑连接。
     
     {中介服务器 FQDN，中介服务器侦听端口 （TLS 或 TCP）： 网关 IP 和 FQDN，网关侦听端口}
     

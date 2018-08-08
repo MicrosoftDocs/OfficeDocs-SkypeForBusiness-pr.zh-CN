@@ -1,9 +1,8 @@
 ---
-title: 规划 Skype for Business 2015 的网络要求
+title: Plan network requirements for Skype for Business
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,23 +12,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
-description: 摘要： 为业务服务器 2015年实现 Skype 之前查看下面的网络组件注意事项。
-ms.openlocfilehash: 4cf76cc162e358de0e59ffdd325381fc13583d37
-ms.sourcegitcommit: 1b4e93727f65b120068a74064b4144f0117f230c
+description: 摘要： 实现 Skype 业务服务器之前查看下面的网络组件注意事项。
+ms.openlocfilehash: 18c97486a3f81eb745c8970174d482c48779d104
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19691207"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025691"
 ---
-# <a name="plan-network-requirements-for-skype-for-business-2015"></a>规划 Skype for Business 2015 的网络要求
+# <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business 
  
-**摘要：** 为业务服务器 2015年实现 Skype 之前查看下面的网络组件注意事项。
+**摘要：** 实现 Skype 业务服务器之前查看下面的网络组件注意事项。
   
-在[网络规划、 监控设备以及与 Lync Server 疑难解答](https://www.microsoft.com/en-us/download/details.aspx?id=39084)的其他详细信息和深度白皮书还讨论这些主题中的信息。 而内容是指显式 Lync 2010 和 Lync 2013，业务服务器 2015年的注意事项的 Skype 保持不变。
+在[网络规划、 监控设备以及与 Lync Server 疑难解答](https://www.microsoft.com/en-us/download/details.aspx?id=39084)的其他详细信息和深度白皮书还讨论这些主题中的信息。 而内容是指显式 Lync 2010 和 Lync 2013，业务服务器 Skype 的注意事项保持不变。
   
-同样，如果您的网络涉及-wi-fi 以及有线的访问，该白皮书[提供通过 Wi-fi Lync 2013 Real-Time Communications](http://www.microsoft.com/en-us/download/details.aspx?id=36494)是参考资料，并且同样适用于业务服务器 2015年的 Skype。
+同样，如果您的网络涉及-wi-fi 以及有线的访问，该白皮书[提供通过 Wi-fi Lync 2013 Real-Time Communications](http://www.microsoft.com/en-us/download/details.aspx?id=36494)是参考资料，并且同样适用于业务服务器 Skype。
   
-网络性能和需求与网络的流量负载直接相关。 当规划建议进行的[Skype 业务服务器 2015年规划工具](../../management-tools/planning-tool/planning-tool.md)中，使用您网络和服务器实现[业务 Server 2015 容量规划计算器的 Skype](../../management-tools/capacity-planning-calculator.md)和[Skype 的业务服务器 2015年压力和性能工具](../../management-tools/stress-and-performance-tool/stress-and-performance-tool.md)。
+<!-- Deprecated tools
+Network performance and needs are directly linked to the traffic load placed on them. When planning your network and server implementations we recommend making use of the [Skype for Business Server 2015 Planning Tool](../../management-tools/planning-tool/planning-tool.md), the [Skype for Business Server 2015 Capacity Planning Calculator](../../management-tools/capacity-planning-calculator.md), and the [Skype for Business Server 2015 Stress and Performance Tool](../../management-tools/stress-and-performance-tool/stress-and-performance-tool.md).    -->
   
 ## <a name="server-hardware"></a>服务器硬件
 <a name="S_hard"> </a>
@@ -47,14 +47,14 @@ ms.locfileid: "19691207"
 
 网络要求的音频/视频 (A / V) 中的 Business Server Skype 部署包括以下：
   
-- 如果您正在部署一台边缘服务器或边缘池使用 DNS 负载平衡，您可以配置为执行网络地址转换 (NAT) 的_外部_防火墙。 您不能配置_内部_防火墙执行 nat。 有关详细信息，请参阅[Determining Firewall and 50k Port Range Requirements](http://technet.microsoft.com/library/3b849dc7-175d-40d1-820d-80e6ade6d332.aspx)。
+- 如果您正在部署一台边缘服务器或边缘池使用 DNS 负载平衡，您可以配置为执行网络地址转换 (NAT) 的_外部_防火墙。 您不能配置_内部_防火墙执行 nat。 有关详细信息，请参阅[端口和防火墙的规划](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning)。
     
     > [!IMPORTANT]
-    > 如果您有一个边缘池，并使用硬件负载平衡器，您必须在边缘服务器上使用公共 IP 地址和在无法使用 NAT 的服务器或池支持 NAT 的设备 （例如，防火墙装置或 LAN 切换。 有关详细信息，请参阅[端口摘要-使用硬件负载平衡器 Scaled Consolidated Edge](http://technet.microsoft.com/library/91213b1e-f875-464b-83e8-fe3a351595a4.aspx)。 
+    > 如果您有一个边缘池，并使用硬件负载平衡器，您必须在边缘服务器上使用公共 IP 地址和在无法使用 NAT 的服务器或池支持 NAT 的设备 （例如，防火墙装置或 LAN 切换。 有关详细信息，请参阅[Skype 业务服务器中的边缘服务器方案](../edge-server-deployments/scenarios.md)。 
   
 - 如果您的组织使用了服务质量 (QoS) 基础结构，则媒体子系统应设计为在此现有基础结构中工作。 
     
-- 如果使用 Internet 协议安全性 (IPsec)，建议在用于 A/V 流量的端口范围内禁用 IPsec。 有关详细信息，请参阅[IPsec 例外](http://technet.microsoft.com/library/241f1eca-6f2f-44de-90b1-2cb659cbe27c.aspx)。
+- 如果使用 Internet 协议安全性 (IPsec)，建议在用于 A/V 流量的端口范围内禁用 IPsec。 有关详细信息，请参阅[IPsec 例外](#ipsec-exceptions)。
     
 要提供最佳媒体质量，请执行以下操作：
   
@@ -70,6 +70,33 @@ ms.locfileid: "19691207"
     
 - 对于运行防病毒软件的服务器，包括运行 Skype 业务服务器提供最佳性能和音频质量的例外列表中的所有服务器。 
     
+## <a name="ipsec-exceptions"></a>IPsec 例外
+
+对于其中 Internet 协议安全性 (IPsec) （请参阅 IETF RFC 4301 4309） 已部署的企业网络，必须对用于传送音频、 视频和全景视频的端口范围禁用 IPsec。 提出此建议的动机是需要避免由于 IPsec 协商而在分配媒体端口时产生任何延迟。
+
+下表介绍了建议采用的 IPsec 例外设置。 
+
+**建议采用的 IPsec 例外**
+|规则名称 |源 IP |目标 IP |协议 |源端口 |目标端口 |身份验证要求 |
+|:--- |:--- |:--- |:--- |:---|:---|:--- |
+|A/V 边缘服务器内部入站|任意  |A/V 边缘服务器内部|UDP 和 TCP|任意 |任意 |不进行身份验证|
+|A/V 边缘服务器外部入站|任意  |A/V 边缘服务器外部|UDP 和 TCP|任意 |任意 |不进行身份验证|
+|A/V 边缘服务器内部出站|A/V 边缘服务器内部  |A/V 边缘服务器外部 |UDP 和 TCP|任意 |任意 |不进行身份验证|
+|A/V 边缘服务器外部出站|A/V 边缘服务器外部 |任意 |UDP 和 TCP|任意 |任意 |不进行身份验证|
+|中介服务器入站|任意  |中介服务器 |UDP 和 TCP|任意 |任意 |不进行身份验证|
+|中介服务器出站|中介服务器  |任意|UDP 和 TCP|任意 |任意 |不进行身份验证|
+|会议助理入站|任意  |运行会议助理的前端服务器 |UDP 和 TCP|任意 |任意 |不进行身份验证|
+|会议助理出站|运行会议助理的前端服务器  |任意|UDP 和 TCP|任意 |任意 |不进行身份验证|
+|A/V 会议入站|任意|前端服务器|UDP 和 TCP|任意 |任意 |不进行身份验证|
+|A/V 会议出站|前端服务器|任意|UDP 和 TCP|任意 |任意 |不进行身份验证|
+|Exchange 入站|任意|Exchange 统一消息|UDP 和 TCP|任意 |任意 |不进行身份验证|
+|应用程序共享服务器入站|任意|应用程序共享服务器|UDP 和 TCP|任意 |任意 |不进行身份验证|
+|应用程序共享服务器出站|应用程序共享服务器| 任意 |UDP 和 TCP|任意 |任意 |不进行身份验证|
+|Exchange 出站|Exchange 统一消息|任意|UDP 和 TCP|任意 |任意 |不进行身份验证|
+|客户端| 任意  |任意|UDP 和 TCP|任意 |任意 |不进行身份验证|
+|         |         |         |         |         |         |         |
+
+
 ## <a name="conferencing-network-requirements"></a>会议网络要求
 <a name="Conf_req"> </a>
 
@@ -87,7 +114,7 @@ ms.locfileid: "19691207"
   
 **音频编解码器带宽**
 
-|**音频编解码器**|**方案**|**音频负载比特率 (KBPS)**|**带宽音频负载和 IP 标头仅 (Kbps)**|**带宽音频负载、 IP 标头、 UDP、 RTP 和 SRTP (Kbps)**|**带宽音频负载、 IP 标头、 UDP、 RTP、 SRTP 和前向纠错 (Kbps)**|
+|**音频编解码器**|**应用场景**|**音频负载比特率 (KBPS)**|**仅限于带宽音频负载和 IP 标头 (Kbps)**|**带宽音频负载、IP 标头、UDP、RTP 和 SRTP (Kbps)**|**带宽音频负载、IP 标头、UDP、RTP、SRTP 和前向纠错 (Kbps)**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |RTAudio 宽带  <br/> |对等  <br/> |29.0  <br/> |45.0  <br/> |57.0  <br/> |86.0  <br/> |
 |RTAudio 窄带  <br/> |对等 PSTN  <br/> |11.8  <br/> |27.8  <br/> |39.8  <br/> |51.6  <br/> |
@@ -172,7 +199,7 @@ Skype 业务服务器支持多个解决方案。 这将允许 Skype 业务服务
   
 下表提供了适用于不同方案的值。
   
-**音频/视频容量规划的对等会话**
+**对等会话的音频/视频容量规划**
 
 |**媒体**|**编解码器**|**典型流带宽 (Kbps)**|**不使用 FEC 的最大流带宽**|**使用 FEC 的最大流带宽**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -184,7 +211,7 @@ Skype 业务服务器支持多个解决方案。 这将允许 Skype 业务服务
 |Skype 调用 Business Server 终结点时的全景视频  <br/> |H.264  <br/> |190  <br/> |2010（用于最大分辨率 1920x288）  <br/> |已包含  <br/> |
 |调用 Lync 2010 终结点时的全景视频  <br/> |RTVideo  <br/> |190  <br/> |510（用于最大分辨率 960x144）  <br/> |已包含  <br/> |
    
-**音频/视频容量规划会议**
+**会议的音频/视频容量规划**
 
 |**媒体**|**典型的编解码器**|**典型流带宽 (Kbps)**|**不使用 FEC 的最大流带宽**|**使用 FEC 的最大流带宽**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -203,7 +230,7 @@ Skype 业务服务器支持多个解决方案。 这将允许 Skype 业务服务
   
 时构建使用库视图功能多方会议，带宽使用率最初作为参与者加入增大，然后减小，都将丢弃解决方案以适应最大值。 
   
-||**2 参与者**|**3 参与者**|**4 个参与者**|**5 个参与者**|**6 参与者**|
+||**2 个参与者**|**3 个参与者**|**4 个参与者**|**5 个参与者**|**6 个参与者**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**接收的最大分辨率** <br/> |1920 x 1080  <br/> |1280 x 720  <br/> |640 x 360  <br/> |x 240 640 x 360 320  <br/> |x 240 640 x 360 320  <br/> |
 |**总平均比特率** <br/> |2128  <br/> |4050  <br/> |1304  <br/> |1224  <br/> |1565  <br/> |
@@ -211,7 +238,7 @@ Skype 业务服务器支持多个解决方案。 这将允许 Skype 业务服务
    
 全景视频的典型流带宽基于仅可传输最高为 960x144 的全景视频的设备。在使用具备 1920x288 全景视频的设备时，预计典型流带宽会提升。 
   
-**规划 PSTN 的音频容量**
+**PSTN 的音频容量规划**
 
 |**媒体**|**典型的编解码器**|**典型流带宽 (Kbps)**|**不使用 FEC 的最大流带宽**|**使用 FEC 的最大流带宽**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -251,13 +278,13 @@ Skype 业务服务器提供完全支持的 QoS:，意味着已在使用 QoS 的�
 > [!NOTE]
 > 如果您使用的 Windows Server 2012 或 Windows Server 2012 R2 您可能感兴趣一组新的 Windows PowerShell cmdlet 可用于管理该平台上的 QoS。 有关详细信息，请参阅[Windows PowerShell 中的网络 QoS Cmdlet](https://go.microsoft.com/fwlink/p/?LinkId=285379)。 
   
-在[网络规划、 监控设备以及与 Lync Server 疑难解答](https://www.microsoft.com/en-us/download/details.aspx?id=39084)的其他详细信息和深度白皮书还讨论 QoS。 而内容是指显式 Lync 2010 和 Lync 2013，业务服务器 2015年的注意事项的 Skype 保持不变。
+在[网络规划、 监控设备以及与 Lync Server 疑难解答](https://www.microsoft.com/en-us/download/details.aspx?id=39084)的其他详细信息和深度白皮书还讨论 QoS。 而内容是指显式 Lync 2010 和 Lync 2013，业务服务器 Skype 的注意事项保持不变。
   
 ## <a name="see-also"></a>另请参阅
 <a name="man_QOS"> </a>
 
-[规划 Skype 中的 IPv6 for Business](ipv6.md)
+[规划 Skype for Business 中的 IPv6](ipv6.md)
   
-[负载平衡的 Skype 的业务要求](load-balancing.md)
+[Skype for Business 的负载平衡要求](load-balancing.md)
   
-[For Business Server 2015 Skype 的 DNS 要求](dns.md)
+[Skype for Business Server 的 DNS 要求](dns.md)

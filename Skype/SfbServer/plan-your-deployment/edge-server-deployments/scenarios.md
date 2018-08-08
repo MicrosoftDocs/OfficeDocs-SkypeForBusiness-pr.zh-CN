@@ -1,8 +1,7 @@
 ---
-title: Skype for Business Server 2015 中的边缘服务器方案
+title: 边缘服务器方案中 Skype 业务服务器
 ms.author: heidip
 author: microsoftheidi
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,16 +11,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
-description: 摘要： 查看这些方案可帮助您规划边缘服务器拓扑中 Skype 业务服务器 2015年。
-ms.openlocfilehash: 9afe23c626f2a266061c250740e52bc55dd2697d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 查看这些方案可帮助您规划边缘服务器拓扑中 Skype 业务 Server。
+ms.openlocfilehash: e3e6a5c0c20a8c72725456f3c67834f84123b093
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009661"
 ---
-# <a name="edge-server-scenarios-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的边缘服务器方案
+# <a name="edge-server-scenarios-in-skype-for-business-server"></a>边缘服务器方案中 Skype 业务服务器
  
-**摘要：**查看可帮助您规划边缘服务器拓扑中 Skype 业务服务器 2015年这些方案。
+**摘要：** 查看可帮助您规划业务 Server 边缘服务器拓扑中 Skype 这些方案。
   
 我们有一些方案关系图，以帮助将可视化和决定哪些 Skype 您想要实现的业务 Server 边缘服务器拓扑。 选择合适的候选方案后，可以继续阅读需要满足的环境要求。 以下内容适用于任何方案，所以我们先讲这些内容。
   
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/03/2018
   
 在任何图，我们不包括控制器 （这是可选组件），但您可以单独阅读有关的 （它中提到的其他规划主题）。
   
-如前所述，图中有示例 IPv6 数据。 大部分中[规划边缘服务器部署中的业务服务器 2015 Skype](edge-server-deployments.md)文档将引用 IPv4，但一定支持如果您想要使用 IPv6。 请注意，在分配的地址空间中，需要有 IPv6 地址，与 IPv4 IP 一样，它们也需要能用于内部和外部寻址。 多亏有了 Windows，你可以采用双协议栈功能，即 IPv4 和 IPv6 两个单独而不同的网络协议栈。 如果需要，这能让你同时分配 IPv4 和 IPv6 地址。
+如前所述，图中有示例 IPv6 数据。 [规划业务服务器 Skype 中的边缘服务器部署](edge-server-deployments.md)中的文档的大多数将引用 IPv4，但一定支持如果您想要使用 IPv6。 请注意，在分配的地址空间中，需要有 IPv6 地址，与 IPv4 IP 一样，它们也需要能用于内部和外部寻址。 多亏有了 Windows，你可以采用双协议栈功能，即 IPv4 和 IPv6 两个单独而不同的网络协议栈。 如果需要，这能让你同时分配 IPv4 和 IPv6 地址。
   
 有 NAT64 允许的 NAT 设备 (IPv6 到 IPv4) 和 NAT66 (到 IPv6 的 IPv6))，这是用于与业务服务器 Skype 有效和。
   

@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中管理应用程序级响应组设置
+title: 管理应用程序级 Skype for Business 中的响应组设置
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: 管理应用程序级响应组设置，如音乐上保留和回响设置中的业务 Server 企业语音的 Skype。
-ms.openlocfilehash: 2133a85a9ae929a55e5edf0206932d3048dace34
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 1aa3234860193cac40e6ca8a39323013847606fb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500534"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012300"
 ---
-# <a name="managing-application-level-response-group-settings-in-skype-for-business-2015"></a>在 Skype for Business 2015 中管理应用程序级响应组设置
+# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>管理应用程序级 Skype for Business 中的响应组设置
  
 管理应用程序级响应组设置，如音乐上保留和回响设置中的业务 Server 企业语音的 Skype。
   

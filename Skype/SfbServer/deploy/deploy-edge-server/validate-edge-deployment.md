@@ -1,8 +1,7 @@
 ---
-title: 在 Skype for Business Server 2015 中验证边缘部署
+title: 验证边缘部署中 Skype 业务服务器
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,22 +10,23 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
-description: 摘要： 了解如何验证边缘服务器或边缘服务器池的部署 Skype 中使用的业务服务器 2015年。
-ms.openlocfilehash: b8adc5e8d652607156d0136671b1f149fbfe27b4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 了解如何验证边缘服务器或边缘服务器池的部署中 Skype 工作业务服务器。
+ms.openlocfilehash: cb239e2777926796761dd91c1460e1147772a34a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015095"
 ---
-# <a name="validate-your-edge-deployment-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中验证边缘部署
+# <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>验证边缘部署中 Skype 业务服务器
  
-**摘要：**了解如何验证边缘服务器或边缘服务器池的部署中 Skype 工作的业务服务器 2015年。
+**摘要：** 了解如何验证边缘服务器或边缘服务器池的部署中 Skype 工作业务服务器。
   
-一旦您已经部署了边缘服务器或边缘服务器池，您需要知道正常运行。 下面是一些可帮助进行确认连接边缘环境的操作的内部服务器，而且还需要的外部用户可以连接到业务服务器 2015年环境您 Skype 通过您的边缘。
+一旦您已经部署了边缘服务器或边缘服务器池，您需要知道正常运行。 下面是一些可帮助进行确认连接边缘环境的操作的内部服务器，而且还需要的外部用户可以连接到业务服务器环境您 Skype 通过您的边缘。
   
 ## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>验证内部服务器与边缘服务器之间的连接
 
-时的连接验证自动完成边缘服务器或边缘服务器池中安装边缘服务器时，您可以仍确认为自己使用 Windows PowerShell。 安装任何域联接的计算机上的业务 Server 2015 核心组件 (OcsCore.msi) 的 Skype 或包含中央管理存储、 的内部服务器上运行 Get-csmanagementstorereplicationstatus cmdlet。
+时的连接验证自动完成边缘服务器或边缘服务器池中安装边缘服务器时，您可以仍确认为自己使用 Windows PowerShell。 安装任何域联接的计算机上的业务 Server 核心组件 (OcsCore.msi) 的 Skype 或包含中央管理存储、 的内部服务器上运行 Get-csmanagementstorereplicationstatus cmdlet。
   
 初次运行此命令的结果可能给出复制状态为 False，而不是 True。如果发生这种情况，请运行 Invoke-CsManagementStoreReplication cmdlet。留些时间让其完成复制，然后再次运行 Get-CsManagementStoreReplicationStatus cmdlet。
   

@@ -17,11 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 了解 Office 365 (云 PBX) 中的电话系统的规划注意事项的内部部署 PSTN 连接。
-ms.openlocfilehash: 79d414e26b2fe260c6fe647c818911e77ce3bfaa
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b92a98e52f9ccf914a8100555fa683bb01d05d5b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001724"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>规划 Office 365 中的电话系统与内部部署 PSTN 连接中 Skype 业务 Server
  
@@ -55,7 +56,7 @@ ms.lasthandoff: 05/03/2018
   
 您可以有自定义功能或主要传统 PBX 加载项。 如果不在 Office 365 中的电话系统上当前可用的自定义功能，您应将保留这些要求的自定义功能在本地与旧版 PBX 和只端口不需要访问到 Office 365 中的电话系统的自定义功能的用户的用户通过内部部署 PSTN 连接。
   
-直接与 Skype 的业务服务器 2015年旧 Pbx 的互操作的列表，请参阅[Microsoft lync 基础结构限定](https://technet.microsoft.com/en-us/office/dn788945.aspx)。 如果 PBX 不在此列表中，您可以使用会话边界控制器业务 online 与 Skype 中的 Office 365 中的电话系统连接 PBX。
+直接与 Skype 的业务服务器 2015年旧 Pbx 的互操作的列表，请参阅[Microsoft lync 基础结构限定](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway)。 如果 PBX 不在此列表中，您可以使用会话边界控制器业务 online 与 Skype 中的 Office 365 中的电话系统连接 PBX。
   
 ### <a name="network-considerations-for-quality-and-performance"></a>质量和性能相关的网络注意事项
 
@@ -107,7 +108,7 @@ ms.lasthandoff: 05/03/2018
     
     如果您使用 Lync Server 2013，请参阅[Lync Server 2013 hybrid](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx)。
     
-- **Active Directory 联合身份验证服务 (AD FS) （推荐）**我们建议部署 AD FS 以支持单一登录。 有关详细信息，请参阅[Active Directory 联合身份验证服务 (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx)。
+- **Active Directory 联合身份验证服务 (AD FS) （推荐）** 我们建议部署 AD FS 以支持单一登录。 有关详细信息，请参阅[Active Directory 联合身份验证服务 (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx)。
     
 有关部署 Office 365 中的电话系统的信息，请参阅[启用通过内部部署中的业务服务器 Skype 的 PSTN 连接的 Office 365 中的电话系统的用户](enable-users-for-phone-system.md)。
   

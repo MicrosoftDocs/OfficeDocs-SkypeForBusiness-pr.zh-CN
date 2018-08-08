@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
-description: 摘要： 了解系统要求和网络或基础结构要求 Skype 业务服务器 2015年主题大纲。 如果需要安装或配置的任何组件是安装和部署 Skype for Business Server 2015 的先决条件，那么可以在那里找到这些功能。
-ms.openlocfilehash: c3ad031a79d7a880036da5fb5eed1ad938505747
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要：Skype for Business Server 2015 系统要求及网络或基础结构要求主题的大纲。如果需要安装或配置的任何组件是安装和部署 Skype for Business Server 2015 的先决条件，那么可以在那里找到这些功能。
+ms.openlocfilehash: 98729469459f451727f2285c64dcff3a7fe15f9e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000453"
 ---
-# <a name="requirements-for-your-skype-for-business-environment"></a>Skype for Business Server 2015 环境的要求
+# <a name="requirements-for-your-skype-for-business-2015-environment"></a>您 Skype 业务 2015年环境的要求
  
-**摘要：**Skype for Business Server 2015 系统要求及网络或基础结构要求主题的大纲。如果需要安装或配置的任何组件是安装和部署 Skype for Business Server 2015 的先决条件，那么可以在那里找到这些功能。
+**摘要：** Skype for Business Server 2015 系统要求及网络或基础结构要求主题的大纲。如果需要安装或配置的任何组件是安装和部署 Skype for Business Server 2015 的先决条件，那么可以在那里找到这些功能。
   
 这是有关围绕业务服务器 2015年部署 Skype 的要求的文章的登陆页面。 这包括 server 要求和更多常规事项准备，其中包括您的域和网络结构，以及证书。
   

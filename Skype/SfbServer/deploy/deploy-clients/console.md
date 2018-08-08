@@ -1,9 +1,8 @@
 ---
 title: 配置 Skype 会议室系统 v2 控制台
 ms.author: jambirk
-author: jambirk
+author: Travis-Snoozy
 manager: serdars
-ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,12 +11,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置 Skype 会议室系统 v2 控制台设备及其外围设备。
-ms.openlocfilehash: eed37791c73b2deeb9e5f0605dbf1265d9a1d02d
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: e9675b091723dc3b021543acedd278404788be13
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501023"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013694"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>配置 Skype 会议室系统 v2 控制台
  
@@ -27,7 +26,7 @@ ms.locfileid: "19501023"
   
 - [准备安装映像](console.md#Prep_Image)
     
-- [在平板电脑设备上安装一个私有 CA 证书](console.md#Certs)
+- [在平板电脑设备上安装私有 CA 证书](console.md#Certs)
     
 - [安装 Windows 10 和 Skype 会议室系统 v2 控制台应用程序](console.md#Reimage)
    
@@ -41,7 +40,7 @@ ms.locfileid: "19501023"
 ## <a name="prepare-the-installation-image"></a>准备安装映像
 <a name="Prep_Image"> </a>
 
-Surface Pro 4 或 Surface Pro 上安装 Skype 会议室系统 v2 应用程序需要具有至少 32 GB 内存格式设置为 FAT32 磁盘上的 USB 存储设备。 不应在设备上的任何其他文件，在 USB 存储任何现有文件都将丢失。 
+Surface Pro 4 或 Surface Pro 上安装 Skype 会议室系统 v2 应用程序需要具有至少 32 GB 内存格式设置为 FAT32 磁盘上的 USB 存储设备。 设备上不能有其他文件，USB 存储上的所有现有文件都会丢失。 
   
 > [!NOTE]
 > 如果未按照这些说明创建你的控制台映像，将很可能导致发生意外行为。 Skype 会议室系统 v2 图像创建不再支持 Windows 10 企业周年日 Update (版本 1607)。 
@@ -49,15 +48,14 @@ Surface Pro 4 或 Surface Pro 上安装 Skype 会议室系统 v2 应用程序需
 > [!NOTE]
 > 与 Windows 10 企业周年日更新将移至通过 Windows 应用商店的 Skype 会议室系统 v2 更新 3 现有 Skype 会议室系统 v2，但应该执行全新安装，如下所述。 
   
-1. 下载[为 KB4056892 MSU](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)。
-2. 下载[CreateSrsMedia.ps1 脚本](https://go.microsoft.com/fwlink/?linkid=867842)。
-3. 将为 KB4056892 MSU CreateSrsMedia.ps1 脚本相同的目录。
-4. Windows 10 计算机上从提升提示符处运行 CreateSrsMedia.ps1 脚本。
+1. 下载[CreateSrsMedia.ps1 脚本](https://go.microsoft.com/fwlink/?linkid=867842)。
+2. （可选）下载并置于同一目录为脚本的任何所需的语言包 CAB 文件。 该脚本将指示其中您可以下载语言包文件适用于您要创建的介质的类型，如果您不确定获取从的语言包的位置。
+3. 在 Windows 10 计算机上，在提升的提示符下运行 CreateSrsMedia.ps1 脚本。
 
 
-按照脚本的说明创建 Skype 会议室系统 v2 USB 安装盘。 完成后，从计算机中删除 USB 磁盘，并继续[安装 Windows 10 和 Skype 会议室系统 v2 控制台应用程序](console.md#Reimage)。
+按照脚本的说明创建 Skype 会议室系统 v2 USB 安装盘。 完成后将 USB 磁盘从你的计算机上移除，并继续[安装 Windows 10 和 Skype 会议室系统 v2 控制台应用](console.md#Reimage)。
     
-## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>安装 Windows 10 和 Skype 会议室系统 v2 控制台应用 
+## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>安装 Windows 10 和 Skype 会议室系统 v2 控制台应用
 <a name="Reimage"> </a>
 
 现在，你需要应用创建的映像。 平板电脑将运行作为一种设备，并将设置的默认用户仅运行 Skype 会议室系统 v2 应用程序。 
@@ -130,7 +128,7 @@ Surface Pro 4 或 Surface Pro 上安装 Skype 会议室系统 v2 应用程序需
     
 3. 在"配置域"下的 FQDN 设置为 Skype 业务服务器。 如果业务 SIP 域 Skype 不同的用户的 Exchange 域，请在此字段中输入的 Exchange 域。
     
-4. 单击" **下一步**"。
+4. 单击“**下一步**”。
     
 5. 选择功能屏幕上的指定的设备，然后单击**下一步**。 默认设置是“自动屏幕共享”设置为“开启”，“隐藏会议名称”设置为“关闭”。 要选择的设备为：
     
@@ -144,7 +142,7 @@ Surface Pro 4 或 Surface Pro 上安装 Skype 会议室系统 v2 应用程序需
     
 6. 单击“**完成**”。
     
-应用程序应立即启动登录到 Skype 的业务服务器 2015年上面，输入凭据，并应开始与使用这些相同的凭据的 Exchange 同步其日历。 有关使用应用程序的详细信息，请参阅[Skype 会议室系统版本 2 帮助](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
+应用程序应立即启动登录到 Skype 业务服务器与上面，输入的凭据，并应开始与使用这些相同的凭据的 Exchange 同步其日历。 有关使用应用程序的详细信息，请参阅[Skype 会议室系统版本 2 帮助](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
   
 > [!IMPORTANT]
 > Skype 会议室系统 v2 依赖于认证的控制台硬件 (Logitech SmartDock) 的状态。 除非检测到控制台硬件，即使包含 Skype 会议室系统 v2 应用程序 Surface Pro 4 或 Surface Pro 上加载的正确创建的图像将无法启动过去的初始安装过程。 
@@ -224,7 +222,7 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_Syste
 |☐  <br/> |音频输入设备工作正常且位置最佳  <br/> |
 |☐  <br/> |音频输出设备工作正常且位置最佳  <br/> |
    
-**停靠**
+**扩展坞**
 
 |||
 |:-----|:-----|

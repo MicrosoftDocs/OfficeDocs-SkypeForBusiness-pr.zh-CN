@@ -3,7 +3,6 @@ title: 使用 OMS 部署 Skype 会议室系统 v2 管理
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 4/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文讨论如何在使用 Microsoft 操作管理套件集成的端到端方式中部署的 Skype 会议室系统 v2 设备管理。
-ms.openlocfilehash: b0e43360b92b2ac8fdc32794a03942ec5c7755dc
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: d56b67d17cd66ceaf88a2cbe0b222d4769667c4c
+ms.sourcegitcommit: 1f345f13c8edf04efb0a8dd02d6c11f793ba201a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501030"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22109035"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>使用 OMS 部署 Skype 会议室系统 v2 管理
  
@@ -42,13 +41,13 @@ ms.locfileid: "19501030"
 7.  [配置其他操作管理套件解决方案](with-oms.md#Solutions)
 
 > [!IMPORTANT]
-> 使用最少配置操作管理套件可以监视运行 Windows 操作系统的计算机，但仍有一些需要在开始部署到所有 Skype 会议室系统的代理之前的 Skype 会议室系统特定步骤设备。
+> 使用最少配置操作管理套件可以监视运行 Windows 操作系统的计算机，但仍有一些需要在开始部署到所有 Skype 会议室的代理之前的 Skype 会议室系统 v2 特定步骤系统的设备。
 > 因此，我们强烈建议您受控的安装和配置正确的顺序执行所有配置步骤。 最终结果的质量很大程度取决于的初始配置的质量。
 
 ## <a name="validate-operations-management-suite-configuration"></a>验证操作管理套件配置
 <a name="validate_OMS"> </a>
 
-您需要具有要开始从 Skype 会议室系统设备收集日志操作管理套件工作区。 工作区是使用其自己的数据存储库、 数据源和解决方案的唯一日志分析环境。 如果您已有现有日志分析工作区，您可能使用它来监视 Skype 会议室系统部署，或者您可以创建需要专用的日志分析工作区特定于您 Skype 会议室系统监控。
+您需要具有要开始从 Skype 会议室系统 v2 设备收集日志操作管理套件工作区。 工作区是使用其自己的数据存储库、 数据源和解决方案的唯一日志分析环境。 如果您已有现有日志分析工作区，您可能使用它来监视 Skype 会议室系统 v2 部署，或者您可以创建需要专用的日志分析工作区特定于您 Skype 会议室系统 v2 监控。
 
 如果您需要创建新的日志分析工作区，请按照[创建 Azure 门户中的日志分析工作区](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-create-workspace)一文中的说明
 
@@ -56,28 +55,28 @@ ms.locfileid: "19501030"
 > 若要使用日志分析与操作管理套件，您需要具有活动的 Azure 订阅。 如果您没有 Azure 订阅，您可以创建[免费的试用订阅](https://azure.microsoft.com/free)作为起点。
 
 
-### <a name="configure-operations-management-suite-to-collect-skype-room-systems-event-logs"></a>配置操作管理套件收集 Skype 会议室系统事件日志
+### <a name="configure-operations-management-suite-to-collect-skype-room-systems-v2-event-logs"></a>配置操作管理套件收集 Skype 会议室系统 v2 事件日志
 
 日志分析仅收集在设置中指定的 Windows 事件日志中的事件。 为每个日志中，会收集仅将所选的严重级别的事件。
 
-您需要配置操作管理套件收集监视 Skype 会议室系统设备和应用程序状态所需的日志。 Skype 会议室系统 v2 设备使用 Skype 会议室系统事件日志。
+您需要配置操作管理套件收集监视 Skype 会议室系统 v2 设备和应用程序状态所需的日志。 Skype 会议室系统 v2 设备使用**Skype 会议室系统**事件日志。
 
-配置操作管理套件收集 Skype 会议室系统事件，请参阅[日志分析中的 Windows 事件日志数据源](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
+若要配置操作管理套件收集的 Skype 会议室系统 v2 事件，请参阅[日志分析中的 Windows 事件日志数据源](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
 
 ![事件日志设置](../../media/Deploy_OMS_2.png "事件日志设置")
 
 
 > [!IMPORTANT]
-> Skype 会议室系统事件日志中，选择，然后选择**错误**、**警告**和**信息**复选框。
+> **Skype 会议室系统**事件日志中，选择，然后选择**错误**、**警告**和**信息**复选框。
 
 ## <a name="configure-test-devices-for-operations-management-suite-setup"></a>配置操作管理套件安装程序测试设备
 <a name="configure_test_devices"> </a>
 
-您需要准备操作管理套件能够监视 Skype 会议室系统相关的事件。 启动时，您需要将操作管理套件代理部署到只是一个或两个 Skype 会议室系统设备物理访问并且具有这些测试设备生成一些数据，并将其推送到日志分析工作区。
+您需要准备操作管理套件能够监视 Skype 会议室系统 v2 相关的事件。 启动时，您需要将操作管理套件代理部署到只是一个或两个 Skype 会议室系统 v2 设备物理访问并且具有这些测试设备生成一些数据，并将其推送到日志分析工作区。
 
 ### <a name="install-operations-management-suite-agents-to-test-devices"></a>安装到测试设备的操作管理套件代理
 
-使用[到 Azure 中的日志分析服务的连接的 Windows 计算机](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows)中提供的说明，将操作管理套件代理部署到测试设备上。 本文提供有关部署监控代理的 Windows，获取操作管理套件工作区 ID 说明的步骤的详细的信息和主键获取 Skype 会议室系统设备连接到您操作管理套件部署，以及验证代理连接到分析日志的步骤。
+使用[到 Azure 中的日志分析服务的连接的 Windows 计算机](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows)中提供的说明，将操作管理套件代理部署到测试设备上。 本文提供有关部署监控代理的 Windows，获取操作管理套件*工作区 ID*和*主关键字*的说明，以获取 Skype 会议室系统 v2 设备的步骤的详细的信息连接到您的操作管理套件部署和步骤来验证代理连接到日志分析。
 
 ### <a name="generate-sample-skype-room-systems-events"></a>生成示例 Skype 会议室系统事件
 
@@ -85,19 +84,19 @@ ms.locfileid: "19501030"
 
 1.  登录到[Microsoft 操作管理套件门户](http://aka.ms/omsportal)。
 
-2.  列出由 Skype 会议室系统设备生成的事件：
+2.  列出由 Skype 会议室系统 v2 设备生成的事件：
     1.  转到**日志搜索**并使用查询来检索将具有自定义字段的记录。
     2.  示例查询：`Event | where Source == "SRS-App"`
 
 3.  确保查询返回包含成功检测信号事件的日志记录。
 
 4.  生成硬件问题，并验证的操作管理套件中记录所需的事件。
-    1.  拔下测试 Skype 会议室系统系统上的外围设备之一。 这可能是照相机、 免提电话、 麦克风或前端聊天室显示
+    1.  拔下测试 Skype 会议室系统 v2 系统上的外围设备之一。 这可能是照相机、 免提电话、 麦克风或前端聊天室显示
     2.  等待事件日志操作管理套件中填充的 10 分钟。
     3.  使用列表硬件错误事件查询：`Event | where EventID == 3001`
 
 5.  生成应用程序问题，并验证的记录所需的事件。
-    1.  修改 Skype 会议室系统应用程序配置，并键入正确的会话初始协议 (SIP) 地址中的密码对。
+    1.  修改 Skype 会议室系统 v2 应用程序配置，并键入正确的会话初始协议 (SIP) 地址中的密码对。
     2.  等待事件日志操作管理套件中填充的 10 分钟。
     3.  使用查询的列表应用程序错误事件：`Event | where EventID == 2001`
 
@@ -113,30 +112,31 @@ ms.locfileid: "19501030"
 
 1.  登录到[Microsoft 操作管理套件门户](http://aka.ms/omsportal)。
 
-2.  列出由 Skype 会议室系统设备生成的事件：
+2.  列出由 Skype 会议室系统 v2 设备生成的事件：
     1.  转到**日志搜索**并使用查询来检索将具有自定义字段的记录。
     2.  示例查询：`Event | where Source == "SRS-App"`
 
 3.  选择记录之一，选择向左，按钮并启动字段提取向导。
 
-![字段提取向导](../../media/Deploy_OMS_3.png "字段提取向导")
+   ![字段提取向导](../../media/Deploy_OMS_3.png "字段提取向导")
 
 4.  突出显示您希望从 RenderedDescription 提取并提供字段标题的数据。 表 1 中提供了应使用的字段名称。
 
-![自定义字段定义](../../media/Deploy_OMS_4.png "自定义字段定义")
+   ![自定义字段定义](../../media/Deploy_OMS_4.png "自定义字段定义")
 
-5.  使用表 1 中显示的映射。 将自动添加操作管理套件**\_CF**时定义的新字段的字符串。
+5.  使用*表 1*中显示的映射。 将自动添加操作管理套件**\_CF**时定义的新字段的字符串。
 
 > [!IMPORTANT]
 > 请记住 JSON 和操作管理套件的所有字段，都都区分大小写。
 
 > 下表列出了特别注意 EventID 复选框的状态。 确保您确认此复选框的操作管理套件成功提取自定义域值的状态。
+> 
 > ![自定义字段定义](../../media/Deploy_OMS_5.png "自定义字段定义") 
 
 **表 1**
 
-| **JSON 字段**               | **OMS 自定义字段**       | **事件 ID** |
-|------------------------------|----------------------------|-----------------|
+| JSON 字段                   | OMS 自定义字段           | 事件 ID        |
+|:-----------------------------|:---------------------------|:----------------|
 | 说明                  | SRSEventDescription_CF     | 未选定    |
 | ResourceState                | SRSResourceState_CF        | 未选定    |
 | 操作名称                | SRSOperationName_CF        | 未选定    |
@@ -183,7 +183,7 @@ ms.locfileid: "19501030"
 #### <a name="configure-the-overview-tile"></a>配置概述图块
 1.  打开**视图设计器**。
 2.  选择**概述图块**，并从库选择**两个数字**。
-3.  名称平铺**Skype 会议室系统**。
+3.  名称平铺**Skype 会议室系统 v2**。
 4.  定义**第一个图块**：<br>
     **图例：** 至少执行一次在上个月内发送检测信号的设备<br>
     **查询：**```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
@@ -200,7 +200,7 @@ ms.locfileid: "19501030"
     **新组：** 选择
 4.  定义**平铺**属性：<br>
     **图例：** 活动设备 （检测信号发送前 20 分钟内）<br>
-    **平铺查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
+    **图块查询：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  定义**列表**的属性：<br>
     **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 6.  定义**列标题**：<br>
@@ -217,7 +217,7 @@ ms.locfileid: "19501030"
     **新组：** 未选定
 3.  定义**平铺**属性：<br>
     **图例：** 非活动设备 （发送前 20 分钟内无检测信号消息）<br>
-    **平铺查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
+    **图块查询：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  定义**列表**的属性：<br>
     **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
 5.  定义**列标题**：<br>
@@ -231,11 +231,11 @@ ms.locfileid: "19501030"
 
 1.  从库中，选择**号码和列表**，然后添加新的平铺。
 2.  定义**常规**属性：<br>
-    **组标题：** 硬件<br>
+    **组标题：** 硬件状态<br>
     **新组：** 选择
 3.  定义**平铺**属性：<br>
     **图例：** 最后一个小时内遇到硬件错误的设备 <br>
-    **平铺查询：**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
+    **图块查询：** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  定义**列表**的属性：<br>
     **列表查询：**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer```
 5.  定义**列标题**：<br>
@@ -245,7 +245,31 @@ ms.locfileid: "19501030"
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
 7.  选择**应用**，然后**关闭**。
 
-### <a name="create-a-tile-that-displays-skype-room-systems-application-versions"></a>创建显示 Skype 会议室系统应用程序版本拼贴
+### <a name="create-a-tile-that-displays-skype-room-systems-v2-operating-system-versions"></a>创建显示 Skype 会议室系统 v2 操作系统版本拼贴
+
+1.  从库中，选择**圆环和列表**，然后添加新的平铺。
+2.  定义**常规**属性：<br>
+    **组标题：** 操作系统 Syetem 详细信息 <br>
+    **新组：** 选择
+3.  定义**标头**属性：<br>
+    **标题：** 操作系统版本<br>
+    **副标题：** 运行特定操作系统版本的设备
+4.  定义**圆环**属性：<br>
+    **查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize OS_Version = max(SRSOSLongVersion_CF) by Computer | summarize AggregatedValue = count() by OS_Version | sort by OS_Version asc```<br>
+    **使文本居中：** 设备<br>
+    **操作：** Sum
+5.  定义**列表**的属性。<br>
+    **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
+    **隐藏图：** 选择<br>
+    **启用迷你图：** 未选定
+6.  定义**列标题**。<br>
+    **名称：** 显示名称<br>
+    **值：** 将保留为空
+7.  定义**导航查询**。<br>
+    ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSDisplayName_CF, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
+8.  选择**应用**，然后**关闭**。
+
+### <a name="create-a-tile-that-displays-skype-room-systems-v2-application-versions"></a>创建显示 Skype 会议室系统 v2 应用程序版本拼贴
 
 1.  从库中，选择**圆环和列表**，然后添加新的平铺。
 2.  定义**常规**属性：<br>
@@ -277,7 +301,7 @@ ms.locfileid: "19501030"
     **新组：** 未选定
 3.  定义**平铺**属性。<br>
     **图例：** 设备所遇最后一个小时内的应用程序错误<br>
-    **平铺查询：**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
+    **图块查询：** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  定义**列表**的属性。<br>
     **列表查询：**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  定义**列标题**。<br>
@@ -295,7 +319,7 @@ ms.locfileid: "19501030"
     **新组：** 未选定
 3.  定义**平铺**属性。<br>
     **图例：** 其中已重新启动应用程序中的最后一个 24 小时和重新启动次数的设备<br>
-    **平铺查询：**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
+    **图块查询：** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
 4.  定义**列表**的属性。<br>
     **列表查询：**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
 5.  定义**列标题**。<br>
@@ -311,7 +335,7 @@ ms.locfileid: "19501030"
 您可以使用 Microsoft 操作管理套件门户或[Windows Phone](https://www.microsoft.com/en-us/store/p/microsoft-operations-management-suite/9wzdncrfjz2r)、 [iOS](https://itunes.apple.com/us/app/microsoft-operations-management-suite/id1042424859)或[Android](https://play.google.com/store/apps/details?id=com.microsoft.operations.AndroidPhone)的操作管理套件移动客户端访问您的视图。
 
 ## <a name="configure-alerts-in-operations-management-suite"></a>在操作管理套件中配置警报
-<a name="Alerts"></a>时 Skype 会议室系统设备遇到的问题、 Microsoft 操作管理套件可以提升警报通知问题的详细信息的管理员。
+<a name="Alerts"></a>时 Skype 会议室系统 v2 设备遇到的问题、 Microsoft 操作管理套件可以提升警报通知问题的详细信息的管理员。
 
 操作管理套件包括通过计划的日志搜索定期运行的内置警报机制。 如果日志搜索的结果与某个特定条件匹配，则创建警报的记录。
 
@@ -325,12 +349,12 @@ ms.locfileid: "19501030"
 请参阅[了解日志分析中的通知](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts)，以详细了解如何操作管理套件中的通知。
 
 > [!NOTE]
-> Skype 会议室系统设备生成硬件或应用程序错误时，以下示例将发送电子邮件通知。 
+> Skype 会议室系统 v2 设备生成硬件或应用程序错误时，以下示例将发送电子邮件通知。 
 
 
-### <a name="configure-an-email-alert-for-skype-room-systems-hardware-issues"></a>配置电子邮件通知 Skype 会议室系统硬件问题
+### <a name="configure-an-email-alert-for-skype-room-systems-v2-hardware-issues"></a>配置电子邮件通知 Skype 会议室系统 v2 硬件问题
 
-配置检查的最后一个小时内过硬件问题的 Skype 会议室系统设备通知规则。
+配置通知的规则，检查的最后一个小时内过硬件问题的 Skype 会议室系统 v2 设备。
 1.  登录到[Microsoft 操作管理套件门户](http://aka.ms/omsportal)。
 
 2.  选择**日志搜索**。
@@ -347,21 +371,21 @@ ms.locfileid: "19501030"
 4.  执行查询后，选择**通知**。 这将打开**添加通知规则**页。
 
 5.  使用下面的信息配置通知设置：<br>
-    **规则名称：** Skype 会议室系统硬件故障警报<br>
+    **规则名称：** Skype 会议室系统 v2 硬件故障警报<br>
     **说明：** 遇到硬件问题的最后一个小时内的设备的列表<br>
     **严重性：** 关键<br>
     **查询：** 使用预填充的搜索查询<br>
     **时间段：** 1 小时<br>
     **通知的频率：** 1 小时<br>
     **的结果数：** 大于 0<br>
-    **电子邮件主题：** Skype 会议室系统硬件故障警报<br>
+    **电子邮件主题：** Skype 会议室系统 v2 硬件故障警报<br>
     **收件人：** 包括使用分号作为分隔符的电子邮件地址<br>
 
 6.  选择**保存**。
 
-### <a name="configure-an-email-alert-for-skype-room-systems-application-issues"></a>配置电子邮件通知 Skype 会议室系统应用程序问题
+### <a name="configure-an-email-alert-for-skype-room-systems-v2-application-issues"></a>配置电子邮件通知 Skype 会议室系统 v2 应用程序问题
 
-配置通知的规则，来检查 Skype 会议室系统设备的最后一个小时内已应用程序问题。
+配置通知的规则，来检查 Skype 会议室系统 v2 设备的最后一个小时内已应用程序问题。
 1.  选择**日志搜索**。
 
 2.  输入以下查询，，，然后选择**运行**。<br>
@@ -376,14 +400,14 @@ ms.locfileid: "19501030"
 3.  执行查询后，选择**通知**。 这将打开**添加通知规则**页。
 
 4.  使用下面的信息配置通知设置：<br>
-    **规则名称：** Skype 会议室系统应用程序失败通知<br>
+    **规则名称：** Skype 会议室系统 v2 应用程序失败通知<br>
     **说明：** 遇到的应用程序问题的最后一个小时内的设备的列表<br>
     **严重性：** 关键<br>
     **查询：** 使用预填充的搜索查询<br>
     **时间段：** 1 小时<br>
     **通知的频率：** 1 小时<br>
     **的结果数：** 大于 0<br>
-    **电子邮件主题：** Skype 会议室系统应用程序失败通知<br>
+    **电子邮件主题：** Skype 会议室系统 v2 应用程序失败通知<br>
     **收件人：** 包括使用分号作为分隔符的电子邮件地址
 
 5.  选择**保存**。
@@ -402,15 +426,15 @@ ms.locfileid: "19501030"
 > 您可能需要使用 Azure 门户网站添加或修改操作管理套件通知，如果您的操作管理套件工作区配置到 Azure 扩展操作管理套件通知。 有关详细信息，请参阅[从 OMS 门户到 Azure 扩展通知](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-alerts-extend)。
 
 ## <a name="configure-all-devices-for-operations-management-suite"></a>配置所有设备的操作管理套件
-<a name="configure_all_devices"></a>配置仪表板和通知后，您可以设置和配置所有 Skype 会议室系统设备，以完成监控部署上的操作管理套件代理。
+<a name="configure_all_devices"></a>配置仪表板和通知后，您可以设置和所有以完成监控部署的 Skype 会议室系统 v2 设备上配置操作管理套件代理。
 
 尽管您可以安装，并在每个设备上手动配置操作管理套件代理，但强烈建议您利用现有软件部署工具和方法。
 
-如果您首次构建 Skype 会议室系统的设备，您可能想要包括的生成过程一部分的操作管理套件代理安装和配置步骤。 有关详细信息，请参阅[安装使用命令行的代理](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows#install-the-agent-using-the-command-line)。
+如果您首次构建 Skype 会议室系统 v2 设备，您可能想要包括的生成过程一部分的操作管理套件代理安装和配置步骤。 有关详细信息，请参阅[安装使用命令行的代理](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows#install-the-agent-using-the-command-line)。
 
 ### <a name="deploying-operations-management-suite-agents-by-using-a-group-policy-object"></a>使用组策略对象部署操作管理套件代理
 
-如果在执行操作管理套件之前，已部署 Skype 会议室系统的设备，您可以使用提供的脚本设置和使用 Active Directory 组策略配置代理。
+如果您已部署 Skype 会议室系统 v2 设备实现操作管理套件之前，您可以使用提供的脚本设置和使用 Active Directory 组策略配置代理。
 
 1.  创建共享的网络路径，并向**域计算机**组授予读取访问权限。
 
@@ -420,7 +444,7 @@ ms.locfileid: "19501030"
     1.  打开命令提示符窗口，并执行**MMASetup AMD64.exe /c**
     2.  指定您刚创建的共享和提取内容。
 
-4.  创建新的组策略对象，并将其分配给组织单位 Skype 会议室系统计算机帐户的位置。
+4.  创建新的组策略对象，并将其分配给组织单位 Skype 会议室系统 v2 计算机帐户的位置。
 
 5.  配置 PowerShell 执行策略：
     1.  编辑新创建的组策略对象，并导航到计算机配置\\策略\\管理模板\\Windows 组件\\Windows PowerShell
@@ -435,7 +459,7 @@ ms.locfileid: "19501030"
     6.  选择**添加**，然后**浏览**。
     7.  选择您刚复制的 ps1 脚本。
 
-7.  Skype 会议室系统设备应安装和配置第二个重新启动 Microsoft 监控代理。
+7.  Skype 会议室系统 v2 设备应安装和配置第二个重新启动 Microsoft 监控代理。
 
 
     ```
@@ -496,6 +520,6 @@ ms.locfileid: "19501030"
 
 ## <a name="see-also"></a>另请参阅
 
-[规划使用 OMS 的 Skype 会议室系统 v2 管理](../../plan-your-deployment/clients-and-devices/oms-management.md)
+[使用 OMS 规划 Skype 会议室系统 v2 管理](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
-[管理与 OMS 的 Skype 会议室系统 v2 设备](../../manage/skype-room-systems-v2/oms.md)
+[使用 OMS 管理 Skype 会议室系统 v2 设备](../../manage/skype-room-systems-v2/oms.md)

@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中安装中介服务器的文件
+title: 安装 Business Server Skype 中的中介服务器的文件
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,23 +12,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
-description: 摘要： 了解如何安装 Business Server 2015 Skype 中的中介服务器的文件。
-ms.openlocfilehash: 2d296cc43e58f18037176c498149db97698b7c03
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 了解如何安装 Business Server Skype 中的中介服务器的文件。
+ms.openlocfilehash: b3314e5443a7aa881fa849fd3e3b5b639f72664e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002479"
 ---
-# <a name="install-the-files-for-mediation-server-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中安装中介服务器的文件
+# <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>安装 Business Server Skype 中的中介服务器的文件
  
-**摘要：**了解如何安装 Business Server 2015 Skype 中的中介服务器的文件。
+**摘要：** 了解如何安装 Business Server Skype 中的中介服务器的文件。
   
 要成功完成此过程，应至少以本地管理员身份和至少在 RTCUniversalReadOnlyAdmins 组中具有成员身份的域用户身份登录服务器。
   
 使用本主题中的步骤运行 Skype 的业务 Server 部署向导，以您使用拓扑生成器定义和发布池之后添加到中介服务器池的计算机上安装中介服务器的文件。 当安装文件中介服务器，您还安装并分配所需的中介服务器池中的每台计算机的证书。 
   
 > [!NOTE]
-> 本主题假定您已定义并发布拓扑，在独立的中介服务器池[部署中的业务服务器 2015 Skype 的拓扑生成器中的中介服务器](deploy-a-mediation-server.md)中所述。 
+> 本主题假定您已定义并发布拓扑，在独立的中介服务器池[部署中介服务器中的业务服务器 Skype 的拓扑生成器中](deploy-a-mediation-server.md)所述。 
   
 ### <a name="to-install-the-files-for-a-stand-alone-mediation-server-pool"></a>为独立的中介服务器池安装文件
 
@@ -59,5 +59,5 @@ ms.lasthandoff: 05/03/2018
     
 13. 在您的业务 Server Control Panel for 运行 Skype 计算机上，验证 Skype 的**拓扑**页上的中介服务器服务状态显示为绿色复选标记的业务 Server Control Panel。 如果显示红色 X，请选择相应的中介服务器。 在“操作”**** 菜单上，单击“启动所有服务”****。 
     
-如果多台计算机添加到中介服务器池，请在此过程中在中介服务器池的所有其他计算机上执行步骤。 如果您不需要安装中介服务器的任何其他计算机文件，然后按照本节中[配置中的业务服务器 2015 Skype 的中继](configure-trunks.md)配置设置此中介服务器池 （或所有之间的中继连接的过程在站点的中介服务器） 及其对等。
+如果多台计算机添加到中介服务器池，请在此过程中在中介服务器池的所有其他计算机上执行步骤。 如果您不需要安装中介服务器的任何其他计算机文件，然后按照本节[中的业务服务器 Skype 配置中继](configure-trunks.md)配置的此中介服务器池 （或所有中介之间的中继连接设置中的过程在站点的服务器） 及其对等。
 

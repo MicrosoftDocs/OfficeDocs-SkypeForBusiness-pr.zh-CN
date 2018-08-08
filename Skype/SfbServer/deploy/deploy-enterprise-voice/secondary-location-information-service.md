@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中配置辅助位置信息服务
+title: 在 Skype for Business Server 中配置的辅助位置信息服务
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: 为业务 Server 企业语音的 E9-1-1 在 Skype 配置辅助位置源 （另外） 数据库。
-ms.openlocfilehash: 8f89afa61f235e05955d053e1a28b66a948d42fc
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 36bbe6183fa6f4eb086c8676e17c63f63fc994a4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500493"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006525"
 ---
-# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置辅助位置信息服务
+# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>在 Skype for Business Server 中配置的辅助位置信息服务
  
 为业务 Server 企业语音的 E9-1-1 在 Skype 配置辅助位置源 （另外） 数据库。 
   
@@ -40,3 +39,4 @@ Skype 业务服务器提供了可用于指向辅助位置源 （另外） 数据
 ## <a name="see-also"></a>另请参阅
 
 [通过 Set-cswebserviceconfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
+

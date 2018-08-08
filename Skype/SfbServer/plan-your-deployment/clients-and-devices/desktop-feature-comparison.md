@@ -1,5 +1,5 @@
 ---
-title: Skype for Business 的桌面客户端功能比较
+title: 业务服务器 2015年的 Skype 的的桌面客户端功能比较
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,19 +14,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要： 业务服务器 2015年的 Skype 或 Skype 的业务 Online 管理员可以使用这些表了解上的客户端支持哪些功能。
-ms.openlocfilehash: 867586ffd901baf4bc0c9dfe7fe880811cf4042d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2a65dcf1825bac80cc002962ce589e851ea2d3b3
+ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21223922"
 ---
-# <a name="desktop-client-feature-comparison-for-skype-for-business"></a>Skype for Business 的桌面客户端功能比较
+# <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>业务服务器 2015年的 Skype 的的桌面客户端功能比较
  
-**摘要：**Skype 的业务服务器 2015年或 Skype 的业务 Online 管理员可以使用这些表来了解哪些客户端上支持哪些功能。
+**摘要：** Skype 的业务服务器 2015年或 Skype 的业务 Online 管理员可以使用这些表来了解哪些客户端上支持哪些功能。
   
  在部署或升级到 Skype for Business 之前，检查已在组织中使用的客户端。 使用下表可了解这些客户端的功能支持影响。 这有助于你与用户交流更改、确定执行推出过程的进度以及完全了解升级到最新客户端的好处。
   
 可用业务服务器 2015年的 Skype 的某些功能不 Skype 业务 online 中可用，具体信息，请参阅[联机或混合的用户帐户限制](desktop-feature-comparison.md#Online-Hybrid)。 对于业务 Online 管理员的 Skype 可能想要为其提供的不同计划的信息，请参阅[Skype for Business Online 服务说明](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx)。
+
+请参阅业务服务器 2019年上 Skype 支持客户端的[桌面客户端的业务 2019年的 Skype 的功能比较](../../../SfBServer2019/plan/feature-comparison.md)。
   
 下表显示可用于业务 online 中处理的业务服务器 2015年或 Skype Skype 每个客户端的功能。 您可能还希望参考智能手机和平板电脑客户端功能比较[的 Skype for Business 的移动客户端功能比较](mobile-feature-comparison.md)。 你的组织购买的客户端访问许可证或用户订阅许可证也将影响用户可以使用的功能。 向用户部署完整版还是基本版客户端取决于贵组织选择购买的许可证或计划。 请参阅[授权指南](https://products.office.com/en-us/skype-for-business/it-pros)的详细信息。
   
@@ -92,9 +95,9 @@ ms.lasthandoff: 05/03/2018
 |在 Outlook 中记录 IM 对话  <br/> |& #x 2714;|& #x 2714年; 如果服务器端对话历史记录处于  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||保存在 Communicator for Mac 中  <br/> |保存在 Lync for Mac 中  <br/> |
 |使用准备好的对话模板  <br/> |||||& #x 2714;|& #x 2714;||||
 |检查拼写  <br/> |& #x 2714;|& #x 2714;||& #x 2714;|||||& #x 2714;|
-|技能搜索 （与 SharePoint Server 集成）  <br/> （业务服务器和内部部署 SharePoint 2013 的内部部署 Skype 是必需的技能搜索。）  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||
+|技能搜索（通过 SharePoint Server 集成）   <br/> （业务服务器和内部部署 SharePoint 2013 的内部部署 Skype 是必需的技能搜索。）  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||
 |持久聊天（群聊）集成  <br/> （不适用于业务 online Skype）  <br/> |& #x 2714;||& #x 2714;|||||||
-|单击一次业务会议提升到 Skype 持久聊天聊天室  <br/> （不适用于业务 online Skype）  <br/> |& #x 2714;||& #x 2714;|||||||
+|单击即可将持久聊天室升级为 Skype for Business 会议   <br/> （不适用于业务 online Skype）  <br/> |& #x 2714;||& #x 2714;|||||||
 |IM 窗口中发送者和接收者的内嵌图片  <br/> |& #x 2714;||& #x 2714;|& #x 2714;||||||
 |发送墨迹消息  <br/> ||||& #x 2714;||||||
 |接收墨迹消息  <br/> |& #x 2714;||& #x 2714;|& #x 2714;||||||
@@ -222,6 +225,7 @@ ms.lasthandoff: 05/03/2018
 |现代化身份验证  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||||||
 |多重身份验证  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||||||
 |基于证书的身份验证  <br/> |& #x 2714年; （仅加入域的设备）  <br/> |& #x 2714;|& #x 2714年; （仅加入域的设备）  <br/> |||||||
+|Kerberos 身份验证  <br/> |& #x 2714;||& #x 2714;|||||||
    
 ## <a name="archiving-compliance-and-logging-support"></a>存档、合规性和日志记录支持
 <a name="BKMK_Archiving"> </a>
@@ -284,3 +288,4 @@ ms.lasthandoff: 05/03/2018
 
 [规划客户端和设备](clients-and-devices.md)
 
+[使用 Windows Installer (MSI) 的 Skype for Business 版本的最新更新](../../sfb-client-updates.md)

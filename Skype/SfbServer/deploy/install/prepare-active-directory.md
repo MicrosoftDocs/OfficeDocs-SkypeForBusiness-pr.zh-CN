@@ -1,5 +1,5 @@
 ---
-title: 为 Skype for Business Server 2015 准备 Active Directory
+title: 准备 Active Directory 的 Skype 业务服务器
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,28 +13,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
-description: 摘要： 了解如何为业务服务器 2015 Skype 安装准备 Active Directory 域。 下载免费试用版 Skype 业务服务器 2015 从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: 97aa431627fd8e17734060b8447b0434cb8f1949
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解如何为业务服务器安装的 Skype 准备 Active Directory 域。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
+ms.openlocfilehash: 6f562a8a229f98deabce7956d5419f45e3022c12
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568387"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998593"
 ---
-# <a name="prepare-active-directory-for-skype-for-business-server-2015"></a>为 Skype for Business Server 2015 准备 Active Directory
+# <a name="prepare-active-directory-for-skype-for-business-server"></a>准备 Active Directory 的 Skype 业务服务器
  
-**摘要：** 了解如何为业务服务器 2015 Skype 安装准备 Active Directory 域。 下载[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)中的业务服务器 2015 Skype 的免费试用版。
+**摘要：** 了解如何为业务 Server Skype 安装准备 Active Directory 域。 从[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)业务服务器下载 Skype 的免费试用版。
   
-与 Active Directory 紧密 Skype 业务服务器。 您必须准备使用 Skype 业务服务器的 Active Directory 域。 将在部署向导中完成此流程，且仅对该域执行一次该流程。 这是因为，该流程会创建组和修改域，您仅需完成一次此项操作。 第 1 步至第 5 步可以按任意顺序执行。 但是，第 6、7、8 步必须在第 1 步至第 5 步之后按图表所示顺序执行。 准备 Active Directory 是 8 个步骤中的第 4 步。 有关规划 Active Directory 的详细信息，请参阅[环境要求 Skype 的业务服务器 2015年](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。
+与 Active Directory 紧密 Skype 业务服务器。 您必须准备使用 Skype 业务服务器的 Active Directory 域。 将在部署向导中完成此流程，且仅对该域执行一次该流程。 这是因为，该流程会创建组和修改域，您仅需完成一次此项操作。 第 1 步至第 5 步可以按任意顺序执行。 但是，第 6、7、8 步必须在第 1 步至第 5 步之后按图表所示顺序执行。 准备 Active Directory 是 8 个步骤中的第 4 步。 有关规划 Active Directory 的详细信息，请参阅[环境要求 Skype 业务服务器](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)或[服务器要求的业务服务器 2019 Skype](../../../SfBServer2019/plan/system-requirements.md)。
   
 ![概述图表](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
   
 ## <a name="prepare-active-directory"></a>准备 Active Directory
 
-与 Active Directory 域服务 (AD DS) 紧密集成的业务服务器 2015 Skype。 Skype 的业务服务器 2015年可以在首次安装之前，必须先准备 Active Directory。 名为**准备 Active Directory**部署向导的一部分用于与 Skype 的 Active Directory 环境准备 Business Server。
+与 Active Directory 域服务 (AD DS) 紧密集成的企业服务器的 Skype。 Skype 业务服务器可以在首次安装之前，必须先准备 Active Directory。 名为**准备 Active Directory**部署向导的一部分用于与 Skype 的 Active Directory 环境准备 Business Server。
   
 > [!NOTE]
-> 业务服务器 2015年的 Skype 使用 (AD DS) 来跟踪和与所有拓扑中的服务器都通信。 每台服务器必须加入域，以便 Skype 业务服务器可以正常工作。 
+> Skype 业务服务器使用 (AD DS) 来跟踪和与所有拓扑中的服务器都通信。 每台服务器必须加入域，以便 Skype 业务服务器可以正常工作。 
   
 > [!IMPORTANT]
 > 应仅为部署中的每个域运行一次“准备 Active Directory”过程。 
@@ -54,7 +54,7 @@ ms.locfileid: "19568387"
   
 3. 单击“**准备 Active Directory**”链接。
     
-4. **步骤 1： 准备架构**
+4. **第 1 步：准备架构**
     
     a. 检查第 1 步的先决条件信息，可单击第 1 步标题下的下拉菜单访问该信息。
     
@@ -66,7 +66,7 @@ ms.locfileid: "19568387"
     
     e。 单击“**完成**”以关闭“准备架构”向导，然后返回“准备 Active Directory”步骤。
     
-5. **步骤 2： 验证架构分区的复制**
+5. **第 2 步：验证架构分区的复制**
     
     a. 登录到域的域控制器。
     
@@ -78,7 +78,7 @@ ms.locfileid: "19568387"
     
     e。 在架构容器下，搜索“**CN=ms-RTC-SIP-SchemaVersion**”。 如果此对象存在，并且 **rangeUpper** 属性的值为 1150，**rangeLower** 属性的值为 3，则说明架构更新和复制成功。 如果此对象不存在，或 **rangeUpper** 和 **rangeLower** 属性的值不是指定的值，则说明架构未经过修改或尚未复制。
     
-6. **步骤 3： 准备当前林**
+6. **第 3 步：准备当前林**
     
     a. 检查第 3 步的先决条件信息，可单击第 3 步标题下的下拉菜单访问该信息。
     
@@ -100,7 +100,7 @@ ms.locfileid: "19568387"
     
      ![验证林复制。](../../media/20835669-b8ff-445b-aa8d-51cce46a8b0e.png)
   
-7. **步骤 4： 验证全局编录的复制**
+7. **第 4 步：验证全局目录的复制**
     
     a. 在运行林准备的林中的域控制器上（最好在其他域控制器的远程站点中），打开“**Active Directory 用户和计算机**”。
     
@@ -110,7 +110,7 @@ ms.locfileid: "19568387"
     
     d. 如果未显示这些组，可以强制复制或等待 15 分钟后再刷新右侧窗格。 显示组后，表明复制完成。
     
-8. **步骤 5： 准备当前域**
+8. **第 5 步：准备当前域**
     
     a. 查看第 5 步的先决条件信息
     
@@ -124,7 +124,7 @@ ms.locfileid: "19568387"
     
     其中 Skype 的找到 Business Server 对象，否则服务可能每个域中，必须完成这些步骤不会启动。 这包括任意类型的 Active Directory 对象，比如用户、联系人对象、管理组或其他任何类型的对象。 您可以使用集 CsUserReplicatorConfiguration ADDomainNamingContextList 添加仅的域与 Skype 的业务服务器对象，如果需要。
     
-9. **步骤 6： 验证域中的复制**
+9. **第 6 步：验证域中的复制**
     
     a. 单击**业务 Server Management Shell 的 Skype**从**应用程序**页以启动 PowerShell。
     
@@ -148,7 +148,7 @@ ms.locfileid: "19568387"
   
     c. 如果结果， **LC_DOMAINSETTINGS_STATE_READY**已成功复制域。
     
-10. **步骤 7： 添加用户业务 Server Control Panel 向 Skype 提供管理访问权限**
+10. **第 7 步：添加用户以提供 Skype for Business Server 控制面板的管理访问权限**
     
     a. 以 Domain Admins 组或 RTCUniversalServerAdmins 组成员的身份登录。
     
@@ -161,7 +161,7 @@ ms.locfileid: "19568387"
     e。 在“**成员**”选项卡上，确认所选的用户或组存在。 单击“**确定**”。
     
     > [!CAUTION]
-    > 为业务 Server Control Panel Skype 是一个基于角色的访问控制工具。 CsAdministrator 组的成员提供的业务 Server Control Panel 完全控制的所有可用的配置函数使用 Skype 的用户。 为特定功能提供了其他专门的角色。 有关可用的角色的详细信息，请参阅[环境要求 Skype 的业务服务器 2015年](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。 请注意，用户不需要启用的 Skype 业务服务器，才能成为管理组的成员。 
+    > 为业务 Server Control Panel Skype 是一个基于角色的访问控制工具。 CsAdministrator 组的成员提供的业务 Server Control Panel 完全控制的所有可用的配置函数使用 Skype 的用户。 为特定功能提供了其他专门的角色。 有关可用的角色的详细信息，请参阅[环境要求 Skype 业务服务器](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)或[服务器要求的业务服务器 2019 Skype](../../../SfBServer2019/plan/system-requirements.md)。 请注意，用户不需要启用的 Skype 业务服务器，才能成为管理组的成员。 
   
     > [!CAUTION]
     > 若要帮助保留安全性和基于角色的访问控制完整性，请将用户添加到定义了用户执行的业务服务器部署 Skype 的管理角色组。 
@@ -175,4 +175,4 @@ ms.locfileid: "19568387"
 
 ## <a name="see-also"></a>另请参阅
  
-[业务服务器 2015 Skype 的的 active Directory 域服务](../../plan-your-deployment/security/active-directory-domain-services.md)
+[Skype for Business Server 2015 的 Active Directory 域服务](../../plan-your-deployment/security/active-directory-domain-services.md)

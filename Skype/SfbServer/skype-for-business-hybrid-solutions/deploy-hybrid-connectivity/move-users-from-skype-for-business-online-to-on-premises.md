@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 摘要： 了解如何移动用户帐户从联机到本地 Skype 中的业务服务器。
-ms.openlocfilehash: 7e0400a0a77a50253e6932c8255c64eb58574229
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 098dc36e6551839d599042993b156073197753ec
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569475"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025679"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>Skype 业务 online 到本地移动用户
  
@@ -70,9 +70,7 @@ ms.locfileid: "19569475"
   Import-PSSession $CSSession -AllowClobber
   ```
 
-    有关如何为业务联机建立与 Skype 的远程 PowerShell 会话的详细信息，请参阅[连接到 Lync Online 通过使用 Windows PowerShell](http://technet.microsoft.com/library/6167dad9-9628-4fdb-bed1-bdb3f7108e64.aspx)。
-    
-    有关使用的业务 Online 连接器 PowerShell 模块 Skype 的详细信息，请参阅[使用 Windows PowerShell 管理 Lync Online](http://technet.microsoft.com/library/9ef2d853-10fb-4e02-a552-dcf6818d7153.aspx)。
+    有关使用 PowerShell 和 Skype 业务 online 的详细信息，请参阅[Windows PowerShell 将计算机设置](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 - 必须为共享的 SIP 地址空间配置您的 online 租户。 若要执行此操作，首先开始远程 Powershell 会话 Skype 业务 online。 然后运行以下 cmdlet：
     
@@ -101,7 +99,7 @@ ms.locfileid: "19569475"
 
 2. 确认在内部部署边缘服务器，您有证书链，连接到 Skype 业务 online 下, 表中所示。 您可以下载此链此处： [https://corp.sts.microsoft.com/Onboard/ADFS_Onboarding_Pack/corp_sts_certs.zip](https://corp.sts.microsoft.com/Onboard/ADFS_Onboarding_Pack/corp_sts_certs.zip)。
     
-|**证书**|**证书存储区**|
+|**证书**|**证书存储**|
 |:-----|:-----|
 |Baltimore CyberTrust Root  <br/> |受信任根 CA  <br/> |
 |Microsoft Internet Authority（新 CA 证书）  <br/> |中间 CA  <br/> |
@@ -131,9 +129,9 @@ ms.locfileid: "19569475"
     
   - 将 **lyncdiscover.contoso.com** A 记录更新为指向本地反向代理服务器的 FQDN。
     
-  - 更新 * * *_sip* 。 _tls.contoso.com** SRV 记录来解析到 Lync 内部部署的访问边缘服务公用 IP 或 VIP 地址。
+  - 更新***_sip* 。 _tls.contoso.com** SRV 记录来解析到 Lync 内部部署的访问边缘服务公用 IP 或 VIP 地址。
     
-  - 更新 * * *_sipfederationtls* 。 _tcp.contoso.com** SRV 记录来解析到 Skype 的访问边缘服务公用 IP 或 VIP 地址的业务服务器 2015年本地。
+  - 更新***_sipfederationtls* 。 _tcp.contoso.com** SRV 记录以的业务服务器 2015年本地解析为 Skype 的访问边缘服务公用 IP 或 VIP 地址。
     
   - 如果组织使用拆分 DNS （有时称为"拆分式 DNS"），请确保用户解析名称通过内部 DNS 区域时转到 Front End Pool。
     
@@ -189,7 +187,7 @@ ms.locfileid: "19569475"
   Get-CsUser | fl DisplayName,HostingProvider,SipAddress,Enabled
   ```
 
-|**Active Directory 属性**|**属性名称**|**联机用户正确的值**|**内部部署用户的正确值**|
+|**Active Directory 属性**|**属性名称**|**Online 用户的正确值**|**内部部署用户的正确值**|
 |:-----|:-----|:-----|:-----|
 |msRTCSIP DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed.online.lync.com  <br/> |SRV：  <br/> |
 |msRTCSIP PrimaryUserAddress  <br/> |SIPAddress  <br/> |sip:userName@contoso.com  <br/> |sip:userName@contoso.com  <br/> |

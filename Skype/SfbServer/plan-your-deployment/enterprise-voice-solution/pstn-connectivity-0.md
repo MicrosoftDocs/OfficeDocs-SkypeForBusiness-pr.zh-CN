@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中规划 PSTN 连接
+title: 规划业务服务器中 Skype 的 PSTN 连接
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: 规划 Business Server Skype 中的企业语音中的 PSTN 连接。
-ms.openlocfilehash: 228391049988c2eb886c0cb4e7caccce6f55ff3b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ed8b4d29dd6d2fdfc3592fba4236f4a99b9ee05d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003869"
 ---
-# <a name="plan-for-pstn-connectivity-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中规划 PSTN 连接
+# <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>规划业务服务器中 Skype 的 PSTN 连接
  
 规划 Business Server Skype 中的企业语音中的 PSTN 连接。
   
@@ -38,14 +38,14 @@ Skype 业务服务器通过以下选项提供可靠且可扩展的 PSTN 连接�
   
 ## <a name="in-this-section"></a>本节内容
 
-- [中的业务服务器 2015 Skype 的 SIP 中继](sip-trunking.md)
+- [Skype 业务服务器中的 SIP 中继](sip-trunking.md)
     
-- [Skype 中的业务服务器 2015年的直接 SIP 连接](direct-sip.md)
+- [Skype 中的业务服务器的直接 SIP 连接](direct-sip.md)
     
-- [M:N 中继中的业务服务器 2015 Skype](m-n-trunk.md)
+- [Skype 业务服务器中的 M:N 中继](m-n-trunk.md)
     
-- [中的业务服务器 2015 Skype 的转换规则](translation-rules.md)
+- [Skype 业务服务器中的转换规则](translation-rules.md)
     
-- [规划出站语音路由中 Skype 业务服务器 2015](outbound-voice-routing.md)
+- [规划出站语音路由中 Skype 业务服务器](outbound-voice-routing.md)
     
 

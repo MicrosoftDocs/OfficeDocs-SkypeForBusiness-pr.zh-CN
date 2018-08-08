@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: 阅读本主题，了解如何在 Skype for Business Server 2015 的 2015 年 11 月累积更新中部署共享线路外观 (SLA)。SLA 是用于处理对特定号码（称为“共享号码”）的多个呼叫的功能。
-ms.openlocfilehash: e8325cd7bbd6c1777143ac83ad88aae07a3a48a0
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 45d4d78b157f5fb987de2345cf2b7d5c5867edab
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568336"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145300"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中部署共享线路外观
  
@@ -104,7 +104,7 @@ ms.locfileid: "19568336"
     以下示例会将超过最大并发呼叫数的呼叫设置为转接到电话号码 202-555-1234。 目标可能而不是一个电话号码; 您组织内的用户在这种情况下，接收呼叫转移的人员的语法是相同时指定代理人： `sip:<NameofDelegate@domain>`。 其他可能的参数的`BusyOption`是`Voicemail`:
     
   ```
-  Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234]
+  Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234
   ```
 
 ### <a name="configure-the-sla-group-missed-call-option"></a>配置 SLA 组未接来电选项

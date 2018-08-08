@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中创建或修改语音路由
+title: 创建或修改 Skype for Business 中的语音路由
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
-description: 摘要： 了解如何创建或修改业务服务器 2015年使用适用于业务 Server Control Panel Skype Skype 中的语音路由。
-ms.openlocfilehash: 7c1bd9e118d95e89111225e49d2e07e921d8f33c
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 摘要： 了解如何创建或修改业务服务器使用适用于业务 Server Control Panel Skype Skype 中的语音路由。
+ms.openlocfilehash: 3704e973e392337700effc0d4c3278656f706d73
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500931"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013201"
 ---
-# <a name="create-or-modify-a-voice-route-in-skype-for-business-2015"></a>在 Skype for Business 2015 中创建或修改语音路由
+# <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>创建或修改 Skype for Business 中的语音路由
  
-**摘要：** 了解如何创建或修改业务服务器 2015年使用适用于业务 Server Control Panel Skype Skype 中的语音路由。
+**摘要：** 了解如何创建或修改业务服务器使用适用于业务 Server Control Panel Skype Skype 中的语音路由。
   
 ### <a name="to-create-a-voice-route-by-using-the-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 创建语音路由
 
@@ -58,7 +57,7 @@ ms.locfileid: "19500931"
 11. 要将一个或多个公用电话交换网 (PSTN) 用法记录与语音路由相关联，请单击“**选择**”，然后从已为企业语音部署定义的 PSTN 用法记录列表中选择一条记录。
     
     > [!NOTE]
-    > 若要查看每个可用 PSTN 用法记录的属性，请参阅[查看 PSTN 用法记录中的业务 2015 Skype](view-pstn-usage-records.md)。 > 到创建或编辑 PSTN 用法记录，请参阅[创建或修改语音策略和配置 PSTN 用法记录中的业务 2015 Skype](voice-policy-and-pstn-usage-records.md)
+    > 若要查看每个可用 PSTN 用法记录的属性，请参阅[查看 PSTN 用法记录中的业务的 Skype](view-pstn-usage-records.md)。 > 到创建或编辑 PSTN 用法记录，请参阅[创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype](voice-policy-and-pstn-usage-records.md)
   
 12. 排列 PSTN 用法记录以获得最佳性能。 若要更改列表中的记录的位置，请突出显示相应的记录名称并单击向上或向下箭头。
     
@@ -70,7 +69,7 @@ ms.locfileid: "19500931"
 14. 单击“确定”**** 保存语音路由。
     
     > [!IMPORTANT]
-    > 任何时候创建语音路由，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅[发布挂起中的业务 2015 Skype 的语音路由配置更改](voice-route-config-changes.md)。 
+    > 任何时候创建语音路由，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅[发布挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)。 
   
 ### <a name="to-modify-a-voice-route"></a>修改语音路由
 
@@ -105,7 +104,7 @@ ms.locfileid: "19500931"
 9. 若要将一个或多个 PSTN 用法与语音路由相关联，单击**选择**并从已定义为企业语音部署的 PSTN 用法记录的列表中选择一条记录。
     
     > [!NOTE]
-    > 若要查看每个可用 PSTN 用法记录的属性，请参阅[查看 PSTN 用法记录中的业务 2015 Skype](view-pstn-usage-records.md)。 > 到创建或编辑 PSTN 用法记录，请参阅[创建或修改语音策略和配置 PSTN 用法记录中的业务 2015 Skype](voice-policy-and-pstn-usage-records.md)。 
+    > 若要查看每个可用 PSTN 用法记录的属性，请参阅[查看 PSTN 用法记录中的业务的 Skype](view-pstn-usage-records.md)。 > 到创建或编辑 PSTN 用法记录，请参阅[创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype](voice-policy-and-pstn-usage-records.md)。 
   
 10. 排列 PSTN 用法记录以获得最佳性能。 若要更改列表中的记录的位置，请突出显示相应的记录名称并单击向上或向下箭头。
     
@@ -119,12 +118,13 @@ ms.locfileid: "19500931"
 13. 在“路由”**** 页上，单击“提交”****，然后单击“全部提交”****。 
     
     > [!NOTE]
-    > 每当创建或修改语音路由时，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[挂起更改语音路由配置中的业务 2015 Skype 的发布](voice-route-config-changes.md)。
+    > 每当创建或修改语音路由时，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[Publish 挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)。
   
 ## <a name="see-also"></a>另请参阅
 
-[查看 PSTN 用法记录中的业务 2015 Skype](view-pstn-usage-records.md)
+[查看 PSTN 用法记录中的业务的 Skype](view-pstn-usage-records.md)
   
-[创建或修改语音策略和配置 PSTN 用法记录中的业务 2015 Skype](voice-policy-and-pstn-usage-records.md)
+[创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype](voice-policy-and-pstn-usage-records.md)
   
-[挂起更改语音路由配置中的业务 2015 Skype 的发布](voice-route-config-changes.md)
+[发布挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)
+

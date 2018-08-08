@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中为用户启用企业语音
+title: Skype 中的企业语音的用户启用企业服务器
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
-description: 摘要： 了解如何使用户可以发起和接收呼叫的业务服务器 2015 Skype 中使用企业语音。
-ms.openlocfilehash: c7cbedb083ac76006a2bc7aaaec17082f7da75dd
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 了解如何使用户可以拨打和接听电话使用企业语音中 Skype 业务服务器。
+ms.openlocfilehash: abba652665660299ccb1e3b9a55961ca2248225e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025664"
 ---
-# <a name="enable-users-for-enterprise-voice-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中为用户启用企业语音
+# <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Skype 中的企业语音的用户启用企业服务器
  
-**摘要：**了解如何使用户可以发起和接收呼叫的业务服务器 2015 Skype 中使用企业语音。
+**摘要：** 了解如何使用户可以拨打和接听电话使用企业语音中 Skype 业务服务器。
   
 在部署企业语音或通过单位电话呼叫后，您可以使用以下过程使用户能够通过使用企业语音发起呼叫：
   

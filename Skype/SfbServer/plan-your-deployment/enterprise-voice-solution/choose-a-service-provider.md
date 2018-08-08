@@ -1,9 +1,8 @@
 ---
-title: 选择 Skype for Business Server 2015 的 E9-1-1 服务提供商
+title: 为业务服务器选择 Skype E9-1-1 服务提供的商
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 description: 选择在 Skype E9-1-1 部署的服务提供商业务 Server 企业语音。
-ms.openlocfilehash: 69e31bc20d1d32335a4d97fe4b1229f828cb1c6b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2eb9900c4c8d5d19893a37c558f07ea06241c956
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005021"
 ---
-# <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server-2015"></a>选择 Skype for Business Server 2015 的 E9-1-1 服务提供商
+# <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>为业务服务器选择 Skype E9-1-1 服务提供的商
  
 选择在 Skype E9-1-1 部署的服务提供商业务 Server 企业语音。
   

@@ -1,9 +1,8 @@
 ---
-title: 中的业务服务器 2015 Skype MN 中继
+title: Skype 业务服务器中的 MN 中继
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 description: Skype 业务 Server 企业语音支持中介服务器和组件，例如 PSTN 网关、 会话边界控制器和 IP PBX 之间的 M:N 中继。
-ms.openlocfilehash: 8f85cce1eaca8f37b6acc87f7ad4beed74fc788f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 13c25bddcbd5870caf0240f043321605cc9ace81
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012154"
 ---
-# <a name="mn-trunk-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 M:N 中继
+# <a name="mn-trunk-in-skype-for-business-server"></a>Skype 业务服务器中的 M:N 中继
  
 Skype 业务 Server 企业语音支持中介服务器和组件，例如 PSTN 网关、 会话边界控制器和 IP PBX 之间的 M:N 中继。
   

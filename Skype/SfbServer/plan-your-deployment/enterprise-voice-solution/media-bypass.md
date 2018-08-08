@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中规划媒体旁路
+title: 规划媒体绕过 Skype for Business 中
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: 决策所必需的规划媒体旁路中 Skype 业务 Server 企业语音。 包括与呼叫允许控制 (CAC) 的互操作性。
-ms.openlocfilehash: c02dd1fcae6db59972a991ef76b55f7d0cbdce9e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a6e7cd2a37af67415962a4f0a2e0c390160f66f3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020855"
 ---
-# <a name="plan-for-media-bypass-in-skype-for-business-2015"></a>在 Skype for Business Server 2015 中规划媒体旁路
+# <a name="plan-for-media-bypass-in-skype-for-business"></a>规划媒体绕过 Skype for Business 中
  
 决策所必需的规划媒体旁路中 Skype 业务 Server 企业语音。 包括与呼叫允许控制 (CAC) 的互操作性。
   
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/03/2018
   
 下图显示了具有和没有媒体旁路功能的拓扑中的基本媒体和信号路径。
   
-**媒体和信号路径具有和没有媒体绕过**
+**具有和没有媒体旁路功能的媒体和信号路径**
 
 ![语音 CAC 媒体绕过连接强制实施](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
   

@@ -14,18 +14,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 摘要： 了解如何从 Lync Server 2013 升级到 Skype 的业务服务器 2015年。 下载免费试用版 Skype 业务服务器 2015 从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: 36d692788e84c0e7f136d947d7c3b2709b490b9f
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 5fb00af65aa3aa63c32b9d54be03010747d4e83b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501075"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019884"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>升级到 Skype for Business Server 2015
  
 **摘要：** 了解如何从 Lync Server 2013 升级到 Skype 的业务服务器 2015年。 下载[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)中的业务服务器 2015 Skype 的免费试用版。
   
 使用本文档中的过程以从 Lync Server 2013 使用升级到 Skype 的业务服务器 2015年 Skype 业务 Server 拓扑生成器和就地升级的新功能。 如果您想要从 Lync Server 2010 或 Office Communications Server 2007 R2 升级，请参阅[计划升级到业务服务器 2015年的 Skype](../plan-your-deployment/upgrade.md)。
+
+> [!NOTE]
+> 就地升级中的业务服务器 2015 Skype 可用，但业务服务器 2019年不再支持在 Skype。 Coexistance 都支持并排，详细信息，请参阅[迁移到业务服务器 2019年的 Skype](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md) 。
   
 ## <a name="upgrade-from-lync-server-2013"></a>从 Lync Server 2013 升级
 
@@ -233,14 +236,14 @@ Disable-CsComputer -Scorch
   
 查看页面底部帮您进行疑难解答的完整消息。单击“**查看日志**”获得更多详细信息。
   
-如果上**Verifying 升级准备情况**的就地升级失败或 * * 安装缺少系统必备组件 * *，请确保服务器有所有的最新的 Windows Server、 Lync Server 和 SQL Server 更新应用，并且所有所需的软件和角色安装。 有什么要求的列表，请参阅[安装必备组件的业务服务器 2015 Skype](install/install-prerequisites.md)和[Skype 的业务服务器 2015年服务器要求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
+如果上**Verifying 升级准备情况**或**Installing 缺少系统必备**的就地升级失败，请确保服务器具有所有 Windows Server、 Lync Server 和 SQL Server 最新更新应用和所有必需的软件和角色安装。 有什么要求的列表，请参阅[安装必备组件的业务服务器 2015 Skype](install/install-prerequisites.md)和[Skype 的业务服务器 2015年服务器要求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
   
 ## <a name="see-also"></a>另请参阅
 
-[Plan to upgrade to Skype 的业务服务器 2015](../plan-your-deployment/upgrade.md)
+[规划升级到 Skype for Business Server 2015](../plan-your-deployment/upgrade.md)
   
-[Skype for Business Server 2015 服务器要求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Skype for Business Server 2015 的服务器要求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[安装 Business Server 2015 Skype 的先决条件](install/install-prerequisites.md)
+[Skype for Business Server 2015 的安装先决条件](install/install-prerequisites.md)
   
-[安装 Business 服务器 2015 Skype](install/install.md)
+[安装 Skype for Business Server 2015](install/install.md)

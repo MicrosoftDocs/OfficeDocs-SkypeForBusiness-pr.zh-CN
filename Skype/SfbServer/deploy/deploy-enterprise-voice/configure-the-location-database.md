@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中配置位置数据库
+title: 在 Skype for Business Server 中配置位置数据库
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,38 +13,38 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: 配置、 填充和业务 Server 企业语音中 Skype 发布 E9-1-1 位置数据库。
-ms.openlocfilehash: f07eafbbbfcbb62c7176e35faba48e0d1281ce39
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: bbeb695cea58feae073e5579eacbe3558d632735
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568329"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018873"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置位置数据库
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>在 Skype for Business Server 中配置位置数据库
  
 配置、 填充和业务 Server 企业语音中 Skype 发布 E9-1-1 位置数据库。 
   
 为使客户端能够自动检测其在网络中的位置，首先需要配置位置数据库。 
   
-若要配置位置数据库，请执行以下任务：
+要配置位置数据库，请执行下列任务：
   
 - 使用网络元素到位置的映射填充数据库。 如果您使用的紧急位置识别号码 (ELIN) 网关，您需要包括在 ELIN \<CompanyName\>字段。
     
     如果未填充位置数据库，并且位置策略中的“所需位置”**** 设置为“是”**** 或“免责声明”****，客户端将提示用户手动输入位置。
     
-- 验证对 E9-1-1 服务提供商维护的主街道地址指南 (MSAG) 的地址。
+- 根据由 E9-1-1 服务提供商维护的主街道地址指南 (MSAG) 验证地址。
     
 - 发布更新的数据库。
     
 ## <a name="populate-the-location-database"></a>填充位置数据库
 
-若要自动定位网络内的客户端，您首先需要填充位置数据库用网络线路图，映射到市政的网络元素 (即，街道) 地址。 可以使用子网、无线访问点、交换机和端口来定义线路映射。
+要在网络中自动定位客户端，首先需要使用网络线路映射填充位置数据库，网络线路映射会将网络元素映射到市政（即，街道）地址。可以使用子网、无线访问点、交换机和端口来定义线路映射。
   
 可以分别将地址添加到位置数据库中，也可以使用包含下表所述的列格式的 CSV 文件批量添加。
   
 如果您使用紧急位置标识号 (ELIN) 网关，包括每个位置“CompanyName”**** 字段中的 ELIN。可以包括每个位置的多个 ELIN，每个以逗号分隔。
   
-|**网络元素**|**所需的列**|
+|**网络元素**|**所需列**|
 |:-----|:-----|
 |**无线访问点** <br/> |\<BSSID\>，\<说明\>，\<位置\>，\<CompanyName\>，\<HouseNumber\>，\<HouseNumberSuffix\>，\<PreDirectional\>，...  <br/> ...\<StreetName\>，\<StreetSuffix\>，\<PostDirectional\>，\<市/县\>，\<状态\>，\<PostalCode\>，\<国家/地区\>  <br/> |
 |**子网** <br/> |\<子网\>，\<说明\>，\<位置\>，\<CompanyName\>，\<HouseNumber\>，\<HouseNumberSuffix\>，\<PreDirectional\>，...  <br/> ...\<StreetName\>，\<StreetSuffix\>，\<PostDirectional\>，\<市/县\>，\<状态\>，\<PostalCode\>，\<国家/地区\>  <br/> |

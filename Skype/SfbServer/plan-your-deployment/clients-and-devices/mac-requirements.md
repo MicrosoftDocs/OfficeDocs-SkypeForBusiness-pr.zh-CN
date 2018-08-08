@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: 阅读此主题以了解有关硬件、 软件和基础结构要求运行 for Business 的 Skype mac。
-ms.openlocfilehash: 9fd03dbc04937dc34145c97a3abd4fc561ae0270
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 72dfe6aa8479631a3bd3bf6be69e5a5ac2e10dff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503954"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020651"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype for Business Mac 客户端要求
  
@@ -28,10 +28,10 @@ ms.locfileid: "19503954"
   
 ## <a name="hardware-and-software-requirements-for-skype-for-business-on-the-mac"></a>Mac 上的 Skype for Business 的硬件和软件要求
 
-Skype for Mac 客户端上的业务需要 Mac OS X El Capitan 和更高版本，并使用至少 100 MB 的磁盘空间。 我们支持使用所有内置音频和视频设备。 外部设备必须[与 Lync 一起使用的合格设备的列表](https://go.microsoft.com/fwlink/p/?LinkId=798223)。 
+Skype for Mac 客户端上的业务需要 Mac OS X El Capitan 和更高版本，并使用至少 100 MB 的磁盘空间。 我们支持使用所有内置音频和视频设备。 外部设备必须[Skype 业务解决方案目录](https://partnersolutions.skypeforbusiness.com/solutionscatalog)中。 
   
 > [!NOTE]
-> 此列表为初稿，以后和某些设备可能合格的 lync，但不是支持在 mac 上的业务的 Skype > 引用了所需的最低硬件的[系统要求](https://products.office.com/en-us/office-system-requirements)。
+> 此列表为初稿，以后和某些设备可能合格的 lync，但不是支持在 mac 上的业务的 Skype 引用了所需的最低硬件的[系统要求](https://products.office.com/en-us/office-system-requirements)。
   
 ### <a name="legacy-mac-clients"></a>旧 Mac 客户端
 
@@ -40,17 +40,19 @@ Skype 的业务服务器 2015年运行的 Mac OS 10.5.8 或最新 service pack �
 - Microsoft Lync for Mac 2011 （请参阅[Lync for Mac 2011 部署指南 》](https://go.microsoft.com/fwlink/p/?LinkId=268786)）
     
 - Microsoft Communicator for Mac 2011 （请参阅[Communicator for Mac 2011 部署指南 》](https://go.microsoft.com/fwlink/p/?LinkId=268787)）
-    
+ 
+这些客户端不支持 Skype 的业务服务器 2019年。
+   
 ## <a name="infrastructure-requirements-for-skype-for-business-on-the-mac"></a>Mac 上的 Skype for Business 的基础结构要求
 <a name="Infrastructure"> </a>
 
 For Mac 客户端上的 Business Skype 利用统一通信管理平台 (UCMP) 以及统一通信 Web API (UCWA) 我们移动客户端使用。
   
-该客户与移动客户端具有相同要求，用户必须在支持的配置中部署访问边缘服务器和反向代理。 此外，必须为用户的帐户启用移动性。
+该客户与移动客户端具有相同要求，用户必须在支持的配置中部署访问边缘服务器和反向代理。 
   
 ### <a name="authentication"></a>身份验证
 
-For Mac 客户端上的 Business Skype 支持 NTLM 身份验证。 此外，客户端支持 Microsoft 新式身份验证和多重身份验证（在部署并启用时）。
+For Mac 客户端上的 Business Skype 支持基于证书的身份验证、 Microsoft 现代身份验证以及部署和启用时的多因素身份验证。
   
 > [!NOTE]
 > 当前限制，因为用户的 Exchange 凭据必须业务凭据其 Skype 相同。 
@@ -74,7 +76,7 @@ HTTP 证书吊销列表必须已定义并且可由客户端访问。 例如，�
 ## <a name="see-also"></a>另请参阅
 <a name="Infrastructure"> </a>
 
-[For Business Server 2015 Skype 的 DNS 要求](../../plan-your-deployment/network-requirements/dns.md)
+[Skype for Business Server 的 DNS 要求](../../plan-your-deployment/network-requirements/dns.md)
 
 [常见问题 (英文）](https://go.microsoft.com/fwlink/p/?LinkId=798227)
   

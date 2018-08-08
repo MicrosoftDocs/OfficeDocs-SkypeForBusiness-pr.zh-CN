@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中创建或修改组内呼叫应答号码范围
+title: 创建或修改 Skype for Business 中的组呼叫分拣号码范围
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: 创建或修改业务 Server 企业语音中 Skype 的组呼叫分拣号码范围。
-ms.openlocfilehash: b0fd219fb415439712d73e0c5dad22ba3f92b4fa
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 15906402fe81047f02fc033ba7a051a4169a0f26
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500833"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002451"
 ---
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business-2015"></a>在 Skype for Business 2015 中创建或修改组内呼叫应答号码范围
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>创建或修改 Skype for Business 中的组呼叫分拣号码范围
  
 创建或修改业务 Server 企业语音中 Skype 的组呼叫分拣号码范围。
   

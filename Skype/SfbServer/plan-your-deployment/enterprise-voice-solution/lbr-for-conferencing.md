@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 中会议的基于位置的路由
+title: 基于位置的业务服务器路由中 Skype 的会议
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 10/13/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: 规划基于位置的业务 Server 企业语音路由的 Skype 中的会议，包括咨询呼叫传输。
-ms.openlocfilehash: 778f8156d2d4ab4cf6613975567a88e80c1e6b9c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0a7e31637736eb774373ed52c0a966651445b7f5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004473"
 ---
-# <a name="location-based-routing-for-conferencing-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中会议的基于位置的路由
+# <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>基于位置的业务服务器路由中 Skype 的会议
  
 规划基于位置的业务 Server 企业语音路由的 Skype 中的会议，包括咨询呼叫传输。
   
@@ -47,7 +47,7 @@ ms.lasthandoff: 05/03/2018
 下表中总结了这些会议基于位置的路由限制。 
   
 | |
-|**在任何给定的点的会议中的用户**|**允许参加会议的用户**|**不允许加入会议的用户**|
+|**任意时间点处于会议中的用户**|**允许加入会议的用户**|**不允许加入会议的用户**|
 |:-----|:-----|:-----|
 |Skype 业务 VoIP 客户端用户从一个网络站点  <br/> |Skype 业务 VoIP 客户端用户从同一个网络站点  <br/> Skype 业务 VoIP 客户端用户从不同的网络站点  <br/> Skype 业务 VoIP 客户端用户从未知的网络站点  <br/> 联盟的 Skype 业务 VoIP 客户端用户  <br/> 从 PSTN 终结点加入的用户  <br/> |无  <br/> |
 |Skype 业务 VoIP 客户端用户从未知的网络站点  <br/> |Skype 业务 VoIP 客户端用户从任何网站  <br/> 从未知的网站的业务 VoIP 客户端用户 Skype  <br/> 联盟的 Skype 业务 VoIP 客户端用户  <br/> |通过 PSTN 终结点加入的用户  <br/> |
@@ -87,7 +87,7 @@ ms.lasthandoff: 05/03/2018
 下表介绍基于位置的路由限制所应用的咨询呼叫转移的会议应用程序基于位置的路由。 尽管 PBX 终结点并非直接与某个网络站点关联，但可以为 PBX 连接到的 SIP 中继分配一个网络站点。 因此，PBX 终结点可以间接与网络站点关联。
   
 
-|**转接呼叫方的网络站点**|**呼叫转移目标的网络站点**|**行为**|
+|**呼叫被转接方的网络站点**|**呼叫转接目标的网络站点**|**行为**|
 |:-----|:-----|:-----|
 |PSTN 终结点  <br/> |同一个网络站点 （即网站 1） 中的业务用户的 Skype  <br/> |咨询转接将被允许  <br/> |
 |PSTN 终结点  <br/> |不同的网络站点 （即站点 2） 中的业务用户的 Skype  <br/> |咨询转接将被禁止  <br/> |

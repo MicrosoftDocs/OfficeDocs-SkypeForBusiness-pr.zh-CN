@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中配置语音策略、PSTN 用法记录和语音路由
+title: Skype for Business 中配置语音策略、 PSTN 用法记录和语音路由
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
-description: 摘要： 了解如何为业务服务器 2015 Skype 中配置语音策略、 PSTN 用法记录和语音路由。
-ms.openlocfilehash: b0d5d9edaf94cb0c8041ef5ef679ad81b9c54edd
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 了解如何为业务 Server Skype 中配置语音策略、 PSTN 用法记录和语音路由。
+ms.openlocfilehash: 0292ae0f7f8579c4856059587ed75b172617fe72
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006504"
 ---
-# <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business-2015"></a>在 Skype for Business 2015 中配置语音策略、PSTN 用法记录和语音路由
+# <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>Skype for Business 中配置语音策略、 PSTN 用法记录和语音路由
  
-**摘要：**了解如何为业务服务器 2015 Skype 中配置语音策略、 PSTN 用法记录和语音路由。
+**摘要：** 了解如何为业务 Server Skype 中配置语音策略、 PSTN 用法记录和语音路由。
   
 语音策略、PSTN 用法记录和语音路由是一个有机整体。可以通过选择一组呼叫功能，然后为策略分配一组 PSTN 用法记录来配置语音策略，这些记录指定为分配了语音策略的用户或组授予哪些权限。系统还向语音路由分配 PSTN 用法记录，这些记录用于将路由与有权使用它们的用户进行匹配。也就是说，用户只能发出使用用户对于其有匹配的 PSTN 用法记录的路由的呼叫。
   
@@ -35,16 +35,16 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="in-this-section"></a>本节内容
 
-- [创建或修改语音策略和配置 PSTN 用法记录中的业务 2015 Skype](voice-policy-and-pstn-usage-records.md)
+- [创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype](voice-policy-and-pstn-usage-records.md)
     
-- [配置中的业务 2015 Skype 的语音邮件转义](configure-voice-mail-escape.md)
+- [Skype for Business 中配置语音邮件转义](configure-voice-mail-escape.md)
     
-- [查看 PSTN 用法记录中的业务 2015 Skype](view-pstn-usage-records.md)
+- [查看 PSTN 用法记录中的业务的 Skype](view-pstn-usage-records.md)
     
-- [创建或修改语音路由中的业务 2015 Skype](create-or-modify-a-voice-route.md)
+- [创建或修改 Skype for Business 中的语音路由](create-or-modify-a-voice-route.md)
     
-- [导出或导入业务 2015 Skype 中的语音路由配置文件](voice-route-configuration-import-export.md)
+- [导出或导入语音路由配置中的文件 Skype for Business](voice-route-configuration-import-export.md)
     
-- [挂起更改语音路由配置中的业务 2015 Skype 的发布](voice-route-config-changes.md)
+- [发布挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)
     
 

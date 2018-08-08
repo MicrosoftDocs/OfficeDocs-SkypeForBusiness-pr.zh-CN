@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中定义用于确定位置的网络元素
+title: 定义用于确定业务服务器中 Skype 位置的网络元素
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: 将用于将呼叫者映射到 E9-1-1 部署中 Skype 业务 Server 企业语音的位置的决策所必需的规划的网络组件。
-ms.openlocfilehash: ddf769a6389b7affcabacd936dba6e560d4a887c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2ccbb6ece628748fca0e5e8e679eb4511db37c6e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004452"
 ---
-# <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中定义用于确定位置的网络元素
+# <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>定义用于确定业务服务器中 Skype 位置的网络元素
  
 将用于将呼叫者映射到 E9-1-1 部署中 Skype 业务 Server 企业语音的位置的决策所必需的规划的网络组件。
   

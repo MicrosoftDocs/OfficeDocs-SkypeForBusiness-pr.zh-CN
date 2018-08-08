@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 中的直接 SIP 连接
+title: Skype 中的业务服务器的直接 SIP 连接
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Skype 的业务服务器，并同时 PSTN 网关和企业语音中的 IP PBX 之间支持直接 SIP 连接。
-ms.openlocfilehash: c9dca75a7b1c7ac8fa60bafc5b7a2c2fa7b51490
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0ac21bcd0df60a2b4cb9393e8cc2e047d4f9fdf7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006576"
 ---
-# <a name="direct-sip-connections-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的直接 SIP 连接
+# <a name="direct-sip-connections-in-skype-for-business-server"></a>Skype 中的业务服务器的直接 SIP 连接
  
 Skype 的业务服务器，并同时 PSTN 网关和企业语音中的 IP PBX 之间支持直接 SIP 连接。
   
@@ -39,9 +39,9 @@ Skype 的业务服务器，并同时 PSTN 网关和企业语音中的 IP PBX 之
 
 如果您的组织使用本节中所述的部署之一，您可以用于 Skype 业务服务器作为部分或整个组织的唯一电话解决方案。 本节介绍了以下部署详细信息：
   
-- **增量部署：**此选项假定您具有现有的专用交换机 (pbx) 基础结构，并且您打算企业语音逐步引入贵组织中的团队或较小的组。
+- **增量部署：** 此选项假定您具有现有的专用交换机 (pbx) 基础结构，并且您打算企业语音逐步引入贵组织中的团队或较小的组。
     
-- **仅 VoIP 部署：**此选项假定您正考虑在没有传统电话基础结构的站点的企业语音部署。
+- **仅 VoIP 部署：** 此选项假定您正考虑在没有传统电话基础结构的站点的企业语音部署。
     
 #### <a name="incremental-deployment"></a>增量部署
 
@@ -123,7 +123,7 @@ Skype 的业务服务器，并同时 PSTN 网关和企业语音中的 IP PBX 之
 
 中介服务器可以将路由呼叫通过多个网关，会话边界控制器 (Sbc) 提供 Internet 电话服务提供商或二者的组合。 此外，在池中的多个中介服务器可以与多个网关进行交互。 定义中介服务器和网关之间的逻辑路由称为中继。 时内部用户发起 PSTN 呼叫，前端池上的出站路由逻辑中选择的中继路由通过利用可能是适用于该特定的呼叫路由的所有可能的组合。 使用 DNS 负载平衡，如果呼叫无法到达由于中介服务器池中，特定问题的网关呼叫将重试池中备用的中介服务器。 
   
-关于规划多个网关的详细信息，请参阅[中的业务服务器 2015 Skype M:N 中继](m-n-trunk.md)。
+关于规划多个网关的详细信息，请参阅[中的业务服务器 Skype M:N 中继](m-n-trunk.md)。
   
 有关其他出站路由增强功能的详细信息，请参阅[Call Routes](http://technet.microsoft.com/library/a2ddf327-2ec4-407b-af0f-276f2b13eefd.aspx)。
   

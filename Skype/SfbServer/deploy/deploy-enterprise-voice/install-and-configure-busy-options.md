@@ -3,7 +3,6 @@ title: 安装和配置适用于 Skype for Business Server 的忙碌选项
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 7/6/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,17 +11,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
-description: 阅读有关如何安装和配置忙选项中 Skype 业务服务器 2015年。
-ms.openlocfilehash: d9348077c5779984879d3ac9f0d68bf68fd0c561
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 阅读有关如何安装和配置忙选项中 Skype 业务服务器。
+ms.openlocfilehash: 9bf647c1a1ccc5cbcad44b6a32e7763014d31547
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568212"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003892"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>安装和配置适用于 Skype for Business Server 的忙碌选项
  
-阅读有关如何安装和配置忙选项中 Skype 业务服务器 2015年。
+阅读有关如何安装和配置忙选项中 Skype 业务服务器。
   
 忙碌选项是 2016 年 7 月累积更新中引入的新语音策略，允许你配置当用户正在接听电话或参加会议或将呼叫置于等待状态时传入呼叫的处理方式。 可以通过忙音信号拒绝新呼叫或传入呼叫，也可以将新呼叫或传入呼叫转接到语音邮件。 
   
@@ -105,7 +104,8 @@ ms.locfileid: "19568212"
 Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 ```
 
-在下一个示例中，该命令可配置用户“Chrystal Velasquez”的忙碌选项。 在此配置中，当“Chrystal Velasquez”已接听电话时，向其发起的新传入呼叫都将转接到语言邮件。
+在下一个示例中，该命令可配置用户“Chrystal Velasquez”的忙碌选项。在此配置中，当“Chrystal Velasquez”已接听电话时，向其发起的新传入呼叫都将转接到语言邮件。
+
   
 ```
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy 

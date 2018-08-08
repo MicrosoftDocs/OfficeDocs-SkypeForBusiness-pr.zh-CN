@@ -1,9 +1,9 @@
 ---
-title: 在 Skype for Business Server 2015 中验证拓扑
+title: 验证业务服务器中 Skype 的拓扑
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 7/14/2016
+ms.date: 7/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
-description: 摘要： 了解如何验证为企业服务器拓扑 Skype 和 Active Directory 服务器正常运行。 下载免费试用版 Skype 业务服务器 2015 从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: 93696511ab415d4e3df65e6d2e3c5efcb621c39d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 了解如何验证为企业服务器拓扑 Skype 和 Active Directory 服务器正常运行。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
+ms.openlocfilehash: 162d3839c055bdc5dc8edd22afa754bc1e5e0237
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012650"
 ---
-# <a name="verify-the-topology-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中验证拓扑
+# <a name="verify-the-topology-in-skype-for-business-server"></a>验证业务服务器中 Skype 的拓扑
  
-**摘要：**了解如何验证为企业服务器拓扑 Skype 和 Active Directory 服务器正常运行。 下载[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)中的业务服务器 2015 Skype 的免费试用版。
+**摘要：** 了解如何验证为企业服务器拓扑 Skype 和 Active Directory 服务器正常运行。 从[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)业务服务器下载 Skype 的免费试用版。
   
 发布的拓扑和业务服务器系统组件安装在每个拓扑中的服务器上的 Skype 后，即可进行验证拓扑按预期方式工作。 这包括确认配置传播到所有 Active Directory 服务器，以便整个域知道 for Business 的 Skype 位于可用域中。 您可以按照任意顺序完成第 1 步至第 5 步。 但是，第 6、7、8 步必须在第 1 步至第 5 步之后按图表所示顺序执行。 验证拓扑是 8 个步骤中的第 8 步。
   

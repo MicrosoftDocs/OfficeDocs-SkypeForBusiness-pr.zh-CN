@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
-description: 摘要： 规划的 Skype 业务服务器 2015年时查看对移动客户端的功能支持。
-ms.openlocfilehash: b4e7e0bd186a3622c8f6fdf671799efdd8ab792d
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 摘要： 规划的 Skype 业务 Server 时查看对移动客户端的功能支持。
+ms.openlocfilehash: f773062744afeb97ddcd4f5e92b37ac534f05828
+ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504297"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21223804"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Skype for Business 的移动客户端功能比较
  
-**摘要：** 规划业务服务器 2015年的 Skype 时查看对移动客户端的功能支持。
+**摘要：** 规划的 Skype 业务 Server 时查看对移动客户端的功能支持。
   
 本文比较的特性和 Skype 业务移动客户端和 Skype 业务按以下类别的桌面客户端之间的功能：
   
@@ -47,13 +47,16 @@ ms.locfileid: "19504297"
     
 -  新式验证
     
-下表列出了可供 Skype 的业务服务器 2015年的 Skype 的本地部署中的业务用户的功能。 相同的功能是还对可用 Skype 对于业务 Online 和 Microsoft Office 365 用户，除非另有说明中表的批注。
+下表列出了可供 Skype 的 Skype 业务服务器的本地部署中的业务用户的功能。 相同的功能是还对可用 Skype 对于业务 Online 和 Microsoft Office 365 用户，除非另有说明中表的批注。
   
 > [!NOTE]
 > 联机帮助和最终用户的资源，请参阅[发现 for Business 的 Skype](https://go.microsoft.com/fwlink/p/?LinkId=528686)。 
   
 > [!NOTE]
 > 若要对业务的客户端比较其他 Skype 中可用的功能，请参阅[for Business 的 Skype 的桌面客户端功能比较](desktop-feature-comparison.md)。 
+
+> [!NOTE]
+> MCX (Mobility Service) 支持旧的移动客户端的不再可用的业务服务器 2019 Skype 中。 业务移动客户端的所有当前 Skype 已使用统一通信 Web API (UCWA) 来支持即时消息 (IM)、 状态和联系人。 与使用 MCX 的旧客户端的用户需要升级到当前客户端。
   
 ## <a name="sign-in-push-notifications-and-general-features"></a>登录、推送通知和常规功能
 
@@ -97,7 +100,7 @@ ms.locfileid: "19504297"
 ## <a name="contacts-and-contact-groups-support"></a>联系人和联系人组支持
 
 
- | 特性/功能  | Skype 业务 Lync 2013 桌面客户端  | Windows Phone  | iOS  | Android |
+ | 特性/功能  | Skype 业务桌面客户端  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |查看联系人列表  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |查看联系人组  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
@@ -192,7 +195,7 @@ ms.locfileid: "19504297"
 |访问语音邮件  <br/> |& #x 2714;|& #x 2714;|& #x 2714;||
 |在 Skype for Business 使用数字小键盘  <br/> |& #x 2714;& #x 2776; |& #x 2714;|& #x 2714;||
    
- & #x 2776; 供业务联机和/或 Office 365 E5 用户 Skype 和 Skype 上驻留的业务服务器 2015年或启用了企业语音的 Lync 2013 的用户。
+ & #x 2776; 供业务联机和/或 Office 365 E5 用户 Skype 和用户驻留在 Skype 业务服务器或启用了企业语音的 Lync Server 2013。
   
  & #x 2777; 为业务联机和/或 Office 365 用户的 Skype，由 Microsoft 合作伙伴支持此功能。
   

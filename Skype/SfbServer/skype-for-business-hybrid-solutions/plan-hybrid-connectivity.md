@@ -16,12 +16,13 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
-description: 摘要： 阅读本主题可了解如何规划业务服务器 Skype 和 Skype 业务 online 之间的混合连接性。 设置混合连接是部署多种 Skype for Business 混合解决方案的第一步。
-ms.openlocfilehash: d61bdd8ecf7ce35e1f80e5b69ede590d5d2c1cd1
-ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
+description: 摘要：阅读本主题可了解如何规划 Skype for Business Server 与 Skype for Business Online 之间的混合连接。 设置混合连接是部署多种 Skype for Business 混合解决方案的第一步。
+ms.openlocfilehash: 2cd4c66ebd36542fa90cb8b8bcd0aa88da0d8df0
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145363"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>规划 Skype for Business Server 与 Skype for Business Online 之间的混合连接
  
@@ -31,7 +32,7 @@ ms.lasthandoff: 05/22/2018
   
 本主题包括以下部分：
   
-- [概述 （英文)](plan-hybrid-connectivity.md#BKMK_Overview)
+- [概述](plan-hybrid-connectivity.md#BKMK_Overview)
     
 - [基础结构要求](plan-hybrid-connectivity.md#BKMK_Infrastructure)
     
@@ -41,13 +42,13 @@ ms.lasthandoff: 05/22/2018
     
 - [管理员凭据](plan-hybrid-connectivity.md#BKMK_Credentials)
     
-- [Skype 的业务 Online PowerShell 中](plan-hybrid-connectivity.md#BKMK_PowerShell)
+- [Skype for Business Online PowerShell](plan-hybrid-connectivity.md#BKMK_PowerShell)
     
-- [Skype 业务客户端支持](plan-hybrid-connectivity.md#BKMK_ClientSupport)
+- [Skype for Business 客户端支持](plan-hybrid-connectivity.md#BKMK_ClientSupport)
     
 - [拓扑要求](plan-hybrid-connectivity.md#BKMK_Topology)
     
-- [联盟允许/阻止列出的要求](plan-hybrid-connectivity.md#BKMK_Federation)
+- [联盟允许/阻止列表的要求](plan-hybrid-connectivity.md#BKMK_Federation)
     
 - [DNS 设置](plan-hybrid-connectivity.md#BKMK_DNS)
     
@@ -126,6 +127,9 @@ ms.lasthandoff: 05/22/2018
 要实施和部署 Skype for Business Server 与 Skype for Business Online 之间的混合连接，必须在环境中进行以下配置：
   
 - 一个本地部署的 Skype 业务服务器或受支持的拓扑中部署 Lync Server。 请参阅本主题中的[拓扑要求](plan-hybrid-connectivity.md#BKMK_Topology)。
+    
+    > [!NOTE]
+    > 存在内部部署环境中每个 SIP 域还必须存在于您的 Office 365 租户，反之亦然。 您不能有一些 SIP 域联机仅某些域在本地和仅。 否则，状态、 IM 和其他功能将无法正常工作。
     
 - Skype 业务 Online 启用的 Microsoft Office 365 租户。 
     
@@ -278,7 +282,9 @@ ms.lasthandoff: 05/22/2018
 |边缘 Web 会议服务 FQDN 的 DNS A 记录，例如解析为 Web 会议边缘外部 IP 的 webcon.contoso.com  <br/> |内部企业网络连接的用户的计算机  <br/> |让在线用户能够在本地托管会议中演示或查看内容。内容包括 PowerPoint 文件、白板、轮询和共享笔记。  <br/> |
    
 根据 DNS 在您的组织中如何配置，您可能需要将这些记录添加到内部托管 DNS 区域，以便相应的 SIP 域能够提供对这些记录的内部 DNS 解析。
-  
+
+[!NOTE] _sipfederationtls._tcp。\<sipdomain.com\> ，则需要混合配置从边缘服务器的 SRV 记录解析。 如果边缘服务器不能解决这些记录，请在本地用户不能看到的状态或与在线用户进行通信。
+
 ## <a name="firewall-considerations"></a>防火墙注意事项
 <a name="BKMK_Firewall"> </a>
 

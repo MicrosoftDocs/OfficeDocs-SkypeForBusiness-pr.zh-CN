@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中创建新的中继配置设置集合
+title: 创建新的集合中继配置设置中 Skype 业务服务器
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,15 +13,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 摘要： 了解如何使用适用于业务 Server Control Panel Skype 创建新的中继集合配置设置。
-ms.openlocfilehash: 2dd402e61e87642234410b74cb5c6b28b89c69a9
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e77e6fb0a84761363eb81b62858e800e2e5d65fa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025798"
 ---
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建新的中继配置设置集合
- 
-**摘要：**了解如何使用适用于业务 Server Control Panel Skype 创建新的中继集合配置设置。
+# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>创建新的集合中继配置设置中 Skype 业务服务器 
+
+**摘要：** 了解如何使用适用于业务 Server Control Panel Skype 创建新的中继集合配置设置。
   
 SIP 中继配置设置可定义中介服务器与服务提供商的公用电话交换网 (PSTN) 网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。这些设置可执行如下所指定内容的操作：
   

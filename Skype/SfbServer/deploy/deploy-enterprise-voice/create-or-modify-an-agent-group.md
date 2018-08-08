@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中创建或修改代理组
+title: 创建或修改代理组中的业务的 Skype
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: 创建或修改代理组在响应组的 Skype 业务 Server 企业语音。
-ms.openlocfilehash: 5555272fdcaa7b9a3576dc2b943eaeda064e3bb5
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: a6b57eca83c230c86e041eb6727d5b3696b689d1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568343"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018947"
 ---
-# <a name="create-or-modify-an-agent-group-in-skype-for-business-2015"></a>在 Skype for Business 2015 中创建或修改代理组
+# <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>创建或修改代理组中的业务的 Skype
  
 创建或修改代理组在响应组的 Skype 业务 Server 企业语音。
   
@@ -29,7 +28,7 @@ ms.locfileid: "19568343"
   
 必须登录组和从组中，这是不同签名或从中注销 for Business 的 Skype，注销的代理称为正式代理。 正式代理必须登录到组，然后才能接收路由至该组的呼叫。 这对于以兼职形式应答组中的呼叫的代理很有用。 通过单击 Skype for Business 打开 Windows Internet Explorer Internet 浏览器并显示网页控制台中的菜单项，正式代理登录其组中注销。
   
-不登录到组或从组注销的代理称为非正式代理。 非正式代理都自动登录到组中登录到 Skype for Business，和从组注销的他们不能登录时。
+不登录到组或从组注销的代理称为 非正式代理。 非正式代理都自动登录到组中登录到 Skype for Business，和从组注销的他们不能登录时。
   
 仅本地用户可成为代理。 如果代理从内部部署移到 online 时，响应组呼叫将不会被路由到的代理。
   

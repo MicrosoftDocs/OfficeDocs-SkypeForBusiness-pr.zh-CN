@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中发布对语音路由配置所做的待处理更改
+title: 发布挂起的 Skype for Business 中的语音路由配置更改
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
-description: 摘要： 了解如何查看、 发布或取消语音路由配置更改 Skype 中的业务服务器 2015年使用 Skype 业务 Server Control Panel。
-ms.openlocfilehash: 34da8d44a778d5a469cc7069e0024dd3b43517ab
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 摘要： 了解如何查看、 发布或取消语音路由配置更改中 Skype 业务服务器使用 Skype 业务 Server Control Panel。
+ms.openlocfilehash: 8df40de8861c16b2ab3dc40bb9f3fadec95a4842
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006511"
 ---
-# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business-2015"></a>在 Skype for Business 2015 中发布对语音路由配置所做的待处理更改
+# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>发布挂起的 Skype for Business 中的语音路由配置更改
  
-**摘要：**了解如何查看、 发布或取消语音路由配置更改 Skype 中的业务服务器 2015年使用 Skype 业务 Server Control Panel。
+**摘要：** 了解如何查看、 发布或取消语音路由配置更改中 Skype 业务服务器使用 Skype 业务 Server Control Panel。
   
 在“语音路由”**** 组的页面中对任何配置设置做出更改后，执行此过程以查看、发布或取消待处理的更改。
   
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/03/2018
 > 必须通过运行“全部提交”**** 命令，同时发布所有待处理的更改。不能选择性地发布待处理的更改。发布待处理的更改前，运行“查看未提交的更改”**** 命令并取消任何不希望发布的配置更改。
   
 > [!NOTE]
-> 如果在提交待处理更改前离开“语音路由”**** 组中的页面，所有待处理更改都将丢失。 但是，可以将当前配置（包括所有待处理的更改）导出至语音配置文件，然后导入并发布已更新的配置。 有关详细信息，请参阅[导出或导入语音路由配置文件中的业务 2015 Skype](voice-route-configuration-import-export.md)。 
+> 如果在提交待处理更改前离开“语音路由”**** 组中的页面，所有待处理更改都将丢失。 但是，可以将当前配置（包括所有待处理的更改）导出至语音配置文件，然后导入并发布已更新的配置。 有关详细信息，请参阅[导出或导入语音路由配置文件中的业务的 Skype](voice-route-configuration-import-export.md)。 
   
 ### <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>查看、发布或取消语音路由配置更改
 

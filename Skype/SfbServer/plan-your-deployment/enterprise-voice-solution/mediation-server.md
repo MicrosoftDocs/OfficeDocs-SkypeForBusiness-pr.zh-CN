@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 中的中介服务器组件
+title: Skype 业务服务器中的中介服务器组件
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: 对于业务服务器，包括其支持的拓扑和 M:N 中继、 媒体绕过和呼叫允许控制其关系，请了解 Skype 中介服务器。
-ms.openlocfilehash: 73166df66acac493717ce2c07e42e5429176a400
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 95feb3b419eacf77739dfed98d2eee70eb49dc06
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009191"
 ---
-# <a name="mediation-server-component-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的中介服务器组件
+# <a name="mediation-server-component-in-skype-for-business-server"></a>Skype 业务服务器中的中介服务器组件
  
 对于业务服务器，包括其支持的拓扑和 M:N 中继、 媒体绕过和呼叫允许控制其关系，请了解 Skype 中介服务器。
   
@@ -85,13 +85,13 @@ Skype 业务服务器支持的灵活性中继的定义中用于呼叫路由。 �
   
 媒体旁路和带宽预留相互排斥。 如果对呼叫使用媒体旁路功能，则不会对该呼叫执行呼叫允许控制。 此处假定前提是此次呼叫不涉及具有限定带宽的链接。 如果对于特定的呼叫涉及中介服务器的使用呼叫允许控制，则该呼叫不能使用媒体绕过。
   
-有关详细信息媒体绕过或呼叫允许控制，请参阅[规划媒体绕过中的业务 2015 Skype](media-bypass.md)或[规划中的业务服务器 2015 Skype 的呼叫允许控制](call-admission-control.md)。
+详细信息媒体绕过或呼叫允许控制，请参阅[规划媒体绕过 Skype for Business 中](media-bypass.md)或[Skype 业务服务器中的呼叫允许控制的计划](call-admission-control.md)。
   
 ## <a name="enhanced-9-1-1-e9-1-1-and-mediation-server"></a>增强型 9-1-1 (E9-1-1) 和中介服务器
 
 中介服务器的扩展的功能，以便可以正确交互增强型 9-1-1 (E9-1-1) 服务提供商。 中介服务器上需要没有特殊的配置。 是 E9-1-1 交互所需的 SIP 扩展名，默认情况下，包括在中介服务器的 SIP 协议，用于对等网关 （PSTN 网关、 IP-PBX 或 SBC 的 Internet 电话服务提供商，包括 E9-1-1 服务与与其进行交互提供程序）
   
-SIP 中继到 E9-1-1 服务提供商可以终止上现有中介服务器池还是需要独立的中介服务器将取决于 E9-1-1 SBC 可以是否与中介服务器池进行交互。 有关详细信息，请参阅[中的业务服务器 2015 Skype M:N 中继](m-n-trunk.md)。
+SIP 中继到 E9-1-1 服务提供商可以终止上现有中介服务器池还是需要独立的中介服务器将取决于 E9-1-1 SBC 可以是否与中介服务器池进行交互。 有关详细信息，请参阅[中的业务服务器 Skype M:N 中继](m-n-trunk.md)。
   
 ## <a name="media-bypass-and-mediation-server"></a>媒体旁路和中介服务器
 
@@ -117,13 +117,13 @@ SIP 中继到 E9-1-1 服务提供商可以终止上现有中介服务器池还�
   
 下图显示了由通过 WAN 链路连接的两个站点组成的简单拓扑。 站点 1 前端池上并置中介服务器。 站点 1 的中介服务器控制站点 1 的 PSTN 网关和站点 2 的网关。 在此拓扑中，已在全局范围内启用媒体旁路以使用站点和区域信息，并且到每个 PSTN 网关（GW1 和 GW2）的中继都已启用旁路。
   
-**通过 WAN 连接的站点示例链接与站点 1 的中介服务器和站点 2 的 PSTN 网关**
+**通过 WAN 链路与站点 1 的中介服务器和站点 2 的 PSTN 网关相连接的站点示例**
 
 ![带中介服务器 WAN 网关的语音拓扑](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanGwy.jpg)
   
 下图显示简单的拓扑，其中中介服务器并置在站点 1 的前端池上具有 IP PBX 的直接 SIP 连接站点 1。 在此图中，中介服务器还将控制在站点 2 的 PSTN 网关。 假定 Skype 业务用户存在于站点 1 和 2 上的。 此外假定 IP-PBX，具有相关联的媒体处理器必须按源自 Skype 业务终结点发送之前的所有媒体遍历到受 IP PBX 的媒体终结点。 在此拓扑中，已在全局范围内启用媒体旁路以使用站点和区域信息，并且到 PBX 和 PSTN 网关的中继已启用媒体旁路。
   
-**通过 WAN 连接的站点示例与站点 1 的中介服务器和站点 2 的 PBX 相链接**
+**通过 WAN 链路与站点 1 的中介服务器和站点 2 的 PBX 相连接的站点的示例**
 
 ![语音拓扑中介服务器 WAN PBX](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
   
@@ -160,7 +160,7 @@ SIP 中继到 E9-1-1 服务提供商可以终止上现有中介服务器池还�
 > [!NOTE]
 > 媒体旁路将不会与每个 PSTN 网关、IP-PBX 和 SBC 进行交互操作。 Microsoft 与认证合作伙伴一起对一组 PSTN 网关和 SBC 进行了测试，另外也对 Cisco IP-PBX 进行了一些测试。 仅与产品支持媒体绕过和版本列在[统一通信开放互操作性计划的 Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=268730)。 
   
-如果分支站点恢复能力是必需的 Survivable Branch Appliance 或前端服务器、 中介服务器和网关的组合必须部署在分支站点。 （具有分支站点恢复能力假设是状态和会议不弹性站点。）规划语音分支站点上的指南，请参阅[Plan for Business Server 2015 的 Skype 中的企业语音恢复能力](enterprise-voice-resiliency.md)。
+如果分支站点恢复能力是必需的 Survivable Branch Appliance 或前端服务器、 中介服务器和网关的组合必须部署在分支站点。 （具有分支站点恢复能力假设是状态和会议不弹性站点。）规划语音分支站点上的指南，请参阅[Plan for Business Server 的 Skype 中的企业语音恢复能力](enterprise-voice-resiliency.md)。
   
 与 IP PBX 的交互，如果 IP PBX 不正确支持与多个早期对话的早期媒体交互和 RFC 3960 交互，可以有传入呼叫从 IP PBX 的 Skype 的问候语的几个单词的第一个剪辑业务终结点。 此问题可以是否在中央站点中介服务器的 IP PBX 的呼叫路由路由其中终止分支站点，因为信号完成需要更多时间更高。 如果您遇到此行为，部署中介服务器在分支站点是减少剪切第一个几个单词的唯一方式。
   

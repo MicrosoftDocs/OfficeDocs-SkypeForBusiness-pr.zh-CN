@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中创建或修改来电显示的转换规则
+title: 创建或修改转换规则的呼叫者 ID 演示文稿中 Skype 业务服务器
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,15 +13,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: 摘要： 了解如何使用适用于业务 Server Control Panel Skype 配置呼叫者 ID。
-ms.openlocfilehash: cd4d11be6c24cc6ba092de4655e5d0b9530c3ac8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2748677c00e74de4b26cd62494d90dc44c4b5a6a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000153"
 ---
-# <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建或修改来电显示的转换规则
+# <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>创建或修改转换规则的呼叫者 ID 演示文稿中 Skype 业务服务器
  
-**摘要：**了解如何使用适用于业务 Server Control Panel Skype 配置呼叫者 ID。
+**摘要：** 了解如何使用适用于业务 Server Control Panel Skype 配置呼叫者 ID。
   
 与 Skype 的企业服务器，调用的方的电话号码 （即，调用的电话号码） 可以由 E.164 格式转换为_中继对等方_（即，关联的网关、 private branch exchange （所需的本地拨号格式PBX)，或 SIP 中继)。 为此，必须定义一个或多个转换规则，以便在将请求 URI 路由至中继对等方之前对其执行转换。
   

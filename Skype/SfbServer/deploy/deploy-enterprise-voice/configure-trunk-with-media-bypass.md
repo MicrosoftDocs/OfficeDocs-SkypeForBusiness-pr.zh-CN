@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business Server 2015 中配置带媒体旁路的中继
+title: 为业务 Server 使用 Skype 中的媒体旁路配置中继
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,26 +12,26 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
-description: 摘要： 配置与业务服务器 2015年的 Skype 启用媒体旁路的中继。 这将使您尽可能减少的中介服务器，假定您的 SIP 中继提供商支持它。
-ms.openlocfilehash: f8e353e7d11bb3921839f957be25e0bfb6804a03
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 摘要： 使用 Skype 业务服务器启用媒体旁路配置中继。 这将使您尽可能减少的中介服务器，假定您的 SIP 中继提供商支持它。
+ms.openlocfilehash: 48dfbfeaa72819f06f70ed2645380bc1d673ac21
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501292"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002402"
 ---
-# <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置带媒体旁路的中继
+# <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>为业务 Server 使用 Skype 中的媒体旁路配置中继
  
-**摘要：** 使用业务服务器 2015年的 Skype 启用媒体旁路配置中继。 这将使您尽可能减少的中介服务器，假定您的 SIP 中继提供商支持它。
+**摘要：** 使用 Skype 业务服务器启用媒体旁路配置中继。 这将使您尽可能减少的中介服务器，假定您的 SIP 中继提供商支持它。
   
-执行以下步骤可配置启用媒体旁路的中继。 若要使用禁用媒体旁路配置中继，请参阅[配置无媒体中继中的业务服务器 2015 Skype 绕过](configure-trunk-without-media-bypass.md)。 
+执行以下步骤可配置启用媒体旁路的中继。 若要使用禁用媒体旁路配置中继，请参阅[配置无媒体中继绕过 Skype 业务服务器中](configure-trunk-without-media-bypass.md)。 
   
-您想要尽可能减少的部署中介服务器时，媒体绕过非常有用。 有关详细信息，请参阅[Plan for 媒体绕过中的业务 2015 Skype](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+您想要尽可能减少的部署中介服务器时，媒体绕过非常有用。 有关详细信息，请参阅[Plan for 媒体绕过 Skype for Business 中](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
 强烈建议您启用媒体旁路。 但是在 SIP 中继上启用媒体旁路之前，请确认您的合格 SIP 中继提供商是否支持媒体旁路且能够满足成功启用方案的要求。 具体而言，提供程序必须具有贵组织的内部网络中的服务器的 IP 地址。
   
 > [!NOTE]
-> 媒体旁路将不会与每个公用电话交换网 (PSTN) 网关、IP-PBX 和会话边界控制器 (SBC) 进行交互操作。 Microsoft 与认证合作伙伴一起对一组 PSTN 网关和 SBC 进行了测试。 媒体绕过功能是仅支持的产品和[电话基础结构的业务服务器 Skype](https://technet.microsoft.com/en-us/office/dn947483.aspx)页列出的版本。 
+> 媒体旁路将不会与每个公用电话交换网 (PSTN) 网关、IP-PBX 和会话边界控制器 (SBC) 进行交互操作。 Microsoft 与认证合作伙伴一起对一组 PSTN 网关和 SBC 进行了测试。 媒体绕过功能是仅支持的产品和[电话基础结构的业务服务器 Skype](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)页列出的版本。 
   
 如下所述的中继组合了一组应用于分配了此中继配置的中继的参数。可以将特定的中继配置的范围限定为全局（没有更特定的站点或池配置的所有中继）、一个站点或一个池。池级别中继配置用于将特定中继配置的范围限定为单个中继。
   
@@ -71,7 +70,7 @@ ms.locfileid: "19501292"
 6. 如果您要绕过中介服务器而通过中继对等方处理媒体，请选中“启用媒体旁路”**** 复选框。
     
     > [!IMPORTANT]
-    > 为使媒体旁路功能成功发挥作用，PSTN 网关、IP-PBX 或 ITSP 会话边界控制器必须支持某些功能。 有关详细信息，请参阅[规划媒体绕过中的业务 2015 Skype](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)。 
+    > 为使媒体旁路功能成功发挥作用，PSTN 网关、IP-PBX 或 ITSP 会话边界控制器必须支持某些功能。 有关详细信息，请参阅[规划媒体绕过 Skype for Business 中](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)。 
   
 7. 如果存在一个已知的媒体端点（例如 PSTN 网关，其中媒体终端与信号终端具有相同的 IP），则选中“集中式媒体处理”**** 复选框。如果中继没有已知的媒体端点，则清除该复选框。
     
@@ -101,7 +100,7 @@ ms.locfileid: "19501292"
     
     - 要删除 PSTN 用法记录中的某个路由，请选择此路由，然后单击“删除”****。
     
-   - 要定义新路由并将其与此 PSTN 用法记录相关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务 2015 Skype](create-or-modify-a-voice-route.md)。
+   - 要定义新路由并将其与此 PSTN 用法记录相关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务的 Skype](create-or-modify-a-voice-route.md)。
     
     - 要编辑与此 PSTN 用法记录相关联的路由，请选择此路由，然后单击“显示详细信息”****。 
     
@@ -117,7 +116,7 @@ ms.locfileid: "19501292"
     
    - 要删除 PSTN 用法记录中的某个路由，请选择此路由，然后单击“删除”****。
     
-   - 要定义新路由并将其与此 PSTN 用法记录相关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务 2015 Skype](create-or-modify-a-voice-route.md)。
+   - 要定义新路由并将其与此 PSTN 用法记录相关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务的 Skype](create-or-modify-a-voice-route.md)。
     
    - 要编辑与此 PSTN 用法记录相关联的路由，请选择此路由，然后单击“显示详细信息”****。 
     
@@ -143,7 +142,7 @@ ms.locfileid: "19501292"
     
    - 若要从企业语音部署中可用的所有转换规则的列表中选择一个或多个规则，请单击**选择**。 在“选择转换规则”**** 中，单击要与中继关联的规则，然后单击“确定”****。
     
-   - 要定义新的转换规则并将其与中继相关联，请单击“新建”****。 有关转换规则的详细信息，请参阅[中的业务服务器 2015 Skype 的转换规则](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
+   - 要定义新的转换规则并将其与中继相关联，请单击“新建”****。 有关转换规则的详细信息，请参阅[Skype 业务服务器中的转换规则](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
     
    - 要编辑已与中继关联的转换规则，请单击相应的规则名称，然后单击“显示详细信息”****。 
     
@@ -158,7 +157,7 @@ ms.locfileid: "19501292"
     
    - 若要从企业语音部署中可用的所有转换规则的列表中选择一个或多个规则，请单击**选择**。 在“选择转换规则”**** 中，单击要与中继关联的规则，然后单击“确定”****。
     
-   - 要定义新的转换规则并将其与中继相关联，请单击“新建”****。 有关转换规则的详细信息，请参阅[中的业务服务器 2015 Skype 的转换规则](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
+   - 要定义新的转换规则并将其与中继相关联，请单击“新建”****。 有关转换规则的详细信息，请参阅[Skype 业务服务器中的转换规则](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
     
    - 要编辑已与中继关联的转换规则，请单击相应的规则名称，然后单击“显示详细信息”****。 
     
@@ -179,15 +178,16 @@ ms.locfileid: "19501292"
 19. 在“Trunk 配置”**** 页上，单击“提交”****，然后单击“全部提交”****。 
     
    > [!NOTE]
-   > 任何时候创建或修改中继配置，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[挂起更改语音路由配置中的业务 2015 Skype 的发布](voice-route-config-changes.md)。
+   > 任何时候创建或修改中继配置，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[Publish 挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)。
   
-配置中继后，继续配置媒体通过选择不同的全局媒体绕过绕过选项，如部署文档中[部署媒体绕过中的业务服务器 2015 Skype](deploy-media-bypass.md)中所述。
+配置中继后，继续配置媒体绕过通过选择不同的全局媒体绕过选项中, 所述[部署媒体绕过中 Skype 业务服务器](deploy-media-bypass.md)部署文档中。
 ## <a name="see-also"></a>另请参阅
 
-[配置无媒体绕过 Skype 中的业务服务器 2015年的中继](configure-trunk-without-media-bypass.md)
+[配置无媒体绕过中 Skype 业务服务器的中继](configure-trunk-without-media-bypass.md)
 
-[部署业务服务器 2015 Skype 中的媒体绕过](deploy-media-bypass.md)
+[为业务服务器部署中 Skype 的媒体绕过](deploy-media-bypass.md)
 
 [定义转换规则](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
   
 [配置媒体绕过](http://technet.microsoft.com/library/f50a7a13-c6a0-48f1-bee1-e45fa2b2f9b8.aspx)
+

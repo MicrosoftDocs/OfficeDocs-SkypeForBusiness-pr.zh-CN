@@ -1,8 +1,7 @@
 ---
-title: Skype for Business Server 2015 的边缘服务器系统要求
+title: 为业务服务器中 Skype 边缘服务器的系统要求
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,15 +12,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 摘要： 了解如何为业务服务器 Skype 中的边缘服务器的系统要求。
-ms.openlocfilehash: aaf8e45c005ff6295e1c0927d6a29abade383bfb
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ede0f7f933f246496593519afa035f09ef402bfb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013136"
 ---
-# <a name="edge-server-system-requirements-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 的边缘服务器系统要求
+# <a name="edge-server-system-requirements-in-skype-for-business-server"></a>为业务服务器中 Skype 边缘服务器的系统要求
  
-**摘要：**了解业务服务器 Skype 中的边缘服务器的系统要求。
+**摘要：** 了解业务服务器 Skype 中的边缘服务器的系统要求。
   
 当谈您 Skype 业务 Server 边缘服务器部署时，这些是您需要为服务器或服务器的环境中本身，以及规划环境结构实现的内容。 有关拓扑、DNS 证书和其他基础结构问题的详细信息，请查看环境要求文档。
   
@@ -60,6 +60,9 @@ ms.lasthandoff: 05/03/2018
   
 > [!NOTE]
 > 部署了边缘服务器提供连接启用 Skype 业务客户端和其他边缘服务器 （在联盟方案）。 不能从其他端点客户端或服务器节点进行连接。 XMPP 网关服务器可允许与配置的 XMPP 伙伴进行连接。 但同样，这些伙伴仅限可行的客户端和联盟类型。 
+
+> [!NOTE]
+> XMPP 网关和代理中的业务服务器 2015 Skype 可用，但业务服务器 2019年不再支持在 Skype。 有关详细信息，请参阅[迁移 XMPP 联盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md)。
   
 ### <a name="reverse-proxies"></a>反向代理
 <a name="ReverseProxies"> </a>
@@ -84,7 +87,7 @@ ms.lasthandoff: 05/03/2018
     
 - 使移动设备从 Office 365 的推送通知。
     
-可以在[for Business 的 Skype 的电话基础结构](https://technet.microsoft.com/en-us/office/dn947483)上找到我们当前的反向代理建议。 因此，反向代理：
+可以在[for Business 的 Skype 的电话基础结构](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)上找到我们当前的反向代理建议。 因此，反向代理：
   
 - 应能够使用通过公共证书引入环境的传输层安全性 (TLS) 连接到以下对象的已发布外部 Web 服务：
     
@@ -131,7 +134,7 @@ ms.lasthandoff: 05/03/2018
 ### <a name="load-balancers"></a>负载平衡器
 <a name="LoadBalancers"> </a>
 
-Skype 的业务服务器 2015 扩展的合并边缘拓扑被优化 DNS 负载平衡新部署中，并建议这样做。 如果您需要高可用性，建议使用硬件负载平衡器的一个特定的情况：
+Skype 的业务服务器扩展的合并边缘拓扑被优化 DNS 负载平衡新部署中，并建议这样做。 如果您需要高可用性，建议使用硬件负载平衡器的一个特定的情况：
   
 - Exchange UM 使用 Exchange UM**早期**到 Exchange 2013 的远程用户。
     
@@ -139,7 +142,7 @@ Skype 的业务服务器 2015 扩展的合并边缘拓扑被优化 DNS 负载平
 > 必须指出，不能混合使用负载平衡器。 在您 Skype 业务服务器环境中所有接口必须都使用 DNS 或 HLB。 
   
 > [!NOTE]
-> 直接服务器返回 (DSR) NAT 不受支持的 Skype 业务服务器 2015年。 
+> 直接服务器返回 (DSR) NAT 不受支持的 Skype 业务服务器。 
   
 #### <a name="hardware-load-balancer-requirements-for-edge-servers-edge-servers-running-the-av-edge-service"></a>硬件负载平衡器要求边缘服务器的边缘服务器运行 A / V 边缘服务
 
@@ -157,7 +160,7 @@ Skype 的业务服务器 2015 扩展的合并边缘拓扑被优化 DNS 负载平
     
 #### <a name="hlb-requirements"></a>HLB 要求
 
-与 Lync Server 2013 的业务服务器 2015 Skype 不具有大量的基于 cookie 的相关性要求。 因此您无需使用基于 cookie 的持久性**除非**您将能够在您 Skype 业务服务器环境中的 Lync Server 2010 前端服务器或前端池。 他们将需要在配置方法中建议的 Lync Server 2010 基于 cookie 的相关性。
+Skype 业务服务器不具有大量的基于 cookie 的相关性要求。 所以您无需使用基于 cookie 的持久性**除非**（这是业务服务器 2015年特有的 Skype） 您要让您 Skype 业务服务器环境中的 Lync Server 2010 前端服务器或前端池。 他们将需要在配置方法中建议的 Lync Server 2010 基于 cookie 的相关性。
   
 > [!NOTE]
 > 如果决定为 HLB 开启基于 Cookie 的相关性，那么即使环境不需要，这样做也没有问题。 
@@ -179,7 +182,7 @@ Skype 的业务服务器 2015 扩展的合并边缘拓扑被优化 DNS 负载平
 - 硬件负载平衡器 cookie**必须**设置为其传入的 HTTP 请求没有 cookie 中，无论该相同的 TCP 连接上以前 HTTP 响应是否具有变得 cookie 每个 HTTP 响应。 如果您的硬件负载平衡器优化 cookie 插入只发生后该优化**不必须**使用每个 TCP 连接。
     
 > [!NOTE]
-> 它是 HLB 配置使用源相关性和 20 分钟 TCP 会话生存期，这对于 Skype 业务服务器 2015年和其客户端，因为会话状态维护通过客户端使用情况和/或应用程序交互的典型。 
+> 它是 HLB 配置使用源相关性和 20 分钟 TCP 会话生存期，这对于 Skype 业务服务器和其客户端，因为会话状态维护通过客户端使用情况和/或应用程序交互的典型。 
   
 如果部署移动设备，则您的 HLB 必须能对 TCP 会话中的各个请求进行负载平衡（实际上，您需要能基于目标 IP 地址对单个请求进行负载平衡）。
   
@@ -188,7 +191,7 @@ Skype 的业务服务器 2015 扩展的合并边缘拓扑被优化 DNS 负载平
   
 以下是控制器 （可选） 和 （必需） 的前端池 Web 服务的 HLB 要求：
   
-- 为内部的 Web 服务 Vip，设置您 HLB Source_addr 持久性 （内部端口 80、 443）。 对于业务服务器 2015年的 Skype，Source_addr 持久性意味着，来自单个 IP 地址的多个连接始终发送到一台服务器，以维护会话状态。
+- 为内部的 Web 服务 Vip，设置您 HLB Source_addr 持久性 （内部端口 80、 443）。 对于业务服务器 Skype，Source_addr 持久性意味着，来自单个 IP 地址的多个连接始终发送到一台服务器，以维护会话状态。
     
 - 使用 TCP 空闲超时 1800 秒。
     
@@ -196,7 +199,7 @@ Skype 的业务服务器 2015 扩展的合并边缘拓扑被优化 DNS 负载平
     
 #### <a name="summary-of-hlb-affinity-requirements"></a>HLB 相关性要求摘要
 
-|**客户端/用户位置**|**外部 web 服务 FQDN 关联要求**|**内部 web 服务 FQSN 关联要求**|
+|**客户端/用户位置**|**外部 Web 服务 FQDN 关联要求**|**内部 Web 服务 FQDN 相关性要求**|
 |:-----|:-----|:-----|
 |Skype 业务 Web app （内部和外部用户）  <br/> 移动设备（内部和外部用户）  <br/> |无相关性  <br/> |源地址相关性  <br/> |
 |Skype 业务 Web 应用程序 （仅外部用户）  <br/> 移动设备（内部和外部用户）  <br/> |无相关性  <br/> |源地址相关性  <br/> |
@@ -213,10 +216,10 @@ Skype 的业务服务器 2015 扩展的合并边缘拓扑被优化 DNS 负载平
    
 ## <a name="hardware-and-software-requirements"></a>硬件和软件要求
 
-我们已经我们总体[服务器要求的业务服务器 2015 Skype](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)文档中介绍边缘服务器的硬件和软件要求。
+我们已经我们总体[业务服务器 2019年的 Skype 的系统要求](../../../SfBServer2019/plan/system-requirements.md)和[服务器要求的业务服务器 2015 Skype](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)文档中介绍边缘服务器的硬件和软件要求。
   
 ## <a name="collocation"></a>并置
 
-我们已经我们[拓扑的业务服务器 2015年的 Skype 的基础知识](../../plan-your-deployment/topology-basics/topology-basics.md)文档中介绍的边缘服务器并置。
+我们已经我们[的 Skype 的企业服务器拓扑基础知识](../../plan-your-deployment/topology-basics/topology-basics.md)文档中介绍的边缘服务器并置。
   
 

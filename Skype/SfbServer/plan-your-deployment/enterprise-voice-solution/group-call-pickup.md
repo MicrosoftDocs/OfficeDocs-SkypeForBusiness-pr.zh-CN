@@ -1,9 +1,8 @@
 ---
-title: 在 Skype for Business 2015 中规划组内呼叫应答
+title: 规划组呼叫应答中 Skype for Business
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: 规划组中 Skype 调用的分拣业务 Server 企业语音，这样用户应答其他人原来的呼叫。
-ms.openlocfilehash: 6a2fde93d6fcbfa4e2b382f3512d65a8d986a8ba
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 17c3d453fa54ea72c02c022d33b0b2f1c61e8b0b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016196"
 ---
-# <a name="plan-for-group-call-pickup-in-skype-for-business-2015"></a>在 Skype for Business 2015 中规划组内呼叫应答
+# <a name="plan-for-group-call-pickup-in-skype-for-business"></a>规划组呼叫应答中 Skype for Business
  
 规划组中 Skype 调用的分拣业务 Server 企业语音，这样用户应答其他人原来的呼叫。
   
@@ -115,7 +115,7 @@ ms.lasthandoff: 05/03/2018
   
 **组呼叫分拣用户模型**
 
-|**指标**|**每个前端池<br/>（具有 8 前端服务器）**|**每台 Standard Edition 服务器**|
+|**指标**|**每个前端池<br/>（具有 8 前端服务器）**|**每台 Standard Edition Server**|
 |:-----|:-----|:-----|
 |建议的每组用户数  <br/> |50  <br/> |50  <br/> |
 |建议的组数  <br/> |500  <br/> |60  <br/> |
