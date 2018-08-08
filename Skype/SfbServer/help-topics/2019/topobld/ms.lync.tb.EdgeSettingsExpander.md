@@ -12,56 +12,54 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要编辑包含单个或多个服务器的现有边缘池的设置，可参考以下各节内容：
-ms.openlocfilehash: 4c93ec4ab23c60ddbad96c20d9ae717f0418ba0c
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 158f0970067b94eb4c8660342da949802d57ae6f
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061747"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196030"
 ---
-# <a name="edge-settings-expander"></a><span data-ttu-id="0b4ee-103">边缘设置扩展器</span><span class="sxs-lookup"><span data-stu-id="0b4ee-103">Edge Settings Expander</span></span>
+# <a name="edge-settings-expander"></a><span data-ttu-id="00e81-103">边缘设置扩展器</span><span class="sxs-lookup"><span data-stu-id="00e81-103">Edge Settings Expander</span></span>
  
-<span data-ttu-id="0b4ee-104">要编辑包含单个或多个服务器的现有边缘池的设置，可参考以下各节内容：</span><span class="sxs-lookup"><span data-stu-id="0b4ee-104">To edit the settings for an existing single or multiple server Edge pool, you are presented with the following sections:</span></span>
+<span data-ttu-id="00e81-104">要编辑包含单个或多个服务器的现有边缘池的设置，可参考以下各节内容：</span><span class="sxs-lookup"><span data-stu-id="00e81-104">To edit the settings for an existing single or multiple server Edge pool, you are presented with the following sections:</span></span>
   
-- <span data-ttu-id="0b4ee-105">常规设置</span><span class="sxs-lookup"><span data-stu-id="0b4ee-105">General settings</span></span>
+- <span data-ttu-id="00e81-105">常规设置</span><span class="sxs-lookup"><span data-stu-id="00e81-105">General settings</span></span>
     
-- <span data-ttu-id="0b4ee-106">下一个跃点选择设置</span><span class="sxs-lookup"><span data-stu-id="0b4ee-106">Next hop selection settings</span></span>
+- <span data-ttu-id="00e81-106">下一个跃点选择设置</span><span class="sxs-lookup"><span data-stu-id="00e81-106">Next hop selection settings</span></span>
     
-- <span data-ttu-id="0b4ee-107">边缘服务器配置</span><span class="sxs-lookup"><span data-stu-id="0b4ee-107">Edge Server configuration</span></span>
+- <span data-ttu-id="00e81-107">边缘服务器配置</span><span class="sxs-lookup"><span data-stu-id="00e81-107">Edge Server configuration</span></span>
     
 
-## <a name="general-settings"></a><span data-ttu-id="0b4ee-108">常规设置</span><span class="sxs-lookup"><span data-stu-id="0b4ee-108">General settings</span></span>
+## <a name="general-settings"></a><span data-ttu-id="00e81-108">常规设置</span><span class="sxs-lookup"><span data-stu-id="00e81-108">General settings</span></span>
 
-<span data-ttu-id="0b4ee-p101">边缘服务器池的内部池完全限定域名 (FQDN)。编辑池的 FQDN 以更改此设置。</span><span class="sxs-lookup"><span data-stu-id="0b4ee-p101">Internal pool fully qualified domain name (FQDN) of the Edge Server pool. Edit the FQDN of the pool to change this setting.</span></span>
+<span data-ttu-id="00e81-p101">边缘服务器池的内部池完全限定域名 (FQDN)。编辑池的 FQDN 以更改此设置。</span><span class="sxs-lookup"><span data-stu-id="00e81-p101">Internal pool fully qualified domain name (FQDN) of the Edge Server pool. Edit the FQDN of the pool to change this setting.</span></span>
   
-<span data-ttu-id="0b4ee-111">如果您将设置与 Lync Server 2013、 Microsoft Lync Server 2010 或 Microsoft Office Communications Server 2007 R2 的受信任合作伙伴的联盟，请选择**为此边缘池 (端口 5061) 启用联盟**复选框。</span><span class="sxs-lookup"><span data-stu-id="0b4ee-111">Select the check box **Enable federation for this Edge pool (Port 5061)** if you will set up federation with a Lync Server 2013, Microsoft Lync Server 2010, or Microsoft Office Communications Server 2007 R2 trusted partner.</span></span>
+<span data-ttu-id="00e81-111">如果您将设置与业务服务器 2015年服务器 Skype 联合身份验证，请选择**为此边缘池 (端口 5061) 启用联盟**复选框。</span><span class="sxs-lookup"><span data-stu-id="00e81-111">Select the check box **Enable federation for this Edge pool (Port 5061)** if you will set up federation with a Skype for Business Server 2015 server.</span></span>
   
-<span data-ttu-id="0b4ee-112">选中“**为此边缘池启用 XMPP 联盟**”可启用 XMPP 联盟。</span><span class="sxs-lookup"><span data-stu-id="0b4ee-112">Select **Enable XMPP federation for this Edge pool** to enable XMPP federation.</span></span>
+<span data-ttu-id="00e81-112">为“**内部配置复制端口 (HTTPS)**”指定端口号。</span><span class="sxs-lookup"><span data-stu-id="00e81-112">Specify the port number for **Internal Configuration Replication Port (HTTPS)**.</span></span>
   
-<span data-ttu-id="0b4ee-113">为“**内部配置复制端口 (HTTPS)**”指定端口号。</span><span class="sxs-lookup"><span data-stu-id="0b4ee-113">Specify the port number for **Internal Configuration Replication Port (HTTPS)**.</span></span>
-  
-## <a name="next-hop-selection-settings"></a><span data-ttu-id="0b4ee-114">下一个跃点选择设置</span><span class="sxs-lookup"><span data-stu-id="0b4ee-114">Next hop selection settings</span></span>
+## <a name="next-hop-selection-settings"></a><span data-ttu-id="00e81-113">下一个跃点选择设置</span><span class="sxs-lookup"><span data-stu-id="00e81-113">Next hop selection settings</span></span>
 
-<span data-ttu-id="0b4ee-115">要设置或修改边缘服务器将用于与内部基础结构通信的“**下一个跃点池**”，请从下拉列表框中选择控制器、控制器池、前端服务器或前端服务器池。</span><span class="sxs-lookup"><span data-stu-id="0b4ee-115">To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool from the drop-down list box.</span></span> <span data-ttu-id="0b4ee-116">只有控制器或前端已配置拓扑生成器中将显示选定内容。</span><span class="sxs-lookup"><span data-stu-id="0b4ee-116">Only Directors or Front Ends that have been configured in Topology Builder will appear for selection.</span></span>
+<span data-ttu-id="00e81-114">要设置或修改边缘服务器将用于与内部基础结构通信的“**下一个跃点池**”，请从下拉列表框中选择控制器、控制器池、前端服务器或前端服务器池。</span><span class="sxs-lookup"><span data-stu-id="00e81-114">To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool from the drop-down list box.</span></span> <span data-ttu-id="00e81-115">只有控制器或前端已配置拓扑生成器中将显示选定内容。</span><span class="sxs-lookup"><span data-stu-id="00e81-115">Only Directors or Front Ends that have been configured in Topology Builder will appear for selection.</span></span>
   
-## <a name="edge-server-configuration"></a><span data-ttu-id="0b4ee-117">边缘服务器配置</span><span class="sxs-lookup"><span data-stu-id="0b4ee-117">Edge Server configuration</span></span>
+## <a name="edge-server-configuration"></a><span data-ttu-id="00e81-116">边缘服务器配置</span><span class="sxs-lookup"><span data-stu-id="00e81-116">Edge Server configuration</span></span>
 
-<span data-ttu-id="0b4ee-118">要编辑或指定边缘服务器的“**外部设置**”的设置，首先必须确定 SIP 访问、Web 会议和音频/视频服务是否要使用单独的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="0b4ee-118">To edit or specify settings for the **External Settings** for the Edge Servers, you first must determine if you will use separate IP addresses for SIP access, web conferencing, and the Audio/Video service.</span></span>
+<span data-ttu-id="00e81-117">要编辑或指定边缘服务器的“**外部设置**”的设置，首先必须确定 SIP 访问、Web 会议和音频/视频服务是否要使用单独的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="00e81-117">To edit or specify settings for the **External Settings** for the Edge Servers, you first must determine if you will use separate IP addresses for SIP access, web conferencing, and the Audio/Video service.</span></span>
   
-<span data-ttu-id="0b4ee-p103">如果它们都要使用单独的 IP 地址，请选中“**为 Web 会议和 A/V 启用单独的 FQDN 和 IP 地址**”复选框。每个服务必须具有为其创建的对应 DNS 主机 (A) 记录。</span><span class="sxs-lookup"><span data-stu-id="0b4ee-p103">If you intend to use separate IP addresses for each, select the check box **Enable separate FQDN and IP address for Web conferencing and A/V**. Each service must have a corresponding DNS host (A) record created for it.</span></span>
+<span data-ttu-id="00e81-p103">如果它们都要使用单独的 IP 地址，请选中“**为 Web 会议和 A/V 启用单独的 FQDN 和 IP 地址**”复选框。每个服务必须具有为其创建的对应 DNS 主机 (A) 记录。</span><span class="sxs-lookup"><span data-stu-id="00e81-p103">If you intend to use separate IP addresses for each, select the check box **Enable separate FQDN and IP address for Web conferencing and A/V**. Each service must have a corresponding DNS host (A) record created for it.</span></span>
   
-<span data-ttu-id="0b4ee-p104">对于每个面向外部的服务，指定 FQDN 和关联端口。例如，“**SIP 访问**”将使用 sip.contoso.com 和关联端口 5061。</span><span class="sxs-lookup"><span data-stu-id="0b4ee-p104">For each of the external-facing services, you specify a FQDN and an associated port. For example, the **SIP Access** would use sip.contoso.com with an associated port of 5061.</span></span>
+<span data-ttu-id="00e81-p104">对于每个面向外部的服务，指定 FQDN 和关联端口。例如，“**SIP 访问**”将使用 sip.contoso.com 和关联端口 5061。</span><span class="sxs-lookup"><span data-stu-id="00e81-p104">For each of the external-facing services, you specify a FQDN and an associated port. For example, the **SIP Access** would use sip.contoso.com with an associated port of 5061.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="0b4ee-p105">如果为每个面向外部的服务选择单独的 FQDN，则每个服务必须具有与其关联的唯一端口值。默认情况下，SIP 使用端口 5061/TLS，Web 会议边缘服务使用端口 444/TLS，A/V 会议服务器使用端口 443/TLS。如果对这些设置进行任何更改，包括使用单独的 FQDN 和 IP 地址或端口，则必须更新将依赖最初配置的值的其他所有服务。</span><span class="sxs-lookup"><span data-stu-id="0b4ee-p105">If you select separate FQDNs for each of the external-facing services, each service must have a unique port value associated with it. By default, the SIP is on port 5061/TLS, the web conferencing edge service is on port 444/TLS, and the A/V Conferencing Server is on port 443/TLS. If you make changes to any of these settings, including using separate FQDN and IP addresses or ports, you must update all the other services that will rely on the initially configured values.</span></span> 
+> <span data-ttu-id="00e81-p105">如果为每个面向外部的服务选择单独的 FQDN，则每个服务必须具有与其关联的唯一端口值。默认情况下，SIP 使用端口 5061/TLS，Web 会议边缘服务使用端口 444/TLS，A/V 会议服务器使用端口 443/TLS。如果对这些设置进行任何更改，包括使用单独的 FQDN 和 IP 地址或端口，则必须更新将依赖最初配置的值的其他所有服务。</span><span class="sxs-lookup"><span data-stu-id="00e81-p105">If you select separate FQDNs for each of the external-facing services, each service must have a unique port value associated with it. By default, the SIP is on port 5061/TLS, the web conferencing edge service is on port 444/TLS, and the A/V Conferencing Server is on port 443/TLS. If you make changes to any of these settings, including using separate FQDN and IP addresses or ports, you must update all the other services that will rely on the initially configured values.</span></span> 
   
-<span data-ttu-id="0b4ee-p106">如果确定组织要为面向外部的服务使用单个 FQDN 和 IP 地址，请清除“**为 Web 会议和 A/V 启用单独的 FQDN 和 IP 地址**”复选框。然后，可以编辑“**SIP 访问**”池 FQDN 和端口值（如有必要）。</span><span class="sxs-lookup"><span data-stu-id="0b4ee-p106">If you determine that your organization will use a single FQDN and IP address for the external-facing services, clear the **Enable separate FQDN and IP address for Web conferencing and A/V** check box. You can then edit the **SIP Access** pool FQDN and port values, if necessary.</span></span>
+<span data-ttu-id="00e81-p106">如果确定组织要为面向外部的服务使用单个 FQDN 和 IP 地址，请清除“**为 Web 会议和 A/V 启用单独的 FQDN 和 IP 地址**”复选框。然后，可以编辑“**SIP 访问**”池 FQDN 和端口值（如有必要）。</span><span class="sxs-lookup"><span data-stu-id="00e81-p106">If you determine that your organization will use a single FQDN and IP address for the external-facing services, clear the **Enable separate FQDN and IP address for Web conferencing and A/V** check box. You can then edit the **SIP Access** pool FQDN and port values, if necessary.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="0b4ee-128">如果对这些设置进行任何更改，包括使用单独的 FQDN 和 IP 地址或端口，则必须更新将依赖最初配置的值的其他所有服务。</span><span class="sxs-lookup"><span data-stu-id="0b4ee-128">If you make changes to any of these settings, including using separate FQDN and IP addresses or ports, you must update all other services that will rely on the initially configured values.</span></span> 
+> <span data-ttu-id="00e81-127">如果对这些设置进行任何更改，包括使用单独的 FQDN 和 IP 地址或端口，则必须更新将依赖最初配置的值的其他所有服务。</span><span class="sxs-lookup"><span data-stu-id="00e81-127">If you make changes to any of these settings, including using separate FQDN and IP addresses or ports, you must update all other services that will rely on the initially configured values.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="0b4ee-129">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0b4ee-129">See also</span></span> 
+## <a name="see-also"></a><span data-ttu-id="00e81-128">另请参阅</span><span class="sxs-lookup"><span data-stu-id="00e81-128">See also</span></span> 
 
-<span data-ttu-id="0b4ee-130">有关定义和配置边缘服务的设置的详细信息，请参阅[Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)。</span><span class="sxs-lookup"><span data-stu-id="0b4ee-130">For details about defining and configuring the settings for the Edge Services, see [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span>
+<span data-ttu-id="00e81-129">有关定义和配置边缘服务的设置的详细信息，请参阅[Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)。</span><span class="sxs-lookup"><span data-stu-id="00e81-129">For details about defining and configuring the settings for the Edge Services, see [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span>
   
 
