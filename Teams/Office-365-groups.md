@@ -7,14 +7,16 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: 了解 Office 365 组和组成员身份与 Microsoft Teams 如何配合使用
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f16a99f00add1e93bfdf4cde29f4b75f384a296
-ms.sourcegitcommit: cacd16f596460c1400dd514437794afd04bddadc
+ms.openlocfilehash: e77a91f1859c6d227801de2f31dbe2855ea30a2e
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "18999140"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 组和 Microsoft Teams
 =====================================
@@ -37,6 +39,6 @@ Office 365 管理员可以定义 Office 365 组、添加成员以及利用 Excha
 <a name="group-membership"></a>组成员身份
 ----------------
 
-组功能和为您的用户的能力取决于驱动器中的组成员身份的地方。 例如，如果您删除一个团队的成员，他们会从 Office 365 组。 从组中删除成员将立即从 Teams 客户端中删除团队和频道。 如果从组中删除使用 Office 365 管理门户的用户，则该用户将不再有权访问其他协作项，例如 SharePoint Online 文档库、Yammer 组或共享的 OneNote。 但是，该用户仍有权访问团队的聊天功能大约一小时。
+组特性和功能为您的用户取决于在其中驱动器中的组成员身份。 例如，如果您删除的工作组成员，请删除这些空格从 Office 365 组。 从组中删除成员将立即从 Teams 客户端中删除团队和频道。 如果从组中删除使用 Office 365 管理门户的用户，则该用户将不再有权访问其他协作项，例如 SharePoint Online 文档库、Yammer 组或共享的 OneNote。 但是，该用户仍有权访问团队的聊天功能大约一小时。
 
-最佳管理团队成员的做法： 添加和删除成员，从团队客户端，以确保与其他相关的云应用程序级联的正确访问控制应用。 此外，你还将避免出现不连贯的体验，让用户认为他们仍可访问曾经访问的资源（直到下一个同步周期，添加或撤消对服务的特定组件的访问权限）。 不要添加或移除团队客户端之外的团队成员 (通过使用 Office 365 管理中心，Azure 的广告，或 Exchange 联机 PowerShell)，有时花费达一小时的更改将反映在工作组。
+最佳实践管理团队成员： 添加和删除成员从团队客户端以确保应用其他相关的云应用程序的正确的级联访问控制。 此外，你还将避免出现不连贯的体验，让用户认为他们仍可访问曾经访问的资源（直到下一个同步周期，添加或撤消对服务的特定组件的访问权限）。 如果您执行添加或删除外部团队客户端的工作组成员 (通过使用 Office 365 管理中心，Azure AD 或 Exchange Online PowerShell)，有时计更改可以反映在工作组达 1 小时。

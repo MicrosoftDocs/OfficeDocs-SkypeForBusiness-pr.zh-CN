@@ -8,15 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
 description: 使用展望（规划）、上线（交付）、推动价值（运营）框架在 Microsoft Teams 中规划、部署和管理音频会议的实践指导。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 51efc627e9aa7e86fdff6ed842e3b2f1956aa528
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 8f5f6eef85352a0c20d08b3e3bf2a327abfd9ca0
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19004839"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的音频会议实践指导
 ============================================================
@@ -362,7 +364,7 @@ Office 365 中的音频会议服务包括：
 提供了可以针对每个用户应用的其他配置，用于控制使用免费电话会议桥接电话号码和从会议拨出。
 
 > [!NOTE]
-> 这些与成本相关的控制当前仅预览版用户可用。 您可以注册您的企业中的预览程序[https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013)。
+> 这些与成本相关的控制当前仅预览版用户可用。 您可以注册您的组织中的预览程序在[https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013)。
 
 通过这些控制，你可以确定会议组织者是否可以为其组织的会议提供免费电话会议桥接电话号码，以及控制参与者是否可以从其组织的会议拨出。 拨出控制级别涵盖不允许拨出、仅允许拨出到国内号码、允许拨出到国内号码和国际号码。
 
@@ -433,15 +435,15 @@ Office 365 的电话系统功能中的[拨号计划](https://docs.microsoft.com/
 >|租户拨号计划名称<br>_说明_  |规范化规则名称<br>_说明_  |模式<br>转换<br>IsInternalExtension  |
 >|---------|---------|---------|
 >|**AU-NSW-NorthRyde-OER**<br>_新南威尔士北莱德 Epping 路一号，AU 拨号计划_|**AU-NSW-NorthRyde-OER-Internal**<br>_澳大利亚新南威尔士北莱德 Epping 路一号办公地点的内部号码 (x7000 - x7999)_|^(7\d{3})$<br>+6125550$1<br>True|
->||**AU-NSW-Local**<br>_澳大利亚新南威尔士的本地号码规范化_|^([2-9]\d{7})$<br>+612$1<br>False|
->||**AU-TollFree**<br>_澳大利亚的免费电话号码规范化_|^(1[38]\d{4,8})\d*$<br>+61$1<br>False|
->||**AU-Service**<br>_澳大利亚的服务号码规范化_|^(000\|1[0125]\d{1,8})$<br>$1<br>False|
+>||**AU-NSW-Local**<br>_澳大利亚新南威尔士的本地号码规范化_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
+>||**AU-TollFree**<br>_澳大利亚的免费电话号码规范化_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
+>||**AU-Service**<br>_澳大利亚的服务号码规范化_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
 >|**SG-Singapore-OMB**<br>_新加坡 OMB，SG 拨号计划_|**SG-OMB-Internal**<br>_新加坡 OMB 办公地点的内部号码 (x8000 - x8999)_|^(8\d{3})$<br>+656888$1<br>True|
->||**SG-TollFree**<br>_新加坡的免费电话号码规范化_|^(1?800\d{7})\d*$<br>+65$1<br>False|
->||**SG-Service**<br>_新加坡的服务号码规范化_|^(1\d{3,4}\|9\d{2})$<br>$1<br>False|
+>||**SG-TollFree**<br>_新加坡的免费电话号码规范化_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
+>||**SG-Service**<br>_新加坡的服务号码规范化_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
 >|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux，法国拨号计划_|**FR-39qdPR-Internal**<br>_法国 Issy-les-Moulineaux 39 quai du Président Roosevelt 办公地点的内部号码 (x7000 - x7999)_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_法国的免费电话号码规范化_|^0?(80\d{7})\d*$<br>+33$1<br>False|
->||**FR-Service**<br>_法国的服务号码规范化_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
+>||**FR-TollFree**<br>_法国的免费电话号码规范化_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+>||**FR-Service**<br>_法国的服务号码规范化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
 > [!TIP]

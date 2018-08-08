@@ -1,5 +1,5 @@
 ---
-title: "来宾体验介绍"
+title: 来宾体验介绍
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
@@ -7,15 +7,17 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
-description: "了解来宾用户可用的 Microsoft Teams 功能。"
+description: 了解来宾用户可用的 Microsoft Teams 功能。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 500d8b0aa1ed8f006fdbab2d67771c2d65ebaa53
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 9d30b7b554b07ccc29233210419f2a3129349a1e
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19178879"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
@@ -59,6 +61,8 @@ ms.lasthandoff: 02/19/2018
 |共享频道文件  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |共享聊天文件  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |添加应用（选项卡、聊天机器人或连接器）  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|创建会议或访问计划  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|访问的 OneDrive for Business 存储  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |创建租户范围和团队/频道来宾访问策略  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |邀请 Office 365 租户的域外部的用户 <br/>  *团队所有者控制此设置。*  <br/> <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |创建团队  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||

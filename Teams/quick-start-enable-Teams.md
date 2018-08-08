@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, tonysmit
 description: 使用本指南帮助你在组织中规划、实施和采用 Microsoft Teams。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce2ac8ff38f5f051a3e288efede53efa4dc0c6e5
-ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.openlocfilehash: 28f286a04bf52e3d4cb4fd7ad48278843b5ed134
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19001820"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>快速入门 - Microsoft Teams 规划指南
 ==========================================================
@@ -44,7 +46,7 @@ ms.lasthandoff: 03/12/2018
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-在 Office 365 租户中未启用 Microsoft 小组，并且管理员执行 Office 365[管理用户访问权限的团队](user-access.md)我们文章中的说明进行操作，以确保您的用户具有访问该应用程序。
+如果您的 Office 365 租户中未启用的 Microsoft 团队并且已管理员执行 Office 365 中[管理用户团队访问](user-access.md)我们的文章的说明，以确保您的用户将有权访问应用程序。
 
 ## <a name="step-3-complete-technical-planning"></a>步骤 3：完成技术规划
 

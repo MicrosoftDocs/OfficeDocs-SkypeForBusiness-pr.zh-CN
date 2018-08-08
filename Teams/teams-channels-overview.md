@@ -7,35 +7,29 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: 了解可用于各种需求（例如财务、活动计划、销售等）的不同团队、频道和应用。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3e614cc7ad1f4e803ef6d725eba68a699fb7477
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 2e3bb466925a32793213bc7b132feac229a21bf5
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19178914"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 =================================================
 
 我们首先来了解 Microsoft Teams 如何允许单个团队进行自我组织并跨业务场景进行协作：
 
--   **团队**是与组织内不同项目和任务相关的人员、内容和工具的集合。
+-   **团队**是人员、 内容和工具周围不同项目和组织内的结果的集合。
 
     -   可以创建只允许受邀用户加入的专用团队。
 
     -   也可以创建公用的开放团队，组织中的任何人都可以加入（最多 2500 个成员）。
     
 团队用于将一群人集中在一起，以便这些人密切合作来完成事情。 对于基于项目的工作（例如，使某个产品上市或创建数字化作战室），团队可以是动态的，也可以是持续存在的，以反映组织的内部结构（例如，部门和办公室位置）。 跨团队频道的对话、文件和笔记仅对团队成员可见。
-
-**团队成员资格** 为你的整个组织激活 Microsoft Teams 后，指定团队所有者将能够邀请一起合作的任何员工加入他们的团队。 Microsoft Teams 使团队所有者能够根据用户姓名在组织中轻松添加。 根据你的组织的设置，属于团队成员但不属于你的组织的来宾也可以添加到你的团队。 有关更多信息，请参阅 [Microsoft Teams 中的来宾访问](guest-access.md)。 团队所有者也可以根据现有 Office 365 组创建团队。 对组所做的任何更改都将自动与 Microsoft Teams 同步。 根据现有 Office 365 组创建团队不仅可以简化邀请和管理成员的流程，还可以同步 Microsoft Teams 内的组文件。
-
-**团队角色** Microsoft Teams 中有两个主要角色：团队所有者和团队成员。前者是创建团队的用户，后者是受所有者邀请加入团队的用户。 团队所有者可以在邀请联系人加入团队时或者在他们加入团队后将团队的任意成员设为共同所有者。 设置多个所有者可以分担管理设置和成员资格（包括邀请）的责任。   
-
-**团队设置** 团队所有者可以直接在 Microsoft Teams 中管理团队范围设置。 设置包括添加团队图片、跨团队成员设置创建频道、添加选项卡和连接器和 @提及整个团队或频道的功能，以及 GIF、贴纸和 Meme 的使用情况。 
-
-如果你是 Office 365 中的 Microsoft Teams 管理员，你可以在管理中心访问系统范围设置。 这些设置可能会影响团队所有者在团队设置下看到的选项和默认设置。 例如，你可以为团队范围的公告、讨论和资源启用默认频道“常规”，它将在所有团队中显示。
 
 -   **频道**是团队中的专用区域，用于保留按特定主题、项目、专业（适用于你的团队的任何内容！）组织的对话。
 
@@ -49,13 +43,23 @@ ms.lasthandoff: 04/05/2018
 |---------|---------|
 | 只需 5 分钟即可设置很有用的 Teams、频道和选项卡   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | 
 
+<a name="membership-roles-and-settings"></a>成员资格、 角色和设置
+------------------------------
+
+**团队成员资格** 为你的整个组织激活 Microsoft Teams 后，指定团队所有者将能够邀请一起合作的任何员工加入他们的团队。 Microsoft Teams 使团队所有者能够根据用户姓名在组织中轻松添加。 根据你的组织的设置，属于团队成员但不属于你的组织的来宾也可以添加到你的团队。 有关更多信息，请参阅 [Microsoft Teams 中的来宾访问](guest-access.md)。 团队所有者也可以根据现有 Office 365 组创建团队。 对组所做的任何更改都将自动与 Microsoft Teams 同步。 根据现有 Office 365 组创建团队不仅可以简化邀请和管理成员的流程，还可以同步 Microsoft Teams 内的组文件。
+
+**团队角色** Microsoft Teams 中有两个主要角色：团队所有者和团队成员。前者是创建团队的用户，后者是受所有者邀请加入团队的用户。 团队所有者可以在邀请联系人加入团队时或者在他们加入团队后将团队的任意成员设为共同所有者。 设置多个所有者可以分担管理设置和成员资格（包括邀请）的责任。   
+
+**团队设置** 团队所有者可以直接在 Microsoft Teams 中管理团队范围设置。 设置包括添加团队图片、跨团队成员设置创建频道、添加选项卡和连接器和 @提及整个团队或频道的功能，以及 GIF、贴纸和 Meme 的使用情况。 
+
+如果你是 Office 365 中的 Microsoft Teams 管理员，你可以在管理中心访问系统范围设置。 这些设置可能会影响团队所有者在团队设置下看到的选项和默认设置。 例如，你可以为团队范围的公告、讨论和资源启用默认频道“常规”，它将在所有团队中显示。
 
 默认情况下，所有用户都有权在 Microsoft Teams 中创建团队（要对此进行修改，请参阅[在 Teams 中指定角色和权限](assign-roles-permissions.md)）。 现有 Office 365 组的用户也可以使用 Teams 功能帮助自己。
 
-吸引用户使用 Teams 的一项关键的早期计划活动是帮助人们考虑和了解 Microsoft Teams 如何在其日常生活中增强协作。 与人交谈，帮助他们选择业务方案在它们当前协作以零碎的方式。  将他们带入具有可帮助他们完成工作的相关选项卡的频道。 Teams 最强大的用例之一就是跨组织流程。 
+吸引用户使用 Teams 的一项关键的早期计划活动是帮助人们考虑和了解 Microsoft Teams 如何在其日常生活中增强协作。 与人员交谈，并帮助他们选择其中他们当前协作方式零碎的业务方案。  将他们带入具有可帮助他们完成工作的相关选项卡的频道。 Teams 最强大的用例之一就是跨组织流程。 
 
-<a name="sample-team-set-up"></a>团队建立示例
-------------------
+<a name="examples-teams"></a>示例团队 
+--------------
 
 下面是一些操作示例，介绍了不同类型的用户如何建立其团队、频道和应用（选项卡/连接器/聊天机器人）- 要与你的用户社区开始有关 Microsoft Teams 的对话，这可能很有帮助作用。 当你考虑如何在贵组织中实施 Microsoft Teams 时，请注意，你可以指导如何建立团队，但用户可以控制如何自我组织。 这些示例正是促使团队开始仔细思考各种可能性。
 

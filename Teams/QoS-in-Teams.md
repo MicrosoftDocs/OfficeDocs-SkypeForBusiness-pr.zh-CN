@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: 针对 Microsoft Teams 的服务质量 (QoS) 准备贵组织的网络。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09416304ec2b87bed6c24d3a82f2b81895739e11
-ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
+ms.openlocfilehash: 461d8ddf787705a2dd039060f28d6a40f07da541
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19004513"
 ---
 # <a name="quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams 中的服务质量 (QoS)
 
@@ -123,11 +125,11 @@ _表 2。客户端源端口范围_
 
 有多个方法设置通信量分类适当的 DSCP 标记：
 
--  **端点处的 DSCP 标记：**这通常是首选的选项，因为本身的终结点提供适当的标记。 当前这可以通过使用组策略对象，但它仅可加入域的 Windows 客户端上。 移动客户端不提供通过使用 DSCP 值标记流量的机制。 尽管您无法配置非&ndash;标记流量，客户端 Mac OS 如加入域的 Windows 客户端具有硬编码标记，并将始终标记流量，如上文所述。
+-  **端点处的 DSCP 标记：** 这通常是首选的选项，因为本身的终结点提供适当的标记。 当前这可以通过使用组策略对象，但它仅可加入域的 Windows 客户端上。 移动客户端不提供通过使用 DSCP 值标记流量的机制。 尽管您无法配置非&ndash;标记流量，客户端 Mac OS 如加入域的 Windows 客户端具有硬编码标记，并将始终标记流量，如上文所述。
 
 -  **基于端口的 DSCP 标记使用路由器上的访问控制列表 (Acl):** 这是在异类 Windows 和 Mac 环境中遇到非常常见选项。 在此方案中，网络团队标记基于定义每种形式的源端口范围的入站/出站路由器 （通常位于 WAN） 通信。 虽然这可以工作跨平台，仅标记在 WAN 边缘流量 — 不一直到客户端计算机 — 和因此产生管理开销。
     
--  **组合的终结点和基于端口的路由器上的 Acl 的 DSCP 标记：**我们建议此组合方案，如有可能在您的环境中。 使用组策略对象捕获大多数客户端，并且使用基于端口的 DSCP 标记，以确保该 mobile、 Mac 和其他客户端将仍获取 QoS 诊 （至少部分）。
+-  **组合的终结点和基于端口的路由器上的 Acl 的 DSCP 标记：** 我们建议此组合方案，如有可能在您的环境中。 使用组策略对象捕获大多数客户端，并且使用基于端口的 DSCP 标记，以确保该 mobile、 Mac 和其他客户端将仍获取 QoS 诊 （至少部分）。
     
 您可以使用基于策略的 QoS 组策略中设置团队客户端中的预定义的源端口范围的 DSCP 值。 使用表 3 中指定的端口范围创建的每个工作负荷策略。
 
