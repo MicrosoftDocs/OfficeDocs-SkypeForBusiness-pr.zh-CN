@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要编辑包含单个或多个服务器的现有边缘池的设置，可参考以下各节内容：
-ms.openlocfilehash: 4c93ec4ab23c60ddbad96c20d9ae717f0418ba0c
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 158f0970067b94eb4c8660342da949802d57ae6f
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061747"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196030"
 ---
 # <a name="edge-settings-expander"></a>边缘设置扩展器
  
@@ -34,9 +34,7 @@ ms.locfileid: "21061747"
 
 边缘服务器池的内部池完全限定域名 (FQDN)。编辑池的 FQDN 以更改此设置。
   
-如果您将设置与 Lync Server 2013、 Microsoft Lync Server 2010 或 Microsoft Office Communications Server 2007 R2 的受信任合作伙伴的联盟，请选择**为此边缘池 (端口 5061) 启用联盟**复选框。
-  
-选中“**为此边缘池启用 XMPP 联盟**”可启用 XMPP 联盟。
+如果您将设置与业务服务器 2015年服务器 Skype 联合身份验证，请选择**为此边缘池 (端口 5061) 启用联盟**复选框。
   
 为“**内部配置复制端口 (HTTPS)**”指定端口号。
   

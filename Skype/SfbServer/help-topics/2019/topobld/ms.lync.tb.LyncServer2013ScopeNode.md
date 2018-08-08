@@ -12,14 +12,14 @@ localization_priority: Normal
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机创建 VIS 池中 Skype 业务服务器。
-ms.openlocfilehash: 4f06009a45dc7cf171066fa2ba9f1e29e35bacb0
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: ec5dac383d8c82981d14dea7db8685d82eb26b3e
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21065625"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196082"
 ---
-# <a name="lync-server-2013-scope-node"></a>Lync Server 2013 范围节点
+# <a name="skype-for-business-server-scope-node"></a>Skype 业务服务器范围节点
  
 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述 online[中的业务服务器 Skype VIS 池](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)。
   

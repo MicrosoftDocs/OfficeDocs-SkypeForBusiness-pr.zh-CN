@@ -11,18 +11,20 @@ ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理员可以控制如何组织者可以为他们的会议使用免费电话号码。
-ms.openlocfilehash: 2f506163ce815f71d18935040dbf13bf4af4f04c
-ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
+ms.openlocfilehash: 4bee4449dd8e21ded52f40cc04832bd40b15c139
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20324138"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22193041"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-users"></a>禁用特定用户的免费电话号码
 

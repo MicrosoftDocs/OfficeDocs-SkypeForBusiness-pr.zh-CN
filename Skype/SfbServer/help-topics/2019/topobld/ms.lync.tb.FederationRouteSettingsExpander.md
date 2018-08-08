@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要设置站点联盟路由分配，首先必须在边缘服务器或边缘服务器池启用联盟。 如果边缘服务器或池上未启用联盟，则站点联盟路由分配设置将不可用进行修改。
-ms.openlocfilehash: 5878c7fc5ad41ab4359e4d4cd8cf808b958e7be8
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 989ebd13e4491e7b4c28bb936795f9532d7fe88f
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061508"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196039"
 ---
 # <a name="federation-route-settings-expander"></a>联盟路由设置扩展器
  
@@ -30,5 +30,8 @@ ms.locfileid: "21061508"
 - **启用 SIP 联盟**选择此选项可启用 SIP 联盟路由，并作为联盟路由选择一个控制器或边缘池。
     
 - **启用 XMPP 联盟**选择此选项可启用 XMPP 联盟路由，并作为联盟路由选择一个控制器或边缘池。
+- 
+> [!NOTE]
+> XMPP 网关和代理中的业务服务器 2015 Skype 可用，但业务服务器 2019年不再支持在 Skype。 有关详细信息，请参阅[迁移 XMPP 联盟](../../../../SfBServer2019/migration/migrating-xmpp-federation.md)。
     
 
