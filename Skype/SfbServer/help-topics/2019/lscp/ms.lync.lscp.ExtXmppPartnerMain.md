@@ -12,18 +12,19 @@ localization_priority: Normal
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: dd3abfd0ed390f2576271f6fecc3d27d121706c0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 62ddcf4dd58bf4c2beb041f25127d9efead9cd08
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002689"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138532"
 ---
-# <a name="xmpp-federated-partners"></a><span data-ttu-id="e1ea5-104">XMPP 联盟伙伴</span><span class="sxs-lookup"><span data-stu-id="e1ea5-104">XMPP Federated Partners</span></span>
+# <a name="xmpp-federated-partners"></a><span data-ttu-id="c89ad-104">XMPP 联盟伙伴</span><span class="sxs-lookup"><span data-stu-id="c89ad-104">XMPP Federated Partners</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="c89ad-105">XMPP 网关和代理中的业务服务器 2015 Skype 可用，但业务服务器 2019年不再支持在 Skype。</span><span class="sxs-lookup"><span data-stu-id="c89ad-105">XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="c89ad-106">有关详细信息，请参阅[迁移 XMPP 联盟](../../../../SfBServer2019/migration/migrating-xmpp-federation.md)。</span><span class="sxs-lookup"><span data-stu-id="c89ad-106">See [Migrating XMPP federation](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.</span></span>
  
-<span data-ttu-id="e1ea5-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="e1ea5-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="e1ea5-107">管理您的组织的 XMPP 联盟伙伴</span><span class="sxs-lookup"><span data-stu-id="e1ea5-107">Manage XMPP Federated Partners for Your Organization</span></span>](http://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)
+<span data-ttu-id="c89ad-107">请参阅[管理您的组织的 XMPP 联盟伙伴](http://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)</span><span class="sxs-lookup"><span data-stu-id="c89ad-107">See [Manage XMPP Federated Partners for Your Organization](http://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)</span></span>
     
  
 
