@@ -12,14 +12,14 @@ localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 881497d467299e081010aaaf463690fe0050fe7b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4c6122844579c21ad8dbb1861a90534bc03245ce
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20999680"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138556"
 ---
-# <a name="users-new-lync-server-user"></a>用户： 新建 Lync Server 用户
+# <a name="users-new-user"></a>用户： 新用户
  
 您希望执行什么操作？单击您要执行的任务所对应的链接。
   

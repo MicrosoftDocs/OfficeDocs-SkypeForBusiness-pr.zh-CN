@@ -1,5 +1,5 @@
 ---
-title: 设置电话系统的语音邮件
+title: 设置电话系统语音邮件
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: 93dd33eefe587c548e346974cc86fe2608b392ec
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f5dcf6012dc9ac6659d35c29a31ee6a5ff40eec2
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22135527"
 ---
-# <a name="set-up-phone-system-voicemail"></a>设置电话系统的语音邮件
+# <a name="set-up-phone-system-voicemail"></a>设置电话系统语音邮件
 
 本文适用于[Office 365 管理员](http://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)想要在企业中设置的每个人的电话系统的语音邮件功能。
   
@@ -80,7 +81,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 
 ### <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>打开您的组织转录亵渎蒙
 
-默认情况下，为组织禁用转录亵渎屏蔽。 如果没有启用它业务要求，您可以使用[集 CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx)屏蔽转录亵渎。 若要执行此操作，请运行：
+默认情况下，为组织禁用转录亵渎屏蔽。 如果没有启用它的业务要求，您可以使用[集 CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx)屏蔽转录亵渎。 若要执行此操作，请运行：
   
 ```
 Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
@@ -88,7 +89,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 
 ### <a name="turning-off-transcription-for-a-user"></a>为用户禁用转录
 
-用户策略的优先级高于组织默认设置。 例如，如果您的用户的所有已启用语音邮件转录，您可以分配一个策略来禁用转录使用[授予 CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx) cmdlet 为特定用户。
+用户策略的优先级高于组织默认设置。 例如，如果为所有用户都启用语音邮件转录，您可以分配一个策略来禁用特定用户的转录使用[授予 CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx) cmdlet。
   
 要为单个用户禁用转录，请运行：
   
@@ -98,7 +99,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:am
 
 ### <a name="turning-on-transcription-profanity-masking-for-a-user"></a>开启转录亵渎隐蔽的用户
 
-若要启用特定用户的转录亵渎遮蔽，您可以分配一个策略来启用转录亵渎屏蔽使用[授予 CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx) cmdlet 为特定用户。
+若要启用转录亵渎屏蔽为某个特定用户，您可以分配一个策略来启用转录亵渎屏蔽为某个特定用户使用[授予 CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx) cmdlet。
   
 若要启用转录亵渎屏蔽单个用户，请运行：
   

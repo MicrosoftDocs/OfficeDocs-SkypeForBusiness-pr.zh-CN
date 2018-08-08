@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 准备 Active Directory 域服务的架构，您运行架构准备步骤中 Skype 业务 Server 部署向导。 单击“运行”可开始准备架构。
-ms.openlocfilehash: adc0ad796b608671816d50a93f75dc89f2a4a13b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 829c3062fcbfc1dab41e56de63e7a469f8e6e069
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21020131"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138539"
 ---
 # <a name="prepare-schema"></a>准备架构
  
@@ -26,7 +26,7 @@ ms.locfileid: "21020131"
 > [!IMPORTANT]
 > 要扩展架构，必须以 Schema Admins 和 Enterprise Admins 组成员身份登录域。 
   
-添加的类和属性扩展 Active Directory 域服务架构以支持 Skype Business Server 服务器、 服务和用户对象。 在扩展架构之前，应该对担任架构主机角色的域控制器进行系统状态备份。 有关 Windows Server 2008 R2 sp1 的备份过程的详细信息，请参阅[https://go.microsoft.com/fwlink/p/?linkId=207198](https://go.microsoft.com/fwlink/p/?linkId=207198)。 Windows Server 2003 和 Windows Server 2003 R2，请参阅[https://go.microsoft.com/fwlink/p/?linkId=207199](https://go.microsoft.com/fwlink/p/?linkId=207199)。
+添加的类和属性扩展 Active Directory 域服务架构以支持 Skype Business Server 服务器、 服务和用户对象。 在扩展架构之前，应该对担任架构主机角色的域控制器进行系统状态备份。 
   
 > [!CAUTION]
 > 扩展架构是不可逆的。 应尽一切努力限制失败的架构扩展的潜在影响，并确保架构扩展能够成功。 在通信中断或服务器上出现任何其他故障的情况下，这一点尤为重要。 您应执行备份的架构主机的域控制器和 Active Directory 的完整备份。 

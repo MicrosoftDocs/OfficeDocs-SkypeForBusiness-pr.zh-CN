@@ -16,16 +16,16 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 您可以让您 Skype 业务用户使用的业务应用程序的反馈工具内置 Skype 让用户报告问题并提供反馈直接向 Microsoft 有关其体验。
-ms.openlocfilehash: 9e995a61337a8393b869161e143d76f1df5454ae
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 09ddaa9952ab5d536c6a95937ca71c4c056a15e0
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568350"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22135537"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>开启或关闭 Skype for Business 客户端反馈报告
 
-您可以让您 Skype 业务用户使用的业务应用程序的反馈工具内置 Skype 让用户报告问题并提供反馈直接向 Microsoft 有关其体验。 
+您可以让您 Skype 业务 Online 用户使用的业务应用程序的反馈工具内置 Skype 让用户报告问题并提供反馈直接向 Microsoft 有关其体验。 
   
 ![Skype for Business client reporting.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   

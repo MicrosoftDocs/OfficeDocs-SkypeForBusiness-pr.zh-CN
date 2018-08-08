@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: 配置 OAuth 业务 online 本地 Exchange 和 Skype 之间的身份验证使 Skype 功能支持中所述的业务和 Exchange 集成功能。
-ms.openlocfilehash: ff7b45f3fcdbaaf752817d1705acb047a4c71f12
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: cb822dd183e913fd1b3258cc136572380592733f
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568899"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138607"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>在 Skype for Business Online 和 Exchange 本地之间配置 OAuth
  
@@ -167,4 +167,8 @@ Set-MsolServicePrincipal -ObjectID $p.ObjectId -ServicePrincipalNames $p.Service
     
 4. 为此用户启动 Outlook，并验证对话是否出现在 Outlook“对话历史记录”文件夹中。
     
+另外，查看您的通信。 OAuth 握手流量是真正独特 （和看起来像基本身份验证），尤其是在领域，开始将看到如下所示的颁发者流量: 00000004-0000-0ff1-ce00-000000000000 @ (有时与 / 之前@ 符号)，正在传递令牌中。 您将看用户名和密码，即点的 OAuth。 但您将看到 Office 颁发者 –"4"在这种情况下是 Skype 商业 – 和您的订阅的领域。
 
+如果希望以确保您成功使用 OAuth，请确保您知道要预期并知道流量应如下所示。 [下面是收获](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)是这样，下面是一个非常标准[的 Microsoft 应用程序中的 OAuth 流量示例](http://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)（真正有用读取，但它不使用刷新令牌），并且有可以让您看到到您 OAuth JWT (JSON 的 Fiddler 扩展Web 令牌）。 
+
+下面是[一个设置的示例](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/)中，但您可以使用任何要执行此过程的网络跟踪工具。

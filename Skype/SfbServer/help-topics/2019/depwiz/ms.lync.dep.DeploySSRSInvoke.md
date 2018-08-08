@@ -12,16 +12,16 @@ localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 部署监控服务器报告 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 报告服务，向页上执行命令显示的摘要发出安装的命令提供所需的信息之后SQL Server Reporting Services 报告。
-ms.openlocfilehash: 25c47787144809397db51a5ac477e8db446788d1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4d2eff38570e24a063558fe62c8db7c89bc03cf3
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21014143"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138563"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services（调用）
  
-部署监控服务器报告 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 报告服务，向页上执行命令显示的摘要发出安装的命令提供所需的信息之后SQL Server Reporting Services 报告。
+提供的 Microsoft SQL Server 报表 Services 监控服务器报告部署所需的信息后, 页上执行命令显示的命令颁发安装 SQL Server Reporting 到报告的摘要服务。
   
 检查命令摘要，注意这些命令中显示的任何错误或警告消息。如果生成了日志文件，请从摘要窗口下的下拉列表中选择日志文件，然后单击“**查看日志**”以显示日志文件。
   
