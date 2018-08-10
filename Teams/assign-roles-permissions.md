@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
 description: 了解如何在 Microsoft Teams 中分配团队所有者和成员角色，包括创建团队的权限。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0c0e64dc4a112c6f2c9ded4c68b45eb0740b5f3
-ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
+ms.openlocfilehash: 4b6dfc74b3d7dc740cc970f711f32fac1d75e2d5
+ms.sourcegitcommit: c18710a46018fe4c1d0ceb99710f18bbc25aad54
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "19441658"
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>在 Microsoft Teams 中分配角色和权限
 ===============================================
@@ -53,50 +55,7 @@ ms.lasthandoff: 04/20/2018
 <a name="permissions-to-create-teams"></a>创建团队的权限
 ---------------------------
 
-默认情况下，在 Exchange Online 中有邮箱的所有用户都有权创建 Office 365 组，进而有权在 Microsoft Teams 中创建团队。 你可以通过向一组用户委派组创建和管理权限，更加严格地控制和限制新团队的创建，进而控制和限制新 Office 365 组的创建。
-
-如果贵组织有意执行此操作，下面的说明概述了为此需要执行的任务。
-
-1.  确定或创建一个安全组 (SG)，该安全组由拥有创建 Office 365 组的委派权限的用户组成。
-
-    a.  **操作：** 在 Office 365 中设置一个安全组，以便你可以添加能够创建 Office 365 组的用户。
-
-    b.  有关详细信息，请参阅[在 Office 365 管理中心中创建、编辑或删除安全组](https://support.office.com/article/Create-edit-or-delete-a-security-group-in-the-Office-365-admin-center-55c96b32-e086-4c9e-948b-a018b44510cb)。
-
-2.  确认是否启用了允许用户创建组的公司范围的控制。
-
-    a.  **操作：** 运行以下 PowerShell 脚本，并确认 UsersPermissiontoCreateGroupsEnabled 参数是否设置为 **True**。
-
-    ```
-    Connect-MsolService
-
-    Get-MsolCompanyInformation
-    ```
-
-    b.  如果不为 True，请运行 Set-MsolCompanySettings cmdlet **以将其设置为 True**。
-Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
-
-    c. 有关详细信息，请参阅：[管理 Office 365 组创建](https://support.office.com/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-001&ad=US#checkclevelsettings)。
-
-3.  配置 Office 365 组设置以仅允许标识的安全组有权创建组。
-
-    a.  **操作：** 创建一个组设置对象，其中包含将为其分配创建组的委派权限的组的配置设置。 
-
-    ```
-    Connect-AzureAD
-
-    $Template = Get-AzureADDirectorySettingTemplate -Id 62375ab9-6b52-47ed-826b-58e47e0e304b
-
-    $Setting = $template.CreateDirectorySetting()
-
-    $setting["EnableGroupCreation"] = "true"
-
-    $setting["GroupCreationAllowedGroupId"] = "&lt;ObjectId of Group Allowed to Create Groups>"
-
-    New-AzureADDirectorySetting -DirectorySetting $settings
-    ```
-
-    b. 有关详细信息，请参阅：[管理 Office 365 组创建](https://support.office.com/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3)。
+默认情况下，在 Exchange Online 中有邮箱的所有用户都有权创建 Office 365 组，进而有权在 Microsoft Teams 中创建团队。 你可以通过向一组用户委派组创建和管理权限，更加严格地控制和限制新团队的创建，进而控制和限制新 Office 365 组的创建。 有关说明，请参阅[的管理可以创建 Office 365 组](https://support.office.com/en-us/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。
 
 
 ||||
