@@ -17,6 +17,7 @@
 ## [限制和规格团队](limits-specifications-teams.md)
 ## [在 Teams 中创建团队时规划 Office 365 组](plan-office-365-groups.md)
 ## [获取工具以支持 Teams 部署](rollout-tools.md)
+## [团队中的治理规划](plan-teams-governance.md)
 ## [Microsoft 365 政府版-GCC 部署规划](plan-for-government-gcc.md)
 ## 推动采纳率
 ### [创建更改管理策略](change-management-strategy.md)
@@ -298,6 +299,7 @@
 # 面向教育机构的团队
 ## [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
 ## [对于教育管理员团队资源](resources-teams-edu.md)
+## [对于管理员 Microsoft 教育调控常见问题](plan-teams-governance-edu.md)
 <!-- ============================================================ -->
 
 # [Teams 的 PowerShell cmdlet 参考](https://docs.microsoft.com/powershell/module/teams)
