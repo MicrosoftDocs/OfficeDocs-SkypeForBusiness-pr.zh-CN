@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 摘要： 了解如何移动用户帐户从联机到本地 Skype 中的业务服务器。
-ms.openlocfilehash: 098dc36e6551839d599042993b156073197753ec
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a2d49033e499d9a52af04fcb9e23d8ed483859f5
+ms.sourcegitcommit: c18710a46018fe4c1d0ceb99710f18bbc25aad54
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21025679"
+ms.lasthandoff: 08/09/2018
+ms.locfileid: "22301440"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>Skype 业务 online 到本地移动用户
  
@@ -191,7 +191,7 @@ ms.locfileid: "21025679"
 |:-----|:-----|:-----|:-----|
 |msRTCSIP DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed.online.lync.com  <br/> |SRV：  <br/> |
 |msRTCSIP PrimaryUserAddress  <br/> |SIPAddress  <br/> |sip:userName@contoso.com  <br/> |sip:userName@contoso.com  <br/> |
-|sRTCSIP UserEnabled  <br/> |已启用  <br/> |True  <br/> |True  <br/> |
+|msRTCSIP UserEnabled  <br/> |已启用  <br/> |True  <br/> |True  <br/> |
    
 10. 每个已迁移的用户需要先注销，然后重新登录。登录时，用户应验证联系人列表，在必要情况下添加联系人。
     

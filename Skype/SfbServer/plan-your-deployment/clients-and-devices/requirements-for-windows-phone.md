@@ -1,7 +1,7 @@
 ---
 title: Windows Phone 版 Skype for Business 的系统要求
 ms.author: jambirk
-author: jambirk
+author: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4bc0e45-7877-466c-b187-2c35c851a98d
 description: 摘要： 规划的 Skype 业务 Server 时查看客户端系统设备要求。
-ms.openlocfilehash: 78cd6c432cbb098988e6dc0aca157e526ec44847
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5d4e5051419c7ec85e4ee3da80a582f8b21dca19
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21020588"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22391845"
 ---
 # <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>Windows Phone 版 Skype for Business 的系统要求
  

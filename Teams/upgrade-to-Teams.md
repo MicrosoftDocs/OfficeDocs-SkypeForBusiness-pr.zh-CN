@@ -1,0 +1,44 @@
+---
+title: 升级到团队的 Microsoft 团队
+author: dearbeen
+ms.author: dearbeen
+manager: serdars
+ms.date: 07/16/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: dearbeen
+description: 选择您为基于业务部署您当前 Skype 的 Microsoft 团队的升级路径
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: ee46c0af4da4e2101b8052d22a1f91c1769b12d7
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21148187"
+---
+![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
+
+本文是您升级旅程的不同阶段提供部署和实施的一部分。 在继续之前，确认您已完成以下活动：
+
+-   [登记项目利益干系人](upgrade-enlist-stakeholders.md)
+-   [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
+-   [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
+-   [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+-   [准备您的环境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+-   [准备您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
+-   [执行试验](https://aka.ms/SkypeToTeams-Pilot)
+
+# <a name="perform-your-upgrade-to-teams"></a>执行升级到团队
+
+选择您升级旅程，根据您当前部署的 Skype for Business:
+
+-   [从联机业务的 Skype 升级到团队](https://aka.ms/SkypeToTeams-UpgradeOnline)
+-   [从 Skype 业务混合升级，向工作组](https://aka.ms/SkypeToTeams-UpgradeHybrid)
+-   [从升级 Skype 业务本地到团队](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
+
+> [!IMPORTANT]
+> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

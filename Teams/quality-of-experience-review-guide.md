@@ -2,7 +2,7 @@
 title: 体验审阅指南的 Microsoft 团队的质量
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
@@ -12,11 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0a251887b6c71c113c4ec9a25a812d4b9f6b827
-ms.sourcegitcommit: 0d584174263c044c2ba12e32d2c924349226075c
+ms.openlocfilehash: 7579a87d2c59a47304d06fd05e11b37a97544a79
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694917"
 ---
 # <a name="quality-of-experience-review-guide"></a>查看用户体验指南的质量
 
@@ -531,9 +532,9 @@ _表 5-构建文件结构_
 | 列名称        | 数据类型 | 示例                   | 指南    |
 |--------------------|-----------|---------------------------|-------------|
 | 网络            | 字符串    | 192.168.1.0               | 必需    |
-| NetworkName        | 字符串    | 美国/西雅图/西雅图-SEA-1 | 必填\*  |
+| NetworkName        | 字符串    | 美国/西雅图/西雅图-SEA-1 | 必需\*  |
 | NetworkRange       | 数字    | 26                        | 必需    |
-| BuildingName       | 字符串    | 西雅图-SEA-1             | 必填\*  |
+| BuildingName       | 字符串    | 西雅图-SEA-1             | 必需\*  |
 | OwnershipType      | 字符串    | Contoso                   | 可选    |
 | BuildingType       | 字符串    | IT 终止            | 可选    |
 | BuildingOfficeType | 字符串    | Engineering               | 可选    |
@@ -1138,11 +1139,11 @@ _表 11-网络性能要求_
 
 | 指标                           | 客户端到 Microsoft Edge           | 客户边缘到 Microsoft Edge    |
 |----------------------------------|------------------------------------|------------------------------------|
-| 延迟 （一种方法）                | \<50 ms                            | \<30 ms                            |
-| 延迟 （RTT 或往返时间） | \<100 毫秒                           | \<60 毫秒                            |
+| 延迟（单向）                | \<50 ms                            | \<30 ms                            |
+| 延迟（RTT 或往返时间） | \<100 毫秒                           | \<60 毫秒                            |
 | 突发数据包丢失                | \<任何 200 毫秒间隔期间的 10%   | \<任何 200 毫秒间隔期间 1%    |
 | 数据包丢失                      | \<任何 15 秒间隔期间 1%    | \<0.1 任何 15 秒间隔期间 %  |
-| 数据包间到达抖动      | \<任何 15 秒间隔期间 30 ms | \<在任何 15 秒时间间隔 15 ms |
+| 数据包中间间隔抖动      | \<任何 15 秒间隔期间 30 ms | \<在任何 15 秒时间间隔 15 ms |
 | 数据包重新排序                   | \<0.05%无序的数据包       | \<0.01%无序的数据包      |
 
 详细信息，请参阅[媒体质量和网络性能](https://aka.ms/performancerequirements)有关的以下文章个团队和 Skype 业务 online。

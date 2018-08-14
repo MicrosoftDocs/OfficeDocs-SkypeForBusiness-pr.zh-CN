@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: 了解如何配置云连接器与 Office 365 租户的集成。
-ms.openlocfilehash: 40cb3334fb3d45432ada1a63aae8368a60433ad0
-ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
+ms.openlocfilehash: d5ae0b70a22219ee0430908bd3b3752d6ebd6357
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19649641"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211149"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>配置云连接器与 Office 365 租户的集成
  
@@ -34,7 +34,7 @@ Skype for Business Cloud Connector Edition 安装完成后，执行本节中的�
 
 将每个 PSTN 网关上的中继设置为重新指向所有设备的中介服务器。由于池中所有服务器具有相同的池 FQDN，因此每个中继应指向一个中介服务器 FQDN 或 IP 地址，而不是中介服务器池 FQDN。应为中继设置相同的优先级。
   
-如果您使用的中介服务器与网关之间的 TLS，您需要配置的网关和中介服务器，以支持 MTLS，如下所示：
+如果在中介服务器和网关之间使用 TLS，则需要将网关和中介服务器配置为支持 MTLS，如下所述：
   
 1. 从云连接器 Active Directory 计算机导出根 CA。
     
@@ -44,13 +44,13 @@ Skype for Business Cloud Connector Edition 安装完成后，执行本节中的�
     
   - 修改现有 Web 服务器模板，以允许经过身份验证的用户注册，或创建新的 Web 服务器模板，以配置其他属性并允许经过身份验证的用户注册。 有关详细说明，请参阅[证书模板](https://technet.microsoft.com/en-us/library/cc730705.aspx)。
     
-  - 使用证书管理单元申请证书，选择你已启用的 Web 服务器模板。 请确保使用网关的 FQDN 在“使用者名称”中添加公用名，在“备用名称”中添加 DNS 名称，并确认在“私钥”上选中“密钥选项”下的“使私钥可以导出”。 有关详细说明，请参阅[请求证书](https://technet.microsoft.com/en-us/library/cc730689.aspx)。
+  - 使用证书管理单元申请证书，选择你已启用的 Web 服务器模板。 请确保使用网关的 FQDN 在“使用者名称”中添加公用名，在“备用名称”中添加 DNS 名称，并确认在“私钥”上选中“密钥选项”下的“使私钥可以导出”。 
     
 4. 使用私有密钥导出 SSL 证书，并按照 PSTN 网关供应商的说明导入证书。
     
 ## <a name="update-the-domain-for-your-tenant"></a>为你的租户更新域
 
-确保你已完成在 Office 365 中更新域的步骤并且能够添加 DNS 记录。 有关如何设置您在 Office 365 中的域的详细信息，请参阅[视频： 设置 Office 365 中您的域](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US)。
+确保你已完成在 Office 365 中更新域的步骤并且能够添加 DNS 记录。 有关如何设置您在 Office 365 中的域的详细信息，请参阅[添加到 Office 365 域](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>在 Office 365 中为边缘添加 DNS 记录
 
@@ -64,7 +64,7 @@ Skype for Business Cloud Connector Edition 安装完成后，执行本节中的�
   
 ## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-office-365"></a>在云连接器版本与 Office 365 之间设置混合连接
 
-若要配置混合部署业务云连接器 Edition 您 Skype 和 Office 365 租户之间的连接，请在远程 PowerShell 会话中运行以下 cmdlet。 若要了解如何建立一个远程 PowerShell 会话，请参阅：[使用 Windows PowerShell，可以管理业务 online Skype](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)。
+若要配置混合部署业务云连接器 Edition 您 Skype 和 Office 365 租户之间的连接，请在远程 PowerShell 会话中运行以下 cmdlet。 若要了解如何建立一个远程 PowerShell 会话，请参阅： [Windows PowerShell 将计算机设置](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)。
   
 此 cmdlet 会设置访问边缘外部 FQDN。 在第一个命令，\<访问的外部边缘 FQDN\>应为 SIP 访问边缘角色。 默认情况下，应为 ap.\<域名\>。
   
@@ -80,7 +80,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 
 将每个 PSTN 网关上的中继设置为重新指向所有设备的中介服务器。由于池中所有服务器具有相同的池 FQDN，因此每个中继应指向一个中介服务器 FQDN 或 IP 地址，而不是中介服务器池 FQDN。应为中继设置相同的优先级。
   
-如果您使用的中介服务器与网关之间的 TLS，您需要配置的网关和中介服务器，以支持 MTLS，如下所示：
+如果在中介服务器和网关之间使用 TLS，则需要将网关和中介服务器配置为支持 MTLS，如下所述：
   
 1. 从云连接器 Active Directory 计算机导出根 CA。
     
@@ -90,7 +90,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
     
   - 修改现有 Web 服务器模板，以允许经过身份验证的用户注册，或创建新的 Web 服务器模板，以配置其他属性并允许经过身份验证的用户注册。 有关详细说明，请参阅[证书模板](https://technet.microsoft.com/library/cc730705.aspx)。
     
-  - 使用证书管理单元申请证书，选择你已启用的 Web 服务器模板。 请确保使用网关的 FQDN 在“使用者名称”中添加公用名，在“备用名称”中添加 DNS 名称，并确认在“私钥”上选中“密钥选项”下的“使私钥可以导出”。 有关详细说明，请参阅[请求证书](https://technet.microsoft.com/library/cc730689.aspx)。
+  - 使用证书管理单元申请证书，选择你已启用的 Web 服务器模板。 请确保使用网关的 FQDN 在“使用者名称”中添加公用名，在“备用名称”中添加 DNS 名称，并确认在“私钥”上选中“密钥选项”下的“使私钥可以导出”。 
     
 4. 使用私有密钥导出 SSL 证书，并按照 PSTN 网关供应商的说明导入证书。
     
@@ -102,7 +102,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
   
 ## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>为用户启用 Office 365 电话系统语音和语音邮件服务
 
-将用户添加到 Office 365 之后，为其帐户启用 Office 365 电话系统语音服务，包括语音邮件。 要启用这些功能，必须使用具有 Office 365 全局管理员角色的帐户登录你的 Office 365 租户，并且能够运行远程 PowerShell。 若要了解如何建立一个远程 PowerShell 会话，请参阅：[使用 Windows PowerShell，可以管理业务 online Skype](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)
+将用户添加到 Office 365 之后，为其帐户启用 Office 365 电话系统语音服务，包括语音邮件。 要启用这些功能，必须使用具有 Office 365 全局管理员角色的帐户登录你的 Office 365 租户，并且能够运行远程 PowerShell。 若要了解如何建立一个远程 PowerShell 会话，请参阅： [Windows PowerShell 将计算机设置](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)
   
 - 向用户分配策略和配置用户的企业语音电话号码，指定**Identity**参数的值：
     
@@ -141,7 +141,7 @@ Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $u
   
 ## <a name="assign-users-to-pstn-sites"></a>将用户分配到 PSTN 站点
 
-使用租户远程 PowerShell 向用户分配站点，即使只部署了一个站点也需要执行此操作。 若要了解如何建立一个远程 PowerShell 会话，请参阅：[使用 Windows PowerShell，可以管理业务 online Skype](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)。
+使用租户远程 PowerShell 向用户分配站点，即使只部署了一个站点也需要执行此操作。 若要了解如何建立一个远程 PowerShell 会话，请参阅： [Windows PowerShell 将计算机设置](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)。
   
 ```
 # Set the site to users
@@ -166,7 +166,7 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
     
     用作用户域云连接器 （.ini 文件中的第一个 SIP 域） 的默认 SIP 域。
     
-    将 Office 365 许可证 （如 E5) 分配给您创建的帐户。
+    请注意，只是许可证分配所需的用户传播到业务联机目录 Skype。 将 Office 365 许可证 （如 E5) 分配给创建，允许达 1 小时，更改将传播，然后从该帐户删除许可证的帐户。
     
 2. 启动租户远程 PowerShell 会话使用租户管理员凭据，然后运行以下 cmdlet 以将中介服务器和边缘服务器 FQDN 设置为该用户帐户，替换\<DisplayName\>用户的显示名称您创建的帐户：
     

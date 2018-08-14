@@ -3,7 +3,6 @@ title: 将 Skype 会议室系统 v2 与 Exchange Online 一起部署
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 阅读此主题以获取如何部署与 Exchange Online 的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: dad47f56d96da0f84383b2638684c65554e5a8f9
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+ms.openlocfilehash: b413168d04123256472e6d01cb8cd1858619a714
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887889"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974670"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>将 Skype 会议室系统 v2 与 Exchange Online 一起部署 
  
@@ -85,7 +84,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 3. 键入此帐户的密码。你需要重新键入密码进行确认。确保“**密码永不过期**”复选框是选中的唯一选项。
     
     > [!NOTE]
-    > 选择**密码永不过期**是 Skype 会议室系统 v2 上的业务服务器 2015 Skype 的要求。 你的域规则可能禁止使用不过期的密码。 如果是这样，您将需要针对每个 Skype 会议室系统 v2 用户帐户创建例外。
+    > 选择**密码永不过期**是在 Skype 会议室系统 v2 Skype 业务服务器的要求。 你的域规则可能禁止使用不过期的密码。 如果是这样，您将需要针对每个 Skype 会议室系统 v2 用户帐户创建例外。
   
 4. 单击“**完成**”创建帐户。
     
@@ -93,7 +92,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     
 ### <a name="assign-an-office-365-license"></a>分配一个 Office 365 许可证
 
-1. 需要有有效的 Office 365 许可，以确保 Exchange 和 Skype 的业务服务器 2015年将工作的用户帐户。 如果你有许可证，则需要为用户帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。
+1. 需要有有效的 Office 365 许可，以确保 Exchange 和 Skype 业务服务器将工作的用户帐户。 如果你有许可证，则需要为用户帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。
     
 2. 接下来，使用 Get-msolaccountsku 的 Office 365 租户中检索可用的 Sku 的列表。
     
@@ -106,7 +105,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    ```
 
 
-### <a name="enable-the-user-account-with-skype-for-business-server-2015"></a>使用 Skype for Business Server 2015 启用用户帐户
+### <a name="enable-the-user-account-with-skype-for-business-server"></a>Skype 的用户帐户启用企业服务器
 
 1. 从 PC 创建远程 Windows PowerShell 会话，如下所示：
     
@@ -116,19 +115,19 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     Import-PSSession $cssess -AllowClobber
     ```
 
-2. 若要启用业务服务器 2015 Skype 的 Skype 会议室系统 v2 帐户，请运行以下命令：
+2. 为业务服务器启用 Skype Skype 会议室系统 v2 帐户，请运行以下命令：
     
    ```
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
-    如果不确定哪些值用于您的环境中的 RegistrarPool 参数，您可以从现有 Skype 业务服务器 2015年用户使用此命令获取值
+    如果不确定哪些值用于您的环境中的 RegistrarPool 参数，您可以从现有 Skype 企业服务器用户使用此命令获取值
     
    ```
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
-### <a name="assign-a-skype-for-business-server-2015-license-to-your-skype-room-systems-v2-account"></a>向你的 Skype 会议室系统 v2 帐户分配一个 Skype for Business Server 2015 许可证
+### <a name="assign-a-skype-for-business-server-license-to-your-skype-room-systems-v2-account"></a>将业务服务器许可证 Skype 分配给您的 Skype 会议室系统 v2 帐户
 
 1. 以租户管理员身份登录，打开 Office 365 管理门户，并单击管理中心应用程序。
     

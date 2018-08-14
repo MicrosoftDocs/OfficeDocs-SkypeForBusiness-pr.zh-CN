@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: 阅读本主题可了解部署步骤媒体绕过与云连接器 Edition 2.0 及更高版本。
-ms.openlocfilehash: fc1ebe85ff3d26d66688173ea70c53c441d96e77
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 4d0400682702c528e9e1ccb324731378d8c09b2c
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570042"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246685"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>在云连接器版本中部署媒体旁路
  
@@ -44,7 +44,7 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 
 启用媒体旁路的过程分为两个步骤。 New-CsNetworkMedia cmdlet 不会立即保存新配置；它只在内存中创建设置。 必须将此 cmdlet 创建的对象保存到一个变量中，再将其分配给网络配置的 MediaBypassSettings 属性。 有关详细信息，请参阅[示例： 媒体绕过网站复杂多站点环境中的 DNS 记录](deploy-media-bypass-in-cloud-connector.md#Example)。
   
-在本地和联机组件之间复制可能需要达 24 小时，，以便 Microsoft 建议您为用户启用之前运行必要的命令。
+在本地和在线组件之间执行复制可能需要 24 小时，因此 Microsoft 建议你在启用用户之前先运行必要的命令。
   
 ## <a name="confirm-media-bypass-settings"></a>确认媒体旁路设置
 
@@ -67,7 +67,7 @@ Get-CsNetworkConfiguration -LocalStore
   
 1. 打开 %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog。 
     
-2. 搜索 hybridconfigserviceinternalurl 并确认 URL 匹配您定义。
+2. 搜索 hybridconfigserviceinternalurl 并确认该 URL 与你定义的 URL 匹配。
     
 ## <a name="change-media-bypass-parameters"></a>更改媒体旁路参数
 
@@ -179,8 +179,12 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 4. 创建可将客户端子网连接至相应区域范围以确保所需 DNS 解析的 DNS 策略。
     
 此时，从 hybridvoice.adatum.biz 的阿姆斯特丹子网进行 DNS 查询的客户端将返回 192.168.1.45、192.168.1.46、192.168.1.47 和 192.168.1.48 地址，而从西雅图进行相同查询的客户端将返回 10.10.1.8、10.10.1.9 和 10.10.1.10。
+
+> [!NOTE]
+> 如果 CCE 装置似乎获取更新的设置，检查设备是否能够联系通过远程 PowerShell 租户。 您可以使用远程 PowerShell 检查与 Get CsHybridPSTNAppliance 装置状态或 CCE 主机上使用 PowerShell 检查状态与 Get CcApplianceStatus。
+
   
 ## <a name="see-also"></a>另请参阅
 <a name="Example"> </a>
 
-[规划媒体绕过云连接器 Edition 中](plan-for-media-bypass-in-cloud-connector-edition.md)
+[在云连接器版本中规划媒体旁路](plan-for-media-bypass-in-cloud-connector-edition.md)

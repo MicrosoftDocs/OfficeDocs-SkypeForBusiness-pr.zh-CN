@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 阅读本主题以了解如何在 Exchange 中配置的 Skype 会议室系统 v2 的帐户和 Skype 的业务。
-ms.openlocfilehash: 8284795df5f3cc50db0a4089deb9755239e5876e
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+ms.openlocfilehash: 8b0858d3d1ec5523ad95b74989a594a1cebc7848
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887896"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967780"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>配置帐户 Skype 会议室系统 v2
  
@@ -28,11 +28,11 @@ ms.locfileid: "19887896"
   
 - Online 部署： 完全在 Office 365 上部署您的组织的环境。 有关详细信息，请参阅[Office 365 的部署 Skype 会议室系统 v2](with-office-365.md)。
     
-- 本地部署： 贵组织拥有的它控制，服务器承载 Active Directory、 Exchange 和 Skype 的业务服务器 2015年。 有关详细信息，请参阅[部署 Skype 会议室系统 v2 与 Skype 的业务服务器 2015](with-skype-for-business-server-2015.md)
+- 本地部署： 贵组织拥有的它控制，服务器承载 Active Directory、 Exchange 和 Skype 业务服务器。 有关详细信息，请参阅[与 Skype 的业务服务器部署 Skype 会议室系统 v2](with-skype-for-business-server-2015.md)
     
 - 混合部署： 贵组织拥有一些部署和一些在线承载通过 Office 365 上承载的服务，组合。 与 Skype 会议室系统 v2 支持以下混合方案： 
     
-  - Exchange Online 与 Skype 的本地业务服务器 2015年。 有关详细信息，请参阅[与 Exchange Online （混合） 的部署 Skype 会议室系统 v2](with-exchange-online.md)。
+  - Exchange Online 与 Skype 的本地业务服务器。 有关详细信息，请参阅[与 Exchange Online （混合） 的部署 Skype 会议室系统 v2](with-exchange-online.md)。
     
   - 在本地与 Skype 的 exchange online 业务。 有关详细信息，请参阅[与 Exchange 本地 （混合） 的部署 Skype 会议室系统 v2](with-exchange-on-premises.md)。
     
@@ -78,7 +78,7 @@ Skype 会议室系统 v2 需要 Active Directory、 Exchange 和 Skype for Busin
    
 设置用户帐户的最简单方式是它们使用远程 Windows PowerShell 进行配置。 Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，脚本将帮助创建新的用户帐户，或验证必须以帮助您将它们转换为兼容的 Skype 会议室系统 v2 用户帐户的现有资源帐户。
   
-如果您希望使用 Windows PowerShell cmdlet 通过 Office 365 用户界面，可以手动执行一些步骤。 请参阅[创建设备帐户使用 Office 365](https://technet.microsoft.com/itpro/surface-hub/create-a-device-account-using-office-365)。
+如果您希望使用 Windows PowerShell cmdlet 通过 Office 365 用户界面，可以手动执行一些步骤。 请参阅[创建设备帐户使用 Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)。
   
 ## <a name="see-also"></a>另请参阅
 

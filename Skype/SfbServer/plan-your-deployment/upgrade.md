@@ -3,7 +3,7 @@ title: 规划升级到 Skype for Business Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,25 +14,28 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 摘要： 了解升级到 Skype 规划业务服务器 2015年时应考虑。 下载免费试用版 Skype 业务服务器 2015 从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: 51123e58c57445a0ad9deffb720a7e9c378cf58c
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 15f8ba6568fc4ca26d1c9fd33a59a026a34def33
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505137"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009142"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>规划升级到 Skype for Business Server 2015
  
 摘要： 了解升级到 Skype 规划业务服务器 2015年时应考虑。 下载免费试用版 Skype 业务服务器 2015 从 Microsoft 评估中心，网址为： [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
 作为升级到 Skype 的业务服务器 2015年您计划的一部分，使用本主题来了解 Skype 的推荐升级路径的业务服务器 2015年如何就地升级的工作原理、 支持的共存方案是什么，和升级过程如下所示。
+
+> [!NOTE]
+> 就地升级中的业务服务器 2015 Skype 可用，但业务服务器 2019年不再支持在 Skype。 Coexistance 都支持并排，详细信息，请参阅[迁移到业务服务器 2019年的 Skype](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md) 。
   
 ## <a name="recommended-upgrade-paths-to-skype-for-business-server-2015"></a>为业务服务器 2015年的 Skype 的推荐升级路径
 
  若要为业务服务器 2015年从 Lync Server 2013、 Lync Server 2010 或 Office Communications Server 2007 R2 升级到 Skype，使用以下升级途径：
   
 > [!CAUTION]
-> 就地升级可将会议目录从 Lync Server 2013 自动移至 Skype for Business Server 2015。但是，如果您计划手动移动会议目录，就务必使用 Skype for Business Server 2015 命令行管理程序。如果您尝试使用 Lync Server 2013 命令行管理程序将会议目录从 Lync Server 2013 移至 Skype for Business Server 2015，则可能出现数据丢失。一般来讲，无论您何时使用任意容量的 Skype for Business Server 2015，都应使用 Skype for Business Server 2015 工具集。 
+> 就地升级可将会议目录从 Lync Server 2013 自动移至 Skype for Business Server 2015。但是，如果您计划手动移动会议目录，就务必使用 Skype for Business Server 2015 命令行管理程序。如果您尝试使用 Lync Server 2013 命令行管理程序将会议目录从 Lync Server 2013 移至 Skype for Business Server 2015，则可能出现数据丢失。一般来讲，无论您何时使用任意容量的 Skype for Business Server 2015，都应使用 Skype for Business Server 2015 工具集。  
   
 |**版本**|**建议**|
 |:-----|:-----|
@@ -59,7 +62,7 @@ ms.locfileid: "19505137"
   
 ### <a name="create-an-in-place-upgrade-plan"></a>创建就地升级计划
 
-进行的计划，其中包括：
+制定一份包含以下元素的计划：
   
 1. 了解当前拓扑。
     
@@ -86,7 +89,7 @@ ms.locfileid: "19505137"
     
 - 脱机方法，需要停机。
     
-我们建议在维护窗口期间，计划脱机方法升级，并通知用户的停机时间。
+我们推荐在维护时段内安排脱机方法升级，并通知用户注意停机时间。
   
 > [!NOTE]
 > 升级 Lync Server 2013 上的成对池时，需要将两个池都升级到 Skype for Business Server 2015。请确保在升级第一个池后，马上升级第二个池。如果一个池运行 Lync Server 2013，而第二个池运行 Skype for Business Server 2015，则灾难恢复选项将减到最少。例如，如果一个池运行 2013，第二个运行 2015，那么当灾难来临时，数据可能丢失，因为当成对池版本不同时，灾难模式不支持池故障转移。 
@@ -185,6 +188,6 @@ Skype 的业务服务器 2015年不支持就地升级的 Survivable Branch Appli
 
 [升级到业务服务器 2015 Skype](../deploy/upgrade-to-skype-for-business-server.md)
   
-[Skype for Business Server 2015 环境要求](requirements-for-your-environment/environmental-requirements.md)
+[Skype for Business Server 2015 的环境要求](requirements-for-your-environment/environmental-requirements.md)
   
-[Skype for Business Server 2015 服务器要求](requirements-for-your-environment/server-requirements.md)
+[Skype for Business Server 2015 的服务器要求](requirements-for-your-environment/server-requirements.md)

@@ -1,7 +1,7 @@
 ---
 title: 业务服务器 2015年的 Skype 的的桌面客户端功能比较
 ms.author: jambirk
-author: jambirk
+author: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要： 业务服务器 2015年的 Skype 或 Skype 的业务 Online 管理员可以使用这些表了解上的客户端支持哪些功能。
-ms.openlocfilehash: 2a65dcf1825bac80cc002962ce589e851ea2d3b3
-ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
+ms.openlocfilehash: 73d25486544c4832b9fe30235128c8c3d4c5ae82
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21223922"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22391817"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>业务服务器 2015年的 Skype 的的桌面客户端功能比较
  
@@ -102,6 +102,7 @@ ms.locfileid: "21223922"
 |发送墨迹消息  <br/> ||||& #x 2714;||||||
 |接收墨迹消息  <br/> |& #x 2714;||& #x 2714;|& #x 2714;||||||
 |发送高重要性 IM 消息  <br/> |& #x 2714;||& #x 2714;|||||||
+|对等 IM 对话中的传输文件<br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|||& #x 2714;|
    
 ## <a name="meetings-support"></a>会议支持
 <a name="BKMK_Conferencing"> </a>

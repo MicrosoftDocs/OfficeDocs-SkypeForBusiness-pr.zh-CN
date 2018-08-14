@@ -3,7 +3,6 @@ title: 部署 Skype 会议室系统 v2
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 5/10/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读此文，了解有关部署 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: e87d6563b155131a2eee1e08653c9320777b842b
-ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
+ms.openlocfilehash: 08d7444eea06eae3de2970b368eb1201828c8a07
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19856144"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019454"
 ---
 # <a name="deployment-overview"></a>部署概述
 
@@ -37,15 +36,11 @@ AV 技术可用于最后一项任务，但您的组织的 IT 部门将需要执�
 
 时的有序的设备将传递给您的组织，使用您的网络和设施和 AV 团队，以确保满足部署依赖项，并且每个站点和房间已准备方面电源、 网络，并显示。 此外，请确保满足物理安装要求。 有关物理安装注意事项，请访问供应商的网站，并利用 AV 团队安装时和时装入屏幕和运行电缆的体验。
 
-<!-- These are now links to nowhere; ask Lester and James about them.
+您可以找到有关在下面的规划指南链接这些依赖关系的更多信息：
 
-You can find out more about these dependencies in the planning guidance links below:
-
--   [Network](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#check-network-availability)
--   [Certificates](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#certificates)
--   [Proxy](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#proxy)
-
--->
+-   [检查网络可用性](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#check-network-availability) 
+-   [证书](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#certificates)
+-   [代理](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#proxy)
 
 **专业人员提示**-如果您打算使用代理服务器业务 online，[查看本文](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)的第一个提供对 Skype 的访问。 请注意，当谈到 Skype 的业务流量通过代理服务器，我们建议完全绕过代理服务器。 已加密的业务通信的 Skype，以便代理服务器不进行更安全。 作为您更多 Skype 业务部署的一部分，我们建议您按照[评估我的环境](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness)中的带宽规划和评估您的网络适合于实时通信的指南。 所有带宽规划，都使用[MyAdvisor 网络计划程序](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)。 （我们建议您创建 Skype 会议室系统 v2 角色反映的预期的 Skype 会议室系统 v2 用法 [视频、 屏幕共享、 音频] 并分配多个用户相匹配的 Skype 会议室系统单位为部署到每个网站数。） 
 
@@ -74,8 +69,8 @@ You can find out more about these dependencies in the planning guidance links be
 
 根据您决定要启用 Skype 会议室系统 v2 部署的协作方案，您需要确定的特性和功能分配给您启用每个 Skype 会议室系统 v2 服务帐户。
 
-| **方案**                    | **说明**                                                                                              | **Skype 会议室系统 v2 服务帐户功能**                          |
-|---------------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| **应用场景** | **说明** | **Skype 会议室系统 v2 服务帐户功能** |
+|---------- |------------- | --- |
 | 交互式会议            | 使用语音、 视频和屏幕共享;使 bookable 资源的 Skype 会议室系统 v2                     | 启用业务，启用 Exchange （资源邮箱） 的 Skype |
 | 电话拨入式会议            | 启用会议启动*直接*从电话拨入式会议坐标 Skype 会议室系统 v2 控制台 | 启用音频会议                                          |
 | 出站/入站 PSTN 呼叫 | 启用 Skype 会议室系统 v2 控制台发起和接收 PSTN 呼叫                                         | 启用电话系统                                                |
@@ -145,7 +140,7 @@ _规划表的示例 Skype 会议室系统 v2 服务帐户_
 
 规划部署 Skype 会议室 Systemsv2 时, 必须考虑安装所需的软件的选项数。 下表中描述常见方案和方法。 
 
-| **方案**            | **方法**         |
+| **应用场景**            | **方法**         |
 |-------------------------|-----------------------|   
 |部署少量 Skype 会议室系统设备 (< 10)。 | 如果使用基于 Surface Pro Skype 会议室系统 v2，请按照[为每个设备的安装说明安装](console.md)。 [此通过单一便捷式视频将指导您完成整个过程。](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) 如果使用集成的解决方案，请使用供应商图像部署和配置所需的设置。 |
 | 部署之间 10 到 50 从单一供应商的设备。     | 创建基于 WIM 图像、 在[步骤 6 指南中](console.md)后, 暂停和捕获使用与克隆分发技术的通讯组映像。    |
