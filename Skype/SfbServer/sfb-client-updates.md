@@ -42,7 +42,7 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 |软件包名称|KB 编号|发布日期|
 |:---  |:---  |:---  |
 |Skype for Business 2016 安全更新 |[KB 4022221](https://support.microsoft.com/kb/4022221)| 2018 年 7 月 |
-|Skype for Business 2016 更新 |[KB 4022155](https://support.microsoft.com/en-us/help/4022155) | 6 月 2018 日|
+|Skype for Business 2016 更新 |[KB 4022155](https://support.microsoft.com/en-us/help/4022155) | 2018 年 6 月|
 |Skype for Business 2016 更新 |[KB 4018367](https://support.microsoft.com/kb/4018367) | 2018 年 5 月|
 |Skype for Business 2016 更新 |[KB 4018323](https://support.microsoft.com/kb/4018323) | 2018 年 4 月|
 |Skype for Business 2016 更新 |[KB 4011725](https://support.microsoft.com/kb/4011725) | 2018 年 3 月|
@@ -53,7 +53,7 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 |Skype for Business 2016 安全更新 |[KB 4011159](https://support.microsoft.com/kb/4011159) | 2017 年 10 月|
 |Skype for Business 2016 安全更新 |[KB 4011040](https://support.microsoft.com/kb/4011040) | 2017 年 9 月|
 |Skype for Business 2016 更新 |[KB 3213548](https://support.microsoft.com/kb/3213548) | 2017 年 7 月|
-|Skype for Business 2016 安全更新 |[KB 3203382](https://support.microsoft.com/kb/3203382) | 6 月 2017 日|
+|Skype for Business 2016 安全更新 |[KB 3203382](https://support.microsoft.com/kb/3203382) | 2017 年 6 月|
 |Skype for Business 2016 安全更新 |[KB 3191858](https://support.microsoft.com/kb/3191858) | 2017 年 5 月|
 |Skype for Business 2016 更新 |[KB 3178717](https://support.microsoft.com/kb/3178717) | 2017 年 4 月|
 |Skype for Business 2016 安全更新 |[KB 3178656](https://support.microsoft.com/kb/3178656) | 2017 年 3 月|
@@ -64,7 +64,7 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 |Skype for Business 2016 更新 |[KB 3118288](https://support.microsoft.com/kb/3118288) | 2016 年 9 月|
 |Skype for Business 2016 安全更新 |[KB 3115408](https://support.microsoft.com/kb/3115408) | 2016 年 8 月|
 |Skype for Business 2016 更新 |[KB 3115268](https://support.microsoft.com/kb/3115268) | 2016 年 7 月|
-|Skype for Business 2016 更新 |[KB 3115087](https://support.microsoft.com/kb/3115087) | 6 月 2016 日|
+|Skype for Business 2016 更新 |[KB 3115087](https://support.microsoft.com/kb/3115087) | 2016 年 6 月|
 |Skype for Business 2016 安全更新 |[KB 3114960](https://support.microsoft.com/kb/3114960) | 2016 年 4 月|
 |Skype for Business 2016 更新 |[KB 3114846](https://support.microsoft.com/kb/3114846) | 2016 年 3 月 |
 |Skype for Business 2016 更新 |[KB 3114696](https://support.microsoft.com/kb/3114696) | 2016 年 2 月|
@@ -79,52 +79,52 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 
 |软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
-|Skype for Business 2015/Lync 2013 安全更新 |[ KB 4022225 ](https://support.microsoft.com/kb/4022225) | 2018 年 7 月 |
-|Skype for Business 2015/Lync 2013 更新 |[KB 4022170 ](https://support.microsoft.com/kb/4022170) | 6 月 2018 日 |
-|Skype for Business 2015/Lync 2013 更新 |[KB 4018377 ](https://support.microsoft.com/kb/4018377) | 2018 年 5 月 |
-|Skype for Business 2015/Lync 2013 更新 |[KB 4018334 ](https://support.microsoft.com/kb/4018334) | 2018 年 4 月] |
-|Skype for Business 2015/Lync 2013 更新 |[KB 4018290 ](https://support.microsoft.com/kb/4018290) | 2018 年 3 月 |
-|Skype for Business 2015/Lync 2013 更新 |[KB 4011678 ](https://support.microsoft.com/kb/4011678) | 2018 年 2 月 |
-|Skype for Business 2015/Lync 2013 更新 |[KB 4011638 ](https://support.microsoft.com/kb/4011638) | 2018 年 1 月 |
-|Skype for Business 2015/Lync 2013 更新 |[KB 4011284 ](https://support.microsoft.com/kb/4011284) | 2017 年 12 月 |
-|Skype for Business 2015/Lync 2013 更新 |[KB 4011255 ](https://support.microsoft.com/kb/4011255) | 2017 年 11 月 |
+|Skype for Business 2015/Lync 2013 安全更新 |[KB 4022225](https://support.microsoft.com/kb/4022225) | 2018 年 7 月 |
+|Skype for Business 2015/Lync 2013 更新 |[KB 4022170](https://support.microsoft.com/kb/4022170) | 2018 年 6 月 |
+|Skype for Business 2015/Lync 2013 更新 |[KB 4018377](https://support.microsoft.com/kb/4018377) | 2018 年 5 月 |
+|Skype for Business 2015/Lync 2013 更新 |[KB 4018334](https://support.microsoft.com/kb/4018334) | 2018 年 4 月 |
+|Skype for Business 2015/Lync 2013 更新 |[KB 4018290](https://support.microsoft.com/kb/4018290) | 2018 年 3 月 |
+|Skype for Business 2015/Lync 2013 更新 |[KB 4011678](https://support.microsoft.com/kb/4011678) | 2018 年 2 月 |
+|Skype for Business 2015/Lync 2013 更新 |[KB 4011638](https://support.microsoft.com/kb/4011638) | 2018 年 1 月 |
+|Skype for Business 2015/Lync 2013 更新 |[KB 4011284](https://support.microsoft.com/kb/4011284) | 2017 年 12 月 |
+|Skype for Business 2015/Lync 2013 更新 |[KB 4011255](https://support.microsoft.com/kb/4011255) | 2017 年 11 月 |
 |Skype for Business 2015/Lync 2013 安全更新|[KB 4011179](https://support.microsoft.com/kb/4011179) | 2017 年 10 月 |
 |Skype for Business 2015/Lync 2013 安全更新|[KB 4011107](https://support.microsoft.com/kb/4011107) | 2017 年 9 月 |
 |Skype for Business 2015/Lync 2013 Lynchelploc 安全更新|[KB 3213568](https://support.microsoft.com/kb/3213568) | 2017 年 9 月 |
-|Skype for Business 2015/Lync 2013 更新 |[KB 4011046 ](https://support.microsoft.com/kb/4011046) | 2017 年 8 月 |
-|Skype for Business 2015/Lync 2013 更新 |[KB 3213574 ](https://support.microsoft.com/kb/3213574) | 2017 年 7 月 |
-|Skype for Business 2015/Lync 2013 安全更新|[KB 3191939](https://support.microsoft.com/kb/3191939) | 6 月 2017 日 |
-|Skype for Business 2015/Lync 2013 安全更新|[KB 3191937](https://support.microsoft.com/kb/3191937) | 6 月 2017 日 |
+|Skype for Business 2015/Lync 2013 更新 |[KB 4011046](https://support.microsoft.com/kb/4011046) | 2017 年 8 月 |
+|Skype for Business 2015/Lync 2013 更新 |[KB 3213574](https://support.microsoft.com/kb/3213574) | 2017 年 7 月 |
+|Skype for Business 2015/Lync 2013 安全更新|[KB 3191939](https://support.microsoft.com/kb/3191939) | 2017 年 6 月 |
+|Skype for Business 2015/Lync 2013 安全更新|[KB 3191937](https://support.microsoft.com/kb/3191937) | 2017 年 6 月 |
 |Skype for Business 2015/Lync 2013 Lynchelploc 更新 |[KB 3191873](https://support.microsoft.com/kb/3191873) | 2017 年 5 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3191876 ](https://support.microsoft.com/kb/3191876) | 2017 年 5 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3191876](https://support.microsoft.com/kb/3191876) | 2017 年 5 月 |
 |Skype for Business 2015/Lync 2013 Lynchelploc 更新 |[KB 3172492](https://support.microsoft.com/kb/3172492) | 2017 年 4 月 |
-|Skype for Business 2015/Lync 2013 更新 |[KB 3178731 ](https://support.microsoft.com/kb/3178731) | 2017 年 4 月 |
+|Skype for Business 2015/Lync 2013 更新 |[KB 3178731](https://support.microsoft.com/kb/3178731) | 2017 年 4 月 |
 |Skype for Business 2015/Lync 2013 安全更新 |[KB 3172539](https://support.microsoft.com/kb/3172539) | 2017 年 3 月 |
-|Skype for Business 2015/Lync 2013 更新| [KB 3161988 ](https://support.microsoft.com/kb/3161988) | 2017 年 2 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3141468 ](https://support.microsoft.com/kb/3141468) | 2017 年 1 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3127976 ](https://support.microsoft.com/kb/3127976) | 2016 年 12 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3127934 ](https://support.microsoft.com/kb/3127934) | 2016 年 11 月 |
+|Skype for Business 2015/Lync 2013 更新| [KB 3161988](https://support.microsoft.com/kb/3161988) | 2017 年 2 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3141468](https://support.microsoft.com/kb/3141468) | 2017 年 1 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3127976](https://support.microsoft.com/kb/3127976) | 2016 年 12 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3127934](https://support.microsoft.com/kb/3127934) | 2016 年 11 月 |
 |Skype for Business 2015/Lync 2013 安全更新|[KB 3118348](https://support.microsoft.com/kb/3118348) | 2016 年 10 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3118281 ](https://support.microsoft.com/kb/3118281) | 2016 年 9 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3118281](https://support.microsoft.com/kb/3118281) | 2016 年 9 月 |
 |Skype for Business 2015/Lync 2013 安全更新|[KB 3115431](https://support.microsoft.com/kb/3115431) | 2016 年 8 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3115261 ](http://support.microsoft.com/kb/3115261) | 2016 年 7 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3115261](http://support.microsoft.com/kb/3115261) | 2016 年 7 月 |
 |Skype for Business 2015/Lync 2013 安全更新|[KB 3114944](https://support.microsoft.com/kb/3114944) | 2016 年 4 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3114831 ](https://support.microsoft.com/kb/3114831) | 2016 年 3 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3114732 ](https://support.microsoft.com/kb/3114732) | 2016 年 2 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3114502 ](https://support.microsoft.com/kb/3114502) | 2016 年 1 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3114831](https://support.microsoft.com/kb/3114831) | 2016 年 3 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3114732](https://support.microsoft.com/kb/3114732) | 2016 年 2 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3114502](https://support.microsoft.com/kb/3114502) | 2016 年 1 月 |
 |Skype for Business 2015/Lync 2013 安全更新|[KB 3114351](https://support.microsoft.com/kb/3114351) | 2015 年 12 月 |
 |Skype for Business 2015/Lync 2013 安全更新|[KB 3101496](https://support.microsoft.com/kb/3101496) | 2015 年 11 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3085581 ](https://support.microsoft.com/kb/3085581) | 2015 年 10 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3085581](https://support.microsoft.com/kb/3085581) | 2015 年 10 月 |
 |Skype for Business 2015/Lync 2013 安全更新|[KB 3085500](https://support.microsoft.com/kb/3085500) | 2015 年 9 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3054791 ](https://support.microsoft.com/kb/3054791) | 6 月 2015 日 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3054791](https://support.microsoft.com/kb/3054791) | 2015 年 6 月 |
 
 
 ### <a name="skype-for-business-on-mac-client-updates"></a>Mac 版 Skype for Business 客户端更新
 
 |软件包名称|发布日期|
 |:--- |:--- |
-|[Mac 版 Skype for Business 更新](https://www.microsoft.com/en-us/download/details.aspx?id=54108) | 6 月 2018 日 |
-|[Mac 版 Skype for Business 当前发行说明](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac) | 6 月 2018 日 |
+|[Mac 版 Skype for Business 更新](https://www.microsoft.com/en-us/download/details.aspx?id=54108) | 2018 年 6 月 |
+|[Mac 版 Skype for Business 当前发行说明](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac) | 2018 年 6 月 |
 
 
 
@@ -134,46 +134,46 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 
 软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
-|Skype for Business/Lync 2013 安全更新 |[KB 4022225 ](https://support.microsoft.com/kb/4022225)| 2018 年 7 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 4022170 ](https://support.microsoft.com/kb/4022170) | 6 月 2018 日 |
-|Skype for Business 2015/Lync 2013 更新|[KB 4018377 ](https://support.microsoft.com/kb/4018377) | 2018 年 5 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 4018334 ](https://support.microsoft.com/kb/4018334) | 2018 年 4 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 4018290 ](https://support.microsoft.com/kb/4018290) | 2018 年 3 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 4011678 ](https://support.microsoft.com/kb/4011678) | 2018 年 2 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 4011638 ](https://support.microsoft.com/kb/4011638) | 2018 年 1 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 4011284 ](https://support.microsoft.com/kb/4011284) | 2017 年 12 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 4011255 ](https://support.microsoft.com/kb/4011255) | 2017 年 11 月 |
+|Skype for Business/Lync 2013 安全更新 |[KB 4022225](https://support.microsoft.com/kb/4022225)| 2018 年 7 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 4022170](https://support.microsoft.com/kb/4022170) | 2018 年 6 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 4018377](https://support.microsoft.com/kb/4018377) | 2018 年 5 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 4018334](https://support.microsoft.com/kb/4018334) | 2018 年 4 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 4018290](https://support.microsoft.com/kb/4018290) | 2018 年 3 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 4011678](https://support.microsoft.com/kb/4011678) | 2018 年 2 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 4011638](https://support.microsoft.com/kb/4011638) | 2018 年 1 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 4011284](https://support.microsoft.com/kb/4011284) | 2017 年 12 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 4011255](https://support.microsoft.com/kb/4011255) | 2017 年 11 月 |
 |Skype for Business 2015/Lync 2013 安全更新|[KB 4011179](https://support.microsoft.com/kb/4011179) | 2017 年 10 月 |
 |Skype for Business 2015/Lync 2013 安全更新|[KB 4011107](https://support.microsoft.com/kb/4011107) | 2017 年 9 月 |
 |Skype for Business 2015/Lync 2013 Lynchelploc 安全更新|[KB 3213568](https://support.microsoft.com/kb/3213568) | 2017 年 9 月
-|Skype for Business 2015/Lync 2013 更新|[KB 4011046 ](https://support.microsoft.com/kb/4011046) | 2017 年 8 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3213574 ](https://support.microsoft.com/kb/3213574) | 2017 年 7 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3191939 ](https://support.microsoft.com/kb/3191939) | 6 月 2017 日 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3191937 ](https://support.microsoft.com/kb/3191937) | 6 月 2017 日 |
+|Skype for Business 2015/Lync 2013 更新|[KB 4011046](https://support.microsoft.com/kb/4011046) | 2017 年 8 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3213574](https://support.microsoft.com/kb/3213574) | 2017 年 7 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3191939](https://support.microsoft.com/kb/3191939) | 2017 年 6 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3191937](https://support.microsoft.com/kb/3191937) | 2017 年 6 月 |
 |Skype for Business 2015/Lync 2013 Lynchelploc 安全更新|[KB 3191873](https://support.microsoft.com/kb/3191873) | 2017 年 5 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3191876 ](https://support.microsoft.com/kb/3191876) | 2017 年 5 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3172492 ](https://support.microsoft.com/kb/3172492) | 2017 年 4 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3178731 ](https://support.microsoft.com/kb/3178731) | 2017 年 4 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3172539 ](https://support.microsoft.com/kb/3172539) | 2017 年 3 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3161988 ](https://support.microsoft.com/kb/3161988) | 2017 年 2 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3141468 ](https://support.microsoft.com/kb/3141468) | 2017 年 1 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3127976 ](https://support.microsoft.com/kb/3127976) | 2016 年 12 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3127934 ](https://support.microsoft.com/kb/3127934) | 2016 年 11 月 |
-|Skype for Business 2015/Lync 2013 安全更新|[KB 3118348 ](https://support.microsoft.com/kb/3118348) | 2016 年 10 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3118281 ](https://support.microsoft.com/kb/3118281) | 2016 年 9 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3191876](https://support.microsoft.com/kb/3191876) | 2017 年 5 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3172492](https://support.microsoft.com/kb/3172492) | 2017 年 4 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3178731](https://support.microsoft.com/kb/3178731) | 2017 年 4 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3172539](https://support.microsoft.com/kb/3172539) | 2017 年 3 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3161988](https://support.microsoft.com/kb/3161988) | 2017 年 2 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3141468](https://support.microsoft.com/kb/3141468) | 2017 年 1 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3127976](https://support.microsoft.com/kb/3127976) | 2016 年 12 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3127934](https://support.microsoft.com/kb/3127934) | 2016 年 11 月 |
+|Skype for Business 2015/Lync 2013 安全更新|[KB 3118348](https://support.microsoft.com/kb/3118348) | 2016 年 10 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3118281](https://support.microsoft.com/kb/3118281) | 2016 年 9 月 |
 |Skype for Business 2015/Lync 2013 安全更新|[KB 3115431](https://support.microsoft.com/kb/3115431) | 2016 年 8 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3115261 ](https://support.microsoft.com/kb/3115261) | 2016 年 7 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3115033 ](https://support.microsoft.com/kb/3115033) | 6 月 2016 日 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3115261](https://support.microsoft.com/kb/3115261) | 2016 年 7 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3115033](https://support.microsoft.com/kb/3115033) | 2016 年 6 月 |
 |Skype for Business 2015/Lync 2013 安全更新|[KB 3114944](https://support.microsoft.com/kb/3114944) | 2016 年 4 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3114831 ](https://support.microsoft.com/kb/3114831) | 2016 年 3 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3114732 ](https://support.microsoft.com/kb/3114732) | 2016 年 2 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3114502 ](https://support.microsoft.com/kb/3114502) | 2016 年 1 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3039776 ](https://support.microsoft.com/kb/3039776) | 2015 年 12 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3114831](https://support.microsoft.com/kb/3114831) | 2016 年 3 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3114732](https://support.microsoft.com/kb/3114732) | 2016 年 2 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3114502](https://support.microsoft.com/kb/3114502) | 2016 年 1 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3039776](https://support.microsoft.com/kb/3039776) | 2015 年 12 月 |
 |Skype for Business 2015/Lync 2013 安全更新|[KB 3101496](https://support.microsoft.com/kb/3101496) | 2015 年 12 月 |
 |Skype for Business 2015/Lync 2013 安全更新|[KB 3114351](https://support.microsoft.com/kb/3114351) | 2015 年 11 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3085581 ](https://support.microsoft.com/kb/3085581) | 2015 年 10 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3085581](https://support.microsoft.com/kb/3085581) | 2015 年 10 月 |
 |Skype for Business 2015/Lync 2013 安全更新|[KB 3085500](https://support.microsoft.com/kb/3085500) | 2015 年 9 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3054791 ](https://support.microsoft.com/kb/3054791) | 6 月 2015 日 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3054791](https://support.microsoft.com/kb/3054791) | 2015 年 6 月 |
 
 
 
@@ -225,11 +225,11 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
 |Lync 2010 安全更新 |[KB 4025865](https://support.microsoft.com/kb/4025865) | 2017 年 9 月|
-|Lync 2010 安全更新 |[KB 4010732](https://support.microsoft.com/kb/4020732) | 6 月 2017 日|
+|Lync 2010 安全更新 |[KB 4010732](https://support.microsoft.com/kb/4020732) | 2017 年 6 月|
 |Lync 2010 安全更新 |[KB 4010299](https://support.microsoft.com/kb/4010299) | 2017 年 3 月|
 |Lync 2010 安全更新 |[KB 3188397](https://support.microsoft.com/kb/3188397) | 2016 年 10 月|
 |Lync 2010 安全更新 |[KB 3174301](https://support.microsoft.com/kb/3174301) | 2016 年 8 月|
-|Lync 2010 更新 |[KB 3171499](https://support.microsoft.com/kb/3171499) | 6 月 2016 日|
+|Lync 2010 更新 |[KB 3171499](https://support.microsoft.com/kb/3171499) | 2016 年 6 月|
 |Lync 2010 安全更新 |[KB 3115871](https://support.microsoft.com/kb/3115871) | 2015 年 12 月|
 |Lync 2010 安全更新 |[KB 3096735](https://support.microsoft.com/kb/3096735) | 2015 年 11 月|
 |Lync 2010 安全更新 |[KB 3081087](https://support.microsoft.com/kb/3081087) | 2015 年 9 月|
@@ -247,12 +247,12 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
 |Lync 2010 Attendee 安全更新（管理员级别安装） |[KB 4025866](https://support.microsoft.com/kb/4025866) |2017 年 9 月|
-|Lync 2010 Attendee 安全更新（管理员级别安装） |[KB 4025866](https://support.microsoft.com/kb/4025866) |6 月 2017 日|
-|Lync 2010 Attendee 安全更新（用户级别安装） |[KB 4020734](https://support.microsoft.com/kb/4020734) |6 月 2017 日|
+|Lync 2010 Attendee 安全更新（管理员级别安装） |[KB 4025866](https://support.microsoft.com/kb/4025866) |2017 年 6 月|
+|Lync 2010 Attendee 安全更新（用户级别安装） |[KB 4020734](https://support.microsoft.com/kb/4020734) |2017 年 6 月|
 |Lync 2010 Attendee 上的 Microsoft 图形组件的安全更新（管理员级别安装） |[KB 4010301](https://support.microsoft.com/kb/4010301) |2017 年 3 月|
 |Lync 2010 Attendee 安全更新（管理员级别安装） |[KB 3188400](https://support.microsoft.com/kb/3188400) |2016 年 10 月|
-|“Lync 2010 Attendee 累积更新 - 管理员级别安装”说明 |[KB 3171502](https://support.microsoft.com/kb/3171502)|6 月 2016 日 |
-|“Lync 2010 Attendee 累积更新 - 用户级别安装”说明 |[KB 3171496](https://support.microsoft.com/kb/3171496) |6 月 2016 日 |
+|“Lync 2010 Attendee 累积更新 - 管理员级别安装”说明 |[KB 3171502](https://support.microsoft.com/kb/3171502)|2016 年 6 月 |
+|“Lync 2010 Attendee 累积更新 - 用户级别安装”说明 |[KB 3171496](https://support.microsoft.com/kb/3171496) |2016 年 6 月 |
 |Lync 2010 Attendee 安全更新（管理员级别安装） |[KB 3081089](https://support.microsoft.com/kb/3081089) |2015 年 9 月 |
 |Lync 2010 Attendee 安全更新（用户级别安装） |[KB 3081088](https://support.microsoft.com/kb/3081088) |2015 年 9 月 |
 
@@ -268,11 +268,11 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 **软件包名称/链接**|发布日期|
 |:--- |:--- |
 |[Lync 2010 Attendee - 管理员级别安装](https://www.microsoft.com/download/en/details.aspx?id=23396) | 2013 年 4 月 |
-|[Lync 2010 Attendee - 用户级别安装](https://www.microsoft.com/download/en/details.aspx?id=15755) | 6 月 2014 日 |
+|[Lync 2010 Attendee - 用户级别安装](https://www.microsoft.com/download/en/details.aspx?id=15755) | 2014 年 6 月 |
 
 ### <a name="trial-software"></a>试用版软件
 **软件包名称/链接**|发布日期|
 |:--- |:--- |
-|[Lync 2010 试用版（32 位） ](https://www.microsoft.com/en-us/download/details.aspx?id=5484)| 2010 年 11 月 |
-|[Lync 2010 试用版（64 位） ](https://www.microsoft.com/en-us/download/details.aspx?id=10400)| 2010 年 11 月 |
+|[Lync 2010 试用版（32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=5484)| 2010 年 11 月 |
+|[Lync 2010 试用版（64 位）](https://www.microsoft.com/en-us/download/details.aspx?id=10400)| 2010 年 11 月 |
 
