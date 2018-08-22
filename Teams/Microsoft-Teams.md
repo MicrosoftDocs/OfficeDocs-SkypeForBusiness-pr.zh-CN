@@ -4,12 +4,12 @@ hide_bc: true
 title: Microsoft Teams 文档和实践指导
 description: Microsoft Teams 文档和实践指导
 ms.topic: hub-page
-ms.openlocfilehash: 1d7b8162f79cfc51da611830e2bd9fae9e6d84a0
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+ms.openlocfilehash: a9fa022e0d70655f916ab76988199fa6d06b648e
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088334"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546348"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -129,6 +129,63 @@ ms.locfileid: "20088334"
                                                 <div class="cardText">
                                                     <h3>查找培训&amp;和视频</h3>
                                                     <p>获取 Teams 培训 - 适用于你和你的用户</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/microsoftteams/platform/overview">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt="a settings symbol with a code symbol" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft 团队开发人员平台简介</h3>
+                                                    <p>了解 Microsoft 团队开发人员平台以及它如何使您能够构建有用和强大的应用程序</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Community-400x140.svg" alt="a users symbol with a globe symbol" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft 团队技术社区</h3>
+                                                    <p>加入团队技术社区提问&amp;获取解答和阅读团队博客 （英文）</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/powershell/module/teams/?view=teams-ps">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Powershell-400x140.svg" alt="a PowerShell logo on a book symbol" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Teams 的 PowerShell cmdlet 参考</h3>
+                                                    <p>团队中获取的 PowerShell 模块和 cmdlet</p>
                                                 </div>
                                             </div>
                                         </div>

@@ -9,18 +9,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 了解如何配置 Microsoft 电话系统直接路由。
-ms.openlocfilehash: 112381db7d4d2bc160917b41c7e8e437ef737bcf
-ms.sourcegitcommit: d619e44d685e2109b995ffd67ff4b98e5647c8ea
+ms.openlocfilehash: 664aae1a213859a6e4e73ec4c75ce39b6058788e
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21762940"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546523"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
 如果您未阅读[规划直接路由](direct-routing-plan.md)必备组件并查看其他步骤您需要配置 Microsoft 电话系统网络之前执行。 
 
-本文介绍如何配置 Microsoft 电话系统直接路由。 它详细说明如何配对对直接路由支持会话边界控制器 (SBC) 以及如何配置为使用直接路由连接到公共公用电话交换网 (PSTN) 的 Microsoft 团队用户。 若要完成本文中介绍的步骤操作，管理员需要某些熟悉 PowerShell cmdlet。 有关使用 PowerShell 的详细信息，请参阅[Windows PowerShell 将计算机设置](https://technet.microsoft.com/library/dn362831.aspx)。 
+本文介绍如何配置 Microsoft 电话系统直接路由。 它详细说明如何配对对直接路由支持会话边界控制器 (SBC) 以及如何配置为使用直接路由连接到公共公用电话交换网 (PSTN) 的 Microsoft 团队用户。 若要完成本文中介绍的步骤操作，管理员需要某些熟悉 PowerShell cmdlet。 有关使用 PowerShell 的详细信息，请参阅[Windows PowerShell 将计算机设置](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。 
 
 我们建议您确认，您的 SBC 已配置为您的 SBC 供应商的推荐： 
 
@@ -43,7 +43,7 @@ ms.locfileid: "21762940"
 
 ### <a name="connect-to--skype-for-business-online-by-using-powershell"></a>使用 PowerShell online 业务连接到 Skype 
 
-您可以使用连接到租户 PowerShell 会话配对直接路由界面 SBC。 若要打开 PowerShell 会话，请按照中[设置您的计算机的 Windows PowerShell](https://technet.microsoft.com/library/dn362831.aspx)列出的步骤。 
+您可以使用连接到租户 PowerShell 会话配对直接路由界面 SBC。 若要打开 PowerShell 会话，请按照中[设置您的计算机的 Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)列出的步骤。 
  
 您建立一个远程 PowerShell 会话后，请验证您可以看到这些命令以管理 SBC。 若要验证命令，键入或复制/粘贴在下面的示例 PowerShell 会话中，按 Enter: 
 

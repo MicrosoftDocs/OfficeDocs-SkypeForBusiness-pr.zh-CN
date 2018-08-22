@@ -3,19 +3,19 @@ title: Microsoft Teams 的已知问题
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/9/2018
+ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: marcl, ninadara
+ms.reviewer: marcl
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7053bade0b01a35ba8e43607b182c9faec63879
-ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
+ms.openlocfilehash: 8ca61e36069262ddb2ea43dde300c169d6992ba8
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21779516"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546396"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
   
@@ -131,7 +131,7 @@ ms.locfileid: "21779516"
 ## <a name="meetings"></a>会议
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|用户无法访问会议/连接器，但具有 Exchange Online 邮箱。 <br/> |客户主动 EWS 阻止来自 Exchange Online 中的服务，但需要有 MS 团队符合 EWS 策略中。 <br/> |若要使 MS 团队兼容，您必须添加内 EWSAllowList MS 团队以下用户代理字符串： `*skypespaces*`，包括星号。 完整的命令为：`set-organizationconfig -ewsallowlist *skypespaces*`<br/> 有关详细信息：https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |5/30/17  <br/>|
+|用户无法访问会议/连接器，但具有 Exchange Online 邮箱。 <br/> |客户主动 EWS 阻止来自 Exchange Online 中的服务，但需要有 MS 团队符合 EWS 策略中。 <br/> |若要使 MS 团队兼容，您必须添加内 EWSAllowList MS 团队以下用户代理字符串： `*skypespaces*`，包括星号。 完整的命令为：`set-organizationconfig -ewsallowlist *skypespaces*`<br/> 有关详细信息：https://docs.microsoft.com/en-us/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|

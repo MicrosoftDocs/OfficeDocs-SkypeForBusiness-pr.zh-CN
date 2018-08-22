@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 了解什么需要迁移到直接路由从 Skype 业务联机和团队配置角度。
-ms.openlocfilehash: 04e8f141776dd3003352b3df888092960e23dcf6
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 859ab19162f8cf16cc419f7f871fc0059e4566d6
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211141"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546594"
 ---
 # <a name="migrating-to-direct-routing"></a>迁移到直接路由
 
@@ -79,8 +79,8 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 
 从迁移电话系统与内部部署 PSTN 连接中 Skype 业务服务器的详细信息，请参阅以下资源：
 
-- [规划](https://technet.microsoft.com/en-us/library/mt455212.aspx)
-- [部署](https://technet.microsoft.com/en-us/library/mt634319.aspx) 
+- [规划](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [部署](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
 
 建议您删除以前配置的语音路由的信息，如下所示：
 
@@ -91,8 +91,8 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 
 有关从电话系统与内部部署 PSTN 连接，通过云连接器迁移的详细信息，请参阅以下文章：
 
-- [规划](https://technet.microsoft.com/en-us/library/mt605227.aspx)  
-- [部署](https://technet.microsoft.com/en-us/library/mt634319.aspx)
+- [规划](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
+- [部署](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
 - [用户配置](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
 
 建议您删除以前配置的语音路由的信息，如下所示：

@@ -3,7 +3,7 @@ title: 体验审阅指南的 Microsoft 团队的质量
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 04/12/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7579a87d2c59a47304d06fd05e11b37a97544a79
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: ff9834b5bb59b0dd37ba5ff6d4053cd7b5188499
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19694917"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546642"
 ---
 # <a name="quality-of-experience-review-guide"></a>查看用户体验指南的质量
 
@@ -32,11 +32,11 @@ ms.locfileid: "19694917"
 
 _图 1-覆盖在整个文档中的项操作区域_
 
-通过不断地评估和补救本文所述的区域，您可以减少他们可能会产生负面影响的用户体验质量。 在部署中遇到的最多的用户体验问题可以分为以下类别：
+通过不断地评估和补救本文所述的区域，您可以减少他们可能会产生负面影响的用户体验质量。 在部署中遇到的大多数用户体验问题可以分为以下类别：
 
--   不完整的防火墙或代理配置
+-   防火墙或代理配置不完整
 
--   质量欠佳 Wi-fi 覆盖范围
+-   Wi-Fi 覆盖范围较小
 
 -   带宽不足
 
@@ -46,7 +46,7 @@ _图 1-覆盖在整个文档中的项操作区域_
 
 -   未优化或内置的音频设备
 
--   有问题的子网或网络设备
+-   子网或网络设备存在问题
 
 通过适当的规划和设计业务 online 部署团队或 Skype 之前，您可以减少的需要保持高质量体验的工作量。
 
@@ -138,7 +138,7 @@ _表 2-质量欠佳的呼叫服务指标_
 | 抖动\>30 ms                                   | 这是连续的数据包之间的延迟的平均更改。 工作组和 for Business 的 Skype 可以适应通过缓冲抖动某些级别。 则只有当抖动超过缓冲参与者通知的抖动效果。                                                                                                                         | 到达不同的速度数据包会导致演讲者语音声自动。                                                                                       |
 | 数据包丢失率\>10%或 0.1                    | 这通常被指的数据包丢失的百分比。 数据包丢失直接影响音频质量 — 从小，个人丢失数据包背对背脉冲损失几乎没有任何影响的原因音频，完全去掉。                                                                                                                               | 在其预期目标被丢弃和未到达数据包会导致出现间隙媒体、 错过的音节和词中生成和断断续续视频和共享。 |
 | 往返时间\>500 ms                         | 这是时间获取 IP 数据包从点 A，B 点和回点 a。此网络传播延迟限制到物理距离的两个点和轻量的速度，并包括执行的各种设备中的网络路径的额外开销。                                                                                  | 时间过长到达其目标数据包会导致 walkie-talkie 效果。                                                                                 |
-| NMOS 性能降低平均\>1.0                  | 一个或多个这些网络指标，尽管单独或者没有不佳、 一起导致网络[意味着平均意见得分](https://technet.microsoft.com/library/bb894481(v=office.12).aspx)(NMOS) 要删除多个点。 这并不一定意味着网络连接不佳，但质量已减少了呼叫期间发生足够问题。 | 这是抖动数据包丢失的组合和 — 在较小者一定程度上 — 增加的往返时间。 用户可能遇到以下症状的组合。          |
+| NMOS 性能降低平均\>1.0                  | 一个或多个这些网络指标，尽管单独或者没有不佳、 一起导致网络[意味着平均意见得分](https://docs.microsoft.com/en-us/previous-versions/office/communications-server/bb894481(v=office.12))(NMOS) 要删除多个点。 这并不一定意味着网络连接不佳，但质量已减少了呼叫期间发生足够问题。 | 这是抖动数据包丢失的组合和 — 在较小者一定程度上 — 增加的往返时间。 用户可能遇到以下症状的组合。          |
 | 隐藏样本数的平均比率\>7%或 0.07 | 一个或多个这些网络指标，尽管单独或者没有不佳，导致媒体的自我康复到客户端。 隐藏的音频示例是一种用于平滑通常将由丢弃的网络数据包突然转换技术。                                                                                                                | 高值指示丢失隐蔽的重要级别已应用，且导致音频失真或丢失。                                                  |
 
 #### <a name="client-and-device-readiness"></a>客户端和设备的准备情况
@@ -161,7 +161,7 @@ Microsoft 定期修补程序业务客户端; Skype确保您保存它最新环境
 任何一种单个策略会不影响您的设备准备策略以上的用户体验。 大多数组织而言非常高兴不必要的设备中删除用户 （例如，桌面电话或其他专用的音频设备），这通常是切换到团队或 Skype for Business 的核心业务理由。 但是，这些相同的组织有时不愿意再提供替换设备，即使这些设备成本较低。 现代便携式计算机和 Pc，上述配有内置麦克风和扬声器，不进行了优化业务类语音 ip 电话 (VoIP)。 这通常将创建不好的体验所有参与者，尤其是扬声器处于噪音环境。 Microsoft 的设备认证计划可确保用户参与通过使用任何设备的团队或 for Business 的 Skype 认证的电话呼叫，它生成优于非认证的设备的体验。
 
 我们始终建议团队和业务用户的 Skype 使用认证的耳麦或扬声器时使用桌面客户端参与语音呼叫。
-有关 Microsoft 认证设备的详细信息，请查看此[电话和限定的设备有关的文章](https://technet.microsoft.com/office/dn788944.aspx)。 [设备报告](#devices-investigations)，后面本指南中，用于帮助管理您的设备。 您可以使用速率我呼叫示例报告若要进一步增强您的设备准备策略。
+有关 Microsoft 认证设备的详细信息，请查看此[电话和限定的设备有关的文章](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/ip-phones)。 [设备报告](#devices-investigations)，后面本指南中，用于帮助管理您的设备。 您可以使用速率我呼叫示例报告若要进一步增强您的设备准备策略。
 
 ### <a name="user-experience"></a>用户体验
 
@@ -295,7 +295,7 @@ _图 3-关键类别个团队和 Skype 业务 Online 部署_
 
 #### <a name="skype-for-business-online-using-powershell"></a>Skype 业务 online 使用 PowerShell
 
-1.  [连接到业务联机通过 PowerShell 自定义的 Skype](https://technet.microsoft.com/library/dn362839(v=ocs.15).aspx)。
+1.  [连接到业务联机通过 PowerShell 自定义的 Skype](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
 
 2.  运行以下命令：  
     **(Get cstenant).tenantid**
@@ -477,7 +477,7 @@ _表 4-报告筛选器_
 
 ## <a name="import-the-cqd-templates"></a>导入 CQD 模板
 
-本指南包含[两个 curated 的 CQD 模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true)。 这些模板加快 CQD 的使用情况，并为您提供快速利用 CQD 的功能，使用户团队或 Skype 对业务体验的影响的机会。 所有网络模板，上述优化用于生成数据文件，可以使用您的工作收集和上载到 CQD，构建信息下一步部分中所述。
+本指南包含[两个 curated 的 CQD 模板](https://aka.ms/qertemplates)。 这些模板加快 CQD 的使用情况，并为您提供快速利用 CQD 的功能，使用户团队或 Skype 对业务体验的影响的机会。 所有网络模板，上述优化用于生成数据文件，可以使用您的工作收集和上载到 CQD，构建信息下一步部分中所述。
 
 **若要导入模板 (。CQDX) 到 CQD 联机**
 
@@ -899,7 +899,7 @@ _表 9-常见贡献高 PCR_
 |------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 网络                                 | 使用过度或下设置网络可以与媒体质量出现问题。 使用网络团队核实，确定是否从用户网络连接到 internet 出口点具有足够的带宽来支持媒体。 **执行网络准备情况评估：** 网络评估提供了有关预期的带宽使用情况的详细信息、 如何应对带宽和网络发生更改，以及建议个团队和 Skype for Business 的网络的做法。 使用上表作为您的源，必须建筑或子网的最佳候选人评估的列表。<br><ul><li>[Microsoft 团队网络准备情况评估](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#test-the-network)</li><li>[Skype 的业务网络准备情况评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft 网络评估工具：** 简单的网络性能测试中使用此工具可确定网络团队将执行程度或 Skype 业务联机呼叫。 此工具可帮助您评估子网的性能和验证针对 Microsoft 性能[要求](https://aka.ms/performancerequirements)的网络的准备。<br><ul><li>[下载网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885) </li></ul>        |
 | 服务质量 (QoS)                 | QoS 是经验证的方法，可帮助确定优先级和时间上以确保它们到达其保持不变的目标网络数据包。 请考虑实现跨组织最大限度地的带宽限制或约束其中的用户体验质量的 QoS。 QoS 将帮助您解决通常与数据包丢失的高级别关联的问题和 — 在较小者一定程度上 — 不稳定和往返行程的时间。 <br><ul><li>[Microsoft 团队 QoS 指南](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams)</li><li>[Skype 的业务 QoS 指南](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul>    |
-| Wi-fi                                    | Wi-fi 可以对呼叫质量产生重大影响。 Wi-fi 设计不通常考虑 VoIP 服务的网络要求，而且通常质量不佳的源。 **QoS:** 现代无线网络必须支持多个设备。 这些设备争夺带宽，并可能导致 VoIP 服务的质量问题的速度和延迟至关重要。 咨询您的无线供应商的详细信息，并考虑实现无线网络若要设置 Skype 业务和团队媒体上的 QoS。 **AP 密度：** 访问点 (Ap) 可能太远或不在的理想位置。 若要最小化潜在干扰放置额外 Ap 会议室和中不会受到背景墙或其他对象的位置。 **2.4 GHz 与 5 GHz:** 5 GHz 提供较少的背景干扰和更高的速度，并通过 Wi-fi 部署 VoIP 时应确定优先级。 但是，5 GHz 不与 2.4 GHz 为强，并且不入侵轻松地的背景墙。 查看您构建的布局来确定可以最佳的连接依赖的频率。 **信号强度：** 通常情况下以 dBm （分贝电源比），这测量无线信号强度。 设备连接到应用程序后，它不是要让轻松地转。 随着离开 AP 移动设备，则信号到点，则会引发不佳的连接，即使其他、 仔细 AP 位于属于。 如果可能，请使用 AP 供应商，以确保 Ap 配置要删除的设备时信号低于可接受的程度。 这将确保设备未挂起弱 ap。 无法轻松添加更多 Ap 时，这是很好的解决方案。 **无线驱动程序：** 当所有其他失败时，确保最新的无线驱动程序。 这有助于减轻任何用户体验不佳与过期的驱动程序。 |
+| Wi-Fi                                    | Wi-fi 可以对呼叫质量产生重大影响。 Wi-fi 设计不通常考虑 VoIP 服务的网络要求，而且通常质量不佳的源。 **QoS:** 现代无线网络必须支持多个设备。 这些设备争夺带宽，并可能导致 VoIP 服务的质量问题的速度和延迟至关重要。 咨询您的无线供应商的详细信息，并考虑实现无线网络若要设置 Skype 业务和团队媒体上的 QoS。 **AP 密度：** 访问点 (Ap) 可能太远或不在的理想位置。 若要最小化潜在干扰放置额外 Ap 会议室和中不会受到背景墙或其他对象的位置。 **2.4 GHz 与 5 GHz:** 5 GHz 提供较少的背景干扰和更高的速度，并通过 Wi-fi 部署 VoIP 时应确定优先级。 但是，5 GHz 不与 2.4 GHz 为强，并且不入侵轻松地的背景墙。 查看您构建的布局来确定可以最佳的连接依赖的频率。 **信号强度：** 通常情况下以 dBm （分贝电源比），这测量无线信号强度。 设备连接到应用程序后，它不是要让轻松地转。 随着离开 AP 移动设备，则信号到点，则会引发不佳的连接，即使其他、 仔细 AP 位于属于。 如果可能，请使用 AP 供应商，以确保 Ap 配置要删除的设备时信号低于可接受的程度。 这将确保设备未挂起弱 ap。 无法轻松添加更多 Ap 时，这是很好的解决方案。 **无线驱动程序：** 当所有其他失败时，确保最新的无线驱动程序。 这有助于减轻任何用户体验不佳与过期的驱动程序。 |
 | 网络设备                           | 较大的组织可能有数百个分散在网络设备。 使用您的网络团队以确保从用户到 internet 的网络设备是维护和最新。     |
 | VPN                                      | 它已完备 VPN 设备不通常情况下旨在处理实时的媒体工作负荷。 某些 VPN 配置禁止 UDP （这是首选的协议音频） 使用，并且仅依赖 TCP。 请考虑实现[VPN 拆分隧道解决方案](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9)以帮助减少 VPN 作为质量不佳的一个来源。        |
 | 客户端 (for Business 的 Skype 仅联机) | 具有已知旧版客户端与媒体造成问题。 确保客户端的版本的六个月内修补。 有关开发的客户端准备策略的指南利用[MyAdvisor](https://aka.ms/myadvisor)和部署[即点即单击](https://technet.microsoft.com/library/jj219427.aspx)。      |
@@ -1048,7 +1048,7 @@ _图 27 – 来构建 HTTP 代理使用率和子网_
 
 -   [Office 365 客户端更新通道版本](https://technet.microsoft.com/office/mt465751?f=255&MSPPError=-2147217396)
 
--   [单击要运行的 office 365 版本号和内部版本号](https://support.office.com/article/Version-and-build-numbers-of-update-channel-releases-ae942449-1fca-4484-898b-a933ea23def7)
+-   [单击要运行的 office 365 版本号和内部版本号](https://docs.microsoft.com/en-us/officeupdates/update-history-office365-proplus-by-date)
 
 -   [Skype 业务下载和更新](https://technet.microsoft.com/office/dn788954.aspx)
 
@@ -1154,7 +1154,7 @@ _表 11-网络性能要求_
 
 ### <a name="building-data-file"></a>正在创建数据文件
 
--   [打开和使用 CQD 中 Skype 业务联机](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-in-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)
+-   [打开和使用 CQD 中 Skype 业务联机](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)
 
 <a name="CQD-training"></a>
 
@@ -1164,17 +1164,17 @@ _表 11-网络性能要求_
 
 -   [CQD 入门](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Configuring%20Call%20Quality%20Dashboard%20to%20monitor%20your%20Skype%20for%20Business%20Online%20Environment)指南和研讨会 （英文）。
 
--   [CQD 维度和度量联机指南](https://support.office.com/article/Dimensions-and-measures-available-in-Call-Quality-Dashboard-in-Skype-for-Business-Online-e97aeeee-9e43-416f-b433-9cdd63d8874b)
+-   [CQD 维度和度量联机指南](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard)
 
 ### <a name="call-analytics-training"></a>呼叫分析培训
 
 -   [介绍呼叫分析](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
--   [设置 Skype for Business 通话分析](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-FBF7247A-84AE-46CC-9204-2C45B1C734CD)
+-   [设置 Skype for Business 通话分析](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics)
 
--   [呼叫分析和呼叫质量仪表板](https://support.office.com/article/What-s-the-difference-between-Call-Analytics-and-Call-Quality-Dashboard-4CD5FE35-8463-4996-A252-086CD3CA2D9A)
+-   [呼叫分析和呼叫质量仪表板](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
 
--   [使用通话分析解决 Skype for Business 通话质量不佳的问题](https://support.office.com/article/Use-Call-Analytics-to-troubleshoot-poor-Skype-for-Business-call-quality-66945036-ae87-4c08-a0bb-984e50d6b009)
+-   [使用通话分析解决 Skype for Business 通话质量不佳的问题](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)
 
 ### <a name="call-analytics-support"></a>呼叫分析支持
 
@@ -1190,6 +1190,6 @@ _表 11-网络性能要求_
 
 -   [Office 365 应用内容包](https://blogs.office.com/2017/05/22/announcing-the-public-preview-of-the-office-365-adoption-content-pack-in-powerbi/)
 
--   [Skype for Business Online 报告](https://support.office.com/article/Skype-for-Business-Online-reporting-4935cddf-fafa-442d-91a3-246af01f8373)
+-   [Skype for Business Online 报告](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting)
 
 -   [报告的 Microsoft 团队](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/New-usage-reports-for-Microsoft-Teams/ba-p/132614)
