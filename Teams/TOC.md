@@ -207,6 +207,7 @@
 
 ## 应用和服务
 ### [Teams 中适用于应用的管理设置](admin-settings.md)
+### [团队应用程序权限和注意事项](app-permissions.md)
 ### [在 Teams 中为私人聊天和频道添加聊天机器人](add-bots.md)
 ### [在 Teams 中使用内置选项卡和自定义选项卡](built-in-custom-tabs.md)
 ### [在 Teams 中使用 Office 365 和自定义连接器](office-365-custom-connectors.md)
