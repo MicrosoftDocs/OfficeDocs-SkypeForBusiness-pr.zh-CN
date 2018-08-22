@@ -1,5 +1,5 @@
 ---
-title: 请参阅启用了音频会议的用户列表
+title: 启用了音频会议中 Skype 业务 online 的用户列表，请参阅
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,34 +14,31 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: d7a5c272968def249df22af25fd36d257f8c74a0
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 441fb797fa3e1325fe5c63a2b1d6a86d876ebb5b
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703461"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490622"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>请参阅启用了音频会议的用户列表
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>启用了音频会议中 Skype 业务 online 的用户列表，请参阅
 
-业务或 Microsoft 团队用户音频会议的组织中启用 Skype 后，您可以查看的已启用这些用户的列表。 当您查看列表中，您还将为每个用户的音频会议提供商的他们使用的，对用户的默认电话拨入式电话号码类型列表中看到和您的组织未启用动态的会议 Id、 静态会议 Id为他们所组织的音频会议。
+> [!NOTE]
+> 有关在 Microsoft 团队中启用的用户的信息，请参阅[的启用了音频会议中的 Microsoft 团队的用户列表，请参阅](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams)。
+
+业务用户的音频会议的组织中启用 Skype 后，您可以查看的已启用这些用户的列表。 当您查看列表中，您还将为每个用户的音频会议提供商的他们使用的，对用户的默认电话拨入式电话号码类型列表中看到和您的组织未启用动态的会议 Id、 静态会议 Id为他们所组织的音频会议。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>查看用户列表
 
-![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
-
-- 在左侧导航窗格中，单击**用户**。
-
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
-    
+   
 - 在左侧导航窗格中，转到**音频会议** > **用户**。
 
 ## <a name="what-else-should-i-know"></a>我还需了解哪些信息？

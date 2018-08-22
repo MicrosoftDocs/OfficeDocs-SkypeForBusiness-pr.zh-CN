@@ -1,5 +1,5 @@
 ---
-title: 启用或禁用发送电子邮件时其设置更改
+title: 启用或禁用发送电子邮件，音频会议设置更改 Skype 中的业务联机时
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,22 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: 9656dc25347661626397e4f95daee7bd5f460a6d
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 4d52603fb0d2701cbebd58644cd002dbc94baf89
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703441"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490582"
 ---
-# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>启用或禁用发送电子邮件时更改音频会议设置
+# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>启用或禁用发送电子邮件，音频会议设置更改 Skype 中的业务联机时
 
-他们启用音频会议时，将自动通过电子邮件通知用户。 可能有的时间，但是，当您想要减少的电子邮件发送给 Skype 业务和 Microsoft 团队的用户数。 在这种情况下，您可以禁用发送电子邮件。
+> [!Note]
+> 如果您想要启用或禁用中的 Microsoft 团队发送电子邮件，请参阅[启用或禁用发送电子邮件时要进行音频会议设置中的 Microsoft 团队发生更改](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams)。
+
+他们启用音频会议时，将自动通过电子邮件通知用户。 有时可能，但是，当您想要减少的电子邮件发送到 Skype 业务用户的数量。 在这种情况下，您可以禁用发送电子邮件。
   
 如果您禁用发送电子邮件，就不会音频会议电子邮件发送给用户，当用户处于启用或禁用音频会议以及会议 ID 和默认会议电话号码的更改时重置其 PIN，包括电子邮件.
   
@@ -52,23 +54,13 @@ ms.locfileid: "19703441"
   - 当用户的音频会议提供商从 Microsoft 更改为其他提供程序或**无**。
     
   - 向 Microsoft 更改时用户的音频会议提供商。
-    
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>启用或禁用从发送给用户的电子邮件
 
-您可以使用的 Microsoft 团队、 业务管理中心中，为 Skype 或 Windows PowerShell 启用或禁用电子邮件发送给用户。
+您可以使用业务管理中心的 Skype 或 Windows PowerShell 启用或禁用电子邮件发送给用户。
 
-![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
-1. 在左侧导航窗格中，转到**会议** > **会议桥**。 
-
-2. 在**会议桥**页的顶部，单击**网桥的设置**。 
-
-3. 在**桥设置**窗格中，启用或禁用**自动发送电子邮件发送给用户，如果其电话拨入式设置更改**。
-
-4. 单击" **保存**"。
-  
+ 
 ![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
     
 1. 在**业务管理中心的 Skype**，在左侧导航窗格中，单击**音频会议**。

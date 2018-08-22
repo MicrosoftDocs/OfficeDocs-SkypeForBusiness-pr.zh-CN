@@ -1,5 +1,5 @@
 ---
-title: 设置音频会议的 PIN 长度
+title: 为业务 Online Skype 中设置对音频会议的 PIN 长度
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,41 +14,32 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business.
-ms.openlocfilehash: 16b6a34e5de790964f5472cb2ef598eebf4f838f
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 54ee8e70972a7033a9a759f8df37647ba5a2b700
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703815"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490562"
 ---
-# <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>设置音频会议的 PIN 长度
+# <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>为业务 Online Skype 中设置对音频会议的 PIN 长度
 
-当您要设置音频会议的 Skype 适用于商务或 Microsoft 团队时，您将看到音频会议桥。 会议网桥可以包含一个或多个电话号码。 设置您的电话号码将包含在会议邀请上的 Skype 业务和 Microsoft 团队的应用程序。
+
+> [!NOTE]
+> 有关设置 PIN 长度的 Microsoft 团队中的信息，请参阅[设置音频会议中的 Microsoft 团队的 PIN 长度](/en-us/MicrosoftTeams/Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams)。
+
+当您要设置为 for Business 的 Skype 音频会议时，您将看到音频会议桥。 会议网桥可以包含一个或多个电话号码。 将在会议邀请的业务应用程序的 Skype 包括您设置的电话号码。
   
-音频会议桥的会议使用电话拨入的人员接听电话。 其接听呼叫者使用语音提示从自动助理，然后，具体取决于您的设置，可以播放通知以及提出呼叫者在记录其姓名。 **Microsoft 桥设置**允许您更改会议通知的设置和会议加入体验，并设置由会议组织者 Pin 长度。 会议组织者使用 Pin 如果无法加入会议的业务或 Microsoft 团队应用程序使用 Skype 启动会议。
+音频会议桥的会议使用电话拨入的人员接听电话。 其接听呼叫者使用语音提示从自动助理，然后，具体取决于您的设置，可以播放通知以及提出呼叫者在记录其姓名。 **Microsoft 桥设置**允许您更改会议通知的设置和会议加入体验，并设置由会议组织者 Pin 长度。 会议组织者使用 Pin 如果无法加入会议的企业应用程序使用 Skype 启动会议。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-the-pin-length"></a>设置 PIN 长度
-
-![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
-
-1. 在左侧导航窗格中，转到**会议** > **会议桥**。 
-
-2. 在**会议桥**页的顶部，单击**网桥的设置**。 
-
-3. 在**桥设置**窗格中，在**PIN 长度**，下选择所需的 pin 的位数。
-
-4. 单击“**应用**”。
-
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
  
 1. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 网桥的设置**。
     
@@ -61,7 +52,7 @@ ms.locfileid: "19703815"
 
 - 旋转中心点到 12 个数字; 可以是从 4默认值为 5。 在创建 PIN 时只能使用数字。 不能使用字母和特殊字符。
     
-- PIN 才所需的会议组织者时为业务或 Microsoft 团队用户 Skype 不起作用已经启动会议。 如果每个人都是拨号进入会议，则会议组织者需要 PIN 才能启动会议。
+- PIN 才所需的会议组织者时业务用户 Skype 不起作用已经启动会议。 如果每个人都是拨号进入会议，则会议组织者需要 PIN 才能启动会议。
     
 - PIN 安全设置适用于与 Microsoft 网桥相关联的所有电话号码。它们将应用于使用与给定网桥相关联的电话号码的所有会议。 
     

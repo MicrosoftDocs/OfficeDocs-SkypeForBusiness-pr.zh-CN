@@ -1,5 +1,5 @@
 ---
-title: 设置音频会议自动助理语言
+title: Skype 中的音频会议自动助理语言设置为业务 Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,22 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 请参阅如何选择音频会议号码的音频会议自动助理语言。
-ms.openlocfilehash: 44c05f081115ddf50eefd8df97765b3cbd82ef56
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: 请参阅 how to 业务 online Skype 中选择音频会议号码的音频会议自动助理语言。
+ms.openlocfilehash: 026a09290c6e008493784c0d883220e03d13559f
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703765"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490512"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing"></a>设置音频会议自动助理语言
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Skype 中的音频会议自动助理语言设置为业务 Online
 
-当用户加入会议时，业务和 Microsoft 团队的 Skype 音频会议自动助理可以通过多种不同的语言问候音频呼叫者。
+> [!Note]
+> 有关自动助理语言设置中的 Microsoft 团队的信息，请参阅[设置中的 Microsoft 团队的音频会议自动助理语言](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams)。
+
+当用户加入会议时，for Business 的 Skype 音频会议自动助理可以通过多种不同的语言问候音频呼叫者。
   
 选择一种主要语言和高达四种辅助语言。 将首先使用您之前设置的主要语言和自动助理将使用的辅助语言，以便您选择。 
   
@@ -40,21 +42,6 @@ ms.locfileid: "19703765"
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>设置会议自动助理语言
-
-![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
-
-1. 在左侧导航窗格中，转到**会议** > **会议桥**。
-
-2. 选择音频会议电话号码，从列表中，并在页面顶部，单击**编辑**。
-
-3. 在右侧窗格中，选择所需的默认语言和任何备用语言。 
- 
-    > [!NOTE]
-    > 列出默认和备用语言支持。 在其中选择这些列表中的顺序将向呼叫者显示的语言的顺序。 
-
-4. 单击“**应用**”。
-
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **for Business 联机使用 Skype**
 
 您必须是[Office 365 全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)或[Skype 针对业务管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行此步骤。
     

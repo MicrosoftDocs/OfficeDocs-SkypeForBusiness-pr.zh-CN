@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理员可以控制音频会议和最终用户 PSTN 的呼叫可以由用户所做的类型。
-ms.openlocfilehash: 473baddce6ddac5fa523f02477cd89f6a2c4f4a2
-ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
+ms.openlocfilehash: 6096816ef9fb98811ec3ebed5a56b90a90b58c29
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22193010"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490572"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音频会议和用户 PSTN 通话的出站通话限制策略
 
@@ -50,11 +50,11 @@ ms.locfileid: "22193010"
 
 2. 在页面的顶部，单击**编辑**。
 
-3. 单击**会议网桥**，旁边的菜单，然后单击下拉列表中的**编辑**。
+3. **音频会议**，旁边单击**编辑**。
 
-4. 在**会议桥提供程序**窗格中的**为此用户的会议的电话拨出的限制**下,，选择所需的电话拨出式限制选项。
+4. **电话拨出式会议的权限**下, 选择所需的电话拨出式限制选项。
 
-5. 单击“**应用**”。 
+5. 单击" **保存**"。 
 
 ![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
 

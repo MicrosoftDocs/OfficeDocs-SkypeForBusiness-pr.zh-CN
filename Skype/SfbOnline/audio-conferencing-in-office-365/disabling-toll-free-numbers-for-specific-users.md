@@ -1,5 +1,5 @@
 ---
-title: 禁用特定用户的免费电话号码
+title: 为特定 Skype 业务联机用户禁用免费电话号码
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -13,20 +13,22 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理员可以控制如何组织者可以为他们的会议使用免费电话号码。
-ms.openlocfilehash: 4bee4449dd8e21ded52f40cc04832bd40b15c139
-ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
+ms.openlocfilehash: 1cd144af4f57b3c4ecb19de6c4aeea36f5d2baed
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22193041"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490542"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-users"></a>禁用特定用户的免费电话号码
+# <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>为特定 Skype 业务联机用户禁用免费电话号码
+
+> [!Note]
+> 有关为团队用户禁用工具免费号码的信息，请参阅[特定的团队用户禁用免费电话号码](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users)。
 
 如果您的组织具有其 Microsoft 音频会议网桥中免费电话号码，您可以允许或阻止特定的组织者的会议中其使用情况。  
 
@@ -43,24 +45,8 @@ ms.locfileid: "22193041"
 
  - 参与者可以继续加入会议的组织者使用收费电话号码。 
 
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>禁用特定用户的免费电话号码 
 
-![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
-
-1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
-
-2. 在页面的顶部，单击**编辑**。
-
-3. 单击**会议网桥**，旁边的菜单，然后单击下拉列表中的**编辑**。
-
-4. 在**会议桥提供程序**窗格中，请关闭**允许使用在组织者要加入此用户的会议的会议桥的免费电话号码**。 
-
-5. 单击**应用。** 
-
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
 
 1. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **用户**，然后选择用户可用的用户列表。 
 

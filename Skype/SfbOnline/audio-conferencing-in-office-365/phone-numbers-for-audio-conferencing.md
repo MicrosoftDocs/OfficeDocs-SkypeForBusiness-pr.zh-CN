@@ -1,5 +1,5 @@
 ---
-title: 音频会议的电话号码
+title: Skype 业务 online 中的音频会议的电话号码
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,35 +14,36 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Learn what countries and regions have dial-in conferencing numbers, and how they are automatically assigned.
-ms.openlocfilehash: 3c1440b29a2ceb35775ba3ed8151defb4093f94d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 31dccb2c46ef957b9490a8a1c61f7a20563ecf92
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490493"
 ---
-# <a name="phone-numbers-for-audio-conferencing"></a>音频会议的电话号码
+# <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Skype 业务 online 中的音频会议的电话号码
 
-您设置时**要进行音频会议**的 Skype 业务和 Microsoft 团队，电话拨入电话号码自动分配给您的组织。 您可以看到的电话号码的已分配给音频的会议桥，转到**业务管理中心的 Skype** > **音频会议** > **Microsoft 桥**。 请参阅[音频会议号码的列表，请参阅](see-a-list-of-audio-conferencing-numbers.md)。
+> [!NOTE]
+> 有关在 Microsoft 团队中的电话号码的信息，请参阅[Microsoft 团队中的音频会议的电话号码](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams)。
+
+时要将**音频会议**设置为 for Business 的 Skype，电话拨入电话号码自动分配给您的组织。 您可以看到的电话号码的已分配给音频的会议桥，转到**业务管理中心的 Skype** > **音频会议** > **Microsoft 桥**。 请参阅[音频会议号码的列表，请参阅](see-a-list-of-audio-conferencing-numbers.md)。
   
 > [!NOTE]
 > 没有资源包含音频会议的所有拨入号码的列表。 如果您想要查看是否有拨入电话号码可在您的区域或国家/地区，使用**业务管理中心的 Skype** > **语音** > **电话号码**，单击**添加**，然后单击**新服务号码**。 使用“**国家/地区**”、“**州/地区**”和“**城市**”列表对你的搜索进行筛选。 此外，如果您要查找免费电话服务号码，选择**免费电话**从**国家/地区**列表。
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>音频会议范围和定价
 
-有关所有国家/地区和音频会议提供所在的城市的完整列表，请参阅[国家/地区和音频会议和调用计划区域可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 有关定价信息，请参阅 
-  
-[音频会议的定价](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
+有关所有国家/地区和音频会议提供所在的城市的完整列表，请参阅[国家/地区和音频会议和调用计划区域可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 有关定价信息，请参阅[音频会议的定价](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)。
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>会议邀请中的拨入电话号码
 
-当业务联机或 Microsoft 团队用户 Skype 安排会议在 Outlook 或 Outlook Web App 中时，为用户设置的默认音频会议号码包含会议邀请中。 如果您想要选择一个或多个用户的不同的默认号码，您可以通过转到**业务管理中心的 Skype**更改的 > **音频会议** > **用户**。 请参阅[设置的电话号码包含在邀请](set-the-phone-numbers-included-on-invites.md)。
+当业务联机用户 Skype 安排会议在 Outlook 或 Outlook Web App 中时，为用户设置的默认音频会议号码包含会议邀请中。 如果您想要选择一个或多个用户的不同的默认号码，您可以通过转到**业务管理中心的 Skype**更改的 > **音频会议** > **用户**。 请参阅[设置的电话号码包含在邀请](set-the-phone-numbers-included-on-invites.md)。
   
 可以通过单击会议邀请上的" **查找本地号码**"链接来查看其他拨入号码。
   
@@ -66,7 +67,7 @@ ms.lasthandoff: 05/03/2018
 > [!CAUTION]
 > 由于委内瑞拉、 印度尼西亚和阿拉伯联合酋长国 （阿拉伯联合酋长国） 中的收费电话号码的有限的状态，从这些国家/地区内的组织都不会有自动分配给它们的音频会议收费电话号码。 将根据可用免费电话号码的存量，为这些地区的用户提供免费电话号码。 
   
-服务号码，您可以获取并将分配给您的组织都专用的音频会议电话号码。 可以通过使用**业务管理中心的 Skype**找到服务号码。 有关详细信息，请参阅[入门的业务和 Microsoft 团队的 Skype 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。
+服务号码，您可以获取并将分配给您的组织都专用的音频会议电话号码。 可以通过使用**业务管理中心的 Skype**找到服务号码。 有关详细信息，请参阅[Getting 服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。
   
 若要查看这些国家/地区内已自动分配给组织的电话号码的列表，请参阅[国家和地区音频会议和调用计划的可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   
@@ -78,7 +79,7 @@ ms.lasthandoff: 05/03/2018
     
 - 你可以使用 [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) cmdlet 查看可以对专用拨入电话号码设置的语言。
     
-- 您可以为每个音频会议电话号码-设置最多 4 语言一个主次三个。 您还可以在专用的音频会议电话号码上设置的语言。
+- 您可以为每个音频会议电话号码-设置最多四个语言一个主次三个。 您还可以在专用的音频会议电话号码上设置的语言。
     
 - 若要为用户设置的拨入电话号码，请参阅[设置电话号码包含在邀请](set-the-phone-numbers-included-on-invites.md)。
     

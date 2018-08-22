@@ -1,5 +1,5 @@
 ---
-title: 以电子邮件形式向用户发送拨入信息
+title: 业务 online 对其 Skype 中的音频会议的用户发送电子邮件
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,22 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 将您的用户发送电子邮件使用他们的音频会议信息。
-ms.openlocfilehash: 28d3f83259033b5e587c299464a334710797e149
-ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
+description: 您的用户使用他们的音频会议信息的电子邮件中发送 Skype 业务 online。
+ms.openlocfilehash: 1b692597f574739c8412a9ec0c6866687e169beb
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20324120"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490642"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>对其音频会议信息的用户发送电子邮件
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>对 Skype 中的业务联机其音频会议信息的用户发送电子邮件
 
-有时可能需要 Skype 业务或 Microsoft 团队用户可以向他们发送其音频会议信息。 您可以通过使用**业务管理中心的 Skype**并单击用户属性下的**发送会议信息通过电子邮件**来执行此操作。 当您发送此电子邮件时，它将包含的所有音频会议信息，包括：
+> [!Note]
+> 有关将音频会议信息发送给 Microsoft 团队中的用户的信息，请参阅[发送给 Microsoft Teasms 其音频会议信息用户电子邮件](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams)。
+
+有时 Skype 业务用户可能需要您向他们发送其音频会议信息。 您可以通过使用**业务管理中心的 Skype**并单击用户属性下的**发送会议信息通过电子邮件**来执行此操作。 当您发送此电子邮件时，它将包含的所有音频会议信息，包括：
   
 - 用户的会议电话或拨入电话号码。
     
@@ -44,14 +46,6 @@ ms.locfileid: "20324120"
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>向用户发送电子邮件与音频会议信息
-
-![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
-
-1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
-
-2. 在页面的顶部，单击**编辑**。
-
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
 
 1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 

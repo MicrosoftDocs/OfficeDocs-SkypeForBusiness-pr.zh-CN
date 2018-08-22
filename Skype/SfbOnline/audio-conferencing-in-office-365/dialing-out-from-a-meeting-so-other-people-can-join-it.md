@@ -1,5 +1,5 @@
 ---
-title: 从会议拨出，以便其他人可以加入会议
+title: 从业务会议 Skype 拨出，以便其他人可以对其进行联接
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,24 +14,26 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: 31d81b1a61838d4fcb8151ef467b14a9c1240c4b
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 392b237c36841990caacbaafd7c6d3dd8ebc7d77
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703381"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490462"
 ---
-# <a name="dialing-out-from-a-meeting-so-other-people-can-join-it"></a>从会议拨出，以便其他人可以加入会议
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>从业务会议 Skype 拨出，以便其他人可以对其进行联接
 
-作为会议组织者，您可以拨出使用业务或 Microsoft 团队应用程序的 Skype 让其他人加入同一会议使用他们的电话。 尽管这不是必需的，但是当你拨出给某人时，建议你拨打完整的号码，包括国家/地区代码。 要让拨出功能正常工作，必须满足以下条件：
+> [!NOTE]
+> 如果您正在寻找有关从团队会议拨出的信息，请参阅[拨出团队会议，使其他人可以加入它](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)。
+
+作为会议组织者，您可以拨出的企业应用程序 Skype 用于让其他人加入同一会议使用他们的电话。 尽管这不是必需的，但是当你拨出给某人时，建议你拨打完整的号码，包括国家/地区代码。 要让拨出功能正常工作，必须满足以下条件：
   
-- 您可以拨出，仅当您加入会议使用 Skype 业务或 Microsoft 团队的应用程序。
+- 您可以拨出，仅当您加入会议的企业应用程序使用 Skype。
     
 - 您作为会议组织者已启用音频会议。
 
@@ -54,7 +56,7 @@ ms.locfileid: "19703381"
 
 [试用或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
-- [Skype for Business 和 Microsoft Teams 外接程序许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- [Skype for Business 附加许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
 ## <a name="related-topics"></a>相关主题
 

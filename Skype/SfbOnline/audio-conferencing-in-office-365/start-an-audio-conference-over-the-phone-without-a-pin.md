@@ -1,5 +1,5 @@
 ---
-title: 通过电话的 PIN 不开始音频会议
+title: 业务 online 不在 Skype PIN 电话开始音频会议
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,45 +14,33 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
-ms.openlocfilehash: 8abdd9bcd61c55c7d55d896feef36afed22b312f
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: f0e65b3ea4ad5c989137307a1c41bc70bc092086
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703471"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490552"
 ---
-# <a name="start-an-audio-conference-over-the-phone-without-a-pin"></a>通过电话的 PIN 不开始音频会议
+# <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>业务 online 不在 Skype PIN 电话开始音频会议
 
-可能会干扰拨入会议以将其保留在收听音乐，因为业务或 Microsoft 团队会议组织者的 Skype 尚未启动会议的会议的会议厅中的用户。 
+> [!Note]
+> 有关启动没有 PIN 的音频会议中的 Microsoft 团队的信息，请参阅[开始音频会议中的 Microsoft 团队 PIN 不电话](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams)。
+
+可能会干扰拨入会议以将其保留在收听音乐，因为业务会议组织者的 Skype 尚未启动会议的会议的会议厅中的用户。 
   
 如果会议组织者在调用会议，默认情况下，启动会议需要 PIN。 您可以将它设置以便任何人都可以拨号加入会议并不会提示输入 PIN 才能启动会议。 你可以使用 Skype for Business 管理中心为单个用户启用或禁用此设置。
   
-PIN 不需要会议组织者，如果某人已从业务或 Microsoft 团队应用程序的 Skype 开始会议。 只有当会议组织者通过电话加入会议时，才需要 PIN。 已分配的**音频会议**许可证并启用了音频会议时，将向音频用户发送会议的 PIN。 请参阅[发送对其进行音频会议信息的用户电子邮件](send-an-email-to-a-user-with-their-dial-in-information.md)和[自动发送给其音频会议设置更改时的用户的电子邮件](emails-sent-to-users-when-their-settings-change.md)。
+PIN 不需要会议组织者，如果某人已从业务应用程序 Skype 开始会议。 只有当会议组织者通过电话加入会议时，才需要 PIN。 已分配的**音频会议**许可证并启用了音频会议时，将向音频用户发送会议的 PIN。 请参阅[发送对其进行音频会议信息的用户电子邮件](send-an-email-to-a-user-with-their-dial-in-information.md)和[自动发送给其音频会议设置更改时的用户的电子邮件](emails-sent-to-users-when-their-settings-change.md)。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>启用或禁用匿名呼叫者加入会议
-
-![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
-
-1. 在左侧导航窗格中，单击**用户**。 
-
-2. 在列表中，选择一个用户，然后单击页面顶部的**编辑**。 
-
-3. 单击**会议网桥**，旁边的菜单，然后单击**编辑**。
-
-4. 在**会议桥提供程序**窗格中，启用或禁用**允许未经身份验证的呼叫者在会议中的第一个人。如果不需要，然后他们将在会议厅中等待直至经过身份验证的用户加入**。
-    
-4. 单击“**应用**”。 
-
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
     
 1. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **用户**。 
     

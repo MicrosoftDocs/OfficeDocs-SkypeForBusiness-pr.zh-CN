@@ -1,5 +1,5 @@
 ---
-title: 打开或关闭会议的进入和退出通知
+title: 打开或关闭条目和退出通知中 Skype 业务 online 的会议
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,45 +14,31 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. '
-ms.openlocfilehash: 9cd2c95d0dde2e61ca1f0378fe91a215bdfc2682
-ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
+ms.openlocfilehash: d6d1b70713ac0cd7a38f7de9cb84f0acb54cbe30
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20302148"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490482"
 ---
-# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>打开或关闭会议的进入和退出通知
+# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>打开或关闭条目和退出通知中 Skype 业务 online 的会议
 
-当您要设置 Office 365 中的音频会议时，您将看到音频会议桥。 会议桥可以包含一个或多个人员将用于连接到企业或 Microsoft 团队会议 Skype 的电话号码。 
+> [!Note]
+> 进入和退出通知的 Microsoft 团队的有关信息，请参阅[打开或关闭参加和退出通知中的 Microsoft 团队会议](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams)。
+
+当您要设置 Office 365 中的音频会议时，您将看到音频会议桥。 会议桥可以包含一个或多个人员将用于连接到业务会议 Skype 的电话号码。 
   
-会议网桥负责应答使用电话拨入会议的用户的呼叫。 会议桥应答来自会议自动助理的呼叫者使用语音提示并随后，具体取决于您的设置，可以播放通知，向呼叫者提出记录其姓名，并设置 PIN 安全。 PIN 赋予业务或 Microsoft 团队会议组织者，Skype 并允许其开始会议，如果它们无法启动会议使用 Skype 业务或 Microsoft 团队的应用程序。 但是，可以将它以便启动会议不需要 PIN。
+会议网桥负责应答使用电话拨入会议的用户的呼叫。 会议桥应答来自会议自动助理的呼叫者使用语音提示并随后，具体取决于您的设置，可以播放通知，向呼叫者提出记录其姓名，并设置 PIN 安全。 PIN 赋予业务会议组织者，Skype 并允许它们如果它们无法启动会议的企业应用程序使用 Skype 开始会议。 但是，可以将它以便启动会议不需要 PIN。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-meeting-join-options"></a>设置会议加入选项
-
-![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
-
-1. 在左侧导航窗格中，转到**会议** > **会议桥**。 
-
-2. 在**会议桥**页的顶部，单击**网桥的设置**。 
-
-3. 在**桥设置**窗格中，启用或禁用**启用会议进入和退出通知，以打开**。 默认情况下，此选项处于选中状态。 如果清除它，某人进入或离开会议时，已加入会议的用户不会将收到通知。
-    
-4. 在**条目/退出通知类型**，选择**姓名或电话号码**或**提示音**。
-    
-5. 启用或禁用**Ask 呼叫者在记录其姓名之前加入会议**。
-    
-6. 进行更改后，单击**应用**。
-
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
     
 1. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 网桥的设置**。
     

@@ -1,5 +1,5 @@
 ---
-title: 更改现有音频会议桥的设置
+title: 更改音频会议网桥的设置
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '获取所需更改用于提示呼叫者和它们不使用 Skype 业务或 Microsoft 团队的应用程序时收集名称和 pin 的会议组织者的会议桥的设置的步骤。 '
-ms.openlocfilehash: d01ef5f96483ae26ccfaf429e87221b1a5c61d11
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: c649859d718ece3a8316ea8baa76be3be751561b
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703675"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490653"
 ---
-# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改现有音频会议桥的设置
+# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议网桥的设置
 
 要设置 Office 365 中的音频会议，您会收到的电话号码为用户从所谓音频会议桥。 会议网桥可以包含一个或多个电话号码。 呼叫者拨入会议时，将使用这些电话号码。 包含业务或 Microsoft 团队的会议邀请的 Skype 底部的电话号码。
   
@@ -61,7 +61,7 @@ ms.locfileid: "19703675"
 5. 若要指定是否向用户发送电子邮件，启用或禁用**自动发送电子邮件发送给用户，如果其音频会议配置更改**。
     有关详细信息，请参阅[向用户及其音频会议设置更改时自动发送电子邮件](emails-sent-to-users-when-their-settings-change.md)。
  
-6. 单击“**应用**”。 
+6. 单击" **保存**"。 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

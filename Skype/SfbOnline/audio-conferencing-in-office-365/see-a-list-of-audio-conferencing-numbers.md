@@ -1,5 +1,5 @@
 ---
-title: 音频会议号码的列表，请参阅
+title: Skype 中的音频会议号码的列表，请参阅业务 online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,29 +14,31 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Learn how to look up your dial-in conferencing numbers from within Skype for Business. '
-ms.openlocfilehash: 70602e252d7c31bff7d6181c0cd5a51353da2def
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: '了解如何为业务 Online 查找您拨入式会议号码从 Skype 内。 '
+ms.openlocfilehash: 84d6f4d1d1d1358a62ec8d0eb2334c92c416adea
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703655"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490592"
 ---
-# <a name="see-a-list-of-audio-conferencing-numbers"></a>音频会议号码的列表，请参阅
+# <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Skype 中的音频会议号码的列表，请参阅业务 online
 
-当您设置音频会议的 Skype 的业务和 Microsoft 团队的用户时，您可以查看为音频会议提供给他们的电话号码。 此列表都会将所有可供您的组织的音频会议电话号码。
+> [!NOTE]
+> 有关在 Microsoft 团队中的音频会议号码的信息，请参阅[Microsoft 团队中的音频会议号码的列表，请参阅](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams)。
+
+设置时音频会议的 Skype 的企业用户，您可以查看为音频会议提供给他们的电话号码。 此列表都会将所有可供您的组织的音频会议电话号码。
   
  **正在搜索价格？** 请参阅[定价音频会议](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)。
   
 > [!IMPORTANT]
-> **没有音频会议中包含的所有电话拨入式号码列表的资源。** 如果您要查找要查看如果电话拨入电话号码中提供了您的区域或国家/地区，请转到**业务管理中心的 Skype** > **语音** > **电话号码**，单击**添加**，然后单击**新服务号码**。 使用“**国家/地区**”、“**州/地区**”和“**城市**”列表对你的搜索进行筛选。 此外，如果您要查找免费电话服务号码，选择**免费电话**从**国家/地区**列表。
+> **没有资源包含音频会议的所有拨入号码的列表。** 如果您要查找要查看如果电话拨入电话号码中提供了您的区域或国家/地区，请转到**业务管理中心的 Skype** > **语音** > **电话号码**，单击**添加**，然后单击**新服务号码**。 使用“**国家/地区**”、“**州/地区**”和“**城市**”列表对你的搜索进行筛选。 此外，如果您要查找免费电话服务号码，选择**免费电话**从**国家/地区**列表。
   
-如果仅有一个电话号码在你的组织中可用，则会将其作为你的所有用户的默认号码。 当多个电话号码可用时，你可以为每个用户选择默认电话号码。 此默认号码将 Skype 中包括的业务和 Microsoft 团队的会议邀请。
+如果仅有一个电话号码在你的组织中可用，则会将其作为你的所有用户的默认号码。 当多个电话号码可用时，你可以为每个用户选择默认电话号码。 此默认号码将 Skype 中包括的业务会议邀请。
   
 您可以看到[设置的电话号码包含在邀请](set-the-phone-numbers-included-on-invites.md)以更改为单个用户的电话拨入式电话号码。
   
@@ -47,15 +49,6 @@ ms.locfileid: "19703655"
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>若要查看您的音频会议电话号码
-
-![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
-
-1. 在左侧导航窗格中，转到**会议** > **会议桥**。 
-2.  查看可用于音频会议的电话号码。
-
-- 您还可以查看的位置和音频会议自动助理将使用的主要语言。
-
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
 
 1. 使用你的工作或学校帐户登录 Office 365。
     

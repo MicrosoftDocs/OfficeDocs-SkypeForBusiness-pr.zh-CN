@@ -1,5 +1,5 @@
 ---
-title: 使用户能够在加入会议时录制其姓名
+title: 使用户能够记录其姓名，当用户加入会议 Skype 中的业务联机时
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,42 +14,28 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Learn how to enable or disable whether your users can record their names when they join a meeting '
-ms.openlocfilehash: 940d4eefb6a997b03bb25fc558faf15ce9edb507
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: 了解如何启用或禁用是否他们业务 online Skype 中加入会议时，用户可以记录其名称。
+ms.openlocfilehash: b920f0cfea6aa607f5bc3ea7c8a53b5668ba02da
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703491"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490722"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting"></a>使用户能够在加入会议时录制其姓名
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>使用户能够记录其姓名，当用户加入会议 Skype 中的业务联机时
+
+> [!Note]
+> 如果您想要允许用户在工作组中记录其名称，请参阅[使用户能够记录其姓名，当用户加入会议的 Microsoft 团队时](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams)。
 
 当您要设置 Office 365 中的音频会议时，您将收到电话号码和所谓音频会议桥。 会议网桥可以包含一个或多个电话号码，这些号码可以是专用或共享电话号码。
   
 会议网桥负责应答使用电话拨入会议的用户的呼叫。 会议桥的自动助理，从接听呼叫者使用语音提示，然后，具体取决于其设置，可以播放通知，向呼叫者提出记录其姓名，并对会议组织者 PIN 安全设置。 旋转中心点分发给会议组织者，以允许其开始会议。 然而，你也可以将其设置为无需 PIN 即可启动会议。
 
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-  
 ## <a name="set-whether-callers-should-record-their-name"></a>设置呼叫者是否应录制其姓名
-
-![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
-
-1. 在左侧导航窗格中，转到**会议** > **会议桥**。 
-
-2. 在**会议桥**页的顶部，单击**网桥的设置**。 
-
-3. 启用或禁用**启用会议进入和退出通知，以打开**。
-
-4. 单击“**应用**”。
-
-
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
     
 1. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 网桥的设置**。
     

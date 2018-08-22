@@ -1,5 +1,5 @@
 ---
-title: 其设置更改时向用户发送的电子邮件
+title: 业务 online 中 Skype 更改其设置时，向用户发送的电子邮件
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,20 +14,22 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. '
-ms.openlocfilehash: 4766f8f236cbe94b11660165b8659a892d301285
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: '了解有关哪些信息将自动发送给用户通过电子邮件时业务 online 中 Skype 更改其电话拨入式会议设置。 '
+ms.openlocfilehash: cfa3e86be0d282e335b20a094e60835df3471358
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703431"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490502"
 ---
-# <a name="emails-sent-to-users-when-their-settings-change"></a>其设置更改时向用户发送的电子邮件
+# <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>业务 online 中 Skype 更改其设置时，向用户发送的电子邮件
+
+> [!Note]
+> 如果您正在寻找自动电子邮件中的 Microsoft 团队的信息，请参阅[电子邮件发送给用户的 Microsoft 团队中更改其设置时](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams)。
 
 电子邮件将自动发送到[启用了音频会议](set-up-audio-conferencing.md)用户使用 Microsoft 作为音频会议提供商。
   
@@ -35,7 +37,7 @@ ms.locfileid: "19703431"
   
 - **音频会议许可证分配给它们或您要更改为 Microsoft 的音频会议提供商。**
     
-     此电子邮件包括会议 ID，会议，音频会议的用户和链接说明要用于业务在线会议更新工具，用来更新现有会议的 Skype 的 PIN 的默认会议电话号码用户。 请参阅[业务和 Microsoft 团队许可证分配 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)或[分配 Microsoft 作为音频会议提供商](assign-microsoft-as-the-audio-conferencing-provider.md)。
+     此电子邮件包括会议 ID，会议，音频会议的用户和链接说明要用于业务在线会议更新工具，用来更新现有会议的 Skype 的 PIN 的默认会议电话号码用户。 请参阅[业务许可证分配 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)或[分配 Microsoft 作为音频会议提供商](assign-microsoft-as-the-audio-conferencing-provider.md)。
     
     > [!NOTE]
     > [!注释] 如果你的组织已启用动态会议 ID，用户安排的所有会议将具有唯一的会议 ID。 您可以设置[您的组织中的音频会议动态 Id](using-audio-conferencing-dynamic-ids-in-your-organization.md)。 
@@ -44,7 +46,7 @@ ms.locfileid: "19703431"
     
      ![Skype for Business 验证许可证](../images/audio-conferencing-user-enabled.png)
   
-    您可以通过查看[加载项业务和 Microsoft 团队授权的 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)许可业务找出有关 Skype 更多信息。
+    你可以通过参阅 [Skype for Business 附加许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)了解有关 Skype for Business 许可的更多信息。
     
 - **会议 ID 或用户默认会议电话号码更改。**
     
@@ -106,18 +108,8 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 当禁用电子邮件发送给用户时，即使用户拥有分配的许可证，也不会向其发送电子邮件。 在此情况下，会议 ID，默认会议电话号码，以及更重要的是，将不会向用户发送其音频会议 PIN。 发生这种情况时，你必须通过向用户发送单独的电子邮件或呼叫他们进行通知。
   
-默认情况下将电子邮件发送给用户，但如果您想要阻止其接收电子邮件音频会议，您可以使用 Microsoft 工作组和 Skype 业务管理中心中或 Windows PowerShell。 
-
-![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
-
-1. 在左侧导航窗格中，转到**会议** > **会议桥**。 
-
-2. 在**会议桥**页的顶部，单击**网桥的设置**。 
-
-3. 在**桥设置**窗格中，启用或禁用**自动发送电子邮件发送给用户，如果其电话拨入式设置更改**。
-
-4. 单击" **保存**"。
-  
+默认情况下将电子邮件发送给用户，但如果您想要阻止发送电子邮件的音频会议，您可以使用 Skype 业务管理中心或 Windows PowerShell。 
+ 
 ![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png)  **使用业务管理中心的 Skype**
     
 1. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 网桥的设置**。

@@ -1,5 +1,5 @@
 ---
-title: 重置用户的会议 ID
+title: 对业务 Online 重置 Skype 中的用户的会议 ID
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,44 +14,30 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
-ms.openlocfilehash: 3a02ae779b55aa9ca4f340d5a88d6e5fb9c5f750
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: '了解重置用户的步骤的业务 online，会议中 Skype 的会议 ID 和获取链接到会议更新和迁移工具。 '
+ms.openlocfilehash: ac37d682d45b22eff61392ee05d7c369d67c3b67
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703411"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490532"
 ---
-# <a name="reset-a-conference-id-for-a-user"></a>重置用户的会议 ID
+# <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>对业务 Online 重置 Skype 中的用户的会议 ID
+
+> [!NOTE]
+> 有关重置 Microsoft 团队中的会议 ID 的信息，请参阅[重置 Microsoft 团队中的用户的会议 ID](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams)。
 
 底部的会议邀请以及的拨入电话号码的呼叫者可用于向会议呼叫中包含动态的会议 ID。 当用户拨打的电话号码时，会议自动助理会要求呼叫者输入此会议 ID，以便他们可以参加会议。
   
 > [!NOTE]
-> 如果您的会议提供商是 Microsoft，默认情况下用户的会议 Id 设置为仅动态中。 遗憾的是，它不能更改业务管理中心或使用 Windows Powershell 成为静态的因为这是现在 Skype 中不受支持。
-仅为业务和 Microsoft 团队为启用的用户进行音频会议的 Skype 仅自动设置会议 Id。 
-
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> 如果您的会议提供商是 Microsoft，默认情况下用户的会议 Id 设置为仅动态中。 遗憾的是，它不能更改业务管理中心或使用 Windows Powershell 成为静态的因为这是现在 Skype 中不受支持。 仅为启用音频会议的企业用户的 Skype 自动设置会议 Id。 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>重置用户的会议 ID
-
-![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
-
-1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
-
-2. 在页面的顶部，单击**编辑**。
-
-3. 单击**会议网桥**，旁边的菜单，然后单击下拉列表中的**重置的会议 id** 。
-
-2. 在**重置的会议 id**窗口中，单击**确定**。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 默认情况下电子邮件发送给用户，但这可以关闭。   
-
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
-    
+   
 1. 中的**Skype 业务管理中心的**中，单击**音频会议** > **用户**，选择一个用户，，，然后单击下**的会议 ID**操作窗格中的**重置**。
     
 2. 在**重置的会议 ID？** 窗口中，单击**是**。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 默认情况下电子邮件发送给用户，但这可以关闭。

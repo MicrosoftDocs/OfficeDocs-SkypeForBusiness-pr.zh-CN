@@ -14,17 +14,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
 description: 了解获取正确的固件、 如果需要对其进行更新、 分配许可证和配置的业务联机电话设置 Skype 的部署步骤
-ms.openlocfilehash: 444d74dc5c831dcdb542b4712da64369481c874a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9a19367066fac2b74b51659fb6159ba33b68450e
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490797"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>部署 Skype for Business Online 电话
 
@@ -220,7 +220,7 @@ BToE 是电话 paining 对用户的电话与为业务应用程序及其 Windows 
 ## <a name="related-topics"></a>相关主题
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-[下面是 Office 365 中的电话系统的功能](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
+[Office 365 中的电话系统的功能](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 
 [音频会议和通话套餐的国家/地区可用性](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
