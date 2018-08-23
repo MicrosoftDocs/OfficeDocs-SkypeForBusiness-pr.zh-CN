@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: 本文介绍 Mac 客户端上对 Skype for Business 可用的客户端首选项和默认值，以及如何在应用外部对其进行编辑。
-ms.openlocfilehash: 37ea82cc87e58303ab412c7adbd427dd11c74f89
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ae7f3a5c63a77820aba24e93d820ae2eff9176ad
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21014638"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22912841"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>在 Skype for Business 中自定义 Mac 客户端体验
  
@@ -31,20 +31,20 @@ ms.locfileid: "21014638"
 **客户端首选项关键字**
 
 
-|**关键字**|**类型**|**值**|**说明**|
+| 关键字 | 类型 | 值 | 说明 |
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDicoveryURLs  <br/> |Bool  <br/> |0 = 手动配置服务器  <br/> 1 = 自动检测服务器（默认）  <br/> |指定 for Business 的 Skype 识别传输类型和服务器登录过程中使用的方式。 如果启用此策略设置，则必须指定 **internalAutoDiscoveryURL** 和 **externalAutoDiscoveryURL**。 <br/> |
-|internalAutoDiscoveryURL  <br/> |字符串  <br/> |完全自动发现 URL  <br/> |内部自动发现 URL  <br/> |
-|externalAutoDiscoveryURL  <br/> |字符串  <br/> |完全自动发现 URL  <br/> |外部自动发现 URL  <br/> |
-|httpProxyDomain  <br/> |字符串  <br/> ||HTTP 代理域  <br/> |
-|httpProxyUserName  <br/> |字符串  <br/> ||HTTP 代理用户名  <br/> |
-|httpProxyPassword  <br/> |字符串  <br/> ||HTTP 代理密码  <br/> |
-|trustedDomainList  <br/> |数组  <br/> ||HTTP 重定向的受信任域列表。  <br/> |
-|autoAcceptTimeout  <br/> |数字  <br/> |300（默认值）  <br/> |无服务器端对话历史记录时，用户的自动接受超时时间。  <br/> |
-|warnWhenUnknownLocationForE911  <br/> |Bool  <br/> |0 = 已禁用  <br/> 1 = 已启用  <br/> |从未知位置拨打紧急号码时警告用户。  <br/> |
-|sipAddress  <br/> |字符串  <br/> ||SIP 地址 （电子邮件） 用于登录到 for Business 的 Skype。  <br/> |
-|用户名  <br/> |字符串  <br/> ||用来登录到 for Business 的 Skype UPN （用户名）。  <br/> |
-|userNameInAdvancedOnly  <br/> |Bool  <br/> |0 = 主要的登录屏幕上和高级属性对话框中显示用户名称字段  <br/> 1 = 只在高级属性对话框 （默认值） 显示用户名称字段  <br/> |指定用户名字段登录过程中的显示位置。  <br/> |
+|AutoDetectAutoDiscoveryURLs    |Bool    |0 = 手动配置服务器  <br/> 1 = 自动检测服务器（默认）    |指定 for Business 的 Skype 识别传输类型和服务器登录过程中使用的方式。 如果启用此策略设置，则必须指定 **internalAutoDiscoveryURL** 和 **externalAutoDiscoveryURL**。   |
+|internalAutoDiscoveryURL    |字符串    |完全自动发现 URL    |内部自动发现 URL    |
+|externalAutoDiscoveryURL    |字符串    |完全自动发现 URL    |外部自动发现 URL    |
+|httpProxyDomain    |字符串    ||HTTP 代理域    |
+|httpProxyUserName    |字符串    ||HTTP 代理用户名    |
+|httpProxyPassword    |字符串    ||HTTP 代理密码    |
+|trustedDomainList    |数组    ||HTTP 重定向的受信任域列表。    |
+|autoAcceptTimeout    |数字    |300（默认值）    |无服务器端对话历史记录时，用户的自动接受超时时间。    |
+|warnWhenUnknownLocationForE911    |Bool    |0 = 已禁用  <br/> 1 = 已启用    |从未知位置拨打紧急号码时警告用户。    |
+|sipAddress    |字符串    ||SIP 地址 （电子邮件） 用于登录到 for Business 的 Skype。    |
+|用户名    |字符串    ||用来登录到 for Business 的 Skype UPN （用户名）。    |
+|userNameInAdvancedOnly    |Bool    |0 = 主要的登录屏幕上和高级属性对话框中显示用户名称字段  <br/> 1 = 只在高级属性对话框 （默认值） 显示用户名称字段    |指定用户名字段登录过程中的显示位置。    |
    
 ### <a name="usage-examples"></a>使用示例
 
@@ -55,7 +55,6 @@ ms.locfileid: "21014638"
 要将多个域添加到受信任域列表，按如下所示使用 trustedDomainList 关键字：
   
 默认值写入 com.microsoft.SkypeForBusiness trustedDomainList-数组-添加"sfb.com""abc.com""test.org"
-  
   
 ### <a name="sample-unedited-settings"></a>未编辑的设置示例
 
@@ -109,7 +108,4 @@ ms.locfileid: "21014638"
     firstRun = 0;
     showEndCallDialog = 1;
 }
-
 ```
-
-

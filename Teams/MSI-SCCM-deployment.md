@@ -1,7 +1,7 @@
 ---
 title: 安装 Microsoft 团队使用 MSI （与 SCCM)
-author: ninadara
-ms.author: ninadara
+author: Lester-Hewett
+ms.author: lehewe
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -11,12 +11,12 @@ description: 管理员可以使用团队 MSI （与 SCCM) 批量 dpeloy 选择�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad50a2f7dbece3eb72f4709fa1873828519f4c77
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f0371a4f64c363723360b749a9e7b160b673eda0
+ms.sourcegitcommit: a9556a51f7f970fc05ab0acc9998401db3c1aa57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997797"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "22913408"
 ---
 <a name="install-microsoft-teams-using-msi-with-sccm"></a>安装 Microsoft 团队使用 MSI （与 SCCM)
 ===========================================

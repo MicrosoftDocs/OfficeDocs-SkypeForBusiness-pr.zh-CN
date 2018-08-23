@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 摘要： 将 Skype 集成的企业服务器和 Outlook Web App。
-ms.openlocfilehash: 206100ce74731b9ffa6b2987e4884b7589f6e2c8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5ad1f6bc898a29c2a5e0f326d3a5edc4d782bab2
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995846"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22914094"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>配置业务服务器的内部部署 Skype 和 Outlook Web App 之间的集成
  
@@ -53,7 +53,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 ```
 
 > [!NOTE]
-> 如果您在中国使用 21Vianet 运营的 Office 365，请将此示例中 **ProxyFqdn** 参数的值（“exap.um.outlook.com”）替换为 21Vianet 运营的服务的 FQDN：“exap.um.partner.outlook.cn”。
+> 如果您在中国使用 21Vianet 运营的 Office 365，请将此示例中 ProxyFqdn 参数的值（“exap.um.outlook.com”）替换为 21Vianet 运营的服务的 FQDN：“exap.um.partner.outlook.cn”。 如果您使用 Office 365 GCC 高，值替换 ProxyFqdn 参数在本示例中 ("exap.um.outlook.com") 的 FQDN 为 GCC 高:"exap.um.office365.us"。
   
 - **标识**要创建 （例如，"Exchange Online"） 的宿主提供商指定唯一的字符串值标识符。 包含空格的值必须用双引号括起来。
     

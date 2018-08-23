@@ -40,6 +40,7 @@
 ### [转换为新的 Microsoft 团队和业务管理中心的 Skype 的过程管理团队](manage-teams-skypeforbusiness-admin-center.md)
 ### [在 Teams 中分配角色和权限](assign-roles-permissions.md)
 ### [将应用程序发布到团队租户的应用程序目录](tenant-apps-catalog-teams.md)
+### [Skype 会议应用程序使用团队配置](configure-skype-meetings-app-to-work-with-teams.md)
 ## [现代身份验证](sign-in-teams.md)
 ## [与其他组织中的团队用户通信](let-your-teams-users-communicate-with-other-people.md)
 ## [云语音部署指南](cloud-voice-deployment.md)

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 阅读本主题可了解如何 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。
-ms.openlocfilehash: b6740951e65a2c917c95cce884f3c2a42ea004e7
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: 7abf23aeb74807597b337c66e769b0625d862d0f
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599459"
+ms.locfileid: "22914117"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -110,8 +110,8 @@ SBC 域名必须介于 1"域"的租户中注册的名称。 不能使用 *。 on
 contoso.com|是|**有效的名称：**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|否|<br/>使用 *。 onmicrosoft.com 域不支持的 SBC 名称
 
-如果您想要使用新的域名。 例如，您的租户具有 contoso.com 作为您的租户中注册的域名。 要使用 sbc1.sip.contoso.com。 您可以对使用名称 sbc1.sip.contoso.com SBC 之前需要在您的租户中注册域名称 sip.contoso.com"域"中。 如果您尝试配对 SBC sbc1.sip.contoso.com 您将收到错误"无法使用"sbc1.sip.contoso.com"域所不配置此租户。"
-添加域名后您还需要创建 UPN user@sip.contoso.com 具有的用户和分配"团队"许可证。 可能需要 24 小时后将其添加到"域"的租户、 用户创建的新名称和分配给用户的许可证完全设置的域名。 
+假定您想要使用新的域名。 例如，您的租户具有 contoso.com，在您的租户中注册的域名和您想要使用 sbc1.sip.contoso.com。 可以对使用名称 sbc1.sip.contoso.com SBC 之前，您必须在您的租户中注册域名称 sip.contoso.com"域"中。 如果您尝试在注册的域名之前配对 sbc1.sip.contoso.com 与 SBC，则会收到以下错误:"无法使用"sbc1.sip.contoso.com"域所不配置此租户。"
+添加的域名后，您还需要创建 UPN user@sip.contoso.com 具有的用户和分配"团队"许可证。 可能需要 24 小时内完全之后进行的域名添加到您的租户，"域"创建新的名用户，和许可证分配给用户的设置。 
 
 则可能公司有一个租户中的多个 SIP 地址空间。 例如，公司可能必须作为 SIP 地址空间的 contoso.com 和 fabrikam.com 为第二个 SIP 地址空间。 某些用户具有地址 user@contoso.com 和某些用户具有地址 user@fabrikam.com。 
 

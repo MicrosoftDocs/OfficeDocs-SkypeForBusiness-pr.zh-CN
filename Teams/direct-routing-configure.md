@@ -1,7 +1,7 @@
 ---
 title: 配置直接路由
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 了解如何配置 Microsoft 电话系统直接路由。
-ms.openlocfilehash: bad3709635ccca83a4093e5115e46352f5dcaaff
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: 44181b47f4edaca019bb51fd0819dd6c17360fae
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599427"
+ms.locfileid: "22914749"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -519,9 +519,9 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 应用于 John Woods 呼叫的语音策略是不受限制，并将按照适用于美国、 加拿大和国际呼叫的呼叫路由逻辑，结果。
 
 
-## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-the-users"></a>作为首选的呼叫客户端为用户的 Microsoft 团队
+## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>为用户设置为首选调用客户端的 Microsoft 团队
 
-直接路由仅将呼叫路由到用户与如果他们使用团队 Cleint。 如果您的组织仅使用团队客户端，"仅工作组"设置模式中升级策略建议。 如果您的组织使用业务 online 业务服务器或 Skype Skype，请查看以下文档[的业务和团队的 Skype 了解共存和升级旅程](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)，并选择适当的选项。 
+直接路由仅将呼叫路由到用户与如果他们使用团队客户端。 如果您的组织仅使用团队，"仅工作组"设置模式中升级策略建议。 如果您的组织使用业务 online 业务服务器或 Skype Skype，请参阅以下文章，获取详细信息，然后选择适当的选项：[了解共存和升级的业务和团队的 Skype 旅程](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)。 
 
 
 ## <a name="see-also"></a>另请参阅
