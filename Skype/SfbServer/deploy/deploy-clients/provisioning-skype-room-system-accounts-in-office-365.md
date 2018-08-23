@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: 阅读本主题，了解如何在 Office 365 中设置 Skype 会议室系统帐户。
-ms.openlocfilehash: b248168870366db8f685db48197badb3bacf935f
-ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
+ms.openlocfilehash: 8120fb2fe8db35eb3907128d65f5b55bb5f544ec
+ms.sourcegitcommit: a9556a51f7f970fc05ab0acc9998401db3c1aa57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "22102051"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "22601974"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>在 Office 365 中设置 Skype 会议室系统帐户
  
@@ -26,7 +26,7 @@ ms.locfileid: "22102051"
 
 你的联机租户必须满足以下要求：
   
-- Office 365 计划中必须包含 Skype 业务 Online 计划 2、 计划 3 或 Office 365 E1、 E3 或 E5。
+- Office 365 计划必须包括 Skype 业务 Online 计划 2，或 Office 365 E1、 E3 或 E5。 <br/>Skype 的业务 Online 计划的详细信息，请参阅[Skype for Business Online 服务说明](https://technet.microsoft.com/library/jj822172.aspx)。
     
 - Skype for Business 启用会议功能，必须拥有您的租户。
     
@@ -44,9 +44,9 @@ ms.locfileid: "22102051"
   
 - 启用 Skype 会议需要 Skype 业务 Online 计划 2 或 Office 365 E1 或 E3 许可证。
     
-- 以允许与企业语音功能的聊天室，以便可以与一个电话号码启用会议室，业务 Online 计划 2 的云 PBX 加载项或 Office 365 E5 Skype 是需要 (1)。
+- 以允许与企业语音功能的聊天室，以便可以与一个电话号码启用会议室，业务 Online 计划 2 的电话系统许可证或 Office 365 E5 Skype 是需要 (1)。
     
-- 给定会议中 PSTN 会议授权可用性由会议组织者的许可证决定。
+- 如果您需要电话拨入式会议的功能，您将需要的音频会议和电话系统许可证。  如果您需要从会议拨出功能，您将需要国内或国内和国际呼叫规划。 
     
 - Skype 会议室帐户不需要 Exchange Online 许可证，因为应将该帐户配置为资源邮箱帐户。
     
@@ -138,4 +138,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 有关详细信息，请参阅[Windows PowerShell 将计算机设置](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
   
+## <a name="validate"></a>验证
+
+进行验证，您应该能够使用任何 Skype 业务客户端登录到您创建的帐户。
 

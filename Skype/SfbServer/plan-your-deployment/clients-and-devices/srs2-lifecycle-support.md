@@ -1,7 +1,7 @@
 ---
 title: 版本支持
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,11 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文讨论 Skype 会议室系统 v2 的生命周期支持。
-ms.openlocfilehash: 596197a240d4cf44e8bcf0d0069f9cad5d5e6777
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 86f71f1ddd554c9a9d368cdb725367a368257453
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601953"
 ---
 # <a name="version-support"></a>版本支持
  
@@ -38,11 +39,8 @@ Microsoft 计划发布更新 Skype 会议室系统 v2 几次每年支持从正�
 <a name="See"> </a>  
 ## <a name="see-also"></a>另请参阅
 
-
-#### 
 [Skype 会议室系统版本 2 帮助](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Skype 会议室系统 v2 发行说明](srs2-release-note.md)
 
 [规划 Skype 会议室系统 v2](skype-room-systems-v2-0.md)
-

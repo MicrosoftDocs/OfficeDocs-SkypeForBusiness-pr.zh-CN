@@ -1,7 +1,7 @@
 ---
 title: 准备您的环境
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 本文介绍的基础结构准备部署 Skype 会议室系统 v2。
-ms.openlocfilehash: 46e40acf8d82c0fe5feee66781ac9ebefda68f3e
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 694da63ea29d1d0455faa568f2ee9956fb26948f
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504766"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601939"
 ---
 # <a name="prepare-your-environment"></a>准备您的环境
 
@@ -110,9 +110,9 @@ Skype 会议室系统 v2 旨在继承 Windows 操作系统的代理设置。 通
     
 要使用此应用程序，你必须能够连接至下面所述的终结点。要查看 IP 地址，请展开描述通信流的表下面的 IP 地址部分。
   
-**防火墙代理主机名称/端口示例**
+**防火墙代理主机名/端口示例**
 
-|**用途**|**源或凭据**|**源端口**|**目标**|**CDN**|**Office 365 的 ExpressRoute**|**目标 IP**|**目标端口**|
+|**用途**|**源或凭据**|**源端口**|**目标**|**CDN**|**ExpressRoute for Office 365**|**目标 IP**|**目标端口**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |身份验证与标识  <br/> |请参阅[Office 365 身份验证和标识](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
 |门户与共享  <br/> |请参阅[Office 365 门户和共享](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
@@ -155,7 +155,7 @@ Skype 会议室系统 v2 的默认密码设置为"sfb"。 可以转到 Windows �
   
 还可以通过设置组策略（其中域管理员设为本地管理员）来管理本地管理员密码。
   
-本地管理员密码安装过程中不包括作为选项。
+本地管理员密码不是安装过程中的一个选项。
   
 ### <a name="machine-account"></a>计算机帐户
 

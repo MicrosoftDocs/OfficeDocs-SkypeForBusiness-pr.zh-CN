@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: 客户端版本策略由一组客户端版本规则组成。这些规则定义在用户尝试使用特定客户端和客户端版本登录时应采取的操作。
-ms.openlocfilehash: cd89e0bd5bf6781ea8381563e592d57a3e68434a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ddebab20af21be8a6c3cbff558cec6d118dd60d0
+ms.sourcegitcommit: c85211a22921d02ffa9f300a4f8350ffbb90b38c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988732"
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "22601911"
 ---
 # <a name="client-version-rule"></a>客户端版本规则
  
@@ -35,7 +35,7 @@ ms.locfileid: "20988732"
 
 下表介绍了该页上的菜单、命令、字段和属性。
   
-- **用户代理**您可以从列表中选择客户端类型。 下表定义了用户代理代码。
+- **用户代理**您可以从列表中选择客户端类型。 下表定义了用户代理代码。 此列表包含旧客户端类型，其中一些不再受支持。  
     
 |**客户端名称**|**用户代理**|
 |:-----|:-----|

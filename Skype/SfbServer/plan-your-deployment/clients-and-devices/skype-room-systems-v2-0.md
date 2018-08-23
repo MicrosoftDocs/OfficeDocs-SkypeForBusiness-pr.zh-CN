@@ -1,7 +1,7 @@
 ---
 title: 规划 Skype 会议室系统 v2
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 本文介绍部署 Skype 会议室系统 v2 下, 一代 Skype 会议室系统相关的规划的注意事项。
-ms.openlocfilehash: 89bcfb0e668526893b14dba5202a4e22fed2e8a8
-ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
+ms.openlocfilehash: b62e062eebfd9a79cf49b98fe6f477a0288f71d1
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19856113"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601946"
 ---
 # <a name="plan-skype-room-systems-v2"></a>规划 Skype 会议室系统 v2 
 
@@ -74,7 +74,7 @@ Skype 会议室系统 v2 包括以下主要组件来提供出色的用户体验�
 | 设备所选内容           | IT 项目团队 / AV 团队              |             | [设备所选内容](#device-selection)                      |
 | 采购                | IT 项目团队 / AV 团队              |             | [采购](#procurement)                      |
 | 网站准备工作             | 设施 / AV 团队 / IT 项目工作组 |             | [网站准备工作](../../deploy/deploy-clients/room-systems-v2.md#site-readiness)                      |
-| 服务就绪          | IT Project 团队                        |             | [服务准备](../../deploy/deploy-clients/room-systems-v2.md#service-readiness)                      |
+| 服务就绪          | IT Project 团队                        |             | [服务就绪](../../deploy/deploy-clients/room-systems-v2.md#service-readiness)                      |
 | 配置              | IT Project 团队                        |             | [配置和部署](../../deploy/deploy-clients/room-systems-v2.md#configuration-and-deployment)                      |
 | 部署                 | 设施 / AV 团队 / IT 项目工作组 |             | [部署清单](../../deploy/deploy-clients/console.md#skype-room-systems-v2-deployment-checklist)                      |
 | 采用                   | 设施 / AV 团队 / IT 项目工作组 |             | [采用](#plan-for-adoption-and-change-management)                      |

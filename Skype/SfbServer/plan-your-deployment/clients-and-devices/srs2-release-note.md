@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文讨论中 Skype 会议室系统 v2 累积改进。
-ms.openlocfilehash: bd99a4c3772836d6352228bfd90cecd592af557f
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 20a378e9565a5ddea2e1951d3d26cf30878f62c9
+ms.sourcegitcommit: a9556a51f7f970fc05ab0acc9998401db3c1aa57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412323"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "22601981"
 ---
 # <a name="release-notes"></a>发行说明 
 
@@ -25,6 +25,10 @@ ms.locfileid: "20412323"
 
 | 发行版 | 发布到 <br>Microsoft 存储 | 
 | ---     | ---                              |
+| 4.0.8.0|  07/06/2018    |   
+| 3.1.115.0|  06/18/2018    |
+| 3.1.113.0|  06/13/2018    |   
+| 3.1.112.0|  06/05/2018    |   
 | 3.1.104.0|  04/16/2018    |            
 | 3.1.100.0|  03/16/2018    |            
 | 3.1.99.0 | 3/14/2018      |   
@@ -40,11 +44,28 @@ ms.locfileid: "20412323"
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype 会议室系统 v2 功能简介和解决问题
 
+### <a name="4080-07062018"></a>4.0.8.0 (06/07/2018)
+此更新中引入了： 
+- 此更新使业务*和*团队会议支持会议室系统设备上两个 Skype。  团队已禁用默认情况下应用更新后。  管理员可以在设备设置中或通过远程 xml 推送本地启用团队。
+
+### <a name="311150-06182018"></a>3.1.115.0 (06/18/2018)
+此更新中引入了： 
+- 在某些系统观察到的应用程序启动期间的地址错误修复。
+
+### <a name="311130-06132018"></a>3.1.113.0 (13/06/2018)
+此更新中引入了： 
+- 更改能够更加灵活地启用 Microsoft 管理 Windows 更新。
+- 最终用户体验不变。
+
+### <a name="311120-06052018"></a>3.1.112.0 (05/06/2018)
+此更新中引入了： 
+- 固定到问题观察到的连接到两个前端的聊天室显示和视频的基于 Surface Pro 2017年的设备上接收地址控制台响应速度
+- 自动的检查以确保系统正在运行最新设置的脚本。
+
 ### <a name="311040-04162018"></a>3.1.104.0 (16/04/2018)
 此更新中引入了： 
 - 修复以提高 OSK （屏幕键盘） 窗口 10 版本 1709年基于系统中的行为
 - 改进将来的操作系统更新做好准备
-
 
 ### <a name="311000-03162018"></a>3.1.100.0 (16/03/2018)
 此更新中引入了：  

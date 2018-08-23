@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读此主题以了解有关部署在大型部署的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 7b4e1e9aa4caa8d88f2aa496495badc7401d6d90
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 5ed6e041eb862c7bb50bde89ef172f9012ca8c2e
+ms.sourcegitcommit: 81c6775fdcf8726d2df83c421a85b7908f1f7412
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412316"
+ms.lasthandoff: 08/17/2018
+ms.locfileid: "22601995"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>使用 System Center Configuration Manager 部署 Skype 会议室系统 v2
 
@@ -116,7 +116,7 @@ ms.locfileid: "20412316"
     2.  选择**确定**将 HTML 中的应用程序支持添加到启动映像。
 
 5.  *可选：* 若要自定义部署体验，请选择**自定义**选项卡。
-    -   如果您想要在部署过程中有权访问命令提示符下的，启用**命令支持 （仅测试）** 。 启用后，您可以通过在部署期间随时选择 F8 启动命令提示符。
+    -   如果您想要在部署过程中有权访问命令提示符下的，启用**命令支持 （仅测试）** 。 启用后，您可以通过在部署期间随时选择**F8**启动命令提示符。
     -   您还可以指定在部署过程中显示自定义背景图像。 若要设置图像，启用**指定自定义背景图像文件 (UNC 路径**，然后选择您的背景。
 
 6.  当出现提示，请选择**是**和分发到分发点更新的启动映像。
@@ -132,18 +132,19 @@ ms.locfileid: "20412316"
 
 您需要创建并配置了下列程序包，然后将它们分发到配置管理器网站系统已分配了分发点服务器角色。
 
-| **程序包名称**                     | **类型**               | **说明**                                                                        |
-|--------------------------------------|------------------------|----------------------------------------------------------------------------------------|
-| SR v2-SR 应用程序包     | 软件包       | 包 Skype 会议室系统 v2 部署工具包                                   |
-| SR v2-Sysprep 包             | 软件包       | 自定义 Unattended.xml 配置 Skype 会议室系统 v2 单位包         |
-| SR v2-设置 SRSComputerName 包 | 软件包       | 要在部署过程中指定计算机名称的 HTML 应用程序 (HTA) 包 |
-| SR v2-操作系统更新包          | 软件包       | 包来部署必需的操作系统更新                                   |
-| SR v2-根证书包    | 软件包       | 包来部署 （不需要加入域的单位） 的根证书          |
-| SR v2-Microsoft OMS 代理包 | 软件包       | 包来部署和配置 Microsoft 操作管理套件代理        |
-| SR v2-WinPE 背景包    | 软件包       | 自定义背景图像用于启动映像包                        |
-| Windows 10 Enterprise                | 操作系统映像 | 操作系统安装文件 (install.wim) 包                       |
-| Surface Pro                          | 驱动程序包         | 设备驱动程序和用于 Microsoft Surface Pro 固件软件包                  |
-| Surface Pro 4                        | 驱动程序包         | 设备驱动程序和 Microsoft Surface Pro 4 的固件软件包                |
+| **程序包名称**                     | **类型**               | **说明**                                                                           |
+|--------------------------------------|------------------------|-------------------------------------------------------------------------------------------|
+| SR v2-SR 应用程序包     | 软件包       | 包 Skype 会议室系统 v2 部署工具包                                      |
+| SR v2-Sysprep 包             | 软件包       | 自定义 Unattended.xml 配置 Skype 会议室系统 v2 单位包            |
+| SR v2-设置 SRSComputerName 包 | 软件包       | 要在部署过程中指定计算机名称的 HTML 应用程序 (HTA) 包    |
+| SR v2-配置 SR 安装程序         | 软件包       | 要配置的 Skype 会议室系统 v2 应用程序部署包                          |
+| SR v2-操作系统更新包          | 软件包       | 包来部署必需的操作系统更新                                      |
+| SR v2-根证书包    | 软件包       | 可选-包来部署 （不需要加入域的单位） 的根证书  |
+| SR v2-Microsoft OMS 代理包 | 软件包       | 可选-包来部署和配置 Microsoft 操作管理套件代理|
+| SR v2-WinPE 背景包    | 软件包       | 自定义背景图像用于启动映像包                           |
+| Windows 10 Enterprise                | 操作系统映像 | 操作系统安装文件 (install.wim) 包                          |
+| Surface Pro                          | 驱动程序包         | 设备驱动程序和用于 Microsoft Surface Pro 固件软件包                     |
+| Surface Pro 4                        | 驱动程序包         | 设备驱动程序和 Microsoft Surface Pro 4 的固件软件包                   |
 
 有关详细信息，请参阅[包和程序 System Center Configuration Manager 中](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs)。
 
@@ -158,6 +159,7 @@ ms.locfileid: "20412316"
 -   SR v2-根证书包
 -   SR v2-设置 SRSComputerName 包
 -   SR v2-SR 应用程序包
+-   SR v2-配置 SR 安装程序
 -   SR v2-Sysprep 包
 -   驱动程序
     -   Surface Pro
@@ -387,55 +389,13 @@ ms.locfileid: "20412316"
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <unattend xmlns="urn:schemas-microsoft-com:unattend">
-    <servicing>
-        <package action="configure">
-            <assemblyIdentity name="Microsoft-Windows-Foundation-Package" version="10.0.15063.0" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="" />
-            <selection name="Client-DeviceLockdown" state="true" />
-            <selection name="Client-EmbeddedLogon" state="true" />
-            <selection name="Client-EmbeddedBootExp" state="true" />
-            <selection name="Client-EmbeddedShellLauncher" state="true" />
-            <selection name="Client-KeyboardFilter" state="true" />
-            <selection name="Internet-Explorer-Optional-amd64" state="false" />
-            <selection name="MediaPlayback" state="false" />
-            <selection name="WindowsMediaPlayer" state="false" />
-            <selection name="Xps-Foundation-Xps-Viewer" state="false" />
-            <selection name="WorkFolders-Client" state="false" />
-            <selection name="SMB1Protocol" state="false" />
-            <selection name="SearchEngine-Client-Package" state="false" />
-            <selection name="Printing-Foundation-Features" state="false" />
-            <selection name="FaxServicesClientPackage" state="false" />
-            <selection name="Printing-Foundation-InternetPrinting-Client" state="false" />
-            <selection name="Printing-XPSServices-Features" state="false" />
-            <selection name="Printing-PrintToPDFServices-Features" state="false" />
-            <selection name="Microsoft-Hyper-V-Hypervisor" state="true" />
-            <selection name="Microsoft-Hyper-V-All" state="true" />
-            <selection name="Microsoft-Hyper-V" state="true" />
-        </package>
-    </servicing>
-    <settings pass="auditSystem">
-        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <AutoLogon>
-                <Enabled>true</Enabled>
-                <Username>Admin</Username>
-                <Password>
-                    <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
-                    <PlainText>false</PlainText>
-                </Password>
-            </AutoLogon>
-            <UserAccounts>
-                <LocalAccounts>
-                    <LocalAccount wcm:action="add">
-                        <Password>
-                            <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
-                            <PlainText>false</PlainText>
-                        </Password>
-                        <Name>Admin</Name>
-                        <Group>Administrators</Group>
-                        <DisplayName>Administrator</DisplayName>
-                        <Description>Administrator</Description>
-                    </LocalAccount>
-                </LocalAccounts>
-            </UserAccounts>
+    <settings pass="specialize">
+        <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisableBootMenu>1</DisableBootMenu>
+            <DisplayDisabled>1</DisplayDisabled>
+        </component>
+        <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <PreferredPlan>8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c</PreferredPlan>
         </component>
     </settings>
     <settings pass="oobeSystem">
@@ -458,9 +418,23 @@ ms.locfileid: "20412316"
                     <PlainText>false</PlainText>
                 </Password>
             </AutoLogon>
+            <UserAccounts>
+                <LocalAccounts>
+                    <LocalAccount wcm:action="add">
+                        <Password>
+                            <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
+                            <PlainText>false</PlainText>
+                        </Password>
+                        <Name>Admin</Name>
+                        <Group>Administrators</Group>
+                        <DisplayName>Administrator</DisplayName>
+                        <Description>Administrator</Description>
+                    </LocalAccount>
+                </LocalAccounts>
+            </UserAccounts>
         </component>
     </settings>
-    <cpi:offlineImage cpi:source="wim://com-sccm01/_sources/capture/srscaptured.wim#SRSImage" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
+    <cpi:offlineImage cpi:source="wim:h:/install.wim#Windows 10 Enterprise" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
 </unattend>
 ```
 3.  在 Configuration Manager 控制台中，转到**软件库** \> **应用程序管理** \> **包**以及然后选择**创建新程序包**。
@@ -496,11 +470,13 @@ ms.locfileid: "20412316"
 
 Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建已在您的环境中每个 Surface Pro 模型驱动程序包。
 
+> [!IMPORTANT]
+> 驱动程序必须与 Windows 10 Enterprise 生成和 Skype 会议室系统 v2 部署套件版本兼容。 有关详细信息，请参阅[下载最新的固件和呈现设备的驱动程序](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices)和[Configure 控制台](console.md)。
+
 1.  下载最新驱动程序和固件。
     -   为 Surface Pro:<https://www.microsoft.com/download/details.aspx?id=55484>
     -   为 Surface Pro 4:<https://www.microsoft.com/download/details.aspx?id=49498>
-> [!IMPORTANT]
-> 驱动程序必须与 Windows 10 Enterprise 生成和 Skype 会议室系统 v2 部署套件版本兼容。 有关详细信息，请参阅[下载最新的固件和呈现设备的驱动程序](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices)。
+
 2.  提取下载的驱动程序和固件。 打开命令提示符窗口并在命令提示符处，输入以下命令之一：
     -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro"`
     -   `msiexec /a C:\SurfacePro4_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro 4"`
@@ -620,18 +596,19 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
 
     8.  **设置 Windows 和配置管理器**： 此步骤部署和配置 Configuration Manager 客户端。 更新指定的内置的配置管理器客户端包此步骤。
 
-    9.  **安装根证书**： 此步骤分发非加入域的设备的根证书，因此是可选的。
-        -   删除或禁用此步骤，如果您不需要部署到的 Skype 会议室系统 v2 单位的根证书。
-        -   如果需要执行此步骤，请验证已选中**SR v2 – 根证书包**。
+    9.  **安装根证书**： 此步骤分发非加入域的设备的根证书，因此是可选的默认为禁用。
+        -   如果您需要部署到的 Skype 会议室系统 v2 单位的根证书，则启用此步骤。
+        -   如果需要执行此步骤，请验证选中的**SR v2 – 根证书包**和**禁用 64-bit 文件系统重定向**。
 
     10. **安装和配置 OMS 代理**： 此步骤安装 Microsoft 操作管理套件代理的 64 位版本和配置要连接到您的日志分析工作区的代理。
-        -   仅当您要使用一些其他平台 to monitor the health 的您 Skype 会议室系统 v2 单位禁用此步骤。
+        -   默认情况下禁用此步骤。 仅当您要使用 OMS to monitor the health 的您 Skype 会议室系统 v2 单位，则启用此步骤。
         -   编辑此步骤和更新的命令行参数指定您的**工作区 ID**和**工作区键**。
         -   有关获取操作管理套件工作区 ID 和主关键字的详细信息，请参阅[到 Azure 中的日志分析服务的连接的 Windows 计算机](with-oms.md#configure-test-devices-for-operations-management-suite-setup)。
-        -   确认已选中**SR v2 – Microsoft OMS 代理包**。
+        -   验证选中的**SR v2 – Microsoft OMS 代理包**和**禁用 64-bit 文件系统重定向**。
         -   有关监控的 Skype 会议室系统 v2 部署运行状况的详细信息，请参阅[使用 OMS 的规划 Skype 会议室系统 v2 管理](../../plan-your-deployment/clients-and-devices/oms-management.md)和[使用 OMS 的部署 Skype 会议室系统 v2 管理](with-oms.md#configure-test-devices-for-operations-management-suite-setup)。
 
     11. **复制 SR v2 配置文件**： 此步骤将从 Skype 会议室系统 v2 部署工具包所需的安装和配置文件复制到本地硬盘。 无自定义，则需要此步骤。
+        -   验证选中的**SR v2 – SR 应用程序包**和**禁用 64-bit 文件系统重定向**。
 
     12. **安装 SRSv2 操作系统更新**： 此步骤将部署与 Skype 会议室系统 v2 部署所需的任何必需的操作系统更新。 请执行下列操作：
         -   检查以查看哪些更新所需的[配置 Skype 会议室系统 v2 控制台](console.md)。
@@ -641,9 +618,19 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
 
     13. **重新启动计算机**： 在安装必需的操作系统更新后，此步骤重新启动计算机。 无自定义，则需要此步骤。
 
-    14. **添加本地 Skype 用户**： 此步骤创建用于自动登录到 Windows 和启动 Skype 会议室系统 v2 应用程序的本地 Skype 帐户。 此步骤没有与其关联的任何软件程序包，它需要无自定义。
+    14. **配置 Windows 组件**： 此步骤配置所需的 Windows 功能。 无自定义，则需要此步骤。
 
-    15. **设置并配置 SR 应用程序**： 此步骤安装和配置的 Skype 会议室系统 v2 应用程序。 此步骤使用本地复制的位安装应用程序，因此不具有任何软件程序包与其关联。 无自定义，则需要此步骤。
+    15. **重新启动计算机**： 配置 Windows 功能后，此步骤重新启动计算机。 无自定义，则需要此步骤。
+
+    16. **添加本地 Skype 用户**： 此步骤创建用于自动登录到 Windows 和启动 Skype 会议室系统 v2 应用程序的本地 Skype 帐户。 此步骤没有与其关联的任何软件程序包，它需要无自定义。
+
+    17. **设置并配置 SR 应用程序**： 此步骤配置下次启动操作系统的 Skype 会议室系统 v2 应用程序安装。
+        -   验证选中**SR v2 – 配置 SR 安装程序包**并**禁用 64-bit 文件系统重定向**。       
+
+> [!IMPORTANT]
+> 它是非常重要的任务序列步骤必须在提供的顺序。 修改顺序的步骤，或配置其他步骤可能会中断部署。
+> 
+> **设置并配置 SR 应用程序**步骤必须在任务序列中的最后一步，否则部署可能会失败。
 
 ### <a name="create-deployment-for-the-task-sequence"></a>创建部署任务序列
 
@@ -659,7 +646,9 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
 
 6.  在**使可用于以下**列表中，选择**仅媒体和 PXE** ，然后选择**下一步**。
 > [!WARNING]
-> 它是非常重要的**目的**设置为**可用**。 确保**用途**是**** 设置为**所需**。 另外，请确保您选择中**对以下公开****仅媒体和 PXE** 。 为其他设置这些值可能会导致获取 Skype 会议室系统部署映像时启动的所有计算机。
+> 它是非常重要的**目的**设置为**可用**。 确保**用途**是**** 设置为**所需**。 另外，请确保您选择中**对以下公开****仅媒体和 PXE** 。
+>
+> 为其他设置这些值可能会导致获取 Skype 会议室系统部署映像时启动的所有计算机。
 7.  不指定任何计划，并选择**下一步**。
 
 8.  不更改**用户体验**部分中的任何内容，并选择**下一步**。
@@ -731,9 +720,9 @@ SMSTS.log 文件存储在多个路径，具体取决于生成过程的阶段之�
 | 完成执行任务序列                                                | %windir%\\System32\\ccm\\日志\\smsts.log           |
 
 > [!TIP]
-> 要打开命令控制台，并获取对 SMSTS.log 文件的访问的任务序列在任何时候，您可以选择 F8。
+> 可以随时期间任务序列以打开命令控制台中，选择**F8** ，然后获取对 SMSTS.log 文件的访问。
 
-若要解决 PXE 启动问题，请检查两个日志文件的配置管理器服务器上的特定于 PXE 操作：
+要解决 PXE 启动问题，请检查两个日志文件的配置管理器服务器上的特定于 PXE 操作：
 
 -   **Pxecontrol.log**，位于配置管理器安装日志目录
 
