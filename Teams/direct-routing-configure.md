@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 了解如何配置 Microsoft 电话系统直接路由。
-ms.openlocfilehash: 664aae1a213859a6e4e73ec4c75ce39b6058788e
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: bad3709635ccca83a4093e5115e46352f5dcaaff
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546523"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599427"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -518,19 +518,10 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 应用于 John Woods 呼叫的语音策略是不受限制，并将按照适用于美国、 加拿大和国际呼叫的呼叫路由逻辑，结果。
 
-## <a name="enable-calling-for-microsoft-teams"></a>启用 Microsoft 团队的呼叫
-
-用户可以看到呼叫选项卡中的 Microsoft 团队之前，您需要启用租户中的 Microsoft 团队的专用电话。 若要此操作：
-
-1.  租户管理员在 Office 365 管理中心登录。
-2.  转到**设置和服务和加载项**并选择**Microsoft 团队**。 
-3.  展开**呼叫和会议**并验证****允许专用调用**位于**。
-
-    ![屏幕截图显示的允许私有呼叫开启。](media/ConfigDirectRouting-CallsandMeetingsDialog.png)
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-the-users"></a>作为首选的呼叫客户端为用户的 Microsoft 团队
 
-直接路由仅将呼叫路由到用户与如果他们使用团队 Cleint。 如果您的组织仅使用团队 cleint，"仅工作组"设置模式中升级策略建议。 如果您的组织使用业务 online 业务服务器或 Skype Skype，请查看以下文档[的业务和团队的 Skype 了解共存和升级旅程](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)，并选择适当的选项。 
+直接路由仅将呼叫路由到用户与如果他们使用团队 Cleint。 如果您的组织仅使用团队客户端，"仅工作组"设置模式中升级策略建议。 如果您的组织使用业务 online 业务服务器或 Skype Skype，请查看以下文档[的业务和团队的 Skype 了解共存和升级旅程](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)，并选择适当的选项。 
 
 
 ## <a name="see-also"></a>另请参阅

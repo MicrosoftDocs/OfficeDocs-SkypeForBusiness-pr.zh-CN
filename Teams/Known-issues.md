@@ -10,12 +10,12 @@ ms.reviewer: marcl
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ca61e36069262ddb2ea43dde300c169d6992ba8
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 07cccce7a0c0b13a42c776bff8b5b0367792d7a2
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546396"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599365"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
   
@@ -43,6 +43,10 @@ ms.locfileid: "22546396"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |"分配"app 保持为 visble 时禁用  <br/> |在管理中心中禁用了"分配"应用程序时，尚待团队客户端 EDU 许可用户中可见。 选择时禁用将返回一个错误，指示，"Doh ！ 出现了问题..."  <br/> |无解决方法。  <br/> |12/29/17  <br/> |
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|无法删除作为团队所有者的连接器  <br/> |尝试删除以所有者身份将连接器，，否则可以添加连接器、"允许成员来创建、 更新和删除连接器"时禁用将引发一个错误，指示用户不具有这样的权限。 <br/> |暂时启用"允许成员来创建、 更新和删除连接器"将允许的所有者删除连接器。  <br/> |7/27/18  <br/> |
 
 ## <a name="authentication"></a>身份验证
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|

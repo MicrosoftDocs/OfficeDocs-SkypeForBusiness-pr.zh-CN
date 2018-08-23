@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: 了解如何配置云连接器与 Office 365 租户的集成。
-ms.openlocfilehash: d5ae0b70a22219ee0430908bd3b3752d6ebd6357
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 01a3eac7356846b7d3b153ff4e01c9b52c3744ce
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211149"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599412"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>配置云连接器与 Office 365 租户的集成
  
@@ -168,7 +168,13 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
     
     请注意，只是许可证分配所需的用户传播到业务联机目录 Skype。 将 Office 365 许可证 （如 E5) 分配给创建，允许达 1 小时，更改将传播，然后从该帐户删除许可证的帐户。
     
-2. 启动租户远程 PowerShell 会话使用租户管理员凭据，然后运行以下 cmdlet 以将中介服务器和边缘服务器 FQDN 设置为该用户帐户，替换\<DisplayName\>用户的显示名称您创建的帐户：
+2. 开始使用您全局租户 Azure AD 远程 PowerShell 会话或用户管理员凭据，并向"HybridMediationServer"，然后运行以下 cmdlet，以设置 Azure AD 用户帐户的部门中的配置步骤 1:
+
+ ```
+  Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
+  ```
+
+3. 使用您 Skype 业务租户管理凭据，然后运行以下 cmdlet 以将中介服务器和边缘服务器 FQDN 设置为该用户帐户，替换业务远程 PowerShell 会话启动租户 Skype \<DisplayName\>用户帐户的显示名称与您创建在步骤 1 中：
     
   ```
   Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>

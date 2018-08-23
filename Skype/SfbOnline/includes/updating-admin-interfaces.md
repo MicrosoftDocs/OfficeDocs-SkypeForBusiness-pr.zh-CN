@@ -1,1 +1,1 @@
-我们频繁更新 Microsoft Teams 中功能的管理方式，因此这里所述的 Microsoft Teams 步骤和 Skype for Business 管理中心的步骤可能略有不同。
+我们频繁更新 Skype for Business Online 中功能的管理方式，因此这里的步骤可能略有不同。
