@@ -4,6 +4,11 @@
 # [Skype for Business Server 2015](../skype-for-business-server-2015.md)
 ## [技术图示](../technical-diagrams.md)
 ## [Skype for Business Server 中的新增功能](../what-s-new-in-skype-for-business-server.md)
+
+## [Skype 业务下载和更新](../software-updates.md)
+### [客户端更新](../sfb-client-updates.md)
+### [Server 更新](../sfb-server-updates.md)
+
 ## [业务混合解决方案的 Skype](../skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions.md)
 ### [规划您的电话系统 (云 PBX) 解决方案](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md)
 #### [规划电话系统与内部部署 PSTN 连接](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
