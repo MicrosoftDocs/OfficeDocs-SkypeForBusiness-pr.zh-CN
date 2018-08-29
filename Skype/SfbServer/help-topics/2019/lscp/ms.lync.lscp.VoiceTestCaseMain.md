@@ -12,24 +12,24 @@ localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: cd87cd5000bbc280bc6fe5b633b7ff4065b94a67
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6d043d7dbf4c74b1b2fae7dd421fcf48759bd90b
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988177"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247775"
 ---
-# <a name="test-voice-routing-test-cases"></a><span data-ttu-id="8e24b-104">测试语音路由： 测试用例</span><span class="sxs-lookup"><span data-stu-id="8e24b-104">Test Voice Routing: Test Cases</span></span>
- 
-<span data-ttu-id="8e24b-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="8e24b-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="8e24b-107">创建语音路由测试用例</span><span class="sxs-lookup"><span data-stu-id="8e24b-107">Create a Voice Routing Test Case</span></span>](http://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
-    
-- [<span data-ttu-id="8e24b-108">导出语音路由测试用例</span><span class="sxs-lookup"><span data-stu-id="8e24b-108">Export Voice Routing Test Cases</span></span>](http://technet.microsoft.com/library/489ac472-1a35-4755-b390-48f7cdf31e94.aspx)
-    
-- [<span data-ttu-id="8e24b-109">导入语音路由测试用例</span><span class="sxs-lookup"><span data-stu-id="8e24b-109">Import Voice Routing Test Cases</span></span>](http://technet.microsoft.com/library/6546e24c-9ad2-428b-92b2-63948ed0f884.aspx)
-    
-- [<span data-ttu-id="8e24b-110">运行语音路由测试用例</span><span class="sxs-lookup"><span data-stu-id="8e24b-110">Run Voice Routing Test Cases</span></span>](http://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
-    
- 
+# <a name="test-voice-routing-test-cases"></a><span data-ttu-id="41da8-104">测试语音路由： 测试用例</span><span class="sxs-lookup"><span data-stu-id="41da8-104">Test Voice Routing: Test Cases</span></span>
+
+<span data-ttu-id="41da8-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="41da8-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="41da8-107">创建语音路由测试用例</span><span class="sxs-lookup"><span data-stu-id="41da8-107">Create a Voice Routing Test Case</span></span>](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
+
+- [<span data-ttu-id="41da8-108">导出语音路由测试用例</span><span class="sxs-lookup"><span data-stu-id="41da8-108">Export Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/489ac472-1a35-4755-b390-48f7cdf31e94.aspx)
+
+- [<span data-ttu-id="41da8-109">导入语音路由测试用例</span><span class="sxs-lookup"><span data-stu-id="41da8-109">Import Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/6546e24c-9ad2-428b-92b2-63948ed0f884.aspx)
+
+- [<span data-ttu-id="41da8-110">运行语音路由测试用例</span><span class="sxs-lookup"><span data-stu-id="41da8-110">Run Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
+
+
 

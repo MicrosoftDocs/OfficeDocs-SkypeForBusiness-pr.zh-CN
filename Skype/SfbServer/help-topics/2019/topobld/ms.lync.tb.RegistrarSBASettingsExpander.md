@@ -12,32 +12,32 @@ localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 编辑恢复能力的设置和配置以下属性：
-ms.openlocfilehash: 83ad2a3bff1e305d3d8559c6244313ebf05f173f
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: b4394ae2a7244ae818335bd7c4b21c6d8930f03d
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057200"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260669"
 ---
-# <a name="registrar-sba-settings-expander"></a><span data-ttu-id="29ba1-103">注册器 SBA 设置扩展器</span><span class="sxs-lookup"><span data-stu-id="29ba1-103">Registrar SBA Settings Expander</span></span>
- 
-<span data-ttu-id="29ba1-104">编辑**恢复能力**的设置和配置以下属性：</span><span class="sxs-lookup"><span data-stu-id="29ba1-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
-  
-- <span data-ttu-id="29ba1-105">从列表中选择**关联的用户服务和备份注册器池**。</span><span class="sxs-lookup"><span data-stu-id="29ba1-105">Select **Associated User service and backup Registrar pool** from the list.</span></span>
-    
-    <span data-ttu-id="29ba1-106">或者，选择**自动故障转移和故障回复语音**复选框。</span><span class="sxs-lookup"><span data-stu-id="29ba1-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
-    
-    <span data-ttu-id="29ba1-107">配置**语音故障检测间隔 （秒）** 和**语音故障回复间隔 （秒）**。</span><span class="sxs-lookup"><span data-stu-id="29ba1-107">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**.</span></span> <span data-ttu-id="29ba1-108">默认情况下，间隔为 120 秒语音故障检测和 240 秒语音故障回复。</span><span class="sxs-lookup"><span data-stu-id="29ba1-108">By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
-    
-    > [!CAUTION]
-    > <span data-ttu-id="29ba1-109">为故障转移和故障回复间隔定义的秒数应仔细测试以确保恢复能力按预期方式工作。</span><span class="sxs-lookup"><span data-stu-id="29ba1-109">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected.</span></span> <span data-ttu-id="29ba1-110">将间隔设置为较低 （即，小于 120 秒） 或故障转移和故障回复太紧密设置可能会导致的实际故障转移和故障回复未按预期方式工作。</span><span class="sxs-lookup"><span data-stu-id="29ba1-110">Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span> 
-  
- <span data-ttu-id="29ba1-111">**确定** 接受更改并通过对话框提交更改。</span><span class="sxs-lookup"><span data-stu-id="29ba1-111">**OK** Accepts and commits changes to the dialog.</span></span>
-  
- <span data-ttu-id="29ba1-112">**取消** 放弃更改并关闭对话框。</span><span class="sxs-lookup"><span data-stu-id="29ba1-112">**Cancel** Discards changes and closes the dialog.</span></span>
-  
- <span data-ttu-id="29ba1-113">**帮助** 显示此帮助屏幕。</span><span class="sxs-lookup"><span data-stu-id="29ba1-113">**Help** Displays this help screen.</span></span>
-  
-## <a name="see-also"></a><span data-ttu-id="29ba1-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="29ba1-114">See also</span></span>
+# <a name="registrar-sba-settings-expander"></a><span data-ttu-id="cb8e5-103">注册器 SBA 设置扩展器</span><span class="sxs-lookup"><span data-stu-id="cb8e5-103">Registrar SBA Settings Expander</span></span>
 
-[<span data-ttu-id="29ba1-115">规划企业语音恢复能力</span><span class="sxs-lookup"><span data-stu-id="29ba1-115">Planning for Enterprise Voice Resiliency</span></span>](http://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+<span data-ttu-id="cb8e5-104">编辑**恢复能力**的设置和配置以下属性：</span><span class="sxs-lookup"><span data-stu-id="cb8e5-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
+
+- <span data-ttu-id="cb8e5-105">从列表中选择**关联的用户服务和备份注册器池**。</span><span class="sxs-lookup"><span data-stu-id="cb8e5-105">Select **Associated User service and backup Registrar pool** from the list.</span></span>
+
+    <span data-ttu-id="cb8e5-106">或者，选择**自动故障转移和故障回复语音**复选框。</span><span class="sxs-lookup"><span data-stu-id="cb8e5-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
+
+    <span data-ttu-id="cb8e5-107">配置**语音故障检测间隔 （秒）** 和**语音故障回复间隔 （秒）**。</span><span class="sxs-lookup"><span data-stu-id="cb8e5-107">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**.</span></span> <span data-ttu-id="cb8e5-108">默认情况下，间隔为 120 秒语音故障检测和 240 秒语音故障回复。</span><span class="sxs-lookup"><span data-stu-id="cb8e5-108">By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
+
+    > [!CAUTION]
+    > <span data-ttu-id="cb8e5-109">为故障转移和故障回复间隔定义的秒数应仔细测试以确保恢复能力按预期方式工作。</span><span class="sxs-lookup"><span data-stu-id="cb8e5-109">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected.</span></span> <span data-ttu-id="cb8e5-110">将间隔设置为较低 （即，小于 120 秒） 或故障转移和故障回复太紧密设置可能会导致的实际故障转移和故障回复未按预期方式工作。</span><span class="sxs-lookup"><span data-stu-id="cb8e5-110">Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span>
+
+ <span data-ttu-id="cb8e5-111">**确定** 接受更改并通过对话框提交更改。</span><span class="sxs-lookup"><span data-stu-id="cb8e5-111">**OK** Accepts and commits changes to the dialog.</span></span>
+
+ <span data-ttu-id="cb8e5-112">**取消** 放弃更改并关闭对话框。</span><span class="sxs-lookup"><span data-stu-id="cb8e5-112">**Cancel** Discards changes and closes the dialog.</span></span>
+
+ <span data-ttu-id="cb8e5-113">**帮助** 显示此帮助屏幕。</span><span class="sxs-lookup"><span data-stu-id="cb8e5-113">**Help** Displays this help screen.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="cb8e5-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="cb8e5-114">See also</span></span>
+
+[<span data-ttu-id="cb8e5-115">规划企业语音恢复能力</span><span class="sxs-lookup"><span data-stu-id="cb8e5-115">Planning for Enterprise Voice Resiliency</span></span>](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)

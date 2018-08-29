@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 0408dd3e75798147bb96d0c21d6d911562e1c9a9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 96315ea754a435230c4d8f4ed92ca74f43914e58
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992694"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23252973"
 ---
-# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="8e129-104">用户： 查看或配置位置策略</span><span class="sxs-lookup"><span data-stu-id="8e129-104">Users: View or Configure Location Policy</span></span>
- 
-<span data-ttu-id="8e129-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="8e129-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="8e129-107">为用户分配位置策略</span><span class="sxs-lookup"><span data-stu-id="8e129-107">Assign a Location Policy to a User</span></span>](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
-    
- 
+# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="48517-104">用户： 查看或配置位置策略</span><span class="sxs-lookup"><span data-stu-id="48517-104">Users: View or Configure Location Policy</span></span>
+
+<span data-ttu-id="48517-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="48517-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="48517-107">为用户分配位置策略</span><span class="sxs-lookup"><span data-stu-id="48517-107">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+
+
 

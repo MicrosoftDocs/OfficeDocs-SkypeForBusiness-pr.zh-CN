@@ -12,41 +12,41 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: 创建和管理的持久聊天聊天室类别的正确使用与要容易得多。 持久聊天管理员可以为每个类别定义 AllowedMembers 和 Creators 和还可以定义默认聊天室设置和将应用于所有聊天室的类别中创建的行为。 持久聊天管理员创建和使用 Skype 业务 Server Control Panel 或 Windows PowerShell cmdlet 管理类别。
-ms.openlocfilehash: 9a814a5a6408e80fc1b51679fad80ef8c44f6b49
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 11c0f0f0d186a63c3bbb66410227f945ec0c992c
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005582"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23261390"
 ---
-# <a name="select-creators"></a><span data-ttu-id="bfb02-105">选择创建者</span><span class="sxs-lookup"><span data-stu-id="bfb02-105">Select Creators</span></span>
- 
-<span data-ttu-id="bfb02-106">创建和管理的持久聊天聊天室类别的正确使用与要容易得多。</span><span class="sxs-lookup"><span data-stu-id="bfb02-106">Creating and managing Persistent Chat rooms is much easier with the correct use of categories.</span></span> <span data-ttu-id="bfb02-107">持久聊天管理员可以为每个类别定义**AllowedMembers**和**Creators**和还可以定义默认聊天室设置和将应用于所有聊天室的类别中创建的行为。</span><span class="sxs-lookup"><span data-stu-id="bfb02-107">A Persistent Chat administrator can define **AllowedMembers** and **Creators** for each category, and can also define the default chat room settings and behaviors that will be applied to all chat rooms created in the category.</span></span> <span data-ttu-id="bfb02-108">持久聊天管理员创建和使用 Skype 业务 Server Control Panel 或 Windows PowerShell cmdlet 管理类别。</span><span class="sxs-lookup"><span data-stu-id="bfb02-108">Persistent Chat administrators create and manage categories by using Skype for Business Server Control Panel or Windows PowerShell cmdlets.</span></span>
-  
-## <a name="tasks-that-you-can-perform"></a><span data-ttu-id="bfb02-109">可执行的任务</span><span class="sxs-lookup"><span data-stu-id="bfb02-109">Tasks that you can perform</span></span>
+# <a name="select-creators"></a><span data-ttu-id="c1865-105">选择创建者</span><span class="sxs-lookup"><span data-stu-id="c1865-105">Select Creators</span></span>
 
-<span data-ttu-id="bfb02-110">您可以在“**选择创建者**”页上执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="bfb02-110">You can perform the following tasks on the **Select Creators** page:</span></span>
-  
-- [<span data-ttu-id="bfb02-111">配置类别</span><span class="sxs-lookup"><span data-stu-id="bfb02-111">Configure Categories</span></span>](http://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
-    
-- [<span data-ttu-id="bfb02-112">持久聊天服务器的新增功能</span><span class="sxs-lookup"><span data-stu-id="bfb02-112">New Persistent Chat Server Features</span></span>](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
-    
-<span data-ttu-id="bfb02-113">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="bfb02-113">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
-  
-## <a name="to-configure-categories-for-chat-rooms"></a><span data-ttu-id="bfb02-114">配置聊天室的类别</span><span class="sxs-lookup"><span data-stu-id="bfb02-114">To configure categories for chat rooms</span></span>
+<span data-ttu-id="c1865-106">创建和管理的持久聊天聊天室类别的正确使用与要容易得多。</span><span class="sxs-lookup"><span data-stu-id="c1865-106">Creating and managing Persistent Chat rooms is much easier with the correct use of categories.</span></span> <span data-ttu-id="c1865-107">持久聊天管理员可以为每个类别定义**AllowedMembers**和**Creators**和还可以定义默认聊天室设置和将应用于所有聊天室的类别中创建的行为。</span><span class="sxs-lookup"><span data-stu-id="c1865-107">A Persistent Chat administrator can define **AllowedMembers** and **Creators** for each category, and can also define the default chat room settings and behaviors that will be applied to all chat rooms created in the category.</span></span> <span data-ttu-id="c1865-108">持久聊天管理员创建和使用 Skype 业务 Server Control Panel 或 Windows PowerShell cmdlet 管理类别。</span><span class="sxs-lookup"><span data-stu-id="c1865-108">Persistent Chat administrators create and manage categories by using Skype for Business Server Control Panel or Windows PowerShell cmdlets.</span></span>
 
-<span data-ttu-id="bfb02-115">在**成员资格**，在**创建者**部分中，添加或删除用户和其他类别的创建者相关联的 Active Directory 主体。</span><span class="sxs-lookup"><span data-stu-id="bfb02-115">In **Membership**, in the **Creators** section, add or remove users and other Active Directory principals associated with creators for the category.</span></span> <span data-ttu-id="bfb02-116">创建者是有权创建聊天室并指定聊天室管理员和成员的用户。</span><span class="sxs-lookup"><span data-stu-id="bfb02-116">A creator is a user who has permissions to create chat rooms and assign chat room managers and members.</span></span>
-  
+## <a name="tasks-that-you-can-perform"></a><span data-ttu-id="c1865-109">可执行的任务</span><span class="sxs-lookup"><span data-stu-id="c1865-109">Tasks that you can perform</span></span>
+
+<span data-ttu-id="c1865-110">您可以在“**选择创建者**”页上执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="c1865-110">You can perform the following tasks on the **Select Creators** page:</span></span>
+
+- [<span data-ttu-id="c1865-111">配置类别</span><span class="sxs-lookup"><span data-stu-id="c1865-111">Configure Categories</span></span>](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
+
+- [<span data-ttu-id="c1865-112">持久聊天服务器的新增功能</span><span class="sxs-lookup"><span data-stu-id="c1865-112">New Persistent Chat Server Features</span></span>](https://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
+
+<span data-ttu-id="c1865-113">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="c1865-113">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+
+## <a name="to-configure-categories-for-chat-rooms"></a><span data-ttu-id="c1865-114">配置聊天室的类别</span><span class="sxs-lookup"><span data-stu-id="c1865-114">To configure categories for chat rooms</span></span>
+
+<span data-ttu-id="c1865-115">在**成员资格**，在**创建者**部分中，添加或删除用户和其他类别的创建者相关联的 Active Directory 主体。</span><span class="sxs-lookup"><span data-stu-id="c1865-115">In **Membership**, in the **Creators** section, add or remove users and other Active Directory principals associated with creators for the category.</span></span> <span data-ttu-id="c1865-116">创建者是有权创建聊天室并指定聊天室管理员和成员的用户。</span><span class="sxs-lookup"><span data-stu-id="c1865-116">A creator is a user who has permissions to create chat rooms and assign chat room managers and members.</span></span>
 
 
-<span data-ttu-id="bfb02-117">有关持久聊天服务器特性和功能的详细信息，请参阅规划文档中的[持久聊天服务器的概述](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx)。</span><span class="sxs-lookup"><span data-stu-id="bfb02-117">For details about Persistent Chat Server features and capabilities, see [Overview of Persistent Chat Server](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in the Planning documentation.</span></span> <span data-ttu-id="bfb02-118">有关使用持久聊天服务器配置的详细信息，请参阅[Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)中的部署文档和[Managing Lync Server 2013，Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)操作文档中。</span><span class="sxs-lookup"><span data-stu-id="bfb02-118">For details about working with Persistent Chat Server configurations, see [Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in the Deployment documentation and [Managing Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in the Operations documentation.</span></span>
-  
-## <a name="see-also"></a><span data-ttu-id="bfb02-119">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bfb02-119">See also</span></span>
 
-[<span data-ttu-id="bfb02-120">了解持久聊天成员身份</span><span class="sxs-lookup"><span data-stu-id="bfb02-120">Understanding Persistent Chat Membership</span></span>](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
-  
-[<span data-ttu-id="bfb02-121">使用类别管理持久聊天服务器</span><span class="sxs-lookup"><span data-stu-id="bfb02-121">Using Categories to Administer Persistent Chat Server</span></span>](http://technet.microsoft.com/library/dfcb3ad1-da90-467e-b08c-f4e68673b7b5.aspx)
-  
-[<span data-ttu-id="bfb02-122">将聊天室从一个类别移动到另一个</span><span class="sxs-lookup"><span data-stu-id="bfb02-122">Moving a Chat Room from One Category to Another</span></span>](http://technet.microsoft.com/library/7e93b8f6-5a18-4476-a432-3918e01bcfa6.aspx)
-  
-[<span data-ttu-id="bfb02-123">创建或编辑新聊天室</span><span class="sxs-lookup"><span data-stu-id="bfb02-123">Creating or Editing a New Room</span></span>](http://technet.microsoft.com/library/aa8f4349-cfd9-4036-9c4d-de8fb2c4c8a4.aspx)
+<span data-ttu-id="c1865-117">有关持久聊天服务器特性和功能的详细信息，请参阅规划文档中的[持久聊天服务器的概述](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx)。</span><span class="sxs-lookup"><span data-stu-id="c1865-117">For details about Persistent Chat Server features and capabilities, see [Overview of Persistent Chat Server](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in the Planning documentation.</span></span> <span data-ttu-id="c1865-118">有关使用持久聊天服务器配置的详细信息，请参阅[Configuring Persistent Chat Server](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)中的部署文档和[Managing Lync Server 2013，Persistent Chat Server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)操作文档中。</span><span class="sxs-lookup"><span data-stu-id="c1865-118">For details about working with Persistent Chat Server configurations, see [Configuring Persistent Chat Server](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in the Deployment documentation and [Managing Lync Server 2013, Persistent Chat Server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in the Operations documentation.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="c1865-119">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c1865-119">See also</span></span>
+
+[<span data-ttu-id="c1865-120">了解持久聊天成员身份</span><span class="sxs-lookup"><span data-stu-id="c1865-120">Understanding Persistent Chat Membership</span></span>](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
+
+[<span data-ttu-id="c1865-121">使用类别管理持久聊天服务器</span><span class="sxs-lookup"><span data-stu-id="c1865-121">Using Categories to Administer Persistent Chat Server</span></span>](https://technet.microsoft.com/library/dfcb3ad1-da90-467e-b08c-f4e68673b7b5.aspx)
+
+[<span data-ttu-id="c1865-122">将聊天室从一个类别移动到另一个</span><span class="sxs-lookup"><span data-stu-id="c1865-122">Moving a Chat Room from One Category to Another</span></span>](https://technet.microsoft.com/library/7e93b8f6-5a18-4476-a432-3918e01bcfa6.aspx)
+
+[<span data-ttu-id="c1865-123">创建或编辑新聊天室</span><span class="sxs-lookup"><span data-stu-id="c1865-123">Creating or Editing a New Room</span></span>](https://technet.microsoft.com/library/aa8f4349-cfd9-4036-9c4d-de8fb2c4c8a4.aspx)
