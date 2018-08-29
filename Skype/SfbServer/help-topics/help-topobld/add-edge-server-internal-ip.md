@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 description: 内部 IP 地址是边缘服务器的内部接口的 IP 地址。
-ms.openlocfilehash: a904b8264261a4a7705f6bf234fc55cdae2a2464
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: bdd6c5df7116c710df79891f35904e372dc776b0
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20999623"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23254380"
 ---
 # <a name="add-edge-server-internal-ip"></a>添加边缘服务器内部 IP
- 
+
 内部 IP 地址是边缘服务器的内部接口的 IP 地址。
-  
-可以在部署初始拓扑时或在部署后添加对外部用户访问的支持。 有关将边缘服务器添加到现有拓扑的详细信息，请参阅边缘服务器部署文档中的[Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) 。
-  
+
+可以在部署初始拓扑时或在部署后添加对外部用户访问的支持。 有关将边缘服务器添加到现有拓扑的详细信息，请参阅边缘服务器部署文档中的[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) 。
+
 

@@ -15,21 +15,22 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
-description: 使用 Skype 业务服务器混合可管理性向导来帮助您配置您的环境的混合与 Skype 在线业务。
-ms.openlocfilehash: 3c1ab3ea2615469ae10f1d6a57fff2a1805a7e1c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 使用业务服务器混合可管理性向导 Skype 可帮助您配置的混合环境与 Skype 的业务联机。
+ms.openlocfilehash: ec2507b7efd25dba6e3b18eba3a14f35eb93fcc4
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260368"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>混合向导：登录到 Office 365
- 
-使用 Skype 业务服务器混合可管理性向导来帮助您配置您的环境的混合与 Skype 在线业务。
-  
+
+使用业务服务器混合可管理性向导 Skype 可帮助您配置的混合环境与 Skype 的业务联机。
+
 ## <a name="sign-in-to-office-365"></a>登录到 Office 365
 
 为您的 Office 365 租户输入用户名和密码以登录并将您的本地部署连接到 Office 365 租户。您需要使用在注册 Office 365 时为 onmicrosoft 域创建的管理员帐户，例如，admin@contoso.onmicrosoft.com。
-  
-有关如何配置用于混合环境的详细信息，请参阅[混合部署概述](http://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)。
-  
+
+有关如何配置混合环境的详细信息，请参阅[Overview of 混合部署](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)。
+
 

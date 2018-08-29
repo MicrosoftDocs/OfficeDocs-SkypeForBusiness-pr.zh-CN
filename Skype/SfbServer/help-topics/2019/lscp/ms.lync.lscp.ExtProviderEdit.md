@@ -12,17 +12,17 @@ localization_priority: Normal
 ms.assetid: bf967ad7-c36b-4a8b-8e78-eb11f9365a47
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 65f98d6ddff1c7c215103285aecac5c4dcae8e54
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: be85cc82b215b7843a932e381690acc7b98a8d14
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965847"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23254996"
 ---
 # <a name="sip-federated-providers-create-new-or-edit-existing"></a>SIP 联盟提供程序：创建新的或编辑现有的
- 
+
 您希望执行什么操作？单击您要执行的任务所对应的链接。
-  
-- [管理 SIP 联盟提供程序为您的组织](http://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
-    
+
+- [管理 SIP 联盟提供程序为您的组织](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
+
 

@@ -11,12 +11,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3801a6216962425a103845d99184f6b50bf9dc9
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: f9e15f792fe17cc0831a7253f4b4ddf7770cb5be
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19002883"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23243656"
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Microsoft Teams 部署概述
 ========================================
@@ -57,6 +57,6 @@ ms.locfileid: "19002883"
 |![后续步骤图标。](media/Overview_of_a_Microsoft_Teams_deployment_image4.png)     |后续步骤         |记录哪些初始团队和频道将适用于你的 IT 试点         |
 
 
- 
 
-要跟踪这些决策点，请下载[快速入门：成功启用 Microsoft Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) 中的技术规划调查表。
+
+要跟踪这些决策点，请下载[快速入门：成功启用 Microsoft Teams](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) 中的技术规划调查表。

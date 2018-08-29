@@ -12,37 +12,37 @@ localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 代理是被指定为应答响应组呼叫的用户。 响应组必须具有一个分配的代理组来识别可接收针对响应组的呼叫的代理。 创建代理组的一种方法就是通过选择合格用户来定义自定义组。 合格的用户被启用 Skype Business Server 和企业语音。
-ms.openlocfilehash: c1455dcb42a13ebd9a4edc6b922a5ff3d14a94aa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 23e274f11183742ab96f4117ea5d7c754596253a
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989469"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23262825"
 ---
 # <a name="select-agents"></a>选择代理
- 
-代理是被指定为应答响应组呼叫的用户。 响应组必须具有一个分配的代理组来识别可接收针对响应组的呼叫的代理。 创建代理组的一种方法就是通过选择合格用户来定义自定义组。 合格的用户被启用 Skype Business Server 和企业语音。 
-  
+
+代理是被指定为应答响应组呼叫的用户。 响应组必须具有一个分配的代理组来识别可接收针对响应组的呼叫的代理。 创建代理组的一种方法就是通过选择合格用户来定义自定义组。 合格的用户被启用 Skype Business Server 和企业语音。
+
 使用“**选择代理**”对话框可选择要添加到代理组的用户。
-  
+
 ## <a name="ui-reference"></a>用户界面参考
 
 下表介绍了“**选择代理**”对话框中的各个控件。
-  
+
 - **查找**搜索 SIP 地址或显示用户的名称。 输入的地址或名称的全部或部分。 将搜索框保留为空，以显示所有用户启用了 Skype Business Server 和企业语音。
-    
+
 - **若要显示的最大用户**更改显示返回的结果数。 此计数器用于限制搜索，如果您希望多个结果。
-    
+
 下表介绍了“**选择代理**”对话框中的各个字段。
-  
+
 - **代理**显示搜索返回的用户的用户名。
-    
+
 - **SIP 地址**显示搜索返回的用户 SIP 地址。
-    
+
 - **电话服务**显示为用户定义的**电话**字段的值。
-    
+
 - **启用**显示为用户定义的**Lync server 启用**字段的值。
-    
-有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) 。
-  
+
+有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) 。
+
 

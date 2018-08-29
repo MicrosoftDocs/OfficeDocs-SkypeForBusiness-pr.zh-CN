@@ -21,18 +21,19 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于澳大利亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: c4707423f2d816a846e6a688809e2ab6626f6d40
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 301132a038ea3740bffb51a00bc2e554f10ea7f8
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23242392"
 ---
 # <a name="availability-in-australia"></a>澳大利亚中的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
 下面是可用于澳大利亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-  
+
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
@@ -40,7 +41,7 @@ ms.lasthandoff: 05/11/2018
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |不可以。 [请与我们联系](mailto:ptnapac@microsoft.com)。 <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
-   
+
 ## <a name="phone-system"></a>电话系统
 
 |**功能**|**详细信息**|
@@ -49,16 +50,16 @@ ms.lasthandoff: 05/11/2018
 |自动助理 <br/> |可用  <br/> |
 |呼叫队列  <br/> |可用  <br/> |
 |语音邮件  <br/> |可用  <br/> |
-   
+
 ## <a name="calling-plans"></a>通话套餐
 > [!IMPORTANT]
-> 当前仅适用于预览和早期采用澳大利亚中的。 有关详细信息，请参阅[Telstra 调用 for Office 365](http://aka.ms/TelstraVoicePlan)。 
+> 当前仅适用于预览和早期采用澳大利亚中的。 有关详细信息，请参阅[Telstra 调用 for Office 365](https://aka.ms/TelstraVoicePlan)。
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买通话套餐？  <br/> |是，请参阅[Telstra 调用 for Office 365](http://aka.ms/TelstraVoicePlan)。  <br/> |
-|通话套餐的可用分钟数  <br/> |请参阅[Telstra 调用 for Office 365](http://aka.ms/TelstraVoicePlan)。 <br/> |
-|是否可以拨打呼出电话？  <br/> |请参阅[Telstra 调用 for Office 365](http://aka.ms/TelstraVoicePlan)。 <br/> |
+|是否可购买通话套餐？  <br/> |是，请参阅[Telstra 调用 for Office 365](https://aka.ms/TelstraVoicePlan)。  <br/> |
+|通话套餐的可用分钟数  <br/> |请参阅[Telstra 调用 for Office 365](https://aka.ms/TelstraVoicePlan)。 <br/> |
+|是否可以拨打呼出电话？  <br/> |请参阅[Telstra 调用 for Office 365](https://aka.ms/TelstraVoicePlan)。 <br/> |
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
@@ -67,17 +68,17 @@ ms.lasthandoff: 05/11/2018
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>阿德莱德 <li>布里斯班 <li>  堪培拉 <li>达尔文 <li>墨尔本 <li>纽卡斯尔 <li> 佩思 <li>悉尼 <li>伍伦贡  |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
-   
-如果您想要获得自动助理和呼叫队列收费和免费电话号码，请参阅[Telstra 调用 for Office 365](http://aka.ms/TelstraVoicePlan)。 音频会议服务号码，[请与我们联系](mailto:ptnapac@microsoft.com)。
-  
+
+如果您想要获得自动助理和呼叫队列收费和免费电话号码，请参阅[Telstra 调用 for Office 365](https://aka.ms/TelstraVoicePlan)。 音频会议服务号码，[请与我们联系](mailto:ptnapac@microsoft.com)。
+
 ## <a name="communications-credits"></a>通信点数
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否提供通信点数？  <br/> |是  <br/> |
-   
+
 如果你想进行设置，请参阅[为你的组织设置通信点数](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)。
-  
+
 ## <a name="related-topics"></a>相关主题
 
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)

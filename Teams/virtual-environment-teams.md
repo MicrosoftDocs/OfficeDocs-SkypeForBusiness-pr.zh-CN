@@ -3,7 +3,7 @@ title: 在虚拟环境中运行的 Microsoft 团队
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/13/2018
+ms.date: 08/28/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08a82c2450d238a59d7e076ceb95368c3dce91e2
-ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
+ms.openlocfilehash: 47c920d46e37364782ac656b93398deb01c41e6d
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2018
-ms.locfileid: "20363920"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23256270"
 ---
 <a name="run-microsoft-teams-in-a-virtual-environment"></a>在虚拟环境中运行的 Microsoft 团队
 ============================================
@@ -58,7 +58,7 @@ ms.locfileid: "20363920"
 4.  查找其中禁用所有呼叫策略前 canned 选项：<br>
 ![与禁用的所有会议策略的会议选项的屏幕截图。](media/virtual-environment-image2.png)
 5.  适用于所有用户都将使用团队虚拟化环境中的"DisallowCalling"前 canned 的策略选项：<br>
-\>> *授予 CsTeamsMeetingPolicy PolicyName AllOff-Identity"用户电子邮件 id"*
+\>> *授予 CsTeamsCallingPolicy PolicyName DisallowCalling-Identity"用户电子邮件 id"*
 
 ## <a name="meetings"></a>会议
 

@@ -11,12 +11,12 @@ localization_priority: Priority
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在同一位置查找并管理 Skype for Business Server 2015 和 Lync 2013 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
-ms.openlocfilehash: c83e3994c47876e6064b58265848c64487e47b76
-ms.sourcegitcommit: 3915a89d072f0f801d5662286bea08839ed2a9e6
+ms.openlocfilehash: e3b1ae326494a14c502a7427d30f664646bfe373
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/17/2018
-ms.locfileid: "22601904"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23253053"
 ---
 # <a name="skype-for-business-updates"></a>Skype for Business 更新
 
@@ -76,7 +76,7 @@ ms.locfileid: "22601904"
 * * *
 
 ## <a name="lync-server-2013-update-history"></a>Lync Server 2013 更新历史记录
-    
+
 |软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
 |Lync Server 2013 累积更新 9  |[KB 2809243](https://www.microsoft.com/en-us/download/details.aspx?id=36820) |2017 年 7 月 |
@@ -90,7 +90,7 @@ ms.locfileid: "22601904"
 |Lync Server 2013 中介服务器的累积更新 5.0.8308.956 |[KB 3140586](https://support.microsoft.com/kb/3140586)|2016 年 4 月 |
 |Lync Server 2013 响应组服务的累积更新 5.0.8308.956 |[KB 3140585](https://support.microsoft.com/kb/3140585)|2016 年 4 月 |
 |Lync Server 2013 会议服务器的累积更新 5.0.8308.956 |[KB 3140584](https://support.microsoft.com/kb/3140584)|2016 年 4 月 |
-|Lync Server 2013 前端服务器和边缘服务器的累积更新 5.0.8308.956 |[KB 3140582](https://support.microsoft.com/kb/3140582)|2016 年 4 月 | 
+|Lync Server 2013 前端服务器和边缘服务器的累积更新 5.0.8308.956 |[KB 3140582](https://support.microsoft.com/kb/3140582)|2016 年 4 月 |
 |Lync Server 2013 核心组件的累积更新 5.0.8308.956 |[KB 3140581](https://support.microsoft.com/kb/3140581)|2016 年 4 月 |
 |Lync Server 2013 Web 组件服务器的累积更新 5.0.8308.945 |[KB 3126638](https://support.microsoft.com/kb/3126638)|2016 年 1 月 |
 |Lync Server 2013 核心组件的累积更新 5.0.8308.945 |[KB 3126637](https://support.microsoft.com/kb/3126637)|2016 年 1 月 |
@@ -205,7 +205,7 @@ ms.locfileid: "22601904"
 
 ### <a name="resource-kit-technical-reference"></a>资源工具包（技术参考）
 
-请访问 [Microsoft Lync Server 2010 资源工具包](https://www.microsoft.com/download/en/details.aspx?id=22644)下载站点单独下载书中章节，或下载包含[资源工具包全部 19 章](http://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip)的 .zip 文件。
+请访问 [Microsoft Lync Server 2010 资源工具包](https://www.microsoft.com/download/en/details.aspx?id=22644)下载站点单独下载书中章节，或下载包含[资源工具包全部 19 章](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip)的 .zip 文件。
 
 ### <a name="group-chat"></a>群聊
 
@@ -226,9 +226,9 @@ ms.locfileid: "22601904"
 
 ## <a name="additional-information"></a>其他信息
 
-软件更新包括任何更新、更新汇总、Service Pack、功能包、关键更新、安全更新或修补程序。 有关用于描述 Microsoft 软件更新的标准术语的说明，请参阅 [KB 824684](https://support.microsoft.com/kb/824684)。 
+软件更新包括任何更新、更新汇总、Service Pack、功能包、关键更新、安全更新或修补程序。 有关用于描述 Microsoft 软件更新的标准术语的说明，请参阅 [KB 824684](https://support.microsoft.com/kb/824684)。
 
- 
+
 ## <a name="related-topics"></a>相关主题
 
 - [安装 Skype for Business Server 2015](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/install/install)

@@ -12,20 +12,20 @@ localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: daa94911bd90269434fa4c39062c5877187cedbf
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8606d4d3247aad6efbcc85a6567718feab83e915
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20994414"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23262139"
 ---
 # <a name="normalization-rule-create-new-or-edit-existing"></a>规范化规则： 创建新的或编辑现有的
- 
+
 您希望执行什么操作？单击您要执行的任务所对应的链接。
-  
+
 - [创建或修改规范化规则中的业务的 Skype](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
-    
-- [手动创建或修改规范化规则](http://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
-    
- 
+
+- [手动创建或修改规范化规则](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+
+
 

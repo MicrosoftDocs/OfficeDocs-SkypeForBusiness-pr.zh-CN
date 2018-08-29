@@ -12,24 +12,24 @@ localization_priority: Normal
 ms.assetid: 499b6966-25f4-4b90-a225-d6be48ddab19
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: f046400bb37384216005fb08e650fab50a878f7b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 48dcd6ad1dcae256826adf92daa09b73999c5b97
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983481"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23262258"
 ---
 # <a name="trunk-configuration"></a>中继配置
- 
+
 您希望执行什么操作？单击您要执行的任务所对应的链接。
-  
+
 - [为业务 Server 使用 Skype 中的媒体旁路配置中继](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
-    
+
 - [配置无媒体绕过中 Skype 业务服务器的中继](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
-    
+
 - [创建或修改转换规则的呼叫 ID 演示文稿中 Skype 业务服务器](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
-    
-- [手动创建或修改转换规则](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
-    
- 
+
+- [手动创建或修改转换规则](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+
+
 

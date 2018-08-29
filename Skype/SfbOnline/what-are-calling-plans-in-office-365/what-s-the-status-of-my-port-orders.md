@@ -20,34 +20,35 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 08e6f8cc836478658310702c87e744fcdc352bb8
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 8f8d6bc1e2fc08e98c11b00bfda4e66c978c69a7
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23241930"
 ---
 # <a name="whats-the-status-of-my-port-orders"></a>我的移植订单的状态是什么？
 
-您可以通过直接转至**业务管理中心的 Skype**看到端口订单的状态 > **语音** > **端口订单**。 在**状态**列中将列出每个端口的订单状态。 如果您的帮助，[联系业务产品的管理帮助支持](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx)。
-  
-下表列出了端口订单状态，以及如果需要您可以采取的措施。 
-  
-|**状态**|**您可以查看该订单？**|**您可以编辑该订单？**|**您可以取消订单吗？**|**您可以删除该订单？**|**说明**|
+您可以看到端口订单的状态，转到**业务管理中心的 Skype** > **语音** > **端口订单**。 在**状态**列中，将列出每个端口订单状态。 如果您的帮助，[业务产品的管理员技术支持联系人](https://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx)。
+
+下表列出端口订单状态，以及如果需要您可以采取的操作。
+
+|**状态**|**您可以查看顺序？**|**您可以编辑顺序？**|**您可以取消顺序？**|**您可以删除顺序？**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**处理** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |管理员已创建订单，并已由 Microsoft 接收。  <br/> |
-|**联系承运人** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |订单已收到并批准由 Microsoft，而且我们正在与落败的承运人以获得批准。  <br/> |
-|**批准的转移** <br/> |是  <br/> |确认订单 Commitment(FOC)  <br/> |是  <br/> |否  <br/> |订单已被接受落败的承运人，并设有 FOC 日期。  <br/> |
-|**传输挂起** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |传输是不超过 24 小时，所以可以不再进行编辑或取消订单。  <br/> |
-|**Error** <br/> |否  <br/> |是  <br/> |是  <br/> |是 （在此期间，不能删除端口顺序是否有错误。 端口订单需要重新创建，或者您需要[与客户支持联系业务产品的管理帮助](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx)。  <br/> |落败的承运人已拒绝该订单。  <br/> |
-|**完成** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |这些数字已被成功转移。  <br/> |
-|**已取消** <br/> |否  <br/> |是  <br/> |否  <br/> |否  <br/> |管理员已取消订单。  <br/> |
-   
- **完整的逐步说明，请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。**
- 
+|**处理** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |管理员已创建顺序，并且它由 Microsoft 已收到。  <br/> |
+|**运营商联系** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |已收到并由 Microsoft 批准顺序和我们正在与可能会丢失的运营商进行批准。  <br/> |
+|**批准的传输** <br/> |是  <br/> |确认顺序 Commitment(FOC)  <br/> |是  <br/> |否  <br/> |订单已被接受通过可能会丢失运营商，并且已设置 FOC 日期。  <br/> |
+|**传输挂起** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |转接是不超过 24 小时离开，因此顺序不再可以编辑或取消。  <br/> |
+|**Error** <br/> |否  <br/> |是  <br/> |是  <br/> |是 （此时，您不能删除该端口订单出现错误时。 端口顺序需要重新创建，或者需要[对业务产品-管理员技术联系人支持](https://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx)。  <br/> |可能会丢失运营商已拒绝顺序。  <br/> |
+|**完成** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |已成功传输这些号码。  <br/> |
+|**取消** <br/> |否  <br/> |是  <br/> |否  <br/> |否  <br/> |管理员已取消顺序。  <br/> |
+
+ **有关完整的分步说明，请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。**
+
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-  
+
 ## <a name="related-topics"></a>相关主题
 [关于转移电话号码的常见问题](transferring-phone-numbers-common-questions.md)
 
@@ -57,5 +58,4 @@ ms.lasthandoff: 04/26/2018
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-  
- 
+

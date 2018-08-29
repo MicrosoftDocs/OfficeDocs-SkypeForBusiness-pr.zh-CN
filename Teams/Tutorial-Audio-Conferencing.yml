@@ -16,12 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 4cb5a14f2bce0a9450788de178cff8e27cbc4e33
-  ms.sourcegitcommit: 1fde3af8f5c93c1328842990c7d14cbc0fbfdf97
+  ms.openlocfilehash: 698bb6a90d3ba6b64b3288b60d55eec2dac17453
+  ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 07/05/2018
-  ms.locfileid: "20201412"
+  ms.lasthandoff: 08/28/2018
+  ms.locfileid: "23253435"
 items:
 - durationInMinutes: 1
   content: >
@@ -49,7 +49,7 @@ items:
     -   报告
 
 
-    音频会议添加会议在工作组中的特性和功能。 我们建议您在本教程之前完成[的 Microsoft 团队中的会议](http://aka.ms/tr-meetings)。
+    音频会议添加会议在工作组中的特性和功能。 我们建议您在本教程之前完成[的 Microsoft 团队中的会议](https://aka.ms/tr-meetings)。
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
@@ -98,7 +98,7 @@ items:
     ### <a name="next-steps"></a>后续步骤
 
 
-    1.  注册 [MyAdvisor](http://aka.ms/myadvisor) 以获取个性化部署指导。
+    1.  注册 [MyAdvisor](https://aka.ms/myadvisor) 以获取个性化部署指导。
 
     2.  开始在工作组中使用音频会议。
 
@@ -109,4 +109,4 @@ items:
         - 按照[团队博客 （英文）](https://aka.ms/teamsblog)。
         - 阅读[团队路线图](https://aka.ms/skype2teamsroadmap)。
         - 了解在[发行说明](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)的最新公开发布功能。
-    5.  浏览[更多培训和教程](http://aka.ms/Teamsacademy)。
+    5.  浏览[更多培训和教程](https://aka.ms/Teamsacademy)。

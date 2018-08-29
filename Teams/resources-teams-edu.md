@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6eb38d1dc24094233bac94f75967bf8f1e42b93d
-ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
+ms.openlocfilehash: af9d574abb69068095c31a9aaac0270b3fc7e960
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21251881"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248800"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>对于教育管理员的 Microsoft 团队资源
 ==============================================
@@ -44,15 +44,15 @@ ms.locfileid: "21251881"
 
 ## <a name="call-to-action"></a>行动号召
 
-- 查看我们的动手操作 [Microsoft Teams 互动演示](http://teamsdemo.office.com/)（完成时间：5 分钟）
+- 查看我们的动手操作 [Microsoft Teams 互动演示](https://teamsdemo.office.com/)（完成时间：5 分钟）
 - 在 [Office 365 管理中心](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)启用 Microsoft Teams（以 Office 365 管理员身份登录）
 - 下载 Teams 客户端：[在所有设备上获取 Teams](https://teams.microsoft.com/downloads)
 - 在[教育版帮助中心](https://support.office.com/education)了解关于 Office 365 教育版的详细信息
-    
+
 ## <a name="additional-resources"></a>附加资源
 
 - [Microsoft Teams 路线图](https://aka.ms/teamsroadmap)
-- 随时关注我们的[技术社区博客](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)获取最新信息 
+- 随时关注我们的[技术社区博客](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)获取最新信息
 - Matt Soseman 关于 [Microsoft Teams PowerShell 支持](https://blogs.technet.microsoft.com/skypehybridguy/2017/11/07/microsoft-teams-powershell-support/)的博客“生产云”
 - [发送建议](https://aka.ms/eduuservoice)
 - [联系支持人员](https://aka.ms/o365portal)

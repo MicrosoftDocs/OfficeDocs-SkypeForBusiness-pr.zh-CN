@@ -9,35 +9,35 @@ ms.prod: skype-for-business-itpro
 localization_priority: Priority
 ms.collection: IT_Skype16
 description: 为 IT 专业人员提供指向 Skype for Business 2016、Skype for Business 2015 和 Lync 2013 客户端永久版本的最新更新信息的链接
-ms.openlocfilehash: 38784d3de178078b2a679b16ac69caa9d22c7474
-ms.sourcegitcommit: 973cb74fca3fe50fbd38f80f5975b6f3d17e0b68
+ms.openlocfilehash: cf87fbb903e7bff015f77881ede956a4c4999b07
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2018
-ms.locfileid: "21822540"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247589"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>使用 Windows Installer (MSI) 的 Skype for Business 版本的最新更新
 
 可使用此页面上的链接获取有关 Skype for Business 2016、Skype for Business 2015 和 Lync 2013 客户端永久版本的最新更新的详细信息以及下载这些更新。
-  
-> [!NOTE] 
+
+> [!NOTE]
 > - 本文信息仅适用于使用 Windows Installer (MSI) 安装技术的 Skype for Business 永久版本。 例如，如果您安装的是批量许可的 Skype for Business 版本（如 Office 专业增强版 2016 附带的 Skype for Business）。
 > - 本文信息不适用于 Office 365 版本的 Skype for Business（如 Office 365 专业增强版附带的 Skype for Business）。
 > - 要获得最新的移动客户端更新，请访问你的移动客户端的应用商店（iTunes、Google Play 或 Microsoft Store）以查看详细信息并安装更新。
 > - 要确定你正在使用的 Skype for Business 版本，请参阅[我使用的是什么 Skype for Business 版本?](https://support.microsoft.com/en-us/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
-> - 有关安装 Office 更新的详细信息，请参阅[安装 Office 更新](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5)。 
-  
+> - 有关安装 Office 更新的详细信息，请参阅[安装 Office 更新](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5)。
+
 Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你的部署的系统要求。
-  
+
 - Office 365 适用于具有主要支持的任何 Skype for Business 版本（包括最新的 Skype for Business 2016 版本）。 对于早期 Skype for Business 版本，仅具有外延支持的版本可以继续与 Office 365 一起使用，尽管功能有所降低。 有关详细信息，请参阅 [Microsoft 生命周期策略](https://support.microsoft.com/lifecycle)。
-    
+
 - 对于 Skype for Business Server 本地部署，请遵循你的 Skype for Business 版本的系统要求：
-    
+
   - [Skype for Business 环境要求](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
-    
+
   - [Lync Server 2013 系统要求](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
-    
-  
+
+
 ## <a name="skype-for-business-2016-client-updates"></a>Skype for Business 2016 客户端更新
 |软件包名称|KB 编号|发布日期|
 |:---  |:---  |:---  |
@@ -107,7 +107,7 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 |Skype for Business 2015/Lync 2013 安全更新|[KB 3118348](https://support.microsoft.com/kb/3118348) | 2016 年 10 月 |
 |Skype for Business 2015/Lync 2013 更新|[KB 3118281](https://support.microsoft.com/kb/3118281) | 2016 年 9 月 |
 |Skype for Business 2015/Lync 2013 安全更新|[KB 3115431](https://support.microsoft.com/kb/3115431) | 2016 年 8 月 |
-|Skype for Business 2015/Lync 2013 更新|[KB 3115261](http://support.microsoft.com/kb/3115261) | 2016 年 7 月 |
+|Skype for Business 2015/Lync 2013 更新|[KB 3115261](https://support.microsoft.com/kb/3115261) | 2016 年 7 月 |
 |Skype for Business 2015/Lync 2013 安全更新|[KB 3114944](https://support.microsoft.com/kb/3114944) | 2016 年 4 月 |
 |Skype for Business 2015/Lync 2013 更新|[KB 3114831](https://support.microsoft.com/kb/3114831) | 2016 年 3 月 |
 |Skype for Business 2015/Lync 2013 更新|[KB 3114732](https://support.microsoft.com/kb/3114732) | 2016 年 2 月 |
@@ -129,7 +129,7 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 
 
 * * *
-   
+
 ## <a name="lync-2013-client-updates"></a>Lync 2013 客户端更新
 
 软件包名称|KB 编号|发布日期|

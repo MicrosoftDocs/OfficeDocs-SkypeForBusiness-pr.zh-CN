@@ -10,17 +10,17 @@ ms.reviewer: marcl
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07cccce7a0c0b13a42c776bff8b5b0367792d7a2
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: 78cce988c89ed127ca3c3b3c2606549bf28bf37f
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599365"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23243204"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
-  
+
 本文列出了 Microsoft 团队，按功能区域的已知的问题。
-## 
+##
 
 ## <a name="administration"></a>管理
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
@@ -80,7 +80,7 @@ ms.locfileid: "22599365"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|Safari Web 客户端支持  <br/> |尝试在 Safari 上打开 Microsoft Teams Web 客户端的用户被导向到下载桌面客户端。 Microsoft 正在着手准备 Safari 支持，并将通过 [Teams 路线图](http://aka.ms/TeamsRoadmap)共享更新。  <br/> |使用支持的 internet 浏览器，其中包括： Internet Explorer 11 +、 Microsoft 边缘 12 +、 Chrome 51.0 + 和 Firefox 47.0 +。  <br/> |2016 年 11 月 2 日  <br/> |
+|Safari Web 客户端支持  <br/> |尝试在 Safari 上打开 Microsoft Teams Web 客户端的用户被导向到下载桌面客户端。 Microsoft 正在着手准备 Safari 支持，并将通过 [Teams 路线图](https://aka.ms/TeamsRoadmap)共享更新。  <br/> |使用支持的 internet 浏览器，其中包括： Internet Explorer 11 +、 Microsoft 边缘 12 +、 Chrome 51.0 + 和 Firefox 47.0 +。  <br/> |2016 年 11 月 2 日  <br/> |
 
 ## <a name="channels"></a>频道
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
@@ -238,6 +238,6 @@ ms.locfileid: "22599365"
 |删除团队还将删除与之关联的组。  <br/> |用户可能不了解删除团队时会删除基础 Office 365 组。 此外，如果删除基础 Office 365 组，也会删除团队。  <br/> |Microsoft Teams 其他语言版本向用户提供此信息。 Office 365 组界面上未提供此信息。 技术支持可以恢复已删除的组/工作组。  <br/> |2017 年 3 月 13 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|  
+|:-----|:-----|:-----|:-----|
 |显示白屏团队桌面应用程序  <br/> | <br/> |请尝试删除或重新图形驱动程序安装在计算机或开始团队需要从命令行使用禁用 GPU 标志：<ul><li>Windows： 打开命令提示符，然后输入以下：`cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>用于 Mac： 开始终端和输入以下命令：`cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 
