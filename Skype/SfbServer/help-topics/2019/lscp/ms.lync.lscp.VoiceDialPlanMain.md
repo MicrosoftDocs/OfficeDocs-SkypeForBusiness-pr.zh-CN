@@ -12,24 +12,24 @@ localization_priority: Normal
 ms.assetid: eeb31bd9-688e-4767-a47d-6fda1a55f094
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 514540c657424c0127b0462c31c6acc548fb27ac
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 502e483a989d9e5489db952ea9b0562eb33ade9f
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20982956"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23242108"
 ---
-# <a name="dial-plan"></a><span data-ttu-id="532b4-104">拨号计划</span><span class="sxs-lookup"><span data-stu-id="532b4-104">Dial Plan</span></span>
- 
-<span data-ttu-id="532b4-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="532b4-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="532b4-107">创建或修改拨号计划中 Skype 业务服务器</span><span class="sxs-lookup"><span data-stu-id="532b4-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
-    
-- [<span data-ttu-id="532b4-108">修改拨号计划</span><span class="sxs-lookup"><span data-stu-id="532b4-108">Modify a Dial Plan</span></span>](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
-    
-- [<span data-ttu-id="532b4-109">创建或修改规范化规则中的业务的 Skype</span><span class="sxs-lookup"><span data-stu-id="532b4-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
-    
-- [<span data-ttu-id="532b4-110">手动创建或修改规范化规则</span><span class="sxs-lookup"><span data-stu-id="532b4-110">Create or Modify a Normalization Rule Manually</span></span>](http://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
-    
- 
+# <a name="dial-plan"></a><span data-ttu-id="e49d8-104">拨号计划</span><span class="sxs-lookup"><span data-stu-id="e49d8-104">Dial Plan</span></span>
+
+<span data-ttu-id="e49d8-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="e49d8-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="e49d8-107">创建或修改拨号计划中 Skype 业务服务器</span><span class="sxs-lookup"><span data-stu-id="e49d8-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
+
+- [<span data-ttu-id="e49d8-108">修改拨号计划</span><span class="sxs-lookup"><span data-stu-id="e49d8-108">Modify a Dial Plan</span></span>](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+
+- [<span data-ttu-id="e49d8-109">创建或修改规范化规则中的业务的 Skype</span><span class="sxs-lookup"><span data-stu-id="e49d8-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+
+- [<span data-ttu-id="e49d8-110">手动创建或修改规范化规则</span><span class="sxs-lookup"><span data-stu-id="e49d8-110">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+
+
 
