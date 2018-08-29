@@ -18,29 +18,29 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: 2949f170aef6567d186adcd8414e39c7689537e2
-ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
+ms.openlocfilehash: 95194240a110a5372a6891c884e729b5a0cc7d43
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "21645207"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23245434"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>通话质量仪表板中可用的维度和衡量指标
 
 呼叫质量仪表板 (CQD) 的 Microsoft 团队和 Skype 业务 online 使您能够获得见解进行业务服务使用的 Microsoft 团队和 Skype 的呼叫的质量。 本主题详细介绍了 CQD 提供的维度和衡量指标。 若要了解有关 CQD 以及如何启用它的详细信息，请参阅[打开和使用的 Microsoft 团队和 Skype 业务 online 呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)。
-  
+
 ## <a name="first-and-second-endpoint-classification"></a>第一和第二终结点分类
 
 通话质量仪表板 (CQD) 中的很多维度和衡量指标被标记为第一或第二。以下逻辑用于确定将流或通话中涉及的哪些终结点标为第一。
-  
+
 - 首先将始终保持 （AV MCU、 中介服务器等） 中的服务器终结点如果流/呼叫中涉及的服务器。
-    
+
 - 第二始终是指客户端终结点，除非流的两端均为服务器终结点。
-    
+
 - 如果两个端点都相同的类型，其中的顺序是第一个与第二基于用户代理类别的内部排序。 这样可以确保排序的一致性。
-    
+
 例如，每行表示流中涉及的一对用户代理：
-  
+
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**呼叫方的用户代理类别** <br/> |**被叫方的用户代理类别** <br/> |**First Endpoint** <br/> |**Second Endpoint** <br/> |**First Is Caller** <br/> |
@@ -51,14 +51,14 @@ ms.locfileid: "21645207"
 |中介服务器  <br/> |AV-MCU  <br/> |中介服务器  <br/> |AV-MCU  <br/> |是  <br/> |
 |OC（Skype for Business 客户端）  <br/> |OC 电话（Skype for Business IP 电话）  <br/> |OC（Skype for Business 客户端）  <br/> |OC 电话（Skype for Business IP 电话）  <br/> |是  <br/> |
 |OC 电话（Skype for Business IP 电话）  <br/> |OC（Skype for Business 客户端）  <br/> |OC（Skype for Business 客户端）  <br/> |OC 电话（Skype for Business IP 电话）  <br/> |否  <br/> |
-   
+
 > [!NOTE]
 > [!注释] 第一和第二分类与终结点是呼叫方还是被叫方无关。"第一是呼叫方"维度可以用来帮助确定哪个终结点是呼叫方或被叫方。
-  
+
 ## <a name="dimensions"></a>维度
 
 下表列出了 CQD 中目前使用的维度：
-  
+
 |||||
 |:-----|:-----|:-----|:-----|
 |**维度名称** <br/> |**数据类型/单位** <br/> |**说明** <br/> |**值** <br/> |
@@ -321,17 +321,17 @@ ms.locfileid: "21645207"
 |Inside Corp Pair  <br/> |枚举对  <br/> | 根据子网映射，显示终结点位于企业网络内部还是外部的成对值。可能的值： <br/>  内部 : 内部 <br/>  内部 : 外部 <br/>  外部 : 外部 <br/> |**示例值：** 内部： 内部  <br/> |
 |Scenario Pair  <br/> |枚举对  <br/> |显示终结点位于企业网络内部还是外部（根据子网映射确定）以及网络连接详情的成对值。  <br/> **注意：** 使用分隔对-。           |枚举中的空值表示一个或两个终结点的网络连接类型未知。 <br/>**示例值：** 客户端内部-客户端-内部 wifi  <br/> |
 |是团队  <br/> |布尔值  <br/> |True 指示流的第一个或第二个用户代理的 Microsoft 团队终结点。  <br/> False 指示用户代理的 Skype 业务终结点。  |**示例值：** True  |
-   
+
 ### <a name="notes-on-dimension-data-typeunits"></a>关于维度数据类型/单位的说明：
 
 #### <a name="range"></a>范围
 
 按范围或分组表示的维度值使用以下格式显示：
-  
+
  _\<排序顺序字符串\>[\<下限非独占\> - \<上限独占\>)_
-  
+
 例如，持续时间（分钟）维度表示以分钟为单位的通话持续时间，报告的值以取值范围的形式表示。
-  
+
 |||
 |:-----|:-----|
 |**Duration (Minutes)** <br/> |**解释方法** <br/> |
@@ -340,22 +340,22 @@ ms.locfileid: "21645207"
 |065: [2 - 3)  <br/> |2 分钟 < = 流持续时间 < 3 分钟  <br/> |
 |066: [3 - 4)  <br/> |3 分钟 < = 流持续时间 < 4 分钟  <br/> |
 |…  <br/> |…  <br/> |
-   
+
 <排序字符串> 用于控制数据显示的顺序，可以用于筛选功能。例如，利用持续时间（分钟）<"065"的筛选器可以显示持续时间小于 2 分钟的流（筛选器应包含前导"0"才能正常使用）。
-  
+
 > [!NOTE]
-> [!注释] 排序字符串的实际值并不重要。 
-  
+> [!注释] 排序字符串的实际值并不重要。
+
 #### <a name="enumeration-pair"></a>枚举对
 
 按枚举对表示的维度使用以下格式显示：
-  
+
  _\<从一个终结点的枚举值\>:\<从其他终结点的枚举值\>_
-  
+
 枚举值的顺序一致，但此顺序不反映第一或第二终结点的顺序。
-  
+
 例如，网络连接详情对显示两个终结点的网络连接详情值：
-  
+
 |||
 |:-----|:-----|
 |**Network Connection Detail Pair** <br/> |**解释方法** <br/> |
@@ -363,15 +363,15 @@ ms.locfileid: "21645207"
 |有线 : wifi  <br/> |第一个终结点使用有线以太网连接且第二个终结点使用 Wi-Fi 连接，或第二个终结点使用有线以太网连接且第一个终结点使用 Wi-Fi 连接。  <br/> |
 |: wifi  <br/> |第一个终结点使用 WiFi 连接且第二个终结点使用的网络连接未知，或第二个终结点使用 WiFi 连接且第一个终结点使用的网络连接未知。  <br/> |
 |…  <br/> |…  <br/> |
-   
+
 #### <a name="blank-values"></a>空值
 
 上表列出了维度可能出现空值的原因。如果"QoE 记录可用性"维度为 False，则很多维度和衡量指标都将为空。这通常出现在通话未能成功建立的情况下。
-  
+
 ## <a name="measures"></a>衡量指标
 
 下表列出了通话质量仪表板 (CQD) 中目前可用的衡量指标：
-  
+
 ||||
 |:-----|:-----|:-----|
 |**衡量指标名称** <br/> |**单位** <br/> |**说明** <br/> |
@@ -425,10 +425,10 @@ ms.locfileid: "21645207"
 |Second Feedback Token Audio Issue Count  <br/> |被评级流的数量  <br/> |被使用第二终结点的用户指出存在音频问题的流的数量。  <br/> |
 |First Feedback Token Video Issue Count  <br/> |被评级的流的数量  <br/> |用户使用的第一个终结点其中指出将问题与视频流的数目。  <br/> |
 |Second Feedback Token Video Issue Count  <br/> |被评级的流的数量  <br/> |用户使用的第二个终结点其中指出将问题与视频流的数目。  <br/> |
-|Audio SLA Good Call Count  <br/> |通话的数量  <br/> |分类为会议网络性能目标的 Skype 的业务语音质量 SLA （[批量许可的 Microsoft 产品和联机服务](http://aka.ms/voicequalitysla)） 的范围内的音频呼叫的数目。  <br/> |
-|Audio SLA Poor Call Count  <br/> |通话的数量  <br/> |Skype 业务语音质量 SLA （[批量许可的 Microsoft 产品和联机服务](http://aka.ms/voicequalitysla)） 归类为无法满足网络性能目标的范围内的音频呼叫数。  <br/> |
-|Audio SLA Call Count  <br/> |通话的数量  <br/> |Skype 业务语音质量 SLA （[批量许可的 Microsoft 产品和联机服务](http://aka.ms/voicequalitysla)） 的范围内的音频呼叫数。  <br/> |
-|Audio SLA Good Call Percentage  <br/> |百分比  <br/> |Skype for Business 语音质量 SLA（[Microsoft 产品和在线服务的批量许可](http://aka.ms/voicequalitysla)）范围内被分类为满足网络性能目标的音频通话的百分比。  <br/> |
+|Audio SLA Good Call Count  <br/> |通话的数量  <br/> |分类为会议网络性能目标的 Skype 的业务语音质量 SLA （[批量许可的 Microsoft 产品和联机服务](https://aka.ms/voicequalitysla)） 的范围内的音频呼叫的数目。  <br/> |
+|Audio SLA Poor Call Count  <br/> |通话的数量  <br/> |Skype 业务语音质量 SLA （[批量许可的 Microsoft 产品和联机服务](https://aka.ms/voicequalitysla)） 归类为无法满足网络性能目标的范围内的音频呼叫数。  <br/> |
+|Audio SLA Call Count  <br/> |通话的数量  <br/> |Skype 业务语音质量 SLA （[批量许可的 Microsoft 产品和联机服务](https://aka.ms/voicequalitysla)） 的范围内的音频呼叫数。  <br/> |
+|Audio SLA Good Call Percentage  <br/> |百分比  <br/> |Skype for Business 语音质量 SLA（[Microsoft 产品和在线服务的批量许可](https://aka.ms/voicequalitysla)）范围内被分类为满足网络性能目标的音频通话的百分比。  <br/> |
 |Audio Good Call Stream Count  <br/> |流的数量  <br/> |此处列出其中两个音频流 （呼叫线路） 的调用中不属于根据网络指标的质量欠佳的音频流数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
 |Audio Poor Call Stream Count  <br/> |流的数量  <br/> |此处列出其中至少一个音频流 （呼叫线路） 的调用中已归类为质量欠佳根据网络指标的音频流数：[呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。  <br/> |
 |Audio Unclassified Call Stream Count  <br/> |流的数量  <br/> |其中两个音频流 （呼叫线路） 的调用中可能不属于由于缺少网络指标的音频流的数目。  <br/> |
@@ -496,7 +496,7 @@ ms.locfileid: "21645207"
 |Firewall IP Blocked Media Failure Percentage  <br/> |百分比  <br/> |由于网络设备阻止访问 Skype for Business 服务器而未能建立的流的百分比。这些故障通常意味着未正确将代理、防火墙或其他网络安全设备配置为允许访问 Office 365 中的 Skype for Business 使用的 IP 地址和端口。  <br/> |
 |Media Failed Due To Firewall DPI Stream Count  <br/> |流的数量  <br/> |由于深度包检测不允许 Skype for Business 流量导致网络设备阻止访问进而未能建立的流的数量。这些故障通常意味着未正确将代理、防火墙或其他网络安全设备配置为允许访问 Office 365 中的 Skype for Business 使用的 IP 地址和端口。  <br/> |
 |Firewall DPI Media Failure Percentage  <br/> |百分比  <br/> |由于深度包检测不允许 Skype for Business 流量导致网络设备阻止访问进而未能建立的流的百分比。这些故障通常意味着未正确将代理、防火墙或其他网络安全设备配置为允许访问 Office 365 中的 Skype for Business 使用的 IP 地址和端口。  <br/> |
-   
+
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business 通话分析](set-up-call-analytics.md)
 
@@ -504,5 +504,4 @@ ms.locfileid: "21645207"
 
 [呼叫分析和呼叫质量仪表板](Difference-between-call-analytics-and-call-quality-dashboard.md)
 
-  
- 
+
