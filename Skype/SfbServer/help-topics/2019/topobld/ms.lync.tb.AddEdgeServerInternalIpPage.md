@@ -12,17 +12,17 @@ localization_priority: Normal
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 内部 IP 地址是边缘服务器的内部接口的 IP 地址。
-ms.openlocfilehash: 0996280e9025ccb4311be9ccab836daac66388d0
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 332b80aec238d2ed91204b97abb41c5a6a862db3
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069065"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23246622"
 ---
-# <a name="add-edge-server-internal-ip"></a><span data-ttu-id="aef92-103">添加边缘服务器内部 IP</span><span class="sxs-lookup"><span data-stu-id="aef92-103">Add Edge Server Internal IP</span></span>
- 
-<span data-ttu-id="aef92-104">内部 IP 地址是边缘服务器的内部接口的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="aef92-104">The internal IP address is the IP address of the internal interface of the Edge Server.</span></span>
-  
-<span data-ttu-id="aef92-105">可以在部署初始拓扑时或在部署后添加对外部用户访问的支持。</span><span class="sxs-lookup"><span data-stu-id="aef92-105">You can add support for external user access when you deploy your initial topology or afterward.</span></span> <span data-ttu-id="aef92-106">有关将边缘服务器添加到现有拓扑的详细信息，请参阅边缘服务器部署文档中的[Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="aef92-106">For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in the Edge Server Deployment documentation.</span></span>
-  
+# <a name="add-edge-server-internal-ip"></a><span data-ttu-id="ddcc5-103">添加边缘服务器内部 IP</span><span class="sxs-lookup"><span data-stu-id="ddcc5-103">Add Edge Server Internal IP</span></span>
+
+<span data-ttu-id="ddcc5-104">内部 IP 地址是边缘服务器的内部接口的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="ddcc5-104">The internal IP address is the IP address of the internal interface of the Edge Server.</span></span>
+
+<span data-ttu-id="ddcc5-105">可以在部署初始拓扑时或在部署后添加对外部用户访问的支持。</span><span class="sxs-lookup"><span data-stu-id="ddcc5-105">You can add support for external user access when you deploy your initial topology or afterward.</span></span> <span data-ttu-id="ddcc5-106">有关将边缘服务器添加到现有拓扑的详细信息，请参阅边缘服务器部署文档中的[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="ddcc5-106">For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in the Edge Server Deployment documentation.</span></span>
+
 
