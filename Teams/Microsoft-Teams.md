@@ -4,12 +4,12 @@ hide_bc: true
 title: Microsoft Teams 文档和实践指导
 description: Microsoft Teams 文档和实践指导
 ms.topic: hub-page
-ms.openlocfilehash: a9fa022e0d70655f916ab76988199fa6d06b648e
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 519a5a254fcc75b0f29c8f83c7bdf87b00103ccf
+ms.sourcegitcommit: 309941f79f0f8dbcbce620fe90e9f73dd0bcfcbd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546348"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23289896"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -90,7 +90,7 @@ ms.locfileid: "22546348"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>云语音</h3>
-                                                    <p>了解开始使用 Teams 部署音频会议和电话系统所需的实践指导</p>
+                                                    <p>部署呼叫计划音频会议和电话中团队系统</p>
                                                 </div>
                                             </div>
                                         </div>
