@@ -12,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: abc2f59c-d21a-4d3f-bf23-6ac86effcd86
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 85cfefd649e5da875dc3f4ab351ae187afa25bbc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 214712fc720c45271f22bb6c69d35b5a7de1e1c5
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20991438"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23246629"
 ---
 # <a name="network-configuration-edit-global-setting"></a>网络配置： 编辑全局设置
- 
+
 您希望执行什么操作？单击您要执行的任务所对应的链接。
-  
-- [启用呼叫允许控制](http://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
-    
-- [启用媒体绕过](http://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
-    
+
+- [启用呼叫允许控制](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
+
+- [启用媒体绕过](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
+
 有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
 

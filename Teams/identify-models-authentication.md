@@ -12,12 +12,12 @@ MS.collection: Strat_MT_TeamsAdmin
 description: 了解 Microsoft Teams 中的不同标识模式，例如，云、同步和联合。 此外，还了解多重身份验证。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdc9c61938afe2173f5fe1326a0431d781144c7b
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
-ms.translationtype: MT
+ms.openlocfilehash: da61ca04e97670084a4df866c8bcfbe794343662
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "18999781"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248557"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft Teams 中的标识模式和身份验证
 ==========================================
@@ -45,7 +45,7 @@ Microsoft Teams 支持在 Office 365 中可以使用的所有标识模式。 支
 
 有关其他详细信息，请参阅[选择 Office 365 的登录模式](https://go.microsoft.com/fwlink/?linkid=854626)和[了解 Office 365 标识和 Azure Active Directory](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9)指南。
 
-<a name="multi-factor-authentication"></a>多重身份验证 
+<a name="multi-factor-authentication"></a>多重身份验证
 ----------------------------
 
 Office 365 计划支持多重身份验证 (MFA)，这可提高用户登录 Office 365 服务的安全性。 Office 365 应用 MFA 时，在用户正确输入其密码后，需要用户在其智能手机上确认电话、短信或应用通知。 仅当通过此辅助身份验证因素后，用户才可以登录。
@@ -58,4 +58,4 @@ Office 365 计划支持多重身份验证 (MFA)，这可提高用户登录 Offic
 |租户类型  |可用的 MFA 辅助因素选项  |备注  |
 |---------|---------|---------|
 |**仅限云**     |适用于 Office 365 的 MFA <ul><li>电话</li><li>短信</li><li>移动应用通知</li><li>移动应用代码</li></ul>        |[Office 365 部署的多重身份验证计划](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**混合设置（同步标识或联合标识模式）**     |<ul><li>适用于 Office 365 的 MFA</li><li>Azure MFA 模块（集成了 ADFS）</li><li>物理或虚拟智能卡（集成了 ADFS）</li></ul>         |注意：[与 Azure AD 联合兼容的标识提供者](http://go.microsoft.com/fwlink/p/?LinkId=510953)中提供了其他 MFA 解决方案         |
+|**混合设置（同步标识或联合标识模式）**     |<ul><li>适用于 Office 365 的 MFA</li><li>Azure MFA 模块（集成了 ADFS）</li><li>物理或虚拟智能卡（集成了 ADFS）</li></ul>         |注意：[与 Azure AD 联合兼容的标识提供者](https://go.microsoft.com/fwlink/p/?LinkId=510953)中提供了其他 MFA 解决方案         |

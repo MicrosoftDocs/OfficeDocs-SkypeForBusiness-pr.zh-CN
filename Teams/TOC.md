@@ -71,11 +71,19 @@
 <!-- ============================================================ -->
 # 管理
 ## [查看用户体验指南的质量](quality-of-experience-review-guide.md)
-## 呼叫分析
-### [通话质量仪表板中可用的维度和衡量指标](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [设置 Skype for Business 通话分析](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [使用通话分析解决 Skype for Business 通话质量不佳的问题](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+<!--## Call analytics
+### [Dimensions and measures available in Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Set up Skype for Business Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Use Call Analytics to troubleshoot poor Skype for Business call quality](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Call Analytics and Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+-->
+## 监视呼叫质量和 QoS
+### [Teams 中的 QoS](QoS-in-Teams.md)
 ### [呼叫分析和呼叫质量仪表板](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [通话质量仪表板中可用的维度和衡量指标](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [设置呼叫分析](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [使用通话分析解决通话质量不佳的问题](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [通话质量仪表板中的流分类](/SkypeForBusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ## 故障排除和支持
 ### [Teams 的已知问题](Known-issues.md)
@@ -83,13 +91,7 @@
 ### [对 Teams 客户端的连接问题进行故障排除](connectivity-issues.md)
 ### [在对 Teams 进行故障排除时使用日志文件](log-files.md)
 ### [验证 Teams 的服务运行状况](service-health.md)
-## 监视通话质量和 QOS
-### [Teams 中的 QoS](QoS-in-Teams.md)
-### [呼叫分析和呼叫质量仪表板](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [通话质量仪表板中可用的维度和衡量指标](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [设置 Skype for Business 通话分析](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [使用通话分析解决 Skype for Business 通话质量不佳的问题](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [通话质量仪表板中的流分类](/SkypeForBusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
 <!-- ============================================================ -->
 
 

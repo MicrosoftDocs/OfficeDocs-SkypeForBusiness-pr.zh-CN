@@ -1,5 +1,5 @@
 ---
-title: 管理用户帐户使用在线连接器
+title: 管理用户帐户使用 Online Connector
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,104 +15,104 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: 使用在 Windows PowerShell Get CsOnlineUser cmdlet 以获得有关信息组织的 Skype 业务联机用户。
-ms.openlocfilehash: 74982485d33cc3a5e1ad76cc3978f81142ad6ea9
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Windows PowerShell 中使用 Get-csonlineuser cmdlet 以获取有关您组织的 Skype 针对业务 Online 用户信息。
+ms.openlocfilehash: 96f4025b062e13086bcc878fd9166ced9325fbee
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23250191"
 ---
-# <a name="manage-user-accounts-using-the-online-connector"></a>管理用户帐户使用在线连接器
+# <a name="manage-user-accounts-using-the-online-connector"></a>管理用户帐户使用 Online Connector
 
 ## <a name="manage-user-accounts"></a>管理用户帐户
 
 本主题包括以下部分：
-  
-- [返回有关所有您 Skype 的在线业务用户的信息](manage-user-accounts-using-the-online-connector.md#BKAllUsers)
-    
-- [返回某一特定用户的信息在 Skype 在线业务](manage-user-accounts-using-the-online-connector.md#BKSpecificUser)
-    
-- [返回有关特定用户的特定信息在 Skype 在线业务](manage-user-accounts-using-the-online-connector.md#BKSpecificUsers)
-    
-- [在 Skype 的用户的筛选的列表返回的在线业务](manage-user-accounts-using-the-online-connector.md#BKListofUsers)
-    
+
+- [返回有关所有 Lync Online 用户的信息](manage-user-accounts-using-the-online-connector.md#BKAllUsers)
+
+- [返回业务 online 的 Skype 中的特定用户的信息](manage-user-accounts-using-the-online-connector.md#BKSpecificUser)
+
+- [返回业务 online 的 Skype 中的特定用户的特定信息](manage-user-accounts-using-the-online-connector.md#BKSpecificUsers)
+
+- [返回业务 online 的 Skype 中的用户的已筛选的列表](manage-user-accounts-using-the-online-connector.md#BKListofUsers)
+
 > [!NOTE]
-> 集中供联机业务管理员 Skype 的 cmdlet 的也包括**集 CsUser** cmdlet。 但是，**集 CsUser**不能当前用于管理 Skype 的在线业务，除了将_AudioVideoDisabled_参数设置。 如果您尝试使用任何其他参数运行该 cmdlet，它将失败，并与以下类似的错误消息： 无法设置"SipAddress"。 此参数将被限制在远程租户 PowerShell。
-  
+> Skype 到业务 Online 管理员可用的 cmdlet 集，也包含**Set-csuser** cmdlet。 但是， **Set-csuser** ，当前不用来管理 Skype 业务 online，除_AudioVideoDisabled_参数设置。 如果您尝试运行带有任何其他参数的 cmdlet，它将与类似如下的错误消息失败： 无法设置"SipAddress"。 此参数是远程租户 PowerShell 内受限制。
+
 ### <a name="return-information-about-all-your-skype-for-business-online-users"></a>返回有关所有 Lync Online 用户的信息
 <a name="BKAllUsers"> </a>
 
-若要返回所有用户已启用为 Skype 的在线业务的有关信息，请调用不带任何附加参数[获取 CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) cmdlet。
-  
+若要返回所有已启用的 Skype 业务 online 您用户的信息，请调用不带任何其他参数[Get-csonlineuser](https://go.microsoft.com/fwlink/p/?linkid=849603) cmdlet。
+
 ```
 Get-CsOnlineUser
 ```
 
-若要返回单一、 随机选中用户 （例如，若要将此帐户用于测试目的） 的信息，请调用**Get CsOnlineUser** cmdlet，将_ResultSize_参数设置为 1。
-  
+若要返回单个、 随机选择用户 （例如，要用于测试此帐户） 的信息，请调用**Get-csonlineuser** cmdlet，并将_ResultSize_参数设置为 1。
+
 ```
 Get-CsOnlineUser -ResultSize 1
 ```
 
-它使**Get CsOnlineUser** cmdlet 返回只是一个用户，而不考虑您的组织中有多少个用户的信息。 若要返回五个用户的信息，请_ResultSize_参数的值设置为 5。
-  
+它使**Get-csonlineuser** cmdlet 返回仅仅对一个用户，无论您的组织中有多少用户的信息。 要返回的五个用户的信息，请设置为 5 _ResultSize_参数的值。
+
 ```
 Get-CsOnlineUser -ResultSize 5
 ```
 
-### <a name="return-information-for-a-specific-user-in-skype-for-business-online"></a>返回某一特定用户的信息在 Skype 在线业务
+### <a name="return-information-for-a-specific-user-in-skype-for-business-online"></a>返回业务 online 的 Skype 中的特定用户的信息
 <a name="BKSpecificUser"> </a>
 
-有多个引用特定的用户帐户，在调用[Get CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) cmdlet 的方法。 您可以使用该用户的 Active Directory 域服务 (AD DS) 显示名称。
-  
+有多种方法的调用[Get-csonlineuser](https://go.microsoft.com/fwlink/p/?linkid=849603) cmdlet 时引用特定的用户帐户。 您可以使用用户的 Active Directory 域服务 (AD DS) 显示名称。
+
 ```
 Get-CsOnlineUser -Identity "Ken Myer"
 ```
 
-您可以使用该用户的 SIP 地址。
-  
+您可以使用用户的 SIP 地址。
+
 ```
 Get-CsOnlineUser -Identity "sip:kenmyer@litwareinc.com"
 ```
 
-您可以使用该用户的用户主体名称 (UPN)。
-  
+您可以使用用户的用户主体名称 (UPN)。
+
 ```
 Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 ```
 
-### <a name="return-specific-information-for-specific-users-in-skype-for-business-online"></a>返回有关特定用户的特定信息在 Skype 在线业务
+### <a name="return-specific-information-for-specific-users-in-skype-for-business-online"></a>返回业务 online 的 Skype 中的特定用户的特定信息
 <a name="BKSpecificUsers"> </a>
 
-默认情况下， [Get CsOnlineUser](http://technet.microsoft.com/library/2bfafd70-a7d9-4308-a353-5ecf44249b53.aspx) cmdlet 返回大量每个 Skype 的在线业务的用户帐户的信息。 如果您感兴趣信息的子集，管道为**对象选择的**cmdlet 返回的数据。 例如，此命令返回用户 Ken Myer，然后使用**选择对象**cmdlet 来限制信息显示的所有数据在屏幕上对 Ken 的 AD DS 显示名称和拨号计划。
-  
+默认情况下， [Get-csonlineuser](https://technet.microsoft.com/library/2bfafd70-a7d9-4308-a353-5ecf44249b53.aspx) cmdlet 返回大量的每个 Skype 业务 Online 用户帐户的信息。 如果您感兴趣的信息的子集，通过管道传递到**Select-object** cmdlet 返回的数据。 例如，此命令返回用户 Ken myer 的用户，然后使用**选择对象**cmdlet 来限制信息显示的所有数据屏幕 Ken 的 AD DS 显示名称和拨号计划。
+
 ```
 Get-CsOnlineUser -Identity "Ken Myer" | Select-Object DisplayName, DialPlan
 ```
 
-以下命令返回的显示名称和拨号计划为您的所有用户。
-  
+下面的命令返回的显示名称和拨号计划的所有用户。
+
 ```
 Get-CsOnlineUser | Select-Object DisplayName, DialPlan
 ```
 
-Skype 的属性查找在线业务的用户帐户，请使用下面的命令。
-  
+若要查找业务 Online 用户帐户的 Skype 属性，请使用以下命令。
+
 ```
 Get-CsOnlineUser | Get-Member
 ```
 
-### <a name="return-a-filtered-list-of-users-in-skype-for-business-online"></a>在 Skype 的用户的筛选的列表返回的在线业务
+### <a name="return-a-filtered-list-of-users-in-skype-for-business-online"></a>返回业务 online 的 Skype 中的用户的已筛选的列表
 <a name="BKListofUsers"> </a>
 
-通过使用[Get CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) cmdlet 和_LdapFilter_或_筛选器_参数，可以轻松地返回一组目标用户有关的信息。 例如，此命令返回工作的所有用户在财务部门。
-  
+通过使用[Get-csonlineuser](https://go.microsoft.com/fwlink/p/?linkid=849603) cmdlet 和_LdapFilter_或_筛选器_参数，您可以轻松地返回一组目标的用户的信息。 例如，此命令返回财务部门中的所有工作的用户。
+
 ```
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
 ## <a name="related-topics"></a>相关主题
-[设置计算机上的 Skype 业务在线管理使用 Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[设置您的计算机的业务联机管理使用 Windows PowerShell 的 Skype](set-up-your-computer-for-windows-powershell.md)
 
-  
- 
+

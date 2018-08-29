@@ -12,25 +12,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d18a648-a0e1-4401-a1e6-7a2755ba8c66
 description: 必须为 Standard Edition 服务器或 Enterprise Edition 前端池指定用作文件存储的文件共享。可以将现有的文件共享用作文件存储，也可以通过指定文件共享所在的文件服务器的完全限定域名 (FQDN) 和新文件共享的文件夹名称来指定新的文件共享。
-ms.openlocfilehash: a7ba229b22715880a496f811344f44fd18740650
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cc1b4cea0bda9e523b4cc10583167cec103eaad3
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23242202"
 ---
 # <a name="add-front-end-file-store"></a>添加前端文件存储
- 
+
 必须为 Standard Edition 服务器或 Enterprise Edition 前端池指定用作文件存储的文件共享。可以将现有的文件共享用作文件存储，也可以通过指定文件共享所在的文件服务器的完全限定域名 (FQDN) 和新文件共享的文件夹名称来指定新的文件共享。
-  
+
 > [!IMPORTANT]
-> 文件共享不能位于 Enterprise Edition 前端服务器，但可以位于 Standard Edition Server。 
-  
+> 文件共享不能位于 Enterprise Edition 前端服务器，但可以位于 Standard Edition Server。
+
 > [!IMPORTANT]
-> 可以先在拓扑生成器中定义文件共享，再创建文件共享，但是必须在发布拓扑前在定义的位置创建文件共享。 
-  
+> 可以先在拓扑生成器中定义文件共享，再创建文件共享，但是必须在发布拓扑前在定义的位置创建文件共享。
+
 > [!IMPORTANT]
-> 向拓扑中添加 Enterprise 前端池或 Standard Edition 服务器时，拓扑生成器必须能够在要用作文件存储的文件共享上设置文件存储并配置随机访问控制列表 (DACL)。这就要求在运行拓扑生成器以发布新拓扑时，需使用对文件共享具有完全控制权限（读/写/修改）的帐户登录。 
-  
-有关存储支持文件共享的详细信息，请参阅[文件存储支持](http://technet.microsoft.com/library/ed66430d-3c19-4267-938c-956a51005073.aspx)性文档和[SQL Server 数据和日志文件位置](http://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)中部署文档中。 有关配置文件共享的详细信息，请参阅[支持服务器配置](http://technet.microsoft.com/library/3be990a1-5485-4b83-b73f-947ac97821f9.aspx)的支持文档。 关于设计的前端企业版池的拓扑的详细信息，请参阅部署文档中的[定义和配置前结束池](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)。
-  
+> 向拓扑中添加 Enterprise 前端池或 Standard Edition 服务器时，拓扑生成器必须能够在要用作文件存储的文件共享上设置文件存储并配置随机访问控制列表 (DACL)。这就要求在运行拓扑生成器以发布新拓扑时，需使用对文件共享具有完全控制权限（读/写/修改）的帐户登录。
+
+有关文件共享的存储支持的详细信息，请参阅[文件存储支持](https://technet.microsoft.com/library/ed66430d-3c19-4267-938c-956a51005073.aspx)的可支持性文档和[SQL Server 数据和日志文件放置](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)在部署文档中。 有关详细信息并置的文件共享，请参阅可支持性文档中的[Supported Server Collocation](https://technet.microsoft.com/library/3be990a1-5485-4b83-b73f-947ac97821f9.aspx) 。 有关设计的 Enterprise Edition 前端池的拓扑的详细信息，请参阅部署文档中的[Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) 。
+
 

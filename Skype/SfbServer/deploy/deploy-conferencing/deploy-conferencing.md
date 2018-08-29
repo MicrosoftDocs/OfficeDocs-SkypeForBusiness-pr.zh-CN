@@ -9,61 +9,61 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: 摘要： 阅读本主题可了解如何为业务服务器部署中 Skype 的会议。
-ms.openlocfilehash: b893a78ae5abb7c920c588cae948779cc3095c63
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e004afdc420bcd99679e20c29bf6ba7efc7f735f
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010517"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23263821"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>为业务服务器部署中 Skype 的会议
- 
+
 **摘要：** 阅读本主题可了解如何为业务 Server 部署中 Skype 的会议。
-  
-有四种类型的会议中的业务服务器 Skype 可用： web 会议、 音频和视频 (A / V) 会议、 电话拨入式会议和即时消息 (IM) 会议。 根据你的需要，可选择启用所有会议类型，或者只使用一种类型。 
-  
-在部署 Skype 业务服务器时，会自动部署 IM 会议功能。 在使用拓扑生成器创建并发布新的拓扑时，可按照以下清单的说明，指定是否要部署 Web 会议、A/V 会议和电话拨入式会议： 
-  
+
+有四种类型的会议中的业务服务器 Skype 可用： web 会议、 音频和视频 (A / V) 会议、 电话拨入式会议和即时消息 (IM) 会议。 根据你的需要，可选择启用所有会议类型，或者只使用一种类型。
+
+在部署 Skype 业务服务器时，会自动部署 IM 会议功能。 在使用拓扑生成器创建并发布新的拓扑时，可按照以下清单的说明，指定是否要部署 Web 会议、A/V 会议和电话拨入式会议：
+
 - [Deployment checklist for web and audio/video conferencing](deploy-conferencing.md#BKMK_ChecklistWebConferencing)
-    
+
 - [电话拨入式会议的部署流程图和清单](deploy-conferencing.md#BKMK_DialinConferencing)
-    
+
 部署会议之前，您应阅读以下规划主题：
-  
+
 - [规划业务服务器中 Skype 的会议](../../plan-your-deployment/conferencing/conferencing.md)
-    
+
 - [硬件和软件要求的 Skype 中的会议的企业服务器](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
-    
+
 - [规划业务 Server Skype 的会议拓扑](../../plan-your-deployment/conferencing/conferencing-topology.md)
-    
+
 - [规划电话拨入式会议中 Skype 业务服务器](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
-    
+
 - [规划大型会议中 Skype 业务服务器](../../plan-your-deployment/conferencing/large-meetings.md)
-    
+
 ## <a name="deployment-checklist-for-web-and-audiovideo-conferencing"></a>Web 会议和音频/视频会议的部署清单
 <a name="BKMK_ChecklistWebConferencing"> </a>
 
-下表提供了将 Web 会议和音频/视频会议部署到现有拓扑所需步骤的概述。 表中包含相关规划和过程文档的链接。 
-  
+下表提供了将 Web 会议和音频/视频会议部署到现有拓扑所需步骤的概述。 表中包含相关规划和过程文档的链接。
+
 |**阶段**|**步骤**|**角色和组成员身份**|**文档**|
 |:-----|:-----|:-----|:-----|
 |**安装必需的硬件和软件** <br/> |前端池的前端服务器和 Standard Edition server 上，运行会议。 请参阅前端服务器的服务器和环境要求。  <br/> 如果要启用 web 会议，您需要确保 Skype 业务服务器可以相互 Office Web Apps Server，用来处理共享和呈现的 PowerPoint 演示文稿。  <br/> 对于 Web 会议，还需要指定要用作文件存储的文件共享。  <br/> 是否要允许使用 Skype for Business 客户端的外部用户加入会议？如果是，需要部署边缘服务器。  <br/> |属于本地 Administrators 组成员的域用户  <br/> | [Skype for Business Server 2019 服务器要求](../../../SfBServer2019/plan/system-requirements.md) <br> [Skype for Business Server 2015 的服务器要求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Skype for Business Server 2015 的环境要求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/> [硬件和软件要求的 Skype 中的会议的企业服务器](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md) <br/> [配置与 Skype 中的 Office Web Apps Server 的集成的企业服务器](office-web-app-server.md) <br/> [为 Business Server Skype 创建文件共享](../../deploy/install/create-a-file-share.md) <br/> [在 Skype for Business Server 2015 中规划边缘服务器部署](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) <br/> [在 Skype for Business Server 2015 中部署边缘服务器](../../deploy/deploy-edge-server/deploy-edge-server.md) <br/> |
 |**创建相应的内部拓扑以支持会议** <br/> |您需要运行拓扑生成器向拓扑中，添加会议，然后发布该拓扑。  <br/> |若要定义拓扑，需具有本地 Users 组成员的帐户  <br/> 用于 Business Server 文件存储的 Skype 的文件共享上发布拓扑，以 Domain Admins 组和 RTCUniversalServerAdmins 组的成员且具有完全控制权限 （读/写/修改） 的帐户 (以便拓扑生成器可以配置所需的 Dacl）  <br/> |[创建和发布新拓扑中 Skype 业务服务器](../../deploy/install/create-and-publish-new-topology.md) <br/> |
 |**配置会议策略和配置设置** <br/> |使用业务 Server Control Panel 或业务 Server Management Shell 的 Skype Skype 配置会议策略和配置设置。  <br/> |RTCUniversalServerAdmins 组 (仅限于 Windows PowerShell) 或分配给 CSAdministrator 角色的用户  <br/> |[Skype 中的会议策略管理业务服务器 （英文）](../../manage/conferencing/conferencing-policies.md) <br/> [管理会议中 Skype 业务服务器的配置设置](../../manage/conferencing/meeting-configuration-settings.md) <br/> [New-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps) <br/> [Set-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> [New-csconferencingconfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> [Set-csconferencingconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> [New-csmeetingconfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> [通过 Set-csmeetingconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |
-   
+
 ## <a name="deployment-flowchart-and-checklist-for-dial-in-conferencing"></a>电话拨入式会议的部署流程图和清单
 <a name="BKMK_DialinConferencing"> </a>
 
  电话拨入式会议允许用户从公用电话交换网 (PSTN) 拨入来加入音频/视频会议。
-  
-电话拨入式会议所需的组件的一些还会使用企业语音。 例如，如果要部署企业语音，还必须部署中介服务器和 PSTN 网关 -- 这也是电话拨入式会议所需的组件。 因此，如何部署电话拨入式会议取决于是否还要部署企业语音解决方案。 
-  
+
+电话拨入式会议所需的组件的一些还会使用企业语音。 例如，如果要部署企业语音，还必须部署中介服务器和 PSTN 网关 -- 这也是电话拨入式会议所需的组件。 因此，如何部署电话拨入式会议取决于是否还要部署企业语音解决方案。
+
 根据是否还要部署企业语音解决方案，电话拨入式会议流程图显示了必须遵循的步骤。 流程图后面的表概述了部署电话拨入式会议所需的步骤及推荐步骤。 表中还包含相关规划和过程文档的链接。 有关规划完整的企业语音解决方案的详细信息，请参阅[规划企业语音解决方案中的业务服务器 Skype](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)。
-  
+
 **电话拨入式会议流程图**
 
 ![部署电话拨入式会议流程图](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
-  
+
 **电话拨入式会议部署清单**
 
 |**阶段**|**步骤**|**角色和组成员身份**|**文档**|
@@ -78,9 +78,9 @@ ms.locfileid: "21010517"
 |**（可选）验证或修改用户个人标识号 (PIN) 要求** <br/> |使用业务 Server Control Panel 或业务 Server Management Shell 的 Skype Skype 查看或修改会议**PIN 策略**。 可以指定最小 PIN 长度、最大登录尝试次数、PIN 到期时间以及是否允许使用通用模式。  <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[管理 Business Server （英文） 中 Skype 电话拨入式会议 PIN 策略](../../manage/conferencing/pin-policies.md) <br/> [Get-cspinpolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps) <br/> [Set-cspinpolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps) <br/> |
 |**（可选）修改 DTMF 命令的键映射** <br/> |使用 **Set-CsDialinConferencingDtmfConfiguration** cmdlet 修改用于双音多频 (DTMF) 命令的键，参与者可使用这些命令控制会议设置（如静音和取消静音或锁定和解除锁定）。 <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[管理业务服务器中 Skype 的 DTMF 命令的键映射](../../manage/conferencing/key-mapping-for-dtmf-commands.md) <br/> [通过 Set-csdialinconferencingdtmfconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |
 |**（可选）修改会议加入和离开通知行为** <br/> |使用 **Set-CsDialinConferencingConfiguration** 更改参与者加入和离开会议时通知的工作方式。 <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[管理会议加入和离开通知中 Skype 业务服务器](../../manage/conferencing/join-and-leave-announcements.md) <br/> [Set-csdialinconferencingconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) <br/> |
-|**（推荐）配置会议目录** <br/> |使用 **New-CsConferenceDirectory** cmdlet 为池中的每 999 个用户创建一个会议目录。 <br/> |RTCUniversalServerAdmins  <br/> |[（建议）创建会议目录](http://technet.microsoft.com/library/787f4c94-1c96-468a-a74d-e06b7bd4b8a3.aspx) <br/> [新 CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |
+|**（推荐）配置会议目录** <br/> |使用 **New-CsConferenceDirectory** cmdlet 为池中的每 999 个用户创建一个会议目录。 <br/> |RTCUniversalServerAdmins  <br/> |[（建议）创建会议目录](https://technet.microsoft.com/library/787f4c94-1c96-468a-a74d-e06b7bd4b8a3.aspx) <br/> [新 CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |
 |**（可选）验证电话拨入式会议设置** <br/> |使用 **Get-CsDialinConferencingAccessNumber** cmdlet 搜索具有未被任何访问号码使用的电话拨入式会议区域的拨号计划，以及尚未分配区域的访问号码。 <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> CsHelpDesk  <br/> |[在 Skype for Business Server 中配置电话拨入式会议](dial-in-conferencing.md) <br/> [测试电话拨入式会议中的业务服务器 Skype](../../manage/conferencing/tests.md) <br/> [Get-csdialinconferencingaccessnumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps) <br/> |
 |**（可选）验证电话拨入式会议** <br/> |使用 **Test-CsDialInConferencing** cmdlet 测试指定池的访问号码是否正常工作。 <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[测试电话拨入式会议中的业务服务器 Skype](../../manage/conferencing/tests.md) <br/> [Test-csdialinconferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |
 |**（可选）欢迎用户参加电话拨入式会议并设置初始 PIN** <br/> |使用**Set-cspinsendcawelcomemail**脚本设置用户的初始 Pin 并发送包含初始 PIN 和指向电话拨入式会议设置页的链接的欢迎电子邮件。 <br/> |RTCUniversalServerAdmins  <br/> |[发送欢迎电子邮件以电话拨入式 Skype 业务服务器中的用户](../../manage/conferencing/welcome-emails.md) <br/> |
-   
+
 

@@ -12,19 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a15b69e0-d3d1-4648-af25-1c0f25e5da8e
 description: 必须指定文件共享以用作控制器的文件存储。可以将现有的文件共享用作文件存储，也可以通过指定文件共享所在的文件服务器的完全限定域名 (FQDN) 和新文件共享的文件夹名称来指定新的文件共享。
-ms.openlocfilehash: b8873ed9a7fd4f66f60c4f1e8836c2d7a06b5f2e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e062ae816135466996149976b8d905078b43245e
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23263807"
 ---
 # <a name="add-director-file-store"></a>添加控制器文件存储
- 
+
 必须指定文件共享以用作控制器的文件存储。可以将现有的文件共享用作文件存储，也可以通过指定文件共享所在的文件服务器的完全限定域名 (FQDN) 和新文件共享的文件夹名称来指定新的文件共享。
-  
+
 > [!IMPORTANT]
-> 向拓扑中添加控制器时，拓扑发布需要相应的访问权限以在要用作文件存储的文件共享上设置文件存储并配置随机访问控制列表 (DACL)。这就要求在运行拓扑生成器并发布新拓扑时，需使用对文件共享具有完全控制权限（读/写/修改）的帐户登录。 
-  
-有关存储支持文件共享的详细信息，请参阅[文件存储支持](http://technet.microsoft.com/library/ed66430d-3c19-4267-938c-956a51005073.aspx)性文档和[SQL Server 数据和日志文件位置](http://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)中部署文档中。 有关配置文件共享的详细信息，请参阅[支持服务器配置](http://technet.microsoft.com/library/3be990a1-5485-4b83-b73f-947ac97821f9.aspx)的支持文档。 针对控制器设计拓扑结构的详细信息，请参阅部署文档中[定义拓扑生成器中单导演](http://technet.microsoft.com/library/8e9a659d-23b0-401d-b296-59c7df414d49.aspx)。
-  
+> 向拓扑中添加控制器时，拓扑发布需要相应的访问权限以在要用作文件存储的文件共享上设置文件存储并配置随机访问控制列表 (DACL)。这就要求在运行拓扑生成器并发布新拓扑时，需使用对文件共享具有完全控制权限（读/写/修改）的帐户登录。
+
+有关文件共享的存储支持的详细信息，请参阅[文件存储支持](https://technet.microsoft.com/library/ed66430d-3c19-4267-938c-956a51005073.aspx)的可支持性文档和[SQL Server 数据和日志文件放置](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)在部署文档中。 有关详细信息并置的文件共享，请参阅可支持性文档中的[Supported Server Collocation](https://technet.microsoft.com/library/3be990a1-5485-4b83-b73f-947ac97821f9.aspx) 。 有关为控制器设计拓扑的详细信息，请参阅部署文档中的[定义单个控制器拓扑生成器中](https://technet.microsoft.com/library/8e9a659d-23b0-401d-b296-59c7df414d49.aspx)。
+
 
