@@ -69,6 +69,40 @@
 
 
 <!-- ============================================================ -->
+# [从 for Business 的 Skype 升级到团队](Journey-SkypeforBusiness-Teams.md)
+## [教程：从 Skype for Business 到 Teams 的旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [升级基本](upgrade-basic.md)
+### [示例电子邮件和调查](upgrade-emails-surveys.md)
+## [升级专业人员](upgrade-pro.md)
+## [规划您升级旅程](upgrade-plan-journey.md)
+### [登记项目利益干系人](upgrade-enlist-stakeholders.md)
+### [定义您的项目范围](upgrade-define-project-scope.md)
+### [了解共存及互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [规划质量](upgrade-plan-for-quality.md)
+## [为团队准备环境](upgrade-prepare-environment.md)
+### [准备团队 IT 人员](upgrade-prepare-IT-pros.md)
+### [先决条件](upgrade-plan-journey-prerequisites.md)
+### [评估环境](upgrade-plan-journey-evaluate-environment.md)
+### [准备您的网络](upgrade-prepare-environment-prepare-network.md)
+### [准备您的服务](upgrade-prepare-environment-prepare-service.md)
+## [准备您的组织团队](upgrade-prepare-organization.md)
+### [评估组织更改准备情况](upgrade-org-change-readiness.md)
+### [准备用户就绪性计划](upgrade-user-readiness.md)
+## [召开用户试生产](pilot-essentials.md)
+## [执行升级到团队](upgrade-to-teams.md)
+### [从联机业务的 Skype 升级到团队](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+### [从 Skype 业务混合升级，向工作组](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
+### [从升级 Skype 业务本地到团队](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
+## [通过用户采用驱动器值](continue-journey.md)
+### [运行您的服务](upgrade-operate-my-service.md)
+### [监视质量](upgrade-monitor-quality.md)
+### [增强您的服务](upgrade-enhance-my-service.md)
+## [常见问题](FAQ-journey.md)
+
+<!-- ============================================================ -->
+
+<!-- ============================================================ -->
 # 管理
 ## [查看用户体验指南的质量](quality-of-experience-review-guide.md)
 <!--## Call analytics
@@ -102,40 +136,6 @@
 ## [视频 - Teams 中的音频会议](audio-conferencing-videos.md)
 <!-- ============================================================ -->
 
-
-<!-- ============================================================ -->
-# [从 for Business 的 Skype 升级到 Microsoft 团队](Journey-SkypeforBusiness-Teams.md)
-## [教程：从 Skype for Business 到 Teams 的旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [升级基本](upgrade-basic.md)
-### [示例电子邮件和调查](upgrade-emails-surveys.md)
-## [升级专业人员](upgrade-pro.md)
-## [规划您升级旅程](upgrade-plan-journey.md)
-### [登记项目利益干系人](upgrade-enlist-stakeholders.md)
-### [定义您的项目范围](upgrade-define-project-scope.md)
-### [了解共存及互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-#### [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [规划质量](upgrade-plan-for-quality.md)
-## [为团队准备环境](upgrade-prepare-environment.md)
-### [准备团队 IT 人员](upgrade-prepare-IT-pros.md)
-### [先决条件](upgrade-plan-journey-prerequisites.md)
-### [评估环境](upgrade-plan-journey-evaluate-environment.md)
-### [准备您的网络](upgrade-prepare-environment-prepare-network.md)
-### [准备您的服务](upgrade-prepare-environment-prepare-service.md)
-## [准备您的组织团队](upgrade-prepare-organization.md)
-### [评估组织更改准备情况](upgrade-org-change-readiness.md)
-### [准备用户就绪性计划](upgrade-user-readiness.md)
-## [召开用户试生产](pilot-essentials.md)
-## [执行升级到团队](upgrade-to-teams.md)
-### [从联机业务的 Skype 升级到团队](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-### [从 Skype 业务混合升级，向工作组](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
-### [从升级 Skype 业务本地到团队](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
-## [通过用户采用驱动器值](continue-journey.md)
-### [运行您的服务](upgrade-operate-my-service.md)
-### [监视质量](upgrade-monitor-quality.md)
-### [增强您的服务](upgrade-enhance-my-service.md)
-## [常见问题](FAQ-journey.md)
-
-<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # 安全性和合规性

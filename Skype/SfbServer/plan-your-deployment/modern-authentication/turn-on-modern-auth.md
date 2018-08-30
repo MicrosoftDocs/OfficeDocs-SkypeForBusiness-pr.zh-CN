@@ -11,12 +11,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: 为管理员提供的身份验证方法的更多控制此文章轮廓 cmdlet 使用的企业内部和外部、。 管理员可以打开身份验证方法或关闭到他们的网络的内部或外部。
-ms.openlocfilehash: d460632d810eace4a6b43665d1d8e3335e3eae3c
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 2922d270f7a033a1523083ed15adefc5fb5f331d
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546555"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485804"
 ---
 # <a name="turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>关闭旧身份验证方法内部和外部到网络。
 
@@ -59,7 +59,7 @@ __键入 1 的说明：__ 这是默认方案 MA 时处于__打开__状态的 Sky
 
 __类型 2 说明：__ 这种拓扑阻止 NTLM*外部*，但允许 NTLM 或 Kerberos （不支持 ADAL 的客户端）*内部*工作时。 如果您的客户端支持 ADAL 它们将内部使用 MA。
 
-__类型 3 说明：__ 这种拓扑的所有用户需要 MA。 所有 ADAL 支持客户端都能够在此拓扑中，并不将利用密码。
+__类型 3 说明：__ 这种拓扑的所有用户需要 MA。 所有 ADAL 支持客户端都能够在此拓扑中，并将未利用密码，如果，例如，您可以关闭使用与基于证书的验证的密码
 
 __类型 4 说明：__ 这种拓扑结构禁止 NTLM*外部*和 MA 内部。 允许*所有客户端*使用传统的身份验证方法*内部*（甚至 ADAL 支持客户端）。
 

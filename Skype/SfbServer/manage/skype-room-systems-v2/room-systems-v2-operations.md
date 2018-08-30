@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 阅读此主题以了解有关的 Skype 会议室系统 v2，管理下一代 Skype 会议室系统。
-ms.openlocfilehash: d8dfb5c04d73717e8f20352c6cb422498f5a9b34
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: ae5f8537db63aac74adbcdc8ec13cb7aaa44ad77
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "19179285"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485790"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Skype 会议室系统 v2 维护和操作 
  
@@ -57,7 +57,7 @@ Skype 会议室系统 v2 不能够正常运行，如果执行出厂重置可能�
 下表汇总了可能的远程操作和可以用于完成这些操作的方法。
   
 
-|**工作组**|**未加入域**|**加入域**|
+|**工作组 **|**未加入域**|**加入域**|
 |:-----|:-----|:-----|
 |重新启动  <br/> |远程桌面  <br/> 远程 PowerShell  <br/> |远程桌面 （需要进一步的配置）  <br/> 远程 Powershell （需要进一步的配置）  <br/> SCCM  <br/> |
 |更新操作系统  <br/> |Windows 更新  <br/> |Windows 更新  <br/> WSUS  <br/> |
@@ -73,9 +73,9 @@ Skype 会议室系统 v2 不能够正常运行，如果执行出厂重置可能�
 
 |**设置**|**允许**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (dword) 1  <br/> |允许 Skype 会议室系统 v2 启动  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (REG_SZ) 1  <br/> |允许 Skype 会议室系统 v2 启动  <br/> |
 |电源管理-\>上交流，关闭屏幕 10 分钟后  <br/> 电源管理-\>上交流，从不提供系统进入休眠模式  <br/> |允许 Skype 会议室系统 v2 附加显示关闭并自动唤醒  <br/> |
-|net accounts /maxpwage:unlimited  <br/> 或对本地帐户禁用密码过期的等效方法。 如果此操作失败，将最终导致 Skype 帐户无法登录，且被告知密码过期。 请注意，这会影响计算机上的所有本地帐户，因此，此设置失败还会导致已有的管理帐户最终也过期。  <br/> |启用 Skype 帐户以始终登录  <br/> |
+|net accounts /maxpwage:unlimited  <br/> 或对本地帐户禁用密码过期的等效方法。如果此操作失败，将最终导致 Skype 帐户无法登录，且被告知密码过期。请注意，这会影响计算机上的所有本地帐户，因此，此设置失败还会导致已有的管理帐户最终也过期。  <br/> |启用 Skype 帐户以始终登录  <br/> |
    
 使用组策略的文件传输将在[配置文件项](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)讨论。
   
