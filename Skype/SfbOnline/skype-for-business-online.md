@@ -12,12 +12,12 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: 8df54547474376266cabad2f70be6877f12f246d
-ms.sourcegitcommit: 75f9d15ec5c6284191c28e783761619326b57d53
-ms.translationtype: HT
+ms.openlocfilehash: 453046594d649e6adff96bf28a54bd1c7112d821
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2018
-ms.locfileid: "19862897"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780962"
 ---
 # <a name="skype-for-business-online-admin"></a>Skype for Business Online 管理
 
@@ -118,7 +118,7 @@ ms.locfileid: "19862897"
 
 ---
 
-<h2>最新内容</h2>
+<h2>新增功能</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -131,9 +131,9 @@ ms.locfileid: "19862897"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>资讯</h3>
+                        <h3>文章</h3>
                         <p><a 
-                        href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">在组织中设置电话系统</a></p>
+                        href="/microsoftteams/setting-up-your-phone-system">在你有组织中设置电话系统</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">与音频会议的第三方集成</a></p>
                     </div>
                 </div>
@@ -150,10 +150,9 @@ ms.locfileid: "19862897"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>新功能
-</h3>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">加拿大的通话套餐（通用）</a></p>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">澳大利亚的通话套餐（仅限预览）</a></p>
+                        <h3>新增功能</h3>
+                        <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">加拿大的通话套餐（通用）</a></p>
+                        <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">澳大利亚的通话套餐（仅限预览）</a></p>
                     </div>
                 </div>
             </div>
@@ -170,7 +169,7 @@ ms.locfileid: "19862897"
                     </div>
                     <div class="cardText">
                         <h3>重大更新</h3>
-                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing">设置音频会议</a></p>
+                        <p><a href="/microsoftteams/audio-conferencing-in-office-365">设置音频会议</a></p>
                     </div>
                 </div>
             </div>
@@ -188,7 +187,7 @@ ms.locfileid: "19862897"
                 <div class="card">
                     <div class="cardText">
                         <h3>音频会议</h3>
-                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Office 365 中的音频会议</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">管理我的组织的音频会议设置</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">音频会议常见问题</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">比较音频会议提供商</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">了解音频会议在你的国家/地区是否可用</a></p>
+                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Office 365 中的音频会议</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">管理我的组织的音频会议设置</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">音频会议常见问题</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">比较音频会议提供商</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">了解音频会议在你的国家/地区是否可用</a></p>
                     </div>
                 </div>
             </div>
@@ -212,7 +211,7 @@ ms.locfileid: "19862897"
                 <div class="card">
                     <div class="cardText">
                         <h3>外接程序许可</h3>
-                        <p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing">Skype for Business 和 Microsoft Teams 外接程序许可</a></p><p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits">什么是通信点数？</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing">Skype for Business 和 Microsoft Teams 外接程序许可</a></p><p><a href="/MicrosoftTeams/what-are-communications-credits">什么是通信点数？</a></p>
                     </div>
                 </div>
             </div>
@@ -224,7 +223,7 @@ ms.locfileid: "19862897"
                 <div class="card">
                     <div class="cardText">
                         <h3>通话套餐</h3>
-                        <p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365">Office 365 中有哪些通话套餐？</a></p><p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans">设置通话套餐</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">了解通话套餐在你的国家/地区是否可用</a></p>
+                        <p><a href="/MicrosoftTeams/what-are-calling-plans-in-office-365">Office 365 中有哪些通话套餐？</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">设置通话套餐</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">了解通话套餐在你的国家/地区是否可用</a></p>
                     </div>
                 </div>
             </div>
@@ -236,7 +235,7 @@ ms.locfileid: "19862897"
                 <div class="card">
                     <div class="cardText">
                         <h3>电话系统</h3>
-                        <p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/what-is-phone-system-in-office-365">Office 365 中的电话系统是什么？</a></p><p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system">Office 365 中的电话系统的功能</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Office 365 中的电话系统是什么？</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Office 365 中的电话系统的功能</a></p>
                </div>
                 </div>
             </div>
