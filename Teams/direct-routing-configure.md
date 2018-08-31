@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 了解如何配置 Microsoft 电话系统直接路由。
-ms.openlocfilehash: 44181b47f4edaca019bb51fd0819dd6c17360fae
-ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
+ms.openlocfilehash: c84e8b28d6a13e3dca64a08a63aa516556357dde
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22914749"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779768"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -31,7 +31,7 @@ ms.locfileid: "22914749"
 
 - [配对与 Microsoft 电话系统 SBC 和验证配对](#pair-the-sbc-to-direct-routing-service-of-phone-system)
 - [为用户启用直接路由服务](#enable-users-for-direct-routing-service)
-- [确保 Microsoft 团队是用户的首选呼叫客户端](#set-microsoft-teams-as-the-preferred-calling-client-for-the-users) 
+- [确保 Microsoft 团队是用户的首选呼叫客户端](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
 ## <a name="pair-the-sbc-to-direct-routing-service-of-phone-system"></a>配对 SBC 定向电话系统的路由服务 
 
@@ -517,7 +517,6 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 </pre>
 
 应用于 John Woods 呼叫的语音策略是不受限制，并将按照适用于美国、 加拿大和国际呼叫的呼叫路由逻辑，结果。
-
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>为用户设置为首选调用客户端的 Microsoft 团队
 

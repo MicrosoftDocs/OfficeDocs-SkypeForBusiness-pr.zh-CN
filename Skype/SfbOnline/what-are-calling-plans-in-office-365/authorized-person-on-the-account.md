@@ -1,5 +1,5 @@
 ---
-title: 授权的用户的帐户上
+title: 帐户的授权人员
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,33 +19,34 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoAuthorizingPerson
 ms.custom:
 - Calling Plans
-description: 了解为什么您需要添加获得授权的人员都可以使用新的本地数字端口订单向导时对帐户进行更改。
-ms.openlocfilehash: ecf625fa32b43205af4c4ca8551e85850ac7f4e5
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: 了解您需要添加获得授权的人员可以时使用新的本地号码端口订单向导的帐户进行更改的原因。
+ms.openlocfilehash: 13b6b96f7f4701f02715059b3edd0c8e1b2cf284
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779343"
 ---
-# <a name="authorized-person-on-the-account"></a>授权的用户的帐户上
+# <a name="authorized-person-on-the-account"></a>帐户的授权人员
 
-在**新的本地数字端口订单**向导中，必须输入被授权可以使用服务提供商或运营商的帐户进行更改的人员的名称。 名称不用来处理端口的订单，但使用在出现争议时，或如果什么东西是不正确迁移时的数字。 此人将负责为字母的授权 (LOA) 端口订单。
+在**新建本地号码端口次序**向导中，您必须输入有权对与服务提供商或运营商的帐户进行更改的人员的姓名。 名称不用于处理端口订单，但对于争议，使用或不正确的内容是否迁移时的号码。 此人将的字母的授权 (LOA) 端口订单的责任。
   
 > [!NOTE]
-> 没有完整的名称，因为框中仅限于 15 个字符 （包括空格），将不会推迟或取消该端口订单。 
+> 不具有完整的名称，因为框中仅限于 15 个字符 （包括空格），不会推迟或取消端口顺序。 
   
- **完整的逐步说明，请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。**
+ **有关完整的分步说明，请参阅[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)。**
 
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
 ## <a name="related-topics"></a>相关主题
-[关于转移电话号码的常见问题](transferring-phone-numbers-common-questions.md)
+[关于转移电话号码的常见问题](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[用于通话套餐的不同类型的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[用于通话套餐的不同类型的电话号码](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[管理你的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[紧急呼叫条款和条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[紧急呼叫条款和条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

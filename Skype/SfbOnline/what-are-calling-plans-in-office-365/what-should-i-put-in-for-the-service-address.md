@@ -1,5 +1,5 @@
 ---
-title: 什么应该我将放在以服务的地址？
+title: 我应该在服务地址中输入什么？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,29 +19,30 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoServiceAddress
 ms.custom:
 - Calling Plans
-description: '了解您服务的地址是什么、 它与您的帐单地址，以及在哪里可以找到它。 '
-ms.openlocfilehash: ca435b2fb91d36996d13d94dea4f071abe1c8684
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: '了解服务地址是什么，它与您的付费地址，以及在哪里可以找到它。 '
+ms.openlocfilehash: 34335a51f482ad83c8090bf2967f6b1639441893
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779435"
 ---
-# <a name="what-should-i-put-in-for-the-service-address"></a>什么应该我将放在以服务的地址？
+# <a name="what-should-i-put-in-for-the-service-address"></a>我应该在服务地址中输入什么？
 
-服务地址与您注册您的电话服务提供商或运营商的计费或紧急地址不同。 如果您不知道此，您可以联系您的服务提供商或运营商以找出您的帐户上所列的服务地址。
+从帐单或紧急地址您注册您的电话服务提供商或运营商的不同服务地址。 如果您不知道此，您可以与您的服务提供商或运营商以找出您的帐户上列出的服务地址。
   
- **完整的逐步说明，请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。**
+ **有关完整的分步说明，请参阅[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)。**
 
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
   
 ## <a name="related-topics"></a>相关主题
-[关于转移电话号码的常见问题](transferring-phone-numbers-common-questions.md)
+[关于转移电话号码的常见问题](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[用于通话套餐的不同类型的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[用于通话套餐的不同类型的电话号码](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[紧急呼叫条款和条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[紧急呼叫条款和条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

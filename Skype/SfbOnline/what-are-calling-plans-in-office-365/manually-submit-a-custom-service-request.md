@@ -20,20 +20,21 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: e524ddd8c86837033fe34caba5260c3f6547987f
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 81f15ee3d5cf2dda1664f3414ae11c0dea7b588e
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779265"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>手动提交自定义服务请求
 
-如果有服务号码拨入会议桥、 自动助理或其他服务号码，免费电话数字或超过 999 用户 （订户） 电话号码，让您需要转移到 Skype 的业务，您需要对[管理电话为您的组织编号](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+如果您有服务号码拨入式会议网桥、 自动助理或其他服务号码，免费电话号码，或具有超过 999 用户 （订阅服务器） 的电话号码所需将传输到 Skype for Business，您需要为[管理电话为您的组织的号码](/microsoftteams/manage-phone-numbers-for-your-organization)。
 
-在某些国家/地区，您还需要手动提交自定义服务请求，如果您想要获取电话号码，或发布的数字，或更改地址。 若要看到什么是需要每个国家/地区或了解更多关于移植的数量，请参阅[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+在某些国家/地区，您需要手动提交自定义服务请求，如果您想要获取电话号码，或版本的号码，或更改地址。 请参阅 what's 所必需的每个国家/地区或了解有关移植的号码的详细信息，请参阅[管理您的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。
 
 
-## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a>如果您需要创建并提交服务请求按照下列步骤操作：
+## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a>如果您需要创建和提交服务请求遵循以下步骤：
 
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>对于人数为 150 人或更少的组织，请遵循下列步骤
 1. 在 **Office 365 管理中心**选择“**需要帮助?**”
@@ -42,7 +43,7 @@ ms.lasthandoff: 04/26/2018
     - **允许我们呼叫你(建议)**：确认你的联系号码，然后按“**呼叫我**”。 “**需要帮助?**”窗格中会显示回拨的预期等待时间。
     - **给我们发送电子邮件**：确认你的电子邮件地址，然后选择“**发送**”。 “**需要帮助?**”窗格中会显示呼叫响应时间。
 
-### <a name="for-organizations-with-more-than-150-users-follow-these-steps-to-create-a-service-request"></a>有 150 多个用户的组织请按照以下步骤来创建服务请求：
+### <a name="for-organizations-with-more-than-150-users-follow-these-steps-to-create-a-service-request"></a>对于具有多个 150 个用户的组织执行以下步骤创建一个服务请求：
 
 1. 使用你的工作或学校帐户以管理员身份登录 Office 365。
     
@@ -100,21 +101,21 @@ ms.lasthandoff: 04/26/2018
   
 ## <a name="what-else-should-you-know-about-number-porting"></a>你还应该知道有关订单移植的哪些信息？
 
-- 若要使用调用计划必须购买并将许可证分配给用户。 [Skype 的附加业务和 Microsoft 小组授权](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+- 用于调用计划必须购买并向用户分配许可证。 [Skype 业务和 Microsoft 团队加载项授权的](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
     
-- 你必须将这些新电话号码分配给你的每个用户。 [指派、 更改或删除的用户的电话号码](assign-change-or-remove-a-phone-number-for-a-user.md)。
+- 你必须将这些新电话号码分配给你的每个用户。 [分配、 更改或删除的用户的电话号码](assign-change-or-remove-a-phone-number-for-a-user.md)。
 
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 ## <a name="related-topics"></a>相关主题
-[关于转移电话号码的常见问题](transferring-phone-numbers-common-questions.md)
+[关于转移电话号码的常见问题](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[用于通话套餐的不同类型的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[用于通话套餐的不同类型的电话号码](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[管理你的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[紧急呼叫条款和条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[紧急呼叫条款和条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

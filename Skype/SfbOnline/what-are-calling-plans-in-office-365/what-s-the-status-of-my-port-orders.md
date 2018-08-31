@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 8f8d6bc1e2fc08e98c11b00bfda4e66c978c69a7
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b4a8c3c167c8830dfc240b4ce5000f96c5ccbb3f
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241930"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779022"
 ---
 # <a name="whats-the-status-of-my-port-orders"></a>我的移植订单的状态是什么？
 
@@ -42,19 +42,19 @@ ms.locfileid: "23241930"
 |**Error** <br/> |否  <br/> |是  <br/> |是  <br/> |是 （此时，您不能删除该端口订单出现错误时。 端口顺序需要重新创建，或者需要[对业务产品-管理员技术联系人支持](https://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx)。  <br/> |可能会丢失运营商已拒绝顺序。  <br/> |
 |**完成** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |已成功传输这些号码。  <br/> |
 |**取消** <br/> |否  <br/> |是  <br/> |否  <br/> |否  <br/> |管理员已取消顺序。  <br/> |
-
- **有关完整的分步说明，请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。**
-
+   
+ **有关完整的分步说明，请参阅[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)。**
+ 
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 
 ## <a name="related-topics"></a>相关主题
-[关于转移电话号码的常见问题](transferring-phone-numbers-common-questions.md)
+[关于转移电话号码的常见问题](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[用于通话套餐的不同类型的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[用于通话套餐的不同类型的电话号码](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[紧急呼叫条款和条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[紧急呼叫条款和条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

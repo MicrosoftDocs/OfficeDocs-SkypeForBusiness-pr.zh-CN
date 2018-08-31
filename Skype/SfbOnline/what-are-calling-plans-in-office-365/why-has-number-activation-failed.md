@@ -1,5 +1,5 @@
 ---
-title: 具有数字激活失败的原因？
+title: 号码激活为什么失败？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,15 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 地址验证是在 Office 365 中设置通话套餐的重要步骤。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
-ms.openlocfilehash: 8deaaccadb88f4c304358f958d016415a622eecc
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: d9b6a9821d9464ed323d0bca7dd1c09ac8ff806c
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779305"
 ---
-# <a name="why-has-number-activation-failed"></a>具有数字激活失败的原因？
-地址验证是在 Office 365 中设置通话套餐的重要步骤。 如果电话号码不能激活地址验证由于某种原因，您需要创建服务请求。 你执行此操作的方式基于你的组织规模。
+# <a name="why-has-number-activation-failed"></a>号码激活为什么失败？
+地址验证是在 Office 365 中设置通话套餐的重要步骤。 如果由于电话号码不激活地址验证由于某种原因，您将需要创建服务请求。 你执行此操作的方式基于你的组织规模。
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>对于人数为 150 人或更少的组织，请遵循下列步骤
 1. 在 **Office 365 管理中心**选择“**需要帮助?**”
@@ -97,13 +98,12 @@ ms.lasthandoff: 04/26/2018
 
   
 ## <a name="related-topics"></a>相关主题
-[关于转移电话号码的常见问题](transferring-phone-numbers-common-questions.md)
+[关于转移电话号码的常见问题](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[用于通话套餐的不同类型的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[用于通话套餐的不同类型的电话号码](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[紧急呼叫条款和条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[紧急呼叫条款和条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
   
  

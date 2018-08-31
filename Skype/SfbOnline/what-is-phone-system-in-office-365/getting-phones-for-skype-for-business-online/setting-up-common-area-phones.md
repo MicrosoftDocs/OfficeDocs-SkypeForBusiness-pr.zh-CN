@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解获取正确的固件，如果需要对其进行更新、 分配许可证和为公用区域电话配置设置的部署步骤。
-ms.openlocfilehash: a2abc74960b04b7b39e4e31961c849009fb9543f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cb6cf1ed66f07ba618c74a47bc2c435229b235ec
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248333"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779209"
 ---
 # <a name="set-up-common-area-phones"></a>设置公共区域电话
 公共区域电话 (CAP) 通常放置在诸如大厅或另一个可供很多人使用的的区域。 例如，CAP 可以是接待室电话、门铃电话或会议室电话，它们设置为设备而不是用户并自动登录网络。 在以下步骤中，我们将帮助你设置带通话套餐的电话系统帐户，以便你为组织部署这些类型的电话。
@@ -100,7 +100,7 @@ ms.locfileid: "23248333"
 
 有关更多内容，请参阅[为用户获取电话号码](../../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)。
 
-如果你正在漫游，也可以把另一家电信公司的电话号码“*导出*”或转移到 Office 365。 请参阅[传输到 Office 365 的电话号码](../../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md)。
+如果你正在漫游，也可以把另一家电信公司的电话号码“*导出*”或转移到 Office 365。 请参阅[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)。
 
 ### <a name="step-4---setting-up-your-phone"></a>第 4 步 - 设置电话
 

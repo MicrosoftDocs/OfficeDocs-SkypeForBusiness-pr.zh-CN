@@ -10,17 +10,16 @@ ms.reviewer: marcl
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78cce988c89ed127ca3c3b3c2606549bf28bf37f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2b88d0767c2815e276fe791b0751fb7090f8d446
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243204"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779427"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
 本文列出了 Microsoft 团队，按功能区域的已知的问题。
-##
 
 ## <a name="administration"></a>管理
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|

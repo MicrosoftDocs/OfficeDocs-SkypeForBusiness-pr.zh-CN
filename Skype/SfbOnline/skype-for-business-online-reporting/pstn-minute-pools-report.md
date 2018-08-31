@@ -1,5 +1,5 @@
 ---
-title: PSTN minute 池报告
+title: PSTN 分钟池报告
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ ms.custom:
 - Reporting
 description: 新 Skype 业务管理中心报告区域显示您呼叫和音频会议活动在组织中。 使您钻取报告为您提供更精细了解每个用户的活动。 例如，可以使用业务 PSTN minute 池报表 Skype 以查看在组织内当前月份消耗的分钟数。
 search.appverid: MET150
-ms.openlocfilehash: 876455807887694f7e885038e7473634a40f5f21
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: a12597faf9f5669809cbf97a2ea8a054c65a8a0c
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933054"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779665"
 ---
-# <a name="pstn-minute-pools-report"></a>PSTN minute 池报告
+# <a name="pstn-minute-pools-report"></a>PSTN 分钟池报告
 
 >[!NOTE]
 >此报告才可用预览客户。
@@ -34,7 +34,7 @@ ms.locfileid: "19933054"
   
 签出[报告概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)可用的详细报告。
   
-此报告中的，以及其他 Skype 业务报告为您提供了详细信息活动在整个组织。 调查 （英文）、 规划，以及使其他业务决策为您的组织和设置[Communications 字幕式](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)时非常有用，这些详细信息
+此报告中的，以及其他 Skype 业务报告为您提供了详细信息活动在整个组织。 调查 （英文）、 规划，以及使其他业务决策为您的组织和设置[Communications 字幕式](/microsoftteams/what-are-communications-credits)时非常有用，这些详细信息
   
 > [!NOTE]
 > [!注释] 以管理员身份登录 Office 365 管理中心后，可以查看所有 Skype for Business 报告。 

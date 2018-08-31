@@ -1,5 +1,5 @@
 ---
-title: 如果我的电话运营商不列为源承运人？
+title: 如果我的电话运营商未列为源运营商，应该怎么办？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,31 +19,32 @@ f1keywords:
 - ms.lync.lac.PortOrderDetailPanelWhois
 ms.custom:
 - Calling Plans
-description: '了解在 Skype 的业务中没有列出您的运营商时应该怎么做。 '
-ms.openlocfilehash: 80946b3950965b3b2f3ce8aaff46f29622f2b5a5
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: '了解您的运营商未列出 Skype for Business 中时如何操作。 '
+ms.openlocfilehash: 3d1737f19488d737078c9747146278b0fa3a9bba
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779625"
 ---
-# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>如果我的电话运营商不列为源承运人？
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>如果我的电话运营商未列为源运营商，应该怎么办？
 
-当您看到您的运营商名称未列出，它是有点令人困惑。 在大多数情况下，如果服务提供商或运营商不同，很可能会转移到的电话号码均由不同的服务提供商或运营商。 有的次当服务提供商或运营商列出可以不同于您当前的服务提供商由于当前服务提供商可能使用第三方服务提供商。 
+当您看到您的运营商的名称未列出，它会有点造成混淆。 在大多数情况下，如果服务提供商或运营商不同，可能性就是您将通过转接的电话号码归不同的服务提供程序或运营商。 可以有时服务提供商或列出的运营商可能会有所不同，从您当前的服务提供商因为当前服务提供商可能使用的第三方服务提供商的次数。 
   
 示例：
   
-- 如果正在移植作为运营商的业务的 Skype 之间的数字，可能会看到列出的级别 3。
+- 如果将移植从为您的运营商的业务的 Skype 号码时，可能会看到列出级别 3。
     
- **完整的逐步说明，请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。**
+ **有关完整的分步说明，请参阅[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)。**
 
     > [!NOTE]
     > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
   
 ## <a name="related-topics"></a>相关主题
-[关于转移电话号码的常见问题](transferring-phone-numbers-common-questions.md)
+[关于转移电话号码的常见问题](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[紧急呼叫条款和条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[紧急呼叫条款和条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

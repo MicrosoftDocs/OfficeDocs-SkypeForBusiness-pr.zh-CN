@@ -18,12 +18,12 @@ ms.custom:
 - Reporting
 description: 全新的 Office 365 报告仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。
 search.appverid: MET150
-ms.openlocfilehash: 63d0d049e7522d1e62f717c063eb92f658a5623f
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: ae892766be3b9bc18f37ae8b551678a738743325
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933172"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780852"
 ---
 # <a name="session-details-report"></a>会话详细信息报告
 
@@ -31,7 +31,7 @@ ms.locfileid: "19933172"
   
 查看[报告概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)可用的详细报告。
   
-此报告中的，以及其他 Skype 业务报告提供有关在整个组织，包括会话详细信息的活动详细信息。 您调查，规划，以及使其他业务决策为您的组织和设置[Communications 字幕式](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)时，这些详细信息是非常有用。
+此报告中的，以及其他 Skype 业务报告提供有关在整个组织，包括会话详细信息的活动详细信息。 您调查，规划，以及使其他业务决策为您的组织和设置[Communications 字幕式](/microsoftteams/what-are-communications-credits)时，这些详细信息是非常有用。
   
 > [!NOTE]
 > [!注释] 以管理员身份登录 Office 365 管理中心后，可以查看所有 Skype for Business 报告。 

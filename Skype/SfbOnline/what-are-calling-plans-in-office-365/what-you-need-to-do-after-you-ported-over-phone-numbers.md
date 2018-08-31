@@ -1,5 +1,5 @@
 ---
-title: 您需要您有您的电话号码通过移植后做什么？
+title: 执行具有移植通过您的电话号码后，您需要什么？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,22 +19,23 @@ f1keywords:
 - ms.lync.lac.PortOrderFinish
 ms.custom:
 - Calling Plans
-description: 请参阅所需的下一步操作后已经移植到 Skype 业务为您的电话号码。
-ms.openlocfilehash: acec8952f77402538f7eabae9330f7f031e70155
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: 请参阅您需要执行下一步后已移植到 for Business 的 Skype 电话号码。
+ms.openlocfilehash: 9011ba858bf57c9bd1b425fffc19ac508f3f4f23
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779255"
 ---
-# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>您需要您有您的电话号码通过移植后做什么？
+# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>执行具有移植通过您的电话号码后，您需要什么？
 
-在提交您的端口订单之后，我们将联系您的运营商，并与它们的细节。 如果已设置的最后转移日期，我们将通过电子邮件来通知您。 但是，等待您的运营商接受订单，接下来，创建所需的紧急地址，将使用这些数字。
+在提交端口顺序之后，我们将与您的运营商联系，并与他们的细节。 如果已设置的最后进行传输日期，我们将通过电子邮件通知您。 但是，在您的运营商接受顺序、 继续和创建所需的紧急地址等待时您将使用这些号码。
   
-- 了解更多关于[什么是紧急位置、 地址和呼叫路由？](what-are-emergency-locations-addresses-and-call-routing.md)。
+- 了解更多信息[紧急位置、 地址和呼叫路由是什么？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)。
     
-- 如果需要您可以[添加或删除为您的组织满足紧急情况](add-or-remove-an-emergency-address-for-your-organization.md)。
+- 如果需要您可以[添加或删除紧急情况地址为您的组织](add-or-remove-an-emergency-address-for-your-organization.md)。
     
-- 如果您的电话号码已经有一个紧急的地址，[添加、 更改或删除您的组织的紧急位置](add-change-or-remove-an-emergency-location-for-your-organization.md)。
+- 如果您的电话号码已有的紧急地址，[添加、 更改或删除您的组织的紧急位置](add-change-or-remove-an-emergency-location-for-your-organization.md)。
     
 - [为用户分配、更改或删除电话号码](assign-change-or-remove-a-phone-number-for-a-user.md)
 
@@ -43,11 +44,11 @@ ms.lasthandoff: 04/26/2018
 
     
 ## <a name="related-topics"></a>相关主题
-[关于转移电话号码的常见问题](transferring-phone-numbers-common-questions.md)
+[关于转移电话号码的常见问题](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[用于通话套餐的不同类型的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[用于通话套餐的不同类型的电话号码](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[紧急呼叫条款和条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[紧急呼叫条款和条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
