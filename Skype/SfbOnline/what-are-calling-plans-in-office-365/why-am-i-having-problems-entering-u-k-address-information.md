@@ -1,5 +1,5 @@
 ---
-title: 为什么要让进入英国的问题 地址信息吗？
+title: 为什么我在输入英国地址信息时出现问题？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,88 +19,89 @@ f1keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
-description: 下面是一些原因，可能会出现问题，获取您的地址或地址正确验证在大不列颠及北爱尔兰联合王国 （英国） 的原因。
-ms.openlocfilehash: bb1a42f7607979e4a41ec96e9ce80b0b4b8a4dac
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: 下面是一些原因为什么您可能会出现问题获取您的地址或地址正确验证在英国 （英国）。
+ms.openlocfilehash: 3c0749f488ece74e6038786af79d47f1669151b1
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779445"
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a>为什么要让进入英国的问题 地址信息吗？
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>为什么我在输入英国地址信息时出现问题？
 
-下面是一些原因，可能会出现问题，获取您的地址或地址正确验证在大不列颠及北爱尔兰联合王国 （英国） 的原因。
+下面是一些原因为什么您可能会出现问题获取您的地址或地址正确验证在英国 （英国）。
   
-## <a name="whats-wrong-with-the-company-name"></a>不妥的公司名称是什么？
+## <a name="whats-wrong-with-the-company-name"></a>错误用的公司名称是什么？
 
-如果在输入公司名称的问题时，请记住：
+如果您有问题输入公司名称，请记住：
   
-- 它可以有字母、 数字和下列特殊字符:，/-+。 ' &amp; " _ 
+- 也可以有字母、 数字和下列特殊字符:，/-+。 ' &amp; " _ 
     
     > [!CAUTION]
-    > 在大不列颠及北爱尔兰联合王国 （英国），公司名称不能包含 + 号。 
+    > 在英国 （英国），公司名称不能有加号。 
   
-- 它必须为 80 个字符或更少。
+- 它必须是 80 个字符或更少。
     
-- 它不得包含特殊字符。
+- 它无法开始与特殊字符。
     
-## <a name="whats-wrong-with-the-house-number"></a>不妥的门牌号是多少？
+## <a name="whats-wrong-with-the-house-number"></a>什么是住宅号出现问题？
 
-如果您有问题输入门牌号，请记住：
+如果您有输入住宅号问题，请记住：
   
-- 它可以有字母、 数字和下列特殊字符:-/]
+- 也可以有字母、 数字和下列特殊字符:-/]
     
 - 它必须以数字开头。
     
 - 它必须是 20 个字符或更少。
     
-- 它可以大写或小写字母。
+- 也可以有大写或小写字母。
     
-## <a name="whats-wrong-with-the-house-name"></a>不妥的房屋名称是什么？
+## <a name="whats-wrong-with-the-house-name"></a>错误 house 名称是什么？
 
-如果在输入房屋名称的问题时，请记住：
+如果您有问题输入所名称，请记住：
   
-- 它可以有字母、 数字和下列特殊字符:，/-+。 ' &amp; " _
+- 也可以有字母、 数字和下列特殊字符:，/-+。 ' &amp; " _
     
-- 它还为 50 个字符或更少。
+- 它具有为 50 个字符或更少。
     
-- 它不得包含特殊字符。
+- 它无法开始与特殊字符。
     
-## <a name="whats-wrong-with-the-street-name"></a>什么是不妥的街道名称？
+## <a name="whats-wrong-with-the-street-name"></a>出现问题的街道名称是什么？
 
-如果在输入街道名称的问题时，请记住：
+如果您有问题输入街道名称，请记住：
   
-- 它可以有字母、 数字和下列特殊字符:，/-+。 ' &amp; " _ 
+- 也可以有字母、 数字和下列特殊字符:，/-+。 ' &amp; " _ 
     
-- 它还为 50 个字符或更少。
+- 它具有为 50 个字符或更少。
     
-- 它不得包含特殊字符。 
+- 它无法开始与特殊字符。 
     
-## <a name="whats-wrong-with-the-city-or-town"></a>不妥的城市或城镇是什么？
+## <a name="whats-wrong-with-the-city-or-town"></a>出现问题的市 / 县是什么？
 
-如果在输入的市 / 县名称的问题时，请记住：
+如果您有问题输入的市 / 县的名称，请记住：
   
-- 它可以有字母、 数字和下列特殊字符:，/-+。 ' &amp; " _
+- 也可以有字母、 数字和下列特殊字符:，/-+。 ' &amp; " _
     
-- 它还为 50 个字符或更少。
+- 它具有为 50 个字符或更少。
     
-- 它不得包含特殊字符。 
+- 它无法开始与特殊字符。 
     
-## <a name="whats-wrong-with-the-postal-code"></a>不妥的邮政编码是多少？
+## <a name="whats-wrong-with-the-postal-code"></a>与邮政编码错误是什么？
 
-如果您有问题输入邮政编码，请记住：
+如果您有输入邮政编码问题，请记住：
   
 - 它只能包含字母、 数字或空格。
     
-- 它必须有 8 或更小的字母，包括数字和空格。
+- 它必须具有八个或更少的字母，包括号码和空格。
     
-- **请记住，如果您是在大不列颠及北爱尔兰联合王国 （英国）**，您**必须**使用以下格式之一将邮政编码其中字母 A = 字符 A 到 Z，# 符号 = 介于 0-9 和 _ （下划线） = 的空白区域。 下面是一些示例：
+- **请记住，如果要在英国 （英国）**，，您**必须**置于的以下格式之一的邮政编码其中字母 A = 字符 A-Z、 # 符号 = 介于 0-9、 和 _ （下划线） = 的空白区域。 下面是一些示例：
     
 |**格式**|**示例**|
 |:-----|:-----|
 |AA # A_ #AA  <br/> |EC3B 2BD  <br/> |
-|#AA # A_  <br/> |E1W 1AP  <br/> |
-|#AA # _  <br/> |F1 2AG  <br/> |
-|#AA # # _  <br/> |C44 8HT  <br/> |
+|# A_ #AA  <br/> |E1W 1AP  <br/> |
+|# _ #AA  <br/> |F1 2AG  <br/> |
+|# # _ #AA  <br/> |C44 8HT  <br/> |
 |AA # _ #AA  <br/> |DR3 6 HG  <br/> |
 |AA # # _ #AA  <br/> |FN35 1TH  <br/> |
 
@@ -109,11 +110,11 @@ ms.lasthandoff: 04/26/2018
 
    
 ## <a name="related-topics"></a>相关主题
-[关于转移电话号码的常见问题](transferring-phone-numbers-common-questions.md)
+[关于转移电话号码的常见问题](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[用于通话套餐的不同类型的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[用于通话套餐的不同类型的电话号码](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[紧急呼叫条款和条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[紧急呼叫条款和条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
