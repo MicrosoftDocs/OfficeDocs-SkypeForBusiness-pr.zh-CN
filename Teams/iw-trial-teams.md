@@ -2,8 +2,8 @@
 title: 管理 Microsoft 团队商业云试用版
 author: ChuckEdmonson
 ms.author: chucked
-manager: lolaj
-ms.date: 07/24/2018
+manager: serdars
+ms.date: 08/31/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,17 +11,20 @@ ms.service: msteams
 localization_priority: Normal
 description: Office 365 用户未授权的 Microsoft 团队可以发起 1 年试用版的团队。
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 23d36f161b19af18ff379c2a929ea5b701b8cc6b
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 67463a7014f4060baadb8348f8d12347f0166d34
+ms.sourcegitcommit: a601dbd212ea483e4b7bfac27674d9d8e92e3a2a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21068920"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "23790912"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft 团队商业云试用版
 =======================================================
 
 Microsoft 团队是为您的组织的绝佳协作工具。 它使人和团队讨论、 创新和共享想法使用 Office 365 的能力。 Microsoft 团队商业云试用版提供了您的组织中未授权的 Microsoft 团队启动 1 年试用版的产品的现有 Office 365 用户。 管理员能够打开或关闭此功能可供其租户中的用户。
+
+> [!NOTE]
+> 此版尚未可公开访问，但将推出下一个月。
 
 ## <a name="whats-in-the-offer"></a>什么是在优惠中
 
