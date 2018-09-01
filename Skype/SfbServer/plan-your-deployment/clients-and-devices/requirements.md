@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: 本文汇总了支持 Skype 会议室系统 v2 的要求。
-ms.openlocfilehash: 0cb0a2cc0508f3499c94971647a22a936fc0648d
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: ce5b8343973fca50970132accd7833641ed9c5a1
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601932"
+ms.lasthandoff: 09/01/2018
+ms.locfileid: "23797342"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype 会议室系统 v2 要求
  
@@ -51,9 +51,9 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
 **支持的控制台**
 |控制台|处理器|RAM|磁盘|
 |:-----|:-----|:-----|:-----|
-|[联想集线器 500](https://www3.lenovo.com/us/en/hub500) |核心 i5  |8 GB  |128 GB  |  
+|[联想 ThinkSmart 集线器 500](https://www3.lenovo.com/us/en/hub500) |核心 i5  |8 GB  |128 GB  |  
 |[HP 精英切片的会议聊天室 G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |核心 i5  |8 GB  |128 GB  |  
-    
+
 - 以下的停靠站选项，以确保以安全会议平板电脑之一会议室表。 
     
   - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
