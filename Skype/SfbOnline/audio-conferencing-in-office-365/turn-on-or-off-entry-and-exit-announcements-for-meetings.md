@@ -1,5 +1,5 @@
 ---
-title: 打开或关闭条目和退出通知中 Skype 业务 online 的会议
+title: 打开或关闭 Skype for Business Online 中的会议加入和退出公告
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,35 +18,35 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. '
-ms.openlocfilehash: d6d1b70713ac0cd7a38f7de9cb84f0acb54cbe30
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
-ms.translationtype: MT
+description: '了解如何使用 Skype for Business 管理中心打开或关闭 Skype for Business Online 会议的加入和退出公告。 '
+ms.openlocfilehash: 874624c3d7cfb184f4206f61cf2a91a67eb2e2cd
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490482"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779032"
 ---
-# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>打开或关闭条目和退出通知中 Skype 业务 online 的会议
+# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>打开或关闭 Skype for Business Online 中的会议加入和退出公告
 
 > [!Note]
-> 进入和退出通知的 Microsoft 团队的有关信息，请参阅[打开或关闭参加和退出通知中的 Microsoft 团队会议](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams)。
+> 打开或关闭 Skype for Business Online 中的会议加入和退出公告[ ](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams)
 
-当您要设置 Office 365 中的音频会议时，您将看到音频会议桥。 会议桥可以包含一个或多个人员将用于连接到业务会议 Skype 的电话号码。 
+当设置 Office 365 中的音频会议时，您将看到音频会议桥。 会议桥可以包含一个或多个人员用于致电 Skype for Business 会议的电话号码。 
   
-会议网桥负责应答使用电话拨入会议的用户的呼叫。 会议桥应答来自会议自动助理的呼叫者使用语音提示并随后，具体取决于您的设置，可以播放通知，向呼叫者提出记录其姓名，并设置 PIN 安全。 PIN 赋予业务会议组织者，Skype 并允许它们如果它们无法启动会议的企业应用程序使用 Skype 开始会议。 但是，可以将它以便启动会议不需要 PIN。
+会议网桥负责应答使用电话拨入会议的用户的呼叫。 会议网桥通过来自自动助理的语音提示应答呼叫者，然后根据你的设置，会议网桥可以播放通知、让呼叫者录制其姓名以及设置 PIN 安全。 为 Skype for Business 会议组织者提供了 PIN，这让他们能够在无法使用 Skype for Business 应用开始会议的情况下开始会议。 然而，您可以设置不需要使用 PIN 启动会议。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-meeting-join-options"></a>设置会议加入选项
     
-1. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 网桥的设置**。
+1. 在 **Skype for Business 管理中心** 中，在左侧导航中，转到**音频会议** > **Microsoft 桥接设置**  。
     
-2. 在**会议的与会体验**中,，选中或清除**启用会议进入和退出通知，以打开**。 默认情况下，此选项处于选中状态。 如果清除它，某人进入或离开会议时，已加入会议的用户不会将收到通知。
+2. 在 **会议的与会体验**中，选中或清除**打开启用会议加入和退出通知**。 默认情况下，此选项处于选中状态。 如果清除，已加入会议的用户将不会在某人进入或离开会议时收到通知。
     
-3. 在**条目/退出通知类型**，选择**姓名或电话号码**或**提示音**。
+3. 在**进入/退出公告类型**下，选择**姓名或电话号码** 或 **提示音**。
     
-4. 选中或取消选中**Ask 呼叫者在记录其姓名之前加入会议**。
+4. 选中或取消选中**要求呼叫者在加入会议之前记录姓名**。
     
 5. 完成更改后，单击" **保存**"。
     
@@ -57,11 +57,11 @@ ms.locfileid: "22490482"
     
 -  对于 Windows PowerShell，Skype for Business Online 的功能是管理用户以及允许或不允许用户执行的操作。使用 Windows PowerShell，可以通过单点管理来管理 Office 365，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为什么您需要使用 Office 365 PowerShell 中](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 已通过仅使用如时要进行设置更改多个用户一次在 Office 365 管理中心中快速、 简便起见和生产力很多好处。 请在以下主题中了解这些优点： 
+- Windows PowerShell 在速度、简单性和生产率方面有许多优点，仅限于使用 Office 365 管理中心，例如当您同时为许多用户进行设置更改时。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -74,4 +74,4 @@ ms.locfileid: "22490482"
   
 ## <a name="related-topics"></a>相关主题
 
-[音频会议常见问题](audio-conferencing-common-questions.md)
+[音频会议常见问题](/MicrosoftTeams/audio-conferencing-common-questions)

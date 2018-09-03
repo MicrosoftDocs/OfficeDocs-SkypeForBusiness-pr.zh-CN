@@ -1,5 +1,5 @@
 ---
-title: 试用或购买 Office 365 中的音频会议
+title: 试用或购买 Office 365 for Skype for Business Online 中的音频会议
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,23 +14,26 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords:
 - ms.lync.lac.CpcGettingStarted
 ms.custom:
 - Audio Conferencing
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
-ms.openlocfilehash: cce6879b3f829ddcdafe00ddd1e5f36258a081e0
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 081dd7146eb30a10efd4f2ed88ed070f04ea589e
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242430"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779062"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365"></a>试用或购买 Office 365 中的音频会议
+# <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>试用或购买 Office 365 for Skype for Business Online 中的音频会议
 
-有时，组织中的人员需要使用电话拨入会议。 Skype for Business 和 Microsoft Teams 包括适用于这种情况的音频会议功能！ 人员可以使用电话呼入 Skype for Business 和 Microsoft Team 会议，而无需使用移动设备或电脑上的 Skype for Business 或 Microsoft Team 应用。
+> [!Note]
+> 有关 Microsoft Teams 中的音频会议的信息，[请参阅 试用或购买 Office 365 for Skype for Microsoft Teams 中的音频会议​](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)。
+
+
+有时，组织中的用户需要使用电话拨入会议。 Skype for Business 包含了正是针对此种情况的音频会议功能。 人们可以使用电话呼入 Skype for Business 会议，而无需使用移动设备或电脑上的 Skype for Business 应用。
 
 只需为计划要安排或主持会议的人员设置音频会议。 呼入会议的与会者不需要向其分配任何许可证，也不需要其他设置。
 
@@ -38,17 +41,17 @@ ms.locfileid: "23242430"
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>第 1 步：购买和分配音频会议许可证
 
-必须具有 [关于 Office 365 管理员角色](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行这些步骤。
+必须具有[关于 Office 365 管理员角色](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行这些步骤。
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>若要购买和分配用户音频会议许可证：
 
-1. 了解**音频会议**在你的国家/地区是否可用。 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
-
+1. 了解**音频会议**在你的国家/地区是否可用。 [音频会议和通话套餐的国家/地区可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 
+    
 2. 获取**音频会议**许可证。 如果想要：
 
   - 在购买前**试用**，可以注册包括音频会议在内的 Office 365 企业版 E5 免费试用。 请参阅 [Office 365 企业版 E5 试用](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)。
 
-  - **购买**，请参阅 [Skype for Business 和 Microsoft Teams 外接程序许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+  - **购买**，请参阅 [Skype for Business 和 Microsoft Teams 加载项许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
 
 3. [如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc)分配给贵组织中打算安排或主持会议的人。
 
@@ -56,14 +59,14 @@ ms.locfileid: "23242430"
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>若要购买和分配按分钟付费的音频会议许可证：
 
-如果你是批量许可客户，则可以获取按分钟付费的音频会议许可证。 如需了解有关按分钟付费音频会议许可证的其他信息，请参阅[按分钟付费音频会议](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md)。
-
-1. 了解**音频会议**在你的国家/地区是否可用。 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
-
+如果你是批量许可客户，则可以获取按分钟付费的音频会议许可证。 如需了解有关按分钟付费音频会议许可证的其他信息，请参阅[按分钟付费音频会议](/microsoftteams/audio-conferencing-pay-per-minute)。 
+  
+1. 了解**音频会议**在你的国家/地区是否可用。 [音频会议和通话套餐的国家/地区可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 
+    
 2. 获取**音频会议**许可证。 若要获取按分钟付费音频会议许可证，请联系你的客户代表。
-
-3. 为组织[为组织设置通信点数](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)。 若要设置通信点数，请参阅[什么是通信点数？](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
-
+    
+3. 为组织[为组织设置通信点数](/microsoftteams/set-up-communications-credits-for-your-organization)。 若要设置通信点数，请参阅[什么是通信点数？](/microsoftteams/what-are-communications-credits)
+    
     > [!IMPORTANT]
     > 如果通信点数尚未设置，音频会议就不能供任何持有按每分钟付费许可证的用户使用。
 
@@ -88,7 +91,6 @@ ms.locfileid: "23242430"
 
 4. [设置音频会议的 PIN 的长度](set-the-pin-length-for-audio-conferencing-meetings.md)。
 
-##
 
 > [!NOTE]
 > 由中国世纪互联运营的 Office 365 用户暂无法使用此功能。 如需了解更多信息，请参阅[了解由世纪互联运营的 Office 365](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)。

@@ -19,49 +19,50 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Learn how to set up an emergency address and phone number for each of your users that works with the Public Switched Telephone Network (PSTN).
-ms.openlocfilehash: 185a3eb8d64e990b4e242a62cf7b76bd02237371
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+description: 了解如何为你的每个使用公用电话交换网 (PSTN) 的用户设置紧急地址和电话号码。
+ms.openlocfilehash: 35247b7ca6dc1073a4a110ab7c95e11a75cbbc8a
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780880"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>为用户分配或更改紧急地址
 
-当您要设置调用计划在 Office 365 中时，将需要为每个用户分配电话号码和紧急地址。 必须先创建紧急地址，然后才能将其与电话号码关联。 请参阅[紧急位置、 地址和呼叫路由是什么？](what-are-emergency-locations-addresses-and-call-routing.md)的详细信息。
+在设置 Office 365 中的通话套餐时，需要向你的每个用户分配电话号码和紧急地址。必须先创建紧急地址，然后才能将其与电话号码关联。如需更多信息，请参阅[什么是紧急位置、地址和呼叫路由？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
   
-想要了解如何获取 Office 365 中的调用计划和成本多少，请参阅[业务和 Microsoft 团队授权加载项的 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+若要了解如何获取 Office 365 中的通话套餐以及它们的价格，请参阅 [Skype for Business 和 Microsoft Teams 加载项授权](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
   
 ## <a name="assign-or-change-an-emergency-address"></a>分配或更改紧急地址
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. 转到 **Office 365 管理中心** > **Skype for Business**。
     
-3. 在左侧导航窗格中转到**语音**，然后单击**语音用户**。
+3. 在左侧导航中，转到“**语音**”，然后单击“**语音用户**”。
     
     > [!IMPORTANT]
-    > 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
+    > 若要在 Skype for Business 管理中心的左侧导航中显示 **语音**选项，必须先购买至少一个 **Enterprise E5 许可证**、一个 **电话系统**附加设备许可证，或一个 **音频会议**附加设备许可证。
     
 4. 在" **语音用户**"页面上，查找并选择要更改其紧急地址的用户。
     
 5. 在操作窗格中，在" **紧急位置**"下，单击" **更改**"。
     
     > [!NOTE]
-    > [!重要信息] 只能更改已验证的紧急地址。 若要更改未通过验证的紧急地址，请将其删除，并创建另一个紧急地址。 
+    > [!重要信息] 只能更改已验证的紧急地址。 若要更改尚未验证的地址，请将其删除并创建另一个紧急地址。 
   
-6. 在" **分配号码**"页面上，单击" **更改位置**"。
+6. 在**分配号码**页面上，单击**更改位置**。
     
-7. 在**更改紧急地址**下输入市/县的名称，然后单击**搜索**。
+7. 在**将紧急地址更改为**下方，输入城市的名称，然后单击**搜索**。
     
-8. 从地址下拉列表中，选择紧急地址，然后单击**保存**。 
+8. 从地址下拉列表中选择紧急地址，然后单击**保存**。 
     
 ## <a name="related-topics"></a>相关主题
 [什么是地址验证？](what-is-address-validation.md)
 
-[管理你的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[紧急呼叫条款和条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[紧急呼叫条款和条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
