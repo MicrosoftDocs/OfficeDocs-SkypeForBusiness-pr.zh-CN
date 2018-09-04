@@ -19,37 +19,38 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to change the emergency location for your users. With an unlimited number of locations, you can change emergency locations as employees move floors or buildings. '
-ms.openlocfilehash: 925929fbd18d0dd40463bfe3f12e908467f585ed
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+description: '了解如何更改您的用户的紧急位置。使用任意数量的位置，您可以更改紧急位置，员工移动楼层或建筑。 '
+ms.openlocfilehash: 6f554a4233f6b3c60711281978212e1cbec35c10
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779275"
 ---
 # <a name="change-the-emergency-location-for-a-user"></a>更改用户的紧急位置
 
-每个活动的电话号码 （关联当您在 Office 365 或当转接的电话号码接到电话号码时） 紧急地址必须时的电话号码分配给用户。 当您将与紧急地址关联数时，还可以添加的紧急位置提供更精确位置中的物理位置。 紧急位置可以是用户所在的楼层、侧楼或办公室编号。 可以具有任意的数量的位置，对于给定的紧急地址，并且如果用户移动到不同的办公室或生成，您可以更改的紧急位置 — 例如，如果用户从移动 floor 到 floor 35 34。
+当将电话号码分配给用户时，每个活动的电话号码必须有一个紧急地址（当在 Office 365 接电话或当转接电话号码时关联）。 当您将号码与紧急地址关联数时，还可以添加紧急位置以提供更精确位置的物理位置。 紧急位置可以是用户所在的楼层、侧楼或办公室编号。 给定的紧急地址可以具有任意的数量的位置，并且如果用户转到其他办公室或建筑，您可以更改紧急位置 — 例如，如果用户从 34 楼转到 35 楼。
   
-若要了解如何获取 Office 365 中的调用计划以及这些成本是多少，请参阅[业务和 Microsoft 团队授权加载项的 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+若要了解如何获取 Office 365 中的通话套餐以及它们的价格，请参阅 [Skype for Business 和 Microsoft Teams 加载项授权](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
   
 ## <a name="change-the-emergency-location-for-a-user"></a>更改用户的紧急位置
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用您的工作或学校帐户登录 Office 365。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. 转到 **Office 365 管理中心** > **Skype for Business**。
     
-3. 在左侧导航窗格中转到**语音** > **语音用户**。
+3. 在左侧导航中，转到**语音** > ** 语音用户**。
     
     > [!IMPORTANT]
-    > 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
+    > 若要在 Skype for Business 管理中心的左侧导航中显示 **语音**选项，必须先购买至少一个 **Enterprise E5 许可证**、一个 **电话系统**附加设备许可证，或一个 **音频会议**附加设备许可证。
     
-4. 在**语音用户**页中，找到，然后选择您想要更改的紧急位置的用户。
+4. 在" **语音用户**"页面上，查找并选择要更改其紧急位置的用户。
     
 5. 在操作窗格中，在" **紧急位置**"下，单击" **更改**"。
     
 6. 在" **分配号码**"页面上，单击" **更改位置**"。 
     
-7. 在**更改紧急地址**框中输入市/县的名称，单击**搜索**。
+7. 在**将紧急地址更改为**下方，在框中输入城市的名称，然后单击**搜索**。
     
 8. 从列表中选择的紧急位置，然后单击**保存**。
     
@@ -62,9 +63,9 @@ ms.lasthandoff: 05/03/2018
 
 [什么是地址验证？](what-is-address-validation.md)
 
-[管理你的组织的电话号码](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[紧急呼叫条款和条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[紧急呼叫条款和条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
