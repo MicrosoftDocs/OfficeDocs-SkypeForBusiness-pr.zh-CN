@@ -1,5 +1,5 @@
 ---
-title: 设置您的组织的客户端策略
+title: 为你的组织设置客户端策略
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,22 +16,23 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 客户端策略帮助确定可供用户使用的 Skype for Business Online 功能；例如，你可以为一些用户提供传输文件的权限，但拒绝其他用户拥有此权限。
-ms.openlocfilehash: 98bf7f0dba39e7fd56a0b6dd79600245eec4b7da
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 93dcef25119527bce25c1155dc7c8c05ac6fe78d
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/04/2018
+ms.locfileid: "19500632"
 ---
-# <a name="set-up-client-policies-for-your-organization"></a>设置您的组织的客户端策略
+# <a name="set-up-client-policies-for-your-organization"></a>为你的组织设置客户端策略
 
 客户端策略帮助确定可供用户使用的 Skype for Business Online 功能；例如，你可以为一些用户提供传输文件的权限，但拒绝其他用户拥有此权限。
   
-客户端策略设置可以配置在创建策略时，也可以使用**一组 CsClientPolicy** cmdlet 要修改的现有策略设置。
+客户端策略设置可以配置时创建的策略，或者您可以使用**Set-csclientpolicy** cmdlet 修改现有的策略的设置。
   
 ## <a name="set-your-client-policies"></a>设置你的客户端策略
 
 > [!NOTE]
-> 对于所有客户端策略中设置的 Skype 的在线业务，您必须使用 Windows PowerShell 并且您**不能使用** **Skype 的业务管理中心**。 
+> 对于所有业务 online Skype 中的客户端策略设置，您必须都使用 Windows PowerShell 和您都**不能都使用****业务管理中心的 Skype**。 
   
 ### <a name="verify-and-start-windows-powershell"></a>验证并启动 Windows PowerShell
 
@@ -63,79 +64,79 @@ ms.lasthandoff: 04/18/2018
     Import-PSSession $session
   ```
 
-  如果希望在启动 Windows PowerShell 的详细信息，请参阅[连接到一个 Windows PowerShell 窗口中的所有 Office 365 提供服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[连接到使用 Windows PowerShell 在线业务 Skype](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+  如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
     
-### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>禁用图释和状态通知并防止保存的即时消息
+### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>禁用图释和状态通知和阻止保存 Im
 
-- 若要创建新的策略，这些设置，请运行：
+- 若要创建这些设置的新策略，请运行：
     
 > 
   ```
   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
   ```
 
-  请参阅详细信息[新建 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet。
+  请参阅有关[New-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet 的详细信息。
     
-- 若要授予组织中为所有用户都创建新策略，请运行：
+- 若要授予对所有用户在组织中都创建新策略，请运行：
     
 > 
   ```
   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
   ```
 
-  请参阅详细信息[授予 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet。
+  请参阅有关[Grant-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 的详细信息。
     
-如果您已经创建一个策略，可以使用[一组 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet 可以更改现有的策略，并将[授予 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 将设置应用于您的用户。
+如果您已经创建策略，您可以使用[Set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet 可以更改现有的策略，然后使用[Grant-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 将设置应用于您的用户。
   
 ### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a>启用要在即时消息中可单击的 URL 或超链接
 
-- 若要创建新的策略，这些设置，请运行：
+- 若要创建这些设置的新策略，请运行：
     
 > 
   ```
   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
   ```
 
-  请参阅详细信息[新建 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet。
+  请参阅有关[New-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet 的详细信息。
     
-- 若要授予组织中为所有用户都创建新策略，请运行：
+- 若要授予对所有用户在组织中都创建新策略，请运行：
     
 > 
   ```
   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
   ```
 
-  请参阅详细信息[授予 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet。
+  请参阅有关[Grant-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 的详细信息。
     
-如果您已经创建一个策略，可以使用[一组 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet 可以更改现有的策略，并将[授予 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 将设置应用于您的用户。
+如果您已经创建策略，您可以使用[Set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet 可以更改现有的策略，然后使用[Grant-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 将设置应用于您的用户。
   
 ### <a name="prevent-showing-recent-contacts"></a>禁止显示最近的联系人
 
-- 若要创建新的策略，这些设置，请运行：
+- 若要创建这些设置的新策略，请运行：
 > 
   ```
   New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
   ```
 
-  请参阅详细信息[新建 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet。
+  请参阅有关[New-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet 的详细信息。
     
-- 若要创建新策略授予 Amos 大理石，运行：
+- 若要授予 Amos 大理石您创建的新策略，请运行：
 > 
   ```
   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
   ```
 
-  请参阅详细信息[授予 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet。
+  请参阅有关[Grant-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 的详细信息。
     
-  如果您已经创建一个策略，可以使用[一组 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet 可以更改现有的策略，并将[授予 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 将设置应用于您的用户。
+  如果您已经创建策略，您可以使用[Set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet 可以更改现有的策略，然后使用[Grant-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 将设置应用于您的用户。
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
 
-- 对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [为何想使用 Windows PowerShell 管理 Office 365 的 6 个理由）](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为何想使用 Windows PowerShell 管理 Office 365 的 6 个理由） ](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - 例如当你一次对多个用户更改设置时，Windows PowerShell 比起仅使用 Office 365 管理中心，在速度、简明性和效率方面具有许多优势。通过以下主题了解这些优势：
     
@@ -148,7 +149,7 @@ ms.lasthandoff: 04/18/2018
 ## <a name="related-topics"></a>相关主题
 [创建自定义外部访问策略](create-custom-external-access-policies.md)
 
-[块的点对点文件传输](block-point-to-point-file-transfers.md)
+[阻止点对点文件传输](block-point-to-point-file-transfers.md)
 
 [设置您的组织中的会议策略](set-up-conferencing-policies-for-your-organization.md)
 

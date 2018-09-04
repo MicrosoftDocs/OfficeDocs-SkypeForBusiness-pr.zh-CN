@@ -16,55 +16,58 @@ f1keywords:
 - ms.lync.lac.MeetingInvitation
 ms.custom:
 - Setup
-description: '自定义徽标图形、 帮助和法律 Url 和页脚文本与 Skype 会议邀请。 '
-ms.openlocfilehash: f6c5c65c1f12010a6ee6cc625748dfa0287a856a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: '自定义与图形徽标、 帮助和法律 Url 和页脚文本的 Skype 会议邀请。 '
+ms.openlocfilehash: 1f53ce183ebe62923948a33a7ac6b14f3c61f04a
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/04/2018
+ms.locfileid: "19500551"
 ---
 # <a name="customize-meeting-invitations"></a>自定义会议邀请
 
-作为一名管理员，您可以确保所有 Skype 业务会议邀请的都包括一些有用的信息，您的用户可能需要如技术支持网站和法律免责声明，您公司的徽标，以及您想要都包括其他文本的链接。 
+作为一名管理员，您可以确保所有 Skype 的业务会议邀请都包括一些有用的信息可能需要您的用户，如技术支持网站和法律声明、 您的公司徽标和您要都包括其他文本链接。 
   
-## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>创建会议邀请的徽标的技巧
+## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>创建会议邀请的徽标的提示
 <a name="__top"> </a>
 
-1. 创建 30 像素高 （它是相当小） 通过的不超过 188 像素宽的图像。
+1. 创建不超过 188 像素宽 x 30 像素高 （它是非常小） 的图像。
     
 2. 将图像保存为 JPG 格式。
     
-3. 将图像存储在一个中心位置，在业务中的每个人都可以访问，例如网络共享，共享业务文件夹，收存箱，OneDrive 等。
+3. 将图像存储在一个中心位置您企业中的所有人都可以访问，如网络共享，共享 OneDrive for Business 文件夹，收存箱，等等。
     
-    现在可以将其添加到您的会议邀请。 请参阅下一个步骤。
+    现在您可以将其添加到会议邀请。 请参阅接下来的步骤。
     
 ## <a name="customize-your-meeting-invitations"></a>自定义会议邀请
 <a name="__top"> </a>
 
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 在 Office 365 管理中心中，选择**管理员中心** > **业务的 Skype**。
+2. 从 Office 365 管理中心中，选择**管理中心** > **for Business 的 Skype**。
     
-3. 为业务管理中心 Skype，在选择**联机会议**。 
+3. 在业务管理中心的 Skype，选择**联机会议**。 
     
-4. 填写以下框：
+4. 填写下列框：
     
-    ![这是什么它可能如下所示完成窗体自定义会议邀请时。](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
+    ![下面是它可能外观时完成窗体自定义会议邀请。](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
 
-   **徽标 URL:**输入您的徽标所在的 URL。 请记住，必须是以 JPG 格式 ！ 
+   **徽标 URL:** 输入您的徽标的存储位置的 URL。 请记住，它必须为 JPG 格式 ！ 
  
-   **帮助 URL:**如果您的组织具有所需的人员，如果他们有问题，转到技术支持网站，输入下面的 URL。 
+   **帮助 URL:** 如果您的组织具有您想让用户转到，如果这些存在问题的支持网站，输入以下 URL。 
 
-   **法律 URL:**如果您的组织具有所需人员转到是否有法律问题的法律网站，，输入下面的 URL。
+   **法律 URL:** 如果您的组织具有您想让用户转到如果拥有法律问题的法律网站，，输入以下 URL。
     
-   **的页脚文本：**请输入一个纯文本的脚注，将适用于您的用户。  
+   **页脚文本：** 输入将适用于您的用户的纯文本脚注。  
   
    
 5. 选择" **保存**"。
     
-6. 等待一个小时左右的更改来填充整个 Office 365 提供的所有服务。 然后转到 Outlook，并安排 Skype 会议，了解所做的更改。 
+6. 等待一小时或，以获取填充的所有 Office 365 服务更改。 然后转到 Outlook 并安排 Skype 会议以查看所做的更改的外观。 
     
-    ![这里是一个自定义的邀请的样子，没有图形](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![下面是自定义邀请如下所示，而不图形](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
 ## <a name="related-topics"></a>相关主题
 <a name="__top"> </a>

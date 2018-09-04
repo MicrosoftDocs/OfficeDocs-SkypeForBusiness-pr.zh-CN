@@ -17,19 +17,22 @@ f1keywords:
 ms.custom:
 - Setup
 description: "How to turn on recording for audio and video conferences, and learn what is and isn't included in recordings. "
-ms.openlocfilehash: bec8910c838e253a135a605d53306185aae3383e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: eaf94874dc55dd333911b8bdfade085e137916a8
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/04/2018
+ms.locfileid: "19500524"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>让人员可以录制其音频和视频会议
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>为你的组织中的单个用户或所有人选择默认录制设置
 
-1. 请转到**Office 365 管理中心** > **业务的 Skype**，然后单击**用户**。
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+
+1. 转到**Office 365 管理中心** > **for Business 的 Skype**，然后单击**用户**。
     
-2. 在**用户**页中，从列表中选择的用户，然后单击**编辑**。
+2. 在**用户**页上，从列表中，选择或多个用户，然后单击**编辑**。
     
 3. 在**选项页**上，单击**记录对话和会议**，然后单击**保存**。
     
@@ -39,7 +42,7 @@ ms.lasthandoff: 04/18/2018
 |:-----|:-----|
 |音频和 HD 视频  <br/> PowerPoint 和白板演示  <br/> 桌面或程序共享会话  <br/> |共享 OneNote 页面  <br/> PowerPoint 批注  <br/> 共享文件（附件）  <br/> |
    
-有关详细信息，请参阅[Lync 录制保存并发布](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e)和[Lync 记录管理器](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b)。 
+有关详细信息，请参阅[Lync 录制保存并发布](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e)和[Lync 录制管理器](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b)。 
   
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
