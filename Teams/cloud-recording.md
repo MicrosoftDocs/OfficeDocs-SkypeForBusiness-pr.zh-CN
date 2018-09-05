@@ -9,12 +9,12 @@ description: 在 Microsoft Teams 中部署云语音功能实践指导
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8edf168d099df6c7d799cf0e513f0343f4902b67
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 64a0dd2cccfe92fe1385b40caa45551bfe91bba9
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242493"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835020"
 ---
 # <a name="teams-cloud-meeting-recording"></a>团队云会议录制
 
@@ -114,9 +114,13 @@ Microsoft 流是可用的合格的 Office 365 订阅一部分或作为独立的�
 ## <a name="manage-meeting-recordings"></a>管理会议录音
 会议录制视为租户拥有的内容。 录制的所有者离开公司时，如果管理员在管理模式下可以录制视频 URL Microsoft 流中打开。 管理员可以删除录制、 更新任何记录的元数据，或更改的视频录制的权限。 了解有关[流中的管理功能](https://docs.microsoft.com/en-us/stream/manage-content-permissions)的详细信息。
 
+## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>合规性和会议录音的电子数据展示
+在 Microsoft 流中，这是 Office 365 层-C 符合存储会议录制。 若要为合规性管理员感兴趣的 Microsoft 流开会或打电话录制支持电子发现请求，录制已完成的消息中提供了 Microsoft 团队的合规性内容搜索功能。 合规性管理员可以查找"录制"合规性内容搜索预览中的项目的主题行中的关键字和发现会议和呼叫组织中的记录。 用户可以查看所有录制先决条件是，他们将需要设置 Microsoft 流中具有管理员访问权限。 了解有关[流中的分配管理员权限](https://docs.microsoft.com/en-us/stream/assign-administrator-user-role)的详细信息。
+
 ## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
 
 Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过只使用 Office 365 管理中心中的，如时要进行设置更改多个用户一次。 若要开始使用 Windows PowerShell，请参阅下列主题：
 
-- [为什么您需要使用 Office 365 PowerShell 中](https://go.microsoft.com/fwlink/?LinkId=525041)
+- [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 - [为 Windows PowerShell 设置计算机](https://go.microsoft.com/fwlink/?LinkId=525038)
+

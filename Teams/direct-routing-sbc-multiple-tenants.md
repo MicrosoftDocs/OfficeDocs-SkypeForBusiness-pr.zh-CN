@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 了解如何配置一个会话边界控制器 (SBC) 提供多个租户。
-ms.openlocfilehash: 80176a97152050cbddfe4d8b1c189cde377a7c25
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 062c8e597b62757f3fb91773444bece7f047ac51
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084433"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835012"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -51,7 +51,7 @@ Microsoft 不管理运营商。 Microsoft 提供的 PBX （Microsoft 电话系�
 有关如何部署和配置 Sbc SBC 承载方案的详细步骤，请参阅 SBC 供应商的文档。
 
 - **AudioCodes:**[直接路由配置说明](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)，承载在"连接到 Microsoft 团队直接路由承载模型配置注释的 AudioCodes SBC"。 中所述情形 SBC 的配置 
-- **功能区：** 对于承载方案的 SBC，支持仅核心系列。 请参阅[功能区 SBC 核心 Microsoft 团队配置指南](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)。
+- **功能区通信：** 对于承载方案的 SBC，支持仅核心系列。 请参阅[功能区通信 SBC 核心 Microsoft 团队配置指南](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)。
 
 > [!NOTE]
 > 请注意如何配置"联系人"标头。 联系人标头用于传入 invite 消息上查找客户租户。 
@@ -110,7 +110,7 @@ SBC 需要证书进行身份验证连接。 运营商需要使用 SAN 中请求�
 
     ![添加基域名](media/direct-routing-2-sbc-add-domain.png)
 
-3. 单击" **下一步**"。
+3. 单击“**下一步**”。
 4. 在此示例中，租户已经有 adatum.biz 与已验证的域的名称。 因为 customers.adatum.biz 是已注册名称子域，向导将不要求的其他验证。 但是，如果您添加 FQDN 的尚未验证之前，您需要经过验证的过程。 验证的过程是[如下所述](#add-a-subdomain-to-the-customer-tenant-and-verify-it)。
 
     ![已域名进行确认](media/direct-routing-3-sbc-verify-domain.png)
@@ -150,7 +150,7 @@ SBC 需要证书进行身份验证连接。 运营商需要使用 SAN 中请求�
 
     ![添加客户子域](media/direct-routing-5-sbc-add-customer-domain.png)
 
-3. 单击" **下一步**"。
+3. 单击“**下一步**”。
 4. 从不已在租户中注册的 FQDN。 下一步，您需要验证域。 选择**添加 TXT 记录改为**。 
 
     ![在验证域页上的选项](media/direct-routing-6-sbc-verify-customer-domain.png)

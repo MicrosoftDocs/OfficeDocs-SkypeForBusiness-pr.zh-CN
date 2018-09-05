@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 阅读本主题可了解如何 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。
-ms.openlocfilehash: 7abf23aeb74807597b337c66e769b0625d862d0f
-ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
+ms.openlocfilehash: aa816f0e7da1745e3c8ced9f174b2f60eb2e38ce
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22914117"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835004"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -220,7 +220,7 @@ Microsoft 仅支持认证的 SBC，可直接路由与配对。 企业语音的�
 
 正在认证正在以下供应商提供：
 - [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- 功能区 (以前称为 Sonus):
+- 功能区通信 (以前称为 Sonus):
    - [SBC 边缘系列](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
    - [SBC 核心系列](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
 - ThinkTel: ThinkTel 不销售到企业 SBCs，但其 SBC 正在认证。  
