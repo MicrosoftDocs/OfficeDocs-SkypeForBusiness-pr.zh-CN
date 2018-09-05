@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于伯利兹业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 99f87d140001238a084d78f4efc87f5fce0c1d48
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 5ef1d3d7874c44a8475988a73607b640958c96c5
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785491"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829375"
 ---
 # <a name="availability-in-belize"></a>伯利兹中的可用性
 
@@ -40,7 +40,7 @@ ms.locfileid: "23785491"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |否  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |不可用  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 

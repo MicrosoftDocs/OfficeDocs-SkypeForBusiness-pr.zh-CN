@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96eb92c45af065b5f09ab9312f79198377067c4a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: aed0cc2b26fa55dcf47b2d90bbd974720c371663
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246155"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829263"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>曲面集线器部署的 Microsoft 团队
 ======================================
@@ -157,7 +157,7 @@ Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
 有两种配置的默认呼叫和会议应用程序策略： 
 
 - **选项 1**： 配置通过 USB 键。 
-- **选项 2**： 通过如 InTune MDM 配置。
+- **选项 2**： 通过如 Intune MDM 配置。
  
 ### <a name="option-1-configure-via-usb-key"></a>选项 1： 配置通过 USB 键 
  
@@ -180,9 +180,11 @@ Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
 9. 重新启动面集线器设备。 
 10. 设备重新启动后，您应该能够从开始屏幕中启动团队应用程序并从日历加入会议。 
 
-### <a name="option-2-configure-via-mdm-such-as-intune"></a>选项 2： 配置通过如 InTune MDM 
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>选项 2： 配置通过如 Intune MDM 
 
-使用以下配置通过 InTune 的默认呼叫和会议应用程序策略。
+使用以下配置通过 Intune 的默认呼叫和会议应用程序策略。
+
+.
 
 |设置   |值    |说明    |
 |----------|---------|---------|

@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 拉脱维亚可用的项目。
-ms.openlocfilehash: af90e7034ba9d3ebd8dbcca7d0a27db7e3c2bc8e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 3cd2a506f4245043d3e5c5554fa05a077353d4c2
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785131"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829151"
 ---
 # <a name="availability-in-latvia"></a>拉脱维亚中的可用性
 
@@ -40,7 +40,7 @@ ms.locfileid: "23785131"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |电话号码不会链接到特定城市或位置。 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |不可用  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 

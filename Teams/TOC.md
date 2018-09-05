@@ -105,25 +105,20 @@
 <!-- ============================================================ -->
 # 管理
 ## [查看用户体验指南的质量](quality-of-experience-review-guide.md)
-## 呼叫分析
+## 监视呼叫质量和 QoS
+### [Teams 中的 QoS](QoS-in-Teams.md)
+### [呼叫分析和呼叫质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [通话质量仪表板中可用的维度和衡量指标](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [设置呼叫分析](set-up-call-analytics.md)
 ### [使用通话分析解决通话质量不佳的问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [呼叫分析和呼叫质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
-
+### [通话质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)
 ## 故障排除和支持
 ### [Teams 的已知问题](Known-issues.md)
 ### [Teams 的支持资源](support-resources.md)
 ### [对 Teams 客户端的连接问题进行故障排除](connectivity-issues.md)
 ### [在对 Teams 进行故障排除时使用日志文件](log-files.md)
 ### [验证 Teams 的服务运行状况](service-health.md)
-## 监视通话质量和 QOS
-### [Teams 中的 QoS](QoS-in-Teams.md)
-### [呼叫分析和呼叫质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [通话质量仪表板中可用的维度和衡量指标](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [设置 Skype for Business 通话分析](set-up-call-analytics.md)
-### [使用通话分析解决 Skype for Business 通话质量不佳的问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [通话质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)
+
 <!-- ============================================================ -->
 
 

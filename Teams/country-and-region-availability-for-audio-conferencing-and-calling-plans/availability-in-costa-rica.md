@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于哥斯达黎加业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: a865070b8e549314f7325c4c8a7b37cc3843a880
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: df08aa02c97d362ca20d11e15252bf9a568a4db4
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783267"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829239"
 ---
 # <a name="availability-in-costa-rica"></a>哥斯达黎加中的可用性
 
@@ -40,7 +40,7 @@ ms.locfileid: "23783267"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |电话号码不会链接到特定城市或位置。  <br/> 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |不可用  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 

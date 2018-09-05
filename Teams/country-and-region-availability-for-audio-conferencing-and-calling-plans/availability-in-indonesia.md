@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于印度尼西亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: adc348a074572a27e3f2998d741094fb0a7ac80a
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 9a38d7ac4154e6bc4a69b94e407c5846e6ca8cad
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23782883"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829223"
 ---
 # <a name="availability-in-indonesia"></a>印度尼西亚中的可用性
 
@@ -40,7 +40,7 @@ ms.locfileid: "23782883"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |不可用  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 

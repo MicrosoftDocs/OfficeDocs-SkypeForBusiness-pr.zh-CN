@@ -12,12 +12,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 请参阅如何配置团队以使用户可以与其他组织中的用户进行通信。
-ms.openlocfilehash: a77ad4ad50c316e594ee9d3ee2c0e7b5accc0935
-ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
+ms.openlocfilehash: b8c3705b288abd81e85bd941ab019bb8e8e0e40e
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19863376"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829111"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>让您的团队用户聊天并与其他团队组织中的用户进行通信
 
@@ -27,7 +27,7 @@ ms.locfileid: "19863376"
     
 - 在您的组织团队用于联系外部组织的特定企业中的人员，您希望他人。
     
--您希望任何其他人在世界上使用团队能够找到并与您联系，使用您的电子邮件地址。 如果两个您启用外部访问，并允许每个其他人的域，这将正常工作。 如果他们更改了默认设置，他们需要确认其配置没有阻止你的域。
+- 您希望任何其他人在世界上使用团队能够找到并与您联系，使用您的电子邮件地址。 如果您和其他用户同时启用外部访问，并允许彼此的域，这将正常工作。 如果它不起作用，其他用户应确保他或她配置不阻止您的域。
 
 请按以下步骤执行：
 

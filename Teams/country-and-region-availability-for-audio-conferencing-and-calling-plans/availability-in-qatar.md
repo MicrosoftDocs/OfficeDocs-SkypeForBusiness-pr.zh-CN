@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 卡塔尔可用的项目。
-ms.openlocfilehash: e3d6eff519170c68ad4265e5f4cfaed515a5a49f
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 11f3ed011a6fc61e78dc1e35d457d665eae49b9a
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783955"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829175"
 ---
 # <a name="availability-in-qatar"></a>卡塔尔中的可用性
 
@@ -40,7 +40,7 @@ ms.locfileid: "23783955"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |不可用  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 

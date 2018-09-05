@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 阿根廷可用的项目。
-ms.openlocfilehash: f1c121e27ce6e17dfd30c5d6220a3c240fa3b079
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6f1c4c047523de5e9a9ac6da9aadb669bb976a1e
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783923"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829351"
 ---
 # <a name="availability-in-argentina"></a>阿根廷中的可用性
 
@@ -40,7 +40,7 @@ ms.locfileid: "23783923"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |是，为：<br/><ul><li>布宜诺斯艾利斯</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> | 不可用 <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> | 需要通信字幕式 <br/> |
    
 ## <a name="phone-system"></a>电话系统
 

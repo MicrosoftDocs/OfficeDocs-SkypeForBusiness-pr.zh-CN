@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于以色列业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: d663692c5e70f05446f1e27fb9bcafe2ad7bf1ab
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6813a65bc98f3814ff45e988967bf28f0a1f4a44
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784891"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829199"
 ---
 # <a name="availability-in-israel"></a>以色列中的可用性
 
@@ -40,7 +40,7 @@ ms.locfileid: "23784891"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |是，为：<br/><ul><li> 特拉维夫</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |不可用  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 

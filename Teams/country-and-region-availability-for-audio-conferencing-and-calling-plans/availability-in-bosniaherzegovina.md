@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于波斯尼亚和黑塞哥维那业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 43545d18c8db4babc9af49924d75732123fa07cc
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6c785a913b2fe8855e8e7d9d89b37c63fcd7c6d3
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784003"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829271"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>波斯尼亚中的可用性&amp;黑塞哥维那
 
@@ -40,7 +40,7 @@ ms.locfileid: "23784003"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |不可用  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 

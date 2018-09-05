@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于文莱业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 2605b8f14027c3c06d299d5acd2c27407e4447fb
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 695c17b90520fc7bf63c06fc02931f466efc284f
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783139"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829191"
 ---
 # <a name="availability-in-brunei"></a>文莱中的可用性
 
@@ -40,7 +40,7 @@ ms.locfileid: "23783139"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |否  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |不适用  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |不可用  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 

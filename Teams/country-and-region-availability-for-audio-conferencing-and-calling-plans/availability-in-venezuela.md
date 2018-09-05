@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 委内瑞拉可用的项目。
-ms.openlocfilehash: da3d7ea3887ee57b960a525c8b48418a48af2309
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 9704b9893215982a980467e5e5a803862673289c
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783291"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829143"
 ---
 # <a name="availability-in-venezuela"></a>委内瑞拉中的可用性
 
@@ -40,7 +40,7 @@ ms.locfileid: "23783291"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |不可用  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 

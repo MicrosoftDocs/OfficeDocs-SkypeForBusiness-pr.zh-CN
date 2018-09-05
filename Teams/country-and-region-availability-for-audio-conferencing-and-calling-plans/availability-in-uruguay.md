@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于乌拉圭业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: bf90eb5b3b5bed6b04b8efe774e1ffb8f54fdcc2
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 08a5aa35997fb870563c39b794ec3d512a9a1ac3
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784091"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829159"
 ---
 # <a name="availability-in-uruguay"></a>乌拉圭中的可用性
 
@@ -40,7 +40,7 @@ ms.locfileid: "23784091"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |不可用  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
