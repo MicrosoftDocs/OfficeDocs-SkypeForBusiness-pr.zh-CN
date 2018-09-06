@@ -9,12 +9,12 @@ ms.reviwer: tonysmit
 description: 了解如何 Live 事件使用户能够广播视频和 Microsoft 团队、 Yammer 和 Microsoft 流中的大型联机访问群体的内容。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad798ae4b0fa1fc5d2430f418c43c716a1f2ed74
-ms.sourcegitcommit: bc125c655e76129b086f821011f63a983fb23e7b
+ms.openlocfilehash: 21f524d6156e13f5c27fe12da97dd287c9f2f3bc
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22554066"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846618"
 ---
 # <a name="what-are-teams-live-events"></a>什么是团队 live 事件？
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
@@ -47,8 +47,8 @@ Microsoft 365 中的实时事件支持生产方案提供了一系列，包括使
 ### <a name="streaming-platform"></a>流式平台
 Live 事件流式平台由以下四个部分组成：
 
-- **Azure 媒体服务**  [Azure Media Services](https://docs.microsoft.com/en-us/azure/media-services/previous/)为您提供了广播质量视频流的服务访问今天的最常用的移动设备上的较大访问群体。 Media Services 增强辅助功能、 分发和可伸缩性，并使其简单且经济高效流内容到您的本地或全球访问群体 — 同时保护您的内容。
-- **Azure 内容交付网络 (CDN)** 一旦您流投入，它被通过[Azure 内容交付网络 (CDN)](https://docs.microsoft.com/en-us/azure/cdn/)。 Azure Media Services 提供集成的 CDN 流终结点。 这样世界各地查看与无缓冲的流。
+- **Azure 媒体服务**  [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/)为您提供了广播质量视频流的服务访问今天的最常用的移动设备上的较大访问群体。 Media Services 增强辅助功能、 分发和可伸缩性，并使其简单且经济高效流内容到您的本地或全球访问群体 — 同时保护您的内容。
+- **Azure 内容交付网络 (CDN)** 一旦您流投入，它被通过[Azure 内容交付网络 (CDN)](https://docs.microsoft.com/azure/cdn/)。 Azure Media Services 提供集成的 CDN 流终结点。 这样世界各地查看与无缓冲的流。
 - **企业内容交付网络 (eCDN)** ECDN 的目标是从 internet 视频内容并不会影响网络性能分布在整个企业的内容。 您可以使用下列选项之一认证 eCDN 合作伙伴优化您的网络保留组织内的实时事件：
     - 配置单元
     - Kollective
@@ -140,9 +140,9 @@ Live 事件流式平台由以下四个部分组成：
 Live 事件的设置时, 有以下几个您必须采取的步骤：
 
 ### <a name="step-1-set-up-your-network-for-live-events-in-microsoft-teams"></a>步骤 1： 设置您的网络中的 Microsoft 团队的实时事件
-快速入门 live 事件要求您[准备贵组织的网络中的 Microsoft 团队](https://docs.microsoft.com/en-us/microsoftteams/prepare-network)。  
+快速入门 live 事件要求您[准备贵组织的网络中的 Microsoft 团队](https://docs.microsoft.com/microsoftteams/prepare-network)。  
 
-### <a name="step-2-get-and-assign-licenses"></a>步骤 2： 获取和分配许可证
+### <a name="step-2-get-and-assign-licenses"></a>第 2 步：获取和分配许可证
 确保您具有正确的许可证分配[谁可以创建和安排 live 事件？](#who-can-create-and-schedule-live-events)和[谁可以观看 live 事件？](#who-can-watch-live-events)。
 
 ### <a name="step-3-enable-live-event-scheduling-for-users"></a>步骤 3： 启用的用户安排 live 事件
@@ -351,7 +351,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 ### <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
 当谈到 Windows PowerShell，它的所有有关管理用户和用户允许或不允许执行的操作。 使用 Windows PowerShell，您可以管理 Office 365 和 Skype 业务 online 使用单点具有多个要执行的任务时，可以简化您的日常工作的管理。 若要开始使用 Windows PowerShell，请参阅下列主题：
  - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
- - [为什么您需要使用 Office 365 PowerShell 中](https://go.microsoft.com/fwlink/?LinkId=525041)
+ - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 
 例如当你一次对多个用户更改设置时，Windows PowerShell 比起仅使用 Office 365 管理中心，在速度、简明性和效率方面具有许多优势。通过以下主题了解这些优势：
  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)

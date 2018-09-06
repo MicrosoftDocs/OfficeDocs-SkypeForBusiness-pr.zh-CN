@@ -1,5 +1,5 @@
 ---
-title: "在 Microsoft Teams 中对内容进行电子数据展示调查"
+title: 在 Microsoft Teams 中对内容进行电子数据展示调查
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,14 +7,15 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: "了解你需要执行电子数据展示时（例如，你需要提交所有电子方式存储的信息用于法律程序时）要完成的事项。"
+description: 了解你需要执行电子数据展示时（例如，你需要提交所有电子方式存储的信息用于法律程序时）要完成的事项。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d42879d9d1a65fd6ac206fb5f0c115a02fed2a4
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 02efc096362c194d580edc259f9afa5c65fd1cda
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843706"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 ============================
@@ -23,7 +24,7 @@ ms.lasthandoff: 02/19/2018
 
 所有 Teams 一对一或群组聊天都会全部记录到各个用户的邮箱，所有频道消息都会全部记录到表示团队的群组邮箱。 SharePoint Online 和 OneDrive for Business 的电子数据展示功能的对象涵盖上载的文件。
 
-1.  要对 Microsoft Teams 内容进行电子数据展示调查，请查看[此](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da?ui=en-US&rs=en-US&ad=US#step1)链接。
+1.  进行电子数据展示调查的 Microsoft 团队内容，请查看步骤 1 中[此](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da)链接。
 
 2.  Microsoft Teams 数据将以**即时消息或对话**形式显示在 Excel 输出中，或者你可以在 Outlook 中装载 **.PST**。
 

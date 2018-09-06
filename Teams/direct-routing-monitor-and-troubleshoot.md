@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 本文介绍如何监视和解决直接路由配置。
-ms.openlocfilehash: 850fa11a6ebbd5e193c4fd7258d65714f1bc9499
-ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
+ms.openlocfilehash: 1a29ec3f58666752cb22bc4a8b3adbe24a0399bf
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20314966"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844770"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>监视和故障排除直接路由
 
@@ -72,7 +72,7 @@ SBC 被视为正常运行，如果时刻发送呼叫的统计信息显示 SBC �
 
 直接路由服务已向呼叫分析或 SBC 日志报告非常描述性错误代码。 
 
-呼叫质量仪表板提供有关呼叫质量和可靠性的信息。 若要了解有关如何使用调用分析的问题进行疑难解答的详细信息，请参阅[打开和使用的 Microsoft 团队和 Skype 业务 online 呼叫质量仪表板](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)和[使用呼叫分析解决质量欠佳的呼叫质量](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)。 
+呼叫质量仪表板提供有关呼叫质量和可靠性的信息。 若要了解有关如何使用调用分析的问题进行疑难解答的详细信息，请参阅[打开和使用的 Microsoft 团队和 Skype 业务 online 呼叫质量仪表板](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)和[使用呼叫分析解决质量欠佳的呼叫质量](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)。 
 
 呼叫失败时调用分析提供标准 SIP 代码，以帮助您进行疑难解答。 
 

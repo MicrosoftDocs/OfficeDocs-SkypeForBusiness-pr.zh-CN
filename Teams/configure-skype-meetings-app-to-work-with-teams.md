@@ -10,12 +10,12 @@ description: 管理员可以使用的 Microsoft 团队和 Skype Admin Center Sky
 Set_Free_Tag: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82da9923c75ce905a4d0de43ffbd299626af4b3e
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 686e53f3c272ab73e7934085df96cf710fecf667
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546562"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844834"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Skype 会议应用程序使用团队配置
 ===================================================
@@ -41,5 +41,5 @@ ms.locfileid: "22546562"
 
 有关 Skype 会议应用程序的详细信息，请参阅：
 
-- [什么是 Skype 会议应用程序 (Skype 业务 Web app)](https://support.office.microsoft.com/en-us/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5?ui=en-US&rs=en-US&ad=US)
-- [Skype 会议应用的最低网络要求](https://technet.microsoft.com/en-us/library/mt845808.aspx)
+- [什么是 Skype 会议应用程序 (Skype 业务 Web app)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
+- [Skype 会议应用的最低网络要求](https://technet.microsoft.com/library/mt845808.aspx)

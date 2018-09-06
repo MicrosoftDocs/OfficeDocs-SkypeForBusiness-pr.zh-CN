@@ -9,18 +9,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 了解如何配置 Microsoft 电话系统直接路由。
-ms.openlocfilehash: 455ae4bd419dd4e92152615adc42f879168e4f15
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 23be9bae259767ffd4eb26d03a22f5449b4b9222
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835028"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23845938"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
 如果您未阅读[规划直接路由](direct-routing-plan.md)必备组件并查看其他步骤您需要配置 Microsoft 电话系统网络之前执行。 
 
-本文介绍如何配置 Microsoft 电话系统直接路由。 它详细说明如何配对对直接路由支持会话边界控制器 (SBC) 以及如何配置为使用直接路由连接到公共公用电话交换网 (PSTN) 的 Microsoft 团队用户。 若要完成本文中介绍的步骤操作，管理员需要某些熟悉 PowerShell cmdlet。 有关使用 PowerShell 的详细信息，请参阅[Windows PowerShell 将计算机设置](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。 
+本文介绍如何配置 Microsoft 电话系统直接路由。 它详细说明如何配对对直接路由支持会话边界控制器 (SBC) 以及如何配置为使用直接路由连接到公共公用电话交换网 (PSTN) 的 Microsoft 团队用户。 若要完成本文中介绍的步骤操作，管理员需要某些熟悉 PowerShell cmdlet。 有关使用 PowerShell 的详细信息，请参阅[Windows PowerShell 将计算机设置](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。 
 
 我们建议您确认，您的 SBC 已配置为您的 SBC 供应商的推荐： 
 
@@ -43,7 +43,7 @@ ms.locfileid: "23835028"
 
 ### <a name="connect-to--skype-for-business-online-by-using-powershell"></a>使用 PowerShell online 业务连接到 Skype 
 
-您可以使用连接到租户 PowerShell 会话配对直接路由界面 SBC。 若要打开 PowerShell 会话，请按照中[设置您的计算机的 Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)列出的步骤。 
+您可以使用连接到租户 PowerShell 会话配对直接路由界面 SBC。 若要打开 PowerShell 会话，请按照中[设置您的计算机的 Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)列出的步骤。 
  
 您建立一个远程 PowerShell 会话后，请验证您可以看到这些命令以管理 SBC。 若要验证命令，键入或复制/粘贴在下面的示例 PowerShell 会话中，按 Enter: 
 
@@ -97,7 +97,7 @@ Enabled               : True
 
 |必填？|名称|描述|默认|可能的值|类型和限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|是|FQDN|SBC 的 FQDN 名称 |无|NoneFQDN 名称，限制 63 个字符|字符串，在[Active Directory 中的计算机、 域、 站点和 Ou 中的命名约定](https://support.microsoft.com/en-us/help/909264)的允许和禁止字符的列表|
+|是|FQDN|SBC 的 FQDN 名称 |无|NoneFQDN 名称，限制 63 个字符|字符串，在[Active Directory 中的计算机、 域、 站点和 Ou 中的命名约定](https://support.microsoft.com/help/909264)的允许和禁止字符的列表|
 |否|MediaBypass |参数留作将来使用。 参数指示的 SBC 支持媒体绕过功能，管理员希望使用它。|无|True<br/>False|布尔值|
 |是|SipSignallingPort |用于与直接路由服务通信使用的传输层安全性 (TLS) 协议的侦听端口。|无|任何端口|0 到 65535 |
 |否|FailoverTimeSeconds |如果设置为 10 （默认值），在 10 秒内未应答，网关的出站呼叫路由至下一个可用中继;如果不有任何其他的中继，则自动丢弃该呼叫。 在网络和网关响应缓慢的组织中，这可能导致不必要地丢弃呼叫。 默认值为 10。|10|数字|Int|
@@ -158,8 +158,8 @@ Enabled               : True
 
 有两个选项的 Office 365 中创建新用户。 但是，我们建议您的组织选择和使用一个选项以避免路由问题： 
 
-- 内部部署 Active Directory 中创建用户和同步到云用户。 请参阅[Azure Active Directory 集成本地目录](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect)。  
-- 直接在 Office 365 管理门户中创建用户。 请参阅[添加用户单独或到 Office 365-批量管理帮助](https://support.office.com/en-us/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)。 
+- 内部部署 Active Directory 中创建用户和同步到云用户。 请参阅[Azure Active Directory 集成本地目录](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)。  
+- 直接在 Office 365 管理门户中创建用户。 请参阅[添加用户单独或到 Office 365-批量管理帮助](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)。 
 
   如果生成与业务 2015年或 Lync 2010/2013年内部部署的 Skype 共存的系统，仅受支持的选项是在本地 Active Directory 中创建用户并同步到云 (选项 1) 的用户。 
 
@@ -520,7 +520,7 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>为用户设置为首选调用客户端的 Microsoft 团队
 
-直接路由仅将呼叫路由到用户与如果他们使用团队客户端。 如果您的组织仅使用团队，"仅工作组"设置模式中升级策略建议。 如果您的组织使用业务 online 业务服务器或 Skype Skype，请参阅以下文章，获取详细信息，然后选择适当的选项：[了解共存和升级的业务和团队的 Skype 旅程](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)。 
+直接路由仅将呼叫路由到用户与如果他们使用团队客户端。 如果您的组织仅使用团队，"仅工作组"设置模式中升级策略建议。 如果您的组织使用业务 online 业务服务器或 Skype Skype，请参阅以下文章，获取详细信息，然后选择适当的选项：[了解共存和升级的业务和团队的 Skype 旅程](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)。 
 
 
 ## <a name="see-also"></a>另请参阅

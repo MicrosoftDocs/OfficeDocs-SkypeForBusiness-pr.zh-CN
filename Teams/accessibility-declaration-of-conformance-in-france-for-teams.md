@@ -16,12 +16,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: "Microsoft 小组东部 l'outil de 聊天 collaboratif d'Office 365 qui intègre toutes les personnes、 contenus et outils 不 votre équipe besoin 浇注 être 以及 impliquée et efficace。 "
-ms.openlocfilehash: 380b233b5246be518214d72771a7113ba733e54f
-ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
+ms.openlocfilehash: 148071fdea294893b4107cc31347d4e4b1dc8e2c
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "20518700"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846914"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en matière d'accessibilité
 
@@ -37,11 +37,11 @@ Nom 是 produit: Microsoft 团队
 
 网站： [Microsoft 团队](https://teams.microsoft.com/)
 
-联系人浇注以及 d'informations: [Microsoft 团队支持](https://support.office.com/en-us/teams)
+联系人浇注以及 d'informations: [Microsoft 团队支持](https://support.office.com/teams)
 
 网站 web en matière d'accessibilité: [Microsoft 辅助功能](https://www.microsoft.com/accessibility/)
 
-服务 de réponse 辅助问题 d'utilisateurs en 情况 de 残疾人通行： [eDAD](https://support.microsoft.com/en-us/answerdesk/accessibility)
+服务 de réponse 辅助问题 d'utilisateurs en 情况 de 残疾人通行： [eDAD](https://support.microsoft.com/answerdesk/accessibility)
 
 浇筑 obtenir de l'aide sur ce 友善的关系，veuillez [nous envoyer 取消电子邮件](mailto:edad@microsoft.com?subject=Conformance%20Statement)。
 
@@ -204,4 +204,4 @@ Le présent 文档 est fourni à titre indicatif。 MICROSOFT NE FOURNIT AUCUNE 
 
 ## <a name="related-topics"></a>相关主题
 
-[法国 Skype for Business Online 辅助功能解决方案](https://docs.microsoft.com/en-us/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)
+[法国 Skype for Business Online 辅助功能解决方案](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)

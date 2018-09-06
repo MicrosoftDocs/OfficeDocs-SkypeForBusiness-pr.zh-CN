@@ -17,12 +17,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: 请参阅有与特殊字符的策略和解决办法可以执行的操作的名称中哪些问题。
-ms.openlocfilehash: 6aabd3c1d7e373c048ea1d1f723f83ad1108dbe0
-ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
+ms.openlocfilehash: b0ae1458e81bdb6ee527c954ab0f2faf3461e3cf
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "21645385"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844810"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>什么是团队策略中的特殊字符限制？
 
@@ -39,7 +39,7 @@ ms.locfileid: "21645385"
 
 
 **步骤 1 – 进行远程 powershell 连接。**
-如果尚未尚未[设置您的计算机的 Windows PowerShell](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 。
+如果尚未尚未[设置您的计算机的 Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 。
 ```
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
@@ -71,7 +71,7 @@ ms.locfileid: "21645385"
  ```
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
-请参阅[授予 CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps)有关此 cmdlet 的详细信息。
+请参阅[授予 CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps)有关此 cmdlet 的详细信息。
 
 **步骤 5-删除旧的策略。**
 
@@ -79,7 +79,7 @@ Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
   ```
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
-请参阅[删除 CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps)有关此 cmdlet 的详细信息。
+请参阅[删除 CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps)有关此 cmdlet 的详细信息。
 
 如果此命令成功执行，即已完成。 如果上述命令将返回错误，这是因为旧策略分配给用户，因此您需要运行以从策略中删除所有已分配的用户：
 

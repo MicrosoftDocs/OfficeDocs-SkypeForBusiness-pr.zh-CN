@@ -15,17 +15,17 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aed0cc2b26fa55dcf47b2d90bbd974720c371663
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 17ba794c2a0b2a09081da41b5fad5df2bee5bb4c
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829263"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844762"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>曲面集线器部署的 Microsoft 团队
 ======================================
 
-为 Microsoft Surface 集线器部署的 Microsoft 团队之前，请确保您已满足硬件、 操作系统和其他要求。 有关详细信息，请参阅[Microsoft Surface 中心管理指南](https://docs.microsoft.com/en-us/surface-hub/)。
+为 Microsoft Surface 集线器部署的 Microsoft 团队之前，请确保您已满足硬件、 操作系统和其他要求。 有关详细信息，请参阅[Microsoft Surface 中心管理指南](https://docs.microsoft.com/surface-hub/)。
 
 ## <a name="set-up-user-accounts"></a>设置用户帐户
  
@@ -103,7 +103,7 @@ Get-MsolAccountSku
 Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
 ```
 
-7\。 接下来，您需要为面集线器中启用团队的设备帐户。 确保您的环境符合[Microsoft Surface 中心管理指南](https://docs.microsoft.com/en-us/surface-hub/)中定义的要求。
+7\。 接下来，您需要为面集线器中启用团队的设备帐户。 确保您的环境符合[Microsoft Surface 中心管理指南](https://docs.microsoft.com/surface-hub/)中定义的要求。
 
 启动远程 Windows PowerShell 会话，如下所示 （请务必业务 Online PowerShell 组件安装 Skype）：
 

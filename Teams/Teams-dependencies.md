@@ -10,12 +10,12 @@ ms.reviewer: sbhatta
 description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7a1fb7ce7910963cf7b665c2e0e26788f9487ca
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: 1ce2d706264b8e05672f4b994e213cde594f1203
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599349"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843890"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授权来宾访问
 ===========================================
@@ -55,7 +55,7 @@ Azure AD 包括以下设置来配置外部用户：
 
 
 > [!NOTE]
-> 您还可以管理哪些域可以作为来宾邀请到您的租户。 请参阅[Office 365 组允许/阻止来宾访问](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups)。 
+> 您还可以管理哪些域可以作为来宾邀请到您的租户。 请参阅[Office 365 组允许/阻止来宾访问](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups)。 
 
 ## <a name="microsoft-teams"></a>Microsoft Teams
 在 Microsoft Teams 中，你可以控制为组织启用还是禁用来宾体验。 该设置在默认情况下禁用，仅在租户级别应用于 Microsoft Teams。
@@ -104,7 +104,7 @@ Teams 依赖 SharePoint Online 和 OneDrive for Business 存储频道和聊天�
 
 - 在 SharePoint Online 中：**仅允许与已在目录中的外部用户共享**
     
-    有关详细信息，请参阅[为你的 SharePoint Online 环境管理外部共享](https://docs.microsoft.com/en-us/sharepoint/external-sharing-overview)。
+    有关详细信息，请参阅[为你的 SharePoint Online 环境管理外部共享](https://docs.microsoft.com/sharepoint/external-sharing-overview)。
     
   
 - 在 Office 365 组中：**允许组所有者将组织外部的人员添加到组**

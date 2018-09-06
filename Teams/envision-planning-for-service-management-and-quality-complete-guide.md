@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94cdfd1f8bc9c3ef1a7968eb1d1219f22b37ea26
-ms.sourcegitcommit: af2406f8ac57fa6d867a806f8421f8da374d6781
+ms.openlocfilehash: e2a96f579dba947a616120ae853636b9c81ac6f1
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "22499733"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844018"
 ---
 # <a name="plan-for-service-management-and-quality"></a>规划服务管理和质量
 
@@ -338,7 +338,7 @@ Microsoft Teams 的主要优势之一是客户端会自动保持最新。 PC 和
 | | 安装质量体验评审模板 <br/> 上载构建文件 | [QERLite 模板](https://aka.ms/qertemplates) <br/> [上载构建信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
 | 规划网络质量 | 运行 Network Planner | [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | 实施 QoS | [Microsoft Teams 中的服务质量](qos-in-teams.md) |
-| | 绕过代理服务器 | [代理指导](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
+| | 绕过代理服务器 | [代理指导](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
 | | 实施拆分通道 VPN | [VPN 拆分通道指导](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | 为实时媒体优化 Wi-Fi 网络  | 咨询第三方供应商 |
 | | 实施本地 Internet 出口 | [本地 Internet 出口](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |

@@ -12,12 +12,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 请参阅如何配置团队以使用户可以与其他组织中的用户进行通信。
-ms.openlocfilehash: b8c3705b288abd81e85bd941ab019bb8e8e0e40e
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 3eaffac3571abc70d4964ea4a8955f187d1e988f
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829111"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844634"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>让您的团队用户聊天并与其他团队组织中的用户进行通信
 
@@ -35,7 +35,7 @@ ms.locfileid: "23829111"
 
 ### <a name="step-1---make-sure-to-set-up-the-ports-and-urls-that-are-needed"></a>步骤 1-请务必设置的端口和所需的 Url。
 
-**人们在设置企业到企业通信时遇到的最常见的问题是正确完成[Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)。**
+**人们在设置企业到企业通信时遇到的最常见的问题是正确完成[Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)。**
 
 ### <a name="step-2---enable-your-organization-to-communicate-with-another-teams-organization"></a>步骤 2-启用组织与另一个团队组织进行通信
 

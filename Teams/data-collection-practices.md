@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft 收集统计、 使用和错误的数据，以了解如何使用 for Business 的 Skype 和其中用户遇到问题。 使用的数据来规划产品改进。
-ms.openlocfilehash: e4270a56e24d621511c94c9dc925fb1d1ca120ba
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: d33f4037517936b39bd81ccb6ec5b7df3ef5a3b8
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783067"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846434"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype 的业务和 Microsoft 团队数据集做法
 
@@ -52,7 +52,7 @@ Skype 的业务服务器 2015年、 业务 online，以及应用程序业务和 
 |用户 Id  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |ID 哈希处理两次： 客户端上一次并再次遥测服务。 哈希值计算可确保不能链接到特定用户的 ID。  <br/> |
 |DeviceID  <br/> |5E872200-F546-4CCD-8F23-AF5F507AA2DD  <br/> |设备 ID 是随机生成一次在设备上并发送到遥测服务的 GUID。  <br/> |
 
-统计数据不包含任何标识您的组织或用户的信息。 请参阅[业务隐私声明的 Skype](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx)的详细信息。
+统计数据不包含任何标识您的组织或用户的信息。 请参阅[业务隐私声明的 Skype](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx)的详细信息。
 
 统计数据位于默认情况下，不能通过 admins 凭据或最终用户关闭。
 
@@ -73,7 +73,7 @@ Skype 的业务服务器 2015年、 业务 online，以及应用程序业务和 
 
 使用率数据不包含任何标识用户的信息。
 
-使用率数据集默认情况下，但本地管理员可以将其关闭业务服务器 2015 Skype 上使用 DisableAutomaticSendTracing 组策略设置。 关闭此设置将影响组织中的所有用户。 有关详细信息，请参阅[中的业务服务器 2015 Skype 的配置客户端引导策略](https://technet.microsoft.com/EN-US/library/gg425941.aspx)。
+使用率数据集默认情况下，但本地管理员可以将其关闭业务服务器 2015 Skype 上使用 DisableAutomaticSendTracing 组策略设置。 关闭此设置将影响组织中的所有用户。 有关详细信息，请参阅[中的业务服务器 2015 Skype 的配置客户端引导策略](https://technet.microsoft.com/library/gg425941.aspx)。
 
 打开或关闭，最终用户无法启用使用率数据集。
 
@@ -94,11 +94,11 @@ Skype 会议应用程序和联接启动器网页，控制遥测的方法是通�
 |对话线程 ID  <br/> |AdDO8hsJqilU93hQHC3OZaPR2saEA = =  <br/> ||
 |用户 Id  <br/> |amosmarble <br/> |ID 是以明文形式，其之前将其存储遥测服务进行哈希处理发送  <br/> |
 
-错误报告数据可能还包含个人身份信息，例如用户的 IP 地址和会话初始协议统一资源标识符 (SIP URI)。 请参阅[业务隐私声明的 Skype](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx)的什么收集的详细说明。
+错误报告数据可能还包含个人身份信息，例如用户的 IP 地址和会话初始协议统一资源标识符 (SIP URI)。 请参阅[业务隐私声明的 Skype](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx)的什么收集的详细说明。
 
 错误报告需要以下两项：
 
-- 在服务器上或租户管理员中心 （这是默认状态） DisableAutomaticSendTracing 组策略设置设置为 False。 有关详细信息，请参阅[中的业务服务器 2015 Skype 的配置客户端引导策略](https://technet.microsoft.com/EN-US/library/gg425941.aspx)。
+- 在服务器上或租户管理员中心 （这是默认状态） DisableAutomaticSendTracing 组策略设置设置为 False。 有关详细信息，请参阅[中的业务服务器 2015 Skype 的配置客户端引导策略](https://technet.microsoft.com/library/gg425941.aspx)。
     
 - 最终用户单独常规选项卡中加入 (单击齿轮图标![齿轮图标](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)，然后将**选项**对话框打开与显示**常规**选项卡) 中的商业客户端 Skype。
     
@@ -114,6 +114,6 @@ Skype 会议应用程序和联接启动器网页，控制遥测的方法是通�
 如果您使用的 Office 365 21Vianet 在中国由操作，请参阅[设置您的业务 online 由 21Vianet Skype 的网络](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf)。
 
 ## <a name="related-topics"></a>相关主题
-[客户体验改善计划](https://www.microsoft.com/products/ceip/en-US/default.mspx)
+[客户体验改善计划](https://www.microsoft.com/products/ceip/default.mspx)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

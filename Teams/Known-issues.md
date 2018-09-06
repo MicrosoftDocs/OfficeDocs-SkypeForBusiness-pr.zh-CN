@@ -10,12 +10,12 @@ ms.reviewer: marcl
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b88d0767c2815e276fe791b0751fb7090f8d446
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a3f97c5a28bdbd266750c10b113ab826ab8ba272
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779427"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843986"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -32,7 +32,7 @@ ms.locfileid: "23779427"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|不再可用的租户范围连接器的管理员管理  <br/> |我们尝试在客户端和联机版本中添加连接器时收到错误： 出现意外的错误。 请重试。 Set-organizationconfig ConnectorsEnabled = True   <br/> |禁用使用团队设置。 请参阅支持文章https://msdn.microsoft.com/en-us/microsoft-teams/connectors  <br/> |2017 年 6 月 21 日  <br/> |
+|不再可用的租户范围连接器的管理员管理  <br/> |我们尝试在客户端和联机版本中添加连接器时收到错误： 出现意外的错误。 请重试。 Set-organizationconfig ConnectorsEnabled = True   <br/> |禁用使用团队设置。 请参阅支持文章https://msdn.microsoft.com/microsoft-teams/connectors  <br/> |2017 年 6 月 21 日  <br/> |
 
 ## <a name="apps"></a>应用
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
@@ -134,7 +134,7 @@ ms.locfileid: "23779427"
 ## <a name="meetings"></a>会议
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|用户无法访问会议/连接器，但具有 Exchange Online 邮箱。 <br/> |客户主动 EWS 阻止来自 Exchange Online 中的服务，但需要有 MS 团队符合 EWS 策略中。 <br/> |若要使 MS 团队兼容，您必须添加内 EWSAllowList MS 团队以下用户代理字符串： `*skypespaces*`，包括星号。 完整的命令为：`set-organizationconfig -ewsallowlist *skypespaces*`<br/> 有关详细信息：https://docs.microsoft.com/en-us/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
+|用户无法访问会议/连接器，但具有 Exchange Online 邮箱。 <br/> |客户主动 EWS 阻止来自 Exchange Online 中的服务，但需要有 MS 团队符合 EWS 策略中。 <br/> |若要使 MS 团队兼容，您必须添加内 EWSAllowList MS 团队以下用户代理字符串： `*skypespaces*`，包括星号。 完整的命令为：`set-organizationconfig -ewsallowlist *skypespaces*`<br/> 有关详细信息：https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|

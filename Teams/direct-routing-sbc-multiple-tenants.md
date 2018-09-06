@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 了解如何配置一个会话边界控制器 (SBC) 提供多个租户。
-ms.openlocfilehash: 062c8e597b62757f3fb91773444bece7f047ac51
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 537058eef62197a9df8659ed4c3f50802f2f19a1
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835012"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23845514"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -44,7 +44,7 @@ Microsoft 不管理运营商。 Microsoft 提供的 PBX （Microsoft 电话系�
 2. 激活的子域名称。
 3. 配置中继到客户租户和设置用户从运营商。
 
-*请确保您了解 DNS 基础知识和 Office 365 中管理的域名的方式。在进一步之前查看[获取 Office 365 域的帮助](https://support.office.com/en-us/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*请确保您了解 DNS 基础知识和 Office 365 中管理的域名的方式。在进一步之前查看[获取 Office 365 域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
 
 ## <a name="deploy-and-configure-the-sbc"></a>部署并配置 SBC
 
@@ -70,7 +70,7 @@ Microsoft 不管理运营商。 Microsoft 提供的 PBX （Microsoft 电话系�
 
 当呼叫到达的 Office 365 直接路由接口时，接口将使用的联系人标头来查找租户其中应查找用户。 直接路由不使用电话号码查找上邀请，如某些客户可能具有非-DID 号码可以在多个租户中重叠。 因此，联系人标头中的 FQDN 名称都需要标识确切的租户，以查找用户的电话号码。
 
-*请查看有关在 Office 365 租户中创建域名[获取 Office 365 域的帮助](https://support.office.com/en-us/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*请查看有关在 Office 365 租户中创建域名[获取 Office 365 域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
 
 下图汇总了对基域、 子域和联系人标头的要求。
 
@@ -101,7 +101,7 @@ SBC 需要证书进行身份验证连接。 运营商需要使用 SAN 中请求�
 
 若要验证您具有的角色，请登录到 Microsoft 365 管理中心 (https://portal.office.com)，请转到**用户** > **活动用户**，然后验证是否已全局管理员角色。 
 
-有关管理角色和如何为 Office 365 中的一个角色分配的详细信息，请参阅[有关 Office 365 管理员角色](https://support.office.com/en-us/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+有关管理角色和如何为 Office 365 中的一个角色分配的详细信息，请参阅[有关 Office 365 管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>向租户添加基域并验证其
 
@@ -124,7 +124,7 @@ SBC 需要证书进行身份验证连接。 运营商需要使用 SAN 中请求�
 
 注册域名后，您需要激活通过添加至少一个用户和分配匹配创建的基域名的 SIP 地址的 FQDN 部分的 SIP 地址。
 
-*请查看有关将用户添加 Office 365 租户中[获取帮助与 Office 365 域](https://support.office.com/en-us/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*请查看有关将用户添加 Office 365 租户中[获取帮助与 Office 365 域](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
 
 例如： test@customers.adatum.biz
 
@@ -142,7 +142,7 @@ SBC 需要证书进行身份验证连接。 运营商需要使用 SAN 中请求�
 
 若要验证您具有的角色，请登录到 Microsoft 365 管理中心 (https://portal.office.com)，请转到**用户** > **活动用户**，然后验证是否已全局管理员角色。 
 
-有关管理角色和如何为 Office 365 中的一个角色分配的详细信息，请参阅[有关 Office 365 管理员角色](https://support.office.com/en-us/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+有关管理角色和如何为 Office 365 中的一个角色分配的详细信息，请参阅[有关 Office 365 管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>将子域添加到客户租户并确认它
 1. 在 Microsoft 365 管理中心，转到**安装程序** > **域** > **添加域**。
@@ -163,7 +163,7 @@ SBC 需要证书进行身份验证连接。 运营商需要使用 SAN 中请求�
 
     ![在运营商的 DNS 宿主提供商中创建的 TXT 记录](media/direct-routing-8-sbc-txt-record.png)
 
-    有关详细信息，请参阅[Office 365 任何 DNS 宿主提供商处创建 DNS 记录](https://support.office.com/en-us/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166?ui=en-US&rs=en-US&ad=US)。
+    有关详细信息，请参阅[Office 365 任何 DNS 宿主提供商处创建 DNS 记录](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)。
 
 7. 返回到客户的 Microsoft 365 管理中心，并单击**验证**。 
 8. 在下一页上，选择**将自己添加的 DNS 记录**，然后单击**下一步**。
@@ -186,7 +186,7 @@ SBC 需要证书进行身份验证连接。 运营商需要使用 SAN 中请求�
 
 注册域名后，您需要激活通过添加至少一个用户和分配匹配客户租户中创建的子域的 SIP 地址的 FQDN 部分的 SIP 地址。
 
-*请查看有关将用户添加 Office 365 租户中[获取帮助与 Office 365 域](https://support.office.com/en-us/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*请查看有关将用户添加 Office 365 租户中[获取帮助与 Office 365 域](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
 
 例如： test@sbc1.customers.adatum.biz
 

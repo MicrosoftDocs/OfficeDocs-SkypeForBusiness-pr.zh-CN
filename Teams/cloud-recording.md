@@ -9,19 +9,19 @@ description: 在 Microsoft Teams 中部署云语音功能实践指导
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64a0dd2cccfe92fe1385b40caa45551bfe91bba9
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 6c1ca0045eb980a83852426b9c0b2c12f1e317f0
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835020"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23845530"
 ---
 # <a name="teams-cloud-meeting-recording"></a>团队云会议录制
 
 > [!Note]
 > [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-在 Microsoft 团队中，用户可以记录其团队会议和捕获音频、 视频和共享活动的屏幕的组呼叫。 还有一个选项以录制内容已自动转录，以便用户可以播放会议录制与字幕和搜索重要讨论项在脚本中。 录制云中发生的情况，并保存到[Microsoft 流](https://docs.microsoft.com/en-us/stream/)，以便用户可以跨组织安全地共享它。
+在 Microsoft 团队中，用户可以记录其团队会议和捕获音频、 视频和共享活动的屏幕的组呼叫。 还有一个选项以录制内容已自动转录，以便用户可以播放会议录制与字幕和搜索重要讨论项在脚本中。 录制云中发生的情况，并保存到[Microsoft 流](https://docs.microsoft.com/stream/)，以便用户可以跨组织安全地共享它。
 
 相关：[团队会议录制最终用户文档](https://aka.ms/recordmeeting)
 
@@ -44,21 +44,21 @@ ms.locfileid: "23835020"
 
 ### <a name="enable-microsoft-stream-for-users-in-the-organization"></a>为组织中的用户启用 Microsoft 流
 
-Microsoft 流是可用的合格的 Office 365 订阅一部分或作为独立的服务。  请参阅[流许可概述](https://docs.microsoft.com/en-us/stream/license-overview)的详细信息。  请注意，Microsoft 流不包括在业务 Essentials 或企业高级版计划。
+Microsoft 流是可用的合格的 Office 365 订阅一部分或作为独立的服务。  请参阅[流许可概述](https://docs.microsoft.com/stream/license-overview)的详细信息。  请注意，Microsoft 流不包括在业务 Essentials 或企业高级版计划。
 
-了解有关如何可以[分配给 Office 365 中的用户的许可证](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)，以便用户可以访问 Microsoft 流。 确保 Microsoft 流将不阻止用户，如[本文](https://docs.microsoft.com/en-us/stream/disable-user-organization)中定义。
+了解有关如何可以[分配给 Office 365 中的用户的许可证](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)，以便用户可以访问 Microsoft 流。 确保 Microsoft 流将不阻止用户，如[本文](https://docs.microsoft.com/stream/disable-user-organization)中定义。
 
 ### <a name="ensure-that-users-have-upload-video-permissions-in-microsoft-stream"></a>确保用户具有上载 Microsoft 流中的视频权限
 
-默认情况下，公司中的所有人都可以在流中，创建内容后启用流和许可证分配给用户。 Microsoft 流管理员可以[限制用于创建内容的员工](https://docs.microsoft.com/en-us/stream/restrict-uploaders)对流中。 此限制的列表中的用户将无法录制会议。
+默认情况下，公司中的所有人都可以在流中，创建内容后启用流和许可证分配给用户。 Microsoft 流管理员可以[限制用于创建内容的员工](https://docs.microsoft.com/stream/restrict-uploaders)对流中。 此限制的列表中的用户将无法录制会议。
 
 ### <a name="notify-employees-to-consent-to-company-guidelines-in-microsoft-stream"></a>通知员工同意 Microsoft 流中的公司准则
 
-如果 Microsoft 流管理员[设置公司准则策略](https://docs.microsoft.com/en-us/stream/company-policy-and-consent)并要求员工保存内容之前接受此策略，用户必须完成之前的 Microsoft 团队中的记录。 推出组织中的录制功能之前，请确保用户同意策略。
+如果 Microsoft 流管理员[设置公司准则策略](https://docs.microsoft.com/stream/company-policy-and-consent)并要求员工保存内容之前接受此策略，用户必须完成之前的 Microsoft 团队中的记录。 推出组织中的录制功能之前，请确保用户同意策略。
 
 ### <a name="enabledisable-cloud-recording-for-users"></a>启用/禁用将云用户录制
 
-使用中的设置 AllowCloudRecording 团队 powershell TeamsMeetingPolicy 控制是否允许用户的会议录制。 您可以了解有关管理 Office 365 PowerShell 中使用的 TeamsMeetingPolicy[此处](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+使用中的设置 AllowCloudRecording 团队 powershell TeamsMeetingPolicy 控制是否允许用户的会议录制。 您可以了解有关管理 Office 365 PowerShell 中使用的 TeamsMeetingPolicy[此处](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 请注意，会议组织者和录制发起者需要有权录制会议录制。 除非您的自定义策略分配给用户，用户将获得全局策略，其中包含默认情况下启用录制。
 
@@ -85,7 +85,7 @@ Microsoft 流是可用的合格的 Office 365 订阅一部分或作为独立的�
 
 在用户记录其团队会议时，他们可以确认是否脚本应自动生成后录制会议。 如果管理员已禁用会议组织者和录制启动器转录功能，录制发起者不会选择，理赔会议录制。
 
-使用中的设置 AllowTranscription 团队 powershell TeamsMeetingPolicy 控制是否录制启动器获取理赔会议录制可选择。 您可以了解有关管理 Office 365 PowerShell 中使用的 TeamsMeetingPolicy[此处](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+使用中的设置 AllowTranscription 团队 powershell TeamsMeetingPolicy 控制是否录制启动器获取理赔会议录制可选择。 您可以了解有关管理 Office 365 PowerShell 中使用的 TeamsMeetingPolicy[此处](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 已分配给用户的自定义策略，除非他们获取全局策略，其中已禁用默认情况下启用。
 
@@ -109,13 +109,13 @@ Microsoft 流是可用的合格的 Office 365 订阅一部分或作为独立的�
 
 ### <a name="planning-for-storage"></a>正在计划存储
 
-1 小时录制内容的大小为 400 MB。 请确保您了解要求录制的文件的容量和 Microsoft 流中有足够的存储空间可用。  阅读的[本文](https://docs.microsoft.com/en-us/stream/license-overview)以了解订阅以及如何购买额外的存储空间中包含的基存储。
+1 小时录制内容的大小为 400 MB。 请确保您了解要求录制的文件的容量和 Microsoft 流中有足够的存储空间可用。  阅读的[本文](https://docs.microsoft.com/stream/license-overview)以了解订阅以及如何购买额外的存储空间中包含的基存储。
 
 ## <a name="manage-meeting-recordings"></a>管理会议录音
-会议录制视为租户拥有的内容。 录制的所有者离开公司时，如果管理员在管理模式下可以录制视频 URL Microsoft 流中打开。 管理员可以删除录制、 更新任何记录的元数据，或更改的视频录制的权限。 了解有关[流中的管理功能](https://docs.microsoft.com/en-us/stream/manage-content-permissions)的详细信息。
+会议录制视为租户拥有的内容。 录制的所有者离开公司时，如果管理员在管理模式下可以录制视频 URL Microsoft 流中打开。 管理员可以删除录制、 更新任何记录的元数据，或更改的视频录制的权限。 了解有关[流中的管理功能](https://docs.microsoft.com/stream/manage-content-permissions)的详细信息。
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>合规性和会议录音的电子数据展示
-在 Microsoft 流中，这是 Office 365 层-C 符合存储会议录制。 若要为合规性管理员感兴趣的 Microsoft 流开会或打电话录制支持电子发现请求，录制已完成的消息中提供了 Microsoft 团队的合规性内容搜索功能。 合规性管理员可以查找"录制"合规性内容搜索预览中的项目的主题行中的关键字和发现会议和呼叫组织中的记录。 用户可以查看所有录制先决条件是，他们将需要设置 Microsoft 流中具有管理员访问权限。 了解有关[流中的分配管理员权限](https://docs.microsoft.com/en-us/stream/assign-administrator-user-role)的详细信息。
+在 Microsoft 流中，这是 Office 365 层-C 符合存储会议录制。 若要为合规性管理员感兴趣的 Microsoft 流开会或打电话录制支持电子发现请求，录制已完成的消息中提供了 Microsoft 团队的合规性内容搜索功能。 合规性管理员可以查找"录制"合规性内容搜索预览中的项目的主题行中的关键字和发现会议和呼叫组织中的记录。 用户可以查看所有录制先决条件是，他们将需要设置 Microsoft 流中具有管理员访问权限。 了解有关[流中的分配管理员权限](https://docs.microsoft.com/stream/assign-administrator-user-role)的详细信息。
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
 

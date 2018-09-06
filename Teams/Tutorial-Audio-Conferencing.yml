@@ -16,12 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 698bb6a90d3ba6b64b3288b60d55eec2dac17453
-  ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+  ms.openlocfilehash: aedc8c450c7d3aebfb4c73378e53859dae8d08f2
+  ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 08/28/2018
-  ms.locfileid: "23253435"
+  ms.lasthandoff: 09/06/2018
+  ms.locfileid: "23845658"
 items:
 - durationInMinutes: 1
   content: >
@@ -64,7 +64,7 @@ items:
     要向我们提供有关 Teams 的产品反馈（例如，新功能想法），请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
 - title: 团队中的音频会议
   durationInMinutes: 12
-  content: "\n与音频会议参与者使用普通电话可以参加团队会议 — 通过拨入会议到从其电话或使用电话拨出式会议中的功能。 查看以下资源，以了解有关音频会议的详细信息：\n-   [音频会议功能](https://products.office.com/skype-for-business/audio-conferencing#Features)（估计的阅读时间为 1 分钟）\n-   [与 Microsoft 团队会议 9 提示](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)(估计读取时间\"\\#1-加入会议音频会议通过\"为 1 分钟; 如果您阅读整篇文章的详细)\n-   [音频会议的常见问题](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)（估计的阅读时间 7 分钟）\n-   [从，使其他人可以加入该会议拨出](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)（估计的阅读时间 2 分钟）\n"
+  content: "\n与音频会议参与者使用普通电话可以参加团队会议 — 通过拨入会议到从其电话或使用电话拨出式会议中的功能。 查看以下资源，以了解有关音频会议的详细信息：\n-   [音频会议功能](https://products.office.com/skype-for-business/audio-conferencing#Features)（估计的阅读时间为 1 分钟）\n-   [与 Microsoft 团队会议 9 提示](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)(估计读取时间\"\\#1-加入会议音频会议通过\"为 1 分钟; 如果您阅读整篇文章的详细)\n-   [音频会议的常见问题](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)（估计的阅读时间 7 分钟）\n-   [从，使其他人可以加入该会议拨出](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)（估计的阅读时间 2 分钟）\n"
 - title: 应用场景 – 音频会议
   durationInMinutes: 1
   content: "\nGarth 适用于在具有多个办公室的公司 Contoso。 Garth 经常需要进行连接与其他 office 位置的人员，他经常在家工作或出差转，因为他是团队会议巨大风扇。 Garth 发送会议邀请，它将自动添加音频会议的信息。 这样，以下方案：\n-   刘爱琳想要参加 Garth 的会议但她在旅途和可靠的网络没有访问权限。 因此，她使用电话拨入式会议邀请中的坐标加入会议。 在电话拨入式过程中，她使用其 PIN 进行身份验证，因此她识别由系统作为\"刘爱琳。\"\n-   Bob，用户当前是旅馆，他的 PC 上使用团队客户端加入会议。 遗憾的是，通过 internet 连接在旅馆音频质量不好，因此 Bob 拨出其自己的电话号码从通过公用电话交换网 (PSTN) 加入会议。\n-   如果会议参与者决定他们想要在其他电话号码添加用户在呼叫期间，他们可以只拨出到电话号码，并将其他人加入会议。\n-   其他用户也可以从其 PC、 Mac 或移动设备上的团队客户端加入。\n"
