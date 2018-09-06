@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0c4a0ec4-1a2b-4ce8-8323-f797162ab4fe
 description: 启用呼叫控制和 Office 365 云中的专用交换机 (PBX) 功能在 Office 365 (云 PBX) 解决方案中查找 Microsoft 的电话系统的信息。
-ms.openlocfilehash: 217efacc44edf43e330b73019051330aa2a66637
-ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
+ms.openlocfilehash: 176b147bd29939fb0d0c654a882331be2f54d6c7
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "20176124"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779148"
 ---
 # <a name="plan-your-phone-system-in-office-365-cloud-pbx-solution"></a>规划 Office 365 中的电话系统（云 PBX）解决方案
  
@@ -89,7 +89,7 @@ Office 365 中调用计划允许您搜索，获取，以及分配组织中用户
   
 ![该拓扑图显示云 PBX 和 PSTN 呼叫（这是完整的云中语音解决方案）。](../../media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
   
-有关详细信息，请参阅[什么是 Office 365 中调用计划？](../../../SfbOnline/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
+有关详细信息，请参阅[什么是 Office 365 中调用计划？](/microsoftteams/what-are-calling-plans-in-office-365)
 
 Office 365 中调用计划在特定但不断增长的地理位置是可用。 请与您的 Microsoft 代表确认该服务在您的区域是否可用。 
   
@@ -143,7 +143,7 @@ Office 365 中调用计划在特定但不断增长的地理位置是可用。 �
 |**您的情况** <br/> |**Office 365 解决方案中的电话系统** <br/> |
 |:-----|:-----|
 |![终结点 A 的标注](../../media/85b51a4e-3984-4ef2-bacb-586f998da632.png)您的 PBX 系统提供了您需要保留的独特功能。  <br/> |**调查将您的 PBX 替换为 Skype for Business Server。** 您可以使用 Skype 业务 Server 企业语音作为完整的 PBX 系统您的组织，包括通过您的本地运营商的 PSTN 连接。 如果您需要 PBX 将来功能的更改，您可以重新考虑在 Office 365 中的电话系统。 <br/> 有关 Microsoft 的企业语音解决方案的详细信息，请参阅[规划企业语音解决方案中的业务服务器 2015 Skype](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)。  <br/> 如果不是所有用户都需要您当前的 PBX，可以考虑为业务 Online 将这些用户移动到 Skype 提供的独特功能。  <br/> |
-|![终结点 B 的标注](../../media/f47d89d4-5f3a-4dfc-9c29-f09295e4a912.png)PBX 不提供独特功能所需保留、 调用规划 Office 365 中在您的地区，并且您想要使用 Microsoft 提供 PSTN 服务。  <br/> |**订阅 Office 365 中调用计划。** 您的所有用户可以位于 Skype for Business Online 上的云中，并且您的组织可以从 Microsoft 接收 PBX 和 PSTN 服务。 如果用户已从您当前的运营商的电话号码的电话号码可移植到 Office 365 中的电话系统。 根据需要，您可以从 Microsoft 获取额外的电话号码。 <br/> 有关详细信息，请参阅[什么是 Office 365 中调用计划？](../../../SfbOnline/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md) <br/> |
+|![终结点 B 的标注](../../media/f47d89d4-5f3a-4dfc-9c29-f09295e4a912.png)PBX 不提供独特功能所需保留、 调用规划 Office 365 中在您的地区，并且您想要使用 Microsoft 提供 PSTN 服务。  <br/> |**订阅 Office 365 中调用计划。** 您的所有用户可以位于 Skype for Business Online 上的云中，并且您的组织可以从 Microsoft 接收 PBX 和 PSTN 服务。 如果用户已从您当前的运营商的电话号码的电话号码可移植到 Office 365 中的电话系统。 根据需要，您可以从 Microsoft 获取额外的电话号码。 <br/> 有关详细信息，请参阅[什么是 Office 365 中调用计划？](/microsoftteams/what-are-calling-plans-in-office-365) <br/> |
 |![终结点 C 的标注](../../media/c9ba0a6f-d3bb-41e0-925b-0e94cf59e034.png)PBX 不提供独特功能所需保留，规划 Office 365 中的调用中不可用您的地区，并且业务服务器部署了现有 Lync 或 Skype。  <br/> 在此方案中，也有可能你的所有用户都位于美国，但是由于其他原因（例如，与现有运营商的合同义务），你不考虑迁移到 Microsoft 提供的 PSTN。  <br/> |**与 Office 365 中的电话系统连接您现有的 Skype 业务服务器部署。** PSTN 连接上的本地 Skype 的企业语音通过提供对于业务服务器部署，但您的组织可以从 Microsoft 云接收 PBX 服务。 在您开始业务 online 将其移至 Skype，您可以保留用户的语音功能。 您可以按照您自己的进度迁移用户，请注意，无论他们驻留在哪里，其语音功能都将继续工作。 <br/> 将来，如果您决定可以保留您当前的运营商，您可以端口 Microsoft 的完整电话系统与调用计划，与提供所有 PBX 和 PSTN 功能的 Microsoft Office 365 中对云用户。  <br/> 有关详细信息此选项，请参阅[规划与 Office 365 中的电话系统本地 Skype 业务服务器中的 PSTN 连接](plan-phone-system-with-on-premises-pstn-connectivity.md)和[电话系统与 Office 365 中为用户启用内部部署中 Skype 的 PSTN connectivity 业务服务器](enable-users-for-phone-system.md).  <br/> |
 |![终结点 D 的标注](../../media/73499b3b-a954-49cd-a0ef-c8c1f3152801.png)将 PBX 不提供独特功能所需保留、 规划 Office 365 中的调用中不可用您的地区，且业务服务器部署不具有现有的 Lync 或 Skype。  <br/> 在此方案中，也可能是您所在的地区，调用规划 Office 365 中有可用，但不能考虑的其他原因而将移动到 Microsoft 提供 PSTN — 例如，使用您现有的运营商的合同义务。  <br/> |**部署云连接器。** 您可以继续使用您的当前 PSTN 运营商，但是您的组织可以从 Microsoft 云接收 PBX 服务。 云连接器，您可以向用户提供的业务呼叫控制功能的 Skype。 无论您的用户的地理位置如何，此解决方案都有效，因为每个用户都会连接到其本地网站来获得 PSTN 连接。 <br/> 将来，如果您决定可以保留您当前的运营商，您可以端口 Microsoft 的完整电话系统与调用计划，与提供所有 PBX 和 PSTN 功能的 Microsoft Office 365 中对云用户。  <br/> 有关此选项的详细信息，请参阅[Plan for Business 云连接器 edition Skype](plan-skype-for-business-cloud-connector-edition.md)和[配置和管理业务云连接器 edition Skype](configure-skype-for-business-cloud-connector-edition.md)。  <br/> |
    

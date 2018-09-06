@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a89f3670d2dda14ae5d15647213aca5d1d5398af
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 3cf488377302fda32ff1c569c114818977ea10fc
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569912"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599357"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互 
 =========================================
@@ -37,7 +37,7 @@ ms.locfileid: "19569912"
 |**Exchange Online**|是|是|是|是|是|是|是|是|是|是|是|是|是|
 |**Exchange Online Dedicated vNext**|是|是|是|是|是|是|是|是|是|是|是|是|是|
 |**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是 （[允许列表](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)）|否|否|是|否|否|是|是|否|是 （Exchange 2013 +）|否|是|是|
-|**本地 Exchange**（同步到所需 Azure AD）|是 （[允许列表](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)）|否|否|是|是 （Exchange 2016 CU3 +）|否|是|是|否|是 （Exchange 2013 +）|否|是|是|
+|**本地 Exchange**（同步到所需 Azure AD）|是 （[允许列表](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)）|否|否|是|是 （Exchange 2016 CU3 +）|否|是|是|否|是 （Exchange 2013 +）|否|否|是|
                                                             
 *\*支持 Exchange 2016 CU3 及更高版本*
 

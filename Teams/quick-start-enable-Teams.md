@@ -3,7 +3,7 @@ title: 快速入门 - Microsoft Teams 规划指南
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/22/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, tonysmit
@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28f286a04bf52e3d4cb4fd7ad48278843b5ed134
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: bc4e1815b6d3b649c8af518068ca2d6ff3e9adbc
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19001820"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23242811"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>快速入门 - Microsoft Teams 规划指南
 ==========================================================
@@ -29,9 +29,9 @@ ms.locfileid: "19001820"
 
 ## <a name="step-1-get-your-people-together"></a>步骤 1：将人员聚集在一起
 
-从业务部门、IT 部门和用户社区召集一组人，作为 Teams 部署的利益干系人和决策组。 在比较小的组织，可以是两三个人。 务必召集齐这三个社区的人，以确保部署成功。  
+从业务部门、IT 部门和用户社区召集一组人，作为 Teams 部署的利益干系人和决策组。 在比较小的组织，可以是两三个人。 务必召集齐这三个社区的人，以确保部署成功。
 
-每个组都将提供一些关键技能，尽管这之间可能存在交叉。 在确保你在所有 Office 365 服务之间具有端到端关联的前提下，IT 专业人士通常专注于体验的运行状况、安全性和可管理性。 业务用户将提供实际方案和业务需求，以此提供有价值的测试案例。 这两点对于成功的测试和广泛部署计划都必不可少。    
+每个组都将提供一些关键技能，尽管这之间可能存在交叉。 在确保你在所有 Office 365 服务之间具有端到端关联的前提下，IT 专业人士通常专注于体验的运行状况、安全性和可管理性。 业务用户将提供实际方案和业务需求，以此提供有价值的测试案例。 这两点对于成功的测试和广泛部署计划都必不可少。
 
 ## <a name="step-2-prioritize-your-business-scenarios"></a>步骤 2：确定业务方案优先级
 
@@ -42,7 +42,7 @@ ms.locfileid: "19001820"
 
 ![示例 Microsoft 365 部署团队的屏幕截图。](media/quick-start-enable-Teams-Microsoft365-Deployment-Team.png)
 
-在 Microsoft Teams 中规划团队、频道和选项卡时，请观看此简短视频，其中提供了简单的注意事项。 
+在 Microsoft Teams 中规划团队、频道和选项卡时，请观看此简短视频，其中提供了简单的注意事项。
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
@@ -50,7 +50,7 @@ ms.locfileid: "19001820"
 
 ## <a name="step-3-complete-technical-planning"></a>步骤 3：完成技术规划
 
-高效的技术规划是实现出色用户体验的基础。 如果贵组织拥有超过 50 个席位且参与了[合格计划](https://technet.microsoft.com/library/dn783224.aspx)，你可以使用可用的 [FastTrack 优势](https://technet.microsoft.com/library/dn783224.aspx?f=255&MSPPError=-2147217396),指导你完成规划、部署和服务采用，无需任何额外成本。 你也可以使用我们的 FastTrack 上线向导自行完成此工作，使用 Office 365 帐户登录后即可从 [FastTrack](https://fasttrack.microsoft.com/) 获取此向导。 下面的信息将帮助你完成 Teams 的此步骤。 你至少需要阅读下面四篇文章：
+高效的技术规划是实现出色用户体验的基础。 如果贵组织拥有超过 50 个席位且参与了[合格计划](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365)，你可以使用可用的 [FastTrack 优势](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365),指导你完成规划、部署和服务采用，无需任何额外成本。 你也可以使用我们的 FastTrack 上线向导自行完成此工作，使用 Office 365 帐户登录后即可从 [FastTrack](https://fasttrack.microsoft.com/) 获取此向导。 下面的信息将帮助你完成 Teams 的此步骤。 你至少需要阅读下面四篇文章：
 
 1.  [检查你的环境是否为 Teams 准备好](environment-readiness.md)
 2.  [为 Teams 准备你的网络](prepare-network.md)
@@ -88,12 +88,12 @@ ms.locfileid: "19001820"
 
 1. 如需了解最佳实践，请**阅读 [Office 365 采用指南]( https://aka.ms/office365adoptionguide)**。 使用我们关于[创建 Microsoft Team 的变更管理策略](change-management-strategy.md)的文章记录你的方法。
 1. **研究 [Office 365 活动报告](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)**，以了解你的整个环境的使用情况。 如果你不是贵公司的 Office 365 管理员，请求管理员向你授予报告读取器的权限，以便你可以访问活动报告。
-2. **获取员工**对 Office 365 和 Teams 体验的反馈。 如果组织的员工数少于 2500 人，请使用 Teams 中的公共频道。 如果贵组织大于 Teams 中的当前成员限制，请使用 Yammer 中的公共组。 
+2. **获取员工**对 Office 365 和 Teams 体验的反馈。 如果组织的员工数少于 2500 人，请使用 Teams 中的公共频道。 如果贵组织大于 Teams 中的当前成员限制，请使用 Yammer 中的公共组。
 
 4. **培养你的支持者并突显你的优势。** 对于采用新工具并且以与公司业务成果有关的创新方式使用这些工具的员工予以奖励。 这一点对于确保 Office 365 和 Teams 的持续采用比上述任何一点都至关重要。
 
 
 ## <a name="next-steps"></a>后续步骤
 1. 转到[工具和研讨会：规划、交付和采用 Teams](planning-workshop-practical-guide.md)
-2. 下载并填写[快速入门指南：成功启用 Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) 中的技术规划调查表。
-3. 下载用于在贵组织中启动 Teams 的研讨会套件：[规划、交付和运营 Teams](http://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)
+2. 下载并填写[快速入门指南：成功启用 Teams](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) 中的技术规划调查表。
+3. 下载用于在贵组织中启动 Teams 的研讨会套件：[规划、交付和运营 Teams](https://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)

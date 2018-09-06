@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb78449b335ca1f770a7e8e636db7d485be78ad1
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 723a90609b6ef704d368e93ce915ac9027d58d4a
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398114"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23244513"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>示例电子邮件和调查的基本升级通信
 
@@ -66,7 +66,7 @@ Our official transition to Teams is set for <<X date>>, but your journey starts 
 
 CALL TO ACTION: Get started with Teams today
 
--   View this [Introducing Microsoft Teams video](http://teamsdemo.office.com/)
+-   View this [Introducing Microsoft Teams video](https://teamsdemo.office.com/)
 -   Follow these [Quick Start](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d) steps to send your first chat in Teams
 
 If you have questions or need help, please reach out to <<insert company support information>>.
@@ -128,8 +128,8 @@ Let me be the first to officially welcome you to Microsoft Teams. Your Skype for
 
 CALL TO ACTION: If you need assistance getting started in Teams:
 
--   View this Introducing Microsoft Teams video: http://teamsdemo.office.com/
--   Visit the Office 365 Training Center, or simply ask T-Bot. 
+-   View this Introducing Microsoft Teams video: https://teamsdemo.office.com/
+-   Visit the Office 365 Training Center, or simply ask T-Bot.
 
 Should you have questions about Teams, contact <<insert alias or contact info>>.
 
@@ -162,12 +162,12 @@ Should you have questions, contact <<insert alias or contact info>>.
 ````
 
 [返回到步骤 9](upgrade-basic.md#step-9)
- 
+
 <a name="step-10-email"></a>
 
 ### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>若要要求用户试试团队和频道的步骤 10 吧，电子邮件
 
-主题行： 
+主题行：
 
 ```
 CALL TO ACTION: Give teams and channels a try
@@ -220,8 +220,8 @@ Should you have questions, contact <<insert alias or contact info>>.
 | 其他 （请指定）     | & #9744;   |
 
 
-**可能性有多大？ 您向朋友/同事推荐的 Microsoft 团队(0 = 不根本可能...10 非常可能 =)** 
-     
+**可能性有多大？ 您向朋友/同事推荐的 Microsoft 团队(0 = 不根本可能...10 非常可能 =)**
+
 | 0      | 1            | 2                | 3                  | 4                  | 5   | 6                   | 7 | 8 | 9 | 10 |
 | ------| -----  | ---------|-------|-----|-------|------|------|------|------|------|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |

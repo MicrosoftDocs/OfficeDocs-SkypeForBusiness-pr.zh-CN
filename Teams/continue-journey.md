@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 082ad5913cfd95750eaac9f36b424b62610c0c26
-ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
+ms.openlocfilehash: 1d6b45c13cf387ff31044ea7d439a0a1e5081eca
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "20506641"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247532"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 
@@ -26,7 +26,7 @@ ms.locfileid: "20506641"
 
 # <a name="drive-operational-excellence-with-microsoft-teams"></a>驱动器与 Microsoft 团队卓越运营
 
-技术开展创新，以前所未有的速度。 保持当前和启用现代的工作环境已成为中如何运行组织标准。 随着 Microsoft 团队、 Microsoft 365 和 Microsoft 的智能通信远景继续滑动，就地具有运营计划将有助于确保您的组织已设置为长期成功。 最佳操作计划包括监视您的环境的运行状况和质量，继续执行用户 momentum 来优化应用，并规划将继续联机随着时间的新功能。 
+技术开展创新，以前所未有的速度。 保持当前和启用现代的工作环境已成为中如何运行组织标准。 随着 Microsoft 团队、 Microsoft 365 和 Microsoft 的智能通信远景继续滑动，就地具有运营计划将有助于确保您的组织已设置为长期成功。 最佳操作计划包括监视您的环境的运行状况和质量，继续执行用户 momentum 来优化应用，并规划将继续联机随着时间的新功能。
 
 ## <a name="monitor-for-network-health-and-quality"></a>监控网络运行状况和质量
 
@@ -42,7 +42,7 @@ ms.locfileid: "20506641"
 
 -   登记对等方拥护者，以帮助宣传和鼓励同伴用户。
 -   检查[Office 365 应用指南](https://go.microsoft.com/fwlink/?linkid=859045)有关提高工作效率和驱动应用提示。
--   利用[团队客户成功工具包](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)提高认知度和共享最佳实践。
+-   利用[团队客户成功工具包](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)提高认知度和共享最佳实践。
 -   实施正式[应用和更改管理策略](http://www.successwithteams.com/)，以帮助保持应用增长。
 
 ## <a name="prepare-for-new-functionality"></a>准备新的功能

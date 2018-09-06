@@ -3,7 +3,7 @@ title: 为 Microsoft Teams 准备贵组织的网络
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 02/26/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: arachman
@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fec119a29ea29d9d5c897395c82e27fdaed5e48
-ms.sourcegitcommit: 8c13d6279760749f60776a3c9e46118f029ae818
+ms.openlocfilehash: 7d5d5d04a7e307119ad51eb12ac013ffa089cebf
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2018
-ms.locfileid: "20024195"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23246282"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备贵组织的网络
 =================================================
@@ -35,7 +35,7 @@ Teams 组合了三种形式的流量：
 > [!IMPORTANT]
 > 当前，在 iOS 和 Android 移动设备上支持会议，但在 Windows Phone 上不支持。
 
-为了在 Microsoft Teams 中获得实时媒体方面的最佳体验，需要满足 Office 365 的网络连接要求。 有关详细信息，请参阅 [Skype for Business Online 中的媒体质量和网络连接性能](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US)。
+为了在 Microsoft Teams 中获得实时媒体方面的最佳体验，需要满足 Office 365 的网络连接要求。 有关详细信息，请参阅 [Skype for Business Online 中的媒体质量和网络连接性能](https://docs.microsoft.com/en-us/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)。
 
 两个定义网络段 （客户端到 Microsoft 边缘） 和客户边缘到 Microsoft 边缘，请考虑以下建议。
 
@@ -57,7 +57,7 @@ Teams 组合了三种形式的流量：
 <a name="bandwidth-requirements"></a>带宽要求
 ----------
 
-Microsoft Teams 的带宽计算很复杂，因此为了帮助进行此计算，创建了一个计算器。 要访问计算器，请转到 [MyAdvisor 中的网络规划器](http://aka.ms/bwcalc/)。
+Microsoft Teams 的带宽计算很复杂，因此为了帮助进行此计算，创建了一个计算器。 要访问计算器，请转到 [MyAdvisor 中的网络规划器](https://aka.ms/bwcalc/)。
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.

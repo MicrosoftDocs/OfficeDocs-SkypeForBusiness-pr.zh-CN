@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读此主题以获取如何部署与 Office 365 的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 442bfa306f611d9ba642d3b74d431cfda4c46770
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c623d689f876cfe36c7c8308a7f62526be217ec1
+ms.sourcegitcommit: a9556a51f7f970fc05ab0acc9998401db3c1aa57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21027350"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "22601967"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>将 Skype 会议室系统 v2 与 Office 365 一起部署 
  
@@ -31,14 +31,16 @@ ms.locfileid: "21027350"
   
 若要启用 for Business 的 Skype，您必须：
   
-- Skype 业务 online (计划 2) 或更高版本 Office 365 计划中。 该计划需要支持会议功能。
+- Skype 业务 online （计划 2 中或基于企业的规划） 或更高版本 Office 365 计划中。 计划需要允许电话拨入式会议功能。
     
-- 如果您需要企业语音 （PSTN 电话） 使用 Skype 会议室系统 v2 电话服务提供程序需要 Skype 业务 online (计划 3)。
+- 如果您需要电话拨入式会议的功能，您将需要的音频会议和电话系统许可证。  如果您需要从会议拨出功能，您将需要国内或国内和国际呼叫规划。 
     
 - 您的租户用户必须拥有 Exchange 邮箱。
     
-- Skype 会议室系统 v2 帐户确实需要 Skype 业务 online (计划 2) 或 Skype 业务 Online (计划 3) 许可证，但它不需要的 Exchange Online 的许可证。
-    
+- Skype 会议室系统 v2 帐户确实需要在最小 Skype 业务 Online (计划 2) 许可证，但它不需要的 Exchange Online 的许可证。
+
+Skype 的业务 Online 计划的详细信息，请参阅[Skype for Business Online 服务说明](https://technet.microsoft.com/library/jj822172.aspx)。
+
 ### <a name="add-a-device-account"></a>添加设备帐户
 
 1. 在 PC 上启动远程 Windows PowerShell 会话并连接到 Exchange。 确保你有合适的权限集来运行相关 cmdlet。 下面是可以在你的环境中使用和修改的一些 cmdlet 示例。
@@ -178,6 +180,11 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 > [!NOTE]
 > 这将添加 CloudPBX 和 PSTNCallingDomesticAndInternational。此外，还需要使用管理界面来指定电话号码。 
   
+## <a name="validate"></a>验证
+
+进行验证，您应该能够使用任何 Skype 业务客户端登录到您创建的帐户。
+
+
 ## <a name="see-also"></a>另请参阅
 
 [配置帐户 Skype 会议室系统 v2](room-systems-v2-configure-accounts.md)

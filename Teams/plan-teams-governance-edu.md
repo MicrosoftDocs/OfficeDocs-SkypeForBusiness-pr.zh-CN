@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf271132e9de19d5952e05e12b91b3a9e87ea529
-ms.sourcegitcommit: c85211a22921d02ffa9f300a4f8350ffbb90b38c
+ms.openlocfilehash: 4991990143b0292f83b5c71b8b2bf01a5d612184
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2018
-ms.locfileid: "22331267"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599451"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>对于管理员 Microsoft 教育调控常见问题
 
@@ -30,7 +30,7 @@ ms.locfileid: "22331267"
 -   **分类**您可以创建您的组织中的用户创建 Office 365 组时可以设置的分类。 
 
 > [!IMPORTANT]
-> 组命名策略的 Office 365 组的成员的唯一用户需要使用 Azure Active Directory Premium P1 许可证。
+> 使用 Office 365 组命名策略将 Azure Active Directory Premium P1 许可证或 Azure AD 基本 EDU 许可证需要为每个唯一用户的一个或多个 Office 365 组的成员。
 
 有关详细说明，请参阅[Office 组命名策略](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
 
@@ -57,6 +57,9 @@ ms.locfileid: "22331267"
 -   使用 PowerShell，您可以创建工作组和通道，并配置设置自动。 有关详细信息，请参阅[Microsoft 团队 PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 。
 -   可以使用 Microsoft Graph API （当前 beta) 中创建、 配置、 复制，并存档团队。 有关详细信息，请参阅[使用 Microsoft Graph API 以使用 Microsoft 团队](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)。
 
+> [!TIP]
+> 学校数据同步创建每个类同步，并[使隐藏的组成员身份](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945)的 Office 365 的组，以便仅教师和学生类中的可以看到该类的成员。 如果使用不同的过程创建类组使用新建 UnifiedGroup cmdlet 的 HiddenGroupMembershipEnabled 参数以满足隐私要求相同。
+
 ## <a name="how-do-i-deal-with-teams-when-the-semester-or-quarter-ends"></a>我该如何处理与团队期末或一个季度结束时？
 
 我们建议您首先考虑有关您希望如何处理团队数据时学校期末或一个季度通过： 是否将其删除或使其可以学生的即使它们完成本课程。 您需要学校日历请记住，因此您设置的任何策略与假日不会发生冲突。 您可以使用以下工具来实现您的策略：
@@ -66,6 +69,9 @@ ms.locfileid: "22331267"
 
 -   **存档团队：** 此设置将团队置于只读模式。 它们可以仍浏览和搜索，但没有人可以添加任何新文章。 [存档或还原团队](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)介绍如何团队所有者可以存档团队;团队所有者还可以使用[图形 API (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)存档或还原团队。
  
+> [!IMPORTANT]
+> 使用 Office 365 组过期策略要求为每个唯一用户的一个或多个 Office 365 组的成员的 Azure Active Directory Premium P1 许可证。
+
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>是否有我教职员工创建团队时要使用的工作组模板？
 
 是。 创建一个新的团队时，用户可以选择**从现有模板创建团队**和团队所有者还可以使用[图形 API (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)从可用的模板创建新的团队。
