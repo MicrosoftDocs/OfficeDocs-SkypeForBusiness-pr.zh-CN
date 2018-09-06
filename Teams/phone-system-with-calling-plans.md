@@ -3,7 +3,7 @@ title: Microsoft Teams 中具有通话套餐的电话系统实践指导
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 12/12/2017
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor
@@ -13,12 +13,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: da5dc02c109ab736360c373f8513f6c2cf19c1cb
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: c697da99ab2ca96794448dca93f45ae29efa103d
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19004857"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779889"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Microsoft Teams 中具有通话套餐的电话系统实践指导
 =========================================================================
@@ -27,7 +27,7 @@ ms.locfileid: "19004857"
 
 Office 365 通话套餐是电话系统功能的附加项，通过 Teams 和 Skype for Business Online 交付。 通话套餐为企业中的人员提供一个主电话号码，让他们可以通过公用电话交换网 (PSTN) 向组织外部拨打电话以及接听来自组织外部的电话。
 
-要了解更多信息，请参阅 [Office 365 中的电话系统提供的功能](https://support.office.com/article/Here-s-what-you-get-with-Phone-System-in-Office-365-bc9756d1-8a2f-42c4-98f6-afb17c29231c)和 [Office 365 中的通话套餐是什么？](https://support.office.com/article/What-are-Calling-Plans-in-Office-365-3dc773b9-95e0-4448-b2f1-887c54022429)
+要了解更多信息，请参阅 [Office 365 中的电话系统提供的功能](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system)和 [Office 365 中的通话套餐是什么？](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
 
 此实践指导介绍 Office 365 FastTrack 客户旅程框架及其三个阶段（展望、上线和推动价值），帮助你规划、交付和运营成功的具有通话套餐的电话系统实施。
 
@@ -150,7 +150,7 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 
 在环境发现中，将包括与最终用户计算有关的所有内容（从硬件要求到软件要求），例如，对个人计算机和移动设备进行就绪评估以支持具有通话套餐的电话系统业务用例。
 
-环境发现还可以揭示是否需要[将电话号码转移到 Microsoft](https://support.office.com/article/Transfer-phone-numbers-to-Office-365-47b3af8e-4171-4dec-8333-c956f108664e)。 这将帮助贵组织相应地调整项目计划，并准备携号转网所需的必要信息。 要执行环境发现，请使用[发现调查表](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3)。
+环境发现还可以揭示是否需要[将电话号码转移到 Microsoft](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)。 这将帮助贵组织相应地调整项目计划，并准备携号转网所需的必要信息。 要执行环境发现，请使用[发现调查表](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3)。
 
 环境发现必须包括网络就绪评估以确保网络可以支持实施具有通话套餐的电话系统。
 
@@ -236,7 +236,7 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 
 ## <a name="availability-of-calling-plans"></a>通话套餐的可用情况
 
-要了解哪里提供通话套餐服务，请参阅[音频会议和通话套餐的国家/地区可用情况](https://support.office.com/article/Countries-regions-that-are-supported-for-Audio-Conferencing-and-Calling-Plans-6ba72f37-d303-4795-aa8f-7e1845078ed7)。
+要了解哪里提供通话套餐服务，请参阅[音频会议和通话套餐的国家/地区可用情况](https://docs.microsoft.com/en-uscountry-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
 > [!IMPORTANT]
 > 由于受到法律约束的原因，为了向跨国组织提供通话套餐，必须从通话套餐服务覆盖的国家和地区或销售通话套餐服务的地方提供 Office 365 订阅的合同。
@@ -263,8 +263,8 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 
 通话套餐是 Office 365 中的电话系统功能的附加项，因此，要使用通话套餐，必须启用电话系统许可证。
 
-[电话系统许可证](https://support.office.com/article/Skype-for-Business-and-Microsoft-Teams-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)作为 Office 365 E5 订阅计划的一部分提供，或者作为 Office 365 E1 或 Office 365 E3 订阅计划的附加内容提供。
-有两种类型的[通话套餐许可证](https://support.office.com/article/Calling-Plans-for-Office-365-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918)：
+[电话系统许可证](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)作为 Office 365 E5 订阅计划的一部分提供，或者作为 Office 365 E1 或 Office 365 E3 订阅计划的附加内容提供。
+有两种类型的[通话套餐许可证](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)：
 
 -   国内通话套餐
 -   国际和国内通话套餐
@@ -272,17 +272,17 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 > [!NOTE]
 > 对特定用户而言，“国内”由用户的已分配 Office 365 使用位置确定。
 
-每种通话套餐类型均分配用户每月可以用于拨打国内电话或国际电话的通话分钟数。 国内通话套餐的费用低于国际和国内通话套餐。 要了解每个国家/地区可用的分钟数，请参阅[音频会议和通话套餐的国家和地区可用情况](https://support.office.com/article/Countries-regions-that-are-supported-for-Audio-Conferencing-and-Calling-Plans-6ba72f37-d303-4795-aa8f-7e1845078ed7)的“通话套餐”部分。
+每种通话套餐类型均分配用户每月可以用于拨打国内电话或国际电话的通话分钟数。 国内通话套餐的费用低于国际和国内通话套餐。 要了解每个国家/地区可用的分钟数，请参阅[音频会议和通话套餐的国家和地区可用情况](https://docs.microsoft.com/en-uscountry-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)的“通话套餐”部分。
 
 通常，并非组织中的所有人都需要能够拨打国际电话。 由于能够按各个用户的业务需求订阅和分配最合适的通话套餐类型，因此，贵组织可以控制通话套餐实施的成本。
 
 对于每个 Office 365 租户，按国家或地区以及按每种通话套餐类型共用组合的通话分钟数。 达到租户的每月通话分钟数上限时，将会在当月其余时间内暂停通话套餐服务（紧急呼叫除外）。 在下一个自然月的第一天，将自动恢复通话套餐服务。
 
-要让用户在用完通话分钟数后能够拨打出站电话，而不必等到下一个月的计费周期，你可以为贵组织设置通信点数。 通过使用[通信点数](https://support.office.com/article/What-are-Communications-Credits-524dbea7-117f-493d-8005-6461f7f10059)，分配有国内通话套餐的用户还可以拨打国际电话，收费模式为“按分钟付费”。
+要让用户在用完通话分钟数后能够拨打出站电话，而不必等到下一个月的计费周期，你可以为贵组织设置通信点数。 通过使用[通信点数](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)，分配有国内通话套餐的用户还可以拨打国际电话，收费模式为“按分钟付费”。
 
-实施通信点数时首先要考虑的是确定要购买的初始资金数额。 可以参考[通信点数](https://support.office.com/article/What-are-Communications-Credits-524dbea7-117f-493d-8005-6461f7f10059)一文中的建议资金数额。
+实施通信点数时首先要考虑的是确定要购买的初始资金数额。 可以参考[通信点数](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)一文中的建议资金数额。
 
-如果贵组织选择使用自动充值，[通信点数](https://support.office.com/article/What-are-Communications-Credits-524dbea7-117f-493d-8005-6461f7f10059)一文中也提供了触发数额（最低资金数额）建议。 自动充值数额需要由实际使用情况确定。 应持续监控通信点数使用情况，并根据需要调整充值数额。
+如果贵组织选择使用自动充值，[通信点数](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)一文中也提供了触发数额（最低资金数额）建议。 自动充值数额需要由实际使用情况确定。 应持续监控通信点数使用情况，并根据需要调整充值数额。
 
 可以按用户控制通信点数的使用，这样，你可以确保向组织中有适当业务需求的个人分配相应数额。
 
@@ -314,30 +314,30 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 
 ## <a name="phone-numbers-and-emergency-locations"></a>电话号码和紧急位置
 
-使用 Office 365 中的通话套餐时，贵组织中的每个用户都需要有唯一的直接向内拨号 (DID) 电话号码和相应的[已验证紧急地址](https://support.office.com/article/What-are-emergency-locations-addresses-and-call-routing-589bf5f5-490a-4215-8588-99bab7d33e31)。
+使用 Office 365 中的通话套餐时，贵组织中的每个用户都需要有唯一的直接向内拨号 (DID) 电话号码和相应的[已验证紧急地址](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)。
 
-电话号码可以[直接从 Microsoft 获取](https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb)，也可以将现有电话号码[转移（转网）到 Microsoft](https://support.office.com/article/Transfer-phone-numbers-to-Office-365-47b3af8e-4171-4dec-8333-c956f108664e)。
+电话号码可以[直接从 Microsoft 获取](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)，也可以将现有电话号码[转移（转网）到 Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)。
 
 > [!NOTE]
 > 将电话号码转移到 Microsoft 的复杂性根据国家或地区、运营商、涉及的线路数量以及许多其他影响因素而有很大不同。 要计划电话携号转网，请查看[携号转网指南](https://go.microsoft.com/fwlink/?linkid=859011)了解详细信息。
 
 要直接从 Microsoft 获取电话号码，请使用以下任一选项：
 
-- [Skype for Business 管理中心](https://support.office.com/article/Getting-phone-numbers-for-your-users-aa2ec464-3481-4bbb-8c14-e13e18093df5)
+- [Skype for Business 管理中心](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [远程 Windows PowerShell cmdlet](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [提交新电话号码请求窗体][https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb).
+- [提交新电话号码请求窗体](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
 
 新电话号码申请表单适用于计划的电话号码获取，因为你可以申请一组连续的电话号码。 有些国家或地区不能使用 Skype for Business 管理中心或远程 Windows PowerShell 获取电话号码。
 
 前两个方法（使用 Skype for Business 管理中心或远程 Windows PowerShell）适用于一次性的临时电话号码获取，以及不需要多组连续的电话号码的情况。
 
 > [!NOTE]
-> 根据贵组织订阅的通话套餐许可证数，可以从 Microsoft 获取的[电话号码数](https://support.office.com/article/How-many-phone-numbers-can-you-get-61dfb27c-5bfa-4481-a930-9c026e73ff3a)受到相应限制。 对于用户（订阅者）电话号码，公式为 (国内通话套餐许可证数 + 国内和国际通话套餐许可证数) x 1.1 + 10。 例如，如果你有 50 个具有通话套餐许可证的用户，则可以获取 65 个电话号码 ((50 x 1.1) + 10)。
+> 根据贵组织订阅的通话套餐许可证数，可以从 Microsoft 获取的[电话号码数](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)受到相应限制。 对于用户（订阅者）电话号码，公式为 (国内通话套餐许可证数 + 国内和国际通话套餐许可证数) x 1.1 + 10。 例如，如果你有 50 个具有通话套餐许可证的用户，则可以获取 65 个电话号码 ((50 x 1.1) + 10)。
 
 为通话套餐配置电话号码时，需要先为每个电话号码分配紧急地址，然后再分配给用户。 为了支持紧急呼叫，必须这样做。 必须验证紧急地址，以确保紧急地址可以识别且采用紧急响应服务可以使用的正确格式。
 
 > [!IMPORTANT]
-> 通话套餐服务中的紧急服务呼叫操作方式与传统电话服务不同。 请务必了解这些差异，并传达给所有用户。 有关更多详细信息，请参阅[紧急呼叫条款和条件](https://support.office.com/article/Emergency-calling-terms-and-conditions-ca2c751b-53ab-42c7-aed9-cfe27e662940)。
+> 通话套餐服务中的紧急服务呼叫操作方式与传统电话服务不同。 请务必了解这些差异，并传达给所有用户。 有关更多详细信息，请参阅[紧急呼叫条款和条件](https://docs.microsoft.com/en-us/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)。
 
 除了验证的紧急地址外，还可以定义紧急位置并将紧急位置与验证的紧急地址关联以在地址中提供更加确切的位置。 紧急位置通常是用户所在的建筑物编号、楼层、建筑物侧楼或办公室号码。
 
@@ -345,7 +345,7 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>确定将如何为通话套餐实施的范围内用户位置或办公地点获取电话号码（从 Microsoft 获取，或转移现有电话号码）</li><li>如果你选择从 Microsoft 获取，请确定用于为通话套餐实施的范围内用户位置或办公地点获取电话号码的方法（表单提交或自动）</li><li>确定要为通话套餐实施的范围内用户位置或办公地点收集的紧急位置信息的详细程度</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|后续步骤|<ul><li>记录电话号码获取的主计划，详细说明为通话套餐实施的范围内每个用户位置或办公地点获取电话号码的方式</li><li>如果适用，完成<a href="https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb">新电话号码请求表单</a>，每个位置或办公地点一个表单。</li><li>如果你选择转移现有电话号码，请参阅<a href="https://go.microsoft.com/fwlink/?linkid=859011">携号转网指南</a>以对其进行计划并相应地调整通话套餐实施时间线</li><li>记录通话套餐实施的范围内每个用户位置或办公地点的详细紧急地址和紧急位置</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|后续步骤|<ul><li>记录电话号码获取的主计划，详细说明为通话套餐实施的范围内每个用户位置或办公地点获取电话号码的方式</li><li>如果适用，完成<a href="https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization">新电话号码请求表单</a>，每个位置或办公地点一个表单。</li><li>如果你选择转移现有电话号码，请参阅<a href="https://go.microsoft.com/fwlink/?linkid=859011">携号转网指南</a>以对其进行计划并相应地调整通话套餐实施时间线</li><li>记录通话套餐实施的范围内每个用户位置或办公地点的详细紧急地址和紧急位置</li></ul>
 
 > [!TIP]
 > 可以使用以下模板记录电话号码获取、电话号码和紧急位置的详细信息：
@@ -388,7 +388,7 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 
 ## <a name="calling-identity"></a>呼叫标识
 
-默认情况下，所有出站呼叫均使用分配的电话号码作为呼叫标识（呼叫方 ID）。 呼叫接收人可以快速识别呼叫方，并决定是接收还是拒绝呼叫。 在有些情况下，会有屏蔽呼叫方 ID（使用办公地点主机号码作为呼叫方 ID，主机号码通常是[自动助理](https://support.office.com/article/What-are-Phone-System-auto-attendants-ab9f05a2-22cb-4692-a585-27f82d1b37c7)配置提供的服务号码）以保护呼叫方身份或完全阻止显示呼叫方 ID 的合理业务要求。
+默认情况下，所有出站呼叫均使用分配的电话号码作为呼叫标识（呼叫方 ID）。 呼叫接收人可以快速识别呼叫方，并决定是接收还是拒绝呼叫。 在有些情况下，会有屏蔽呼叫方 ID（使用办公地点主机号码作为呼叫方 ID，主机号码通常是[自动助理](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)配置提供的服务号码）以保护呼叫方身份或完全阻止显示呼叫方 ID 的合理业务要求。
 
 <br>
 |         |         |         |
@@ -409,7 +409,7 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 
 ## <a name="dial-plans"></a>拨号计划
 
-Office 365 的电话系统功能中的[拨号计划](https://support.office.com/article/What-are-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b)是一组规范化规则，用于将拨打的电话号码转换为替代格式（通常为 [E.164](https://go.microsoft.com/fwlink/?linkid=859014) 格式）以便进行呼叫授权和呼叫路由。 
+Office 365 的电话系统功能中的[拨号计划](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)是一组规范化规则，用于将拨打的电话号码转换为替代格式（通常为 [E.164](https://go.microsoft.com/fwlink/?linkid=859014) 格式）以便进行呼叫授权和呼叫路由。 
 
 拨号计划允许用户按其习惯的方式（例如，对于本地呼叫省略区号，对于国内呼叫省略国家/地区代码，甚至在拨打电话时使用简短数字拨号）拨打电话号码。
 
@@ -421,7 +421,7 @@ Office 365 的电话系统功能中的[拨号计划](https://support.office.com/
     -   **租户-用户拨号计划** - 该拨号计划仅适用于特定用户。
 
 > [!NOTE]
-> 有关更多详细信息和示例，请参阅[拨号计划是什么？](https://support.office.com/article/What-are-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b)
+> 有关更多详细信息和示例，请参阅[拨号计划是什么？](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 
 分配给用户的有效拨号计划是服务拨号计划（基于用户的 Office 365 使用位置）和租户拨号计划（可以是租户-全局拨号计划或租户-用户拨号计划）的组合。
 
@@ -494,6 +494,6 @@ Office 365 的电话系统功能中的[拨号计划](https://support.office.com/
 <br>
 ## <a name="see-also"></a>另请参阅
 
-[设置通话套餐](https://support.office.com/article/Set-up-Calling-Plans-57893158-1acd-44ac-acaf-19f58264a9e0)
+[设置通话套餐](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
 [快速入门指南：在 Microsoft Teams 中配置通话套餐](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)

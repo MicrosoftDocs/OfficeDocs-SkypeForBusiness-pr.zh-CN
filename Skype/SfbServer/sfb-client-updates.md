@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Priority
 ms.collection: IT_Skype16
 description: 为 IT 专业人员提供指向 Skype for Business 2016、Skype for Business 2015 和 Lync 2013 客户端永久版本的最新更新信息的链接
-ms.openlocfilehash: cf87fbb903e7bff015f77881ede956a4c4999b07
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
-ms.translationtype: HT
+ms.openlocfilehash: 015285bb5a513f0d490a596af28b83b662a518ce
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247589"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485797"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>使用 Windows Installer (MSI) 的 Skype for Business 版本的最新更新
 
@@ -36,7 +36,6 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
   - [Skype for Business 环境要求](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
 
   - [Lync Server 2013 系统要求](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
-
 
 ## <a name="skype-for-business-2016-client-updates"></a>Skype for Business 2016 客户端更新
 |软件包名称|KB 编号|发布日期|
@@ -72,8 +71,6 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 |Skype for Business 2016 安全更新 |[KB 3114372](https://support.microsoft.com/kb/3114372) | 2015 年 12 月|
 |Skype for Business 2016 安全更新 |[KB 3085634](https://support.microsoft.com/kb/3085634) | 2015 年 11 月|
 |Skype for Business 2016 安全更新 |[KB 2910994](https://support.microsoft.com/kb/2910994) | 2015 年 9 月|
-
-
 
 ## <a name="skype-for-business-2015-client-updates"></a>Skype for Business 2015 客户端更新
 
@@ -118,15 +115,12 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 |Skype for Business 2015/Lync 2013 安全更新|[KB 3085500](https://support.microsoft.com/kb/3085500) | 2015 年 9 月 |
 |Skype for Business 2015/Lync 2013 更新|[KB 3054791](https://support.microsoft.com/kb/3054791) | 2015 年 6 月 |
 
-
 ### <a name="skype-for-business-on-mac-client-updates"></a>Mac 版 Skype for Business 客户端更新
 
 |软件包名称|发布日期|
 |:--- |:--- |
 |[Mac 版 Skype for Business 更新](https://www.microsoft.com/en-us/download/details.aspx?id=54108) | 2018 年 6 月 |
 |[Mac 版 Skype for Business 当前发行说明](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac) | 2018 年 6 月 |
-
-
 
 * * *
 
@@ -175,8 +169,6 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 |Skype for Business 2015/Lync 2013 安全更新|[KB 3085500](https://support.microsoft.com/kb/3085500) | 2015 年 9 月 |
 |Skype for Business 2015/Lync 2013 更新|[KB 3054791](https://support.microsoft.com/kb/3054791) | 2015 年 6 月 |
 
-
-
 ### <a name="lync-phone-edition-updates"></a>Lync Phone Edition 更新
 
 软件包名称|KB 编号|发布日期|
@@ -201,7 +193,6 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 |[适用于 Polycom CX500、Polycom CX600 和 Polycom CX3000 的 Lync Phone Edition](https://www.microsoft.com/download/en/details.aspx?id=23866) | 2017 年 4 月 |
 |[适用于 Polycom CX700 和 LG-Nortel IP Phone 8540 的 Lync Phone Edition](https://www.microsoft.com/download/en/details.aspx?id=21644) | 2015 年 12 月 |
 
-
 ### <a name="lync-basic-2013-trial-software"></a>Lync Basic 2013 试用版软件
 
 软件包名称|发布日期|
@@ -211,14 +202,12 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 
 * * *
 
-
 ### <a name="lync-for-mac-2011-client-updates"></a>Lync for Mac 2011 客户端更新
 
 软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
 |Lync for Mac 2011 更新 |[KB 3175174](https://support.microsoft.com/kb/3175174)|2016 年 7 月|
 |Lync for Mac 2011 累积更新 |[KB 3074981](https://support.microsoft.com/kb/3074981)|2015 年 7 月|
-
 
 ### <a name="lync-2010-client-updates"></a>Lync 2010 客户端更新
 
@@ -234,7 +223,6 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 |Lync 2010 安全更新 |[KB 3096735](https://support.microsoft.com/kb/3096735) | 2015 年 11 月|
 |Lync 2010 安全更新 |[KB 3081087](https://support.microsoft.com/kb/3081087) | 2015 年 9 月|
 |Lync 2010 累积更新 |[KB 3072611](https://support.microsoft.com/kb/3072611) | 2015 年 7 月|
-
 
 ### <a name="lync-2010-attendant-updates"></a>Lync 2010 Attendant 更新
 
@@ -276,3 +264,6 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 |[Lync 2010 试用版（32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=5484)| 2010 年 11 月 |
 |[Lync 2010 试用版（64 位）](https://www.microsoft.com/en-us/download/details.aspx?id=10400)| 2010 年 11 月 |
 
+## <a name="related-topics"></a>相关主题
+
+- [Skype for Business Server 更新](sfb-server-updates.md)

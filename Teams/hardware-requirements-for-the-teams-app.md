@@ -3,21 +3,22 @@ title: Microsoft 团队应用程序的硬件要求
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
+ms.date: 08/28/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Priority
-description: 了解如何安装和运行的 Microsoft 团队桌面应用程序所需的硬件要求。
+description: 了解如何安装和运行的 Microsoft 团队所需的硬件要求。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20c0e8b261dd6142a4b1b915ff259e634bfce122
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: ce2e9c065d170c0e535075668f8e67728f0429dc
+ms.sourcegitcommit: 309941f79f0f8dbcbce620fe90e9f73dd0bcfcbd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19104924"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23289919"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft 团队应用程序的硬件要求
 
@@ -48,7 +49,15 @@ ms.locfileid: "19104924"
 |语音    |  兼容的麦克风和扬声器、 麦克风耳机或等效设备       |
 |视频呼叫和会议 | 为了更好经验视频呼叫和联机会议，我们建议使用已 2.0 GHz 处理器和 4.0 GB RAM 的计算机上 （或更高版本）。
 
-### <a name="related-topics"></a>相关主题
-[获取团队应用程序](get-clients.md)
+## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>在移动设备上的团队应用程序的硬件要求
 
-[安装 Microsoft 团队应用程序使用 MSI](msi-deployment.md)
+您可以在这些移动平台上使用的 Microsoft 团队：
+
+- Android-需要 Android 4.4 或更高版本
+
+- iOS-需要 iOS 10.0 或更高版本。 与 iPhone、 iPad 和 iPod touch 兼容。
+
+### <a name="related-topics"></a>相关主题
+- [获取团队应用程序](get-clients.md)
+- [在移动设备上的 Microsoft 团队](https://support.office.com/en-us/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
+- [安装 Microsoft 团队应用程序使用 MSI](msi-deployment.md)

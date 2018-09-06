@@ -12,23 +12,23 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文讨论如何在使用 Microsoft 操作管理套件集成的端到端方式中部署的 Skype 会议室系统 v2 设备管理。
-ms.openlocfilehash: 3e6c162619d42fcf181a3f3b279f6b89106d4a1c
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: 0d1cd51bb80a287078ca4d85bdaec721e78d24ff
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22391775"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23256348"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>使用 OMS 部署 Skype 会议室系统 v2 管理
- 
+
 本文讨论如何设置和使用 Microsoft 操作管理套件部署 Skype 会议室系统 v2 设备的集成的端到端管理。
-  
+
 您可以配置 Microsoft 操作管理套件提供基本的遥测和通知将帮助您管理 Skype 会议室内设备。 随着您管理解决方案逐渐成熟，您可能决定部署其他数据和管理功能，以创建设备的可用性和性能的详细的视图。
 
 按照本指南，您可以使用类似下面的示例仪表板获取设备可用性、 应用程序和硬件运行状况和 Skype 会议室系统 v2 应用程序版本分发报告的详细的状态。
 
 ![示例 OMS 视图 SR v2](../../media/Deploy_OMS_1.png "示例 OMS 视图 SR v2")
-  
+
 你需要在高级别执行以下任务：
 
 
@@ -82,7 +82,7 @@ ms.locfileid: "22391775"
 
 操作管理套件代理部署到测试设备后，验证所需的事件日志数据收集日志分析。
 
-1.  登录到[Microsoft 操作管理套件门户](http://aka.ms/omsportal)。
+1.  登录到[Microsoft 操作管理套件门户](https://aka.ms/omsportal)。
 
 2.  列出由 Skype 会议室系统 v2 设备生成的事件：
     1.  转到**日志搜索**并使用查询来检索将具有自定义字段的记录。
@@ -110,7 +110,7 @@ ms.locfileid: "22391775"
 
 提取自定义域超出捕获的事件日志，请按照下列步骤：
 
-1.  登录到[Microsoft 操作管理套件门户](http://aka.ms/omsportal)。
+1.  登录到[Microsoft 操作管理套件门户](https://aka.ms/omsportal)。
 
 2.  列出由 Skype 会议室系统 v2 设备生成的事件：
     1.  转到**日志搜索**并使用查询来检索将具有自定义字段的记录。
@@ -130,8 +130,8 @@ ms.locfileid: "22391775"
 > 请记住 JSON 和操作管理套件的所有字段，都都区分大小写。
 
 > 下表列出了特别注意 EventID 复选框的状态。 确保您确认此复选框的操作管理套件成功提取自定义域值的状态。
-> 
-> ![自定义字段定义](../../media/Deploy_OMS_5.png "自定义字段定义") 
+>
+> ![自定义字段定义](../../media/Deploy_OMS_5.png "自定义字段定义")
 
 **表 1**
 
@@ -170,8 +170,8 @@ ms.locfileid: "22391775"
 
 可以导入的操作管理套件仪表板并启动立即监控您的设备。 执行以下步骤以导入仪表板：
 
-1.  获取[SkypeRoomSystems_v2.omsview](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview)仪表板文件。
-2.  登录到[Microsoft 操作管理套件门户](http://aka.ms/omsportal)。
+1.  获取[SkypeRoomSystems_v2.omsview](https://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview)仪表板文件。
+2.  登录到[Microsoft 操作管理套件门户](https://aka.ms/omsportal)。
 3.  打开**视图设计器**。
 4.  选择**导入**，，然后选择**SkypeRoomSystems_v2.omsview**文件。
 5.  选择**保存**。
@@ -349,13 +349,13 @@ ms.locfileid: "22391775"
 请参阅[了解日志分析中的通知](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts)，以详细了解如何操作管理套件中的通知。
 
 > [!NOTE]
-> Skype 会议室系统 v2 设备生成硬件或应用程序错误时，以下示例将发送电子邮件通知。 
+> Skype 会议室系统 v2 设备生成硬件或应用程序错误时，以下示例将发送电子邮件通知。
 
 
 ### <a name="configure-an-email-alert-for-skype-room-systems-v2-hardware-issues"></a>配置电子邮件通知 Skype 会议室系统 v2 硬件问题
 
 配置通知的规则，检查的最后一个小时内过硬件问题的 Skype 会议室系统 v2 设备。
-1.  登录到[Microsoft 操作管理套件门户](http://aka.ms/omsportal)。
+1.  登录到[Microsoft 操作管理套件门户](https://aka.ms/omsportal)。
 
 2.  选择**日志搜索**。
 
@@ -364,7 +364,7 @@ ms.locfileid: "22391775"
     Event
     | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h)
     | summarize arg_max(TimeGenerated, *) by Computer
-    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF 
+    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF
     |sort by TimeGenerated desc
     ```
 
@@ -438,7 +438,7 @@ ms.locfileid: "22391775"
 
 1.  创建共享的网络路径，并向**域计算机**组授予读取访问权限。
 
-2.  下载 64 位版本的操作管理套件代理用于 Windows 的从<http://go.microsoft.com/fwlink/?LinkID=517476>
+2.  下载 64 位版本的操作管理套件代理用于 Windows 的从<https://go.microsoft.com/fwlink/?LinkID=517476>
 
 3.  安装程序包的内容解压到网络共享。
     1.  打开命令提示符窗口，并执行**MMASetup AMD64.exe /c**
@@ -464,34 +464,34 @@ ms.locfileid: "22391775"
 
     ```
     # Install-OMSAgent.ps1
-    <# 
-    Date:        04/20/2018 
-    Script:      Install-OMSAgent.ps1 
+    <#
+    Date:        04/20/2018
+    Script:      Install-OMSAgent.ps1
     Version:     1.0
-    #> 
-    
+    #>
+
     # Set the parameters
     $WorkspaceId = "<your workspace id>"
     $WorkspaceKey = "<your workspace key>"
     $SetupPath = "\\Server\Share"
-    
+
     $SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
-    
+
     # $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
-    
+
     # Start PowerShell logging
-    Start-Transcript -Path C:\OMSAgentInstall.Log  
-    
+    Start-Transcript -Path C:\OMSAgentInstall.Log
+
     # Check if the Microsoft Monitoring Agent is installed
     $mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
-    
-    # Check if the Microsoft Monitoring agent is installed 
+
+    # Check if the Microsoft Monitoring agent is installed
     if (!$mma)
     {
         #Install agent
         Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
     }
-    
+
     # Check if the agent has a valid configuration
     $CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
     if (!$CheckOMS)
@@ -499,12 +499,12 @@ ms.locfileid: "22391775"
         # Apply new configuration
         $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
         $mma.ReloadConfiguration()
-    } 
-    
-    Stop-Transcript 
-    
+    }
+
+    Stop-Transcript
+
     ```
-    
+
 > [!NOTE]
 > 当您需要重新配置代理、 将其移至不同的工作区中，或在初始安装后修改代理设置时，您可以参考文章[管理和维护日志分析代理](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-manage)。
 
@@ -521,5 +521,5 @@ ms.locfileid: "22391775"
 ## <a name="see-also"></a>另请参阅
 
 [使用 OMS 规划 Skype 会议室系统 v2 管理](../../plan-your-deployment/clients-and-devices/oms-management.md)
-  
+
 [使用 OMS 管理 Skype 会议室系统 v2 设备](../../manage/skype-room-systems-v2/oms.md)

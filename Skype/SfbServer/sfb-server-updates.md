@@ -11,14 +11,14 @@ localization_priority: Priority
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在同一位置查找并管理 Skype for Business Server 2015 和 Lync 2013 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
-ms.openlocfilehash: e3b1ae326494a14c502a7427d30f664646bfe373
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
-ms.translationtype: HT
+ms.openlocfilehash: 6260d4b648f09dddef2b52f8df8996ffe115a7fc
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253053"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485740"
 ---
-# <a name="skype-for-business-updates"></a>Skype for Business 更新
+# <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
 在同一位置查找并管理 [Skype for Business Server 2015](#skype-for-business-server-2015-update-history)、[Lync 2013](#Lync-2013-update-history) 和 [Lync Server 2010](#lync-server-2010-update-history) 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
 
@@ -150,7 +150,6 @@ ms.locfileid: "23253053"
 |:--- |:--- |
 |[Lync Server 2013 文档帮助文件](https://www.microsoft.com/en-us/download/details.aspx?id=35405)|2015 年 8 月 |
 
-
 * * *
 
 ## <a name="lync-server-2010-update-history"></a>Lync Server 2010 更新历史记录
@@ -228,10 +227,8 @@ ms.locfileid: "23253053"
 
 软件更新包括任何更新、更新汇总、Service Pack、功能包、关键更新、安全更新或修补程序。 有关用于描述 Microsoft 软件更新的标准术语的说明，请参阅 [KB 824684](https://support.microsoft.com/kb/824684)。
 
-
 ## <a name="related-topics"></a>相关主题
 
 - [安装 Skype for Business Server 2015](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/install/install)
 - [升级到 Skype for Business Server 2015](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
-
-
+- [使用 Windows Installer (MSI) 的 Skype for Business 版本的最新更新](sfb-client-updates.md)

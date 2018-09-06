@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c54e553edb464dc094c45b4e9dd545827b625d3
-ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.openlocfilehash: 8091bb4e973d4e7376dd6d420578b10123051226
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "21600514"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835036"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 政府版-GCC 部署规划
 
@@ -64,7 +64,9 @@ Microsoft 365 政府-GCC 环境提供符合美国的云服务，包括 FedRAMP �
 | 应用       | 应用程序 （如自动程序、 选项卡，和连接器） 将不可用最初，但我们正在使其可为所有及其组件满足 FedRAMP 适度合规性栏。 |
 | 电子邮件通道             | 政府计划中不支持当前功能体系结构。 |
 | 统一的状态            | 我们为我们首先对此重要的功能的企业客户的完成工作。 它将可供政府客户将来。 |
-| 电子邮件通知         | 美国政府计划中不支持当前功能体系结构。 若要使此功能可供美国政府计划客户将来正在进行工作。 |
+| 团队 & SfB 之间的互操作性聊天用户            | 互操作所依赖上统一状态服务 (UPS)，但直到 GCC 团队租户启用 UPS 无法正常工作。 |
+
+|发送电子邮件通知 |美国政府计划中不支持当前功能体系结构。 若要使此功能可供美国政府计划客户将来正在进行工作。 |
 
 
 |    |     |
@@ -84,13 +86,17 @@ Microsoft 365 政府-GCC 环境提供符合美国的云服务，包括 FedRAMP �
 
 无决定此服务适合您的组织，启动[此服务此处应用](https://products.office.com/en-us/government/eligibility-validation)的过程。
 
-## <a name="step-5-deploy-teams-for-collaboration"></a>步骤 5。 部署团队协作
+## <a name="step-5-plan-for-governance"></a>步骤 5。 规划调控
+
+确定调控和如何满足这些要求。 有关详细信息，请转到[团队中的治理规划](plan-teams-governance.md)。
+
+## <a name="step-6-deploy-teams-for-collaboration"></a>步骤 6。 部署团队协作
 
 您已向 Microsoft 365 政府-GCC，onboarded 后，您可以按照使用[FastTrack](https://fasttrack.microsoft.com/fasttrack-faq)和您选择的合作伙伴，为板载到服务的标准的部署方法。
 
 当您准备好时，到[启用通过团队和通道组织内的协作](teams-overview.md)部署团队。 请务必与您应用和变更管理团队或团队拥护者。
 
-## <a name="step-6-deploy-teams-for-meetings-and-voice"></a>步骤 6。 会议和语音部署团队
+## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>步骤 7。 会议和语音部署团队
 
 这也是使用与您更多的利益干系人组团队启动规划推出会议和[云语音功能](cloud-voice-deployment.md)的绝佳时间。
 

@@ -13,39 +13,39 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: 为用户启用组中 Skype 调用的分拣业务 Server 企业语音，并分配组数。
-ms.openlocfilehash: 5a4173a16a40557742a7cdbd47edb917f89b4737
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e182919023aab7757f975cbdccc509a0b62a77b9
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006518"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260004"
 ---
-# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>为用户启用组呼叫分拣和分配 Skype for Business 中的一组数 
- 
+# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>为用户启用组呼叫分拣和分配 Skype for Business 中的一组数
+
 为用户启用组中 Skype 调用的分拣业务 Server 企业语音，并分配组数。
-  
+
 将呼叫分拣组号码添加到呼叫寄存通道表后，您使用 SEFAUtil 工具将组号码分配给用户和组呼叫分拣启用。
-  
+
 > [!NOTE]
-> 在混合部署中，现在将一组呼叫分拣组分配给驻留联机用户。 联机驻留的用户不能参与组呼叫分拣。 也就是说，他们的呼叫无法由其他用户应答，他们也无法应答对其他用户的呼叫。 
-  
+> 在混合部署中，现在将一组呼叫分拣组分配给驻留联机用户。 联机驻留的用户不能参与组呼叫分拣。 也就是说，他们的呼叫无法由其他用户应答，他们也无法应答对其他用户的呼叫。
+
 ### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>指定一组数并为用户启用组呼叫分拣
 
 1. 使用管理员权限登录安装了 SEFAUtil 工具的计算机。
-    
+
 2. 在该命令行处，运行：
-    
+
    ```
    SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
    ```
 
     例如，将组号码 199 分配给用户：
-    
+
    ```
-   SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199 
+   SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
    ```
 
 ## <a name="see-also"></a>另请参阅
 
-[用户的禁用组分拣](http://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
+[用户的禁用组分拣](https://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
 

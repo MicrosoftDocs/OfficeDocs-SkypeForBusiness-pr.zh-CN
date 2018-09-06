@@ -3,7 +3,7 @@ title: 体验审阅指南的 Microsoft 团队的质量
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 08/24/2018
+ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -12,16 +12,16 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9f50cd0751a64fb0e76793dfc45c1c2278a143b
-ms.sourcegitcommit: 77ac57c5dc3f5836915d02e3e61305f1d3ea1600
+ms.openlocfilehash: 1d3de3f704fc8c89325f671258a1005e850c2784
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "23042580"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835044"
 ---
 # <a name="quality-of-experience-review-guide"></a>查看用户体验指南的质量
 
-<!-- Note that the link to the Word doc is intentionally NOT the aka.ms/qerquide link -->本指南是有关 Microsoft 团队和业务 online Skype 的驱动器值阶段。 您可以本指南[下载的 Word 版本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)。
+<!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->本指南是有关 Microsoft 团队和业务 online Skype 的驱动器值阶段。 您可以本指南[下载的 Word 版本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)。
 
 ## <a name="introduction"></a>简介
 
@@ -88,7 +88,7 @@ _图 2-质量是什么？_
 
 不佳流率 (PSR) 表示组织的整体流具有质量不佳的百分比。 此指标为了突出显示您的组织可以对努力向降低此值和改善用户体验，原因是最强大的影响精力处理的区域时查看 PSR[托管网络](#managed-vs-unmanaged-networks)是主要焦点。 外部用户是很重要，但调查不同组织的基础上。 请考虑为外部用户提供最佳实践和调查独立于整个组织的外部呼叫。
 
-CQD 中的实际度量值随工作负荷，但出于的质量体验审阅我们重点主要关注的_音频质量欠佳的百分比_度量值。 PSR 由五个下表中所述的网络指标平均值组成。 对于分类为质量欠佳的流，只有一个指标需要超过定义的阈值。 有关流分类过程的详细信息，请参阅[这篇文章](/skypeforbusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard)。
+CQD 中的实际度量值随工作负荷，但出于的质量体验审阅我们重点主要关注的_音频质量欠佳的百分比_度量值。 PSR 由五个下表中所述的网络指标平均值组成。 对于分类为质量欠佳的流，只有一个指标需要超过定义的阈值。 有关流分类过程的详细信息，请参阅[这篇文章](stream-classification-in-call-quality-dashboard.md)。
 
 > [!Note]
 > CQD 提供"质量欠佳由于..." 度量值，以便更好地了解哪些条件导致要归类为质量欠佳的流。
@@ -269,6 +269,33 @@ CQD，尽管可用于分析趋势和子网，不会始终提供了具体原因�
 -   CQD 将指出以便进一步调查根据趋势。
 -   CQD 不包含任何 PII。
 
+### <a name="report-editions"></a>报表版本
+
+有 CQD Online 中的两个报表版本： 摘要和详细。 使用位于屏幕顶部的蓝色栏中的下拉列表菜单打开报表 edition。 在屏幕顶部显示选定的报表 edition 的名称。
+
+-   摘要报告是静态的且不可编辑，下载，或导出。 
+-   详细的报告可完全自定义，可以下载到导出或克隆的 CSV 文件。
+
+有关两种版本之间的差异的完整说明，请参阅[这篇文章](turning-on-and-using-call-quality-dashboard.md)。
+
+![使用选择的摘要报告的下拉菜单](media/qerguide-image-reportcategories.png)
+
+_图 4-CQD 报表类别_
+
+摘要报告分为四个类别：
+
+-   **摘要报告**分析质量趋势每天、 每月，与表格报告，以帮助标识具有质量不佳的子网的关注。 当您首次登录到 CQD Online 时，这是默认登陆页面。
+-   **Location-Enhanced 报告**分析质量趋势基于位置信息的关注。 若要使用这些报告，您必须已上载的生成文件。
+-   **可靠性报告**分析可靠性趋势的音频、 视频、 基于视频的屏幕共享 (VBSS) 和应用程序共享的关注。
+-   **用户体验质量报告**是详细 QER 模板的"简化向下"版本重点关注分析音频质量和可靠性的关键区域。
+
+### <a name="report-types"></a>报告类型
+
+您可以从两种类型的报告中 CQD，具体取决于您想要查看您的数据的方式。 尽管本指南不涉及创建通过另一种类型的报表的具体情况，QER CQD 模板提供了供您使用的自定义图表和表报告的组合：
+
+-   图表报表创建图形表示数据可视化格式的条形图。 图表报告最佳用于在给定的时间段内可视化数据。
+-   表格报告可用于查看单个度量值和维度时将报告导出到 Microsoft Excel 中的操作的 CSV 文件。
+
 ### <a name="tenant-id"></a>租户 ID
 
 某些 CQD 报告需要您的租户 id 包含筛选器 由于 CQD 聚合数据的方式，联盟参与者遥测是包含。 尽管时分析趋势，这是非常重要，客户端和设备报告需要您筛选到特定租户排除联盟参与者的遥测数据。 如果您不知道您的租户 ID，您可以使用下列方法之一找到它。
@@ -328,7 +355,7 @@ CQD 可以报告团队和 Skype 的业务遥测。 但是，可能会出现时�
 
 ![下拉菜单中显示筛选 CQD 报告按工作负载的选项](media/qerguide-image-productfilter.png)
 
-_图 4-选择产品筛选器_
+_图 5-选择产品筛选器_
 
 #### <a name="detailed-reports"></a>详细的报告
 
@@ -348,7 +375,7 @@ _图 4-选择产品筛选器_
 
 ![将筛选器添加到的详细报告。](media/qerguide-image-addteamsfilter.png)
 
-_图 5-Microsoft 团队筛选器添加到报表_
+_图 6-Microsoft 团队筛选器添加到报表_
 
 
 ### <a name="managed-vs-unmanaged-networks"></a>管理与非托管网络
@@ -368,7 +395,7 @@ _图 5-Microsoft 团队筛选器添加到报表_
 
 -   **Filter:** 我希望如何降低查询的数据集返回。
 
-看待这个另一种方法是：_维度_是分组函数、_度量_是我感兴趣的数据和_筛选器_是我希望来缩小那些与我的查询相关的结果。
+另一种方法可以这样看待这是_维度_是分组函数、_度量_是我感兴趣的数据，_筛选器_是我希望来缩小那些与我的查询相关的结果。
 
 格式正确的示例是查询的**我的状态显示不佳流 [度量值] 的子网 [维度] 构建 6 [筛选器]**。 有关详细信息，请参阅[维度和度量 CQD 中可用](https://aka.ms/cqd-dm)。
 
@@ -402,7 +429,7 @@ _图 5-Microsoft 团队筛选器添加到报表_
 
 -   **未分类：** 未分类的流不包含一组完整的服务指标。 这些可短呼叫 — 通常不超过 60 秒 — 其中无法计算平均值和未生成 QoE 报告。 未分类的呼叫的最常见原因是，没有任何数据包利用率很少。 此示例将为的参与者加入会议静音和从不讲话时。 参与者是接收，但不是能传输媒体。 没有要传输的媒体，不会有任何指标可供 CQD 用于分类终结点的出站媒体流。
 
-有关流分类过程的详细信息，请参阅[这篇文章](/skypeforbusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard)。
+有关流分类过程的详细信息，请参阅[这篇文章](stream-classification-in-call-quality-dashboard.md)。
 
 ### <a name="common-subnets"></a>常见的子网
 
@@ -439,13 +466,13 @@ _图 5-Microsoft 团队筛选器添加到报表_
 
 ![在左侧的导航窗格中，选择对呼叫质量仪表板链接。](media/qerguide-image-mopo.png "在左侧的导航窗格中，选择对呼叫质量仪表板链接。")
 
-_图 6 – 通过 Microsoft 团队和 Skype 业务管理中心的访问 CQD_
+_图 7 – 通过 Microsoft 团队和 Skype 业务管理中心的访问 CQD_
 
 -   转到旧**业务管理中心的 Skype** > **工具**，然后选择 CQD，如下图所示的链接。
 
 ![工具选择在左侧的导航窗格中，并且在主窗格中选择了指向 CQD 的链接。](media/qerguide-image-legacyui.png "工具选择在左侧的导航窗格中，并且在主窗格中选择了指向 CQD 的链接。")
 
-_图 7-通过业务管理中心的 Skype 访问 CQD_
+_图 8-通过业务管理中心的 Skype 访问 CQD_
 
 
 ### <a name="getting-started"></a>入门
@@ -454,7 +481,7 @@ _图 7-通过业务管理中心的 Skype 访问 CQD_
 
 ![不同类型的 CQD 中可用的报告](media/qerguide-image-choosereports.png)
 
-_图 8-导航到详细的报告_
+_图 9-导航到详细的报告_
 
 CQD 详细的报告页类似于下图。
 
@@ -467,7 +494,7 @@ CQD 详细的报告页类似于下图。
 | ![三个](media/qerguide-image-callout3.png "三个") | 痕迹导航可帮助用户确定报告集层次结构中的当前位置。 |
 | ![四个](media/qerguide-image-callout4.png "四个") | 具有子报表的报告所示的蓝色的链接。 通过选择链接，您可以子报表向下钻取。 |
 
-_图 9-详细的报告页面_
+_图 10-详细的报告页面_
 
 指向条形图和报表以显示详细的值中的趋势线。 具有焦点的报告将显示操作菜单：**编辑**、**克隆**、**删除**、**下载**和**导出报告树**。
 
@@ -484,7 +511,7 @@ _图 9-详细的报告页面_
 | ![三个](media/qerguide-image-callout3.png "三个") | 查询编辑器中显示的报表的预览。 |
 | ![四个](media/qerguide-image-callout4.png "四个") | 使用在屏幕底部的**编辑**框中创建或编辑报表的详细的说明。 |
 
-_图 10-查询编辑器_
+_图 11-查询编辑器_
 
 ### <a name="filtering-reports"></a>筛选报告
 
@@ -653,13 +680,13 @@ _表 5-构建文件结构_
 
   ![定义如何创建 VPN 子网的 CQD 报告](media/qerguide-image-vpnnetworkname.png)
 
-  _图 11-VPN 使用网络名称_
+  _图 12-VPN 使用网络名称_
 
 -   在此字段中使用的文本"VPN"，为 VPN 子网定义**建筑物名称**。
 
   ![定义如何创建构建定义构成 VPN 子网的 CQD 报表。](media/qerguide-image-vpnbuildingname.png)
 
-  _图 12-使用建筑物名称的 VPN_
+  _图 13-使用建筑物名称的 VPN_
 
 > [!IMPORTANT]
 > 某些 VPN 实现不准确报告子网信息。 如果在您的报告，我们建议时将 VPN 子网添加到该生成文件，而不是一个条目的子网，将发生这种情况作为单独的 32 位网络的 VPN 子网中添加单独对每个地址条目。 每行可以有相同的构建元数据。 例如，而不是一个 172.16.18.0/24 行中，您必须 253 行，通过从 172.16.18.1/32 通过 172.16.18.254/32，包括每个地址的一行。
@@ -678,13 +705,13 @@ CQD 摘要报告仪表板中包括的在右上角 （查找齿轮图标） 中�
 
   ![出现时正在上载数据对话框](media/qerguide-image-tenantdataupload.png)
 
-  _图 13-租户数据上载菜单_
+  _图 14-租户数据上载菜单_
 
 3.  此外，如果这是首次访问 CQD，您将需要上载生成数据。 您可以**立即上载**迅速导航至**租户数据上载**页上选择。
 
   ![通知用户上载生成数据的横幅](media/qerguide-image-buildingdatauploadbanner.png)
 
-  _图 14-构建数据上载横幅_
+  _图 15-构建数据上载横幅_
 
 4.  在**租户数据上载**页上，选择**浏览**选择数据文件。
 
@@ -694,7 +721,7 @@ CQD 摘要报告仪表板中包括的在右上角 （查找齿轮图标） 中�
 
   ![导入构建数据时显示一条错误消息对话框中的示例](media/qerguide-image-buildingdatauploaderror.png)
  
-  _图 15-构建数据上载错误_
+  _图 16-构建数据上载错误_
 
 7.  如果验证过程中不发生任何错误，将会成功上载文件。 您随后可以看到**我上载**表，其中显示所有上载文件的完整列表，该页面底部当前租户中上载的数据文件。
 
@@ -741,7 +768,7 @@ CQD 摘要报告仪表板中包括的在右上角 （查找齿轮图标） 中�
 
 ![报告显示未包括在 CQD 构建数据文件的显示使用情况的子网。](media/qerguide-image-missingbuildingreport.png)
 
-_图 16-丢失生成报表_
+_图 17-丢失生成报表_
 
 ### <a name="building-mapping-tools"></a>构建映射工具
 
@@ -766,6 +793,36 @@ _图 16-丢失生成报表_
 
 我们强烈建议您利用网络规划人员，部署评估的总体影响在网络上的媒体工作负荷时。 有关网络计划工具的详细信息，请访问[MyAdvisor](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)。
 
+
+## <a name="diagnostic-alerts"></a>诊断通知
+
+Microsoft 主动监视 CQD 遥测创建有关产生负面影响的用户体验的已知问题的诊断通知。 这些通知自动然后送达消息中心通过服务管理员。 下表概括了诊断消息中心，以及指向详细信息中显示的通知。
+
+_表 6-诊断通知_
+
+| 通知                                                                | 更多信息             |
+|----------------------------------------------------------------------|------------------------------|
+| 客户端版本不佳的已知正在使用                   | [客户端版本](#client-versions)              |
+| 呼叫下降而造成音频驱动程序                                 | [设备](#devices)                      |
+| 在防火墙中的限制而造成呼叫安装失败         | [安装失败调查](#setup-failure-investigations) |
+| 深入数据包检查导致呼叫安装失败                | [安装失败调查](#setup-failure-investigations) |
+| Wi-fi 网络上的会议室内设备也会导致质量欠佳的呼叫质量 | [质量调查](#quality-investigations)       |
+| UDP 通信被限制，从而导致质量欠佳的呼叫质量         | [TCP](#tcp)                          |
+| VPN 使用率影响呼叫质量                                  | [质量调查](#quality-investigations)       |
+
+
+### <a name="message-center"></a>消息中心
+
+邮件中心在警告您有关新的更新、 功能或问题。 服务管理员在 Office 365 管理中心中的可用邮件中心。 每个文章提供了简要概述如何更新、 功能或问题影响您的用户，并提供更多详细信息的链接。
+
+若要打开邮件中心中，在 Office 365 管理中心，转到**运行状况** > **消息中心**或选择消息中心卡**主页**仪表板上。 仪表板显示已发布的最后三个消息和链接到完整消息中心页。
+ 
+
+![消息中心卡片显示已发布的最后三个消息](media/qerguide-image-messagecentercard.png)
+
+_图 18-消息中心卡片_
+
+您可以使用移动设备上的[Office 365 管理应用程序](https://go.microsoft.com/fwlink/p/?linkid=627216)以查看邮件中心，即了解最新的推送通知的好方法。 有关详细信息，请参阅[这篇文章](https://support.office.com/article/Message-center-in-Office-365-38FB3333-BFCC-4340-A37B-DEDA509C2093)。
 
 ## <a name="reliability-investigations"></a>可靠性调查
 
@@ -793,7 +850,7 @@ _图 16-丢失生成报表_
 
 ![该图显示安装程序失败的 stream 的百分比](media/qerguide-image-streamsetupfailures.png)
 
-_图 16-音频可靠性-流安装失败_
+_图 19-音频可靠性-流安装失败_
 
 ##### <a name="analysis"></a>分析
 
@@ -819,13 +876,17 @@ _图 16-音频可靠性-流安装失败_
 
 ![一组呼叫安装失败，按构建、 网络和每月的子网的原因](media/qerguide-image-setupfailuresbysubnet.png)
 
-_图 18-按子网的音频设置失败_
+_图 20-按子网的音频设置失败_
+
+##### <a name="diagnostic-alert"></a>诊断通知
+
+如果您收到"限制在防火墙中的导致呼叫安装失败"呼叫安装失败，导致深度数据包检查"关注修复措施那些诊断通知首先确定子网。 该通知已识别产生负面影响呼叫可靠性的子网。 可以使用可靠性部分中找到的安装程序故障报告以帮助修复。
 
 ##### <a name="remediation"></a>修正 
 
 关注您建筑或子网已失败的最大卷上的第一个修复措施。 这将最大限度地对用户体验的影响，并帮助快速减少组织的呼叫安装失败的速率。 下表列出了由 CQD 报告的安装程序失败的两个原因。
 
-_表 6 – 呼叫安装失败的原因_
+_表 7 – 呼叫安装失败的原因_
 
 | 调用安装失败原因       | 典型的原因                    |
 |----------------------------------|----------------------------------|
@@ -834,7 +895,7 @@ _表 6 – 呼叫安装失败的原因_
 
 现在您修正开始时，您可以将精力上特定构建或子网。 如前面的表所示，这些问题是由于防火墙或代理的配置。 查看修正操作下表中的选项。
 
-_表 7-呼叫的后续步骤安装失败修正_
+_表 8-呼叫的后续步骤安装失败修正_
 
 | 修正           | 指南     |
 |-----------------------|--------------|
@@ -852,7 +913,7 @@ _表 7-呼叫的后续步骤安装失败修正_
 
 ![图表显示的流而丢弃的百分比](media/qerguide-image-droppedstreamrate.png)
 
-_图 19-丢弃的流速率_
+_图 21-丢弃的流速率_
 
 ##### <a name="analysis"></a>分析
 
@@ -875,7 +936,7 @@ _图 19-丢弃的流速率_
 
 ![报告列表数量和百分比投递失败的组织的构建、 网络和每月的子网](media/qerguide-image-dropfailuresbysubnet.png)
 
-_图 20 – 按子网的投递失败_
+_图 22 – 按子网的投递失败_
 
 ##### <a name="remediation"></a>修正
 
@@ -894,7 +955,7 @@ _图 20 – 按子网的投递失败_
 
 下表列出了一些常见方法管理和修正投递失败。
 
-_表 8-呼叫的后续步骤放置修正_
+_表 9-呼叫的后续步骤放置修正_
 
 | 修正                              | 指南                      |
 |------------------------------------------|-------------------------------|
@@ -924,11 +985,11 @@ PSR 百分比用于指示组织是否会议给定的焦点区域定义度量的�
 > 调查两方 （英文）、 PSTN 电话和会议室是类似于调查会议。 Focus 是到 isloate 建筑或子网已坏的质量并确定质量不佳的原因。
 
 > [!Important]
-> 使用第二个 VPN 维度筛选基于 VPN 的报表。 此维度需要 VPN 网络适配器正确注册为远程访问适配器。  VPN 供应商 don'tt 可靠地使用此标志，并您里程将取决于在您的组织部署 VPN 供应商。 请遵循分级显示[本指南上文中](NEED LINK)修改 VPN 报告在需要时使用的构建或网络名称的指南。
+> 使用第二个 VPN 维度筛选基于 VPN 的报表。 此维度需要 VPN 网络适配器正确注册为远程访问适配器。 VPN 供应商不可靠地使用此标志，并且您里程将取决于在您的组织部署 VPN 供应商。 请遵循分级显示[本指南上文中](#vpn)修改 VPN 报告在需要时使用的构建或网络名称的指南。
 
 ![显示的质量不佳流百分比的图表](media/qerguide-image-audioqualityconferencing.png)
 
-_图 21 – 音频质量-会议_
+_图 23 – 音频质量-会议_
 
 ##### <a name="investigation"></a>调查
 
@@ -945,7 +1006,7 @@ _图 21 – 音频质量-会议_
 
 质量摘要报告为您提供更深入的见解到什么全球分配到的流的被分类为质量欠佳，并有助于隔离中托管网络问题区域。
 
-虽然使用的维度可能会稍有不同之间报告，每个报告将包含总流数、 总差流、 PSR 和 0: 质量不佳的度量单位。 已为感兴趣的每个区域创建表格报告： 会议，两方 PSTN 呼叫，VPN 和会议聊天室。 管理网络模板包括附加报告利用上载通过生成文件的位置信息。
+虽然使用的维度可能会稍有不同之间报告，每个报告将包含总流数、 总差流、 PSR 和 0: 质量不佳的度量单位。 已为感兴趣的每个区域创建报告： 会议，两方 PSTN 呼叫，VPN 和会议聊天室。 管理网络模板包括附加报告利用上载通过生成文件的位置信息。
 
 > [!NOTE]
 > 请务必调整到当前月份月年筛选器。 选择**编辑**，然后调整**月年**保存新默认的月份。
@@ -956,7 +1017,13 @@ _图 21 – 音频质量-会议_
 
 ![较差音频流摘要](media/qerguide-image-poorqualitysummary.png)
 
-_图 22 – 来构建差音频流摘要-和子网会议_
+_图 24 – 来构建差音频流摘要-和子网会议_
+
+##### <a name="diagnostic-alert"></a>诊断通知
+
+如果您收到诊断警报"Wi-fi 网络上的会议室内设备导致质量欠佳的呼叫质量"包括和在您的修复措施设置这些设备的优先级。 该通知已识别主动导致质量欠佳的呼叫质量的会议室，Wi-fi 上。
+
+如果您收到诊断警报"VPN 使用率影响呼叫质量"调查拆分隧道的解决方案，以绕过 VPN 设备，允许媒体直接连接到服务。 该通知已识别 VPN 产生负面影响呼叫质量。
 
 ##### <a name="remediation"></a>修正
 
@@ -970,7 +1037,7 @@ _图 22 – 来构建差音频流摘要-和子网会议_
 
 不要忘记让支持人员了解这些网络遇到质量问题，以便他们可以快速会审并响应传入呼叫。
 
-_表 9-常见贡献高 PSR_
+_表 10-常见贡献高 PSR_
 
 | 修正                              | 指南                         |
 |------------------------------------------|----------------------------------|
@@ -982,12 +1049,14 @@ _表 9-常见贡献高 PSR_
 | **客户端** <br>(For Business 的 Skype 仅联机) | 具有已知旧版客户端与媒体造成问题。 确保客户端的版本的六个月内修补。 [MyAdvisor](https://aka.ms/myadvisor)用于开发的客户端准备策略的指南和部署[即点即单击](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)。 |
 | **设备** | 使用[优化设备](https://partnersolutions.skypeforbusiness.com/solutionscatalog)可以帮助明显改善用户体验。 与所有要素相同，优化的设备旨在最大限度地与团队业务的 Skype 的用户体验和生成出色的质量。 [MyAdvisor](https://aka.ms/myadvisor)用于开发的设备准备策略的指南。 |
 | **驱动程序** | 修补网络 （以太网和 Wi-fi） 音频、 视频和 USB 驱动程序应为总体修补程序管理策略的一部分。 通过更新驱动程序解决了多个质量问题。 |
+| **Wi-fi 上的会议室** | 我们强烈建议将会议的会议室设备连接到网络使用至少一个 1 Gbps 以太网连接。 会议室内设备通常包括多个音频和视频流，以及会议内容，如屏幕共享，并具有更高版本与其他团队或 Skype 业务终结点的网络要求。 会议室是，根据定义，信纸 Wi-fi 其中正好优点仅在安装过程中的设备。<br><br>会议室需要额外的医护和采取行动，以确保使用这些设备的体验是满足或超过期望处理。 会议室质量问题通常要快速呈报因为高级员工通常正在使用它们。<br><br>与所有要素相同 （除了方便），Wi-fi 性能通常小于有线连接。 使用"使用您自己的设备"策略的上升和大量便携式计算机，常过度利用 Wi-fi 访问点。 不可能在 Wi-fi 网络，这会导致在高峰使用质量问题划分优先级实时的媒体。 此高强度使用情况可以与会议重合其中可能会出现一打人员出席，每个都有其自己的便携式计算机和智能手机连接到同一 Wi-fi 接入点作为会议的所有聊天室设备。<br><br>Wi-fi 只应视为临时解决方案，对于移动安装，或已正确设置 Wi-fi 支持企业级、 基于现实时间媒体。 |
+
 
 ### <a name="tcp"></a>TCP
 
 故障回复传输和主要用于实时的媒体传输，将不被视为 TCP。 它是一个故障回复传输的原因是 TCP 的性质状态。 例如，如果延迟网络上进行调用和延迟媒体数据包，然后从以前的几秒钟的数据包 — 不再有用的 — 争夺带宽，转到接收方，这会使错误情况变差。 这样的音频修复程序缝合和拉伸音频，导致听见项目，通常抖动形式。
 
-本节中的报表不进行良好和差流之间的差异。 UDP 是首选，报告将查找 TCP 用于音频、 视频和基于视频的屏幕共享 (VBSS)。 主要原因是完整的防火墙规则。 有关详细信息防火墙规则个团队和 Skype 业务 online，请参阅[Office 365 Url 和 IP 地址范围](https://aka.ms/o365ips)。
+本节中的报表不进行良好和差流之间的差异。 UDP 是首选，报告将查找 TCP 用于音频、 视频和基于视频的屏幕共享 (VBSS)。 提供了不佳流速率，以帮助比较 UDP 质量与 TCP 质量，以便您可以将精力其中影响是最大。 TCP 使用的是主要原因： 未完成的防火墙规则。 有关详细信息防火墙规则个团队和 Skype 业务 online，请参阅[Office 365 Url 和 IP 地址范围](https://aka.ms/o365ips)。
 
 > [!Important]
 > 强烈建议具有[有效的生成文件](#building-mapping)上载，以便您可以快速区分内外部的流时看 TCP 使用率。
@@ -1000,7 +1069,7 @@ _表 9-常见贡献高 PSR_
 TCP 报告指示最近七个月的总体 TCP 使用情况。 本节中的所有进一步报告将重点缩小特定建筑和 TCP 最常使用的位置的子网。 单独的报表供会议和两方流。
 
 ![显示使用 TCP 的音频流的百分比的图表](media/qerguide-image-audiostreamswithtcp.png)
-_图 23 – TCP 使用率的音频流_
+_图 25 – TCP 使用率的音频流_
 
 
 ##### <a name="investigation"></a>调查
@@ -1020,13 +1089,11 @@ _图 23 – TCP 使用率的音频流_
 
 ![显示使用 TCP 和 UDP 流量报表](media/qerguide-image-tcpvsudp.png)
 
-_图 24 – TCP 和 UDP-会议_
+_图 26 – TCP 和 UDP-会议_
 
 ##### <a name="analysis"></a>分析
 
-虽然您想要尽可能的低的 TCP 使用率，您可能会看到 TCP 用法，否则为正常部署中的位。 尽管始终可能是一些少量 TCP 使用率，您希望看到的音频、 视频和 VBSS 尽可能少 TCP 使用率。
-
-在报告中还包含为的差流速率。 这样您就质量 UDP 和 TCP，以帮助可视化 TCP 使用率如何影响总体质量之间的比较结果视图。
+虽然您想要尽可能的低的 TCP 使用率，您可能会看到 TCP 用法，否则为正常部署中的位。 TCP 本身不参与质量欠佳的呼叫，因此流率提供可帮助确定是否 TCP 使用率较质量不佳的贡献。 
 
 #### <a name="tcp-investigations"></a>TCP 调查
 
@@ -1040,7 +1107,11 @@ _图 24 – TCP 和 UDP-会议_
 
 ![TCP 使用构建和子网](media/qerguide-image-tcpstreams.png)
 
-_图 25 – TCP 流来构建-和子网会议_
+_图 27 – TCP 流来构建-和子网会议_
+
+##### <a name="diagnostic-alert"></a>诊断通知
+
+如果您收到诊断警报"UDP 通信限制，从而导致质量欠佳的呼叫质量"关注您 TCP 修复措施这些子网首先。 该通知已识别其中使用 TCP 产生负面影响呼叫质量的子网。
 
 ##### <a name="remediation"></a>修正
 
@@ -1049,7 +1120,7 @@ _图 25 – TCP 流来构建-和子网会议_
 TCP 使用率的最常见原因缺少在防火墙或代理的例外规则。 我们将谈论代理的下一步部分，那么现在精力放在防火墙。 通过使用构建或提供的子网，您可以确定哪些防火墙需要更新。
 
 
-_表 10-修正 * 由构建和子网的 TCP 流指南_
+_表 11-TCP 流构建和子网的补救指南_
 
 | 修正        | 指南     |
 |--------------------|--------------------------------------|
@@ -1073,7 +1144,7 @@ HTTP 代理未建立媒体会话，用于军方的原因的首选的路径。 �
 
 ![使用 HTTP 的音频流的报告](media/qerguide-image-audiostreamswithhttp.png)
 
-_图 26 – HTTP 代理使用的音频流_
+_图 28 – HTTP 代理使用的音频流_
 
 ##### <a name="analysis"></a>分析
 
@@ -1096,7 +1167,7 @@ _图 26 – HTTP 代理使用的音频流_
 
 ![使用生成的 HTTP 代理和子网的报告](media/qerguide-image-httpproxyusage.png)
 
-_图 27 – 来构建 HTTP 代理使用率和子网_
+_图 29 – 来构建 HTTP 代理使用率和子网_
 
 ##### <a name="remediation"></a>修正
 
@@ -1108,7 +1179,7 @@ HTTP 使用率的最常见原因缺少中代理的例外规则。 使用构建�
 
 有关使用 Skype 业务联机和团队代理的详细信息，请参阅[这篇文章](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)。
 
-## <a name="clients-and-devices"></a>客户端和设备
+## <a name="endpoint-investigations"></a>终结点调查
 
 本节重点介绍报告使用认证的设备和客户端版本的任务。 报告可供大纲使用率的客户端版本、 客户端类型、 捕获设备和驱动程序 （麦克风）、 视频捕获设备和 Wi-fi 供应商和驱动程序版本。
 
@@ -1130,24 +1201,28 @@ HTTP 使用率的最常见原因缺少中代理的例外规则。 使用构建�
 
 ![客户端和设备报告](media/qerguide-image-clientversionreport.png)
 
-_图 28-客户端版本报告_
+_图 30-客户端版本报告_
+
+#### <a name="diagnostic-alert"></a>诊断通知
+
+如果收到诊断警报"客户端版本不佳的已知正在使用"功能，重点关注首次更新这些客户端。 确定了这些客户端产生负面影响呼叫质量的通知。 您可以使用客户端和设备报告 （如上所示） 以帮助确保不再更新具有已知问题的客户端。
 
 #### <a name="remediation"></a>修正
 
-托管客户端，除了确保最新支持驱动程序运行最新版本的 Skype for Business，确保驱动高品质用户体验的关键部分。 这可以提供有许多益处，其中包括： 
+托管客户端运行最新版本的 Skype for Business，除了确保支持音频、 视频、 网络和 USB 驱动程序是最新，确保驱动的高品质用户体验的关键部分。 这可以提供有许多益处，其中包括： 
 
 -   很方便地管理与多个版本的几个版本。
 -   它提供了体验的一致性级别。
 -   它可更轻松地解决问题呼叫质量和可用性。
 -   Microsoft 不断会使跨产品的常规改进和优化。 确保用户接收这些更新减少了运行到已解决的问题的风险。
 
-限制对客户端版本不超过六个月的部署将改进的整体用户体验，并提高可管理性与具有相同的环境中的大量不同版本的客户端比较。
+限制对客户端版本不超过六个月的部署将改进的整体用户体验，并减少需要支持的版本数量，从而提高可管理性。
 
 如果您正在使用仅 Office 单击即点即，您将自动是六个月的时段内。 不不需要任何进一步的操作。
 
 如果您具有单击即点即用的组合和安装程序包 (MSI)，您可以使用报表以验证定期更新 MSI 客户端。 如果您注意到客户端落后，使用团队负责管理 Office 更新，并确保您批准并定期部署客户端修补程序。
 
-也很重要考虑并确保的 USB 和音频驱动程序修补以及。 它可以轻松地忽略这些驱动程序并不包括在您的修补程序的管理策略。
+也很重要考虑并确保网络，视频、 USB 和音频驱动程序修补以及。 它可以轻松地忽略这些驱动程序并不包括在您的修补程序的管理策略。
 
 通过以下链接可找到 for Business 的 Skype 的版本号：
 
@@ -1182,7 +1257,11 @@ _图 28-客户端版本报告_
 
 ![设备 （麦克风） 报告](media/qerguide-image-devicesmicrophone.png)
 
-_图 29-设备 （麦克风） 报告_
+_图 31-设备 （麦克风） 报告_
+
+##### <a name="diagnostic-alert"></a>诊断通知
+
+如果您收到诊断警报"呼叫下降，导致音频驱动程序"重点关注首先补救这些驱动程序。 该通知已标识已知的损坏驱动程序均导致调用删除且产生负面影响呼叫可靠性。 在客户端和设备部分中找到的麦克风驱动程序报表 （如上所示），可用于帮助实现过程。
 
 ##### <a name="remediation"></a>修正
 
@@ -1206,9 +1285,17 @@ Wi-fi 驱动程序还需要在正则节奏以及修补和应包含在您的修�
 
 ## <a name="appendix"></a>附录 
 
+### <a name="office-365-network-connectivity-principles"></a>Office 365 网络连接原则
+
+规划 Office 365 网络连接网络之前，务必了解用于安全地管理 Office 365 流量和获取最佳性能的连接原则。 下面的文章将帮助您了解有关安全地优化 Office 365 网络连接的最新指南：
+
+[Office 365 网络连接原则](https://aka.ms/pnc)
+
 ### <a name="planning-for-wi-fi"></a>规划 Wi-fi
 
-Microsoft 的驱动器质量和灵活性到无线网络方法分为三个部分： 端到端规划、 部署和主动维护和操作最佳实践。 此解决方案简要指导您完成此过程，以确保商业体验企业级的无线 Skype：[确保业务体验的企业类无线 Skype](https://www.microsoft.com/download/details.aspx?id=47257)
+Microsoft 的驱动器质量和灵活性到无线网络方法分为三个部分： 端到端规划、 部署和主动维护和操作最佳实践。 此解决方案简要引导您完成此过程，以确保商业体验企业级的无线 Skype:
+
+[确保业务体验的企业类无线 Skype](https://www.microsoft.com/download/details.aspx?id=47257)
 
 ### <a name="lync-networking-guide"></a>Lync 网络指南
 
@@ -1218,7 +1305,7 @@ Microsoft 的驱动器质量和灵活性到无线网络方法分为三个部分�
 
 Ip 电话 （音频、 视频和应用程序共享） 实时媒体质量会显著影响的端到端网络连接质量。 对于最佳工作组或业务媒体质量的 Skype，您的网络必须满足以下网络性能指标。
 
-_表 11-网络性能要求_
+_表 12-网络性能要求_
 
 | 指标                            | 客户端到 Microsoft Edge           | 客户边缘到 Microsoft Edge    |
 |-----------------------------------|------------------------------------|------------------------------------|
@@ -1235,7 +1322,7 @@ _表 11-网络性能要求_
 
 #### <a name="building-data-file"></a>正在创建数据文件
 
--   [打开和使用呼叫质量仪表板的 Microsoft 团队和 Skype 业务 online](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)
+-   [打开和使用呼叫质量仪表板的 Microsoft 团队和 Skype 业务 online](turning-on-and-using-call-quality-dashboard.md)
 
 #### <a name="cqd-training"></a>CQD 培训
 
@@ -1249,11 +1336,11 @@ _表 11-网络性能要求_
 
 -   [介绍呼叫分析](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
--   [设置呼叫分析](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics)
+-   [设置呼叫分析](set-up-call-analytics.md)
 
--   [通话分析与通话质量仪表板之间有何区别？](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
+-   [通话分析与通话质量仪表板之间有何区别？](difference-between-call-analytics-and-call-quality-dashboard.md)
 
--   [使用通话分析解决通话质量不佳的问题](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)
+-   [使用通话分析解决通话质量不佳的问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 ### <a name="call-analytics-support"></a>呼叫分析支持
 

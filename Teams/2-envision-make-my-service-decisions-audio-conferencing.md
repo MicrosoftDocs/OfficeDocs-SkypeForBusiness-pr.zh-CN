@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 577ee414529223dbc435d8570a55adb6883fd8a2
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 3a4e1fed56742dbeb246b89d2a40e96ed3ccb683
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695619"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779983"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -54,7 +54,7 @@ ms.locfileid: "19695619"
 
 ## <a name="availability-of-audio-conferencing"></a>音频会议可用情况
 
-规划团队中的音频会议的实现之前，您需要查看按[国家和地区可用性音频会议和计划的调用](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)中所述的音频会议服务的可用性。
+规划团队中的音频会议的实现之前，您需要查看按[国家和地区可用性音频会议和计划的调用](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)中所述的音频会议服务的可用性。
 
 > [!IMPORTANT]
 > 由于法律限制，可供跨国组织的音频会议的 Office 365 订阅合同必须源于国家/地区和商用音频会议服务所在的区域。

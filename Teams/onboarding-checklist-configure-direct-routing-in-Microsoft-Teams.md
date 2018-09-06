@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8629a26c011927dde83ef91223767e9afd278e7
-ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
+ms.openlocfilehash: 211ef5564f51598cc6e09ab75ee281757641e9ce
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20302334"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779363"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>配置中的 Microsoft 团队的直接路由
 
@@ -25,7 +25,7 @@ ms.locfileid: "20302334"
 
 | 否 | 活动或任务 | 说明 | 已完成？ | 其他信息 |
 |----|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|1|确定将为您的组织的位置部署的 PSTN 连接|Microsoft 提供的其他方法来为您使用 Office 365 电话系统的用户提供 PSTN 连接。<ul><li>调用计划 （"呼叫计划"） 电话系统： Skype 在线业务和团队<li>电话系统，直接路由 （"直接路由"）： 仅团队<li>内部部署与 PSTN 连接电话系统： 业务 online 仅 Skype<li>商务云连接器版的 Skype: for Business 的 Skype 仅联机</ul>直接路由为组织提供了为调用计划，相同的好处在于通过第三方提供程序，而不是 Microsoft 方便了 PSTN 连接。 这样可以部署在国家/地区其中调用计划不可用，或在部署中现有 PSTN 服务提供程序合同需要进行维护或与特定的本地系统的互操作性所需的位置。<br><br>确定哪些选项最适合您的组织。 | |[音频会议和通话套餐的国家/地区可用性](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)<br><br>[入职培训音频会议和调用计划的清单](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams) |
+|1|确定将为您的组织的位置部署的 PSTN 连接|Microsoft 提供的其他方法来为您使用 Office 365 电话系统的用户提供 PSTN 连接。<ul><li>调用计划 （"呼叫计划"） 电话系统： Skype 在线业务和团队<li>电话系统，直接路由 （"直接路由"）： 仅团队<li>内部部署与 PSTN 连接电话系统： 业务 online 仅 Skype<li>商务云连接器版的 Skype: for Business 的 Skype 仅联机</ul>直接路由为组织提供了为调用计划，相同的好处在于通过第三方提供程序，而不是 Microsoft 方便了 PSTN 连接。 这样可以部署在国家/地区其中调用计划不可用，或在部署中现有 PSTN 服务提供程序合同需要进行维护或与特定的本地系统的互操作性所需的位置。<br><br>确定哪些选项最适合您的组织。 | |[音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)<br><br>[入职培训音频会议和调用计划的清单](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams) |
 |2|验证您的用户和启用直接路由中的部署步调列表|确认您具有业务部门或网站的列表的直接路由与团队的范围内。 使用目标和关键结果模型，计算出哪些用户将直接路由的范围。 我们建议从事单独对网站的网站，以便您可以使您的资源。<br><br>为启用计划的一部分，确定哪些用户将启用，通过何时 （试验、 站点 1、 站点 2 等）。||[直接路由构想](2-envision-make-my-service-decisions-direct-routing.md)|
 |3|规划和获取许可证|直接路由中的用户必须具有以下许可证分配 Office 365 中：<ul><li>Skype for Business Online（计划 2）<li>Microsoft 电话系统<li>Microsoft Teams<li>Microsoft 音频会议</ul>直接路由还支持的调用计划许可的用户。 与调用计划的电话系统可以将一些呼叫路由使用直接路由界面。<br><br>需要向计划的会议，外部参与者通过向他们拨出或通过提供的电话拨入式号码的音频会议许可证。||[直接路由许可](https://docs.microsoft.com/microsoftteams/direct-routing-plan#licensing-and-other-requirements)|
 |4|规划会话边框控制器 (SBC) 域名|SBC 域名必须介于 1"域"的租户中注册的名称。<br><br>**注意：** 不能使用 *。 onmicrosoft.com SBC 的完全限定的域名 (FQDN)。<br><br>SBC 域名称也是规划所需的每个 SBC 证书重要的。||[SBC 域名](https://docs.microsoft.com/microsoftteams/direct-routing-plan#sbc-domain-names)|
@@ -40,7 +40,7 @@ ms.locfileid: "20302334"
 |13|作为首选的呼叫客户端为用户的 Microsoft 团队|用户可以看到**呼叫**选项卡中的 Microsoft 团队之前，您需要启用租户中的 Microsoft 团队的**专用电话**和团队客户端必须配置为**首选调用客户端**的用户。||[启用 Microsoft 团队的呼叫](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-calling-for-microsoft-teams)<br><br>[作为首选的呼叫客户端为用户的 Microsoft 团队](https://docs.microsoft.com/microsoftteams/direct-routing-configure#set-microsoft-teams-as-the-preferred-calling-client-for-the-users)|
 |14|为用户启用直接路由|将语音路由策略分配给的用户将使并获取使用直接路由配置 SBC 通过 PSTN 呼叫。||[为用户启用直接路由服务](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-users-for-direct-routing-service)|
 |15|准备和执行用户验收测试|准备和执行用户验收测试，包括电话拨入式和拨出式应用场景。||[团队中的测试云语音工作负荷](https://docs.microsoft.com/MicrosoftTeams/1-onboard-prepare-my-service#test-cloud-voice-workloads-in-teams)|
-|16|报告使用情况、 运行状况、 关键成功指标 (KSIs) 和质量|定义在构想阶段报告使用情况、 运行状况、 KSIs 和质量。||[操作指南](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)|
+|16|报告使用情况、 运行状况、 关键成功指标 (KSIs) 和质量|定义在构想阶段报告使用情况、 运行状况、 KSIs 和质量。||[《操作指南》](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)|
 
 ## <a name="next-steps"></a>后续步骤
 

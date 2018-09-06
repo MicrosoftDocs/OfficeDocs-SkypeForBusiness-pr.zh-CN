@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c69ffab7fcca4fa7f2374e3527793e863ee22ef6
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: fceaa215835b5ef231a29f896656835da940dbde
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19694831"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779803"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>定义和团队测试计划适用于企业中文档电话系统与调用计划 
 ============================================================================================
@@ -654,7 +654,7 @@ ms.locfileid: "19694831"
 通常情况下，您可以找到所需的最新的 bill 或发票中的信息从您当前的服务提供商。
 
 > [!TIP]
->   您可以端口或转接电话号码中所有当前支持的国家/地区内;但是，您所提交的端口顺序请求的方式可能会根据国家/地区的电话号码源自不同。 当前受支持的国家/地区的最新列表，请参阅[国家/地区和音频会议和调用计划的区域可用性](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。
+>   您可以端口或转接电话号码中所有当前支持的国家/地区内;但是，您所提交的端口顺序请求的方式可能会根据国家/地区的电话号码源自不同。 当前受支持的国家/地区的最新列表，请参阅[国家/地区和音频会议和调用计划的区域可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
 >   有关转接到电话系统与调用计划的电话号码的其他信息 — 潜在限制以及 — 请参阅[转接到 Office 365 的电话号码](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)和[免费电话拨号 Office 365 中的限制](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.)。
 

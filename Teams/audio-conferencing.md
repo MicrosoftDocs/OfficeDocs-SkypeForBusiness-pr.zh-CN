@@ -13,12 +13,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 8f5f6eef85352a0c20d08b3e3bf2a327abfd9ca0
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 7f79257847780ec4c3f9b0c4dd2cda25241a3518
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19004839"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779219"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的音频会议实践指导
 ============================================================
@@ -234,7 +234,7 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 
 ## <a name="availability-of-audio-conferencing"></a>音频会议可用情况
 
-在这些[国家和地区](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)提供音频会议。
+在这些[国家和地区](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)提供音频会议。
 
 > [!IMPORTANT]
 > 由于受到法律约束的原因，为了向跨国组织提供音频会议，必须从音频会议服务覆盖的国家和地区或销售音频会议服务的地方提供 Office 365 订阅的合同。

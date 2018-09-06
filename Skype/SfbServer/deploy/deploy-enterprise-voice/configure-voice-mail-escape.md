@@ -13,31 +13,31 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 摘要： 了解如何使用 Skype 业务 Server Management Shell，业务服务器配置语音邮件转义 Skype。
-ms.openlocfilehash: 3e8686690634b9571cae963b8ca91d73a6758e26
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4d93f188b137c3ecea014b8e407456e20195cbe1
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985134"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23261362"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>Skype for Business 中配置语音邮件转义
- 
+
 **摘要：** 了解如何使用 Skype 业务 Server Management Shell，业务服务器配置语音邮件转义 Skype。
-  
+
 当用户配置到移动电话同时响铃时，呼叫者将通常路由到用户的个人语音邮件，如果移动电话处于关闭、 电池供电不足或超出范围。 与业务服务器 Skype，用户可以选择使与业务相关的呼叫路由至其企业语音邮件系统。 具体而言，可以配置计时器，并且 Skype 业务服务器如果通过定义的时间范围内的运营商的语音邮件应答呼叫时，将断开连接从运营商的语音邮件系统 （和用户的个人语音邮件），当用户企业系统中的其余终结点继续响铃。 这种方式，呼叫者会自动传送到用户的企业语音邮件。
-  
+
 Skype 用于业务 Server Management Shell cmdlet **Set-csvoicepolicy**，在语音策略级别，使用以下参数执行此配置。
-  
+
 ### <a name="to-configure-voice-mail-escape"></a>配置语音邮件转义
 
 1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
-    
+
 2. 指定 **Set-CsVoicePolicy** 的以下参数：
-    
+
    - **EnableVoicemailEscapeTimer** - 启用或禁用转义计时器。
-    
+
    - **PSTNVoicemailEscapeTimer** - 指定超时值（以毫秒为单位）。默认值为 1500 毫秒，该值的范围可介于 0 到 8000 毫秒之间。
-    
+
 ## <a name="example"></a>示例
 
 ```
@@ -47,5 +47,5 @@ Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -P
 
 ## <a name="see-also"></a>另请参阅
 
-[配置语音策略和 PSTN 用法记录以授权呼叫功能和权限](http://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
+[配置语音策略和 PSTN 用法记录以授权呼叫功能和权限](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
 

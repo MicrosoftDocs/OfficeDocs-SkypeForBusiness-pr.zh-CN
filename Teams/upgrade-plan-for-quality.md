@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0050834f55568a6a747d84e8efdffb3e898d226
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 6114120998425acdd443ab852b3f39fd2549b5ff
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398026"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779945"
 ---
 ![升级旅程，重点强调的技术的准备阶段的阶段](media/upgrade-banner-tech-readiness.png "升级旅程，重点强调的技术的准备阶段的阶段")
 
@@ -32,329 +32,329 @@ ms.locfileid: "20398026"
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
 # <a name="plan-for-quality"></a>规划质量
 
-如果您正在部署音频、 视频或会议，您可以优化该功能的环境的一些额外步骤。 此内容将提供所需提供和维护高质量的 Microsoft 团队部署的要求的概述。 您可以帮助确保成功部署规划服务管理和质量，在您的第一个试验或生产部署之前。
+如果您正在部署音频、 视频或会议，您可以优化该功能的环境的一些额外步骤。 此内容概述了交付和维护高质量的 Microsoft Teams 部署需要达到的要求。 您可以帮助确保成功部署规划服务管理和质量，在您的第一个试验或生产部署之前。
 
-指南分为以下几节：
+指导由以下部分组成：
 
--   首先是概述用户体验和支持质量的关键组件。 这将突出显示前向 Microsoft 工作组入职培训重点关注的区域。
+-   首先，概述用户体验和用于实现高质量的主要组成部分。 将着重介绍在上线 Microsoft Teams 之前重点关注的方面。
 
--   其次，指南提供规划支持模型之前在首次用户试验或生产部署管理的 Microsoft 团队。 本节介绍需要定期维护高质量团队部署执行的任务。 此外，本节介绍了进一步可用于开始了解并留给这些任务的指导。
+-   其次，指导在首次用户试点或生产部署之前如何规划用于管理 Microsoft Teams 的支持模型。 本节介绍为了维护高质量 Teams 部署需要定期执行的任务。 此外，本节还介绍你开始了解和执行这些任务时可以遵循的进一步指导。
 
--   第三个、 特定的指导可帮助规划您的网络和您的组织中的终结点支持的 Microsoft 团队。
+-   再次，提供具体的指导来帮助在你的组织中规划你的网络和终结点以支持 Microsoft Teams。
 
--   最后下, 一步步骤概括指向相关内容的引用。
+-   最后，概述了后续步骤并提供相关内容参考。
 
 ## <a name="key-technical-components-that-affect-user-experience"></a>影响用户体验的重要技术组件
 
-将在本节评审影响用户体验的关键技术组件。 查看的关键组件之前很关键，了解用户体验和实现您的组织的业务目标的重要性。 让我们查看如何我们先定义用户体验。
+将在本节评审影响用户体验的关键技术组件。 在介绍这些主要组成部分之前，务必要了解用户体验及其在实现组织业务目标中的重要性。 下面先来了解我们如何定义用户体验。
 
 ### <a name="user-experience-defined"></a>定义用户体验
 
 当您部署的 Microsoft 团队和时用户采用团队作为其核心协作和通信解决方案，可以实现业务目标。 质量可以帮助确保良好的用户体验，驱动的用法和采用的关键属性。 通过提供高质量服务的富食品公司的人员，个人和团队可以信心和发现的驱动器业务好处的创新方式使用该服务。
 
-此核心是用户的体验与团队 — 此人的情绪和服务的态度。 因此，功能可对用户体验？ 范围为从用户知道如何和为什么使用团队和并入遇到异常呼叫质量并能够可靠地，无论他们将连接到其每日工作流。 用户体验是非常广泛性质;本文仅重点介绍可以由组织控制这些技术元素。 [准备您的组织团队](https://aka.ms/SkypeToTeams-UserReadiness)中，可以找到有关用户准备情况的其他信息。
+核心在于用户使用 Teams 时的体验 - 个人对服务的感受和态度。 那么哪些方面构成了用户体验？ 范围为从用户知道如何和为什么使用团队和并入遇到异常呼叫质量并能够可靠地，无论他们将连接到其每日工作流。 用户体验是非常广泛性质;本文仅重点介绍可以由组织控制这些技术元素。 [准备您的组织团队](https://aka.ms/SkypeToTeams-UserReadiness)中，可以找到有关用户准备情况的其他信息。
 
-向部署非常重要，以提供美好的用户体验的特定要求 — 尤其是当使用云的语音功能中的团队。 要被视为一个一类公民与其他通信和协作的投资，相应地设置优先级的实时通信的 Microsoft 团队至关重要。 下面一节提供了概述影响用户体验的关键组件。 在进一步部分中，我们将提供指导如何启动计划部署和维护的关键组件组成质量。
+部署存在一些具体要求，这些要求对实现出色的用户体验至关重要 - 尤其是在 Teams 中使用云语音功能时。 与其他通信和协作投资相比，优先考虑 Microsoft Teams 这一点很重要，从而相应地优先处理实时流量。 下一节概述了影响用户体验的主要组成部分。 在后面各节，我们将指导如何开始规划部署和维护构成质量的主要组成部分。
 
-### <a name="key-components-of-quality"></a>质量的关键组件
+### <a name="key-components-of-quality"></a>质量的主要组成部分
 
-组织或支持合作伙伴应开始规划团队部署技术的准备阶段的三个主要组件： 服务管理、 网络和终结点。 所有三个方面的组合而言至关重要的用户体验质量。
+组织或支持合作伙伴应开始规划团队部署技术的准备阶段的三个主要组件： 服务管理、 网络和终结点。 这三个方面一起构成了用户体验质量的基础。
 
-![图示，说明质量和服务管理与全部三个组件的重叠的三个组件。](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "图示，说明质量和服务管理与全部三个组件的重叠的三个组件。")
+![此示意图说明了质量的三个组成部分以及服务管理如何贯穿于这三个组成部分。](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "此示意图说明了质量的三个组成部分以及服务管理如何贯穿于这三个组成部分。")
 
 #### <a name="service-management"></a>服务管理
 
-服务管理可以分为两种不同类别的责任：
+服务管理可以分为两种截然不同的职责类别：
 
--   **Microsoft 责任**。 Microsoft 负责为 Office 365 服务均包含基础结构组件。 Microsoft 负责向客户以确保其用户连接到团队任一原样提供可靠且高质量体验。
+-   **Microsoft 职责**。 Microsoft 负责构成 Office 365 服务的基础结构组件。 Microsoft 向客户负责确保为连接到 Teams 的任何用户提供可靠的高质量体验。
 
--   **客户责任**。 您和您的组织负责管理 Office 365 服务、 本地网络和用户终结点的各个方面。 例如，新的 IP 地址添加到 Office 365 时，则必须更新相应的防火墙，以允许到新的终结点，以避免出现用户中断通信。
+-   **客户职责**。 你和你的组织负责管理 Office 365 服务、本地部署网络和用户终结点的各个方面。 例如，在向 Office 365 添加新的 IP 地址时，你必须更新合适的防火墙以允许新的终结点进行通信，从而避免用户中断。
 
-服务管理规划的详细指导，请参阅[规划服务管理](#plan-for-service-management)。
+有关服务管理规划的详细指导，请参阅[规划服务管理](#plan-for-service-management)。
 
 #### <a name="network"></a>网络 
 
-大多数组织中网络最初旨在提供数据和驻留在他们的数据中心的应用程序的访问。 基于云的应用程序，如 Office 365 需要更改这些网络支持团队需要的新访问和数据流。 您可以让用户在组织中的团队之前，必须评估并优化您的当前网络。 利用云语音功能时，这一点非常重要。
+在大多数组织中，网络最初设计为用于访问其数据中心里的数据和应用。 对于 Office 365 等基于云的应用，则需要更改这些网络以支持 Teams 所需的全新访问和数据流。 必须先评估并优化当前网络，才能在组织中为 Teams 启用用户。 在利用云语音功能时，这一点至关重要。
 
-在传统的网络中，用户将需要遍历访问团队的组织的外围网络。 许多组织会基于安全的设备，如代理服务器、 防火墙和 Vpn 可阻止限制，或网络通信提供了一个未优化的路径。
+在传统网络中，用户需要穿越组织的外围网络才能访问 Teams。 许多组织将会有基于安全的设备（例如，代理服务器、防火墙和 VPN），这些设备可以阻止或阻碍网络流量，或者为网络流量提供未优化路径。
 
-此外，核心内部网络都需要是优化和右大小，以支持团队工作负荷，包括实时媒体提供足够的容量和质量。 您可以使用带宽规划，修正，并优化以帮助确保您的网络到 Office 365 提供高质量和效率的路径。
+此外，需要优化核心内部网络以及将其调整至合适规模，以提供足够的容量和质量，从而支持 Teams 工作负荷（包括实时媒体）。 你可以使用带宽规划、修正和优化来帮助确保你的网络提供 Office 365 的高质量有效路径。
 
-有关网络规划的详细指南，请参阅[规划网络质量](#plan-for-network-quality)。
+有关网络规划的详细指导，请参阅[规划服务质量](#plan-for-network-quality)。
 
-#### <a name="endpoints"></a>端点
+#### <a name="endpoints"></a>终结点
 
-Microsoft 团队支持各种终结点。 从 Pc 到电话的平板电脑，可以几乎任何设备从任何位置访问团队。
+Microsoft Teams 支持各种终结点。 你可以在任何地方从 PC、平板电脑和手机等几乎任何设备访问 Teams。
 
-若要为用户提供最佳体验可能，您需要考虑以下重要方面： 执行您终结点符合团队硬件和软件要求？ 是否已配置和优化终结点 Wi-fi 网络支持？ 您将使用哪些设备发起和接收语音呼叫？ 针对团队优化这些设备？
+若要为用户提供最佳体验可能，您需要考虑以下重要方面： 执行您终结点符合团队硬件和软件要求？ 你是否已配置并优化终结点来支持 Wi-Fi 网络？ 你将使用哪些设备拨打和接听语音通话？ 是否针对 Teams 优化了这些设备？
 
-有关规划的终结点的详细指南，请参阅[Plan for 终结点质量](#plan-for-endpoint-quality)。
+有关终结点规划的详细指导，请参阅[规划终结点质量](#plan-for-endpoint-quality)。
 
 ## <a name="plan-for-service-management"></a>规划服务管理
 
-服务管理是涵盖日常操作的 Microsoft 团队服务后已部署并为用户启用广泛主题。 团队服务包括 Microsoft Office 365 和本地部署的基础结构组件 （例如，网络）。
+服务管理是一个非常广泛的主题，涵盖了部署 Microsoft Teams 服务并为用户启用该服务后该服务的日常操作。 Teams 服务包括 Microsoft Office 365 和在本地部署的基础结构组件（例如网络）。
 
-服务管理的概念很可能不是一个新的概念对于大多数组织。 您可能已经实现了进程和与现有服务相关联的任务。 也就是说，您可能可以增大所就地时立即以支持的 Microsoft 团队将来规划服务管理。
+对于大多数组织而言，服务管理概念很可能不是一个新概念。 你可能已经实施了与现有服务关联的流程和任务。 尽管如此，当你现在规划服务管理以在将来支持 Microsoft Teams 时，你可能会扩大已实施的方面。
 
-服务管理包括所有活动和进程涉及管理 Microsoft 团队端到端。 前面所述，某些组件服务管理-Office 365 服务本身包含基础结构组件 — 是 Microsoft 的责任，而客户负责为其用户管理团队的各个方面网络和它们提供的终结点。 文档的本部分将重点从服务管理角度客户的责任。
+服务管理包含管理 Microsoft Teams 端到端时涉及的所有活动和流程。 如前文所述，服务管理的一些组件（构成 Office 365 服务自身的基础结构组件）属于 Microsoft 的职责范围，而客户负责为其用户管理自己提供的 Teams、网络和终结点的各个方面。 本文档的本节将从服务管理角度重点介绍客户的职责。
 
-![图示，说明质量和服务管理与全部三个组件的重叠的三个组件。服务管理重点。](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "图示，说明质量和服务管理与全部三个组件的重叠的三个组件。服务管理重点。")
+![此示意图说明了质量的三个组成部分以及服务管理如何贯穿于这三个组成部分。焦点在服务管理上。](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "此示意图说明了质量的三个组成部分以及服务管理如何贯穿于这三个组成部分。焦点在服务管理上。")
 
-### <a name="introduction-to-the-operations-guide"></a>操作指南简介 
+### <a name="introduction-to-the-operations-guide"></a>《操作指南》简介 
 
-**哪些****人员**、 和**如何**是需要当谈到服务管理回答的三个重要问题。
+**什么内容**、**什么人**和**什么方式**是在讨论服务质量时需要回答的三个重要问题。
 
-[操作指南](1-drive-value-operate-my-service.md)可用于帮助您解决所有这三个这些问题。 指南提供了活动上每天、 每周、 每月和根据需要执行的列表。 这些活动和任务的维护高质量团队部署至关重要。 确定谁将负责服务管理中执行特定活动是您需要执行早期在[计划阶段](upgrade-enlist-stakeholders.md)确保成功部署进行规划的重要组成部分。 您已经确定的任务和活动后，他们需要理解和被关注的组或个人您分配给它们。 操作指南提供知识和如何执行每个任务，指南和/或外部内容的引用。
+你可以使用《[操作指南](1-drive-value-operate-my-service.md)》帮助你解决所有这三个问题。 该指南提供了每天、每周、每月及按需执行的活动列表。 这些活动和任务对于维护高质量 Teams 部署至关重要。 确定谁将负责服务管理中执行特定活动是您需要执行早期在[计划阶段](upgrade-enlist-stakeholders.md)确保成功部署进行规划的重要组成部分。 在确定了任务和活动后，需要你将其分配到的小组或个人了解并遵循这些任务和活动。 《操作指南》提供了有关如何执行每个任务的知识和指导，以及/或外部内容的参考。
 
-### <a name="operational-role-mapping"></a>操作的角色映射
+### <a name="operational-role-mapping"></a>可操作的角色映射
 
-规划服务管理早期是关键里程碑，因为操作阶段开始时启用了第一个试点用户。 项目团队必须查看并同意任务和活动需要，确定负责为每个操作任务的团队，然后获取承诺注销来自每个各自的团队。
+早期规划服务管理是一个关键的里程碑，因为在启用首批试点用户时即开始操作阶段。 项目团队必须审阅并同意所需的任务和活动，确定负责每个可操作任务的团队，以及得到各个团队的承诺和签字认可。
 
-完成注销后，负责小组然后必须启动留给这些角色和职责。 这可能包括培训并准备、 更新人员配备模型，或确保外部合作伙伴便可提供。
+在完成签字认可后，负责团队必须开始执行这些角色和职责。 这可能包括培训和就绪工作、更新人员配置模型或确保外部合作伙伴已准备好交付。
 
 映射，收集您的[项目工作组](upgrade-enlist-stakeholders.md)的操作的角色使所有团队试验和掌握操作过程中启动其操作任务，并确保一切就绪后部署启动。
 
-操作指南提供了一组映射到应在大多数情况下有效的典型角色的常见任务。 您需要进行自定义这些工作为组织的责任。
+《操作指南》提供了映射到在大多数方案中应该会有效的典型角色的常见任务列表。 你需要自定义这些职责以适用于你的组织。
 
-### <a name="the-quality-champion-role"></a>质量冠军角色
+### <a name="the-quality-champion-role"></a>质量支持者角色
 
-一组或各个需要负责在组织中所有的质量。 这是在服务管理的最重要的角色。 客户角色分配给用户或用户组属于热心有关其用户体验质量冠军。 此角色需要确定中的趋势环境和赞助 ォ オ リ モ 驱动修正工作的技能。 最适合进行质量冠军通常是客户服务所有者，人员 — 取决于组织的规模和复杂性 — 可以是任何人或团队致力于用户体验。
+在所有组织中，都需要小组或个人为质量负责。 这是服务管理中最重要的角色。 质量支持者是分配给关心其用户体验的个人或小组的客户角色。 此角色要求具有识别环境中的趋势的技能，以及能够支持与其他团队合作以推动修正。 质量支持者的最佳候选人通常是客户服务所有者，根据组织的规模和复杂程度，可以是关心用户体验的任何个人或小组。
 
-质量冠军利用现有的工具和记录操作过程中，如呼叫质量仪表板 (CQD) 和质量体验审阅指南要监视的用户体验，请确定质量趋势和驱动器修正在需要时。 质量冠军处理驱动器修正操作，各个团队报告给调控委员会其进度和解决问题。
+质量支持者利用现有的工具和记录的流程（例如通话质量仪表板 (CQD) 和《体验质量评审指南》）来监控用户体验、识别质量趋势以及在需要的情况下推动修正。 质量支持者与各个团队合作以推动采取修正措施，并就进度和未解决的问题向指导委员会报告。
 
-任务和与角色相关联的活动记载操作指南 》。 在[计划阶段](https://aka.ms/SkypeToTeams-Plan)期间应向其分配此角色。 留给的质量冠军角色一个关键步骤获得所需的角色和确保措施来提供任务，必备组件的知识。 正则质量体验回顾运行此角色的关键任务。
+《操作指南》中记录了与该角色关联的任务和活动。 在[计划阶段](https://aka.ms/SkypeToTeams-Plan)期间应向其分配此角色。 执行质量支持者角色时的一个主要步骤是获取该角色所需的知识，以及确保在执行任务时满足先决条件。 此角色的一个主要任务是运行定期质量体验评审。
 
-### <a name="introduction-to-the-quality-experience-review-guide"></a>质量体验审阅指南简介
+### <a name="introduction-to-the-quality-experience-review-guide"></a>《体验质量评审指南》简介
 
-质量体验审阅指南有一组活动的评估，并提供对下图中所示改善用户体验的影响最大的主要区域中的补救指南。
+《体验质量评审指南》中包含一组活动，用于评估影响最大的主要方面并提供修正指导以改进用户体验，如下图所示。
 
-![图表，说明在质量体验审阅过程中检查的关键区域。](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "图表，说明在质量体验审阅过程中检查的关键区域。")
+![此示意图说明了在质量体验评审期间检查的主要方面。](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "此示意图说明了在质量体验评审期间检查的主要方面。")
 
-通过不断地评估和补救本文所述的区域，您可以减少他们可能会产生负面影响的用户体验。 在部署中遇到的最多的用户体验问题可以分为以下类别：
+通过持续评估并修正本文档中所述的方面，你可以降低其对用户体验的潜在负面影响。 在部署中遇到的大多数用户体验问题可以分为以下类别：
 
--   不完整的防火墙或代理配置
+-   防火墙或代理配置不完整
 
--   质量欠佳 Wi-fi 覆盖范围
+-   Wi-Fi 覆盖范围较小
 
 -   带宽不足
 
 -   VPN
 
--   使用未优化或内置的音频设备
+-   使用了未优化或内置的音频设备
 
--   有问题的子网或网络设备
+-   子网或网络设备存在问题
 
-使用作为主要工具，呼叫质量仪表板 (CQD) 联机报告和调查所述，重点音频，以最大限度地应用和影响每个区域重点质量体验审阅指南中提供的指南。 对网络以提高音频体验任何优化还直接将翻译视频和桌面共享的改进。
+《体验质量评审指南》主要指导如何将通话质量仪表板 (CQD) 作为主要工具进行在线使用来报告和调查所述的每个方面，且重点在音频方面，以最大限度地提高采用率和作用。 为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。
 
-我们强烈建议您在早期提名质量冠军。 正在提名之后, 他们应开始熟悉质量体验审阅指南中的内容。
+强烈建议尽早指定质量支持者。 在被指定为质量支持者后，这些人应开始了解《体验质量评审指南》中的内容。
 
-可以找到质量体验审阅指南[此处](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)。
+《体验质量评审指南》位于[此处](https://aka.ms/qerguide)。
 
 ## <a name="plan-for-network-quality"></a>规划网络质量 
 
-网络质量规划将下一节的焦点。
+下面主要介绍如何规划网络质量。
 
-![图示，说明质量和服务管理与全部三个组件的重叠的三个组件。具有网络上焦点。](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "图示，说明质量和服务管理与全部三个组件的重叠的三个组件。具有网络上焦点。")
+![此示意图说明了质量的三个组成部分以及服务管理如何贯穿于这三个组成部分。焦点在网络上。](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "此示意图说明了质量的三个组成部分以及服务管理如何贯穿于这三个组成部分。焦点在网络上。")
 
-如前所述，规划向 Microsoft 工作组入职培训之前的网络质量非常重要。 网络就绪性的更多指南，请参阅[准备贵组织的网络中的 Microsoft 团队](prepare-network.md)。
+如前文所述，在上线 Microsoft Teams 之前进行网络质量规划至关重要。 有关网络就绪的进一步指导，请参阅[为 Microsoft Teams 准备组织的网络](prepare-network.md)。
 
-大多数组织中网络可以包含托管和非托管网络。
+在大多数组织中，网络可能包含托管网络和非托管网络。
 
-托管的网络是组织拥有直接控制通过网络基础结构的组件。 因此，托管的网络具有可提供给实时通信工作负载的质量直接影响。
+托管网络是组织可以直接控制的网络基础结构组成部分。 因此，托管网络直接影响可以向实时流量工作负荷提供的质量。
 
-相反，非托管的网络是的客户具有有限的控件或没有控件，超过网络段。
+相反，非托管网络是客户只能进行有限控制或无法控制的网络部分。
 
-Office 365 组织之间的 Internet 连接是的网络客户有限控件。 网络进行管理由 ISP，但是组织应该能够通过升级其提倡的路由优化的带宽影响网络质量或 — 如果他们都失败 — 切换 Isp。
+组织与 Office 365 之间的 Internet 连接是客户只能进行有限控制的网络。 这些网络由 ISP 管理，但组织应该能够通过升级其带宽、支持路由优化或（如果所有其他方法都无效）改换 ISP 来提高网络质量。
 
-家庭网络或网络中旅馆或咖啡馆是客户其中有无控制的网络的示例。
+家庭网络或者酒店或咖啡店的网络属于客户无法控制的网络。
 
-以下各节，我们将专注于托管网络的质量要求。
+在以下各节中，将重点介绍托管网络的质量要求。
 
-### <a name="key-network-planning-areas"></a>关键网络规划区域
+### <a name="key-network-planning-areas"></a>主要网络规划方面
 
-以下各节重点介绍提供高质量网络的重要区域。
+以下各节将重点介绍用于实现高质量网络的重要方面。
 
 > [!NOTE]
-> 许多网络随由于升级、 扩展或其他业务要求的时间。 确保您要维护服务管理规划的一部分这些领域有操作过程。
+> 许多网络会由于升级、扩展或其他业务要求而逐渐发展。 请确保在你的服务管理规划中具有可操作的流程以维护这些方面。
 
 #### <a name="bandwidth"></a>带宽
 
-带宽规划是网络准备活动的一个重要方面。 确保没有足够带宽的 Microsoft 团队工作负载是强制性。 为了能够右大小现有网络，您必须了解哪些当前设置，当前利用率，和 — 最终 — 剩余的可用带宽。
+带宽规划是网络就绪活动的一个关键方面。 务必要确保有足够的带宽用于 Microsoft Teams 工作负荷。 为了能够调整现有网络的规模，必须了解当前预配的内容、当前利用率，最后是剩余的可用带宽。
 
-若要测量当前使用率，您需要监视网络。 然后，此度量可以用作的起始点带宽规划。 此外，网络应该不断监视在部署期间和之后部署以确保网络已足够设置。
+要度量当前利用率，需要监控网络。 之后，可以将此度量结果用作带宽规划的基础。 此外，还应该在部署期间和之后持续监控网络，以确保充分预配了网络。
 
 > [!NOTE]
-> 监视时网络利用率，务必要避免使用通过一天的平均值。 这些平均值可以包括非核心 skew 结果的时间点。 平均值可以隐藏高峰时段并屏蔽的基本问题。
+> 监控网络利用率时，务必要避免使用每天的平均值。 这些平均值可能包含影响结果准确性的非核心时段数据。 平均值可能无法体现高峰时段的数据，并掩盖了基本问题。
 
-[网络计划工具](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)可帮助您确定和组织中只通过几次简单步骤部署的网络要求。 通过使用该工具收集您的组织网络的详细信息和云语音用法，您可以获取您将需要为云语音部署，管理和导出的报告，这些详细信息并查看区域的网络要求近似计算对于进一步调查和后续步骤。
+[Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) 帮助你通过几个简单的步骤即可确定和整理你的部署的网络要求。 通过使用该工具收集组织的网络详细信息和云语音使用情况，可以获取你的云语音部署所需的网络要求的近似计算结果，管理并导出这些详细信息进行报告，以及查看相关方面以便进行进一步调查和后续步骤。
 
 #### <a name="quality-of-service-qos"></a>服务质量 (QoS)
 
-应在所有段托管网络，甚至充分设置的带宽的网络上实现 QoS。 在后一种情况，QoS 作为发生意外的网络负载应用风险缓解时。 当实现 QoS 时，以便这些无法预知的事件不会影响质量，语音通信将按优先级顺序。
+应对托管网络的所有部分实施 QoS，即使是在带宽方面充分预配的网络也是如此。 在后一种情况下，当出现意外网络负荷时，QoS 可以缓解风险。 实施 QoS 时，将优先处理语音流量，以避免这些意外事件影响质量。
 
-QoS 实现应包括的从一直到出口点的终结点和回终结点的出口点的网络区域。 这将确保语音通信要在两个方向确定其优先级。 应在同时有线实现 QoS 和 Wi-fi 网络。
+QoS 实施应包括网络的多个方面，从终结点一直到出口点，以及从出口点回到终结点。 这将确保在两个方向上都优先处理语音流量。 应对有线网络和 Wi-Fi 网络实施 QoS。
 
-以下指南可用于实现在网络上的 QoS，帮助[中的 Microsoft 团队的服务质量](qos-in-teams.md)
+要对网络实施 QoS，以下指导有助于提高 [Microsoft Teams 中的服务质量](qos-in-teams.md)
 
 #### <a name="proxy-servers"></a>代理服务器
 
-许多组织查看为安全风险，internet 的通信和它们通过监视和评估网络中的出口点处的流量减轻此风险。 代理服务器都可以部署以满足此要求的设备的类。
+许多组织都将传输到 Internet 的流量视为安全风险，并通过监控和评估网络中出口点处的流量来缓解此风险。 可以部署代理服务器这类设备来满足此要求。
 
-执行数据包检查或修改负载时，代理服务器可能会带来问题。 这可能会导致呼叫安装失败、 丢弃的呼叫和质量欠佳的呼叫质量。 如果强制实时的媒体遍历代理服务器，则会强制团队中的媒体堆栈故障回复到 TCP，它们可以进一步减少质量。 UDP 始终是首选 tcp。
+在对负载执行数据包检查或修改时，代理服务器可能会引入问题。 这可能会导致通话设置失败、通话中断以及通话质量较差。 如果强制实时媒体穿过代理服务器，则 Teams 中的媒体堆栈将会被强制故障回复到 TCP，从而可能进一步导致质量降低。 UDP 始终优先于 TCP。
 
-此外，代理服务器设计可能无法处理的 Office 365 和专门的 Microsoft 团队工作负载的其他负载 — 包括实时媒体。
+此外，代理服务器可能未设计为处理额外的 Office 365 负荷，尤其是 Microsoft Teams 工作负荷（包括实时媒体）。
 
-由于潜在的问题可以引入代理服务器，以及这些额外的容量问题 Microsoft 建议绕过代理服务器并建立直接连接到 Office 365。
+由于代理服务器可能会引入潜在的问题，以及这些额外的容量顾虑，Microsoft 建议绕过代理服务器并直接连接到 Office 365。
 
-绕过代理服务器所需的配置随供应商，但常用的方法通常涉及更新代理服务器自动配置 (PAC) 文件。 PAC 文件是介绍哪些流量将通过代理以及哪些流量绕过其配置文件。
+绕过代理服务器所需的配置因供应商而异，但常见方法通常是更新代理自动配置 (PAC) 文件。 PAC 文件是一个配置文件，记录哪些流量通过代理以及哪些流量绕过代理。
 
-某些代理服务器供应商提供的自动化的过程，确保配置为最新。 如果您的供应商不提供此自动过程，您可以下载从更新的 PAC 文件<https://aka.ms/o365proxies>。
+一些代理服务器供应商会提供一个自动流程以确保配置是最新的。 如果你的供应商未提供此自动流程，你可以从 <https://aka.ms/o365proxies> 下载更新的 PAC 文件。
 
-[Skype 在线业务和团队的代理服务器](/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
+[Skype for Business Online 和 Teams 的代理服务器](/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
 
 #### <a name="firewalls"></a>防火墙
 
-确保正确的端口和协议对所有 Office 365 Ip 和 Url 开放需要访问的 Microsoft 团队。 也是高质量部署至关重要。 只需进行呼叫或加入电话会议不足以确保您的防火墙配置正确。
+需要确保向所有 Office 365 IP 和 URL 打开正确的端口和协议，才能访问 Microsoft Teams。 此外，这对实现高质量部署也很关键。 只是拨打电话或加入电话会议不足以确保正确配置了防火墙。
 
-如果只在防火墙上打开 TCP 时，将建立的会话，但未协商的首选的传输 (UDP)。 TCP 和 UDP 需要在提供最佳用户体验的防火墙上打开。
+如果在防火墙上只打开 TCP，则将会建立会话，但不会协商首选传输 (UDP)。 需要在防火墙上同时打开 TCP 和 UDP，才能提供最佳用户体验。
 
-由于其状态的性质，TCP 不是首选的实时的媒体和 Microsoft 团队仅提供作为故障回复网络传输。 使用 TCP，如果没有数据包延迟或丢失，则这些数据包必须重新传输直到他们正在被应答。 这会导致不再相关与及时提供当前媒体数据包的竞争的媒体数据包。 用户的工作组客户端尝试拉伸音频，并可能会产生听见项目，具体取决于网络条件。 使用 TCP 的额外开销，通常可接受的体验可以转移到不佳的用户体验。 因此，无状态网络传输 UDP 需要。
+由于其有状态性质，TCP 不适用于实时媒体，仅作为 Microsoft Teams 的故障回复网络传输提供。 在使用 TCP 的情况下，如果发生数据包延迟或丢失，则必须重新传输这些数据包，直到其得到确认。 这可能会导致不再相关的媒体数据包与当前媒体数据包竞争及时传递。 用户的 Teams 客户端尝试拉伸音频，根据网络状况，可能会生成非自然音频信号。 由于 TCP 的额外开销，普遍接受的体验可能会变为较差的用户体验。 因此，需要使用无状态网络传输 UDP。
 
-[Office 365 Url 和 IP 地址范围](https://aka.ms/o365ips)一文中提供了用于打开防火墙的 Microsoft 团队的完整指导。
+[Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)一文提供了为 Microsoft Teams 打开防火墙的完整指导。
 
-打开防火墙之后，您可以使用[Microsoft 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)以验证连接云语音功能。
+打开防火墙后，可以使用 [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) 验证云语音功能的连接性。
 
 > [!IMPORTANT]
-> Microsoft Office 365 Ip 和 Url 会随时间改变。 作为服务管理规划的一部分，很重要，以确保操作过程是就地和一个组负责监视[Office 365 Url 和 IP 地址范围](https://aka.ms/o365ips)，并相应地进行更新。
+> Microsoft Office 365 IP 和 URL 将随时间变化。 在服务管理规划中，务必要确保具有可操作的流程，以及一个小组负责监控 [Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)以及相应地进行更新。
 
-#### <a name="local-internet-egress"></a>本地 internet 出口
+#### <a name="local-internet-egress"></a>本地 Internet 出口
 
-许多网络旨在使用集线器和分支拓扑。 在此拓扑中，internet 通信通常遍历 WAN 中心数据中心到之前它出现 （出口） 到 internet。 通常，这样做是为了集中网络安全设备的总成本降低的目标。
+许多网络设计为使用中心和辐射型拓扑。 在此拓扑中，Internet 流量通常先穿过 WAN 到达中心数据库，然后再向外传输（流出）到 Internet。 通常，这么做事为了集中网络安全设备，目的是降低总成本。
 
-通过 WAN 后拖拉流量增加延迟具有对质量和用户体验的负面影响。 由于 Microsoft 的大型全局网络上运行的 Microsoft 团队，是通常接近用户对等网络位置。 用户很可能将通过尽快 egressing 出本地 internet 点接近其位置和到我们语音优化网络获得更好的性能。 针对某些工作负载，DNS 请求用于发送通信到最近的前端服务器。 在这种情况下，很重要，使用本地出口点，则已配对本地 DNS 解析。
+经过 WAN 的回程流量会造成延迟增加，并对质量和用户体验产生负面影响。 由于 Microsoft Teams 在 Microsoft 的大型全局网络上运行，因此，用户附近通常会有网络对等位置。 用户通过从其所在位置附近的本地 Internet 点流出并尽快进入我们的语言优化网络，很可能会获得更佳的性能。 对于某些工作负荷，使用 DNS 请求向最近的前端服务器发送流量。 在这种情况下，务必要在使用本地出口点时，将其与本地 DNS 解析配对。
 
-优化与 Microsoft 的全局网络的网络路径将提高性能和最终用户提供最佳体验。 有关详细信息，请参阅博客文章[入门最佳的连接和 Office 365 中的性能](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694)。
+优化指向 Microsoft 的全局网络的网络路径将会提高性能，并最终将为用户提供最佳体验。 有关更多详细信息，请参阅博客文章 [Getting the best connectivity and performance in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694)（在 Office 365 中获取最佳连接性和性能）。
 
 #### <a name="vpn"></a>VPN
 
-Vpn 提供许多组织重要服务。 遗憾的是，他们通常不设计或配置为支持实时的媒体。 某些 Vpn 也可能不支持 UDP。 Vpn 还引入了额外的已加密的媒体流量在加密。 此外，连接到 Microsoft 团队服务可能不是有效由于字形驻留流量通过 VPN 设备。 此外，它们不一定旨在从容量角度以适应团队需要的预期的负载。
+VPN 为许多组织提供很有用的服务。 遗憾的是，它们通常未设计或配置为支持实时媒体。 一些 VPN 可能还不支持 UDP。 VPN 还会在已加密的媒体流量之上引入额外一层加密。 此外，由于通过 VPN 设备的发夹流量，与 Microsoft Teams 服务的连接可能无效。 而且，从容量角度来看，它们不一定设计为容纳 Teams 所需的预计负荷。
 
-建议您是提供绕过的团队流量 VPN 备用路径。 这通常是称为拆分隧道 VPN。 拆分隧道表示的 Office 365 的流量不遍历 VPN，但将直接转到 Office 365。 此更改将产生正面影响对质量，但还提供了减少从 VPN 设备和组织的网络负载的辅助好处。
+建议提供一个备用路径，以便 Teams 流量绕过 VPN。 这就是通常所谓的拆分通道 VPN。 拆分通道意味着流向 Office 365 的流量不穿过 VPN，而是直接传输到 Office 365。 此改变不仅有利于提高质量，而且还带来额外的好处，即降低 VPN 设备和组织网络的负荷。
 
-若要实现拆分隧道，请咨询您 VPN 供应商联系以获取配置详情。
+要实施拆分通道，请咨询 VPN 供应商了解配置详细信息。
 
-#### <a name="wi-fi"></a>Wi-fi
+#### <a name="wi-fi"></a>Wi-Fi
 
-VPN，如 Wi-fi 网络不一定设计或配置为支持实时媒体。 规划，和/或优化，Wi-fi 网络支持团队是质量部署的重要注意事项。
+与 VPN 一样，Wi-Fi 网络不一定设计或配置为支持实时媒体。 规划和/或优化 Wi-Fi 网络以支持 Teams 是实现高质量部署的一个重要考虑事项。
 
-有派上用场优化 Wi-fi 网络的几个因素。
+可从几个因素来优化 Wi-Fi 网络。
 
--   实现 QoS 或 Wi-fi 多媒体 (WMM)，以确保该媒体流量获取确定相应优先级通过 Wi-fi 网络。
+-   实施 QoS 或 Wi-Fi 多媒体 (WMM) 以确保通过 Wi-Fi 网络的媒体流量相应地得到优先处理。
 
--   规划和优化 W-保真区段和访问点位置。 为 2.4 GHz 范围可提供足够的体验，具体取决于接入点放置但访问点通常影响该范围内运行其他使用者设备。 5 GHz 范围更适合于实时媒体由于其密集范围，但需要更多访问点来获取足够的范围。 终结点还需要支持这一系列和配置，以便相应地利用这些分隔条。
+-   规划和优化 Wi-Fi 频带和接入点位置。 2.4 GHz 范围可以根据接入点位置提供合乎需要的体验，但接入点通常受该范围内运行的使用者其他设备的影响。 5 GHz 范围因其密度范围更适合实时媒体，但需要更多接入点以获取足够的覆盖范围。 此外，终结点还需要相应地支持该范围并配置为利用这些频带。
 
--   如果部署双带 Wi-fi 网络，请考虑实现带控制。 带控制是由 Wi-fi 供应商以影响双带客户端使用 5 Ghz 区域实现的技术。
+-   如果部署了双频 Wi-Fi 网络，请考虑实施频带切换。 频带切换技术由 Wi-Fi 供应商实施，以促使双频客户端使用 5 GHz 范围。
 
--   频道重叠 – 时的相同的通道访问点太近它们可能会导致信号重叠，意外竞争，导致用户的体验不佳。 确保彼此相邻的访问点位于通道比不重叠。
+-   频道重叠 - 同一频道的多个接入点太靠近时，它们可能会导致信号重叠并无意地竞争，从而导致用户体验很差。 请确保频道上相邻的接入点不会重叠。
 
-每个无线供应商具有自己部署其无线解决方案的建议。 我们建议您的特定指南咨询您的供应商。
+每个无线供应商都有自己的无线解决方案部署建议。 建议你咨询你的供应商了解具体指导。
 
 ### <a name="network-readiness-assessment"></a>网络就绪评估
 
-网络准备活动的一部分包括网络评估。 在您完成您的规划和配置后，评估可以为您提供的之前板载用户网络质量比较基准了解到 Microsoft 团队。 评估结果还将帮助您确定并为用户启用团队之前确定优先级修复措施。
+网络就绪活动中包括网络评估。 完成规划和配置后，在为用户上线 Microsoft Teams 之前，可以通过评估对你网络的质量有基本的了解。 此外，评估结果也可以帮助你在支持用户使用 Teams 之前确定并优先处理修正工作。
 
-应在同时有线上执行网络评估和所有启用的建筑物的 Wi-fi 网络云团队中的语音功能。
+应该对所有建筑物中要用于支持 Teams 中云语音功能的有线和 Wi-Fi 网络进行网络评估。
 
-可以使用的 Microsoft 合作伙伴、 第三方工具或[Microsoft 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)进行网络评估。 我们还提供进一步指导如何运行我们准备指南的一部分使用 Microsoft 网络评估工具评估[此处](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11)。
+可以通过 Microsoft 合作伙伴、第三方工具或 [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) 进行网络评估。 我们还提供进一步指导如何运行我们准备指南的一部分使用 Microsoft 网络评估工具评估[此处](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11)。
 
 ## <a name="plan-for-endpoint-quality"></a>规划终结点质量
 
-下图从中可以看出，如终结点是中为用户提供高质量体验重要构建基块。
+如下图所示，终结点是为用户提供高质量体验的一个重要构建基块。
 
-![图示，说明质量和服务管理与全部三个组件的重叠的三个组件。具有终结点上焦点。](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "图示，说明质量和服务管理与全部三个组件的重叠的三个组件。具有终结点上焦点。")
+![此示意图说明了质量的三个组成部分以及服务管理如何贯穿于这三个组成部分。焦点在终结点上。](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "此示意图说明了质量的三个组成部分以及服务管理如何贯穿于这三个组成部分。焦点在终结点上。")
 
-Microsoft 团队终结点可以在多个设备，包括 Pc、 Mac、 平板电脑和移动设备上运行。 体验的一部分而不是只包括该设备，但用户如何连接到设备 — 例如，通过使用设备的内置的麦克风扬声器、 耳机或优化的耳麦。 使用优化的耳麦可以丰富的整体用户体验。
+Microsoft Teams 终结点可以在多种设备（包括 PC、Mac、平板电脑和移动设备）上运行。 不仅设备本身影响体验，而且用户连接设备的方式（例如，使用设备的内置麦克风/扬声器、耳塞式耳机或优化耳机）也影响体验。 使用优化耳机可以丰富整体用户体验。
 
-终结点规划以下指南将帮助您确保您的组织具有与团队体验成功入职培训。
+以下有关终结点规划的指导将帮助你确保你的组织成功上线 Teams。
 
 ### <a name="endpoint-capability"></a>终结点功能
 
-规划的第一部分是确保所有 Pc 和您的组织中的其他设备可以运行 Microsoft 团队。 此步骤需要而不仅仅看硬件要求，但也了解 PC 在后台执行什么操作。 许多组织运行其他软件，包括入侵检测系统和反恶意软件，这可能会影响设备的基本的性能。
+规划的第一部分是确保组织中的所有 PC 和其他设备都可以运行 Microsoft Teams。 这不仅要查看硬件要求，而且还要了解 PC 在后台执行的其他操作。 许多组织会运行其他软件，包括入侵检测系统和反恶意软件，这些软件会影响设备的基础性能。
 
-Microsoft 团队具有客户端适用于网站，桌面 （Windows 和 Mac） 和移动设备 （Android、 iOS 和 Windows Mobile）。 有关每个平台的软件要求的信息，请参阅[获取 Microsoft 团队的客户端](get-clients.md)。
+Microsoft Teams 的客户端适用于 Web、桌面（Windows 和 Mac）和移动（Android、iOS 和 Windows Mobile）。 有关每个平台的软件要求信息，请参阅[获取 Microsoft Teams 客户端](get-clients.md)。
 
 ### <a name="endpoint-firewalls"></a>终结点防火墙
 
-客户端防火墙可以对用户体验产生重大影响。 客户端防火墙可能会影响除了阻止的建立呼叫的呼叫质量。 基于[Office 365 Url 和 IP 地址范围](https://aka.ms/o365ips)中的信息客户端防火墙上配置了适当的排除项。 您的第三方供应商将对如何创建排除的特定指南。
+客户端防火墙会对用户体验产生很大影响。 客户端防火墙会影响通话质量，以及阻止建立通话。 应根据 [Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)中的信息在客户端防火墙上配置适当的排除项。 你的第三方供应商会提供有关如何创建排除项的具体指导。
 
 > [!NOTE]
-> Microsoft 团队将具有适当的防火墙配置自动更新 Windows 防火墙。
+> Microsoft Teams 会自动为 Windows 防火墙更新适当的防火墙配置。
 
-### <a name="wi-fi-recommendations-for-endpoints"></a>终结点的 Wi-fi 建议
+### <a name="wi-fi-recommendations-for-endpoints"></a>针对终结点的 Wi-Fi 建议
 
-规划和部署优化的 Wi-fi 网络支持实时工作负荷中的 Microsoft 团队需要大量的规划。 以下各节提供了一些可帮助您规划终结点时应避免一些常见错误的一般指导。
+规划和部署优化的 Wi-Fi 网络以支持 Microsoft Teams 中的实时工作负荷需要进行重要的规划。 以下各节提供了一些常规指导，可以帮助你在规划端点时避免一些常见困难。
 
-#### <a name="wi-fi-drivers"></a>Wi-fi 驱动程序
+#### <a name="wi-fi-drivers"></a>Wi-Fi 驱动程序
 
-某些 Wi-fi 驱动程序可能会有问题。 例如，驱动程序可能必须访问点，导致质量欠佳的呼叫质量之间积极漫游行为。 这不是常见的事物、 但务必确保已更新和部署之前测试 PC 上的 Wi-fi 驱动程序。
+一些 Wi-Fi 驱动程序可能存在问题。 例如，某个驱动程序可能存在在接入点之间进行非常积极的漫游行为，从而导致通话质量较差。 这并不常见，但务必要确保在部署之前更新并测试 PC 上的 Wi-Fi 驱动程序。
 
-#### <a name="wi-fi-bands"></a>Wi-fi 带区
+#### <a name="wi-fi-bands"></a>Wi-Fi 频带
 
-有两个主要类型的用于 Wi-fi 设备今天、 2.4 GHz 和 5.0 GHz 的分隔条。 如果您的组织提供了两个带区，应配置首选 5.0 GHz 带您驱动程序设置。 此带是得多方面吞吐量高密度和小于受干扰 2.4 GHz 带中所示。 此建议假定您已正确优化 5.0 GHz 网络带。
+当前，Wi-Fi 设备中主要使用两种类型的频带：2.4 GHz 和 5.0 GHz。 如果你的组织提供这两种频带，你应将驱动程序设置配置为首选 5.0 GHz 频带。 在吞吐量方面，此频带的密度远高于 2.4 GHz 频带，且受干扰影响低于 2.4 GHz 频带。 此建议的前提是你已正确优化 5.0 GHz 网络频带。
 
-#### <a name="wi-fi-radio-type"></a>Wi-fi 单选类型
+#### <a name="wi-fi-radio-type"></a>Wi-Fi 无线电类型
 
-规划支持较新 Wi-fi 单选类型的设备。 如果您利用 802.11ac，您可以获取很好的 Wi-fi 性能或更高版本上设置的设备。
+规划支持较新 Wi-Fi 无线电类型的设备 如果你在你预配的设备上利用 802.11ac 或更高版本，则会获得非常好的 Wi-Fi 性能。
 
-#### <a name="wireless-avoidance"></a>无线避免
+#### <a name="wireless-avoidance"></a>避免使用无线
 
-某些组织希望完全避免 Wi-fi。 有时本指南建议通过提供给用户直接连接到有线网络。 在某些情况下，网络绑定顺序可能具有首选的无线连接，并且可以继续使用该连接，即使 PC 连接到有线连接。 若要避免此意外的行为，请配置绑定为了避免这种情况。
+一些组织倾向于完全避免使用 Wi-Fi。 有时，此指导以建议用户直接连接有线网络来体现。 在某些情况下，网络绑定顺序中无线连接可能处于优先使用位置，即使 PC 已连接到有线连接，仍会继续使用该连接。 为了避免出现此意外行为，应配置绑定顺序以避免出现此情况。
 
 #### <a name="80211-power-save-protocol"></a>802.11 节能协议
 
-如果您的组织使用的无线访问点或不支持的 802.11 强大功能的路由器保存协议，您可能会遇到丢弃的呼叫或质量欠佳的呼叫质量在 Windows 设备上运行的 Microsoft 团队中。 如果不能升级您的无线访问点或传送器，您应更新 Windows 电源计划运行电池供电的设备上的设置。 在下列[支持文章](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you)提供了进一步的详细信息和配置指导。
+如果你的组织使用不支持 802.11 节能协议的无线接入点或路由器，则你在使用 Windows 设备上运行的 Microsoft Teams 时可能会遇到通话中断或通话质量较差的情况。 如果无法升级你的无线接入点或路由器，则应在使用电池的设备上更新 Windows 电源计划设置。 以下[支持文章](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you)中提供了进一步的详细信息和配置指导。
 
-### <a name="devices-for-teams"></a>团队的设备
+### <a name="devices-for-teams"></a>支持 Teams 的设备
 
-为会议或作为电话系统，则可以使用 Microsoft 团队。 时使用这些功能，用于团队接口设备中的用户体验起着重要作用。
+Microsoft Teams 可以用于会议或用作电话系统。 在使用这些功能时，用于 Teams 的接口设备在用户体验中起到重要作用。
 
-使用内置的 PC 扬声器和麦克风听起来到已配置的用户可接受。 通常，这些设备不适合干扰取消，但任何类型的环境的噪音上可能具有下游影响其他人在调用。 利用设备优化的这些方案将有助于确保高质量体验。
+使用内置 PC 扬声器和麦克风对具有该配置的用户而言可能会正常接受。 但通常情况下，这些设备没有针对噪声消除进行优化，因此任何类型的环境噪声都可能会对通话中的其他人造成下游影响。 利用针对这些情况优化的设备有助于确保获得高质量体验。
 
-每个设备需要满足您的用户。 您需要定制的不同角色如耳机设备和您的组织中使用案例。 个人到设备映射练习应完成规划过程的一部分。
+每个设备都需要满足用户的需求。 你需要为你组织中的不同角色和用例定制设备（例如耳机）。 应在规划流程中完成角色-设备映射操作。
 
-选择设备后，请将它们包括在最终验证试点测试计划。 利用调查在试验阶段，收集反馈，以确保您的设备策略是最佳。
+选择了设备后，将其包含在试点测试计划中以便进行最终验证。 应在试点期间利用调查来收集反馈，以确保你的设备策略是最佳的。
 
-此时，我们建议使用已通过 Skype 业务认证计划认证的音频设备。 要查找此计划认证的设备，请参阅[USB 设备认证可用于 for Business 的 Skype](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)解决方案目录。
+目前，建议使用通过 Skype for Business 认证计划认证的音频设备。 要查找此计划认证的设备，请参阅[经过认证适用于 Skype for Business 的 USB 设备](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)解决方案目录。
 
-有关详细信息，请参阅[客户端和设备-准备研讨会 （英文）](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13)
+有关更多详细信息，请参阅 [Client and Devices - Readiness Workshop](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13)（客户端和设备 - 就绪研讨会）
 
 ## <a name="client-updates"></a>客户端更新
 
-一个 Microsoft 团队的主要优点是，客户端保持最新自动。 PC 和 Mac 客户端是通过使用背景过程，为新的生成检查并下载新客户端应用程序空闲时进行了更新。 客户端下载大小为大约 100 MB。
+Microsoft Teams 的主要优势之一是客户端会自动保持最新。 PC 和 Mac 上的客户端是通过使用一个后台进程进行更新，该进程在该应用处于空闲状态时检查是否有新的内部版本并下载新客户端。 客户端下载大小大概为 100 MB。
 
-组织不具有任何控件或访问策略设置来管理更新过程。 若要减轻可能较新版本中发现的问题的风险，终结点上保留上次已知的良好版本。 如果没有新生成问题，Microsoft 团队服务可以自动恢复到以前的版本的终结点。
+组织无法控制或访问策略设置来管理更新过程。 为了缓解可能在更高内部版本中发现的问题的风险，会在终结点上保留上一个已知完好的版本。 如果新的内部版本存在问题，Microsoft Teams 服务可以自动将终结点恢复到上一个版本。
 
-## <a name="next-steps-and-references"></a>下一步步骤和参考
+## <a name="next-steps-and-references"></a>后续步骤和参考
 
-此表包含指向相关内容链接的规划活动的摘要。
+下表概述了规划活动，并提供相关内容链接。
 
-| 区域 | 详细信息 | 引用 |
+| 区域 | 详细信息 | 参考 |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 规划服务管理 | 执行操作的角色映射练习 <br/> 从无论如何团队签署 <br/> 角色准备 | [操作指南](1-drive-value-operate-my-service.md) |
-| | 提名质量 Champion(s) <br/> 质量推广人准备| [了解 CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [质量体验审阅指南](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) |
-| | 安装质量体验查看模板 <br/> 构建文件上载 | [QERLite 模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true) <br/> [上载构建信息](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
-| 规划网络质量 | 运行网络计划程序 | [网络计划程序](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
-| | 实现 QoS | [在 Microsoft 团队中的服务质量](qos-in-teams.md) |
-| | 绕过代理服务器 | [代理指南](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
-| | 实现拆分隧道 VPN | [VPN 拆分隧道指南](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
-| | 优化实时媒体 Wi-fi 网络  | 查阅第三方供应商 |
-| | 实现本地 internet 出口 | [本地 Internet 出口](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
-| | 实现网络连接 <br/> 验证网络连接 | [Office 365 Url 和 IP 地址](https://aka.ms/o365ips) |
-| | | [网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885) |
-| | 执行网络评估 | [网络准备情况评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
-| 规划终结点质量 | 更新终结点防火墙 | [Office 365 Url 和 IP 地址](https://aka.ms/o365ips) |
+| 规划服务管理 | 进行可操作的角色映射操作 <br/> 负责团队的签字认可 <br/> 角色就绪 | [《操作指南》](1-drive-value-operate-my-service.md) |
+| | 指定质量支持者 <br/> 质量支持者就绪| [了解 CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [《体验质量评审指南》](https://aka.ms/qerguide) |
+| | 安装质量体验评审模板 <br/> 上载构建文件 | [QERLite 模板](https://aka.ms/qertemplates) <br/> [上载构建信息](turning-on-and-using-call-quality-dashboard.md)|
+| 规划网络质量 | 运行 Network Planner | [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
+| | 实施 QoS | [Microsoft Teams 中的服务质量](qos-in-teams.md) |
+| | 绕过代理服务器 | [代理指导](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
+| | 实施拆分通道 VPN | [VPN 拆分通道指导](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
+| | 为实时媒体优化 Wi-Fi 网络  | 咨询第三方供应商 |
+| | 实施本地 Internet 出口 | [本地 Internet 出口](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
+| | 实施网络连接 <br/> 验证网络连接 | [Office 365 URL 和 IP 地址](https://aka.ms/o365ips) |
+| | | [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) |
+| | 执行网络评估 | [网络就绪评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
+| 规划终结点质量 | 更新终结点防火墙 | [Office 365 URL 和 IP 地址](https://aka.ms/o365ips) |
 | | 验证软件要求 | [获取 Microsoft Teams 的客户端](get-clients.md) |
-| | 实现终结点 Wi-fi 建议 | 查阅第三方供应商 |
-| | 进行个人到映射的设备 <br/> 设置设备和试用它们 | [客户端和设备-准备研讨会 （英文）](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [设备目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
+| | 实施终结点 Wi-Fi 建议 | 咨询第三方供应商 |
+| | 进行角色-设备映射 <br/> 预配设备并对其进行试点 | [Client and Devices - Readiness Workshop（客户端和设备 - 就绪研讨会）](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [设备目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
 
 规划完后，继续执行下一步：[准备环境团队](https://aka.ms/SkypeToTeams-TechnicalReadiness)。

@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12a58e28fce68960fab2e2a91cdc4f2c3d6524ca
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 477a68996e50c916923948fecbb1dc1e978450b9
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246503"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780908"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -55,7 +55,7 @@ ms.locfileid: "20246503"
 
 ## <a name="availability-of-calling-plans"></a>通话套餐的可用情况
 
-规划团队中调用计划的实现之前，请确认，调用计划服务都在您所在的区域中通过查看[国家和地区音频会议和调用计划的可用性](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。
+规划团队中调用计划的实现之前，请确认，调用计划服务都在您所在的区域中通过查看[国家和地区音频会议和调用计划的可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
 > [!IMPORTANT]
 > 由于法律约束，调用计划可供跨国组织的 Office 365 订阅合同必须采用国家 / 地区内调用计划服务不可用，或可调用计划服务购买。
