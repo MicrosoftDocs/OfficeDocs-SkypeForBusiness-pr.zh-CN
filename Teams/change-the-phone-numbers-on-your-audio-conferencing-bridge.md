@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 当您购买音频会议许可证时，Microsoft 承载您的组织的音频会议桥。 音频会议桥出从不同位置的电话拨入电话号码，即使这样会议组织者和参与者可以使用其加入 Skype 业务或 Microsoft 团队的会议使用电话。
-ms.openlocfilehash: 178bafb7327fa4734a5f743c4a2eebdab07fc0d9
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 69783cdfeaa1787a2da432491ff15f2a3a147d68
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783211"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848590"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改音频会议网桥的电话号码
 
@@ -153,7 +153,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 4. 您还需要安装 Skype 业务 online，使您能够创建远程 Windows PowerShell 会话连接到 Skype 业务 online Windows PowerShell 模块。 本模块只能在 64 位计算机上支持，并可以从 Microsoft 下载中心上[的 Skype 业务 online Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。
 出现提示时，请重启计算机。
 
-如果需要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)。
+如果需要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接所有 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)。
 
 ### <a name="to-start-windows-powershell"></a>启动 Windows PowerShell
 
@@ -174,7 +174,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
     Import-PSSession $session
   ```
 
-如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx)。
 
 ### <a name="save-time-and-automate"></a>节省时间并自动给出
 

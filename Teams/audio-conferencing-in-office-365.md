@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 7e76f6de9ca0f3d49e3a6dc7984a3a26804131c6
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 2979977c06e34314f90e28723a9d688053761c93
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784027"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848606"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 中的音频会议
 Office 365 中的音频会议允许用户从其电话加入会议呼叫。 音频会议允许达 250 位电话与会者。
@@ -42,7 +42,7 @@ Office 365 中的音频会议允许用户从其电话加入会议呼叫。 音�
 与会者加入会议后，他们还可以发起电话拨出并邀请其他呼叫者到企业或 Microsoft 团队会议 Skype。 请参阅[从，使其他人可以加入该团队会议拨出](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)或[从业务会议，使其他人可以加入它 Skype 拨出](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)。
 
 ## <a name="what-does-it-cost"></a>它成本什么？
-如需了解有关定价信息，请参阅[音频会议定价](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)。
+如需了解有关定价信息，请参阅[音频会议定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
 
 ## <a name="where-is-it-available"></a>其中是否可用？
 与音频会议，您的用户可以使用收费和免费电话号码拨入会议。 他们正在启用音频会议时，会自动为对组织共享音频会议号码分配收费 （服务）。 可以将其他城市的专用收费和免费号码分配给你的组织。
@@ -76,16 +76,16 @@ Office 365 中的音频会议允许用户从其电话加入会议呼叫。 音�
 > [!CAUTION]
 > 由于委内瑞拉、 印度尼西亚和阿拉伯联合酋长国 （阿拉伯联合酋长国） 中的收费电话号码的有限的状态，从这些国家/地区内的组织都不会有自动分配给它们的音频会议收费电话号码。 将根据可用免费电话号码的存量，为这些地区的用户提供免费电话号码。 
   
-若要查看这些国家/地区内已自动分配给组织的电话号码的列表，请参阅[国家和地区音频会议和调用计划的可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+若要查看支持给组织自动分配电话号码的国家/地区列表，请参阅 [音频会议和通话套餐所支持的国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   
 ## <a name="how-do-you-get-dedicated-phone-numbers"></a>如何获取专用的电话号码？
 服务号码，您可以获取并将分配给您的组织都专用的音频会议电话号码。 您可以获取您的会议桥三种方式之一专用的收费和免费电话号码：
 
 - **Skype 用于业务管理中心。** 某些国家/地区，可获得您的业务管理中心使用 Skype 的会议桥的号码。 请参阅[Getting 服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。
     
-- **端口您现有的号码。** 您可以端口或将现有号码从您的当前服务提供商或电话运营商转移到 Office 365。 请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)或[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)的详细信息，可帮助您执行此操作。  
+- **转网现有的号码。** 您可以将当前服务提供商或电话运营商提供的现有号码转网或转移到 Office 365。 有关详细信息，请参阅[将电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md) 或[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，从而帮助您执行此操作。  
   
-- **使用新的号码的请求窗体。** 有时 （根据您的国家/地区） 您将无法获取您的业务管理中心中，使用 Skype 的新电话号码，或需要特定的电话号码或区域代码。 如果是这样，你需要下载表单并将其发送给我们。 有关详细信息，请参阅[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+- **使用新号码的请求表单。** 有时 （根据您的国家/地区） 您将无法获取您的业务管理中心中，使用 Skype 的新电话号码，或需要特定的电话号码或区域代码。 如果是这样，你需要下载表单并将其发送给我们。 有关详细信息，请参阅 [管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 。
 
 ## <a name="how-do-you-set-it-up"></a>如何设置其？
 您已决定为您的用户设置音频会议之后，请参阅的步骤为此，您可以按照[设置业务和 Microsoft 团队的 Skype 的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)。
@@ -96,4 +96,4 @@ Office 365 中的音频会议允许用户从其电话加入会议呼叫。 音�
   
 [Microsoft 团队中的音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md) 
 
-[Skype 业务 online 中的音频会议的电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
+[Skype for Business Online 中的音频会议电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)

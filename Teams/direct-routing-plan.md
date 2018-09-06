@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 阅读本主题可了解如何 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。
-ms.openlocfilehash: aa816f0e7da1745e3c8ced9f174b2f60eb2e38ce
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 1749d5b26be6e3cc4c55bb9a90e47e637fc67230
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835004"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848614"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -37,9 +37,9 @@ Microsoft 还提供了一云语音解决方案，如调用规划。  但是，�
 - 您的组织需要连接至第三方模拟设备、 呼叫中心，等等。 
 - 贵组织拥有现有合同与 PSTN 运营商。
 
-直接路由还支持 Microsoft 调用规划具有附加许可证的用户。 有关详细信息，请参阅[Office 365 中调用计划](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)和[授权和其他要求](#licensing-and-other-requirements)。 
+直接路由还支持 Microsoft 调用规划具有附加许可证的用户。 有关详细信息，请参阅[Office 365 中调用计划](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)和[授权和其他要求](#licensing-and-other-requirements)。 
 
-使用直接路由时，当用户参与计划内会议，由 Microsoft 音频会议服务，这需要适当许可提供的电话拨入式号码。  拨号时, Microsoft 音频会议服务将放在呼叫使用联机呼叫功能，这需要适当许可。 （请注意，拨出不会路由通过直接路由）。有关详细信息，请参阅[与团队的联机会议](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions)。 
+使用直接路由时，当用户参与计划内会议，由 Microsoft 音频会议服务，这需要适当许可提供的电话拨入式号码。  拨号时, Microsoft 音频会议服务将放在呼叫使用联机呼叫功能，这需要适当许可。 （请注意，拨出不会路由通过直接路由）。有关详细信息，请参阅[与团队的联机会议](https://products.office.com/microsoft-teams/online-meeting-solutions)。 
  
 规划部署的直接路由是关键成功实施。 本文介绍基础结构和许可要求，并提供有关 SBC 连接的信息： 
 
@@ -62,15 +62,15 @@ Microsoft 还提供了一云语音解决方案，如调用规划。  但是，�
 |电话中继连接到的 SBC|一个或多个电话中继连接到 SBC。 另一端 SBC 连接到 Microsoft 电话系统通过直接路由。 SBC 还可以连接到第三方电话实体，如 Pbx，模拟电话适配器，依此类推。 连接到 SBC 任何 PSTN 连接选项起作用。 (注意： SBC 到 PSTN 中继的配置，请参阅 SBC 供应商或中继提供商。)|
 |Office 365 租户|用于承载您的 Microsoft 团队的用户的配置和与 SBC 连接 Office 365 租户。|
 |用户注册器|用户必须驻留在 Office 365 中。<br/>如果您的公司具有内部部署 Skype 混合连接到 Office 365 的业务或 Lync 环境，不能启用团队中的语音功能用户驻留在本地。<br/><br/>要检查用户的注册器，请使用以下 Skype 业务 Online PowerShell cmdlet:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>应显示 cmdlet 的输出：<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|域|添加到 Office 365 租户的一个或多个域。<br/><br/>**注意：** 不能使用默认域，*。 onmicrosoft.com，为您的租户自动创建的。<br/><br/>若要查看域，可用于以下 Skype 业务 Online PowerShell cmdlet:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>有关域和 Office 365 租户的详细信息，请参阅[域常见问题](https://support.office.com/en-us/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
+|域|添加到 Office 365 租户的一个或多个域。<br/><br/>**注意：** 不能使用默认域，*。 onmicrosoft.com，为您的租户自动创建的。<br/><br/>若要查看域，可用于以下 Skype 业务 Online PowerShell cmdlet:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>有关域和 Office 365 租户的详细信息，请参阅[域常见问题](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
 |公共 IP 地址的 SBC|可用于连接到 SBC 公共 IP 地址。 基于类型的 SBC，SBC 可以使用 nat。|
 |SBC 的完全限定的域名 (FQDN)|SBC，其中 FQDN 的域部分是其中一个 Office 365 租户中注册的域的 FQDN。 有关详细信息，请参阅[SBC 域名](#sbc-domain-names)。|
 |SBC 的公共 DNS 条目 |映射到公共 IP 地址的 SBC FQDN 公共 DNS 条目。 |
 |SBC 的受信任的公共证书 |SBC 用于直接路由中的所有通信的证书。 有关详细信息，请参阅[SBC 的受信任的公共证书](#public-trusted-certificate-for-the-sbc)。|
 |直接路由的连接点 |直接路由的连接点是具有以下三个 Fqdn:<br/><br/>`sip.pstnhub.microsoft.com`– 必须首先尝试全局 FQDN。<br/>`sip2.pstnhub.microsoft.com`– 辅助 FQDN，地理位置映射到第二个优先级区域。<br/>`sip3.pstnhub.microsoft.com`– 第三级 FQDN，地理位置映射到第三个优先级区域。<br/><br/>有关配置要求的信息，请参阅[SIP 信号： Fqdn 和防火墙端口](#sip-signaling-fqdns-and-firewall-ports)。|
-|防火墙的 IP 地址和直接路由的媒体端口 |SBC 对下列服务在云中进行通信：<br/><br/>SIP 代理，处理的信号<br/>媒体处理器，处理媒体-除媒体绕过位于<br/><br/>这两个服务具有单独的 IP 地址中 Microsoft 云，本文档后面所述。<br/><br/>有关详细信息，请参阅[Office 365 Url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)中的[Microsoft 团队部分](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)。 |
+|防火墙的 IP 地址和直接路由的媒体端口 |SBC 对下列服务在云中进行通信：<br/><br/>SIP 代理，处理的信号<br/>媒体处理器，处理媒体-除媒体绕过位于<br/><br/>这两个服务具有单独的 IP 地址中 Microsoft 云，本文档后面所述。<br/><br/>有关详细信息，请参阅[Office 365 Url 和 IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)中的[Microsoft 团队部分](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)。 |
 |媒体传输配置文件|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-防火墙的 IP 地址和端口的 Microsoft 团队媒体 |有关详细信息，请参阅[Office 365 Url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)。 |
+防火墙的 IP 地址和端口的 Microsoft 团队媒体 |有关详细信息，请参阅[Office 365 Url 和 IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)。 |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>许可和其他要求 
@@ -95,9 +95,9 @@ Microsoft 还提供了一云语音解决方案，如调用规划。  但是，�
 
 混合调用规划和直接路由连接的同一个用户是可选的但可能有用，例如，当用户被分配了 Microsoft 调用规划，但希望将某些通过 SBC 呼叫路由。 是到第三方 Pbx 的呼叫的最常见方案之一。  与第三方 Pbx，所有的呼叫，除连接到该 Pbx 电话的呼叫进行路由通过调用规划 Microsoft;但与连接到第三方 Pbx 电话的呼叫应转至 SBC，因此保持在企业网络内，而不适用于 PSTN。 
 
-有关电话系统授权的详细信息，请参阅[充分利用与 Office 365 的 Office](https://products.office.com/en-us/compare-all-microsoft-office-products?tab=2)和[Office 365 计划选项](https://technet.microsoft.com/en-us/library/office-365-plan-options.aspx)。 
+有关电话系统授权的详细信息，请参阅[充分利用与 Office 365 的 Office](https://products.office.com/compare-all-microsoft-office-products?tab=2)和[Office 365 计划选项](https://technet.microsoft.com/library/office-365-plan-options.aspx)。 
 
-有关电话系统授权的详细信息，请参阅[业务和 Microsoft 团队授权加载项的 Skype](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。 
+有关电话系统授权的详细信息，请参阅[业务和 Microsoft 团队授权加载项的 Skype](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。 
 
 ## <a name="sbc-domain-names"></a>SBC 域名
 

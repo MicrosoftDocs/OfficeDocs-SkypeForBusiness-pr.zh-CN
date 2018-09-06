@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 下面是一些我们获得我们想要使用音频会议的客户的主要问题。
-ms.openlocfilehash: 2ab4a7dc64cd08f2f7421f1ba6672892d879abd0
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 3b9c6e11f0f086191a9aae72e56edb1af31027c3
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784883"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848582"
 ---
 # <a name="audio-conferencing-common-questions"></a>音频会议常见问题
 
@@ -85,11 +85,11 @@ ms.locfileid: "23784883"
 
 音频会议允许达 250 位电话与会者。
   
-若要了解会议限制，请参阅 [Skype for Business Online 限制](https://technet.microsoft.com/en-us/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits)。
+若要了解会议限制，请参阅 [Skype for Business Online 限制](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits)。
   
 ## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>为什么未用户开始接收电子邮件使用他们的音频会议信息？
 
-我们添加允许您[管理](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)，以发送并更新电子邮件中的音频会议信息和 PIN 的新功能。 更多地了解它，包括如何禁用它，请参阅[启用或禁用发送电子邮件中的 Microsoft 团队的音频会议设置更改时](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)，或者[启用或禁用发送电子邮件，音频会议设置 Skype for Business 中发生更改时联机](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change)。
+我们添加允许您[管理](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)，以发送并更新电子邮件中的音频会议信息和 PIN 的新功能。 更多地了解它，包括如何禁用它，请参阅[启用或禁用发送电子邮件中的 Microsoft 团队的音频会议设置更改时](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)，或者[启用或禁用发送电子邮件，音频会议设置 Skype for Business 中发生更改时联机](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change)。
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server-2015"></a>音频会议可供业务服务器 2015年的 Skype 的本地部署的一部分的用户？
 
@@ -105,14 +105,14 @@ Skype 的业务和 Microsoft 团队的用户将随机分配会议 Id 和无法�
   
 ## <a name="can-a-user-get-operator-assistance-during-a-meeting"></a>会议期间，用户可以获得操作员帮助吗？
 
-不可以，会议期间，用户不能按 *0 获得任何操作员帮助或支持。 如果不存在与音频会议的问题，可以与组织的管理员联系[Microsoft 支持的 Office 365](https://support.office.com/en-us/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+不可以，会议期间，用户不能按 *0 获得任何操作员帮助或支持。 如果不存在与音频会议的问题，可以与组织的管理员联系[Microsoft 支持的 Office 365](https://support.office.com/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
   
 ## <a name="how-does-a-user-access-or-change-their-conference-id"></a>用户如何访问或更改他们的会议 ID？
 
 为业务或 Microsoft 团队用户 Skype 可以查找分配给它们按计划 Outlook 和在 web 上的 Outlook 中的会议的会议 ID。 此外，用户可以之后他们设置将发送给他们的电子邮件中找到的会议 ID。
   
 > [!NOTE]
-> [!注释] 用户无法重置他们的会议 ID。 仅可以由您[管理](https://support.office.com/en-us/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504)，组织重置的会议 ID。 
+> [!注释] 用户无法重置他们的会议 ID。 仅可以由您[管理](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504)，组织重置的会议 ID。 
   
 我们正在将允许用户访问和重置无需从组织的管理员的帮助的会议 ID 的解决方案
   

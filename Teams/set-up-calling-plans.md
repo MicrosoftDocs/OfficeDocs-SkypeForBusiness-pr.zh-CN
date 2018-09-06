@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 12ebb45fdeb145f72e2fe4e501cc144216c155e1
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 0652428cf33db0af1043fc672f1962dca1c4f9c6
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783283"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848630"
 ---
 # <a name="set-up-calling-plans"></a>设置通话套餐
 适用于业务用户的其他 Skype 调用是免费的但如果您希望用户能够调用您的公司外部的电话得到国内调用规划或国际呼叫规划 Office 365 中。 很容易地设置此功能您的业务。 
@@ -120,14 +120,14 @@ ms.locfileid: "23783283"
 
 如果了解 Windows PowerShell，可以使用以下 cmdlet 为用户自动分配电话号码。 
   
-- [Get-CsOnlineTelephoneNumber](https://technet.microsoft.com/en-us/library/mt243818.aspx)：从企业语音目录检索电话号码。
+- [Get-CsOnlineTelephoneNumber](https://technet.microsoft.com/library/mt243818.aspx)：从企业语音目录检索电话号码。
     
-- [Set-CsOnlineVoiceUser](https://technet.microsoft.com/en-us/library/mt243817.aspx)： 设置电话号码。
+- [Set-CsOnlineVoiceUser](https://technet.microsoft.com/library/mt243817.aspx)： 设置电话号码。
     
-要了解更多信息，请参阅[快速参考：使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://technet.microsoft.com/en-us/library/dn362776%28v=ocs.15%29.aspx)。
+要了解更多信息，请参阅[快速参考：使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://technet.microsoft.com/library/dn362776%28v=ocs.15%29.aspx)。
   
    > [!NOTE]
-   > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+   > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 
 ## <a name="related-topics"></a>相关主题
