@@ -9,6 +9,7 @@ ms.assetid: 4057f7de-09cd-400e-a583-ca1c3caa7613
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于日本业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 5b8aa9b9260dd722de8d475a2c2d880fae78a3b5
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: fdf531429d56079921519aabd04b5077ec45668b
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785683"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23852466"
 ---
 # <a name="availability-in-japan"></a>日本的可用性
 

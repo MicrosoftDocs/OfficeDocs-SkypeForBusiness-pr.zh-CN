@@ -1,5 +1,5 @@
 ---
-title: 阻止用户报告
+title: 阻止的用户报告
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 0ac844b2-1b08-4e5a-addf-03cde7af7a40
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,15 +18,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: '此报告中的，以及其他 Skype 业务报告提供有关活动，包括在整个组织的 PSTN 用法详细信息。 '
-search.appverid: MET150
-ms.openlocfilehash: 0b6bc07afb44b4bb2ba7e2b31f51443c93645655
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 508d41de4a8b67e1a266bead6f91445acd041a7e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933044"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860614"
 ---
-# <a name="users-blocked-report"></a>阻止用户报告
+# <a name="users-blocked-report"></a>阻止的用户报告
 
 业务**报告**仪表板的新 Skype 显示跨组织中的业务产品的 Skype 活动概述。 使您能够钻取到单个产品级别报表，以使您更精细了解每种产品中的活动。 例如，可以使用**适用于业务用户被阻止的 Skype**报告以查看您的组织中被阻止发出 PSTN 呼叫的用户。 此报告中的，以及其他 Skype 业务报告提供有关活动，包括在整个组织的 PSTN 用法详细信息。
   
@@ -50,17 +50,17 @@ ms.locfileid: "19933044"
 
 下表显示了阻止发起呼叫的用户的所有的细分。 此时将显示所有用户拥有电话系统或分配给它们的音频会议。 你可以添加/删除表格的列。
 ***
-![1 号](../images/sfbcallout1.png)
+![第一](../images/sfbcallout1.png)
 *   **用户 ID**是用户的登录。
 *   **电话号码**是分配给用户的号码。 
 *   **阻止操作时间**是阻止用户发起呼叫的时间 (UTC)。
 *   **阻止操作**是操作的已阻止用户所需的类型。
 *   **阻止操作原因**是用户已阻止发出呼叫的原因。
 ***
-![2 号](../images/sfbcallout2.png)<br/>
+![第二](../images/sfbcallout2.png)<br/>
 如果你希望创建将一列或多列中的所有数据进行分组的视图，请单击某个列并将其拖动到" **若要按特定列进行分组，请将列标题拖至此处**"。
 ***
-![3 号](../images/sfbcallout3.png)<br/>
+![第三](../images/sfbcallout3.png)<br/>
 你还可以单击或点击" **导出到 Excel**"按钮，将报告数据导出到 Excel .csv 文件中。
 
 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果您有超过 2000年用户，您可以排序和筛选报告本身中的表中。 如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。

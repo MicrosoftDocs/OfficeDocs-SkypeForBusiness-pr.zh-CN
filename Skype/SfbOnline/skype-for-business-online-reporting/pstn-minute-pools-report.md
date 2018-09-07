@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 51c2f7ac-2b72-488d-b1ea-f00e1e88ee7a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 新 Skype 业务管理中心报告区域显示您呼叫和音频会议活动在组织中。 使您钻取报告为您提供更精细了解每个用户的活动。 例如，可以使用业务 PSTN minute 池报表 Skype 以查看在组织内当前月份消耗的分钟数。
-search.appverid: MET150
-ms.openlocfilehash: a12597faf9f5669809cbf97a2ea8a054c65a8a0c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 41f1e0c2dcc7504341bb6d9076c7a99b63ed50a9
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779665"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865106"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN 分钟池报告
 
@@ -59,7 +59,7 @@ ms.locfileid: "23779665"
 ![对于业务 PSTN 分钟的 Skype 池报告](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
 ***
-![1 号](../images/sfbcallout1.png)<br/>下表显示了按许可证 （功能） 和使用率位置 minute 池的细分。 
+![第一](../images/sfbcallout1.png)<br/>下表显示了按许可证 （功能） 和使用率位置 minute 池的细分。 
 *    **功能**是用于呼叫的许可证/服务计划。 您可能会看到此报告中的许可证/服务计划包括：
      * MCOPSTN1-国内调用规划 （3000 分钟美国/1200年分钟欧盟计划
      * MCOPSTN2-国际呼叫计划
@@ -72,9 +72,9 @@ ms.locfileid: "23779665"
 *    **总分钟数**是总月提供的分钟数。 
 *    **使用 %** 是用于月份的分钟数的百分比。 
 ***
-![2 号](../images/sfbcallout2.png)<br/>如果你希望创建将一列或多列中的所有数据进行分组的视图，请单击某个列并将其拖动到" **若要按特定列进行分组，请将列标题拖至此处**"。 
+![第二](../images/sfbcallout2.png)<br/>如果你希望创建将一列或多列中的所有数据进行分组的视图，请单击某个列并将其拖动到" **若要按特定列进行分组，请将列标题拖至此处**"。 
 ***
-![3 号](../images/sfbcallout3.png)<br/>你还可以单击或点击" **导出到 Excel**"按钮，将报告数据导出到 Excel .csv 文件中。 <br/><br/> 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果您有超过 2000年用户，您可以排序和筛选报告本身中的表中。 如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。
+![第三](../images/sfbcallout3.png)<br/>你还可以单击或点击" **导出到 Excel**"按钮，将报告数据导出到 Excel .csv 文件中。 <br/><br/> 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果您有超过 2000年用户，您可以排序和筛选报告本身中的表中。 如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他 Skype for Business 报告？
 

@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 40296968-e779-4259-980b-c2de1c044c6e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -21,12 +22,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: '了解如何设置域、 用户、 IM 和状态为您的组织安装 for Business 的 Skype。 另请参阅如何设置音频会议、 电话系统和调用计划，和 Skype 会议广播。 '
-ms.openlocfilehash: 264edbeeaaca9eb2b057760ec6432deedb4b78e4
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b4db326212b472539a483a406a7c940f0802978d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252523"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864486"
 ---
 # <a name="set-up-skype-for-business-online"></a>设置 Skype for Business Online
 
@@ -42,7 +43,7 @@ ms.locfileid: "23252523"
 
 如果你想使用 Skype for Business 与组织 **外部** 的用户进行 *通话*  ，则有下列选项：
 
-- **选项 1。使用免费的 [Skype 应用](https://www.skype.com/)** 。 如果企业的规模很小（例如，1-2 人），则使用 Skype 应用比较好。 进行国内和国际呼叫的费用较低。 仍可以保留会议呼叫、 发起视频呼叫和共享演示文稿的桌面。 [签出率和付款选项](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled)。
+- **选项 1。使用免费的 [Skype 应用](https://www.skype.com/)** 。 如果企业的规模很小（例如，1-2 人），则使用 Skype 应用比较好。 进行国内和国际呼叫的费用较低。 仍可以保留会议呼叫、 发起视频呼叫和共享演示文稿的桌面。 [检查费率和付款选项](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled)。
 
 - **选项 2。升级你的计划，并购买 Office 365 的电话系统和呼叫计划** 。 最简单的方法以找出多少这成本，然后切换、 到[业务产品-管理员技术支持联系人](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)并使其为您执行的全部内容。
 

@@ -1,5 +1,5 @@
 ---
-title: Skype 会议广播的阻止用户许可证
+title: 阻止 Skype 会议直播的用户许可证
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: b898557c-547f-4055-9478-d17fb653285f
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,14 +18,14 @@ f1keywords: None
 ms.custom:
 - SMB
 description: 很遗憾，还有阻止某些用户许可证时用户转到https://broadcast.skype.com并且想要使用 Skype 会议广播。 如果用户会看到此消息，他们可以分配给他们的阻止许可证之一。 如果您仍希望他们使用它，请将其分配其他 Office 365 许可证。
-ms.openlocfilehash: f7a7bb44a6de3cfaa5af282f855b0345f0a3ea76
-ms.sourcegitcommit: 2290f152ea13d87fb1fd70007fe19523184ce947
+ms.openlocfilehash: 68ea3a6632ce5c25c0c443edc8abc66a5c6f5bbe
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19844596"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861402"
 ---
-# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Skype 会议广播的阻止用户许可证
+# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>阻止 Skype 会议直播的用户许可证
 
 很遗憾，还有被阻止，当用户转到某些用户许可证https://broadcast.skype.com并且想要使用 Skype 会议广播。 如果用户会看到此消息，他们可以分配给他们的阻止许可证之一。 如果您仍希望他们使用它，请将其分配其他 Office 365 许可证。
   

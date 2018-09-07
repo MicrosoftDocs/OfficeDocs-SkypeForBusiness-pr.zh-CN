@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 03a255d4-0e1d-4b24-b73d-7a62fae36254
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,13 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-search.appverid: MET150
-ms.openlocfilehash: 14d82764a177d1bc483bc1c3457546352a2b4f03
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 5e2d38c3576cd39769fd3b150ad905f37421e9bc
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933152"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854258"
 ---
 # <a name="conference-organizer-activity-report"></a>会议组织者活动报告
 
@@ -55,21 +55,21 @@ ms.locfileid: "19933152"
 ![Skype 业务组织的会议报告](../images/0ab0e5e8-cf18-4f8f-a31a-94048e375a0f.PNG)
   
 ***
-![1 号](../images/sfbcallout1.png)<br/>可以查看" **Skype for Business 会议组织者活动**"报告以了解过去 7 天、30 天、90 天或 180 天的趋势。 但是，如果您单击到报告中某一天，表 （请参阅 7 号） 将显示数据 30 天，最多为日期 （请参阅编号 2） 的报告生成的时间。
+![第一](../images/sfbcallout1.png)<br/>可以查看" **Skype for Business 会议组织者活动**"报告以了解过去 7 天、30 天、90 天或 180 天的趋势。 但是，如果您单击到报告中某一天，表 （请参阅 7 号） 将显示数据 30 天，最多为日期 （请参阅编号 2） 的报告生成的时间。
 
 > [!NOTE]
 > 如果您单击到特定日期的详细信息，表将仅显示报告生成的时间的日期最 30 天内的数据。
 
 ***
-![2 号](../images/sfbcallout2.png)<br/>每个报表包含此报表的生成日期。 报表通常反映活动的时间从 24 到 48 小时延迟。 
+![第二](../images/sfbcallout2.png)<br/>每个报表包含此报表的生成日期。 报表通常反映活动的时间从 24 到 48 小时延迟。 
 ***
-![3 号](../images/sfbcallout3.png)<br/>使用" **活动**"图表上的交互式图表和实时数据可了解使用趋势并查看组织中组织的会议总数和正在召开的会议类型。它将显示整个组织中组织的" **即时消息**"、" **音频/视频**"、" **应用程序共享**"、" **Web**"、" **拨入/拨出（第三方）**"和" **拨入/拨出 (Microsoft)**"会议的总数和类型。 
+![第三](../images/sfbcallout3.png)<br/>使用" **活动**"图表上的交互式图表和实时数据可了解使用趋势并查看组织中组织的会议总数和正在召开的会议类型。它将显示整个组织中组织的" **即时消息**"、" **音频/视频**"、" **应用程序共享**"、" **Web**"、" **拨入/拨出（第三方）**"和" **拨入/拨出 (Microsoft)**"会议的总数和类型。 
 ***
-![4 号](../images/sfbcallout4.png)<br/>使用" **用户**"图表上的交互式图表和实时数据可了解使用趋势并查看负责组织当前组织中正在举行的会议的唯一用户数。它将显示用户总数以及所组织的会议的类型，即，是" **即时消息**"、" **音频/视频**"、" **应用程序共享**"、" **Web**"、" **拨入/拨出（第三方）**"还是" **拨入/拨出 (Microsoft)**"。 
+![第四](../images/sfbcallout4.png)<br/>使用" **用户**"图表上的交互式图表和实时数据可了解使用趋势并查看负责组织当前组织中正在举行的会议的唯一用户数。它将显示用户总数以及所组织的会议的类型，即，是" **即时消息**"、" **音频/视频**"、" **应用程序共享**"、" **Web**"、" **拨入/拨出（第三方）**"还是" **拨入/拨出 (Microsoft)**"。 
 ***
-![5 号](../images/sfbcallout5.png)<br/>使用" **分钟数**"图表上的交互式图表和实时数据可了解使用趋势并查看用户在使用音频/视频以及拨入和拨出（将 Microsoft 作为其会议提供商）组织会议时使用的分钟数。它将显示在组织的会议进行期间使用的" **音频/视频**"总分钟数、" **拨入 (Microsoft) 分钟数**"和" **拨出 (Microsoft) 分钟数**"。
+![第五](../images/sfbcallout5.png)<br/>使用" **分钟数**"图表上的交互式图表和实时数据可了解使用趋势并查看用户在使用音频/视频以及拨入和拨出（将 Microsoft 作为其会议提供商）组织会议时使用的分钟数。它将显示在组织的会议进行期间使用的" **音频/视频**"总分钟数、" **拨入 (Microsoft) 分钟数**"和" **拨出 (Microsoft) 分钟数**"。
 ***
-![6 号](../images/sfbcallout6.png)<br/>
+![第六](../images/sfbcallout6.png)<br/>
 每个图表都具有"X"（水平）轴和"Y"（垂直）轴。
 *    在" **活动**"活动图表中，Y 轴代表组织中的用户组织的即时消息、音频/视频、应用程序共享、Web、拨入/拨出（第三方）和拨入/拨出 (Microsoft) 会议的总数。 
 *    在" **用户**"活动图表中，Y 轴代表组织中的用户组织的即时消息、音频/视频、应用程序共享、Web、拨入/拨出（第三方）和拨入/拨出 (Microsoft) 会议的用户总数。

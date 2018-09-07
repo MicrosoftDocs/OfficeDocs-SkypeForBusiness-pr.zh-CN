@@ -7,15 +7,16 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anprakas
+search.appverid: MET150
 description: 了解如何添加 Microsoft 团队 SMTP 域为不允许的发件人的域在 Exchange Online 将通知发送给团队成员。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d69e2890589169da126f237562d32a89d378edb
-ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.openlocfilehash: 7f0b20f84484d4b0998a11653fe7f9d2bb1e9899
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "21597572"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861582"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>添加 Microsoft 团队 SMTP 域为不允许的发件人的域在 Exchange Online 
 =============================================================================

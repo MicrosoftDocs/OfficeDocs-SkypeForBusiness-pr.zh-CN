@@ -1,5 +1,5 @@
 ---
-title: 设备使用情况报告
+title: 设备使用报告
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: b9019c36-034f-40c7-acb0-c2a0400b03c3
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,15 +19,14 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 全新的 Office 365 报告仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，您可以使用业务设备使用情况报告的 Skype 查看设备，包括基于 Windows 的操作系统和具有业务应用程序 Skype 的移动设备安装并使用其为 IM 和会议。 查看 Office 365 管理中心中的活动报告以了解详细信息。
-search.appverid: MET150
-ms.openlocfilehash: 722a1302f3c94737b520c3c8e23101cc04629a70
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 72d700f5e3c63fde3f4a17f6a652643695303a8d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933094"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863380"
 ---
-# <a name="device-usage-report"></a>设备使用情况报告
+# <a name="device-usage-report"></a>设备使用报告
 
 全新的 Office 365" **报告**"仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，您可以使用**Skype 业务设备使用情况**报告以查看设备，包括基于 Windows 的操作系统和具有业务应用程序 Skype 的移动设备安装并使用其为 IM 和会议。 
 
@@ -51,25 +51,25 @@ ms.locfileid: "19933094"
 
 到当前使用 Skype 业务应用程序的**用户**和**通讯组**图表查看的设备，可以获取视图。
   
-![Skype 的业务设备使用情况报告](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
+![Skype for Business 设备使用率报告](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
   
 ***
-![1 号](../images/sfbcallout1.png)<br/>**Skype 业务设备使用情况**报告可以在最近 7 天，30 天，90 天或 180 天内的趋势查看。 但是，如果您单击到报告中某一天，表 （请参阅 7 号） 将显示数据 30 天，最多为日期 （请参阅编号 2） 的报告生成的时间。
+![第一](../images/sfbcallout1.png)<br/>**Skype 业务设备使用情况**报告可以在最近 7 天，30 天，90 天或 180 天内的趋势查看。 但是，如果您单击到报告中某一天，表 （请参阅 7 号） 将显示数据 30 天，最多为日期 （请参阅编号 2） 的报告生成的时间。
 
 > [!NOTE]
 > 如果您单击到特定日期的详细信息，表将仅显示报告生成的时间的日期最 30 天内的数据。
     
 ***
-![2 号](../images/sfbcallout2.png)<br/>
+![第二](../images/sfbcallout2.png)<br/>
 每个报表包含此报表的生成日期。 报表通常反映活动的时间从 24 到 48 小时延迟。 
 ***
-![3 号](../images/sfbcallout3.png)<br/>**用户**图表上使用的交互式图表数据，了解使用率趋势，请参阅使用 Skype 业务应用程序连接的组织中使用的用户数。 它将显示您的总用户数和已安装的业务应用程序 Skype 的**Windows**、 **Windows Phone**、 **android 移动电话**、 **iPhone**和**iPad**设备的类型，并且正在使用您的组织内。
+![第三](../images/sfbcallout3.png)<br/>**用户**图表上使用的交互式图表数据，了解使用率趋势，请参阅使用 Skype 业务应用程序连接的组织中使用的用户数。 它将显示您的总用户数和已安装的业务应用程序 Skype 的**Windows**、 **Windows Phone**、 **android 移动电话**、 **iPhone**和**iPad**设备的类型，并且正在使用您的组织内。
 ***
-![4 号](../images/sfbcallout4.png)<br/>使用**通讯组**条形图上的交互式图表数据了解使用率以查看在组织中使用唯一的设备的用户数。 它将与正在使用设备显示您的**Windows**、 **Windows Phone**、 **android 移动电话**、 **iPhone**和**iPad**用户的总数。 
+![第四](../images/sfbcallout4.png)<br/>使用**通讯组**条形图上的交互式图表数据了解使用率以查看在组织中使用唯一的设备的用户数。 它将与正在使用设备显示您的**Windows**、 **Windows Phone**、 **android 移动电话**、 **iPhone**和**iPad**用户的总数。 
 ***
-![5 号](../images/sfbcallout5.png)<br/>你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如，在**用户**图表中，单击或点击**Windows**、 **Windows Phone**、 **android 移动电话**、 **iPhone**、 或**iPad** ，以查看仅与每个相关的信息。 更改此选择不会更改网格表中的信息。 
+![第五](../images/sfbcallout5.png)<br/>你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如，在**用户**图表中，单击或点击**Windows**、 **Windows Phone**、 **android 移动电话**、 **iPhone**、 或**iPad** ，以查看仅与每个相关的信息。 更改此选择不会更改网格表中的信息。 
 ***
-![6 号](../images/sfbcallout6.png)<br/>每个图表都具有"X"（水平）轴和"Y"（垂直）轴。
+![第六](../images/sfbcallout6.png)<br/>每个图表都具有"X"（水平）轴和"Y"（垂直）轴。
 *    在**用户**图表中，Y 轴是与设备已安装的业务应用程序 Skype 连接的用户的总数。
 *    在**通讯组**活动图表中，Y 轴是设备的与特定类型的业务应用程序安装与 Skype 的连接的用户数。 
 

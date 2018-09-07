@@ -9,6 +9,7 @@ ms.assetid: a4470c6b-38a2-4b28-9780-91e6a214145c
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于马耳他业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: d46bb277e76db853479aa049fd4e0711bb5e40d7
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: c0ffd540a149396a789706301f14f0cfd0a27c56
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829399"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23859381"
 ---
 # <a name="availability-in-malta"></a>马耳他中的可用性
 

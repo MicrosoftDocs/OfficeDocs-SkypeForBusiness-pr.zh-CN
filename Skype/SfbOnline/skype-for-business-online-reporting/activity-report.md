@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 8cbe2eb2-1194-4fd7-b1ee-9f9287c82424
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,13 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-search.appverid: MET150
-ms.openlocfilehash: c827ed5c853a1f3e474f5f115a0dd1ef1975b5f7
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: d13ca7f70880d7ad0f3c6376e167c6222682887d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933104"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855572"
 ---
 # <a name="activity-report"></a>活动报告
 
@@ -55,25 +55,25 @@ ms.locfileid: "19933104"
 ![Skype for Business Online Activity Report](../images/670c8bc6-d29c-4033-87fc-a20d324c9aae.png)
   
 ***
-![1 号](../images/sfbcallout1.png)<br/>
+![第一](../images/sfbcallout1.png)<br/>
 **Skype 的业务活动**电子邮件活动报告可以在最近 7 天，30 天，90 天或 180 天内的趋势查看。 但是，如果您单击到报告中某一天，表 （请参阅 7 号） 将显示数据最多 28 天从当前日期 （不生成报告的日期）。
 
 > [!NOTE]
 > 如果您单击到特定日期的详细信息，表将仅显示报告生成的时间的日期最 30 天内的数据。
 
 ***
-![2 号](../images/sfbcallout2.png)<br/>
+![第二](../images/sfbcallout2.png)<br/>
 每个报表包含此报表的生成日期。 报表通常反映活动的时间从 24 到 48 小时延迟。 
 ***
-![3 号](../images/sfbcallout3.png)<br/>使用" **活动**"图表上的交互式图表数据可了解使用趋势并查看组织中正在进行的会话活动数。它将显示在整个组织中" **对等会话**"、" **组织**"和" **参与**"会议会话的总数和类型。 
+![第三](../images/sfbcallout3.png)<br/>使用" **活动**"图表上的交互式图表数据可了解使用趋势并查看组织中正在进行的会话活动数。它将显示在整个组织中" **对等会话**"、" **组织**"和" **参与**"会议会话的总数和类型。 
 ***
-![4 号](../images/sfbcallout4.png)<br/>
+![第四](../images/sfbcallout4.png)<br/>
 使用" **用户**"图表上的交互式图表数据可了解使用趋势并查看参与组织中正在举行的会议活动的唯一用户数。 它将显示您的**对等会话**、**有组织**和**Participated**类型以及用户总数会议会话中。
 ***
-![5 号](../images/sfbcallout5.png)<br/>
+![第五](../images/sfbcallout5.png)<br/>
 你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如，在**活动**图表中，单击或点击**对等会话**、**有组织**或**Participated**以查看仅与每个相关的信息。 更改此选择不会更改网格表中的信息。 
 ***
-![6 号](../images/sfbcallout6.png)<br/>
+![第六](../images/sfbcallout6.png)<br/>
 每个图表都具有"X"（水平）轴和"Y"（垂直）轴。
 *    在**活动**图表中，Y 轴是-对等，组织，并且参与保留的会议会话的总数。
 *    在**用户**活动图表中，Y 轴是参加中每种类型的点到点的唯一用户数组织，并且参加会议。

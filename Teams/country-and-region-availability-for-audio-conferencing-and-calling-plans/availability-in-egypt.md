@@ -8,6 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于埃及业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: acebd35da3c464e21554cc2c97b0090f1f92d2d5
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: c026c3782b877d96a4998d7397b5489ea9bcf3ac
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829279"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856256"
 ---
 # <a name="availability-in-egypt"></a>埃及的可用性
 

@@ -9,6 +9,7 @@ ms.assetid: 54905c72-2214-47c7-8ac2-7a27597475c5
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 沙特阿拉伯可用的项目。
-ms.openlocfilehash: fc166ee100b436c1ffdcbd3add109c9e97582d38
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: ca4e6a9f2c0c48fd3a7b91edaaf650f923a57bd9
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829415"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860650"
 ---
 # <a name="availability-in-saudi-arabia"></a>沙特阿拉伯中的可用性
 

@@ -9,6 +9,7 @@ ms.assetid: 7ab4538a-3513-40c3-ad54-89067d2357d3
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于特立尼达和多巴哥业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: de167d9018ca6d1227ddf387adac31f6c5958845
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 9f8cef43fbef9d1bc9aa214e4a72f1c6ce4a1e80
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829207"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860736"
 ---
 # <a name="availability-in-trinidad-and-tobago"></a>特立尼达和多巴哥中的可用性
 

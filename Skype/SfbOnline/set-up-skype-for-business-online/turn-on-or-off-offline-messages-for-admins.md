@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 8967a77f-caa2-4680-aa22-8faa32c716e4
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: bff5d5c34910b6b3c2650734e2b827ec92e9e94a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 653bde65bb5ba0fa7bc736de0e01979cf55ed63b
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23251157"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860910"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>打开或关闭脱机消息（面向管理员）
 
@@ -43,7 +44,7 @@ ms.locfileid: "23251157"
 
  **检查正在运行的是 Windows PowerShell 3.0 版本或更高版本**
 
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. 若要验证正在运行的版本是 3.0 或更高：**开始菜单** > **Windows PowerShell**。
 
 2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
 
@@ -57,7 +58,7 @@ ms.locfileid: "23251157"
 
  **启动 Windows PowerShell 会话**
 
-1. From the **Start Menu** > **Windows PowerShell**.
+1. 从 **开始菜单** > **Windows PowerShell**。
 
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
 
@@ -102,7 +103,7 @@ Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
 
-  - [为何想使用 Windows PowerShell 管理 Office 365 的 6 个理由）](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为何想使用 Windows PowerShell 管理 Office 365 的 6 个理由） ](https://go.microsoft.com/fwlink/?LinkId=525041)
 
 - 例如当你一次对多个用户更改设置时，Windows PowerShell 比起仅使用 Office 365 管理中心，在速度、简明性和效率方面具有许多优势。通过以下主题了解这些优势：
 

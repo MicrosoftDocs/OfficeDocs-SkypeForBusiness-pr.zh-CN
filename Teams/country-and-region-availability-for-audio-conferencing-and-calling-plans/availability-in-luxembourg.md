@@ -9,6 +9,7 @@ ms.assetid: 466bff97-98ef-4e44-95b5-f51ee80b2128
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 卢森堡可用的项目。
-ms.openlocfilehash: b50f9cf1b98296a1fd724633ac4496ce5b72e2ba
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 3bd0b5f627b23079c2488749ca5e7a92a00705cd
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23782947"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855590"
 ---
 # <a name="availability-in-luxembourg"></a>卢森堡中的可用性
 

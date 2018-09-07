@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 305984ec-3da8-4509-bb2b-6643dcf2cb7d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -15,18 +16,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Office 365 中的 Outlook 网页版 (Outlook Web App) 在导航栏中提供基本 Skype for Business Web 客户端。 此基本客户端仅供联机用户的管理尚未配置 Office 365 组织的虚荣 URL。 只要用户帐户处于联机状态，并且没有一个虚荣的 URL，他们仍会看到体验，即使其组织内部部署穴的某些用户帐户。 具有用户帐户内部 （是否有虚荣 URL 或不） 或由 Microsoft 管理的用户会看到 Outlook web 应用程序中的 Lync 体验。
-ms.openlocfilehash: 03491bb0cb200cac8eecb0ae2282a7003a85f8dc
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Office 365 中的 Outlook 网页版 (Outlook Web App) 在导航栏中提供基本 Skype for Business Web 客户端。 此基本客户端是可供联机用户其管理员尚未配置其 Office 365 组织的虚拟 URL。 只要用户的帐户处于联机状态并且没有虚拟 URL，他们仍会看到体验，即使其组织有一些都驻留在内部部署的用户帐户。 具有用户帐户的本地 （无论他们已虚拟 URL 或不） 或由 Microsoft 托管的用户将看到 Outlook web app 中的 Lync 体验。
+ms.openlocfilehash: 112da508d0f21175d309679a529f86d22a37d0d4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863242"
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Outlook 网页版中的 Skype for Business Online 支持
 
-Office 365 中的 Outlook 网页版 (Outlook Web App) 在导航栏中提供基本 Skype for Business Web 客户端。 此基本客户端仅供联机用户的管理尚未配置 Office 365 组织的虚荣 URL。 只要用户帐户处于联机状态，并且没有一个虚荣的 URL，他们仍会看到体验，即使其组织内部部署穴的某些用户帐户。 具有用户帐户内部 （是否有虚荣 URL 或不） 或由 Microsoft 管理的用户会看到 Outlook web 应用程序中的 Lync 体验。
+Office 365 中的 Outlook 网页版 (Outlook Web App) 在导航栏中提供基本 Skype for Business Web 客户端。 此基本客户端是可供联机用户其管理员尚未配置其 Office 365 组织的虚拟 URL。 只要用户的帐户处于联机状态并且没有虚拟 URL，他们仍会看到体验，即使其组织有一些都驻留在内部部署的用户帐户。 具有用户帐户的本地 （无论他们已虚拟 URL 或不） 或由 Microsoft 托管的用户将看到 Outlook web app 中的 Lync 体验。
   
-下表总结了不同的设置，可能会遇到和使用 web 客户端。
+下表汇总了您可能遇到的不同设置和 web 客户端使用。
   
 ||||
 |:-----|:-----|:-----|
@@ -37,8 +39,8 @@ Office 365 中的 Outlook 网页版 (Outlook Web App) 在导航栏中提供基�
 |混合但联机托管  <br/> |是  <br/> |Lync Web 体验  <br/> |
 |混合但本地托管  <br/> |否  <br/> |Lync Web 体验  <br/> |
 |混合但本地托管  <br/> |是  <br/> |Lync Web 体验  <br/> |
-|在 prem 纯  <br/> |否  <br/> |Lync Web 体验  <br/> |
-|在 prem 纯  <br/> |是  <br/> |Lync Web 体验  <br/> |
+|纯 prem 上  <br/> |否  <br/> |Lync Web 体验  <br/> |
+|纯 prem 上  <br/> |是  <br/> |Lync Web 体验  <br/> |
    
 
 ## <a name="related-topics"></a>相关主题

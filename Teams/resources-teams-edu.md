@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: ''
 description: 对于 IT 管理员教育有助于团队资源的列表。
 localization_priority: Normal
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af9d574abb69068095c31a9aaac0270b3fc7e960
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d9259e6ed4d6798f55fd25e553f7d31ffad715b6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248800"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866376"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>对于教育管理员的 Microsoft 团队资源
 ==============================================

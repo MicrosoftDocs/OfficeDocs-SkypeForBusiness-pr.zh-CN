@@ -9,6 +9,7 @@ ms.assetid: af771135-60cb-4c37-ae0a-a300d3ced073
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于哥斯达黎加业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: df08aa02c97d362ca20d11e15252bf9a568a4db4
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: c6fc582bb51706002a914b20d3387af4f488470c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829239"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853236"
 ---
 # <a name="availability-in-costa-rica"></a>哥斯达黎加中的可用性
 

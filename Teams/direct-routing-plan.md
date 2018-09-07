@@ -8,14 +8,15 @@ ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: ''
 description: 阅读本主题可了解如何 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。
-ms.openlocfilehash: 1749d5b26be6e3cc4c55bb9a90e47e637fc67230
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 0f2fceee07b3c742496be7e9fdf5c714d66f8bc1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23848614"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861738"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -68,9 +69,9 @@ Microsoft 还提供了一云语音解决方案，如调用规划。  但是，�
 |SBC 的公共 DNS 条目 |映射到公共 IP 地址的 SBC FQDN 公共 DNS 条目。 |
 |SBC 的受信任的公共证书 |SBC 用于直接路由中的所有通信的证书。 有关详细信息，请参阅[SBC 的受信任的公共证书](#public-trusted-certificate-for-the-sbc)。|
 |直接路由的连接点 |直接路由的连接点是具有以下三个 Fqdn:<br/><br/>`sip.pstnhub.microsoft.com`– 必须首先尝试全局 FQDN。<br/>`sip2.pstnhub.microsoft.com`– 辅助 FQDN，地理位置映射到第二个优先级区域。<br/>`sip3.pstnhub.microsoft.com`– 第三级 FQDN，地理位置映射到第三个优先级区域。<br/><br/>有关配置要求的信息，请参阅[SIP 信号： Fqdn 和防火墙端口](#sip-signaling-fqdns-and-firewall-ports)。|
-|防火墙的 IP 地址和直接路由的媒体端口 |SBC 对下列服务在云中进行通信：<br/><br/>SIP 代理，处理的信号<br/>媒体处理器，处理媒体-除媒体绕过位于<br/><br/>这两个服务具有单独的 IP 地址中 Microsoft 云，本文档后面所述。<br/><br/>有关详细信息，请参阅[Office 365 Url 和 IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)中的[Microsoft 团队部分](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)。 |
+|防火墙的 IP 地址和直接路由的媒体端口 |SBC 对下列服务在云中进行通信：<br/><br/>SIP 代理，处理的信号<br/>媒体处理器，处理媒体-除媒体绕过位于<br/><br/>这两个服务具有单独的 IP 地址中 Microsoft 云，本文档后面所述。<br/><br/>有关详细信息，请参阅[Office 365 Url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)中的[Microsoft 团队部分](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)。 |
 |媒体传输配置文件|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-防火墙的 IP 地址和端口的 Microsoft 团队媒体 |有关详细信息，请参阅[Office 365 Url 和 IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)。 |
+防火墙的 IP 地址和端口的 Microsoft 团队媒体 |有关详细信息，请参阅[Office 365 Url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。 |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>许可和其他要求 

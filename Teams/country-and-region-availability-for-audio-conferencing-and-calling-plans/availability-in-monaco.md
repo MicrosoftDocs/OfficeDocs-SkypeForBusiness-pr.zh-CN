@@ -9,6 +9,7 @@ ms.assetid: bbb45c69-746a-4891-85ae-af55bdc2ef57
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于摩纳哥业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 3d5d0c0ee8165fa980f7f6a36cd115aa2b5a34b1
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 6c9ff1a66677e59f8a13f869a8acea230585f815
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829095"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860752"
 ---
 # <a name="availability-in-monaco"></a>摩纳哥中的可用性
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 28aa24b4-8c81-4327-9752-989ea7540db2
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -19,12 +20,12 @@ f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
 description: '了解如何设置电话号码，当您对业务的 Skype 端口它们。 '
-ms.openlocfilehash: b5b547a88dab1c812a47c310645254985cc0b606
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a5a3b0d5586e050a79c1aeb43967ad0d3e4bdf98
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780596"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23857314"
 ---
 # <a name="how-should-i-enter-the-phone-numbers"></a>我应该如何输入电话号码？
 

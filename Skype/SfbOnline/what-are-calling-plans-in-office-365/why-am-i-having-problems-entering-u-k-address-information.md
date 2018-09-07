@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: e2376646-f0d6-4d33-a8fd-68ecbd46fb7a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 下面是一些原因为什么您可能会出现问题获取您的地址或地址正确验证在英国 （英国）。
-ms.openlocfilehash: 3c0749f488ece74e6038786af79d47f1669151b1
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 8e60b2e59a0a7a2dccf65688ba7331bec19c2c2d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779445"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862684"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>为什么我在输入英国地址信息时出现问题？
 

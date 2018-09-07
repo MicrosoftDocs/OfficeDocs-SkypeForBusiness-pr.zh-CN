@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: c3c89995-65dd-4715-9e38-bb244c742c6b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,13 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-search.appverid: MET150
-ms.openlocfilehash: 76d41724223e55f10bbabf566719e2bd19e24411
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 844fdb83a1219a23b66a3f65bc1bde69475b3eb4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933114"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864576"
 ---
 # <a name="conference-participant-activity-report"></a>会议参与者活动报告
 
@@ -53,20 +53,20 @@ ms.locfileid: "19933114"
 ![Skype 会议参与者活动报告](../images/a5fb6a3f-d8bc-402e-850e-87a75fbc2546.PNG)
   
 ***
-![1 号](../images/sfbcallout1.png)<br/>可以查看" **Skype for Business 会议参与者活动**"报告以了解过去 7 天、30 天、90 天或 180 天的趋势。 但是，如果您单击到报告中某一天，表 （请参阅 7 号） 将显示数据 30 天，最多为日期 （请参阅编号 2） 的报告生成的时间。
+![第一](../images/sfbcallout1.png)<br/>可以查看" **Skype for Business 会议参与者活动**"报告以了解过去 7 天、30 天、90 天或 180 天的趋势。 但是，如果您单击到报告中某一天，表 （请参阅 7 号） 将显示数据 30 天，最多为日期 （请参阅编号 2） 的报告生成的时间。
 > [!NOTE]
 > 如果您单击到特定日期的详细信息，表将仅显示报告生成的时间的日期最 30 天内的数据。
      
 ***
-![2 号](../images/sfbcallout2.png)<br/>每个报表包含此报表的生成日期。 报表通常反映活动的时间从 24 到 48 小时延迟。 
+![第二](../images/sfbcallout2.png)<br/>每个报表包含此报表的生成日期。 报表通常反映活动的时间从 24 到 48 小时延迟。 
 ***
-![3 号](../images/sfbcallout3.png)<br/>使用" **活动**"图表上的交互式图表数据可了解使用趋势并查看组织中用户参与的会议总数和正在召开的会议类型。它将显示整个组织中有人参与的 **即时消息**、 **音频/视频**、 **应用程序共享**、 **Web** 和 **拨入/拨出（第三方）** 会议的总数和类型。
+![第三](../images/sfbcallout3.png)<br/>使用" **活动**"图表上的交互式图表数据可了解使用趋势并查看组织中用户参与的会议总数和正在召开的会议类型。它将显示整个组织中有人参与的 **即时消息**、 **音频/视频**、 **应用程序共享**、 **Web** 和 **拨入/拨出（第三方）** 会议的总数和类型。
 ***
-![4 号](../images/sfbcallout4.png)<br/>使用" **用户**"图表上的交互式图表数据可了解使用趋势并查看参与组织中正在举行的会议的单独用户数。它将显示用户总数以及所组织的 **即时消息**、 **音频/视频**、 **应用程序共享**、 **Web** 和 **拨入/拨出（第三方）** 会议的类型。
+![第四](../images/sfbcallout4.png)<br/>使用" **用户**"图表上的交互式图表数据可了解使用趋势并查看参与组织中正在举行的会议的单独用户数。它将显示用户总数以及所组织的 **即时消息**、 **音频/视频**、 **应用程序共享**、 **Web** 和 **拨入/拨出（第三方）** 会议的类型。
 ***
-![5 号](../images/sfbcallout5.png)<br/>若要了解使用率趋势以及查看他们所组织的会议使用音频/视频，以及电话拨入式和拨出的 Microsoft 作为其音频会议时，用户所使用的分钟数**分钟**图表上使用的交互式图表数据提供程序。 它将显示在有人参与的会议中使用的 **音频/视频**总分钟数。
+![第五](../images/sfbcallout5.png)<br/>若要了解使用率趋势以及查看他们所组织的会议使用音频/视频，以及电话拨入式和拨出的 Microsoft 作为其音频会议时，用户所使用的分钟数**分钟**图表上使用的交互式图表数据提供程序。 它将显示在有人参与的会议中使用的 **音频/视频**总分钟数。
 ***
-![6 号](../images/sfbcallout6.png)<br/>你可以通过单击图例上的项目筛选你在图表上看到的系列。例如，在" **活动**"图表中，通过单击或点击" **即时消息**"、" **音频/视频**"、" **应用程序共享**"、" **Web**"和" **拨入/拨出(第三方)**"，可以只查看与各项相关的信息。更改此选项不会更改网格表中的信息。 
+![第六](../images/sfbcallout6.png)<br/>你可以通过单击图例上的项目筛选你在图表上看到的系列。例如，在" **活动**"图表中，通过单击或点击" **即时消息**"、" **音频/视频**"、" **应用程序共享**"、" **Web**"和" **拨入/拨出(第三方)**"，可以只查看与各项相关的信息。更改此选项不会更改网格表中的信息。 
 ***
 ![7 号](../images/sfbcallout7.png)<br/>每个图表都具有"X"（水平）轴和"Y"（垂直）轴。  
 *    在" **活动**"活动图表中，Y 轴代表组织中的用户参与的即时消息、音频/视频、应用程序共享、Web 和第三方电话拨入/拨出式会议的总数。 

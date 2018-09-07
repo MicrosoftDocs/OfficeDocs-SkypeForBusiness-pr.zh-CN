@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: c4e54d00-e096-474c-a457-56e785439ff6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 地址验证是在 Office 365 中设置通话套餐的重要步骤。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
-ms.openlocfilehash: d9b6a9821d9464ed323d0bca7dd1c09ac8ff806c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 1748211718b1e25a6f5bfcdcd512e0e2d7d2c587
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779305"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864806"
 ---
 # <a name="why-has-number-activation-failed"></a>号码激活为什么失败？
 地址验证是在 Office 365 中设置通话套餐的重要步骤。 如果由于电话号码不激活地址验证由于某种原因，您将需要创建服务请求。 你执行此操作的方式基于你的组织规模。

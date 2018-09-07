@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 77b26eac-8228-4161-ba9f-733b187bd836
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: f9b6db08c87e46326d6e9de7c82d6e1c89cffce0
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 1296ec96d194be80ae3c48a947a0398f0eefb4e3
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500816"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860326"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理员：为单个用户配置 Skype for Business 设置
 
@@ -66,7 +67,7 @@ ms.locfileid: "19500816"
 |录制对话和会议  <br/> |选择此人可以记录的内容。  <br/> 此选项不可用的业务基本 Skype。  <br/> |
 |为了符合规范，请禁用非存档功能  <br/> | 如果法律要求你以电子形式存储信息，请选择此选项。 <br/>  选择此选项会关闭后[就地保留](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx)在 Exchange 管理中心设置不会捕获的功能。 将关闭以下功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/> |
    
-若要在批量中配置这些设置，使用 PowerShell。 请参阅[Skype 业务 online 中的管理策略](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx)。
+要批量配置这些设置，请使用 PowerShell。请参阅[在 Skype for Business Online 中管理策略](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx) 。
   
 ## <a name="block-external-communications"></a>阻止外部通信
 <a name="__toc325019206"> </a>
@@ -83,7 +84,7 @@ ms.locfileid: "19500816"
     
 3. 单击" **保存**"。
     
-若要在批量中配置这些设置，使用 PowerShell。 请参阅[管理在与外部用户和组织业务 online Skype 的通信](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx)。
+要批量配置这些设置，请使用 PowerShell。请参阅[在 Skype for Business Online 中管理与外部用户和组织的通信](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx) 。
   
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>编辑一个用户的音频会议设置
 <a name="__toc314837483"> </a>
@@ -95,8 +96,8 @@ ms.locfileid: "19500816"
 |**音频会议设置**|**说明**|
 |:-----|:-----|
 |**提供程序名称** <br/> |从列表中选择您的提供商。  <br/> |
-|**长途电话号码**（必需） <br/> |对于第三方 ACP，这些电话号码是从音频会议提供商那里收到的起来。 如果用户正在使用 Microsoft 作为音频会议提供商，这些消息将音频会议桥设置的号码。 设置的数字格式如您所愿 Skype 中显示的业务和 Microsoft 团队会议请求。  <br/> |
-|**免费电话号码** <br/> |对于第三方 ACP，这些电话号码是从音频会议提供商那里收到的起来。 如果用户正在使用 Microsoft 作为音频会议提供商，这些消息将音频会议桥设置的号码。 设置的数字格式如您所愿 Skype 中显示的业务和 Microsoft 团队会议请求。  <br/> |
+|**长途电话号码**（必需） <br/> |对于第三方 ACP，这些电话号码是从音频会议提供商那里收到的起来。 如果用户正在使用 Microsoft 作为音频会议提供商，则这些将是在音频会议桥上设置的数字。 设置的数字格式如您所愿 Skype 中显示的业务和 Microsoft 团队会议请求。  <br/> |
+|**免费电话号码** <br/> |对于第三方 ACP，这些电话号码是从音频会议提供商那里收到的起来。 如果用户正在使用 Microsoft 作为音频会议提供商，则这些将是在音频会议桥上设置的数字。 设置的数字格式如您所愿 Skype 中显示的业务和 Microsoft 团队会议请求。  <br/> |
 |**会议 ID 和 PIN**（必需） <br/> |参与者的 PIN 或会议使用的代码，加入由此用户计划和从第三方音频会议提供商提供的会议。 如果用户正在使用 Microsoft 作为音频会议提供商，这不是必需。  <br/> |
    
 若要在批量中配置这些设置，使用 PowerShell。 请参阅[设置的电话号码包含在邀请](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)。

@@ -9,6 +9,7 @@ ms.assetid: 0e62e15f-e84a-42c3-87cb-adeb6dcfd761
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于阿拉伯联合酋长国业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 36393f1107e19478a6e9c22787489cab69126a5a
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 259bd3b66e26cbf350fefc28323a8901e0e227f9
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829287"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856336"
 ---
 # <a name="availability-in-the-united-arab-emirates-uae"></a>阿拉伯联合酋长国 （阿拉伯联合酋长国） 中的可用性
 

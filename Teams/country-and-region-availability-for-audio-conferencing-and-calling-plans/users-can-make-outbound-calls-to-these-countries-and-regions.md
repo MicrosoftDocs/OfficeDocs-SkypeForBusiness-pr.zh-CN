@@ -9,6 +9,7 @@ ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 本主题包含所有用户可以发起出站调用，如果拥有调用规划国家/地区。
-ms.openlocfilehash: c9534e6cc33a6ce502d2847b6f7c31c0e1d1dfc8
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: d1e8168a97b58b098ef7231c8f11cca928d31ebe
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785059"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23857232"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>用户可以拨打到这些国家和地区的出站电话
 

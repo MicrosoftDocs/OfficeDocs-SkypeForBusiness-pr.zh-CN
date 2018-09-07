@@ -6,16 +6,17 @@ manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 description: 管理员可以使用的 Microsoft 团队和 Skype Admin Center Skype 会议应用程序以使用团队配置
 Set_Free_Tag: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 686e53f3c272ab73e7934085df96cf710fecf667
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: d87433b57936534afad05d38cb42e64c798f74e4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23844834"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853404"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Skype 会议应用程序使用团队配置
 ===================================================

@@ -9,6 +9,7 @@ ms.assetid: d1cbbed6-7398-4152-8836-1b06484d8bae
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 斯洛伐克可用的项目。
-ms.openlocfilehash: 777374eed65b6202f1256d5c32ae80bac4798a00
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 5f3649f4a2508c5a3b10c1f6c29f9bfa7a70de9a
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785387"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860958"
 ---
 # <a name="availability-in-slovakia"></a>斯洛伐克中的可用性
 

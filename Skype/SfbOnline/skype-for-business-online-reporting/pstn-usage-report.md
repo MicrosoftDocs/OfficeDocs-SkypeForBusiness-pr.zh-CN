@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 74eda791-c41f-4fd9-ae0b-913342e7ab04
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 新 Skype 业务管理中心报告区域显示您呼叫和音频会议活动在组织中。 使您钻取报告为您提供更精细了解每个用户的活动。 例如，你可以使用 Skype for Business PSTN 使用详细信息报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 您可以查看音频会议的 PSTN 用法详细信息，包括呼叫的成本，以便您可以了解您的使用，并调用帐单的详细信息，以确定您的组织内的使用情况。
-search.appverid: MET150
-ms.openlocfilehash: 562911b6ceb4751a1a808d4e8f63ddaddddfad99
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6003199b69395001dc47d77f83927ac32e06e5a4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779181"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862238"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用报告
 
@@ -54,7 +54,7 @@ ms.locfileid: "23779181"
 ![Skype for Business PSTN 使用报告](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)
 
 ***
-![1 号](../images/sfbcallout1.png)<br/>该表格显示了按用户细分的全部 PSTN 使用情况。 此时将显示已分配给它们和其 PSTN 用法的业务的 Skype 的所有用户。 你可以添加/删除表格的列。
+![第一](../images/sfbcallout1.png)<br/>该表格显示了按用户细分的全部 PSTN 使用情况。 此时将显示已分配给它们和其 PSTN 用法的业务的 Skype 的所有用户。 你可以添加/删除表格的列。
 *    **呼叫 ID**是呼叫的呼叫 ID。 它是调用 Microsoft 服务支持时使用的呼叫的唯一标识符。
 *    " **用户 ID**"是用户的登录名。
 *    **电话号码**是 Skype 接收入站呼叫的呼叫的商务电话号码或拨出站呼叫的号码。
@@ -94,9 +94,9 @@ ms.locfileid: "23779181"
      *    **MCOMEETADD** -音频会议
      *    **MCOMEETACPEA** -付薪每分钟的音频会议 
 ***
-![2 号](../images/sfbcallout2.png)<br/>如果你希望创建将一列或多列中的所有数据进行分组的视图，请单击某个列并将其拖动到" **若要按特定列进行分组，请将列标题拖至此处**"。
+![第二](../images/sfbcallout2.png)<br/>如果你希望创建将一列或多列中的所有数据进行分组的视图，请单击某个列并将其拖动到" **若要按特定列进行分组，请将列标题拖至此处**"。
  ***
-![3 号](../images/sfbcallout3.png)<br/>您还可以导出报表选项卡中的数据分隔 Excel 文件，通过单击或点击**导出到 Excel**按钮。 <br/><br/> 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果拥有的用户不足 2000 人，你可以在报告本身的表格中进行排序和筛选。 
+![第三](../images/sfbcallout3.png)<br/>您还可以导出报表选项卡中的数据分隔 Excel 文件，通过单击或点击**导出到 Excel**按钮。 <br/><br/> 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果拥有的用户不足 2000 人，你可以在报告本身的表格中进行排序和筛选。 
     > [!Note] 
     > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
 

@@ -65,6 +65,11 @@
 ### [管理团队商业试用版](iw-trial-teams.md)
 ### [为组织设置通信点数](set-up-communications-credits-for-your-organization.md)
 ### [什么是通信点数？](what-are-communications-credits.md)
+## 支持的设备
+### [IP 电话](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [USB 音频和视频设备](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [会议室内设备和解决方案](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
 <!-- ============================================================ -->
 
 
@@ -197,7 +202,7 @@
 ### [在 Outlook 中使用 Teams 会议外接程序](teams-add-in-for-outlook.md)
 ### [设置会议迁移服务 (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Live 事件
-#### [什么是团队 live 事件？](what-are-teams-live-events.md)
+#### [什么是团队 live 事件？](teams-live-events/what-are-teams-live-events.md)
 
 
 

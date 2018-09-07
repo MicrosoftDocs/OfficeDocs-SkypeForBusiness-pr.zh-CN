@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: bf4ea2ea-4f7c-4f41-8e4c-d9ceb11626cc
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '了解使用新的本地号码端口订单向导时，您将需要哪些帐户信息。 '
-ms.openlocfilehash: 69d972709e0711f8ac17131a81c604044d869c85
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: b89667ade7bbbce2d75580f4f4a9b44a015b4dd2
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780478"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855934"
 ---
 # <a name="port-order-account-information"></a>转网订单帐户信息
 

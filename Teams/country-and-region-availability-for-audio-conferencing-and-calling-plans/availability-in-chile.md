@@ -9,6 +9,7 @@ ms.assetid: 42fd0274-d0d8-4fb1-abfe-6bc42881dac8
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于智利业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 72abb0485f4dbd12c2ac8ca81cc30b5d797ad69b
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 890d7c0fd66d1cc49d79150be5e7c82ecd0cfc5c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829215"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860624"
 ---
 # <a name="availability-in-chile"></a>智利中的可用性
 

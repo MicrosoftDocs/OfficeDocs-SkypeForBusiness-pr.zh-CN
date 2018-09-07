@@ -8,16 +8,17 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 ms.audience: Admin
+search.appverid: MET150
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 请参阅如何配置团队以使用户可以与其他组织中的用户进行通信。
-ms.openlocfilehash: 3eaffac3571abc70d4964ea4a8955f187d1e988f
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 39be4ddb1a9f42382de30c04d3e81a990aad3547
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23844634"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863102"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>让您的团队用户聊天并与其他团队组织中的用户进行通信
 

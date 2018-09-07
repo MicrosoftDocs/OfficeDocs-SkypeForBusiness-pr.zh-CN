@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 4935cddf-fafa-442d-91a3-246af01f8373
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-search.appverid: MET150
-ms.openlocfilehash: 54fa46f64989e796628d36f0af7d2f59b0c253d8
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 9339efa3dfe9f7984b23dd46ce0fac47dbe4b9ee
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933084"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865212"
 ---
 # <a name="skype-for-business-online-reporting"></a>Skype for Business Online 报告
 

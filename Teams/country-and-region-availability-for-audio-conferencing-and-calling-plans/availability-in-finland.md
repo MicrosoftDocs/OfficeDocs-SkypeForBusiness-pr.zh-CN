@@ -9,6 +9,7 @@ ms.assetid: 1e242b5d-0526-431c-885f-ff27a9560d0a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于芬兰业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 29b32199ad6dd8cac71ed4f300fee71500c8a90c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 632402177699becb99d3e2cc41b799cd7dabe915
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783883"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863988"
 ---
 # <a name="availability-in-finland"></a>芬兰中的可用性
 

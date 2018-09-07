@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 6b8d5ddb-59c1-4ee7-b171-18e5ace2dcd6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -21,12 +22,12 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 这将帮助您了解如何拨号中每个国家/地区免费电话号码。 选择国家/地区后，它会将您导引到特定国家/地区的页面包含特定详细信息、 限制和免费电话服务可用性的限制的免费电话服务位于。 拨号格式将显示您可以拨打的免费电话号码每个国家/地区内所需的访问代码。
-ms.openlocfilehash: 40776c189686dba6764ce25fbb91481815196dda
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 201e969693d516c1aa946eab7e22d116dd0f2f22
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783195"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862044"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>免费电话拨号限制和限制
 

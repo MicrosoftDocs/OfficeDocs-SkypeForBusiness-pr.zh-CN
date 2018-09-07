@@ -9,6 +9,7 @@ ms.assetid: cea54175-c39d-4ac2-ba84-2ffeb1c111e7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于秘鲁业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 3a9b8f28f5336d45ee3816a39a25886c60b40c00
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: f7c61a5c1dc5364ed8e495efba8fecf417f8a929
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829127"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862000"
 ---
 # <a name="availability-in-peru"></a>秘鲁中的可用性
 

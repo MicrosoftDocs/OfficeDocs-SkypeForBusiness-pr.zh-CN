@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d3b2d569-4ee9-44b8-92bf-d518142f0713
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,13 +21,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-search.appverid: MET150
-ms.openlocfilehash: c5248baebf3e34b24427ecf192a1b1376c7afb4a
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 2ee918cb82ea42a321af9b91ac9a4526fa849a65
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933134"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860640"
 ---
 # <a name="peer-to-peer-activity-report"></a>对等活动报告
 
@@ -57,21 +57,21 @@ ms.locfileid: "19933134"
 ![带标注的 Skype 对等报表。](../images/82dec398-ca05-46c7-b0fe-affcbfc0ddd5.PNG)
   
 ***
-![1 号](../images/sfbcallout1.png)<br/>可以查看" **Skype for Business 对等活动**"报告以了解过去 7 天、30 天、90 天或 180 天的趋势。 但是，如果您单击到报告中某一天，表 （请参阅 7 号） 将显示数据 30 天，最多为日期 （请参阅编号 2） 的报告生成的时间。
+![第一](../images/sfbcallout1.png)<br/>可以查看" **Skype for Business 对等活动**"报告以了解过去 7 天、30 天、90 天或 180 天的趋势。 但是，如果您单击到报告中某一天，表 （请参阅 7 号） 将显示数据 30 天，最多为日期 （请参阅编号 2） 的报告生成的时间。
 
 > [!NOTE]
 > 如果您单击到特定日期的详细信息，表将仅显示报告生成的时间的日期最 30 天内的数据。
 
 ***
-![2 号](../images/sfbcallout2.png)<br/>每个报表包含此报表的生成日期。 报表通常反映活动的时间从 24 到 48 小时延迟。 
+![第二](../images/sfbcallout2.png)<br/>每个报表包含此报表的生成日期。 报表通常反映活动的时间从 24 到 48 小时延迟。 
 ***
-![3 号](../images/sfbcallout3.png)<br/>使用" **活动**"图表上的交互式图表数据可了解使用趋势并查看组织中正在进行的每个会话类型的会话总数。 它将显示您的总数量和类型的**IM**、**音频**、**视频**、**应用程序共享**和**文件传输**会话在整个组织。 
+![第三](../images/sfbcallout3.png)<br/>使用" **活动**"图表上的交互式图表数据可了解使用趋势并查看组织中正在进行的每个会话类型的会话总数。 它将显示您的总数量和类型的**IM**、**音频**、**视频**、**应用程序共享**和**文件传输**会话在整个组织。 
 ***
-![4 号](../images/sfbcallout4.png)<br/>使用" **用户**"图表上的交互式图表数据可了解使用趋势并查看参与组织中正在进行的对等活动的单独用户数。 它将显示您的**IM**、**音频**、**视频**、**应用程序共享**和**文件传输**类型以及用户总数对等会话中。
+![第四](../images/sfbcallout4.png)<br/>使用" **用户**"图表上的交互式图表数据可了解使用趋势并查看参与组织中正在进行的对等活动的单独用户数。 它将显示您的**IM**、**音频**、**视频**、**应用程序共享**和**文件传输**类型以及用户总数对等会话中。
 ***
-![5 号](../images/sfbcallout5.png)<br/>使用" **分钟数**"图表上的交互式图表数据可了解使用趋势并查看用户在使用音频和视频进行对等活动时所用的分钟数。它将显示在对等会话中使用的 **音频**和 **视频**的总分钟数。
+![第五](../images/sfbcallout5.png)<br/>使用" **分钟数**"图表上的交互式图表数据可了解使用趋势并查看用户在使用音频和视频进行对等活动时所用的分钟数。它将显示在对等会话中使用的 **音频**和 **视频**的总分钟数。
 ***
-![6 号](../images/sfbcallout6.png)<br/>每个图表都具有"X"（水平）轴和"Y"（垂直）轴。 
+![第六](../images/sfbcallout6.png)<br/>每个图表都具有"X"（水平）轴和"Y"（垂直）轴。 
 *    在" **活动**"活动图表中，Y 轴代表组织中的用户举行的即时消息、音频、视频、应用程序共享和文件传输会话的总数。
 *    在**用户**活动图表中，Y 轴是总用户数的保留 IM、 音频、 视频、 应用程序共享和传输文件会话。 
 *    在" **分钟数**"活动图表中，Y 轴代表组织中的用户使用音频和视频对等会话的总分钟数。 

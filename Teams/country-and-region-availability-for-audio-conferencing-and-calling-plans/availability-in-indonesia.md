@@ -9,6 +9,7 @@ ms.assetid: 98fef414-b8e1-4032-b07b-63ec52fb3f26
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于印度尼西亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 9a38d7ac4154e6bc4a69b94e407c5846e6ca8cad
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 18e59f9c1aa87a61e7f11eca2c7bbcfddfcbc304
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829223"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866912"
 ---
 # <a name="availability-in-indonesia"></a>印度尼西亚中的可用性
 

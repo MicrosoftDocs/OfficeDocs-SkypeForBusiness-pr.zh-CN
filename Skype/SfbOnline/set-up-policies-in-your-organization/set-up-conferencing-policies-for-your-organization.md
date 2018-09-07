@@ -1,5 +1,5 @@
 ---
-title: 设置为您的组织的会议策略
+title: 为你的组织设置会议策略
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 9957722b-b542-49ad-8ec8-5569df7fb08b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,20 +17,20 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 会议是 Skype for Business Online 的重要部分：通过会议，多组用户可以在线集中在一起来查看幻灯片和视频、共享应用、交换文件以及进行通信与协作。
-ms.openlocfilehash: 9e4c0bc5a90a97ae249b9308fd0ffc62a654a824
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: c5db13adef479bdb3a8702a2782e2ccce19195d6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500561"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861196"
 ---
-# <a name="set-up-conferencing-policies-for-your-organization"></a>设置为您的组织的会议策略
+# <a name="set-up-conferencing-policies-for-your-organization"></a>为你的组织设置会议策略
 
 会议是 Skype for Business Online 的重要部分：通过会议，多组用户可以在线集中在一起来查看幻灯片和视频、共享应用、交换文件以及进行通信与协作。
   
-务必要维护对会议的控制和会议设置。 在有些情况下，可能会有安全问题：默认情况下，任何人（包括未经身份验证的用户）都可以参与会议，并保存在那些会议期间分发的任何幻灯片或讲义。 此外，偶尔可能有法律问题。 例如，默认情况下，会议允许参与者共享内容; 上进行注释但是，存档会议时，不会保存这些批注。 如果你的组织需要保留所有电子通信记录，你可能希望禁用批注。 
+很重要，用于控制会议和会议设置。在某些情况下，可能会出现安全问题： 默认情况下，任何人，包括未经身份验证的用户可以参加会议并保存的任何幻灯片或讲义分发这些会议期间。此外，可能会出现偶尔法律问题。例如，默认情况下，会议允许参与者共享内容; 上进行注释但是，存档会议时，不会保存这些批注。如果您的组织需要保留的所有电子通信的记录，您可能想要禁用批注。 
   
-业务 online Skype，通过使用会议策略进行管理会议。 会议策略确定可以在会议中使用的特性和功能，包括从会议是否可以包括 IP 音频和视频到可以参加会议的最大人数等所有内容。 可以按全局范围或单个用户范围来配置会议策略。 这为管理员在决定哪些功能可供哪些用户使用时提供了极大的灵活性。
+业务 online Skype，通过使用会议策略进行管理会议。会议策略确定的特性和功能，可在会议中，包括从会议可以包括 IP 音频和视频可以参加会议的人员的最大数量。在全局作用域或每用户范围，可以配置会议策略。这为管理员提供极大的灵活性为当谈到决定哪些功能不会对可用的用户。
   
 策略设置可以配置时创建的策略，或者您可以使用**Set-csconferencingpolicy** cmdlet 修改现有的策略的设置。
   
@@ -132,7 +133,7 @@ ms.locfileid: "19500561"
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [为何想使用 Windows PowerShell 管理 Office 365 的 6 个理由）](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为何想使用 Windows PowerShell 管理 Office 365 的 6 个理由） ](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - 例如当你一次对多个用户更改设置时，Windows PowerShell 比起仅使用 Office 365 管理中心，在速度、简明性和效率方面具有许多优势。通过以下主题了解这些优势：
     

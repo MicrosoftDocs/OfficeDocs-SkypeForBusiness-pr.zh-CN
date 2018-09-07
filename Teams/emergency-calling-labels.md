@@ -7,6 +7,7 @@ ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 您可以下载用于紧急呼叫，Office 365 中使用调用计划时这些标签。
-ms.openlocfilehash: da0f6461393c3160d6a59f3be21470d70c06fa80
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 07e23e28e5de9038470be2a63d38221c62e14eb7
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783939"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866360"
 ---
 # <a name="emergency-calling-labels"></a>紧急呼叫标签
 
