@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: 确保您的组织和用户可供 Microsoft 团队
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc58842ce4b5ce942d3334e79af35e19664bd6c6
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 5de87bdd2e3c44cb2dbe63fc206b4e473f6fb0da
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23848638"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23871035"
 ---
 ![升级旅程，重点强调的用户准备阶段的阶段](media/upgrade-banner-user-readiness.png "升级旅程，重点强调的用户准备阶段的阶段")
 

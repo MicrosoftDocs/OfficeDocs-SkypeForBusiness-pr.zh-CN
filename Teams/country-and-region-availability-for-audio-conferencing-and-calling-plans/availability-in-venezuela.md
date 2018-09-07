@@ -9,6 +9,7 @@ ms.assetid: f06f3109-bb9b-4477-85e8-a4aab06450af
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 委内瑞拉可用的项目。
-ms.openlocfilehash: 9704b9893215982a980467e5e5a803862673289c
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: ad4b4b9b8e5a1a73e12cf4c81879faef679272a6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829143"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23871027"
 ---
 # <a name="availability-in-venezuela"></a>委内瑞拉中的可用性
 

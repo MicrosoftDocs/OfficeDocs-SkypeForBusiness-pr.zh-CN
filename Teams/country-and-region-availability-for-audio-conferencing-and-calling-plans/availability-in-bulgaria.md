@@ -9,6 +9,7 @@ ms.assetid: 0aa7cb59-7479-415b-83a8-f51e1437af5e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 保加利亚语的可用的项目。
-ms.openlocfilehash: 03f692c9c30ae96c31adabafcf9306d658e2f870
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 20e5a0b0382253ff3c5c342bd9e33b8d12be2e78
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23782931"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23870987"
 ---
 # <a name="availability-in-bulgaria"></a>保加利亚中的可用性
 

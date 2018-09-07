@@ -7,6 +7,7 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 使用此表可以找到有关获取和管理澳大利亚中的电话号码的 Skype 业务 Online 和 Microsoft 团队。
-ms.openlocfilehash: 8154e119afb608c8c7e87a4c316bdcce50c57780
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: bb77b41539b2de7ed439a434ba6303a89b60e059
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785163"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23870979"
 ---
 # <a name="phone-number-management-for-australia"></a>澳大利亚电话号码管理
 > [!IMPORTANT]

@@ -6,15 +6,16 @@ manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 description: 对 Microsoft Teams 客户端的连接问题（主要是由防火墙或代理连接导致的）进行故障排除，以及了解如何解决问题。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc3e7eba6c2aee7786e2a8dd508e6b7f0dcbe329
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: acb8491d16bfe19665c625c2bd18cc46b6a8c2c0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23843914"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849908"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>对 Microsoft Teams 客户端的连接问题进行故障排除
 ==============================================================
