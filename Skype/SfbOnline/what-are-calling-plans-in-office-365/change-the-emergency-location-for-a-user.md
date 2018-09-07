@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 2d5d3c87-af1e-487e-b86c-261f2e5a0661
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解如何更改您的用户的紧急位置。使用任意数量的位置，您可以更改紧急位置，员工移动楼层或建筑。 '
-ms.openlocfilehash: 6f554a4233f6b3c60711281978212e1cbec35c10
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: e3805daa8248da44de84330ea5de694126e9e32c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779275"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863270"
 ---
 # <a name="change-the-emergency-location-for-a-user"></a>更改用户的紧急位置
 
@@ -35,20 +36,20 @@ ms.locfileid: "23779275"
   
 ## <a name="change-the-emergency-location-for-a-user"></a>更改用户的紧急位置
 
-1. 使用您的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录 Office 365。
     
 2. 转到 **Office 365 管理中心** > **Skype for Business**。
     
-3. 在左侧导航中，转到**语音** > ** 语音用户**。
+3. 在左侧导航中，转到**语音** > **语音用户**。
     
     > [!IMPORTANT]
     > 若要在 Skype for Business 管理中心的左侧导航中显示 **语音**选项，必须先购买至少一个 **Enterprise E5 许可证**、一个 **电话系统**附加设备许可证，或一个 **音频会议**附加设备许可证。
     
-4. 在" **语音用户**"页面上，查找并选择要更改其紧急位置的用户。
+4. 在**语音用户**页面上，查找并选择要更改其紧急位置的用户。
     
-5. 在操作窗格中，在" **紧急位置**"下，单击" **更改**"。
+5. 在操作窗格中，在**紧急位置**下，单击**更改**。
     
-6. 在" **分配号码**"页面上，单击" **更改位置**"。 
+6. 在**分配号码**页面上，单击**更改位置**。 
     
 7. 在**将紧急地址更改为**下方，在框中输入城市的名称，然后单击**搜索**。
     

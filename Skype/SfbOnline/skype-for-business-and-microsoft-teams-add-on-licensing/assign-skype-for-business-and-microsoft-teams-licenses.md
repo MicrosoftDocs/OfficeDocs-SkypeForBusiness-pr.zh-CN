@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: fd41934d-f2eb-4a1b-89d8-32cb37702b33
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: '了解如何为电话系统、音频会议、通话套餐和通信点数分配 Skype for Business 许可证。 '
-ms.openlocfilehash: fef4bea3971f2984e46de7a3592b1a157076c879
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: af2b7357c5dbe9e11b84ac87e0f72721d10a6a30
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780664"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856050"
 ---
 # <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>分配 Skype for Business 和 Microsoft Teams 许可证
 
@@ -39,13 +40,13 @@ ms.locfileid: "23780664"
 
 分配音频会议、电话系统和呼叫套餐许可证之前的注意事项
 
-- **使用的是面向混合用户的内部部署 PSTN 连接？** 如果是这样，您只需分配一个**电话系统**许可证。 您**不**应该分配通话套餐。
+- **使用的是面向混合用户的内部部署 PSTN 连接？** 如果是这样，只需分配一个**电话系统**许可证。 **不**应该分配通话套餐。
 
-- **分配许可证之后的延迟**：由于 Office 365 和 Skype for Business Online 之间的延迟，在你分配许可证后，可能需要长达 24 小时，用户才能使用通话套餐。 如果 24 小时后仍未向用户分配通话套餐，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- **分配许可证之后的延迟**：由于 Office 365 和 Skype for Business Online 之间的延迟，在你分配许可证后，最长可能需要 24 小时的时间，用户才能使用通话套餐。 如果 24 小时后仍未向用户分配通话套餐，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
-- **错误消息**：如果您还没有购买正确数量的许可证，则会收到一条错误消息。 如果您需要购买更多通话套餐许可证，请选择**购买更多**。
+- **错误消息** ：如果你还没有购买正确数量的许可证，则会收到一条错误消息。 如果需要购买更多通话套餐许可证，请选择**购买更多**。
     
-- **后续步骤**：向用户分配通话套餐许可证后，您需要获得贵组织的电话号码，然后将这些号码分配给组织中的人员。 有关分步设置说明，请参阅[设置呼叫计划](/microsoftteams/set-up-calling-plans)。
+- **后续步骤**：向用户分配通话套餐许可证后，需要获得贵组织的电话号码，然后将这些号码分配给组织中的人员。 有关分步设置说明，请参阅[设置呼叫计划](/microsoftteams/set-up-calling-plans)。
     
 ### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>如何将电话系统和通话套餐许可证分配给一个用户
 
@@ -53,9 +54,9 @@ ms.locfileid: "23780664"
 
 ### <a name="how-to-assign-phone-system-and-calling-plan-licenses-in-bulk"></a>如何批量分配电话系统和通话套餐许可证
 
-1. 安装 **适用于 IT 专业人员 RTW 的 Microsoft Online Services 登录助手** 。 未安装模块？ 请参阅[适用于 IT 专业人员 RTW 的 Microsoft Online Services 登录助手](https://go.microsoft.com/fwlink/?LinkId=625123)以下载它。
+1. 安装 **适用于 IT 专业人员 RTW 的 Microsoft Online Services 登录助手** 。 没有安装模块？ 请参阅[适用于 IT 专业人员 RTW 的 Microsoft Online Services 登录助手](https://go.microsoft.com/fwlink/?LinkId=625123)以下载它。
 
-2. 安装 **Windows Azure Active Directory 模块。** 未安装模块？ 请参阅[使用 Windows PowerShell 管理 Azure AD](https://go.microsoft.com/fwlink/p/?LinkId=320628)，查看下载说明和 cmdlet 语法。
+2. 安装 **Windows Azure Active Directory 模块。** 没有安装模块？ 请参阅[使用 Windows PowerShell 管理 Azure AD](https://go.microsoft.com/fwlink/p/?LinkId=320628)，查看下载说明和 cmdlet 语法。
 
 3. 在安装模块后，请使用 Windows PowerShell 命令提示符和以下语法向用户分配许可证：
 
@@ -114,9 +115,9 @@ ms.locfileid: "23780664"
 
 ### <a name="what-you-need-to-know-before-assigning-audio-conferencing-licenses"></a>分配音频会议许可证之前的注意事项
 
-- **第三方音频会议提供商**：如果有人已设置为使用第三方音频会议提供商，您为他们分配**音频会议**许可证时，他们将改为使用 Microsoft 为音频会议提供商。 您可以将他们更改回第三方提供商。
+- 你**第三方音频会议提供商**：如果有人已设置为使用第三方音频会议提供商，为他们分配**音频会议**许可证时，他们将改为使用 Microsoft 为音频会议提供商。 你可以将他们更改回第三方提供商。
 
-- 后续步骤：分配**音频会议**许可证后，您需要分配音频会议提供商。 请参阅 [将 Microsoft 指定为音频会议提供商]。
+- 后续步骤：分配**音频会议**许可证后，需要分配音频会议提供商。 请参阅 [将 Microsoft 指定为音频会议提供商]。
 
 ### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>如何将音频会议许可证分配给一个用户
 
@@ -130,7 +131,7 @@ ms.locfileid: "23780664"
 
     在安装模块后，请使用 Windows PowerShell 命令提示符和以下语法向用户分配许可证：
 
-    此脚本中许可证名称或产品名称以斜体字列出。 请参阅[用于脚本的电话拨入式会议产品名称或 SKU](assign-skype-for-business-and-microsoft-teams-licenses.md#sku)，查看所有产品名称。
+    [!注释] 此脚本中许可证名称或产品名称以斜体字列出。 请参阅[用于脚本的电话拨入式会议产品名称或 SKU](assign-skype-for-business-and-microsoft-teams-licenses.md#sku)，查看所有产品名称。
 
     此示例分配了一个企业版 E3 许可证以及一个音频会议许可证。
 
@@ -185,7 +186,7 @@ foreach ($user in $users)
 
 ### <a name="what-you-need-to-know-before-assigning-communications-credits-licenses"></a>分配通信点数式许可证之前的注意事项
 
-- **企业版 E5 客户**：即使您的用户分配了企业版 E5 许可证，但仍建议您将为其分配**通信点数**许可证。
+- **企业版 E5 客户**：即使你的用户分配了企业版 E5 许可证，但仍建议你为其分配**通信点数**许可证。
     
 - **后续步骤** ：分配这些许可证后，你需要获得贵组织的电话号码，然后将这些号码分配给组织中的人员。 有关分步设置说明，请参阅[设置呼叫计划](/microsoftteams/set-up-calling-plans)。
     

@@ -1,5 +1,5 @@
 ---
-title: 查看、更改和重置 Skype for Business Online​  中分配给用户的会议 ID
+title: 查看、更改和重置 Skype for Business Online​ 中分配给用户的会议 ID
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 77d36233-2aab-4802-ba9c-e9a8885ea643
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Skype for Business 中将会议 ID 分配给用户，以及会议 ID 的参数应该是什么。 '
-ms.openlocfilehash: 472f3b007a584979e029aade593c7b6c93ea1565
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d47e188220f66e320289384c4fbe421328d8eca3
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252305"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850182"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>查看和重置 Skype for Business Online​  中分配给用户的会议 ID
 
@@ -57,7 +58,7 @@ ms.locfileid: "23252305"
 4. 在操作页面，查看**会议 ID** 下方。
 
     > [!TIP]
-    > 可单击**通过电子邮件发送会议信息**链接，在选择了**用户** 页面上的用户后，将全部会议信息在一封电子邮件中发送给用户，其中包括会议 ID 和音频电话号码。
+    > 可单击**通过电子邮件发送会议信息**链接，在选择了**用户**页面上的用户后，用电子邮件将全部会议信息发送给用户，其中包括会议 ID 和音频电话号码。
 
 **使用 Windows PowerShell**
 
@@ -95,11 +96,11 @@ ms.locfileid: "23252305"
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
 
    > [!IMPORTANT]
-   >  创建或重置新会议 ID 后，呼叫者不能再使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 用户可以使用 Skype for Business 会议迁移工具来更新其现有会议。 要了解如何下载、安装和运行 工具，请参阅：[Skype for Business 和 Lync 的会议更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)、[Skype for Business Online、会议迁移工具（64 位）](https://go.microsoft.com/fwlink/?LinkID=626047)和  [Skype for Business Online、会议迁移工具（32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=54079)。
+   >  创建新的或重置会议 ID 后，呼叫者不能再使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 用户可以使用 Skype for Business 会议迁移工具来更新其现有会议。 要了解如何下载、安装和运行此工具，请参阅：[Skype for Business 和 Lync 的会议更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)、[Skype for Business Online、会议迁移工具（64 位）](https://go.microsoft.com/fwlink/?LinkID=626047)和 [Skype for Business Online、会议迁移工具（32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=54079)。
 
 - 请参阅 [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) 以了解有关 cmdlet 的更多信息。
 
-- 会议 ID 必须符合在音频式会议网桥上设置的长度位数。 不能在会议 ID 中使用字母和特殊字符，只能使用数字。
+- 会议 ID 必须符合在音频会议网桥上设置的位数长度。 不能在会议 ID 中使用字母和特殊字符，只能使用数字。
 
 - 所有音频会议用户的会议 ID 默认情况下将是 7 位数。位数不可更改。
 

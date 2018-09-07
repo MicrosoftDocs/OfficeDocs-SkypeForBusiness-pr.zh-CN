@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d080bb8c-3465-47bb-ad2b-9428f1a3fd24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
-ms.openlocfilehash: 081dd7146eb30a10efd4f2ed88ed070f04ea589e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6730d8e928ab8851781e51e0392686912cf89721
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779062"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860792"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>试用或购买 Office 365 for Skype for Business Online 中的音频会议
 
@@ -33,7 +34,7 @@ ms.locfileid: "23779062"
 > 有关 Microsoft Teams 中的音频会议的信息，[请参阅 试用或购买 Office 365 for Skype for Microsoft Teams 中的音频会议​](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)。
 
 
-有时，组织中的用户需要使用电话拨入会议。 Skype for Business 包含了正是针对此种情况的音频会议功能。 人们可以使用电话呼入 Skype for Business 会议，而无需使用移动设备或电脑上的 Skype for Business 应用。
+有时，组织中的用户需要使用电话拨入会议。 Skype for Business 包含了正是针对此种情况的音频会议功能！ 人们可以使用电话呼入 Skype for Business 会议，而无需使用移动设备或电脑上的 Skype for Business 应用。
 
 只需为计划要安排或主持会议的人员设置音频会议。 呼入会议的与会者不需要向其分配任何许可证，也不需要其他设置。
 
@@ -45,7 +46,7 @@ ms.locfileid: "23779062"
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>若要购买和分配用户音频会议许可证：
 
-1. 了解**音频会议**在你的国家/地区是否可用。 [音频会议和通话套餐的国家/地区可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 
+1. 了解**音频会议**在您的国家/地区是否可用。 [音频会议和通话套餐的国家/地区可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 
     
 2. 获取**音频会议**许可证。 如果想要：
 
@@ -61,7 +62,7 @@ ms.locfileid: "23779062"
 
 如果你是批量许可客户，则可以获取按分钟付费的音频会议许可证。 如需了解有关按分钟付费音频会议许可证的其他信息，请参阅[按分钟付费音频会议](/microsoftteams/audio-conferencing-pay-per-minute)。 
   
-1. 了解**音频会议**在你的国家/地区是否可用。 [音频会议和通话套餐的国家/地区可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 
+1. 了解**音频会议**在您的国家/地区是否可用。 [音频会议和通话套餐的国家/地区可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 
     
 2. 获取**音频会议**许可证。 若要获取按分钟付费音频会议许可证，请联系你的客户代表。
     

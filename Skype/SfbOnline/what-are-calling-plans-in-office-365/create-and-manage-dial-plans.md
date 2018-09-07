@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 7af17c94-5f8f-4452-ae1d-01f495b4dc94
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解如何在 Office 365 中创建呼叫拨号计划（PSTN 呼叫拨号计划）以及如何管理它们。 '
-ms.openlocfilehash: a0bbe698e348461d9f8295035e02afcb537eb503
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 5b0de676fce07712c22bd4e3c31f824f734ff007
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779285"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853676"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 
@@ -65,7 +66,7 @@ ms.locfileid: "23779285"
     Import-PSSession $session
   ```
 
-如果想要深入了解如何启动 Windows PowerShell，请参阅 [在单个 Windows PowerShell 窗口中连接所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[使用 Windows PowerShell 连接到 Skype for Business Online](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+如果想要深入了解如何启动 Windows PowerShell，请参阅[在单个 Windows PowerShell 窗口中连接所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[使用 Windows PowerShell 连接到 Skype for Business Online](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
   
 ## <a name="creating-and-managing-your-dial-plans"></a>创建并管理你的拨号计划
 
@@ -151,7 +152,7 @@ $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
 ```
 
-当你同时希望检查现有的规范化规则时可以运行下列脚本，确定要删除的规则，然后使用其索引将其删除。该组规范化规则以索引 0 开头。我们要删除 3 位数的规范化规则，则索引为 1。
+当你同时希望检查现有的规范化规则时可以运行下列脚本，确定要删除的规则，然后使用其索引将其删除。 该组规范化规则以索引 0 开头。 我们要删除 3 位数的规范化规则，则索引为 1。
   
 ```
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
@@ -177,9 +178,9 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1
 Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-运行这些脚本可为你的组织将名为 OPDP1 的本地拨号计划添加为租户拨号计划。你需要先将本地拨号计划保存为 xml 文件，然后用其创建新的租户拨号计划。
+运行这些脚本可为你的组织将名为 OPDP1 的现有的本地拨号计划添加为租户拨号计划。 你需要先将本地拨号计划保存到 .xml 文件，然后用其创建新的租户拨号计划。
   
-运行此脚本将本地拨号计划保存为 xml 文件。
+运行此脚本将本地拨号计划保存到 .xml 文件。
   
 ```
 $DPName = "OPDP1"
@@ -203,7 +204,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
 
-- Windows PowerShell 就是管理用户以及允许或不允许用户执行的操作。当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell 的功能是管理用户以及允许或不允许用户执行的操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

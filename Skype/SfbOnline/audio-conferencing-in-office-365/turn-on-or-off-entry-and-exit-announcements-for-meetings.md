@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f2c7b5ea-07b6-4b77-8023-bec9596fcc32
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,17 +20,17 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何使用 Skype for Business 管理中心打开或关闭 Skype for Business Online 会议的加入和退出公告。 '
-ms.openlocfilehash: 874624c3d7cfb184f4206f61cf2a91a67eb2e2cd
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 8d91db2014439eb2c9e38f65215cf85d6f047157
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779032"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863260"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>打开或关闭 Skype for Business Online 中的会议加入和退出公告
 
 > [!Note]
-> 打开或关闭 Skype for Business Online 中的会议加入和退出公告[ ](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams)
+> 打开或关闭 Skype for Business Online 中的会议加入和退出公告[](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams)
 
 当设置 Office 365 中的音频会议时，您将看到音频会议桥。 会议桥可以包含一个或多个人员用于致电 Skype for Business 会议的电话号码。 
   
@@ -40,7 +41,7 @@ ms.locfileid: "23779032"
   
 ## <a name="setting-meeting-join-options"></a>设置会议加入选项
     
-1. 在 **Skype for Business 管理中心** 中，在左侧导航中，转到**音频会议** > **Microsoft 桥接设置**  。
+1. 在 **Skype for Business 管理中心** 中，在左侧导航中，转到**音频会议** > **Microsoft 桥接设置**。
     
 2. 在 **会议的与会体验**中，选中或清除**打开启用会议加入和退出通知**。 默认情况下，此选项处于选中状态。 如果清除，已加入会议的用户将不会在某人进入或离开会议时收到通知。
     
