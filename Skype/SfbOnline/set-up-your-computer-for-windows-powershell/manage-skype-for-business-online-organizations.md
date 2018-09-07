@@ -1,5 +1,5 @@
 ---
-title: 管理 Skype 的在线业务组织
+title: Skype 管理业务 Online 组织 （英文）
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: c71f0d4d-5b6b-40ac-bc4a-6b97c05a121a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -15,37 +16,38 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: 使用 Windows PowerShell 和 Get CsTenant 和 Get CsTenantLicensingConfiguration cmdlet 以获取有关您的在线业务的租户的 Skype 的信息。
-ms.openlocfilehash: 1b58686b2330b43cc5978752ac4f6b4a91f9588e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 使用 Windows PowerShell 和 Get CsTenant 和 Get CsTenantLicensingConfiguration cmdlet 来获取有关您 Skype 业务 Online 租户的信息。
+ms.openlocfilehash: 279f9431c69605377fcc0070bf9c81a027cb4064
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863330"
 ---
-# <a name="manage-skype-for-business-online-organizations"></a><span data-ttu-id="836f2-103">管理 Skype 的在线业务组织</span><span class="sxs-lookup"><span data-stu-id="836f2-103">Manage Skype for Business Online organizations</span></span>
+# <a name="manage-skype-for-business-online-organizations"></a><span data-ttu-id="3ed52-103">Skype 管理业务 Online 组织 （英文）</span><span class="sxs-lookup"><span data-stu-id="3ed52-103">Manage Skype for Business Online organizations</span></span>
 
-<span data-ttu-id="836f2-104">您可以使用**Get CsTenant**和**Get CsTenantLicensingConfiguration** cmdlet 有关您 Skype 的在线商业租户找到信息。</span><span class="sxs-lookup"><span data-stu-id="836f2-104">You can find information about your Skype for Business Online tenant by using the **Get-CsTenant** and **Get-CsTenantLicensingConfiguration** cmdlets.</span></span>
+<span data-ttu-id="3ed52-104">您可以通过使用**Get-CsTenant**和**Get CsTenantLicensingConfiguration** cmdlet 查找有关您的业务 Online 租户的 Skype 的信息。</span><span class="sxs-lookup"><span data-stu-id="3ed52-104">You can find information about your Skype for Business Online tenant by using the **Get-CsTenant** and **Get-CsTenantLicensingConfiguration** cmdlets.</span></span>
   
-## <a name="manage-skype-for-business-online-tenants"></a><span data-ttu-id="836f2-105">管理 Skype 的在线业务的承租人</span><span class="sxs-lookup"><span data-stu-id="836f2-105">Manage Skype for Business Online tenants</span></span>
+## <a name="manage-skype-for-business-online-tenants"></a><span data-ttu-id="3ed52-105">Skype 管理业务 Online 租户 （英文）</span><span class="sxs-lookup"><span data-stu-id="3ed52-105">Manage Skype for Business Online tenants</span></span>
 
-<span data-ttu-id="836f2-106">若要返回您 Skype 的在线商业租户有关的信息，请调用不带任何附加参数[获取 CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) cmdlet。</span><span class="sxs-lookup"><span data-stu-id="836f2-106">To return information about your Skype for Business Online tenant, call the [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) cmdlet without any additional parameters.</span></span>
+<span data-ttu-id="3ed52-106">若要返回有关您 Skype 业务 Online 租户的信息，请调用不带任何其他参数的[Get CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) cmdlet。</span><span class="sxs-lookup"><span data-stu-id="3ed52-106">To return information about your Skype for Business Online tenant, call the [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) cmdlet without any additional parameters.</span></span>
   
 ```
 Get-CsTenant
 ```
 
-<span data-ttu-id="836f2-107">返回只是租户，名称和 ID，请使用此命令。</span><span class="sxs-lookup"><span data-stu-id="836f2-107">To return just the tenant name and ID, use this command.</span></span>
+<span data-ttu-id="3ed52-107">要返回仅租户名称和 ID，使用此命令。</span><span class="sxs-lookup"><span data-stu-id="3ed52-107">To return just the tenant name and ID, use this command.</span></span>
   
 ```
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
-<span data-ttu-id="836f2-108">运行[设置 CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602)和[一组 CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080.aspx)等的 cmdlet 时需要_TenantID_参数的值。</span><span class="sxs-lookup"><span data-stu-id="836f2-108">The value of the  _TenantID_ parameter is required when running cmdlets such as [Set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) and [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080.aspx).</span></span>
+<span data-ttu-id="3ed52-108">运行 cmdlet[设置 CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602)等[设置 CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080.aspx)时需要_TenantID_参数的值。</span><span class="sxs-lookup"><span data-stu-id="3ed52-108">The value of the  _TenantID_ parameter is required when running cmdlets such as [Set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) and [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080.aspx).</span></span>
   
-<span data-ttu-id="836f2-109">若要查找有关授权指定的租户信息是否可用在 Skype 的在线业务管理中心信息，使用[Get CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) cmdlet。</span><span class="sxs-lookup"><span data-stu-id="836f2-109">To find information about whether licensing information for the specified tenant is available in the Skype for Business Online admin center, use the [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) cmdlet.</span></span>
+<span data-ttu-id="3ed52-109">要查找有关是否为指定租户的许可信息为业务 Online 管理中心的 Skype 中提供的信息，请使用[Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) cmdlet。</span><span class="sxs-lookup"><span data-stu-id="3ed52-109">To find information about whether licensing information for the specified tenant is available in the Skype for Business Online admin center, use the [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) cmdlet.</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="836f2-110">相关主题</span><span class="sxs-lookup"><span data-stu-id="836f2-110">Related topics</span></span>
-[<span data-ttu-id="836f2-111">设置计算机上的 Skype 业务在线管理使用 Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="836f2-111">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)
+## <a name="related-topics"></a><span data-ttu-id="3ed52-110">相关主题</span><span class="sxs-lookup"><span data-stu-id="3ed52-110">Related topics</span></span>
+[<span data-ttu-id="3ed52-111">设置您的计算机的业务联机管理使用 Windows PowerShell 的 Skype</span><span class="sxs-lookup"><span data-stu-id="3ed52-111">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)
 
   
  
