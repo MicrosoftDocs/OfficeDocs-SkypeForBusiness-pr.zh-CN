@@ -7,28 +7,29 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
+search.appverid: MET150
 description: 了解你需要执行电子数据展示时（例如，你需要提交所有电子方式存储的信息用于法律程序时）要完成的事项。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02efc096362c194d580edc259f9afa5c65fd1cda
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: bb3595bba2ae394f4a4c483ba2a447cd3ebbb857
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23843706"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867610"
 ---
-<a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a><span data-ttu-id="38f15-103">在 Microsoft Teams 中对内容进行电子数据展示调查</span><span class="sxs-lookup"><span data-stu-id="38f15-103">Conduct an eDiscovery investigation of content in Microsoft Teams</span></span>
+<a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a><span data-ttu-id="2ae39-103">在 Microsoft Teams 中对内容进行电子数据展示调查</span><span class="sxs-lookup"><span data-stu-id="2ae39-103">Conduct an eDiscovery investigation of content in Microsoft Teams</span></span>
 ============================
 
-<span data-ttu-id="38f15-104">大型企业经常会面临处罚严厉的法律程序，这些法律程序要求提交所有电子方式存储的信息 (ESI)。</span><span class="sxs-lookup"><span data-stu-id="38f15-104">Large Enterprises are often exposed to high penalty legal proceedings which demand submission of all Electronically Stored Information (ESI).</span></span>
+<span data-ttu-id="2ae39-104">大型企业经常会面临处罚严厉的法律程序，这些法律程序要求提交所有电子方式存储的信息 (ESI)。</span><span class="sxs-lookup"><span data-stu-id="2ae39-104">Large Enterprises are often exposed to high penalty legal proceedings which demand submission of all Electronically Stored Information (ESI).</span></span>
 
-<span data-ttu-id="38f15-105">所有 Teams 一对一或群组聊天都会全部记录到各个用户的邮箱，所有频道消息都会全部记录到表示团队的群组邮箱。</span><span class="sxs-lookup"><span data-stu-id="38f15-105">All Teams 1:1 or group chats are journaled through to the respective users’ mailboxes and all channel messages are journaled through to the group mailbox representing the Team.</span></span> <span data-ttu-id="38f15-106">SharePoint Online 和 OneDrive for Business 的电子数据展示功能的对象涵盖上载的文件。</span><span class="sxs-lookup"><span data-stu-id="38f15-106">Files uploaded are covered under the eDiscovery functionality for SharePoint Online and OneDrive for Business.</span></span>
+<span data-ttu-id="2ae39-105">所有 Teams 一对一或群组聊天都会全部记录到各个用户的邮箱，所有频道消息都会全部记录到表示团队的群组邮箱。</span><span class="sxs-lookup"><span data-stu-id="2ae39-105">All Teams 1:1 or group chats are journaled through to the respective users’ mailboxes and all channel messages are journaled through to the group mailbox representing the Team.</span></span> <span data-ttu-id="2ae39-106">SharePoint Online 和 OneDrive for Business 的电子数据展示功能的对象涵盖上载的文件。</span><span class="sxs-lookup"><span data-stu-id="2ae39-106">Files uploaded are covered under the eDiscovery functionality for SharePoint Online and OneDrive for Business.</span></span>
 
-1.  <span data-ttu-id="38f15-107">进行电子数据展示调查的 Microsoft 团队内容，请查看步骤 1 中[此](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da)链接。</span><span class="sxs-lookup"><span data-stu-id="38f15-107">To conduct an eDiscovery investigation with Microsoft Teams content, review step 1 in [this](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) link.</span></span>
+1.  <span data-ttu-id="2ae39-107">进行电子数据展示调查的 Microsoft 团队内容，请查看步骤 1 中[此](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da)链接。</span><span class="sxs-lookup"><span data-stu-id="2ae39-107">To conduct an eDiscovery investigation with Microsoft Teams content, review step 1 in [this](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) link.</span></span>
 
-2.  <span data-ttu-id="38f15-108">Microsoft Teams 数据将以**即时消息或对话**形式显示在 Excel 输出中，或者你可以在 Outlook 中装载 **.PST**。</span><span class="sxs-lookup"><span data-stu-id="38f15-108">Microsoft Teams data will appear as **IM or Conversations** in the Excel output, or you can mount the **.PST** in Outlook.</span></span>
+2.  <span data-ttu-id="2ae39-108">Microsoft Teams 数据将以**即时消息或对话**形式显示在 Excel 输出中，或者你可以在 Outlook 中装载 **.PST**。</span><span class="sxs-lookup"><span data-stu-id="2ae39-108">Microsoft Teams data will appear as **IM or Conversations** in the Excel output, or you can mount the **.PST** in Outlook.</span></span>
 
-    <span data-ttu-id="38f15-109">a.</span><span class="sxs-lookup"><span data-stu-id="38f15-109">a.</span></span>  <span data-ttu-id="38f15-110">装载团队的 .PST 时，请注意，所有对话均保留在“对话历史记录”下的“团队聊天”文件夹中。</span><span class="sxs-lookup"><span data-stu-id="38f15-110">When mounting the .PST for the Team, note that all conversations are kept in the Team Chat folder under Conversation History.</span></span> <span data-ttu-id="38f15-111">消息的标题与团队和频道一致。</span><span class="sxs-lookup"><span data-stu-id="38f15-111">The title of the message aligns to Team and Channel.</span></span> <span data-ttu-id="38f15-112">如下图所示，你可以看到 Bob 在 Manufacturing Specs 团队的“Project 7”频道中发送的此消息。</span><span class="sxs-lookup"><span data-stu-id="38f15-112">From reviewing the image below, you can see this message from Bob who messaged the Project 7 channel of the Manufacturing Specs team.</span></span>
-<span data-ttu-id="38f15-113">![Outlook 中用户邮箱中的“团队聊天”文件夹屏幕截图。](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)</span><span class="sxs-lookup"><span data-stu-id="38f15-113">![Screenshot of a Team Chat folder in a user's mailbox in Outlook.](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)</span></span>
+    <span data-ttu-id="2ae39-109">a.</span><span class="sxs-lookup"><span data-stu-id="2ae39-109">a.</span></span>  <span data-ttu-id="2ae39-110">装载团队的 .PST 时，请注意，所有对话均保留在“对话历史记录”下的“团队聊天”文件夹中。</span><span class="sxs-lookup"><span data-stu-id="2ae39-110">When mounting the .PST for the Team, note that all conversations are kept in the Team Chat folder under Conversation History.</span></span> <span data-ttu-id="2ae39-111">消息的标题与团队和频道一致。</span><span class="sxs-lookup"><span data-stu-id="2ae39-111">The title of the message aligns to Team and Channel.</span></span> <span data-ttu-id="2ae39-112">如下图所示，你可以看到 Bob 在 Manufacturing Specs 团队的“Project 7”频道中发送的此消息。</span><span class="sxs-lookup"><span data-stu-id="2ae39-112">From reviewing the image below, you can see this message from Bob who messaged the Project 7 channel of the Manufacturing Specs team.</span></span>
+<span data-ttu-id="2ae39-113">![Outlook 中用户邮箱中的“团队聊天”文件夹屏幕截图。](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)</span><span class="sxs-lookup"><span data-stu-id="2ae39-113">![Screenshot of a Team Chat folder in a user's mailbox in Outlook.](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)</span></span>
 
-3.  <span data-ttu-id="38f15-114">要查看某个用户的邮箱中的私人聊天，也在“对话历史记录”下的“团队聊天”文件夹中找到它们。</span><span class="sxs-lookup"><span data-stu-id="38f15-114">To see private chats in a user’s Mailbox, they are also located inside the Team Chat folder under Conversation History.</span></span>
+3.  <span data-ttu-id="2ae39-114">要查看某个用户的邮箱中的私人聊天，也在“对话历史记录”下的“团队聊天”文件夹中找到它们。</span><span class="sxs-lookup"><span data-stu-id="2ae39-114">To see private chats in a user’s Mailbox, they are also located inside the Team Chat folder under Conversation History.</span></span>
