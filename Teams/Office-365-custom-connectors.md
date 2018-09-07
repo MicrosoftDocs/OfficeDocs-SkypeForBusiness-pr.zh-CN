@@ -7,15 +7,16 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lucarras
+search.appverid: MET150
 description: 连接器通过将你常用的服务中的内容和更新传输到频道，使你的团队持续获得最新信息。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6564302689208d0afd05cd4a6323478cc7506f9f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5bb29766d17ea51fdac1e898fdfa6fde72526314
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20994867"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867594"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft Teams 中使用 Office 365 和自定义连接器
 =======================================================

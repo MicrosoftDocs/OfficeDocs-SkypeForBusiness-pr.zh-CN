@@ -9,6 +9,7 @@ ms.assetid: 945d8b19-d310-44fc-b804-89eb3dd64ea8
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于西班牙业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 6e18c5e4ad8270d8eb50f440dbce752a2d7ecba5
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: d76cb4408e68c9f70f07066802d0529073f004b1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783755"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868450"
 ---
 # <a name="availability-in-spain"></a>西班牙中的可用性
 

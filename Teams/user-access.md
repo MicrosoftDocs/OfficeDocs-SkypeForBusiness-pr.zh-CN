@@ -7,17 +7,18 @@ ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
+search.appverid: MET150
 description: 了解如何基于每个用户启用或禁用用户级别访问。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7d30f5516ba0b44bc5ff854fcc9f5482fdf24c2
-ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
+ms.openlocfilehash: 272a7c4e77e1d8a62fa9f1de49461b44bc50b687
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21779508"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851544"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>管理对 Microsoft Teams 的用户访问
 =====================================

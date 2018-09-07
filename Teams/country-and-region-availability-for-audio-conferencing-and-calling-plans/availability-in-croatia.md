@@ -9,6 +9,7 @@ ms.assetid: 30a528ca-43bc-4e7f-81fe-3adc7d3d6acb
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于克罗地亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 2946874684c131ea832e96d4ac9151e9530cff66
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 8a1957e462597047113589c68826857e373848a9
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783987"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868042"
 ---
 # <a name="availability-in-croatia"></a>克罗地亚中的可用性
 

@@ -5,15 +5,16 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 description: 了解如何使用 Windows PowerShell 管理所有的 Microsoft 团队中找到的功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3914b8d1534d26d3a69931f8eaaa9a359ed53eb0
-ms.sourcegitcommit: 41e325c5440e26cc39a3c8945020f597f8dfac96
+ms.openlocfilehash: 51ebac4bed4b390758fe3fd2989f274febef6f7f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22213326"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868210"
 ---
 # <a name="using-powershell-to-manage-teams"></a>使用 PowerShell 管理团队
 我将 envision 此为参考主题，将按照功能设置。 则每个功能集会将所有带到获取帮助主题的链接表中列出的 cmdlet。

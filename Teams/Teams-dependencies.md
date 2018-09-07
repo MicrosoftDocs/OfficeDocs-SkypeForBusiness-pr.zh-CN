@@ -7,15 +7,16 @@ ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
+search.appverid: MET150
 description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ce2d706264b8e05672f4b994e213cde594f1203
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: a646ba320681b6e92ec35b6cf62f14ecff0a54dd
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23843890"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860440"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授权来宾访问
 ===========================================

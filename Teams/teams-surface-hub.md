@@ -10,17 +10,18 @@ ms.service: msteams
 ms.reviewer: jatpatel
 description: 配置 Microsoft 团队面中心的管理设置。
 localization_priority: Normal
+search.appverid: MET150
 ms.custom:
 - Devices
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17ba794c2a0b2a09081da41b5fad5df2bee5bb4c
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: ab8bb4be2d98c33ad01827f3eb6a3c940bfb6228
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23844762"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868218"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>曲面集线器部署的 Microsoft 团队
 ======================================

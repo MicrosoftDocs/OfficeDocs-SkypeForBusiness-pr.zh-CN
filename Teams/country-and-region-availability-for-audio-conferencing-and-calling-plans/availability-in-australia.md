@@ -9,6 +9,7 @@ ms.assetid: 98a819e4-6dd9-47ee-8c79-586aae727111
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于澳大利亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: d5638260ea27ef33f6934734f7df2aa4639e0128
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 97a2e1b565a47f45787bc0d732f0ee622dc3ec7d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783107"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868194"
 ---
 # <a name="availability-in-australia"></a>澳大利亚中的可用性
 
@@ -39,7 +40,7 @@ ms.locfileid: "23783107"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |不可以。 [请与我们联系](mailto:ptnapac@microsoft.com)。 <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |不可以。 [请联系我们](mailto:ptnapac@microsoft.com)。 <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
 
 ## <a name="phone-system"></a>电话系统
@@ -53,7 +54,7 @@ ms.locfileid: "23783107"
 
 ## <a name="calling-plans"></a>通话套餐
 > [!IMPORTANT]
-> 当前仅适用于预览和早期采用澳大利亚中的。 有关详细信息，请参阅[Telstra 调用 for Office 365](https://aka.ms/TelstraVoicePlan)。
+> 当前仅适用于预览和早期采用澳大利亚中的。 有关详细信息，请参阅 [Telstra Call for Office 365](https://aka.ms/TelstraVoicePlan)。
 
 |**功能**|**详细信息**|
 |:-----|:-----|

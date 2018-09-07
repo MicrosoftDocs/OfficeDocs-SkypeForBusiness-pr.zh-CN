@@ -1,5 +1,5 @@
 ---
-title: "编辑来宾用户信息"
+title: 编辑来宾用户信息
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
@@ -7,14 +7,16 @@ ms.date: 10/23/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
-description: "了解管理员如何在 Azure Active Directory 门户中编辑有关来宾用户的信息。"
+search.appverid: MET150
+description: 了解管理员如何在 Azure Active Directory 门户中编辑有关来宾用户的信息。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2469e7d0502b93a38e23e5a61b4ff653d0ddc468
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 0a5e6aca616655d45e0d802d879dbe5fe903f8a7
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860344"
 ---
 <a name="edit-guest-user-information"></a>编辑来宾用户信息
 ===========================
