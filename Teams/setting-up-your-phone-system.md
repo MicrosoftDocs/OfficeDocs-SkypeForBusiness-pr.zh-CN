@@ -7,6 +7,7 @@ ms.reviewer: makolomi
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为组织设置电话系统 (云 PBX)。 '
-ms.openlocfilehash: 5001621b2469c96cdad808003b8fcf7168fa4bb8
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 83db27b8737b2027d4d983bdd736bed7785c5e60
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785947"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853348"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>在你有组织中设置电话系统
 

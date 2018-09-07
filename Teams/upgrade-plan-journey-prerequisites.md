@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: turgayo
 description: 使用本指南可了解有关先决条件和环境依赖项以在组织中部署团队
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02189643a08eaace7a35e505d60044254f746c4d
-ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.openlocfilehash: 9db3bcc8e9171670288d0e5b14e120a9dd3692f0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "21600522"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851052"
 ---
 ![升级旅程，重点强调的技术的准备阶段的阶段](media/upgrade-banner-tech-readiness.png "升级旅程，重点强调的技术的准备阶段的阶段")
 

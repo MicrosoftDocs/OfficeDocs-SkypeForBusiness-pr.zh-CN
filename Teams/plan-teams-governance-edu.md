@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: rowille
 description: 使用团队的 Microsoft 教育组管理员从常见问题的答案。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4991990143b0292f83b5c71b8b2bf01a5d612184
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: f798d9bd18316f7a78c846e473a8a5dfbae0c6c6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599451"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860506"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>对于管理员 Microsoft 教育调控常见问题
 

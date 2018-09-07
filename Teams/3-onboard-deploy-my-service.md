@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 05/16/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: 下载站点启用设置方案规划您的团队推出和加速和优化用户应用，认知质量和满意度。
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3e40009a76ef7c8f31d659d45de1e4acf0801ec
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: bd3b1482430a24c20d4a5969c44f4c27a8115731
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695507"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860292"
 ---
 # <a name="deploy-my-service"></a>部署我服务
 
@@ -53,7 +54,7 @@ ms.locfileid: "19695507"
 
 -   用户启用
 
--   端点
+-   终结点
 
 -   使用率和质量
 

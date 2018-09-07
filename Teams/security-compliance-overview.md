@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: anach
 description: Microsoft Teams 中的安全性和合规性概述，包括审核和报告、合规性内容搜索以及电子数据展示等。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7dbbee64837e9a00ec09e09d93342741bee3a7c7
-ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
+ms.openlocfilehash: 7a778288b32e9f8ce84e5ec037a531a8357e181c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "20265896"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850220"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和合规性概述
 ======================================================
@@ -34,11 +35,11 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 ## <a name="auditing-and-reporting"></a>审核和报告
 
-审核日志搜索置于 Office 365 安全性和合规性中心中，进而可以通过提供审核日志数据对审核事件设置警报和/或进行报告，能够导出工作负荷特定或一般事件集以用于管理和调查，审核时间线无限制。 所有审核日志数据可用于在 Office 365 安全性和合规性中心中设置警报，以及用于筛选和报告以供进一步分析。 请参阅此[链接](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)可了解有关如何进行审核日志搜索的 Office 365 安全性和合规性中心中的 Microsoft 团队事件详细信息。 
+审核日志搜索置于 Office 365 安全性和合规性中心中，进而可以通过提供审核日志数据对审核事件设置警报和/或进行报告，能够导出工作负荷特定或一般事件集以用于管理和调查，审核时间线无限制。 所有审核日志数据可用于在 Office 365 安全性和合规性中心中设置警报，以及用于筛选和报告以供进一步分析。 请参阅此[链接](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)可了解有关如何进行审核日志搜索的 Office 365 安全性和合规性中心中的 Microsoft 团队事件详细信息。 
 
 ## <a name="compliance-content-search"></a>合规性内容搜索
 
-内容搜索可以用于通过筛选功能的富所有团队数据都搜索和导出到特定合规性和诉讼支持的容器。 在有无电子数据展示案例的情况下，均可执行此操作。 这样，合规性管理员可以跨所有用户收集团队数据、 查看和导出进行进一步处理。 请参阅此[链接](https://support.office.com/en-us/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4?ui=en-US&rs=en-US&ad=US#teamsandgroups)可了解有关如何执行合规性内容搜索的 Microsoft 团队中的内容的 Office 365 安全性和 Complianc 中心详细信息。 
+内容搜索可以用于通过筛选功能的富所有团队数据都搜索和导出到特定合规性和诉讼支持的容器。 在有无电子数据展示案例的情况下，均可执行此操作。 这样，合规性管理员可以跨所有用户收集团队数据、 查看和导出进行进一步处理。 请参阅此[链接](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)可了解有关如何执行合规性内容搜索中的 Office 365 安全性和合规性中心的 Microsoft 团队内容的详细信息。 
 
 提示： 可以使用 kind MicrosoftTeams 进行筛选，通过仅内容的 Microsoft 团队即聊天和通道消息、 会议和呼叫。 
 
@@ -48,9 +49,9 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 有关如何执行操作安全和合规性中心和运行合规性内容搜索团队内容中的电子数据展示的详细信息，请转到以下链接： 
 
-[电子数据展示](https://support.office.com/en-us/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e?ui=en-US&rs=en-US&ad=US) 
+[电子数据展示](https://support.office.com/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e) 
 
-[内容搜索](https://support.office.com/en-us/article/search-for-content-in-office-365-df2d1e0f-b476-42c9-aade-4a260b24f193)
+[内容搜索](https://support.office.com/article/search-for-content-in-office-365-df2d1e0f-b476-42c9-aade-4a260b24f193)
 
 客户可以利用就地电子数据展示或 [高级电子数据展示] 每他们的需求 (https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4)。 下表概括列出了这两者之间的差异：
 
@@ -69,7 +70,7 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 ## <a name="legal-hold"></a>法定保留
 
-在诉讼，它通常所需的所有数据相关都联的用户 （管理员） 或团队永久保留，因此可用作证据的大小写。 这被通过发出合法保留的用户 （用户邮箱） 或团队。 时团队中的任何团队置于就地保留 （至目标的查询或筛选的内容邮箱或网站集的子集） 或诉讼保留 （整个邮箱或网站集），组邮箱置于保留项。 这样可以确保即使最终用户删除或编辑组邮箱到 ingested 的通道消息，该内容的变副本是维护和 eDisscovery 搜索中可用。 通常在电子数据展示案例的上下文中应用法定保留。 请参阅[此](https://support.office.com/en-us/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a)帮助文章以了解有关保留和 Office 365 安全性和合规性中心中的保留项的详细信息。 
+在诉讼，它通常所需的所有数据相关都联的用户 （管理员） 或团队永久保留，因此可用作证据的大小写。 这被通过发出合法保留的用户 （用户邮箱） 或团队。 时团队中的任何团队置于就地保留 （至目标的查询或筛选的内容邮箱或网站集的子集） 或诉讼保留 （整个邮箱或网站集），组邮箱置于保留项。 这样可以确保即使最终用户删除或编辑组邮箱到 ingested 的通道消息，该内容的变副本是维护和 eDisscovery 搜索中可用。 通常在电子数据展示案例的上下文中应用法定保留。 请参阅[此](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a)帮助文章以了解有关保留和 Office 365 安全性和合规性中心中的保留项的详细信息。 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>信息的 Microsoft 团队保护体系结构。 
 
@@ -134,7 +135,7 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 ### <a name="can-we-include-teams-in-org-wide-policies"></a>我们可以在组织范围的策略中包括团队？ 
 
-否，当前不。 您必须创建团队聊天和频道的邮件使用团队位置行或这些团队 cmdlet 的特定策略：[新建 TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & [新建 TeamsComplianceRetentionRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)。 这些 cmdlet 将获取和设置以及版本。
+否，当前不。 您必须创建团队聊天和频道的邮件使用团队位置行或这些团队 cmdlet 的特定策略：[新建 TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & [新建 TeamsComplianceRetentionRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)。 这些 cmdlet 将获取和设置以及版本。
 
 ### <a name="are-these-retention-policies-retroactive"></a>有以下保留策略影响以前的版本？ 
 
@@ -164,10 +165,10 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 |策略|规则|
 |---|---|
-|[新 TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [新 TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
-|[Get TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
-|[设置 TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [设置 TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
-|[删除 TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [删除 TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
+|[新 TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [新 TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
+|[Get TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
+|[设置 TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [设置 TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
+|[删除 TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [删除 TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
 
 ### <a name="if-there-are-multiple-retention-policies-for-teams-with-varying-durations-which-one-wins"></a>如果有多个团队具有不同的工期，哪一个 wins 的保留策略？
 
@@ -226,9 +227,11 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 Teams 中的数据位于与你的 Office 365 租户关联的地理区域。 当前，Teams 支持美洲、欧洲、中东和非洲以及亚太地区这些区域。 
 
 > [!IMPORTANT]
-> Teams 目前在英国和印度仅为新租户提供数据驻留。 新租户的定义是，该租户中没有任何一个用户登录过 Teams。 英国和印度的现有租户将继续分别保留在 EMEA 和 APAC 区域中，直至宣布迁移计划（预计在 2018 年）。
+> 团队目前提供数据住所在英国、 加拿大和印度的仅新租户。 新租户的定义是，该租户中没有任何一个用户登录过 Teams。 英国、 加拿大和印度从现有租户将继续之前一直处于 EMEA、 美国和 APAC 区域分别迁移计划为宣布 （预期 CY2019）。
 
-要详细了解为 Teams 启动英国和印度数据驻留的信息，请阅读 Ansuman Acharya 的博客文章 [Microsoft Teams 启动印度数据驻留，其他地理位置不久将启动](https://go.microsoft.com/fwlink/?linkid=867773)。
+要详细了解为 Teams 启动英国和印度数据驻留的信息，请阅读 Ansuman Acharya 的博客文章 [Microsoft Teams 启动印度数据驻留，其他地理位置不久将启动](https://go.microsoft.com/fwlink/?linkid=867773)。 
+
+加拿大数据住所团队的详细信息，请参阅[Microsoft 团队启动加拿大数据住所、 澳大利亚和日本即将提供](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178)。 
 
 要查看哪些区域托管你的租户数据，请转到 [Office 365 管理中心](https://portal.office.com/adminportal/home) > “**设置**” > “**组织配置文件**”。 向下滚动到“**数据位置**”。 
 
@@ -239,11 +242,11 @@ Teams 中的数据位于与你的 Office 365 租户关联的地理区域。 当�
 
 Microsoft 团队严重依赖于 Exchange Online、 SharePoint Online 和 Skype 的在线核心工作效率方案，如会议、 日历、 业务互操作聊天和文件共享。 为这些云应用程序设置的条件的访问策略应用于 Microsoft 团队时用户迹象直接在 Microsoft 团队的任何客户端上。 
 
-单独的 Microsoft 团队支持作为云应用程序在 Azure Active Directory 条件访问策略。 当用户登录时，为 Microsoft 团队云应用程序设置的条件的访问策略将适用于 Microsoft 团队。 但是，不正确的策略，如 Exchange Online 和 SharePoint Online 的其他应用程序的情况下用户可能仍将能够直接访问这些资源。 对于有关 azure 门户中的某个条件的访问策略设置的详细信息，请转到此处: (https://docs.microsoft.com/en-us/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
+单独的 Microsoft 团队支持作为云应用程序在 Azure Active Directory 条件访问策略。 当用户登录时，为 Microsoft 团队云应用程序设置的条件的访问策略将适用于 Microsoft 团队。 但是，不正确的策略，如 Exchange Online 和 SharePoint Online 的其他应用程序的情况下用户可能仍将能够直接访问这些资源。 对于有关 azure 门户中的某个条件的访问策略设置的详细信息，请转到此处: (https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
 
 Windows 和 Mac 的 Microsoft 团队桌面客户端支持现代身份验证。 现代身份验证将跨平台基于在 Azure Active Directory 身份验证库 (ADAL) Microsoft Office 客户端应用程序登录。
 
-Microsoft 团队桌面应用程序支持 AppLocker。  有关 AppLocker 先决条件的详细信息，请参阅： 要求使用 AppLocker (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/applocker/requirements-to-use-applocker)。
+Microsoft 团队桌面应用程序支持 AppLocker。  有关 AppLocker 先决条件的详细信息，请参阅： 要求使用 AppLocker (https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/requirements-to-use-applocker)。
 
 <a name="privacy-in-teams"></a>Teams 中的隐私
 --------------------------

@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: rowille
 description: 收集用户反馈，从而提高 Microsoft 团队或 Skype for Business 中的云语音实现。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92336183b6c96e789ce079119a1acc05ba3da4af
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 86a806c546418a36a16cbf6dcf4df70df9a61236
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695435"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867538"
 ---
 # <a name="user-feedback-surveys"></a>用户反馈调查 
 

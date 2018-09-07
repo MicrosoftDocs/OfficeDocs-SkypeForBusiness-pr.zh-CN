@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: 了解 Office 365 组如选择使用团队客户端或 Office 365 管理 web 控制台中，以及如何告知您的团队有关使用对话的公共和私有组规划时应做出的决策。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f89b6c8c21a196903ff476ffa1a072b7c999b6ce
-ms.sourcegitcommit: 5fb3957b658b48edf3d9878a9d53a4002b8f55d8
+ms.openlocfilehash: 735044773ba6b0e63d5a2b544345b3bff25b6dc5
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23520067"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854106"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>在 Microsoft Teams 中创建团队时规划 Office 365 组
 ==========================================================
@@ -46,4 +47,4 @@ ms.locfileid: "23520067"
 
 -   [添加或从使用 Office 365 管理中心内的 Office 365 组删除成员](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
 
--   [还原已删除的 Office 365 组](https://support.office.com/en-us/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)
+-   [还原已删除的 Office 365 组](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)

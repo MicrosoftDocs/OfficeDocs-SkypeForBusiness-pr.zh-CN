@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d080bb8c-3465-47bb-ad2b-9428f1a3fd24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
-ms.openlocfilehash: 117af07a388eaab0fda5f70777a8bc0aea16210e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 76c8b88bf4352cd0196f9ea25cef8361dda2a9b0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785643"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850922"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>尝试或购买 Microsoft 团队的 Office 365 中的音频会议
 
@@ -33,7 +34,7 @@ ms.locfileid: "23785643"
 
 您只需为建立音频会议计划安排或潜在顾客会议的人员。 呼入会议的与会者不需要向其分配任何许可证，也不需要其他设置。
 
-如需了解有关定价信息，请参阅[音频会议定价](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)。
+如需了解有关定价信息，请参阅[音频会议定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>步骤 1： 购买和分配音频会议许可证
 

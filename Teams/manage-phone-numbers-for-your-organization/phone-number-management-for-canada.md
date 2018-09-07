@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: none
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的加拿大电话号码的信息。
-ms.openlocfilehash: ec28cbdbc17770d846ffa75e18d77e2f444e6bc0
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: f3f60e8671275ea52b1a094827cca6c82d3704bf
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785955"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865390"
 ---
 # <a name="phone-number-management-for-canada"></a>加拿大的电话号码管理
 

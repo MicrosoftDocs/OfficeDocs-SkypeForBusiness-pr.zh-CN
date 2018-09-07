@@ -10,14 +10,15 @@ ms.reviewer: ''
 description: 了解这些限制、 规格和适用于 Microsoft 团队的其他要求。
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
+search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18db7bc405dcc06a14fccd1a7b3e81ee5f625d0f
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
+ms.openlocfilehash: 60f90a18378dc00da7dc218a85f072cecaa8b943
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21708329"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867794"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>限制和规格的 Microsoft 团队
 =============================================
@@ -62,7 +63,7 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 
 团队中的每个文件选项卡上 SharePoint Online 的后端，运行，因此以上的存储限制适用于团队中每个通道。
 
-有关详细信息，请参阅[SharePoint Online 的限制](https://support.office.com/en-us/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)。
+有关详细信息，请参阅[SharePoint Online 的限制](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)。
 
 <a name="messaging"></a>消息
 ---------

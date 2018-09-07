@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 06/07/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: 测量结果的您的音频会议、 电话系统与调用计划，或电话系统直接路由部署中，并确认您已实现，应该怎么做的产出。
 MS.collection: Strat_MT_TeamsAdmin
 localization_priority: Priority
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b8ac93fe69a4d16289541a8b2a6e7982ed3902e
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 334e27626a5b842bce290696052352b055767053
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695659"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866592"
 ---
 # <a name="define-my-success"></a>定义我成功
 

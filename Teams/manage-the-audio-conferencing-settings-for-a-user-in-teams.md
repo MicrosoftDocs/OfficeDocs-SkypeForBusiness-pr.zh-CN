@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 0f39dc9d-eb60-4c5a-9ae3-e34a01834d9b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '作为 Office 365 管理员，您可以编辑的 Microsoft 团队音频会议设置 — 例如提供程序、 默认收费电话或免费电话号码、 会议 ID 或 PIN-为您的组织中的单个用户。 '
-ms.openlocfilehash: a3049357a4e9acd817be0f319420d9752a515ed8
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 3f6adffcccfeee38b2a8af2d56759aabee25f16c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780834"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23857620"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>管理 Microsoft 团队中的用户的音频会议设置
 

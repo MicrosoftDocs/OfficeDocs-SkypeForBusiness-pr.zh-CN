@@ -8,16 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 description: 介绍如何团队工作负荷利用不同拓扑中的 Office 365 流。
-ms.openlocfilehash: 2374349f426de6fb25d25cc4ded7c6c8a776dd1d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 69b4deb078a0626c8a7cc4dce808825f2d038bac
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964538"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861814"
 ---
 # <a name="microsoft-teams-online-call-flows"></a>Online 的 Microsoft 团队呼叫流
 
@@ -50,7 +51,7 @@ ms.locfileid: "19964538"
 
 ### <a name="connectivity-to-office-365"></a>连接到 Office 365
 
-团队服务需要[连接到 Internet](https://support.office.com/en-us/article/connectivity-to-the-internet-64b420ef-0218-48f6-8a34-74bb27633b10)。 [Office 365 Url 和 IP 地址范围](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)中列出了工作组终结点 Url 和 IP 地址范围。 (注意： 需要打开连接到 TCP 端口 80 和 443 和 UDP 端口 3478 到 3481。)此外，团队服务具有对 Skype 业务联机服务的依赖项，因此它需要连接到 Internet 的还此服务。
+团队服务需要[连接到 Internet](https://support.office.com/article/connectivity-to-the-internet-64b420ef-0218-48f6-8a34-74bb27633b10)。 [Office 365 Url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)中列出了工作组终结点 Url 和 IP 地址范围。 (注意： 需要打开连接到 TCP 端口 80 和 443 和 UDP 端口 3478 到 3481。)此外，团队服务具有对 Skype 业务联机服务的依赖项，因此它需要连接到 Internet 的还此服务。
 
 通过标准 IETF ICE （互动式连接建立） 过程中实现团队媒体流连接。
 

@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: 如何规划从 for Business 的 Skype 您迁移到 Microsoft 团队执行详细的环境发现。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e62d6425f5e38d4763f54c27821a544d3c063420
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 700f92c357e99db970742577c5381510ff450c14
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246527"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23870474"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft 团队部署的环境发现
 ===================================================
@@ -164,7 +165,7 @@ ms.locfileid: "20246527"
 > [!TIP]
 > 要计算的带宽和其他网络要求的云语音量部署，具体取决于组织的详细信息和估计的使用率，请访问[网络规划器](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)中[MyAdvisor](https://myadvisor.fasttrack.microsoft.com/)。
 
-<a name="endpoints"></a>端点
+<a name="endpoints"></a>终结点
 ---------
 
 下表用于捕获的客户端和中使用的终结点的详细信息。

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 3c2db9a5-3a19-4e19-b59e-8e5587f25d31
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 了解您需要哪种产品以及如何会议组织者可以向外调用使用团队的其他人。
-ms.openlocfilehash: aa2e02f15e798f859c850a56937ca30aae7a9264
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: b4e0fc6d2f6f15e53a3802b2676f1859a992b696
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779371"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860522"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>使其他人可以加入它来自 Microsoft 团队会议拨出
 

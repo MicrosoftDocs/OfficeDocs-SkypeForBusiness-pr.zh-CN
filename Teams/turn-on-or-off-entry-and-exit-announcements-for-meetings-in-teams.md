@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f2c7b5ea-07b6-4b77-8023-bec9596fcc32
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何启用条目并退出 Microsoft 团队会议中的打开或关闭通知。 '
-ms.openlocfilehash: b1409c34adce4bdb32013c184e273072858d3322
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 44b3c88b9e4284c7606d57661022dbe21d236147
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23781172"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851004"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>打开或关闭条目和退出通知中的 Microsoft 团队会议
 
@@ -57,7 +58,7 @@ Windows PowerShell Office 365 的功能是管理用户以及允许或不允许�
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-有关 Windows PowerShell 的详细信息，请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps)（英文） 的详细信息。
+有关 Windows PowerShell 的详细信息，请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)（英文） 的详细信息。
   
 ## <a name="related-topics"></a>相关主题
 

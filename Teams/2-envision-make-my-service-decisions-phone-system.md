@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: 从中调用计划和许可、 配置紧急位置和功能，如语音邮件和呼叫者 ID，获取或转接电话号码。
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 477a68996e50c916923948fecbb1dc1e978450b9
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 90cdd9efb2d4b80f9ad8c9ef9bb38dd2adf8bbcd
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780908"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23859994"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -125,7 +126,7 @@ ms.locfileid: "23780908"
 
 默认情况下，电话系统的语音邮件与 Exchange Online; 一起工作但是，它具有的最小支持的 Exchange 内部部署版本和部署模型以允许对内部部署 Exchange 部署中的用户邮箱发送的语音邮件消息。
 
-电话系统语音邮件包括语音邮件转录，默认情况下，为组织中的所有用户启用该功能。 您的业务需求可能需要您禁用语音邮件转录的特定用户或整个组织中的每个人。 如果您的组织决定保留启用语音邮件转录，您需要还考虑是否需要启用语音邮件转录亵渎屏蔽。 有关详细信息，请参阅[设置您的组织中的语音邮件策略](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail)。
+电话系统语音邮件包括语音邮件转录，默认情况下，为组织中的所有用户启用该功能。 您的业务需求可能需要您禁用语音邮件转录的特定用户或整个组织中的每个人。 如果您的组织决定保留启用语音邮件转录，您需要还考虑是否需要启用语音邮件转录亵渎屏蔽。 有关详细信息，请参阅[设置您的组织中的语音邮件策略](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail)。
 
 >[!NOTE]
 > 实施了回退机制，以便电话系统语音邮件可以通过使用 SMTP 重新发送邮件，这意味着，在第三方电子邮件系统中有邮箱的用户将会收到其语音邮件。 此机制不包括保证的服务正常运行时间或其他语音邮件功能，如更改语音邮件问候语。

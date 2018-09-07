@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解有关电话系统可以为您执行的操作。 '
-ms.openlocfilehash: 64d09e65bbbcad612b56e2249a2520e77358bfe9
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 4282ce54bfeed1109f19dd1eb7064fc64375efb8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784603"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853380"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 中的电话系统是什么？
 

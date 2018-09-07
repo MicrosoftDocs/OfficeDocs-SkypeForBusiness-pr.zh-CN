@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 9c590873-b014-4df3-9e27-1bb97322a79d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: 3010c059825831abb1eba69a21ee055e9fd18fa0
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 1b926a24204fe487fbefce11512755b304111bbf
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784035"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860432"
 ---
 # <a name="set-up-phone-system-voicemail"></a>设置电话系统语音邮件
 
@@ -52,15 +53,15 @@ ms.locfileid: "23784035"
     
 2. [分配或删除业务的 Office 365 的许可证](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)，[业务和 Microsoft 团队许可证分配 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)，以及您企业中的人员的 Exchange Online 许可证。
     
-3. 按照[配置商务云连接器版指南的 Skype](https://technet.microsoft.com/en-us/library/mt605228.aspx)**为用户启用电话系统语音和语音邮件服务**部分中的说明。
+3. 按照[配置商务云连接器版指南的 Skype](https://technet.microsoft.com/library/mt605228.aspx)**为用户启用电话系统语音和语音邮件服务**部分中的说明。
 
 4. 对语音邮件转录已添加从年 3 月 2017年和支持的所有组织和用户的默认情况下启用。 通过使用 Windows PowerShell 并执行以下步骤，你可以为组织禁用转录。
 
-5. 你还可以参阅 [Exchange Server 的 azure PBX 的语音邮件支持](https://support.microsoft.com/en-us/kb/3195158)，了解如何为拥有本地邮箱的电话系统用户配置 Azure 语音邮件消息的传递方式。
+5. 你还可以参阅 [Exchange Server 的 azure PBX 的语音邮件支持](https://support.microsoft.com/kb/3195158)，了解如何为拥有本地邮箱的电话系统用户配置 Azure 语音邮件消息的传递方式。
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>设置组织的语音邮件策略
 
-默认情况下，为所有组织和用户启用语音邮件转录并禁用转录亵渎屏蔽；但是，你可以使用 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx) 和 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798311.aspx) cmdlet 对其进行控制。
+默认情况下，为所有组织和用户启用语音邮件转录并禁用转录亵渎屏蔽；但是，你可以使用 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) 和 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) cmdlet 对其进行控制。
 
 > [!IMPORTANT]
 > 无法创建新策略实例转录和转录亵渎屏蔽使用**新建 CsOnlineVoiceMailPolicy** cmdlet，并且您不能删除现有策略实例使用**删除 CsOnlineVoiceMailPolicy** cmdlet.
@@ -73,7 +74,7 @@ ms.locfileid: "23784035"
   
 ### <a name="turning-off-transcription-for-your-organization"></a>为组织禁用转录
 
-由于转录的默认设置是在您的组织，可能要使用[集 CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx)禁用它。 若要执行此操作，请运行：
+由于转录的默认设置是在您的组织，可能要使用[集 CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx)禁用它。 若要执行此操作，请运行：
 
 ```
 Set-CsOnlineVoicemailPolicy -EnableTranscription $false
@@ -81,7 +82,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 
 ### <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>打开组织的转录亵渎屏蔽
 
-默认情况下，为组织禁用转录亵渎屏蔽。 如果有启用它的业务要求，你可以使用 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx) 启用转录亵渎屏蔽。 若要执行此操作，请运行：
+默认情况下，为组织禁用转录亵渎屏蔽。 如果有启用它的业务要求，你可以使用 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) 启用转录亵渎屏蔽。 若要执行此操作，请运行：
 
 ```
 Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
@@ -99,7 +100,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:am
 
 ### <a name="turning-on-transcription-profanity-masking-for-a-user"></a>为用户开启转录亵渎屏蔽
 
-要为特定用户启用转录亵渎屏蔽，你可以使用 [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx) cmdlet 分配一个策略，以便为特定用户启用转录亵渎屏蔽。
+要为特定用户启用转录亵渎屏蔽，你可以使用 [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx) cmdlet 分配一个策略，以便为特定用户启用转录亵渎屏蔽。
 
 要为单个用户启用转录亵渎屏蔽，请运行：
 

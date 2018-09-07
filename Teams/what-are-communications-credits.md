@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 524dbea7-117f-493d-8005-6461f7f10059
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 5efdb56c3aecf4c0700c95f00daff64e9b2dcfec
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 8aa163b3f606320085e6af5770d02329f6120d94
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785115"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23852250"
 ---
 # <a name="what-are-communications-credits"></a>什么是通信点数？
 
@@ -51,7 +52,7 @@ Communications 字幕式是音频会议和调用规划分钟支付的便捷方�
   
 ## <a name="what-are-the-communications-credits-rates"></a>Communications 字幕式率有哪些？
 
-如果您想知道如何的呼叫的成本什么的调用计划，请参阅 Communications 字幕式[用于呼叫的速率](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#Rates)Plans。
+如果您想知道如何的呼叫的成本什么的调用计划，请参阅 Communications 字幕式[用于呼叫的速率](https://products.office.com/skype-for-business/pstn-calling-plans#Rates)Plans。
   
 ## <a name="what-is-it"></a>这是什么？
 

@@ -10,15 +10,16 @@ ms.reviewer: dearbeen
 description: 启动 Microsoft 团队试浏览所有团队的指南可以提供您的组织时您继续使用 Skype for Business
 localization_priority: Priority
 ms.custom: Teams-upgrade-guidance
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35ec24edb381f48992c2f558d1b7e68b1ffd6d74
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: b1a21c14182f0a4666eb5ae236cc9ac382a6bced
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20393924"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867914"
 ---
 ![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
 

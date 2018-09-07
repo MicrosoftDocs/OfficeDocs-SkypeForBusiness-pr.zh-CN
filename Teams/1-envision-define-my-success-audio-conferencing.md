@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: 衡量音频会议部署的结果，并验证已实现，应该怎么做的产出。
 localization_priority: Priority
@@ -13,12 +14,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: a0c42b1a01caf58e3c20fe8deda25cc78a3ac374
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: df0d1742e66d7daa9cd4197dcfbf6a12a0ea872b
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695747"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858990"
 ---
 # <a name="define-my-success"></a>定义我成功
 

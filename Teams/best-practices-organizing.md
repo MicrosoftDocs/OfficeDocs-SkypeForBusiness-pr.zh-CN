@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: 了解在 Microsoft Teams 中组织团队以满足贵组织需求的最佳做法。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be7cd35a85d220163d7d0c762883e7e1018c3115
-ms.sourcegitcommit: fa8732e704f00096c7ff041aba91e617a8d44e29
+ms.openlocfilehash: aa2d931561922a8b5e92e3ec695b4cd8ad4fdb83
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2018
-ms.locfileid: "19875250"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867586"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中组织团队的最佳做法
 ======================================================
@@ -36,7 +37,7 @@ ms.locfileid: "19875250"
 
 创建了团队后，建议先考虑为了推动实现你的目标要展开的不同领域的对话，以及创建一些初始频道，以便大家了解在哪里参与工作以及在哪里找到现有对话。 为频道命名时应意义明确，以便大家可以很容易地了解在频道中展开的对话要实现的目标。 你可以向频道添加新选项卡以添加工具（例如 OneNote、PowerBI 或网页链接）和其他内容，以便大家可以轻松地找到内容及分享想法。
 
-了解更多[工作团队中](https://support.office.com/en-us/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)使用这些快速提示的最终用户。 
+了解更多[工作团队中](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)使用这些快速提示的最终用户。 
 
 <a name="channel-best-practices"></a>通道最佳实践
 ----------------------
@@ -52,6 +53,6 @@ ms.locfileid: "19875250"
 
 当前，你不能删除“常规”频道，也不能将其取消收藏。 为频道命名时，请注意，频道将按字母顺序排列在“常规”频道后面。  在具有许多通道团队使用的"收藏夹通道"功能来控制自动导航到团队时看到的通道。 
 
-了解更多[工作通道中](https://support.office.com/en-us/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels)使用这些快速提示的最终用户。 
+了解更多[工作通道中](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels)使用这些快速提示的最终用户。 
 
 

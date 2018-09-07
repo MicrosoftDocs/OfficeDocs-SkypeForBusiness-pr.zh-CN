@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: lolaj, tonysmit
 description: 使用本指南帮助你在组织中规划、实施和采用 Microsoft Teams。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc4e1815b6d3b649c8af518068ca2d6ff3e9adbc
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fbebf57b4da07f25d9687c27acd70e5cfd25930e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242811"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854994"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>快速入门 - Microsoft Teams 规划指南
 ==========================================================
@@ -50,7 +51,7 @@ ms.locfileid: "23242811"
 
 ## <a name="step-3-complete-technical-planning"></a>步骤 3：完成技术规划
 
-高效的技术规划是实现出色用户体验的基础。 如果贵组织拥有超过 50 个席位且参与了[合格计划](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365)，你可以使用可用的 [FastTrack 优势](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365),指导你完成规划、部署和服务采用，无需任何额外成本。 你也可以使用我们的 FastTrack 上线向导自行完成此工作，使用 Office 365 帐户登录后即可从 [FastTrack](https://fasttrack.microsoft.com/) 获取此向导。 下面的信息将帮助你完成 Teams 的此步骤。 你至少需要阅读下面四篇文章：
+高效的技术规划是实现出色用户体验的基础。 如果贵组织拥有超过 50 个席位且参与了[合格计划](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365)，你可以使用可用的 [FastTrack 优势](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365),指导你完成规划、部署和服务采用，无需任何额外成本。 你也可以使用我们的 FastTrack 上线向导自行完成此工作，使用 Office 365 帐户登录后即可从 [FastTrack](https://fasttrack.microsoft.com/) 获取此向导。 下面的信息将帮助你完成 Teams 的此步骤。 你至少需要阅读下面四篇文章：
 
 1.  [检查你的环境是否为 Teams 准备好](environment-readiness.md)
 2.  [为 Teams 准备你的网络](prepare-network.md)

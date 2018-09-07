@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -24,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 你可以选择某个国家/地区以查看音频会议、电话系统、通话套餐、通信点数以及收费和免费电话号码是否可用。
-ms.openlocfilehash: dede3b8c1d3e844399973046d0569f8b3e3fca20
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6be4aa215277fb8e5a1d4186cdac17eed5ca3d1f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785603"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853340"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -149,7 +150,7 @@ ms.locfileid: "23785603"
 
 要查看关于音频会议的详细信息，请参阅[音频会议常见问题](../audio-conferencing-common-questions.md)
 
-[音频会议的定价](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements) 
+[音频会议的定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements) 
   
 #### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>使用“呼叫我”功能或将其他人添加到会议以便其加入会议
 在音频会议中，有一项名为“*呼叫我*”的功能，可用于允许其他人加入拨入会议。 使用上面的下拉列表搜索国家/地区并查看此功能是否可用。
@@ -164,7 +165,7 @@ ms.locfileid: "23785603"
 
 除了从 Office 365 获取个人用户的电话号码，还可以搜索和获取某些服务的收费或免费电话号码，如音频会议（用于会议网桥）、自动助理和呼叫队列。 这些称为服务号码。 请参阅[Getting 服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)，以获取电话号码。 但是对于你的用户，在将通话套餐分配给他们之后，你可以分配用户电话号码以便他们可以拨打和接听电话。 要查找这些电话号码，请转到[您的用户获取电话号码](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)。 你还可以参阅[为用户分配、更改或删除电话号码](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user)。 
 
-[电话系统的定价](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
+[电话系统的定价](https://products.office.com/skype-for-business/phone-system#Requirements)
 
 > [!NOTE]
 > 根据库存水平，其中一些地点的收费电话号码的可用性可能随时发生变化。 

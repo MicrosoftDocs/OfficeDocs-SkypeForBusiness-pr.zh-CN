@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 以下是有关常见问题到 for Business 的 Skype 转接电话号码。 复查答案，您应该已准备好创建端口订单和转接电话号码。 请参阅到 Office 365 的转接电话号码的说明。
-ms.openlocfilehash: 1153ee53efaf0b158c6c8c63dcd65cfa5f758007
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 17454e6f6ae57c96feeae6f4c3d23b1c6572bd62
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784363"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23869450"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>关于转移电话号码的常见问题
 
@@ -167,7 +168,7 @@ You can check the status of your port order by going to the Skype for Business a
 传输或*端口出*电话号码从 Skype 业务 Online 到另一个电话服务提供商或运营商，您需要设置 PIN。 设置 PIN 后，您需要包括它，当您请求端口出一个电话号码。若要查看如何设置 PIN，请参阅[设置传输到新的服务提供商的数字 PIN](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)。
 
 > [!NOTE]
-> 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
   
 ## <a name="related-topics"></a>相关主题

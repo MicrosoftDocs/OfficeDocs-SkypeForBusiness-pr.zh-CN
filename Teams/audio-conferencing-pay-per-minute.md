@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 标准的音频会议的每用户许可证，除了卷和授权组织还可以选择付薪每分钟版，若要为其组织的音频会议功能。
-ms.openlocfilehash: 16859697bad3ca9409c7973079b9b36ca3085576
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 251116ee5f362710c07a7a53ce4a11f53f3cd09c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783155"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855760"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音频会议按分钟付费
 
@@ -49,7 +50,7 @@ ms.locfileid: "23783155"
 - 向外部电话号码从会议中的组织发出的出站呼叫。
     
 > [!NOTE]
-> 您可以找到关联到这些类型的呼叫通过查看**看到要呼叫部分率**式[音频会议](https://products.office.com/en-us/skype-for-business/pstn-conferencing)的电话拨入式和拨出式速率。 
+> 您可以找到关联到这些类型的呼叫通过查看**看到要呼叫部分率**式[音频会议](https://products.office.com/skype-for-business/pstn-conferencing)的电话拨入式和拨出式速率。 
   
 付薪每分钟需要您的组织有[Communications 字幕式](what-are-communications-credits.md)启用与分配给音频会议，以使每个用户的许可证。 如果您希望更多详细信息，请参阅[Set up Communications 字幕式为您的组织](set-up-communications-credits-for-your-organization.md)和/或[加载项业务和 Microsoft 团队授权的 Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
   
@@ -59,11 +60,11 @@ ms.locfileid: "23783155"
 
  **正在搜索价格？** 请参阅[如何查看价格和购买附加许可证](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing#bkmk_how)或下列选项之一：
   
-- [音频会议的定价](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
+- [音频会议的定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     
-- [电话系统的定价](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
+- [电话系统的定价](https://products.office.com/skype-for-business/phone-system#Requirements)
     
-- [通话套餐的定价](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
+- [通话套餐的定价](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     
 ## <a name="related-topics"></a>相关主题
   

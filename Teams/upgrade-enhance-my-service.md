@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: 定期评估在升级之后增强团队服务、 监控任何有意义的功能增强的团队路线图的机会。
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efdbdd28759f42e1fcba5cb62f2c7a8a97f99bb0
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: c89894f0df37ea1e29cea65e091b7bd4f4670fc0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398090"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864452"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 
@@ -31,7 +32,7 @@ ms.locfileid: "20398090"
 ## <a name="enhance-my-service-overview"></a>增强我服务概述
 您已成功部署到您的组织，团队和运行的服务质量和可靠性下, 一步后是定期评估是否有任何机会来增强您的服务。 这是连续的服务改进，它规划云服务管理现代标准的一部分。 
 
-请确保您将始终获得最有效地使用您的服务的好方法是监视可能感兴趣的组织的新功能增强的[团队公共路线图](https://products.office.com/en-us/business/office-365-roadmap?filters=microsoft%20teams)。 如果您有权访问 Office 365 管理门户，您会收到有关通过我们消息中心的新增和更改功能从我们的定期更新。 
+请确保您将始终获得最有效地使用您的服务的好方法是监视可能感兴趣的组织的新功能增强的[团队公共路线图](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)。 如果您有权访问 Office 365 管理门户，您会收到有关通过我们消息中心的新增和更改功能从我们的定期更新。 
 
 此外，因为组织增长和更改，您应花时间随着并以确保该服务配置以满足组织当前需求的定期更新您的业务使用案例。  确保您通过您的组织中建立反馈通道从您的用户和内部拥护者中获取现实世界的反馈。 这些可非正式对话，正则 meeetings 或完成通过团队频道或 Yammer 社区。 
 

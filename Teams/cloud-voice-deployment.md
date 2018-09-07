@@ -3,21 +3,22 @@ title: 云语音部署
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 06/07/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: MyAdvisor
 description: 在 Microsoft Teams 中部署云语音功能实践指导
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12c7f9378144134a0e09d90e838ca3bc62178ffb
-ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
+ms.openlocfilehash: 001c1b0f69108630267f368b065cc8d72c0b38c5
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20302132"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855276"
 ---
 # <a name="cloud-voice-deployment"></a>云语音部署
 
@@ -41,7 +42,7 @@ Office 365 中的音频会议允许参与者从任何电话加入 Teams 会议�
 
 调用计划是业务 online 传递通过团队和 Skype 的电话系统功能的加载项服务。 调用计划要求问题的用户将驻留在 Skype 业务 online 中的 Microsoft 团队工作。 呼叫计划在您的业务的人员提供一个主要电话号码，并允许其发起和接收与组织以外的电话呼叫通过 PSTN。
 
-若要了解详细信息，请阅读[下面是与 Office 365 中的电话系统获取的内容](https://support.office.com/article/Here-s-what-you-get-with-Phone-System-in-Office-365-bc9756d1-8a2f-42c4-98f6-afb17c29231c)和[什么是 Office 365 中调用计划？](https://support.office.com/article/What-are-Calling-Plans-in-Office-365-3dc773b9-95e0-4448-b2f1-887c54022429)
+若要了解详细信息，请阅读[下面是与 Office 365 中的电话系统获取的内容](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system)和[什么是 Office 365 中调用计划？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
 
 
 ## <a name="phone-system-direct-routing-direct-routing"></a>电话系统，直接路由 （"直接路由"）

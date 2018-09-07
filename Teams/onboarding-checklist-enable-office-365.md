@@ -3,21 +3,22 @@ title: 启用的 Microsoft 团队的 Office 365 服务入职培训清单
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 03/16/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: 配置 Office 365 团队时，请按照的核心、 待办事项任务和此检查表中的活动。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c328e447149e4cd514a3535942a8b0cb7319a9f7
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 1e657fcefbd86f361f41e47369452b87f6463c83
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695691"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865140"
 ---
 # <a name="enable-office-365"></a>启用 Office 365
  
@@ -31,5 +32,5 @@ ms.locfileid: "19695691"
 | 6  | 配置您的环境的标识。 | 用户可以在 Office 365 中创建直接 （在 online 部署模型中） 或从内部部署 Active Directory 同步到 Office 365 租户。 <br/><br/>确定是否应使用云标识、 同步的标识或联盟的标识。 确定正确的标识类型已超出本检查表; 范围但是，您可以**的其他信息**列中找到这些选项的信息的链接。 <br/><br/>**注意：** 如果您使用同步或联合的身份，确保内部部署用户主体名称 (Upn) 匹配 Office 365 Upn，并与 Azure AD 连接同步配置所有必需的属性。 对于所需的团队的属性，使用属性列表的 Skype 业务 online。 | | [了解 Office 365 标识和 Azure Active Directory](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9) <br/><br/>[准备设置用户通过目录同步到 Office 365](https://support.office.com/article/Prepare-to-provision-users-through-directory-synchronization-to-Office-365-01920974-9e6f-4331-a370-13aea4e82b3e) <br/><br/>[Azure AD 连接同步： 同步到 Azure Active Directory 的属性](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-attributes-synchronized) |
 | 7  | 确认租户管理员 | 使用您安全团队开发 Office 365 管理模型。 <br/><br/>请务必确定并记录所有租户和服务的管理员。 | | [有关 Office 365 管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) |
 | 8  | 实现您的租户管理角色 | 验证您的管理模型满足组织的需求，并将 Office 365 管理员角色分配给您的管理员。 | | [分配 Office 365 中的业务的管理员角色](https://support.office.com/article/Assign-admin-roles-in-Office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) |
-| 9  | 构建信息登录到呼叫质量仪表板 (CQD) 上载。 | 每个团队部署应利用 CQD 要深入的质量和可靠性使用团队的所有呼叫。 <br><br>使用**的其他信息**列中列出的 CQD 指南获得此工具的最大好处。 | | [规划服务管理和质量](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide) <br/><br/>[质量体验审阅指南](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) <br/><br/>[质量体验查看模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true) <br/><br/>[打开和使用呼叫质量仪表板的 Microsoft 团队和 Skype 业务 online](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[上载构建信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
+| 9  | 构建信息登录到呼叫质量仪表板 (CQD) 上载。 | 每个团队部署应利用 CQD 要深入的质量和可靠性使用团队的所有呼叫。 <br><br>使用**的其他信息**列中列出的 CQD 指南获得此工具的最大好处。 | | [规划服务管理和质量](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide) <br/><br/>[《体验质量评审指南》](https://aka.ms/qerguide) <br/><br/>[质量体验查看模板](https://aka.ms/qertemplates) <br/><br/>[打开和使用呼叫质量仪表板的 Microsoft 团队和 Skype 业务 online](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[上载构建信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
 | 10  | 验证处理构建信息，以及呼叫质量仪表板 (CQD) 是租户可操作。 | | | [通话质量仪表板](https://cqd.lync.com) |

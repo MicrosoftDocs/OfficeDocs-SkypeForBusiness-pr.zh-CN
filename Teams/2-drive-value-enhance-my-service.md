@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: 定期评估机会增强团队服务、 监控任何有意义的功能增强的团队路线图。
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98ccde7b481b8b57f32979bc73f6c69f4e0d24cd
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 57de86e056c9023bcafbf5d475081b8f50afbe36
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19694807"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856026"
 ---
 # <a name="enhance-my-service"></a>增强我的服务
 
@@ -26,11 +27,11 @@ ms.locfileid: "19694807"
 ## <a name="enhance-my-service-overview"></a>增强我服务概述
 您已成功部署音频会议或电话系统与调用计划服务到您的组织，并运行的服务质量和可靠性下, 一步后是定期评估是否有任何机会增强您的服务。 这是连续的服务改进，它规划云服务管理现代标准的一部分。 
 
-请确保您将始终获得最有效地使用您的服务的好方法是监视可能感兴趣的组织的新功能增强的[团队公共路线图](https://products.office.com/en-us/business/office-365-roadmap?filters=microsoft%20teams)。 如果您有权访问 Office 365 管理门户您将收到有关通过我们消息中心的新增和更改功能从我们的定期更新。 
+请确保您将始终获得最有效地使用您的服务的好方法是监视可能感兴趣的组织的新功能增强的[团队公共路线图](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)。 如果您有权访问 Office 365 管理门户您将收到有关通过我们消息中心的新增和更改功能从我们的定期更新。 
 
 此外，因为组织增长和更改，您应花时间随着并以确保该服务配置以满足组织当前需求的定期更新您的业务使用案例。  确保将通过您的组织中建立反馈通道从您的用户和内部拥护者中获取现实世界的反馈。 这些可非正式对话，正则 meeetings 或通过团队频道或 Yammer 社区。 
 
-当您看到增强您的服务的机会时，花时间正确。 随着我们实现阶段 (https://docs.microsoft.com/en-us/MicrosoftTeams/quick-start-enable-teams) ，应用相同的指南端到端。 不太小、 增量更改时，可能需要完成所有活动和完全，任务，但您应该确保评估每个活动和一路以便在成功结果为自己的最大限度地将任务。
+当您看到增强您的服务的机会时，花时间正确。 随着我们实现阶段 (https://docs.microsoft.com/MicrosoftTeams/quick-start-enable-teams) ，应用相同的指南端到端。 不太小、 增量更改时，可能需要完成所有活动和完全，任务，但您应该确保评估每个活动和一路以便在成功结果为自己的最大限度地将任务。
 
 
 <table>

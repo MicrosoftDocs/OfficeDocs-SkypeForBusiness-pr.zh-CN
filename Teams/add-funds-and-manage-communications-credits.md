@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -28,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: '了解如何支付通信字幕式 （PSTN 消耗量） 的 Skype 业务服务并查看计划以保留您具有连续电话系统的访问权限的用户。 '
-ms.openlocfilehash: 3ac0bff5d5bd0b75e40bf18b41e9e3ceee2dc49c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 281ac6033c5c748161d15a6a588353b2baeed433
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784011"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850906"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>存入资金和管理通信点数
 
@@ -87,7 +88,7 @@ Communications 字幕式是用于电话系统和调用计划在 Office 365 中�
     
 - [设置通话套餐](set-up-calling-plans.md) 和 [Office 365 的通话套餐](calling-plans-for-office-365.md)
         
-- [配置云连接器](https://technet.microsoft.com/en-us/library/mt605228.aspx)和[下载云连接器](https://aka.ms/CloudConnectorInstaller)
+- [配置云连接器](https://technet.microsoft.com/library/mt605228.aspx)和[下载云连接器](https://aka.ms/CloudConnectorInstaller)
 
   
  

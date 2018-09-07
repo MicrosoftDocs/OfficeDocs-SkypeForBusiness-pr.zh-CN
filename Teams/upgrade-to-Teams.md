@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: 选择您为基于业务部署您当前 Skype 的 Microsoft 团队的升级路径
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee46c0af4da4e2101b8052d22a1f91c1769b12d7
-ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
+ms.openlocfilehash: d61cc95b9cb86579ccc64beb53bbcdff3fd420c7
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21148187"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868322"
 ---
 ![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
 

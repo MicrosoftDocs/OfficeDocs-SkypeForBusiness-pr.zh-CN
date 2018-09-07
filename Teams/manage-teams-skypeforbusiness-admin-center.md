@@ -7,6 +7,7 @@ ms.date: 03/23/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
+search.appverid: MET150
 description: 了解如何管理租户范围和团队从团队转换期间的用户设置 Office 365 管理中心到新的 Microsoft 团队和业务管理中心的 Skype 的体验。
 localization_priority: Priority
 ms.custom:
@@ -15,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 5528ecfc3d47738e0f34b56f007e36d193d95da6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b81853b33f457dd8a69890774b4b7ff8902d8226
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968185"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864824"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-and-skype-for-business-admin-center"></a>转换为新的 Microsoft 团队和业务管理中心的 Skype 的过程管理团队
 ======================================================
@@ -44,7 +45,7 @@ ms.locfileid: "20968185"
 从中间年 3 月 2018年，以下功能已在新的 Microsoft 团队和 Skype 的业务管理中心中可用： 
 
 - **Microsoft 团队邮件策略**： 创建用于用户级管理的消息方案的 Microsoft 团队客户端体验的策略。
-- **Microsoft 团队升级策略**： 配置 Microsoft 团队之间 for Business 的 Skype 的互操作性和升级体验。 请参阅， https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype。 
+- **Microsoft 团队升级策略**： 配置 Microsoft 团队之间 for Business 的 Skype 的互操作性和升级体验。 请参阅， https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype。 
 - **消息设置的 Microsoft 团队来宾**： 控制中的 Microsoft 团队的来宾帐户的消息功能。 
 - **联合身份验证设置**： 管理 Microsoft 团队的租户之间 for Business 的 Skype 联合身份验证。 
 - **用户管理**： 分配策略和配置用户帐户。 

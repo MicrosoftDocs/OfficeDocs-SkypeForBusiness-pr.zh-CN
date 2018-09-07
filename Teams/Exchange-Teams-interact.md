@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: crowe
 description: 了解 Microsoft Teams 与各种 Exchange 设置之间存在哪些功能，例如，创建和加入团队、创建频道等。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3cf488377302fda32ff1c569c114818977ea10fc
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: c6eb5d25fd670f3393f7fb0c19ce34730b6389b9
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599357"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866496"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互 
 =========================================
@@ -36,8 +37,8 @@ ms.locfileid: "22599357"
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|是|是|是|是|是|是|是|是|是|是|是|是|是|
 |**Exchange Online Dedicated vNext**|是|是|是|是|是|是|是|是|是|是|是|是|是|
-|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是 （[允许列表](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)）|否|否|是|否|否|是|是|否|是 （Exchange 2013 +）|否|是|是|
-|**本地 Exchange**（同步到所需 Azure AD）|是 （[允许列表](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)）|否|否|是|是 （Exchange 2016 CU3 +）|否|是|是|否|是 （Exchange 2013 +）|否|否|是|
+|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是 （[允许列表](https://support.office.com/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c)）|否|否|是|否|否|是|是|否|是 （Exchange 2013 +）|否|是|是|
+|**本地 Exchange**（同步到所需 Azure AD）|是 （[允许列表](https://support.office.com/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c)）|否|否|是|是 （Exchange 2016 CU3 +）|否|是|是|否|是 （Exchange 2013 +）|否|否|是|
                                                             
 *\*支持 Exchange 2016 CU3 及更高版本*
 

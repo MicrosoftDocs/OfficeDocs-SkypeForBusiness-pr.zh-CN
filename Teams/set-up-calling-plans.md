@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 57893158-1acd-44ac-acaf-19f58264a9e0
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -21,12 +22,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 0652428cf33db0af1043fc672f1962dca1c4f9c6
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 36dad2aab663762012e8e7a30cc28695c600325c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23848630"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860606"
 ---
 # <a name="set-up-calling-plans"></a>设置通话套餐
 适用于业务用户的其他 Skype 调用是免费的但如果您希望用户能够调用您的公司外部的电话得到国内调用规划或国际呼叫规划 Office 365 中。 很容易地设置此功能您的业务。 

@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: lehewe
 description: 面向 IT 专业人员为中处理数据受美国政府法规的实体的驱动器 Office 365 部署指南
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8091bb4e973d4e7376dd6d420578b10123051226
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 708dda8e38d879d11589696cd901213a68b03cd8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835036"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23869378"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 政府版-GCC 部署规划
 
@@ -38,9 +39,9 @@ Microsoft 365 政府-GCC 环境提供符合美国的云服务，包括 FedRAMP �
 -   贵组织的客户内容的访问仅限于屏蔽 Microsoft 人员。
 -   Microsoft 365 政府-GCC 遵守认证和资格鉴定所需的美国公共部门客户。
 
-您可以找到有关 Microsoft 365 政府-GCC 提供在[Office 365 政府计划](https://products.office.com/en-us/government/compare-office-365-government-plans)，包括[资格要求](https://products.office.com/en-us/government/compare-office-365-government-plans#EligibilityRequirements)美国政府客户的详细信息。
+您可以找到有关 Microsoft 365 政府-GCC 提供在[Office 365 政府计划](https://products.office.com/government/compare-office-365-government-plans)，包括[资格要求](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)美国政府客户的详细信息。
 
-[Office 365 美国政府服务说明](https://technet.microsoft.com/en-us/library/mt774581.aspx)介绍平台的优点，围绕会议美国境内的合规性要求。
+[Office 365 美国政府服务说明](https://technet.microsoft.com/library/mt774581.aspx)介绍平台的优点，围绕会议美国境内的合规性要求。
 
 > [!Tip]
 > 您可能希望将服务说明中的信息的转移到 Excel 工作簿和添加两个列：**相关的我的组织是/否**和**满足 Y/N 我的组织的需求**。 然后您可以查看此列表与同事以确认此服务满足您组织的需求。
@@ -84,7 +85,7 @@ Microsoft 365 政府-GCC 环境提供符合美国的云服务，包括 FedRAMP �
 
 ## <a name="step-4-apply-for-microsoft-365-government---gcc"></a>步骤 4。 适用于 Microsoft 365 政府-GCC
 
-无决定此服务适合您的组织，启动[此服务此处应用](https://products.office.com/en-us/government/eligibility-validation)的过程。
+无决定此服务适合您的组织，启动[此服务此处应用](https://products.office.com/government/eligibility-validation)的过程。
 
 ## <a name="step-5-plan-for-governance"></a>步骤 5。 规划调控
 

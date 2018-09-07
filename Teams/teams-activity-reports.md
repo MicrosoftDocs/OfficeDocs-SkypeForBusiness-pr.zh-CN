@@ -9,16 +9,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: chenle
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 description: 了解如何使用活动报告以查看您的组织中的用户如何使用 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5262795147853c6587853365eed589e65dbd81ff
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: e9c4c811505d8f5642fe4c0b79b511624a3b07b6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19000116"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860276"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>用于 Microsoft 团队活动报告 
 ========================================
@@ -58,7 +59,7 @@ Microsoft 团队用户活动报告提供您的用户执行的 Microsoft 团队�
 |**4**   |**用户**视图显示了由活动类型的用户数。 活动类型是数团队聊天消息、 专用聊天消息、 呼叫或会议。 |
 |**5**   |图表上的 X 轴是特定报告的所选的日期范围。 <ul><li>在**活动**图表中，Y 轴是活动的指定的计数。</ul></li> <ul><li>在**文件**图表中，Y 轴是参与团队聊天、 专用的聊天、 呼叫或会议的用户数。</ul></li> |
 |**6**   |你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如，在**活动**图表中，单击或点击**通道邮件**、**聊天消息**、**呼叫**或**会议**以查看仅与每个相关的信息。 更改此选项不会更改网格表中的信息。 |
-|**7**   |显示组的列表由存在的所有组的集合 （或者没有被删除） 跨最宽 （180 天） 报告时间段。  活动计数根据日期选择不同而有所不同。 <ul><li>**Username**是用户的电子邮件地址。 您可以显示的实际的电子邮件地址或使此字段匿名。</ul></li> <ul><li>**最后一个活动日期 (UTC)** 指用户参与的 Microsoft 团队活动的最后一个日期。</ul></li> <ul><li>**通道消息**是唯一的用户发布的消息数团队聊天在指定的时间段中。</ul></li> <ul><li>**聊天消息**是唯一的用户发布在专用聊天指定的时间段内的消息数。</ul></li> <ul><li>**呼叫**是用户所参与的呼叫数在指定的时间段。</ul></li> <ul><li>**会议**的用户参加在指定的时间段内的联机会议数。</ul></li> <ul><li>**其他活动**是其他团队活动用户数。</ul></li> <ul><li>**Deleted**指示是否团队将被删除。 如果团队被删除，但具有报告期间的活动，它将显示在网格中已删除设置为 true。</ul></li> <ul><li>**已删除日期**是团队已删除的日期。</ul></li> <ul><li>**将产品分配**是分配给用户的产品的列表。</ul></li> <ui>**注意：** 添加它们之前，可能看不到在下表中的列中的所有项目。 </ul><br><br> <ui>如果贵组织的策略会阻止您查看报告可识别用户信息在哪里，您可以更改所有这些报告的隐私设置。签出**如何隐藏用户级别的详细信息？** [in Office 365 Admin Center Preview 活动报告](https://support.office.com/en-us/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)中的部分。</ui> |
+|**7**   |显示组的列表由存在的所有组的集合 （或者没有被删除） 跨最宽 （180 天） 报告时间段。  活动计数根据日期选择不同而有所不同。 <ul><li>**Username**是用户的电子邮件地址。 您可以显示的实际的电子邮件地址或使此字段匿名。</ul></li> <ul><li>**最后一个活动日期 (UTC)** 指用户参与的 Microsoft 团队活动的最后一个日期。</ul></li> <ul><li>**通道消息**是唯一的用户发布的消息数团队聊天在指定的时间段中。</ul></li> <ul><li>**聊天消息**是唯一的用户发布在专用聊天指定的时间段内的消息数。</ul></li> <ul><li>**呼叫**是用户所参与的呼叫数在指定的时间段。</ul></li> <ul><li>**会议**的用户参加在指定的时间段内的联机会议数。</ul></li> <ul><li>**其他活动**是其他团队活动用户数。</ul></li> <ul><li>**Deleted**指示是否团队将被删除。 如果团队被删除，但具有报告期间的活动，它将显示在网格中已删除设置为 true。</ul></li> <ul><li>**已删除日期**是团队已删除的日期。</ul></li> <ul><li>**将产品分配**是分配给用户的产品的列表。</ul></li> <ui>**注意：** 添加它们之前，可能看不到在下表中的列中的所有项目。 </ul><br><br> <ui>如果贵组织的策略会阻止您查看报告可识别用户信息在哪里，您可以更改所有这些报告的隐私设置。签出**如何隐藏用户级别的详细信息？** [in Office 365 Admin Center Preview 活动报告](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)中的部分。</ui> |
 |**8**   |单击或点击" **列**"可在报告中添加或删除列。 |
 |**9**   |您可以通过单击或点击导出链接将报表数据导出到 Excel.csv 文件。 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果您有少于 2,000 个用户，您可以排序和筛选报告本身中的表中。 如果筛选和排序的顺序有超过 2,000 个用户，您需要将数据导出。 |
 

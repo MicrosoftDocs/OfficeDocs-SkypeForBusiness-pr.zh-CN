@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: rowille
 description: 验证通过测试中团队特性、 功能和可用性的电话系统符合贵组织的预期。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fceaa215835b5ef231a29f896656835da940dbde
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: fffb52988da639f21246b0c5d27f2c8554b459ac
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779803"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855422"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>定义和团队测试计划适用于企业中文档电话系统与调用计划 
 ============================================================================================

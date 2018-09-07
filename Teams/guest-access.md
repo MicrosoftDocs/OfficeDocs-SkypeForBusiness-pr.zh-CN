@@ -7,17 +7,18 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
+search.appverid: MET150
 description: 利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 405f0138cfb368d70aec9195c493e8da604177d4
-ms.sourcegitcommit: c18710a46018fe4c1d0ceb99710f18bbc25aad54
+ms.openlocfilehash: 415066ef24eb83713c44c67cebe1fe0d6cdccb7c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2018
-ms.locfileid: "19178994"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23859088"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 ======================================

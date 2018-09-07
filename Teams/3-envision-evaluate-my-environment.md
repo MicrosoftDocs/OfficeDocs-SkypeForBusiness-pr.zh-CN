@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: 使用角色和网络分析评估贵组织的准备情况，请打开了正确的 TCP 和 UDP 端口，执行的任何网络补救。
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72c7e7cc159634edcbd6b108c60fe42108adebac
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 1ba38b78727e21286c05eed556ad0238b2359499
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20396762"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23857200"
 ---
 # <a name="evaluate-my-environment"></a>评估我的环境
 
@@ -106,38 +107,38 @@ ms.locfileid: "20396762"
 
 启动您规划旅程团队[我顾问网站](https://myadvisor.fasttrack.microsoft.com/)上使用网络计划工具的带宽。 网络计划工具提供规划团队的每个网站带宽，并提供有关优化网络性能建议。
 
-### <a name="local-internet-egress"></a>本地 internet 出口
+### <a name="local-internet-egress"></a>本地 Internet 出口
 
-许多网络旨在使用集线器和分支拓扑。 在此拓扑中，internet 通信通常遍历 WAN 中心数据中心到之前它出现 （出口） 到 internet。 通常，这样做是为了集中网络安全设备的总成本降低的目标。
+许多网络设计为使用中心和辐射型拓扑。 在此拓扑中，Internet 流量通常先穿过 WAN 到达中心数据库，然后再向外传输（流出）到 Internet。 通常，这么做事为了集中网络安全设备，目的是降低总成本。
 
-通过 WAN 后拖拉流量增加延迟具有对质量和用户体验的负面影响。 由于 Microsoft 的大型全局网络上运行的 Microsoft 团队，是通常接近用户对等网络位置。 用户很可能将通过尽快 egressing 出本地 internet 点接近其位置和到我们语音优化网络获得更好的性能。 针对某些工作负载，DNS 请求用于发送通信到最近的前端服务器。 在这种情况下，很重要，使用本地出口点，则已配对本地 DNS 解析。
+经过 WAN 的回程流量会造成延迟增加，并对质量和用户体验产生负面影响。 由于 Microsoft Teams 在 Microsoft 的大型全局网络上运行，因此，用户附近通常会有网络对等位置。 用户通过从其所在位置附近的本地 Internet 点流出并尽快进入我们的语言优化网络，很可能会获得更佳的性能。 对于某些工作负荷，使用 DNS 请求向最近的前端服务器发送流量。 在这种情况下，务必要在使用本地出口点时，将其与本地 DNS 解析配对。
 
-优化与 Microsoft 的全局网络的网络路径将提高性能和最终用户提供最佳体验。 有关详细信息，请参阅博客文章[入门最佳的连接和 Office 365 中的性能](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694)。
+优化指向 Microsoft 的全局网络的网络路径将会提高性能，并最终将为用户提供最佳体验。 有关更多详细信息，请参阅博客文章 [Getting the best connectivity and performance in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694)（在 Office 365 中获取最佳连接性和性能）。
 
 ### <a name="vpn"></a>VPN
 
-Vpn 提供许多组织重要服务。 遗憾的是，他们正在通常不设计或配置为支持实时的媒体。 某些 Vpn 也可能不支持 UDP。 Vpn 还引入了额外的已加密的媒体流量在加密。 此外，连接到团队服务可能不是有效由于字形驻留流量通过 VPN 设备。
+VPN 为许多组织提供很有用的服务。 遗憾的是，他们正在通常不设计或配置为支持实时的媒体。 一些 VPN 可能还不支持 UDP。 Vpn 还引入了额外的已加密的媒体流量在加密。 此外，连接到团队服务可能不是有效由于字形驻留流量通过 VPN 设备。
 此外，它们不一定被设计从容量角度以适应团队需要的预期的负载。
 
-建议您是提供绕过的团队流量 VPN 备用路径。 这通常是称为*拆分隧道 VPN*。 拆分隧道 for Office 365 的流量不会遍历 VPN，但将直接转到 Office 365 的方法。 此更改将产生正面影响对质量，但还提供了减少从 VPN 设备和组织的网络负载的辅助好处。
+建议提供一个备用路径，以便 Teams 流量绕过 VPN。 这通常是称为*拆分隧道 VPN*。 拆分隧道 for Office 365 的流量不会遍历 VPN，但将直接转到 Office 365 的方法。 此改变不仅有利于提高质量，而且还带来额外的好处，即降低 VPN 设备和组织网络的负荷。
 
-若要实现拆分隧道，请咨询您 VPN 供应商联系以获取配置详情。
+要实施拆分通道，请咨询 VPN 供应商了解配置详细信息。
 
-### <a name="wi-fi"></a>Wi-fi
+### <a name="wi-fi"></a>Wi-Fi
 
 VPN，如 Wi-fi 网络不一定是设计或配置为支持实时的媒体。 规划，或优化，Wi-fi 网络支持团队是高质量部署的重要注意事项。
 
 有派上用场优化 Wi-fi 网络的几个因素：
 
--   实现 QoS 或 Wi-fi 多媒体 (WMM)，以确保该媒体流量获取确定相应优先级通过 Wi-fi 网络。
+-   实施 QoS 或 Wi-Fi 多媒体 (WMM) 以确保通过 Wi-Fi 网络的媒体流量相应地得到优先处理。
 
--   规划和优化 Wi-fi 区段和访问点位置。 为 2.4 GHz 范围可提供足够的体验，具体取决于接入点放置但访问点通常影响该范围内运行其他使用者设备。 5 GHz 范围更适合于实时媒体由于其密集范围，但需要更多访问点来获取足够的范围。 终结点还需要支持这一系列和配置，以便相应地利用这些分隔条。
+-   规划和优化 Wi-fi 区段和访问点位置。 2.4 GHz 范围可以根据接入点位置提供合乎需要的体验，但接入点通常受该范围内运行的使用者其他设备的影响。 5 GHz 范围因其密度范围更适合实时媒体，但需要更多接入点以获取足够的覆盖范围。 此外，终结点还需要相应地支持该范围并配置为利用这些频带。
 
 -   如果部署双带 Wi-fi 网络，请考虑实现带控制。 带控制是由 Wi-fi 供应商以影响双带客户端使用 5 GHz 区域实现的技术。
 
 -   访问点的同一通道太近时他们可以导致信号重叠并意外竞争，导致用户的体验不佳。 确保彼此相邻的访问点位于不相互重叠的通道。
 
-每个无线供应商具有自己部署其无线解决方案的建议。 我们建议您的特定指南咨询您的供应商。
+每个无线供应商都有自己的无线解决方案部署建议。 建议你咨询你的供应商了解具体指导。
 
 <!--ENDOFSECTION-->
 
@@ -191,7 +192,7 @@ Microsoft 团队连接到 Microsoft Online Services，并为此需要 internet �
 
 -   *客户端段*是客户端驻留在其中的逻辑网络段。
 
-使用网络评估工具，您应测试两条线段。 若要测试段，定位到的目录，并输入**networkassessmenttool.exe**在命令提示符。 结果将写入名为 Results.tsv 的文件，并可以与每段的[要求](https://docs.microsoft.com/en-us/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance?ui=en-US&rs=en-US&ad=US)。
+使用网络评估工具，您应测试两条线段。 若要测试段，定位到的目录，并输入**networkassessmenttool.exe**在命令提示符。 结果将写入名为 Results.tsv 的文件，并可以与每段的[要求](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)。
 
 请注意，两条线段必须满足高质量部署的要求。 我们建议您运行该工具为一小时多次直接要获取清楚地表明您的网络性能。
 
@@ -211,7 +212,7 @@ Microsoft 团队连接到 Microsoft Online Services，并为此需要 internet �
 有关详细信息，请参阅[Microsoft 团队中的服务质量](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams)。
 
 >[!NOTE]
->许多网络随由于升级、 扩展或其他业务要求的时间。 确保您要维护服务管理规划的一部分这些领域有操作过程。
+>许多网络会由于升级、扩展或其他业务要求而逐渐发展。 请确保在你的服务管理规划中具有可操作的流程以维护这些方面。
 
 
 <table>

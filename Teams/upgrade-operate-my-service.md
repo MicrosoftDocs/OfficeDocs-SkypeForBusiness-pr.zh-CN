@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: 任务和活动所需的团队服务管理，包括监视服务运行状况和评估并确保网络质量和使用情况
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad17668aba98c956aa1eda1c8df37dba0526ef06
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 969ca26ba6ff0eb60452c43929413c621c13d865
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398066"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861688"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 
@@ -28,13 +29,13 @@ ms.locfileid: "20398066"
 
 本文概述了已升级后，在为组织成功操作团队的要求。 通过进行正确操作团队服务，您可以确保您正在为组织提供高质量、 可靠地体验。
 
-## <a name="introduction-to-the-operations-guide"></a>操作指南简介
+## <a name="introduction-to-the-operations-guide"></a>《操作指南》简介
 
 操作指南为您提供了所有的任务和活动所需的服务管理功能的一部分的 Microsoft 团队的概述。
 
-服务管理是涵盖日常操作的 Microsoft 团队服务后已部署并为用户启用广泛主题。 团队服务包括 Microsoft Office 365 和本地部署的基础结构组件 （例如，网络）。
+服务管理是一个非常广泛的主题，涵盖了部署 Microsoft Teams 服务并为用户启用该服务后该服务的日常操作。 Teams 服务包括 Microsoft Office 365 和在本地部署的基础结构组件（例如网络）。
 
-服务管理的概念很可能不是一个新的概念对于大多数组织。 您可能已经实现了进程和与现有服务相关联的任务。 也就是说，今天将来支持工作组规划服务管理时，您可能可以增大当前过程。
+对于大多数组织而言，服务管理概念很可能不是一个新概念。 您可能已经实现了进程和与现有服务相关联的任务。 也就是说，今天将来支持工作组规划服务管理时，您可能可以增大当前过程。
 
 服务管理包括所有活动和进程涉及管理团队端到端。 如上文所述，某些组件服务管理-Office 365 服务本身包含的基础结构 — 是 Microsoft 的责任，而您客户，负责向用户管理团队，网络的各个方面和您提供的终结点。
 
@@ -49,7 +50,7 @@ ms.locfileid: "20398066"
 </table>
 
 
-### <a name="operational-role-mapping"></a>操作的角色映射
+### <a name="operational-role-mapping"></a>可操作的角色映射
 
 规划操作 undertook 构想阶段很关键，因为操作活动开始时启用了第一个试点用户。 本指南列出的活动和必须在保持高质量团队部署的每日、 每周、 每月，或按需基础执行的任务。 本指南提供知识和有关如何执行这些关键活动和任务的指南。
 
@@ -83,7 +84,7 @@ Microsoft 团队汇集技术跨 Office 365 提供集线器团队协作。 示例
 
 本指南介绍焦点来管理工作组服务的关键区域。 很可能必须服务管理计划中支持的技术取决于团队的位置。 如果不需要，您将需要建立这些技术组件的正确的服务管理计划 (在本地和联机) 以及。 这有助于确保您的用户体验高质量、 可靠地与团队。
 
-#### <a name="references"></a>引用 
+#### <a name="references"></a>参考 
 
 [Microsoft Teams 概述](teams-overview.md)
 
@@ -149,7 +150,7 @@ Microsoft System Center 是帮助您管理数据中心、 客户端设备和混�
 | 监控服务运行状况 | 使用可用的工具，主动监视的 Microsoft 团队服务运行状况，（和相关服务）。 相关服务包括： Exchange Online 中，SharePoint Online 的 OneDrive for Business，Azure Active Directory。 | 实时 |               |
 | 事件通知  | 通知事件的影响团队服务的内部利益干系的人。 内部利益干系人可以包括用户、 支持人员和事件的经理。                                                                          | 根据需要 |               |
 
-### <a name="references"></a>引用 
+### <a name="references"></a>参考 
 
 [如何检查 Office 365 服务运行状况](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
 
@@ -274,7 +275,7 @@ Microsoft 团队是基于云的服务。 伴随这能够提供新特性和功能
 | （驱动器值阶段） | | | |
 | 更新应用计划 | 应用计划基于如何测量的使用情况的更新将与您规划目标进行比较。 | 根据需要 | |
 
-### <a name="references"></a>引用 
+### <a name="references"></a>参考 
 
 [有关 Office 365 管理中心](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
@@ -325,7 +326,7 @@ NPS 是一个索引，为 100，介于-100 度量客户的通信意愿建议公�
 | 评估用户的观点 | 捕获和评估用户的观点，使用调查或面试，或通过团队或 Yammer 中的反馈通道。 | 根据需要 | |
 | 更新应用计划 | 驱动器根据用户反馈; 您组织中的更改这可以包括更改沟通计划、 培训计划或向用户提供支持的方式。 | 根据需要 | |
 
-### <a name="references"></a>引用 
+### <a name="references"></a>参考 
 
 [Net 者均分数](https://en.wikipedia.org/wiki/Net_Promoter)
 
@@ -356,9 +357,9 @@ NPS 是一个索引，为 100，介于-100 度量客户的通信意愿建议公�
 | 网络故障排除和修复 | 帮助团队支持人员、 服务所有者和主要利益干系人进行故障排除和修正问题到相关的团队连接、 可靠性或质量。 网络元素可能包括：<ul><li>防火墙</li><li>Vpn</li><li>有线和 Wi-fi 网络</li><li>Internet 连接和 ExpressRoute</li><li>DNS</li></ul> | 根据需要 | |
 | 灾难恢复和高可用性测试 | 执行常规的高可用性和灾难恢复测试对网络基础结构，以确保它符合既定的服务级别目标 (Slo) 或团队服务的服务级别协议 (Sla)。 | 每月 | |
 
-### <a name="references"></a>引用 
+### <a name="references"></a>参考 
 
-[网络计划程序](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
+[Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
 [Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)
 
@@ -368,13 +369,13 @@ NPS 是一个索引，为 100，介于-100 度量客户的通信意愿建议公�
 
 ## <a name="assess-and-ensure-quality"></a>评估，并确保质量 
 
-所有组织都需要组或个人要负责质量。 这是在服务管理的最重要的角色。 质量冠军角色分配给用户或用户组属于热心有关其用户体验。
-此角色需要确定中的趋势环境和赞助 ォ オ リ モ 驱动修正工作的技能。 质量支持者的最佳候选人通常是客户服务所有者。 根据组织的大小和复杂性，这可能是任何个人或组使用的确保高品质用户体验爱。
+所有组织都需要组或个人要负责质量。 这是服务管理中最重要的角色。 质量冠军角色分配给用户或用户组属于热心有关其用户体验。
+此角色要求具有识别环境中的趋势的技能，以及能够支持与其他团队合作以推动修正。 质量支持者的最佳候选人通常是客户服务所有者。 根据组织的大小和复杂性，这可能是任何个人或组使用的确保高品质用户体验爱。
 
 质量冠军利用现有的工具和记录操作过程中，如呼叫质量仪表板 (CQD) 和质量体验审阅指南，要监视的用户体验，请确定质量趋势和驱动器修正在需要时。
 质量冠军应使用驱动器修正操作各自团队并向调控委员会进度并打开的任何问题有关的报告。
 
-[质量体验审阅指南](https://aka.ms/qerguide)包括评估和修正指导对提高用户体验影响最大的主要区域中的活动。 使用 CQD Online 作为主要工具来报告和调查每个区域中，以最大限度地应用和影响的音频重点重点质量体验审阅指南中提供的指南。 对网络以提高音频体验任何优化还直接将翻译视频和桌面共享的改进。
+[质量体验审阅指南](https://aka.ms/qerguide)包括评估和修正指导对提高用户体验影响最大的主要区域中的活动。 使用 CQD Online 作为主要工具来报告和调查每个区域中，以最大限度地应用和影响的音频重点重点质量体验审阅指南中提供的指南。 为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。
 
 我们强烈建议您在早期提名质量冠军。 正在提名之后, 他们应开始熟悉的用户体验质量审阅指南和关联的培训资料中的内容。
 
@@ -388,7 +389,7 @@ NPS 是一个索引，为 100，介于-100 度量客户的通信意愿建议公�
 | 构建 CQD 中的数据的更新 | 更新或更改到网络时 CQD 中添加新的生成定义 （请参阅[上载构建信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)）。 | 根据需要 | |
 | 填充质量冠军角色 | 端到端负责组织中的质量。 这包括：<ul><li>确保定期召开 QER。</li><li>报告质量状态的主要利益干系人。</li><li>确保定义是最新的生成数据。</li><li>要确保用户具有与团队高质量体验的组织中协调修复措施。</li></ul> | 每天 | |
 
-### <a name="references"></a>引用 
+### <a name="references"></a>参考 
 
 [了解 CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
@@ -404,16 +405,16 @@ Microsoft 团队终结点可定义为任何 PC、 Mac、 平板电脑或运行�
 
 ### <a name="endpoint-requirements"></a>终结点要求
 
-一个团队的主要优点是，客户端保持最新自动。 PC 和 Mac 客户端是通过使用背景过程，为新的生成检查并下载新客户端应用程序空闲时进行了更新。 移动应用程序通过其各自的应用程序商店保留当前工作组。
+一个团队的主要优点是，客户端保持最新自动。 PC 和 Mac 上的客户端是通过使用一个后台进程进行更新，该进程在该应用处于空闲状态时检查是否有新的内部版本并下载新客户端。 移动应用程序通过其各自的应用程序商店保留当前工作组。
 
 团队客户端有基础软件平台方面的最低要求。 这些要求可能更改随时间推移，并因此很重要的更改监视它们。 例如，工作组客户端有最小 iOS 版本。 如果客户端使用 internet 浏览器，在浏览器需要以及保留当前。 [获取 Microsoft 团队的客户端](get-clients.md)中找不到支持的平台的列表。
 
 ### <a name="endpoint-firewalls"></a>终结点防火墙
 
-客户端防火墙可以对用户体验产生重大影响。
+客户端防火墙会对用户体验产生很大影响。
 客户端防火墙可影响呼叫质量和甚至阻止呼叫的建立。 已配置合适对客户端防火墙排除后，他们需要保持最新的基于[Office 365 Url 和 IP 地址范围](https://aka.ms/o365ips)中的信息。 您的第三方供应商会如何更新排除的特定指南。
 
-### <a name="wi-fi-drivers"></a>Wi-fi 驱动程序
+### <a name="wi-fi-drivers"></a>Wi-Fi 驱动程序
 
 Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能导致附不必要访问点切换，从而导致质量欠佳的呼叫质量的访问点之间的积极漫游行为。 佳的 Wi-fi 驱动程序可能会发现通过体验质量审查 （有关详细信息，请参阅[用户体验质量审阅指南](https://aka.ms/qerguide)）。 若要实现质量驱动采样新 Wi-fi 驱动程序，然后确保之前所要部署到的常规用户群体他们正在测试的过程至关重要。
 
@@ -442,12 +443,12 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 | 活动 | 说明 | 节奏 | 分配的工作组 |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | 终结点要求 | 请确保终结点继续满足团队[获取 Microsoft 团队的客户端](get-clients.md)中列出的所有软件要求的团队。 | 每月 | |
-| 终结点防火墙 | 维护相应排除在终结点防火墙中基于[Office 365 Url 和 IP 地址范围](https://aka.ms/o365ips)中的信息。 您的第三方供应商会如何维护排除的特定指南。 订阅[RSS 源](https://support.office.com/en-us/o365ip/rss)以自动通知的更改。 | 根据需要 | |
-| Wi-fi 驱动程序 | 测试和更新 PC 上的 Wi-fi 驱动程序。 使用 CQD （[用户体验质量审阅指南](https://aka.ms/qerguide)） 验证结果。 | 根据需要 | |
+| 终结点防火墙 | 维护相应排除在终结点防火墙中基于[Office 365 Url 和 IP 地址范围](https://aka.ms/o365ips)中的信息。 您的第三方供应商会如何维护排除的特定指南。 订阅[RSS 源](https://support.office.com/o365ip/rss)以自动通知的更改。 | 根据需要 | |
+| Wi-Fi 驱动程序 | 测试和更新 PC 上的 Wi-fi 驱动程序。 使用 CQD （[用户体验质量审阅指南](https://aka.ms/qerguide)） 验证结果。 | 根据需要 | |
 | 终结点管理 | 维护支持的终结点和接口设备 （如耳麦） 的目录。 管理供应商合同、 担保、 分发、 替换，并修复策略。 | 每月 | |
 | 终结点疑难解答 | 故障排除任务可以包括验证咨询已知的问题列表、 收集日志、 分析和升级到 Microsoft 技术支持或第三方供应商的连接。 | 根据需要 | |
 
-### <a name="references"></a>引用 
+### <a name="references"></a>参考 
 
 [Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)
 

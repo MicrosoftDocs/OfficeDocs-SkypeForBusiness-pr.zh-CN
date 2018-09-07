@@ -9,17 +9,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: vichau, majafry
 localization_priority: Priority
+search.appverid: MET150
 description: 了解如何使用支持 Microsoft Teams 的各种客户端，包括 Web、桌面（Windows 和 Mac）和移动（Android、iOS 和 Windows Phone）。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d662775f700586c3811aabce329f065652630c01
-ms.sourcegitcommit: 309941f79f0f8dbcbce620fe90e9f73dd0bcfcbd
+ms.openlocfilehash: 6e2885245b5501c65b04d319e78b29738694f4cf
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23289904"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856914"
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================

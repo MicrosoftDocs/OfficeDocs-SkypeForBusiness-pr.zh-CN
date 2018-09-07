@@ -9,18 +9,19 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 localization_priority: Priority
+search.appverid: MET150
 description: Microsoft Teams 会向 Outlook 中安装外接程序，从而让用户可以在 Outlook 中安排 Teams 会议。
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76b1dcb9c7f34780d4e49611d6e97f2ca890b329
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f465b03aacbaa1c7cd3cd835d279a112d0f87891
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20987125"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856870"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================

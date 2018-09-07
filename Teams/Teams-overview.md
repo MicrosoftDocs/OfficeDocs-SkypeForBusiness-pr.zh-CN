@@ -9,17 +9,18 @@ ms.service: msteams
 ms.reviewer: ''
 description: 了解 Microsoft Teams、其基础结构以及如何配合使用 Teams 与 Office 365。
 localization_priority: Priority
+search.appverid: MET150
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86698a3bb7535a20b7fb1b6833062d118f2f9eae
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: dbee055a5d91c6e0e453f0f539cba823226c347e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967126"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867578"
 ---
 <a name="overview-of-microsoft-teams"></a>Microsoft Teams 概述
 ===========================
@@ -118,10 +119,4 @@ Office 365 组利用 Azure Active Directory (Azure AD) 中存储的标识，因�
 
 ## <a name="teams-client-release-noteshttpssupportofficecomarticlerelease-notes-for-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"></a>[Teams 客户端发行说明](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 
-## <a name="what-happened-to-the-teams-admin-faq"></a>Teams 管理员 FAQ 发生了什么情况？
 
-虽然我们首次发布 Teams 时 Teams 管理员 FAQ 使用起来很方便，但它很快变成了“杂物抽屉”，使得很难找到特定内容。 因此，我们将 FAQ 拆分开，并将其有用信息合并到你现在看到的 Teams 文档中。 你将在此文档的上下文中找到以前属于 FAQ 中的所有信息。
-
-如果您正在寻找您无法找到下面的内容，请告诉我们在下面的**反馈**部分。 我们尝试在 24 小时内响应您的反馈。
-
-顺便提一下，我们仍**提供**了针对[从 Skype for Business 到 Microsoft Teams 的旅程](FAQ-journey.md)的 FAQ。 

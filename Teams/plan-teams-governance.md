@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: rowille
 description: 了解如何规划团队中实现调控功能。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7176cc08672d6ddc727472789d7891e5392a6b3b
-ms.sourcegitcommit: c85211a22921d02ffa9f300a4f8350ffbb90b38c
+ms.openlocfilehash: ddb93c883786413f18f20c98452d8e04a6534ea7
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2018
-ms.locfileid: "22331259"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23870098"
 ---
 # <a name="plan-for-governance-in-teams"></a>团队中的治理规划
 

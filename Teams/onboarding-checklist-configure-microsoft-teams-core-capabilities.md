@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: rowille
 description: 配置团队时，请按照的核心、 待办事项任务和此检查表中的活动。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c61aa784830a206ee81fe2c15c0efb92ed85cef
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: e6dfc4f5820175a932cebdf200e215b45edeb6e9
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695323"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850106"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>配置 Microsoft 团队的核心功能
 

@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: 评估组织的准备情况接受更改，并获取用户准备好从 for Business 的 Skype 升级到 Microsoft 团队准备计划
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03f9704ca129d8925ae1c68dabedb0153feae406
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: bfbff0262365bedc88bc0cdc6630c0ccfbc6c465
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398074"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23857412"
 ---
 ![升级旅程，重点强调的用户准备阶段的阶段](media/upgrade-banner-user-readiness.png "升级旅程，重点强调的用户准备阶段的阶段")
 

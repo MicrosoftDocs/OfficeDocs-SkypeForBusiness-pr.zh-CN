@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '请参阅 Microsoft 团队步骤将电话拨入式会议许可和会议 ID 分配给用户和许多其他电话拨入式会议设置。 '
-ms.openlocfilehash: 2e372c76cbbedeaa7558b4308366262e93cb5b91
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: b9b3198f5d66b36e986eeab72fdf5dd31521fb14
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780369"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866832"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>管理我的组织中的 Microsoft 团队的音频会议设置
 
@@ -69,11 +70,11 @@ ms.locfileid: "23780369"
     
 **使用 Windows PowerShell**
   
-请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps)（英文） 的详细信息。
+请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)（英文） 的详细信息。
     
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>更改发件人发送给用户的电子邮件中的联系人信息
 
-您可以对自动发送给用户，包括的实际的电子邮件地址和发件人的联系人信息的显示名称的电子邮件进行更改。 默认情况下，电子邮件发件人是 Office 365，但您可以更改的电子邮件地址，并且可以显示使用 Windows PowerShell 的名称。 请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps)（英文） 的详细信息。
+您可以对自动发送给用户，包括的实际的电子邮件地址和发件人的联系人信息的显示名称的电子邮件进行更改。 默认情况下，电子邮件发件人是 Office 365，但您可以更改的电子邮件地址，并且可以显示使用 Windows PowerShell 的名称。 请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)（英文） 的详细信息。
   
 ## <a name="reset-the-meeting-conference-id"></a>重置会议 ID
 
@@ -215,7 +216,7 @@ Windows PowerShell Office 365 的功能是管理用户以及允许或不允许�
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-有关 Windows PowerShell 的详细信息，请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps)（英文） 的详细信息。
+有关 Windows PowerShell 的详细信息，请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)（英文） 的详细信息。
   
     
 ## <a name="related-topics"></a>相关主题

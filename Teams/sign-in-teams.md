@@ -7,18 +7,19 @@ ms.date: 03/23/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: ''
 description: 使用现代身份验证登录到 Microsoft 团队的指南。
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c24625d44bc174a60275b6532001b5f7efc9efc
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 5899d002ff6492f06b42f824e8799dfc30b9f42f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19003363"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849880"
 ---
 <a name="sign-in-to-microsoft-teams"></a>登录到 Microsoft 团队
 ==========================
@@ -53,5 +54,5 @@ Microsoft 团队使用现代身份验证以保持登录体验简单和安全。
 
 现代身份验证是适用于每个组织使用团队，因此如果用户不是能够完成此过程，可能有错与您的域或组织的 Office 365 企业版帐户。 
 
-有关详细信息，请参阅[为什么我不能登录到 Microsoft 团队？](https://support.office.com/en-US/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)。
+有关详细信息，请参阅[为什么我不能登录到 Microsoft 团队？](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)。
 

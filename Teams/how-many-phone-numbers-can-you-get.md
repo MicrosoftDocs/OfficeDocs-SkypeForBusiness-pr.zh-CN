@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 61dfb27c-5bfa-4481-a930-9c026e73ff3a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 在查找并获取组织的电话号码时，获取的电话号码会比已分配许可证的电话号码多。 但这取决于你已购买并分配的电话号码类型和许可证类型。 您可以单击不同种类的用于调用计划以找出有关业务 online Skype 中使用不同的电话号码的电话号码。
-ms.openlocfilehash: 53c470e528fefbb793fbb2d75d732cfb31730ef3
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a0d4e1273a49ac4f9e82cb98c8baddf22772f9d4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784731"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856304"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>你可以获取多少个电话号码？
 
 在查找并获取组织的电话号码时，获取的电话号码会比已分配许可证的电话号码多。 但这取决于你已购买并分配的电话号码类型和许可证类型。 您可以单击[不同种类的电话号码用于调用计划](different-kinds-of-phone-numbers-used-for-calling-plans.md)以找出有关业务 online Skype 中使用不同的电话号码。
   
-您可以看到您可以获取业务管理中心中，为 Skype**电话号码**页的电话号码的号码，或者您可以运行[Get CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/en-us/library/mt634605.aspx) cmdlet。
+您可以看到您可以获取业务管理中心中，为 Skype**电话号码**页的电话号码的号码，或者您可以运行[Get CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/library/mt634605.aspx) cmdlet。
   
 > [!IMPORTANT]
 > [!重要信息] 以下限制不包括你已经转网或转移到 Microsoft 的电话号码。 

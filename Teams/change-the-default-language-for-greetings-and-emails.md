@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何设置 Skype for Busineses 以便将其他语言用于贵组织的默认语音邮箱问候语。 '
-ms.openlocfilehash: 96cdb021ef2563a0f2de014bf14675cf0722a197
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 712f7ac65e3a473968632bb8dcc0569bd9471b0d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784147"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855666"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>更改问候语和电子邮件的默认语言
 
-如果你是 [Office 365 全局管理员](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)，你可以将 Skype for Business 设置为以其他语言播放默认语音邮件问候语。 默认系统问候语类似于“请给 John Smith 留言。 听到提示音之后，请录制你的消息。 完成录制后，挂断电话，或者按井号键了解更多选项。” 
+如果你是 [Office 365 全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)，你可以将 Skype for Business 设置为以其他语言播放默认语音邮件问候语。 默认系统问候语类似于“请给 John Smith 留言。 听到提示音之后，请录制你的消息。 完成录制后，挂断电话，或者按井号键了解更多选项。” 
   
  **首先，请阅读以下重要信息：**
   
@@ -40,13 +41,13 @@ ms.locfileid: "23784147"
     > [!NOTE]
     > 用户登录后，可以通过设置更改自己的问候语语言。 
   
-- **是否要录制你的外出语音邮件消息？** 请参阅[检查 Skype for Business 语音邮件和选项](https://support.office.com/en-us/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)。
+- **是否要录制你的外出语音邮件消息？** 请参阅[检查 Skype for Business 语音邮件和选项](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)。
 
 - **若要更改语音邮件提示语言吗？** 转到[https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail)，然后选择新下**提示的语言**的语言。
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>更改组织内所有用户的系统语言
 
-1. 使用您的[Office 365 全局管理员](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帐户，登录[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。 
+1. 使用您的[Office 365 全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帐户，登录[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。 
     
 2. 在管理中心，选择“**设置**” > “**组织资料**”。 
     
@@ -70,11 +71,11 @@ ms.locfileid: "23784147"
     
 ## <a name="related-topics"></a>相关主题
 
-- [在 Office 365 商业版中更改显示语言和时区](https://support.office.com/en-us/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
+- [在 Office 365 商业版中更改显示语言和时区](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
     
-- [在 Office 2010 及更高版本中添加语言或设置语言首选项](https://support.office.com/en-us/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)
+- [在 Office 2010 及更高版本中添加语言或设置语言首选项](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)
     
-- [启用或更改键盘布局语言](https://support.office.com/en-us/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
+- [启用或更改键盘布局语言](https://support.office.com/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
     
   
  

@@ -7,18 +7,19 @@ ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+search.appverid: MET150
 description: 继续执行从 for Business 的 Skype 您迁移到 Microsoft 团队指南
 localization_priority: Priority
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d6b45c13cf387ff31044ea7d439a0a1e5081eca
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2e8e060e9358ef5d2cb7043bc57c9fe3f0d6e610
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247532"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23859104"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 

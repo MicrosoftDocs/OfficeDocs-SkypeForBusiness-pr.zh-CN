@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: 了解 Office 365 组和组成员身份与 Microsoft Teams 如何配合使用
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9d7c37a0aa53f45036388bdedfc5bdc87b1cc8a
-ms.sourcegitcommit: 5fb3957b658b48edf3d9878a9d53a4002b8f55d8
+ms.openlocfilehash: 9ef86beea194dde66e3ce5d7f54bde7a522dd605
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23520059"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850020"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 组和 Microsoft 团队
 =====================================
@@ -33,7 +34,7 @@ Office 365 管理员可以定义一个 Office 365 组、 添加成员，以及�
 > [!NOTE]
 > 删除 Office 365 组将删除持久 Outlook/OWA 对话和 Teams 会议邀请的邮箱别名，以及将 SharePoint 网站标记为删除。 计大约 20 分钟团队的删除操作之间 Outlook 受到影响。 删除团队来自团队客户端会将其立即从视图的所有用户的工作组成员。 如果删除了具有团队功能在其上启用 Office 365 组的成员，可能有约为两个小时，团队删除从视图中已删除的受影响人员的团队客户端之前的延迟。
 >
->阅读[此](https://support.office.com/en-us/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)有关还原已删除 Office 365 组信息。
+>阅读[此](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)有关还原已删除 Office 365 组信息。
 
 <a name="group-membership"></a>组成员身份
 ----------------

@@ -7,17 +7,18 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
+search.appverid: MET150
 description: 了解来宾用户可用的 Microsoft Teams 功能。
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d30b7b554b07ccc29233210419f2a3129349a1e
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 30a3341d5e18f46f178fe95a200b23a77df4f0f1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19178879"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865188"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================

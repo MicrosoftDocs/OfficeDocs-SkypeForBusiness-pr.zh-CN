@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: 登记利益干系人提供您升级的项目工作组。
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5730114749a76e32c1add2ed7f9de8e15933d3ff
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 8c4aa72a3d2c15ce71df9a018a6e51e05b9e8f25
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398122"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866276"
 ---
 ![升级旅程，重点强调收集您的团队的项目利益干系人的阶段](media/upgrade-banner-stakeholders.png "升级旅程，重点强调收集您的团队的项目利益干系人的阶段")
 

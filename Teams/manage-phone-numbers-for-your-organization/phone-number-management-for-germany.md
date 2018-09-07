@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 62077251-f24e-4a43-95a2-67a2dc54e9de
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的德国电话号码的信息。
-ms.openlocfilehash: b8fb11bb2c3469063b3b145363ee6466b3f9cac0
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 59f3341a90c03c524d2f4ec0ce721ecb585fe51f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784627"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855438"
 ---
 # <a name="phone-number-management-for-germany"></a>德国的电话号码管理
 

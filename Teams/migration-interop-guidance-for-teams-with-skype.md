@@ -8,15 +8,16 @@ ms.service: msteams
 ms.reviewer: lehewe
 description: 从 for Business 的 Skype 管理向工作组的过渡指南
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f97554c0e03ae1e337d2c4b77e472edebab453e
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 11ba2e2d6d59ecd53dd1824f50c53022e15f2b69
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246661"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854180"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>使用团队一起 Skype for Business 的组织的迁移和互操作性指南
 
@@ -273,22 +274,22 @@ TeamsUpgradePolicy 现在公开三个属性。 主属性是模式和 NotifySfbUs
 
 ## <a name="related-topics"></a>相关主题
 
-[Get CsTeamsInteropPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/get-csteamsinteroppolicy?view=skype-ps)
+[Get CsTeamsInteropPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsinteroppolicy?view=skype-ps)
 
-[授予 CsTeamsInteropPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsinteroppolicy?view=skype-ps)
+[授予 CsTeamsInteropPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsinteroppolicy?view=skype-ps)
 
-[删除 CsTeamsInteropPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsinteroppolicy?view=skype-ps)
+[删除 CsTeamsInteropPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsinteroppolicy?view=skype-ps)
 
-[Get CsTeamsUpgradeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/get-csteamsupgradeconfiguration?view=skype-ps)
+[Get CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradeconfiguration?view=skype-ps)
 
-[Get CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
+[Get CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
 
-[授予 CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[授予 CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[新 CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csteamsupgradepolicy?view=skype-ps)
+[新 CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsupgradepolicy?view=skype-ps)
 
-[删除 CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsupgradepolicy?view=skype-ps)
+[删除 CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsupgradepolicy?view=skype-ps)
 
-[设置 CsTeamsUpgradeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
+[设置 CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
 
-[设置 CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsupgradepolicy?view=skype-ps)
+[设置 CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradepolicy?view=skype-ps)
