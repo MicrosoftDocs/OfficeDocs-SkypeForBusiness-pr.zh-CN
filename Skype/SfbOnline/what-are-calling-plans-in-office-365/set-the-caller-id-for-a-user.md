@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: c7323490-d9b7-421a-aa76-5bd485f80583
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,21 +20,21 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Office 365 中的电话系统提供一个默认的来电显示（即用户的已分配电话号码）。你可以为用户更改或阻止来电显示（也称为主叫号码）。你可以访问如何在你的组织中使用来电显示了解有关如何在你的组织中使用来电显示的详细信息。
-ms.openlocfilehash: cf6f1aab6f865a87186b7acb793e5aa7829907aa
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+description: Office 365 中的电话系统提供一个默认的来电显示，这是用户的已分配电话号码。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 你可以访问如何在你的组织中使用来电显示，以了解有关如何在你的组织中使用来电显示的详细信息。
+ms.openlocfilehash: cb32a7dcc38dcdd7fbaa5bf414d711953d237deb
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780814"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858644"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>为用户设置来电显示
-Office 365 中的电话系统提供一个默认的来电显示（即用户的已分配电话号码）。你可以为用户更改或阻止来电显示（也称为主叫号码）。你可以访问[如何在你的组织中使用来电显示](how-can-caller-id-be-used-in-your-organization.md)了解有关如何在你的组织中使用来电显示的详细信息。
+Office 365 中的电话系统提供一个默认的来电显示，这是用户的已分配电话号码。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 你可以访问[ 如何在你的组织中使用来电显示](how-can-caller-id-be-used-in-your-organization.md) ，以了解有关如何在你的组织中使用来电显示的详细信息。
   
 > [!TIP]
 > 不能阻止当前在 Skype for Business Online 中的传入呼叫。 
   
-您可以更改以下设置：
+你可以更改以下设置：
   
 > [!NOTE]
 > [!注释] 这一点 **不适用于** 使用 Lync 或 Skype for Business Server 的内部部署组织。
@@ -41,20 +42,20 @@ Office 365 中的电话系统提供一个默认的来电显示（即用户的已
 - **更改其传出来电显示** 你可以用其他电话号码替换用户的来电显示（默认情况下，显示的是用户的电话号码）。例如，你可以将用户的来电显示从其电话号码改为企业的主要电话号码，或者将用户的主叫号码从其电话号码改为法律部门的主要电话号码。你可以将来电显示号码改为任何在线 **服务** 号码（收费或免费）。
     
     > [!NOTE]
-    > 如果要使用  _Service_ 参数，必须指定有效的服务号码。
+    > [!注释] 如果要使用  _Service_ 参数，必须指定有效的服务号码。
   
 - **阻止其拨出来电显示** 您可以阻止在用户发起传出 PSTN 呼叫时发送其传出来电显示号码。 执行此操作将阻止其电话号码显示在被呼叫者的电话上。
     
 - **阻止其传入来电显示** 您可以阻止用户在任何传入 PSTN 呼叫中接收来电显示。
     
 > [!IMPORTANT]
-> 紧急呼叫始终发送用户的电话号码（来电显示号码）。 
+> [!重要信息] 紧急呼叫始终发送用户的电话号码（来电显示号码）。 
   
 默认情况下，所有这些来电显示设置都为 **关闭** 状态。这表示当 Skype for Business Online 用户呼叫某个 PSTN 电话时，将显示该用户的电话号码。
   
 要了解有关这些设置以及如何使用它们的详细信息，请访问[如何在你的组织中使用来电显示](how-can-caller-id-be-used-in-your-organization.md)。
   
-## <a name="set-your-caller-id-policy-settings"></a>设置您的来电显示策略设置
+## <a name="set-your-caller-id-policy-settings"></a>设置你的来电显示策略设置
 
 > [!NOTE]
 > 对于 Skype for Business Online 中的所有来电显示策略设置，必须使用 Windows PowerShell，并且 **不能使用** **Skype for Business 管理中心**。 
@@ -80,7 +81,7 @@ Office 365 中的电话系统提供一个默认的来电显示（即用户的已
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     
     > [!NOTE]
-    > 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
+    > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
 > 
   ```
 Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
@@ -100,7 +101,7 @@ Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modul
 
 如果想要深入了解如何启动 Windows PowerShell，请参阅 [在单个 Windows PowerShell 窗口中连接所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx) 或 [使用 Windows PowerShell 连接到 Skype for Business Online](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx) 。
     
-### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>查看组织中的所有来电显示策略设置
+### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>查看你组织中的所有来电显示策略设置
 
 - 要查看你组织中的所有来电显示策略设置，请运行：
 
@@ -129,7 +130,7 @@ Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modul
   ```
   请参阅有关 [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) cmdlet 的更多信息。
     
-如果您已创建策略，则可以使用 [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) cmdlet 对现有策略进行更改，然后使用[Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) cmdlet 将这些设置应用于您的用户。
+如果已创建策略，则可以使用 [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) cmdlet 对现有策略进行更改，然后使用[Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) cmdlet 将这些设置应用于用户。
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>对其进行设置以阻止传入来电显示
 
@@ -140,7 +141,7 @@ Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modul
   ```
   请参阅有关 [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) 的更多示例和详细信息。
     
-- 要将您创建的策略设置应用于您组织中的用户，请运行：
+- 要将创建的策略设置应用于组织中的用户，请运行：
     
   ```
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"

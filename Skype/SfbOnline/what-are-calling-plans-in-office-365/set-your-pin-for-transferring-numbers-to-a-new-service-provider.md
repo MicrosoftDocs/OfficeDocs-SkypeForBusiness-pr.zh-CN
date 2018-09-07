@@ -1,5 +1,5 @@
 ---
-title: 设置 PIN 以将号码转移到新服务提供商
+title: 设置 PIN 以将号码转移到新服务提供程序
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f1defa5b-e49c-4d8c-a5f8-3f736201af5e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,14 +21,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 如需将电话号码从 Skype for Business Online 转移或转出到另一个电话服务提供商或运营商，将需要手动 PIN。 设置 PIN 后，在请求将电话号码转出时将需要将其包括在内。
-ms.openlocfilehash: 4dc60b489a6b382df5764f0c011f716f36a17cd8
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 144e3b0527b8557bbbb6a7f9c1b51ad2d61a0f1f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779138"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851710"
 ---
-# <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>设置 PIN 以将号码转移到新服务提供商
+# <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>设置 PIN 以将号码转移到新服务提供程序
 
 将电话号码从 Skype for Business Online 传输或*转出*到另一个电话服务提供商或运营商，将需要手动设置 PIN。 设置 PIN 后，在请求将电话号码转出时将需要将其包括在内。 
   
@@ -56,7 +57,7 @@ ms.locfileid: "23779138"
     
 2. 转到 **Office 365 管理中心** > **管理中心** > **Skype for Business**。
     
-3. 在左侧导航中，选择 **语音** > **端口顺序**。
+3. 在左侧导航中，选择**语音** > **端口顺序**。
     
 4. 单击**设置和管理 PIN**，此功能用于将号码转移或转出到另一个服务运营商。
     

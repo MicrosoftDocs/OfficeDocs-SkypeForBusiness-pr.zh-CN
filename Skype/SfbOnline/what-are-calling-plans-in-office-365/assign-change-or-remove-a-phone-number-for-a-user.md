@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 了解如何给 Skype for Business 用户分配、更改或删除工作电话号码，以便外部业务和客户能呼入。
-ms.openlocfilehash: 8c80bf9da5471f1a7293a01ed9e2d56f6e1aa15b
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a522e4fd6cbd41c34b2547ab6be0f7590de0a8b3
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780936"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860588"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>为用户分配、更改或删除电话号码
 
-在 Office 365 中设置呼叫套餐时，你可以给用户分配电话号码。 
+在 Office 365 中设置呼叫套餐时，你可以向用户分配电话号码。 
 
 在 Microsoft Teams 客户端，当用户单击**呼叫**时，就会列出你分配的电话号码。
 
@@ -51,7 +52,7 @@ ms.locfileid: "23780936"
 > [!NOTE]
 > 一种查看用户是否已分配许可证的方法是，转到 **Skype for Business 管理中心** > **语音** > **语音用户**，然后选择此用户。 如果已分配许可证，则会在**分配的许可证**下面注明。 你还可使用 Office 365 管理中心。 
   
- ## <a name="assign-a-phone-number-to-a-user"></a>为用户分配电话号码
+ ## <a name="assign-a-phone-number-to-a-user"></a>向用户分配电话号码
  
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
  
@@ -61,13 +62,13 @@ ms.locfileid: "23780936"
     
 3. 在左侧导航中，单击**语音** > **语音用户**。
    > [!NOTE]
- 若要在 Skype for Business 管理中心的左侧导航中显示**语音**选项，必须先购买至少一个 **Enterprise E5 许可证**、一个**电话系统**附加许可证，或一个**音频会议**附加许可证。
+ 若要在 Skype for Business 管理中心的左侧导航中显示**语音**选项，必须先购买至少一个 **Enterprise E5 许可证**、一个**电话系统**加载项许可证，或一个**音频会议**加载项许可证。
  
    
     
 4. 在**语音用户**页面上，查找并选择要为其分配电话号码的一个或多个用户。
     
-5. 在操作窗格中，单击**分配号码**。
+5. 在"操作"窗格中，单击" **分配号码**"。
     
 6. 在**分配号码**页面上的**选择要分配的号码**列表中，为该用户选择电话号码。
     
@@ -76,7 +77,7 @@ ms.locfileid: "23780936"
   
 7. 要在**选择验证紧急位置**下分配或更改相关联的紧急地址，可从列表中选择该位置，或者，如果你拥有很多定义位置，可在搜索框中输入城市名称，然后单击**搜索**。
     
-8. 在选择电话号码和紧急位置之后，请单击**保存**。
+8. 在选择电话号码和紧急位置之后，请单击" **保存**"。
     
     > [!NOTE]
     > 由于 Office 365 和 Skype for Business Online 之间的延迟，可能需要长达 24 小时才能为用户启用电话号码。 如果 24 小时后未正确分配电话号码，请[联系商业产品支持 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 我们随时为你提供帮助！ 
@@ -93,17 +94,17 @@ ms.locfileid: "23780936"
     
 3. 在左侧导航中，单击**语音** > **语音用户**。
     
-4. 在**语音用户**页面上，查找并选择要更改其电话号码的一个或多个用户。
+4. 在" **语音用户**"页面上，查找并选择要更改其电话号码的一个或多个用户。
     
 5. 在操作窗格中的**已分配号码**下，单击**更改**。 
     
-6. 在**分配号码**页面上，单击**更改号码**。
+6. 在" **分配号码**"页面上，单击" **更改号码**"。
     
-7. 在**分配号码**页面上的**选择要分配的号码**下，使用列表选择新的电话号码。 
+7. 在" **分配号码**"页面上的" **选择要分配的号码**"下，使用列表选择新的电话号码。 
     
 8. 要更改相关联的紧急地址，请单击**更改位置**，然后在**将紧急地址更改为**下，从列表中选择位置，或者，如果你拥有很多定义位置，请在搜索框中输入城市名称，然后单击**搜索**。
     
-9. 单击**保存**。
+9. 单击" **保存**"。
     
 
 
@@ -117,11 +118,11 @@ ms.locfileid: "23780936"
     
 3. 在左侧导航中，单击**语音** > **语音用户**。
     
-4. 在**语音用户**页面上，查找并选择要删除其电话号码的一个或多个用户。
+4. 在" **语音用户**"页面上，查找并选择要删除其电话号码的一个或多个用户。
     
 5. 在操作窗格中的**分配号码**下，单击**删除**。 
     
-6. 在**要删除选定的已分配号码吗?** 页面上，单击**是**。
+6. 在" **要删除选定的已分配号码吗?**" 页面上，单击" **是**"。
     
 
 ## <a name="related-topics"></a>相关主题

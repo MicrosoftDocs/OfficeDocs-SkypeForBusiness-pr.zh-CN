@@ -1,5 +1,5 @@
 ---
-title: 基于您的计划的许可证选项
+title: 基于计划的许可证选项
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -17,13 +18,14 @@ appliesto:
 localization_priority: Priority
 f1keywords: None
 ms.custom: None
-description: 了解电话系统的语音邮件。
-ms.openlocfilehash: 120299cbb635fc8bed3734307763a65f344aa66b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+description: 了解电话系统语音邮件。
+ms.openlocfilehash: 0cf6497dc109d63de6604f7ce6ed564b15558df2
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849926"
 ---
-# <a name="license-options-based-on-your-plan"></a>基于您的计划的许可证选项
+# <a name="license-options-based-on-your-plan"></a>基于计划的许可证选项
 
 

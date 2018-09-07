@@ -7,6 +7,7 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关加载项许可证、功能和如何购买 Office 365 企业高级版套餐的信息。 '
-ms.openlocfilehash: ac7a09c99b72f643ad10516009154e65c51c1e48
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 3c1c4fd8dc5cc680ce79a3c1c1e1c0208d00619a
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779002"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861558"
 ---
 # <a name="office-365-business-premium"></a>Office 365 商业高级版
 
@@ -40,7 +41,7 @@ ms.locfileid: "23779002"
     建议开始先使用 Skype 应用，以确定它是否能满足你的需要。如果不能，再考虑下一个选项，即升级你的计划。
 
     > [!IMPORTANT]
-    > 您需要设置一个开关，以允许您的员工使用 Skype for Business 搜索 Skype 用户。 请参阅[允许 Skype for Business 用户添加 Skype 联系人](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)。
+    > 你需要设置一个开关，以允许你的员工使用 Skype for Business 搜索 Skype 用户。 请参阅[允许 Skype for Business 用户添加 Skype 联系人](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)。
 
 
 - **选项 2. 升级您的套餐和购买电话系统的国内或国内和国际通话套餐**。
@@ -52,7 +53,7 @@ ms.locfileid: "23779002"
 
 2. 购买**电话系统**加载项。
     
-3. 购买 [Office 365 通话套餐](/MicrosoftTeams/calling-plans-for-office-365)：您仅可在购买**电话系统**加载项后购买本套餐。
+3. 购买 [Office 365 通话套餐](/MicrosoftTeams/calling-plans-for-office-365)：仅可在购买**电话系统**加载项后购买本套餐。
     
     对于有多人需要拨打和接听外部电话的企业而言，第二个选项是理想的选择。
 
@@ -65,16 +66,16 @@ ms.locfileid: "23779002"
 
 2. 转到**帐单** > **订阅** > **加载项** > **购买加载项**。
 
-   ![若要购买加载项许可证，选择购买加载项。](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![若要购买加载项许可证，请选择购买加载项。](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
 3. 现在，您将看到的价格和选择购买音频会议和安装通信点数。
 
 **若要获取电话系统和通话套餐：**
 
-1. 切换到 E1 或 E3 计划。
+1. 切换到 E1 或 E3 套餐。
 
 2. 转到 Office 365 管理中心 > **开单** > **订阅**。
 
-3. 选择" **附加许可证**"。 现在，您将看到电话系统的价格和购买选择。
+3. 选择" **附加许可证**"。 现在，将看到电话系统的价格和购买选项。
 
-4. 购买**电话系统**许可证后，您将看到购买通话套餐的价格和选择。
+4. 购买**电话系统**许可证后，将看到购买通话套餐的价格和选项。
