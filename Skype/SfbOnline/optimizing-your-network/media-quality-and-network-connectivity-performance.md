@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 5fe3e01b-34cf-44e0-b897-b0b2a83f0917
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 本主题定义的业务联机服务 Skype 的网络性能要求集和如何您可以选择业务 online 网络和 Skype 之间的连接使用的 Internet 或 ExpressRoute 基于您的网络的评估连接。 如果您已决定专用连接到 Office 365 部署 Azure ExpressRoute，本文还如何规划中的业务 Online 部署方案的不同 Skype ExpressRoute 连接提供指导。
-ms.openlocfilehash: 3a57ba58e2881f2e279949877d17e115cb1c23df
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: ce4a1379310d9dd7fdcad6c8242c792103f05c18
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779353"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850228"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Skype for Business Online 中的媒体质量和网络连接性能
 

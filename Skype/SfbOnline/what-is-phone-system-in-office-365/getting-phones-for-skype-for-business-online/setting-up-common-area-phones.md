@@ -7,6 +7,7 @@ ms.reviewer: wasseemh
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解获取正确的固件，如果需要对其进行更新、 分配许可证和为公用区域电话配置设置的部署步骤。
-ms.openlocfilehash: cb6cf1ed66f07ba618c74a47bc2c435229b235ec
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: c590620048c92177236a67b1480c19e64ca21e02
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779209"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850164"
 ---
 # <a name="set-up-common-area-phones"></a>设置公共区域电话
 公共区域电话 (CAP) 通常放置在诸如大厅或另一个可供很多人使用的的区域。 例如，CAP 可以是接待室电话、门铃电话或会议室电话，它们设置为设备而不是用户并自动登录网络。 在以下步骤中，我们将帮助你设置带通话套餐的电话系统帐户，以便你为组织部署这些类型的电话。

@@ -9,6 +9,7 @@ ms.assetid: 3cd6c094-d178-4968-85dd-ab774d12b893
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 这将帮助您了解如何拨号中每个国家/地区免费电话号码。 选择国家/地区后，它会将您导引到特定国家/地区的页面包含特定详细信息、 限制和免费电话服务可用性的限制的免费电话服务位于。 拨号格式将显示您可以拨打的免费电话号码每个国家/地区内所需的访问代码。
-ms.openlocfilehash: ddbf8dccb65b0e533ebe077dd1c974ed88b45b9e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 537644c71671ccb8792d84d84a43fbe5a32a2f2d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783123"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850840"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-arab-emirates"></a>免费电话拨号阿拉伯联合酋长国中的限制
 

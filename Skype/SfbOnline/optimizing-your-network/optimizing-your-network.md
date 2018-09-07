@@ -1,5 +1,5 @@
 ---
-title: Optimizing your network
+title: 优化网络
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: b363bdca-b00d-4150-96c3-ec7eab5a8a43
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,16 +18,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: 以下要求非常重要，可以确保你要为组织设置的所有 Skype for Business Online 功能能够长期正常和成功运行。 本文档适合技术专家使用，但是有些用户并非精通技术。 如果你需要 Skype for Business Online 设置方面的帮助，请阅读本文档熟悉你需要考虑的事项。 It will also give you things to talk about when you are working with the Microsoft FastTrack Center, your Microsoft Services and account teams, or with Microsoft partners to figure out how you can meet these requirements.
-ms.openlocfilehash: 8a6100098b2aee96ce0f9d8792f001b35b682560
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 以下要求非常重要，可以确保你要为组织设置的所有 Skype for Business Online 功能能够长期正常和成功运行。 本文档适合技术专家使用，但是有些用户并非精通技术。 如果你需要 Skype for Business Online 设置方面的帮助，请阅读本文档熟悉你需要考虑的事项。 它还提供要讨论当您正在使用 Microsoft FastTrack 中心、 Microsoft 服务和帐户团队或与 Microsoft 合作伙伴明白，您可以如何满足这些要求的事项。
+ms.openlocfilehash: aac6a85b78df7477a6e62ddbf766015182bb7a2b
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851492"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>为 Skype for Business Online 优化网络
 
-以下要求非常重要，可以确保你要为组织设置的所有 Skype for Business Online 功能能够长期正常和成功运行。 本文档适合技术专家使用，但是有些用户并非精通技术。 如果你需要 Skype for Business Online 设置方面的帮助，请阅读本文档熟悉你需要考虑的事项。 It will also give you things to talk about when you are working with the [Microsoft FastTrack Center](https://fasttrack.microsoft.com/office), your Microsoft Services and account teams, or with [Microsoft partners](https://partnercenter.microsoft.com/en-us/pcv/search) to figure out how you can meet these requirements.
+以下要求非常重要，可以确保你要为组织设置的所有 Skype for Business Online 功能能够长期正常和成功运行。 本文档适合技术专家使用，但是有些用户并非精通技术。 如果你需要 Skype for Business Online 设置方面的帮助，请阅读本文档熟悉你需要考虑的事项。 它还提供要讨论当您正在使用[Microsoft FastTrack 中心](https://fasttrack.microsoft.com/office)、 Microsoft 服务和帐户团队或与[Microsoft 合作伙伴](https://partnercenter.microsoft.com/en-us/pcv/search)明白，您可以如何满足这些要求的事项。
   
 ## <a name="a-quick-overview"></a>简要概述
 
@@ -50,7 +52,7 @@ Skype for Business 让你可与公司内或全球的同事或业务合作伙伴�
 
 通过 IP 的实时媒体（音频、视频和应用程序共享）的质量很大程度上受端到端网络连接质量的影响。为获得最佳的 Skype for Business Online 媒体质量，确保公司网络与 Skype for Business Online 之间的高质量连接很重要。实现这一目标的最佳做法是基于网络容量设置内部网络和云连接，以便所有连接都可以承受 Skype for Business Online 的高峰流量。
   
-Working with a [Microsoft partner](https://partnercenter.microsoft.com/en-us/pcv/search), you can connect a variety of Office 365 applications including Skype for Business Online in the cloud to your network and real-time voice and video communications capabilities for Skype for Business require network services must be specifically configured to support these Office 365 real-time workloads. 这包括具有足够带宽承载所需的流量并且能够支持服务质量 (QoS) 来为用户提供企业级体验的网络。
+使用[Microsoft 合作伙伴](https://partnercenter.microsoft.com/en-us/pcv/search)，您可以连接到您的网络和实时语音云中业务 online 包括 Skype 的 Office 365 应用程序的各种和 Skype for Business 的视频通信功能，需要网络必须专门配置服务以支持这些 Office 365 实时工作负载。 这包括具有足够带宽承载所需的流量并且能够支持服务质量 (QoS) 来为用户提供企业级体验的网络。
   
 除了本文档中提供的信息，还有其他资源可以帮助你成功规划和部署 Skype for Business Online 服务与功能以及确保你的网络服务满足以下要求：
   
@@ -66,7 +68,7 @@ Working with a [Microsoft partner](https://partnercenter.microsoft.com/en-us/pcv
   
 Skype for Business 实时流量对于丢包率、延迟和抖动很敏感，而拥堵的网络中经常会发生这些情况。另外，还必须在受管外部 WAN、受管内部 LAN 和基于企业的 WiFi 网络上部署服务质量 (QoS)（有时称为"服务类别"）。这将有助于正确地区分 Skype for Business 实时流量的优先次序，例如音频和视频优先于本地网络上的其他非实时流量并优先于 WAN，从而为最终用户提供更佳的体验。
   
-Skype for Business 音频必须在 EF（加速转发 - DSCP 46）队列中部署，而 Skype for Business 视频则必须在 AF41（确保转发 - DSCP 34）队列中部署。 This is true even for peer-to-peer and conferencing traffic, regardless of whether Phone System in Office 365 or other telephony features are being deployed.
+Skype for Business 音频必须在 EF（加速转发 - DSCP 46）队列中部署，而 Skype for Business 视频则必须在 AF41（确保转发 - DSCP 34）队列中部署。 这种情况甚至对于对等和会议通信，无论是否部署 Office 365 中的电话系统或其他电话功能。
   
 用户可能已在 LAN 和 WAN 上针对其他 IP 电话产品妥善部署现有 QoS 策略，但是 Skype for Business 允许用户在使用该服务的同时进行移动，即从一个位置移动到另一个位置。因此，必须在 LAN、WAN 和无线网络上标记 QoS 策略，以确保在所有受管网络上区分所有 Skype for Business 流量的优先次序。
   
@@ -74,7 +76,7 @@ Skype for Business 音频必须在 EF（加速转发 - DSCP 46）队列中部署
   
 有关媒体质量和 QoS 的详细信息，请参阅 [Skype for Business Online 中的媒体质量和网络连接性能](media-quality-and-network-connectivity-performance.md)。
   
-For more about setting up and managing QoS, see [Managing Quality of Service](https://technet.microsoft.com/en-us/library/gg425841.aspx).
+有关设置和管理 QoS 详细信息，请参阅[管理服务质量](https://technet.microsoft.com/en-us/library/gg425841.aspx)。
   
 ## <a name="bypass-proxies-and-wan-optimization-devices"></a>绕过代理和 WAN 优化设备
 
@@ -122,7 +124,7 @@ Skype for Business 客户端使用多个端口和协议。根据交互类型（�
   
 ## <a name="use-phones-and-devices-optimized-for-skype-for-business"></a>使用针对 Skype for Business 优化的电话和设备
 
-在实时媒体会话中，所有参与者使用的耳机、网络摄像头等媒体设备都对音频和视频的整体质量有很大影响。 Lower-quality devices or devices with incorrect device drivers will produce lower overall sound quality for audio and lower image quality for video. 另一方面，经认证的设备或高品质设备有助于消除回声、过滤噪音、提高视频分辨率并减少延迟。
+在实时媒体会话中，所有参与者使用的耳机、网络摄像头等媒体设备都对音频和视频的整体质量有很大影响。 低质量设备或不正确的设备驱动程序的设备将产生较低总体音质音频和较低的图像的视频的质量。 另一方面，经认证的设备或高品质设备有助于消除回声、过滤噪音、提高视频分辨率并减少延迟。
   
 不同的电话和设备，会给最终用户带来迥然不同的音频和视频质量。Skype for Business 认证计划是"Lync 兼容"计划的演变，可以验证设备是否满足 Microsoft 的音频和视频标准。Microsoft 已经测试多个 IP 电话、USB 音频和视频设备、电脑和会议室设备并将其认定为合格。你应当查看针对 Skype for Business 优化的设备的列表，并提供不同的设备来满足组织中最终用户的不同需求和个人偏好。
   
@@ -138,7 +140,7 @@ Skype for Business 客户端使用多个端口和协议。根据交互类型（�
     
 用户会面及使用音频和视频设备的环境及周边区域是另一个影响音频和视频质量的重要因素。用户在嘈杂的环境中通话会产生回声和含混不清的音频。用户在黑暗或低光照环境中则无法生成明亮清晰的视频图像画质。在会议室设置中，麦克风和视频设备的位置对参与者接收的声音和图像质量有直接影响。
   
-To get a clearer picture of a user's audio and video experience use the Skype for Business app **Tools** > **Options** > **Audio Device** or **Video Device** to make changes to the device in use and customize it's settings. You can also check the audio quality of a call by clicking **Check Call Quality**. If they click **Check Call Quality**, they can then report the quality and issues found with the test call.
+若要获取用户的音频和视频体验使用清楚地 Skype 业务应用程序**工具** > **选项** > **音频设备**或**视频设备**更改中使用的设备和自定义它的设置。 您还可以通过单击**检查呼叫质量**检查音频呼叫的质量。 If they click **Check Call Quality**, they can then report the quality and issues found with the test call.
   
 ![Testing audio in the Skype for Business client.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
   

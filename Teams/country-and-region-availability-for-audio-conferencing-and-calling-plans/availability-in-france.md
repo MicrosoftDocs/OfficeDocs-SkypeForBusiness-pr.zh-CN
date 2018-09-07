@@ -9,6 +9,7 @@ ms.assetid: 14b4e0d3-6add-47a5-b0a2-e80fc5199fce
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 法国可用的项目。
-ms.openlocfilehash: e17649b72f88babdb1b6216a8a91edf9acf0ad1e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a5da874288eefb41b4975cd83f57253c441b6838
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785467"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23852178"
 ---
 # <a name="availability-in-france"></a>在法国的可用性
 

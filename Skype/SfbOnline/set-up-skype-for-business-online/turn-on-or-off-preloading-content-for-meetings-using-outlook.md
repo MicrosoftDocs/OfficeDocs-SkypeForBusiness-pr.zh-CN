@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: d217d422-f7e9-433d-ad24-bf41751f65ca
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: 7a572689575a708707aeca3eb963d5eb7d864594
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: d5a0e6f9d512e585e370268d3e21daef177e3923
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568268"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850124"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>打开或关闭允许使用 Outlook 为会议预加载内容
 
@@ -36,7 +37,7 @@ ms.locfileid: "19568268"
 
  **检查正在运行的是 Windows PowerShell 3.0 版本或更高版本**
   
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. 若要验证正在运行的版本是 3.0 或更高：**开始菜单** > **Windows PowerShell**。
     
 2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
     
@@ -50,7 +51,7 @@ ms.locfileid: "19568268"
 
  **启动 Windows PowerShell 会话**
   
-1. From the **Start Menu** > **Windows PowerShell**.
+1. 从 **开始菜单** > **Windows PowerShell**。
     
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     
@@ -91,7 +92,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [为何想使用 Windows PowerShell 管理 Office 365 的 6 个理由）](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为何想使用 Windows PowerShell 管理 Office 365 的 6 个理由） ](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - 例如当你一次对多个用户更改设置时，Windows PowerShell 比起仅使用 Office 365 管理中心，在速度、简明性和效率方面具有许多优势。通过以下主题了解这些优势：
     

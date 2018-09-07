@@ -11,15 +11,16 @@ ms.audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
+search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 了解有关消息策略以及如何使用它们来控制聊天消息团队。
-ms.openlocfilehash: 56aedc797fdc73ec93000ba5aced4f17de93aaa4
-ms.sourcegitcommit: b87168f58218a5a44e1f3371867401d44f6927e5
+ms.openlocfilehash: ef252f958f08c75d0fcfb8af0a06aadf776d3668
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22221798"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850914"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>什么消息团队中的策略？
 

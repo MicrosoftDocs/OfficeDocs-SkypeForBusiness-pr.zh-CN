@@ -6,17 +6,18 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 description: 介绍 Microsoft Teams 并向管理员说明如何规划、部署和操作 Microsoft Teams 的培训视频。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eed2f652ae91c8f6c5296fc558d5008fb0e5e607
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 42ac2b70b0ab0ba014decbef423ee82c6d45ddb2
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20409309"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849842"
 ---
 <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 ==================================

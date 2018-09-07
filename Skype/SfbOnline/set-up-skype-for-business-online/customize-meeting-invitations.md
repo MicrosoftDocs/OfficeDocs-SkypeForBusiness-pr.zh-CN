@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 9af52080-dd56-4b66-b056-41ed1a7aaae3
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,12 +18,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: '自定义与图形徽标、 帮助和法律 Url 和页脚文本的 Skype 会议邀请。 '
-ms.openlocfilehash: 1f53ce183ebe62923948a33a7ac6b14f3c61f04a
-ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
+ms.openlocfilehash: b7f9fc41257d24f6c8ffa78304164c67261573c1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/04/2018
-ms.locfileid: "19500551"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849982"
 ---
 # <a name="customize-meeting-invitations"></a>自定义会议邀请
 

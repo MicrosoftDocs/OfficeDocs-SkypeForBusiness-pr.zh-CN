@@ -9,6 +9,7 @@ ms.assetid: e3e3b5a0-c333-46fd-be0a-299b6adf7b88
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 这将帮助您了解如何拨号中每个国家/地区免费电话号码。 选择国家/地区后，它会将您导引到特定国家/地区的页面包含特定详细信息、 限制和免费电话服务可用性的限制的免费电话服务位于。 拨号格式将显示您拨免费电话号码每个国家/地区内所需的访问代码。
-ms.openlocfilehash: 9d2be18967d3064fef30f2d6924bffffff8d0afc
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 644f898ca7845757bb99b50e83ac7026e712b12c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785067"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850766"
 ---
 # <a name="toll-free-dialing-restrictions-in-israel"></a>免费电话拨号以色列中的限制
 

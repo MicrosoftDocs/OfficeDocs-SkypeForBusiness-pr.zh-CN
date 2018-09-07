@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 8e46e857-f046-4e87-a633-0d7fb88d66d5
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,11 +19,12 @@ f1keywords:
 ms.custom:
 - SMB
 description: 您可以启用 Skype 会议广播和更改的设置和这些会议策略。
-ms.openlocfilehash: 7cba3f66713d76e32da01d3dd318a6096dbed35c
-ms.sourcegitcommit: faea19005301c56a081b6e6157965becac76ec2f
+ms.openlocfilehash: 7145f246ff7b3b6edbcae84f2ca2f5bc381ea501
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851700"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>对您的组织的 Skype 会议广播设置进行更改
 

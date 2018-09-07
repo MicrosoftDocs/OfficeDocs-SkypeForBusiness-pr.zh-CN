@@ -9,6 +9,7 @@ ms.assetid: 3662b214-5798-458d-8dcd-0bd563ad01fd
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于洪都拉斯业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 3f47c3348e9ef1c4eb98ce6e409b7ef5312b54ca
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 95c4207f148602532cd7ed27c5dc110a30a8d48b
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829343"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850698"
 ---
 # <a name="availability-in-honduras"></a>洪都拉斯中的可用性
 

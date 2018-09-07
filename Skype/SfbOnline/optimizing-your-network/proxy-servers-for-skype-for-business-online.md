@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 7acaf2c2-35fa-490f-84cd-822e446e0fc7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 本文将提供相关指南，帮助你为 Skype for Business 使用代理服务器。
-ms.openlocfilehash: fcae4ec366845818d515a4d78c79ea77d038a4a5
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 3d83e2f6d4eb2b88a52eb949217ac2f00c72acff
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211019"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850010"
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Skype for Business Online 的代理服务器
 

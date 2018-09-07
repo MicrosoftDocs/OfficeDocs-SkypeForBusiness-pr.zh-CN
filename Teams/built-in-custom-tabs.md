@@ -1,5 +1,5 @@
 ---
-title: "在 Microsoft Teams 中使用内置选项卡和自定义选项卡"
+title: 在 Microsoft Teams 中使用内置选项卡和自定义选项卡
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,14 +7,16 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lucarras
-description: "了解如何使用内置选项卡和自定义选项卡来包括对话、文件、地图等功能。"
+search.appverid: MET150
+description: 了解如何使用内置选项卡和自定义选项卡来包括对话、文件、地图等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2fd214e454752e4a759d229c310aabd901c50dd
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 15f812e0b12b666c838c5e2d58f24a1da678f0a1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849954"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>在 Microsoft Teams 中使用内置选项卡和自定义选项卡
 ==================================================
@@ -29,7 +31,7 @@ ms.lasthandoff: 02/19/2018
 
 1.  所有者和团队成员可以向每个频道添加其他选项卡，以帮助集成其云服务。
 
-2.  Excel、PowerPoint、Word 和 PDF 必须先上载到**“文件”选项卡**，然后才能转换为选项卡。 此外，只需单击一次即可将已上载的任何现有文件转换为选项卡，如下所示。
+2.  Excel、PowerPoint、Word 和 PDF 必须先上载到 **“文件”选项卡**，然后才能转换为选项卡。 此外，只需单击一次即可将已上载的任何现有文件转换为选项卡，如下所示。
 
     ![选择了一个 PowerPoint 文件的“文件”选项卡屏幕截图。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 

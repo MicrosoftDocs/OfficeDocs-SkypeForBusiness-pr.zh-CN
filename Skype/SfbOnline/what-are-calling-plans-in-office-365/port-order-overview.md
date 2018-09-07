@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d95a727c-8ba0-4e71-a569-aefda5b8908a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '快速了解如何将某个服务提供商的电话号码转移到 Skype for Business。 '
-ms.openlocfilehash: 528032de190518ae1f4cb426d2b4556615fe2ebd
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: c963291dd92aee45758affb6cdec5975d9402478
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779237"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849962"
 ---
 # <a name="port-order-overview"></a>转网订单概述
 

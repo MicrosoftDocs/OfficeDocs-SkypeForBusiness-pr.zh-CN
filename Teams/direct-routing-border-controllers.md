@@ -7,14 +7,15 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: ''
 description: 直接路由中使用与所选的 SBC 供应商，以确认其 SBC 的 Microsoft 合作伙伴。
-ms.openlocfilehash: e17222932fd971278b3c97c2daffff9c531c21ec
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: f233bdfcb579bbab3d9c9a13f0ab500a8c512d2e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23834988"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850832"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>认证的直接路由的会话边界控制器的列表
 

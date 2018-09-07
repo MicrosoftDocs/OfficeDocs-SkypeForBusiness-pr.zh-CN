@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 35562b48-1da1-4081-8a3a-033d0f1986b2
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 您可以让您 Skype 业务用户使用的业务应用程序的反馈工具内置 Skype 让用户报告问题并提供反馈直接向 Microsoft 有关其体验。
-ms.openlocfilehash: 09ddaa9952ab5d536c6a95937ca71c4c056a15e0
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 6d8f5c7e7c333e447b4238e47dab1fc7ad394816
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22135537"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850096"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>开启或关闭 Skype for Business 客户端反馈报告
 
@@ -44,7 +45,7 @@ ms.locfileid: "22135537"
 
 - **检查正在运行的是 Windows PowerShell 3.0 版本或更高版本**
     
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. 若要验证正在运行的版本是 3.0 或更高：**开始菜单** > **Windows PowerShell**。
     
 2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
     
@@ -56,7 +57,7 @@ ms.locfileid: "22135537"
     
 - **启动 Windows PowerShell 会话**
     
-1. From the **Start Menu** > **Windows PowerShell**.
+1. 从 **开始菜单** > **Windows PowerShell**。
     
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     

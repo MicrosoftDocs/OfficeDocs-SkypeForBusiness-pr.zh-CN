@@ -9,6 +9,7 @@ ms.assetid: 6ca09632-073d-497d-8075-32518917cf81
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 适用 （香港特别行政区）。
-ms.openlocfilehash: 3d161f7bfc32d7820c440166fbbfbb0a4faa6c84
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 2dd9f3e84380389131c6ea38e1b08b706fa4a6a2
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23786123"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850758"
 ---
 # <a name="availability-in-hong-kong"></a>（香港特别行政区） 中的可用性
 

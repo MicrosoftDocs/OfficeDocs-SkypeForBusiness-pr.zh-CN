@@ -7,16 +7,18 @@ ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rramesan
+search.appverid: MET150
 description: 开启或关闭 Microsoft Teams 中的来宾访问功能。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddf9f3b2597300ca872a5ab4135538e9cc6cc5ed
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 00dbeb60d941742e0ee7b345b431093c0890c14c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23852008"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>开启或关闭对 Microsoft Teams 的来宾访问
 ======================================
@@ -41,26 +43,26 @@ ms.lasthandoff: 03/15/2018
 1. 使用 Office 365 全局管理员帐户登录 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。
     
   
-2. 在导航菜单中，依次选择**“设置”**和**“服务&amp;和外接程序”**。
+2. 在导航菜单中，依次选择 **“设置”** 和 **“服务&amp;和外接程序”**。
     
      ![登录 Office 365，访问 Office 365 管理中心，转到“设置”，然后选择“服务&amp;和外接程序”](media/99e676d4-5b48-4525-9556-547031fa37d9.png)
   
  
 
   
-3. 选择**“Microsoft Teams”**。
+3. 选择 **“Microsoft Teams”**。
     
      ![此屏幕截图显示了在 Office 365 管理中心中选择的 Microsoft Teams 外接程序对应的选项。](media/17ac5608-d212-4fa8-ae3a-e78c62003968.png)
   
   
-4. 在**“选择要配置的用户/许可证类型”**中，选择**“来宾”**。
+4. 在 **“选择要配置的用户/许可证类型”** 中，选择 **“来宾”**。
    
     ![Microsoft Teams 外接程序的屏幕截图显示选择了“来宾”许可证且 Microsoft Teams 选项设置为“开启”。](media/92aabda5-431c-4fdd-803e-5ab49290f4f7.png)
       
 
   
   
-5. 单击或点击**“对此类型的所有用户开启或关闭 Microsoft Teams”**旁边的切换将其设置为**“开启”**为贵组织开启 Teams 和来宾访问，然后选择**“保存”**。 
+5. 单击或点击 **“对此类型的所有用户开启或关闭 Microsoft Teams”** 旁边的切换将其设置为 **“开启”** 为贵组织开启 Teams 和来宾访问，然后选择 **“保存”**。 
     
  观看以下视频，了解有关来宾访问的更多详细信息：  
 

@@ -9,6 +9,7 @@ ms.assetid: dda0070b-16ec-43ca-ac81-e390aea630d2
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于格鲁吉亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: c03f449637187a075710ad77c410c32e999a6666
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: a0331f0a3219364b237b5afcf23acacd21dd718c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829407"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850946"
 ---
 # <a name="availability-in-georgia"></a>在乔治亚州的可用性
 
