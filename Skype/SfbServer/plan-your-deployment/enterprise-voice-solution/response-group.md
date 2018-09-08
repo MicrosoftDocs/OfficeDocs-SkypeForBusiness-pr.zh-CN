@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: 规划业务 Server 企业语音的 Skype 响应组，这样可使您可以设置呼叫路由到用户组。 包括音频文件要求。
-ms.openlocfilehash: 148d349b6754cc32cb3a2a2159a16485ab09cb2e
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a5dcf77d2c5c87bf2f3bfa3156795b050591eee5
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243183"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885583"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>规划 Business Server Skype 中的响应组应用程序
 

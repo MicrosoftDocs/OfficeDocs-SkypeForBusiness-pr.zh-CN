@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: 提供了详细的业务 Server 企业语音，包括收集有关您的网络站点、 区域、 和带宽规划 Skype 中的呼叫允许控制的示例。
-ms.openlocfilehash: 16cc5687a0cde959ae242427d3b325afff8ec9a9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 539f221f50ddd4afe190afba91c169cabadc3345
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968605"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887895"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>示例： 收集的要求的呼叫允许控制的 Skype 业务服务器
  

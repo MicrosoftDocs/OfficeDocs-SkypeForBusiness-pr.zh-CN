@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor
 description: 使用展望（规划）、上线（交付）、推动价值（运营）框架在 Microsoft Teams 中规划、部署和管理具有通话套餐的电话系统的实践指导。
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 2ce4d09113cc75381379fa6f9481eca2ae27c2ea
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1ef49826026d2a172f5d01b161eb1dfc17fd55b6
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853652"
+ms.locfileid: "23884125"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Microsoft Teams 中具有通话套餐的电话系统实践指导
 =========================================================================

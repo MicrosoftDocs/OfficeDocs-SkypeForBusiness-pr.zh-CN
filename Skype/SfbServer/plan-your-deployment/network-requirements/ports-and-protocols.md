@@ -7,19 +7,19 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 摘要： 实现 Skype 业务服务器之前查看端口使用情况注意事项。
-ms.openlocfilehash: 762ec5d0e07cde90c9f09d852d6bc6773024d7cb
-ms.sourcegitcommit: 309941f79f0f8dbcbce620fe90e9f73dd0bcfcbd
+ms.openlocfilehash: 4355bc35e5e8ddcf881e322c39661389f78dce1a
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23289912"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884991"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>服务器的端口和协议要求
  

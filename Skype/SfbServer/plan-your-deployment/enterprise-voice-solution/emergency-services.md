@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: 了解业务 Server 企业语音，包括位置获取 Skype 中的增强型 9-1-1 (E9-1-1) 服务和呼叫路由。
-ms.openlocfilehash: 1e71b232a9c13a223192afd76066b6afc72721d4
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 19c660152903c1091612060bfd808bea5a116d2f
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245326"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884390"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>规划业务服务器中 Skype 的紧急服务
 

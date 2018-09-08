@@ -5,19 +5,19 @@ author: microsoftheidi
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 摘要： 了解如何为业务服务器 Skype 中的边缘服务器的系统要求。
-ms.openlocfilehash: ede0f7f933f246496593519afa035f09ef402bfb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3e5bdd5ad47004f7908a8bd39cb122d1f03ce96f
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013136"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886967"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>为业务服务器中 Skype 边缘服务器的系统要求
  

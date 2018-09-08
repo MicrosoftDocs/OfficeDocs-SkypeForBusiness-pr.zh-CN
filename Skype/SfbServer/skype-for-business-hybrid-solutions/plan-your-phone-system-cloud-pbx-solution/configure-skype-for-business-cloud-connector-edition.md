@@ -7,7 +7,7 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -17,11 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
 description: 了解如何配置 Skype 商务云连接器版，最少内部拓扑以启用内部部署语音基础结构与电话系统的 Skype 中的 Office 365 (云 PBX) 语音服务业务 online 的集成。
-ms.openlocfilehash: 6cbf01b5b155fd3e234ef2a1827eb52580d22d2f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 3872bf212d3a0a12f5fc63eb62930cfb20314f13
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885634"
 ---
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>配置和管理 Skype for Business 云连接器版本
  
@@ -38,15 +39,15 @@ ms.lasthandoff: 05/03/2018
   
 |**步骤**|**说明**|
 |:-----|:-----|
-|[准备云连接器 appliance](prepare-your-cloud-connector-appliance.md) <br/> |下载该安装文件、 准备证书、 配置 HYPER-V，和云连接器部署准备您的环境。  <br/> |
-|[部署云 Connector 中的单个网站](deploy-a-single-site-in-cloud-connector.md) <br/> |在云连接器部署中创建站点。  <br/> |
-|[部署云 Connector 中的多个站点](deploy-multiple-sites-in-cloud-connector.md) <br/> |向部署中添加站点，并了解单站点部署与多站点部署之间的差别。  <br/> |
-|[配置与 Office 365 租户云连接器集成](configure-cloud-connector-integration-with-your-office-365-tenant.md) <br/> |添加 DNS 记录、配置混合连接、设置 PSTN 网关，并为用户启用 Office 365 中的电话系统语音邮件。  <br/> |
-|[验证您云连接器的部署](validate-your-cloud-connector-deployment.md) <br/> |确保部署正常运行。  <br/> |
+|[准备云连接器设备](prepare-your-cloud-connector-appliance.md) <br/> |下载该安装文件、 准备证书、 配置 HYPER-V，和云连接器部署准备您的环境。  <br/> |
+|[在云连接器中部署单个站点](deploy-a-single-site-in-cloud-connector.md) <br/> |在云连接器部署中创建站点。  <br/> |
+|[在云连接器中部署多个站点](deploy-multiple-sites-in-cloud-connector.md) <br/> |向部署中添加站点，并了解单站点部署与多站点部署之间的差别。  <br/> |
+|[配置云连接器与 Office 365 租户的集成](configure-cloud-connector-integration-with-your-office-365-tenant.md) <br/> |添加 DNS 记录、配置混合连接、设置 PSTN 网关，并为用户启用 Office 365 中的电话系统语音邮件。  <br/> |
+|[验证云连接器部署](validate-your-cloud-connector-deployment.md) <br/> |确保部署正常运行。  <br/> |
 |[升级到新版本的云连接器](upgrade-to-a-new-version-of-cloud-connector.md) <br/> |将现有云连接器部署升级到 2.1 版。  <br/> |
 |[修改现有云连接器部署的配置](modify-the-configuration-of-an-existing-cloud-connector-deployment.md) <br/> |已部署后，请更改云 Connector 中的设置。  <br/> |
-|[部署在云连接器 Edition 中的媒体绕过](deploy-media-bypass-in-cloud-connector.md) <br/> |了解如何在云连接器中部署媒体旁路。  <br/> |
+|[在云连接器版本中部署媒体旁路](deploy-media-bypass-in-cloud-connector.md) <br/> |了解如何在云连接器中部署媒体旁路。  <br/> |
 |[云连接器 cmdlet 参考](cloud-connector-cmdlet-reference.md) <br/> |了解云连接器中使用的 PowerShell cmdlet。  <br/> |
-|[解决云连接器部署](troubleshoot-your-cloud-connector-deployment.md) <br/> |与云连接器部署中遇到的常见问题的解决方案。  <br/> |
+|[云连接器部署故障排除](troubleshoot-your-cloud-connector-deployment.md) <br/> |与云连接器部署中遇到的常见问题的解决方案。  <br/> |
    
 

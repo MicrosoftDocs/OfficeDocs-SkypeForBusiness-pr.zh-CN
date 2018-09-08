@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 任务和所需的团队服务管理，包括监视服务运行状况和评估并确保网络质量和使用情况的活动。
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2294ef8e983192e1b93cca0e815c54ef69e064db
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f4ad66e072b68a27848c3504f9b968b03bde1d4e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856168"
+ms.locfileid: "23882323"
 ---
 # <a name="operate-my-service"></a>运行我的服务
 

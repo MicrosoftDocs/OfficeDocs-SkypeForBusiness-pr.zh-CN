@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 description: 标准的音频会议的每用户许可证，除了卷和授权组织还可以选择付薪每分钟版，若要为其组织的音频会议功能。
-ms.openlocfilehash: 251116ee5f362710c07a7a53ce4a11f53f3cd09c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e4d2679de8ca6239e8a63dcac6a17fac6bc19fab
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855760"
+ms.locfileid: "23887718"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音频会议按分钟付费
 

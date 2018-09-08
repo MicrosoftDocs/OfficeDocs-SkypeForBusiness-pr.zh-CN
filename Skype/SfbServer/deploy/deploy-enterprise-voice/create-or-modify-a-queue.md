@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: 创建或修改响应组队列，业务 Server 企业语音的 Skype 中。
-ms.openlocfilehash: 10396e7d9e672999e72a8fe83c7bdffbd80b7f4b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: cdddb57c3f0e06e851f39cba4b6f8322a28fd3fa
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20991402"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23888149"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>创建或修改 Skype for Business 中的队列
  

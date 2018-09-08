@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何查找您拨入式会议号码从中的 Microsoft 团队。 '
-ms.openlocfilehash: 41332c0da14013223960f8021819448ad1c5629d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 2690d446b181ed3fe634c805f93c2aa09396dffe
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23869274"
+ms.locfileid: "23887414"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Microsoft 团队中的音频会议号码的列表，请参阅
 

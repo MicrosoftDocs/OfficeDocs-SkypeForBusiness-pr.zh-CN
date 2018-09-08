@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 摘要： 业务服务器 Skype 选择您的拓扑。 了解有关的 Skype 业务服务器的服务器并置。
-ms.openlocfilehash: 0f16f56f4d7599a37e7c4e260d310dff46e0b018
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5d2589d6ba7878ea69c8860ad99f182912e471dd
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260816"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886163"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>拓扑的 Skype 业务服务器的基础知识
 

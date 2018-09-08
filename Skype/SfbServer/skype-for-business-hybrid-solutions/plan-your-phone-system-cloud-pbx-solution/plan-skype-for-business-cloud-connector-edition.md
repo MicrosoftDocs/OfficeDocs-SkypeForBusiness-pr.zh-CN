@@ -7,7 +7,7 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 查找有关 Skype for Business 云连接器版本的信息，云连接器是一组打包的虚拟机 (Vm)，这些虚拟机负责通过 Office 365 中的电话系统（云 PBX）实施本地 PSTN 连接。
-ms.openlocfilehash: 2c0bd37ef2956402fa656aef1e7b8bef561c3fee
-ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
+ms.openlocfilehash: 58b84f083f77dde134dc0b2d7bab7fe60dcac5ea
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2018
-ms.locfileid: "23797328"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883617"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>规划 Skype for Business 云连接器版本
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: 任务和活动所需的团队服务管理，包括监视服务运行状况和评估并确保网络质量和使用情况
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 969ca26ba6ff0eb60452c43929413c621c13d865
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 74d43593babf7b98a8f12c03dfc2cf822ebecbe4
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861688"
+ms.locfileid: "23887794"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 

@@ -7,19 +7,19 @@ ms.date: 08/28/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 description: 了解如何安装和运行的 Microsoft 团队所需的硬件要求。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71dccd1e3cfe106a29d1ea67707170b787f3c14d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 566a3d29ed9238fb236c1a334c22d51c70b9430e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867730"
+ms.locfileid: "23884147"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft 团队应用程序的硬件要求
 

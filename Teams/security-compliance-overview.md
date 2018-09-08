@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
 description: Microsoft Teams 中的安全性和合规性概述，包括审核和报告、合规性内容搜索以及电子数据展示等。
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a778288b32e9f8ce84e5ec037a531a8357e181c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 4a2cf9a0b34be89b493b75473fb89efee6943977
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850220"
+ms.locfileid: "23887037"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和合规性概述
 ======================================================

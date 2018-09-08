@@ -10,15 +10,15 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: 测量结果的您的音频会议、 电话系统与调用计划，或电话系统直接路由部署中，并确认您已实现，应该怎么做的产出。
 MS.collection: Strat_MT_TeamsAdmin
-localization_priority: Priority
+localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 334e27626a5b842bce290696052352b055767053
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a285d1e1fdbf11c2450a47725330f95e9d56ab50
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866592"
+ms.locfileid: "23884422"
 ---
 # <a name="define-my-success"></a>定义我成功
 
