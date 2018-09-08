@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 提供通过和维护高质量部署规划操作角色和分配质量冠军。
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33992e8f239a723b53b87159b3c09816b6bd0b20
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a690bca5512aa7f3969a82e414156ee461ea6250
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867898"
+ms.locfileid: "23889420"
 ---
 # <a name="plan-my-service-management"></a>规划我服务管理
 

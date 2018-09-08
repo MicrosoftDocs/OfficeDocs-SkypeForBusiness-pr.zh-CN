@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 description: 了解如何为 Office 365 组织启用的 Microsoft 团队。
-localization_priority: Priority
+localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a03d4d6c1d2d4f8cd5907af294d4891a60f8059f
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: ec1f08752a2de4c16d946a383ea9343d4b0b4034
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23859308"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23892647"
 ---
 # <a name="enable-teams-in-your-organization"></a>在您的组织中启用团队
 

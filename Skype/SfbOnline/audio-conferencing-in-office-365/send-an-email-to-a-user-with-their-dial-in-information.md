@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: 7440d3e2-1b49-4258-bd2c-79e9072f8c8d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 您的用户使用他们的音频会议信息的电子邮件中发送 Skype 业务 online。
-ms.openlocfilehash: 1b692597f574739c8412a9ec0c6866687e169beb
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
+ms.openlocfilehash: cd6c40594c32faa2f8f7d7dc3737b61cb5d2cd82
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490642"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23890598"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>对 Skype 中的业务联机其音频会议信息的用户发送电子邮件
 
@@ -68,7 +69,7 @@ ms.locfileid: "22490642"
 
 - 有多个电子邮件发送给组织中的用户启用了后为音频会议：
     
-  - 当**音频会议**许可证分配给它们。
+  - 向其分配**音频会议**许可证时。
     
   - 当您手动重置用户的音频会议 PIN。
     
@@ -84,7 +85,7 @@ ms.locfileid: "22490642"
     
   - SendEmailFromAddress 参数中输入的电子邮件地址。
     
-  - SendEmailOverride 参数设置为 True。
+  - 将SendEmailOverride参数设置为 True。
     
   - SendEmailFromDisplayName 参数中输入的电子邮件显示名称。
     
@@ -105,7 +106,7 @@ ms.locfileid: "22490642"
 
 -  对于 Windows PowerShell，Skype for Business Online 的功能是管理用户以及允许或不允许用户执行的操作。使用 Windows PowerShell，可以通过单点管理来管理 Office 365，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为什么您需要使用 Office 365 PowerShell 中](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     

@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解如何更改您的用户的紧急位置。使用任意数量的位置，您可以更改紧急位置，员工移动楼层或建筑。 '
-ms.openlocfilehash: e3805daa8248da44de84330ea5de694126e9e32c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: e8536647bedf0cdb212ca334193659a104e0e1e3
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863270"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23891171"
 ---
 # <a name="change-the-emergency-location-for-a-user"></a>更改用户的紧急位置
 
@@ -40,18 +40,18 @@ ms.locfileid: "23863270"
     
 2. 转到 **Office 365 管理中心** > **Skype for Business**。
     
-3. 在左侧导航中，转到**语音** > **语音用户**。
+3. 在左侧导航窗格中转到**语音** > **语音用户**。
     
     > [!IMPORTANT]
-    > 若要在 Skype for Business 管理中心的左侧导航中显示 **语音**选项，必须先购买至少一个 **Enterprise E5 许可证**、一个 **电话系统**附加设备许可证，或一个 **音频会议**附加设备许可证。
+    > 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
     
-4. 在**语音用户**页面上，查找并选择要更改其紧急位置的用户。
+4. 在**语音用户**页中，找到，然后选择您想要更改的紧急位置的用户。
     
-5. 在操作窗格中，在**紧急位置**下，单击**更改**。
+5. 在操作窗格中，在" **紧急位置**"下，单击" **更改**"。
     
-6. 在**分配号码**页面上，单击**更改位置**。 
+6. 在" **分配号码**"页面上，单击" **更改位置**"。 
     
-7. 在**将紧急地址更改为**下方，在框中输入城市的名称，然后单击**搜索**。
+7. 在**更改紧急地址**框中输入市/县的名称，单击**搜索**。
     
 8. 从列表中选择的紧急位置，然后单击**保存**。
     

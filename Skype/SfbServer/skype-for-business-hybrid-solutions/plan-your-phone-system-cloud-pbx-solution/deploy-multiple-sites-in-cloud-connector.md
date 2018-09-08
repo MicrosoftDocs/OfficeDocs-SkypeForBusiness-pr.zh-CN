@@ -7,18 +7,18 @@ ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: 了解有关在云连接器版本中部署多个 PSTN 站点的信息。
-ms.openlocfilehash: c0e41408b43574fdfd3e8dc6b1d2c8ffc434d8c5
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: b6d4c489136f038a5d4dbe7188958ef60e4a5aed
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569524"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23889711"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>在云连接器中部署多个站点
  
@@ -76,7 +76,7 @@ ExternalMRPublicIPs=104.42.226.134
 
 下表列出了支持 HA 的单站点部署与多站点部署之间的差异。
   
-|**类别**|**项目**|**具有高可用性的单站点**|**多站点**|
+|**类别**|**项目**|**支持 HA 的单站点**|**多站点**|
 |:-----|:-----|:-----|:-----|
 |设置  <br/> |共享文件夹  <br/> |要求在设备之间的**相同**的共享的文件夹 <br/> |不同设备需要**不同**的共享文件夹 <br/> |
 |配置  <br/> |VirtualMachineDomain  <br/> |不同设备需要**相同**的域 <br/> |不同 PSTN 站点需要**相同**的域 <br/> |

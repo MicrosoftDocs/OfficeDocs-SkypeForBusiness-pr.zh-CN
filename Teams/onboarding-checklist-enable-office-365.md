@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: 配置 Office 365 团队时，请按照的核心、 待办事项任务和此检查表中的活动。
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e657fcefbd86f361f41e47369452b87f6463c83
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: c91953bbf44607ef6a277a020dea6581fa38d88a
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865140"
+ms.locfileid: "23889485"
 ---
 # <a name="enable-office-365"></a>启用 Office 365
  
