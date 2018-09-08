@@ -1,28 +1,28 @@
 ---
 title: 可帮助 Microsoft 团队部署的 PowerShell 脚本示例-清理
-author: ninadara
-ms.author: ninadara
+author: Lester-Hewett
+ms.author: lehewe
 manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
 description: 使用此 PowerShell 脚本在目标计算机上或特定用户的 Microsoft 团队清理。
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e159c06a27151523e52db5bf7e0aa2eab33620a9
-ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
+ms.openlocfilehash: 9b95ca42e1f110b72d092ada65b2d672627fac4f
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21249189"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887279"
 ---
-<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="afe43-103">PowerShell 脚本示例-Microsoft 团队部署清理</span><span class="sxs-lookup"><span data-stu-id="afe43-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
+<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="fcc71-103">PowerShell 脚本示例-Microsoft 团队部署清理</span><span class="sxs-lookup"><span data-stu-id="fcc71-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
 -------------------------------------------------------------------------
 
-<span data-ttu-id="afe43-104">可以从目标计算机或用户的 Microsoft 团队清理利用此 PowerShell 脚本。</span><span class="sxs-lookup"><span data-stu-id="afe43-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="afe43-105">它应执行的目标计算机上的每个用户。</span><span class="sxs-lookup"><span data-stu-id="afe43-105">It should be executed for every user on a targeted machine.</span></span> 
+<span data-ttu-id="fcc71-104">可以从目标计算机或用户的 Microsoft 团队清理利用此 PowerShell 脚本。</span><span class="sxs-lookup"><span data-stu-id="fcc71-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="fcc71-105">它应执行的目标计算机上的每个用户。</span><span class="sxs-lookup"><span data-stu-id="fcc71-105">It should be executed for every user on a targeted machine.</span></span> 
 
 
-## <a name="sample-script"></a><span data-ttu-id="afe43-106">示例脚本</span><span class="sxs-lookup"><span data-stu-id="afe43-106">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="fcc71-106">示例脚本</span><span class="sxs-lookup"><span data-stu-id="fcc71-106">Sample script</span></span>
 
 ````powershell
 <#
