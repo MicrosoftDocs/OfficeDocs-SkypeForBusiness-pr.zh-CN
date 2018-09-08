@@ -9,18 +9,18 @@ ms.service: msteams
 ms.reviewer: ritikag
 search.appverid: MET150
 description: 了解如何启用或禁用 Office 365 组织，包括选项卡、 连接器、 自动程序或这三个任意组合中的 Microsoft 团队应用程序。
-localization_priority: Priority
+localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9be3c44f441238033c383dc5e42240207f3095c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 86fa8178b52c621c664afc49edd4f8d2c81c1fea
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867698"
+ms.locfileid: "23882050"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>管理 Office 365 组织中的 Microsoft 团队功能
 

@@ -7,17 +7,18 @@ ms.date: 11/15/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: 了解如何升级你的云连接器版本部署。
-ms.openlocfilehash: 925b19360115e74a147f8b32c6faa42b84971f60
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b727f3cb7feea7f080f2e75278294e855c65b197
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887535"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>升级到新版本的云连接器
  
@@ -65,7 +66,7 @@ ms.lasthandoff: 05/03/2018
 ## <a name="upgrade-a-single-site-to-a-new-version"></a>将单个站点升级到新版本
 <a name="BKMK_Upgrade"> </a>
 
-如果您想要升级的网站中只有一个设备，请执行以下操作：
+如果要升级的站点中只有一个设备，请执行以下操作：
   
 1. 卸载中的现有云连接器版本**Control Panel\>程序\>程序和功能**。
     
@@ -116,6 +117,6 @@ Set-CcCredential -AccountType TenantAdmin
 ## <a name="upgrade-multiple-sites-to-a-new-version"></a>将多个站点升级到新版本
 <a name="BKMK_Upgrade"> </a>
 
-按照升级单个站点的步骤，每次升级部署中的一个站点。 确保满足以下要求和[验证云连接器部署](validate-your-cloud-connector-deployment.md)后每个网站升级。
+按照升级单个站点的步骤，每次升级部署中的一个站点。升级每个站点后，请确保[Validate your Cloud Connector deployment](validate-your-cloud-connector-deployment.md)。
   
 

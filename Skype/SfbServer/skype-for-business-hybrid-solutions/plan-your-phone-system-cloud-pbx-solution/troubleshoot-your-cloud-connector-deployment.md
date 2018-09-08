@@ -7,18 +7,18 @@ ms.date: 12/5/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: 解决云连接器 Edition 部署。
-ms.openlocfilehash: 82fcc8e45e231617b5804c9caac4c8adc638457b
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 5d34cc78c7afa9a0d4e459e87d885c82b437bae0
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246468"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882286"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>云连接器部署故障排除
  

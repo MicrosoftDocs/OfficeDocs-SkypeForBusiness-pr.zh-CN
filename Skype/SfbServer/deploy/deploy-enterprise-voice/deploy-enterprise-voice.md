@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 摘要： 了解如何在中央站点的业务服务器 Skype 部署企业语音。
-ms.openlocfilehash: 85abf6cc99224fc2a36eb37cd5e9441073ce6165
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 57b74d7e77eb8aca89400930fc38a5e92abdde5a
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241432"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886515"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>为业务服务器部署中 Skype 的企业语音
 

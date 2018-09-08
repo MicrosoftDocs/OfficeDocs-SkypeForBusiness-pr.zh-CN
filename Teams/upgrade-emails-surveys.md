@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: 示例电子邮件和调查可以使用与加速的 10 步骤操作计划 conjunciton 来从 for Business 的 Skype 升级到团队
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89a4f9f1d43c3bb10038460104fa6198c2939b87
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 5d51bd897920b0cf75df45c601741e2499cb382b
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850880"
+ms.locfileid: "23885150"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>示例电子邮件和调查的基本升级通信
 

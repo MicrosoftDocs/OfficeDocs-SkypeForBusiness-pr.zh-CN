@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 摘要： 了解如何使用户可以拨打和接听电话使用企业语音中 Skype 业务服务器。
-ms.openlocfilehash: abba652665660299ccb1e3b9a55961ca2248225e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9e1435c73a175ef40b4962ace41f4c7690f85953
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21025664"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883754"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Skype 中的企业语音的用户启用企业服务器
  

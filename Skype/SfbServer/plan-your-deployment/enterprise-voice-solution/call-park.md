@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: 这样可使业务 Server 企业语音规划呼叫寄存 Skype 中，将呼叫置于保持状态并将呼叫转接到的部门。 包括容量规划、支持的呼叫和支持的客户端。
-ms.openlocfilehash: a675100f8b40e1ab293c0240ea0acbe3beb7fa27
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 328c94507c393aba1edc7253bdf962a2904a44d6
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988548"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883353"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>规划呼叫寄存中 Skype for Business
  

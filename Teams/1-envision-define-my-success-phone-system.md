@@ -9,17 +9,17 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 测量电话系统与调用计划部署的结果，并确认您已实现，应该怎么做的产出。
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: 07afb9e758a4c87edb69b02741b35106ec1b3778
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 9e0ee1e1ca92bdcf94d89b2bc27e8ec56ebdc4c2
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858072"
+ms.locfileid: "23887074"
 ---
 # <a name="define-my-success"></a>定义我成功
 

@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 通过定义您的目标、 了解哪些验收如下所示，并提供培训和支持创建规划，以用户。
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0199919ca7c7861783489a3bc0c164970d5c2f0d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 59ac1e894d8622904aeceeb07d0c663ec7c825bd
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867946"
+ms.locfileid: "23887156"
 ---
 # <a name="prepare-my-users"></a>准备我的用户
 

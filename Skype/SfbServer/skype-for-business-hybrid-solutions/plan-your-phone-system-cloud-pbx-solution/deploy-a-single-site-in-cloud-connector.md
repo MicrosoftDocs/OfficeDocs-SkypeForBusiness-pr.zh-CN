@@ -7,17 +7,18 @@ ms.date: 9/25/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: 了解有关在云连接器版本中部署单个 PSTN 站点的信息。
-ms.openlocfilehash: ba6d5e4fe350db5076f7067be01726282f2dcc45
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 5acd4dbb6a6d46e8d20bbec800bcce174ea87873
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885597"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>在云连接器中部署单个站点
  

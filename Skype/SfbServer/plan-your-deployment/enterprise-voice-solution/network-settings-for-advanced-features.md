@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: 了解网络区域、网络站点和 IP 子网。 所有这些必须配置为媒体绕过中的业务，规划 Skype 部署规划呼叫允许控制中的 Skype 业务服务器），或计划在 Skype 的紧急服务 Business 中的服务器 Skype 业务 Server 企业语音。
-ms.openlocfilehash: a58598bedb7919d97d78cc5a43cc0e807118612e
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 6dad93aa2d5ef235b07f2189329f94d94b1a3d02
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263772"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885655"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Skype 中的高级企业语音功能 Business server 网络设置
 

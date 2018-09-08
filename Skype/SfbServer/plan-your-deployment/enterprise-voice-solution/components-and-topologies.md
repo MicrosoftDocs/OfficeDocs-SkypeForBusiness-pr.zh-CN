@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: 在有 MPLS 网络、SIP 中继或第三方 PSTN 网关或 PBX 情况下，规划呼叫允许控制 (CAC)。 适用于 Skype 业务 Server 企业语音。
-ms.openlocfilehash: 5e812a647b93f3af79b3980f0982a8389593f159
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f43b111d0ef3260c34b53e27a903de20fdf676ef
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260011"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887670"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>组件和拓扑的呼叫允许控制的 Skype for Business
 

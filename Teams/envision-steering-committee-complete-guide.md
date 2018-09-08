@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: 确定调控小组的主要利益干系人和项目负责人确定部署目标、 跟踪进度，并删除窗口阻止程序。
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c566c9140badf8fc08488e3143d54251bed9b14
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3d625ba8ff991db39bc4ea6ec347a8d031c456d9
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858040"
+ms.locfileid: "23889526"
 ---
 # <a name="steering-committee"></a>调控委员会
 

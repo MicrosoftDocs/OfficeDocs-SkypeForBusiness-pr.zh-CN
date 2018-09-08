@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何启用条目并退出 Microsoft 团队会议中的打开或关闭通知。 '
-ms.openlocfilehash: 44b3c88b9e4284c7606d57661022dbe21d236147
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 94a091590ff00d2c78278e8ad559b61b1e732130
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851004"
+ms.locfileid: "23884626"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>打开或关闭条目和退出通知中的 Microsoft 团队会议
 

@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 description: Skype 业务 Server 企业语音支持中介服务器和组件，例如 PSTN 网关、 会话边界控制器和 IP PBX 之间的 M:N 中继。
-ms.openlocfilehash: 13c25bddcbd5870caf0240f043321605cc9ace81
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 548ba95d3cd3b8c21fcb5fb489f5c70e70a80ce2
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21012154"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882170"
 ---
 # <a name="mn-trunk-in-skype-for-business-server"></a>Skype 业务服务器中的 M:N 中继
  

@@ -14,18 +14,18 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 中的 Microsoft 团队发送您的用户使用他们的音频会议信息的电子邮件。
-ms.openlocfilehash: 3ee0d5f7eda551e5231cae535dec08439c19e081
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 85e219481884bb08a2574809b6170c232abccf83
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850774"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23892089"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>电子邮件发送给用户使用他们的 Microsoft 团队中的音频会议信息
 
@@ -56,7 +56,7 @@ ms.locfileid: "23850774"
 
 - 有多个电子邮件发送给组织中的用户启用了后为音频会议：
     
-  - 当**音频会议**许可证分配给它们。
+  - 向其分配**音频会议**许可证时。
     
   - 当您手动重置用户的音频会议 PIN。
     

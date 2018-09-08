@@ -8,7 +8,7 @@ ms.topic: article
 audience: Admin
 ms.service: msteams
 ms.reviewer: ''
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 description: 了解不同的 Office 365 许可证、哪些许可证支持用户使用 Microsoft Teams 以及如何启用或禁用它。
 ms.custom:
@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4133f239c2b8f710d76d11360bb3d837037b0d5
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 14498eef72af9f72e67ae51e3e40717ef6ce4709
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854098"
+ms.locfileid: "23884050"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>适用于 Microsoft Teams 的 Office 365 许可
 ========================================

@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 了解的参数的长度和 PIN 要求并查看如何在 Microsoft 团队中设置中的会议的长度。
-ms.openlocfilehash: 3c4b0d40e78cda844a443c4ca1d4fc7927dfeed3
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0300bba9139bdf98315b8af4200dd729ff6e70a1
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867080"
+ms.locfileid: "23882988"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>设置 PIN 长度的音频会议中的 Microsoft 团队
 

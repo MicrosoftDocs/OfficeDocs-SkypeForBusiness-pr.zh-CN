@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的西班牙电话号码的信息。
-ms.openlocfilehash: b9e7c962739494ab002854758a2ec816e666c04a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 5bbd2a1e1bf1ff9c34c5b0358512efc5374b3f22
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854848"
+ms.locfileid: "23882973"
 ---
 # <a name="phone-number-management-for-spain"></a>西班牙的电话号码管理
 

@@ -16,23 +16,23 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 可以通过使用名为 CallingLineIdentity 的策略来控制电话系统用户的入站和出站呼叫的来电显示。
-ms.openlocfilehash: 410712a8fd0a6f28b0bc2821daae8143b38ceb63
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+description: 呼叫者 ID 可以通过使用名为 CallingLineIdentity 策略控制的电话系统的用户的入站和出站呼叫。
+ms.openlocfilehash: c2a508e89f9fbf279e048fcdccca1ac1b0534305
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854222"
+ms.locfileid: "23883561"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>如何在你的组织中使用来电显示
 
-可以通过使用名为 CallingLineIdentity 的策略来控制电话系统用户的入站和出站呼叫的来电显示。
+呼叫者 ID 可以通过使用名为 CallingLineIdentity 策略控制的电话系统的用户的入站和出站呼叫。
   
-来电显示功能对所有电话系统用户都适用，而不考虑 PSTN 连接：
+呼叫者 ID 功能，无论 PSTN 连接的所有电话系统用户：
   
 - 在线 PSTN 连接
     
@@ -47,7 +47,7 @@ ms.locfileid: "23854222"
 
 出站 PSTN 来电显示有三个对应选项：
   
-- 分配给用户的电话号码，这是默认设置。
+- 分配给用户，这是默认电话号码。
     
 - 在您的 Office 365 电话号码库存通话套餐中分类为*服务*和*免费电话*的电话号码。 它通常分配给组织的自动助理或呼叫队列。
     
@@ -55,7 +55,7 @@ ms.locfileid: "23854222"
     
 但你不能为出站来电显示分配以下类型的电话号码：
   
-- 在你的通话套餐电话号码库存中分类为*用户*的任何电话号码
+- 任何电话号码分类为*用户*在您调用计划的电话号码库存
     
 - Skype for Business Server 内部部署电话号码
     
@@ -63,9 +63,9 @@ ms.locfileid: "23854222"
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>出站来电显示的最终用户控制
 
-EnableUserOverride 属性使单一用户或多个用户可以将其来电显示设置更改为**匿名**。 这仅在用 LineURI 或 Substitute 等 CallingIDSubstitute 参数配置 CallingLineIdentity 策略时才适用。 EnableUserOverride 的默认值是 False。
+通过 EnableUserOverride 属性，单个用户或多个用户可以将其"来电显示"设置更改为" **匿名**"。 仅当 CallingLineIdentity 策略配置了 CallingIDSubstitute 参数 LineURI 或 Substitute 时适用。 EnableUserOverride 的默认值是 False。
   
-你的最终用户可以使用 Skype for Business 桌面客户端中的**呼叫转移设置**选项卡将其来电显示设置为**匿名**。
+最终用户可以使用 for Business 桌面客户端的 Skype 中的**呼叫转接设置**选项卡将其呼叫者 ID 设置为**匿名**。
   
 ||||
 |:-----|:-----|:-----|
@@ -78,7 +78,7 @@ EnableUserOverride 属性使单一用户或多个用户可以将其来电显示�
    
 ## <a name="inbound-caller-id"></a>入站来电显示
 
-BlockIncomingCallerID 属性可以用于阻止传入 PSTN 呼叫的来电显示。 你可以设置此属性，但这不适用于用户设置页面上的你的最终用户。 当前只适用于在线 PSTN 连接。
+BlockIncomingCallerID 属性可以用于阻止 PSTN 来电的来电显示。 您可以设置此属性，而只是向最终用户在用户设置页上可用。 当前仅在使用在线 PSTN 连接时可用。
   
 要设置出站来电显示，请参见[为用户设置来电显示](set-the-caller-id-for-a-user.md)。
   

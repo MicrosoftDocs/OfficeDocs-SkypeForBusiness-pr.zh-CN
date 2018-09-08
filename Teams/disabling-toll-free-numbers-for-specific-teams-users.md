@@ -14,34 +14,34 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 管理员可以控制如何组织者可以为他们的会议使用免费电话号码。
-ms.openlocfilehash: 8fafe87823308035d2626d891ae12b72c2bcfeca
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+description: 管理员可以控制组织者如何使用他们会议的免费电话号码。
+ms.openlocfilehash: 6d37fdb6e85f6c1325c4ebea179ad54aab91fa4c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23852154"
+ms.locfileid: "23887377"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>禁用特定的团队用户的免费电话号码
 
-如果您的组织具有其 Microsoft 音频会议网桥中免费电话号码，您可以允许或阻止特定的组织者的会议中其使用情况。  
+如果组织在其 Microsoft 音频会议网桥中拥有免费电话号码，可以在特定的组织者的会议中允许或阻止其使用免费电话号码。  
 
-默认情况下，您的组织中的所有用户都启用使用免费电话号码，这意味着，这些号码，如果可用，可用于参与者加入他们的会议。 如果不为您的组织中的一些用户所需的行为，您可以限制特定用户在其通过免费电话号码启用控件的会议中使用这些号码。 
+默认方式，组织中的所有用户均启用免费电话号码，这意味着，这些号码，如果可用，参会者可使用它们参加会议。 如果不希望组织中的某些用户可以这样参会，可以通过免费电话号码启用控件限制特定用户在其会议中使用这些号码。 
 
-当给定管理器禁用免费电话号码： 
- - 免费电话号码将不再包括在他或她的会议邀请。 
- - 免费电话号码将不再列出其中引用的"查找本地号码"页上，或她的会议邀请。 
- - 参与者将无法加入给定组织者的会议，如果拨组织的任何免费电话号码。 
- - 将自动重新安排的组织者的所有会议，并将从其删除免费电话号码。  
+当针对某设定组织者禁用免费电话号码时： 
+ - 免费电话号码将不再包含在他或她的会议邀请中。 
+ - 免费电话号码将不再在"查找本地号码"页上列出，该页面在他或她的会议邀请中被引用。 
+ - 参会者如果拨组织的任何免费电话号码，都将无法参加该设定组织者的会议。 
+ - 将自动重新安排该组织者的所有会议，并将从其删除免费电话号码。  
 
     > [!IMPORTANT]
-    > 这将向这些会议的所有参与者重新组织者的电子邮件邀请的所有发送。 
+    > 因此将向这些会议的所有参与者重新发送该组织者的所有电子邮件邀请。 
 
- - 参与者可以继续加入会议的组织者使用收费电话号码。 
+ - 参会者可以继续使用收费电话号码参加该组织者的会议。 
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>禁用特定用户的免费电话号码 
 
@@ -49,7 +49,7 @@ ms.locfileid: "23852154"
 
 2. 在页面的顶部，单击**编辑**。
 
-3. **音频会议**，旁边单击**编辑**。
+3. 在**音频会议**旁边，单击**编辑**。
 
 4. 关闭**包括来自此用户的会议请求中的免费电话号码**。 
 

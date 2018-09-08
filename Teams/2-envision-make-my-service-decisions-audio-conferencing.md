@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 了解有关会议、 授权和可用性、 配置会议网桥的设置，获取或转接电话号码、 选择租户拨号计划。
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e17632977816261b99e4c2ae22a70c8961a040e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: da156ea46486d1b6eddffce61cfb655aecf90d1e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854050"
+ms.locfileid: "23889643"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 

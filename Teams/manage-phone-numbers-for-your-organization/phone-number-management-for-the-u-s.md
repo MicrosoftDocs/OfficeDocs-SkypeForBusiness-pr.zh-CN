@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的美国（和波多黎各）电话号码的信息。
-ms.openlocfilehash: 6acc294bfe9db4a80cc932b9635c14ea7551fc8c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 25070ff377489994101b82b9b34c74c82989c546
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850954"
+ms.locfileid: "23883047"
 ---
 # <a name="phone-number-management-for-the-us"></a>美国的电话号码管理
 

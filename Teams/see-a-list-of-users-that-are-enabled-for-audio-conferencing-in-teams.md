@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何在您启用了电话拨入式会议中的 Microsoft 团队中的组织中查看用户列表。 '
-ms.openlocfilehash: 1013bb9885148edb18fdf37a08a4f77d289218aa
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 9bbdd5fd8536554c942db19c8c9f5ac41789c461
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855768"
+ms.locfileid: "23884444"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>启用的 Microsoft 团队中的音频会议的用户列表，请参阅
 

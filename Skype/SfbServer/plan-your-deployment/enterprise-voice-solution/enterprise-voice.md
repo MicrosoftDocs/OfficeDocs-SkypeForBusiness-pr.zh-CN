@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: 企业语音规划业务服务器中 Skype 的基础知识，包括网站、 区域、 网络站点间的链接和估计语音用法流量。
-ms.openlocfilehash: 413887b29a45ccdf022a4fb4c847cb0b504bb4b1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3c5cad1b37b4f3bfe3fe73cad1d185b0116a68a0
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20977939"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885335"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>规划业务服务器的 Skype 中的企业语音
  

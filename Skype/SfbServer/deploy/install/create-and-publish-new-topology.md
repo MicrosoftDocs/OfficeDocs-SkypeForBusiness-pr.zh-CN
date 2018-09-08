@@ -7,19 +7,19 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 摘要： 了解如何创建、 发布和业务服务器安装 Skype 之前验证新拓扑。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: 4a7ce9f078ec5b52d000c348dac7610e52f91d21
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e6013003f9ff6b4e3f39a500df9e489292264599
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967337"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885030"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>创建和发布新拓扑中 Skype 业务服务器
  

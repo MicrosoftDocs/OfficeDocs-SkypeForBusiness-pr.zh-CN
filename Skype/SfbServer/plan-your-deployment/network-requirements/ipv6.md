@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 摘要： 实现 IPv6 业务服务器安装 Skype 之前。
-ms.openlocfilehash: 6bd33522492edb68ba3e0a6873e81afee59216d8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b500a0b3f4b99b97b1fc3a89eda7c5736953d854
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968136"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23888344"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>规划 Skype for Business 中的 IPv6
  

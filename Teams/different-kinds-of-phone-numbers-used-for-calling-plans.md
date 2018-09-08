@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: Skype 业务 online 使用不同的电话号码类型，具体取决于您要使用的电话号码的用途。
-ms.openlocfilehash: ee1c469268629fff87cf04f2a2cec94c179db5b0
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0740b3f467dd14c25632e533a6849ef83488da9b
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23868258"
+ms.locfileid: "23883178"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>用于通话套餐的不同类型的电话号码
 

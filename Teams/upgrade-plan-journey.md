@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: 首先，登记利益干系人和然后范围项目规划您的升级。
-localization_priority: Priority
+localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c138282ed7b65cd7efcdb31cb363110702233346
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 07c592f8f3ef6e1021805766189e9c1cd522e8ab
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867072"
+ms.locfileid: "23883226"
 ---
 为与右项目团队成功设置![确保您的项目。定义项目范围、 目标和日程表。确认技术和用户准备情况。执行套推广计划。维护 momentum 以最大限度地结果。](media/upgrade-banner-main.png "开始您升级旅程")
 

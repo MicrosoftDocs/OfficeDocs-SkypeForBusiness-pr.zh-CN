@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的比利时电话号码的信息。
-ms.openlocfilehash: 2471db6a5a6c31427f6913da763e3d253636546c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: ae4b1db96fe6d3b77a09e23d9e48c3d9f52e71dd
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23859522"
+ms.locfileid: "23892483"
 ---
 # <a name="phone-number-management-for-belgium"></a>比利时的电话号码管理
 

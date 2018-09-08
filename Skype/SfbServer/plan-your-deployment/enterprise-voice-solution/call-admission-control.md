@@ -7,19 +7,19 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: 了解有关呼叫允许控制，可以防止他们中的业务 Server 企业语音的 Skype 必须较差的媒体质量，如果正在进行的呼叫。
-ms.openlocfilehash: da5616f7b23cf4da29ed813a5398db755d8e0777
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: db4b2f7a77885ff96a4b43b01aa2337996418217
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247150"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883849"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>规划呼叫允许控制 Skype 中的业务服务器
 

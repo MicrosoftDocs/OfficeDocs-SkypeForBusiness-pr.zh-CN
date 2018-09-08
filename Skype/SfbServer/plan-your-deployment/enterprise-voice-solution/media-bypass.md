@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: 决策所必需的规划媒体旁路中 Skype 业务 Server 企业语音。 包括与呼叫允许控制 (CAC) 的互操作性。
-ms.openlocfilehash: 3b96455884c46b5c387e909806b5811e95be09bf
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b9cb62e8153f7eb54159637954ea13cda72b6817
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245074"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885313"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>规划媒体绕过 Skype for Business 中
 

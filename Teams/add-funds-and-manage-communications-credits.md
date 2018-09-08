@@ -16,7 +16,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords:
 - O365E_SFBVoiceCredit
 - O365E_SFBVoiceCreditAether
@@ -29,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: '了解如何支付通信字幕式 （PSTN 消耗量） 的 Skype 业务服务并查看计划以保留您具有连续电话系统的访问权限的用户。 '
-ms.openlocfilehash: 281ac6033c5c748161d15a6a588353b2baeed433
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 205f2faaa89342ede80ecc1dae8195e437f47d69
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850906"
+ms.locfileid: "23882745"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>存入资金和管理通信点数
 

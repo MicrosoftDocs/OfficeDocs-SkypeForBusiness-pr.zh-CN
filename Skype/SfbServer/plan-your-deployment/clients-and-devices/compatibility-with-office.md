@@ -7,18 +7,18 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: 了解您可以从 Outlook 和其他 Microsoft Office 应用程序的业务功能访问 Skype 的方法。
-ms.openlocfilehash: 22319a814ac1f09e67143f71a705c44b1e820e0e
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: 8ab03b0da4bbc91080925bd15995f89ac0d3388f
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22391838"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886082"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype 业务 Office 相关应用程序的兼容性
  

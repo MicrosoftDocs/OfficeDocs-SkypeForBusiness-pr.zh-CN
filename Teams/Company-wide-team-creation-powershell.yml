@@ -11,15 +11,15 @@ metadata:
   ms.date: 02/07/2018
   ms.service: msteams
   ms.topic: tutorial
-  localization_priority: Priority
+  localization_priority: Normal
   search.appverid: MET150
   ms.collection: Strat_MT_TeamsAdmin
-  ms.openlocfilehash: 6809063209dae8b3e75f2716709f3344fb75eb7a
-  ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+  ms.openlocfilehash: fffbd98547aa7d79baa413d5b4e531a771a42f35
+  ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
   ms.translationtype: MT
   ms.contentlocale: zh-CN
   ms.lasthandoff: 09/07/2018
-  ms.locfileid: "23863964"
+  ms.locfileid: "23882256"
 items:
 - durationInMinutes: 3
   content: "\n此培训提供用于在 Teams 中创建公司范围的公共团队的 PowerShell 脚本。 该脚本使用 MicrosoftTeams PowerShell 模块（当前在 beta 版中提供）创建公司范围的公共团队。 它还使用 AzureAD PowerShell 模块提取你的租户中的用户列表。 \n\n如果你想要尝试使用一些简单的 PowerShell 命令并熟悉此功能强大的企业工具，这是一个很好的起点。 PowerShell 是用于对 AzureAd 组的其他方面（包括组创建控制 - 即如何管理哪些人可以在 Teams 中创建团队）进行管理的一个关键组件。 \n\n### <a href=\"https://docs.microsoft.com/MicrosoftTeams/scripts/powershell-script-sample-create-company-wide-team\" target=\"_blank\">:arrow_down: 获取 PowerShell 脚本</a>\n\n> [!IMPORTANT]\n> 此 PowerShell 脚本仅将前 2500 个成员添加到团队中。 2500 是当前的团队大小限制。 \n\n\n此培训面向 IT 管理员或希望自动完成团队创建的 Teams 用户。 你将了解以下内容：  \n- 在 PowerShell 中安装相关模块\n- 使用该脚本 \n\n以下内容在此不做介绍：\n1. 深入了解 PowerShell。 我们仅介绍设置和运行 PowerShell 脚本所需的 PowerShell 信息。 要了解详细信息，请参阅 <a href=\"https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-5.1\" target=\"_blank\">Windows PowerShell 入门</a>\n2. <a href=\"https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0\" target=\"_blank\">AzureAD</a> 模块的功能。 此 PowerShell 脚本使用 AzureAD 模块实现一个用于提取租户中的用户的命令。 \n3. <a href=\"https://github.com/MicrosoftDocs/office-docs-powershell/tree/master/teams/teams-ps/teams\" target=\"_blank\">MicrosoftTeams</a> 模块中的 cmdlet。 \n4. 详细介绍 PowerShell 脚本。 \n\n\n要就此培训提出问题或发送反馈：\n  - 在此教程的“[后续步骤](company-wide-team-creation-powershell.yml#step-7)”页面底部的“评论”部分中发布。\n  - 要向我们提供你的产品反馈（例如功能请求），请访问 <a href=\"https://aka.ms/TeamsUserVoice\" target=\"_blank\">UserVoice</a>。\n"

@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 description: 了解可用于各种需求（例如财务、活动计划、销售等）的不同团队、频道和应用。
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51d26ef7315a45be790c409ddda06c87697c065e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1b6c46a2ca5d68509a20b284d593d9edce080764
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855430"
+ms.locfileid: "23889635"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 =================================================

@@ -7,7 +7,7 @@ ms.date: 12/8/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 08dedcce-0d3f-45da-8282-cf2634a41665
 description: 摘要： 了解如何在 Skype for Business Online 配置为音频会议提供商联盟。
-ms.openlocfilehash: 8be61bdfd3d6a8cadc8ab1cea436b133e5714fdf
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2c79799c6f68eba9af41cdadc8f0a16346b8a522
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241445"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885648"
 ---
 # <a name="configure-federation-for-an-audio-conferencing-provider-in-your-hybrid-deployment"></a>在混合部署中配置为音频会议提供商联盟
 

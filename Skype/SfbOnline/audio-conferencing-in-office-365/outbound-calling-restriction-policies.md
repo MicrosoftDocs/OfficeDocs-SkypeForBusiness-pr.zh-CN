@@ -1,5 +1,5 @@
 ---
-title: 音频会议和用户 PSTN 通话的出站呼叫限制策略
+title: 音频会议和用户 PSTN 通话的出站通话限制策略
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,19 +14,19 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理员可以控制音频会议和最终用户 PSTN 的呼叫可以由用户所做的类型。
-ms.openlocfilehash: fd1a3b770debfcc6aa048d150b6536c94db4f9ce
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: ed61dc5c131dd38d59820f3ccda9682dcf7fd886
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856878"
+ms.locfileid: "23882009"
 ---
-# <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音频会议和用户 PSTN 通话的出站呼叫限制策略
+# <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音频会议和用户 PSTN 通话的出站通话限制策略
 
 作为管理员，您可以使用出站呼叫控件来限制组织用户可以进行的音频会议和最终用户 PSTN 呼叫类型。 
 
@@ -45,9 +45,9 @@ ms.locfileid: "23856878"
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>限制音频会议出站呼叫 
 
-![teams-logo-30x30.png](../images/teams-logo-30x30.png) **使用 Microsoft Teams 和 Skype for Business 管理中心：**
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
 
-1. 在左侧导航窗格中，单击**用户**，然后从可用用户列表中选择用户。
+1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 
 2. 在页面的顶部，单击**编辑**。
 
@@ -55,19 +55,19 @@ ms.locfileid: "23856878"
 
 4. 在**会议拨出权限**下，选择所需的拨出限制选项。
 
-5. 单击**保存**。 
+5. 单击" **保存**"。 
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
+![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
 
-1.  在左侧导航窗格的 **Skype for Business 管理中心**中，转到**音频会议** > **用户**，然后从可用用户列表中选择用户。
+1.  在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **用户**，然后选择用户可用的用户列表。
 
-2.  在“操作”窗格中，单击**编辑**。
+2.  在"操作"窗格中，单击" **编辑**"。
 
 3.  在**限制此用户从会议拨出**下，选择所需的拨出限制选项。
 
     ![拨出选项限制](../images/restrictions-to-dial-outs.png)
 
-5. 单击**保存**。
+5. 单击" **保存**"。
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

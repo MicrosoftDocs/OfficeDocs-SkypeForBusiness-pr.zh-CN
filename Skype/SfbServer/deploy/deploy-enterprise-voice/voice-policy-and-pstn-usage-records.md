@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 摘要： 创建或修改语音策略和使用适用于业务 Server Control Panel Skype 配置 PSTN 用法记录。
-ms.openlocfilehash: 9a5e65e3d281a9cb902699b3b31068ea28831bb4
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c1fb142718008bd2a53582a3952bd9b0b9477ca6
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253260"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23888239"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype
 

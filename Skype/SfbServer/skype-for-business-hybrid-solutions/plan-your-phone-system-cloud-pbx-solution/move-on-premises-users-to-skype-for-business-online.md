@@ -7,7 +7,7 @@ ms.date: 1/27/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -16,15 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2475674a-f592-4fa8-ae99-f71cbea54dc0
 description: 摘要： 有关移动信息内部部署用户移动到 Skype 业务 online。
-ms.openlocfilehash: 09eb62c59ccea1334d7f565a0a49989bff72745b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 1cb57e777b9353b1abb5b211563f5b6adc58e72c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882066"
 ---
 # <a name="move-on-premises-users-to-skype-for-business-online"></a>为业务 Online 将内部部署用户移至 Skype
  
-**摘要：**有关业务 online 将内部部署用户移动到 Skype 的信息。
+**摘要：** 有关业务 online 将内部部署用户移动到 Skype 的信息。
   
 > [!CAUTION]
 > 在迁移到 Skype for Business Online 之前，必须更新 Lync Phone Edition 设备以符合最低的必要固件要求。 如果在更新固件之前将用户从本地环境迁移到联机环境，用户将无法使用其电话进行连接。 要更正此问题，必须将用户移回到本地环境以将其电话固件更新为最低要求的固件。 请勿在将用户移回到本地环境之前尝试更新到最低要求的固件或对电话执行硬重置。

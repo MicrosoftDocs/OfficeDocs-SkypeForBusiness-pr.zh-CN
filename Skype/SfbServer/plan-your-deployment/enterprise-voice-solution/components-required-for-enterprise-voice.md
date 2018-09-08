@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
 description: 企业语音组件中的业务服务器 Skype 摘要。
-ms.openlocfilehash: 800a12b2d83703f188fff04452cf865757d5cad9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 513f116f1c92bbe931e9015bc8507b0c1f16fc1a
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20970477"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23881802"
 ---
 # <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>所需的 Skype 中的企业语音的企业服务器组件
  

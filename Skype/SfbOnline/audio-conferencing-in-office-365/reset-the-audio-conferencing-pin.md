@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: 67866a47-89c1-4593-8766-3a68777e2be6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解关于 Pin 应知道什么以及如何中重置它们 Skype 业务 online。 '
-ms.openlocfilehash: 7e47f3e33dbb6811f5fabafc1ccd213f8e0bac11
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
+ms.openlocfilehash: 257f59f59d4fc86c91aa5496fe3db42573269065
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490602"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882135"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>联机置 for Business 的音频会议中 Skype 的 PIN
 
@@ -86,7 +87,7 @@ PIN 是为每个 Skype 业务启用音频会议的用户创建的数字组成的
 
 - Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为什么您需要使用 Office 365 PowerShell 中](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     

@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: 启用业务 Server 企业语音中 Skype 的呼叫允许控制。
-ms.openlocfilehash: 1a9e719e6c008fcd8bf8c12612f8eea15447648e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 75021b33c616fd4118a612b6e0d582459cd33b8d
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21009706"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23881906"
 ---
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>启用 Business Server Skype 中的呼叫允许控制
  

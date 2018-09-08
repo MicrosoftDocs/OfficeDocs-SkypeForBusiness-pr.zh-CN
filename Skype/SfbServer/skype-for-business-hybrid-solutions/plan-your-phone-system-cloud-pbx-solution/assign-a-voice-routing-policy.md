@@ -7,7 +7,7 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 摘要： 阅读本主题可了解如何分配 Office 365 中的电话系统使用内部部署 PSTN 连接的用户的语音策略。
-ms.openlocfilehash: 43d8939e6e0cd49f66234e127f05cb421700a15a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 6acc7188cbb76c101890591a822ac03a686a8246
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569496"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886060"
 ---
 # <a name="assign-a-voice-routing-policy"></a>分配语音路由策略
  
@@ -31,7 +31,7 @@ Skype 业务 Online 和 Office 365 中的电话系统使用内部部署 PSTN 连
   
 其他语音策略定义了哪些呼叫功能可供用户;此语音策略定义由 Microsoft，相同的 Office 365 中的所有电话系统与内部部署 PSTN 连接用户。 它是自动分配给电话系统中的 Office 365 用户。
   
-||**内部部署用户**|**与内部部署 PSTN 连接用户的 Office 365 中的电话系统**|
+||**本地用户**|**与内部部署 PSTN 连接用户的 Office 365 中的电话系统**|
 |:-----|:-----|:-----|
 |定义的呼叫功能  <br/> |语音策略  <br/> |预定义用户许可 Office 365 中的电话系统时自动分配语音策略。  <br/> |
 |相关联的 PSTN 用法记录  <br/> |语音策略  <br/> |当用户仍驻留在本地时分配的语音路由策略。  <br/> |

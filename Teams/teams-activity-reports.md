@@ -8,18 +8,18 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: chenle
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 description: 了解如何使用活动报告以查看您的组织中的用户如何使用 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9c4c811505d8f5642fe4c0b79b511624a3b07b6
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: beb9e21924ca2811ef9f7e4b302fe66451076917
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860276"
+ms.locfileid: "23883163"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>用于 Microsoft 团队活动报告 
 ========================================

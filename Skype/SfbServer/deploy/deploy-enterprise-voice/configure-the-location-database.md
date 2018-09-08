@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: 配置、 填充和业务 Server 企业语音中 Skype 发布 E9-1-1 位置数据库。
-ms.openlocfilehash: bbeb695cea58feae073e5579eacbe3558d632735
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e57f9ba299abad613df2f4c54ae9ecbbea748f9a
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21018873"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885497"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>在 Skype for Business Server 中配置位置数据库
  

@@ -7,18 +7,18 @@ ms.date: 9/25/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0b038686-ed36-4867-9653-14cc08c919cb
 description: 查找有关规划业务混合部署的 Skype 的信息。
-ms.openlocfilehash: 124286ea60b1bd032d9d736284a738c63aea2dc6
-ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
+ms.openlocfilehash: af15627feaf3dca84f78e657bf71055a7a68f4c0
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "20176189"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23891231"
 ---
 # <a name="skype-for-business-hybrid-solutions"></a>业务混合解决方案的 Skype
  

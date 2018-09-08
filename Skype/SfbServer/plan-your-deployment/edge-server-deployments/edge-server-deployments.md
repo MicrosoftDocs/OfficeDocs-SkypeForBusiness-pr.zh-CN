@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: 摘要： 规划业务服务器边缘环境您 Skype。 本主题介绍了边缘概念，并允许您获取组织与我们更深入的主题。
-ms.openlocfilehash: 41a1d2771e43a4e217aa8bac6b98331a31d67c92
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f558a4a9623e54a38e134716afe9b95021f237dc
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965441"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886120"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>规划在 Skype 业务服务器的边缘服务器部署
  

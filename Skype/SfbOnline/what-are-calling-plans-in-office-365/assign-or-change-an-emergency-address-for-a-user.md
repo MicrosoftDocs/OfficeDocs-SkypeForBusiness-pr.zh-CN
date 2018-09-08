@@ -16,21 +16,21 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 了解如何为你的每个使用公用电话交换网 (PSTN) 的用户设置紧急地址和电话号码。
-ms.openlocfilehash: e4ca1934ddb604c5efd81fd6a21b6f18d39b144b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 053e0d13109f66b4e714b69f0bc5650e20acdb69
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854864"
+ms.locfileid: "23885808"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>为用户分配或更改紧急地址
 
-在 Office 365 中设置通话套餐时，需要为每个用户分配一个电话号码和紧急地址。 必须先创建紧急地址，然后才能将其与电话号码关联。 请参阅[紧急位置、地址和呼叫路由是什么？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)了解详细信息。
+当您要设置调用计划在 Office 365 中时，将需要为每个用户分配电话号码和紧急地址。 必须先创建紧急地址，然后才能将其与电话号码关联。 请参阅[紧急位置、地址和呼叫路由是什么？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)了解详细信息。
   
 若要了解如何获取 Office 365 中的通话套餐以及它们的价格，请参阅 [Skype for Business 和 Microsoft Teams 加载项授权](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
   
@@ -40,23 +40,23 @@ ms.locfileid: "23854864"
     
 2. 转到 **Office 365 管理中心** > **Skype for Business**。
     
-3. 在左侧导航中，转到**语音**，然后单击**语音用户**。
+3. 在左侧导航窗格中转到**语音**，然后单击**语音用户**。
     
     > [!IMPORTANT]
-    > 若要在 Skype for Business 管理中心的左侧导航中显示**语音**选项，必须先购买至少一个**企业版 E5 许可证**、一个**电话系统**附加设备许可证，或一个**音频会议**附加设备许可证。
+    > 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
     
 4. 在" **语音用户**"页面上，查找并选择要更改其紧急地址的用户。
     
 5. 在操作窗格中，在" **紧急位置**"下，单击" **更改**"。
     
     > [!NOTE]
-    > 只能更改已验证的紧急地址。 若要更改尚未验证的地址，请将其删除并创建另一个紧急地址。 
+    > [!重要信息] 只能更改已验证的紧急地址。 若要更改未通过验证的紧急地址，请将其删除，并创建另一个紧急地址。 
   
-6. 在**分配号码**页面上，单击**更改位置**。
+6. 在" **分配号码**"页面上，单击" **更改位置**"。
     
-7. 在**将紧急地址更改为**下方，输入城市的名称，然后单击**搜索**。
+7. 在**更改紧急地址**下输入市/县的名称，然后单击**搜索**。
     
-8. 从地址下拉列表中选择紧急地址，然后单击**保存**。 
+8. 从地址下拉列表中，选择紧急地址，然后单击**保存**。 
     
 ## <a name="related-topics"></a>相关主题
 [什么是地址验证？](what-is-address-validation.md)

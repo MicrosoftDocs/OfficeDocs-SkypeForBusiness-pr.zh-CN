@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 摘要： 实现 Skype 业务服务器之前查看本主题中的 DNS 注意事项。
-ms.openlocfilehash: 03797ff311dd64890d1134b28a6cff36e9c23e1e
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d7f1cf424b98700eed7b2474e3c06db6d585fb30
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252966"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887888"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Skype for Business Server 的 DNS 要求
 

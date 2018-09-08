@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: 了解有关出站语音业务企业语音，包括呼叫路由设置中 Skype 路由、 拨号计划、 规范化规则、 语音策略、 PSTN 用法记录和语音路由。
-ms.openlocfilehash: 1f399ff44eafdc1fc61fb5bab41b0d8949127e62
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 60a1041bee0f235a232c7516dd9e0122ea7b7b65
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21029187"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883653"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>规划出站语音路由中 Skype 业务服务器
  

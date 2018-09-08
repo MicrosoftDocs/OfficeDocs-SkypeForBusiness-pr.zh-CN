@@ -7,19 +7,19 @@ ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: 摘要： 浏览这些链接以了解如何开发概念、 逻辑和物理设计用于配置 Skype 的业务服务器 2015年功能、 服务器和拓扑。
-ms.openlocfilehash: ef4992a4beb7fe8621b5730d7b1a976c8f3cb80c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 937d449c1a6c32296f4725709b4cf6cf9e066eda
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20991364"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23881985"
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>规划您的 Skype for Business Server 2015 部署
  

@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: MyAdvisor
 description: 在 Microsoft Teams 中部署云语音功能实践指导
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 001c1b0f69108630267f368b065cc8d72c0b38c5
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 9bf4d920ba8ce8e25d663a9bab1769f80d693a77
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855276"
+ms.locfileid: "23892363"
 ---
 # <a name="cloud-voice-deployment"></a>云语音部署
 

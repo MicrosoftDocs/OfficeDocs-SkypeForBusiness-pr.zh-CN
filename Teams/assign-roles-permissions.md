@@ -9,16 +9,16 @@ ms.service: msteams
 ms.reviewer: dansteve
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中分配团队所有者和成员角色，包括创建团队的权限。
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98ec3b95395a3d972af245f6653ea0294cfa670d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: da4bae93a35775141c246145e1375e73963ec120
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856312"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23892695"
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>在 Microsoft Teams 中分配角色和权限
 ===============================================

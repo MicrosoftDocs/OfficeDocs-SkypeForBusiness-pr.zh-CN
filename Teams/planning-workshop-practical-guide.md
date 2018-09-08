@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, rowille
 description: 用于帮助组织开始使用 Microsoft Teams 的规划工具、研讨会和入门工具包。
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1d4ddfba74e33f86ae8a8af113c95579997632d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 00a6da2c87baeba21a46c5b848f9750740db4018
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23852032"
+ms.locfileid: "23883984"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>工具和研讨会：规划、交付和采用 Microsoft Teams
 

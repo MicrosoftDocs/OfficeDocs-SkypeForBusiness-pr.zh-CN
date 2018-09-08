@@ -15,21 +15,21 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何启用或禁用 Skype 向用户设置 pin 如发生更改时或 Microsoft 团队中的默认会议号码更改发送电子邮件。 '
-ms.openlocfilehash: 5d18d039c379bb56a861ba6f6a36d23f301150b4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a59553f26ee39e042fa28d9e58e7f5ae2aae21be
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861888"
+ms.locfileid: "23892499"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>启用或禁用发送电子邮件中的 Microsoft 团队的音频会议设置更改时
 
-他们启用音频会议时，将自动通过电子邮件通知用户。 有时可能，但是，当您想要减少发送给 Microsoft 团队用户的电子邮件数。 在这种情况下，您可以禁用发送电子邮件。
+|||UNTRANSLATED_CONTENT_START|||Users are automatically notified by email when they are enabled for Audio Conferencing.|||UNTRANSLATED_CONTENT_END||| 有时可能，但是，当您想要减少发送给 Microsoft 团队用户的电子邮件数。 在这种情况下，您可以禁用发送电子邮件。
   
 如果您禁用发送电子邮件，就不会音频会议电子邮件发送给用户，当用户处于启用或禁用音频会议以及会议 ID 和默认会议电话号码的更改时重置其 PIN，包括电子邮件.
   
@@ -41,13 +41,13 @@ ms.locfileid: "23861888"
 
 - 有多个电子邮件发送给组织中的用户启用了后为音频会议：
     
-  - 当**音频会议**许可证分配给它们。
+  - 向其分配**音频会议**许可证时。
     
   - 当您手动重置用户的音频会议 PIN。
     
   - 当你手动重置用户的会议 ID 时。
     
-  - 当**音频会议**许可证已从它们。
+  - 删除其**音频会议**许可证时。
     
   - 当用户的音频会议提供商从 Microsoft 更改为其他提供程序或**无**。
     

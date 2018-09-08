@@ -9,18 +9,18 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ritikag
 description: 了解如何在 Microsoft Teams 中允许和启用应用，包括侧向加载外部应用。
-localization_priority: Priority
+localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14c4759505b83d0039fabcaa5eeb03b1530ddf1b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e1a7d10be12c75b3d25737aa770c94e5a540e683
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853140"
+ms.locfileid: "23881913"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams 中适用于应用的管理设置
 ==========================================

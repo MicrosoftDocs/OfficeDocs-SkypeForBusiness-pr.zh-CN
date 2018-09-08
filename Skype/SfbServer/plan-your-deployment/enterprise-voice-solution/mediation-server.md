@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: 对于业务服务器，包括其支持的拓扑和 M:N 中继、 媒体绕过和呼叫允许控制其关系，请了解 Skype 中介服务器。
-ms.openlocfilehash: 95feb3b419eacf77739dfed98d2eee70eb49dc06
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3f8b1e9fa1c1026c89fb67456e33ee0758140ee7
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21009191"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882279"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Skype 业务服务器中的中介服务器组件
  

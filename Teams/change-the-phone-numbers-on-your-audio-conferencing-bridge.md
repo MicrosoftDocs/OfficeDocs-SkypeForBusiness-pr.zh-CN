@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 当您购买音频会议许可证时，Microsoft 承载您的组织的音频会议桥。 音频会议桥出从不同位置的电话拨入电话号码，即使这样会议组织者和参与者可以使用其加入 Skype 业务或 Microsoft 团队的会议使用电话。
-ms.openlocfilehash: 3de53df00f364a4aad6efe416a83e5389cc0b8ef
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 32376134a6faa6944c6a4bb3e36a92cf3407ebce
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23852080"
+ms.locfileid: "23892491"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改音频会议网桥的电话号码
 

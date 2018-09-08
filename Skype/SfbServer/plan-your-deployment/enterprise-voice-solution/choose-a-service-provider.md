@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 description: 选择在 Skype E9-1-1 部署的服务提供商业务 Server 企业语音。
-ms.openlocfilehash: 2eb9900c4c8d5d19893a37c558f07ea06241c956
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0ec2da13cb7dfcd90bc2ffcd5baad962421aeb08
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005021"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884597"
 ---
 # <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>为业务服务器选择 Skype E9-1-1 服务提供的商
  

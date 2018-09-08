@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何向 Microsoft 团队中的用户分配的会议 ID 和哪些会议 ID 参数应为。 '
-ms.openlocfilehash: aa69788e86689fb393684bfb9367152269cfa457
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: d0ee177fbbe286cc68c45e1c41f391b52c44291e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850938"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23892030"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>查看和重置分配给用户的 Microsoft 团队中的会议 ID
 

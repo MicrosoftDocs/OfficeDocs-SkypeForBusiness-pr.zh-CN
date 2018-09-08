@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: 创建或修改网络区域链接，使用 Skype 中的企业语音呼叫允许控制业务服务器。
-ms.openlocfilehash: f184e18da816bae693fd209a97704681240538e7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fd74960ed2efe9e8e67c5682c5b30aac17c9b2b6
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965427"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886462"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>为 Business Server Skype 创建网络区域链接
  

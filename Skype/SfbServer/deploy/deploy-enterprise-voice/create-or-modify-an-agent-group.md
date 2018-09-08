@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: 创建或修改代理组在响应组的 Skype 业务 Server 企业语音。
-ms.openlocfilehash: a6b57eca83c230c86e041eb6727d5b3696b689d1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0a88052d8ceba244e6971d1ebeffdffa84388ef6
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21018947"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882191"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>创建或修改代理组中的业务的 Skype
  

@@ -15,26 +15,26 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
-description: '了解有关加载项许可证、功能和如何购买 Office 365 企业版计划。 '
-ms.openlocfilehash: 039f4cbb5ebe85450a752f11f2878350fea67c9c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+description: '了解有关加载项许可证、 功能和如何购买 Office 365 企业版计划。 '
+ms.openlocfilehash: bc88524050e8606c6d93a8fcf24ed5d8c1638fe3
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851672"
+ms.locfileid: "23886754"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 企业版 E5
 
-[Office 365 企业版 E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) 计划包括大部分 Skype for Business 和 Microsoft Teams 功能。 只有几个附加选项。
+[Office 365 企业 E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software)计划包括大多数 Skype 业务和 Microsoft 团队的功能。 只有几个附加选项。
   
 |||
 |:-----|:-----|
 |**要添加的功能** <br/> |**需要购买的项目** <br/> |
-|**包括音频会议！** <br/> |购买许可证后，Microsoft 将成为你的音频会议提供程序。  <br/> |
-|**用于拨入会议的免费电话号码，以及通过呼叫世界各地的任何电话号码从会议拨出以添加某人的功能。** <br/> |[通信点数](/microsoftteams/set-up-communications-credits-for-your-organization)|
-|**包括电话系统和语音邮件！** <br/> |通话套餐：从 Office 365 购买[通话套餐](/MicrosoftTeams/calling-plans-for-office-365)。 <br/>  或者，使用[你现有的提供程序中的电话服务](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)。 |
+|**音频会议是包括 ！** <br/> |一旦您购买许可证，Microsoft 将成为音频会议提供商。  <br/> |
+|**免费电话号码用于电话拨入式访问您的会议，并能够从会议发起电话拨出添加某人世界上调用任何电话号码。** <br/> |[通信点数](/microsoftteams/set-up-communications-credits-for-your-organization)|
+|**包括电话系统和语音邮件！** <br/> |呼叫计划： 购买[调用规划](/MicrosoftTeams/calling-plans-for-office-365)从 Office 365。 <br/>  或者，使用[您现有的提供程序中的电话服务](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)。 |

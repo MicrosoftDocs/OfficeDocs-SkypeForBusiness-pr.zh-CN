@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '请参阅 Microsoft 团队步骤将电话拨入式会议许可和会议 ID 分配给用户和许多其他电话拨入式会议设置。 '
-ms.openlocfilehash: b9b3198f5d66b36e986eeab72fdf5dd31521fb14
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7af89da74b0b83872954444a847d40f0d7851087
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866832"
+ms.locfileid: "23884702"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>管理我的组织中的 Microsoft 团队的音频会议设置
 
@@ -121,7 +121,7 @@ ms.locfileid: "23866832"
 
 1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 
-2. **音频会议**，旁边单击**编辑**。
+2. 在**音频会议**旁边，单击**编辑**。
  
 3. 在**音频会议**窗格中，您可以设置**收费电话号码**，如果允许，**免费电话号码**。
 

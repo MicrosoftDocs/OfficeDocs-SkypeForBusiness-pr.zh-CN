@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: 对于升级到团队业务的 Skype 加速的 10 步骤操作计划
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 743f07dc74f33b10e7035a52fafdb11b05d657ff
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: ea1e371ae10991c5a8d5d9121da9f78fb44af430
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858438"
+ms.locfileid: "23883210"
 ---
 <a name="about-upgrade-basic"></a>
 # <a name="upgrade-basic"></a>升级基本 

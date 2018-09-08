@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
 description: 规划漫游业务 Server 企业语音的 Skype 中使用 SIP 中继提供商，E9-1-1 部署中的用户。
-ms.openlocfilehash: 0b439cc52a5724f5642bd8c61288cededefe754c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 921724b2dc93b852cebe6a34acbd8d4d66a594f8
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988477"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23881809"
 ---
 # <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>定义手动获取业务服务器的 Skype 中的位置的用户体验
  

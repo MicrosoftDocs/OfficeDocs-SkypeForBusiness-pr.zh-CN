@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 请参阅如何在 Skype for Business Online 中为音频会议号码选择音频会议自动助理语言。
-ms.openlocfilehash: 70313648f04b05e622ddb34e871ff1b303ac02a7
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: f7b7357d38941ba8d7e1f586f32daa8e02b29012
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864982"
+ms.locfileid: "23882206"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>在 Skype for Business Online 中设置音频会议自动助理语言
 
@@ -34,10 +34,10 @@ ms.locfileid: "23864982"
 
 Skype for Business 的音频会议自动助理可以在加入会议时以多种不同语言向呼叫者播放问候语。
   
-选择一种主要语言和最多四种辅助语言。 自动助理将优先使用设置的主要语言，随后按照选择的顺序使用辅助语言。 
+选择一种主要语言和最多四种辅助语言。 将首先使用您之前设置的主要语言和自动助理将使用的辅助语言，以便您选择。 
   
 > [!NOTE]
->  只能在国内音频访问电话号码上配置语言。
+>  您可以在仅限国内音频访问电话号码配置语言。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -46,16 +46,16 @@ Skype for Business 的音频会议自动助理可以在加入会议时以多种�
 
 你必须是[Office 365 全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)或 [Skype for Business 管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行此步骤。
     
-1. 在 **Skype for Business 管理中心** 中的左侧导航中，转到 **音频会议** ，然后单击 **Microsoft 网桥** 。
+1. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议**，然后单击**Microsoft 桥**。
     
-2. 从列表中选择音频会议电话号码，然后在操作窗格中单击 **设置语言** 。 
+2. 选择音频会议电话号码，从列表中，并在操作窗格中，单击**设置语言**。 
     
-3. 在 **设置语言** 页面上，单击 **主要语言** 列表以查看可用语言的完整列表。 如果需要，单击每种 **辅助语言** 列表以选择辅助语言。
+3. 在**设置语言**页上，单击**主要语言**列表，以查看可用的语言的完整列表。 如果需要请单击每个**辅助语言**列表选择辅助语言。
     
     > [!NOTE]
-    > 则会显示所支持的主要语言和辅助语言。 在列表中选择它们的顺序将是向呼叫者显示的语言顺序。 
+    > [!注释] 则会显示所支持的主要和辅助语言。 在其中选择这些列表中的顺序将向呼叫者显示的语言的顺序。 
   
-4. 单击 **保存** 。
+4. 单击" **保存**"。
     
 ## <a name="want-else-should-i-know"></a>还需了解哪些信息？
 
@@ -67,9 +67,9 @@ Skype for Business 的音频会议自动助理可以在加入会议时以多种�
     
 ## <a name="want-to-use-windows-powershell"></a>想要使用 Windows PowerShell？
 
-为自动执行此操作，可以使用 [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) 和 [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) cmdlet 。
+自动执行此步骤，您可以使用[集 CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689)和[Get CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) cmdlet。
   
-若要了解更多信息，请参阅 [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
+若要了解详细信息，请参阅[使用 Windows PowerShell，可以执行的业务 Online 管理任务的常见 Skype](https://go.microsoft.com/fwlink/?LinkId=525038)
   
 ## <a name="related-topics"></a>相关主题
 

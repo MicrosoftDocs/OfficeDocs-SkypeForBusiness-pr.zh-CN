@@ -6,15 +6,16 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
+search.appverid: MET150
 description: 了解如何 Live 事件使用户能够广播视频和 Microsoft 团队、 Yammer 和 Microsoft 流中的大型联机访问群体的内容。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfdee5d1cf43c358d2b6a36aad66c38d3e9d8ec9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3fb22c259e97e27aa45d4874bc95aef7962c6024
+ms.sourcegitcommit: 53089c4c9bdf219f02eae2827432a4f40eaa9cd5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23870584"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23893705"
 ---
 # <a name="what-are-teams-live-events"></a>什么是团队 live 事件？
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -45,15 +46,19 @@ Microsoft 365 中的实时事件支持生产方案提供了一系列，包括使
 - **外部编码器生产**： 外部编码器允许用户产生直接从外部硬件或与[Microsoft 流](https://stream.microsoft.com)基于软件的编码器其 live 事件。 此选项将是最佳如果您已有 studio 质量设备 （例如，媒体混音器） 到实时消息协议 (RTMP) 服务的支持流式处理。 如 executive 城镇大厅 – 从媒体混音器为单个流将广播到该访问群体其中的大型事件通常用于生产此类型。 
 
 ### <a name="streaming-platform"></a>流式平台
-Live 事件流式平台由以下四个部分组成：
+Live 的事件流平台的以下部分组成：
 
 - **Azure 媒体服务**  [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/)为您提供了广播质量视频流的服务访问今天的最常用的移动设备上的较大访问群体。 Media Services 增强辅助功能、 分发和可伸缩性，并使其简单且经济高效流内容到您的本地或全球访问群体 — 同时保护您的内容。
 - **Azure 内容交付网络 (CDN)** 一旦您流投入，它被通过[Azure 内容交付网络 (CDN)](https://docs.microsoft.com/azure/cdn/)。 Azure Media Services 提供集成的 CDN 流终结点。 这样世界各地查看与无缓冲的流。
-- **企业内容交付网络 (eCDN)** ECDN 的目标是从 internet 视频内容并不会影响网络性能分布在整个企业的内容。 您可以使用下列选项之一认证 eCDN 合作伙伴优化您的网络保留组织内的实时事件：
+
+### <a name="enterprise-content-delivery-network-ecdn"></a>企业内容交付网络 (eCDN)
+ECDN 的目标是从 internet 视频内容并不会影响网络性能分布在整个企业的内容。 您可以使用下列选项之一认证 eCDN 合作伙伴优化您的网络保留组织内的实时事件：
     - 配置单元
     - Kollective
     - 提升
-- **Attendee 体验** 参与者的体验是 live 事件的最重要方面和很重要，与会者可以参加的实时事件无任何问题。 参与者的体验使用 Azure 媒体播放器并跨桌面、 浏览器中，和 mobile (iOS，Android) 的工作方式。 Office 365 提供 Yammer 和团队为两个协作集线器和 live attendee 体验集成到这些协作工具。 也可以通过在[管理工具](#administrative-tools)中的与会者访问的基于外部编码器 live 事件。
+
+### <a name="attendee-experience"></a>参与者的体验 
+参与者的体验是 live 事件的最重要方面和很重要，与会者可以参加的实时事件无任何问题。 参与者的体验使用 Azure 媒体播放器并跨桌面、 浏览器中，和 mobile (iOS，Android) 的工作方式。 Office 365 提供 Yammer 和团队为两个协作集线器和 live attendee 体验集成到这些协作工具。 
 
 ## <a name="planning-for-live-events"></a>规划 live 事件
 在规划团队要保留在您生成组织中的大型会议的实时事件时，有需要启动所有最多设置之前，需要考虑的几个因素。 

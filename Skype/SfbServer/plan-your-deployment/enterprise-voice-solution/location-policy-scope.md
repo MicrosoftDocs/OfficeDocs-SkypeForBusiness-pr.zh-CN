@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
 description: 规划业务 Server 企业语音中 Skype E9-1-1 部署的位置策略。
-ms.openlocfilehash: 26d621877a61f372a6f40d20f8253954e3d43e5d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 28759d88be1586149b0dd482d934c5bbc89a1853
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966276"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23881880"
 ---
 # <a name="assign-location-policy-scope-in-skype-for-business-server"></a>为业务服务器分配位置策略作用域中 Skype
  

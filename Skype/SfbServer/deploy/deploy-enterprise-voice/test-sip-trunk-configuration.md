@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: 摘要： 了解如何使用 Skype 业务 Server 命令行管理程序测试 SIP 中继配置设置。
-ms.openlocfilehash: ea0874eabacfb814c5cc668654c56c86c788beff
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f6a7cfae4a5591fa9325e7b9ac99f4c2b18ed516
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20984069"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883631"
 ---
 # <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>测试 SIP 中继配置设置中 Skype 业务服务器
  

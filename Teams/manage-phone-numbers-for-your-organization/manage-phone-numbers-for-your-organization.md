@@ -16,19 +16,19 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords:
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
 ms.custom:
 - Calling Plans
 description: 在每个国家或地区，为 Skype for Business Online 和 Microsoft Teams 用户获取电话号码的说明均不同。 请访问下面你所在国家或地区对应的链接来获取你所需信息。
-ms.openlocfilehash: 31d1b0b7d1a2719d4645addaa96aa8d82fd090fb
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f1fd767a3013064a2bba0db03595b56a1431ec0f
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858454"
+ms.locfileid: "23885403"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>管理组织的电话号码
 有三种方法可以为您的组织获取用户和服务（收费和免费）号码。

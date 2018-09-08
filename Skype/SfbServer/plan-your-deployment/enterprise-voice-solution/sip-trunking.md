@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: 了解有关在 Skype 的 SIP 中继的业务 Server 企业语音
-ms.openlocfilehash: 9440ce05781f71a71ec4d848dee28fe5e9fc59fc
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 502629c794ed95b5d6228880c8fe37a23eb86af9
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260249"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882232"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>Skype 业务服务器中的 SIP 中继
 

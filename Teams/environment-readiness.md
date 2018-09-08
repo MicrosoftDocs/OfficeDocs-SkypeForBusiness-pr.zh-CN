@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
 description: 了解检查你的环境是否为 Microsoft Teams 准备好时要查看的内容。
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 287d4a859b51446d0e5765fe5552609e7c0ff0c9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 55c1efa3cdbe9dc6295a294e682265a51509a60c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849808"
+ms.locfileid: "23889565"
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>检查你的环境是否为 Microsoft Teams 准备好
 ===========================================
