@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype 的基于视频的屏幕共享 (VbSS) 的业务服务器规划和配置信息
-ms.openlocfilehash: 8f76fbe0879cc9abd452d8b1e0064627c215b20e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a658453af5f71d7bb8103411ed16c534e3004a03
+ms.sourcegitcommit: aa3258aeb5aa1296c4bb251a9d258b8896457b7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968324"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23935473"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>视频基于屏幕共享的 Skype 业务服务器 
  
@@ -120,7 +120,7 @@ VbSS 带宽为：
 - 如果你的帐户托管在 ASMCU 不满足支持 VbSS 的最低内部版本的环境中。
 - 如果 for Business 客户端使用的 Skype 较早版本的任何人加入会话，例如任何人都使用低于 16.0.6330.1000，对于业务会议室系统设备，Skype 或业务移动应用程序的 Skype 任何 Windows 客户端版本。 
 - 如果用户正在共享 Skype 的企业 Web 应用程序。
-- 如果某人的 Businesson Mac 使用 Skype 并不驻留在 Skype 业务 online。
+- 如果有人在 Mac 上的业务用 Skype 并不驻留在 Skype 业务 online。
 - 如果某人开始任何程序/Windows 共享。
 - 如果某人开始录制会话。
 - 如果某人在会话期间调用远程屏幕控制。
