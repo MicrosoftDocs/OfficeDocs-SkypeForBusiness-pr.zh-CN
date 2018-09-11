@@ -10,10 +10,10 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: 为 IT 专业人员提供指向 Skype for Business 2016、Skype for Business 2015 和 Lync 2013 客户端永久版本的最新更新信息的链接
 ms.openlocfilehash: 148f635d081b33a80d6b138b717e87aecdd616c5
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.sourcegitcommit: aa3258aeb5aa1296c4bb251a9d258b8896457b7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
+ms.lasthandoff: 09/11/2018
 ms.locfileid: "23884187"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>使用 Windows Installer (MSI) 的 Skype for Business 版本的最新更新

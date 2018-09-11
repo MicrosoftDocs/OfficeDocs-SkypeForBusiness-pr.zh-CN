@@ -12,10 +12,10 @@ description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a646ba320681b6e92ec35b6cf62f14ecff0a54dd
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: aa3258aeb5aa1296c4bb251a9d258b8896457b7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
+ms.lasthandoff: 09/11/2018
 ms.locfileid: "23860440"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授权来宾访问
