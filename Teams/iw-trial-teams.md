@@ -3,7 +3,7 @@ title: 管理 Microsoft 团队商业云试用版
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/31/2018
+ms.date: 09/11/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -12,12 +12,12 @@ search.appverid: MET150
 localization_priority: Normal
 description: Office 365 用户未授权的 Microsoft 团队可以发起 1 年试用版的团队。
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 10977a95d5ff86d72964270a2c6daa7d9764448e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7fba776f109b8785b72000af4981d64015f3054c
+ms.sourcegitcommit: 1f5786a82ad535652da22e755e9c1d3063e5425f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858818"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23935813"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft 团队商业云试用版
 =======================================================
@@ -40,6 +40,8 @@ Microsoft 团队是为您的组织的绝佳协作工具。 它使人和团队讨
 - SharePoint Online Kiosk
 - Sway
 - Yammer Enterprise
+
+提供可分配给每个租户的 500000 用户的最大值。 试用许可证将为每个试用的用户分配 2 GB 的 SharePoint Online 的存储空间。
 
 ## <a name="who-is-eligible"></a>谁有资格参与
 
