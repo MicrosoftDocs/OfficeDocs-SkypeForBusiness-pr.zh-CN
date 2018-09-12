@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: 27f074526da7c63ecfdcfab912650e514c3717b3
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0f23fc6ca106530f64e9854150d922b8a32da7d2
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867000"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937832"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>通话质量仪表板中可用的维度和衡量指标
 
@@ -112,18 +112,18 @@ ms.locfileid: "23867000"
 |Duration 60 seconds or more  <br/> |布尔值  <br/> |如果流的持续时间大于或等于 60 秒，则为 True，否则为 False。  |**示例值：** ，则返回 true  <br/> |
 |Duration (Seconds)  <br/> |范围（秒）  <br/> |流的持续时间，以秒为单位。值按范围分组表示。 |  **示例值：** 062: [1-2)  <br/> |
 |Duration (Minutes)  <br/> |范围（分钟）  <br/> |流的持续时间，以分钟为单位。值按范围分组表示。 |  **示例值：** 065: [3-4)  <br/> |
-|日期  <br/> |字符串  <br/> |日期结束的流。  |**示例值：** 2018年-06-01  <br/> |
-|Year  <br/> |整型  <br/> |年的流末尾。  | **示例值：** 2018年  <br/> |
-|Month  <br/> |整型  <br/> |流末尾的月份。  | **示例值：** 2  <br/> |
-|Day  <br/> |整型  <br/> |流末尾的某一天。  |**示例值：** 1  <br/> |
-|Hour  <br/> |整型  <br/> |小时的流末尾。  | **示例值：** 1  <br/> |
-|Minute  <br/> |整型  <br/> |分钟数流末尾。  | **示例值：** 30  <br/> |
-|Second  <br/> |整型  <br/> |第二个流末尾。  |**示例值：** 12  <br/> |
-|Day Of Year  <br/> |整型  <br/> |流末尾年的某一天。  | **示例值：** 32  <br/> |
-|Day Of Week  <br/> |字符串  <br/> |星期流末尾的一天。  | **示例值：** 星期三  <br/> |
-|Day Number Of Week  <br/> |整型  <br/> |一天的流末尾的周数。  | **示例值：** 3  <br/> |
-|Month Year  <br/> |字符串  <br/> |月份和年份的流末尾。  |**示例值：** 2017年-02  <br/> |
-|Full Month  <br/> |日期时间  <br/> |流末尾的完整月份。  | **示例值：** 2017年-02-01 T00:00:00  <br/> |
+|日期  <br/> |字符串  <br/> |日期结束的流。 值中的 UTC 时区报告。  |**示例值：** 2018年-06-01  <br/> |
+|Year  <br/> |整型  <br/> |年的流末尾。 值中的 UTC 时区报告。  | **示例值：** 2018年  <br/> |
+|Month  <br/> |整型  <br/> |流末尾的月份。 值中的 UTC 时区报告。  | **示例值：** 2  <br/> |
+|Day  <br/> |整型  <br/> |流末尾的某一天。 值中的 UTC 时区报告。  |**示例值：** 1  <br/> |
+|Hour  <br/> |整型  <br/> |小时的流末尾。 值中的 UTC 时区报告。  | **示例值：** 1  <br/> |
+|Minute  <br/> |整型  <br/> |分钟数流末尾。 值中的 UTC 时区报告。  | **示例值：** 30  <br/> |
+|Second  <br/> |整型  <br/> |第二个流末尾。 值中的 UTC 时区报告。  |**示例值：** 12  <br/> |
+|Day Of Year  <br/> |整型  <br/> |流末尾年的某一天。 值中的 UTC 时区报告。  | **示例值：** 32  <br/> |
+|Day Of Week  <br/> |字符串  <br/> |星期流末尾的一天。 值中的 UTC 时区报告。  | **示例值：** 星期三  <br/> |
+|Day Number Of Week  <br/> |整型  <br/> |一天的流末尾的周数。 值中的 UTC 时区报告。  | **示例值：** 3  <br/> |
+|Month Year  <br/> |字符串  <br/> |月份和年份的流末尾。 值中的 UTC 时区报告。  |**示例值：** 2017年-02  <br/> |
+|Full Month  <br/> |日期时间  <br/> |流末尾的完整月份。 值中的 UTC 时区报告。  | **示例值：** 2017年-02-01T00:00:00  <br/> |
 |First Domain  <br/> |字符串  <br/> |使用第一终结点的用户的域。如果第一终结点是会议服务器，则为会议组织者的域。也可能是场景中使用的服务帐户的域。  <br/> |**示例值：** contoso.com  <br/> |
 |Second Domain  <br/> |字符串  <br/> |使用第二终结点的用户的域。如果第二终结点是会议服务器，则为会议组织者的域。也可能是场景中使用的服务帐户的域。  | **示例值：** contoso.com  <br/> |
 |First User Agent Category  <br/> |字符串  <br/> |第一终结点的用户代理的类别。  <br/> |空值表示当前没有映射的用户代理，如第三方用户代理。  <br/>  **示例值：** OC  <br/> |
@@ -198,15 +198,15 @@ ms.locfileid: "23867000"
 |Second DNS Suffix  <br/> |字符串  <br/> |第二终结点报告的与网络适配器关联的 DNS 后缀。请注意，可能会为任何类型的网络适配器报告此值。  <br/> |空值表示终结点未报告此值。  <br/>  **示例值：** corp.contoso.com  <br/> |
 |First Wifi Band  <br/> |字符串  <br/> |第一终结点报告的所使用的 Wifi 波段。  <br/> |空值表示终结点未计算或未报告此值。 <br/>  **示例值：** 5.0 Ghz  <br/> |
 |Second Wifi Band  <br/> |字符串  <br/> |第二终结点报告的所使用的 Wifi 波段。  <br/> |空值表示终结点未计算或未报告此值。   <br/> **示例值：** 5.0 Ghz  <br/> |
-|First Wifi Signal Strength  <br/> |字符串  <br/> |第一终结点报告的 WiFi 信号强度百分比 [0-99]。  <br/> |空值表示终结点未计算或未报告此值。  <br/> **示例值：** 081: [90-100)  <br/> |
-|Second Wifi Signal Strength  <br/> |字符串  <br/> |第二终结点报告的 WiFi 信号强度百分比 [0-99]。  <br/> |空值表示终结点未计算或未报告此值。  <br/> **示例值：** 081: [90-100)  <br/> |
+|First Wifi Signal Strength  <br/> |字符串  <br/> |WiFi 信号百分比 [0-100] 报告的第一个终结点。  <br/> |空值表示终结点未计算或未报告此值。  <br/> **示例值：** 081: [90-100)  <br/> |
+|Second Wifi Signal Strength  <br/> |字符串  <br/> |WiFi 信号百分比 [0-100] 报告的第二个终结点。  <br/> |空值表示终结点未计算或未报告此值。  <br/> **示例值：** 081: [90-100)  <br/> |
 |First Wifi Battery Charge  <br/> |范围（百分比）  <br/> |第一终结点报告的电池剩余电量的百分比估计值 [0-99]。值按范围分组表示。0 表示设备已插电。  <br/> |空值表示未使用 WiFi 或未报告电量值。 <br/>   **示例值：** 081: [90-100)  <br/> |
 |Second Wifi Battery Charge  <br/> |范围（百分比）  <br/> |第二终结点报告的电池剩余电量的百分比估计值 [0-99]。值按范围分组表示。0 表示设备已插电。  <br/> |空值表示未使用 WiFi 或未报告电量值。  <br/>  **示例值：** 081: [90-100)  <br/> |
 |Audio Degradation Avg  <br/> |范围（平均意见得分 0-5）  <br/> |关于流降级的网络平均意见得分的平均值。表示网络损耗和抖动对所收到的音频质量的影响程度。值按范围分组表示。  <br/> |空值表示接收流的终结点没有报告网络 MOS 降级，或者此流不是音频流。   <br/> **示例值：** 015: [0.01-0.02)  <br/> |
 |Jitter  <br/> |范围（毫秒）  <br/> |流的平均抖动值，以毫秒为单位。值按范围分组表示。  <br/> |空值表示接收流的终结点没有报告抖动数据。  <br/> **示例值：** 065: [2-3)  <br/> |
 |Jitter Max  <br/> |范围（毫秒）  <br/> |流的最大抖动值，以毫秒为单位。值按范围分组表示。  <br/> |空值表示接收流的终结点没有报告抖动数据。   <br/> **示例值：** 065: [2-3)  <br/> |
-|Packet Loss Rate  <br/> |范围（百分比）  <br/> |流的平均丢包率。值按范围分组表示。  <br/> |空值表示接收流的终结点没有报告丢包数据。  <br/>  **示例值：** 050: [1.8-1.9)  <br/> |
-|Packet Loss Rate Max  <br/> |范围（百分比）  <br/> |流的最大丢包率。值按范围分组表示。  <br/> |空值表示接收流的终结点没有报告丢包数据。   <br/> **示例值：** 041: [0.95-1)  <br/> |
+|Packet Loss Rate  <br/> |范围（比率）  <br/> |流的平均丢包率。 值按范围分组表示。 0.1 指示 10%的数据包丢失。  <br/> |空值表示接收流的终结点没有报告丢包数据。  <br/>  **示例值：** 015: [0.01-0.02)  <br/> |
+|Packet Loss Rate Max  <br/> |范围（比率）  <br/> |流的最大丢包率。 值按范围分组表示。 0.1 指示 10%的数据包丢失。  <br/> |空值表示接收流的终结点没有报告丢包数据。   <br/> **示例值：** 023: [0.09-0.1)  <br/> |
 |Overall Avg Network MOS  <br/> |范围 (MOS)  <br/> |流的网络 MOS 平均值。值按范围分组表示。  <br/> |空值表示接收流的终结点没有报告网络 MOS 降级，或者此流不是音频流。   <br/> **示例值：** 076: [4.4-4.5)  <br/> |
 |Ratio Concealed Samples Avg  <br/> |范围（比率）  <br/> |含有丢包隐藏生成样本的音频帧数与总音频帧数的比率。值按范围分组表示。0.1 表示 10% 的帧包含隐藏样本。  <br/> |空值表示流的接收方没有报告此值，或者流不是音频流。   <br/> **示例值：** 015: [0.01-0.02)  <br/> |
 |Ratio Stretched Samples Avg  <br/> |范围（比率）  <br/> |通过拉伸样本补偿抖动或丢失的音频帧数与总音频帧数的比率。值按范围分组表示。0.1 表示 10% 的音频帧包含拉伸样本。  <br/> |空值表示流的接收方没有报告此值，或者流不是音频流。  <br/>  **示例值：** 017: [0.03-0.04)  <br/> |
@@ -471,8 +471,8 @@ ms.locfileid: "23867000"
 |Avg Audio Degradation  <br/> |平均意见得分 (0-5)  <br/> |关于流降级的网络平均意见得分的平均值。表示网络损耗和抖动对所收到的音频质量的影响程度。  <br/> |
 |Avg Jitter  <br/> |毫秒  <br/> |流的平均网络抖动，以毫秒为单位。  <br/> |
 |Avg Jitter Max  <br/> |毫秒  <br/> |流的最大网络抖动值，以毫秒为单位。  <br/> |
-|Avg Packet Loss Rate  <br/> |百分比  <br/> |以 5 秒钟时间间隔计算到的流的平均丢包百分比的平均值。  <br/> |
-|Avg Packet Loss Rate Max  <br/> |百分比  <br/> |以 5 秒钟时间间隔计算到的流的最大丢包百分比的平均值。  <br/> |
+|Avg Packet Loss Rate  <br/> |比率  <br/> |以 5 秒钟时间间隔计算到的流的平均丢包百分比的平均值。 0.1 指示 10%的数据包丢失。  <br/> |
+|Avg Packet Loss Rate Max  <br/> |比率  <br/> |以 5 秒钟时间间隔计算到的流的最大丢包百分比的平均值。 0.1 指示 10%的数据包丢失。  <br/> |
 |Avg Overall Avg Network MOS  <br/> |平均意见得分 (0-5)  <br/> |流的网络平均意见得分的平均值。表示通过考虑网络损耗、抖动和编解码器对所收到的音频质量的平均估计。  <br/> |
 |Avg Ratio Concealed Samples  <br/> |比率  <br/> |含有丢包隐藏生成样本的音频帧数与流的总音频帧数的平均比率的平均值。0.1 表示 10% 的帧包含隐藏样本。  <br/> |
 |Avg Ratio Stretched Samples  <br/> |比率  <br/> |通过拉伸样本补偿抖动或丢失的音频帧数与流的总音频帧数的平均比率的平均值。0.1 表示 10% 的音频帧包含拉伸样本。  <br/> |

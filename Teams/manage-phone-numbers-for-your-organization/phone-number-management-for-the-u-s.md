@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的美国（和波多黎各）电话号码的信息。
-ms.openlocfilehash: 25070ff377489994101b82b9b34c74c82989c546
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: bb1599a3127ffb7a07ec6001a5b2b78831ae320f
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883047"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23938005"
 ---
 # <a name="phone-number-management-for-the-us"></a>美国的电话号码管理
 
@@ -42,7 +42,7 @@ ms.locfileid: "23883047"
 |你需要将用户的号码更改为服务号码。  <br/> |[向我们发送](mailto:ptn@microsoft.com)你的 PIN 以及你想要转换为服务号码的用户号码列表。 要设置 PIN，请访问[此处](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)。  <br/> |
 |你需要将号码从一个 Office 365 组织转移到另一个。  <br/> |[向我们发送](mailto:ptn@microsoft.com)你想要转移的用户（订阅者）电话号码列表以及你想要从其转移号码的源组织的 PIN。 要设置 PIN，请访问[此处](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)。  <br/> |
    
-## <a name="related-topics"></a>相关主题
+## <a name="related-topics"></a>相关主题 
 
 [用于通话套餐的不同类型的电话号码](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

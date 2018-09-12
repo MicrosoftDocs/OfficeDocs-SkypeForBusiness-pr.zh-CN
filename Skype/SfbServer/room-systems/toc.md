@@ -5,6 +5,7 @@
 ### [发行说明](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [准备您的环境](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [要求](../plan-your-deployment/clients-and-devices/requirements.md)
+### [Online 许可](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 ### [使用 OMS 的计划管理](../plan-your-deployment/clients-and-devices/oms-management.md)
 ## 部署
 ### [部署概述](../deploy/deploy-clients/room-systems-v2.md)
@@ -25,14 +26,14 @@
 ### [使用恢复工具](../manage/skype-room-systems-v2/recovery-tool.md)
 # Skype 会议室系统 (v1)
 ## 规划
-### [为业务服务器部署中 Skype 的 Skype 会议室系统](../deploy/deploy-clients/deploy-skype-room-system.md)
+### [在 Skype for Business Server 中部署 Skype 会议室系统](../deploy/deploy-clients/deploy-skype-room-system.md)
 ## 部署
-### [Skype 会议室系统 Exchange 和 Skype 帐户的设置](../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md)
+### [设置 Skype 会议室系统 Exchange 和 Skype 帐户](../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md)
 #### [Skype 会议室系统的单林本地部署](../deploy/deploy-clients/single-forest-on-premises-deployments.md)
 #### [Skype 会议室系统多林本地部署](../deploy/deploy-clients/multiple-forest-on-premises-deployments.md)
-#### [设置 Office 365 中的 Skype 会议室系统帐户](../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md)
+#### [在 Office 365 中设置 Skype 会议室系统帐户](../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md)
 #### [Skype 会议室系统混合部署](../deploy/deploy-clients/hybrid-deployments.md)
-#### [Skype 会议室系统和 for Business 的 Skype 联盟伙伴](../deploy/deploy-clients/room-system-and-federated-partners.md)
+#### [Skype 会议室系统和 Skype for Business 联盟伙伴](../deploy/deploy-clients/room-system-and-federated-partners.md)
 ### [Skype 会议室系统帐户的会议策略](../deploy/deploy-clients/conferencing-policy.md)
 ### [Skype 会议室系统受信任域](../deploy/deploy-clients/trusted-domains.md)
 ### [Skype 会议室系统迁移注意事项](../deploy/deploy-clients/migration-considerations.md)

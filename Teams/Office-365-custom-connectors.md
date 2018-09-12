@@ -11,12 +11,12 @@ search.appverid: MET150
 description: 连接器通过将你常用的服务中的内容和更新传输到频道，使你的团队持续获得最新信息。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bb29766d17ea51fdac1e898fdfa6fde72526314
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7b5a0af4327169c6ba8b640e48184591002c94ea
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867594"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937873"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft Teams 中使用 Office 365 和自定义连接器
 =======================================================
@@ -25,7 +25,7 @@ ms.locfileid: "23867594"
 
 工作组中的任何成员可以连接到使用连接器的常用云服务其工作组，如果团队权限允许，并且所有团队成员都通知的活动从该服务。 连接器将继续在最初安装连接器已离开的成员后正常工作。 添加/删除对具有权限的任何团队成员可以修改连接器设置其他成员。
 
-Office 365 连接器可以与 Microsoft Teams 和 Office 365 组配合使用，这样，可以更轻松地让所有成员保持同步并快速收到相关信息。 Microsoft Teams 和 Exchange 使用相同的连接器模型，这样，你可以在两个平台中使用相同的连接器。
+Office 365 连接器可以与 Microsoft Teams 和 Office 365 组配合使用，这样，可以更轻松地让所有成员保持同步并快速收到相关信息。 Microsoft Teams 和 Exchange 使用相同的连接器模型，这样，你可以在两个平台中使用相同的连接器。 值得注意，禁用 Office 365 组团队所依赖的连接器将禁用创建连接器以及该团队的功能。
 
 当前，可以使用 Microsoft Teams 桌面和 Web 客户端添加连接器。 但是，可以使用包括移动设备在内的**所有客户端**查看这些连接器发布的信息。
 

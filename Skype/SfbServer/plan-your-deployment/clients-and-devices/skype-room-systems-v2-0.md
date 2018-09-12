@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 本文介绍部署 Skype 会议室系统 v2 下, 一代 Skype 会议室系统相关的规划的注意事项。
-ms.openlocfilehash: b62e062eebfd9a79cf49b98fe6f477a0288f71d1
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: f793753b6fad2c544a4ab845b5cd220792a9b8d1
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601946"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937840"
 ---
 # <a name="plan-skype-room-systems-v2"></a>规划 Skype 会议室系统 v2 
 
@@ -50,7 +50,7 @@ Skype 会议室系统 v2 包括以下主要组件来提供出色的用户体验�
 
 通常，捆绑和集成的单位包括预安装的软件，而如果购买 Surface Pro 系统为单独的支持的组件，需要安装软件。 有关说明，请参阅[本文中有关安装在设备上的软件](../../deploy/deploy-clients/room-systems-scale.md)。 
 
-您可以部署与 Skype 的业务联机状态或业务混合或本地部署的 Skype 的 Skype 会议室系统 v2。 Microsoft 团队支持即将非常提供。
+您可以部署与 Skype 的业务联机状态或业务混合或本地部署的 Skype 的 Skype 会议室系统 v2。  有关所需的许可证的信息，请参阅[Skype 会议室系统 v2 许可](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)。
 
 |    |     |
 |-----------|------------|

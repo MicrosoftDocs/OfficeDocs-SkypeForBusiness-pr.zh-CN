@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bbadb9324942cdb354570673a0fd923c9e04bdbd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 134d6d310762bc43d578085fd3f1031112307ee9
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891326"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937880"
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================
@@ -48,11 +48,15 @@ IT 管理员可以选择其分发到其组织，如 System Center Configuration 
 > [!NOTE]
 > Windows 和 Office 安装的体系结构不可知的 Microsoft 团队的体系结构 （32 位与 64 位）。
 
-Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。 部署到用户的本地配置文件后，无需提升的权限即可安装客户端。 Windows 客户端安装在以下位置：
+Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。 部署到用户的本地配置文件后，无需提升的权限即可安装客户端。 Windows 客户端利用在以下位置：
 
-- %appdata%\\local\\Microsoft\\Teams
+- %Localappdata%\\Microsoft\\团队
 
-- %appdata%\\roaming\\Microsoft\\Teams
+- %Localappdata%\\Microsoft\\TeamsMeetingsAddin
+
+- %应用程序数据 %\\Microsoft\\团队
+
+- %Localappdata%\\SquirrelTemp
 
 用户首次使用 Microsoft Teams 客户端启动呼叫时，他们可能会注意到有关 Windows 防火墙设置的警告，要求用户允许通信。 指示用户可能由于呼叫将工作原理，即使在消除警告时忽略此消息。
 

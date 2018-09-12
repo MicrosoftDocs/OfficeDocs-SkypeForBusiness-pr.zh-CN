@@ -3,22 +3,22 @@ title: Microsoft Teams 中的安全性和合规性概述
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/02/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: Microsoft Teams 中的安全性和合规性概述，包括审核和报告、合规性内容搜索以及电子数据展示等。
+description: 包括审核和报告、 合规性内容搜索、 电子数据展示，和更多的 Microsoft 团队的安全性和遵从性功能的概述。
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a2cf9a0b34be89b493b75473fb89efee6943977
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fc686b520c9bd765539ff5fd9f636bc876583a41
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887037"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937895"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和合规性概述
 ======================================================
@@ -224,14 +224,16 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 <a name="location-of-data-in-teams"></a>Teams 中的数据的位置
 -------------------------
 
-Teams 中的数据位于与你的 Office 365 租户关联的地理区域。 当前，Teams 支持美洲、欧洲、中东和非洲以及亚太地区这些区域。 
+Teams 中的数据位于与你的 Office 365 租户关联的地理区域。 目前，团队支持澳大利亚、 加拿大、 印度、 日本、 英国、 美国、 APAC 和 EMEA 区域。 
 
 > [!IMPORTANT]
-> 团队目前提供数据住所在英国、 加拿大和印度的仅新租户。 新租户的定义是，该租户中没有任何一个用户登录过 Teams。 英国、 加拿大和印度从现有租户将继续之前一直处于 EMEA、 美国和 APAC 区域分别迁移计划为宣布 （预期 CY2019）。
+> 团队目前提供数据住所中澳大利亚、 加拿大、 印度、 日本和英国的仅新租户。 新租户的定义是，该租户中没有任何一个用户登录过 Teams。 澳大利亚、 印度和日本从现有租户将继续将其团队数据存储在 APAC 区域。 在加拿大和英国的现有租户会在美国存储其数据和 EMEA 区域，分别。
 
-要详细了解为 Teams 启动英国和印度数据驻留的信息，请阅读 Ansuman Acharya 的博客文章 [Microsoft Teams 启动印度数据驻留，其他地理位置不久将启动](https://go.microsoft.com/fwlink/?linkid=867773)。 
+要详细了解为 Teams 启动英国和印度数据驻留的信息，请阅读 Ansuman Acharya 的博客文章 [Microsoft Teams 启动印度数据驻留，其他地理位置不久将启动](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827)。 
 
-加拿大数据住所团队的详细信息，请参阅[Microsoft 团队启动加拿大数据住所、 澳大利亚和日本即将提供](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178)。 
+有关团队加拿大数据住所详细信息，请阅读 Varun Sagar 博客文章， [Microsoft 团队启动加拿大数据住所、 澳大利亚和日本即将提供](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178)。 
+
+若要了解有关团队澳大利亚和日本数据住所的启动的详细信息，请阅读 Varun Sagar 博客文章， [Microsoft 团队启动澳大利亚和日本数据居住权](https://go.microsoft.com/fwlink/?linkid=867773)。 
 
 要查看哪些区域托管你的租户数据，请转到 [Office 365 管理中心](https://portal.office.com/adminportal/home) > “**设置**” > “**组织配置文件**”。 向下滚动到“**数据位置**”。 
 
@@ -240,9 +242,9 @@ Teams 中的数据位于与你的 Office 365 租户关联的地理区域。 当�
 <a name="how-do-conditional-access-policies-work-for-teams"></a>条件访问策略团队如何工作？
 -------------------------
 
-Microsoft 团队严重依赖于 Exchange Online、 SharePoint Online 和 Skype 的在线核心工作效率方案，如会议、 日历、 业务互操作聊天和文件共享。 为这些云应用程序设置的条件的访问策略应用于 Microsoft 团队时用户迹象直接在 Microsoft 团队的任何客户端上。 
+Microsoft 团队严重依赖 Exchange Online、 SharePoint Online 和 Skype 业务 online 核心工作效率方案，如会议、 日历、 互操作的聊天和文件共享。 时用户直接登录到 Microsoft 团队的任何客户端上，为这些云应用程序设置的条件的访问策略应用于的 Microsoft 团队。 
 
-单独的 Microsoft 团队支持作为云应用程序在 Azure Active Directory 条件访问策略。 当用户登录时，为 Microsoft 团队云应用程序设置的条件的访问策略将适用于 Microsoft 团队。 但是，不正确的策略，如 Exchange Online 和 SharePoint Online 的其他应用程序的情况下用户可能仍将能够直接访问这些资源。 对于有关 azure 门户中的某个条件的访问策略设置的详细信息，请转到此处: (https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
+单独的 Microsoft 团队支持作为云应用程序在 Azure Active Directory 条件访问策略。 当用户登录时，为 Microsoft 团队云应用程序设置的条件的访问策略将适用于 Microsoft 团队。 但是，不正确的策略，如 Exchange Online 和 SharePoint Online 的其他应用程序，用户可能仍将能够直接访问这些资源。 对于有关 azure 门户中的某个条件的访问策略设置的详细信息，请转至: (https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
 
 Windows 和 Mac 的 Microsoft 团队桌面客户端支持现代身份验证。 现代身份验证将跨平台基于在 Azure Active Directory 身份验证库 (ADAL) Microsoft Office 客户端应用程序登录。
 

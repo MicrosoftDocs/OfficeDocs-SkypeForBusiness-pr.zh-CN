@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab8bb4be2d98c33ad01827f3eb6a3c940bfb6228
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 251cc2d12dfdab2e9bc4c9bcc928e80a9c43e2c2
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23868218"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937997"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>曲面集线器部署的 Microsoft 团队
 ======================================
@@ -185,8 +185,6 @@ Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
 
 使用以下配置通过 Intune 的默认呼叫和会议应用程序策略。
 
-.
-
 |设置   |值    |说明    |
 |----------|---------|---------|
 |路径      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
@@ -201,3 +199,5 @@ Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
 
 重新启动面集线器设备。 设备重新启动后，您应该能够从开始屏幕中启动团队应用程序并从日历加入会议。
 
+> [!NOTE]
+> 如果您的设备或组织的设备不是当前的一部分 Windows 内幕计划和中介绍的一般数据保护法规 (GDPR) 的国家/地区 （或您已手动更改为基本的遥测设置），则您必须重新检查是否具有允许完全遥测之前加入内幕计划。 GDPR 更改在欧盟为基本设置遥测面集线器设备的默认行为。

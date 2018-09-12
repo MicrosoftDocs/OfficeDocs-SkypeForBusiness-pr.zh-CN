@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73ae62ea6cf521e9f45b4de05c4dc62f408827e3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a885a79ce7e0a54a58108ce9b2fcda1c54f31616
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884033"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937848"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中组织团队的最佳做法
 ======================================================
@@ -42,7 +42,7 @@ ms.locfileid: "23884033"
 <a name="channel-best-practices"></a>通道最佳实践
 ----------------------
 
-我们最佳实践指南旨在与一大组的成员和更多信道创建团队。  维护高品质用户体验它很大程度地减少需要人参与的团队的数量。  团队中的通道应被视为主题或以帮助组织提供他们加入目标其工作团队的工作流。  没有任何特定应创建的信道数。  每个团队应定制根据其工作、 优先级和样式的通道。  较大的组织可能需要创建团队作为"模板"，以标准化其捕获有关特定类型的工作的信息。  这很有用的战略客户管理、 课堂 managmeent、 保健方案、 声明管理、 事件管理和其他 sceanrios 适用于特定的行业。   
+我们最佳实践指南旨在与一大组的成员和更多信道创建团队。  维护高品质用户体验它很大程度地减少需要人参与的团队的数量。  团队中的通道应被视为主题或以帮助组织提供他们加入目标其工作团队的工作流。  没有任何特定应创建的信道数。  每个团队应定制根据其工作、 优先级和样式的通道。  较大的组织可能需要创建团队作为"模板"，以标准化其捕获有关特定类型的工作的信息。  这很有用的战略客户管理、 课堂管理、 保健方案、 声明管理、 事件管理和其他方案适用于特定的行业。   
 
 **常规通道**是为您创建团队时默认创建的。 有许多有用此通道目的：
 
