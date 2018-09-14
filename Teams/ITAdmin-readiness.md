@@ -12,12 +12,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50e9bf67a920b36ade9eabf037bd4a0a551e7ad6
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: e22b00b8e6e4d4d6c1eb5b53d8f1762e602bdd37
+ms.sourcegitcommit: 866c33e2e3e41a06bf240b3d86e60e9fa35f22f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965646"
+ms.lasthandoff: 09/14/2018
+ms.locfileid: "23968502"
 ---
 <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 ==================================
@@ -36,7 +36,9 @@ ms.locfileid: "23965646"
 | [教程：了解 Teams 中的通话功能](tutorial-calling-in-teams.yml)  |  此培训介绍 Teams 中的通话功能，这些功能由 Office 365 中的电话系统功能提供技术支持。 解释了实施电话系统所需的技术规划，如何对其进行配置，以及如何在你的实施中监控使用情况和通话质量。  |
 | [音频会议视频](audio-conferencing-videos.md) |向 IT 管理员介绍 Teams 中的音频会议的视频。  |
 | [教程：Teams 中的会议](tutorial-meetings-in-teams.yml) | 此培训介绍团队中的会议。 它包括了会议功能，以及要求和规划注意事项。 |
+| 面向 IT 专业人员的 Microsoft 团队的基础  |<iframe width="320" height="240" src="https://www.youtube.com/embed/xJBvJTDiQqg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>| 
 | 部署和操作 Teams   | <iframe width="320" height="240" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
+| Windows 桌面客户端   | <iframe width="320" height="240" src="https://www.youtube.com/embed/zp1_wGzq1ic?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> | 
 | 直接路由 （预览） 的 Microsoft 团队   | <iframe width="320" height="240" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe>   |
 | 深入了解来宾访问 <br>与 Laith Al 和 Karuana Gatimu 进行的云会话中的增补内容  | <iframe width="320" height="240" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 | Microsoft Teams 中的电子数据展示 <br> 与 Ansuman Acharya 和 Karuana Gatimu 进行的云会话中的增补内容  | <iframe width="320" height="240" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
