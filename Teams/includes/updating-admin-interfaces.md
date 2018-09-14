@@ -1,0 +1,1 @@
+<span data-ttu-id="0c588-101">我们频繁更新 Microsoft Teams 中功能的管理方式，因此此处步骤可能略有不同。</span><span class="sxs-lookup"><span data-stu-id="0c588-101">We are frequently updating how you can manage features found in Microsoft Teams so the steps here might be a little different in the Microsoft Teams and Skype for Business admin center.</span></span>
