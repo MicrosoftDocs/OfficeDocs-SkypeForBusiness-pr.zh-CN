@@ -3,7 +3,7 @@ title: 规划 Microsoft 365 政府-GCC 部署的 Microsoft 团队
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 07/26/2018
+ms.date: 09/14/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 430b6c6de5468442f7a290b07b28eb59d276e00c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 34c13d9094512a52c334acf2b660b11b6579c886
+ms.sourcegitcommit: 63c391ce9144ba5b296050ac189f77f5cea78707
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885769"
+ms.lasthandoff: 09/14/2018
+ms.locfileid: "23973683"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 政府版-GCC 部署规划
 
@@ -66,8 +66,7 @@ Microsoft 365 政府-GCC 环境提供符合美国的云服务，包括 FedRAMP �
 | 电子邮件通道             | 政府计划中不支持当前功能体系结构。 |
 | 统一的状态            | 我们为我们首先对此重要的功能的企业客户的完成工作。 它将可供政府客户将来。 |
 | 团队 & SfB 之间的互操作性聊天用户            | 互操作所依赖上统一状态服务 (UPS)，但直到 GCC 团队租户启用 UPS 无法正常工作。 |
-
-|发送电子邮件通知 |美国政府计划中不支持当前功能体系结构。 若要使此功能可供美国政府计划客户将来正在进行工作。 |
+| 电子邮件通知         | 美国政府计划中不支持当前功能体系结构。 若要使此功能可供美国政府计划客户将来正在进行工作。 |
 
 
 |    |     |
