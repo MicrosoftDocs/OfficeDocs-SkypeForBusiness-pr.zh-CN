@@ -2,6 +2,7 @@
 title: 使用 OMS 管理 Skype 会议室系统 v2 设备
 ms.author: jambirk
 author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/19/2017
 ms.audience: ITPro
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 description: 本文讨论如何使用 Microsoft Operations Management Suite 以集成的端到端方式管理 Skype 会议室系统 v2 设备。
-ms.openlocfilehash: b77f7216593d30c843eb49fd8879a83b5b0025c8
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 5c472995c4948ce83587ec130724ddf3bdb5c75f
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504234"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965917"
 ---
 # <a name="manage-skype-room-systems-v2-devices-with-oms"></a>使用 OMS 管理 Skype 会议室系统 v2 设备
  
@@ -43,6 +44,6 @@ ms.locfileid: "19504234"
 ## <a name="see-also"></a>另请参阅
 <a name="Telemetry"></a>
 
-[规划使用 OMS 的 Skype 会议室系统 v2 管理](../../plan-your-deployment/clients-and-devices/oms-management.md)
+[使用 OMS 规划 Skype 会议室系统 v2 管理](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
-[部署使用 OMS 的 Skype 会议室系统 v2 管理](../../deploy/deploy-clients/with-oms.md)
+[使用 OMS 部署 Skype 会议室系统 v2 管理](../../deploy/deploy-clients/with-oms.md)

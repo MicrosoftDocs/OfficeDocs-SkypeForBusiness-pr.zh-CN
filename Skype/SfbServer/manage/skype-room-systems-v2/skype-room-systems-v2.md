@@ -2,6 +2,7 @@
 title: Skype 会议室系统 v2 的管理概述
 ms.author: jambirk
 author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Skype 会议室系统 v2 的管理概述。
-ms.openlocfilehash: 81ad0e43f68127e3a178434ebdd8ac8a43c94adc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d79c04c69e320f404c8ce245120e9b01bd8de1ca
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21014901"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965654"
 ---
 # <a name="management-overview"></a>管理概述 
 

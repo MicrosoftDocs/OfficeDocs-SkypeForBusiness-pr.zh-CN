@@ -1,7 +1,8 @@
 ---
 title: 发行说明
 ms.author: jambirk
-author: davgroom
+author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文讨论中 Skype 会议室系统 v2 累积改进。
-ms.openlocfilehash: 20a378e9565a5ddea2e1951d3d26cf30878f62c9
-ms.sourcegitcommit: a9556a51f7f970fc05ab0acc9998401db3c1aa57
+ms.openlocfilehash: e44a9ecc943bd20b451458fd1c469eee4d5cd2ea
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "22601981"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965910"
 ---
 # <a name="release-notes"></a>发行说明 
 

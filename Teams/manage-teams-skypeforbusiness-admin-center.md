@@ -16,14 +16,14 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 1e334e4978ea645527273a79f49ed097038fcb36
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dddb73e5b616fead421d1b610eff6229b4191d06
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885433"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965696"
 ---
-<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-and-skype-for-business-admin-center"></a>转换为新的 Microsoft 团队和业务管理中心的 Skype 的过程管理团队
+<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>转换为新的 Microsoft 团队和业务管理中心的 Skype 的过程管理团队
 ======================================================
 
 全新的 Microsoft Teams 和 Skype for Business 管理中心即将推出！ 
@@ -41,6 +41,7 @@ ms.locfileid: "23885433"
 
 ![Microsoft 团队和 Skype 业务管理中心的屏幕截图。](media/manage-teams-skype-for-business-admin-center-portal.png)
 
+## <a name="settings-migrated-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>设置迁移到新的 Microsoft 团队和 Skype 的业务管理中心
 
 从中间年 3 月 2018年，以下功能已在新的 Microsoft 团队和 Skype 的业务管理中心中可用： 
 
@@ -49,15 +50,9 @@ ms.locfileid: "23885433"
 - **消息设置的 Microsoft 团队来宾**： 控制中的 Microsoft 团队的来宾帐户的消息功能。 
 - **联合身份验证设置**： 管理 Microsoft 团队的租户之间 for Business 的 Skype 联合身份验证。 
 - **用户管理**： 分配策略和配置用户帐户。 
-- **音频会议**： 配置电话拨入式号码和 Skype 的业务和 Microsoft 团队的设置。 
+- **音频会议**： 配置电话拨入式号码和 Skype 的业务和 Microsoft 团队的设置。  
 
- 
-
-## <a name="settings-migrated-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>设置迁移到新的 Microsoft 团队和 Skype 的业务管理中心
-
-常规、 电子邮件集成、 自定义云存储、 呼叫和会议和消息中的 Microsoft 团队的现有设置 （请参阅下面的图像） 将迁移到新的 Microsoft 团队和 Skype 的业务 Admin Center （也称为新管理门户）在下一步的几个月。 
-
-
+此外，您现有的设置的常规、 电子邮件集成、 自定义云存储、 呼叫和会议和消息中的 Microsoft 团队现在已迁移到新的 Microsoft 团队和 Skype 的业务 Admin Center （也称为新管理员门户）。 
 
 > [!NOTE]
 >您将继续在 Office 365 管理中心中配置与**团队和频道**使用组仪表板。 **应用**程序设置将保留在 Office 365 管理中心的团队区域，并且将更高版本迁移。 
@@ -66,11 +61,9 @@ ms.locfileid: "23885433"
 
 相对于中**设置用户/许可证类型**提供设置，它本质上提供不同配置的用户组的方法。 现在，使用新的管理门户中，您可以执行操作的基于每个用户。 
 
-
 将迁移的许可证类型设置。 如果当前使用的**打开的 Microsoft 团队打开或关闭此类型的所有用户的**设置来控制用户对团队的访问跨 Sku，我们将保持当前配置。 但是，您将无法修改新的管理门户中的此设置。 相反，您将通过 Office 365 管理中心租户中向用户分配相应的许可证。 有关详细信息，请参阅[Microsoft 团队管理用户访问](user-access.md)。 
 
-下表标识了将迁移和新的管理门户中显示的当前设置和策略之间的关系的当前团队体验的部分。
-
+下表标识当前团队体验已迁移并显示新的管理门户中的当前设置和策略之间的关系的部分。
 
 |Office 365 管理中心中的团队的部分  |设置名称 （租户级别）  |Microsoft 团队和 Skype Business Admin Center 策略   |级别： 租户或用户   |
 |---------|---------|---------|---------|
@@ -102,10 +95,7 @@ ms.locfileid: "23885433"
 |消息     |允许用户私下聊天         |TeamsMessagingPolicy         |用户         |
 
 
-
 ## <a name="manage-settings-during-the-migration"></a>在迁移期间管理设置
-
-我们计划迁移的以下序列中的各节中的团队设置： 消息、 会议、 通话和最后，TeamsClient 配置策略内的分区 (常规，电子邮件集成和自定义云存储)。   
 
 您可以继续修改 Office 365 管理中心和业务管理中心的 Skype 中的设置，直到完成您的租户的节的迁移。 
 

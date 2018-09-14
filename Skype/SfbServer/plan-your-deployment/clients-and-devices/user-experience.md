@@ -1,7 +1,8 @@
 ---
 title: 规划业务 2015年为您的用户的客户端体验的 Skype
 ms.author: jambirk
-author: PhillipGarding
+author: jambirk
+ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
 ms.audience: ITPro
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 摘要： 了解新的业务的 Skype 和可采取的步骤进行更新，准备您的环境和您的用户是否使用 Skype 业务 Online、 业务服务器 2015年的 Skype 业务服务器 2015，Lync Server 2013 的 Skype 或Lync Server 2010。
-ms.openlocfilehash: 6c34ea8d47556015c4e357c1f6f9f052fba8cb47
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b5bfd0c48cb1e850fdaa88a991772306430a0b9f
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885252"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965675"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>规划业务 2015年为您的用户的客户端体验的 Skype
  
