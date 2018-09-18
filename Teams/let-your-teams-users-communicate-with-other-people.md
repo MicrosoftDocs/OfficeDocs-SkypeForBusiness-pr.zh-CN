@@ -3,6 +3,7 @@ title: 与其他组织中的团队用户通信
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
+ms.date: 09/12/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -13,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 请参阅如何配置团队以使用户可以与其他组织中的用户进行通信。
-ms.openlocfilehash: da76d75ba44215b11b68550fa06d1fab87f19e56
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: d7423109d4fba01ca85c1602bfcf92190b539abf
+ms.sourcegitcommit: 116d17befc17503968e00e45be338834aa2185b2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937824"
+ms.lasthandoff: 09/18/2018
+ms.locfileid: "23998624"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>让您的团队用户聊天并与其他团队组织中的用户进行通信
 
@@ -30,9 +31,11 @@ ms.locfileid: "23937824"
     
 - 您希望任何其他人在世界上使用团队能够找到并与您联系，使用您的电子邮件地址。 如果您和其他用户同时启用外部访问，并允许彼此的域，这将正常工作。 如果它不起作用，其他用户应确保他或她配置不阻止您的域。
 
-请按以下步骤执行：
+这将使用户能够查找、 呼叫，并向您发送即时消息，以及设置与您的会议。 如果您希望外部用户有权访问工作组和通道，来宾访问可能转更好的方法。 请按照本文和确保到[启用来宾访问](set-up-guests.md)，以便用户可以进行通信。
 
 ## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>让您的团队用户聊天并与其他团队组织中的用户进行通信
+
+按照以下步骤。
 
 ### <a name="step-1---make-sure-to-set-up-the-ports-and-urls-that-are-needed"></a>步骤 1-请务必设置的端口和所需的 Url。
 
@@ -50,7 +53,7 @@ ms.locfileid: "23937824"
    
    4. 如果您希望限制哪些通信组织可以与用户在组织中，通过单击**域添加**到允许列表添加其他组织的域名。 在**添加域**窗格中，**允许**，然后**完成**将在域名称单击。
 
-   4. 单击" **保存**"。 
+   4. 单击“**保存**”。 
 
    5. 然后确保其他团队组织中的管理员执行相同的步骤。 例如，在其**允许域**列表中，其管理员需要为您的业务输入的域，如果这些限制的组织可以与他们的用户通信。 
 
