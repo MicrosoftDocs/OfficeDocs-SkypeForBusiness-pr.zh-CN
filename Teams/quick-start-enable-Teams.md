@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 56033a3efc5e163ddd67f6f45bff590204c03783
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23882080"
@@ -47,7 +47,7 @@ ms.locfileid: "23882080"
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-如果您的 Office 365 租户中未启用的 Microsoft 团队并且已管理员执行 Office 365 中[管理用户团队访问](user-access.md)我们的文章的说明，以确保您的用户将有权访问应用程序。
+如果你的 Office 365 租户中未启用 Microsoft Teams 并且你是 Office 365 管理员，请按照[管理用户对 Teams 的访问](user-access.md)一文中的说明进行操作，确保你的用户可以访问该应用。
 
 ## <a name="step-3-complete-technical-planning"></a>步骤 3：完成技术规划
 

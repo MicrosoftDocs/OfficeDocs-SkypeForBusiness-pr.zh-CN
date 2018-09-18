@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: bb291c8bd338fa88d5d9b5788413c5e687fc0864
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23883776"
@@ -32,7 +32,7 @@ Microsoft Teams 结合了 Office 365 的完整宽度和深度，为团队合作�
 
 Teams 属于开箱可用，它利用了 Azure Active Directory (Azure AD) 中存储的标识，并与 Office 365 中的其他服务集成在一起，可为创建的每个团队创建 SharePoint Online 网站和 Exchange Online 组邮箱。
 
-具有业务或使用者的电子邮件帐户，如 Outlook、 Gmail，或其他任何人都可以作为来宾团队中参与。 团队中的所有来宾都涵盖的相同的遵从性和 Office 365 的其余部分的审核保护并来宾可以安全地管理 Azure AD 中。 管理员可以集中管理来宾其 Office 365 环境中的参与如何和轻松地查看、 添加或取消对主机租户来宾访问权限。
+具有企业或使用者电子邮件帐户（例如 Outlook、Gmail 等）的任何人都可以来宾身份参与 Teams。 对于 Teams 中的所有来宾，与其他 Office 365 产品一样实施相同的合规性和审核保护，并且可以在 Azure AD 中安全地管理来宾。 管理员可以集中管理来宾在其 Office 365 环境中的参与方式，并可以轻松查看、添加或撤消来宾对主机租户的访问。
 
 Teams 提供持久聊天功能、通话和会议、快速访问 Office 365 其他组件的功能以及强大的扩展功能。  它提供了一个适用于大型公司、小型组织及其所有成员的团队合作中心。  
 
@@ -45,12 +45,12 @@ Teams 建立在由 Office 365 组联系在一起的现有 Microsoft 技术之上
 
 Teams 中创建的团队立即可用，创建团队时会创建 Office 365 组、SharePoint Online 网站（附带文档库）、Exchange Online 组邮箱（将由 Teams 用于存储会议邀请等信息）。 可以使用现有 Office 365 组创建团队，从而允许现有组成员身份以及 SharePoint Online 和 Exchange Online 中存储的内容转到 Teams。
 
-若要为多个持久聊天主板其中非正式、 实时对话进行，也团队补充团队功能提供呼叫和会议体验的下一个生成基于云的基础结构还使用 Skype 和 Skype 的构建业务。 这些技术投资包括用于媒体处理和信号发送的基于 Azure 的云服务、H.264 视频编解码器、SILK 和 Opus 音频编解码器、网络复原、遥测和质量诊断。
+为了补充作为持久聊天板的 Teams 功能（用于进行非正式的实时对话），Teams 还提供了建立在下一代基于云的基础结构（Skype 和 Skype for Business 也使用该基础结构）之上的通话和会议体验。 这些技术投资包括用于媒体处理和信号发送的基于 Azure 的云服务、H.264 视频编解码器、SILK 和 Opus 音频编解码器、网络复原、遥测和质量诊断。
 
 Office 365 组利用 Azure Active Directory (Azure AD) 中存储的标识，因此，Teams 可以很容易地使用 Azure AD 中的所有身份验证和授权功能（例如，支持多重身份验证 (MFA)）。
 
 > [!NOTE]
-> 根据客户反馈，由于 Microsoft 团队在创建团队生成的新 Office 365 组将不再显示在 Outlook 中默认情况下。 对于要继续在 Outlook 中显示这些组的现有行为的客户，将其可以启用 Outlook 体验的组提供 Exchange Online PowerShell cmdlet。 组创建通过 Outlook 和更高版本启用团队将继续要显示在 Outlook 和团队。 此更新将逐步执行跨 Outlook 和团队滚月。
+> 根据客户反馈，默认情况下，因在 Microsoft Teams 中创建团队而生成的新 Office 365 组将不再显示在 Outlook 中。 对于希望继续使用在 Outlook 中显示这些组的现有行为的客户，将提供一个可在 Outlook 体验中启用组的 Exchange Online PowerShell cmdlet。 通过 Outlook 创建且之后在 Teams 中启用的组将继续显示在 Outlook 和 Teams 中。 将在接下来的几个月中逐步在 Outlook 和 Teams 中推出此更新。
 
 
 <a name="microsoft-teams-and-office-365"></a>Microsoft Teams 和 Office 365
@@ -74,9 +74,9 @@ Office 365 组利用 Azure Active Directory (Azure AD) 中存储的标识，因�
 
 -   由希望与同一组用户实时协作的用户和团队利用。
 
--   对希望快速对项目进行重复操作同时共享文件并对共享交付物进行协作的团队提供帮助。
+-   为希望快速对项目进行重复操作同时共享文件并对共享交付物进行协作的团队提供帮助。
 
--   允许用户连接到其工作区 （如规划器、 Power BI、 GitHub 等） 的各种工具。
+-   允许用户将各种工具连接到其工作区（例如 Planner、Power BI、GitHub 等）。
 
 ![Microsoft Outlook 图标。](media/Overview_of_Microsoft_Teams_image2.png)
 

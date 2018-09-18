@@ -1,5 +1,5 @@
 ---
-title: 开始音频会议中的 Microsoft 团队 PIN 不电话
+title: 在 Microsoft Teams 中在没有 PIN 的情况下通过电话启动音频会议
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,60 +19,60 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: '了解如何启用或禁用匿名呼叫者加入会议从团队管理中心。 '
+description: '了解如何从 Teams 管理中心启用或禁用匿名呼叫者加入会议。 '
 ms.openlocfilehash: c68e3a0bd9992eb53811941113a30e9362c78227
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23882996"
 ---
-# <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>开始音频会议中的 Microsoft 团队 PIN 不电话
+# <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>在 Microsoft Teams 中在没有 PIN 的情况下通过电话启动音频会议
 
-可能会干扰拨入会议以将其保留在收听音乐，因为 Microsoft 团队会议组织者尚未启动会议的会议的会议厅中的用户。 
+拨入会议后在会议厅中听音乐等候的用户可能会感到沮丧，因为 Microsoft Teams 会议组织者尚未启动会议。 
   
-如果会议组织者在调用会议，默认情况下，启动会议需要 PIN。 您可以将它设置以便任何人都可以拨号加入会议并不会提示输入 PIN 才能启动会议。 您可以使用管理中心启用或禁用此设置为单个用户。
+如果会议组织者拨入会议，默认情况下，需要 PIN 才能启动会议。 你可以设置任何人都可以拨入会议，而不提示其输入 PIN 来启动会议。 你可以使用管理中心为单个用户启用或禁用此设置。
   
-PIN 不需要会议组织者，如果某人具有来自 Microsoft 团队应用程序启动会议。 只有当会议组织者通过电话加入会议时，才需要 PIN。 已分配的**音频会议**许可证并启用了音频会议时，将向音频用户发送会议的 PIN。 请参阅[发送对其进行音频会议信息的用户电子邮件](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)和[自动发送给其音频会议设置更改时的用户的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md)。
+如果有人已从 Microsoft Teams 应用启动会议，则会议组织者不需要 PIN。 只有当会议组织者通过电话加入会议时，才需要 PIN。 为音频用户分配**音频会议**许可证以及为其启用音频会议时，将向其发送会议的 PIN。 请参阅[向用户发送包含其音频会议信息的电子邮件](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)和[用户的音频会议设置更改时自动向其发送的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md)。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>启用或禁用匿名呼叫者加入会议
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **使用 Microsoft Teams 和 Skype for Business 管理中心：**
 
-1. 在左侧导航窗格中，单击**用户**。 
+1. 在左侧导航中，单击“**用户**”。 
 
-2. 在列表中，选择一个用户，然后单击页面顶部的**编辑**。 
+2. 在列表中选择用户，然后单击页面顶部的“**编辑**”。 
 
-3. 在**音频会议**旁边，单击**编辑**。
+3. 在“**音频会议**”旁边，单击“**编辑**”。
 
-4. 在**音频会议**窗格中，启用或禁用**未经身份验证的呼叫者可以在会议中的第一个人**。
+4. 在“**音频会议**”窗格中，启用或禁用“**未经身份验证的呼叫者可以是第一个参加会议的人**”。
     
-4. 单击" **保存**"。 
+4. 单击“**保存**”。 
 
-**使用 Windows Powershell**
+**使用 Windows PowerShell**
   
-请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)（英文） 的详细信息。
+有关详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
 
-## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
+## <a name="what-else-should-you-know"></a>你还应该了解哪些信息？
 
-- 如果您想要重置 PIN，请参阅[重置的音频会议 PIN](reset-the-audio-conferencing-pin-in-teams.md)。
+- 如果要重置 PIN，请参阅[重置音频会议 PIN](reset-the-audio-conferencing-pin-in-teams.md)。
     
-- 如果启用了匿名访问，或不需要 PIN 才能启动会议时，:
+- 如果已启用匿名访问或不要求使用 PIN 来启动会议：
     
-  - 如果尚未启动会议 （没有一种-会议尚未）： 将提示呼叫者，如果他是组织者;如果他说是时，他将提示您为其 PIN，他输入 PIN 之后，会议的开始和用户将加入会议。
+  - 如果会议尚未启动（会议中还没有人）：系统将提示呼叫者确认是否是组织者，如果呼叫者确认是，则系统将提示其输入自己 PIN，在呼叫者输入 PIN 后，会议将启动，用户将加入会议。
     
   - 如果会议已启动（有人已在会议中）：如果呼叫者是组织者，则不会提示您提供 PIN；会议已启动，并将呼叫者将加入。
     
-- 如果禁用匿名访问，或不需要 PIN 才能开始会议，则：
+- 如果已禁用匿名访问或不要求使用 PIN 来启动会议：
     
-  - 如果尚未启动会议（还没有会议）：如果呼叫者是组织者，将不会收到提示，并且从不提示她提供 PIN。 组织者的设置设置为关闭，因为会议将启动，匿名呼叫者将加入会议。
+  - 如果尚未启动会议（还没有会议）：如果呼叫者是组织者，将不会收到提示，并且从不提示她提供 PIN。 由于组织者的设置设为关闭，会议将启动，匿名呼叫者将加入会议。
     
   - 如果会议已启动（有人已在会议中）：如果呼叫者是组织者，则不会提示您提供 PIN；会议已启动，并将呼叫者将加入。
     
-## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
+## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
 Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
     
@@ -80,7 +80,7 @@ Windows PowerShell Office 365 的功能是管理用户以及允许或不允许�
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-有关 Windows PowerShell 的详细信息，请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)（英文） 的详细信息。
+有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)了解详细信息。
   
 ## <a name="related-topics"></a>相关主题
 

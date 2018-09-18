@@ -1,5 +1,5 @@
 ---
-title: 禁用特定的团队用户的免费电话号码
+title: 对特定 Teams 用户禁用免费电话号码
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,15 +18,15 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 管理员可以控制组织者如何使用他们会议的免费电话号码。
+description: 管理员可以控制组织者在其会议中使用免费电话号码的情况。
 ms.openlocfilehash: 6d37fdb6e85f6c1325c4ebea179ad54aab91fa4c
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23887377"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>禁用特定的团队用户的免费电话号码
+# <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>对特定 Teams 用户禁用免费电话号码
 
 如果组织在其 Microsoft 音频会议网桥中拥有免费电话号码，可以在特定的组织者的会议中允许或阻止其使用免费电话号码。  
 
@@ -43,17 +43,17 @@ ms.locfileid: "23887377"
 
  - 参会者可以继续使用收费电话号码参加该组织者的会议。 
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a>禁用特定用户的免费电话号码 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>对特定用户禁用免费电话号码 
 
-1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
+1. 在左侧导航中，单击“**用户**”，然后从可用用户列表中选择用户。
 
 2. 在页面的顶部，单击**编辑**。
 
-3. 在**音频会议**旁边，单击**编辑**。
+3. 在“**音频会议**”旁边，单击“**编辑**”。
 
-4. 关闭**包括来自此用户的会议请求中的免费电话号码**。 
+4. 关闭“**在来自此用户的会议请求中包含免费电话号码**”。 
 
-5. 单击**保存。** 
+5. 单击“**保存**”。 
 
  
 > [!Note]
@@ -61,4 +61,4 @@ ms.locfileid: "23887377"
  
 **使用 PowerShell**  
 
-请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)（英文） 的详细信息。
+有关详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。

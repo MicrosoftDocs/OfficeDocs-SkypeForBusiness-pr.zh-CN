@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a470ddec93526fe5ea3aa5a24a835d37d971426c
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/08/2018
 ms.locfileid: "23892687"
@@ -36,9 +36,9 @@ Teams 组合了三种形式的流量：
 > [!IMPORTANT]
 > 当前，在 iOS 和 Android 移动设备上支持会议，但在 Windows Phone 上不支持。
 
-为了在 Microsoft Teams 中获得实时媒体方面的最佳体验，需要满足 Office 365 的网络连接要求。 有关详细信息，请参阅 [Skype for Business Online 中的媒体质量和网络连接性能](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)。
+为了在 Microsoft Teams 中获得实时媒体方面的最佳体验，需要满足 Office 365 的网络连接要求。 有关详细信息，请参阅 [Skype for Business Online 的媒体质量和网络连接性能](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)。
 
-两个定义网络段 （客户端到 Microsoft 边缘） 和客户边缘到 Microsoft 边缘，请考虑以下建议。
+对于两个定义网络段（客户端到 Microsoft Edge 和客户边缘到 Microsoft Edge），请考虑以下建议：
 
 
 |值  |客户端到 Microsoft Edge  |客户边缘到 Microsoft Edge  |
@@ -58,7 +58,7 @@ Teams 组合了三种形式的流量：
 <a name="bandwidth-requirements"></a>带宽要求
 ----------
 
-Microsoft Teams 的带宽计算很复杂，因此为了帮助进行此计算，创建了一个计算器。 要访问计算器，请转到 [MyAdvisor 中的网络规划器](https://aka.ms/bwcalc/)。
+Microsoft Teams 的带宽计算很复杂，因此为了帮助进行此计算，创建了一个计算器。 要访问计算器，请转到 [MyAdvisor 中的 Network Planner](https://aka.ms/bwcalc/)。
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.

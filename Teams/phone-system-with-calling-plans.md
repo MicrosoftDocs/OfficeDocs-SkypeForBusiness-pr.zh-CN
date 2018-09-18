@@ -15,7 +15,7 @@ appliesto:
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
 ms.openlocfilehash: 0d8ed28eb941618a4faf10dddb4c700d2a0d2baf
 ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/13/2018
 ms.locfileid: "23965520"
@@ -325,7 +325,7 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 
 - [Skype for Business 管理中心](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [远程 Windows PowerShell cmdlet](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [提交新电话号码请求窗体](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
+- [提交新电话号码申请表](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
 
 新电话号码申请表单适用于计划的电话号码获取，因为你可以申请一组连续的电话号码。 有些国家或地区不能使用 Skype for Business 管理中心或远程 Windows PowerShell 获取电话号码。
 
@@ -440,8 +440,8 @@ Office 365 的电话系统功能中的[拨号计划](https://docs.microsoft.com/
 >|租户拨号计划名称<br>说明  |规范化规则名称<br>_说明_  |模式<br>转换<br>IsInternalExtension  |
 >|---------|---------|---------|
 >|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux，法国拨号计划_|**FR-39qdPR-Internal**<br>_法国 Issy-les-Moulineaux 39 quai du Président Roosevelt 办公地点的内部号码 (x7000 - x7999)_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_法国的免费电话号码规范化_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
->||**FR-Service**<br>_法国的服务号码规范化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+>||**FR-TollFree**<br>_法国的免费电话号码规范化_|^0?(80\d{7})\d*$<br>+33$1<br>False|
+>||**FR-Service**<br>_法国的服务号码规范化_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
 
 <br>
 > [!TIP]
