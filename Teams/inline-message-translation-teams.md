@@ -1,5 +1,5 @@
 ---
-title: 使用中的 Microsoft 团队的内嵌消息转换
+title: 在 Microsoft Teams 中使用内联消息翻译
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -10,38 +10,38 @@ ms.service: msteams
 ms.reviewer: salilda
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用中的 Microsoft 团队内联转换。
+description: 了解如何在 Microsoft Teams 中使用内联翻译
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 191fe1e5517fdce9aba6fd17e084c866df200e82
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23882905"
 ---
-<a name="use-inline-message-translation-in-microsoft-teams"></a><span data-ttu-id="0d69f-103">使用中的 Microsoft 团队的内嵌消息转换</span><span class="sxs-lookup"><span data-stu-id="0d69f-103">Use inline message translation in Microsoft Teams</span></span> 
+<a name="use-inline-message-translation-in-microsoft-teams"></a><span data-ttu-id="780f0-103">在 Microsoft Teams 中使用内联消息翻译</span><span class="sxs-lookup"><span data-stu-id="780f0-103">Use inline message translation in Microsoft Teams</span></span> 
 =================================================
 
-<span data-ttu-id="0d69f-104">内嵌消息转换为新的 Microsoft 团队功能，它允许用户自动将团队邮件转换为所指定的 Office 365 其个人语言设置的[语言](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194)。</span><span class="sxs-lookup"><span data-stu-id="0d69f-104">Inline message translation is a new Microsoft Teams feature that lets users automatically translate Teams messages into the [language](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) specified by their personal language settings for Office 365.</span></span>
+<span data-ttu-id="780f0-104">内联消息翻译是 Microsoft Teams 的一项新功能，让用户可以自动将 Teams 消息翻译为由自己的 Office 365 个人语言设置指定的[语言](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194)。</span><span class="sxs-lookup"><span data-stu-id="780f0-104">Inline message translation is a new Microsoft Teams feature that lets users automatically translate Teams messages into the [language](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) specified by their personal language settings for Office 365.</span></span>
 
-<span data-ttu-id="0d69f-105">内嵌消息转换为要推出默认情况下，为您的组织。</span><span class="sxs-lookup"><span data-stu-id="0d69f-105">Inline message translation is being rolled out by default for your organization.</span></span> <span data-ttu-id="0d69f-106">如果您想要允许用户使用此团队客户端中的功能，您必须启用此设置使用 PowerShell。</span><span class="sxs-lookup"><span data-stu-id="0d69f-106">If you want to allow users to use this feature within the Teams client, you must turn this setting on by using PowerShell.</span></span> <span data-ttu-id="0d69f-107">目前，此选项不可用的 Microsoft 团队和 Skype 的业务管理中心中，但将很快。</span><span class="sxs-lookup"><span data-stu-id="0d69f-107">Currently, this option is not available in the Microsoft Teams and Skype for Business Admin Center, but will be soon.</span></span>
-
-> [!NOTE]
-><span data-ttu-id="0d69f-108">从我们的 Office 365 政府社区云和 Office 365 德国环境中的 Office 365 订阅排除此推出。</span><span class="sxs-lookup"><span data-stu-id="0d69f-108">This rollout is excluded from Office 365 subscriptions in our Office 365 Government Community Cloud and Office 365 Germany environments.</span></span> 
-
-## <a name="enable-by-using-powershell"></a><span data-ttu-id="0d69f-109">使用 PowerShell 启用</span><span class="sxs-lookup"><span data-stu-id="0d69f-109">Enable by using PowerShell</span></span>
-
-<span data-ttu-id="0d69f-110">您可以使用邮件策略来启用内嵌消息转换功能。</span><span class="sxs-lookup"><span data-stu-id="0d69f-110">You can turn on the inline message translation feature by using the Messaging Policy.</span></span> 
-
-1. <span data-ttu-id="0d69f-111">使用[组 CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) cmdlet 来启用在策略。</span><span class="sxs-lookup"><span data-stu-id="0d69f-111">Turn on the policy by using the [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) cmdlet.</span></span>
-2. <span data-ttu-id="0d69f-112">策略所需几分钟时间来应用。</span><span class="sxs-lookup"><span data-stu-id="0d69f-112">The policy takes a few minutes to apply.</span></span> <span data-ttu-id="0d69f-113">用户可能需要先注销，然后重新登录到团队。</span><span class="sxs-lookup"><span data-stu-id="0d69f-113">Users might need to sign out and sign back in to Teams.</span></span>
-
-## <a name="enable-by-using-the-teams-admin-center"></a><span data-ttu-id="0d69f-114">使用团队 Admin Center 启用</span><span class="sxs-lookup"><span data-stu-id="0d69f-114">Enable by using the Teams Admin Center</span></span>
-
-<span data-ttu-id="0d69f-115">通过使用团队管理中心打开内嵌消息转换功能的选项即将提供。</span><span class="sxs-lookup"><span data-stu-id="0d69f-115">The option to turn on the inline message translation feature by using the Teams Admin Center is coming soon.</span></span>
+<span data-ttu-id="780f0-105">默认会为贵组织部署内联消息翻译。</span><span class="sxs-lookup"><span data-stu-id="780f0-105">Inline message translation is being rolled out by default for your organization.</span></span> <span data-ttu-id="780f0-106">如果你希望允许用户在 Teams 客户端中使用此功能，必须使用 PowerShell 开启此设置。</span><span class="sxs-lookup"><span data-stu-id="780f0-106">If you want to allow users to use this feature within the Teams client, you must turn this setting on by using PowerShell.</span></span> <span data-ttu-id="780f0-107">当前，Microsoft Teams 和 Skype for Business 管理中心中未提供此选项，但不久将会提供。</span><span class="sxs-lookup"><span data-stu-id="780f0-107">Currently, this option is not available in the Microsoft Teams and Skype for Business Admin Center, but will be soon.</span></span>
 
 > [!NOTE]
-><span data-ttu-id="0d69f-116">翻译严格的客户端，已在合规性的记录中捕获内容没有影响。</span><span class="sxs-lookup"><span data-stu-id="0d69f-116">Translation is strictly client-side and has no effect on the content captured in the compliance records.</span></span> <span data-ttu-id="0d69f-117">若要了解有关转换的详细信息，请参阅[Microsoft translator （英文） 是什么？](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)。</span><span class="sxs-lookup"><span data-stu-id="0d69f-117">To learn more about translation, see [What is Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).</span></span>
+><span data-ttu-id="780f0-108">对于 Office 365 政府版社区云和 Office 365 Germany 环境中的 Office 365 订阅，不会进行此部署。</span><span class="sxs-lookup"><span data-stu-id="780f0-108">This rollout is excluded from Office 365 subscriptions in our Office 365 Government Community Cloud and Office 365 Germany environments.</span></span> 
+
+## <a name="enable-by-using-powershell"></a><span data-ttu-id="780f0-109">使用 PowerShell 进行启用</span><span class="sxs-lookup"><span data-stu-id="780f0-109">Enable or disable archiving by using Windows PowerShell</span></span>
+
+<span data-ttu-id="780f0-110">可以使用消息策略开启内联消息翻译功能。</span><span class="sxs-lookup"><span data-stu-id="780f0-110">You can turn on the inline message translation feature by using the Messaging Policy.</span></span> 
+
+1. <span data-ttu-id="780f0-111">使用 [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) cmdlet 开启该策略。</span><span class="sxs-lookup"><span data-stu-id="780f0-111">Turn on the policy by using the [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) cmdlet.</span></span>
+2. <span data-ttu-id="780f0-112">该策略将在几分钟后应用。</span><span class="sxs-lookup"><span data-stu-id="780f0-112">The policy takes a few minutes to apply.</span></span> <span data-ttu-id="780f0-113">用户可能需要注销并重新登录 Teams。</span><span class="sxs-lookup"><span data-stu-id="780f0-113">Users might need to sign out and sign back in to Teams.</span></span>
+
+## <a name="enable-by-using-the-teams-admin-center"></a><span data-ttu-id="780f0-114">使用 Teams 管理中心进行启用</span><span class="sxs-lookup"><span data-stu-id="780f0-114">Enable by using the Teams Admin Center</span></span>
+
+<span data-ttu-id="780f0-115">即将提供用于使用 Teams 管理中心开启内联消息翻译功能的选项。</span><span class="sxs-lookup"><span data-stu-id="780f0-115">The option to turn on the inline message translation feature by using the Teams Admin Center is coming soon.</span></span>
+
+> [!NOTE]
+><span data-ttu-id="780f0-116">翻译是完全在客户端上运行的，对在合规性记录中捕获的内容没有任何影响。</span><span class="sxs-lookup"><span data-stu-id="780f0-116">Translation is strictly client-side and has no effect on the content captured in the compliance records.</span></span> <span data-ttu-id="780f0-117">要详细了解翻译，请参阅[什么是 Microsoft Translator？](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)</span><span class="sxs-lookup"><span data-stu-id="780f0-117">To learn more about translation, see [What is Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).</span></span>

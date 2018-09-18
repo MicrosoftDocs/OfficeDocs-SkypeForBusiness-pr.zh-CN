@@ -1,28 +1,28 @@
 ---
-title: 可帮助 Microsoft 团队部署的 PowerShell 脚本示例-清理
+title: PowerShell 脚本示例 - 帮助清理 Microsoft Teams 部署
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
-description: 使用此 PowerShell 脚本在目标计算机上或特定用户的 Microsoft 团队清理。
+description: 可使用此 PowerShell 脚本在目标计算机上或针对特定用户清理 Microsoft Teams。
 localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 ms.openlocfilehash: 9b95ca42e1f110b72d092ada65b2d672627fac4f
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23887279"
 ---
-<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="fcc71-103">PowerShell 脚本示例-Microsoft 团队部署清理</span><span class="sxs-lookup"><span data-stu-id="fcc71-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
+<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="0daf7-103">PowerShell 脚本示例 - 清理 Microsoft Teams 部署</span><span class="sxs-lookup"><span data-stu-id="0daf7-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
 -------------------------------------------------------------------------
 
-<span data-ttu-id="fcc71-104">可以从目标计算机或用户的 Microsoft 团队清理利用此 PowerShell 脚本。</span><span class="sxs-lookup"><span data-stu-id="fcc71-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="fcc71-105">它应执行的目标计算机上的每个用户。</span><span class="sxs-lookup"><span data-stu-id="fcc71-105">It should be executed for every user on a targeted machine.</span></span> 
+<span data-ttu-id="0daf7-104">可利用此 PowerShell 脚本在目标计算机上或针对用户清理 Microsoft Teams。</span><span class="sxs-lookup"><span data-stu-id="0daf7-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="0daf7-105">应在目标计算机上针对每个用户执行此脚本。</span><span class="sxs-lookup"><span data-stu-id="0daf7-105">It should be executed for every user on a targeted machine.</span></span> 
 
 
-## <a name="sample-script"></a><span data-ttu-id="fcc71-106">示例脚本</span><span class="sxs-lookup"><span data-stu-id="fcc71-106">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="0daf7-106">示例脚本</span><span class="sxs-lookup"><span data-stu-id="0daf7-106">Sample script</span></span>
 
 ````powershell
 <#
