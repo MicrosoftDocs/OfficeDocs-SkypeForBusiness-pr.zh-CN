@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2012322b4707d4f581e4a1ff3798674b976963a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 65ad125380a60116592a68eeac466c46d7daa723
+ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892639"
+ms.lasthandoff: 09/18/2018
+ms.locfileid: "23998989"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -71,6 +71,7 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 
 如果无法让团队会议外接程序 Outlook 安装，请尝试以下疑难解答步骤。
 
+- 确保已应用 Outlook 桌面客户端的所有可用更新 
 - 重新启动团队桌面客户端。
 - 注销并重新登录到团队桌面客户端。
 - 重新启动 Outlook 桌面客户端。 （确保 Outlook 没有运行管理员模式中。）

@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1028f599b3b5cacf23fa920b85c42cf8a5bd4673
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: bfd2c7efd606a143fffca25c7379f2a29bf505da
+ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884232"
+ms.lasthandoff: 09/18/2018
+ms.locfileid: "23999021"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>使用团队一起 Skype for Business 的组织的迁移和互操作性指南
 
@@ -63,15 +63,14 @@ ms.locfileid: "23884232"
 
 5.  适用于业务用户之间团队和 Skype 的互操作才可能*如果团队用户联机驻留在 for Business 的 Skype*。 Skype 可以位于企业用户是本地 （和需要业务混合配置 Skype） 或联机。 位于业务本地 Skype 的用户可以使用团队群岛模式 （定义此文档中的更高版本），但不是能使用互操作的团队或 for Business 使用 Skype 的其他用户与联盟。  
 
-6.  升级到团队的用户 (即，向其授予与模式 TeamsUpgradePolicy = TeamsOnly)，用户必须联机驻留在 for Business 的 Skype。 这是确保互操作、 联盟和团队用户的完整管理所需的。 若要升级用户都驻留在内部部署，使用`Move-CsUser`从内部部署管理工具到第一次移动用户对 Skype 业务 online。 然后 TeamsUpgradePolicy 和 TeamsInteropPolicy 授予联机用户或使用现代门户分配 TeamsOnly 模式。
+6.  升级到团队的用户 (即，向其授予与模式 TeamsUpgradePolicy = TeamsOnly)，用户必须联机驻留在 for Business 的 Skype。 这是确保互操作、 联盟和团队用户的完整管理所需的。 若要升级用户都驻留在内部部署，使用`Move-CsUser`从内部部署管理工具到第一次移动用户对 Skype 业务 online。 然后 TeamsUpgradePolicy 和 TeamsInteropPolicy 授予联机用户或使用现代门户分配 TeamsOnly 模式。 一次的业务服务器 2015年一起提供的 Skype CU8，客户可以只使用新`-MoveToTeams`中切换`Move-CsUser`其结合使用，这 2 个步骤 1 到。
 
 7.  管理升级和互操作的核心策略是 TeamsUpgradePolicy 和 TeamsInteropPolicy。  但是，TeamsInteropPolicy 正在被停用，并且将被 TeamsUpgradePolicy 取代的所有功能。 转换已完成，直到客户必须设置 TeamsUpgradePolicy 和 TeamsInteropPolicy 一致 （作为介绍[更高版本](#important)中） 以确保正常运行，或使用新的现代门户，自动执行此操作。
 
 8.  若要使用团队电话系统功能，用户必须是在 TeamsOnly 模式 （即，业务 online 驻留在 Skype 和升级到团队） 中，和它们也必须配置为 Microsoft 电话系统直接路由 （这样便可以使用您自己的 SIP 电话系统中继和 SBC） 或 Office 365 调用规划。 [通常可用](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277)截止 2018 年 6 月 28，直接路由。  
 
-9.  安排音频会议的团队会议 （电话拨入式或通过 PSTN 电话拨出） 是当前仅适用于位于 Skype 业务 online 的用户。 计划支持团队用户与内部部署 Skype 业务帐户。
+9.  安排音频会议的团队会议 （电话拨入式或通过 PSTN 电话拨出） 是当前仅适用于位于 Skype 业务 online 的用户。 与业务帐户在本地 Skype 支持团队用户正在点击。
 
-10. 邮件路由尚未启用统一状态服务 (UPS) 的组织不服从 TeamsInteropPolicy (ChatDefaultClient) 或 TeamsUpgradePolicy （模式）。 在下一步的几周内完成 UPS 推出，将有效 TeamsInteropPolicy 或 TeamsUpgradePolicy。 最终仅 TeamsUpgradePolicy 将起作用。
 
 ## <a name="coexistence-modes"></a>共存模式
 
@@ -165,7 +164,7 @@ TeamsUpgradePolicy 现在公开三个属性。 主属性是模式和 NotifySfbUs
 
 ## <a name="federation-considerations"></a>联合身份验证的注意事项
 
-从工作组 for Business 使用 Skype 的另一个用户的联盟要求 for Business 的 Skype 联机托管团队用户。 试用和逐渐成为可用中联合身份验证。 如果组织需要联合身份验证，则不应升级直到联合身份验证支持就地。 最终，用户驻留在 Skype 的业务本地团队都将能够与其他团队用户联盟。
+从工作组 for Business 使用 Skype 的另一个用户的联盟要求 for Business 的 Skype 联机托管团队用户。 最终，用户驻留在 Skype 的业务本地团队都将能够与其他团队用户联盟。
 
 启用联盟支持后，TeamsUpgradePolicy （以及转换期间 TeamsInteropPolicy) 控制传入的联盟的聊天和呼叫路由。 为了方便启动与您的组织中的用户的联盟的通信其他组织，建议选择专门路由之一模式到业务或团队，而群岛 Skype。
 </br>
@@ -267,10 +266,6 @@ TeamsUpgradePolicy 现在公开三个属性。 主属性是模式和 NotifySfbUs
 |**状态**|点击客户立即看到管理体验中的三种模式 支持更改 #1 领土，如将进行其他模式可用。 SfBOnly 模式不当前阻止用户使用团队，但它将在将来。 |
 |||
 
-## <a name="known-issues"></a>已知的问题
-
-- 在工作组中创建新的对话时, 聊天不尚未遵守 TeamsUpgradePolicy 或 TeamsInteropPolicy 的目标用户。 计划修复。
-- 在 Skype for Business 中创建新的对话时, 聊天不尚未遵守 TeamsUpgradePolicy 或 TeamsInteropPolicy 如果组织不启用消息 UPS/互操作。
 
 ## <a name="related-topics"></a>相关主题
 
