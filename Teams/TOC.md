@@ -328,7 +328,6 @@
 #### [音频会议常见问题](audio-conferencing-common-questions.md)
 #### [音频会议按分钟付费](audio-conferencing-pay-per-minute.md)
 #### [音频会议支持的语言](audio-conferencing-supported-languages.md)
-#### [音频会议故障排除和已知问题](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [更改音频会议网桥的设置](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [更改音频会议网桥的电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 #### [从会议拨出，以便其他人可以加入会议](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
@@ -473,7 +472,7 @@
 #### [监视和故障排除直接路由](direct-routing-monitor-and-troubleshoot.md)
 #### [使用 PSTN 连接的混合环境中的用户帐户](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [为多个租户配置会话边界控制器](direct-routing-sbc-multiple-tenants.md)
-#### [认证的直接路由的会话边界控制器的列表](direct-routing-border-controllers.md)
+#### [经认证可用于直接路由的会话边界控制器列表](direct-routing-border-controllers.md)
 ### [Online 的 Microsoft 团队呼叫流](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 

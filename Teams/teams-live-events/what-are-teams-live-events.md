@@ -10,12 +10,12 @@ search.appverid: MET150
 description: 了解如何 Live 事件使用户能够广播视频和 Microsoft 团队、 Yammer 和 Microsoft 流中的大型联机访问群体的内容。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fb22c259e97e27aa45d4874bc95aef7962c6024
-ms.sourcegitcommit: 53089c4c9bdf219f02eae2827432a4f40eaa9cd5
+ms.openlocfilehash: b99bd690bf504645d2967dbab31c3f58fc50fd92
+ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23893705"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "23999241"
 ---
 # <a name="what-are-teams-live-events"></a>什么是团队 live 事件？
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -67,7 +67,7 @@ ECDN 的目标是从 internet 视频内容并不会影响网络性能分布在�
 以下必备组件所需的用户安排的团队 live 事件。
 
 下面是必须分配的许可证：  
-- Office 365 企业版 E3 或 E5 的许可证。 
+- Office 365 企业版 E1、 E3 或 E5 许可证或 Office 365 A3 或 A5 许可证。 
 - Microsoft 工作组和 Skype for Business，以及 Microsoft 流许可证。
 
 务必要了解 Office 365 许可证需要参与作为经过身份验证的用户的实时事件，但这取决于所使用的生产方法：
@@ -353,7 +353,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 - [Microsoft 流管理中心](https://stream.microsoft.com)
 - [远程 Windows PowerShell](https://technet.microsoft.com/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_RemoteWindowsPowerShell)
 
-### <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
+### <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 当谈到 Windows PowerShell，它的所有有关管理用户和用户允许或不允许执行的操作。 使用 Windows PowerShell，您可以管理 Office 365 和 Skype 业务 online 使用单点具有多个要执行的任务时，可以简化您的日常工作的管理。 若要开始使用 Windows PowerShell，请参阅下列主题：
  - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
  - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
