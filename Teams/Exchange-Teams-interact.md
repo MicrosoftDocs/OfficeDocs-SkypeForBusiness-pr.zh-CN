@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4c3f795df06735c735ac29b6f46c6c8d8e9d46c
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: a422cb18cf6105ead7f0a76096a6cb5a755a1906
+ms.sourcegitcommit: 8537814aabddd7e7a6d1148c8c71ea14ae0c499a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937863"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24009042"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互 
 =========================================
@@ -33,14 +33,16 @@ ms.locfileid: "23937863"
 
 **支持的操作：** 
 
-| 用户的邮箱托管在： | eDisovery| 法定保留 | 保留| 团队和频道的管理 |创建和查看会议| 修改用户个人资料图片 | 呼叫历史记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件 |添加和配置连接器|添加和配置选项卡|添加和配置聊天机器人| 
+| 用户的邮箱托管在： | 电子数据展示| 法定保留 | 保留| 团队和频道的管理 |创建和查看会议| 修改用户个人资料图片 | 呼叫历史记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件 |添加和配置连接器|添加和配置选项卡|添加和配置聊天机器人| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|是|是|是|是|是|是|是|是|是|是|是|是|是|
-|**Exchange Online Dedicated vNext**|是|是|是|是|是|是|是|是|是|是|是|是|是|
-|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是 （[允许列表](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)）|否|否|是|否|否|是|是|否|否|否|是|是|
-|**本地 Exchange**（同步到所需 Azure AD）|是 （[允许列表](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)）|否|否|是|是 （Exchange 2016 CU3 +）|否|是|是|否|否|否|否|是|
+|**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是|是|是|是|是|是|是|是|
+|**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是|是|是|是|是|是|是|是|
+|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是 （[允许列表](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)）<sup>2</sup>|是<sup>2，3</sup>|否|是|否|否|是|是|否|否|否|是|是|
+|**本地 Exchange**（同步到所需 Azure AD）|是 （[允许列表](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)）<sup>2</sup>|是<sup>2，3</sup>|否|是|是 （Exchange 2016 CU3 +）|否|是|是|否|否|否|否|是|
                                                             
-*\*支持 Exchange 2016 CU3 及更高版本*
+<sup>1</sup> exchange 2016 CU3 和上方支持  
+<sup>2</sup>电子数据展示和合规性上通道消息的法律挂起支持所有承载选项。  
+<sup>3</sup>团队专用聊天消息是尚不支持的法律挂起对此托管选项。
 
 其他信息：
 
@@ -55,6 +57,8 @@ ms.locfileid: "23937863"
 -   必须为用户启用 Office 365 组创建，用户才能在 Microsoft Teams 中创建团队。
 
 -   在 Microsoft Teams 中，安全性和合规性功能（例如，电子数据展示、内容搜索、存档和法定保留）在 Exchange Online 和 SharePoint Online 环境中完全正常。 对于频道对话，消息会记录到 Exchange Online 中的组邮箱，它们在此可用于电子数据展示。 如果在组织中为用户启用了 SharePoint Online 和 OneDrive for Business（使用工作帐户或学校帐户），也可以对 Teams 中的所有文件使用这些合规性功能。
+
+-   对于 Exchange 内部部署 （混合部署中），您需要[Exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)中所述配置 OAuth。 
 
 > [!NOTE]
 > 当前，如果贵组织具有合规性要求以确保所有会议讨论均可发现，当组织者有本地 Exchange 邮箱时，你应禁用私人会议。
