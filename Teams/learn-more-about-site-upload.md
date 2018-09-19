@@ -1,9 +1,8 @@
 ---
-title: 了解有关网站上载
+title: 添加和更新位置数据
 author: tonysmit
 ms.author: lolaj
 manager: serdars
-ms.date: 09/11/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,14 +14,45 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8371ffa48c944fbfdb1edb73ff0f3ed8ea6a529
-ms.sourcegitcommit: b3304459b4ac19d0782982d8e975202decfac4d5
+ms.openlocfilehash: 4d1f66c9787cb64a3026f3783b3f5de884f86a1d
+ms.sourcegitcommit: a9bf4de79c84d239488455575322188a03535f71
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "23949863"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24013520"
 ---
-<a name="learn-more-about-site-upload"></a>了解有关网站上载 
+<a name="adding-and-updating-locations-data"></a>添加和更新位置数据
 ============================
 
-我们正在对此内容。
+您的组织中使用的位置用于指示办公室、 建筑或组织的网站的物理位置。 位置页使管理员能够提供一个文本文件 （.csv 或.tsv） 包含列表的物理位置和其关联的网络子网。 此文件用于通过调用分析和呼叫质量仪表板生成报告。 当客户上载其子网映射时，提供这些服务的报告将包含位置名称也进行了报告更轻松地了解和使用的补救存在任何潜在问题。
+
+您提供的位置数据是单个数据结构 – 当前没有可用于对位置数据进行单个编辑界面。 
+
+**若要编辑的子网和位置表**
+
+1. 单击**替换位置数据**。
+2. 在**替换位置数据**窗格中，单击**选择文件**，然后浏览到，并上载您的已编辑的.csv 或.tsv 文件。 
+3. 单击**上载**。 
+
+
+您可以下载示例模板[此处](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.tsv?raw=true)。
+
+您可以使用下面的示例来帮助创建数据文件。 
+
+> [!IMPORTANT]
+> 数据文件不应包含 （如网络、 网络名称等） 的列标题。 这些仅作说明用途此处使用。 </br>
+
+|网络|网络名称|网络范围|构建名称|所有权类型|构建基类型|构建 Office 类型|城市|邮政编码|国家/地区|省/市/自治区|区域|内部 Corp|Express 路由|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso 租用 re&f|办公室|Re&f|山地视图|94043|我们|CA|我们|1|1|
+|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso 租用 re&f|办公室|Re&f|山地视图|94043|我们|CA|我们|1|1|
+|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso 租用 re&f|办公室|Re&f|山地视图|94043|我们|CA|我们|1|1|
+|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso 租用 re&f|办公室|Re&f|山地视图|94043|我们|CA|我们|1|1|
+
+
+有关格式化数据文件的详细信息，请参阅[租户数据文件格式和构建数据文件结构](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-building-data-file-structure)。
+
+
+## <a name="related-topics"></a>相关主题
+
+[设置呼叫分析](set-up-call-analytics.md)
