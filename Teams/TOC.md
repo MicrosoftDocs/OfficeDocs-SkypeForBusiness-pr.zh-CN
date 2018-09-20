@@ -30,6 +30,8 @@
 
 ## [Teams 部署概述](deployment-overview.md)
 ## [管理对 Teams 的用户访问](user-access.md)
+## [使用 Microsoft 团队管理员角色可以管理团队](using-admin-roles.md)
+## [团队 PowerShell 概述 （英文)](teams-powershell-overview.md)
 ## [获取 Teams 的客户端](get-clients.md)
 ### [团队应用程序的硬件要求](hardware-requirements-for-the-teams-app.md)
 ### [安装团队使用 MSI](msi-deployment.md)
@@ -38,7 +40,7 @@
 ## [在您的组织中启用团队](Office-365-set-up.md)
 ## [管理组织中的团队功能](enable-features-office-365.md)
 ### [转换为新的 Microsoft 团队和业务管理中心的 Skype 的过程管理团队](manage-teams-skypeforbusiness-admin-center.md)
-### [在 Teams 中分配角色和权限](assign-roles-permissions.md)
+### [分配团队所有者和团队中的成员](assign-roles-permissions.md)
 ### [将应用程序发布到团队租户的应用程序目录](tenant-apps-catalog-teams.md)
 ### [Skype 会议应用程序使用团队配置](configure-skype-meetings-app-to-work-with-teams.md)
 ## [现代身份验证](sign-in-teams.md)
