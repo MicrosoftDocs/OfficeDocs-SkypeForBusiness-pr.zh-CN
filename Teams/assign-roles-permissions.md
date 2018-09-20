@@ -1,9 +1,9 @@
 ---
-title: 在 Microsoft Teams 中分配角色和权限
+title: 分配团队所有者和中的 Microsoft 团队的成员
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 08/27/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
@@ -13,20 +13,20 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da4bae93a35775141c246145e1375e73963ec120
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a2fd9f611d616f368973ced432e886bf4ba9d8f5
+ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892695"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24021807"
 ---
-<a name="assign-roles-and-permissions-in-microsoft-teams"></a>在 Microsoft Teams 中分配角色和权限
-===============================================
+<a name="assign-team-owners-and-members-in-microsoft-teams"></a>分配团队所有者和中的 Microsoft 团队的成员
+=================================================
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-在 Microsoft Teams 中有两种角色：**所有者**和**成员**。 默认情况下，会为创建新团队的用户授予所有者状态。 如果团队是从现有 Office 365 组创建的，则将继承权限。
+Microsoft 团队中有两个用户角色：**所有者**和**成员**。 默认情况下，创建新的工作组的用户被授予所有者状态。 如果团队是从现有 Office 365 组创建的，则将继承权限。
 
 下表显示了所有者与成员之间的权限差异：
 
@@ -43,7 +43,7 @@ ms.locfileid: "23892695"
 |**添加选项卡**      |是         |是*         |
 |**添加连接器**      |是         |是*         |
 |**添加聊天机器人**      |是         |是*         |
-\* 所有者可以在团队级别关闭这些项，这样成员将无权访问相应项。
+\*这些项可以关闭所有者在团队级别中，在这种情况下成员不会对它们的访问。
 
 \*\*向团队添加成员后，所有者也可以将成员提升到所有者状态。 此外，所有者也可以将自己的状态降级为成员。
 
