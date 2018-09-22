@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解如何将紧急地址添加到 Skype for Business 帐户。 '
-ms.openlocfilehash: e89942cc53bbe82898851ab744f8ba387ea5c31d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 06cd8202198b49efbf2c478e233865a681d2ce34
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882160"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958178"
 ---
 # <a name="add-or-remove-an-emergency-address-for-your-organization"></a>为你的组织添加或删除紧急地址
 
@@ -76,7 +76,7 @@ ms.locfileid: "23882160"
 
 [紧急呼叫条款和条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

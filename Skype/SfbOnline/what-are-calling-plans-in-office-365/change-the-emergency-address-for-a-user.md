@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '请参阅有关如何更改用户的美国和欧洲的公共公用电话交换网 (PSTN) 紧急地址的步骤。 '
-ms.openlocfilehash: dad05a0ea42e6007e96b34ce5e0881fa6b427b8f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 31162e24471cb4e9259678f779143900fa61ac08
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881896"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958348"
 ---
 # <a name="change-the-emergency-address-for-a-user"></a>更改用户的紧急地址
 
@@ -71,7 +71,7 @@ ms.locfileid: "23881896"
 
 [紧急呼叫条款和条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

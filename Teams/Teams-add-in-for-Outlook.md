@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65ad125380a60116592a68eeac466c46d7daa723
-ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
+ms.openlocfilehash: 07cc04f47da980bfb5a637c1cfe6bc2b72a26f8f
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2018
-ms.locfileid: "23998989"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967356"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -48,9 +48,9 @@ Teams 会议外接程序要求用户使用新式身份验证登录 Teams。 如�
 
 ## <a name="enable-private-meetings"></a>启用私人会议
 
-必须在 [Office 365 管理中心](https://portal.office.com/adminportal/home)中启用“允许安排私人会议”，才能部署该插件。
+允许中团队业务管理中心此插件的 Skype 获取部署必须启用专用会议计划。 在管理中心，转到**会议** > **会议策略**，并在**常规**部分，为切换**允许安排专用会议**。)
 
-![Office 365 管理中心中“通话和会议”部分中设置的屏幕截图。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
+![Skype 业务管理中心的团队中的设置的屏幕截图。](media/teams-add-in-for-outlook-image1.png)
 
 Teams 客户端通过确定用户需要 32 位还是 64 位版本来安装正确的外接程序。
 

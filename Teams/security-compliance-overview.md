@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc686b520c9bd765539ff5fd9f636bc876583a41
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: 331e4d600c26123079315a77d5d99f17496c12a9
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937895"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967428"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和合规性概述
 ======================================================
@@ -31,15 +31,15 @@ Teams 在上市时符合 Tier C 标准。 这包括以下标准：ISO 27001、IS
 
 Teams 还强制执行团队范围和组织范围的双重身份验证、通过 Active Directory 进行单一登录以及对正在传输的数据和静态数据加密。 文件存储在 SharePoint 中，并会进行 SharePoint 加密。 笔记存储在 OneNote 中，并会进行 OneNote 加密。 工作组 SharePoint 网站中存储的 OneNote 数据。 Wiki 选项卡可以还用于笔记记录和团队 SharePoint 网站中还存储它的内容。
 
-我们还增加了以下支持：审核日志搜索、针对频道、聊天和文件的电子数据展示和法定保留，以及通过 Microsoft Intune 进行移动应用管理。 转到 Office 365 安全性和合规性中心管理这些设置。 
+我们还增加了以下支持：审核日志搜索、针对频道、聊天和文件的电子数据展示和法定保留，以及通过 Microsoft Intune 进行移动应用管理。 转到 Office 365 安全性和合规性中心，来管理这些设置。 
 
 ## <a name="auditing-and-reporting"></a>审核和报告
 
-审核日志搜索置于 Office 365 安全性和合规性中心中，进而可以通过提供审核日志数据对审核事件设置警报和/或进行报告，能够导出工作负荷特定或一般事件集以用于管理和调查，审核时间线无限制。 所有审核日志数据可用于在 Office 365 安全性和合规性中心中设置警报，以及用于筛选和报告以供进一步分析。 请参阅此[链接](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)可了解有关如何进行审核日志搜索的 Office 365 安全性和合规性中心中的 Microsoft 团队事件详细信息。 
+审核日志搜索插入到 Office 365 安全性和合规性中心的权限，并公开能力设置通知和/或导出的工作负荷特定或泛型事件设置用于管理使用和调查，跨报告使可用，审核事件不受限制的审核时间线。 审核日志的所有数据提供有关在 Office 365 安全性和合规性中心中的通知的设置以及筛选和导出供进一步分析。 请参阅此[链接](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)可了解有关如何进行审核日志搜索的 Office 365 安全性和合规性中心中的 Microsoft 团队事件详细信息。 
 
 ## <a name="compliance-content-search"></a>合规性内容搜索
 
-内容搜索可以用于通过筛选功能的富所有团队数据都搜索和导出到特定合规性和诉讼支持的容器。 在有无电子数据展示案例的情况下，均可执行此操作。 这样，合规性管理员可以跨所有用户收集团队数据、 查看和导出进行进一步处理。 请参阅此[链接](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)可了解有关如何执行合规性内容搜索中的 Office 365 安全性和合规性中心的 Microsoft 团队内容的详细信息。 
+内容搜索可以用于通过筛选功能的富所有团队数据都搜索和导出到特定合规性和诉讼支持的容器。 在有无电子数据展示案例的情况下，均可执行此操作。 这样，合规性管理员可以跨所有用户收集团队数据、 查看和导出进行进一步处理。 请参阅此[链接](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)可了解有关如何管理 Office 365 安全性和合规性中心中的 Microsoft 团队内容法规遵从性内容搜索。 
 
 提示： 可以使用 kind MicrosoftTeams 进行筛选，通过仅内容的 Microsoft 团队即聊天和通道消息、 会议和呼叫。 
 
@@ -47,7 +47,7 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 电子数据展示是为了回应法律诉讼或调查中提供文件的要求而找出、收集和生成电子方式存储的信息 (ESI) 的电子操作过程。 功能包括案例管理、 保留、 搜索、 分析和团队数据导出。 这包括聊天、 消息和文件、 会议和呼叫摘要。 有关创建和电子数据展示中可用团队会议和呼叫、 会议和呼叫中发生事件的摘要。 
 
-有关如何执行操作安全和合规性中心和运行合规性内容搜索团队内容中的电子数据展示的详细信息，请转到以下链接： 
+有关如何执行电子数据展示中安全性和合规性中心和运行团队内容法规遵从性内容搜索的详细信息，请转到以下链接： 
 
 [电子数据展示](https://support.office.com/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e) 
 
@@ -87,9 +87,9 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 ## <a name="retention-policies"></a>保留策略
 
-团队对话是永久性的且保留默认情况下不限次数。 保留策略的引入，管理员可以在团队聊天和频道邮件的安全和合规性中心中配置保留策略 （保留和删除）。 这有助于组织保留特定时间段法规遵从性 （即保留策略） 的数据，或者如果认为是责任特定的一段时间后删除的数据 （即，删除策略）。 团队保留策略确保删除数据时，它从删除所有团队服务上的永久数据存储位置。 
+团队对话是永久性的且保留默认情况下不限次数。 保留策略的引入，管理员可以在安全性和合规性中心配置保留策略 （保留和删除），团队聊天和频道邮件。 这有助于组织保留特定时间段法规遵从性 （即保留策略） 的数据，或者如果认为是责任特定的一段时间后删除的数据 （即，删除策略）。 团队保留策略确保删除数据时，它从删除所有团队服务上的永久数据存储位置。 
 
-若要管理团队保留策略的工作原理使用的设置和 cmdlet 在下**数据管理**的 Office 365 安全性和合规性中心 > **保留**。
+若要管理团队保留策略，请使用的设置和 Office 365 安全性和合规性中心下**数据调控**中的 cmdlet > **保留**。
 
 支持团队保留策略： 
     
@@ -102,7 +102,7 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 - 高级的保留策略不适用于团队聊天和团队通道消息位置
 - 少于 30 天的持续时间
 
-管理员可以设置团队专用聊天 （1:1 或一对多聊天） 和团队通道消息的独立的保留策略。 在许多情况下，组织考虑为多个比通道消息，通常是与项目相关的更多对话责任的私人聊天数据。 这些策略设置中的安全性和合规性中心，**数据调控** > **保留**。 打开**团队通道消息**和**团队聊天**，然后定义 （还如下图中所示） 这些位置的保留策略。 
+管理员可以设置团队专用聊天 （1:1 或一对多聊天） 和团队通道消息的独立的保留策略。 在许多情况下，组织考虑为多个比通道消息，通常是与项目相关的更多对话责任的私人聊天数据。 安全性和合规性中心、**数据调控**中设置这些策略 > **保留**。 打开**团队通道消息**和**团队聊天**，然后定义 （还如下图中所示） 这些位置的保留策略。 
 
 当您打开**团队通道消息**时，您可以指定此策略将应用于哪个团队。 例如，团队 X、 Y、 和 Z，管理员可以 1 年后删除策略设置 （通过单独选择这些团队），并将 3 年删除策略应用于工作组的其余部分。 
 
@@ -129,7 +129,7 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 ### <a name="what-types-of-policies-can-i-setup-in-retention-policies-and-how-do-they-work"></a>哪些类型的策略我可以安装在保留策略和它们是如何工作？
 
-在安全和合规性中心中，工作组或任何其他工作负荷，设置的保留策略时您可以设置策略的两种主要类型： 
+在 SSecurity 和合规性中心中，工作组或任何其他工作负荷，设置的保留策略时您可以设置策略的两种主要类型： 
 - 保留： 这些策略确保您的数据保留给定时间段的时间，无论在最终用户工具会发生什么情况。 他们确保数据保留出于合规性和电子数据展示，直到这次中可用的过期。 时间过后，您的策略可以指明是否不执行任何操作或删除的数据。 在工作组，如果您为 7 年创建保留策略，即使最终用户删除其团队邮件，这些消息仍保留电子数据展示的 7 年。
 - 删除： 这些策略确保数据不为您的组织的责任。 指定的持续时间后从团队中的所有相关存储删除数据。 
 
@@ -161,7 +161,7 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 ### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>怎么办？ 这些通过安全性和合规性中心 cmdlet 我应使用什么？ 
 
-绝对。 您可以创建使用[安全性和合规性中心 Powershell cmdlet]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)的团队保留策略。 请记住这些不是 Exchange Online cmdlet。 以下是我们创建团队的 cmdlet。 它们从保留中安全性和合规性中心目前 cmdlet 按照现有术语和样式。
+绝对。 您可以创建使用[安全性和合规性中心 Powershell cmdlet]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)的团队保留策略。 请记住这些不是 Exchange Online cmdlet。 以下是我们创建团队的 cmdlet。 他们遵循现有术语和样式从目前可保留 cmdlet 在安全性和合规性中心。
 
 |策略|规则|
 |---|---|
@@ -217,7 +217,7 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 |![决策点图标。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |决策点         |贵组织是否有所需的许可证来满足合规性和安全性业务需求？         |
 |![后续步骤图标。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |后续步骤         |查看贵组织的当前许可，并确认它满足合规性和安全性的所有业务要求。         |
 
-在启用其中任何功能之前，请确保你有权访问 Office 365 管理中心中的安全性和合规性中心。 默认情况下，租户管理员有访问权限。
+然后再启用这些功能，确保 Office 365 管理中心中有权访问安全性和合规性中心。 默认情况下，租户管理员有访问权限。
 
 内容搜索和电子数据展示不需要启用中安全性和合规性中心。
 
@@ -235,9 +235,9 @@ Teams 中的数据位于与你的 Office 365 租户关联的地理区域。 目�
 
 若要了解有关团队澳大利亚和日本数据住所的启动的详细信息，请阅读 Varun Sagar 博客文章， [Microsoft 团队启动澳大利亚和日本数据居住权](https://go.microsoft.com/fwlink/?linkid=867773)。 
 
-要查看哪些区域托管你的租户数据，请转到 [Office 365 管理中心](https://portal.office.com/adminportal/home) > “**设置**” > “**组织配置文件**”。 向下滚动到“**数据位置**”。 
+若要查看的区域存储租户数据，转到[Office 365 管理中心](https://portal.office.com/adminportal/home) > **设置** > **组织配置文件**。 向下滚动到“**数据位置**”。 
 
-![Office 365 管理中心中“数据位置”表（包括 Teams）的屏幕截图。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+![团队，包括 Office 365 管理中心中的数据位置表的屏幕截图。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
 <a name="how-do-conditional-access-policies-work-for-teams"></a>条件访问策略团队如何工作？
 -------------------------

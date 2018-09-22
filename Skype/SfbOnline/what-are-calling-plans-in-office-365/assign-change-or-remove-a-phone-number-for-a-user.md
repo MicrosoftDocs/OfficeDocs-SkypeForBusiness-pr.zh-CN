@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 了解如何给 Skype for Business 用户分配、更改或删除工作电话号码，以便外部业务和客户能呼入。
-ms.openlocfilehash: 4bc70c327330a4d52bcd0c712ce44d237dde02e0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 17cb05a4d9982981e65b5919a868979fca1a1aa2
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890008"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958118"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>为用户分配、更改或删除电话号码
 
@@ -104,7 +104,7 @@ ms.locfileid: "23890008"
     
 8. 要更改的相关联的紧急地址，请单击**更改位置**，然后下**更改紧急地址**，或者位置从列表中选择或者，如果您有多个定义的位置，在搜索框中输入市/县的名称，然后单击**搜索**。
     
-9. 单击" **保存**"。
+9. 单击“**保存**”。
     
 
 
@@ -132,7 +132,7 @@ ms.locfileid: "23890008"
 
 [紧急呼叫条款和条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

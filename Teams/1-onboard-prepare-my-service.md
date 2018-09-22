@@ -3,7 +3,7 @@ title: 准备部署的 Microsoft 团队云语音服务
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 06/07/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bf138a4d79fc6fd3533de381a538c88b646db55
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b3191280621e9e8339bf1716e5eafd274170fd6b
+ms.sourcegitcommit: 43bb1c1355193809c4f297d3dcb535c8b8d5d527
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882224"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24062007"
 ---
 # <a name="prepare-my-service"></a>准备我的服务
 
@@ -50,7 +50,7 @@ ms.locfileid: "23882224"
 按每个站点的入职培训用户时，我们强烈建议[语音设置 （方案） 的网站启用设置方案](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)使用这些清单的补充指南作为。
 
 >[!NOTE]
->常见团队和 Skype 业务 online 之间了大部分的配置设置。 使用 Office 365 Skype for Business 管理中心配置这些设置。
+>常见团队和 Skype 业务 online 之间了大部分的配置设置。 使用 Office 365 管理中心和团队和业务管理中心的 Skype 配置这些设置。
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>谁将负责监督入职培训清单完成？</li></ul></td></tr>

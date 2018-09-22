@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '要放置 Skype for Business 中, 为公司内容，您可以找到。 '
-ms.openlocfilehash: 4de285245348d3ca57c3891496d2f0af848cadba
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 49b26c5fce7cd11ad5cb2cbdf15f32144198898f
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850028"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958328"
 ---
 # <a name="what-should-i-put-in-for-the-company-name"></a>我应该在公司名称中输入什么？
 
@@ -45,7 +45,7 @@ ms.locfileid: "23850028"
 
 [紧急呼叫条款和条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

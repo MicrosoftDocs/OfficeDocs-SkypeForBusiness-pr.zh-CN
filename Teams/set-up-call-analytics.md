@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 设置和使用调用分析确定并解决 Skype 的业务和 Microsoft 团队呼叫质量问题。
-ms.openlocfilehash: dfb21c852142b0ba6ec90d5c216ace0eecbf8003
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: de2484dac64623ed3f37c544877d48187f5ca5f9
+ms.sourcegitcommit: 63a560c05b4fa3bda3abc31ef5dffe60e61e4d67
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861972"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24961001"
 ---
 # <a name="set-up-call-analytics"></a>设置呼叫分析
 
@@ -71,11 +71,11 @@ ms.locfileid: "23861972"
     > [!NOTE]
     > 如果您使用的**Microsoft 团队和 Skype 的业务管理中心**，在左侧导航窗格中，单击**旧门户**。
   
-3. 在**调用分析 (preview)** 中，单击**权限**。
+3. 选择**工具** > **商业调用分析 （预览） 的 Skype** > **设置**，然后单击**权限**。
     
 4. 将 Office 365 安全组添加到**Tier 1**和**2 层**框中。 您可以将多个组添加到每个角色。
     
-     ![屏幕快照显示了调用分析页层 1 和 2 层权限的选项的权限。](media/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
+     ![屏幕快照显示了调用分析页层 1 和 2 层权限的选项的权限。](media/setup-call-analytics-image1.png)
   
  具有这些权限级别之一的用户获取对呼叫的分析通过专用 URL *https://adminportal.services.skypeforbusiness.com*。
   
