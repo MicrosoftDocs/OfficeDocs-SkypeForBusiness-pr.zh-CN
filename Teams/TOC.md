@@ -177,7 +177,7 @@
 ### [法国 Skype for Business Online 辅助功能解决方案](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## 团队和频道
 ### [Teams 中的团队和频道概述](teams-channels-overview.md)
-### [在 Teams 中分配角色和权限](assign-roles-permissions.md)
+### [分配团队所有者和中的 Microsoft 团队的成员](assign-roles-permissions.md)
 ### [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
 ### [教程：使用 PowerShell 创建公司范围的团队](company-wide-team-creation-powershell.yml)
 ## [来宾访问](guest-access.md)
@@ -203,6 +203,8 @@
 ### [团队云会议录制](cloud-recording.md)
 ### [在 Outlook 中使用 Teams 会议外接程序](teams-add-in-for-outlook.md)
 ### [设置会议迁移服务 (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [云视频互操作](cloud-video-interop.md)
+#### [设置云视频互操作](cloud-video-interop-for-teams-set-up.md)
 ### Live 事件
 #### [什么是团队 live 事件？](teams-live-events/what-are-teams-live-events.md)
 
@@ -465,8 +467,10 @@
 #### [语音邮件问候语和消息的语言](languages-for-voicemail-greetings-and-messages.md)
 #### [为用户设置来电显示](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [设置电话系统自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [实现示例-自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [设置电话系统语音邮件](set-up-phone-system-voicemail.md)
 #### [什么是电话系统自动助理？](what-are-phone-system-auto-attendants.md)
+#### [应答自动助理并直接从团队呼叫队列呼叫](answer-auto-attendant-and-call-queue-calls.md)
 ### 电话系统直接路由
 #### [规划直接路由](direct-routing-plan.md)
 #### [配置直接路由](direct-routing-configure.md)

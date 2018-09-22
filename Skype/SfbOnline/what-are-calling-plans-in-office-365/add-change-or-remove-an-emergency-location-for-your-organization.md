@@ -21,72 +21,72 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '学习添加、更改或删除组织的公用电话交换网 (PSTN) 上 Skype for Business 使用的紧急位置。 '
-ms.openlocfilehash: 68c4e60288a85f39b198eb0ea1bd05e6a1e7f5e6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 862d62af8db8275e304c1522ae19a80d9ebcfec4
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883675"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958268"
 ---
-# <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a><span data-ttu-id="55d82-103">添加、 更改或删除您的组织紧急地点</span><span class="sxs-lookup"><span data-stu-id="55d82-103">Add, change, or remove an emergency location for your organization</span></span>
+# <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a><span data-ttu-id="e83ae-103">添加、 更改或删除您的组织紧急地点</span><span class="sxs-lookup"><span data-stu-id="e83ae-103">Add, change, or remove an emergency location for your organization</span></span>
 
-<span data-ttu-id="55d82-104">根据组织中物理位置的数目，可以为建筑物、楼层和办公室创建紧急位置以创建更具体的紧急地址。</span><span class="sxs-lookup"><span data-stu-id="55d82-104">Depending on the number of physical locations in your organization, you can create emergency locations for buildings, floors, and offices to create a more specific emergency address.</span></span> <span data-ttu-id="55d82-105">请参阅[紧急位置、地址和呼叫路由是什么？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)了解详细信息。</span><span class="sxs-lookup"><span data-stu-id="55d82-105">See [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for more information.</span></span> 
+<span data-ttu-id="e83ae-104">根据组织中物理位置的数目，可以为建筑物、楼层和办公室创建紧急位置以创建更具体的紧急地址。</span><span class="sxs-lookup"><span data-stu-id="e83ae-104">Depending on the number of physical locations in your organization, you can create emergency locations for buildings, floors, and offices to create a more specific emergency address.</span></span> <span data-ttu-id="e83ae-105">请参阅[紧急位置、地址和呼叫路由是什么？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)了解详细信息。</span><span class="sxs-lookup"><span data-stu-id="e83ae-105">See [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for more information.</span></span> 
   
-<span data-ttu-id="55d82-106">要了解如何获取通话套餐及其价格，请参阅 [Skype for Business 和 Microsoft Teams 加载项许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。</span><span class="sxs-lookup"><span data-stu-id="55d82-106">To learn how to get a Calling Plan and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span></span>
+<span data-ttu-id="e83ae-106">要了解如何获取通话套餐及其价格，请参阅 [Skype for Business 和 Microsoft Teams 加载项许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。</span><span class="sxs-lookup"><span data-stu-id="e83ae-106">To learn how to get a Calling Plan and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span></span>
   
-## <a name="add-an-emergency-location-to-an-emergency-address"></a><span data-ttu-id="55d82-107">向紧急地址添加紧急位置</span><span class="sxs-lookup"><span data-stu-id="55d82-107">Add an emergency location to an emergency address</span></span>
+## <a name="add-an-emergency-location-to-an-emergency-address"></a><span data-ttu-id="e83ae-107">向紧急地址添加紧急位置</span><span class="sxs-lookup"><span data-stu-id="e83ae-107">Add an emergency location to an emergency address</span></span>
 
-1. <span data-ttu-id="55d82-108">使用你的工作或学校帐户登录 Office 365。</span><span class="sxs-lookup"><span data-stu-id="55d82-108">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="e83ae-108">使用你的工作或学校帐户登录 Office 365。</span><span class="sxs-lookup"><span data-stu-id="e83ae-108">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="55d82-109">转到 **Office 365 管理中心** > **Skype for Business**。</span><span class="sxs-lookup"><span data-stu-id="55d82-109">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
+2. <span data-ttu-id="e83ae-109">转到 **Office 365 管理中心** > **Skype for Business**。</span><span class="sxs-lookup"><span data-stu-id="e83ae-109">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
     
-3. <span data-ttu-id="55d82-110">在左侧导航窗格中，转到**语音** > **紧急位置**，然后选择您要添加的位置的紧急地址。</span><span class="sxs-lookup"><span data-stu-id="55d82-110">In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address that you want to add a location for.</span></span>
+3. <span data-ttu-id="e83ae-110">在左侧导航窗格中，转到**语音** > **紧急位置**，然后选择您要添加的位置的紧急地址。</span><span class="sxs-lookup"><span data-stu-id="e83ae-110">In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address that you want to add a location for.</span></span>
     
     > [!Important]
-    > <span data-ttu-id="55d82-111">要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。</span><span class="sxs-lookup"><span data-stu-id="55d82-111">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
+    > <span data-ttu-id="e83ae-111">要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。</span><span class="sxs-lookup"><span data-stu-id="e83ae-111">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
     
-4. <span data-ttu-id="55d82-112">**关联的位置**，旁边的操作窗格中单击**更改**。</span><span class="sxs-lookup"><span data-stu-id="55d82-112">In the Action pane, next to **Associated locations**, click **Change**.</span></span>
+4. <span data-ttu-id="e83ae-112">**关联的位置**，旁边的操作窗格中单击**更改**。</span><span class="sxs-lookup"><span data-stu-id="e83ae-112">In the Action pane, next to **Associated locations**, click **Change**.</span></span>
     
-5. <span data-ttu-id="55d82-113">在**关联的位置**上，单击**添加新建**，输入另一个关联的位置（例如，输入"Building 64 Floor 1"），然后单击**提交**。</span><span class="sxs-lookup"><span data-stu-id="55d82-113">In the **Locations associated with**, click **Add new**, enter another associated location (for example, enter "Building 64 Floor 1"), and then click **Submit**.</span></span>
+5. <span data-ttu-id="e83ae-113">在**关联的位置**上，单击**添加新建**，输入另一个关联的位置（例如，输入"Building 64 Floor 1"），然后单击**提交**。</span><span class="sxs-lookup"><span data-stu-id="e83ae-113">In the **Locations associated with**, click **Add new**, enter another associated location (for example, enter "Building 64 Floor 1"), and then click **Submit**.</span></span>
     
-6. <span data-ttu-id="55d82-114">单击" **保存**"。</span><span class="sxs-lookup"><span data-stu-id="55d82-114">Click **Save**.</span></span>
+6. <span data-ttu-id="e83ae-114">单击" **保存**"。</span><span class="sxs-lookup"><span data-stu-id="e83ae-114">Click **Save**.</span></span>
     
-## <a name="change-an-emergency-location-for-an-emergency-address"></a><span data-ttu-id="55d82-115">更改紧急地址的紧急地点</span><span class="sxs-lookup"><span data-stu-id="55d82-115">Change an emergency location for an emergency address</span></span>
+## <a name="change-an-emergency-location-for-an-emergency-address"></a><span data-ttu-id="e83ae-115">更改紧急地址的紧急地点</span><span class="sxs-lookup"><span data-stu-id="e83ae-115">Change an emergency location for an emergency address</span></span>
 
-1. <span data-ttu-id="55d82-116">使用你的工作或学校帐户登录 Office 365。</span><span class="sxs-lookup"><span data-stu-id="55d82-116">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="e83ae-116">使用你的工作或学校帐户登录 Office 365。</span><span class="sxs-lookup"><span data-stu-id="e83ae-116">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="55d82-117">转到 **Office 365 管理中心** > **Skype for Business**。</span><span class="sxs-lookup"><span data-stu-id="55d82-117">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
+2. <span data-ttu-id="e83ae-117">转到 **Office 365 管理中心** > **Skype for Business**。</span><span class="sxs-lookup"><span data-stu-id="e83ae-117">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
     
-3. <span data-ttu-id="55d82-118">在左侧导航窗格中，转到**语音** > **紧急位置**，然后选择您要为其更改的位置的紧急地址。</span><span class="sxs-lookup"><span data-stu-id="55d82-118">In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address for which you want to change a location.</span></span>
+3. <span data-ttu-id="e83ae-118">在左侧导航窗格中，转到**语音** > **紧急位置**，然后选择您要为其更改的位置的紧急地址。</span><span class="sxs-lookup"><span data-stu-id="e83ae-118">In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address for which you want to change a location.</span></span>
     
-4. <span data-ttu-id="55d82-119">**关联的位置**，旁边的操作窗格中单击**更改**。</span><span class="sxs-lookup"><span data-stu-id="55d82-119">In the Action pane, next to **Associated locations**, click **Change**.</span></span>
+4. <span data-ttu-id="e83ae-119">**关联的位置**，旁边的操作窗格中单击**更改**。</span><span class="sxs-lookup"><span data-stu-id="e83ae-119">In the Action pane, next to **Associated locations**, click **Change**.</span></span>
     
-5. <span data-ttu-id="55d82-120">在**与位置关联**下，单击列表中的位置的链接，在**更改关联位置详细信息**，输入新位置的详细信息，然后单击**提交**。</span><span class="sxs-lookup"><span data-stu-id="55d82-120">Under **Locations associated with**, click the link for the location in the list, enter new location details in **Change associated location details**, and then click **Submit**.</span></span>
+5. <span data-ttu-id="e83ae-120">在**与位置关联**下，单击列表中的位置的链接，在**更改关联位置详细信息**，输入新位置的详细信息，然后单击**提交**。</span><span class="sxs-lookup"><span data-stu-id="e83ae-120">Under **Locations associated with**, click the link for the location in the list, enter new location details in **Change associated location details**, and then click **Submit**.</span></span>
     
-6. <span data-ttu-id="55d82-121">单击" **保存**"。</span><span class="sxs-lookup"><span data-stu-id="55d82-121">Click **Save**.</span></span>
+6. <span data-ttu-id="e83ae-121">单击" **保存**"。</span><span class="sxs-lookup"><span data-stu-id="e83ae-121">Click **Save**.</span></span>
     
-## <a name="remove-an-emergency-location-from-an-emergency-address"></a><span data-ttu-id="55d82-122">从紧急地址中删除紧急地点</span><span class="sxs-lookup"><span data-stu-id="55d82-122">Remove an emergency location from an emergency address</span></span>
+## <a name="remove-an-emergency-location-from-an-emergency-address"></a><span data-ttu-id="e83ae-122">从紧急地址中删除紧急地点</span><span class="sxs-lookup"><span data-stu-id="e83ae-122">Remove an emergency location from an emergency address</span></span>
 
-1. <span data-ttu-id="55d82-123">使用你的工作或学校帐户登录 Office 365。</span><span class="sxs-lookup"><span data-stu-id="55d82-123">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="e83ae-123">使用你的工作或学校帐户登录 Office 365。</span><span class="sxs-lookup"><span data-stu-id="e83ae-123">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="55d82-124">转到 **Office 365 管理中心** > **Skype for Business**。</span><span class="sxs-lookup"><span data-stu-id="55d82-124">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
+2. <span data-ttu-id="e83ae-124">转到 **Office 365 管理中心** > **Skype for Business**。</span><span class="sxs-lookup"><span data-stu-id="e83ae-124">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
     
-3. <span data-ttu-id="55d82-125">在左侧导航窗格中，转到**语音** > **紧急位置**，然后选择要删除的位置的紧急地址。</span><span class="sxs-lookup"><span data-stu-id="55d82-125">In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address that you want to remove a location for.</span></span>
+3. <span data-ttu-id="e83ae-125">在左侧导航窗格中，转到**语音** > **紧急位置**，然后选择要删除的位置的紧急地址。</span><span class="sxs-lookup"><span data-stu-id="e83ae-125">In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address that you want to remove a location for.</span></span>
     
-4. <span data-ttu-id="55d82-126">**关联的位置**，旁边的操作窗格中单击**更改**。</span><span class="sxs-lookup"><span data-stu-id="55d82-126">In the Action pane, next to **Associated locations**, click **Change**.</span></span>
+4. <span data-ttu-id="e83ae-126">**关联的位置**，旁边的操作窗格中单击**更改**。</span><span class="sxs-lookup"><span data-stu-id="e83ae-126">In the Action pane, next to **Associated locations**, click **Change**.</span></span>
     
-5. <span data-ttu-id="55d82-127">在**与位置关联**下，位置的链接下，单击**删除**。</span><span class="sxs-lookup"><span data-stu-id="55d82-127">Under **Locations associated with**, next the link for the location, click **Remove**.</span></span>
+5. <span data-ttu-id="e83ae-127">在**与位置关联**下，位置的链接下，单击**删除**。</span><span class="sxs-lookup"><span data-stu-id="e83ae-127">Under **Locations associated with**, next the link for the location, click **Remove**.</span></span>
     
-6. <span data-ttu-id="55d82-128">单击" **保存**"。</span><span class="sxs-lookup"><span data-stu-id="55d82-128">Click **Save**.</span></span>
+6. <span data-ttu-id="e83ae-128">单击“**保存**”。</span><span class="sxs-lookup"><span data-stu-id="e83ae-128">Click **Save**.</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="55d82-129">相关主题</span><span class="sxs-lookup"><span data-stu-id="55d82-129">Related topics</span></span>
-[<span data-ttu-id="55d82-130">什么是地址验证？</span><span class="sxs-lookup"><span data-stu-id="55d82-130">What is address validation?</span></span>](what-is-address-validation.md)
+## <a name="related-topics"></a><span data-ttu-id="e83ae-129">相关主题</span><span class="sxs-lookup"><span data-stu-id="e83ae-129">Related topics</span></span>
+[<span data-ttu-id="e83ae-130">什么是地址验证？</span><span class="sxs-lookup"><span data-stu-id="e83ae-130">What is address validation?</span></span>](what-is-address-validation.md)
 
-[<span data-ttu-id="55d82-131">管理你的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="55d82-131">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+[<span data-ttu-id="e83ae-131">管理你的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="e83ae-131">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="55d82-132">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="55d82-132">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="e83ae-132">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="e83ae-132">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="55d82-133">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="55d82-133">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="e83ae-133">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="e83ae-133">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  

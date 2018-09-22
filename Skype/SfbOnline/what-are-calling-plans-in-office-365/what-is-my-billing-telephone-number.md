@@ -21,31 +21,31 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 了解您 Skype for Business 帐单电话号码是什么，以及在哪里获取有关如何迁移循序渐进说明。
-ms.openlocfilehash: 748ea9603cf0e3fef7dc19dc2a148025e33ab205
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b0eb2d3b2a4740759b2ea13eb5cddb1691392a48
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849780"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958258"
 ---
-# <a name="what-is-my-billing-telephone-number"></a><span data-ttu-id="c97b9-103">我的账单电话号码是什么？</span><span class="sxs-lookup"><span data-stu-id="c97b9-103">What is my billing telephone number?</span></span>
+# <a name="what-is-my-billing-telephone-number"></a><span data-ttu-id="3c58d-103">我的账单电话号码是什么？</span><span class="sxs-lookup"><span data-stu-id="3c58d-103">What is my billing telephone number?</span></span>
 
-<span data-ttu-id="c97b9-104">帐单电话号码 （按钮） 服务提供商或运营商收取并账单上包含的主电话号码。</span><span class="sxs-lookup"><span data-stu-id="c97b9-104">The billing telephone number (BTN) is the main phone number that is included on your bill and billed by your service provider or carrier.</span></span> <span data-ttu-id="c97b9-105">如果您从具有只有一个电话号码的帐户来转接电话号码，您需要置于此电话号码。</span><span class="sxs-lookup"><span data-stu-id="c97b9-105">If you are transferring a phone number from an account that has only one phone number, you will need to put this phone number in.</span></span> <span data-ttu-id="c97b9-106">如果有多个帐户，您将转接电话号码，可以查看您 bill 或与您的服务提供商或运营商，以确定帐单的电话号码为您的帐户。</span><span class="sxs-lookup"><span data-stu-id="c97b9-106">If you are transferring phone numbers from an account that has more than one, you can look at your bill or contact your service provider or carrier to determine what the billing telephone number is for your account.</span></span>
+<span data-ttu-id="3c58d-104">帐单电话号码 （按钮） 服务提供商或运营商收取并账单上包含的主电话号码。</span><span class="sxs-lookup"><span data-stu-id="3c58d-104">The billing telephone number (BTN) is the main phone number that is included on your bill and billed by your service provider or carrier.</span></span> <span data-ttu-id="3c58d-105">如果您从具有只有一个电话号码的帐户来转接电话号码，您需要置于此电话号码。</span><span class="sxs-lookup"><span data-stu-id="3c58d-105">If you are transferring a phone number from an account that has only one phone number, you will need to put this phone number in.</span></span> <span data-ttu-id="3c58d-106">如果有多个帐户，您将转接电话号码，可以查看您 bill 或与您的服务提供商或运营商，以确定帐单的电话号码为您的帐户。</span><span class="sxs-lookup"><span data-stu-id="3c58d-106">If you are transferring phone numbers from an account that has more than one, you can look at your bill or contact your service provider or carrier to determine what the billing telephone number is for your account.</span></span>
   
- <span data-ttu-id="c97b9-107">**有关完整的分步说明，请参阅[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)。**</span><span class="sxs-lookup"><span data-stu-id="c97b9-107">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span></span>
+ <span data-ttu-id="3c58d-107">**有关完整的分步说明，请参阅[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)。**</span><span class="sxs-lookup"><span data-stu-id="3c58d-107">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c97b9-108">如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="c97b9-108">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="3c58d-108">如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="3c58d-108">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="c97b9-109">相关主题</span><span class="sxs-lookup"><span data-stu-id="c97b9-109">Related topics</span></span>
-[<span data-ttu-id="c97b9-110">关于转移电话号码的常见问题</span><span class="sxs-lookup"><span data-stu-id="c97b9-110">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="3c58d-109">相关主题</span><span class="sxs-lookup"><span data-stu-id="3c58d-109">Related topics</span></span>
+[<span data-ttu-id="3c58d-110">关于转移电话号码的常见问题</span><span class="sxs-lookup"><span data-stu-id="3c58d-110">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="c97b9-111">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="c97b9-111">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="3c58d-111">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="3c58d-111">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="c97b9-112">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="c97b9-112">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="3c58d-112">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="3c58d-112">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="c97b9-113">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="c97b9-113">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="3c58d-113">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="3c58d-113">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  
