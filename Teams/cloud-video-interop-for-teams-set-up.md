@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff969701b9e0641ef09810f00a7aa34410e32b45
-ms.sourcegitcommit: 69d1cea64425f03e562b5fb930493e27b61db96b
+ms.openlocfilehash: 92fe72b8352e9a2152361f410f9e39f1f296a3c8
+ms.sourcegitcommit: 2d76fad92b6d6c5d1bd223a717fd6c534ecaa5be
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24968268"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24974428"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>设置 Microsoft 团队的云视频互操作
 
@@ -88,7 +88,7 @@ ms.locfileid: "24968268"
 ## <a name="schedule"></a>计划
 
 接下来，安排团队会议视频互操作的坐标。 启用的用户可以安排通过团队会议：
-- Outlook 客户端外接程序
+- [会议外接程序 Outlook 的团队](teams-add-in-for-outlook.md)
 - 桌面和移动的团队客户端
 
 

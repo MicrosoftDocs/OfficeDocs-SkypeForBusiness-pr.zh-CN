@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: ''
 description: 阅读本主题可了解如何 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。
-ms.openlocfilehash: 0f2fceee07b3c742496be7e9fdf5c714d66f8bc1
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 91d188f63a0645d0df81817dd98dbd3ef54418a9
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861738"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975199"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -136,7 +136,8 @@ Microsoft 强烈建议您申请证书的 SBC 通过生成证书签名请求 (CSR
 - Baltimore CyberTrust Root
 - Buypass
 - Cybertrust
-- Class 3 主要公用证书颁发机构 
+- Class 3 主要公用证书颁发机构
+- Comodo 安全根 CA
 - 德国 Telekom 
 - DigiCert 全局根 CA 
 - 委托

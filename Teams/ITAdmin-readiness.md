@@ -11,12 +11,12 @@ search.appverid: MET150
 description: 培训视频、 教程和其他资源来 admins 如何规划、 部署和运行的 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c6d3601e72e829f2c00fd166c3b249872e48347
-ms.sourcegitcommit: 63a560c05b4fa3bda3abc31ef5dffe60e61e4d67
+ms.openlocfilehash: e3ee2ac75015f26317f85d6cf4ecf79e71496f0b
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24960952"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975089"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
@@ -140,7 +140,7 @@ ms.locfileid: "24960952"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>体系结构</h3><p>[视频： 基础-团队的核心组件](https://www.youtube.com/watch?v=xJBvJTDiQqg)</p>
+                        <h3>体系结构</h3><p>[视频： 基础-团队的核心组件](http://aka.ms/teams-foundations)</p>
                     </div>
                 </div>
             </div>
@@ -152,7 +152,7 @@ ms.locfileid: "24960952"
                     <div class="cardText">
                         <h3>规划和部署</h3>
                          <p>[快速入门: Teams 规划指南](quick-start-enable-teams.md)</p>
-                         <p>[视频： 工作组 Windows 桌面客户端](https://www.youtube.com/watch?v=zp1_wGzq1ic)</p>
+                         <p>[视频： 工作组 Windows 桌面客户端](http://aka.ms/teams-clients)</p>
                     </div>
                 </div>
             </div>

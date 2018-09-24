@@ -13,15 +13,18 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7aaf355c1f1fc65855c7bffb7c5632929a084b88
-ms.sourcegitcommit: 3a7d2131717327d9b2d16848758e31e10326a0bd
+ms.openlocfilehash: 3141eb3f7d584e2140c95ec509e14285cc1cfe7c
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "24057600"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975097"
 ---
 <a name="install-microsoft-teams-using-msi"></a>使用 MSI 安装 Microsoft Teams
 =================================
+
+> [!Tip]
+> 观看下面的会话，若要了解有关 Windows 桌面客户端、 如何规划其以及如何将其部署的优势：[团队 Windows 桌面客户端](https://aka.ms/teams-clients)
 
 若要使用广泛部署 System Center Configuration Manager，组策略或任何第三方分发机制，Microsoft 提供了管理员可以使用批量部署团队选择的 MSI 文件 （ [32 位](https://aka.ms/teams32bitmsi)和[64 位](https://aka.ms/teams64bitmsi)）用户或计算机。 管理员可以使用这些文件，以便用户无需手动下载团队应用程序远程部署团队。 在部署时，团队将自动启动的所有用户登录的计算机。 （您可以禁用自动启动后安装应用程序。 [请参见下文](#disable-auto-lanuch-for-the-msi-installer)。）我们建议您部署包到计算机，这样的计算机的所有新用户也将从此部署中获益。 
  
@@ -59,7 +62,7 @@ ms.locfileid: "24057600"
 > [!TIP] 
 > 您可以使用我们[的 Microsoft 团队部署清理](.\scripts\Powershell-script-teams-deployment-clean-up.md)的脚本完成通过 SCCM 的步骤 1 和 2。  
                     
-## <a name="disable-auto-lanuch-for-the-msi-installer"></a>禁用自动 lanuch MSI 安装程序
+## <a name="disable-auto-launch-for-the-msi-installer"></a>禁用自动启动的 MSI 安装程序
 
 如果您想要禁用自动启动，输入以下命令提示符：
 

@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfd6eead5c62865d2c0c00f8719f2e6ec188ff9c
-ms.sourcegitcommit: 43bb1c1355193809c4f297d3dcb535c8b8d5d527
+ms.openlocfilehash: 9caef93f2303458d20c2d7e2142579edaae69748
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24061999"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975113"
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================
@@ -29,6 +29,9 @@ Microsoft 团队具有客户端适用于桌面 （Windows 和 Mac） web 和移�
 
 <a name="desktop-client"></a>桌面客户端
 --------------
+
+> [!Tip]
+> 观看下面的会话，若要了解有关 Windows 桌面的优势，客户端、 如何规划，以及如何将其部署：[团队 Windows 桌面客户端](https://aka.ms/teams-clients)
 
 Microsoft 团队桌面客户端是一个独立的应用程序和当前不是 Office 365 ProPlus 的一部分。 团队是可用于 Windows （7 +）、 32 位和 64 位版本和 macOS （10.10 +）。 在 Windows 上，团队需要.NET Framework 4.5 或更高版本;团队安装程序将自动为您进行安装，如果您没有使用它。 
 

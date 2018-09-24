@@ -13,15 +13,18 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a422cb18cf6105ead7f0a76096a6cb5a755a1906
-ms.sourcegitcommit: 8537814aabddd7e7a6d1148c8c71ea14ae0c499a
+ms.openlocfilehash: d69ba0fc113667149b212547cd04ed02e814ba50
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24009042"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975121"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互 
 =========================================
+
+> [!Tip]
+> 观看下面的会话，若要了解与 Azure Active Directory (AAD)、 Office 365 组、 Exchange、 SharePoint 和 OneDrive for Business 团队交互的方式：[基础的 Microsoft 团队](https://aka.ms/teams-foundations)
 
 为了获得全面的 Microsoft Teams 体验，应该为每个用户启用 Exchange Online、SharePoint Online 和 Office 365 组创建。
 
