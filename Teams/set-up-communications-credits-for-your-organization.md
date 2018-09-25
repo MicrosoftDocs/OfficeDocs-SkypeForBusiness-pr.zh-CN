@@ -7,9 +7,12 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: bb9f2a8d-f5be-41ed-9d19-25dea5ca9f52
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 1e4f48caff52cf648e075d9c4c4972076e124c00
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f82788d34e492b6dd3fe54c60168b8d83b3c09e2
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891690"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25018006"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>为组织设置通信点数
 
@@ -58,9 +61,11 @@ ms.locfileid: "23891690"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 在 Office 365 管理中心的左侧导航窗格中，转到 **帐单** > **订阅** > **加载项** > **购买加载项**，然后选择 **通信点数** > **立即购买**。
+2. 在 Office 365 管理中心的左侧导航窗格中，转到**帐单** > **订阅** > **添加订阅**。
+
+3. 展开**加载项订阅**，然后选择**Communications 字幕式** > **立即购买**。
     
-3. 在**Communications 字幕式**订阅页中，填写您的信息，然后单击**下一步**:
+4. 在**Communications 字幕式**订阅页中，填写您的信息，然后单击**下一步**:
     
   - **添加资金**输入要添加到您的帐户的金额。 如果您不启用自动充电，都用完这些资金，调用使用 Communications 字幕式启用的功能将会中断 （如入站免费电话服务）。 若要避免无需手动补充 Communications 字幕式平衡每次您平衡达到 0 （零），我们建议您启用自动充电功能。
     
@@ -75,7 +80,7 @@ ms.locfileid: "23891690"
       > [!NOTE]
     > 资金将仅可用于使用服务时，microsoft Communications 字幕式发布率。 自购买之日起的 12 个月内未使用的任何资金将过期并丢失。 
     
-4. 输入您的付款信息并单击 **下订单** 。
+5. 输入您的付款信息并单击 **下订单** 。
     >[!IMPORTANT]
     >如果您是批量授权客户，则可以选择您的企业协议编号进行付款。 如果您有多个企业协议编号，您将能够选择要用于付款的企业协议。 您还将获得一个机会，指定要与企业协议编号关联的采购订单编号 （如果适用）。
     

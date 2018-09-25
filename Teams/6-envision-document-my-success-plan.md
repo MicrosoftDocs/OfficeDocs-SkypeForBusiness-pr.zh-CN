@@ -10,15 +10,15 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: 选择部署模型、 开发负责-无论如何-咨询-通知 (RACI) 矩阵、 创建执行和调控计划。
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f29778e442115aecaa9763cb55be40d66964b229
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 07cea763c3287106f2a6c98472dea0ef43ea7e28
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884025"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013792"
 ---
 # <a name="document-my-success-plan"></a>文档我成功的计划
 

@@ -5,23 +5,25 @@ ms.author: lolaj
 manager: serdars
 ms.date: 03/23/2018
 ms.topic: article
-ms.service: msteams
+ms.service:
+- msteams
+- skype-for-business-online
 ms.reviewer: ''
 search.appverid: MET150
 description: 了解如何管理租户范围和团队从团队转换期间的用户设置 Office 365 管理中心到新的 Microsoft 团队和业务管理中心的 Skype 的体验。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: dddb73e5b616fead421d1b610eff6229b4191d06
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: e54dfb0bc62e94e0a870aefc192851ce7b8a53fe
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965696"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013896"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>转换为新的 Microsoft 团队和业务管理中心的 Skype 的过程管理团队
 ======================================================
@@ -76,7 +78,7 @@ ms.locfileid: "23965696"
 |自定义云存储     |收存箱        |TeamsClientConfiguration         |租户         |
 |自定义云存储     |Google 驱动器        |TeamsClientConfiguration         |租户         |
 |自定义云存储     |ShareFile        |TeamsClientConfiguration         |租户         |
-|设置用户/许可证类型     |为所有用户打开或关闭的 Microsoft 团队          |已弃用。 使用 Office 365 管理中心分配许可证。        |         |
+|设置用户/许可证类型     |为所有用户打开或关闭的 Microsoft 团队          |将被弃用。 使用 Office 365 管理中心分配许可证。  启用/禁用来宾移动到 TeamsClientConfiguration-AllowGuestUser      |         |
 |团队和频道     |         |重定向到 Azure Active Directory 组管理 （当前体验相同）。              |用户         |
 |团队和频道     |         |重定向到 AAD 组管理 （当前体验相同）。             |用户          |
 |呼叫和会议     |允许安排私人会议         |TeamsMeetingPolicy         |用户          |

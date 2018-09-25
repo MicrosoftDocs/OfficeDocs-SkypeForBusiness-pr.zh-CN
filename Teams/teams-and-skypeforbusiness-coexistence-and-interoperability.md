@@ -3,7 +3,7 @@ title: 商业和 Microsoft 团队了解共存和 Skype 的互操作性
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 09/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -11,15 +11,15 @@ description: Skype 的业务和 Microsoft 团队共存选项和 Skype for Busine
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06e425f062c47f8fa05fa69e1354fee472804e90
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 158e563151fe426f6abbbeb7519ba9e793f2d202
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887567"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013406"
 ---
 ![升级旅程，重点强调项目定义阶段的阶段](media/upgrade-banner-project-definition.png "升级旅程，重点强调项目定义阶段的阶段")
 
@@ -48,13 +48,13 @@ ms.locfileid: "23887567"
 在此共存模式，调用**群岛**，每个客户端应用程序运行作为单独岛。 业务交谈 for Business 和团队的 Skype 的 Skype 交谈团队。 用户运行这两个客户端，从中启动通信客户端中本机通信。 因此，没有需要在**群岛**模式下的互操作性。
 
 > [!Tip]
-> 大多数组织都有可能在**群岛**模式下部署。 如果您打算将移动到团队快速并且不希望支持 long 共存，我们建议使用**群岛**模式。 
+> 即将发布模式**仅团队**和**使用团队协作的业务的 Skype**模式下可用时，新 online 用户的默认模式应为**Skype for Business 使用团队协作**，直到您的组织已准备好将移动到**仅团队**。   **群岛**模式中的现有用户应直接移动到**团队仅**模式为您的组织已准备就绪。 
 
 ### <a name="skype-for-business-only"></a>Skype for Business 仅
 
 在此共存模式中，用户保留在 for Business 的 Skype — 不团队 — for 聊天、 会议和呼叫功能，以及它们不为团队和通道使用团队。 此模式为今天; 可用但是，在当前实现团队形式是不为用户自动关闭。 此功能是即将开始的。 在此期间，管理员可以删除任何用户需要作为其唯一的通信应用程序的业务的 Skype 随时了解最新的工作组许可证。
 
-### <a name="teams-only-this-mode-is-rolling-out-starting-in-summer-2018"></a>仅工作组 （出夏季完成 2018年从开始推出这种模式下）
+### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-by-fall-2018"></a>仅工作组 （开始推出此模式出夏季完成 2018年和将由某 2018年完成对所有租户）
 
 只要您的组织可供使用团队作为其唯一的沟通和协作工具的部分或全部用户，您可以升级到**团队仅**模式的这些用户。
 
@@ -87,6 +87,7 @@ ms.locfileid: "23887567"
 ## <a name="interoperability-of-teams-and-skype-for-business"></a>团队和 for Business 的 Skype 的互操作性
 
 互操作性是能够个团队和 Skype 的同一组织中的企业用户团队和 for Business 的 Skype 间通信。
+
 
 ### <a name="native-interop-and-interop-escalation"></a>本机互操作性和互操作性升级
 

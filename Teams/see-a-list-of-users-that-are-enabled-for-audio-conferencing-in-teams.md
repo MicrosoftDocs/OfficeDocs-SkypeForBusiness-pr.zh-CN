@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: bd0cd155-4c6d-424d-a2c9-af7974a2d34c
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Microsoft Teams 中查看贵组织中启用了电话拨入式会议的用户列表。 '
-ms.openlocfilehash: 9bbdd5fd8536554c942db19c8c9f5ac41789c461
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: e82d0d265e89c5b717ff25ea7c58ec240b38bea0
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884444"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014032"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft Teams 中查看启用了音频会议的用户列表
 
-在为贵组织中的 Microsoft Teams 用户启用了音频会议后，你可以查看已启用该功能的用户列表。 在查看该列表时，你还将看到列表中的每个用户正在使用的音频会议提供商类型、用户的默认拨入电话号码，如果贵组织没有启用动态会议 ID，你可以看到用户组织的音频会议的静态会议 ID。
+音频会议的组织中启用的 Microsoft 团队用户后，您可以查看的已启用这些用户的列表。 当您查看列表中，您还将为每个用户的音频会议提供商的他们使用的，对用户的默认电话拨入式电话号码类型列表中看到和您的组织未启用动态的会议 Id、 静态会议 Id为他们所组织的音频会议。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

@@ -5,17 +5,22 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
+ms.service:
+- msteams
+- skype-for-business-online
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: ''
+ms.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
 description: 了解不同的用户创建和组合的受支持或不受支持的组合。
-ms.openlocfilehash: 8690d294755ed75b1c79a2c1fa61a4df196bc070
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: aa2d5b7b98b4a683f7f79ee9fb9b76e04a40263b
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851308"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014208"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>使用 PSTN 连接的混合环境中的用户帐户
 
@@ -25,7 +30,7 @@ ms.locfileid: "23851308"
  
 - Skype 业务服务器 2015年或 Lync Server 2013 
 - Office 365 租户 
-- Skype 业务服务器和 Skype 业务联机或团队租户之间配置混合连接性 
+- Skype 业务服务器和 Skype 业务联机或 Microsoft 团队租户之间配置混合连接性 
 - 启用发起和接收和来自客户端的公共公用电话交换网 (PSTN) 呼叫的用户
 
  

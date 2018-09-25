@@ -11,15 +11,15 @@ search.appverid: MET150
 description: 继续执行从 for Business 的 Skype 您迁移到 Microsoft 团队指南
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca58b180e5b1385643d0ec7fc9433fda68e05ef9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f8e81a20d5c3e792f2a249b86d95a0ca22ab042e
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892371"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016258"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 

@@ -7,8 +7,12 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: ba39f7c0-3bdd-4cd5-b4bc-dccda2414c3a
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于萨尔瓦多业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: da994fbcbeeb8eb909d563acae6e67d7662a0b90
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: cf4e2e2be874df4a0356e049fb2517c001314d10
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854640"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015586"
 ---
 # <a name="availability-in-el-salvador"></a>萨尔瓦多中的可用性
 

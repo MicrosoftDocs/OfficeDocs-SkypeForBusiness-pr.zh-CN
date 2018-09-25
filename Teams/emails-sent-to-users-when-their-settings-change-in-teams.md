@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 1b46da6d-f93a-4cc0-9ae8-af765935b007
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,25 +20,25 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解在 Microsoft Teams 中当用户的电话拨入式会议设置更改时自动通过电子邮件向其发送的信息。 '
-ms.openlocfilehash: f351f7a1107c3f52ddc2c9f60b7cd79feb31388c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: b1bd7764f7780267d9f2a98a3203f49d2c0e938e
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890059"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016162"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>在 Microsoft Teams 中当用户设置更改时向其发送的电子邮件
 
 当使用 Microsoft 作为音频会议提供商时，会自动向[启用了音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)的用户发送电子邮件。
   
-默认情况下，对于启用了音频会议的用户，向其发送的电子邮件共有四种类型。 但是，如果你要限制向用户发送的电子邮件数，你可以将其关闭。 在下列情况下，Office 365 中的音频会议将向用户发送电子邮件：
+默认情况下，有四种类型的电子邮件将发送到您的用户启用了音频会议。 但是，如果要限制向用户发送的电子邮件数，你可以将其关闭。 Office 365 中的音频会议将向用户发送电子邮件时的电子邮件：
   
 - **为用户分配了音频会议许可证时，或者你将音频会议提供商更改为 Microsoft 时。**
     
-     此电子邮件包括会议 ID、默认的会议电话号码、用户的音频会议 PIN 以及使用 Skype for Business Online 会议更新工具为用户更新现有会议的说明和链接。 请参阅[分配 Skype for Business 和 Microsoft Teams 许可证](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)或[将 Microsoft 指定为音频会议提供商](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
+     此电子邮件包括会议 ID，会议，音频会议的用户和链接说明要用于业务在线会议更新工具，用来更新现有会议的 Skype 的 PIN 的默认会议电话号码用户。 请参阅[业务和 Microsoft 团队许可证分配 Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)或[分配 Microsoft 作为音频会议提供商](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
     
     > [!NOTE]
-    > 如果贵组织已启用动态会议 ID，则用户安排的所有会议都将具有唯一的会议 ID。 你可以[在贵组织中设置音频会议动态 ID](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user)。 
+    > [!注释] 如果你的组织已启用动态会议 ID，用户安排的所有会议将具有唯一的会议 ID。 您可以设置[您的组织中的音频会议动态 Id](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user)。 
   
     下面是此电子邮件示例：
     
@@ -56,7 +56,7 @@ ms.locfileid: "23890059"
   
 - **重置了用户的音频会议 PIN。**
     
-    此电子邮件包含组织者的音频会议 PIN、用户的现有会议 ID 和默认会议电话号码。 请参阅[重置音频会议 PIN](reset-the-audio-conferencing-pin-in-teams.md)。
+    此电子邮件包含组织者的音频会议 PIN、 现有会议 ID 和用户的默认会议电话号码。 请参阅[重置 PIN 的音频会议](reset-the-audio-conferencing-pin-in-teams.md)。
     
   
     下面是此电子邮件示例：
@@ -65,7 +65,7 @@ ms.locfileid: "23890059"
   
 - **用户的许可证被删除，或者音频会议提供商从 Microsoft 更改为其他提供商或“无”。**
     
-    在删除了用户的**音频会议**许可证，或者将用户的音频会议提供商从 Microsoft 更改为第三方音频会议提供商，或将提供商设置为“**无**”时，会发生这种情况。 此电子邮件包含用户使用 Skype for Business Online 会议更新工具删除音频会议特定信息（例如默认会议电话号码或会议 ID）的说明和信息。
+    **音频会议**许可证时将删除来自用户或从 Microsoft 更改用户的音频会议提供商，为第三方音频会议提供商时或设置为**无**的提供程序时，将发生这种情况。 此电子邮件包含说明和信息的用户使用的业务联机会议更新工具 Skype 删除音频会议的特定信息，例如默认会议电话号码或会议 id。
     
     请参阅[分配或删除 Office 365 商业版许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
     
@@ -78,11 +78,11 @@ ms.locfileid: "23890059"
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>更改向用户发送的电子邮件
 
-你可以更改自动向用户发送的电子邮件，包括电子邮件地址和包含在“*发件人*”联系信息中的显示名称。 默认情况下，这些电子邮件的发件人将显示为来自 Office 365，但你可以使用 Windows PowerShell 更改电子邮件地址和显示名称。 有关详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
+您可以对会自动向用户的电子邮件地址和*从*联系人信息中包括的显示名称包括发送的电子邮件进行更改。 默认情况下，发件人的电子邮件将从 Office 365 中，但您可以更改的电子邮件地址，并且可以显示使用 Windows PowerShell 的名称。 请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)（英文） 的详细信息。
   
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>如果不希望向用户发送电子邮件该怎么办？
 
-禁用向用户发送电子邮件时，即使为用户分配了许可证，也不会发送电子邮件。 在此情况下，不会向用户发送会议 ID、默认会议电话号码，以及更重要的是，他们的音频会议 PIN。 发生这种情况时，你必须通过向用户发送单独的电子邮件或给他们打电话进行通知。
+当禁用电子邮件发送给用户时，即使用户拥有分配的许可证，也不会向其发送电子邮件。 在此情况下，会议 ID，默认会议电话号码，以及更重要的是，将不会向用户发送其音频会议 PIN。 发生这种情况时，你必须通过向用户发送单独的电子邮件或呼叫他们进行通知。
   
 默认情况下，将向你的用户发送电子邮件，但如果你不希望他们收到音频会议的电子邮件，可使用 Microsoft Teams 或 Windows PowerShell。 
 

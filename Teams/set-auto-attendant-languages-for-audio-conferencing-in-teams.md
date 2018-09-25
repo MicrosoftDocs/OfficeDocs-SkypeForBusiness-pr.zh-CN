@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 26d73dda-ab26-4af4-8aec-d17f3479ae50
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,18 +20,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 了解如何在 Microsoft Teams 中针对音频会议号码选择音频会议自动助理语言。
-ms.openlocfilehash: 73498e348b45b0fa2d9996344b569a92320a06b6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: b9613b5e64bad0428975a6acd3b11db16a42c680
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23893015"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017950"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft Teams 中设置音频会议自动助理语言
 
 Microsoft Teams 的音频会议自动助理可以在音频呼叫者加入会议时使用多种不同的语言向其问好。
   
-可选择一种主要语言以及最多四种辅助语言。 自动助理将首先使用你设置的主要语言，然后按你选择的顺序使用辅助语言。 
+选择一种主要语言和最多四种辅助语言。 将首先使用您之前设置的主要语言和自动助理将使用的辅助语言，以便您选择。 
   
 > [!NOTE]
 >  只能对国内音频访问电话号码配置语言。
@@ -48,7 +48,7 @@ Microsoft Teams 的音频会议自动助理可以在音频呼叫者加入会议�
 3. 在右侧窗格中，选择所需的默认语言以及任何备用语言。 
  
     > [!NOTE]
-    > 将列出支持的默认和备用语言。 你在列表中选择语言的顺序即是向呼叫者呈现的语言顺序。 
+    > 列出默认和备用语言支持。 在其中选择这些列表中的顺序将向呼叫者显示的语言的顺序。 
 
 4. 单击“**保存**”。
 

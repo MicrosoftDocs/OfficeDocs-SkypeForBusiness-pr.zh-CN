@@ -7,8 +7,12 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: c23f007c-b858-4691-af72-c95d94676331
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于波多黎哥业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 849bb06a24a8a2545a4d8f2025f89604b6107f71
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: bf9d7be7c2930ac6f0014e9c8b13a90baf6cae41
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858264"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017766"
 ---
 # <a name="availability-in-puerto-rico"></a>波多黎各 （美） 中的可用性
 

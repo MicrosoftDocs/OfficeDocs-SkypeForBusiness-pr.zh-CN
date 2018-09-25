@@ -6,17 +6,18 @@ manager: serdars
 ms.date: 10/23/2017
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviwer: rramesan
 search.appverid: MET150
 description: 了解管理员如何在 Microsoft Teams 中查看有关来宾用户的信息。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 848d17e135aa063ac87fc845d265e14217d7db38
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a0aab46d2cbaf3ffb186422a8ff83770493fa40e
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860384"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014618"
 ---
 <a name="view-guest-users-in-a-team"></a>在团队中查看来宾用户
 ==========================

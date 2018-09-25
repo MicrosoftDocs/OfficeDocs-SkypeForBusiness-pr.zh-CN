@@ -10,15 +10,15 @@ ms.reviewer: ''
 description: 管理员可以使用 Teams MSI 批量部署 Microsoft Teams 来选择用户或计算机。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3141eb3f7d584e2140c95ec509e14285cc1cfe7c
-ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
+ms.openlocfilehash: 63ee69d56cff0fd3d25ae6aa16a02fc45340dce4
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24975097"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014376"
 ---
 <a name="install-microsoft-teams-using-msi"></a>使用 MSI 安装 Microsoft Teams
 =================================

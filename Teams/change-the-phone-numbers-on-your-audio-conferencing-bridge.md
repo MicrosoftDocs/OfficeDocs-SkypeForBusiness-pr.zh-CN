@@ -7,9 +7,12 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 当您购买音频会议许可证时，Microsoft 承载您的组织的音频会议桥。 音频会议桥出从不同位置的电话拨入电话号码，即使这样会议组织者和参与者可以使用其加入 Skype 业务或 Microsoft 团队的会议使用电话。
-ms.openlocfilehash: 32376134a6faa6944c6a4bb3e36a92cf3407ebce
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5cd9a925ecf7dd24d900ebcbd30de3a30ec7a97d
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23892491"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016746"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改音频会议网桥的电话号码
 
@@ -46,7 +49,7 @@ ms.locfileid: "23892491"
 
 1. 使用你的工作帐户登录 Office 365。
 
-2. 转到**Office 365 管理中心** > **管理中心** > **for Business 的 Skype** > **语音** > **电话号码**。
+2. 转到**Office 365 管理中心** > **管理中心** > **团队和 Skype** > **旧门户** > **语音** > **电话号码**。
 
 3. 从列表中，并在操作窗格中选择的电话号码，请单击**分配**。
 
@@ -65,7 +68,7 @@ ms.locfileid: "23892491"
   
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到**Office 365 管理中心** > **管理中心** > **for Business 的 Skype** > **音频会议** > **用户**和选择列表中的用户。
+2. 转到**Office 365 管理中心** > **管理中心** > **团队和 Skype** > **旧门户** > **音频会议** > **用户**和选择列表中的用户。
 
 3. 在"操作"窗格中单击" **编辑**"。
 
@@ -129,7 +132,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到**Office 365 管理中心** > **管理中心** > **for Business 的 Skype** > **语音** > **电话号码**。
+2. 转到**Office 365 管理中心** > **管理中心** > **团队和 Skype** > **旧门户** > **语音** > **电话号码**。
 
 3. 从列表中，并在操作窗格中选择的电话号码，请单击**取消分配**。
 

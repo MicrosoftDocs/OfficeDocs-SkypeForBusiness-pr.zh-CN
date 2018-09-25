@@ -6,17 +6,18 @@ manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: marcl
 search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8177d7b4fa6768163c225a385229a356b49e1425
-ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
+ms.openlocfilehash: 00ff17cc8fb28f0279f1356937465668dc6b7afe
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "23999209"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015482"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -82,7 +83,7 @@ ms.locfileid: "23999209"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|无法保存个人资料图片  <br/> |Exchange 邮箱在本地托管时，用户无法保存其个人资料图片。  <br/> |无解决方法。  <br/> |2017 年 2 月 28 日  <br/> |
+|无法保存个人资料图片  <br/> |承载 （驻留） 在内部部署 Exchange 2016 CU2 或更低 Exchange 邮箱时，用户无法保存其配置文件图片。  <br/> |无解决方法。  <br/> |2017 年 2 月 28 日  <br/> |
 
 ## <a name="browser"></a>浏览器
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
@@ -112,9 +113,6 @@ ms.locfileid: "23999209"
 |:-----|:-----|:-----|:-----|
 |已删除邮件的 @ 提及发送包含通道链路通知  <br/> |没有已知的通知限制时在-提到在邮件中删除;订阅源中的通知将导航到该频道，但不适用于特定的邮件。 <br/> | 通过设计 <br/> | 3/28/17  <br/>|
 
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|
-|本地 Skype for Business 用户无法收到我的消息  <br/> |Microsoft Teams 用户尝试向使用本地 Skype for Business 的其他人发送消息，无法完成消息传递。  <br/> | 支持 Teams 与 Skype for Business Online 上托管的用户之间的互操作性。 Teams 用户可以向使用 Skype for Business Online 的非 Teams 用户发送一对一聊天。 <br/> 不支持 Teams 与本地 Skype for Business 上托管的用户之间的互操作性。 Teams 用户无法向使用本地 Skype for Business 的非 Teams 用户发送一对一聊天。  <br/> |2016 年 11 月 2 日  <br/> |
 
 ## <a name="client"></a>客户端
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
@@ -152,9 +150,6 @@ ms.locfileid: "23999209"
 |:-----|:-----|:-----|:-----|
 |某些会议需要 Skype for Business  <br/> |你的约会日历方便地显示在 Microsoft Teams 中。 为了进入会议，单击“**加入**”按钮。 <br/> 目前我们仍在此方面一直进行开发，如果此会议是使用 Skype for Business 安排的，则你单击“**加入**”后，Microsoft Teams 将启动你的 Skype for Business 客户端以便你进入会议。 在 Microsoft Teams 中安排的会议将在该产品中直接启动。  <br/> 将来，我们将改进此体验。  <br/> |单击“**加入**”。 Microsoft Teams 将智能地根据会议说明中包含的 URL 确定用户是否需要 Skype for Business 才能加入会议。  <br/> |2017 年 3 月 13 日  <br/> |
 
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|
-|缺少**会议**是发现使用 Exchange 自动发现。 <br/> Microsoft 团队还不支持邮箱驻留在 Exchange 在左侧的导航栏中的图标 <br/> |应用程序栏上的**会议**图标是当前仅对用户启用邮箱是在 Office 365 多租户和少专用的用户其邮箱位置可以-选择内部部署组织和 Exchange 专用上。 正在调查此情况；但没有提供此功能的时间安排。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -162,7 +157,7 @@ ms.locfileid: "23999209"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|会议不可用  <br/> |Exchange 邮箱在本地托管时，不提供会议功能和图标。  <br/> |将本地部署升级到 Exchange 2016 CU3 或更高版本  <br/> |2017 年 2 月 28 日  <br/> |
+|会议不可用  <br/> |承载 （托管） 的本地版本小于 Exchange 2016 CU3 中的 Exchange 邮箱时，会议功能不可用。  <br/> |将本地部署升级到 Exchange 2016 CU3 或更高版本  <br/> |2017 年 2 月 28 日  <br/> |
 
 ## <a name="mobile"></a> 手机
 

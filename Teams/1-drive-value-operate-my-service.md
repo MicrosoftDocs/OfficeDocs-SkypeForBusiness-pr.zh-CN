@@ -11,15 +11,15 @@ ms.reviewer: rowille
 ms.collection: Teams_ITAdmin_PracticalGuidance
 description: 任务和所需的团队服务管理，包括监视服务运行状况和评估并确保网络质量和使用情况的活动。
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a3ff11ecf2a4c3ce6aba581adb0d50e7188b351
-ms.sourcegitcommit: a9bf4de79c84d239488455575322188a03535f71
+ms.openlocfilehash: ab2b118afd4796d7113bccee485c1a9a52b9b605
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24013512"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012542"
 ---
 # <a name="operate-my-service"></a>运行我的服务
 

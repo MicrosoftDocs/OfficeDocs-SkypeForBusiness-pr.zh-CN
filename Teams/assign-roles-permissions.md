@@ -10,15 +10,15 @@ ms.reviewer: dansteve
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中分配团队所有者和成员角色，包括创建团队的权限。
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2fd9f611d616f368973ced432e886bf4ba9d8f5
-ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
+ms.openlocfilehash: 1d5b3f52caf7de455d2b579a3360d17e18602450
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24021807"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014288"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>分配团队所有者和中的 Microsoft 团队的成员
 =================================================

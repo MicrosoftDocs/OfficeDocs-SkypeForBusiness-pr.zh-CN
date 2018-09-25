@@ -7,8 +7,12 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: fbbdebfe-497d-41e1-b654-39bbb2e5a67e
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于台湾业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: e4b0e9908216a359c56289db711f05fbf83f878a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 300f95fc75c8760b8524cc4904bb0eb83b7b29c5
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851180"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017236"
 ---
 # <a name="availability-in-taiwan"></a>台湾中的可用性
 

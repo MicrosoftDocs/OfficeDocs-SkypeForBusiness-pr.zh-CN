@@ -5,17 +5,18 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: 在 Microsoft Teams 中部署云语音功能实践指导
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14b7003ca1ccecd0574e9c7e06de5cd81d85547e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 41cb6fdc7d27b90939be540d04b73fdc1f052818
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851172"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014176"
 ---
 # <a name="teams-cloud-meeting-recording"></a>团队云会议录制
 
@@ -36,7 +37,7 @@ ms.locfileid: "23851172"
 - 用户已同意的公司准则，如果管理员设置
 - 用户要保存录制的 Microsoft 流中具有足够的存储空间
 - 用户具有 TeamsMeetingPolicy AllowCloudRecording 设置设置为 true
-- 用户具有 TeamsMeetingPolicy.AllowTranscription 设置设置为 true，以便用户可以选择是否自动，理赔录制
+- 用户具有 TeamsMeetingPolicy AllowTranscription 设置设置为 true，以便用户可以选择是否自动，理赔录制
 - 用户不是匿名，来宾或会议中的联合的用户
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>设置团队云会议录制您的组织中的用户
@@ -118,7 +119,7 @@ Microsoft 流是可用的合格的 Office 365 订阅一部分或作为独立的�
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>合规性和会议录音的电子数据展示
 在 Microsoft 流中，这是 Office 365 层-C 符合存储会议录制。 若要为合规性管理员感兴趣的 Microsoft 流开会或打电话录制支持电子发现请求，录制已完成的消息中提供了 Microsoft 团队的合规性内容搜索功能。 合规性管理员可以查找"录制"合规性内容搜索预览中的项目的主题行中的关键字和发现会议和呼叫组织中的记录。 用户可以查看所有录制先决条件是，他们将需要设置 Microsoft 流中具有管理员访问权限。 了解有关[流中的分配管理员权限](https://docs.microsoft.com/stream/assign-administrator-user-role)的详细信息。
 
-## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
+## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
 Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过只使用 Office 365 管理中心中的，如时要进行设置更改多个用户一次。 若要开始使用 Windows PowerShell，请参阅下列主题：
 

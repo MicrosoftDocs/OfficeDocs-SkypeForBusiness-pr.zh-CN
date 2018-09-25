@@ -10,15 +10,15 @@ ms.reviewer: rowille
 description: 通过管理服务、网络和终结点运行状况以及定义可操作的质量支持者角色，实现高质量的 Teams 用户体验。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f9c1ad02eee00947f8b1367e87e6879ee361dcb
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 29b17157178f8e7565fd6f484d6d95262c76ce05
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884283"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015578"
 ---
 # <a name="plan-for-service-management-and-quality"></a>规划服务管理和质量
 

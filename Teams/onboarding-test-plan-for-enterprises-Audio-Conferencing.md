@@ -10,15 +10,15 @@ ms.reviewer: rowille
 description: 验证通过测试音频会议中团队特性、 功能和可用性符合贵组织的预期。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2df81aec5f5fe7ba1d1c5e097074cde6dd0eeb56
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5d16c55ac5e307192f93e593bca9910e1be9393d
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882385"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017132"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>定义和团队测试计划适用于企业中文档音频会议 
 ===============================================================================

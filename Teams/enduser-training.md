@@ -7,16 +7,18 @@ layout: LandingPage
 ms.date: 09/21/2018
 ms.topic: landing-page
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Training
+ms.reviewer: lolaj
 search.appverid: MET150
 description: 培训视频、 教程和其他资源来了解和使用团队组织中的用户。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e1151d5b7ef371cf3b63b0a060dab6707bedd7a
-ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
+ms.openlocfilehash: 584b812317d347f416f57dae3f8d65db37717af4
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "24967364"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017148"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams 的最终用户培训
 

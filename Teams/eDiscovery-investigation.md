@@ -6,17 +6,18 @@ manager: serdars
 ms.date: 09/12/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: anach
 search.appverid: MET150
 description: 了解你需要执行电子数据展示时（例如，你需要提交所有电子方式存储的信息用于法律程序时）要完成的事项。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5d5da1ea0fc098a951e65cbb31acd5c7a54974c
-ms.sourcegitcommit: 6a2466a3bf4cc2390a9be40dea0736174ef180e2
+ms.openlocfilehash: a903e67417cfb24f388c2d194f5f5136f1224cdd
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "23957163"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25011902"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 ============================

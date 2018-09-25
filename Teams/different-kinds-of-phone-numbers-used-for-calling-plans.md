@@ -7,9 +7,12 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 26602564-0f15-44e6-a27b-c8f26668ba7f
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Skype 业务 online 使用不同的电话号码类型，具体取决于您要使用的电话号码的用途。
-ms.openlocfilehash: 0740b3f467dd14c25632e533a6849ef83488da9b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e99324e31607f628f90eda271584882a109f47cd
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883178"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014392"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>用于通话套餐的不同类型的电话号码
 

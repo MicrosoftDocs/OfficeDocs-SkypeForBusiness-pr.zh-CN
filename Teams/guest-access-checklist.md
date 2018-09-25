@@ -10,15 +10,15 @@ ms.reviewer: rramesan
 description: 使用此清单可帮助 Microsoft 团队来宾 Access 中的来宾访问设置。
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2745c69c9deb7d949c4e743361c3c1d827870365
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6f7a1464159bf613800756eb8568510c3749939e
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892655"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017180"
 ---
 <a name="teams-guest-access-checklist"></a>团队来宾访问清单
 ==========================================

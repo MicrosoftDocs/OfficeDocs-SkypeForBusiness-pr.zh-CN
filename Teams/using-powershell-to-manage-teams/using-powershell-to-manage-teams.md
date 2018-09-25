@@ -5,16 +5,17 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: 了解如何使用 Windows PowerShell 管理所有的 Microsoft 团队中找到的功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3deddb614be2ad5ee1389dcf53d8dab749a8567b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0daff64e5a0f6f876de4adb7b60d913fbcce78cb
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855642"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016074"
 ---
 # <a name="using-powershell-to-manage-teams"></a>使用 PowerShell 管理团队
 

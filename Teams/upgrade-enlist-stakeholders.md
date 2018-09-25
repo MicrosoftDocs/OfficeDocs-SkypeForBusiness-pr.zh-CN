@@ -11,15 +11,15 @@ description: 登记利益干系人提供您升级的项目工作组。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe32df433159512d4e24d2bde7c2db76db23c32a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 89de20a88ab128dbef994150a9767ba45e4064a5
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883278"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013030"
 ---
 ![升级旅程，重点强调收集您的团队的项目利益干系人的阶段](media/upgrade-banner-stakeholders.png "升级旅程，重点强调收集您的团队的项目利益干系人的阶段")
 
@@ -54,7 +54,7 @@ ms.locfileid: "23883278"
 | 网络主管                    | 深入了解网络设计和执行                             | 
 | 安全主管                   | 深入了解安全设计、 过程和实现             | 
 | 同步通讯负责人 | 拥有状态，例如聊天、 会议、 工具和调用                       | 
-| 异步协作式  | 拥有异步如 SharePoint、 OneDrive 等工具               | 
+| 异步协作负责人  | 拥有异步如 SharePoint、 OneDrive 等工具               | 
 | 电话服务主管                  | 深入了解电话设计和实施                      | 
 | 服务所有者 / 质量冠军 | 负责团队所有-向上，包括用户体验质量的操作 | 
 | 桌面和设备负责人        | 提供输入到客户端、 设备和桌面应用程序                          | 

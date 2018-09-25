@@ -10,15 +10,17 @@ ms.reviewer: MyAdvisor, lolaj
 search.appverid: MET150
 description: 有关在 Microsoft Teams 中配置通话套餐的快速入门指南。
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86a4862a547df6f50d0831616a42824d9f8c3287
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 6a1fb82f57035f238ce222bf7f21b72983d21075
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882095"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015930"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>快速入门指南：在 Microsoft Teams 中配置通话套餐
 ==============================================================
@@ -35,7 +37,7 @@ ms.locfileid: "23882095"
 ![在 Teams 中进行通话](media/Calling_in_Teams.png)
 
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>在 Teams 中启用 **“通话”** 选项卡的先决条件
-要在 Teams 中启用 **“通话”** 选项卡，并允许你的用户拨打和接听 PSTN 呼叫，你需要为电话系统和通话套餐预配用户。 要了解如何对此进行设置，请阅读[设置通话套餐](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)。
+要在 Teams 中启用 **“通话”** 选项卡，并允许你的用户拨打和接听 PSTN 呼叫，你需要为电话系统和通话套餐预配用户。 要了解如何对此进行设置，请参阅[设置通话套餐](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)。
 
 ## <a name="teams-interop-policy-configuration"></a>Teams 互操作性策略配置
 要启用 Teams 以开始接听呼叫，需要使用 [Microsoft Teams 和 Skype for Business 管理中心](https://aka.ms/teamsadmincenter)或结合使用远程 Windows PowerShell 会话与 Skype for Business [`*-CsTeamsUpgradePolicy` 和 `*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype) cmdlet 来更新 Teams 升级策略和 Teams 互操作性策略以将呼叫重定向至 Teams。

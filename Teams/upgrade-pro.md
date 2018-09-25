@@ -11,15 +11,15 @@ description: 如果您正在大型组织或主要具有自定义业务部署您 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff25edcfc24df1040aa7d23606e62d4beccb08dd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e3faa5874071f7587f94cf4f1719b877a9aed1d4
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891503"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013664"
 ---
 # <a name="upgrade-pro"></a>升级专业人员
 
@@ -113,5 +113,5 @@ _7 至 45 天： 实现从 for Business 的 Skype 您升级到团队。_
 > 不断发展我们升级专业人员的内容。 请务必重新检查的最新的指南，并阅读[团队博客 （英文）](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)。 
 
 > [!Important]
-> 如果您在 Office 365 租户管理员，您可能开始查看 PowerShell cmdlet 或团队管理中心中的升级选项。 具有升级选项并不一定意味着您的组织已准备好进行此更改。 为获得最佳用户体验，请确认团队满足协作和通信要求，请验证您的网络已准备好支持团队和实现之前将用户升级到团队您用户的准备工作计划。
+> 如果您在 Office 365 租户管理员，您可能开始查看您 PowerShell cmdlet 或团队和 Business Admin Center 的 Skype 中的升级选项。 具有升级选项并不一定意味着您的组织已准备好进行此更改。 为获得最佳用户体验，请确认团队满足协作和通信要求，请验证您的网络已准备好支持团队和实现之前将用户升级到团队您用户的准备工作计划。
  

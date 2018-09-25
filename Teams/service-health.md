@@ -6,16 +6,17 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: 建议验证 Teams 服务以及其他 Office 365 组件（例如 Exchange、SharePoint 和 OneDrive for Business）是否正常运行。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c9a528187461fe513eb7aa5782696f80313bc5d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a9e04c6dfb42826bef29bcdf810833aec11c9ea2
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867602"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015435"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>验证 Microsoft Teams 的服务运行状况
 ===========================================

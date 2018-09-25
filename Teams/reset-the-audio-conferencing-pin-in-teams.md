@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 67866a47-89c1-4593-8766-3a68777e2be6
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,18 +20,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解你应该了解的 PIN 相关信息以及如何在 Microsoft Teams 中重置 PIN。 '
-ms.openlocfilehash: 9c63df504150dce7ba1d46329fc86a27c75ced8d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: b88ab6ee2cd498a38026e1fe2bfde04344514901
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892951"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014248"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>在 Microsoft Teams 中重置音频会议 PIN
 
-PIN 是指为启用了音频会议的每个 Microsoft Teams 用户创建的由数字组成的代码。 音频会议 PIN 由会议组织者用于标识自己是会议组织者，并且会议组织者可以使用 PIN 通过电话启动会议。 如果他们使用 Microsoft Teams 应用启动会议，则不需要 PIN。 如果用户忘记了其 PIN，并且在启用音频会议时收到的电子邮件中找不到 PIN，管理员可以重置其 PIN，或者用户可以重置自己的 PIN。
+PIN 是为每个启用音频会议的 Microsoft 团队用户创建的数字组成的代码。 音频会议 Pin 使用会议组织者标识它们是会议组织者，并允许通过电话开始会议。 如果他们使用的 Microsoft 团队应用程序启动会议，不需要 PIN。 如果用户忘记了其 PIN，他们不能在他们已启用音频会议时发送给他们的电子邮件中找到它，管理员可以重置其 PIN，或者他们可以重置其自己的 PIN。
   
-当经过身份验证的用户使用 Microsoft Teams 应用加入时或者当组织者通过电话使用其 PIN 加入时，可以启动会议。 如果会议要求提供 PIN 才能启动，则通过电话加入会议的所有用户都将进入会议厅并将收听保持音乐，直至会议启动。 如果会议组织者不需要 PIN 来通过电话启动会议，则当呼叫者加入会议时，系统不会要求他们提供 PIN。
+经过身份验证的用户加入使用 Microsoft 团队应用程序或时组织者加入与他/她 PIN 通过电话时，可以开始会议。 如果会议要求提供 PIN 才能启动，则通过电话加入会议的所有用户都将进入会议厅并将收听保持音乐，直至会议启动。 如果会议组织者不需要 PIN 来通过电话启动会议，则当呼叫者加入会议时，系统不会要求他们提供 PIN。
 
 ## <a name="reset-a-users-pin"></a>重置用户的 PIN
 
@@ -52,19 +52,19 @@ PIN 是指为启用了音频会议的每个 Microsoft Teams 用户创建的由�
 
 ## <a name="what-else-should-you-know-about-pins"></a>你还应该了解有关 PIN 的哪些信息？
 
-- 出于安全考虑，PIN 仅在重置时向管理员显示一次。 管理员重置 PIN 后，PIN 将以 *********** 列出。
+- 出于安全考虑，PIN 仅在重置时向管理员显示一次。 由管理员重置 PIN 后，将作为列出 PIN ***。
     
-- 默认情况下启用自动向用户发送电子邮件，当为用户启用了音频会议时或重置 PIN 时，用户将收到包含其 PIN 的电子邮件。 但如果你已禁用自动发送电子邮件，则不会向用户发送 PIN 重置电子邮件，并且你必须手动向用户发送 PIN 信息。
+- 默认情况下启用，自动向用户发送电子邮件，并且他们正在启用音频会议或时重置 PIN 时，用户将收到电子邮件与他们的 PIN。 但如果您已禁用自动发送电子邮件、 PIN 重置电子邮件将不会发送给用户，并且必须手动发送给用户的 PIN 信息。
     
 - 当会议启动时，会议厅中的所有用户都将自动加入该会议。 例如，如果两个参与者在会议启动之前尝试加入会议，他们将进入会议厅并将收听保持音乐，当会议组织者通过电话使用 PIN 加入时，该会议将启动，会议厅中的参与者将加入会议。
     
 - 默认设置不允许匿名呼叫者启动会议。
     
-- 当你为用户启用音频会议时，默认情况下，将会向他们发送包括会议信息及其 PIN 的电子邮件。 用户必须有 Office 365 邮箱是因为当重置 PIN 时，将通过电子邮件向为用户设置的主 SMTP 地址（别名）发送新 PIN。
+- 当您启用音频会议的用户时，默认情况下它们发送电子邮件，包括会议信息和其 PIN。 用户必须具有 Office 365 邮箱，因为一个新的 PIN 重置 PIN 时, 将发送到电子邮件到为用户设置其主 SMTP 地址 （别名） 中的用户。
     
-- 当你设置音频会议时，将设置贵组织所需的 PIN 位数。 PIN 可以为 4 至 12 位数 - 默认为 5 位。 如果你更改 PIN 长度设置，则仅对新生成的 PIN 应用设置，不会对启用了音频会议的现有用户的 PIN 设置应用更改。 请参阅[设置音频会议的 PIN 的长度](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)。
+- 当您设置了音频会议时，您设置所需的 Pin 在组织中的数字。 PIN 可以包含 4 至 12 个数字，默认情况下为 5 个。 如果您更改 PIN 长度设置，请设置仅应用于新生成的旋转中心点，并且不应用于启用了音频会议的现有用户的 PIN 设置。 请参阅[设置音频会议的 PIN 长度](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)。
     
-- 默认情况下，电子邮件将设置为用户的 Office 365 主 SMTP 地址。 你可以向 Hotmail 或 MSN 电子邮件地址等非 Office 365 地址发送电子邮件。 你可以使用 Windows PowerShell 覆盖默认电子邮件地址。 如果用户在 Office 365 中没有 Exchange 邮箱，则此功能很有用。
+- 默认情况下电子邮件将设置为用户的 Office 365 主 SMTP 地址。 您可以向 Office 365 的地址，例如 Hotmail 或 MSN 电子邮件地址发送电子邮件。 通过使用 Windows PowerShell，可以覆盖默认电子邮件地址。 如果用户在 Office 365 中没有 Exchange 邮箱，则此功能非常有用。
 
     
 

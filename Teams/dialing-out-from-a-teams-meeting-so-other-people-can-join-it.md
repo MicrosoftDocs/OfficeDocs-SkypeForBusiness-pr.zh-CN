@@ -7,10 +7,11 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 3c2db9a5-3a19-4e19-b59e-8e5587f25d31
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 了解你需要的信息以及会议组织者如何使用 Teams 向其他人拨出。
-ms.openlocfilehash: 498f03e5ff42c3c99b6e151c05e1c6174054db46
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 7fe3cbdca38c04b498806d3bd05a4f7bef5ea290
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892991"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012734"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>从 Microsoft Teams 会议拨出，以便其他人可以加入会议
 
-作为会议组织者，你可以使用 Teams 应用拨出以让其他人使用其电话加入同一会议。 尽管这不是必需的，但是当你向其他人拨出时，建议你拨打完整的号码（包括国家/地区代码）。 要让拨出功能正常工作，必须满足以下条件：
+作为会议组织者，您可以拨出使用团队应用程序让其他人加入同一会议使用他们的电话。 尽管这不是必需的，但是当你拨出给某人时，建议你拨打完整的号码，包括国家/地区代码。 要让拨出功能正常工作，必须满足以下条件：
   
 - 仅当使用 Teams 加入会议时，才能拨出。
     
@@ -47,7 +48,7 @@ ms.locfileid: "23892991"
   
 ## <a name="supported-countries-and-regions"></a>支持的国家和地区
 
-拨出功能仅适用于某些国家/地区。 有关完整列表，请参阅[音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+拨出功能仅适用于某些国家/地区。 有关完整列表，请参阅[国家和地区音频会议和调用计划的可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>想要了解有关音频会议的详细信息？
 

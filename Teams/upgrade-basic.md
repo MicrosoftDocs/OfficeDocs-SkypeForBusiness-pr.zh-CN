@@ -11,15 +11,15 @@ description: 对于升级到团队业务的 Skype 加速的 10 步骤操作计�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea1e371ae10991c5a8d5d9121da9f78fb44af430
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7ba3471b2a51a4629d316a4507a08cd02e30022a
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883210"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015642"
 ---
 <a name="about-upgrade-basic"></a>
 # <a name="upgrade-basic"></a>升级基本 
@@ -151,7 +151,7 @@ ms.locfileid: "23883210"
 
 *（升级天）*
 
-今天是您的组织正式升级到团队为您的通信和协作解决方案的天。 在 Office 365 管理门户中，通过将共存模式设置为**仅团队**激活升级开关。 在其 Skype 业务他们已向工作组已升级的客户端，用户将收到通知。
+今天是您的组织正式升级到团队为您的通信和协作解决方案的天。 在工作组和 Skype 的业务管理中心中，通过将共存模式设置为**仅团队**激活升级开关。 (在管理中心，转到**组织范围的设置** > **团队升级**。)在其 Skype 业务他们已向工作组已升级的客户端，用户将收到通知。
 
 我们建议每个人在升级之后，您发送电子邮件向工作组欢迎它们。
 

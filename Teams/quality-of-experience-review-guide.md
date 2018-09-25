@@ -10,15 +10,15 @@ ms.reviewer: rowille
 description: 使用呼叫质量仪表板 (CQD) 分析 Microsoft 团队的实时的媒体性能的指南。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 452efa8191e1ab20f4d64d373cfee82d70805681
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 264e3ae4573531cebf8723294f42ee66453bfa73
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887662"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013808"
 ---
 # <a name="quality-of-experience-review-guide"></a>查看用户体验指南的质量
 
@@ -436,12 +436,12 @@ _图 6-Microsoft 团队筛选器添加到报表_
 
 常见的子网是特定酒店或、 家庭网络、 热点和相似区域使用的专用子网。 由于其广泛使用会审难以这些子网。 如果您的组织使用这些常见的子网，我们建议您将该网络移到另一个子网。 这将使 CQD 中的报告以便更轻松。 当另有说明，已配置报告中的所有网络模板来排除这些子网，以消除这些作为质量不佳的一个来源。 常见的子网定义如下;其影响组织的不同而有所不同。
 
--   10.0.0.0
--   192.168.0.0
--   192.168.1.0
--   192.168.2.0
--   172.20.10.0
--   192.168.43.0
+-   10.0.0.0/24
+-   192.168.0.0/24
+-   192.168.1.0/24
+-   192.168.2.0/24
+-   172.20.10.0/24
+-   192.168.43.0/24
 
 当调查托管的网络使用常见的子网，您需要使用第二个身本地 IP dimension 到组子网。 此维度包含终结点的公共 IP 地址。
 
@@ -960,7 +960,7 @@ _表 9-呼叫的后续步骤放置修正_
 
 | 修正                              | 指南                      |
 |------------------------------------------|-------------------------------|
-| **网络/internet**                         | **拥塞**： 使用您的网络团队监视在特定建筑物/子网确认不存在问题与过度使用带宽。 如果您执行确认存在网络拥塞，请考虑增加到该生成的带宽或应用 QoS。 使用包含[质量不佳流摘要报告](#quality-investigations)查看问题子问题的抖动、 延迟和数据包丢失，因为这些通常将前面丢弃的流。<br><br>您可以使用[网络规划器工具](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)有助于更好地了解您组织的带宽需求。<br><br>**QoS**： 如果增加带宽不切实际或成本上不可行，请考虑实现 QoS。 此工具是非常有效地管理拥挤的流量，都无法保证上方非媒体流量托管网络上的媒体数据包确定其优先级。 此外，如果不清除证据的带宽有原因，请考虑这些解决方案：<ul><li>[Microsoft 团队 QoS 指南](qos-in-teams.md)</li><li>[Skype 的业务 QoS 指南](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul><br>**执行网络准备情况评估**： 网络评估提供了有关预期的带宽使用情况的详细信息、 如何应对带宽和网络发生更改，以及建议个团队和 Skype for Business 的网络的做法。 使用上表作为您的源，必须建筑或子网的最佳候选人评估的列表。<ul><li>[Microsoft 团队网络准备情况评估](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype 的业务网络准备情况评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft 网络评估工具：** 简单的网络性能测试中使用此工具可确定网络团队将执行程度或 Skype 业务联机呼叫。 此工具可帮助您评估子网的性能和验证针对 Microsoft 性能[要求](https://aka.ms/performancerequirements)的网络的准备。<ul><li>[下载网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br>**CxdCallData**： 此脚本可用于帮助映射到呼叫分析中的特定用户的子网。 CQD 没有任何 PII 数据，因此可能很难映射到实际用户的子网。 如果您注意某些子网有高抖动或数据包丢失，您可以使用该脚本提取数据直接从要显示单个呼叫详细信息，如用户名、 传输、 抖动、 数据包丢失、 延迟和更多的服务。 脚本也将返回直接链接到呼叫分析，以允许其他会审中的报表。 可以在 PowerShell 库中找到此脚本：<ul><li>[https://www.powershellgallery.com/packages/CxdCallData](https://www.powershellgallery.com/packages/CxdCallData)</li></ul> |
+| **网络/internet**                         | **拥塞**： 使用您的网络团队监视在特定建筑物/子网确认不存在问题与过度使用带宽。 如果您执行确认存在网络拥塞，请考虑增加到该生成的带宽或应用 QoS。 使用包含[质量不佳流摘要报告](#quality-investigations)查看问题子问题的抖动、 延迟和数据包丢失，因为这些通常将前面丢弃的流。<br><br>您可以使用[网络规划器工具](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)有助于更好地了解您组织的带宽需求。<br><br>**QoS**： 如果增加带宽不切实际或成本上不可行，请考虑实现 QoS。 此工具是非常有效地管理拥挤的流量，都无法保证上方非媒体流量托管网络上的媒体数据包确定其优先级。 此外，如果不清除证据的带宽有原因，请考虑这些解决方案：<ul><li>[Microsoft 团队 QoS 指南](qos-in-teams.md)</li><li>[Skype 的业务 QoS 指南](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul><br>**执行网络准备情况评估**： 网络评估提供了有关预期的带宽使用情况的详细信息、 如何应对带宽和网络发生更改，以及建议个团队和 Skype for Business 的网络的做法。 使用上表作为您的源，必须建筑或子网的最佳候选人评估的列表。<ul><li>[Microsoft 团队网络准备情况评估](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype 的业务网络准备情况评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft 网络评估工具：** 简单的网络性能测试中使用此工具可确定网络团队将执行程度或 Skype 业务联机呼叫。 此工具可帮助您评估子网的性能和验证针对 Microsoft 性能[要求](https://aka.ms/performancerequirements)的网络的准备。<ul><li>[下载网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul> |
 | **客户端 (for Business 的 Skype 仅联机)** | 知道某些旧客户端，记录与媒体可靠性的问题。 查看呼叫分析报告从多个受影响的用户，或在 CQD 筛选到特定建筑或子网与而丢弃的总呼叫失败 %度量值中创建自定义客户端版本表报表。 此信息将帮助您了解呼叫中的特定构建的垂直距离和客户端的特定版本之间是否存在的关系。     |
 | **设备**                                  | 我们建议遇到任何用户调用下降 — 或质量欠佳的呼叫通常 — 且应使用集成的设备设置[认证的耳麦或免提电话](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)以消除这作为潜在的质量不佳和可靠性源。 |
 | **用户行为**                            | 如果您确定，既未网络、 设备或客户端问题，请考虑[我顾问](https://aka.ms/myadvisor)适当的开发培训用户如何以最佳加入并退出会议的用户应用策略的指南。 效率团队和业务用户的 Skype 将会议中的所有参与者的用于生成更好的用户体验。 将其便携式计算机置入休眠模式 （通过关闭盖） 放而不退出会议的用户将被分类为意外的调用投递。   |
@@ -1034,7 +1034,7 @@ _图 24 – 来构建差音频流摘要-和子网会议_
 -   **数据包丢失**： 媒体数据包将被丢弃，这将创建缺少的单词或音节的影响。
 -   **RTT**： 媒体数据包正在获取其目标，创建一个 walkie-talkie 效果很长时间。
 
-为了帮助您研究质量问题，您可以利用[呼叫分析](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)。 使用呼叫分析，您可以查看特定会议或用户的详细的呼叫报告。 此报告将包含 PII 数据，正在寻找失败的原因时很有用。 您知道受影响的构建后，它应简单跟踪该构建中的用户。 对于在映射到用户的质量欠佳的子网的帮助，使用使用 SubnetCsvFile 函数[CxdCallData](https://github.com/jasonshave/CxdCallData)脚本。
+为了帮助您研究质量问题，您可以利用[呼叫分析](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)。 使用呼叫分析，您可以查看特定会议或用户的详细的呼叫报告。 此报告将包含 PII 数据，正在寻找失败的原因时很有用。 您知道受影响的构建后，它应简单跟踪该构建中的用户。 
 
 不要忘记让支持人员了解这些网络遇到质量问题，以便他们可以快速会审并响应传入呼叫。
 
@@ -1042,7 +1042,7 @@ _表 10-常见贡献高 PSR_
 
 | 修正                              | 指南                         |
 |------------------------------------------|----------------------------------|
-| **网络**                                 | **拥塞**： 使用过度或下设置网络与媒体质量会出现问题。 使用网络团队核实，确定是否从用户网络连接到 internet 出口点具有足够的带宽来支持媒体。 [网络计划工具](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)可帮助您更好地了解您组织的带宽需求。<br><br>**执行网络准备情况评估**： 网络评估提供了有关预期的带宽使用情况的详细信息、 如何应对带宽和网络发生更改，以及建议个团队和 Skype for Business 的网络的做法。 使用上表作为您的源，必须建筑或子网的最佳候选人评估的列表。<ul><li>[Microsoft 团队网络准备情况评估](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype 的业务网络准备情况评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft 网络评估工具：** 简单的网络性能测试中使用此工具可确定网络团队将执行程度或 Skype 业务联机呼叫。 此工具可帮助您评估子网的性能和验证针对 Microsoft 性能[要求](https://aka.ms/performancerequirements)的网络的准备。<ul><li>[下载网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br>**CxdCallData**： 此脚本可用于帮助映射到呼叫分析中的特定用户的子网。 CQD 没有任何 PII 数据，因此可能很难映射到实际用户的子网。 如果您注意某些子网有高抖动或数据包丢失，您可以使用该脚本提取数据直接从要显示单个呼叫详细信息，如用户名、 传输、 抖动、 数据包丢失、 延迟和更多的服务。 脚本也将返回直接链接到呼叫分析，以允许其他会审中的报表。 可以在 PowerShell 库中找到此脚本：<ul><li>[https://www.powershellgallery.com/packages/CxdCallData](https://www.powershellgallery.com/packages/CxdCallData)</li></ul> |
+| **网络**                                 | **拥塞**： 使用过度或下设置网络与媒体质量会出现问题。 使用网络团队核实，确定是否从用户网络连接到 internet 出口点具有足够的带宽来支持媒体。 [网络计划工具](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)可帮助您更好地了解您组织的带宽需求。<br><br>**执行网络准备情况评估**： 网络评估提供了有关预期的带宽使用情况的详细信息、 如何应对带宽和网络发生更改，以及建议个团队和 Skype for Business 的网络的做法。 使用上表作为您的源，必须建筑或子网的最佳候选人评估的列表。<ul><li>[Microsoft 团队网络准备情况评估](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype 的业务网络准备情况评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft 网络评估工具：** 简单的网络性能测试中使用此工具可确定网络团队将执行程度或 Skype 业务联机呼叫。 此工具可帮助您评估子网的性能和验证针对 Microsoft 性能[要求](https://aka.ms/performancerequirements)的网络的准备。<ul><li>[下载网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br> |
 | **服务质量 (QoS)**  | QoS 是该经验证的工具，可帮助确定优先级数据包拥塞的网络，以确保它们到达其保持不变的目标和时间。 请考虑实现跨组织最大限度地受到限制带宽，其中的用户体验质量的 QoS。 QoS 将帮助您解决通常与数据包丢失的高级别关联的问题和 — 在较小者一定程度上 — 不稳定和往返行程的时间。<ul><li>[Microsoft 团队 QoS 指南](qos-in-teams.md)</li><li>[Skype 的业务 QoS 指南](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul> |
 | **Wi-Fi**               | Wi-fi 可以对呼叫质量产生重大影响。 Wi-fi 部署不通常考虑 VoIP 服务的网络要求，而且通常质量不佳的源。 有关优化 Wi-fi 基础结构的详细信息，请参阅[关于 Wi-fi 规划这篇文章](/skypeforbusiness/certification/plan-wifi)。<br><br>**无线驱动程序**： 确保无线驱动因素保持最新。 这有助于减轻任何用户体验不佳与过期的驱动程序。 许多组织不在其修补程序周期中，包括无线驱动程序和年这些驱动程序可以转未安装修补程序。 通过确保无线驱动程序最新解决了许多无线问题。<br><br>**WMM**： 无线多媒体扩展 (WMM)，也称为 Wi-fi 多媒体，提供了到无线网络的基本 QoS 功能。 现代无线网络必须支持多个设备。 这些设备争夺带宽，并可能导致 VoIP 服务的质量问题的速度和延迟至关重要。 咨询您的无线供应商的详细信息，并考虑实现对您的无线网络，若要设置业务和团队媒体的 Skype WMM。<br><br>**访问点密度**： 访问点太可能远或不在的理想位置。 大程度地减少潜在干扰，将额外访问点放在会议室和不受阻背景墙或其他对象的弱 Wi-fi 信号所在的位置。<br><br>**与 5 GHz 2.4 GHz**: 5 GHz 提供较少的背景干扰和更高的速度，并通过 Wi-fi 部署 VoIP 时应确定优先级。 但是，5 GHz 不与 2.4 GHz 为强，并且不入侵轻松地的背景墙。 查看您构建的布局来确定可以最佳的连接依赖的频率。 |
 |**网络设备** | 较大的组织可能有数百个分散在网络设备。 使用您的网络团队确保从用户到 internet 的网络设备的维护和最新。 |

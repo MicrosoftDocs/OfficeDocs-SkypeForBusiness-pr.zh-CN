@@ -7,9 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 6e12242c-55f7-4bf4-90d7-0f36c0326b8e
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -20,19 +21,19 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解在 Microsoft Teams 中重置用户的会议 ID 以及获取会议更新和迁移工具链接的步骤。 '
-ms.openlocfilehash: 4e338e5ad00792a48e0a6c9e0791c0c5e4b759ac
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 8cc418b050b254930a74db8b0894dc14ccc090e5
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887849"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014128"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中重置用户的会议 ID
 
-一个动态会议 ID 与呼叫者可用于拨入会议的拨入电话号码一起包含在会议邀请底部。 在用户拨打电话号码时，会议的自动助理会要求呼叫者输入此会议 ID 才能参加会议。
+底部的会议邀请以及的拨入电话号码的呼叫者可用于向会议呼叫中包含动态的会议 ID。 当用户拨打的电话号码时，会议自动助理会要求呼叫者输入此会议 ID，以便他们可以参加会议。
   
 > [!NOTE]
-> 如果你的会议提供商是 Microsoft，则默认情况下，你的用户的会议 ID 设置为“仅动态”。 很遗憾，无法将其更改为静态，因为现在不支持。 仅会为启用了音频会议的 Microsoft Teams 用户自动设置会议 ID。 
+> 如果你的会议提供商是 Microsoft，默认情况下用户的会议 ID 设置为“仅动态”。 遗憾的是，它不能更改其成为静态的因为这是现在不受支持。 为启用了音频会议的 Microsoft 团队用户只能自动设置会议 Id。 
 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>重置用户的会议 ID
@@ -43,24 +44,24 @@ ms.locfileid: "23887849"
 
 3. 在“**音频会议**”下，单击“**重置会议 ID**”。
 
-2. 在“**重置会议 ID**”窗口中，单击“**重置**”。 将自动创建一个会议 ID，并向用户发送包含新会议 ID 的电子邮件。 默认情况下，将向用户发送电子邮件，但可以关闭此功能。   
+2. 在**重置的会议 ID**窗口中，单击**重置**。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 默认情况下电子邮件发送给用户，但这可以关闭。   
 
     
 > [!NOTE]
-> 重置会议 ID 后，将向用户发送包含新会议 ID 的电子邮件。 此电子邮件将发送到主电子邮件地址，大多数情况下是其 Office 365 邮箱。 该电子邮件包含新会议 ID、默认拨入电话号码以及更新现有会议的说明。 
+> [!注释] 重置会议 ID 后，会向用户发送包含新会议 ID 的电子邮件。 此电子邮件将发送到主电子邮件地址，大多数情况下是其 Office 365 邮箱。 电子邮件包含新的会议 ID、 默认电话拨入电话号码和更新现有会议的说明。 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="what-else-should-i-know"></a>我还应该了解哪些信息？
 
-- 你可以在“**音频会议**”部分针对用户单击“**通过电子邮件发送会议信息**”，通过电子邮件向用户发送所有会议信息（包括会议 ID 和拨入电话号码）。 它不会发送 PIN。
+- 您可以向中包括会议 ID 和电话拨入电话号码，通过单击**音频会议**部分中为用户的**发送电子邮件中的会议信息**的电子邮件的用户发送的所有会议信息。 它不会发送 PIN。
     
 - 会议 ID 将包含 7 位数，你不能更改其长度。
     
 - 重置后，你可以看到新会议 ID 列在“**会议 ID**”下。
     
-- 创建新会议 ID 后，呼叫者不能使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 
+- [!重要信息] 创建新会议 ID 后，呼叫者不能再使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 

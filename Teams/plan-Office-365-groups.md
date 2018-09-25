@@ -9,15 +9,15 @@ ms.service: msteams
 description: 了解 Office 365 组如选择使用团队客户端或 Office 365 管理 web 控制台中，以及如何告知您的团队有关使用对话的公共和私有组规划时应做出的决策。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82ebbab5be855e71eeaa6e6b5efb95e214a8f57e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a3b132ec619d34ac716de4ca303112fda38d67f2
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892663"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013094"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>在 Microsoft Teams 中创建团队时规划 Office 365 组
 ==========================================================

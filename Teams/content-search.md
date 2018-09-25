@@ -6,17 +6,18 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: anach
 search.appverid: MET150
 description: 了解 Microsoft Teams 中的内容搜索以及如何对来自 Exchange 的频道聊天、来自 SharePoint 的文件上载/修改以及 OneNote 更改进行搜索。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6551d364b2dbdbd4deb1d703cb93fd94669d1cb0
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 38bacb5727fc653e6529dc5943b255145891be17
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857950"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016170"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>在 Microsoft Teams 中使用内容搜索
 =====================================

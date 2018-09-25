@@ -10,15 +10,15 @@ ms.reviewer: rowille
 description: 在工作组中配置云语音工作负荷时，请按照的核心、 待办事项任务和此检查表中的活动。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3c81a88c7e846cd0826a896781f259aa27e177a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 1c2436cd7232fbfd00e8034c329927480f699aa9
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892679"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015690"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>配置 Microsoft 团队中的云语音工作负荷
 
