@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要： 业务服务器 2015年的 Skype 或 Skype 的业务 Online 管理员可以使用这些表了解上的客户端支持哪些功能。
-ms.openlocfilehash: cb0955dcb695b0431e73b1f575087b06ec3b0449
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 1dc94b9cb6b723d344994babe655921045b2acb0
+ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965732"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "25002387"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>业务服务器 2015年的 Skype 的的桌面客户端功能比较
  
@@ -111,7 +111,8 @@ ms.locfileid: "23965732"
 此表涵盖与会议支持相关的特性。
   
 > [!NOTE]
->  Skype 业务会议功能不可用的业务 Online 独立计划 1 的 Skype 中。
+>  Skype 业务会议功能不可用的业务 Online 独立计划 1 的 Skype 中。  正在[停用](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement
+)计划 1。
 
 在 Skype 至 Skype 会话中，Skype for Business Online 计划 1 用户可以在收到有权访问共享功能的用户邀请时参与桌面共享和应用共享。   
 有关详细信息，请参阅[Skype for Business Online 服务说明](https://technet.microsoft.com/library/jj822172.aspx)。 

@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3ff5cd20c490e69f2c18487f8aaf42905870597
-ms.sourcegitcommit: 2d76fad92b6d6c5d1bd223a717fd6c534ecaa5be
+ms.openlocfilehash: 07f546db5acb8afa0dc457122a2462b9d0affea3
+ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/24/2018
-ms.locfileid: "24974420"
+ms.locfileid: "25002428"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 团队云视频互操作
 
@@ -32,7 +32,7 @@ ms.locfileid: "24974420"
 
 |合作伙伴|合作伙伴解决方案|可用性|
 |----|---|----|
-|![Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Office 365 的 Polycom RealConnect</a> |现在空闲|
+|![Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect 服务</a> |现在空闲|
 |![Pexip 无穷大](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Microsoft 团队 Pexip 无穷大</a> | 2018 年 10 月 19 日|
 |![BlueJeans 网关](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Microsoft 团队 blueJeans 网关</a> | 2018 年 10 月 31 日|
 
