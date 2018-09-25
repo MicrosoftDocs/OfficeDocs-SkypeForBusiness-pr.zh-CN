@@ -40,6 +40,7 @@
 ## [在您的组织中启用团队](Office-365-set-up.md)
 ## [管理组织中的团队功能](enable-features-office-365.md)
 ### [转换为新的 Microsoft 团队和业务管理中心的 Skype 的过程管理团队](manage-teams-skypeforbusiness-admin-center.md)
+### [管理团队中的 Microsoft 团队业务管理中心的 Skype](manage-teams-in-modern-portal.md)
 ### [分配团队所有者和团队中的成员](assign-roles-permissions.md)
 ### [将应用程序发布到团队租户的应用程序目录](tenant-apps-catalog-teams.md)
 ### [Skype 会议应用程序使用团队配置](configure-skype-meetings-app-to-work-with-teams.md)
@@ -78,6 +79,7 @@
 <!-- ============================================================ -->
 # [从 for Business 的 Skype 升级到团队](Journey-SkypeforBusiness-Teams.md)
 ## [教程：从 Skype for Business 到 Teams 的旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [教师授课实况培训团队](instructor-led-training-teams-landing-page.md)
 ## [升级基本](upgrade-basic.md)
 ### [示例电子邮件和调查](upgrade-emails-surveys.md)
 ## [升级专业人员](upgrade-pro.md)
@@ -131,6 +133,7 @@
 
 <!-- ============================================================ -->
 # 培训
+## [教师授课实况培训团队](instructor-led-training-teams-landing-page.md)
 ## [Teams 管理员培训](itadmin-readiness.md)
 ## [Teams 的最终用户培训](enduser-training.md)
 ## [视频 - Teams 中的音频会议](audio-conferencing-videos.md)
