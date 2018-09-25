@@ -21,81 +21,81 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: 5654dc1da157498b1cb17271aa58959d2ffa541b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 2fd01e38b05615bab79471b60aafeb8d0409c1d4
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883452"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017122"
 ---
-# <a name="assign-microsoft-as-the-audio-conferencing-provider"></a><span data-ttu-id="7c386-103">将 Microsoft 指定为音频会议提供商</span><span class="sxs-lookup"><span data-stu-id="7c386-103">Assign Microsoft as the audio conferencing provider</span></span>
+# <a name="assign-microsoft-as-the-audio-conferencing-provider"></a><span data-ttu-id="43049-103">将 Microsoft 指定为音频会议提供商</span><span class="sxs-lookup"><span data-stu-id="43049-103">Assign Microsoft as the audio conferencing provider</span></span>
 
-<span data-ttu-id="7c386-104">如需在包含有 Skype for Business 和 Microsoft Teams 的 Office 365 中使用音频会议，你的组织中的用户需要已分配给他们的音频会议许可证。</span><span class="sxs-lookup"><span data-stu-id="7c386-104">To use Audio Conferencing in Office 365 with Skype for Business and Microsoft Teams, users in your organization need to have an Audio Conferencing license assigned to them.</span></span> <span data-ttu-id="7c386-105">请参阅 [试用或购买 Office 365 中的音频会议](try-or-purchase-audio-conferencing-in-office-365.md)以了解有关许可和费用的详细信息。</span><span class="sxs-lookup"><span data-stu-id="7c386-105">See [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365.md) to get more information on licensing and how much it costs.</span></span>
+<span data-ttu-id="43049-104">如需在包含有 Skype for Business 和 Microsoft Teams 的 Office 365 中使用音频会议，你的组织中的用户需要已分配给他们的音频会议许可证。</span><span class="sxs-lookup"><span data-stu-id="43049-104">To use Audio Conferencing in Office 365 with Skype for Business and Microsoft Teams, users in your organization need to have an Audio Conferencing license assigned to them.</span></span> <span data-ttu-id="43049-105">请参阅 [试用或购买 Office 365 中的音频会议](try-or-purchase-audio-conferencing-in-office-365.md)以了解有关许可和费用的详细信息。</span><span class="sxs-lookup"><span data-stu-id="43049-105">See [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365.md) to get more information on licensing and how much it costs.</span></span>
 
-<span data-ttu-id="7c386-106">Microsoft 音频会议提供电话拨入电话号码、PIN 和会议 ID，与会者可时用其加入你所在组织的会议。</span><span class="sxs-lookup"><span data-stu-id="7c386-106">Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conference IDs that can be used by meeting participants to join the meetings of your organization.</span></span> <span data-ttu-id="7c386-107">您只需将 Microsoft 作为音频会议提供商分配给要安排或导致 Skype 业务或 Microsoft 团队会议的人员。</span><span class="sxs-lookup"><span data-stu-id="7c386-107">You only need to assign Microsoft as the audio conferencing provider to people who are going to schedule or lead Skype for Business or Microsoft Teams meetings.</span></span>
+<span data-ttu-id="43049-106">Microsoft 音频会议提供电话拨入电话号码、PIN 和会议 ID，与会者可时用其加入你所在组织的会议。</span><span class="sxs-lookup"><span data-stu-id="43049-106">Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conference IDs that can be used by meeting participants to join the meetings of your organization.</span></span> <span data-ttu-id="43049-107">您只需将 Microsoft 作为音频会议提供商分配给要安排或导致 Skype 业务或 Microsoft 团队会议的人员。</span><span class="sxs-lookup"><span data-stu-id="43049-107">You only need to assign Microsoft as the audio conferencing provider to people who are going to schedule or lead Skype for Business or Microsoft Teams meetings.</span></span>
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
-## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a><span data-ttu-id="7c386-108">将 Microsoft 指定为音频会议提供商</span><span class="sxs-lookup"><span data-stu-id="7c386-108">Assign Microsoft as the audio conferencing provider</span></span>
+## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a><span data-ttu-id="43049-108">将 Microsoft 指定为音频会议提供商</span><span class="sxs-lookup"><span data-stu-id="43049-108">Assign Microsoft as the audio conferencing provider</span></span>
 
-### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) <span data-ttu-id="7c386-110">使用 Skype for Business 管理中心</span><span class="sxs-lookup"><span data-stu-id="7c386-110">Using the Skype for Business admin center</span></span>
+### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) <span data-ttu-id="43049-110">使用 Skype for Business 管理中心</span><span class="sxs-lookup"><span data-stu-id="43049-110">Using the Skype for Business admin center</span></span>
 
-1. <span data-ttu-id="7c386-111">转到 **Office 365 管理中心** > **Skype for Business**。</span><span class="sxs-lookup"><span data-stu-id="7c386-111">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
+1. <span data-ttu-id="43049-111">转到**团队和业务管理中心的 Skype** > **旧门户**。</span><span class="sxs-lookup"><span data-stu-id="43049-111">Go to the **Teams & Skype for Business Admin Center** > **Legacy portal**.</span></span>
     
-2. <span data-ttu-id="7c386-112">在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议**。</span><span class="sxs-lookup"><span data-stu-id="7c386-112">In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**.</span></span>
+2. <span data-ttu-id="43049-112">在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议**。</span><span class="sxs-lookup"><span data-stu-id="43049-112">In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**.</span></span>
     
-3. <span data-ttu-id="7c386-113">如果看到横幅通知你有用户已被分配了**音频会议**许可证但是还没有将 Microsoft 设置为他们的音频会议提供商，请单击**单击此处移动他们**。</span><span class="sxs-lookup"><span data-stu-id="7c386-113">If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**.</span></span> <span data-ttu-id="7c386-114">如果没有看到横幅，请在 **Skype for Business 管理中心**单击**用户**，然后选择**已准备好移动到音频会议的用户** 筛选器。</span><span class="sxs-lookup"><span data-stu-id="7c386-114">If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.</span></span>
+3. <span data-ttu-id="43049-113">如果看到横幅通知你有用户已被分配了**音频会议**许可证但是还没有将 Microsoft 设置为他们的音频会议提供商，请单击**单击此处移动他们**。</span><span class="sxs-lookup"><span data-stu-id="43049-113">If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**.</span></span> <span data-ttu-id="43049-114">如果没有看到横幅，请在 **Skype for Business 管理中心**单击**用户**，然后选择**已准备好移动到音频会议的用户** 筛选器。</span><span class="sxs-lookup"><span data-stu-id="43049-114">If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.</span></span>
     
-4. <span data-ttu-id="7c386-115">对于用户，在**提供程序名称**下的属性页上选择下拉列表中的**Microsoft** 。</span><span class="sxs-lookup"><span data-stu-id="7c386-115">On the properties page for the user, under **Provider name**, select **Microsoft** in the drop-down list.</span></span>
+4. <span data-ttu-id="43049-115">对于用户，在**提供程序名称**下的属性页上选择下拉列表中的**Microsoft** 。</span><span class="sxs-lookup"><span data-stu-id="43049-115">On the properties page for the user, under **Provider name**, select **Microsoft** in the drop-down list.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="7c386-116">因为您使用 Microsoft 为音频会议提供商，并且有多个电话号码，您可以使用**默认收费电话号码**下拉列表选择一个默认音频号以供用户。</span><span class="sxs-lookup"><span data-stu-id="7c386-116">Because you are using Microsoft as the audio conferencing provider and there are multiple phone numbers, you can use the **Default toll number** drop-down list to select a default audio number for the user.</span></span>
+    > <span data-ttu-id="43049-116">因为您使用 Microsoft 为音频会议提供商，并且有多个电话号码，您可以使用**默认收费电话号码**下拉列表选择一个默认音频号以供用户。</span><span class="sxs-lookup"><span data-stu-id="43049-116">Because you are using Microsoft as the audio conferencing provider and there are multiple phone numbers, you can use the **Default toll number** drop-down list to select a default audio number for the user.</span></span>
   
-5. <span data-ttu-id="7c386-117">单击" **保存**"。</span><span class="sxs-lookup"><span data-stu-id="7c386-117">Click **Save**.</span></span>
+5. <span data-ttu-id="43049-117">单击" **保存**"。</span><span class="sxs-lookup"><span data-stu-id="43049-117">Click **Save**.</span></span>
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
-### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a><span data-ttu-id="7c386-118">对少量用户使用 Windows PowerShell 脚本</span><span class="sxs-lookup"><span data-stu-id="7c386-118">Using a Windows PowerShell script for a small number of users</span></span>
+### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a><span data-ttu-id="43049-118">对少量用户使用 Windows PowerShell 脚本</span><span class="sxs-lookup"><span data-stu-id="43049-118">Using a Windows PowerShell script for a small number of users</span></span>
 
-<span data-ttu-id="7c386-119">来节省时间或自动此操作，可以使用以下 PowerShell 脚本以将 Microsoft 设置为少量用户音频会议提供商。</span><span class="sxs-lookup"><span data-stu-id="7c386-119">To save time or automate this, you can use the following PowerShell script to set Microsoft as the audio conferencing provider for a small number of users.</span></span>
+<span data-ttu-id="43049-119">来节省时间或自动此操作，可以使用以下 PowerShell 脚本以将 Microsoft 设置为少量用户音频会议提供商。</span><span class="sxs-lookup"><span data-stu-id="43049-119">To save time or automate this, you can use the following PowerShell script to set Microsoft as the audio conferencing provider for a small number of users.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="7c386-120">当向**Microsoft**更改从其他提供程序提供程序时，将替换 （会议 ID、 收费和免费电话号码） 用户的音频会议信息。</span><span class="sxs-lookup"><span data-stu-id="7c386-120">When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced.</span></span> <span data-ttu-id="7c386-121">你应该先保存此信息，再更改提供商。</span><span class="sxs-lookup"><span data-stu-id="7c386-121">You should save this information before changing the provider.</span></span> 
+> <span data-ttu-id="43049-120">当向**Microsoft**更改从其他提供程序提供程序时，将替换 （会议 ID、 收费和免费电话号码） 用户的音频会议信息。</span><span class="sxs-lookup"><span data-stu-id="43049-120">When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced.</span></span> <span data-ttu-id="43049-121">你应该先保存此信息，再更改提供商。</span><span class="sxs-lookup"><span data-stu-id="43049-121">You should save this information before changing the provider.</span></span> 
 
   
-<span data-ttu-id="7c386-122">要更改为小型数量的用户的 Microsoft 提供程序，您可以使用[启用 CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) cmdlet。</span><span class="sxs-lookup"><span data-stu-id="7c386-122">To change the provider to Microsoft for a small number of users, you can use the  [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) cmdlet.</span></span>
+<span data-ttu-id="43049-122">要更改为小型数量的用户的 Microsoft 提供程序，您可以使用[启用 CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) cmdlet。</span><span class="sxs-lookup"><span data-stu-id="43049-122">To change the provider to Microsoft for a small number of users, you can use the  [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) cmdlet.</span></span>
   
 
-### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a><span data-ttu-id="7c386-123">对大量用户使用 Windows PowerShell 脚本</span><span class="sxs-lookup"><span data-stu-id="7c386-123">Using a Windows PowerShell script for a large number of users</span></span>
-<span data-ttu-id="7c386-124">要保存时间或自动化这，可以使用以下 PowerShell 脚本的大量用户将 Microsoft 设置为音频会议提供商。</span><span class="sxs-lookup"><span data-stu-id="7c386-124">To save time or automate this, you can use the following PowerShell script to set Microsoft as the audio conferencing provider for a large number of users.</span></span>
+### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a><span data-ttu-id="43049-123">对大量用户使用 Windows PowerShell 脚本</span><span class="sxs-lookup"><span data-stu-id="43049-123">Using a Windows PowerShell script for a large number of users</span></span>
+<span data-ttu-id="43049-124">要保存时间或自动化这，可以使用以下 PowerShell 脚本的大量用户将 Microsoft 设置为音频会议提供商。</span><span class="sxs-lookup"><span data-stu-id="43049-124">To save time or automate this, you can use the following PowerShell script to set Microsoft as the audio conferencing provider for a large number of users.</span></span>
 
-<span data-ttu-id="7c386-125">当向**Microsoft**更改从其他提供程序提供程序时，将替换 （会议 ID、 收费和免费电话号码） 用户的音频会议信息。</span><span class="sxs-lookup"><span data-stu-id="7c386-125">When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced.</span></span> <span data-ttu-id="7c386-126">你应该先保存此信息，再更改提供商。</span><span class="sxs-lookup"><span data-stu-id="7c386-126">You should save this information before changing the provider.</span></span> 
+<span data-ttu-id="43049-125">当向**Microsoft**更改从其他提供程序提供程序时，将替换 （会议 ID、 收费和免费电话号码） 用户的音频会议信息。</span><span class="sxs-lookup"><span data-stu-id="43049-125">When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced.</span></span> <span data-ttu-id="43049-126">你应该先保存此信息，再更改提供商。</span><span class="sxs-lookup"><span data-stu-id="43049-126">You should save this information before changing the provider.</span></span> 
   
-<span data-ttu-id="7c386-127">可将以下脚本另存为的 PowerShell 脚本文件，然后使用其任何输入参数运行。</span><span class="sxs-lookup"><span data-stu-id="7c386-127">You can save the following script as a PowerShell script file and then run it using any of its input parameters.</span></span>
+<span data-ttu-id="43049-127">可将以下脚本另存为的 PowerShell 脚本文件，然后使用其任何输入参数运行。</span><span class="sxs-lookup"><span data-stu-id="43049-127">You can save the following script as a PowerShell script file and then run it using any of its input parameters.</span></span>
 
-<span data-ttu-id="7c386-128">**示例 1：** 你可以通过提供你希望更新的用户列表来运行此脚本。</span><span class="sxs-lookup"><span data-stu-id="7c386-128">**Example 1:** You can run this script by providing a list of users that you want updated.</span></span>
+<span data-ttu-id="43049-128">**示例 1：** 你可以通过提供你希望更新的用户列表来运行此脚本。</span><span class="sxs-lookup"><span data-stu-id="43049-128">**Example 1:** You can run this script by providing a list of users that you want updated.</span></span>
    
   ```
 Script.ps1 -UserList <List of users>
 ./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
 
-<span data-ttu-id="7c386-129">**示例 2：** 你可以通过提供一个 .csv 文件来运行此脚本，该文件中包含你希望更新的每个用户的电子邮件地址（别名）。</span><span class="sxs-lookup"><span data-stu-id="7c386-129">**Example 2:** You can run this script by providing a .csv file that contains the email address (alias) of each user that you want updated.</span></span>
+<span data-ttu-id="43049-129">**示例 2：** 你可以通过提供一个 .csv 文件来运行此脚本，该文件中包含你希望更新的每个用户的电子邮件地址（别名）。</span><span class="sxs-lookup"><span data-stu-id="43049-129">**Example 2:** You can run this script by providing a .csv file that contains the email address (alias) of each user that you want updated.</span></span>
    
   ```
 Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-<span data-ttu-id="7c386-130">**示例 3:** 本示例中，您可以使用此脚本更改 Intercall 的音频会议提供程序 （或其他提供程序） 到**Microsoft**的大用户数组织中。</span><span class="sxs-lookup"><span data-stu-id="7c386-130">**Example 3:** In this example, you can use this script to change the audio conferencing provider from Intercall (or another provider) to **Microsoft** for a large number users in your organization.</span></span>
+<span data-ttu-id="43049-130">**示例 3:** 本示例中，您可以使用此脚本更改 Intercall 的音频会议提供程序 （或其他提供程序） 到**Microsoft**的大用户数组织中。</span><span class="sxs-lookup"><span data-stu-id="43049-130">**Example 3:** In this example, you can use this script to change the audio conferencing provider from Intercall (or another provider) to **Microsoft** for a large number users in your organization.</span></span>
     
   ```
   Script.ps1 -ACPProviderName <Provider>
   ./Script.ps1 -ACPProviderName "Intercall"
   ```
-  <span data-ttu-id="7c386-131">这里就是脚本：</span><span class="sxs-lookup"><span data-stu-id="7c386-131">Here is the script:</span></span>
+  <span data-ttu-id="43049-131">这里就是脚本：</span><span class="sxs-lookup"><span data-stu-id="43049-131">Here is the script:</span></span>
 
   ```
   <#
@@ -192,10 +192,10 @@ Script.ps1 -CsvFile <Path of the csv file>
   }
   }
   ```
-<span data-ttu-id="7c386-132">有关使用 Windows PowerShell 的详细信息，请参阅[使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)。</span><span class="sxs-lookup"><span data-stu-id="7c386-132">For more information about using Windows PowerShell, see [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038).</span></span>
+<span data-ttu-id="43049-132">有关使用 Windows PowerShell 的详细信息，请参阅[使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)。</span><span class="sxs-lookup"><span data-stu-id="43049-132">For more information about using Windows PowerShell, see [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038).</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="7c386-133">相关主题</span><span class="sxs-lookup"><span data-stu-id="7c386-133">Related topics</span></span>
-<span data-ttu-id="7c386-134">[尝试或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
-[设置业务 online Skype](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)</span><span class="sxs-lookup"><span data-stu-id="7c386-134">[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+## <a name="related-topics"></a><span data-ttu-id="43049-133">相关主题</span><span class="sxs-lookup"><span data-stu-id="43049-133">Related topics</span></span>
+<span data-ttu-id="43049-134">[尝试或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[设置业务 online Skype](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)</span><span class="sxs-lookup"><span data-stu-id="43049-134">[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)</span></span>
 

@@ -7,8 +7,12 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 66b75985-d7ba-4731-88d8-2d48719eb02c
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,65 +26,65 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于匈牙利业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 34c84a6dce5ac431ce8344104b156e16fe3a1c15
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 4f3a90972ea0c489bcb3bf45c2e1569cd42e538d
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866480"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012558"
 ---
-# <a name="availability-in-hungary"></a><span data-ttu-id="59944-103">匈牙利中的可用性</span><span class="sxs-lookup"><span data-stu-id="59944-103">Availability in Hungary</span></span>
+# <a name="availability-in-hungary"></a><span data-ttu-id="06bac-103">匈牙利中的可用性</span><span class="sxs-lookup"><span data-stu-id="06bac-103">Availability in Hungary</span></span>
 
-<span data-ttu-id="59944-104">[查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。</span><span class="sxs-lookup"><span data-stu-id="59944-104">[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.</span></span>
+<span data-ttu-id="06bac-104">[查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。</span><span class="sxs-lookup"><span data-stu-id="06bac-104">[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.</span></span>
 
-<span data-ttu-id="59944-105">下面是可用于匈牙利业务和 Microsoft 团队的 Skype 的 Office 365 服务。</span><span class="sxs-lookup"><span data-stu-id="59944-105">Here are the Office 365 services for Skype for Business and Microsoft Teams available for Hungary.</span></span>
+<span data-ttu-id="06bac-105">下面是可用于匈牙利业务和 Microsoft 团队的 Skype 的 Office 365 服务。</span><span class="sxs-lookup"><span data-stu-id="06bac-105">Here are the Office 365 services for Skype for Business and Microsoft Teams available for Hungary.</span></span>
   
-## <a name="audio-conferencing"></a><span data-ttu-id="59944-106">音频会议</span><span class="sxs-lookup"><span data-stu-id="59944-106">Audio Conferencing</span></span>
+## <a name="audio-conferencing"></a><span data-ttu-id="06bac-106">音频会议</span><span class="sxs-lookup"><span data-stu-id="06bac-106">Audio Conferencing</span></span>
 
-|<span data-ttu-id="59944-107">**功能**</span><span class="sxs-lookup"><span data-stu-id="59944-107">**Feature**</span></span>|<span data-ttu-id="59944-108">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="59944-108">**Details**</span></span>|
+|<span data-ttu-id="06bac-107">**功能**</span><span class="sxs-lookup"><span data-stu-id="06bac-107">**Feature**</span></span>|<span data-ttu-id="06bac-108">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="06bac-108">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="59944-109">是否可购买音频会议？</span><span class="sxs-lookup"><span data-stu-id="59944-109">Is Audio Conferencing available for purchase?</span></span>  <br/> |<span data-ttu-id="59944-110">是</span><span class="sxs-lookup"><span data-stu-id="59944-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="59944-111">是否会为音频会议自动分配电话号码？</span><span class="sxs-lookup"><span data-stu-id="59944-111">Are phone numbers automatically assigned for Audio Conferencing?</span></span>  <br/> |<span data-ttu-id="59944-112">是，为：</span><span class="sxs-lookup"><span data-stu-id="59944-112">Yes, for:</span></span><br/><ul><li> <span data-ttu-id="59944-113">布达佩斯</span><span class="sxs-lookup"><span data-stu-id="59944-113">Budapest</span></span></ul> <span data-ttu-id="59944-114">如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。</span><span class="sxs-lookup"><span data-stu-id="59944-114">If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).</span></span>  <br/> |
-|<span data-ttu-id="59944-115">使用“呼叫我”功能的拨出功能</span><span class="sxs-lookup"><span data-stu-id="59944-115">Dial-out capability using the Call Me feature</span></span>  <br/> |<span data-ttu-id="59944-116">可用</span><span class="sxs-lookup"><span data-stu-id="59944-116">Available</span></span>  <br/> |
+|<span data-ttu-id="06bac-109">是否可购买音频会议？</span><span class="sxs-lookup"><span data-stu-id="06bac-109">Is Audio Conferencing available for purchase?</span></span>  <br/> |<span data-ttu-id="06bac-110">是</span><span class="sxs-lookup"><span data-stu-id="06bac-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="06bac-111">是否会为音频会议自动分配电话号码？</span><span class="sxs-lookup"><span data-stu-id="06bac-111">Are phone numbers automatically assigned for Audio Conferencing?</span></span>  <br/> |<span data-ttu-id="06bac-112">是，为：</span><span class="sxs-lookup"><span data-stu-id="06bac-112">Yes, for:</span></span><br/><ul><li> <span data-ttu-id="06bac-113">布达佩斯</span><span class="sxs-lookup"><span data-stu-id="06bac-113">Budapest</span></span></ul> <span data-ttu-id="06bac-114">如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。</span><span class="sxs-lookup"><span data-stu-id="06bac-114">If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).</span></span>  <br/> |
+|<span data-ttu-id="06bac-115">使用“呼叫我”功能的拨出功能</span><span class="sxs-lookup"><span data-stu-id="06bac-115">Dial-out capability using the Call Me feature</span></span>  <br/> |<span data-ttu-id="06bac-116">可用</span><span class="sxs-lookup"><span data-stu-id="06bac-116">Available</span></span>  <br/> |
    
-## <a name="phone-system"></a><span data-ttu-id="59944-117">电话系统</span><span class="sxs-lookup"><span data-stu-id="59944-117">Phone System</span></span>
+## <a name="phone-system"></a><span data-ttu-id="06bac-117">电话系统</span><span class="sxs-lookup"><span data-stu-id="06bac-117">Phone System</span></span>
 
-|<span data-ttu-id="59944-118">**功能**</span><span class="sxs-lookup"><span data-stu-id="59944-118">**Feature**</span></span>|<span data-ttu-id="59944-119">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="59944-119">**Details**</span></span>|
+|<span data-ttu-id="06bac-118">**功能**</span><span class="sxs-lookup"><span data-stu-id="06bac-118">**Feature**</span></span>|<span data-ttu-id="06bac-119">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="06bac-119">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="59944-120">是否可购买电话系统？</span><span class="sxs-lookup"><span data-stu-id="59944-120">Is Phone System available for purchase?</span></span>  <br/> |<span data-ttu-id="59944-121">是</span><span class="sxs-lookup"><span data-stu-id="59944-121">Yes</span></span>  <br/> |
-| <span data-ttu-id="59944-122">自动助理</span><span class="sxs-lookup"><span data-stu-id="59944-122">Auto attendants</span></span> <br/> |<span data-ttu-id="59944-123">可用</span><span class="sxs-lookup"><span data-stu-id="59944-123">Available</span></span>  <br/> |
-|<span data-ttu-id="59944-124">呼叫队列</span><span class="sxs-lookup"><span data-stu-id="59944-124">Call queues</span></span>  <br/> |<span data-ttu-id="59944-125">可用</span><span class="sxs-lookup"><span data-stu-id="59944-125">Available</span></span>  <br/> |
-|<span data-ttu-id="59944-126">语音邮件</span><span class="sxs-lookup"><span data-stu-id="59944-126">Voicemail</span></span>  <br/> |<span data-ttu-id="59944-127">可用</span><span class="sxs-lookup"><span data-stu-id="59944-127">Available</span></span>  <br/> |
+|<span data-ttu-id="06bac-120">是否可购买电话系统？</span><span class="sxs-lookup"><span data-stu-id="06bac-120">Is Phone System available for purchase?</span></span>  <br/> |<span data-ttu-id="06bac-121">是</span><span class="sxs-lookup"><span data-stu-id="06bac-121">Yes</span></span>  <br/> |
+| <span data-ttu-id="06bac-122">自动助理</span><span class="sxs-lookup"><span data-stu-id="06bac-122">Auto attendants</span></span> <br/> |<span data-ttu-id="06bac-123">可用</span><span class="sxs-lookup"><span data-stu-id="06bac-123">Available</span></span>  <br/> |
+|<span data-ttu-id="06bac-124">呼叫队列</span><span class="sxs-lookup"><span data-stu-id="06bac-124">Call queues</span></span>  <br/> |<span data-ttu-id="06bac-125">可用</span><span class="sxs-lookup"><span data-stu-id="06bac-125">Available</span></span>  <br/> |
+|<span data-ttu-id="06bac-126">语音邮件</span><span class="sxs-lookup"><span data-stu-id="06bac-126">Voicemail</span></span>  <br/> |<span data-ttu-id="06bac-127">可用</span><span class="sxs-lookup"><span data-stu-id="06bac-127">Available</span></span>  <br/> |
    
-## <a name="calling-plans"></a><span data-ttu-id="59944-128">通话套餐</span><span class="sxs-lookup"><span data-stu-id="59944-128">Calling Plans</span></span>
+## <a name="calling-plans"></a><span data-ttu-id="06bac-128">通话套餐</span><span class="sxs-lookup"><span data-stu-id="06bac-128">Calling Plans</span></span>
 
-|<span data-ttu-id="59944-129">**功能**</span><span class="sxs-lookup"><span data-stu-id="59944-129">**Feature**</span></span>|<span data-ttu-id="59944-130">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="59944-130">**Details**</span></span>|
+|<span data-ttu-id="06bac-129">**功能**</span><span class="sxs-lookup"><span data-stu-id="06bac-129">**Feature**</span></span>|<span data-ttu-id="06bac-130">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="06bac-130">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="59944-131">是否可购买通话套餐？</span><span class="sxs-lookup"><span data-stu-id="59944-131">Calling Plans are available to purchase?</span></span>  <br/> |<span data-ttu-id="59944-132">否</span><span class="sxs-lookup"><span data-stu-id="59944-132">No</span></span>  <br/> |
-|<span data-ttu-id="59944-133">通话套餐的可用分钟数</span><span class="sxs-lookup"><span data-stu-id="59944-133">Minutes available for Calling Plans</span></span>  <br/> |<span data-ttu-id="59944-134">不适用</span><span class="sxs-lookup"><span data-stu-id="59944-134">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="59944-135">是否可以拨打呼出电话？</span><span class="sxs-lookup"><span data-stu-id="59944-135">Can make outbound calls to?</span></span>  <br/> |<span data-ttu-id="59944-136">不适用</span><span class="sxs-lookup"><span data-stu-id="59944-136">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="06bac-131">是否可购买通话套餐？</span><span class="sxs-lookup"><span data-stu-id="06bac-131">Calling Plans are available to purchase?</span></span>  <br/> |<span data-ttu-id="06bac-132">否</span><span class="sxs-lookup"><span data-stu-id="06bac-132">No</span></span>  <br/> |
+|<span data-ttu-id="06bac-133">通话套餐的可用分钟数</span><span class="sxs-lookup"><span data-stu-id="06bac-133">Minutes available for Calling Plans</span></span>  <br/> |<span data-ttu-id="06bac-134">不适用</span><span class="sxs-lookup"><span data-stu-id="06bac-134">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="06bac-135">是否可以拨打呼出电话？</span><span class="sxs-lookup"><span data-stu-id="06bac-135">Can make outbound calls to?</span></span>  <br/> |<span data-ttu-id="06bac-136">不适用</span><span class="sxs-lookup"><span data-stu-id="06bac-136">Not applicable</span></span>  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a><span data-ttu-id="59944-137">服务的收费和免费电话号码</span><span class="sxs-lookup"><span data-stu-id="59944-137">Toll and toll-free numbers for services</span></span>
+## <a name="toll-and-toll-free-numbers-for-services"></a><span data-ttu-id="06bac-137">服务的收费和免费电话号码</span><span class="sxs-lookup"><span data-stu-id="06bac-137">Toll and toll-free numbers for services</span></span>
 
-|<span data-ttu-id="59944-138">**功能**</span><span class="sxs-lookup"><span data-stu-id="59944-138">**Feature**</span></span>|<span data-ttu-id="59944-139">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="59944-139">**Details**</span></span>|
+|<span data-ttu-id="06bac-138">**功能**</span><span class="sxs-lookup"><span data-stu-id="06bac-138">**Feature**</span></span>|<span data-ttu-id="06bac-139">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="06bac-139">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="59944-140">你可以获取哪些首都或大城市的收费电话号码？</span><span class="sxs-lookup"><span data-stu-id="59944-140">What capitals or major cities can you get toll numbers for?</span></span>  <br/> | <ul><li><span data-ttu-id="59944-141">布达佩斯</span><span class="sxs-lookup"><span data-stu-id="59944-141">Budapest</span></span> <li>  <span data-ttu-id="59944-142">德布勒森</span><span class="sxs-lookup"><span data-stu-id="59944-142">Debrecen</span></span> <li>  <span data-ttu-id="59944-143">米什科尔茨</span><span class="sxs-lookup"><span data-stu-id="59944-143">Miskolc</span></span> <li>  <span data-ttu-id="59944-144">塞格德</span><span class="sxs-lookup"><span data-stu-id="59944-144">Szeged</span></span> </ul> |
-|<span data-ttu-id="59944-145">是否提供收费电话号码？</span><span class="sxs-lookup"><span data-stu-id="59944-145">Are toll numbers available?</span></span>  <br/> |<span data-ttu-id="59944-146">是</span><span class="sxs-lookup"><span data-stu-id="59944-146">Yes</span></span>  <br/> |
-|<span data-ttu-id="59944-147">是否提供免费电话号码？</span><span class="sxs-lookup"><span data-stu-id="59944-147">Are toll-free numbers available?</span></span>  <br/> |<span data-ttu-id="59944-148">是</span><span class="sxs-lookup"><span data-stu-id="59944-148">Yes</span></span>  <br/> |
+|<span data-ttu-id="06bac-140">你可以获取哪些首都或大城市的收费电话号码？</span><span class="sxs-lookup"><span data-stu-id="06bac-140">What capitals or major cities can you get toll numbers for?</span></span>  <br/> | <ul><li><span data-ttu-id="06bac-141">布达佩斯</span><span class="sxs-lookup"><span data-stu-id="06bac-141">Budapest</span></span> <li>  <span data-ttu-id="06bac-142">德布勒森</span><span class="sxs-lookup"><span data-stu-id="06bac-142">Debrecen</span></span> <li>  <span data-ttu-id="06bac-143">米什科尔茨</span><span class="sxs-lookup"><span data-stu-id="06bac-143">Miskolc</span></span> <li>  <span data-ttu-id="06bac-144">塞格德</span><span class="sxs-lookup"><span data-stu-id="06bac-144">Szeged</span></span> </ul> |
+|<span data-ttu-id="06bac-145">是否提供收费电话号码？</span><span class="sxs-lookup"><span data-stu-id="06bac-145">Are toll numbers available?</span></span>  <br/> |<span data-ttu-id="06bac-146">是</span><span class="sxs-lookup"><span data-stu-id="06bac-146">Yes</span></span>  <br/> |
+|<span data-ttu-id="06bac-147">是否提供免费电话号码？</span><span class="sxs-lookup"><span data-stu-id="06bac-147">Are toll-free numbers available?</span></span>  <br/> |<span data-ttu-id="06bac-148">是</span><span class="sxs-lookup"><span data-stu-id="06bac-148">Yes</span></span>  <br/> |
    
- <span data-ttu-id="59944-149">如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。</span><span class="sxs-lookup"><span data-stu-id="59944-149">If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).</span></span>
+ <span data-ttu-id="06bac-149">如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。</span><span class="sxs-lookup"><span data-stu-id="06bac-149">If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).</span></span>
   
-## <a name="communications-credits"></a><span data-ttu-id="59944-150">通信点数</span><span class="sxs-lookup"><span data-stu-id="59944-150">Communications Credits</span></span>
+## <a name="communications-credits"></a><span data-ttu-id="06bac-150">通信点数</span><span class="sxs-lookup"><span data-stu-id="06bac-150">Communications Credits</span></span>
 
-|<span data-ttu-id="59944-151">**功能**</span><span class="sxs-lookup"><span data-stu-id="59944-151">**Feature**</span></span>|<span data-ttu-id="59944-152">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="59944-152">**Details**</span></span>|
+|<span data-ttu-id="06bac-151">**功能**</span><span class="sxs-lookup"><span data-stu-id="06bac-151">**Feature**</span></span>|<span data-ttu-id="06bac-152">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="06bac-152">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="59944-153">是否提供通信点数？</span><span class="sxs-lookup"><span data-stu-id="59944-153">Are Communications Credits available?</span></span>  <br/> |<span data-ttu-id="59944-154">是</span><span class="sxs-lookup"><span data-stu-id="59944-154">Yes</span></span>  <br/> |
+|<span data-ttu-id="06bac-153">是否提供通信点数？</span><span class="sxs-lookup"><span data-stu-id="06bac-153">Are Communications Credits available?</span></span>  <br/> |<span data-ttu-id="06bac-154">是</span><span class="sxs-lookup"><span data-stu-id="06bac-154">Yes</span></span>  <br/> |
    
-<span data-ttu-id="59944-155">如果你想进行设置，请参阅[为你的组织设置通信点数](../set-up-communications-credits-for-your-organization.md)。</span><span class="sxs-lookup"><span data-stu-id="59944-155">If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).</span></span>
+<span data-ttu-id="06bac-155">如果你想进行设置，请参阅[为你的组织设置通信点数](../set-up-communications-credits-for-your-organization.md)。</span><span class="sxs-lookup"><span data-stu-id="06bac-155">If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="59944-156">相关主题</span><span class="sxs-lookup"><span data-stu-id="59944-156">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="06bac-156">相关主题</span><span class="sxs-lookup"><span data-stu-id="06bac-156">Related topics</span></span>
 
-[<span data-ttu-id="59944-157">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="59944-157">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="06bac-157">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="06bac-157">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
-[<span data-ttu-id="59944-158">音频会议和通话套餐的国家/地区可用性</span><span class="sxs-lookup"><span data-stu-id="59944-158">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[<span data-ttu-id="06bac-158">音频会议和通话套餐的国家/地区可用性</span><span class="sxs-lookup"><span data-stu-id="06bac-158">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
