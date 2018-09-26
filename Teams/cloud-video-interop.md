@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07f546db5acb8afa0dc457122a2462b9d0affea3
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 8741a76ccfbc9ef16cbf9c4298bacace25ac36ad
+ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25002428"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25040769"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 团队云视频互操作
 
@@ -49,7 +49,9 @@ ms.locfileid: "25002428"
 **企业**
 
 - HD 视频 (1080p) 和内容 (VBSS)
-- 支持 H.323 和 SIP 会议室内设备-本机团队/Exchange 安排-而不是 VMR 的网关设计
+- 对 H.323 和 SIP 会议室内设备的支持
+- 本机团队/Exchange 计划
+- 而不是 VMR 的网关设计
 
 **针对云的标尺**
 
@@ -86,7 +88,7 @@ ms.locfileid: "25002428"
 
 ## <a name="business-workflow-scenarios"></a>业务工作流方案
 
-- **业务服务器 Skype-> Microsoft 团队：** 您的组织有第三方设备和 Skype 从业务上 prem 服务器移到的 Microsoft 团队  
+- **业务服务器 Skype-> Microsoft 团队：** 您的组织具有第三方设备和 Skype 从业务上 prem 服务器移到的 Microsoft 团队。  
 - **For Business 的 Skype 联机-> Microsoft 团队：** 您的组织迁移到 Microsoft 团队从 Skype 业务 online。
 - **Cisco UC-> Microsoft 团队：** 从 Cisco 移动到 Microsoft 团队，但未就绪，以替换 Cisco 设备，您的组织。
 - **混合的系统-> Microsoft 团队：** 您的组织具有多个系统环境并排中的 （Cisco、 BroadSoft、 SfB 服务器、 SfBO）。

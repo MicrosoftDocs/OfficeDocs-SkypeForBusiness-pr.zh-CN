@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92fe72b8352e9a2152361f410f9e39f1f296a3c8
-ms.sourcegitcommit: 2d76fad92b6d6c5d1bd223a717fd6c534ecaa5be
+ms.openlocfilehash: e2090036aa5e1a05e46581d365d9b6b4aeb94b32
+ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24974428"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25040777"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>设置 Microsoft 团队的云视频互操作
 
@@ -104,4 +104,4 @@ ms.locfileid: "24974428"
 - 一站式拨号
     - 如果您有集成的团队会议室，您可以使用 （而无需键入任何拨号串） 由您的合作伙伴提供的一站式拨号功能。
 
-最后，engaeg 与团队中使用音频、 视频以及内容共享会议的用户。 
+最后，使用与团队用户参加会议使用音频、 视频以及内容共享。 

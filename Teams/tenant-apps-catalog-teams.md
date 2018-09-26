@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5028f5f1ee848d4fa7af7e15083dc06d90f9f38a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 714c30326519974c1d5e0483e8c181bb6ebf2a27
+ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017958"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25040785"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>将应用程序发布到 Microsoft 团队租户的应用程序目录
 =======================================================
@@ -27,9 +27,11 @@ ms.locfileid: "25017958"
 
 团队租户的应用程序目录允许您分发您生成专门针对您的组织的业务线应用程序和所依赖的完成向用户的关键业务功能。 
  
-您可以直接从团队客户端团队租户的应用程序目录发布应用程序。
+登录到您的团队客户端使用全局管理员凭据和发布您的组织的应用程序。 
 
 ## <a name="publish-an-app-to-the-tenant-apps-catalog-from-the-teams-client"></a>从工作组客户端租户的应用程序目录发布应用程序
+
+注意： 您需要登录到 Microsoft 团队客户端使用您的全局管理员凭据发布您的组织的应用程序。
 
 ### <a name="get-a-teams-app-package"></a>获取团队应用程序包
 
@@ -37,7 +39,7 @@ ms.locfileid: "25017958"
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>转到租户的应用程序目录
 
-从 Microsoft 团队存储区中，选择用于组织特定 （在此示例中为 Contoso） 的名为新建部分。 您的组织中的用户可以在目录中查看应用程序，并安装到团队的成员。 
+启动 Microsoft 团队客户端并使用全局管理员凭据登录。 从 Microsoft 团队存储区中，选择用于组织特定 （在此示例中为 Contoso） 的名为新建部分。 您的组织中的用户可以在目录中查看应用程序，并安装到团队的成员。 
 
 ![显示屏幕截图团队应用程序商店的应用程序目录。](media/private-app-store-teams-image01.png)
 
