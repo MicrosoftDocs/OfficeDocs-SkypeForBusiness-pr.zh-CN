@@ -474,7 +474,7 @@
 #### [语音邮件问候语和消息的语言](languages-for-voicemail-greetings-and-messages.md)
 #### [为用户设置来电显示](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [设置电话系统自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [实现示例-自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [小型企业示例-设置的自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [设置电话系统语音邮件](set-up-phone-system-voicemail.md)
 #### [什么是电话系统自动助理？](what-are-phone-system-auto-attendants.md)
 #### [应答自动助理并直接从团队呼叫队列呼叫](answer-auto-attendant-and-call-queue-calls.md)
