@@ -235,7 +235,8 @@
 ### [在你有组织中设置电话系统](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [什么是电话系统自动助理？](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [设置电话系统自动助理](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-#### [实现示例-自动助理](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+#### [小型企业示例-设置的自动助理](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+
 
 ## [设置 Skype 会议直播网络](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
 ### [阻止 Skype 会议直播的用户许可证](../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)

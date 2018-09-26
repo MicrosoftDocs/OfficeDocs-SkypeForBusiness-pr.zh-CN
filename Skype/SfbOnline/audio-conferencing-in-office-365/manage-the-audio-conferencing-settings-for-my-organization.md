@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '请参阅 Skype 的业务联机步骤，若要将拨入式会议许可和会议 ID 分配给用户和许多其他电话拨入式会议设置。 '
-ms.openlocfilehash: 55e0e09e9b1b0875fd2ebd19aea5c3ae99392299
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7e420ef2c434807bf9e78cc1c61f808db745f3bc
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890327"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25018921"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>在 Skype for Business Online 中管理我的组织的音频会议设置
 
@@ -66,7 +66,7 @@ ms.locfileid: "23890327"
 
 3. 在  **Microsoft 网桥的设置** 页上，选中或清除 **自动向用户发送电子邮件，如果他们的音频会议设置更改**   。
 
-4. 单击" **保存**"。
+4. 单击“**保存**”。
 
     您还可以发送电子邮件向用户使用音频会议设置转到用户的音频会议属性，单击**发送会议信息通过电子邮件**。 会议邀请，但不是 PIN 包含会议 ID 和默认音频会议电话号码。
 
@@ -98,7 +98,7 @@ ms.locfileid: "23890327"
 你可以运行如下命令，更改发送给用户的电子邮件，例如电子邮件的发件人电子邮件地址，或者电子邮件的显示名称：
 
 ```
-Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"
+Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"
 ```
 
 如果要更改电子邮件地址信息，你需要确保你的组织的入站电子邮件策略允许来自自定义电子邮件地址的电子邮件。
@@ -164,7 +164,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 4. 在操作窗格中，您可以设置 　**收费电话号码**　，如果允许， **免费电话号码**　。
 
-5. 单击" **保存**"。
+5. 单击“**保存**”。
 
 请参阅[设置的电话号码包含在邀请](set-the-phone-numbers-included-on-invites.md)。
 
@@ -214,7 +214,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 3. 在 **Microsoft 网桥的设置** 页上，选中或清除 **自动向用户发送电子邮件，如果他们的音频会议设置更改**　。
 
-4. 单击" **保存**"。
+4. 单击“**保存**”。
 
     您还可以发送电子邮件向用户音频会议设置后，转到用户的音频会议属性，单击**发送会议信息通过电子邮件**。
 

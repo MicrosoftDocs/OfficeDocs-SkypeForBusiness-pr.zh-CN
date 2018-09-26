@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解什么是电话系统 (云 PBX) 自动助理以及如何使用它们。 '
-ms.openlocfilehash: d8edb924b030c9008374c8d6f49df5328b630677
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5d73a32e7df8e25c24ba7eeaa958d9b8bc4dd80d
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013800"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019099"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>什么是电话系统自动助理？
 
@@ -276,5 +276,5 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-  
- 
+[小型企业示例-设置的自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
+

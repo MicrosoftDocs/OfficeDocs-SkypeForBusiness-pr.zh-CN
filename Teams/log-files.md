@@ -11,12 +11,12 @@ search.appverid: MET150
 description: 了解 Microsoft Teams 生成的调试、媒体和桌面日志，可以在哪里找到它们，以及它们如何帮助进行故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0f06e291694a9a5c22d1188802ef1dabe55af7d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 95d28bac036476c417ccbe7929a23ab9fb37f3a8
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016578"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25018897"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在对 Microsoft Teams 进行故障排除时使用日志文件
 =================================================
@@ -48,7 +48,7 @@ ms.locfileid: "25016578"
 <a name="debug-logs"></a>调试日志
 ---------------------------
 
-这些是最常见的日志，所有 Microsoft 支持案例都需要这些日志。 调试日志由 Window 和 Mac 桌面客户端以及基于浏览器的客户端生成。 日志是基于文本的，可以自下而上读取。 可以使用任何基于文本的编辑器读取这些日志，登录客户端时会创建新日志。
+这些是最常见的日志，所有 Microsoft 支持案例都需要这些日志。 调试日志所产生的 Windows 和 Mac 的桌面客户端以及基于浏览器客户端。 日志是基于文本的，可以自下而上读取。 可以使用任何基于文本的编辑器读取这些日志，登录客户端时会创建新日志。
 
 调试日志显示以下数据流：
 

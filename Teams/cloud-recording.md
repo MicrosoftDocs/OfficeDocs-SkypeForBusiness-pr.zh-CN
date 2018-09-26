@@ -11,12 +11,12 @@ description: 在 Microsoft Teams 中部署云语音功能实践指导
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41cb6fdc7d27b90939be540d04b73fdc1f052818
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 068ddc726a366f5ee34b23dca0f76699d4c76afc
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014176"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019073"
 ---
 # <a name="teams-cloud-meeting-recording"></a>团队云会议录制
 
@@ -62,7 +62,7 @@ Microsoft 流是可用的合格的 Office 365 订阅一部分或作为独立的�
 
 使用中的设置 AllowCloudRecording 团队 powershell TeamsMeetingPolicy 控制是否允许用户的会议录制。 您可以了解有关管理 Office 365 PowerShell 中使用的 TeamsMeetingPolicy[此处](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
-请注意，会议组织者和录制发起者需要有权录制会议录制。 除非您的自定义策略分配给用户，用户将获得全局策略，其中包含默认情况下启用录制。
+请注意，会议组织者和录制发起者需要有权录制会议录制。 除非您的自定义策略分配给用户，用户将获得全局策略，其中包含默认情况下禁用 AllowTranscription。
 
 对于用户回退到全局策略，使用以下 cmdlet 删除特定的策略分配的用户：
 

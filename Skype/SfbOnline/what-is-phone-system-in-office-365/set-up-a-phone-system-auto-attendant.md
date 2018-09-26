@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何设置和测试高效处理您的组织的呼叫的电话系统 (云 PBX) 自动助理。 '
-ms.openlocfilehash: 00743fed485effe76864f3d7b619d6fb1fd28c0b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8b9d6bead2fc4aec259765d322840c948eeb31ef
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884155"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019015"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>设置电话系统自动助理
 
@@ -37,14 +37,14 @@ ms.locfileid: "23884155"
 ## <a name="step-1---getting-started"></a>第 1 步 - 开始
 
 - Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. 获得收费电话或免费电话服务号码后，它们将显示在**业务管理中心的 Skype** > **语音** > **电话号码**页。 若要获取服务号码，请查看[的业务和 Microsoft 团队的 Skype 获取服务电话号码](getting-service-phone-numbers.md)，或如果您希望进行传输和现有服务号码，请参阅[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)。 **User (subscriber)** numbers can't be assigned to auto attendants. 如果您在美国以外，您无法使用业务管理中心的 Skype 获取服务号码;转[此处](/microsoftteams/manage-phone-numbers-for-your-organization)相反。
-    
+
     > [!CAUTION]
-    > 若要获取并使用免费电话号码，则需要设置通信点数。 若要执行此操作，请参阅 [通信点数是什么？](/microsoftteams/what-are-communications-credits) 和 [为组织设置通信点数](/microsoftteams/set-up-communications-credits-for-your-organization) 。 
+    > 若要获取并使用免费电话号码，则需要设置通信点数。 若要执行此操作，请参阅 [通信点数是什么？](/microsoftteams/what-are-communications-credits) 和 [为组织设置通信点数](/microsoftteams/set-up-communications-credits-for-your-organization) 。
   
 - 企业版 E3 以及**电话系统**的许可证或企业 E5 许可证，您的组织必须 （最低要求）。 已分配的**电话系统**用户许可证数量影响的可用于自动助理服务号码数。 取决于您的组织中分配的号码**电话系统**和**音频会议**许可证的自动助理可以具有的数字。 若要了解有关授权的详细信息转[此处](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
     
     > [!TIP]
-    > 要重定向呼叫的运算符或联机用户与**电话系统**许可证的菜单选项，您将需要启用企业语音或分配给它们的调用计划在 Office 365 中。 请参阅[业务和 Microsoft 团队许可证分配 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。 你还可以使用 Windows PowerShell。 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` 
+    > 要重定向呼叫的运算符或联机用户与**电话系统**许可证的菜单选项，您将需要启用企业语音或分配给它们的调用计划在 Office 365 中。 请参阅[业务和 Microsoft 团队许可证分配 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。 你还可以使用 Windows PowerShell。 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>第 2 步 - 创建新的自动助理
 
@@ -65,7 +65,7 @@ ms.locfileid: "23884155"
 
 > [!NOTE]
 > **User (subscriber)** numbers can't be assigned to auto attendants.
-    
+
 ***
 ![第三](../images/sfbcallout3.png)<br/>**时区** 必须为自动助理设置时区，但是此时区无需与组织的主要地址所在的时区对应。每个自动助理可以有不同的时区，为自动助理设置的营业时间将根据你在此处选择的时区进行设置。
 ***
@@ -261,6 +261,7 @@ ms.locfileid: "23884155"
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](getting-service-phone-numbers.md)
 
 [音频会议和通话套餐的国家/地区可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
-    
-  
- 
+
+[什么是电话系统自动助理？](/MicrosoftTeams/what-are-phone-system-auto-attendants.md)
+
+[小型企业示例-设置的自动助理](tutorial-org-aa.yml)  

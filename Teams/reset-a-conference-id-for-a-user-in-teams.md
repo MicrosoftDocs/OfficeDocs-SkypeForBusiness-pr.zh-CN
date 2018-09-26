@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解在 Microsoft Teams 中重置用户的会议 ID 以及获取会议更新和迁移工具链接的步骤。 '
-ms.openlocfilehash: 8cc418b050b254930a74db8b0894dc14ccc090e5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: bed015c92e197c1ee2dc1b48e495eee98445e3f0
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014128"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019041"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中重置用户的会议 ID
 
@@ -38,11 +38,13 @@ ms.locfileid: "25014128"
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>重置用户的会议 ID
 
-1. 在左侧导航中，单击“**用户**”，然后从可用用户列表中选择用户。
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队和 Skype for Business Admin Center
 
-2. 在页面顶部，单击“**编辑**”。
+1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 
-3. 在“**音频会议**”下，单击“**重置会议 ID**”。
+2. 单击**编辑**。
+
+3. 在**音频会议**下单击**重置的会议 ID**。
 
 2. 在**重置的会议 ID**窗口中，单击**重置**。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 默认情况下电子邮件发送给用户，但这可以关闭。   
 
@@ -53,13 +55,13 @@ ms.locfileid: "25014128"
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="what-else-should-i-know"></a>我还应该了解哪些信息？
+## <a name="what-else-should-i-know"></a>我还需了解哪些信息？
 
 - 您可以向中包括会议 ID 和电话拨入电话号码，通过单击**音频会议**部分中为用户的**发送电子邮件中的会议信息**的电子邮件的用户发送的所有会议信息。 它不会发送 PIN。
     
-- 会议 ID 将包含 7 位数，你不能更改其长度。
+- 会议 ID 将包含 7 位数字，并且您无法更改它的长度。
     
-- 重置后，你可以看到新会议 ID 列在“**会议 ID**”下。
+- 重置之后，你可以看到新会议 ID 列在" **会议 ID**"下方。
     
 - [!重要信息] 创建新会议 ID 后，呼叫者不能再使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 
 
@@ -75,4 +77,4 @@ Windows PowerShell Office 365 的功能是管理用户以及允许或不允许�
     
 ## <a name="related-topics"></a>相关主题
 
-[重置音频会议 PIN](reset-the-audio-conferencing-pin-in-teams.md)
+[重置 PIN 的音频会议](reset-the-audio-conferencing-pin-in-teams.md)

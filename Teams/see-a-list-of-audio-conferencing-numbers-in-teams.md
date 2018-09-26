@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Microsoft Teams 中查找拨入会议号码。 '
-ms.openlocfilehash: 0b7ddc14fd87d62dd276c5b8c76a67572ed484a1
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: de92f552a873cf51a0cc8487d08cacca387e3e7a
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017324"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019033"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>在 Microsoft Teams 中查看音频会议号码列表
 
@@ -45,7 +45,7 @@ ms.locfileid: "25017324"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>查看音频会议电话号码
 
-1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
+1. 在 Microsoft 团队和 Skype 的业务管理中心，在左侧导航窗格中，转到**会议** > **会议桥**。 
 2.  可以查看可用于音频会议的电话号码。
 
 - 还可以查看音频会议自动助理将使用的位置和主要语言。

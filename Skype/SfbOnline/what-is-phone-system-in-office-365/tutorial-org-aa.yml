@@ -1,7 +1,7 @@
 ### YamlMime:Tutorial
-title: 实现示例-自动助理
+title: 小型企业示例-设置的自动助理
 metadata:
-  title: 实现示例-自动助理
+  title: 小型企业示例-设置的自动助理
   description: 对于 IT 管理员在整个组织中规划自动助理。
   audience: IT Pro
   level: Intermediate
@@ -24,15 +24,15 @@ metadata:
   - Teams_ITadmin_Training
   ms.custom:
   - NewAdminCenter_Update
-  ms.openlocfilehash: a25824acb0696b14b65937debfb074afa48c7e72
-  ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+  ms.openlocfilehash: 9f84d9a7fb9a2f2c4fbb0b818c849dc972885d9b
+  ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 09/25/2018
-  ms.locfileid: "25014528"
+  ms.lasthandoff: 09/26/2018
+  ms.locfileid: "25019125"
 items:
 - durationInMinutes: 2
-  content: "\n[Microsoft 团队](/MicrosoftTeams/Teams-overview.md)和[for Business 的 Skype](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7)都是提供聊天、 电话对话、 语音邮件、 会议、 文件和一个位置中的共同应用程序的 Office 365 的一部分。 都使用[**电话系统**](/MicrosoftTeams/what-is-phone-system-in-office-365)启用呼叫控制和 Office 365 云中的 PBX 功能。 \n\n电话系统允许您[设置的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)，包括语音邮件和[自动助理](/microsoftteams/what-are-phone-system-auto-attendants)，哪些呼叫您的业务让的人员导航菜单系统，以使其向右部门，请使用替换现有的 PBX 系统人，或运算符。 自动助理可用于与团队或 Skype 业务。 为组织的业务管理中心使用 Skype 创建自动助理系统。\n\n如果您需要设置自动助理，本文将指导您完成规划和实现假想的小型企业的自动助理。 它不是通用的解决方案，但它是一个很好的起始点。 \n\n## <a name=\"before-you-begin\"></a>开始之前\n\n我们假定您已经已以下： \n- 使用[调用规划](/MicrosoftTeams/what-are-calling-plans-in-office-365)为用户提供电话号码[设置您的组织中的电话系统](/MicrosoftTeams/setting-up-your-phone-system.md)。\n- [设置电话系统语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail) \n- 检查[电话系统自动助理是什么？](/microsoftteams/what-are-phone-system-auto-attendants.md)以更好地了解可以交互自动助理的电话系统功能。\n\n此外，您会高兴地发现大部分的规划和设计部分可以进行使用白板或索引卡： 具有良好的计划不从技术上讲 ヒ。\n"
+  content: "\n[Microsoft 团队](/MicrosoftTeams/Teams-overview.md)和[for Business 的 Skype](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7)都是提供聊天、 电话对话、 语音邮件、 会议、 文件和一个位置中的共同应用程序的 Office 365 的一部分。 都使用[**电话系统**](/MicrosoftTeams/what-is-phone-system-in-office-365)启用呼叫控制和 Office 365 云中的 PBX 功能。 \n\n电话系统允许您[设置的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)，包括语音邮件和[自动助理](/microsoftteams/what-are-phone-system-auto-attendants)，哪些呼叫您的业务让的人员导航菜单系统，以使其向右部门，请使用替换现有的 PBX 系统人，或运算符。 自动助理可用于与团队或 Skype 业务。 为组织的业务管理中心使用 Skype 创建自动助理系统。\n\n如果您需要设置自动助理，本文将指导您完成规划和实现假想的小型企业的自动助理。 它不是通用的解决方案，但它是一个很好的起始点。 \n\n## <a name=\"before-you-begin\"></a>开始之前\n\n我们假定您已经已以下： \n- 使用[调用规划](/MicrosoftTeams/what-are-calling-plans-in-office-365)为用户提供电话号码[设置您的组织中的电话系统](/MicrosoftTeams/setting-up-your-phone-system.md)。\n- [设置电话系统语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail) \n- 检查[电话系统自动助理是什么？](/MicrosoftTeams/what-are-phone-system-auto-attendants.md)以更好地了解可以交互自动助理的电话系统功能。\n\n此外，您会高兴地发现大部分的规划和设计部分可以进行使用白板或索引卡： 具有良好的计划不从技术上讲 ヒ。\n"
 - title: 评估业务需求
   durationInMinutes: 4
   content: "\nVanArsdel，Ltd.是三个律师和每个用户已具有 Office 365 和电话系统的语音邮件框 15 员工总数的小城镇法律办公室。    \n\n需求评估可能包括以下问题：\n\n### <a name=\"q-who-are-the-people-in-the-business\"></a>问： 谁是企业中的人员？\n下面是员工的摘要： \n|电话号码    | 名称      |角色           |备注 |\n|:--      |:--        |:--        |:--      |:--   |\n|555-0181   |Olga Gerasimova    |律师    | |\n|555-0182   |Manuela Carstens|   律师   | |    \n|555-0183   |Andrey Alexeeva    |律师    | |  \n|555-0184   |勒拿 Ehrle       |paralegal | |\n|555-0185   |Svetlana Uvarova |paralegal | |\n|555-0186   |索非亚 Krause      |paralegal | |\n|555-0187   |Mariya Artemyeva   |paralegal | |\n|555-0188   |Dariya Polyakova   |paralegal | |\n|555-0189   |Milana Nikolaeva   |paralegal | |\n|555-0190   |Valeria Pisani  |office 管理器 |  |\n|555-0191   |Boris Averyanov   |调查员  |  |\n|555-0192   |Julie Wolfe       |接收和日程安排 | 此外工作时间内的运算符  |\n|555-0193   |Jakob Roth        |帐单  |  |\n|555-0194   |Laura Heinrich    |帐单  |  |\n|555-0195   |Franco Piccio    |记录  |   |\n| | | | |  |\n\n\n### <a name=\"q-why-are-the-customers-calling\"></a>问： 为什么调用客户？\n自动助理应满足客户，并应首先获取解决常见的客户需要。 由于 Julie Wolfe 充当 office 运算符，直到实现自动助理系统她应在告诉您哪些客户需要生成呼叫的最佳位置。 \n\n要求其保留记录的呼叫的一周业务获取，和哪些用户其传输到客户查询的响应中调用的。 下面是她在后报告的使用：\n\n|呼叫者问题 | 呼叫次数  | 运算符操作 |\n|:--          |:--          |:--              |\n|计划/重新安排/取消约会    |45|    没有传输，前台接待员处理呼叫|\n|帐单问题                                  |22|    将转移到 Jakob 或 Laura 中帐单 | \n|有关时间和营业位置的查询          |20|    没有传输，前台接待员处理呼叫|\n|要与律师之一通话                |15|    将传输到请求律师|\n|要与 office 管理器通话                |12|    转接到的 office 管理器 |\n|要与律师帮办之一通话           |10|  转接到请求 paralegal|\n|要与调查通话                  | 6|    转接到调查 |\n|请求一份记录                       | 4|    将传输到记录员 |\n| | | |\n\n### <a name=\"q-what-special-considerations-does-each-job-function-in-the-office-have\"></a>问： office 中的每个作业函数有什么的特殊注意事项？\n每个有关他们所需要的自动助理从 office 中的作业函数中具有与人员一些讨论。 我们小型 office 中的以下点进行清除：\n- 可以通过 clerk 任一处理帐单问题。 给定的也没关系，同时将发送无论行不是已将呼叫闲，其号码时，或者向该组中的一个随机数字与创建呼叫队列，如果二者均可用。 （我们不会来实现这中的示例配置，但它并其中具有一个转到呼叫队列的菜单选项有意义的情况）。\n\n### <a name=\"q-what-language-requirements-do-the-customers-have\"></a>问： 客户必须哪些语言要求？\n询问 Julie Wolfe，我们发现其英语似乎在另一种语言的整个周中没有只有两个呼叫者。 他们很好地英文以使其查询，正常工作，他们看起来讲话相同的本机语言。 确认这与业务合作伙伴，律师，双语或多语言提示需要未看到为优先级。\n\n### <a name=\"q-what-are-the-business-hours-non-business-hours-and-holidays\"></a>问： 什么是工作时间、 非营业时间和假日？\n您可能需要不同的初始问候语的工作时间、 下班后，周末、 假日和等等。\n\n### <a name=\"q-for-each-of-the-job-functions-in-the-office-what-issues-do-they-handle-for-customers\"></a>问： 对于每个 office 中的作业功能，哪些问题是否它们处理的客户？\n您可能想不到的什么问题的各种 office 工作人员通常处理。 例如，很可能 Julie 接待员可以应答许多问题，您可能会认为应该被路由到的帐单部门或 Valeria office 管理器。\n"

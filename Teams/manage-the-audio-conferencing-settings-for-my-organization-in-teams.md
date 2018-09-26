@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解为用户分配电话拨入式会议许可证和会议 ID 的 Microsoft Teams 步骤以及许多其他电话拨入式会议设置。 '
-ms.openlocfilehash: 40a6dd3e545e913a134ae7bac80b5ec3085dc96a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1cf3240a2b6cf286e14a8180346f8db0ed755a46
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015330"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019091"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理组织的音频会议设置
 
@@ -78,13 +78,13 @@ ms.locfileid: "25015330"
   
 ## <a name="reset-the-meeting-conference-id"></a>重置会议 ID
 
-1. 在左侧导航中，单击“**用户**”，然后从可用用户列表中选择用户。
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
 
-2. 在页面顶部，单击“**编辑**”。
+1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 
-3. 在“**音频会议**”下，单击“**重置会议 ID**”。  
+2. 在“**音频会议**”下，单击“**重置会议 ID**”。  
 
-4. 在**重置的会议 ID？** 窗口中，单击**重置**。 如果启用了将电子邮件发送给用户，将自动创建会议 ID 并使用新的会议 ID 向用户发送邮件。 默认情况下启用它。
+3. 在**重置的会议 ID？** 窗口中，单击**重置**。 如果启用了将电子邮件发送给用户，将自动创建会议 ID 并使用新的会议 ID 向用户发送邮件。 默认情况下启用它。
 
 请参阅[重置用户的会议 ID](reset-a-conference-id-for-a-user-in-teams.md)。
   
@@ -92,103 +92,105 @@ ms.locfileid: "25015330"
 
 用户安排的每次会议将分配到一个唯一的会议 ID。 虽然会议 ID 将自动创建并分配给用户，有时可能时用户不是要使用此和您想要将其设置为一个特定号码，或您的用户不记得丢失其会议 id。 
 
-1. 在左侧导航中，单击“**用户**”，然后从可用用户列表中选择用户。
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
 
-2. 在页面顶部，单击“**编辑**”。
+1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 
-3. 在“**音频会议**”下，单击“**重置 PIN**”，然后单击“**重置**”。 
+2. 在“**音频会议**”下，单击“**重置 PIN**”，然后单击“**重置**”。 
   
-    
 当他们正在启用音频会议或 PIN 重置时，用户将收到电子邮件与他们的 PIN。 但如果您已禁用自动发送电子邮件，将不会发送的 PIN 重置电子邮件和必须手动发送给用户的 PIN。 PIN 将仅在重置后显示一次。 正在重置之后显示后，不会再显示 PIN 用户属性;而是 *** 将显示。 
   
 请参阅[重置音频会议 PIN](reset-the-audio-conferencing-pin-in-teams.md)。
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>向用户发送包含音频会议信息的电子邮件
 
-1. 在左侧导航中，单击“**用户**”，然后从可用用户列表中选择用户。
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
 
-2. 在页面顶部，单击“**编辑**”。
+1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 
-3. 在“**音频会议**”下，单击“**通过电子邮件发送会议信息**”。 
+2. 在“**音频会议**”下，单击“**通过电子邮件发送会议信息**”。 
 
     > [!NOTE]
     > 执行此操作时，不向用户发送音频会议 PIN。 
 
-  
 请参阅[向用户发送包含其音频会议信息的电子邮件](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)。
   
-## <a name="setting-the-phone-numbers-included-on-invites"></a>设置包含在邀请中的电话号码。
+## <a name="set-the-phone-numbers-included-on-invites"></a>设置包含在邀请中的电话号码
 
-1. 在左侧导航中，单击“**用户**”，然后从可用用户列表中选择用户。
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
 
-2. 在“**音频会议**”旁边，单击“**编辑**”。
+1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
+
+2. 在**音频会议**旁边，单击**编辑**。
  
-3. 在“**音频会议**”窗格中，可以设置**收费电话号码**，如果允许，并可以设置**免费电话号码**。
+3. 在**音频会议**窗格中，您可以设置**收费电话号码**，如果允许，**免费电话号码**。
 
 4. 单击“**保存**”。
     
-请参阅[设置包含在邀请中的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)。
+请参阅[设置的电话号码包含在邀请](set-the-phone-numbers-included-on-invites-in-teams.md)。
   
   
-## <a name="choosing-audio-conferencing-bridge-settings"></a>选择音频会议网桥的设置
+## <a name="choose-audio-conferencing-bridge-settings"></a>选择音频会议网桥的设置
 
-**设置呼叫者加入会议时的会议体验**
+**呼叫者加入会议时设置的会议体验**
 
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
-2. 在“**会议网桥**”页面顶部，单击“**网桥设置**”。 
+2. 在**会议桥**页的顶部，单击**网桥的设置**。 
 
 3. 在“**网桥设置**”窗格中，启用或禁用“**会议进入和退出通知**”。
 
     默认情况下启用。 如果您禁用此选项，某人进入或离开会议时，默认情况下已加入会议的用户不会将收到通知。
 
-4. 在“**进入/退出公告类型**”下，选择“**声音**”或“**姓名或电话号码**”。 
+4. 在**项/退出通知类型**下选择**音**或**姓名或电话号码**。 
 
-    如果你选择“**姓名或电话号码**”，则你还可以选择启用或禁用“**要求呼叫者在加入会议之前录制其姓名**”。 
+    如果您选择**姓名或电话号码**，可以选择启用或禁用**Ask 呼叫者在记录其姓名之前加入会议**。 
 
 5. 单击“**保存**”。
 
     
-请参阅[更改音频会议网桥的设置](change-the-settings-for-an-audio-conferencing-bridge.md)。
+请参阅[更改现有音频会议桥的设置](change-the-settings-for-an-audio-conferencing-bridge.md)。
   
  **设置会议的 PIN 长度**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
-2. 在“**会议网桥**”页面顶部，单击“**网桥设置**”。 
+2. 在**会议桥**页的顶部，单击**网桥的设置**。 
 
-3. 在“**网桥设置**”窗格中的“**PIN 长度**”列表中输入所需的 PIN 位数，然后单击“**保存**”。
+3. 在**桥设置**窗格中，输入您希望在**PIN 长度**列表中，PIN 的位数，然后单击**保存**。
 
     PIN 必须介于4到12位之间。 默认值为 5。
 
     
-请参阅[更改音频会议网桥的设置](change-the-settings-for-an-audio-conferencing-bridge.md)。
+请参阅[更改现有音频会议桥的设置](change-the-settings-for-an-audio-conferencing-bridge.md)。
   
- **启用或禁用向音频用户发送电子邮件**
-
+ **启用或禁用从发送给音频的用户的电子邮件**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
-2. 在“**会议网桥**”页面顶部，单击“**网桥设置**”。 
+2. 在**会议桥**页的顶部，单击**网桥的设置**。 
 
-3. 在“**网桥设置**”窗格中，启用或禁用“**当用户的音频会议设置更改时自动向用户发送电子邮件**”。
+3. 在**桥设置**窗格中，启用或禁用**自动发送电子邮件发送给用户，如果其音频会议设置更改**。
 
 4. 单击“**保存**”。 
  
-    你还可以转到用户的音频会议属性并单击“**通过电子邮件发送会议信息**”以向用户发送包含音频会议设置的电子邮件。
+    您还可以发送电子邮件向用户音频会议设置后，转到用户的音频会议属性，单击**发送电子邮件中的会议信息**。
     
     如果执行此操作，则将发送仅包括会议 ID 和会议电话号码的电子邮件，但不包括 PIN。
 
-请参阅[向用户发送包含其音频会议信息的电子邮件](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)。
+请参阅[对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)。
     
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>查看和设置音频会议网桥的主要（默认）和辅助（备用）语言
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>请参阅和上一个音频会议网桥设置主 （默认值） 和辅助 （备用） 语言
+
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
-2. 从列表中选择一个电话号码，然后单击“**编辑**”。
+2. 从列表中选择一个电话号码，单击**编辑**。
 
-3. 在“**默认语言**”和“**备用语言 (可选)**”下选择所需语言。
+3. 选择**默认语言**和 **（可选） 的备用语言**下所需的语言。
 
 4. 单击“**保存**”。
 
@@ -197,6 +199,7 @@ ms.locfileid: "25015330"
   
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>请参阅音频会议拨入号码
 
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 

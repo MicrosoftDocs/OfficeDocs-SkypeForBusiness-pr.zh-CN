@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解你应该了解的 PIN 相关信息以及如何在 Microsoft Teams 中重置 PIN。 '
-ms.openlocfilehash: b88ab6ee2cd498a38026e1fe2bfde04344514901
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f331298915cea6240baeb2f6f6086ec8b9ade675
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014248"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019065"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>在 Microsoft Teams 中重置音频会议 PIN
 
@@ -35,11 +35,11 @@ PIN 是为每个启用音频会议的 Microsoft 团队用户创建的数字组�
 
 ## <a name="reset-a-users-pin"></a>重置用户的 PIN
 
-1. 在左侧导航中，单击“**用户**”，然后从可用用户列表中选择用户。
+1. Skype 业务管理中心的左侧导航中的 Microsoft 团队中单击**用户**，然后选择从可用的用户列表的用户。
 
-2. 在页面顶部，单击“**编辑**”。
+2. 在**音频会议**，下单击**重置 PIN**。
 
-3. 在“**音频会议**”下，单击“**重置 PIN**”。
+3. 单击**重置**。
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
