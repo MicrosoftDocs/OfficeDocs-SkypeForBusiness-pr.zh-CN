@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00ff17cc8fb28f0279f1356937465668dc6b7afe
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d2b6a411e3dd4f2d7f337e6823cc41d98e508423
+ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015482"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25090207"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -213,6 +213,10 @@ ms.locfileid: "25015482"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |工作组规划器与集成计划程序联机 <br/> |任务计划程序中的存储桶不会显示在计划工具联机体验中。  <br/> |无解决方法。 <br/> |2017 年 2 月 28 日  <br/>|
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|SharePoint 页选项卡呈现空白屏幕<br/> |目前不支持 SharePoint Online 虚拟域。 用户体验时而添加 SharePoint 页选项卡上，将空白屏幕。 <br/> |无解决方法。 <br/> |8/20/18  <br/>|
 
 ## <a name="teams"></a>Teams
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|

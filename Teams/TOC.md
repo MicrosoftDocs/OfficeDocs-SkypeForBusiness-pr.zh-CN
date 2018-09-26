@@ -17,6 +17,7 @@
 ## [限制和规格团队](limits-specifications-teams.md)
 ## [在 Teams 中创建团队时规划 Office 365 组](plan-office-365-groups.md)
 ## [获取工具以支持 Teams 部署](rollout-tools.md)
+## [规划团队中的生命周期管理](plan-teams-lifecycle.md)
 ## [团队中的治理规划](plan-teams-governance.md)
 ## [Microsoft 365 政府版-GCC 部署规划](plan-for-government-gcc.md)
 ## 推动采纳率

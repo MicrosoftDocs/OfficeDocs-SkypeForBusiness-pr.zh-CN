@@ -8,12 +8,12 @@ ms.topic: hub-page
 ms.author: dearbeen
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: ed79bef2980c505c6e23a92c12af576ec5f31e3e
-ms.sourcegitcommit: 7f721d89559831de2cf1495feb0fc57b22b77d78
+ms.openlocfilehash: 5f721ccc993e31ae0040df7ea841ef13e86dae26
+ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25019335"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25090223"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -41,7 +41,7 @@ ms.locfileid: "25019335"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>#ThisIsTeams-Microsoft 团队每日演示</h3>
+                                                    <h3>#ThisIsTeams-Microsoft 团队概述 （英文)</h3>
                                                     <p>Microsoft Teams 是什么？ 加入我们的此 30 分钟方向，以了解什么是团队和为您可以工作方式。</p>
                                                 </div>
                                             </div>
@@ -61,7 +61,7 @@ ms.locfileid: "25019335"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>入门团队</h3>
-                                                    <p>从聊天和使用团队和频道的会议，用户将保留与 foundation 可以放心地使用团队此会话。</p>
+                                                    <p>从聊天和使用团队和频道的会议，用户将与 foundation 可以放心地使用团队离开此会话。</p>
                                                 </div>
                                             </div>
                                         </div>
