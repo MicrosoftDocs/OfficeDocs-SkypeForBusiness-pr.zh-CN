@@ -227,7 +227,7 @@ Microsoft 仅支持认证的 SBC，可直接路由与配对。 企业语音的�
 
 正在认证正在以下供应商提供：
 - [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- 功能区通信 (以前称为 Sonus):
+- Ribbon Communications（以前称为 Sonus）：
    - [SBC 边缘系列](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
    - [SBC 核心系列](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
 - ThinkTel: ThinkTel 不销售到企业 SBCs，但其 SBC 正在认证。  
