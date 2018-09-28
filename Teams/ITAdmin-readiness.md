@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 培训视频、 教程和其他资源来 admins 如何规划、 部署和运行的 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 687560f613a9537948c8aa56937bc7fb5dd814a1
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5d864ba1741dd90cd0e69dd53e23ad81302e9329
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015154"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347040"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
@@ -178,7 +178,7 @@ ms.locfileid: "25015154"
                         <h3>团队和频道</h3>
                          <p>[视频： 在运行并获取您的团队](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
                          <p>[视频： 转到指南团队所有者](https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547")</p>
-                         <p>[教程：使用 PowerShell 创建公司范围的团队](company-wide-team-creation-powershell.yml)</a></p>
+                         <p>[文章： 在工作组中创建一个组织范围团队](create-an-org-wide-team.md)</a></p>
                     </div>
                 </div>
             </div>

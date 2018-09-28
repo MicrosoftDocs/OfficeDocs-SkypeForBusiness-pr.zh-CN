@@ -187,7 +187,7 @@
 ### [Teams 中的团队和频道概述](teams-channels-overview.md)
 ### [分配团队所有者和中的 Microsoft 团队的成员](assign-roles-permissions.md)
 ### [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
-### [教程：使用 PowerShell 创建公司范围的团队](company-wide-team-creation-powershell.yml)
+### [在工作组中创建一个组织范围团队](create-an-org-wide-team.md)
 ## [来宾访问](guest-access.md)
 ### [来宾加入团队的方式](guest-joins.md)
 ### [来宾体验介绍](guest-experience.md)
