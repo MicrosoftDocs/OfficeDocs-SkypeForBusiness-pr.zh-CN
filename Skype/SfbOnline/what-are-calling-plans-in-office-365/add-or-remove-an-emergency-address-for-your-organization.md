@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解如何将紧急地址添加到 Skype for Business 帐户。 '
-ms.openlocfilehash: 06cd8202198b49efbf2c478e233865a681d2ce34
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: a4edcfa5673ac20c571bfae4d26f41facb9f0c80
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958178"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347052"
 ---
 # <a name="add-or-remove-an-emergency-address-for-your-organization"></a>为你的组织添加或删除紧急地址
 
@@ -40,7 +40,7 @@ ms.locfileid: "24958178"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
     
 3. 在左侧导航中，转到**语音** > **紧急位置**，然后单击 **添加新地址**按钮。
     
@@ -62,7 +62,7 @@ ms.locfileid: "24958178"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
     
 3. 在左侧导航窗格中，转到**语音** > **紧急位置**，选择您想要删除的地址和操作窗格中单击**删除**。
     

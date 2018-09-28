@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 了解表示 PIN 的长度和要求的参数，并了解如何在 Microsoft Teams 中设置会议的 PIN 长度。
-ms.openlocfilehash: db7c62920dc7440cc8356dd3f5275dd551cdfd78
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8e0be3a904f4172aa0f92c1632ad37992a36ab5f
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014914"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347479"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>在 Microsoft Teams 中设置音频会议的 PIN 长度
 
@@ -38,18 +38,20 @@ ms.locfileid: "25014914"
   
 ## <a name="setting-the-pin-length"></a>设置 PIN 长度
 
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队和 Skype for Business Admin Center
+
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
 2. 在“**会议网桥**”页面顶部，单击“**网桥设置**”。 
 
-3. 在“**网桥设置**”窗格中的“**PIN 长度**”下，为 PIN 选择所需的位数。
+3. 在**桥设置**窗格中，在**PIN 长度**，下选择所需的 pin 的位数。
 
 4. 单击“**保存**”。
 
 > [!NOTE]
 > [!注释] PIN 与会议 ID 不同。 会议 ID 由呼叫者在加入会议时使用。 它们用于标识会议。 PIN 用于对作为会议组织者的呼叫者进行身份验证。 
 
-## <a name="want-to-know-more-about-pin-settings"></a>想要了解有关 PIN 设置的详细信息？
+## <a name="want-to-know-more-about-pin-settings"></a>想知道 PIN 设置的详细信息吗？
 
 - 旋转中心点到 12 个数字; 可以是从 4默认值为 5。 在创建 PIN 时只能使用数字。 不能使用字母和特殊字符。
     

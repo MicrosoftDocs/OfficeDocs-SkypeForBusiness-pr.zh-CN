@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '请参阅有关如何更改用户的美国和欧洲的公共公用电话交换网 (PSTN) 紧急地址的步骤。 '
-ms.openlocfilehash: 31162e24471cb4e9259678f779143900fa61ac08
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: e27ea228972ceead0838cff481a0db983c503b02
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958348"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347098"
 ---
 # <a name="change-the-emergency-address-for-a-user"></a>更改用户的紧急地址
 
@@ -40,7 +40,7 @@ ms.locfileid: "24958348"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
     
 3. 在左侧导航窗格中，转到**语音** > **语音用户**。
     

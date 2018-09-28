@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '学习添加、更改或删除组织的公用电话交换网 (PSTN) 上 Skype for Business 使用的紧急位置。 '
-ms.openlocfilehash: 862d62af8db8275e304c1522ae19a80d9ebcfec4
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 43a8ac0759fd8dc949953fe22cb73c00a96f4314
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958268"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347049"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>添加、 更改或删除您的组织紧急地点
 
@@ -38,7 +38,7 @@ ms.locfileid: "24958268"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
     
 3. 在左侧导航窗格中，转到**语音** > **紧急位置**，然后选择您要添加的位置的紧急地址。
     
@@ -55,7 +55,7 @@ ms.locfileid: "24958268"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
     
 3. 在左侧导航窗格中，转到**语音** > **紧急位置**，然后选择您要为其更改的位置的紧急地址。
     
@@ -69,13 +69,13 @@ ms.locfileid: "24958268"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
     
 3. 在左侧导航窗格中，转到**语音** > **紧急位置**，然后选择要删除的位置的紧急地址。
     
 4. **关联的位置**，旁边的操作窗格中单击**更改**。
     
-5. 在**与位置关联**下，位置的链接下，单击**删除**。
+5. 下**位置相关联**，旁边的链接位置，单击**删除**。
     
 6. 单击“**保存**”。
     

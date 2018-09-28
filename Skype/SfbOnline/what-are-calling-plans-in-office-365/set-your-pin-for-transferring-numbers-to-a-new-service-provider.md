@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 如需将电话号码从 Skype for Business Online 转移或转出到另一个电话服务提供商或运营商，将需要手动 PIN。 设置 PIN 后，在请求将电话号码转出时将需要将其包括在内。
-ms.openlocfilehash: f30c26d366d6ad431683ba5b80641a9796c2730c
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 3a3744a4b1272bab987add10039c89c6e3983927
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958248"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347088"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>设置 PIN 以将号码转移到新服务提供商
 
@@ -55,7 +55,7 @@ ms.locfileid: "24958248"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Office 365 管理中心** > **管理中心** > **for Business 的 Skype**。
+2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
     
 3. 在左侧导航窗格中，选择**语音** > **端口订单**。
     

@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: 69ed5566d516f89b5b3f2c96ab37e43690693708
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 660854bc851be4409962f1177917e86f2ae3482d
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017894"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347542"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>将电话号码转移到 Office 365
 
@@ -53,7 +53,7 @@ ms.locfileid: "25017894"
  
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
     
 3. In the left navigation go to **Voice** > **Port orders** > click **Add**.
     
@@ -81,7 +81,7 @@ ms.locfileid: "25017894"
     
   - 服务地址的 **城市**、 **省/市/自治区**、 **邮政编码**。
     
-6. 在" **号码**"页面上，以 E.164 格式输入要转移的电话号码。例如，对于北美地区的电话号码，使用格式 +1XXXYYYZZZZ。可使用逗号分隔多个电话号码。
+6. 在" **号码**"页面上，以 E.164 格式输入要转移的电话号码。 例如，对于北美地区的电话号码，使用格式 +1XXXYYYZZZZ。 使用逗号分隔多个电话号码。
     
     > [!NOTE]
     > [!提示] 如果要执行完整转网，你需要在列表中包括服务付费电话号码 (BTN)。如果要执行部分转网，请不要在此列表中包括服务付费电话号码 (BTN)。 
@@ -90,7 +90,7 @@ ms.locfileid: "25017894"
     
 7. 单击" **继续**"。
     
-8. 在" **转移日期**"页面上，在" **天**"下拉列表中选择日期，在" **开始时间**"下拉列表选择时间 (EST)，然后单击" **下一步**"。
+8. 在**转移日期**页上**天**下拉列表中，选择的日期和在**开始时间**下拉列表中，下选择的时间 (EST)，然后单击**下一步**。
     
 9. 在" **授权书**"页面上，检查下面的每个框。然后在" **签名**"框下方，键入有权更改该帐户的人员。这是在" **帐户信息**"页面>" **授权人员**"上使用的相同名称。然后单击" **下一步**"。
     

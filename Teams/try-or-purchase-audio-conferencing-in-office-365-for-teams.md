@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
-ms.openlocfilehash: 1538781a2704ae65922d57f8ac556fd3e57d7fe4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: efe5ab7189a5012b27b12838844325240b5891f5
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014296"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347550"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>尝试或购买 Microsoft 团队的 Office 365 中的音频会议
 
@@ -38,7 +38,7 @@ ms.locfileid: "25014296"
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>步骤 1： 购买和分配音频会议许可证
 
-您必须是[有关 Office 365 管理员角色](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)执行这些步骤。
+您必须是[全局管理员或帐单管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行这些步骤。
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>若要购买和分配用户音频会议许可证：
 

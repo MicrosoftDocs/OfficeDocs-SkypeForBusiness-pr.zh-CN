@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解如何获取新的端口，或将现有号码转接的 Skype for Business，以及如何向用户显示所做的更改。 '
-ms.openlocfilehash: 9bbeaa180cf09e969af412c6ee10651d7a9a7f04
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 72793ce279155df857dfe11529acbacf673c8552
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958128"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347126"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>为用户获取电话号码
 
@@ -51,7 +51,7 @@ ms.locfileid: "24958128"
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
     
 3. 在左侧导航窗格中转到 **语音** > **电话号码**，单击 **添加新号码** ![添加按钮](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)，然后单击**新的用户数量**。
     
@@ -90,7 +90,7 @@ ms.locfileid: "24958128"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
     
 3. 在左侧导航窗格中，转到**语音** > **电话号码**。 The phone numbers you have for your organization are listed under **Number**.
     

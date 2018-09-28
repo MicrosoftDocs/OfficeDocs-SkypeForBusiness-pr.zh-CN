@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 了解如何为你的每个使用公用电话交换网 (PSTN) 的用户设置紧急地址和电话号码。
-ms.openlocfilehash: 56552002c589b776935be973700cff822a9f4857
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 10b22db9e50c1913124d021bff1cc7c285c1f52c
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958158"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347022"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>为用户分配或更改紧急地址
 
@@ -38,7 +38,7 @@ ms.locfileid: "24958158"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
     
 3. 在左侧导航窗格中转到**语音**，然后单击**语音用户**。
     

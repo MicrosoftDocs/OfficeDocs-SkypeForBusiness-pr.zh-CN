@@ -24,12 +24,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 根据 Skype for Business Online PSTN 服务使用条款和客户的批量授权，客户可以使用 Office 365 通话套餐和 Office 365 音频会议。
-ms.openlocfilehash: 9e807e5bca0ed17d798a7fd71b9c8db76e146750
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9f3db1ee225633bc4a1d4084dc674d6253e49276
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017508"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347390"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音频会议免费拨出期
 
@@ -39,7 +39,7 @@ ms.locfileid: "25017508"
   
 ### <a name="complimentary-dial-out-period"></a>免费拨出期
 
-作为采用 Office 365 音频会议服务的客户的另一项好处，Microsoft 将为 2018 年 6 月 30 日之前持有 Office 365 音频会议许可证的用户提供与从会议拨出电话相关的更多优惠。 通过年 6 月 30 2018年段参加许可用户组织的会议的用户可以在基于由会议组织者，授予的权限拨出式从发起呼叫在会议中的对电话号码中的以下 44 国家/地区：
+作为为采用我们 Office 365 音频会议服务的客户其他带来好处，Microsoft 将提供其他权益相关从分配 2018 年 6 月 30，通过 Office 365 音频会议许可证的用户组织的会议拨出。 通过年 6 月 30 2018年段参加许可用户组织的会议的用户可以在基于由会议组织者，授予的权限拨出式从发起呼叫在会议中的对电话号码中的以下 44 国家/地区：
   
 |    |
 |-----|

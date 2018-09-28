@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何设置 Skype for Busineses 以便将其他语言用于贵组织的默认语音邮箱问候语。 '
-ms.openlocfilehash: b1937434fd63c16155916e349d15617bb36d9369
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b88fa5692d0a4a87968a5998f58b144aa31bcb9b
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016410"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347382"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>更改问候语和电子邮件的默认语言
 
@@ -52,9 +52,9 @@ ms.locfileid: "25016410"
 
 1. 使用您的[Office 365 全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帐户，登录[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。 
     
-2. 在管理中心，选择“**设置**” > “**组织资料**”。 
+2. 在 Office 365 管理中心中，选择**设置** > **组织配置文件**。 
     
-     ![选择“设置”，然后选择“组织资料”。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![Choose Settings and then choose Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. 选择" **编辑**"。
     

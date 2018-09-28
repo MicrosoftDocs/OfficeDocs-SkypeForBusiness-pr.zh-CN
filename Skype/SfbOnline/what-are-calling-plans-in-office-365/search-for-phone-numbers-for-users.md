@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '请参阅您如何搜索可以按国家/地区、 国家/地区或市/县分配给用户的电话号码，并指定所需的数量。 '
-ms.openlocfilehash: d57ccfbea0020ab3ddacd894ffa6f277798bb042
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 0edf61b52869eff4a52e7b109085e02d4b380742
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958098"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347068"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>为用户搜索电话号码
 
@@ -44,7 +44,7 @@ ms.locfileid: "24958098"
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
     
 3. 在左侧导航窗格中转到**语音** > **电话号码**，然后单击**添加新号码** > **新用户号码**。
   
@@ -59,7 +59,7 @@ ms.locfileid: "24958098"
     > [!NOTE]
     > 您可以看到该号码的电话号码，它基于**总用户号码可以获取**旁边列出的许可证数量。 
   
-6. 你可以单击" **显示号码**"来查看完整的电话号码列表。如果你不想选择列表中的特定电话号码，这将非常有用。
+6. 你可以单击" **显示号码**"来查看完整的电话号码列表。 这是非常有用，如果您不想要在列表中选择一个特定的电话号码。
     
 7. 选择您希望的电话号码，然后单击**获取号码**。
     

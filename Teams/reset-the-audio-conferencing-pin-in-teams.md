@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解你应该了解的 PIN 相关信息以及如何在 Microsoft Teams 中重置 PIN。 '
-ms.openlocfilehash: f331298915cea6240baeb2f6f6086ec8b9ade675
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: 292cc1c042816236fed35b536dd529b49e902203
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019065"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347495"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>在 Microsoft Teams 中重置音频会议 PIN
 
@@ -35,22 +35,26 @@ PIN 是为每个启用音频会议的 Microsoft 团队用户创建的数字组�
 
 ## <a name="reset-a-users-pin"></a>重置用户的 PIN
 
-1. Skype 业务管理中心的左侧导航中的 Microsoft 团队中单击**用户**，然后选择从可用的用户列表的用户。
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队和 Skype for Business Admin Center
 
-2. 在**音频会议**，下单击**重置 PIN**。
+1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 
-3. 单击**重置**。
+2. 单击**编辑**。
+
+3. 在**音频会议**，下单击**重置 PIN**。
+
+4. 单击**重置**。
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
    
-## <a name="have-a-user-reset-his-or-her-own-pin"></a>让用户重置自己的 PIN
+## <a name="have-a-user-reset-his-or-her-own-pin"></a>具有重置其自己的 PIN 的用户
 
-1. 让用户访问 [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing)。
-2. 单击“**重置 PIN**”。 
+1. 让用户转到[https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing)。
+2. 单击**重置 PIN**。 
 
 
-## <a name="what-else-should-you-know-about-pins"></a>你还应该了解有关 PIN 的哪些信息？
+## <a name="what-else-should-you-know-about-pins"></a>你还应该知道有关 PIN 的哪些信息？
 
 - 出于安全考虑，PIN 仅在重置时向管理员显示一次。 由管理员重置 PIN 后，将作为列出 PIN ***。
     
@@ -58,7 +62,7 @@ PIN 是为每个启用音频会议的 Microsoft 团队用户创建的数字组�
     
 - 当会议启动时，会议厅中的所有用户都将自动加入该会议。 例如，如果两个参与者在会议启动之前尝试加入会议，他们将进入会议厅并将收听保持音乐，当会议组织者通过电话使用 PIN 加入时，该会议将启动，会议厅中的参与者将加入会议。
     
-- 默认设置不允许匿名呼叫者启动会议。
+- 默认设置是不允许由匿名呼叫者启动会议。
     
 - 当您启用音频会议的用户时，默认情况下它们发送电子邮件，包括会议信息和其 PIN。 用户必须具有 Office 365 邮箱，因为一个新的 PIN 重置 PIN 时, 将发送到电子邮件到为用户设置其主 SMTP 地址 （别名） 中的用户。
     

@@ -21,16 +21,16 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 了解提供哪些国家和地区的电话拨入式会议号码，以及如何自动分配这些号码。
-ms.openlocfilehash: c16f2280441ba3a253e1656d989b9a90702f4599
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 29fd127fd132d953aafcec46807e2fd6012e7c4b
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017548"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347408"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中音频会议的电话号码
 
-当您要设置的 Microsoft 团队的**音频会议**时，电话拨入电话号码自动分配给您的组织。 若要查看电话号码分配给您的音频会议桥中的 Microsoft 团队 Skype 的业务管理中心中，转到**会议** > **会议桥**。 请参阅[音频会议号码的列表，请参阅](see-a-list-of-audio-conferencing-numbers-in-teams.md)。
+当您要设置的 Microsoft 团队的**音频会议**时，电话拨入电话号码自动分配给您的组织。 若要查看电话号码分配给您的音频会议桥中的 Microsoft 团队 Skype 的业务管理中心中，转到**会议** > **会议桥**。 详细信息，请转到[音频会议号码的列表，请参阅](see-a-list-of-audio-conferencing-numbers-in-teams.md)。
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>音频会议覆盖范围和定价

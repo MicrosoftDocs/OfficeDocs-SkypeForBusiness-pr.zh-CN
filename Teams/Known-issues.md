@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2b6a411e3dd4f2d7f337e6823cc41d98e508423
-ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
+ms.openlocfilehash: bbad4e45d51508e7b702591259f953a5a02022a6
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25090207"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347273"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -63,7 +63,7 @@ ms.locfileid: "25090207"
 ## <a name="authentication"></a>身份验证
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|当你尝试从 Internet Explorer 或 Edge 加入 Teams 时，程序持续循环或崩溃并且无法登录。   <br/> | 贵组织使用 Internet Explorer 中的受信任站点，基于 Web 的 Teams 应用程序无法正常登录，因为 Teams 的受信任站点不被允许。 <br/>|使用管理员权限或群组策略对象，对 IE 设置进行下列更改：<br/><ol><li>在**Internet 选项**下&gt;**隐私** &gt; **高级**，接受第一方和第三方 cookie 和**总是允许会话 cookie**的复选框。</li><li>单击**Internet 选项** &gt; **受信任的站点** &gt; **网站**，并添加以下所有条件：<ul><li>https://\login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>注意</b>：始终验证并允许 Teams 的所有受信任 URL 以及以下文档中的要求：[Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)   <br/> |11/1/17  <br/> |
+|当你尝试从 Internet Explorer 或 Edge 加入 Teams 时，程序持续循环或崩溃并且无法登录。   <br/> | 贵组织使用 Internet Explorer 中的受信任站点，基于 Web 的 Teams 应用程序无法正常登录，因为 Teams 的受信任站点不被允许。 <br/>|使用管理员权限或群组策略对象，对 IE 设置进行下列更改：<br/><ol><li>在**Internet 选项**下&gt;**隐私** &gt; **高级**，接受第一方和第三方 cookie 和**总是允许会话 cookie**的复选框。</li><li>单击**Internet 选项** &gt; **受信任的站点** &gt; **网站**，并添加以下所有条件：<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>注意</b>：始终验证并允许 Teams 的所有受信任 URL 以及以下文档中的要求：[Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)   <br/> |11/1/17  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|

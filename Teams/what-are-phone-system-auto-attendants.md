@@ -4,6 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: makolomi
+ms.date: 9/1/2018
 ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
@@ -23,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解什么是电话系统 (云 PBX) 自动助理以及如何使用它们。 '
-ms.openlocfilehash: 5d73a32e7df8e25c24ba7eeaa958d9b8bc4dd80d
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: 9a1b99de7d4a1ef10518c632436bf4c3e67732c9
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019099"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347558"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>什么是电话系统自动助理？
 

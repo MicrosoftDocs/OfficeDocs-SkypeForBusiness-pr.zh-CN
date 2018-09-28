@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 在 Microsoft Teams 中向你的用户发送包含其音频会议信息的电子邮件。
-ms.openlocfilehash: 9ebd650e487b4ef3108d50ecce31eea0a936b176
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 3b1cb1eb4fcf654a4ab3d3cb227416b0cf700817
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012318"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347461"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>在 Microsoft Teams 中向用户发送包含其音频会议信息的电子邮件
 
@@ -45,28 +45,30 @@ ms.locfileid: "25012318"
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>向用户发送包含音频会议信息的电子邮件
 
-1. 在左侧导航中，单击“**用户**”，然后从可用用户列表中选择用户。
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队和 Skype for Business Admin Center
 
-2. 在页面顶部，单击“**编辑**”。
+1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 
-3. 在“**音频会议**”下，单击“**通过电子邮件发送会议信息**”。
+2. 在页面的顶部，单击**编辑**。
+
+3. 在**音频会议**，单击**发送电子邮件中的会议信息**。
 
 
-## <a name="what-else-should-you-know-about-this-email"></a>你还应该了解有关此电子邮件的哪些信息？
+## <a name="what-else-should-you-know-about-this-email"></a>此电子邮件的其他须知事项。
 
-- 在为贵组织中的用户启用了音频会议后，会向他们发送多封电子邮件：
+- 有多个电子邮件发送给组织中的用户启用了后为音频会议：
     
   - 向其分配**音频会议**许可证时。
     
-  - 当你手动重置用户的音频会议 PIN 时。
+  - 当您手动重置用户的音频会议 PIN。
     
   - 当你手动重置用户的会议 ID 时。
     
-  - 删除用户的**音频会议**许可证时。
+  - 当**音频会议**许可证已从它们。
     
-  - 当用户的音频会议提供商从 Microsoft 更改为另一个提供商或“**无**”时。
+  - 当用户音频会议提供商从 Microsoft 更改为其他提供程序或**无**。
     
-  - 当用户的音频会议提供商更改为 Microsoft 时。
+  - 向 Microsoft 更改时用户音频会议提供商。
     
 - 默认情况下，电子邮件发件人将从 Office 365，但您可以更改的电子邮件地址，并且可以使用 Windows PowerShell 显示名称。 请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)（英文） 的详细信息。
   

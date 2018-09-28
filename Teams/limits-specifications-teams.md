@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af408506195878a4c213044e6c2223ae75bb815b
-ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
+ms.openlocfilehash: e2288ea2c2359098bc66e317ff57ef16c7900e98
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25090183"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347200"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>限制和规格的 Microsoft 团队
 =============================================
@@ -32,6 +32,7 @@ ms.locfileid: "25090183"
 |-----------|---------------|
 |用户可创建的团队数量 | 受到 250 对象限制和 sup1;         |
 |团队中的成员数 | 2500       |
+|组织范围团队中的成员数 | 1,000 个       |
 |全局管理员可以创建的团队数量        | 500,000 个   |
 |Office 365 租户可以具有的团队数量    | 500,000 个     |
 |每个工作组的通道数    | 200         |

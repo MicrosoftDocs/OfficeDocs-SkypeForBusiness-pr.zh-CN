@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Microsoft Teams 中查找拨入会议号码。 '
-ms.openlocfilehash: de92f552a873cf51a0cc8487d08cacca387e3e7a
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: e2a3684e7f2c0264e36a6e30ce2df4adf2537895
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019033"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347374"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>在 Microsoft Teams 中查看音频会议号码列表
 
@@ -45,10 +45,12 @@ ms.locfileid: "25019033"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>查看音频会议电话号码
 
-1. 在 Microsoft 团队和 Skype 的业务管理中心，在左侧导航窗格中，转到**会议** > **会议桥**。 
-2.  可以查看可用于音频会议的电话号码。
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队和 Skype for Business Admin Center
 
-- 还可以查看音频会议自动助理将使用的位置和主要语言。
+1. 在左侧导航窗格中，转到**会议** > **会议桥**。 
+2. 查看可用于音频会议的电话号码。
+
+- 您还可以查看的位置和音频会议自动助理将使用的主要语言。
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 

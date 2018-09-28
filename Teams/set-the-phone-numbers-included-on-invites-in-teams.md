@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '获取创建默认的电话号码的呼叫者加入 Microsoft 团队会议的步骤。 '
-ms.openlocfilehash: f62a6e63181c474d19f403d6c81f858177bd8cd0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 859bf6f4a99f95c67123385c99061b1546eaa60c
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016194"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347574"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft Teams 中设置包含在邀请中的电话号码
 
@@ -41,23 +41,25 @@ Office 365 中的音频会议，组织中的用户创建的 Microsoft 团队会�
   
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>为会议组织者或用户设置或更改默认音频会议电话号码。
 
-1. 在左侧导航中，单击“**用户**”，然后从可用用户列表中选择用户。
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队和 Skype for Business Admin Center
 
-    ![显示在 Microsoft Teams 和 Skype for Business 管理中心中选择用户](media/teamsselectusers.png)
+1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 
-2. 在页面顶部，单击“**编辑**”。
+    ![显示选择的 Microsoft 团队和 Skype 的业务管理中心中的用户](media/teamsselectusers.png)
 
-    ![在 Microsoft Teams 和 Skype for Business 管理中心中单击“编辑”](media/teamsedituser.png)
+2. 在页面的顶部，单击**编辑**。
 
-3. 在“**音频会议**”旁边，单击“**编辑**”。 
+    ![单击编辑中的 Microsoft 团队和 Skype 的业务管理中心](media/teamsedituser.png)
+
+3. 在**音频会议**旁边，单击**编辑**。 
     
-    ![单击“音频会议”旁边的“编辑”](media/teamseditaudioconf.png)
+    ![单击编辑旁边音频会议](media/teamseditaudioconf.png)
 
-4. 使用“**收费电话号码**”或“**免费电话号码**”字段为用户输入电话号码。
+4. 使用**收费电话号码**或**免费电话号码**字段，用户输入的数字。
 
 
 > [!IMPORTANT]
-> 更改用户的音频会议设置时，必须更新定期和将来的 Microsoft Teams 会议并向与会者发送更新信息。 
+> 更改用户的音频会议设置时，必须更新定期和将来的 Microsoft 团队会议，并将其发送给与会者中。 
 
 ## <a name="want-to-use-windows-powershell"></a>想要使用 Windows PowerShell？
 

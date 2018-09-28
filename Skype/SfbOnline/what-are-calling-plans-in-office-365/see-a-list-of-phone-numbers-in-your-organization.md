@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 了解如何组织、 分配给用户的所有号码和从业务管理中心的 Skype 分配给语音用户的所有号码中的所有电话号码的列表，请参阅。
-ms.openlocfilehash: 2f7311b3b50be7bb6cea086fdd3e9f4fe67a677b
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: c257991c0b867cb42b5b56af0e5595257260b25a
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958228"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347078"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>查看组织中的电话号码列表
 
@@ -39,7 +39,7 @@ ms.locfileid: "24958228"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Phone numbers**.
     
@@ -71,7 +71,7 @@ ms.locfileid: "24958228"
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Voice users**.
     
@@ -95,7 +95,7 @@ ms.locfileid: "24958228"
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Voice users**.
     

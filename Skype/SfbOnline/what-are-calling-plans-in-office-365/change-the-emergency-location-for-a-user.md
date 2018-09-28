@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解如何更改您的用户的紧急位置。使用任意数量的位置，您可以更改紧急位置，员工移动楼层或建筑。 '
-ms.openlocfilehash: caf201bf71d15518ffbfbf473a904da2d1d03aa4
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 7ebec7ca6a2180702eec9e24b3165eb501d4a097
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958208"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347108"
 ---
 # <a name="change-the-emergency-location-for-a-user"></a>更改用户的紧急位置
 
@@ -38,7 +38,7 @@ ms.locfileid: "24958208"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
     
 3. 在左侧导航窗格中转到**语音** > **语音用户**。
     
