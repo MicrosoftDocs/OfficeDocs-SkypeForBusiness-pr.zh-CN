@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 0d8ed28eb941618a4faf10dddb4c700d2a0d2baf
-ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
-ms.translationtype: HT
+ms.openlocfilehash: e4c86bb7d918a30b0abe185d67b717904702bc93
+ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965520"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25352295"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Microsoft Teams 中具有通话套餐的电话系统实践指导
 =========================================================================
@@ -231,8 +231,7 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 <br>
 具有通话套餐的电话系统的技术规划
 ------------------------------------------------------
-
-为了规划具有通话套餐的电话系统的技术实施，必须提前制定一系列决策，让贵组织做好更充分的准备以便实施满足业务需求的解决方案。 这些决策将记录到技术实施计划中。
+<a name="technical-planning-for-phone-system-with-calling-plans"></a>来规划电话系统的技术实现与调用计划，一系列决策必须进行提早制定以更好地准备您的组织，以实现解决方案满足业务需求。 这些决策将记录到技术实施计划中。
 
 ## <a name="availability-of-calling-plans"></a>通话套餐的可用情况
 

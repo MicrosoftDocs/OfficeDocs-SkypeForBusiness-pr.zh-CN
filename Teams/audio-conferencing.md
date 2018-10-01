@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: e611b66efb09091303c98dba6c3cdf55d693bc8c
-ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
+ms.openlocfilehash: d3f16e8eecb9396b4258094e761464625c2db548
+ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965528"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25352303"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的音频会议实践指导
 ============================================================
@@ -229,8 +229,7 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 <br>
 音频会议技术规划
 -----------------------------------------
-
-为了规划音频会议的技术实施，必须提前制定一系列决策，让贵组织做好更充分的准备以便实施满足业务需求的解决方案。 这些决策将记录到技术实施计划中。
+<a name="technical-planning-for-audio-conferencing"></a>来规划音频会议的技术实现，一系列决策必须进行提早制定以更好地准备您的组织，以实现解决方案满足业务需求。 这些决策将记录到技术实施计划中。
 
 ## <a name="availability-of-audio-conferencing"></a>音频会议可用情况
 

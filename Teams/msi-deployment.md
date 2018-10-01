@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b72f40e624c63349913688e11ffc30be5a93a92b
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 8230cb0cd03e1ba0b11c43c16d8817fdb80c31ec
+ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347118"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25352279"
 ---
 <a name="install-microsoft-teams-using-msi"></a>使用 MSI 安装 Microsoft Teams
 =================================
@@ -59,7 +59,7 @@ ms.locfileid: "25347118"
 3. 重新部署特定计算机的 MSI 数据包。
 
 > [!TIP] 
-> 您可以使用我们[的 Microsoft 团队部署清理](.\scripts\Powershell-script-teams-deployment-clean-up.md)的脚本完成通过 SCCM 的步骤 1 和 2。  
+> 您可以使用我们[的 Microsoft 团队部署清理](scripts/Powershell-script-teams-deployment-clean-up.md)的脚本完成通过 SCCM 的步骤 1 和 2。    
                     
 ## <a name="disable-auto-launch-for-the-msi-installer"></a>禁用自动启动的 MSI 安装程序
 

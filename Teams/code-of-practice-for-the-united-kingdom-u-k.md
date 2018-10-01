@@ -24,12 +24,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: e22a1c853a60af06789e98c6eb73f701712f7252
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 646d525111e18752492ad7ebc346839b7d296f9b
+ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016330"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25352311"
 ---
 # <a name="code-of-practice-for-the-united-kingdom-uk"></a>英国 (U.K.) 行为准则
 
@@ -53,11 +53,8 @@ Skype for Business 在英国由 Microsoft Ireland Operations Limited 提供，�
 
 ## <a name="3-complaints-and-dispute-resolution"></a>3 投诉和争议解决
 
-<<<<<<< HEAD:Teams/code-of-practice-for-the-united-kingdom-u-k.md 我们首要是客户满意度和出色的服务。 但是，如果你有投诉，我们将快速响应并帮助你解决问题。 我们[调用计划在 Office 365-投诉处理代码的英国 （英国） 中](complaint-handling-code-for-the-united-kingdom-u-k.md)的页面详细介绍的过程适用于小型企业与我们我们独立争议解析方案文件的投诉。
+获得客户满意和提供卓越服务是我们的首要任务。 但是，如果你有投诉，我们将快速响应并帮助你解决问题。 我们[调用计划在 Office 365-投诉处理代码的英国 （英国） 中](complaint-handling-code-for-the-united-kingdom-u-k.md)的页面详细介绍的过程适用于小型企业与我们我们独立争议解析方案文件的投诉。
   
-=== 我们顶部的优先级为客户满意度和出色的服务。 但是，如果你有投诉，我们将快速响应并帮助你解决问题。 我们[调用计划在 Office 365-投诉处理代码的英国 （英国） 中](code-of-practice-for-the-united-kingdom-u-k.md)的页面详细介绍的过程适用于小型企业与我们我们独立争议解析方案文件的投诉。
-
->>>>>>> master:Skype/SfbOnline/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md
 ## <a name="4-number-porting"></a>4 携号转网
 
 在某些情况下，Skype for Business 可能无法转移客户的电话号码以供本服务使用。在允许号码转网的情况下，Skype for Business 将采取一切合理措施，确保在与客户的当前服务提供商达成号码转移协议后，立即完成号码转移和后续激活工作。
