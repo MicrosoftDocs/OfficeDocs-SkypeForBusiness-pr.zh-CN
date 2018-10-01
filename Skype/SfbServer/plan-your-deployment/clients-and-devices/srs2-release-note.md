@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文讨论中 Skype 会议室系统 v2 累积改进。
-ms.openlocfilehash: e44a9ecc943bd20b451458fd1c469eee4d5cd2ea
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 7a84cd715be9d76caa9b8ce624aae1c7fbe84f35
+ms.sourcegitcommit: 38efc00dfadc98cebd362877a1239d852f804f06
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965910"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25353211"
 ---
 # <a name="release-notes"></a>发行说明 
 
@@ -26,13 +26,15 @@ ms.locfileid: "23965910"
 
 | 发行版 | 发布到 <br>Microsoft 存储 | 
 | ---     | ---                              |
+| 4.0.19.0|  08/31/2018    |   
+| 4.0.18.0|  08/27/2018    |   
 | 4.0.8.0|  07/06/2018    |   
 | 3.1.115.0|  06/18/2018    |
 | 3.1.113.0|  06/13/2018    |   
 | 3.1.112.0|  06/05/2018    |   
 | 3.1.104.0|  04/16/2018    |            
 | 3.1.100.0|  03/16/2018    |            
-| 3.1.99.0 | 3/14/2018      |   
+| 3.1.99.0 | 3/14/2018      |  
 | 3.1.98.0    | 3/8/2018    |   
 |  3.0.16.0    |  11/27/2017   |
 | 3.0.15.0 | 10/3/2017  |            
@@ -44,6 +46,18 @@ ms.locfileid: "23965910"
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype 会议室系统 v2 功能简介和解决问题
+
+### <a name="40190-8312018"></a>4.0.19.0 (8/31/2018)
+此更新中引入了： 
+- 修补程序 Crestron 应用程序未启动其通常会访问通过按 Crestron SR 设备上的应用程序按钮。 SRSv2 4.0.19.0 安装后，需要的应用程序重新启动 
+
+### <a name="40180-08272018"></a>4.0.18.0 (08/27/2018)
+此更新中引入了： 
+- 在工作组模式下 （相当于 Skype 中的"提供反馈"业务模式） 的"报告问题"功能改进
+- 启用功能回退到从 Skype 团队对 SIP 呼叫业务模式
+- 辅助功能改进 （讲述人、 放大镜）
+- 自动重新启动应用程序时所需已应用了 XML 设置更改之后
+- Miscellaneous 修补程序
 
 ### <a name="4080-07062018"></a>4.0.8.0 (06/07/2018)
 此更新中引入了： 
