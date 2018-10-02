@@ -215,6 +215,9 @@
 #### [设置云视频互操作](cloud-video-interop-for-teams-set-up.md)
 ### Live 事件
 #### [什么是团队 live 事件？](teams-live-events/what-are-teams-live-events.md)
+#### [规划团队 live 事件](teams-live-events/plan-for-teams-live-events.md)
+#### [设置团队的实时事件](teams-live-events/set-up-for-teams-live-events.md)
+#### [配置团队 live 事件](teams-live-events/configure-teams-live-events.md)
 
 
 
