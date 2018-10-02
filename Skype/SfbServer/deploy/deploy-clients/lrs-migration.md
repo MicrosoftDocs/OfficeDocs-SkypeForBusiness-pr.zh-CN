@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: 阅读本主题可了解如何迁移 Lync 会议室系统设备使用 Skype 会议室系统 v2 软件。
-ms.openlocfilehash: e552f3979bf64a0fe1ebadebdf39a9a55da1e28c
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 18cc3f954480a000bfe962e0a4b461e05568479b
+ms.sourcegitcommit: 6447a3aa060452c8d6879524cd6a56aecf33b152
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347535"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25354002"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>将 Lync 会议室系统 (LRS) 设备迁移到 Skype 会议室系统 v2 
-Skype 会议室系统版本 1 (SR v1) 软件 Lync 会议室系统 (LRS) 设备将到达 2018 年 10 月 9，支持的结束。 这意味着所有产品更新或此日期之后的修补程序，也不会都收到 Skype 会议室系统软件。 建议使用 Skype 会议室系统 v1 软件的 Lync 会议室系统设备的客户升级其设备到 Skype 会议室系统版本 2 (SR v2)。
+Skype 会议室系统版本 1 (SR v1) 软件 Lync 会议室系统 (LRS) 设备将到达[2018 年 10 月 9，支持的结束](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)。 这意味着所有产品更新或此日期之后的修补程序，也不会都收到 Skype 会议室系统 v1 软件。 建议使用 Skype 会议室系统 v1 软件的 Lync 会议室系统设备的客户升级其设备到 Skype 会议室系统版本 2 (SR v2)。
 
 Skype 会议室系统版本 2 (SR v2) 软件与除了 Skype 的 Microsoft 团队适用于会议和呼叫所有 SR v2 支持设备上的业务服务器和联机服务。
 
-您现有设备**可能会**继续工作后的末尾 Skype 会议室系统 v1 软件支持。 本软件最终将命中需要释放修复的 Microsoft 软件错误或可能的案例现有的通信协议使用 Skype 会议室系统 v1 软件更改或不再受支持的位置。 此类的一个已知的更改已否决的 TLS 1.0 / 1.1 Microsoft Office 365 中。 您可以了解有关[TLS 1.0/1.1 否决准备](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608)的详细信息。  
+您现有设备**可能会**继续工作 Skype 会议室系统 v1 软件支持的结束后，直至此软件命中软件 bug 程序需要 Microsoft 释放修复或可能使用情况下，现有的通信协议 Skype 会议室系统v1 软件更改或不再受支持。 此类的一个已知的更改已否决的 TLS 1.0 / 1.1 Microsoft Office 365 中。 您可以了解有关[TLS 1.0/1.1 否决准备](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608)的详细信息。  
 
 ## <a name="which-devices-are-affected"></a>哪些设备会受到影响？
 下面是此更改影响的设备的列表：
