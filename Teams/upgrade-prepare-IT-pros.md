@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e166b3ce54f18d3efdbb856d103f6f45d6b420f3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a7a552affaf0a50325e8a90c9f6c1f7f60d2c3b2
+ms.sourcegitcommit: e49e9e8e6f42738a153306ae6f2a1d0a2e46d736
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014794"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25354337"
 ---
 ![升级旅程，重点强调的技术的准备阶段的阶段](media/upgrade-banner-tech-readiness.png "升级旅程，重点强调的技术的准备阶段的阶段")
 
@@ -37,8 +37,6 @@ ms.locfileid: "25014794"
 与您的 IT 员工成员共享的以下资源，并确认他们准备好开始升级到团队之前支持用户：
 
 -   [Microsoft Teams 管理培训](itadmin-readiness.md)
-
--   [Microsoft Teams 管理员快速入门指南](quick-start-guides.md)
  
 -   [Microsoft Teams 的支持资源](support-resources.md)
  
