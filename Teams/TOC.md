@@ -2,15 +2,14 @@
 # 入门
 
 ## [Teams 概述](Teams-overview.md)
-## [快速入门 - Teams 规划指南](quick-start-enable-teams.md)
 ## [工具和研讨会：规划、交付和运营 Teams](planning-workshop-practical-guide.md)
-## [适用于 Teams 的 Office 365 许可](office-365-licensing.md)
 <!-- ============================================================ -->
 
 
 <!-- ============================================================ -->
 # 规划
 
+## [快速入门 - Teams 规划指南](quick-start-enable-teams.md)
 ## [检查你的环境是否已为 Teams 准备就绪](environment-readiness.md)
 ## [为 Teams 准备贵组织的网络](prepare-network.md)
 ## [Office 365 URL 和 IP 地址范围](office-365-urls-ip-address-ranges.md)
@@ -20,8 +19,7 @@
 ## [规划团队中的生命周期管理](plan-teams-lifecycle.md)
 ## [团队中的治理规划](plan-teams-governance.md)
 ## [Microsoft 365 政府版-GCC 部署规划](plan-for-government-gcc.md)
-## 推动采纳率
-### [创建更改管理策略](change-management-strategy.md)
+## [创建更改管理策略](change-management-strategy.md)
 <!-- ============================================================ -->
 
 
@@ -45,7 +43,6 @@
 ### [分配团队所有者和团队中的成员](assign-roles-permissions.md)
 ### [将应用程序发布到团队租户的应用程序目录](tenant-apps-catalog-teams.md)
 ### [Skype 会议应用程序使用团队配置](configure-skype-meetings-app-to-work-with-teams.md)
-## [现代身份验证](sign-in-teams.md)
 ## [与其他组织中的团队用户通信](let-your-teams-users-communicate-with-other-people.md)
 ## [云语音部署指南](cloud-voice-deployment.md)
 ### [定义我成功](1-envision-define-my-success-cloud-voice.md)
@@ -67,8 +64,6 @@
 ### [分配 Skype for Business 和 Teams 许可证](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Skype for Business 和 Teams 外接程序许可](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [管理团队商业试用版](iw-trial-teams.md)
-### [为组织设置通信点数](set-up-communications-credits-for-your-organization.md)
-### [什么是通信点数？](what-are-communications-credits.md)
 ## 支持的设备
 ### [IP 电话](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [USB 音频和视频设备](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -80,7 +75,6 @@
 <!-- ============================================================ -->
 # [从 for Business 的 Skype 升级到团队](Journey-SkypeforBusiness-Teams.md)
 ## [教程：从 Skype for Business 到 Teams 的旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [教师授课实况培训团队](instructor-led-training-teams-landing-page.md)
 ## [升级基本](upgrade-basic.md)
 ### [示例电子邮件和调查](upgrade-emails-surveys.md)
 ## [升级专业人员](upgrade-pro.md)
@@ -113,6 +107,19 @@
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
+# 与 Office 365 的互操作性
+## [迁移和 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
+## [设置您共存并升级设置](setting-your-coexistence-and-upgrade-settings.md)
+## [Office 365 组和 Teams](office-365-groups.md)
+## [使用 Teams 增强现有 Office 365 组](enhance-office-365-groups.md)
+## [Exchange 与 Teams 如何交互](exchange-teams-interact.md)
+### [配置 Exchange 混合组织以配合使用 Teams](exchange-hybrid-organization.md)
+### [在 Exchange Online 中将 Teams SMTP 域添加为接受的域](smtp-accepted-domain.md)
+## [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](sharepoint-onedrive-interact.md)
+## [Office 365 多地理位置启用租户中的团队体验](teams-experience-o365odb-spo-multi-geo.md)
+<!-- ============================================================ -->
+
+<!-- ============================================================ -->
 # 管理
 ## [查看用户体验指南的质量](quality-of-experience-review-guide.md)
 ## 监视呼叫质量和 QoS
@@ -137,7 +144,6 @@
 ## [教师授课实况培训团队](instructor-led-training-teams-landing-page.md)
 ## [Teams 管理员培训](itadmin-readiness.md)
 ## [Teams 的最终用户培训](enduser-training.md)
-## [视频 - Teams 中的音频会议](audio-conferencing-videos.md)
 <!-- ============================================================ -->
 
 
@@ -146,6 +152,7 @@
 ## [Teams 中的安全性和合规性概述](security-compliance-overview.md)
 ## [在 Teams 中对内容进行电子数据展示调查](ediscovery-investigation.md)
 ## [Teams 中的标识模式和身份验证](identify-models-authentication.md)
+## [现代身份验证](sign-in-teams.md)
 ## [将 Teams 用户或团队置于法定保留状态](legal-hold.md)
 ## [在 Teams 中搜索事件的审核日志](audit-log-events.md)
 ## [在 Teams 中使用内容搜索](content-search.md)
@@ -154,35 +161,19 @@
 ### [已知问题的保留策略](retention-policies-known-issues.md)
 ## [Teams 中的数据的位置](location-of-data-in-teams.md)
 ## [在法国的 Microsoft 团队的一致性声明的辅助功能声明](accessibility-declaration-of-conformance-in-france-for-teams.md)
-##  [Skype 业务 Online 和 Microsoft 团队的辅助功能解决方案](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-##  [在英国实践的代码](code-of-practice-for-the-united-kingdom-u-k.md)
-##  [投诉处理的代码英国](complaint-handling-code-for-the-united-kingdom-u-k.md)
-##  [免费拨出期](complimentary-dial-out-period.md)
+## [Skype 业务 Online 和 Microsoft 团队的辅助功能解决方案](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [在 Office 365-在英国规程呼叫计划](code-of-practice-for-the-united-kingdom-u-k.md)
+##  [Office 365-中调用计划的代码英国投诉处理](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ## [数据收集做法](data-collection-practices.md)
 ##  [紧急呼叫标签](emergency-calling-labels.md)
 ##  [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
 <!-- ============================================================ -->
-<!-- ============================================================ -->
-# 与 Office 365 的互操作性
-## [迁移和 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
-## [设置您共存并升级设置](setting-your-coexistence-and-upgrade-settings.md)
-## [Office 365 组和 Teams](office-365-groups.md)
-## [使用 Teams 增强现有 Office 365 组](enhance-office-365-groups.md)
-## [Exchange 与 Teams 如何交互](exchange-teams-interact.md)
-### [配置 Exchange 混合组织以配合使用 Teams](exchange-hybrid-organization.md)
-### [在 Exchange Online 中将 Teams SMTP 域添加为接受的域](smtp-accepted-domain.md)
-### [在 Outlook 中使用 Teams 会议外接程序](teams-add-in-for-outlook.md)
-## [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](sharepoint-onedrive-interact.md)
-## [Office 365 多地理位置启用租户中的团队体验](teams-experience-o365odb-spo-multi-geo.md)
-<!-- ============================================================ -->
+
 
 
 <!-- ============================================================ -->
 # 功能
-## 辅助功能
-### [法国 Skype for Business Online 辅助功能合规性声明](/SkypeForBusiness/legal-and-regulatory/accessibility-declaration-of-conformance-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [法国 Skype for Business Online 辅助功能解决方案](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## 团队和频道
 ### [Teams 中的团队和频道概述](teams-channels-overview.md)
 ### [分配团队所有者和中的 Microsoft 团队的成员](assign-roles-permissions.md)
@@ -231,8 +222,6 @@
 ### [使用团队活动报告](teams-activity-reports.md)
 ### [使用团队中的内嵌消息转换](inline-message-translation-teams.md)
 ## 云语音
-### [分配 Skype for Business 和 Teams 许可证](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [存入资金和管理通信点数](add-funds-and-manage-communications-credits.md)
 ### [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [阿根廷](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 #### [澳大利亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
@@ -335,6 +324,10 @@
 #### [荷兰的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [英国的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [美国的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
+### 管理通信字幕式
+#### [什么是通信点数？](what-are-communications-credits.md)
+#### [为组织设置通信点数](set-up-communications-credits-for-your-organization.md)
+#### [存入资金和管理通信点数](add-funds-and-manage-communications-credits.md)
 ### [部署座机](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### 音频会议
 #### [教程： 团队中的音频会议](Tutorial-Audio-Conferencing.yml)
@@ -345,7 +338,6 @@
 #### [音频会议支持的语言](audio-conferencing-supported-languages.md)
 #### [更改音频会议网桥的设置](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [更改音频会议网桥的电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
-#### [从会议拨出，以便其他人可以加入会议](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
 #### [用户设置更改时自动向其发送的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md)
 #### [启用或禁用更改音频会议设置时发送电子邮件](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [使用户能够在加入会议时录制其姓名](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
@@ -466,8 +458,6 @@
 #### [什么是紧急位置、地址和呼叫路由？](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [什么是地址验证？](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [什么是拨号计划？](what-are-dial-plans.md)
-#### [Office 365 中的通话套餐 - 英国行为准则](code-of-practice-for-the-united-kingdom-u-k.md)
-#### [Office 365 中的通话套餐 - 英国投诉处理准则](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### 电话系统
 #### [Office 365 中的电话系统是什么？](what-is-phone-system-in-office-365.md)
 #### [在你有组织中设置电话系统](setting-up-your-phone-system.md)
