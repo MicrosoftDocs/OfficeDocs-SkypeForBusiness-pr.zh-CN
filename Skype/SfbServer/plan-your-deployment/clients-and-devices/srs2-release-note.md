@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文讨论中 Skype 会议室系统 v2 累积改进。
-ms.openlocfilehash: 7a84cd715be9d76caa9b8ce624aae1c7fbe84f35
-ms.sourcegitcommit: 38efc00dfadc98cebd362877a1239d852f804f06
+ms.openlocfilehash: af4f7621f9b5a70bc9b8a7ce87e50a6e6791ea63
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25353211"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358977"
 ---
 # <a name="release-notes"></a>发行说明 
 
@@ -25,10 +25,11 @@ ms.locfileid: "25353211"
 ##  <a name="version-history"></a>版本历史记录
 
 | 发行版 | 发布到 <br>Microsoft 存储 | 
-| ---     | ---                              |
-| 4.0.19.0|  08/31/2018    |   
-| 4.0.18.0|  08/27/2018    |   
-| 4.0.8.0|  07/06/2018    |   
+| ---     | ---  |
+| 4.0.27.0 |  10/1/2018    | 
+| 4.0.19.0 |  08/31/2018    |   
+| 4.0.18.0 |  08/27/2018    |   
+| 4.0.8.0 |  07/06/2018    |   
 | 3.1.115.0|  06/18/2018    |
 | 3.1.113.0|  06/13/2018    |   
 | 3.1.112.0|  06/05/2018    |   
@@ -46,6 +47,13 @@ ms.locfileid: "25353211"
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype 会议室系统 v2 功能简介和解决问题
+
+### <a name="40270-1012018"></a>4.0.27.0 (1/10/2018)
+此更新中引入了： 
+- 准备更高版本的 Windows 10 版本 1803年升级 SRSv2 应用程序所需的代码更改
+- 修复与本地化 Eula-专门挪威语-这将阻止执行超出 EULA OOBE 安装窗口的格式的问题
+- 需要进行 Skype 会议室系统 v2 应用程序在旧式 Lync 会议室系统上运行的代码更改。 查看更多[此处](https://aka.ms/lrsupgrade)。
+ 
 
 ### <a name="40190-8312018"></a>4.0.19.0 (8/31/2018)
 此更新中引入了： 

@@ -1,5 +1,5 @@
 ---
-title: 英国 (U.K.) 行为准则
+title: Office 365-规程的英国 （英国） 中的呼叫计划
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: 646d525111e18752492ad7ebc346839b7d296f9b
-ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
+ms.openlocfilehash: 7049ea04edab22d43ee69fab08fed35ee7a5ea3e
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25352311"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358961"
 ---
-# <a name="code-of-practice-for-the-united-kingdom-uk"></a>英国 (U.K.) 行为准则
+# <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Office 365-规程的英国 （英国） 中的呼叫计划
 
 此代码适用于小型企业客户 （组织 10 名员工或更少） 在英国 （英国） 与 Office 365 调用规划服务 （"服务"） 按照英国 communications 法规。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
 

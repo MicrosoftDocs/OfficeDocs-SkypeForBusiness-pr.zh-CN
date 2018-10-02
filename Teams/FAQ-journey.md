@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a59134e48d71f9704054d01fecccff385e45e7e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: da85bde3b0f868165fed869b8147e4408344ebc0
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015370"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358898"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>FAQ - 从 Skype for Business 到 Microsoft Teams 的旅程
 
@@ -35,7 +35,7 @@ ms.locfileid: "25015370"
 
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>客户从 Skype for Business Online 迁移至 Teams 是否有严格的最后期限？
 
-我们不应当我们路线图团队可用，以便客户可以相对于他们的需求评估团队的功能并规划其移动到团队。 客户可以确定最适合其需求的向 Teams 迁移的执行时间。 用于向工作组的业务[的 Microsoft 团队功能路线图 Busineses Skype](https://aka.ms/skype2teamsroadmap)保持在有关从 Skype 旅程新闻好方法 — 可下载 PDF (在此时至少英语仅) 有关提供 Microsoft 的当前期望的业务功能变成团队的 Skype。
+我们不应当我们路线图团队可用，以便客户可以相对于他们的需求评估团队的功能并规划其移动到团队。 客户可以确定最适合其需求的向 Teams 迁移的执行时间。 用于向工作组的业务[的 Microsoft 团队功能路线图业务 Skype](https://aka.ms/skype2teamsroadmap)保持在有关从 Skype 旅程新闻好方法 — 可下载 PDF (在此时至少英语仅) 有关提供 Microsoft 的当前期望的业务功能变成团队的 Skype。
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Skype for Business Server 的未来会怎样？
 

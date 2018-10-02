@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70591f040508453832943c65122f0fa0b07ef35b
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 3abecace4a15a85e4a0f8b895b44cd799b3c794f
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014658"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358890"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 =================================================
@@ -36,13 +36,7 @@ ms.locfileid: "25014658"
 
     -   团队频道是团队中的所有人都可以公开进行对话的地方。 私人聊天只有聊天中的人员可以看到。
 
-    -   可以使用包括选项卡、连接器和聊天机器人的应用扩展频道，从而提高其对团队成员的价值。
-    
-请抽出五分钟时间观看此视频，了解有关组织团队、频道和选项卡的最佳实践：
-
-|  |  |
-|---------|---------|
-| 只需 5 分钟即可设置很有用的 Teams、频道和选项卡   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | 
+    -   频道是扩展包含选项卡、 连接符和增加其值为团队的成员的机器人的应用程序时最有价值。
 
 <a name="membership-roles-and-settings"></a>成员资格、 角色和设置
 ------------------------------
@@ -52,6 +46,9 @@ ms.locfileid: "25014658"
 **团队角色** Microsoft Teams 中有两个主要角色：团队所有者和团队成员。前者是创建团队的用户，后者是受所有者邀请加入团队的用户。 团队所有者可以在邀请联系人加入团队时或者在他们加入团队后将团队的任意成员设为共同所有者。 设置多个所有者可以分担管理设置和成员资格（包括邀请）的责任。   
 
 **团队设置** 团队所有者可以直接在 Microsoft Teams 中管理团队范围设置。 设置包括添加团队图片、跨团队成员设置创建频道、添加选项卡和连接器和 @提及整个团队或频道的功能，以及 GIF、贴纸和 Meme 的使用情况。 
+
+需要三个分钟才能查看本指南转到视频团队所有者的使用： 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 如果您是 Office 365 中的 Microsoft 团队管理员，您有权访问业务管理中心的 Skype 团队中的系统范围设置。 这些设置可能会影响团队所有者在团队设置下看到的选项和默认设置。 例如，你可以为团队范围的公告、讨论和资源启用默认频道“常规”，它将在所有团队中显示。
 

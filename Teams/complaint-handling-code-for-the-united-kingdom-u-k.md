@@ -1,5 +1,5 @@
 ---
-title: 英国 (U.K.) 投诉处理准则
+title: Office 365-投诉处理代码的英国 （英国） 中的呼叫计划
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 126c0b88aa5b7feab230ace8b2fc9ff4a1ffffbe
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fb71f775a1efdfd6b72268bc39d872991587782a
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016154"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358953"
 ---
-# <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>英国 (U.K.) 投诉处理准则
+# <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Office 365-投诉处理代码的英国 （英国） 中的呼叫计划
 
 此代码适用于小型企业客户 （组织 10 名员工或更少） 在英国 （英国） 与 Office 365 调用规划服务 （"服务"） 按照英国 communications 法规。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
 
