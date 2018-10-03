@@ -8,12 +8,12 @@ ms.topic: hub-page
 ms.author: dearbeen
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: 5f721ccc993e31ae0040df7ea841ef13e86dae26
-ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
+ms.openlocfilehash: bcd6cb0fa2f251d015b0fe909ca0dfcd89442380
+ms.sourcegitcommit: 02ff91505a2f185bb3c1059a1b26ee31bb272438
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25090223"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25359475"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -98,8 +98,27 @@ ms.locfileid: "25090223"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>切换从 for Business 的 Skype 到团队： 最终用户指南</h3>
-                                                    <p>本课程介绍了您需要快速开始聊天，会议，并作为 for Business 的 Skype 从您的组织过渡到团队呼叫在工作组中。</p>
+                                                <h3>从 for Business 的 Skype 切换到团队： 最终用户指南</h3>
+                                                    <p>获取您需要快速开始聊天，会议，并在工作组中调用过程从 for Business 的 Skype 转换到团队中。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://docs.microsoft.com/MicrosoftTeams/enduser-training">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-TrainingVideos-400x140.svg" alt="a video play symbol" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>获取点播培训和视频</h3>
+                                                <p>要获取的最终用户小组培训和视频按需为您和您的用户。</p>
                                             </div>
                                         </div>
                                     </div>

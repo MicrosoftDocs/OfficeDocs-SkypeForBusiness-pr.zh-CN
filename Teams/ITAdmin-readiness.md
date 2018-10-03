@@ -3,26 +3,24 @@ title: Microsoft Teams 管理培训
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-layout: landingpage
+layout: LandingPage
 ms.date: 09/21/2018
-ms.topic: landing page
+ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 search.appverid: MET150
 description: 培训视频、 教程和其他资源来 admins 如何规划、 部署和运行的 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d864ba1741dd90cd0e69dd53e23ad81302e9329
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: a8715e4f7fb624c745c8fbb76591386e568a038f
+ms.sourcegitcommit: 02ff91505a2f185bb3c1059a1b26ee31bb272438
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347040"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25359451"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 使用这些教程、 视频和其他培训资源来了解团队和组织中驱动器使用率。 经常访问这里的新内容。 
 
