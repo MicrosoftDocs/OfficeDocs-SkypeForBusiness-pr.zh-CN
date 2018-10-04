@@ -13,12 +13,12 @@ search.appverid: MET150
 description: 了解如何 live 事件使用户能够广播视频和 Microsoft 团队、 Yammer 和 Microsoft 流中的大型联机访问群体的内容。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1dff1d7166451868a6d6d906b668a918fc011336
-ms.sourcegitcommit: 6447a3aa060452c8d6879524cd6a56aecf33b152
+ms.openlocfilehash: db8f9223c74b29f7fd2bfa27b63419abcb4219c5
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25354009"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25405245"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>什么是 Microsoft 团队 live 事件？
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -50,7 +50,7 @@ Microsoft 365 中的实时事件支持生产方案提供了一系列，包括使
 
 - **快速入门生产**： 快速入门生产方法允许用户生成使用团队会议其 live 事件。 此选项是最佳，如果您想要使用的音频和视频设备的最快选项连接到 PC，或参与事件邀请远程演示者。 此选项允许用户能够轻松地使用其和网络摄像机和共享其屏幕作为输入到的事件。 
 
-![团队 live 事件](../media/teams-live-events-quick-start.png"屏幕截图显示实况事件是通过使用快速启动生产方法] (.../media/teams-live-events-quick-start.png"屏幕截图显示实况事件是通过使用快速入门生产方法")
+![团队 live 事件](../media/teams-live-events-quick-start.png "屏幕截图显示的由使用快速的实时事件启动生产方法")
 
 - **外部编码器生产**： 外部编码器允许用户产生直接从外部硬件或与[Microsoft 流](https://stream.microsoft.com)基于软件的编码器其 live 事件。 此选项将是最佳如果您已有 studio 质量设备 （例如，媒体混音器） 到实时消息协议 (RTMP) 服务的支持流式处理。 如 executive 城镇大厅 – 从媒体混音器为单个流将广播到该访问群体其中的大型事件通常用于生产此类型。 
 
@@ -64,9 +64,9 @@ Live 的事件流平台的以下部分组成：
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>企业内容交付网络 (eCDN)
 ECDN 的目标是从 internet 视频内容并不会影响网络性能分布在整个企业的内容。 您可以使用下列选项之一认证 eCDN 合作伙伴优化您的网络保留组织内的实时事件：
-    - [配置单元](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-    - [Kollective](http://www.kollective.com)
-    - [提升](http://www.ramp.com)
+- [配置单元](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
+- [Kollective](http://www.kollective.com)
+- [提升](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>参与者的体验 
 参与者的体验是 live 事件的最重要方面和很重要，与会者可以参加的实时事件无任何问题。 参与者的体验使用 Azure 媒体播放器并跨桌面、 浏览器中，和 mobile (iOS，Android) 的工作方式。 Office 365 提供 Yammer 和团队为两个协作集线器和 live attendee 体验集成到这些协作工具。 
