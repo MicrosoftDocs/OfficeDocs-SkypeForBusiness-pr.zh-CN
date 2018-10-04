@@ -9,52 +9,52 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 摘要： 了解如何管理会议加入和离开通知中 Skype 业务服务器。
-ms.openlocfilehash: 84c9b5f9457d16570e58b119329d6b8fcefa4205
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 33c20319142608f38451a547687bc1bc9eae47d1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008489"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371586"
 ---
-# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a><span data-ttu-id="911c3-103">管理会议加入和离开通知中 Skype 业务服务器</span><span class="sxs-lookup"><span data-stu-id="911c3-103">Manage conference join and leave announcements in Skype for Business Server</span></span>
+# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a><span data-ttu-id="b0c25-103">管理会议加入和离开通知中 Skype 业务服务器</span><span class="sxs-lookup"><span data-stu-id="b0c25-103">Manage conference join and leave announcements in Skype for Business Server</span></span>
  
-<span data-ttu-id="911c3-104">**摘要：** 了解如何管理会议加入和离开通知中 Skype 业务服务器。</span><span class="sxs-lookup"><span data-stu-id="911c3-104">**Summary:** Learn how to manage conference join and leave announcements in Skype for Business Server.</span></span>
+<span data-ttu-id="b0c25-104">**摘要：** 了解如何管理会议加入和离开通知中 Skype 业务服务器。</span><span class="sxs-lookup"><span data-stu-id="b0c25-104">**Summary:** Learn how to manage conference join and leave announcements in Skype for Business Server.</span></span>
   
-<span data-ttu-id="911c3-105">电话拨入式用户加入或离开会议时, 的会议通知应用程序可以宣布其进入或退出播放提示音，或反映其名称。</span><span class="sxs-lookup"><span data-stu-id="911c3-105">When dial-in users join or leave a conference, the Conferencing Announcement application can announce their entrance or exit by playing a tone or saying their names.</span></span> <span data-ttu-id="911c3-106">您可以更改通知使用的业务 Server 命令行管理程序和**设置 CsDialinConferencing** cmdlet 与以下参数 Skype 的工作方式：</span><span class="sxs-lookup"><span data-stu-id="911c3-106">You can change how announcements work by using Skype for Business Server Management Shell and the **Set-CsDialinConferencing** cmdlet with the following parameters:</span></span>
+<span data-ttu-id="b0c25-105">电话拨入式用户加入或离开会议时, 的会议通知应用程序可以宣布其进入或退出播放提示音，或反映其名称。</span><span class="sxs-lookup"><span data-stu-id="b0c25-105">When dial-in users join or leave a conference, the Conferencing Announcement application can announce their entrance or exit by playing a tone or saying their names.</span></span> <span data-ttu-id="b0c25-106">您可以更改通知使用的业务 Server 命令行管理程序和**设置 CsDialinConferencing** cmdlet 与以下参数 Skype 的工作方式：</span><span class="sxs-lookup"><span data-stu-id="b0c25-106">You can change how announcements work by using Skype for Business Server Management Shell and the **Set-CsDialinConferencing** cmdlet with the following parameters:</span></span>
   
-- <span data-ttu-id="911c3-p102">EnableNameRecording - 确定在匿名参与者进入会议之前是否要求参与者记录其姓名。默认值为“$true”，即系统会提示匿名参与者在加入会议时说出其姓名。（经过身份验证的参与者不会记录他们的姓名，因为将使用他们的显示名称。）</span><span class="sxs-lookup"><span data-stu-id="911c3-p102">EnableNameRecording - Determines whether anonymous participants are asked to record their name before entering the conference. The default value is "$true," which means that anonymous participants are prompted to state their name when joining a conference. (Authenticated participants do not record their name because their display name is used instead.)</span></span>
+- <span data-ttu-id="b0c25-p102">EnableNameRecording - 确定在匿名参与者进入会议之前是否要求参与者记录其姓名。默认值为“$true”，即系统会提示匿名参与者在加入会议时说出其姓名。（经过身份验证的参与者不会记录他们的姓名，因为将使用他们的显示名称。）</span><span class="sxs-lookup"><span data-stu-id="b0c25-p102">EnableNameRecording - Determines whether anonymous participants are asked to record their name before entering the conference. The default value is "$true," which means that anonymous participants are prompted to state their name when joining a conference. (Authenticated participants do not record their name because their display name is used instead.)</span></span>
     
-- <span data-ttu-id="911c3-p103">EntryExitAnnouncementsEnabledByDefault - 指示默认打开还是关闭通知。默认值为“$false”，即默认情况下，在参与者加入或离开会议时没有通知。会议组织者在安排会议时可以覆盖此设置。</span><span class="sxs-lookup"><span data-stu-id="911c3-p103">EntryExitAnnouncementsEnabledByDefault - Indicates whether announcements are turned on or off by default. The default value is "$false," which means that by default there are no announcements when participants join or leave a conference. The meeting organizer can override this setting when scheduling a meeting.</span></span>
+- <span data-ttu-id="b0c25-p103">EntryExitAnnouncementsEnabledByDefault - 指示默认打开还是关闭通知。默认值为“$false”，即默认情况下，在参与者加入或离开会议时没有通知。会议组织者在安排会议时可以覆盖此设置。</span><span class="sxs-lookup"><span data-stu-id="b0c25-p103">EntryExitAnnouncementsEnabledByDefault - Indicates whether announcements are turned on or off by default. The default value is "$false," which means that by default there are no announcements when participants join or leave a conference. The meeting organizer can override this setting when scheduling a meeting.</span></span>
     
-- <span data-ttu-id="911c3-p104">EntryExitAnnouncementsType - 指示参与者加入或离开启用了通知的会议时将执行的操作。默认值为“UseNames”，即有通知，类似于：“Ken Myer 已加入会议”（如果已打开通知）。</span><span class="sxs-lookup"><span data-stu-id="911c3-p104">EntryExitAnnouncementsType - Indicates the action taken whenever a participant joins or leaves a conference for which announcements are enabled. The default value is "UseNames," which means there is an announcement similar to the following: "Ken Myer has joined the conference" when announcements are turned on.</span></span>
+- <span data-ttu-id="b0c25-p104">EntryExitAnnouncementsType - 指示参与者加入或离开启用了通知的会议时将执行的操作。默认值为“UseNames”，即有通知，类似于：“Ken Myer 已加入会议”（如果已打开通知）。</span><span class="sxs-lookup"><span data-stu-id="b0c25-p104">EntryExitAnnouncementsType - Indicates the action taken whenever a participant joins or leaves a conference for which announcements are enabled. The default value is "UseNames," which means there is an announcement similar to the following: "Ken Myer has joined the conference" when announcements are turned on.</span></span>
     
-<span data-ttu-id="911c3-p105">可以在 global 作用域或 site 作用域配置这些设置。在 site 作用域配置的设置的优先于在 global 作用域配置的设置。</span><span class="sxs-lookup"><span data-stu-id="911c3-p105">You can configure these settings at the global scope or at the site scope. Settings configured at the site scope take precedence over settings configured at the global scope.</span></span>
+<span data-ttu-id="b0c25-p105">可以在 global 作用域或 site 作用域配置这些设置。在 site 作用域配置的设置的优先于在 global 作用域配置的设置。</span><span class="sxs-lookup"><span data-stu-id="b0c25-p105">You can configure these settings at the global scope or at the site scope. Settings configured at the site scope take precedence over settings configured at the global scope.</span></span>
    
 
-### <a name="to-modify-the-conference-join-and-leave-announcement-behavior"></a><span data-ttu-id="911c3-117">修改会议加入和离开通知行为</span><span class="sxs-lookup"><span data-stu-id="911c3-117">To modify the conference join and leave announcement behavior</span></span>
+### <a name="to-modify-the-conference-join-and-leave-announcement-behavior"></a><span data-ttu-id="b0c25-117">修改会议加入和离开通知行为</span><span class="sxs-lookup"><span data-stu-id="b0c25-117">To modify the conference join and leave announcement behavior</span></span>
 
-1. <span data-ttu-id="911c3-118">以  RTCUniversalServerAdmins  组成员或者  Cs-ServerAdministrator  或  CsAdministrator  角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="911c3-118">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
+1. <span data-ttu-id="b0c25-118">以  RTCUniversalServerAdmins  组成员或者  Cs-ServerAdministrator  或  CsAdministrator  角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="b0c25-118">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
     
-2. <span data-ttu-id="911c3-119">启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。</span><span class="sxs-lookup"><span data-stu-id="911c3-119">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="b0c25-119">启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。</span><span class="sxs-lookup"><span data-stu-id="b0c25-119">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="911c3-120">在命令提示符下，运行以下内容：</span><span class="sxs-lookup"><span data-stu-id="911c3-120">Run the following at the command prompt:</span></span>
+3. <span data-ttu-id="b0c25-120">在命令提示符下，运行以下内容：</span><span class="sxs-lookup"><span data-stu-id="b0c25-120">Run the following at the command prompt:</span></span>
     
-  ```
-  Get-CsDialinConferencingConfiguration
-  ```
+   ```
+   Get-CsDialinConferencingConfiguration
+   ```
 
-<span data-ttu-id="911c3-121">此 cmdlet 检索有关参与者是否需要记录其姓名，加入会议时和 Skype 业务服务器的参与者加入或离开电话拨入式会议时的响应方式的信息。</span><span class="sxs-lookup"><span data-stu-id="911c3-121">This cmdlet retrieves information about whether participants are required to record their name when joining a conference and how Skype for Business Server responds when participants join or leave a dial-in conference.</span></span>
+<span data-ttu-id="b0c25-121">此 cmdlet 检索有关参与者是否需要记录其姓名，加入会议时和 Skype 业务服务器的参与者加入或离开电话拨入式会议时的响应方式的信息。</span><span class="sxs-lookup"><span data-stu-id="b0c25-121">This cmdlet retrieves information about whether participants are required to record their name when joining a conference and how Skype for Business Server responds when participants join or leave a dial-in conference.</span></span>
     
-4. <span data-ttu-id="911c3-122">在命令提示符下，运行以下内容：</span><span class="sxs-lookup"><span data-stu-id="911c3-122">Run the following at the command prompt:</span></span>
+4. <span data-ttu-id="b0c25-122">在命令提示符下，运行以下内容：</span><span class="sxs-lookup"><span data-stu-id="b0c25-122">Run the following at the command prompt:</span></span>
     
-  ```
-  Set-CsDialinConferencingConfiguration -Identity <identity of dial-in conferencing settings to be modified>
-[-EnableNameRecording <$true | $false>]
-[-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
-[-EntryExitAnnouncementsType <UseNames | ToneOnly]
-  ```
+   ```
+   Set-CsDialinConferencingConfiguration -Identity <identity of dial-in conferencing settings to be modified>
+   [-EnableNameRecording <$true | $false>]
+   [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
+   [-EntryExitAnnouncementsType <UseNames | ToneOnly]
+   ```
 
-<span data-ttu-id="911c3-p106">在以下示例中，在 site 作用域为 Redmond 配置设置。通知已打开，但在参与者加入会议时系统未提示他们说出姓名。参与者进入或离开会议时将播放提示音：</span><span class="sxs-lookup"><span data-stu-id="911c3-p106">In the following example, settings are configured at the site scope for Redmond. Announcements are turned on, but participants are not prompted to say their name when they join a conference. A tone is played when participants enter or leave a conference:</span></span>
+<span data-ttu-id="b0c25-p106">在以下示例中，在 site 作用域为 Redmond 配置设置。通知已打开，但在参与者加入会议时系统未提示他们说出姓名。参与者进入或离开会议时将播放提示音：</span><span class="sxs-lookup"><span data-stu-id="b0c25-p106">In the following example, settings are configured at the site scope for Redmond. Announcements are turned on, but participants are not prompted to say their name when they join a conference. A tone is played when participants enter or leave a conference:</span></span>
   
 ```
 Set-CsDialinConferencingConfiguration -Identity site:Redmond
@@ -63,6 +63,6 @@ Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EntryExitAnnouncementsType ToneOnly
 ```
 
-<span data-ttu-id="911c3-126">有关详细信息，包括语法和参数的完整列表，请参阅[Set-csdialinconferencingconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="911c3-126">For more information, including syntax and a complete list of parameters, see [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps).</span></span>
+<span data-ttu-id="b0c25-126">有关详细信息，包括语法和参数的完整列表，请参阅[Set-csdialinconferencingconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="b0c25-126">For more information, including syntax and a complete list of parameters, see [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps).</span></span>
   
 

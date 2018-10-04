@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 摘要： 浏览这些链接以了解如何实现业务服务器 2015 Skype。
-ms.openlocfilehash: 21a776b96c640b152e512b3c052340e2ed8f45d9
-ms.sourcegitcommit: 3356670f2849306ce329899509d2104fe0404939
+ms.openlocfilehash: 459738bf2c3aae789db26c960297d692c85696af
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19949813"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375883"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype for Business Server 2015
 
@@ -145,9 +145,9 @@ Skype for Business 是将企业级安全、 合规性以及控制结合在一起
                 <div class="card">
                     <div class="cardText">
                         <h3>在开始之前</h3>
-                        <p>[针对您的环境的要求](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)</p>
-                        <p>[网络要求](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)</p>
-                        <p>[客户端和设备](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)</p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">您的环境的要求</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">网络要求</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">客户端和设备</a></p>
                     </div>
                 </div>
             </div>
@@ -159,8 +159,8 @@ Skype for Business 是将企业级安全、 合规性以及控制结合在一起
                 <div class="card">
                     <div class="cardText">
                         <h3>安装和管理</h3>
-                        <p>[安装 Business 服务器的 Skype](/SkypeForBusiness/deploy/install/install)</p>
-                        <p>[Skype 管理业务服务器 （英文）](/SkypeForBusiness/manage/manage)</p>
+                        <p><a href="/SkypeForBusiness/deploy/install/install" data-raw-source="[Install Skype for Business Server](/SkypeForBusiness/deploy/install/install)">安装 Skype for Business Server</a></p>
+                        <p><a href="/SkypeForBusiness/manage/manage" data-raw-source="[Manage Skype for Business Server](/SkypeForBusiness/manage/manage)">管理 Skype for Business Server</a></p>
                      </div>
                 </div>
             </div>
@@ -172,8 +172,8 @@ Skype for Business 是将企业级安全、 合规性以及控制结合在一起
                 <div class="card">
                     <div class="cardText">
                         <h3>企业语音</h3>
-                        <p>[规划](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)</p>
-                        <p>[部署](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)</p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution" data-raw-source="[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)">规划</a></p>
+                        <p><a href="/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice" data-raw-source="[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)">部署</a></p>
                     </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@ Skype for Business 是将企业级安全、 合规性以及控制结合在一起
                     <div class="cardText">
                         <h3>Skype 会议直播</h3>
                         <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">这是什么？</a></p>
-                        <p>[配置您的本地部署中的 Skype 会议广播](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)
+                        <p><a href="/SkypeForBusiness/deploy/configure-skype-meeting-broadcast" data-raw-source="[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)">配置您的本地部署中的 Skype 会议广播</a>
                     </div>
                 </div>
             </div>
@@ -198,9 +198,9 @@ Skype for Business 是将企业级安全、 合规性以及控制结合在一起
                 <div class="card">
                     <div class="cardText">
                         <h3>混合解决方案</h3>
-                        <p>[规划混合连接性](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)</p>
-                        <p>[规划您的电话系统 (云 PBX) 解决方案](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)</p>
-                        <p>[规划云连接器 Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)</p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">规划混合连接性</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution" data-raw-source="[Plan your Phone System (Cloud PBX) solution ](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)">规划您的电话系统 (云 PBX) 解决方案</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition" data-raw-source="[Plan for Cloud Connector Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)">规划云连接器 Edition</a></p>
                </div>
                 </div>
             </div>

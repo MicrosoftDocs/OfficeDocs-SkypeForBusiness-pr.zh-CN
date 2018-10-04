@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 关于部署 Skype 会议室系统 v2，以及如何部署和管理的系统相关的规划注意事项。
-ms.openlocfilehash: 02dcbb2ccdd1b7737dff25475fa8f623d5cff926
-ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
+ms.openlocfilehash: 49fb892e6621c3bd601425fc2ccee84313b4444c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21249227"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374807"
 ---
 <h2>Skype 会议室系统 v2 = #x 2013; <br>下一代 Skype 会议室系统 </h2>
 <ul class="panelContent cardsW cols cols2">
@@ -25,7 +25,7 @@ ms.locfileid: "21249227"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>从到具有丰富的大型会议室的小型 huddle 区域转换会议空格，业务体验的协作 Skype 的很容易使用、 部署和管理。 </p>
+                        <p>转换到范围内的小型 huddle 区域与丰富、 协作 Skype 业务体验的大型会议聊天室的链接 #39 会议空格; s 易于使用、 部署和管理。 </p>
                         <p>上一站式加入时间开始会议，然后立即 project 的显示中的聊天室和远程参与者共享。 </p>
                         <p>从我们的合作伙伴之一选择适当的系统和音频视频外围设备： Logitech、 Crestron、 Polycom、 联想和 HP。</p>
                         <p></p>

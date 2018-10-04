@@ -12,36 +12,36 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
 description: 定义新前端池所配置的 SQL Server 存储的属性。
-ms.openlocfilehash: 95b5f33e400947b6e1990179f9838d6418a2bece
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d0d8207d45425e84d20f62bc19adadc7337684ff
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006913"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375832"
 ---
-# <a name="add-front-end-sql-store-page-for-lync-server-2010"></a><span data-ttu-id="e3d4d-103">添加 Lync Server 2010 的前端 Sql 存储页</span><span class="sxs-lookup"><span data-stu-id="e3d4d-103">Add Front End Sql Store Page for Lync Server 2010</span></span>
+# <a name="add-front-end-sql-store-page-for-lync-server-2010"></a><span data-ttu-id="92b47-103">添加 Lync Server 2010 的前端 Sql 存储页</span><span class="sxs-lookup"><span data-stu-id="92b47-103">Add Front End Sql Store Page for Lync Server 2010</span></span>
  
-<span data-ttu-id="e3d4d-104">定义新前端池所配置的 SQL Server 存储的属性。</span><span class="sxs-lookup"><span data-stu-id="e3d4d-104">You define the properties of the SQL Server stores for the new Front End pool that you are configuring.</span></span>
+<span data-ttu-id="92b47-104">定义新前端池所配置的 SQL Server 存储的属性。</span><span class="sxs-lookup"><span data-stu-id="92b47-104">You define the properties of the SQL Server stores for the new Front End pool that you are configuring.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="e3d4d-105">如果您配置 Standard Edition server，则显示此对话框，但无法配置设置。</span><span class="sxs-lookup"><span data-stu-id="e3d4d-105">If you are configuring a Standard Edition server, this dialog will be displayed but you will not be able to configure settings.</span></span> <span data-ttu-id="e3d4d-106">单击“**下一步**”继续。</span><span class="sxs-lookup"><span data-stu-id="e3d4d-106">Click **Next** to continue.</span></span>
+> <span data-ttu-id="92b47-105">如果您配置 Standard Edition server，则显示此对话框，但无法配置设置。</span><span class="sxs-lookup"><span data-stu-id="92b47-105">If you are configuring a Standard Edition server, this dialog will be displayed but you will not be able to configure settings.</span></span> <span data-ttu-id="92b47-106">单击“**下一步**”继续。</span><span class="sxs-lookup"><span data-stu-id="92b47-106">Click **Next** to continue.</span></span>
   
-<span data-ttu-id="e3d4d-107">您可以配置的设置：</span><span class="sxs-lookup"><span data-stu-id="e3d4d-107">Settings that you can configure:</span></span>
+<span data-ttu-id="92b47-107">您可以配置的设置：</span><span class="sxs-lookup"><span data-stu-id="92b47-107">Settings that you can configure:</span></span>
   
-- <span data-ttu-id="e3d4d-108">**使用先前定义的 SQL Server 存储**： 从前端池存储的列表中选择现有的 SQL Server 存储。</span><span class="sxs-lookup"><span data-stu-id="e3d4d-108">**Use a previously defined SQL Server store**: Select an existing SQL Server store from the list for the Front End pool store.</span></span>
+- <span data-ttu-id="92b47-108">**使用先前定义的 SQL Server 存储**： 从前端池存储的列表中选择现有的 SQL Server 存储。</span><span class="sxs-lookup"><span data-stu-id="92b47-108">**Use a previously defined SQL Server store**: Select an existing SQL Server store from the list for the Front End pool store.</span></span>
     
-- <span data-ttu-id="e3d4d-109">选择**定义新的 SQL Server 存储**以创建新的 SQL Server 存储。</span><span class="sxs-lookup"><span data-stu-id="e3d4d-109">Select **Define a new SQL Server store** to create a new SQL Server store.</span></span>
+- <span data-ttu-id="92b47-109">选择**定义新的 SQL Server 存储**以创建新的 SQL Server 存储。</span><span class="sxs-lookup"><span data-stu-id="92b47-109">Select **Define a new SQL Server store** to create a new SQL Server store.</span></span>
     
-    <span data-ttu-id="e3d4d-110">在**SQL Server FQDN**中键入 SQL Server 的完全限定的域名</span><span class="sxs-lookup"><span data-stu-id="e3d4d-110">You type the fully qualified domain name of the SQL Server in **SQL Server FQDN**</span></span>
+    <span data-ttu-id="92b47-110">在**SQL Server FQDN**中键入 SQL Server 的完全限定的域名</span><span class="sxs-lookup"><span data-stu-id="92b47-110">You type the fully qualified domain name of the SQL Server in **SQL Server FQDN**</span></span>
     
-    <span data-ttu-id="e3d4d-111">最初选择**默认实例**。</span><span class="sxs-lookup"><span data-stu-id="e3d4d-111">The **Default instance** is selected initially.</span></span> <span data-ttu-id="e3d4d-112">如果您希望定义实例，选择**命名实例**，然后键入您需要创建实例的名称。</span><span class="sxs-lookup"><span data-stu-id="e3d4d-112">If you prefer to define an instance, select **Named instance** and type the name of the instance that you need to create.</span></span>
+    <span data-ttu-id="92b47-111">最初选择**默认实例**。</span><span class="sxs-lookup"><span data-stu-id="92b47-111">The **Default instance** is selected initially.</span></span> <span data-ttu-id="92b47-112">如果您希望定义实例，选择**命名实例**，然后键入您需要创建实例的名称。</span><span class="sxs-lookup"><span data-stu-id="92b47-112">If you prefer to define an instance, select **Named instance** and type the name of the instance that you need to create.</span></span>
     
- <span data-ttu-id="e3d4d-113">**返回**： 回到上一个对话框</span><span class="sxs-lookup"><span data-stu-id="e3d4d-113">**Back**: Goes back to the previous dialog</span></span>
+  <span data-ttu-id="92b47-113">**返回**： 回到上一个对话框</span><span class="sxs-lookup"><span data-stu-id="92b47-113">**Back**: Goes back to the previous dialog</span></span>
   
- <span data-ttu-id="e3d4d-114">**下一步**： 应用更改并将移至下一步的对话框</span><span class="sxs-lookup"><span data-stu-id="e3d4d-114">**Next**: Commits the changes and moves to the next step dialog</span></span>
+  <span data-ttu-id="92b47-114">**下一步**： 应用更改并将移至下一步的对话框</span><span class="sxs-lookup"><span data-stu-id="92b47-114">**Next**: Commits the changes and moves to the next step dialog</span></span>
   
- <span data-ttu-id="e3d4d-115">**取消**： 放弃更改并取消配置</span><span class="sxs-lookup"><span data-stu-id="e3d4d-115">**Cancel**: Discards changes and cancels the configuration</span></span>
+  <span data-ttu-id="92b47-115">**取消**： 放弃更改并取消配置</span><span class="sxs-lookup"><span data-stu-id="92b47-115">**Cancel**: Discards changes and cancels the configuration</span></span>
   
- <span data-ttu-id="e3d4d-116">**帮助**： 显示帮助信息，如本主题</span><span class="sxs-lookup"><span data-stu-id="e3d4d-116">**Help**: Displays help information, such as this topic</span></span>
+  <span data-ttu-id="92b47-116">**帮助**： 显示帮助信息，如本主题</span><span class="sxs-lookup"><span data-stu-id="92b47-116">**Help**: Displays help information, such as this topic</span></span>
   
 

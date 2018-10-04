@@ -10,20 +10,20 @@ ms.collection: Teams_ITAdmin_Help
 description: 可使用此 PowerShell 脚本在目标计算机上或针对特定用户清理 Microsoft Teams。
 localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
-ms.openlocfilehash: 7a0d12fb59b8f5f513ed4f0c64502d6c9ff369e2
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: edda16fe78c941121f5f974cc3921c710e7c5911
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25011894"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372529"
 ---
-<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="39160-103">PowerShell 脚本示例 - 清理 Microsoft Teams 部署</span><span class="sxs-lookup"><span data-stu-id="39160-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
+<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="f0dd2-103">PowerShell 脚本示例 - 清理 Microsoft Teams 部署</span><span class="sxs-lookup"><span data-stu-id="f0dd2-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
 -------------------------------------------------------------------------
 
-<span data-ttu-id="39160-104">可以从目标计算机或用户的 Microsoft 团队清理利用此 PowerShell 脚本。</span><span class="sxs-lookup"><span data-stu-id="39160-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="39160-105">它应执行的目标计算机上的每个用户。</span><span class="sxs-lookup"><span data-stu-id="39160-105">It should be executed for every user on a targeted machine.</span></span> 
+<span data-ttu-id="f0dd2-104">可利用此 PowerShell 脚本在目标计算机上或针对用户清理 Microsoft Teams。</span><span class="sxs-lookup"><span data-stu-id="f0dd2-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="f0dd2-105">应在目标计算机上针对每个用户执行此脚本。</span><span class="sxs-lookup"><span data-stu-id="f0dd2-105">It should be executed for every user on a targeted machine.</span></span> 
 
 
-## <a name="sample-script"></a><span data-ttu-id="39160-106">示例脚本</span><span class="sxs-lookup"><span data-stu-id="39160-106">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="f0dd2-106">示例脚本</span><span class="sxs-lookup"><span data-stu-id="f0dd2-106">Sample script</span></span>
 
 ````powershell
 <#
@@ -55,7 +55,6 @@ catch
     Write-Error -ErrorRecord $_
     exit /b 1
 }
-
 ````
 
 

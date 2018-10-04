@@ -21,104 +21,104 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: a65cd85c98f59f562aa8a2db37fe71090174cb25
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 7c44e6be750e4793083a0fa931874db2e6b09b80
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958108"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371870"
 ---
-# <a name="manually-submit-a-custom-service-request"></a><span data-ttu-id="7aaaa-103">手动提交自定义服务请求</span><span class="sxs-lookup"><span data-stu-id="7aaaa-103">Manually submit a custom service request</span></span>
+# <a name="manually-submit-a-custom-service-request"></a><span data-ttu-id="5aaf0-103">手动提交自定义服务请求</span><span class="sxs-lookup"><span data-stu-id="5aaf0-103">Manually submit a custom service request</span></span>
 
-<span data-ttu-id="7aaaa-104">如果您有服务号码拨入式会议网桥、 自动助理或其他服务号码，免费电话号码，或具有超过 999 用户 （订阅服务器） 的电话号码所需将传输到 Skype for Business，您需要为[管理电话为您的组织的号码](/microsoftteams/manage-phone-numbers-for-your-organization)。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-104">If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business, you need to [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).</span></span>
+<span data-ttu-id="5aaf0-104">如果您有服务号码拨入式会议网桥、 自动助理或其他服务号码，免费电话号码，或具有超过 999 用户 （订阅服务器） 的电话号码所需将传输到 Skype for Business，您需要为[管理电话为您的组织的号码](/microsoftteams/manage-phone-numbers-for-your-organization)。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-104">If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business, you need to [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).</span></span>
 
-<span data-ttu-id="7aaaa-105">在某些国家/地区，您需要手动提交自定义服务请求，如果您想要获取电话号码，或版本的号码，或更改地址。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-105">In some countries/regions, you will also need to manually submit a custom service request if you want to get telephone numbers, or release the numbers, or change addresses.</span></span> <span data-ttu-id="7aaaa-106">请参阅 what's 所必需的每个国家/地区或了解有关移植的号码的详细信息，请参阅[管理您的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-106">To see what is required for each country/region or learn more about number porting, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).</span></span>
+<span data-ttu-id="5aaf0-105">在某些国家/地区，您需要手动提交自定义服务请求，如果您想要获取电话号码，或版本的号码，或更改地址。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-105">In some countries/regions, you will also need to manually submit a custom service request if you want to get telephone numbers, or release the numbers, or change addresses.</span></span> <span data-ttu-id="5aaf0-106">请参阅 what's 所必需的每个国家/地区或了解有关移植的号码的详细信息，请参阅[管理您的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-106">To see what is required for each country/region or learn more about number porting, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).</span></span>
 
 
-## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a><span data-ttu-id="7aaaa-107">如果您需要创建和提交服务请求遵循以下步骤：</span><span class="sxs-lookup"><span data-stu-id="7aaaa-107">If you need to create and submit a service request follow these steps:</span></span>
+## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a><span data-ttu-id="5aaf0-107">如果您需要创建和提交服务请求遵循以下步骤：</span><span class="sxs-lookup"><span data-stu-id="5aaf0-107">If you need to create and submit a service request follow these steps:</span></span>
 
-## <a name="for-organizations-150-or-less-follow-these-steps"></a><span data-ttu-id="7aaaa-108">对于人数为 150 人或更少的组织，请遵循下列步骤</span><span class="sxs-lookup"><span data-stu-id="7aaaa-108">For organizations 150 or less follow these steps</span></span>
-1. <span data-ttu-id="7aaaa-109">在 **Office 365 管理中心**选择“**需要帮助?**”</span><span class="sxs-lookup"><span data-stu-id="7aaaa-109">In the **Office 365 admin center**, choose **Need help**?</span></span>
-2. <span data-ttu-id="7aaaa-110">在“**需要帮助?**”窗格中，告诉我们你需要什么帮助，然后选择“**获取帮助**”。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-110">In the **Need help?** pane, tell us what you need help with, then choose **Get help**.</span></span>
-3. <span data-ttu-id="7aaaa-111">如果“**查看解决方案**”部分中的结果没有帮助，请选择下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="7aaaa-111">If the results in the **View solutions** section don't help, choose one of the following:</span></span>
-    - <span data-ttu-id="7aaaa-112">**允许我们呼叫你(建议)**：确认你的联系号码，然后按“**呼叫我**”。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-112">**Let us call you (Recommended)**: Confirm your contact number, then press **Call me**.</span></span> <span data-ttu-id="7aaaa-113">“**需要帮助?**”窗格中会显示回拨的预期等待时间。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-113">The expected wait time for a call back is indicated in the **Need help?** pane.</span></span>
-    - <span data-ttu-id="7aaaa-114">**给我们发送电子邮件**：确认你的电子邮件地址，然后选择“**发送**”。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-114">**Email us**: Confirm your email address, then choose **Send**.</span></span> <span data-ttu-id="7aaaa-115">“**需要帮助?**”窗格中会显示呼叫响应时间。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-115">The call response time is indicated in the **Need help?** pane.</span></span>
+## <a name="for-organizations-150-or-less-follow-these-steps"></a><span data-ttu-id="5aaf0-108">对于人数为 150 人或更少的组织，请遵循下列步骤</span><span class="sxs-lookup"><span data-stu-id="5aaf0-108">For organizations 150 or less follow these steps</span></span>
+1. <span data-ttu-id="5aaf0-109">在 **Office 365 管理中心**选择“**需要帮助?**”</span><span class="sxs-lookup"><span data-stu-id="5aaf0-109">In the **Office 365 admin center**, choose **Need help**?</span></span>
+2. <span data-ttu-id="5aaf0-110">在“**需要帮助?**”窗格中，告诉我们你需要什么帮助，然后选择“**获取帮助**”。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-110">In the **Need help?** pane, tell us what you need help with, then choose **Get help**.</span></span>
+3. <span data-ttu-id="5aaf0-111">如果“**查看解决方案**”部分中的结果没有帮助，请选择下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="5aaf0-111">If the results in the **View solutions** section don't help, choose one of the following:</span></span>
+    - <span data-ttu-id="5aaf0-112">**允许我们呼叫你(建议)**：确认你的联系号码，然后按“**呼叫我**”。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-112">**Let us call you (Recommended)**: Confirm your contact number, then press **Call me**.</span></span> <span data-ttu-id="5aaf0-113">“**需要帮助?**”窗格中会显示回拨的预期等待时间。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-113">The expected wait time for a call back is indicated in the **Need help?** pane.</span></span>
+    - <span data-ttu-id="5aaf0-114">**给我们发送电子邮件**：确认你的电子邮件地址，然后选择“**发送**”。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-114">**Email us**: Confirm your email address, then choose **Send**.</span></span> <span data-ttu-id="5aaf0-115">“**需要帮助?**”窗格中会显示呼叫响应时间。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-115">The call response time is indicated in the **Need help?** pane.</span></span>
 
-### <a name="for-organizations-with-more-than-150-users-follow-these-steps-to-create-a-service-request"></a><span data-ttu-id="7aaaa-116">对于具有多个 150 个用户的组织执行以下步骤创建一个服务请求：</span><span class="sxs-lookup"><span data-stu-id="7aaaa-116">For organizations with more than 150 users follow these steps to create a service request:</span></span>
+### <a name="for-organizations-with-more-than-150-users-follow-these-steps-to-create-a-service-request"></a><span data-ttu-id="5aaf0-116">对于具有多个 150 个用户的组织执行以下步骤创建一个服务请求：</span><span class="sxs-lookup"><span data-stu-id="5aaf0-116">For organizations with more than 150 users follow these steps to create a service request:</span></span>
 
-1. <span data-ttu-id="7aaaa-117">使用你的工作或学校帐户以管理员身份登录 Office 365。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-117">Sign in as an administrator to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="5aaf0-117">使用你的工作或学校帐户以管理员身份登录 Office 365。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-117">Sign in as an administrator to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="7aaaa-118">在 Office 365 管理中心的左侧导航中，单击“**支持**” > “**新服务请求**”。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-118">In the Office 365 admin center, in the left navigation, click **Support** > **New service request**.</span></span>
+2. <span data-ttu-id="5aaf0-118">在 Office 365 管理中心的左侧导航中，单击“**支持**” > “**新服务请求**”。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-118">In the Office 365 admin center, in the left navigation, click **Support** > **New service request**.</span></span>
     
-3. <span data-ttu-id="7aaaa-119">在“**服务请求**”下，单击“**添加**”。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-119">Under **Service requests**, click **Add**.</span></span>
+3. <span data-ttu-id="5aaf0-119">在“**服务请求**”下，单击“**添加**”。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-119">Under **Service requests**, click **Add**.</span></span>
     
-4. <span data-ttu-id="7aaaa-120">在“**创建服务请求**”页面上，单击“**联机协作**”。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-120">On the **Create a service request** page, click **Online collaboration**.</span></span>
+4. <span data-ttu-id="5aaf0-120">在“**创建服务请求**”页面上，单击“**联机协作**”。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-120">On the **Create a service request** page, click **Online collaboration**.</span></span>
     
-5. <span data-ttu-id="7aaaa-121">在“**识别问题**”页面上，选择和输入以下信息：</span><span class="sxs-lookup"><span data-stu-id="7aaaa-121">On the **Identify the issue** page, select and enter in the following:</span></span>
+5. <span data-ttu-id="5aaf0-121">在“**识别问题**”页面上，选择和输入以下信息：</span><span class="sxs-lookup"><span data-stu-id="5aaf0-121">On the **Identify the issue** page, select and enter in the following:</span></span>
     
-  - <span data-ttu-id="7aaaa-122">**功能：** 选择“**国内通话套餐**”和/或“**国内和国际套餐**”。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-122">**Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.</span></span>
+   - <span data-ttu-id="5aaf0-122">**功能：** 选择“**国内通话套餐**”和/或“**国内和国际套餐**”。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-122">**Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.</span></span>
     
-  - <span data-ttu-id="7aaaa-123">**症状：** 输入“**紧急通话**”。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-123">**Symptom:** Enter **Emergency Calling**.</span></span>
+   - <span data-ttu-id="5aaf0-123">**症状：** 输入“**紧急通话**”。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-123">**Symptom:** Enter **Emergency Calling**.</span></span>
     
-  - <span data-ttu-id="7aaaa-124">**问题摘要：** 输入“**地址验证**”。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-124">**Issue summary:** Enter **Address validation**.</span></span>
+   - <span data-ttu-id="5aaf0-124">**问题摘要：** 输入“**地址验证**”。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-124">**Issue summary:** Enter **Address validation**.</span></span>
     
-  - <span data-ttu-id="7aaaa-125">**问题详细信息：** 输入关于你要验证的地址的任何详细信息，例如：</span><span class="sxs-lookup"><span data-stu-id="7aaaa-125">**Issue details:** Enter any details about the address(s) you want to validate such as the:</span></span>
+   - <span data-ttu-id="5aaf0-125">**问题详细信息：** 输入关于你要验证的地址的任何详细信息，例如：</span><span class="sxs-lookup"><span data-stu-id="5aaf0-125">**Issue details:** Enter any details about the address(s) you want to validate such as the:</span></span>
     
-      - <span data-ttu-id="7aaaa-126">街道编号</span><span class="sxs-lookup"><span data-stu-id="7aaaa-126">Street number</span></span>
+      - <span data-ttu-id="5aaf0-126">街道编号</span><span class="sxs-lookup"><span data-stu-id="5aaf0-126">Street number</span></span>
     
-      - <span data-ttu-id="7aaaa-127">街道名称</span><span class="sxs-lookup"><span data-stu-id="7aaaa-127">Street name</span></span>
+      - <span data-ttu-id="5aaf0-127">街道名称</span><span class="sxs-lookup"><span data-stu-id="5aaf0-127">Street name</span></span>
     
-      - <span data-ttu-id="7aaaa-128">城镇或城市</span><span class="sxs-lookup"><span data-stu-id="7aaaa-128">Town or city</span></span>
+      - <span data-ttu-id="5aaf0-128">城镇或城市</span><span class="sxs-lookup"><span data-stu-id="5aaf0-128">Town or city</span></span>
     
-      - <span data-ttu-id="7aaaa-129">国家或地区</span><span class="sxs-lookup"><span data-stu-id="7aaaa-129">Country or region</span></span>
+      - <span data-ttu-id="5aaf0-129">国家或地区</span><span class="sxs-lookup"><span data-stu-id="5aaf0-129">Country or region</span></span>
     
-    > [!IMPORTANT]
-    > <span data-ttu-id="7aaaa-130">**填入我们在 Office 365 中提供通话套餐，并且当你分配电话号码时尝试验证其中的紧急地址的国家/地区。**</span><span class="sxs-lookup"><span data-stu-id="7aaaa-130">**Put the country/region where we offer Calling Plans in Office 365 that you are trying to validate an emergency address in when you are assigning phone number.**</span></span>
+     > [!IMPORTANT]
+     > <span data-ttu-id="5aaf0-130">**填入我们在 Office 365 中提供通话套餐，并且当你分配电话号码时尝试验证其中的紧急地址的国家/地区。**</span><span class="sxs-lookup"><span data-stu-id="5aaf0-130">**Put the country/region where we offer Calling Plans in Office 365 that you are trying to validate an emergency address in when you are assigning phone number.**</span></span>
   
-      - <span data-ttu-id="7aaaa-131">邮政编码</span><span class="sxs-lookup"><span data-stu-id="7aaaa-131">Postal or zip code</span></span>
+      - <span data-ttu-id="5aaf0-131">邮政编码</span><span class="sxs-lookup"><span data-stu-id="5aaf0-131">Postal or zip code</span></span>
     
-6. <span data-ttu-id="7aaaa-132">单击**下一个**页面，然后单击“**是，继续**”以继续。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-132">Click **Next** page, click **Yes, continue** to continue.</span></span>
+6. <span data-ttu-id="5aaf0-132">单击**下一个**页面，然后单击“**是，继续**”以继续。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-132">Click **Next** page, click **Yes, continue** to continue.</span></span>
     
-7. <span data-ttu-id="7aaaa-133">在“**添加详细信息**”页面上，选择和输入以下信息：</span><span class="sxs-lookup"><span data-stu-id="7aaaa-133">On the **Add details** page, select and enter the following:</span></span>
+7. <span data-ttu-id="5aaf0-133">在“**添加详细信息**”页面上，选择和输入以下信息：</span><span class="sxs-lookup"><span data-stu-id="5aaf0-133">On the **Add details** page, select and enter the following:</span></span>
     
-  - <span data-ttu-id="7aaaa-134">**你的服务是否不可用?**</span><span class="sxs-lookup"><span data-stu-id="7aaaa-134">**Is your service unavailable?**</span></span> <span data-ttu-id="7aaaa-135">选择“**否**”。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-135">Select **No**.</span></span>
+   - <span data-ttu-id="5aaf0-134">**你的服务是否不可用?**</span><span class="sxs-lookup"><span data-stu-id="5aaf0-134">**Is your service unavailable?**</span></span> <span data-ttu-id="5aaf0-135">选择“**否**”。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-135">Select **No**.</span></span>
     
-  - <span data-ttu-id="7aaaa-136">**有多少用户受到影响?**</span><span class="sxs-lookup"><span data-stu-id="7aaaa-136">**How many users are affected?**</span></span> <span data-ttu-id="7aaaa-137">选择“**部分用户**”。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-137">Select **Some users**.</span></span>
+   - <span data-ttu-id="5aaf0-136">**有多少用户受到影响?**</span><span class="sxs-lookup"><span data-stu-id="5aaf0-136">**How many users are affected?**</span></span> <span data-ttu-id="5aaf0-137">选择“**部分用户**”。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-137">Select **Some users**.</span></span>
     
-  - <span data-ttu-id="7aaaa-138">**输入受此问题影响的用户的电子邮件地址**或保留为空。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-138">**Enter an email address of someone affected by this issue** or leave blank.</span></span>
+   - <span data-ttu-id="5aaf0-138">**输入受此问题影响的用户的电子邮件地址**或保留为空。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-138">**Enter an email address of someone affected by this issue** or leave blank.</span></span>
     
-  - <span data-ttu-id="7aaaa-139">**选择要列出的域**</span><span class="sxs-lookup"><span data-stu-id="7aaaa-139">**Select Domain(s) you want to list**</span></span>
+   - <span data-ttu-id="5aaf0-139">**选择要列出的域**</span><span class="sxs-lookup"><span data-stu-id="5aaf0-139">**Select Domain(s) you want to list**</span></span>
     
-  - <span data-ttu-id="7aaaa-140">如果你有多个需要验证的地址，请**附加文件**。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-140">**Attach a file** if you have multiple addresses you need validated.</span></span>
+   - <span data-ttu-id="5aaf0-140">如果你有多个需要验证的地址，请**附加文件**。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-140">**Attach a file** if you have multiple addresses you need validated.</span></span>
     
-  - <span data-ttu-id="7aaaa-141">单击“**下一步**”。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-141">Click **Next**.</span></span>
+   - <span data-ttu-id="5aaf0-141">单击“**下一步**”。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-141">Click **Next**.</span></span>
     
-  - <span data-ttu-id="7aaaa-142">输入联系人的电话号码。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-142">Enter your contact phone number.</span></span>
+   - <span data-ttu-id="5aaf0-142">输入联系人的电话号码。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-142">Enter your contact phone number.</span></span>
     
-8. <span data-ttu-id="7aaaa-143">检查信息，然后单击“**提交请求**”。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-143">Review the information, and then click **Submit request**.</span></span>
+8. <span data-ttu-id="5aaf0-143">检查信息，然后单击“**提交请求**”。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-143">Review the information, and then click **Submit request**.</span></span>
     
 > [!TIP]
-> <span data-ttu-id="7aaaa-144">[!提示] 将在 Office 365 管理中心中" **服务请求**"页面上列出参考编号。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-144">The reference number will be listed on the **Service requests** page in the Office 365 admin center.</span></span>
+> <span data-ttu-id="5aaf0-144">[!提示] 将在 Office 365 管理中心中" **服务请求**"页面上列出参考编号。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-144">The reference number will be listed on the **Service requests** page in the Office 365 admin center.</span></span>
   
-## <a name="what-else-should-you-know-about-number-porting"></a><span data-ttu-id="7aaaa-145">你还应该知道有关订单移植的哪些信息？</span><span class="sxs-lookup"><span data-stu-id="7aaaa-145">What else should you know about number porting?</span></span>
+## <a name="what-else-should-you-know-about-number-porting"></a><span data-ttu-id="5aaf0-145">你还应该知道有关订单移植的哪些信息？</span><span class="sxs-lookup"><span data-stu-id="5aaf0-145">What else should you know about number porting?</span></span>
 
-- <span data-ttu-id="7aaaa-146">用于调用计划必须购买并向用户分配许可证。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-146">To use Calling Plans you must purchase and assign licenses to your users.</span></span> <span data-ttu-id="7aaaa-147">[Skype 业务和 Microsoft 团队加载项授权的](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-147">[Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span></span>
+- <span data-ttu-id="5aaf0-146">用于调用计划必须购买并向用户分配许可证。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-146">To use Calling Plans you must purchase and assign licenses to your users.</span></span> <span data-ttu-id="5aaf0-147">[Skype 业务和 Microsoft 团队加载项授权的](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-147">[Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span></span>
     
-- <span data-ttu-id="7aaaa-148">你必须将这些新电话号码分配给你的每个用户。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-148">You must assign the new phone numbers you have to each of your users.</span></span> <span data-ttu-id="7aaaa-149">[分配、 更改或删除的用户的电话号码](assign-change-or-remove-a-phone-number-for-a-user.md)。</span><span class="sxs-lookup"><span data-stu-id="7aaaa-149">[Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).</span></span>
+- <span data-ttu-id="5aaf0-148">你必须将这些新电话号码分配给你的每个用户。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-148">You must assign the new phone numbers you have to each of your users.</span></span> <span data-ttu-id="5aaf0-149">[分配、 更改或删除的用户的电话号码](assign-change-or-remove-a-phone-number-for-a-user.md)。</span><span class="sxs-lookup"><span data-stu-id="5aaf0-149">[Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="7aaaa-150">如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="7aaaa-150">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="5aaf0-150">如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="5aaf0-150">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="7aaaa-151">相关主题</span><span class="sxs-lookup"><span data-stu-id="7aaaa-151">Related topics</span></span>
-[<span data-ttu-id="7aaaa-152">关于转移电话号码的常见问题</span><span class="sxs-lookup"><span data-stu-id="7aaaa-152">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="5aaf0-151">相关主题</span><span class="sxs-lookup"><span data-stu-id="5aaf0-151">Related topics</span></span>
+[<span data-ttu-id="5aaf0-152">关于转移电话号码的常见问题</span><span class="sxs-lookup"><span data-stu-id="5aaf0-152">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="7aaaa-153">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="7aaaa-153">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="5aaf0-153">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="5aaf0-153">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="7aaaa-154">管理你的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="7aaaa-154">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+[<span data-ttu-id="5aaf0-154">管理你的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="5aaf0-154">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="7aaaa-155">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="7aaaa-155">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="5aaf0-155">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="5aaf0-155">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="7aaaa-156">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="7aaaa-156">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="5aaf0-156">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="5aaf0-156">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  
