@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40ed3d2cef71077dcc098ab42c5ecf3518d3c5fc
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9aeeab6f84b222500829282d29ac06ec73d42ecc
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015818"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373333"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互 
 =========================================
@@ -65,9 +65,9 @@ ms.locfileid: "25015818"
 
 > [!NOTE]
 > 当前，如果贵组织具有合规性要求以确保所有会议讨论均可发现，当组织者有本地 Exchange 邮箱时，你应禁用私人会议。
-
+> 
 > [!IMPORTANT]
-  参与对话的一部分的 Microsoft 团队中的聊天列表中的用户必须拥有管理员可以搜索聊天 Exchange Online （基于云的） 邮箱。 这是因为属于聊天列表的对话存储在聊天参与者的基于云的邮箱中。 如果聊天参与者没有 Exchange Online 邮箱，管理员将无法搜索聊天对话，也无法将聊天对话中的内容置于保留状态。 例如，在 Exchange 混合部署中，具有本地邮箱的用户也许能参与属于 Microsoft Teams 中聊天列表的对话。 但是，在这种情况下，由于用户没有基于云的邮箱，这些对话中的内容不可搜索，也不可置于保留状态。 有关内容搜索和 Microsoft Teams 的更多详细信息，请参阅[在 Office 365 安全与合规中心中运行内容搜索](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)。
-
+>   参与对话的一部分的 Microsoft 团队中的聊天列表中的用户必须拥有管理员可以搜索聊天 Exchange Online （基于云的） 邮箱。 这是因为属于聊天列表的对话存储在聊天参与者的基于云的邮箱中。 如果聊天参与者没有 Exchange Online 邮箱，管理员将无法搜索聊天对话，也无法将聊天对话中的内容置于保留状态。 例如，在 Exchange 混合部署中，具有本地邮箱的用户也许能参与属于 Microsoft Teams 中聊天列表的对话。 但是，在这种情况下，由于用户没有基于云的邮箱，这些对话中的内容不可搜索，也不可置于保留状态。 有关内容搜索和 Microsoft Teams 的更多详细信息，请参阅[在 Office 365 安全与合规中心中运行内容搜索](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)。
+> 
 > [!TIP]
-  有关如何使用 Azure AD 连接将与 Azure Active Directory 同步的信息，请参阅[*将您的本地标识与 Azure Active Directory 集成*](https://go.microsoft.com/fwlink/?linkid=854600)。
+>   有关如何使用 Azure AD 连接将与 Azure Active Directory 同步的信息，请参阅[*将您的本地标识与 Azure Active Directory 集成*](https://go.microsoft.com/fwlink/?linkid=854600)。

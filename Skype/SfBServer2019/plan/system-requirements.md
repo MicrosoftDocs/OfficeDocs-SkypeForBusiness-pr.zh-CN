@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 摘要： 准备您的 Skype 业务服务器 2019年服务器和域基础结构与本主题。 硬件、 操作系统、 数据库、 软件、 所有系统要求和建议，以及证书 DNS、 文件共享和 Active Directory 信息，在此处都要帮助确保成功安装和部署服务器场。
-ms.openlocfilehash: eb6e0b4207d266e8b3a12ab62332fd99c717c1ec
-ms.sourcegitcommit: 9e112a00c9766af8bd30bc13980201d23d1928d0
+ms.openlocfilehash: a5422f52e9158d01f821c0a2abd051917fbed7b1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "25030642"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375125"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2019"></a>Skype for Business Server 2019 服务器要求
 
@@ -79,9 +79,9 @@ ms.locfileid: "25030642"
 
 > [!NOTE]
 > 无论服务器角色，我们还建议的业务服务器 2019 Skype 的以下硬件设置 (这可能有所不同，具体取决于您已购买，这样的硬件的品牌请参考细节的制造商文档):
-- 单层从 NUMA BIOS config-应设置为。
-- 启用超线程。
-- RSS 队列设置应设置为 8 的队列。
+> - 单层从 NUMA BIOS config-应设置为。
+> - 启用超线程。
+> - RSS 队列设置应设置为 8 的队列。
 
    
 ## <a name="operating-systems-for-skype-for-business-server-2019"></a>为业务服务器 2019 Skype 的操作系统

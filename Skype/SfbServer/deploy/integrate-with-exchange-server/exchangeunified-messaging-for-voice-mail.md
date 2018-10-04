@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 摘要： 配置 Exchange Server 统一消息的 Skype Business Server 语音邮件。
-ms.openlocfilehash: 21664f50b657324b4e70e86da83a4abbe1c14239
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 09ff81c170713f1dd3235f3968d586afc80929fd
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979309"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375809"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>为 Skype for Business Server 语音邮件配置 Exchange Server 统一消息
  
@@ -109,8 +109,8 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 若要配置 Exchange 统一消息 (UM) 与企业语音一起工作，您需要执行以下任务：
 
 - 在运行 Exchange 统一消息 (UM) 服务的服务器上配置证书
-> [!NOTE]
-> 将所有客户端访问和邮箱服务器添加到所有 UM SIP URI 拨号计划。 如果没有，出站呼叫路由不能作为预期。 
+  > [!NOTE]
+  > 将所有客户端访问和邮箱服务器添加到所有 UM SIP URI 拨号计划。 如果没有，出站呼叫路由不能作为预期。 
 - 创建一个或多个 UM SIP URI 拨号计划，订阅者访问电话号码，以及根据需要，然后创建相应 L 拨号计划。
 
 - 使用 exchucutil.ps1 脚本执行以下操作：
@@ -128,8 +128,8 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 此外请注意以下情况：
 - 如果 Exchange UM 安装在多个林中，则必须在每个 UM 林执行 Exchange Server 集成步骤。 此外，每个 UM 林必须配置为信任的林在其中部署了 Skype 业务服务器，则和 whichSkype 中的为林的部署业务服务器必须配置为信任每个 UM 林。
 - 在其中运行的统一消息服务，这两个 Exchange 服务器角色和业务服务器运行 Skype 的服务器上执行集成步骤。 执行的 Lync Server 2013 集成步骤之前，应执行的 Exchange Server 统一消息集成步骤。
-> [!NOTE]
-> 若要查看在哪些服务器上并且由哪些管理员角色执行哪些集成步骤，请参阅[集成的部署过程概述在本地统一消息和 Skype for Business](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md)。 
+  > [!NOTE]
+  > 若要查看在哪些服务器上并且由哪些管理员角色执行哪些集成步骤，请参阅[集成的部署过程概述在本地统一消息和 Skype for Business](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md)。 
 
 必须在每台服务器运行 Exchange UM 上提供以下工具：
 - Exchange 命令行管理程序
@@ -151,8 +151,8 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 - 创建 UM 智能寻每个 UM IP 网关。 每个智能寻线的引导标识符指定 Skype 用于业务 Server 前端池或 Standard Edition server 的与 UM IP 网关相关联的 UM SIP URI 拨号计划。
 - 业务 Server 读取 Active Directory UM 容器对象，例如 UM 拨号计划、 自动助理、 UM IP 网关和 UM 智能寻权限的授予 Skype。
-> [!IMPORTANT]
-> 必须将每个 UM 林配置为信任的林顺序 Skype 业务服务器部署，并在其中部署业务 Server 2013 的 Skype 林必须配置为信任每个 UM 林。 如果 Exchange UM 安装在多个林中，则必须为每个 UM 林执行 Exchange Server 集成步骤或您必须指定 Skype Business Server 域。 例如，ExchUcUtil.ps1 – 林： < lync 的域-控制器的 fqdn >。 
+  > [!IMPORTANT]
+  > 必须将每个 UM 林配置为信任的林顺序 Skype 业务服务器部署，并在其中部署业务 Server 2013 的 Skype 林必须配置为信任每个 UM 林。 如果 Exchange UM 安装在多个林中，则必须为每个 UM 林执行 Exchange Server 集成步骤或您必须指定 Skype Business Server 域。 例如，ExchUcUtil.ps1 – 林： < lync 的域-控制器的 fqdn >。 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>使用命令行管理程序运行 ExchUcUtil.ps1 脚本
 
@@ -191,8 +191,8 @@ Exchange Server 必须配置了服务器证书，才能连接到 Skype 业务服
 1. 在运行 Exchange UM 服务器上，单击**开始**，单击**运行**类型**http://\<发证 CA 服务器名称 > / certsrv**，然后单击**确定**。
 2. 在选择任务下，单击**下载 CA 证书、 证书链或 CRL**。
 3. 在**下载 CA 证书、 证书链或 CRL**下选择**Base 64 编码方式**，，然后单击**下载 CA 证书**。
-> [!NOTE]
-> 您还可以指定在此步骤的可分辨编码规则 (DER) 编码。 如果选择 DER 编码，此过程的下一步的文件类型和在步骤 10 个**到安装 CA 证书**是.p7b 而不是非.cer。 
+   > [!NOTE]
+   > 您还可以指定在此步骤的可分辨编码规则 (DER) 编码。 如果选择 DER 编码，此过程的下一步的文件类型和在步骤 10 个**到安装 CA 证书**是.p7b 而不是非.cer。 
 4. 在**文件下载**对话框中，单击**保存**，然后将文件保存到硬盘上，在服务器上。 （文件会为.cer 或.p7b 文件扩展名，具体取决于您在上一步中选择的编码。）
 
 **安装 CA 证书：**
@@ -205,7 +205,7 @@ Exchange Server 必须配置了服务器证书，才能连接到 Skype 业务服
 6. 单击**关闭**，然后单击**确定**。 
 7. 在控制台树中，展开**证书 （本地计算机）**，展开**受信任的根证书颁发机构**，，然后单击**证书**。
 8. 右键单击**证书**，单击**所有任务**，然后单击**导入**。
-9. 单击" **下一步**"。 
+9. 单击“**下一步**”。 
 10. 单击**浏览**找到文件，，，然后单击**下一步**。 （该文件将具有为.cer 或.p7b 文件扩展名，具体取决于您的**下载 CA 证书**的步骤 3 中选择的编码。
 11. 单击**将所有证书放**入下列存储。
 12. 单击**浏览**，然后选择**受信任的根证书颁发机构**。 

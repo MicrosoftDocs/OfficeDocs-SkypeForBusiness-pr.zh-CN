@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: 了解如何在 Office 365 语音服务的企业用户您 Skype 中启用电话系统。
-ms.openlocfilehash: ef1e7b98ad4a6080d07dc4abca717aef49a725ed
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ec0e37c0597f81001075f144dd38b58acfbb1159
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887902"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372668"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>为用户启用企业语音 online 和 Office 365 语音邮件中的电话系统
  
@@ -41,15 +41,15 @@ ms.locfileid: "23887902"
     
 3. 输入以下内容，然后按 Enter：
     
-  ```
-  Import-Module skypeonlineconnector
-  ```
+   ```
+   Import-Module skypeonlineconnector
+   ```
 
 4. 输入以下内容，然后按 Enter：
     
-  ```
-  $cred = Get-Credential
-  ```
+   ```
+   $cred = Get-Credential
+   ```
 
     按 Enter 之后，应该会看到“Windows PowerShell 凭据”对话框。
     
@@ -57,29 +57,29 @@ ms.locfileid: "23887902"
     
 6. 在 PowerShell 窗口中键入以下内容，然后按 Enter：
     
-  ```
-  $Session = New-CsOnlineSession -Credential $cred -Verbose
-  ```
+   ```
+   $Session = New-CsOnlineSession -Credential $cred -Verbose
+   ```
 
 7. 键入以下 cmdlet 导入会话：
     
-  ```
-  Import-PSSession $Session -AllowClobber
-  ```
+   ```
+   Import-PSSession $Session -AllowClobber
+   ```
 
     上运行时 PowerShell Skype 业务服务器，打开 PowerShell 时已加载本地 Skype 业务 cmdlet。 必须指定-AllowClobber 参数允许 online cmdlet 以覆盖具有相同名称的内部部署 cmdlet。
     
 8. 使用 Set-CsUser cmdlet，按如下所述为你的用户分配 $EnterpriseVoiceEnabled 和 $HostedVoiceMail 属性：
     
-  ```
-  Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-  ```
+   ```
+   Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+   ```
 
     例如：
     
-  ```
-  Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-  ```
+   ```
+   Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+   ```
 
     > [!NOTE]
     > 也可以通过其 SIP 地址、用户主体名称 (UPN)、域名和用户名以及 Active Directory 中的显示名称（“Bob Kelly”）来指定用户。 

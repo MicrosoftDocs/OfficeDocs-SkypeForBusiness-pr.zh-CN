@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e09816666e17f657b67f8b28aa36efa3ef95e60f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 335d5baac6f13d899b8d6f9875a419d86da1b6af
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013560"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374314"
 ---
 # <a name="prepare-my-service"></a>准备我的服务
 
@@ -53,8 +53,8 @@ ms.locfileid: "25013560"
 >常见团队和 Skype 业务 online 之间了大部分的配置设置。 使用 Office 365 管理中心和团队和业务管理中心的 Skype 配置这些设置。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>谁将负责监督入职培训清单完成？</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>下载入职培训清单。</li><li>通过按照贵组织的部署计划分步入职培训清单项目工作。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>谁将负责监督入职培训清单完成？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>下载入职培训清单。</li><li>通过按照贵组织的部署计划分步入职培训清单项目工作。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -180,8 +180,8 @@ ms.locfileid: "25013560"
 -   已标识和配置直接路由合规性要求。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>决定将部署的音频会议功能 （服务决策）。</li><li>确定用户音频会议功能要求。</li><li>确定要进行音频会议服务配置要求。</li><br><li>决定是否将部署并配置了直接路由或调用计划。<li>决定将部署哪些电话系统的功能 （服务决策）。</li><li>确定用户调用计划或直接路由的功能要求。</li><li>标识调用计划或直接路由服务配置要求。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>开发和测试计划方法的文档。</li><li>准备您的服务环境和音频会议功能的范围内的用户。</li><li>准备您的服务环境和调用计划或直接路由功能范围中的用户。</li><li>执行测试验证您想要启用的音频会议功能。</li><li>执行测试验证您想要启用的调用计划或直接路由功能。</li><li>出于测试故障，确认您的配置是否正确，请查看社区文章和 — 如果需要 — 引发支持案例。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>决定将部署的音频会议功能 （服务决策）。</li><li>确定用户音频会议功能要求。</li><li>确定要进行音频会议服务配置要求。</li><br><li>决定是否将部署并配置了直接路由或调用计划。<li>决定将部署哪些电话系统的功能 （服务决策）。</li><li>确定用户调用计划或直接路由的功能要求。</li><li>标识调用计划或直接路由服务配置要求。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>开发和测试计划方法的文档。</li><li>准备您的服务环境和音频会议功能的范围内的用户。</li><li>准备您的服务环境和调用计划或直接路由功能范围中的用户。</li><li>执行测试验证您想要启用的音频会议功能。</li><li>执行测试验证您想要启用的调用计划或直接路由功能。</li><li>出于测试故障，确认您的配置是否正确，请查看社区文章和 — 如果需要 — 引发支持案例。</li></ul></td></tr>
 </table>
 
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 摘要： 了解升级到 Skype 规划业务服务器 2015年时应考虑。 下载免费试用版 Skype 业务服务器 2015 从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: 437c54513865ceb28f717f50b4619a735720c98b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dd62ee7b8b7721b8ace7c3e49dd69df60d3229f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882738"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375132"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>规划升级到 Skype for Business Server 2015
  
@@ -138,13 +138,13 @@ ms.locfileid: "23882738"
     
 5. 安装新 Skype 业务服务器所需的必备组件。
     
-6.  在每台前端服务器上，开始就地升级。
+6. 在每台前端服务器上，开始就地升级。
     
 7. 升级完成后，重启所有服务。
     
-  - 对于前端池，使用命令 Start-CsPool 重启服务。
+   - 对于前端池，使用命令 Start-CsPool 重启服务。
     
-  - 对于非前端服务器，使用 Start-CSWindowsService。
+   - 对于非前端服务器，使用 Start-CSWindowsService。
     
 > [!NOTE]
 >  如果不想升级现有存档和监控数据库，请在升级拓扑之前移除依赖关系。 如果想创建新的存档和监控数据库，在升级过程中，可以创建新的 SQL 存储，并将其与池关联。 您可以找到有关如何执行此操作在主题中，[升级到业务服务器 2015年的 Skype](../deploy/upgrade-to-skype-for-business-server.md)的步骤。 > 在就地升级不支持高可用性或灾难恢复的 Skype 业务服务器。 若要避免中断用户的服务，使用[移动用户方法 （没有用户停机时间）](upgrade.md#bkmk_MoveUsersMethod)升级。 > 在升级过程中 xds 副本处于最大可用空间的磁盘驱动器上的本地共享文件夹。 如果该磁盘以后被删除，则您可以遇到服务未启动等问题。

@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 在业务 online Skype，您可以控制现有会议策略设置的一部分 (P2P) 点对点文件传输功能。 但是，这将允许或阻止文件传输他们用户属于同一组织中或从另一个组织的联合用户传输的文件的用户。 下面的下面的步骤，您可以阻止与联盟的组织或合作伙伴的 P2P 文件传输。
-ms.openlocfilehash: 3ae7bce22a99858af36696e1fde41bb614f2c008
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 6ca79b45c4e068ae6999db24cf6a0dd54e9e3aa6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858488"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372100"
 ---
 # <a name="block-point-to-point-file-transfers"></a>阻止点到点文件传输
 
@@ -72,14 +72,14 @@ ms.locfileid: "23858488"
     > [!NOTE]
     > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
 
-  ```      
+   ```      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
-  ```
+   ```
 
-  如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+   如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
     
 ## <a name="disable-p2p-file-transfers-for-your-organization"></a>禁用组织的 P2P 文件传输
 
@@ -95,15 +95,15 @@ ms.locfileid: "23858488"
 
 您可以应用于此用户通过创建新策略，并授予该用户。 为此，请运行： 
 > 
-  ```
-  New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
-  ```
+>   ```
+>   New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
+>   ```
 > 
-  ```
-  Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
-  ```
+>   ```
+>   Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
+>   ```
 
-## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
+## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
 - Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     

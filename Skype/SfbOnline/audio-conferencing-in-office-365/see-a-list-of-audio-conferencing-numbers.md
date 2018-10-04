@@ -20,26 +20,26 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何为业务 Online 查找您拨入式会议号码从 Skype 内。 '
-ms.openlocfilehash: 43442d2ecee1de30126b73dd7cce8124db650c84
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 557aef5e85cdd176e2d95e1cd946ed23e00764a0
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891253"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372884"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>请参阅  Skype for Business Online 中的音频会议号码列表
 
 > [!NOTE]
 > 有关 Microsoft Teams 中的音频会议号码的信息，请参阅 [Microsoft Teams 的音频会议号码列表](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams)。
 
-当为  Skype for Business 用户设置时音频会议时，您可以查看为音频会议提供给他们的电话号码。 此列表都会将所有可供您的组织的音频会议电话号码。
+When you set up Audio Conferencing for Skype for Business users, you can view the phone numbers that are available to them for audio conferencing. This list will have all of the audio conferencing phone numbers that are available to your organization.
   
- **正在搜索价格？** 请参阅[定价音频会议](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)。
+ **Looking for prices?** See [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
   
 > [!IMPORTANT]
-> **没有资源包含音频会议的所有拨入号码的列表。** 如果您要查找要查看如果电话拨入电话号码中提供了您的区域或国家/地区，请转到**业务管理中心的 Skype** > **语音** > **电话号码**，单击**添加**，然后单击**新服务号码**。 使用“**国家/地区**”、“**州/地区**”和“**城市**”列表对你的搜索进行筛选。 此外，如果您要查找免费电话服务号码，选择**免费电话**从**国家/地区**列表。
+> **There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing.** If you are looking to see if there are dial-in phone numbers available in your area or country/region, go to **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add**, and then click **New Service Numbers**. Use the lists for **Country/Region**, **State/Region**, and **City** to filter your search. Also, if you are looking for toll-free service numbers, select **Toll-Free** from the **State/Region** list.
   
-如果仅有一个电话号码在你的组织中可用，则会将其作为你的所有用户的默认号码。 当多个电话号码可用时，你可以为每个用户选择默认电话号码。 此默认号码将 Skype 中包括的业务会议邀请。
+If there is only one phone number available in your organization, it will be used as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. This default number will be included in Skype for Business meeting invitations.
   
 您可以看到[设置的电话号码包含在邀请](set-the-phone-numbers-included-on-invites.md)以更改为单个用户的电话拨入式电话号码。
   
@@ -57,12 +57,12 @@ ms.locfileid: "23891253"
     
 3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 桥**，然后：
     
-  - 您可以查看可用于音频会议的电话号码。
+   - 您可以查看可用于音频会议的电话号码。
     
-  - 您还可以查看位置，并将使用的音频会议的主要和辅助语言自动助理。
+   - 您还可以查看位置，并将使用的音频会议的主要和辅助语言自动助理。
     
 > [!NOTE]
-> 您可以转到**音频会议** > **用户**和用户属性来更改默认号码由从您的组织中的可用号码的列表中选择新号码的选择。 请参阅[设置的电话号码包含在邀请](set-the-phone-numbers-included-on-invites.md)。 
+> You can go to **Audio conferencing** > **Users** and select the user's properties to change the default number by choosing a new number from the list of available numbers in your organization. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). 
 
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
@@ -75,7 +75,7 @@ ms.locfileid: "23891253"
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过只使用 Office 365 管理中心中的，如时要进行设置更改多个用户一次。 请在以下主题中了解这些优点：
+- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

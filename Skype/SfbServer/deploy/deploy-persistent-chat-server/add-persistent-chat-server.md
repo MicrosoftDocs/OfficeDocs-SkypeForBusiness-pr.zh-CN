@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 摘要： 阅读本主题可了解如何向您 Skype 业务服务器 2015年拓扑添加持久聊天服务器。
-ms.openlocfilehash: 9d6845b7239056ec18be780060ba6ef96756f743
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ff2486db39546e88c4a75e27875a84a2c3b939ae
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973008"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371980"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>向您 Skype 业务服务器 2015年拓扑添加持久聊天服务器
  
@@ -71,8 +71,8 @@ ms.locfileid: "20973008"
     
    - 选择“**默认实例**”以使用默认实例，或指定其他实例，选择“**命名实例**”，然后指定要使用的实例。
     
-    > [!NOTE]
-    > 有关如何配置 SQL Server 备份数据库的灾难恢复的详细信息，请参阅[配置高可用性和灾难恢复对于 Persistent Chat Server in Skype 的业务服务器 2015年](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)。 
+     > [!NOTE]
+     > 有关如何配置 SQL Server 备份数据库的灾难恢复的详细信息，请参阅[配置高可用性和灾难恢复对于 Persistent Chat Server in Skype 的业务服务器 2015年](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)。 
   
 9. 如果启用合规性，请定义 SQL Server 合规性存储。
     
@@ -87,8 +87,8 @@ ms.locfileid: "20973008"
     
     - 在“**文件共享**”中，指定要使用的文件存储。
     
-     > [!IMPORTANT]
-     > 您可以在之前您创建的文件存储，但您必须中定义的位置定义发布拓扑之前创建的文件存储在拓扑生成器中定义的文件存储。 如果文件存储不存在，则发布拓扑的尝试将失败。 
+      > [!IMPORTANT]
+      > 您可以在之前您创建的文件存储，但您必须中定义的位置定义发布拓扑之前创建的文件存储在拓扑生成器中定义的文件存储。 如果文件存储不存在，则发布拓扑的尝试将失败。 
   
 11. 选择要为此持久聊天服务器池用作下一个跃点的前端服务器池。 这是将能够将持久聊天服务器请求路由到此池中的前端服务器池。
     

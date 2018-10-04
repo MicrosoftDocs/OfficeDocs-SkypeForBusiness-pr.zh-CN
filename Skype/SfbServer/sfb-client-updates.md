@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 为 IT 专业人员提供指向 Skype for Business 2016、Skype for Business 2015 和 Lync 2013 客户端永久版本的最新更新信息的链接
-ms.openlocfilehash: 148f635d081b33a80d6b138b717e87aecdd616c5
-ms.sourcegitcommit: aa3258aeb5aa1296c4bb251a9d258b8896457b7b
+ms.openlocfilehash: 69ff89c856204577c46f27c568f3b6d9cf5613b2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23884187"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374161"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>使用 Windows Installer (MSI) 的 Skype for Business 版本的最新更新
 
@@ -38,6 +38,7 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
   - [Lync Server 2013 系统要求](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
 
 ## <a name="skype-for-business-2016-client-updates"></a>Skype for Business 2016 客户端更新
+
 |软件包名称|KB 编号|发布日期|
 |:---  |:---  |:---  |
 |Skype for Business 2016 安全更新 |[KB 4022221](https://support.microsoft.com/kb/4022221)| 2018 年 7 月 |
@@ -171,19 +172,19 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 
 ### <a name="lync-phone-edition-updates"></a>Lync Phone Edition 更新
 
-软件包名称|KB 编号|发布日期|
-|:--- |:--- |:--- |
-|适用于 Aastra 6721ip 和 Aastra 6725ip 电话的 Lync Phone Edition 的累积更新|[KB 4019527](https://support.microsoft.com/en-us/help/4019527) | 2017 年 4 月 |
-|适用于 HP 4110 和 HP 4120 电话的 Microsoft Lync Phone Edition 的累积更新|[KB 4019528](https://support.microsoft.com/en-us/help/4019528) | 2017 年 4 月 |
-|适用于 Polycom CX500、Polycom CX600 和 Polycom CX3000 电话的 Microsoft Lync Phone Edition 的累积更新|[KB 4019529](https://support.microsoft.com/en-us/help/4019529) | 2017 年 4 月 |
-|适用于 Aastra 6721ip 和 Aastra 6725ip 电话的 Lync Phone Edition 的累积更新|[KB 3050585](https://support.microsoft.com/en-us/kb/3050585) | 2015 年 5 月 |
-|适用于 HP 4110 和 HP 4120 电话的 Lync Phone Edition 的累积更新|[KB 3050587](https://support.microsoft.com/en-us/kb/3050587) | 2015 年 5 月 |
-|适用于 Polycom CX500、Polycom CX600 和 Polycom CX3000 的 Lync Phone Edition 的累积更新|[KB 3050588](https://support.microsoft.com/en-us/kb/3050588) | 2015 年 5 月 |
-|适用于 Polycom CX700 和 LG-Nortel IP Phone 8540 电话的 Lync Phone Edition 的累积更新|[KB 3050590](https://support.microsoft.com/en-us/kb/3050590) | 2015 年 5 月 |
-|适用于 Aastra 6721ip 和 Aastra 6725ip 电话的 Lync Phone Edition 的累积更新 |[KB 2954032](https://support.microsoft.com/kb/2954032) | 2014 年 4 月|
-|适用于 HP 4110 和 HP 4120 电话的 Lync Phone Edition 的累积更新 |[KB 2954033](https://support.microsoft.com/kb/2954033) | 2014 年 4 月||
-|适用于 Polycom CX500、Polycom CX600 和 Polycom CX3000 电话的 Lync Phone Edition 的累积更新 |[KB 2954034](https://support.microsoft.com/kb/2954034) | 2014 年 4 月||
-|适用于 Polycom CX700 和 LG-Nortel IP Phone 8540 电话的 Lync Phone Edition 的累积更新 |[KB 2954035](https://support.microsoft.com/kb/2954035) | 2014 年 4 月||
+| 软件包名称                                                                                                       | KB 编号                                                      | 发布日期 |
+|:-------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|:-------------|
+| 适用于 Aastra 6721ip 和 Aastra 6725ip 电话的 Lync Phone Edition 的累积更新                             | [KB 4019527](https://support.microsoft.com/en-us/help/4019527) | 2017 年 4 月   |
+| 适用于 HP 4110 和 HP 4120 电话的 Microsoft Lync Phone Edition 的累积更新                              | [KB 4019528](https://support.microsoft.com/en-us/help/4019528) | 2017 年 4 月   |
+| 适用于 Polycom CX500、Polycom CX600 和 Polycom CX3000 电话的 Microsoft Lync Phone Edition 的累积更新 | [KB 4019529](https://support.microsoft.com/en-us/help/4019529) | 2017 年 4 月   |
+| 适用于 Aastra 6721ip 和 Aastra 6725ip 电话的 Lync Phone Edition 的累积更新                            | [KB 3050585](https://support.microsoft.com/en-us/kb/3050585)   | 2015 年 5 月     |
+| 适用于 HP 4110 和 HP 4120 电话的 Lync Phone Edition 的累积更新                                        | [KB 3050587](https://support.microsoft.com/en-us/kb/3050587)   | 2015 年 5 月     |
+| 适用于 Polycom CX500、Polycom CX600 和 Polycom CX3000 的 Lync Phone Edition 的累积更新                      | [KB 3050588](https://support.microsoft.com/en-us/kb/3050588)   | 2015 年 5 月     |
+| 适用于 Polycom CX700 和 LG-Nortel IP Phone 8540 电话的 Lync Phone Edition 的累积更新                  | [KB 3050590](https://support.microsoft.com/en-us/kb/3050590)   | 2015 年 5 月     |
+| 适用于 Aastra 6721ip 和 Aastra 6725ip 电话的 Lync Phone Edition 的累积更新                            | [KB 2954032](https://support.microsoft.com/kb/2954032)         | 2014 年 4 月   |
+| 适用于 HP 4110 和 HP 4120 电话的 Lync Phone Edition 的累积更新                                        | [KB 2954033](https://support.microsoft.com/kb/2954033)         | 2014 年 4 月   |
+| 适用于 Polycom CX500、Polycom CX600 和 Polycom CX3000 电话的 Lync Phone Edition 的累积更新           | [KB 2954034](https://support.microsoft.com/kb/2954034)         | 2014 年 4 月   |
+| 适用于 Polycom CX700 和 LG-Nortel IP Phone 8540 电话的 Lync Phone Edition 的累积更新                  | [KB 2954035](https://support.microsoft.com/kb/2954035)         | 2014 年 4 月   |
 
 ### <a name="lync-phone-edition-clients-on-download-center"></a>下载中心上的 Lync Phone Edition 客户端
 
@@ -246,23 +247,24 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 
 ### <a name="attendant"></a>助理
 
-**软件包名称/链接**|发布日期|
-|:--- |:--- |
-|[Lync 2010 Attendant（32 位）](https://www.microsoft.com/download/en/details.aspx?id=10164) | 2010 年 11 月 |
-|[Lync 2010 Attendant（64 位）](https://www.microsoft.com/download/en/details.aspx?id=20084) | 2010 年 11 月 |
+| **软件包名称/链接**                                                                       | 发布日期  |
+|:--------------------------------------------------------------------------------------------|:--------------|
+| [Lync 2010 Attendant（32 位）](https://www.microsoft.com/download/en/details.aspx?id=10164) | 2010 年 11 月 |
+| [Lync 2010 Attendant（64 位）](https://www.microsoft.com/download/en/details.aspx?id=20084) | 2010 年 11 月 |
 
 ### <a name="attendee"></a>与会者
 
-**软件包名称/链接**|发布日期|
-|:--- |:--- |
-|[Lync 2010 Attendee - 管理员级别安装](https://www.microsoft.com/download/en/details.aspx?id=23396) | 2013 年 4 月 |
-|[Lync 2010 Attendee - 用户级别安装](https://www.microsoft.com/download/en/details.aspx?id=15755) | 2014 年 6 月 |
+| **软件包名称/链接**                                                                                   | 发布日期 |
+|:--------------------------------------------------------------------------------------------------------|:-------------|
+| [Lync 2010 Attendee - 管理员级别安装](https://www.microsoft.com/download/en/details.aspx?id=23396) | 2013 年 4 月   |
+| [Lync 2010 Attendee - 用户级别安装](https://www.microsoft.com/download/en/details.aspx?id=15755)  | 2014 年 6 月    |
 
 ### <a name="trial-software"></a>试用版软件
-**软件包名称/链接**|发布日期|
-|:--- |:--- |
-|[Lync 2010 试用版（32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=5484)| 2010 年 11 月 |
-|[Lync 2010 试用版（64 位）](https://www.microsoft.com/en-us/download/details.aspx?id=10400)| 2010 年 11 月 |
+
+| **软件包名称/链接**                                                                       | 发布日期  |
+|:--------------------------------------------------------------------------------------------|:--------------|
+| [Lync 2010 试用版（32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=5484)  | 2010 年 11 月 |
+| [Lync 2010 试用版（64 位）](https://www.microsoft.com/en-us/download/details.aspx?id=10400) | 2010 年 11 月 |
 
 ## <a name="related-topics"></a>相关主题
 

@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: 1296ec96d194be80ae3c48a947a0398f0eefb4e3
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f99c99fc291a2df71a3e47448e3cc8fcf01e371f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860326"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370912"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理员：为单个用户配置 Skype for Business 设置
 
@@ -47,7 +47,7 @@ ms.locfileid: "23860326"
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. Choose **Admin centers** > **Skype for Business**.
+2. 选择 **管理中心** > **Skype for Business** 。
     
 3. 选择" **用户**"。
     
@@ -78,9 +78,9 @@ ms.locfileid: "23860326"
     
 2. 选择" **外部通信**"，然后根据需要清除选项：
     
-  - **外部 Skype for Business 用户**：如果不希望这些用户与联盟域中的 Skype for Business 用户通信，请清除此框。
+   - **外部 Skype for Business 用户**：如果不希望这些用户与联盟域中的 Skype for Business 用户通信，请清除此框。
     
-  - **外部 Skype 用户**：如果不希望这些用户与使用免费 Skype 应用的用户通信，请清除此框。
+   - **外部 Skype 用户**：如果不希望这些用户与使用免费 Skype 应用的用户通信，请清除此框。
     
 3. 单击" **保存**"。
     

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 编辑此对话框中的中介服务器的属性。 左侧为快速链接使您转到设置常规设置、 下一个跃点设置和 PSTN 网关设置一组。 在每个部分包括以下设置：
-ms.openlocfilehash: 262cdcbbbf4c4cfcf35a01de91c88c6511da3360
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: bc26a6b92746e2cf1453d9ee789500011469527f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260473"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375969"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 的中介服务器常规设置扩展器
 
@@ -29,13 +29,13 @@ ms.locfileid: "23260473"
 
 - **关联**： 选择**关联边缘池 （用于媒体组件）** 复选框，然后选择要用作外部访问的媒体路径的边缘服务器或边缘池用于中介服务器。
 
- **下一个跃点**：
+  **下一个跃点**：
 
 - **下一个跃点选择**： 从列表中选择要用作中介服务器的路径，用于与部署的通信的前端服务器或前端池。
 
- **PSTN 网关**：
+  **PSTN 网关**：
 
- **中介服务器 PSTN 网关**：
+  **中介服务器 PSTN 网关**：
 
 - **侦听端口**： 定义中介服务器将侦听的端口。 您可以定义用于**TLS**或传输层安全性或**TCP**的端口或传输控制协议。 可用的 tcp 端口条目，您必须为**启用 TCP 端口**选择复选框。
 

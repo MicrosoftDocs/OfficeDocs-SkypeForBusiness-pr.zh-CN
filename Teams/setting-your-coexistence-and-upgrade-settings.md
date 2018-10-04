@@ -13,12 +13,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a83382ff46e5a698e3755f2c1d2d859dddd65f0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0b89d75f07ecfac6e37f33c27a9272187b0794a6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013198"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371503"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>设置您的共存和升级设置
 
@@ -57,13 +57,13 @@ ms.locfileid: "25013198"
 
 1. 在左侧导航窗格中，转到**用户**，，然后从列表中选择用户。 
 2. 在用户，在**升级团队**、 下的**帐户**选项卡上单击**编辑**。
-- 您可以设置**共存模式**。 选择以下选项：
-    - **使用组织范围的设置**-使用此设置，如果您希望用户使用**组织范围**的设置中的设置。 
-    - **群岛**-使用此设置，如果您希望用户能够使用这两个 Skype 业务和团队。 
-    - **Skype for Business 仅**-使用此设置，如果您希望用户 for Business 使用 Skype。 
-    - 仅团队**团队仅**-使用此设置，如果您希望用户使用。 用户仍可以加入 Skype 业务会议。
-3. 如果您选择任何**共存模式**以外**使用组织范围的设置**，必须启用中用户的 Skype 的通知的业务应用程序升级到团队即将提供的选项。 您可以通过打开**Notify 业务用户 Skype**选项启用此通知用户。
-4. 进行更改后，请单击**保存**。
+3. 您可以设置**共存模式**。 选择以下选项：
+     - **使用组织范围的设置**-使用此设置，如果您希望用户使用**组织范围**的设置中的设置。 
+     - **群岛**-使用此设置，如果您希望用户能够使用这两个 Skype 业务和团队。 
+     - **Skype for Business 仅**-使用此设置，如果您希望用户 for Business 使用 Skype。 
+     - 仅团队**团队仅**-使用此设置，如果您希望用户使用。 用户仍可以加入 Skype 业务会议。
+4. 如果您选择任何**共存模式**以外**使用组织范围的设置**，必须启用中用户的 Skype 的通知的业务应用程序升级到团队即将提供的选项。 您可以通过打开**Notify 业务用户 Skype**选项启用此通知用户。
+5. 进行更改后，请单击**保存**。
 
 ### <a name="related-topics"></a>相关主题
 [规划迁移](upgrade-plan-journey.md)

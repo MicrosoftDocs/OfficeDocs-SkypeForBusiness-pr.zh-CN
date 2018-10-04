@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 摘要： 了解如何管理持久聊天服务器高可用性和灾难恢复 Skype 中的业务服务器 2015年。
-ms.openlocfilehash: 3c3da985f8d68f257257909fbc06e93868233468
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 477897362a01ae3ac6097c50eaed8f9ece31f49d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008221"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371632"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中管理持久聊天服务器的高可用性和灾难恢复
  
@@ -48,15 +48,15 @@ ms.locfileid: "21008221"
   
 1. 取消日志传送从持久聊天服务器备份日志传送数据库。
     
-  - 使用 SQL Server Management Studio，连接到 Persistent Chat Server 备份 mgc 数据库所在的数据库实例。
+   - 使用 SQL Server Management Studio，连接到 Persistent Chat Server 备份 mgc 数据库所在的数据库实例。
     
-  - 打开主数据库的查询窗口。
+   - 打开主数据库的查询窗口。
     
-  - 使用以下命令取消日志传送：
+   - 使用以下命令取消日志传送：
     
-  ```
-  exec sp_delete_log_shipping_secondary_database mgc
-  ```
+   ```
+   exec sp_delete_log_shipping_secondary_database mgc
+   ```
 
 2. 从备份共享将任何未复制的备份文件复制到备份服务器的复制目标文件夹。
     
@@ -64,15 +64,15 @@ ms.locfileid: "21008221"
     
 4. 使备份 mgc 数据库联机。使用在步骤 1b 中打开的查询窗口，执行下列操作：
     
-  - 如果包含以下项，将断开与 mgc 数据库的所有连接：
+   - 如果包含以下项，将断开与 mgc 数据库的所有连接：
     
-  - **exec sp_who2**，用于识别与 mgc 数据库的连接。
+   - **exec sp_who2**，用于识别与 mgc 数据库的连接。
     
-  - **kill \<spid\>** 结束这些连接。
+   - **kill \<spid\>** 结束这些连接。
     
-  - 使数据库联机：
+   - 使数据库联机：
     
-  - **通过恢复还原数据库 mgc**。
+   - **通过恢复还原数据库 mgc**。
     
 5. 在业务 Server Management Shell 的 Skype，使用命令**Set-cspersistentchatstate-Identity"service: atl-cs-001.litwareinc.com"-PoolState FailedOver**故障转移到 mgc 备份数据库。 确保用您的“持久聊天”池的完全限定的域名替换 atl-cs-001.litwareinc.com。
     

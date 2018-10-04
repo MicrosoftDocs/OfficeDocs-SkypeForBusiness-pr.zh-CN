@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要配置的 Microsoft 推送通知和 Apple 推送通知，您必须创建策略，以定义需要哪些类型的推送通知。
-ms.openlocfilehash: 03142994c6d591ec524f6b67b28cb0ad9790fc06
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 96f3b65e522df0629a9e3fca6558442bc7de3792
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003589"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374110"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>移动客户端： 推送通知配置
  
@@ -34,14 +34,14 @@ ms.locfileid: "21003589"
     
 2. **编辑**： 选择一个用法，单击编辑，从下拉列表中选择的操作。 您只能编辑网站您已创建或编辑全局策略：
     
-  - **显示详细信息...**: 显示有关当前所选策略的信息。 您将能够对现有的策略进行更改。
+   - **显示详细信息...**: 显示有关当前所选策略的信息。 您将能够对现有的策略进行更改。
     
-  - **全选**： 如果您具有多个策略，并需要选择所有策略，单击都选择所有
+   - **全选**： 如果您具有多个策略，并需要选择所有策略，单击都选择所有
     
-  - **删除**： 将删除所选的策略。 通过**选择全部**，并**删除**将删除所有策略
+   - **删除**： 将删除所选的策略。 通过**选择全部**，并**删除**将删除所有策略
     
-    > [!NOTE]
-    > 无法删除默认的**全局**策略。 如果您尝试将其删除，将通知您已为默认值返回的全局策略 （即，清除所有设置），但不能删除策略。
+     > [!NOTE]
+     > 无法删除默认的**全局**策略。 如果您尝试将其删除，将通知您已为默认值返回的全局策略 （即，清除所有设置），但不能删除策略。
   
 创建新策略或编辑现有策略相关联两个操作：
   

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: 本主题讨论 for Business 连接到远程虚拟桌面时使用 Skype 的部署过程。
-ms.openlocfilehash: d939d2b269d6488de1df09e3f8aff08e2b83458e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 08f676632e11c4bf95beee9b97be03703978a4a6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986101"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373342"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>部署 Lync VDI 插件与 Skype 业务服务器
  
@@ -50,11 +50,11 @@ ms.locfileid: "20986101"
     
 4. 单击“**本地资源**”选项卡。在“**远程音频**”下，单击“**设置**”，然后执行以下操作：
     
-  - 在“**远程音频播放**”下，选择“**在此计算机上播放**”。
+   - 在“**远程音频播放**”下，选择“**在此计算机上播放**”。
     
-  - 在“**远程音频录制**”下，选择“**不录制**”。
+   - 在“**远程音频录制**”下，选择“**不录制**”。
     
-  - 单击“**确定**”。
+   - 单击“**确定**”。
     
 5. 单击“**体验**”选项卡。在“**性能**”下，清除“**持久位图缓存**”复选框。
     

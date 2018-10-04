@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 description: 持久聊天页的外接程序部分可用于将 Url 与持久聊天聊天室相关联。 这些 URL 将显示在对话可扩展性窗格的聊天室中的客户端中。 管理员必须将外接程序添加到注册的外接程序列表中，且聊天室管理员/创建者必须将聊天室与其中一个注册的外接程序相关联，这样用户才能在其客户端中看到此升级。
-ms.openlocfilehash: 5b8e39e4cd71bdbf1ec6e5e9b93a72b469ce584f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c03566bbf6556917a876744ce9d985ddf25a28ec
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258492"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373048"
 ---
 # <a name="persistent-chat-add-in"></a>持久聊天外接程序
 
@@ -51,9 +51,9 @@ ms.locfileid: "23258492"
 
 6. 在“**新建外接程序**”中，执行下列操作：
 
-  - 在“**名称**”中，指定新外接程序的名称。
+   - 在“**名称**”中，指定新外接程序的名称。
 
-  - 在“**URL**”中，指定与外接程序关联的 URL。URL 将限制为 http 和 https 协议。
+   - 在“**URL**”中，指定与外接程序关联的 URL。URL 将限制为 http 和 https 协议。
 
 7. 单击“**提交**”。
 

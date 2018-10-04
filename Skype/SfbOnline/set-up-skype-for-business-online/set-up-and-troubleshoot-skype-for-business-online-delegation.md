@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 本文介绍如何设置和 Skype 疑难解答业务联机委派。 本文为您提供了有关安装程序建议、 最佳实践和故障排除步骤指南。
-ms.openlocfilehash: bb1f8639d045d156d5095e33a4a012987604c6e1
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 5af84a6731d1f1e95a8d9da70fcd7c2677f36d7d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856486"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370887"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Skype for Business Online 委派设置和疑难解答
 
@@ -89,13 +89,13 @@ ms.locfileid: "23856486"
     
 3. 选择**添加**，请选择您要添加的代理人，然后选择**确定**。
     
- **没有呼叫转移选项卡**
+   **没有呼叫转移选项卡**
   
-1. 在 Outlook 中，选择**文件** > **帐户设置** > **代理访问** > **添加**。
+4. 在 Outlook 中，选择**文件** > **帐户设置** > **代理访问** > **添加**。
     
-2. 找到并添加要委派的人员的名称。
+5. 找到并添加要委派的人员的名称。
     
-3. 选择**日历**菜单，然后选择**编辑器 （可以读取、 创建和修改的项目）**。
+6. 选择**日历**菜单，然后选择**编辑器 （可以读取、 创建和修改的项目）**。
     
 ### <a name="for-mac-clients---lync"></a>For Mac 客户端的 Lync
 

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 您可以通过编辑或配置以下属性编辑前端服务器或前端池的属性。 配置页可分为以下几节：
-ms.openlocfilehash: 85aa22c5a2cb7820ff1828c850f0440653f5b9f5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3af82a83afe27ce06a3c41f881154c2850cad521
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256313"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374200"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 的前端常规设置扩展器
 
@@ -54,13 +54,13 @@ ms.locfileid: "23256313"
 
 - 选择**关联边缘池 (用于媒体组件**复选框以启用此前端服务器或前端池的边缘服务器。 选择复选框后, 从列表中选择一个现有边缘服务器或池，或单击**新建**创建新的边缘服务器或池的定义。
 
- **复原**
+  **复原**
 
 - 选择**关联备份注册器池**复选框，以从列表中选择一个将备份注册器的前端服务器或前端池 (即，指定为辅助注册器前端服务器或前端池的主失败）
 
 - 如果您选择关联备份注册器池，并且选择了备份注册器，您可以用于**自动故障转移和故障回复语音**选中复选框。 现在，您可以定义数字属性**语音故障转移检测内部 （秒）** 和**语音故障回复间隔 （秒）**。 有关详细信息，请参阅[Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
 
- **Web 服务**
+  **Web 服务**
 
 - 若要配置**内部 web 服务**，您定义的**HTTP**和**HTTPS****侦听端口**。 默认情况下，这些 TCP 端口 80 和 TCP 端口 443，分别是。 您还可以用于**HTTP**和**HTTPS**配置**已发布端口**。 默认情况下，这些 TCP 端口 80 和 TCP 端口 443，分别是。 根据您的内部 web 服务配置和使用的负载平衡器 （硬件负载平衡器和 DNS 负载平衡），调整要定义侦听的端口值和已发布的端口。
 
@@ -72,7 +72,7 @@ ms.locfileid: "23256313"
     > [!IMPORTANT]
     > 外部 web 服务定义侦听和已发布的端口供外部客户端和设备。 外部客户端和设备使用侦听的外部 web 服务和发布端口，通常由反向代理以及定义的外部 web 服务完全限定的域名 (FQDN)。 外部 web 服务 FQDN 的关系和简单 Url 定义外部客户端将用于访问的外部用户和设备的可用服务的统一资源定位器 (URL) 地址。 简单 Url 的详细信息，请参阅[Planning for Simple URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)。
 
- **中介服务器**
+  **中介服务器**
 
 - 若要配置**中介服务器**属性并置的中介服务器 （即，在前端服务器或前端池上部署中介服务器），选择**并置中介服务器已启用**。
 

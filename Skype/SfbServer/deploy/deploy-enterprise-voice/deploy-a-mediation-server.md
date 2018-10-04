@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 摘要： 了解如何定义和部署业务服务器在拓扑生成器中 Skype 在中介服务器。
-ms.openlocfilehash: fd83ecb44726f151dea83c19b9745446653ca33b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5e4221230fbaf993b5bf3d2b647e6d7e6e7ada51
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883722"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371919"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>业务服务器部署在拓扑生成器中 Skype 在中介服务器
  
@@ -79,8 +79,8 @@ Skype 业务服务器 （中介服务器上的前端池或独立的中介服务�
     
    - 如果您想要部署多台中介服务器池中提供高可用性，然后选择**多计算机池**。
     
-    > [!NOTE]
-    > 您必须[部署](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing)以支持有多个中介服务器的中介服务器池。
+     > [!NOTE]
+     > 您必须[部署](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing)以支持有多个中介服务器的中介服务器池。
   
    - 如果您想要部署在池中只有一台中介服务器，因为不要求具备高可用性，然后选择**单计算机池**。 跳过以下步骤。
     

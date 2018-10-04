@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 摘要： 了解如何为业务服务器 Skype 创建会议策略。
-ms.openlocfilehash: 3c71962e42e083ada13b14bdecbefafbbc44f72b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4a481d8853fdb8f022da3539c5ebeb49c3b49402
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996599"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372285"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>为 Business Server Skype 创建会议策略
  
@@ -26,7 +26,7 @@ ms.locfileid: "20996599"
 
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2.  打开 Skype 业务 Server Control Panel。
+2. 打开 Skype 业务 Server Control Panel。
     
 3. 在左侧导航栏中，单击“**会议**”，然后单击“**会议策略**”。
     
@@ -36,8 +36,8 @@ ms.locfileid: "20996599"
     
    - 要创建站点级别的策略，请单击“**站点策略**”。在“**选择站点**”搜索字段中，键入要为其创建策略的站点的全部或部分名称。在站点列表中，单击所需的站点，然后单击“**确定**”。
     
-    > [!NOTE]
-    > 站点名称将成为会议策略名称；该名称无法更改。 
+     > [!NOTE]
+     > 站点名称将成为会议策略名称；该名称无法更改。 
   
 5. 在“**说明**”中，键入策略的说明。
     

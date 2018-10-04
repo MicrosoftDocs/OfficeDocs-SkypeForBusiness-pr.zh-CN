@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 本文介绍的基础结构准备部署 Skype 会议室系统 v2。
-ms.openlocfilehash: 8b31889d70dae54736648905204b721127b668f1
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 24ad623b81df5735c9034d8526e6b028e82dfb83
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965980"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371880"
 ---
 # <a name="prepare-your-environment"></a>准备您的环境
 
@@ -26,24 +26,24 @@ ms.locfileid: "23965980"
     
 2. 确保有运行良好的网络/Internet 连接可供设备使用。 
     
-  - 它必须能够接收 IP 地址使用 DHCP (注意： Skype 会议室系统 v2 不能配置静态 IP 地址在第一个单元启动时使用)
+   - 它必须能够接收 IP 地址使用 DHCP (注意： Skype 会议室系统 v2 不能配置静态 IP 地址在第一个单元启动时使用)
     
-  - 除了打开用于 Skype for Business 媒体的常规端口之外，还必须打开以下端口：
+   - 除了打开用于 Skype for Business 媒体的常规端口之外，还必须打开以下端口：
     
-  - HTTPS：443
+   - HTTPS：443
     
-  - HTTP：80
+   - HTTP：80
     
-  - 如果你的网络通过代理运行，则还需要提供代理地址或脚本信息。
+   - 如果你的网络通过代理运行，则还需要提供代理地址或脚本信息。
     
-    > [!NOTE]
-    > V2 不支持 HDCP 输入，观察到与 HDMI 会导致问题的 Skype 会议室系统接收功能 （视频、 音频）。 注意确保交换机连接到 Skype 会议室系统 v2 已关闭的 HDCP 选项。 
+     > [!NOTE]
+     > V2 不支持 HDCP 输入，观察到与 HDMI 会导致问题的 Skype 会议室系统接收功能 （视频、 音频）。 注意确保交换机连接到 Skype 会议室系统 v2 已关闭的 HDCP 选项。 
   
 3. 为了改进你的体验，Microsoft 将收集数据。为了收集数据，我们需要将以下网站列入允许名单：
     
-  - 遥测客户端终结点：https://vortex.data.microsoft.com/
+   - 遥测客户端终结点：https://vortex.data.microsoft.com/
     
-  - 遥测设置终结点：https://settings.data.microsoft.com/
+   - 遥测设置终结点：https://settings.data.microsoft.com/
     
 ### <a name="create-and-test-a-device-account"></a>创建和测试设备帐户
 

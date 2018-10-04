@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 摘要： 了解有关监控仪表板中 Skype 业务服务器。
-ms.openlocfilehash: a3896f7ed80ec058c2ed2476e98ce61f85e78229
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e12c9faed684121def2e1a4b175f2f7a9fcb534e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969387"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375271"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>在 Skype 业务服务器使用监控仪表板
  
@@ -42,7 +42,7 @@ Get-CsReportingConfiguration
   
 - 唯一用户登录
     
- **对等**
+  **对等**
   
 - 会话总数
     
@@ -58,7 +58,7 @@ Get-CsReportingConfiguration
     
 - 音频会话平均分钟数
     
- **会议**
+  **会议**
   
 - 会议总数
     
@@ -92,7 +92,7 @@ Get-CsReportingConfiguration
     
 - 呼叫失败的会议组织者
     
- **劣质呼叫的用户**
+  **劣质呼叫的用户**
   
 - 遇到劣质呼叫的用户总数
     

@@ -10,92 +10,92 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 摘要： 了解如何在 Skype for Business Server 2015 配置持久聊天服务器合规性服务。
-ms.openlocfilehash: e41afe6b9d6d36a73d818af7fc297e7b20006dcf
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8d6fff09a59870c8550627bcf4222192e405c871
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026614"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375927"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>为 Skype for Business Server 2015 中的持久聊天服务器配置合规性服务
- 
+
 **摘要：** 了解如何在 Skype for Business Server 2015 配置持久聊天服务器合规性服务。
-  
+
 持久聊天合规性允许管理员保留持久聊天消息和活动的存档。 合规性服务记录并存档与每个持久聊天服务器对话，包括当参与者相关的数据：
-  
+
 - 加入持久聊天聊天室
-    
+
 - 离开聊天室
-    
+
 - 发布消息
-    
+
 - 查看聊天历史记录
-    
+
 - 上载文件
-    
+
 - 下载文件
-    
+
 可根据需要，从合规性 SQL 数据库检索此信息。 
 
 > [!NOTE]
 > 持久聊天中的业务服务器 2015 Skype 可用但业务服务器 2019年不再支持在 Skype。 中团队提供了相同的功能。 有关详细信息，请参阅[从企业对 Microsoft 团队的 Skype 旅程](/microsoftteams/journey-skypeforbusiness-teams)。 如果您需要使用持久聊天，您的选择是也迁移要求给团队，此功能的用户或继续对业务服务器 2015年使用 Skype。 
-  
+
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>使用 Windows PowerShell 配置合规性服务
 
 使用拓扑生成器启用合规性服务后，您可以使用 **Set-CsPersistenChatComplianceConfiguration** cmdlet 配置服务：
-  
+
 ```
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
 ```
 
 或者
-  
+
 ```
 Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAMETERS>
 ```
 
 您可以设置以下参数：
-  
+
 - AdapterType - 允许您指定适配器类型。 适配器是一个第三方产品，可将合规性数据库中的数据转换为特定格式。 XML 为默认格式。
-    
+
 - OneChatRoomPerOutputFile-此参数允许您指定的分隔每个聊天室创建的报告。
-    
+
 - AddChatRoomDetails - 启用时，此参数会在数据库中记录有关每个聊天室的其他详细信息。 由于此设置可大幅增加数据库的规模，默认将予以禁用。
-    
+
 - AddUserDetails - 启用时，此参数会在数据库中记录有关每个聊天室用户的其他详细信息。 由于此设置可大幅增加数据库的规模，默认将予以禁用。
-    
+
 - Identity - 此参数允许将合规性设置的作用范围限定为特定的集合，包括全局、站点和服务级别。 默认为全局级别。 
-    
+
 - RunInterval - 此参数确定了在服务器创建下一个合规性输出文件之前的时间量（默认为 15 分钟）。
-    
+
 ## <a name="use-a-customized-compliance-adapter"></a>使用自定义的合规性适配器
 
 您可以编写自定义而不是使用随持久聊天服务器一起安装 XmlAdapter 适配器。 若要实现此目的，您必须提供包含实现 **IComplianceAdapter** 接口的公共类的 .NET Framework 程序集。 您必须先在每台服务器的持久聊天服务器安装文件夹中将此程序集，在持久聊天服务器池。 任一合规性服务器都可以为您的适配器提供合规性数据，但合规性服务器不会为您的适配器的多个实例提供重复的合规性数据。
-  
+
 Compliance.dll 程序集中的命名空间中定义接口`Microsoft.Rtc.Internal.Chat.Server.Compliance`。 该接口定义您的自定义适配器必须实现的两种方法。
-  
+
 首次加载适配器时，持久聊天合规性服务器将调用以下方法。 `AdapterConfig`包含与合规性适配器相关的持久聊天合规性配置：
-  
+
 ```
 void SetConfig(AdapterConfig config)
 ```
 
 持久聊天合规性服务器定期调用以下方法，只要没有要翻译的新数据。 此时间间隔等于`RunInterval`中的持久聊天合规性配置设置：
-  
+
 ```
 void Translate(ConversationCollection conversations)
 ```
 
 `ConversationCollection`包含的上次调用此方法时收集的对话信息。
-  
+
 ## <a name="customize-the-xslt-definition-file"></a>自定义 XSLT 定义文件
 
 合规性数据以 XML 格式（可通过 XSLT 定义文件将其转换为最适合组织的格式）传送。本主题介绍合规性服务创建的 XML 文件。它还提供 XSLT 定义和输出文件的示例。
-  
+
 ### <a name="output-format"></a>输出格式
 
 合规性服务输出按对话（Conversation 元素）进行分类，然后再按消息（Messages 元素）分类，如以下代码示例所示：
-  
+
 ```
 <?xml version="1.0" encoding="utf-8" ?> 
 <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -112,7 +112,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 一个 Conversation 元素包含四个元素（Channel、FirstMessage、StartTimeUTC 和 EndTimeUTC）。Channel 元素包含聊天室的统一资源标识符 (URI)，而 FirstMessage 元素描述 Messages 元素中的第一条消息。StartTimeUTC 和 EndTimeUTC 元素提供对话的开始和结束时间，如以下代码示例所示：
-  
+
 ```
 <<FirstMessage type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -121,7 +121,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 一个 Message 元素包含两个元素（Sender 和 DateTimeUTC）和三个属性（Type、Content 和 ID）。Sender 元素表示发送消息的用户，而 DateTimeUTC 元素表示事件发生的时间，如以下代码示例所示：
-  
+
 ```
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -130,7 +130,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 下表描述了消息属性类型、内容和 ID。
-  
+
 **Messages 元素属性**
 
 |**属性**|**说明**|**可选/必需**|
@@ -138,9 +138,9 @@ void Translate(ConversationCollection conversations)
 |类型  <br/> |指定消息类型。消息类型将在" Message 元素消息类型"表中进行介绍。  <br/> |是否必需  <br/> |
 |内容  <br/> |包含消息的内容。具有 Join 或 Part 类型的消息不使用此属性。  <br/> |可选  <br/> |
 |ID  <br/> |指定内容的唯一 ID。此属性仅用于具有 Chat 类型的消息。  <br/> |可选  <br/> |
-   
+
 每个 Sender 元素包含五个属性：用户名、ID、电子邮件、Internal 和 URI。这些属性将在下表中进行介绍。
-  
+
 **Sender 元素属性**
 
 |**属性**|**说明**|**可选/必需**|
@@ -150,11 +150,11 @@ void Translate(ConversationCollection conversations)
 |电子邮件  <br/> |发件人的电子邮件地址。  <br/> |可选  <br/> |
 |内部  <br/> |确定用户是内部用户还是联盟用户。如果值设为 True，则用户为内部用户。  <br/> |可选  <br/> |
 |Uri  <br/> |用户的 SIP URI。  <br/> |必需  <br/> |
-   
+
 下面的示例演示了 Messages 元素可以包含邮件类型。 它还提供了如何使用每个元素的示例。
-  
+
 加入的用户加入聊天室。
-  
+
 ```
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -163,7 +163,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 部件-用户离开聊天室。
-  
+
 ```
 <Message type="PART" content="" id="0">
   < Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -172,7 +172,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 聊天-发件人的电子邮件地址。
-  
+
 ```
 <Message type="CHAT" content="hello" id="1">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -181,7 +181,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 聊天记录-用户请求聊天历史记录中的内容。
-  
+
 ```
 <Message type="BACKCHAT" content="backchatcontent" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -190,7 +190,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 文件上载-用户上载文件。
-  
+
 ```
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -199,7 +199,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 文件下载-用户下载文件。
-  
+
 ```
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
   <Sender UserName="kazuto@litwareinc.com" id="10" email="" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -210,7 +210,7 @@ void Translate(ConversationCollection conversations)
 ### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>默认持久聊天输出 XSD 和示例 XSL 转换
 
 以下代码示例包含合规性服务器中的默认输出：
-  
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="Conversations" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -224,7 +224,7 @@ void Translate(ConversationCollection conversations)
         <xs:enumeration value="FILEDOWNLOAD"/>
       </xs:restriction>
     </xs:simpleType>
-  
+
   <xs:element name="Sender">
     <xs:complexType>
       <xs:attribute name="UserName" type="xs:string" />
@@ -309,7 +309,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 以下代码示例包含一个示例 XSL 转换：
-  
+
 ```
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
    <xsl:output method="xml" encoding="UTF-8" indent="yes" />
@@ -378,5 +378,4 @@ void Translate(ConversationCollection conversations)
       <DateTimeUTC><xsl:value-of select="DateTimeUTC/@since1970" /></DateTimeUTC>
    </xsl:template>
 </xsl:stylesheet>
-
 ```

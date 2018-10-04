@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 摘要： 在 Exchange Server 2016 或 Exchange Server 2013 和 Skype for Business Server 配置使用高分辨率照片。
-ms.openlocfilehash: 224c8dc238d8427deddc706b883614fd04c9b133
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 47e9e0f4d2d1c49a7d3fe916cbffa8e87d1b277b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21007235"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375853"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>在 Skype for Business Server 中配置使用高分辨率照片
  
@@ -37,7 +37,7 @@ ms.locfileid: "21007235"
   
 ```
 $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
-Set-UserPhoto -Identity "Ken Myer" -PictureData -Preview $photo -Confirm:$False
+Set-UserPhoto -Identity "Ken Myer" -PictureData $photo -Preview -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 

@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: 50f313fcbc68fc28d0b1bc65482b6c14cb1d59b0
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b2b69ec2eaa9fa2ace90ad117d866b00cb75f163
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851690"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370936"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>设置 Skype for Business Online 安装
 
@@ -39,11 +39,11 @@ ms.locfileid: "23851690"
 ## <a name="what-do-you-want-to-do"></a>你要做什么？
 
 > [设置测试帐户](test-your-skype-for-business-online-installation.md#__toc328126910)
-
+> 
 > [设置测试计算机](test-your-skype-for-business-online-installation.md#__toc328126911)
-
+> 
 > [设置音频会议](test-your-skype-for-business-online-installation.md#__toc328126912)
-
+> 
 > [测试 Skype for Business Online 功能和设备](test-your-skype-for-business-online-installation.md#__toc328126913)
 
 ## <a name="set-up-test-accounts"></a>设置测试帐户

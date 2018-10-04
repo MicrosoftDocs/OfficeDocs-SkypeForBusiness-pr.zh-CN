@@ -4,12 +4,12 @@ hide_bc: true
 title: Microsoft Teams 文档和实践指导
 description: Microsoft Teams 文档和实践指导
 ms.topic: hub-page
-ms.openlocfilehash: 6f4ba9227e383039968e9fa84321c9ec0628d7f5
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 60f174ab661537e398292ac222ceae839e373fac
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23843778"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372385"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -109,7 +109,7 @@ ms.locfileid: "23843778"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>安全性 &amp; 合规性</h3>
-                                                    <p>Teams 在 Office 365 云上构建，这意味着它具有你需要的企业级安全性和合规性</p>
+                                                    <p>团队基于 Office 365 云，这意味着该功能的企业级安全性&amp;所需的合规性</p>
                                                 </div>
                                             </div>
                                         </div>

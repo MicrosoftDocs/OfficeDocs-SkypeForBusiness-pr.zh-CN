@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文讨论中 Skype 会议室系统 v2 累积改进。
-ms.openlocfilehash: af4f7621f9b5a70bc9b8a7ce87e50a6e6791ea63
-ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
+ms.openlocfilehash: ddcc4da301d491d763baf736053fd8eaeaee1b87
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25358977"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375504"
 ---
 # <a name="release-notes"></a>发行说明 
 
@@ -161,7 +161,7 @@ Introduced in this update:
 - 从目录中（在此可立即看到用户的状态）或通过电话呼叫邀请用户
 - 支持 Skype for Business PSTN 会议和 PSTN 呼叫，以替代会议室中的单独会议电话
     
- **转换任何会议室**
+  **转换任何会议室**
   
 - 专用的 Skype 会议应用针对桌面中心触摸式控制器和会议室前方的大型显示屏进行了优化
 - 重用会议室显示屏和投影仪的现有投资
@@ -169,7 +169,7 @@ Introduced in this update:
 - 经认证的 Skype for Business 音频和视频设备可用于各种规模的会议室
 - 内置的有线采集可用于将桌面共享投影到会议室和 Skype 会议
     
- **易于部署、便于管理**
+  **易于部署、便于管理**
   
 - 常开式设备会在检测到会议室中有人时自动唤醒显示屏
 - UWP（通用 Windows 平台）Skype 会议应用的部署和更新都非常简单

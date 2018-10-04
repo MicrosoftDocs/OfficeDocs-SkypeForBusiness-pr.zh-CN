@@ -8,12 +8,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: 本文将指导您完成配置用于 Mobility service，允许您的移动设备能够利用业务服务器移动功能的 Skype 业务服务器安装现有 Skype 的步骤。
-ms.openlocfilehash: c8d30f11fed3b6c45f06b7e21f0038bee0274df4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2afd462638eb6ed97f6efb694aa74994f2d59727
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003136"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375444"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>部署和配置 Mobility Skype 业务服务器  
  
@@ -34,7 +34,7 @@ ms.locfileid: "21003136"
 以下所有部分都包含假定你已阅读规划主题的步骤。如果有任何让你感到困惑的地方，请随时查阅此处的信息。
 
 > [!NOTE]
-> MCX 旧的移动客户端支持不再可用的业务服务器 2019 Skype 中。 您的用户需要升级到当前客户端。
+> MCX (Mobility Service) 支持旧的移动客户端的不再可用的业务服务器 2019 Skype 中。 业务移动客户端的所有当前 Skype 已使用统一通信 Web API (UCWA) 来支持即时消息 (IM)、 状态和联系人。 与使用 MCX 的旧客户端的用户需要升级到当前客户端。
   
 ## <a name="create-dns-records"></a>创建 DNS 记录
 <a name="CreateDNSRec"> </a>
@@ -247,7 +247,7 @@ ms.locfileid: "21003136"
     
    - 如果已分配 lyncdiscover。\<sipdomain\>和 lyncdiscoverinternal。\<sipdomain\>记录。
     
-    如果分配有多个证书，你需要对其进行检查（查看上述备注）。
+     如果分配有多个证书，你需要对其进行检查（查看上述备注）。
     
 8. 因此，如果您发现 lyncdiscover。\<sipdomain\>和 lyncdiscoverinternal。\<sipdomain\>记录，您就得到这已经配置。 你可以关闭 MMC。
     
@@ -307,7 +307,7 @@ Microsoft 产品，作为不再提供 TMG 和如果仍需要对其进行配置�
     
    - 您将需要发布**内部发布**，应用程序的路径，然后在前端池的负载平衡器 （或如果您具有的控制器池的负载平衡器的 FQDN） 的外部 Web 服务输入的 FQDN，示例将是 sfb_pool01.contoso.local。
     
-   - 您应键入**/**，要发布的路径，但您还需要为**转发原始主机头**。
+   - 您应键入**/*** 根据要发布的路径，但您还需要为**转发原始主机头**。
     
    - 有一个**公共或外部名称**详细信息或信息的选项。你可在其中输入以下内容：
     
@@ -315,7 +315,7 @@ Microsoft 产品，作为不再提供 TMG 和如果仍需要对其进行配置�
     
    - 对于**名称**，你应输入 **lyncdiscover.** <sipdomain>（这是外部自动发现服务 URL）。 现在，如果您正在为前端池上的外部 Web 服务 URL 创建规则，您需要键入您的前端池 (例如，lyncwebextpool01.contoso.com) 上的外部 Web 服务的 FQDN。
     
-   - 将**路径**选项中，而您需要输入**/** 此处。
+   - 将**路径**选项中，而您需要输入**/*** 此处。
     
    - 你需要选择具有最新公共证书的 **SSL 侦听器**。
     
@@ -353,7 +353,7 @@ Microsoft 产品，作为不再提供 TMG 和如果仍需要对其进行配置�
     
    - 您将需要针对**内部发布**，发布一条路径，然后为前端池的负载平衡器的**VIP 地址**输入的 FQDN，sfb_pool01.contoso.local 就是一个示例。
     
-   - 您应键入**/**，要发布的路径，但您还需要为**转发原始主机头**。
+   - 您应键入**/*** 根据要发布的路径，但您还需要为**转发原始主机头**。
     
    - 有一个**公共或外部名称**详细信息或信息的选项。你可在其中输入以下内容：
     
@@ -361,7 +361,7 @@ Microsoft 产品，作为不再提供 TMG 和如果仍需要对其进行配置�
     
    - 对于**名称**，你应输入 **lyncdiscover.** <sipdomain>（这是外部自动发现服务 URL）。
     
-   - 将**路径**选项中，而您需要输入**/** 此处。
+   - 将**路径**选项中，而您需要输入**/*** 此处。
     
    - 您将需要选择 web 侦听器，或允许您创建一个用于您的反向代理。
     
@@ -390,15 +390,15 @@ Microsoft 产品，作为不再提供 TMG 和如果仍需要对其进行配置�
     
 2. 运行以下命令以获取您的业务服务器环境的 Skype 属性**ProxyFQDN**的值：
     
-  ```
-  Get-CsHostingProvider
-  ```
+   ```
+   Get-CsHostingProvider
+   ```
 
 3. 然后，仍在 shell 窗口中，运行：
     
-  ```
-  Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
-  ```
+   ```
+   Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
+   ```
 
     其中 [identity] 使用共享 SIP 地址空间的域名替换。
     
@@ -410,7 +410,7 @@ Microsoft 产品，作为不再提供 TMG 和如果仍需要对其进行配置�
 对于业务服务器 2015年的 Skype 上的 Lync Server 2010 客户端，您需要运行**Test-CsMcxP2PIM**以测试。 Lync Server 2010 用户仍需要是实际的用户或预定义的测试用户，您将需要凭据的密码。
 
 > [!NOTE]
-> MCX 旧的移动客户端支持不再可用的业务服务器 2019 Skype 中。 您的用户需要升级到当前客户端。
+> MCX (Mobility Service) 支持旧的移动客户端的不再可用的业务服务器 2019 Skype 中。 业务移动客户端的所有当前 Skype 已使用统一通信 Web API (UCWA) 来支持即时消息 (IM)、 状态和联系人。 与使用 MCX 的旧客户端的用户需要升级到当前客户端。
   
 ### <a name="test-conferencing-for-skype-for-business-and-lync-2013-mobile-clients"></a>测试 Skype for Business 和 Lync 2013 移动客户端的会议功能
 
@@ -437,7 +437,7 @@ Microsoft 产品，作为不再提供 TMG 和如果仍需要对其进行配置�
 ### <a name="test-conferencing-for-lync-2010-mobile-clients"></a>测试 Lync 2010 移动客户端的会议功能
 
 > [!NOTE]
-> MCX 旧的移动客户端支持不再可用的业务服务器 2019 Skype 中。 您的用户需要升级到当前客户端。
+> MCX (Mobility Service) 支持旧的移动客户端的不再可用的业务服务器 2019 Skype 中。 业务移动客户端的所有当前 Skype 已使用统一通信 Web API (UCWA) 来支持即时消息 (IM)、 状态和联系人。 与使用 MCX 的旧客户端的用户需要升级到当前客户端。
 
 1. 安装**Business Server Management Shell 的 Skype**和**Ocscore**的任何计算机上**以 CsAdministrator**角色成员身份登录。
     
@@ -451,13 +451,13 @@ Microsoft 产品，作为不再提供 TMG 和如果仍需要对其进行配置�
 
    还可以在脚本中设置凭据并将这些凭据传送给测试 cmdlet。示例如下。
     
-  ```
-  $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
-  $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
-  $tuc1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
-  $tuc2 = New-Object Management.Automation.PSCredential("contoso\UserName2", $passwd2)
-  Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
-  ```
+   ```
+   $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
+   $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
+   $tuc1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
+   $tuc2 = New-Object Management.Automation.PSCredential("contoso\UserName2", $passwd2)
+   Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
+   ```
 
 若要查看命令过程此外，您可以签出[Test-csucwaconference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps)和[Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps)。
   

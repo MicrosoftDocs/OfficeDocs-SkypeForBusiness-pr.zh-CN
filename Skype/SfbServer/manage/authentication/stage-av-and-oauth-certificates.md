@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 摘要： 业务服务器 Skype 的阶段 AV 和 OAuth 证书。
-ms.openlocfilehash: 3f616d7e67cf256cbf2a53ea86b3f051d959d4f5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9fd4074034e9bff6b27ed9a22143c59dc9890821
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996421"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375934"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>为业务服务器阶段中 Skype AV 和 OAuth 证书使用在 Set-cscertificate 中的滚动分期
  
@@ -60,19 +60,19 @@ A/V 身份验证服务负责颁发供客户端和其他 A/V 使用者使用的�
   
     Set-cscertificate 命令与-Roll 和-EffectiveTime 参数：
     
-  ```
-  Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
+   ```
+   Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
           <thumb print of new certificate> -Roll -EffectiveDate <date and time
           for certificate to become active>
-  ```
+   ```
 
     Set-CsCertificate 命令示例：
     
-  ```
-  Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
+   ```
+   Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
           "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/22/2015
           6:00:00 AM"
-  ```
+   ```
 
     > [!IMPORTANT]
     > EffectiveDate 必须要设置格式，以匹配您的服务器的区域和语言设置。 本例使用美国英语区域和语言设置 
@@ -106,11 +106,11 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
     
     Set-cscertificate 命令与-Roll 和-EffectiveTime 参数：
     
-  ```
-  Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb
+   ```
+   Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb
           print of new certificate> -Roll -EffectiveDate <date and time for
           certificate to become active> -identity Global 
-  ```
+   ```
 
 Set-CsCertificate 命令示例：
     

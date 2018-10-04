@@ -20,12 +20,12 @@ f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
 description: '了解如何设置电话号码，当您对业务的 Skype 端口它们。 '
-ms.openlocfilehash: 8d214ea7cf21ea713de28763f36b9995160fb395
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 62f9fb98378bfa7802013399d3d9b005047e663d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958138"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374084"
 ---
 # <a name="how-should-i-enter-the-phone-numbers"></a>我应该如何输入电话号码？
 
@@ -82,10 +82,10 @@ ms.locfileid: "24958138"
     
   - "-"用于仅分隔的两个数字。 它不支持以包括多个"-"中的号码范围。 例如，应作为输入 **(425) 555-0649-(425) 555-1115** **(425) 5550649-（425) 5551115**。
     
- **有关完整的分步说明，请参阅[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)。**
+  **有关完整的分步说明，请参阅[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)。**
 
- > [!NOTE]
-> 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+  > [!NOTE]
+  > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
   
 ## <a name="related-topics"></a>相关主题

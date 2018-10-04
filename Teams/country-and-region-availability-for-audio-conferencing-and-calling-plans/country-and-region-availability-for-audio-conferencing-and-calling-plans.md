@@ -28,12 +28,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 你可以选择某个国家/地区以查看音频会议、电话系统、通话套餐、通信点数以及收费和免费电话号码是否可用。
-ms.openlocfilehash: c705feab5ab0288fb496544c76ce7346de3bb9d5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: bc39b239128ffacea5c4d58d1055f57d5088fb11
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013648"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372482"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -136,7 +136,7 @@ ms.locfileid: "25013648"
 如果你想查看某项 Skype for Business 或 Microsoft Teams 服务是否可用，你可以查看 [Skype for Business 和 Microsoft Teams 外接程序许可](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)，以帮助你购买许可证并分配给用户。
 
 > [!NOTE]
-
+> 
 > 如果您需要为您的用户获取更多的电话号码，请参阅[Getting 电话号码为用户](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)或电话号码请求窗体、[管理您的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
 

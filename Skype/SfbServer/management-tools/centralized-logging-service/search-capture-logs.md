@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 摘要： 了解如何搜索和业务服务器 2015年阅读 Centralized Logging Service 中 Skype 的捕获日志。
-ms.openlocfilehash: 4016aeaac5b693ceef620dad66031254f208bfbf
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9429ef0f2c14552c615e4d7f81c497ea9bb546f3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969016"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372217"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中搜索集中日志记录服务创建的捕获日志
  
@@ -56,9 +56,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. 确保 AlwaysOn 方案在部署中的全局范围内运行，然后在命令提示符处键入以下内容：
     
-  ```
-  Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
-  ```
+   ```
+   Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
+   ```
 
 > [!NOTE]
 > 默认情况下，Search-CsClsLogging 将搜索结果发送至控制台。 如果您想要将搜索结果保存到文件，使用-OutputFilePath_\<字符串完全限定的文件路径\>_。 若要定义-OutputFilePath 参数，提供的路径和文件名 （例如; 括在引号的字符串格式中的参数的一部分C:\LogFiles\SearchOutput.txt)。 在此示例中，必须确保目录 C:\LogFiles 存在，并且您有权在该文件夹中读取和写入（NTFS 权限修改）文件。 输出将进行追加而不会被覆盖。 如果需要不同文件，请为每个搜索定义不同文件名。 
@@ -73,9 +73,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 1. 若要限制到特定的池或计算机的搜索，请使用与计算机由计算机的完全限定名称定义和括在引号内，如下所示并用逗号分隔-Computers 参数：
     
-  ```
-  Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
-  ```
+   ```
+   Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
+   ```
 
 例如：
     
@@ -85,25 +85,25 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. 若要搜索多台计算机，请键入用引号括起并用逗号隔开的多个计算机名称，例如：
     
-  ```
-  Search-CsClsLogging -Computers "fe01.contoso.net", "fe02.contoso.net", "fe03.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Computers "fe01.contoso.net", "fe02.contoso.net", "fe03.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
+   ```
 
 3. 如果您需要搜索整个池而不是一台计算机，更改为-池、 删除计算机名和替换-Computers 参数它与池或在引号内的池以逗号分隔。
     
     例如：
     
-  ```
-  Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 4. 在使用搜索命令时，池可以是在部署中，如前端池、 边缘池、 持久聊天服务器池，或为池部署中定义的其他任何池。
     
     例如：
     
-  ```
-  Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>使用时间参数运行搜索
 
@@ -113,9 +113,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
     例如，通过使用-StartTime 和-EndTime 定义的日期和时间范围，您可以定义搜索上午 8 和 9 AM 之间在 2012 年 11/20 池上。 可以设置输出路径，以将结果写入名为 c:\logfile.txt 的文件，如下所示：
     
-  ```
-  Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 > [!NOTE]
 > 您指定的时间和日期字符串可以为“日期时间”或“时间日期”。 "该命令将分析字符串，并对日期和时间以及您运行的 cmdlet 的计算机上的区域设置和区域性设置使用适当的值。 
@@ -142,9 +142,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. 若要运行命令以收集特定组件的跟踪，请键入以下命令：
     
-  ```
-  Search-CsClsLogging -Components <components to search on> -OutputFilePath <fully qualified path to output logs>
-  ```
+   ```
+   Search-CsClsLogging -Components <components to search on> -OutputFilePath <fully qualified path to output logs>
+   ```
 
 例如：
     
@@ -156,21 +156,21 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 3. 若要限制具有到刚名为 pool01.contoso.net 您前端池的相同组件的搜索，请键入：
     
-  ```
-  Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 4. 使用多个参数的命令的默认搜索逻辑是将逻辑 OR 用于每个已定义参数。 您可以通过指定 **-MatchAll**参数来更改此行为。 为此，请键入以下内容：
     
-  ```
-  Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 5. 如果您的方案设置为经常运行（例如 AlwaysOn）或您已定义长期运行的方案，则日志可能从本地计算机转到文件共享中。通过使用 New-CsClsConfiguration 创建新配置或用 Set-CsClsConfiguration 修改现有配置，可使用 CacheFileNetworkFolder 参数定义文件共享。如果不希望搜索将文件共享包括在要搜索的日志集合中，请按如下所示使用 SkipNetworkLogs 参数：
     
-  ```
-  Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 ## <a name="read-capture-logs-from-the-centralized-logging-service"></a>从集中日志记录服务读取捕获的日志
 

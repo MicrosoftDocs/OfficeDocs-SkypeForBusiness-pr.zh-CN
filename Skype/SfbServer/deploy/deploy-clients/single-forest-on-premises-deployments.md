@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: 阅读本主题，了解如何在单林本地环境中部署 Skype 会议室系统。
-ms.openlocfilehash: 8c931aca8505aa4d41175dbf5e1a138b668323d0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a0c3f76d94e54c616068303a08e4e4254f5f8347
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967903"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375299"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype 会议室系统单林本地部署
  
@@ -30,17 +30,17 @@ ms.locfileid: "20967903"
   
 1. 运行以下 Exchange 管理 PowerShell 命令：
     
-  ```
-  Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-  ```
+   ```
+   Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   ```
 
 2. 如果你计划创建新邮箱，对于单林本地 Exchange 组织，请运行以下命令：
     
-  ```
-  New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-  ```
+   ```
+   New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   ```
 
-  上述示例在 Active Directory 中创建启用的用户帐户，并为本地 Exchange 组织中的会议室创建会议室邮箱。RoomMailboxPassword 参数指定用户帐户的密码。
+   上述示例在 Active Directory 中创建启用的用户帐户，并为本地 Exchange 组织中的会议室创建会议室邮箱。RoomMailboxPassword 参数指定用户帐户的密码。
     
 3. 请将帐户配置为通过接受/拒绝会议来自动解决冲突。 Skype 会议室系统配备的会议室中 Exchange 帐户可以管理由个人，但请注意，各接受会议之前，则不显示 Skype 会议室系统主屏幕日历。
     

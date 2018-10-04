@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: 创建或删除 Skype 中为 Business Server 企业语音的通知应用程序的通知。 这将影响如何处理打给未分配号码的呼叫。
-ms.openlocfilehash: 63d64bb09c24609ebb05c6de879bd1fe0e92d093
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: cbdcaed3d5908b76f0932f3461dfc21716f74b32
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887393"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372292"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>创建或删除业务服务器中 Skype 通知
 
@@ -81,7 +81,7 @@ ms.locfileid: "23887393"
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-  有关这些 cmdlet，以及查看要在**TextToSpeechPrompt**参数中使用的语言代码的列表的详细信息，请参阅[New-csannouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)。
+   有关这些 cmdlet，以及查看要在**TextToSpeechPrompt**参数中使用的语言代码的列表的详细信息，请参阅[New-csannouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)。
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>删除未分配号码的通知
 

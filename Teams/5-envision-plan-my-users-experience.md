@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fa7f3450f563dad6be2bfc857724e7c6fe2ba16
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 76bacfe85fce14b2d5b1469295134e560c14c54a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016762"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373289"
 ---
 # <a name="plan-my-users-experience"></a>规划我的用户体验
 
@@ -85,8 +85,8 @@ ms.locfileid: "25016762"
 如果您的组织使用无线访问点或不支持的 802.11 节能协议的路由器，您可能会遇到丢弃的呼叫或质量欠佳的呼叫质量在 Windows 设备上运行的 Microsoft 团队中。 如果无法升级你的无线接入点或路由器，则应在使用电池的设备上更新 Windows 电源计划设置。 以下[支持文章](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you)中提供了进一步的详细信息和配置指导。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>将您的组织中部署哪些团队客户端？</li><li>如何将您最初部署团队客户端到您的用户？</li><li>它们由谁来负责评估终结点和设备，以验证符合团队要求用户体验质量？</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>记录将先部署团队客户端的过程。</li><li>评估终结点和设备，并执行和所需的补救措施。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>将您的组织中部署哪些团队客户端？</li><li>如何将您最初部署团队客户端到您的用户？</li><li>它们由谁来负责评估终结点和设备，以验证符合团队要求用户体验质量？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>记录将先部署团队客户端的过程。</li><li>评估终结点和设备，并执行和所需的补救措施。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -106,8 +106,8 @@ Microsoft Teams 可以用于会议或用作电话系统。 在使用这些功能
 > 目前，建议使用通过 Skype for Business 认证计划认证的音频设备。 若要查找此计划认证的设备，请参阅[USB 设备认证可用于 for Business 的 Skype](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)解决方案目录。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>确定用户和会议室内体验的组织的总体设备策略。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>完成您的组织个人到设备映射练习。</li><li>文档获取用户的设备和会议室的过程。</li><li>文档的用户和会议室的部署和配置设备的过程。</li><li>获取初始设备开始部署。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>确定用户和会议室内体验的组织的总体设备策略。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>完成您的组织个人到设备映射练习。</li><li>文档获取用户的设备和会议室的过程。</li><li>文档的用户和会议室的部署和配置设备的过程。</li><li>获取初始设备开始部署。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

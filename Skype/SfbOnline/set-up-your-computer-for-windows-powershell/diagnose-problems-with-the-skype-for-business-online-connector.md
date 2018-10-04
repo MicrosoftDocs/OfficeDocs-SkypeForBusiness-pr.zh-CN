@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot 创建远程 PowerShell 会话来连接到 Skype 业务 Online，包括导入模块、 并发命令行管理程序、 Live ID 为和权限错误。
-ms.openlocfilehash: 516da269e41f7945238aa8b402793a65444bd932
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 651afa58513819eb57914bfa1cd92bc38a46298f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851510"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372901"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>诊断与 Skype for Business Online 连接器的连接问题
 
@@ -51,7 +51,7 @@ ms.locfileid: "23851510"
 
 PowerShell 执行策略有助于确定哪些配置文件可以加载到 PowerShell 控制台中，并的脚本的用户可以从该控制台中运行。 至少 for Business Online Connector 模块 Skype 无法导入除非已设置为 RemoteSigned 执行策略。 如果未，然后当您尝试导入模块时将收到以下错误消息：
   
-- **错误**：*导入模块： 文件 c:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\模块\\LyncOnlineConnector\\无法加载 LyncOnlineConnectorStartup.psm1，因为运行在此系统上禁用脚本。有关详细信息，请参阅在 about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170。*
+- **错误**：<em>导入模块： 文件 c:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\模块\\LyncOnlineConnector\\无法加载 LyncOnlineConnectorStartup.psm1，因为运行在此系统上禁用脚本。有关详细信息，请参阅在 about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170。</em>
 
 - **解决方案**若要解决此问题，以管理员身份启动 PowerShell，然后运行以下命令：
     ```

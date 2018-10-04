@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8521816fe8aaa74c45028d962d024ab4bfd1b467
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d6e25d8e4d28a40bed33483d3ebdd6b5499f9ec1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013984"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372019"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和合规性概述
 ======================================================
@@ -90,15 +90,17 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 涉及到信息保护功能时，Office 365 订阅和关联的单独许可证将确定功能集。
 
-|信息保护功能   |Office 365 商业协作版   |Office 365 商业高级版   |Office 365 企业版 E1   |Office 365 企业版 E3/E4   |Office 365 企业版 E5   |
-|---|---|---|---|---|---|
-|存档|-  |-   |-   |是   |是   |
-|就地电子数据展示|-   |-   |-   |是   |是   |
-|高级电子数据展示|-   |-   |-   |-   |是   |
-|法定保留|-   |-   |-   |是   |是   |
-|合规性内容搜索|- |- |- |是 |是 |
-|审核和报告|是 |是 |是 |是 |是 |
-|条件访问 |是 |是 |是 |是 |是 |
+
+| 信息保护功能 | Office 365 商业协作版 | Office 365 商业高级版 | Office 365 企业版 E1 | Office 365 企业版 E3/E4 | Office 365 企业版 E5 |
+|-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
+|              存档              |               -                |              -              |            -             |             是             |           是            |
+|        就地电子数据展示        |               -                |              -              |            -             |             是             |           是            |
+|        高级电子数据展示        |               -                |              -              |            -             |              -              |           是            |
+|            法定保留             |               -                |              -              |            -             |             是             |           是            |
+|     合规性内容搜索     |               -                |              -              |            -             |             是             |           是            |
+|      审核和报告       |              是               |             是             |           是            |             是             |           是            |
+|       条件的访问\*        |              是               |             是             |           是            |             是             |           是            |
+
 > [!NOTE]
 > \*条件访问需要额外的许可证
 

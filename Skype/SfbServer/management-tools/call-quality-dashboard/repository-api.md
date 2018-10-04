@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: 摘要： 了解呼叫质量仪表板的存储库 API。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
-ms.openlocfilehash: 67378b6b0e927f45605a1ca0f7cdddffafac3022
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7881766de0daf05c85c7dfe8bb85a0ef1344c7c9
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989092"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374721"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>在业务服务器 2015 Skype 呼叫质量仪表板 (CQD) 的存储库 API
  
@@ -46,7 +46,7 @@ ms.locfileid: "20989092"
     
 - **用户设置**-介绍用户可选的应用程序行为。
     
- **跨源资源共享 (CORS) 库 API 支持**
+  **跨源资源共享 (CORS) 库 API 支持**
   
 存储库 API 支持跨源资源共享 (CORS)。 CORS 是 HTTP 功能，使运行下一个域的 web 应用程序以访问其他域中的资源。 Web 浏览器实现称为阻止从不同域中的调用 Api 网页的[同源策略](https://www.w3.org/Security/wiki/Same_Origin_Policy)同源策略的安全限制。 CORS 提供安全的方式，以允许一个域 （原点而言的） 来调用其他域中的 Api。 请参阅 CORS [CORS 规范](https://www.w3.org/TR/cors/)的详细信息。
   

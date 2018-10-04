@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 摘要： 阅读此主题以了解有关中 Skype 会议特性和功能的业务服务器。
-ms.openlocfilehash: b9c28c2a4f4f45bb9b79413269ebecd5a7f83464
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d1ac78876df97d2420c0951c9c2e1a9a41e451ce
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002869"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375795"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>规划业务服务器中 Skype 的会议
  
@@ -72,7 +72,7 @@ Web 会议允许与会者共享在会议期间，以及会议演示者共享应�
     
 - **通过拨出添加用户。** 演示者和与会者的已被授予权限，可以向会议添加 PSTN 号码，并使会议拨出到这些号码。
     
- Skype 业务服务器提供了多项功能，用户可以使用配置视频会议用户体验的其中包括：
+  Skype 业务服务器提供了多项功能，用户可以使用配置视频会议用户体验的其中包括：
   
 - **图库视图。** 在超过两名与会者的视频会议中，用户会自动看到会议中的每一名与会者。 如果与会者超过五名，那么最活跃与会者的视频将显示在最上面一行，并仅对其他与会者显示照片。 默认情况下，已启用多方视频。
     

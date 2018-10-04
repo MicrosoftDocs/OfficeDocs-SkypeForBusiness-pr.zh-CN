@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 有关配置呼叫数据连接器，从而遥测从 Skype 的业务的本地业务在线工具使用 Skype 查看说明。
-ms.openlocfilehash: 38e74e76e09d03036419f16807841a67fdf3433a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7c64ff1cfb7c300c575fb1b4512c590d1ddb867d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030572"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373297"
 ---
 # <a name="configure-call-data-connector"></a>配置呼叫数据连接器
 
@@ -99,7 +99,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 ```
 
 除了全局设置中，调用数据连接器配置设置可分配给站点作用域。 当谈到监控，这可以提供额外的管理灵活性。 例如，管理员可以启用为 Redmond 站点的呼叫数据连接器转发，但禁用都柏林网站中，调用数据连接器转发，如下面的示例中所示：
-  
+
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDataConnector $True
 ```
@@ -111,6 +111,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDat
 在 site 作用域配置的设置的优先于在 global 作用域配置的设置。 例如，假设调用数据连接器转接已启用在全局范围内，但是禁用在站点范围 （对于 Redmond 站点）。 不会为 Redmond 站点中的用户转发呼叫详细信息记录和 QoE 信息的方法。 但是，在其他网站 （即，由全局设置而非雷德蒙德站点设置管理的用户） 中的用户将有其呼叫详细信息记录和 QoE 信息转发。
 
 下表中所示使用调用数据连接器的最常用设置的值：  
+
 |属性|描述|默认值|
 |:-----|:-----|:-----|
 |EnableCallDataConnector  <br/> |指示是否启用呼叫数据连接器。 如果为 True，则会向联机监视转接监控记录。  <br/> |$False  <br/> |
@@ -121,7 +122,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDat
 禁用呼叫数据连接器不解除关联监控存储与前端池，也不会卸载或否则影响监控后端数据库。 禁用呼叫数据连接器时，您停止 Skype 业务服务器从呼叫数据上载到云。 
 
 使用适用于 Business Server 命令行管理程序中 Skype 集 CsCloudCallDataConnectorConfiguration cmdlet 禁用呼叫数据连接器。 例如，下面的命令通过 EnableCallDataConnector 属性设置为 $False 禁用呼叫在全局范围内的数据连接器：
-  
+
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $False
 ```
@@ -140,7 +141,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 ## <a name="for-more-information"></a>详细信息
 
 有关这些 cmdlet 的详细信息，可用于业务 Server 命令行管理程序 Skype Get-help 命令。 例如：
-  
+
 获取帮助 Get CsCloudCallDataConnector |更多
 
 获取帮助设置 CsCloudCallDataConnector |更多

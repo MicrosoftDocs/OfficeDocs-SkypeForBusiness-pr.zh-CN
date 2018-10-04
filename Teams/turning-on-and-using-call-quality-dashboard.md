@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '请参阅如何启用和 Skype 用于业务联机呼叫质量仪表板并获取呼叫的质量摘要报告。 '
-ms.openlocfilehash: bf7540d7c83fb8a3f7507fb4a8fcbcd8e820e2e2
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 008fbeca5ae9b81d74e9a38f60c12a6fc1f919cc
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017886"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373805"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用呼叫质量仪表板的 Microsoft 团队和 Skype 业务 online
 
@@ -186,11 +186,11 @@ CQD 摘要报告仪表板包含一个**租户数据上载**的页，通过从右
     
 2. 选择后的文件数据类型，单击**浏览**选择数据文件。
     
-  - 数据文件必须.tsv （制表符分隔值） 文件或.csv （以逗号分隔值） 文件。 如果使用.csv 文件，包含逗号分隔的任何字段必须用引号引起来，或已删除的逗号。 例如，如果您构建的名称是 NY，NY.csv 文件中其应以输入"NY，NY"。
+   - 数据文件必须.tsv （制表符分隔值） 文件或.csv （以逗号分隔值） 文件。 如果使用.csv 文件，包含逗号分隔的任何字段必须用引号引起来，或已删除的逗号。 例如，如果您构建的名称是 NY，NY.csv 文件中其应以输入"NY，NY"。
     
-  - 数据文件必须是不超过 50 MB 的大小。
+   - 数据文件必须是不超过 50 MB 的大小。
     
-  - 对于每个数据文件，文件中的每个列必须匹配一个预定义的数据类型，本主题后面所述。
+   - 对于每个数据文件，文件中的每个列必须匹配一个预定义的数据类型，本主题后面所述。
     
 3. 选择数据文件之后，指定**开始日期**和 （可选）**指定的结束日期**。
     

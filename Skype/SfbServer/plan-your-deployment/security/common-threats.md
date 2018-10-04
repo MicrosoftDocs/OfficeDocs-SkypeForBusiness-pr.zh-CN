@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: 由于 Skype 业务服务器的企业级的通信系统，因此您应了解其基础结构和通信可能会影响的常见安全攻击。
-ms.openlocfilehash: 59f65a6a9a4d56850908fa0749e4a672b23b7a85
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5609fda3fd3d58a5e5ed5df34c1c5e39e7843e85
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967825"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373062"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>现代日常计算中的常见安全威胁
  
@@ -101,9 +101,9 @@ Skype 业务服务器具有通过可能能够链接到个人的公用网络披�
    
 **必需数据**
 
-|**披露的数据**|**示例信息**|
-|:-----|:-----|
-|IP 地址  <br/> |计算机的实际地址或经过 NAT 转换的地址  <br/> |
-|SIP URI  <br/> |jeremylos@litwareinc.com  <br/> |
-   
+
+| **披露的数据** | **示例信息**                            |
+|:-------------------|:---------------------------------------------------|
+| IP 地址  <br/>  | 计算机的实际地址或经过 NAT 转换的地址  <br/> |
+| SIP URI  <br/>     | jeremylos@litwareinc.com  <br/>                    |
 

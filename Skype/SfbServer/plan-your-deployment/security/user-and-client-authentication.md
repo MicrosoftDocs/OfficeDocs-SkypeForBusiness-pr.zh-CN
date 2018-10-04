@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: 受信任的用户是指其凭据已经过身份验证的 Skype 中的受信任服务器的企业服务器。 此服务器通常是 Standard Edition server，Enterprise Edition 前端服务器或控制器。 Skype 业务服务器依赖于 Active Directory 域服务的用户凭据的单一的受信任后端存储库。
-ms.openlocfilehash: c16e70641d2ce6e25b932904e9371f7ddf03bdd8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9616774bf721863503c2ebd9145c6860f7068ef3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010644"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375480"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>用户和客户端身份验证的 Skype 业务服务器
  
@@ -57,5 +57,5 @@ ICE 和 TURN 协议也使用摘要式质询，如 IETF TURN RFC 中所述。
     
 - HMACSHA512
     
- AES、 3DES 和 MD5 不再允许，像一次 ASP.NET 4 中的值。 [ASP.NET 4.5，磅 2 中的加密改进](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/)具有更多详细信息。
+  AES、 3DES 和 MD5 不再允许，像一次 ASP.NET 4 中的值。 [ASP.NET 4.5，磅 2 中的加密改进](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/)具有更多详细信息。
   

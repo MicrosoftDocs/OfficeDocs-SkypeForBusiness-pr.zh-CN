@@ -23,16 +23,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为组织设置电话系统 (云 PBX)。 '
-ms.openlocfilehash: 92d575a3219bcf2a99c48040b77b0eaa2463b25a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: aae5a8e5fc8a0cd2cb20a2e3964c14a89039ce1e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017684"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374447"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>在你有组织中设置电话系统
 
-以下是 Office 365 中的电话系统的分步设置 指南。 在每个步骤的末尾都提供指向其他详细信息的链接。
+The following is a step-by-step guide for setting up Phone System in Office 365. Links to additional, detailed information are available at the end of each step.
 
 ## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>步骤 1： 请确保您的国家或地区可用使用电话系统
 
@@ -44,7 +44,7 @@ ms.locfileid: "25017684"
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>步骤 2： 购买和分配电话系统和通话套餐许可证
 
-若要将电话系统和通话套餐许可证分配给单个用户的步骤与分配 Office 365 许可证相同。 请参阅[业务和 Microsoft 团队许可证分配 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。 如果您想要分配批量的多个用户，请参阅 [分配 Skype for Business 和 Microsoft Teams 许可证](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) 。
+To assign a Phone System and Calling Plan license to a single user the steps are the same as assigning an Office 365 license. See [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). If you want to assign multiple users in bulk, see [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
 ## <a name="step-3-get-phone-numbers-for-your-users"></a>步骤 3： 为用户获取电话号码
 
@@ -55,7 +55,7 @@ ms.locfileid: "25017684"
 - 获取在Skype for Business管理中心不可用的新号码。
 - 端口或将您的现有号码从您的当前服务提供商或电话运营商转移到 Office 365。
 
-必须使用**添加新用户号码**页上，请参阅、 搜索、 获取，并保留这些号码。 您可以通过国家/地区、 状态和市/县搜索，然后输入电话号码，您将需要为您的用户数。
+You must use the **Add new user numbers** page to see, search, acquire, and reserve those numbers. You can search by Country/Region, State, and City, and then enter the number of phone numbers you will need for your users.
 
 ### <a name="get-new-user-phone-numbers"></a>获取新用户电话号码 
  
@@ -69,11 +69,11 @@ ms.locfileid: "25017684"
     
 ### <a name="get-new-numbers-that-arent-available-in-the-skype-for-business-admin-center"></a>获取在Skype for Business管理中心不可用的新号码
   
-有时 （根据您的国家/地区） 您将无法获取您的业务管理中心使用 Skype 的新号码。 在这种情况下，您需要下载窗体，并将其发送给我们。 请参阅 [管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) ，以了解如何请求新的用户号码。   
+Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center. In this case, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to learn how to request new user numbers.   
   
 ### <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>将你的服务提供商或电话运营商提供的电话号码转网或转移
   
-- 如果您的用户需要 999 或更少的电话号码，您可以业务管理中心的 Skype 中使用**新建本地号码端口次序**向导。 按照[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)，以将您的电话号码，通过业务 online 转移到 Skype 中找到的步骤。
+- If you need 999 or fewer phone numbers for your users, you can use the **New Local Number Port Order** wizard in the Skype for Business admin center. Follow the steps found in [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md) to transfer your phone numbers over to Skype for Business Online.
     
 - 如果您需要端口超过 999 电话号码，请参阅[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)提交的端口顺序服务请求或顺序获取所有移植转移到 Office 365 这些电话号码。 
 
@@ -81,7 +81,7 @@ ms.locfileid: "25017684"
 
 ## <a name="step-4-get-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>步骤 4： 获取服务电话号码 （音频会议呼叫的队列，自动助理）
 
-除了从 Office 365 用户获取电话号码，您可以搜索并获取收费电话或音频会议 （会议网桥）、 自动助理等呼叫队列 （也称为服务号码） 服务的免费电话号码。 服务电话号码具有比用户或订阅者电话号码更高的并发呼叫容量。 例如，服务号码可以处理数百个呼叫同时，而用户的电话号码只能同时处理几个呼叫。
+In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle 100s of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
 
 ### <a name="get-new-service-numbers"></a>获取新服务号码
 
@@ -99,15 +99,15 @@ ms.locfileid: "25017684"
 
 ### <a name="get-new-numbers-that-arent-available-in-the-skype-for-business-admin-center"></a>获取在Skype for Business管理中心不可用的新号码
   
-有时 （根据您的国家/地区） 您将无法获取您的业务管理中心使用 Skype 的新号码。 在这种情况下，您需要下载窗体，并将其发送给我们。 请参阅 [管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) ，以了解如何请求新的用户号码。 
+Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center. In this case, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to learn how to request new numbers. 
 
 ### <a name="port-or-transfer-existing-service-numbers"></a>转网或转移现有服务号码
 
-如果要转移来自当前服务提供商或运营商的服务号码，需要向 Microsoft 手动提交转网订单。 您必须提交单独端口订单将使用授权字母 (LOA) 转接您每种类型的服务号码 （收费和免费电话）。 在信函的授权 (LOA)，您必须选择了正确的服务号码类型。 当联系 Microsoft 支持，请确保您指定的传输服务号 （数字*和非用户或订阅者数字*），或并发呼叫容量可能无法足以处理呼叫量。 如果您想要转接电话号码，或执行其他操作与您的电话号码，请参阅 [管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 。
+If you want to transfer service numbers from your current service provider or carrier, you need to manually submit a port order to Microsoft. You have to submit separate port orders for each type of service number (toll vs. toll-free) that you will be transferring using a Letter of Authorization (LOA). In the Letter of Authorization (LOA), you must select the correct type of service number. When contacting Microsoft support, please make sure you specify that you are transferring a service number (*and not a user or subscriber number*), or the concurrent calling capacity may not be enough to handle call volumes. If you want to transfer phone numbers or do other things with your phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 ## <a name="step-5-if-you-want-to-set-up-calling-plans"></a>步骤 5： 如果您想要设置调用计划
 
-如果你一直在遵循以上步骤，您已购买并分配电话系统和许可证以及通话套餐 （第 2 步）并且为用户获取电话号码（第 3 步），因此您通话套餐i已部分设置。 按照下面的三过程完成通话套餐 的设置。
+If you have been following the steps above, you have already bought and assigned Phone System and licenses and a Calling Plan (step 2) and acquired phone numbers for your users (step 3), so your calling plan is partially set up. Follow the three procedures below to complete the setup of your Calling Plan.
 
 ### <a name="add-emergency-addresses-and-locations-for-your-organization"></a>添加紧急地址和您的组织的位置
 
@@ -125,7 +125,7 @@ ms.locfileid: "25017684"
     如果需要，系统将提示你对地址进行更改。
 
     > [!CAUTION]
-    > [!警告] 验证街道或市镇地址涉及确保该地址是合法的并且格式设置正确。 则可能的部分正确的紧急地址，例如，如果您输入正确市/县的名称可能仍通过验证。 即使拼写错误并通过验证，拼错的城市名称和地址的其他正确部分相结合也足以将呼叫路由到合适的紧急派遣中心。
+    > Validating a street or civic address involves making sure that it is legitimate and correctly formatted. It is possible that a partially correct emergency address, such as if you mistyped the name of the city, may still pass validation. Even though it's misspelled and passed validation, the combination of the misspelled name of city along with the other correct parts of the address are enough information to route the call to the appropriate emergency dispatch center.
 
     > [!TIP]
     > [!提示] 如果地址需要更正才能处理紧急响应，系统将显示一个绿色横幅，通知你地址已更新。
@@ -146,7 +146,7 @@ ms.locfileid: "25017684"
 4. 要选择的紧急地址，请在框中输入市/县的名称，并选择**搜索**。
 
     > [!IMPORTANT]
-    > 如果您在美国以外，您的号码已有的紧急地址，但您可以立即更改。 请参阅[为用户分配或更改紧急地址](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user)。 
+    > If you are outside the United States, your numbers already have an emergency address, but you can change it now. See [Assign or change an emergency address for a user](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user). 
   
 5. 在分配电话号码和紧急地址之后，选择" **保存**"。
 
@@ -167,7 +167,7 @@ ms.locfileid: "25017684"
     
     ![A user can see their assign number in the Skype for Business app by choosing Settings > Tools > Options > Phone.](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
  
-在**Microsoft Teams** 中，用户通过单击左侧导航窗格中的**呼叫**，可以看到他们的电话号码。 电话号码显示在拨号板上方。
+In **Microsoft Teams**, users can see their phone number by clicking **Calls** in the left navigation. The phone number is shown above the dial pad.
 
 ![通过单击左侧导航窗格中的呼叫，用户可以在 Microsoft Teams 中看到其号码。](media/teams-phone-number.png)
 
@@ -176,48 +176,48 @@ ms.locfileid: "25017684"
 
 ## <a name="step-6-if-you-want-to-set-up-audio-conferencing"></a>步骤 6： 如果您想要设置音频会议
 
-有时，组织中的用户需要使用电话拨入会议。 商业和 Microsoft 团队的 Skype 包括刚这种情况下的音频会议功能 ！ 人员可以呼叫 Skype 使用电话，而不使用 Skype 为移动设备或 PC 上的业务或 Microsoft 团队应用程序的业务或 Microsoft 小组会议。
+Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business and Microsoft Teams include the audio conferencing feature for just this situation! People can call in to Skype for Business or Microsoft Teams meetings using a phone, instead of using the Skype for Business or Microsoft Teams app on a mobile device or PC.
 
-您只需为建立音频会议计划安排或潜在顾客会议的人员。 拨入会议与会者不需要分配给他们或其他安装程序的许可证。
+You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or other setup.
   
 有关音频会议的常见问题，请参阅 [音频会议的常见问题](audio-conferencing-common-questions.md) 。
     
-1. 如果购买了 **音频会议** 外接程序许可证和通信点数许可证，也要分配它们。 有关说明，请参阅[业务和 Microsoft 团队许可证分配 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
+1. If you purchased **Audio Conferencing** add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
-    决定您的音频会议提供商。 音频会议提供商提供音频会议桥。 会议桥设置您的电话拨入电话号码、 Pin 和会议的会议 Id。 决定是否使用 Microsoft 或第三方音频会议提供商：
+    Decide on your audio conferencing provider. An audio conferencing provider supplies an audio conferencing bridge. The conferencing bridge sets your dial-in phone numbers, PINs, and conference IDs for meetings. Decide whether to use Microsoft or a third-party audio conferencing provider:
 
     > [!NOTE]
     > Microsoft Teams 用户不能用户第三方音频会议提供商。
 
     - **Microsoft 作为您的音频会议提供商**： 如果您希望音频会议的最简单的解决方案，选择 Microsoft 作为您的音频会议提供商。
     
-    - **第三方音频会议提供商作为**： 如果您所在的国家的音频会议在 Office 365 中不可用，由于其位置服务质量不好，或您有一个现有的合同，请选择第三方音频会议提供商。 要查找提供商，请转到 [Microsoft PinPoint](http://go.microsoft.com/fwlink/?LinkId=797530) 。
+    - **Third party as your audio conferencing provider**: If you are in a country where Audio Conferencing in Office 365 isn't available, the service quality isn't great because of its location, or you have an existing contract, choose a third-party audio conferencing provider. To find a provider, go to [Microsoft PinPoint](http://go.microsoft.com/fwlink/?LinkId=797530).
  
-2.  将音频会议提供商分配给领导或安排会议的人员。 请参阅[分配 Microsoft 作为音频会议提供商](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
+2. Assign the audio conferencing provider to people who lead or schedule meetings. See [Assign Microsoft as the audio conferencing provider](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
-3. 设置会议邀请。 以下步骤是可选的，但很多管理员喜欢执行这些操作： 
+3. Set up meeting invitations. The following steps are optional, but a lot of admins like to do them: 
   
-    1. [Skype for Business 中的自定义会议邀请](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations)。 为用户设置的拨入号码将自动添加到要发送给与会者的会议邀请中。 但是，你也可以添加自己的帮助和法律链接、文本消息和比较小的公司图形。
+   1. [Skype for Business 中的自定义会议邀请](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations)。 为用户设置的拨入号码将自动添加到要发送给与会者的会议邀请中。 但是，你也可以添加自己的帮助和法律链接、文本消息和比较小的公司图形。
     
-    2. 会议组织者包含的邀请或[Microsoft 团队](set-the-phone-numbers-included-on-invites-in-teams.md) [Skype for Business 中](/skypeforbusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)设置的音频会议电话号码。 这是将显示在由用户安排的会议的电话号码。
+   2. 会议组织者包含的邀请或[Microsoft 团队](set-the-phone-numbers-included-on-invites-in-teams.md) [Skype for Business 中](/skypeforbusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)设置的音频会议电话号码。 这是将显示在由用户安排的会议的电话号码。
     
-    3. 将自动助理语言设置的音频会议[中的业务的 Skype](/skypeforbusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing)或[中的 Microsoft 团队](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)的音频会议自动助理使用问候时它们拨入音频会议电话号码的呼叫者。 此步骤仅在使用 Microsoft 作为音频会议提供商时适用。
+   3. 将自动助理语言设置的音频会议[中的业务的 Skype](/skypeforbusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing)或[中的 Microsoft 团队](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)的音频会议自动助理使用问候时它们拨入音频会议电话号码的呼叫者。 此步骤仅在使用 Microsoft 作为音频会议提供商时适用。
     
-    4. 设置音频会议的 PIN 长度[for Business 的 Skype](/skypeforbusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings)或[中的 Microsoft 团队](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)。
+   4. 设置音频会议的 PIN 长度[for Business 的 Skype](/skypeforbusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings)或[中的 Microsoft 团队](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)。
     
-    > [!NOTE]
-    > 由中国世纪互联运营的 Office 365 用户暂无法使用此功能。 如需了解更多信息，请参阅 [了解由世纪互联运营的 Office 365](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE) 。
+      > [!NOTE]
+      > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
 **有关音频会议的详细信息，请参阅 [设置音频会议](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) 。**
 
 ## <a name="step-7-if-you-want-to-set-up-a-phone-system-call-queue"></a>步骤 7：如果您想要设置电话系统呼叫队列
 
-队列包括问候语有人呼叫您的组织、 能够自动将呼叫置于保持状态，和搜索处理该呼叫的人员时的下一个可用呼叫代理的功能电话号码时所使用的电话系统呼叫者保留音乐侦听呼叫。 您可以为组织创建单个或多个呼叫的队列。
+Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
 
-在创建和设置呼叫队列之前，您需要获取或转移现有的收费或免费服务号码。 获得收费电话或免费电话服务电话号码后，他们会显示在 **Skype for Business 管理中心** > **语音** > **电话号码**，**号码类型**将列出**服务—免费电话**。 若要获取服务号码，请参阅 [从 Skype for Business 和 Microsoft Teams 获取服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) 或如果您希望进行转移现有服务号码，请参阅  [传输电话号码到 Office 365](transfer-phone-numbers-to-office-365.md) 。
+Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
-> 如果您在美国以外，您无法使用业务管理中心的 Skype 获取服务号码。 转到[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)而是以了解如何执行从美国的外部。
+> If you are outside the United States, you can't use the Skype for Business admin center to get service numbers. Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
 
 若要创建新的呼叫队列，在**Skype for Business 管理中心** 中， 单击 **呼叫路由** > **呼叫队列**，请单击 **添加新**，然后按照在 **步骤 3**中  [创建电话系统呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue#step-3---create-a-new-call-queue) 的说明。
 
@@ -225,7 +225,7 @@ ms.locfileid: "25017684"
 
 ## <a name="step-8-if-you-want-to-set-up-a-phone-system-auto-attendant"></a>步骤 8： 如果您想要设置电话系统自动助理
 
-自动助理让人们呼叫您的组织和导航菜单系统，以使其向右部门、 队列、 人员或运算符呼叫。 使用适用于业务管理中心 Skype，可以为组织创建自动助理。
+Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center.
 
 若要创建新的自动助理，在 Skype for Business管理中心，单击 **呼叫路由** > **自动助理**，单击 **添加新**，然后按照**步骤 2** 中每页的说明 [设置电话系统自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant)。
 
@@ -233,19 +233,19 @@ ms.locfileid: "25017684"
 
 ## <a name="step-9-assign-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>步骤 9：获取服务电话号码 （音频会议呼叫的队列，自动助理）
 
-一旦您从 **上面的步骤 4** 获得服务号码后，您需要将其分配给所需每种类型服务。 例如，如果您希望专用的服务电话号码（收费电话或免费），您将需要分配会议桥的数量。
+Once you have your service numbers from **Step 4 above**, you need to assign them to each type of service that you want. For example, if you want a dedicated service phone number (toll or toll-free), you will need to assign the number to the conferencing bridge.
 
 - 音频会议，您可以通过 **Office 365 管理中心** > **管理中心** > **Skype for Business** > **音频会议**分配专用号码会议桥并单击会议桥或查看[更改音频会议桥上的收费或免费电话](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
 
-- 自动助理，您可以通过 **Office 365 管理中心** > **管理中心** > **Skype for Business** > **呼叫路由** > **自动助理**分配专用的号码到自动助理并单击自动助理。 在 **常规** 页上您已经拥有的服务号码将在 **电话号码** 中下拉列表中列出。 有关详细信息，请参阅 [设置电话系统自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant) 。
+- For Auto Attendants, you can assign a dedicated number to an auto attendant by going to **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Call routing** > **Auto attendants** and click on the auto attendant. On the **General** page the service number you already have will be listed in the **Phone number** drop down. For details, see [Set up a Phone System Auto Attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
 
-- 对于呼叫的队列，您可以通过 **Office 365 管理中心** > **管理中心** > **Skype for Business** > **呼叫路由** > **呼叫队列** 分配专用的号码呼叫队列并单击呼叫队列。 在  **常规** 页上您已经拥有的服务号码将在 **电话号码** 中下拉列表中列出。 有关详细信息，请参阅 [创建电话系统呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) 。
+- For Call Queues, you can assign a dedicated number to a call queue by going to **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Call routing** > **Call queues** and click on the call queue. On the **General** page the service number you already have will be listed in the **Phone number** drop down. For details, see [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 **有关获取新服务号码和移植现有服务号码的详细信息，请参阅 [获取服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) 。**
 
 ## <a name="step-10-set-up-communications-credits-for-your-organization"></a>步骤 10： 为您的组织的通信字幕式设置
 
-您需要设置通信点数，如果您想要使用 Skype for Business 和 Microsoft Teams 的免费电话号码。 此外，我们建议您设置 Communications 字幕式调用计划 （国内或国际） 和音频会议用户需要拨出**任何目标**的能力。 多个国家/地区内包括在内，但某些目标不能包含在您调用规划或音频会议的订阅。 如果您不会设置 Communications 字幕式帐单且将**Communications 字幕式**许可证分配给用户，并且您运行出分钟，以便您的组织 （具体取决于您调用计划或音频会议中计划国家/地区），这些用户将无法发起呼叫或从音频会议拨出。 您可以获取详细信息，请通过读取资金数量，包括建议[Communications 字幕式是什么？](what-are-communications-credits.md)
+You will need to set up Communications Credits if you would like to use toll-free numbers with Skype for Business and Microsoft Teams. Also, we recommend that you set up Communications Credits for your Calling Plans (Domestic or International) and Audio Conferencing users who need the ability to dial out to **any destination**. Many countries/regions are included, but some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions. If you don't set up Communications Credits billing and assign a **Communications Credits** license to your users and you run out minutes for your organization (depending on your Calling Plan or Audio Conferencing plan in your country/region), those users won't be able to make calls or dial out from Audio Conferencing meetings. You can get more information, including recommended funding amounts, by reading [What are Communications Credits?](what-are-communications-credits.md)
   
 > [!NOTE]
 > 若要找出它的费用， [请参阅下面的价格](https://go.microsoft.com/fwlink/p/?LinkId=799523 )  。
@@ -260,7 +260,7 @@ ms.locfileid: "25017684"
 
 4. 输入您的付款信息并单击 **下订单** 。
     >[!IMPORTANT]
-    >如果您是批量授权客户，则可以选择您的企业协议编号进行付款。 如果您有多个企业协议编号，您将能够选择要用于付款的企业协议。 您还将获得一个机会，指定要与企业协议编号关联的采购订单编号 （如果适用）。
+    >If you are a volume licensing customer, you may choose your enterprise agreement number for payment. If you have multiple enterprise agreement numbers, you will be able to select which enterprise agreement you would like to use for payment. You will also be given an opportunity to specify a purchase order number to associate with the enterprise agreement number (if applicable).
     
 **有关通信点数设置的详细信息，请参阅 [为您的组织设置通信点数](set-up-communications-credits-for-your-organization.md) 。**
   

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: 创建或修改响应组队列，业务 Server 企业语音的 Skype 中。
-ms.openlocfilehash: cdddb57c3f0e06e851f39cba4b6f8322a28fd3fa
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a77940bae3dd720594619ebffc1858dae2a161ba
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888149"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374513"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>创建或修改 Skype for Business 中的队列
  
@@ -57,8 +57,8 @@ ms.locfileid: "23888149"
     
    - 要更改代理的搜索顺序，在代理组列表中，请单击某个组，然后单击向上箭头或向下箭头。
     
-    > [!NOTE]
-    > 服务器搜索队列的可用代理时，将使用组顺序。即，首先搜索列表中的第一个组，然后搜索列表中的第二个组，依此类推。 
+     > [!NOTE]
+     > 服务器搜索队列的可用代理时，将使用组顺序。即，首先搜索列表中的第一个组，然后搜索列表中的第二个组，依此类推。 
   
 8. 要指定代理应答呼叫之前呼叫者处于保持状态的最大时间长度，请选中“启用队列超时”**** 复选框，然后执行下列操作：
     
@@ -66,15 +66,15 @@ ms.locfileid: "23888149"
     
     b. 在“呼叫操作”**** 中，选择呼叫超时时执行的操作（如下所示）：
     
-     - 要在超时后断开呼叫，请单击“断开连接”****。
+   - 要在超时后断开呼叫，请单击“断开连接”****。
     
-     - 若要转接呼叫以语音邮件，再单击**转接到语音邮件**，然后在**SIP 地址**字段中，键入语音邮件地址格式 sip:_\<用户名\>_@ _\<domainname\> _ (示例，sip:bob@contoso.com）。
+   - 若要转接呼叫以语音邮件，再单击**转接到语音邮件**，然后在**SIP 地址**字段中，键入语音邮件地址格式 sip:*\<用户名\>*@ *\<domainname\> * (示例，sip:bob@contoso.com）。
     
-     - 若要将呼叫转接至另一个电话号码，单击**转接到电话号码**，，然后在**SIP 地址**字段中，键入电话号码格式 sip:_\<号码\>_@ _\<domainname\>_ (例如，sip:+14255550121@contoso.com)。
+   - 若要将呼叫转接至另一个电话号码，单击**转接到电话号码**，，然后在**SIP 地址**字段中，键入电话号码格式 sip:*\<号码\>*@ *\<domainname\>* (例如，sip:+14255550121@contoso.com)。
     
-     - 若要将呼叫转接至另一个用户，单击**转接到 SIP 地址**，，，然后在**SIP 地址**字段中，键入用户在格式 sip URI:_\<用户名\>_@ _\<domainname\>_。
+   - 若要将呼叫转接至另一个用户，单击**转接到 SIP 地址**，，，然后在**SIP 地址**字段中，键入用户在格式 sip URI:_\<用户名\>_@ _\<domainname\>_。
     
-     - 要将呼叫转接到其他队列，请单击“转接到其他队列”****，然后浏览至要使用的队列。
+   - 要将呼叫转接到其他队列，请单击“转接到其他队列”****，然后浏览至要使用的队列。
     
 9. 要指定队列可以容纳的最大呼叫数，请选中“启用队列溢出”**** 复选框，然后执行下列操作：
     
@@ -84,15 +84,15 @@ ms.locfileid: "23888149"
     
     c. 在“呼叫操作”**** 中，选择达到溢出阈值时要执行的操作，如下所示：
     
-     - 要在超时后断开呼叫，请单击“断开连接”****。
+   - 要在超时后断开呼叫，请单击“断开连接”****。
     
-     - 若要转接呼叫以语音邮件，再单击**转接到语音邮件**，然后在**SIP 地址**字段中，键入语音邮件地址格式 sip:_\<用户名\>_@ _\<domainname\> _ (示例，sip:bob@contoso.com）。
+   - 若要转接呼叫以语音邮件，再单击**转接到语音邮件**，然后在**SIP 地址**字段中，键入语音邮件地址格式 sip:*\<用户名\>*@ *\<domainname\> * (示例，sip:bob@contoso.com）。
     
-     - 若要将呼叫转接至另一个电话号码，单击**转接到电话号码**，，然后在**SIP 地址**字段中，键入电话号码格式 sip:_\<号码\>_@ _\<domainname\>_ (例如，sip:+14255550121@contoso.com)。
+   - 若要将呼叫转接至另一个电话号码，单击**转接到电话号码**，，然后在**SIP 地址**字段中，键入电话号码格式 sip:*\<号码\>*@ *\<domainname\>* (例如，sip:+14255550121@contoso.com)。
     
-     - 若要将呼叫转接至另一个用户，单击**转接到 SIP 地址**，，，然后在**SIP 地址**字段中，键入用户在格式 sip URI:_\<用户名\>_@ _\<domainname\>_。
+   - 若要将呼叫转接至另一个用户，单击**转接到 SIP 地址**，，，然后在**SIP 地址**字段中，键入用户在格式 sip URI:_\<用户名\>_@ _\<domainname\>_。
     
-     - 要将呼叫转接到其他队列，请单击“转接到其他队列”****，然后浏览至要使用的队列。
+   - 要将呼叫转接到其他队列，请单击“转接到其他队列”****，然后浏览至要使用的队列。
     
 10. 单击“**提交**”。
     
@@ -137,24 +137,24 @@ ms.locfileid: "23888149"
 
 5. 创建在达到队列溢出阈值时要显示的提示，并将其保存在变量中。在命令行中运行：
     
-  ```
-  $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
-  ```
+   ```
+   $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
+   ```
 
    例如：
     
-  ```
-  $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
-  ```
+   ```
+   $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
+   ```
 
       > [!NOTE]
       > 若要使用的音频文件提示，请使用**Import-csrgsaudiofile** cmdlet。 有关详细信息，请参阅[Import-csrgsaudiofile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
   
 6. 定义在达到队列溢出阈值时要采取的操作，并将其保存在变量中。在命令行中运行：
     
-  ```
-  $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
-  ```
+   ```
+   $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
+   ```
 
     > [!NOTE]
     > 有关可能的操作及其语法的详细信息，请参阅[New-csrgscallaction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)。 
@@ -194,9 +194,9 @@ ms.locfileid: "23888149"
 
 10. 确认已创建队列。运行：
     
-   ```
-   Get-CsRgsQueue -Name "Help Desk"
-   ```
+    ```
+    Get-CsRgsQueue -Name "Help Desk"
+    ```
 
 ## <a name="see-also"></a>另请参阅
 

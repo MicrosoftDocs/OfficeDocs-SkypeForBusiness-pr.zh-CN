@@ -20,24 +20,24 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: cb808cb8271cfb32174106e2692793aa41a64d50
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c78a3fb140431dd46b3850e1d01e7fb29fb29210
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882110"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372817"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>设置包含在 Skype for Business Online 邀请中的电话号码
 
 > [!Note]
 > 有关 Microsoft Teams 中的会议邀请电话号码的信息，请参阅[设置 Microsoft Teams 中包含的电话号码](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)。
 
-Office 365 中的音频会议使组织中的用户能够创建 Skype for Business 会议，然后允许用户使用电话拨入到这些会议。 在 Office 365 中，您可以使用 Microsoft 音频会议网桥或位于由已批准的音频会议提供商 (ACP) 的第三方音频会议桥的选择。
+Audio Conferencing in Office 365 enables users in your organization to create Skype for Business meetings, and then allow users to dial in to those meetings using a phone. In Office 365, you have the option of using a Microsoft audio conferencing bridge or a third-party audio conferencing bridge that is hosted by an approved audio conferencing provider (ACP).
   
 > [!NOTE]
-> 没有资源包含音频会议的所有拨入号码的列表。 如果您要查找要查看如果电话拨入电话号码中提供了您的区域或国家/地区，使用**业务管理中心的 Skype** > **语音** > **电话号码**，单击**添加**然后**新服务号码**. 使用**国家/地区**、** 州/地区**和**城市**列表筛选搜索。 此外，如果要查找免费服务电话号码，从** 国家/地区**列表中选择**免费电话**。
+> There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing. If you are looking to see if there are dial-in phone numbers available in your area or country/region, use the **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add** then **New Service Numbers**. Use the lists for **Country/Region**, **State/Region** and **City** to filter your search.> Also, if you are looking for toll free service numbers, select **Toll-Free** from the **State/Region** list.
   
-会议桥为你的组织提供了一套拨入电话号码。 它们都可用于加入会议组织者已创建的会议，但你可以选择在其会议邀请中包括哪些号码。
+A conferencing bridge gives you a set of dial-in phone numbers for your organization. All of them can be used to join the meetings that a meeting organizer has created, but you can select which ones will be included on their meeting invites.
   
 > [!NOTE]
 > 会议组织者的会议邀请中最多可以有一个收费和一个免费电话号码，但每个会议邀请的底部还有一个链接，用于打开用来可加入会议的所有拨入电话号码的完整列表。 
@@ -57,11 +57,11 @@ Office 365 中的音频会议使组织中的用户能够创建 Skype for Busines
   
 4. 选择您想要编辑的用户：
     
-  - 要选择单个用户，请选择该用户的名称。
+   - 要选择单个用户，请选择该用户的名称。
     
-  - 要选择页面上的所有用户，请都选择列表顶部**显示名称**旁边的复选框。
+   - 要选择页面上的所有用户，请都选择列表顶部**显示名称**旁边的复选框。
     
-  - 要选择多个用户，请选择每个用户名称旁边的复选框。
+   - 要选择多个用户，请选择每个用户名称旁边的复选框。
     
 5. 在右窗格中，选择" **编辑**"。
     
@@ -69,14 +69,14 @@ Office 365 中的音频会议使组织中的用户能够创建 Skype for Busines
   
 6. 选择**音频会议**。
     
-7. 在**属性**页上的**提供商名称**列表中，为用户选择提供商。 根据提供商填写下列方框。
+7. On the **Properties** page, in the **Provider name** list, choose the provider for the user. Depending on the provider, complete the following boxes.
     
-  - **Microsoft 是提供商**：使用**默认收费电话号码**和**默认免费电话号码**列表选择用户的默认号码。
+   - **Microsoft 是提供商**：使用**默认收费电话号码**和**默认免费电话号码**列表选择用户的默认号码。
     
-    > [!NOTE]
-    > 在将电话号码设置为用户的默认免费电话号码之前，必须为至少向会议桥分配一个免费电话号码。 若要获取免费电话号码，请参阅[入门 Skype for Business 服务电话号码](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。 
+     > [!NOTE]
+     > At least one toll-free number must be assigned to your conferencing bridge before it can be set as the default toll-free number of a user. To get a toll-free number, see [Getting service phone numbers for Skype for Business](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
   
-  - **第三方是提供商**：使用**收费电话号码**和**免费电话号码**字段，为用户输入号码。
+   - **第三方是提供商**：使用**收费电话号码**和**免费电话号码**字段，为用户输入号码。
 
 
 ## <a name="reset-audio-conferencing-phone-numbers"></a>重置音频会议的电话号码
@@ -87,7 +87,7 @@ Office 365 中的音频会议使组织中的用户能够创建 Skype for Busines
     
 3. 选择要重置的用户，然后在操作窗格单击**清除**。
     
-默认情况下，更改用户的会议设置时会给用户发送电子邮件。 若要更改此设置，请参阅[启用或禁用发送电子邮件时要进行音频会议设置更改](enable-or-disable-sending-emails-when-their-settings-change.md)。
+By default, when you change a user's conferencing settings, an email is sent to the user. To change this, see [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change.md).
   
 > [!IMPORTANT]
 > 更改用户的音频会议设置时，必须更新定期和将来的 Skype for Business 会议，并将其发送给与会者。 
@@ -130,7 +130,7 @@ Office 365 中的音频会议使组织中的用户能够创建 Skype for Busines
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
-## <a name="want-to-learn-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
+  ## <a name="want-to-learn-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
 - 对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)

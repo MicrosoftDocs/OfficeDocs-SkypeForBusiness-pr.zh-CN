@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 了解如何配置 Microsoft 电话系统直接路由。
-ms.openlocfilehash: be420b43ed1b826865bbe8b6f0a0c3e314fc1201
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7e587c92e979c7985ccbd9f05bbb5ae1115d176a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013736"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374647"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -456,31 +456,31 @@ John Woods – 允许任意数量的呼叫。 当调用雷德蒙德号码范围�
 步骤创建 PSTN 用法"International"语音路由"International，"语音路由策略"无限制"，然后将其分配给用户"John Woods"，如下所示。
 
 
-1.  首先，创建 PSTN 用法"International。" 在 Skype 业务 online 中的远程 PowerShell 会话，输入：
+1. 首先，创建 PSTN 用法"International。" 在 Skype 业务 online 中的远程 PowerShell 会话，输入：
 
-  ```
-  Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="International"}
-  ```
+   ```
+   Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="International"}
+   ```
 
-2.  接下来，创建新的语音路由"International。"
+2. 接下来，创建新的语音路由"International。"
 
-  ```
-  New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
-  ```
-  返回结果：
+   ```
+   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
+   ```
+   返回结果：
 
-  <pre>
-  Identity                  : International 
-  Priority                      : 5
-  Description                   : 
-  NumberPattern                 : \d+
-  OnlinePstnUsages          : {International}    
-  OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
-  Name                            : International
-  SupressCallerId           :
-  AlternateCallerId         :
-</pre>
-3.  接下来，创建语音路由策略"无限制"。 若要保留的呼叫就可以为本地域或内部呼叫号码"+1 425 XXX XX XX"和"+1 206 XXX XX XX"的特殊处理此语音路由策略中重复使用的 PSTN 用法"Redmond 1"和"Redmond"。
+   <pre>
+   Identity                  : International 
+   Priority                      : 5
+   Description                   : 
+   NumberPattern                 : \d+
+   OnlinePstnUsages          : {International}    
+   OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
+   Name                            : International
+   SupressCallerId           :
+   AlternateCallerId         :
+   </pre>
+3. 接下来，创建语音路由策略"无限制"。 若要保留的呼叫就可以为本地域或内部呼叫号码"+1 425 XXX XX XX"和"+1 206 XXX XX XX"的特殊处理此语音路由策略中重复使用的 PSTN 用法"Redmond 1"和"Redmond"。
 
 ```
 New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”
@@ -503,18 +503,18 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
    RouteType        : BYOT
   </pre>
 
-4.  将语音路由策略分配给用户"John Woods"使用以下命令。
+4. 将语音路由策略分配给用户"John Woods"使用以下命令。
 
-  ```
-  Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
-  ```
+   ```
+   Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
+   ```
 
-  然后验证工作分配使用的命令：   
+   然后验证工作分配使用的命令：   
 
-  ```
-  Get CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
-  ```
-  返回结果：
+   ```
+   Get CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
+   ```
+   返回结果：
 
 <pre>
     OnlineVoiceRoutingPolicy

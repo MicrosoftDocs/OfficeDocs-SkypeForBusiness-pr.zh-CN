@@ -11,12 +11,12 @@ description: 在 Microsoft Teams 中部署云语音功能实践指导
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 068ddc726a366f5ee34b23dca0f76699d4c76afc
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: e78abdbe7d0cc2680917f2aae7920883837a2ac9
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019073"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375976"
 ---
 # <a name="teams-cloud-meeting-recording"></a>团队云会议录制
 
@@ -75,13 +75,13 @@ Microsoft 流是可用的合格的 Office 365 订阅一部分或作为独立的�
 </br>
 
 
-|应用场景|步骤 |
-|---|---|
-|我希望公司能够记录其会议中的所有用户 |<ol><li>确认全局 CsTeamsMeetingPolicy 具有 AllowCloudRecording = True<li>所有用户都有全局 CsTeamsMeetingPolicy 或与 AllowCloudRecording CsTeamsMeetingPolicy 策略之一 = True </ol>|
-|我希望大多数我用户能够以记录其会议，但有选择地禁用特定用户不允许进行录音 |<ol><li>确认 GlobalCsTeamsMeetingPolicy 具有 AllowCloudRecording = True<li>大多数用户具有全局 CsTeamsMeetingPolicy 或一个 CsTeamsMeetingPolicy 策略的与 AllowCloudRecording = True<li>所有其他用户已被授予与 AllowCloudRecording CsTeamsMeetingPolicy 策略之一 = False</ol>|
-|我希望录制为 100%已禁用| <ol><li>确认全局 CsTeamsMeetingPolicy 具有 AllowCloudRecording = False<li>所有用户已被都授予全局 CsTeamsMeetingPolicy OR CsTeamsMeetingPolicy 策略之一与 AllowCloudRecording = False|
-|我希望录制的大部分用户禁用，但有选择性地启用特定用户允许进行录音|<ol><li>确认全局 CsTeamsMeetingPolicy 具有 AllowCloudRecording = False<li>大多数用户已被授予全局 CsTeamsMeetingPolicy 或一个 CsTeamsMeetingPolicy 策略的与 AllowCloudRecording = False<li>所有其他用户已被授予与 AllowCloudRecording CsTeamsMeetingPolicy 策略之一 = True <ol>|
-|||
+|                                                                 应用场景                                                                 |                                                                                                                                                                         步骤                                                                                                                                                                          |
+|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                    我希望公司能够记录其会议中的所有用户                                    |                                                                     <ol><li>确认全局 CsTeamsMeetingPolicy 具有 AllowCloudRecording = True<li>所有用户都有全局 CsTeamsMeetingPolicy 或与 AllowCloudRecording CsTeamsMeetingPolicy 策略之一 = True </ol>                                                                     |
+| 我希望大多数我用户能够以记录其会议，但有选择地禁用特定用户不允许进行录音 |        <ol><li>确认 GlobalCsTeamsMeetingPolicy 具有 AllowCloudRecording = True<li>大多数用户具有全局 CsTeamsMeetingPolicy 或一个 CsTeamsMeetingPolicy 策略的与 AllowCloudRecording = True<li>所有其他用户已被授予与 AllowCloudRecording CsTeamsMeetingPolicy 策略之一 = False</ol>         |
+|                                                   我希望录制为 100%已禁用                                                   |                                                                <ol><li>确认全局 CsTeamsMeetingPolicy 具有 AllowCloudRecording = False<li>所有用户已被都授予全局 CsTeamsMeetingPolicy OR CsTeamsMeetingPolicy 策略之一与 AllowCloudRecording = False                                                                 |
+|      我希望录制的大部分用户禁用，但有选择性地启用特定用户允许进行录音       | <ol><li>确认全局 CsTeamsMeetingPolicy 具有 AllowCloudRecording = False<li>大多数用户已被授予全局 CsTeamsMeetingPolicy 或一个 CsTeamsMeetingPolicy 策略的与 AllowCloudRecording = False<li>所有其他用户已被授予与 AllowCloudRecording CsTeamsMeetingPolicy 策略之一 = True <ol> |
+|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
 
 ### <a name="enabledisable-recording-transcription-for-users"></a>启用/禁用的用户的录制转录
 

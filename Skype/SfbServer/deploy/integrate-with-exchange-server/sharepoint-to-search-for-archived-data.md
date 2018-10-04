@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 摘要： 配置 SharePoint Server 以搜索存档的 Exchange Server 和 Skype 业务服务器的数据。
-ms.openlocfilehash: efd3fc67faacba503736968786988aaf01f45073
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0663874985063f4cf051aec69792ea0bdb32bb26
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971797"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373319"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>配置 SharePoint Server 以搜索存档的 Skype for Business 数据
  
@@ -125,7 +125,7 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
     
 4. 当电子数据展示集页出现时，单击“**标识和保留：发现集**”下的“**新建项目**”。
     
-5. 在“新建：发现集”页上的“**发现集名称**”框中输入用户的电子邮件别名。 输入**电子数据展示 Lync\* ** **筛选器**在框中，然后单击**添加&amp;管理源**。
+5. 在“新建：发现集”页上的“**发现集名称**”框中输入用户的电子邮件别名。 输入**电子数据展示 Lync\\*****筛选器**在框中，然后单击**添加&amp;管理源**。
     
 6. 在添加&amp;管理源页上，在**邮箱**下的第一个文本框中输入用户的电子邮件别名。 单击位于文本框旁边的检查邮箱图标，以确认 SharePoint 可以连接至指定邮箱。
     

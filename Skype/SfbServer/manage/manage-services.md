@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: 本文介绍如何管理企业服务器拓扑的 Skype 中运行的服务。
-ms.openlocfilehash: 0bf12ed7719be7804b2cb4d69e29a7d0a058e142
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7f95023416bd1b851bc5a3d3ce6185e3362ec098
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20977001"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372444"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Skype 的服务管理业务服务器
 
@@ -103,9 +103,9 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
 
 1. 从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机. 您可以确定是否已将您分配 CsServerAdministrator 或 CsAdministrator RBAC 角色通过运行类似于以下命令：
     
-  ```
-  Get-CsAdminRoleAssignment -Identity "kenmyer"
-  ```
+   ```
+   Get-CsAdminRoleAssignment -Identity "kenmyer"
+   ```
 
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
 3. 在左侧的导航栏中，单击**拓扑**，然后单击**状态**。

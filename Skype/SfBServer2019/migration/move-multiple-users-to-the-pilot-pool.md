@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 可以将多个用户从旧池移动到您 Skype 业务服务器 2019年试点池 Skype 业务 Server 2019 控制面板或 Skype 用于业务服务器 2019年命令行管理程序中。
-ms.openlocfilehash: e96ef658f566f0e069f4db6e4f2f08e0410ea260
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3b01613e16e41ed2ee7aac7bc6c443e19db933c2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028654"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372507"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>将多个用户移至试点池
 
@@ -54,19 +54,19 @@ ms.locfileid: "25028654"
 
 1. 打开 Skype 业务服务器 2019年命令行管理程序。 
     
-2.  在命令行中，键入以下命令并**User1**和**User2**替换为您想要移动的具体用户名**pool_FQDN**替换为目标池的名称。 在此示例中，我们将移动用户 Hao Chen 和 Katie 约旦。 
+2. 在命令行中，键入以下命令并**User1**和**User2**替换为您想要移动的具体用户名**pool_FQDN**替换为目标池的名称。 在此示例中，我们将移动用户 Hao Chen 和 Katie 约旦。 
     
-  ```
-  Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
-  ```
+   ```
+   Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
+   ```
 
-     ![PowerShell Get-csuser cmdlet 的示例](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
+    ![PowerShell Get-csuser cmdlet 的示例](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
   
 3. 在命令行中键入： 
     
-  ```
-  Get-CsUser -Identity "User1"
-  ```
+   ```
+   Get-CsUser -Identity "User1"
+   ```
 
 4. **注册器池**标识现在应指向为**pool_FQDN**上一步骤中指定的池。 该标识的状态，确认已成功移动该用户。 重复步骤以验证已移动**User2** 。 
     
@@ -81,17 +81,17 @@ ms.locfileid: "25028654"
     
 2. 在命令行中键入： 
     
-  ```
-  Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
-  ```
+   ```
+   Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
+   ```
 
      ![PowerShell cmdlet 和命令行管理程序中的结果](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
   
 3. 运行**Get-csuser**为试点用户之一。 
     
-  ```
-  Get-CsUser -Identity "Hao Chen"
-  ```
+   ```
+   Get-CsUser -Identity "Hao Chen"
+   ```
 
 4. 为每个用户的**注册器池**标识现在指向为**pool_FQDN**上一步骤中指定的池。 该标识的状态，确认已成功移动该用户。 
     

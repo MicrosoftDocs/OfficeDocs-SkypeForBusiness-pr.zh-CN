@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
-ms.openlocfilehash: 248156cb326c4614be717b6f851d0ea04b28dd39
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: deb26d47c2b291e83c3ed32e4175bf7a82035c67
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888311"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370850"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>试用或购买 Office 365 for Skype for Business Online 中的音频会议
 
@@ -34,9 +34,9 @@ ms.locfileid: "23888311"
 > 有关 Microsoft Teams 中的音频会议的信息，[请参阅 试用或购买 Office 365 for Skype for Microsoft Teams 中的音频会议​](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)。
 
 
-有时，组织中的用户需要使用电话拨入会议。 Skype for Business 包含了正是针对此种情况的音频会议功能。 人们可以使用电话呼入 Skype for Business 会议，而无需使用移动设备或电脑上的 Skype for Business 应用。
+Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business includes the Audio Conferencing feature for just this situation! People can call into Skype for Business meetings using a phone, instead of using the Skype for Business app on a mobile device or PC.
 
-您只需为建立音频会议计划安排或潜在顾客会议的人员。 呼入会议的与会者不需要向其分配任何许可证，也不需要其他设置。
+You only need to set up audio conferencing for people who plan to schedule or lead meetings. Meeting attendees who call in to the meeting don't need any licenses assigned to them and don't need other setup.
 
 如需了解有关定价信息，请参阅[音频会议定价](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)。
 
@@ -46,27 +46,27 @@ ms.locfileid: "23888311"
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>若要购买和分配用户音频会议许可证：
 
-1. 查找**音频会议**是否在您的国家/地区中可用。 [国家/地区和音频会议和调用计划的区域可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 
+1. Find out if **Audio Conferencing** is available in your country/region. [Countries and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). 
     
-2. 获取**音频会议**许可证。 如果想要：
+2. Get your **Audio Conferencing** licenses. If you want to:
 
-  - 在购买前**试用**，可以注册包括音频会议在内的 Office 365 企业版 E5 免费试用。 请参阅 [Office 365 企业版 E5 试用](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)。
+   - **Try it** before you buy it, you can sign up for an Office 365 Enterprise E5 free trial that includes Audio Conferencing. See [Office 365 Enterprise E5 Trial](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-  - **购买**，请参阅[业务和 Microsoft 团队授权加载项的 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+   - **购买**，请参阅[业务和 Microsoft 团队授权加载项的 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
 
 3. [如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc)分配给贵组织中打算安排或主持会议的人。
 
-4. 如果购买了音频会议外接程序许可证和通信点数许可证，也要分配它们。 有关说明，请参阅[业务和 Microsoft 团队许可证分配 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
+4. If you purchased audio conferencing add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>若要购买和分配按分钟付费的音频会议许可证：
 
-如果你是批量许可客户，则可以获取按分钟付费的音频会议许可证。 如需了解有关按分钟付费音频会议许可证的其他信息，请参阅[按分钟付费音频会议](/microsoftteams/audio-conferencing-pay-per-minute)。 
+If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conferencing licenses. For additional information on pay-per-minute Audio Conferencing licenses, see [Audio Conferencing pay-per-minute](/microsoftteams/audio-conferencing-pay-per-minute). 
   
-1. 查找**音频会议**是否在您的国家/地区中可用。 [音频会议和调用计划国家和地区的可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 
+1. Find out if **Audio Conferencing** is available in your country/region. [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). 
     
-2. 获取**音频会议**许可证。 若要获取按分钟付费音频会议许可证，请联系你的客户代表。
+2. Get your **Audio Conferencing** licenses. To acquire pay-per-minute licenses, please contact your account representative.
     
-3. 为您的组织中[设置为您的组织的通信字幕式](/microsoftteams/set-up-communications-credits-for-your-organization)。 若要设置通信点数，请参阅[什么是通信点数？](/microsoftteams/what-are-communications-credits)
+3. [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization) for your organization. To set up Communications Credits, see [What are Communications Credits?](/microsoftteams/what-are-communications-credits)
     
     > [!IMPORTANT]
     > 如果通信点数尚未设置，音频会议就不能供任何持有按每分钟付费许可证的用户使用。
@@ -78,23 +78,23 @@ ms.locfileid: "23888311"
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>第 2 步：为领导或安排会议的人员设置音频会议提供商
 
-将**音频会议**许可证分配给贵组织中会领导或安排会议的人员时，他们所有人就已经设置好并准备就绪了！ （您无需设置其音频会议提供商。）
+When you assign an **Audio Conferencing** license to people in your organization who lead or schedule meetings, they are all set up and ready to go! (You don't have to set their audio conferencing provider.)
 
 ## <a name="step-3-other-admin-tasks"></a>第 3 步：其他管理任务
 
 以下步骤为**可选**步骤，但很多管理员喜欢执行这些操作：
 
-1. [自定义会议邀请](../set-up-skype-for-business-online/customize-meeting-invitations.md)。 为用户设置的拨入号码将自动添加到要发送给与会者的会议邀请中。 但是，你也可以添加自己的帮助和法律链接、文本消息和比较小的公司图形。
+1. [Customize meeting invitations](../set-up-skype-for-business-online/customize-meeting-invitations.md). The dial-in numbers that are set for the user will be automatically added to the meeting invitations that are sent to attendees. However, you can add your own help and legal links, a text message, and small company graphic.
 
-2. [设置的电话号码包含在邀请](set-the-phone-numbers-included-on-invites.md)。 这是将显示在由用户安排的会议的电话号码。
+2. [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). This is the phone number that will show up in the meeting that is scheduled by a user.
 
-3. [设置音频会议自动助理语言](set-auto-attendant-languages-for-audio-conferencing.md)，音频会议自动助理将用这种语言在致电者拨入音频会议电话号码时向其发出问候。 此步骤仅在使用 Microsoft 作为音频会议提供商时适用。
+3. [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing.md) that the Audio Conferencing auto attendant uses to greet a caller when they dial in to an audio conferencing phone number. This step only applies if you're using Microsoft as your audio conferencing provider.
 
 4. [设置音频会议的 PIN 长度](set-the-pin-length-for-audio-conferencing-meetings.md)。
 
 
 > [!NOTE]
-> 由中国世纪互联运营的 Office 365 用户暂无法使用此功能。 如需了解更多信息，请参阅[了解由世纪互联运营的 Office 365](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)。
+> This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
 ## <a name="related-topics"></a>相关主题
 

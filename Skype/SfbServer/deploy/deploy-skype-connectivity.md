@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 摘要： 了解如何将 Skype 与 Skype 的使用者连接业务服务器。 也称为 Skype 连接。
-ms.openlocfilehash: f40b109fe63c05b3e7b0f2dc6a2b58b9a42d4434
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 33b24ff4ea609240bbb1a1bbea4a8e25154dc14a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988499"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372451"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>为业务服务器部署中 Skype 的 Skype 连接
  
@@ -200,17 +200,17 @@ Skype 业务服务器使用的联合身份验证访问体系结构以支持与 S
 
     这些不太明显的参数有什么作用？
     
-  - ProxyFqdn：Skype 联盟边缘的位置（由 Microsoft 掌控/维护）
+   - ProxyFqdn：Skype 联盟边缘的位置（由 Microsoft 掌控/维护）
     
-  - IconURL： 使用 Lync 图标&amp;业务客户端来识别 Skype 联系人的 Skype
+   - IconURL： 使用 Lync 图标&amp;业务客户端来识别 Skype 联系人的 Skype
     
-  - NameDecorationRoutingDomain 和 NameDecorationExcludedDomainList： 设置这些设置允许用户无须了解"修饰"与"msn.com"的非 Microsoft 域输入 Skype 用户 MSAs。 这的所有域不在 ExcludedDomainList 无需键入"用户 (contoso.com) @msn.com"。 SfB 客户端将自动格式化 MSA（如果域不在 Excluded 列表中）。 我们为排除列表中添加了最常见的 Microsoft 帐户域。
+   - NameDecorationRoutingDomain 和 NameDecorationExcludedDomainList： 设置这些设置允许用户无须了解"修饰"与"msn.com"的非 Microsoft 域输入 Skype 用户 MSAs。 这的所有域不在 ExcludedDomainList 无需键入"用户 (contoso.com) @msn.com"。 SfB 客户端将自动格式化 MSA（如果域不在 Excluded 列表中）。 我们为排除列表中添加了最常见的 Microsoft 帐户域。
     
-    > [!NOTE]
-    > 如果作出了更改，则必须删除并重新添加公共提供商。 不允许进行就地更改。 
+     > [!NOTE]
+     > 如果作出了更改，则必须删除并重新添加公共提供商。 不允许进行就地更改。 
   
-    > [!NOTE]
-    > Lync Server 2013 CU5 中添加&amp;Lync 桌面客户端在 Office 2013 SP1 中，NameDecorationRoutingDomain 和 NameDecorationExcludedDomainList 提高其中 Lync 用户添加 Skype 联系人，无需对"装饰"对非 Microsoft 域的情况确定并将其路由至 Skype (的格式： user(contoso.com)@msn.com)。 这些新设置将允许用户地址的自动套用格式的在"添加 Skype 联系人"对话框中输入与 NameDecorationRoutingDomain （其中应设置为 msn.com） 如果不包含在 NameDecorationExcludedDomainList （域我们当前可支持 msn.com，live.com，Hotmail.com，outlook.com）。 
+     > [!NOTE]
+     > Lync Server 2013 CU5 中添加&amp;Lync 桌面客户端在 Office 2013 SP1 中，NameDecorationRoutingDomain 和 NameDecorationExcludedDomainList 提高其中 Lync 用户添加 Skype 联系人，无需对"装饰"对非 Microsoft 域的情况确定并将其路由至 Skype (的格式： user(contoso.com)@msn.com)。 这些新设置将允许用户地址的自动套用格式的在"添加 Skype 联系人"对话框中输入与 NameDecorationRoutingDomain （其中应设置为 msn.com） 如果不包含在 NameDecorationExcludedDomainList （域我们当前可支持 msn.com，live.com，Hotmail.com，outlook.com）。 
   
 3. 通过 Skype for Business 客户端，用户现在可以搜索和添加 Skype 用户。
     

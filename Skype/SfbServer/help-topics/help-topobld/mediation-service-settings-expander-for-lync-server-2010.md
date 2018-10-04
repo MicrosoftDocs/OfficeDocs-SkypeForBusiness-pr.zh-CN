@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 230e0a08-9e16-4bbd-b550-1f04bad8ddbc
 description: 通过定义以下属性编辑中介服务的属性：
-ms.openlocfilehash: d8529a97459de70270fbe709d06c92e5a1b37af3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8dbe17e8c6fb0a8d4cffd9328d28ea1aa9b5074a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371422"
 ---
 # <a name="mediation-service-settings-expander-for-lync-server-2010"></a>Lync Server 2010 的中介服务设置扩展器
  
@@ -35,10 +36,10 @@ ms.lasthandoff: 03/28/2018
     
 - 选择一个中继、网关和站点并单击“**设为默认值**”以将选择设置为此中介服务的默认值。选择当前的默认值并单击“**取消设为默认值**”以取消将选择设置为当前默认值。然后选择一个新的默认值并单击“**设为默认值**”。
     
- **确定** 接受更改并通过对话框提交更改。
+  **确定** 接受更改并通过对话框提交更改。
   
- **取消** 放弃更改并关闭对话框。
+  **取消** 放弃更改并关闭对话框。
   
- **帮助** 显示此帮助屏幕。
+  **帮助** 显示此帮助屏幕。
   
 

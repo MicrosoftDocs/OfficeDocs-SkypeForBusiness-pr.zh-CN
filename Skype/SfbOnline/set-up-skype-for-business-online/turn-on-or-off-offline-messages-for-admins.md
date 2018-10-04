@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 653bde65bb5ba0fa7bc736de0e01979cf55ed63b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 6722f68da55ef9a9db7783727aaf010cd5df39ed
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860910"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374176"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>打开或关闭脱机消息（面向管理员）
 
@@ -40,7 +40,7 @@ ms.locfileid: "23860910"
 
 ## <a name="to-get-you-started"></a>开始使用
 
-###
+## #
 
  **检查正在运行的是 Windows PowerShell 3.0 版本或更高版本**
 
@@ -54,7 +54,7 @@ ms.locfileid: "23860910"
 
 如果需要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)。
 
-###
+## #
 
  **启动 Windows PowerShell 会话**
 
@@ -97,7 +97,7 @@ Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
   Grant -CsClientPolicy -Identity "Tony Smith" - PolicyName OfflineIM
   ```
 
-## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
+## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
 - Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
 

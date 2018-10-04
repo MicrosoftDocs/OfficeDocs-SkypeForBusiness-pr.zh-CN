@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 摘要： 了解如何为业务服务器在 Skype 测试电话拨入式会议。
-ms.openlocfilehash: 258c860a0a808b40384a766bc5151e671789a03c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e86e2c136edd8520f12944768e327e0870106f6e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966410"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372837"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>测试电话拨入式会议中的业务服务器 Skype
  
@@ -30,9 +30,9 @@ ms.locfileid: "20966410"
     
 3. 在命令提示符下，运行以下内容：
     
-  ```
-  Get-CsDialinConferencingAccessNumber -EmptyRegion
-  ```
+   ```
+   Get-CsDialinConferencingAccessNumber -EmptyRegion
+   ```
 
     此 cmdlet 返回具有尚未被访问号码使用的电话拨入式会议区域的所有拨号计划。
     
@@ -46,9 +46,9 @@ ms.locfileid: "20966410"
     
 3. 在命令提示符下，运行以下内容：
     
-  ```
-  Get-CsDialinConferencingAccessNumber -Region NULL
-  ```
+   ```
+   Get-CsDialinConferencingAccessNumber -Region NULL
+   ```
 
     此 cmdlet 返回尚未与区域关联的所有电话拨入式会议访问号码。
     
@@ -70,12 +70,12 @@ ms.locfileid: "20966410"
     
 3. 在命令提示符下，运行以下内容：
     
-  ```
-  $credentials = Get-Credential
+   ```
+   $credentials = Get-Credential
    User name:  testuser1@contoso.com
    Password:  ********
-Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
-  ```
+   Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
+   ```
 
     得出的报告将显示 Success 或 Failure，以及具体的诊断信息。 -Verbose 标志提供更多详细信息多少访问找到编号和详细信息。
     

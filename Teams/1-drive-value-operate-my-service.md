@@ -14,12 +14,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab2b118afd4796d7113bccee485c1a9a52b9b605
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0b87b4b4ff06e4cbdb4ed0bec70c381912537142
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012542"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372359"
 ---
 # <a name="operate-my-service"></a>运行我的服务
 
@@ -41,8 +41,8 @@ ms.locfileid: "25012542"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>决定操作对团队的实现方式。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>查看全文操作指南。</li><li>实现与贵组织的目标来提供语音工作负荷的质量和可靠性云对齐操作策略。</li><li>查看 Review 用户体验指南的质量。</li><li> 实现定期执行质量的体验 reviews （英文） 以确保您云语音部署运行于其峰值功能的操作策略。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>决定操作对团队的实现方式。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>查看全文操作指南。</li><li>实现与贵组织的目标来提供语音工作负荷的质量和可靠性云对齐操作策略。</li><li>查看 Review 用户体验指南的质量。</li><li> 实现定期执行质量的体验 reviews （英文） 以确保您云语音部署运行于其峰值功能的操作策略。</li></ul></td></tr>
 </table>
 
 
@@ -61,7 +61,7 @@ ms.locfileid: "25012542"
 协议位置后，应开始相应团队实施他们的角色。
 
 <table>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td>
 <td><ul><li>使用本文档的操作角色映射练习。</li><li>会见各自的支持团队能够分配所需的活动的列表中的每个项的名称。</li><li>获得接受或注销分配角色上。</li><li>确保相应团队具有适当的培训、 准备、 和资源完成所需的这些活动。</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>团队服务依赖项
@@ -180,17 +180,21 @@ Microsoft 团队是基于云的服务。 伴随这能够提供新特性和功能
 #### <a name="feature-cloud-recording-release-date-january-2018"></a>功能： 云录制 (发布日期： 年 1 月 2018年)
 
 **常规跟踪**
+
 | 更改准备 | 状态   | Notes/下一步步骤 | 所有者 |
 |----|----|----|-----|
 | 法律审阅   | 完成     | 此功能是入职培训培训团队的先决条件。 | 项目工作组  |
 
 **技术变更管理**
-| 更改准备 | 状态   | Notes/下一步步骤 | 所有者 |
-|----|----|----|-----|
-| 所需的 IT 更改          | 是                  | 管理员需要启用已识别的用户的记录。      | 支持团队           |
-| 技术准备完成 | 是                  |                                                                 | 支持团队  
-         |
+
+|       更改准备       | 状态 |                      Notes/下一步步骤                      |    所有者     |
+|------------------------------|--------|------------------------------------------------------------|--------------|
+|     所需的 IT 更改      |  是   | 管理员需要启用已识别的用户的记录。 | 支持团队 |
+| 技术准备完成 |  是   |                                                            | 支持团队 |
+|                              |        |                                                            |              |
+
 **用户变更管理** 
+
 | 更改准备 | 状态   | Notes/下一步步骤 | 所有者 |
 |----|----|----|-----|
 | 用户的影响                  | 低                  |                                                                 |                        |
@@ -199,6 +203,7 @@ Microsoft 团队是基于云的服务。 伴随这能够提供新特性和功能
 | 培训就绪               | 是                  | 培训将利用现有的 Microsoft 视频。                | 培训团队          |
 
 **状态跟踪**
+
 | 更改准备 | 状态   | Notes/下一步步骤 | 所有者 |
 |----|----|----|-----|
 | 发布状态               | 正在进行中          | 通过执行发起人的等待审阅。               | 更改管理小组 |

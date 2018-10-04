@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '了解您的运营商未列出 Skype for Business 中时如何操作。 '
-ms.openlocfilehash: 79c493d6af5e8d56ecd430842bdf808514e749ff
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 638d222231ca0f092684ebde2fab74cc034af70c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958338"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372827"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>如果我的电话运营商未列为源运营商，应该怎么办？
 
@@ -36,7 +36,7 @@ ms.locfileid: "24958338"
   
 - 如果将移植从为您的运营商的业务的 Skype 号码时，可能会看到列出级别 3。
     
- **有关完整的分步说明，请参阅[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)。**
+  **有关完整的分步说明，请参阅[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)。**
 
     > [!NOTE]
     > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

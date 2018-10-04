@@ -10,21 +10,21 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 621b08fb-f894-4d91-ac38-e443401b098b
 description: 您可以使用以下任一指标来估计每个站点和支持该流量所需的端口数的用户通信。
-ms.openlocfilehash: ec4079608bedc19e9cba2e6c1e872d770e6bce46
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e69c559c4ed56010dac3a81a97837f1131e62a2e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20980462"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25376005"
 ---
 # <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a>为业务服务器的 Skype 估计语音的使用和流量
  
 您可以使用以下任一指标来估计每个站点和支持该流量所需的端口数的用户通信。
   
 > 对于**低流量**（每个用户每小时一个 PSTN 呼叫），每个端口对应 15 个用户。
-    
+> 
 > 对于**中等流量**（每个用户每小时 2 个 PSTN 呼叫），每个端口对应 10 个用户。
-    
+> 
 > 对于**高流量**（每个用户每小时 3 个或更多 PSTN 呼叫），每个端口对应 5 个用户。
     
 反过来的端口数确定的中介服务器和网关都需要的数目。 大多数组织考虑部署大小在 2 端口到 960 端口公用电话交换网 (pstn) 网关。 （有更大的网关，但是这些主要由电话服务提供程序。）

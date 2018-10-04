@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 了解如何组织、 分配给用户的所有号码和从业务管理中心的 Skype 分配给语音用户的所有号码中的所有电话号码的列表，请参阅。
-ms.openlocfilehash: c257991c0b867cb42b5b56af0e5595257260b25a
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: a6ab8115e1b336f2ccc77548fdfe501852efbda7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347078"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370696"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>查看组织中的电话号码列表
 
@@ -50,17 +50,17 @@ ms.locfileid: "25347078"
     
 5. 下拉列表可用于筛选的视图：
     
-  - 包括服务电话号码在内的 **全部**电话号码。
+   - 包括服务电话号码在内的 **全部**电话号码。
     
-  - 设置电话**号码范围**。
+   - 设置电话**号码范围**。
     
-  - 是**分配给用户**的电话号码。
+   - 是**分配给用户**的电话号码。
     
-  - 电话号码的**分配给会议**拨入式会议。
+   - 电话号码的**分配给会议**拨入式会议。
     
-  - 电话号码的**未分配**。
+   - 电话号码的**未分配**。
     
-  - 电话号码的**位置**。
+   - 电话号码的**位置**。
     
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>查看分配给用户的所有电话号码
 
@@ -78,13 +78,13 @@ ms.locfileid: "25347078"
     > [!IMPORTANT]
     > 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
     
-4. 您可以筛选视图分配给用户的电话号码或您可以分配给用户的电话号码。 你可以按以下内容筛选：
+4. You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:
     
-  - 包括服务电话号码在内的 **全部**电话号码。
+   - 包括服务电话号码在内的 **全部**电话号码。
     
-  - **分配给用户**的号码。
+   - **分配给用户**的号码。
     
-  - **无号码分配**给用户。
+   - **无号码分配**给用户。
     
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>查看分配给语音用户的电话号码
 
@@ -102,11 +102,11 @@ ms.locfileid: "25347078"
     > [!IMPORTANT]
     > 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
     
-4. 可以使用下拉列表以筛选视图的活动用户，用户是否联机或本地或的状态和用户许可类型。 你可以按以下内容筛选：
+4. You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:
     
-  - **活动用户**以及用户是在线还是在本地。
+   - **活动用户**以及用户是在线还是在本地。
     
-  - **待处理许可证**以及用户是在线还是在本地。
+   - **待处理许可证**以及用户是在线还是在本地。
     
 ## <a name="related-topics"></a>相关主题
 [关于转移电话号码的常见问题](/microsoftteams/transferring-phone-numbers-common-questions)

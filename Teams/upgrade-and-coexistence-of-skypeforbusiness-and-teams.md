@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 836ebb663c4d3062b2cce942228d35aa6c227d07
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c680dccb697030cf0dbf7dcb75a4b26daf1ce6d3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016450"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374168"
 ---
 ![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
 
@@ -85,8 +85,8 @@ ms.locfileid: "25016450"
 
 随时间推移，用户组可以升级到**团队仅**模式，组织中的其余后跟。 最终，将已准备好停用 for Business 的 Skype 并仅团队用于通信和协作，整个组织或 — 如果业务需求将指定的一组特定保留 for Business 的 Skype — 大多数中的用户组织可以仅使用团队。 <br><br>
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul> 哪些升级旅程是适合贵组织的业务要求？<br><br></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>下一步</td><td><ul> 标识您当前的部署模型，使用的情况下，并为您的组织的主要注意事项将告知最适合您的组织迁移到团队。<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul> 哪些升级旅程适合您的组织 #39 到; s 业务要求？<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul> 标识您当前的部署模型，使用的情况下，并为您的组织的主要注意事项将告知最适合您的组织迁移到团队。<br><br></ul></td></tr>
 </table>
 
 ## <a name="upgrade-scenarios"></a>升级方案
@@ -100,8 +100,8 @@ ms.locfileid: "25016450"
 |Skype 业务服务器 （本地） |与 Azure AD 连接和 Exchange Online 的 office 365 租户<br><br> SharePoint 和 Skype for Business 是在本地部署|完整的企业语音功能集 (Skype 的业务服务器 2015年) 当前正在使用<br><br> 联系中心部署<br><br> 会议与其内部和外部联盟用户，使用 VoIP 和电话拨入式会议<br><br> 与内部和外部用户消息|部署 SharePoint Online<br><br> Skype 混合配置的业务 （拆分域）<br><br>**消息路线图**： 面向 Q2 版 2018年的联合身份验证功能<br><br> **会议路线图**： 联合与会，面向 Q2 版 2018 PSTN 会议厅功能<br><br> **调用路线图**： 面向版本 Q4 2018 和以后的功能<br><br>构建基块：<ul><li><b>群岛</b>模式 （试点）</li><li><b>团队协作仅与业务的 Skype</b>模式</li><li><b>Skype for Business with 团队协作和会议</b>模式</li><li><b>仅团队</b>模式和<b>Skype for Business 仅</b>模式</li></ul><br>调查升级到 Skype 的业务服务器 2019|
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul> 升级方案是适用于您的组织？<br><br></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul> 确定贵组织的升级旅程基于消息、 会议，并调用业务要求的时间线。<br><br> 确定所需的其他工作，完成您升级旅程。<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul> 升级方案是适用于您的组织？<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul> 确定您的组织测验的时间线 s 升级旅程基于消息、 会议，并调用业务需求。<br><br> 确定所需的其他工作，完成您升级旅程。<br><br></ul></td></tr>
 </table>
 
 您已选择后为您的组织[执行升级到团队](https://aka.ms/SkypeToTeams-Upgrade)最佳的升级旅程。

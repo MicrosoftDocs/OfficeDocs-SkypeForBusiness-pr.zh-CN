@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 迁移到 Microsoft Skype for Business Server 2019 之后，您必须完成几项任务才能配置的业务服务器 2019 以使用 System Center Operations Manager 的 Skype。
-ms.openlocfilehash: c0d15d14e158c33cda5e623ea978a0bc4f0bb920
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c54038bc89c62a9911e684e451a66f4f12a23124
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028934"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373740"
 ---
 # <a name="configure-scom-monitoring"></a>配置 SCOM 监控
 
@@ -39,13 +39,13 @@ ms.locfileid: "25028934"
     
 2. 在命令行中键入：
     
-  ```
-  New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
-  ```
+   ```
+   New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+   ```
 
-  ```
-  New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
-  ```
+   ```
+   New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
+   ```
 
     > [!NOTE]
     > 只要编辑注册表，可能会遇到错误的命令失败如果注册表项已存在。 如果您遇到此，您可以放心地忽略错误。 

@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7d3eb2d1ec03be336db51841987b5dc84f9f74f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 16a10f73614626a422bf6b869d08c4019982d0d2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013976"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375890"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>使用团队一起 Skype for Business 的组织的迁移和互操作性指南
 
@@ -25,11 +25,7 @@ ms.locfileid: "25013976"
 
 如上文宣布，即将弃用 TeamsInteropPolicy。 其功能已整合到 TeamsUpgradePolicy。 使用"共存模式"，如由 TeamsUpgradePolicy 托管互操作和迁移。 控制可以选择的用户的模式，这两个路由的传入呼叫和聊天和用户是否计划团队或 Skype for Business 中的会议。  推出，与即将开始的 TeamsAppPermissionsPolicy 一起使用，模式将也控制用户可在哪些客户端中启动聊天和呼叫。 
 
-配置 TeamsInteropPolicy 不再是必需的。 它不采用除非 TeamsUpgradePolicy 具有模式 = 旧。  TeamsUpgradePolicy 支持过程完成之后，客户应更新其配置为使用旧之外模式。
-
-
-</br>
-
+配置 TeamsInteropPolicy 不再是必需的。 它不采用除非 TeamsUpgradePolicy 具有模式 = 旧。  TeamsUpgradePolicy 支持过程完成之后，客户应更新其配置为使用旧之外模式。 授予实例 TeamsUpgradePolicy 与 mode = 旧默认情况下被阻止。
 
 ## <a name="fundamental-concepts"></a>基本概念
 
@@ -48,7 +44,7 @@ ms.locfileid: "25013976"
 
 6.  升级到团队的用户 (即，向其授予与模式 TeamsUpgradePolicy = TeamsOnly)，用户必须联机驻留在 for Business 的 Skype。 这是确保互操作、 联盟和团队用户的完整管理所需的。 若要升级用户都驻留在内部部署，使用`Move-CsUser`从内部部署管理工具到第一次移动用户对 Skype 业务 online。 然后 TeamsUpgradePolicy 和 TeamsInteropPolicy 授予联机用户或使用现代门户分配 TeamsOnly 模式。 一次的业务服务器 2015年一起提供的 Skype CU8，客户可以只使用新`-MoveToTeams`中切换`Move-CsUser`其结合使用，这 2 个步骤 1 到。
 
-7.  管理升级和互操作的核心策略是 TeamsUpgradePolicy。 TeamsInteropPolicy 已不再使用除时使用 TeamsUpgradePolicy 模式 = 旧，并使用模式的客户 = 旧应更新其配置的 TeamsUpgradePolicy 使用不同的模式。  
+7.  管理升级和互操作的核心策略是 TeamsUpgradePolicy。 TeamsInteropPolicy 已不再使用除时使用 TeamsUpgradePolicy 模式 = 旧，并使用模式的客户 = 旧应更新其配置的 TeamsUpgradePolicy 使用不同的模式。  授予模式 = 旧现在阻止默认情况下，尽管管理员可以覆盖此使用`-Force`目前。 最终，`-Force`开关将删除和授予模式 = 旧将不能进行。 
 
 8.  使用团队电话系统的功能和用户必须在 TeamsOnly 模式 （即，业务 online 驻留在 Skype 和升级到团队） 中，它们也必须配置 Microsoft 电话系统[直接路由](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277)(其中，可以使用电话系统与您拥有 SIP 中继和 SBC） 或 Office 365 调用规划。   
 
@@ -66,6 +62,7 @@ ms.locfileid: "25013976"
 下面列出了计划的模式。 SfBWithTeamsCollab 和 SfBWithTeamsCollabAndMeetings 将允许混合的使用这两个客户端，但没有重叠的功能。 群岛模式允许使用情况的两个客户端，但包含重叠的功能。 例如，在群岛模式下，用户无法启动适用于商务或团队中任一 Skype 聊天，但在 SfBWithTeamsCollab，他们可以仅聊天中 for Business 的 Skype。 请注意，不是所有模式尚未完全可用。  
 </br>
 </br>
+
 |模式|路由行为|会议日程安排|客户端体验|
 |---|---|---|---|
 |群岛|传入的 VOIP 呼叫和聊天园地中为原始发件人<sup>1</sup>的同一客户端|两者|最终用户可以发起呼叫和聊天从任一客户端，并可以安排从任一客户端的会议。|
@@ -73,7 +70,7 @@ ms.locfileid: "25013976"
 |SfBWithTeamsCollab<sup>2</sup>|传入呼叫和聊天路由至 Skype for Business|Skype for Business 仅|最终用户可以发起呼叫以及仅从 for Business 的 Skype 聊天和仅业务会议安排 Skype。 他们还可以在工作组中使用通道。 （还未实施）|
 |SfBWithTeamsCollabAndMeetings<sup>3</sup>|传入呼叫和聊天路由至 Skype for Business|仅团队|最终用户可以发起呼叫，并从业务仅和唯一的 Skype 聊天安排团队会议。 他们还可以在工作组中使用通道。 （还未实施）|
 |TeamsOnly|传入呼叫和聊天路由至团队|仅团队|最终用户可以发起呼叫以及仅来自团队聊天。 Skype for Business 才可用于加入会议。|
-|旧|路由基于 TeamsInteropPolicy|不会影响|没有任何影响。 这是临时的简化从 TeamsInteropPolicy 过渡到 TeamsUpgradePolicy 模式。 完全支持 TeamsUpgradePolicy，以便客户应更新其配置为非旧的模式。 |
+|旧|路由基于 TeamsInteropPolicy|不会影响|没有任何影响。 这是临时的简化从 TeamsInteropPolicy 过渡到 TeamsUpgradePolicy 模式。 完全支持 TeamsUpgradePolicy，因此客户不应使用此模式不再和应更新其配置为非旧的模式。 |
 |||||
 
 **说明：**
@@ -89,6 +86,7 @@ ms.locfileid: "25013976"
 TeamsUpgradePolicy 公开三个属性。 主属性是模式和 NotifySfbUsers。 操作旧参数，是完全冗余的模式和 NotifySfbUsers 的组合。
 </br>
 </br>
+
 |参数|类型|允许的值</br>（默认斜体中）|说明|
 |---|---|---|---|
 |模式|枚举|*群岛*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>旧|指示客户端应中运行的模式。 如果模式 = 旧，使用此策略的组件将还原为考虑 TeamsInteropPolicy。 TeamsUpgradePolicy 现在完全支持，客户应更新其配置使用模式旧之外。|
@@ -99,6 +97,7 @@ TeamsUpgradePolicy 公开三个属性。 主属性是模式和 NotifySfbUsers。
 团队提供的内置的只读策略通过 TeamsUpgradePolicy 所有相关的实例。 因此，仅获取并且可授予 cmdlet。 下面列出了内置的实例。
 </br>
 </br>
+
 |Identity |模式|NotifySfbUsers|操作|备注|
 |---|---|---|---|---|
 |群岛|群岛|False|无||
@@ -125,9 +124,9 @@ TeamsUpgradePolicy 公开三个属性。 主属性是模式和 NotifySfbUsers。
 
 如前所述，已由 TeamsUpgradePolicy 取代 TeamsInteropPolicy。 已更新以前适用 TeamsInteropPolicy 的所有组件，以改为服从 TeamsUpgradePolicy。 
 
-Microsoft 以前引入"旧"模式，以便从 TeamsInteropPolicy 转换为 TeamsUpgradePolicy，在旧模式，理解 TeamsUpgradePolicy 的路由组件将还原回为 TeamsInteropPolicy。 路由现在完全支持 TeamsUpgradePolicy 并且不再需要使用旧模式。 客户应更新其配置 TeamsUpgradePolicy 离开旧模式。
+Microsoft 以前引入"旧"模式，以便从 TeamsInteropPolicy 转换为 TeamsUpgradePolicy，在旧模式，理解 TeamsUpgradePolicy 的路由组件将还原回为 TeamsInteropPolicy。 路由现在完全支持 TeamsUpgradePolicy 并且不再需要使用旧模式。 客户使用旧模式应更新其配置的 TeamsUpgradePolicy 使用其他模式之一。 
 
-使用旧模式的客户应更新其配置为使用其他模式之一。 仅 TeamsInteropPolicy 下面列出的三个特定实例所支持都会提醒客户仍在使用旧模式。 每种情况下，CallingDefaultClient 的值匹配的 ChatDefaultClient，值和 AllowEndUserClientOverride 始终为 false。 
+仅 TeamsInteropPolicy 下面列出的三个特定实例所支持都会提醒客户仍在使用旧模式。 每种情况下，CallingDefaultClient 的值匹配的 ChatDefaultClient，值和 AllowEndUserClientOverride 始终为 false。 
 </br>
 </br>
 **使用 TeamsUpgradePolicy 模式时支持实例 TeamsInteropPolicy = 旧**
@@ -152,6 +151,8 @@ TeamsUpgradePolicy 控制传入的联盟的聊天和呼叫路由。 为了方便
 |Teams|TeamsOnly |
 |||
 
+当收件人群岛模式中时，聊天，并从联盟的用户园地 SfB 中调用。
+
 ## <a name="completing-the-transition-to-mode-management"></a>完成转换到模式管理
 
 今年更高版本，Microsoft 计划引入新策略的类型，TeamsAppPermissionsPolicy，以控制哪些部分团队客户端启用 （如 IM、 会议、 聊天、 通道）。 要启用/禁用团队中的工作负荷的新策略何时有空，将更新 TeamsUpgradePolicy，，以便当管理员尝试向用户授予 TeamsUpgradePolicy 实例，它将将首先检查，以确保 TeamsAppPolicy 正确配置所需的模式。 如果没有，授予将失败并解释如何必须先设置其他策略产生错误。 
@@ -163,8 +164,9 @@ TeamsUpgradePolicy 控制传入的联盟的聊天和呼叫路由。 为了方便
 仍在使用旧模式任何客户必须执行以下操作：
 
 1. 确保具有 TeamsInteropPolicy 用户分配这些三个内置情况下，之一的哪些 CallingDefaultClient = ChatDefaultClient，和哪些 AllowEndUserClientOverride = false。 这些实例是：
-</br>
-</br>
+   </br>
+   </br>
+
    |Identity |AllowEndUserClientOverride |CallingDefaultClient|ChatDefaultClient|
    |---|---|---|---|
    |`DisallowOverrideCallingDefaultChatDefault`|False|默认|默认|
@@ -180,8 +182,9 @@ TeamsUpgradePolicy 控制传入的联盟的聊天和呼叫路由。 为了方便
     ***不更新这些实例之一的组织将最终让其自动更新为这些实例之一的用户。我们很明显首选客户此操作，以便您可以选择什么是最适用于您的用户。***
 
 2. 如果您自定义内置的全局策略，撤销此操作。 您的全局策略应具有以下值：
-</br>
-</br>
+   </br>
+   </br>
+
     |参数|值|
     |---|---|
     |`AllowEndUserClientOverride`|False|

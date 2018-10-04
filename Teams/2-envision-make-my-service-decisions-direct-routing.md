@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82063cc595694c2bf60c3f6af6ab550f647c05cd
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1d79b6e0423ddb94b29a9d82ea1e6d6d1f173cf3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015322"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374439"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -51,6 +51,7 @@ ms.locfileid: "25015322"
 
 > [!TIP]
 > 下面是直接路由网站启用列表的示例。
+> 
 > | **办公室**                     | **位置**   | **电话系统服务** |
 > |--------------------------------|----------------|--------------------------|
 > | Epping 路一号                | 澳大利亚      | 旧的 PSTN 服务 |
@@ -67,17 +68,18 @@ ms.locfileid: "25015322"
 
 > [!NOTE]
 > 直接路由中，使用您的用户可以继续使用自己的电话号码，PSTN 服务提供商。
-
+> 
 > [!TIP]
 > 您可以使用以下模板文档的电话号码的详细信息。
->|用户 |电话号码 |
->|-----|-------------|
->|Emily Braun | + 44 23 4567 8901 |
->|Lidia Holloway | + 44 23 4567 89112 |
->|港 Lahr | + 44 23 4567 8921 |
->|Marcel Beauchamp | TBA |
->|Rachelle Cormier | TBA |
->|Isabell Potvin | TBA |
+> 
+> |用户 |电话号码 |
+> |-----|-------------|
+> |Emily Braun | + 44 23 4567 8901 |
+> |Lidia Holloway | + 44 23 4567 89112 |
+> |港 Lahr | + 44 23 4567 8921 |
+> |Marcel Beauchamp | TBA |
+> |Rachelle Cormier | TBA |
+> |Isabell Potvin | TBA |
 
 <!--ENDOFSECTION-->
 
@@ -96,6 +98,7 @@ ms.locfileid: "25015322"
 
 > [!TIP]
 > 按下表可以记录调用计划实现的电话系统的语音邮件详细信息。
+> 
 > | **用户**         | **Exchange 邮箱** | **启用语音邮件？** | **语音邮件转录** | **语音邮件转录亵渎屏蔽** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|
 > | Emily Braun      | Online               | 是                   | 启用                     | 启用                                       |
@@ -104,7 +107,7 @@ ms.locfileid: "25015322"
 > | Marcel Beauchamp | 本地          | 是                   | 禁用                    | 不适用                                           |
 > | Rachelle Cormier | Online               | 是                   | 禁用                    | 不适用                                           |
 > | Isabell Potvin   | 本地          | 是                   | 禁用                    | 不适用                                           |
-
+> 
 > [!NOTE]
 > 若要使用团队和语音邮件，您的用户必须具有 Exchange 邮箱。 有关详细信息，请参阅[如何 Exchange 和 Microsoft 团队进行交互](https://docs.microsoft.com/microsoftteams/exchange-teams-interact)。
 
@@ -201,6 +204,7 @@ Sbc 需要双向连接与信号和媒体的云服务进行通信。 信号是通
 
 > [!TIP]
 > 使用以下模板文档直接路由中部署的 SBC 详细信息。
+> 
 > | **SBC DNS 域名 (FQDN)** | **SBC 品牌和型号** | **证书** | **位置**  | **IP 地址** | **SIP 信号端口** | **NAT？** | **最大并发会话** | **启用媒体绕过？** |
 > |-------------------------|------------------------|-----------------|---------------|----------------|------------------------|----------|-----------------------------|---------------------------|
 > | SBC Europe.contoso.com | TBD | \*。 contoso.com | 阿姆斯特丹 | TBD | TBD | 是 | TBD | 否 |
@@ -240,13 +244,14 @@ Sbc 需要双向连接与信号和媒体的云服务进行通信。 信号是通
 
 > [!TIP]
 > 使用以下模板文档直接路由中部署的语音策略。
+> 
 > | **PSTN 用法** | **语音路由** | **号码模式** | **优先级** | **SBC** | **说明** |
 > |----------------|-----------------|----------------------------|--------------|-----------------------------------|-----------------------------------------------------------------------------------------|
 > | 仅限美国 | "Redmond 1" | \^\\+ 1 (425\|206) (\\d{7})\$ | 1 | sbc1.contoso.com sbc2.contoso.com | 活动路由 +1 425 XXX XX XX 或 +1 206 XXX XX XX 拨电话号码 |
 > | 仅限美国 | "Redmond 2" | \^\\+ 1 (425\|206) (\\d{7})\$ | 2 | sbc3.contoso.com sbc4.contoso.com | 备份路由 +1 425 XXX XX XX 或 +1 206 XXX XX XX 拨电话号码 |
 > | 仅限美国 | "其他 + 1" | \^\\+ 1 (\\d{10})\$ | 3 | sbc5.contoso.com sbc6.contoso.com | 呼叫的号码的路由 （除 +1 425 XXX XX XX 或 +1 206 XXX XX XX） + 1 XXX XXX XX XX |
 > | International | International | \\d + | 4 | sbc2.contoso.com sbc5.contoso.com | 任何号码模式的路由 |
-
+> 
 > [!IMPORTANT]
 > 在语音路由策略中的 PSTN 用法的顺序，应用，如果第一个用法中找到匹配项，则永远不会计算其他用法。
 

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 若要定义的属性外部设置下，配置以下设置：
-ms.openlocfilehash: 27bc29afd26ac280eaeb7469af530862c94b03a6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d925da792e2c2c296707a99d6a4ae6b29c0545a9
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20999728"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375606"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Lync Server 2010 的边缘服务器 FQDN 设置扩展器
  
@@ -38,10 +38,10 @@ ms.locfileid: "20999728"
     
 - 定义**A / V 边缘服务**池 FQDN (如果启用单独的 FQDN 和 IP 地址的 web 会议和 A / V 未选中) 和唯一标识服务的端口。
     
- **确定** 接受更改并通过对话框提交更改。
+  **确定** 接受更改并通过对话框提交更改。
   
- **取消** 放弃更改并关闭对话框。
+  **取消** 放弃更改并关闭对话框。
   
- **帮助** 显示此帮助屏幕。
+  **帮助** 显示此帮助屏幕。
   
 

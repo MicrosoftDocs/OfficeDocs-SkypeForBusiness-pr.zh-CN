@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0794af6763dd91005bbe8dcd8b19e5a97db55d20
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1f73c61b1c02f9560e3419d8993d998fa8f0ba9d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014440"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374792"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -67,6 +67,7 @@ ms.locfileid: "25014440"
 确认您的组织可以获取调用计划服务后, 编译用户位置或办公室，您将可以实施调用计划服务中，根据可用国家和地区的列表的列表。
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>决定哪些用户位置或将实现调用计划的办公室服务中。</li></ul>|
@@ -74,6 +75,7 @@ ms.locfileid: "25014440"
 
 > [!TIP]
 > 下面是调用计划网站启用列表与电话系统的示例。
+> 
 > | **办公室**                     | **位置**   | **电话系统服务** |
 > |--------------------------------|----------------|--------------------------|
 > | Epping 路一号                | 澳大利亚      | 旧的 PSTN 服务 |
@@ -102,6 +104,7 @@ ms.locfileid: "25014440"
 -   [紧急呼叫条款和条件](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>决定要收集用户位置或调用计划实现的范围内的办公室的紧急位置信息的粒度。</li></ul>|
@@ -109,14 +112,15 @@ ms.locfileid: "25014440"
 
 > [!TIP]
 > 您可以使用以下模板文档的详细信息的电话号码和紧急位置详细信息。
->|用户 |紧急位置和地址 |电话号码 |
->|-----|-------------------------------|-------------|
->|Emily Braun |1034/32 London Bridge Street, London, SE1, United Kingdom |+ 44 23 4567 8901 |
->|Lidia Holloway |1065/32 伦敦桥街道，伦敦，SE1，United Kingdom |+ 44 23 4567 89112 |
->|港 Lahr |1023/32 London Bridge Street, London, SE1, United Kingdom |+ 44 23 4567 8921 |
->|Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
->|Rachelle Cormier |07N15D/39 quai 是 Président Roosevelt、 92130 Issy-les-Moulineaux，法国 | TBA |
->|Isabell Potvin |07F05E/39 quai 是 Président Roosevelt、 92130 Issy-les-Moulineaux，法国 | TBA |
+> 
+> |用户 |紧急位置和地址 |电话号码 |
+> |-----|-------------------------------|-------------|
+> |Emily Braun |1034/32 London Bridge Street, London, SE1, United Kingdom |+ 44 23 4567 8901 |
+> |Lidia Holloway |1065/32 伦敦桥街道，伦敦，SE1，United Kingdom |+ 44 23 4567 89112 |
+> |港 Lahr |1023/32 London Bridge Street, London, SE1, United Kingdom |+ 44 23 4567 8921 |
+> |Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
+> |Rachelle Cormier |07N15D/39 quai 是 Président Roosevelt、 92130 Issy-les-Moulineaux，法国 | TBA |
+> |Isabell Potvin |07F05E/39 quai 是 Président Roosevelt、 92130 Issy-les-Moulineaux，法国 | TBA |
 
 <!--ENDOFSECTION-->
 
@@ -134,6 +138,7 @@ ms.locfileid: "25014440"
 有关在电话系统的实施中的语音邮件的详细信息，请参阅[Exchange server 支持的 Azure PBX 语音邮件](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#licensing-for-calling-plans)。
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>决定是否将调用计划实现中启用电话系统的语音邮件。</li><li>如果使用 Exchange 内部部署和现有部署不满足要求以支持电话系统的语音邮件，从可用选项中选择 (升级和安装电话系统的语音邮件支持、 身份验证迁移到 Exchange Online，或利用回退机制前面所述）。</li><li>决定是否将启用或禁用语音邮件转录和语音邮件转录亵渎屏蔽在整个组织或特定用户。</li></ul>|
@@ -141,14 +146,15 @@ ms.locfileid: "25014440"
 
 > [!TIP]
 > 可为以下记录调用计划实现与电话系统的电话系统的语音邮件详细信息。
->|用户 |Exchange 邮箱 |启用语音邮件？ |语音邮件转录 |语音邮件转录亵渎屏蔽 |
->|------------------|------------------|-------------------|----------|----------|
->|Emily Braun      |Online      |是 |启用 |启用 |
->|Lidia Holloway   |Online      |是 |启用 |已禁用 |
->|港 Lahr       |本地 |是 |启用 |启用 |
->|Marcel Beauchamp |本地 |是 |禁用 |不适用 |
->|Rachelle Cormier |Online      |是 |禁用 |不适用 |
->|Isabell Potvin   |本地 |是 |禁用 |不适用 |
+> 
+> |用户 |Exchange 邮箱 |启用语音邮件？ |语音邮件转录 |语音邮件转录亵渎屏蔽 |
+> |------------------|------------------|-------------------|----------|----------|
+> |Emily Braun      |Online      |是 |启用 |启用 |
+> |Lidia Holloway   |Online      |是 |启用 |已禁用 |
+> |港 Lahr       |本地 |是 |启用 |启用 |
+> |Marcel Beauchamp |本地 |是 |禁用 |不适用 |
+> |Rachelle Cormier |Online      |是 |禁用 |不适用 |
+> |Isabell Potvin   |本地 |是 |禁用 |不适用 |
 
 <!--ENDOFSECTION-->
 
@@ -157,6 +163,7 @@ ms.locfileid: "25014440"
 默认情况下，所有出站呼叫均使用分配的电话号码作为呼叫标识（呼叫方 ID）。 呼叫接收人可以快速识别呼叫方，并决定是接收还是拒绝呼叫。 在某些情况下，有合法的业务要求屏蔽要使用的 office 主行号保护呼叫者的标识的呼叫者 ID — 这通常是由自动助理配置一个服务号 — 为呼叫者 ID，或阻止呼叫者 ID演示文稿完全忽略。
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>决定是否需要调用计划实现对呼叫者 ID 操作。</li><li>如果适用，确定呼叫者 ID 操作的类型 （屏蔽与服务号码或匿名） 实现。</li><li>如果适用，决定哪些用户需要呼叫者 ID 操作和要分配给每个用户的呼叫者 ID 操作的类型。</li></ul>|
@@ -164,14 +171,15 @@ ms.locfileid: "25014440"
 
 > [!TIP]
 > 下面是呼叫者 ID 屏蔽详细信息的文档的示例。
->|用户  |启用出站呼叫方 ID 屏蔽  |呼叫方 ID 屏蔽类型  |允许用户覆盖  | 启用入站呼叫方 ID 屏蔽  |
->|---------|---------|---------|---------|---------|
->|Emily Braun|否|不适用|是|否|
->|Lidia Holloway|是|服务号码（OrgAA，+44 20 7946 0000）|否|是|
->|港 Lahr|否|不适用|是|否|
->|Marcel Beauchamp|是|服务号码（OrgAA，待定）|否|是|
->|Rachelle Cormier|是|匿名|是|否|
->|Isabell Potvin|是|服务号码（OrgAA，待定）|否|是|
+> 
+> |用户  |启用出站呼叫方 ID 屏蔽  |呼叫方 ID 屏蔽类型  |允许用户覆盖  | 启用入站呼叫方 ID 屏蔽  |
+> |---------|---------|---------|---------|---------|
+> |Emily Braun|否|不适用|是|否|
+> |Lidia Holloway|是|服务号码（OrgAA，+44 20 7946 0000）|否|是|
+> |港 Lahr|否|不适用|是|否|
+> |Marcel Beauchamp|是|服务号码（OrgAA，待定）|否|是|
+> |Rachelle Cormier|是|匿名|是|否|
+> |Isabell Potvin|是|服务号码（OrgAA，待定）|否|是|
 
 <!--ENDOFSECTION-->
 
@@ -211,6 +219,7 @@ ms.locfileid: "25014440"
 -   [通话套餐](https://products.office.com/skype-for-business/calling-plans)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>如果您的组织没有所需的电话系统许可证，决定是否按您现有的 Office 365 订阅逐步升级，或获取电话系统加载项服务，您将能够获得的电话系统许可证。</li><li>决定哪些用户需要国内调用规划许可证而需要国内和国际呼叫规划许可证。</li><li>决定是否需要 Communications 字幕式适合调用计划实施。</li></ul>|
@@ -218,14 +227,15 @@ ms.locfileid: "25014440"
 
 > [!TIP]
 > 您可以使用下面的示例文档的电话系统与调用计划用户许可证分配。
->|用户 |办公地点 |Office 365 许可证 |调用计划 |
->|----|----|----|----|
->|Emily Braun |伦敦桥大街 32 号 |Office 365 E5 |国际和国内通话套餐 |
->|Lidia Holloway |伦敦桥大街 32 号 |Office 365 E5 |国内通话套餐 |
->|港 Lahr |伦敦桥大街 32 号 |Office 365 E5 |国内通话套餐 |
->|Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3，电话系统加载项 |国内通话套餐 |
->|Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |国际和国内通话套餐 |
->|Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3，电话系统加载项 |国内通话套餐 |
+> 
+> |用户 |办公地点 |Office 365 许可证 |调用计划 |
+> |----|----|----|----|
+> |Emily Braun |伦敦桥大街 32 号 |Office 365 E5 |国际和国内通话套餐 |
+> |Lidia Holloway |伦敦桥大街 32 号 |Office 365 E5 |国内通话套餐 |
+> |港 Lahr |伦敦桥大街 32 号 |Office 365 E5 |国内通话套餐 |
+> |Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3，电话系统加载项 |国内通话套餐 |
+> |Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |国际和国内通话套餐 |
+> |Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3，电话系统加载项 |国内通话套餐 |
 
 <!--ENDOFSECTION-->
 
@@ -240,6 +250,7 @@ ms.locfileid: "25014440"
 若要了解有关 Communications 字幕式的详细信息，请查看[Communications 字幕式是什么？](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)。
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>决定是否需要 Communications 字幕式音频会议或调用计划实施。</li></ul>|
@@ -247,23 +258,21 @@ ms.locfileid: "25014440"
 
 > [!TIP]
 > 使用下面的示例文档调用计划的用户的通信字幕式工作分配列表。
->|用户 |办公地点 |调用计划 |通信点数 |
->|----|----|----|----|
->|Emily Braun |伦敦桥大街 32 号 |国际和国内通话套餐 |启用 |
->|Lidia Holloway |伦敦桥大街 32 号 |国内通话套餐 |已禁用 |
->|港 Lahr |伦敦桥大街 32 号 |国内通话套餐 |启用 |
->|Marcel Beauchamp |39 quai du Président Roosevelt |国内通话套餐 |禁用 |
->|Rachelle Cormier |39 quai du Président Roosevelt |国际和国内通话套餐 |启用 |
->|Isabell Potvin |39 quai du Président Roosevelt |国内通话套餐 |已禁用 |
+> 
+> |用户 |办公地点 |调用计划 |通信点数 |
+> |----|----|----|----|
+> |Emily Braun |伦敦桥大街 32 号 |国际和国内通话套餐 |启用 |
+> |Lidia Holloway |伦敦桥大街 32 号 |国内通话套餐 |已禁用 |
+> |港 Lahr |伦敦桥大街 32 号 |国内通话套餐 |启用 |
+> |Marcel Beauchamp |39 quai du Président Roosevelt |国内通话套餐 |禁用 |
+> |Rachelle Cormier |39 quai du Président Roosevelt |国际和国内通话套餐 |启用 |
+> |Isabell Potvin |39 quai du Président Roosevelt |国内通话套餐 |已禁用 |
 
 <br>
-> [!TIP]
-> 规划数字您 Communications 字幕式可以如以下示例所示进行归档。
->|         |         |
->|---------|---------|
->|初始数额|$ 1,000|
->|触发数额|$400|
->|自动充值数额|TBA|
+&gt; [!TIP]
+&gt;规划数字您 Communications 字幕式可以如以下示例所示进行归档。
+&gt;|        |        |&gt;|---------|---------|
+&gt;|初始量 | 1000 |&gt;|触发量 | $ 400 |&gt;|自动充电量 |待发布 |
 
 <!--ENDOFSECTION-->
 
@@ -290,6 +299,7 @@ Microsoft 云语音解决方案中的电话号码的两种类型包括：
 有关您可以获取的电话号码的总计的详细信息，请参阅[您可以获取多少个电话号码？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>确定用户位置或办公室，其中将从 Microsoft 获取新电话号码。</li><li>决定从 Microsoft 获得的电话号码的类型。</li></ul>|
@@ -312,6 +322,7 @@ Microsoft 云语音解决方案中的电话号码的两种类型包括：
 -   [关于转移电话号码的常见问题](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>确定用户位置或现有的电话号码将位置传输到 Microsoft 办事处。</li><li>决定要转移到 Microsoft 的电话号码的类型。</li></ul>|
@@ -343,6 +354,7 @@ Office 365 的电话系统功能中的拨号计划是翻译的规范化规则的
 有关拨号计划的详细信息，请参阅[拨号计划是什么？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>确定您的组织是否需要自定义的拨号计划 （业务要求、 采用要求等）。</li><li>如果适用，决定租户拨号计划的范围 (租户全局或租户用户) 以支持自定义的拨号计划的要求。</li><li>如果适用，决定支持云语音实现的范围内的用户的位置或办公室，您将创建租户拨号计划。</li><li>如果适用，决定哪些用户需要自定义的拨号计划和每个用户分配的租户拨号计划。</li></ul>|
@@ -350,36 +362,24 @@ Office 365 的电话系统功能中的拨号计划是翻译的规范化规则的
 
 > [!TIP]
 > 适用于您的项目时，您可以使用以下模板文档的租户拨号计划配置。
->|租户拨号计划名称<br>_说明_  |规范化规则名称<br>_说明_  |模式<br>转换<br>IsInternalExtension  |
->|---------|---------|---------|
->|**AU-NSW-NorthRyde-OER**<br>_新南威尔士北莱德 Epping 路一号，AU 拨号计划_|**AU-NSW-NorthRyde-OER-Internal**<br>_澳大利亚新南威尔士北莱德 Epping 路一号办公地点的内部号码 (x7000 - x7999)_|^(7\d{3})$<br>+6125550$1<br>True|
->||**AU-NSW-Local**<br>_澳大利亚新南威尔士的本地号码规范化_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
->||**AU-TollFree**<br>_澳大利亚的免费电话号码规范化_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
->||**AU-Service**<br>_澳大利亚的服务号码规范化_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
->|**SG-Singapore-OMB**<br>_新加坡 OMB，SG 拨号计划_|**SG-OMB-Internal**<br>_内部号码 （"x 8999 x8000 â €） OMB office，新加坡_|^(8\d{3})$<br>+656888$1<br>True|
->||**SG-TollFree**<br>_新加坡的免费电话号码规范化_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
->||**SG-Service**<br>_新加坡的服务号码规范化_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
->|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux，法国拨号计划_|**FR-39qdPR-Internal**<br>_内部号码 （"x 7999 x7000 â €） 39 quai 是 Président Roosevelt office，Issy-les-Moulineaux，法国_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_法国的免费电话号码规范化_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
->||**FR-Service**<br>_法国的服务号码规范化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+> 
+> |租户拨号计划名称<br>_说明_  |规范化规则名称<br>_说明_  |模式<br>转换<br>IsInternalExtension  |
+> |---------|---------|---------|
+> |**AU-NSW-NorthRyde-OER**<br>_新南威尔士北莱德 Epping 路一号，AU 拨号计划_|**AU-NSW-NorthRyde-OER-Internal**<br>_澳大利亚新南威尔士北莱德 Epping 路一号办公地点的内部号码 (x7000 - x7999)_|^(7\d{3})$<br>+6125550$1<br>True|
+> ||**AU-NSW-Local**<br>_澳大利亚新南威尔士的本地号码规范化_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
+> ||**AU-TollFree**<br>_澳大利亚的免费电话号码规范化_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
+> ||**AU-Service**<br>_澳大利亚的服务号码规范化_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
+> |**SG-Singapore-OMB**<br>_新加坡 OMB，SG 拨号计划_|**SG-OMB-Internal**<br>_内部号码 （"x 8999 x8000 â €） OMB office，新加坡_|^(8\d{3})$<br>+656888$1<br>True|
+> ||**SG-TollFree**<br>_新加坡的免费电话号码规范化_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
+> ||**SG-Service**<br>_新加坡的服务号码规范化_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux，法国拨号计划_|**FR-39qdPR-Internal**<br>_内部号码 （"x 7999 x7000 â €） 39 quai 是 Président Roosevelt office，Issy-les-Moulineaux，法国_|^(7\d{3})$<br>+3319999$1<br>True|
+> ||**FR-TollFree**<br>_法国的免费电话号码规范化_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+> ||**FR-Service**<br>_法国的服务号码规范化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
-> [!TIP]
-> 可以利用下面的示例模板来记录拨号计划分配以支持你的项目：
->|用户  |办公地点  |拨号计划类型  |拨号计划名称  |
->|---------|---------|---------|---------|
->|Adele Vance|Epping 路一号|租户拨号计划|AU-NSW-NorthRyde-OER|
->|Alex Wilber|Epping 路一号|租户拨号计划|AU-NSW-NorthRyde-OER|
->|Ben Walters|Epping 路一号|租户拨号计划|AU-NSW-NorthRyde-OER|
->|Christie Cline|滨海林荫道一号|租户拨号计划|SG-Singapore-OMB|
->|Debra Berger|滨海林荫道一号|租户拨号计划|SG-Singapore-OMB|
->|Lee Gu|滨海林荫道一号|租户拨号计划|SG-Singapore-OMB|
->|Emily Braun|伦敦桥大街 32 号|服务拨号计划|不适用|
->|Lidia Holloway|伦敦桥大街 32 号|服务拨号计划|不适用|
->|港 Lahr|伦敦桥大街 32 号|服务拨号计划|不适用|
->|Marcel Beauchamp|39 quai du Président Roosevelt|租户拨号计划|FR-Paris-Issy-30qdPR|
->|Rachelle Cormier|39 quai du Président Roosevelt|租户拨号计划|FR-Paris-Issy-30qdPR|
->|Isabell Potvin|39 quai du Président Roosevelt|租户拨号计划|FR-Paris-Issy-30qdPR|
+&gt; [!TIP]
+&gt;下面的示例模板可以利用文档来支持您的项目的拨号计划分配到： &gt;|用户 |Office |拨号计划类型 |拨号计划名称 |&gt;|---------|---------|---------|---------|
+&gt;|Adele Vance |一个 Epping 旅途 |租户拨号计划 |AU NSW NorthRyde OER |&gt;|Alex Wilber |一个 Epping 旅途 |租户拨号计划 |AU NSW NorthRyde OER |&gt;|Ben Walters |一个 Epping 旅途 |租户拨号计划 |AU NSW NorthRyde OER |&gt;|很快 Cline |一个船坞 Boulevard |租户拨号计划 |SG-新加坡 OMB |&gt;|徐高阳 |一个船坞 Boulevard |租户拨号计划 |SG-新加坡 OMB |&gt;|李 Gu |一个船坞 Boulevard |租户拨号计划 |SG-新加坡 OMB |&gt;|Emily Braun | 32 伦敦桥街道 |服务拨号计划 |N/A |&gt;|Lidia Holloway | 32 伦敦桥街道 |服务拨号计划 |N/A |&gt;|港 Lahr | 32 伦敦桥街道 |服务拨号计划 |N/A |&gt;|Marcel Beauchamp | 39 quai 是 Président Roosevelt |租户拨号计划 |FR 巴黎 Issy 30qdPR |&gt;|Rachelle Cormier | 39 quai 是 Président Roosevelt |租户拨号计划 |FR 巴黎 Issy 30qdPR |&gt;|Isabell Potvin | 39 quai 是 Président Roosevelt |租户拨号计划 |FR 巴黎 Issy 30qdPR |
 
 <!--ENDOFSECTION-->
 

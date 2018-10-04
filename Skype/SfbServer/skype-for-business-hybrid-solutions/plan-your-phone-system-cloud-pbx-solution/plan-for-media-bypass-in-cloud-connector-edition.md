@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: 阅读本主题，以了解使用云连接器版本 2.0 版和更高版本实现媒体旁路的规划注意事项。 有关部署媒体绕过，请参阅 Deploy 媒体绕过云连接器版本中。
-ms.openlocfilehash: da6432f20690162a8de2a9d63438a4c4a5bf162b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a3cfaea8d963efa4f7774b8b589fcd0ecc61d3bc
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886134"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370999"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>在云连接器版本中规划媒体旁路
  
@@ -64,7 +64,7 @@ ms.locfileid: "23886134"
     
 4. 阿姆斯特丹中的管理中心网关创建相应的路由决策，然后发送到 SBC 或中苏黎世，直接之间业务客户端和 SBC 或网关阿姆斯特丹 Skype 的媒体流时的网关的通信。
     
- 此方法允许提供更多的用户，每一个云连接器部署集中进行云连接器。 尽管从媒体路径消除了云连接器，集中的多站点方案中媒体可能仍通过 WAN 两次所需通过集中 SBC 或网关的排列。
+   此方法允许提供更多的用户，每一个云连接器部署集中进行云连接器。 尽管从媒体路径消除了云连接器，集中的多站点方案中媒体可能仍通过 WAN 两次所需通过集中 SBC 或网关的排列。
   
 如果客户端位于企业网络发起出站呼叫，媒体流量的流动苏黎世和阿姆斯特丹，之间的云连接器和 WAN 链接的边缘服务器和中介服务器通过下图中所示：
   

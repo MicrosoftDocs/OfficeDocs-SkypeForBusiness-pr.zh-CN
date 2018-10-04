@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 对于业务服务器 2019年池用户移动到 Skype 后，您可以迁移响应组。 迁移响应组包括复制代理组、 队列、 工作流、 音频文件，并将从旧部署的响应组联系人对象移动到业务服务器 2019年池 Skype。 迁移旧版响应组后，对响应组呼叫处理中为 Business Server 2019 池 Skype 的响应组应用程序。 由旧池不再处理响应组呼叫。
-ms.openlocfilehash: bdff9b96b73e925fb68b4a2f9bebb9b23edb4b56
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 89149210e8041fbc84834cec83e1c1fe13d0765c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028017"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372935"
 ---
 # <a name="migrate-response-groups"></a>迁移响应组
 
@@ -56,15 +56,15 @@ Skype 的业务服务器 2019年引入了一个称为**工作流类型**的新�
     
 3. 运行：
     
-  ```
-  Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
-  ```
+   ```
+   Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
+   ```
 
     例如：
     
-  ```
-  Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
-  ```
+   ```
+   Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
+   ```
 
 4. 向业务服务器 2019年池 Skype 迁移响应组和代理后，代理用于登录和注销 URL 是业务服务器 2019 URL Skype，可从**工具**菜单。 提醒代理更新为新的 URL 的任何引用，如书签。 
     
@@ -90,31 +90,31 @@ Skype 的业务服务器 2019年引入了一个称为**工作流类型**的新�
     
     有关以下 cmdlet 的详细信息，请运行：
     
-  ```
-  Get-Help <cmdlet name> -Detailed
-  ```
+   ```
+   Get-Help <cmdlet name> -Detailed
+   ```
 
 3. 运行：
     
-  ```
-  Get-CsRgsAgentGroup
-  ```
+   ```
+   Get-CsRgsAgentGroup
+   ```
 
 4. 确认旧环境中的所有代理组都包含在列表中。
     
 5. 运行：
     
-  ```
-  Get-CsRgsQueue
-  ```
+   ```
+   Get-CsRgsQueue
+   ```
 
 6. 确认旧环境中的所有队列都包含在列表中。
     
 7. 运行：
     
-  ```
-  Get-CsRgsWorkflow
-  ```
+   ```
+   Get-CsRgsWorkflow
+   ```
 
 8. 确认旧环境中的所有工作流都包含在列表中。
     

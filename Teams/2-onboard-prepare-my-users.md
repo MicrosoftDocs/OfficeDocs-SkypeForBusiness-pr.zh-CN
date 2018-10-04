@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f15ca933c2eaeda60308f1dd7f2cbbf996b89c42
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a751834c978c205316c1fd383f571d67d349f0b2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014962"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371722"
 ---
 # <a name="prepare-my-users"></a>准备我的用户
 
@@ -46,8 +46,8 @@ ms.locfileid: "25014962"
 ![两列表格远景-为什么我们这样做？（组织级别） 的左侧，和 Value-什么是在其中为我？（用户级别） 右侧](media/prepare-my-users-new-image1.png "两列表与远景-为什么我们这样做？（组织级别） 的左侧，和 Value-什么是在其中为我？（用户级别） 右侧")
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>您明确的好处和价值向用户获得其购买-在此新的解决方案的方式？</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>创建当前项目范围，确保它们与您的目标对齐您构想和值的语句。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>您明确的好处和价值向用户获得其购买-在此新的解决方案的方式？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>创建当前项目范围，确保它们与您的目标对齐您构想和值的语句。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -57,8 +57,8 @@ ms.locfileid: "25014962"
 组织准备情况可帮助确定如何乐于接受 （或不） 用户可能会对不断变化的工作的方式。 了解如何响应用户可能更改使您的组织主动解决问题，调整为最佳接收推出计划和确定用户可以成为拥护者或大使可帮助加快更改。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>？ 用户做好准备，愿意更改到新的解决方案</li><li>用户是否有要加快更改的功能或 1&competency？</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>使用下面的对话启动器了解您的组织的区域性设置时更改。 此信息可帮助通知的知晓和培训，您可能需要多少实现您的项目。
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>？ 用户做好准备，愿意更改到新的解决方案</li><li>用户是否有要加快更改的功能或 1&competency？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>使用下面的对话启动器了解您的组织的区域性设置时更改。 此信息可帮助通知的知晓和培训，您可能需要多少实现您的项目。
 </li></ul></td></tr>
 </table>
 
@@ -96,8 +96,8 @@ ms.locfileid: "25014962"
 人员级分析提供了您了解您的用户角色、 群体，以及使用情况。 按照时间了解您的用户是谁和它们的工作方式，您可以确保拥有所需实现更改时才能成功。 这可能包括目标消息、 培训或偶数的设备，例如耳麦和网络摄像机。 例如，主管预想一对一培训，而旅行字段代表可能受益视频他们可以在其有空观看培训。 此外，人员级分析可帮助确定谁应开始使用立即与谁可能最佳由等待的新功能。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>特定用户或群体具有核心依赖关系有效地完成其作业此解决方案？</li><li>是否有特定的使用情况下，可以使用此新的解决方案可简化？</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>映射用户角色。 首先，将基本用户划分群体个人/组 （Executives、 旅途战士、 协作工作者、 零售，等等）。 对于可管理性，列出不能超过八组。 （示例对话启动器 （英文），请参阅下面。）使用您的发现进一步设计您的用户准备情况市场活动和分隔试生产用户从那些从更高版本上升级中获益。
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>特定用户或群体具有核心依赖关系有效地完成其作业此解决方案？</li><li>是否有特定的使用情况下，可以使用此新的解决方案可简化？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>映射用户角色。 首先，将基本用户划分群体个人/组 （Executives、 旅途战士、 协作工作者、 零售，等等）。 对于可管理性，列出不能超过八组。 （示例对话启动器 （英文），请参阅下面。）使用您的发现进一步设计您的用户准备情况市场活动和分隔试生产用户从那些从更高版本上升级中获益。
 </li><li>映射用例。 您已确定将受益于这项新技术核心用户组后，请考虑您的常规用户群。 了解跨团队使用情况和方案，您可以可视化组织使用这项新技术。 此外，添加使用案例示例向您的通信和培训计划真正帮助使您的用户相关。</li></ul></td></tr>
 </table>
 
@@ -143,13 +143,13 @@ ms.locfileid: "25014962"
 了解您的用户是谁以及它们将如何在新的解决方案后，您可以设计的准备工作计划。 您的用户的准备工作计划了如何将通信、 培训，并为您试验加载，支持您的用户和运行新解决方案。 根据您在本文前面的步骤中发现，准备不是通用的。 开始使用广泛的认知度并培训计划，合并消息在此过程的开头定义的值。 然后定制您消息，培训，并支持的角色或已定义的群体根据。 您的个性化的规划将使用户能够更快地相关时演示您了解他们的需求，可帮助缩短其过渡到新的解决方案。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>您可以提供哪些准备工作计划来帮助加快并加快采用新解决方案？</li><li>您必须右认知、 培训和支持资源，分别用户能够更改和已定义的用户角色？</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>使用下节中列表生成的准备工作计划的想法。 选择最相关的&mdash;或添加您自己&mdash;设计优化您的组织的准备工作计划。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>您可以提供哪些准备工作计划来帮助加快并加快采用新解决方案？</li><li>您必须右认知、 培训和支持资源，分别用户能够更改和已定义的用户角色？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>使用下节中列表生成的准备工作计划的想法。 选择最相关的&mdash;或添加您自己&mdash;设计优化您的组织的准备工作计划。</li></ul></td></tr>
 </table>
 
 ### <a name="readiness-plan-ideas"></a>准备计划想法
 
 <table>
 <tr><th>通信</th><th>培训</th><th>支持</th></tr>
-<tr><td><ul><li>电子邮件&mdash;个性化我们[语音电子邮件模板](prepare-my-users-email-templates.md)</li><li>海报和数字签名 </li><li>启动事件</li><li>部门经理</li><li>支持者</li><li>团队和频道</li><li>Gamification</li></ul></td><td><ul><li>文章和来自 Microsoft 的视频：<ul><li>[切换到团队从 Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</li><li>[团队视频培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</li><li>[会议和呼叫](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)</li></li></ul><li>内部帮助 （T 自动程序）</li><li>内部培训团队</li><li>合作伙伴培训团队</li></ul></td><td><ul><li>内部帮助台</li><li>外包的支持桌面</li><li>自助 （intranet 网站）</li><li>[联机帮助和操作方法](https://support.office.com/teams)</li><li>Floor walkers 和拥护者</li><li>反馈循环&mdash;，请参阅[示例用户反馈调查](prepare-my-users-feedback-templates.md)</li></td></tr>
+<tr><td><ul><li>电子邮件&mdash;个性化我们<a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">语音电子邮件模板</a></li><li>海报和数字签名 </li><li>启动事件</li><li>部门经理</li><li>支持者</li><li>团队和频道</li><li>Gamification</li></ul></td><td><ul><li>文章和来自 Microsoft 的视频：<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">切换到团队从 Skype for Business</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">团队视频培训</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">会议和呼叫</a></li></li></ul><li>内部帮助 （T 自动程序）</li><li>内部培训团队</li><li>合作伙伴培训团队</li></ul></td><td><ul><li>内部帮助台</li><li>外包的支持桌面</li><li>自助 （intranet 网站）</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">联机帮助和操作方法</a></li><li>Floor walkers 和拥护者</li><li>反馈循环&mdash;，请参阅<a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">示例用户反馈调查</a></li></td></tr>
 </table>

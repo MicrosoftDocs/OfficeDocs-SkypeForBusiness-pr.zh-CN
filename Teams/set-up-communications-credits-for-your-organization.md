@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: f82788d34e492b6dd3fe54c60168b8d83b3c09e2
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d97c95ed3fd4d398a4422645ab1e1491e1df6e3c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018006"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375234"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>为组织设置通信点数
 
@@ -67,18 +67,18 @@ ms.locfileid: "25018006"
     
 4. 在**Communications 字幕式**订阅页中，填写您的信息，然后单击**下一步**:
     
-  - **添加资金**输入要添加到您的帐户的金额。 如果您不启用自动充电，都用完这些资金，调用使用 Communications 字幕式启用的功能将会中断 （如入站免费电话服务）。 若要避免无需手动补充 Communications 字幕式平衡每次您平衡达到 0 （零），我们建议您启用自动充电功能。
+   - **添加资金**输入要添加到您的帐户的金额。 如果您不启用自动充电，都用完这些资金，调用使用 Communications 字幕式启用的功能将会中断 （如入站免费电话服务）。 若要避免无需手动补充 Communications 字幕式平衡每次您平衡达到 0 （零），我们建议您启用自动充电功能。
     
-  - **自动充值**：启用自动充值将在余额低于你设置的阈值时自动补充你的帐户余额。
+   - **自动充值**：启用自动充值将在余额低于你设置的阈值时自动补充你的帐户余额。
     
-    建议使用**自动充电**设置以避免服务的任何中断应 Communications 字幕式平衡达到 0 （零）。 充电事务成功，充电事务失败 （如信用卡过期），以及 Communications 字幕式平衡达到 0 （零） 时，您将会发送电子邮件。
+     建议使用**自动充电**设置以避免服务的任何中断应 Communications 字幕式平衡达到 0 （零）。 充电事务成功，充电事务失败 （如信用卡过期），以及 Communications 字幕式平衡达到 0 （零） 时，您将会发送电子邮件。
     
-  - **为充电量**在要添加到您的帐户下, 触发量到达的**为充电与**框中输入的金额。
+   - **为充电量**在要添加到您的帐户下, 触发量到达的**为充电与**框中输入的金额。
     
-  - **触发量**向*触发器*自动充电**平衡低于时**将使用的框中输入的金额。 一旦您平衡低于这个值，将自动将充电量添加到您的帐户。
+   - **触发量**向*触发器*自动充电**平衡低于时**将使用的框中输入的金额。 一旦您平衡低于这个值，将自动将充电量添加到您的帐户。
 
       > [!NOTE]
-    > 资金将仅可用于使用服务时，microsoft Communications 字幕式发布率。 自购买之日起的 12 个月内未使用的任何资金将过期并丢失。 
+     > 资金将仅可用于使用服务时，microsoft Communications 字幕式发布率。 自购买之日起的 12 个月内未使用的任何资金将过期并丢失。 
     
 5. 输入您的付款信息并单击 **下订单** 。
     >[!IMPORTANT]

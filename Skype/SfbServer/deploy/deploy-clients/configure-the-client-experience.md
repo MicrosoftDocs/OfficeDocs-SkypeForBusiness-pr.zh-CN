@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 摘要： 阅读本主题可了解如何配置 Skype 业务用户的客户端体验。
-ms.openlocfilehash: 18fb67b88673dd2edfe3816d485a8cb05c84f3ae
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9e2a7d53788eda36fc18cb9094cde096864ce2ba
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21018186"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375356"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>配置与业务 2015年的 Skype 的客户端体验
  
@@ -88,13 +88,13 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
     
     该注册表项应类似于以下内容：
     
- <pre>
-[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]
-"CanSharePptInCollab"=dword:00000001
-"CanShareOneNoteInCollab"=dword:00000001
-"CanAppShareInCollab"=dword:00000001
-"EnableSkypeUI"=hex:00,00,00,00
-</pre>
+   <pre>
+   [HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]
+   "CanSharePptInCollab"=dword:00000001
+   "CanShareOneNoteInCollab"=dword:00000001
+   "CanAppShareInCollab"=dword:00000001
+   "EnableSkypeUI"=hex:00,00,00,00
+   </pre>
 
 当用户首次启动 Skype for Business 客户端时，现在将显示 Lync 用户界面。
   

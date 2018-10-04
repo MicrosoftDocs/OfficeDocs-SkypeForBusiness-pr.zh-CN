@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: 验证您的响应组部署成功，业务 Server 企业语音的 Skype 中。
-ms.openlocfilehash: f92181f63606ff3c4322fdefb814e9682c79b0cc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4832b64d6bf4d26dd9d4cba10e46ef78b3f3b396
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002696"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374814"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>（可选）Skype for Business 中的验证响应组部署
  
@@ -31,7 +31,7 @@ ms.locfileid: "21002696"
     
 - 驻留在 for Business 的 Skype 上代理
     
- **Scenarios**
+  **Scenarios**
   
 - Skype 业务用户呼叫响应组。
     

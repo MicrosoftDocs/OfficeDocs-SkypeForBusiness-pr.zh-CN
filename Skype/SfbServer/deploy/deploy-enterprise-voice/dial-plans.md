@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 摘要： 了解如何创建或修改拨号计划使用 Skype 业务 Server Control Panel。
-ms.openlocfilehash: 8c4a8013268c878390fdcea08dc79e094d8fa4dd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dc60b2b2f922e5f6581f6742d055243ccfe06113
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884255"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371066"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>创建或修改拨号计划中 Skype 业务服务器
 
@@ -38,8 +38,8 @@ ms.locfileid: "23884255"
 
    - “用户拨号计划”**** 可以应用于指定的用户或组。
 
-    > [!NOTE]
-    > 选择拨号计划作用域后，就无法更改。
+     > [!NOTE]
+     > 选择拨号计划作用域后，就无法更改。
 
 4. 如果要创建用户拨号计划，请在“新建拨号计划”**** 对话框的“名称”**** 字段中输入描述性名称。保存此名称后，就无法更改。
 
@@ -48,8 +48,8 @@ ms.locfileid: "23884255"
 
 5. “简单名称”**** 字段会使用与“名称”**** 字段中显示的相同名称预先填充。您可以选择编辑该字段来指定描述性更强的名称，以反映应用该拨号计划的站点、服务或用户。
 
-    > [!IMPORTANT]
-    > 此“简单名称”**** 在部署中的所有拨号计划内必须是唯一的。 它不能超过 256 个 Unicode 字符，其中每个可以是一个字母或数字字符，连字符 （-）、 句点 （.） 或下划线 (_)。 >**不支持**字符 RFC 3966 标准中定义包括空格和保留的字符 (http://www.ietf.org/rfc/rfc3966.txt)。 保留的**简单名称**中**不支持**字符，包括： >";""/""?"":""@""&amp;""=""+""$""、"
+   > [!IMPORTANT]
+   > 此“简单名称”**** 在部署中的所有拨号计划内必须是唯一的。 它不能超过 256 个 Unicode 字符，其中每个可以是一个字母或数字字符，连字符 （-）、 句点 （.） 或下划线 (_)。 >**不支持**字符 RFC 3966 标准中定义包括空格和保留的字符 (<http://www.ietf.org/rfc/rfc3966.txt>)。 保留的**简单名称**中**不支持**字符，包括： >";""/""?"":""@""&amp;""=""+""$""、"
 
 6. （可选）在“说明”**** 字段中，您可以键入有关拨号计划的其他描述性信息。
 
@@ -94,7 +94,7 @@ ms.locfileid: "23884255"
 
 ### <a name="to-modify-a-dial-plan"></a>修改拨号计划
 
-1.  以 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator、 CsServerAdministrator 或 CsAdministrator 角色的成员身份登录到计算机。 有关详细信息，请参阅**Delegate Setup Permissions**。
+1. 以 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator、 CsServerAdministrator 或 CsAdministrator 角色的成员身份登录到计算机。 有关详细信息，请参阅**Delegate Setup Permissions**。
 
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。
 
@@ -134,8 +134,8 @@ ms.locfileid: "23884255"
 
    - 要从拨号计划中删除某个规范化规则，请突出显示相应的规则名称，然后单击“删除”****。
 
-    > [!NOTE]
-    > 每个拨号计划都必须至少有一个关联的规范化规则。 计划都需要有关如何确定的规范化规则的所有拨入详细信息，请参阅规划文档中的[规划出站语音路由 Skype 业务服务器中](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md)。
+     > [!NOTE]
+     > 每个拨号计划都必须至少有一个关联的规范化规则。 计划都需要有关如何确定的规范化规则的所有拨入详细信息，请参阅规划文档中的[规划出站语音路由 Skype 业务服务器中](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md)。
 
 10. 确认正确的顺序排列的拨号计划的规范化规则。 若要更改列表中的规则的位置，请突出显示相应的规则名称然后单击向上或向下箭头。
 

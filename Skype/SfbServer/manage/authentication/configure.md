@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 摘要： 在 Skype for Business Server 配置双重身份验证。
-ms.openlocfilehash: 4fc8791cd7459ecea89bb8101b2c1a488b6eace2
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: bb3975c3c843e2d6d7600109c600ad948aa1de15
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250799"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373886"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>在 Skype for Business Server 中配置双重身份验证
 
@@ -77,9 +77,9 @@ ms.locfileid: "23250799"
 
 5. 通过以下命令打开受信任的平台模块 (TPM) 管理控制台：
 
-  ```
-  Tpm.msc
-  ```
+   ```
+   Tpm.msc
+   ```
 
 6. 从 TPM 管理控制台中，验证您的 TPM 规范版本是否至少为 1.2
 
@@ -90,18 +90,18 @@ ms.locfileid: "23250799"
 
 8. 从命令提示符处，使用以下命令创建新的虚拟智能卡：
 
-  ```
-  TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
-  ```
+   ```
+   TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
+   ```
 
     > [!NOTE]
     > 要在创建虚拟智能卡时提供自定义 PIN 值，请使用 /pin 提示符。
 
 9. 从命令提示符处，通过运行以下命令来打开计算机管理控制台：
 
-  ```
-  CompMgmt.msc
-  ```
+   ```
+   CompMgmt.msc
+   ```
 
 10. 在计算机管理控制台中，选择“设备管理”****。
 
@@ -134,27 +134,27 @@ ms.locfileid: "23250799"
 
 7. 在“证书模板”**** 部分下方选择“智能卡用户”****，并使用以下值完成高级证书申请：
 
-  - “密钥选项”**** 确认以下设置：
+   - “密钥选项”**** 确认以下设置：
 
-    - 选择“创建新密钥集”**** 单选按钮
+     - 选择“创建新密钥集”**** 单选按钮
 
-    - 对于“CSP”****，选择“Microsoft 基本智能卡加密提供程序”****
+     - 对于“CSP”****，选择“Microsoft 基本智能卡加密提供程序”****
 
-    - 对于“密钥用法”****，选择“Exchange”****（这是唯一可用选项）。
+     - 对于“密钥用法”****，选择“Exchange”****（这是唯一可用选项）。
 
-    - 对于“密码大小”****，输入 2048
+     - 对于“密码大小”****，输入 2048
 
-    - 确认已选中“自动密钥容器名称”****
+     - 确认已选中“自动密钥容器名称”****
 
-    - 取消选中其他框。
+     - 取消选中其他框。
 
-  - 在“其他选项”**** 下方，确认以下值：
+   - 在“其他选项”**** 下方，确认以下值：
 
-    - 对于“申请格式”****，选择“CMC”****。
+     - 对于“申请格式”****，选择“CMC”****。
 
-    - 对于“哈希算法”****，选择“sha1”****。
+     - 对于“哈希算法”****，选择“sha1”****。
 
-    - **友好名称**enterSmardcard 证书。
+     - **友好名称**enterSmardcard 证书。
 
 8. 如果您正在使用物理智能卡读取器，请将智能卡插入设备中。
 
@@ -189,15 +189,15 @@ ms.locfileid: "23250799"
 
 3. 从 Windows PowerShell 命令行，运行以下命令：
 
-  ```
-  add-pssnapin Microsoft.Adfs.PowerShell
-  ```
+   ```
+   add-pssnapin Microsoft.Adfs.PowerShell
+   ```
 
 4. 运行下面的命令，与将启用被动身份验证的每个服务器建立合作关系，运行时替换特定于部署的服务器名称：
 
-  ```
-  Add-ADFSRelyingPartyTrust -Name SfBPool01-PassiveAuth -MetadataURL https://SfBpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-  ```
+   ```
+   Add-ADFSRelyingPartyTrust -Name SfBPool01-PassiveAuth -MetadataURL https://SfBpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+   ```
 
 5. 从“管理工具”菜单中，启动 AD FS 2.0 管理控制台。
 
@@ -207,24 +207,24 @@ ms.locfileid: "23250799"
 
 8. 使用 Windows PowerShell 通过运行以下命令为您的依赖方信任创建并分配颁发授权规则：
 
-  ```
-  $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "https://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
-  ```
+   ```
+   $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "https://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
+   ```
 
-  ```
-  Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth
--IssuanceAuthorizationRules $IssuanceAuthorizationRules
-  ```
+   ```
+   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth
+   -IssuanceAuthorizationRules $IssuanceAuthorizationRules
+   ```
 
 9. 使用 Windows PowerShell 通过运行以下命令为您的依赖方信任创建并分配颁发转换规则：
 
-  ```
-  $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-  ```
+   ```
+   $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+   ```
 
-  ```
-  Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
-  ```
+   ```
+   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
+   ```
 
 10. 从 AD FS 2.0 管理控制台中，右键单击您的依赖方信任并选择“编辑声明规则”****。
 
@@ -268,9 +268,9 @@ ms.locfileid: "23250799"
 
 11. 通过运行以下命令来重新启动 IIS：
 
-  ```
-  IISReset /Restart /NoForce
-  ```
+    ```
+    IISReset /Restart /NoForce
+    ```
 
 ## <a name="configuring-skype-for-business-server-passive-authentication"></a>配置 Skype for Business Server 被动身份验证
 
@@ -291,30 +291,30 @@ ms.locfileid: "23250799"
 
 3. 从业务 Server 命令行管理程序命令行的 Skype，每个控制器、 企业版池和 Standard Edition server 将为被动身份验证启用通过运行以下命令创建新的 Web 服务配置：
 
-  ```
-  New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
-  ```
+   ```
+   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+   ```
 
     > [!CAUTION]
     > WsFedPassiveMetadataUri FQDN 的值是您的 AD FS 2.0 服务器的联合身份验证服务名称。可通过从导航窗格右键单击“服务”****，然后选择“编辑联合身份验证服务属性”**** 在 AD FS 2.0 管理控制台中找到联合身份验证服务名称值。
 
 4. 通过运行以下命令来验证 UseWsFedPassiveAuth 和 WsFedPassiveMetadataUri 值是否设置正确：
 
-  ```
-  Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
-  ```
+   ```
+   Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
+   ```
 
 5. 对于客户端，被动身份验证是 Web 票证身份验证最少首选的身份验证方法。 对于所有 Director、 企业版池和 Standard Edition server 将为被动身份验证启用的所有其他身份验证类型，必须禁用 Skype 业务 Web 服务通过运行以下 cmdlet:
 
-  ```
-  Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
-  ```
+   ```
+   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
+   ```
 
 6. 运行以下 cmdlet 验证所有其他身份验证类型是否已成功禁用：
 
-  ```
-  Get-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
-  ```
+   ```
+   Get-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
+   ```
 
 ### <a name="proxy-configuration"></a>代理配置
 
@@ -326,19 +326,19 @@ ms.locfileid: "23250799"
 
 1. 从业务 Server 命令行管理程序命令行的 Skype，创建新的代理配置为将为被动身份验证启用通过运行以下的业务服务器边缘池、 企业版池和 Standard Edition server 的每个 Skype命令：
 
-  ```
-  New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
-  ```
+   ```
+   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+   ```
 
-  ```
-  New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
-  ```
+   ```
+   New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+   ```
 
 2. 通过运行以下命令来验证所有其他代理身份验证类型是否已成功禁用：
 
-  ```
-  Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
-  ```
+   ```
+   Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
+   ```
 
 ## <a name="see-also"></a>另请参阅
 

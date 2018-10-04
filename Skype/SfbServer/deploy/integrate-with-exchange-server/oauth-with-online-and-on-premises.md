@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: 配置 OAuth 业务 online 本地 Exchange 和 Skype 之间的身份验证使 Skype 功能支持中所述的业务和 Exchange 集成功能。
-ms.openlocfilehash: e5510605dc07f8ad3babda45984f258e8a81689f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d4c7e491b43b457c96a69ebba1ea808054346d98
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250201"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373869"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>在 Skype for Business Online 和 Exchange 本地之间配置 OAuth
 
@@ -116,20 +116,20 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 2. 例如，将以下文本保存到名为的 PowerShell 脚本文件`UploadAuthCert.ps1`。
 
-  ```
-  Connect-MsolService;
-Import-Module msonlineextended;
-$CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
-$objFSO = New-Object -ComObject Scripting.FileSystemObject;
-$CertFile = $objFSO.GetAbsolutePathName($CertFile);
-$cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
-$cer.Import($CertFile);
-$binCert = $cer.GetRawCertData();
-$credValue = [System.Convert]::ToBase64String($binCert);
-$ServiceName = "00000002-0000-0ff1-ce00-000000000000";
-$p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
-New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
-  ```
+   ```
+   Connect-MsolService;
+   Import-Module msonlineextended;
+   $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
+   $objFSO = New-Object -ComObject Scripting.FileSystemObject;
+   $CertFile = $objFSO.GetAbsolutePathName($CertFile);
+   $cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
+   $cer.Import($CertFile);
+   $binCert = $cer.GetRawCertData();
+   $credValue = [System.Convert]::ToBase64String($binCert);
+   $ServiceName = "00000002-0000-0ff1-ce00-000000000000";
+   $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
+   New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
+   ```
 
 3. 运行你在上一步中创建的 PowerShell 脚本。 例如：`.\UploadAuthCert.ps1`
 
@@ -144,16 +144,16 @@ New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymm
 
 1. 将以下文本保存到一个 PowerShell 脚本文件中，例如将脚本文件命名为 RegisterEndpoints.ps1。 此示例使用通配符注册 contoso.com 的所有终结点。 Contoso.com 替换为内部部署 Exchange 组织的主机名颁发机构
 
-  ```
-  $externalAuthority="*.<your Verified Domain>"
-$ServiceName = "00000002-0000-0ff1-ce00-000000000000";
-$p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName;
-$spn = [string]::Format("{0}/{1}", $ServiceName, $externalAuthority);
-$p.ServicePrincipalNames.Add($spn);
-Set-MsolServicePrincipal -ObjectID $p.ObjectId -ServicePrincipalNames $p.ServicePrincipalNames;
-  ```
+   ```
+   $externalAuthority="*.<your Verified Domain>"
+   $ServiceName = "00000002-0000-0ff1-ce00-000000000000";
+   $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName;
+   $spn = [string]::Format("{0}/{1}", $ServiceName, $externalAuthority);
+   $p.ServicePrincipalNames.Add($spn);
+   Set-MsolServicePrincipal -ObjectID $p.ObjectId -ServicePrincipalNames $p.ServicePrincipalNames;
+   ```
 
-2.  在用于 Azure Active Directory 的 Windows PowerShell 中，运行在上一步骤中创建的 Windows PowerShell 脚本。 例如：`.\RegisterEndpoints.ps1`
+2. 在用于 Azure Active Directory 的 Windows PowerShell 中，运行在上一步骤中创建的 Windows PowerShell 脚本。 例如：`.\RegisterEndpoints.ps1`
 
 ### <a name="verify-your-success"></a>验证是否成功
 

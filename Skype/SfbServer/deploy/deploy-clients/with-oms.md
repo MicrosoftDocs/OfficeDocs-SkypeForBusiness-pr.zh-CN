@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文讨论如何在使用 Microsoft 操作管理套件集成的端到端方式中部署的 Skype 会议室系统 v2 设备管理。
-ms.openlocfilehash: 4e52c416f9f35aaee1ccb3b5e8c75c29246a1c5d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5ef935f30bfdb5036c87fe24d9456af1b52925e5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891246"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371378"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>使用 OMS 部署 Skype 会议室系统 v2 管理
 
@@ -110,27 +110,27 @@ ms.locfileid: "23891246"
 
 提取自定义域超出捕获的事件日志，请按照下列步骤：
 
-1.  登录到[Microsoft 操作管理套件门户](https://aka.ms/omsportal)。
+1. 登录到[Microsoft 操作管理套件门户](https://aka.ms/omsportal)。
 
-2.  列出由 Skype 会议室系统 v2 设备生成的事件：
-    1.  转到**日志搜索**并使用查询来检索将具有自定义字段的记录。
-    2.  示例查询：`Event | where Source == "SRS-App"`
+2. 列出由 Skype 会议室系统 v2 设备生成的事件：
+   1.  转到**日志搜索**并使用查询来检索将具有自定义字段的记录。
+   2.  示例查询：`Event | where Source == "SRS-App"`
 
-3.  选择记录之一，选择向左，按钮并启动字段提取向导。
+3. 选择记录之一，选择向左，按钮并启动字段提取向导。
 
    ![字段提取向导](../../media/Deploy_OMS_3.png "字段提取向导")
 
-4.  突出显示您希望从 RenderedDescription 提取并提供字段标题的数据。 表 1 中提供了应使用的字段名称。
+4. 突出显示您希望从 RenderedDescription 提取并提供字段标题的数据。 表 1 中提供了应使用的字段名称。
 
    ![自定义字段定义](../../media/Deploy_OMS_4.png "自定义字段定义")
 
-5.  使用*表 1*中显示的映射。 将自动添加操作管理套件**\_CF**时定义的新字段的字符串。
+5. 使用*表 1*中显示的映射。 将自动添加操作管理套件**\_CF**时定义的新字段的字符串。
 
 > [!IMPORTANT]
 > 请记住 JSON 和操作管理套件的所有字段，都都区分大小写。
-
+> 
 > 下表列出了特别注意 EventID 复选框的状态。 确保您确认此复选框的操作管理套件成功提取自定义域值的状态。
->
+> 
 > ![自定义字段定义](../../media/Deploy_OMS_5.png "自定义字段定义")
 
 **表 1**
@@ -462,48 +462,50 @@ ms.locfileid: "23891246"
 7.  Skype 会议室系统 v2 设备应安装和配置第二个重新启动 Microsoft 监控代理。
 
 
-    ```
-    # Install-OMSAgent.ps1
-    <#
-    Date:        04/20/2018
-    Script:      Install-OMSAgent.ps1
-    Version:     1.0
-    #>
+~~~
+```
+# Install-OMSAgent.ps1
+<#
+Date:        04/20/2018
+Script:      Install-OMSAgent.ps1
+Version:     1.0
+#>
 
-    # Set the parameters
-    $WorkspaceId = "<your workspace id>"
-    $WorkspaceKey = "<your workspace key>"
-    $SetupPath = "\\Server\Share"
+# Set the parameters
+$WorkspaceId = "<your workspace id>"
+$WorkspaceKey = "<your workspace key>"
+$SetupPath = "\\Server\Share"
 
-    $SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
+$SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
 
-    # $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
+# $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
 
-    # Start PowerShell logging
-    Start-Transcript -Path C:\OMSAgentInstall.Log
+# Start PowerShell logging
+Start-Transcript -Path C:\OMSAgentInstall.Log
 
-    # Check if the Microsoft Monitoring Agent is installed
-    $mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
+# Check if the Microsoft Monitoring Agent is installed
+$mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
 
-    # Check if the Microsoft Monitoring agent is installed
-    if (!$mma)
-    {
-        #Install agent
-        Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
-    }
+# Check if the Microsoft Monitoring agent is installed
+if (!$mma)
+{
+    #Install agent
+    Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
+}
 
-    # Check if the agent has a valid configuration
-    $CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
-    if (!$CheckOMS)
-    {
-        # Apply new configuration
-        $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
-        $mma.ReloadConfiguration()
-    }
+# Check if the agent has a valid configuration
+$CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
+if (!$CheckOMS)
+{
+    # Apply new configuration
+    $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
+    $mma.ReloadConfiguration()
+}
 
-    Stop-Transcript
+Stop-Transcript
 
-    ```
+```
+~~~
 
 > [!NOTE]
 > 当您需要重新配置代理、 将其移至不同的工作区中，或在初始安装后修改代理设置时，您可以参考文章[管理和维护日志分析代理](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-manage)。

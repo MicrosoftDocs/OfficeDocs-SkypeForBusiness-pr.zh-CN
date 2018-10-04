@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 摘要： 实现 Skype 业务服务器之前查看下面的网络组件注意事项。
-ms.openlocfilehash: 3b052977d605c923a333097ad073ad59d7d6a586
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ad0e3b48a320997ddce0559e388d5cfdcab861d1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886359"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375080"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
@@ -77,6 +77,7 @@ Network performance and needs are directly linked to the traffic load placed on 
 下表介绍了建议采用的 IPsec 例外设置。
 
 **建议采用的 IPsec 例外**
+
 |规则名称 |源 IP |目标 IP |协议 |源端口 |目标端口 |身份验证要求 |
 |:--- |:--- |:--- |:--- |:---|:---|:--- |
 |A/V 边缘服务器内部入站|任意  |A/V 边缘服务器内部|UDP 和 TCP|任意 |任意 |不进行身份验证|

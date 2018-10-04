@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要编辑已定义的受信任应用程序服务器的属性，请按照以下说明。
-ms.openlocfilehash: ab11480cf7772be8e85463866359da7ea6f2b27e
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 73010b40bd5c06c1e59d9b2fee0e4fde3d247732
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069566"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374544"
 ---
 # <a name="external-application-general-settings-expander"></a>外部应用程序常规设置扩展器
  
@@ -26,7 +26,7 @@ ms.locfileid: "21069566"
 有两个部分，您可以修改：
   
 > 常规设置
-    
+> 
 > 下一跃点设置
     
 ## <a name="general-settings"></a>常规设置

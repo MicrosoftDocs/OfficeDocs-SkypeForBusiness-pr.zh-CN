@@ -1,5 +1,5 @@
 ---
-title: Using the Skype for Business Server 2015 Stress and Performance Tool
+title: 使用 Skype 业务服务器 2015年压力和性能工具
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/13/2018
@@ -9,169 +9,170 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
-description: To run the Skype for Business Server 2015 Stress and Performance Tool, you'll need to be able to manage both users, contacts and user profiles, configure the tool for running, and then review the output or results that are produced by the tool.
-ms.openlocfilehash: 5f73ef6733c2f09cdf3e06bc8a6495c743d8b423
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 若要运行 Skype 的业务服务器 2015年压力和性能工具，您将需要能够管理用户、 联系人和用户配置文件配置正在运行，工具，然后检查输出或工具生成的结果。
+ms.openlocfilehash: 829bedbd2a042234e67285045ac67cff30064936
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375437"
 ---
-# <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Using the Skype for Business Server 2015 Stress and Performance Tool
+# <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>使用 Skype 业务服务器 2015年压力和性能工具
  
-To run the Skype for Business Server 2015 Stress and Performance Tool, you'll need to be able to manage both users, contacts and user profiles, configure the tool for running, and then review the output or results that are produced by the tool.
+若要运行 Skype 的业务服务器 2015年压力和性能工具，您将需要能够管理用户、 联系人和用户配置文件配置正在运行，工具，然后检查输出或工具生成的结果。
   
-There are four areas involved with running the Skype for Business Server 2015 Stress and Performance Tool (the executable is LyncPerfTool.exe):
+有四个方面所涉及的业务 Server 2015 压力和性能工具 （可执行文件是 LyncPerfTool.exe） 运行 Skype:
   
-- [Create Users and Contacts](using-the-tool.md#BKMK_CreateUsersAndContacts)
+- [创建用户和联系人](using-the-tool.md#BKMK_CreateUsersAndContacts)
     
-- [Configure User Profile](using-the-tool.md#BKMK_UserProfile)
+- [配置用户配置文件](using-the-tool.md#BKMK_UserProfile)
     
-- [Run LyncPerfTool](using-the-tool.md#BKMK_RunTool)
+- [运行 LyncPerfTool](using-the-tool.md#BKMK_RunTool)
     
-- [Interpreting the Results](using-the-tool.md#BKMK_Interpret)
+- [解释结果](using-the-tool.md#BKMK_Interpret)
     
-## <a name="create-users-and-contacts"></a>Create Users and Contacts
+## <a name="create-users-and-contacts"></a>创建用户和联系人
 <a name="BKMK_CreateUsersAndContacts"> </a>
 
-You need to use the Skype for Business Server 2015 (SB 2015) User Provisioning Tool (UserProvisioningTool.exe) to create users and contacts for your stress and performance testing.
+您需要使用业务服务器 2015 (SB 2015) 用户设置工具 (UserProvisioningTool.exe) Skype 创建用户和联系人以进行压力和性能测试。
   
-This is a list of helpful terms that might be useful as you read through the topics:
+这是在阅读主题可能有用的有用词的列表：
   
-- **Organizational Unit** - The Active Directory Domain Services (AD DS) organizational unit (OU).
+- **组织单位**的 Active Directory 域服务 (AD DS) 的组织单位 (OU)。
     
-- **Federated / Cross Pool** - Users who can communicate with users from other Instant Messaging (IM) services.
+- **联盟 / 跨池**-用户可以与来自其他即时消息 (IM) 服务的用户通信。
     
-- **Distribution Lists** - Or DLs. These are objects in AD DS that contain a list of AD DS users. They're used to facilitate communications across groups of people.
+- **通讯组列表**的或 Dl。 这些是包含 AD DS 用户的列表的 AD DS 中的对象。 它们用于加快跨组的人员的通信。
     
-- **Location Info Service** - The Skype for Business Server 2015 service that, when it's enabled and configured per phone, allows for the retrieval of physical location for Enhanced 911 (E911) services.
+- **位置信息服务**-业务服务器 2015年服务的增强型 911 (E911) 服务的物理位置检索已启用并配置每个电话，对其时允许 Skype。
     
-- **U.S. Phone Numbers** - Phone numbers assigned to user in addition to the SIP URI that's used for routing inbound and outbound calls in Reverse Number Lookup (RNL).
+- **美国电话号码**的电话号码分配给用户除了用于路由入站和出站呼叫中反向号码查找 (RNL) 的 SIP URI。
     
-### <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>Create Users and Contacts by using UserProvisioningTool.exe
+### <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>使用 UserProvisioningTool.exe 创建用户和联系人
 
 > [!NOTE]
-> Before you even begin, be absolutely sure you're logged in as a member of the Domain Admins security group to run this tool. You need to do this, because you're going to be creating Active Directory users. 
+> 即使开始之前，请确保绝对登录要运行此工具的 Domain Admins 安全组成员身份。 您需要执行此操作，因为您将创建 Active Directory 用户。 
   
-You have to use the Skype for Business Server User Provisioning Tool to create users and contacts for load simulation.
+您需要企业服务器用户设置工具 Skype 用于创建用户和负载模拟的联系人。
   
-The **Skype for Business Server User Provisioning Tool** is installed with the **Skype for Business Server Stress and Performance Tool** package. Be sure that the package installer (CapacityPlanningTool.msi) has been run on the Front End Server or the Standard Edition server you intend to test.
+**Skype 业务服务器用户设置工具**安装的**Skype 的业务 Server 压力和性能工具**程序包。 确保已在前端服务器或想要测试的 Standard Edition 服务器上执行的程序包安装程序 (CapacityPlanningTool.msi)。
   
-You can start the Skype for Business Server User Provisioning Tool by running the file UserProvisioningTool.exe (located at %InstalledDirectory%LyncStressAndPerfTool\LyncStress) on the Front End Server or on the Standard Edition server.
+您可以通过运行文件 UserProvisioningTool.exe （位于 %installeddirectory%lyncstressandperftool\lyncstress） 的业务服务器用户设置工具开始 Skype 在前端服务器或 Standard Edition server 上。
   
 > [!IMPORTANT]
-> When you create a large number of users (for example, 10,000 or more), run the UserProvisioningTool.exe. You'll need to do this because the tool will be creating and configuring  *new*  AD users.
+> 当您创建大量的用户 （例如，10000 或多个），运行 UserProvisioningTool.exe。 您需要执行此操作，因为该工具将创建并配置*新*AD 用户。
   
-When the User Provisioning Tool opens, click Configuration and select the Load Configuration. 
+当用户设置工具打开时，单击配置，然后选择负载配置。 
   
-To begin configuring users and contacts, load the default file included with the package, called "SampleData.xml". This will prepopulate fields with sample data that you'll need to change to make it relevant for your deployment.
+若要开始配置用户和联系人，加载附带的程序包，名为"SampleData.xml"的默认文件。 这将预填充您需要更改以使其与您的部署相关的示例数据的字段。
   
-If you have a preconfigured XML file that already contains your customized settings, you can load that file instead. Fill in the fields in the User Provisioning Tool, as described in the sections below.
+如果您有一个预配置的 XML 文件已包含自定义的设置，您可以改为加载该文件。 填写字段在用户设置工具中，以下各节中所述。
   
-### <a name="to-configure-server-options"></a>要配置服务器选项：
+### <a name="to-configure-server-options"></a>配置服务器选项：
 
-1. In the **Front End Pool FQDN** field, type the fully qualified domain name (FQDN) of the Standard Edition server, or the Front End pool where you want to host the users.
+1. 在**前端池 FQDN**字段中，键入 Standard Edition server 或要承载用户的前端池的完全限定的域名 (FQDN)。
     
-2. In the **User Name Prefix** field, type a prefix that you want to use to bust your user names for testing purposes (such as "TestUser").
+2. 在**用户名称前缀**字段中，键入您想要用于 bust 您出于测试目的 （例如"TestUser") 的用户名的前缀。
     
-3. In the **Password** field, type a password that will be used across all the test user accounts.
+3. 在**密码**字段中，键入将使用的所有测试用户帐户的密码。
     
-4. In the **Account Domain** field, type the domain name of your current AD domain (the one in which you want to create your test users).
+4. 在**帐户域**字段中，键入您的当前 AD 域的域名 （要在其中创建测试用户的那个）。
     
-5. In the **Organizational Unit** field, type the name of the AD domain where you want to create these test users. (If the OU doesn't already exist, it'll be created for you).
+5. 在**组织单位**字段中，键入名称这些 AD 域您想要创建的测试用户。 （如果尚不存在 OU，则它将为您创建。）
     
-6. In the **Phone Area Code** field, type the three-digit area code to be used across all test user accounts. Make certain that the area code you chose doesn't conflict with other users' area codes in AD.
+6. 在**电话区号**字段中，键入用于跨所有测试用户帐户的三个数字区域代码。 请确保您选择不会发生冲突与其他用户的区域代码区域代码 AD 中。
     
-7. Click to select the **Voice Enabled** check box, if you want to enable the test users for Enterprise Voice.
+7. 单击以选中**语音启用**复选框，如果您想要测试用户启用企业语音。
     
-8. In the **Number of Users** field, give the total number of test users you want to create.
+8. 在**用户数量**字段中，提供您想要创建的测试用户的总数。
     
-9. In the **Start Index** field, give the starting number that'll be used as a suffix to the user name prefix (for example, the prefix is "TestUser", and the first name will end in "0" in the example below.)
+9. 在**开始的索引**字段中，为将用作用户名称前缀为后缀的起始编号 （例如，前缀是"TestUser"和"0"在下面的示例中将结束第一个名称。）
     
      ![显示“创建用户”选项卡的“用户设置”工具。](../../media/591d8280-8979-4a8c-83bc-af126e87bf29.png)
   
-#### <a name="create-users-button"></a>Create Users button
+#### <a name="create-users-button"></a>创建用户按钮
 
-When you click on the **Create Users** button, the input parameters you've entered are validated. If there are any validation errors, you'll be prompted to fix them. Or, if all the values are correct, users will start appearing in AD (in whichever OU you specified). You'll see a progress bar at the bottom of the tool as it runs. Don't close the application while the progress bar is active.
+当您单击**创建用户**按钮时，验证您输入的输入的参数。 如果有任何验证错误，将提示您进行修复。 或者，如果所有的值是否正确，用户将启动显示 （无论您指定的 OU) 中的 AD 中。 在运行，您将看到进度栏底部的工具。 进度栏处于活动状态时不关闭应用程序。
   
-User creation takes time, so please plan accordingly. This process can take anywhere from several minutes for a few users, to a few hours for a large number of users.
+创建用户需要花费的时间，相应地请计划。 此过程可以花几分钟，以便将一些用户为大型数量的用户的几个小时。
   
-If you don't have access to the AD Domain Controller in your test environment, you can still validate user creation by logging in as one of the users in the range of users you specified to create. Remember to use the prefix, and the suffix, along with the @sipDomain as the username. Here is an example:  *TestUser20@contoso.net*  .
+如果在测试环境中没有访问 AD 域控制器，您仍可以通过以下方式之一的用户指定要创建范围中的用户验证用户创建。 请记住使用前缀和后缀，以及作为用户名 @sipDomain。 下面是一个示例： <em>TestUser20@contoso.net</em> 。
   
 > [!NOTE]
-> If the users already exist, clicking the Create Users button will update them with any configuration changes. 
+> 如果用户已存在，请单击创建用户按钮将更新它们与任何配置更改。 
   
-#### <a name="delete-users-button"></a>Delete Users button
+#### <a name="delete-users-button"></a>删除用户按钮
 
-When you click on the **Delete Users** button, the tab's input parameters will be validated. If there are validation errors, you'll be prompted to fix them, and if the input values are correct, the specified test users will be disabled and deleted from Active Directory. Again, a progress bar will appear on the bottom of this tab, and you shouldn't close the application while the progress bar is active.
+当您单击**删除用户**按钮时，将验证选项卡的输入的参数。 如果存在验证错误，您将会提示来修复这些，并且正确的输入的值时，将禁用并从 Active Directory 中删除指定的测试用户。 同样，在底部的此选项卡上，将显示进度栏和进度栏处于活动状态时，不应关闭应用程序。
   
 > [!NOTE]
-> Only U.S.-formatted phone numbers are supported. Phone numbers are always assigned to users, and all users created by UserProvisioningTool.exe are enabled for Enterprise Voice by default. Any scenarios that use the phone number, such as Conferencing Auto Attendant or UC-PSTN calls, use this phone number to properly route calls. For this reason,  *every user*  must have a *unique phone number*  .
+> 支持仅美国格式的电话号码。 电话号码始终分配给用户，并通过 UserProvisioningTool.exe 创建的所有用户都启用企业语音默认情况下。 使用的电话号码，如会议自动助理或 UC-PSTN 呼叫的任何方案使用此电话号码以正确路由呼叫。 因此，*每个用户*必须拥有*唯一的电话号码*。
   
 > [!NOTE]
-> **如果您需要两次创建用户时，该命令将失败，除非您使用不同的区号，或如果以前的用户已禁用通过禁用 CsUser cmdlet。**
+> **如果您有两次创建用户，该命令将失败，除非您使用不同的区域代码，或上一用户已禁用使用 Disable-csuser cmdlet。**
   
 > [!IMPORTANT]
-> Before you create contacts, you first need to complete user replication (which is done from the Users tab). 
+> 创建联系人之前，首先需要完成用户复制 （这通过用户选项卡）。 
   
 > [!IMPORTANT]
-> If you've just created your users, you'll need to wait until Skype for Business Server replication completes and populates the user accounts in the database. **If the users haven't finished replicating, you'll see an error.** You'll know when users have finished replicating if the Skype for Business Server 2015 Front End service has started, or by successfully running the Get-CsUser cmdlet on the last user of the total number you specified.
+> 如果您刚才创建您的用户，您将需要等待，直到 Skype 业务服务器复制完成并填充数据库中的用户帐户。 **如果用户尚未复制完成后，您将看到一个错误。** 您将了解当用户完复制如果 Skype 业务 Server 2015 前端服务已启动，或通过成功运行 Get-csuser cmdlet 的最后一个用户的您指定的总数。
   
 #### <a name="contacts-creation-tab"></a>联系人创建选项卡
 
-This tab lets you give users' contacts details for your testing.
+此选项卡使您的测试授予用户的联系人详细信息。
   
 ![显示“创建内容”选项卡的“用户设置”工具。](../../media/dfb7fdf1-fb97-4e8e-8608-c4995f95dd5b.png)
   
-### <a name="to-configure-users-contacts-do-the-following"></a>To configure users' contacts, do the following:
+### <a name="to-configure-users-contacts-do-the-following"></a>若要配置用户的联系人，请执行以下操作：
 
-1. In the **Average Contacts per User** field, enter the average number of contacts to populate in contact lists for each user.
+1. 在**平均每个用户的联系人**字段中，输入的平均联系人数填充为每个用户的联系人列表中。
     
-2. 如果您想要创建相同数量的每个用户的联系人，请选择**固定**复选框。 If you want to vary the number of contacts created for users, clear that check box.
+2. 如果您想要创建的每个用户等于联系人数，请选择**修复**复选框。 如果您想要改变为用户创建的联系人数，请清除该复选框。
     
-3. 在**每个用户的平均联系组**字段中，输入每个用户的联系人组的数目。 该数字必须小于**平均每个用户的联系人**。
+3. 在**每个用户的平均联系人组**字段中，输入每个用户的联系人组的数目。 此号码必须小于**每个用户的平均联系人**。
     
-4. In the **Federated / Cross Pool Contacts Percentage** field, give a number between 0 and 100. 将与联盟用户创建联系人的百分比。
+4. 在**联盟 / 跨池联系人百分比**字段中，为介于 0 和 100 之间的数字。 将与联盟用户创建此联系人的百分比。
     
-5. 在**联合 / 交叉池用户前缀**字段中，为联盟将被添加到本地用户的联系人列表的用户提供用户名。
+5. 在**联盟 / 跨池用户前缀**字段中，将添加到本地用户的联系人列表的联盟用户授予用户名。
     
-6. In the **Federated / Cross Pool User SIP Domain** field, give the SIP Domain Name of the federated users.
+6. 在**联盟 / 跨池用户的 SIP 域**字段中，为联盟用户的 SIP 域名称。
     
-7. 在**创建用户**选项卡中确保信息正确无误。 您的联系人将从创建用户选项卡上的值进行创建。
+7. 在**用户创建**选项卡上确保信息正确无误。 从用户创建选项卡上的值，将创建您的联系人。
     
-8. 单击以开始创建联系人**创建联系人**。 此过程可能需要几分钟的时间。 它完成后，一个对话框将出现并显示消息之后,"操作已成功完成。" 您可以验证所创建的登录用户从创建用户选项卡创建的联系人。
+8. 单击**创建联系人**开始联系人创建。 此过程可能需要几分钟。 它完成邮件，将出现一个对话框后，"操作成功完成。" 您可以验证创建的以从用户创建选项卡中创建用户登录的联系人。
     
 > [!NOTE]
-> 创建联系人后，此工具将所有前端服务器重新启动目标池中。 这取决于多少个联系人创建此操作可能需要更长的时间 （最多 2 小时） 的开始，前端服务器。 
+> 创建联系人之后，此工具将在重新启动所有前端服务器目标池。 根据多少联系人创建的此操作可能需要更长时间 （最多 2 小时） 开始，前端服务器。 
   
 #### <a name="distribution-list"></a>通讯组列表
 
-Skype 业务服务器 2015年的压力和性能工具可以模拟 Skype 业务 2015年客户机中的通讯组列表 (DL) 扩展功能。 如果您不想要启用 DL 展开用户配置工具中的，您可以跳过此步骤。
+为业务服务器 2015年压力和性能工具 Skype 可以模拟业务 2015年客户端 Skype 中的通讯组列表 (DL) 扩展功能。 如果您不想要启用用户设置工具中的 DL 扩展，则可以跳过此步骤。
   
 ![显示“创建通讯组列表”选项卡的“用户设置”工具。](../../media/4b689306-70c4-4569-9842-15c73f038eb6.png)
   
-通讯组列表选项卡允许您创建将用于通讯组列表扩展功能的压力和性能工具的 Dl。 在创建之前 DLs，业务服务器 2015年的 Skype 需要部署，包括在运行 ForestPrep。 如果不这样做，DL 特性将不存在于 AD 架构，因此，该工具将无法创建 Dl。
+通讯组列表选项卡，可以创建 Dl 压力和性能工具将使用通讯组列表扩展功能。 创建 Dl 之前, 的业务服务器 2015 Skype 需要部署，包括具有运行 ForestPrep。 如果不这样做，DL 属性将不在 AD 架构中，存在，因此该工具将无法创建 Dl。
   
-### <a name="to-configure-distribution-lists"></a>若要配置通讯组列表：
+### <a name="to-configure-distribution-lists"></a>配置通讯组列表：
 
-1. 在**数字通讯组列表中的**字段中，为您想要创建的 Dl 的总数 （这里的建议是开头是双倍数量的用户，您有一个值）。
+1. 在**列表的通讯组数**字段中，提供您想要创建的 Dl 的总数 （此处的建议。 您与 double 您具有的用户数的值开始）。
     
-2. 在**通讯组列表前缀**字段中，输入您创建的所有 Dl 都有，例如*testDL*的前缀。 这意味着，在 100 DLs DL 名称将如下所示： testDL0，testDL1，高达 testDL99。
+2. 在**通讯组列表前缀**字段中，输入您创建的所有 Dl 将都具有，例如*testDL*前缀。 这意味着，在 100 Dl DL 名称将显示如下： testDL0，testDL1，最多为 testDL99。
     
-3. 在**Dist.列表中最小的成员**字段中，输入用户放入每个 DL 中的最小数目。
+3. 在**最小 Dist.列表中的成员**字段中，输入的最小放入每个 DL 用户数。
     
-4. 在**Dist.列表中的最大成员**字段中，输入要在每个 DL 中添加用户的最大的数目。
+4. 在**Dist.列表中的最大成员**字段中，输入的最大在每个 DL 中添加的用户数。
     
 #### <a name="create-distribution-lists-button"></a>创建通讯组列表的按钮
 
-当单击创建通讯组列表按钮时，该工具将查询活动目录，是否通讯组列表匹配的前缀和编号已经存在，请参阅。 该工具会创建不存在所有 Dl。 当这些新创建的通讯组列表中添加成员，它将从创建用户选项卡上指定的范围中选择的用户。
+当您单击创建通讯组列表按钮时，该工具将查询 Active Directory 以查看是否通讯组列表匹配前缀和号码已经存在。 此工具创建尚不存在任何 Dl。 时将成员添加到这些新创建的通讯组列表，它将在用户创建选项卡上指定的区域选择的用户。
   
 #### <a name="location-info-service-config-tab"></a>位置信息服务配置选项卡
 
-为业务服务器 2015年压力和性能工具 Skype 的位置信息服务还可以生成虚拟配置文件。 注意，位置信息服务通常并不会显著影响性能的服务器上。 
+业务 Server 2015 压力和性能工具 Skype 还可以生成的位置信息服务的虚拟配置文件。 请注意，位置信息服务通常不会显著影响性能的服务器上。 
   
 ![显示“位置信息服务配置”选项卡的“用户设置”工具。](../../media/227662a2-e0c3-4e34-ab54-5f1459344f30.png)
   
-如果选择此功能进行测试，填写在窗体中的值，然后单击生成 LIS 配置文件按钮，将创建。CSV 文件调用：
+如果您选择要测试此功能，填充窗体中的值，然后单击生成 LIS 配置文件按钮，将创建。调用 CSV 文件：
   
 - LIS_Subnet.csv
     
@@ -181,339 +182,339 @@ Skype 业务服务器 2015年的压力和性能工具可以模拟 Skype 业务 2
     
 - LIS_WAP.csv
     
-若要导入这些文件到 LIS 数据库使用这些 PowerShell cmdlet:
+若要导入到 LIS 数据库这些文件，请使用以下 PowerShell cmdlet:
   
-- 一组 CsLisSubnet
+- 设置 CsLisSubnet
     
-- 一组 CsLisSwitch
+- 设置 CsLisSwitch
     
-- 一组 CsLisPort
+- 设置 CsLisPort
     
-- 一组 CsWirelessAccessPoint
+- 设置 CsWirelessAccessPoint
     
 ## <a name="configure-user-profile"></a>配置用户配置文件
 <a name="BKMK_UserProfile"> </a>
 
-您的用户 （通过用户创建工具） 创建后可以具有的业务服务器 2015年负载配置工具 (UserProfileGenerator.exe) 的 Skype 来配置用户配置文件。
+您的用户 （通过用户创建工具） 创建后您可以配置与业务服务器 2015年负载配置工具 (UserProfileGenerator.exe) Skype 的用户配置文件。
   
-### <a name="running-the-skype-for-business-server-2015-load-configuration-tool"></a>运行业务服务器 2015年负载配置工具 Skype
+### <a name="running-the-skype-for-business-server-2015-load-configuration-tool"></a>运行 Business Server 2015 负载配置工具的 Skype
 
-启动加载配置工具 (UserProfileGenerator.exe)，并填写选项卡。 此工具创建一个目录为每个客户端计算机，您将需要运行您的模拟。 每个客户端目录附带了一个脚本来启动 Skype 业务服务器 2015年的压力和性能工具 (LyncPerfTool.exe)。 下面的章节将提供如何填写业务服务器 2015年负载配置工具 Skype 的每个选项卡上的字段的示例。
+启动加载配置工具 (UserProfileGenerator.exe)，并填写选项卡。 此工具创建一个目录的每个客户端需要运行您模拟的计算机。 每个客户端目录附带的脚本来启动 Skype 的业务 Server 2015 压力和性能工具 (LyncPerfTool.exe)。 以下各节将提供有关如何填充 Business Server 2015 负载配置工具的 Skype 的每个选项卡上的域中的示例。
   
 > [!IMPORTANT]
-> 加载配置工具 (UserProfileGenerator.exe) 中使用的特定于用户的值必须与在 Skype 业务 2015年用户创建工具 (UserProvisioningTool.exe) 为指定的值匹配为池。 
+> 负载配置工具 (UserProfileGenerator.exe) 中使用的特定于用户的值必须为池匹配业务 2015年用户创建工具 (UserProvisioningTool.exe) Skype 中指定的值。 
   
-#### <a name="common-configuration-tab"></a>常见的配置选项卡
+#### <a name="common-configuration-tab"></a>常见配置选项卡
 
-负载配置工具的**通用配置**选项卡如下所示。 填写的字段的常见配置选项卡，如以下步骤所述。
+负载配置工具的**通用配置**选项卡如下所示。 填写的通用配置选项卡字段中的以下步骤所述。
   
 ![显示“常见配置”选项卡的“用户设置”选项卡。](../../media/c25df343-3550-47fb-88e0-29194338fee2.png)
   
-1. 在**可用计算机数量**字段中，键入您想要使用运行压力和性能工具 (LyncPerfTool.exe) 的计算机的数量。 我们建议您拥有一台计算机，您可以模拟，每个 4500 用户，但该数目可能会有所不同，如果降低负载级别，或者使用工具的可用功能 （在一般情况下选项卡上设置负载级别） 的子集。
+1. 在**可用机号码**字段中，键入您想要用于运行压力和性能工具 (LyncPerfTool.exe) 的计算机数量。 我们建议您有一台计算机，您将模拟，每个 4500 用户，但该号码可能会有所不同，如果减少负载级别，或使用该工具的可用功能 （在常规方案选项卡设置负载级别） 的子集。
     
-2. 在**用户名称的前缀**字段中，输入用户名字段的所有用户的前缀。 记录在统一资源标识符 (URI) 将是： *UserPrefix [用户启动索引...（用户 1 号]）@User 域*，例如 myUser009@Contoso.com。
+2. 在**前缀用户名**字段中，输入用户名字段的所有用户的前缀。 若要登录的统一资源标识符 (URI) 将是： *UserPrefix [用户开始索引...（数用户-1）]@User 域*，例如，myUser009@Contoso.com。
     
-3. 在**所有用户的密码**字段中，输入用户的创建期间使用的密码。 如果将此字段保留为空将作为密码设置用户名。
+3. 在**为所有用户的密码**字段中，输入的用户的创建过程中使用的密码。 如果将此字段留空将设置用户名的密码。
     
-4. 在**用户开始索引**字段中，输入要配置的第一个用户的索引。 您可以配置不同的范围，为不同类型或级别的负载，但一旦您想要配置每个范围，您必须运行加载配置工具 (UserProfileGenerator.exe)。
+4. 在**用户启动索引**字段中，输入要配置的第一个用户的索引。 您可以配置不同范围的不同类型或级别的负载，但您想要配置每个范围后，必须运行负载配置工具 (UserProfileGenerator.exe)。
     
-5. 在**用户数量**字段中，输入您要配置的用户的总数。
+5. 在**用户数量**字段中，输入您要配置的用户总数。
     
-6. 在**用户域**字段中，输入用于 SIP URI 的域。 这用来构造 SIP URI 的每个用户在登录 Skype 业务服务器 2015年前端服务器或标准版服务器，可能会有所不同从帐户域。
+6. 在**用户域**字段中，输入用于 SIP URI 的域。 这用于构造 SIP URI 的每个用户登录到 Skype 对于业务 Server 2015 前端服务器或 Standard Edition 服务器，并且可能不同帐户的域。
     
 7. 在**帐户域**字段中，输入 AD DS 域登录。
     
-8. **MPOP 百分比**（多个存在点百分比） 字段中，为提供值的多个机器或设备，例如 10%从登录的用户的百分比。
+8. 在**MPOP 百分比**（多个状态点百分比） 字段中，为提供登录来自多个计算机或设备，例如 10%的用户的百分比的值。
     
-9. **登录 / 秒 （每个实例）**字段中输入并发的终结点的最大数量。 这是最大数目为您的用户记录单元和建议是小于 / 等于 2，每秒的速率 (< = 2)。
+9. 在**登录每秒 （每个实例）** 字段中输入并发终结点的最大数量。 这是最大数量为您的用户，记录项和建议是小于 / 等于每秒 2 的速率 (< = 2)。
     
-10. 在**访问代理服务器或池的 FQDN**字段中，输入所需的客户端连接到的服务器的完全合格的域名称 (FQDN)。 如果从外部登录的用户，您需要键入访问代理服务器。 如果用户是内部的给他们的企业版池或标准版服务器的 FQDN。
+10. 在**访问代理服务器或池 FQDN**字段中，输入您希望客户端连接到的服务器的完全限定的域名 (FQDN)。 如果用户要外部登录，您需要键入访问代理服务器。 如果用户是内部，使其企业版池或 Standard Edition 服务器的 FQDN。
     
-11. 在**端口**字段中，输入您想让用户使用的 SIP 的端口 （此处的默认值为 5061）。
+11. 在**端口**字段中，输入您希望用户使用 SIP 的端口 （此处的默认值为 5061）。
     
-12. 对于**外部网络服务器设置**字段中，提供访问代理服务器或池的 FQDN，再次，**端口**。 这些设置仅用于外部终结点的负载模拟。
+12. 对于**外部网络服务器设置**字段中，提供访问代理服务器或池 FQDN，同样，**端口**。 这些设置将用于外部终结点负载模拟。
     
-#### <a name="general-scenarios-tab"></a>一般情况下选项卡
+#### <a name="general-scenarios-tab"></a>常规方案选项卡
 
 ![显示“常规方案”选项卡的“加载配置”工具。](../../media/45792e57-4322-4c20-956f-fe480b0de1a7.png)
   
-您可以确定您想要运行或将禁用所提供的一般方案的每个配置的负载水平和参数。 下面是您的常规选项：
+可以为每个常规方案提供通过确定想要运行或离开已禁用配置的负载级别和参数。 下面是常规选项：
   
 > [!NOTE]
-> 负载级别值的所有字段，但本地信息服务被**禁用**，**低**、**中**、**高**、 或**自定义**。 如果您选择但已禁用任何设置，都生成每个客户端配置。 高会导致最大支持服务器的负担;介质是 60%的高负载;低为 30%。 
+> 对于所有字段，但本地信息服务负载级别值是**已禁用**、**低**、**中等**、**高**，或**自定义**。 如果选择任何设置，但已禁用，然后配置生成的每个客户端中。 高导致服务器; 中受支持的最大负载medium 为 60%的高负载;低为 30%。 
   
-- **即时消息的**这包括对等和会议;对于负载级别选择适当的值。
+- **即时消息-** 这包括对等和会议;负载级别选择适当的值。
     
-- **音频会议的**选择音频会议*只有*一个负载级别。 **声音方案**一节中，将稍后处理点到点调用。 打开**高级**选项卡启用多视图。
+- **音频会议-** 选择音频会议*仅*负载级别。 **语音方案**一节中，将稍后处理对等呼叫。 打开**高级**选项卡启用多视图。
     
-- **应用程序共享的**选择应用程序共享一个负载级别。
+- **应用程序共享-** 选择应用程序共享负载级别。
     
-- **数据协作-**选择数据协作，其中包括数据会议的负载级别。
+- **数据协作-** 选择数据协作，其中包括数据会议负载级别。
     
-- **通讯组列表扩展-**单击**高级**按钮，并使用相同用户创建工具 (UserProvisioningTool.exe) DL 选项卡上配置的值填充该字段。 选择负载级别。
+- **通讯组列表扩展-** 单击**高级**按钮，具有相同的用户创建工具 (UserProvisioningTool.exe) 的 DL 选项卡上配置的值填充该字段。 选择负载级别。
     
-- **地址簿 Web 查询-**这是地址簿查找服务，而不是下载通讯簿文件。 如果您想要启用此通讯簿文件下载，请单击**高级**按钮，并将**EnableABSDownload**设置为 True。 对于负载级别赋予一个值。
+- **通讯簿 Web 查询-** 这是通讯簿查找服务，而不是通讯簿文件下载。 如果您希望此启用通讯簿文件下载，请单击**高级**按钮，并将**EnableABSDownload**设置为 True。 负载级别赋予一个值。
     
-- **响应组服务-**单击**高级**按钮并指定响应组已创建时设置响应组服务代理的 Uri。 您必须选择至少一个响应组。 若要使用的详细信息，请用分号分隔的响应组。 **RGSUriSuffixStartIndex**和**RGSUriSuffixEndIndex**更新为实际的值。 选择负载级别。
+- **响应组服务-** 单击**高级**按钮并指定响应组已设置响应组服务代理时创建的 Uri。 您必须选择至少一个响应组。 若要使用的详细信息，请用分号分隔的响应组。 **RGSUriSuffixStartIndex**和**RGSUriSuffixEndIndex**更新到实际值。 选择负载级别。
     
-- **位置信息服务-**选择启用或禁用的负载程度。
+- **位置信息服务-** 选择启用或禁用负载级别。
     
 > [!NOTE]
-> 每个方案都有高级按钮旁边，和一套使变体设置为默认设置的复选框。 
+> 为每个方案具有高级按钮旁边，和一组启用变体设置为默认设置的复选框。 
   
-- 选择*特别*将允许生成模拟的会议，将整个小时创建工具。
+- 选择*临时*将允许生成模拟将整个小时创建的会议的工具。
     
-- 选择*大型会议*表示，将模拟一个大型的会议方案。
+- 选择*大型会议*意味着，将模拟大型会议方案。
     
--  *外部*通知还模拟外部用户工具。
+-  *外部*通知工具还模拟外部用户。
     
-这些按钮和复选框都是特定于每个方案的额外值将更改的压力和性能工具的行为和使自定义项。
+这些按钮和复选框是特定于每个方案的额外值将更改压力和性能工具的行为和进行自定义项可能。
   
-对于每个方案 （除了位置信息服务） 的一般方案选项卡上，如果负载级别的值是**自定义**、 然后对话速率将计算在高级对话框中使用的相应字段。 字段名称可能会有所不同，具体取决于该方案，但将状态字段的说明：*如果从下拉菜单中选择自定义只使用注意此数量*。
+对于每个方案 （除外位置信息服务） 的常规方案选项卡上，如果负载级别的值为**自定义**，然后对话速率将计算使用高级对话框中的相应字段。 字段名称可能有所不同，具体取决于情况，但将状态字段的说明：*将只使用注意此号码，如果从下拉菜单中选择自定义*。
   
-**高**、**中等**和**低**的值将改变每个嵌入的所有方案，一个都平衡的用户模型的模态的对话率。 如果需要更改每由于预期使用情况的不同成像设备的负载级别，请使用自定义对话速度。
+**高**、**中等**和**低**的值将更改每种形式嵌入到用户模型的所有方案的平衡对话率。 如果需要更改每种形式由于预期用法差异的负载级别，请使用自定义对话速度。
   
-#### <a name="voice-scenarios-tab"></a>声音方案选项卡
+#### <a name="voice-scenarios-tab"></a>语音方案选项卡
 
-这是您所有与语音相关的方案的配置的选项卡。
+这是您所有语音相关的方案的配置的选项卡。
   
 ![“加载配置”工具“语音方案”选项卡。](../../media/042e406f-5156-4095-a4eb-6298f24bb51f.png)
   
-选项为：
+是您的选项：
   
-- **VoIP 的**单击**高级**按钮，添加 PhoneAreaCode 和 LocationProfile （拨号计划） 字段的值。 对于负载级别，本文还提供一个值。 如果您选择为 VoIP 或 UC/PSTN 网关启用，然后公共交换电话网络 (PSTN) 为统一通信 (UC) 负载级别将生成配置文件来模拟外部调用。
+- **-VoIP**单击**高级**按钮，并添加 PhoneAreaCode 和 LocationProfile （拨号计划） 字段的值。 您还将负载级别授予一个值。 如果您选择负载级别 VoIP 或 UC/PSTN 网关启用，然后公共交换电话交换网 (PSTN) 与统一通信 (UC) 将生成配置文件以模拟外部呼叫。
     
-- **UC/PSTN 网关-**您需要选择负载级别值，并且之外其他禁用选择任何内容，您还需要通过单击**高级**按钮提供 PSTN 区域代码的值。 中介服务器和 PSTN 下单击**添加**。 请确保已配置为区号的路由。
+- **UC/PSTN 网关-** 您需要选择负载级别值，并且当以外禁用选择任何内容，您还需要通过单击**高级**按钮提供 PSTN 区号的值。 在中介服务器和 PSTN 下，单击**添加**。 请确保已配置为区号的路由。
     
     > [!TIP]
-    > 可用于任何一个 Skype 业务控制面板或 Skype 业务管理外壳程序的验证语音路由配置。 
+    > 您可用于任一 Skype 业务控制面板或 Skype 的业务命令行管理程序来验证语音路由配置。 
   
-- **会议助理-**对于负载级别提供一个值。 已禁用之外的任何值都将启用**电话号码**字段。 请输入您想要使用自动助理的电话号码。 单击**高级**，并为**LocationProfile**字段赋予一个值。
+- **会议助理-** 提供针对负载级别值。 禁用之外的任何值将启用**电话号码**字段。 输入您想要使用的自动助理的电话号码。 单击**高级**，并对**LocationProfile**字段为一个值。
     
-- **停车服务的调用**在这里，提供负载级别。
+- **呼叫驻留服务-** 此处提供负载级别。
     
-- **中介服务器和 PSTN 的**每个要使用的中介服务器需要自己 PSTN 模拟器。 已确定哪个客户端，您将使用的模拟器后，配置中介服务器来路由呼叫到该计算机在 PSTN 模拟器上您配置。 单击**添加**按钮以中介服务器的配置的值。
+- **中介服务器和 PSTN-** 您想要使用的每台中介服务器需要其自己的 PSTN 模拟器。 您已确定您要用于模拟器哪些客户端后，配置中介服务器路由到的计算机在呼叫 PSTN 模拟器您配置。 单击**添加**按钮为中介服务器配置值。
     
     > [!NOTE]
-    > 每个方案都有它旁边位于高级按钮。 高级的对话框包含设置特定于每个方案，改变压力和性能工具的行为，并使自定义。 > 声音方案选项卡上的每种情况下，如果负载级别的值是**自定义**、 然后对话速率将计算通过使用在高级对话框中的相应字段。 字段名称可能会有所不同，具体取决于该方案，但将状态字段的说明：*如果从下拉菜单中选择自定义只使用注意此数量*。
+    > 每个方案有旁边它位于高级按钮。 高级的对话框包含设置特定于每个方案更改压力和性能工具的行为，并且启用自定义。 > 的语音方案选项卡上的每个方案中，如果负载级别的值为**自定义**，然后对话速率将计算使用高级对话框中的对应字段。 字段名称可能有所不同，具体取决于情况，但将状态字段的说明：*将只使用注意此号码，如果从下拉菜单中选择自定义*。
   
 #### <a name="web-app-tab"></a>Web 应用程序选项卡
 
 ![“加载配置”工具“Web 应用”选项卡。](../../media/505b54ef-8140-4dec-a43e-08091f592b34.png)
   
-Web 应用程序支持通过统一通信 Web API (UCWA) 服务器安装在前端服务器上的会议方案。 使用 Web 应用程序选项卡来配置所有 web 应用程序相关的方案。 选项包括：
+Web 应用程序支持通过统一通信 Web API (UCWA) 服务器的前端服务器上安装了会议方案。 使用 Web 应用程序选项卡可以配置所有 web 应用程序相关方案。 选项如下：
   
-- **常规 Web 应用程序设置-**单击**其他设置**按钮，将**ReachTargetServerUrl**设置为目录池虚拟 IP (VIP) 的前端池 VIP。
+- **常规 Web 应用程序设置-** 单击**其他设置**按钮并设置到目录池虚拟 IP (VIP) 的前端池 VIP 的**ReachTargetServerUrl** 。
     
-- **应用程序共享的**为负载级别中选择一个值。
+- **应用程序共享-** 为负载级别选择一个值。
     
-- **数据协作-**为负载级别中选择一个值。
+- **数据协作-** 为负载级别选择一个值。
     
-- **即时消息的**为负载级别中选择一个值。
+- **即时消息-** 为负载级别选择一个值。
     
-- **语音会议-**为负载级别中选择一个值。
+- **语音会议 –** 为负载级别选择一个值。
     
 > [!NOTE]
-> 每个方案都有位于它旁边的**高级**按钮。 高级的对话框包含特定于每个方案的值将更改的压力和性能工具的行为，并启用自定义项。 > 对于每个 Web 应用程序方案，如果负载级别**自定义**、 然后指定的值在**ConversationsPerHour**字段使用而不是默认值。
+> 为每个方案都有旁边它位于**高级**按钮。 高级的对话框包含特定于每个方案的值将更改压力和性能工具的行为和启用自定义。 > 对于每个 Web 应用程序方案，如果负载级别为**自定义**，然后中指定的值**ConversationsPerHour**而不是默认使用字段。
   
 #### <a name="mobility-tab"></a>移动选项卡
 
-使用此选项卡来配置所有的与移动相关的方案。
+使用此选项卡配置的所有 mobility 相关方案。
   
 ![“加载配置”工具“移动性”选项卡。](../../media/30af39c2-50ea-476a-8a56-ce2ddf08517e.png)
   
 此处的选项是：
   
-- **常规的移动设置-**单击**其他设置**，将 UcwaTargetServerUrl 字段设置为主任池虚拟 IP (VIP) 或前端池 VIP。
+- **常规的移动性设置-** 单击**其他设置**，并将字段 UcwaTargetServerUrl 设置为控制器池虚拟 IP (VIP) 或前端池 VIP。
     
-- **状态和 P2P 即时消息传递/音频-**选择要启用移动模拟负载级别的值。
+- **状态和 P2P 即时消息/音频-** 选择要启用移动模拟的负载级别值。
     
 > [!NOTE]
-> 每个方案都有位于它旁边的**高级**按钮。 高级的对话框包含特定于每个方案的值将更改的压力和性能工具的行为，并启用自定义项。 > 对于每一个行动方案，如果负载级别**自定义**、 然后指定的值在**ConversationsPerHour**字段使用而不是默认值。
+> 为每个方案都有旁边它位于**高级**按钮。 高级的对话框包含特定于每个方案的值将更改压力和性能工具的行为和启用自定义。 > 对于每个移动性应用场景，如果负载级别为**自定义**，然后中指定的值**ConversationsPerHour**而不是默认使用字段。
   
 #### <a name="summary-tab"></a>摘要选项卡
 
-摘要选项卡表明哪些用户可以使用每个方案。
+摘要选项卡指示哪些用户用于为每个方案。
   
 ![“加载配置”工具“摘要”选项卡。](../../media/436fb3f2-d73e-402d-bc6e-e8a6740819d2.png)
   
-摘要选项卡表明哪些用户可以使用每个方案。 
+摘要选项卡指示哪些用户用于为每个方案。 
   
-也可以手动配置用户的数字范围，通过选择**启用自定义用户范围生成**复选框，然后双击您要自定义的用户范围的表中的方案。
+就可以通过选择**生成启用自定义用户范围**复选框，然后双击具有您要自定义用户范围的表中的方案中手动配置用户号码范围。
   
-要包括在生成的批处理文件中对应的注册率延迟检查**(RunClient.bat) 添加登录延迟启动时**。 这将有助于在大量用户签名时可以防止服务器超载。
+检查 **(RunClient.bat) 添加登录延迟启动时**才能在对应的登录速率生成的批处理文件中包含延迟。 这会阻止服务器过载大量用户在登录时很有用。
   
-单击**生成文件**并选择要用来生成配置的文件夹。 已成功创建您的文件时，将出现一个对话框。
+单击**生成文件**，然后选择要用来生成配置的文件夹。 已成功创建您的文件时，将出现一个对话框。
   
 ![“已成功生成加载配置文件”消息框。只需单击“确定”。](../../media/c3c1d4a0-cb44-4837-8124-03354f5d9d8c.png)
   
 ## <a name="run-lyncperftool"></a>运行 LyncPerfTool
 <a name="BKMK_RunTool"> </a>
 
-您将需要在运行 Skype 业务服务器 2015年的压力和性能工具 (LyncPerfTool.exe) 之前创建的用户、 联系人和方案。 有关使用这些工具来执行这些操作的详细信息，请参阅[创建用户和联系人](using-the-tool.md#BKMK_CreateUsersAndContacts)和[配置用户配置文件](using-the-tool.md#BKMK_UserProfile)以前在这篇文章。 运行这些工具还将生成的文件，将压力和性能工具作为的一部分运行一个批处理文件与包含所需的参数。
+您需要创建的业务 Server 2015 压力和性能工具 (LyncPerfTool.exe) 运行 Skype 之前的用户、 联系人和方案。 有关使用这些工具才能执行这些操作的详细信息，请参阅[创建用户和联系人](using-the-tool.md#BKMK_CreateUsersAndContacts)和[配置用户配置文件](using-the-tool.md#BKMK_UserProfile)之前本文中。 运行这些工具还将生成的文件将运行的使用压力和性能工具批处理文件的一部分包含所需的参数。
   
-### <a name="running-the-skype-for-business-server-2015-stress-and-performance-tool"></a>运行业务服务器 2015年压力和性能工具 Skype
+### <a name="running-the-skype-for-business-server-2015-stress-and-performance-tool"></a>运行 Business Server 2015 压力和性能工具 Skype
 
-加载配置工具 (UserProfileGenerator.exe) 创建的批处理文件中，您可以通过注册性能计数器和加载 XML 配置文件来运行压力和性能工具 (LyncPerfTool.exe)。 每个配置文件，该批处理文件运行 LyncPerfTool.exe 的一个实例。 若要运行该批处理文件，请执行以下步骤：
+负载配置工具 (UserProfileGenerator.exe) 创建批处理文件，使您能够通过注册性能计数器和加载 XML 配置文件来运行压力和性能工具 (LyncPerfTool.exe)。 批处理文件运行每个配置文件的一个实例 LyncPerfTool.exe。 若要运行的批处理文件，请执行以下步骤：
   
 ### <a name="run-the-stress-and-performance-test"></a>运行压力和性能测试
 
-1. 将配置文件夹中的文件与文件夹复制到每台客户端计算机的 LyncPerfTool.exe 目录。 （例如，如果名为 1.28_13.16.16 的文件夹中生成的配置文件，该将文件夹复制到 LyncPerfTool.exe 文件夹中。 执行此操作在每个客户端上。）
+1. 将具有的配置文件夹和文件内的文件夹复制到每个客户端计算机具有 LyncPerfTool.exe 的目录。 （例如，如果您在名为 1.28_13.16.16 的文件夹中生成的配置文件，复制该文件夹到与 LyncPerfTool.exe 文件夹中。 执行此操作在每个客户端上。）
     
-2. 导航至客户端文件夹，然后运行**RunClient**批处理脚本。 您可以双击 Windows 资源管理器中的批处理文件，它将为该客户端运行的所有配置文件。 您可以通过使用以下语法从一个客户端文件夹运行脚本：
+2. 导航到客户端文件夹，然后运行**RunClient**批处理脚本。 您可以双击在 Windows 资源管理器中的批处理文件，它将为该客户端运行的所有配置文件。 此外可以使用以下语法，从客户端文件夹中运行该脚本：
     
-  ```
-  RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
-  ```
+   ```
+   RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
+   ```
 
-若要直接运行压力和性能工具，打开一个命令提示符并在命令行键入以下命令 (当第一次执行此操作，请务必注册的性能计数器和`regsvr32 /i /n /s LyncPerfToolPerf.dll`，如本主题中后面的注释中所示):
+若要直接运行压力和性能工具，打开命令提示符并键入以下命令，在命令行 (当第一次执行此操作，请务必注册性能计数器和`regsvr32 /i /n /s LyncPerfToolPerf.dll`，如本主题后面的备注中所示):
   
 ```
 LyncPerfTool.exe /file:IM_client0.xml
 ```
 
-若要让该工具在配置文件中显示的值，包括`/displayfile`参数在上述命令中，以便使其如下所示：
+若要配置文件中显示的值该工具，包括`/displayfile`参数上述命令中，使其类似于此：
   
 ```
 LyncPerfTool.exe /file:IM_client0.xml /displayfile
 ```
 
-到*结束*该进程，请按 Ctrl + C。
+*结束*流程，按 Ctrl + C。
   
 > [!NOTE]
-> 直接运行压力和性能工具之前, 您必须注册性能计数器通过下面的命令：`regsvr32 /i /n /s LyncPerfToolPerf.dll`
+> 直接运行压力和性能工具时之前, 必须注册性能计数器通过以下命令：`regsvr32 /i /n /s LyncPerfToolPerf.dll`
   
 > [!NOTE]
-> 启动压力和性能工具的每个实例将立即开始登录用户，通常以一个用户每秒的速率。 
+> 压力和性能工具开始的每个实例将立即开始，通常为用户的每秒的一个用户在登录。 
   
-用户登录用于峰值速率池是大约每秒 12。 这意味着您不应启动超过 12 LyncPerfTool.exe 实例在同一时间同时仍然登录用户。 一千的用户大约需要 20 分钟完全在一个每秒登录。
+峰值用户登录速率为池为大约每秒的 12。 这意味着，您不应启动超过 12 LyncPerfTool.exe 实例同时时用户仍登录。 一个千用户大约需要 20 分钟完全 1 秒登录。
   
 ## <a name="interpreting-the-results"></a>解释结果
 <a name="BKMK_Interpret"> </a>
 
-为业务服务器 2015年压力和性能工具 Skype 有多个计数器，可帮助您了解客户机正在做什么，以及是否它会遇到的问题。
+为业务服务器 2015年压力和性能工具 Skype 具有许多可帮助您了解客户端执行和是否它会遇到问题的计数器。
   
 ### <a name="client-counters"></a>客户端计数器
 
-LyncPerfTool.exe 运行每个的实例都有一个单独的计数器实例。 每个实例名称由其进程 id。 如果客户端是重载可以出现其他问题。 若要防止发生这些问题：
+LyncPerfTool.exe 运行每个的实例都具有单独的计数器实例。 每个实例名为通过其进程 id。 如果客户端是重载会发生其他问题。 若要防止这些问题：
   
-- 监视客户端计算机上的 CPU 和内存使用情况。 如果 CPU 90%以上是以一致的方式，减少用户的数量。
+- 监视客户端计算机上的 CPU 和内存使用情况。 如果 CPU 始终为 90%以上，减少用户的数。
     
-- 如果内存需求量非常大，您可能会遇到问题中，如果页面文件开始用完所有空间。 确认提交费用不按计算机上的限制。 如果您正在运行内存限制为考虑增加页面文件的大小或降低用户的数量。
+- 高的内存需求量后，您可能会遇到问题，如果页面文件开始运行空间不足。 验证提交费用未命中的计算机上的限制。 如果遇到内存限制考虑增加页面文件的大小或减少用户的数量。
     
-这里是关键性能计数器的列表：
+下面是关键性能计数器的列表：
   
-**一般信息**
+**常规信息**
 
 |**性能计数器**|**说明**|
 |:-----|:-----|
-|以分钟为单位的时间  <br/> |自从启动进程以来，所用时间。  <br/> |
-|活动的终结点  <br/> |当前连接到的服务器终结点的数量。  <br/> |
-|失败的登录  <br/> |端点登录失败的总次数。  <br/> |
-|登录尝试  <br/> |终结点的登录尝试的总数。  <br/> |
-|终结点断开连接  <br/> |已断开连接的终结点的总数。  <br/> |
+|以分钟为单位的时间  <br/> |自从启动以来过程所用时间。  <br/> |
+|活动终结点  <br/> |当前连接到服务器的终结点的数目。  <br/> |
+|失败的登录  <br/> |终结点登录失败的总数。  <br/> |
+|登录尝试次数  <br/> |终结点登录尝试的总数。  <br/> |
+|断开连接的终结点  <br/> |已断开的终结点的总数。  <br/> |
    
-**出席信息**
+**状态信息**
 
 |**性能计数器**|**说明**|
 |:-----|:-----|
-|SetPresence 调用  <br/> |总次数存在更改尝试。 不同类型的状态更改，请参见 SetPresence （存在类型） 调用的性能计数器。  <br/> |
-|SetPresence 的 NNN 响应  <br/> |Nnn 响应代码从服务器接收到的总数量。  <br/> |
-|GetPresence 调用  <br/> |状态请求尝试获取的总数。  <br/> |
-|GetPresence 的 NNN 响应  <br/> |Nnn 响应代码从服务器接收到的总数量。  <br/> |
+|SetPresence 呼叫  <br/> |总数状态更改尝试。 有关不同类型的状态更改，请参阅 SetPresence （状态类型） 调用性能计数器。  <br/> |
+|NNN 响应的 SetPresence  <br/> |Nnn 响应代码从服务器接收的总次数。  <br/> |
+|对 GetPresence 呼叫  <br/> |获取状态请求尝试的总数。  <br/> |
+|NNN 响应的 GetPresence  <br/> |Nnn 响应代码从服务器接收的总次数。  <br/> |
    
 **通讯簿服务信息**
 
 |**性能计数器**|**说明**|
 |:-----|:-----|
-|ABS 完全/增量文件下载尝试  <br/> |尝试执行完整备份或增量文件下载请求的总数。  <br/> |
-|ABS 完全/增量文件下载成功  <br/> |尝试执行完整备份或增量文件下载请求的总数。  <br/> |
-|地址簿 Web 查询与服务相关的计数器  <br/> |通讯簿文件下载相关的计数器。  <br/> |
-|ABS WS 调用尝试  <br/> |尝试的地址簿 Web 查询服务请求的总数。  <br/> |
-|成功的 ABS WS 调用  <br/> |返回一个成功的响应代码的地址簿 Web 查询服务请求的总数。  <br/> |
-|ABS WS 调用失败  <br/> |返回了错误响应代码的地址簿 Web 查询服务请求的总数。  <br/> |
+|尝试 ABS 完全/增量文件下载  <br/> |尝试完全或增量文件下载请求的总数。  <br/> |
+|ABS 完全/增量文件下载成功  <br/> |尝试完全或增量文件下载请求的总数。  <br/> |
+|通讯簿 Web 查询服务相关的计数器  <br/> |通讯簿文件下载相关的计数器。  <br/> |
+|ABS WS 呼叫尝试  <br/> |尝试的通讯簿 Web 查询服务请求的总数。  <br/> |
+|ABS WS 呼叫成功  <br/> |返回一个成功的响应代码的通讯簿 Web 查询服务请求的总数。  <br/> |
+|ABS WS 呼叫失败  <br/> |返回错误响应代码的通讯簿 Web 查询服务请求的总数。  <br/> |
    
 > [!NOTE]
-> 此类别包括一些计数器来监视通讯簿服务 (ABS) 文件下载和地址簿 Web 查询服务请求。 
+> 此类别包括用于监视通讯簿服务 (ABS) 文件下载和通讯簿 Web 查询服务请求的计数器。 
   
 **通讯组列表 (DL) 信息**
 
 |**性能计数器**|**说明**|
 |:-----|:-----|
-|尝试调用  <br/> |尝试的通讯组列表扩展 (DLX) web 服务请求的总数。  <br/> |
-|成功调用  <br/> |返回一个成功的响应代码的 DLX web 服务请求的总数。  <br/> |
-|调用失败  <br/> |返回了错误响应代码的 DLX web 服务请求的总数。  <br/> |
+|尝试的呼叫  <br/> |尝试的通讯组列表扩展 (DLX) web 服务请求的总数。  <br/> |
+|成功呼叫  <br/> |返回一个成功的响应代码的 DLX web 服务请求的总数。  <br/> |
+|失败的呼叫  <br/> |返回错误响应代码的 DLX web 服务请求的总数。  <br/> |
    
 
   
 > [!NOTE]
-> 性能计数器下面列出报表编号所有语音 IP (VoIP) 的调用，包括调用中介服务器，A / V 会议服务器、 边缘服务器、 响应组的应用程序，以及会议自动助理，启用这些方案。 
+> 性能计数器下面列出报表编号的所有语音 IP (电话 VoIP) 呼叫，包括呼叫到中介服务器，A / V 会议服务器、 边缘服务器，响应组应用程序和会议自动助理，启用这些方案时。 
   
-**VoIP 基本信息**
+**VoIP Basic 信息**
 
 |**性能计数器**|**说明**|
 |:-----|:-----|
-|调用活动  <br/> |当前正在进行调用总数传入/传出的声音。  <br/> |
-|终止呼叫  <br/> |传入/传出语音呼叫总数已终止。  <br/> |
-|调用被拒绝  <br/> |拒绝的语音来电总数。  <br/> |
-|传入/传出呼叫尝试  <br/> |传入/传出语音呼叫尝试的总数。  <br/> |
-|传入/传出呼叫建立  <br/> |传入/传出语音呼叫建立的总数量。  <br/> |
-|调用接收的 NNN  <br/> |Nnn 响应代码从服务器接收到的总数量。  <br/> |
-|VoIP 通过率 （%）  <br/> |总调用尝试建立总调用。  <br/> |
+|呼叫活动  <br/> |当前正在进行调用的传入/传出语音总数。  <br/> |
+|终止呼叫  <br/> |已终止的传入/传出语音呼叫的总数。  <br/> |
+|拒绝呼叫  <br/> |拒绝的传入语音呼叫的总数。  <br/> |
+|尝试的传入/传出呼叫  <br/> |传入/传出语音呼叫尝试的总数。  <br/> |
+|建立的传入/传出呼叫  <br/> |传入/传出建立语音呼叫的总数。  <br/> |
+|呼叫接收到的 NNN  <br/> |Nnn 响应代码从服务器接收的总次数。  <br/> |
+|VoIP 通过率 （%）  <br/> |总呼叫尝试建立总呼叫。  <br/> |
    
-**响应组服务调用信息**
+**响应组服务呼叫信息**
 
 |**性能计数器**|**说明**|
 |:-----|:-----|
-|调用活动  <br/> |为响应组应用程序的活动调用的总次数。  <br/> |
-|尝试调用  <br/> |尝试调用的总次数。  <br/> |
+|呼叫活动  <br/> |对响应组应用程序的活动呼叫的总数。  <br/> |
+|尝试的呼叫  <br/> |呼叫尝试的总数。  <br/> |
    
-**即时消息 (IM) 调用信息**
+**即时消息 (IM) 呼叫信息**
 
 |**性能计数器**|**说明**|
 |:-----|:-----|
-|调用活动  <br/> |不断传入/传出即时消息调用总数。  <br/> |
-|终止呼叫  <br/> |传入/传出即时消息调用的总次数已终止。  <br/> |
-|调用接收的 NNN  <br/> |Nnn 响应代码从服务器接收到的总数量。  <br/> |
-|接收/发送的 IM 消息  <br/> |消息总数接收或发送的所有会话。  <br/> |
-|传入/传出呼叫尝试  <br/> |传入/传出即时消息调用尝试的总数。  <br/> |
-|传入/传出呼叫建立  <br/> |传入/传出建立即时消息调用的总次数。  <br/> |
+|呼叫活动  <br/> |正在进行传入/传出即时消息呼叫的总数。  <br/> |
+|终止呼叫  <br/> |已终止的传入/传出即时消息的呼叫的总数。  <br/> |
+|呼叫接收到的 NNN  <br/> |Nnn 响应代码从服务器接收的总次数。  <br/> |
+|收到发送的 IM 消息  <br/> |消息的总数收到或发送的所有会话。  <br/> |
+|尝试的传入/传出呼叫  <br/> |传入/传出即时消息呼叫尝试的总数。  <br/> |
+|建立的传入/传出呼叫  <br/> |建立传入/传出即时消息呼叫的总数。  <br/> |
    
-**应用程序共享的呼叫信息**
+**应用程序共享呼叫信息**
 
 |**性能计数器**|**说明**|
 |:-----|:-----|
-|调用活动  <br/> |不断传入/传出的应用程序共享的调用总数。  <br/> |
-|终止呼叫  <br/> |总数已共享调用传入/传出应用程序终止。  <br/> |
-|调用接收的 NNN  <br/> |Nnn 响应代码从服务器接收到的总数量。  <br/> |
-|传入/传出呼叫尝试  <br/> |传入/传出的应用程序共享尝试调用的总次数。  <br/> |
-|传入/传出呼叫建立  <br/> |传入/传出的应用程序共享建立的调用总数。  <br/> |
+|呼叫活动  <br/> |正在进行的传入/传出的应用程序共享呼叫的总数。  <br/> |
+|终止呼叫  <br/> |终止传入/传出的应用程序已共享呼叫的总数。  <br/> |
+|呼叫接收到的 NNN  <br/> |Nnn 响应代码从服务器接收的总次数。  <br/> |
+|尝试的传入/传出呼叫  <br/> |传入/传出的应用程序共享呼叫尝试的总数。  <br/> |
+|建立的传入/传出呼叫  <br/> |传入/传出的应用程序共享建立呼叫的总数。  <br/> |
    
 **CAA 呼叫信息**
 
 |**性能计数器**|**说明**|
 |:-----|:-----|
-|调用活动  <br/> |目前正在进行调用传入/传出公用交换的电话网 (PSTN) 的总数。  <br/> |
-|终止呼叫  <br/> |传入/传出 PSTN 呼叫总数已终止。  <br/> |
-|传入/传出呼叫尝试  <br/> |传入/传出 PSTN 呼叫尝试的总数。  <br/> |
-|传入/传出呼叫建立  <br/> |传入/传出 PSTN 呼叫建立的总数。  <br/> |
+|呼叫活动  <br/> |当前正在进行调用的传入/传出公用电话交换网 (PSTN) 的总数。  <br/> |
+|终止呼叫  <br/> |已终止的传入/传出 PSTN 呼叫的总数。  <br/> |
+|尝试的传入/传出呼叫  <br/> |传入/传出 PSTN 呼叫尝试的总数。  <br/> |
+|建立的传入/传出呼叫  <br/> |建立传入/传出 PSTN 呼叫的总数。  <br/> |
    
 **会议信息**
 
 |**性能计数器**|**说明**|
 |:-----|:-----|
-|活动的即时消息会议  <br/> |正在进行的即时消息会议的总次数。  <br/> |
-|当前的音频/视频会议  <br/> |总数持续音频/视频 (A / V) 会议。  <br/> |
-|活动应用程序共享会议  <br/> |日常应用程序共享会议的总次数。  <br/> |
-|参与者人数  <br/> |当前连接到会议参与者的总数。  <br/> |
-|会议计划失败  <br/> |尝试安排会议时失败的总次数。  <br/> |
-|加入会议失败  <br/> |尝试连接到会议时失败的总数量。  <br/> |
+|活动的即时消息会议  <br/> |正在进行的即时消息会议的总数。  <br/> |
+|活动的音频/视频会议  <br/> |总数正在进行音频/视频 (A / V) 会议。  <br/> |
+|活动应用程序共享会议  <br/> |正在进行的应用程序共享会议的总数。  <br/> |
+|参与者数目  <br/> |当前连接到会议的参与者的总数。  <br/> |
+|会议计划失败  <br/> |试图安排会议时失败的总数。  <br/> |
+|加入会议失败  <br/> |尝试连接到会议时失败的总数。  <br/> |
    
 **UCWA 客户端计数器**
 
 |**性能计数器**|**说明**|
 |:-----|:-----|
-|总数 IMMCU 连接成功  <br/> |加入了即时消息会议的总次数。  <br/> |
-|总数 DMCU 连接成功  <br/> |总数的 A / V 会议加入。  <br/> |
+|总数 IMMCU 加入成功  <br/> |加入即时消息会议的总数。  <br/> |
+|总数 DMCU 加入成功  <br/> |总数 A / V 会议加入。  <br/> |
    
 

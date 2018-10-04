@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57e34970041ae8a30cfa7a0b34b7b655fea9b28c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4d5e36389063ed3c03176506a1d31e4bfd488244
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014850"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373019"
 ---
 ![升级旅程，重点强调的技术的准备阶段的阶段](media/upgrade-banner-tech-readiness.png "升级旅程，重点强调的技术的准备阶段的阶段")
 
@@ -179,19 +179,20 @@ ms.locfileid: "25014850"
 
 使用下表并提供组织的当前采用和就绪状态。
 
-> | 问题 | 回答 | 备注 |
-> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-> | 您当前的活动使用的是什么 <br>Skype for Business？ | 与启用的用户的 ___ %总活动用户 | |
-> | 如何使用您的组织 <br>Skype for Business？ | 一对一对话 <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> IM <br>&nbsp;&nbsp; &nbsp; <input type="checkbox">调用 <br>&nbsp;&nbsp; &nbsp; <input type="checkbox">共享<br> 会议 <br>&nbsp;&nbsp; &nbsp; <input type="checkbox">会议<br>&nbsp;&nbsp; &nbsp; <input type="checkbox">共享<br>&nbsp;&nbsp; &nbsp; <input type="checkbox">调用| |
-> | 您的组织有用户应用 <br>和变更管理团队？ | <input type="checkbox">是的<br/> <input type="checkbox">不 | |
-> | 如何当前测量成功技术 <br>推出采用 Skype for Business？ | | |
-> | 用户群的比例您认为具有 <br>采用 Skype for Business？ | | |
-> | 用户对 Skype for Business 的看法如何？ | <input type="checkbox">良好 <br/> <input type="checkbox">非特定语言 <br/> <input type="checkbox">错误 | |
-> | 它以下最佳介绍了推出 <br>用于业务您 Skype 的策略 <br>部署？ | <input type="checkbox">广泛的通： 电子邮件与市场活动 <br>&nbsp;&nbsp; &nbsp;培训的链接 <br/> <input type="checkbox">扩展： 广泛通以及各类 <br>&nbsp;&nbsp; &nbsp;的认知活动 （海报、 <br>&nbsp;&nbsp; &nbsp;事件、 拥护者) 和培训 <br>&nbsp;&nbsp; &nbsp;（视频、 用户指南、 面对面） <br/> <input type="checkbox">定制： 展开，以及目标 <br>&nbsp;&nbsp; &nbsp;消息和个人培训 <br/> <input type="checkbox">其他 <br>&nbsp;&nbsp; &nbsp;（请注意注释列中的详细信息。） | |
+> 
+> |                                                    问题                                                     |                                                                                                                                                                                                                                                                                      回答                                                                                                                                                                                                                                                                                      | 备注 |
+> |-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+> |                          您当前的活动使用的是什么 <br>Skype for Business？                           |                                                                                                                                                                                                                                                                 与启用的用户的 **__** %总活动用户                                                                                                                                                                                                                                                                 |          |
+> |                             如何使用您的组织 <br>Skype for Business？                              |                                                                                                   一对一对话 <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> IM <br>&nbsp;&nbsp; &nbsp; <input type="checkbox">调用 <br>&nbsp;&nbsp; &nbsp; <input type="checkbox">共享<br> 会议 <br>&nbsp;&nbsp; &nbsp; <input type="checkbox">会议<br>&nbsp;&nbsp; &nbsp; <input type="checkbox">共享<br>&nbsp;&nbsp; &nbsp; <input type="checkbox">调用                                                                                                   |          |
+> |                   您的组织有用户应用 <br>和变更管理团队？                   |                                                                                                                                                                                                                                                           <input type="checkbox">是的<br/> <input type="checkbox">不                                                                                                                                                                                                                                                            |          |
+> |            如何当前测量成功技术 <br>推出采用 Skype for Business？            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |          |
+> |               用户群的比例您认为具有 <br>采用 Skype for Business？               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |          |
+> |                                用户对 Skype for Business 的看法如何？                                |                                                                                                                                                                                                                                       <input type="checkbox">良好 <br/> <input type="checkbox">非特定语言 <br/> <input type="checkbox">错误                                                                                                                                                                                                                                       |          |
+> | 它以下最佳介绍了推出 <br>用于业务您 Skype 的策略 <br>部署？ | <input type="checkbox">广泛的通： 电子邮件与市场活动 <br>&nbsp;&nbsp; &nbsp;培训的链接 <br/> <input type="checkbox">扩展： 广泛通以及各类 <br>&nbsp;&nbsp; &nbsp;的认知活动 （海报、 <br>&nbsp;&nbsp; &nbsp;事件、 拥护者) 和培训 <br>&nbsp;&nbsp; &nbsp;（视频、 用户指南、 面对面） <br/> <input type="checkbox">定制： 展开，以及目标 <br>&nbsp;&nbsp; &nbsp;消息和个人培训 <br/> <input type="checkbox">其他 <br>&nbsp;&nbsp; &nbsp;（请注意注释列中的详细信息。） |          |
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>谁将负责完成环境评估？</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>下一步</td><td><ul><li>文档环境评估的结果。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>谁将负责完成环境评估？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>文档环境评估的结果。</li></ul></td></tr>
 </table>
 
 评估环境后，继续执行下一步：[准备您的网络](upgrade-prepare-environment-prepare-network.md)。

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: 摘要： 了解如何安装 Business Server Skype 安装所需的管理工具。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: a51de57ca8eaa7d303af4240b5d30e8a5ca51f70
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5f5e00075f34a6a09d36dede7c4cf2ac2a6ab60f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882128"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373055"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>在 Skype 业务服务器安装管理工具
  
@@ -56,13 +56,13 @@ Skype 业务服务器的安装媒体提供了灵活的体验。 当您首次运�
     
     ![“应用程序中的核心组件”屏幕。](../../media/0da1d983-4c4b-4b23-a196-c3bdba4857c6.png)
   
-  - **Skype 的业务 Server 部署向导**为业务服务器安装 Skype 的各种组件提供启动拨号盘部署计划。
+   - **Skype 的业务 Server 部署向导**为业务服务器安装 Skype 的各种组件提供启动拨号盘部署计划。
     
-  - **Skype 的业务 Server 命令行管理程序**预配置的 PowerShell 程序，允许 Skype 的业务服务器的管理。
+   - **Skype 的业务 Server 命令行管理程序**预配置的 PowerShell 程序，允许 Skype 的业务服务器的管理。
     
-    核心组件安装完成后，将自动启动 Business Server 部署向导的 Skype，如下图所示。 
+     核心组件安装完成后，将自动启动 Business Server 部署向导的 Skype，如下图所示。 
     
-    ![Skype for Business Server 部署向导](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
+     ![Skype for Business Server 部署向导](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
   
 6. 除了核心组件，您需要 Skype 业务 Server 拓扑生成器和 Skype 上安装 for Business Server Control Panel 环境中的至少一台服务器。 单击部署向导上的“**安装管理工具**”。
     

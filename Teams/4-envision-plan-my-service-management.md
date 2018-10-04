@@ -13,16 +13,16 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b86804cf994ce15a9d450fbffb9c1e7cd8b5f9b4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 562ed8dbd4e4130b6ef157e600f69ea486ee813b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016050"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374222"
 ---
 # <a name="plan-my-service-management"></a>规划服务管理
 
-本文概述了所需提供和维护高质量的 Microsoft 团队部署的要求。 在首次试点或生产部署之前，可以通过在展望阶段规划服务管理和质量来帮助确保部署得以成功。
+本文概述了交付和维护高质量的 Microsoft Teams 部署需要达到的要求。 在首次试点或生产部署之前，可以通过在展望阶段规划服务管理和质量来帮助确保部署得以成功。
 
 ## <a name="service-management-for-teams"></a>Teams 服务管理
 
@@ -30,8 +30,8 @@ ms.locfileid: "25016050"
 
 对于大多数组织而言，服务管理概念很可能不是一个新概念。 你可能已经实施了与现有服务关联的流程和任务。 尽管如此，当你现在规划服务管理以在将来支持 Microsoft Teams 时，你可能会扩大已实施的方面。
 
-服务管理包含管理 Microsoft Teams 端到端时涉及的所有活动和流程。 服务管理的某些组件 — 包含 Office 365 服务本身的基础结构组件 — 是 Microsoft 的责任，而客户负责为其用户管理团队，网络的各个方面和它们提供的终结点。
-团队服务管理和它与支持的用户体验质量的关键组件的客户责任的完整讨论，请参阅[规划服务管理和质量](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide)。
+服务管理包含管理 Microsoft Teams 端到端时涉及的所有活动和流程。 服务管理的一些组件（构成 Office 365 服务自身的基础结构组件）属于 Microsoft 的职责范围，而客户负责为其用户管理自己提供的 Teams、网络和终结点的各个方面。
+有关客户的 Teams 服务管理职责及其与用户体验质量所基于的主要组件的相关程度的详细讨论，请参阅[规划服务管理和质量](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide)。
 
 ![此示意图质量的三个组成部分（Office 365 服务、网络和终结点）以及服务管理如何贯穿于这三个组成部分。](media/plan-my-service-management-image1.png "此示意图显示了质量的三个组成部分（Office 365 服务、网络和终结点）以及服务管理如何贯穿于这三个组成部分。")
 
@@ -77,12 +77,12 @@ ms.locfileid: "25016050"
 ## <a name="the-quality-champion-role"></a>质量支持者角色
 
 在所有组织中，都需要小组或个人为质量负责。
-这是服务管理中最重要的角色。 客户角色分配给用户或用户组属于热心有关其用户体验质量冠军。 此角色要求具有识别环境中的趋势的技能，以及能够支持与其他团队合作以推动修正。
-最适合进行质量冠军通常是客户服务所有者，人员 — 取决于组织的规模和复杂性 — 可以是任何人或团队致力于用户体验。
+这是服务管理中最重要的角色。 质量支持者是分配给关心其用户体验的个人或小组的客户角色。 此角色要求具有识别环境中的趋势的技能，以及能够支持与其他团队合作以推动修正。
+质量支持者的最佳候选人通常是客户服务所有者，根据组织的规模和复杂程度，可以是关心用户体验的任何个人或小组。
 
-质量冠军利用现有的工具和记录操作过程中，如呼叫质量仪表板 (CQD) 和质量体验审阅指南要监视的用户体验，请确定质量趋势和驱动器修正在需要时。 质量冠军处理驱动器修正操作，各个团队报告给调控委员会其进度和解决问题。
+质量支持者利用现有的工具和记录的流程（例如通话质量仪表板 (CQD) 和《体验质量评审指南》）来监控用户体验、识别质量趋势以及在需要的情况下推动修正。 质量支持者与各个团队合作以推动采取修正措施，并就进度和未解决的问题向指导委员会报告。
 
-任务和与角色相关联的活动均编档在操作指南 》。 应在展望阶段早期分配此角色。 执行质量支持者角色时的一个主要步骤是获取该角色所需的知识，以及确保在执行任务时满足先决条件。 此角色的一个主要任务是运行定期质量体验评审。
+《操作指南》中记录了与该角色关联的任务和活动。 应在展望阶段早期分配此角色。 执行质量支持者角色时的一个主要步骤是获取该角色所需的知识，以及确保在执行任务时满足先决条件。 此角色的一个主要任务是运行定期质量体验评审。
 
 <!--ENDOFSECTION-->
 
@@ -108,13 +108,13 @@ ms.locfileid: "25016050"
 
 《体验质量评审指南》主要指导如何将通话质量仪表板 (CQD) 作为主要工具进行在线使用来报告和调查所述的每个方面，且重点在音频方面，以最大限度地提高采用率和作用。 为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。
 
-我们强烈建议您在早期提名质量冠军。 正在提名之后, 他们应开始熟悉[质量体验审阅指南](https://aka.ms/qerguide)中的内容。
+强烈建议尽早指定质量支持者。 在被指定为质量支持者后，这些人应开始了解[《体验质量评审指南》](https://aka.ms/qerguide)中的内容。
 
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>确定负责贵组织的云语音操作的人员。</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>下载规划服务质量完整指南。</li><li>下载《体验质量评审指南》。</li><li>仔细查看操作指南。</li><li>向所有操作团队成员提供所有指南以进行查看并熟悉操作要求。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>确定负责贵组织的云语音操作的人员。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>下载规划服务质量完整指南。</li><li>下载《体验质量评审指南》。</li><li>仔细查看操作指南。</li><li>向所有操作团队成员提供所有指南以进行查看并熟悉操作要求。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读此主题以了解有关部署在大型部署的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 3b34d584bf98326257964e30431f622a0be6dee2
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c84517ba5ceb7eea582b379c8cabe5014dde43d5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247455"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372750"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>使用 System Center Configuration Manager 部署 Skype 会议室系统 v2
 
@@ -172,63 +172,63 @@ ms.locfileid: "23247455"
 
 ### <a name="create-the-microsoft-operations-management-suite-agent-package"></a>创建 Microsoft 操作管理套件代理包
 
-1.  下载操作管理套件 X-64 代理从<https://go.microsoft.com/fwlink/?LinkId=828603>。
+1. 下载操作管理套件 X-64 代理从<https://go.microsoft.com/fwlink/?LinkId=828603>。
 
-2.  通过打开命令提示符窗口并在命令提示符处输入**MMASetup AMD64.exe 无**程序包解压缩到**SR v2-Microsoft OMS 代理包**文件夹中。
+2. 通过打开命令提示符窗口并在命令提示符处输入**MMASetup AMD64.exe 无**程序包解压缩到**SR v2-Microsoft OMS 代理包**文件夹中。
 
-3.  在 Configuration Manager 控制台中，转到**软件库** \> **应用程序管理** \> **包**以及然后选择**创建新程序包**。
+3. 在 Configuration Manager 控制台中，转到**软件库** \> **应用程序管理** \> **包**以及然后选择**创建新程序包**。
 
-4.  输入以下信息以创建包：
+4. 输入以下信息以创建包：
 
-    -   名称 **: SR v2-Microsoft OMS 代理包**
+   - 名称<strong>: SR v2-Microsoft OMS 代理包</strong>
 
-    -   制造商 **: Microsoft Corporation**
+   - 制造商<strong>: Microsoft Corporation</strong>
 
-    -   版本 **: 8.1.11081.0** （输入下载的安装文件的版本）
+   - 版本<strong>: 8.1.11081.0</strong> （输入下载的安装文件的版本）
 
-    -   选择**此程序包包含源文件**复选框、 **SR v2-Microsoft OMS 代理包**文件夹中，输入的路径，然后选择**下一步**。
+   - 选择**此程序包包含源文件**复选框、 **SR v2-Microsoft OMS 代理包**文件夹中，输入的路径，然后选择**下一步**。
 
-5.  选择**不创建程序**，然后选择**下一步**。
+5. 选择**不创建程序**，然后选择**下一步**。
 
-6.  查看**确认的设置**页，然后选择**下一步**。
+6. 查看**确认的设置**页，然后选择**下一步**。
 
-7.  选择**关闭**。
+7. 选择**关闭**。
 
 ### <a name="create-the-operating-system-updates-package"></a>创建操作系统更新包
 
-1.  在**SR v2-操作系统更新程序包**文件夹中，创建名为**安装 SRSv2 OS Updates.ps1**新的 PowerShell 脚本。
+1. 在**SR v2-操作系统更新程序包**文件夹中，创建名为**安装 SRSv2 OS Updates.ps1**新的 PowerShell 脚本。
 
-2.  将以下脚本复制到**安装 SRSv2 OS Updates.ps1**脚本。 或者，您可以从[此处](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)下载该安装 SRSv2 OS Updates.ps1 脚本。
-```
+2. 将以下脚本复制到**安装 SRSv2 OS Updates.ps1**脚本。 或者，您可以从[此处](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)下载该安装 SRSv2 OS Updates.ps1 脚本。
+   ```
    # Install-SRSv2-OS-Updates.ps1
    $strPath = split-path -parent $MyInvocation.MyCommand.Definition
    $total = gci $strPath *.msu | measure | Select-Object -expand Count
    $i = 0
    gci $strPath *.msu | ForEach-Object {
-      $i++
-      WUSA ""$_.FullName /quiet /norestart""
-      Write-Progress -activity "Applying Mandatory Updates" -status "Installing
-      $_ .. $i of $total" -percentComplete (($i / $total) * 100)
-      Wait-Process -name wusa
+     $i++
+     WUSA ""$_.FullName /quiet /norestart""
+     Write-Progress -activity "Applying Mandatory Updates" -status "Installing
+     $_ .. $i of $total" -percentComplete (($i / $total) * 100)
+     Wait-Process -name wusa
    }
-```
-3.  下载到同一文件夹的必需的 Windows 更新程序包。
-    > [!NOTE]
-    > 在发布本文时，仅[KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)是必需的。 检查[配置 Skype 会议室系统 v2 控制台](console.md)，请参阅是否需要其他任何更新。
+   ```
+3. 下载到同一文件夹的必需的 Windows 更新程序包。
+   > [!NOTE]
+   > 在发布本文时，仅[KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)是必需的。 检查[配置 Skype 会议室系统 v2 控制台](console.md)，请参阅是否需要其他任何更新。
 
-4.  在 Configuration Manager 控制台中，转到**软件库** \> **应用程序管理** \> **包**以及然后选择**创建新程序包**。
+4. 在 Configuration Manager 控制台中，转到**软件库** \> **应用程序管理** \> **包**以及然后选择**创建新程序包**。
 
-5.  输入以下信息以创建包：
-    -   名称： **SR v2 – 操作系统更新包**
-    -   制造商： **Microsoft Corporation**
-    -   版本： **1.0.0**
-    -   选择**此程序包包含源文件**复选框、 **SR v2-操作系统更新程序包**文件夹中，输入的路径，然后选择**下一步**。
+5. 输入以下信息以创建包：
+   -   名称： **SR v2 – 操作系统更新包**
+   -   制造商： **Microsoft Corporation**
+   -   版本： **1.0.0**
+   -   选择**此程序包包含源文件**复选框、 **SR v2-操作系统更新程序包**文件夹中，输入的路径，然后选择**下一步**。
 
-6.  选择**不创建程序**，然后选择**下一步**。
+6. 选择**不创建程序**，然后选择**下一步**。
 
-7.  查看**确认的设置**页，然后选择**下一步**。
+7. 查看**确认的设置**页，然后选择**下一步**。
 
-8.  选择**关闭**。
+8. 选择**关闭**。
 
 ### <a name="create-the-root-certificate-package-optional"></a>创建根证书包 （可选）
 
@@ -383,72 +383,72 @@ ms.locfileid: "23247455"
 
 ### <a name="create-the-sysprep-package"></a>创建 Sysprep 包
 
-1.  在**SR v2 – Sysprep 程序包**文件夹中，创建名为**Unattend.xml**的新 XML 文件。
+1. 在**SR v2 – Sysprep 程序包**文件夹中，创建名为**Unattend.xml**的新 XML 文件。
 
-2.  将以下文本复制到**Unattend.xml**文件。 此外，您可以从[此处](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)下载 Unattend.xml 文件。
-```
-<?xml version="1.0" encoding="utf-8"?>
-<unattend xmlns="urn:schemas-microsoft-com:unattend">
-    <settings pass="specialize">
-        <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <DisableBootMenu>1</DisableBootMenu>
-            <DisplayDisabled>1</DisplayDisabled>
-        </component>
-        <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <PreferredPlan>8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c</PreferredPlan>
-        </component>
-    </settings>
-    <settings pass="oobeSystem">
-        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <OOBE>
-                <HideEULAPage>true</HideEULAPage>
-                <HideLocalAccountScreen>true</HideLocalAccountScreen>
-                <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
-                <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
-                <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
-                <SkipMachineOOBE>true</SkipMachineOOBE>
-                <SkipUserOOBE>true</SkipUserOOBE>
-                <ProtectYourPC>1</ProtectYourPC>
-            </OOBE>
-            <AutoLogon>
-                <Enabled>true</Enabled>
-                <Username>Skype</Username>
-                <Password>
-                    <Value>UABhAHMAcwB3AG8AcgBkAA==</Value>
-                    <PlainText>false</PlainText>
-                </Password>
-            </AutoLogon>
-            <UserAccounts>
-                <LocalAccounts>
-                    <LocalAccount wcm:action="add">
-                        <Password>
-                            <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
-                            <PlainText>false</PlainText>
-                        </Password>
-                        <Name>Admin</Name>
-                        <Group>Administrators</Group>
-                        <DisplayName>Administrator</DisplayName>
-                        <Description>Administrator</Description>
-                    </LocalAccount>
-                </LocalAccounts>
-            </UserAccounts>
-        </component>
-    </settings>
-    <cpi:offlineImage cpi:source="wim:h:/install.wim#Windows 10 Enterprise" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
-</unattend>
-```
-3.  在 Configuration Manager 控制台中，转到**软件库** \> **应用程序管理** \> **包**以及然后选择**创建新程序包**。
+2. 将以下文本复制到**Unattend.xml**文件。 此外，您可以从[此处](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)下载 Unattend.xml 文件。
+   ```
+   <?xml version="1.0" encoding="utf-8"?>
+   <unattend xmlns="urn:schemas-microsoft-com:unattend">
+   <settings pass="specialize">
+       <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           <DisableBootMenu>1</DisableBootMenu>
+           <DisplayDisabled>1</DisplayDisabled>
+       </component>
+       <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           <PreferredPlan>8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c</PreferredPlan>
+       </component>
+   </settings>
+   <settings pass="oobeSystem">
+       <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           <OOBE>
+               <HideEULAPage>true</HideEULAPage>
+               <HideLocalAccountScreen>true</HideLocalAccountScreen>
+               <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
+               <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+               <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+               <SkipMachineOOBE>true</SkipMachineOOBE>
+               <SkipUserOOBE>true</SkipUserOOBE>
+               <ProtectYourPC>1</ProtectYourPC>
+           </OOBE>
+           <AutoLogon>
+               <Enabled>true</Enabled>
+               <Username>Skype</Username>
+               <Password>
+                   <Value>UABhAHMAcwB3AG8AcgBkAA==</Value>
+                   <PlainText>false</PlainText>
+               </Password>
+           </AutoLogon>
+           <UserAccounts>
+               <LocalAccounts>
+                   <LocalAccount wcm:action="add">
+                       <Password>
+                           <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
+                           <PlainText>false</PlainText>
+                       </Password>
+                       <Name>Admin</Name>
+                       <Group>Administrators</Group>
+                       <DisplayName>Administrator</DisplayName>
+                       <Description>Administrator</Description>
+                   </LocalAccount>
+               </LocalAccounts>
+           </UserAccounts>
+       </component>
+   </settings>
+   <cpi:offlineImage cpi:source="wim:h:/install.wim#Windows 10 Enterprise" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
+   </unattend>
+   ```
+3. 在 Configuration Manager 控制台中，转到**软件库** \> **应用程序管理** \> **包**以及然后选择**创建新程序包**。
 
-4.  输入以下信息以创建包：
-    -   名称： **SR v2-Sysprep 包**
-    -   制造商： **Microsoft Corporation**
-    -   版本： **1.0.0**
-    -   选择**此程序包包含源文件**复选框、 **SR v2 – Sysprep 程序包**文件夹中，输入的路径，然后选择**下一步**。
-5.  选择**不创建程序**，然后选择**下一步**。
+4. 输入以下信息以创建包：
+   -   名称： **SR v2-Sysprep 包**
+   -   制造商： **Microsoft Corporation**
+   -   版本： **1.0.0**
+   -   选择**此程序包包含源文件**复选框、 **SR v2 – Sysprep 程序包**文件夹中，输入的路径，然后选择**下一步**。
+5. 选择**不创建程序**，然后选择**下一步**。
 
-6.  查看**确认的设置**页，然后选择**下一步**。
+6. 查看**确认的设置**页，然后选择**下一步**。
 
-7.  选择**关闭**。
+7. 选择**关闭**。
 
 ### <a name="create-the-windows-10-enterprise-package"></a>创建 Windows 10 Enterprise 包
 
@@ -540,9 +540,9 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
 
 > [!NOTE]
 > 软件包分发可能需要一些时间，具体取决于程序包大小、 配置管理器层次结构、 分发点服务器的数量和网络中可以使用的带宽。
-
+> 
 > 在开始部署 Skype 会议室系统 v2 单位之前，必须将分发所有程序包。
-
+> 
 > 您可以查看您程序包分发 Configuration Manager 控制台中的状态，转到**监控** \> **分发状态** \> **内容状态**。
 
 ## <a name="configuration-manager-task-sequences"></a>配置管理器任务序列
@@ -566,66 +566,66 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
 
 ### <a name="validate-that-the-reference-packages-are-correctly-linked-to-each-task-sequence-step"></a>验证引用包正确链接到任务序列的每个步骤。
 
-1.  选择导入的任务序列，，，然后选择**编辑**。
+1. 选择导入的任务序列，，，然后选择**编辑**。
 
-     任务序列编辑器打开并显示每个连续的步骤，您需要部署和配置 Skype 会议室系统 v2 单位。
+    任务序列编辑器打开并显示每个连续的步骤，您需要部署和配置 Skype 会议室系统 v2 单位。
 
-1.  演练每个步骤并完成建议的更新：
+2. 演练每个步骤并完成建议的更新：
 
-    1.  **在 Windows PE 重新启动**： 此步骤重新启动，然后启动到 Windows PXE 的计算机。 没有更改所需的此步骤。
+   1. **在 Windows PE 重新启动**： 此步骤重新启动，然后启动到 Windows PXE 的计算机。 没有更改所需的此步骤。
 
-    2.  **分区磁盘 0 – UEFI**： 此步骤擦除磁盘配置并创建基于已配置的设置的分区。 我们建议对此步骤不进行任何更改。
+   2. **分区磁盘 0 – UEFI**： 此步骤擦除磁盘配置并创建基于已配置的设置的分区。 我们建议对此步骤不进行任何更改。
 
-    3.  **设置 SR 计算机名称**： 本步骤包括 HTML 应用程序提供 UI 在部署过程中设置的 Skype 会议室系统 v2 单位的计算机名称。
-        -  这是一个可选步骤，但它可以仅禁用如果您想要管理计算机命名通过备用的过程。
-        -  确认已选中**SR v2-设置 SRSComputerName**包。 如果没有，则浏览到包，并选择它。
+   3. **设置 SR 计算机名称**： 本步骤包括 HTML 应用程序提供 UI 在部署过程中设置的 Skype 会议室系统 v2 单位的计算机名称。
+      -  这是一个可选步骤，但它可以仅禁用如果您想要管理计算机命名通过备用的过程。
+      -  确认已选中**SR v2-设置 SRSComputerName**包。 如果没有，则浏览到包，并选择它。
 
-    4.  **应用的操作系统**： 此步骤指定要部署操作系统映像和要使用的无人参与的 Sysprep 应答文件。
-        -  验证已选择正确的 Windows 10 Enterprise 操作系统图像文件。
-        -  验证启用了**使用无人参与或为自定义安装 Sysprep 应答文件**，并选择**SR v2-Sysprep 包**。 此外还应确保**文件名称**设置为**unattend.xml**。
+   4. **应用的操作系统**： 此步骤指定要部署操作系统映像和要使用的无人参与的 Sysprep 应答文件。
+      -  验证已选择正确的 Windows 10 Enterprise 操作系统图像文件。
+      -  验证启用了**使用无人参与或为自定义安装 Sysprep 应答文件**，并选择**SR v2-Sysprep 包**。 此外还应确保**文件名称**设置为**unattend.xml**。
 
-    5.  **应用 Windows 设置**： 此步骤收集关于 Windows 安装的信息。
-        -  提供许可和注册信息包括本地管理员帐户密码，产品密钥和时区 （具体取决于您的需求）。
+   5. **应用 Windows 设置**： 此步骤收集关于 Windows 安装的信息。
+      -  提供许可和注册信息包括本地管理员帐户密码，产品密钥和时区 （具体取决于您的需求）。
 
-    6.  **应用网络设置**： 此步骤，可以指定工作组或 Active Directory 域名和组织单位。
-    > [!NOTE]
-    > 建议的操作需要部署 Skype 会议室系统 v2 单位为 Actve Directory 域的成员，请参阅[Skype 会议室系统域加入注意事项](domain-joining-considerations.md)。
-    7.  **应用驱动程序：** 使用此步骤和及其子步骤部署适用的设备驱动程序和基于 Surface Pro 模型必须的固件。 更新每个步骤，以指定与此部署关联的相关的驱动程序包。
-        -   每个驱动因素包配置为利用 Windows Management Instrumentation (WMI) 筛选器部署相关的驱动程序的固件基于 Surface Pro 使和模型。
-        -   我们强烈建议您不更改这些驱动程序的配置，否则部署可能会失败。
+   6. **应用网络设置**： 此步骤，可以指定工作组或 Active Directory 域名和组织单位。
+      > [!NOTE]
+      > 建议的操作需要部署 Skype 会议室系统 v2 单位为 Actve Directory 域的成员，请参阅[Skype 会议室系统域加入注意事项](domain-joining-considerations.md)。
+   7. **应用驱动程序：** 使用此步骤和及其子步骤部署适用的设备驱动程序和基于 Surface Pro 模型必须的固件。 更新每个步骤，以指定与此部署关联的相关的驱动程序包。
+      -   每个驱动因素包配置为利用 Windows Management Instrumentation (WMI) 筛选器部署相关的驱动程序的固件基于 Surface Pro 使和模型。
+      -   我们强烈建议您不更改这些驱动程序的配置，否则部署可能会失败。
 
-    8.  **设置 Windows 和配置管理器**： 此步骤部署和配置 Configuration Manager 客户端。 更新指定的内置的配置管理器客户端包此步骤。
+   8. **设置 Windows 和配置管理器**： 此步骤部署和配置 Configuration Manager 客户端。 更新指定的内置的配置管理器客户端包此步骤。
 
-    9.  **安装根证书**： 此步骤分发非加入域的设备的根证书，因此是可选的默认为禁用。
-        -   如果您需要部署到的 Skype 会议室系统 v2 单位的根证书，则启用此步骤。
-        -   如果需要执行此步骤，请验证选中的**SR v2 – 根证书包**和**禁用 64-bit 文件系统重定向**。
+   9. **安装根证书**： 此步骤分发非加入域的设备的根证书，因此是可选的默认为禁用。
+      -   如果您需要部署到的 Skype 会议室系统 v2 单位的根证书，则启用此步骤。
+      -   如果需要执行此步骤，请验证选中的**SR v2 – 根证书包**和**禁用 64-bit 文件系统重定向**。
 
-    10. **安装和配置 OMS 代理**： 此步骤安装 Microsoft 操作管理套件代理的 64 位版本和配置要连接到您的日志分析工作区的代理。
-        -   默认情况下禁用此步骤。 仅当您要使用 OMS to monitor the health 的您 Skype 会议室系统 v2 单位，则启用此步骤。
-        -   编辑此步骤和更新的命令行参数指定您的**工作区 ID**和**工作区键**。
-        -   有关获取操作管理套件工作区 ID 和主关键字的详细信息，请参阅[到 Azure 中的日志分析服务的连接的 Windows 计算机](with-oms.md#configure-test-devices-for-operations-management-suite-setup)。
-        -   验证选中的**SR v2 – Microsoft OMS 代理包**和**禁用 64-bit 文件系统重定向**。
-        -   有关监控的 Skype 会议室系统 v2 部署运行状况的详细信息，请参阅[使用 OMS 的规划 Skype 会议室系统 v2 管理](../../plan-your-deployment/clients-and-devices/oms-management.md)和[使用 OMS 的部署 Skype 会议室系统 v2 管理](with-oms.md#configure-test-devices-for-operations-management-suite-setup)。
+   10. **安装和配置 OMS 代理**： 此步骤安装 Microsoft 操作管理套件代理的 64 位版本和配置要连接到您的日志分析工作区的代理。
+       -   默认情况下禁用此步骤。 仅当您要使用 OMS to monitor the health 的您 Skype 会议室系统 v2 单位，则启用此步骤。
+       -   编辑此步骤和更新的命令行参数指定您的**工作区 ID**和**工作区键**。
+       -   有关获取操作管理套件工作区 ID 和主关键字的详细信息，请参阅[到 Azure 中的日志分析服务的连接的 Windows 计算机](with-oms.md#configure-test-devices-for-operations-management-suite-setup)。
+       -   验证选中的**SR v2 – Microsoft OMS 代理包**和**禁用 64-bit 文件系统重定向**。
+       -   有关监控的 Skype 会议室系统 v2 部署运行状况的详细信息，请参阅[使用 OMS 的规划 Skype 会议室系统 v2 管理](../../plan-your-deployment/clients-and-devices/oms-management.md)和[使用 OMS 的部署 Skype 会议室系统 v2 管理](with-oms.md#configure-test-devices-for-operations-management-suite-setup)。
 
-    11. **复制 SR v2 配置文件**： 此步骤将从 Skype 会议室系统 v2 部署工具包所需的安装和配置文件复制到本地硬盘。 无自定义，则需要此步骤。
-        -   验证选中的**SR v2 – SR 应用程序包**和**禁用 64-bit 文件系统重定向**。
+   11. **复制 SR v2 配置文件**： 此步骤将从 Skype 会议室系统 v2 部署工具包所需的安装和配置文件复制到本地硬盘。 无自定义，则需要此步骤。
+       -   验证选中的**SR v2 – SR 应用程序包**和**禁用 64-bit 文件系统重定向**。
 
-    12. **安装 SRSv2 操作系统更新**： 此步骤将部署与 Skype 会议室系统 v2 部署所需的任何必需的操作系统更新。 请执行下列操作：
-        -   检查以查看哪些更新所需的[配置 Skype 会议室系统 v2 控制台](console.md)。
-        -   确认您**SR v2 – 操作系统更新程序包**包含所有必需的更新。
-        -   确认已选中**SR v2 – 操作系统更新包**。
-        -   验证 PowerShell 执行策略设置为**绕过**。
+   12. **安装 SRSv2 操作系统更新**： 此步骤将部署与 Skype 会议室系统 v2 部署所需的任何必需的操作系统更新。 请执行下列操作：
+       -   检查以查看哪些更新所需的[配置 Skype 会议室系统 v2 控制台](console.md)。
+       -   确认您**SR v2 – 操作系统更新程序包**包含所有必需的更新。
+       -   确认已选中**SR v2 – 操作系统更新包**。
+       -   验证 PowerShell 执行策略设置为**绕过**。
 
-    13. **重新启动计算机**： 在安装必需的操作系统更新后，此步骤重新启动计算机。 无自定义，则需要此步骤。
+   13. **重新启动计算机**： 在安装必需的操作系统更新后，此步骤重新启动计算机。 无自定义，则需要此步骤。
 
-    14. **配置 Windows 组件**： 此步骤配置所需的 Windows 功能。 无自定义，则需要此步骤。
+   14. **配置 Windows 组件**： 此步骤配置所需的 Windows 功能。 无自定义，则需要此步骤。
 
-    15. **重新启动计算机**： 配置 Windows 功能后，此步骤重新启动计算机。 无自定义，则需要此步骤。
+   15. **重新启动计算机**： 配置 Windows 功能后，此步骤重新启动计算机。 无自定义，则需要此步骤。
 
-    16. **添加本地 Skype 用户**： 此步骤创建用于自动登录到 Windows 和启动 Skype 会议室系统 v2 应用程序的本地 Skype 帐户。 此步骤没有与其关联的任何软件程序包，它需要无自定义。
+   16. **添加本地 Skype 用户**： 此步骤创建用于自动登录到 Windows 和启动 Skype 会议室系统 v2 应用程序的本地 Skype 帐户。 此步骤没有与其关联的任何软件程序包，它需要无自定义。
 
-    17. **设置并配置 SR 应用程序**： 此步骤配置下次启动操作系统的 Skype 会议室系统 v2 应用程序安装。
-        -   验证选中**SR v2 – 配置 SR 安装程序包**并**禁用 64-bit 文件系统重定向**。
+   17. **设置并配置 SR 应用程序**： 此步骤配置下次启动操作系统的 Skype 会议室系统 v2 应用程序安装。
+       -   验证选中**SR v2 – 配置 SR 安装程序包**并**禁用 64-bit 文件系统重定向**。
 
 > [!IMPORTANT]
 > 它是非常重要的任务序列步骤必须在提供的顺序。 修改顺序的步骤，或配置其他步骤可能会中断部署。
@@ -634,32 +634,32 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
 
 ### <a name="create-deployment-for-the-task-sequence"></a>创建部署任务序列
 
-1.  选择任务序列，，，然后选择**部署**。
+1. 选择任务序列，，，然后选择**部署**。
 
-2.  选择**浏览**选择部署目标集合。
+2. 选择**浏览**选择部署目标集合。
 
-3.  选择**所有未知的计算机**，然后选择**确定**。
+3. 选择**所有未知的计算机**，然后选择**确定**。
 
-4.  选择**下一步**。
+4. 选择**下一步**。
 
-5.  选择**用途**下拉列表上的**有空**。
+5. 选择**用途**下拉列表上的**有空**。
 
-6.  在**使可用于以下**列表中，选择**仅媒体和 PXE** ，然后选择**下一步**。
-> [!WARNING]
-> 它是非常重要的**目的**设置为**可用**。 确保**用途**是**** 设置为**所需**。 另外，请确保您选择中**对以下公开****仅媒体和 PXE** 。
->
-> 为其他设置这些值可能会导致获取 Skype 会议室系统部署映像时启动的所有计算机。
-7.  不指定任何计划，并选择**下一步**。
+6. 在**使可用于以下**列表中，选择**仅媒体和 PXE** ，然后选择**下一步**。
+   > [!WARNING]
+   > 它是非常重要的**目的**设置为**可用**。 确保**用途**是**** 设置为**所需**。 另外，请确保您选择中**对以下公开****仅媒体和 PXE** 。
+   >
+   > 为其他设置这些值可能会导致获取 Skype 会议室系统部署映像时启动的所有计算机。
+7. 不指定任何计划，并选择**下一步**。
 
-8.  不更改**用户体验**部分中的任何内容，并选择**下一步**。
+8. 不更改**用户体验**部分中的任何内容，并选择**下一步**。
 
-9.  不更改**通知**部分中的任何内容，并选择**下一步**。
+9. 不更改**通知**部分中的任何内容，并选择**下一步**。
 
-10.  不更改该**分发点**内容中的任何内容，并选择**下一步**。
+10. 不更改该**分发点**内容中的任何内容，并选择**下一步**。
 
-11.  确认设置，然后选择**下一步**。
+11. 确认设置，然后选择**下一步**。
 
-12.  选择**关闭**。
+12. 选择**关闭**。
 
 <a name="validate-and-troubleshoot-the-solution"></a>验证并排查解决方案
 --------------------------------------

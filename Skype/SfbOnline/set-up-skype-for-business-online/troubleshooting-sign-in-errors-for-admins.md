@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: '了解常见原因的 Skype 业务 Online 登录错误和工作通过解决这些问题。 '
-ms.openlocfilehash: 63bcd69fa4db2266647960c119c198797c154f75
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: df34252281bebe429a85fb1a778b6d28023eb9d4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850210"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371146"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>管理员 Skype 业务 Online 登录错误疑难解答
 
@@ -32,23 +32,23 @@ ms.locfileid: "23850210"
 <a name="top"> </a>
 
 > [检查的 Skype 业务 Online 登录错误的常见原因](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
-
+> 
 > [按照相应解决步骤特定错误 （仅适用于企业）](troubleshooting-sign-in-errors-for-admins.md#toc325626440)
-
+> 
 > [将 msoidsvc.exe 防火墙条目添加到您的代理服务器](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall)
-
+> 
 > [更新 DNS 设置](troubleshooting-sign-in-errors-for-admins.md#update-dns-service)
-
+> 
 > [在您的 ADFS 服务器上安装第三方 SSL 证书](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and)
-
+> 
 > [更新安全凭据](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials)
-
+> 
 > [修改 TrustModelData 注册表项](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)
-
+> 
 > [更新 Active Directory 中的用户设置](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)
-
+> 
 > [使用故障排除指南的 Microsoft 支持](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
-
+> 
 > [收集的详细信息和 seek 获取其他帮助](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
 
 ## <a name="check-for-common-causes-of-skype-for-business-online-sign-in-errors"></a>检查的 Skype 业务 Online 登录错误的常见原因
@@ -56,16 +56,17 @@ ms.locfileid: "23850210"
 
 大多数登录问题可以追溯到少量的原因，以及其中的许多易于更正。 下表列出了一些常见登录错误的原因和一些您或用户可以采取的步骤来解决这些问题。
 
-|**可能的原因**|**解决方案**|
-|:-----|:-----|
-|登录过程中，出现一个对话框，其中包含以下短语：**无法验证服务器是否为您的登录地址受信任。仍然连接？** <br/> |确认对话框中的域名称是您组织中的受信任的服务器 — 例如， **domainName.contoso.com**。 让用户选择**始终信任此服务器**复选框，然后单击**连接**。 <br/> 企业客户可以阻止此消息显示当用户登录首次通过修改每个用户的计算机上的 Windows 注册表。 有关详细信息，请参阅[修改 TrustModelData 注册表项](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)。<br/> |
-|键入错误登录地址、 用户名或密码  <br/> | 确认用户的登录名和密码正确。 <br/>  验证用户的登录名格式，如下所示： **bobk@contoso.com**。 这可能不同于您用于登录到贵组织的网络的格式。  <br/>  询问用户尝试再次登录。 <br/> |
-|忘记的密码  <br/> |重置用户的密码并通知他或她的新的临时密码。  <br/> |
-|没有为业务 Online 使用 Skype 授权  <br/> |确认用户注册为 Skype 业务联机用户。 如果没有，注册用户，并询问他或她再次登录。  <br/> |
-|Skype 业务 online 安装的版本不正确  <br/> |此问题是通常与包含以下错误消息：**身份验证服务可能与此版本的程序不兼容**。  <br/> 要求用户要卸载并重新 Skype 安装从 Office 365 门户业务 online。  <br/> |
-|获取个人证书所需登录问题  <br/> |如果最近已更改用户的登录地址，它们可能需要删除缓存登录数据。 要求用户注销，请单击的删除我的登录信息链接上的登录屏幕中，然后再试。  <br/> |
-|设置自定义域名，并不可能通过系统传播完成所做的更改。  <br/> |首先，确保您已修改的域服务 (DNS) 记录，以反映的更改。  <br/> 如果您已指定的所需的 DNS 更改，告知用户尝试登录更高版本。 DNS 更改可能需要 72 小时才能反映在整个系统。  <br/> |
-|与服务器时钟不同步的系统时钟  <br/> |确保您的网络域控制器与可靠的外部时间源同步。 有关详细信息，请参阅 Microsoft 知识库文章 816042，[如何配置在 Windows Server 权威时间服务器](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042)。<br/> |
+
+| **可能的原因**                                                                                                                                                    | **解决方案**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 登录过程中，出现一个对话框，其中包含以下短语：**无法验证服务器是否为您的登录地址受信任。仍然连接？** <br/> | 确认对话框中的域名称是您组织中的受信任的服务器 — 例如， **domainName.contoso.com**。 让用户选择**始终信任此服务器**复选框，然后单击**连接**。 <br/> 企业客户可以阻止此消息显示当用户登录首次通过修改每个用户的计算机上的 Windows 注册表。 有关详细信息，请参阅[修改 TrustModelData 注册表项](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)。<br/> |
+| 键入错误登录地址、 用户名或密码  <br/>                                                                                                               | 确认用户的登录名和密码正确。 <br/>  验证用户的登录名格式，如下所示： <strong>bobk@contoso.com</strong>。 这可能不同于您用于登录到贵组织的网络的格式。  <br/>  询问用户尝试再次登录。 <br/>                                                                                                                                                                                                                             |
+| 忘记的密码  <br/>                                                                                                                                             | 重置用户的密码并通知他或她的新的临时密码。  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 没有为业务 Online 使用 Skype 授权  <br/>                                                                                                                  | 确认用户注册为 Skype 业务联机用户。 如果没有，注册用户，并询问他或她再次登录。  <br/>                                                                                                                                                                                                                                                                                                                                                                                           |
+| Skype 业务 online 安装的版本不正确  <br/>                                                                                                           | 此问题是通常与包含以下错误消息：**身份验证服务可能与此版本的程序不兼容**。  <br/> 要求用户要卸载并重新 Skype 安装从 Office 365 门户业务 online。  <br/>                                                                                                                                                                                                                                                    |
+| 获取个人证书所需登录问题  <br/>                                                                                           | 如果最近已更改用户的登录地址，它们可能需要删除缓存登录数据。 要求用户注销，请单击的删除我的登录信息链接上的登录屏幕中，然后再试。  <br/>                                                                                                                                                                                                                                                                                                                                |
+| 设置自定义域名，并不可能通过系统传播完成所做的更改。  <br/>                                                         | 首先，确保您已修改的域服务 (DNS) 记录，以反映的更改。  <br/> 如果您已指定的所需的 DNS 更改，告知用户尝试登录更高版本。 DNS 更改可能需要 72 小时才能反映在整个系统。  <br/>                                                                                                                                                                                                                                                        |
+| 与服务器时钟不同步的系统时钟  <br/>                                                                                                                     | 确保您的网络域控制器与可靠的外部时间源同步。 有关详细信息，请参阅 Microsoft 知识库文章 816042，[如何配置在 Windows Server 权威时间服务器](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042)。<br/>                                                                                                                                                                                                                                          |
 
 若要解决的业务 Online 登录错误 Skype，启动通过消除登录难度的最常见原因。 如有必要，则可以按照步骤基于类型的错误的特定解决方案。 如果用户仍然不能登录，收集的其他信息，然后 seek 获取其他帮助。
 

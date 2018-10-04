@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 设置和使用调用分析确定并解决 Skype 的业务和 Microsoft 团队呼叫质量问题。
-ms.openlocfilehash: 1e7c7eaa769ba1e08a46b539b15e673d35891f5c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: ff1323ad94381119dc9651d353d57988f0ff5876
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016906"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375898"
 ---
 # <a name="set-up-call-analytics"></a>设置呼叫分析
 
@@ -81,7 +81,7 @@ ms.locfileid: "25016906"
     
      ![屏幕快照显示了调用分析页层 1 和 2 层权限的选项的权限。](media/setup-call-analytics-image1.png)
   
- 具有这些权限级别之一的用户获取对呼叫的分析通过专用 URL *https://adminportal.services.skypeforbusiness.com*。
+   具有这些权限级别之一的用户获取对呼叫的分析通过专用 URL *https://adminportal.services.skypeforbusiness.com*。
   
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>上载.tsv 或.csv 文件添加生成，网站和租户信息
 <a name="BKMK_UploadFiles"> </a>

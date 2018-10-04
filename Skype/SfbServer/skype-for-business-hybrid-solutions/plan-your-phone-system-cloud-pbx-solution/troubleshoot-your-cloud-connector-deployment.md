@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: 解决云连接器 Edition 部署。
-ms.openlocfilehash: 5d34cc78c7afa9a0d4e459e87d885c82b437bae0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5dbb046680824f2af72688844914db0096e2ded1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882286"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371311"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>云连接器部署故障排除
  
@@ -122,17 +122,17 @@ ms.locfileid: "23882286"
     
 1. 在主机服务器上，以管理员身份启动 PowerShell 控制台，然后运行：
     
-  ```
-  Enter-CcUpdate
-  ```
+   ```
+   Enter-CcUpdate
+   ```
 
 2. 检查更新并安装所有可用更新。
     
 3. 在 PowerShell 控制台中，运行以下 cmdlet：
     
-  ```
-  Exit-CcUpdate
-  ```
+   ```
+   Exit-CcUpdate
+   ```
 
 - 
     
@@ -177,11 +177,11 @@ ms.locfileid: "23882286"
   ```
 
     
--    **问题： 运行在主机上部署的设备时，获取 CcRunningVersion cmdlet 返回一个空值。**
+- **问题： 运行在主机上部署的设备时，获取 CcRunningVersion cmdlet 返回一个空值。**
     
-    **解决方法：** 从 1.3.4 或 1.3.8 升级到 1.4.1 之后，可能会出现此情况。使用 .msi 安装 1.4.1 版之后，必须先运行 `Register-CcAppliance`，才能运行任何其他 cmdlet。`Register-CcAppliance` 会将 module.ini 文件从 %UserProfile%\CloudConnector 迁移到 %ProgramData%\CloudConnector。如果你没有运行此 cmdlet，将会在 %ProgramData%\CloudConnector 文件夹中创建一个新的 module.ini 文件，并替换 1.3.4 或 1.3.8 的运行/备份版本信息。
+  **解决方法：** 从 1.3.4 或 1.3.8 升级到 1.4.1 之后，可能会出现此情况。使用 .msi 安装 1.4.1 版之后，必须先运行 `Register-CcAppliance`，才能运行任何其他 cmdlet。`Register-CcAppliance` 会将 module.ini 文件从 %UserProfile%\CloudConnector 迁移到 %ProgramData%\CloudConnector。如果你没有运行此 cmdlet，将会在 %ProgramData%\CloudConnector 文件夹中创建一个新的 module.ini 文件，并替换 1.3.4 或 1.3.8 的运行/备份版本信息。
     
-    比较 %UserProfile%\CloudConnector 和 %ProgramData%\CloudConnector 文件夹中的 module.ini 文件。 如果有区别，删除 %ProgramData%\CloudConnector 并重新运行中的 module.ini 文件`Register-CcAppliance`。 您还可以修改手动向正确运行和备份版本的文件。
+  比较 %UserProfile%\CloudConnector 和 %ProgramData%\CloudConnector 文件夹中的 module.ini 文件。 如果有区别，删除 %ProgramData%\CloudConnector 并重新运行中的 module.ini 文件`Register-CcAppliance`。 您还可以修改手动向正确运行和备份版本的文件。
     
 - **问题： 运行开关 CcVersion cmdlet 以切换到从中当前脚本版本不同的旧版本后，没有高可用性支持此旧版本。**
     
@@ -230,37 +230,37 @@ ms.locfileid: "23882286"
     
     Microsoft 建议您在非高峰使用时间段执行这些步骤。
     
-  - 第一台设备上运行删除 CcCertificationAuthorityFile cmdlet CA 清理备份文件\<SiteRoot\>目录。
+   - 第一台设备上运行删除 CcCertificationAuthorityFile cmdlet CA 清理备份文件\<SiteRoot\>目录。
     
-  - 运行 Enter CcUpdate cmdlet 排出服务并将每个装置放在维护模式。
+   - 运行 Enter CcUpdate cmdlet 排出服务并将每个装置放在维护模式。
     
-  - 运行以下 cmdlet 以重置证书颁发机构证书和所有内部服务器证书并创建相应的新证书：
+   - 运行以下 cmdlet 以重置证书颁发机构证书和所有内部服务器证书并创建相应的新证书：
     
-    对于云连接器 2.0 之前的版本：
+     对于云连接器 2.0 之前的版本：
     
-    ```
-    Reset-CcCACertificate
-    Renew-CcServerCertificate
-    Remove-CcLegacyServerCertificate 
-    ```
+     ```
+     Reset-CcCACertificate
+     Renew-CcServerCertificate
+     Remove-CcLegacyServerCertificate 
+     ```
 
-    或云连接器版本 2.0 及更高版本：
+     或云连接器版本 2.0 及更高版本：
     
-    ```
-    Reset-CcCACertificate
-    Update-CcServerCertificate
-    Remove-CcLegacyServerCertificate 
-    ```
+     ```
+     Reset-CcCACertificate
+     Update-CcServerCertificate
+     Remove-CcLegacyServerCertificate 
+     ```
 
-  - 在第一个设备，运行以下 cmdlet，以备份到的 CA 文件\<SiteRoot\>文件夹。 更高版本，在同一站点中的所有其他设备，重置 CcCACertificate cmdlet 将自动使用 CA 备份文件，设备将使用相同的根证书。
+   - 在第一个设备，运行以下 cmdlet，以备份到的 CA 文件\<SiteRoot\>文件夹。 更高版本，在同一站点中的所有其他设备，重置 CcCACertificate cmdlet 将自动使用 CA 备份文件，设备将使用相同的根证书。
     
-    ```
-    Backup-CcCertificationAuthority
-    ```
+     ```
+     Backup-CcCertificationAuthority
+     ```
 
-  - 运行退出 CcUpdate cmdlet 启动服务并退出维护模式。 
+   - 运行退出 CcUpdate cmdlet 启动服务并退出维护模式。 
     
-  - 如果网关和中介服务器之间使用 TLS，则从网站中的任意设备运行导出 CcRootCertificate cmdlet，然后将导出的证书安装到 PSTN 网关。 
+   - 如果网关和中介服务器之间使用 TLS，则从网站中的任意设备运行导出 CcRootCertificate cmdlet，然后将导出的证书安装到 PSTN 网关。 
     
 - **问题： 您在云中连接器管理服务日志"C:\Program Files\Skype 的业务云连接器 Edition\ManagementService\CceManagementService.log"中收到以下错误消息： CceService 错误： 0： 意外的异常时向联机报告状态： System.Management.Automation.CmdletInvocationException: 用户登录失败\<全局租户管理员\>。请创建一个新的凭据对象，并确保您已经使用正确的用户名和密码。---\>**
     
@@ -276,43 +276,43 @@ ms.locfileid: "23882286"
     
     **如果你运行的是云连接器 1.4.2 版，** 请通过执行以下步骤来重新生成所有云连接器密码：
     
-    1. 重新启动主机服务器。
+  1. 重新启动主机服务器。
     
-    2. 删除以下文件:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml"。
+  2. 删除以下文件:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml"。
     
-    3. 启动作为管理员，PowerShell 控制台，然后运行"注册 CcAppliance-本地"以重新输入以下说明的密码。 输入您之前输入云连接器部署的同一密码。
+  3. 启动作为管理员，PowerShell 控制台，然后运行"注册 CcAppliance-本地"以重新输入以下说明的密码。 输入您之前输入云连接器部署的同一密码。
     
-    **如果您运行的云连接器版本 2.0 或更高版本，** 重新生成所有云连接器密码，按照以下步骤：
+     **如果您运行的云连接器版本 2.0 或更高版本，** 重新生成所有云连接器密码，按照以下步骤：
     
-    1. 重新启动主机服务器。
+  4. 重新启动主机服务器。
     
-    2. 删除以下文件:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml"。
+  5. 删除以下文件:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml"。
     
-    3. 启动作为管理员，PowerShell 控制台，然后运行"注册 CcAppliance-本地"以重新输入以下说明的密码。 
+  6. 启动作为管理员，PowerShell 控制台，然后运行"注册 CcAppliance-本地"以重新输入以下说明的密码。 
     
-    如果缓存的密码文件是用云连接器 1.4.2 版生成的，请在系统提示时将 VMAdmin 密码用作 CceService 密码。输入之前用于云连接器部署的所有其他帐户的相同密码。
+     如果缓存的密码文件是用云连接器 1.4.2 版生成的，请在系统提示时将 VMAdmin 密码用作 CceService 密码。输入之前用于云连接器部署的所有其他帐户的相同密码。
     
-    如果缓存的密码文件是用云连接器 1.4.2 版生成的，并且 DomainAdmin 和 VMAdmin 密码不同，则必须执行以下步骤：
+     如果缓存的密码文件是用云连接器 1.4.2 版生成的，并且 DomainAdmin 和 VMAdmin 密码不同，则必须执行以下步骤：
     
-    1. 按如下所述运行 Set-CcCredential -AccountType DomainAdmin：
+  7. 按如下所述运行 Set-CcCredential -AccountType DomainAdmin：
     
-    2. 当系统提示输入旧帐户凭据时，请输入用于 CceService 密码的凭据。
+  8. 当系统提示输入旧帐户凭据时，请输入用于 CceService 密码的凭据。
     
-    3. 当系统提示输入新帐户凭据时，请输入之前用于 DomainAdmin 密码的密码。
+  9. 当系统提示输入新帐户凭据时，请输入之前用于 DomainAdmin 密码的密码。
     
-    如果缓存的密码文件生成使用云连接器版本 2.0 或更高版本，默认情况下，VmAdmin 和 DomainAdmin 作为 CceService 使用相同的密码。 如果您已经更改 DomainAdmin 和 VMAdmin 密码，您必须执行以下步骤：
+     如果缓存的密码文件生成使用云连接器版本 2.0 或更高版本，默认情况下，VmAdmin 和 DomainAdmin 作为 CceService 使用相同的密码。 如果您已经更改 DomainAdmin 和 VMAdmin 密码，您必须执行以下步骤：
     
-    1. 按如下所述运行 Set-CcCredential -AccountType DomainAdmin：
+  10. 按如下所述运行 Set-CcCredential -AccountType DomainAdmin：
     
-        1. 当系统提示输入旧帐户凭据时，请输入用于 CceService 密码的凭据。
+       1. 当系统提示输入旧帐户凭据时，请输入用于 CceService 密码的凭据。
     
-        2. 当系统提示输入新帐户凭据时，请输入之前用于 DomainAdmin 密码的密码。
+       2. 当系统提示输入新帐户凭据时，请输入之前用于 DomainAdmin 密码的密码。
     
-    2. 按如下所述运行 Set-CcCredential -AccountType VmAdmin：
+  11. 按如下所述运行 Set-CcCredential -AccountType VmAdmin：
     
-        1. 当系统提示输入旧帐户凭据时，请输入用于 CceService 密码的凭据。
+       1. 当系统提示输入旧帐户凭据时，请输入用于 CceService 密码的凭据。
     
-        2. 当系统提示输入新帐户凭据时，请输入之前用于 VmAdmin 密码的密码。 
+       2. 当系统提示输入新帐户凭据时，请输入之前用于 VmAdmin 密码的密码。 
     
 - **问题： 云连接器 2.1 及更高版本，设备上运行注册 CcAppliance 或其他 cmdlet 时您会收到一条错误消息如:"为每个对象: 常用找不到此对象的属性。验证属性存在。在 C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 字符： 14"**
     
@@ -344,23 +344,40 @@ ms.locfileid: "23882286"
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
--  **问题：你需要在主机服务器或虚拟机上手动检查并安装 Windows 更新。**
+- **问题：你需要在主机服务器或虚拟机上手动检查并安装 Windows 更新。**
     
-    **解决方法：** 建议你利用 Skype for Business 云连接器版本提供的操作系统自动更新。当设备经过注册以实现联机管理并且启用了操作系统自动更新之后，主机服务器和虚拟机将根据操作系统更新时间窗口设置自动检查并安装 Windows 更新。
+   **解决方法：** 建议你利用 Skype for Business 云连接器版本提供的操作系统自动更新。当设备经过注册以实现联机管理并且启用了操作系统自动更新之后，主机服务器和虚拟机将根据操作系统更新时间窗口设置自动检查并安装 Windows 更新。
     
-    如果你需要手动检查并安装 Windows 更新，请按照本节提供的适用于你的部署类型的步骤操作。你需要同时规划主机服务器及其上运行的虚拟机的更新，以便尽可能降低更新所需要的总停机时间。
+   如果你需要手动检查并安装 Windows 更新，请按照本节提供的适用于你的部署类型的步骤操作。你需要同时规划主机服务器及其上运行的虚拟机的更新，以便尽可能降低更新所需要的总停机时间。
     
-    如果你愿意，可以使用 Windows Server 更新服务 (WSUS) 服务器向云连接器服务器提供更新。只需确保将 Windows 更新配置为**不要**自动安装即可。
+   如果你愿意，可以使用 Windows Server 更新服务 (WSUS) 服务器向云连接器服务器提供更新。只需确保将 Windows 更新配置为**不要**自动安装即可。
     
-    有关如何手动更新云连接器部署的信息，请参阅下节。
+   有关如何手动更新云连接器部署的信息，请参阅下节。
     
--   **问题： 当云连接器更新为新版本时，云连接器 cmdlet 不会更新。** 只有在 PowerShell 窗口处于打开状态时自动更新，发生此事件时，有时会出现此问题。
+- **问题： 当云连接器更新为新版本时，云连接器 cmdlet 不会更新。** 只有在 PowerShell 窗口处于打开状态时自动更新，发生此事件时，有时会出现此问题。
     
-    **解决方法：** 若要加载的更新的 cmdlet，可以执行以下步骤操作：
+  **解决方法：** 若要加载的更新的 cmdlet，可以执行以下步骤操作：
     
-     - 云连接器装置上, 关闭 PowerShell，然后重新打开 PowerShell。
+   - 云连接器装置上, 关闭 PowerShell，然后重新打开 PowerShell。
     
      - 或者，您可以运行导入模块 CloudConnector-Force。 
+ 
+-   **问题:"术语 Stop-cswindowsservice 无法识别为名称 cmdlet、 函数、 脚本文件，或可操作的程序。"错误时尝试运行 Enter CcUpdate cmdlet。**
+
+    **解决方法：** 删除 $HOME\AppData\Local\Microsoft\Windows\PowerShell\ModuleAnalysisCache 文件。
+PowerShell cmdlet，以使它不需要为每次重新分析所有模块发现使事项真正慢的模块中的缓存作为创建此文件。 很可能有 PowerShell 提供令人误解的结果时它已返回从该缓存中读取某些文件损坏。
+
+-   **问题:"导入模块 CloudConnector"将生成错误"导入模块： 指定的模块"CloudConnector"未加载，因为在任何模块目录中不找到任何有效的模块文件"**
+
+    **解决方法：**
+    - 验证确实 CloudConnector 模块存在下 c:\Program Files\WindowsPowerShell\Modules
+    
+    - 在此位置下存在验证该 CloudConnector 模块后，可以更改 PSModulePath 环境变量存储模块的位置的路径：
+    
+     a. 临时更改： 开始 Powershell 作为管理员，并运行以下命令： $env: PSModulePath = $env: PSModulePath +";C:\Program Files\WindowsPowerShell\Modules\"
+        
+     b. 持久的更改，启动的 PowerShell 作为管理员，并运行以下命令，逐个： $CurrentValue = [环境]:: GetEnvironmentVariable("PSModulePath","Machine") SetEnvironmentVariable("PSModulePath", $CurrentValue +";C:\Program Files\WindowsPowerShell\Modules"，"计算机")
+
     
 ## <a name="install-windows-updates-manually"></a>手动安装 Windows 更新
 
@@ -376,9 +393,9 @@ ms.locfileid: "23882286"
     
 2. 使用以下 cmdlet 从 HA 删除实例：
     
-  ```
-  Enter-CcUpdate
-  ```
+   ```
+   Enter-CcUpdate
+   ```
 
 3. 
     
@@ -386,9 +403,9 @@ ms.locfileid: "23882286"
     
 4. 使用以下 cmdlet 将实例重新设置为 HA：
     
-  ```
-  Exit-CcUpdate
-  ```
+   ```
+   Exit-CcUpdate
+   ```
 
 对于多站点部署，请为部署中的每个站点执行适用于单个站点的步骤，每次向一个站点应用更新。
   

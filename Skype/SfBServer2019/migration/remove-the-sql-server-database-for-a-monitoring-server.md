@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 删除监控服务器后，您可以删除承载服务器数据的 SQL Server 数据库。 使用以下过程可从拓扑生成器中，删除定义，然后删除数据库服务器的数据库和日志文件。
-ms.openlocfilehash: 1dc18d520afd67156443ddc2fc22dc838a2aa139
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 85999f1bbb3fc443edcab9d1f1354f26187c6a75
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027975"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373355"
 ---
 # <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>删除监控服务器的 SQL Server 数据库
 
@@ -35,9 +35,9 @@ ms.locfileid: "25027975"
     
 3. 在命令行中键入：
     
-  ```
-  Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
-  ```
+   ```
+   Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
+   ```
 
     其中_\<FQDN\>_ 是数据库服务器的完全限定的域名 (FQDN) 和_\<实例\>_ 是可选的命名的数据库实例。 
     

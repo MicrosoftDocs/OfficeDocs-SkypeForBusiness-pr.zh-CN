@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 摘要： 阅读本主题可了解如何配置 Office Web Apps Server 和 Skype 业务服务器启用 web 会议的 PowerPoint 演示文稿之间的集成。
-ms.openlocfilehash: 558ba648cab4dfd2667251ea96bc83d313746f10
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6c7c19f7634c7b0266364d372b573d3d060d5a97
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997312"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375242"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>配置与 Skype 中的 Office Web Apps Server 的集成的企业服务器
  
@@ -33,7 +33,7 @@ Skype 业务服务器使用 Office Web Apps Server 处理的 web 会议的 Power
 
 若要向拓扑中添加 Office Web Apps 服务器，请完成下列步骤：
   
-1.  业务 Server 拓扑生成器打开 Skype。
+1. 业务 Server 拓扑生成器打开 Skype。
     
 2. 在“**拓扑生成器**”对话框中，选择“**从现有部署下载拓扑**”，然后单击“**确定**”。
     
@@ -45,9 +45,9 @@ Skype 业务服务器使用 Office Web Apps Server 处理的 web 会议的 Power
     
 6. 在“**定义新的 Office Web Apps 服务器**”对话框的“**Office Web Apps 服务器 FQDN**”框中，键入你的 Office Web Apps 服务器计算机的完全限定域名 (FQDN)；执行此操作时，你的 Office Web Apps 服务器搜索 URL 应自动输入到“**Office Web Apps 服务器搜索 URL**”框中。
     
-  - 如果 Office Web Apps Server 内部安装并作为 Business Server 然后选项的 Skype 的同一个网络区域中**的外部网络 (即，外围 /internet) 中部署 Office Web Apps Server**没有被选中。
+   - 如果 Office Web Apps Server 内部安装并作为 Business Server 然后选项的 Skype 的同一个网络区域中**的外部网络 (即，外围 /internet) 中部署 Office Web Apps Server**没有被选中。
     
-  - 如果 Office Web Apps 服务器部署在内部防火墙之外，则请选择选项“**在外部网络(即，外围/Internet)中部署 Office Web Apps 服务器**”。
+   - 如果 Office Web Apps 服务器部署在内部防火墙之外，则请选择选项“**在外部网络(即，外围/Internet)中部署 Office Web Apps 服务器**”。
     
 7. 在“**定义新的 Office Web Apps Server**”对话框中，单击“**确定**”，然后在“**编辑属性**”对话框中单击“**确定**”。Office Online 发现 URL 将作为池的关联之一列出。
     
@@ -85,7 +85,7 @@ Office Web Apps Server 已添加到拓扑之后，发布该拓扑后，您应看
   
  **Office Web Apps Server 外部演示者页面： https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp; 嵌入**
   
- **Office Web Apps Server 内部与会者页面： https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp; 嵌入 = true&amp;**
+ **Office Web Apps Server 内部与会者页面： <https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp>;**
   
 如果您看到的 41033 事件 id，则意味着的 Office Web Apps Server 发现 LS Data MCU 事件已失败。 在这种情况下，Skype 业务服务器将发现新配置 Office Web Apps Server 所需的多次重试。 如果发现过程失败重复您应从拓扑文档中删除 Office Web Apps Server、 发布更新的拓扑，然后再尝试后已解决连接问题后向拓扑添加 Office Web Apps Server。
   

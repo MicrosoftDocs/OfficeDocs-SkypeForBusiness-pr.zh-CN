@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 264e3ae4573531cebf8723294f42ee66453bfa73
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fa50607a01888f776c480b33af52fccd67a1b7b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013808"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373172"
 ---
 # <a name="quality-of-experience-review-guide"></a>查看用户体验指南的质量
 
@@ -134,14 +134,14 @@ _表 2-核心目标运行状况评估指标_
 <tr>
 <th rowspan="2" colspan="2" valign="center">网络类型</th><th rowspan="1">质量目标</th><th colspan="2">可靠性目标</th></tr>
 <tr><th>音频质量欠佳流速率</th><th>安装失败率</th><th>Drop 故障率</th></tr>
-<tr><td rowspan="2">**All**</td><td>内部</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
+<tr><td rowspan="2"><strong>All</strong></td><td>内部</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>综合</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
-<tr><td rowspan="5">**会议**</td><td>内部</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
+<tr><td rowspan="5"><strong>会议</strong></td><td>内部</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>有线内部</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
 <tr><td>内部 Wi-fi 5 GHz</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
 <tr><td>内部 Wi-fi 2.4 GHz</td><td>4.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>综合</td><td>2.0%</td><td>0.5%</td><td>3.0%</td></tr>
-<tr><td rowspan="4">**P2P**</td><td>内部</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
+<tr><td rowspan="4"><strong>P2P</strong></td><td>内部</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>内部有线/Wi-fi 5 GHz</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
 <tr><td>总体有线/Wi-fi 5 GHz</td><td>2.0%</td><td>1.0%</td><td>1.0%</td></tr>
 <tr><td>综合</td><td>2.0%</td><td>1.0%</td><td>3.0%</td></tr>
@@ -314,15 +314,15 @@ _图 4-CQD 报表类别_
 
 #### <a name="azure-powershell"></a>Azure PowerShell
 
-1.  [安装 Microsoft Azure PowerShell 服务管理模块](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0)。
+1. [安装 Microsoft Azure PowerShell 服务管理模块](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0)。
 
-2.  打开 Azure PowerShell 命令窗口并运行以下脚本中，输入您的 Office 365 凭据出现提示时： 
+2. 打开 Azure PowerShell 命令窗口并运行以下脚本中，输入您的 Office 365 凭据出现提示时： 
 
-  ```
-  Login-AzureRmAccount
-  ```
+   ```
+   Login-AzureRmAccount
+   ```
 
-3.  在输出中列出的租户 ID。
+3. 在输出中列出的租户 ID。
 
 #### <a name="skype-for-business-online-admin-center"></a>Skype 的业务 Online 管理中心
 
@@ -336,15 +336,15 @@ _图 4-CQD 报表类别_
 
 #### <a name="skype-for-business-online-using-powershell"></a>Skype 业务 online 使用 PowerShell
 
-1.  [设置 Windows PowerShell 的计算机](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
+1. [设置 Windows PowerShell 的计算机](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
 
-2.  运行以下命令：
+2. 运行以下命令：
 
-  ```
-  (Get-cstenant).tenantid
-  ```
+   ```
+   (Get-cstenant).tenantid
+   ```
 
-3.  租户 ID 显示为 GUID。
+3. 租户 ID 显示为 GUID。
 
 ### <a name="teams-vs-skype-for-business"></a>团队与 Skype for Business
 
@@ -580,22 +580,22 @@ _表 4-报告筛选器_
 
 **若要导入模板 (。CQDX) 到 CQD 联机**
 
-1.  转到<https://cqd.lync.com>。
+1. 转到<https://cqd.lync.com>。
 
-2.  使用 Office 365 管理凭据进行身份验证。
+2. 使用 Office 365 管理凭据进行身份验证。
 
-  > [!NOTE]
-  > 您必须具有 Office 365 全局管理员，业务管理员或报告读者角色访问 CQD Skype。 
+   > [!NOTE]
+   > 您必须具有 Office 365 全局管理员，业务管理员或报告读者角色访问 CQD Skype。 
 
-3.  选择顶部的页上，**摘要报表**菜单，然后选择**详细的报告**。
+3. 选择顶部的页上，**摘要报表**菜单，然后选择**详细的报告**。
 
-4.  在摘要窗格中，选择**导入**。 转到保存位置 CQDX，选择 CQDX 模板，然后选择**打开**。
+4. 在摘要窗格中，选择**导入**。 转到保存位置 CQDX，选择 CQDX 模板，然后选择**打开**。
 
-5.  将模板上载后，变为弹出式窗口将显示消息"报表导入成功。" 选择**确定。**
+5. 将模板上载后，变为弹出式窗口将显示消息"报表导入成功。" 选择**确定。**
 
-  ![通知模板已成功导入](media/qerguide-image-importmessage.png "通知模板已成功导入")
+   ![通知模板已成功导入](media/qerguide-image-importmessage.png "通知模板已成功导入")
 
-6.  第二个 CQD 模板重复步骤 4 和 5。
+6. 第二个 CQD 模板重复步骤 4 和 5。
 
 > [!NOTE]
 > 每个用户导入 CQD 模板。 如果其他用户需要使用报告，它们必须登录，并将模板导入其 CQD 实例。 
@@ -677,13 +677,13 @@ _表 5-构建文件结构_
 
 体验质量 (QoE) 数据的客户端发送到 Office 365 — 即 CQD 数据源自 — 包含一个 VPN 标志。 CQD 将看到此作为第一个 VPN 和第二个 VPN 维度。 但是，此标志依赖于 VPN 供应商的 VPN 网络适配器注册为远程访问适配器到 Windows 报告。 并非所有 VPN 供应商正确都注册远程访问适配器。 因此，您可能无法使用内置的 VPN 查询筛选器。 有两种方法适应 VPN 中构建的子网信息文件：
 
--   在此字段中使用的文本"VPN"，为 VPN 子网定义**网络名称**。
+- 在此字段中使用的文本"VPN"，为 VPN 子网定义**网络名称**。
 
   ![定义如何创建 VPN 子网的 CQD 报告](media/qerguide-image-vpnnetworkname.png)
 
   _图 12-VPN 使用网络名称_
 
--   在此字段中使用的文本"VPN"，为 VPN 子网定义**建筑物名称**。
+- 在此字段中使用的文本"VPN"，为 VPN 子网定义**建筑物名称**。
 
   ![定义如何创建构建定义构成 VPN 子网的 CQD 报表。](media/qerguide-image-vpnbuildingname.png)
 
@@ -700,31 +700,31 @@ _表 5-构建文件结构_
 
 CQD 摘要报告仪表板中包括的在右上角 （查找齿轮图标） 中选择的**租户数据上载**link 标记访问**租户数据上载**页面。 此页用于为 admins 上载他们自己的信息，如映射的 IP 地址和地理信息，映射的每个无线访问点和其 MAC 地址，等等。
 
-1.  转到 CQD 联机通过浏览到<https://cqd.lync.com>。
+1. 转到 CQD 联机通过浏览到<https://cqd.lync.com>。
 
-2.  在右上角，选择齿轮图标，然后从**摘要报告**页中选择**租户数据上载**。
+2. 在右上角，选择齿轮图标，然后从**摘要报告**页中选择**租户数据上载**。
 
-  ![出现时正在上载数据对话框](media/qerguide-image-tenantdataupload.png)
+   ![出现时正在上载数据对话框](media/qerguide-image-tenantdataupload.png)
 
-  _图 14-租户数据上载菜单_
+   _图 14-租户数据上载菜单_
 
-3.  此外，如果这是首次访问 CQD，您将需要上载生成数据。 您可以**立即上载**迅速导航至**租户数据上载**页上选择。
+3. 此外，如果这是首次访问 CQD，您将需要上载生成数据。 您可以**立即上载**迅速导航至**租户数据上载**页上选择。
 
-  ![通知用户上载生成数据的横幅](media/qerguide-image-buildingdatauploadbanner.png)
+   ![通知用户上载生成数据的横幅](media/qerguide-image-buildingdatauploadbanner.png)
 
-  _图 15-构建数据上载横幅_
+   _图 15-构建数据上载横幅_
 
-4.  在**租户数据上载**页上，选择**浏览**选择数据文件。
+4. 在**租户数据上载**页上，选择**浏览**选择数据文件。
 
-5.  在选择数据文件之后, 指定**开始日期**和 （可选） 指定结束日期。
+5. 在选择数据文件之后, 指定**开始日期**和 （可选） 指定结束日期。
 
-6.  选择后**开始日期**，选择**上载**以将文件上载到 CQD。 <br><br>上载文件之前，对其进行验证。 如果验证失败，请求您更正文件显示一条错误消息。 下图显示在数据文件中的列数不正确时出现错误。
+6. 选择后**开始日期**，选择**上载**以将文件上载到 CQD。 <br><br>上载文件之前，对其进行验证。 如果验证失败，请求您更正文件显示一条错误消息。 下图显示在数据文件中的列数不正确时出现错误。
 
-  ![导入构建数据时显示一条错误消息对话框中的示例](media/qerguide-image-buildingdatauploaderror.png)
+   ![导入构建数据时显示一条错误消息对话框中的示例](media/qerguide-image-buildingdatauploaderror.png)
  
-  _图 16-构建数据上载错误_
+   _图 16-构建数据上载错误_
 
-7.  如果验证过程中不发生任何错误，将会成功上载文件。 您随后可以看到**我上载**表，其中显示所有上载文件的完整列表，该页面底部当前租户中上载的数据文件。
+7. 如果验证过程中不发生任何错误，将会成功上载文件。 您随后可以看到**我上载**表，其中显示所有上载文件的完整列表，该页面底部当前租户中上载的数据文件。
 
 > [!NOTE]
 > 可能需要四个小时完成处理的生成文件。 <br><br> 如果您已上载的生成文件，而需要添加子网可能已丢失或排除，通过添加新的子网中修改的原始文件，删除当前文件，并重新上载新编辑过的文件。 可以有一个活动生成 CQD 中的数据文件。 
@@ -898,11 +898,11 @@ _表 7 – 呼叫安装失败的原因_
 
 _表 8-呼叫的后续步骤安装失败修正_
 
-| 修正           | 指南     |
-|-----------------------|--------------|
-| 配置防火墙 | 与网络团队合作，并确认您针对[Office 365 IP 地址列表](https://aka.ms/o365ips)的防火墙配置。<br><br>确认的防火墙规则包含[媒体子网](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)和端口。 <br><br>验证在防火墙中打开所需的端口 （如下所示）。 UDP 应该能得到优先级，因为 TCP 被视为音频、 视频、 故障回复协议和基于视频的屏幕共享，以及其使用会影响呼叫的质量。 旧 RDP 应用程序共享仅使用 TCP。<br><ul><li>**TCP:** 端口 443</li><li>**UDP:** 端口 3478 – 3481</li><ul> |
-| 验证                | [Microsoft 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)用于验证从受影响的构建或子网的连接使用连接检查函数。    |
 
+|      修正      |                                                                                                                                                                                                                                                                                                                                                                   指南                                                                                                                                                                                                                                                                                                                                                                   |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 配置防火墙 | 与网络团队合作，并确认您针对[Office 365 IP 地址列表](https://aka.ms/o365ips)的防火墙配置。<br><br>确认的防火墙规则包含[媒体子网](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)和端口。 <br><br>验证在防火墙中打开所需的端口 （如下所示）。 UDP 应该能得到优先级，因为 TCP 被视为音频、 视频、 故障回复协议和基于视频的屏幕共享，以及其使用会影响呼叫的质量。 旧 RDP 应用程序共享仅使用 TCP。<br><ul><li>**TCP:** 端口 443</li><li>**UDP:** 端口 3478 – 3481</li><ul> |
+|        验证         |                                                                                                                                                                                                                                                                 [Microsoft 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)用于验证从受影响的构建或子网的连接使用连接检查函数。                                                                                                                                                                                                                                                                  |
 
 ### <a name="drop-failures"></a>Drop 失败
 

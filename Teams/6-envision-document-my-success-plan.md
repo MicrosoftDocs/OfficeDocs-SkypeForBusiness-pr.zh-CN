@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07cea763c3287106f2a6c98472dea0ef43ea7e28
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 271faa8ffc4a4e6c3977382cf5a1153513bd1ba5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013792"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374207"
 ---
 # <a name="document-my-success-plan"></a>文档我成功的计划
 
@@ -46,10 +46,10 @@ ms.locfileid: "25013792"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>确定适用于您的组织的团队部署执行模型。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>记录您选择，团队部署执行模型并包含业务和技术的调整。</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>确定适用于您的组织的团队部署执行模型。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>记录您选择，团队部署执行模型并包含业务和技术的调整。</li></ul></td></tr></table>
 
-##<a name="raci-modeling"></a>RACI 建模
+## <a name="raci-modeling"></a>RACI 建模
 
 若要确保您已为由谁来负责在项目中的什么得到清楚起见，使用责任分配矩阵 (也称为 RACI — 负责、 无论如何、 顾问，和明智 — 矩阵)。 列表的个人或组响应组是负责每项任务，以及利益干系人能出的决策过程中和利益干系人可在每个决策和整个项目执行的操作的接到通知。
 
@@ -70,8 +70,8 @@ ms.locfileid: "25013792"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>决定活动/角色与云语音实现项目相关。</li><li>决定团队或人员分配给项目的云语音实施的责任工作分配矩阵 （RACI 矩阵）。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>文档 RACI 矩阵。</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>决定活动/角色与云语音实现项目相关。</li><li>决定团队或人员分配给项目的云语音实施的责任工作分配矩阵 （RACI 矩阵）。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>文档 RACI 矩阵。</li></ul></td></tr></table>
 
 ## <a name="quarterly-execution-plan"></a>季度执行计划
 
@@ -95,8 +95,8 @@ ms.locfileid: "25013792"
 
 <table>
 
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>决定季度执行计划实现目标的关键结果 (OKRs)。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>文档的季度执行计划。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>决定季度执行计划实现目标的关键结果 (OKRs)。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>文档的季度执行计划。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -117,9 +117,9 @@ ms.locfileid: "25013792"
 
 <table>
 
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>决定的通信和调控计划，包括定期状态更新 （每日、 每周、 每月，或季度），方法执行状态更新会议和每个会议的所有者的频率。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>决定的通信和调控计划，包括定期状态更新 （每日、 每周、 每月，或季度），方法执行状态更新会议和每个会议的所有者的频率。</li></ul></td></tr>
 
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>文档的通信和调控计划。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>文档的通信和调控计划。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -178,8 +178,8 @@ ms.locfileid: "25013792"
 
 <table>
 
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>决定如何将文档整个成功规划提供您云语音工作负荷。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>确认已记录了成功计划的所有组件。</li><li>聚合到一个摘要文档 （可选） 您成功计划的各个组件。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>决定如何将文档整个成功规划提供您云语音工作负荷。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>确认已记录了成功计划的所有组件。</li><li>聚合到一个摘要文档 （可选） 您成功计划的各个组件。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

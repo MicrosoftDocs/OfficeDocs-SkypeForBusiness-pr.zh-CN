@@ -14,12 +14,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 摘要： 了解您需要为您的本地 Skype Business Server 混合部署配置 Skype 会议广播执行的步骤。
-ms.openlocfilehash: 55b7c5c1e97c2e059ead73384ae2914b07d47c4b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: bae25dae268dd5ad3b3ab7862feb1156df850953
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21004691"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371392"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>配置 Skype 会议直播本地部署
  
@@ -68,13 +68,13 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
     
 3. 对于“域名(或 FQDN):”****，输入域，为以下每个域重复此过程：
     
-  - noammeetings.lync.com
+   - noammeetings.lync.com
     
-  - emeameetings.lync.com
+   - emeameetings.lync.com
     
-  - apacmeetings.lync.com
+   - apacmeetings.lync.com
     
-  - resources.lync.com
+   - resources.lync.com
     
 您还可以通过运行以下 cmdlet 中的 Skype 业务 Server 命令行管理程序配置 SIP 联盟域的外部访问：
   

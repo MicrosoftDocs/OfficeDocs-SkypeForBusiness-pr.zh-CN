@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f302ddca1470d0e35a6b983ae52afa08f2533c8
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5ed741eff5ff095107693a2c94bb8438c60e7c9f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016242"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374377"
 ---
 ![升级旅程，重点强调的用户准备阶段的阶段](media/upgrade-banner-user-readiness.png "升级旅程，重点强调的用户准备阶段的阶段")
 
@@ -63,6 +63,7 @@ ms.locfileid: "25016242"
 | *Informed users* accept the solution as soon as its value is demonstrated.    |       |
 | *Laggards* reject the solution, even when pushed into change. |       |
 -->
+
 | 前期应用  | 通知的用户  | 滞后 |
 |-----------------|-----------------|----------|
 | 这些用户请求解决方案才可以它。 | 这些用户接受解决方案，只要其值所述。 | 这些用户拒绝解决方案，即使推入更改。 |
@@ -80,6 +81,7 @@ ms.locfileid: "25016242"
 | *Team-players* enjoy group and interactive training; they’ll go along with coworkers. |       |
 | *Hand-holding* seekers expect “white glove” or one-on-one assistance.      |       |
 -->
+
 | 自运用  | 团队播放器  | 手动保持 seekers |
 |-----------------|-----------------|----------|
 | 这些学员查找出资源，了解通过执行。 | 这些用户享有组和交互式培训;将获得以及同事。 | 这些用户希望"手套白色"或一对一帮助。 |
@@ -109,10 +111,10 @@ ms.locfileid: "25016242"
 
 <table>
 <tbody>
-<tr><th width="10%">**用例**</th><th width="30%">**特征**</th><th width="30%">**挑战**</th><th width="30%">**与团队**</th></tr>
-<tr><td>**个人工作效率**</td><td><ul><li>每日"以执行"列表</li><li>依赖其他人工作</li></ul></td><td><ul><li>电子邮件和附件获取丢失</li><li>呼叫应转至语音邮件</li><li>同事已处于脱机状态</li><li>在桌面上累加过时的本地副本</li></ul></td><td><ul><li>发送联机和脱机消息，从而减轻不必跟踪人员</li><li>持久的附件的文件对话减少搜索多个位置或管理多个版本</li></ul></td></tr>
-<tr><td>**会议**</td><td><ul><li>会议呼叫或联机会议</li><li>内部和/或外部的与会者</li><li>Office/远程参与者</li></ul></td><td><ul><li>小型到会议之前提供无上下文 </li><li>远程参与者感觉背后左边</li><li>缺少 visual 连接</li><li>难以捕获，如果您错过会议</li><li>后会议 momentum 都将丢失</li></ul></td><td><ul><li>构建 momentum 之前会议与对话和内容共享</li><li>跨设备加入</li><li>使用视频和应用程序共享，确保协调一致的连接</li><li>Absent 与会者记录会议</li><li>捕获备注、 操作 (& #64; 提及) 责任和轻松跟进</li></ul> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_一个界面中的所有 ！_</td></tr>
-<tr><td>**组项目**</td><td><ul><li>项目使用许多利益干系人</li><li>信息和文档共享</li><li>使用多个应用程序</li></ul> </td><td><ul><li>走廊对话原因断开与更大的组</li><li>有关 doc 位置和版本控制失望</li><li>有关责任的混乱</li></ul> </td><td><ul><li>保留所有对话中团队/通道，驱动透明度</li><li>链接到相关的文档;pin 重要的以确保可见性</li><li>简化 doc 版本控制</li><li>访问 Office 和第三方应用程序，使团队协作，则返回 true 中心</li></ul> </td></tr>
+<tr><th width="10%"><strong>用例</strong></th><th width="30%"><strong>特征</strong></th><th width="30%"><strong>挑战</strong></th><th width="30%"><strong>与团队</strong></th></tr>
+<tr><td><strong>个人工作效率</strong></td><td><ul><li>每日"以执行"列表</li><li>依赖其他人工作</li></ul></td><td><ul><li>电子邮件和附件获取丢失</li><li>呼叫应转至语音邮件</li><li>同事已处于脱机状态</li><li>在桌面上累加过时的本地副本</li></ul></td><td><ul><li>发送联机和脱机消息，从而减轻不必跟踪人员</li><li>持久的附件的文件对话减少搜索多个位置或管理多个版本</li></ul></td></tr>
+<tr><td><strong>会议</strong></td><td><ul><li>会议呼叫或联机会议</li><li>内部和/或外部的与会者</li><li>Office/远程参与者</li></ul></td><td><ul><li>小型到会议之前提供无上下文 </li><li>远程参与者感觉背后左边</li><li>缺少 visual 连接</li><li>难以捕获，如果您错过会议</li><li>后会议 momentum 都将丢失</li></ul></td><td><ul><li>构建 momentum 之前会议与对话和内容共享</li><li>跨设备加入</li><li>使用视频和应用程序共享，确保协调一致的连接</li><li>Absent 与会者记录会议</li><li>捕获备注、 操作 (& #64; 提及) 责任和轻松跟进</li></ul> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<em>一个界面中的所有 ！</em></td></tr>
+<tr><td><strong>组项目</strong></td><td><ul><li>项目使用许多利益干系人</li><li>信息和文档共享</li><li>使用多个应用程序</li></ul> </td><td><ul><li>走廊对话原因断开与更大的组</li><li>有关 doc 位置和版本控制失望</li><li>有关责任的混乱</li></ul> </td><td><ul><li>保留所有对话中团队/通道，驱动透明度</li><li>链接到相关的文档;pin 重要的以确保可见性</li><li>简化 doc 版本控制</li><li>访问 Office 和第三方应用程序，使团队协作，则返回 true 中心</li></ul> </td></tr>
 </tbody>
 </table>
 

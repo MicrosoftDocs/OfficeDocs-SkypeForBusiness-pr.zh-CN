@@ -28,12 +28,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: d22dc0c3102549a8728131e20bf44ecdb0d7e8e0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: e1e5c362ba1074b48949fffe6b2c70579f377dda
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013536"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375065"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365 的通话套餐
 
@@ -55,7 +55,7 @@ ms.locfileid: "25013536"
   
 ## <a name="how-to-buy-a-calling-plan"></a>如何购买调用规划
 
-1. **您必须首先购买**电话系统**附加许可证**。 这样一来，[登录到 Office 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)，并选择**帐单** > **购买服务** > **加载项订阅** > **立即购买**。
+1. <strong>首先必须购买 * * 电话系统</strong><strong>的加载项许可证。这样一来，[登录到 Office 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)，并选择 * * 帐单</strong> > **购买服务** > **加载项订阅** > **立即购买**。
     
     ![购买云 PBX 许可证时，您将看到一个选项以购买调用规划语音。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   

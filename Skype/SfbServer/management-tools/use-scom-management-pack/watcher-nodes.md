@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 摘要： 安装和配置观察程序节点的 Skype Business Server 综合事务。
-ms.openlocfilehash: 4e7b0b8c1874a2491cc34d26a8ef6870c412b760
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6719826515954290f30eac272f638b846f45142a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21015636"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375984"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>安装和配置观察程序节点
  
@@ -281,9 +281,9 @@ TrustedServer 模式只能对位于外围网络内部的计算机使用。当观
     
 2. 在 Skype for Business Server 命令行管理程序中，键入以下命令，然后按 Enter（确保指定 Watchernode.msi 副本的实际路径）：
     
-  ```
-  c:\Tools\Watchernode.msi Authentication=Negotiate
-  ```
+   ```
+   c:\Tools\Watchernode.msi Authentication=Negotiate
+   ```
 
 > [!NOTE]
 > 如前所述，还可以从命令窗口运行 Watchernode.msi。若要打开命令窗口，请单击“开始”****，右键单击“命令提示符”****，然后单击“以管理员身份运行”****。命令窗口打开后，键入上面的步骤 2 所示的相同命令。 

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 编辑恢复能力的设置和配置以下属性：
-ms.openlocfilehash: b4394ae2a7244ae818335bd7c4b21c6d8930f03d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: db69f930dfa747e7537e529ede3b90405867ca27
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260669"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372704"
 ---
 # <a name="registrar-sba-settings-expander"></a>注册器 SBA 设置扩展器
 
@@ -32,11 +32,11 @@ ms.locfileid: "23260669"
     > [!CAUTION]
     > 为故障转移和故障回复间隔定义的秒数应仔细测试以确保恢复能力按预期方式工作。 将间隔设置为较低 （即，小于 120 秒） 或故障转移和故障回复太紧密设置可能会导致的实际故障转移和故障回复未按预期方式工作。
 
- **确定** 接受更改并通过对话框提交更改。
+  **确定** 接受更改并通过对话框提交更改。
 
- **取消** 放弃更改并关闭对话框。
+  **取消** 放弃更改并关闭对话框。
 
- **帮助** 显示此帮助屏幕。
+  **帮助** 显示此帮助屏幕。
 
 ## <a name="see-also"></a>另请参阅
 

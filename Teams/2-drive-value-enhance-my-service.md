@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60575e2b9a1398bf5eba6dfec5aa883e4478f648
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 96af6eb707c8f104a7810e924323d9f32996f8f1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014594"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374292"
 ---
 # <a name="enhance-my-service"></a>增强我的服务
 
@@ -35,8 +35,8 @@ ms.locfileid: "25014594"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>决定谁将监视公共路线图和新功能或服务的组织可能会受益于其他服务通知。</li><li>决定要这些新功能或服务向报告主要利益干系人，通过调控委员会节奏。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>实现用于保持对您的服务，从而可获得您的组织的最大价值的策略。</li><li>驱动器通过整个项目生命周期，以确保您已正确说明它们对您的部署的影响的服务增强功能。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>决定谁将监视公共路线图和新功能或服务的组织可能会受益于其他服务通知。</li><li>决定要这些新功能或服务向报告主要利益干系人，通过调控委员会节奏。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>实现用于保持对您的服务，从而可获得您的组织的最大价值的策略。</li><li>驱动器通过整个项目生命周期，以确保您已正确说明它们对您的部署的影响的服务增强功能。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

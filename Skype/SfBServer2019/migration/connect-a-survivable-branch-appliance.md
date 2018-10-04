@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 每个 Survivable Branch Appliance (SBA) 与作为备份注册器 sba 关联的前端池相关联。 Sba 关联时升级池，一旦池已迁移至 Skype 的业务服务器 2019年同时必须从前端池解除关联前端池的业务服务器 2019，SBA 迁移到 Skype，可与已升级的前端 E 重新关联和池。 此步骤需要从拓扑生成器中将旧拓扑删除 sba 关联，然后将 SBA 添加到业务服务器 2019年拓扑的 Skype。 用户驻留在 SBA 必须首先将移动到另一个前端池的拓扑删除 sba 关联之前的传统上。 一旦 SBA 添加到业务服务器 2019年拓扑的 Skype，这些用户可以然后移回 sba。 这些步骤概括如下：
-ms.openlocfilehash: 6de2b8c228ef9e65f57b70451ac33350a2d8a456
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ff35032d9abc5c1435e44dea7aca83d841b404c6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030579"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373747"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>连接 Survivable Branch Appliance
 
@@ -58,8 +58,8 @@ ms.locfileid: "25030579"
     3. 单击**Survivable Branch Appliance**。
     
 9. 按照在打开的向导中的说明操作。 有关向导项目的信息，请参阅    
-<!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/en-us/library/gg398280(v=ocs.15).aspx). -->
- <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
+   <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/en-us/library/gg398280(v=ocs.15).aspx). -->
+   <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
     
     > [!NOTE]
     > Survivable Branch Appliance 仅可与监控存储相关联。 

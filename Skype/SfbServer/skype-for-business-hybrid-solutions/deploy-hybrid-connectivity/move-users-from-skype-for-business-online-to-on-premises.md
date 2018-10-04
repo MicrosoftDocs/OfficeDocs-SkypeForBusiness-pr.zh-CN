@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 摘要： 了解如何移动用户帐户从联机到本地 Skype 中的业务服务器。
-ms.openlocfilehash: 77ef2ad5cf22632d3f81f35fc0c3a20054303e96
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 033fb0a3a2cce6c763113ca94ea8af3c652cbbf5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884529"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374356"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>Skype 业务 online 到本地移动用户
 
@@ -87,15 +87,15 @@ ms.locfileid: "23884529"
 
 1. 首先，确保组织配置为混合，包括 Azure Active Directory Connect 和同步工具。 有关详细信息，请参阅[规划 Skype 业务服务器和 Skype 业务 online 之间的混合连接性](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)。
 
-  - 有关您的本地部署、 业务 Server Management Shell，Skype 中键入以下 cmdlet 以创建业务联机 Skype 承载服务提供商。 可以对 Identity 和 Name 参数使用您想要的任何值。
+   - 有关您的本地部署、 业务 Server Management Shell，Skype 中键入以下 cmdlet 以创建业务联机 Skype 承载服务提供商。 可以对 Identity 和 Name 参数使用您想要的任何值。
 
-  ```
-  Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
-  ```
+   ```
+   Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
+   ```
 
-  ```
-  New-CsHostingProvider -Identity SkypeforBusinessOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
-  ```
+   ```
+   New-CsHostingProvider -Identity SkypeforBusinessOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+   ```
 
 2. 确认在内部部署边缘服务器，您有证书链，连接到 Skype 业务 online 下, 表中所示。 您可以下载此链此处： [https://corp.sts.microsoft.com/Onboard/ADFS_Onboarding_Pack/corp_sts_certs.zip](https://corp.sts.microsoft.com/Onboard/ADFS_Onboarding_Pack/corp_sts_certs.zip)。
 
@@ -107,33 +107,33 @@ ms.locfileid: "23884529"
 
 3. 您的本地 Active Directory 中，为本地业务服务器 2015年启用的 Skype 受影响的用户帐户。 为此，可以单独为每个相关用户键入以下 cmdlet：
 
-  ```
-  Enable-CsUser
--Identity "username "
--SipAddress "sip: username @contoso.com"
--HostingProviderProxyFqdn "sipfed.online.lync.com"
-  ```
+   ```
+   Enable-CsUser
+   -Identity "username "
+   -SipAddress "sip: username @contoso.com"
+   -HostingProviderProxyFqdn "sipfed.online.lync.com"
+   ```
 
     也可以创建一个脚本，从文件中读取用户名，并将其作为输入提供给 Enable-CsUser cmdlet：
 
-  ```
-  Enable-CsUser
--Identity $Identity
--SipAddress $SipAddress
--HostingProviderProxyFqdn "sipfed.online.lync.com"
-  ```
+   ```
+   Enable-CsUser
+   -Identity $Identity
+   -SipAddress $SipAddress
+   -HostingProviderProxyFqdn "sipfed.online.lync.com"
+   ```
 
 4. 更新内部部署用户同步联机用户。 有关详细信息，请参阅[目录集成工具](https://go.microsoft.com/fwlink/p/?LinkId=530320)。
 
 5. 更新定向到内部部署的所有 SIP 流量的以下 DNS 记录：
 
-  - 将 **lyncdiscover.contoso.com** A 记录更新为指向本地反向代理服务器的 FQDN。
+   - 将 **lyncdiscover.contoso.com** A 记录更新为指向本地反向代理服务器的 FQDN。
 
-  - 更新***_sip* 。 _tls.contoso.com** SRV 记录来解析到 Lync 内部部署的访问边缘服务公用 IP 或 VIP 地址。
+   - 更新***_sip* 。 _tls.contoso.com** SRV 记录来解析到 Lync 内部部署的访问边缘服务公用 IP 或 VIP 地址。
 
-  - 更新***_sipfederationtls* 。 _tcp.contoso.com** SRV 记录以的业务服务器 2015年本地解析为 Skype 的访问边缘服务公用 IP 或 VIP 地址。
+   - 更新***_sipfederationtls* 。 _tcp.contoso.com** SRV 记录以的业务服务器 2015年本地解析为 Skype 的访问边缘服务公用 IP 或 VIP 地址。
 
-  - 如果组织使用拆分 DNS （有时称为"拆分式 DNS"），请确保用户解析名称通过内部 DNS 区域时转到 Front End Pool。
+   - 如果组织使用拆分 DNS （有时称为"拆分式 DNS"），请确保用户解析名称通过内部 DNS 区域时转到 Front End Pool。
 
 6. 键入`Get-CsUser`cmdlet 来检查您将移动的用户的某些属性。 您需要确保 HostingProviderProxyFQDN 设置为`"sipfed.online.lync.com"`，且 SIP 地址设置正确。
 
@@ -141,16 +141,16 @@ ms.locfileid: "23884529"
 
     要移动单个用户，请键入：
 
-  ```
-  $cred = Get-Credential
-  Move-CsUser -Identity <username>@contoso.com  -Target "<fe-pool>.contoso.com " -Credential $cred -HostedMigrationOverrideURL <URL>
-  ```
+   ```
+   $cred = Get-Credential
+   Move-CsUser -Identity <username>@contoso.com  -Target "<fe-pool>.contoso.com " -Credential $cred -HostedMigrationOverrideURL <URL>
+   ```
 
     您可以通过使用**Get-csuser** cmdlet 移动多个用户使用-Filter 参数，选择与特定属性的用户。 例如，您无法通过筛选 {宿主提供商-eq"sipfed.online.lync.om"} 选择所有联机用户。 您可以通过管道返回的用户到**Move-csuser** cmdlet，如下所示。
 
-  ```
-  Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com " -Credential $creds -HostedMigrationOverrideURL <URL>
-  ```
+   ```
+   Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com " -Credential $creds -HostedMigrationOverrideURL <URL>
+   ```
 
     指定的**HostedMigrationOverrideUrl**参数必须为托管迁移服务正在运行，采用以下格式的池的 URL 的 url 格式： _Https://\<池 FQDN\>/HostedMigration/hostedmigrationService.svc_。
 
@@ -179,19 +179,19 @@ ms.locfileid: "23884529"
     > [!NOTE]
     > rtcxds 数据库事务日志文件的默认大小上限为 16 GB。 这可能不是足够大，如果要同时移动大量用户尤其在您必须启用镜像。 为解决此问题，您可以扩大文件大小，或者定期备份日志文件。 有关详细信息，请参阅[https://support.microsoft.com/kb/2756725](https://support.microsoft.com/kb/2756725)。
 
-8. 这是一个可选步骤。 如果需要集成 Exchange 2013 Online，那么需要使用额外的托管服务提供商。 有关详细信息，请参阅[Configure 集成业务服务器 2015年和 Outlook Web App 的内部部署 Skype](../../deploy/integrate-with-exchange-server/outlook-web-app.md)。
+6. 这是一个可选步骤。 如果需要集成 Exchange 2013 Online，那么需要使用额外的托管服务提供商。 有关详细信息，请参阅[Configure 集成业务服务器 2015年和 Outlook Web App 的内部部署 Skype](../../deploy/integrate-with-exchange-server/outlook-web-app.md)。
 
-9. 现在用户已经移动。为核查下表所示的用户属性具有正确的值，键入此 cmdlet：
+7. 现在用户已经移动。为核查下表所示的用户属性具有正确的值，键入此 cmdlet：
 
-  ```
-  Get-CsUser | fl DisplayName,HostingProvider,SipAddress,Enabled
-  ```
+   ```
+   Get-CsUser | fl DisplayName,HostingProvider,SipAddress,Enabled
+   ```
 
-|**Active Directory 属性**|**属性名称**|**Online 用户的正确值**|**内部部署用户的正确值**|
-|:-----|:-----|:-----|:-----|
-|msRTCSIP DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed.online.lync.com  <br/> |SRV：  <br/> |
-|msRTCSIP PrimaryUserAddress  <br/> |SIPAddress  <br/> |sip:userName@contoso.com  <br/> |sip:userName@contoso.com  <br/> |
-|msRTCSIP UserEnabled  <br/> |已启用  <br/> |True  <br/> |True  <br/> |
+| **Active Directory 属性**     | **属性名称**     | **Online 用户的正确值** | **内部部署用户的正确值** |
+|:-----------------------------------|:-----------------------|:----------------------------------|:----------------------------------------|
+| msRTCSIP DeploymentLocator  <br/>  | HostingProvider  <br/> | sipfed.online.lync.com  <br/>     | SRV：  <br/>                             |
+| msRTCSIP PrimaryUserAddress  <br/> | SIPAddress  <br/>      | sip:userName@contoso.com  <br/>   | sip:userName@contoso.com  <br/>         |
+| msRTCSIP UserEnabled  <br/>        | 已启用  <br/>         | True  <br/>                       | True  <br/>                             |
 
 10. 每个已迁移的用户需要先注销，然后重新登录。登录时，用户应验证联系人列表，在必要情况下添加联系人。
 

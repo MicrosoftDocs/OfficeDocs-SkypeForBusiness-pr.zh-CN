@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: 你可以决定使用配对的前端池来提供灾难恢复保护，但这并不是必需满足的要求。
-ms.openlocfilehash: 72083b2ec249a83c06cd8ccebe683f29d15709e0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7bbb15c635b8a0b9c90d80309e49721cfe778155
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026479"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371270"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>为业务服务器部署已配对的前端池 Skype 中的灾难恢复
  
@@ -58,23 +58,23 @@ ms.locfileid: "21026479"
 
 10. 使用以下 cmdlet 强制两个池的用户和会议数据相互同步：
     
-   ```
-   Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
-   ```
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
+    ```
 
-   ```
-   Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
-   ```
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
+    ```
 
-   同步数据可能需要一些时间。你可以使用以下 cmdlet 检查同步状态。确保两个方向的状态均保持稳定。
+    同步数据可能需要一些时间。你可以使用以下 cmdlet 检查同步状态。确保两个方向的状态均保持稳定。
     
-   ```
-   Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
-   ```
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
+    ```
 
-   ```
-   Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
-   ```
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+    ```
 
 > [!NOTE]
 > **自动故障转移和故障回复语音**选项和拓扑生成器中的关联的时间间隔仅适用于 Lync Server 中引入的语音恢复能力功能。 选择此选项并不意味着会自动执行本文档中讨论的池故障转移。 池故障转移和故障回复始终需要管理员手动且分别调用故障转移和故障回复 cmdlet。

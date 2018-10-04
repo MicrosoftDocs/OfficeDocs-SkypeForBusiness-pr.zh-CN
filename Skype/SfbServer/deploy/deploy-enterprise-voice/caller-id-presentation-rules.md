@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: 摘要： 了解如何使用适用于业务 Server Control Panel Skype 配置呼叫者 ID。
-ms.openlocfilehash: 69c8ba7307b0e641812b9638059ae3ddb92c5ab9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 69d5a1d8f04900933b5de4ebd795961d8b450ca7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885762"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373585"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>创建或修改转换规则的呼叫者 ID 演示文稿中 Skype 业务服务器
 
@@ -48,7 +48,7 @@ Skype 业务服务器还提供选项还平移呼叫方的电话号码 （即，�
 
    - 要从中继删除某个转换规则，请突出显示相应的规则名称，然后单击“删除”****。
 
-    > [!CAUTION]
-    > 如果已在关联的中继对等方上配置了转换规则，则不要将任何转换规则与中继相关联，因为这两种规则可能会发生冲突。
+     > [!CAUTION]
+     > 如果已在关联的中继对等方上配置了转换规则，则不要将任何转换规则与中继相关联，因为这两种规则可能会发生冲突。
 
 

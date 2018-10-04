@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb19af107bc41fc088d7398570e34d0586b34e15
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fcb907a1a84dce1e1fcf550333b8b1dd788f23fa
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015786"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370750"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>开启或关闭对 Microsoft Teams 的来宾访问
 ======================================
@@ -65,7 +65,7 @@ ms.locfileid: "25015786"
   
 5. 单击或点击 **“对此类型的所有用户开启或关闭 Microsoft Teams”** 旁边的切换将其设置为 **“开启”** 为贵组织开启 Teams 和来宾访问，然后选择 **“保存”**。 
     
- 观看以下视频，了解有关来宾访问的更多详细信息：  
+   观看以下视频，了解有关来宾访问的更多详细信息：  
 
 |  |  |
 |---------|---------|

@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 阅读此主题以了解有关的 Skype 会议室系统 v2，管理下一代 Skype 会议室系统。
-ms.openlocfilehash: 52e02ff1f87d06088636b2f44706ec03c62675f3
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 5dcfcf13b22e7ad110b675d5d202f1ad53d32687
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965889"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373645"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Skype 会议室系统 v2 维护和操作 
  
@@ -234,9 +234,9 @@ Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rige
     
 4. 完成后，重新启动计算机。
     
- 控制台重新启动到其正常操作模式，运行 Skype 会议室系统 v2 应用程序。 您可以删除键盘，如果它已连接以允许您执行此过程。
-## <a name="troubleshooting-tips"></a>故障排除提示
-<a name="TS"> </a>
+   控制台重新启动到其正常操作模式，运行 Skype 会议室系统 v2 应用程序。 您可以删除键盘，如果它已连接以允许您执行此过程。
+   ## <a name="troubleshooting-tips"></a>故障排除提示
+   <a name="TS"> </a>
 
 - 跨域边界 （例如，两个公司） 之间发送时，可能不出现会议邀请。 在这种情况下，IT 管理员应决定是否允许外部用户可以安排会议。
     

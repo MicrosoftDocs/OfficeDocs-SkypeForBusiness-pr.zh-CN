@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 创建、 修改或删除 Skype 中为 Business Server 企业语音的通知应用程序的未分配号码范围。 这将影响如何处理打给未分配号码的呼叫。
-ms.openlocfilehash: 2acfa15ac6a5fdcdea2dc56fd74a067712875218
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ca8b3e621da3b479bcc650584ed2aea7669f07e1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886266"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372711"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>创建或修改业务服务器 Skype 中的未分配号码范围
  
@@ -50,8 +50,8 @@ Skype 业务服务器，您可以说到可用于您的组织，但未分配给�
     
    - 若要创建新的号码范围，请单击“新建”****。在“名称”**** 中，键入此号码范围的标识名称。
     
-    > [!NOTE]
-    > 新的未分配号码范围提交到数据库后，将无法更改该名称。 
+     > [!NOTE]
+     > 新的未分配号码范围提交到数据库后，将无法更改该名称。 
   
    - 若要修改现有号码范围，请在搜索字段中键入号码范围的全部或部分名称。在号码范围的结果列表中，单击所需的名称，再单击“编辑”****，然后单击“显示详细信息”****。
     
@@ -99,7 +99,7 @@ Skype 业务服务器，您可以说到可用于您的组织，但未分配给�
   
     在命令行中，执行下列操作之一：
     
-     - 若要创建公告服务的号码范围，请运行：
+   - 若要创建公告服务的号码范围，请运行：
     
      ```
      New-CsUnassignedNumber -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -AnnouncementName <announcement name> -AnnouncementService <FQDN or service ID of the Announcement service>
@@ -123,7 +123,7 @@ Skype 业务服务器，您可以说到可用于您的组织，但未分配给�
      New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber "+12065551234" -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100"
      ```
 
-    以下示例介绍如何修改现有未分配号码范围中的号码：
+     以下示例介绍如何修改现有未分配号码范围中的号码：
     
      ```
      Set-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551900"

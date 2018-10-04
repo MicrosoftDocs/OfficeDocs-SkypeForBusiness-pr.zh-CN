@@ -18,12 +18,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
-ms.openlocfilehash: 98701f55bd1cdf2c6a5f8177d05a95030a4a04a5
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3961aaa5bfe8ca17a28fa736f64a91a48414a494
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850086"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371948"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>允许 Skype for Business 用户添加 Skype 联系人
 
@@ -75,9 +75,9 @@ ms.locfileid: "23850086"
     
 4. 另一个测试问题是否出自你的防火墙的方法是在不受你的防火墙保护的 WiFi 位置（例如咖啡店）使用 Skype for Business 向你的 Skype 联系人发送聊天请求。 
     
-  - **如果你向你的 Skype 联系人发送了请求，但他们从未收到** ，请要求他们向你发送聊天请求。如果问题是无法在 Skype 与 Skype for Business 之间建立连接，这样做通常会解决问题。
+   - **如果你向你的 Skype 联系人发送了请求，但他们从未收到** ，请要求他们向你发送聊天请求。如果问题是无法在 Skype 与 Skype for Business 之间建立连接，这样做通常会解决问题。
     
-  - 此时如果在咖啡店里消息顺利传送，但不是在你工作的时候，那么问题出自你的防火墙。 
+   - 此时如果在咖啡店里消息顺利传送，但不是在你工作的时候，那么问题出自你的防火墙。 
     
 ## <a name="what-you-can-and-cant-do"></a>可以执行的操作和不能执行的操作
 

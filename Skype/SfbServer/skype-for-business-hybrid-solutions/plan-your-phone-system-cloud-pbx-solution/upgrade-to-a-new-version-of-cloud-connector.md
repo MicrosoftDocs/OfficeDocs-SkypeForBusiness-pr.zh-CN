@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: 了解如何升级你的云连接器版本部署。
-ms.openlocfilehash: b727f3cb7feea7f080f2e75278294e855c65b197
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c0946cf26181df81327412c2dc0efc227b5a5586
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887535"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370625"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>升级到新版本的云连接器
  
@@ -76,27 +76,27 @@ ms.locfileid: "23887535"
     
 4. 以管理员身份启动 PowerShell 控制台，然后运行以下 cmdlet 以注册当前设备：
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 5. 运行以下 cmdlet 以下载最新版本：
     
-  ```
-  Start-CcDownload
-  ```
+   ```
+   Start-CcDownload
+   ```
 
 6. 运行以下 cmdlet 以开始安装： 
     
-  ```
-  Install-CcAppliance -Upgrade
-  ```
+   ```
+   Install-CcAppliance -Upgrade
+   ```
 
 7. 运行以下 cmdlet 以激活新部署并禁用上一版本：
     
-  ```
-  Switch-CcVersion
-  ```
+   ```
+   Switch-CcVersion
+   ```
 
 如果站点中有多个设备，请按照上述步骤逐个升级各设备。
   

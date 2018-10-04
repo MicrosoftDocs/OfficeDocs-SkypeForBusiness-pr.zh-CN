@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 摘要：利用本主题准备 Skype for Business Server 2015 服务器。这里提供了硬件、OS、数据库、软件、所有系统要求和建议，可帮助确保服务器场的安装和部署获得成功。
-ms.openlocfilehash: 4e6bbe71a75097e9b1a3a34752d9d1cd46d59307
-ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
+ms.openlocfilehash: 5f64bbf4e455896de143991be455c3c122b4911c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25040739"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374750"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的服务器要求
  
@@ -97,7 +97,7 @@ ms.locfileid: "25040739"
 如果您没有看到要使用此处列出的 SQL Server 版本，则无法使用它。
   
 > [!NOTE]
-> 您还将需要安装 SQL Server Reporting Services 的监控服务器角色，但我们需要您知道这不会与 SQL 始终上才支持 post-RTM。 
+> 您还将需要安装监控服务器角色的 SQL Server Reporting Services。
 
 ### <a name="microsoft-exchange-storage"></a>Microsoft Exchange 存储
 会议内容文件（比如 PowerPoint 演示文稿）都作为附件进行存档。 如果您想要存储 Skype 业务 Exchange 合规性数据的存档数据，您必须使用 Exchange 部署 Exchange，并确保的最大存储大小支持存储会议内容文件。 您必须部署 Exchange 之前部署和启用存档使用 Microsoft Exchange 集成选项。 

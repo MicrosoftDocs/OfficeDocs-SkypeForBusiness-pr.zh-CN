@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45d74a26b65f788e914587b521a5bb14ea606567
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 021f69644701fb68a8122219b3f98bc4fd2f390d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012302"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372608"
 ---
 # <a name="deploy-my-service"></a>部署我服务
 
@@ -73,23 +73,23 @@ ms.locfileid: "25012302"
 
 无论的大小和位置的复杂性，启用每个站点需要规划任务和活动足够早期 — 和最佳顺序执行这些 — 之前、 升级期间和实际服务推出之后。 我们建议您执行以下步骤，如您规划和执行自己迁移到 Microsoft 团队语音。
 
-1.  下载 Microsoft 团队语音[语音设置 （方案） 的网站启用设置方案](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)。
+1. 下载 Microsoft 团队语音[语音设置 （方案） 的网站启用设置方案](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)。
 
-2.  创建一份的每个站点设置方案。
+2. 创建一份的每个站点设置方案。
 
-3.  在名为 **{SiteName 代码} 设置方案**工作表的选项卡上，与相关网站名称和/或站点代码替换 **{SiteName 代码}** 。
+3. 在名为 **{SiteName 代码} 设置方案**工作表的选项卡上，与相关网站名称和/或站点代码替换 **{SiteName 代码}** 。
 
-4.  输入**网站名称、 站点代码**，和**计划启动日期**，如下所示。 这是关键步骤中，因为它调整设置方案中的每个活动的建议的峰值。
+4. 输入**网站名称、 站点代码**，和**计划启动日期**，如下所示。 这是关键步骤中，因为它调整设置方案中的每个活动的建议的峰值。
 
-    ![网站名称为纽约站点代码 NY01 和 20-Mar 18 计划的启动日期示例](media/deploy-my-service-image2.png "网站名称为纽约站点代码 NY01 和 20-Mar 18 计划的启动日期示例")
+   ![网站名称为纽约站点代码 NY01 和 20-Mar 18 计划的启动日期示例](media/deploy-my-service-image2.png "网站名称为纽约站点代码 NY01 和 20-Mar 18 计划的启动日期示例")
 
-5.  查看每个活动和所需的操作，当您演练日程表更新状态。 状态表示图形，如下所示：
-    <ul>
-    <li>![绿色复选标记](media/deploy-my-service-image3.png)**是、 或不适用 （绿色）：** 活动完成后，或不适用于此网站，并需要没有进一步的操作。</li>
-    <li>![黄色感叹号](media/deploy-my-service-image4.png)**活动未完成尚未 （黄色）：** 该活动不起作用，已完成，必须更新为是或否按其计划。</li>
-    <li>![红色 X](media/deploy-my-service-image5.png) **没有 （红色）：** 活动无法完成由于问题，必须执行到项目状态会议。</li></ul>
+5. 查看每个活动和所需的操作，当您演练日程表更新状态。 状态表示图形，如下所示：
+   <ul>
+   <li>![绿色复选标记](media/deploy-my-service-image3.png) <strong>是、 或不适用 （绿色）：</strong>活动完成后，或不适用于此网站，并需要没有进一步的操作。</li>
+   <li>![黄色感叹号](media/deploy-my-service-image4.png) <strong>活动未完成尚未 （黄色）：</strong>该活动不起作用，已完成，必须更新为是或否按其计划。</li>
+   <li>![红色 X](media/deploy-my-service-image5.png) <strong>没有 （红色）：</strong>活动无法完成由于问题，必须执行到项目状态会议。</li></ul>
 
-6.  状态成型内每个部分，并节标题格式之一的这些状态指示符。 **每周状态**也会自动更新。
+6. 状态成型内每个部分，并节标题格式之一的这些状态指示符。 **每周状态**也会自动更新。
 
 ![每周状态汇总中设置方案的屏幕截图](media/deploy-my-service-image6.png "每周状态汇总中设置方案的屏幕截图")
 
@@ -101,8 +101,8 @@ ms.locfileid: "25012302"
 请注意，可能会更多时间比您计划，如号码移植活动和采购活动。 这些活动可以对网站部署时间线产生负面影响。 请务必查看和每周，更新活动列表和关联的日程表和他们出席[调控委员会会议](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide)以确保利益干系人了解每个站点和任何可能偏离的部署计划的状态。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>决定是否需要为您的部署网站启用设置方案。</li><li>决定谁将负责将部署每个网站自定义 Microsoft 团队网站启用设置方案。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>[下载站点启用设置方案](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)。</li><li>自定义网站启用设置方案为您的第一个网站。</li><li>根据需要为其他网站重复。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>决定是否需要为您的部署网站启用设置方案。</li><li>决定谁将负责将部署每个网站自定义 Microsoft 团队网站启用设置方案。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">下载站点启用设置方案</a>。</li><li>自定义网站启用设置方案为您的第一个网站。</li><li>根据需要为其他网站重复。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 您可以设置如何您的用户连接到 Skype 业务 online 对等功能使用户能够发起和接收电话呼叫在其移动电话上使用而不是其移动电话 nu 其单位电话号码的移动设备上的业务应用程序使用 Skypember。 还需要使用移动策略来要求在拨打或接听电话时使用 Wi-Fi 连接。
-ms.openlocfilehash: 21d1b19a72686d618bf8fca484bf828e62ee3a37
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 73699cb2c608b7a161b371d86458a18a9c9d3c40
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861524"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372027"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>为你的组织设置移动策略
 
@@ -58,70 +58,70 @@ ms.locfileid: "23861524"
     > [!NOTE]
     > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
 
-  ```      
+   ```      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
-  ```
+   ```
 
-  如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+   如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
 
 ### <a name="require-a-wifi-connection-for-video-for-a-user"></a>要求用户进行视频操作时使用 WiFi 连接
 
 - 若要创建这些设置的新策略，请运行：
-> 
-  ```
-  New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
-  ```
-  请参阅[New-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) cmdlet 的详细信息。
+  > 
+  > ```
+  > New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
+  > ```
+  > 请参阅[New-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) cmdlet 的详细信息。
     
 - 若要授予对所有用户在组织中都创建新策略，请运行：
-> 
-  ```
-  Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
-  ```
-  请参阅[Grant-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 的详细信息。
+  > 
+  > ```
+  > Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
+  > ```
+  > 请参阅[Grant-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 的详细信息。
     
   如果您已经创建策略，您可以使用[Set-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) cmdlet 可以更改现有的策略，并将[Grant-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 将设置应用到您的用户。
   
 ### <a name="prevent-a-user-from-using-the-skype-for-business-app"></a>禁止用户使用 Skype for Business 应用
 
 - 若要创建这些设置的新策略，请运行：
-```
-New-CsMobilityPolicy -Identity NoAppClientPolicy -EnableMobility $false 
-```
+  ```
+  New-CsMobilityPolicy -Identity NoAppClientPolicy -EnableMobility $false 
+  ```
   请参阅[New-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) cmdlet 的详细信息。
     
 - 若要授予 Amos 大理石您创建的新策略，请运行：  
-> 
-  ```
-  Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
-  ```
-  请参阅[Grant-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 的详细信息。
+  > 
+  > ```
+  > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
+  > ```
+  > 请参阅[Grant-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 的详细信息。
     
   如果您已经创建策略，您可以使用[Set-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) cmdlet 可以更改现有的策略，并将[Grant-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 将设置应用到您的用户。
   
 ### <a name="prevent-a-user-from-making-voice-over-ip-calls-using-a-mobile-device"></a>禁止用户使用移动设备拨打 IP 语音电话。
 
 - 若要创建这些设置的新策略，请运行：
-> 
-  ```
-  New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
-  ```
-  请参阅[New-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) cmdlet 的详细信息。
+  > 
+  > ```
+  > New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
+  > ```
+  > 请参阅[New-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) cmdlet 的详细信息。
     
 - 若要授予对所有用户在组织中都创建新策略，请运行：
-> 
-  ```
-  Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
-  ```
+  > 
+  > ```
+  > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
+  > ```
 
   请参阅[Grant-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 的详细信息。
     
 如果您已经创建策略，您可以使用[Set-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) cmdlet 可以更改现有的策略，并将[Grant-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 将设置应用到您的用户。
   
-## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
+## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
 - Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     

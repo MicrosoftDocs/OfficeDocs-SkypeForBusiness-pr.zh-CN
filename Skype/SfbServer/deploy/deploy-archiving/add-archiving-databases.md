@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 摘要： 阅读本主题可了解如何向您 Skype 业务服务器部署添加存档数据库。
-ms.openlocfilehash: 1b6aef3d1b00a6736206cd3cf4c0061f0e720ad6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c2e92b1da9dd5e9827b362bf4979ffba075c4402
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969122"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372949"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>业务服务器添加到现有部署中 Skype 的存档数据库
  
@@ -63,19 +63,19 @@ ms.locfileid: "20969122"
     
    - 若要指定新的 SQL Server 存储用于镜像，请单击**新建**，然后在**定义新的 SQL Server 存储**对话框中，执行下列选项之一：
     
-    a. 在**SQL Server FQDN**中，指定要在其创建新的 SQL Server 存储的 SQL Server 的 FQDN。
+     a. 在**SQL Server FQDN**中，指定要在其创建新的 SQL Server 存储的 SQL Server 的 FQDN。
     
-    b. 单击“**默认实例**”以使用默认的实例，或者，若要指定其他实例，请单击“**命名实例**”，然后指定要使用的实例。
+     b. 单击“**默认实例**”以使用默认的实例，或者，若要指定其他实例，请单击“**命名实例**”，然后指定要使用的实例。
     
-    c. 如果指定的 SQL Server 实例处于镜像关系中，选择**此 SQL 实例处于镜像关系中**复选框，然后，在**镜像端口号**框中，指定的端口号。
+     c. 如果指定的 SQL Server 实例处于镜像关系中，选择**此 SQL 实例处于镜像关系中**复选框，然后，在**镜像端口号**框中，指定的端口号。
     
    - 如果您启用 SQL Server 镜像，并且想要包括 SQL Server 镜像见证 （的第三个单独 SQL Server 实例的可以检测到主 SQL Server 实例和镜像实例的运行状况），选择**使用 SQL Server 镜像见证启用自动故障转移**复选框，，然后执行下列选项之一：
     
-    a. 在**SQL Server FQDN**中，指定要在其创建新的 SQL Server 镜像见证的服务器的 FQDN。
+     a. 在**SQL Server FQDN**中，指定要在其创建新的 SQL Server 镜像见证的服务器的 FQDN。
     
-    b. 单击“**默认实例**”以使用默认的实例，或者，若要指定其他实例，请单击“**命名实例**”，然后指定要用于镜像见证的实例。
+     b. 单击“**默认实例**”以使用默认的实例，或者，若要指定其他实例，请单击“**命名实例**”，然后指定要用于镜像见证的实例。
     
-    c. 如果指定的 SQL Server 实例处于镜像关系中，选择**此 SQL 实例处于镜像关系中**复选框，然后，在**镜像端口号**框中，指定的端口号。
+     c. 如果指定的 SQL Server 实例处于镜像关系中，选择**此 SQL 实例处于镜像关系中**复选框，然后，在**镜像端口号**框中，指定的端口号。
     
 10. 若要保存配置，请单击“**确定**”。
     

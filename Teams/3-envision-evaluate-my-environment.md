@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66b86ef8789f959de9887cc1f0b3c7c1e2e8ffa3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a00bf784b283f1f2d948e82d90ce54b0a67a6439
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015570"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373311"
 ---
 # <a name="evaluate-my-environment"></a>评估我的环境
 
@@ -43,8 +43,8 @@ ms.locfileid: "25015570"
 了解这将有助于您的组织相应地调整其项目计划和准备号码移植所需的信息。 从 MyAdvisor[环境发现的 Microsoft 团队推出](environmental-discovery-for-microsoft-teams-rollout.md)可用于执行环境发现。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>谁将负责完成环境评估？</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>文档环境评估的结果。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>谁将负责完成环境评估？</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>文档环境评估的结果。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -60,8 +60,8 @@ ms.locfileid: "25015570"
 使用以下注意事项评估解决用户更改管理您的组织准备基础。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>您已经采用用户软件或服务的以前成功？</li><li>您可以跟踪使用情况领会？</li><li>您是否要设计和管理初始的资源&mdash;和持续&mdash;采用市场活动 （认知、 培训和支持）？</li><li>您拥有一个专用的用户采用/更改管理团队，或您投资这些资源，以确保业务产出？</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>如果您对上述所有回答"是"，确定适当的用户更改管理利益干系人并开始用户准备规划。</li><li>如果您回答"no"部分或全部以上，请考虑利用外部的资源以帮助驱动更改管理和为您的组织采用相关活动。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>您已经采用用户软件或服务的以前成功？</li><li>您可以跟踪使用情况领会？</li><li>您是否要设计和管理初始的资源&mdash;和持续&mdash;采用市场活动 （认知、 培训和支持）？</li><li>您拥有一个专用的用户采用/更改管理团队，或您投资这些资源，以确保业务产出？</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>如果您应答&quot;是&quot;的上述所有，确定适当的用户更改管理利益干系人并开始用户准备规划。</li><li>如果您应答&quot;没有&quot;部分或全部以上，请考虑引人入胜外部资源以帮助驱动更改管理和为您的组织采用相关活动。</li></ol></td></tr>
 </table>
 
 
@@ -216,8 +216,8 @@ Microsoft 团队连接到 Microsoft Online Services，并为此需要 internet �
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>谁将负责在所有网络领域和组织位置完成正确的网络评估？</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>您可以执行的详细的网络评估，以帮助确保您的网络可供您的 Microsoft 团队的部署。 有关详细信息，请参阅[网络准备情况评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)。</li><li>执行网络修正基于每个网络段网络准备情况评估结果。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>谁将负责在所有网络领域和组织位置完成正确的网络评估？</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>您可以执行的详细的网络评估，以帮助确保您的网络可供您的 Microsoft 团队的部署。 有关详细信息，请参阅<a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">网络准备情况评估</a>。</li><li>执行网络修正基于每个网络段网络准备情况评估结果。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

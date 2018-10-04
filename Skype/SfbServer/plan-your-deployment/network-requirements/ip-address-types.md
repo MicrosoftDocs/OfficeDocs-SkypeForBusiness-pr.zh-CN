@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 摘要： 实现 Skype 业务服务器之前查看下面的 IP 地址类型注意事项。
-ms.openlocfilehash: 4882ee24b0fb490dca4a2a961faa9b060663fcd0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 46d448e0004c9a83921f0c92d12513e39f076dc3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885411"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375201"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>在 Skype for Business 中配置 IP 地址类型
 
@@ -38,19 +38,19 @@ ms.locfileid: "23885411"
 
    **前端服务器池的“编辑属性”对话框**
 
-  - **使用所有配置 IP 地址**。如果您希望允许使用计算机上定义的任何 IP 地址，请选择此选项。
+   - **使用所有配置 IP 地址**。如果您希望允许使用计算机上定义的任何 IP 地址，请选择此选项。
 
-    > [!NOTE]
-    > 这是针对 IP 版本 6 (IPv6) 配置的建议选项。
+     > [!NOTE]
+     > 这是针对 IP 版本 6 (IPv6) 配置的建议选项。
 
-  - **将服务用途限制为所选 IP 地址**。选择此选项可指定要在新服务器上使用的特定地址。如果选择此选项，则必须输入“**主 IP 地址**”的值。
+   - **将服务用途限制为所选 IP 地址**。选择此选项可指定要在新服务器上使用的特定地址。如果选择此选项，则必须输入“**主 IP 地址**”的值。
 
-  - **主 IP 地址**。输入用于除公用电话交换网 (PSTN) 之外的所有通信的 IP 地址。所输入的 IP 地址必须符合选择的地址类型的格式。
+   - **主 IP 地址**。输入用于除公用电话交换网 (PSTN) 之外的所有通信的 IP 地址。所输入的 IP 地址必须符合选择的地址类型的格式。
 
-  - **PSTN IP 地址**。在前端服务器上并置中介服务器时定义一个 PSTN IP 地址。该地址必须符合选择的地址类型的格式。
+   - **PSTN IP 地址**。在前端服务器上并置中介服务器时定义一个 PSTN IP 地址。该地址必须符合选择的地址类型的格式。
 
-    > [!NOTE]
-    > 不支持其他网络接口卡 (Nic) 以支持的 PSTN IP 地址配置前端服务器上安装。 有关支持的 Skype 业务服务器的 NIC 配置的详细信息，请参阅[Lync Server 2013 的硬件与 Server hardware platforms](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)。
+     > [!NOTE]
+     > 不支持其他网络接口卡 (Nic) 以支持的 PSTN IP 地址配置前端服务器上安装。 有关支持的 Skype 业务服务器的 NIC 配置的详细信息，请参阅[Lync Server 2013 的硬件与 Server hardware platforms](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)。
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>在中介服务器上部署 IP 地址类型
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 摘要： 了解如何创建、 发布和业务服务器安装 Skype 之前验证新拓扑。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: e6013003f9ff6b4e3f39a500df9e489292264599
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c2879b2323ffe85624c852d70028ab2388b4feb7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885030"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371332"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>创建和发布新拓扑中 Skype 业务服务器
  
@@ -101,7 +101,7 @@ ms.locfileid: "23885030"
     
    - 选择需要安装的角色，然后设置硬件以适应所选择的角色。
     
-    对于方案二，您具有现有的部署，并且您的基础架构已为新角色做好准备，或者，您需要将现有角色与新的前端池关联。
+     对于方案二，您具有现有的部署，并且您的基础架构已为新角色做好准备，或者，您需要将现有角色与新的前端池关联。
     
    - 在这种情况下，需选择打算部署的角色或要与新的前端池相关联的角色。无论在哪种情况下，都需要定义角色，设置任何所需硬件，然后继续安装。
     
@@ -117,10 +117,10 @@ ms.locfileid: "23885030"
     
    - 若要使用 SQL 镜像，请选择“**启用 SQL 镜像**”，选择现有实例或创建一个新实例。
 
-    > [!NOTE]
-    > SQL 镜像的业务服务器 2015 Skype 中可用，但业务服务器 2019年不再支持在 Skype。 AlwaysOn 可用性组、 AlwaysOn 故障转移群集实例 (FCI)，和 SQL 故障转移群集方法是首选与 Skype 的业务服务器 2019年。
+     > [!NOTE]
+     > SQL 镜像的业务服务器 2015 Skype 中可用，但业务服务器 2019年不再支持在 Skype。 AlwaysOn 可用性组、 AlwaysOn 故障转移群集实例 (FCI)，和 SQL 故障转移群集方法是首选与 Skype 的业务服务器 2019年。
     
-    在此示例中，我们输入 **SQL Server FQDN** 并配置相关的高可用性设置，然后单击**确定**，如图所示。
+     在此示例中，我们输入 **SQL Server FQDN** 并配置相关的高可用性设置，然后单击**确定**，如图所示。
     
      ![创建 SQL Server 存储。](../../media/12822cf9-8608-43c0-94ce-2ca8b3a0ffd5.png)
   
@@ -132,10 +132,10 @@ ms.locfileid: "23885030"
     
    - 要定义新文件共享，请选择“**定义新的文件共享**”，在“**文件服务器 FQDN**”框中，输入要放置文件共享的现有文件服务器的 FQDN，然后在“**文件共享**”框中输入文件共享的名称。
     
-    在此示例中，我们将单击“**定义新文件存储**”，输入“**文件服务器 FQDN**”和“**文件共享**”，然后单击“**下一步**”。
+     在此示例中，我们将单击“**定义新文件存储**”，输入“**文件服务器 FQDN**”和“**文件共享**”，然后单击“**下一步**”。
     
-    > [!NOTE]
-    > Skype 业务服务器的文件共享可以并置，但出于性能原因不建议。 注意，在此示例中，文件共享位于充当文件共享的单个专用服务器上。 但是，建议使用其他更加强大的文件共享系统，比如使用 Windows Server 2012 R2 的 DFS。 有关受支持的文件共享系统的详细信息，请参阅[您 Skype 业务环境要求](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)。 有关创建文件共享的详细信息，请参阅[创建 Skype 业务服务器中的文件共享](create-a-file-share.md)。 你可以在未创建文件共享的情况下定义文件共享。 你需要首先在定义的位置创建文件共享，然后才能发布拓扑。 
+     > [!NOTE]
+     > Skype 业务服务器的文件共享可以并置，但出于性能原因不建议。 注意，在此示例中，文件共享位于充当文件共享的单个专用服务器上。 但是，建议使用其他更加强大的文件共享系统，比如使用 Windows Server 2012 R2 的 DFS。 有关受支持的文件共享系统的详细信息，请参阅[您 Skype 业务环境要求](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)。 有关创建文件共享的详细信息，请参阅[创建 Skype 业务服务器中的文件共享](create-a-file-share.md)。 你可以在未创建文件共享的情况下定义文件共享。 你需要首先在定义的位置创建文件共享，然后才能发布拓扑。 
   
 10. 在“指定 Web 服务 URL”页上，您必须决定是否需要覆盖内部 Web 服务池基 URL。 此覆盖的原因与负载平衡有关。 可通过简单的 DNS 负载平衡来对基本 SIP 流量进行负载平衡。 但是，HTTP/S Web 服务网络流量则必需使用受支持的硬件或软件负载平衡解决方案。 支持的负载平衡器，请参阅[for Business 的 Skype 的基础结构](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。 在此示例中，我们使用面向 SIP 流量的 DNS 负载平衡和支持的软件负载平衡解决方案。 由于我们通过这种方式来划分流量，我们需要覆盖内部 Web 服务池 FQDN。 或者，如果我们拥有上层负载平衡器并通过它来发送所有流量（而非使用面向 SIP 流量的 DNS 负载平衡），我们就不需要覆盖 Web 服务 URL。 
     
@@ -151,7 +151,7 @@ ms.locfileid: "23885030"
   
     - （可选）在“**外部基 URL**”中输入外部基 URL。您可以输入外部基 URL 以将其与内部域名分开来。例如，内部域是 contoso.local，但外部域名是 contoso.com。将使用 contoso.com 域名来定义 URL，因为其必须可以通过公共 DNS 进行解析。如果是反向代理，这也很重要。外部基 URL 域名应该与反向代理的 FQDN 域名相同。移动客户端上的即时消息和状态需要前端池的 HTTP 访问权限。
     
-     ![替代 Web 服务。](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
+      ![替代 Web 服务。](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
 11. 如果您在“**选择功能**”页上选择了“**会议**”，系统将要求您选择 Office Web Apps 服务器。单击“**新建**”以启动对话框。
     

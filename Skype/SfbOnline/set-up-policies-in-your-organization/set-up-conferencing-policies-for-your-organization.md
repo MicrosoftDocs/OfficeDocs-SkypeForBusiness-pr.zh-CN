@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 会议是 Skype for Business Online 的重要部分：通过会议，多组用户可以在线集中在一起来查看幻灯片和视频、共享应用、交换文件以及进行通信与协作。
-ms.openlocfilehash: c5db13adef479bdb3a8702a2782e2ccce19195d6
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7e53f03a78b1e018323540daa22f8b4af72fb0ac
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861196"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373114"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>为你的组织设置会议策略
 
@@ -62,72 +62,72 @@ ms.locfileid: "23861196"
     > [!NOTE]
     > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
 
-  ```      
+   ```      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
-  ```
+   ```
 
-  如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+   如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
     
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>在会议期间阻止文件传输和桌面共享
 
 - 若要创建这些设置的新策略，请运行：
-> 
-  ```
-  New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
-  ```
-  请参阅有关[-New-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) cmdlet 的详细信息。
+  > 
+  > ```
+  > New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
+  > ```
+  > 请参阅有关[-New-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) cmdlet 的详细信息。
     
 - 若要授予您的组织中的为所有用户创建新策略，请运行：
-> 
-  ```
-  Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
-  ```
-  请参阅[Grant-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet 的详细信息。
+  > 
+  > ```
+  > Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
+  > ```
+  > 请参阅[Grant-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet 的详细信息。
     
   如果您已经创建策略，可以使用[Set-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) cmdlet 可以更改现有的策略，并将[Grant-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet 将设置应用于您的用户。
   
 ### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>阻止录制的会议，并防止匿名会议参与者
 
 - 若要创建这些设置的新策略，请运行： 
-> 
-  ```
-  New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
-  ```
-请参阅有关[-New-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) cmdlet 的详细信息。
+  > 
+  > ```
+  > New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
+  > ```
+  > 请参阅有关[-New-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) cmdlet 的详细信息。
     
 - 若要授予 Amos 大理石您创建的新策略，请运行：
-> 
-  ```
-   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
-  ```
-请参阅[Grant-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet 的详细信息。
+  > 
+  > ```
+  >  Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
+  > ```
+  > 请参阅[Grant-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet 的详细信息。
     
 如果您已经创建策略，可以使用[Set-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) cmdlet 可以更改现有的策略，并将[Grant-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet 将设置应用于您的用户。
   
 ### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>阻止匿名参与者录制会议和外部用户保存会议内容
 
 - 若要创建这些设置的新策略，请运行：  
-> 
-  ```
-  New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
-  ```
-请参阅有关[-New-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) cmdlet 的详细信息。
+  > 
+  > ```
+  > New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
+  > ```
+  > 请参阅有关[-New-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) cmdlet 的详细信息。
     
 - 若要授予对所有用户在组织中都创建新策略，请运行：
     
 > 
-  ```
-  Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
-  ```
+>   ```
+>   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
+>   ```
 
 请参阅[Grant-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet 的详细信息。
     
 如果您已经创建策略，可以使用[Set-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) cmdlet 可以更改现有的策略，并将[Grant-csconferencingpolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet 将设置应用于您的用户。
   
-## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
+## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
 - Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     

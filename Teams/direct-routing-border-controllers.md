@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft 合作伙伴与选定的 SBC 供应商认证其 SBC 可用于直接路由。
-ms.openlocfilehash: 65b36e9b09b77c2752b1bc8dd25af8de9070b541
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 375c5ca46e8af7bb31ad50b8c55a4fa629b8d2dd
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014400"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371793"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -32,7 +32,7 @@ Microsoft 合作伙伴与选定的会话边界控制器 (SBC) 供应商认证其
 - 通过第三方实验室进行高强度测试；仅通过测试的设备获得认证。 
 - 在生产环境和预生产环境中对获得认证的所有设备运行日常测试。 在预生产环境中验证设备可保证云中新版本的直接路由代码可用于获得认证的 SBC。 
 - 与 SBC 供应商一起提供联合支持。
- 
+
 
   > [!NOTE]
   > Microsoft 仅在通过直接路由连接一个或多个获得认证的设备时支持电话系统。 Microsoft 保留在非认证设备通过直接路由连接电话系统的情况下拒绝提供支持的权利。 
@@ -42,21 +42,22 @@ Microsoft 合作伙伴与选定的会话边界控制器 (SBC) 供应商认证其
 [详细了解直接路由](https://aka.ms/dr)。 如果你对直接路由的 SBC 认证计划有任何疑问，请发送电子邮件至 drsbccertification@microsoft.com
 
 
-|供应商  |产品  |非媒体旁路  |媒体旁路  |软件版本|
-|---------|---------|---------|---------|---------|
-|[Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways)    |   Mediant 500 SBC       |    &#10004;     |    待定      |     7.20A.200.055     |
-|  |   Mediant 800 SBC       |    &#10004;      |     待定    |      7.20A.200.055    |
-|     |      Mediant 2600 SBC    |     &#10004;     |    待定     |    7.20A.200.055      |
-|     |   Mediant 4000 SBC       |     &#10004;     |    待定     |    7.20A.200.055      |
-|     |    Mediant 1000B SBC   |    &#10004;      |  待定       |    7.20A.200.055   |
-|     |   Virtual Edition SBC    |   &#10004;   |待定         |     7.20A.200.055     |
-|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    &#10004;      |   待定      |     V6.2     |
-|     |SBC 5210     |     &#10004;     |    待定     |    V6.2      |
-|     | SBC 5400     |    &#10004;  |    待定     |   V6.2    |
-|     |SBC 7000     |     &#10004;  |    待定     |    V6.2      |
-|     | SBC SWe  |   &#10004;    |    待定     |    V6.2      |
-|     |SBC 1000   |     &#10004;   |     待定    |    V7.0.2   |&#10004; 
-|     | SBC 2000    |     &#10004;   |    待定     |    V7.0.2      |
-|     | SBC SWe 精简版     |&#10004; | 待定 | V7.0.4
-|[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)     |    Think 365 SBC      |  &#10004;       |    待定     |   V1.4       |
-|     |         |         |         |         |
+|                                                       供应商                                                        |       产品       | 非媒体旁路 | 媒体旁路 | 软件版本 |
+|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|
+| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways) |   Mediant 500 SBC   |     &#10004;     |   待定    |  7.20A.200.055   |
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   待定    |  7.20A.200.055   |
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   待定    |  7.20A.200.055   |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   待定    |  7.20A.200.055   |
+|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   待定    |  7.20A.200.055   |
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   待定    |  7.20A.200.055   |
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   待定    |       V6.2       |
+|                                                                                                                     |      SBC 5210       |     &#10004;     |   待定    |       V6.2       |
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   待定    |       V6.2       |
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   待定    |       V6.2       |
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   待定    |       V6.2       |
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   待定    |      V7.0.2      |
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   待定    |      V7.0.2      |
+|                                                                                                                     |    SBC SWe 精简版     |     &#10004;     |   待定    |      V7.0.4      |
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   待定    |       V1.4       |
+|                                                                                                                     |                     |                  |              |                  |
+

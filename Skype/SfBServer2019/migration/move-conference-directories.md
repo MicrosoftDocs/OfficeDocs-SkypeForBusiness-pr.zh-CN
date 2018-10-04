@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 停用池之前必须执行以下过程的每个会议目录在旧池中。
-ms.openlocfilehash: 18cbada5833a5160fc1eb81560c56bc9fcff3e2a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b7526d8c3c032bf8b1f9052dce7da7e8a87b66b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028010"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372803"
 ---
 # <a name="move-conference-directories"></a>移动会议目录
 
@@ -25,35 +25,35 @@ ms.locfileid: "25028010"
     
 2. 若要获取组织中会议目录的标识，请运行以下命令：
     
-  ```
-  Get-CsConferenceDirectory
-  ```
+   ```
+   Get-CsConferenceDirectory
+   ```
 
     上述命令返回组织中的所有会议目录。 因此，您可能想要将结果限制为正在停用该池。 例如，如果您要停用具有完全限定域名 (FQDN) pool01.contoso.net 池，使用此命令返回的数据限制为会议目录从该池：
     
-  ```
-  Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
-  ```
+   ```
+   Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
+   ```
 
     该命令返回其中 ServiceID 属性包含 FQDN pool01.contoso.net 仅会议目录。
     
 3. 若要移动会议目录，请对池中运行的每个会议目录的以下命令：
     
-  ```
-  Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
-  ```
+   ```
+   Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
+   ```
 
     例如，若要移动会议目录 3，使用此命令中，指定为业务服务器 2019年池 Skype 作为 TargetPool:
     
-  ```
-  Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
-  ```
+   ```
+   Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
+   ```
 
     如果您想要移动的所有会议目录的池上，使用类似如下的命令：
     
-  ```
-  Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
-  ```
+   ```
+   Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
+   ```
 
 有关停用旧池全面的分步说明下载[卸载旧的 Microsoft and Removing Server Roles](https://go.microsoft.com/fwlink/p/?linkId=246227) 。
   

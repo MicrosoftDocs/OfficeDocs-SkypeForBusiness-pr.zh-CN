@@ -9,51 +9,52 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 摘要： 了解在 Skype 用于 Business Server 会议详细信息报告。
-ms.openlocfilehash: ebccaf35464c54eac6c1b8c5a2febf2ebea02b7e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ff8b7fa0643eedf7ddb38f908bc585af8bf7ac1f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971313"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372345"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>会议详细信息报告中 Skype 业务服务器
- 
+
 **摘要：** 了解用于在 Skype 业务服务器的会议详细信息报告。
-  
+
 会议详细信息报告提供有关参与会议的所有用户的详细信息。例如，您可以查看用户加入会议的日期和时间、用户离开会议的日期和时间以及用于将该用户连接到会议的端点的用户代理等信息。还可以查看用户在每个会议中的角色的信息（例如，演示者或与会者）。可能最重要的是，您可以快速查看哪些用户成功加入和完成会议，哪些用户无法成功加入和完成会议。
-  
+
 ## <a name="accessing-the-conference-detail-report"></a>访问会议详细信息报告
 
 可从以下报告中访问会议详细信息报告：
-  
+
 - [呼叫允许控制报告中的业务服务器 Skype](call-admission-control-report.md) （通过单击会议的详细信息指标）
-    
+
 - [Skype 业务服务器中的 Failure List Report](failure-list-report.md) （通过单击会议指标）
-    
+
 - [用户活动报告中的业务服务器 Skype](user-activity-report.md) （通过单击会议 URI 指标）
-    
+
 从会议详细信息报告可以通过单击诊断报告 （详细信息） 指标来访问[诊断报告中的业务服务器的 Skype](diagnostic-report.md) 。
-  
+
 ## <a name="filters"></a>筛选器
 
 无。您无法筛选会议详细信息报告。
-  
+
 ## <a name="metrics"></a>指标
 
 下表列出了会议详细信息报告的“会议信息”部分提供的信息。
-  
+
 **会议信息指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**说明**|
-|:-----|:-----|
-|**会议 URI** <br/> |分配给会议的 URI。例如：  <br/> sip:kmyer@litwareinc.com;gruu;opaque=app:conf:focus:id:drg2y8v4  <br/> |
-|**池 FQDN** <br/> |会话中涉及的注册器池或边缘服务器的完全限定域名。  <br/> |
-|**开始时间** <br/> |会议开始的日期和时间。  <br/> |
-|**组织者** <br/> |组织会议的用户的 SIP 地址。  <br/> |
-|**结束时间** <br/> |会议结束的日期和时间。  <br/> |
-   
+
+| **名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。                 | **说明**                                                                                                            |
+|:-------------------------|:---------------------------------------------------------------------------------------------------------------------------|
+| **会议 URI** <br/> | 分配给会议的 URI。例如：  <br/> sip:kmyer@litwareinc.com;gruu;opaque=app:conf:focus:id:drg2y8v4  <br/> |
+| **池 FQDN** <br/>      | 会话中涉及的注册器池或边缘服务器的完全限定域名。  <br/>                             |
+| **开始时间** <br/>     | 会议开始的日期和时间。  <br/>                                                                          |
+| **组织者** <br/>      | 组织会议的用户的 SIP 地址。  <br/>                                                               |
+| **结束时间** <br/>       | 会议结束的日期和时间。  <br/>                                                                            |
+
 下表列出了会议详细信息报告的“会议参与”部分提供的信息。
-  
+
 **会议参与指标**
 
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**说明**|
@@ -65,9 +66,9 @@ ms.locfileid: "20971313"
 |**离开时间** <br/> |参与者离开会议的日期和时间。  <br/> |
 |**用户代理** <br/> |参与者的终结点使用的软件的标识符。  <br/> |
 |**诊断报告** <br/> |提供诊断和故障排除信息。包括 SIP 响应代码、诊断标题、会议加入时间和失败会话的诊断 ID。  <br/> |
-   
+
 下表列出了会议详细信息报告的会议形式部分中提供的信息。
-  
+
 **会议形式指标**
 
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**说明**|
@@ -77,5 +78,5 @@ ms.locfileid: "20971313"
 |**离开时间** <br/> |参与者离开会议的日期和时间。  <br/> |
 |**会议服务器 URI** <br/> |会议中使用的会议服务器的 URI。  <br/> |
 |**诊断报告** <br/> |提供诊断和故障排除信息。包括 SIP 响应代码、诊断标题、会议加入时间和失败会话的诊断 ID。  <br/> |
-   
+
 

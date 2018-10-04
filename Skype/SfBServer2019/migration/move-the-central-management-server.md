@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 迁移到 Skype for Business Server 2019 之后，您需要将移动中央管理服务器到 Skype 业务 Server 2019 前端服务器或池，然后才能删除旧服务器。
-ms.openlocfilehash: 805b5c506fdda11bdc24144a0622e674e8ef281b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6a358b11d7d319d5dafbb82f4391cdc3d0ae1562
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030523"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373441"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>将旧的中央管理服务器移动到 Skype 进行业务服务器 2019
 
@@ -35,9 +35,9 @@ ms.locfileid: "25030523"
     
 3. 若要创建新的中央管理存储中的业务服务器 2019 SQL Server 数据库中的业务 Server Management Shell，Skype Skype 键入：
     
-  ```
-  Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
-  ```
+   ```
+   Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
+   ```
 
 4. 确认**启动** **Skype 的业务 Server 前端**服务的状态。
     
@@ -56,9 +56,9 @@ ms.locfileid: "25030523"
   
 5. 若要业务服务器 2019 Standard Edition 前端服务器，业务 Server Management Shell，Skype Skype 上创建新的中央管理存储键入： 
     
-  ```
-  Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
-  ```
+   ```
+   Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
+   ```
 
 6. 确认**启动** **Skype 的业务 Server 前端**服务的状态。
     
@@ -70,18 +70,18 @@ ms.locfileid: "25030523"
     
 3. 在业务 Server Management Shell 的 Skype，键入： 
     
-  ```
-  Enable-CsTopology
-  ```
+   ```
+   Enable-CsTopology
+   ```
 
     > [!CAUTION]
     > 如果`Enable-CsTopology`不成功，解决此问题，然后再继续完成阻止此命令。 如果**Enable-cstopology**不成功，移动将失败，它可能导致您的拓扑处于状态没有中央管理存储的位置。 
   
 4. 对于业务 Server 2019 前端服务器或前端池中的业务 Server Management Shell，Skype Skype 上键入： 
     
-  ```
-  Move-CsManagementServer
-  ```
+   ```
+   Move-CsManagementServer
+   ```
 
 5. 业务 Server Management Shell 的 Skype 显示服务器、 文件存储、 数据库存储和当前状态和已建议状态的服务连接点。 仔细阅读信息，并确认这是预期的源和目标。 键入**Y**以继续或**N**停止移动。 
     
@@ -99,9 +99,9 @@ ms.locfileid: "25030523"
     
 12. 若要确认新的中央管理存储出现，则在进行复制的业务 Server Management Shell，Skype 键入： 
     
-  ```
-  Get-CsManagementStoreReplicationStatus
-  ```
+    ```
+    Get-CsManagementStoreReplicationStatus
+    ```
 
     > [!NOTE]
     > 复制可能需要一些时间来更新当前所有副本。 
@@ -117,15 +117,15 @@ ms.locfileid: "25030523"
   
 3. 若要从旧安装中央管理服务器中删除中央管理存储数据库文件，请键入：
     
-  ```
-  Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
-  ```
+   ```
+   Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
+   ```
 
     例如：
     
-  ```
-  Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
-  ```
+   ```
+   Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
+   ```
 
     其中_\<FQDN SQL Server\>_ 是任一的传统安装在 Enterprise Edition 部署中或 Standard Edition 服务器的 FQDN 的后端服务器。 
     

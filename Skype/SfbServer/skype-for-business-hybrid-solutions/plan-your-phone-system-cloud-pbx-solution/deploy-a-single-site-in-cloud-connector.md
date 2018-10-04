@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: 了解有关在云连接器版本中部署单个 PSTN 站点的信息。
-ms.openlocfilehash: 5acd4dbb6a6d46e8d20bbec800bcce174ea87873
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 389829373d857d587a1fd904932f13a7a321deec
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885597"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375002"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>在云连接器中部署单个站点
  
@@ -54,21 +54,21 @@ Install-CcAppliance
     
 2. 仅在新添加的主机服务器上运行以下 cmdlet 以更新 Office 365 租户配置中的拓扑信息。如果要同时添加多个设备，请逐个在每个新添加的主机服务器上运行该 cmdlet：
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 3. 在每个主机服务器上运行以下 cmdlet 以更新现有设备中的拓扑。只在现有设备例上运行该 cmdlet。
     
-  ```
-  Publish-CcAppliance
-  ```
+   ```
+   Publish-CcAppliance
+   ```
 
 4. 只在新添加的主机服务器上运行以下 cmdlet。 请勿在现有设备上运行该 cmdlet。 如果要同时添加多个设备，请逐个在每个新添加的主机服务器上运行该 cmdlet。
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 > [!NOTE]
 > 如果将站点目录设置为本地文件夹路径，则需为此文件夹定义文件共享，并对新设备上的站点目录使用 UNC 路径。 可将第一个设备站点目录保留为本地路径，或对其进行修改以使用到同一文件夹的共享的 UNC 路径。 如果共享站点目录的位置发生变化，则需卸载再重新安装之前安装的所有设备。 > 重要说明： CceService 帐户和 CABackupFile 帐户的密码必须相同部署在网站的所有装置以便 appliance 可以访问的网站目录共享和网站目录中的加密的 CA 备份文件。 
@@ -79,14 +79,14 @@ Install-CcAppliance
   
 1. 只在要从站点中删除的主机服务器上运行以下 cmdlet 以更新 Office 365 租户配置中的拓扑信息。
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 2. 只在要从中删除设备的所有虚拟机的主机服务器上运行以下 cmdlet。
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 

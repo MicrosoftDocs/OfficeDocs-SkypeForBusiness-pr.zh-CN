@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 摘要： 阅读本主题可了解如何在 Skype for Business Server 中配置电话拨入式会议。
-ms.openlocfilehash: a0ac408fbdf221d565f17c2d714d7aa1765d5097
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3c4460761fadd1dee523eb15949da8fc1bf69f14
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20982004"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372400"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>在 Skype for Business Server 中配置电话拨入式会议
  
@@ -137,7 +137,7 @@ ms.locfileid: "20982004"
 
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2.  打开 Skype 业务 Server Control Panel。
+2. 打开 Skype 业务 Server Control Panel。
     
 3. 在左侧导航栏中，单击“会议”****，然后单击“拨入访问号码”****。
     
@@ -147,8 +147,8 @@ ms.locfileid: "20982004"
     
    - 单击列表中的一个拨入访问号码，再单击“编辑”****，然后单击“显示详细信息”****。
     
-    > [!NOTE]
-    > 使用搜索字段搜索拨入访问号码列表中某一列的内容时，可能得不到预期结果。此时，可以按照列的关注度对列表进行排序，以识别要查看或更改的拨入访问号码。 
+     > [!NOTE]
+     > 使用搜索字段搜索拨入访问号码列表中某一列的内容时，可能得不到预期结果。此时，可以按照列的关注度对列表进行排序，以识别要查看或更改的拨入访问号码。 
   
 5. 在“显示号码”**** 中，键入公用电话交换网 (PSTN) 电话用户为加入会议而拨打的电话号码。该号码会显示在会议邀请和电话拨入式会议设置网页中。
     
@@ -163,8 +163,8 @@ ms.locfileid: "20982004"
     
    - 在文本框中，为此电话拨入式会议访问号码键入唯一的 SIP URI。 此 SIP URI 是显示在各种的位置，包括但不是限于呼叫通知消息和早期版本的 Lync 客户端。
     
-    > [!NOTE]
-    > 同一 SIP URI 不能由其他电话拨入式会议访问号码重复使用。创建访问号码之后，将不能修改 SIP URI。更改 SIP URI 的唯一方法是删除并重新创建访问号码。 
+     > [!NOTE]
+     > 同一 SIP URI 不能由其他电话拨入式会议访问号码重复使用。创建访问号码之后，将不能修改 SIP URI。更改 SIP URI 的唯一方法是删除并重新创建访问号码。 
   
    - 在下拉列表框中，单击支持此拨入访问号码的会议助理应用程序的域。
     

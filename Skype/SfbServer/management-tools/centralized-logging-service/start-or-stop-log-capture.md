@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 摘要： 了解如何启动或停止正在 Skype 的集中日志记录服务日志捕获会话的业务服务器 2015年。
-ms.openlocfilehash: dee3a9cd1b5feaf241795de6595f755b3f321409
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: c0b65fddcb5036cf41866ce79d82ae0bc49a79e3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570155"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373762"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中启动或停止捕获 CLS 日志
  
@@ -36,15 +36,15 @@ The Centralized Logging Service 提供了两种方式发出命令。 主题大�
     
 2. 键入以下命令 the Centralized Logging Service 中开始日志记录方案：
     
-  ```
-  Start-CsClsLogging -Scenario <name of scenario>
-  ```
+   ```
+   Start-CsClsLogging -Scenario <name of scenario>
+   ```
 
     例如，要启动 **AlwaysOn** 方案，可键入：
     
-  ```
-  Start-CsClsLogging -Scenario AlwaysOn
-  ```
+   ```
+   Start-CsClsLogging -Scenario AlwaysOn
+   ```
 
     > [!NOTE]
     > AlwaysOn 方案没有默认持续时间。 除非您明确将其停止使用**Stop-csclslogging** cmdlet，将运行此方案。 有关详细信息，请参阅[Stop-csclslogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps)。 对于所有其他方案，默认持续时间为 4 小时。 
@@ -58,9 +58,9 @@ The Centralized Logging Service 提供了两种方式发出命令。 主题大�
   
 4. 要开始另一个方案，请使用**Start-csclslogging** cmdlet 与其他方案的名称运行，如下所示 （例如，方案**身份验证**）：
     
-  ```
-  Start-CsClsLogging -Scenario Authentication
-  ```
+   ```
+   Start-CsClsLogging -Scenario Authentication
+   ```
 
     > [!IMPORTANT]
     > 在任意时间可以在任何给定计算机上运行总共两个方案。如果命令是全局范围的，则部署中的所有计算机将运行方案。要启动第三个方案，必须在您要运行新方案的计算机、池、站点或全局范围上停止日志记录。如果已启动全局范围，则可以在一个或多个计算机和池上停止一种方案或同时停止两种方案的日志记录。 
@@ -71,11 +71,11 @@ The Centralized Logging Service 提供了两种方式发出命令。 主题大�
     
 2. 也可以使用其他参数来管理日志记录命令。 您可以使用-持续时间调整的方案以运行的时间长度。 您还可以定义的计算机的计算机的完全限定域名 (Fqdn)，以逗号分隔列表，或者-池，以逗号分隔列表要运行登录的池的 Fqdn。
     
-    您在池中"pool01.contoso.net"开始 userreplicator 的日志记录会话。 您还定义日志记录会话持续时间为 8 小时。 为此，请键入：
+    您为池“pool01.contoso.net”上的 UserReplicator 方案启动了日志记录会话。 您还定义日志记录会话持续时间为 8 小时。 为此，请键入：
     
-  ```
-  Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
-  ```
+   ```
+   Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
+   ```
 
     此方案成功执行后将返回类似如下的结果：
     
@@ -111,26 +111,26 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. 查询 the Centralized Logging Service 以找出哪些方案当前正在运行通过键入以下命令：
     
-  ```
-  Show-CsClsLogging
-  ```
+   ```
+   Show-CsClsLogging
+   ```
 
-  ![调用 Show-CsCl 后的 Windows PowerShell 控制台](../../media/Ops_Show_Stop_CsClsLogging.jpg)
+   ![调用 Show-CsCl 后的 Windows PowerShell 控制台](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
-  Show-CsClsLogging 的结果是正在运行的方案以及它们所运行的范围的摘要。 有关详细信息，请参阅[Show-csclslogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps)。
+   Show-CsClsLogging 的结果是正在运行的方案以及它们所运行的范围的摘要。 有关详细信息，请参阅[Show-csclslogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps)。
     
 3. 若要使用特定方案停止当前正在运行的日志记录会话，请键入：
     
-  ```
-  Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
-  ```
-  例如：
+   ```
+   Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
+   ```
+   例如：
     
-  ```
-  Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
-  ```
+   ```
+   Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
+   ```
 
-  此命令将在 pool01.contoso.net 上使用 UserReplicatior 方案停止日志记录。
+   此命令将在 pool01.contoso.net 上使用 UserReplicatior 方案停止日志记录。
     
     > [!NOTE]
     > 在此日志记录会话期间使用 UserReplicator 方案创建的日志不会被删除。 您仍然可以使用 Search-CsClsLogging 命令对日志记录执行搜索。 有关详细信息，请参阅[Search-csclslogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps)。 
@@ -139,4 +139,4 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ## <a name="see-also"></a>另请参阅
 <a name="stop"> </a>
 
-[中的业务 2015 Skype 的集中日志记录服务](centralized-logging-service.md)
+[Skype for Business 2015 中的集中日志记录服务](centralized-logging-service.md)

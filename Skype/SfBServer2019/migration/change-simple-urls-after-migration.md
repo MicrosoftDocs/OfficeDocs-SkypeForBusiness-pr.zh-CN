@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype 业务服务器支持简单 Url。
-ms.openlocfilehash: a67e9a8ef46b7809fdc8ce8b4eaadc2ca4720966
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 71935aab09de1598b355d2a7b27dfa02fd169216
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028829"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374988"
 ---
 # <a name="change-simple-urls-after-migration"></a>迁移后更改简单 Url
 
@@ -41,8 +41,8 @@ Skype 业务 server 支持三种简单 Url:
     
 2. 选择**简单 Url**的左窗格，然后下方**管理访问 URL**框中输入所需的管理访问权限 Skype 业务 Server Control Panel 的简单 URL，然后单击**确定**。
     
-    > [!TIP]
-    > 建议尽可能使用最简单的 URL 作为管理 URL。 简单的选项是https://admin。_\<域\>_。 
+   > [!TIP]
+   > 建议尽可能使用最简单的 URL 作为管理 URL。 简单的选项是https://admin。<em>\<域\></em>。 
   
 ## <a name="see-also"></a>另请参阅
 

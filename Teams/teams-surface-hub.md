@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62eb0e6fbae734a83fd96f89203db0547938e9d3
-ms.sourcegitcommit: 7f721d89559831de2cf1495feb0fc57b22b77d78
+ms.openlocfilehash: aca03693a7abea6e26f175cc49f0142894749160
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018583"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372178"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>曲面集线器部署的 Microsoft 团队
 ======================================
@@ -65,7 +65,7 @@ ms.locfileid: "25018583"
 5. 单击**添加或删除设置包**。 
 6. 单击**添加包**。
 7. 从下拉列表菜单中选择**可移动媒体**选项。 
-8. 添加适当的**TeamsRTMMode*.ppkg**包以前复制到 usb 闪存盘。 
+8. 添加适当的<strong>TeamsRTMMode*.ppkg</strong>包以前复制到 usb 闪存盘。 
 9. 重新启动面集线器设备。 
 10. 设备重新启动后，您应该能够从开始屏幕中启动团队应用程序并从日历加入会议。 
 

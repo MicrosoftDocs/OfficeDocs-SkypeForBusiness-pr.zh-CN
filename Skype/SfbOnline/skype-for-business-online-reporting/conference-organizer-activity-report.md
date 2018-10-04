@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 5e2d38c3576cd39769fd3b150ad905f37421e9bc
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: ac3c65a19d80e5218e121c1cf582753e5f5eecc5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854258"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372588"
 ---
 # <a name="conference-organizer-activity-report"></a>会议组织者活动报告
 
@@ -80,22 +80,22 @@ ms.locfileid: "23854258"
 ![7 号](../images/sfbcallout7.png)<br/>你可以通过单击图例上的项目筛选你在图表上看到的系列。例如，在" **活动**"图表中，通过单击或点击" **即时消息**"、" **音频/视频**"、" **应用程序共享**"、" **Web**"、" **拨入/拨出（第三方）**"和" **拨入/拨出 (Microsoft)**"，可以只查看与各项相关的信息。更改此选择不会更改网格表中的信息。
 ***
 ![8 号](../images/sfbcallout8.png)<br/>该表格显示了每个用户组织的会议活动的细分。它将显示分配了 Skype for Business 的所有用户及其组织的会议。你可以向该表格中添加其他列。 
-*    " **用户名**"是用户的名称。 
-*    " **已删除**"表示用户的许可证已删除。<br/><br/>
-    > [!NOTE]
-    > 只要他或她已授权的过程选定的时间段中的某个时间，已删除的用户的活动仍会显示在报表中。 The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
+* " **用户名**"是用户的名称。 
+* " **已删除**"表示用户的许可证已删除。<br/><br/>
+  > [!NOTE]
+  > 只要他或她已授权的过程选定的时间段中的某个时间，已删除的用户的活动仍会显示在报表中。 The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
      
-*    **Deleted date** is the date on which the user's license was removed. 
-*    " **上次活动日期(UTC)**"是该用户的上次活动日期 (UTC)。 
-*    " **即时消息**"显示组织的即时消息会议的总数。 
-*    " **音频/视频**"显示组织的音频/视频会议的总数。
-*    " **应用程序共享**"显示组织的应用程序共享会议的总数。 
-*    " **Web**"显示组织的 Web 会议的总数。 
-*    **电话拨入/出-第三方**显示电话拨入/出音频会议的组织使用第三方音频会议提供商的总数。 
-*    **电话拨入/出 Microsoft**显示了组织的电话拨入/出音频会议的总数。 
-*    " **音频/视频分钟数**"显示组织使用音频/视频的会议时使用的总分钟数。 
-*    **电话拨入式 Microsoft 分钟**显示为在组织的 Microsoft 用作音频会议提供商的会议中使用的电话拨入式分钟总数。 
-*    **电话拨出式 Microsoft 分钟**显示了组织的 Microsoft 用作音频会议提供商的会议中使用的电话拨出式分钟总数。 
+* **Deleted date** is the date on which the user's license was removed. 
+* " **上次活动日期(UTC)**"是该用户的上次活动日期 (UTC)。 
+* " **即时消息**"显示组织的即时消息会议的总数。 
+* " **音频/视频**"显示组织的音频/视频会议的总数。
+* " **应用程序共享**"显示组织的应用程序共享会议的总数。 
+* " **Web**"显示组织的 Web 会议的总数。 
+* **电话拨入/出-第三方**显示电话拨入/出音频会议的组织使用第三方音频会议提供商的总数。 
+* **电话拨入/出 Microsoft**显示了组织的电话拨入/出音频会议的总数。 
+* " **音频/视频分钟数**"显示组织使用音频/视频的会议时使用的总分钟数。 
+* **电话拨入式 Microsoft 分钟**显示为在组织的 Microsoft 用作音频会议提供商的会议中使用的电话拨入式分钟总数。 
+* **电话拨出式 Microsoft 分钟**显示了组织的 Microsoft 用作音频会议提供商的会议中使用的电话拨出式分钟总数。 
 
 如果贵组织的策略会阻止您查看报告可识别用户信息在哪里，您可以更改所有这些报告的隐私设置。 签出**如何隐藏用户级别的详细信息？** [Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)中的部分。
 ***

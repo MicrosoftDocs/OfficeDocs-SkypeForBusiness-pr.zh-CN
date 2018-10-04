@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 摘要： 准备，并在您的环境中实现禁用 TLS 1.0 和 1.1。
-ms.openlocfilehash: e1e345da45c60637a8c6cf20061f8b0274a1474d
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: e220a6615ef259e5ccba5b47a9e0f992289e6af4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347454"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373069"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>为业务 Server 2015 禁用 TLS 1.0/1.1 中 Skype
 
@@ -487,9 +487,9 @@ Windows Registry Editor Version 5.00
 
 1. [安装 Business Server Skype 的先决条件](../../deploy/install/install-prerequisites.md)  
 2. 2. 安装.NET 4.7: 
-    - **注意：** 首次引入.NET 4.7 Skype 中的支持的业务服务器 2015 CU5 + (6.0.9319.281)。 因此，下面的后续步骤中我们将更新核心组件之前主安装。
-    - 下载： https://www.microsoft.com/en-us/download/details.aspx?id=55167。
-    - 参考：[软件的应安装之前业务服务器 2015年部署 Skype](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)
+      - **注意：** 首次引入.NET 4.7 Skype 中的支持的业务服务器 2015 CU5 + (6.0.9319.281)。 因此，下面的后续步骤中我们将更新核心组件之前主安装。
+      - 下载： https://www.microsoft.com/en-us/download/details.aspx?id=55167。
+      - 参考：[软件的应安装之前业务服务器 2015年部署 Skype](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)
 3. 将复制的 ISO 文件/文件夹： 
     - 与业务服务器 2015 ISO 附加的 Skype，打开作为附加的驱动器的根目录 (例如： d:\)在文件资源管理器。
     - 将所有文件夹和文件都复制到本地磁盘上的文件夹 (例如： C:\SkypeForBusiness2015ISO)。

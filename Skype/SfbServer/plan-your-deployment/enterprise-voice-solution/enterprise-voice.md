@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: 企业语音规划业务服务器中 Skype 的基础知识，包括网站、 区域、 网络站点间的链接和估计语音用法流量。
-ms.openlocfilehash: 3c5cad1b37b4f3bfe3fe73cad1d185b0116a68a0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: afff1ccffbc6e967f3b18b0746d29db9085fe82c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885335"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373704"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>规划业务服务器的 Skype 中的企业语音
  
@@ -41,9 +41,9 @@ ms.locfileid: "23885335"
 Microsoft Lync Server 2013、 规划工具使用以下任一指标来估计每个站点和支持该流量所需的端口数的用户通信。
   
 > 对于**低流量**（每个用户每小时一个 PSTN 呼叫），每个端口对应 15 个用户。
-    
+> 
 > 对于**中等流量**（每个用户每小时 2 个 PSTN 呼叫），每个端口对应 10 个用户。
-    
+> 
 > 对于**高流量**（每个用户每小时 3 个或更多 PSTN 呼叫），每个端口对应 5 个用户。
     
 反过来的端口数确定的中介服务器和网关都需要的数目。 大多数组织考虑部署大小在 2 端口到 960 端口公用电话交换网 (pstn) 网关。 （有更大的网关，但是这些主要由电话服务提供程序。）

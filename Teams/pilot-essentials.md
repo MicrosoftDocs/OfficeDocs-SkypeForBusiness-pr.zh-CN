@@ -14,12 +14,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e6ed0f5a93f2ba3ea46c88bbdf0fa93ebb843f9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fc88190df03ed7087013c196ac32279c88c58801
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016874"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372537"
 ---
 ![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
 
@@ -42,7 +42,7 @@ ms.locfileid: "25016874"
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>如何使用试，告知项目方向？</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>下一步|<ul><li>使用以下指南来设计和执行您正式试验。</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>使用以下指南来设计和执行您正式试验。</li></ul>|
 
 > [!Tip]
 > 使用示例[试验资源](https://aka.ms/UpgradeSuccessKit)以帮助设计您的通信，测试计划和反馈调查。
@@ -101,11 +101,11 @@ ms.locfileid: "25016874"
 
 如果您结果表明：
 
--   **实现您试点目标 （例如，用户满意度和网络质量）**，您应该已准备好继续与您的推出的下一个阶段。 根据您的目标，这可能是项目的下列选项之一：
-   -   扩展到其他参与者的试生产
-   -   [启用您的组织的部分或全部团队旁 Skype for Business （**群岛**模式）](https://aka.ms/SkypeToTeams-SetCoexistence)
-   -   [将用户从 for Business 的 Skype 向工作组 （**仅团队**模式） 升级为部分或全部您的组织](https://aka.ms/SkypeToTeams-SetCoexistence)
--   **您的试生产未实现的输出您在需要 （例如，用户满意度和网络质量）**，需要进行适当的调整到您的计划和重新访问您的试生产的时间。
+- **实现您试点目标 （例如，用户满意度和网络质量）**，您应该已准备好继续与您的推出的下一个阶段。 根据您的目标，这可能是项目的下列选项之一：
+  -   扩展到其他参与者的试生产
+  -   [启用您的组织的部分或全部团队旁 Skype for Business （**群岛**模式）](https://aka.ms/SkypeToTeams-SetCoexistence)
+  -   [将用户从 for Business 的 Skype 向工作组 （**仅团队**模式） 升级为部分或全部您的组织](https://aka.ms/SkypeToTeams-SetCoexistence)
+- **您的试生产未实现的输出您在需要 （例如，用户满意度和网络质量）**，需要进行适当的调整到您的计划和重新访问您的试生产的时间。
 
 > [!Tip]
 > 登记试点参与者作为对等方拥护者可帮助宣传和向工作组的板载新用户。 对等方拥护者可以轻松地与其他用户共享其自己的体验和经验教训，并为其同事提供支持和指南。 了解有关[拥护者](https://go.microsoft.com/fwlink/?linkid=859068)和如何在您自己的推出使用它们。 

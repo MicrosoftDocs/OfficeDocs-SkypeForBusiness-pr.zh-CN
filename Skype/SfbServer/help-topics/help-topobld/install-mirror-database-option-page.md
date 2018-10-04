@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: 您可以通过以下定义配置镜像数据库设置：
-ms.openlocfilehash: aadb4ddc61603a827ff1e9f2bc1c2d332ad8d7db
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d87231b21aea86b4d9cee15cd1cc182d6610e0ce
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974590"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375991"
 ---
 # <a name="install-mirror-database-option-page"></a>安装镜像数据库选项页
  
@@ -28,11 +28,11 @@ ms.locfileid: "20974590"
     > [!NOTE]
     > 主要的 SQL Server 实例 （命名的实例或默认实例） 必须具有此处定义的文件共享的写入权限。 镜像 SQL Server 实例 （命名的实例或默认实例） 必须具有读取访问相同的文件共享的权限。 
   
- **确定** 接受更改并通过对话框提交更改。
+  **确定** 接受更改并通过对话框提交更改。
   
- **取消** 放弃更改并关闭对话框。
+  **取消** 放弃更改并关闭对话框。
   
- **帮助** 显示此帮助屏幕。
+  **帮助** 显示此帮助屏幕。
   
 ## <a name="see-also"></a>另请参阅
 

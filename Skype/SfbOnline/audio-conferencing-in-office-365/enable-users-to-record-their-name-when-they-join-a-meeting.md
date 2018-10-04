@@ -20,21 +20,21 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 了解如何启用或禁用是否他们业务 online Skype 中加入会议时，用户可以记录其名称。
-ms.openlocfilehash: 0e330d5efdd7325a8db48aa679d6ecbb9264c345
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7b28a038edf9b812532283ecaa766b86e2bc8de8
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884718"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371755"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>使用户能够记录其姓名，当用户加入会议 Skype 中的业务联机时
 
 > [!Note]
 > 如果您希望允许用户在 Teams 中记录他们的姓名，请参阅[  允许用户在加入 Microsoft Teams 中的会议时记录他们的姓名](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams) 。
 
-当您要设置 Office 365 中的音频会议时，您将收到电话号码和所谓音频会议桥。 会议网桥可以包含一个或多个电话号码，这些号码可以是专用或共享电话号码。
+When you are setting up Audio Conferencing in Office 365, you will receive phone numbers and what is called an audio conferencing bridge. A conferencing bridge can contain one or more phone numbers that can be a dedicated or shared phone number.
   
-会议网桥负责应答使用电话拨入会议的用户的呼叫。 会议桥的自动助理，从接听呼叫者使用语音提示，然后，具体取决于其设置，可以播放通知，向呼叫者提出记录其姓名，并对会议组织者 PIN 安全设置。 旋转中心点分发给会议组织者，以允许其开始会议。 然而，你也可以将其设置为无需 PIN 即可启动会议。
+The conferencing bridge answers a call for a user who is dialing in to a meeting using a phone. The conferencing bridge answers the caller with voice prompts from an auto attendant, and then, depending on their settings, can play notifications, ask callers to record their name, and set up the PIN security for meeting organizers. PINs are given to meeting organizers to allow them to start a meeting. However, you can set it up so a PIN isn't required to start a meeting.
 
 ## <a name="set-whether-callers-should-record-their-name"></a>设置呼叫者是否应录制其姓名
     
@@ -42,9 +42,9 @@ ms.locfileid: "23884718"
     
 2. 在 **会议的与会体验**中，请参阅标记为**打开启用会议加入和退出通知**的复选框。
     
-  - **选择**呼叫者将需要记录其姓名，才能进入会议。 默认情况下，此选项处于选中状态。
+   - **Selected** Callers will be asked to record their name before they enter the meeting. This is selected by default.
     
-  - **清除**呼叫者不会要求记录其姓名，才能进入会议。
+   - **清除**呼叫者不会要求记录其姓名，才能进入会议。
     
 3. 完成更改后，单击" **保存**"。
     
@@ -55,13 +55,13 @@ ms.locfileid: "23884718"
 
 - 为节省时间或自动执行此操作，可以使用 [Set-CsOnlineDialInConferencingTenantSettings ](https://go.microsoft.com/fwlink/?LinkId=715757) cmdlet。
     
--  Windows PowerShell 是所有有关管理用户和允许哪些用户执行操作。 使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell is all about managing users and what users are allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
   - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过只使用 Office 365 管理中心中的，如时要进行设置更改多个用户一次。 请在以下主题中了解这些优点： 
+- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics: 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

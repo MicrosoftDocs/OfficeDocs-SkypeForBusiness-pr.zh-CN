@@ -1,5 +1,5 @@
 ---
-title: 资源调配压力和性能的情况下运行负载的拓扑
+title: 设置要在压力和性能的情况下运行负载的拓扑
 ms.author: heidip
 author: microsoftheidi
 ms.date: 12/17/2015
@@ -9,45 +9,46 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
-description: 若要允许用户成功地运行压力和性能工具的业务服务器 2015年拓扑的更改或设置 Skype。
-ms.openlocfilehash: 825dd56a7f2cb343eddd8cbed7e811cdc5154b9c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 若要允许用户成功运行压力和性能工具业务服务器 2015年拓扑更改或资源调配 Skype。
+ms.openlocfilehash: 6ff08a3b99f4dc1f05b56c2a1fa86733ccf4f852
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373776"
 ---
-# <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>资源调配压力和性能的情况下运行负载的拓扑
+# <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>设置要在压力和性能的情况下运行负载的拓扑
  
-若要允许用户成功地运行压力和性能工具的业务服务器 2015年拓扑的更改或设置 Skype。
+若要允许用户成功运行压力和性能工具业务服务器 2015年拓扑更改或资源调配 Skype。
   
-这取决于您的现有设置和部署的 Skype 业务服务器 2015年的配置，可能需要在您的环境中进行一些更改。 下面是列出的那些更改：
+根据您现有的设置和配置的业务服务器 2015 Skype 的部署，您可能需要在您的环境中进行某些更改。 以下是这些更改的列表：
   
-1. Windows PowerShell 执行策略设置为无限制。 如果你不知道它是什么设置为当前，您可以为业务服务器管理外壳程序打开 Skype 和运行此命令：
+1. 设置为无限制的 Windows PowerShell 执行策略。 如果您不确定它是什么设置为当前，您可以打开 Skype 的业务 Server 命令行管理程序，并运行此命令：
     
-  ```
-  Get-ExecutionPolicy
-  ```
+   ```
+   Get-ExecutionPolicy
+   ```
 
-  如果未返回的值不受限制，您需要运行这下一步：
+   如果不返回的值不受限制，您将需要运行此下一步：
     
-  ```
-  Set-ExecutionPolicy -Unrestricted
-  ```
+   ```
+   Set-ExecutionPolicy -Unrestricted
+   ```
 
-2. 有效地配置 Skype 业务服务器，您需要：
+2. 若要有效地配置 Skype 业务服务器，您将需要：
     
-    - 熟悉您 Skype 业务服务器 2015年拓扑 （例如计算机名称，服务实例、 站点名称和策略）。
+    - 熟悉您 Skype （如计算机名称、 服务实例、 站点名称和策略） 的业务服务器 2015年拓扑。
     
-    - 分配的部分创建组，用户如响应组查寻组 (例如，SIP Uri)。
+    - 分配到组中，创建的用户的一些如响应组智能寻线 (例如，SIP Uri)。
     
 3. 若要从命令行运行脚本，您可以使用：
     
-  ```
-  PowerShell.exe -file <path to the file>
-  ```
+   ```
+   PowerShell.exe -file <path to the file>
+   ```
 
-4. 通常情况下，已经从该包中运行脚本后，生成跟踪都存储在一个文件的同一路径中运行该脚本的位置。 没有命名的格式以及\<scriptname\>$h$m$s.txt。 因此如果您运行 ArchivingPolicy.ps1 在下午 12:15 时，您将获得名为 ArchivingPolicy121500.txt 日志文件。
+4. 通常情况下，已从此数据包中运行的脚本后，生成跟踪将存储在文件中的相同路径中运行该脚本。 没有也命名格式\<scriptname\>$h$m$s.txt。 因此，如果您在下午 12:15 运行 ArchivingPolicy.ps1，您将获取名为 ArchivingPolicy121500.txt 的日志文件。
     
-5. 同时我们为您的服务器配置中提供了这些示例，这取决于您要同时修改您的配置和恢复，或者将其滑运行负载测试完后。
+5. 虽然我们为您提供了服务器配置这些示例，这取决于您同时修改您的配置和还原或已完成运行负载测试后滚动它。
     
 

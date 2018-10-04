@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: 规划基于位置的业务 Server 企业语音路由的 Skype 中的会议，包括咨询呼叫传输。
-ms.openlocfilehash: 97ceaeb4f7e6e24cdffe3f1fd8c737de2e429e17
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d786f8def8cf88e29bbac2a908163a5a92d61d47
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888358"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373240"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>基于位置的业务服务器路由中 Skype 的会议
 
@@ -47,6 +47,7 @@ ms.locfileid: "23888358"
 下表中总结了这些会议基于位置的路由限制。
 
 | |
+
 |**任意时间点处于会议中的用户**|**允许加入会议的用户**|**不允许加入会议的用户**|
 |:-----|:-----|:-----|
 |Skype 业务 VoIP 客户端用户从一个网络站点  <br/> |Skype 业务 VoIP 客户端用户从同一个网络站点  <br/> Skype 业务 VoIP 客户端用户从不同的网络站点  <br/> Skype 业务 VoIP 客户端用户从未知的网络站点  <br/> 联盟的 Skype 业务 VoIP 客户端用户  <br/> 从 PSTN 终结点加入的用户  <br/> |无  <br/> |
@@ -141,7 +142,7 @@ Get-csserverapplication-Identity Service: Registrar:<Pool FQDN>中此 cmdlet，\
 
 您的会议应用程序基于位置的路由找到正确的优先级值后，键入以下 cmdlet 为家庭用户启用基于位置的路由每个前端池或 Standard Edition Server:
 
-New-csserverapplication-Identity Service: Registrar:<Pool FQDN>/LBRouting-优先级<Application Priority>-启用 $true-关键 $true Urihttps://www.microsoft.com/LCS/LBRoutingFor示例：
+New-csserverapplication-Identity Service: Registrar:<Pool FQDN>/LBRouting-优先级<Application Priority>-启用 $true-关键 $true Uri<https://www.microsoft.com/LCS/LBRoutingFor>示例：
 
 New-csserverapplication-Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting-优先级 3-启用的 $true-关键 $true Urihttps://www.microsoft.com/LCS/LBRoutingAfter使用此 cmdlet，重新启动所有前端服务器池或 Standard Edition Server 位置已启用的会议应用程序的基于位置的路由。
 

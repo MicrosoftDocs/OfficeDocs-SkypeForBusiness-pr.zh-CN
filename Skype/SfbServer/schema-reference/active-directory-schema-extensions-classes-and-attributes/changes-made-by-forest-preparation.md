@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: 本节介绍的全局设置和对象以及通用服务组和管理组林准备步骤创建的。
-ms.openlocfilehash: 9ceece01d6f5184eb58f0906dd61540c2dcf2084
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 6c031bf06310c6aba2ee18f532e95438bd495936
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244335"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373533"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Skype 中为 Business Server 的林准备所做的更改
 
@@ -111,13 +111,14 @@ ms.locfileid: "23244335"
 
 **林准备创建的公共 Ace**
 
-|**ACE**|**RTCUniversalGlobalReadOnlyGroup**|
-|:-----|:-----|
-|读取根域系统容器 （非继承）**\*** <br/> |X  <br/> |
-|读取配置的 DisplaySpecifiers 容器 （非继承）  <br/> |X  <br/> |
+
+| **ACE**                                                                 | **RTCUniversalGlobalReadOnlyGroup** |
+|:------------------------------------------------------------------------|:------------------------------------|
+| 读取根域系统容器 （非继承）**\\**\* <br/>        | X  <br/>                            |
+| 读取配置的 DisplaySpecifiers 容器 （非继承）  <br/> | X  <br/>                            |
 
 > [!NOTE]
-> **\*** 不继承的 Ace 不会授予对这些容器下的子对象的访问。 继承的 Ace 将授予对这些容器下的子对象的访问。
+> <strong>\\</strong>* 不继承的 Ace 不会授予对这些容器下的子对象的访问。 继承的 Ace 将授予对这些容器下的子对象的访问。
 
 在配置容器下配置命名上下文中，林准备将执行以下任务：
 

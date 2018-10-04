@@ -20,19 +20,19 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解 Skype 在 pin 或默认会议数等设置发生更改时如何启用或禁用向用户发送的电子邮件。 '
-ms.openlocfilehash: fc6a248974dba22c18cce00246b3b9312f294229
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a9100de01fc835916af54d08b84dbd03a06ec1d6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883974"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370870"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Skype for Business Online 中的音频会议设置更改时启用或禁用发送电子邮件
 
 > [!Note]
 > 如果您想要启用或禁用中的 Microsoft 团队发送电子邮件，请参阅 [Microsoft Teams 中的音频会议设置发生更改时启用或禁用发送电子邮件](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams)。
 
-|||UNTRANSLATED_CONTENT_START|||Users are automatically notified by email when they are enabled for Audio Conferencing.|||UNTRANSLATED_CONTENT_END||| 有时可能，但是，当您想要减少的电子邮件发送到 Skype 业务用户的数量。 在这种情况下，您可以禁用发送电子邮件。
+Users are automatically notified by email when they are enabled for Audio Conferencing. There may be times, however, when you want to reduce the number of emails that are sent to Skype for Business users. In such cases, you can disable sending email.
   
 如果您禁用发送电子邮件，就不会音频会议电子邮件发送给用户，当用户处于启用或禁用音频会议以及会议 ID 和默认会议电话号码的更改时重置其 PIN，包括电子邮件.
   
@@ -68,10 +68,10 @@ ms.locfileid: "23883974"
     
 2. 在 **Microsoft 网桥的设置** 页上，选中或清除 **自动向用户发送电子邮件，如果他们的音频会议设置更改**　。
     
-3. 单击" **保存**"。
+3. 单击“**保存**”。
     
     > [!TIP]
-    > 你也可以通过电子邮件向用户发送音频会议的设置， 方法是转到**音频会议** > **用户**，选择用户，并单击 **通过电子邮件发送会议信息**。  如果执行此操作时，将仅包含会议 ID 和会议电话号码，但不是 PIN 发送电子邮件。  有关详细信息，请参阅[发送对其进行音频会议信息的用户电子邮件](send-an-email-to-a-user-with-their-dial-in-information.md)。
+    > You can also send email to a user with the audio conferencing settings by going to **Audio conferencing** > **Users**, selecting the user, and clicking **Send conference info via email**.  If you do this, an email will be sent that only includes conference ID and conference phone number, but not the PIN.  See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md) for more information.
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -88,7 +88,7 @@ ms.locfileid: "23883974"
     
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
 
-- 禁用自动电子邮件后，您可以仍手动触发发送电子邮件与业务管理中心的使用 Skype 的会议 ID 和电话号码。 但是，如果执行此操作时，将不会包含 PIN。 如果您要重置 PIN 的音频会议和发送电子邮件被禁用，您需要向用户发送中另一种方法。
+- When automatic emails are disabled, you can still manually trigger sending an email with the conference ID and phone number using the Skype for Business admin center. However, if you do this, the PIN won't be included. If you want to reset the audio conferencing PIN and sending emails is disabled, you will need to send it to the user in another way.
     
 - 可以使用 Skype for Business 管理中心或 Windows PowerShell 禁用向用户发送电子邮件。
     
@@ -104,13 +104,13 @@ ms.locfileid: "23883974"
     
   - [Get-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
     
--  Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过只使用 Office 365 管理中心中的，如时要进行设置更改多个用户一次。 请在以下主题中了解这些优点： 
+- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics: 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

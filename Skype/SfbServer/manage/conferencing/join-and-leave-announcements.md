@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 摘要： 了解如何管理会议加入和离开通知中 Skype 业务服务器。
-ms.openlocfilehash: 84c9b5f9457d16570e58b119329d6b8fcefa4205
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 33c20319142608f38451a547687bc1bc9eae47d1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008489"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371586"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>管理会议加入和离开通知中 Skype 业务服务器
  
@@ -39,20 +39,20 @@ ms.locfileid: "21008489"
     
 3. 在命令提示符下，运行以下内容：
     
-  ```
-  Get-CsDialinConferencingConfiguration
-  ```
+   ```
+   Get-CsDialinConferencingConfiguration
+   ```
 
 此 cmdlet 检索有关参与者是否需要记录其姓名，加入会议时和 Skype 业务服务器的参与者加入或离开电话拨入式会议时的响应方式的信息。
     
 4. 在命令提示符下，运行以下内容：
     
-  ```
-  Set-CsDialinConferencingConfiguration -Identity <identity of dial-in conferencing settings to be modified>
-[-EnableNameRecording <$true | $false>]
-[-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
-[-EntryExitAnnouncementsType <UseNames | ToneOnly]
-  ```
+   ```
+   Set-CsDialinConferencingConfiguration -Identity <identity of dial-in conferencing settings to be modified>
+   [-EnableNameRecording <$true | $false>]
+   [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
+   [-EntryExitAnnouncementsType <UseNames | ToneOnly]
+   ```
 
 在以下示例中，在 site 作用域为 Redmond 配置设置。通知已打开，但在参与者加入会议时系统未提示他们说出姓名。参与者进入或离开会议时将播放提示音：
   

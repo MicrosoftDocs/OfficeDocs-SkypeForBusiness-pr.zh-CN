@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
-ms.openlocfilehash: 8983c52691eec7945f431be3efdce56be025ee6b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5e8648b94950750e6f750044ba4033fdf637c6f4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261404"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373668"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>未分配的电话号码： 创建新的或编辑现有的
 
@@ -48,7 +48,7 @@ ms.locfileid: "23261404"
 
   - **通知**选择要为此未分配号码范围播放的通知。
 
--  如果选择**Exchange UM** **通知**服务：
+- 如果选择**Exchange UM** **通知**服务：
 
   - **自动助理电话号码**选择 Exchange UM 自动助理的电话号码。
 

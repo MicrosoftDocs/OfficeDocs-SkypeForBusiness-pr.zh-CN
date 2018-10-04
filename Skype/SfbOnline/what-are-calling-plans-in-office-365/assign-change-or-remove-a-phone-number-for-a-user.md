@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 了解如何给 Skype for Business 用户分配、更改或删除工作电话号码，以便外部业务和客户能呼入。
-ms.openlocfilehash: 57ffe302c784ff441d124017035c8031c1c737c1
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 40c067657132781d29b8f20a3738d6d28ce36331
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347021"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374655"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>为用户分配、更改或删除电话号码
 
@@ -50,7 +50,7 @@ ms.locfileid: "25347021"
 若要了解如何获取 Office 365 中的通话套餐以及它们的价格，请参阅 [Skype for Business 和 Microsoft Teams 加载项授权](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
   
 > [!NOTE]
-> 一种方法查看用户是否已分配的许可证是通过转至**业务管理中心的 Skype** > **语音** > **语音用户**，然后选择用户。 如果已分配许可证，则将**已分配的许可证**下注明。 您还可以使用 Office 365 管理中心。 
+> One way to see whether a user has a license assigned is by going to **Skype for Business admin center** > **Voice** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center. 
   
  ## <a name="assign-a-phone-number-to-a-user"></a>为用户分配电话号码
  
@@ -62,7 +62,7 @@ ms.locfileid: "25347021"
     
 3. 在左侧导航窗格中，单击**语音** > **语音用户**。
    > [!NOTE]
- 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
+   > 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
  
    
     
@@ -80,7 +80,7 @@ ms.locfileid: "25347021"
 8. 在选择电话号码和紧急位置之后，请单击" **保存**"。
     
     > [!NOTE]
-    > Office 365 和 Skype 业务 online 之间的延迟，因为它可能花费达 24 小时的用户启用。 如果之后 24 小时，如果不正确分配电话号码，请[对业务产品-管理员技术联系人支持](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 我们随时为你提供帮助！ 
+    > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
   
 
 

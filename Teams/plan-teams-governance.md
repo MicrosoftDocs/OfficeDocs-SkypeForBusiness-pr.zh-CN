@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29d362771b970c7c654a5bddcd51f2f6c0be257f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8529adfafcac9e00bf97dc358944d83f31cd7722
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017708"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371855"
 ---
 # <a name="plan-for-governance-in-teams"></a>团队中的治理规划
 
@@ -29,24 +29,26 @@ ms.locfileid: "25017708"
 您的组织可能要求您实现严格控制如何命名和分类团队、 是否可以作为工作组成员添加来宾和谁可以创建团队。 您可以使用 Azure Active Directory (Azure AD) 配置每个区域。 
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>您的组织是否需要为团队的特定命名约定？</li><li>团队创建者是否需要能够向工作组分配特定于组织的分类？</li><li>您是否需要限制将来宾添加到每个团队基于团队的功能？</li><li>贵组织需要限制哪些人可以创建团队？</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|后续步骤|<ul><li>文档的团队创建、 命名、 分类和来宾访问组织的要求。</li><li>按计划实现这些要求作为您的团队推出的一部分。</li><li>通信和发布您的策略以向团队用户告知他们可以预期的行为。</li></ul>|
 
 > [!TIP]
-下表用于捕获贵组织的要求。
-|功能 |详细信息 |Azure AD Premium <br> 所需的许可证 |决策 |
-|---------|---------|---------|---------|
-|团队命名策略 | 使用基于前缀后缀、 自定义已阻止单词。 |P1 |TBD |
-|团队分类 |向工作组分配分类。 |P1 |TBD |
-|团队来宾访问 |允许或阻止来宾添加到团队。 |否 |TBD |
-|团队创建 |限制向管理员团队创建。 |否 |TBD|
-|团队创建 |限制团队创建安全组成员。 |P1 |TBD|
-
+> 下表用于捕获贵组织的要求。
+> 
+> |功能 |详细信息 |Azure AD Premium <br> 所需的许可证 |决策 |
+> |---------|---------|---------|---------|
+> |团队命名策略 | 使用基于前缀后缀、 自定义已阻止单词。 |P1 |TBD |
+> |团队分类 |向工作组分配分类。 |P1 |TBD |
+> |团队来宾访问 |允许或阻止来宾添加到团队。 |否 |TBD |
+> |团队创建 |限制向管理员团队创建。 |否 |TBD|
+> |团队创建 |限制团队创建安全组成员。 |P1 |TBD|
+> 
 > [!NOTE]
 > 可帮助您规划提前，[了解更多有关这些策略设置和哪些所需的许可证](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
-
+> 
 > [!NOTE]
 > 限制组和团队创建会降低用户工作效率，因为许多 Office 365 服务需要服务的函数创建的组。 有关其他信息，导航到，展开[为什么控制谁创建 Office 365 组](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)。
 
@@ -72,13 +74,14 @@ ms.locfileid: "25017708"
 | ![](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>文档团队过期、 数据保留和存档的组织的要求。</li><li>按计划实现这些要求您的团队推出的一部分。</li><li>通信和发布您的策略以向团队用户告知他们可以预期的行为。</li></ul>|
 
 > [!TIP]
-下表用于捕获贵组织的要求。
-|功能 |详细信息 |Azure AD Premium <br>所需的许可证 |决策 |
-|---------|---------|---------|---------|
-|过期策略 |通过设置过期策略管理 Office 365 组的生命周期。 |P1 |TBD|
-|保留策略 |保留还是删除在特定时间段内的数据 （团队通道消息和频道文件），通过为团队的保留策略设置中的安全性和合规性中心。 **注意**： 使用此功能要求许可或以上的 Office 365 企业版 E3。 |否 |TBD |
-|存档和还原 |存档团队不再处于活动状态时，但您希望保留其周围的引用或将来重新激活。 |否 |TBD |
-
+> 下表用于捕获贵组织的要求。
+> 
+> |功能 |详细信息 |Azure AD Premium <br>所需的许可证 |决策 |
+> |---------|---------|---------|---------|
+> |过期策略 |通过设置过期策略管理 Office 365 组的生命周期。 |P1 |TBD|
+> |保留策略 |保留还是删除在特定时间段内的数据 （团队通道消息和频道文件），通过为团队的保留策略设置中的安全性和合规性中心。 **注意**： 使用此功能要求许可或以上的 Office 365 企业版 E3。 |否 |TBD |
+> |存档和还原 |存档团队不再处于活动状态时，但您希望保留其周围的引用或将来重新激活。 |否 |TBD |
+> 
 > [!Note]
 > 组到期时间是 Azure AD Premium 功能。 能够使用此功能，您的租户必须为配置的设置和受影响的组的成员的管理员具有订阅 Azure AD Premium 和许可证。
 

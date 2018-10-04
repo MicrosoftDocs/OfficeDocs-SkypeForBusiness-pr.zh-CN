@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 摘要： 了解如何在 Skype for Business Server 2015 配置外接程序 Persistent Chat Server 聊天室。
-ms.openlocfilehash: f96f000c4ac3a78f6ca3ba4972f295e45128ce50
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4fe6c5fa15118949bd559ddb280ddf56fe41b360
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967731"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372697"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置持久聊天室的加载项
  
@@ -46,9 +46,9 @@ ms.locfileid: "20967731"
     
 6. 在“**新建外接程序**”中，执行下列操作：
     
-  - 在“**名称**”中，指定新外接程序的名称。
+   - 在“**名称**”中，指定新外接程序的名称。
     
-  - 在“**URL**”中，指定与外接程序关联的 URL。URL 将限制为 http 和 https 协议。
+   - 在“**URL**”中，指定与外接程序关联的 URL。URL 将限制为 http 和 https 协议。
     
 7. 单击“**提交**”。
     

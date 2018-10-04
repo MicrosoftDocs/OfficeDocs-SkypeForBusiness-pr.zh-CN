@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7269c38957df9d43295f6568a2369c34e94da93
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8877819704b438d26f981fb6816c56eb23ef9521
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013070"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371339"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -63,6 +63,7 @@ ms.locfileid: "25013070"
 确认您的组织有资格后要获取音频会议服务、 编译的列表用户位置或办公室，其中将实现音频会议服务，基于可用国家和地区的列表。
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>确定哪些用户位置或办公地点将实施音频会议服务。</li></ul>|
@@ -70,13 +71,14 @@ ms.locfileid: "25013070"
 
 > [!TIP]
 > 下面是音频会议网站启用列表模板的示例：
->|办公地点   |位置 |PSTN 会议服务  |
->|---------|---------|---------|
->|Epping 路一号|澳大利亚|音频会议|
->|数码港道 100 号|香港 SAR|旧的 PSTN 会议|
->|滨海林荫道一号|新加坡|音频会议|
->|伦敦桥大街 32 号|英国|音频会议|
->|39 quai du Président Roosevelt|法国|音频会议|
+> 
+> |办公地点   |位置 |PSTN 会议服务  |
+> |---------|---------|---------|
+> |Epping 路一号|澳大利亚|音频会议|
+> |数码港道 100 号|香港 SAR|旧的 PSTN 会议|
+> |滨海林荫道一号|新加坡|音频会议|
+> |伦敦桥大街 32 号|英国|音频会议|
+> |39 quai du Président Roosevelt|法国|音频会议|
 
 <!--ENDOFSECTION-->
 
@@ -98,6 +100,7 @@ ms.locfileid: "25013070"
 您可以了解有关 Communications 字幕式[此处](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)。
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>如果贵组织尚未已购买所需的音频会议许可，决定是否通过逐步升级现有 Office 365 订阅或获取音频会议加载项许可证，您将能够获得音频会议许可证。</li><li>决定是否 Communications 字幕式音频会议实现所必需的。 如果是，确定要购买的初始资金数额。 在适用的情况下，确定触发数额和自动充值数额。</li></ul>|
@@ -105,29 +108,26 @@ ms.locfileid: "25013070"
 
 > [!TIP]
 > 可以使用下面的示例来记录要进行音频会议用户的许可证分配列表。
->|用户  |办公地点  |Office 365 许可证  |
->|---------|---------|---------|
->|Adele Vance|Epping 路一号|Office 365 E5|
->|Alex Wilber|Epping 路一号|Office 365 E3、音频会议外接程序|
->|Ben Walters|Epping 路一号|Office 365 E3、音频会议外接程序|
->|Christie Cline|滨海林荫道一号|Office 365 E3、音频会议外接程序|
->|Debra Berger|滨海林荫道一号|Office 365 E5|
->|Lee Gu|滨海林荫道一号|Office 365 E5|
->|Emily Braun|伦敦桥大街 32 号|Office 365 E5|
->|Lidia Holloway|伦敦桥大街 32 号|Office 365 E5|
->|港 Lahr|伦敦桥大街 32 号|Office 365 E5|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3、音频会议外接程序|
->|Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5|
->|Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3、音频会议外接程序|
+> 
+> |用户  |办公地点  |Office 365 许可证  |
+> |---------|---------|---------|
+> |Adele Vance|Epping 路一号|Office 365 E5|
+> |Alex Wilber|Epping 路一号|Office 365 E3、音频会议外接程序|
+> |Ben Walters|Epping 路一号|Office 365 E3、音频会议外接程序|
+> |Christie Cline|滨海林荫道一号|Office 365 E3、音频会议外接程序|
+> |Debra Berger|滨海林荫道一号|Office 365 E5|
+> |Lee Gu|滨海林荫道一号|Office 365 E5|
+> |Emily Braun|伦敦桥大街 32 号|Office 365 E5|
+> |Lidia Holloway|伦敦桥大街 32 号|Office 365 E5|
+> |港 Lahr|伦敦桥大街 32 号|Office 365 E5|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3、音频会议外接程序|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5|
+> |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3、音频会议外接程序|
 
 <br>
-> [!TIP]
-> 可以按如下所示记录通信点数计划数量：
->|         |         |
->|---------|---------|
->|初始数额|$ 1,000|
->|触发数额|$400|
->|自动充值数额|TBA|
+&gt; [!TIP]
+&gt;规划数字您 Communications 字幕式可为以下记录： &gt;|        |        |&gt;|---------|---------|
+&gt;|初始量 | 1000 |&gt;|触发量 | $ 400 |&gt;|自动充电量 |待发布 |
 
 <!--ENDOFSECTION-->
 
@@ -149,7 +149,7 @@ Office 365 中的音频会议服务包括：
 如果您必须将现有的会议桥接电话号码传输到音频会议服务 — 假定它们满足特定国家/地区的要求，您可以向 Microsoft 传输这些现有的会议桥接电话号码。
 
 > [!NOTE]
-将电话号码传输到 Microsoft 的复杂性而异极大地国家 / 地区、 运营商、 电路所涉及的数量和其他许多因素。 使用您当前的提供程序来进行调查长，这是要花费以帮助确保早期启动过程足以满足您的时间线。
+> 将电话号码传输到 Microsoft 的复杂性而异极大地国家 / 地区、 运营商、 电路所涉及的数量和其他许多因素。 使用您当前的提供程序来进行调查长，这是要花费以帮助确保早期启动过程足以满足您的时间线。
 
 若要详细了解会议桥接电话号码，请查看以下文章：
 
@@ -162,6 +162,7 @@ Office 365 中的音频会议服务包括：
 -   [将电话号码转移到 Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>确定您的组织是否需要专用的会议桥接电话号码。</li><li>决定如何将用户位置或办公室获得的专用的会议桥接电话号码范围为音频会议实施 （即，获取从 Microsoft 或传输的现有电话号码）。</li><li>如果您选择从 Microsoft 获取它们，决定要使用的方法 （表单提交或自动） 用户位置或办公室中的作用域为音频会议实施。</li><li>确定要为每个专用的会议桥接电话号码设置的语言首选项。</li><li>确定租户默认会议桥接电话号码。</li></ul>|
@@ -171,12 +172,13 @@ Office 365 中的音频会议服务包括：
 
 > [!TIP]
 > 下面是获取会议网桥详细信息的模板示例：
->|办公地点   |桥接号码获取和桥接类型 |桥接号码  |桥接语言|
->|---------|---------|---------|---------|
->|Epping 路一号|获取新的专用|TBA|英语（澳大利亚）|
->|滨海林荫道一号|获取新的共享|TBA|英语（美国）、中文（简体，中国）|
->|伦敦桥大街 32 号|转网现有的专用|+44 20 7946 0001|英语（英国）|
->|39 quai du Président Roosevelt|获取新的专用|TBA|法语（法国）、英语（美国）|
+> 
+> |办公地点   |桥接号码获取和桥接类型 |桥接号码  |桥接语言|
+> |---------|---------|---------|---------|
+> |Epping 路一号|获取新的专用|TBA|英语（澳大利亚）|
+> |滨海林荫道一号|获取新的共享|TBA|英语（美国）、中文（简体，中国）|
+> |伦敦桥大街 32 号|转网现有的专用|+44 20 7946 0001|英语（英国）|
+> |39 quai du Président Roosevelt|获取新的专用|TBA|法语（法国）、英语（美国）|
 
 <!--ENDOFSECTION-->
 
@@ -212,6 +214,7 @@ Office 365 中的音频会议服务包括：
 使用这些控件，您可以决定是否会议组织者可以通过其组织的会议提供免费的会议桥接电话号码和是否参与者可以从电话拨出其组织的会议。 从完全避免拨出，只允许拨出国内号码，对允许拨出国内和国际号码范围的电话拨出式控制级别。
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>确定您的组织是否需要参加和退出通知和 — 如果是这样 — 实现的通知的类型 （音、 电话号码或录制的名称）。</li><li>确定满足组织的安全要求的音频会议 PIN 长度。</li><li>确定您的组织是否要控制与音频会议服务相关的用户通信。</li><li>确定要分配给每个会议组织者的会议桥接电话号码。</li><li>确定某些会议组织者是否需要为他们的会议使用免费的会议桥接电话号码。</li><li>决定是否需要某些会议组织者允许未经身份验证的呼叫者开始会议。</li><li>确定某些会议组织者是否需要拨出式会议进行控制。</li></ul>|
@@ -219,31 +222,20 @@ Office 365 中的音频会议服务包括：
 
 > [!TIP]
 > 如以下示例所示，可以记录您的会议桥设置。
->|         |         |
->|---------|---------|
->|启用会议进入和退出通知|启用|
->|进入/退出通知类型|声音|
->|要求呼叫方在加入会议之前记录其名称|禁用|
->|PIN 长度|5|
->|如果用户的拨入设置发生变化，自动向其发送电子邮件|禁用|
+> 
+> |         |         |
+> |---------|---------|
+> |启用会议进入和退出通知|启用|
+> |进入/退出通知类型|声音|
+> |要求呼叫方在加入会议之前记录其名称|禁用|
+> |PIN 长度|5|
+> |如果用户的拨入设置发生变化，自动向其发送电子邮件|禁用|
 
 <br>
-> [!TIP]
-> 可以使用下面的示例来记录要进行音频会议用户的会议桥设置工作分配列表。
->|用户  |办公地点  |默认收费电话号码  |默认免费电话号码  |允许免费电话  |未经身份验证的呼叫方绕过休息室  |会议拨出  |
->|---------|---------|---------|---------|---------|---------|---------|
->|Adele Vance|Epping 路一号|TBA|TBA|是|启用|国际和国内|
->|Alex Wilber|Epping 路一号|TBA|TBA|否|禁用|不允许|
->|Ben Walters|Epping 路一号|TBA|TBA|否|禁用|不允许|
->|Christie Cline|滨海林荫道一号|TBA|TBA|是|禁用|国内|
->|Debra Berger|滨海林荫道一号|TBA|TBA|是|启用|国内|
->|Lee Gu|滨海林荫道一号|TBA|TBA|是|启用|国内|
->|Emily Braun|伦敦桥大街 32 号|+44 20 7946 0001|TBA|是|启用|不允许|
->|Lidia Holloway|伦敦桥大街 32 号|+44 20 7946 0001|TBA|是|禁用|不允许|
->|港 Lahr|伦敦桥大街 32 号|+44 20 7946 0001|TBA|是|禁用|不允许|
->|Marcel Beauchamp|39 quai du Président Roosevelt|TBA|TBA|否|禁用|国内|
->|Rachelle Cormier|39 quai du Président Roosevelt|TBA|TBA|是|启用|国际和国内|
->|Isabell Potvin|39 quai du Président Roosevelt|TBA|TBA|否|禁用|国内|
+&gt; [!TIP]
+&gt;可以使用下面的示例来记录要进行音频会议用户的会议桥设置工作分配列表。
+&gt;|用户 |Office |默认收费电话号码 |默认免费电话号码 |允许免费 |未经身份验证的呼叫者绕过会议厅 |会议拨出 |&gt;|---------|---------|---------|---------|---------|---------|---------|
+&gt;|Adele Vance |一个 Epping 旅途 |待发布 |待发布 |是 |启用 |国际和国内 |&gt;|Alex Wilber |一个 Epping 旅途 |待发布 |待发布 |不 |禁用 |不允许 |&gt;|Ben Walters |一个 Epping 旅途 |待发布 |待发布 |不 |禁用 |不允许 |&gt;|很快 Cline |一个船坞 Boulevard |待发布 |待发布 |是 |禁用 |国内 |&gt;|徐高阳 |一个船坞 Boulevard |待发布 |待发布 |是 |启用 |国内 |&gt;|李 Gu |一个船坞 Boulevard |待发布 |待发布 |是 |启用 |国内 |&gt;|Emily Braun | 32 伦敦桥街道 | + 44 20 7946 0001 |待发布 |是 |启用 |不允许 |&gt;|Lidia Holloway | 32 伦敦桥街道 | + 44 20 7946 0001 |待发布 |是 |禁用 |不允许 |&gt;|港 Lahr | 32 伦敦桥街道 | + 44 20 7946 0001 |待发布 |是 |禁用 |不允许 |&gt;|Marcel Beauchamp | 39 quai 是 Président Roosevelt |待发布 |待发布 |不 |禁用 |国内 |&gt;|Rachelle Cormier | 39 quai 是 Président Roosevelt |待发布 |待发布 |是 |启用 |国际和国内 |&gt;|Isabell Potvin | 39 quai 是 Président Roosevelt |待发布 |待发布 |不 |禁用 |国内 |
 
 <!--ENDOFSECTION-->
 
@@ -270,6 +262,7 @@ Microsoft 云语音解决方案中的电话号码的两种类型包括：
 有关您可以获取的电话号码的总计的详细信息，请参阅[您可以获取多少个电话号码？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>确定用户位置或办公室，其中将从 Microsoft 获取新电话号码。</li><li>决定从 Microsoft 获得的电话号码的类型。</li></ul>|
@@ -292,6 +285,7 @@ Microsoft 云语音解决方案中的电话号码的两种类型包括：
 -   [关于转移电话号码的常见问题](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>确定用户位置或现有的电话号码将位置传输到 Microsoft 办事处。</li><li>决定要转移到 Microsoft 的电话号码的类型。</li></ul>|
@@ -323,6 +317,7 @@ Office 365 的电话系统功能中的拨号计划是转换规范化规则的一
 若要了解有关拨号计划的详细信息，请参阅[拨号计划是什么？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>确定您的组织是否需要自定义的拨号计划 （业务要求、 采用要求等）。</li><li>如果适用，确定租户拨号计划（租户-全局或租户-用户）的范围以支持自定义拨号计划的要求。</li><li>如果适用，决定租户拨号计划，您将创建为支持用户位置或办公室云语音实现范围内。</li><li>如果适用，决定哪些用户需要自定义的拨号计划和每个用户分配的租户拨号计划。</li></ul>|
@@ -330,36 +325,24 @@ Office 365 的电话系统功能中的拨号计划是转换规范化规则的一
 
 > [!TIP]
 > 适用于您的项目时，您可以使用以下模板文档的租户拨号计划配置。
->|租户拨号计划名称<br>_说明_  |规范化规则名称<br>_说明_  |模式<br>转换<br>IsInternalExtension  |
->|---------|---------|---------|
->|**AU-NSW-NorthRyde-OER**<br>_新南威尔士北莱德 Epping 路一号，AU 拨号计划_|**AU-NSW-NorthRyde-OER-Internal**<br>_澳大利亚新南威尔士北莱德 Epping 路一号办公地点的内部号码 (x7000 - x7999)_|^(7\d{3})$<br>+6125550$1<br>True|
->||**AU-NSW-Local**<br>_澳大利亚新南威尔士的本地号码规范化_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
->||**AU-TollFree**<br>_澳大利亚的免费电话号码规范化_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
->||**AU-Service**<br>_澳大利亚的服务号码规范化_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
->|**SG-Singapore-OMB**<br>_新加坡 OMB，SG 拨号计划_|**SG-OMB-Internal**<br>_内部号码 （"x 8999 x8000 â €） OMB office，新加坡_|^(8\d{3})$<br>+656888$1<br>True|
->||**SG-TollFree**<br>_新加坡的免费电话号码规范化_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
->||**SG-Service**<br>_新加坡的服务号码规范化_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
->|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux，法国拨号计划_|**FR-39qdPR-Internal**<br>_内部号码 （"x 7999 x7000 â €） 39 quai 是 Président Roosevelt office，Issy-les-Moulineaux，法国_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_法国的免费电话号码规范化_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
->||**FR-Service**<br>_法国的服务号码规范化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+> 
+> |租户拨号计划名称<br>_说明_  |规范化规则名称<br>_说明_  |模式<br>转换<br>IsInternalExtension  |
+> |---------|---------|---------|
+> |**AU-NSW-NorthRyde-OER**<br>_新南威尔士北莱德 Epping 路一号，AU 拨号计划_|**AU-NSW-NorthRyde-OER-Internal**<br>_澳大利亚新南威尔士北莱德 Epping 路一号办公地点的内部号码 (x7000 - x7999)_|^(7\d{3})$<br>+6125550$1<br>True|
+> ||**AU-NSW-Local**<br>_澳大利亚新南威尔士的本地号码规范化_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
+> ||**AU-TollFree**<br>_澳大利亚的免费电话号码规范化_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
+> ||**AU-Service**<br>_澳大利亚的服务号码规范化_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
+> |**SG-Singapore-OMB**<br>_新加坡 OMB，SG 拨号计划_|**SG-OMB-Internal**<br>_内部号码 （"x 8999 x8000 â €） OMB office，新加坡_|^(8\d{3})$<br>+656888$1<br>True|
+> ||**SG-TollFree**<br>_新加坡的免费电话号码规范化_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
+> ||**SG-Service**<br>_新加坡的服务号码规范化_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux，法国拨号计划_|**FR-39qdPR-Internal**<br>_内部号码 （"x 7999 x7000 â €） 39 quai 是 Président Roosevelt office，Issy-les-Moulineaux，法国_|^(7\d{3})$<br>+3319999$1<br>True|
+> ||**FR-TollFree**<br>_法国的免费电话号码规范化_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+> ||**FR-Service**<br>_法国的服务号码规范化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
-> [!TIP]
-> 可以利用下面的示例模板来记录拨号计划分配以支持你的项目：
->|用户  |办公地点  |拨号计划类型  |拨号计划名称  |
->|---------|---------|---------|---------|
->|Adele Vance|Epping 路一号|租户拨号计划|AU-NSW-NorthRyde-OER|
->|Alex Wilber|Epping 路一号|租户拨号计划|AU-NSW-NorthRyde-OER|
->|Ben Walters|Epping 路一号|租户拨号计划|AU-NSW-NorthRyde-OER|
->|Christie Cline|滨海林荫道一号|租户拨号计划|SG-Singapore-OMB|
->|Debra Berger|滨海林荫道一号|租户拨号计划|SG-Singapore-OMB|
->|Lee Gu|滨海林荫道一号|租户拨号计划|SG-Singapore-OMB|
->|Emily Braun|伦敦桥大街 32 号|服务拨号计划|不适用|
->|Lidia Holloway|伦敦桥大街 32 号|服务拨号计划|不适用|
->|港 Lahr|伦敦桥大街 32 号|服务拨号计划|不适用|
->|Marcel Beauchamp|39 quai du Président Roosevelt|租户拨号计划|FR-Paris-Issy-30qdPR|
->|Rachelle Cormier|39 quai du Président Roosevelt|租户拨号计划|FR-Paris-Issy-30qdPR|
->|Isabell Potvin|39 quai du Président Roosevelt|租户拨号计划|FR-Paris-Issy-30qdPR|
+&gt; [!TIP]
+&gt;下面的示例模板可以利用文档来支持您的项目的拨号计划分配到： &gt;|用户 |Office |拨号计划类型 |拨号计划名称 |&gt;|---------|---------|---------|---------|
+&gt;|Adele Vance |一个 Epping 旅途 |租户拨号计划 |AU NSW NorthRyde OER |&gt;|Alex Wilber |一个 Epping 旅途 |租户拨号计划 |AU NSW NorthRyde OER |&gt;|Ben Walters |一个 Epping 旅途 |租户拨号计划 |AU NSW NorthRyde OER |&gt;|很快 Cline |一个船坞 Boulevard |租户拨号计划 |SG-新加坡 OMB |&gt;|徐高阳 |一个船坞 Boulevard |租户拨号计划 |SG-新加坡 OMB |&gt;|李 Gu |一个船坞 Boulevard |租户拨号计划 |SG-新加坡 OMB |&gt;|Emily Braun | 32 伦敦桥街道 |服务拨号计划 |N/A |&gt;|Lidia Holloway | 32 伦敦桥街道 |服务拨号计划 |N/A |&gt;|港 Lahr | 32 伦敦桥街道 |服务拨号计划 |N/A |&gt;|Marcel Beauchamp | 39 quai 是 Président Roosevelt |租户拨号计划 |FR 巴黎 Issy 30qdPR |&gt;|Rachelle Cormier | 39 quai 是 Président Roosevelt |租户拨号计划 |FR 巴黎 Issy 30qdPR |&gt;|Isabell Potvin | 39 quai 是 Président Roosevelt |租户拨号计划 |FR 巴黎 Issy 30qdPR |
 
 <!--ENDOFSECTION-->
 

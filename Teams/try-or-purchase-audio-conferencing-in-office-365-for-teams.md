@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
-ms.openlocfilehash: efe5ab7189a5012b27b12838844325240b5891f5
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 8a5484aee9e8a5a9b8a3e1a0c0cf3e3f264b17d1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347550"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371972"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>尝试或购买 Microsoft 团队的 Office 365 中的音频会议
 
@@ -46,9 +46,9 @@ ms.locfileid: "25347550"
     
 2. 获取**音频会议**许可证。 如果想要：
 
-  - 在购买前**试用**，可以注册包括音频会议在内的 Office 365 企业版 E5 免费试用。 请参阅 [Office 365 企业版 E5 试用](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)。
+   - 在购买前**试用**，可以注册包括音频会议在内的 Office 365 企业版 E5 免费试用。 请参阅 [Office 365 企业版 E5 试用](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)。
 
-  - **购买**，请参阅[业务和 Microsoft 团队授权加载项的 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
+   - **购买**，请参阅[业务和 Microsoft 团队授权加载项的 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
 
 3. [如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc)分配给贵组织中打算安排或主持会议的人。
 

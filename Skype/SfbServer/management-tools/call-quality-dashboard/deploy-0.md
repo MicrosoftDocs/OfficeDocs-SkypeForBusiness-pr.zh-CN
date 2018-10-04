@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 摘要： 了解呼叫质量仪表板的部署过程。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
-ms.openlocfilehash: 860792fc39deed592f0d4369018cf85dd7de4a74
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 31e1dc8d5508c7d3d31de0ec3af0b9c8c06a6c40
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988984"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372639"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>为业务 Server 2015 Skype 部署呼叫质量仪表板
  
@@ -78,15 +78,15 @@ QoE 存档的安装过程包括创建 QoE 存档数据库、 部署将源的 QoE
     
    - **使用多个分区：** 默认值设置为"多个分区"，这需要商业智能版或企业版的 SQL Server。 对于 Standard edition，请选择"单个分区"选项。 请注意，是否使用单个分区多维数据集处理性能可能会受到影响。
     
-    > [!NOTE]
-    > 安装完成后，使用多个分区选项所选内容不能更改。 若要更改它，功能需要第一个多维数据集卸载并重新安装使用控制面板中的"更改"选项。 
+     > [!NOTE]
+     > 安装完成后，使用多个分区选项所选内容不能更改。 若要更改它，功能需要第一个多维数据集卸载并重新安装使用控制面板中的"更改"选项。 
   
    - **分区文件目录：** QoE 存档数据库的分区的放置位置的路径。 这应该是驱动器上 (HDD3 建议的硬件配置中) 的操作系统驱动器和 SQL 数据库日志文件驱动器分开。 请注意，因为安装中修复的文件名称，以避免任何潜在冲突，建议使用的任何文件的空白目录。
     
    - **SQL 代理作业用户的用户名&amp;密码：** 域服务帐户名和密码 （遮盖） 将用于运行"QoE 存档数据"SQL Server 代理作业 （这将运行提取数据从 QoE 指标 DB 到存档 DB，因此此帐户必须具有对 QoE 指标 DB 的读取权限的存储的过程的步骤 指示在帐户部分。 此帐户也需要有登录名的 QoE 存档 SQL Server 实例中）。
     
-    > [!NOTE]
-    > 如 NT SERVICE\MSSQLSERVER 下运行的 SQL Server 实例的帐户必须具有对上述安装成功的目录访问/权限。 有关详细信息，请参阅[为数据库引擎访问配置文件系统权限](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
+     > [!NOTE]
+     > 如 NT SERVICE\MSSQLSERVER 下运行的 SQL Server 实例的帐户必须具有对上述安装成功的目录访问/权限。 有关详细信息，请参阅[为数据库引擎访问配置文件系统权限](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
   
 7. 在单击下一步安装程序将执行先决条件检查和报告，如果遇到任何问题。 当所有先决条件检查传递中，安装程序将转到多维数据集配置页。 
     
@@ -101,13 +101,13 @@ QoE 存档的安装过程包括创建 QoE 存档数据库、 部署将源的 QoE
     
    - **多维数据集分析服务器：** 其中多维数据集是要创建的 SQL Server Analysis Service 实例名称。 这可以是不同的计算机，但安装的用户必须是目标 SQL Server Analysis Service 实例的服务器管理员的成员。
     
-    > [!NOTE]
-    >  有关配置 Analysis Services 服务器管理员权限的详细信息，请参阅[授予服务器管理员权限 (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx)
+     > [!NOTE]
+     >  有关配置 Analysis Services 服务器管理员权限的详细信息，请参阅[授予服务器管理员权限 (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx)
   
    - **使用多个分区：** 默认值设置为"多个分区"，这需要商业智能版或企业版的 SQL Server。 对于 Standard edition，请选择"单个分区"选项。 请注意，是否使用单个分区多维数据集处理性能可能会受到影响。
     
-    > [!NOTE]
-    >  安装完成后，使用多个分区选项所选内容不能更改。 若要更改它，功能需要第一个多维数据集卸载并重新安装使用控制面板中的"更改"选项。
+     > [!NOTE]
+     >  安装完成后，使用多个分区选项所选内容不能更改。 若要更改它，功能需要第一个多维数据集卸载并重新安装使用控制面板中的"更改"选项。
   
    - **多维数据集的用户的用户名&amp;密码：** 域服务帐户名和密码 （遮盖） 将触发多维数据集处理。 如果安装选择 QoE 存档组件，此字段将为 SQL 代理作业用户，在存档配置页上提供的值与预先填充，但建议，以使安装程序可以授予指定不同的域服务帐户所需的最小特权到它。
     
@@ -259,7 +259,7 @@ QoEMetrics 可能包含根据最终用户时钟某些无效记录。 如果倾�
     
 - 联合投放位置
     
- **SQL 语法示例**
+  **SQL 语法示例**
   
 ```
 INSERT INTO
@@ -290,7 +290,7 @@ VALUES
     
 - 子公司租用
     
- **SQL 语法示例**
+  **SQL 语法示例**
   
 ```
 INSERT INTO
@@ -320,7 +320,7 @@ VALUES
     
 - 实验室
     
- **SQL 语法示例**
+  **SQL 语法示例**
   
 ```
 INSERT INTO [dbo].[CqdNetworkName] 

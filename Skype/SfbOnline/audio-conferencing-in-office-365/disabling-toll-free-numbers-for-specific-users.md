@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理员可以控制组织者如何使用他们会议的免费电话号码。
-ms.openlocfilehash: b438ee16135485a79458869858c52dd35bafa560
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 316497b6b4569ffef4419b6ed2ce6994c604d16a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885168"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370608"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>禁用特定 Skype for Business Online 用户的免费电话号码
 
@@ -33,7 +33,7 @@ ms.locfileid: "23885168"
 
 如果组织在其 Microsoft 音频会议网桥中拥有免费电话号码，可以在特定的组织者的会议中允许或阻止其使用免费电话号码。  
 
-默认方式，组织中的所有用户均启用免费电话号码，这意味着，这些号码，如果可用，参会者可使用它们参加会议。 如果不希望组织中的某些用户可以这样参会，可以通过免费电话号码启用控件限制特定用户在其会议中使用这些号码。 
+By default, all users in your organization are enabled for using toll-free numbers, meaning that those numbers, if available, can be used by participants to join their meetings. If this is not the desired behavior for some users in your organization, you can restrict specific users from using those numbers in their meetings via a toll-free number enablement control. 
 
 当针对某设定组织者禁用免费电话号码时： 
  - 免费电话号码将不再包含在他或她的会议邀请中。 
@@ -55,13 +55,13 @@ ms.locfileid: "23885168"
 
 3. 清除**允许使用免费电话号码加入此用户的会议**。 
  
-4. 单击" **保存**"。 
+4. 单击“**保存**”。 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
  
 **使用 PowerShell**  
 
-可以使用 Set-CsOnlineDialInConferencingUser cmdlet 的 AllowTollFreeDialIn 参数启用或禁用此控件。 例如： 
+You can use the AllowTollFreeDialIn parameter of the Set-CsOnlineDialInConferencingUser cmdlet to enable or disable this control. For example: 
 
- - Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false
+- Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false

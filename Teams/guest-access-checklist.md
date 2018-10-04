@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f7a1464159bf613800756eb8568510c3749939e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4a2ad3c2416e64334dddda6c09d3e8eed2be3763
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017180"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374247"
 ---
 <a name="teams-guest-access-checklist"></a>团队来宾访问清单
 ==========================================
@@ -86,7 +86,7 @@ ms.locfileid: "25017180"
 至少支持来宾 ►，**可以邀请成员**必须设置为**是**。
 
 > > [!NOTE]
-> 如果设置为**否**的**成员可以邀请**并启用来宾访问 Office 365 组和 Microsoft 团队中的，管理员可以控制来宾邀请到您的目录。 来宾目录中后，他们可以由非管理员成员 （团队所有者） 添加到团队。
+> > 如果设置为**否**的**成员可以邀请**并启用来宾访问 Office 365 组和 Microsoft 团队中的，管理员可以控制来宾邀请到您的目录。 来宾目录中后，他们可以由非管理员成员 （团队所有者） 添加到团队。
 
 
 有关详细信息，请参阅[在 Microsoft Teams 中授权来宾访问](Teams-dependencies.md)。

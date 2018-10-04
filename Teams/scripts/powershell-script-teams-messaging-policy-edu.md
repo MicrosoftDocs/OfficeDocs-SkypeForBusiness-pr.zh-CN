@@ -11,12 +11,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 108272636925daadfb361c1e79ff14b9c04f514a
-ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
+ms.openlocfilehash: 282a5442b6d4bf64771e741e75fab45bc87f6bd4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24021855"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371235"
 ---
 <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell 脚本示例-创建并分配邮件策略
 -------------------------------------------------------------------------
@@ -45,9 +45,8 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
     $userId = $line.UserId
     Write-Host $userId
     Grant-CsTeamsMessagingPolicy -PolicyName "<<PolicyName for a policy created with Chat Off>>" -Identity $userId
-   
- }
 
+ }
 ````
 
 

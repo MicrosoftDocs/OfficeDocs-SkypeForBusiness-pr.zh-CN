@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解哪些电话可从 Polycom、HP 和 Mitel 使用 Skype for Business，以及需要的许可证。 '
-ms.openlocfilehash: d7b8b92d268ab6ba4cf0c5dd49eab15586c95ba3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8b218161268855a1b89aa54fd0e40c4b308db40d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890272"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371562"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>获取适用于 Skype for Business Online 的电话
 
-Skype 业务 online 符合，且支持的需要具有传统的电话体验，而不是使用 Skype 业务应用程序的用户的桌面电话。 本主题介绍的电话和 Skype 中的业务 Online 以及可帮助您的组织中设置 up 电话时的其他信息的使用支持的固件版本。
+Skype for Business Online qualifies and supports desktop phones for users who want to have a traditional phone experience, rather than use the Skype for Business app. This topic covers the phones and firmware versions that are supported for use in Skype for Business Online and other information that can help you when you are setting up phones in your organization.
   
 若要获取最新的更新和受支持的设备上的大多数最新信息，请参阅[Skype 业务设备目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog)。
   
@@ -40,7 +40,7 @@ Skype 业务 online 符合，且支持的需要具有传统的电话体验，而
   
 Microsoft 是合作，紧密合作 Polycom、 Yealink，与 AudioCodes 开发和业务服务器的 Office 365 和 Skype 中的电话系统确认各种设备通过合作伙伴 IP 电话程序 （点数）。
   
-Skype for Business 的排序新电话，时，务必购买具有*正确的产品 ID*的电话。 这些产品 Id 将确保您将收到电话已安装的业务 Online 限定版本 Skype。
+When ordering new phones for Skype for Business, it is important to buy phones with the *right product ID*. These product IDs will ensure that the phones you receive have the Skype for Business Online qualified version already installed.
   
 |||
 |:-----|:-----|
@@ -56,9 +56,9 @@ Skype for Business 的排序新电话，时，务必购买具有*正确的产品
 AudioCodes 电话的详细信息，请参阅[业务 IP 电话的 Skype](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)。
   
 > [!NOTE]
-> Lync Phone Edition 支持 Skype for Business Online，但不支持 Microsoft Teams。 对 LPE 平台的主流支持于 2014 年 4 月 10 日结束，扩展支持将持续到 2023 年 4 月 11 日，以便与 Lync Server 2013 的产品支持生命周期保持一致。 有关 LPE 生命周期的详细信息，请参阅 [Microsoft 产品生命周期](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO)。 LPE CAP 型号不支持 Skype for Business Online。
+> Lync Phone Edition is supported with Skype for Business Online, but not with Microsoft Teams. Mainstream support for the LPE platform ended by April/10/2014, with extended support until April/11/2023 to align with the product support lifecycle of Lync Server 2013. See [Microsoft Product Lifecycle](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) for details on the LPE lifecycle. LPE CAP models aren't supported with Skype for Business Online.
 >
-> 在今年晚些时候，Office 365 将不支持任何早于 1.2 版本的 TLS。 由于 LPE 底层操作系统不支持 TLS 1.2，将不支持 LPE 连接到 Office 365。 如需了解更多信息，请参阅[为 TLS 1.2 在 Office 365 中的强制使用做准备](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) 。
+> Later this year, Office 365 will not support any version of TLS older than 1.2. Since the underlying operating system of LPE does not support TLS 1.2, LPE will not be supported to connect to Office 365 anymore. See [Preparing for the mandatory use of TLS 1.2 in Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) for more information.
   
 ## <a name="supported-firmware"></a>支持的固件
 
@@ -73,13 +73,13 @@ AudioCodes 电话的详细信息，请参阅[业务 IP 电话的 Skype](https://
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |2016 年 12 月  <br/> |
    
 > [!NOTE]
-[!注释] 你为本地部署设置的 Lync Phone Edition (LPE) 电话必须加以更新，以符合最低或最新的必要固件要求，之后才能将这些用户转移到 Skype for Business Online。如果在更新电话上的固件之前将用户从本地部署迁移到 Skype for Business Online，这些电话将无法连接到 Skype for Business Online。 
+> [!注释] 你为本地部署设置的 Lync Phone Edition (LPE) 电话必须加以更新，以符合最低或最新的必要固件要求，之后才能将这些用户转移到 Skype for Business Online。如果在更新电话上的固件之前将用户从本地部署迁移到 Skype for Business Online，这些电话将无法连接到 Skype for Business Online。 
   
 ## <a name="required-licenses"></a>必需的许可证
 
-Skype 业务 online 不需要任何其他的 Microsoft 许可之外的用户许可证。 若要了解有关所需的用户许可证的详细信息，请参阅[业务和 Microsoft 团队授权加载项的 Skype](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+Skype for Business Online doesn't require any additional Microsoft license other than the user licenses. To learn more about the required user licenses, see [Skype for Business and Microsoft Teams add-on licensing](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-打开 SIP 和 Skype 之间业务认证固件的情况下，制造商许可模型可能会有所不同。 如果打算对开放式 SIP 固件重复使用某个认证模式，则需要向制造商确认固件许可证要求。
+Manufacturer licensing models might vary between open SIP and Skype for Business Certified firmware. If you are repurposing a certified model with an Open SIP firmware, you will need to verify firmware license requirements with the manufacturer.
   
 ## <a name="skype-for-business-online-connected-phones-feature-set"></a>业务 Online 连接的电话功能集的的 Skype
 
@@ -111,7 +111,7 @@ Skype 业务 online 不需要任何其他的 Microsoft 许可之外的用户许�
 
      
 > [!NOTE]
-> CX 600 或任何其他 Aries 电话不支持多因素身份验证 (MFA)。 如果强制采用 MFA，这些设备将无法登录。 这些设备必须仅使用组织 ID 进行身份验证。
+> CX 600 or any other Aries phones don't support multifactor authentication (MFA). If you force MFA, these devices will fail to sign-in. These devices must use only Org ID for authetication.
  
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
 有关分步设置说明，请参阅[部署 Skype for Business Online 电话](deploying-skype-for-business-online-phones.md)。

@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d16c55ac5e307192f93e593bca9910e1be9393d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 79d9fcde21b6d6f7d0c169efd852629fb43ae9b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017132"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373783"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>定义和团队测试计划适用于企业中文档音频会议 
 ===============================================================================
@@ -63,8 +63,8 @@ ms.locfileid: "25017132"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>确定您需要在您的环境中测试音频会议功能的测试支持和利益干系人角色。</li><li>确定您将为您已确定的测试支持和利益干系人角色分配的资源。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>文档需要在您测试支持利益相关者列表中的测试支持和利益干系人角色。</li><li>文档中的联系人信息和位置在测试支持利益相关者列表中列出的每个资源的详细信息。
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>确定您需要在您的环境中测试音频会议功能的测试支持和利益干系人角色。</li><li>确定您将为您已确定的测试支持和利益干系人角色分配的资源。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>文档需要在您测试支持利益相关者列表中的测试支持和利益干系人角色。</li><li>文档中的联系人信息和位置在测试支持利益相关者列表中列出的每个资源的详细信息。
 </table>
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "25017132"
 #### <a name="audio-conferencing-feature-definition"></a>音频会议功能定义
 
 > [!TIP]
-
+> 
 > 下面是您可以使用音频会议定义模板的示例文档音频会议管理和用户组功能进行求值。
 
 | 企业级   | 协作会议    | 平台和设备   | IT 专业人员  | 其他业务组，特定于网站  | 通过新的工作组路线图满足的要求 |
@@ -103,11 +103,11 @@ ms.locfileid: "25017132"
 |----------------------------------------------|--------------------------------------------------|------------------------------------------|
 | <ul><li>创建工作组 （Office 组创建已启用）</li><li>加入团队</li><li>创建频道</li><li>创建和查看会议</li><li>修改用户个人资料图片</li><li>添加和配置连接器</li><li>添加和配置选项卡</li><li>添加和配置聊天机器人</li></ul> | <ul><li>存储和共享团队对话中的文件</li><li>存储和共享和专用聊天 （基于 OneDrive） 内的文件</li></ul> | <ul><li>ChatDefaultClient： 默认</li><li>CallingDefaultClient： 默认</li></ul>      |
 
- 
+
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li> 确定您将在您的环境中部署的音频会议类别功能。</li><li>确定用户音频会议功能要求您当前的 Skype 给定的业务、 Exchange 和 SharePoint 部署横向。</li><li>决定将部署哪些团队互操作性体验。</li><li>查看最新的工作组公共路线图并决定当前工作负荷能力是否满足部署时间线。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>文档支持音频会议部署所需的音频会议类别功能。</li><li>文档用户音频会议功能和互操作性要求您当前的 Skype 给定的业务、 Exchange 和 SharePoint 部署横向。</li><li>文档是否表示音频会议功能的最新团队公共路线图满足业务需求和部署 timing 要求。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li> 确定您将在您的环境中部署的音频会议类别功能。</li><li>确定用户音频会议功能要求您当前的 Skype 给定的业务、 Exchange 和 SharePoint 部署横向。</li><li>决定将部署哪些团队互操作性体验。</li><li>查看最新的工作组公共路线图并决定当前工作负荷能力是否满足部署时间线。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>文档支持音频会议部署所需的音频会议类别功能。</li><li>文档用户音频会议功能和互操作性要求您当前的 Skype 给定的业务、 Exchange 和 SharePoint 部署横向。</li><li>文档是否表示音频会议功能的最新团队公共路线图满足业务需求和部署 timing 要求。</li></ul></td></tr>
 </table>
 
 <a name="define-and-document-your-audio-conferencing-test-plan"></a>定义和文档进行音频会议测试计划
@@ -134,7 +134,7 @@ ms.locfileid: "25017132"
 -   **测试可交付结果：** 摘要的开发和提供支持注销接受和退出的测试过程产出
 
 > [!TIP]
-
+> 
 >   测试方法可能已在组织中存在但下面的指南反映可包含或单独利用您的环境中测试团队功能的最佳实践。
 
 在几个小节您将找到特定的决策，模板和要完成您的测试计划应考虑的主题将帮助的其他规定的指南。
@@ -162,10 +162,10 @@ ms.locfileid: "25017132"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>决定要进行音频会议通过标识功能来测试范围按焦点区域进行求值。</li><li>决定其他目标和目的评估。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>文档通过重点关注领域进行求值的音频会议功能。</li><li>文档其他目标和目的评估。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>决定要进行音频会议通过标识功能来测试范围按焦点区域进行求值。</li><li>决定其他目标和目的评估。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>文档通过重点关注领域进行求值的音频会议功能。</li><li>文档其他目标和目的评估。</li></ul></td></tr>
 </table>
- 
+
 
 ### <a name="define-and-document-audio-conferencing-test-cases"></a>定义和文档进行音频会议测试用例
 
@@ -206,8 +206,8 @@ ms.locfileid: "25017132"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>决定将计算的音频会议管理和用户功能。</li><li>确定需要支持的测试用例执行哪些测试环境。</li><li>决定测试用例评估所需的步骤。</li><li>决定测试正确执行所需的资源。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>根据提供的测试用例模板文档测试用例进行求值。</li><li>包括您的整个测试计划的一部分已完成的模板。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>决定将计算的音频会议管理和用户功能。</li><li>确定需要支持的测试用例执行哪些测试环境。</li><li>决定测试用例评估所需的步骤。</li><li>决定测试正确执行所需的资源。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>根据提供的测试用例模板文档测试用例进行求值。</li><li>包括您的整个测试计划的一部分已完成的模板。</li></ul></td></tr>
 </table>
 
 
@@ -236,12 +236,12 @@ ms.locfileid: "25017132"
 | 技术    | 访问 Office 365 与启用下列服务：<ul><li>Office 365 E5 许可分配</li><li>分配国内和国际呼叫计划</li></ul>    | TBD                  |
 | 支持       | 测试管理员测试支持潜在顾客测试技术支持人员 | TBD                  |
 
-   
+
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>确定您需要支持测试阶段的资源类型 （人员、 技术和支持）。</li><li>确定用于确定资源类型所需的特定资源。</li><li>决定是否您应能提供更多详细信息来描述所需的资源的类型。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>记录您需要支持测试阶段的资源类型 （人员、 技术和支持）。</li><li>文档资源类型确定所需的特定资源。</li><li>如果您决定必要时，文档有关的支持测试阶段所需的资源类型任何进一步的详细信息。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>确定您需要支持测试阶段的资源类型 （人员、 技术和支持）。</li><li>确定用于确定资源类型所需的特定资源。</li><li>决定是否您应能提供更多详细信息来描述所需的资源的类型。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>记录您需要支持测试阶段的资源类型 （人员、 技术和支持）。</li><li>文档资源类型确定所需的特定资源。</li><li>如果您决定必要时，文档有关的支持测试阶段所需的资源类型任何进一步的详细信息。</li></ul></td></tr>
 </table>
 
 ### <a name="define-and-document-a-testing-timeline"></a>定义和文档测试日程表
@@ -277,8 +277,8 @@ ms.locfileid: "25017132"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>决定日程表活动、 里程碑和需要跟踪的任务。</li><li>确定您需要分配的资源。</li><li>决定您预期完成的日期。</li><li>标识传递所有者。</li><li>决定需要完成活动、 里程碑或任务的时间。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>使用模板提供，文档您测试的日程表，其中包括：<ul><li>时间线活动、 里程碑和需要跟踪的任务。</li><li>需要分配的资源。</li><li>预期的完成日期。</li><li>传递所有者。</li><li>完成活动、 里程碑或任务所需的时间。</li></ul></li><li>包括您的整个测试计划的一部分已完成的模板。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>决定日程表活动、 里程碑和需要跟踪的任务。</li><li>确定您需要分配的资源。</li><li>决定您预期完成的日期。</li><li>标识传递所有者。</li><li>决定需要完成活动、 里程碑或任务的时间。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>使用模板提供，文档您测试的日程表，其中包括：<ul><li>时间线活动、 里程碑和需要跟踪的任务。</li><li>需要分配的资源。</li><li>预期的完成日期。</li><li>传递所有者。</li><li>完成活动、 里程碑或任务所需的时间。</li></ul></li><li>包括您的整个测试计划的一部分已完成的模板。</li></ul></td></tr>
 </table>
 
 
@@ -329,11 +329,11 @@ ms.locfileid: "25017132"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>决定缺陷条件严重性级别将分配支持测试工作。</li><li>决定哪些测试缺陷报告如果测试过程中出现的问题将文档的条件。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>记录报告中提供的模板所需的条件测试缺陷。</li><li>包括您的整个测试计划的一部分已完成的模板。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>决定缺陷条件严重性级别将分配支持测试工作。</li><li>决定哪些测试缺陷报告如果测试过程中出现的问题将文档的条件。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>记录报告中提供的模板所需的条件测试缺陷。</li><li>包括您的整个测试计划的一部分已完成的模板。</li></ul></td></tr>
 </table>
 
- 
+
 ### <a name="define-and-document-exit-and-suspension-criteria"></a>定义和文档退出和挂起条件
 
 作为总体测试计划执行过程的一部分，您需要定义条件，以指明应频率挂起获取注销并退出测试阶段必须满足的要求与测试工作的点。
@@ -350,8 +350,8 @@ ms.locfileid: "25017132"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>决定挂起如果标识与测试的问题，必须满足的条件。</li><li>决定要测试验收注销获取并支持退出毕竟测试的测试阶段，必须满足的退出条件活动已完成。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>文档中提供的测试和退出模板所需的测试退出并挂起条件。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>决定挂起如果标识与测试的问题，必须满足的条件。</li><li>决定要测试验收注销获取并支持退出毕竟测试的测试阶段，必须满足的退出条件活动已完成。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>文档中提供的测试和退出模板所需的测试退出并挂起条件。</li></ul></td></tr>
 </table>
 
 
@@ -397,11 +397,11 @@ ms.locfileid: "25017132"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>决定并同意以支持测试计划的缺陷优先级。</li><li>确定每个缺陷区域的升级点。</li><li>决定缺陷升级并会审计划执行，根据优先级。</li><li>决定缺陷报告和会审升级沟通计划。</li><li>决定缺陷会审评审会议节奏。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>文档商定的缺陷优先级。</li><li>记录每个潜在的焦点区域的升级点。</li><li>文档缺陷的升级和会审计划，基于商定的条件。</li><li>记录报告准则您缺陷。</li><li>安排缺陷会审会议的一系列。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>决定并同意以支持测试计划的缺陷优先级。</li><li>确定每个缺陷区域的升级点。</li><li>决定缺陷升级并会审计划执行，根据优先级。</li><li>决定缺陷报告和会审升级沟通计划。</li><li>决定缺陷会审评审会议节奏。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>文档商定的缺陷优先级。</li><li>记录每个潜在的焦点区域的升级点。</li><li>文档缺陷的升级和会审计划，基于商定的条件。</li><li>记录报告准则您缺陷。</li><li>安排缺陷会审会议的一系列。</li></ul></td></tr>
 </table>
 
-   
+
 
 ### <a name="define-and-document-testing-deliverables"></a>定义和文档测试可交付结果
 
@@ -434,8 +434,8 @@ ms.locfileid: "25017132"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>决定哪些可交付结果的创建和捕获为每个测试阶段的输出。 每个可交付结果，决定其：<ul><li>格式</li><li>所有者</li><li>审阅者</li><li>审批者</li></ul></li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>文档的测试计划可交付结果创建和传递矩阵。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>决定哪些可交付结果的创建和捕获为每个测试阶段的输出。 每个可交付结果，决定其：<ul><li>格式</li><li>所有者</li><li>审阅者</li><li>审批者</li></ul></li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>文档的测试计划可交付结果创建和传递矩阵。</li></ul></td></tr>
 </table>
 
 
@@ -463,8 +463,8 @@ ms.locfileid: "25017132"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>决策点</td><td><ul><li>决定网络中的哪些站点是范围内部署团队的服务。</li><li>确定所需的范围中的团队形式角色。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>完成网络计划工具 （通过 MyAdvisor) 的范围内的网站的列表。</li><li>文档网络规划器验证结果中提供的测试计划结果模板。</li><li>验证 ExpressRoute （如果适用）、 internet 和网站范围内已计算的 WAN 带宽对齐到当前分配的带宽值。</li><li>没有足够带宽，执行升级和修复的计划来解决带宽问题的网站。</li><li>建立网络 ExpressRoute （如果适用）、 internet 和 WAN 段监控解决方案监视带宽使用情况的范围中的网站和 QoS。</li><li>安排要查看网络规划器结果的调控委员会会议。</li><li>演示带宽规划调控委员会查明需要修复任何结果。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>决策点</td><td><ul><li>决定网络中的哪些站点是范围内部署团队的服务。</li><li>确定所需的范围中的团队形式角色。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>完成网络计划工具 （通过 MyAdvisor) 的范围内的网站的列表。</li><li>文档网络规划器验证结果中提供的测试计划结果模板。</li><li>验证 ExpressRoute （如果适用）、 internet 和网站范围内已计算的 WAN 带宽对齐到当前分配的带宽值。</li><li>没有足够带宽，执行升级和修复的计划来解决带宽问题的网站。</li><li>建立网络 ExpressRoute （如果适用）、 internet 和 WAN 段监控解决方案监视带宽使用情况的范围中的网站和 QoS。</li><li>安排要查看网络规划器结果的调控委员会会议。</li><li>演示带宽规划调控委员会查明需要修复任何结果。</li></ul></td></tr>
 </table>
 
 
@@ -477,11 +477,11 @@ ms.locfileid: "25017132"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>决策点</td><td><ul><li>确定要实现 QoS 配置。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>配置 QoS。</li><li>从"验证通过 GPO"通过列出步骤所述执行 QoS 验证和上面的"通过邮件分析器验证"部分。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>决策点</td><td><ul><li>确定要实现 QoS 配置。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>配置 QoS。</li><li>从"验证通过 GPO"通过列出步骤所述执行 QoS 验证和上面的"通过邮件分析器验证"部分。</li></ul></td></tr>
 </table>
 
- 
+
 
 ### <a name="document-qos-configuration-validation-test-results"></a>文档 QoS 配置验证测试结果
 
@@ -499,10 +499,9 @@ ms.locfileid: "25017132"
 <table>
 <tr><th colspan="2">测试要点 </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">测试的缺点  </th></tr>  
-<tr><td>**问题**： TBD</td><td>**修正：** TBD</td></tr>
+<tr><th colspan="2">测试的缺点  </th></tr><br/><tr><td><strong>问题</strong>： TBD</td><td><strong>修正：</strong>TBD</td></tr>
 <tr><th colspan="2">窗口阻止程序标识 </td></tr>
-<tr><td>**窗口阻止程序**： TBD</td><td>**修复**： TBD</td></tr>
+<tr><td><strong>窗口阻止程序</strong>： TBD</td><td><strong>修复</strong>： TBD</td></tr>
 </table>
 
 > [!TIP]
@@ -510,8 +509,8 @@ ms.locfileid: "25017132"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>决策点</td><td><ul><li>评估 QoS 测试结果，以确保的团队实时的媒体流量正在正确标记和确定其优先级。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>文档 QoS 中提供的测试计划结果模板测试结果。</li><li>执行升级和补救措施来解决的问题，QoS 可能未正确配置，或不作为工作预期支持团队媒体流量的计划。</li></ul></td></tr><li>计划调控委员会会议查看摘要的测试结果。</li><li>存在此参数的测试摘要结果给调控委员会以确定需要修复任何区域。</li>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>决策点</td><td><ul><li>评估 QoS 测试结果，以确保的团队实时的媒体流量正在正确标记和确定其优先级。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>文档 QoS 中提供的测试计划结果模板测试结果。</li><li>执行升级和补救措施来解决的问题，QoS 可能未正确配置，或不作为工作预期支持团队媒体流量的计划。</li></ul></td></tr><li>计划调控委员会会议查看摘要的测试结果。</li><li>存在此参数的测试摘要结果给调控委员会以确定需要修复任何区域。</li>
 </table>
 
 
@@ -532,8 +531,8 @@ ms.locfileid: "25017132"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>决策点</td><td><ul><li>决定拆分隧道配置来实现。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>实现拆分隧道配置。</li><li>测试和验证拆分隧道配置。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>决策点</td><td><ul><li>决定拆分隧道配置来实现。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>实现拆分隧道配置。</li><li>测试和验证拆分隧道配置。</li></ul></td></tr>
 </table>
 
 
@@ -553,10 +552,9 @@ ms.locfileid: "25017132"
 <table>
 <tr><th colspan="2">测试要点 </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">测试的缺点  </th></tr>  
-<tr><td>**问题**： TBD</td><td>**修正：** TBD</td></tr>
+<tr><th colspan="2">测试的缺点  </th></tr><br/><tr><td><strong>问题</strong>： TBD</td><td><strong>修正：</strong>TBD</td></tr>
 <tr><th colspan="2">窗口阻止程序标识 </td></tr>
-<tr><td>**窗口阻止程序**： TBD</td><td>**修复**： TBD</td></tr>
+<tr><td><strong>窗口阻止程序</strong>： TBD</td><td><strong>修复</strong>： TBD</td></tr>
 </table>
 
 > [!TIP]
@@ -565,11 +563,11 @@ ms.locfileid: "25017132"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>决策点</td><td><ul><li>评估拆分隧道测试结果，以确保团队中的实时通信正在排除从远程访问解决方案。</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>文档中提供的测试计划结果模板拆分隧道连接测试结果。</li><li>执行升级和补救措施来解决问题，其中正确的路由可能不存在的支持团队媒体拆分隧道配置中的计划。</li><li>计划调控委员会会议查看摘要的测试结果。</li><li>存在此参数的测试摘要结果给调控委员会以确定需要修复任何区域。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>决策点</td><td><ul><li>评估拆分隧道测试结果，以确保团队中的实时通信正在排除从远程访问解决方案。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>文档中提供的测试计划结果模板拆分隧道连接测试结果。</li><li>执行升级和补救措施来解决问题，其中正确的路由可能不存在的支持团队媒体拆分隧道配置中的计划。</li><li>计划调控委员会会议查看摘要的测试结果。</li><li>存在此参数的测试摘要结果给调控委员会以确定需要修复任何区域。</li></ul></td></tr>
 </table>
 
-   
+
 
 <a name="execute-network-connectivity-and-performance-validation-by-using-the-network-assessment-tool-from-microsoft"></a>使用网络评估工具从 Microsoft 执行网络连接性和性能验证
 -----------------------------------------------------------------------------------------------------------
@@ -582,11 +580,11 @@ ms.locfileid: "25017132"
 > 若要完成网络准备情况分析和网站范围内的准备情况，指定可以帮助您的网络准备情况评估工作的每个站点的潜在顾客。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>决策点</td><td><ul><li>决定的网络评估和网站范围内连接测试配置文件。</li><li>决定网络评估范围中的网站的新配置文件要求。</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>在范围中配置网络评估网站的配置文件要求。</li><li>在范围内执行网络性能和连接验证的网站。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>决策点</td><td><ul><li>决定的网络评估和网站范围内连接测试配置文件。</li><li>决定网络评估范围中的网站的新配置文件要求。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>在范围中配置网络评估网站的配置文件要求。</li><li>在范围内执行网络性能和连接验证的网站。</li></ul></td></tr>
 </table>
 
- 
+
 
 ### <a name="document-network-connectivity-and-performance-validation-test-results"></a>文档网络连接性和性能验证测试结果
 
@@ -616,21 +614,20 @@ ms.locfileid: "25017132"
 <table>
 <tr><th colspan="2">测试要点 </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">测试的缺点  </th></tr>  
-<tr><td>**问题**： 高延迟</td><td>**修正：** 调查数据包路由并实现的理想的路由。</td></tr>
-<tr><td>**问题**： 往返时间不 double 的延迟</td><td>**修正：** 调查可能防火墙或传送器配置问题。 调查流量路径。</td></tr>
-<tr><td>**问题**： 较高的数据包丢失 </td><td>**修正：** 通过网络规划人员验证已分配足够带宽。 </td></tr>
-<tr><td>**问题**： 高抖动 </td><td> **修正：** 调查是否使用正确的区分的服务代码点 (DSCP) 值。 </td></tr>
-<tr><td>**问题**： 较高的数据包丢失 </td><td>**修正：** 调查数据包丢失。 </td></tr>
-<tr><td>**问题**： 大量数据包重新排序 </td><td>**修正：** 调查路由器 queueing 和带宽。 </td></tr>
+<tr><th colspan="2">测试的缺点  </th></tr><br/><tr><td><strong>问题</strong>： 高延迟</td><td><strong>修正：</strong>调查数据包路由并实现的理想的路由。</td></tr>
+<tr><td><strong>问题</strong>： 往返时间不是 & #39; t double 延迟</td><td><strong>修正：</strong>调查可能防火墙或传送器配置问题。 调查流量路径。</td></tr>
+<tr><td><strong>问题</strong>： 较高的数据包丢失 </td><td><strong>修正：</strong>通过网络规划人员验证已分配足够带宽。 </td></tr>
+<tr><td><strong>问题</strong>： 高抖动 </td><td> <strong>修正：</strong>调查是否使用正确的区分的服务代码点 (DSCP) 值。 </td></tr>
+<tr><td><strong>问题</strong>： 较高的数据包丢失 </td><td><strong>修正：</strong>调查数据包丢失。 </td></tr>
+<tr><td><strong>问题</strong>： 大量数据包重新排序 </td><td><strong>修正：</strong>调查路由器 queueing 和带宽。 </td></tr>
 <tr><th colspan="2">窗口阻止程序标识 </td></tr>
-<tr><td>**窗口阻止程序**： TBD</td><td>**修复**： TBD</td></tr>
+<tr><td><strong>窗口阻止程序</strong>： TBD</td><td><strong>修复</strong>： TBD</td></tr>
 </table>
 
- 
+
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>决策点</td><td><ul><li>评估网络评估和测试结果，以确保您满足要求的边缘段和客户端段的[媒体质量和网络连接性能](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)中所述的连接。</li><li>您已经评估网络范围内的所有网站支持实时的媒体功能？</li><li> 如果您的网络未正确评估，或您知道它不支持实时的媒体，将禁用视频和屏幕共享功能，以减少网络影响，并提高用户的工作组体验？</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>文档网络性能和连接测试结果。</li><li>执行升级和修复的计划，可通过网站其中没有足够带宽，或不满足网络性能和连接要求解决问题。</li><li>计划调控委员会会议查看摘要的测试结果。</li><li>存在此参数的测试摘要结果给调控委员会以确定需要修复任何区域。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>决策点</td><td><ul><li>评估网络评估和测试结果，以确保您满足要求的边缘段和客户端段的<a href="https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance" data-raw-source="[Media quality and network connectivity performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)">媒体质量和网络连接性能</a>中所述的连接。</li><li>您已经评估网络范围内的所有网站支持实时的媒体功能？</li><li> 如果您的网络未正确评估，或您知道它不支持实时的媒体，将禁用视频和屏幕共享功能，以减少网络影响，并提高用户的工作组体验？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>文档网络性能和连接测试结果。</li><li>执行升级和修复的计划，可通过网站其中没有足够带宽，或不满足网络性能和连接要求解决问题。</li><li>计划调控委员会会议查看摘要的测试结果。</li><li>存在此参数的测试摘要结果给调控委员会以确定需要修复任何区域。</li></ul></td></tr>
 </table>
 
 
@@ -701,10 +698,10 @@ ms.locfileid: "25017132"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>决策点</td><td><ul><li>确定您将需要到端口，由国家/地区的国内服务号码。</li><li>决定是否将端口任何免费电话号码。</li><li>决定将使用哪个 LOA 模板。</li><li>确定您当前的运营商 （可能会丢失运营商） 是否允许电话号码的碎片 （即，允许部分端口 orders）。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>收集所需的信息，并准备 LOAs。</li><li>下载并完成所需的 LOA 模板。</li><li>提交服务和/或免费电话号码的移植请求。</li><li>通过将它们分配给电话拨入访问的音频会议服务执行测试验证端口的号码，并确认工作，本节中前面的步骤 6 中所述。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>决策点</td><td><ul><li>确定您将需要到端口，由国家/地区的国内服务号码。</li><li>决定是否将端口任何免费电话号码。</li><li>决定将使用哪个 LOA 模板。</li><li>确定您当前的运营商 （可能会丢失运营商） 是否允许电话号码的碎片 （即，允许部分端口 orders）。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>收集所需的信息，并准备 LOAs。</li><li>下载并完成所需的 LOA 模板。</li><li>提交服务和/或免费电话号码的移植请求。</li><li>通过将它们分配给电话拨入访问的音频会议服务执行测试验证端口的号码，并确认工作，本节中前面的步骤 6 中所述。</li></ul></td></tr>
 </table>
-   
+
 
 ### <a name="document-service-number-porting-test-results"></a>文档服务号码移植测试结果
 
@@ -722,10 +719,9 @@ ms.locfileid: "25017132"
 <table>
 <tr><th colspan="2">测试要点 </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">测试的缺点  </th></tr>  
-<tr><td>**问题**： TBD</td><td>**修正：** TBD</td></tr>
+<tr><th colspan="2">测试的缺点  </th></tr><br/><tr><td><strong>问题</strong>： TBD</td><td><strong>修正：</strong>TBD</td></tr>
 <tr><th colspan="2">窗口阻止程序标识 </td></tr>
-<tr><td>**窗口阻止程序**： TBD</td><td>**修复**： TBD</td></tr>
+<tr><td><strong>窗口阻止程序</strong>： TBD</td><td><strong>修复</strong>： TBD</td></tr>
 </table>
 
 > [!TIP]
@@ -733,8 +729,8 @@ ms.locfileid: "25017132"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>决策点</td><td><ul><li>评估是否提交迁移服务号码已成功移植到音频会议服务。</li><li>评估是否能够分配给音频会议服务的服务的端口的号。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>记录您的号码移植测试结果。</li><li>执行升级和修正计划来解决与号码移植过程，您遇到的问题。</li><li>计划调控委员会会议查看摘要的测试结果。</li><li>提供给调控委员会以确定需要修复任何区域的测试摘要结果。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>决策点</td><td><ul><li>评估是否提交迁移服务号码已成功移植到音频会议服务。</li><li>评估是否能够分配给音频会议服务的服务的端口的号。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>记录您的号码移植测试结果。</li><li>执行升级和修正计划来解决与号码移植过程，您遇到的问题。</li><li>计划调控委员会会议查看摘要的测试结果。</li><li>提供给调控委员会以确定需要修复任何区域的测试摘要结果。</li></ul></td></tr>
 </table>
 
 
@@ -782,8 +778,8 @@ ms.locfileid: "25017132"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>决策点</td><td><ul><li>评估范围中的音频会议功能的网站的高级测试用例通过/失败状态。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>文档范围内完成的所有测试用例的测试用例状态结果。</li><li>计划调控委员会会议查看摘要的测试结果。</li><li>存在此参数的测试用例状态给调控委员会查明需要修复任何结果。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>决策点</td><td><ul><li>评估范围中的音频会议功能的网站的高级测试用例通过/失败状态。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>文档范围内完成的所有测试用例的测试用例状态结果。</li><li>计划调控委员会会议查看摘要的测试结果。</li><li>存在此参数的测试用例状态给调控委员会查明需要修复任何结果。</li></ul></td></tr>
 </table>
 
 
@@ -803,10 +799,9 @@ ms.locfileid: "25017132"
 <table>
 <tr><th colspan="2">测试要点 </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">测试的缺点  </th></tr>  
-<tr><td>**问题**： TBD</td><td>**修正：** TBD</td></tr>
+<tr><th colspan="2">测试的缺点  </th></tr><br/><tr><td><strong>问题</strong>： TBD</td><td><strong>修正：</strong>TBD</td></tr>
 <tr><th colspan="2">窗口阻止程序标识 </td></tr>
-<tr><td>**窗口阻止程序**： TBD</td><td>**修复**： TBD</td></tr>
+<tr><td><strong>窗口阻止程序</strong>： TBD</td><td><strong>修复</strong>： TBD</td></tr>
 </table>
 
 
@@ -816,8 +811,8 @@ ms.locfileid: "25017132"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>决策点</td><td><ul><li>评估范围中的音频会议功能的网站的高级测试摘要结果。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>在完成所有测试用例结果后，文档的测试用例摘要报告。</li><li>计划调控委员会会议查看摘要的测试结果。</li><li>存在此参数的测试摘要结果给调控委员会以确定需要修复任何区域。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>决策点</td><td><ul><li>评估范围中的音频会议功能的网站的高级测试摘要结果。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>在完成所有测试用例结果后，文档的测试用例摘要报告。</li><li>计划调控委员会会议查看摘要的测试结果。</li><li>存在此参数的测试摘要结果给调控委员会以确定需要修复任何区域。</li></ul></td></tr>
 </table>
 
 
@@ -847,8 +842,8 @@ ms.locfileid: "25017132"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>决策点</td><td><ul><li>决定摘要的测试状态。</li><li>确定测试突出显示和缺点。</li><li>确定教训。</li><li>如果有，决定操作保持，哪些修复。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>文档测试摘要结果，以包括：<ul><li>状态摘要</li><li>要点/缺点</li><li>经验教训</li></ul></li><li>安排的最后一个调控委员会会议查看测试结果。</li><li>存在测试摘要结果，调控委员会期间查看获取的退出测试阶段的最后注销。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>决策点</td><td><ul><li>决定摘要的测试状态。</li><li>确定测试突出显示和缺点。</li><li>确定教训。</li><li>如果有，决定操作保持，哪些修复。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>文档测试摘要结果，以包括：<ul><li>状态摘要</li><li>要点/缺点</li><li>经验教训</li></ul></li><li>安排的最后一个调控委员会会议查看测试结果。</li><li>存在测试摘要结果，调控委员会期间查看获取的退出测试阶段的最后注销。</li></ul></td></tr>
 </table>
 
 

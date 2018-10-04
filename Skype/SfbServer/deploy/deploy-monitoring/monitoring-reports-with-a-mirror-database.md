@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 摘要： 了解如何将监控报告与业务服务器使用 Skype 镜像数据库相关联。
-ms.openlocfilehash: e5d9072c2315a2d82f2f41559167a488747fa205
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fdca07874192a772a99145bf3ca2042995bb7aee
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000769"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374363"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>将监控报告与 Skype 中的镜像数据库相关联的业务服务器 
  
@@ -36,9 +36,9 @@ ms.locfileid: "21000769"
     
    - 用于安装监控报告的数据库实例的名称（例如 **archinst**）。
     
-    例如，如果 SQL Server Reporting Services 安装在 atl-sql-001.litwareinc.com 上的计算机上，监控报告使用数据库实例 archinst，则主页 URL 如下所示：
+     例如，如果 SQL Server Reporting Services 安装在 atl-sql-001.litwareinc.com 上的计算机上，监控报告使用数据库实例 archinst，则主页 URL 如下所示：
     
-    **http://atl-sql-001.litwareinc.com/Reports_archinst**
+     **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
 2. 访问 Reporting Services 主页后，单击“**ServerReports**”，然后单击“**Reports_Content**”。 这样，就会 ' **Reports_Content**页上的 Skype 业务服务器监控报告。
     

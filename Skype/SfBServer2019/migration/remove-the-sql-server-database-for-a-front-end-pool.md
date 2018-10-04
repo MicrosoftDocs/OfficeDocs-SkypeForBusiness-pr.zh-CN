@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 删除前端池或重新配置要使用不同的数据库的池后，您可以删除承载池数据的 SQL Server 数据库。 使用以下过程可从拓扑生成器中，删除定义，然后删除数据库服务器的数据库和日志文件。
-ms.openlocfilehash: 65fd0367051e32aa081fa13859632504e1331669
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 35c9429fc16aef886945f8b0adcd5894ce40b834
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028605"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373124"
 ---
 # <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>删除前端池的 SQL Server 数据库
 
@@ -35,17 +35,17 @@ ms.locfileid: "25028605"
     
 3. 若要删除池用户存储的数据库，请键入：
     
-  ```
-  Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
-  ```
+   ```
+   Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
+   ```
 
     其中_\<FQDN\>_ 是数据库服务器的完全限定的域名 (FQDN) 和_\<实例\>_ 是命名的数据库实例 （如果已定义）。 
     
 4. 若要删除池应用程序存储的数据库，请键入：
     
-  ```
-  Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
-  ```
+   ```
+   Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
+   ```
 
     其中_\<FQDN\>_ 是数据库服务器的 FQDN 和_\<实例\>_ 是命名的数据库实例 （如果已定义）。 
     

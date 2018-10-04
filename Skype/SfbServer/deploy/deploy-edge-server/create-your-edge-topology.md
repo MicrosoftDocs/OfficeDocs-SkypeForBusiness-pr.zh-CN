@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 摘要： 了解如何构建、 发布和业务服务器导出边缘服务器拓扑中 Skype。
-ms.openlocfilehash: 772a37437af902513d7245a1e8bd18a565fca5e9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b01f0c107207d79f62a092acc2e287e632969234
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883913"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372771"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>为 Business Server Skype 创建边缘拓扑
  
@@ -144,7 +144,7 @@ ms.locfileid: "23883913"
     
    - 在外部接口上启用 IPv6
     
-    这些是无需解释，是否您使用的 IPv4 或 IPv6 地址，并且您将应用这些地址上边缘服务器内部或外部 （需要记住此步骤 11）。 您还可以使用网络地址转换 (NAT) 地址的外部 IP 地址配置边缘服务器或边缘池的选择。 选中“**此边缘池的外部 IP 地址是由 NAT 转换的**”复选框可以执行此配置。 完成后，单击“**下一步**”。
+     这些是无需解释，是否您使用的 IPv4 或 IPv6 地址，并且您将应用这些地址上边缘服务器内部或外部 （需要记住此步骤 11）。 您还可以使用网络地址转换 (NAT) 地址的外部 IP 地址配置边缘服务器或边缘池的选择。 选中“**此边缘池的外部 IP 地址是由 NAT 转换的**”复选框可以执行此配置。 完成后，单击“**下一步**”。
     
 9. 在“外部 FQDN”屏幕上，你的选择取决于你在上面的步骤 7 中所作的选择。
     
@@ -212,10 +212,10 @@ ms.locfileid: "23883913"
     
    - 在外部接口上启用 IPv6
     
-    这些是无需解释，是否您使用的 IPv4 或 IPv6 地址，并且您将应用这些地址上边缘服务器内部或外部 （需要记住此步骤 11）。
+     这些是无需解释，是否您使用的 IPv4 或 IPv6 地址，并且您将应用这些地址上边缘服务器内部或外部 （需要记住此步骤 11）。
     
-    > [!NOTE]
-    > 与其他两种拓扑结构选项，使用硬件负载平衡器时，您**不得**选择**边缘池的外部 IP 地址由 NAT 转换**选项。 这**不受支持**。
+     > [!NOTE]
+     > 与其他两种拓扑结构选项，使用硬件负载平衡器时，您**不得**选择**边缘池的外部 IP 地址由 NAT 转换**选项。 这**不受支持**。
   
 9. 在“外部 FQDN”屏幕上，你的选择取决于你在上面的步骤 7 中所作的选择。
     

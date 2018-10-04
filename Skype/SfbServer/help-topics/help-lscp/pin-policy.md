@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 4bb92cf410f0acfdee33ad5f197a420c422e5de3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2fd111f3572d2fba4450e7d71f5bb8d190cec80b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254516"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371436"
 ---
 # <a name="pin-policy"></a>PIN 策略
 
@@ -30,7 +30,7 @@ ms.locfileid: "23254516"
 
 - [在 Skype for Business Server 2015 中删除 PIN 策略](../../manage/authentication/delete-a-pin-policy.md)
 
- **使用电话拨入式会议 PIN 策略**此 PIN 策略允许您通过输入 PIN 作为经过身份验证的用户加入电话拨入式会议的组织中具有 Active Directory 域服务凭据的用户。
+  **使用电话拨入式会议 PIN 策略**此 PIN 策略允许您通过输入 PIN 作为经过身份验证的用户加入电话拨入式会议的组织中具有 Active Directory 域服务凭据的用户。
 - [创建或修改站点或用户组的电话拨入式会议 PIN 设置](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
 - [修改默认电话拨入式会议 PIN 设置](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)

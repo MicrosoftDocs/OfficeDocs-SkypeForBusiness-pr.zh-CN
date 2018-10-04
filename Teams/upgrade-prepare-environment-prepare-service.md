@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b877ecac39c98d6dd77fc3617c2cf7bd4da332eb
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7858737dc69f076ca059aca9de5437cb3cb88e52
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015226"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374593"
 ---
 ![升级旅程，重点强调的技术的准备阶段的阶段](media/upgrade-banner-tech-readiness.png "升级旅程，重点强调的技术的准备阶段的阶段")
 
@@ -60,8 +60,8 @@ ms.locfileid: "25015226"
 >常见团队和 Skype 业务 online 之间了大部分的配置设置。 使用 Microsoft 团队 & Business Admin Center 的 Skype 配置这些设置。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>决策点</td><td><ul><li>谁将负责监督入职培训清单完成？</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>后续步骤</td><td><ul><li>下载入职培训清单。</li><li>通过按照贵组织的部署计划分步入职培训清单项目工作。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>谁将负责监督入职培训清单完成？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>下载入职培训清单。</li><li>通过按照贵组织的部署计划分步入职培训清单项目工作。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

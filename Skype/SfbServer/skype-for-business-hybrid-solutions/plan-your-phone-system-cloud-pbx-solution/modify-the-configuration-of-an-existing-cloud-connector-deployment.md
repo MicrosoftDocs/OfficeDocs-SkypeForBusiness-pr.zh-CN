@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: 按照本主题可修改现有的 Skype 商务云连接器版 1.4.1 或更高版本的部署的配置中的步骤。
-ms.openlocfilehash: fe226e67f6f492e0fae7473156908cd4a5147ea2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: be3c7cbbc1395000dbb84bab0c9be0a866fb4403
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885801"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375370"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>修改现有云连接器部署的配置
  
@@ -31,75 +31,75 @@ ms.locfileid: "23885801"
   
 1. 运行以下 cmdlet 以卸载主机服务器上的所有现有虚拟机： 
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 2. 运行以下 cmdlet 以注销该设备：
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 3. 更新设备目录中的 CloudConnector.ini 文件。
     
 4. 运行以下 cmdlet 以更新配置: （此步骤仅适用的版本 2; 早期版本，请跳到下一步。）
     
-  ```
+   ```
    Import-CcConfiguration 
-  ```
+   ```
 
 5. 运行以下 cmdlet 以重新注册该设备：
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 6. 运行以下 cmdlet 以安装 Skype for Business 云连接器版本：
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 如果站点中有多台设备，则需执行以下步骤：修改 CloudConnector.ini 文件，并逐一重新部署设备。
   
 1. 运行以下 cmdlet 以卸载当前设备上的所有现有虚拟机： 
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 2. 运行以下 cmdlet 以注销该设备：
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 3. 更新设备目录中的 CloudConnector.ini 文件。
     
 4. 运行以下 cmdlet 以更新配置: （此步骤仅适用的版本 2; 早期版本，请跳到下一步。）
     
-  ```
+   ```
    Import-CcConfiguration 
-  ```
+   ```
 
 5. 运行以下 cmdlet 以重新注册该设备：
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 6. 对站点中的所有其他设备运行以下 cmdlet，以获取最新配置：
     
-  ```
-  Publish-CcAppliance
-  ```
+   ```
+   Publish-CcAppliance
+   ```
 
 7. 运行以下 cmdlet，以在当前的设备上重新部署云连接器：
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 ## <a name="modify-the-configuration-of-multiple-sites"></a>修改多个站点的配置
 <a name="BKMK_MultipleSites"> </a>
@@ -115,45 +115,45 @@ ms.locfileid: "23885801"
   
 1. 网站的 EnableAutoUpdate 属性必须设置为 true （默认值）。 运行以下 cmdlet 以确保 EnableAutoUpdate 设置为 true：
     
-  ```
-  Get-CsHybridPSTNSite -Identity <SiteName>
-  ```
+   ```
+   Get-CsHybridPSTNSite -Identity <SiteName>
+   ```
 
 2. 为租户创建自动更新时间窗口。
     
     时间窗口可以是每日、每周和每月。所有时间窗口都需要指定开始时间和持续时间。
     
-  - 对于每日时间窗口，只需要指定开始时间和持续时间。 
+   - 对于每日时间窗口，只需要指定开始时间和持续时间。 
     
-  - 对于每周时间窗口，需要指定星期几，可以是一天或多天。
+   - 对于每周时间窗口，需要指定星期几，可以是一天或多天。
     
-  - 对于每月时间窗口，可以是两种类型。第一种类型是指定月中几号，可以是一天。第二种类型是指定月中哪周和星期几，两者都可以是单个项或多个项。
+   - 对于每月时间窗口，可以是两种类型。第一种类型是指定月中几号，可以是一天。第二种类型是指定月中哪周和星期几，两者都可以是单个项或多个项。
     
-  - 最多可为每个租户定义 20 个时间窗口。系统会为新租户创建默认时间窗口以用作操作系统更新和 Bits 更新的默认时间窗口。运行以下 cmdlet 以设置每日、每周或每月时间窗口：
+   - 最多可为每个租户定义 20 个时间窗口。系统会为新租户创建默认时间窗口以用作操作系统更新和 Bits 更新的默认时间窗口。运行以下 cmdlet 以设置每日、每周或每月时间窗口：
     
-  ```
-  New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
+   ```
 
-  - 将更新时间窗口分配给站点。 
+   - 将更新时间窗口分配给站点。 
     
-    位更新时间窗口和操作系统更新时间窗口是单独配置的。 可以为位更新和操作系统更新分配单个或多个时间窗口。 可以将每个时间窗口分配给不同站点和不同用途（位更新和操作系统更新）。 运行以下 cmdlet 为站点设置时间窗口： 
+     位更新时间窗口和操作系统更新时间窗口是单独配置的。 可以为位更新和操作系统更新分配单个或多个时间窗口。 可以将每个时间窗口分配给不同站点和不同用途（位更新和操作系统更新）。 运行以下 cmdlet 为站点设置时间窗口： 
     
-  ```
-  Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
-  ```
+   ```
+   Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
+   ```
 
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>更新专用租户管理员凭据
 <a name="BKMK_MultipleSites"> </a>
@@ -178,11 +178,11 @@ Set-CcCredential -AccountType TenantAdmin
   
 1. 运行以下命令，以检索稍后将需要的密码： 
     
-  - Get CcCredential-AccountType DomainAdmin DisplayPassword
+   - Get CcCredential-AccountType DomainAdmin DisplayPassword
     
-  - Get-CcCredential -AccountType VMAdmin -DisplayPassword
+   - Get-CcCredential -AccountType VMAdmin -DisplayPassword
     
-  - Get CcCredential-AccountType CceService DisplayPassword
+   - Get CcCredential-AccountType CceService DisplayPassword
     
 2. 在主机服务器上更改帐户的密码。
     
@@ -226,17 +226,17 @@ Set-CcCredential -AccountType TenantAdmin
   
 1. 运行以下命令以检索的帐户名称和稍后将用的密码：
     
-  ```
-  Get-CcCredential -AccountType TenantAdmin -DisplayPassword
-Get-CcCredential -AccountType TenantAdmin
-Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
-Get-CcCredential -AccountType OMSWorkspace 
-Get-CcCredential -AccountType ExternalCert -DisplayPassword
-Get-CcCredential -AccountType CABackupFile -DisplayPassword
-Get-CcCredential -AccountType CceService -DisplayPassword
-Get-CcCredential -AccountType VMAdmin -DisplayPassword
-Get-CcCredential -AccountType DomainAdmin -DisplayPassword
-  ```
+   ```
+   Get-CcCredential -AccountType TenantAdmin -DisplayPassword
+   Get-CcCredential -AccountType TenantAdmin
+   Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
+   Get-CcCredential -AccountType OMSWorkspace 
+   Get-CcCredential -AccountType ExternalCert -DisplayPassword
+   Get-CcCredential -AccountType CABackupFile -DisplayPassword
+   Get-CcCredential -AccountType CceService -DisplayPassword
+   Get-CcCredential -AccountType VMAdmin -DisplayPassword
+   Get-CcCredential -AccountType DomainAdmin -DisplayPassword
+   ```
 
 2. 运行 Enter CcUpdate cmdlet 排出设备，并将其移到手动维护模式。
     
@@ -250,29 +250,29 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
 6. 默认情况下，VmAdmin 和 DomainAdmin 与 CceService 使用相同的密码。如果第 1 步中返回的 DomainAdmin、VMAdmin 和 CceService 密码不同，则必须执行以下步骤：
     
-1. 按如下所述运行 Set-CcCredential -AccountType DomainAdmin：
+7. 按如下所述运行 Set-CcCredential -AccountType DomainAdmin：
     
-  - 当系统提示输入旧帐户凭据时，请输入用于 CceService 密码的凭据。
+   - 当系统提示输入旧帐户凭据时，请输入用于 CceService 密码的凭据。
     
-  - 当系统提示输入新帐户凭据时，请输入第 1 步中返回的用作 DomainAdmin 密码的密码。
+   - 当系统提示输入新帐户凭据时，请输入第 1 步中返回的用作 DomainAdmin 密码的密码。
     
-2. 按如下所述运行 Set-CcCredential -AccountType VmAdmin：
+8. 按如下所述运行 Set-CcCredential -AccountType VmAdmin：
     
-  - 当系统提示输入旧帐户凭据时，请输入用于 CceService 密码的凭据。
+   - 当系统提示输入旧帐户凭据时，请输入用于 CceService 密码的凭据。
     
-  - 当系统提示输入新帐户凭据时，请输入第 1 步中返回的用作 VmAdmin 密码的密码。 
+   - 当系统提示输入新帐户凭据时，请输入第 1 步中返回的用作 VmAdmin 密码的密码。 
     
-7. 运行退出 CcUpdate cmdlet 将移动设备脱离手动维护模式。
+9. 运行退出 CcUpdate cmdlet 将移动设备脱离手动维护模式。
     
-8. 完成相同的 PSTN 网站中的所有装置这些步骤后，删除网站的根目录中的以下文件：
+10. 完成相同的 PSTN 网站中的所有装置这些步骤后，删除网站的根目录中的以下文件：
     
-  - CcLockFile
+    - CcLockFile
     
-  - Site_\<边缘外部 Sip 池 fqdn\>
+    - Site_\<边缘外部 Sip 池 fqdn\>
     
-  - Tenant_\<边缘外部 Sip 池 fqdn\>
+    - Tenant_\<边缘外部 Sip 池 fqdn\>
     
-  - TenantConfigLock_\<边缘外部 Sip 池 fqdn\>
+    - TenantConfigLock_\<边缘外部 Sip 池 fqdn\>
     
 ## <a name="add-a-new-sip-domain"></a>添加新 SIP 域 
 <a name="BKMK_UpdatePassword"> </a>
@@ -287,9 +287,9 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
 4. 按如下所述设置新边缘外部证书的路径：
     
-  ```
-  Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
+   ```
 
 5. 
     
@@ -308,49 +308,49 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
 4. 按如下所述设置新边缘外部证书的路径：
     
-  ```
-  Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
+   ```
 
 5. 
     
     删除站点中的每个装置的租户注册，通过运行以下 cmdlet 在管理员 PowerShell 云连接器上：
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 6. 
     
     通过在 Skype for Business Online PowerShell 中运行以下 cmdlet 来删除每个网站的网站注册：
     
-  ```
-  Remove-CsHybridPSTNSite
-  ```
+   ```
+   Remove-CsHybridPSTNSite
+   ```
 
 7. 
     
     卸载每个设备上云连接器管理员 PowerShell 中运行以下 cmdlet:
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 8. 
     
      通过运行以下 cmdlet 在管理员 PowerShell 云连接器上注册每个设备：
     
-  ```
-  Register-ccAppliance
-  ```
+   ```
+   Register-ccAppliance
+   ```
 
 9. 
     
      安装每个设备，逐个，通过云连接器上管理员 PowerShell 中运行以下 cmdlet:
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 ## <a name="replace-the-external-edge-certificate-with-a-new-certificate"></a>外部边缘证书替换为新的证书
 <a name="BKMK_UpdatePassword"> </a>
@@ -361,9 +361,9 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
 2. 运行以下命令： 
     
-  ```
-  Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
+   ```
 
 3. 
     

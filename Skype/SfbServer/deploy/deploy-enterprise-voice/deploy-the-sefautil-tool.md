@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: 为业务 Server 部署中 Skype 的 SEFAUtil 工具。
-ms.openlocfilehash: dfb2b1e4634332fcf88fdce7b09a02f925dd120e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fc8b26dbc0f81be3ea7dd9f0fc3f5c728d49e965
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884798"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375257"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>部署中的业务的 Skype 的 SEFAUtil 工具
  
@@ -57,9 +57,9 @@ ms.locfileid: "23884798"
   
 5. 启用包含您的更改的拓扑。在命令行中运行：
     
-  ```
-  Enable-CsTopology
-  ```
+   ```
+   Enable-CsTopology
+   ```
 
 6. 如果尚未准备好，下载 Business Server 版 SEFAUtil 工具 Skype 从[该位置](https://www.microsoft.com/en-us/download/details.aspx?id=52631)，并安装您在步骤 3 中创建它的受信任应用程序池。
     
@@ -69,9 +69,9 @@ ms.locfileid: "23884798"
     
     b. 显示用户的呼叫转接设置。 在命令行中运行：
     
-  ```
-  SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
-  ```
+   ```
+   SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
+   ```
 
 将显示用户的呼叫转接设置。
     

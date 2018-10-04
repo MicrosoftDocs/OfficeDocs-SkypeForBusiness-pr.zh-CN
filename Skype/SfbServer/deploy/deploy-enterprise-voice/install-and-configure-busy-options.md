@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: 阅读有关如何安装和配置忙选项中 Skype 业务服务器。
-ms.openlocfilehash: 2cca6c3b1075e1f5c7f1674a8e5609b49300bba6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 3cf197f58dda13ab0c1af2077a6eb0fb59dafcc4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884101"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370806"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>安装和配置适用于 Skype for Business Server 的忙碌选项
 
@@ -49,9 +49,9 @@ ms.locfileid: "23884101"
 
 1. 运行[Set-csvoicepolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps) cmdlet 来全局启用忙选项，如下面的示例中所示：
 
-  ```
-  Set-CsVoicePolicy -EnableBusyOptions $true
-  ```
+   ```
+   Set-CsVoicePolicy -EnableBusyOptions $true
+   ```
 
 2. 接下来，如果站点具备语音策略，则必须按如下所示为该语音策略启用忙碌选项：
 

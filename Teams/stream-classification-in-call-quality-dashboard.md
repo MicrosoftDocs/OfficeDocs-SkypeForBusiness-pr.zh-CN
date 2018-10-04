@@ -22,20 +22,20 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 了解如何在 Microsoft Teams 和 Skype for Business Online 的呼叫质量仪表板中进行流质量分类。
-ms.openlocfilehash: 47658f0ce2b2860ce4dc7275c90b962f4e17968f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 43c3e876b041e8a586b43d21f049731e3450a1a4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018788"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374322"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>通话质量仪表板中的流分类
 
-呼叫质量仪表板 (CQD) 的 Microsoft 团队和 Skype 业务 online 使您能够获得见解进行业务服务使用的 Microsoft 团队和 Skype 的呼叫的质量。 本主题提供有关媒体流质量分类的详细信息。 若要了解有关 CQD 以及如何启用它的详细信息，请参阅[打开和使用呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)。
+The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to enable it, see [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
 
 ## <a name="classifier-definitions"></a>分类器定义
 
-基于可用关键质量度量的值，CQD 中的流被分类为“好”、“差”或“未经分类”。 下表显示了用于流分类的指标和条件。 可以使用 CQD 的 "Poor Due To" 维度来了解哪个指标导致分类为“差”。 参阅[呼叫质量仪表板中提供的维度和度量](dimensions-and-measures-available-in-call-quality-dashboard.md)，了解更多关于这些维度的信息。
+Streams in CQD are classified as good, poor, or unclassified based on the values of the available key quality metrics. The metrics and conditions used to classify stream are shown in the tables below. CQD's "Poor Due To" dimensions can be used to understand which metric is responsible for a poor classification. See [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md) for more information on these dimensions.
 
 ### <a name="audio-classifier"></a>音频分类器
 
@@ -43,7 +43,7 @@ ms.locfileid: "25018788"
 
 |**指标**|**异常条件**|**解释**|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|> 1.0|关于流降级的网络平均意见得分的平均值。 表示网络损耗和抖动对所收到的音频质量的影响程度。|
+|Audio Degradation Avg|> 1.0|Average Network Mean Opinion Score degradation for stream. Represents how much the network loss and jitter has impacted the quality of received audio.|
 |Round Trip|> 500|计算的平均网络传播往返时间，根据 RFC3550 以毫秒为单位指定。|
 |Packet Loss Rate|> 0.1|流的平均丢包率。|
 |Jitter|> 30|流的平均抖动值，以毫秒为单位。|
@@ -55,7 +55,7 @@ ms.locfileid: "25018788"
 
 |**步骤编号**|**指标**|**异常条件**|**如果条件为真的分类**|**如果条件为假的分类**|**如果指标不可用的分类**|**解释**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|继续前往步驟 2|向用户显示的视频帧丢失平均百分比。 其中包括从网络丢失恢复的帧。|
+|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|继续前往步驟 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|< 7|Poor|Good|继续前往步驟 3|在会话持续期间计算到的视频流每秒接收的平均帧数。|
 |3|Video Post FECPLR|> 0.15|Poor|Good|Unclassified|数据包丢失率应用 FEC 后聚合跨所有视频流和编解码器。|
 
@@ -65,7 +65,7 @@ VBSS 流根据第一个可用指标的值按以下顺序标记为“好”或“
 
 |**步骤编号**|**指标**|**异常条件**|**如果条件为真的分类**|**如果条件为假的分类**|**如果指标不可用的分类**|**解释**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|继续前往步驟 2|向用户显示的视频帧丢失平均百分比。 其中包括从网络丢失恢复的帧。|
+|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|继续前往步驟 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|<2|Poor|Good|继续前往步驟 3|在会话持续期间计算到的视频流每秒接收的平均帧数。|
 |3|Video Post FECPLR|> 0.15|Poor|Good|Unclassified|数据包丢失率应用 FEC 后聚合跨所有视频流和编解码器。|
 
@@ -73,32 +73,33 @@ VBSS 流根据第一个可用指标的值按以下顺序标记为“好”或“
 
 如果满足以下一个或多个条件，则应用程序共享流标记为“差”：
 
-**指标**|**异常条件**|**解释**|
-|:-----|:-----|:-----|
-|Spoiled Tile Percent Total|> 36|图块，而不是 （例如，从到查看器 MCU) 发送到远程对等方被丢弃的百分比。 丢弃 （或损坏） 平铺可能是由客户端和服务器之间的带宽限制导致的。|
-|AppSharing RDP Tile Processing Latency Average|> 400|在会议服务器上处理 RDP 堆栈图块的平均延迟，以毫秒为单位。|
-|AppSharing Relative OneWay Average|> 1.75|以秒为单位的应用程序共享流终结点之间相对单向延迟的平均时间。|
+
+| **指标**                                     | **异常条件** | **解释**                                                                                                                                                                                                        |
+|:-----------------------------------------------|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Spoiled Tile Percent Total                     | > 36          | Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server. |
+| AppSharing RDP Tile Processing Latency Average | > 400         | 在会议服务器上处理 RDP 堆栈图块的平均延迟，以毫秒为单位。                                                                                                                          |
+| AppSharing Relative OneWay Average             | > 1.75        | 以秒为单位的应用程序共享流终结点之间相对单向延迟的平均时间。                                                                                                                       |
 
 ## <a name="unclassified-streams"></a>未经分类的流
 
 在 CQD 中，当 ICE 连接失败或者没有报告计算流分类所需的所有指标时，流标记为未经分类。
 
-要检查 ICE 连接故障，请检查 "First Connectivity Ice" 和 "Second Connection Ice" 维度是否为 "FAILED" 值。 如果任一值指示失败，则该流将被标记为未经分类。
+To check for ICE connectivity failures, examine the dimensions "First Connectivity Ice" and "Second Connectivity Ice" for a "FAILED" value. If either value indicates a failure, the stream will be marked as unclassified.
 
-如果未经分类的流成功执行 ICE 连接，则该流可能被视为未经分类，因为未报告关键流指标。 这些指标可能不会被报告的原因有几个：
+If ICE connectivity succeeded for an unclassified stream, the stream is likely considered unclassified because key stream metrics were not reported. There are a few reasons these metrics may not be reported:
 
-- **没有收到 QoE 报告** - 用于分类的指标在呼叫结束时发送的 QoE 报告中予以报告。 如果未生成此报告（例如，由于某些第三方端点可能不发送 QoE）或无法发送（例如，由于网络中断），CQD 无法对流进行分类。
-
-> [!TIP]
-> "QoE Record Available" 维度可用于确定是否收到某个流的 QoE 报告。 请注意，如果从任一端点接收到 QoE 报告，则此维度的值将为 "True"。 为了最准确地报告指标，需要两个端点的 QoE 报告。
-
-- **短时间呼叫** - 短时间呼叫可能没有足够的媒体活动来计算关键流指标。 如果没有这些指标，CQD 无法对流进行分类。
+- **QoE reports were not received** - The metrics used for classification are reported in a QoE report sent at the end of a call. If this report is not produced (e.g., because some third-party endpoints may not send QoE) or was not able to be sent (e.g., because of a network outage), CQD is unable to classify the stream.
 
 > [!TIP]
-> 可以使用 "Duration (Seconds)"、"Duration (Minutes)"、"Duration 5 seconds or less" 和 "Duration 60 seconds or more" 等维度来确定流的持续时间。 "Avg Call Duration" 度量也可用于计算一组流的平均持续时间。
+> The "QoE Record Available" dimension can be used to determine whether a QoE report was received for a stream. Note that this dimension will have a value of "True" if a QoE report was received from either endpoint. A QoE report from both endpoints is required for the most accurate reporting of metrics.
 
-- **低数据包利用率** - 就像“短时间呼叫”情况那样，关键流指标的计算需要足够的数据包利用率。 如果没有这些指标，CQD 无法对流进行分类。
-    - 当用户加入会议来聆听演讲者但从不说话（可能像在大多数呼叫中那样将麦克风静音）时，会出现常见的低数据包利用率。 在这种情况下，一个音频流将具有高数据包利用率（入站到客户端），而另一个音频流几乎不具有数据包利用率（从客户端出站）。 在这种情况下，流的持续时间可能为一小时或更长，但由于麦克风被静音，从客户端到服务器的流数据包利用率将非常低，从而导致未分类的流。
+- **Short calls** - Short calls may not have enough media activity to compute key stream metrics. Without these metrics, CQD is unable to classify the stream.
+
+> [!TIP]
+> The dimensions "Duration (Seconds)", "Duration (Minutes)", "Duration 5 seconds or less", and "Duration 60 seconds or more" can be used to determine the duration of a stream. The measurement "Avg Call Duration" can also be used to compute the average duration for a set of streams.
+
+- **Low packet utilization** - Like the "short call" scenario, sufficient packet utilization is required for computation of key stream metrics. Without these metrics, CQD is unable to classify the stream.
+    - A common low packet utilization scenario occurs when a user joins a meeting to listen to the presenter but never speaks (likely muting the microphone for most of the call). In such a scenario, one audio stream will have high packet utilization (inbound to the client) while the other will have little to no packet utilization (outbound from the client). In this scenario, the duration of the stream may be an hour or longer but the packet utilization on the stream from the client to the server will be extremely low due to the microphone being muted, resulting in an unclassified stream.
 
 > [!TIP]
 > "Packet Utilization" 维度和 "Avg Packet Utilization" 度量可用于确定流的数据包活动。

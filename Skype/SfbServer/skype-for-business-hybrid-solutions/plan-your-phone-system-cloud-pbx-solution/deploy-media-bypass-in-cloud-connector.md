@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: 阅读本主题可了解部署步骤媒体绕过与云连接器 Edition 2.0 及更高版本。
-ms.openlocfilehash: ec6647c5d95701ea18a6d403132d50ae8e8ad8dc
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 841a243b236219fc70c99264249567f2eee63081
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890640"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375497"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>在云连接器版本中部署媒体旁路
  
@@ -148,33 +148,33 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
     
     阿姆斯特丹
     
-  - Type A;
+   - Type A;
     
-  - Name : hybridvoice in the adatum.biz DNS zone
+   - Name : hybridvoice in the adatum.biz DNS zone
     
-  - Target: 192.168.1.45
+   - Target: 192.168.1.45
     
-    为其他中介服务器创建附加记录
+     为其他中介服务器创建附加记录
     
-  - 192.168.1.46
+   - 192.168.1.46
     
-  - 192.168.1.47
+   - 192.168.1.47
     
-  - 192.168.1.48
+   - 192.168.1.48
     
-    西雅图
+     西雅图
     
-  - Type A
+   - Type A
     
-  - Name : hybridvoice in adatum.biz DNS zone
+   - Name : hybridvoice in adatum.biz DNS zone
     
-  - Target: 10.10.1.8
+   - Target: 10.10.1.8
     
-    为其他中介服务器创建附加记录
+     为其他中介服务器创建附加记录
     
-  - 10.10.1.9
+   - 10.10.1.9
     
-  - 10.10.1.10
+   - 10.10.1.10
     
 4. 创建可将客户端子网连接至相应区域范围以确保所需 DNS 解析的 DNS 策略。
     

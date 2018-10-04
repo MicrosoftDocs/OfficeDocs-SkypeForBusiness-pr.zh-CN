@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
-ms.openlocfilehash: 6df9574bb6d999e4800c727f6cbabe0aa68818e9
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f4428a0f3ec5e1da5267c23f9064815206262893
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244193"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373841"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>未分配的电话号码： 创建新的或编辑现有的
 
@@ -51,7 +51,7 @@ ms.locfileid: "23244193"
 
   - **通知**选择要为此未分配号码范围播放的通知。
 
--  如果选择**Exchange UM** **通知**服务：
+- 如果选择**Exchange UM** **通知**服务：
 
   - **自动助理电话号码**选择 Exchange UM 自动助理的电话号码。
 

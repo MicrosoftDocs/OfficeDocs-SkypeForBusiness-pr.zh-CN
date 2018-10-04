@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 摘要： 查看有关如何为业务 Server 与 Exchange Server 2016 或 Exchange Server 2013 中集成 Skype 本主题。
-ms.openlocfilehash: 0fc7975e35d84cf6fda75addacee9ffbb8f25b52
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e46775a7a57702cd71293f2343aa2bf089491393
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013235"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374215"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>计划集成 Skype for Business 和 Exchange
  
@@ -71,10 +71,10 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 
 > [!NOTE]
 > 上述命令中的 Identity 参数是可选的;这是因为 Skype 业务服务器仅允许您具有 OAuth 配置设置的单个的全局集合。 除了其他含义之外，这还表示您可使用这种略为简单的命令配置自动发现 URL： 
-  
+> 
 > [!NOTE]
-> 设置-CsOAuthConfiguration ExchangeAutodiscoverUrl"https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
-  
+> 设置-CsOAuthConfiguration ExchangeAutodiscoverUrl"<https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc>" 
+> 
 > [!NOTE]
 > 如果您不熟悉该技术，OAuth 是由大量网站使用的标准身份验证协议。借助 OAuth，不会将用户凭据和密码从一台计算机传递到另一台计算机。但是，身份验证和授权是基于安全令牌的交换；这些令牌会将访问权限授予特定时间量的一组特定资源。 
   

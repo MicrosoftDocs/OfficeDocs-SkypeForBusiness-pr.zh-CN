@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: 创建或修改业务 Server 企业语音的呼叫寄存通道范围表 Skype 中。
-ms.openlocfilehash: 8c9ff275e384148fb6e40f96bd26e7273809f25a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6892c48c95b7c5e84242a1456855e869a70e532b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883878"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370689"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>创建或修改呼叫寄存通道范围中的业务的 Skype
 
@@ -46,12 +46,12 @@ ms.locfileid: "23883878"
 
 4. 在“呼叫寄存”**** 页上，执行下列操作之一：
 
-  - 若要创建新的通道范围，请单击“新建”****。在“名称”**** 中，键入此号码范围的标识名称。
+   - 若要创建新的通道范围，请单击“新建”****。在“名称”**** 中，键入此号码范围的标识名称。
 
-    > [!NOTE]
-    > 在将通道范围提交到数据库后，将无法更改该名称。
+     > [!NOTE]
+     > 在将通道范围提交到数据库后，将无法更改该名称。
 
-  - 若要修改现有通道范围，请在搜索字段中键入通道范围的全部或部分名称。在通道的结果列表中，单击所需的通道，再单击“编辑”****，然后单击“显示详细信息”****。
+   - 若要修改现有通道范围，请在搜索字段中键入通道范围的全部或部分名称。在通道的结果列表中，单击所需的通道，再单击“编辑”****，然后单击“显示详细信息”****。
 
 5. 在第一个“号码范围”**** 字段中，键入此呼叫寄存通道的分机范围中的起始号码，在第二个“号码范围”**** 字段中，键入该范围的结束号码。 注意：
 

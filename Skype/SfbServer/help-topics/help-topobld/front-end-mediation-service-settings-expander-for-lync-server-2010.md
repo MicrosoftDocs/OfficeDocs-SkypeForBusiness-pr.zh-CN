@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
 description: 编辑此对话框中的中介服务器 PSTN 网关设置的属性。 定义以下设置：
-ms.openlocfilehash: fa3038e8480fb11430388c95914750ab1d9ca68c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a70ec5e569b60c28e8ec91e86d09ac5f5285ee00
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971986"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371489"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Lync Server 2010 的前端中介服务设置扩展器
  
@@ -34,10 +34,10 @@ ms.locfileid: "20971986"
     
 - 选择一个中继、网关和站点并单击“**设为默认值**”以将选择设置为此中介服务的默认值。选择当前的默认值并单击“**取消设为默认值**”以取消将选择设置为当前默认值。然后选择一个新的默认值并单击“**设为默认值**”。
     
- **确定** 接受更改并通过对话框提交更改。
+  **确定** 接受更改并通过对话框提交更改。
   
- **取消** 放弃更改并关闭对话框。
+  **取消** 放弃更改并关闭对话框。
   
- **帮助** 显示此帮助屏幕。
+  **帮助** 显示此帮助屏幕。
   
 

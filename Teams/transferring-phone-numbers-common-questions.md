@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 以下是有关常见问题到 for Business 的 Skype 转接电话号码。 复查答案，您应该已准备好创建端口订单和转接电话号码。 请参阅到 Office 365 的转接电话号码的说明。
-ms.openlocfilehash: 62829fff57b234380d93240183ddf8700855cb39
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8a260d1d59668a583f6bdda24bb88472a68c1f43
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015298"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375868"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>关于转移电话号码的常见问题
 
@@ -69,7 +69,7 @@ ms.locfileid: "25015298"
     
 - Skype 业务混合电话号码。 如果您想要传输这些号码，您需要电子邮件发送给我们在<ptn@microsoft.com>。
     
- **你无法转移：**
+  **你无法转移：**
   
 > [!NOTE]
 > [!重要信息] 目前，你无法转移支持的国家/地区的任何电话号码，包括来自 VoIP 电话提供商的电话号码。 若要查看受支持的国家/地区的列表，请参阅[国家和地区音频会议和调用计划的可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

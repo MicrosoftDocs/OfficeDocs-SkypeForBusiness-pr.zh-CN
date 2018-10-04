@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: 阅读本主题可了解如何在混合环境中部署 Skype 会议室系统。
-ms.openlocfilehash: ce57178a03a466b76edfbafdcc467d9458028845
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4e73b182f7e957f6f8a45e2ba0ccaa113a96411f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997291"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375278"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype 会议室系统混合部署
  
@@ -28,9 +28,9 @@ ms.locfileid: "20997291"
   
 1. 通过 Exchange Online 设置中所述，连接到 Exchange Online 命令行管理程序创建 Exchange 管理员中心 (LyncSample.ccsctp.net) 中的资源邮箱。
     
-  ```
-  New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
-  ```
+   ```
+   New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
+   ```
 
     您可以验证 OWA 连接使用 lrstest5@LyncSample.ccsctp.net 登录。
     
@@ -44,8 +44,8 @@ ms.locfileid: "20997291"
     
     在创建邮箱之后，你可以在 Exchange Online 命令行管理程序上使用 Set-CalendarProcessing 来配置邮箱。有关更多详细信息，请参阅“单林本地部署”下的步骤 3 至 6。
     
-    > [!NOTE]
-    > 如果您有与 Exchange Server 和 Exchange Online 的混合环境，请转到 Exchange 命令行管理程序和 Enable-remotemailbox lrstest5@LyncSample.com-RemoteRoutingAddress lrstest5@LyncSample.mail.ccsctp.net-聊天室。 随后将触发目录同步。 
+   > [!NOTE]
+   > 如果您有与 Exchange Server 和 Exchange Online 的混合环境，请转到 Exchange 命令行管理程序和 Enable-remotemailbox lrstest5@LyncSample.com-RemoteRoutingAddress lrstest5@LyncSample.mail.ccsctp.net-聊天室。 随后将触发目录同步。 
   
     如果您想要驻留在 Exchange 在联机 Skype 会议室系统邮箱，这些 Exchange 命令行管理程序步骤不需要，可以继续执行步骤 6。
     

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 通过配置以下属性编辑边缘服务器或边缘池的设置：
-ms.openlocfilehash: e09f20840627af19f1f9f2fa33dc5ab5f6b342f3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3a3dd5fa1521bf23252bef85c3c26842258413f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975926"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371579"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>编辑 Lync Server 2010 的边缘设置扩展器
  
@@ -34,14 +34,14 @@ ms.locfileid: "20975926"
   
 - **内部配置复制端口 (HTTPS)**，默认情况下，在 TCP 端口 4443，是端口的本地 (即，本地到边缘服务器) 的中央管理存储副本都通过复制。 在**RTCLOCAL**数据库中每台计算机上的 SQL Server 中央管理存储的本地副本。 复制是单向，启动从中央管理服务器 （或包含中央管理服务器角色的前端服务器或前端池） 到边缘服务器，内部接口端口。
     
- **下一个跃点选择**
+  **下一个跃点选择**
   
 - 列表中选择**下一个跃点池**。 控制器池，假定此角色的前端服务器或前端池，您可以定义控制器。 下一个跃点池是服务器或将接受从边缘服务器的入站的 SIP 消息的服务器池或边缘池内部接口和发送出站 SIP 到边缘内部接口。
     
     > [!NOTE]
     > Director 是一个可选角色，如果您决定不部署控制器，前端服务器 （单个计算机或池） 将假定控制器角色。 
   
- **外部设置**
+  **外部设置**
   
 本节中的属性，可以编辑的边缘服务器或边缘池的外部设置的属性。 可编辑以下属性：
   
@@ -61,10 +61,10 @@ ms.locfileid: "20975926"
     > [!IMPORTANT]
     > 如果选择了**启用单独的 FQDN 和 IP 地址的 web 会议和 A / V**复选框，只是访问边缘服务池 FQDN 以供编辑。 三种边缘服务的每个分配不同的端口。
   
- **确定** 接受更改并通过对话框提交更改。
+  **确定** 接受更改并通过对话框提交更改。
   
- **取消** 放弃更改并关闭对话框。
+  **取消** 放弃更改并关闭对话框。
   
- **帮助** 显示此帮助屏幕。
+  **帮助** 显示此帮助屏幕。
   
 

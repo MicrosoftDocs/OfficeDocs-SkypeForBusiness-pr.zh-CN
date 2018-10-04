@@ -22,12 +22,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: '了解如何设置域、 用户、 IM 和状态为您的组织安装 for Business 的 Skype。 另请参阅如何设置音频会议、 电话系统和调用计划，和 Skype 会议广播。 '
-ms.openlocfilehash: b4db326212b472539a483a406a7c940f0802978d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: af472553cea8a79f2fe9d918f7924f8884e834b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864486"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374472"
 ---
 # <a name="set-up-skype-for-business-online"></a>设置 Skype for Business Online
 
@@ -54,7 +54,7 @@ ms.locfileid: "23864486"
 
 Skype for Business Online 是 Office 365 服务套件的一部分。要设置 Skype for Business Online，你需要登录到 Office 365。下面介绍了如何操作：
 
-1. 查找你的 Office 365 用户 ID（例如， *rob@fourthcoffee.com*  ）。你收到了来自 Microsoft Online Services 团队的一封电子邮件，其中包含你在购买 Office 365 时创建的 Skype for Business Online 用户 ID。邮件内容如下所示：
+1. 查找你的 Office 365 用户 ID（例如， <em>rob@fourthcoffee.com</em>  ）。你收到了来自 Microsoft Online Services 团队的一封电子邮件，其中包含你在购买 Office 365 时创建的 Skype for Business Online 用户 ID。邮件内容如下所示：
 
     ![在你注册 Skype for Business Online 之后收到的欢迎电子邮件的示例。 它包含你的 Office 365 用户 ID。](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
@@ -80,11 +80,11 @@ Skype for Business Online 是 Office 365 服务套件的一部分。要设置 Sk
 
 1. **选择你的 Skype for Business 用户可以进行通信的人员：**
 
-  - [允许用户联系外部 Skype for Business 用户](allow-users-to-contact-external-skype-for-business-users.md) 你 *和*  其他企业将需要配置你的系统。
+   - [允许用户联系外部 Skype for Business 用户](allow-users-to-contact-external-skype-for-business-users.md) 你 *和*  其他企业将需要配置你的系统。
 
-    **重要** ：如果你的企业有两个域，例如 rob@contosowest.com 和 ina@contosoeast.com，你需要执行此操作，让你的所有用户之间都可以通信。
+     **重要** ：如果你的企业有两个域，例如 rob@contosowest.com 和 ina@contosoeast.com，你需要执行此操作，让你的所有用户之间都可以通信。
 
-  - [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
+   - [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
 
 2. **选择哪些人是否可以看到同事是否在线：** 状态功能显示谁处于在线状态及其可用性，例如有空、忙碌、离开或正在演示。
 
@@ -92,9 +92,9 @@ Skype for Business Online 是 Office 365 服务套件的一部分。要设置 Sk
 
     你可以为你的企业中的每个人选择默认设置：
 
-  - 自动向组织中的所有人显示某个用户的联机状态
+   - 自动向组织中的所有人显示某个用户的联机状态
 
-  - 仅向某个用户的联系人显示其联机状态
+   - 仅向某个用户的联系人显示其联机状态
 
 有关说明，请参阅[在 Skype for Business Online 中配置状态](configure-presence-in-skype-for-business-online.md)。
 

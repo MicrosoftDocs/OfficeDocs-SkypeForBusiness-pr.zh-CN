@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype 的基于视频的屏幕共享 (VbSS) 的业务服务器规划和配置信息
-ms.openlocfilehash: a658453af5f71d7bb8103411ed16c534e3004a03
-ms.sourcegitcommit: aa3258aeb5aa1296c4bb251a9d258b8896457b7b
+ms.openlocfilehash: a7ea07f02b73b1092a11f61757318d0d653e048a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23935473"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375906"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>视频基于屏幕共享的 Skype 业务服务器 
  

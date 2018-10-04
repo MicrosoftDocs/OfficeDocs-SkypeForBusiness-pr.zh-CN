@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 以下各节提供有关如何配置具有资源/用户林模型，以提供业务功能在混合方案的 Skype 中的多林环境的指南。
-ms.openlocfilehash: c07dde4db2457821a34a5419a259bfe611c3db1a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 72c0a91c3a5a90b4ec83eb5f71a5601ccfb48bb1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030726"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375104"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>配置混合 for Business 的 Skype 的多林环境
  
@@ -64,7 +64,7 @@ Skype 的企业用户驻留在本地可以具有 Exchange 驻留在本地或联�
   
 不同步林之间 Upn。 在测试期间，我们发现我们需要将唯一的 UPN 用于每个用户林，因为不能在多个林中使用相同的 UPN。 因此，出现了两种可能性：同步 UPN 或不同步。 
   
--  如果不会从每个用户林的唯一 UPN 已同步到关联的已禁用对象在资源林中，单一登录 (SSO) 将分解为至少初始登录尝试 （假定该用户选择保存密码选项）。 在业务客户端 Skype，我们假定的 SIP/UPN 值都相同。 由于在此情况下 SIP 地址是 user@company.com，但用户林中已启用对象的 UPN 实际上是 user@contoso.company.com，初始登录尝试将会失败，并且系统将提示用户输入凭锯。 在输入正确/实际 UPN 时，将会针对用户林中的域控制器完成身份验证请求，并且登录将会成功。
+- 如果不会从每个用户林的唯一 UPN 已同步到关联的已禁用对象在资源林中，单一登录 (SSO) 将分解为至少初始登录尝试 （假定该用户选择保存密码选项）。 在业务客户端 Skype，我们假定的 SIP/UPN 值都相同。 由于在此情况下 SIP 地址是 user@company.com，但用户林中已启用对象的 UPN 实际上是 user@contoso.company.com，初始登录尝试将会失败，并且系统将提示用户输入凭锯。 在输入正确/实际 UPN 时，将会针对用户林中的域控制器完成身份验证请求，并且登录将会成功。
     
 - 如果从每个用户林的唯一 UPN 已同步到关联的已禁用对象在资源林中，AD FS 身份验证将失败。 匹配的规则可找到资源林中对象的 UPN，但该 UPN 处于禁用状态，无法用于身份验证。 
     

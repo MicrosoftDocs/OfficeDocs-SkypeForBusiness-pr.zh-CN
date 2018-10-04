@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 摘要： 阅读本主题可了解有关规划业务服务器中 Skype 会议拓扑。
-ms.openlocfilehash: 3110588585291ccfb55b45750d336863fea7329b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d8e3d771eadfe47ee1d7ec15eb68051b717643bf
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006123"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375955"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>规划业务 Server Skype 的会议拓扑
  
@@ -48,9 +48,9 @@ ms.locfileid: "21006123"
 
 如果要部署电话拨入式会议，必须考虑以下事项：
   
--  电话拨入式会议 Skype 业务服务器和 PSTN 网关和 PSTN 网关翻译中介服务器与 PSTN 网关之间信号和媒体之间需要中介服务器转换信号 （和媒体的一些配置）.
+- 电话拨入式会议 Skype 业务服务器和 PSTN 网关和 PSTN 网关翻译中介服务器与 PSTN 网关之间信号和媒体之间需要中介服务器转换信号 （和媒体的一些配置）.
     
-    需要先部署企业语音或中介服务器以及至少以下某项，然后才能配置电话拨入式会议：
+   需要先部署企业语音或中介服务器以及至少以下某项，然后才能配置电话拨入式会议：
     
   - PSTN 网关
     

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 摘要： 了解如何检索、 更新和为业务服务器 2015 Skype 创建 the Centralized Logging Service 配置设置。
-ms.openlocfilehash: 163ac9607e3b690aac2f069c38e967692721d819
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 62902a25e50043f2e03eda907f4ba572249b1a60
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253116"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375599"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中管理集中日志记录服务配置设置
 
@@ -66,9 +66,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. 在命令行提示符处键入以下内容：
 
-  ```
-  Get-CsClsConfiguration
-  ```
+   ```
+   Get-CsClsConfiguration
+   ```
 
 若要创建新的配置或更新现有配置，请使用**New-csclsconfiguration**和**Set-csclsconfiguration** cmdlet。当您运行**Get-csclsconfiguration**时，它会显示类似于下面的屏幕快照，其中，部署当前具有默认的全局配置，但未定义站点配置的信息：
 
@@ -80,9 +80,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. 在命令行提示符处键入以下内容：
 
-  ```
-  Get-CsClsConfiguration -LocalStore
-  ```
+   ```
+   Get-CsClsConfiguration -LocalStore
+   ```
 
 当您使用第一个示例**Get-csclsconfiguration**没有指定任何参数，命令参考中央管理存储的数据。 如果指定参数-LocalStore，命令将引用而不是中央管理存储的计算机 LocalStore。
 ### <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a>检索当前定义的方案的列表
@@ -91,15 +91,15 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. 在命令行提示符处键入以下内容：
 
-  ```
-  Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
-  ```
+   ```
+   Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
+   ```
 
     例如，检索在全局作用域定义的方案：
 
-  ```
-  Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
-  ```
+   ```
+   Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
+   ```
 
 Cmdlet **Get-csclsconfiguration**始终显示属于给定范围内的配置的方案。 在大多数情况下，不会显示所有方案，而会截断它们。 此处使用的命令列出所有方案和有关所使用的提供程序、设置和标记的部分信息。
 ### <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>通过使用 Windows PowerShell 更新 the Centralized Logging Service 的全局作用域
@@ -108,15 +108,15 @@ Cmdlet **Get-csclsconfiguration**始终显示属于给定范围内的配置的�
 
 2. 在命令行提示符处键入以下内容：
 
-  ```
-  Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
-  ```
+   ```
+   Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
+   ```
 
-  例如：
+   例如：
 
-  ```
-  Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
-  ```
+   ```
+   Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
+   ```
 
 该命令指示部署中的每个计算机和池中的 CLSAgent 将跟踪文件上的滚动值的大小设置为 40 MB。所有站点中的计算机和池都受该命令的影响，并且会将其已配置的跟踪日志滚动值设置为 40 MB。
 ### <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>通过使用 Windows PowerShell 更新 the Centralized Logging Service 的站点作用域
@@ -125,15 +125,15 @@ Cmdlet **Get-csclsconfiguration**始终显示属于给定范围内的配置的�
 
 2. 在命令行提示符处键入以下内容：
 
-  ```
-  Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
-  ```
+   ```
+   Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
+   ```
 
-  例如：
+   例如：
 
-  ```
-  Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
-  ```
+   ```
+   Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
+   ```
 
 > [!NOTE]
 > 如示例中所示，日志文件的默认位置是 %TEMP%\Tracing。但是，由于实际上是 CLSAgent 写入该文件，而且 CLSAgent 以 Network Service 的身份运行，因此 %TEMP% 变量将展开到 %WINDIR%\ServiceProfiles\NetworkService\AppData\Local。
@@ -145,9 +145,9 @@ Cmdlet **Get-csclsconfiguration**始终显示属于给定范围内的配置的�
 
 2. 在命令行提示符处键入以下内容：
 
-  ```
-  New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
-  ```
+   ```
+   New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
+   ```
 
     > [!NOTE]
     > 利用 New-CsClsConfiguration，可以访问大量可选配置设置。 有关配置选项的详细信息，请参阅[Get-csclsconfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps)和[了解集中日志记录服务配置设置](https://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx)。
@@ -165,9 +165,9 @@ Cmdlet **Get-csclsconfiguration**始终显示属于给定范围内的配置的�
 
 2. 在命令行提示符处键入以下内容：
 
-  ```
-  Remove-CsClsConfiguration -Identity <scope and name>
-  ```
+   ```
+   Remove-CsClsConfiguration -Identity <scope and name>
+   ```
 
 例如，要删除的集中日志记录服务配置为增加的日志文件翻转时间所创建，请增加滚动更新日志文件大小，并将日志文件缓存的位置，如下所示设置到网络共享：
 

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: 了解如何配置云连接器与 Office 365 租户的集成。
-ms.openlocfilehash: 6971858b4e31fb7f98a98f5c80b9bb983a11802a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 01e5135a4b0ac6de391140bc6fc0d80bcc00e2ce
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886170"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375767"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>配置云连接器与 Office 365 租户的集成
  
@@ -42,9 +42,9 @@ Skype for Business Cloud Connector Edition 安装完成后，执行本节中的�
     
 3. 在中介服务器上导入颁发给网关的证书的根 CA 证书。如果需要为网关获取 SSL 证书，可以使用云连接器 Active Directory 计算机上运行的证书颁发机构服务执行此操作，如下所述：
     
-  - 修改现有 Web 服务器模板，以允许经过身份验证的用户注册，或创建新的 Web 服务器模板，以配置其他属性并允许经过身份验证的用户注册。 有关详细说明，请参阅[证书模板](https://technet.microsoft.com/en-us/library/cc730705.aspx)。
+   - 修改现有 Web 服务器模板，以允许经过身份验证的用户注册，或创建新的 Web 服务器模板，以配置其他属性并允许经过身份验证的用户注册。 有关详细说明，请参阅[证书模板](https://technet.microsoft.com/en-us/library/cc730705.aspx)。
     
-  - 使用证书管理单元申请证书，选择你已启用的 Web 服务器模板。 请确保使用网关的 FQDN 在“使用者名称”中添加公用名，在“备用名称”中添加 DNS 名称，并确认在“私钥”上选中“密钥选项”下的“使私钥可以导出”。 
+   - 使用证书管理单元申请证书，选择你已启用的 Web 服务器模板。 请确保使用网关的 FQDN 在“使用者名称”中添加公用名，在“备用名称”中添加 DNS 名称，并确认在“私钥”上选中“密钥选项”下的“使私钥可以导出”。 
     
 4. 使用私有密钥导出 SSL 证书，并按照 PSTN 网关供应商的说明导入证书。
     
@@ -88,9 +88,9 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
     
 3. 在中介服务器上导入颁发给网关的证书的根 CA 证书。如果需要为网关获取 SSL 证书，可以使用云连接器 Active Directory 计算机上运行的证书颁发机构服务执行此操作，如下所述：
     
-  - 修改现有 Web 服务器模板，以允许经过身份验证的用户注册，或创建新的 Web 服务器模板，以配置其他属性并允许经过身份验证的用户注册。 有关详细说明，请参阅[证书模板](https://technet.microsoft.com/library/cc730705.aspx)。
+   - 修改现有 Web 服务器模板，以允许经过身份验证的用户注册，或创建新的 Web 服务器模板，以配置其他属性并允许经过身份验证的用户注册。 有关详细说明，请参阅[证书模板](https://technet.microsoft.com/library/cc730705.aspx)。
     
-  - 使用证书管理单元申请证书，选择你已启用的 Web 服务器模板。 请确保使用网关的 FQDN 在“使用者名称”中添加公用名，在“备用名称”中添加 DNS 名称，并确认在“私钥”上选中“密钥选项”下的“使私钥可以导出”。 
+   - 使用证书管理单元申请证书，选择你已启用的 Web 服务器模板。 请确保使用网关的 FQDN 在“使用者名称”中添加公用名，在“备用名称”中添加 DNS 名称，并确认在“私钥”上选中“密钥选项”下的“使私钥可以导出”。 
     
 4. 使用私有密钥导出 SSL 证书，并按照 PSTN 网关供应商的说明导入证书。
     
@@ -170,15 +170,15 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
     
 2. 开始使用您全局租户 Azure AD 远程 PowerShell 会话或用户管理员凭据，并向"HybridMediationServer"，然后运行以下 cmdlet，以设置 Azure AD 用户帐户的部门中的配置步骤 1:
 
- ```
-  Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
-  ```
+   ```
+   Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
+   ```
 
 3. 使用您 Skype 业务租户管理凭据，然后运行以下 cmdlet 以将中介服务器和边缘服务器 FQDN 设置为该用户帐户，替换业务远程 PowerShell 会话启动租户 Skype \<DisplayName\>用户帐户的显示名称与您创建在步骤 1 中：
     
-  ```
-  Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
-  ```
+   ```
+   Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
+   ```
 
     对于“标识”，请使用你为此中介服务器创建的 Office 365 用户帐户的显示名称。
     
@@ -186,6 +186,6 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
     
     对于*EdgeServerExternalFQDN* ，使用定义为边缘服务器访问代理服务器的外部 FQDN。 如果存在多个云连接器 PSTN 站点，请选择分配给中介服务器所在站点的边缘服务器访问代理 FQDN。
     
-3. 如果存在多台云连接器中介服务器（多站点，高可用性），请对每台服务器重复执行上述步骤。
+4. 如果存在多台云连接器中介服务器（多站点，高可用性），请对每台服务器重复执行上述步骤。
     
 

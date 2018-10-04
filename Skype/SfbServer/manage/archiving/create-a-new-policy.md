@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: 摘要： 了解如何为 Skype for Business Server 创建新的存档策略。
-ms.openlocfilehash: e900bd9ac73a6e192eba7a506d713a56a69e794d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 70c955d78e6c7b259732d50c47c53e8b3bedf97c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20970356"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374407"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>为 Business Server Skype 创建新的存档策略
 
@@ -46,7 +46,7 @@ ms.locfileid: "20970356"
     
    - 要控制内部用户通信的存档，请选中或清除“**存档内部通信**”复选框。
     
-  - 要控制外部用户通信的存档，请选中或清除“**存档外部通信**”复选框。
+   - 要控制外部用户通信的存档，请选中或清除“**存档外部通信**”复选框。
     
 6. 单击“**提交**”。
     

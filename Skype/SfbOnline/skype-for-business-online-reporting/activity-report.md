@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: d13ca7f70880d7ad0f3c6376e167c6222682887d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 26b835162f0db82a7ea4631d8add24dcd9ec79dc
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855572"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374489"
 ---
 # <a name="activity-report"></a>活动报告
 
@@ -82,17 +82,17 @@ ms.locfileid: "23855572"
 ***
 ![7 号](../images/sfbcallout7.png)<br/>
 下表显示了每个用户的所有会议活动的细分。 此时将显示已分配给它们和其会议活动的业务的 Skype 的所有用户。 你可以向该表格中添加其他列。
-*    **Username**是用户的名称。
-*    " **已删除**"表示用户的许可证已删除。<br/><br/>
-    > [!NOTE]
-    > 只要他或她已授权的过程选定的时间段中的某个时间，已删除的用户的活动仍会显示在报表中。 The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
+* **Username**是用户的名称。
+* " **已删除**"表示用户的许可证已删除。<br/><br/>
+  > [!NOTE]
+  > 只要他或她已授权的过程选定的时间段中的某个时间，已删除的用户的活动仍会显示在报表中。 The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
      
-*    **Deleted date** is the date on which the user's license was removed.
-*    " **上次活动日期(UTC)**"是该用户最近参与对等会话、组织或参与会议的时间。
-*    **对等**显示的用户使用的对等会议会话的总数。
-*    " **组织会议**"显示该用户组织的会议的总数。
-*    " **参与会议**"显示该用户参与的会议总数。
-*    " **分配的产品**"表示分配给此用户的 Office 365 产品。<br/>
+* **Deleted date** is the date on which the user's license was removed.
+* " **上次活动日期(UTC)**"是该用户最近参与对等会话、组织或参与会议的时间。
+* **对等**显示的用户使用的对等会议会话的总数。
+* " **组织会议**"显示该用户组织的会议的总数。
+* " **参与会议**"显示该用户参与的会议总数。
+* " **分配的产品**"表示分配给此用户的 Office 365 产品。<br/>
 
 如果贵组织的策略阻止您查看报告可识别用户信息在哪里，您可以更改所有这些报告的隐私设置。 签出[Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)中的**隐藏用户在报告的详细信息**一节。
 ***

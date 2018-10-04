@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Skype 的业务服务器，并同时 PSTN 网关和企业语音中的 IP PBX 之间支持直接 SIP 连接。
-ms.openlocfilehash: a8af9b5a2809e175d861d3781c91ff1610c32db7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 041009c5299f441e1b0e1a05c2af1e855f13f2b8
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889681"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374579"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Skype 中的业务服务器的直接 SIP 连接
 
@@ -117,7 +117,7 @@ Skype 的业务服务器，并同时 PSTN 网关和企业语音中的 IP PBX 之
 
 - 其中网关应当位于？ 答案部分取决于，在拓扑和您的组织的地理分布。
 
- 您还应该考虑网关拓扑选项 （有关详细信息，请参阅网关拓扑本主题后面）。
+  您还应该考虑网关拓扑选项 （有关详细信息，请参阅网关拓扑本主题后面）。
 
 #### <a name="mn-trunk-support"></a>M:N 中继支持
 

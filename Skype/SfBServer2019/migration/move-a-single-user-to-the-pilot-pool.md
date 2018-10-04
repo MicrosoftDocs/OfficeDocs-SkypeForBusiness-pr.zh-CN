@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 您可以将用户从旧池移动到您 Skype 的 Skype 业务 Server 2019 控制面板或 Skype 用于业务服务器 2019年命令行管理程序的业务服务器 2019年试点池。 下面的示例中，在注册器池列中，在 pool01.contoso.net 旧池中，且所有六个这些用户连接到该池。 使用以下过程将用户移至您 Skype 业务服务器 2019年池 Skype 业务 Server 2019 Control Panel 和 Skype 用于业务 Server Management Shell。
-ms.openlocfilehash: f04cccf29fd88bf1da95f4d67f6e47c51b878717
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6742c5fc00c9d53030ac32ee698686bb8b11fa07
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028808"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372743"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>将单个用户移动到试点池
 
@@ -43,15 +43,15 @@ ms.locfileid: "25028808"
     
 2. 在命令行中键入： 
     
-  ```
-  Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
-  ```
+   ```
+   Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
+   ```
 
 3. 接下来，在命令行中，键入以下命令： 
     
-  ```
-  Get-CsUser -Identity "David Pelton"
-  ```
+   ```
+   Get-CsUser -Identity "David Pelton"
+   ```
 
 4. **RegistrarPool**标识现在指向业务服务器 2019年池 Skype。 该标识的状态，确认已成功移动该用户。 
 

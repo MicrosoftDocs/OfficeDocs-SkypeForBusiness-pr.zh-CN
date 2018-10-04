@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 摘要： 了解如何为业务服务器 Skype 中的边缘服务器的系统要求。
-ms.openlocfilehash: 3e5bdd5ad47004f7908a8bd39cb122d1f03ce96f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 05adb2fb0a4224699cf4465932eba1e7a85761e5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886967"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374869"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>为业务服务器中 Skype 边缘服务器的系统要求
  
@@ -99,7 +99,7 @@ ms.locfileid: "23886967"
     
 - 应能够使用完全限定域名 (FQDN) 在外部发布内部托管网站。
     
-- 需要能发布托管网站的所有内容。 默认情况下，您可以使用**/** 指令，大多数 web 服务器识别为表示"发布 web 服务器上的所有内容"。 您还可以修改指令 — 例如， **/Uwca/\***，这意味着"发布虚拟目录 Ucwa 下的所有内容。"
+- 需要能发布托管网站的所有内容。 默认情况下，您可以使用**/*** 指令，大多数 web 服务器识别为表示"发布 web 服务器上的所有内容"。 您还可以修改指令 — 例如，* * /Uwca/\\***，这意味着"发布虚拟目录 Ucwa 下的所有内容。"
     
 - 必须与从发布的网站请求内容的客户端建立 TLS 连接。
     

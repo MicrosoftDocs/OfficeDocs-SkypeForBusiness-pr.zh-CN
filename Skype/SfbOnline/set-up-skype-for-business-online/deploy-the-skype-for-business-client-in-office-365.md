@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: '了解如何规划和部署 Skype for Business 中小型、 中型和大型组织，并使其可供您的用户。 '
-ms.openlocfilehash: 6af2ed700783fef853052b39c60270baf86919e9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: c96d4759e25370997b9af8d42d8130d7964962df
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858792"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372568"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>部署 Office 365 中的商业客户端 Skype
 
@@ -136,7 +136,7 @@ ms.locfileid: "23858792"
     
 - [配置 Office 365 ProPlus 的更新设置](https://technet.microsoft.com/en-us/library/dn761708.aspx)
     
- **如何通常来获取功能更新**
+  **如何通常来获取功能更新**
   
 除了其中收到来自更新，您还可以控制的新功能获得业务客户端 Skype 频率。 两个选项如下所示：
   

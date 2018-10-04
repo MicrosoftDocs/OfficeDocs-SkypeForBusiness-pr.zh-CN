@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 摘要： 了解如何安装和测试 for Business Windows Phone 上的 Skype。
-ms.openlocfilehash: 90e8b99532e51399f9f76e5e12d60a3eeab84481
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0e135441a711655e42c37d0a9bd7ff4870da1d0d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978045"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372928"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Skype for Business Server 2015：安装和测试 Windows Phone 版 Skype for Business
  
@@ -46,12 +46,12 @@ Windows Phone 的业务应用程序 Skype 延伸 Skype 业务状态、 即时消
     
 5. 点击**下一页**并查看通知和电话簿访问设置：
     
-  - **推送通知**当您收到新的 IM 或呼叫时获得通知。 通常**在**（推荐）。
+   - **推送通知**当您收到新的 IM 或呼叫时获得通知。 通常**在**（推荐）。
     
-    > [!IMPORTANT]
-    > 如果关闭此设置，您将不会通知的 Im、 呼叫或业务的 Windows Phone 通知其他 Skype 这是除非应用程序处于活动状态。 
+     > [!IMPORTANT]
+     > 如果关闭此设置，您将不会通知的 Im、 呼叫或业务的 Windows Phone 通知其他 Skype 这是除非应用程序处于活动状态。 
   
-  - **允许通讯簿访问**业务的 Windows Phone 中 Skype 联系人搜索时搜索您的移动电话上的联系人。
+   - **允许通讯簿访问**业务的 Windows Phone 中 Skype 联系人搜索时搜索您的移动电话上的联系人。
     
 6. 点击**下一步**开始使用 Skype 的业务的 Windows Phone。
     

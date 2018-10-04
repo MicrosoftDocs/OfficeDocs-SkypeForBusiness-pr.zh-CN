@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 本主题介绍为业务服务器 2015年资源工具包，包括每个工具，以及其使用的示例的用途的 Skype 中的工具。 业务服务器 2015年资源工具包的 Skype 有助于使日常任务更易于部署和管理业务服务器 2015 Skype 的 IT 管理员。 例如，Web Conf Data 工具可用于轻松控制召开联机会议期间用户上载的数据。 SEFAUtil 工具可用于为用户设置代理人呼叫转接和应答。 我们鼓励使用这些工具更有效地管理业务服务器 2015 Skype IT 管理员。
-ms.openlocfilehash: e259e4252274621ac3593cfb379ddc89ee37544c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3f36edc42541dfcc9b652eb16d5062277277cbc0
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257806"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372778"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 资源管理包工具文档
 
@@ -305,11 +305,11 @@ ABSConfig 工具管理员提供用于自定义业务服务器 2015年通讯簿�
 
 1. **名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。前缀表示以下链路类型，请查看垂直（蓝色）框：
 
-  - **S Site** - 从网络站点到网络区域的 WAN 链路
+   - **S Site** - 从网络站点到网络区域的 WAN 链路
 
-  - **IS Inter-Site** - 两个网络站点之间的 WAN 链路
+   - **IS Inter-Site** - 两个网络站点之间的 WAN 链路
 
-  - **R Inter-Region** - 两个网络区域之间的 WAN 链路
+   - **R Inter-Region** - 两个网络区域之间的 WAN 链路
 
 2. **超出限制** - 按带宽用量超过带宽容量的 WAN 链路进行筛选
 
@@ -319,11 +319,11 @@ ABSConfig 工具管理员提供用于自定义业务服务器 2015年通讯簿�
 
 5. **链路类型** - 按以下 WAN 链路类型进行筛选：
 
-  - **网络站点**类型
+   - **网络站点**类型
 
-  - **站点间**类型
+   - **站点间**类型
 
-  - **区域间链路**类型
+   - **区域间链路**类型
 
 6. **区域** - 按网络区域进行筛选
 
@@ -794,15 +794,15 @@ MSTurnPing 工具允许业务服务器 2015年通信软件的 Skype 检查运行
 
 1. A/V 边缘服务器测试：该工具通过执行以下操作来对拓扑中的所有 A/V 边缘服务器执行测试：
 
-  - 确认 Business Server 音频/视频身份验证服务 Skype 已启动并且可以发布正确的凭据。
+   - 确认 Business Server 音频/视频身份验证服务 Skype 已启动并且可以发布正确的凭据。
 
-  - 验证 Skype 业务 Server 音频/视频边缘服务已启动并且可以成功分配的资源的外部边缘上。
+   - 验证 Skype 业务 Server 音频/视频边缘服务已启动并且可以成功分配的资源的外部边缘上。
 
 2. 带宽策略服务测试：该工具通过执行以下操作来对运行带宽策略服务的所有服务器执行测试：
 
-  - 验证业务 Server 带宽策略服务 （身份验证） Skype 已启动并且可以发布正确的凭据。
+   - 验证业务 Server 带宽策略服务 （身份验证） Skype 已启动并且可以发布正确的凭据。
 
-  - 验证业务 Server 带宽策略服务 （核心） Skype 已启动并且可以成功执行带宽检查。
+   - 验证业务 Server 带宽策略服务 （核心） Skype 已启动并且可以成功执行带宽检查。
 
 必须从属于拓扑的一部分并且安装了本地存储的计算机运行此工具。
 
@@ -889,7 +889,7 @@ Save 和 JPG 或 BMP 格式存储 CAC 网络拓扑图： Skype 业务服务器 2
 
 ![将网络配置另存为图片。](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
 
- **视图 CAC 网络拓扑配置数据：** Skype 业务服务器 2015年管理员可以使用视图网络配置数据选项如下所示文本的格式查看相关的网络配置数据，如网络区域、 网络站点、 带宽配置文件和网站的子网 IP 地址下方。
+ <strong>视图 CAC 网络拓扑配置数据：</strong>Skype 业务服务器 2015年管理员可以使用视图网络配置数据选项如下所示文本的格式查看相关的网络配置数据，如网络区域、 网络站点、 带宽配置文件和网站的子网 IP 地址下方。
 
 ![查看网络配置数据。](../media/Reskit_2012_Tools_Documentation_Image27.jpg)
 
@@ -1044,35 +1044,35 @@ SEFAUtil 工具只能在属于受信任应用程序池的一部分的计算机�
 
 1. SEFAUTil 工具只能在属于受信任应用程序池的一部分的计算机上运行。 如果需要添加作为一个新的受信任应用程序池的池可以通过 Skype 的业务 Server 命令行管理程序使用以下 cmdlet:
 
-  ```
-  New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
-  ```
+   ```
+   New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
+   ```
 
     > [!NOTE]
     > 必须在将用于运行 SEFAUtil 工具的任何计算机上安装 UCMA 3.0。
 
 2. 需要在拓扑中为 SEFAUtil 工具定义受信任的应用程序。 若要定义为新的受信任应用程序 SEFAUtil，Skype 用于业务 Server 命令行管理程序并执行以下 cmdlet:
 
-  ```
-  New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
-  ```
+   ```
+   New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
+   ```
 
     > [!NOTE]
     > 如果需要，可以使用其他端口。
 
 3. 需要启用拓扑更改。 启用拓扑的更改可通过 Skype 的业务 Server 命令行管理程序通过执行以下 cmdlet:
 
-  ```
-  Enable-CsToplogy
-  ```
+   ```
+   Enable-CsToplogy
+   ```
 
 4. 如果需要 Skype 的业务 Server 2015 资源工具包工具在服务器上安装的用于运行 SEFAUtil 工具 （服务器必须位于受信任应用程序池的一部分）。
 
 5. 验证 SEFAUtil 是否正常运行。 为此，请使用管理员特权从 Windows 命令提示符运行该工具，以显示部署中的用户的呼叫转接设置。 默认情况下将在位于该工具:"的企业服务器 2015\Reskit...\Program Files\Skype"。 要显示用户的呼叫转接设置，请使用以下命令：
 
-  ```
-  SEFAUtil.exe <user SIP address> /server:<Skype for Business Server/Pool FQDN>
-  ```
+   ```
+   SEFAUtil.exe <user SIP address> /server:<Skype for Business Server/Pool FQDN>
+   ```
 
     应显示用户的呼叫转接设置。
 
@@ -1414,21 +1414,22 @@ SYSPrep.ps1 是将在你 Windows Server 2008 操作系统的计算机安装以�
 
 - Skype 业务服务器 2015年核心文件
 
- 虽然脚本名称类似于 Microsoft Windows 操作系统的系统准备工具，但是实际上有所不同。 此脚本将仅安装业务服务器 2015年的 Skype 所需的必备组件。 安装这些必备软件之后，可以使用 Windows SYSPrep 工具创建服务器映像。
+  虽然脚本名称类似于 Microsoft Windows 操作系统的系统准备工具，但是实际上有所不同。 此脚本将仅安装业务服务器 2015年的 Skype 所需的必备组件。 安装这些必备软件之后，可以使用 Windows SYSPrep 工具创建服务器映像。
 
 ### <a name="requirements"></a>要求
 
 之前运行 SYSPrep.ps1 脚本，您必须的必备组件文件复制到 Windows Server 2008 操作系统的计算机上的本地文件夹 (例如**D:\Setup)**。 此文件夹还必须包括一份业务服务器 2015年文件 Skype 专门**Setup.exe。** 可以从以下位置下载必备文件：
 
-|**必备软件**|**位置**|
-|:-----|:-----|
-|Microsoft .Net Framework 4.5  <br/> |https://go.microsoft.com/?linkid=9816306  <br/> |
-|Microsoft SQL Server Express 2008 R2  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=23650  <br/> |
-|Windows Powershell 3.0 版  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=34595  <br/> |
-|Visual C++ 2010 可再发行软件包  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=5555  <br/> |
-|Internet Information Server 更新  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=34869  <br/> |
-|Windows Identity Foundation  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=17331  <br/> |
-|业务服务器 2015 Setup.exe 的 Skype  <br/> |复制从 Skype 业务服务器 2015年媒体  <br/> |
+
+| **必备软件**                                | **位置**                                                            |
+|:------------------------------------------------|:------------------------------------------------------------------------|
+| Microsoft .Net Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
+| Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/en-us/download/details.aspx?id=23650>  <br/> |
+| Windows Powershell 3.0 版  <br/>           | <https://www.microsoft.com/en-us/download/details.aspx?id=34595>  <br/> |
+| Visual C++ 2010 可再发行软件包  <br/>          | <https://www.microsoft.com/en-us/download/details.aspx?id=5555>  <br/>  |
+| Internet Information Server 更新  <br/>      | <https://www.microsoft.com/en-us/download/details.aspx?id=34869>  <br/> |
+| Windows Identity Foundation  <br/>              | <https://www.microsoft.com/en-us/download/details.aspx?id=17331>  <br/> |
+| 业务服务器 2015 Setup.exe 的 Skype  <br/> | 复制从 Skype 业务服务器 2015年媒体  <br/>                   |
 
 ### <a name="parameter"></a>参数
 
@@ -1502,7 +1503,6 @@ Move-CsAnnouncementConfiguration 脚本需要下表所述的两个参数。
 
 ```
 Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination SfBS2015Pool.contoso.com
-
 ```
 
 #### <a name="moving-the-unassigned-number-announcements-configuration-from-a-skype-for-business-server-2015-pool-to-a-lync-server-2013-pool"></a>Lync Server 2013 池到未分配号码的通知配置从 Skype 移动业务 2015年服务器池

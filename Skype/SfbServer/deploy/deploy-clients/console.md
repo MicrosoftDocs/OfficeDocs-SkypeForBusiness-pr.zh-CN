@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置 Skype 会议室系统 v2 控制台和其外围设备。
-ms.openlocfilehash: 57ee754d99c9c0fcec62347146c79e9da5995fe1
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: bb23f0dad26f37554657a101dc68dc7d776080b2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965704"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371059"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>配置 Skype 会议室系统 v2 控制台
  
@@ -145,7 +145,7 @@ Skype 会议室系统 v2 控制台现在应用所需的语言。
     
    - 默认扬声器：用于来自 HDMI 采集的音频的扬声器。
     
-    每项都有供选择的选项下列菜单。你必须为每个设备做出选择。
+     每项都有供选择的选项下列菜单。你必须为每个设备做出选择。
     
 6. 单击“**完成**”。
     
@@ -174,9 +174,9 @@ Skype 会议室系统 v2 控制台需要信任由 Skype 用于连接到的业务
     
 3. 运行以下命令：
     
-  ```
-  certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
-  ```
+   ```
+   certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
+   ```
 
 ### <a name="join-an-active-directory-domain-optional"></a>加入 Active Directory 域 （可选）
 <a name="Certs"> </a>
@@ -191,9 +191,9 @@ Skype 会议室系统 v2 控制台可以加入您的域。 应将 Skype 会议�
     
 3. 在 Powershell 中输入以下命令：
     
-  ```
-  Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
-  ```
+   ```
+   Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
+   ```
 
 例如，如果您的完全限定的域名为 redmond.corp.microsoft.com 且您希望您 Skype 会议室系统 v2 控制台中"Skype 会议室系统 v2"是"Resources"OU 的子级的 OU，则可该命令：
   

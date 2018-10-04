@@ -20,33 +20,33 @@ f1keywords: None
 ms.custom:
 - Security
 description: Skype for Business Online 安全指南 <add description>
-ms.openlocfilehash: 646f4235a590532739ae4f06edeaf9c5a3070d5d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f31b9d797544e1c420087c0163986fcdc80ac6c4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856770"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371887"
 ---
 #  <a name="security-and-skype-for-business-online"></a>安全性和 Skype for Business 联机
 
-Skype for Business Online（SfBO）作为 Office 365 服务的一部分，通过纵深防御、服务内的客户控制、安全强化和运营最佳实践，遵循所有安全最佳实践和程序（例如服务级安全性）。  有关完整的详细信息，请参阅 Office 365 信任中心 （https://products.office.com/en-us/business/office-365-trust-center-security)。
+Skype for Business Online (SfBO), as part of the Office 365 service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices.  For full details, please see the Office 365 Trust Center (https://products.office.com/en-us/business/office-365-trust-center-security).
 
 ## <a name="trustworthy-by-design"></a>设计方面的可信赖性
-Skype for Business Online 的设计和开发符合 Microsoft 可信计算安全开发生命周期 (SDL) 的要求（https://www.microsoft.com/en-us/sdl/default.aspx 有具体说明）。 创建更安全的统一通信系统的第一步是设计威胁模型，并按每项功能的设计要求对其进行测试。 编码过程和做法中植入了多项与安全相关的改进。 生成时工具会在将代码签入到最终产品之前检测缓冲区溢出和其他潜在安全威胁。 当然，在设计上不可能做到能够防范所有未知安全威胁。 任何系统都无法保证绝对的安全。 但是，由于产品开发采纳从开始安全设计原则，业务 online Skype 包含行业标准安全技术作为基本及其体系结构的一部分。 
+Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/en-us/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
 
 ## <a name="trustworthy-by-default"></a>默认的可信赖性
-Skype for Business Online 中的网络通信默认进行加密。 通过要求所有服务器使用证书并使用 OAUTH，TLS，安全实时传输协议 (SRTP) 和其他行业标准的加密技术，包括 256 位高级加密标准 (AES) 加密，所有 Skype for Business在线数据进行保护网络上。
+Network communications in Skype for Business Online are encrypted by default. By requiring all servers to use certificates and by using OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP), and other industry-standard encryption techniques, including 256-bit Advanced Encryption Standard (AES) encryption, all Skype for Business Online data is protected on the network.
 
 ## <a name="how-sfbo-handles-common-security-threats"></a>SfBO 如何处理常见的安全威胁
 本节介绍 SFBO 服务安全性的更常见威胁以及 Microsoft 如何抵御每种威胁。
 
 ### <a name="compromised-key-attack"></a>破解密钥攻击
-密钥是用于加密、解密或验证机密信息的机密代码或数字。 在公钥基础设施 (PKI) 中使用的敏感密钥有两个必须考虑的因素：每个证书持有者拥有的私钥以及在通信伙伴成功识别和会话密钥交换后使用的会话密钥。  破解密钥攻击是指攻击者破解私钥或会话密钥的行为。 攻击者在成功破解密钥之后，可以使用此密钥对已加密的数据进行解密，而数据的发送者对此毫不知情。
+A key is a secret code or number that is used to encrypt, decrypt, or validate secret information. There are two sensitive keys in use in public key infrastructure (PKI) that must be considered: the private key that each certificate holder has and the session key that is used after a successful identification and session key exchange by the communicating partners.  A compromised-key attack occurs when the attacker determines the private key or the session key. When the attacker is successful in determining the key, the attacker can use the key to decrypt encrypted data without the knowledge of the sender.
 
-Skype 业务 online 在 Windows Server 操作系统使用的 PKI 功能，以保护用于传输层安全性 (TLS) 连接的加密密钥的数据。 用于媒体加密的密钥交换通过 TLS 连接。 
+Skype for Business Online uses the PKI features in the Windows Server operating system to protect the key data used for encryption for the Transport Layer Security (TLS) connections. The keys used for media encryptions are exchanged over TLS connections. 
 
 ### <a name="network-denial-of-service-attack"></a>网络拒绝服务攻击
-当攻击者阻止有效用户正常使用和运行网络时，将发生拒绝服务攻击。 通过使用拒绝服务攻击，攻击者可以：
+The denial-of-service attack occurs when the attacker prevents normal network use and function by valid users. By using a denial-of-service attack, the attacker can:
 - 向受到攻击的网络中正在运行的应用程序和服务发送无效数据，干扰它们的正常工作。
 - 发送大量流量以造成系统过载，直到系统停止对合理请求做出响应或对合理请求做出响应的速度变得很慢。
 - 隐藏攻击证据。
@@ -57,49 +57,49 @@ Skype 业务 online 在 Windows Server 操作系统使用的 PKI 功能，以保
 ### <a name="eavesdropping"></a>窃听
 在攻击者获取对网络中数据路径的访问权并能够监控和读取流量内容时，会发生窃听。窃听也称为监听或窥探。如果流量内容采用纯文本形式，则攻击者在获取路径的访问权之后即可读取流量内容。例如，通过控制数据路径上的路由器进行攻击。 
 
-SfBO 使用 MTLS 来处理 O365 内部的服务器通信，并使用 TLS 来处理客户端到服务器之间的通信，在特定对话可能受到攻击的时间段内很难甚至根本不可能实现这种攻击。 TLS 可对各方执行身份验证，并对所有流量内容进行加密。 这样不能阻止窃听，但攻击者不能读取流量内容，除非破坏加密。
+SfBO uses mutual TLS (MTLS) for server communications within O365 and TLS from clients to the service, rendering this attack very difficult to impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
 
-借助从几个项（包括从不以明文格式发送的 TURN 密码）派生的密钥 SfBO 服务可通过检查消息完整性来确保数据有效。  TURN 协议不要求对通信进行加密和其发送的信息由消息完整性保护。 虽然对窃听开放，信息将发送 （即，IP 地址和端口） 可以提取直接通过只查看数据包的源和目标地址。 SfBO 服务可确保的数据通过检查消息完整性使用密钥派生自几项包括打开密码从不以明文形式发送的邮件有效。 SRTP 用于媒体流量并且也被加密。
+The TURN protocol is used for real time media purposes.  The TURN protocol does not mandate the traffic to be encrypted and the information that it is sending is protected by message integrity. Although it is open to eavesdropping, the information it is sending (that is, IP addresses and port) can be extracted directly by simply looking at the source and destination addresses of the packets. The SfBO service ensures that the data is valid by checking the Message Integrity of the message using the key derived from a few items including a TURN password, which is never sent in clear text. SRTP is used for media traffic and is also encrypted.
 
 ### <a name="identity-spoofing-ip-address-spoofing"></a>身份欺骗（IP 地址欺骗）
-当攻击者在未经授权的情况下确定和使用网络、计算机或网络组件的 IP 地址时，会发生欺骗。 一旦攻击成功，攻击者便可以假借 IP 地址通常标识的实体的身份执行操作。 在 Microsoft Lync Server 2010 的上下文中，这种情况下派上用场仅当管理员执行完以下两项：
+Spoofing occurs when the attacker determines and uses an IP address of a network, computer, or network component without being authorized to do so. A successful attack allows the attacker to operate as if the attacker is the entity normally identified by the IP address. Within the context of Microsoft Lync Server 2010, this situation comes into play only if an administrator has done both of the following:
 - 已配置仅支持传输控制协议 (TCP) 的连接（建议不要这样做，因为 TCP 通信未经过加密）。
 - 将这些连接的 IP 地址标记为受信任的主机。 
 
-此操作对于传输层安全性 (TLS) 连接而言不成问题，因为 TLS 对所有方进行验证并加密所有通信。 使用 TLS 可防止攻击者对特定连接（例如，相互 TLS 连接）执行 IP 地址欺骗攻击。 但是，攻击者仍无法欺骗 SfBO 使用 DNS 服务器的地址。 但是，由于使用证书执行 SfBO 中的身份验证，攻击者不必须对欺骗通信中的各方之一所需的有效证书。
+This is less of a problem for Transport Layer Security (TLS) connections, as TLS authenticates all parties and encrypts all traffic. Using TLS prevents an attacker from performing IP address spoofing on a specific connection (for example, mutual TLS connections). But an attacker could still spoof the address of the DNS server that SfBO uses. However, because authentication in SfBO is performed with certificates, an attacker would not have a valid certificate required to spoof one of the parties in the communication.
 
 ### <a name="man-in-the-middle-attack"></a>中间人攻击
-当攻击者在发生通信的两个用户不知情的情况下，通过自己的计算机重新路由这两个用户之间的通信时，就会发生中间人攻击。 攻击者可以在将通信内容发送到预期接收人之前监控和读取通信内容。 通信中的每个用户在不知情的情况下向攻击者发送通信和从攻击者接收通信，还以为自己只是在与预期用户进行通信。 如果攻击者可修改 Active Directory 域服务以将他（她）的服务器添加为受信任服务器或修改域名系统 (DNS) 以让客户端在与服务器通信时通过攻击者，则会发生这种情况。 
+A man-in-the-middle attack occurs when an attacker reroutes communication between two users through the attacker’s computer without the knowledge of the two communicating users. The attacker can monitor and read the traffic before sending it on to the intended recipient. Each user in the communication unknowingly sends traffic to and receives traffic from the attacker, all while thinking they are communicating only with the intended user. This can happen if an attacker can modify Active Directory Domain Services to add his or her server as a trusted server or modify Domain Name System (DNS) to get clients to connect through the attacker on their way to the server. 
 
 中间人攻击还可能发生在两个客户端之间的媒体流量中，但在 SfBO 中点对点音频、视频和应用程序共享流使用基于 TLS 的会话启动协议 (SIP) 在对等设备之间协商的加密密钥通过 SRTP 进行加密。 
 
 ### <a name="rtp-replay-attack"></a>RTP 重播攻击
-重播攻击是指出于恶意目的截获并重新传输双方之间的有效媒体传输。 SfBO 与通过启用接收器来维护已接收的 RTP 数据包的索引和比较与这些已列出在索引中每个新数据包从重播攻击保护传输安全信号协议结合使用 SRTP。
+A replay attack occurs when a valid media transmission between two parties is intercepted and retransmitted for malicious purposes. SfBO uses SRTP in conjunction with a secure signaling protocol that protects transmissions from replay attacks by enabling the receiver to maintain an index of already received RTP packets and compare each new packet with those already listed in the index.
 
 ### <a name="spim"></a>SPIM
 Spim 是主动提供的商业即时消息或状态订阅请求。虽然 Spim 本身并不会导致网络问题，但至少会有些烦人，占用资源和生产时间，而且可能会导致网络问题。例如，用户通过发送请求相互发送垃圾消息。用户可以相互阻止对方来防止出现这种情况，但对于联盟，如果建立了协作的 Spim 攻击，则很难防止出现这种情况，除非你禁用联盟伙伴关系。
 
 ### <a name="viruses-and-worms"></a>病毒和蠕虫
-病毒是一个代码单元，其目的是为了复制更多类似的代码单元。 病毒需要像文件、电子邮件或程序这样的宿主才能发挥作用。 和病毒一样，蠕虫是一种代码单元，它的代码旨在繁殖更多的类似代码单元，但与病毒不同的是，蠕虫不需要宿主。 病毒和蠕虫主要是在客户端之间传送文件期间或从其他用户发送 URL 时出现。 例如，如果你的计算机上存在某种病毒，则该病毒可使用你的身份代表你发送即时消息。  标准的客户端安全最佳实践（例如定期扫描病毒）可以缓解此问题。  
+A virus is a unit of code whose purpose is to reproduce additional, similar code units. To work, a virus needs a host, such as a file, email, or program. Like a virus, a worm is a unit of code that is coded to reproduce additional, similar code units, but that unlike a virus does not need a host. Viruses and worms primarily show up during file transfers between clients or when URLs are sent from other users. If a virus is on your computer, it can, for example, use your identity and send instant messages on your behalf.  Standard client security best practices such as periodically scanning for viruses can mitigate this issue.  
 
 ## <a name="personally-identifiable-information"></a>个人身份信息
-SfBO 已通过可能能够链接到个人的公用网络披露信息。 这些信息类型具体可分为两大类：
-- **增强状态数据**&nbsp;&nbsp;&nbsp;增强状态数据是用户可以选择共享或通过指向联盟伙伴或与组织内的联系人的链接不共享的信息。 不与公用 IM 网络上的用户共享此数据。 客户端策略和其他客户端配置可能会为系统管理员提供一些控制能力。 在 SfBO 服务中，可以为单个用户以防止 SfBO 用户不在用户的联系人列表上看到用户的状态信息配置增强的状态隐私模式。 
-- **强制性数据**&nbsp;&nbsp;&nbsp;强制性数据是服务器或客户端正常运行所需的数据。 这是所需的服务器或网络级别的路由、 状态维护和信号传输的信息。
-下表列出了 SfBO 运行所需的数据。
+SfBO has the potential to disclose information over a public network that might be able to be linked to an individual. The information types can be broken down to two specific categories:
+- **Enhanced presence data**&nbsp;&nbsp;&nbsp;Enhanced presence data is information that a user can choose to share or not share over a link to a federated partner or with contacts within an organization. This data is not shared with users on a public IM network. Client policies and other client configuration may put some control with the system administrator. In the SfBO service, enhanced presence privacy mode can be configured for an individual user to prevent SfBO users not on the user’s Contacts list from seeing the user’s presence information. 
+- **Mandatory data**&nbsp;&nbsp;&nbsp;Mandatory data is data that is required for the proper operation of the server or the client. This is information that is necessary at a server or network level for the purposes of routing, state maintenance, and signaling. The following tables list the data that is required for SfBO to operate.
 
 ***表 1 - 增强状态数据***
 
 <!--start table here -->
 
-||||
-|:-----|:-----|:-----|
-|**数据**|**可能的** **设置**|
-|个人数据 |姓名、 职务、 公司、 电子邮件地址、 时区|
-|电话号码|工作电话号码、手机号码、住宅电话号码|
-|日历信息|忙/闲、 出城通知，会议 （到有权访问您的日历） 的详细信息| 
-|状态|离开、空闲、忙碌、请勿打扰、脱机|
-|||||
+
+|                      |                                                                                            |   |
+|:---------------------|:-------------------------------------------------------------------------------------------|:--|
+| **数据**             | **可能的** **设置**                                                                  |   |
+| 个人数据        | 姓名、 职务、 公司、 电子邮件地址、 时区                                             |   |
+| 电话号码    | 工作电话号码、手机号码、住宅电话号码                                                                         |   |
+| 日历信息 | 忙/闲、 出城通知，会议 （到有权访问您的日历） 的详细信息 |   |
+| 状态      | 离开、空闲、忙碌、请勿打扰、脱机                                             |   |
+|                      |                                                                                            |   |
 
 <!-- end of table -->
 
@@ -107,52 +107,51 @@ SfBO 已通过可能能够链接到个人的公用网络披露信息。 这些�
 
 <!--start table here -->
 
-||||
-|:-----|:-----|:-----|
-|**类别** |**可能的设置** |
-|IP 地址|计算机的实际地址或经过 NAT 转换的地址|
-|SIP URI|<u>david.campbell@contoso.com</u>|
-|名称|David Campbell（在 Active Directory 域服务中定义）|
-|||||
+
+|              |                                                                 |   |
+|:-------------|:----------------------------------------------------------------|:--|
+| **类别** | **可能的设置**                                           |   |
+| IP 地址   | 计算机的实际地址或经过 NAT 转换的地址                     |   |
+| SIP URI      | <u>david.campbell@contoso.com</u>                               |   |
+| 名称         | David Campbell（在 Active Directory 域服务中定义） |   |
+|              |                                                                 |   |
 
 <!-- end of table -->
 
 ## <a name="security-framework-for-sfbo"></a>SfBO 的安全框架
-本节概述了 Microsoft SfBO 的表单的安全框架的基本要素。 这些要素如下所示：
+This section provides an overview of the fundamental elements that form the security framework for Microsoft SfBO. These elements are as follows:
 - Azure Active Directory (AAD) 为用户帐户提供单个受信任的后端存储库。 
 - 公钥基础结构 (PKI) 使用受信任的证书颁发机构 (Ca) 颁发的证书进行身份验证服务器和确保数据完整性。
-- 传输层安全性 (TLS)、HTTPS over SSL (HTTPS) 和相互 TLS (MTLS) 可实现终结点身份验证和 IM 加密。 点对点音频、 视频和应用程序共享流进行加密和完整性检查使用安全实时传输协议 (SRTP)。
+- Transport Layer Security (TLS), HTTPS over SSL (HTTPS), and mutual TLS (MTLS) enable endpoint authentication and IM encryption. Point-to-point audio, video, and application sharing streams are encrypted and integrity checked using Secure Real-Time Transport Protocol (SRTP).
 - 用于用户身份验证的行业标准协议，如果可能。
 
 本节中的主题介绍每个基本要素如何工作以增强 SfBO 服务的安全性。
 
 ### <a name="azure-active-directory"></a>Azure Active Directory
-Azure Active Directory 充当 O365 的目录服务。 它存储所有的用户目录信息和策略分配。 
+Azure Active Directory functions as the directory service for O365. It stores all user directory information and policy assignments. 
 
 ### <a name="public-key-infrastructure-for-sfbo"></a>SfBO 的公钥基础架构
-SfBO 服务依靠证书进行服务器身份验证以及建立之间的不同服务器角色和客户端和服务器之间的信任链。 Windows Server 公钥基础架构 (PKI) 为建立和验证此信任链提供了基础架构。
-证书是数字 ID。 它们通过名称来标识某台服务器并指定其属性。 若要确保该证书上的信息有效，证书必须颁发由受信任的客户端或连接到服务器的其他服务器的证书颁发机构 (CA)。 如果服务器仅与专用网络中的其他客户端和服务器建立连接，则 CA 可以是企业 CA。 如果服务器与专用网络外部的实体进行交互，则可能需要公共 CA。
+SfBO service relies on certificates for server authentication and to establish a chain of trust between clients and servers and among the different server roles. The Windows Server public key infrastructure (PKI) provides the infrastructure for establishing and validating this chain of trust. Certificates are digital IDs. They identify a server by name and specify its properties. To ensure that the information on a certificate is valid, the certificate must be issued by a Certificate Authority (CA) that is trusted by clients or other servers that connect to the server. If the server connects only with other clients and servers on a private network, the CA can be an enterprise CA. If the server interacts with entities outside the private network, a public CA might be required.
 
-即使证书上的信息是有效的，也必须通过某些方法来确认提供证书的服务器实际上就是证书所代表的服务器。 在这种情况下可以使用 Windows PKI。
-每个证书都链接到一个公钥。 证书上指明的服务器持有一个只有它自己知道的对应的私钥。 连接的客户端或服务器使用公钥对随机的信息段进行加密并将其发送到该服务器。 如果该服务器将此信息解密并以纯文本形式返回此信息，则连接的实体就可以确定该服务器持有证书的私钥，因此该服务器即是证书上指明的服务器。
+Even if the information on the certificate is valid, there must be some way to verify that the server presenting the certificate is actually the one represented by the certificate. This is where the Windows PKI comes in. Each certificate is linked to a public key. The server named on the certificate holds a corresponding private key that only it knows. A connecting client or server uses the public key to encrypt a random piece of information and sends it to the server. If the server decrypts the information and returns it as plain text, the connecting entity can be sure that the server holds the private key to the certificate and therefore is the server named on the certificate.
 
 #### <a name="crl-distribution-points"></a>CRL 分发点
-SfBO 要求所有服务器证书包含一个或多个证书吊销列表 (CRL) 分发点。 可从 CRL 分发点 (CDP) 下载 CRL，以便确认证书自颁发以来未被吊销且仍处于有效期内。 CRL 分发点作为 URL 证书的属性中记下，安全 HTTP。  SfBO 服务使用每个证书身份验证来检查 CRL。
+SfBO requires all server certificates to contain one or more Certificate Revocation List (CRL) distribution points. CRL distribution points (CDPs) are locations from which CRLs can be downloaded for purposes of verifying that the certificate has not been revoked since the time it was issued and the certificate is still within the validity period. A CRL distribution point is noted in the properties of the certificate as a URL and is secure HTTP.  The SfBO service checks CRL with every certificate authentication.
 
 #### <a name="enhanced-key-usage"></a>增强型密钥使用
-SfBO 服务的所有组件都要求所有服务器证书支持增强型密钥使用 (EKU)，以用于服务器身份验证。 配置用于服务器身份验证的 EKU 字段意味着证书可以对服务器进行身份验证。 此 EKU 对 MTLS 至关重要。 
+All components of the SfBO service require all server certificates to support Enhanced Key Usage (EKU) for the purpose of server authentication. Configuring the EKU field for server authentication means that the certificate is valid for the purpose of authenticating servers. This EKU is essential for MTLS. 
 
 ### <a name="tls-and-mtls-for-sfbo"></a>用于 SfBO 的 TLS 和 MTLS
-TLS 和 MTLS 协议提供 Internet 上的加密的通信和终结点身份验证。 SfBO 使用这两项协议来创建受信任的服务器网络并确保网络上的所有通信进行都加密。 服务器之间的所有 SIP 通信都通过 MTLS 进行。 从客户端到服务器的 SIP 通信都通过 TLS 进行。
+TLS and MTLS protocols provide encrypted communications and endpoint authentication on the Internet. SfBO uses these two protocols to create the network of trusted servers and to ensure that all communications over that network are encrypted. All SIP communications between servers occur over MTLS. SIP communications from client to server occur over TLS.
 
-TLS，用户，通过其客户端软件，可以对他们连接到 SfBO 服务器身份验证。 在 TLS 连接上，客户端从服务器请求有效证书。 有效证书必须满足以下条件：由受客户端信任的 CA 颁发，且服务器的 DNS 名称必须与证书上的 DNS 名称一致。 如果证书有效，则客户端使用证书中的公钥对用于通信的对称加密密钥进行加密，因此只有证书的原始所有者可以使用其私钥对通信内容进行解密。 生成的连接将会受到信任，之后再不会受到其他受信任的服务器或客户端的质询。 在此上下文中，可将用于 Web 服务的安全套接字层 (SSL) 视为是基于 TLS 的。
+TLS enables users, through their client software, to authenticate the SfBO servers to which they connect. On a TLS connection, the client requests a valid certificate from the server. To be valid, the certificate must have been issued by a CA that is also trusted by the client and the DNS name of the server must match the DNS name on the certificate. If the certificate is valid, the client uses the public key in the certificate to encrypt the symmetric encryption keys to be used for the communication, so only the original owner of the certificate can use its private key to decrypt the contents of the communication. The resulting connection is trusted and from that point is not challenged by other trusted servers or clients. Within this context, Secure Sockets Layer (SSL) as used with Web services can be associated as TLS-based.
 
-服务器到服务器的连接依靠相互 TLS (MTLS) 进行相互验证。 在 MTLS 连接上，发出消息的服务器和接收消息的服务器交换来自相互信任的 CA 的证书。 证书可向一台服务器证明另一台服务器的身份。 在 SfBO 服务中，遵循此程序。
+Server-to-server connections rely on mutual TLS (MTLS) for mutual authentication. On an MTLS connection, the server originating a message and the server receiving it exchange certificates from a mutually trusted CA. The certificates prove the identity of each server to the other. In the SfBO service, this procedure is followed.
 
-TLS 和 MTLS 有助于防止窃听攻击和中间人攻击。 在中间人攻击中，攻击者将通过其计算机重新路由两个网络实体之间的通信，而这两个网络实体对此毫不知情。 TLS 和 SfBO 的受信任的服务器的规范缓解部分应用程序图层上手册中中间攻击的风险使用协调使用之间的两个端点公钥加密的端到端加密和攻击者必须为具有有效并可信证书与相应的专用密钥和颁发给到客户端通信进行解密通信服务的名称。 
+TLS and MTLS help prevent both eavesdropping and man-in-the middle attacks. In a man-in-the-middle attack, the attacker reroutes communications between two network entities through the attacker’s computer without the knowledge of either party. TLS and SfBO’s specification of trusted servers mitigate the risk of a man-in-the middle attack partially on the application layer by using end-to-end encryption coordinated using the Public Key cryptography between the two endpoints, and an attacker would have to have a valid and trusted certificate with the corresponding private key and issued to the name of the service to which the client is communicating to decrypt the communication. 
 
 ### <a name="encryption-for-sfbo"></a>SfBO 的加密
-SfBO 使用 TLS 和 MTLS 来加密即时消息。 无论通信是限制在内部网络还是跨内部网络外围，所有服务器到服务器的通信都需要使用 MTLS。
+SfBO uses TLS and MTLS to encrypt instant messages. All server-to-server traffic requires MTLS, regardless of whether the traffic is confined to the internal network or crosses the internal network perimeter.
 
 下表总结了 SfBO 使用的协议。
 
@@ -176,9 +175,9 @@ SfBO 使用 TLS 和 MTLS 来加密即时消息。 无论通信是限制在内部
 <!-- end of table -->
 
 #### <a name="media-encryption"></a>媒体加密
-媒体通信使用安全 RTP (SRTP) 进行加密，SRTP 是为 RTP 通信提供保密性、身份验证和重播攻击保护的实时传输协议 (RTP) 的配置文件。 SRTP 使用通过安全随机号码生成器生成的会话密钥，并使用信令 TLS 信道进行交换。 此外，中介服务器与其内部下一个跃点之间的双向媒体流也使用 SRTP 进行加密。 
+Media traffic is encrypted using Secure RTP (SRTP), a profile of Real-Time Transport Protocol (RTP) that provides confidentiality, authentication, and replay attack protection to RTP traffic. SRTP uses a session key generated by using a secure random number generator and exchanged using the signaling TLS channel. In addition, media flowing in both directions between the Mediation Server and its internal next hop is also encrypted using SRTP. 
 
-SfBO 通过 TURN 生成用户名/密码以安全访问媒体中继。 媒体中继通过 TLS 安全 SIP 信道交换用户名/密码。
+SfBO generates username/passwords for secure access to media relays over TURN. Media relays exchange the username/password over a TLS-secured SIP channel.
 
 #### <a name="fips"></a>FIPS
 SfBO 使用符合 FIPS（联邦信息处理标准）的算法进行加密密钥交换。 
@@ -186,8 +185,8 @@ SfBO 使用符合 FIPS（联邦信息处理标准）的算法进行加密密钥�
 ### <a name="user-and-client-authentication"></a>用户和客户端身份验证 
 受信任的用户是指其凭据已经过身份验证通过 AAD O365 中。 
 
-身份验证是到受信任的服务器或服务的用户凭据的设置。 SfBO 使用以下身份验证协议，具体取决于状态和用户的位置。
-- **现代身份验证**是 Microsoft 为实现客户端到服务器的通信而实施 OAUTH 2.0 的过程。 它支持众多安全功能，如 O365 基于证书的身份验证、O365 多因素身份验证和 O365 条件访问等。  为使用 MA，在线租户和客户端都需要启用 MA。  2017 年 5 月之后创建的 SfBO 租户默认启用 MA。  此时间之前创建的租户，请按照此处的说明予以启用。  以下客户端均支持 MA：Skype for Business 2015 或 2016 客户端、Skype for Business Mac、Lync 2013 客户端、3PIP IP 电话、iOS 和 Android。 
+Authentication is the provision of user credentials to a trusted server or service. SfBO uses the following authentication protocols, depending on the status and location of the user.
+- **Modern Authentication** is the Microsoft implementation of OAUTH 2.0 for client to server communication. It enables security features such as O365 Certificate Based Authentication, O365 Multi-Factor Authentication and O365 Conditional Access.  In order to use MA, both the online tenant and the clients need to be enabled for MA.  SfBO tenants created after May 2017 have MA enabled by default.  For tenants created before this time, follow the instructions here to turn it on.  The following clients all support MA: Skype for Business 2015 or 2016 client, Skype for Business on Mac, Lync 2013 client, 3PIP IP Phones, iOS, and Android. 
 - **组织 ID** 在现代身份验证未启用（或不可用）时使用
 - **摘要式协议** - 用于所谓的匿名用户。匿名用户是指满足以下条件的外部用户：这些用户虽然不具备认可的 Active Directory 凭据，但已被邀请参与内部会议并且拥有有效的会议密钥。摘要式身份验证不用于其他客户端交互。
 
@@ -195,37 +194,37 @@ SfBO 身份验证包括以下两个阶段：
 1. 在客户端和服务器之间建立安全关联。
 2. 客户端和服务器使用现有的安全关联签署它们发送的消息，以及验证所收到的消息。如果在服务器上启用了身份验证，则不会接受来自客户端的未经身份验证的消息。
 
-用户信任会附加到用户发出的每条消息，而不会附加到用户标识本身。 服务器将检查每条消息是否具有有效的用户凭据。 如果用户凭据有效，对消息进行质询不只能由第一台服务器接收但 SfBO 中的所有其他服务器。
+User trust is attached to each message that originates from a user, not to the user identity itself. The server checks each message for valid user credentials. If the user credentials are valid, the message is unchallenged not only by the first server to receive it but by all other servers in SfBO.
 
 拥有联盟伙伴颁发的有效凭据的用户会受到信任，但其他限制可能会阻止这些用户享有与内部用户相同的全部权限。
 
-对于媒体身份验证，ICE 和 TURN 协议也使用摘要式质询，如 IETF TURN RFC 中所述。 有关详情，请参阅[媒体遍历](#external-user-av-traffic-traversal)。
+For media authentication, the ICE and TURN protocols also use the Digest challenge as described in the IETF TURN RFC. For details, see [media traversal](#external-user-av-traffic-traversal).
 
-客户端证书提供用户进行身份验证 SFBO 另一种的方法。 用户无需提供用户名和密码，因为他们具有证书以及解析加密质询所需的与证书对应的私钥。 
+Client certificates provide an alternate way for users to be authenticated by SFBO. Instead of providing a user name and password, users have a certificate and the private key corresponding to the certificate that is required to resolve a cryptographic challenge. 
 
 ### <a name="windows-powershell-and-sfbo-management-tools"></a>Windows PowerShell 和 SfBO 管理工具
-在 SfBO 中，IT 管理员可以通过 O365 管理门户或使用 Tenant Remote PowerShell（TRPS）管理他们的服务。  租户管理员使用现代身份验证向 TRPS 进行身份验证。
+In SfBO, IT Admins can manage their service via the O365 Admin portal or by using Tenant Remote PowerShell (TRPS).  Tenant admins use Modern Authentication to authenticate to TRPS.
 
 ### <a name="configuring-access-to-sfbo-at-your-internet-boundary"></a>在 Internet 边界配置对 SfBO 的访问
-为 SfBO 协同工作 （用户能够加入会议等），客户需要配置其 internet 访问以便允许 SfBO 云服务的出站 UDP 和 TCP 通信。  有关详细信息，请参阅此处：https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
+For SfBO to function properly (users able to join meetings etc.), customers need to configure their internet access such that outbound UDP and TCP traffic to services in the SfBO cloud is allowed.  For more details, see here: https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
 
 ### <a name="udp-3478-3481-and-tcp-443"></a>UDP 3478-3481 和 TCP 443
 
-客户端使用 UDP 3478-3481 和 TCP 443 端口向 A/V 边缘服务请求服务。 客户端使用这两个端口分别分配 UDP 和 TCP 端口以供远程方连接。 要访问 A/V 边缘服务，客户端必须首先与 SFBO 注册服务器建立经过验证的 SIP 信令会话，以获取 A/V 边缘服务身份验证证书。 这些值通过 TLS 保护的信令信道发送，并通过计算机生成以减轻字典式攻击。 然后，客户端可以使用这些证书执行摘要式身份验证，使用 A/V 边缘服务分配端口以用于媒体会话。 初始分配请求从客户端发送，并使用来自 A/V 边缘服务的 401 随机 nonce/质询消息进行响应。 客户端发送第二个分配，其中包含用户名以及用户名和 nonce 的哈希消息验证代码 (HMAC) 哈希。 
+The UDP 3478-3481 and TCP 443 ports are used by clients to request service from the A/V Edge service. A client uses these two ports to allocate UDP and TCP ports respectively for the remote party to connect to. To access the A/V Edge service, the client must first have established an authenticated SIP signaling session with SFBO registrar to obtain A/V Edge service authentication credentials. These values are sent across the TLS-protected signaling channel and are computer generated to mitigate against dictionary attacks. Clients can then use these credentials for digest authentication with the A/V Edge service to allocate ports for use in a media session. An initial allocate request is sent from the client and responded with a 401 nonce/challenge message from the A/V Edge service. The client sends a second allocate containing the user name and a Hash Message Authentication Code (HMAC) hash of the user name and nonce. 
 
-序列号机制也可以防止重播攻击。 服务器根据自己对用户名和密码的了解计算预期的 HMAC，如果 HMAC 值匹配，则执行分配过程。否则，数据包将被丢弃。 相同的 HMAC 机制也适用于此呼叫会话中的后续消息。 此用户名/密码值的生存期最长为 8 个小时，之后客户端需重新获取新用户名/密码以用于后续呼叫。
+A sequence number mechanism is also in place to prevent replay attacks. The server calculates the expected HMAC based on its own knowledge of the user name and password and if the HMAC values match, the allocate procedure is carried out. Otherwise, the packet is dropped. This same HMAC mechanism is also applied to subsequent messages within this call session. The lifetime of this user name/password value is a maximum of eight hours at which time the client reacquires a new user name/password for subsequent calls.
 
 ### <a name="udptcp-50000-59999"></a>UDP / TCP 50,000-59,999
-TCP 50,000 出站用于 SfBO，包括应用程序和桌面共享以及文件传输。 UDP/TCP 50,000-59,999 端口范围用于与 Microsoft Office Communications Server 2007 合作伙伴的媒体会话，这些合作伙伴需要 A/V 边缘服务提供的 NAT/防火墙遍历服务。 因为 A/V 边缘服务是使用这些端口的唯一进程，所以端口范围的大小并不表示潜在的攻击面。 良好的安全做法是：始终不运行不必要的网络服务，以最大限度地减少监听端口的总数。 如果网络服务未运行，远程攻击者将无法利用该网络服务，并且主机的攻击面减少。 但是，在单一服务中，减少端口数量不会产生同样的好处。 A/V 边缘服务软件打开 10,000 个端口时并不会比打开 10 个端口时更容易受到攻击。 此范围内的端口分配是随机完成的，并且当前未分配的端口不侦听数据包。
- 
+TCP 50,000 outbound is used for SfBO, including for application and desktop sharing, file transfer. UDP/TCP 50,000-59,999 port ranges are used for media sessions with Microsoft Office Communications Server 2007 partners that require NAT/firewall traversal service from the A/V Edge service. Because the A/V Edge service is the sole process using these ports, the size of the port range does not indicate the potential surface of attack. Good security practice is to always minimize the total number of listening ports by not running unnecessary network services. If a network service is not running, it is not exploitable by a remote attacker and the surface of attack of the host computer is reduced. However, within a single service, reducing the number of ports does not provide the same benefit. The A/V Edge service software is no more exposed to attack with 10,000 ports open as it is with 10. The allocation of ports within this range is done randomly and ports not currently allocated do not listen for packets.
+
 ### <a name="external-user-av-traffic-traversal"></a>外部用户 A/V 流量遍历
-如要让外部用户和内部用户能够交换媒体，则需访问边缘服务来处理建立和 终结会话所需的 SIP 信号。 此外还需要 A/V 边缘服务充当媒体传输的中继。 呼叫顺序如下图所示。
+Enabling external users and internal users to exchange media requires an Access Edge service to handle the SIP signaling that is necessary to set up and tear down a session. It also requires an A/V Edge service to act as a relay for the transfer of the media. The call sequence is illustrated in the following figure.
 
 
 ![在会议加入中的呼叫顺序](media/sfbo-call-sequence-security.png) 
 
-1. 用户收到一封电子邮件，其中包含加入 SfBO 会议的邀请。 该电子邮件包含会议密钥和基于 HTTP 的会议链接 URL。 密钥和网址对于特定会议而言都是唯一的。<p>用户单击电子邮件中的会议 URL，此操作将启动用户计算机上的客户端检测流程，以便让用户加入会议。  如果检测到客户端，则启动该客户端。  否则，用户将重定向到 Web 客户端。<p/>
-2. SfBO 客户端发送包含用户证书的 SIP INVITE。 联合或远程用户使用其企业证书加入会议。 对于联合用户，SIP INVITE 首先会发送到他或她的家庭服务器，后者对用户进行身份验证并将 INVITE 转发给 SfBO。 匿名用户需通过摘要式身份验证。<p>SfBO 对远程或匿名用户进行身份验证，并通知客户端。 如步骤 2 所述，加入会议的联合用户由他们的企业进行身份验证。<p/>
+1. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.<p>The user initiates the join procedure by clicking the meeting URL in the email which initiates a client detection process on the user’s machine.  If the client is detected, this client is launched.  If it is not detected, the user is redirected to the web client.<p/>
+2. The SfBO client sends a SIP INVITE containing the user’s credentials. A federated or remote user joins a conferencing using their enterprise credentials. For a federated user, the SIP INVITE is first sent to his or her home server, which authenticates the user and forwards the INVITE to SfBO. An anonymous user is required to pass digest authentication.<p>SfBO authenticates the remote or anonymous user and notifies the client. As mentioned in step 2, federated users joining a conference are authenticated by their enterprise.<p/>
 
 3. 客户端发送 INFO 请求以将用户添加到 A/V 会议。
 
@@ -233,55 +232,53 @@ TCP 50,000 出站用于 SfBO，包括应用程序和桌面共享以及文件传�
 
     [注意] 所有上述 SIP 流量都将流经访问边缘服务。
 
-    客户端连接到 A/V 会议服务器，后者验证令牌并作为代理而将包含其他授权令牌的请求发送给内部 A/V 会议服务器。 A/V 会议服务器验证最初通过 SIP 信道发出的授权令牌，以进一步确保有效用户加入会议。
-    
+    The client connects to the A/V Conference Server, which validates the token and proxies the request, which contains another authorization token, to the internal A/V Conferencing Server. The A/V Conferencing Server validates the Authorization Token, which it originally issued over the SIP channel, to further ensure that a valid user is joining the conference.
+
 4. 在客户端和 AV 会议服务器之间，媒体连接是通过 SRTP 进行协商和设置的。
-5. 用户收到一封电子邮件，其中包含加入 SfBO 会议的邀请。 该电子邮件包含会议密钥和基于 HTTP 的会议链接 URL。 密钥和网址对于特定会议而言都是唯一的。
+5. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.
 
 ### <a name="federation-safeguards-for-sfbo"></a>SfBO 的联盟保障
-联盟让你的组织能够与其他组织通信，以共享 IM 和状态。 在 SfBO 中，默认设置为开启联盟。  但是，租户管理员可以通过 O365 管理门户进行控制。  了解更多详情。
+Federation provides your organization with the ability to communicate with other organizations to share IM and presence. In SfBO federation is on by default.  However, tenant admins have the ability to control this via the O365 Admin portal.  See more.
 
 ## <a name="addressing-threats-to-sfbo-conferences"></a>应对 SfBO 会议的威胁
 
-SfBO 让企业用户能够创建和加入实时 Web 会议。 企业用户还可以邀请没有 AAD/O365 帐户的外部用户参加这些会议。 受联合合作伙伴雇用并具有安全和身份验证身份的用户也可以加入会议，并且可以在升格后担任演示者。 匿名用户无法作为演示者创建或加入会议，但他们可以在加入后升格为演示者。
+SfBO provides the capability for enterprise users to create and join real-time Web conferences. Enterprise users can also invite external users who do not have an AAD/O365 account to participate in these meetings. Users who are employed by federated partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users cannot create or join a meeting as a presenter, but they can be promoted to presenter after they join.
 
-让外部用户参加 SfBO 会议大大增加了此功能的价值，但也带来一些安全风险。 为应对这些风险，SfBO 提供以下附加保障措施：
+Enabling external users to participate in SfBO meetings greatly increases the value of this feature, but it also entails some security risks. To address these risks, SfBO provides the following additional safeguards:
 - 参与者的角色决定了其会议控制权限。
 - 参与者类型可让你限制对特定会议的访问。
 - 已定义的会议类型决定了哪类参与者可以参加。
 - 会议日程安排仅限拥有 AAD 帐户和 SfBO 许可证的用户。
-- 匿名，即未经身份验证，用户要加入电话拨入式会议拨一个会议访问号码，以及然后系统会提示用户输入会议 id。 还会提示未经身份验证的匿名用户记录其名称。 记录的名称用于在会议中标识未经身份验证的用户。 除非至少一个主持人或经过身份验证的用户已参加会议，否则不允许匿名用户参加会议，且无法向其分配预定义角色。
+- Anonymous, that is, unauthenticated, users who want to join a dial-in conference dial one of the conference access numbers and then they are prompted to enter the conference ID. Unauthenticated anonymous users are also prompted to record their name. The recorded name identifies unauthenticated users in the conference. Anonymous users are not admitted to the conference until at least one leader or authenticated user has joined, and they cannot be assigned a predefined role.
 
 ### <a name="participant-roles"></a>参与者角色
 会议参与者分为三组，每组都有自己的权利和限制：
-- **组织者 ** &nbsp;&nbsp; 创建会议的用户，可以是临时指定或者事先安排。 组织者必须是经过身份验证、并且可以控制会议所有终端用户各个方面的企业用户。
-- **演示者** &nbsp;&nbsp; 有权使用任何支持的媒体在会议上呈现信息的用户。 根据定义，会议组织者也可以是演示者，并确定谁还可以成为演示者。 会议安排或会议开始时，组织者可以做出决定。
+- **Organizer** &nbsp;&nbsp; The user who creates a meeting, whether impromptu or by scheduling. An organizer must be an authenticated enterprise user and have control over all end-user aspects of a meeting.
+- **Presenter** &nbsp;&nbsp; A user who is authorized to present information at a meeting, using whatever media is supported. A meeting organizer is by definition also a presenter and determines who else can be a presenter. An organizer can make this determination when a meeting is scheduled or while the meeting is under way.
 - **与会者** &nbsp;&nbsp; 被邀请出席会议、但未获得授权担任演示者的用户。
 
 演示者还可以在会议期间将某一与会者升格为演示者。
 
 ### <a name="participant-types"></a>参与者类型
 
-会议参与者也按照地点和证书分类。 你可以使用这两个特征来指定哪些用户可以访问特定的会议。 用户可以大致分为以下几类：
-1.  **属于租户的用户** &nbsp;&nbsp; 这些用户在租户的 Azure Active Directory 中拥有一个凭据。<br/>
-    a. *内部企业网络*– 这些用户加入从企业网络内部。<br/>b. *远程用户*– 这些用户加入从企业网络外部。 这些用户包括在家工作或在路上工作的员工以及其他人员，如受信任供应商的员工，他们已根据服务条款方面获得企业证书。 远程用户可以创建和加入会议并担任演示者。
-2.  **属于租户的用户** &nbsp;&nbsp; 这些用户在租户的 Azure Active Directory 中拥有一个凭据。<br/>a. *联盟用户*-联盟用户拥有联盟伙伴的有效凭据和，因此被视为已通过 SFBO 身份验证。 联合用户可以参加会议并在他们加入会议后晋升为演示者，但他们无法在与其联合的企业中创建会议。<br/>b. *匿名用户*-匿名用户没有 Active Directory 标识，不与租户联盟。 
+Meeting participants are also categorized by location and credentials. You can use both of these characteristics to specify which users can have access to specific meetings. Users can be divided broadly into the following categories:
+1.  **属于租户的用户** &nbsp;&nbsp; 这些用户在租户的 Azure Active Directory 中拥有一个凭据。<br/> a. *Inside corpnet* – These users are joining from inside the corporate network.<br/>b. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
+2.  **属于租户的用户** &nbsp;&nbsp; 这些用户在租户的 Azure Active Directory 中拥有一个凭据。<br/>a. *Federated Users* - Federated users possess valid credentials with federated partners and are therefore treated as authenticated by SFBO. Federated users can join conferences and be promoted to presenters after they have joined the meeting, but they cannot create conferences in enterprises with which they are federated.<br/>b. *Anonymous Users* - Anonymous users do not have an Active Directory identity and are not federated with the tenant. 
 
-客户数据显示，许多会议涉及外部用户。 在允许这些用户加入会议之前，这些客户也希望确保外部用户的身份。 如以下部分所述，SfBO 将访问权限限制为已明确允许的用户类型，并要求所有用户类型在进入会议时提供适当的证书。
+Customer data shows that many conferences involve external users. Those same customers also want reassurance about the identity of external users before allowing those users to join a conference. As the following section describes, SfBO limits meeting access to those user types that have been explicitly allowed and requires all user types to present appropriate credentials when entering a meeting.
 
 ### <a name="participant-admittance"></a>参与者与会
-在 SfBO，匿名用户被转移到名为大厅的等候区。 演示者可以接受这些用户参加会议或拒绝他们。 这些用户被转移到大厅，通知领导后，用户将等待领导接受或拒绝，直到连接超时。在大厅里，用户会听到音乐播放。 
+In SfBO, anonymous users are transferred to a waiting area called the lobby. Presenters can then either admit these users to the meeting or reject them. These users are transferred to the lobby, the leader is notified, and the users then wait until a leader either accepts or rejects them or their connection times out. While in the lobby, the users hear music. 
 
 默认情况下，从 PSTN 拨入的与会者直接进入会议，但可以更改此选项以强制拨入与会者前往大厅。  
-会议组织者决定参与者是否可以加入会议而无需在大厅等待。 每个会议都可以设置为使用以下任何一种方法启用访问：
+Meeting organizers control whether participants can join a meeting without waiting in the lobby. Each meeting can be set up to enable access using any one of the following methods:
 - **只有我，会议组织者**&nbsp;&nbsp;除组织者之外，每个人都必须在大厅等候，直到被允许参加会议。
 - **我从我公司邀请的人**&nbsp;&nbsp;即使没有被邀请，公司内的任何人都可以直接参加会议。
-- **我组织中的任何人**&nbsp;&nbsp;O365 租户中的所有 SfBO 用户（即使那些不在分发名单中的人）均可以参加会议，无需在大厅等待。 所有其他人（包括所有外部和匿名用户）必须在大厅等候，直到被允许参加会议。
-- **任何人**&nbsp;&nbsp;有权访问会议链接的任何人（没有限制）直接进入会议。
-如果指定了“仅限组织者（锁定）”以外的任何方法，会议组织者还可以指定通过电话拨入的人员直接参加会议而绕过大厅。 
+- **Anyone from my organization**&nbsp;&nbsp;All SfBO users in the O365 tenant can join the meeting without waiting in the lobby, even if those who are not on the distribution list. All others, including all external and anonymous users, must wait in the lobby until admitted.
+- **Anyone**&nbsp;&nbsp;Anyone (there are no restrictions)who has access to the meeting link gets in to the meeting directly. When any method except Organizer only (locked) is specified, the meeting organizer can also specify People dialing in by phone bypass the lobby. 
 
 ### <a name="presenter-capabilities"></a>演示者功能
-会议组织者决定参与者是否可以在会议期间演示。 每个会议都可以设置为将演示者限制为以下任何一种情况：
+Meeting organizers control whether participants can present during a meeting. Each meeting can be set up to limit presenters to any one of the following:
 - **仅限组织者**&nbsp;&nbsp; 只有会议组织者才能演示。
 - **来自我公司的人员**&nbsp;&nbsp; 所有内部用户都可以演示。
 - **每个人，包括我公司以外的人**&nbsp;&nbsp; 参加会议的每个人（没有限制）都可以演示。

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: 了解如何支持在 Skype 业务 Server 企业语音，在中央站点和分支站点语音恢复能力。 分支站点选项包括部署 Survivable Branch Appliance 或 Survivable Branch Server。
-ms.openlocfilehash: 76b56d7e7d00ecd6d542be3f936af6f2e834974d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b93e93e32baf67b71c2a1eb842455973ee619f80
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882301"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374757"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>规划业务服务器 Skype 中的企业语音恢复能力
 
@@ -378,12 +378,13 @@ Survivable Branch Server 的要求是前端服务器的要求相同。 有关详
 
 **表 2. 路由**
 
-|**路由名称**|**号码模式**|**电话用法**|**中继**|**网关**|
-|:-----|:-----|:-----|:-----|:-----|
-|Redmond 本地路由  <br/> |^\+1 (425|206|253)(\d{7})$  <br/> |Local  <br/> RedmondLocal  <br/> |Trunk1  <br/> Trunk2  <br/> |Red-GW1  <br/> Red-GW2  <br/> |
-|Dallas 本地路由  <br/> |^\+1 (972|214|469)(\d{7})$  <br/> |Local  <br/> |Trunk3  <br/> |Dallas-GW1  <br/> |
-|通用路由  <br/> |^\+?(\d\*)$  <br/> |GlobalPSTNHopoff  <br/> |Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> |Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
-|Dallas 用户路由  <br/> |^\+?(\d\*)$  <br/> |名为 DallasUsers  <br/> |Trunk3  <br/> |Dallas-GW1  <br/> |
+
+| **路由名称**             | **号码模式** | **电话用法**         | **中继**                                 | **网关**                                     |
+|:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
+| Redmond 本地路由  <br/> | ^\+1 (425           | 206                     | 253)(\d{7})$  <br/>                       | Local  <br/> RedmondLocal  <br/>                |
+| Dallas 本地路由  <br/>  | ^\+1 (972           | 214                     | 469)(\d{7})$  <br/>                       | 本地  <br/>                                    |
+| 通用路由  <br/>     | ^\+?(\d\*)$  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
+| Dallas 用户路由  <br/>  | ^\+?(\d\*)$  <br/> | 名为 DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
 
 在表 1 中，名为 GlobalPSTNHopoff 的电话用法添加到 Dallas Calling Policy 中的 DallasUsers 电话用法的后面。这样，当 DallasUsers 电话用法的路由不可用时，具有 Dallas Calling Policy 的呼叫就可以使用针对 GlobalPSTNHopoff 电话用法配置的路由。
 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 摘要： 了解如何为业务服务器中 Skype 欢迎用户参加电话拨入式会议。
-ms.openlocfilehash: f21d130f84b248b2911d691dbcf80f2563ee60fb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 90c56fd97d9eb51c96c1a0cb149f732a31a70743
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008678"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373711"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>发送欢迎电子邮件以电话拨入式 Skype 业务服务器中的用户
  
@@ -38,18 +38,18 @@ ms.locfileid: "21008678"
     
 3. 在命令提示符下，运行以下内容：
     
-  ```
-  Set-CsPinSendCAWelcomeMail -UserUri <user identifier>
--From <email address of sender> [-Subject <subject for email message>]
-[-UserEmailAddress <destination email address>]
-[-Cc <email address of recipients who receive copy of email>]
-[-Bcc <email address of recipients who receive blind copies>]
-[-TemplatePath <path for email template>]
-[-SmtpServer] <SMTP server name>]
-[-BodyAsPlainText] [-UseSsl]
-[-Pin <new numeric PIN>] [-Force] `
-[-Credential <SMTP server credentials used to send email with the specified From address>]
-  ```
+   ```
+   Set-CsPinSendCAWelcomeMail -UserUri <user identifier>
+   -From <email address of sender> [-Subject <subject for email message>]
+   [-UserEmailAddress <destination email address>]
+   [-Cc <email address of recipients who receive copy of email>]
+   [-Bcc <email address of recipients who receive blind copies>]
+   [-TemplatePath <path for email template>]
+   [-SmtpServer] <SMTP server name>]
+   [-BodyAsPlainText] [-UseSsl]
+   [-Pin <new numeric PIN>] [-Force] `
+   [-Credential <SMTP server credentials used to send email with the specified From address>]
+   ```
 
 **SmtpServer**默认情况下，该脚本为此参数使用保留的环境变量 **$PSEmailServer**的值。 如果未设置 **$PSEmailServer**变量，则必须指定此参数。
     

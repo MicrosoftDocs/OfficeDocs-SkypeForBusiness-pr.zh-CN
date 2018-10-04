@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: 摘要： 了解如何更改 Skype for Business Server 存档数据库选项。
-ms.openlocfilehash: af1cc1e6398652efac5be20114dac6bf228ef892
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 40cb0d6a3e0a55ad5221c55105355a7838835d30
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010076"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371965"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>更改存档数据库选项中 Skype 业务服务器
 
@@ -47,35 +47,35 @@ ms.locfileid: "21010076"
     
 7. 在“**存档**”中，执行下列操作：
     
-  - 若要切换到其他现有 SQL Server 存储，请在“**存档 SQL Server 存储**”下的下拉列表框中，执行下列操作：
+   - 若要切换到其他现有 SQL Server 存储，请在“**存档 SQL Server 存储**”下的下拉列表框中，执行下列操作：
     
-  - 若要使用现有 SQL Server 存储，请在下拉列表框中，单击要使用的 SQL Server 存储的名称。
+   - 若要使用现有 SQL Server 存储，请在下拉列表框中，单击要使用的 SQL Server 存储的名称。
     
-  - 若要指定新的 SQL Server 存储，请单击“**新建**”，然后在“**定义新的 SQL Server 存储**”对话框中，执行下列操作：
+   - 若要指定新的 SQL Server 存储，请单击“**新建**”，然后在“**定义新的 SQL Server 存储**”对话框中，执行下列操作：
     
-    - 若要使用现有 SQL Server 存储，请在下拉列表框中，单击要使用的 SQL Server 存储的名称。
+     - 若要使用现有 SQL Server 存储，请在下拉列表框中，单击要使用的 SQL Server 存储的名称。
     
-    - 若要指定新的 SQL Server 存储，请单击**新建**，然后在**定义新的 SQL Server 存储**对话框中，执行以下：
+     - 若要指定新的 SQL Server 存储，请单击**新建**，然后在**定义新的 SQL Server 存储**对话框中，执行以下：
     
-      - 在**SQL Server FQDN**中，指定要在其创建新的 SQL Server 存储的服务器的 FQDN。
+       - 在**SQL Server FQDN**中，指定要在其创建新的 SQL Server 存储的服务器的 FQDN。
     
-      - 单击“**默认实例**”以使用默认的实例，或者，若要指定其他实例，请单击“**命名实例**”，然后指定要使用的实例。
+       - 单击“**默认实例**”以使用默认的实例，或者，若要指定其他实例，请单击“**命名实例**”，然后指定要使用的实例。
     
-      - 如果指定的 SQL Server 实例处于镜像关系中，选择**此 SQL 实例处于镜像关系中**复选框，然后，在**镜像端口号**框中，指定的端口号。
+       - 如果指定的 SQL Server 实例处于镜像关系中，选择**此 SQL 实例处于镜像关系中**复选框，然后，在**镜像端口号**框中，指定的端口号。
     
-  - 若要添加用于镜像的 SQL Server 存储或将其他现有 SQL Server 存储用于 SQL Server 存储镜像，请选择“**启用 SQL Server 存储镜像**”，然后执行下列操作：
+   - 若要添加用于镜像的 SQL Server 存储或将其他现有 SQL Server 存储用于 SQL Server 存储镜像，请选择“**启用 SQL Server 存储镜像**”，然后执行下列操作：
     
-    - 若要将现有 SQL Server 存储用于镜像，请在**存档 SQL Server 存储镜像**下拉列表框中，单击您想要用于镜像的 SQL Server 存储的名称。
+     - 若要将现有 SQL Server 存储用于镜像，请在**存档 SQL Server 存储镜像**下拉列表框中，单击您想要用于镜像的 SQL Server 存储的名称。
     
-    - 若要指定新的 SQL Server 存储用于镜像，请单击**新建**，然后在**定义新的 SQL Server 存储**对话框中，执行下列选项之一：
+     - 若要指定新的 SQL Server 存储用于镜像，请单击**新建**，然后在**定义新的 SQL Server 存储**对话框中，执行下列选项之一：
     
-      a. 在**SQL Server FQDN**中，指定要在其创建新的 SQL Server 存储的 SQL Server 的 FQDN。
+       a. 在**SQL Server FQDN**中，指定要在其创建新的 SQL Server 存储的 SQL Server 的 FQDN。
     
-      b. 单击“**默认实例**”以使用默认的实例，或者，若要指定其他实例，请单击“**命名实例**”，然后指定要使用的实例。
+       b. 单击“**默认实例**”以使用默认的实例，或者，若要指定其他实例，请单击“**命名实例**”，然后指定要使用的实例。
     
-      c. 如果指定的 SQL Server 实例处于镜像关系中，选择**此 SQL 实例处于镜像关系中**复选框，然后，在**镜像端口号**框中，指定的端口号。
+       c. 如果指定的 SQL Server 实例处于镜像关系中，选择**此 SQL 实例处于镜像关系中**复选框，然后，在**镜像端口号**框中，指定的端口号。
     
-  - 如果您启用 SQL Server 镜像，并且想要添加或更改 SQL Server 镜像见证 （的第三个单独 SQL Server 实例的可以检测到主 SQL Server 服务器和镜像实例的运行状况），选择**使用 SQL Server 镜像见证到启用自动故障转移**复选框，，然后执行下列选项之一：
+   - 如果您启用 SQL Server 镜像，并且想要添加或更改 SQL Server 镜像见证 （的第三个单独 SQL Server 实例的可以检测到主 SQL Server 服务器和镜像实例的运行状况），选择**使用 SQL Server 镜像见证到启用自动故障转移**复选框，，然后执行下列选项之一：
     
       a. 在**SQL Server FQDN**中，指定要在其创建新的 SQL Server 镜像见证的服务器的 FQDN。
     
@@ -83,10 +83,10 @@ ms.locfileid: "21010076"
     
       c. 如果指定的 SQL Server 实例处于镜像关系中，选择**此 SQL 实例处于镜像关系中**复选框，然后，在**镜像端口号**框中，指定的端口号。
     
-  - 若要切换到 Microsoft Exchange 集成，以存储存档数据和 （如果部署中的所有用户都驻留在 Exchange 服务器上） 的 Exchange 服务器上的文件，请删除存档数据库的所有信息。
+   - 若要切换到 Microsoft Exchange 集成，以存储存档数据和 （如果部署中的所有用户都驻留在 Exchange 服务器上） 的 Exchange 服务器上的文件，请删除存档数据库的所有信息。
     
-    > [!IMPORTANT]
-    > 如果您有任何 Skype 的业务用户未驻留在 Exchange 服务器，完成删除 SQL Server 存储信息。 
+     > [!IMPORTANT]
+     > 如果您有任何 Skype 的业务用户未驻留在 Exchange 服务器，完成删除 SQL Server 存储信息。 
   
 8. 若要保存配置，请单击“**确定**”。
     

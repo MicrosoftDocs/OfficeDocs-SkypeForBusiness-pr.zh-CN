@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: 摘要： 阅读本主题可了解如何为业务 Server 与 Exchange 存储中 Skype 配置集成。
-ms.openlocfilehash: 5f987ef0c2c47960a71c94a3b5a692062e787ed6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 35ef648a1076283f63752221a807da21bf4208ca
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988330"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370618"
 ---
 # <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>配置集成与 Exchange 存储的 Skype 业务服务器
  
@@ -32,9 +32,9 @@ ms.locfileid: "20988330"
     
 4. 单击存档配置列表中相应的全局、站点或池配置的名称，单击“**编辑**”，再单击“**显示详细信息**”，然后执行以下操作：
     
-  - 若要启用与 Exchange 存储的集成，请选择**Microsoft Exchange 集成**复选框。
+   - 若要启用与 Exchange 存储的集成，请选择**Microsoft Exchange 集成**复选框。
     
-  - 若要禁用与 Exchange 存储的集成，请清除**Microsoft Exchange 集成**复选框。
+   - 若要禁用与 Exchange 存储的集成，请清除**Microsoft Exchange 集成**复选框。
     
 5. 单击“**提交**”。
     

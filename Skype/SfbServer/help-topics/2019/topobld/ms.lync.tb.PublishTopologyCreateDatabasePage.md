@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 拓扑生成器提供一种方法在 SQL Server 存储上安装数据库。 使用拓扑生成器安装数据库时，应用程序从拓扑中读取信息，然后将所需的数据库安装在指定的 SQL Server 计算机或 SQL Server 群集。 这是唯一可以使用拓扑生成器进行的数据库安装类型。 如果您需要在特定计算机上，安装特定数据库，或者必须安装并置的数据库，您必须改为使用 Windows PowerShell 命令行界面和的 Install-csdatabase cmdlet。
-ms.openlocfilehash: 087bed64e0e1d53cd610433c5695899107a9aa71
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 648dca60cd89cc9eeec7f4787b6464f716fdcee6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21066110"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371518"
 ---
 # <a name="create-database"></a>创建数据库
  
@@ -31,9 +31,9 @@ ms.locfileid: "21066110"
     
 3. 单击“**高级**”。在“**选择数据库文件位置**”对话框中，选择下列选项之一：
     
-  - **自动确定数据库文件位置**。如果选择此选项，拓扑生成器将使用内置算法选择数据库日志和数据文件的存储位置。
+   - **自动确定数据库文件位置**。如果选择此选项，拓扑生成器将使用内置算法选择数据库日志和数据文件的存储位置。
     
-  - **使用 SQL Server 实例默认值**。 如果选择此选项，将不会使用内置算法选择数据库日志和数据文件的存储位置。 而是日志和数据文件存储在 SQL Server 默认路径 （这些路径必须配置中的 SQL Server 管理员高级） 指定的位置。 数据文件将存储在默认 SQL Server 数据文件位置，而日志文件将存储在默认 SQL Server 日志文件位置。
+   - **使用 SQL Server 实例默认值**。 如果选择此选项，将不会使用内置算法选择数据库日志和数据文件的存储位置。 而是日志和数据文件存储在 SQL Server 默认路径 （这些路径必须配置中的 SQL Server 管理员高级） 指定的位置。 数据文件将存储在默认 SQL Server 数据文件位置，而日志文件将存储在默认 SQL Server 日志文件位置。
     
 4. 单击“**确定**”。
     

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 摘要： 了解如何配置方案提供程序 the Centralized Logging Service 中 Skype 业务服务器 2015年。
-ms.openlocfilehash: bea50b6c1ea2fa805e407db4f6dd3fcfb761b4ef
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: e67a1dee9227624ecc94c50437f60781435b2fe8
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504346"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372490"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>配置 Skype for Business Server 2015 中的集中日志记录服务的提供程序
  
@@ -83,21 +83,21 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. 若要查看现有提供程序的配置，请键入：
     
-  ```
-  Get-CsClsScenario -Identity <scope and scenario name>
-  ```
+   ```
+   Get-CsClsScenario -Identity <scope and scenario name>
+   ```
 
     例如，若要查看有关全局会议助理的信息，请键入：
     
-  ```
-  Get-CsClsScenario -Identity "global/CAA"
-  ```
+   ```
+   Get-CsClsScenario -Identity "global/CAA"
+   ```
 
     此命令显示具有关联的标志、设置和组件的提供程序的列表。 如果显示的信息不足或列表的默认 Windows PowerShell 的列表格式太长，则可以通过定义不同的输出方法显示的其他信息。 为此，请键入：
     
-  ```
-  Get-CsClsScenario -Identity "global/CAA" | Select-Object -ExpandProperty Provider
-  ```
+   ```
+   Get-CsClsScenario -Identity "global/CAA" | Select-Object -ExpandProperty Provider
+   ```
 
     此命令的输出显示用五行格式显示的每个提供程序，以及提供程序名称、日志记录类型、日志记录级别、标志、GUID 和角色（每个提供程序位于一个单独的行上）。 
     
@@ -107,15 +107,15 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. 方案提供程序包含要跟踪的组件、要使用的标志和要收集的详细信息级别。通过键入以下内容可完成此操作：
     
-  ```
-  $<variableName> = New-CsClsProvider -Name <provider component> -Type <log type> -Level <log level detail type> -Flags <provider trace log flags>
-  ```
+   ```
+   $<variableName> = New-CsClsProvider -Name <provider component> -Type <log type> -Level <log level detail type> -Flags <provider trace log flags>
+   ```
 
     例如，定义要从 Lyss 提供程序收集的内容和详细信息级别的跟踪提供程序定义与以下内容类似：
     
-  ```
-  $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
-  ```
+   ```
+   $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
+   ```
 
 -级别收集致命，错误、 警告和信息的邮件。 使用的标志是所有这些定义 Lyss 提供程序和包括 TF_Connection、 TF_Diag 和定义变量 $LyssProvider TF_Protocol.After，您可以使用它使用**New-csclsscenario** cmdlet 收集跟踪从 Lyss 提供程序。 若要创建提供程序并将其分配给新的方案，请键入：
 
@@ -130,15 +130,15 @@ New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvid
     
 2. 若要更新或更改现有提供程序的配置，请键入：
     
-  ```
-  $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "TF_Connection, TF_Diag"
-  ```
+   ```
+   $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "TF_Connection, TF_Diag"
+   ```
 
     然后，通过键入以下内容来更新方案以分配提供程序：
     
-  ```
-  Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
-  ```
+   ```
+   Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
+   ```
 
 此命令的最终结果是方案 site:Redmond/RedmondLyssInfo 将获得提供程序的更新标志和级别。 可通过使用 Get-CsClsScenario 查看新方案。 有关详细信息，请参阅[Get-csclsscenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)。
 > [!CAUTION]
@@ -157,25 +157,25 @@ Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSP
     
 2. 可利用提供的 cmdlet 更新现有提供程序并创建新的提供程序。 要删除提供程序，必须使用**Set-csclsscenario**的提供程序参数替换指令。 完全删除提供程序的唯一方式是，将提供程序替换为具有相同名称的重定义的提供程序并使用 Update 指令。 例如，使用 WPP 将提供程序 LyssProvider 定义为日志类型，将级别设置为“Debug”，则标志集为 TF_CONNECTION 和 TF_DIAG。 您需要更改的标记为"All"。 若要更改提供程序，请键入：
     
-  ```
-  $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
-  ```
+   ```
+   $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
+   ```
 
-  ```
-  Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
-  ```
+   ```
+   Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
+   ```
 
 3. 若要完全删除方案及其关联的提供程序，请键入：
     
-  ```
-  Remove-CsClsScenario -Identity <scope and name of scenario>
-  ```
+   ```
+   Remove-CsClsScenario -Identity <scope and name of scenario>
+   ```
 
     例如：
     
-  ```
-  Remove-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo"
-  ```
+   ```
+   Remove-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo"
+   ```
 
     > [!CAUTION]
     > **Remove-csclsscenario** cmdlet 不会提示您进行确认。 方案将连同已分配给它的提供程序一起被删除。 可通过重新运行最初用于创建方案的命令来重新创建方案。 没有用于恢复已删除的方案或提供程序的过程。
