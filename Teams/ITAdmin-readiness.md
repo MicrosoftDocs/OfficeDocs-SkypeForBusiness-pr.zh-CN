@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 培训视频、 教程和其他资源来 admins 如何规划、 部署和运行的 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2750f99e47517e0b1e516b89673106b44f0c96c
-ms.sourcegitcommit: 0cb35fd6e93939f2252d0729c7c08bac50e6cd6b
+ms.openlocfilehash: 2bce73966b8aa15717e3c96e91f703059428127b
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/04/2018
-ms.locfileid: "25402074"
+ms.locfileid: "25405157"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
@@ -119,7 +119,8 @@ ms.locfileid: "25402074"
 
     
 </ul>
-****************
+
+---
 
 <h2>特色培训</h2>
 <ul class="panelContent cardsW">
@@ -130,6 +131,17 @@ ms.locfileid: "25402074"
                     <div class="cardText">
                         <h3>从 Skype for Business 到 Teams 的旅程</h3>
                          <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">教程：从 Skype for Business 到 Teams 的旅程</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>团队协作</h3>
+                         <p><a href="https://aka.ms/edx-cld267x-about">课程： 启用与 Microsoft 团队的团队协作</a></p>
                     </div>
                 </div>
             </div>
