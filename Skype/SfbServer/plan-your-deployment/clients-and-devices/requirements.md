@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: 本文汇总了支持 Skype 会议室系统 v2 的要求。
-ms.openlocfilehash: b349e5dc617ffe9b5247fc38d86c339f3031ceb0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 857b48d0dc7a14243a1bc246cff9c7b06e1e0da6
+ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373791"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25429457"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype 会议室系统 v2 要求
 
@@ -25,11 +25,11 @@ ms.locfileid: "25373791"
 您的部署将涉及[部署 Skype 会议室系统 v2](../../deploy/deploy-clients/room-systems-v2.md)中所述的帐户创建和设置[配置的 Skype 会议室系统 v2 控制台](../../deploy/deploy-clients/console.md)中所述的会议控制台。 您可能还需要引用[Skype 业务加载项授权的](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)。
 
 > [!NOTE]
-> Skype 会议室系统 v2 旨在用于业务服务器 2019年的 Skype、 Skype for Business Server 2015、 Microsoft 团队或 Skype 业务 online。  <br><br>不应使用 Skype 会议室系统 v2 早期平台，如 Lync Server 2013。 
+> Skype 会议室系统 v2 旨在用于业务服务器 2019年的 Skype、 Skype for Business Server 2015、 Microsoft 团队或 Skype 业务 online。 <br><br>不应使用 Skype 会议室系统 v2 早期平台，如 Lync Server 2013。 
 
 ## <a name="hardware-requirements"></a>硬件要求
 
-Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音频和视频的外围设备的附件。 音频和视频的外围设备连接到通过 USB 或 HDMI 连接停靠的设备上的 Skype 会议室系统 v2。 你还将需要：
+Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音频和视频的外围设备的附件。 本文中列出的硬件支持 Skype 和团队会议模式。  音频和视频的外围设备连接到通过 USB 或 HDMI 连接停靠的设备上的 Skype 会议室系统 v2。 你还将需要：
 
 - 32 GB 或更大的 USB 磁盘将 Windows 10 enterprise 配置为可引导的 Windows 安装介质。 
 

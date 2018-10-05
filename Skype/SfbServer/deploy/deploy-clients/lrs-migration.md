@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: 阅读本主题可了解如何迁移 Lync 会议室系统设备使用 Skype 会议室系统 v2 软件。
-ms.openlocfilehash: 18cc3f954480a000bfe962e0a4b461e05568479b
-ms.sourcegitcommit: 6447a3aa060452c8d6879524cd6a56aecf33b152
+ms.openlocfilehash: c87081ccd40765b10929a0d2762d834ce6a1b2ab
+ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25354002"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25429450"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>将 Lync 会议室系统 (LRS) 设备迁移到 Skype 会议室系统 v2 
 Skype 会议室系统版本 1 (SR v1) 软件 Lync 会议室系统 (LRS) 设备将到达[2018 年 10 月 9，支持的结束](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)。 这意味着所有产品更新或此日期之后的修补程序，也不会都收到 Skype 会议室系统 v1 软件。 建议使用 Skype 会议室系统 v1 软件的 Lync 会议室系统设备的客户升级其设备到 Skype 会议室系统版本 2 (SR v2)。
@@ -42,8 +42,8 @@ Crestron 将为所有非 Crestron Lync 会议室系统客户[Crestron SR 系统]
 现有 Crestron RL2 （也称为 Crestron RL200） 客户可以获取升级到 RL3 使用当前 RL2 升级程序包的每个设备的最小成本。 此程序的详细信息，请参阅[此处](https://support.crestron.com/app/answers/answer_view/a_id/1000220)或<!-- For details, -->[电子邮件](mailto:lrsupgrade@crestron.com)Crestron LRS 支持。  
 
 
-### <a name="smart-room-systems-upgrade--diy-program"></a>智能会议室系统升级链接 DIY 程序
-对于智能 LRS 客户，除了 Crestron 硬件折旧计划，Microsoft 和智能还提供解决方案升级到 Skype 会议室系统 v2 工作。 Microsoft 也智能 LRS 客户测试 DIY 解决方案。 在早期年 10 月 2018年中，将此页上提供这些程序中的更多详细信息。 请确保重新检查更新这些升级选项。
+### <a name="smart-room-systems-upgrade"></a>智能会议室系统升级 
+对于智能 LRS 客户，除了 Crestron 硬件折旧计划，Microsoft 和智能还提供解决方案升级到 Skype 会议室系统 v2 工作。 将由智能向所有现有智能 LRS 客户提供此升级。 将年 10 月 2018年在此页上提供此程序的更多详细信息。 请确保更新后的检查。
 
 <!--  
 For later 

@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ed741eff5ff095107693a2c94bb8438c60e7c9f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2d86e54bcab57f33c1b0031184282a8fc5f49b8a
+ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374377"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25429464"
 ---
 ![升级旅程，重点强调的用户准备阶段的阶段](media/upgrade-banner-user-readiness.png "升级旅程，重点强调的用户准备阶段的阶段")
 
@@ -70,7 +70,7 @@ ms.locfileid: "25374377"
 
 
 > [!Tip]
-> 除了充当对等方拥护者您试点测试登记您前期应用。 拥护者帮助宣传新技术和导致的示例演示如何实现价值的同事。 若要了解有关创建的正式拥护者程序的详细信息，请参阅[Office 采用指南](https://fto365dev.blob.core.windows.net/media/Default/DocResources/Office_365_Adoption_Guide.pdf)。 您滞后可能需要更可信之前它们采用一种新技术。 如果超过 20%的组织可分为此地址散列表元，花费通信值消息和提供定制培训的更多时间。 此外，它们通过更改通过支持打开反馈机制，以更好地了解和满足其 hesitations。
+> 除了充当对等方拥护者您试点测试登记您前期应用。 拥护者帮助宣传新技术和导致的示例演示如何实现价值的同事。 若要了解有关创建的正式拥护者程序的详细信息，请参阅[Office 采用指南](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf)。 您滞后可能需要更可信之前它们采用一种新技术。 如果超过 20%的组织可分为此地址散列表元，花费通信值消息和提供定制培训的更多时间。 此外，它们通过更改通过支持打开反馈机制，以更好地了解和满足其 hesitations。
 
 #### <a name="what-percentage-of-users-fall-into-each-competency"></a>哪些用户的百分比分为以下每个 1&competency？
 

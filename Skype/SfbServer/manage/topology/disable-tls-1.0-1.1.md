@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 摘要： 准备，并在您的环境中实现禁用 TLS 1.0 和 1.1。
-ms.openlocfilehash: e220a6615ef259e5ccba5b47a9e0f992289e6af4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 784b6b307275516a18b396864d1a2c4f40c285e8
+ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373069"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25429443"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>为业务 Server 2015 禁用 TLS 1.0/1.1 中 Skype
 
@@ -73,7 +73,7 @@ Microsoft 提供了在 TLS 可用[下面](https://cloudblogs.microsoft.com/micro
 
 除非另有说明，以下产品不在 TLS 1.0/1.1 禁用支持的范围内，将无法正常 TLS 1.0 和 1.1 其中已禁用的环境中。  这意味着： 如果您仍可以利用超出范围服务器或客户端，您必须更新或删除这些，如果您需要禁用 TLS 1.0/1.1 无处不在您 Skype 的业务服务器本地部署。
 
-- Lync Server 2013 *
+- Lync Server 2013
 - Windows Server 2008 及更低
 - Lync for Mac 2011
 - Lync 2013 mobile-iOS、 iPad、 Android 或 Windows Phone
@@ -84,7 +84,7 @@ Microsoft 提供了在 TLS 可用[下面](https://cloudblogs.microsoft.com/micro
 
 ### <a name="exceptions"></a>异常
 
-#### <a name="lync-server-2013"></a>* Lync Server 2013
+#### <a name="lync-server-2013"></a>Lync Server 2013
 
 Lync Server 2013 承担 Windows Fabric 1.0 版的依赖关系。  在 Lync Server 2013 的设计阶段，Windows Fabric 1.0 已选择其令人信服和新分布式体系结构来提供复制、 高可用性和容错能力。  随时间推移，这两个 Skype Business Server 和 Windows Fabric 大大提高了重大重新设计后续版本中使用此联合体系结构。  当前 Skype 业务 2015年服务器使用 Windows Fabric 3.0，例如。
 
@@ -92,7 +92,7 @@ Lync Server 2013 承担 Windows Fabric 1.0 版的依赖关系。  在 Lync Serve
 
 如果您的组织需要禁用 TLS 1.0 和 1.1 中，并且您目前使用 Lync Server 2013，我们建议您开始规划过程、 的可能性您可能遇到的就地升级或-并行迁移到 Skype 的 （新池，移动用户）业务服务器 2015年或更高版本。  或者，您可能想要迁移到 Skype 加速业务 online。
 
-#### <a name="call-quality-dashboard"></a>* 呼叫质量仪表板
+#### <a name="call-quality-dashboard"></a>通话质量仪表板
 
 在本地呼叫质量仪表板当前依赖 TLS 1.0 在新的安装 （到您的本地环境中安装第一次）。  我们当前正在调查此问题，并计划在将来版本修复。  如果您计划安装 CQD 和还禁用 TLS 1.0，我们建议您首先，完成 CQD 安装，然后继续进行 TLS 1.0 禁用。
 
@@ -118,7 +118,7 @@ Skype 使用者服务 PIC （公共 IM 连接）： 我们不希望禁用 TLS 1.
 
 在高级别，供在安装过程的业务服务器 2019 Skype 时的业务服务器 2015 Skype 将要求您安装 CU6 HF2，应用到.NET 和 SQL、 部署系统必备的注册表项，和最后一个单独的系统必备的更新round OS 配置的更新 （即禁用 TLS 1.0 和通过注册表文件导入 1.1）。 完成安装所有必备组件，包括之前禁用 TLS 1.0 和您的环境中的任何服务器上的 1.1 Skype 业务服务器 2015 CU6 HF2 至关重要。 对于业务服务器，包括边缘角色和 SQL Backends，每个 Skype 需要更新。 此外还应确保所有受支持 （范围） 客户端的已更新为所需的最低版本。 不要忘记更新以及管理工作站。
 
-我们希望需遵循的业务服务器升级 Skype 操作的"内向外"的常规顺序。 将控制器池、 Pchat 和配对池视为平常一样方式相同。 介绍的订单和用于升级方法[此处](topology.md)和[此处](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)。
+我们希望需遵循的业务服务器升级 Skype 操作的"内向外"的常规顺序。 将控制器池、 持久聊天和配对池视为平常一样方式相同。 介绍的订单和用于升级方法[此处](topology.md)和[此处](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)。
 
 ### <a name="high-level-process"></a>高级过程
 
@@ -146,7 +146,7 @@ Skype 使用者服务 PIC （公共 IM 连接）： 我们不希望禁用 TLS 1.
     - Microsoft ODBC 驱动程序 11 SQL server （[链接](https://www.microsoft.com/en-us/download/details.aspx?id=36434)），或更高版本
     - 共享的 SQL Server 2014 SP2 （[链接](https://www.microsoft.com/en-in/download/details.aspx?id=42295)） 的管理对象
     - SQL server 2014 SP2 SQLSysClrTypes （[链接](https://www.microsoft.com/en-in/download/details.aspx?id=42295)）
- 
+
 ### <a name="basic-steps-to-install-pre-requisites-in-recommended-order-of-operations"></a>安装必备组件，建议的操作顺序中的基本步骤
 
 1. 安装 Business Server CU6HF2 Skype (6.0.9319.516) 更新的所有服务器。 
