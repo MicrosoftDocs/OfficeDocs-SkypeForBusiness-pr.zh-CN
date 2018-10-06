@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 摘要： 了解如何迁移用户设置并将用户移动到团队。
-ms.openlocfilehash: 27e8ac831f7009a373b2ed28d484f00f9462ef12
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 78f0c49fa2179b4a0aa95a993476c21fb679f489
+ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030782"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25436563"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>将用户从内部部署移动到团队
 
@@ -27,8 +27,6 @@ ms.locfileid: "25030782"
 - 他们可以加入 Skype 会议通过业务富客户端 （用户不会提示登录每次） 的 Skype 或 Skype 会议应用程序 （需要一次性下载和登录）。 当用户单击团队中的业务会议链接 Skype 时，将在相应的应用程序中启动会议。
 
 - 移动，在您的用户将能够加入现有 Skype 业务会议使用本机应用程序。
-
-    ![Mobile Skype 会议](../media/mobile-skype-meeting.png)
 
 > [!NOTE]
 > 将用户移动到 TeamsOnly 模式后，用户在 Skype 驻留业务 online 中。
