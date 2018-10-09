@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 摘要： IT 专业人员应规划的 Skype 业务 Server 时查看 Skype 企业 Web 应用程序和 Skype 会议应用程序的支持的要求。 这篇文章不适合于这些应用程序的用户。
-ms.openlocfilehash: 447bd6ea0c3e0c244d7d78e091ac405e66a4f9ef
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: c76770d570aaa1d1c686df7b0845e41a767cfbef
+ms.sourcegitcommit: 80e1983fd631b8ad63c902375f1128faa957e374
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965711"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25450632"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>规划会议客户端 （Web 应用程序和会议应用程序）
  
@@ -52,22 +52,20 @@ Skype 会议应用程序提供了有关下载和安装应用程序和加入会�
   
 **操作系统和的 Skype 业务 Web 应用程序的最小的浏览器支持**
 
-| 操作系统 | Edge | 32 位和 64 位 Internet Explorer 11 或更高版本 | 32 位和 64 位 Internet Explorer 10 或更高版本 | 32 位和 64 位 Internet Explorer 9 或更高版本 | 32 位和 64 位版本的 Firefox 12.X 或更高版本 | 32 位和 64 位版本的 Chrome 18.X 或更高版本 |
+| 操作系统 | Edge | 32 位和 64 位 Internet Explorer 11 或更高版本 | 32 位和 64 位 Internet Explorer 10 或更高版本 | 32 位和 64 位 Internet Explorer 9 或更高版本 | 32 位和 64 位版本的 Safari 6.2.8-11.X | 32 位和 64 位版本的 Chrome 18.X 或更高版本 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |是  <br/> |是  <br/> |不适用  <br/> |不适用  <br/> |是  <br/> |是 & #x 2778; <br/> |
-| Windows 8.1 和 #x 2776; <br/> |不适用  <br/> |是  <br/> |不适用  <br/> |不适用  <br/> |是  <br/> |是 & #x 2778; <br/> |
-| Windows 8 (基于 Intel) 和 #x 2776; <br/> |不适用  <br/> |不适用  <br/> |是  <br/> |不适用  <br/> |是  <br/> |是 & #x 2778; <br/> |
-|Windows 7 SP1 #x 2777; 使用 <br/> |不适用  <br/> |是  <br/> |否  <br/> |否  <br/> |是  <br/> |是 & #x 2778; <br/> |
-|Windows Server 2008 R2 SP1 和 #x 2777; <br/> |不适用  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |是 & #x 2778; <br/> |
-|macOS 10.8 及更高版本 （基于 Intel） & #x 2777; <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |是  <br/> |是 & #x 2779; <br/> |
+|Windows 10  <br/> |是  <br/> |是  <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |是 & #x 2778; <br/> |
+|Windows 8.1 和 #x 2776; <br/> |不适用  <br/> |是  <br/> |不适用  <br/> |不适用  <br/> |不适用 <br/> |是 & #x 2778; <br/> |
+|Windows 8 (基于 Intel) 和 #x 2776; <br/> |不适用  <br/> |不适用  <br/> |是  <br/> |不适用 <br/> |不适用  <br/> |是 & #x 2778; <br/> |
+|Windows 7 SP1 #x 2777; 使用 <br/> |不适用  <br/> |是  <br/> |否  <br/> |否  <br/> |不适用 <br/>|是 & #x 2778; <br/> |
+|Windows Server 2008 R2 SP1 和 #x 2777; <br/> |不适用  <br/> |是  <br/> |是  <br/> |是  <br/> |不适用 <br/>|是 & #x 2778; <br/> |
+|macOS 10.8 及更高版本 （基于 Intel） & #x 2777; <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |是  <br/> |是 <br/> |
    
-& #x 2776;企业 Web 应用程序浏览器插件 Skype 需要特定的共享插件，用于基于计算机的语音、 视频、 共享和查看正在进行屏幕共享和其他功能。 会议与会者提供的选项安装时加入会议或时他们启动其中一种功能的共享插件。 在 Windows 8 和 Windows 8.1，共享插件可以安装仅当您正在为台式机运行 Internet Explorer 10 或 Internet Explorer 11。 这些功能不可用与非桌面版本的 Internet Explorer 10 和 11。
+& #x 2776;企业 Web 应用程序浏览器插件 Skype 需要特定的共享插件，用于基于计算机的语音、 视频、 共享和查看正在进行屏幕共享和其他功能。 会议与会者提供的选项安装时加入会议或时他们启动其中一种功能的共享插件。 在 Windows 8 和 Windows 8.1，共享插件可以安装仅当您正在为台式机运行 Internet Explorer 10 或 Internet Explorer 11。 这些功能不可用与非桌面版本的 Internet Explorer 10 和 11。 请注意 12.0 及更高版本的 Firefox 和 Safari 版本不再受支持。
   
 & #x 2777;在支持的 Windows 7、windows、 Windows Server 2008 R2 和 Macintosh 操作系统上，所有功能都均可用，包括基于计算机的语音、 视频、 应用程序查看、 应用程序共享、 桌面查看和桌面共享。 若要使用这些功能，必须安装插件时提示。 请注意 Mac OS X 10.7 版本不再受支持。
   
 & #x 2778;从 Windows 上的 Chrome 访问 Web 应用程序将启动此操作将加载嵌入的 Internet Explorer 框架中 Web 应用程序的小程序。 此程序需要支持之一版本的 Internet Explorer 安装的 Web 应用程序以正确加载。
-  
-& #x 2779;从在 Mac 上的 Chrome 访问 Web 应用程序将启动此操作将加载嵌入的 Safari 框架中 Web 应用程序的小程序。 此程序需要支持之一版本的 Safari 安装的 Web 应用程序以正确加载。
   
 > [!NOTE]
 > Office 365 用户可以使用 Internet Explorer 10 或更高版本 Skype for Business。 
@@ -104,14 +102,14 @@ Skype 会议应用程序使用 Windows 10、 Windows 8.1、 Windows 8 和 Window
 |切换到电话音频，经过身份验证的参与者  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |切换到电话音频，为来宾参与者  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||
 |查看多方视频（库视图）  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|基于视频的屏幕共享  <br/> |& #x 2714;|& #x 2714;（对于仅承载在 Skype 的业务联机会议） <br/> |& #x2714;(View-only)  <br/> |||
+|基于视频的屏幕共享  <br/> |& #x 2714;|& #x 2714; <br/> |& #x2714;(View-only)  <br/> |||
 |使用会议中演示者控件  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |访问详细的会议名单  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |参与多方 IM  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |发送高重要性 IM 消息  <br/> |& #x 2714;|||||
-|共享桌面（如果已启用）  <br/> |& #x 2714;|& #x 2714;|& #x 2714;& #x 2776;（需要插件）  <br/> |& #x 2714;& #x 2776;（需要插件）  <br/> |& #x 2714;& #x 2776;（需要插件）  <br/> |
+|共享桌面（如果已启用）  <br/> |& #x 2714;|& #x 2714;|& #x 2714;（需要插件）  <br/> |& #x 2714;（需要插件）  <br/> |& #x 2714;（需要插件）  <br/> |
 |共享程序（如果已启用）  <br/> |& #x 2714;||& #x 2714年; （在仅限需要插件）  <br/> |& #x 2714年; （在仅限需要插件）  <br/> |& #x 2714年; （在仅限需要插件）  <br/> |
-|获得另一个用户共享的桌面或程序的控制权  <br/> |& #x 2714;||& #x 2714年; （在仅限需要插件）  <br/> |& #x 2714年; （在仅限需要插件）  <br/> |& #x 2714年; （在仅限需要插件）  <br/> |
+|获得另一个用户共享的桌面或程序的控制权  <br/> |& #x 2714;||& #x 2714;(& #x 2776;在仅限需要插件）  <br/> |& #x 2714;(& #x 2776;在仅限需要插件）  <br/> |& #x 2714;(& #x 2776;在仅限需要插件）  <br/> |
 |允许控制共享的桌面或程序的另一个用户  <br/> |& #x 2714;|||||
 |添加匿名参与者（如果已启用）  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |按名称邀请参与者  <br/> |& #x 2714;|& #x 2714;||||
@@ -135,7 +133,7 @@ Skype 会议应用程序使用 Windows 10、 Windows 8.1、 Windows 8 和 Window
 |将每个人都设为与会者  <br/> |& #x 2714;|||||
 |开通 Skype 会议直播  <br/> |& #x 2714;|||||
    
- & #x 2776; 参与者无法控制通过 Lync for Mac 2011 或 Communicator for Mac 2011 用户共享的桌面。 Lync for Mac 2011 和 Communicator for Mac 2011 用户可以控制桌面共享的 Windows 用户。 这还不适合 Skype 业务最大 OSX 上的 Web 应用程序。
+ & #x 2776; 参与者无法控制由 for Business 的 Skype Mac、 Lync for Mac 2011 或 Communicator for Mac 2011 用户共享的桌面。 这还不适合 Skype 业务最大 OSX 上的 Web 应用程序。
   
  & #x 2777; 业务 online Skype，此功能需要 Microsoft PSTN 会议、 Exchange 统一消息，或第三方音频会议提供商。
   

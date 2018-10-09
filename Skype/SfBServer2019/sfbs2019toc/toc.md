@@ -9,6 +9,7 @@
 
 ## 混合解决方案
 ### [规划混合连接性](../hybrid/plan-hybrid-connectivity.md)
+### [规划 Skype for Business Server 和 Exchange Server 迁移](../hybrid/plan-um-migration.md)
 ### [配置混合连接性](../hybrid/configure-hybrid-connectivity.md)
 #### [Skype 混合配置的业务](../hybrid/configure-federation-with-skype-for-business-online.md)
 #### [为音频会议提供商配置联盟](../hybrid/configure-federation-for-an-audio-conferencing-provider.md) 
@@ -19,7 +20,6 @@
 ### 云语音邮件
 #### [规划云语音邮件](../hybrid/plan-cloud-voicemail.md)
 #### [配置云语音邮件](../hybrid/configure-cloud-voicemail.md)
-#### [规划 Skype for Business Server 和 Exchange Server 迁移](../hybrid/plan-um-migration.md)
 ### 调用数据连接器
 #### [规划呼叫数据连接器](../hybrid/plan-call-data-connector.md)
 #### [配置呼叫数据连接器](../hybrid/configure-call-data-connector.md)

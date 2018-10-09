@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd62d8ea24de4ce790609b710b78c7d6977821d7
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: 286b29be298b5d12919dc3193602ad6331ef1a21
+ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436693"
+ms.lasthandoff: 10/08/2018
+ms.locfileid: "25450445"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>限制和规格的 Microsoft 团队
 =============================================
@@ -45,7 +45,7 @@ ms.locfileid: "25436693"
 |功能     | 最大限制 |
 |------------|---------------|
 |在会议中的人员数量  | 250    |
-|私人聊天中的人数  | 50    |
+|私人聊天中的人数  | 20    |
 
 <a name="storage"></a>存储
 -------
