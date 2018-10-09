@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: 阅读本主题可了解如何迁移 Lync 会议室系统设备使用 Skype 会议室系统 v2 软件。
-ms.openlocfilehash: d97083b40c3a2baf926ecd61a5c9792ded6eddd5
-ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
+ms.openlocfilehash: b6c11e101ab3984f934dab1a9e06d80df3ce5e4f
+ms.sourcegitcommit: 80e1983fd631b8ad63c902375f1128faa957e374
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25450516"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25450646"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>将 Lync 会议室系统 (LRS) 设备迁移到 Skype 会议室系统 v2 
 Skype 会议室系统版本 1 (SR v1) 软件 Lync 会议室系统 (LRS) 设备将到达[2018 年 10 月 9，支持的结束](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)。 这意味着所有产品更新或此日期之后的修补程序，也不会都收到 Skype 会议室系统 v1 软件。 建议使用 Skype 会议室系统 v1 软件的 Lync 会议室系统设备的客户升级其设备到 Skype 会议室系统版本 2 (SR v2)。
@@ -26,7 +26,7 @@ Skype 会议室系统版本 2 (SR v2) 软件与除了 Skype 的 Microsoft 团队
 
 ## <a name="which-devices-are-affected"></a>哪些设备会受到影响？
 下面是此更改影响的设备的列表：
-- [智能会议室系统](https://smartkapp.com/products/smart-room-systems)
+- [智能会议室系统](https://support.smarttech.com/en/hardware/room-systems-skype)
 - [Crestron RL2](https://www.crestron.com/en-US/Products/Featured-Solutions/Crestron-RL-2)
 - [Polycom CX8000](http://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
 - Crestron RL
