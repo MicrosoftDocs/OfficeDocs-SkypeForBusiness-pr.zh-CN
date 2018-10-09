@@ -16,7 +16,7 @@
 ## [限制和规格团队](limits-specifications-teams.md)
 ## [在 Teams 中创建团队时规划 Office 365 组](plan-office-365-groups.md)
 ## [获取工具以支持 Teams 部署](rollout-tools.md)
-## [规划团队中的生命周期管理](plan-teams-lifecycle.md)
+## [在 Teams 中规划生命周期管理](plan-teams-lifecycle.md)
 ## [团队中的治理规划](plan-teams-governance.md)
 ## [Microsoft 365 政府版-GCC 部署规划](plan-for-government-gcc.md)
 ## [创建更改管理策略](change-management-strategy.md)
@@ -37,6 +37,7 @@
 ### [曲面集线器部署团队](teams-surface-hub.md)
 ## [在虚拟环境中运行团队](virtual-environment-teams.md)
 ## [在您的组织中启用团队](Office-365-set-up.md)
+## [使用 Microsoft 团队范围目录搜索](teams-scoped-directory-search.md)
 ## [管理组织中的团队功能](enable-features-office-365.md)
 ### [转换为新的 Microsoft 团队和业务管理中心的 Skype 的过程管理团队](manage-teams-skypeforbusiness-admin-center.md)
 ### [管理团队中的 Microsoft 团队业务管理中心的 Skype](manage-teams-in-modern-portal.md)
@@ -221,6 +222,7 @@
 ### [使用 T-Bot 为用户提供 Teams 方面的帮助](t-bot.md)
 ### [使用团队活动报告](teams-activity-reports.md)
 ### [使用团队中的内嵌消息转换](inline-message-translation-teams.md)
+
 ## 云语音
 ### [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [阿根廷](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
