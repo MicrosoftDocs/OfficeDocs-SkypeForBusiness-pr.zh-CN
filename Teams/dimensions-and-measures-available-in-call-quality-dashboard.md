@@ -3,7 +3,7 @@ title: 通话质量仪表板中可用的维度和衡量指标
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney
+ms.reviewer: siunies
 ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
@@ -23,16 +23,19 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: dec3548ab1f34e70d6e30aca2397791cfaa16674
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8708151be58e386650458ed882a24c1f6e4e628a
+ms.sourcegitcommit: dba62f1cb6058e73a1a4c75f3473119a04a1b9e3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375019"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "25456904"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>通话质量仪表板中可用的维度和衡量指标
 
 呼叫质量仪表板 (CQD) 的 Microsoft 团队和 Skype 业务 online 使您能够获得见解进行业务服务使用的 Microsoft 团队和 Skype 的呼叫的质量。 本主题详细介绍了 CQD 提供的维度和衡量指标。 若要了解有关 CQD 以及如何启用它的详细信息，请参阅[打开和使用的 Microsoft 团队和 Skype 业务 online 呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)。
+
+> [!NOTE]
+> 团队带宽处理改进了业务 online Skype： 对于呼叫或会议 （与音频、 视频和共享） 的体验，高质量，团队需要仅 1.2 Mbps。 它还可以扩展最多进一步的超级高质量，如果没有足够的可用带宽。 当团队请求遇到低带宽条件时，团队可以快速重新调整带宽使用情况，以适应可用带宽。
 
 ## <a name="first-and-second-endpoint-classification"></a>第一和第二终结点分类
 

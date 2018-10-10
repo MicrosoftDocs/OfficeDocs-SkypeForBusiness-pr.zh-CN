@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40250062b5439726fa1a0d7f886ba99e71a2060a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 919c598b02724de2f21fce52cb5f362c8faea34b
+ms.sourcegitcommit: dba62f1cb6058e73a1a4c75f3473119a04a1b9e3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014504"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "25456864"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备贵组织的网络
 =================================================
@@ -36,7 +36,7 @@ Teams 组合了三种形式的流量：
 > [!IMPORTANT]
 > 当前，在 iOS 和 Android 移动设备上支持会议，但在 Windows Phone 上不支持。
 
-为了在 Microsoft Teams 中获得实时媒体方面的最佳体验，需要满足 Office 365 的网络连接要求。 有关详细信息，请参阅 [Skype for Business Online 中的媒体质量和网络连接性能](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)。
+为了在 Microsoft Teams 中获得实时媒体方面的最佳体验，需要满足 Office 365 的网络连接要求。 有关详细信息，请参阅 [Skype for Business Online 的媒体质量和网络连接性能](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)。
 
 对于两个定义网络段（客户端到 Microsoft Edge 和客户边缘到 Microsoft Edge），请考虑以下建议：
 
@@ -58,7 +58,10 @@ Teams 组合了三种形式的流量：
 <a name="bandwidth-requirements"></a>带宽要求
 ----------
 
-Microsoft Teams 的带宽计算很复杂，因此为了帮助进行此计算，创建了一个计算器。 要访问计算器，请转到 [MyAdvisor 中的网络规划器](https://aka.ms/bwcalc/)。
+Microsoft Teams 的带宽计算很复杂，因此为了帮助进行此计算，创建了一个计算器。 要访问计算器，请转到 [MyAdvisor 中的 Network Planner](https://aka.ms/bwcalc/)。
+
+> [!NOTE]
+> 团队带宽处理改进了业务 online Skype： 对于呼叫或会议 （与音频、 视频和共享） 的体验，高质量，团队需要仅 1.2 Mbps。 它还可以扩展最多进一步的超级高质量，如果没有足够的可用带宽。 当团队请求遇到低带宽条件时，团队可以快速重新调整带宽使用情况，以适应可用带宽。
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
