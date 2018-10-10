@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b62b3e27cf0aa10ea6719cb1f27980ee83f4421
-ms.sourcegitcommit: c4254b6119bbce274f895e20d30cb3c513d5a2de
+ms.openlocfilehash: 3e9cddc12a5ef4de6dfb42a714b83e29b6fb4f5f
+ms.sourcegitcommit: dba62f1cb6058e73a1a4c75f3473119a04a1b9e3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25455962"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "25456888"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft 团队范围目录搜索
 
@@ -28,7 +28,7 @@ Microsoft 团队作用域的目录搜索允许组织创建虚拟控制如何查�
 
 Microsoft 团队允许组织为用户提供的目录的自定义视图。 Microsoft 团队使用[Exchange 通讯簿策略](https://docs.microsoft.com/en-us/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019)以支持这些自定义视图。 一旦启用了策略，将根据配置的策略作用域 （例如，若要启动聊天，或添加到团队的成员） 的其他用户搜索返回的结果。 用户不能进行搜索或发现并加入新团队之外这些策略。 
 
-## <a name="when-should-you-use-scroped-directory-searches"></a>您应该何时使用 scroped 目录搜索？
+## <a name="when-should-you-use-scoped-directory-searches"></a>您应该何时使用作用域的目录搜索？
 
 受益于作用域的目录搜索的方案在类似于通讯簿策略方案。 例如，您可能想要在下列情况下使用作用域的目录搜索：
 
