@@ -5,8 +5,9 @@
 ### [发行说明](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [准备您的环境](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [要求](../plan-your-deployment/clients-and-devices/requirements.md)
-### [Online 许可](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+### [Online 许可](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 ### [使用 OMS 的计划管理](../plan-your-deployment/clients-and-devices/oms-management.md)
+
 ## 部署
 ### [部署概述](../deploy/deploy-clients/room-systems-v2.md)
 ### [配置帐户](../deploy/deploy-clients/room-systems-v2-configure-accounts.md)
@@ -17,6 +18,7 @@
 ### [配置控制台](../deploy/deploy-clients/console.md)
 ### [使用 System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
 ### [使用 OMS 管理](../deploy/deploy-clients/with-oms.md)
+
 ## 管理
 ### [管理概述](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 ### [维护和操作](../manage/skype-room-systems-v2/room-systems-v2-operations.md)
@@ -24,7 +26,7 @@
 ### [OMS 设备](../manage/skype-room-systems-v2/oms.md)
 ### [设置 XML 文件](../manage/skype-room-systems-v2/xml-config-file.md)
 ### [使用恢复工具](../manage/skype-room-systems-v2/recovery-tool.md)
-# Skype 会议室系统 (v1)
+# Lync 会议室系统 (SR v1)
 ## 规划
 ### [在 Skype for Business Server 中部署 Skype 会议室系统](../deploy/deploy-clients/deploy-skype-room-system.md)
 ## 部署
@@ -43,3 +45,4 @@
 ### [Skype 会议室系统会议室安装脚本](../deploy/deploy-clients/room-setup-scripts.md)
 ## 管理
 ### [管理 Skype 会议室系统帐户](../deploy/deploy-clients/manage-skype-room-system-accounts.md)
+## [迁移](../deploy/deploy-clients/lrs-migration.md)

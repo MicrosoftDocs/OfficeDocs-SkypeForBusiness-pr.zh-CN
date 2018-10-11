@@ -1,37 +1,28 @@
 ---
 title: 开启或关闭对 Microsoft Teams 的来宾访问
 author: LaithAlShamri
-ms.author: laal
+ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 10/11/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
-ms.reviewer: rramesan
+ms.reviewer: sbhatta
 search.appverid: MET150
 description: 开启或关闭 Microsoft Teams 中的来宾访问功能。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcb907a1a84dce1e1fcf550333b8b1dd788f23fa
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3ab67b3fa9ad58c1aa3e8fdd254e3b3515743b4c
+ms.sourcegitcommit: 9dd5d8fe6888f0c7d2df1e40fdd8b4c80512f8f9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370750"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25498118"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>开启或关闭对 Microsoft Teams 的来宾访问
 ======================================
-
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
-
-
-
-  
-
-
 
 作为 Office 365 管理员，你必须先启用来宾功能，你或贵组织的用户（具体来说是团队所有者）才能添加来宾。 
 
@@ -41,33 +32,61 @@ ms.locfileid: "25370750"
 > [!IMPORTANT]
 > 要启用来宾访问功能的完全体验，非常重要的一点是理解 Microsoft Teams、Azure Active Directory 和 Office 365 之间的核心授权相关性。 有关详细信息，请参阅[在 Microsoft Teams 中授权来宾访问](Teams-dependencies.md)。
 
-1. 使用 Office 365 全局管理员帐户登录 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。
-    
-  
-2. 在导航菜单中，依次选择 **“设置”** 和 **“服务&amp;和外接程序”**。
-    
-     ![登录 Office 365，访问 Office 365 管理中心，转到“设置”，然后选择“服务&amp;和外接程序”](media/99e676d4-5b48-4525-9556-547031fa37d9.png)
-  
+## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a>为业务管理中心中团队 Skype 配置来宾访问
+
+1.  业务管理中心的登录到团队和 Skype。
+
+2.  选择**组织范围设置** > **来宾访问**。
+
+3. 设置为**上**的**Microsoft 团队中的允许来宾访问**切换开关。
+
+    ![允许来宾访问开关设置为 ](media/set-up-guests-image1.png)
+
+4.  设置为**呼叫**、**会议**和**消息**到**打开**或**关闭**，具体取决于您要允许访问切换。
+
+5.  单击“**保存**”。
+
+## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>使用 PowerShell 打开或关闭来宾访问
+
+1.  下载业务 Online PowerShell 模块 Skypehttps://www.microsoft.com/en-us/download/details.aspx?id=39366
  
+2.  连接到业务联机终结点的 Skype PowerShell 会话。
 
-  
-3. 选择 **“Microsoft Teams”**。
-    
-     ![此屏幕截图显示了在 Office 365 管理中心中选择的 Microsoft Teams 外接程序对应的选项。](media/17ac5608-d212-4fa8-ae3a-e78c62003968.png)
-  
-  
-4. 在 **“选择要配置的用户/许可证类型”** 中，选择 **“来宾”**。
-   
-    ![Microsoft Teams 外接程序的屏幕截图显示选择了“来宾”许可证且 Microsoft Teams 选项设置为“开启”。](media/92aabda5-431c-4fdd-803e-5ab49290f4f7.png)
-      
+    ```
+    Import-Module SkypeOnlineConnector
+    $Cred = Get-Credential
+    $CSSession = New-CsOnlineSession -Credential $Cred
+    Import-PSSession -Session $CSSession
+    ```
+3.  检查您的配置和如果`AllowGuestUser`是`$False`，使用[集 CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet 可将其设置为`$True`。
 
-  
-  
-5. 单击或点击 **“对此类型的所有用户开启或关闭 Microsoft Teams”** 旁边的切换将其设置为 **“开启”** 为贵组织开启 Teams 和来宾访问，然后选择 **“保存”**。 
+    ```
+    Get-CsTeamsClientConfiguration
+
+    Identity                         : Global
+    AllowEmailIntoChannel            : True
+    RestrictedSenderList             :
+    AllowDropBox                     : True
+    AllowBox                         : True
+    AllowGoogleDrive                 : True
+    AllowShareFile                   : True
+    AllowOrganizationTab             : True
+    AllowSkypeBusinessInterop        : True
+    AllowTBotProactiveMessaging      : False
+    ContentPin                       : RequiredOutsideScheduleMeeting
+    AllowResourceAccountSendMessage  : True
+    ResourceAccountContentAccess     : NoAccess
+    AllowGuestUser                   : True
+    AllowScopedPeopleSearchandAccess : False
     
-   观看以下视频，了解有关来宾访问的更多详细信息：  
+    Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
+    ```
+您现在可以来宾用户中团队为您的组织。
+
+## <a name="more-information"></a>更多信息
+
+观看以下视频有关来宾访问的详细信息。
 
 |  |  |
 |---------|---------|
-| 在 Microsoft Teams 中启用来宾访问   | <iframe width="350" height="200" src="https://www.youtube.com/embed/g21Hcqdl5tI" frameborder="0" allowfullscreen></iframe>   |
- | 在 Microsoft Teams 中添加来宾   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
+| 在 Microsoft Teams 中添加来宾   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
