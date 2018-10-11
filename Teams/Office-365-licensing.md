@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 272dd768dfa56871db8f0241ed6c046b350717d4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: dbdbaf0241da85489173d7eda0c36aac90c935e9
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016850"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495526"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>适用于 Microsoft Teams 的 Office 365 许可
 ========================================
@@ -36,12 +36,15 @@ ms.locfileid: "25016850"
 |Office 365 商业高级版     |Office 365 企业版 E3         |Office 365 教育增强版         |      |
 |     |Office 365 企业版 E4（已停用）         |Office 365 教育版 E3（已停用）         |  |
 |     |Office 365 企业版 E5         |Office 365 教育版 E5  | 
-|     |Office 365 企业版 F1 |    |     |
+|     |Office 365 企业版 F1 |    |     | 
 
 有关获取团队的详细信息，请查看[如何获取 Microsoft 团队访问？](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 > [!NOTE]
 > Teams 也适用于非盈利组织。 团队将开始推出的美国政府云社区 (GCC) 在年 7 月 17 日，并可供所有合格客户年 8 月 2018年结束。 我们正在置于的其他美国政府云 （GCC 高和 DoD） 的 Microsoft 团队即将提供。 更多的 Microsoft 团队博客中阅读[此处](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)。
+
+> [!NOTE]
+> 启动年 10 月 1 2018年 500 座位或更少的新 Office 365 客户将向工作组 onboarded，并且将无法访问 Skype 业务 online。 已使用 Skype 的业务联机都将能够继续进行的租户 （包括设置新的用户） 是直至其过渡到团队。 若要了解详细信息，请参阅[Microsoft 团队现在主客户端的会议和 Office 365 中调用](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)。
         
 团队核心功能方面没有任何区别的 Office 365 订阅。 合规性功能的可用性依赖于正确的订阅级别。 要了解详细信息，请阅读 [Teams 中的安全性和合规性概述](security-compliance-overview.md)。 每个订阅中可用的功能的详细列表，请参阅[Office 365 平台服务说明](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)。
 

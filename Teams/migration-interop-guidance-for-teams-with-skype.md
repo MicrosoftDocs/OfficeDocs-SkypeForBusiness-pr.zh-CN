@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ffcab1a80f17bc4adc929f7e5efe63ef5ab6918
-ms.sourcegitcommit: c4254b6119bbce274f895e20d30cb3c513d5a2de
+ms.openlocfilehash: dd12b4e5f054d3410f1e62e7ed09476ffac6754b
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454024"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495603"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>使用团队一起 Skype for Business 的组织的迁移和互操作性指南
 
@@ -66,7 +66,7 @@ ms.locfileid: "25454024"
 
 |模式|路由行为|会议日程安排|客户端体验|
 |---|---|---|---|
-|群岛|传入的 VOIP 呼叫，并为原始发件人，同一客户端中的园地聊天除外，如果收件人联盟和群岛模式，在这种情况下它们位于在 SfB。<sup>1</sup>|两者|最终用户可以发起呼叫和聊天从任一客户端，并可以安排从任一客户端的会议。|
+|群岛|传入 VOIP 呼叫和除聊天园地为原始发件人，同一客户端中的，如果收件人联盟和在群岛模式下，在这种情况下它们位于在 SfB。<sup>1</sup>|两者|最终用户可以发起呼叫和聊天从任一客户端，并可以安排从任一客户端的会议。|
 |SfBOnly|传入呼叫和聊天路由至 Skype for Business|Skype for Business 仅|最终用户可以发起呼叫以及仅从 for Business 的 Skype 聊天和仅业务会议安排 Skype。 （还未实施）|
 |SfBWithTeamsCollab<sup>2</sup>|传入呼叫和聊天路由至 Skype for Business|Skype for Business 仅|最终用户可以发起呼叫以及仅从 for Business 的 Skype 聊天和仅业务会议安排 Skype。 他们还可以在工作组中使用通道。 （还未实施）|
 |SfBWithTeamsCollabAndMeetings<sup>2</sup>|传入呼叫和聊天路由至 Skype for Business|仅团队|最终用户可以发起呼叫，并从业务仅和唯一的 Skype 聊天安排团队会议。 他们还可以在工作组中使用通道。 （还未实施）|
@@ -147,7 +147,7 @@ Microsoft 以前推出 TeamsUpgradePolicy 以便于从 TeamsInteropPolicy 转换
 
 从工作组 for Business 使用 Skype 的另一个用户的联盟要求 for Business 的 Skype 联机托管团队用户。 最终，用户驻留在 Skype 的业务本地团队都将能够与其他团队用户联盟。
 
-TeamsUpgradePolicy 控制传入的联盟的聊天和呼叫路由。 联盟路由行为处于同一租户 scnearios 相同除群岛模式。  当收件人处于群岛模式中： 
+TeamsUpgradePolicy 控制传入的联盟的聊天和呼叫路由。 联盟路由行为与同一租户方案，*但在群岛模式下*的相同。  当收件人处于群岛模式中： 
 - 聊天和如果收件人是*联盟的租户*中从团队园地 SfB 中发起的呼叫。
 - 如果收件人是*同一租户*中时，团队中将位于聊天和团队从发起的呼叫。
 - 聊天和始终从 SfB 发起的呼叫停放在 SfB。

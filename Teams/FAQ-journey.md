@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da85bde3b0f868165fed869b8147e4408344ebc0
-ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
+ms.openlocfilehash: bda29fd1b193253deb573d554f7f354258dabc7a
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25358898"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495534"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>FAQ - 从 Skype for Business 到 Microsoft Teams 的旅程
 
@@ -55,7 +55,9 @@ ms.locfileid: "25358898"
 
 ### <a name="will-you-continue-to-invest-in-improving-skype-for-business-in-office-365"></a>你们是否将继续在改进 Office 365 中的 Skype for Business 上投入？
 
-我们对组合提供智能通信和协作的愿景重点在 Teams 上。 我们计划继续支持 Skype 业务服务和 Office 365 中的客户端。 目前我们没有计划从 Office 365 订阅中删除 Skype for Business。 我们计划继续支持 Skype for Business 客户端访问本地服务器和联机服务。 目前没有任何支持的结束日期。
+我们对组合提供智能通信和协作的愿景重点在 Teams 上。 我们计划继续支持 Skype 业务服务和 Office 365 中的客户端。 我们计划继续支持 Skype for Business 客户端访问本地服务器和联机服务。 目前没有任何支持的结束日期。
+
+启动年 10 月 1 2018年 500 座位或更少的新 Office 365 客户将向工作组 onboarded，并且将无法访问 Skype 业务 online。 已使用 Skype 的业务联机都将能够继续进行的租户 （包括设置新的用户） 是直至其过渡到团队。 若要了解详细信息，请参阅[Microsoft 团队现在主客户端的会议和 Office 365 中调用](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)。 
 
 ### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deployingor-planning-to-deployskype-for-business-in-office-365"></a>什么您建议的当前正在部署的客户 — 或计划部署 — Skype for Office 365 中的 Business？
 
