@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读此主题以获取如何部署与 Office 365 的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 3114b3f663cc4a439ace8d5f0338b182a8b38a3b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6c59ff1aa7f32998efb5f7693d4e46b417b3fd84
+ms.sourcegitcommit: 45b3e3387bb1e605453c52b68d0bf5b1b79d33f5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374950"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25501492"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>将 Skype 会议室系统 v2 与 Office 365 一起部署 
 
@@ -37,7 +37,7 @@ ms.locfileid: "25374950"
 
 - 您的租户用户必须拥有 Exchange 邮箱。
 
-- Skype 会议室系统 v2 帐户确实需要在最小 Skype 业务 Online (计划 2) 许可证，但它不需要的 Exchange Online 的许可证。
+- Skype 会议室系统 v2 帐户确实需要在最小 Skype 业务 Online (计划 2) 许可证，但它不需要的 Exchange Online 的许可证。 有关详细信息，请参阅[Skype 会议室系统 v2 许可](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)。
 
 Skype 的业务 Online 计划的详细信息，请参阅[Skype for Business Online 服务说明](https://technet.microsoft.com/library/jj822172.aspx)。
 

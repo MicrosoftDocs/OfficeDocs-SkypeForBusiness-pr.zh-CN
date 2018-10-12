@@ -9,12 +9,12 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: d6eeea78106e13cafee5096be04d344ad216c65a
-ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
+ms.openlocfilehash: 281a864091714c1614b86b7f4f45ea48245d8108
+ms.sourcegitcommit: 45b3e3387bb1e605453c52b68d0bf5b1b79d33f5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25429435"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25501484"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -43,7 +43,7 @@ ms.locfileid: "25429435"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>#ThisIsTeams-Microsoft 团队概述 （英文)</h3>
-                                                    <p>Microsoft Teams 是什么？ 加入我们的此 30 分钟方向，以了解什么是团队和为您可以工作方式。</p>
+                                                    <p>Microsoft Teams 是什么？ 加入我们的此 30 分钟方向，以了解什么是团队和为您可以工作方式。 (访问群体： 所有)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -62,7 +62,7 @@ ms.locfileid: "25429435"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>入门团队</h3>
-                                                    <p>从聊天和使用团队和频道的会议，用户将与 foundation 可以放心地使用团队离开此会话。</p>
+                                                    <p>从聊天和使用团队和频道的会议，用户将与 foundation 可以放心地使用团队离开此会话。 (访问群体： 最终用户)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -81,7 +81,7 @@ ms.locfileid: "25429435"
                                             </div>
                                             <div class="cardText">
                                                 <h3>向工作组从 for Business 的 Skype 管理您的升级</h3>
-                                                <p>深入了解到规划和实现从 for Business 的 Skype 成功升级到团队。 </p>
+                                                <p>规划和实现从 for Business 的 Skype 成功升级到团队 (受众： IT 专业人员，采用更改经理)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -100,7 +100,7 @@ ms.locfileid: "25429435"
                                             </div>
                                             <div class="cardText">
                                                 <h3>从 for Business 的 Skype 切换到团队： 最终用户指南</h3>
-                                                    <p>获取您需要快速开始聊天，会议，并在工作组中调用过程从 for Business 的 Skype 转换到团队中。</p>
+                                                    <p>获取您需要快速开始团队从 Skype 转换期间使用的业务向工作组。 (访问群体： 最终用户)</p>
                                             </div>
                                         </div>
                                     </div>
