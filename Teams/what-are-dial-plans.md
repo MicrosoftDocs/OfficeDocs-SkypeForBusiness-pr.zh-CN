@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解 Office 365 哪种类型的拨号计划 （PSTN 呼叫拨号计划） 的呼叫，以及如何为您的组织选择一种。  '
-ms.openlocfilehash: d9503655c6f836f0dc50d63133acddd6bc7474b4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 28e0b3d282cba17061f0573b5bd9efe7e27de786
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371815"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502355"
 ---
 # <a name="what-are-dial-plans"></a>什么是拨号计划？
 
@@ -37,7 +37,7 @@ ms.locfileid: "25371815"
 
 拨号计划包括一个或多个规范化规则定义如何以不同格式表示的电话号码转换为备用格式。 相同的拨号串可能解析和转换不同的拨号计划中的不同，数量相同拨打根据的拨号计划分配给给定用户，因此可能转换和不同路由。
 
-请参阅[创建和管理拨号计划](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)创建和管理租户拨号计划。
+请参阅[创建和管理拨号计划](create-and-manage-dial-plans.md)创建和管理租户拨号计划。
 
 ## <a name="tenant-dial-plan-scope"></a>租户拨号计划范围
 
@@ -59,7 +59,7 @@ ms.locfileid: "25371815"
 
  **租户用户-服务国家/地区**定义和分配给用户的租户用户拨号计划，如果已设置的用户将收到合并的租户用户拨号计划和服务国家/地区拨号计划与其 Office 365 使用率位置关联组成的有效拨号计划。
 
-请参阅[创建和管理拨号计划](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)创建拨号计划的您的租户。
+请参阅[创建和管理拨号计划](create-and-manage-dial-plans.md)创建拨号计划的您的租户。
 
 ## <a name="planning-for-tenant-dial-plans"></a>规划租户拨号计划
 
@@ -97,7 +97,7 @@ ms.locfileid: "25371815"
 > [!NOTE]
 > [!注释] 如果指定外部访问前缀，则不必创建附加的规范化规则来涵盖该前缀。 
 
-请参阅[创建和管理拨号计划](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)创建拨号计划的您的租户。
+请参阅[创建和管理拨号计划](create-and-manage-dial-plans.md)创建拨号计划的您的租户。
 
 ## <a name="normalization-rules"></a>规范化规则
 
@@ -115,7 +115,7 @@ ms.locfileid: "25371815"
 
 有关使用.NET Framework 正则表达式的详细信息，请参阅[.NET Framework 正则表达式](https://go.microsoft.com/fwlink/p/?linkId=140927)。
 
-请参阅[创建和管理拨号计划](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)创建和管理规范化规则租户拨号计划。
+请参阅[创建和管理拨号计划](create-and-manage-dial-plans.md)创建和管理规范化规则租户拨号计划。
 
 ### <a name="sample-normalization-rules"></a>示例规范化规则
 
@@ -152,7 +152,7 @@ ms.locfileid: "25371815"
 
 ## <a name="related-topics"></a>相关主题
 
-[创建并管理拨号计划](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)
+[创建并管理拨号计划](create-and-manage-dial-plans.md)
 
 [关于转移电话号码的常见问题](transferring-phone-numbers-common-questions.md)
 

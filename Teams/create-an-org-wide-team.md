@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f86cf706d7bf507fb77fac7becf9bd48168eac6
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 1882e18bdf746acc6b6991e4c574ca28cb3176a6
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25348205"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502323"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft 团队中创建一个组织范围团队
 
@@ -38,7 +38,7 @@ ms.locfileid: "25348205"
 ## <a name="best-practices"></a>最佳实践
 若要充分利用您的组织范围团队，建议团队所有者执行下列操作。
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>允许仅团队发布到常规通道所有者
-减少通道干扰具有仅团队所有者发布到常规通道。 转接至小组和单击**更多选项 （...）** > **管理团队**。 在**设置**选项卡，单击**成员权限**> 选择**仅所有者可以发布**。
+减少通道干扰具有仅团队所有者发布到常规通道。 转接至小组和单击**更多选项 （...）** > **管理团队**。 在**设置**选项卡，单击**成员权限**> 选择**仅所有者可以发布消息**。
 ### <a name="turn-off-team-and-team-name-mentions"></a>关闭 @team 和 @ 提及 [工作组名称]
  减少 @mentions 以防止它们重载整个组织。 转接至小组和单击**更多选项 （...）** > **管理团队**。 在**设置**选项卡，单击 **@mentions** > 关闭**显示 @team 选项的成员或 @[工作组名称]**。 
 ### <a name="automatically-favorite-important-channels"></a>自动最喜爱的重要通道

@@ -15,22 +15,24 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1dbfddf2f9cfba12943b8b2e18326de1877e1de3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b8d517ce7f2fb614a22c45fcf63d59a7d46b606f
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018820"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502331"
 ---
 <a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>管理团队中的 Microsoft 团队业务管理中心的 Skype
 ==========================================
+
+[!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 ## <a name="overview"></a>概述
 
 作为一名 IT 管理员，您可能需要查看或更新您的组织已设置的协作，或您的团队可能需要执行修正操作，如分配无所有者团队的所有者。 您可以管理业务管理中心的 Microsoft 团队 PowerShell 模块以及相关的 Microsoft 团队与 Skype 通过组织中使用的团队。 对于使用以下两个工具集的完整的管理功能，您应该确保您已分配下列角色之一：
 
 - 全局管理员
-- 团队服务管理员
+- Teams 服务管理员
 
 您可以了解有关 Microsoft 团队中的管理角色的详细信息[此处](using-admin-roles.md)，您可以读取多有关如何使用 PowerShell cmdlet 进行管理[的 Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps)中的团队。  
 

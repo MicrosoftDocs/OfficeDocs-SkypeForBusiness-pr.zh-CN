@@ -26,12 +26,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: 79ba0754178e3d638520c932e6288a92ddf6e857
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b18c4d3f04cab78b48039bcd33dae00a960132ea
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854698"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502203"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>允许用户联系外部 Skype for Business 用户
 
@@ -44,7 +44,7 @@ ms.locfileid: "23854698"
     
 - 希望你组织的人员使用 Skype for Business 联系你组织外特定企业中的人员。
     
--您希望任何其他人在世界上使用 for Business 的 Skype 能够找到并与您联系，使用您的电子邮件地址。 如果你和他们都使用默认的 Skype for Business 设置，此功能会自动运行。 如果他们更改了默认设置，他们需要确认其配置没有阻止你的域。
+- 您希望任何其他人在世界上使用 for Business 的 Skype 能够找到并与您联系，使用您的电子邮件地址。 如果你和他们都使用默认的 Skype for Business 设置，此功能会自动运行。 如果他们更改了默认设置，他们需要确认其配置没有阻止你的域。
     
 ## <a name="enable-business-to-business-communications-for-your-users"></a>为你的用户启用企业到企业通信
 <a name="bk_preview"> </a>

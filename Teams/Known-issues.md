@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42b5827e6690817f62c0146800f9e38992666cf2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d8b1497a864a1dbd271af81363151275ffe7de1e
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372553"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502229"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -28,6 +28,10 @@ ms.locfileid: "25372553"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |审核日志可能会报告不正确的用户名为启动器时已从团队删除某人  <br/> |团队团队是 AAD 中的现代组。 当您添加/删除通过用户界面团队成员时，流知道完全哪一个用户进行更改，并审核日志反映了正确的信息。 但是，如果用户将添加/删除通过 AAD 成员，更改同步到团队后端不让团队知道谁开始执行该操作。 Microsoft 团队为发起者，最终会反映在审核日志以及选取团队的第一个所有者。    <br/> |  <br/> |5/11/18  <br/> |
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|EAF 策略中增强缓解体验 Toolkit (EMET) 可以正确标识为威胁的六价铬沙盒优化。 <br/> |没有六价铬沙盒导出地址表访问筛选 (EAF) 策略中增强缓解体验 Toolkit (EMET) 可以正确标识为威胁六价铬沙盒优化的问题。 这样可以防止团队 web 视图中的选项卡正确呈现。 <br/> | 关闭对镶边 EAF。 您可以阅读更多有关该问题[EMET 采取一些缓解措施准则](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) <br/> |10/11/18 <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
