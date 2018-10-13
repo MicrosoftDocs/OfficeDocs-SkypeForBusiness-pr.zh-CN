@@ -3,6 +3,7 @@
 
 ## [Teams 概述](Teams-overview.md)
 ## [工具和研讨会：规划、交付和运营 Teams](planning-workshop-practical-guide.md)
+## [在 Microsoft 团队中获取帮助](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
 
 

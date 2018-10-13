@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: 由于 Skype 业务服务器的企业级的通信系统，因此您应了解其基础结构和通信可能会影响的常见安全攻击。
-ms.openlocfilehash: 5609fda3fd3d58a5e5ed5df34c1c5e39e7843e85
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 594bde9b01a61586364034ba026db91aea49ef88
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373062"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546781"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>现代日常计算中的常见安全威胁
  
@@ -48,21 +48,25 @@ Skype 业务服务器在 Windows Server 操作系统使用的 PKI 功能，以�
     
 ## <a name="eavesdropping-sniffing-snooping"></a>窃听（监听、窥探）
 
-在攻击者获取对网络中数据路径的访问权并能够监控和读取流量内容时，会发生窃听。 这也是 calledsniffing orsnooping。 如果流量内容采用纯文本形式，则攻击者在获取路径的访问权之后即可读取流量内容。 例如，通过控制数据路径上的路由器进行攻击。 
+在攻击者获取对网络中数据路径的访问权并能够监控和读取流量内容时，会发生窃听。窃听也称为监听或窥探。如果流量内容采用纯文本形式，则攻击者在获取路径的访问权之后即可读取流量内容。例如，通过控制数据路径上的路由器进行攻击。 
   
 默认的建议和业务服务器中 Skype 的流量设置是从客户端到服务器使用相互 TLS (MTLS) 受信任的服务器之间的 TLS。 这种保护措施使得在发生给定对话的时间段内很难实现或不可能实现攻击。 TLS 可对各方执行身份验证，并对所有流量内容进行加密。 这样不能阻止窃听，但攻击者不能读取流量内容，除非破坏加密。
   
 使用中继 NAT (TURN) 协议不要求对流量内容进行加密，其发送的信息受消息完整性保护。尽管其发送的信息易受到窃听攻击，但只需通过查看数据包的源地址和目标地址即可直接提取该信息（即 IP 地址和端口）。A/V 边缘服务可通过检查消息的消息完整性来确保数据有效，方法是使用从少数几项（包括从不以明文格式发送的 TURN 密码）派生的密钥。如果使用安全实时协议 (SRTP)，则还要对媒体流量内容进行加密。
   
-## <a name="identity-spoofing-ip-address-spoofing"></a>身份欺骗（IP 地址欺骗）
+## <a name="identity-spoofing-ip-address-and-caller-id-spoofing"></a>标识欺骗 (IP 地址和呼叫者 Id 欺骗)
 
-当攻击者在未经授权的情况下确定和使用网络、计算机或网络组件的 IP 地址时，会发生欺骗。 一旦攻击成功，攻击者便可以假借 IP 地址通常标识的实体的身份执行操作。 在 Business Server 的 Skype 的上下文中，这种情况下派上用场仅当管理员执行完以下两项：
+标识欺骗攻击者确定并使用有效的用户 (呼叫者 id) 的电话号码或 IP 地址的网络、 计算机或网络组件不未经授权的情况下进行这些操作时发生。 成功的攻击允许攻击者操作，如果攻击者通过电话号码 (呼叫者 id) 或 IP 地址通常标识的实体。
+
+在 Business Server 的 Skype 的上下文中，IP 地址欺骗派上用场仅当管理员执行完以下两项：
   
 - 已配置仅支持传输控制协议 (TCP) 的连接（建议不要这样做，因为 TCP 通信未经过加密）。
     
 - 将这些连接的 IP 地址标记为受信任的主机。
     
 此操作对于传输层安全性 (TLS) 连接而言不成问题，因为 TLS 对所有方进行验证并加密所有通信。 使用 TLS 可防止攻击者对特定连接（例如，相互 TLS 连接）执行 IP 地址欺骗攻击。 但是，攻击者仍无法欺骗 Skype 业务服务器使用的 DNS 服务器的地址。 但是，因为使用证书执行 Skype for Business 中的身份验证，攻击者不必须对某一方的通信中的欺骗所需的有效证书。
+
+另一方面，呼叫者 Id 欺骗派上用场业务服务器建立之后 SIP 中继提供商、 PSTN 网关或 PBX 的其他系统和 Skype 之间。 在这些情况下，业务服务器 Skype 不提供任何保护以防止呼叫者 id 欺骗。 这意味着业务用户 Skype，可以使用欺骗呼叫者 id 显示另一个 Skype 业务用户的电话号码从 SIP 中继接收呼叫。 应在提供程序的一侧上, 应用到此保护 PSTN 或 PBX 网关。
   
 ## <a name="man-in-the-middle-attack"></a>中间人攻击
 

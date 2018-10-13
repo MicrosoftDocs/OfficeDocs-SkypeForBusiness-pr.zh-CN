@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a2ad3c2416e64334dddda6c09d3e8eed2be3763
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 58dd3bb4e0f870cfcfff0f1297acdab7a82eb4a9
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374247"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546682"
 ---
 <a name="teams-guest-access-checklist"></a>团队来宾访问清单
 ==========================================
@@ -30,11 +30,9 @@ ms.locfileid: "25374247"
 
 ## <a name="--enable-guest-access-at-the-tenant-level"></a>在租户级别的 □ 启用来宾访问
 
-至少，您必须打开的所有用户的许可证类型**来宾**Microsoft 团队。 有关详细说明，请参阅[打开或关闭向 Microsoft 工作组的来宾访问](set-up-guests.md)。
+转到团队和 Skype 的业务管理中心中，通过https://admin.teams.microsoft.com。 从此处，选择组织范围设置，和 selec 来宾访问权限选项卡最后，在此选项卡上，选择允许 Microsoft 团队中的来宾访问为启用。 
 
-![屏幕快照显示了工作组设置切换的示例](media/guest-access-checklist-TeamsSettings1.png)
-
-
+## <a name="need-a-new-screenshot-for-new-admin-center-enablement"></a>需要新管理中心启用新的屏幕截图。 
 
 ## <a name="-enable-specific-settings-for-channels"></a>□ 启用渠道的特定设置 
 中的团队应用程序，在各个团队级别配置来宾权限，以便来宾可以创建、 更新和删除通道。 除了 admins 团队所有者可以配置此设置。

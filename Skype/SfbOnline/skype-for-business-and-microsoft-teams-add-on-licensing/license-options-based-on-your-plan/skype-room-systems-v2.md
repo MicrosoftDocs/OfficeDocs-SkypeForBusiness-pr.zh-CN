@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解 Skype 会议室系统 v2 中可用的功能。 '
-ms.openlocfilehash: 05d07ad633dda2bb8a663e971914eecacae33d93
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 3f1a72bdbbe640a615bbf17c0525d3ece00295ad
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890352"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546652"
 ---
 # <a name="skype-room-systems-v2"></a>Skype 会议室系统 v2
 <a name="bkmk_srs"> </a>
@@ -44,7 +44,7 @@ ms.locfileid: "23890352"
 |启动临时会议和电话号码从会议拨出。  <br/> |Skype 的音频会议的业务独立计划 2  <br/> **注意：** 通信点数可选。           |E1 或与音频会议 E3  <br/> 或者  <br/> E5  <br/> |Skype for Business 标准 CAL  <br/> Skype for Business Server 企业 CAL  <br/> |
 |提供一个电话号码的聊天室和使聊天室接收呼叫或加入音频会议中使用的电话号码。  <br/> |Skype for Business 独立版计划 2 ，带 Office 365 电话系统和通话套餐  <br/> **注意：** 通信点数可选。           |E1 或 E3，带 Office 365 电话系统与 Office 365 通话套餐  <br/> 或者  <br/> E5  <br/> |Skype for Business Server 标准 CAL  <br/> Skype for Business Server Plus CAL  <br/> |
    
- **使用正确的版本的 Windows 10**： 为想要部署到其设备上的 Windows 10 图像的客户，Windows 10 的特定版本是必需的且仅适用于批量许可客户此版本。 你需要使用 **Windows 10 企业版 1607 或更高版本** 来映像 Skype 会议室系统 2.0 版设备。 从[批量许可服务中心](https://www.microsoft.com/Licensing/servicecenter/)，可以获得的副本。
+ **使用正确的版本的 Windows 10**： 为想要部署到其设备上的 Windows 10 图像的客户，Windows 10 的特定版本是必需的且仅适用于批量许可客户此版本。 您需要使用图像 Skype 会议室系统 v2.0 设备的**Windows 10 Enterprise 1709 或更高版本**。 从[批量许可服务中心](https://www.microsoft.com/Licensing/servicecenter/)，可以获得的副本。
   
 
     
