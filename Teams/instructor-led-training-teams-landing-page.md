@@ -9,12 +9,12 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: 4909c14205cd34b664603a33fcc469fc260674b9
-ms.sourcegitcommit: e33aa9ff5afa0c40b0bb4af67d2328c1a58c7f02
+ms.openlocfilehash: 8944a17bb083dd5af17b8d217f31567fc27e83fe
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/12/2018
-ms.locfileid: "25540282"
+ms.locfileid: "25546773"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -81,7 +81,7 @@ ms.locfileid: "25540282"
                                             </div>
                                             <div class="cardText">
                                                 <h3>向工作组从 for Business 的 Skype 管理您的升级</h3>
-                                                <p>规划和实现从 for Business 的 Skype 成功升级到团队 (受众： IT 专业人员，采用更改经理)</p>
+                                                <p>规划和实现成功升级到团队 (受众： IT 专业人员、 应用更改经理)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -137,7 +137,7 @@ ms.locfileid: "25540282"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>リ モ ・ 教育-网络研讨会</h3>
+                                                <h3>面向教育机构的网络研讨会团队</h3>
                                                 <p>了解如何使用高等教育团队。 (访问群体： 员工学生、 学术调查教职员工，IT 专业人员)</p>
                                             </div>
                                         </div>

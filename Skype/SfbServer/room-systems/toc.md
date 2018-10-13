@@ -5,7 +5,7 @@
 ### [发行说明](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [准备您的环境](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [要求](../plan-your-deployment/clients-and-devices/requirements.md)
-### [Online 许可](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+### [Online 许可](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 ### [使用 OMS 的计划管理](../plan-your-deployment/clients-and-devices/oms-management.md)
 
 ## 部署
