@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd12b4e5f054d3410f1e62e7ed09476ffac6754b
-ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
+ms.openlocfilehash: 279985565bb7a8097f67e259f04f056433ccda64
+ms.sourcegitcommit: e33aa9ff5afa0c40b0bb4af67d2328c1a58c7f02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25495603"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25540290"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>使用团队一起 Skype for Business 的组织的迁移和互操作性指南
 
@@ -54,7 +54,7 @@ ms.locfileid: "25495603"
 
 ## <a name="coexistence-modes"></a>共存模式
 
-现在管理互操作和迁移基于使用 TeamsUpgradePolicy"共存模式"。 用户模式下确定：
+根据"共存模式"使用 TeamsUpgradePolicy 托管互操作和迁移。 用户模式下确定：
 
 - *传入路由*： 中的客户端 （工作组或业务的 Skype） 执行传入聊天和调用园地？ 
 - *会议日程安排*： 哪项服务都用于安排新的会议和确保正确的外接程序在 Outlook 中存在。 请注意 TeamsUpgradePolicy 不管理会议加入。 用户可以始终*加入*任何会议，无论是业务会议或团队会议 Skype。
@@ -211,7 +211,7 @@ TeamsUpgradePolicy 控制传入的联盟的聊天和呼叫路由。 联盟路由
 
 |模式|解释|
 |---|---|
-|**群岛**</br>（默认值）|单个用户运行业务和团队-并行这两个 Skype。 此用户：</br><ul><li>可以启动聊天和 VOIP 呼叫中任一 Skype 业务或团队的客户端。 注意： 具有 for Business 的 Skype 用户驻留在本地无法启动从工作组与另一个 Skype 的企业用户取得联系。<li>接收聊天和 Skype for Business 中发起通过其 Skype 业务客户端中的其他用户的 VOIP 呼叫。<li>接收聊天链接如果它们位于*同一租户*中团队发起通过其团队客户端中的另一个用户的 VOIP 呼叫。<li>接收聊天和它们是否 ina*联盟的租户*，团队中其 Skype 业务客户端中的其他用户发起的 VOIP 呼叫。 <li>具有 PSTN 功能如下所述：<ul><li>如果用户驻留在 Skype 业务本地，启动和 Skype for Business 中收到 PSTN 呼叫。<li>如果用户驻留 online，用户具有电话系统，这种情况下用户：<ul><li>发起和接收团队中的 PSTN 呼叫，如果对用户配置直接路由<li>发起和接收 Skype for Business 中的 PSTN 呼叫，如果用户已制定 MS 调用计划或连接到 PSTN 网络通过任一 Skype 商务云连接器版或 Skype 的内部部署业务服务器 （混合语音）</ul></ul><li>可以安排会议在团队或 Skype for Business 中的 （和默认情况下将看到两个插件）。<li>可以加入业务或团队会议; 任何 Skype会议将在各自的客户端中打开。</ul>|
+|**群岛**</br>（默认值）|单个用户运行业务和团队-并行这两个 Skype。 此用户：</br><ul><li>可以启动聊天和 VOIP 呼叫中任一 Skype 业务或团队的客户端。 注意： 具有 for Business 的 Skype 用户驻留在本地无法启动从工作组与另一个 Skype 的企业用户取得联系。<li>接收聊天和 Skype for Business 中发起通过其 Skype 业务客户端中的其他用户的 VOIP 呼叫。<li>接收聊天链接如果它们位于*同一租户*中团队发起通过其团队客户端中的另一个用户的 VOIP 呼叫。<li>接收聊天和它们是否在*联盟的租户*，团队中其 Skype 业务客户端中的其他用户发起的 VOIP 呼叫。 <li>具有 PSTN 功能如下所述：<ul><li>如果用户驻留在 Skype 业务本地，启动和 Skype for Business 中收到 PSTN 呼叫。<li>如果用户驻留 online，用户具有电话系统，这种情况下用户：<ul><li>发起和接收团队中的 PSTN 呼叫，如果对用户配置直接路由<li>发起和接收 Skype for Business 中的 PSTN 呼叫，如果用户已制定 MS 调用计划或连接到 PSTN 网络通过任一 Skype 商务云连接器版或 Skype 的内部部署业务服务器 （混合语音）</ul></ul><li>可以安排会议在团队或 Skype for Business 中的 （和默认情况下将看到两个插件）。<li>可以加入业务或团队会议; 任何 Skype会议将在各自的客户端中打开。</ul>|
 |**SfBOnly**|单个用户运行仅 for Business 的 Skype。 此用户：</br><ul><li>可以启动聊天和仅从 for Business 的 Skype 调用。<li>收到任何聊天/呼叫中的业务客户端，其 Skype 无论其中启动，除非发起者团队用户拥有 for Business 的 Skype 驻留在本地。*<li>可以安排仅 Skype 业务会议，但可以加入 Skype 业务或团队的会议。</br>* 与内部部署用户使用群岛模式不建议在组合与 SfBOnly 模式中的其他用户。 如果具有 for Business 的 Skype 的团队用户驻留在本地启动呼叫或向 SfBOnly 用户聊天，SfBOnly 用户无法连接到并接收错过的聊天呼叫 email.*|
 |**SfBWithTeamsCollab**|单个用户运行业务和团队-并行这两个 Skype。 此用户：</br><ul><li>具有 SfBOnly 模式中的用户的功能。<li>工作组已启用仅对组协作 （通道）;聊天/呼叫/会议安排将被禁用。</ul>|
 |**SfBWithTeamsCollab</br>AndMeetings**|单个用户运行业务和团队-并行这两个 Skype。 此用户：<ul><li>已在 SfBOnly 模式下的聊天和用户的呼叫功能。<li>团队已启用组协作 （通道）;聊天和呼叫将被禁用。<li>可以安排仅团队会议，但可以加入 Skype 业务或团队的会议。</ul>|
