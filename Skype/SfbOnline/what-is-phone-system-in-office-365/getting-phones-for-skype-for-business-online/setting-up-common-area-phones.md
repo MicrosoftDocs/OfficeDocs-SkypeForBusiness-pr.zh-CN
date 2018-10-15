@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解获取正确的固件，如果需要对其进行更新、 分配许可证和为公用区域电话配置设置的部署步骤。
-ms.openlocfilehash: 3faa66235f3c3364a0da6560a6dc52daa252915b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d741b2ea76b8824ed36252d1d53e3f66e0118401
+ms.sourcegitcommit: cba568455949deab3c47777cb6504b4ed889bdbd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370672"
+ms.lasthandoff: 10/14/2018
+ms.locfileid: "25552435"
 ---
 # <a name="set-up-common-area-phones"></a>设置公共区域电话
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -66,11 +66,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 3. 如果没有自动生成“Main Reception”用户名，则输入**显示名称**。
 4. 输入一个**用户名**，如“MainReception”或“Mainlobby”。
 5. For common area phones, you might want to set a password manually or have the same password for all of you common area phones. Also, you might think about unselecting **Make this user change their password when they first sign in**.
-
-    > [!Tip]
-    > WAIT!! Don't click **Add**!! Ugh, if you did click **Add** the do this: Office 365 admin center > **Users** > **Active users** and then find the user. Then on the user's properties page, click **Product licenses** and then click **Edit**. On the **Product licenses** page, turn on **Common Area Phone** and pick either a **Domestic Calling Plan** or a Domestic and **International Calling Plan**.
-
-6. If you are still there, assign the licenses to this user. On the same page, click to expand **Product licenses**. Turn on the following:
+6. 如果你仍在该页面，将许可证分配给该用户。 在同一页面上，点击展开**产品许可证**。 打开以下内容：
    - 公共区域电话
    - 然后需选择一个**国内通话套餐**或国内和**国际通话套餐**。
 
@@ -91,23 +87,23 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 2. 在 **Skype for Business 管理中心** >  **语音** > **电话号码**。
 3. 从电话号码列表中选择一个号码，然后点击**分配**。
 4. 在**分配**页面的**语音用户**框中，输入用于电话的用户名称，然后在**选择语音用户**下拉列表中选择一个用户。
-5. While you're there you will need to add an emergency address. Once you search, look under the **Select emergency address** to pick the right one for you.
+5. 此时你还需要添加一个紧急联系地址。 开始搜索时，在**选择紧急联系地址**下选择一个合适的地址。
 6. 点击**保存**，你的用户将显示如下：
 
     ![cap-user-number.png](../../images/cap-user-number.png)
 
    > [!Note]
-   > Users will only show up if they have a **Phone System** licence applied. If you just did this, then sometimes it takes a bit for the user to show up in the list.
+   > 用户只有应用了一个**电话系统**许可证，才会显示。 如果你刚执行了该操作，用户可能需要经过一段时间才能在列表中显示。
 
 有关更多内容，请参阅[为用户获取电话号码](../../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)。
 
-If you're wondering, you can also take your phone number that you have with another carrier and "*port*" or transfer them over to Office 365. See, [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
+如果你正在漫游，也可以把另一家电信公司的电话号码“*导出*”或转移到 Office 365。 请参阅[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)。
 
 ### <a name="step-4---setting-up-your-phone"></a>第 4 步 - 设置电话
 
 **设置电话模式**
 
-The phone or phones you have must have the **Common Area Phone mode** turned on. You might want to check on that to make sure they do.
+你的电话必须打开**公共区域电话模式**。 建议手动检查以确认。
 
 **以下是如何设置宝利通 VVX 电话的示例**
 
@@ -116,7 +112,7 @@ The phone or phones you have must have the **Common Area Phone mode** turned on.
     2. 然后进入**设置**并在 **Skype for Business 设置**选项中选择**公共区域电话**。
     3. 点击**是**保存设置。
 
-- Now that CAP mode is enabled, set up the phone using the phone's display. The display should show **CaAP is enabled**. Then do the following:
+- CAP 模式已启用，请使用电话的显示器设置电话。 显示屏应显示 **CAP 已启用**。 然后执行以下操作：
 
     1. 点击**设置**。
     2. 选择**高级**。
@@ -141,7 +137,7 @@ The phone or phones you have must have the **Common Area Phone mode** turned on.
 
 
 > [!NOTE]
-> The CAP provisioning site states it will reset the CAP account's password to a random password. Take note that the account the CAP is referring is the Azure Active Directory (AAD) account. If you created the account in AAD only then the process is straightforward. If you have synced an on premises Active Directory to AAD make sure to take note of the credentials you are using that will be changed by CAP provisioning.
+> CAP 设置站点声明它将 CAP 帐户的密码重置为随机密码。 请注意，CAP 所指的帐户是 Azure Active Directory (AAD) 帐户。 如果仅在 AAD 中创建了帐户，则该过程非常简单。 如果已将本地 Active Directory 同步到 AAD，请确保记下正在使用的凭据，这些凭据将在 CAP 设置中更改。
 
 
 ### <a name="related-topics"></a>相关主题
