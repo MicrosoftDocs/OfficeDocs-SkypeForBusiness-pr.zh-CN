@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: 阅读本主题可了解如何规划云连接器 Edition PSTN 网站以确保高效且具有成本效益的呼叫路由。
-ms.openlocfilehash: 2f3c624dce8fa406724e54a405b72939951c849e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fa224bd4fa3dc1d0be5db8104e414f9a78d01b30
+ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890393"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25576517"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>规划云连接器版本 PSTN 网站
  
@@ -64,9 +64,9 @@ Skype 业务 online 同样，将网站中的所有云连接器装置，并将出
     
   -  波特兰（区号 503）
     
-由于雷德蒙德的用户 A 与贝尔维尤的用户 B 位于相邻的郊区且在相同的区号 (425) 内，运营商 A 应该能够通过贝尔维尤的中继接收来自雷德蒙德的用户 A 的紧急呼叫。 
+用户 A 雷德蒙德 (数据中心 A) 中和贝尔维尤 (数据中心 B) 中的用户 B 都是在每个其他旁边市郊和相同区域代码 (425) 中，因为运营商 A 应该能够从用户 A 的 Redmond 贝尔维尤在中继上执行紧急呼叫。 
   
-因此，用户 A 和 B，贝尔维尤和雷德蒙德，云连接器中继可以可能是在相同的 PSTN 网站下图中所示。 一个办公地点的用户的紧急呼叫可以路由到其他办公地点的中继。 但是，您应，咨询您的运营商，这将工作。
+因此，用户 A 和 B，贝尔维尤和雷德蒙德，云连接器中继可能可以在同一云连接器 PSTN 站点下图中所示。 一个办公地点的用户的紧急呼叫可以路由到其他办公地点的中继。 但是，您应，咨询您的运营商，这将工作。
   
 ![支持的 SFB 与 MA 拓扑，仅限本地部署。](../../media/2659caa7-9c18-4d4f-9c7a-61d0e6a07dc3.png)
   

@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca30bce0c5a0b96ba4ebf25d71e838aa88e4a602
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 93a3174085f6e42eed1496415122c89b550e61a6
+ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546750"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25576550"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -117,6 +117,10 @@ ms.locfileid: "25546750"
 |:-----|:-----|:-----|:-----|
 |重命名 Microsoft 团队中的通道不重命名 SharePoint Online 中的相应文件夹  <br/> |如果在 Microsoft 团队中重命名通道，SharePoint Online 与团队对应的文档库中的文件夹不会更改以匹配。 在重命名的通道文件选项卡的顶部显示正确的 SharePoint Online 文件夹名称。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/> |
 
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|URL 预览可能不会显示所有 url  <br/> |某些 URL 可能不会显示预览。  这是依赖具有显示预览的功能的原始 URL。 <br/> |无解决方法。 <br/> |9/1/18 <br/> |
+
 ## <a name="chat"></a>Chat
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
@@ -172,6 +176,10 @@ ms.locfileid: "25546750"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |会议不可用  <br/> |承载 （托管） 的本地版本小于 Exchange 2016 CU3 中的 Exchange 邮箱时，会议功能不可用。  <br/> |将本地部署升级到 Exchange 2016 CU3 或更高版本  <br/> |2017 年 2 月 28 日  <br/> |
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|无音频广播的会议期间共享内容时  <br/> |当广播在会议期间，从共享内容 （youtube 链接或保存的视频文件） 的音频共享内容不能听到参与者。  <br/> |无作为这是设计使然。  团队当前不支持从内容共享的音频  <br/> |10/9/18  <br/> |
 
 ## <a name="mobile"></a> 手机
 

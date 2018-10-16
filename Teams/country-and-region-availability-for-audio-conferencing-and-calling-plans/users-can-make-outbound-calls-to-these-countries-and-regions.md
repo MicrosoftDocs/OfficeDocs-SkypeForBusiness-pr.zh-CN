@@ -25,16 +25,16 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 本主题包含所有用户可以发起出站调用，如果拥有调用规划国家/地区。
-ms.openlocfilehash: 1b9e088c33fde71fa07ec405c088ad179708cb6e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 987379350d2605702d0e9e080f6a7a3a6d3a0383
+ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014610"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25576573"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>用户可以拨打到这些国家和地区的出站电话
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-a-domestic-or-domestic-and-international-calling-plan-license"></a>请参阅国家/地区内用户可以发起出站呼叫到，如果用户具有一个国内或国内和国际呼叫规划许可证
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>请参阅国家/地区内用户可以发起出站呼叫到，如果用户具有国内和国际呼叫规划许可证
 
 |**A-D**| **E-H**|**我-L**|**M-O**|**P-S**|**T-Z**|
 ---|---|---|---|---|---|
