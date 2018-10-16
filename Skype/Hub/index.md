@@ -3,12 +3,12 @@ layout: HubPage
 hide_bc: true
 title: Skype for Business
 description: Skype for Business
-ms.openlocfilehash: da72536d6c9f0238b301f0fbf3bbd14abc372c46
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cbb9765c358047b628be45759e2002cdc5a46f02
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373876"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546662"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -180,7 +180,7 @@ ms.locfileid: "25373876"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>终端用户</h3>
-                                                    <p>在 support.office.com 上查找 Skype for Business 用户的帮助、培训和技术支持。</p>
+                                                    <p>在 <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a> 上查找 Skype for Business 用户的帮助、培训和技术支持。</p>
                                                 </div>
                                             </div>
                                         </div>
