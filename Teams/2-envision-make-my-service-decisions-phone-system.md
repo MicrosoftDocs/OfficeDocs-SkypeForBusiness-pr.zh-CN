@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccf53509b01341b482c5a687dfa3dcee66a928dc
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: 1bf0d5514f4202029acabe44268e8e7e7d671f60
+ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593700"
+ms.locfileid: "25597843"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -269,8 +269,10 @@ ms.locfileid: "25593700"
 > |Isabell Potvin |39 quai du Président Roosevelt |国内通话套餐 |已禁用 |
 
 <br>
+
 > [!TIP]
 > 规划数字您 Communications 字幕式可以如以下示例所示进行归档。
+>
 > |         |         |
 > |---------|---------|
 > |初始数额|$ 1,000|
@@ -380,6 +382,7 @@ Office 365 的电话系统功能中的拨号计划是翻译的规范化规则的
 > ||**FR-Service**<br>_法国的服务号码规范化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
+
 > [!TIP]
 > 可以利用下面的示例模板来记录拨号计划分配以支持你的项目：
 >

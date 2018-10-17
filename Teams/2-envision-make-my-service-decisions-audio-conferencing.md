@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b50baa8ddb7e29c4484adea7d9d0f0c6cab957dd
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: 81dca894a378c5331c34b5840108e63536c8ac37
+ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593716"
+ms.locfileid: "25597835"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -128,6 +128,7 @@ ms.locfileid: "25593716"
 
 > [!TIP]
 > 可以按如下所示记录通信点数计划数量：
+>
 > |         |         |
 > |---------|---------|
 > |初始数额|$ 1,000|
@@ -237,6 +238,7 @@ Office 365 中的音频会议服务包括：
 > |如果用户的拨入设置发生变化，自动向其发送电子邮件|禁用|
 
 <br>
+
 > [!TIP]
 > 可以使用下面的示例来记录要进行音频会议用户的会议桥设置工作分配列表。
 >
