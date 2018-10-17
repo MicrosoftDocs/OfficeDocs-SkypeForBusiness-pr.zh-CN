@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: 由于 Skype 业务服务器的企业级的通信系统，因此您应了解其基础结构和通信可能会影响的常见安全攻击。
-ms.openlocfilehash: 594bde9b01a61586364034ba026db91aea49ef88
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 354e537a7e927ed6825b5909107c80fe59e04996
+ms.sourcegitcommit: f2b89fea199e7a1d2a3c90c153c94b0a35965e6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546781"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25599209"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>现代日常计算中的常见安全威胁
  
@@ -66,7 +66,7 @@ Skype 业务服务器在 Windows Server 操作系统使用的 PKI 功能，以�
     
 此操作对于传输层安全性 (TLS) 连接而言不成问题，因为 TLS 对所有方进行验证并加密所有通信。 使用 TLS 可防止攻击者对特定连接（例如，相互 TLS 连接）执行 IP 地址欺骗攻击。 但是，攻击者仍无法欺骗 Skype 业务服务器使用的 DNS 服务器的地址。 但是，因为使用证书执行 Skype for Business 中的身份验证，攻击者不必须对某一方的通信中的欺骗所需的有效证书。
 
-另一方面，呼叫者 Id 欺骗派上用场业务服务器建立之后 SIP 中继提供商、 PSTN 网关或 PBX 的其他系统和 Skype 之间。 在这些情况下，业务服务器 Skype 不提供任何保护以防止呼叫者 id 欺骗。 这意味着业务用户 Skype，可以使用欺骗呼叫者 id 显示另一个 Skype 业务用户的电话号码从 SIP 中继接收呼叫。 应在提供程序的一侧上, 应用到此保护 PSTN 或 PBX 网关。
+另一方面，呼叫者 Id 欺骗派上用场业务服务器建立之后 SIP 中继提供商、 PSTN 网关或 PBX 的其他系统和 Skype 之间。 在这些情况下，业务服务器 Skype 不提供任何保护以防止呼叫者 id 欺骗。 这意味着的业务用户的另一个 Skype 的业务用户 Skype 可以收到来自 SIP 中继的呼叫，具有带欺骗性的呼叫者 id 显示的电话号码或显示名称 （如果适用反向号码查找）。 应在提供程序的一侧上, 应用到此保护 PSTN 或 PBX 网关。
   
 ## <a name="man-in-the-middle-attack"></a>中间人攻击
 

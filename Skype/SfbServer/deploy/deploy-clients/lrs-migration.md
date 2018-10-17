@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: 阅读本主题可了解如何迁移 Lync 会议室系统设备使用 Skype 会议室系统 v2 软件。
-ms.openlocfilehash: 790872ceaf919d4b58bdbd753dc32e1303b2da63
-ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
+ms.openlocfilehash: a04eb857ee876b52507d21d5ee791ea327175921
+ms.sourcegitcommit: f2b89fea199e7a1d2a3c90c153c94b0a35965e6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25495588"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25599202"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>将 Lync 会议室系统 (LRS) 设备迁移到 Skype 会议室系统 v2 
 Skype 会议室系统版本 1 (SR v1) 软件 Lync 会议室系统 (LRS) 设备已达到[2018 年 10 月 9，支持的结束](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)。 这意味着 Skype 会议室系统 v1 软件将不再能够获取所有产品更新或修补程序不再。 建议使用 Skype 会议室系统 v1 软件的 Lync 会议室系统设备的客户升级其设备到 Skype 会议室系统版本 2 (SR v2)。
 
 Skype 会议室系统版本 2 (SR v2) 软件与除了 Skype 的 Microsoft 团队适用于会议和呼叫所有 SR v2 支持设备上的业务服务器和联机服务。
 
-您现有设备**可能会**继续工作后的末尾 Skype 会议室系统 v1 软件支持。 但是，如果此软件命中需要释放修复的 Microsoft 软件 bug，它将不支持。 Skype 会议室系统 V1 软件也不会升级到支持 TLS 1.2。 您可以了解有关[TLS 1.0/1.1 否决准备](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608)的详细信息。 Skype 会议室系统 V2 正在添加支持 TLS 1.2 和将继续而不影响从此否决工作。   
+您现有设备**可能会**继续工作后的末尾 Skype 会议室系统 v1 软件支持。 但是，如果此软件命中需要释放修复的 Microsoft 软件 bug，它将不支持。 SR v1 使用 TLS 1.0 / 1.1 其 Microsoft 在将来将弃用。 您可以了解有关[TLS 1.0/1.1 否决准备](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608)的详细信息。 Skype 会议室系统 V2 正在添加支持 TLS 1.2 和将继续过 2018 年 10 月 31，工作。 在内部部署客户业务的 Skype 不应禁用 TLS 1.0/1.1 Skype 会议室系统 V2 annouces 支持 TLS 1.2 无论 TLS 1.0/1.1 否决的一般准则。
 
 ## <a name="which-devices-are-affected"></a>哪些设备会受到影响？
 下面是此更改影响的设备的列表：
@@ -74,4 +74,4 @@ This table lists summary of all available options for existing LRS devices:
 > Skype 会议室系统 v2 中尚不支持触摸和白板功能。 触摸和白板支持的 Skype 会议室系统 v2 积压工作中，将被添加到 H1 CY2019。
 
 > [!NOTE]
-> Skype 会议室系统 V2 软件当前不支持 TLS 1.2 协议。 TLS 1.2 支持正在处理，并且将在 TLS 1/0/1.1 之前完成否决。 客户升级到 SR v2 运行 SR v2 应用程序的最新版本的会议室设备上将不会看到 TLS 1.0/1.1 否决任何的影响。
+> Skype 会议室系统 V2 软件当前不支持 TLS 1.2 协议。 TLS 1.2 支持正在处理，并且将在 TLS 1.0/1.1 否决之前完成。 客户升级到 SR v2 运行 SR v2 应用程序的最新版本的会议室设备上将不会看到 TLS 1.0/1.1 否决任何的影响。 在内部部署客户业务的 Skype 不应禁用 TLS 1.0/1.1 Skype 会议室系统 V2 annouces 支持 TLS 1.2。 
