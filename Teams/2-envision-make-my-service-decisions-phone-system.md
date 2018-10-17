@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f73c61b1c02f9560e3419d8993d998fa8f0ba9d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ccf53509b01341b482c5a687dfa3dcee66a928dc
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374792"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593700"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -269,10 +269,13 @@ ms.locfileid: "25374792"
 > |Isabell Potvin |39 quai du Président Roosevelt |国内通话套餐 |已禁用 |
 
 <br>
-&gt; [!TIP]
-&gt;规划数字您 Communications 字幕式可以如以下示例所示进行归档。
-&gt;|        |        |&gt;|---------|---------|
-&gt;|初始量 | 1000 |&gt;|触发量 | $ 400 |&gt;|自动充电量 |待发布 |
+> [!TIP]
+> 规划数字您 Communications 字幕式可以如以下示例所示进行归档。
+> |         |         |
+> |---------|---------|
+> |初始数额|$ 1,000|
+> |触发数额|$400|
+> |自动充值数额|TBA|
 
 <!--ENDOFSECTION-->
 
@@ -377,9 +380,23 @@ Office 365 的电话系统功能中的拨号计划是翻译的规范化规则的
 > ||**FR-Service**<br>_法国的服务号码规范化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
-&gt; [!TIP]
-&gt;下面的示例模板可以利用文档来支持您的项目的拨号计划分配到： &gt;|用户 |Office |拨号计划类型 |拨号计划名称 |&gt;|---------|---------|---------|---------|
-&gt;|Adele Vance |一个 Epping 旅途 |租户拨号计划 |AU NSW NorthRyde OER |&gt;|Alex Wilber |一个 Epping 旅途 |租户拨号计划 |AU NSW NorthRyde OER |&gt;|Ben Walters |一个 Epping 旅途 |租户拨号计划 |AU NSW NorthRyde OER |&gt;|很快 Cline |一个船坞 Boulevard |租户拨号计划 |SG-新加坡 OMB |&gt;|徐高阳 |一个船坞 Boulevard |租户拨号计划 |SG-新加坡 OMB |&gt;|李 Gu |一个船坞 Boulevard |租户拨号计划 |SG-新加坡 OMB |&gt;|Emily Braun | 32 伦敦桥街道 |服务拨号计划 |N/A |&gt;|Lidia Holloway | 32 伦敦桥街道 |服务拨号计划 |N/A |&gt;|港 Lahr | 32 伦敦桥街道 |服务拨号计划 |N/A |&gt;|Marcel Beauchamp | 39 quai 是 Président Roosevelt |租户拨号计划 |FR 巴黎 Issy 30qdPR |&gt;|Rachelle Cormier | 39 quai 是 Président Roosevelt |租户拨号计划 |FR 巴黎 Issy 30qdPR |&gt;|Isabell Potvin | 39 quai 是 Président Roosevelt |租户拨号计划 |FR 巴黎 Issy 30qdPR |
+> [!TIP]
+> 可以利用下面的示例模板来记录拨号计划分配以支持你的项目：
+>
+> |用户  |办公地点  |拨号计划类型  |拨号计划名称  |
+> |---------|---------|---------|---------|
+> |Adele Vance|Epping 路一号|租户拨号计划|AU-NSW-NorthRyde-OER|
+> |Alex Wilber|Epping 路一号|租户拨号计划|AU-NSW-NorthRyde-OER|
+> |Ben Walters|Epping 路一号|租户拨号计划|AU-NSW-NorthRyde-OER|
+> |Christie Cline|滨海林荫道一号|租户拨号计划|SG-Singapore-OMB|
+> |Debra Berger|滨海林荫道一号|租户拨号计划|SG-Singapore-OMB|
+> |Lee Gu|滨海林荫道一号|租户拨号计划|SG-Singapore-OMB|
+> |Emily Braun|伦敦桥大街 32 号|服务拨号计划|不适用|
+> |Lidia Holloway|伦敦桥大街 32 号|服务拨号计划|不适用|
+> |港 Lahr|伦敦桥大街 32 号|服务拨号计划|不适用|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|租户拨号计划|FR-Paris-Issy-30qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|租户拨号计划|FR-Paris-Issy-30qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|租户拨号计划|FR-Paris-Issy-30qdPR|
 
 <!--ENDOFSECTION-->
 

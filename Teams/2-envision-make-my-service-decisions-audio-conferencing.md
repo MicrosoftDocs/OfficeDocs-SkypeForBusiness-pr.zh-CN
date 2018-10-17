@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8877819704b438d26f981fb6816c56eb23ef9521
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b50baa8ddb7e29c4484adea7d9d0f0c6cab957dd
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371339"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593716"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -125,10 +125,15 @@ ms.locfileid: "25371339"
 > |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3、音频会议外接程序|
 
 <br>
-&gt; [!TIP]
-&gt;规划数字您 Communications 字幕式可为以下记录： &gt;|        |        |&gt;|---------|---------|
-&gt;|初始量 | 1000 |&gt;|触发量 | $ 400 |&gt;|自动充电量 |待发布 |
 
+> [!TIP]
+> 可以按如下所示记录通信点数计划数量：
+> |         |         |
+> |---------|---------|
+> |初始数额|$ 1,000|
+> |触发数额|$400|
+> |自动充值数额|TBA|
+> 
 <!--ENDOFSECTION-->
 
 ## <a name="conference-bridge-phone-numbers"></a>会议桥接电话号码
@@ -232,10 +237,23 @@ Office 365 中的音频会议服务包括：
 > |如果用户的拨入设置发生变化，自动向其发送电子邮件|禁用|
 
 <br>
-&gt; [!TIP]
-&gt;可以使用下面的示例来记录要进行音频会议用户的会议桥设置工作分配列表。
-&gt;|用户 |Office |默认收费电话号码 |默认免费电话号码 |允许免费 |未经身份验证的呼叫者绕过会议厅 |会议拨出 |&gt;|---------|---------|---------|---------|---------|---------|---------|
-&gt;|Adele Vance |一个 Epping 旅途 |待发布 |待发布 |是 |启用 |国际和国内 |&gt;|Alex Wilber |一个 Epping 旅途 |待发布 |待发布 |不 |禁用 |不允许 |&gt;|Ben Walters |一个 Epping 旅途 |待发布 |待发布 |不 |禁用 |不允许 |&gt;|很快 Cline |一个船坞 Boulevard |待发布 |待发布 |是 |禁用 |国内 |&gt;|徐高阳 |一个船坞 Boulevard |待发布 |待发布 |是 |启用 |国内 |&gt;|李 Gu |一个船坞 Boulevard |待发布 |待发布 |是 |启用 |国内 |&gt;|Emily Braun | 32 伦敦桥街道 | + 44 20 7946 0001 |待发布 |是 |启用 |不允许 |&gt;|Lidia Holloway | 32 伦敦桥街道 | + 44 20 7946 0001 |待发布 |是 |禁用 |不允许 |&gt;|港 Lahr | 32 伦敦桥街道 | + 44 20 7946 0001 |待发布 |是 |禁用 |不允许 |&gt;|Marcel Beauchamp | 39 quai 是 Président Roosevelt |待发布 |待发布 |不 |禁用 |国内 |&gt;|Rachelle Cormier | 39 quai 是 Président Roosevelt |待发布 |待发布 |是 |启用 |国际和国内 |&gt;|Isabell Potvin | 39 quai 是 Président Roosevelt |待发布 |待发布 |不 |禁用 |国内 |
+> [!TIP]
+> 可以使用下面的示例来记录要进行音频会议用户的会议桥设置工作分配列表。
+>
+> |用户  |办公地点  |默认收费电话号码  |默认免费电话号码  |允许免费电话  |未经身份验证的呼叫方绕过休息室  |会议拨出  |
+> |---------|---------|---------|---------|---------|---------|---------|
+> |Adele Vance|Epping 路一号|TBA|TBA|是|启用|国际和国内|
+> |Alex Wilber|Epping 路一号|TBA|TBA|否|禁用|不允许|
+> |Ben Walters|Epping 路一号|TBA|TBA|否|禁用|不允许|
+> |Christie Cline|滨海林荫道一号|TBA|TBA|是|禁用|国内|
+> |Debra Berger|滨海林荫道一号|TBA|TBA|是|启用|国内|
+> |Lee Gu|滨海林荫道一号|TBA|TBA|是|启用|国内|
+> |Emily Braun|伦敦桥大街 32 号|+44 20 7946 0001|TBA|是|启用|不允许|
+> |Lidia Holloway|伦敦桥大街 32 号|+44 20 7946 0001|TBA|是|禁用|不允许|
+> |港 Lahr|伦敦桥大街 32 号|+44 20 7946 0001|TBA|是|禁用|不允许|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|TBA|TBA|否|禁用|国内|
+> |Rachelle Cormier|39 quai du Président Roosevelt|TBA|TBA|是|启用|国际和国内|
+> |Isabell Potvin|39 quai du Président Roosevelt|TBA|TBA|否|禁用|国内|
 
 <!--ENDOFSECTION-->
 
@@ -340,9 +358,23 @@ Office 365 的电话系统功能中的拨号计划是转换规范化规则的一
 > ||**FR-Service**<br>_法国的服务号码规范化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
-&gt; [!TIP]
-&gt;下面的示例模板可以利用文档来支持您的项目的拨号计划分配到： &gt;|用户 |Office |拨号计划类型 |拨号计划名称 |&gt;|---------|---------|---------|---------|
-&gt;|Adele Vance |一个 Epping 旅途 |租户拨号计划 |AU NSW NorthRyde OER |&gt;|Alex Wilber |一个 Epping 旅途 |租户拨号计划 |AU NSW NorthRyde OER |&gt;|Ben Walters |一个 Epping 旅途 |租户拨号计划 |AU NSW NorthRyde OER |&gt;|很快 Cline |一个船坞 Boulevard |租户拨号计划 |SG-新加坡 OMB |&gt;|徐高阳 |一个船坞 Boulevard |租户拨号计划 |SG-新加坡 OMB |&gt;|李 Gu |一个船坞 Boulevard |租户拨号计划 |SG-新加坡 OMB |&gt;|Emily Braun | 32 伦敦桥街道 |服务拨号计划 |N/A |&gt;|Lidia Holloway | 32 伦敦桥街道 |服务拨号计划 |N/A |&gt;|港 Lahr | 32 伦敦桥街道 |服务拨号计划 |N/A |&gt;|Marcel Beauchamp | 39 quai 是 Président Roosevelt |租户拨号计划 |FR 巴黎 Issy 30qdPR |&gt;|Rachelle Cormier | 39 quai 是 Président Roosevelt |租户拨号计划 |FR 巴黎 Issy 30qdPR |&gt;|Isabell Potvin | 39 quai 是 Président Roosevelt |租户拨号计划 |FR 巴黎 Issy 30qdPR |
+> [!TIP]
+> 可以利用下面的示例模板来记录拨号计划分配以支持你的项目：
+>
+> |用户  |办公地点  |拨号计划类型  |拨号计划名称  |
+> |---------|---------|---------|---------|
+> |Adele Vance|Epping 路一号|租户拨号计划|AU-NSW-NorthRyde-OER|
+> |Alex Wilber|Epping 路一号|租户拨号计划|AU-NSW-NorthRyde-OER|
+> |Ben Walters|Epping 路一号|租户拨号计划|AU-NSW-NorthRyde-OER|
+> |Christie Cline|滨海林荫道一号|租户拨号计划|SG-Singapore-OMB|
+> |Debra Berger|滨海林荫道一号|租户拨号计划|SG-Singapore-OMB|
+> |Lee Gu|滨海林荫道一号|租户拨号计划|SG-Singapore-OMB|
+> |Emily Braun|伦敦桥大街 32 号|服务拨号计划|不适用|
+> |Lidia Holloway|伦敦桥大街 32 号|服务拨号计划|不适用|
+> |港 Lahr|伦敦桥大街 32 号|服务拨号计划|不适用|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|租户拨号计划|FR-Paris-Issy-30qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|租户拨号计划|FR-Paris-Issy-30qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|租户拨号计划|FR-Paris-Issy-30qdPR|
 
 <!--ENDOFSECTION-->
 

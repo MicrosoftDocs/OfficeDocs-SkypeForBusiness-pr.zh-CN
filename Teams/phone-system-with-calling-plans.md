@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: cbe14840f53d01c491159bfb3e44fe837d047558
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dce3118f79723bd6838579a9cda722dd4dc7bb90
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371370"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593724"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Microsoft Teams 中具有通话套餐的电话系统实践指导
 =========================================================================
@@ -313,9 +313,14 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 > |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3、电话系统附加项、国内通话套餐|禁用|
 
 <br>
-&gt; [!TIP]
-&gt;规划数字您 Communications 字幕式可为以下记录： &gt;|        |        |&gt;|---------|---------|
-&gt;|初始量 | 1000 |&gt;|触发量 | $ 400 |&gt;|自动充电量 |待发布 |
+
+> [!TIP]
+> 可以按如下所示记录通信点数计划数量：
+> |         |         |
+> |---------|---------|
+> |初始数额|$ 1,000|
+> |触发数额|$400|
+> |自动充值数额|TBA|
 
 ## <a name="phone-numbers-and-emergency-locations"></a>电话号码和紧急位置
 
@@ -330,7 +335,7 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 
 - [Skype for Business 管理中心](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [远程 Windows PowerShell cmdlet](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [提交新电话号码请求窗体](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
+- [提交新电话号码申请表](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
 
 新电话号码申请表单适用于计划的电话号码获取，因为你可以申请一组连续的电话号码。 有些国家或地区不能使用 Skype for Business 管理中心或远程 Windows PowerShell 获取电话号码。
 
@@ -453,13 +458,21 @@ Office 365 的电话系统功能中的[拨号计划](https://docs.microsoft.com/
 > |租户拨号计划名称<br>说明  |规范化规则名称<br>_说明_  |模式<br>转换<br>IsInternalExtension  |
 > |---------|---------|---------|
 > |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux，法国拨号计划_|**FR-39qdPR-Internal**<br>_法国 Issy-les-Moulineaux 39 quai du Président Roosevelt 办公地点的内部号码 (x7000 - x7999)_|^(7\d{3})$<br>+3319999$1<br>True|
-> ||**FR-TollFree**<br>_法国的免费电话号码规范化_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
-> ||**FR-Service**<br>_法国的服务号码规范化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+> ||**FR-TollFree**<br>_法国的免费电话号码规范化_|^0?(80\d{7})\d*$<br>+33$1<br>False|
+> ||**FR-Service**<br>_法国的服务号码规范化_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
 
 <br>
-&gt; [!TIP]
-&gt;下面的示例模板可以利用文档来支持您的项目的拨号计划分配到： &gt;|用户 |Office |拨号计划类型 |拨号计划名称 |&gt;|---------|---------|---------|---------|
-&gt;|Emily Braun | 32 伦敦桥街道 |服务拨号计划 |N/A |&gt;|Lidia Holloway | 32 伦敦桥街道 |服务拨号计划 |N/A |&gt;|Pradeep Gupta | 32 伦敦桥街道 |服务拨号计划 |N/A |&gt;|Marcel Beauchamp | 39 quai 是 Président Roosevelt |租户拨号计划 |FR 巴黎 Issy 39qdPR |&gt;|Rachelle Cormier | 39 quai 是 Président Roosevelt |租户拨号计划 |FR 巴黎 Issy 39qdPR |&gt;|Isabell Potvin | 39 quai 是 Président Roosevelt |租户拨号计划 |FR 巴黎 Issy 39qdPR |
+
+> [!TIP]
+> 可以利用下面的示例模板来记录拨号计划分配以支持你的项目：
+> |用户  |办公地点  |拨号计划类型  |拨号计划名称  |
+> |---------|---------|---------|---------|
+> |Emily Braun|伦敦桥大街 32 号|服务拨号计划|不适用|
+> |Lidia Holloway|伦敦桥大街 32 号|服务拨号计划|不适用|
+> |Pradeep Gupta|伦敦桥大街 32 号|服务拨号计划|不适用|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|租户拨号计划|FR-Paris-Issy-39qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|租户拨号计划|FR-Paris-Issy-39qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|租户拨号计划|FR-Paris-Issy-39qdPR|
 
 ## <a name="document-technical-implementation-plan"></a>记录技术实施计划
 

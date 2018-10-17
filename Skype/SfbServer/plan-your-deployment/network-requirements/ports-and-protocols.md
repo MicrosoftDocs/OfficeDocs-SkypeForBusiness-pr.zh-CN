@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 摘要： 实现 Skype 业务服务器之前查看端口使用情况注意事项。
-ms.openlocfilehash: 4355bc35e5e8ddcf881e322c39661389f78dce1a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6587bcfa9721362067d70bfc2e15549fa2a8e326
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884991"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593693"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>服务器的端口和协议要求
  
@@ -31,7 +31,7 @@ Skype 业务服务器要求的特定端口的外部和内部防火墙上打开�
   
 通过查看协议工作负荷海报移开[Technical diagrams for Business Server 2015 Skype 的](../../technical-diagrams.md)文章链接，还可以在这些表关系图窗体中找到信息。
 > [!NOTE]
-> - 为业务 Online 用户的 Skype 应该参考的[Office 365 Url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 
+> - 如果您在实施 Skype 业务 online (O365) 请参阅[Office 365 Url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 混合环境需要引用本主题以及混合[端口和协议要求](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#port-and-protocol-requirements)。
 > - 您可以有硬件或软件的防火墙，我们不需要特定的模型或版本。 重要的是哪些端口是白名单，因此防火墙将不会影响 Skype 正常业务服务器。
   
 ## <a name="port-and-protocol-details"></a>端口和协议详细信息
