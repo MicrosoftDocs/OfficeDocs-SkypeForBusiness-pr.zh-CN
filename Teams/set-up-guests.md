@@ -3,7 +3,7 @@ title: 开启或关闭对 Microsoft Teams 的来宾访问
 author: LaithAlShamri
 ms.author: lolaj
 manager: serdars
-ms.date: 10/11/2018
+ms.date: 10/18/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ab67b3fa9ad58c1aa3e8fdd254e3b3515743b4c
-ms.sourcegitcommit: 9dd5d8fe6888f0c7d2df1e40fdd8b4c80512f8f9
+ms.openlocfilehash: 532886659d88707d8cd63c7c268dc9929f937b1c
+ms.sourcegitcommit: 4f93bad9696db15de86c98a55398537c476e55d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25498118"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "25633748"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>开启或关闭对 Microsoft Teams 的来宾访问
 ======================================
@@ -42,7 +42,26 @@ ms.locfileid: "25498118"
 
     ![允许来宾访问开关设置为 ](media/set-up-guests-image1.png)
 
-4.  设置为**呼叫**、**会议**和**消息**到**打开**或**关闭**，具体取决于您要允许访问切换。
+4.  设置在**调用**、**会议**和**消息**下的切换为**打开**或**关闭**，具体取决于您希望允许为来宾用户功能。
+
+    - **使接听私人电话**– 启用此设置**在**允许来宾进行对等呼叫。
+    - **允许的 IP 视频**-启用此设置**在**允许来宾使用其呼叫和会议的视频。
+    - **屏幕共享模式**– 此设置控制屏幕共享来宾用户的可用性。 
+       - 启用此设置来**禁用**删除来宾共享其屏幕团队中的功能。 
+       - 启用此设置**单个应用程序**允许的单独的应用程序共享。 
+       - 打开到**整个屏幕**，确定允许完成的屏幕共享此设置。
+    - **立即允许开会**– 启用此设置**在**允许来宾中的 Microsoft 团队使用立即开会功能。
+    - **编辑发送的邮件**-启用此设置**在**允许来宾编辑消息它们以前发送。
+    - **来宾可以删除已发送的邮件**– 此设置**在**允许来宾删除消息他们打开以前发送。
+    - **聊天**– 启用此设置**在**授予携带团队中使用聊天功能。
+    - **在对话中使用 Giphys** – 启用此设置**在**允许来宾用于 Giphys 对话中。 Giphy 是联机数据库和搜索引擎，使用户可以搜索和共享动态的 GIF 文件。 每个 Giphy 分配内容评级。
+    - **Giphy 内容评级**– 选择下拉列表中选择一个评级：
+       - **允许的所有内容**-来宾都将能够在聊天，而不考虑内容评级中插入所有 Giphys。
+       - **中等**-来宾都将能够在聊天室中插入 Giphys，但将从成人内容适度限制。
+       - **严格**– 来宾都将能够在聊天室中插入 Giphys，但将从插入成人内容严格限制。
+    - **在对话中使用 Memes** -启用此设置**在**允许来宾用于 Memes 对话中。
+    - **在对话中使用标签**– 启用此设置**在**允许来宾对话中使用标签。 
+
 
 5.  单击“**保存**”。
 
