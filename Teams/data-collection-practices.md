@@ -24,16 +24,16 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft 收集统计、 使用和错误的数据，以了解如何使用 for Business 的 Skype 和其中用户遇到问题。 使用的数据来规划产品改进。
-ms.openlocfilehash: 198c78b2c6b484d3d68c7d001de4d0db12658a2c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: df56d2321a2f3c2d7f4159e3f1b782254cf1a64b
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012838"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678375"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype 的业务和 Microsoft 团队数据集做法
 
-Skype 的业务服务器 2015年、 业务 online，以及应用程序业务和 Microsoft 团队的 Skype Skype 收集数据以帮助 Microsoft 了解如何使用这些产品以及哪些类型的错误，例如，登录错误发生。 此信息可以帮助我们了解使用模式、 规划新功能，并排除和修复问题的区域。
+Skype 业务服务器和 Skype 的业务联机状态，以及对于业务和 Microsoft 团队的应用程序，Skype 收集数据以帮助 Microsoft 了解如何使用这些产品以及哪些类型的错误，例如，登录错误发生。 此信息可以帮助我们了解使用模式、 规划新功能，并排除和修复问题的区域。
 
 时自动收集的某些使用率数据，可以仅收集其他数据时的管理和/或用户选择允许它。 数据收集分为以下三个类别：
 
@@ -78,7 +78,7 @@ Skype 的业务服务器 2015年、 业务 online，以及应用程序业务和 
 
 使用率数据不包含任何标识用户的信息。
 
-使用率数据集默认情况下，但本地管理员可以将其关闭业务服务器 2015 Skype 上使用 DisableAutomaticSendTracing 组策略设置。 关闭此设置将影响组织中的所有用户。 有关详细信息，请参阅[中的业务服务器 2015 Skype 的配置客户端引导策略](https://technet.microsoft.com/library/gg425941.aspx)。
+使用率数据集默认情况下，但本地管理员可以将其关闭业务服务器上 Skype 使用 DisableAutomaticSendTracing 组策略设置。 关闭此设置将影响组织中的所有用户。 有关详细信息，请参阅[配置客户端引导策略](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies)。
 
 打开或关闭，最终用户无法启用使用率数据集。
 
@@ -103,7 +103,7 @@ Skype 会议应用程序和联接启动器网页，控制遥测的方法是通�
 
 错误报告需要以下两项：
 
-- 在服务器上或租户管理员中心 （这是默认状态） DisableAutomaticSendTracing 组策略设置设置为 False。 有关详细信息，请参阅[中的业务服务器 2015 Skype 的配置客户端引导策略](https://technet.microsoft.com/library/gg425941.aspx)。
+- 在服务器上或租户管理员中心 （这是默认状态） DisableAutomaticSendTracing 组策略设置设置为 False。 有关详细信息，请参阅[配置客户端引导策略](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies)。
     
 - 最终用户单独常规选项卡中加入 (单击齿轮图标![齿轮图标](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)，然后将**选项**对话框打开与显示**常规**选项卡) 中的商业客户端 Skype。
     

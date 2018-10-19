@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c680dccb697030cf0dbf7dcb75a4b26daf1ce6d3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6f450230f09c3832592b7fda91b3893caf54af7e
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374168"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678197"
 ---
 ![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
 
@@ -96,8 +96,8 @@ ms.locfileid: "25374168"
 |---------|---------|---------|---------|
 |Skype for Business – 仅联机调用计划 |使用 Azure AD 连接、 SharePoint Online、 Exchange Online 和 Skype 业务 online 的 office 365 租户<br><br> 调用计划实现 Skype 业务 online 使用的所有用户与电话系统 |所有用户都利用认证的耳麦<br><br> 会议需要内部参与者和匿名外部 VoIP 参与者<br><br> 消息包括内部和外部联系人 |**消息路线图**： 面向 Q2 版 2018年的联合身份验证功能<br><br> **会议路线图**： 所需的功能已可用<br><br> **调用路线图**： 所需的功能已可用<br><br> 构建基块：<ul><li> <b>团队协作仅与业务的 Skype</b>模式</li><li> <b>仅团队</b>模式</li></ul>|
 |Skype for Business 联机 with 云连接器 Edition (CCE) |使用 Azure AD 连接、 SharePoint Online、 Exchange Online 和 Skype 业务 online 的 office 365 租户<br><br> 通过使用 online 在多个 office 位置上的业务 Skype 实现 CCE 混合语音电话系统<br><br> 1,000 个用户使用的消息和语音工作量|80%的会议的用户群体利用电话系统与通过 CCE 混合语音<br><br> 公司内所有消息包含<br><br> 不当前正在使用会议，但是没有为将来启用音频会议的兴趣|**消息路线图**： 提供了所需的功能<br><br> **会议路线图**： 可以满足未来要求<br><br> **调用路线图**： 直接传送到面向 Q2 版 2018年团队功能 <br><br> 构建基块：<ul><li> <b>Skype for Business with 团队协作和会议</b>模式</li><li> <b>仅团队</b>模式</li></ul> |
-|Skype 业务混合 |使用 Azure AD 连接、 SharePoint Online、 Exchange Online 和 Skype 业务 online 的 office 365 租户<br><br> Skype 业务服务器 2015 部署和混合配置 Skype 业务 online|多个用户需要能够录制会议<br><br> 有 10 会议室，当前利用 Skype 会议室系统 v2<br><br> 组织希望尽可能快地充分利用作为协作工具的团队|**消息路线图**： 提供了所需的功能<br><br> **会议路线图**： 云会议录制，会议面向 Q2 版 2018年会议室设备功能<br><br> **调用路线图**： 提供了所需的功能<br><br> 构建基块：<ul><li><b>团队协作仅与业务的 Skype</b>模式</li><li> <b>Skype for Business with 团队协作和会议模式</b></li><li>群岛模式</li><li><b>团队仅模式</b></li></ul> |
-|Skype 业务服务器 （本地） |与 Azure AD 连接和 Exchange Online 的 office 365 租户<br><br> SharePoint 和 Skype for Business 是在本地部署|完整的企业语音功能集 (Skype 的业务服务器 2015年) 当前正在使用<br><br> 联系中心部署<br><br> 会议与其内部和外部联盟用户，使用 VoIP 和电话拨入式会议<br><br> 与内部和外部用户消息|部署 SharePoint Online<br><br> Skype 混合配置的业务 （拆分域）<br><br>**消息路线图**： 面向 Q2 版 2018年的联合身份验证功能<br><br> **会议路线图**： 联合与会，面向 Q2 版 2018 PSTN 会议厅功能<br><br> **调用路线图**： 面向版本 Q4 2018 和以后的功能<br><br>构建基块：<ul><li><b>群岛</b>模式 （试点）</li><li><b>团队协作仅与业务的 Skype</b>模式</li><li><b>Skype for Business with 团队协作和会议</b>模式</li><li><b>仅团队</b>模式和<b>Skype for Business 仅</b>模式</li></ul><br>调查升级到 Skype 的业务服务器 2019|
+|Skype 业务混合 |使用 Azure AD 连接、 SharePoint Online、 Exchange Online 和 Skype 业务 online 的 office 365 租户<br><br> Skype Business Server 部署和混合配置 Skype 业务 online|多个用户需要能够录制会议<br><br> 有 10 会议室，当前利用 Skype 会议室系统 v2<br><br> 组织希望尽可能快地充分利用作为协作工具的团队|**消息路线图**： 提供了所需的功能<br><br> **会议路线图**： 云会议录制，会议面向 Q2 版 2018年会议室设备功能<br><br> **调用路线图**： 提供了所需的功能<br><br> 构建基块：<ul><li><b>团队协作仅与业务的 Skype</b>模式</li><li> <b>Skype for Business with 团队协作和会议模式</b></li><li>群岛模式</li><li><b>团队仅模式</b></li></ul> |
+|Skype 业务服务器 （本地） |与 Azure AD 连接和 Exchange Online 的 office 365 租户<br><br> SharePoint 和 Skype for Business 是在本地部署|完整的企业语音功能集 (Skype 业务服务器) 当前正在使用<br><br> 联系中心部署<br><br> 会议与其内部和外部联盟用户，使用 VoIP 和电话拨入式会议<br><br> 与内部和外部用户消息|部署 SharePoint Online<br><br> Skype 混合配置的业务 （拆分域）<br><br>**消息路线图**： 面向 Q2 版 2018年的联合身份验证功能<br><br> **会议路线图**： 联合与会，面向 Q2 版 2018 PSTN 会议厅功能<br><br> **调用路线图**： 面向版本 Q4 2018 和以后的功能<br><br>构建基块：<ul><li><b>群岛</b>模式 （试点）</li><li><b>团队协作仅与业务的 Skype</b>模式</li><li><b>Skype for Business with 团队协作和会议</b>模式</li><li><b>仅团队</b>模式和<b>Skype for Business 仅</b>模式</li></ul><br>调查升级到 Skype 的业务服务器 2019|
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul> 升级方案是适用于您的组织？<br><br></ul></td></tr>

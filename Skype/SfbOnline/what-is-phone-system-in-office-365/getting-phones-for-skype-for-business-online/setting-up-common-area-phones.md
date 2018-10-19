@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解获取正确的固件，如果需要对其进行更新、 分配许可证和为公用区域电话配置设置的部署步骤。
-ms.openlocfilehash: d741b2ea76b8824ed36252d1d53e3f66e0118401
-ms.sourcegitcommit: cba568455949deab3c47777cb6504b4ed889bdbd
+ms.openlocfilehash: b92cef4234823c53faf6193d2e9e90fe3e5b60f0
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2018
-ms.locfileid: "25552435"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678163"
 ---
 # <a name="set-up-common-area-phones"></a>设置公共区域电话
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -137,7 +137,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 
 > [!NOTE]
-> CAP 设置站点声明它将 CAP 帐户的密码重置为随机密码。 请注意，CAP 所指的帐户是 Azure Active Directory (AAD) 帐户。 如果仅在 AAD 中创建了帐户，则该过程非常简单。 如果已将本地 Active Directory 同步到 AAD，请确保记下正在使用的凭据，这些凭据将在 CAP 设置中更改。
+> CAP 设置站点声明它将 CAP 帐户的密码重置为随机密码。 请注意，CAP 所指的帐户是 Azure Active Directory (AAD) 帐户。 如果仅在 AAD 中创建了帐户，则该过程非常简单。 如果已同步本地 Active Directory AAD 到并使用第三方 IDP 或 ADFS，帽设置将会失败。 在这种情况下，您需要使用 Office 365/Azure 仅用于 Active Directory 帐户 （例如，使用**onmicrosoft.com**域的帐户） 用于帽设置工作。
 
 
 ### <a name="related-topics"></a>相关主题

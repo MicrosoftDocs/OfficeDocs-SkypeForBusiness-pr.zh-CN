@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 下面是一些我们获得我们想要使用音频会议的客户的主要问题。
-ms.openlocfilehash: d5ba9368e65afbb6228ebaff0296a57e902cc51c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b2c75a9207a0cff73f247809c2e70a7fe17d50e5
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014754"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678431"
 ---
 # <a name="audio-conferencing-common-questions"></a>音频会议常见问题
 
@@ -95,9 +95,9 @@ ms.locfileid: "25014754"
 
 我们添加允许您[管理](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)，以发送并更新电子邮件中的音频会议信息和 PIN 的新功能。 更多地了解它，包括如何禁用它，请参阅[启用或禁用发送电子邮件中的 Microsoft 团队的音频会议设置更改时](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)，或者[启用或禁用发送电子邮件，音频会议设置 Skype for Business 中发生更改时联机](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change)。
   
-## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server-2015"></a>音频会议可供业务服务器 2015年的 Skype 的本地部署的一部分的用户？
+## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>音频会议是否可以使用 Skype 业务服务器的内部部署的一部分的用户
 
-该功能尚未实现。 但是，您可以继续使用中的业务服务器 2015 Skype 以及 PSTN 网关的内部用户提供音频会议。 
+该功能尚未实现。 但是，您可以继续使用位于 PSTN 网关的内部用户以及业务服务器 Skype 的音频会议。 
   
 ## <a name="can-a-user-get-a-personal-conference-id"></a>用户可以获取个人会议 ID 吗？
 

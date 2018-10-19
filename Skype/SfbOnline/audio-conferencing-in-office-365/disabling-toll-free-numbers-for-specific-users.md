@@ -19,15 +19,15 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理员可以控制组织者如何使用他们会议的免费电话号码。
-ms.openlocfilehash: 316497b6b4569ffef4419b6ed2ce6994c604d16a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0ee8274dd30b246da513d0597bf39964b94be8ca
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370608"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678153"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>禁用特定 Skype for Business Online 用户的免费电话号码
-
+ 
 > [!Note]
 > 有关禁用团队用户免费电话号码的信息，请参阅 [禁用特定的团队用户免费电话号码](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users) 。
 
@@ -48,20 +48,21 @@ By default, all users in your organization are enabled for using toll-free numbe
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>禁用特定用户的免费电话号码 
 
+**Microsoft 团队和 Skype 业务管理中心的**：
 
-1. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **用户**，然后选择用户可用的用户列表。 
+1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 
-2. 在"操作"窗格中，单击" **编辑**"。 
+2. 在**音频会议**旁边，单击**编辑**。
 
-3. 清除**允许使用免费电话号码加入此用户的会议**。 
- 
-4. 单击“**保存**”。 
+3. 将**包含在会议请求此用户从免费电话号码**设置为**关闭**。 
+
+4. 单击**保存。** 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
  
 **使用 PowerShell**  
 
-You can use the AllowTollFreeDialIn parameter of the Set-CsOnlineDialInConferencingUser cmdlet to enable or disable this control. For example: 
+可以使用 Set-CsOnlineDialInConferencingUser cmdlet 的 AllowTollFreeDialIn 参数启用或禁用此控件。 例如： 
 
 - Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false

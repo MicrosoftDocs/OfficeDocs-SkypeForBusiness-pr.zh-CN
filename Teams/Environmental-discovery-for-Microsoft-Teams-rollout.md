@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e5ad44dcdca1d72fb21dba5c0c3a3d98a50dcc9
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 53f8704daf923b54e30d0061669ea1de63eeb02e
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372118"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678247"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft 团队部署的环境发现
 ===================================================
@@ -136,11 +136,11 @@ ms.locfileid: "25372118"
 
 > | 问题 | 回答 | 备注 |
 > |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-> | 哪些版本的 Lync 或 for Business 的 Skype 当前 <br>在本地部署？ | <input type="checkbox">Office Communications Server 2007"R1" <br/> <input type="checkbox">Office Communications Server 2007 R2 <br/> <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Skype 业务服务器 2015 <br/> <input type="checkbox">Skype 商业云连接器 edition | |
+> | 哪些版本的 Lync 或 for Business 的 Skype 当前 <br>在本地部署？ | <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Skype 业务服务器 2015 <br/> <input type="checkbox">Skype 业务服务器 2019年<input type="checkbox">Skype 商业云连接器 edition | |
 > | 是否配置了与 Skype for Business Online 混合？ | <input type="checkbox">是的 <br/> <input type="checkbox">不 | |
 > | 此环境承载以及由第三方管理？ <br/>如果是，注意注释列中的详细信息。 | <input type="checkbox">是的 <br/> <input type="checkbox">不 | |
 > | 哪些形式和功能当前正在使用 <br>今天？ | <input type="checkbox">即时消息和状态 (IM/P) <br/> <input type="checkbox">会议 <br/> <input type="checkbox">联合身份验证 <br/> <input type="checkbox">会议录制 <br/> <input type="checkbox">持久聊天 / 群聊 <br/> <input type="checkbox">Microsoft 音频会议 <br>&nbsp;&nbsp; &nbsp;（以前称为电话拨入式会议） 上您 <br>&nbsp;&nbsp; &nbsp;内部部署 Lync Server 或 <br>&nbsp;&nbsp; &nbsp;Skype 业务部署 <br/> <input type="checkbox">第三方音频会议 <br>&nbsp;&nbsp; &nbsp;（请注意注释列中的详细信息） <br/> <input type="checkbox">使用企业语音部署 PSTN <br>&nbsp;&nbsp; &nbsp;连接 <br/> <input type="checkbox">调用计划 (以前称为 PSTN 呼叫) 通过 <br>&nbsp;&nbsp; &nbsp;与 Skype 的业务 Online 的混合 | |
-> | 你已部署 Edge Server 的哪个/哪些版本？ | <input type="checkbox">Office Communications Server 2007"R1" <br/> <input type="checkbox">Office Communications Server 2007 R2 <br/> <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Skype 业务服务器 2015 | |
+> | 你已部署 Edge Server 的哪个/哪些版本？ | <input type="checkbox">Office Communications Server 2007"R1" <br/> <input type="checkbox">Office Communications Server 2007 R2 <br/> <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Skype 业务服务器 2015 <br/> <input type="checkbox">Skype 业务服务器 2019| |
 > | 您必须 Lync 或 Skype 的业务边缘部署 <br>到多个数据中心？ <br/>如果是，注意注释列中的详细信息。 | <input type="checkbox">是的 <br/> <input type="checkbox">不 | |
 > | 选择边缘角色立即提供的服务。 | <input type="checkbox">外部用户访问 （企业用户） <br/> <input type="checkbox">远程用户访问 （匿名外部 <br>&nbsp;&nbsp; &nbsp;会议参与者) <br/> <input type="checkbox">联合身份验证 <br/> <input type="checkbox">媒体中继 | |
 > | 您其以下语音呼叫功能 <br>对当前具有依赖项？ <br/>请注意任何附加依赖项的注释 <br>列。 | <input type="checkbox">忙选项 <br/> <input type="checkbox">呼叫寄存 <br/> <input type="checkbox">呼叫应答或组呼叫应答 <br/> <input type="checkbox">公用区域电话或者"热办公" <br/> <input type="checkbox">响应组或智能寻线组 <br/> <input type="checkbox">共享的行外观 <br/> <input type="checkbox">Private line-专线 <br/> <input type="checkbox">语音邮件 <br/> <input type="checkbox">用单位电话呼叫 <br/> <input type="checkbox">紧急或信息号码 <br>&nbsp;&nbsp; &nbsp;（911、 811 411） <br/> <input type="checkbox">扩展拨号 <br/> <input type="checkbox">自动助理 <br/> <input type="checkbox">订阅者访问 <br/> <input type="checkbox">模拟设备 <br/> <input type="checkbox">传真 <br/> <input type="checkbox">呼叫者 ID 遮蔽或更改 <br/> <input type="checkbox">基于位置的路由 <br/> <input type="checkbox">最低成本路由 <br/> <input type="checkbox">简要电话 | |

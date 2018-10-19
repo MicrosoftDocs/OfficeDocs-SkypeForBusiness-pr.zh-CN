@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58dd3bb4e0f870cfcfff0f1297acdab7a82eb4a9
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 256ca09b8da5ccaed3ab5797e9d67246cebfee4e
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546682"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678138"
 ---
 <a name="teams-guest-access-checklist"></a>团队来宾访问清单
 ==========================================
@@ -32,7 +32,7 @@ ms.locfileid: "25546682"
 
 转到团队和 Skype 的业务管理中心中，通过https://admin.teams.microsoft.com。 从此处，选择组织范围设置，和 selec 来宾访问权限选项卡最后，在此选项卡上，选择允许 Microsoft 团队中的来宾访问为启用。 
 
-## <a name="need-a-new-screenshot-for-new-admin-center-enablement"></a>需要新管理中心启用新的屏幕截图。 
+## <Need to display a photo of the new admin center>
 
 ## <a name="-enable-specific-settings-for-channels"></a>□ 启用渠道的特定设置 
 中的团队应用程序，在各个团队级别配置来宾权限，以便来宾可以创建、 更新和删除通道。 除了 admins 团队所有者可以配置此设置。
@@ -133,7 +133,7 @@ ms.locfileid: "25546682"
 
 
 
-## <a name="troubleshooting"></a>疑难解答
+## <a name="troubleshooting"></a>故障排除
 
 如果您遇到的 Microsoft 团队中添加来宾问题，请参阅[来宾访问疑难解答指南 》](https://techcommunity.microsoft.com/t5/Microsoft-Teams/Guest-Access-Troubleshooting-Guide/td-p/119797)。
 

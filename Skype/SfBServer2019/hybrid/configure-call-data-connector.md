@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 有关配置呼叫数据连接器，从而遥测从 Skype 的业务的本地业务在线工具使用 Skype 查看说明。
-ms.openlocfilehash: 7c64ff1cfb7c300c575fb1b4512c590d1ddb867d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5379b13d9b9962154a8b525109218dcf330336e4
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373297"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678147"
 ---
 # <a name="configure-call-data-connector"></a>配置呼叫数据连接器
 
@@ -27,10 +27,12 @@ ms.locfileid: "25373297"
 
 有关呼叫数据连接器的优点和必备组件，如角色的要求和混合连接性设置的详细信息，请参阅[规划呼叫数据连接器](plan-call-data-connector.md)。
 
-## <a name="enable-monitoring"></a>启用监控 
+## <a name="enable-monitoring"></a>启用监控
+ 
+您必须配置呼叫数据记录 (CDR) 和用户体验质量 (QoE) 中的数据收集您的前端池与本地 LCSCdr 和 QoEMetrics 数据库; 监控否则，呼叫分析和呼叫质量仪表板不会收到要处理的数据。 之前您配置呼叫数据连接器，请按照[部署监控 Skype 业务服务器中](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md)配置 QoE 和 CDR 以及基本监控中提供的步骤。
 
-您必须配置呼叫数据记录 (CDR) 和用户体验质量 (QoE) 数据收集;否则，呼叫分析和呼叫质量仪表板将不会收到要显示的信息。 之前您配置呼叫数据连接器，请按照[部署监控 Skype 业务服务器中](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md)配置 CDR 和 QoE 中提供的步骤。
-
+> [!IMPORTANT]
+> 如果在前端池上没有启用监控，将无法正常呼叫数据连接器。
 
 ## <a name="enable-call-data-connector"></a>启用呼叫数据连接器
 
@@ -138,7 +140,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
  启用呼叫数据连接器后，您可以查看您的本地呼叫数据上调用分析仪表板[使用调用分析解决质量不佳](https://docs.microsoft.com/en-us/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)中所述。
 
 
-## <a name="for-more-information"></a>详细信息
+## <a name="for-more-information"></a>有关详细信息
 
 有关这些 cmdlet 的详细信息，可用于业务 Server 命令行管理程序 Skype Get-help 命令。 例如：
 

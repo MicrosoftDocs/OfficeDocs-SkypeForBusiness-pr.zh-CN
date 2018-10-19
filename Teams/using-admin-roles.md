@@ -9,12 +9,12 @@ ms.service: msteams
 description: 了解如何使用不同的管理角色管理团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 279fed07554589fda4d302b893e5136815963399
-ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
+ms.openlocfilehash: 0e09aa4146588cf32a6dd7cf0816a89cb4bdd696
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24025261"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678439"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>使用 Microsoft 团队管理员角色可以管理团队
 
@@ -28,10 +28,10 @@ ms.locfileid: "24025261"
 
 | 角色 | 可以执行这些任务 | 可以访问以下工具 |
 |----- | ------------------ | ------------------------------ |
-| 团队服务管理员 | 管理 Microsoft 团队服务，管理和创建 Office 365 组 （注释权限管理 Office 365 组将会进行年 10 月 2018年） | 所有内容中的 Microsoft 团队 Skype Business Admin Center 和关联的 PowerShell 控件，包括：<br><br> 管理会议，包括会议策略、 配置和会议网桥<sup>1、 3</sup><br><br> 管理语音，包括调用策略和电话号码的清单和分配<sup>1</sup><br><br> 管理消息传递，包括消息策略<sup>1、 3</sup><br><br> 管理所有组织范围的设置，包括联合身份验证、 团队升级和团队客户端设置<sup>1、 3</sup><br><br> 管理组织及其关联的设置，包括 （即将在年 10 月 2018年） 的成员资格<sup>23</sup>中的团队<br><br> 查看用户配置文件页和解决用户呼叫质量问题使用高级故障排除工具集<sup>3</sup> |
-| 团队 Communications 管理员 | 管理呼叫和会议功能的 Microsoft 团队服务中 | 管理会议，包括会议策略、 配置和会议网桥<sup>1、 3</sup><br><br> 管理语音，包括调用策略和电话号码的清单和分配<sup>1</sup><br><br> 查看用户配置文件页和解决用户呼叫质量问题使用高级故障排除工具集<sup>1、 3</sup> |
-| 团队 Communications 支持工程师 | 使用**高级**工具解决团队中的通信问题。 | 访问用户配置文件页的疑难解答呼叫分析中的呼叫。 可以查看完全呼叫记录的信息。<sup>3</sup> |
-| 团队 Communications 支持专家 | 使用**基本**工具解决团队中的通信问题。| 访问用户配置文件页的疑难解答呼叫分析中的呼叫。 只能查看所搜索的特定用户的用户信息。<sup>3</sup>
+| Teams 服务管理员 | 管理 Microsoft 团队服务，管理和创建 Office 365 组 | 所有内容中的 Microsoft 团队 Skype Business Admin Center 和关联的 PowerShell 控件，包括：<br><br> 管理会议，包括会议策略、 配置和会议网桥<sup>1、 3</sup><br><br> 管理语音，包括调用策略和电话号码的清单和分配<sup>1</sup><br><br> 管理消息传递，包括消息策略<sup>1、 3</sup><br><br> 管理所有组织范围的设置，包括联合身份验证、 团队升级和团队客户端设置<sup>1、 3</sup><br><br> 管理组织及其关联的设置，包括成员资格 （通过 PowerShell 中，在推出的管理门户中的团队管理支持管理组） <sup>23</sup>中的团队<br><br> 查看用户配置文件页和解决用户呼叫质量问题使用高级故障排除工具集<sup>3</sup> |
+| Teams 通信管理员 | 在 Microsoft Teams 服务中管理通话和会议功能 | 管理会议，包括会议策略、 配置和会议网桥<sup>1、 3</sup><br><br> 管理语音，包括调用策略和电话号码的清单和分配<sup>1</sup><br><br> 查看用户配置文件页和解决用户呼叫质量问题使用高级故障排除工具集<sup>1、 3</sup> |
+| Teams 通信支持工程师 | 使用**高级**工具解决团队中的通信问题。 | 访问用户配置文件页的疑难解答呼叫分析中的呼叫。 可以查看完全呼叫记录的信息。<sup>3</sup> |
+| 团队 Communications 支持专家 | 使用**基本**工具解决团队中的通信问题。| 访问用户配置文件页的疑难解答呼叫分析中的呼叫。 只能查看搜索的特定用户的用户信息。<sup>3</sup>
 
 <sup>1</sup> [PowerShell-商业模块的 Skype](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell 的 Microsoft 团队模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>

@@ -3,7 +3,7 @@ title: Microsoft Teams 应用权限和考虑事项
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
-ms.date: 08/20/2018
+ms.date: 10/18/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_PracticalGuidance
@@ -13,12 +13,12 @@ description: 了解贵组织要求的数据和权限应用。
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3ea7aaa57f6784487d662174554ec0086a87346
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: da1c22852f12bad79413d8b1f57d129be4e0ffcd
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375745"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678399"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 
@@ -75,66 +75,66 @@ ms.locfileid: "25375745"
 <tfoot>
 <tr><td align="right"><sup>1</sup></td><td colspan="3">一些聊天机器人仅发送消息 (POST_MESSAGE_USER)。 他们 = #39; re 调用&quot;仅通知&quot;bot，但术语不测验 t 引用允许或不允许执行哪些自动程序，它意味着，自动程序不测验 t 想要公开交谈体验。 团队使用此字段禁用通常会启用; 在 UI 中的功能自动程序不是 & #39; 在什么受限制的 t = #39; s 允许执行相比不要公开交谈体验的 bot。</td></tr>
 <tr><td align="right"><sup>2</sup></td><td colspan="3">当前处于开发人员预览版中。</td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3">当前处于开发人员预览版中。 由应用的 manifest.json 文件中聊天机器人对象的 <code>supportsFiles</code> 布尔属性控制。</td>
+<tr><td align="right"><sup>3</sup></td><td colspan="3">为由<code>supportsFiles</code>上的应用程序 manifest.json 文件中的自动程序对象的布尔值属性。</td>
 </tr>
 </tfoot>
 </table>
 
 > [!Note]
-> <ul><li>如果聊天机器人自己登录，则用户首次登录时会有另一种不同的许可体验。</li><li>当前，与 Teams 应用中的任何功能（聊天机器人、选项卡、连接器或消息传递扩展）关联的 Azure AD 权限与此处所列的 Teams 权限完全分开。</li></ul>
+> <ul><li>如果自动程序有自己登录，则第二个 — 不同 — 的同意体验第一次用户登录。</li><li>目前，与任何 （自动程序、 选项卡、 连接器或消息扩展） 中的团队应用程序内的功能关联的 Azure AD 权限是从此处列出的团队权限完全独立。</li></ul>
 
 
 ## <a name="tabs"></a>选项卡
 
-选项卡是 Teams 中运行的网站。
+Tab 是团队内运行的网站。
 
 <table>
   <tr>
-    <th width="25%">所需权限</th>
-    <th width="25%">可选权限</th>
+    <th width="25%">所需的权限</th>
+    <th width="25%">可选的权限</th>
     <th width="50%">考虑事项</th>
   </tr>
   <tr>
     <td valign="top">SEND_AND_RECEIVE_WEB_DATA</td>
-    <td valign="top">无（当前）。</td>
-    <td valign="top"><ul><li>选项卡的风险配置文件与浏览器选项卡中运行的同一网站几乎相同。 </li><li>选项卡还在其中获取的上下文 = #39; s 运行当前用户的 Azure AD 对象 ID，包括登录名和当前用户的 UPN 其所在，租户 ID 的 Office 365 组 （工作组） ID和用户的当前区域设置。 但是，要映射到用户 #39 这些 Id; s 信息、 选项卡将需要使用户登录到 Azure AD。</li></ul></td>
+    <td valign="top">（当前） 无。</td>
+    <td valign="top"><ul><li>选项卡的风险配置文件是与浏览器选项卡中运行该相同网站几乎完全相同。 </li><li>选项卡还在其中获取的上下文 = #39; s 运行当前用户的 Azure AD 对象 ID，包括登录名和当前用户的 UPN 其所在，租户 ID 的 Office 365 组 （工作组） ID和用户的当前区域设置。 但是，要映射到用户 #39 这些 Id; s 信息、 选项卡将需要使用户登录到 Azure AD。</li></ul></td>
   </tr>
   </table>
 
 ## <a name="connectors"></a>连接器
 
-连接器在外部系统发生事件时向频道发布消息。
+外部系统中的事件发生时，连接器发布到频道的邮件。
 
   <table>
   <tr>
-    <th width="25%">所需权限</th>
-    <th width="25%">可选权限</th>
+    <th width="25%">所需的权限</th>
+    <th width="25%">可选的权限</th>
     <th width="50%">考虑事项</th>
   </tr>
   <tr>
     <td valign="top">POST_MESSAGE_CHANNEL</td>
-    <td valign="top">REPLYTO_CONNECTOR_MESSAGE。 某些连接器支持<em>可操作消息</em>，即允许用户发布针对连接器消息的目标回复，例如，向 GitHub 问题添加响应，或向 Trello 卡添加日期。</td>
-    <td valign="top"><ul><li>系统的文章连接器消息不 = #39; t 知道谁 = #39; s 为发布或接收邮件的用户： 披露关于该收件人无信息。 （Microsoft 是实际接收人，而不是租户；Microsoft 向频道实际发布消息。）</li><li>向频道发布连接器消息时，没有任何数据离开公司网络。</li><li>Don = #39 还支持可操作的消息 （REPLYTO_CONNECTOR_MESSAGE 权限） 的连接器; t，请参阅 IP 地址和引用网站信息;此信息发送给 Microsoft，然后路由至已 Microsoft 连接器门户中的 HTTP 终结点。</li><li>每当为连接器配置频道时，都会为该连接器实例创建一个唯一的 URL。 如果删除了该连接器实例，则不能再使用该 URL。</li><li>连接器消息可以 & #39; t 包含附件的文件。</li><li>连接器实例 URL 应视为机密/保密信息：拥有该 URL 的任何人可以向其发布消息，就像电子邮件地址一样。 因此，那里 & #39; s 一些风险的垃圾邮件或网络钓鱼或恶意软件的网站的链接。 如果出现这种情况，团队所有者可以删除连接器实例。</li><li>如果发送连接器消息的服务受到破坏并开始发送垃圾消息/钓鱼链接/恶意软件链接，租户管理员可以阻止创建新的连接器实例，并且 Microsoft 可以集中阻止它们。</li></ul></td>
+    <td valign="top">REPLYTO_CONNECTOR_MESSAGE。 某些连接器支持<em>可操作的消息</em>，使用户可以通过添加响应的 GitHub 问题或日期向 Trello 卡片例如张贴目标的答复连接器邮件。</td>
+    <td valign="top"><ul><li>系统的文章连接器消息不 = #39; t 知道谁 = #39; s 为发布或接收邮件的用户： 披露关于该收件人无信息。 （Microsoft 是实际的收件人，租户;Microsoft 执行的实际发布到该频道。）</li><li>没有数据离开企业网络时连接器邮件发布到通道。</li><li>Don = #39 还支持可操作的消息 （REPLYTO_CONNECTOR_MESSAGE 权限） 的连接器; t，请参阅 IP 地址和引用网站信息;此信息发送给 Microsoft，然后路由至已 Microsoft 连接器门户中的 HTTP 终结点。</li><li>连接器配置通道，每次创建该连接器实例的唯一的 URL。 如果删除该连接器实例，则可以不再使用的 URL。</li><li>连接器消息可以 & #39; t 包含附件的文件。</li><li>URL 应视为机密/机密的连接器实例： 任何人都 URL 可以发布，喜欢的电子邮件地址。 因此，那里 & #39; s 一些风险的垃圾邮件或网络钓鱼或恶意软件的网站的链接。 如果的发生，团队所有者可以删除的连接器实例。</li><li>如果发送连接器邮件已泄露和开始发送恶意软件垃圾邮件/网络钓鱼链接的服务，租户管理员可以阻止新连接器实例创建，可以通过 Microsoft 集中阻止。</li></ul></td>
   </tr>
 </table>
 
 > [!Note]
-> 当前，无法知道哪些连接器支持可操作消息（REPLYTO_CONNECTOR_MESSAGE 权限）。
+> 不是当前可以知道哪些连接线支持可操作的消息 （REPLYTO_CONNECTOR_MESSAGE 权限）。
 
 
-## <a name="outgoing-webhooks"></a>传出 Webhook
+## <a name="outgoing-webhooks"></a>传出 webhooks
 
-_传出 Webhook_ 由团队所有者或团队成员动态创建（如果为租户启用了旁加载）。 它们不是 Teams 应用的功能；提供此信息是为了内容的完整性。
+_传出 webhooks_创建动态团队所有者或团队成员如果 sideloading 启用租户。 它们不是团队应用程序; 的功能完整性包含此信息。
 
 <table>
   <tr>
-    <th width="25%">所需权限</th>
-    <th width="25%">可选权限</th>
+    <th width="25%">所需的权限</th>
+    <th width="25%">可选的权限</th>
     <th width="50%">考虑事项</th>
   </tr>
     <tr>
-    <td valign="top">RECEIVE_MESSAGE、REPLYTO_MESSAGE。 可以接收来自用户的消息以及回复用户。</td>
+    <td valign="top">RECEIVE_MESSAGE，REPLYTO_MESSAGE。 可以接收来自用户邮件和答复。</td>
     <td valign="top">无</td>
-    <td valign="top"><ul><li>传出 Webhook 与聊天机器人类似，但权限更少。 必须明确提及它们，就像聊天机器人一样。</li><li>注册传出 Webhook 后，将生成一个<em>密码</em>，用于允许传出 Webhook 验证发送者是 Microsoft Teams，而不是恶意攻击者。 此密码应保密；有权访问该密码的任何人都可以模拟 Microsoft Teams。 如果此密码泄露，可以删除并重新创建传出 Webhook，并将生成新密码。</li><li>尽管 = #39; s 可以创建传出 webhook，这并不 = #39; t 验证机密，我们建议不要它。</li><li>接收和答复邮件、 传出 webhooks 可以和 #39; 之外 t 执行何： 他们可以 & #39; t 主动发送的邮件，它们可以 & #39; t 发送或接收文件，它们可以 & #39; t 进行任何其他接收并答复，可以执行除外自动程序的操作邮件。</li></ul></td>
+    <td valign="top"><ul><li>传出 webhooks 类似于 bot 但具有更少的权限。 它们必须是明确提到，就像 bot。</li><li>传出 webhook 注册时，会生成<em>密码</em>，此程序允许传出 webhook 验证发件人，而不是恶意攻击者是 Microsoft 团队。 此密钥应保持机密;有权访问它的任何人都可以模拟的 Microsoft 团队。 如果密钥被泄露，传出 webhook 可以删除和重新创建，并将生成新密码。</li><li>尽管 = #39; s 可以创建传出 webhook，这并不 = #39; t 验证机密，我们建议不要它。</li><li>接收和答复邮件、 传出 webhooks 可以和 #39; 之外 t 执行何： 他们可以 & #39; t 主动发送的邮件，它们可以 & #39; t 发送或接收文件，它们可以 & #39; t 进行任何其他接收并答复，可以执行除外自动程序的操作邮件。</li></ul></td>
   </tr>
 </table>

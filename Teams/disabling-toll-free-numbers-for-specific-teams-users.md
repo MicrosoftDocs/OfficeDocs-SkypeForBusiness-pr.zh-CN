@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理员可以控制组织者在其会议中使用免费电话号码的情况。
-ms.openlocfilehash: 158a4b31b0aaf65414af0d2119b3b6931a1f74ac
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: cc179ff20d3bd523952ce57a79553025092532a9
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014690"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678335"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>对特定 Teams 用户禁用免费电话号码
 
@@ -45,15 +45,15 @@ ms.locfileid: "25014690"
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>对特定用户禁用免费电话号码 
 
-1. 在左侧导航中，单击“**用户**”，然后从可用用户列表中选择用户。
+**Microsoft 团队和 Skype 业务管理中心的**：
 
-2. 在页面的顶部，单击**编辑**。
+1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 
-3. 在“**音频会议**”旁边，单击“**编辑**”。
+2. 在“**音频会议**”旁边，单击“**编辑**”。
 
-4. 关闭“**在来自此用户的会议请求中包含免费电话号码**”。 
+3. 将**包含在会议请求此用户从免费电话号码**设置为**关闭**。 
 
-5. 单击“**保存**”。 
+4. 单击“**保存**”。 
 
  
 > [!Note]

@@ -10,12 +10,12 @@ search.appverid: MET150
 description: 了解如何使用 Windows PowerShell 管理所有的 Microsoft 团队中找到的功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0daff64e5a0f6f876de4adb7b60d913fbcce78cb
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4c8eb0c37f71972bb20fac60706ff7a369d971d4
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016074"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678343"
 ---
 # <a name="using-powershell-to-manage-teams"></a>使用 PowerShell 管理团队
 
@@ -48,7 +48,11 @@ ms.locfileid: "25016074"
 ### <a name="step-3-download-and-install-the-teams-connector-module"></a>步骤 3： 下载并安装团队连接器模块
 [使用本主题的帮助](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
 
-下面是从 Isabella 的下载链接：https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3
+从 PowerShell 库使用安装最新模块： 
+  
+  安装模块 MicrosoftTeams
+
+或者，有关详细信息，包可在此处找到：https://www.powershellgallery.com/packages/MicrosoftTeams/
 
 ### <a name="step-4-connect-using-the-teams-connector-module"></a>步骤 4： 连接使用团队连接器模块
 [使用本主题的帮助](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 使用业务联机遥测工具的 Skype 要监视的本地实现在混合方案的概述。
-ms.openlocfilehash: 2c491a217f02af77a25f362697e6f89aceb9470c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 523ec9905243eaf6f2a4eb26e3757fb431f21489
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "25030698"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678131"
 ---
 # <a name="plan-call-data-connector"></a>规划呼叫数据连接器
 
@@ -57,18 +57,23 @@ ms.locfileid: "25030698"
 
 ## <a name="requirements"></a>要求
 
-以下要求假定您已有 Skype 业务服务器部署中支持的拓扑。  有关部署 Skype 业务服务器和支持的拓扑的详细信息，请参阅[拓扑基础知识](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics)。
+以下要求假定您已有 Skype 业务服务器部署中支持的拓扑。  有关部署 Skype 业务服务器和支持的拓扑的详细信息，请参阅[拓扑基础知识](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics)。 若要配置呼叫数据连接器，您必须：
 
-- 混合连接性。 如果您已有 Skype 业务部署的服务器，并且您想要启用呼叫数据连接器，您必须确保已设置您的本地和联机环境之间的混合连接。 此有时也称为拆分域配置。 
+- 启用混合连接性。 如果您已有 Skype 业务部署的服务器，并且您想要启用呼叫数据连接器，您必须确保已设置您的本地和联机环境之间的混合连接。 此有时也称为拆分域配置。 
 
    有关详细信息，请参阅[规划之间 Skype Business Server 和 Office 365 的混合连接性](plan-hybrid-connectivity.md)和[Skype Business Server 和 Office 365 之间配置混合连接性](configure-hybrid-connectivity.md)。
 
-- 若要配置呼叫数据连接器，必须对 Office 365 租户，并确保已启用的以下角色：
+-  对 Office 365 租户，并确保您拥有启用以下角色：
 
    - Skype 的业务服务器管理员 
    - Office 365 全局管理员 
 
 - 如果您未，打开呼叫质量仪表板[打开和使用的 Microsoft 团队和 Skype 业务 online 呼叫质量仪表板](/microsoftteams/turning-on-and-using-call-quality-dashboard)中所述。
+ 
+- 与本地 LCSCdr 和 QoEMetrics 数据库启用监控的前端池。 没有它，调用数据连接器不具有要使用的度量数据。 
+ 
+> [!IMPORTANT]
+> 如果在前端池上没有启用监控，将无法正常呼叫数据连接器。
 
 ## <a name="comparison-of-on-premises-and-online-call-quality-dashboard-cqd-reports"></a>在本地和联机呼叫质量仪表板 (CQD) 的比较报告
 
@@ -84,22 +89,4 @@ ms.locfileid: "25030698"
 | 设置自定义报表 <br> （添加、 删除、 修改报表） | 是 | 是 |
 | 基于视频的屏幕共享指标 | 是 | 否 |
 | 用于编程访问的数据 Api <br> 到 CQD | 否 | 是 |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+||||

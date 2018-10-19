@@ -181,6 +181,7 @@
 ### [分配团队所有者和中的 Microsoft 团队的成员](assign-roles-permissions.md)
 ### [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
 ### [在工作组中创建一个组织范围团队](create-an-org-wide-team.md)
+### [动态团队的成员身份的概述](dynamic-memberships.md)
 ## [来宾访问](guest-access.md)
 ### [来宾加入团队的方式](guest-joins.md)
 ### [来宾体验介绍](guest-experience.md)

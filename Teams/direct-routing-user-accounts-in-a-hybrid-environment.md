@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 了解不同的用户创建和组合的受支持或不受支持的组合。
-ms.openlocfilehash: aa2d5b7b98b4a683f7f79ee9fb9b76e04a40263b
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f6662a6a61e34a691cc058f20c356720a61dab54
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014208"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678407"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>使用 PSTN 连接的混合环境中的用户帐户
 
@@ -28,7 +28,7 @@ ms.locfileid: "25014208"
 
 本文适用于具有以下所有的环境： 
  
-- Skype 业务服务器 2015年或 Lync Server 2013 
+- Skype 业务服务器或 Lync Server 2013 
 - Office 365 租户 
 - Skype 业务服务器和 Skype 业务联机或 Microsoft 团队租户之间配置混合连接性 
 - 启用发起和接收和来自客户端的公共公用电话交换网 (PSTN) 呼叫的用户
