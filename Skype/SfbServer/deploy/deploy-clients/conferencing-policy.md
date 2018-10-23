@@ -3,18 +3,19 @@ title: Skype 会议室系统帐户的会议策略
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.reviewer: davgroom
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: 阅读本主题，了解如何为 Skype 会议室系统帐户分配会议策略。
-ms.openlocfilehash: a9eb05c8e29a3db216bc74e5e016c2c6a8413a33
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a56bf9f6b8ba70a4f9ec1f28e84dfa67b1e71aa9
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973421"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699571"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Skype 会议室系统帐户的会议策略
  
@@ -53,7 +54,7 @@ ms.locfileid: "20973421"
 |MaxVideoConferenceResolution  <br/> |VGA  <br/> |忽略 Skype 业务服务器，Skype 会议室系统使用 HD1080  <br/> |
 |MaxMeetingSize  <br/> |250  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
 |AudioBitRateKb  <br/> |200  <br/> |请参阅表末尾的注释\*  <br/> |
-|VideoBitRateKb  <br/> |5000  <br/> |这是允许的最大出站视频比特率。 Skype 会议室系统可以发送一个 1080 stream 以及将全景 （如果使用 RoundTable） 在此比特率。 \*  <br/> |
+|VideoBitRateKB  <br/> |5000  <br/> |这是允许的最大出站视频比特率。 Skype 会议室系统可以发送一个 1080 stream 以及将全景 （如果使用 RoundTable） 在此比特率。 \*  <br/> |
 |AppSharingBitRateKb  <br/> |5000  <br/> |请参阅表末尾的注释\*  <br/> |
 |FileTransferBitRateKb  <br/> |5000  <br/> |不适用  <br/> |
 |TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |我们建议您设置此尽可能高。 有效的带宽在会议时间取决于网络条件。\*  <br/> |

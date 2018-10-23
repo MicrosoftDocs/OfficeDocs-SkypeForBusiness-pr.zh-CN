@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: 阅读本主题可了解如何在具有多个版本的 Skype Business Server 和 Lync Server 环境中部署 Skype 会议室系统。
-ms.openlocfilehash: 24015d85ef82b3a175564f92504d7c0ca46e9d54
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fef5e3e0a64fd1d533a53586b470584421a165ea
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20982746"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699719"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Skype 会议室系统迁移注意事项
  
@@ -22,7 +23,7 @@ ms.locfileid: "20982746"
   
 ## <a name="migration-considerations"></a>迁移注意事项
 
-本节提供指导，如果您包含不同版本的 Skype Business Server、 Lync Server 或 Office Communications Server 2007 R2 的多池环境中部署 Skype 会议室系统。 
+本节提供指导，如果企业服务器，或 Lync Server 包括不同版本的 Skype 多池环境中部署 Skype 会议室系统。 
   
 Lync Server 中的用户复制程序 (UR) 组件从 Active Directory 获取用户对象并将它们放入 Lync Server 后端 SQL Server 数据库中。 Lync Server 2013 中的 UR 已知道 Skype 会议室系统对象。 以前版本的 Lync Server 和 Office Communications Server 中的 UR 不影响指定 LR 对象的 Active Directory 属性，因此无法识别它们。 
   

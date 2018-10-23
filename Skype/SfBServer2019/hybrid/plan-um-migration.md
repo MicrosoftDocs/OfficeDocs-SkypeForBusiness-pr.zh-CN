@@ -7,16 +7,16 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skypeforbusiness-server-itpro
 description: 本主题介绍了您需要考虑时您决定为业务 Online 或 Exchange Online 迁移您现有的 Skype 业务服务器或 Exchange Server 部署到最新版本或 Skype。
-ms.openlocfilehash: 3678b7531d60324bd557acdd762f428b048d99fc
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 64d489a944e7b56315e4b600893b46f5c1cc3355
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696217"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699286"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>规划 Skype for Business Server 和 Exchange Server 迁移
 
-本主题介绍了您需要考虑时您决定为业务 Online 或 Exchange Online 迁移您现有的 Skype 业务服务器或 Exchange Server 部署到最新版本或 Skype。 您的可以迁移，以及应在何时，主要取决于什么您已得到设置您的组织中。 在预览，我们开始关注支持几个特定方案，与其他方案成为可在常规可用性 (GA)。
+本主题介绍了您需要考虑时您决定为业务 Online 或 Exchange Online 迁移您现有的 Skype 业务服务器或 Exchange Server 部署到最新版本或 Skype。 您的可以迁移，以及应在何时，主要取决于什么您已得到设置您的组织中。 某些功能，如组织自动助理，不可用在常规可用性 (GA)，但会更高版本中 2018年即将。
 
 ## <a name="feature-changes-in-exchange-2019-and-skype-for-business-server-2019"></a>为业务服务器 2019年功能 Exchange 2019 和 Skype 中的更改
 
@@ -29,7 +29,7 @@ Exchange 2019 中已弃用统一消息 (UM)。 这意味着 Exchange 2019 不再
 - 语音邮件
 - 自动助理
 
-如果您已经部署了 Exchange 2013 或 UM 服务中的统一消息角色在 Exchange 2016，并且想要升级到 Exchange 2019，您需要将您的语音邮件迁移到 Office 365 中的 Microsoft 云语音邮件服务。 如果您想要迁移到云语音邮件的语音邮件，看看下面的[Exchange 2013/Exchange 2016 和 Skype 的 Exchange 2019 和 Skype 的业务 2019年业务 2015年](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019)部分。
+如果您已经部署了 Exchange 2013 或 UM 服务中的统一消息角色在 Exchange 2016 并且想要升级到 Exchange 2019，您需要将您的语音邮件迁移到 Office 365 中的 Microsoft 云语音邮件服务。 如果您想要迁移到云语音邮件的语音邮件，看看下面的[Exchange 2013/Exchange 2016 和 Skype 的 Exchange 2019 和 Skype 的业务 2019年业务 2015年](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019)部分。
 > [!IMPORTANT]
 > 如果您的 Exchange 2013 或 Exchange 2016 服务器上的用户启用 UM 的邮箱，不要将它们移动到 Exchange 2019 升级您的业务服务器 Skype 到 Skype 的业务服务器 2019年和将用户移至它们以避免语音消息传递中断之前。
 
@@ -41,12 +41,12 @@ Exchange 2019 中已弃用统一消息 (UM)。 这意味着 Exchange 2019 不再
 
 与业务服务器 2019年的 Skype，我们移动从 Exchange Online UM 到云语音邮件。 当用户移至 Skype 业务 2019年服务器时，就会自动开始使用云语音邮件配置为托管语音邮件时。 如果您当前使用的 Exchange Online UM，您无需执行任何操作之外移动 Skype 业务服务器 2019 开始使用云语音邮件的用户。 但是，有一些您需要注意的功能的更改：
 
-- 预览，组织自动助理 （在 Exchange Online UM 自动助理的替代） 不可用。 可在 ga 修改的组织的自动助理
+- 组织自动助理 （在 Exchange Online UM 自动助理的替代） 不可用在 GA，但是才会出现在 2018年更高版本。
 - 在 Web 上的 Outlook 中的用户的语音邮件设置不适用于云语音邮件。
 
 ## <a name="on-premises-um-migration-scenarios"></a>在本地统一消息迁移方案
 
-在预览，我们便在支持以下方案，您可以将用户迁移到 Exchange 2019 兼到云语音邮件。 在 GA 我们将支持将允许您从其他版本的 Exchange 和 Skype 业务服务器身份验证迁移的其他方案。 我们还将提供组织的自动助理等其他功能。
+我们支持以下方案，您可以将用户迁移到 Exchange 2019 兼到云语音邮件。 更高版本中 2018年我们将支持将允许您从其他版本的 Exchange 和 Skype 业务服务器身份验证迁移的其他方案。 我们还将提供组织的自动助理等其他功能。
 
 - Exchange 2013/exchange 2016年和 Skype 业务服务器到 Exchange 2019 2015年业务服务器 2019 Skype
 - Exchange 2013/exchange 2016年具有业务服务器 2019 Skype 业务服务器 2015年的 Skype
@@ -63,12 +63,12 @@ Exchange 2019 中已弃用统一消息 (UM)。 这意味着 Exchange 2019 不再
 
 | 邮箱位于：            | 为业务服务器 2015年位于 Skype 的用户 | 为业务服务器 2019年位于 Skype 的用户  |
 |--------------------------------|-----------------------------------------|------------------------------------------|
-| Exchange 2013/exchange 2016    | Exchange UM                             | 云语音邮件                          |
+| Exchange 2013/exchange 2016    | Exchange UM                             | Exchange UM                              |
 | Exchange 2019                  | 不支持                           | 云语音邮件                          |
 
 在开始迁移到 Skype 业务服务器 2019年和 Exchange 2019 之前，请牢记以下事项：
 
-- 云语音邮件不支持在预览组织的自动助理。 如果您希望邮箱移动到云语音邮件，以继续，可通过自动助理，您将需要保留至少一个运行的 UM 角色或服务提供的 Exchange 2013 或 Exchange 2016 服务器。
+- 云语音邮件不支持在 ga 修改组织的自动助理 如果您希望邮箱移动到云语音邮件，以继续，可通过自动助理，您将需要保留至少一个运行的 UM 角色或服务提供的 Exchange 2013 或 Exchange 2016 服务器。
 - 您需要设置的业务 2019年服务器**并**将用户移动到该服务器的至少一个 Skype 之前将其邮箱移动到 Exchange 2019。 如果不这样做，将导致出现这些邮箱无法接收语音邮件消息。
 - 发送到语音邮件的呼叫将转接到云记录其中的语音邮件。 在呼叫结束后，语音邮件消息将发送到内部部署 Exchange 2019 服务器上的收件人的邮箱。 您需要确定 Internet 连接是否足以支持云语音邮件时考虑此语音通信。
 
@@ -99,7 +99,7 @@ Exchange 2019 中已弃用统一消息 (UM)。 这意味着 Exchange 2019 不再
 
 在开始迁移到 Skype 的业务服务器 2019年之前，请牢记以下事项：
 
-- 云语音邮件不支持在预览组织的自动助理。 如果您希望邮箱移动到云语音邮件，以继续，可通过自动助理，您将需要保留至少一个运行的 UM 角色或服务提供的 Exchange 2013 或 Exchange 2016 服务器。
+- 云语音邮件不支持在 ga 修改组织的自动助理 如果您希望邮箱移动到云语音邮件，以继续，可通过自动助理，您将需要保留至少一个运行的 UM 角色或服务提供的 Exchange 2013 或 Exchange 2016 服务器。
 - 发送到语音邮件的呼叫将转接到云记录其中的语音邮件。 在呼叫结束后，语音邮件消息将发送到内部部署 Exchange 服务器上的收件人的邮箱。 您需要确定 Internet 连接是否足以支持云语音邮件时考虑此语音通信。
 
 下面是完成此迁移的简要步骤。

@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
 description: 阅读有关如何执行部署 Skype 会议室系统，会议房间解决方案集成的硬件和软件的优化业务会议加入 Skype 组成。
-ms.openlocfilehash: a985a209c63d6d0262db42fb07f78133960444ca
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 94a9b1cb7ff3f341a51944cdc678bc66e44831cb
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21020470"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699315"
 ---
 # <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>部署规划中的业务的 Skype 的 Skype 会议室系统
  
@@ -61,7 +62,7 @@ ms.locfileid: "21020470"
 下表指示 Skype 会议室系统之间的业务和 Exchange 拓扑，本地或云中的 Skype 的各种部署的客户端互操作性： 
   
 
-|**拓扑**|**AD**|**Skype for Business**|**Exchange**|
+|**拓扑**|**AD**|**Skype for Business**|**交换**|
 |:-----|:-----|:-----|:-----|
 |内部部署  <br/> |内部部署  <br/> |内部部署  <br/> |内部部署  <br/> |
 |Office 365 多租户 (O365MT)  <br/> |Online  <br/> |Online  <br/> |联机  <br/> |
@@ -75,7 +76,7 @@ Skype 会议室系统无法早于 Lync Server 2013 驻留在 Lync server 版本�
 下表指示 Skype 会议室系统与 Exchange Server 版本的客户端可支持性： 
   
 
-|**Exchange**|**内部部署**|**Online**|**混合**|
+|**交换**|**内部部署**|**Online**|**混合**|
 |:-----|:-----|:-----|:-----|
 |Exchange 2010  <br/> |是（仅限单林）  <br/> |不适用  <br/> |不适用  <br/> |
 |Exchange 2013  <br/> |是（多林支持适用于 Exchange 2013 CU6 和更高版本）  <br/> |是  <br/> |是  <br/> |

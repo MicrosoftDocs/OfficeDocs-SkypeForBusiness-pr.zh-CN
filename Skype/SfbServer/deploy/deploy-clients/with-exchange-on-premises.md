@@ -4,18 +4,19 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 description: 阅读此主题以获取如何部署与 Exchange 内部部署混合环境中的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 930cc8916459562af89c15aefb60a2bf2c33c7e4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 49e0b85cc38de91ed269ca103ef995507a6d1e37
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965448"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699358"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>将 Skype 会议室系统 v2 与本地 Exchange 一起部署
  
@@ -27,7 +28,7 @@ Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fw
   
 ## <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>将 Skype 会议室系统 v2 与本地 Exchange 一起部署
 
-部署与 Exchange 本地 Skype 会议室系统 v2 之前，请确保已满足的要求。 有关详细信息，请参阅[Skype 会议室系统 v2 要求](../../plan-your-deployment/clients-and-devices/requirements.md)。
+部署与 Exchange 本地 Skype 会议室系统 v2 之前，请确保已满足的要求。 有关详细信息，请参阅 [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md)。
   
 如果您正在部署与本地 Exchange 的 Skype 会议室系统 v2，您将使用 Active Directory 管理工具添加您的内部部署域帐户的电子邮件地址。 此帐户将同步到 Office 365 中。 你将需要执行以下操作：
   
@@ -142,7 +143,7 @@ Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fw
     
 5. 在“**分配许可证**”中，根据你的许可和企业语音要求，选择 Skype for Business（计划 2）或 Skype for Business（计划 3）。 您将需要使用规划 3 许可证，如果您想要使用 Skype 会议室系统 v2 企业语音。
     
-6. 单击" **保存**"。
+6. 单击“**保存**”。
     
 进行验证，您应该能够使用任何 Skype 业务客户端登录到此帐户。
   
@@ -150,7 +151,7 @@ Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fw
 
 [配置帐户 Skype 会议室系统 v2](room-systems-v2-configure-accounts.md)
 
-[规划 Skype 会议室系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [部署 Skype 会议室系统 v2](room-systems-v2.md)
   

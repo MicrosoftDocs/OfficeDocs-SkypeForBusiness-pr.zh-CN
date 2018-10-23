@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3abecace4a15a85e4a0f8b895b44cd799b3c794f
-ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
+ms.openlocfilehash: b02fd487b7a5ef6ab7422791487a1c9cb3fa5795
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25358890"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699307"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 =================================================
@@ -41,9 +41,11 @@ ms.locfileid: "25358890"
 <a name="membership-roles-and-settings"></a>成员资格、 角色和设置
 ------------------------------
 
-**团队成员资格** 为你的整个组织激活 Microsoft Teams 后，指定团队所有者将能够邀请一起合作的任何员工加入他们的团队。 Microsoft Teams 使团队所有者能够根据用户姓名在组织中轻松添加。 根据你的组织的设置，属于团队成员但不属于你的组织的来宾也可以添加到你的团队。 有关更多信息，请参阅 [Microsoft Teams 中的来宾访问](guest-access.md)。 团队所有者也可以根据现有 Office 365 组创建团队。 对组所做的任何更改都将自动与 Microsoft Teams 同步。 根据现有 Office 365 组创建团队不仅可以简化邀请和管理成员的流程，还可以同步 Microsoft Teams 内的组文件。
+**团队成员资格** 为你的整个组织激活 Microsoft Teams 后，指定团队所有者将能够邀请一起合作的任何员工加入他们的团队。 Microsoft Teams 使团队所有者能够根据用户姓名在组织中轻松添加。 根据你的组织的设置，属于团队成员但不属于你的组织的来宾也可以添加到你的团队。 有关更多信息，请参阅 [Microsoft Teams 中的来宾访问](guest-access.md)。 
 
-**团队角色** Microsoft Teams 中有两个主要角色：团队所有者和团队成员。前者是创建团队的用户，后者是受所有者邀请加入团队的用户。 团队所有者可以在邀请联系人加入团队时或者在他们加入团队后将团队的任意成员设为共同所有者。 设置多个所有者可以分担管理设置和成员资格（包括邀请）的责任。   
+团队所有者也可以根据现有 Office 365 组创建团队。 对组所做的任何更改都将自动与 Microsoft Teams 同步。 根据现有 Office 365 组创建团队不仅可以简化邀请和管理成员的流程，还可以同步 Microsoft Teams 内的组文件。
+
+**团队角色** Microsoft Teams 中有两个主要角色：团队所有者和团队成员。前者是创建团队的用户，后者是受所有者邀请加入团队的用户。 团队所有者可以在邀请联系人加入团队时或者在他们加入团队后将团队的任意成员设为共同所有者。 设置多个所有者可以分担管理设置和成员资格（包括邀请）的责任。
 
 **团队设置** 团队所有者可以直接在 Microsoft Teams 中管理团队范围设置。 设置包括添加团队图片、跨团队成员设置创建频道、添加选项卡和连接器和 @提及整个团队或频道的功能，以及 GIF、贴纸和 Meme 的使用情况。 
 

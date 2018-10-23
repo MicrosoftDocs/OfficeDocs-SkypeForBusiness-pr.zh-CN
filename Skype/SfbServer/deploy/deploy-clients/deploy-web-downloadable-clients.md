@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 摘要： 部署企业 Web 应用程序和 Skype 会议应用程序与 Skype 用于业务 Skype。
-ms.openlocfilehash: 5789b239abd5acebca24b2d11b0747e6dd3bf9b5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c50a8afc4d12d7f3cf35fdcc966e322bd48199fc
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261033"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699535"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>为业务服务器部署中 Skype Web 可下载的客户端
 
@@ -132,7 +133,7 @@ Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能中，可以干扰
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    在严格符合[业务数据集做法的 Skype](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices)信息发送给 Microsoft。
+    发送至 Microsoft 的信息严格遵守 [Skype for Business 数据收集实践](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices)。
 
 3. 设置超时之前回退到本地承载 Skype 的业务 Web 应用程序体验中，如果 CDN 不可用。 默认值是 6 秒。 如果将该值设置为 0，则没有超时。
 

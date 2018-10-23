@@ -4,20 +4,21 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: 阅读本主题可了解如何在混合环境中部署 Skype 会议室系统。
-ms.openlocfilehash: 4e73b182f7e957f6f8a45e2ba0ccaa113a96411f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 40cbcd7cd95b6a5dc7542f913fe7599bedc7eb85
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375278"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699670"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype 会议室系统混合部署
- 
+
 阅读本主题可了解如何在混合环境中部署 Skype 会议室系统。
   
 ## <a name="hybrid-deployments"></a>混合部署

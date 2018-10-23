@@ -4,6 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读此主题以获取如何部署与 Office 365 的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 6c59ff1aa7f32998efb5f7693d4e46b417b3fd84
-ms.sourcegitcommit: 45b3e3387bb1e605453c52b68d0bf5b1b79d33f5
+ms.openlocfilehash: 7b3afbb0dbefb29a5cef7a9729254c1024c0369f
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25501492"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699614"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>将 Skype 会议室系统 v2 与 Office 365 一起部署 
 
@@ -27,7 +28,7 @@ ms.locfileid: "25501492"
 
 ## <a name="deploy-skype-room-systems-v2-with-office-365"></a>将 Skype 会议室系统 v2 与 Office 365 一起部署 
 
-部署与 Office 365 的 Skype 会议室系统 v2 之前，请确保已满足的要求。 有关详细信息，请参阅[Skype 会议室系统 v2 要求](../../plan-your-deployment/clients-and-devices/requirements.md)。
+部署与 Office 365 的 Skype 会议室系统 v2 之前，请确保已满足的要求。 有关详细信息，请参阅 [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md)。
 
 若要启用 for Business 的 Skype，您必须：
 
@@ -111,7 +112,7 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
    Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```
 
-7. 接下来，您需要启用 for Business 的 Skype 的设备帐户。 确保您的环境符合[Skype 会议室系统 v2 要求](../../plan-your-deployment/clients-and-devices/requirements.md)中定义的要求。
+7. 接下来，您需要启用 for Business 的 Skype 的设备帐户。 确保你的环境满足 [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md)中定义的要求。
 
    启动远程 Windows PowerShell 会话，如下所示 （请务必业务 Online PowerShell 组件安装 Skype）：
 
@@ -177,7 +178,7 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 ```
 
 > [!NOTE]
-> 这将添加 CloudPBX 和 PSTNCallingDomesticAndInternational。此外，还需要使用管理界面来指定电话号码。 
+> 这将添加 CloudPBX 和 PSTNCallingDomesticAndInternational。 此外，还需要使用管理界面来指定电话号码。 
 
 ## <a name="validate"></a>验证
 
@@ -188,7 +189,7 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 [配置帐户 Skype 会议室系统 v2](room-systems-v2-configure-accounts.md)
 
-[规划 Skype 会议室系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
 [部署 Skype 会议室系统 v2](room-systems-v2.md)
 

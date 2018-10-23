@@ -4,6 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 阅读此主题以获取如何部署与 Exchange Online 的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 51a1f4089dfb3453802e8d3241869c3c325c904c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7e9e7dbf0c1ec29444b9ba783acd2e5cd0987440
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883242"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699698"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>将 Skype 会议室系统 v2 与 Exchange Online 一起部署 
  
@@ -31,7 +32,7 @@ ms.locfileid: "23883242"
   
 ## <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>将 Skype 会议室系统 v2 与 Exchange Online 一起部署
 
-部署与 Exchange Online 的 Skype 会议室系统 v2 之前，请确保已满足的要求。 有关详细信息，请参阅[Skype 会议室系统 v2 要求](../../plan-your-deployment/clients-and-devices/requirements.md)。
+部署与 Exchange Online 的 Skype 会议室系统 v2 之前，请确保已满足的要求。 有关详细信息，请参阅 [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md)。
   
 若要部署与 Exchange Online 的 Skype 会议室系统 v2，按照以下步骤。 确保你有合适的权限来运行相关 cmdlet。 
   
@@ -68,7 +69,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    ```
 
     
-4. 你需要连接至 Azure AD 来应用一些帐户设置。你可以通过运行此 cmdlet 来进行连接。
+4. 你需要连接至 Azure AD 来应用一些帐户设置。 你可以通过运行此 cmdlet 来进行连接。
     
    ```
    Connect-MsolService -Credential $cred
@@ -139,7 +140,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     
 5. 在“**分配许可证**”中，根据你的许可和企业语音要求，选择 Skype for Business（计划 2）或 Skype for Business（计划 3）。 您将需要使用规划 3 许可证，如果您想要使用 Skype 会议室系统 v2 企业语音。
     
-6. 单击" **保存**"。
+6. 单击“**保存**”。
     
 进行验证，您应该能够使用任何 Skype 业务客户端登录到此帐户。
   
@@ -147,7 +148,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 [配置帐户 Skype 会议室系统 v2](room-systems-v2-configure-accounts.md)
 
-[规划 Skype 会议室系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [部署 Skype 会议室系统 v2](room-systems-v2.md)
   

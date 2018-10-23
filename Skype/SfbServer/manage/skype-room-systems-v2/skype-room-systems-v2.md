@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Skype 会议室系统 v2 的管理概述。
-ms.openlocfilehash: d79c04c69e320f404c8ce245120e9b01bd8de1ca
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: b30406c9f186fad699056a78ed1b18da9f59537a
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965654"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699350"
 ---
 # <a name="management-overview"></a>管理概述 
 
@@ -41,9 +41,9 @@ Skype 会议室系统 v2 应用程序和连接的外围设备的状态信息写�
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (dword) 1  <br/> |允许 Skype 会议室系统 v2 启动  <br/> |
 |电源管理-\>上交流，关闭屏幕 10 分钟后  <br/> 电源管理-\>上交流，从不提供系统进入休眠模式  <br/> |允许 Skype 会议室系统 v2 附加显示关闭并自动唤醒  <br/> |
-|net accounts /maxpwage:unlimited  <br/> 或对本地帐户禁用密码过期的等效方法。如果此操作失败，将最终导致 Skype 帐户无法登录，且被告知密码过期。请注意，这会影响计算机上的所有本地帐户，因此，此设置失败还会导致已有的管理帐户最终也过期。  <br/> |启用 Skype 帐户以始终登录  <br/> |
+|net accounts /maxpwage:unlimited  <br/> 或对本地帐户禁用密码过期的等效方法。 如果此操作失败，将最终导致 Skype 帐户无法登录，且被告知密码过期。 请注意，这会影响计算机上的所有本地帐户，因此，此设置失败还会导致已有的管理帐户最终也过期。  <br/> |启用 Skype 帐户以始终登录  <br/> |
    
-使用组策略的文件传输将在[配置文件项](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)讨论。
+[配置文件项目](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)中讨论了如何使用组策略传输文件。
   
 ## <a name="remote-management-using-powershell"></a>使用 PowerShell 进行远程管理
 <a name="RemotePS"> </a>
@@ -70,17 +70,23 @@ Skype 会议室系统 v2 应用程序和连接的外围设备的状态信息写�
 
 我们建议您更新的 Skype 会议室系统 v2 OS 和 Skype 会议室系统 v2 应用程序从产品更新和改进功能受益。 详细指南，请参阅[管理 Skype 会议室系统 v2](room-systems-v2-operations.md#software-updates)。 
 
-## <a name="troubleshooting"></a>疑难解答
+## <a name="windows-updates"></a>Windows 更新
+
+Skype 会议室系统 v2 (SR v2) Windows 10 企业 IoT 或 Windows 10 企业 (VL) 上运行并接收作为标准桌面相同的 Windows 更新和操作系统版本。 有关详细信息，请参阅[管理 Windows 更新](updates.md)。
+
+
+## <a name="troubleshooting"></a>故障排除
 
 我们建议您设置操作管理套件警报如以便任何 Skype 会议室系统 v2 问题将通知您的运营团队和帮助台以上一节中所述。 PowerShell 远程管理的选项是[远程管理使用 PowerShell](room-systems-v2-operations.md#remote-management-using-powershell)中所述。 中的外围设备已断开连接，您可能需要依赖于本地"智能指针"或 IT 支持调查和重新连接设备。 
 
 有关疑难解答和管理模式的详细信息，请参阅[管理 Skype 会议室系统 v2](room-systems-v2-operations.md#admin-mode-and-device-management)。 
 
+
 ## <a name="see-also"></a>另请参阅
 
 [Skype 会议室系统版本 2 帮助](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[规划 Skype 会议室系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
 [部署 Skype 会议室系统 v2](../../deploy/deploy-clients/room-systems-v2.md)
 

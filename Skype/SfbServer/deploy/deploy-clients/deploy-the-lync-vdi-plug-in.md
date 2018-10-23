@@ -3,18 +3,19 @@ title: 部署 Lync VDI 插件与 Skype 业务服务器
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.reviewer: krishra
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: 本主题讨论 for Business 连接到远程虚拟桌面时使用 Skype 的部署过程。
-ms.openlocfilehash: 08f676632e11c4bf95beee9b97be03703978a4a6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 792e6ab2521be2eaf46bc3a43979173d878fcb63
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373342"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699691"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>部署 Lync VDI 插件与 Skype 业务服务器
  
@@ -121,4 +122,4 @@ ms.locfileid: "25373342"
 ## <a name="see-also"></a>另请参阅
 <a name="tshoot_VDI"> </a>
 
-[在 VDI 环境中规划 Skype for Business](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
+[Plan for Skype for Business in VDI environments](../../plan-your-deployment/clients-and-devices/vdi-environments.md)

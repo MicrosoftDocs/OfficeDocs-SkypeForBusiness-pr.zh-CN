@@ -4,17 +4,18 @@ ms.author: chucked
 author: chuckedmonson
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 摘要：如何使用 Config.xml 文件指定附加安装说明。
-ms.openlocfilehash: a6234424240dc0d7ebb70762598467bfcee997e2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dfb6625146261b1bbf22e0f563717899c68beaae
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371511"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699556"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>使用 Config.xml 执行安装任务 Skype 中的商业客户端
 
@@ -48,7 +49,7 @@ ms.locfileid: "25371511"
 | **元素**              | **说明**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 配置  <br/>     | 顶级元素（必需）。包含 Product 属性，例如：Product=Lync（这适用于 Skype for Business 客户端）  <br/>                                                                                                                                                          |
-| OptionState  <br/>       | 指定在安装期间如何处理特定产品功能。 使用以下属性来防止安装 Business Connectivity Services，其中包括 Outlook 会干扰的共享的组件： <br/>  Id ="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
+| OptionState  <br/>       | 指定在安装期间如何处理特定产品功能。 使用以下属性来防止安装 Business Connectivity Services，其中包括 Outlook 会干扰的共享的组件： <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 | Display  <br/>           | 安装程序向用户显示的 UI 级别。典型属性包括： <br/>  CompletionNotice ="Yes"                                                                                                                                                                                |
 | 日志记录  <br/>           | 安装程序执行的日志记录类型的选项。典型属性包括： <br/>  类型 ="Off"                                                                                                                                                                                       |
 | 设置  <br/>           | 指定 Windows Installer 属性的值。典型属性包括：<br/>  Setting Id =" *name*"（Windows Installer 属性的名称）  <br/>  值 ="*值*"（要分配给属性的值）  <br/>                                                             |

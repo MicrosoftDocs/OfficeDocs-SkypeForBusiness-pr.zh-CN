@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: 阅读本主题，了解如何在单林本地环境中部署 Skype 会议室系统。
-ms.openlocfilehash: a0c3f76d94e54c616068303a08e4e4254f5f8347
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5fd9ab3f2a2e581f2f1675bea0f663b95cfa3eb5
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375299"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699712"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype 会议室系统单林本地部署
  
@@ -24,7 +25,7 @@ ms.locfileid: "25375299"
   
 ## <a name="single-forest-on-premises-deployments"></a>单林本地部署
 
-如果您已为会议房间资源邮箱帐户，您可以使用它。 否则，您需要创建一个新的成员。 您可以使用 Exchange 命令行管理程序 (PowerShell) 或 Exchange 管理控制台创建新资源邮箱帐户。 我们建议使用新 （删除旧的邮箱并重新创建） 的 Skype 会议室系统资源邮箱。 请确保备份之前删除的邮箱数据，然后将其导出到使用 Outlook 客户端重新创建邮箱 （请参阅 Export 或备份邮件、 日历、 任务和联系人的详细信息）。 若要还原的会议丢失通过删除邮箱，请参阅[连接或还原已删除的邮箱](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx)。 
+如果您已为会议房间资源邮箱帐户，您可以使用它。 否则，您需要创建一个新的成员。 您可以使用 Exchange 命令行管理程序 (PowerShell) 或 Exchange 管理控制台创建新资源邮箱帐户。 我们建议使用新 （删除旧的邮箱并重新创建） 的 Skype 会议室系统资源邮箱。 请确保备份之前删除的邮箱数据，然后将其导出到使用 Outlook 客户端重新创建邮箱 （请参阅 Export 或备份邮件、 日历、 任务和联系人的详细信息）。 要通过删除邮箱来还原丢失的会议，请参阅[连接或还原已删除的邮箱](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx)。 
   
 要使用现有资源邮箱帐户（例如 LRS-01），请按照下面的步骤进行操作：
   
@@ -55,7 +56,7 @@ ms.locfileid: "25375299"
    ```
    Set-Mailbox -Identity LRS01@contoso.com -MailTip "This room is equipped with Lync Meeting Room (LRS), please make it a Lync Meeting to take advantage of the enhanced meeting experience from LRS"
    ```
-4. 请使用以下命令配置本地化字符串。如果你的组织要求，你还可以添加自定义转换： 
+4. 请使用以下命令配置本地化字符串。 如果你的组织要求，你还可以添加自定义转换： 
    ```
    $Temp = Get-Mailbox  LRS01@ contoso.com 
    $Temp.MailTipTranslations += "ES: Spanish translation of the message"

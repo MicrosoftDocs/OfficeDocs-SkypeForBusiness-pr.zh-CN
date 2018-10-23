@@ -5,6 +5,7 @@ author: jambirk
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 阅读本主题以了解如何在 Exchange 中配置的 Skype 会议室系统 v2 的帐户和 Skype 的业务。
-ms.openlocfilehash: 4070757324c9c0abf56cd623ce0155649e456e3b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 38fdc37467b1a9f7b73271ac8684e86f52059981
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886483"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699677"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>配置帐户 Skype 会议室系统 v2
  
@@ -26,7 +27,7 @@ ms.locfileid: "23886483"
   
 本主题介绍如何创建 for Business 使用在 Microsoft Exchange 和 Skype 的 Skype 会议室系统 v2 的帐户。 Skype 会议室系统 v2 设备的部署说明涵盖在[配置 Skype 会议室系统 v2 控制台](console.md)。 你的基础结构很可能属于以下配置之一：
   
-- Online 部署： 完全在 Office 365 上部署您的组织的环境。 有关详细信息，请参阅[Office 365 的部署 Skype 会议室系统 v2](with-office-365.md)。
+- Online 部署： 完全在 Office 365 上部署您的组织的环境。 有关详细信息，请参阅[Deploy Skype Room Systems v2 with Office 365](with-office-365.md)。
     
 - 本地部署： 贵组织拥有的它控制，服务器承载 Active Directory、 Exchange 和 Skype 业务服务器。 有关详细信息，请参阅[与 Skype 的业务服务器部署 Skype 会议室系统 v2](with-skype-for-business-server-2015.md)
     
@@ -78,11 +79,11 @@ Skype 会议室系统 v2 需要 Active Directory、 Exchange 和 Skype for Busin
    
 设置用户帐户的最简单方式是它们使用远程 Windows PowerShell 进行配置。 Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，脚本将帮助创建新的用户帐户，或验证必须以帮助您将它们转换为兼容的 Skype 会议室系统 v2 用户帐户的现有资源帐户。
   
-如果您希望使用 Windows PowerShell cmdlet 通过 Office 365 用户界面，可以手动执行一些步骤。 请参阅[创建设备帐户使用 Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)。
+如果您希望使用 Windows PowerShell cmdlet 通过 Office 365 用户界面，可以手动执行一些步骤。 请参阅[使用 Office 365 创建设备帐户](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)。
   
 ## <a name="see-also"></a>另请参阅
 
-[规划 Skype 会议室系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [配置 Skype 会议室系统 v2 控制台](console.md)
   

@@ -4,6 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: 阅读此主题以如何部署业务服务器与 Skype 的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: db4551e91d808161d52e73033df8234001f21de3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 891f716be3a2b7d8479af83b57dfccd70500e50d
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883944"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699378"
 ---
 # <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>部署 Skype 会议室与 Skype 的业务服务器的系统 v2
   
@@ -29,7 +30,7 @@ ms.locfileid: "23883944"
   
 ## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>部署 Skype 会议室与 Skype 的业务服务器的系统 v2
 
-您部署与 Skype 的 Skype 会议室系统 v2 业务服务器之前，请确保已满足的要求。 有关详细信息，请参阅[Skype 会议室系统 v2 要求](../../plan-your-deployment/clients-and-devices/requirements.md)。
+您部署与 Skype 的 Skype 会议室系统 v2 业务服务器之前，请确保已满足的要求。 有关详细信息，请参阅 [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md)。
   
 开始部署 Skype 会议室系统 v2 之前，请确保您具有正确的权限运行相关联的 cmdlet。
   
@@ -125,7 +126,7 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 
 [配置帐户 Skype 会议室系统 v2](room-systems-v2-configure-accounts.md)
 
-[规划 Skype 会议室系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [部署 Skype 会议室系统 v2](room-systems-v2.md)
   

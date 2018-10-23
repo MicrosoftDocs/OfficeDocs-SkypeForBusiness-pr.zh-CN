@@ -4,17 +4,18 @@ ms.author: chucked
 author: chuckedmonson
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 摘要： 企业客户端安装方法的 Skype for Business 的概述。
-ms.openlocfilehash: 31eb109f80379487ba50342817759f8d9b30acda
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7b58b712f5b6dec7383bcb8a58e1b17b0ed4d870
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985685"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699279"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>为业务 Server 部署 Skype 客户的端
  
@@ -38,15 +39,15 @@ ms.locfileid: "20985685"
 
 - [自定义 Windows 客户端中 Skype 业务服务器安装](customize-windows-client-installation.md)
     
-- [配置 Skype for Business 的客户端体验](configure-the-client-experience.md)
+- [Configure the client experience with Skype for Business](configure-the-client-experience.md)
     
 - [在 Skype for Business Server 中配置智能联系人列表](configure-smart-contacts-list.md)
     
 ## <a name="installing-device-clients"></a>安装客户端设备
 
-- [Skype for Business Server 2015：安装和测试 Windows Phone 版 Skype for Business](windows-phone.md)
+- [Install and test Skype for Business for Windows Phone](windows-phone.md)
     
-- [安装并测试 Skype for Business for iOS](ios.md)
+- [Install and test Skype for Business for iOS](ios.md)
     
 - [在 Skype for Business Server 中部署 Skype 会议室系统](deploy-skype-room-system.md)
     

@@ -12,24 +12,25 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7c17a70d66c859025ed83820630ce33e1f2b10f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f5905ba16a6928b4347db9edb08e5db1c08f0cdb
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014802"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699264"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>使用 Microsoft Teams 增强现有 Office 365 组
 =======================================================
 
 Microsoft Teams 用户可以使用 Microsoft Teams 功能来增强现有 Office 365 组。 考虑增强公用 Office 365 组时，如果成员数等于或少于 2500，则用户可以增强该组。
 
-为此，用户应该从 Microsoft Teams 客户端完成创建新团队的流程。 选择屏幕底部的 **“是，添加 Microsoft Teams 功能”**，然后选择要使用 Microsoft Teams 增强的现有组。 现有组成员将自动作为成员添加到该团队。
-
-
+为此，用户应该从 Microsoft Teams 客户端完成创建新团队的流程。 选择**创建从现有 Office 365 组工作组**在屏幕底部，然后选择您想要使用的 Microsoft 团队增强的现有组。 现有组成员将自动作为成员添加到该团队。
 
 > [!IMPORTANT]
-> 仅 Office 365 组所有者有权使用 Microsoft Teams 增强现有组。 
+> 只有 Office 365 组所有者有权增强现有组与 Microsoft 团队，且组必须包含小于 2500年用户。 得到增强的团队都不会显示在列表中。
+>
+>**创建从现有 Office 365 组团队**选项将不可用，除非已满足这些条件。
+
 
 用户也可以将通讯组列表邀请到团队，该通讯组列表的成员将添加到该团队。 这是一次性同步操作，以后通讯组列表中组成员身份的变化不会复制到 Teams。 
 

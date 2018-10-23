@@ -4,6 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读此文，了解有关部署 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 2aac9e0701372fd6f0fdfd9035dca21fbaef1c9f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dac4929338ded6fdb3b7af1dadfb3b1ce5675b97
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890955"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699628"
 ---
 # <a name="deployment-overview"></a>部署概述
 
@@ -118,7 +119,7 @@ _规划表的示例 Skype 会议室系统 v2 服务帐户_
 -   设备软件安装
 -   设备部署
 -   Skype 会议室系统 v2 应用程序和外围设备配置
--   测试
+-    测试
 -   资产管理
 
 ### <a name="account-provisioning"></a>帐户设置 
@@ -193,7 +194,7 @@ _示例部署表_
 | ![](../../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定是否将手动配置每个 Skype 会议室系统 v2 系统或使用管理中心的 XML 文件 （Skype 会议室系统 v2 设备每一个）。</li></ul>| 
 | ![](../../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>定义远程管理方法。</li></ul>| 
 
-### <a name="testing"></a>测试
+### <a name="testing"></a> 测试
 
 Skype 会议室系统 v2 系统部署完后，您应测试它。 检查已部署的设备上的[Skype 会议室系统 v2 帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)中列出的功能都正常工作。 我们强烈建议部署小组验证到 Microsoft 操作管理套件 Skype 会议室系统 v2 （是否使用） 的记录。 也很重要您进行测试呼叫和会议以检查质量的数字。 有关详细信息，请参阅此[有用的部署清单](console.md#skype-room-systems-v2-deployment-checklist)。 
 
