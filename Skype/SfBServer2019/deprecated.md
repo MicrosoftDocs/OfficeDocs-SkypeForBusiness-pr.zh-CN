@@ -10,16 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要： 这些功能已从 Skype 的业务服务器 2019年。
-ms.openlocfilehash: cf91b468fe1482c7348634553b6e9b196b864b2c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 926f5539a31dbcb37ff4ccb5494ccaa7be517d30
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028759"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696161"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>什么被弃用从 Skype 业务服务器 2019 
-
-[!INCLUDE [disclaimer](disclaimer.md)]
 
 了解如何为业务服务器 2019 Skype 中弃用的功能。 有关业务服务器 2019 Skype 中的新功能的信息，请参阅[What's 中的业务服务器 2019 Skype](whats-new.md)。
 
@@ -71,8 +69,8 @@ SQL 镜像无法部署与 Skype 的业务服务器 2019年。 仍然支持用于
 
 - 呼叫质量方法仪表板
 - Microsoft 呼叫质量方法记分卡、 v1.5
-- Skype for Business Server 2015 规划工具
-- Skype 的业务服务器 2015年压力和性能工具
+- Skype for Business Server 2015 Planning Tool
+- Skype for Business Server 2015 Stress and Performance Tool
 
 ### <a name="see-also"></a>另请参阅
 

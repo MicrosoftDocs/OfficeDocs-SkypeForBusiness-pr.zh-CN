@@ -9,16 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 使用业务联机遥测工具的 Skype 要监视的本地实现在混合方案的概述。
-ms.openlocfilehash: 523ec9905243eaf6f2a4eb26e3757fb431f21489
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: e9039d3865e3baf5740f4f7489b1a7cfec6dea98
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678131"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696210"
 ---
 # <a name="plan-call-data-connector"></a>规划呼叫数据连接器
-
-[!INCLUDE [disclaimer](../disclaimer.md)]
 
 ## <a name="overview"></a>概述
 本主题介绍优点、 规划注意事项和 Skype 实现业务服务器调用数据连接器的要求。 配置呼叫数据连接器的详细信息，请参阅[配置呼叫数据连接器](configure-call-data-connector.md)。

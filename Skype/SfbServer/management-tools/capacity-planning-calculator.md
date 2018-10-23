@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 容量计划计算器
+title: Skype 业务服务器容量规划计算器
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/1/2018
@@ -10,24 +10,29 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 摘要：如何使用容量计算器工具。
-ms.openlocfilehash: 6ce37865035b22a91841e98c1f3a75d6da0cb8d2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: bb17bc7b024900627318dd64b41249c21ff8488b
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374908"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692766"
 ---
-# <a name="skype-for-business-server-2015-capacity-planning-calculator"></a>Skype for Business Server 2015 容量计划计算器
+# <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype 业务服务器容量规划计算器
  
 **摘要：** 如何使用容量计算器工具。
+
+> [!NOTE]
+> 本文引用 Skype 业务服务器 2015年下载，但它适用于：
+> - 业务服务器 2019 的 Skype。
+> - Skype 业务服务器 2015年。
   
-[业务 Server 2015 容量计算器的 Skype](https://www.microsoft.com/en-us/download/details.aspx?id=51196)补充[Skype 业务 2015年规划工具](https://www.microsoft.com/en-us/download/details.aspx?id=50357)和[规划业务服务器 2015年部署您 Skype](https://technet.microsoft.com/en-us/library/dn951427)的文档。 请在阅读指南并使用规划工具创建建议的拓扑之后使用计算器。
+[业务服务器容量计算器的 Skype](https://www.microsoft.com/en-us/download/details.aspx?id=51196)补充[Skype 业务规划工具](https://www.microsoft.com/en-us/download/details.aspx?id=50357)和[规划您 Skype 业务服务器部署](https://technet.microsoft.com/en-us/library/dn951427)中的文档。 请在阅读指南并使用规划工具创建建议的拓扑之后使用计算器。
   
-Skype for Business Server 2015 容量计算器帮助您确定服务器要求基于用户和您的组织使用的通信工具的数量。 在确定你的配置文件和你想要为用户启用的功能之后，请使用计算器确定所需的服务器数、内存和带宽。 此版本的计算器不针对磁盘 I/O 要求提供指导。
+Skype for Business Server 容量计算器帮助您确定服务器要求基于用户和您的组织使用的通信工具的数量。 在确定你的配置文件和你想要为用户启用的功能之后，请使用计算器确定所需的服务器数、内存和带宽。 此版本的计算器不针对磁盘 I/O 要求提供指导。
   
 如果您拥有有关您的特定用户概况的准确、详细的信息，则可以充分享受计算器带来的好处。例如，启用语音的用户的百分比、每个用户每小时的平均呼叫、呼叫持续时间以及会议中的并发用户百分比可能会对服务器要求造成巨大差异。计算器创建的建议的准确性取决于您提供的信息的准确性。
   
-在使用规划工具和容量规划计算器，您应模拟建议和计划负载以确保业务服务器 2015年的 Skype 将充分设置。 若要执行压力测试模拟负载下，使用[Skype 的业务服务器 2015年压力和性能工具](https://www.microsoft.com/en-us/download/details.aspx?id=50367)在[Skype 的业务服务器 2015年压力和性能工具](https://technet.microsoft.com/en-us/library/mt631400.aspx)。
+在使用规划工具和容量规划计算器，您应模拟建议和计划负载以确保 Skype 业务服务器将充分设置。 若要执行压力测试模拟负载下，使用[Skype 的业务 Server 压力和性能工具](https://www.microsoft.com/en-us/download/details.aspx?id=50367)在[Skype 的业务 Server 压力和性能工具](https://technet.microsoft.com/en-us/library/mt631400.aspx)。
   
 ## <a name="using-the-capacity-calculator"></a>使用容量计算器
 
@@ -85,7 +90,7 @@ Skype for Business Server 2015 容量计算器帮助您确定服务器要求基�
     
 绿色单元格显示为您输入的使用模型提供的建议。 
   
-- **前端服务器总数**：所需的物理服务器数目基于运行 Skype for Business Server 2015 且带有双处理器、十六核 (2.26 GHz) 的专用服务器确定。
+- **总前端服务器**： 物理服务器所需数量的基于专用服务器业务服务器运行 Skype，与双处理器，十六核、 2,260 兆周。
     
     请注意，建议启用超线程，它经过证明可改进支持音频/视频的服务器的性能。
     

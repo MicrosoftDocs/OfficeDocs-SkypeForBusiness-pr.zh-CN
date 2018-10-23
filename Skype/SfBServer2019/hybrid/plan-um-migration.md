@@ -7,16 +7,14 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skypeforbusiness-server-itpro
 description: 本主题介绍了您需要考虑时您决定为业务 Online 或 Exchange Online 迁移您现有的 Skype 业务服务器或 Exchange Server 部署到最新版本或 Skype。
-ms.openlocfilehash: 25d0e275110df57747679efec46a77571259a3d4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3678b7531d60324bd557acdd762f428b048d99fc
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027254"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696217"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>规划 Skype for Business Server 和 Exchange Server 迁移
-
-[!INCLUDE [disclaimer](../disclaimer.md)]
 
 本主题介绍了您需要考虑时您决定为业务 Online 或 Exchange Online 迁移您现有的 Skype 业务服务器或 Exchange Server 部署到最新版本或 Skype。 您的可以迁移，以及应在何时，主要取决于什么您已得到设置您的组织中。 在预览，我们开始关注支持几个特定方案，与其他方案成为可在常规可用性 (GA)。
 

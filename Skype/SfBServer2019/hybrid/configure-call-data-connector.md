@@ -9,16 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 有关配置呼叫数据连接器，从而遥测从 Skype 的业务的本地业务在线工具使用 Skype 查看说明。
-ms.openlocfilehash: 5379b13d9b9962154a8b525109218dcf330336e4
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: adc1c9a1e50130796c4749a958e9030c10a09fd0
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678147"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696175"
 ---
 # <a name="configure-call-data-connector"></a>配置呼叫数据连接器
-
-[!INCLUDE [disclaimer](../disclaimer.md)]
 
 本文介绍如何配置呼叫数据连接器-允许查看 Skype 业务服务器呼叫质量数据的业务联机呼叫质量仪表板 (CQD) 和呼叫分析 (CA) 工具使用 Skype 一个工具集。 
 

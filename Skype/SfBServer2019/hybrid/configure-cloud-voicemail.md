@@ -10,17 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 业务服务器驻留在 Skype 中实施的基于云的语音邮件的用户的说明。
-ms.openlocfilehash: 9cc990cbaecfea74b269809d9e31588d61eee93c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 80f154a7fa8e34b7912ebf5762e5d0390e21fd22
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027814"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696182"
 ---
 # <a name="configure-cloud-voicemail-service"></a>配置语音邮件云服务
-
-
-[!INCLUDE [disclaimer](../disclaimer.md)]
 
 ## <a name="overview"></a>概述 
 本文介绍如何配置您的业务内部部署用户的 Skype 的 Microsoft 云语音邮件服务。  

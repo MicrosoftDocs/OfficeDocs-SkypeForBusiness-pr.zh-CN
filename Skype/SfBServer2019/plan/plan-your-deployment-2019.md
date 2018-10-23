@@ -14,19 +14,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 摘要： 浏览这些链接以了解如何开发概念、 逻辑和物理设计用于配置 Skype 的业务服务器 2019年功能、 服务器和拓扑。
-ms.openlocfilehash: e7f104de66782d2aafd5947fbc3bca7badfd17c1
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 85b8dc6b4326a565e40331d4ba89cbed1d4edb59
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030775"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696189"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>规划业务服务器 2019年部署您 Skype
  
 **摘要：** 浏览这些链接以了解如何开发概念、 逻辑和物理设计用于配置 Skype 的业务服务器 2019年功能、 服务器和拓扑。
   
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
 Skype 业务服务器提供了即时消息 (IM)、 状态、 会议、 视频和电话服务解决方案可以支持企业级协作要求。 本主题提供有关如何规划成功 Skype Business Server 部署的信息链接。 
   
 随着新信息的出现以及用户提供反馈，作者会持续更新文章。 本页将定期更新，请经常返回查看。
@@ -60,6 +58,6 @@ Skype 业务服务器提供了即时消息 (IM)、 状态、 会议、 视频和
   
 ||**内容**|**说明**|
 |:--- |:--- |:--- |
-|![DMC 图标](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[面向 IT 专业人员的 Business Server 的 Skype](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |请访问 docs.microsoft.com 和资源中心访问视频、 社区网站、 文档、 下载和更多内容。    |
+|![DMC 图标](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[面向 IT 专业人员的 Skype for Business Server](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |请访问 docs.microsoft.com 和资源中心访问视频、 社区网站、 文档、 下载和更多内容。    |
 |![开发人员内容图标](https://docs.microsoft.com/en-us/office/media/icons/developer-blue.svg)|[Skype 开发人员平台](https://go.microsoft.com/fwlink/?LinkId=619775)   |查找对于业务服务器，包括代码示例、 培训和 Sdk Skype 开发人员资源。    |
 |![新闻、博客等图标](https://docs.microsoft.com/en-us/office/media/icons/blog-site-blue.svg)|[变更管理和采用](https://go.microsoft.com/fwlink/p/?LinkId=532796)   [Office 博客](https://go.microsoft.com/fwlink/p/?LinkId=528899)   [Office 365 技术博客](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx)   [Skype 团队博客 （英文)](https://go.microsoft.com/fwlink/p/?LinkId=532818)   |为业务服务器及时来自创建的团队和文档 Skype 的新闻。    |

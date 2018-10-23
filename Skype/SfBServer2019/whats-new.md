@@ -10,18 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要： 这些功能是新的业务服务器 2019 Skype 中。
-ms.openlocfilehash: 7b4e07ab6fbb7bfddcd056c9d6c4cd9d836d9a8e
-ms.sourcegitcommit: 02ff91505a2f185bb3c1059a1b26ee31bb272438
+ms.openlocfilehash: 411ca0705fa06d0b5720656cec2fcb3cbda50eeb
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "25027324"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696154"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>什么是 Business server 2019 Skype 中 
 
 **摘要：** 阅读本主题可了解业务服务器 2019 Skype 中的新功能。  
-
-[!INCLUDE [disclaimer](disclaimer.md)]
 
 中的业务服务器 2019 Skype 的新功能包括：
   

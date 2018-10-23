@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 摘要： 管理 Skype 中的业务服务器的双重身份验证。
-ms.openlocfilehash: f6ea9eb228a0c36df3c1ab9318f766a68a370cad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a9ebeaa5f8f012d66fb62357e8378010d0a74865
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002855"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692738"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>管理 Skype 中的业务服务器的双重身份验证
  
@@ -100,7 +100,7 @@ Skype 的业务用户的配置，以便利用统一联系人存储功能会发�
 
 AD FS 2.0 提供了一项功能称为“令牌重播检测”，借助该功能，可以检测并丢弃多个使用相同令牌的令牌请求。启用此功能时，令牌重播检测可确保从不多次使用相同令牌，从而保护 WS 联合被动配置文件和 SAML WebSSO 配置文件中身份验证请求的完整性。
   
-在高度关注安全的环境（例如使用展台时）中，应启用此功能。 有关令牌重放检测的详细信息，请参阅[安全规划和部署 AD FS 2.0 的最佳实践](https://go.microsoft.com/fwlink/p/?LinkId=309215)。
+在高度关注安全的环境（例如使用展台时）中，应启用此功能。 有关令牌重播检测的详细信息，请参阅 [AD FS 2.0 安全规划和部署的最佳做法](https://go.microsoft.com/fwlink/p/?LinkId=309215)。
   
 ## <a name="external-user-access"></a>外部用户访问
 
@@ -108,5 +108,5 @@ AD FS 2.0 提供了一项功能称为“令牌重播检测”，借助该功能�
   
 ## <a name="see-also"></a>另请参阅
 
-[在 Skype for Business Server 中配置双重身份验证](configure.md)
+[在 Skype for Business Server 中配置双重身份验证](configure-two-factor.md)
   

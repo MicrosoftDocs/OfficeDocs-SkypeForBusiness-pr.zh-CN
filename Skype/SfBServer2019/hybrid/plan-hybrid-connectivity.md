@@ -9,16 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 规划业务联机或团队实现业务服务器 Skype 和 Skype 之间的混合连接性注意事项。
-ms.openlocfilehash: 90ea0b5ee73cba718c81e5614b02b5332e223acf
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 34df2639ed57376549b2a8bde2e4b0e071d08957
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "25030677"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696231"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>规划业务服务器 Skype 和 Office 365 之间的混合连接性
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
 
 ## <a name="overview"></a>概述
 
@@ -61,7 +59,7 @@ ms.locfileid: "25030677"
 
 - 如果您的用户想要充分利用附加的联机功能，如 Skype 会议广播或云语音邮件，您需要将其分配 Office 365 中的适当许可。
 
-- 为 Skype for Business Online 用户分配许可证后，你需要为 Skype for Business 或本地 Enterprise Voice 启用这些用户。 有关详细信息，请参阅[启用本地的企业语音的用户](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)。 有关混合语音要求的详细信息，请参阅[规划与业务服务器 Skype 中的内部部署 PSTN 连接的 Office 365 中的电话系统](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)。
+- 为 Skype for Business Online 用户分配许可证后，你需要为 Skype for Business 或本地 Enterprise Voice 启用这些用户。 有关详细信息，请参阅[启用本地的企业语音的用户](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)。 有关混合语音要求的详细信息，请参阅[Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)。
 
 
 ## <a name="infrastructure-requirements"></a>基础结构要求
@@ -80,7 +78,7 @@ ms.locfileid: "25030677"
 
 - Azure Active Directory Connect 用于将你的本地目录与 Office 365 同步。 有关详细信息，请参阅[Azure AD 连接： 帐户和权限](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
 
-    若要支持 Office 365 的单一登录，使用户能使用在本地所用的同一登录凭据，可以使用 Azure Active Directory (AAD) Connect 的密码同步功能。 还可以使用 Active Directory 联合身份验证服务 (AD FS) 来进行 Office 365 单一登录。
+    若要支持 Office 365 的单一登录，使用户能使用在本地所用的同一登录凭据，可以使用 Azure Active Directory (AAD) Connect 的密码同步功能。 还可以使用 Active Directory 联合身份验证服务 (AD FS) 来进行 Office 365 单一登录。 
 
 若要配置混合连接，还需要设置您的本地和联机环境之间的联盟和配置您的业务 Online 租户中为共享的会话初始协议 (SIP) 地址空间 Skype 上。 有关配置混合连接所需的步骤的详细信息，请参阅[配置混合连接性](configure-hybrid-connectivity.md)。
 
@@ -182,7 +180,7 @@ ms.locfileid: "25030677"
 ## <a name="federation-allowedblocked-lists-requirements"></a>联盟允许/阻止列表的要求
 <a name="BKMK_Federation"> </a>
 
-允许域列表包括已配置合作伙伴“边缘”完全限定域名 (FQDN) 的域。这些域有时也称允许的合作伙伴服务器 或直接联盟合作伙伴。您应熟悉开放联盟和封闭联盟（在本地部署中分别称为合作伙伴发现 和允许的合作伙伴域列表）之间的差异。
+允许域列表包括已配置合作伙伴“边缘”完全限定域名 (FQDN) 的域。 这些域有时也称允许的合作伙伴服务器 或直接联盟合作伙伴。 您应熟悉开放联盟和封闭联盟（在本地部署中分别称为合作伙伴发现 和允许的合作伙伴域列表）之间的差异。
 
 必须满足以下要求才能成功配置混合部署：
 
@@ -215,7 +213,7 @@ ms.locfileid: "25030677"
 
 根据您的 Microsoft Online Services 数据中心的位置，您还必须配置网络防火墙设备以接受连接基于通配符域名 (例如，来自所有通讯\*。 outlook.com)。 如果贵组织的防火墙不支持通配符名称配置，您将需要手动确定您希望允许的 IP 地址范围和指定的端口。
 
-有关详细信息，请参阅[Office 365 Url 和 IP 地址范围](https://go.microsoft.com/fwlink/p/?LinkId=252942)。
+有关详细信息，请参阅 [Office 365 URL 和 IP 地址范围](https://go.microsoft.com/fwlink/p/?LinkId=252942)。
 
 ## <a name="port-and-protocol-requirements"></a>端口和协议要求
 <a name="BKMK_Ports"> </a>
@@ -232,7 +230,7 @@ ms.locfileid: "25030677"
 |STUN  <br/> |UDP  <br/> |A/V 边缘  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |为音频、视频会话打开  <br/> |
 |STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V 边缘  <br/> |3478  <br/> |3478  <br/> |为音频、视频会话打开  <br/> |
 
-有关端口和防火墙的边缘服务器规划的详细信息，请参阅[Skype 业务服务器中的边缘服务器环境要求](../../sfbserver/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)。 请参阅[服务器的端口和协议要求](../../sfbserver/plan-your-deployment/network-requirements/ports-and-protocols.md)和[协议工作负荷图表](https://go.microsoft.com/fwlink/p/?LinkId=550989)。
+有关端口和防火墙的边缘服务器规划的详细信息，请参阅[Skype 业务服务器中的边缘服务器环境要求](../../sfbserver/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)。 另请参阅[Port and protocol requirements for servers](../../sfbserver/plan-your-deployment/network-requirements/ports-and-protocols.md)和[协议工作负荷图](https://go.microsoft.com/fwlink/p/?LinkId=550989)。
 
 ## <a name="user-accounts-and-data"></a>用户帐户和数据
 <a name="BKMK_UserAccounts"> </a>

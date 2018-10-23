@@ -10,50 +10,24 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5ca71746-ead6-4e8c-90b1-461e846d1f4a
 description: 本文介绍如何使用现代身份验证 （这基于 Active Directory 身份验证库 (ADAL) 和 OAuth 2.0） 可以位于年 3 月 2016 for Business 的业务服务器 2015年的 Skype Skype 的累积更新。
-ms.openlocfilehash: 4bf802d2710c9c271c54cf2e127cf51b24875db1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 70878092baaee9414c8acada21a89ceea6587658
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966571"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692759"
 ---
-# <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>如何将新式验证 (ADAL) 与 Skype for Business 配合使用
+# <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>How to use Modern Authentication (ADAL) with Skype for Business
  
-本文介绍如何使用现代身份验证 （这基于 Active Directory 身份验证库 (ADAL) 和 OAuth 2.0） 可以位于年 3 月 2016 for Business 的业务服务器 2015年的 Skype Skype 的累积更新。
+本文介绍如何使用现代身份验证 （这基于 Active Directory 身份验证库 (ADAL) 和 OAuth 2.0） 可以位于年 3 月 2016 for Business 的 Skype 业务服务器 2015，或从初始 Skype 的累积更新业务服务器 2019 Skype 的的发行版。
   
 ## <a name="whats-in-this-article"></a>本文中的内容
 
-[什么是 ADAL？](use-adal.md#BKMK_ADAL)
-  
 [在你的池中配置 ADAL 并将 ADFS 设置为安全令牌服务器](use-adal.md#BKMK_Config)
   
 [用于启用 ADAL 登录的其他选项（如 Office 客户端应用）](use-adal.md#BKMK_Options)
   
 [新式验证/ADAL 不受支持的客户端](use-adal.md#BKMK_Support)
-  
-## <a name="what-is-adal"></a>什么是 ADAL？
-<a name="BKMK_ADAL"> </a>
-
-ADAL 是“Active Directory Authentication Library”的缩写，它和 OAuth 2.0 是新式验证的基础。 此代码库旨在使您目录中的安全的资源 （如 for Business 的 Skype) 通过安全令牌的客户端应用程序。 ADAL 与 OAuth 2.0 配合工作来支持更多身份验证和授权方案，例如多重身份验证 (MFA) 和更多的 SAML 身份验证形式。
-  
-充当客户端的各种应用可以利用新式验证来帮助访问受安全保护的资源。 Skype 业务服务器，在这种技术以便为用户提供适当级别的资源授权使用内部部署客户端和内部部署服务器之间。
-  
-新式验证对话（基于 ADAL 和 OAuth 2.0）具有一些常见元素。
-  
-- 客户端进行资源的请求，在这种情况下，客户端是 for Business 的 Skype。
-    
-- 没有向其客户端需要特定的访问级别的资源和此资源安全的目录服务，在这种情况下该资源是 Skype 业务服务器。
-    
-- OAuth 连接，换句话说，连接的专用于*授权*用户访问资源。 （OAuth 通过更具描述性的名称、 服务器到服务器身份验证，也称为和通常缩写为 S2S）
-    
-在业务服务器现代身份验证 (ADAL) 对话的 Skype，Skype 业务服务器通过 ADFS (在 Windows Server 2012 R2 ADFS 3.0) 进行通信。 可能会使用其他一些身份提供程序 (IdP) 执行身份验证，但是需要将 Skype for Business 服务器配置为直接与 ADFS 进行通信。 如果尚未配置 ADFS 业务服务器处理 Skype 请完成[ADFS 安装](https://technet.microsoft.com/en-us/library/adfs2-step-by-step-guides%28v=ws.10%29.aspx)。
-  
-ADAL 中包含年 3 月 2016年业务服务器 2015年的 Skype 的累积更新和年 3 月 2016年安装累积更新的业务**必须**Skype 和所需的成功配置。
-  
-> [!NOTE]
-> 在初始版本中，只有当不涉及混合 Skype 拓扑时才支持本地环境中的新式验证。 例如，如果环境纯粹 Skype 业务服务器。 此陈述可能会发生更改。 
-  
-必须下载包含 ps1 文件与 ADAL 使用的命令的 PowerShell 程序包才能成功配置。
   
 ### <a name="configure-adal-in-your-pool-and-set-adfs-as-security-token-server"></a>在你的池中配置 ADAL 并将 ADFS 设置为安全令牌服务器
 <a name="BKMK_Config"> </a>
@@ -73,7 +47,7 @@ ADAL 中包含年 3 月 2016年业务服务器 2015年的 Skype 的累积更新�
     对于任何其他池，您将需要池 Web 服务 Url 手动添加到 Skype 的业务服务器信赖方信任 ADFS 中。
     
     > [!IMPORTANT]
-    > 不能对池同时使用被动身份验证和 ADAL。 必须禁用被动身份验证才能使用 ADAL。 有关如何为池设置身份验证的 PowerShell cmdlet，请参阅[这](https://technet.microsoft.com/en-us/library/gg398396.aspx)篇文章。
+    > 不能对池同时使用被动身份验证和 ADAL。 必须禁用被动身份验证才能使用 ADAL。 有关 PowerShell cmdlet 如何为池设置身份验证的信息，请参阅[这篇](https://technet.microsoft.com/en-us/library/gg398396.aspx)文章。
   
     > [!TIP]
     > 如果您有其他池需要将其作为[标识符](https://technet.microsoft.com/en-us/library/gg557759%28v=ws.10%29.aspx)添加到信赖方信任 ADFS。 > 转到您的 ADFS 服务器并打开 ADFS 管理。 展开信任关系\>信赖方信任。 右键单击信赖方信任列出和属性的右键单击\>标识符\>键入其他池 URL(s)\>单击添加。 
@@ -91,7 +65,7 @@ ADAL 中包含年 3 月 2016年业务服务器 2015年的 Skype 的累积更新�
     
      `Test-CsRegistration -UserSipAddress AyakaY@contosoIns.com -TargetFqdn Pool1.contoso.com -Authentication OAuthInteractive`
     
-7. 出现提示时，请务必输入测试用户的凭据。验证测试是否成功完成。
+7. 出现提示时，请务必输入测试用户的凭据。 验证测试是否成功完成。
     
     > [!NOTE]
     > 当您 STS 的 URL 将解析为 ADFS*内部*时，您将看到的提示将**Windows 安全**提示。 如果 URL 在外部解析，你将看到一个名为“**登录**”的提示。 通常，我们在这里需要“**Windows 安全**”提示。 请注意，此行为各不相同，特别是当你实施了基于表单的身份验证 (FBA) 时。

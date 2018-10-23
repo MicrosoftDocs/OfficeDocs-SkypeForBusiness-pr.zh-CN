@@ -3,10 +3,10 @@ title: 管理 Microsoft 团队商业云试用版
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 09/10/2018
+ms.date: 10/23/2018
 ms.topic: article
 audience: Admin
-ms.reviewer: alchen
+ms.reviewer: annikae
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
@@ -14,20 +14,17 @@ description: Office 365 用户未授权的 Microsoft 团队可以发起 1 年试
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6de25e5fe4bf844841c66f7bf797e0edb5f8844e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 891e87c69e6cd998a715ded901de15e6b7cd267e
+ms.sourcegitcommit: f9485c9b89d94da7aaed1fab94254c794b407164
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017910"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25697459"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft 团队商业云试用版
 =======================================================
 
-Microsoft 团队是为您的组织的绝佳协作工具。 它使人和团队讨论、 创新和共享想法使用 Office 365 的能力。 Microsoft 团队商业云试用版提供了您的组织中未授权的 Microsoft 团队启动 1 年试用版的产品的现有 Office 365 用户。 管理员能够打开或关闭此功能可供其租户中的用户。
-
-> [!NOTE]
-> 此版尚未可公开访问，但将推出下一个月。
+Microsoft 团队是为您的组织的绝佳协作工具。 它使人和团队讨论、 创新和共享想法使用 Office 365 的能力。 Microsoft 团队商业云试用版提供了您的组织中未授权的 Microsoft 团队启动 1 年试用版的产品的现有 Office 365 用户。 管理员能够打开或关闭此功能可供其组织内的用户。
 
 ## <a name="whats-in-the-offer"></a>什么是在优惠中
 
@@ -43,20 +40,20 @@ Microsoft 团队是为您的组织的绝佳协作工具。 它使人和团队讨
 - Sway
 - Yammer Enterprise
 
-提供可分配给每个租户的 500000 用户的最大值。 试用许可证将为每个试用的用户分配 2 GB 的 SharePoint Online 的存储空间。
+提供可分配给每个组织的 500000 用户的最大值。 试用许可证将为每个试用的用户分配 2 GB 的 SharePoint Online 的存储空间。
 
 ## <a name="who-is-eligible"></a>谁有资格参与
 
 没有包括团队的 Office 365 许可证的用户可以启动 Microsoft 团队商业云试用版。 例如，如果用户具有 Office 365 企业高级版 （其中包括团队），并且禁用团队服务计划，它们不适合试用版。
 
-此外，您的租户不符合试用 if 条件： 
+此外，您的组织不符合试用 if 条件： 
 - 您是联合合作伙伴客户
 - 您是经销商合作伙伴客户
 - 您是 GCC、 GOV 或 EDU 客户
 
-此外，如果您的租户的 Microsoft 团队商业云试用版不符合要求，您将不会看到**让用户安装试用版应用程序和服务**的开关。
+此外，如果您的组织的 Microsoft 团队商业云试用版不符合要求，您将不会看到**让用户安装试用版应用程序和服务**的开关。
 
-在租户级别，作为服务团队需要启用 （在工作组管理中心）。 有关详细信息，请参阅[Office 365 组织中的管理 Microsoft 团队 features](enable-features-office-365.md)。 此外，用户必须启用以注册应用程序和试用 （英文） (Office 365 管理中心中）。 有关详细信息，请参阅本文后面的[管理试用版](#manage-the-trial)。
+组织级别作为服务团队需要启用 （在工作组管理中心）。 有关详细信息，请参阅[Office 365 组织中的管理 Microsoft 团队 features](enable-features-office-365.md)。 此外，用户必须启用以注册应用程序和试用 （英文） (Office 365 管理中心中）。 有关详细信息，请参阅本文后面的[管理试用版](#manage-the-trial)。
 
 ## <a name="how-users-sign-up-for-the-trial"></a>如何用户注册试用版
 
@@ -72,7 +69,7 @@ Microsoft 团队是为您的组织的绝佳协作工具。 它使人和团队讨
 
 ## <a name="manage-the-trial"></a>管理试用版
 
-管理员可以禁用最终用户能够试用版应用程序和服务在其租户中的声明的功能。 目前，团队试用版是仅试用在此类别中，但这可能将来适用于其他类似的程序。 
+管理员可以禁用让最终用户声明试用版应用程序和服务其组织内的功能。 目前，团队试用版是仅试用在此类别中，但这可能将来适用于其他类似的程序。 
 
 驱动器。 从[Office 365 管理中心](https://portal.office.com/adminportal/home)，转到**服务和外接程序** > **用户拥有的应用程序和服务**。
 
@@ -82,7 +79,7 @@ Microsoft 团队是为您的组织的绝佳协作工具。 它使人和团队讨
 
 ![用户的屏幕截图拥有 Office 365 管理中心中的应用程序和服务页。](media/iw-trial-enable-2.png)
 
-3\。 您可以关闭团队的租户，转到团队管理门户。 时禁用此功能，用户不能声明试用团队提供。
+3\。 您可以关闭团队为您的组织，转到团队管理门户。 时禁用此功能，用户不能声明试用团队提供。
 
 4\。 如果已禁用团队服务计划针对个别用户拥有合格的许可证，则该用户不适合声明使用试用许可证。
 

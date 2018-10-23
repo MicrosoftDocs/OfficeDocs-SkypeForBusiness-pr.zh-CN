@@ -1,5 +1,5 @@
 ---
-title: 关闭旧身份验证方法内部和外部到网络
+title: 关闭旧身份验证方法内部和外部到您的网络规划
 ms.author: tracyp
 author: MSFTTracyP
 manager: serdars
@@ -11,14 +11,14 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: 为管理员提供的身份验证方法的更多控制此文章轮廓 cmdlet 使用的企业内部和外部、。 管理员可以打开身份验证方法或关闭到他们的网络的内部或外部。
-ms.openlocfilehash: f1af26c5cad98ee3416fa1bdd91d6fc8326eaf53
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 51dfaf9dc4c65afdd615cf29632c21d4cba08f65
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371801"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692752"
 ---
-# <a name="turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>关闭旧身份验证方法内部和外部到网络。
+# <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>关闭旧身份验证方法内部和外部到您的网络规划。
 
 > [!NOTE]
 > 如果您要阅读这篇文章，您应知道有关受支持的现代身份验证拓扑，ADAL，且现代的身份验证配置有关但，以防不，此处开始所需的文章： 
