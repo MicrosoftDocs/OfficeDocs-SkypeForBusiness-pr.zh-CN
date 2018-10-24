@@ -15,10 +15,10 @@ MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 59e1723e388ef58c48650a916d73d2ac09b13d00
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.sourcegitcommit: 2e9761a3b195d31080bff3c9cc17a18adcd5350e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
+ms.lasthandoff: 10/24/2018
 ms.locfileid: "25012070"
 ---
 # <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype for Business 的 Microsoft 团队升级
