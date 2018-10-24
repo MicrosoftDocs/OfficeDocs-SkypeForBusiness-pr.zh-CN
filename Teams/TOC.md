@@ -182,6 +182,7 @@
 ### [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
 ### [在工作组中创建一个组织范围团队](create-an-org-wide-team.md)
 ### [动态团队的成员身份的概述](dynamic-memberships.md)
+## [状态](presence-admins.md)
 ## [来宾访问](guest-access.md)
 ### [来宾加入团队的方式](guest-joins.md)
 ### [来宾体验介绍](guest-experience.md)
@@ -211,7 +212,8 @@
 #### [什么是团队 live 事件？](teams-live-events/what-are-teams-live-events.md)
 #### [规划团队 live 事件](teams-live-events/plan-for-teams-live-events.md)
 #### [设置团队的实时事件](teams-live-events/set-up-for-teams-live-events.md)
-#### [配置团队 live 事件](teams-live-events/configure-teams-live-events.md)
+#### [使用 PowerShell 设置团队 live 事件策略](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+#### [配置团队 live 事件设置](teams-live-events/configure-teams-live-events.md)
 
 
 

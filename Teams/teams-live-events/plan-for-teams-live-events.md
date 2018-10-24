@@ -6,16 +6,18 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: 了解如何设置中的 Microsoft 团队的实时事件之前应考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ebee93a6a4e238e988e1e4ffcb796252d61eeb1
-ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
+ms.openlocfilehash: 0c0ee1ed41f1d906e43f119e6683f772bde32be3
+ms.sourcegitcommit: 2e9761a3b195d31080bff3c9cc17a18adcd5350e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405253"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25748162"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>规划中的 Microsoft 团队的实时事件
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -103,3 +105,9 @@ ms.locfileid: "25405253"
 
 ## <a name="next-steps"></a>后续步骤
 转到[团队 live 事件的设置](set-up-for-teams-live-events.md)。
+
+### <a name="related-topics"></a>相关主题
+- [什么是团队 live 事件？](what-are-teams-live-events.md)
+- [设置团队的实时事件](set-up-for-teams-live-events.md)
+- [配置 live 团队中的事件设置](configure-teams-live-events.md)
+
