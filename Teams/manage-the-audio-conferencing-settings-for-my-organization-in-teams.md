@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中管理组织的音频会议设置
+title: 管理组织中的 Microsoft 团队的音频会议设置
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解为用户分配电话拨入式会议许可证和会议 ID 的 Microsoft Teams 步骤以及许多其他电话拨入式会议设置。 '
-ms.openlocfilehash: b63650833c7c844de11ecb833288b6568604f919
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 327f9f9f9511e914d87b41f35f932df5aebd15c0
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375860"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784860"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理组织的音频会议设置
+# <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>管理组织中的 Microsoft 团队的音频会议设置
 
 你可以更轻松地在一个位置查看 Microsoft Teams 的所有音频会议设置。 
 

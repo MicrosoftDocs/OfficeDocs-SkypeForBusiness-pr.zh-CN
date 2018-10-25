@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 description: 本文讨论使用操作管理套件管理 Skype 会议室系统 v2 设备中您 Skype 业务服务器实现的规划注意事项。
-ms.openlocfilehash: 14f6ba95e5b2bcf7619002bb2dbc1e9ae3eb474a
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 64f1d91840a34ed9c9845e7fb0aae1e322fab68e
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965938"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784798"
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>使用 OMS 规划 Skype 会议室系统 v2 管理
  
@@ -38,13 +38,13 @@ ms.locfileid: "23965938"
   
 ## <a name="oms-requirements"></a>OMS 要求
 
-必须具有 OMS 的有效订阅才能使用此功能。 请参阅[开始使用日志分析工作区](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started?toc=%2fazure%2foperations-management-suite%2ftoc.json)创建您的组织订阅。
+必须具有 OMS 的有效订阅才能使用此功能。 请参阅 [Log Analytics 工作区入门](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started?toc=%2fazure%2foperations-management-suite%2ftoc.json)来为贵组织创建订阅。
   
-如有必要，应尽量使自己熟悉 OMS View Designer 的使用方法。 有关详细信息，请参阅[操作管理套件 (OMS) 管理解决方案中的视图](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-solutions-resources-views)。
+如有必要，应尽量使自己熟悉 OMS View Designer 的使用方法。 有关详细信息，请参阅 [Operations anagement Suite (OMS) 管理解决方案中的视图](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-solutions-resources-views)。
   
 ### <a name="related-tasks"></a>相关任务
 
-1. 订阅 OMS 后, 创建自定义字段 （如[映射自定义字段](../../deploy/deploy-clients/with-oms.md#Custom_fields)中所述） 所需分析将从 Skype 会议室系统 v2 控制台发送的信息。 这包括了解[了解日志条目](../../manage/skype-room-systems-v2/oms.md#Telemetry)中记录的 JSON 架构。
+1. 订阅 OMS 后, 创建自定义字段 （如[映射自定义字段](../../deploy/deploy-clients/with-oms.md#Custom_fields)中所述） 所需分析将从 Skype 会议室系统 v2 控制台发送的信息。 这包括了解[了解日志条目](../../manage/skype-room-systems-v2/oms.md#understand-the-log-entries)中记录的 JSON 架构。
     
 2. 开发中 OMS 的 Skype 会议室系统 v2 管理视图。 您可以[创建使用的导入方法 Skype 会议室系统 v2 仪表板](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-by-using-the-import-method)任一） 或[手动创建 Skype 会议室系统 v2 仪表板](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-manually)。
     
@@ -54,11 +54,11 @@ ms.locfileid: "23965938"
   
 ## <a name="ongoing-management"></a>正在进行的管理
 
-同时使用 OMS 管理 Skype 会议室系统 v2 会议设备，您需要了解由 OMS 的事件日志中包含的信息。 有关这些运行状况消息的详细信息，请参阅[了解日志条目](../../manage/skype-room-systems-v2/oms.md#Telemetry)。
+同时使用 OMS 管理 Skype 会议室系统 v2 会议设备，您需要了解由 OMS 的事件日志中包含的信息。 有关这些运行状况消息的详细信息，请参阅[了解日志条目](../../manage/skype-room-systems-v2/oms.md#understand-the-log-entries)。
   
 ### <a name="related-tasks"></a>相关任务
 
-- 了解通知生成 Skype 会议室系统 v2 以及如何解决这些问题 （请参阅名为[了解日志条目](../../manage/skype-room-systems-v2/oms.md#Telemetry)的部分）
+- 了解通知生成 Skype 会议室系统 v2 以及如何解决这些问题 （请参阅名为[了解日志条目](../../manage/skype-room-systems-v2/oms.md#understand-the-log-entries)的部分）
     
 ## <a name="see-also"></a>另请参阅
 

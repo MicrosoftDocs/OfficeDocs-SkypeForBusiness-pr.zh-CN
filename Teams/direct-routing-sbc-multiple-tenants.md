@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 了解如何配置一个会话边界控制器 (SBC) 提供多个租户。
-ms.openlocfilehash: 292a3e675455d112fdade04018e670b9a5f9c38f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7b085661e659e7836c5e463b24c9cc0a6f071aaa
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013422"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784813"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -115,7 +115,7 @@ SBC 需要证书进行身份验证连接。 运营商需要使用 SAN 中请求�
 
     ![添加基域名](media/direct-routing-2-sbc-add-domain.png)
 
-3. 单击“**下一步**”。
+3. 单击" **下一步**"。
 4. 在此示例中，租户已经有 adatum.biz 与已验证的域的名称。 因为 customers.adatum.biz 是已注册名称子域，向导将不要求的其他验证。 但是，如果您添加 FQDN 的尚未验证之前，您需要经过验证的过程。 验证的过程是[如下所述](#add-a-subdomain-to-the-customer-tenant-and-verify-it)。
 
     ![已域名进行确认](media/direct-routing-3-sbc-verify-domain.png)
@@ -127,7 +127,7 @@ SBC 需要证书进行身份验证连接。 运营商需要使用 SAN 中请求�
 
 ### <a name="activate-the-domain-name"></a>激活的域名
 
-注册域名后，您需要激活通过添加至少一个用户和分配匹配创建的基域名的 SIP 地址的 FQDN 部分的 SIP 地址。
+已注册的域名，您需要激活通过添加至少一个 E1，E3 或 E5 许可后用户和分配与 SIP 的 FQDN 部分的 SIP 地址的地址匹配创建的基域名。 
 
 *请查看有关将用户添加 Office 365 租户中[获取帮助与 Office 365 域](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
 
@@ -155,7 +155,7 @@ SBC 需要证书进行身份验证连接。 运营商需要使用 SAN 中请求�
 
     ![添加客户子域](media/direct-routing-5-sbc-add-customer-domain.png)
 
-3. 单击“**下一步**”。
+3. 单击" **下一步**"。
 4. 从不已在租户中注册的 FQDN。 下一步，您需要验证域。 选择**添加 TXT 记录改为**。 
 
     ![在验证域页上的选项](media/direct-routing-6-sbc-verify-customer-domain.png)

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: 本文汇总了支持 Skype 会议室系统 v2 的要求。
-ms.openlocfilehash: fcf108de8ac6d344061b4c95dcbe7438dc034d3b
-ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
+ms.openlocfilehash: 469a13822bb319eab1b78a418b7c2eddd182666b
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25495611"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784875"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype 会议室系统 v2 要求
 
@@ -26,6 +26,9 @@ ms.locfileid: "25495611"
 
 > [!NOTE]
 > Skype 会议室系统 v2 旨在用于业务服务器 2019年的 Skype、 Skype for Business Server 2015、 Microsoft 团队或 Skype 业务 online。 <br><br>不应使用 Skype 会议室系统 v2 早期平台，如 Lync Server 2013。 
+
+> [!NOTE]
+> 如果使用 prem 上 Exchange 服务器，则 Skype 会议室系统 v2 需要使用 Exchange Server 2013 SP1 或更高版本。
 
 ## <a name="hardware-requirements"></a>硬件要求
 
@@ -71,14 +74,14 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |音频-1.0.172  <br/> 视频-1.0.156  <br/> |
-|[Logitech ConferenceCam 连接](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
-|[Logitech 组](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
+|[Logitech ConferenceCam Connect](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
+|[Logitech Group](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
 |[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam) <br/> | 8.0.914 <br/> |
-|[Logitech PTZ 专业人员](http://www.logitech.com/en-us/product/conferencecam-ptz-pro) <br/> | 1.1.219 <br/> |
+|[Logitech PTZ Pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro) <br/> | 1.1.219 <br/> |
 |[Logitech PTZ 专业人员 2](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2) <br/> |
-|[Polycom RealPresence 三个](http://www.polycom.com/voice-conferencing-solutions/conference-phones/realpresence-trio.mdl) <br/> |5.4.4.7511  <br/> |
+|[Polycom RealPresence Trio](http://www.polycom.com/voice-conferencing-solutions/conference-phones/realpresence-trio.mdl) <br/> |5.4.4.7511  <br/> |
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0  <br/> |
-|[Polycom CX5100 ](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0.70232 <br/> |
+|[Polycom CX5100](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0.70232 <br/> |
 |[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
 |[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15  <br/> |
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |
@@ -110,9 +113,9 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
 
 |**会议室类型**|**人数**|**麦克风与发言人员之间的建议最大距离**|**设备（按最大会议室大小）**|**注释**|
 |:-----|:-----|:-----|:-----|:-----|
-|**焦距** <br/> 10 个 x 9"  <br/> |2-4  <br/> |1.5 m  <br/> |Logitech Connect  <br/> |Logitech 连接设备包括了摄像机，因此它必须定位在前面的聊天室 （不表的中心） 捕获本地与会者。  <br/> |
-|**小** <br/> 16 x 16"  <br/> |4-6  <br/> |2.0 m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |对于较大的会议室，播放音量可能会受到限制。  <br/> |
-|**中** <br/> 18 x 20"  <br/> |6-12  <br/> |2.4 m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC 毫秒  <br/> |Logitech MeetUp 包含了摄像机，因此它必须定位在前面的聊天室 （不中心要捕获本地与会者表）。  <br/> 一般来说，与长矩形或 u 形表聊天室可以受益于其他附属麦克风。  <br/> 菊花链配置中必须使用 SP 220 MS。  <br/> |
+|**焦距** <br/> 10 个 x 9"  <br/> |2-4  <br/> |1.5m   <br/> |Logitech Connect  <br/> |Logitech 连接设备包括了摄像机，因此它必须定位在前面的聊天室 （不表的中心） 捕获本地与会者。  <br/> |
+|**小** <br/> 16 x 16"  <br/> |4-6  <br/> |2.0m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |对于较大的会议室，播放音量可能会受到限制。  <br/> |
+|**中** <br/> 18 x 20"  <br/> |6-12  <br/> |2.4m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC 毫秒  <br/> |Logitech MeetUp 包含了摄像机，因此它必须定位在前面的聊天室 （不中心要捕获本地与会者表）。  <br/> 一般来说，与长矩形或 u 形表聊天室可以受益于其他附属麦克风。  <br/> 菊花链配置中必须使用 SP 220 MS。  <br/> |
 |**大** <br/> 15' x 32"  <br/> |12 16  <br/> |3m  <br/> 此距离也适用于连接到正在使用的音频设备的每个其他卫星麦克风覆盖的区域。  <br/> |Logitech 组 + 附属话筒  <br/> Polycom 三个 + 附属话筒  <br/> Polycom CX5100 + 附属话筒  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC 1000MS + 附属话筒  <br/> |此行列出的所有音频设备都支持卫星麦克风选项。  <br/> CX5100 包括内置的 360 度摄像头，因此该设备可以放置在桌子中心。  <br/> 菊花链配置中必须使用 SP 220 MS。  <br/> |
 
 **Skype 会议室系统 v2 认证视频外围设备**
@@ -120,9 +123,9 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
 |会议室类型|人数|按最佳会议室大小的设备|备注|
 |:-----|:-----|:-----|:-----|
 |**焦距** <br/> 10 个 x 9"  <br/> |2-4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100   <br/> ||
-|**小** <br/> 16 x 16"  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ 专业人员  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Logitech PTZ 专业人员通常与 Logitech 组捆绑在一起  <br/> |
-|**中** <br/> 18 x 20"  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ 专业人员  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
-|**大** <br/> 15' x 32"  <br/> |12 16  <br/> |Logitech PTZ 专业人员  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
+|**小** <br/> 16 x 16"  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Logitech PTZ 专业人员通常与 Logitech 组捆绑在一起  <br/> |
+|**中** <br/> 18 x 20"  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
+|**大** <br/> 15' x 32"  <br/> |12 16  <br/> |Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
 
  > [!NOTE]
  > 前面的聊天室显示解决方案应设置为不超过 1920x1080p。
@@ -139,7 +142,7 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
 
 ## <a name="see-also"></a>另请参阅
 
-[规划 Skype 会议室系统 v2](skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
 
 [部署 Skype 会议室系统 v2](../../deploy/deploy-clients/room-systems-v2.md)
 

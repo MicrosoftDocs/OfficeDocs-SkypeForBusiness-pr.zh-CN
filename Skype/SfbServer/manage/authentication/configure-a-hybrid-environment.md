@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 摘要： 配置服务器到服务器身份验证的 Skype Business Server 混合环境。
-ms.openlocfilehash: 02412c152e017da95c82ff6f8ad6f08db1a105ef
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2d4589d2d194cd885329dd701f69af7b8896f8f3
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375948"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784882"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>配置服务器到服务器身份验证的 Skype Business Server 混合环境。
 
@@ -69,19 +69,19 @@ Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 $TenantID = (Get-CsTenant -DisplayName "Fabrikam.com").TenantId
 ```
 
-脚本完成后，您必须然后配置 Skype 业务服务器和授权服务器之间的信任关系和 Exchange 2013 和授权服务器之间的第二个信任关系。 这只能使用 Microsoft Online Services cmdlet 来完成。
+若要执行此脚本，您必须已安装 Skype 的业务 Online Powershell 模块并连接到您的租户与此模块。 如果您未安装这些 cmdlet，您的脚本将失败，因为 Get-CsTenant cmdlet 不可用。 脚本完成后，您必须然后配置 Skype 业务服务器和授权服务器之间的信任关系和 Exchange 2013/2016年和授权服务器之间的第二个信任关系。 这只能使用 Microsoft Online Services cmdlet 来完成。
 
 > [!NOTE]
-> 如果你尚未安装 Microsoft Online Services cmdlet，则你需要先完成两项操作，然后再继续。 首先，下载并安装 64 位版本的 Microsoft Online Services 登录助手。 安装完成后，下载并安装 Microsoft Online Services 模块用于 Windows PowerShell 的 64 位版本。 Office 365 网站上可找到的安装和使用 Microsoft Online Services 模块的详细的信息。 这些说明将还告诉您如何配置单一登录、 联盟和 Office 365 和 Active Directory 之间的同步。 
+> 如果您尚未安装的 Microsoft Online Services cmdlet，您需要从 powershell cmdlet 的存储库安装安装模块 MSOnline。 Office 365 网站上可找到的安装和使用 Microsoft Online Services 模块的详细的信息。 这些说明将还告诉您如何配置单一登录、 联盟和 Office 365 和 Active Directory 之间的同步。 
 
-如果您未安装这些 cmdlet，您的脚本将失败，因为 Get-CsTenant cmdlet 不可用。
+
 
 配置 Office 365 后和业务服务器和 Exchange 2013，都在服务主体的 Skype 创建 Office 365 后，您将需要使用这些服务主体注册您的凭据。 为此，您必须先获取另存为 .CER 文件的 X.509 Base64。 然后，此证书都将应用于 Office 365 服务主体。
 
-当获取 X.509 证书时，启动 Microsoft Online Services 模块 （单击**开始**，单击**所有程序**，都单击**Microsoft Online Services**，然后都单击**Microsoft Online Services 模块 for WindowsPowerShell**)。 服务模块打开后，键入以下内容以导入 Microsoft Online Windows PowerShell 模块包含可用于管理的服务主体的 cmdlet:
+当获取 X.509 证书时，打开 Powershell 控制台，并导入 Microsoft Online Windows PowerShell 模块包含可用于管理的服务主体的 cmdlet:
 
 ```
-Import-Module MSOnlineExtended
+Import-Module MSOnline
 ```
 
 导入该模块后，键入以下命令并按 ENTER 以连接到 Office 365:
