@@ -348,7 +348,7 @@
 #### [启用或禁用更改音频会议设置时发送电子邮件](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [使用户能够在加入会议时录制其姓名](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 #### [管理用户的音频会议设置](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-#### [管理我的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+#### [管理您的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 #### [音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [音频会议和用户 PSTN 通话的出站通话限制策略](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [重置用户的会议 ID](reset-a-conference-id-for-a-user-in-teams.md)
