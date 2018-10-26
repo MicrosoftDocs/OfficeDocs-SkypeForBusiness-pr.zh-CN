@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bd95dc0d928a049adad06b43b9f6cacaf2c65d1
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: e335210a3d7b209984cee5319dd1e7e3b1bd24e4
+ms.sourcegitcommit: 0c360c68d7841e85b89e3d92baff80c42d685e81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25692636"
+ms.lasthandoff: 10/26/2018
+ms.locfileid: "25797316"
 ---
 <a name="teams-guest-access-checklist"></a>团队来宾访问清单
 ==========================================
@@ -61,7 +61,7 @@ ms.locfileid: "25692636"
 
       ![屏幕快照显示了 AAD 设置切换的示例。 ](media/guest-access-checklist-AADSettings1.png)
 
-    至少支持来宾**成员可以邀请**必须设置为**是**。 
+    若要支持来宾，**可以邀请成员**必须设置为**是**。 
    
 > [!NOTE] 
 > 如果设置为**否**的**成员可以邀请**，然后启用来宾访问 Office 365 组和 Microsoft 团队中的，管理员可以控制来宾邀请到您的目录。 来宾目录中后，他们可以通过属于团队所有者非管理员成员添加到团队。

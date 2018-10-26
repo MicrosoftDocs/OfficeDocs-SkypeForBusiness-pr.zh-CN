@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 直接路由中使用与所选的 SBC 供应商，以确认其 SBCs 的 Microsoft 合作伙伴。
-ms.openlocfilehash: 45a562b83c6e89a1006bc1fd6e2180ff49daf1ad
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: 7e3b0b5551b974e6beb74232a23ffdbe31d0ad91
+ms.sourcegitcommit: 0c360c68d7841e85b89e3d92baff80c42d685e81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678447"
+ms.lasthandoff: 10/26/2018
+ms.locfileid: "25797340"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -59,5 +59,6 @@ Microsoft 与选定会话边界控制器 (SBC) 供应商认证的合作伙伴与
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   待定    |      V7.0.2      |
 |                                                                                                                     |    SBC SWe 精简版     |     &#10004;     |   待定    |      V7.0.4      |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   待定    |       V1.4       |
-|                                                                                                                     |                     |                  |              |                  |
-
+|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |   待定    |   NA   |   待定    |
+|                                                                                                                     |      AP 4600         |    待定    |   待定    |      待定      |
+|                                                                                                                     |      VME             |    待定    |   待定    |      待定      |
