@@ -13,12 +13,12 @@ search.appverid: MET150
 description: 培训视频、 教程和其他资源来了解和使用团队组织中的用户。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed20efec166c1c9599e1983b2626a826568cb523
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: 70df8c02afb0a1e709344cd936bd4f1c1319c311
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436669"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838880"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams 的最终用户培训
 
@@ -32,7 +32,7 @@ ms.locfileid: "25436669"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-blue.svg" alt="megaphone" />
+                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="megaphone" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -51,7 +51,7 @@ ms.locfileid: "25436669"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -68,7 +68,7 @@ ms.locfileid: "25436669"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Help" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,7 +86,7 @@ ms.locfileid: "25436669"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-blue.svg" alt="education tutorial" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg" alt="education tutorial" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -104,7 +104,7 @@ ms.locfileid: "25436669"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/video-play.svg" alt="video play" />
+                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
                         </div>
                     </div>
                     <div class="cardText">
