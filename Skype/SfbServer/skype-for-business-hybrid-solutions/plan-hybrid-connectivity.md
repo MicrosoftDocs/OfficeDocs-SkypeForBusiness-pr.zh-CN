@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 摘要：阅读本主题可了解如何规划 Skype for Business Server 与 Skype for Business Online 之间的混合连接。 设置混合连接是部署多种 Skype for Business 混合解决方案的第一步。
-ms.openlocfilehash: d3fe994535197209a8d35c10144e45badb4391a8
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 909d8be38bd03291268c7fa3b2b091072a47970e
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890473"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838807"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>规划 Skype for Business Server 与 Skype for Business Online 之间的混合连接
 
@@ -32,7 +32,7 @@ ms.locfileid: "23890473"
 
 本主题包括以下部分：
 
-- [概述](plan-hybrid-connectivity.md#BKMK_Overview)
+- [Overview](plan-hybrid-connectivity.md#BKMK_Overview)
 
 - [基础结构要求](plan-hybrid-connectivity.md#BKMK_Infrastructure)
 
@@ -60,7 +60,7 @@ ms.locfileid: "23890473"
 
 - [用户策略和功能](plan-hybrid-connectivity.md#BKMK_UserPolicies)
 
-之后，您已阅读本主题和准备部署，请参阅[Deploy Skype 业务服务器和 Skype 业务 online 之间的混合连接性](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)。 部署主题提供了设置本地部署与 Skype for Business Online 之间的混合连接的分步指导。
+阅读本主题并准备好部署之后，请参阅[Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)。 部署主题提供了设置本地部署与 Skype for Business Online 之间的混合连接的分步指导。
 
 （有关配置 Lync Server 2013 或 Lync Server 2010 混合部署的信息，请参阅[Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360)。）
 
@@ -89,7 +89,7 @@ ms.locfileid: "23890473"
 
 - 如果你的用户在 Skype for Business Online 中托管，则其帐户同步到 Azure AD 之后，你将需要为其分配 Skype for Business Online 套餐 2 许可证。
 
-- 为 Skype for Business Online 用户分配许可证后，你需要为 Skype for Business 或本地 Enterprise Voice 启用这些用户。 有关详细信息，请参阅[启用本地的企业语音的用户](plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)。 有关混合语音要求的详细信息，请参阅[规划与业务服务器 Skype 中的内部部署 PSTN 连接的 Office 365 中的电话系统](plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)。
+- 为 Skype for Business Online 用户分配许可证后，你需要为 Skype for Business 或本地 Enterprise Voice 启用这些用户。 有关详细信息，请参阅[启用本地的企业语音的用户](plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)。 有关混合语音要求的详细信息，请参阅[Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)。
 
 在下面的部分，你将了解有关 Active Directory 配置的更多信息。 但首先是下图以及众多混合连接主题中使用的术语和缩略词概述：
 
@@ -138,13 +138,13 @@ ms.locfileid: "23890473"
 
 - Skype 业务服务器 2015年管理工具。 （如果您使用 Lync Server 2013 或 Lync Server 2010，可以使用 Lync Server 2013 管理工具。 有关详细信息，请参阅[Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360)。）
 
-- Azure Active Directory Connect 用于将你的本地目录与 Office 365 同步。 有关详细信息，请参阅[与 Azure Active Directory 连接 Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
+- Azure Active Directory Connect 用于将你的本地目录与 Office 365 同步。 有关详细信息，请参阅 [将 Active Directory 与 Azure Active Directory 连接](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
 
-    若要支持 Office 365 的单一登录，使用户能使用在本地所用的同一登录凭据，可以使用 Azure Active Directory (AAD) Connect 的密码同步功能。 还可以使用 Active Directory 联合身份验证服务 (AD FS) 来进行 Office 365 单一登录。
+    若要支持 Office 365 的单一登录，使用户能使用在本地所用的同一登录凭据，可以使用 Azure Active Directory (AAD) Connect 的密码同步功能。 还可以使用 Active Directory 联合身份验证服务 (AD FS) 来进行 Office 365 单一登录。 
 
-- 已在你的本地 Skype for Business 部署与 Office 365 租户之间启用联盟。 联合身份验证允许在本地部署与 Office 365 组织中的用户进行通信中的用户。 有关详细信息，请参阅[与业务 online Skype 配置联盟](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)。
+- 已在你的本地 Skype for Business 部署与 Office 365 租户之间启用联盟。 联合身份验证允许在本地部署与 Office 365 组织中的用户进行通信中的用户。 有关详细信息，请参阅[Configure federation with Skype for Business Online](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)。
 
-- 已启用共享会话初始协议 (SIP) 地址空间。 SIP 地址是网络上每个用户的唯一标识符，类似于电话号码或电子邮件地址。 您尝试移动用户从内部部署到 Skype 业务 online 之前，您需要配置 Office 365 租户共享您的本地部署的共享会话初始协议 (SIP) 地址空间。 有关详细信息，请参阅[与业务 online Skype 配置联盟](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)。
+- 已启用共享会话初始协议 (SIP) 地址空间。 SIP 地址是网络上每个用户的唯一标识符，类似于电话号码或电子邮件地址。 您尝试移动用户从内部部署到 Skype 业务 online 之前，您需要配置 Office 365 租户共享您的本地部署的共享会话初始协议 (SIP) 地址空间。 有关详细信息，请参阅[Configure federation with Skype for Business Online](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)。
 
 ## <a name="multi-forest-support"></a>多林支持
 <a name="BKMK_MultiForest"> </a>
@@ -170,7 +170,7 @@ ms.locfileid: "23890473"
 
   - 服务器端对话历史记录，存档、 统一联系人存储库、 HighRes 照片要求具有 Exchange 2013 或更高版本，并且必须启用 OAuth 服务器到服务器通信。 有关详细信息，请参阅[管理服务器到服务器身份验证 (OAuth) 和合作伙伴应用程序中的业务服务器 2015 Skype](https://technet.microsoft.com/en-us/library/jj204817.aspx)。
 
-有关与 Exchange Server 的共存的详细信息，包括支持条件和限制各种组合中的内部部署和联机状态，请参阅[计划集成 Skype 商业和 Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)中的[支持的功能](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)。
+有关与 Exchange Server 共存的详细信息（包括在各种本地和联机组合中的支持条件和限制），请参阅[Plan to integrate Skype for Business and Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)中的[功能支持](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)。
 
 ## <a name="administrator-credentials"></a>管理员凭据
 <a name="BKMK_Credentials"> </a>
@@ -292,7 +292,7 @@ ms.locfileid: "23890473"
 
 根据您的 Microsoft Online Services 数据中心的位置，您还必须配置网络防火墙设备以接受连接基于通配符域名 (例如，来自所有通讯\*。 outlook.com)。 如果贵组织的防火墙不支持通配符名称配置，您将需要手动确定您希望允许的 IP 地址范围和指定的端口。
 
-有关详细信息，请参阅[Office 365 Url 和 IP 地址范围](https://go.microsoft.com/fwlink/p/?LinkId=252942)。
+有关详细信息，请参阅 [Office 365 URL 和 IP 地址范围](https://go.microsoft.com/fwlink/p/?LinkId=252942)。
 
 ## <a name="port-and-protocol-requirements"></a>端口和协议要求
 <a name="BKMK_Ports"> </a>
@@ -309,7 +309,7 @@ ms.locfileid: "23890473"
 |STUN  <br/> |UDP  <br/> |A/V 边缘  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |为音频、视频会话打开  <br/> |
 |STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V 边缘  <br/> |3478  <br/> |3478  <br/> |为音频、视频会话打开  <br/> |
 
-有关端口和防火墙的边缘服务器规划的详细信息，请参阅[中的业务服务器 2015 Skype 的边缘服务器环境要求](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)。 请参阅[服务器的端口和协议要求](../plan-your-deployment/network-requirements/ports-and-protocols.md)和[协议工作负荷图表](https://go.microsoft.com/fwlink/p/?LinkId=550989)。
+有关端口和防火墙的边缘服务器规划的详细信息，请参阅[中的业务服务器 2015 Skype 的边缘服务器环境要求](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)。 另请参阅[Port and protocol requirements for servers](../plan-your-deployment/network-requirements/ports-and-protocols.md)和[协议工作负荷图](https://go.microsoft.com/fwlink/p/?LinkId=550989)。
 
 ## <a name="user-accounts-and-data"></a>用户帐户和数据
 <a name="BKMK_UserAccounts"> </a>
@@ -319,7 +319,7 @@ ms.locfileid: "23890473"
 在同步您的本地部署和使用 AAD 连接的 online 租户之间的用户帐户时，您需要同步的 AD 帐户为在组织中的业务或 Lync 用户的所有 Skype 即使用户未联机移动到。 如果未同步所有用户，则组织中本地和联机用户之间的通信可能无法按预期工作。
 
 > [!IMPORTANT]
-> 所有用户管理，包括用户的本地和 Skype 之间移动业务 online，都必须使用最新的安装管理工具版本。 必须具有对现有的内部部署和 Internet 连接访问的单独服务器上安装管理工具。 此 cmdlet 将用户从您的本地部署迁移到 Skype 业务 online， [Move-csuser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser?view=skype-ps)，必须从管理工具连接到内部部署运行。 有关移动用户的详细信息，请参阅[移动用户从本地到业务 online Skype](deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online.md)。
+> 所有用户管理，包括用户的本地和 Skype 之间移动业务 online，都必须使用最新的安装管理工具版本。 必须具有对现有的内部部署和 Internet 连接访问的单独服务器上安装管理工具。 此 cmdlet 将用户从您的本地部署迁移到 Skype 业务 online， [Move-csuser](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps)，必须从管理工具连接到内部部署运行。 有关移动用户的详细信息，请参阅[移动用户从本地到业务 online Skype](deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online.md)。
 
 > [!IMPORTANT]
 > 如果用户是使用 Office 365 的联机门户创建的，则该用户帐户将不会与本地 Active Directory 同步，并且该用户将不会存在于本地 Active Directory 中。 如果你已在联机租户中创建用户，并且希望配置与本地部署的混合，请参阅“将用户从联机移动到本地”。

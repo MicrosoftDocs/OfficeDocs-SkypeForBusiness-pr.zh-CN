@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: 阅读本主题，了解如何在 Office 365 中设置 Skype 会议室系统帐户。
-ms.openlocfilehash: 74512be2d097ca5f43fbd6a22ff17bba8040dd36
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: a1b24e25236f221d280631efd83c0e83b7ae44f2
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699607"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839231"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>在 Office 365 中设置 Skype 会议室系统帐户
  
@@ -99,7 +99,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 和之后资源会议室邮箱帐户已创建并启用前面所示的 Skype 的业务 Online 帐户将同步从 Exchange Online 林中到 Skype 的业务联机林使用，您具有许可帐户Windows Azure Active Directory 林。 以下步骤所需设置中为业务联机池 Skype 的 Skype 会议室系统帐户。 这些步骤是相同的现有资源邮箱帐户或新创建的帐户 （confrm1 或 confrm2），因为后启用它们在 Exchange Online，这两个这些帐户将同步到 Skype 业务 online 相同的方式：
   
-1. 创建远程 PowerShell 会话。 请注意，您将需要下载 Skype 业务 Online 连接器模块和 Microsoft Online Services 登录助手，并确保您的计算机配置。 有关详细信息，请参阅[Windows PowerShell 将计算机设置](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
+1. 创建远程 PowerShell 会话。 请注意，您将需要下载 Skype 业务 Online 连接器模块和 Microsoft Online Services 登录助手，并确保您的计算机配置。 有关详细信息，请参阅[Windows PowerShell 将计算机设置](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
     
    ```
    Import-Module LyncOnlineConnector

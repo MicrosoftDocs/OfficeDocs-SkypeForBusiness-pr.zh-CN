@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 摘要：支持的 Skype for Business 客户端和应用概述
-ms.openlocfilehash: 63981e9fbdc19eeeebc6b19b37f51f901a9493a2
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
-ms.translationtype: HT
+ms.openlocfilehash: 4e51c442ea50bf911eac4e83a700141cd999cdb9
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965718"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839154"
 ---
 # <a name="plan-for-clients-and-devices"></a>规划客户端和设备
 
@@ -84,7 +84,7 @@ Skype Room Systems v2 是 Microsoft 的最新会议解决方案，它使用用�
 
 ### <a name="skype-for-business-on-surface-hub"></a>Surface Hub 版 Skype for Business
 
-Microsoft Surface Hub 是一款一体化工作效率设备，适用于集思广益、协作和演示。 该设备有自己的新版 Skype for Business 客户端，[Microsoft Surface Hub 管理指南](https://docs.microsoft.com/en-us/surface-hub/)中进行了介绍。
+Microsoft Surface Hub 是一款一体化工作效率设备，适用于集思广益、协作和演示。 该设备有自己的新版 Skype for Business 客户端，[Microsoft Surface Hub 管理指南](https://docs.microsoft.com/surface-hub/)中进行了介绍。
 
 ## <a name="choosing-your-organizations-preferred-client"></a>选择贵组织的首选客户端
 <a name="BK_client_choose"> </a>

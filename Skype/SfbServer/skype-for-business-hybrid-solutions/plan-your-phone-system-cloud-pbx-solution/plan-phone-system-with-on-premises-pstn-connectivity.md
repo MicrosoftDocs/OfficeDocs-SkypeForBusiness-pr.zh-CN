@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 了解 Office 365 (云 PBX) 中的电话系统的规划注意事项的内部部署 PSTN 连接。
-ms.openlocfilehash: 4096dde95c4cee2871e968f4e6b91d60682e73d5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4614b3fdc62d8a51323ee7c9f261bec3d6cea6c3
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374138"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839449"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>规划 Office 365 中的电话系统与内部部署 PSTN 连接中 Skype 业务 Server
 
@@ -52,11 +52,11 @@ ms.locfileid: "25374138"
 如果在更新固件之前将用户从本地环境迁移到联机环境，用户将无法使用其电话进行连接。 要更正此问题，必须将用户移回到本地环境以将其电话固件更新为最低要求的固件。 请勿在将用户移回到本地环境之前尝试更新到最低要求的固件或对电话执行硬重置。
 如果在设备未安装最低要求的固件时执行了硬重置，设备将默认为使用 PIN 身份验证，而 Skype for Business Online 不支持这种验证方式。 有关详细信息，请参阅[业务 online Skype 的入门电话](https://support.office.com/en-us/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US)。
 
-通过部署 Office 365 中的电话系统与内部部署 PSTN 连接，可以移动用户到云通过 Skype 业务 online 在自己的速度，同时保留其内部部署 PSTN 连接。 如果您有 PBX，您可以继续使用它为迁移到云的用户提供 PSTN 连接。 一旦业务 Online 和 Office 365 中的电话系统的情况下，用户移至 Skype，其旧式 PBX 电话将不再起作用，但其电话号码将路由到任何 Skype 业务客户端电脑或智能手机以及 Skype 的符合业务的桌面电话s。 一旦移植，在 Office 365 用户和旧版 PBX 用户的电话系统可以调用每个其他通常以及使/接收使用其普通电话号码的 PSTN 呼叫。
+通过部署 Office 365 中的电话系统与内部部署 PSTN 连接，可以移动用户到云通过 Skype 业务 online 在自己的速度，同时保留其内部部署 PSTN 连接。 如果你有 PBX，则可以继续使用它为迁移到云的用户提供 PSTN 连接。 一旦业务 Online 和 Office 365 中的电话系统的情况下，用户移至 Skype，其旧式 PBX 电话将不再起作用，但其电话号码将路由到任何 Skype 业务客户端电脑或智能手机以及 Skype 的符合业务的桌面电话s。 一旦移植，在 Office 365 用户和旧版 PBX 用户的电话系统可以调用每个其他通常以及使/接收使用其普通电话号码的 PSTN 呼叫。
 
-您可以有自定义功能或主要传统 PBX 加载项。 如果不在 Office 365 中的电话系统上当前可用的自定义功能，您应将保留这些要求的自定义功能在本地与旧版 PBX 和只端口不需要访问到 Office 365 中的电话系统的自定义功能的用户的用户通过内部部署 PSTN 连接。
+你可以有自定义功能或主要传统 PBX 加载项，如呼叫中心。 如果不在 Office 365 中的电话系统上当前可用的自定义功能，您应将保留这些要求的自定义功能在本地与旧版 PBX 和只端口不需要访问到 Office 365 中的电话系统的自定义功能的用户的用户通过内部部署 PSTN 连接。
 
-直接与 Skype 的业务服务器 2015年旧 Pbx 的互操作的列表，请参阅[Microsoft lync 基础结构限定](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway)。 如果 PBX 不在此列表中，您可以使用会话边界控制器业务 online 与 Skype 中的 Office 365 中的电话系统连接 PBX。
+直接与 Skype 的业务服务器 2015年旧 Pbx 的互操作的列表，请参阅[Microsoft lync 基础结构限定](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway)。 如果 PBX 不在此列表中，您可以使用会话边界控制器业务 online 与 Skype 中的 Office 365 中的电话系统连接 PBX。
 
 ### <a name="network-considerations-for-quality-and-performance"></a>质量和性能相关的网络注意事项
 
@@ -75,13 +75,13 @@ ms.locfileid: "25374138"
 
 您可以配置电话系统 Office 365 中与内部部署 PSTN 连接和用户移动到 Skype 业务 online 之前，您必须确认您在具有以下先决条件：
 
- **在本地服务器版本。** 在本地部署中的服务器的版本必须支持在 Office 365 中的电话系统与内部部署 PSTN 连接下表中列出。
+ **本地服务器版本。** 在本地部署中的服务器的版本必须支持在 Office 365 中的电话系统与内部部署 PSTN 连接下表中列出。
 
 
 | **服务器角色**                                       | **受支持的版本\\**\*                                                                                         |
 |:------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
 | 联合身份验证边缘\*\*  <br/>                            | Skype for Business Server 2015  <br/>                                                                              |
-| 下一跳联盟路由内部池服务器  <br/> | Skype for Business Server 2015，2016 年 3 月累积更新 6.0.9319.235 或更高版本（前端或控制器）  <br/> |
+| 下一跳联盟路由内部池服务器  <br/> | Skype for Business Server 2015，2016 年 3 月累积更新 6.0.9319.235 或更高版本（前端或控制器）   <br/> |
 | 前端用户服务器  <br/>                          | Skype for Business Server 2015  <br/> Lync Server 2013  <br/>                                                      |
 | 边缘服务器  <br/>                                    | Skype for Business Server 2015  <br/>                                                                              |
 | 中介服务器  <br/>                               | Skype for Business Server 2015  <br/> Lync Server 2013  <br/>                                                      |
@@ -100,7 +100,7 @@ ms.locfileid: "25374138"
 
     如果您使用 Lync Server 2013，请参阅[Lync Server 2013 中的企业语音规划](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx)和[部署 Lync Server 2013 中的企业语音](https://technet.microsoft.com/EN-US/library/gg412876%28v=ocs.15%29.aspx)。
 
-- **Active Directory 同步**您必须配置 Active Directory 同步使用 Azure AD 连接。 有关详细信息，请参阅[管理 Azure AD 连接](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-whats-next/)。
+- **Active Directory 同步**您必须配置 Active Directory 同步使用 Azure AD 连接。 有关详细信息，请参阅[管理 Azure AD 连接](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/)。
 
     > [!NOTE]
     > 您所使用的 AAD Connect 版本必须是版本 1.0.9125.0 或更高版本。如果您使用较早版本的 AAD Connect 工具或 DirSync，请升级到支持的版本。您可以升级您的当前安装并维护您在环境中定义的任何自定义规则。 

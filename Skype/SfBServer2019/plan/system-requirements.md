@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 摘要： 准备您的 Skype 业务服务器 2019年服务器和域基础结构与本主题。 硬件、 操作系统、 数据库、 软件、 所有系统要求和建议，以及证书 DNS、 文件共享和 Active Directory 信息，在此处都要帮助确保成功安装和部署服务器场。
-ms.openlocfilehash: e8a5b29bb555df6ae3920d521dd21ca8bbe38d7f
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 39de1f756d5fdd278ea497d1273e474e030bb448
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784700"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838626"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>For Business Server 2019 Skype 的系统要求
  
@@ -347,7 +347,7 @@ Skype 的业务服务器 2019年并支持中央林拓扑中配置的多个林。
   
 在此方案中，一个资源林拓扑中有多个本地林。Active Directory 林之间为完全信任关系。Azure Active Directory Connect 工具用于在本地用户林和 Office 365 之间同步帐户。
   
- 组织还有 Office 365，并使用 [Azure Active Directory Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect) 将其本地帐户与 Office 365 同步。 为业务联机通过 Office 365 和 Skype 启用了用户启用了 for Business 的 Skype。 Skype 业务服务器不在本地部署。
+ 组织还有 Office 365，并使用 [Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) 将其本地帐户与 Office 365 同步。 为业务联机通过 Office 365 和 Skype 启用了用户启用了 for Business 的 Skype。 Skype 业务服务器不在本地部署。
   
 由位于用户林的 Active Directory 联合身份验证服务服务器场提供单一登录身份验证。
   

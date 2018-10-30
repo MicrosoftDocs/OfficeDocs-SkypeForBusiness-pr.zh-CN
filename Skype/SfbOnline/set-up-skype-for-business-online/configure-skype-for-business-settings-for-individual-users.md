@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: f99c99fc291a2df71a3e47448e3cc8fcf01e371f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: e686e42771b22d7c8d8b21ac05998bbbd5f9ad7e
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370912"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838948"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理员：为单个用户配置 Skype for Business 设置
 
@@ -63,11 +63,11 @@ ms.locfileid: "25370912"
     
 |**选项**|**详细信息**|
 |:-----|:-----|
-|音频和 HD 视频  <br/> |允许此人记录音频会议、音频和视频会议或不允许他们安排任何会议（无）。  <br/> |
+|音频和 HD 视频  <br/> |允许此录制音频会议的人员、 音频和视频会议，或不允许其安排任何会议 （无）。  <br/> |
 |录制对话和会议  <br/> |选择此人可以记录的内容。  <br/> 此选项不可用的业务基本 Skype。  <br/> |
-|为了符合规范，请禁用非存档功能  <br/> | 如果法律要求你以电子形式存储信息，请选择此选项。 <br/>  选择此选项会关闭后[就地保留](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx)在 Exchange 管理中心设置不会捕获的功能。 将关闭以下功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/> |
+|为了符合规范，请禁用非存档功能  <br/> | 如果法律要求你以电子形式存储信息，请选择此选项。 <br/>  选择此选项会关闭后[就地保留](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx)在 Exchange 管理中心中设置不会捕获的功能。 将关闭以下功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/> |
    
-要批量配置这些设置，请使用 PowerShell。请参阅[在 Skype for Business Online 中管理策略](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx) 。
+若要在批量中配置这些设置，使用 PowerShell。 请参阅[Skype 业务 online 中的管理策略](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx)。
   
 ## <a name="block-external-communications"></a>阻止外部通信
 <a name="__toc325019206"> </a>
@@ -84,7 +84,7 @@ ms.locfileid: "25370912"
     
 3. 单击" **保存**"。
     
-要批量配置这些设置，请使用 PowerShell。请参阅[在 Skype for Business Online 中管理与外部用户和组织的通信](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx) 。
+若要在批量中配置这些设置，使用 PowerShell。 请参阅[管理在与外部用户和组织业务 online Skype 的通信](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx)。
   
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>编辑一个用户的音频会议设置
 <a name="__toc314837483"> </a>

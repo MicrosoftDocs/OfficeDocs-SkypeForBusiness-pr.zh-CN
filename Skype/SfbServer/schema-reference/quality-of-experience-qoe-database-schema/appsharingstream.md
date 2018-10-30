@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: AppSharingStream 表包含用于应用程序共享的网络流的用户体验质量指标。 此表是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: e3b2f19810fbd9f68ebe848e78c032035fb49978
-ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
+ms.openlocfilehash: 3505467fd5e163fe2c26aca4b1ba13681c0d4ee6
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19881533"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839710"
 ---
 # <a name="appsharingstream-table"></a>AppSharingStream 表
  
@@ -25,11 +25,11 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |dateTime  <br/> |主、 外  <br/> |日期和时间的会话开始。  <br/> |
 |**SessionSeq** <br/> |int  <br/> |主、 外  <br/> |用于区分在相同日期和相同时间开始的会话的顺序标识符。  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |主、 外  <br/> | 请参阅[自 MediaLine Table](https://docs.microsoft.com/en-us/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0)。 <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |主、 外  <br/> | 请参阅[自 MediaLine Table](https://docs.microsoft.com/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0)。 <br/> |
 |**StreamID** <br/> |int  <br/> |Primary  <br/> |应用程序共享流的唯一标识符。  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> ||在 RTP 数据包到达之间检测到的平均抖动率。（抖动是针对呼叫的“不稳定性”的度量。）高抖动值通常是由拥塞或媒体服务器超载造成的，从而导致音频失真或丢失。  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> ||最大 RTP 数据包到达之间检测的抖动。 （抖动是一种呼叫"抖动"）。高抖动值通常由拥塞或重载的媒体服务器上，并导致音频失真或丢失。  <br/> |
-|**往返** <br/> |int  <br/> ||实时传输协议数据包来往于另一个终结点所需的平均时间量（以毫秒为单位）。来回行程的时间小于或等于 200 毫秒被视为质量可接受。  <br/> 高来回行程时间值可能是由国际呼叫路由、路由配置错误或媒体服务器超载造成的，从而导致双向实时音频对话存在问题。  <br/> |
+|**RoundTrip** <br/> |int  <br/> ||实时传输协议数据包来往于另一个终结点所需的平均时间量（以毫秒为单位）。来回行程的时间小于或等于 200 毫秒被视为质量可接受。  <br/> 高来回行程时间值可能是由国际呼叫路由、路由配置错误或媒体服务器超载造成的，从而导致双向实时音频对话存在问题。  <br/> |
 |**RoundTripMax** <br/> |int  <br/> ||最大量 （以毫秒计） 所需的实时传输协议数据包传输到另一个终结点，然后再返回。 来回行程的时间小于或等于 200 毫秒被视为质量可接受。  <br/> 高来回行程时间值可能是由国际呼叫路由、路由配置错误或媒体服务器超载造成的，从而导致双向实时音频对话存在问题。  <br/> |
 |**PacketLossRate** <br/> |float  <br/> ||平均实时传输协议 (RTP) 数据包丢失率。（当 RTP 数据包（一项用于在 Internet 中传输音频和视频的协议）无法到达其目标位置时，即发生数据包丢失。）高丢失率通常是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器超载造成的。数据包丢失通常导致音频失真或丢失。  <br/> |
 |**PacketLossRateMax** <br/> |float  <br/> ||实时传输协议 (RTP) 数据包丢失的最大速率。 （数据包丢失发生时未能达到其目标 RTP 数据包，用于通过 Internet 传输音频和视频的协议）。由拥塞; 通常导致高丢失率缺少的带宽;无线拥塞或干扰;或重载的媒体服务器。 数据包丢失通常导致音频失真或丢失。  <br/> |

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Plan for Business 服务器的 Skype 移动的实现。
-ms.openlocfilehash: 660f5013cd2e41ea08fdd2567fb9d51f58c1b8c6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 22d5b8bdeb6a82a202740af4919756daac47010a
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003005"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839379"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Plan for Mobility for Skype 业务服务器
  
@@ -50,7 +50,7 @@ Plan for Business 服务器的 Skype 移动的实现。
 所有这些功能均通过统一通信 Web API (UCWA) 实现。 UCWA 中首次引入 Lync Server 2013 和仍在使用 Skype 业务服务器。 Lync 2010 客户端与进行通信的其他功能，并位于 Mobility Service (MCX)。 这些是互补服务允许 Lync Server 2010 和 2013年客户端，以及为业务客户端，成功访问业务服务器部署 Skype Skype。
   
 > [!NOTE]
-> MCX 旧的移动客户端支持不再可用的业务服务器 2019 Skype 中。 您的用户需要升级到当前客户端。 
+> MCX (Mobility Service) 支持旧的移动客户端的不再可用的业务服务器 2019 Skype 中。 业务移动客户端的所有当前 Skype 已使用统一通信 Web API (UCWA) 来支持即时消息 (IM)、 状态和联系人。 与使用 MCX 的旧客户端的用户需要升级到当前客户端。
   
 请务必注意时已实现移动功能后，所有这些功能均可用，它们可能按有点不同某些设备上。 我们讨论功能从事哪些设备，在[移动客户端功能比较的 Skype for Business](clients-and-devices/mobile-feature-comparison.md)的网站。 我们还在[规划客户端和设备](clients-and-devices/clients-and-devices.md)了一些出色的设备和操作系统信息。
   
@@ -96,7 +96,7 @@ Plan for Business 服务器的 Skype 移动的实现。
     支持的业务服务器功能，例如，IM、 状态和联系人，移动设备上的 Skype。 已用来支持的移动设备上的业务服务器功能的 Skype 每个池中每台前端服务器上安装 Mobility service。 为业务服务器 2015年安装 Skype 时在前端服务器上内部和外部网站下创建一个新的虚拟目录 (Mcx)。
     
     > [!NOTE]
-    > MCX 旧的移动客户端支持不再可用的业务服务器 2019 Skype 中。 您的用户需要升级到当前客户端。
+    > MCX (Mobility Service) 支持旧的移动客户端的不再可用的业务服务器 2019 Skype 中。 业务移动客户端的所有当前 Skype 已使用统一通信 Web API (UCWA) 来支持即时消息 (IM)、 状态和联系人。 与使用 MCX 的旧客户端的用户需要升级到当前客户端。
   
 - **自动发现服务**
     
@@ -197,7 +197,7 @@ Mobility service Mcx 和 UCWA 相同的方式使用 DNS。 利用自动发现，
   
 如果您计划仅对内部 Wi-fi 网络支持的业务移动客户端的 Skype，您应为外部 Web 服务 Vip 所述配置源您内部 Web 服务 Vip。 在这种情况下，您应使用 source_addr （或 TCP） 的内部 Web 服务 Vip 上 HLB 的相关性。
   
-有关所有这的详细信息，请查看的[负载平衡的 Skype 的业务要求](network-requirements/load-balancing.md)的文档。
+有关所有详细信息，请参阅 [Load balancing requirements for Skype for Business](network-requirements/load-balancing.md)文档。
   
 ### <a name="reverse-proxy-requirements"></a>反向代理要求
 
@@ -216,7 +216,7 @@ Mobility service Mcx 和 UCWA 相同的方式使用 DNS。 利用自动发现，
 
 强烈建议你使用自动发现。 如上面的“技术要求”部分所述，这需要创建新的内部和外部 DNS 记录。 使用自动发现，业务客户端的 Skype 可以自动找到 Skype 业务服务器 Web 服务从任何位置，而无需手动输入 URL。
   
-如果需要，你也可以使用手动设置。用户需要将以下 URL 输入到其移动设备中：
+如果需要，你也可以使用手动设置。 用户需要将以下 URL 输入到其移动设备中：
   
 - **https://\<ExtPoolFQDN\>/Autodiscover/autodiscoverservice.svc/Root**外部访问。
     
@@ -233,7 +233,7 @@ Mobility service Mcx 和 UCWA 相同的方式使用 DNS。 利用自动发现，
   
 ### <a name="do-you-want-all-your-users-accessing-all-mobility-features-or-do-you-want-to-specify-the-users-who-can-access-these-features-instead"></a>要指定可以改为访问这些功能的用户或您希望访问所有移动功能，所有用户？
 
-我们有一个表来帮助的一些功能可供所有用户，并是否他们正在方式或不通过设置的默认值。 有关的完整列表，请查看[New-csmobilitypolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)。
+我们有一个表来帮助的一些功能可供所有用户，并是否他们正在方式或不通过设置的默认值。 有关完整列表，请参阅 [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)。
   
 > [!NOTE]
 > 所有这些功能的适用范围为全局/站点/用户。 

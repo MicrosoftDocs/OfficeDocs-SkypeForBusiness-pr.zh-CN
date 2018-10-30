@@ -19,19 +19,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 了解表示 PIN 的长度和要求的参数，并了解如何在 Microsoft Teams 中设置会议的 PIN 长度。
-ms.openlocfilehash: 8e0be3a904f4172aa0f92c1632ad37992a36ab5f
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 了解的参数的长度和 PIN 要求并查看如何在 Microsoft 团队中设置对会议的长度。
+ms.openlocfilehash: 94be2277b631df9e8c65c9ce2936faeb961a42d7
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347479"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838924"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>在 Microsoft Teams 中设置音频会议的 PIN 长度
 
-当您要设置的 Microsoft 团队音频会议时，您将看到音频会议桥。 会议网桥可以包含一个或多个电话号码。 设置您的电话号码将包含在会议邀请的 Microsoft 团队应用程序。
+当你为 Microsoft Teams 设置音频会议时，你将获得一个音频会议网桥。 会议网桥可以包含一个或多个电话号码。 你设置的电话号码将包含在 Microsoft Teams 应用的会议邀请中。
   
-音频会议桥的会议使用电话拨入的人员接听电话。 其接听呼叫者使用语音提示从自动助理，然后，具体取决于您的设置，可以播放通知以及提出呼叫者在记录其姓名。 **Microsoft 桥设置**允许您更改会议通知的设置和会议加入体验，并设置由会议组织者 Pin 长度。 会议组织者使用 Pin 启动会议，如果无法加入会议使用 Microsoft 团队应用程序。
+会议网桥负责应答使用电话拨入会议的人员的呼叫。 它通过来自自动助理的语音提示应答呼叫者，然后根据你的设置，可以播放通知并让呼叫者录制其姓名。 在 **Microsoft 网桥设置**中，你可以更改会议通知和会议加入体验的设置，并设置会议组织者使用的 PIN 的长度。 如果会议组织者无法使用 Microsoft Teams 应用加入会议，可使用 PIN 启动会议。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: 解决云连接器 Edition 部署。
-ms.openlocfilehash: 5dbb046680824f2af72688844914db0096e2ded1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2290d032f1461c37c31d138510388f17a52f5843
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371311"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838619"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>云连接器部署故障排除
  
@@ -67,7 +67,7 @@ ms.locfileid: "25371311"
     
   - 如果重新启动管理服务，则的时间间隔，然后重试的计数将重置为其初始的值。
     
-## <a name="troubleshooting"></a>疑难解答
+## <a name="troubleshooting"></a>故障排除
 
 以下是常见的问题的解决方案：
   
@@ -93,7 +93,7 @@ ms.locfileid: "25371311"
     
   - 登录 CMS/中介服务器，并验证公司网络 NIC 上是否分配了有效的 IP 地址，以及是否将有效的静态 IP 和 DNS 配置为 AD 服务器的 IP 地址。
     
-  - 登录到 CMS/中介服务器，并打开命令提示符。 请确保您可以 ping Active Directory 服务器的 FQDN 和 IP 地址。 如果您不能可能有冲突的 IP 地址。 请尝试将一个新的 IP 分配 Active directory 并相应地更新 DNS CMS/中介服务器上。
+  - 登录到 CMS/中介服务器，并打开命令提示符。 确保可以 ping Active Directory 服务器的 FQDN 和 IP 地址。 如果不可以，则可能存在 IP 地址冲突。 请尝试为 Active Directory 分配新 IP 并相应更新 CMS/中介服务器上的 DNS。
     
 - **问题： 您将收到以下错误消息，"删除 VMSwitch： 移除虚拟以太网开关时失败。云连接器管理切换在虚拟交换机无法删除因为它正在由运行虚拟机或分配给子池。"**
     
@@ -154,7 +154,7 @@ ms.locfileid: "25371311"
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
   ```
 
-    此外，你还可以手动检查并安装更新。请参阅下节内容。
+    此外，你还可以手动检查并安装更新。 请参阅下节内容。
     
 - **问题： 您将收到一条错误消息： 无法注册 appliance，因为每个配置当前的输入\<SiteName\>或\<装置名称\>或\<中介服务器 FQDN\>或\<中介服务器的 IP 地址\>与现有装置冲突。删除冲突装置或更新您的输入/配置信息，然后再次注册。注册-CcAppliance 注册到 online 当前装置运行时。**
     
@@ -222,7 +222,7 @@ ms.locfileid: "25371311"
     Remove-CcLegacyServerCertificate 
     ```
 
-3. 运行 Exit-CcUpdate cmdlet 以启动服务并退出维护模式。
+3. 运行退出 CcUpdate cmdlet 启动服务并退出维护模式。
     
 4. 对设备上的本地文件运行 Export-CcRootCertificate cmdlet，然后将导出的证书复制并安装到 PSTN 网关。
     
@@ -272,7 +272,7 @@ ms.locfileid: "25371311"
 
 - **问题： 更改用于部署的主机服务器帐户的密码后，您收到以下错误消息:"ConvertTo SecureString： 密钥无效用于指定状态。"中的商业云连接器 %ProgramFiles%\SkypeEdition\ManagementService\CceManagementService.log 或同时运行 Get CcCredential cmdlet。**
     
-    **解决方法：** 所有云连接器凭据都存储在以下文件:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml"。 当主机服务器上的密码更改时，您将需要更新本地存储的凭据。
+    **解决方法：** 所有云连接器凭据都存储在以下文件:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml"。 当主机服务器上的密码更改时，需要更新本地存储的凭据。
     
     **如果你运行的是云连接器 1.4.2 版，** 请通过执行以下步骤来重新生成所有云连接器密码：
     
@@ -280,7 +280,7 @@ ms.locfileid: "25371311"
     
   2. 删除以下文件:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml"。
     
-  3. 启动作为管理员，PowerShell 控制台，然后运行"注册 CcAppliance-本地"以重新输入以下说明的密码。 输入您之前输入云连接器部署的同一密码。
+  3. 启动作为管理员，PowerShell 控制台，然后运行"注册 CcAppliance-本地"以重新输入以下说明的密码。 输入之前输入的用于云连接器部署的相同密码。
     
      **如果您运行的云连接器版本 2.0 或更高版本，** 重新生成所有云连接器密码，按照以下步骤：
     
@@ -300,7 +300,7 @@ ms.locfileid: "25371311"
     
   9. 当系统提示输入新帐户凭据时，请输入之前用于 DomainAdmin 密码的密码。
     
-     如果缓存的密码文件生成使用云连接器版本 2.0 或更高版本，默认情况下，VmAdmin 和 DomainAdmin 作为 CceService 使用相同的密码。 如果您已经更改 DomainAdmin 和 VMAdmin 密码，您必须执行以下步骤：
+     如果缓存的密码文件生成使用云连接器版本 2.0 或更高版本，默认情况下，VmAdmin 和 DomainAdmin 作为 CceService 使用相同的密码。 如果更改了 DomainAdmin 和 VMAdmin 密码，则必须执行以下步骤：
     
   10. 按如下所述运行 Set-CcCredential -AccountType DomainAdmin：
     

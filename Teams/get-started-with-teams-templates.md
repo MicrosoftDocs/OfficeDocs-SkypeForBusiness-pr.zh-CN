@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7850ad245eebee96b6852e7f0cc57a35adcca9f7
-ms.sourcegitcommit: 8a56ed2107dfa378864576d1e137ab0086f5da08
+ms.openlocfilehash: 151a789b6047540071aa5780fb81a895503dd70b
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2018
-ms.locfileid: "23996239"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838888"
 ---
 # <a name="get-started-with-teams-templates"></a>工作组模板入门 
 
@@ -236,5 +236,5 @@ Content-Type: application/json
 ## <a name="related-topics"></a>相关主题
 
 - [创建团队](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/team_put_teams)（在预览）
-- [新团队](https://docs.microsoft.com/en-us/powershell/module/teams/New-Team?view=teams-ps)
+- [新团队](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Microsoft Teams 管理培训](itadmin-readiness.md)

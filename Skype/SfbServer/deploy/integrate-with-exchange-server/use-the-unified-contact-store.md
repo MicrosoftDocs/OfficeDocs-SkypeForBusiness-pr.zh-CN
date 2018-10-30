@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 摘要： 配置 Exchange Server 和 Skype 的统一的联系人存储业务服务器。
-ms.openlocfilehash: 6dccf6b2e6461ede26f49fa9efb3386bd04a9db3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ebed3e81b12718ae053b4482455cf38bd844799c
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988767"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839836"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>配置 Skype for Business Server 以使用统一联系人存储
  
@@ -31,7 +31,7 @@ ms.locfileid: "20988767"
 
 如果已配置的业务服务器 Skype 和 Exchange Server 之间的服务器到服务器身份验证，然后您也启用了统一的联系人存储;不不需要任何其他服务器配置。 但是，若要将用户的联系人移至统一的联系人存储库，则需要执行额外的用户帐户配置。 默认情况下，和 Skype 业务服务器中的统一联系人存储库不保留用户联系人。
   
-使用 Business Server 用户服务策略的 Skype 管理对统一联系人存储库的访问。 用户服务器策略只具有一个属性 (UcsAllowed)；此属性用于确定存储用户联系人的位置。 如果某个用户是由 UcsAllowed 设置为 True ($True) 的用户服务策略管理的，则该用户的联系人将存储在统一的联系人存储库中。 如果用户所管理的用户服务的策略其中已了将 UcsAllowed 设置为 False ($False)，则他/她的联系人将存储在 Skype 业务服务器。
+使用 Business Server 用户服务策略的 Skype 管理对统一联系人存储库的访问。 用户服务器策略只具有一个属性 (UcsAllowed)；此属性用于确定存储用户联系人的位置。 如果用户托管其中已了将 UcsAllowed 设置为 True ($True) 的用户服务策略然后将统一联系人存储中存储用户的联系人。 如果用户所管理的用户服务的策略其中已了将 UcsAllowed 设置为 False ($False)，则他/她的联系人将存储在 Skype 业务服务器。
   
 在安装时 Skype 业务服务器，以及安装 （在全局作用域配置） 的单个用户服务策略。 此策略中的 UcsAllowed 值将设置为 True，这意味着在默认情况下，用户联系人将存储在统一联系人存储中（假设已部署和配置它）。 若要将所有用户联系人迁移到统一联系人存储，根本不必执行任何操作。 
   

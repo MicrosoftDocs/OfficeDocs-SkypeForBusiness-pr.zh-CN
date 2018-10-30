@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 摘要： 部署企业 Web 应用程序和 Skype 会议应用程序与 Skype 用于业务 Skype。
-ms.openlocfilehash: c50a8afc4d12d7f3cf35fdcc966e322bd48199fc
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 13facacfc2e42ec45e29aae1c1006c792ef6ac1e
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699535"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839224"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>为业务服务器部署中 Skype Web 可下载的客户端
 
@@ -75,7 +75,7 @@ ms.locfileid: "25699535"
 
 Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能中，可以干扰业务 Web 应用程序 web 组件的 Skype。 若要为企业 Web 应用程序用户的 Skype 阻止问题，请确保为未启用 BranchCache。
 
-有关禁用 BranchCache 的详细信息，请参阅[BranchCache 部署指南](https://docs.microsoft.com/en-us/windows-server/networking/branchcache/deploy/branchcache-deployment-guide)。
+有关禁用 BranchCache 的详细信息，请参阅[BranchCache 部署指南](https://docs.microsoft.com/windows-server/networking/branchcache/deploy/branchcache-deployment-guide)。
 
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>验证 Skype 业务 Web 应用程序部署
 <a name="MFA"> </a>
@@ -133,7 +133,7 @@ Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能中，可以干扰
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    发送至 Microsoft 的信息严格遵守 [Skype for Business 数据收集实践](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices)。
+    发送至 Microsoft 的信息严格遵守 [Skype for Business 数据收集实践](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices)。
 
 3. 设置超时之前回退到本地承载 Skype 的业务 Web 应用程序体验中，如果 CDN 不可用。 默认值是 6 秒。 如果将该值设置为 0，则没有超时。
 

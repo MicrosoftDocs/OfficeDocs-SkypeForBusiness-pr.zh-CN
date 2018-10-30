@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: 阅读本主题可了解部署步骤媒体绕过与云连接器 Edition 2.0 及更高版本。
-ms.openlocfilehash: 841a243b236219fc70c99264249567f2eee63081
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 38ff1ffa3aef7e6cd85237048c46c5746b61e7bb
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375497"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839070"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>在云连接器版本中部署媒体旁路
  
@@ -32,7 +32,7 @@ ms.locfileid: "25375497"
   
 租户管理员必须在内部生产 Active Directory 中配置 DNS A 记录。 如果您有复杂的多站点环境，请参阅中的示例[示例： 媒体绕过网站复杂多站点环境中的 DNS 记录](deploy-media-bypass-in-cloud-connector.md#Example)。 DNS 记录应只为内部网络客户端解析，不应为外部网络客户端解析。
   
-配置完 DNS 之后，通过远程 PowerShell 使用 Skype for Business 管理员凭据连接到 Skype for Business Online。 有关详细信息，请参阅[连接到业务 online 使用 Windows PowerShell 的 Skype](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+配置完 DNS 之后，通过远程 PowerShell 使用 Skype for Business 管理员凭据连接到 Skype for Business Online。 有关更多信息，请参阅[使用 Windows PowerShell 连接到 Skype for Business Online](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
   
 在 PowerShell 会话中，输入以下命令，以启用媒体旁路：
   
@@ -114,7 +114,7 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 
 客户端将从内部 DNS 服务器收到媒体旁路 Web 服务的 Web 地址。 Web 服务的名称将是相同的跨所有云连接器 appliance 和云连接器 PSTN 网站。 在复杂多站点环境中，建议将 Windows 2016 DNS 策略用于基于地理位置的流量管理，这样客户端便可重定向到网络本地的 Web 服务。 
   
-有关 Windows 2016 DNS 策略的详细信息，请参阅[使用 DNS 与主服务器的地理位置基于流量管理策略](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/primary-geo-location)。
+有关 Windows 2016 DNS 策略的详细信息，请参阅[使用 DNS 与主服务器的地理位置基于流量管理策略](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location)。
   
 下面是具有多个站点的公司使用 Windows 2016 DNS 策略进行基于地理位置的流量管理的配置示例。
   

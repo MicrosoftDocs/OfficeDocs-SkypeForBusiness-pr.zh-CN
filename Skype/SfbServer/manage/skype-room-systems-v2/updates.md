@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: 管理 Windows 更新为 Skype 房间系统 v2
-ms.openlocfilehash: 5765f99a247edcb6287878d4cda1154ec00782f4
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 4b1b0bc27be3f8277fde0c641efe5359ca002d65
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25705667"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839703"
 ---
 # <a name="manage-windows-updates"></a>管理 Windows 更新
 
@@ -30,13 +30,13 @@ Windows 更新可以管理几个不同的方式：
 - 质量更新和驱动程序将自动下载和安装第一天。 
 - 功能更新。 请参阅以下其他注意事项。 
 
-## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomen-uswindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Windows Update for Business](https://docs.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-wufb)（GPO 或 Intune）   
+## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Windows Update for Business](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)（GPO 或 Intune）   
 - 从 WU 或您 WSUS 但以前 KB 的原始发行版的日期配置延迟下载更新。 
 - 结合多个 OU 或筛选策略，这将允许创建的部署"拨打"，其中管理员可以指定哪些设备先安装高质量的更新和其与将安装更高版本。 这样，以实现可靠性和性能测试跨整个部署无需开销的管理 SCCM 中的 Windows 更新，例如推出更新之前系统的子集。
-- WSUS 和 for Business Windows 更新，可以[同时配置](https://docs.microsoft.com/en-us/windows/deployment/update/waas-integrate-wufb)根据需要带宽管理和控制业务的 Windows Update 提供。
+- WSUS 和 for Business Windows 更新，可以[同时配置](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb)根据需要带宽管理和控制业务的 Windows Update 提供。
 - 功能更新。 请参阅以下其他注意事项。
 
-## <a name="wsussccmhttpsdocsmicrosoftcomen-uswindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/SCCM](https://docs.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-configuration-manager)
+## <a name="wsussccmhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 - 就像 Windows Update for Business，但是有面向特定 KB 的每个"拨打"或整个部署中的其他选项。 每个更新可以分别部署和测试在将，而不是信赖上仅延迟。 
 - 功能更新。 请参阅以下其他注意事项。
 

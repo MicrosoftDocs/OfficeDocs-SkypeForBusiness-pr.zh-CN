@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype 的业务服务器 2019年支持多站点和多池部署。 迁移到 Skype for Business Server 2019 的多个池的过程需要考虑以下事项：
-ms.openlocfilehash: 9716df65acfde26c41001bbc252b746ea1bd5241
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 74c622c1cde4a01c51749c6942c898e11e1551f9
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028745"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839161"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>迁移多个站点和池
 
@@ -31,6 +31,6 @@ Skype 的业务服务器 2019年支持多站点和多池部署。 迁移到 Skyp
     
 6. 确认旧池为空后，可以停用该池。 
     
-    有关如何停用旧旧池和服务器的详细信息，请参阅[第 8 阶段： 停用旧池](phase-8-decommission-legacy-pools.md)。
+    有关如何停用旧池和服务器的详细信息，请参阅[第 8 阶段： 停用旧池](phase-8-decommission-legacy-pools.md)。
     
 

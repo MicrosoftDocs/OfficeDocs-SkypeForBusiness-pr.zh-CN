@@ -11,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 摘要： 阅读本主题可了解如何为业务服务器 2015年部署 for Skype 的统计信息管理器。
-ms.openlocfilehash: 75a8af0794431a0f74233ad0c6a422b3827c7656
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 28ee68cc8770660587cb7d22d2ddd68c754a4fca
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371139"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838576"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>为 Skype for Business Server 2015 部署统计信息管理器
+# <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Deploy Statistics Manager for Skype for Business Server 2015
  
 **摘要：** 阅读本主题可了解如何为业务服务器 2015年部署 for Skype 的统计信息管理器。
   
@@ -68,7 +68,7 @@ ms.locfileid: "25371139"
     
     可以从下载未签名安装程序[https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    如果需要，签名的二进制文件，可通过常用包经理： [Nuget](https://www.nuget.org/packages/Redis-64/)和[Choclatey](https://chocolatey.org/packages/redis-64)。
+    如果需要，可通过以下常用程序包管理器获取签名的二进制文件：[Nuget](https://www.nuget.org/packages/Redis-64/) 和 [Choclatey](https://chocolatey.org/packages/redis-64)。
     
    - 运行提供的 msi 并按照提示操作。
     
@@ -212,7 +212,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-要查看你当前导入的服务器信息，请运行以下脚本： 
+若要查看您导入当前服务器的信息，请运行以下脚本： 
   
 ```
 .\Get-StatsManServerInfo.ps1
@@ -299,12 +299,12 @@ Microsoft 强烈建议你使用受信任的证书颁发机构签发的证书。 
 
 有关详细信息，请参阅以下文章：
   
-- [规划业务 Server 2015 为统计信息管理器中的 Skype](plan.md)
+- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
     
-- [Skype for Business Server 2015 的升级统计信息管理器](upgrade.md)
+- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
     
-- [Skype for Business Server 2015 的统计信息管理器故障排除](troubleshoot.md)
+- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
     
-- [Skype 的业务 Server 统计信息管理器博客 （英文）](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Skype for Business Server 统计信息管理器博客](https://blogs.technet.microsoft.com/skypestatsman/)
     
 

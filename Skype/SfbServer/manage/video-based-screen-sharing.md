@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype 的基于视频的屏幕共享 (VbSS) 的业务服务器规划和配置信息
-ms.openlocfilehash: a7ea07f02b73b1092a11f61757318d0d653e048a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8541bb0dc3b5791c670a3beac77560b3c9663733
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375906"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839745"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>视频基于屏幕共享的 Skype 业务服务器 
  
@@ -99,7 +99,7 @@ Skype 业务服务器想要提高人的 1-为-1，以及其 1 对多 （多方�
   
 |**1080p 内容 **|**RDP 平均值**|**RDP 峰值**|**VbSS 平均值**|**VbSS 峰值**|
 |:-----|:-----|:-----|:-----|:-----|
-|PPT  <br/> |200 kbps  <br/> |12mbps  <br/> |100 kbps  <br/> |3mbps  <br/> |
+|PPT  <br/> |200kbps  <br/> |12mbps  <br/> |100kbps  <br/> |3mbps  <br/> |
 |CAD  <br/> |3mbps  <br/> |7mbps  <br/> |1mbps  <br/> |3mbps  <br/> |
 |视频  <br/> |5mbps  <br/> |7mbps  <br/> |1.3mbps  <br/> |2.2mbps  <br/> |
    
@@ -150,7 +150,7 @@ VbSS 带宽为：
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    此命令的详细信息，请参阅[Set-csconferencingpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
+    此命令的详细信息，请参阅[Set-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
     
 - 如果需要完全关闭 VbSS，你可以运行以下命令：
     
@@ -158,7 +158,7 @@ VbSS 带宽为：
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    此命令的详细信息，请参阅[设置 CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
+    此命令的详细信息，请参阅[设置 CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
     
 > [!NOTE]
 > 在业务会议多方 Skype，所有客户端终结点将尊重会议组织者的策略设置。 
@@ -177,7 +177,7 @@ VbSS 带宽为：
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    此命令的详细信息，请参阅[Set-csconferencingpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
+    此命令的详细信息，请参阅[Set-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
     
 - 如果需要在关闭 VbSS 后将其重新打开（默认情况下处于打开状态），你可以运行以下命令：
     
@@ -185,7 +185,7 @@ VbSS 带宽为：
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    此命令的详细信息，请参阅[设置 CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
+    此命令的详细信息，请参阅[设置 CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
     
 > [!NOTE]
 > 在业务会议多方 Skype，所有客户端终结点将尊重会议组织者的策略设置。 

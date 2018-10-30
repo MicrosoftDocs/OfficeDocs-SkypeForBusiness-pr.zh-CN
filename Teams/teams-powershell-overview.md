@@ -9,12 +9,12 @@ ms.service: msteams
 description: 了解如何使用 PowerShell 控件来管理 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 181655609fd031da177a21e10684186ca5c52066
-ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
+ms.openlocfilehash: 84de597cc5cc6a00227cf48d9d8559f9dcb3778e
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24025262"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839608"
 ---
 # <a name="teams-powershell-overview"></a>团队 PowerShell 概述 （英文)
 
@@ -78,10 +78,10 @@ Microsoft 团队具有一组丰富的 IT 管理员可以管理通过 Microsoft �
 
 ## <a name="other-powershell-tools"></a>其他 PowerShell 工具
 
-您可以找到详细的说明如何管理 Microsoft 团队和 Skype 的业务需要，包括详细的说明中的[Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps)和[Skype 的每个策略中的设置为使用所有 PowerShell 控件业务 cmdlet 参考](https://docs.microsoft.com/en-us/powershell/skype/intro?view=skype-ps)。
+您可以找到详细的说明如何管理 Microsoft 团队和 Skype 的业务需要，包括详细的说明中的[Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)和[Skype 的每个策略中的设置为使用所有 PowerShell 控件业务 cmdlet 参考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)。
 
 ## <a name="learn-more"></a>了解更多信息
 
-- [Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps)
-- [Skype 的业务 cmdlet 参考](https://docs.microsoft.com/en-us/powershell/skype/intro?view=skype-ps)
+- [Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+- [Skype 的业务 cmdlet 参考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
 - [使用 Microsoft 团队管理员角色可以管理团队](using-admin-roles.md)

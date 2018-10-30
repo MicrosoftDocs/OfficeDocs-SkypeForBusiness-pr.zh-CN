@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 摘要： 了解如何迁移用户设置并将用户移动到团队。
-ms.openlocfilehash: 78f0c49fa2179b4a0aa95a993476c21fb679f489
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: 76baa9cdc87535e68cc0bff4e9397a91d1090439
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436563"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838715"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>将用户从内部部署移动到团队
 
@@ -79,7 +79,7 @@ New-CsTeamsUpgradeConfiguration -Identity “site:redmond1”
 -  **将具有电话功能的用户迁移。** 用户可以发起和接收呼叫使用团队客户端。  您可以选择 Microsoft 调用规划或直接路由连接到团队的电话服务。  
 
     -  规划 Microsoft 调用提供了一云语音解决方案。 有关 Microsoft 调用规划的详细信息，请参阅 （即将推出的链接）。 
-    -  直接路由允许您使用几乎任何 PSTN 中继，并且您可以配置客户拥有电话设备和 Microsoft 电话系统之间的互操作性。  有关详细信息，请参阅[规划直接路由](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan)和[配置直接路由](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-configure)。
+    -  直接路由允许您使用几乎任何 PSTN 中继，并且您可以配置客户拥有电话设备和 Microsoft 电话系统之间的互操作性。  有关详细信息，请参阅[规划直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan)和[配置直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-configure)。
 
 -  **迁移用户不带电话功能。** 如果将用户迁移而不保留电话功能，请确保用户在云中有相应的许可证。 
 

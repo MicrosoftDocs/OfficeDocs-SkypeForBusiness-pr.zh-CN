@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: 了解有关出站语音业务企业语音，包括呼叫路由设置中 Skype 路由、 拨号计划、 规范化规则、 语音策略、 PSTN 用法记录和语音路由。
-ms.openlocfilehash: 60a1041bee0f235a232c7516dd9e0122ea7b7b65
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8b7ef6c4e07bd7618645606c777b257e1d32691f
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883653"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838814"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>规划出站语音路由中 Skype 业务服务器
  
@@ -44,7 +44,7 @@ ms.locfileid: "23883653"
   
 ### <a name="dial-plan-scope"></a>拨号计划作用域
 
-拨号计划范围确定可以应用拨号计划的层次结构级别。 在业务服务器 Skype，可以将用户分配特定的每用户拨号计划。 如果未分配用户拨号计划，则应用的前端池拨号计划。 如果没有任何前端池池拨号计划，则应用站点拨号计划。 最后，如果没有其他适用于该用户的拨号计划，则会应用全局拨号计划。
+拨号计划范围确定可以应用拨号计划的层次结构级别。 在业务服务器 Skype，可以将用户分配特定的每用户拨号计划。 如果未分配用户拨号计划，则应用的前端池拨号计划。 如果没有任何前端池拨号计划，则应用站点拨号计划。 最后，如果没有其他适用于该用户的拨号计划，则会应用全局拨号计划。
   
 客户端获取通过带内设置用户登录到 for Business 的 Skype 时提供的拨号计划作用域级别。 作为管理员，您可以管理和使用适用于业务 Server Control Panel Skype 分配拨号计划作用域级别。
   
@@ -81,7 +81,7 @@ ms.locfileid: "23883653"
     
     如果您的组织跨多个位置维护一个拨号计划，可能仍然需要创建单独的拨号计划的企业语音用户专用交换机 (PBX) 从迁移用户和用户需要保留其现有的扩展。
     
-- 确定是否需要每用户拨号计划。 例如，如果必须在分支站点上注册与中央站点的用户或如果您有 Survivable Branch Appliance 注册的用户，可以考虑特殊拨号方案此类用户使用每用户拨号计划和规范化规则. 有关详细信息，请参阅[规划企业语音恢复能力 Skype 业务服务器中](enterprise-voice-resiliency.md)。
+- 确定是否需要每用户拨号计划。 例如，如果必须在分支站点上注册与中央站点的用户或如果您有 Survivable Branch Appliance 注册的用户，可以考虑特殊拨号方案此类用户使用每用户拨号计划和规范化规则. 有关详细信息，请参阅 [Plan for Enterprise Voice resiliency in Skype for Business Server](enterprise-voice-resiliency.md)。
     
 - 确定拨号计划作用域（如本主题上文所述）。
     
@@ -146,7 +146,7 @@ ms.locfileid: "23883653"
 |**规则名称**|**说明**|**号码模式**|**转换**|**示例**|
 |:-----|:-----|:-----|:-----|:-----|
 |4digitExtension  <br/> |转换 4 位分机号  <br/> |^(\d{4})$  <br/> |+1425555$1  <br/> |将 0100 转换为 +14255550100  <br/> |
-|命名为 5digitExtension  <br/> |转换 5 位分机号  <br/> |^ 5(\d{4})$  <br/> |+1425555$1  <br/> |将 50100 转换为 +14255550100  <br/> |
+|5digitExtension  <br/> |转换 5 位分机号  <br/> |^ 5(\d{4})$  <br/> |+1425555$1  <br/> |将 50100 转换为 +14255550100  <br/> |
 |7digitcallingRedmond  <br/> |将 7 位号码转换为雷德蒙德本地号码  <br/> |^(\d{7})$  <br/> |+1425$1  <br/> |将 5550100 转换为 +14255550100  <br/> |
 |7digitcallingDallas  <br/> |将 7 位号码转换为达拉斯本地号码  <br/> |^(\d{7})$  <br/> |+1972$1  <br/> |将 5550100 转换为 +19725550100  <br/> |
 |10digitcallingUS  <br/> |转换美国的 10 位号码  <br/> |^(\d{10})$  <br/> |+1$1  <br/> |将 2065550100 转换为 +12065550100  <br/> |
@@ -163,7 +163,7 @@ ms.locfileid: "23883653"
 
 |**Redmond.forestFQDN**|
 |:-----|
-|命名为 5digitExtension  <br/> |
+|5digitExtension  <br/> |
 |7digitcallingRedmond  <br/> |
 |10digitcallingUS  <br/> |
 |IntlCallingUS  <br/> |
@@ -228,9 +228,9 @@ Skype Business Server 语音策略定义每个用户、 站点或组织的分配
     
 - 通过**带宽策略覆盖**，管理员可以覆盖特定用户的呼叫允许控制策略决策。默认为禁用。
     
-- **恶意呼叫跟踪**使用 Skype 业务客户端，使用户能够报告恶意呼叫，然后标志此类呼叫中呼叫详细记录。 默认为禁用。
+- **恶意呼叫跟踪**使用 Skype 业务客户端，使用户能够报告恶意呼叫，然后标志此类呼叫中呼叫详细记录。 默认情况下处于禁用状态。
     
-- **语音邮件转义**阻止来自同时响铃配置和电话处于关闭、 超出电池，或超出范围，并且基于计时器值时立即路由到用户的移动电话语音邮件系统的呼叫。 此设置会启用和禁用计时器，并设置计时器的值。 它可以仅使用 Skype for Business Server 命令行管理程序配置。 默认为禁用。
+- **语音邮件转义**阻止来自同时响铃配置和电话处于关闭、 超出电池，或超出范围，并且基于计时器值时立即路由到用户的移动电话语音邮件系统的呼叫。 此设置会启用和禁用计时器，并设置计时器的值。 它可以仅使用 Skype for Business Server 命令行管理程序配置。 默认情况下处于禁用状态。
     
 - **呼叫转接和同时响铃的 PSTN 用法**使管理员能够指定相同的 PSTN 用法，如呼叫转接和同时响铃的语音策略将呼叫转接和同时响铃到内部 Skype 的限制企业用户仅，或指定不同的语音策略的 PSTN 用法的自定义 PSTN 用法。 默认情况下会使用与用于呼叫转接和同时响铃的语音策略相同的 PSTN 用法。
     

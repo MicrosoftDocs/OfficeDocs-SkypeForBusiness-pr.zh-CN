@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0b038686-ed36-4867-9653-14cc08c919cb
 description: 查找有关规划业务混合部署的 Skype 的信息。
-ms.openlocfilehash: af15627feaf3dca84f78e657bf71055a7a68f4c0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 736902ba25fe0f2d6aa569ba6f454aa773fec202
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891231"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839442"
 ---
 # <a name="skype-for-business-hybrid-solutions"></a>业务混合解决方案的 Skype
  
@@ -68,16 +68,16 @@ Skype 业务服务器和 Skype 业务 online 之间的混合连接意味着用�
   
 ![Skype for Business 混合配置](../media/4580f2c8-7008-4c6e-826c-020d0f2d1636.png)
   
-有关详细信息，请参阅[规划 Skype 业务服务器和 Skype 业务 online 之间的混合连接性](plan-hybrid-connectivity.md)和[部署业务服务器和 Skype 业务 online Skype 之间的混合连接性](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)。
+有关详细信息，请参阅[Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](plan-hybrid-connectivity.md)和[Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)。
   
 ## <a name="take-advantage-of-phone-system-in-office-365-cloud-pbx"></a>利用 Office 365 中的电话系统（云 PBX）
 <a name="BKMK_CloudPBX"> </a>
 
- 在 Office 365 (云 PBX) 电话系统是 Microsoft 的技术业务 online 启用呼叫控制和 Office 365 云中与 Skype 的专用交换机 (PBX) 功能。 Office 365 中的电话系统允许您现有的 PBX 系统替换为一组从 Office 365 中发送和紧密集成到 Microsoft 云生产力体验的功能。
+ 在 Office 365 (云 PBX) 电话系统是 Microsoft 的技术业务 online 启用呼叫控制和 Office 365 云中与 Skype 的专用交换机 (PBX) 功能。 Office 365 中的电话系统使你能够将现有 PBX 系统替换为直接从 Office 365 提供并紧密集成到 Microsoft 的云生产力体验中的一组功能。
   
 Microsoft Office 365 混合产品中的两个电话系统，除了提供与调用规划 Office 365 中的电话系统 — PSTN 调用服务 — 一云解决方案不需要在本地服务器部署。 若要决定是否与调用规划 Office 365 中的电话系统可能适合您的组织的解决方案，请参阅[Office 365 解决方案中的电话系统](plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md#BKMK_PBXOfferings)。
   
-Office 365 混合产品中有两个电话系统： 
+Office 365 混合产品中有两个电话系统：  
   
 - [由 Skype for Business Server 部署提供本地连接的 Office 365 电话系统](skype-for-business-hybrid-solutions.md#BKMK_Server)
     
@@ -140,7 +140,7 @@ Office 365 混合产品中有两个电话系统：
     
 - 使用 Skype 业务、 Exchange 和 SharePoint 集成功能，包括统一消息 (UM) 在 Office 365 中。
     
-有关详细信息，请参阅[计划集成业务和 Exchange Skype](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)。
+有关详细信息，请参阅[Plan to integrate Skype for Business and Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)。
   
 ### <a name="exchange-server-with-skype-for-business-online"></a>Exchange Server 与 Skype for Business Online
 
@@ -154,7 +154,7 @@ Office 365 混合产品中有两个电话系统：
     
 - 使用 Skype 业务联机状态、 IM 和会议功能的。 
     
-有关详细信息，请参阅[计划集成业务和 Exchange Skype](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)。
+有关详细信息，请参阅[Plan to integrate Skype for Business and Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)。
   
 ## <a name="tasks-for-planning-and-configuring-a-hybrid-environment"></a>规划和配置混合环境的任务
 <a name="BKMK_Tasks"> </a>
@@ -206,24 +206,24 @@ Skype for Business 提供了一组丰富的功能，无论您如何构建您的�
 
 有关详细信息，请参阅以下资源：
   
-- [Microsoft 云 IT 体系结构资源](https://aka.ms/clouditarch)
+- [Microsoft 云 IT 架构资源](https://aka.ms/clouditarch)
     
-- [企业架构师 Microsoft 云标识](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
+- [适用于企业架构师的 Microsoft 云标识](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
-- [获取您的组织准备 Office 365 企业版](https://aka.ms/O365EntPrep)
+- [针对 Office 365 企业版为你的组织做好准备](https://aka.ms/O365EntPrep)
     
 - [计划 Skype for Business Server 与 Skype for Business Online 之间的混合连接](plan-hybrid-connectivity.md)
     
-- [部署 Skype for Business Server 与 Skype for Business Online 之间的混合连接](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
+- [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
     
 - [Office 365 解决方案中的电话系统](plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md#BKMK_PBXOfferings)
     
-- [计划集成 Skype for Business 和 Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
+- [Plan to integrate Skype for Business and Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
     
 如果要下载本主题的海报版本，请访问以下网址：
   
-- [Skype 的业务体系结构模型 (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.pdf)
+- [Skype for Business 架构模型 (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.pdf)
     
-- [Skype 的业务体系结构模型 (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.vsd)
+- [Skype for Business 架构模型 (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.vsd)
     
 

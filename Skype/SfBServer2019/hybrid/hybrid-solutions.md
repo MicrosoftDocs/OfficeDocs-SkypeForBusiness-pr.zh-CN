@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 从讨论了业务服务器 2019年的 Skype 中的可用混合解决方案。
-ms.openlocfilehash: 2909f524d1b9984fe01700a89d1bf6dc1b70f100
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 269b0ae5dd7b4fc1cf2bb5f24b9350b745fe56de
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696224"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838842"
 ---
 注意： 从 2015年复制以下并且正在进行。 可[下面](#placeholder-topic-for-hybrid-solutions)找到其他正在占位符内容。
 
@@ -208,7 +208,7 @@ Skype for Business 提供了一组丰富的功能，无论您如何构建您的�
   
 - [Microsoft 云 IT 架构资源](https://aka.ms/clouditarch)
     
-- [适用于企业架构师的 Microsoft 云标识](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
+- [适用于企业架构师的 Microsoft 云标识](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
 - [针对 Office 365 企业版为你的组织做好准备](https://aka.ms/O365EntPrep)
     

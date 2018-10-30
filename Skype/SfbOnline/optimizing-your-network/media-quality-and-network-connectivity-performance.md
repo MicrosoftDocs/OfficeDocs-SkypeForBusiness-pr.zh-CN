@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 本主题定义的业务联机服务 Skype 的网络性能要求集和如何您可以选择业务 online 网络和 Skype 之间的连接使用的 Internet 或 ExpressRoute 基于您的网络的评估连接。 如果您已决定专用连接到 Office 365 部署 Azure ExpressRoute，本文还如何规划中的业务 Online 部署方案的不同 Skype ExpressRoute 连接提供指导。
-ms.openlocfilehash: dbe927794d8660a801596dac32623574e314ee44
-ms.sourcegitcommit: 3a7d2131717327d9b2d16848758e31e10326a0bd
+ms.openlocfilehash: 00d77bc72cbfd99d496bf458e008cce3da7970c3
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "24057608"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839122"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Skype for Business Online 中的媒体质量和网络连接性能
 
@@ -81,7 +81,7 @@ Azure ExpressRoute 不包括 Skype 业务 online 的 Office 365 服务的要求�
   
 QoS 提供一种方法，将执行音频或视频的数据的网络数据包分配更高的优先级。 通过向这些数据包分配更高的优先级，音频和视频通信都有可能通过网络传输速度，和较少中断，比网络会话涉及等文件传输、 web 浏览，或数据库进行备份。 这是因为网络数据包用于文件传输或默认情况下的数据库备份为优先级分配"最大努力"和网络拥塞不具有大型影响。 如果不为 （音频、 视频和应用程序共享） 的媒体数据包分配更高的优先级，并将它们作为"最大努力"还分配，它们太将处理以及所有其他网络流量。 根据网络拥塞量，这将可能最终用户降低总体音频和视频质量体验。
   
-强烈建议您实现以确保您的网络内的网络拥塞都不会有影响网络上的 QoS。 但是，使此选项的最大的影响，所有网络终结点必须支持 QoS、 所有终结点必须遵守 QoS 标记的含义和数据包的优先顺序。 业务在线服务的 Skype 排定 QoS 标记和 Microsoft 网络中的优先顺序。 但是，通过公共例如公司网络从 Internet 到 Microsoft 网络连接路由的流量不保留 QoS 标记和数据包的优先顺序。 从您的网络的专用连接到 Office 365 使用[Azure ExpressRoute](https://azure.microsoft.com/en-us/services/expressroute/)面向最终用户提供的部署解决方案的保留 QoS 标记和数据包的优先顺序的反过来总体增加音频和视频质量。
+强烈建议您实现以确保您的网络内的网络拥塞都不会有影响网络上的 QoS。 但是，使此选项的最大的影响，所有网络终结点必须支持 QoS、 所有终结点必须遵守 QoS 标记的含义和数据包的优先顺序。 业务在线服务的 Skype 排定 QoS 标记和 Microsoft 网络中的优先顺序。 但是，通过公共例如公司网络从 Internet 到 Microsoft 网络连接路由的流量不保留 QoS 标记和数据包的优先顺序。 从您的网络的专用连接到 Office 365 使用[Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/)面向最终用户提供的部署解决方案的保留 QoS 标记和数据包的优先顺序的反过来总体增加音频和视频质量。
   
 ## <a name="network-performance-requirements-to-connect-to-skype-for-business-online"></a>网络性能要求，以连接到 Skype 业务 online
 <a name="bkNetworkPerf"> </a>
@@ -277,7 +277,7 @@ Azure ExpressRoute 提供以下其他好处：
   
 边框网关协议 (BGP) 是用于将网络流量路由 internet Internet 上的路由协议。 它旨在交换找到通过 Internet 自治系统 (AS) 之间的路由信息。 BGP 社区值是可以应用于传入或传出路由属性标记。 BGP 社区通常用于为用于访问给定的目标基于地理位置、 服务类型或其他条件的出站链接接收到信号。
   
-与 BGP 社区支持，Microsoft 将使用适当的 BGP 社区值基于其所属的服务标记前缀和路由。 Microsoft 将标记通过公共对等广告前缀和 Microsoft 对等使用适当的 BGP 社区值，该值指示该区域中承载的前缀。 您可以依赖的社区值进行相应的路由决策提供最佳路由。 您只能将 Skype ExpressRoute 连接设置业务联机 BGP 社区值用于 Skype 业务 online。 您可以了解在[ExpressRoute 路由要求](https://azure.microsoft.com/en-us/documentation/articles/expressroute-routing/)的详细信息。
+与 BGP 社区支持，Microsoft 将使用适当的 BGP 社区值基于其所属的服务标记前缀和路由。 Microsoft 将标记通过公共对等广告前缀和 Microsoft 对等使用适当的 BGP 社区值，该值指示该区域中承载的前缀。 您可以依赖的社区值进行相应的路由决策提供最佳路由。 您只能将 Skype ExpressRoute 连接设置业务联机 BGP 社区值用于 Skype 业务 online。 您可以了解在[ExpressRoute 路由要求](https://azure.microsoft.com/documentation/articles/expressroute-routing/)的详细信息。
   
 ## <a name="expressroute-connectivity-scenarios-for-skype-for-business-online"></a>Skype 业务 online ExpressRoute 连接方案
 <a name="bkNetworkPerf"> </a>
@@ -286,7 +286,7 @@ Azure ExpressRoute 提供以下其他好处：
   
 ### <a name="online-only-deployment---single-site"></a>联机仅部署-单个网站
 
-如果您的所有用户使用 Skype 业务 Online 服务，并且您的办公室均居中周围单个物理位置和您决定部署 Azure ExpressRoute，您应设置单个 ExpressRoute 连接到最接近您公司的站点之间[ExpressRoute 对等位置](https://azure.microsoft.com/en-us/documentation/articles/expressroute-locations/)。
+如果您的所有用户使用 Skype 业务 Online 服务，并且您的办公室均居中周围单个物理位置和您决定部署 Azure ExpressRoute，您应设置单个 ExpressRoute 连接到最接近您公司的站点之间[ExpressRoute 对等位置](https://azure.microsoft.com/documentation/articles/expressroute-locations/)。
   
 下图显示了此类部署的示例。 例如，Contoso 是大学位于奥兰多，市举办。 Contoso 有 10,000 教职员工和学生。 在高峰类中，从其位置对 Microsoft 边缘网站这些 Internet 测试表明大于 5%的数据包丢失。 已决定要获取的专用的连接到 Office 365 具有提供过量带宽使用 ExpressRoute，以便他们可以避免 for Office 365 网络拥塞，尤其是对于业务联机实时通信的 Skype。 他们连接到 Microsoft 云通过 ExpressRoute 佐治亚州 MeetMe 站点。
   
@@ -304,7 +304,7 @@ Azure ExpressRoute 提供以下其他好处：
   
 ### <a name="online-only-deployment---multiple-sites-on-different-continents"></a>联机仅部署-位于不同大洲的多个站点
 
-如果您的所有用户使用 Skype 进行业务在线服务，并且如果您的办公室是在多个物理位置跨多个大洲，如果您决定部署 Azure ExpressRoute，您应设置为每个大陆的至少一个 ExpressRoute 连接之间为其最接近[ExpressRoute 对等位置](https://azure.microsoft.com/en-us/documentation/articles/expressroute-locations/)的每个大陆主网站。 根据成本 vs 好处，您可以选择部署从网络性能目标不满足其中的网站的其他 ExpressRoute 连接。
+如果您的所有用户使用 Skype 进行业务在线服务，并且如果您的办公室是在多个物理位置跨多个大洲，如果您决定部署 Azure ExpressRoute，您应设置为每个大陆的至少一个 ExpressRoute 连接之间为其最接近[ExpressRoute 对等位置](https://azure.microsoft.com/documentation/articles/expressroute-locations/)的每个大陆主网站。 根据成本 vs 好处，您可以选择部署从网络性能目标不满足其中的网站的其他 ExpressRoute 连接。
   
 在以下示例中，Contoso 在北美和欧洲是大型企业律师事务所与办公室中主要的城市。 根据他们的 Internet 连接和其内部网络性能评估，Contoso 决定部署在北美和单个 ExpressRoute 电路其所有欧洲办事处的两个 ExpressRoute 连接。
   
@@ -324,7 +324,7 @@ Azure ExpressRoute 提供以下其他好处：
 
 Skype 业务联机云连接器 edition 是混合提供组成的打包虚拟机 (Vm) 实现内部部署 PSTN 连接的一组。 通过部署虚拟化环境中的企业服务器拓扑最少 Skype，您将能够发送和接收 landlines 与通过现有的内部部署 PSTN 语音基础结构的移动电话的呼叫。
   
-如果您决定部署 Azure ExpressRoute 和云连接器 Edition，我们建议为您设置的每个大陆到它的最接近[ExpressRoute 对等位置](https://azure.microsoft.com/en-us/documentation/articles/expressroute-locations/)的每个大陆主站点之间的至少一个 Express 路由连接。 根据成本 vs 收益，对于每个大陆您可以选择部署从网络性能目标不满足其中的网站的其他 ExpressRoute 连接。
+如果您决定部署 Azure ExpressRoute 和云连接器 Edition，我们建议为您设置的每个大陆到它的最接近[ExpressRoute 对等位置](https://azure.microsoft.com/documentation/articles/expressroute-locations/)的每个大陆主站点之间的至少一个 Express 路由连接。 根据成本 vs 收益，对于每个大陆您可以选择部署从网络性能目标不满足其中的网站的其他 ExpressRoute 连接。
   
 如果您有业务部署本地 Skype，您必须遵循[的商务云连接器版的 Skype 的规划指南](https://technet.microsoft.com/EN-US/library/mt605227.aspx)。 具体而言，访问边缘服务器和 A / V 边缘服务应向其分配公共 IP 地址和从 Office 365 数据中心可访问。
   

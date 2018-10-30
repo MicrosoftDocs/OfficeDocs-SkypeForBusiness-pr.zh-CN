@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 摘要： 了解与 Exchange 和 SharePoint 的业务服务器 2015年集成 Skype。
-ms.openlocfilehash: f90e6c4724905edafdf0b8c6d3aec5f50d7a3996
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8d080174ab5560384478c1320d09bc218ef8543b
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886231"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839210"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>与 Exchange 和 SharePoint 集成
 
@@ -48,7 +48,7 @@ ms.locfileid: "23886231"
 |根据 Outlook 日历闲/忙信息发布状态  <br/> ||
 |联系人列表（通过统一联系人存储）  <br/> |需要 Exchange 2016 或 Exchange 2013。  <br/> Lync 2013 或业务桌面客户端的 Skype 是必需的。  <br/>  有关详细信息，请参阅[配置的业务服务器 2015 使用统一联系人存储库的 Skype](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md)。  <br/> |
 |Lync 2013 客户端，Skype 业务客户端和 Lync Web App 中的高分辨率联系人照片。  <br/> |需要 Exchange 2016 或 Exchange 2013。  <br/> 有关详细信息，请参阅[Configure 使用中的业务服务器 2015 Skype 高分辨率照片](../deploy/integrate-with-exchange-server/high-resolution-photos.md)。  <br/> |
-|会议委派  <br/> |只有当两个用户联机驻留在相同林中或者驻留在内部部署中时才支持。 有关详细信息，请参阅[业务混合解决方案的 Skype](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)。 <br/> |
+|会议委派  <br/> |只有当两个用户联机驻留在相同林中或者驻留在内部部署中时才支持。 有关详细信息，请参阅[业务混合解决方案的 Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)。 <br/> |
 |错过的对话历史记录和呼叫日志写入到用户的 exchange 邮箱  <br/> ||
 |在 Exchang 中存档内容（IM 和会议）  <br/> |需要 Exchange 2016 或 Exchange 2013。  <br/> 有关详细信息，请参阅[存档的部署清单](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx)。  <br/> |
 |搜索存档内容  <br/> |需要 Exchange 2016 或 Exchange 2013。  <br/> |
@@ -68,10 +68,10 @@ ms.locfileid: "23886231"
 |根据 Outlook 日历闲/忙信息发布状态  <br/> ||
 |联系人列表（通过统一联系人存储）。  <br/> |仅限 Lync Server 2013。 Lync 2013 或业务桌面客户端的 Skype 是必需的。  <br/> 有关详细信息，请参阅[配置的业务服务器 2015 使用统一联系人存储库的 Skype](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
 |Lync 2013 客户端，Skype 业务客户端和 Lync Web App 中的高分辨率联系人照片。  <br/> |有关详细信息，请参阅[Configure 使用中的业务服务器 2015 Skype 高分辨率照片](../deploy/integrate-with-exchange-server/high-resolution-photos.md)。  <br/> |
-|会议委派  <br/> |只有当两个用户联机驻留在相同林中或者驻留在内部部署中时才支持。 有关详细信息，请参阅[业务混合解决方案的 Skype](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)。 <br/> |
+|会议委派  <br/> |只有当两个用户联机驻留在相同林中或者驻留在内部部署中时才支持。 有关详细信息，请参阅[业务混合解决方案的 Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)。 <br/> |
 |错过的对话历史记录和呼叫日志写入到用户的 Exchange 邮箱  <br/> ||
 |在 Exchang 中存档内容（IM 和会议）  <br/> |有关详细信息，请参阅[存档的部署清单](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx)。  <br/> |
-|搜索存档内容  <br/> |有关详细信息，请参阅在[配置 Exchange for SharePoint 电子数据展示中心](https://go.microsoft.com/fwlink/p/?LinkId=285448) <br/> |
+|搜索存档内容  <br/> |有关详细信息，请参阅[针对 SharePoint 电子数据展示中心配置 Exchange](https://go.microsoft.com/fwlink/p/?LinkId=285448) <br/> |
 |语音邮件  <br/> |有关详细信息，请参阅[提供 Lync Server 2013 用户语音邮件在 Hosted Exchange UM](https://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)。  <br/> |
 
  **Skype 业务在线和本地 Exchange**
@@ -87,7 +87,7 @@ ms.locfileid: "23886231"
 |根据 Outlook 日历闲/忙信息发布状态  <br/> ||
 |错过的对话历史记录和呼叫日志写入到用户的 exchange 邮箱  <br/> ||
 |Lync 2013 或 Skype 业务客户端中的高分辨率联系人照片。  <br/> |需要 Exchange 2016 或 Exchange 2013。 这是时不支持 Lync Web App 中的业务联机用户驻留在 Skype。  <br/> |
-|会议委派  <br/> |只有当两个用户联机驻留在相同林中或者驻留在内部部署中时才支持。 有关详细信息，请参阅[业务混合解决方案的 Skype](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)。 <br/> |
+|会议委派  <br/> |只有当两个用户联机驻留在相同林中或者驻留在内部部署中时才支持。 有关详细信息，请参阅[业务混合解决方案的 Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)。 <br/> |
 |错过的对话历史记录和呼叫日志写入到用户的 Exchange 邮箱  <br/> ||
 |服务器端对话历史记录  <br/> ||
 
@@ -106,7 +106,7 @@ ms.locfileid: "23886231"
 |错过的对话历史记录和呼叫日志写入到用户的 exchange 邮箱  <br/> ||
 |联系人列表（通过统一联系人存储）  <br/> |Lync Server 2013 或业务客户端所需的 Skype  <br/> |
 |Lync 2013，Skype 业务客户端和 Lync Web App 中的高分辨率联系人照片  <br/> ||
-|会议委派  <br/> |只有当两个用户联机驻留在相同林中或者驻留在内部部署中时才支持。 有关详细信息，请参阅[业务混合解决方案的 Skype](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)。 <br/> |
+|会议委派  <br/> |只有当两个用户联机驻留在相同林中或者驻留在内部部署中时才支持。 有关详细信息，请参阅[业务混合解决方案的 Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)。 <br/> |
 |在 Exchang 中存档内容（IM 和会议）  <br/> ||
 |搜索存档内容  <br/> ||
 |语音邮件  <br/> ||

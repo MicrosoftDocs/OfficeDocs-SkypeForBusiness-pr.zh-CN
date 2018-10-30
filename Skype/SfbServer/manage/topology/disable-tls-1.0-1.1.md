@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 摘要： 准备，并在您的环境中实现禁用 TLS 1.0 和 1.1。
-ms.openlocfilehash: 784b6b307275516a18b396864d1a2c4f40c285e8
-ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
+ms.openlocfilehash: 50d4da536bbfcd112057464b3d4142b3eeed2b44
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25429443"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839689"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>为业务 Server 2015 禁用 TLS 1.0/1.1 中 Skype
 
@@ -49,7 +49,7 @@ Microsoft 提供了在 TLS 可用[下面](https://cloudblogs.microsoft.com/micro
 
 - Lync 2013 (for Business 的 Skype) 桌面客户端、 MSI 和 C2R，包括基本[15.0.5023.1000 及更高](https://support.microsoft.com/en-us/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
 - Skype 业务 2016年桌面客户端，MSI [16.0.4678.1000 及更高](https://support.microsoft.com/en-us/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323)，包括基本
-- 业务 2016年单击要运行的 Skype 需要[年 4 月 2018年](https://docs.microsoft.com/en-us/officeupdates/release-notes-office365-proplus)更新： 
+- 业务 2016年单击要运行的 Skype 需要[年 4 月 2018年](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)更新： 
     - 每月和半年目标，16\.0\.9126\.2152年及更高
     - 半年和推迟通道，16\.0\.8431\.2242年及更高
 - Skype for Business 上 Mac 16.15 和更高版本
@@ -92,7 +92,7 @@ Lync Server 2013 承担 Windows Fabric 1.0 版的依赖关系。  在 Lync Serve
 
 如果您的组织需要禁用 TLS 1.0 和 1.1 中，并且您目前使用 Lync Server 2013，我们建议您开始规划过程、 的可能性您可能遇到的就地升级或-并行迁移到 Skype 的 （新池，移动用户）业务服务器 2015年或更高版本。  或者，您可能想要迁移到 Skype 加速业务 online。
 
-#### <a name="call-quality-dashboard"></a>通话质量仪表板
+#### <a name="call-quality-dashboard"></a>呼叫质量仪表板
 
 在本地呼叫质量仪表板当前依赖 TLS 1.0 在新的安装 （到您的本地环境中安装第一次）。  我们当前正在调查此问题，并计划在将来版本修复。  如果您计划安装 CQD 和还禁用 TLS 1.0，我们建议您首先，完成 CQD 安装，然后继续进行 TLS 1.0 禁用。
 
@@ -237,7 +237,7 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000001
 ```
 
-SQL 的企业版池、 先决条件和 TLS 结束禁用的后应被视为任何 SQL 或操作系统更新将;请参阅：[https://docs.microsoft.com/en-us/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/en-us/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
+SQL 的企业版池、 先决条件和 TLS 结束禁用的后应被视为任何 SQL 或操作系统更新将;请参阅：[https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
 
 时可以组合的必备组件的应用程序和禁用步骤 TLS，我们强烈建议在继续禁用的 TLS 1.0 和在操作系统级别 1.1 之前应用的所有必备组件。 最佳做法的方法是通过部署所有必备组件，验证所有工作负荷函数正确和预期工作，并在以后再禁用继续使用 TLS 1.0/1.1 中准备环境。
 

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 以下各节提供有关如何配置具有资源/用户林模型，以提供业务功能在混合方案的 Skype 中的多林环境的指南。
-ms.openlocfilehash: 72c0a91c3a5a90b4ec83eb5f71a5601ccfb48bb1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ef2b57d1f89e4d5479cacce57ce9a6c47c495f21
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375104"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839543"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>配置混合 for Business 的 Skype 的多林环境
  
@@ -25,7 +25,7 @@ ms.locfileid: "25375104"
   
 ## <a name="validate-the-forest-topology"></a>验证林拓扑
 
-支持多个用户林。注意以下几项： 
+支持多个用户林。 注意以下几项： 
   
 - 对于单用户林或多个用户林部署，必须有 Skype 业务 server 的单个部署。
     
@@ -33,7 +33,7 @@ ms.locfileid: "25375104"
     
 - 可以在一个或多个林中，其中可能包含或不包含业务服务器包含 Skype 的林部署 Exchange 服务器。 请确保您应用了最新累积更新。
     
-- 有关与 Exchange Server 的共存的详细信息，包括支持条件和限制各种组合中的内部部署和联机状态，请参阅[计划集成 Skype 商业和 Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)中的[支持的功能](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)。
+- 有关与 Exchange Server 共存的详细信息（包括在各种本地和联机组合中的支持条件和限制），请参阅[Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)中的[功能支持](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)。
     
 有关详细信息，请参阅[系统要求](../plan/system-requirements.md)。
   
@@ -58,9 +58,9 @@ Skype 的企业用户驻留在本地可以具有 Exchange 驻留在本地或联�
 |选择的帐户链接属性  <br/> |选择的帐户链接属性  <br/> |
 |邮件   <br/> |邮件   <br/> |
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
-|ObjectSID  <br/> |msRTCSIP OriginatorSID  <br/> |
+|ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-[选择帐户链接属性](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/)将用作源定位标记。 如果您想要使用的不同且不会改变属性，您可能会这样;只需一定要编辑的 AD FS 声明规则和 AAD 连接配置过程中选择的属性。
+[选择的帐户链接属性](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)将用作源定位点。 如果您想要使用的不同且不会改变属性，您可能会这样;只需一定要编辑的 AD FS 声明规则和 AAD 连接配置过程中选择的属性。
   
 不同步林之间 Upn。 在测试期间，我们发现我们需要将唯一的 UPN 用于每个用户林，因为不能在多个林中使用相同的 UPN。 因此，出现了两种可能性：同步 UPN 或不同步。 
   
@@ -70,7 +70,7 @@ Skype 的企业用户驻留在本地可以具有 Exchange 驻留在本地或联�
     
 ## <a name="create-an-office-365-tenant"></a>创建 Office 365 租户
 
-接下来需要设置要用于部署的 Office 365 租户。 有关详细信息，请参阅[订阅、 许可证、 帐户和 Microsoft 云服务的租户](https://docs.microsoft.com/en-us/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)。 
+接下来需要设置要用于部署的 Office 365 租户。 有关详细信息，请参阅[订阅、 许可证、 帐户和 Microsoft 云服务的租户](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)。 
   
 ## <a name="configure-active-directory-federation-services"></a>配置 Active Directory 联合身份验证服务
 
@@ -86,7 +86,7 @@ Skype 的企业用户驻留在本地可以具有 Exchange 驻留在本地或联�
     
 通过在每个用户林中放置 AD FS 服务器场并将唯一的 SIP/SMTP/UPN 用于每个林，我们解决了这两个问题。在身份验证期间，将只搜索并匹配特定用户林中的帐户。这将有助于提供更无缝的身份验证流程。 
   
-这将是 Windows Server 2012 R2 AD FS 的标准部署，应处于正常工作状态才能继续。 有关说明，请参阅[How To Office 365 的安装 AD FS 2012 R2](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx)。 
+这将是 Windows Server 2012 R2 AD FS 的标准部署，应处于正常工作状态才能继续。 有关说明，请参阅[如何安装适用于 Office 365 的 AD FS 2012 R2](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx)。 
   
 部署之后，您必须编辑声明规则以与先前选择的“来源作者”相匹配。 在 AD FS MMC 中，在信赖方信任下右键单击**Microsoft Office 365 标识平台**，，然后单击**编辑声明规则**。 编辑的第一个规则，并将 ObjectSID 更改为**employeeNumber**。 
   
@@ -106,7 +106,7 @@ AAD Connect 不会在内部部署林之间同步帐户。它使用 AD 连接来�
   
 这是一个测试用户，，您可以看到 sourceAnchor 和用户 cloudSourceAnchor AAD 连接已识别和本例中为 1101，即 employeeNumber 资源林对象从 Office 365 中，选择之前。 然后，系统能够将此对象合并到您在上方看到的内容中。 
   
-有关详细信息，请参阅[Azure Active Directory 集成本地目录](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/)。 
+有关详细信息，请参阅[Azure Active Directory 集成本地目录](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)。 
   
 应使用默认设置，除以下安装 AAD 连接： 
   
@@ -116,7 +116,7 @@ AAD Connect 不会在内部部署林之间同步帐户。它使用 AD 连接来�
     
 3. 确定本地目录中的用户： 选择**跨多个目录存在用户标识**，然后选择**ObjectSID**和**msExchangeMasterAccountSID**属性。
     
-4. Azure AD 中标识用户： 源定位： 选择您已阅读[选择良好 sourceAnchor 属性](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/)，用户主体名称- **userPrincipalName**后选择的属性。
+4. Azure AD 中标识用户： 源定位： 选择您已阅读[选择良好 sourceAnchor 属性](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)，用户主体名称- **userPrincipalName**后选择的属性。
     
 5.  可选功能： 选择是否已部署的 Exchange 混合部署。
     
