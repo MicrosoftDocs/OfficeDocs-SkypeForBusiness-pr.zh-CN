@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 摘要： 了解如何迁移用户设置并将用户移动到团队。
-ms.openlocfilehash: 76baa9cdc87535e68cc0bff4e9397a91d1090439
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: af0867bfdc2e12a248baf7cc07746845154d27fd
+ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838715"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25851481"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>将用户从内部部署移动到团队
 
@@ -100,7 +100,7 @@ Move-CsUser -Identity user0 -Target sipfed.online.lync.com -moveToTeams -credent
 ($cred = 获取凭据。 您必须提供 Office 365 管理员凭据。）
 
 > [!NOTE]
-> 此命令将 TeamsInteropPolicy 设置为团队，并将 TeamsUpgradePolicy 设置为 TeamsOnly 模式。 
+> 此命令将 TeamsUpgradePolicy 设置为 TeamsOnly 模式。 
  
 向工作组移动成功后，业务客户端的用户的 Skype 将显示以下消息： 
 
