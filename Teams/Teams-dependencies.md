@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5b0acd36c83f59b1883115a76d6295e1e9cb454
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f4fe71b4126a5fb9024de78b696383c0e2f65307
+ms.sourcegitcommit: 360b4507c89255b61ee7204ee077200c44961f3f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012007"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "25846428"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授权来宾访问
 ===========================================
@@ -85,7 +85,9 @@ Azure AD 包括以下设置来配置外部用户：
   
 
   
-4. 在“Office 365 组”页面上，将切换设置为 **“开启”** 或 **“关闭”**，具体取决于你是否要允许贵组织外部的团队和组所有者访问 Office 365 组。 单击或点击 **“允许组所有者将组织外部的人员添加到组”** 旁边的切换将其设置为 **“开启”**。 如果将此切换设置为“开启”，则会看到另一个选项，用于控制你是否让组和团队所有者将组织外的人员添加到 Office 365 组和 Microsoft Teams。 如果你想让组和团队所有者添加来宾用户，请将此切换设置为“开启”。 ![此屏幕截图显示了“Office 365 组”面板，用于允许组织外部的组成员访问组内容和允许组所有者将组织外部的人员添加到组的选项已开启。](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)
+4. 在“Office 365 组”页面上，将切换设置为 **“开启”** 或 **“关闭”**，具体取决于你是否要允许贵组织外部的团队和组所有者访问 Office 365 组。 单击或点击 **“允许组所有者将组织外部的人员添加到组”** 旁边的切换将其设置为 **“开启”**。 如果将此切换设置为“开启”，则会看到另一个选项，用于控制你是否让组和团队所有者将组织外的人员添加到 Office 365 组和 Microsoft Teams。 如果你想让组和团队所有者添加来宾用户，请将此切换设置为“开启”。 
+ 
+   ![此屏幕截图显示了“Office 365 组”面板，用于允许组织外部的组成员访问组内容和允许组所有者将组织外部的人员添加到组的选项已开启。](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)
 
 
 

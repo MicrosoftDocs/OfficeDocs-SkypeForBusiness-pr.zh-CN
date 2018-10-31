@@ -12,17 +12,17 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71b1a01472448c6a0d8a1bdc2ba06ff88d3a8cfd
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 94c35dbf18b3afdeb62cb4bb463e040f38f37f65
+ms.sourcegitcommit: 360b4507c89255b61ee7204ee077200c44961f3f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012510"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "25846436"
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>获取工具以支持 Microsoft Teams 部署
 =================================================
 
-Microsoft Teams Customer Success Kit 提供用于协助贵组织在内部成功部署 Microsoft Teams 的工具。 该 Kit 中包括用于公告、传单、海报和倒计时的电子邮件模板，以及提示和技巧电子邮件。 此外，还包括面向团队组长和 IT 管理员的入门指南。 现在下载 [Customer Success Kit](https://go.microsoft.com/fwlink/?linkid=854598)。
+Microsoft Teams Customer Success Kit 提供用于协助贵组织在内部成功部署 Microsoft Teams 的工具。 该 Kit 中包括用于公告、传单、海报和倒计时的电子邮件模板，以及提示和技巧电子邮件。 此外，还包括面向团队组长和 IT 管理员的入门指南。 立即下载[团队客户成功工具包](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)。
 
 ### <a name="learn-adjust-and-repeat"></a>学习、调整和重复
 

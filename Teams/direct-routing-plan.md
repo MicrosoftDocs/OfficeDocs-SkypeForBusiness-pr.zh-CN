@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 阅读本主题可了解如何 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。
-ms.openlocfilehash: c0aa89e8e1900aefd069b132e8e082aa477e2786
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: d9b1cf0f819639aebd1250bd37f4fc85d5555fc4
+ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839476"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "25849403"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -221,16 +221,12 @@ SBC 使 DNS 查询解析 sip.pstnhub.microsoft.com。 根据 SBC 位置和数据
 
 ## <a name="supported-session-border-controllers-sbcs"></a>支持会话边界控制器 (Sbc)
 
-Microsoft 仅支持认证的 SBC，可直接路由与配对。 企业语音的业务至关重要，因为 Microsoft 运行占用大量测试与所选的 Sbc，并且与 SBC 供应商，以确保在两个系统的工作原理兼容。 
+Microsoft 仅支持认证的 SBCs 可直接路由与配对。 企业语音是关键适用于企业，Microsoft 运行占用大量测试与所选的 Sbc，并且与 SBC 供应商，以确保在两个系统的工作原理兼容。 
 
-团队直接路由作为认证列出了已验证的设备。 认证的设备都能保证所有方案中工作。 此外没有 Microsoft 之间建立的 SBC 供应商的联合支持过程。  
+团队直接路由作为认证列出了已验证的设备。 认证的设备都能保证所有方案中工作。 
 
-正在认证正在以下供应商提供：
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- 功能区通信 (以前称为 Sonus):
-   - [SBC 边缘系列](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
-   - [SBC 核心系列](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
-- ThinkTel: ThinkTel 不销售到企业 SBCs，但其 SBC 正在认证。  
+有关受支持的 Sbc 的详细信息，请参阅[认证直接路由的会话边界控制器的列表](direct-routing-border-controllers.md)。
+
  
 ## <a name="see-also"></a>另请参阅
 
