@@ -22,14 +22,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: true
 description: 根据 Skype for Business Online PSTN 服务使用条款和客户的批量授权，客户可以使用 Office 365 通话套餐和 Office 365 音频会议。
-ms.openlocfilehash: c2d241c37d6124a19b4351142e9a25ff8c29fbb9
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 7415042e6604ae6bfa779fdcd578422faf7ac40c
+ms.sourcegitcommit: afc415ad4d0c2ed013eaf5f68a72418e66734ff0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699585"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25898124"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音频会议免费拨出期
 

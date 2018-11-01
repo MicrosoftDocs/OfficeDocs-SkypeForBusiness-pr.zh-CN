@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8741a76ccfbc9ef16cbf9c4298bacace25ac36ad
-ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
+ms.openlocfilehash: 44dc13f9ff6fd391d84a5a461badc7edbc8abbdb
+ms.sourcegitcommit: afc415ad4d0c2ed013eaf5f68a72418e66734ff0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25040769"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25898132"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 团队云视频互操作
 
@@ -30,11 +30,11 @@ ms.locfileid: "25040769"
 以下合作伙伴具有 Microsoft 团队视频互操作的解决方案。 您的公司可以选择使用这些合作伙伴在企业内的任意组合。 
 
 
-|合作伙伴|合作伙伴解决方案|可用性|
-|----|---|----|
-|![Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect 服务</a> |现在空闲|
-|![Pexip 无穷大](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Microsoft 团队 Pexip 无穷大</a> | 2018 年 10 月 19 日|
-|![BlueJeans 网关](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Microsoft 团队 blueJeans 网关</a> | 2018 年 10 月 31 日|
+|合作伙伴|合作伙伴解决方案|
+|----|---|
+|![Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect 服务</a> |
+|![Pexip 无穷大](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Microsoft 团队 Pexip 无穷大</a> | 
+|![BlueJeans 网关](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Microsoft 团队 blueJeans 网关</a> |
 
 ## <a name="partner-solutions"></a>合作伙伴解决方案
 
