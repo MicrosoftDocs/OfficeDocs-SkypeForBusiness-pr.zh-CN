@@ -12,7 +12,7 @@
 ### [部署概述](../deploy/deploy-clients/room-systems-v2.md)
 ### [配置帐户](../deploy/deploy-clients/room-systems-v2-configure-accounts.md)
 ### [使用 Office 365](../deploy/deploy-clients/with-office-365.md)
-### [与 Skype 的业务服务器 2015](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
+### [与 Skype 的业务服务器](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
 ### [与 Exchange Online （混合）](../deploy/deploy-clients/with-exchange-online.md)
 ### [与 Exchange 本地 （混合）](../deploy/deploy-clients/with-exchange-on-premises.md)
 ### [配置控制台](../deploy/deploy-clients/console.md)
