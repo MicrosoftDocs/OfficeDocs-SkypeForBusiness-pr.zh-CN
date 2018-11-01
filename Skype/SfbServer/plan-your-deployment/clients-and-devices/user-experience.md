@@ -14,19 +14,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: 摘要： 了解新的业务的 Skype 和可采取的步骤进行更新，准备您的环境和您的用户是否使用 Skype 业务 Online、 业务服务器 2015年的 Skype 业务服务器 2015，Lync Server 2013 的 Skype 或Lync Server 2010。
-ms.openlocfilehash: 99a1be886c257c58f007b42ee549b31a2340721a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: 摘要： 了解新的业务的 Skype 和可采取的步骤进行更新，准备您的环境和您的用户是否使用 Skype 业务 Online、 业务服务器 2019年的 Skype 业务服务器 2015，Lync Server 2013 的 Skype 或Lync Server 2010。
+ms.openlocfilehash: 351582e7a7619541d5401acfb46854f61c9e052d
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371171"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890576"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>规划业务 2015年为您的用户的客户端体验的 Skype
  
 **摘要：** 了解业务和可采取的步骤进行更新，准备您的环境和您的用户是否正在业务服务器 2015年、 Lync Server 2013 或 Lync Server 中使用业务 online Skype、 业务服务器 2019年的 Skype Skype 新 Skype2010。
   
-年 4 月 14，2015年的 Lync 2013 的 Office 更新包含业务用户界面的新 Skype。 此更新使管理员可以控制客户端的外观，并选择是否保留 Lync 2013 客户端体验或改进的 Skype 用于业务客户端体验。 业务客户端 Skype 有效地替换 Lync 2013 客户端，并添加管理员可以选择现有的 Lync 客户端体验和业务客户端体验的新 Skype 之间的功能。 有关此更新的信息，请参阅[Lync 2013 (for Business 的 Skype) 的更新 2015 年 4 月 14 日 (KB2889923)](https://support.microsoft.com/en-us/kb/2889923/)。
+年 4 月 14，2015年的 Lync 2013 的 Office 更新包含业务用户界面的新 Skype。 此更新使管理员可以控制客户端的外观，并选择是否保留 Lync 2013 客户端体验或改进的 Skype 用于业务客户端体验。 业务客户端 Skype 有效地替换 Lync 2013 客户端，并添加管理员可以选择现有的 Lync 客户端体验和业务客户端体验的新 Skype 之间的功能。 有关此更新的信息，请参阅 [Lync 2013 2015 年 4 月 14 日更新 (Skype for Business) (KB2889923)](https://support.microsoft.com/en-us/kb/2889923/)。
   
 2015 年 5 月 12 日上将会从 Office 包含业务客户端的更新的 Skype 的另一个每月更新。 未应用更新将拿年 5 月 12 年 4 月的许多客户的 Office 2013 更新。 本主题中的信息将帮助您为组织、环境和用户做好客户端更新准备。 为了便于用户和支持团队轻松完成过渡，请使用本主题中的信息帮助您确定要为用户选择哪种客户端体验，然后在将客户端更新部署到组织之前，先改变环境。
   
@@ -63,7 +63,7 @@ Lync 客户端体验非常类似于 Lync 2013 客户端体验的用户已熟悉�
   
 您需要进行这些更改之前客户端更新传递到您的用户，以便您可以控制从首次启动业务客户端 Skype 的客户端体验。 下表将指向您需要配置您的环境的用户所需的客户端体验采取的步骤。
   
-|**部署**|**Skype for Business 客户端体验**|**Lync 客户端体验**|
+|**Deployment**|**Skype for Business 客户端体验**|**Lync 客户端体验**|
 |:-----|:-----|:-----|
 |Skype for Business Online  <br/> |除了部署客户端内部版本 4711.1002（2015 年 4 月）或更高版本之外，没有其他步骤。  <br/> |[在 Skype for Business Online 中使用 Lync 客户端体验](user-experience.md#LyncwithSfBO) <br/> |
 |Skype for Business Server 2015  <br/> |除了部署客户端内部版本 4711.1002（2015 年 4 月）或更高版本之外，没有其他步骤。  <br/> |[在 Skype for Business Server（本地部署）中使用 Lync 客户端体验](user-experience.md#LyncwithSfBServer) <br/> |
@@ -76,7 +76,7 @@ Lync 客户端体验非常类似于 Lync 2013 客户端体验的用户已熟悉�
   
  **步骤 1:** 首先，确保您正在运行某个版本的 Lync Server 支持的客户端策略设置。
   
-- **Lync Server 2013** -您必须运行年 12 月 2014年累积更新 (5.0.8308.857) Lync Server 2013 或更高版本的更新。 有关信息，请参阅[Lync Server 2013 的更新](https://go.microsoft.com/fwlink/p/?LinkId=532772)。
+- **Lync Server 2013** -您必须运行年 12 月 2014年累积更新 (5.0.8308.857) Lync Server 2013 或更高版本的更新。 有关详细信息，请参阅[Lync Server 2013 更新](https://go.microsoft.com/fwlink/p/?LinkId=532772)。
     
 - **Lync Server 2010** -您必须运行年 2 月 2015年累积更新 (4.0.7577.710) Lync Server 2010 或更高版本的更新。 有关信息，请参阅[Lync Server 2010 的更新](https://go.microsoft.com/fwlink/p/?LinkId=532771)。
     
@@ -120,11 +120,11 @@ Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
 ## <a name="use-the-lync-client-experience-with-skype-for-business-server-on-premises"></a>在 Skype for Business Server（本地部署）中使用 Lync 客户端体验
 <a name="LyncwithSfBServer"> </a>
 
-如果您想要在内部部署 Skype 业务服务器 2015年部署中配置的 Lync 客户端体验，请按照本节中的步骤。
+如果您想要在内部部署 Skype 业务服务器部署中配置的 Lync 客户端体验，请按照本节中的步骤。
   
 如果要在本地部署中配置 Skype 客户端体验，请遵循本节中的步骤。本地部署的默认体验
   
- **步骤 1:** 首先，部署业务服务器 2015 Skype。
+ **步骤 1:** 首先，部署业务服务器 Skype。
   
  **步骤 2:** 接下来，使用客户端策略设置与业务客户端 Skype 的 Lync 客户端体验。 使用客户端策略来设置客户端体验有 **3 个选项**。
   
@@ -190,14 +190,14 @@ Grant-CsClientPolicy username@contoso.com -PolicyName ClientPolicyNoIMURLDisable
 
 若要使您更轻松地和组织准备转换，我们具有许多可用于帮助您规划、 培训和使用最终用户的其他资源。
   
-- [视频： 简介 Skype for Business](https://go.microsoft.com/fwlink/p/?LinkId=544819)
+- [视频：Skype for Business 简介](https://go.microsoft.com/fwlink/p/?LinkId=544819)
     
-- [Skype 的业务快速入门指南 （下载）](https://go.microsoft.com/fwlink/p/?LinkId=544818)
+- [Skype for Business 快速入门指南（下载）](https://go.microsoft.com/fwlink/p/?LinkId=544818)
     
 - [Lync 现 for Business 的 Skype — 请参阅 what's new](https://go.microsoft.com/fwlink/p/?LinkID=529224)
     
 - [Skype for Business： 适用于新的用户的分步指南](https://go.microsoft.com/fwlink/p/?LinkId=544815)
     
-- [为什么在我使用 Lync 看 Skype for Business？](https://go.microsoft.com/fwlink/p/?LinkID=544712)
+- [使用 Lync 时，为什么我会看到 Skype for Business？](https://go.microsoft.com/fwlink/p/?LinkID=544712)
     
 

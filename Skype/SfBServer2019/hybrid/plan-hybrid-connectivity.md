@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 规划业务联机或团队实现业务服务器 Skype 和 Skype 之间的混合连接性注意事项。
-ms.openlocfilehash: d3726c2975056499ec61e12b4dd8d63f63beb3e9
-ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
+ms.openlocfilehash: 55a6fd1d59e8e5af578b9a1c35c61204f925d866
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25849360"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890569"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>规划业务服务器 Skype 和 Office 365 之间的混合连接性
 
@@ -22,7 +22,7 @@ ms.locfileid: "25849360"
 
 阅读本主题可了解如何规划 Skype Business Server 和团队或 Skype 业务 online 之间的混合连接性。 设置混合连接性是在内部部署环境迁移到云的第一步。
 
-如果您具有内部部署环境，并使用团队，用户驻留在本地的业务的 Skype 中没有与 Skype 互操作的企业用户，也不能与联盟组织中的用户进行通信的能力。 若要获得此团队中的功能，这些用户必须从移 Skype 业务本地到云，这需要配置的业务混合模式的 Skype。 此外，获得最佳体验，这些用户应仅团队模式，它可确保所有传入呼叫并从用户的工作组客户端中的任何用户园地聊天。
+如果您有还使用团队 （并行） 的业务用户的内部部署 Skype，这些用户没有与 Skype 互操作的业务用户从其团队客户端，也不能与联盟组织中的用户通信的功能及其团队客户端。 若要获得此团队中的功能，这些用户必须从移 Skype 业务本地到云，这需要配置的业务混合模式的 Skype。 此外，获得最佳体验，这些用户应仅团队模式，它可确保所有传入呼叫并从用户的工作组客户端中的任何用户园地聊天。
 
 设置混合连接性和所有用户都迁移到云也是需要先停用业务部署您的本地 Skype。  混合连接设置，您可以选择将用户移动到云根据日程安排和业务需求。 使用直接路由时，您可以利用本地语音基础结构，移动到云中和完成迁移后时。
 
@@ -83,59 +83,25 @@ ms.locfileid: "25849360"
 ## <a name="topology-requirements"></a>拓扑要求
 <a name="BKMK_Topology"> </a>
 
-业务 online 与团队或 Skype 配置混合部署，您需要具备以下支持的拓扑结构之一：
+**工作组**或业务 online Skype 配置混合部署，您需要具备以下支持的拓扑结构之一：
 
 - 包含业务服务器 2019年运行 Skype 的所有服务器的业务服务器 2019年部署 Skype。 
-
 - 包含业务服务器 2015年运行 Skype 的所有服务器的业务服务器 2015年部署 Skype。
+- 运行 Lync Server 2013 的所有服务器与 Lync Server 2013 部署。  但是，如果不需要混合语音连接，您必须使用混合的版本拓扑如下所述。
+- 具有两个不同的服务器版本，如下所示的最大部署：
+  - Skype 业务服务器 2015年和 Skype 业务服务器 2019
+  - Lync Server 2013 和 Skype 业务服务器 2019
+  - Lync Server 2013 和 Skype 业务服务器 2015
 
-- 运行 Lync Server 2013 的所有服务器与 Lync Server 2013 部署。
+*如果在任何拓扑中需要混合语音*，这两个被指定为联合身份验证边缘，以及与 SIP 联盟关联的池的边缘服务器必须运行 Skype 的业务 2015年或更高版本。 如果存在，则用户可以在 Lync 2013 池上保留。 有关详细信息，请参阅[规划中的业务服务器 Skype 的 PSTN 连接电话系统](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)。
 
-    混合语音连接，必须业务 2015; 的 Skype 被指定为联合身份验证边缘边缘服务器。边缘还需要 Skype 针对 Business Server 后端。 你可能有一个池中没有任何用户。
+以下拓扑，包括即时消息和会议的**Lync Server 2010 支持与业务 online Skype** 。  包含**混合语音也团队不支持 Lync Server 2010**的拓扑。
 
-- 混合的 Lync Server 2015 和 Skype 业务服务器 2019年部署具有以下服务器角色： 
+- 混合的 Lync Server 2010 和 Skype 业务服务器 2015年部署
+- Lync Server 2010 和 Lync Server 2013 混合的部署
+-   运行 Lync Server 2010 通过最新累积更新的所有服务器与 Lync Server 2010 部署。
+联合身份验证边缘服务器和从联合身份验证边缘服务器的下一个跃点服务器必须运行 Lync Server 2010 通过最新累积更新。 必须至少一台服务器或管理工作站上安装 Skype 业务服务器 2015年或 Lync Server 2013 管理工具。
 
-  - 至少一个企业版池或 Standard Edition 服务器  
-
-  - 与 SIP 联盟关联的控制器池（如果存在） 
-
-  - 与 SIP 联盟关联的边缘池 
-
-- 混合的 Lync Server 2013 和 Skype 业务服务器 2019年部署与运行业务服务器 2019 Skype 的至少一个站点中的以下服务器角色： 
-
-  - 至少一个企业版池或 Standard Edition 服务器  
-  - 与 SIP 联盟关联的控制器池（如果存在） 
-  - 与 SIP 联盟关联的边缘池 
-
-- 混合的 Lync Server 2013 和 Skype 业务服务器 2015年部署与运行业务服务器 2015 Skype 的至少一个站点中的以下服务器角色：
-
-  - 至少一个企业版池或 Standard Edition 服务器 
-
-  - 与 SIP 联盟关联的控制器池（如果存在）
-
-  - 与 SIP 联盟关联的边缘池
-
-- 混合的 Lync Server 2010 和 Skype 业务服务器 2015年部署与运行业务服务器 2015 Skype 的至少一个站点中的以下服务器角色：
-
-  - 至少一个企业版池或 Standard Edition 服务器 
-
-  - 与 SIP 联盟关联的控制器池（如果存在）
-
-  - 与站点的 SIP 联盟关联的边缘池
-
-- 混合的 Lync Server 2010 和 Lync Server 2013 部署与至少一个站点运行 Lync Server 2013 中的以下服务器角色：
-
-  - 站点中至少一个企业版池或 Standard Edition 服务器
-
-  - 与 SIP 联盟关联的控制器池（如果站点中存在）
-
-  - 与站点的 SIP 联盟关联的边缘池
-
-- 运行 Lync Server 2010 通过最新累积更新的所有服务器与 Lync Server 2010 部署。
-
-  - 联合身份验证边缘服务器和从联合身份验证边缘服务器的下一个跃点服务器必须运行 Lync Server 2010 通过最新累积更新。
-
-  - 必须至少一台服务器或管理工作站上安装 Skype 业务服务器 2015年或 Lync Server 2013 管理工具。
 
 
  ## <a name="multi-forest-support"></a>多林支持

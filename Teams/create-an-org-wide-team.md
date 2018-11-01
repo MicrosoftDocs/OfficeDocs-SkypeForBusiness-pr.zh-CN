@@ -2,6 +2,7 @@
 title: 在 Microsoft 团队中创建一个组织范围团队
 author: LanaChin
 ms.author: v-lanac
+ms.reviewer: Phecda
 manager: serdars
 ms.date: 09/27/2018
 ms.topic: article
@@ -12,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ef4426e2dca1a6ce20657e3e7480b9ee118bfa1
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: 1b432629d6f76167da1f497cf88ae711e7792b34
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678359"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890672"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft 团队中创建一个组织范围团队
 
