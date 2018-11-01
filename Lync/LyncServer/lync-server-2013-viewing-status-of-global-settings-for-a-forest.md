@@ -1,0 +1,1 @@
+﻿https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration
