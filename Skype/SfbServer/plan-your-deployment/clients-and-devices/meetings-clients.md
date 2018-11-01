@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 摘要： IT 专业人员应规划的 Skype 业务 Server 时查看 Skype 企业 Web 应用程序和 Skype 会议应用程序的支持的要求。 这篇文章不适合于这些应用程序的用户。
-ms.openlocfilehash: c76770d570aaa1d1c686df7b0845e41a767cfbef
-ms.sourcegitcommit: 80e1983fd631b8ad63c902375f1128faa957e374
+ms.openlocfilehash: 6b0b8df34530005e7baf14cef4aa38c4536d4673
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25450632"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890613"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>规划会议客户端 （Web 应用程序和会议应用程序）
  
@@ -38,7 +38,7 @@ ms.locfileid: "25450632"
   
 默认情况下主持会议的服务器将直接下载并安装 Skype 业务 Web App 加入会议的用户。 企业 Web 应用程序的 Skype 存储在前端服务器上，并获取发送给会议参与者。 
   
-对于业务服务器 2015年的 Skype，作为企业 Web 应用程序从开始 CU5，替换的 Skype 都 Skype 会议应用程序，但提供 Skype 会议应用程序需要[启用 Skype 会议应用程序替换中介绍的其他配置企业 Web 应用程序 （可选） 的 Skype](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。  如果启用 Skype 会议应用程序，则用户将从 Office 365 内容交付网络 (CDN) 而不是从您的业务服务器 Skype 下载最新版本的应用程序。 为企业服务器 2019 Skype 会议应用程序的 Skype 是唯一的选项。
+对于业务服务器 Skype，作为企业 Web 应用程序从开始 CU5，替换的 Skype 都 Skype 会议应用程序，但提供 Skype 会议应用程序需要[启用 Skype 会议应用程序替换 Skype 中介绍的其他配置企业 Web 应用程序 （可选） 为](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。  如果启用 Skype 会议应用程序，则用户将从 Office 365 内容交付网络 (CDN) 而不是从您的业务服务器 Skype 下载最新版本的应用程序。 为企业服务器 2019 Skype 会议应用程序的 Skype 是唯一的选项。
   
 Skype 会议应用程序提供了有关下载和安装应用程序和加入会议，包括用户的 Internet Explorer 的一次单击加入简化的浏览器体验。 Skype 会议应用程序也有很多改进通过 theSkype 业务 Web 应用程序以实现可靠性和会议体验。 
   
@@ -76,7 +76,7 @@ Skype 会议应用程序使用 Windows 10、 Windows 8.1、 Windows 8 和 Window
   
 应用程序还上运行 macOS 10.10 或更高版本操作系统与任何特定的浏览器依赖关系。 
   
-有关其他任何依赖项，请参阅[Skype 会议应用程序支持的平台](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
+有关任何其他依赖项，请参阅 [Skype 会议应用支持的平台](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
   
 ## <a name="hardware-requirements"></a>硬件要求
 <a name="OS-Browser"> </a>

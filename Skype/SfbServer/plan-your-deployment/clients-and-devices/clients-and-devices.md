@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 摘要：支持的 Skype for Business 客户端和应用概述
-ms.openlocfilehash: 4e51c442ea50bf911eac4e83a700141cd999cdb9
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 3c68264f9eabc32c9e8c11a243fd103bb7c97426
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839154"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890591"
 ---
 # <a name="plan-for-clients-and-devices"></a>规划客户端和设备
 
@@ -139,7 +139,7 @@ MSI 是比较传统的安装方法，用于 Skype for Business 2015 和 2016 客
 
 Skype for Business Server 2019 和 Skype for Business Online 支持以前发行的以下客户端：Skype for Business 2016、Skype for Business 2015 和 Lync 2013。
 
-Skype for Business Server 2015 支持以前发布的以下客户端：Lync 2013、Lync 2010、Lync 2010 Mobile、Lync Phone Edition 和 Lync 2010 Attendant。 有关这些客户端与其他服务器结合使用的信息，请参阅 [Lync Server 2013 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)和 [Lync Server 2010 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx)。
+Skype for Business Server 2015 支持先前发布的以下客户端：Lync 2013、Lync 2010、Lync 2010 Mobile、Lync Phone Edition 和 Lync 2010 Attendant。 有关这些客户端与其他服务器结合使用的信息，请参阅 [Lync Server 2013 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)和 [Lync Server 2010 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx)。
 
 
 ## <a name="client-system-requirements"></a>客户端系统要求

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 869adf9401e3704cc78de5f646b0b9e676e8efe9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1c7cddeb2ee125fa54cc7db353c83157bec90d76
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016522"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890545"
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互
 =============================================================================
@@ -47,10 +47,10 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 > 当前无法替代默认 SharePoint 站点和文档库。 我们已经知道你的需求，我们正在考虑。 查看 [Teams 路线图](https://aka.ms/teamsroadmap)或 [Teams UserVoice](https://aka.ms/TeamsUserVoice)，以随时了解即将推出的功能。
 
 > [!TIP]
-> 向团队链接到现有的 SharePoint 网站，或对现有 SharePoint 文档库中添加选项卡：
+> 向团队链接到现有 SharePoint 网站页或现有的 SharePoint 文档库中添加选项卡：
 > 1. 选择选项卡旁边的加号。
-> 2. 选择**网站**。
-> 3. 键入一个名称并输入您的 SharePoint 网站或文档库的 URL。
+> 2. 选择**SharePoint**的现有 SharePoint 网站页或**文档库**的现有文档库。
+> 3. 选择相应的页或文档库。
 
 对于每个用户，OneDrive 文件夹 **Microsoft Teams 聊天文件**用于存储私人聊天中与其他用户共享（一对一或一对多）的所有文件，且自动配置权限以限制仅目标用户可以访问这些文件。
 

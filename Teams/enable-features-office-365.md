@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f78876064ae50221562bd42b334545f627a02fb
-ms.sourcegitcommit: 9138325ba2652a9ee3602d259de811082080e358
+ms.openlocfilehash: 7411494c3baa56c1761ee3bcd69c2d49fdd4a961
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25842073"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890561"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>管理 Office 365 组织中的 Microsoft 团队功能
 
@@ -116,4 +116,6 @@ Microsoft 团队作用域的目录搜索使用 Exchange 通讯簿策略 (APB) �
 
 您可以在此处选择应用程序的用户将用来加入 for Business 的 Skype 会议 (适用于商务或[Skype 会议应用程序](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)的 Skype)。 此设置不依赖于在共存模式设置。
 
+## <a name="how-can-i-tell-which-features-are-available"></a>如何判断提供了哪些功能？
 
+请参阅[Office 365 路线图](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)有关团队的新功能的信息。 有关新增和即将发布功能的详细信息，请参阅团队[What's New](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US)页和团队[技术社区的 Microsoft 团队博客 （英文）](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531) 。 
