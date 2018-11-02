@@ -13,12 +13,12 @@ search.appverid: MET150
 description: 培训视频、 教程和其他资源来了解和使用团队组织中的用户。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70df8c02afb0a1e709344cd936bd4f1c1319c311
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: aa9555476fbf429d49c624365fd81fd9d548f06a
+ms.sourcegitcommit: f16c5dc7bbcdc3d4df8462ed2a37108137727430
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838880"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25909853"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams 的最终用户培训
 
@@ -157,6 +157,17 @@ ms.locfileid: "25838880"
                          <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">视频： 转到指南团队所有者</a></p>
                          <p><a href="https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542">视频： 组织团队列表</a></p>
                          <p><a href="https://www.youtube.com/watch?v=hjJWtoaRJeE">设置工作组、 通道和选项卡的视频： 指南</a></p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>点播 live 培训</h3>
+                         <p><a href="https://microsoftteams.eventbuilder.com/event/1772">#ThisisTeams-如何为您的团队可以工作</a></p>
                     </div>
                 </div>
             </div>
