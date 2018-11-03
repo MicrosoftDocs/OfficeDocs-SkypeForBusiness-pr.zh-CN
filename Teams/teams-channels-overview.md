@@ -3,7 +3,7 @@ title: Microsoft Teams 中的团队和频道概述
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 11/02/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b02fd487b7a5ef6ab7422791487a1c9cb3fa5795
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 552d6f084de369ce87f3e1e44d4e3ebc968b06ea
+ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699307"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25942812"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 =================================================
@@ -83,3 +83,6 @@ Microsoft Teams 的特点在于打破组织界限及推动跨职能团队，因�
 
 ![Microsoft Teams 中团队和频道组织方式层次结构示意图。](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
 
+## <a name="org-wide-teams"></a>组织范围团队
+
+如果您的组织具有不超过 1,000 个用户，您可以创建一个组织范围团队。 组织范围团队提供的成为一个小组进行协作的组织中所有人的自动方法。 有关详细信息，包括用于创建和管理组织范围团队，最佳做法，请参阅[创建一个组织范围团队中的 Microsoft 团队](create-an-org-wide-team.md)。

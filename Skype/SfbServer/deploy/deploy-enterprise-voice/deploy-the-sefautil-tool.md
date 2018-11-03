@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: 为业务 Server 部署中 Skype 的 SEFAUtil 工具。
-ms.openlocfilehash: fc8b26dbc0f81be3ea7dd9f0fc3f5c728d49e965
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1b2f981a438b71b44eb5d4c760e98d1d777f7235
+ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375257"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25942805"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>部署中的业务的 Skype 的 SEFAUtil 工具
  
@@ -38,13 +38,17 @@ ms.locfileid: "25375257"
 
 1. 登录到计算机的业务 Server Management Shell 的 Skype 或使用**Delegate Setup Permissions**中所述的必要用户权限的 RTCUniversalServerAdmins 组成员身份的安装。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 3. SEFAUtil 工具只能在属于受信任应用程序池的一部分的计算机上运行。 如果需要定义打算运行 SEFAUtil 的前端池的受信任应用程序池。 在命令行中运行：
     
    ```
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
+    > [!NOTE]
+    > 池 FQDN： 服务器或池将承载 SEFAUtil 应用程序 (通常为业务前端服务器或池的 Skype) 的 FQDN。
+    > 池注册器 FQDN： 业务前端服务器或池与此应用程序池相关联的 Skype 的 FQDN。
+    > 池网站： 网站的 ID，此池上驻留的网站。
 
 4. 将 SEFAUtil 工具定义为受信任应用程序。在命令行中运行：
     
