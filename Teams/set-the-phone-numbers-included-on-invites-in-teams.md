@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '获取创建默认的电话号码的呼叫者加入 Microsoft 团队会议的步骤。 '
-ms.openlocfilehash: 859bf6f4a99f95c67123385c99061b1546eaa60c
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 20dfd4255cd41e9f5aebf419f77307b30fe40042
+ms.sourcegitcommit: 75e0c9e186dc167bad01f5b17ec9de8a682ee007
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347574"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "26005518"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft Teams 中设置包含在邀请中的电话号码
 
-Office 365 中的音频会议，组织中的用户创建的 Microsoft 团队会议，然后允许这些会议使用电话拨入的用户。 在 Office 365 中，您可以使用 Microsoft 音频会议网桥或位于由已批准的音频会议提供商 (ACP) 的第三方音频会议桥的选择。
+Office 365 中的音频会议，组织中的用户创建的 Microsoft 团队会议，然后允许这些会议使用电话拨入的用户。
   
 会议桥为你的组织提供了一套拨入电话号码。 它们都可用于加入会议组织者已创建的会议，但你可以选择在其会议邀请中包括哪些号码。
   
@@ -39,7 +39,15 @@ Office 365 中的音频会议，组织中的用户创建的 Microsoft 团队会�
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>为会议组织者或用户设置或更改默认音频会议电话号码。
+## <a name="initial-assignment-of-phone-numbers-that-are-included-in-the-meeting-invites-for-new-users"></a>初始工作分配的会议中包含的电话号码邀请新用户
+
+获取包含在会议中的电话号码邀请启用的默认会议收费电话号码和默认会议免费电话号码用户的设置来定义要进行音频会议的用户。 每个设置指定的收费和免费电话号码将包含给定用户的会议邀请中。 如上所述，每个会议邀请将包含一个收费电话号码、 一个可选的免费电话号码和打开可用于加入给定的会议的所有电话拨入电话号码的完整列表的链接。
+
+为新用户，基于时设置的用户的 Office 365 配置文件中为用户启用音频会议服务的国家/地区分配的默认会议收费电话号码。 如果没有匹配的用户的国家/地区的会议桥收费电话号码，将自动将该号码分配为用户的默认收费电话号码。 如果没有一个，定义为默认收费电话号码的会议桥的号码将分配为默认收费电话号码的用户。  
+
+一旦用户启用了音频会议服务，默认收费和免费电话号码的用户可以更改由租户管理员从其初始值任何时刻。
+
+## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>设置或更改会议组织者或用户的默认音频会议电话号码
 
 ![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队和 Skype for Business Admin Center
 
