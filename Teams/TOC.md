@@ -1,11 +1,15 @@
 <!-- ============================================================ -->
-# 入门
-
-## [Teams 概述](Teams-overview.md)
-## [工具和研讨会：规划、交付和运营 Teams](planning-workshop-practical-guide.md)
-## [在 Microsoft 团队中获取帮助](get-help-in-microsoft-teams.md)
+# [欢迎使用 Teams](teams-overview.md)
 <!-- ============================================================ -->
 
+# [入门](get-started-with-teams-landing-page.md)
+## [快速入门-团队](get-started-with-teams-quick-start.md)
+## [创建第一个团队和通道](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [板载前期应用](get-started-with-teams-onboard-early-adopters.md)
+## [监视使用情况和反馈](get-started-with-teams-monitor-usage-and-feedback.md)
+## [下一个位置](get-started-with-teams-resources-for-org-wide-rollout.md)
+## [在 Microsoft 团队中获取帮助](get-help-in-microsoft-teams.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # 规划

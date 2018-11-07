@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要： 这些功能已从 Skype 的业务服务器 2019年。
-ms.openlocfilehash: 926f5539a31dbcb37ff4ccb5494ccaa7be517d30
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 66366c2272db8d6f605fde6dc066f730543883b6
+ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696161"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025078"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>什么被弃用从 Skype 业务服务器 2019 
 
@@ -25,7 +25,7 @@ ms.locfileid: "25696161"
 
 ## <a name="features-deprecated-in-skype-for-business-server-2019"></a>为业务服务器 2019 Skype 中弃用的功能 
 
-        The following features and functionality have been deprecated in Skype for Business Server 2019.
+    The following features and functionality have been deprecated in Skype for Business Server 2019.
 
 ### <a name="xmpp-gateways-for-skype-for-business-server"></a>XMPP 网关的 Skype 业务服务器
 
@@ -67,7 +67,7 @@ SQL 镜像无法部署与 Skype 的业务服务器 2019年。 仍然支持用于
 
 以下工具不支持与 Skype 业务服务器 2019年:
 
-- 呼叫质量方法仪表板
+- 呼叫质量方法 （但不是呼叫质量仪表板）
 - Microsoft 呼叫质量方法记分卡、 v1.5
 - Skype for Business Server 2015 Planning Tool
 - Skype for Business Server 2015 Stress and Performance Tool
