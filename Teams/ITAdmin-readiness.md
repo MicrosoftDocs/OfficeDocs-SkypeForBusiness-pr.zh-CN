@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 09/21/2018
+ms.date: 11/07/2018
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 培训视频、 教程和其他资源来 admins 如何规划、 部署和运行的 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4036e6b740b059dc1075afe4b7ad3da7b9277c88
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 73c2163557706066f079f3ce61c1d4d3c58ed906
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838510"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038791"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
@@ -213,6 +213,7 @@ ms.locfileid: "25838510"
                     <div class="cardText">
                         <h3>会议</h3>
                         <p><a href="tutorial-meetings-in-teams.yml">教程：Teams 中的会议</a></p>
+                        <p><a href="https://aka.ms/teams-meetings-intro">视频： 会议中的 Microsoft 团队简介</a></p>
                     </div>
                 </div>
             </div>
@@ -250,7 +251,8 @@ ms.locfileid: "25838510"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>通话套餐</h3>
+                        <h3>电话系统</h3>
+                         <p><a href="https://aka.ms/teams-phone-system">视频： 简介中的 Microsoft 团队的电话系统</a></p>
                          <p><a href="configuring-teams-calling-quickstartguide.md">快速入门： 工作组中的 Configuring 调用计划</a></p>
                          <p><a href="tutorial-calling-in-teams.yml">教程：了解 Teams 中的通话功能</a></p>
                     </div>
@@ -263,7 +265,7 @@ ms.locfileid: "25838510"
                 <div class="card">
                     <div class="cardText">
                         <h3>直接路由</h3>
-                        <p><a href="https://www.youtube.com/watch?v=dVkc5Bs926Q">视频： 直接路由团队-预览</a></p>
+                        <p><a href="https://aka.ms/teams-direct-routing">视频： 直接路由中的 Microsoft 团队</a></p>
                     </div>
                 </div>
             </div>
