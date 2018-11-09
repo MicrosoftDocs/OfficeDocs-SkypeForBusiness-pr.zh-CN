@@ -1,7 +1,7 @@
+
 <!-- ============================================================ -->
 # [欢迎使用 Teams](teams-overview.md)
 <!-- ============================================================ -->
-
 # [入门](get-started-with-teams-landing-page.md)
 ## [快速入门-团队](get-started-with-teams-quick-start.md)
 ## [创建第一个团队和通道](get-started-with-teams-create-your-first-teams-and-channels.md)
@@ -27,7 +27,25 @@
 ## [创建更改管理策略](change-management-strategy.md)
 <!-- ============================================================ -->
 
+<!-- ============================================================ -->
+# [采用](adopt-microsoft-teams-landing-page.md) 
 
+## [入门](teams-adoption-get-started.md)
+## [阶段 1-开始](teams-adoption-phase1.md)
+### [了解团队和频道](teams-adoption-understand-teams-and-channels.md)
+### [创建您的第一个团队](teams-adoption-your-first-teams.md)
+### [如何准备是为团队贵组织？](teams-adoption-assess-readiness.md)
+## [阶段 2-实验](teams-adoption-phase2-experiment.md)
+### [创建拥护者程序](teams-adoption-create-champions-program.md)
+### [管理快速入门](teams-adoption-governance-quick-start.md)
+### [定义使用方案](teams-adoption-define-usage-scenarios.md)
+### [板载前期应用和收集反馈](teams-adoption-onboard-early-adopters.md)
+### [板载支持](teams-adoption-onboard-support.md)
+## [阶段 3-比例](teams-adoption-phase3-enable.md)
+### [定义产出和成功](teams-adoption-define-outcomes.md)
+### [优化反馈和报告](teams-adoption-optimize-feedback-and-reporting.md)
+### [驱动器认知度和培训](teams-adoption-drive-awareness.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # 配置和部署
@@ -115,6 +133,7 @@
 <!-- ============================================================ -->
 # 与 Office 365 的互操作性
 ## [迁移和 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
+## [与 Skype for Business 的共存](coexistence-chat-calls-presence.md)
 ## [设置您共存并升级设置](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 组和 Teams](office-365-groups.md)
 ## [使用 Teams 增强现有 Office 365 组](enhance-office-365-groups.md)
