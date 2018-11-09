@@ -3,24 +3,23 @@ title: 获取上次集成数据
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
-description: 摘要： 了解如何获取最后一个集成数据操作，它是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
-ms.openlocfilehash: bcef1a1ad8a42f01133c45a6af093e3c7d1e3123
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解如何获取最后一个集成数据操作，它是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
+ms.openlocfilehash: b2e759766987b6ee52795845ee55546920181807
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570197"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035591"
 ---
 # <a name="get-last-integration-data"></a>获取上次集成数据
  
-**摘要：** 了解有关获取最后一个集成数据操作，它是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
+**摘要：** 了解有关获取最后一个集成数据操作，它是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
   
 获取上次集成数据操作是用于呼叫的质量仪表板的数据 API 的一部分。
   

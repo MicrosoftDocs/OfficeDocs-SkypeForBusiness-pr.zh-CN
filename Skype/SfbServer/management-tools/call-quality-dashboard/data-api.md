@@ -1,28 +1,27 @@
 ---
-title: Skype 业务服务器 2015年呼叫质量仪表板 (CQD) 的数据为 API
+title: 呼叫质量仪表板 (CQD) 中的业务服务器 Skype 的数据 API
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
-description: 摘要： 了解有关 Rata API 呼叫质量仪表板。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
-ms.openlocfilehash: 293844d253e70e291c063d2af64226abaed3c9d9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: 摘要： 了解有关 Rata API 呼叫质量仪表板。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
+ms.openlocfilehash: 0af168c46e8b2732d5c967550391ab52459ddf95
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21011076"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035629"
 ---
-# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>Skype 业务服务器 2015年呼叫质量仪表板 (CQD) 的数据为 API
+# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>呼叫质量仪表板 (CQD) 中的业务服务器 Skype 的数据 API
  
-**摘要：** 对于呼叫质量的仪表板，请了解 Rata API。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
+**摘要：** 对于呼叫质量的仪表板，请了解 Rata API。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
   
-数据 API 提供编程访问呼叫质量仪表板的 Skype 的业务服务器 2015年。
+数据 API 提供编程访问呼叫质量仪表板的 Skype 业务服务器。
   
 ## <a name="data-api-for-call-quality-dashboard"></a>呼叫质量仪表板的数据 API
 

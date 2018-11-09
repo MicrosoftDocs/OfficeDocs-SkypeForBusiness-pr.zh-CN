@@ -16,14 +16,17 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 阅读本主题可了解如何 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。
-ms.openlocfilehash: d9b1cf0f819639aebd1250bd37f4fc85d5555fc4
-ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
+ms.openlocfilehash: a26dfc51e1a885569a37200d8613879e8f3bd484
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25849403"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038916"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
+
+> [!Tip]
+> 观看下面的会话了解好处直接路由、 如何规划，以及如何将其部署：[直接路由中的 Microsoft 团队](https://aka.ms/teams-direct-routing)
 
 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。  使用此功能，例如，您可以配置内部部署 PSTN 连接使用的 Microsoft 团队客户端，如下图中所示： 
 

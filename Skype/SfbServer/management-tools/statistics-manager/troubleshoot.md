@@ -1,26 +1,25 @@
 ---
-title: Skype for Business Server 2015 的统计信息管理器故障排除
+title: 解决的 Skype 的统计信息管理器的企业服务器
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 5/23/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
-description: 摘要： 阅读本主题解决 Skype 您部署的统计信息管理器中的业务服务器 2015年。
-ms.openlocfilehash: 3af372effd41fd679733324e1615de6b2c49ce0b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 阅读本主题解决 Skype 您部署的统计信息管理器中的业务服务器。
+ms.openlocfilehash: 3edff5ea17c4a787456ff212b65d99f0ad5bb67f
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569831"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035706"
 ---
-# <a name="troubleshoot-statistics-manager-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的统计信息管理器故障排除
+# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>解决的 Skype 的统计信息管理器的企业服务器
  
-**摘要：** 阅读本主题解决 Skype 您部署的统计信息管理器中的业务服务器 2015年。
+**摘要：** 阅读本主题解决 Skype 您部署的统计信息管理器中的业务服务器。
   
 本主题介绍如何通过在应用程序事件日志中，您可能会看到的事件和相应的操作，您可能采取纠正事件描述中解决统计信息管理器部署。 本主题包含以下部分：
   
@@ -173,12 +172,12 @@ ms.locfileid: "19569831"
 
 有关详细信息，请参阅以下文章：
   
-- [规划业务 Server 2015 为统计信息管理器中的 Skype](plan.md)
+- [规划业务 Server 为统计信息管理器中的 Skype](plan.md)
     
-- [部署业务服务器 2015年的 Skype 的统计信息管理器](deploy.md)
+- [为业务 Server 部署的 Skype 的统计信息管理器](deploy.md)
     
-- [为业务服务器 2015年升级的 Skype 的统计信息管理器](upgrade.md)
+- [为业务服务器升级的 Skype 的统计信息管理器](upgrade.md)
     
-- [Skype 的业务 Server 统计信息管理器博客 （英文）](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Skype for Business Server 统计信息管理器博客](https://blogs.technet.microsoft.com/skypestatsman/)
     
 

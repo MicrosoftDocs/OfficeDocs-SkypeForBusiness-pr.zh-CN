@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 摘要：如何使用容量计算器工具。
-ms.openlocfilehash: bb17bc7b024900627318dd64b41249c21ff8488b
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: d7d6f98ff1e9b09528d8d573ddaeb026b4927a3c
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25692766"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038838"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype 业务服务器容量规划计算器
  
@@ -36,13 +36,13 @@ Skype for Business Server 容量计算器帮助您确定服务器要求基于用
   
 ## <a name="using-the-capacity-calculator"></a>使用容量计算器
 
-计算器是一个 Microsoft Excel 电子表格。 橙色单元格供你输入内容。 默认值 （例如 80,000 在 12 个前端服务器具有一个池中的用户） 的单元格中输入，但不是应更改这些值以匹配您组织的需求。 
+计算器是一个 Microsoft Excel 电子表格。 橙色单元格供你输入内容。 默认值输入中的单元格 (的 Skype 的业务服务器 2015，80,000 名用户具有十二个前端服务器，而对于业务服务器 2019，106,000 用户在一个池中十六个前端服务器的 Skype 的一个池)，但应更改这些值与与您组织需求相匹配。
   
 使用模型包含以下部分。要计算你的容量要求，请按照所述从工作表顶部开始并向下逐行输入数据： 
   
  **即时消息和状态**
   
-- 在“**用户数**”下，键入将一次登录的用户数。此数目通常是已设置的用户总数的 80%。在大多数情况下，将对所有并发用户启用 IM 和状态。默认值为 80,000。
+- 在“**用户数**”下，键入将一次登录的用户数。 此数目通常是已设置的用户总数的 80%。 在大多数情况下，将对所有并发用户启用 IM 和状态。 默认值是 80000 业务服务器 2015年的 Skype 和 Skype 的业务服务器 2019年 106,000 用户。
     
 - **联系人列表中的平均联系人数**表示我们用于验证你的系统要求的联系人数。此数字是固定的，不可更改。
     
@@ -90,7 +90,7 @@ Skype for Business Server 容量计算器帮助您确定服务器要求基于用
     
 绿色单元格显示为您输入的使用模型提供的建议。 
   
-- **总前端服务器**： 物理服务器所需数量的基于专用服务器业务服务器运行 Skype，与双处理器，十六核、 2,260 兆周。
+- **总前端服务器**： 所需的物理服务器数量的基于业务服务器 2015年双处理器，与运行 Skype 的专用服务器十六核、 2,260 兆周，或业务服务器 2019年的 Skype 与双核 Intel Xeon E5 2673，v3处理器，十六核。
     
     请注意，建议启用超线程，它经过证明可改进支持音频/视频的服务器的性能。
     
@@ -110,8 +110,7 @@ Skype for Business Server 容量计算器帮助您确定服务器要求基于用
     
 ### <a name="adjusting-for-your-processors"></a>针对处理器进行调整
 
-电子表格中的所有 CPU 使用数字都假设每台服务器具有双处理器、十六核 (2,260 GHz)、至少 32 GB 内存以及 8 个或以上 10,000-RPM 硬盘驱动器（至少 72 GB 的可用磁盘空间）。 
+所有电子表格中的 CPU 使用率的图表目录假定业务服务器 2015年服务器的每个 Skype 有双处理器，十六核与 2.26 GHz，至少 32 GB 内存，且八个或多个 10,000 RPM 硬盘驱动器具有至少 72 GB 可用磁盘空间。 为业务服务器 2019年服务器的每个 Skype，所有电子表格中的 CPU 使用率的图表目录假设每台服务器具有双处理器，十六核 Intel Xeon E5 2673 v3，至少 64 GB 的内存，具有八个或多个 10,000 RPM 硬盘驱动器具有至少 72 GB 可用磁盘秒速度。
   
 如果您的服务器具有不同的处理器，您可以根据您的硬件调整数字。
   
-

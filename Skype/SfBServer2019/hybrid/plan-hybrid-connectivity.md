@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 规划业务联机或团队实现业务服务器 Skype 和 Skype 之间的混合连接性注意事项。
-ms.openlocfilehash: 55a6fd1d59e8e5af578b9a1c35c61204f925d866
-ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
+ms.openlocfilehash: 2f702989a0d40e7bce9b0f3612d67fd374d0813c
+ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890569"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238057"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>规划业务服务器 Skype 和 Office 365 之间的混合连接性
 
@@ -25,8 +25,6 @@ ms.locfileid: "25890569"
 如果您有还使用团队 （并行） 的业务用户的内部部署 Skype，这些用户没有与 Skype 互操作的业务用户从其团队客户端，也不能与联盟组织中的用户通信的功能及其团队客户端。 若要获得此团队中的功能，这些用户必须从移 Skype 业务本地到云，这需要配置的业务混合模式的 Skype。 此外，获得最佳体验，这些用户应仅团队模式，它可确保所有传入呼叫并从用户的工作组客户端中的任何用户园地聊天。
 
 设置混合连接性和所有用户都迁移到云也是需要先停用业务部署您的本地 Skype。  混合连接设置，您可以选择将用户移动到云根据日程安排和业务需求。 使用直接路由时，您可以利用本地语音基础结构，移动到云中和完成迁移后时。
-
-本主题介绍您需要配置您现有的内部部署 Skype 业务服务器部署-与在您的本地 Active Directory-中创建的用户之间的混合连接的基础结构和系统要求和团队或 Skype for Business 联机。 
 
 本主题介绍基础结构和系统要求您需要配置混合连接之间您现有的内部部署 Skype 业务服务器部署和团队或 Skype 业务 online。
 

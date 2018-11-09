@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7f6ef1e7c20e4cc08d021d30a7b52062f08a2ac
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 1934a602d89240c89ffb4f7410192d19a7dd2e61
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25705591"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038876"
 ---
 # <a name="user-presence-in-teams"></a>团队中的用户状态
 
@@ -66,3 +66,8 @@ Skype for Business 中的以下管理设置是团队中的不同：
 
 > [!NOTE]
 > 当前不支持团队管理员能够自定义这些设置。
+
+
+## <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 的共存
+
+有关与 for Business 的 Skype 共存时，团队状态的工作方式的详细信息，请参阅[使用 Skype for Business 的共存](coexistence-chat-calls-presence.md)。 

@@ -1,26 +1,25 @@
 ---
-title: 为业务 Server 2015 Skype 部署呼叫质量仪表板
+title: 为业务服务器部署 for Skype 的呼叫质量仪表板
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
-description: 摘要： 了解呼叫质量仪表板的部署过程。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
-ms.openlocfilehash: 31e1dc8d5508c7d3d31de0ec3af0b9c8c06a6c40
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: 摘要： 了解呼叫质量仪表板的部署过程。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
+ms.openlocfilehash: c9d641a8202560e558e33014670b4b1060795477
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372639"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035748"
 ---
-# <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>为业务 Server 2015 Skype 部署呼叫质量仪表板
+# <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>为业务服务器部署 for Skype 的呼叫质量仪表板
  
-**摘要：** 了解呼叫质量仪表板的部署过程。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
+**摘要：** 了解呼叫质量仪表板的部署过程。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
   
 ## <a name="deployment-overview"></a>部署概述
 
@@ -185,6 +184,27 @@ QoE 存档的安装过程包括创建 QoE 存档数据库、 部署将源的 QoE
 4. 单击**应用**页面的右侧。
     
 ## <a name="known-issues"></a>已知问题
+
+### <a name="the-cqd-shows-no-data-after-deployment"></a>CQD 部署后显示没有数据
+
+您可能会收到以下错误：
+
+*运行在多维数据集时，我们无法执行查询。使用查询编辑器以修改查询并修复所有问题。此外请确保多维数据集是可访问。*
+
+这意味着，必须中正使用的 CQD 之前在 SQL Server Analysis Services 中处理多维数据集。 您可以通过执行以下步骤来解决此问题：
+
+1. 打开 SQL Management Studio 并选择**Analysis Services**。
+
+2. 展开**QoECube**对象，选择的**QoE 指标**，右键单击，，，然后选择**浏览**。 
+
+    如果此方法返回空的浏览器，则不起作用已尚未继续多维数据集。
+
+3. 右键单击**QoE 指标**angain 并选择**过程**。
+
+4. 处理完成后，再次，右键单击对象，并选择**浏览**以确认浏览器页上现在显示数据。 
+
+
+### <a name="users-have-trouble-logging-in-because-installer-fails-to-create-the-correct-settings-in-iis"></a>用户遇到登录，因为安装程序无法在 IIS 中创建的正确设置
 
 在极少数情况下，安装程序无法在 IIS 中创建了正确的设置。 允许用户登录到 CQD 需要手动更改。 如果用户在登录时出现问题，请按照以下步骤：
   

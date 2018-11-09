@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 552d6f084de369ce87f3e1e44d4e3ebc968b06ea
-ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
+ms.openlocfilehash: a5e3ec3bf4fc8f3f3a84ccec5558134b3bca43b7
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25942812"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038806"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 =================================================
@@ -30,13 +30,15 @@ ms.locfileid: "25942812"
 
     -   也可以创建公用的开放团队，组织中的任何人都可以加入（最多 2500 个成员）。
     
-团队用于将一群人集中在一起，以便这些人密切合作来完成事情。 对于基于项目的工作（例如，使某个产品上市或创建数字化作战室），团队可以是动态的，也可以是持续存在的，以反映组织的内部结构（例如，部门和办公室位置）。 跨团队频道的对话、文件和笔记仅对团队成员可见。
+    团队用于将一群人集中在一起，以便这些人密切合作来完成事情。 对于基于项目的工作（例如，使某个产品上市或创建数字化作战室），团队可以是动态的，也可以是持续存在的，以反映组织的内部结构（例如，部门和办公室位置）。 跨团队频道的对话、文件和笔记仅对团队成员可见。
 
 -   **频道**是团队中的专用区域，用于保留按特定主题、项目、专业（适用于你的团队的任何内容！）组织的对话。
 
     -   团队频道是团队中的所有人都可以公开进行对话的地方。 私人聊天只有聊天中的人员可以看到。
 
     -   频道是扩展包含选项卡、 连接符和增加其值为团队的成员的机器人的应用程序时最有价值。
+
+[查看下面的简短视频](https://youtu.be/hjJWtoaRJeE)以了解有关创建团队和频道的最佳实践的详细信息。
 
 <a name="membership-roles-and-settings"></a>成员资格、 角色和设置
 ------------------------------

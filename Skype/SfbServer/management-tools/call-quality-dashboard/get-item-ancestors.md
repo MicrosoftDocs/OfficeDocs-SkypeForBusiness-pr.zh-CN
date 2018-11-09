@@ -3,24 +3,23 @@ title: 获取项祖先
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
-description: 摘要： 了解如何获取项目祖先操作，即项服务的一部分。 项服务是呼叫质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
-ms.openlocfilehash: 60d77ff1fd14a994d55a42516cd686891a56595f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 摘要： 了解如何获取项目祖先操作，即项服务的一部分。 项服务是呼叫质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
+ms.openlocfilehash: e9e23c32aada4c609f9deb43004385b389a533bf
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569199"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035582"
 ---
 # <a name="get-item-ancestors"></a>获取项祖先
  
-**摘要：** 了解有关获取项目祖先操作，即项服务的一部分。 项服务是呼叫质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
+**摘要：** 了解有关获取项目祖先操作，即项服务的一部分。 项服务是呼叫质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
   
 获取项祖先操作是用于呼叫的质量仪表板的存储库 API 中的项服务的一部分。
   

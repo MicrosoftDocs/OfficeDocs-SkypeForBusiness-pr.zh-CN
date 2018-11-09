@@ -1,28 +1,27 @@
 ---
-title: 在业务服务器 2015 Skype 呼叫质量仪表板 (CQD) 的存储库 API
+title: 呼叫质量仪表板 (CQD) 中的业务服务器 Skype 的库 API
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
-description: 摘要： 了解呼叫质量仪表板的存储库 API。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
-ms.openlocfilehash: 7881766de0daf05c85c7dfe8bb85a0ef1344c7c9
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: 摘要： 了解呼叫质量仪表板的存储库 API。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
+ms.openlocfilehash: de933063e5768b12af5ae8dc678ec7aa2da5f168
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374721"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035553"
 ---
-# <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>在业务服务器 2015 Skype 呼叫质量仪表板 (CQD) 的存储库 API
+# <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>呼叫质量仪表板 (CQD) 中的业务服务器 Skype 的库 API
  
-**摘要：** 对于呼叫质量的仪表板，请了解库 API。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
+**摘要：** 对于呼叫质量的仪表板，请了解库 API。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
   
-存储库 API 提供编程访问呼叫质量仪表板的 Skype 的业务服务器 2015年。
+存储库 API 提供编程访问呼叫质量仪表板的 Skype 业务服务器。
   
 ## <a name="repository-api-for-call-quality-dashboard"></a>呼叫质量仪表板的库 API
 

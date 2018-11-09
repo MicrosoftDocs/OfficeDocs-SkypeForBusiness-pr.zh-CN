@@ -3,24 +3,23 @@ title: CQD 开发示例
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
-description: 摘要：查看呼叫质量仪表板的教程和开发示例。呼叫质量仪表板是 Skype for Business Server 2015 的一个工具。
-ms.openlocfilehash: 6bd6031e1d7fc94ed463c53efb068fd1e2e51378
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: 摘要： 查看呼叫质量仪表板的教程和开发的示例。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
+ms.openlocfilehash: 994a26af99ec141b531ed3011a42f626c0c62886
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375321"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035741"
 ---
 # <a name="cqd-development-samples"></a>CQD 开发示例
 
-**摘要：** 查看呼叫质量仪表板的教程和开发示例。呼叫质量仪表板是 Skype for Business Server 2015 的一个工具。
+**摘要：** 对于呼叫质量仪表板查看教程和开发的示例。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
 
 本文提供开发呼叫质量仪表板 (CQD) 的教程和示例。
 
@@ -30,13 +29,13 @@ ms.locfileid: "25375321"
 
 ### <a name="introduction-to-cqd"></a>CQD 简介
 
-通过 CQD，可以快速轻松地访问本地 Skype for Business Server 部署的聚合呼叫质量信息。CQD 由三个组件组成：QoE 存档数据库、多维数据集和门户。门户是主要表示层，可以再进一步分成以下三个组件：
+通过 CQD，可以快速轻松地访问本地 Skype for Business Server 部署的聚合呼叫质量信息。 CQD 由三个组件组成：QoE 存档数据库、多维数据集和门户。 门户是主要表示层，可以再进一步分成以下三个组件：
 
-1. 数据服务，它是通过[数据 API 的呼叫质量仪表板 (CQD) 中的业务服务器 2015 Skype](data-api.md)的经过身份验证用户访问。
+1. 数据服务，它是通过[数据 API 的呼叫质量仪表板 (CQD) 中的业务服务器 Skype](data-api.md)的经过身份验证用户访问。
 
-2. 存储库服务，它是通过[库 API 的呼叫质量仪表板 (CQD) 中的业务服务器 2015 Skype](repository-api.md)的经过身份验证用户访问。
+2. 存储库服务，它是通过[库 API 的呼叫质量仪表板 (CQD) 中的业务服务器 Skype](repository-api.md)的经过身份验证用户访问。
 
-3. Web 门户，这是基于 HTML5 的界面，CQD 用户会看到此界面，并与之交互。通过身份验证的用户可以访问 Web 门户。
+3. Web 门户，这是基于 HTML5 的界面，CQD 用户会看到此界面，并与之交互。 通过身份验证的用户可以访问 Web 门户。
 
 Web 门户上显示的报表分为"报表设置"。 图中显示了有两份报告的报告集。 以下仪表板中的每个报告显示了在应用不同的筛选器后得到的查询结果，这些结果反映了多个月内质量良好呼叫和质量欠佳呼叫的数量，以及质量欠佳呼叫所占的百分比。 
 
@@ -112,7 +111,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
      c. 一项或多项指标。
 
-2. 通过 AJAX 调用将查询发给数据服务。需要提供以下 request 参数：
+2. 通过 AJAX 调用将查询发给数据服务。 需要提供以下 request 参数：
 
    a. url（应为 http://[ServerName]/QoEDataService/RunQuery）。
 
@@ -312,7 +311,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 上述将导致网页 （不在初次访问时的报告定义） 图中所示。 获取报告的集 ID 从 CQD 门户 (' / #/ CQD 门户登录后 URL （例如 在报表的第一个图形集 ID 为编号为 3024），并将此报告的集 ID 放入该网页上的输入部分。 按"加载"按钮并查看报告集中的完整定义 （度量、 维度、 筛选器列表）。
 
-总的来说，为了快速获得报告/报告集的完整定义，应遵循的步骤如下：
+在摘要，以便快速获取一报表/报表的完整定义。 步骤包括：
 
 1. 转到门户，并使用查询编辑器自定义报表 （单击"编辑"按钮上方报表编辑、 添加、 删除筛选器度量/维度，然后保存报告）。
 
