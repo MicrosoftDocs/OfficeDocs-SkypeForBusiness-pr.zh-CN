@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fa0b8971e6809b2488f6926f4acf0df898760f4
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.openlocfilehash: 9c1c60552dc4ef889b312e3055ff99a412362a22
+ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238133"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26031693"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>向 Microsoft 工作组的板载前期应用
 
@@ -91,7 +91,7 @@ ms.locfileid: "26238133"
 
 请务必鼓励主动使用团队升级新的协作体验和开发团队拥护者您前期应用。 我们建议使用共享与您的用户，以帮助指导您创建的"获取了解团队"团队中的"如何实现"通道驱动器应用。 
 
-为您的组织的驱动团队应用的详细指南，请参阅[采用团队](adopt-microsoft-teams-landing-page.md)。
+有关为组织的驱动团队应用的详细指导信息，请参阅[Creating 团队的变化管理策略](change-management-strategy.md)。 
 
 ## <a name="next-steps"></a>后续步骤
 转到[监视使用情况和反馈](get-started-with-teams-monitor-usage-and-feedback.md)。

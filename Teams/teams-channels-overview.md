@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8553589dc895317c9799f9fde9d6a0e622b30a0
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.openlocfilehash: a5e3ec3bf4fc8f3f3a84ccec5558134b3bca43b7
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238041"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038806"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 =================================================
@@ -38,9 +38,7 @@ ms.locfileid: "26238041"
 
     -   频道是扩展包含选项卡、 连接符和增加其值为团队的成员的机器人的应用程序时最有价值。
 
-查看此简短视频以了解有关创建团队和频道的最佳实践的详细信息。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[查看下面的简短视频](https://youtu.be/hjJWtoaRJeE)以了解有关创建团队和频道的最佳实践的详细信息。
 
 <a name="membership-roles-and-settings"></a>成员资格、 角色和设置
 ------------------------------
