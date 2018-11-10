@@ -1,0 +1,34 @@
+---
+title: 安排的 Microsoft 团队采用服务运行状况审阅
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdars
+ms.date: 11/09/2018
+audience: Admin
+ms.topic: article
+ms.service: msteams
+ms.reviewer: karuanag
+localization_priority: Normal
+search.appverid: MET150
+description: 了解如何使用服务运行状况团队应用中的报告。
+ms.custom:
+- NewAdminCenter_Update
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 126f64cad95f889f93eacca012b6a20c9962bcd1
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26256402"
+---
+# <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>安排的 Microsoft 团队采用服务运行状况审阅
+
+在您的技术实施团队合作，计划为团队保留每月的服务运行状况检查。 这些审阅中将共享见解上以下措施：
+
+- **服务使用情况**– 活动的使用率数据，并且可能包括弃用的服务或消耗量减少由于移到工作组信息。 通常指示灯服务管理器或协作服务产品所有者。
+- **服务运行状况**– 呼叫质量会议运行状况和整体服务运行状况。 任何支持事件和支持人员票证级别的审查。 安全性和管理的主题。 通常由信息保护和支持团队领导。 
+- **功能/项目路线图**– 的安排的剩余员工入职培训或进一步协作改进项目是什么？ 您的组织打算允许哪些其他功能？ 通常指示灯服务管理器或与关键业务利益干系人协作的协作服务产品所有者。
+- **认知市场活动和培训成功测量更新**– 包括通、 参与、 键反馈主题和打开的问题。 包括关键 wins 和成功案例。 
+
+此每月的审查可以非常正式在大型组织或小型企业中虚拟。 非常重要共享和监视这些数据，以确保正常和 Microsoft 团队的每个逐渐色彩鲜明实现。 

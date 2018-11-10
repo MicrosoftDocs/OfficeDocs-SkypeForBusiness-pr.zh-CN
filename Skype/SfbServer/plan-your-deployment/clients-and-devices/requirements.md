@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: 本文汇总了支持 Skype 会议室系统 v2 的要求。
-ms.openlocfilehash: 469a13822bb319eab1b78a418b7c2eddd182666b
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 23ab819c4a32efd4228a1d1d5b7aba89275e5b39
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784875"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255770"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype 会议室系统 v2 要求
 
@@ -42,11 +42,11 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
 
 |平板电脑|处理器|RAM|磁盘|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4       |核心 i5  |4 GB  |128 GB  |
-|Surface Pro 4       |核心 i5  |8 GB  |256 GB  |    
-|Surface Pro (2017)  |核心 i5  |4 GB  |128 GB  |
-|Surface Pro (2017)  |核心 i5  |8 GB  |128 GB  |
 |Surface Pro (2017)  |核心 i5  |8 GB  |256 GB  |
+|Surface Pro (2017)  |核心 i5  |8 GB  |128 GB  |
+|Surface Pro (2017)  |核心 i5  |4 GB  |128 GB  |
+|Surface Pro 4       |核心 i5  |8 GB  |256 GB  |
+|Surface Pro 4       |核心 i5  |4 GB  |128 GB  |
 
 > [!NOTE]
 > 核心 M3 处理器不受支持。
