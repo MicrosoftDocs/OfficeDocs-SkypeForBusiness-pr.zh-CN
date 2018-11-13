@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8553589dc895317c9799f9fde9d6a0e622b30a0
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.openlocfilehash: 54f7805e4e6db4416601ea01bcb5fc66e57ead17
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238041"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255651"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 =================================================
@@ -40,7 +40,7 @@ ms.locfileid: "26238041"
 
 查看此简短视频以了解有关创建团队和频道的最佳实践的详细信息。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="640" height="350" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <a name="membership-roles-and-settings"></a>成员资格、 角色和设置
 ------------------------------
@@ -54,7 +54,7 @@ ms.locfileid: "26238041"
 **团队设置** 团队所有者可以直接在 Microsoft Teams 中管理团队范围设置。 设置包括添加团队图片、跨团队成员设置创建频道、添加选项卡和连接器和 @提及整个团队或频道的功能，以及 GIF、贴纸和 Meme 的使用情况。 
 
 需要三个分钟才能查看本指南转到视频团队所有者的使用： 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="640" height="350" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 如果您是 Office 365 中的 Microsoft 团队管理员，您有权访问业务管理中心的 Skype 团队中的系统范围设置。 这些设置可能会影响团队所有者在团队设置下看到的选项和默认设置。 例如，你可以为团队范围的公告、讨论和资源启用默认频道“常规”，它将在所有团队中显示。
 
