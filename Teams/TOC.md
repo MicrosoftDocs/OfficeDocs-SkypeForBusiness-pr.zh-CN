@@ -1,15 +1,11 @@
+<!-- ============================================================ -->
+# 入门
 
-<!-- ============================================================ -->
-# [欢迎使用 Teams](teams-overview.md)
-<!-- ============================================================ -->
-# [入门](get-started-with-teams-landing-page.md)
-## [快速入门-团队](get-started-with-teams-quick-start.md)
-## [创建第一个团队和通道](get-started-with-teams-create-your-first-teams-and-channels.md)
-## [板载前期应用](get-started-with-teams-onboard-early-adopters.md)
-## [监视使用情况和反馈](get-started-with-teams-monitor-usage-and-feedback.md)
-## [下一个位置](get-started-with-teams-resources-for-org-wide-rollout.md)
+## [Teams 概述](Teams-overview.md)
+## [工具和研讨会：规划、交付和运营 Teams](planning-workshop-practical-guide.md)
 ## [在 Microsoft 团队中获取帮助](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
+
 
 <!-- ============================================================ -->
 # 规划
@@ -27,26 +23,7 @@
 ## [创建更改管理策略](change-management-strategy.md)
 <!-- ============================================================ -->
 
-<!-- ============================================================ -->
-# [采用](adopt-microsoft-teams-landing-page.md) 
 
-## [入门](teams-adoption-get-started.md)
-## [阶段 1-开始](teams-adoption-phase1.md)
-### [了解团队和频道](teams-adoption-understand-teams-and-channels.md)
-### [创建您的第一个团队](teams-adoption-your-first-teams.md)
-### [如何准备是为团队贵组织？](teams-adoption-assess-readiness.md)
-## [阶段 2-实验](teams-adoption-phase2-experiment.md)
-### [创建拥护者程序](teams-adoption-create-champions-program.md)
-### [管理快速入门](teams-adoption-governance-quick-start.md)
-### [定义使用方案](teams-adoption-define-usage-scenarios.md)
-### [板载前期应用和收集反馈](teams-adoption-onboard-early-adopters.md)
-### [板载支持](teams-adoption-onboard-support.md)
-## [阶段 3-比例](teams-adoption-phase3-enable.md)
-### [定义产出和成功](teams-adoption-define-outcomes.md)
-### [优化反馈和报告](teams-adoption-optimize-feedback-and-reporting.md)
-### [驱动器认知度和培训](teams-adoption-drive-awareness.md)
-### [安排服务运行状况 reviews （英文）](teams-adoption-schedule-service-health-reviews.md)
-<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # 配置和部署
@@ -134,7 +111,6 @@
 <!-- ============================================================ -->
 # 与 Office 365 的互操作性
 ## [迁移和 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
-## [与 Skype for Business 的共存](coexistence-chat-calls-presence.md)
 ## [设置您共存并升级设置](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 组和 Teams](office-365-groups.md)
 ## [使用 Teams 增强现有 Office 365 组](enhance-office-365-groups.md)
@@ -206,7 +182,6 @@
 ### [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
 ### [在工作组中创建一个组织范围团队](create-an-org-wide-team.md)
 ### [动态团队的成员身份的概述](dynamic-memberships.md)
-## [状态](presence-admins.md)
 ## [来宾访问](guest-access.md)
 ### [来宾加入团队的方式](guest-joins.md)
 ### [来宾体验介绍](guest-experience.md)
@@ -236,8 +211,7 @@
 #### [什么是团队 live 事件？](teams-live-events/what-are-teams-live-events.md)
 #### [规划团队 live 事件](teams-live-events/plan-for-teams-live-events.md)
 #### [设置团队的实时事件](teams-live-events/set-up-for-teams-live-events.md)
-#### [使用 PowerShell 设置团队 live 事件策略](teams-live-events/set-teams-live-events-policies-using-powershell.md)
-#### [配置团队 live 事件设置](teams-live-events/configure-teams-live-events.md)
+#### [配置团队 live 事件](teams-live-events/configure-teams-live-events.md)
 
 
 
@@ -372,7 +346,7 @@
 #### [启用或禁用更改音频会议设置时发送电子邮件](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [使用户能够在加入会议时录制其姓名](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 #### [管理用户的音频会议设置](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-#### [管理您的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+#### [管理我的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 #### [音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [音频会议和用户 PSTN 通话的出站通话限制策略](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [重置用户的会议 ID](reset-a-conference-id-for-a-user-in-teams.md)

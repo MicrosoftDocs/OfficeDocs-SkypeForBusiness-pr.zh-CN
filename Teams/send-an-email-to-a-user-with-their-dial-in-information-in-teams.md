@@ -20,67 +20,69 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 在 Microsoft Teams 中向你的用户发送包含其音频会议信息的电子邮件。
-ms.openlocfilehash: 78fc4c0c071c4cc66c4bc20339dcda52b2be2890
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: 3b1cb1eb4fcf654a4ab3d3cb227416b0cf700817
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26283160"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294918"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a><span data-ttu-id="d3af9-103">在 Microsoft Teams 中向用户发送包含其音频会议信息的电子邮件</span><span class="sxs-lookup"><span data-stu-id="d3af9-103">Send an email to a user with their Audio Conferencing information in Microsoft Teams</span></span>
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a><span data-ttu-id="28af5-103">在 Microsoft Teams 中向用户发送包含其音频会议信息的电子邮件</span><span class="sxs-lookup"><span data-stu-id="28af5-103">Send an email to a user with their Audio Conferencing information in Microsoft Teams</span></span>
 
-<span data-ttu-id="d3af9-104">有时，Microsoft Teams 用户可能需要你向其发送电话音频会议信息。</span><span class="sxs-lookup"><span data-stu-id="d3af9-104">Sometimes Microsoft Teams users may need you to send them their Audio Conferencing information.</span></span> <span data-ttu-id="d3af9-105">你可以单击用户的属性下的“**通过电子邮件发送会议信息**”来完成。</span><span class="sxs-lookup"><span data-stu-id="d3af9-105">You can do this by clicking **Send conference info via email** under the properties for a user.</span></span> <span data-ttu-id="d3af9-106">当你发送此电子邮件时，它将包含所有音频会议信息，包括：</span><span class="sxs-lookup"><span data-stu-id="d3af9-106">When you send this email, it will contain all of the audio conferencing information, including:</span></span>
+<span data-ttu-id="28af5-104">有时，Microsoft Teams 用户可能需要你向其发送电话音频会议信息。</span><span class="sxs-lookup"><span data-stu-id="28af5-104">Sometimes Microsoft Teams users may need you to send them their Audio Conferencing information.</span></span> <span data-ttu-id="28af5-105">你可以单击用户的属性下的“**通过电子邮件发送会议信息**”来完成。</span><span class="sxs-lookup"><span data-stu-id="28af5-105">You can do this by clicking **Send conference info via email** under the properties for a user.</span></span> <span data-ttu-id="28af5-106">当你发送此电子邮件时，它将包含所有音频会议信息，包括：</span><span class="sxs-lookup"><span data-stu-id="28af5-106">When you send this email, it will contain all of the audio conferencing information, including:</span></span>
   
-- <span data-ttu-id="d3af9-107">用户的会议电话或拨入电话号码。</span><span class="sxs-lookup"><span data-stu-id="d3af9-107">The conference phone or dial-in phone number for the user.</span></span>
+- <span data-ttu-id="28af5-107">用户的会议电话或拨入电话号码。</span><span class="sxs-lookup"><span data-stu-id="28af5-107">The conference phone or dial-in phone number for the user.</span></span>
     
-- <span data-ttu-id="d3af9-108">用户的会议 ID。</span><span class="sxs-lookup"><span data-stu-id="d3af9-108">The user's conference ID.</span></span>
+- <span data-ttu-id="28af5-108">用户的会议 ID。</span><span class="sxs-lookup"><span data-stu-id="28af5-108">The user's conference ID.</span></span>
     
    
-<span data-ttu-id="d3af9-109">下面是发送的电子邮件示例：</span><span class="sxs-lookup"><span data-stu-id="d3af9-109">Here is an example of the email that is sent:</span></span>
+<span data-ttu-id="28af5-109">下面是发送的电子邮件示例：</span><span class="sxs-lookup"><span data-stu-id="28af5-109">Here is an example of the email that is sent:</span></span>
   
 ![电话拨入式会议电子邮件](media/audio-conferencing-info.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a><span data-ttu-id="d3af9-111">向用户发送包含音频会议信息的电子邮件</span><span class="sxs-lookup"><span data-stu-id="d3af9-111">Send an email with audio conferencing information to a user</span></span>
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a><span data-ttu-id="28af5-111">向用户发送包含音频会议信息的电子邮件</span><span class="sxs-lookup"><span data-stu-id="28af5-111">Send an email with audio conferencing information to a user</span></span>
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![团队-徽标-30x30.png](media/teams-logo-30x30.png) <span data-ttu-id="d3af9-113">使用 Microsoft 团队和 Skype for Business Admin Center</span><span class="sxs-lookup"><span data-stu-id="d3af9-113">Using the Microsoft Teams and Skype for Business Admin Center</span></span>
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![团队-徽标-30x30.png](media/teams-logo-30x30.png) <span data-ttu-id="28af5-113">使用 Microsoft 团队和 Skype for Business Admin Center</span><span class="sxs-lookup"><span data-stu-id="28af5-113">Using the Microsoft Teams and Skype for Business Admin Center</span></span>
 
-1. <span data-ttu-id="d3af9-114">在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。</span><span class="sxs-lookup"><span data-stu-id="d3af9-114">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
+1. <span data-ttu-id="28af5-114">在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。</span><span class="sxs-lookup"><span data-stu-id="28af5-114">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
 
-2. <span data-ttu-id="d3af9-115">在页面的顶部，单击**编辑**。</span><span class="sxs-lookup"><span data-stu-id="d3af9-115">At the top of the page, click **Edit**.</span></span>
+2. <span data-ttu-id="28af5-115">在页面的顶部，单击**编辑**。</span><span class="sxs-lookup"><span data-stu-id="28af5-115">At the top of the page, click **Edit**.</span></span>
 
-3. <span data-ttu-id="d3af9-116">在**音频会议**，单击**发送电子邮件中的会议信息**。</span><span class="sxs-lookup"><span data-stu-id="d3af9-116">Under **Audio Conferencing**, click **Send conference info in email**.</span></span>
+3. <span data-ttu-id="28af5-116">在**音频会议**，单击**发送电子邮件中的会议信息**。</span><span class="sxs-lookup"><span data-stu-id="28af5-116">Under **Audio Conferencing**, click **Send conference info in email**.</span></span>
 
 
-## <a name="what-else-should-you-know-about-this-email"></a><span data-ttu-id="d3af9-117">此电子邮件的其他须知事项。</span><span class="sxs-lookup"><span data-stu-id="d3af9-117">What else should you know about this email?</span></span>
+## <a name="what-else-should-you-know-about-this-email"></a><span data-ttu-id="28af5-117">此电子邮件的其他须知事项。</span><span class="sxs-lookup"><span data-stu-id="28af5-117">What else should you know about this email?</span></span>
 
-- <span data-ttu-id="d3af9-118">有多个电子邮件发送给组织中的用户启用了后为音频会议：</span><span class="sxs-lookup"><span data-stu-id="d3af9-118">There are several emails that are sent to users in your organization after they are enabled for audio conferencing:</span></span>
+- <span data-ttu-id="28af5-118">有多个电子邮件发送给组织中的用户启用了后为音频会议：</span><span class="sxs-lookup"><span data-stu-id="28af5-118">There are several emails that are sent to users in your organization after they are enabled for audio conferencing:</span></span>
     
-  - <span data-ttu-id="d3af9-119">向其分配**音频会议**许可证时。</span><span class="sxs-lookup"><span data-stu-id="d3af9-119">When an **Audio Conferencing** license is assigned to them.</span></span>
+  - <span data-ttu-id="28af5-119">向其分配**音频会议**许可证时。</span><span class="sxs-lookup"><span data-stu-id="28af5-119">When an **Audio Conferencing** license is assigned to them.</span></span>
     
-  - <span data-ttu-id="d3af9-120">当您手动重置用户的音频会议 PIN。</span><span class="sxs-lookup"><span data-stu-id="d3af9-120">When you manually reset the user's audio conferencing PIN.</span></span>
+  - <span data-ttu-id="28af5-120">当您手动重置用户的音频会议 PIN。</span><span class="sxs-lookup"><span data-stu-id="28af5-120">When you manually reset the user's audio conferencing PIN.</span></span>
     
-  - <span data-ttu-id="d3af9-121">当你手动重置用户的会议 ID 时。</span><span class="sxs-lookup"><span data-stu-id="d3af9-121">When you manually reset the user's conference ID.</span></span>
+  - <span data-ttu-id="28af5-121">当你手动重置用户的会议 ID 时。</span><span class="sxs-lookup"><span data-stu-id="28af5-121">When you manually reset the user's conference ID.</span></span>
     
-  - <span data-ttu-id="d3af9-122">当**音频会议**许可证已从它们。</span><span class="sxs-lookup"><span data-stu-id="d3af9-122">When an **Audio Conferencing** license is removed from them.</span></span>
+  - <span data-ttu-id="28af5-122">当**音频会议**许可证已从它们。</span><span class="sxs-lookup"><span data-stu-id="28af5-122">When an **Audio Conferencing** license is removed from them.</span></span>
     
-  - <span data-ttu-id="d3af9-123">当用户音频会议提供商从 Microsoft 更改为其他提供程序或**无**。</span><span class="sxs-lookup"><span data-stu-id="d3af9-123">When the audio conferencing provider for a user is changed from Microsoft to another provider or **None**.</span></span>
+  - <span data-ttu-id="28af5-123">当用户音频会议提供商从 Microsoft 更改为其他提供程序或**无**。</span><span class="sxs-lookup"><span data-stu-id="28af5-123">When the audio conferencing provider for a user is changed from Microsoft to another provider or **None**.</span></span>
     
-  - <span data-ttu-id="d3af9-124">向 Microsoft 更改时用户音频会议提供商。</span><span class="sxs-lookup"><span data-stu-id="d3af9-124">When the audio conferencing provider for a user is changed to Microsoft.</span></span>
+  - <span data-ttu-id="28af5-124">向 Microsoft 更改时用户音频会议提供商。</span><span class="sxs-lookup"><span data-stu-id="28af5-124">When the audio conferencing provider for a user is changed to Microsoft.</span></span>
+    
+- <span data-ttu-id="28af5-125">默认情况下，电子邮件发件人将从 Office 365，但您可以更改的电子邮件地址，并且可以使用 Windows PowerShell 显示名称。</span><span class="sxs-lookup"><span data-stu-id="28af5-125">By default, the sender of the emails will be from Office 365, but you can change the email address and display name by using Windows PowerShell.</span></span> <span data-ttu-id="28af5-126">请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)（英文） 的详细信息。</span><span class="sxs-lookup"><span data-stu-id="28af5-126">See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
   
-## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="d3af9-125">想要了解有关 Windows PowerShell 的详细信息？</span><span class="sxs-lookup"><span data-stu-id="d3af9-125">Want to know more about Windows PowerShell?</span></span>
+## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="28af5-127">想要了解有关 Windows PowerShell 的详细信息？</span><span class="sxs-lookup"><span data-stu-id="28af5-127">Want to know more about Windows PowerShell?</span></span>
 
-<span data-ttu-id="d3af9-p102">Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：</span><span class="sxs-lookup"><span data-stu-id="d3af9-p102">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
+<span data-ttu-id="28af5-p103">Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：</span><span class="sxs-lookup"><span data-stu-id="28af5-p103">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="d3af9-129">为什么要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="d3af9-129">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="28af5-131">为什么要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="28af5-131">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [<span data-ttu-id="d3af9-130">使用 Windows PowerShell 管理 Office 365 的最佳方式</span><span class="sxs-lookup"><span data-stu-id="d3af9-130">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="28af5-132">使用 Windows PowerShell 管理 Office 365 的最佳方式</span><span class="sxs-lookup"><span data-stu-id="28af5-132">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-<span data-ttu-id="d3af9-131">有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)了解详细信息。</span><span class="sxs-lookup"><span data-stu-id="d3af9-131">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="28af5-133">有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)了解详细信息。</span><span class="sxs-lookup"><span data-stu-id="28af5-133">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
     
   
-## <a name="related-topics"></a><span data-ttu-id="d3af9-132">相关主题</span><span class="sxs-lookup"><span data-stu-id="d3af9-132">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="28af5-134">相关主题</span><span class="sxs-lookup"><span data-stu-id="28af5-134">Related topics</span></span>
 
-[<span data-ttu-id="d3af9-133">试用或购买 Office 365 中的音频会议</span><span class="sxs-lookup"><span data-stu-id="d3af9-133">Try or purchase Audio Conferencing in Office 365</span></span>](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[<span data-ttu-id="28af5-135">试用或购买 Office 365 中的音频会议</span><span class="sxs-lookup"><span data-stu-id="28af5-135">Try or purchase Audio Conferencing in Office 365</span></span>](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

@@ -4,11 +4,11 @@ hide_bc: true
 title: Skype for Business
 description: Skype for Business
 ms.openlocfilehash: cbb9765c358047b628be45759e2002cdc5a46f02
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
-ms.translationtype: HT
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546662"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293644"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -51,7 +51,7 @@ ms.locfileid: "25546662"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>混合解决方案</h3>
-                                                    <p>查找有关规划 Skype for Business 混合部署的信息。</p>
+                                                    <p>查找有关规划业务混合部署的 Skype 的信息。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -126,7 +126,7 @@ ms.locfileid: "25546662"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>从 Skype for Business 到 Microsoft Teams 的旅程</h3>
-                                                    <p>了解探索迁移到 Teams 的最佳路径的指导和工具。</p>
+                                                    <p>查找指南和工具，可以为团队探索最佳路径。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -180,7 +180,7 @@ ms.locfileid: "25546662"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>终端用户</h3>
-                                                    <p>在 <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a> 上查找 Skype for Business 用户的帮助、培训和技术支持。</p>
+                                                    <p>寻找<a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>业务用户的帮助、 培训和 Skype 的技术支持。</p>
                                                 </div>
                                             </div>
                                         </div>
