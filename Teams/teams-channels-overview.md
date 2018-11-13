@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54f7805e4e6db4416601ea01bcb5fc66e57ead17
-ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
+ms.openlocfilehash: 10de89c43a653cd090f313ec368bde42bd774b03
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26255651"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26282985"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 =================================================
@@ -40,7 +40,7 @@ ms.locfileid: "26255651"
 
 查看此简短视频以了解有关创建团队和频道的最佳实践的详细信息。
 
-<iframe width="640" height="350" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
 <a name="membership-roles-and-settings"></a>成员资格、 角色和设置
 ------------------------------
@@ -54,7 +54,8 @@ ms.locfileid: "26255651"
 **团队设置** 团队所有者可以直接在 Microsoft Teams 中管理团队范围设置。 设置包括添加团队图片、跨团队成员设置创建频道、添加选项卡和连接器和 @提及整个团队或频道的功能，以及 GIF、贴纸和 Meme 的使用情况。 
 
 需要三个分钟才能查看本指南转到视频团队所有者的使用： 
-<iframe width="640" height="350" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
 如果您是 Office 365 中的 Microsoft 团队管理员，您有权访问业务管理中心的 Skype 团队中的系统范围设置。 这些设置可能会影响团队所有者在团队设置下看到的选项和默认设置。 例如，你可以为团队范围的公告、讨论和资源启用默认频道“常规”，它将在所有团队中显示。
 
@@ -68,7 +69,6 @@ ms.locfileid: "26255651"
 下面是一些操作示例，介绍了不同类型的用户如何建立其团队、频道和应用（选项卡/连接器/聊天机器人）- 要与你的用户社区开始有关 Microsoft Teams 的对话，这可能很有帮助作用。 当你考虑如何在贵组织中实施 Microsoft Teams 时，请注意，你可以指导如何建立团队，但用户可以控制如何自我组织。 这些示例正是促使团队开始仔细思考各种可能性。
 
 Microsoft Teams 的特点在于打破组织界限及推动跨职能团队，因此，鼓励你的用户从职能团队而不是组织界限角度考虑这一点。
-
 
 |团队类型  |可能的频道  |应用（选项卡 ![选项卡图标。](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/连接器 ![连接器图标。](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/聊天机器人 ![聊天机器人图标。](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
