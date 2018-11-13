@@ -13,11 +13,11 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e2090036aa5e1a05e46581d365d9b6b4aeb94b32
-ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25040777"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294133"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>设置 Microsoft 团队的云视频互操作
 

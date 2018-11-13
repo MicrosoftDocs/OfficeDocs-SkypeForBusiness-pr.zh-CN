@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba794c49543740c2b436320d6639454ffb447659
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 93a3174085f6e42eed1496415122c89b550e61a6
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838722"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295330"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -31,7 +31,7 @@ ms.locfileid: "25838722"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|EAF 策略中增强缓解体验 Toolkit (EMET) 可以正确标识为威胁的六价铬沙盒优化。 <br/> |没有六价铬沙盒中增强缓解体验 Toolkit (EMET) 并在 Windows Defender 高级威胁保护 (ATP) 的导出地址表访问筛选 (EAF) 策略可以正确标识六价铬沙盒问题作为威胁优化。 这将导致不能正常工作的团队。  <br/> | 若要解决此问题关闭 EAF 团队。 您可以阅读更多有关问题[EMET 采取一些缓解措施准则](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines)有关 Windows Defender ATP 和 EAF 策略的详细信息，请参阅[Customize 利用保护](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |10/11/18 <br/> |
+|EAF 策略中增强缓解体验 Toolkit (EMET) 可以正确标识为威胁的六价铬沙盒优化。 <br/> |没有六价铬沙盒导出地址表访问筛选 (EAF) 策略中增强缓解体验 Toolkit (EMET) 可以正确标识为威胁六价铬沙盒优化的问题。 这样可以防止团队 web 视图中的选项卡正确呈现。 <br/> | 关闭对镶边 EAF。 您可以阅读更多有关该问题[EMET 采取一些缓解措施准则](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) <br/> |10/11/18 <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|

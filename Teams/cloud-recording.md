@@ -11,12 +11,12 @@ description: 在 Microsoft Teams 中部署云语音功能实践指导
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ae144405375daa818f334fdf5be85e75cd4f6b1
-ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
+ms.openlocfilehash: e78abdbe7d0cc2680917f2aae7920883837a2ac9
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25851581"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296385"
 ---
 # <a name="teams-cloud-meeting-recording"></a>团队云会议录制
 
@@ -31,7 +31,7 @@ ms.locfileid: "25851581"
 
 要记录的团队用户的会议，必须为租户启用 Microsoft 流。 此外，则会议组织者和正在启动录制的人员所必需的以下先决条件：
 
-- 用户具有 Office 365 E1、 E3、 E5、 A1，A3、 A5、 M365 业务、 企业高级版或业务 Essentials
+- 用户具有的 Office 365 企业版 E1、 E3 或 E5 许可证
 - 用户需要 Microsoft 流的许可
 - 用户具有 Microsoft 流上载视频的权限
 - 用户已同意的公司准则，如果管理员设置

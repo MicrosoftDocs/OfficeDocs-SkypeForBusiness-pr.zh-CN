@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 业务服务器驻留在 Skype 中实施的基于云的语音邮件的用户的说明。
-ms.openlocfilehash: 05c486ed338e8e77ab68f12a64c3a59646a157d0
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 80f154a7fa8e34b7912ebf5762e5d0390e21fd22
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838744"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294889"
 ---
 # <a name="configure-cloud-voicemail-service"></a>配置语音邮件云服务
 
@@ -93,7 +93,7 @@ Get-CsHostedVoicemailPolicy
 
 ## <a name="assign-a-hosted-voicemail-policy"></a>分配托管语音邮件策略
 
-默认情况下，全局承载语音邮件策略分配给所有用户。 如果您使用不同的策略，在启用托管语音邮件的用户之前，您必须首先授予用户所需的托管语音邮件策略使用[授予 CSHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps) cmdlet。
+默认情况下，全局承载语音邮件策略分配给所有用户。 如果您使用不同的策略，在启用托管语音邮件的用户之前，您必须首先授予用户所需的托管语音邮件策略使用[授予 CSHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps) cmdlet。
 
 例如，以下命令将非全局托管语音邮件策略分配给用户：
 
@@ -104,7 +104,7 @@ Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:Clou
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>为用户启用云语音邮件
 
-若要启用用户的语音邮件的呼叫路由到云语音邮件，您可以与 HostedVoiceMail 参数中使用[Set-csuser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) cmdlet。 
+若要启用用户的语音邮件的呼叫路由到云语音邮件，您可以与 HostedVoiceMail 参数中使用[Set-csuser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuser?view=skype-ps) cmdlet。 
 
 例如，以下命令可使云语音邮件的用户帐户： 
 

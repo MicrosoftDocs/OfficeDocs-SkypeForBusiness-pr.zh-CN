@@ -3,23 +3,24 @@ title: 获取多维数据集
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
-description: 摘要： 了解如何获取多维数据集操作，它是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: 228ebd8f9bcb6db919f418ef9809bce1b3eb7f90
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: 摘要： 了解如何获取多维数据集操作，它是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
+ms.openlocfilehash: 9c31650a5dc5471e0d5ad2dcdbf2214b16d91c56
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035671"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294434"
 ---
 # <a name="get-cube"></a>获取多维数据集
  
-**摘要：** 了解有关获取多维数据集操作，它是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
+**摘要：** 了解有关获取多维数据集操作，它是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
   
 获取多维数据集操作是用于呼叫的质量仪表板的数据 API 的一部分。
   

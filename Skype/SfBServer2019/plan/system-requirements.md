@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 摘要： 准备您的 Skype 业务服务器 2019年服务器和域基础结构与本主题。 硬件、 操作系统、 数据库、 软件、 所有系统要求和建议，以及证书 DNS、 文件共享和 Active Directory 信息，在此处都要帮助确保成功安装和部署服务器场。
-ms.openlocfilehash: 0cacba46f438f84c75aa80d1e73d9b4f7fa6c0ff
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+ms.openlocfilehash: c7064f4d1c8136cf714d784fd1985efd0f21c979
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035762"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296153"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>For Business Server 2019 Skype 的系统要求
  
@@ -193,7 +193,7 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2016 （64 位版本），并且您必须运行与最新的更新和 AlwaysOn 可用性组。  <br/> ||
+|Microsoft SQL Server 2016/2017年企业版 （64 位版本），并且您必须运行与最新的更新和 AlwaysOn 可用性组。  <br/> ||
  |
    
 如果您没有看到要使用此处列出的 SQL Server 版本，则无法使用它。
@@ -211,11 +211,11 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
   
 双节点：
   
-- Microsoft SQL Server 2016 标准 （64 位版本），以及我们建议最新的 service pack 的运行。
+- Microsoft SQL Server 2016/2017年标准 （64 位版本），以及我们建议最新的 service pack 的运行。
     
 16 节点：
   
-- Microsoft SQL Server 2016 企业版 （64 位版本），以及我们建议最新的 service pack 的运行。
+- Microsoft SQL Server 2016/2017年企业版 （64 位版本），以及我们建议最新的 service pack 的运行。
     
 我们必须文章，配置 SQL Server 群集的 Skype 的业务服务器 2019，已获取就绪群集的步骤。
  
@@ -246,8 +246,6 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 
 可以使用以下域控制器操作系统：
   
-- Windows Server 2019
-
 - Windows Server 2016
     
 - Windows Server 2012 R2
@@ -256,8 +254,6 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
     
 Skype 部署的 Business Server 2019 到，任何域的域功能级别和 Skype 部署的 Business Server 2019 到，任何林中的林功能级别必须为下列选项之一：
   
-- Windows Server 2019
-
 - Windows Server 2016
     
 - Windows Server 2012 R2
@@ -351,7 +347,7 @@ Skype 的业务服务器 2019年并支持中央林拓扑中配置的多个林。
   
 在此方案中，一个资源林拓扑中有多个本地林。Active Directory 林之间为完全信任关系。Azure Active Directory Connect 工具用于在本地用户林和 Office 365 之间同步帐户。
   
- 组织还有 Office 365，并使用 [Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) 将其本地帐户与 Office 365 同步。 为业务联机通过 Office 365 和 Skype 启用了用户启用了 for Business 的 Skype。 Skype 业务服务器不在本地部署。
+ 组织还有 Office 365，并使用 [Azure Active Directory Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect) 将其本地帐户与 Office 365 同步。 为业务联机通过 Office 365 和 Skype 启用了用户启用了 for Business 的 Skype。 Skype 业务服务器不在本地部署。
   
 由位于用户林的 Active Directory 联合身份验证服务服务器场提供单一登录身份验证。
   

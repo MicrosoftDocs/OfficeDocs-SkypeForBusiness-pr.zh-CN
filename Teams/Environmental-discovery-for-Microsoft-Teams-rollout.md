@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4503019a35580e662f5ca1e91e9645f92a584c6
-ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
+ms.openlocfilehash: 53f8704daf923b54e30d0061669ea1de63eeb02e
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025124"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295588"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft 团队部署的环境发现
 ===================================================
@@ -136,7 +136,7 @@ ms.locfileid: "26025124"
 
 > | 问题 | 回答 | 备注 |
 > |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-> | 哪些版本的 Lync 或 for Business 的 Skype 当前 <br>在本地部署？ | <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Skype 业务服务器 2015 <br/> <input type="checkbox">Skype 业务服务器 2019 <br/><input type="checkbox">Skype 商业云连接器 edition | |
+> | 哪些版本的 Lync 或 for Business 的 Skype 当前 <br>在本地部署？ | <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Skype 业务服务器 2015 <br/> <input type="checkbox">Skype 业务服务器 2019年<input type="checkbox">Skype 商业云连接器 edition | |
 > | 是否配置了与 Skype for Business Online 混合？ | <input type="checkbox">是的 <br/> <input type="checkbox">不 | |
 > | 此环境承载以及由第三方管理？ <br/>如果是，注意注释列中的详细信息。 | <input type="checkbox">是的 <br/> <input type="checkbox">不 | |
 > | 哪些形式和功能当前正在使用 <br>今天？ | <input type="checkbox">即时消息和状态 (IM/P) <br/> <input type="checkbox">会议 <br/> <input type="checkbox">联合身份验证 <br/> <input type="checkbox">会议录制 <br/> <input type="checkbox">持久聊天 / 群聊 <br/> <input type="checkbox">Microsoft 音频会议 <br>&nbsp;&nbsp; &nbsp;（以前称为电话拨入式会议） 上您 <br>&nbsp;&nbsp; &nbsp;内部部署 Lync Server 或 <br>&nbsp;&nbsp; &nbsp;Skype 业务部署 <br/> <input type="checkbox">第三方音频会议 <br>&nbsp;&nbsp; &nbsp;（请注意注释列中的详细信息） <br/> <input type="checkbox">使用企业语音部署 PSTN <br>&nbsp;&nbsp; &nbsp;连接 <br/> <input type="checkbox">调用计划 (以前称为 PSTN 呼叫) 通过 <br>&nbsp;&nbsp; &nbsp;与 Skype 的业务 Online 的混合 | |

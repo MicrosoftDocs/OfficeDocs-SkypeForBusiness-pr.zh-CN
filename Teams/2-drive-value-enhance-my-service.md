@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb6aeca0892bb3ccd07c5d4dd60508424845b4c
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 96af6eb707c8f104a7810e924323d9f32996f8f1
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838474"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294555"
 ---
 # <a name="enhance-my-service"></a>增强我的服务
 
@@ -29,7 +29,7 @@ ms.locfileid: "25838474"
 
 请确保您将始终获得最有效地使用您的服务的好方法是监视可能感兴趣的组织的新功能增强的[团队公共路线图](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)。 如果您有权访问 Office 365 管理门户您将收到有关通过我们消息中心的新增和更改功能从我们的定期更新。 
 
-此外，因为组织增长和更改，您应花时间随着并以确保该服务配置以满足组织当前需求的定期更新您的业务使用案例。  确保将通过您的组织中建立反馈通道从您的用户和内部拥护者中获取现实世界的反馈。 这些可非正式对话，常规会议或通过团队频道或 Yammer 社区。 
+此外，因为组织增长和更改，您应花时间随着并以确保该服务配置以满足组织当前需求的定期更新您的业务使用案例。  确保将通过您的组织中建立反馈通道从您的用户和内部拥护者中获取现实世界的反馈。 这些可非正式对话，正则 meeetings 或通过团队频道或 Yammer 社区。 
 
 当您看到增强您的服务的机会时，花时间正确。 随着我们实现阶段 (https://docs.microsoft.com/MicrosoftTeams/quick-start-enable-teams) ，应用相同的指南端到端。 不太小、 增量更改时，可能需要完成所有活动和完全，任务，但您应该确保评估每个活动和一路以便在成功结果为自己的最大限度地将任务。
 

@@ -1,85 +1,96 @@
 ---
-title: 在 Microsoft 团队中配置 live 事件设置
+title: 配置 live 事件中的 Microsoft 团队
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
-ms.date: 10/23/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua
+ms.reviewer: tonysmit
 search.appverid: MET150
-localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
-description: 了解如何管理保留在您的组织中的团队 live 事件的设置。
-f1keywords: ms.teamsadmincenter.liveevents.settings
+description: 了解如何在 Microsoft 团队中，包括设置与会者可见性和录制选项配置 live 事件设置。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8e12b6b85b61bb8c6312054be07dc37365c62c0
-ms.sourcegitcommit: 2e9761a3b195d31080bff3c9cc17a18adcd5350e
+ms.openlocfilehash: fcd9bc02257d67f1af959d2158042ea73545a25e
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25748146"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296102"
 ---
-# <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft 团队中配置 live 事件设置
+# <a name="configure-live-events-in-microsoft-teams"></a>配置 live 事件中的 Microsoft 团队
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
-使用团队 live 事件设置您的组织中配置的实时事件的保留设置。 您可以设置的支持 URL 和配置第三方视频分布提供程序。 这些设置适用于您的组织中创建的所有 live 事件。 
+## <a name="set-up-event-support-link"></a>设置事件支持链接
+这是将向 live 事件与会者显示的链接。 
 
-您可以方便地管理业务管理中心中的 Microsoft 团队 Skype 这些设置。 在左侧导航窗格中，转到**会议** > **Live 事件设置**。 
-
-![live 事件 settings.png](../media/teams-live-events-settings.png "团队的屏幕截图 live 事件设置可以配置中的 Microsoft 团队业务管理中心的 Skype") 
-
-## <a name="set-up-event-support-url"></a>设置事件支持 URL
-
-显示此 URL live 事件与会者。 添加您的组织的支持 URL，使与会者可以与支持部门联系 live 事件期间方式。
-
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams--skype-for-business-admin-center"></a>![团队-徽标-30x30.png](../media/teams-logo-30x30.png) 使用 Microsoft 团队 Skype 业务管理中心的
-
-1. 在左侧导航窗格中，转到**会议** > **Live 事件设置**。
-2. 在**支持的 URL**，输入您的组织的支持 URL。 
-
-    ![支持 URL 设置 live 中的 Microsoft 团队业务管理中心的 Skype 事件](../media/teams-live-events-settings-supporturl.png "屏幕截图支持 URL 设置团队 live 事件")
-
-### <a name="using-windows-powershell"></a>使用 Windows PowerShell
-请运行以下命令：
+在 Windows PowerShell 中，运行以下命令：
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
 ```
-有关详细信息，请参阅[设置 CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)。
-## <a name="configure-a-third-party-video-distribution-provider"></a>配置第三方视频分布提供程序 
+## <a name="configure-attendee-visibility-options"></a>配置 attendee 可见性选项
+这将允许 live 事件组织者具有适当的与会者可见性创建事件。
 
-如果您购买并设置软件定义网络 (SDN) 解决方案或通过 Microsoft 视频传递合作伙伴的企业内容交付网络 (eCDN) 解决方案，团队中配置实时事件提供的程序。 
+|**值**  |**行为**  |
+|---------|---------|
+|所有人     |用户具有一个选项以创建具有以下 attendee 可见性 live 事件： 公共，公司和特定人员中的每个人。 |
+|EveryoneInCompany     |用户具有一个选项以创建具有以下 attendee 可见性 live 事件： 公司和特定人员中的每个人。 用户无法创建可由匿名用户参加的实时事件。|
+|InvitedUsers |用户只能创建 live 被限制为特定的某个人，如输入的事件管理器的事件。 用户不能与公共和公司身份验证中的每个人创建 live 事件。 |
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams--skype-for-business-admin-center"></a>![团队-徽标-30x30.png](../media/teams-logo-30x30.png) 使用 Microsoft 团队 Skype 业务管理中心的
+使用 BroadcastAttendeeVisibility TeamsMeetingBroadcastPolicy 在 PowerShell 中设置来控制是否用户可以安排可以监视通过匿名与会者的广播的事件。 
 
-1. 在左侧导航窗格中，转到**会议** > **Live 事件设置**。
-2. 在**第三方视频分布提供**，完成以下任务： 
-
-    ![第三方视频通讯组中的 Microsoft 团队业务管理中心的 Skype 的提供程序设置](../media/teams-live-events-settings-distribution-provider.png "屏幕截图的第三方视频分布提供程序设置的实时事件")
-
-    - **使用第三方分发提供程序**关闭此到启用的第三方视频分布提供程序。
-    - **SDN 提供程序名称**选择您使用的提供程序。
-    - **提供程序许可证密钥**输入你从提供程序联系人的许可证 ID。
-    - **SDN API 模板 URL**输入你从提供程序联系人的 API 模板 URL。
-
-### <a name="using-windows-powershell"></a>使用 Windows PowerShell
-从提供程序联系人，获得许可证 ID 或 API 令牌和 API 模板，然后运行以下内容，具体取决于您使用的提供程序之一：
-
-**配置单元** 
+除非您的自定义策略分配给用户，用户将获得全局策略，具有默认设置为 EveryoneInCompany。 
+ 
+在 Windows PowerShell 中，运行以下内容以允许用户在全局策略中创建匿名事件：
 ```
-Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
+Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
 ```
-**Kollective** 
-```
-Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
-```
-有关详细信息，请参阅[设置 CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)。
-
+## <a name="configure-recording-options"></a>配置录制选项
 > [!NOTE]
-> 如果您计划来创建使用外部编码器的实时事件，您还需要配置[与 Microsoft 流您 eCDN 提供程序](https://docs.microsoft.com/stream/network-caching)。 
+> 此选项才适用于使用快速入门生产方法的事件。
 
-### <a name="related-topics"></a>相关主题
-- [什么是团队 live 事件？](what-are-teams-live-events.md)
-- [规划团队 live 事件](plan-for-teams-live-events.md)
-- [设置团队的实时事件](set-up-for-teams-live-events.md)
+始终记录的实时事件，从不记录，还是事件组织者可以决定记录事件，这样，管理员控制。  
+
+|**值**  |**行为**  |
+|---------|---------|
+|始终启用 |始终记录此用户组织的 live 事件。 用户不具有用于重写的选项。 如果记录的实时事件，事件团队成员能够下载录制后事件，并且与会者可以观看后的事件是通过的事件。 |
+|AlwaysDisabled |永远不会记录此用户组织的 live 事件。 用户不具有用于重写的选项。 如果记录的实时事件，为事件团队成员，创建不录制并与会者无法观看结束后的事件。 |
+|UserOverride |用户可以决定 live 事件记录，以便在录制文件可以创建为事件工作组成员，并且与会者可以观看后的事件是通过的事件。 |
+
+使用录制选项创建的实时事件管理器的实时事件的控件设置*BroadcastRecordingMode* **TeamsMeetingBroadcastPolicy**在 PowerShell 中。
+
+在 Windows PowerShell 中，运行以下 cmdlet 以更新全局策略中的记录模式：
+```
+Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
+```
+## <a name="configure-real-time-transcription-and-translation-in-teams-live-events-coming-soon"></a>配置实时转录和转换团队 live 事件 （即将推出）
+> [!NOTE]
+> 此选项才适用于使用快速入门生产方法的事件。
+
+这将允许 live 事件组织者，以启用实时标题和转换为 live 事件与会者。 
+
+使用中的设置*AllowBroadcastTranscription* **TeamsMeetingBroadcastPolicy**在 PowerShell 中控制是否 live 事件与会者都将能够看到转录和转换。 您可以了解有关在此处管理**TeamsMeetingBroadcastPolicy**与 Office 365 PowerShell 的详细信息。  
+
+除非您的自定义策略分配给用户，用户将获得全局策略，具有转录和默认情况下禁用的转换。
+
+在 Windows PowerShell 中，运行以下 cmdlet，以在全局策略中打开转录和上的事件与会者的转换：
+```
+Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
+```
+## <a name="administrative-tools"></a>管理工具 
+虽然 Microsoft 直接控制所有 Office 365 Online 数据中心，并负责整体系统性能，但它可以控制仅结合为 Office 365 用户提供的总体体验的元素的一部分。 组织自己负责网络连接到数据中心，客户的广域网 (WAN) 和客户的局域网 (Lan)。 此外，它们是负责用户设备和其配置。边缘服务器还负责维护所需的授权每个用户的任何所需的功能，包括，但不是限于到，只要用户需要访问功能的管理这些功能的功能。
+
+客户可以使用以下工具来管理的各种工作组 live 事件相关的任务。
+- [Microsoft Office 365 管理中心](https://technet.microsoft.com/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_Office365admincenterl)
+- [Microsoft 团队和 Skype 的业务 Online 管理中心](https://technet.microsoft.com/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_ExchangeAdministrationCenter)
+- [Microsoft 流管理中心](https://stream.microsoft.com)
+- [远程 Windows PowerShell](https://technet.microsoft.com/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_RemoteWindowsPowerShell)
+
+## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
+当谈到 Windows PowerShell，它的所有有关管理用户和用户允许或不允许执行的操作。 使用 Windows PowerShell，您可以管理 Office 365 和 Skype 业务 online 使用单点具有多个要执行的任务时，可以简化您的日常工作的管理。 若要开始使用 Windows PowerShell，请参阅下列主题：
+ - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
+ - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+
+例如当你一次对多个用户更改设置时，Windows PowerShell 比起仅使用 Office 365 管理中心，在速度、简明性和效率方面具有许多优势。通过以下主题了解这些优势：
+ - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+ - [使用 Windows PowerShell 管理 Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+ - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)

@@ -1,7 +1,7 @@
 ---
 title: 商业和 Microsoft 团队了解共存和 Skype 的互操作性
-author: lsomi
-ms.author: lsomi
+author: arachmanGitHub
+ms.author: arachman
 manager: serdars
 ms.date: 09/21/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be6cb8b6154c67e75a84bbb2e44add6109b3108c
-ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
+ms.openlocfilehash: 158e563151fe426f6abbbeb7519ba9e793f2d202
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25851589"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296415"
 ---
 ![升级旅程，重点强调项目定义阶段的阶段](media/upgrade-banner-project-definition.png "升级旅程，重点强调项目定义阶段的阶段")
 
@@ -34,7 +34,7 @@ ms.locfileid: "25851589"
 
 ## <a name="coexistence-of-teams-and-skype-for-business"></a>团队和 Skype 共存 for Business
 
-协作功能，除了团队提供了聊天、 电话和会议功能。 根据您选择如何部署团队，这些功能将由 for Business 的 Skype 分发给定用户的功能与重叠。 默认模式是运行旁 for Business; Skype 的团队但是，可将用户分配多个旨在确保该用户不相互重叠这些功能的共存模式之一。
+协作功能，除了团队提供了聊天、 电话和会议功能。 根据您选择如何部署团队，这些功能可能与给定用户向其传递的 Skype for Business 的功能重叠。 默认模式是运行旁 for Business; Skype 的团队但是，可将用户分配多个旨在确保该用户不相互重叠这些功能的共存模式之一。
 
 我们建议您查看可帮助确定适合您的组织的路径如下所述的共存模式。
 
@@ -48,7 +48,7 @@ ms.locfileid: "25851589"
 在此共存模式，调用**群岛**，每个客户端应用程序运行作为单独岛。 业务交谈 for Business 和团队的 Skype 的 Skype 交谈团队。 用户运行这两个客户端，从中启动通信客户端中本机通信。 因此，没有需要在**群岛**模式下的互操作性。
 
 > [!Tip]
-> Skype 业务联机客户推荐路径是开头的默认**群岛**模式、 驱动器组织中采用饱和度，然后快速移到**团队仅**模式。 在部署和混合客户将受益于准备采用组织时为起始点而不是群岛，并从该处到**团队仅**模式的进度部署的即将开始的**Skype for Business 使用团队协作**模式团队。 
+> 即将发布模式 **仅团队**和**使用团队协作的业务的 Skype**模式下可用时，新 online 用户的默认模式应为 **Skype for Business 使用团队协作**，直到您的组织已准备好将移动到**仅团队**。**群岛**模式中的现有用户应直接移动到**团队仅**模式为您的组织已准备就绪。 
 
 ### <a name="skype-for-business-only"></a>Skype for Business 仅
 
@@ -64,13 +64,13 @@ ms.locfileid: "25851589"
 
 ### <a name="skype-for-business-with-teams-collaboration-this-mode-is-upcoming"></a>Skype for Business 使用团队协作 （此模式为即将发布）
 
-使用此模式时继续利用您现有的投资 Skype for Business 中您的环境中引入团队。 在此模式中，您保持不变与聊天、 电话和会议功能的业务的 Skype 并将其添加团队协作功能 — 团队和通道，访问到 Office 365 和应用程序中的文件。 起始点的 Skype 业务服务器上部署或混合的组织应使用此模式，而不是群岛模式。
+使用此模式时继续利用您现有的投资 Skype for Business 中您的环境中引入团队。 在此模式中，您保持不变与聊天、 电话和会议功能的业务的 Skype 并将其添加团队协作功能 — 团队和通道，访问到 Office 365 和应用程序中的文件。
 
 ### <a name="skype-for-business-with-teams-collaboration-and-meetings-this-mode-is-upcoming"></a>Skype for Business with 团队协作和会议 （此模式为即将发布）
 
 使用此共存模式来加快小组会议中您的组织，除了其协作功能的功能，使用户能够利用很好的质量，如转录的新功能的可用性和翻译，并在浏览器中的会议的支持。
 
-使用团队团队和基于通道 – 在此模式中的对话，以及用户开始使用团队能够安排和管理其会议。 专用聊天和语音和视频呼叫，将保留在 for Business 的 Skype。 特别有用的业务的本地部署企业语音，用户很可能需要一些时间才能升级到团队，但希望受益于出色的团队会议的用户的 Skype 此共存模式。
+使用团队团队和基于通道 – 在此模式中的对话，以及用户开始使用团队能够安排和管理其会议。 专用聊天和语音和视频呼叫，将保留在 for Business 的 Skype。 此共存模式是特别有用的业务的本地部署具有企业语音的用户可能需要一些时间才能升级到团队中 Skype 用户
 
 > [!Note]
 > 当部署特定共存模式中，工作组和 for Business 的 Skype 可以[互操作](#interoperability-of-teams-and-skype-for-business)，使用户能够与聊天和其他，呼叫和确保通信保持整个组织期间向工作组您升级旅程液量。 共存模式调控互操作性。 接收方的共存模式决定是否将提供的互操作性。 例如，如果接收者位于在其中聊天只是一个客户端 （说，团队） 中提供的模式，聊天互操作性通常可在发起者 （在本例中为 for Business 的 Skype） 使用其他客户端启动聊天的情况下。 另一方面，如果接收者位于聊天这两个客户端中提供的模式，互操作性不能再聊天 — 且由发起者在其中启动聊天同一客户端中接收方接收邮件。
@@ -108,7 +108,7 @@ ms.locfileid: "25851589"
 > [!Important]
 > 在本地部署的 for Business 的 Skype 的互操作性体验需要在本地环境处于 for Business 的 Office 365 Skype 混合模式。 有关详细信息，请参阅[迁移和互操作性指南](https://aka.ms/SkypeToTeams-Interop)。
 
-这些互操作的体验是提供给，并且用户拥有分配以下共存模式之一之间： **Skype for Business 使用团队协作**， **Business 团队协作和会议的 Skype**， **Skype 的仅业务**，或**仅团队**。 在群岛模式中对用户没有互操作性。
+这些互操作性体验可供用户拥有分配以下共存模式之一： **Skype for Business 使用团队协作**， **Business 团队协作和会议的 Skype**，仅**Skype for Business**，或**仅团队**。
 
 
 ### <a name="native-interop-experience-limitations"></a>本机互操作性体验限制

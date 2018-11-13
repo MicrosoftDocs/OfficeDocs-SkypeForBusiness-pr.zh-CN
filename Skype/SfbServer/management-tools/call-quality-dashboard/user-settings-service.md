@@ -3,23 +3,24 @@ title: 呼叫质量仪表板 (CQD) 的用户设置服务
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
-description: 摘要： 了解用户设置服务，它是用于呼叫的质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: 00d0662e777ef2f13c9783fe4b79d5c582faa8af
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: 摘要： 了解用户设置服务，它是用于呼叫的质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
+ms.openlocfilehash: 9e72d051699269b404d72e77ca00923b8ca240a3
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035608"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293761"
 ---
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>呼叫质量仪表板 (CQD) 的用户设置服务
  
-**摘要：** 了解用户设置服务，它是用于呼叫的质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
+**摘要：** 了解用户设置服务，它是用于呼叫的质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
   
 用户设置服务是呼叫质量仪表板的存储库 API 的一部分。
   

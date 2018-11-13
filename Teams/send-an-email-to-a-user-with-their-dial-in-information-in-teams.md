@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 在 Microsoft Teams 中向你的用户发送包含其音频会议信息的电子邮件。
-ms.openlocfilehash: 78fc4c0c071c4cc66c4bc20339dcda52b2be2890
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: 3b1cb1eb4fcf654a4ab3d3cb227416b0cf700817
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26283160"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294918"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>在 Microsoft Teams 中向用户发送包含其音频会议信息的电子邮件
 
@@ -69,6 +69,8 @@ ms.locfileid: "26283160"
   - 当用户音频会议提供商从 Microsoft 更改为其他提供程序或**无**。
     
   - 向 Microsoft 更改时用户音频会议提供商。
+    
+- 默认情况下，电子邮件发件人将从 Office 365，但您可以更改的电子邮件地址，并且可以使用 Windows PowerShell 显示名称。 请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)（英文） 的详细信息。
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 

@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff664c630f5c8da8e3f63700d018b40ab9f0ef70
-ms.sourcegitcommit: 75e0c9e186dc167bad01f5b17ec9de8a682ee007
+ms.openlocfilehash: 279985565bb7a8097f67e259f04f056433ccda64
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "26005510"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296340"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>使用团队一起 Skype for Business 的组织的迁移和互操作性指南
 
@@ -36,7 +36,7 @@ ms.locfileid: "26005510"
     - 已使用 Skype 业务/Lync 内部部署的用户使用其现有的内部部署帐户。
     - 我们不能为其检测现有 Skype 业务帐户的用户将有 Skype 业务联机时创建团队用户自动配置的帐户。 业务许可证没有 Skype 是必需的。
 
-4.  如果必须在本地部署的任一 Skype 适用于商务或 Lync，并且您希望为团队用户这些用户，您必须至少确保 Azure AD 连接正在同步 msRTCSIP DeploymentLocator 属性到 AAD，因此该团队/Skype for Business联机正确检测您在本地环境。 此外，将任何用户移至仅团队模式 （即，升级用户），*则必须配置为业务混合模式的 Skype*。 有关详细信息，请参阅[配置 Azure AD 连接的 Skype 业务和团队](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-azure-ad-connect)。
+4.  如果必须在本地部署的任一 Skype 适用于商务或 Lync，并且您希望为团队用户这些用户，您必须至少确保 Azure AD 连接正在同步 msRTCSIP DeploymentLocator 属性到 AAD，因此该团队/Skype for Business联机正确检测您在本地环境。 此外，将任何用户移至仅团队模式 （即，升级用户），*则必须配置为业务混合模式的 Skype*。
 
 5.  适用于业务用户之间团队和 Skype 的互操作才可能*如果团队用户联机驻留在 for Business 的 Skype*。 Skype 可以位于企业用户是本地 （和需要业务混合配置 Skype） 的收件人或联机。 位于业务本地 Skype 的用户可以使用团队群岛模式 （定义此文档中的更高版本），但不是能使用互操作的团队或 for Business 使用 Skype 的其他用户与联盟。  
 
@@ -108,7 +108,7 @@ TeamsUpgradePolicy 公开三个属性。 主属性是模式和 NotifySfbUsers。
 |SfBWithTeamsCollabAndMeetings|SfBWithTeamsCollabAndMeetings|False|无|此模式在 PowerShell 层存在但不是在管理用户体验中尚未公开。 从路由的角度看，这是与 SfBOnly 模式相同。 可用 TeamsAppPolicy 时，这将使通道和在工作组中计划的会议。|
 |SfBWithTeamsCollabAndMeetingsWithNotify|SfBWithTeamsCollabAndMeetings|True|通知|此模式在 PowerShell 层存在但不是在管理用户体验中尚未公开。 从路由的角度看，这是与 SfBOnly 模式相同。 可用 TeamsAppPolicy 时，这将使通道和在工作组中计划的会议。|
 |UpgradeToTeams|TeamsOnly|False|升级|将用户升级到团队，并阻止聊天、 电话和在 Skype for Business 中计划的会议，请使用此模式。|
-|全局|群岛|False|无|是默认策略。|
+|全局|旧|False|无|模式将近期更新到群岛。|
 |NoUpgrade|旧|False|无|将立即终止此实例。|
 |NotifyForTeams|旧|True|通知|将立即终止此实例。|
 ||||||

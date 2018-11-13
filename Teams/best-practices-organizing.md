@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66bf2e6aa01c24b327d26e2a30678ca3722a8c97
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: ea8de6d6bd1d5e508654d30f27ea7f83a8097030
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26282946"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294308"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中组织团队的最佳做法
 ======================================================
@@ -31,7 +31,7 @@ ms.locfileid: "26282946"
 
 请看一下此快速的视频，请参阅如何构建跨组织或单一用途团队的一些示例：
 
-> [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 刚开始时可以组织少量团队成员进行集体讨论，之后可以不断添加新人员/组。 Microsoft Teams 的一个重要特点是，当你添加新人员或组时，他们可以快速了解已经讨论的内容，因为无论用户何时加入，他们都可以访问对话和文件。 尽量避免创建具有相同的一组成员的不同团队，因为这样可能无法为完成项目或目标提供所需的关注重点。 Outlook 是一个功能强大的工具，可用于共享这些类型的组范围的通信。
 

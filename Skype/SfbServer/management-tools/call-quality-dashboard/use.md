@@ -1,25 +1,26 @@
 ---
-title: 用于呼叫质量仪表板 Skype 业务服务器
+title: 在 Skype for Business Server 2015 中使用呼叫质量仪表板
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
-description: 摘要： 了解如何使用呼叫质量面板。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: 6b431bb34ca6350662fbae720c61d2033d95fba4
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: 摘要： 了解如何使用呼叫质量面板。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
+ms.openlocfilehash: 2aafd5c92a6b0b7a7985c76a20c9377fce44a5e7
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035727"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294896"
 ---
-# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>用于呼叫质量仪表板 Skype 业务服务器
+# <a name="use-call-quality-dashboard-for-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中使用呼叫质量仪表板
  
-**摘要：** 了解如何使用呼叫质量仪表板。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
+**摘要：** 了解如何使用呼叫质量仪表板。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
   
 CQD 允许 IT 专业人员使用聚合数据来识别其环境中遇到媒体质量问题的重点关注区域。它允许 IT 专业人员比较不同用户组的统计信息，并识别趋势和模式。它重点关注的不是单个通话问题，而是识别适用于给定环境中许多用户的问题和解决方案。
   

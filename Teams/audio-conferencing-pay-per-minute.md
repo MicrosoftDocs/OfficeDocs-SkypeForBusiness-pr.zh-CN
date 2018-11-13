@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 标准的音频会议的每用户许可证，除了卷和授权组织还可以选择付薪每分钟版，若要为其组织的音频会议功能。
-ms.openlocfilehash: 17a27c8426356b985168b26c6d19eabd88e306fa
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 1c66649ebb75dd89756f7da45255801e4e60fc16
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784845"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295012"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音频会议按分钟付费
 
@@ -53,7 +53,7 @@ ms.locfileid: "25784845"
 - 向外部电话号码从会议中的组织发出的出站呼叫。
     
 > [!NOTE]
-> 您可以找到关联到这些类型的呼叫通过查看**看到要呼叫部分率**式[音频会议](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates)的电话拨入式和拨出式速率。
+> 您可以找到关联到这些类型的呼叫通过查看**看到要呼叫部分率**式[音频会议](https://products.office.com/skype-for-business/pstn-conferencing)的电话拨入式和拨出式速率。 
   
 付薪每分钟需要您的组织有[Communications 字幕式](what-are-communications-credits.md)启用与分配给音频会议，以使每个用户的许可证。 如果您希望更多详细信息，请参阅[Set up Communications 字幕式为您的组织](set-up-communications-credits-for-your-organization.md)和/或[加载项业务和 Microsoft 团队授权的 Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
   

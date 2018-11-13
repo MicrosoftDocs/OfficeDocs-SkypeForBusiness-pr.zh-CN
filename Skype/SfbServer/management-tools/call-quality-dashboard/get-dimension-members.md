@@ -3,23 +3,24 @@ title: 获取维度成员
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
-description: 摘要： 了解如何获取维度成员操作。 获取维度成员操作是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: 4c53e809d13b1ceb386c6727805402be9dfaf7f8
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: 摘要： 了解如何获取维度成员操作。 获取维度成员操作是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
+ms.openlocfilehash: 6d3f5f30ccb3b79aabe9faa37f7c960b846ef0cd
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035664"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295960"
 ---
 # <a name="get-dimension-members"></a>获取维度成员
  
-**摘要：** 了解有关获取维度成员操作。 获取维度成员操作是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
+**摘要：** 了解有关获取维度成员操作。 获取维度成员操作是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
   
 获取维度成员操作是用于呼叫的质量仪表板的数据 API 的一部分。
   

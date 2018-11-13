@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 使用业务联机遥测工具的 Skype 要监视的本地实现在混合方案的概述。
-ms.openlocfilehash: d704f23f9b8260e8d755c4d1f0f48da927859ba1
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: e9039d3865e3baf5740f4f7489b1a7cfec6dea98
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838518"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295173"
 ---
 # <a name="plan-call-data-connector"></a>规划呼叫数据连接器
 
@@ -46,7 +46,7 @@ ms.locfileid: "25838518"
 
 - 呼叫质量仪表板着重于网络性能和跨组织问题。 为业务管理员和网络工程师 Skype 使用此工具来解决并优化网络性能。
 
-有关详细信息，请参阅[呼叫分析和呼叫质量仪表板](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)。
+有关详细信息，请参阅[呼叫分析和呼叫质量仪表板](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)。
 
 当然，您可能想要保留在本地一些呼叫质量数据。 例如，如果与自定义的报告和工作流使用第三方解决方案，这可能是这种情况。  调用数据连接器可以同时还在您的本地服务器上，保留一份数据，如下图中所示配置发送数据的联机服务：
 
@@ -55,7 +55,7 @@ ms.locfileid: "25838518"
 
 ## <a name="requirements"></a>要求
 
-以下要求假定您已有 Skype 业务服务器部署中支持的拓扑。  有关部署 Skype 业务服务器和支持的拓扑的详细信息，请参阅[拓扑基础知识](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics)。 若要配置呼叫数据连接器，您必须：
+以下要求假定您已有 Skype 业务服务器部署中支持的拓扑。  有关部署 Skype 业务服务器和支持的拓扑的详细信息，请参阅[拓扑基础知识](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics)。 若要配置呼叫数据连接器，您必须：
 
 - 启用混合连接性。 如果您已有 Skype 业务部署的服务器，并且您想要启用呼叫数据连接器，您必须确保已设置您的本地和联机环境之间的混合连接。 此有时也称为拆分域配置。 
 

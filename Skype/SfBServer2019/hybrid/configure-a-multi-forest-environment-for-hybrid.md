@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 以下各节提供有关如何配置具有资源/用户林模型，以提供业务功能在混合方案的 Skype 中的多林环境的指南。
-ms.openlocfilehash: ef2b57d1f89e4d5479cacce57ce9a6c47c495f21
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 72c0a91c3a5a90b4ec83eb5f71a5601ccfb48bb1
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839543"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295360"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>配置混合 for Business 的 Skype 的多林环境
  
@@ -60,7 +60,7 @@ Skype 的企业用户驻留在本地可以具有 Exchange 驻留在本地或联�
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-[选择的帐户链接属性](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)将用作源定位点。 如果您想要使用的不同且不会改变属性，您可能会这样;只需一定要编辑的 AD FS 声明规则和 AAD 连接配置过程中选择的属性。
+[选择的帐户链接属性](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/)将用作源定位点。 如果您想要使用的不同且不会改变属性，您可能会这样;只需一定要编辑的 AD FS 声明规则和 AAD 连接配置过程中选择的属性。
   
 不同步林之间 Upn。 在测试期间，我们发现我们需要将唯一的 UPN 用于每个用户林，因为不能在多个林中使用相同的 UPN。 因此，出现了两种可能性：同步 UPN 或不同步。 
   
@@ -70,7 +70,7 @@ Skype 的企业用户驻留在本地可以具有 Exchange 驻留在本地或联�
     
 ## <a name="create-an-office-365-tenant"></a>创建 Office 365 租户
 
-接下来需要设置要用于部署的 Office 365 租户。 有关详细信息，请参阅[订阅、 许可证、 帐户和 Microsoft 云服务的租户](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)。 
+接下来需要设置要用于部署的 Office 365 租户。 有关详细信息，请参阅[订阅、 许可证、 帐户和 Microsoft 云服务的租户](https://docs.microsoft.com/en-us/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)。 
   
 ## <a name="configure-active-directory-federation-services"></a>配置 Active Directory 联合身份验证服务
 
@@ -106,7 +106,7 @@ AAD Connect 不会在内部部署林之间同步帐户。它使用 AD 连接来�
   
 这是一个测试用户，，您可以看到 sourceAnchor 和用户 cloudSourceAnchor AAD 连接已识别和本例中为 1101，即 employeeNumber 资源林对象从 Office 365 中，选择之前。 然后，系统能够将此对象合并到您在上方看到的内容中。 
   
-有关详细信息，请参阅[Azure Active Directory 集成本地目录](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)。 
+有关详细信息，请参阅[Azure Active Directory 集成本地目录](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/)。 
   
 应使用默认设置，除以下安装 AAD 连接： 
   
@@ -116,7 +116,7 @@ AAD Connect 不会在内部部署林之间同步帐户。它使用 AD 连接来�
     
 3. 确定本地目录中的用户： 选择**跨多个目录存在用户标识**，然后选择**ObjectSID**和**msExchangeMasterAccountSID**属性。
     
-4. Azure AD 中标识用户： 源定位： 选择您已阅读[选择良好 sourceAnchor 属性](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)，用户主体名称- **userPrincipalName**后选择的属性。
+4. Azure AD 中标识用户： 源定位： 选择您已阅读[选择良好 sourceAnchor 属性](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/)，用户主体名称- **userPrincipalName**后选择的属性。
     
 5.  可选功能： 选择是否已部署的 Exchange 混合部署。
     

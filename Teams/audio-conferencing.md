@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: a3ce04974eec062360bb6b0663255f079e097554
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: ff0db687ed25f756a3ba3d184b7408c5d2784b46
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26283063"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293960"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的音频会议实践指导
 ============================================================
@@ -29,7 +29,7 @@ Office 365 中的音频会议允许参与者从任何电话加入 Teams 会议�
 
 下面是使用 Office 365 中的[音频会议](https://go.microsoft.com/fwlink/?linkid=858992)完成的内容。
 
-此实用指南将指导您完成 Office 365 FastTrack 客户旅程框架和三个阶段，加载，构想和驱动器 Value 时，可帮助您规划、 提供和操作成功的业务达到音频会议实现结果。
+此实践指导介绍 Office 365 FastTrack 客户旅程框架及其三个阶段（展望、上线和推动价值），帮助你规划、交付和运营音频会议实施以获得成功的业务成果。
 
 > [!TIP]
 > 在此实践指导中，我们为每个活动和关键讨论提供了示例输出。 本文档中的示例包含在“提示”标注中，它们是可以重用的模板。 对于需要你在规划过程中完成的信息，以“TBA”（待添加）表示。

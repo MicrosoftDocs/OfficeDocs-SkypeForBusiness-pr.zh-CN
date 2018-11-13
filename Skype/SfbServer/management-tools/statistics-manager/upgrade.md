@@ -1,5 +1,5 @@
 ---
-title: 为业务服务器升级的 Skype 的统计信息管理器
+title: Skype for Business Server 2015 的升级统计信息管理器
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,21 +10,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
-description: 摘要： 阅读本主题可了解如何针对 Business Server 升级的 Skype 的统计信息管理器。
-ms.openlocfilehash: 3e63210d75b7fa89bb125e990eb1cbc7c37427d4
-ms.sourcegitcommit: 8536a34cb13d40b30f84d95e6df10542ef85c36d
+description: 摘要： 阅读本主题可了解如何针对业务服务器 2015年升级的 Skype 的统计信息管理器。
+ms.openlocfilehash: d10dd5cd92fc0d7dbbb3285c43df78e8149f58c0
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/13/2018
-ms.locfileid: "26292988"
+ms.locfileid: "26295704"
 ---
-# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>为业务服务器升级的 Skype 的统计信息管理器
+# <a name="upgrade-statistics-manager-for-skype-for-business-server-2015"></a>Upgrade Statistics Manager for Skype for Business Server 2015
  
-**摘要：** 阅读本主题可了解如何升级统计信息管理器的 Skype 业务服务器。
+**摘要：** 阅读本主题可了解如何升级统计信息管理器的 Skype 的业务服务器 2015年。
   
 本主题介绍如何将现有的安装的统计信息管理器的 Skype 升级业务 server — 使用户可以对业务服务器运行状况和性能数据实时查看 Skype 的强大工具。 可以跨服务器数百每隔几秒钟轮询性能数据，并立即统计信息管理器网站上查看结果。 
   
-有关统计信息管理器和版本 2.0 中的新功能的详细信息，请参阅[规划用于统计信息管理器中的业务服务器 Skype](plan.md)和[Skype 业务服务器的部署统计信息管理器](deploy.md)。
+有关统计信息管理器和版本 1.1 中的新功能的详细信息，请参阅[规划用于统计信息管理器中的业务服务器 2015年的 Skype](plan.md)和[Skype 的业务服务器 2015年适用于部署统计信息管理器](deploy.md)。 有关 1.1 版中解决的已知问题的信息，请参阅 [1.1 版中解决的已知问题](upgrade.md#BKMK_Fixed)。
   
 升级方法有两种：
   
@@ -100,19 +100,35 @@ ms.locfileid: "26292988"
     >   保留安装的 Redis，以便在升级过程中维护缓存中的数据。
   
 2. 	安装组件的新版本，包括在前面的步骤中出现提示时保存的值。有关安装组件的更多信息，请参阅[部署统计信息管理器](deploy.md#BKMK_Deploy)
+    
+## <a name="known-issues-fixed-in-release-11"></a>1.1 版中解决的已知问题
+<a name="BKMK_Fixed"> </a>
 
+1.1 版中解决了以下已知问题：
+  
+- UI/服务器/代理-大量非常重要的可靠性和性能改进
+    
+- UI-主筛选器控件现在排序正确使用不同的案件 （已前导需要考虑的某些服务器或者没有系统中，当他们的人员）
+    
+- 服务器 - 服务器组件现在将安装在非英语服务器上。
+    
+- 服务器/代理 - 在某些情况下，代理和服务器组件无法安装并显示 .NET 错误，错误的原因是特定版本的 Net 4.0。 此问题已得到解决。
+    
+- 代理-扩展添加 StatsMan 代理的事件日志记录。 安装的服务器不在拓扑中时，代理不再崩溃，现在会在事件日志中记录此错误，同时记录许多其他可能的错误条件。
+    
+- UI-未使用的客户端计算机加入同一工作组或域的统计信息管理器 Web 服务器时，使用 Chrome 浏览器的 Web 客户端会看到多个登录提示。 现在，每个会话只需要登录一次。
     
 ## <a name="for-more-information"></a>有关详细信息
 <a name="BKMK_Fixed"> </a>
 
 有关详细信息，请参阅以下文章：
   
-- [规划业务 Server 为统计信息管理器中的 Skype](plan.md)
+- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
     
-- [为业务 Server 部署的 Skype 的统计信息管理器](deploy.md)
+- [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
     
-- [解决的 Skype 的统计信息管理器的企业服务器](troubleshoot.md)
+- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
     
-- [Skype for Business Server 统计信息管理器博客](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
+- [Skype for Business Server 统计信息管理器博客](https://blogs.technet.microsoft.com/skypestatsman/)
     
 

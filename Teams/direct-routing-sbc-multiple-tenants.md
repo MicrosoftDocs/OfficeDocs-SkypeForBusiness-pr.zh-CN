@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 了解如何配置一个会话边界控制器 (SBC) 提供多个租户。
-ms.openlocfilehash: 618f956519c4a9e8ffe07e3000a91af39469adfc
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 292a3e675455d112fdade04018e670b9a5f9c38f
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839084"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295741"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -56,7 +56,7 @@ Microsoft 不管理运营商。 Microsoft 提供的 PBX （Microsoft 电话系�
 有关如何部署和配置 Sbc SBC 承载方案的详细步骤，请参阅 SBC 供应商的文档。
 
 - **AudioCodes:**[直接路由配置说明](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)，承载在"连接到 Microsoft 团队直接路由承载模型配置注释的 AudioCodes SBC"。 中所述情形 SBC 的配置 
-- **功能区通信：** 请有关如何配置功能区核心系列 SBCs 文档的[功能区通信 SBC 核心 Microsoft 团队配置指南](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)和对此页[功能区最佳实践-配置的 Microsoft 团队直接路由 SBC 的运营商，参阅边缘](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **功能区通信：** 请有关如何配置功能区核心系列 SBCs 文档的[功能区通信 SBC 核心 Microsoft 团队配置指南](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)和对此页[功能区最佳最佳实践-Microsoft 团队直接路由配置运营商，参阅SBC 边缘](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 
 > [!NOTE]
 > 请注意如何配置"联系人"标头。 联系人标头用于传入 invite 消息上查找客户租户。 
@@ -127,7 +127,7 @@ SBC 需要证书进行身份验证连接。 运营商需要使用 SAN 中请求�
 
 ### <a name="activate-the-domain-name"></a>激活的域名
 
-已注册的域名，您需要激活通过添加至少一个 E1，E3 或 E5 许可后用户和分配与 SIP 的 FQDN 部分的 SIP 地址的地址匹配创建的基域名。 
+注册域名后，您需要激活通过添加至少一个用户和分配匹配创建的基域名的 SIP 地址的 FQDN 部分的 SIP 地址。
 
 *请查看有关将用户添加 Office 365 租户中[获取帮助与 Office 365 域](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
 

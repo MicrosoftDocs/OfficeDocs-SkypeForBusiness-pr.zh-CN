@@ -1,11 +1,11 @@
 ---
 title: Microsoft Teams 概述
-author: LanaChin
-ms.author: v-lanac
+author: LolaJacobsen
+ms.author: lolaj
 manager: serdars
+ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.date: 11/06/18
 ms.reviewer: ''
 description: 了解 Microsoft Teams、其基础结构以及如何配合使用 Teams 与 Office 365。
 localization_priority: Normal
@@ -15,69 +15,108 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd4dd3e322b254610fe815345fdec24c5b9832a9
-ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
+ms.openlocfilehash: 4fb74faf3acb0b3df7960ba4429c88e1383204f8
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025085"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295202"
 ---
-# <a name="welcome-to-microsoft-teams"></a>欢迎使用 Microsoft Teams
+<a name="overview-of-microsoft-teams"></a>Microsoft Teams 概述
+===========================
 
-如果您在组织中的 Microsoft 团队的管理员，您在正确的位置。 此处，您会发现您需要规划、 部署和运行团队的所有信息。  
+> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=ccf507a4-4ec4-4d61-9fb0-c86b5f1fc2a6&AutoPlayVideo=false] 
 
-## <a name="overview-of-teams"></a>Teams 概述
 
-如果您熟悉向工作组，签出此[欢迎团队](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)的简短视频。 团队是基于 Office 365 组、 Office 图形和同一企业级安全、 合规性和 Office 365 的其余部分的可管理性。 团队利用 Azure Active Directory (Azure AD) 中存储的标识。 当您创建一个团队时，下面是获取创建的内容：
-- 新的[Office 365 组](office-365-groups.md)
-- [SharePoint Online](sharepoint-onedrive-interact.md)网站和文档库来存储团队文件
-- [Exchange Online](exchange-teams-interact.md)共享邮箱和日历
-- OneNote 笔记本
-- 到其他 Office 365 应用程序，如计划程序和 Power BI 并列
+Microsoft Teams 结合了 Office 365 的完整宽度和深度，为团队合作提供了基于聊天的实际中心，让客户有机会创建更加开放、流动的数字化环境。 Microsoft Teams 建立在由 Office 365 组联系在一起的现有 Microsoft 技术之上。 
 
-从现有组创建团队时，该组的成员资格、 网站、 邮箱和笔记本转入团队。 请不要错过新[组织范围团队](create-an-org-wide-team.md)，一种特殊团队拉入您的组织中的每个用户，并保持最新的 Active Directory 用户加入为成员资格、 离开组织的类型。 
+Teams 属于开箱可用，它利用了 Azure Active Directory (Azure AD) 中存储的标识，并与 Office 365 中的其他服务集成在一起，可为创建的每个团队创建 SharePoint Online 网站和 Exchange Online 组邮箱。
 
-若要自定义和扩展团队，添加[选项卡](built-in-custom-tabs.md)、[连接器](office-365-custom-connectors.md)和[自动程序](add-bots.md)通过第三方应用程序。 与团队，您可以通过到团队或通道[将它们作为来宾添加](guest-access.md)组织外部包括的人员。 作为 Office 365 的一部分，团队提供强大的[扩展性篇文章](https://docs.microsoft.com/en-us/microsoftteams/platform)，以便您可以生成您的组织所需的团队协作中心。 
+具有业务或使用者的电子邮件帐户，如 Outlook、 Gmail，或其他任何人都可以作为来宾团队中参与。 团队中的所有来宾都涵盖的相同的遵从性和 Office 365 的其余部分的审核保护并来宾可以安全地管理 Azure AD 中。 管理员可以集中管理来宾其 Office 365 环境中的参与如何和轻松地查看、 添加或取消对主机租户来宾访问权限。
 
-![团队桌面应用程序和移动应用程序](media/teams-overview-hub.png)
+Teams 提供持久聊天功能、通话和会议、快速访问 Office 365 其他组件的功能以及强大的扩展功能。  它提供了一个适用于大型公司、小型组织及其所有成员的团队合作中心。  
 
-团队是在 Office 365 中，随着时间的推移业务 online 替换 Skype 智能通信的主要客户端。 若要了解更多 Skype 业务特性和功能，我们已内置团队，请参阅[Skype for Business 的 Microsoft 团队功能路线图](http://aka.ms/skype2teamsroadmap)。 专用于补充持久聊天和消息功能，团队提供的全面会议和呼叫体验，请使用内置、 完全集成的语音和视频。 签出 Microsoft 团队博客中的[团队是现在完成会议和呼叫解决方案](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042)。
+要扩展 Teams 功能，请使用连接器、选项卡和聊天机器人（以[应用](https://go.microsoft.com/fwlink/?linkid=854629)方式提供）以将外部信息、内容和聊天机器人交互传入 Teams。  
 
-## <a name="teams-admin-experience"></a>团队管理体验
+<a name="microsoft-teams-infrastructure"></a>Microsoft Teams 基础结构
+------------------------------
 
-我们正在推出新的 Microsoft 团队和 Skype 业务管理中心的。 如果看不到它尚未，它位于其方式，为您提供用于管理团队和 Skype for Business 的统一的体验。 以来年 3 月 2018年我们已被逐步设置向其从迁移业务管理中心和 Office 365 管理中心中的团队体验 Skype。 
+Teams 建立在由 Office 365 组联系在一起的现有 Microsoft 技术之上。 由 Microsoft 云提供技术支持，组织在其协作情景中利用 Teams 时，可以预见卓越性能和可靠性。
 
-在迁移期间，您将之间拆分两个不同的管理体验。 不必担心 – 我们将确保未收到丢失 ！ 迁移设置之后，您将收到通知，并将被重定向到中的 Microsoft 团队 Skype 业务管理中心的设置的新位置。 若要了解详细信息，请参阅[切换到新的 Microsoft 团队和业务管理中心的 Skype 期间管理团队](manage-teams-skypeforbusiness-admin-center.md)。 
+Teams 中创建的团队立即可用，创建团队时会创建 Office 365 组、SharePoint Online 网站（附带文档库）、Exchange Online 组邮箱（将由 Teams 用于存储会议邀请等信息）。 可以使用现有 Office 365 组创建团队，从而允许现有组成员身份以及 SharePoint Online 和 Exchange Online 中存储的内容转到 Teams。
 
-若要保持在什么即将个团队和所有其他 Office 365 产品和服务在组织中的确保要检查[邮件中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)和[团队路线图](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams)。 计划的更改，以帮助您的问题通知和准备，您将获取有关新增和更新功能的通知。 
+若要为多个持久聊天主板其中非正式、 实时对话进行，也团队补充团队功能提供呼叫和会议体验的下一个生成基于云的基础结构还使用 Skype 和 Skype 的构建业务。 这些技术投资包括用于媒体处理和信号发送的基于 Azure 的云服务、H.264 视频编解码器、SILK 和 Opus 音频编解码器、网络复原、遥测和质量诊断。
 
-## <a name="upgrade-from-skype-for-business-to-teams"></a>从 for Business 的 Skype 升级到团队
-如果您已对团队，great ！ 此处使用的资源以获取充分利用团队中心点，用于在组织中的团队协作。 
+Office 365 组利用 Azure Active Directory (Azure AD) 中存储的标识，因此，Teams 可以很容易地使用 Azure AD 中的所有身份验证和授权功能（例如，支持多重身份验证 (MFA)）。
 
-如果正在运行 for Business 的 Skype 并准备升级到团队，或者如果您正在运行的业务和团队-并行 Skype，并且准备要完全迁移到团队，我们已工具、 提示和指导，帮助确保成功转换。 若要了解详细信息，请参阅[Microsoft 团队对业务的 Skype 升级](journey-skypeforbusiness-teams.md)。
+> [!NOTE]
+> 根据客户反馈，由于 Microsoft 团队在创建团队生成的新 Office 365 组将不再显示在 Outlook 中默认情况下。 对于要继续在 Outlook 中显示这些组的现有行为的客户，将其可以启用 Outlook 体验的组提供 Exchange Online PowerShell cmdlet。 组创建通过 Outlook 和更高版本启用团队将继续要显示在 Outlook 和团队。 此更新将逐步执行跨 Outlook 和团队滚月。
 
-## <a name="teamwork-and-office-365"></a>团队协作和 Office 365
-每个团队是不同;没有任何通用方法进行协作。 Office 365 旨在满足唯一的每个团队，帮助用户进行通信、 协作处理和获得更多与专门、 集成的应用程序。 
 
-当决定哪些 Office 365 应用程序和服务使用，应考虑有关贵组织的工作和您的团队需要具有的对话的类型。 
+<a name="microsoft-teams-and-office-365"></a>Microsoft Teams 和 Office 365
+------------------------------
 
-- **团队**，其中在核心项目，包括组织外部的人员一起紧密合作的人员可以主动数字集线器连接并完成任务的实时协作。 具有对话右其中工作的最新动态，是否合著文档，让会议，或在其他应用程序和服务中协同工作。 团队是具有非正式聊天、 循环访问项目上的快速、 使用团队文件和协作上共享的可交付结果的位置。 
+不同的组有自己的职能角色和工作方式，因此需求各不相同。 Office 365 适合每个组的独特工作方式，包含基于用途的集成应用，包括：
 
-- **Outlook**电子邮件和较为正式、 结构化的方式，或者在目标熟悉的环境中的协作和直接通信，则需要。 
+-   用于企业级电子邮件的 Outlook，现在具有组功能
 
-- **SharePoint**网站、 门户、 智能内容服务、 业务流程自动化和企业级搜索。 SharePoint 保留内容的核心团队合作，使轻松可共享和访问整个团队的所有类型的内容。 与 Outlook、 Yammer 和团队紧密集成允许跨对话体验无缝内容协作。   
+-   用于网站和门户、智能内容服务、业务流程自动化和企业搜索的 SharePoint
 
-- 用于存储文件和共享他们与用户邀请的人员的**OneDrive for Business**中。 用户共享其与其他人，这使它的最佳选项存储个人和不能为共享或未就绪，要共享的草稿文档之前，用户将保存到 OneDrive for Business 的内容为私有。
+-   用于推动公司范围的连接的 Yammer
 
-- **Yammer**连接整个组织内的人员。 驱动器公司范围内计划、 共享最佳实践和构建各地常见的兴趣或区域或实践的主题。 来培养打开人员讨论整个公司的众想法。
+-   作为企业语音和视频的主干网的 Skype for Business
 
-- **Office 应用程序**是人员了解和使用定期，其中包括 Word、 Excel、 PowerPoint 和 OneNote 的所有熟悉工具。 
+-   以及现在的 Microsoft Teams，这是 Office 365 中基于聊天的新型工作区
 
-## <a name="teams-known-issues"></a>Teams 已知问题
+下面是 Office 365 中每个应用的常见用例。 有关详细的使用指导，请访问 [FastTrack 生产力库](https://go.microsoft.com/fwlink/?linkid=854630)。
 
-请参阅[已知问题的 Microsoft 团队](Known-issues.md)。
+![Microsoft Teams 图标。](media/Overview_of_Microsoft_Teams_image1.png)
 
-## <a name="teams-client-release-notes"></a>Teams 客户端发行说明
+-   由希望与同一组用户实时协作的用户和团队利用。
 
-请参阅[What's new in Microsoft 团队](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)。
+-   对希望快速对项目进行重复操作同时共享文件并对共享交付物进行协作的团队提供帮助。
+
+-   允许用户连接到其工作区 （如规划器、 Power BI、 GitHub 等） 的各种工具。
+
+![Microsoft Outlook 图标。](media/Overview_of_Microsoft_Teams_image2.png)
+
+-   由更希望以熟悉的电子邮件环境和/或更加正式的结构化方式协作的用户利用。
+
+-   提供特定的业务流程，这些业务流程要求使用电子邮件在企业边界内部和外部传输文档和信息。
+
+-   与直接工作组或组织外部的用户沟通和联系。
+
+![Yammer 图标。](media/Overview_of_Microsoft_Teams_image3.png)
+
+-   用于协助连接跨组织的用户以围绕实践社区进行组织以及共享最佳做法。
+
+-   通过基于供给的开放式透明平台改进跨职能的工作流
+
+-   通过领导与较广泛的员工群体之间的双向对话，加强高层-员工交流。
+
+-   激励你的一线员工分享和接收知识和专业技能
+
+![Skype for Business 图标。](media/Overview_of_Microsoft_Teams_image4.png)
+
+-   用于在内部和外部与客户/合作伙伴实时通信与协作。
+
+-   为小型或大型团队（包括最多有 10,000 位参与者的企业员工大会）提供包含音频、视频和内容的会议。
+
+-   提供企业电话服务功能。
+
+
+![Microsoft SharePoint 图标。](media/Overview_of_Microsoft_Teams_image5.png)
+
+-   用于网站和门户（例如，公司新闻和公告、搜索和文档协作）。
+
+-   通过集成 Microsoft Flow 和 PowerApps 对文档库和信息列表实施业务流程自动化。
+
+-   每个 Microsoft 团队都自动预配了功能完善的 SharePoint 团队网站，用于文件存储、团队新闻、页面以及列表等。
+
+-   请参阅 [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](SharePoint-OneDrive-interact.md)
+
+## <a name="teams-known-issuesknown-issuesmd"></a>[Teams 已知问题](Known-issues.md)
+
+## <a name="teams-client-release-noteshttpssupportofficecomarticlerelease-notes-for-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"></a>[Teams 客户端发行说明](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
+
 

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: 了解有关出站语音业务企业语音，包括呼叫路由设置中 Skype 路由、 拨号计划、 规范化规则、 语音策略、 PSTN 用法记录和语音路由。
-ms.openlocfilehash: 8b7ef6c4e07bd7618645606c777b257e1d32691f
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 60a1041bee0f235a232c7516dd9e0122ea7b7b65
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838814"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296117"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>规划出站语音路由中 Skype 业务服务器
  
@@ -44,7 +44,7 @@ ms.locfileid: "25838814"
   
 ### <a name="dial-plan-scope"></a>拨号计划作用域
 
-拨号计划范围确定可以应用拨号计划的层次结构级别。 在业务服务器 Skype，可以将用户分配特定的每用户拨号计划。 如果未分配用户拨号计划，则应用的前端池拨号计划。 如果没有任何前端池拨号计划，则应用站点拨号计划。 最后，如果没有其他适用于该用户的拨号计划，则会应用全局拨号计划。
+拨号计划范围确定可以应用拨号计划的层次结构级别。 在业务服务器 Skype，可以将用户分配特定的每用户拨号计划。 如果未分配用户拨号计划，则应用的前端池拨号计划。 如果没有任何前端池池拨号计划，则应用站点拨号计划。 最后，如果没有其他适用于该用户的拨号计划，则会应用全局拨号计划。
   
 客户端获取通过带内设置用户登录到 for Business 的 Skype 时提供的拨号计划作用域级别。 作为管理员，您可以管理和使用适用于业务 Server Control Panel Skype 分配拨号计划作用域级别。
   

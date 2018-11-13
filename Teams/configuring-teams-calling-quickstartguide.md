@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f3145455553c8126d66b3e56b69ec646f5f19ad
-ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
+ms.openlocfilehash: 6a1fb82f57035f238ce222bf7f21b72983d21075
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25851473"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295911"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>快速入门指南：在 Microsoft Teams 中配置通话套餐
 ==============================================================
@@ -35,17 +35,9 @@ ms.locfileid: "25851473"
 通过添加由 Skype for Business 提供技术支持的 Office 365 功能 - 通话套餐，现在可以使用 Teams 通过公用电话交换网 (PSTN) 向座机和手机拨打电话，也可以接听来自座机和手机的电话。
 
 ![在 Teams 中进行通话](media/Calling_in_Teams.png)
+
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>在 Teams 中启用 **“通话”** 选项卡的先决条件
-若要启用团队中的**呼叫**选项卡用户需要具有 1:1 调用团队中启用并使用团队的客户端支持 1:1 团队呼叫。 若要了解如何管理中的团队呼叫 1:1，读取[设置 CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)。 若要了解哪些客户端支持呼叫，请阅读[限制和规格的 Microsoft 团队](https://docs.microsoft.com/en-us/microsoftteams/limits-specifications-teams)。
-
-> [!NOTE]
-> 目前，语音邮件将不可用呼叫选项卡中除非用户启用了 PSTN 呼叫。 
-
-## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>启用团队中的**拨号盘**的先决条件
-若要启用团队中的**拔号盘**选项卡，并让用户发起和接收 PSTN 呼叫您需要设置用户的电话系统和调用计划。 若要了解如何设置调用计划，请阅读[Set up 调用计划](https://docs.microsoft.com/en-us/microsoftteams/set-up-calling-plans)。
-
-> [!NOTE]
-> 您可以使用直接路由允许您强制用户和接收 PSTN 呼叫。 若要了解如何设置直接路由，请阅读[配置直接路由](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure)。
+要在 Teams 中启用 **“通话”** 选项卡，并允许你的用户拨打和接听 PSTN 呼叫，你需要为电话系统和通话套餐预配用户。 要了解如何对此进行设置，请参阅[设置通话套餐](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)。
 
 ## <a name="teams-interop-policy-configuration"></a>Teams 互操作性策略配置
 若要启用团队以开始接收呼叫，您将需要更新团队升级策略和团队互操作性策略，使用[的 Microsoft 团队业务管理中心的 Skype](https://aka.ms/teamsadmincenter)或使用远程 Windows PowerShell 会话 Skype for Business [ `*-CsTeamsUpgradePolicy`和`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype)cmdlet，以将重定向到团队呼叫。

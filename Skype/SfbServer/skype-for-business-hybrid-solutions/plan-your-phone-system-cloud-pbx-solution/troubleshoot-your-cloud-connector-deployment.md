@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: 解决云连接器 Edition 部署。
-ms.openlocfilehash: 2290d032f1461c37c31d138510388f17a52f5843
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 5dbb046680824f2af72688844914db0096e2ded1
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838619"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295469"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>云连接器部署故障排除
  
@@ -222,7 +222,7 @@ ms.locfileid: "25838619"
     Remove-CcLegacyServerCertificate 
     ```
 
-3. 运行退出 CcUpdate cmdlet 启动服务并退出维护模式。
+3. 运行 Exit-CcUpdate cmdlet 以启动服务并退出维护模式。
     
 4. 对设备上的本地文件运行 Export-CcRootCertificate cmdlet，然后将导出的证书复制并安装到 PSTN 网关。
     

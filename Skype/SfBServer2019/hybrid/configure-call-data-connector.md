@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 有关配置呼叫数据连接器，从而遥测从 Skype 的业务的本地业务在线工具使用 Skype 查看说明。
-ms.openlocfilehash: 959bb182da91029fd43ebc3ccb99fb5a69d820b2
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: adc1c9a1e50130796c4749a958e9030c10a09fd0
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838821"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293614"
 ---
 # <a name="configure-call-data-connector"></a>配置呼叫数据连接器
 
@@ -46,7 +46,7 @@ ms.locfileid: "25838821"
 
 ### <a name="configure-your-environment"></a>配置环境 
 
-若要配置您的环境以启用联机数据收集器，您必须首先以登录到 Skype 业务 Online PowerShell 中的管理员。 有关详细信息，请参阅[管理业务 online 与 Office 365 PowerShell 中的 Skype](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+若要配置您的环境以启用联机数据收集器，您必须首先以登录到 Skype 业务 Online PowerShell 中的管理员。 有关详细信息，请参阅[管理业务 online 与 Office 365 PowerShell 中的 Skype](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 有两种方法，用于登录到 Skype 并业务 Online PowerShell 中：
 
@@ -135,7 +135,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="view-on-premises-data-through-the-online-dashboard"></a>查看本地通过联机仪表板的数据
 
- 启用呼叫数据连接器后，您可以查看您的本地呼叫数据上调用分析仪表板[使用调用分析解决质量不佳](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)中所述。
+ 启用呼叫数据连接器后，您可以查看您的本地呼叫数据上调用分析仪表板[使用调用分析解决质量不佳](https://docs.microsoft.com/en-us/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)中所述。
 
 
 ## <a name="for-more-information"></a>有关详细信息

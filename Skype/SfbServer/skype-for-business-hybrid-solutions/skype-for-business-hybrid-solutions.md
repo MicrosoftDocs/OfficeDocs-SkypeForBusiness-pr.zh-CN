@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0b038686-ed36-4867-9653-14cc08c919cb
 description: 查找有关规划业务混合部署的 Skype 的信息。
-ms.openlocfilehash: 736902ba25fe0f2d6aa569ba6f454aa773fec202
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: af15627feaf3dca84f78e657bf71055a7a68f4c0
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839442"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294632"
 ---
 # <a name="skype-for-business-hybrid-solutions"></a>业务混合解决方案的 Skype
  
@@ -208,7 +208,7 @@ Skype for Business 提供了一组丰富的功能，无论您如何构建您的�
   
 - [Microsoft 云 IT 架构资源](https://aka.ms/clouditarch)
     
-- [适用于企业架构师的 Microsoft 云标识](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
+- [适用于企业架构师的 Microsoft 云标识](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
 - [针对 Office 365 企业版为你的组织做好准备](https://aka.ms/O365EntPrep)
     

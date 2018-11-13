@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot 创建远程 PowerShell 会话来连接到 Skype 业务 Online，包括导入模块、 并发命令行管理程序、 Live ID 为和权限错误。
-ms.openlocfilehash: 223886b68c22f3713118eaed4a556743df2c7cf1
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 651afa58513819eb57914bfa1cd92bc38a46298f
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839185"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295045"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>诊断与 Skype for Business Online 连接器的连接问题
 
@@ -112,7 +112,7 @@ For Business Online Connector 模块 Skype 可以仅在 Windows PowerShell 3.0 �
 
 您不能进行远程 PowerShell 连接 toSkype 业务 online，除非您是租户管理员组的成员。 如果您不是，您的连接尝试将失败，并您会收到以下错误消息：
 
-- **错误**：*新建 PSSession: [admin.vdomain.com] 处理数据从远程服务器 admin.vdomain.com 失败，出现以下错误消息: user@foo.com' 用户没有管理此租户的权限。可以通过向相应的 RBAC 角色分配用户授予权限。有关详细信息，请参阅[远程疑难解答](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1)。*
+- **错误**：*新建 PSSession: [admin.vdomain.com] 处理数据从远程服务器 admin.vdomain.com 失败，出现以下错误消息: user@foo.com' 用户没有管理此租户的权限。可以通过向相应的 RBAC 角色分配用户授予权限。有关详细信息，请参阅[远程疑难解答](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1)。*
 
 - **解决方案**： 如果您认为您，或者是应该是，租户管理员组的成员需要与 Office 365 支持部门联系。
   
@@ -121,7 +121,7 @@ For Business Online Connector 模块 Skype 可以仅在 Windows PowerShell 3.0 �
 
 若要使用 PowerShell 管理 Skype 业务 online，您的租户 PowerShell 策略的 EnableRemotePowerShellAccess 属性必须设置为`True`。 如果不存在，连接将失败，并且您会收到以下错误消息：
 
-- **错误**：*新建 PSSession: [admin.vdomain.com] 处理数据从远程服务器 admin.vdomain.com 失败，出现以下错误消息： 已禁用连接到此租户使用远程 PowerShell 会话的能力。请 Lync 帮助检查此租户的租户 Powershell 策略，联系。有关详细信息，请参阅[远程疑难解答](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1)。*
+- **错误**：*新建 PSSession: [admin.vdomain.com] 处理数据从远程服务器 admin.vdomain.com 失败，出现以下错误消息： 已禁用连接到此租户使用远程 PowerShell 会话的能力。请 Lync 帮助检查此租户的租户 Powershell 策略，联系。有关详细信息，请参阅[远程疑难解答](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1)。*
 
 - **解决方案**： 如果您看到此错误消息，您需要与 Office 365 支持部门联系并获取已启用的远程 PowerShell 访问。
   
@@ -130,7 +130,7 @@ For Business Online Connector 模块 Skype 可以仅在 Windows PowerShell 3.0 �
 
 每个管理员允许，最多的三个远程连接到 Skype 业务 online。 如果您具有三个 up 的远程 PowerShell 连接和运行，以使第四个同时任何尝试将失败并连接，出现以下错误消息：
 
-- **错误**：*新建 PSSession: [admin.vdomain.com] 连接到远程服务器 admin.vdomain.com 失败，出现以下错误消息： WS 管理服务无法处理请求。已超出为此用户的并发 shells 的最大数量。关闭现有 shells 或引发此用户的配额。有关详细信息，请参阅项 [远程 Troubleshooting] (https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
+- **错误**：*新建 PSSession: [admin.vdomain.com] 连接到远程服务器 admin.vdomain.com 失败，出现以下错误消息： WS 管理服务无法处理请求。已超出为此用户的并发 shells 的最大数量。关闭现有 shells 或引发此用户的配额。有关详细信息，请参阅项 [远程 Troubleshooting] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
 - **解决方案**： 若要解决此问题的唯一方法是关闭一个或多个以前的连接。 在完成时与 Skype 业务 Online 会话，我们建议使用**Remove-pssession** cmdlet 终止会话。 这将帮助您避免此问题。
   
@@ -139,7 +139,7 @@ For Business Online Connector 模块 Skype 可以仅在 Windows PowerShell 3.0 �
 
 尽管每个管理员允许具有三个同时连接到业务 Online 租户 Skype，但没有单租户允许具有 20 个以上的同时连接。 例如，六个管理员可能每个具有三个打开的会话。 如果尝试进行 2 个以上的连接 （21 同时连接的总结果） 的第四个管理员，则此尝试将失败，使用以下错误消息：
   
-- **错误**：*新建 PSSession: [admin.vdomain.com] 连接到远程服务器 admin.vdomain.com 失败，出现以下错误消息： WS 管理服务无法处理请求。已超出本租户的并发 shells 的最大数量。关闭现有 shells 或引发此租户配额。有关详细信息，请参阅项 [远程 Troubleshooting] (https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
+- **错误**：*新建 PSSession: [admin.vdomain.com] 连接到远程服务器 admin.vdomain.com 失败，出现以下错误消息： WS 管理服务无法处理请求。已超出本租户的并发 shells 的最大数量。关闭现有 shells 或引发此租户配额。有关详细信息，请参阅项 [远程 Troubleshooting] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
 - **解决方案**： 若要解决此问题的唯一方法是关闭一个或多个以前的连接。 在完成时与 Skype 业务 Online 会话，我们建议使用**Remove-pssession** cmdlet 终止该会话。 这将帮助您避免此问题。  
  

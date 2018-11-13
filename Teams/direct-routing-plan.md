@@ -16,17 +16,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 阅读本主题可了解如何 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。
-ms.openlocfilehash: a26dfc51e1a885569a37200d8613879e8f3bd484
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: ddfada14916b14c374479109732dbe1fa35a0174
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26038916"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296314"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
-
-> [!Tip]
-> 观看下面的会话了解好处直接路由、 如何规划，以及如何将其部署：[直接路由中的 Microsoft 团队](https://aka.ms/teams-direct-routing)
 
 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。  使用此功能，例如，您可以配置内部部署 PSTN 连接使用的 Microsoft 团队客户端，如下图中所示： 
 
@@ -77,7 +74,7 @@ Microsoft 还提供了一云语音解决方案，如调用规划。  但是，�
 |SBC 的公共 DNS 条目 |映射到公共 IP 地址的 SBC FQDN 公共 DNS 条目。 |
 |SBC 的受信任的公共证书 |SBC 用于直接路由中的所有通信的证书。 有关详细信息，请参阅[SBC 的受信任的公共证书](#public-trusted-certificate-for-the-sbc)。|
 |直接路由的连接点 |直接路由的连接点是具有以下三个 Fqdn:<br/><br/>`sip.pstnhub.microsoft.com`– 必须首先尝试全局 FQDN。<br/>`sip2.pstnhub.microsoft.com`– 辅助 FQDN，地理位置映射到第二个优先级区域。<br/>`sip3.pstnhub.microsoft.com`– 第三级 FQDN，地理位置映射到第三个优先级区域。<br/><br/>有关配置要求的信息，请参阅[SIP 信号： Fqdn 和防火墙端口](#sip-signaling-fqdns-and-firewall-ports)。|
-|防火墙的 IP 地址和直接路由的媒体端口 |SBC 对下列服务在云中进行通信：<br/><br/>SIP 代理，处理的信号<br/>媒体处理器，处理媒体-除媒体绕过位于<br/><br/>这两个服务具有单独的 IP 地址中 Microsoft 云，本文档后面所述。<br/><br/>有关详细信息，请参阅[Office 365 Url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)中的[Microsoft 团队部分](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)。 |
+|防火墙的 IP 地址和直接路由的媒体端口 |SBC 对下列服务在云中进行通信：<br/><br/>SIP 代理，处理的信号<br/>媒体处理器，处理媒体-除媒体绕过位于<br/><br/>这两个服务具有单独的 IP 地址中 Microsoft 云，本文档后面所述。<br/><br/>有关详细信息，请参阅[Office 365 Url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)中的[Microsoft 团队部分](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)。 |
 |媒体传输配置文件|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 防火墙的 IP 地址和端口的 Microsoft 团队媒体 |有关详细信息，请参阅 [Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。 |
 |||
@@ -224,12 +221,16 @@ SBC 使 DNS 查询解析 sip.pstnhub.microsoft.com。 根据 SBC 位置和数据
 
 ## <a name="supported-session-border-controllers-sbcs"></a>支持会话边界控制器 (Sbc)
 
-Microsoft 仅支持认证的 SBCs 可直接路由与配对。 企业语音是关键适用于企业，Microsoft 运行占用大量测试与所选的 Sbc，并且与 SBC 供应商，以确保在两个系统的工作原理兼容。 
+Microsoft 仅支持认证的 SBC，可直接路由与配对。 企业语音的业务至关重要，因为 Microsoft 运行占用大量测试与所选的 Sbc，并且与 SBC 供应商，以确保在两个系统的工作原理兼容。 
 
-团队直接路由作为认证列出了已验证的设备。 认证的设备都能保证所有方案中工作。 
+团队直接路由作为认证列出了已验证的设备。 认证的设备都能保证所有方案中工作。 此外没有 Microsoft 之间建立的 SBC 供应商的联合支持过程。  
 
-有关受支持的 Sbc 的详细信息，请参阅[认证直接路由的会话边界控制器的列表](direct-routing-border-controllers.md)。
-
+正在认证正在以下供应商提供：
+- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
+- 功能区通信 (以前称为 Sonus):
+   - [SBC 边缘系列](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
+   - [SBC 核心系列](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
+- ThinkTel: ThinkTel 不销售到企业 SBCs，但其 SBC 正在认证。  
  
 ## <a name="see-also"></a>另请参阅
 

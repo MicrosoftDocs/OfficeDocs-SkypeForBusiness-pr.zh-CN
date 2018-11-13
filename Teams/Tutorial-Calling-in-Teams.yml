@@ -17,12 +17,12 @@ metadata:
   - Teams_ITAdmin_Training
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3c125870dc05f68bdf9baaeeb80630a98ffd62bb
-  ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+  ms.openlocfilehash: e10967852a4bf4f89a3159d428a7f5b0441f03c7
+  ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 10/29/2018
-  ms.locfileid: "25838597"
+  ms.lasthandoff: 11/13/2018
+  ms.locfileid: "26295411"
 items:
 - durationInMinutes: 1
   content: >
@@ -69,7 +69,7 @@ items:
     Teams 提供立即可用的功能，让用户可以在 Teams 客户端之间进行 IP 语音通话 (VoIP)。
 
 
-    团队中有两个选项可使用户能够发出、 接收和公用电话交换网 (PSTN) 上传输和接收 landlines 和移动电话的呼叫：
+    团队中有两个选项可允许用户用户发起、 接收和公用电话交换网 (PSTN) 上传输和接收 landlines 和移动电话的呼叫：
 
     - 与电话系统与调用计划 Microsoft 向您的用户和所有 PSTN 服务提供的电话号码
 

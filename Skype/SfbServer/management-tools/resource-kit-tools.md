@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 本主题介绍为业务服务器 2015年资源工具包，包括每个工具，以及其使用的示例的用途的 Skype 中的工具。 业务服务器 2015年资源工具包的 Skype 有助于使日常任务更易于部署和管理业务服务器 2015 Skype 的 IT 管理员。 例如，Web Conf Data 工具可用于轻松控制召开联机会议期间用户上载的数据。 SEFAUtil 工具可用于为用户设置代理人呼叫转接和应答。 我们鼓励使用这些工具更有效地管理业务服务器 2015 Skype IT 管理员。
-ms.openlocfilehash: d58ba07a06b29ffe03eadc38beb55d3cb623b8cd
-ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
+ms.openlocfilehash: 3f36edc42541dfcc9b652eb16d5062277277cbc0
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25942870"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294375"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 资源管理包工具文档
 
@@ -259,7 +259,7 @@ ABSConfig 工具管理员提供用于自定义业务服务器 2015年通讯簿�
 
 用户可指定如下所示的文件目录。
 
-- **服务器日志文件位置**存储带宽策略服务器日志的文件夹位置。 这是通常在\<文件服务器\>\\< 选项的 FE\>\AppServerFiles\PDP。
+- **服务器日志文件位置**存储带宽策略服务器日志的文件夹位置。 这是通常在\<文件服务器\>\\FE 的 <choice\>\AppServerFiles\PDP。
 
 - **临时文件存储位置**正在生成报告时存储中间文件的临时文件位置。
 
@@ -1054,16 +1054,11 @@ SEFAUtil 工具只能在属于受信任应用程序池的一部分的计算机�
 2. 需要在拓扑中为 SEFAUtil 工具定义受信任的应用程序。 若要定义为新的受信任应用程序 SEFAUtil，Skype 用于业务 Server 命令行管理程序并执行以下 cmdlet:
 
    ```
-   New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN> -Port 7489
+   New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
    ```
 
     > [!NOTE]
     > 如果需要，可以使用其他端口。
-    
-    > [!NOTE]
-    > 池 FQDN： 服务器或将承载 SEFAUtil 应用程序池的 FQDN (通常业务前端服务器的 Skype > 或池)。
-    > 池注册器 FQDN： 业务前端服务器或池与此应用程序池相关联的 Skype 的 FQDN。
-    > 池网站： 网站的 ID，此池上驻留的网站。
 
 3. 需要启用拓扑更改。 启用拓扑的更改可通过 Skype 的业务 Server 命令行管理程序通过执行以下 cmdlet:
 

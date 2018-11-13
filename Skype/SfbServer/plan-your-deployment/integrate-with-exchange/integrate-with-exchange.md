@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 摘要： 查看有关如何为业务 Server 与 Exchange Server 2016 或 Exchange Server 2013 中集成 Skype 本主题。
-ms.openlocfilehash: 901bfd35ef0e781d12c8f4f455912e9ad47d0bdd
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: e46775a7a57702cd71293f2343aa2bf089491393
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839099"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294934"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>计划集成 Skype for Business 和 Exchange
  
@@ -63,7 +63,7 @@ Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri 
 
 有关自动发现服务的详细信息，请参阅[自动发现服务](https://go.microsoft.com/fwlink/p/?LinkId=268542)。
   
-在配置自动发现服务后，您必须修改业务服务器 OAuth 配置设置; Skype这样可确保业务服务器 Skype 知道查找自动发现服务的位置。 要修改的 OAuth 配置设置中 Skype 业务服务器，请运行 Business Server 命令行管理程序从 Skype 中的以下命令。 当运行此命令，确保您指定您的 Exchange 服务器上运行的自动发现服务的 URI，并且您使用**autodiscover.svc**指向而不是**autodiscover.xml** （它指向的 XML 文件的服务位置由服务）：
+在配置自动发现服务后，您必须修改业务服务器 OAuth 配置设置; Skype这样可确保业务服务器的 Skype 知道查找自动发现服务的位置。 要修改的 OAuth 配置设置中 Skype 业务服务器，请运行 Business Server 命令行管理程序从 Skype 中的以下命令。 当运行此命令，确保您指定您的 Exchange 服务器上运行的自动发现服务的 URI，并且您使用**autodiscover.svc**指向而不是**autodiscover.xml** （它指向的 XML 文件的服务位置由服务）：
   
 ```
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 

@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 摘要： 了解 Business Server Skype 中的边缘服务器的环境要求。
-ms.openlocfilehash: 4b8c4d63063e7dcd496d0063eff8e8f8b8027058
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 2fbe4f617a9a3d7fa0adebb65141596bd0c94fbe
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839550"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295338"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>边缘服务器环境要求中 Skype 业务服务器
  
@@ -362,9 +362,9 @@ Skype 业务 server 使用证书实现同时服务器之间以及从服务器到
 |访问/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |外部用户访问的客户端到服务器 SIP 通信。  <br/> |
 |访问/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |任意  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |适用于使用 SIP 的联盟和公共 IM 连接。  <br/> |
 |访问/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |任意  <br/> |适用于使用 SIP 的联盟和公共 IM 连接。  <br/> |
-|Web 会议/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 Web 会议边缘服务 <br/> **公用 IP:** 边缘服务器 Web 会议边缘服务公共 IP 地址 <br/> |Web 会议媒体。  <br/> |
-|A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |任意  <br/> |这可以用于中继媒体流量。  <br/> |
-|A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |任意  <br/> |这可以用于中继媒体流量。  <br/> |
+|Web 会议/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 Web 会议边缘服务 <br/> **公用 IP:** 边缘服务器 Web 会议边缘服务服务公用 IP 地址 <br/> |Web 会议媒体。  <br/> |
+|A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务的服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |任意  <br/> |这可以用于中继媒体流量。  <br/> |
+|A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务的服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |任意  <br/> |这可以用于中继媒体流量。  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |任意  <br/> |3478 出站：  <br/> • Skype 业务服务器用来确定它与之通信的边缘服务器的版本。  <br/> • 用于边缘服务器之间的媒体流量。  <br/> • 与 Lync Server 2010 的联盟时必需。  <br/> • 如果贵组织中部署多个边缘池需要。  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |任意  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |在端口 3478 上通过 UDP 进行的候选项 STUN/TURN 协商。  <br/> |
 |A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |在端口 443 上通过 TCP 进行的候选项 STUN/TURN 协商。  <br/> |
@@ -381,7 +381,7 @@ Skype 业务 server 使用证书实现同时服务器之间以及从服务器到
 |SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |任意：  <br/> • 前端服务器  <br/> • 前端池  <br/> ？ 使用此边缘服务器的任何 Survivable Branch Appliance  <br/> ？ 使用此边缘服务器的任何 Survivable Branch Server  <br/> |边缘服务器内部接口  <br/> |身份验证的 A / V 用户从前端服务器或前端池，或 Survivable Branch Appliance 或 Survivable Branch Server，使用您的边缘服务器。  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |任意  <br/> |边缘服务器内部接口  <br/> |首选的路径为 A / V 媒体传输内部和外部用户与您的 Survivable Branch Appliance 或 Survivable Branch Server 之间。  <br/> |
 |STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |边缘服务器内部接口  <br/> |回退路径，a / V 媒体传输之间内部和外部用户和您的 Survivable Branch Appliance 或 Survivable Branch Server，如果 UDP 通信不起作用。 然后 TCP 用于文件传输和桌面共享。  <br/> |
-|HTTPS  <br/> |TCP  <br/> |端口 4443  <br/> |任意：  <br/> • 包含中央管理存储的前端服务器  <br/> • 包含中央管理存储的前端池  <br/> |边缘服务器内部接口  <br/> |从中央管理存储到边缘服务器的更改复制。  <br/> |
+|HTTPS  <br/> |TCP  <br/> |端口 4443  <br/> |任意：  <br/> • 包含中央管理存储的前端服务器  <br/> • 包含中央管理存储的前端池  <br/> |边缘服务器内部接口  <br/> |从中央管理存储的更改复制存储到边缘服务器。  <br/> |
 |MTLS  <br/> |TCP  <br/> |50001  <br/> |任意  <br/> |边缘服务器内部接口  <br/> |使用 Skype 业务 Server 命令行管理程序和 Centralized Logging Service cmdlet、 ClsController 命令行 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合的集中日志记录服务控制器。  <br/> |
 |MTLS  <br/> |TCP  <br/> |50002  <br/> |任意  <br/> |边缘服务器内部接口  <br/> |使用 Skype 业务 Server 命令行管理程序和 Centralized Logging Service cmdlet、 ClsController 命令行 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合的集中日志记录服务控制器。  <br/> |
 |MTLS  <br/> |TCP  <br/> |50003  <br/> |任意  <br/> |边缘服务器内部接口  <br/> |使用 Skype 业务 Server 命令行管理程序和 Centralized Logging Service cmdlet、 ClsController 命令行 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合的集中日志记录服务控制器。  <br/> |

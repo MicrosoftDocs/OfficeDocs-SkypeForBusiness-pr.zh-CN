@@ -4,18 +4,17 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
-ms.reviewer: mwa
 ms.topic: reference
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 为 IT 专业人员提供指向 Skype for Business 2016、Skype for Business 2015 和 Lync 2013 客户端永久版本的最新更新信息的链接
-ms.openlocfilehash: 522161d38c3e7a0b5cb46e9ce098e48478173a68
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 69ff89c856204577c46f27c568f3b6d9cf5613b2
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839267"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294231"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>使用 Windows Installer (MSI) 的 Skype for Business 版本的最新更新
 
@@ -34,7 +33,7 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 
 - 对于 Skype for Business Server 本地部署，请遵循你的 Skype for Business 版本的系统要求：
 
-  - [Skype for Business 环境要求](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
+  - [Skype for Business 环境要求](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
 
   - [Lync Server 2013 系统要求](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
 

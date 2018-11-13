@@ -1,5 +1,5 @@
 ---
-title: 为业务 Server 部署的 Skype 的统计信息管理器
+title: 为 Skype for Business Server 2015 部署统计信息管理器
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,24 +10,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
-description: 摘要： 阅读本主题可了解如何为业务服务器部署 for Skype 的统计信息管理器。
-ms.openlocfilehash: 4d32c10852091d494f59c65648cb370878fc3413
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+description: 摘要： 阅读本主题可了解如何为业务服务器 2015年部署 for Skype 的统计信息管理器。
+ms.openlocfilehash: 75a8af0794431a0f74233ad0c6a422b3827c7656
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26282978"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295180"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>为业务 Server 部署的 Skype 的统计信息管理器
+# <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Deploy Statistics Manager for Skype for Business Server 2015
  
-**摘要：** 阅读本主题可了解如何为业务服务器部署 for Skype 的统计信息管理器。
+**摘要：** 阅读本主题可了解如何为业务服务器 2015年部署 for Skype 的统计信息管理器。
   
  适用于业务服务器 Skype 的统计信息管理器是一个强大的工具，允许您查看 Skype 的实时业务服务器运行状况和性能数据。 可以跨服务器数百每隔几秒钟轮询性能数据，并立即统计信息管理器网站上查看结果。
   
-您尝试安装统计信息管理器之前，请确保您熟悉的软件、 网络和硬件要求。 有关详细信息，请参阅[计划为统计信息管理器中的 Skype 业务服务器](plan.md)。
+您尝试安装统计信息管理器之前，请确保您熟悉的软件、 网络和硬件要求。 有关详细信息，请参阅[计划为统计信息管理器中的业务服务器 2015年的 Skype](plan.md)。
   
 > [!NOTE]
-> 如果您要从早期版本的统计信息管理器中进行升级，请参阅[适用于业务服务器 Skype 升级统计信息管理器](upgrade.md)。 
+> 如果您要从早期版本的统计信息管理器中进行升级，请参阅[适用于业务服务器 2015年的 Skype 升级统计信息管理器](upgrade.md)。 
   
 > [!NOTE]
 > 统计信息管理器网站已经过测试，可以在 Internet Explorer 11+、Edge 20.10240+ 和 Chrome 46+（当前 Evergreen 版本）上正确运行。 
@@ -62,7 +62,7 @@ ms.locfileid: "26282978"
   
 ### <a name="prepare-the-listener-host-machine"></a>准备侦听器主机。
 
-要准备主机，你将需要安装 Redis 内存中缓存系统，并确保该计算机上存在有效证书。 Microsoft 建议安装稳定的最新 Redis 3.0 内部版本。 统计信息管理器版本 2.0 与 Redis 3.2.100 测试。 
+要准备主机，你将需要安装 Redis 内存中缓存系统，并确保该计算机上存在有效证书。 Microsoft 建议安装稳定的最新 Redis 3.0 内部版本。 统计信息管理器版本 1.1 的经 Redis 3.0.501 和 Redis 2.8.2400。 
   
 1. 从以下网站下载 Redis: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis)。 
     
@@ -212,7 +212,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-若要查看您导入当前服务器的信息，请运行以下脚本： 
+要查看你当前导入的服务器信息，请运行以下脚本： 
   
 ```
 .\Get-StatsManServerInfo.ps1
@@ -265,7 +265,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-您可能会看到应用程序事件日志中的所有事件的信息，请参阅[适用于业务服务器 Skype 解决统计信息管理器](troubleshoot.md)。
+您可能会看到应用程序事件日志中的所有事件的信息，请参阅[适用于业务服务器 2015年的 Skype 解决统计信息管理器](troubleshoot.md)。
   
 ## <a name="create-a-self-signed-certificate"></a>创建自签名证书
 <a name="BKMK_SelfCert"> </a>
@@ -299,11 +299,11 @@ Microsoft 强烈建议你使用受信任的证书颁发机构签发的证书。 
 
 有关详细信息，请参阅以下文章：
   
-- [规划业务 Server 为统计信息管理器中的 Skype](plan.md)
+- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
     
-- [为业务服务器升级的 Skype 的统计信息管理器](upgrade.md)
+- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
     
-- [解决的 Skype 的统计信息管理器的企业服务器](troubleshoot.md)
+- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
     
 - [Skype for Business Server 统计信息管理器博客](https://blogs.technet.microsoft.com/skypestatsman/)
     

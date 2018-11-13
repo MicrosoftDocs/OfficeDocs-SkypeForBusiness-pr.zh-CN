@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
-ms.openlocfilehash: c404e427a83fc8b94d3f2a206e5c9c6b1ded5ed0
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: 566cdfdcea7c12c053f8dac43d68ef75a3b29e4b
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26283175"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296047"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>尝试或购买 Microsoft 团队的 Office 365 中的音频会议
 
@@ -74,9 +74,7 @@ ms.locfileid: "26283175"
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>第 2 步：为领导或安排会议的人员设置音频会议提供商
 
-当您的业务集成与第三方音频会议提供商不具有 Skype 分配**音频会议**许可，以在组织中的人员时，他们设置都设置，并准备好了 ！ （您无需设置其音频会议提供商。）
-
-如果必须启用与第三方音频会议提供商的用户，您必须向 Microsoft 更改这些用户的提供程序。 若要更改的用户提供程序，请参阅[分配 Microsoft 作为音频会议提供商](assign-microsoft-as-the-audio-conferencing-provider.md)。
+将**音频会议**许可证分配给贵组织中会领导或安排会议的人员时，他们所有人就已经设置好并准备就绪了！ （您无需设置其音频会议提供商。）
 
 ## <a name="step-3-other-admin-tasks"></a>第 3 步：其他管理任务
 

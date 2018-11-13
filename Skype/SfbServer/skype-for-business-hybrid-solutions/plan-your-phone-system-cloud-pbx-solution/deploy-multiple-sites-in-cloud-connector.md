@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: 了解有关在云连接器版本中部署多个 PSTN 站点的信息。
-ms.openlocfilehash: 388915d0ab22dc50378d84a82c01291cfd7c99eb
-ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
+ms.openlocfilehash: b6d4c489136f038a5d4dbe7188958ef60e4a5aed
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25851488"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295711"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>在云连接器中部署多个站点
  
@@ -78,7 +78,6 @@ ExternalMRPublicIPs=104.42.226.134
   
 |**类别**|**项目**|**支持 HA 的单站点**|**多站点**|
 |:-----|:-----|:-----|:-----|
-|配置  <br/> |装置主机名 <br/> |设备之间**不同** <br/> |PSTN 站点之间**不同** <br/> |
 |设置  <br/> |共享文件夹  <br/> |要求在设备之间的**相同**的共享的文件夹 <br/> |不同设备需要**不同**的共享文件夹 <br/> |
 |配置  <br/> |VirtualMachineDomain  <br/> |不同设备需要**相同**的域 <br/> |不同 PSTN 站点需要**相同**的域 <br/> |
 |配置  <br/> |SIP 域  <br/> |域名和顺序应**相同**跨 appliance <br/> |域名和顺序应**相同**跨 PSTN 网站 <br/> |

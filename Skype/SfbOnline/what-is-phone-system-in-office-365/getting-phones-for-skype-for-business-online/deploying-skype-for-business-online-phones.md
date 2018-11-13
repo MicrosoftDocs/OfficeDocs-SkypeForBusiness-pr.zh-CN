@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解获取正确的固件、 如果需要对其进行更新、 分配许可证和配置的业务联机电话设置 Skype 的部署步骤
-ms.openlocfilehash: 809cec268ac2a086a01fc00cf043759a326a34f5
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 26748f79d62b2f4b40a249dcf1af1736bae2d06f
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838775"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295092"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>部署 Skype for Business Online 电话
 
@@ -205,7 +205,7 @@ BToE 是电话 paining 对用户的电话与为业务应用程序及其 Windows 
     
      ![Deploying phones.](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
-2. 从制造商网站（链接如下所示）下载并安装最新的 BToE 软件。要获取更好的用户体验，可以使用 System Center Configuration Manager (SCCM) 等管理员分发解决方案来分发并安装 BToE 软件。有关使用 SCCM 的帮助，请参阅[ System Center Configuration Manager 中的软件包和程序](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs)。
+2. 从制造商网站（链接如下所示）下载并安装最新的 BToE 软件。要获取更好的用户体验，可以使用 System Center Configuration Manager (SCCM) 等管理员分发解决方案来分发并安装 BToE 软件。有关使用 SCCM 的帮助，请参阅[ System Center Configuration Manager 中的软件包和程序](https://docs.microsoft.com/en-us/sccm/apps/deploy-use/packages-and-programs)。
     
    - [Polycom BToE 软件下载站点](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     

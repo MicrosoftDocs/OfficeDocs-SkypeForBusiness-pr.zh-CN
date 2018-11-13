@@ -16,20 +16,17 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1eeb32f86f678672a14d42b241e56eb9ab92b02
-ms.sourcegitcommit: 9138325ba2652a9ee3602d259de811082080e358
+ms.openlocfilehash: a24f4ba3c9470827c8a73bf8ac234cf7ae8467e8
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25842081"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294694"
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================
 
 Microsoft 团队具有客户端适用于桌面 （Windows 和 Mac） web 和移动 （Android、 iOS 和 Windows Phone）。 这些客户端都要求有活动的 Internet 连接，不支持脱机模式。
-
-> [!NOTE]
-> 有效年 11 月 29，2018，您将不再能够使用 Microsoft 团队 Windows 10 S （预览） 应用程序，可从 Microsoft 存储。 我们建议您使用后 11 月 29 日下述本文中的团队应用程序之一。
 
 <a name="desktop-client"></a>桌面客户端
 --------------

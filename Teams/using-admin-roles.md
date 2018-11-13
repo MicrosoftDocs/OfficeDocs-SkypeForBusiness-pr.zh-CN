@@ -9,12 +9,12 @@ ms.service: msteams
 description: 了解如何使用不同的管理角色管理团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f70b1035600079d4a4f746fe33fa03c6eab287a7
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 0e09aa4146588cf32a6dd7cf0816a89cb4bdd696
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838988"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295863"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>使用 Microsoft 团队管理员角色可以管理团队
 
@@ -33,17 +33,17 @@ ms.locfileid: "25838988"
 | Teams 通信支持工程师 | 使用**高级**工具解决团队中的通信问题。 | 访问用户配置文件页的疑难解答呼叫分析中的呼叫。 可以查看完全呼叫记录的信息。<sup>3</sup> |
 | 团队 Communications 支持专家 | 使用**基本**工具解决团队中的通信问题。| 访问用户配置文件页的疑难解答呼叫分析中的呼叫。 只能查看搜索的特定用户的用户信息。<sup>3</sup>
 
-<sup>1</sup> [PowerShell-商业模块的 Skype](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
+<sup>1</sup> [PowerShell-商业模块的 Skype](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell 的 Microsoft 团队模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
-<sup>3</sup> [的 Microsoft 团队和 Skype 的业务管理中心](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+<sup>3</sup> [的 Microsoft 团队和 Skype 的业务管理中心](https://docs.microsoft.com/en-us/microsoftteams/manage-teams-skypeforbusiness-admin-center)
 <!-- <sup>4</sup> Azure Active Directory Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 -->
-有关可用于管理的 Microsoft 团队的管理工具的详细信息，请参阅[管理 Microsoft 团队](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)。
+有关可用于管理的 Microsoft 团队的管理工具的详细信息，请参阅[管理 Microsoft 团队](https://docs.microsoft.com/en-us/microsoftteams/manage-teams-skypeforbusiness-admin-center)。
 
 ## <a name="assign-users-to-each-role"></a>向每个角色分配用户
 
-您可以将用户分配这些角色在 Azure Active Directory 中。 若要了解如何将管理角色分配给 Azure Active Directory 中的用户，请参阅[为用户在 Azure Active Directory 中的管理员角色分配](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。
+您可以将用户分配这些角色在 Azure Active Directory 中。 若要了解如何将管理角色分配给 Azure Active Directory 中的用户，请参阅[为用户在 Azure Active Directory 中的管理员角色分配](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。
 
 ## <a name="cmdlets-available-for-each-role"></a>适用于每个角色 Cmdlet
 
@@ -59,6 +59,6 @@ ms.locfileid: "25838988"
 ### <a name="related-topics"></a>相关主题
 
 - [Microsoft 团队 PowerShell 概述 （英文)](teams-powershell-overview.md)
-- [Microsoft 团队 PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-- [分配团队所有者和中的 Microsoft 团队的成员](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
+- [Microsoft 团队 PowerShell](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps)
+- [分配团队所有者和中的 Microsoft 团队的成员](https://docs.microsoft.com/en-us/microsoftteams/assign-roles-permissions)
 

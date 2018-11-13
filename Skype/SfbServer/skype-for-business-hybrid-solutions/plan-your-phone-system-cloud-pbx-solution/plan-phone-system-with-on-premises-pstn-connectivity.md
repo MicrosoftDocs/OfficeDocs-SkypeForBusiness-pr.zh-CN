@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 了解 Office 365 (云 PBX) 中的电话系统的规划注意事项的内部部署 PSTN 连接。
-ms.openlocfilehash: 4614b3fdc62d8a51323ee7c9f261bec3d6cea6c3
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 4096dde95c4cee2871e968f4e6b91d60682e73d5
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839449"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295454"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>规划 Office 365 中的电话系统与内部部署 PSTN 连接中 Skype 业务 Server
 
@@ -56,7 +56,7 @@ ms.locfileid: "25839449"
 
 你可以有自定义功能或主要传统 PBX 加载项，如呼叫中心。 如果不在 Office 365 中的电话系统上当前可用的自定义功能，您应将保留这些要求的自定义功能在本地与旧版 PBX 和只端口不需要访问到 Office 365 中的电话系统的自定义功能的用户的用户通过内部部署 PSTN 连接。
 
-直接与 Skype 的业务服务器 2015年旧 Pbx 的互操作的列表，请参阅[Microsoft lync 基础结构限定](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway)。 如果 PBX 不在此列表中，您可以使用会话边界控制器业务 online 与 Skype 中的 Office 365 中的电话系统连接 PBX。
+直接与 Skype 的业务服务器 2015年旧 Pbx 的互操作的列表，请参阅[Microsoft lync 基础结构限定](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway)。 如果 PBX 不在此列表中，您可以使用会话边界控制器业务 online 与 Skype 中的 Office 365 中的电话系统连接 PBX。
 
 ### <a name="network-considerations-for-quality-and-performance"></a>质量和性能相关的网络注意事项
 
@@ -100,7 +100,7 @@ ms.locfileid: "25839449"
 
     如果您使用 Lync Server 2013，请参阅[Lync Server 2013 中的企业语音规划](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx)和[部署 Lync Server 2013 中的企业语音](https://technet.microsoft.com/EN-US/library/gg412876%28v=ocs.15%29.aspx)。
 
-- **Active Directory 同步**您必须配置 Active Directory 同步使用 Azure AD 连接。 有关详细信息，请参阅[管理 Azure AD 连接](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/)。
+- **Active Directory 同步**您必须配置 Active Directory 同步使用 Azure AD 连接。 有关详细信息，请参阅[管理 Azure AD 连接](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-whats-next/)。
 
     > [!NOTE]
     > 您所使用的 AAD Connect 版本必须是版本 1.0.9125.0 或更高版本。如果您使用较早版本的 AAD Connect 工具或 DirSync，请升级到支持的版本。您可以升级您的当前安装并维护您在环境中定义的任何自定义规则。 

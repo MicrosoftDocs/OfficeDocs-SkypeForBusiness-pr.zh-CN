@@ -13,12 +13,12 @@ description: 了解贵组织要求的数据和权限应用。
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da1c22852f12bad79413d8b1f57d129be4e0ffcd
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: 39c104d10e14e602da21761667312a917d9a9ce0
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678399"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295764"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 
@@ -97,7 +97,7 @@ Tab 是团队内运行的网站。
   <tr>
     <td valign="top">SEND_AND_RECEIVE_WEB_DATA</td>
     <td valign="top">（当前） 无。</td>
-    <td valign="top"><ul><li>选项卡的风险配置文件是与浏览器选项卡中运行该相同网站几乎完全相同。 </li><li>选项卡还在其中获取的上下文 = #39; s 运行当前用户的 Azure AD 对象 ID，包括登录名和当前用户的 UPN 其所在，租户 ID 的 Office 365 组 （工作组） ID和用户的当前区域设置。 但是，要映射到用户 #39 这些 Id; s 信息、 选项卡将需要使用户登录到 Azure AD。</li></ul></td>
+    <td valign="top"><ul><li>选项卡的风险配置文件是与浏览器选项卡中运行该相同网站几乎完全相同。 </li><li>选项卡还在其中获取的上下文 = #39; s 运行当前用户的 Azure AD 对象 ID，包括登录名和当前用户的 UPN 其所在 （如果为团队） 的 Office 365 组 ID租户 ID，并且用户的当前区域设置。 但是，要映射到用户 #39 这些 Id; s 信息、 选项卡将需要使用户登录到 Azure AD。</li></ul></td>
   </tr>
   </table>
 

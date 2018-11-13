@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4983f8089a5d221a29f67ae25dfa6766751a7394
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: c95eec7d05d0acb8e49c8236b1e9d5f498869c95
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26282954"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295285"
 ---
 <a name="install-microsoft-teams-using-msi"></a>使用 MSI 安装 Microsoft Teams
 =================================
@@ -63,20 +63,9 @@ ms.locfileid: "26282954"
                     
 ## <a name="disable-auto-launch-for-the-msi-installer"></a>禁用自动启动的 MSI 安装程序
 
-MSI 默认行为是安装团队客户端，只要用户使用登录，然后自动启动团队。 您可以如下所示修改此行为与以下参数：
+如果您想要禁用自动启动，输入以下命令提示符：
 
-- 当用户登录到 Windows 时，将使用 MSI 安装团队
-- 但是，团队客户端之前不会启动用户已手动启动团队
-- 将用户的桌面上添加一个快捷方式，以启动团队
-- 手动启动后，团队将自动启动时用户登录
-
-32 位版本
 ```
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
-64 位版本
-```
-msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
-```
-> [!Note] 
->  如果手动运行 MSI，请务必运行以提升的权限。 即使您运行它作为管理员，但不运行以提升的权限，安装程序不能配置选项后，可以禁用自动启动。
+

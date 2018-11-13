@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '作为 Office 365 管理员，你可以为贵组织中的单个用户编辑 Microsoft Teams 音频会议设置（例如，提供商、默认的收费或免费电话号码、会议 ID 或 PIN）。 '
-ms.openlocfilehash: 61b0cf5db964af19001069318f275ac237012cb4
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 0be1276bbcba42cdf2b38c4ec1e54845608824e6
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784837"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296185"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中管理用户的音频会议设置
 
-作为 Office 365 管理员，您可以为组织中的单个用户编辑音频会议设置，例如提供程序、默认收费或免费电话号码、会议 ID 或 PIN。 如果您想要编辑您的组织的设置，请参阅[管理您的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)。
+作为 Office 365 管理员，您可以为组织中的单个用户编辑音频会议设置，例如提供程序、默认收费或免费电话号码、会议 ID 或 PIN。 如果你要为贵组织编辑设置，请参阅[管理我的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)。
 
 ## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队和 Skype for Business Admin Center
 
@@ -58,6 +58,6 @@ ms.locfileid: "25784837"
 
 ## <a name="related-topics"></a>相关主题
 
-[管理您的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+[管理我的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 
 [音频会议常见问题](audio-conferencing-common-questions.md)

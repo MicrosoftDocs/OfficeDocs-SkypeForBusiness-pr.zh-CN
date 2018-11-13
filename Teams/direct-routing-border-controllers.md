@@ -1,7 +1,6 @@
 ---
 title: 经认证可用于直接路由的会话边界控制器列表
 ms.author: jambirk
-ms.reviewer: NMuravlyannikov
 author: jambirk
 manager: serdars
 ms.audience: ITPro
@@ -16,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 直接路由中使用与所选的 SBC 供应商，以确认其 SBCs 的 Microsoft 合作伙伴。
-ms.openlocfilehash: 2d0873916585cab3eed6295e9be499f0eab39d53
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 45a562b83c6e89a1006bc1fd6e2180ff49daf1ad
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26038900"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294808"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -60,7 +59,5 @@ Microsoft 与选定会话边界控制器 (SBC) 供应商认证的合作伙伴与
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   待定    |      V7.0.2      |
 |                                                                                                                     |    SBC SWe 精简版     |     &#10004;     |   待定    |      V7.0.4      |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   待定    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |   待定    |   待定  |   待定    |
-|                                                                                                                     |      AP 4600         |    待定    |   待定    |      待定      |
-|                                                                                                                     |      VME             |    待定    |   待定    |      待定      |
-|                     [TE 系统](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |    待定    |   待定    |      待定      |
+|                                                                                                                     |                     |                  |              |                  |
+

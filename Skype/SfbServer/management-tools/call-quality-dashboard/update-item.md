@@ -3,22 +3,23 @@ title: 更新项
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 6/8/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
-description: 摘要： 了解如何更新项操作，即项服务的一部分。 项服务是呼叫质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: 5839118dc6e907696d4ce3e9adfbc58504808fac
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: 摘要： 了解如何更新项操作，即项服务的一部分。 项服务是呼叫质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
+ms.openlocfilehash: 0616f41a3ae680412bdc435716d805af77e72f3a
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035685"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295264"
 ---
 # <a name="update-item"></a>更新项
  
-**摘要：** 了解有关更新项操作，即项服务的一部分。 项服务是呼叫质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
+**摘要：** 了解有关更新项操作，即项服务的一部分。 项服务是呼叫质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 2015年的 Skype 的工具。
   
 更新项操作是用于呼叫的质量仪表板的存储库 API 中的项服务的一部分。
   

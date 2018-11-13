@@ -1,8 +1,9 @@
 ---
-title: 规划呼叫质量仪表板的 Skype 业务服务器
+title: 规划呼叫质量仪表板的 Skype for Business Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 4/27/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 摘要： 了解有关呼叫质量仪表板规划时应考虑的事项。
-ms.openlocfilehash: 6df705b4d3b39bdd9f75d328277d9aa1c5fc23d1
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+ms.openlocfilehash: 05411bb62e36350dc9109ca0f8b9d74fc0541946
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035769"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296055"
 ---
-# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>规划呼叫质量仪表板的 Skype 业务服务器 
+# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server-2015"></a>规划呼叫质量仪表板的 Skype for Business Server 2015
  
 **摘要：** 了解有关呼叫质量仪表板规划时应考虑的事项。
   
-## <a name="overview-of-the-skype-for-business-server-call-quality-dashboard"></a>业务服务器呼叫质量仪表板的 Skype 的概述
+## <a name="overview-of-the-skype-for-business-server-2015-call-quality-dashboard"></a>业务服务器 2015年呼叫质量仪表板的 Skype 的概述
 
-Skype 的业务服务器呼叫质量仪表板 (CQD) 是在质量的体验中的数据库中的业务服务器 Skype 的监控服务器报告层。 CQD 使用 Microsoft SQL Server Analysis Services 提供聚合的用法和呼叫质量的信息以及与筛选和数据集上透视。 CQD 功能包括：
+Skype 的业务服务器 2015年呼叫质量仪表板 (CQD) 是在质量的体验中的数据库中的业务服务器 2015年和 Lync Server 2013 的 Skype 的监控服务器报告层。 CQD 使用 Microsoft SQL Server Analysis Services 提供聚合的用法和呼叫质量的信息以及与筛选和数据集上透视。 CQD 功能包括：
   
 - **通过 CQD 的 QoE 存档组件的 QoE 数据的存档存储。** QoE 存档组件可为更长时间工期超过监控服务器可以存储 QoE 数据。 这样，趋势和报告的最多七个月的数据时，能够幻灯片背面至于报告窗口没有数据。
     
@@ -81,7 +82,7 @@ CQD 还抽象化许多内部的 QoE 数据特性，例如"呼叫者"和"被叫�
   
 ### <a name="cqd-portal"></a>CQD 门户
 
-门户是最快捷的方式查看中多维数据集的数据。 门户附带了可供立即多个内置报表。 内置报告结构化方式指导用户到连续较小和最小切片呼叫数据的链接。 内置报告还突出显示的数据可以显示由演示图表和表具有不同的数据透视表、 筛选器和度量值的组合的各种不同方式。 每个访问门户的用户可以有其自己的报告，他/她可以修改和共享的组。 有关使用率 CQD Web 门户的详细信息，请参阅[使用呼叫质量仪表板 Skype 业务服务器](use.md)。
+门户是最快捷的方式查看中多维数据集的数据。 门户附带了可供立即多个内置报表。 内置报告结构化方式指导用户到连续较小和最小切片呼叫数据的链接。 内置报告还突出显示的数据可以显示由演示图表和表具有不同的数据透视表、 筛选器和度量值的组合的各种不同方式。 每个访问门户的用户可以有其自己的报告，他/她可以修改和共享的组。 有关使用率 CQD Web 门户的详细信息，请参阅[使用呼叫质量仪表板的业务服务器 2015 Skype](use.md)。
   
 支持为 CQD 门户的操作系统： Windows 8.1、 Windows 8、 Windows Server 2012 R2 和 Windows Server 2012。
   
@@ -89,7 +90,7 @@ CQD 还抽象化许多内部的 QoE 数据特性，例如"呼叫者"和"被叫�
   
 ### <a name="rest-apis"></a>REST Api
 
-也可以通过 REST API 调用访问多维数据集数据。 可以通过 HTML 页呈现通过 REST API 调用检索到的数据。 在仍创建自定义报告适合其业务需求，用户可以利用查询速度和高级别 CQD 架构。 有关 API 和示例的详细信息，请参阅[开发呼叫质量仪表板 Skype 业务服务器](develop.md)。 
+也可以通过 REST API 调用访问多维数据集数据。 可以通过 HTML 页呈现通过 REST API 调用检索到的数据。 在仍创建自定义报告适合其业务需求，用户可以利用查询速度和高级别 CQD 架构。 有关 API 和示例的详细信息，请参阅[开发呼叫质量仪表板的业务服务器 2015 Skype](develop.md)。 
   
 ## <a name="defining-your-organizations-requirements-for-cqd"></a>定义的 CQD 贵组织的要求
 
@@ -132,7 +133,7 @@ CQD 附带了几个组件，并帮助了解获取该工具的最简单和最佳�
 
 可以拖放到一台计算机上安装所有 CQD 组件和相关组件。 单服务器配置是最简单的配置，并允许 CQD 是独立。 CQD 只需要对监控服务器上的 QoE 指标数据库的访问。 CQD 服务器可以是独立计算机，虚拟机，也可以甚至是监控服务器，具体取决于主机和性能要求的可用资源。 
   
-在过程中安装、 用户执行安装只需要提供 Microsoft SQL Server 和已以前设置的计算机安装 CQD 所在的 Microsoft SQL Server Analysis Services 实例。 请参阅[部署呼叫质量仪表板 Skype 业务服务器](deploy-0.md)的详细信息。
+在过程中安装、 用户执行安装只需要提供 Microsoft SQL Server 和已以前设置的计算机安装 CQD 所在的 Microsoft SQL Server Analysis Services 实例。 请参阅[部署呼叫质量仪表板的业务服务器 2015 Skype](deploy-0.md)的详细信息。
   
 ### <a name="multiserver-configuration"></a>多服务器配置
 
@@ -237,8 +238,6 @@ CQD 利用 Microsoft SQL Server、 Microsoft SQL Analysis Server 和 Microsoft I
 - Windows Server 2012 with IIS 8.0
     
 - 使用 IIS 8.5 的 Windows Server 2012 R2
-
-- Windows Server 2016 IIS
     
 以下是 （层次结构顺序） 中所需的 IIS 角色服务：
   
@@ -290,8 +289,6 @@ SQL Server 的以下版本支持：
 - SQL Server 2012
     
 - SQL Server 2014
-
-- SQL Server 2016
     
 出于性能原因，建议您使用商业智能或 Enterprise edition。 这些版本允许使用的多个分区文件可以并行，这是有益于处理数据跨越多个月份或更长时间处理。 
   
