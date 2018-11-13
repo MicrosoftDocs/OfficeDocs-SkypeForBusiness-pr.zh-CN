@@ -12,12 +12,12 @@ ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11865d4e4258be9df2d3a8201945bffbc9117b67
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.openlocfilehash: bd69ba3592b23acdc963b8438e35ef998a3ceec1
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238095"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255738"
 ---
 # <a name="adopt-microsoft-teams"></a>采用 Microsoft 团队
 
@@ -25,7 +25,7 @@ ms.locfileid: "26238095"
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-quick-start-checklist">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -177,6 +177,7 @@ ms.locfileid: "26238095"
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">定义结果和成功</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">优化反馈和报告</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">驱动器认知度和培训</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-schedule-service-health-reviews">安排服务运行状况 reviews （英文）</a></p>
                     </div>
                 </div>
             </div>
