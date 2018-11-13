@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解为用户分配电话拨入式会议许可证和会议 ID 的 Microsoft Teams 步骤以及许多其他电话拨入式会议设置。 '
-ms.openlocfilehash: 327f9f9f9511e914d87b41f35f932df5aebd15c0
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: bc2f51cabe73db326c5a070f75d55c30fb1af367
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784860"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283183"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>管理组织中的 Microsoft 团队的音频会议设置
 
@@ -71,10 +71,6 @@ ms.locfileid: "25784860"
 **使用 Windows PowerShell**
   
 有关详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
-    
-## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>更改向用户发送的电子邮件中的发件人联系信息
-
-你可以更改自动向用户发送的电子邮件，包括实际电子邮件地址和发件人联系信息的显示名称。 默认情况下，这些电子邮件的发件人显示为来自 Office 365，但你可以使用 Windows PowerShell 更改电子邮件地址和显示名称。 有关详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
   
 ## <a name="reset-the-meeting-conference-id"></a>重置会议 ID
 
@@ -82,38 +78,38 @@ ms.locfileid: "25784860"
 
 1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 
-2. 在“**音频会议**”下，单击“**重置会议 ID**”。  
+2. 在**音频会议**，下单击**重置会议 ID**。  
 
-3. 在“**重置会议 ID?**”窗口中，单击“**重置**”。 如果启用了将电子邮件发送给用户，将自动创建会议 ID 并使用新的会议 ID 向用户发送邮件。 默认情况下处于启用状态。
+3. 在**重置的会议 ID？** 窗口中，单击**重置**。 如果启用了将电子邮件发送给用户，将自动创建会议 ID 并使用新的会议 ID 向用户发送邮件。 默认情况下启用它。
 
 请参阅[重置用户的会议 ID](reset-a-conference-id-for-a-user-in-teams.md)。
   
 ## <a name="reset-a-conference-organizers-pin"></a>重置会议组织者的 PIN
 
-用户安排的每次会议将分配到一个唯一的会议 ID。 虽然会自动创建会议 ID 并将其分配给用户，但有时可能会存在以下情况：用户不希望使用此会议 ID，你希望将其设置为特定号码，或者你的用户记不住或丢失了其会议 ID。 
+用户安排的每次会议将分配到一个唯一的会议 ID。 虽然会议 ID 将自动创建并分配给用户，有时可能时用户不是要使用此和您想要将其设置为一个特定号码，或您的用户不记得丢失其会议 id。 
 
 ![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
 
 1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 
-2. 在“**音频会议**”下，单击“**重置 PIN**”，然后单击“**重置**”。 
+2. 在**音频会议**，下单击**重置 PIN**，，然后单击**重置**。 
   
-当为用户启用了音频会议时或重置 PIN 时，用户将收到包含其 PIN 的电子邮件。 但如果你已禁用自动发送电子邮件，则不会发送 PIN 重置电子邮件，并且你必须手动向用户发送 PIN 信息。 PIN 将仅在重置后显示一次。 PIN 在重置后即会显示，但 PIN 不会再显示在用户属性上，而是会显示 *****。 
+当他们正在启用音频会议或 PIN 重置时，用户将收到电子邮件与他们的 PIN。 但如果您已禁用自动发送电子邮件，将不会发送的 PIN 重置电子邮件和必须手动发送给用户的 PIN。 PIN 将仅在重置后显示一次。 正在重置之后显示后，不会再显示 PIN 用户属性;而是 *** 将显示。 
   
-请参阅[重置音频会议 PIN](reset-the-audio-conferencing-pin-in-teams.md)。
+请参阅[重置 PIN 的音频会议](reset-the-audio-conferencing-pin-in-teams.md)。
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>向用户发送包含音频会议信息的电子邮件
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>向用户发送电子邮件与音频会议信息
 
 ![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
 
 1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 
-2. 在“**音频会议**”下，单击“**通过电子邮件发送会议信息**”。 
+2. 在**音频会议**，单击**发送电子邮件中的会议信息**。 
 
     > [!NOTE]
-    > 执行此操作时，不向用户发送音频会议 PIN。 
+    > 当执行此操作时，音频会议 PIN 不发送给用户。 
 
-请参阅[向用户发送包含其音频会议信息的电子邮件](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)。
+请参阅[对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)。
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>设置包含在邀请中的电话号码
 

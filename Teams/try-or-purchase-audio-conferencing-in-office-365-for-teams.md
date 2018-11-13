@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
-ms.openlocfilehash: 8a5484aee9e8a5a9b8a3e1a0c0cf3e3f264b17d1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c404e427a83fc8b94d3f2a206e5c9c6b1ded5ed0
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371972"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283175"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>尝试或购买 Microsoft 团队的 Office 365 中的音频会议
 
@@ -46,9 +46,9 @@ ms.locfileid: "25371972"
     
 2. 获取**音频会议**许可证。 如果想要：
 
-   - 在购买前**试用**，可以注册包括音频会议在内的 Office 365 企业版 E5 免费试用。 请参阅 [Office 365 企业版 E5 试用](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)。
+   - **试用**其售前： 您可以注册 Office 365 企业 E5 免费试用版包括音频会议。 请参阅 [Office 365 企业版 E5 试用](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)。
 
-   - **购买**，请参阅[业务和 Microsoft 团队授权加载项的 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
+   - **购买**： 请参阅[业务和 Microsoft 团队授权加载项的 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
 
 3. [如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc)分配给贵组织中打算安排或主持会议的人。
 
@@ -74,7 +74,9 @@ ms.locfileid: "25371972"
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>第 2 步：为领导或安排会议的人员设置音频会议提供商
 
-将**音频会议**许可证分配给贵组织中会领导或安排会议的人员时，他们所有人就已经设置好并准备就绪了！ （您无需设置其音频会议提供商。）
+当您的业务集成与第三方音频会议提供商不具有 Skype 分配**音频会议**许可，以在组织中的人员时，他们设置都设置，并准备好了 ！ （您无需设置其音频会议提供商。）
+
+如果必须启用与第三方音频会议提供商的用户，您必须向 Microsoft 更改这些用户的提供程序。 若要更改的用户提供程序，请参阅[分配 Microsoft 作为音频会议提供商](assign-microsoft-as-the-audio-conferencing-provider.md)。
 
 ## <a name="step-3-other-admin-tasks"></a>第 3 步：其他管理任务
 
@@ -94,7 +96,7 @@ ms.locfileid: "25371972"
 
 ## <a name="related-topics"></a>相关主题
 
-[设置 Skype for Business Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+[在您的组织中启用团队](office-365-set-up.md)
 
 [音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)
 

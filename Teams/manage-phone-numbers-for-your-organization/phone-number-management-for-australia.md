@@ -23,17 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 使用此表可以找到有关获取和管理澳大利亚中的电话号码的 Skype 业务 Online 和 Microsoft 团队。
-ms.openlocfilehash: b897a9f857b6703ed0ada636c16aa76393501257
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 88db4b1410071793622c5bab7e528c51180c7a80
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014512"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283128"
 ---
 # <a name="phone-number-management-for-australia"></a>澳大利亚电话号码管理
-> [!IMPORTANT]
-> 澳大利亚才可供预览和早期使用客户。 有关详细信息，请参阅 [Telstra Call for Office 365](https://aka.ms/TelstraVoicePlan)。
-
 在澳大利亚，我们已与 Telstra 合作购买和提供Calling Plan通话计划。 Telstra 将销售通话计划，并向用户和自动语音与呼叫队列号码提供支持。 但是，服务号码和音频会议的许可证仍由 Office 365 负责销售和管理。
 
 有关详细信息，请参阅 [Telstra Call for Office 365](https://aka.ms/TelstraVoicePlan)。

@@ -1,5 +1,5 @@
 ---
-title: Skype 业务服务器 2015年统计信息管理器
+title: 适用于业务服务器 Skype 的统计信息管理器
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,25 +10,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3b945656-8241-40ed-a34d-0910bd9d3529
-description: 摘要： 请阅读本主题，以学习为 Skype 业务服务器 2015，强大的工具，使您可以查看实时业务服务器运行状况和性能数据的 Skype 有关统计信息管理器。
-ms.openlocfilehash: 8fd35232f997ae4681b8b46c057e8706999f471a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 摘要： 阅读本主题可为企业服务器，使用户可以对业务服务器运行状况和性能数据实时查看 Skype 的强大工具的 Skype 了解有关统计信息管理器。
+ms.openlocfilehash: 8b7020b3e7a173fd2be3aeb5eecb390e43827737
+ms.sourcegitcommit: 388f82c36e1c7bddf38298867882d992be989b87
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26281417"
 ---
-# <a name="statistics-manager-for-skype-for-business-server-2015"></a>Skype 业务服务器 2015年统计信息管理器
+# <a name="statistics-manager-for-skype-for-business-server"></a>适用于业务服务器 Skype 的统计信息管理器
  
-**摘要：**阅读本主题，以学习为 Skype 业务服务器 2015，强大的工具，使您可以查看实时业务服务器运行状况和性能数据的 Skype 有关统计信息管理器。
+**摘要：** 阅读本主题可为企业服务器，使用户可以对业务服务器运行状况和性能数据实时查看 Skype 的强大工具的 Skype 了解有关统计信息管理器。
   
 本部分包含以下主题：
   
-- [为业务服务器 2015年计划为 Skype 统计信息经理](plan.md)
+- [规划业务 Server 为统计信息管理器中的 Skype](plan.md)
     
-- [为业务服务器 2015年部署 Skype 的统计信息管理器](deploy.md)
+- [为业务 Server 部署的 Skype 的统计信息管理器](deploy.md)
     
-- [为业务服务器 2015年升级为 Skype 的统计信息管理器](upgrade.md)
+- [为业务服务器升级的 Skype 的统计信息管理器](upgrade.md)
     
-- [解决业务服务器 2015年的 Skype 的统计信息管理器](troubleshoot.md)
+- [解决的 Skype 的统计信息管理器的企业服务器](troubleshoot.md)
     
 

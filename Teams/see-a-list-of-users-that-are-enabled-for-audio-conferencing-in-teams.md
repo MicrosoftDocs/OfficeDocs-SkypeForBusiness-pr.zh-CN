@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Microsoft Teams 中查看贵组织中启用了电话拨入式会议的用户列表。 '
-ms.openlocfilehash: a05aa000b2289499c030ac564a5f09eeefdd865a
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: 47e8f6879a16f9ee56e9050a07764800d4dba12b
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019117"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283144"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft Teams 中查看启用了音频会议的用户列表
 
-音频会议的组织中启用的 Microsoft 团队用户后，您可以查看的已启用这些用户的列表。 当您查看列表中，您还将为每个用户的音频会议提供商的他们使用的，对用户的默认电话拨入式电话号码类型列表中看到和您的组织未启用动态的会议 Id、 静态会议 Id为他们所组织的音频会议。
+音频会议的组织中启用的 Microsoft 团队用户后，您可以查看的已启用这些用户的列表。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -39,16 +39,13 @@ ms.locfileid: "25019117"
 - Skype 业务管理中心的左侧导航中的 Microsoft 团队中单击**用户**。
 
 
-## <a name="what-else-should-i-know"></a>我还应该了解哪些信息？
+## <a name="what-else-should-i-know"></a>我还需了解哪些信息？
 
-- 查看已启用的用户列表时，你可以从该列表中选择用户以编辑该用户的音频会议设置。
+- 当您查看已启用的用户列表时，您可以从该列表以编辑该用户的音频会议设置选择用户。
     
-- 当你选择配置为使用 Microsoft 作为音频会议提供商的单个用户时，你可以查看默认电话号码以及贵组织是否启用了动态会议 ID，并且你可以重置用户组织的会议的会议 ID。
-    
-- 当你选择配置为使用第三方音频会议提供商的单个用户时，你可以查看音频会议提供商的名称、收费电话号码和免费电话号码（如果已设置）。
-    
+- 如果您选择单个用户，您可以查看分配给用户和任何其他相关的音频会议设置的默认电话号码。    
    
-- 可以使用搜索按钮在列表中搜索某个用户。
+- 可以使用搜索按钮搜索列表中的某个用户。
     
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？

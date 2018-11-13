@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aba79f52984b243aa0a10c425f5c5741119daf50
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 239a90c295035da629b74711a41f7cec59f4c0a9
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215718"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255716"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft 团队应用阶段 1-开始
 
@@ -66,6 +66,5 @@ ms.locfileid: "26215718"
 - [Microsoft 团队技术社区](https://aka.ms/TeamsCommunity)– 获取产品问题的解答，了解从其他团队的客户，并按照我们的博客以保持最新的新功能和使用情况适用于团队。 
 - [Office 365 拥护者程序](https://aka.ms/O365Champions)和驱动应用社区 – 学习有关如何以最佳的 Office 365 工作负荷，如团队、 SharePoint、 Yammer 和其他产品推动采纳率。 打开到 IT 专业人员、 业务用户、"意外"开发人员，并驱动的云服务的任何人都有兴趣。  
 
-[Office 365 的自定义学习](https://aka.ms/CLO365)包括 SharePoint Online 的模板，以及可用于创建您的组织的培训门户的自定义 web 部件。 这免费，打开源解决方案允许 stream 的 Microsoft 培训资产直接到 Office 365 租户。 您可以将其自定义的服务使用并将其他培训内容添加到的网站体验。 如果您已有的 SharePoint Online 的培训门户，您可以下载刚刚 webpart 直接在您的公司网站上，安装，然后配置它根据实现要求。  
 
 ![下一步步骤图标](media/teams-adoption-next-icon.png)下一步：[了解团队和频道](teams-adoption-understand-teams-and-channels.md)

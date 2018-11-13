@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1f73a709ae6235859cbdccab493d8fa6d198823
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8336c3a8899e7719ae8ff50bb2bcdb9c6565c438
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25011926"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26282962"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>管理对 Microsoft Teams 的用户访问
 =====================================
@@ -66,7 +66,7 @@ ms.locfileid: "25011926"
 | | | |
 |---------|---------|---------|
 |![决策点图标。](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |决策点         |<ul><li>什么是整个组织内的组织规划团队入职培训？  （试点或开放）</li></ul>         |
-|![后续步骤图标。](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |后续步骤         |<ul><li>如果通过封闭式试点上线，请确定是通过许可还是有针对性的通信来上线。</li><li>决策，根据需要步骤以确保仅试验用户有权访问工作组 （如果需要）。</li><li>文档的准则为哪些用户将 （或不会） 有权访问团队。</li></ul>         |
+|![后续步骤图标。](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |后续步骤         |<ul><li>如果您希望通过许可，这样或目标通信，如果决定通过关闭试验入职培训。</li><li>决策，根据需要步骤以确保仅试验用户有权访问工作组 （如果需要）。</li><li>文档的准则为哪些用户将 （或不会） 有权访问团队。</li></ul>         |
 
 ## <a name="manage-teams-at-the-office-365-tenant-level"></a>管理 Office 365 租户级别的团队
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]

@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d86183ecb8209da15edd7f97511d6297bd0910c
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 65790075f649693a5312c3a12cc5daac33c7ac90
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215683"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255762"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>优化反馈和您的 Microsoft 团队采用报告
 
@@ -50,8 +50,8 @@ ms.locfileid: "26215683"
 
 有三种类型的报告，您应当查看在您部署和采用 Microsoft 团队：
 
-- 服务运行状况 – 从 Office 365 和内部 IT 支持部门。
-- 有关 Microsoft 团队报告服务的活动 – 从 Office 365 视图。 您还可能贵组织中使用来自其他系统的信息。
+- [服务运行状况](https://status.office365.com/)– 从 Office 365 和内部 IT 支持部门。
+- [服务活动](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide)– Office 365 中查看[报告上的 Microsoft 团队](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)。 您还可能贵组织中使用来自其他系统的信息。
 - 服务满意度 – 从内部社区论坛和调查收集上特定的体验
 
 ![下一步步骤图标](media/teams-adoption-next-icon.png)下一步：[驱动器认知度和培训](teams-adoption-drive-awareness.md)

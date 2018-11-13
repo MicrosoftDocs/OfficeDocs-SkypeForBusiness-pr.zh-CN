@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c95eec7d05d0acb8e49c8236b1e9d5f498869c95
-ms.sourcegitcommit: e33aa9ff5afa0c40b0bb4af67d2328c1a58c7f02
+ms.openlocfilehash: 4983f8089a5d221a29f67ae25dfa6766751a7394
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25540250"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26282954"
 ---
 <a name="install-microsoft-teams-using-msi"></a>使用 MSI 安装 Microsoft Teams
 =================================
@@ -39,7 +39,7 @@ ms.locfileid: "25540250"
 
 团队 MSI 将安装程序置于 Program Files。 只要用户迹象到新的 Windows 用户配置文件，将启动安装程序和团队应用程序的副本将安装该用户的应用程序数据文件夹中。 如果用户已安装应用程序数据文件夹中的团队应用程序，MSI 安装程序将跳过该用户的过程。
 
-不要使用 MSI 部署更新，因为客户端检测到新版本可从服务时将自动更新。 若要重新部署最新的安装程序，请使用如下所述的 MSI 中重新部署的过程。 如果您部署的 MSI 程序包的旧版本，客户端将自动更新时可能的用户。 如果部署获取非常旧版本，MSI 将触发应用程序更新之前用户能够使用团队。 
+不要使用 MSI 部署更新，因为客户端检测到新版本可从服务时将自动更新。 若要重新部署最新的安装程序，请使用如下所述的 MSI 中重新部署的过程。如果您部署的 MSI 程序包的旧版本，客户端将自动更新时可能的用户。 如果部署获取非常旧版本，MSI 将触发应用程序更新之前用户能够使用团队。 
 
 > [!Important] 
 > 我们不建议您更改默认安装位置，因为这可能会中断的更新流程。 具有太旧版本最终将阻止用户访问服务。 
@@ -54,8 +54,8 @@ ms.locfileid: "25540250"
 ## <a name="clean-up-and-redeployment-procedure"></a>清理和重新部署过程
 如果用户从其用户配置文件中卸载团队，MSI 安装程序将跟踪用户已卸载团队应用程序和不再为该用户配置文件安装团队。 若要重新团队部署为此用户其中它已卸载特定计算机上，执行以下操作：
 
-1. 卸载团队应用程序安装每个用户配置文件。 
-2. 卸载后，删除目录以递归方式 %localappdata%\microsoft\teams\ 下。 
+1. 卸载团队应用程序安装每个用户配置文件。 
+2. 卸载后，删除目录以递归方式 %localappdata%\microsoft\teams\ 下。 
 3. 重新部署特定计算机的 MSI 数据包。
 
 > [!TIP] 
@@ -63,9 +63,20 @@ ms.locfileid: "25540250"
                     
 ## <a name="disable-auto-launch-for-the-msi-installer"></a>禁用自动启动的 MSI 安装程序
 
-如果您想要禁用自动启动，输入以下命令提示符：
+MSI 默认行为是安装团队客户端，只要用户使用登录，然后自动启动团队。 您可以如下所示修改此行为与以下参数：
 
+- 当用户登录到 Windows 时，将使用 MSI 安装团队
+- 但是，团队客户端之前不会启动用户已手动启动团队
+- 将用户的桌面上添加一个快捷方式，以启动团队
+- 手动启动后，团队将自动启动时用户登录
+
+32 位版本
 ```
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
-
+64 位版本
+```
+msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
+```
+> [!Note] 
+>  如果手动运行 MSI，请务必运行以提升的权限。 即使您运行它作为管理员，但不运行以提升的权限，安装程序不能配置选项后，可以禁用自动启动。
