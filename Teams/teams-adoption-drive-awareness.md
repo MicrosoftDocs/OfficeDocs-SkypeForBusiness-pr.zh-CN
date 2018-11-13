@@ -3,7 +3,7 @@ title: 驱动器认知度并实现 Microsoft 团队的培训
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/01/2018
+ms.date: 11/09/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5fe5e2cb270efa81b6b773d193d6a48f63c19cc0
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 91468e121e80255249d4f8a3d9676f6c3069a319
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215707"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255715"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>驱动器认知度并实现 Microsoft 团队的培训
 
@@ -65,13 +65,4 @@ ms.locfileid: "26215707"
 
 [了解有关 Office 365 管理中心中的 Microsoft 团队使用率报告。](teams-activity-reports.md)
 
-## <a name="ongoing-improvements"></a>持续改进
-
-在您的技术实施团队合作，计划的 Microsoft 团队保留每月的服务运行状况检查。 这些审阅中将共享见解上以下措施：
-
-- 服务使用情况 – 活动的使用率数据。 可能包含有关服务弃用或消耗量减少由于进入 Microsoft 团队的信息。  通常指示灯服务管理器或协作服务产品所有者。
-- 服务运行状况 – 呼叫质量，会议运行状况，而总体服务运行状况。 任何支持事件和支持人员票证级别的审查。 安全性和管理主题的讨论。 通常由信息保护和支持团队领导。 
-- 功能/项目路线图 – 的安排的剩余员工入职培训或进一步协作改进项目是什么？ 您的组织打算允许哪些其他功能？ 通常指示灯服务管理器或与关键业务利益干系人协作的协作服务产品所有者。 
-- 认知市场活动和培训成功度量更新 – 包括通，参与，关键反馈主题，并打开问题。 包括关键 wins 和成功案例。
- 
-每月的评论可以是在大型组织中非常正式也可以在小型企业中的虚拟会议。非常重要共享和监视这些数据，以确保 Microsoft 团队的健康和逐渐色彩鲜明实现。 
+![下一步步骤图标](media/teams-adoption-next-icon.png)下一步：[计划服务运行状况检查](teams-adoption-schedule-service-health-reviews.md)

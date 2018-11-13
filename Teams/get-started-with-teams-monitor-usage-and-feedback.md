@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2683c2f116fd37f756cd111f6e3a4cc4639b629
-ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
+ms.openlocfilehash: d5cb52aa679144f2dc9673106addf1125a908d70
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26031692"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283136"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>监视使用情况和 Microsoft 团队的反馈
 务必要了解用户如何使用团队和其体验新增与团队。 使用率报告可帮助您更好地了解使用模式和用户反馈，以及为您提供见解，告知您更多推出和培训和通信针对性的位置。
@@ -35,7 +35,7 @@ Office 365 管理中心中的团队活动报告提供见解用户活动和设备
 
 若要查看这些报告，您必须是 Office 365 中的全局管理员、 团队服务管理或报告读取器。 转到 Office 365 管理中心，单击**报告** > **使用率**。 在**选择报表**中，单击**Microsoft 团队**。 从下面，选择您要查看的报告。
 
-- **团队用户 actvity 报告**： 此报表显示的用户参与，如多少人聊天在频道和多少人通信到私人聊天通信活动的类型。  
+- **团队用户活动报告**： 此报表显示的用户参与，如多少人聊天在频道和多少人通信到私人聊天通信活动的类型。  
 
     ![团队用户活动报告](media/get-started-with-teams-user-activity-report.png "屏幕截图显示，指示活动类型，其中包括通道邮件、 聊天消息、 呼叫、 会议。 和其他用户数的图形的团队用户活动报告") 
 - **团队设备使用情况报告**： 此报表显示如何将用户连接到团队，包括多少人使用团队时转上。

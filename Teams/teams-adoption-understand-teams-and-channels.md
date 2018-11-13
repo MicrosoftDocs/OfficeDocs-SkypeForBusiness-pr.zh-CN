@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6012193592b915c3f49ff5e50466c74d370e9835
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 979c288f58bfde0d65a923030f81750f90e69ba3
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215682"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255730"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>了解团队和 Microsoft 团队中的通道
 
@@ -32,7 +32,11 @@ ms.locfileid: "26215682"
 
 若要读取更多有关团队和通道，请参阅[团队和中的 Microsoft 团队的通道概述](teams-channels-overview.md)。 若要了解详细信息团队和 Office 365 组，请参阅[Office 365 组和 Microsoft 团队](office-365-groups.md)和[了解有关 Office 365 组](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
-[查看下面的简短视频](https://youtu.be/hjJWtoaRJeE)以了解有关创建团队和频道的最佳实践的详细信息。
+
+|  |  |
+|---------|---------|
+| 查看下面的简短视频   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+
 
 团队访问类型确定谁可以加入团队：
 

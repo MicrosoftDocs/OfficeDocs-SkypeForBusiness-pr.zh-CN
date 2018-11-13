@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 摘要： 阅读本主题可为 Skype 业务服务器了解有关统计信息管理器。
-ms.openlocfilehash: a7cd9fd3dd3eff7f1c9b0326d45475f95f9a909c
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: b843cf44edf0c566a1c0a8a99a5ba9380d41c306
+ms.sourcegitcommit: 8536a34cb13d40b30f84d95e6df10542ef85c36d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26283199"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26292974"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>规划业务 Server 为统计信息管理器中的 Skype
 
@@ -30,15 +30,15 @@ ms.locfileid: "26283199"
 
 本主题包括以下部分：
 
-- [特性和功能](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Features)
+- [特性和功能](plan.md#BKMK_Features)
 
 - [What's new in 版本 2.0](plan.md#BKMK_WhatsNew)
 
-- [组件](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Components)
+- [组件](plan.md#BKMK_Components)
 
 - [在本地部署](plan.md#BKMK_DeploymentOptions)
 
-- [要求](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Requirements)
+- [要求](plan.md#BKMK_Requirements)
 
 - [安全注意事项](plan.md#BKMK_Security)
 
@@ -129,7 +129,7 @@ ms.locfileid: "26283199"
 
 ### <a name="software-requirements"></a>软件要求
 
-- Windows Server 2012 R2
+- Windows Server 2016 和 2019
 
 - IIS （自动安装）
 
@@ -182,6 +182,6 @@ ms.locfileid: "26283199"
 
 - [解决的 Skype 的统计信息管理器的企业服务器](troubleshoot.md)
 
-- [Skype for Business Server 统计信息管理器博客](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Skype for Business Server 统计信息管理器博客](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
 
 
