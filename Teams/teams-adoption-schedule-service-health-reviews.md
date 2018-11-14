@@ -16,11 +16,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 126f64cad95f889f93eacca012b6a20c9962bcd1
-ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26256402"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26519661"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>安排的 Microsoft 团队采用服务运行状况审阅
 

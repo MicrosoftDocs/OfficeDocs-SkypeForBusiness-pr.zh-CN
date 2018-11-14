@@ -16,11 +16,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c71a7870fdcfb0c8818430ee748fae68a90d9471
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215708"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26519652"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>治理的 Microsoft 团队的快速入门
 

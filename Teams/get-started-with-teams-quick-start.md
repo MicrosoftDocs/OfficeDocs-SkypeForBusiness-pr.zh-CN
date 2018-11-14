@@ -14,11 +14,11 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 929e669cc360f5f072399b1e533db00758e1416e
-ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26031690"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26519646"
 ---
 # <a name="quick-start---microsoft-teams"></a>快速入门-Microsoft 团队
 

@@ -16,11 +16,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: cf67d949bfbd9fab37a96d1c4307674a1e5e6b97
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215699"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26519648"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>定义用于 Microsoft 团队的使用方案
 

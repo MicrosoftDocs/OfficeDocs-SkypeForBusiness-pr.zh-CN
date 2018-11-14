@@ -14,11 +14,11 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0fa0b8971e6809b2488f6926f4acf0df898760f4
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238133"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26519662"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>向 Microsoft 工作组的板载前期应用
 

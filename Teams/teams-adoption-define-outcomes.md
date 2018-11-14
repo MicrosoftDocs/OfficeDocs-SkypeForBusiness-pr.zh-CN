@@ -16,11 +16,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: fe4a146492712b4d18e8a4e1b18ea393a646662e
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215714"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26519691"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>定义产出和您的 Microsoft 团队采用成功
 

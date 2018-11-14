@@ -16,11 +16,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4106eb020385df464284f3c3ff236d93a6fc0f25
-ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26256394"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26519649"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft 团队应用快速入门清单
 

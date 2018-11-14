@@ -16,11 +16,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 91468e121e80255249d4f8a3d9676f6c3069a319
-ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26255715"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26519682"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>驱动器认知度并实现 Microsoft 团队的培训
 

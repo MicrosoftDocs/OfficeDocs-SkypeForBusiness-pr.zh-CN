@@ -14,11 +14,11 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d5cb52aa679144f2dc9673106addf1125a908d70
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26283136"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26519657"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>监视使用情况和 Microsoft 团队的反馈
 务必要了解用户如何使用团队和其体验新增与团队。 使用率报告可帮助您更好地了解使用模式和用户反馈，以及为您提供见解，告知您更多推出和培训和通信针对性的位置。
