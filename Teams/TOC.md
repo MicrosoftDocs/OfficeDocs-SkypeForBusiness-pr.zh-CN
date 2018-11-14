@@ -1,8 +1,12 @@
 <!-- ============================================================ -->
-# 入门
-
-## [Teams 概述](Teams-overview.md)
-## [工具和研讨会：规划、交付和运营 Teams](planning-workshop-practical-guide.md)
+# [欢迎使用 Teams](teams-overview.md)
+<!-- ============================================================ -->
+# [入门](get-started-with-teams-landing-page.md)
+## [快速入门-团队](get-started-with-teams-quick-start.md)
+## [创建第一个团队和通道](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [板载前期应用](get-started-with-teams-onboard-early-adopters.md)
+## [监视使用情况和反馈](get-started-with-teams-monitor-usage-and-feedback.md)
+## [下一个位置](get-started-with-teams-resources-for-org-wide-rollout.md)
 ## [在 Microsoft 团队中获取帮助](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
 
@@ -20,10 +24,28 @@
 ## [在 Teams 中规划生命周期管理](plan-teams-lifecycle.md)
 ## [团队中的治理规划](plan-teams-governance.md)
 ## [Microsoft 365 政府版-GCC 部署规划](plan-for-government-gcc.md)
-## [创建更改管理策略](change-management-strategy.md)
 <!-- ============================================================ -->
 
+<!-- ============================================================ -->
+# [采用](adopt-microsoft-teams-landing-page.md) 
 
+## [入门](teams-adoption-get-started.md)
+## [阶段 1-开始](teams-adoption-phase1.md)
+### [了解团队和频道](teams-adoption-understand-teams-and-channels.md)
+### [创建您的第一个团队](teams-adoption-your-first-teams.md)
+### [如何准备是为团队贵组织？](teams-adoption-assess-readiness.md)
+## [阶段 2-实验](teams-adoption-phase2-experiment.md)
+### [创建拥护者程序](teams-adoption-create-champions-program.md)
+### [管理快速入门](teams-adoption-governance-quick-start.md)
+### [定义使用方案](teams-adoption-define-usage-scenarios.md)
+### [板载前期应用和收集反馈](teams-adoption-onboard-early-adopters.md)
+### [板载支持](teams-adoption-onboard-support.md)
+## [阶段 3-比例](teams-adoption-phase3-enable.md)
+### [定义产出和成功](teams-adoption-define-outcomes.md)
+### [优化反馈和报告](teams-adoption-optimize-feedback-and-reporting.md)
+### [驱动器认知度和培训](teams-adoption-drive-awareness.md)
+### [安排服务运行状况 reviews （英文）](teams-adoption-schedule-service-health-reviews.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # 配置和部署
@@ -127,9 +149,10 @@
 ## 监视呼叫质量和 QoS
 ### [Teams 中的 QoS](QoS-in-Teams.md)
 ### [呼叫分析和呼叫质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [通话质量仪表板中可用的维度和衡量指标](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [设置呼叫分析](set-up-call-analytics.md)
 ### [使用通话分析解决通话质量不佳的问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [启用和使用通话质量仪表板](turning-on-and-using-call-quality-dashboard.md)
+### [通话质量仪表板中可用的维度和衡量指标](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [通话质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)
 ## 故障排除和支持
 ### [Teams 的已知问题](Known-issues.md)
