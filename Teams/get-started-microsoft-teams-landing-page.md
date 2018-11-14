@@ -13,11 +13,11 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8585b9ef55ae30d5d4ff4d4ec7dd21f749857f52
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215677"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26519686"
 ---
 # <a name="get-started-with-microsoft-teams"></a>开始使用 Microsoft 团队
 
