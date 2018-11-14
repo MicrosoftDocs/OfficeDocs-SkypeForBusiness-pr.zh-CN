@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 了解不同的用户创建和组合的受支持或不受支持的组合。
-ms.openlocfilehash: f6662a6a61e34a691cc058f20c356720a61dab54
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: f742efc18de05997f73a33b96800cc10a9a9d124
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678407"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510619"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>使用 PSTN 连接的混合环境中的用户帐户
 
@@ -69,7 +69,4 @@ ms.locfileid: "25678407"
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>与 PSTN 的混合环境的可支持性语句
 
-所有用户的用户对象**必须**在内部部署中创建 AD 和同步到 Azure AD 使用 Azure AD 连接工具。 为用户启用团队/Skype 的业务**不支持**如果直接在 Azure AD 混合配置中创建的用户对象。 为新用户，如新员工，用户将直接为团队启用，用户必须是最初驻留在本地的业务的 Skype 并且移至联机注册器。 在中创建用户联机 Skype 适用于商务或团队没有首先启用它们与企业语音**不支持**的本地池中。
-  
-
-用户必须对业务的 Skype 启用企业语音使用在本地和 Skype 的业务用户管理工具。 为用户启用的 Skype 业务联机仅**不受支持**。 请有关如何为用户启用 for Business 的 Skype 混合配置，参阅[本文](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises)的详细信息。
+所有用户的用户对象**必须**在内部部署中创建 AD 和同步到 Azure AD 使用 Azure AD 连接工具。 为用户启用团队/Skype 的业务**不支持**如果直接在 Azure AD 混合配置中创建的用户对象。 为新用户，如新员工，用户将直接为团队启用，用户必须启用 Skype for Business 使用内部部署 Skype 业务管理工具。 在中创建用户联机 Skype 适用于商务或团队没有首先启用它们与企业语音**不支持**的本地池中。 请有关如何为用户启用 for Business 的 Skype 混合配置，参阅[本文](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises)的详细信息。

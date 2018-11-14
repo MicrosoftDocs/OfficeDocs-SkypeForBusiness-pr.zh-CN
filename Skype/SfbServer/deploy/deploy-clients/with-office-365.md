@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读此主题以获取如何部署与 Office 365 的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 7b3afbb0dbefb29a5cef7a9729254c1024c0369f
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 39f443acb6a0757539ee69cd5586daed09345e05
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699614"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510658"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>将 Skype 会议室系统 v2 与 Office 365 一起部署 
 
@@ -149,7 +149,7 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
 
 4. 单击“**许可证**”选项。
 
-5. 在**分配许可证**部分中，您需要选择 Skype 业务 Online (计划 2) 或 Skype 的业务 Online (计划 3)，具体取决于您的授权和决定方面需要企业语音。 您将需要使用规划 3 许可证，如果您想要使用 Skype 会议室系统 v2 云 PBX。 至少需要 CloudPBX 才能进行语音连接。 然后根据 PSTN 连接方法配置混合语音或 PSTN 呼叫。
+5. 在**分配许可证**部分中，您需要选择 Skype 业务 Online (计划 2) 或 Skype 的业务 Online (计划 3)，具体取决于您的授权和决定方面需要企业语音。 您将需要使用规划 3 许可证，如果您想要使用 Skype 会议室系统 v2 云 PBX。 至少需要 CloudPBX 才能进行语音连接。 然后根据 PSTN 连接方法配置混合语音或 PSTN 呼叫。 有关详细信息，请参阅[Skype 会议室系统 v2 许可证](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)。
 
 6. 单击“**保存**”完成任务。
 

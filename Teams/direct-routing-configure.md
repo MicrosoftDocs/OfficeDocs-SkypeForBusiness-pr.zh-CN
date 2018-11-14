@@ -15,14 +15,17 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 了解如何配置 Microsoft 电话系统直接路由。
-ms.openlocfilehash: 7e587c92e979c7985ccbd9f05bbb5ae1115d176a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 994d9d25c41f5f403873a0069564f675e0020d61
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374647"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510665"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
+
+> [!Tip]
+> 观看下面的会话了解好处直接路由、 如何规划，以及如何将其部署：[直接路由中的 Microsoft 团队](https://aka.ms/teams-direct-routing)
 
 如果您未阅读[规划直接路由](direct-routing-plan.md)必备组件并查看其他步骤您需要配置 Microsoft 电话系统网络之前执行。 
 
@@ -101,14 +104,14 @@ Enabled               : True
  
 下表列出了您可以设置的*新建 CsOnlinePstnGateway*参数中使用的其他参数。 
 
-|必填？|名称|描述|默认|可能的值|类型和限制|
+|必填？|名称|描述|默认值|可能的值|类型和限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |是|FQDN|SBC 的 FQDN 名称 |无|NoneFQDN 名称，限制 63 个字符|字符串，在[Active Directory 中的计算机、 域、 站点和 Ou 中的命名约定](https://support.microsoft.com/help/909264)的允许和禁止字符的列表|
 |否|MediaBypass |参数留作将来使用。 参数指示的 SBC 支持媒体绕过功能，管理员希望使用它。|无|True<br/>False|布尔值|
 |是|SipSignallingPort |用于与直接路由服务通信使用的传输层安全性 (TLS) 协议的侦听端口。|无|任何端口|0 到 65535 |
-|否|FailoverTimeSeconds |如果设置为 10 （默认值），在 10 秒内未应答，网关的出站呼叫路由至下一个可用中继;如果不有任何其他的中继，则自动丢弃该呼叫。 在网络和网关响应缓慢的组织中，这可能导致不必要地丢弃呼叫。 默认值为 10。|10|数字|Int|
+|否|FailoverTimeSeconds |如果设置为 10 （默认值），在 10 秒内未应答，网关的出站呼叫路由至下一个可用中继;如果不有任何其他的中继，则自动丢弃该呼叫。 在网络和网关响应较慢的组织中，这可能会导致不必要地放弃一些呼叫。 默认值为 10。| 10|数字|Int|
 |否|ForwardCallHistory |指示是否通过中继转移呼叫历史记录信息。 如果启用，Office 365 PSTN 代理发送两个标头： 历史记录信息和推荐者。 默认值为**False** ($False)。 |False|True<br/>False|布尔值|
-|否|ForwardPAI|指示 P-Asserted-Identity (PAI) 标头是否随呼叫一起转移。 PAI 标头提供验证呼叫者身份的方法。 默认值为**False** ($False)。|False|True<br/>False|布尔值|
+|否|ForwardPAI|指示 P-Asserted-Identity (PAI) 标头是否随呼叫一起转移。 PAI 标头提供了一种验证呼叫者身份的方法。 默认值为**False** ($False)。|False|True<br/>False|布尔值|
 |否|SendSIPOptions |定义如果 SBC 将或将不会发送 SIP 选项。 如果禁用，将从监控和警报系统中排除 SBC。 我们强烈建议您启用 SIP 选项。 默认值为**True**。 |True|True<br/>False|布尔值|
 |否|MaxConcurrentSessions |使用警报系统。 90%的并发会话数时警报系统时设置的任何值，将生成向租户管理员警报或高于此值。 如果未设置参数，则不会生成通知。 但是，监视系统将报告并发会话每 24 小时的数。 |Null|Null<br/>1 至 100,000 ||
 |否|启用 *|用于启用出站呼叫的此 SBC。 可用于时正在更新或维护期间中临时删除 SBC。 |False|True<br/>False|布尔值|

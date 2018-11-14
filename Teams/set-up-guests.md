@@ -14,19 +14,19 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 532886659d88707d8cd63c7c268dc9929f937b1c
-ms.sourcegitcommit: 4f93bad9696db15de86c98a55398537c476e55d9
+ms.openlocfilehash: 436dc26e9ef9b75849fb6aac0383ed40bc5e581b
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "25633748"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510557"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>开启或关闭对 Microsoft Teams 的来宾访问
 ======================================
 
 作为 Office 365 管理员，你必须先启用来宾功能，你或贵组织的用户（具体来说是团队所有者）才能添加来宾。 
 
-在 Azure Active Directory 中设置来宾设置后， 更改在 Office 365 组织中生效需要 2 小时到 24 小时。 如果用户尝试向其团队添加来宾时看到“请与管理员联系”消息，很可能是尚未启用来宾功能，或设置尚未生效。
+在 Azure Active Directory 中设置来宾设置后， 更改在 Office 365 组织中生效需要 2 小时到 24 小时。 如果用户会看到"请与管理员联系"的邮件如果他们尝试将来宾添加到其工作组，，则可能的来宾功能尚未启用或设置尚未有效。
 
 
 > [!IMPORTANT]

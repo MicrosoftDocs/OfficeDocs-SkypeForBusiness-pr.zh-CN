@@ -1,7 +1,7 @@
 ---
 title: 部署 Skype 会议室系统 v2
-ms.author: jambirk
-author: jambirk
+ms.author: Turgayo
+author: Turgayo
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读此文，了解有关部署 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: dac4929338ded6fdb3b7af1dadfb3b1ce5675b97
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 39704e044d5a5210d47a0347790f5602a3086270
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699628"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510643"
 ---
 # <a name="deployment-overview"></a>部署概述
 
@@ -128,7 +128,7 @@ _规划表的示例 Skype 会议室系统 v2 服务帐户_
 
 **专业人员提示**– 进行显示名称为这些帐户描述性且易于理解。 这些是搜索和将 Skype 会议室系统 v2 系统添加到会议时，用户会看到的名称。 某些组织使用的约定*网站*-*会议室名称*（*最大聊天室容量*）-RS，因此，例如 Curie — 伦敦 12 人会议室 — 可能就 CURIE （12)-RS 的显示名称。 
 
-如果您的组织有许多需要多个的会议室，已设置的帐户，您可能需要使用[Skype 会议室系统帐户设置脚本](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5)批量设置以自动方式的多个服务帐户。 
+<!-- If your organization has many conference rooms that require multiple, provisioned accounts, you might want to use [Skype Room Systems Accounts Provisioning Scripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) to bulk-provision multiple service accounts in an automated fashion. -->
 
 
 |    |     |

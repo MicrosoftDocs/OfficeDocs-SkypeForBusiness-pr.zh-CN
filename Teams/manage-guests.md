@@ -3,7 +3,7 @@ title: 在 Microsoft Teams 中管理来宾访问
 author: LolaJacobsen
 ms.author: rramesan
 manager: serdars
-ms.date: 10/20/17
+ms.date: 11/13/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,12 +12,12 @@ search.appverid: MET150
 description: IT 管理员可以在租户级别添加来宾、设置和管理来宾用户策略和权限、确定哪些用户可以邀请来宾以及获取有关来宾用户活动的报告。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 091215e37af012c2e2203b451e3df4dd9cf6480f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 143170c6a7a174d35300b73693f0a828336b7d32
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016722"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510565"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理来宾访问
 ======================================
@@ -37,3 +37,6 @@ IT 管理员可以在租户级别添加来宾、设置和管理来宾用户策�
 > [!NOTE]
 > Microsoft 团队始终采用 Azure Active Directory 外部设置，以允许或阻止来宾用户添加到租户。 有关详细信息，请参阅[Microsoft 团队中的授权来宾访问](Teams-dependencies.md)。
   
+## <a name="guest-access-latencies"></a>来宾访问延迟
+
+在 Azure Active Directory 中设置来宾设置后， 更改在 Office 365 组织中生效需要 2 小时到 24 小时。 如果用户会看到"请与管理员联系"的邮件如果他们尝试将来宾添加到其工作组，，则可能的来宾功能尚未启用或设置尚未有效。
