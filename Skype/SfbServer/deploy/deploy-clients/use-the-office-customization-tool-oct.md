@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: 摘要： 如何使用 Office 自定义工具 Skype for Business 客户端。
-ms.openlocfilehash: 98b5b663a92c659841a9d98f7fbc476f2908f73c
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 6050a9e9c36fa62aff16994469e63a9689ab5958
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295476"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530676"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>业务服务器 Skype 中使用 Office 自定义工具 (OCT)
  
@@ -38,6 +38,6 @@ OCT 是安装的一部分，仅用于产品的批量许可版本。 通过键入
     
 - **Outlook**用于自定义用户的默认 Outlook 配置文件、 指定 Exchange 设置、 添加帐户、 删除帐户和导出设置，并指定发送 \ 接收组。
     
-有关 OCT 的信息，请参阅[使用 OCT 自定义 Office 2013](https://docs.microsoft.com/en-us/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15))。 请注意，此信息也适用于 Office 的更高版本。
+有关 OCT 的信息，请参阅[使用 OCT 自定义 Office 2013](https://docs.microsoft.com/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15))。 请注意，此信息也适用于 Office 的更高版本。
   
 

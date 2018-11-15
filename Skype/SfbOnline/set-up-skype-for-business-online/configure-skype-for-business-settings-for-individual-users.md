@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: f99c99fc291a2df71a3e47448e3cc8fcf01e371f
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: e686e42771b22d7c8d8b21ac05998bbbd5f9ad7e
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295140"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532548"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理员：为单个用户配置 Skype for Business 设置
 
@@ -63,9 +63,9 @@ ms.locfileid: "26295140"
     
 |**选项**|**详细信息**|
 |:-----|:-----|
-|音频和 HD 视频  <br/> |允许此人记录音频会议、音频和视频会议或不允许他们安排任何会议（无）。  <br/> |
+|音频和 HD 视频  <br/> |允许此录制音频会议的人员、 音频和视频会议，或不允许其安排任何会议 （无）。  <br/> |
 |录制对话和会议  <br/> |选择此人可以记录的内容。  <br/> 此选项不可用的业务基本 Skype。  <br/> |
-|为了符合规范，请禁用非存档功能  <br/> | 如果法律要求你以电子形式存储信息，请选择此选项。 <br/>  选择此选项会关闭后[就地保留](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx)在 Exchange 管理中心设置不会捕获的功能。 将关闭以下功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/> |
+|为了符合规范，请禁用非存档功能  <br/> | 如果法律要求你以电子形式存储信息，请选择此选项。 <br/>  选择此选项会关闭后[就地保留](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx)在 Exchange 管理中心中设置不会捕获的功能。 将关闭以下功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/> |
    
 若要在批量中配置这些设置，使用 PowerShell。 请参阅[Skype 业务 online 中的管理策略](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx)。
   

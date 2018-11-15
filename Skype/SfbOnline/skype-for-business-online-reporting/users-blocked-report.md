@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: '此报告中的，以及其他 Skype 业务报告提供有关活动，包括在整个组织的 PSTN 用法详细信息。 '
-ms.openlocfilehash: 508d41de4a8b67e1a266bead6f91445acd041a7e
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 789f881aff2f80603ac440250bc769d6c7b989c0
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294735"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532682"
 ---
 # <a name="users-blocked-report"></a>阻止的用户报告
 

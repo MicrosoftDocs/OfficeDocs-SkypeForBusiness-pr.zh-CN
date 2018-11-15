@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 description: 授权书 (LOA) 为我们提供了以下权限：请求在出现争议的情况下代表你从不同的服务提供商转移现有号码。
 robots: noindex
-redirect_url: https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization
+redirect_url: https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization
 redirect_document_id: true
-ms.openlocfilehash: 9b88089f5a7676c3366c697787488a1cc80556db
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: fccd7b0af122d8585da87c69344dc18cdf4f12cf
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295643"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532958"
 ---

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: 阅读本主题可了解部署步骤媒体绕过与云连接器 Edition 2.0 及更高版本。
-ms.openlocfilehash: 841a243b236219fc70c99264249567f2eee63081
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 38ff1ffa3aef7e6cd85237048c46c5746b61e7bb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296300"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531701"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>在云连接器版本中部署媒体旁路
  
@@ -114,7 +114,7 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 
 客户端将从内部 DNS 服务器收到媒体旁路 Web 服务的 Web 地址。 Web 服务的名称将是相同的跨所有云连接器 appliance 和云连接器 PSTN 网站。 在复杂多站点环境中，建议将 Windows 2016 DNS 策略用于基于地理位置的流量管理，这样客户端便可重定向到网络本地的 Web 服务。 
   
-有关 Windows 2016 DNS 策略的详细信息，请参阅[使用 DNS 与主服务器的地理位置基于流量管理策略](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/primary-geo-location)。
+有关 Windows 2016 DNS 策略的详细信息，请参阅[使用 DNS 与主服务器的地理位置基于流量管理策略](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location)。
   
 下面是具有多个站点的公司使用 Windows 2016 DNS 策略进行基于地理位置的流量管理的配置示例。
   

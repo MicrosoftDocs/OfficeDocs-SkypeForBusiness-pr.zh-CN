@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2090036aa5e1a05e46581d365d9b6b4aeb94b32
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 5e0663553f6dbd3374245ba2ab370e4b5a369701
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294133"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531961"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>设置 Microsoft 团队的云视频互操作
 
@@ -57,19 +57,19 @@ ms.locfileid: "26294133"
 您需要执行以下 cmdlet 设置的租户密钥，并还允许选择用户或整个组织使用视频互操作性坐标创建会议。
 
  
-- ** [Get CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/en-us/powershell/module/skype/get-csteamsvideointeropservicepolicy):** Microsoft 提供的预构建的策略用于每个允许您指定其中合作伙伴用于云视频互操作的支持合作伙伴。
+- ** [Get CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsvideointeropservicepolicy):** Microsoft 提供的预构建的策略用于每个允许您指定其中合作伙伴用于云视频互操作的支持合作伙伴。
 
     此 cmdlet，可以确定可以在组织中使用的预构建的策略。 您可以将此策略分配给一个或多个用户利用授予 CsTeamsVideoInteropServicePolicy cmdlet。
  
-- **[授予 CsTeamsVideoInteropServicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** 授予 CsTeamsVideoInteropServicePolicy cmdlet 可以分配组织中使用的预构建的策略或将策略分配给特定用户。
+- **[授予 CsTeamsVideoInteropServicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** 授予 CsTeamsVideoInteropServicePolicy cmdlet 可以分配组织中使用的预构建的策略或将策略分配给特定用户。
  
-- **[新 CsVideoInteropServiceProvider](https://docs.microsoft.com/en-us/powershell/module/skype/new-csvideointeropserviceprovider):** 新建 CsVideoInteropServiceProvider 用于指定有关支持 CVI 合作伙伴组织希望使用的信息。
+- **[新 CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/new-csvideointeropserviceprovider):** 新建 CsVideoInteropServiceProvider 用于指定有关支持 CVI 合作伙伴组织希望使用的信息。
  
-- **[集 CsVideoInteropServiceProvider](https://docs.microsoft.com/en-us/powershell/module/skype/set-csvideointeropserviceprovider):** 使用组 CsVideoInteropServiceProvider 更新您的组织使用的支持 CVI 合作伙伴的信息。
+- **[集 CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/set-csvideointeropserviceprovider):** 使用组 CsVideoInteropServiceProvider 更新您的组织使用的支持 CVI 合作伙伴的信息。
  
-- ** [Get CsVideoInteropServiceProvider](https://docs.microsoft.com/en-us/powershell/module/skype/get-csvideointeropserviceprovider):** 获取组织中使用的所有已配置提供程序。
+- ** [Get CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/get-csvideointeropserviceprovider):** 获取组织中使用的所有已配置提供程序。
  
-- **[删除 CsVideoInteropServiceProvider](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csvideointeropserviceprovider):** 使用删除 CsVideoInteropServiceProvider 删除有关您的组织不再使用的提供程序的所有提供商信息。  
+- **[删除 CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/remove-csvideointeropserviceprovider):** 使用删除 CsVideoInteropServiceProvider 删除有关您的组织不再使用的提供程序的所有提供商信息。  
  
 ## <a name="consent"></a>同意
 

@@ -2,6 +2,7 @@
 title: 在 Microsoft 团队中创建一个组织范围团队
 author: LanaChin
 ms.author: v-lanac
+ms.reviewer: phlouie
 manager: serdars
 ms.date: 09/27/2018
 ms.topic: article
@@ -12,23 +13,23 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ef4426e2dca1a6ce20657e3e7480b9ee118bfa1
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 3980a73c817b83466c8c93c29fb60e7e20f4df48
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296276"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532806"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft 团队中创建一个组织范围团队
 
 组织范围团队提供的小型到中型组织成为进行协作的单个工作组中的每个人的自动方法。 
  
-与组织范围团队全局管理员可以轻松创建拉入组织中的每个用户保留成员的最新的 Active Directory 作为用户加入和离开组织的公共团队。 仅全局管理员可创建组织范围团队和当前组织范围团队限于与不超过 1,000 个用户的组织。 如果满足这些要求，管理员将作为下**隐私**选项看到**组织范围内**，创建一个团队时。
+与组织范围团队全局管理员可以轻松创建拉入组织中的每个用户保留成员的最新的 Active Directory 作为用户加入和离开组织的公共团队。 仅全局管理员可创建组织范围团队和组织范围球队是限制为与不超过 2500 用户组织的当前。 如果满足这些要求，管理员将作为下**隐私**选项看到**组织范围内**，创建一个团队时。
 
 ![要创建一个组织范围团队的组织范围选项的屏幕截图](media/create-org-wide-team.png "要创建一个组织范围团队的组织范围选项的屏幕截图")
 
 > [!NOTE]
-> 如果您是全局管理员创建团队时，看不到**组织范围**选项，该功能仍可能推出或您的组织可能具有超过 1000 个成员的当前大小限制。 我们希望在将来增加此限制。
+> 如果您是全局管理员创建团队时，看不到**组织范围**选项，该功能仍可能推出或您的组织可能具有多台 2500 成员的当前大小限制。 我们希望在将来增加此限制。
 
 创建一个组织范围团队后，所有的全局管理员添加作为团队所有者和所有活动用户将添加为工作组成员。 为团队、 来宾用户和大多数聊天室禁用的用户不会添加到团队。 贵组织的目录将更新以包括新的活动用户或更改如果用户在贵公司不再起作用，并且禁用团队许可证，将自动同步，并添加或从组中删除用户。 工作组成员都能使组织范围团队。 作为团队所有者，您可以手动添加或删除用户，如果需要。
 

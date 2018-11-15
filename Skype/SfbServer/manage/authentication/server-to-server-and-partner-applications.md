@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 description: 摘要： 管理 OAuth 和合作伙伴应用程序中 Skype 业务服务器。
-ms.openlocfilehash: c4b4e7344351563219f0f64e0fa0c2e34e5829b2
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 6b7701ff91f323b13a97613f57f7228da18d9773
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294687"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532837"
 ---
 # <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>管理服务器到服务器身份验证 (OAuth) 和 Skype 中的业务服务器的合作伙伴应用程序
  
@@ -23,7 +23,7 @@ ms.locfileid: "26294687"
   
 Skype 业务服务器必须能够安全地，和无缝，与其他应用程序和服务器产品进行通信。 例如，可以配置 Skype 的业务服务器，因此该联系人数据和/或存档数据存储在 Microsoft Exchange Server 2013;但是，仅进行这种能够安全地相互通信的业务服务器和 Exchange Skype 时。 同样，可以安排 Business Server 会议从 Office Web Apps Server; 内 Skype同样，只是这种如果两个服务器 （SharePoint 和 Skype 业务服务器） 信任另一。 尽管该办法可行 Business Server 和 Exchange Skype 但业务 Server 和 SharePoint 通信的 Skype 单独的机制之间的通信使用一个身份验证机制，更好、 更高效的方法是使用所有服务器到服务器身份验证和授权的标准化的方法。
   
-使用单个，用于服务器到服务器身份验证的标准化的方法是业务服务器执行 Skype 的方法。 从 2013年版本、 业务服务器 Skype （以及其他 Microsoft 服务器产品，包括 Exchange 2013 和 SharePoint Server） 支持 OAuth (Open Authorization) 协议服务器到服务器身份验证和授权。 使用 OAuth，用大量主要网站的标准授权协议用户凭据和密码不传递从一台计算机到另一个。 但是，身份验证和授权是基于安全令牌的交换；这些令牌会将访问权限授予特定时间量的一组特定资源。
+使用单个，用于服务器到服务器身份验证的标准化的方法是业务服务器执行 Skype 的方法。 开始使用 Office 服务器 2013年版本，业务服务器 （以及其他 Microsoft 服务器产品，包括 Exchange Server 和 SharePoint Server） 的 Skype 支持 OAuth (Open Authorization) 协议的服务器到服务器身份验证和授权。 使用 OAuth，用大量主要网站的标准授权协议用户凭据和密码不传递从一台计算机到另一个。 但是，身份验证和授权是基于安全令牌的交换；这些令牌会将访问权限授予特定时间量的一组特定资源。
   
 OAuth 身份验证通常涉及到三方：一台授权服务器和两个需要相互通信的领域。 （您还可以执行服务器到服务器身份验证而不使用授权服务器，将讨论本文档后面的过程。）对需要进行通信; 的两个领域安全令牌颁发授权服务器 （也称为安全令牌服务器）这些令牌验证其他领域应信任来自一个领域的通信。 例如，授权服务器可能颁发令牌验证用户的企业服务器领域特定 Skype 能够访问指定的 Exchange 领域，反之亦然。
   

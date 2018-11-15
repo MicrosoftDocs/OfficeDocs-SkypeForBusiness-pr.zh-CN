@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 摘要： IT 专业人员应规划的 Skype 业务 Server 时查看 Skype 企业 Web 应用程序和 Skype 会议应用程序的支持的要求。 这篇文章不适合于这些应用程序的用户。
-ms.openlocfilehash: c76770d570aaa1d1c686df7b0845e41a767cfbef
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 6b0b8df34530005e7baf14cef4aa38c4536d4673
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293671"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531503"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>规划会议客户端 （Web 应用程序和会议应用程序）
  
@@ -38,7 +38,7 @@ ms.locfileid: "26293671"
   
 默认情况下主持会议的服务器将直接下载并安装 Skype 业务 Web App 加入会议的用户。 企业 Web 应用程序的 Skype 存储在前端服务器上，并获取发送给会议参与者。 
   
-对于业务服务器 2015年的 Skype，作为企业 Web 应用程序从开始 CU5，替换的 Skype 都 Skype 会议应用程序，但提供 Skype 会议应用程序需要[启用 Skype 会议应用程序替换中介绍的其他配置企业 Web 应用程序 （可选） 的 Skype](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。  如果启用 Skype 会议应用程序，则用户将从 Office 365 内容交付网络 (CDN) 而不是从您的业务服务器 Skype 下载最新版本的应用程序。 为企业服务器 2019 Skype 会议应用程序的 Skype 是唯一的选项。
+对于业务服务器 Skype，作为企业 Web 应用程序从开始 CU5，替换的 Skype 都 Skype 会议应用程序，但提供 Skype 会议应用程序需要[启用 Skype 会议应用程序替换 Skype 中介绍的其他配置企业 Web 应用程序 （可选） 为](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。  如果启用 Skype 会议应用程序，则用户将从 Office 365 内容交付网络 (CDN) 而不是从您的业务服务器 Skype 下载最新版本的应用程序。 为企业服务器 2019 Skype 会议应用程序的 Skype 是唯一的选项。
   
 Skype 会议应用程序提供了有关下载和安装应用程序和加入会议，包括用户的 Internet Explorer 的一次单击加入简化的浏览器体验。 Skype 会议应用程序也有很多改进通过 theSkype 业务 Web 应用程序以实现可靠性和会议体验。 
   

@@ -26,12 +26,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: b18c4d3f04cab78b48039bcd33dae00a960132ea
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: eaac8426677268e526f622b477caff062d81deef
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293751"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533195"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>允许用户联系外部 Skype for Business 用户
 
@@ -71,9 +71,9 @@ ms.locfileid: "26293751"
     
 7. 如果你使用的是 Windows 防火墙，Skype for Business 将自动打开所需端口。
     
-    If your organization is using a different firewall solution to restrict computers on your network from connecting to the Internet, ensure your client computers are able to access the following [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges). 这可能需要添加到出站的 Fqdn 允许在防火墙或代理的列表基础结构配置： ** \*。 api.skype.com**， \* **。 users.storage.live.com**，和**graph.skype.com**。 有关如何在防火墙中打开这些端口上的说明，检查与其附带的文档。
+    If your organization is using a different firewall solution to restrict computers on your network from connecting to the Internet, ensure your client computers are able to access the following [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges). 这可能需要添加到出站的 Fqdn 允许在防火墙或代理的列表基础结构配置： ** \*。 api.skype.com**， \* **。 users.storage.live.com**，和**graph.skype.com**。 有关如何在防火墙中打开这些端口上的说明，检查与其附带的文档。
     
-    您需要打开的所有端口的列表，请参阅[Office 365 Url 和 IP 地址范围](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)。
+    您需要打开的所有端口的列表，请参阅[Office 365 Url 和 IP 地址范围](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)。
 
 8. 请确保组织中的管理员还具有执行这些步骤。
     
@@ -84,7 +84,7 @@ ms.locfileid: "26293751"
 ## <a name="test-and-troubleshoot"></a>测试和故障排除
 <a name="bk_preview"> </a>
 
- **人们在设置企业到企业通信时遇到的最常见的问题是正确完成[Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)。**
+ **人们在设置企业到企业通信时遇到的最常见的问题是正确完成[Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)。**
   
 要测试你的设置，你需要 Skype for Business 上不受你公司的防火墙保护的联系人。
   
@@ -92,7 +92,7 @@ ms.locfileid: "26293751"
     
 2. 在 Skype for Business 中，搜索你的 Skype for Business 联系人，然后发送聊天请求。
     
-    如果您收到一条消息，无法将其发送由于公司策略，您需要仔细检查您的[Office 365 Url 和 IP 地址范围](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)。
+    如果您收到一条消息，无法将其发送由于公司策略，您需要仔细检查您的[Office 365 Url 和 IP 地址范围](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)。
     
 3. 要求你的 Skype for Business 联系人向你发送聊天请求。如果你未收到其请求，那么你的防火墙有问题（假设他们已确认其防火墙设置正确）。
     

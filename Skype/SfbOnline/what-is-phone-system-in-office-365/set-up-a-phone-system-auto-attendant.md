@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何设置和测试高效处理您的组织的呼叫的电话系统 (云 PBX) 自动助理。 '
-ms.openlocfilehash: 41a4f7d3536e3a92104c98eaee057a47a21aeb9e
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 0bf312734c788e0bd02bc4fce40dbea4267850d4
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294570"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531575"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>设置电话系统自动助理
 
@@ -49,10 +49,9 @@ ms.locfileid: "26294570"
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>第 2 步 - 创建新的自动助理
 
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+ **使用 Microsoft 团队 Skype 业务管理中心的**
 
-
-In the **Skype for Business admin center**, click **Call routing** > **Auto attendants**, then click **Add new**:
+在**Microsoft 团队和 Skype 的业务管理中心**，单击![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **旧门户** >  **呼叫路由** > **自动助理**，然后单击 **+ 添加新**：
 
 ### <a name="edit-general-info-page"></a>"编辑常规信息"页面
 
@@ -77,11 +76,11 @@ In the **Skype for Business admin center**, click **Call routing** > **Auto atte
 ![第六](../images/sfbcallout6.png)<br/>**接线员** 此为可选字段，无须为自动助理设置。 但是，您可以设置呼叫中能够页符拖出菜单以帮助他们人讲话的人员**运算符**选项。 <br/> <br/> 键 0 自动分配给接线员。 <br/> <br/> 如果您对此进行设置，还需要告知人员谁调用的这是在**营业呼叫处理**页中的**编辑菜单选项**可用选项。 如果您在自动助理上设置运算符，您需要在**呼叫者收听**框中输入相应的提示文本或更改您的音频文件，以包括此选项。 例如，"如需接线员，请按零"。 <br/><br/>  可以将以下项设置为接线员： 
 *    拥有 **电话系统** 许可证，启用了企业语音或在 Office 365 中分配了呼叫计划的 **公司人员** 。 <br/>
 
-        > [!Note] 
-        > **公司人员** 可以是联机用户或者是使用 Skype for Business Server 2015 或者 Lync Server 2013 的本地托管用户。 不支持 Lync Server 2010 。 <br/> 
+     > [!Note] 
+     > **公司人员** 可以是联机用户或者是使用 Skype for Business Server 2015 或者 Lync Server 2013 的本地托管用户。 不支持 Lync Server 2010 。 <br/> 
 
-*    A **Call Queue** that you have set up. 
-*    你可以通过此设置将呼叫者直接转到语音邮件。 若要执行此操作，选择**您的公司的人员**并将此人的呼叫转接至语音邮件直接设置。 
+* A **Call Queue** that you have set up. 
+* 你可以通过此设置将呼叫者直接转到语音邮件。 若要执行此操作，选择**您的公司的人员**并将此人的呼叫转接至语音邮件直接设置。 
 
 ### <a name="select-hours-of-operation-page"></a>"选择营业时间"页面
 
@@ -105,14 +104,14 @@ In the **Skype for Business admin center**, click **Call routing** > **Auto atte
 
 ***
 ![第一](../images/sfbcallout1.png)<br/>**公司问候语** 营业时间问候语是可选项，可设置为 **无** 。 在此情况下，在所选选项处理呼叫之前，呼叫者听不到消息或者问候语。 还可以上传音频文件 （ .wav、 mp3 或 .wma 格式），或使用文本转语音的方式创建自定义问候语。
-*    **无** 在有人呼叫自动助理电话号码时，将不播放问候语。
+* **无** 在有人呼叫自动助理电话号码时，将不播放问候语。
 *    **创建自定义问候语**如果您选择此选项，输入您希望系统读取 （最多 1000年个字符） 的文本。 例如，可能会输入"欢迎来到 Contoso 。 您的呼叫对我们非常重要。" 在 **呼叫者将听到** 框中。
-*    **上载音频文件**如果选择此，录制的问候语，然后上载音频文件 （以.wav、.mp3 或.wma 格式）。
+* **上载音频文件**如果选择此，录制的问候语，然后上载音频文件 （以.wav、.mp3 或.wma 格式）。
 ***
 ![第二](../images/sfbcallout2.png)<br/>您可以选择到达工作时间内的呼叫会发生什么情况。 可以从以下选项中进行选择：
 * **断开连接**如果您选择它，将听到营业时间问候语后断开呼叫的人。
 * **重定向呼叫** 这可用来将呼叫自动发送至：
-  * 拥有 **电话系统** 许可证，启用了企业语音或在 Office 365 中分配了呼叫计划的 **公司人员** 。 你可以通过此设置将呼叫者直接转到语音邮件。 要执行此操作，选择**您的公司的人员**，并设置此人要使其呼叫直接转接到语音邮件。 <br/><br/>   
+  * 拥有 **电话系统** 许可证，启用了企业语音或在 Office 365 中分配了呼叫计划的 **公司人员** 。 你可以通过此设置将呼叫者直接转到语音邮件。 要执行此操作，选择**您的公司的人员**，并设置此人要使其呼叫直接转接到语音邮件。 <br/><br/>
     > [!Note]
     > **公司人员** 可以是联机用户或者是使用 Skype for Business Server 2015 或者 Lync Server 2013 的本地托管用户。 不支持 Lync Server 2010。 <br/><br/>
 
@@ -148,9 +147,9 @@ In the **Skype for Business admin center**, click **Call routing** > **Auto atte
     - **Auto Attendant** You can use an existing auto attendant to create a second level of menu options containing a submenu. These are called nested auto attendants.<br/><br/>
 
         > [!Note]
-        > **工作时间**的嵌套 （或第二层） 自动助理还将使用，包括来自其他已设置的自动助理的呼叫。         
+        > **工作时间**的嵌套 （或第二层） 自动助理还将使用，包括来自其他已设置的自动助理的呼叫。
 
-### <a name="select-holidays-page"></a>选择假日页面 
+### <a name="select-holidays-page"></a>选择假日页面
 
 可以为每个自动助理添加最多 20 个计划假日。
 
@@ -160,9 +159,9 @@ In the **Skype for Business admin center**, click **Call routing** > **Auto atte
 ![第一](../images/sfbcallout1.png)<br/>**添加假日** 在 **假日名称** 字段中输入新假日的名称。<br/><br/> 假日名称可以包含最多 64 个字符，并且在同一自动助理中必须是唯一的。 例如，不能在同一自动助理中具有两个名为"感恩节"的假日。  
 ***
 ![第二](../images/sfbcallout2.png)<br/>**假日问候** 假日问候是可选项，可以设置为 **无** 。 在此情况下，在所选选项处理呼叫之前，呼叫者听不到消息或者问候语。 还可以上传音频文件 （ .wav、 mp3 或 .wma 格式），或使用文本转语音的方式创建自定义问候语。
-*    **无** 在有人呼叫自动助理电话号码时，将不播放问候语。
-*    **创建自定义问候语**如果您选择此选项，输入您希望系统读取 （最多 1000年个字符） 的文本。 例如，可以输入"新年快乐！ 我们的办事处当前未营业。" 在 **呼叫者将听到** 框中。
-*    **上载音频文件**如果选择此，记录假日问候，然后上载音频文件 （以.wav、.mp3 或.wma 格式）。  
+* **无** 在有人呼叫自动助理电话号码时，将不播放问候语。
+* **创建自定义问候语**如果您选择此选项，输入您希望系统读取 （最多 1000年个字符） 的文本。 例如，可以输入"新年快乐！ 我们的办事处当前未营业。" 在 **呼叫者将听到** 框中。
+* **上载音频文件**如果选择此，记录假日问候，然后上载音频文件 （以.wav、.mp3 或.wma 格式）。  
 ***
 ![第三](../images/sfbcallout3.png)<br/>**问候语之后对呼叫做些什么？** 您可以选择在该假日期间到达的呼叫会发生什么情况。 可以从以下选项中进行选择：
 * **断开连接** 呼叫者听到假日问候语以后被断开连接。
@@ -180,9 +179,9 @@ In the **Skype for Business admin center**, click **Call routing** > **Auto atte
 
 ***
 ![第四](../images/sfbcallout4.png)<br/>**希望假日何时开始和结束？** 以 dd/mm/yyyy 格式，输入假日的开始日期，然后选择开始时间、结束日期和结束时间，如日期范围表中所提示。<br/><br/>可以为假日指定最多 10 个不同的日期范围。 例如，可以添加最多 10 年的除夕假日的日期范围。 假日可以有多天。<br/><br/>若要添加其他假日日期范围 （例如，下一年），单击 **添加另一个** ，然后输入一组新的假日起止日期。<br/><br/>亦支持嵌套假日。 例如，可以在一个“假日假期”时间段内嵌套多个假日： 
-*    **12 月 24 日至 1 月 3 日：** “假日快乐！ 我们的办事处当前未营业。 我们将于 1 月 4 日恢复营业。"
-*    **12 月 25:** "圣诞快乐！ 我们的办事处当前未营业。 我们将于 1 月 4 日恢复营业。"
-*    **1 月 1:** "新年快乐！ 我们的办事处当前未营业。 我们将于 1 月 4 日恢复营业。"
+* **12 月 24 日至 1 月 3 日：** “假日快乐！ 我们的办事处当前未营业。 我们将于 1 月 4 日恢复营业。"
+* **12 月 25:** "圣诞快乐！ 我们的办事处当前未营业。 我们将于 1 月 4 日恢复营业。"
+* **1 月 1:** "新年快乐！ 我们的办事处当前未营业。 我们将于 1 月 4 日恢复营业。"
 
 保存自动助理后，假日出现在 **假日** 选项卡上，可在此编辑、添加或修改假日设置。
 
@@ -205,7 +204,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Auto atte
 * **自定义**如果您使用此选项，您可以搜索 Office 365 组、 通讯组列表或安全组已在组织中创建和所有人员都添加到此 Office 365 组通讯组列表，或将从目录搜索中排除安全组。 您可以添加多个 Office 365 组、 通讯组列表和安全组。 <br/><br/> 
 
   > [!Caution]
-  > 从 Lync Server 2010 的部署的内部部署用户不会按名称时某人搜索目录使用拨号列出。          
+  > 从 Lync Server 2010 的部署的内部部署用户不会按名称时某人搜索目录使用拨号列出。
 
 > [!NOTE]
 > 可能需要 36 小时的时间的新用户具有其目录中列出当有人使用拨号按名称语音识别的名称。 
@@ -228,19 +227,18 @@ In the **Skype for Business admin center**, click **Call routing** > **Auto atte
 
 以下是管理自动助理时需要使用的 cmdlet。
 
-
-|                                                                                                                                                               |                                                                                                                                                               |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                   [New-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796493.aspx)                                    |                                [New-CsOrganizationalAutoAttendantPrompt](https://technet.microsoft.com/library/mt796484.aspx)                                 |
-|                                   [Set-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796486.aspx)                                    |                              [New-CsOrganizationalAutoAttendantMenuOption](https://technet.microsoft.com/library/mt796485.aspx)                               |
-|                                   [Get-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796482.aspx)                                    |    [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csorganizationalautoattendantholidays?view=skype-ps)    |
-|                                  [Remove-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796492.aspx)                                  |                                 [New-CsOrganizationalAutoAttendantMenu](https://technet.microsoft.com/library/mt796488.aspx)                                  |
-|                                         [New- CsOnlineAudioFile](https://technet.microsoft.com/library/mt796479.aspx)                                         |                               [New-CsOrganizationalAutoAttendantCallFlow](https://technet.microsoft.com/library/mt796489.aspx)                                |
-| [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps) |                                         [New-CsOnlineTimeRange](https://technet.microsoft.com/library/mt796491.aspx)                                          |
-|                    [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)                    |                                          [New-CsOnlineSchedule](https://technet.microsoft.com/library/mt796490.aspx)                                          |
-|                           [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://technet.microsoft.com/library/mt796483.aspx)                           |                        [New-CsOrganizationalAutoAttendantCallHandlingAssociation](https://technet.microsoft.com/library/mt796487.aspx)                        |
-|                           [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://technet.microsoft.com/library/mt796481.aspx)                           | [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csorganizationalautoattendantholidays?view=skype-ps) |
-|                            [New-CsOrganizationalAutoAttendantCallableEntity](https://technet.microsoft.com/library/mt796480.aspx)                             |                                                                                                                                                               |
+|| |
+|---  |---  |
+| [New-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796493.aspx) | [New-CsOrganizationalAutoAttendantPrompt](https://technet.microsoft.com/library/mt796484.aspx) |
+| [Set-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796486.aspx) | [New-CsOrganizationalAutoAttendantMenuOption](https://technet.microsoft.com/library/mt796485.aspx) |
+| [Get-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796482.aspx) | [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csorganizationalautoattendantholidays?view=skype-ps) |
+| [Remove-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796492.aspx) | [New-CsOrganizationalAutoAttendantMenu](https://technet.microsoft.com/library/mt796488.aspx) |
+| [New- CsOnlineAudioFile](https://technet.microsoft.com/library/mt796479.aspx) | [New-CsOrganizationalAutoAttendantCallFlow](https://technet.microsoft.com/library/mt796489.aspx) |
+| [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps) | [New-CsOnlineTimeRange](https://technet.microsoft.com/library/mt796491.aspx) |
+| [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) | [New-CsOnlineSchedule](https://technet.microsoft.com/library/mt796490.aspx) |
+| [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://technet.microsoft.com/library/mt796483.aspx) | [New-CsOrganizationalAutoAttendantCallHandlingAssociation](https://technet.microsoft.com/library/mt796487.aspx) |
+| [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://technet.microsoft.com/library/mt796481.aspx) | [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csorganizationalautoattendantholidays?view=skype-ps) |
+| [New-CsOrganizationalAutoAttendantCallableEntity](https://technet.microsoft.com/library/mt796480.aspx) | |
 
 ### <a name="more-about-windows-powershell"></a>有关 Windows PowerShell 的详细信息
 

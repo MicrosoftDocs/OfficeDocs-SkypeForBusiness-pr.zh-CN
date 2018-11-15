@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 1952d6d180f5b9662b1e598ceb9d0b8d230640c2
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 742fdbf38aeb64426ad1781d552c580385dc8117
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293891"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531831"
 ---
 # <a name="create-a-phone-system-call-queue"></a>创建电话系统呼叫队列
 
@@ -35,61 +35,56 @@ ms.locfileid: "26293891"
 电话系统呼叫队列可提供：
   
 - 组织问候语。
-    
 - 在呼叫者保持等待时播放的音乐。
-    
 - 重定向的呼叫已启用邮件的通讯组列表和安全组中代理的呼叫。
-    
 - 发出呼叫队列最大大小、 超时和呼叫处理选项设置。
-    
-当有人呼叫设置的电话号码到 up 的呼叫的队列，将听到问候语 （如果任何设置），然后再它们都将在队列中并等待下一个可用呼叫代理。 呼叫者在等待时会听到音乐，系统将按照 *先进先出*  (FIFO) 的方式为呼叫分配呼叫代理。
+
+当有人呼叫到电话号码的呼叫的队列设置时，它们将听到问候语 （如果任何设置），然后再它们都将在队列中并等待下一个可用呼叫代理。 呼叫者在等待时会听到音乐，系统将按照 *先进先出*  (FIFO) 的方式为呼叫分配呼叫代理。
   
 将使用 attendant 的路由模式或串行路由模式分发队列中等待的所有呼叫：
   
 - 助理路由队列中的第一个呼叫将同时拨打所有代理。
-    
 - 使用串行路由时，队列中的第一个呼叫将逐个拨打所有呼叫代理。
-    
+
     > [!NOTE]
     > 不会呼叫处于**脱机**状态、已将其状态设置为 **请勿打扰**或已退出呼叫队列的呼叫代理。
   
 - 同一时间只会向呼叫代理发送一个传入呼叫通知（队列最前面的呼叫）。
-    
 - 呼叫代理接受呼叫后，队列中的下一个传入呼叫开始拨叫所有代理。
-    
+
 ## <a name="step-1---getting-started"></a>第 1 步 - 开始
 
 要开始使用呼叫队列，记住以下几点至关重要：
   
 - 企业版 E3 以及**电话系统**的许可证或企业 E5 许可证，您的组织必须 （最低要求）。 已分配的**电话系统**用户许可证数量影响服务号码可用于呼叫的队列数。 您可以呼叫队列数是取决于您的组织中分配的**电话系统**和**音频会议**的许可证数量。 若要了解有关授权的详细信息转[此处](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
-    
+
     > [!NOTE]
     > 要重定向呼叫的人员在组织中联机，它们必须具有**电话系统**许可证和启用了企业语音或其 Office 365 调用计划。 请参阅[业务和 Microsoft 团队许可证分配 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。 要为他们启用企业语音，可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - 若要了解有关 Office 365 通话套餐的详细信息，请参阅 [Office 365 中有哪些通话套餐？](/microsoftteams/what-are-calling-plans-in-office-365) 和 [Office 365 的通话套餐](/microsoftteams/calling-plans-for-office-365)。
-    
+
     > [!NOTE]
     > 用户托管在本地为呼叫队列代理不支持使用 Lync Server 2010。 
   
 - 你可以只分配在 **Skype for Business 管理中心**获取的或从另一个服务提供商转接到电话系统呼叫队列的收费和免费电话服务电话号码。 若要获取并使用免费电话号码，则需要设置通信点数。
-    
+
     > [!NOTE]
     > [!注释] 不能将用户（订阅者）的电话号码分配给呼叫队列 - 只能使用收费或免费服务电话号码。 
   
 - 当您要分发从电话系统呼叫队列的传入呼叫时，呼叫代理支持这些客户端：
-    
+
   - Skype for Business 桌面客户端 2016（32 位和 64 位版本）
-    
+
   - Lync 桌面客户端 2013（32 位和 64 位版本）
-    
+
   - 支持 Skype for Business Online 的所有 IP 电话型号。 请参阅[获取适用于 Skype for Business Online 的电话](getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)。
-    
+
   - Mac Skype for Business 客户端（版本 16.8.196 及更高版本） 
-    
+
   - Android Skype for Business 客户端（版本 6.16.0.9 及更高版本）
-    
+
   - iPhone Skype for Business 客户端（版本 6.16.0 及更高版本）
-    
+
   - iPad Skype for Business 客户端（版本 6.16.0 及更高版本）
 
   - Microsoft Teams Windows 客户端 （32 和 64 位版本）
@@ -99,7 +94,7 @@ ms.locfileid: "26293891"
   - Microsoft Teams iPhone 应用
 
   - Microsoft Teams Android 应用
-    
+
 ## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>第 2 步 - 获取或转移收费或免费服务电话号码
 
 在创建和设置呼叫队列之前，您需要获取或转移现有的收费或免费服务号码。 获得收费电话或免费电话服务电话号码后，他们会显示在 **Skype for Business 管理中心** > **语音** > **电话号码**，**号码类型**将列出**服务—免费电话**。 若要获取服务号码，请参阅 [从 Skype for Business 和 Microsoft Teams 获取服务电话号码](getting-service-phone-numbers.md) 或如果您希望进行转移现有服务号码，请参阅  [传输电话号码到 Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) 。
@@ -109,9 +104,9 @@ ms.locfileid: "26293891"
   
 ## <a name="step-3---create-a-new-call-queue"></a>第 3 步 - 创建新的呼叫队列
 
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+ **使用 Microsoft 团队 Skype 业务管理中心的**
 
-In the **Skype for Business admin center**, click **Call routing** > **Call queues**, then click **Add new**:
+在**Microsoft 团队和 Skype 的业务管理中心**，单击![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **旧门户** >  **呼叫路由** > **呼叫队列**，然后单击 **+ 添加新**：
   
 ### <a name="set-the-call-queue-display-name-phone-number-and-domain-if-any"></a>设置呼叫队列显示名称、电话号码和域（如有）
 
@@ -123,7 +118,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 ![第二](../images/sfbcallout2.png)<br/>**电话号码** 为呼叫队列选择收费或免费服务电话号码。 这是可选的。 <br/> 如果没有列出任何号码，则需要首先获取服务号码，然后才能创建此服务队列。 若要获取服务号码，请参阅[业务和 Microsoft 团队的 Skype 获取服务电话号码](getting-service-phone-numbers.md)
 ***
 ![第三](../images/sfbcallout3.png)<br/>**域** 如果此字段可用，请选择要使用的 Office 365 域。仅当你拥有多个用于 Office 365 的域时此字段才可用。如果你拥有多个域，必须从列表中选择域名。 <br/> 例如，你可能拥有类似以下名称的域： _contoso.com or redmond.contoso.com_
-   
+
 ### <a name="set-the-greeting-and-music-played-while-on-hold"></a>设置通话保持时播放的问候语和音乐
 
 ![Setting up a call queue.](../images/1d395a93-7cab-4178-9295-12d5379e20de.png)
@@ -131,8 +126,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 ***
 ![第一](../images/sfbcallout1.png)<br/>**问候语**是可选设置。 这是呼叫队列号码的呼叫中的人员播放问候语。 <br/> 您可以上载音频文件 （.wav、.mp3 或.wma 格式）。
 ***
-![第二](../images/sfbcallout2.png)<br/>**音乐**您可以使用默认保持音乐置于保持状态提供与呼叫队列，或者可以上载.wav、 mp3 或.wma 格式用作您自定义保留音乐音频文件。 
-   
+![第二](../images/sfbcallout2.png)<br/>**音乐**您可以使用默认保持音乐置于保持状态提供与呼叫队列，或者可以上载.wav、 mp3 或.wma 格式用作您自定义保留音乐音频文件。
 
 ### <a name="select-the-call-distribution-method"></a>选择呼叫分发方法
 
@@ -143,7 +137,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 
 > [!NOTE]
 > 串行路由将跳过处于**脱机**状态、已将其状态设置为 **请勿打扰**或**已选择退出**不从此队列获取呼叫的代理。 
-   
+
 ### <a name="select-an-agent-opt-out-option"></a>选择代理退出选项
 
 ![显示代理退出复选框](../images/99279eff-db61-4acf-9b62-64be84b6414b.png)
@@ -154,10 +148,10 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
  1. 在其桌面 Skype for Business 客户端中打开**选项**。 
  2. 在**呼叫转移**选项卡中，单击**在线编辑设置**链接。
  3. 在用户设置页中，单击**呼叫队列**，然后清除他们想要退出的任何队列对应的复选框。
- 
+
     > [!NOTE] 
     > 使用 Mac、移动、Lync 2013 客户端的代理，或使用 Skype for Business 2015 服务器托管在本地的混合语音用户，可转到[https://aka.ms/cqsettings](https://aka.ms/cqsettings) 访问退出选项。
-   
+
 ### <a name="add-call-agents-to-a-call-queue"></a>向呼叫队列添加呼叫代理
 
 ![Set up call queues.](../images/skype-for-business-add-agents-to-call-queue.png)
@@ -168,8 +162,8 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 * 拥有**电话系统**许可证和通话套餐（已添加到 Office 365 组、已启用邮件的通讯组列表或安全组）的在线用户。 为通讯组列表或安全组添加一位新代理，以便开始接收来自呼叫队列的呼叫，这可能需要 30 分钟的时间。 新建通讯组列表或安全组可能需要长达 48 小时成为可用于呼叫的队列。 新创建的 Office 365 组几乎立即就可使用。 <br/> 
 
   > [!NOTE] 
-  > 用户托管在本地不支持使用 Lync Server 2010。           
-   
+  > 用户托管在本地不支持使用 Lync Server 2010。
+
 ### <a name="set-the-maximum-queue-size-and-maximum-wait-time"></a>设置队列最大大小和最长等待时间。
 
 ![Set up a call queue.](../images/3f018734-16fe-458b-827d-71fc25155cde.png)
@@ -181,10 +175,10 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 * **断开连接并显示繁忙信号** 呼叫将断开连接。
 * **此将呼叫转移到**选择此，您可以在这些选项：
   * **公司内的人员**与**电话系统**许可证联机用户和启用了企业语音或其调用规划。 你可以通过此设置将呼叫者直接转到语音邮件。 要执行此操作，选择**您的公司的人员**，并设置此人要使其呼叫直接转接到语音邮件。 <br/> <br/>若要了解有关语音邮件所需授权的信息，请参阅[设置电话系统的语音邮件](/microsoftteams/set-up-phone-system-voicemail)。 
-     
+
     > [!Note]
     > 用户托管在本地不支持使用 Lync Server 2010。<br/>
-     
+
   * **呼叫队列**您必须已创建另一个呼叫队列，但执行操作后，您可以选择该呼叫的队列。
   * **自动助理**您必须已创建自动助理，但您执行操作后，您可以选择的自动助理。 请参阅[设置电话系统自动助理](set-up-a-phone-system-auto-attendant.md)。
 ***
@@ -229,35 +223,32 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 以下是管理呼叫队列时需要使用的 cmdlet。
   
 - [New-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796459.aspx)
-    
+
 - [Set-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796457.aspx)
-    
+
 - [Get-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796458.aspx)
-    
+
 - [Remove-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796456.aspx)
-    
+
 ### <a name="more-about-windows-powershell"></a>有关 Windows PowerShell 的详细信息
 
 - Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
-    
+
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
-    
+
   - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
-    
+
 - 例如当你一次对多个用户更改设置时，Windows PowerShell 比起仅使用 Office 365 管理中心，在速度、简明性和效率方面具有许多优势。通过以下主题了解这些优势：
-    
+
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
-    
+
   - [使用 Windows PowerShell 管理 Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
-    
+
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
-    
+
 ## <a name="related-topics"></a>相关主题
 [Office 365 中的电话系统的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](getting-service-phone-numbers.md)
 
 [音频会议和通话套餐的国家/地区可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
-
-  
- 

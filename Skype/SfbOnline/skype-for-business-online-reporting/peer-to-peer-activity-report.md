@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 2ee918cb82ea42a321af9b91ac9a4526fa849a65
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: e2499cb2d1432c4b9ad48be3333e798a3a8b1574
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295491"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533073"
 ---
 # <a name="peer-to-peer-activity-report"></a>对等活动报告
 

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 摘要：支持的 Skype for Business 客户端和应用概述
-ms.openlocfilehash: 63981e9fbdc19eeeebc6b19b37f51f901a9493a2
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 3c68264f9eabc32c9e8c11a243fd103bb7c97426
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293654"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530810"
 ---
 # <a name="plan-for-clients-and-devices"></a>规划客户端和设备
 
@@ -84,7 +84,7 @@ Skype Room Systems v2 是 Microsoft 的最新会议解决方案，它使用用�
 
 ### <a name="skype-for-business-on-surface-hub"></a>Surface Hub 版 Skype for Business
 
-Microsoft Surface Hub 是一款一体化工作效率设备，适用于集思广益、协作和演示。 该设备有自己的新版 Skype for Business 客户端，[Microsoft Surface Hub 管理指南](https://docs.microsoft.com/en-us/surface-hub/)中进行了介绍。
+Microsoft Surface Hub 是一款一体化工作效率设备，适用于集思广益、协作和演示。 该设备有自己的新版 Skype for Business 客户端，[Microsoft Surface Hub 管理指南](https://docs.microsoft.com/surface-hub/)中进行了介绍。
 
 ## <a name="choosing-your-organizations-preferred-client"></a>选择贵组织的首选客户端
 <a name="BK_client_choose"> </a>
@@ -139,7 +139,7 @@ MSI 是比较传统的安装方法，用于 Skype for Business 2015 和 2016 客
 
 Skype for Business Server 2019 和 Skype for Business Online 支持以前发行的以下客户端：Skype for Business 2016、Skype for Business 2015 和 Lync 2013。
 
-Skype for Business Server 2015 支持以前发布的以下客户端：Lync 2013、Lync 2010、Lync 2010 Mobile、Lync Phone Edition 和 Lync 2010 Attendant。 有关这些客户端与其他服务器结合使用的信息，请参阅 [Lync Server 2013 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)和 [Lync Server 2010 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx)。
+Skype for Business Server 2015 支持先前发布的以下客户端：Lync 2013、Lync 2010、Lync 2010 Mobile、Lync Phone Edition 和 Lync 2010 Attendant。 有关这些客户端与其他服务器结合使用的信息，请参阅 [Lync Server 2013 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)和 [Lync Server 2010 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx)。
 
 
 ## <a name="client-system-requirements"></a>客户端系统要求

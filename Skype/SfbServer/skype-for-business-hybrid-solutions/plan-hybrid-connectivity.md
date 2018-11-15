@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 摘要：阅读本主题可了解如何规划 Skype for Business Server 与 Skype for Business Online 之间的混合连接。 设置混合连接是部署多种 Skype for Business 混合解决方案的第一步。
-ms.openlocfilehash: d3fe994535197209a8d35c10144e45badb4391a8
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 909d8be38bd03291268c7fa3b2b091072a47970e
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294084"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530886"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>规划 Skype for Business Server 与 Skype for Business Online 之间的混合连接
 
@@ -138,7 +138,7 @@ ms.locfileid: "26294084"
 
 - Skype 业务服务器 2015年管理工具。 （如果您使用 Lync Server 2013 或 Lync Server 2010，可以使用 Lync Server 2013 管理工具。 有关详细信息，请参阅[Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360)。）
 
-- Azure Active Directory Connect 用于将你的本地目录与 Office 365 同步。 有关详细信息，请参阅 [将 Active Directory 与 Azure Active Directory 连接](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
+- Azure Active Directory Connect 用于将你的本地目录与 Office 365 同步。 有关详细信息，请参阅 [将 Active Directory 与 Azure Active Directory 连接](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
 
     若要支持 Office 365 的单一登录，使用户能使用在本地所用的同一登录凭据，可以使用 Azure Active Directory (AAD) Connect 的密码同步功能。 还可以使用 Active Directory 联合身份验证服务 (AD FS) 来进行 Office 365 单一登录。 
 
@@ -319,7 +319,7 @@ ms.locfileid: "26294084"
 在同步您的本地部署和使用 AAD 连接的 online 租户之间的用户帐户时，您需要同步的 AD 帐户为在组织中的业务或 Lync 用户的所有 Skype 即使用户未联机移动到。 如果未同步所有用户，则组织中本地和联机用户之间的通信可能无法按预期工作。
 
 > [!IMPORTANT]
-> 所有用户管理，包括用户的本地和 Skype 之间移动业务 online，都必须使用最新的安装管理工具版本。 必须具有对现有的内部部署和 Internet 连接访问的单独服务器上安装管理工具。 此 cmdlet 将用户从您的本地部署迁移到 Skype 业务 online， [Move-csuser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser?view=skype-ps)，必须从管理工具连接到内部部署运行。 有关移动用户的详细信息，请参阅[移动用户从本地到业务 online Skype](deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online.md)。
+> 所有用户管理，包括用户的本地和 Skype 之间移动业务 online，都必须使用最新的安装管理工具版本。 必须具有对现有的内部部署和 Internet 连接访问的单独服务器上安装管理工具。 此 cmdlet 将用户从您的本地部署迁移到 Skype 业务 online， [Move-csuser](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps)，必须从管理工具连接到内部部署运行。 有关移动用户的详细信息，请参阅[移动用户从本地到业务 online Skype](deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online.md)。
 
 > [!IMPORTANT]
 > 如果用户是使用 Office 365 的联机门户创建的，则该用户帐户将不会与本地 Active Directory 同步，并且该用户将不会存在于本地 Active Directory 中。 如果你已在联机租户中创建用户，并且希望配置与本地部署的混合，请参阅“将用户从联机移动到本地”。

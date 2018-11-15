@@ -16,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 38706497fc83cdc5eea4cafb7177d23d55879bf0
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 3dec789d31737eeb4585da5e28737a15ca679a5b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295551"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530572"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>转换为新的 Microsoft 团队和业务管理中心的 Skype 的过程管理团队
 ======================================================
@@ -41,32 +41,32 @@ ms.locfileid: "26295551"
 
 |Office 365 管理中心中的团队的部分  |设置名称 （租户级别）  |Microsoft 团队和 Skype Business Admin Center 策略   |级别： 租户或用户   |
 |---------|---------|---------|---------|
-|常规     |显示个人配置文件中的组织聊天        |  [TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  租户       |
-|常规     |用于未设置团队收件人 Skype for Business         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
-|常规     |允许 T Bot 主动帮助消息         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
-|电子邮件集成     |允许用户向通道发送电子邮件         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
-|电子邮件集成     |允许的发件人列表         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |租户         |
-|自定义云存储     |框         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
-|自定义云存储     |收存箱        |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
-|自定义云存储     |Google 驱动器        |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
-|自定义云存储     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
+|常规     |显示个人配置文件中的组织聊天        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  租户       |
+|常规     |用于未设置团队收件人 Skype for Business         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
+|常规     |允许 T Bot 主动帮助消息         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
+|电子邮件集成     |允许用户向通道发送电子邮件         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
+|电子邮件集成     |允许的发件人列表         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |租户         |
+|自定义云存储     |框         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
+|自定义云存储     |收存箱        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
+|自定义云存储     |Google 驱动器        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
+|自定义云存储     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
 |设置用户/许可证类型     |为所有用户打开或关闭的 Microsoft 团队          |已弃用的<sup>1</sup>        |         |
 |团队和频道     |         |重定向到 Azure Active Directory 组管理 （当前体验相同）。              |用户         |
 |团队和频道     |         |重定向到 AAD 组管理 （当前体验相同）。             |用户          |
-|呼叫和会议     |允许安排私人会议         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
-|呼叫和会议     |允许点对点通道 meetup         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
-|呼叫和会议     |允许安排频道会议         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
-|呼叫和会议     |在会议中允许视频         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
-|呼叫和会议     |允许在会议中共享的屏幕         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
-|呼叫和会议     |允许专用的呼叫         |[TeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |用户          |
-|消息     |启用 Giphy，以便用户可以向对话添加 gif 图像         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
-|消息     |内容评级         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
-|消息     |启用的用户可以编辑并将添加到对话的 memes         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
-|消息     |启用的用户可以编辑并将添加到对话的标签         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
-|消息     |允许所有者删除所有的邮件         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
-|消息     |允许用户编辑其自己的邮件         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
-|消息     |允许用户删除其自己的邮件         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
-|消息     |允许用户私下聊天         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
+|呼叫和会议     |允许安排私人会议         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
+|呼叫和会议     |允许点对点通道 meetup         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
+|呼叫和会议     |允许安排频道会议         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
+|呼叫和会议     |在会议中允许视频         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
+|呼叫和会议     |允许在会议中共享的屏幕         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
+|呼叫和会议     |允许专用的呼叫         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |用户          |
+|消息     |启用 Giphy，以便用户可以向对话添加 gif 图像         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
+|消息     |内容评级         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
+|消息     |启用的用户可以编辑并将添加到对话的 memes         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
+|消息     |启用的用户可以编辑并将添加到对话的标签         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
+|消息     |允许所有者删除所有的邮件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
+|消息     |允许用户编辑其自己的邮件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
+|消息     |允许用户删除其自己的邮件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
+|消息     |允许用户私下聊天         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
 
 <sup>1</sup>弃用的来宾。 启用/禁用来宾现在中的 Microsoft 团队业务管理中心的 Skype 管理。 启用/禁用团队业务 enterprise，Edu 学生，并将很快弃用 Edu 教职员工。 这应该通过分配许可证在 Office 365 管理中心中的管理。 请参阅[Microsoft 团队管理用户访问](user-access.md)。
 

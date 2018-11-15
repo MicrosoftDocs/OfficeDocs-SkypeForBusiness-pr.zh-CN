@@ -1,3 +1,4 @@
+
 <!-- ============================================================ -->
 # [欢迎使用 Teams](teams-overview.md)
 <!-- ============================================================ -->
@@ -9,7 +10,6 @@
 ## [下一个位置](get-started-with-teams-resources-for-org-wide-rollout.md)
 ## [在 Microsoft 团队中获取帮助](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
-
 
 <!-- ============================================================ -->
 # 规划
@@ -133,6 +133,7 @@
 <!-- ============================================================ -->
 # 与 Office 365 的互操作性
 ## [迁移和 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
+## [与 Skype for Business 的共存](coexistence-chat-calls-presence.md)
 ## [设置您共存并升级设置](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 组和 Teams](office-365-groups.md)
 ## [使用 Teams 增强现有 Office 365 组](enhance-office-365-groups.md)
@@ -205,6 +206,7 @@
 ### [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
 ### [在工作组中创建一个组织范围团队](create-an-org-wide-team.md)
 ### [动态团队的成员身份的概述](dynamic-memberships.md)
+## [状态](presence-admins.md)
 ## [来宾访问](guest-access.md)
 ### [来宾加入团队的方式](guest-joins.md)
 ### [来宾体验介绍](guest-experience.md)
@@ -234,7 +236,8 @@
 #### [什么是团队 live 事件？](teams-live-events/what-are-teams-live-events.md)
 #### [规划团队 live 事件](teams-live-events/plan-for-teams-live-events.md)
 #### [设置团队的实时事件](teams-live-events/set-up-for-teams-live-events.md)
-#### [配置团队 live 事件](teams-live-events/configure-teams-live-events.md)
+#### [使用 PowerShell 设置团队 live 事件策略](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+#### [配置团队 live 事件设置](teams-live-events/configure-teams-live-events.md)
 
 
 
@@ -369,7 +372,7 @@
 #### [启用或禁用更改音频会议设置时发送电子邮件](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [使用户能够在加入会议时录制其姓名](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 #### [管理用户的音频会议设置](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-#### [管理我的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+#### [管理您的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 #### [音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [音频会议和用户 PSTN 通话的出站通话限制策略](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [重置用户的会议 ID](reset-a-conference-id-for-a-user-in-teams.md)

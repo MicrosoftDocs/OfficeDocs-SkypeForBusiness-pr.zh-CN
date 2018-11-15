@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Plan for Business 服务器的 Skype 移动的实现。
-ms.openlocfilehash: 156731c765823b195ac1e78143eca91ceca9192d
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 22d5b8bdeb6a82a202740af4919756daac47010a
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294604"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533264"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Plan for Mobility for Skype 业务服务器
  
@@ -233,7 +233,7 @@ Mobility service Mcx 和 UCWA 相同的方式使用 DNS。 利用自动发现，
   
 ### <a name="do-you-want-all-your-users-accessing-all-mobility-features-or-do-you-want-to-specify-the-users-who-can-access-these-features-instead"></a>要指定可以改为访问这些功能的用户或您希望访问所有移动功能，所有用户？
 
-我们有一个表来帮助的一些功能可供所有用户，并是否他们正在方式或不通过设置的默认值。 有关完整列表，请参阅 [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)。
+我们有一个表来帮助的一些功能可供所有用户，并是否他们正在方式或不通过设置的默认值。 有关完整列表，请参阅 [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)。
   
 > [!NOTE]
 > 所有这些功能的适用范围为全局/站点/用户。 

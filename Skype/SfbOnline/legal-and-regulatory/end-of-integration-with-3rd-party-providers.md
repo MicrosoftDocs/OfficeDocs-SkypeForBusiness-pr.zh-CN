@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 上年 4 月 1 2019年生命程序结束将结束第三方音频会议提供商的 Skype for Business 的集成 (第三方 ACP)。
-ms.openlocfilehash: c5f39570c7f570dfc4102105a72f277221356051
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 99643ae8d7ff00ffb006ec5a19ef97ab6f551d83
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293661"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532381"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>第三方音频会议提供商的 Skype 的业务集成的生活程序结束 
 
@@ -86,13 +86,13 @@ Microsoft 发布第三方音频会议提供商 (Acp) 集成的业务的 Skype �
 
 若要防止在 Skype 业务通过加入 VoIP 通过一些参与者的会议的音频和其他通过第三方 ACP 碎片，建议您使用这些组织可以禁用在其用户的会议使用 VoIP。 这种方式，所有参与者都需要加入会议使用第三方 ACP 的音频部分和 （例如聊天或屏幕共享） 的会议的所有其他工作负荷可以继续通过 for Business 的 Skype 支持。 
 
-- 若要从给定的组织者的所有会议中禁用 VoIP，设置为 false，则通过 Set-csconferencingpolicy cmdlet 他/她的会议策略的 AllowIPAudio 参数。 有关其他信息，请参阅[Set-csconferencingpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
+- 若要从给定的组织者的所有会议中禁用 VoIP，设置为 false，则通过 Set-csconferencingpolicy cmdlet 他/她的会议策略的 AllowIPAudio 参数。 有关其他信息，请参阅[Set-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
  
 方面日程安排和截止 2019，年 4 月 1st，第三方 ACP 的电话拨入式信息将不再自动包括在 Skype 的业务会议邀请。 用户将需要手动添加其 Skype 业务会议的电话拨入式信息邀请如果他们想要继续包括此信息作为其会议的一部分。 
 
 请注意上年 4 月 1st 2019年, 现有会议的用户将不能自动重新安排删除任何第三方 ACP 拨入信息。 决定保留为其用户的会议应考虑禁用用户的第三方 ACP 的集成和重新使用会议其会议启用 VoIP 的组织迁移服务若要删除第三方音频会议拨入信息从其现有会议和阻止上已安排的会议的音频碎片。 
 
-- 若要禁用给定的组织者的第三方音频会议的集成，请使用 Remove CsUserAcp cmdlet。 有关其他信息，请参阅[删除 CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps)。 
+- 若要禁用给定的组织者的第三方音频会议的集成，请使用 Remove CsUserAcp cmdlet。 有关其他信息，请参阅[删除 CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)。 
 
 - 若要禁用与第三方音频会议提供商集成后自动重新用户的会议，请参阅"如何运行手动为用户的会议迁移？" 在[设置会议迁移服务 (MMS) 设置](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)。 
 
@@ -102,11 +102,11 @@ Microsoft 发布第三方音频会议提供商 (Acp) 集成的业务的 Skype �
 
 - 建议之前年 4 月 1st，2019，以防止跨参与者加入 VoIP 通过和通过第三方 ACP 的碎片化音频 VoIP 禁用所有受影响的用户的所有会议。 
 
-    - 若要从给定的组织者的所有会议中禁用 VoIP，为 false，则通过 Set-csconferencingpolicy cmdlet 设置用户的会议策略的 AllowIPAudio 参数。 有关其他信息，请参阅[Set-csconferencingpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
+    - 若要从给定的组织者的所有会议中禁用 VoIP，为 false，则通过 Set-csconferencingpolicy cmdlet 设置用户的会议策略的 AllowIPAudio 参数。 有关其他信息，请参阅[Set-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
  
 - 如果组织不禁用 VoIP 的所有会议，建议为用户禁用对于业务联机集成第三方 ACP 使用 Skype 并重新安排其会议中删除第三方 ACP 拨入信息阻止的音频的碎片。
 
-    - 若要禁用给定的组织者的第三方音频会议的集成，请使用[Remove CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps) cmdlet。 
+    - 若要禁用给定的组织者的第三方音频会议的集成，请使用[Remove CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps) cmdlet。 
 
     - 若要自动重新安排会议，请参阅"如何运行手动为用户的会议迁移？" 在[设置会议迁移服务 (MMS) 设置](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)。
 
@@ -116,7 +116,7 @@ Microsoft 发布第三方音频会议提供商 (Acp) 集成的业务的 Skype �
 
 这些组织需要禁用他们使用第三方音频会议提供商的用户，并具有自动重新计划使用会议迁移其会议服务若要删除其电话拨入式会议信息。 
 
-- 若要禁用给定的组织者的第三方音频会议的集成，请使用 Remove CsUserAcp cmdlet。 有关其他信息，请参阅[删除 CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps)。 
+- 若要禁用给定的组织者的第三方音频会议的集成，请使用 Remove CsUserAcp cmdlet。 有关其他信息，请参阅[删除 CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)。 
 
 - 若要禁用与第三方音频会议提供商集成后自动重新用户的会议，请参阅"如何运行手动为用户的会议迁移？" 在[设置会议迁移服务 (MMS) 设置](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)。 
 
@@ -124,6 +124,6 @@ Microsoft 发布第三方音频会议提供商 (Acp) 集成的业务的 Skype �
 
 - 决定要停止使用音频会议的组织完全年 4 月 1st 2019年之前不会受到影响。
 
-- 若要禁用给定的组织者的第三方音频会议的集成，请使用 Remove CsUserAcp cmdlet。 有关其他信息，请参阅[删除 CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps)。 
+- 若要禁用给定的组织者的第三方音频会议的集成，请使用 Remove CsUserAcp cmdlet。 有关其他信息，请参阅[删除 CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)。 
 
 - 若要禁用与第三方音频会议提供商集成后自动重新用户的会议，请参阅"如何运行手动为用户的会议迁移？" 在[设置会议迁移服务 (MMS) 设置](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)。

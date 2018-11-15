@@ -9,16 +9,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 具有内置可以提供 DNS 服务，因此您可能想要查看可用的文档，如 DNS 策略方案指南的软件。 如果您愿意，您可以选择第三方解决方案。
-ms.openlocfilehash: 3397d4ba2b3f8555652117d6de6bee54f7816307
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 297dc905a308806aec9228a9514f8e1bd65a245b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296131"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532814"
 ---
 # <a name="dns-basics"></a>DNS 基础知识
  
-Windows Server 2016 具有内置可以提供 DNS 服务，因此您可能想要查看可用的文档，如[DNS 策略方案指南](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/dns-policy-scenario-guide)的软件。 如果您愿意，您可以选择第三方解决方案。
+Windows Server 2016 具有内置可以提供 DNS 服务，因此您可能想要查看可用的文档，如[DNS 策略方案指南](https://docs.microsoft.com/windows-server/networking/dns/deploy/dns-policy-scenario-guide)的软件。 如果您愿意，您可以选择第三方解决方案。
   
 建议的最佳做法是将专用特定服务器实现提供 DNS 中。 您无法可能将其设置在一台服务器专用于业务服务器角色，但如果该服务器也是池的一部分，并获得停用无意 Skype 的业务会出现故障，直到 DNS 服务已重新建立 Skype 之一。
   

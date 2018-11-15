@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 摘要： 浏览这些链接以了解如何安装和配置 Business Server 2019 Skype。
-ms.openlocfilehash: 6302e126f280c48fdd1e964d390013e349da9db7
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: af4edc8c3c938f6016ebf743b8ce9ac982cfefbf
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294866"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531438"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>部署业务服务器 2019 Skype
  
@@ -35,15 +35,15 @@ Skype 业务服务器提供了即时消息 (IM)、 状态、 会议、 视频和
   
 ||内容|说明|
 |:-----|:-----|:-----|
-|![文档图标](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[For Business Server 2019 Skype 的系统要求](../plan/system-requirements.md)  <br/> |了解有关服务器和 Skype for Business Server 环境要求。  <br/> |
-|![文档图标](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[拓扑的 Skype 业务服务器的基础知识](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |了解有关拓扑选项和服务器并置方案的 Skype 业务服务器。  <br/> |
-|![数字指导图标](https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg)|[安装 Skype for Business Server](../../SfbServer/deploy/install/install.md)<br/> |了解如何在各种拓扑、 物理和虚拟环境中的业务服务器安装 Skype。  <br/> |
-|![数字指导图标](https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg)| [迁移到 Skype 业务服务器 2019](../migration/migration-to-skype-for-business-server-2019.md) <br/> |了解如何从早期版本的 Skype 迁移适用于商务或 Lync Server。  <br/> |
-|![数字指导图标](https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg)|[Configure the client experience with Skype for Business](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |了解如何配置客户端体验。  <br/> |
-|![数字指导图标](https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg)| [配置业务服务器 Skype 和 Skype 业务 online 之间的混合连接性](../hybrid/configure-hybrid-connectivity.md) <br/> |了解如何配置混合部署中，必备组件，然后配置部署以管理业务 Server 内部部署的 Skype 和 Skype 业务 online 之间的用户。  <br/> |
-|![数字指导图标](https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg)| [在部署边缘服务器 Skype 业务服务器](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |如果您的组织中的用户与外部用户未登录到内部网络通信，您需要部署边缘服务器。  <br/> |
-|![数字指导图标](https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg)| [为业务服务器部署中 Skype 的企业语音](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |了解如何部署完整的 IP 语音 (VoIP) 企业语音解决方案，从而提供与 Outlook 和 Exchange 的丰富集成，以及很多强大的功能，如响应组、呼叫寄存、团队呼叫、组内呼叫应答和增强型紧急 E9-1-1 支持。  <br/> |
-| ![数字指导图标](https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg)| [为业务服务器部署中 Skype 视频互操作性的服务器](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) <br/> |如果您想要支持视频互操作，请阅读有关如何部署视频互操作服务器 (VIS)。  <br/> |
+|![文档图标](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[For Business Server 2019 Skype 的系统要求](../plan/system-requirements.md)  <br/> |了解有关服务器和 Skype for Business Server 环境要求。  <br/> |
+|![文档图标](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[拓扑的 Skype 业务服务器的基础知识](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |了解有关拓扑选项和服务器并置方案的 Skype 业务服务器。  <br/> |
+|![数字指导图标](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[安装 Skype for Business Server](../../SfbServer/deploy/install/install.md)<br/> |了解如何在各种拓扑、 物理和虚拟环境中的业务服务器安装 Skype。  <br/> |
+|![数字指导图标](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [迁移到 Skype 业务服务器 2019](../migration/migration-to-skype-for-business-server-2019.md) <br/> |了解如何从早期版本的 Skype 迁移适用于商务或 Lync Server。  <br/> |
+|![数字指导图标](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[Configure the client experience with Skype for Business](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |了解如何配置客户端体验。  <br/> |
+|![数字指导图标](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [配置业务服务器 Skype 和 Skype 业务 online 之间的混合连接性](../hybrid/configure-hybrid-connectivity.md) <br/> |了解如何配置混合部署中，必备组件，然后配置部署以管理业务 Server 内部部署的 Skype 和 Skype 业务 online 之间的用户。  <br/> |
+|![数字指导图标](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [在部署边缘服务器 Skype 业务服务器](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |如果您的组织中的用户与外部用户未登录到内部网络通信，您需要部署边缘服务器。  <br/> |
+|![数字指导图标](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [为业务服务器部署中 Skype 的企业语音](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |了解如何部署完整的 IP 语音 (VoIP) 企业语音解决方案，从而提供与 Outlook 和 Exchange 的丰富集成，以及很多强大的功能，如响应组、呼叫寄存、团队呼叫、组内呼叫应答和增强型紧急 E9-1-1 支持。  <br/> |
+| ![数字指导图标](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [为业务服务器部署中 Skype 视频互操作性的服务器](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) <br/> |如果您想要支持视频互操作，请阅读有关如何部署视频互操作服务器 (VIS)。  <br/> |
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>有关规划 Skype 业务服务器的其他资源
 
@@ -51,8 +51,8 @@ Skype 业务服务器提供了即时消息 (IM)、 状态、 会议、 视频和
   
 ||**内容**|**说明**|
 |:-----|:-----|:-----|
-|![文档图标](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[面向 IT 专业人员的 Skype for Business Server](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |请访问资源中心访问视频、 社区网站、 文档、 下载和更多内容。|
-|![开发人员内容图标](https://docs.microsoft.com/en-us/office/media/icons/developer-blue.svg)|[Skype 开发人员平台](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |查找对于业务服务器，包括代码示例、 培训和 Sdk Skype 开发人员资源。  <br/> |
-|![新闻、博客等图标](https://docs.microsoft.com/en-us/office/media/icons/blog-site-blue.svg)|[更改管理和采用](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office 博客](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype 团队博客](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |为业务服务器及时来自创建的团队和文档 Skype 的新闻。  <br/> |
+|![文档图标](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[面向 IT 专业人员的 Skype for Business Server](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |请访问资源中心访问视频、 社区网站、 文档、 下载和更多内容。|
+|![开发人员内容图标](https://docs.microsoft.com/office/media/icons/developer-blue.svg)|[Skype 开发人员平台](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |查找对于业务服务器，包括代码示例、 培训和 Sdk Skype 开发人员资源。  <br/> |
+|![新闻、博客等图标](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[更改管理和采用](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office 博客](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype 团队博客](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |为业务服务器及时来自创建的团队和文档 Skype 的新闻。  <br/> |
    
 

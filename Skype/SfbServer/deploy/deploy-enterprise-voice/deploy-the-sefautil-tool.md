@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: 为业务 Server 部署中 Skype 的 SEFAUtil 工具。
-ms.openlocfilehash: fc8b26dbc0f81be3ea7dd9f0fc3f5c728d49e965
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 1b2f981a438b71b44eb5d4c760e98d1d777f7235
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295886"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532782"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>部署中的业务的 Skype 的 SEFAUtil 工具
  
@@ -45,6 +45,10 @@ ms.locfileid: "26295886"
    ```
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
+    > [!NOTE]
+    > 池 FQDN： 服务器或池将承载 SEFAUtil 应用程序 (通常为业务前端服务器或池的 Skype) 的 FQDN。
+    > 池注册器 FQDN： 业务前端服务器或池与此应用程序池相关联的 Skype 的 FQDN。
+    > 池网站： 网站的 ID，此池上驻留的网站。
 
 4. 将 SEFAUtil 工具定义为受信任应用程序。在命令行中运行：
     

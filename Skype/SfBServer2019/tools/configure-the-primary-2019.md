@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要： 主管理服务器配置、 安装 System Center Operations Manager，并导入管理包的 Skype 的业务服务器 2019年。
 ms.openlocfilehash: 39ed469227c607084dc030fa003700074a6aae9a
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26216093"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26536008"
 ---
 # <a name="configure-the-primary-management-server"></a>配置主管理服务器
 

@@ -13,16 +13,20 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c537f37534c616965b74f5ea268f547cff28d41
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 85e7749bda08b1dbbf7a5afad5fc138facb62940
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294873"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533179"
 ---
 # <a name="cloud-voice-deployment"></a>云语音部署
 
 团队协作和 Office 365 中的通信的中心的 Microsoft 团队现已提供音频会议，调用计划，与电话系统和电话系统直接路由功能，以满足通过扩展团队会议的其他业务需求和包括通过公用电话交换网 (PSTN) 连接的外部组织的呼叫体验。
+
+
+> [!Tip] 
+> 观看以下有关电话系统的简介会话：[简介中的 Microsoft 团队的电话系统](https://aka.ms/teams-phone-system)
  
 随着时间的推移发布团队的其他云语音功能，我们将更新此页。
 

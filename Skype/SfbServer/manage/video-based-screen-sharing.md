@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype 的基于视频的屏幕共享 (VbSS) 的业务服务器规划和配置信息
-ms.openlocfilehash: a7ea07f02b73b1092a11f61757318d0d653e048a
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 8541bb0dc3b5791c670a3beac77560b3c9663733
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295119"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531622"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>视频基于屏幕共享的 Skype 业务服务器 
  
@@ -150,7 +150,7 @@ VbSS 带宽为：
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    此命令的详细信息，请参阅[Set-csconferencingpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
+    此命令的详细信息，请参阅[Set-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
     
 - 如果需要完全关闭 VbSS，你可以运行以下命令：
     
@@ -158,7 +158,7 @@ VbSS 带宽为：
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    此命令的详细信息，请参阅[设置 CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
+    此命令的详细信息，请参阅[设置 CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
     
 > [!NOTE]
 > 在业务会议多方 Skype，所有客户端终结点将尊重会议组织者的策略设置。 
@@ -177,7 +177,7 @@ VbSS 带宽为：
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    此命令的详细信息，请参阅[Set-csconferencingpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
+    此命令的详细信息，请参阅[Set-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
     
 - 如果需要在关闭 VbSS 后将其重新打开（默认情况下处于打开状态），你可以运行以下命令：
     
@@ -185,7 +185,7 @@ VbSS 带宽为：
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    此命令的详细信息，请参阅[设置 CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
+    此命令的详细信息，请参阅[设置 CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
     
 > [!NOTE]
 > 在业务会议多方 Skype，所有客户端终结点将尊重会议组织者的策略设置。 

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在同一位置查找并管理 Skype for Business Server 2015 和 Lync 2013 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
-ms.openlocfilehash: 651d6c730fb8555ab4c478e51f69e3143031b00c
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 6bc575a5f2ae981a6f3ea613f8a262d048c5fde0
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294035"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531615"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
@@ -230,6 +230,6 @@ ms.locfileid: "26294035"
 
 ## <a name="related-topics"></a>相关主题
 
-- [安装 Skype for Business Server 2015](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/install/install)
-- [升级到 Skype for Business Server 2015](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
+- [安装 Skype for Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
+- [升级到 Skype for Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
 - [使用 Windows Installer (MSI) 的 Skype for Business 版本的最新更新](sfb-client-updates.md)

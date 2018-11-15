@@ -11,19 +11,19 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: 为管理员提供的身份验证方法的更多控制此文章轮廓 cmdlet 使用的企业内部和外部、。 管理员可以打开身份验证方法或关闭到他们的网络的内部或外部。
-ms.openlocfilehash: 51dfaf9dc4c65afdd615cf29632c21d4cba08f65
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 57b51a897f476d5c4b4b17ccda8ffe074f8a26cd
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294844"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531100"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>关闭旧身份验证方法内部和外部到您的网络规划。
 
 > [!NOTE]
 > 如果您要阅读这篇文章，您应知道有关受支持的现代身份验证拓扑，ADAL，且现代的身份验证配置有关但，以防不，此处开始所需的文章： 
->  + [https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
->  + [https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal)
+>  + [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
+>  + [https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal)
   
 现代身份验证不只是启用更安全的身份验证，如双重身份验证或基于证书的身份验证方法，它可以执行用户授权而无需用户名或密码太。 它是非常方便。
 

@@ -1,44 +1,43 @@
 ---
-title: Plan for Statistics Manager for Skype for Business Server 2015
+title: 规划业务 Server 为统计信息管理器中的 Skype
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 5/23/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: 摘要： 阅读本主题可为业务服务器 2015年的 Skype 了解有关统计信息管理器。
-ms.openlocfilehash: de4f2bedcbd03191b852366504423ebb031cf5f1
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 摘要： 阅读本主题可为 Skype 业务服务器了解有关统计信息管理器。
+ms.openlocfilehash: 7b4c45bf3fe230c331725a4510a2a8a499300bef
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294477"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531079"
 ---
-# <a name="plan-for-statistics-manager-for-skype-for-business-server-2015"></a>Plan for Statistics Manager for Skype for Business Server 2015
+# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>规划业务 Server 为统计信息管理器中的 Skype
 
-**摘要：** 阅读本主题可了解的 Skype 的业务服务器 2015年的有关统计信息管理器。
+**摘要：** 阅读此主题以业务服务器的 Skype 了解有关统计信息管理器。
 
  适用于业务服务器 Skype 的统计信息管理器是一个强大的工具，允许您查看 Skype 的实时业务服务器运行状况和性能数据。 可以跨服务器数百每隔几秒钟轮询性能数据，并立即统计信息管理器网站上查看结果。
 
 统计信息管理器可用于确定持续的性能问题，与您的环境中查看计划更改的结果，跟踪的中断，分辨率和更多。 现成，统计信息管理器中使用键运行状况指示器 (KHI) 阈值配置，可以对其进行自定义，以满足您的部署唯一需求。
 
-您可以在本地部署中的单个服务器承载的所有服务器端统计信息管理器组件部署统计信息管理器。 有关部署统计信息管理器的详细信息，请参阅[适用于业务服务器 2015年的 Skype 部署统计信息管理器](deploy.md)。 如果您已有现有部署的统计信息管理器中，但尚未升级到版本 1.1，请参阅[What's new in 版本 1.1](plan.md#BKMK_WhatsNew)和[适用于业务服务器 2015年的 Skype 升级统计信息管理器](upgrade.md)。
+您可以在本地部署中的单个服务器承载的所有服务器端统计信息管理器组件部署统计信息管理器。 有关部署统计信息管理器的详细信息，请参阅[适用于业务服务器 Skype 部署统计信息管理器](deploy.md)。 如果您已有现有部署的统计信息管理器中，但尚未升级到版本 2.0，请参阅[What's new in 版本 2.0](plan.md#BKMK_WhatsNew)和[Skype 业务服务器的升级统计信息管理器](upgrade.md)。
 
 本主题包括以下部分：
 
-- [特性和功能](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Features)
+- [特性和功能](plan.md#BKMK_Features)
 
-- [What's new in 版本 1.1](plan.md#BKMK_WhatsNew)
+- [What's new in 版本 2.0](plan.md#BKMK_WhatsNew)
 
-- [组件](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Components)
+- [组件](plan.md#BKMK_Components)
 
 - [在本地部署](plan.md#BKMK_DeploymentOptions)
 
-- [要求](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Requirements)
+- [要求](plan.md#BKMK_Requirements)
 
 - [安全注意事项](plan.md#BKMK_Security)
 
@@ -77,16 +76,14 @@ ms.locfileid: "26294477"
 
   - 视图 KHI 定义
 
-## <a name="whats-new-in-release-11"></a>What's new in 版本 1.1
+## <a name="whats-new-in-release-20"></a>What's new in 版本 2.0
 <a name="BKMK_WhatsNew"> </a>
 
-以下介绍 what's new in 版本 1.1。 如果您拥有现有部署的统计信息管理器中，并且尚未升级，请参阅[适用于业务服务器 2015年的 Skype 升级统计信息管理器](upgrade.md)。
+以下介绍 what's new in 版本 2.0。 如果您拥有现有部署的统计信息管理器中，并且尚未升级，请参阅[适用于业务服务器 Skype 升级统计信息管理器](upgrade.md)。
 
 - 已为边缘媒体、 结构运行状况、 池故障转移和注册方案添加了方案视图。
 
-- （与侦听器一起安装） 的命令行 PerfAgentStorageManager.exe 现在可以作为 CSV 导出计数器数据。
-
-- 许多新计数器已添加为 SQL 服务器和多个 Windows Fabric 计数器，多个 Skype 的业务使用率计数器，等等。
+- 许多新计数器已添加为 SQL 服务器和多个 Skype 的业务使用率计数器，等等。
 
 - 观察程序节点集成的统计信息管理器代理-如果观察程序节点上安装代理将报告综合事务统计信息计数器为返回到统计信息管理器。
 
@@ -131,7 +128,7 @@ ms.locfileid: "26294477"
 
 ### <a name="software-requirements"></a>软件要求
 
-- Windows Server 2012 R2
+- Windows Server 2016 和 2019
 
 - IIS （自动安装）
 
@@ -141,9 +138,7 @@ ms.locfileid: "26294477"
 
 - PSExec-需要执行远程代理部署
 
-- .NET 4.5 （附带 2012 R2）-所需的服务器端组件
-
-- .NET 4.0-所需的代理
+- 代理和服务器端组件所需的.NET 4.5 （附带 2012 R2）-
 
 ### <a name="networking-requirements"></a>网络要求
 
@@ -180,12 +175,12 @@ ms.locfileid: "26294477"
 
 有关详细信息，请参阅以下文章：
 
-- [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
+- [为业务 Server 部署的 Skype 的统计信息管理器](deploy.md)
 
-- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
+- [为业务服务器升级的 Skype 的统计信息管理器](upgrade.md)
 
-- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
+- [解决的 Skype 的统计信息管理器的企业服务器](troubleshoot.md)
 
-- [Skype for Business Server 统计信息管理器博客](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Skype for Business Server 统计信息管理器博客](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
 
 

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要： 了解为业务服务器 2019年的 Skype 中的服务管理工具。
 ms.openlocfilehash: ceb7a44b52bb5c02551981fb9147b05dd9a0dd84
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26216088"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26536012"
 ---
 # <a name="skype-for-business-server-2019-management-tools"></a>Skype 的业务 Server 2019 管理工具
  

@@ -10,23 +10,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 摘要： 部署企业 Web 应用程序和 Skype 会议应用程序与 Skype 用于业务 Skype。
-ms.openlocfilehash: c50a8afc4d12d7f3cf35fdcc966e322bd48199fc
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 7fabbbbd279e2f72f3468fbe73a55b86e532f6cf
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295112"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531543"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>为业务服务器部署中 Skype Web 可下载的客户端
 
-**摘要：** 部署企业 2015 Web 应用程序的 Skype 和 Skype 会议应用程序与 Skype 用于业务服务器 2015年。
+**摘要：** 部署企业 2015 Web 应用程序的 Skype 和 Skype 会议应用程序与 Skype 用于业务服务器。
 
-企业 Web 应用程序的 Skype 是运行业务服务器 2015 Skype 服务器安装了 Internet 信息服务 (IIS) web 客户端，默认情况下，它将部署需要向会议用户尚不具有业务客户端的 Skype。 这些会议用户通常从你的网络外连接。 只要用户单击会议 URL，但没有业务客户端安装 Skype，用户将显示使用最新版本的 Skype 企业 Web 应用程序或 Skype 会议应用程序加入会议选项。
+企业 Web 应用程序的 Skype 是业务服务器运行 Skype 的服务器安装了 Internet 信息服务 (IIS) web 客户端，默认情况下，它将部署需要向会议用户尚不具有业务客户端的 Skype。 这些会议用户通常从你的网络外连接。 只要用户单击会议 URL，但没有业务客户端安装 Skype，用户将显示使用最新版本的 Skype 企业 Web 应用程序或 Skype 会议应用程序加入会议选项。
 
 视频和共享的语音功能 Skype 中的企业 Web 应用程序要求用作用户的浏览器插件一个 Microsoft ActiveX 控件。 您可以提前安装 ActiveX 控件或允许用户安装它出现提示时，发生第一次企业 Web 应用程序使用 Skype 或他们访问功能在首次需要的 ActiveX 控件。
 
 > [!NOTE]
-> Skype 业务 Server 2015 边缘服务器部署，在外围网络中的 HTTPS 反向代理是需要的 Skype 业务 Web App 客户端访问。 你还必须发布简单的 URL。 有关详细信息，请参阅[设置 Up Reverse Proxy Servers](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) and [Skype 业务服务器中的简单 Url 的 DNS 要求](../../plan-your-deployment/network-requirements/simple-urls.md)。
+> Skype 业务 Server 边缘服务器部署，在外围网络中的 HTTPS 反向代理是需要的 Skype 业务 Web App 客户端访问。 你还必须发布简单的 URL。 有关详细信息，请参阅[设置 Up Reverse Proxy Servers](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) and [Skype 业务服务器中的简单 Url 的 DNS 要求](../../plan-your-deployment/network-requirements/simple-urls.md)。
 
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>启用 Skype 业务 Web 应用程序的多因素身份的验证
 <a name="MFA"> </a>
@@ -75,7 +75,7 @@ ms.locfileid: "26295112"
 
 Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能中，可以干扰业务 Web 应用程序 web 组件的 Skype。 若要为企业 Web 应用程序用户的 Skype 阻止问题，请确保为未启用 BranchCache。
 
-有关禁用 BranchCache 的详细信息，请参阅[BranchCache 部署指南](https://docs.microsoft.com/en-us/windows-server/networking/branchcache/deploy/branchcache-deployment-guide)。
+有关禁用 BranchCache 的详细信息，请参阅[BranchCache 部署指南](https://docs.microsoft.com/windows-server/networking/branchcache/deploy/branchcache-deployment-guide)。
 
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>验证 Skype 业务 Web 应用程序部署
 <a name="MFA"> </a>
@@ -133,7 +133,7 @@ Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能中，可以干扰
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    发送至 Microsoft 的信息严格遵守 [Skype for Business 数据收集实践](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices)。
+    发送至 Microsoft 的信息严格遵守 [Skype for Business 数据收集实践](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices)。
 
 3. 设置超时之前回退到本地承载 Skype 的业务 Web 应用程序体验中，如果 CDN 不可用。 默认值是 6 秒。 如果将该值设置为 0，则没有超时。
 

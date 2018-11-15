@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于英国业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: f3e83adc835f003091ed0a1aa38953269dbe4b95
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ada6f7c5d4919a3c114488da8b30e7b58f9d6821
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293985"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531132"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>英国 （英国） 中的可用性
 
@@ -62,7 +62,7 @@ ms.locfileid: "26293985"
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
 |适用于调用计划的分钟数。 |每月有可用的四个规划选项： <ul><li>120 分钟国内调用规划 </li><li>240 分钟国内调用规划</li></li><li>1200 minute 国内调用规划 </li></li><li>国内和国际呼叫计划 600 分钟</li></li> 
-|可以发起出站呼叫到声讯电话号码？ <br/> | 部分支持： 支持共享成本号码 （前缀 44843、 44844、 44845、 44870、 44871、 44872） 的呼叫。  不支持调用 449XX 前缀。 <br/> |
+|可以发起出站呼叫到声讯电话号码？ <br/> | 部分支持： 使用 Communications 字幕式每分钟支付支持共享成本号码 （前缀 44843、 44844、 44845、 44870、 44871、 44872） 的呼叫。  不支持调用 449XX 前缀。 <br/> |
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码

@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b176131cd8c491916f8b934daa763e62a9bf2a8
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 7b0b533020def2e344991fa758304888c8166436
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294702"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530943"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>应答自动助理并直接从团队呼叫队列呼叫
 ===========================================================
@@ -54,12 +54,12 @@ ms.locfileid: "26294702"
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>配置支持的 Microsoft 团队的自动助理和呼叫队列
 
-若要接收自动助理和上的 Microsoft 团队呼叫队列呼叫，您需要配置您的互操作性策略和升级策略。 请查看[迁移和组织使用团队一起 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)。 如果您没有自动助理和/或呼叫队列配置，并且想要这样做，请参阅[设置电话系统自动助理](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)和[创建电话系统呼叫队列](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
+若要接收自动助理和上的 Microsoft 团队呼叫队列呼叫，您需要配置您的互操作性策略和升级策略。 请查看[迁移和组织使用团队一起 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)。 如果您没有自动助理和/或呼叫队列配置，并且想要这样做，请参阅[设置电话系统自动助理](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)和[创建电话系统呼叫队列](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
 
 ## <a name="related-topics"></a>相关主题
 
 -   [什么是 Office 365 中的电话系统](what-is-phone-system-in-office-365.md)
--   [创建电话系统呼叫队列](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [创建电话系统呼叫队列](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 -   [什么是电话系统自动助理？](what-are-phone-system-auto-attendants.md)
--   [设置电话系统自动助理](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [设置电话系统自动助理](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

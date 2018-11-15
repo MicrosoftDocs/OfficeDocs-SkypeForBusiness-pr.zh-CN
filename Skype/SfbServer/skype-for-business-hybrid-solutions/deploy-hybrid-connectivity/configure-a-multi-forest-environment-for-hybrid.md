@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: 以下各节提供有关如何配置具有资源/用户林模型，以提供业务功能在混合方案的 Skype 中的多林环境的指南。
-ms.openlocfilehash: 772b93aab0d8adf08345870ac97a8e1487e240e2
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ca3cd4bfe324690c41fbd045af967e57cab5fe36
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295240"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531550"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>配置混合 for Business 的 Skype 的多林环境
  
@@ -66,7 +66,7 @@ Skype 的企业用户驻留在本地可以具有 Exchange 驻留在本地或联�
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-[选择的帐户链接属性](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/)将用作源定位点。 如果你有偏好使用的不同且不变的属性，则可以这样做，只是务必要编辑 AD FS 声明规则并在 AAD Connect 配置期间选择该属性。
+[选择的帐户链接属性](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)将用作源定位点。 如果你有偏好使用的不同且不变的属性，则可以这样做，只是务必要编辑 AD FS 声明规则并在 AAD Connect 配置期间选择该属性。
   
 不同步林之间的 UPN。 在测试期间，我们发现我们需要将唯一的 UPN 用于每个用户林，因为不能在多个林中使用相同的 UPN。 因此，出现了两种可能性：同步 UPN 或不同步。 
   
@@ -112,7 +112,7 @@ AAD Connect 不会在内部部署林之间同步帐户。它使用 AD 连接来�
   
 这是一个测试用户，您可以看到 AAD Connect 已识别用户和资源林对象及 Office 365 中的 sourceAnchor 和 cloudSourceAnchor，在我们的案例 1101 中，是先前选择的 employeeNumber。然后，系统能够将此对象合并到您在上方看到的内容中。 
   
-有关详细信息，请参阅[将本地身份与 Azure Active Directory 集成](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/)。 
+有关详细信息，请参阅[将本地身份与 Azure Active Directory 集成](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)。 
   
 应使用大部分默认值安装 AAD Connect。 以下步骤例外： 
   
@@ -122,7 +122,7 @@ AAD Connect 不会在内部部署林之间同步帐户。它使用 AD 连接来�
     
 3.  确定本地目录中的用户： 选择**跨多个目录存在用户标识**，然后选择**ObjectSID**和**msExchangeMasterAccountSID**属性
     
-4. Azure AD 中标识用户： 源定位-选择您已阅读[选择良好 sourceAnchor 属性](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/)后选择的属性、 用户主体名称- **userPrincipalName**
+4. Azure AD 中标识用户： 源定位-选择您已阅读[选择良好 sourceAnchor 属性](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)后选择的属性、 用户主体名称- **userPrincipalName**
     
 5.  可选功能-选择是否已部署的 Exchange 混合部署。
     

@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
-ms.openlocfilehash: 7bd00f23a54780c94cdebeb413a8897e572ec47d
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: d90daec99ced371aae3ef0685d1138656a6ab138
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294858"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531770"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改音频会议网桥的电话号码
 
@@ -52,6 +52,10 @@ ms.locfileid: "26294858"
 
 4. 在" **分配**"页面上，单击" **保存**"。
 
+### <a name="step-2---change-the-default-phone-number-of-your-conference-bridge-optional"></a>步骤 2-更改您的会议桥 （可选） 的默认电话号码
+
+默认的电话号码的会议桥定义出站呼叫发出的参与者或从组织者在会议中的时，将使用的呼叫者 ID。
+
 仅一个服务收费电话号码可以设置为您的会议桥; 默认号码**服务免费电话号码不能设置为默认的会议桥数**。 如果您要分配服务收费电话号码，并且您希望将其设置为音频会议桥的新默认号，请执行以下步骤：
 
 1. 使用你的工作帐户登录 Office 365。
@@ -61,15 +65,10 @@ ms.locfileid: "26294858"
 3. 突出显示您想要配置为默认的服务收费电话号码。
 
 4. 选择“**设置为默认值**”。
+ 
+### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>步骤 3-更改都包含在会议中的默认电话号码邀请的用户 （可选）
 
-> [!NOTE]
-> [!注释] 分配了新电话号码后，即使该号码已经是新默认号码，现有用户的默认号码也不会更改。 设置默认收费和免费电话号码添加到组织者的会议邀请，请参阅[Microsoft](set-the-phone-numbers-included-on-invites-in-teams.md)团队的说明或[业务 online Skype](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)的说明。 
-  
-
-
-### <a name="step-2---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>第 2 步 - 更改用户的会议邀请中包含的默认电话号码（可选）
-
-用户的默认电话是他们安排会议时在会议邀请中包含的号码。 有关详细信息，请参阅[设置的电话号码包含在邀请中的 Microsoft 团队](set-the-phone-numbers-included-on-invites-in-teams.md)或[设置的电话号码包含在邀请中的业务联机 Skype](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)。
+用户的默认电话号码是包含在其会议的邀请他们安排会议时。 有关详细信息，包括如何将默认电话号码分配为新用户，请参阅[设置的电话号码包含在邀请中的 Microsoft 团队](set-the-phone-numbers-included-on-invites-in-teams.md)或[设置的电话号码包含在邀请中的业务联机 Skype](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)。
   
 1. 使用你的工作或学校帐户登录 Office 365。
 
@@ -81,11 +80,11 @@ ms.locfileid: "26294858"
 
 在保存所做的更改后，新的默认电话号码将包含在会议邀请的下次他们安排新的会议的组织者。
 
-### <a name="step-3---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>第 3 步 - 使用会议迁移服务更新用户的现有会议邀请（可选）
+### <a name="step-4---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>步骤 4-更新现有会议邀请的用户使用会议迁移服务 （可选）
 
 接下来的两个步骤，您需要启动 Windows PowerShell。
   
-使用会议迁移服务，您可以选择更新之前已更改其默认电话号码已发送到组织中用户的会议邀请。 有关更多信息，请参阅[设置会议迁移服务 (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
+如果更新默认电话号码的会议中的部分或所有用户邀请时，您可以选择更新之前使用已更改其默认电话号码已发送到组织中用户的会议邀请会议迁移服务。 有关更多信息，请参阅[设置会议迁移服务 (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
   
 - 运行的用户具有在步骤 2 中更改其默认电话号码的会议迁移服务 (MMS)。 要执行此操作，请运行以下命令：
 

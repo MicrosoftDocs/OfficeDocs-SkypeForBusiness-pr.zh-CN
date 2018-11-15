@@ -28,18 +28,18 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 你可以选择某个国家/地区以查看音频会议、电话系统、通话套餐、通信点数以及收费和免费电话号码是否可用。
-ms.openlocfilehash: bc39b239128ffacea5c4d58d1055f57d5088fb11
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8c0e287671e3131ed9b155205e90ebe6456a743b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372482"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531172"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
 您可以选择国家或地区，请参阅您的组织提供了哪些云语音功能。
 ***
-## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>选择您的国家或地区，请参阅 what's 适用于您的组织 ！
+## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>选择您的国家或地区，请参阅 what's 适用于您的组织
 
 > [!div class="op_single_selector"]    
 > - [阿根廷](availability-in-argentina.md)
@@ -144,7 +144,7 @@ ms.locfileid: "25372482"
 
 ### <a name="audio-conferencing"></a>音频会议
 
-有时，组织中的用户需要使用电话拨入会议。 Skype for Business 和 Microsoft Teams 包括适用于这种情况的音频会议功能！ 用户可以使用电话拨入会议，而非移动设备或 PC 上的 Skype for Business 和 Microsoft Teams 应用。 在你决定需为自己的组织使用音频议后，你需要为组织中将安排/主持音频会议的每个人购买 1 个**音频会议**许可证。
+有时，组织中的用户需要使用电话拨入会议。 Skype for Business 和 Microsoft Teams 包括适用于这种情况的音频会议功能！ 用户可以使用电话拨入会议，而非移动设备或 PC 上的 Skype for Business 和 Microsoft Teams 应用。 决定您希望为您的组织的音频会议之后，您需要为您的组织中要计划/主机音频会议的每个人购买一个**音频会议**许可证。
   
 使用音频会议功能，用户可以使用收费和免费电话号码拨入会议。 为音频会议启用后，下列国家或地区的收费号码将作为共享音频会议号码自动分配给组织。 可以从其他城市将专用收费和免费电话号码分配给你的组织。
 

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: 验证您的响应组部署成功，业务 Server 企业语音的 Skype 中。
-ms.openlocfilehash: 4832b64d6bf4d26dd9d4cba10e46ef78b3f3b396
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ebf8e9960b26dfa0da256e0ea26e356648cbe356
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295158"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532174"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>（可选）Skype for Business 中的验证响应组部署
  
@@ -38,5 +38,8 @@ ms.locfileid: "26295158"
 - 外部用户呼叫响应组。
     
 - 用户在代理处理其他呼叫时呼叫响应组，并进入队列。
+
+    > [!NOTE]
+    > 如果响应组不无法按预期请检查下一页链接：https://support.office.com/en-us/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
     
 

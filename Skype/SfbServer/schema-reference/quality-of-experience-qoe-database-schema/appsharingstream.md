@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: AppSharingStream 表包含用于应用程序共享的网络流的用户体验质量指标。 此表是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: 4eeac3f7b082d4a798736bd9897b90668a1d44b2
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 3505467fd5e163fe2c26aca4b1ba13681c0d4ee6
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294301"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532768"
 ---
 # <a name="appsharingstream-table"></a>AppSharingStream 表
  
@@ -25,7 +25,7 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |dateTime  <br/> |主、 外  <br/> |日期和时间的会话开始。  <br/> |
 |**SessionSeq** <br/> |int  <br/> |主、 外  <br/> |用于区分在相同日期和相同时间开始的会话的顺序标识符。  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |主、 外  <br/> | 请参阅[自 MediaLine Table](https://docs.microsoft.com/en-us/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0)。 <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |主、 外  <br/> | 请参阅[自 MediaLine Table](https://docs.microsoft.com/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0)。 <br/> |
 |**StreamID** <br/> |int  <br/> |Primary  <br/> |应用程序共享流的唯一标识符。  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> ||在 RTP 数据包到达之间检测到的平均抖动率。（抖动是针对呼叫的“不稳定性”的度量。）高抖动值通常是由拥塞或媒体服务器超载造成的，从而导致音频失真或丢失。  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> ||最大 RTP 数据包到达之间检测的抖动。 （抖动是一种呼叫"抖动"）。高抖动值通常由拥塞或重载的媒体服务器上，并导致音频失真或丢失。  <br/> |

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要： 安装上业务服务器 2019年计算机 Skype 要监视的 Operations Manager 代理文件，并配置计算机充当 System Center 代理。
 ms.openlocfilehash: 315854c8a249bde4f09710d7b8f1e0be95add132
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26216092"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26536004"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>配置将受视的 Skype for Business Server 计算机
 

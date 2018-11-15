@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: 阅读本主题可了解如何规划业务 Server 企业语音的增强型紧急服务 (E9-1-1) 部署 Skype 中的位置策略。
-ms.openlocfilehash: 919a09bb907bda8666c9a44ee61436643a912d61
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ed5eb479224c82757d808c202633cd79f466a543
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295278"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533213"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>规划业务 Server Skype 的位置策略
  

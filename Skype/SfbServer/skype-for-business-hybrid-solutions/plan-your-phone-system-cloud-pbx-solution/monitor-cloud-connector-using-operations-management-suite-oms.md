@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: 阅读本主题可了解如何使用 Microsoft 操作管理套件 (OMS) 监视您的云连接器版本 2.1 和更高版本的部署。
-ms.openlocfilehash: 19946c0d7701d2fd31c1b41cae58e08cfdf4c52d
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 36d70a1504eab085d319e46d03c3c6f0bd9d14f3
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295069"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532078"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>监视云连接器使用操作管理套件 (OMS)
 
 阅读本主题可了解如何使用 Microsoft 操作管理套件 (OMS) 监视您的云连接器版本 2.1 和更高版本的部署。
 
-您现在可以通过使用操作管理套件 (OMS) Microsoft 云 IT 管理解决方案监视您的云连接器版本 2.1 和更高版本的部署。 OMS 日志分析，可以监视和分析的可用性和性能的资源，包括物理和虚拟机。 有关 OMS 和日志分析的详细信息，请参阅[操作管理套件 (OMS) 是什么？](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-overview)。
+您现在可以通过使用操作管理套件 (OMS) Microsoft 云 IT 管理解决方案监视您的云连接器版本 2.1 和更高版本的部署。 OMS 日志分析，可以监视和分析的可用性和性能的资源，包括物理和虚拟机。 有关 OMS 和日志分析的详细信息，请参阅[操作管理套件 (OMS) 是什么？](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview)。
 
 本主题包括以下部分：
 
@@ -39,11 +39,11 @@ ms.locfileid: "26295069"
 
 您可以使用 OMS 监视云连接器部署之前，您将需要以下各项：
 
-- **Azure 帐户和 OMS 工作区。** 如果您没有 Azure 帐户，您需要创建一个使用 OMS 日志分析。 有关如何创建 Azure 帐户和设置 OMS 工作区的信息，请参阅[开始使用日志分析工作区](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started)。
+- **Azure 帐户和 OMS 工作区。** 如果您没有 Azure 帐户，您需要创建一个使用 OMS 日志分析。 有关如何创建 Azure 帐户和设置 OMS 工作区的信息，请参阅[开始使用日志分析工作区](https://docs.microsoft.com/azure/log-analytics/log-analytics-get-started)。
 
 - **云连接器 2.1 或更高版本**
 
-- 需要云连接器监视**日志分析新的日志搜索**。 有关详细信息，请参阅[升级到新的日志搜索您 Azure 日志分析工作区](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-log-search-upgrade)。
+- 需要云连接器监视**日志分析新的日志搜索**。 有关详细信息，请参阅[升级到新的日志搜索您 Azure 日志分析工作区](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search-upgrade)。
 
 ## <a name="configure-cloud-connector-to-use-oms"></a>配置要使用 OMS 的云连接器
 
@@ -103,7 +103,7 @@ ms.locfileid: "26295069"
      > [!NOTE]
      > 您必须手动在文本框中输入 Lync Server。 它不显示为下拉列表中的选项。 
 
-     有关详细信息，请参阅[日志分析中的 Windows 事件日志数据源](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-sources-windows-events)
+     有关详细信息，请参阅[日志分析中的 Windows 事件日志数据源](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
 
 2. 转到设置-\>数据-\> Windows 性能计数器，并将其添加性能计数器： 
 
@@ -126,11 +126,11 @@ ms.locfileid: "26295069"
      > [!NOTE]
      > 您必须手动在文本框中输入的性能计数器。 它们不显示为下拉列表中的选项。 
 
-     有关详细信息，请参阅[日志分析中的 Windows 和 Linux 性能数据源](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-sources-performance-counters)
+     有关详细信息，请参阅[日志分析中的 Windows 和 Linux 性能数据源](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-performance-counters)
 
 ### <a name="create-alerts"></a>创建通知
 
-有两种类型的通知中 OMS： 结果通知和公制度量通知的数目。 有关创建通知的详细信息，请参阅[使用日志分析中的通知规则](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-alerts-creating)。
+有两种类型的通知中 OMS： 结果通知和公制度量通知的数目。 有关创建通知的详细信息，请参阅[使用日志分析中的通知规则](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts-creating)。
 
 创建通知时，您应考虑以下：
 
@@ -158,7 +158,7 @@ ms.locfileid: "26295069"
 
     查询使用计算机筛选器，*其中计算机包含"MediationServer"* 。 筛选器选择仅名称中包含字符串"MediationServer"的计算机。
 
-     将替换计算机筛选器的筛选器，也可以只需将其删除。 您可以创建复杂的字符串不正则表达式的筛选器。 有关详细信息，请参阅[字符串运算符](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators)。 您还可以选择使用正则表达式。 此外，您可以创建计算机组保存搜索查询并为您计算机的筛选器警报查询中使用的组。 有关详细信息，请参阅[计算机组日志分析中的日志搜索](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-computer-groups)。
+     将替换计算机筛选器的筛选器，也可以只需将其删除。 您可以创建复杂的字符串不正则表达式的筛选器。 有关详细信息，请参阅[字符串运算符](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators)。 您还可以选择使用正则表达式。 此外，您可以创建计算机组保存搜索查询并为您计算机的筛选器警报查询中使用的组。 有关详细信息，请参阅[计算机组日志分析中的日志搜索](https://docs.microsoft.com/azure/log-analytics/log-analytics-computer-groups)。
 
     为每台计算机，错误查询将获取 RTCMEDSRV 服务启动最后的事件日志和服务停止。 它将返回一个日志的最后一个事件是否服务停止事件;它将返回 nothing 的最后一个事件是否服务开始事件。 简而言之，查询将返回其 RTCMEDSRV 已停止的时间窗口中的服务器的列表。 
 
@@ -202,7 +202,7 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 
 ## <a name="analyze-the-alerts-in-your-log-analytics-repository"></a>分析日志分析资料库中的通知
 
-若要分析您的库中的通知，请使用警报管理解决方案。 有关详细信息，请参阅[警报管理解决方案中操作管理套件 (OMS)](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-solution-alert-management)
+若要分析您的库中的通知，请使用警报管理解决方案。 有关详细信息，请参阅[警报管理解决方案中操作管理套件 (OMS)](https://docs.microsoft.com/azure/log-analytics/log-analytics-solution-alert-management)
 
 ## <a name="recommended-minimal-monitoring-set"></a>建议的最小监控集
 
@@ -244,12 +244,12 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 
 有关使用 OMS 的详细信息，请参阅以下资源：
 
-- [查找使用日志分析中的日志搜索的数据](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-log-searches)
+- [查找使用日志分析中的日志搜索的数据](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-searches)
 
 - [Azure 日志分析语言参考](https://docs.loganalytics.io/docs/Language-Reference)
 
-- [了解日志分析中的通知](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-alerts)
+- [了解日志分析中的通知](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts)
 
-- [连接到 Azure 中的日志 Analytics service 的 Windows 计算机](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents)
+- [连接到 Azure 中的日志 Analytics service 的 Windows 计算机](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents)
 
 

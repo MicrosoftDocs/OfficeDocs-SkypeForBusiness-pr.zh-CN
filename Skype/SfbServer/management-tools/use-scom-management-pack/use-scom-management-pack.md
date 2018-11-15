@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 摘要： 了解如何配置您 Skype 业务服务器 2015年基础结构，以使用 System Center Operations Manager。
-ms.openlocfilehash: b94490c60234f76b0e07f0b7732d76cc2354eaad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5a1d1b87e3f28fbbb2b8023093a9781bb0dc2627
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20994960"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533285"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>使用 SCOM 管理包管理 Skype for Business Server 2015
  
@@ -38,7 +38,7 @@ ms.locfileid: "20994960"
   
 ## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>System Center Operations Manager 根管理服务器和代理支持
 
-管理包可用于 System Center Operations Manager 2007 R2 (64-bit) （仅用于迁移支持） 或 System Center Operations Manager 2012 SP1 &amp; R2 （64 位）。 下表显示了支持的配置管理包的 Skype 的业务服务器 2015年: 
+管理包可用于 System Center Operations Manager 2007 R2 (64-bit) （仅用于迁移支持） 或 System Center Operations Manager 2012 SP1 &amp; R2 （64 位） 或系统中心操作管理器 2016 （64 位）。 下表显示了支持的配置管理包的 Skype 的业务服务器 2015年: 
   
 |**配置**|**受支持？**|
 |:-----|:-----|
@@ -137,14 +137,14 @@ ms.locfileid: "20994960"
 |8  <br/> |MCX 对等即时消息（移动）  <br/> |2011 年 9 月版中 Lync Server 2010 的业务 2015 Skype 到可用  <br/> |
  
 > [!NOTE]
-> MCX 旧的移动客户端支持不再可用的业务服务器 2019 Skype 中。 您的用户需要升级到当前客户端。
+> MCX (Mobility Service) 支持旧的移动客户端的不再可用的业务服务器 2019 Skype 中。 业务移动客户端的所有当前 Skype 已使用统一通信 Web API (UCWA) 来支持即时消息 (IM)、 状态和联系人。 与使用 MCX 的旧客户端的用户需要升级到当前客户端。
   
 **支持的会议和持久聊天综合事务**
 
 ||||
 |:-----|:-----|:-----|
 |9  <br/> |音频视频会议  <br/> |Lync Server 2010 中及其他认证实战可用  <br/> |
-|10  <br/> |数据会议  <br/> |Lync Server 2013 中及其他认证实战可用  <br/> |
+| 10  <br/> |数据会议  <br/> |Lync Server 2013 中及其他认证实战可用  <br/> |
 |11  <br/> |即时消息会议  <br/> |Lync Server 2010 中及其他认证实战可用  <br/> |
 |12  <br/> | 持久聊天 <br/> |Lync Server 2013 中及其他认证实战可用  <br/> |
 |13  <br/> |加入启动器（排定的会议）  <br/> |Lync Server 2013 中及其他认证实战可用  <br/> |
@@ -203,11 +203,11 @@ ms.locfileid: "20994960"
   
 - [管理包生命周期](https://technet.microsoft.com/en-us/library/hh212732.aspx)
     
-- [如何导入 Operations Manager 2012 中的管理包](https://technet.microsoft.com/en-us/library/hh212691.aspx)
+- [如何在 Operations Manager 2012 中导入管理包](https://technet.microsoft.com/en-us/library/hh212691.aspx)
     
-- [如何重写规则或监视器](https://technet.microsoft.com/en-us/library/hh212869.aspx)
+- [如何覆盖规则或监视器](https://technet.microsoft.com/en-us/library/hh212869.aspx)
     
-- [如何为 Operations Manager 2012 中的帐户创建一段连续文本](https://technet.microsoft.com/en-us/library/hh321655.aspx)
+- [如何在 Operations Manager 2012 中创建运行方式帐户](https://technet.microsoft.com/en-us/library/hh321655.aspx)
     
 - [管理运行方式帐户和配置文件](https://technet.microsoft.com/en-us/library/hh212714.aspx)
     
@@ -217,37 +217,37 @@ ms.locfileid: "20994960"
     
 以下链接提供了有关 System Center 2007 监视包常见任务的信息：
   
-- [管理包生命周期管理](https://go.microsoft.com/fwlink/p/?LinkId=211463)
+- [对管理包生命周期进行管理](https://go.microsoft.com/fwlink/p/?LinkId=211463)
     
-- [如何导入 Operations Manager 2007 中的管理包](https://go.microsoft.com/fwlink/p/?LinkID=142351)
+- [如何在 Operations Manager 2007 中导入管理包](https://go.microsoft.com/fwlink/p/?LinkID=142351)
     
-- [如何监视使用覆盖](https://go.microsoft.com/fwlink/p/?LinkID=117777)
+- [如何使用替代进行监视](https://go.microsoft.com/fwlink/p/?LinkID=117777)
     
-- [如何为 Operations Manager 2007 中的帐户创建一段连续文本](https://go.microsoft.com/fwlink/p/?LinkID=165410)
+- [如何在 Operations Manager 2007 中创建运行方式帐户](https://go.microsoft.com/fwlink/p/?LinkID=165410)
     
 - [如何修改现有的运行方式配置文件](https://go.microsoft.com/fwlink/p/?LinkID=165412)
     
 - [如何导出管理包自定义项](https://go.microsoft.com/fwlink/p/?LinkId=209940)
     
-- [如何删除的管理包](https://go.microsoft.com/fwlink/p/?LinkId=209941)
+- [如何删除管理包](https://go.microsoft.com/fwlink/p/?LinkId=209941)
     
-关于 Operations Manager 和监控包的问题，请参阅[System Center Operations Manager 社区论坛](https://go.microsoft.com/fwlink/p/?LinkID=179635)。
+有关 Operations Manager 和监视包的问题，请参阅 [System Center Operations Manager 社区论坛](https://go.microsoft.com/fwlink/p/?LinkID=179635)。
   
 有用资源是包含"通过示例"文章为特定的监控包的[系统中心操作管理器充分发挥其作用](https://opsmgrunleashed.wordpress.com/)博客。
   
 有关 Operations Manager 的更多信息，请参阅下面的博客： 
   
-- [操作管理器团队博客 （英文)](https://blogs.technet.com/momteam/default.aspx)
+- [Operations Manager 工作组博客](https://blogs.technet.com/momteam/default.aspx)
     
-- [Kevin Holman OpsMgr 博客 （英文)](https://blogs.technet.com/kevinholman/default.aspx)
+- [Kevin Holman 的 OpsMgr 博客](https://blogs.technet.com/kevinholman/default.aspx)
     
-- [在 OpsMgr 想法](https://thoughtsonopsmgr.blogspot.com/)
+- [OpsMgr 思索](https://thoughtsonopsmgr.blogspot.com/)
     
 - [Raphael Burri 博客 （英文)](https://rburri.wordpress.com/)
     
 - [BWren 的管理空间](https://blogs.technet.com/brianwren/default.aspx)
     
-- [操作经理 + + 中](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
+- [Ops Mgr ++](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
     
 > [!IMPORTANT]
 > 非 Microsoft 网站上的所有信息和内容由这类网站的所有者或用户提供。对于这类网站上的信息，Microsoft 不坐任何明示、暗示或法定的保证。 

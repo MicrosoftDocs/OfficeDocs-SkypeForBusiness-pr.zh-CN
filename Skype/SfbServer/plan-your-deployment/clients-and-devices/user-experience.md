@@ -14,13 +14,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: 摘要： 了解新的业务的 Skype 和可采取的步骤进行更新，准备您的环境和您的用户是否使用 Skype 业务 Online、 业务服务器 2015年的 Skype 业务服务器 2015，Lync Server 2013 的 Skype 或Lync Server 2010。
-ms.openlocfilehash: 99a1be886c257c58f007b42ee549b31a2340721a
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 摘要： 了解新的业务的 Skype 和可采取的步骤进行更新，准备您的环境和您的用户是否使用 Skype 业务 Online、 业务服务器 2019年的 Skype 业务服务器 2015，Lync Server 2013 的 Skype 或Lync Server 2010。
+ms.openlocfilehash: 351582e7a7619541d5401acfb46854f61c9e052d
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294625"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531165"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>规划业务 2015年为您的用户的客户端体验的 Skype
  
@@ -120,11 +120,11 @@ Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
 ## <a name="use-the-lync-client-experience-with-skype-for-business-server-on-premises"></a>在 Skype for Business Server（本地部署）中使用 Lync 客户端体验
 <a name="LyncwithSfBServer"> </a>
 
-如果您想要在内部部署 Skype 业务服务器 2015年部署中配置的 Lync 客户端体验，请按照本节中的步骤。
+如果您想要在内部部署 Skype 业务服务器部署中配置的 Lync 客户端体验，请按照本节中的步骤。
   
 如果要在本地部署中配置 Skype 客户端体验，请遵循本节中的步骤。本地部署的默认体验
   
- **步骤 1:** 首先，部署业务服务器 2015 Skype。
+ **步骤 1:** 首先，部署业务服务器 Skype。
   
  **步骤 2:** 接下来，使用客户端策略设置与业务客户端 Skype 的 Lync 客户端体验。 使用客户端策略来设置客户端体验有 **3 个选项**。
   

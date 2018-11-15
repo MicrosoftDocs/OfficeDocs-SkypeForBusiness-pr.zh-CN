@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: 受信任的用户是指其凭据已经过身份验证的 Skype 中的受信任服务器的企业服务器。 此服务器通常是 Standard Edition server，Enterprise Edition 前端服务器或控制器。 Skype 业务服务器依赖于 Active Directory 域服务的用户凭据的单一的受信任后端存储库。
-ms.openlocfilehash: 9616774bf721863503c2ebd9145c6860f7068ef3
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: a4f8661ba7f56e2bc5704af383dbd80e6a6869ac
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294338"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532322"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>用户和客户端身份验证的 Skype 业务服务器
  
@@ -47,7 +47,7 @@ ICE 和 TURN 协议也使用摘要式质询，如 IETF TURN RFC 中所述。
   
 ### <a name="cryptographic-requirements-due-to-asp-net-45"></a>由于 ASP.NET 4.5 加密要求 
 
-截止业务服务器 2015 CU5 的 Skype，AES 不支持 ASP.NET 4.6，这可能会导致 Skype 会议应用程序无法启动。 如果客户端使用的作为计算机关键验证值 AES 需要计算机密钥值重置为 sha-1 或在 IIS 上的 Skype 会议应用程序网站级别上的另一个受支持的算法。 如有必要，请参阅[IIS 8.0 ASP.NET 配置管理](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management)说明。
+截止业务服务器 2015 CU5 的 Skype，AES 不支持 ASP.NET 4.6，这可能会导致 Skype 会议应用程序无法启动。 如果客户端使用的作为计算机关键验证值 AES 需要计算机密钥值重置为 sha-1 或在 IIS 上的 Skype 会议应用程序网站级别上的另一个受支持的算法。 如有必要，请参阅[IIS 8.0 ASP.NET 配置管理](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management)说明。
   
 其他支持的值包括：
   
