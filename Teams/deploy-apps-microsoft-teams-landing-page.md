@@ -13,11 +13,11 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 63e2e90bf601eb76ff2837b919207b695c1541ed
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215681"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26535888"
 ---
 # <a name="deploy-apps-in-microsoft-teams"></a>部署中的 Microsoft 团队的应用程序
 

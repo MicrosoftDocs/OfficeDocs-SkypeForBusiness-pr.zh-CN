@@ -9,20 +9,12 @@
 
 ## 混合解决方案
 ### [规划混合连接性](../hybrid/plan-hybrid-connectivity.md)
-### [规划 Skype for Business Server 和 Exchange Server 迁移](../hybrid/plan-um-migration.md)
 ### [配置混合连接性](../hybrid/configure-hybrid-connectivity.md)
+#### [配置混合环境的 Azure AD 的连接](../hybrid/configure-azure-ad-connect.md)
 #### [Skype 混合配置的业务](../hybrid/configure-federation-with-skype-for-business-online.md)
-#### [为音频会议提供商配置联盟](../hybrid/configure-federation-for-an-audio-conferencing-provider.md) 
-#### [配置服务器到服务器身份验证](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md)
 #### [配置多林环境](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
 ### [移动用户从内部部署到 Skype 的业务联机](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
 ### [将用户从内部部署移动到团队](../hybrid/move-users-from-on-premises-to-teams.md)
-### 云语音邮件
-#### [规划云语音邮件](../hybrid/plan-cloud-voicemail.md)
-#### [配置云语音邮件](../hybrid/configure-cloud-voicemail.md)
-### 调用数据连接器
-#### [规划呼叫数据连接器](../hybrid/plan-call-data-connector.md)
-#### [配置呼叫数据连接器](../hybrid/configure-call-data-connector.md)
 
 ## 规划
 ### [拓扑基础知识](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -63,7 +55,7 @@
 #### [文件共享](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/file-sharing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [即时消息和状态](../../SfbServer/plan-your-deployment/instant-messaging-and-presence.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [视频互操作服务器](../../SfbServer/plan-your-deployment/video-interop-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-### [企业语音解决方案](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [语音解决方案](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [企业语音](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [企业语音所需组件](../../SfbServer/plan-your-deployment/enterprise-voice-solution/components-required-for-enterprise-voice.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [中介服务器](../../SfbServer/plan-your-deployment/enterprise-voice-solution/mediation-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -109,10 +101,14 @@
 ##### [闲选项](../../SfbServer/plan-your-deployment/enterprise-voice-solution/busy-options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [通过工号拨号](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [远程呼叫控制](../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### 云语音邮件
+#####[规划云语音邮件](../hybrid/plan-cloud-voicemail.md)
+##### [配置云语音邮件](../hybrid/configure-cloud-voicemail.md)
 ### [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [统一消息](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [部署概述](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [统一联系人存储库](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
+#### [规划 Skype for Business Server 和 Exchange Server 迁移](../hybrid/plan-um-migration.md)
 ### [监控](../../SfbServer/plan-your-deployment/monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [存档](../../SfbServer/plan-your-deployment/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [会议](../../SfbServer/plan-your-deployment/conferencing/conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -423,6 +419,9 @@
 ###### [媒体质量指标分布报告](../../SfbServer/manage/health-and-monitoring/media-quality-metrics-distribution-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [位置趋势报告](../../SfbServer/manage/health-and-monitoring/location-trend-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [评价我的呼叫](../../SfbServer/manage/health-and-monitoring/rate-my-call.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### 调用数据连接器
+##### [规划呼叫数据连接器](../hybrid/plan-call-data-connector.md)
+##### [配置呼叫数据连接器](../hybrid/configure-call-data-connector.md)
 
 ### [存档](../../SfbServer/manage/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [选项](../../SfbServer/manage/archiving/options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -488,3 +487,22 @@
 ### [用户帐户](../../SfbServer/manage/user-accounts/user-accounts.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [自定义属性](../../SfbServer/manage/user-accounts/customize-properties.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [管理服务](../../SfbServer/manage/manage-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+## [管理工具](../management-tools-2019.md)
+### [Skype 业务服务器的呼叫质量仪表板](../../SfbServer/management-tools/call-quality-dashboard/call-quality-dashboard.md)
+#### [规划呼叫质量仪表板](../../SfbServer/management-tools/call-quality-dashboard/plan.md)
+#### [部署呼叫质量仪表板](../../SfbServer/management-tools/call-quality-dashboard/deploy-0.md)
+#### [使用呼叫质量仪表板](../../SfbServer/management-tools/call-quality-dashboard/use.md)
+
+### [适用于业务服务器 Skype 的统计信息管理器](../../SfbServer/management-tools/statistics-manager/statistics-manager.md)
+#### [规划业务 Server 为统计信息管理器中的 Skype](../../SfbServer/management-tools/statistics-manager/plan.md)
+#### [为业务 Server 部署的 Skype 的统计信息管理器](../../SfbServer/management-tools/statistics-manager/deploy.md)
+#### [为业务服务器升级的 Skype 的统计信息管理器](../../SfbServer/management-tools/statistics-manager/upgrade.md)
+#### [解决的 Skype 的统计信息管理器的企业服务器](../../SfbServer/management-tools/statistics-manager/troubleshoot.md)
+
+### [使用 SCOM 管理包管理 Skype for Business Server](../tools/scom-management-pack-use-2019.md)
+#### [配置主管理服务器](../tools/configure-the-primary-2019.md)
+#### [配置要监控的计算机](../tools/configure-computers-to-monitor-2019.md)
+#### [观察程序节点](../tools/watcher-nodes-2019.md)
+##### [测试用户和设置](../tools/test-users-and-settings-2019.md)
+
+### [Skype 业务服务器容量规划计算器](../../SfbServer/management-tools/capacity-planning-calculator.md)

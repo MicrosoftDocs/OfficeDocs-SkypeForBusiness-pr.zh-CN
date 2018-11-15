@@ -10,33 +10,36 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: 验证您的响应组部署成功，业务 Server 企业语音的 Skype 中。
-ms.openlocfilehash: 4832b64d6bf4d26dd9d4cba10e46ef78b3f3b396
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ebf8e9960b26dfa0da256e0ea26e356648cbe356
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295158"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532174"
 ---
-# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a><span data-ttu-id="6c327-103">（可选）Skype for Business 中的验证响应组部署</span><span class="sxs-lookup"><span data-stu-id="6c327-103">(Optional) Verify Response Group deployment in Skype for Business</span></span>
+# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a><span data-ttu-id="9a84b-103">（可选）Skype for Business 中的验证响应组部署</span><span class="sxs-lookup"><span data-stu-id="9a84b-103">(Optional) Verify Response Group deployment in Skype for Business</span></span>
  
-<span data-ttu-id="6c327-104">验证您的响应组部署成功，业务 Server 企业语音的 Skype 中。</span><span class="sxs-lookup"><span data-stu-id="6c327-104">Verify your Response Group deployment success, in Skype for Business Server Enterprise Voice.</span></span>
+<span data-ttu-id="9a84b-104">验证您的响应组部署成功，业务 Server 企业语音的 Skype 中。</span><span class="sxs-lookup"><span data-stu-id="9a84b-104">Verify your Response Group deployment success, in Skype for Business Server Enterprise Voice.</span></span>
   
-<span data-ttu-id="6c327-105">配置响应组后，您需要验证配置以确保您的响应组按预期方式工作。</span><span class="sxs-lookup"><span data-stu-id="6c327-105">After you configure Response Group, you need to verify the configuration to make sure your response groups work as expected.</span></span> <span data-ttu-id="6c327-106">至少应使用以下用户类型验证以下方案：</span><span class="sxs-lookup"><span data-stu-id="6c327-106">At minimum, verify the following scenarios by using the following types of users:</span></span>
+<span data-ttu-id="9a84b-105">配置响应组后，您需要验证配置以确保您的响应组按预期方式工作。</span><span class="sxs-lookup"><span data-stu-id="9a84b-105">After you configure Response Group, you need to verify the configuration to make sure your response groups work as expected.</span></span> <span data-ttu-id="9a84b-106">至少应使用以下用户类型验证以下方案：</span><span class="sxs-lookup"><span data-stu-id="9a84b-106">At minimum, verify the following scenarios by using the following types of users:</span></span>
   
- <span data-ttu-id="6c327-107">**用户**</span><span class="sxs-lookup"><span data-stu-id="6c327-107">**Users**</span></span>
+ <span data-ttu-id="9a84b-107">**用户**</span><span class="sxs-lookup"><span data-stu-id="9a84b-107">**Users**</span></span>
   
-- <span data-ttu-id="6c327-108">用户驻留在 for Business 的 Skype 上</span><span class="sxs-lookup"><span data-stu-id="6c327-108">A user who is homed on Skype for Business</span></span>
+- <span data-ttu-id="9a84b-108">用户驻留在 for Business 的 Skype 上</span><span class="sxs-lookup"><span data-stu-id="9a84b-108">A user who is homed on Skype for Business</span></span>
     
-- <span data-ttu-id="6c327-109">使用公用电话交换网 (PSTN) 的外部用户</span><span class="sxs-lookup"><span data-stu-id="6c327-109">An external user who uses the public switched telephone network (PSTN)</span></span>
+- <span data-ttu-id="9a84b-109">使用公用电话交换网 (PSTN) 的外部用户</span><span class="sxs-lookup"><span data-stu-id="9a84b-109">An external user who uses the public switched telephone network (PSTN)</span></span>
     
-- <span data-ttu-id="6c327-110">驻留在 for Business 的 Skype 上代理</span><span class="sxs-lookup"><span data-stu-id="6c327-110">An agent who is homed on Skype for Business</span></span>
+- <span data-ttu-id="9a84b-110">驻留在 for Business 的 Skype 上代理</span><span class="sxs-lookup"><span data-stu-id="9a84b-110">An agent who is homed on Skype for Business</span></span>
     
-  <span data-ttu-id="6c327-111">**Scenarios**</span><span class="sxs-lookup"><span data-stu-id="6c327-111">**Scenarios**</span></span>
+  <span data-ttu-id="9a84b-111">**Scenarios**</span><span class="sxs-lookup"><span data-stu-id="9a84b-111">**Scenarios**</span></span>
   
-- <span data-ttu-id="6c327-112">Skype 业务用户呼叫响应组。</span><span class="sxs-lookup"><span data-stu-id="6c327-112">The Skype for Business user calls the response group.</span></span>
+- <span data-ttu-id="9a84b-112">Skype 业务用户呼叫响应组。</span><span class="sxs-lookup"><span data-stu-id="9a84b-112">The Skype for Business user calls the response group.</span></span>
     
-- <span data-ttu-id="6c327-113">外部用户呼叫响应组。</span><span class="sxs-lookup"><span data-stu-id="6c327-113">The external user calls the response group.</span></span>
+- <span data-ttu-id="9a84b-113">外部用户呼叫响应组。</span><span class="sxs-lookup"><span data-stu-id="9a84b-113">The external user calls the response group.</span></span>
     
-- <span data-ttu-id="6c327-114">用户在代理处理其他呼叫时呼叫响应组，并进入队列。</span><span class="sxs-lookup"><span data-stu-id="6c327-114">A user calls the response group while the agent is on another call and goes to the queue.</span></span>
+- <span data-ttu-id="9a84b-114">用户在代理处理其他呼叫时呼叫响应组，并进入队列。</span><span class="sxs-lookup"><span data-stu-id="9a84b-114">A user calls the response group while the agent is on another call and goes to the queue.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="9a84b-115">如果响应组不无法按预期请检查下一页链接：https://support.office.com/en-us/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89</span><span class="sxs-lookup"><span data-stu-id="9a84b-115">If the response group does not work as expected please check next link: https://support.office.com/en-us/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89</span></span>
     
 

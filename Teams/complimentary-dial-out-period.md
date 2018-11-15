@@ -22,74 +22,89 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: true
 description: 根据 Skype for Business Online PSTN 服务使用条款和客户的批量授权，客户可以使用 Office 365 通话套餐和 Office 365 音频会议。
-ms.openlocfilehash: c2d241c37d6124a19b4351142e9a25ff8c29fbb9
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 235b8906385be0e6228a7d99c3dda1a52507f137
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294769"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532889"
 ---
-# <a name="audio-conferencing-complimentary-dial-out-period"></a><span data-ttu-id="37ae6-103">音频会议免费拨出期</span><span class="sxs-lookup"><span data-stu-id="37ae6-103">Audio Conferencing complimentary dial-out period</span></span>
+# <a name="audio-conferencing-complimentary-dial-out-period"></a><span data-ttu-id="9fc2f-103">音频会议免费拨出期</span><span class="sxs-lookup"><span data-stu-id="9fc2f-103">Audio Conferencing complimentary dial-out period</span></span>
 
-## <a name="skype-for-business-pstn-services"></a><span data-ttu-id="37ae6-104">Skype for Business PSTN 服务</span><span class="sxs-lookup"><span data-stu-id="37ae6-104">Skype for Business PSTN Services</span></span>
+## <a name="skype-for-business-pstn-services"></a><span data-ttu-id="9fc2f-104">Skype for Business PSTN 服务</span><span class="sxs-lookup"><span data-stu-id="9fc2f-104">Skype for Business PSTN Services</span></span>
 
-<span data-ttu-id="37ae6-p101">Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).</span><span class="sxs-lookup"><span data-stu-id="37ae6-p101">Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).</span></span>
+<span data-ttu-id="9fc2f-p101">Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).</span><span class="sxs-lookup"><span data-stu-id="9fc2f-p101">Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).</span></span>
   
-### <a name="complimentary-dial-out-period"></a><span data-ttu-id="37ae6-107">免费拨出期</span><span class="sxs-lookup"><span data-stu-id="37ae6-107">Complimentary dial out period</span></span>
+### <a name="complimentary-dial-out-period-details"></a><span data-ttu-id="9fc2f-107">互补拨出期间的详细信息</span><span class="sxs-lookup"><span data-stu-id="9fc2f-107">Complimentary dial out period details</span></span>
 
-<span data-ttu-id="37ae6-108">作为为采用我们 Office 365 音频会议服务的客户其他带来好处，Microsoft 将提供其他权益相关从分配 2018 年 6 月 30，通过 Office 365 音频会议许可证的用户组织的会议拨出。</span><span class="sxs-lookup"><span data-stu-id="37ae6-108">As an additional benefit to customers adopting our Office 365 Audio Conferencing service, Microsoft is providing additional benefits related to dial out from meetings organized by users assigned an Office 365 Audio Conferencing license through June 30, 2018.</span></span> <span data-ttu-id="37ae6-109">通过年 6 月 30 2018年段参加许可用户组织的会议的用户可以在基于由会议组织者，授予的权限拨出式从发起呼叫在会议中的对电话号码中的以下 44 国家/地区：</span><span class="sxs-lookup"><span data-stu-id="37ae6-109">For the period through June 30, 2018, users attending meetings organized by licensed users may be allowed, based on permissions granted by the meeting organizer, to make dial-out calls from within the meeting to phone numbers in the following 44 countries:</span></span>
-  
+<span data-ttu-id="9fc2f-108">对于采用我们 Office 365 音频会议服务的客户，Microsoft 将提供相关从分配年 6 月 2019年通过 Office 365 音频会议订阅许可证的用户组织的会议拨出其他互补好处。</span><span class="sxs-lookup"><span data-stu-id="9fc2f-108">For customers adopting our Office 365 Audio Conferencing service, Microsoft is providing an additional complimentary benefit related to dial out from meetings organized by users assigned an Office 365 Audio Conferencing subscription license through June 2019.</span></span> <span data-ttu-id="9fc2f-109">在此互补期间，Microsoft 允许会议组织者或与会者授权定义在会议策略设置，电话拨出式从发起呼叫在会议中的对非 premium 电话号码在下面列出的 44"区域的"国家/地区。</span><span class="sxs-lookup"><span data-stu-id="9fc2f-109">During this complimentary period, Microsoft allows meeting organizers or authorized attendees as defined in meeting policy settings, to make dial-out calls from within the meeting to non-premium phone numbers in the 44 "Zone A" countries listed below.</span></span> <span data-ttu-id="9fc2f-110">此优点是适用于音频会议每月订阅许可证，并且不会扩展到音频会议付薪每分钟许可证。</span><span class="sxs-lookup"><span data-stu-id="9fc2f-110">This benefit is applicable to Audio Conferencing monthly subscription licenses and does not extend to Audio Conferencing pay-per-minute licenses.</span></span>
+
+<span data-ttu-id="9fc2f-111">此外，还有 900 minute 帽限制过程的互补拨出此类的时间段中：</span><span class="sxs-lookup"><span data-stu-id="9fc2f-111">Further, there is a 900 minute cap limit during the complimentary dial out period as such:</span></span>
+
+<span data-ttu-id="9fc2f-112">用户具有许可证使用情况位置 （这是用户国家/地区位置定义中的 Office 365 管理门户许可区域） 中任何国家/地区可以从电话拨出会议到任何 44 区域的国家/地区。</span><span class="sxs-lookup"><span data-stu-id="9fc2f-112">Users with a license usage location (this is the user country location defined in the licensing area of the Office 365 admin portal) in ANY country can dial out from a conference to any of the 44 Zone A countries.</span></span> <span data-ttu-id="9fc2f-113">每个用户会收到每个用户每月的区域的国家/地区的租户级别的池的任何 900 分钟。</span><span class="sxs-lookup"><span data-stu-id="9fc2f-113">Each user receives 900 minutes per user per month to ANY of the Zone A countries which is pooled at the tenant level.</span></span> <span data-ttu-id="9fc2f-114">例如，客户购买 115 音频会议订阅许可证，并且在我们，在英国 100 个用户，并在印度，所有与音频会议订阅许可证分配给用户的 5 个用户中具有 10 个用户。</span><span class="sxs-lookup"><span data-stu-id="9fc2f-114">For example, a customer has purchased 115 Audio Conferencing subscription licenses and has 10 users in US, 100 users in the UK and 5 users in India, all with Audio Conferencing subscription licenses assigned to their users.</span></span> <span data-ttu-id="9fc2f-115">注意： 池大小取决于分配许可证和尚未购买许可证。</span><span class="sxs-lookup"><span data-stu-id="9fc2f-115">Note: Pool size is based on assigned licenses and not purchased licenses.</span></span>
+ 
+- <span data-ttu-id="9fc2f-116">115 的所有用户都共享 （115 用户 X 900 分钟） 池 = 103,500 会议拨出式出每月可用于进行任何的区域的国家/地区的出站呼叫的分钟数。</span><span class="sxs-lookup"><span data-stu-id="9fc2f-116">All 115 users share a pool of (115 users X 900 min) = 103,500 conferencing dial-out out minutes per calendar month which can be used to place outbound calls to any of the Zone A countries.</span></span>
+- <span data-ttu-id="9fc2f-117">每分钟至该目标我们已发布的费用在使用 Communications 字幕式计费超出每月在 103,500 分钟内的所有呼叫。</span><span class="sxs-lookup"><span data-stu-id="9fc2f-117">All calls exceeding the 103,500 minutes per calendar month are billed per minute using Communications Credits at our published rates to that destination.</span></span> <span data-ttu-id="9fc2f-118">(注意： 租户必须设置 Communications 字幕式和 Communications 字幕式许可证分配会议组织者)。</span><span class="sxs-lookup"><span data-stu-id="9fc2f-118">(Note: Tenant must set up Communications Credits and assign the Communications Credits license to the meeting organizer).</span></span>
+- <span data-ttu-id="9fc2f-119">每分钟至该目标我们已发布的费用在使用 Communications 字幕式计费到目标不在区域的国家/地区列表中的所有出站呼叫 (提供租户已设置 Communications 字幕式和分配到 Communications 字幕式许可证会议组织者）。</span><span class="sxs-lookup"><span data-stu-id="9fc2f-119">All outbound calls to destinations not in the Zone A country list are billed per minute using Communications Credits at our published rates to that destination (provided tenant has set up Communications Credits and assigned the Communications Credits license to the meeting organizer).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="9fc2f-120">您可以监视针对电话拨出式 minute 池中 Business Admin Center Skype 的使用情况。</span><span class="sxs-lookup"><span data-stu-id="9fc2f-120">You can monitor the usage against dial-out minute pool in the Skype for Business Admin Center.</span></span> <span data-ttu-id="9fc2f-121">在 Microsoft 团队和 Skype 管理中心中，转到**旧门户** > **报告** > **PSTN 分钟池**。</span><span class="sxs-lookup"><span data-stu-id="9fc2f-121">In the Microsoft Teams & Skype Admin Center, go to **Legacy portal** > **Reports** > **PSTN Minute Pools**.</span></span> <span data-ttu-id="9fc2f-122">此互补分钟池将被标记在报表中为"出站调用区域的国家/地区。"</span><span class="sxs-lookup"><span data-stu-id="9fc2f-122">This complimentary minute pool will be labeled in the report as “Outbound Calls to Zone A Countries.”</span></span>
+
+<span data-ttu-id="9fc2f-123">将给定的客户的所有租户管理员都发送电子邮件通知时的租户的电话拨出式分钟池利用率已达到 80%到 100%。</span><span class="sxs-lookup"><span data-stu-id="9fc2f-123">Email notifications will be sent to all tenant administrators of a given customer when the utilization of the tenant’s dial-out minutes pool has reached 80% and 100%.</span></span>
+
+<span data-ttu-id="9fc2f-124">对于每分钟 （超过租户拨出式 minute 池或向不在区域的国家/地区列表的目标的呼叫的呼叫） 收取的电话拨出式呼叫，呼叫和其关联的速率基于主要的呼叫的目标和不的国家/地区的组织者或参与者发起电话拨出式呼叫。</span><span class="sxs-lookup"><span data-stu-id="9fc2f-124">For dial-out calls that are billed per minute (calls exceeding the tenant dial-out minute pool or calls to destinations not in the Zone A country list), the calls and their associated rates are based primarily on the destination of the call and not the country of the organizer or the participant initiating the dial-out call.</span></span> <span data-ttu-id="9fc2f-125">例如，在法国的电话号码的呼叫将记帐相同率如果它通过在美国的会议参与者或在法国其已开始。</span><span class="sxs-lookup"><span data-stu-id="9fc2f-125">For example, a call to a phone number in France will be billed with the same rate if it its initiated by a meeting participant in the United States or one in France.</span></span>
+
+<span data-ttu-id="9fc2f-126">通信字幕式的其他信息，请参阅[Communications 字幕式](what-are-communications-credits.md)。</span><span class="sxs-lookup"><span data-stu-id="9fc2f-126">For additional information on Communication Credits, see [Communications Credits](what-are-communications-credits.md).</span></span>
+
+<span data-ttu-id="9fc2f-127">**区域的国家/地区**</span><span class="sxs-lookup"><span data-stu-id="9fc2f-127">**Zone A Countries**</span></span>
+
 |    |
 |-----|
-|<span data-ttu-id="37ae6-110">澳大利亚</span><span class="sxs-lookup"><span data-stu-id="37ae6-110">Australia</span></span>  <br/> |
-|<span data-ttu-id="37ae6-111">奥地利</span><span class="sxs-lookup"><span data-stu-id="37ae6-111">Austria</span></span>  <br/> |
-|<span data-ttu-id="37ae6-112">比利时</span><span class="sxs-lookup"><span data-stu-id="37ae6-112">Belgium</span></span>  <br/> |
-|<span data-ttu-id="37ae6-113">巴西</span><span class="sxs-lookup"><span data-stu-id="37ae6-113">Brazil</span></span>  <br/> |
-|<span data-ttu-id="37ae6-114">保加利亚</span><span class="sxs-lookup"><span data-stu-id="37ae6-114">Bulgaria</span></span>  <br/> |
-|<span data-ttu-id="37ae6-115">加拿大</span><span class="sxs-lookup"><span data-stu-id="37ae6-115">Canada</span></span>  <br/> |
-|<span data-ttu-id="37ae6-116">中国</span><span class="sxs-lookup"><span data-stu-id="37ae6-116">China</span></span>  <br/> |
-|<span data-ttu-id="37ae6-117">克罗地亚</span><span class="sxs-lookup"><span data-stu-id="37ae6-117">Croatia</span></span>  <br/> |
-|<span data-ttu-id="37ae6-118">捷克共和国</span><span class="sxs-lookup"><span data-stu-id="37ae6-118">Czech Republic</span></span>  <br/> |
-|<span data-ttu-id="37ae6-119">丹麦</span><span class="sxs-lookup"><span data-stu-id="37ae6-119">Denmark</span></span>  <br/> |
-|<span data-ttu-id="37ae6-120">爱沙尼亚</span><span class="sxs-lookup"><span data-stu-id="37ae6-120">Estonia</span></span>  <br/> |
-|<span data-ttu-id="37ae6-121">芬兰</span><span class="sxs-lookup"><span data-stu-id="37ae6-121">Finland</span></span>  <br/> |
-|<span data-ttu-id="37ae6-122">法国</span><span class="sxs-lookup"><span data-stu-id="37ae6-122">France</span></span>  <br/> |
-|<span data-ttu-id="37ae6-123">德国</span><span class="sxs-lookup"><span data-stu-id="37ae6-123">Germany</span></span>  <br/> |
-|<span data-ttu-id="37ae6-124">希腊</span><span class="sxs-lookup"><span data-stu-id="37ae6-124">Greece</span></span>  <br/> |
-|<span data-ttu-id="37ae6-125">香港特别行政区</span><span class="sxs-lookup"><span data-stu-id="37ae6-125">Hong Kong</span></span>  <br/> |
-|<span data-ttu-id="37ae6-126">匈牙利</span><span class="sxs-lookup"><span data-stu-id="37ae6-126">Hungary</span></span>  <br/> |
-|<span data-ttu-id="37ae6-127">印度</span><span class="sxs-lookup"><span data-stu-id="37ae6-127">India</span></span>  <br/> |
-|<span data-ttu-id="37ae6-128">爱尔兰</span><span class="sxs-lookup"><span data-stu-id="37ae6-128">Ireland</span></span>  <br/> |
-|<span data-ttu-id="37ae6-129">意大利</span><span class="sxs-lookup"><span data-stu-id="37ae6-129">Italy</span></span>  <br/> |
-|<span data-ttu-id="37ae6-130">日本</span><span class="sxs-lookup"><span data-stu-id="37ae6-130">Japan</span></span>  <br/> |
-|<span data-ttu-id="37ae6-131">卢森堡</span><span class="sxs-lookup"><span data-stu-id="37ae6-131">Luxembourg</span></span>  <br/> |
-|<span data-ttu-id="37ae6-132">马来西亚</span><span class="sxs-lookup"><span data-stu-id="37ae6-132">Malaysia</span></span>  <br/> |
-|<span data-ttu-id="37ae6-133">墨西哥</span><span class="sxs-lookup"><span data-stu-id="37ae6-133">Mexico</span></span>  <br/> |
-|<span data-ttu-id="37ae6-134">荷兰</span><span class="sxs-lookup"><span data-stu-id="37ae6-134">Netherlands</span></span>  <br/> |
-|<span data-ttu-id="37ae6-135">新西兰</span><span class="sxs-lookup"><span data-stu-id="37ae6-135">New Zealand</span></span>  <br/> |
-|<span data-ttu-id="37ae6-136">挪威</span><span class="sxs-lookup"><span data-stu-id="37ae6-136">Norway</span></span>  <br/> |
-|<span data-ttu-id="37ae6-137">波兰</span><span class="sxs-lookup"><span data-stu-id="37ae6-137">Poland</span></span>  <br/> |
-|<span data-ttu-id="37ae6-138">葡萄牙</span><span class="sxs-lookup"><span data-stu-id="37ae6-138">Portugal</span></span>  <br/> |
-|<span data-ttu-id="37ae6-139">波多黎各</span><span class="sxs-lookup"><span data-stu-id="37ae6-139">Puerto Rico</span></span>  <br/> |
-|<span data-ttu-id="37ae6-140">罗马尼亚</span><span class="sxs-lookup"><span data-stu-id="37ae6-140">Romania</span></span>  <br/> |
-|<span data-ttu-id="37ae6-141">俄罗斯</span><span class="sxs-lookup"><span data-stu-id="37ae6-141">Russia</span></span>  <br/> |
-|<span data-ttu-id="37ae6-142">新加坡</span><span class="sxs-lookup"><span data-stu-id="37ae6-142">Singapore</span></span>  <br/> |
-|<span data-ttu-id="37ae6-143">斯洛伐克共和国</span><span class="sxs-lookup"><span data-stu-id="37ae6-143">Slovak Republic</span></span>  <br/> |
-|<span data-ttu-id="37ae6-144">斯洛文尼亚</span><span class="sxs-lookup"><span data-stu-id="37ae6-144">Slovenia</span></span>  <br/> |
-|<span data-ttu-id="37ae6-145">南非</span><span class="sxs-lookup"><span data-stu-id="37ae6-145">South Africa</span></span>  <br/> |
-|<span data-ttu-id="37ae6-146">韩国</span><span class="sxs-lookup"><span data-stu-id="37ae6-146">South Korea</span></span>  <br/> |
-|<span data-ttu-id="37ae6-147">西班牙</span><span class="sxs-lookup"><span data-stu-id="37ae6-147">Spain</span></span>  <br/> |
-|<span data-ttu-id="37ae6-148">瑞典</span><span class="sxs-lookup"><span data-stu-id="37ae6-148">Sweden</span></span>  <br/> |
-|<span data-ttu-id="37ae6-149">瑞士</span><span class="sxs-lookup"><span data-stu-id="37ae6-149">Switzerland</span></span>  <br/> |
-|<span data-ttu-id="37ae6-150">台湾</span><span class="sxs-lookup"><span data-stu-id="37ae6-150">Taiwan</span></span>  <br/> |
-|<span data-ttu-id="37ae6-151">泰国</span><span class="sxs-lookup"><span data-stu-id="37ae6-151">Thailand</span></span>  <br/> |
-|<span data-ttu-id="37ae6-152">英国</span><span class="sxs-lookup"><span data-stu-id="37ae6-152">United Kingdom</span></span>  <br/> |
-|<span data-ttu-id="37ae6-153">美国</span><span class="sxs-lookup"><span data-stu-id="37ae6-153">United States</span></span>  <br/> |
-   
-> [!CAUTION]
-> <span data-ttu-id="37ae6-154">从 2018 年 7 月 1 日开始，所有 Office 365 音频会议订阅都将恢复为标准服务条款，以便从分配有 Office 365 音频会议许可证的用户组织的会议中拨出</span><span class="sxs-lookup"><span data-stu-id="37ae6-154">Beginning July 1, 2018, all Office 365 Audio Conferencing subscriptions will revert to the standard service terms for dial out from meetings organized by users with Office 365 Audio Conferencing licenses assigned</span></span> 
-  
-## <a name="related-topics"></a><span data-ttu-id="37ae6-155">相关主题</span><span class="sxs-lookup"><span data-stu-id="37ae6-155">Related topics</span></span>
-[<span data-ttu-id="37ae6-156">音频会议和通话套餐的国家/地区可用性</span><span class="sxs-lookup"><span data-stu-id="37ae6-156">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+|<span data-ttu-id="9fc2f-128">澳大利亚</span><span class="sxs-lookup"><span data-stu-id="9fc2f-128">Australia</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-129">奥地利</span><span class="sxs-lookup"><span data-stu-id="9fc2f-129">Austria</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-130">比利时</span><span class="sxs-lookup"><span data-stu-id="9fc2f-130">Belgium</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-131">巴西</span><span class="sxs-lookup"><span data-stu-id="9fc2f-131">Brazil</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-132">保加利亚</span><span class="sxs-lookup"><span data-stu-id="9fc2f-132">Bulgaria</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-133">加拿大</span><span class="sxs-lookup"><span data-stu-id="9fc2f-133">Canada</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-134">中国</span><span class="sxs-lookup"><span data-stu-id="9fc2f-134">China</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-135">克罗地亚</span><span class="sxs-lookup"><span data-stu-id="9fc2f-135">Croatia</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-136">捷克共和国</span><span class="sxs-lookup"><span data-stu-id="9fc2f-136">Czech Republic</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-137">丹麦</span><span class="sxs-lookup"><span data-stu-id="9fc2f-137">Denmark</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-138">爱沙尼亚</span><span class="sxs-lookup"><span data-stu-id="9fc2f-138">Estonia</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-139">芬兰</span><span class="sxs-lookup"><span data-stu-id="9fc2f-139">Finland</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-140">法国</span><span class="sxs-lookup"><span data-stu-id="9fc2f-140">France</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-141">德国</span><span class="sxs-lookup"><span data-stu-id="9fc2f-141">Germany</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-142">希腊</span><span class="sxs-lookup"><span data-stu-id="9fc2f-142">Greece</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-143">香港特别行政区</span><span class="sxs-lookup"><span data-stu-id="9fc2f-143">Hong Kong</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-144">匈牙利</span><span class="sxs-lookup"><span data-stu-id="9fc2f-144">Hungary</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-145">印度</span><span class="sxs-lookup"><span data-stu-id="9fc2f-145">India</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-146">爱尔兰</span><span class="sxs-lookup"><span data-stu-id="9fc2f-146">Ireland</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-147">意大利</span><span class="sxs-lookup"><span data-stu-id="9fc2f-147">Italy</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-148">日本</span><span class="sxs-lookup"><span data-stu-id="9fc2f-148">Japan</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-149">卢森堡</span><span class="sxs-lookup"><span data-stu-id="9fc2f-149">Luxembourg</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-150">马来西亚</span><span class="sxs-lookup"><span data-stu-id="9fc2f-150">Malaysia</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-151">墨西哥</span><span class="sxs-lookup"><span data-stu-id="9fc2f-151">Mexico</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-152">荷兰</span><span class="sxs-lookup"><span data-stu-id="9fc2f-152">Netherlands</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-153">新西兰</span><span class="sxs-lookup"><span data-stu-id="9fc2f-153">New Zealand</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-154">挪威</span><span class="sxs-lookup"><span data-stu-id="9fc2f-154">Norway</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-155">波兰</span><span class="sxs-lookup"><span data-stu-id="9fc2f-155">Poland</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-156">葡萄牙</span><span class="sxs-lookup"><span data-stu-id="9fc2f-156">Portugal</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-157">波多黎各</span><span class="sxs-lookup"><span data-stu-id="9fc2f-157">Puerto Rico</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-158">罗马尼亚</span><span class="sxs-lookup"><span data-stu-id="9fc2f-158">Romania</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-159">俄罗斯</span><span class="sxs-lookup"><span data-stu-id="9fc2f-159">Russia</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-160">新加坡</span><span class="sxs-lookup"><span data-stu-id="9fc2f-160">Singapore</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-161">斯洛伐克共和国</span><span class="sxs-lookup"><span data-stu-id="9fc2f-161">Slovak Republic</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-162">斯洛文尼亚</span><span class="sxs-lookup"><span data-stu-id="9fc2f-162">Slovenia</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-163">南非</span><span class="sxs-lookup"><span data-stu-id="9fc2f-163">South Africa</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-164">韩国</span><span class="sxs-lookup"><span data-stu-id="9fc2f-164">South Korea</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-165">西班牙</span><span class="sxs-lookup"><span data-stu-id="9fc2f-165">Spain</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-166">瑞典</span><span class="sxs-lookup"><span data-stu-id="9fc2f-166">Sweden</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-167">瑞士</span><span class="sxs-lookup"><span data-stu-id="9fc2f-167">Switzerland</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-168">台湾</span><span class="sxs-lookup"><span data-stu-id="9fc2f-168">Taiwan</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-169">泰国</span><span class="sxs-lookup"><span data-stu-id="9fc2f-169">Thailand</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-170">英国</span><span class="sxs-lookup"><span data-stu-id="9fc2f-170">United Kingdom</span></span>  <br/> |
+|<span data-ttu-id="9fc2f-171">美国</span><span class="sxs-lookup"><span data-stu-id="9fc2f-171">United States</span></span>  <br/> |
+     
+## <a name="related-topics"></a><span data-ttu-id="9fc2f-172">相关主题</span><span class="sxs-lookup"><span data-stu-id="9fc2f-172">Related topics</span></span>
+[<span data-ttu-id="9fc2f-173">音频会议和通话套餐的国家/地区可用性</span><span class="sxs-lookup"><span data-stu-id="9fc2f-173">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
