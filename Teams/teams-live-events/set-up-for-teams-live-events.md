@@ -1,5 +1,5 @@
 ---
-title: 设置中的 Microsoft 团队的实时事件
+title: 在 Microsoft Teams 中为实时事件进行设置
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
@@ -14,14 +14,14 @@ description: 了解 live 团队，包括网络准备、 分配许可证、 使�
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a92f227b7f625da02e003622c8ff87e744206443
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 08dd8c431f31fef8dc30f72f4944c2ba907850cc
+ms.sourcegitcommit: 2be5458d05fab32771845f855201126a87303b95
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532660"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "26548827"
 ---
-# <a name="set-up-for-live-events-in-microsoft-teams"></a>设置中的 Microsoft 团队的实时事件
+# <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
@@ -31,7 +31,7 @@ ms.locfileid: "26532660"
 快速入门 live 事件要求您[准备贵组织的网络中的 Microsoft 团队](https://docs.microsoft.com/microsoftteams/prepare-network)。  
 
 ## <a name="step-2-get-and-assign-licenses"></a>第 2 步：获取和分配许可证
-确保您具有正确的许可证分配[谁可以创建和安排 live 事件？](#who-can-create-and-schedule-live-events)和[谁可以观看 live 事件？](#who-can-watch-live-events)。
+确保您具有正确的许可证分配[谁可以创建和安排 live 事件](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events)和[谁可以观看 live 事件](plan-for-teams-live-events.md#who-can-watch-live-events)。
 
 ## <a name="step-3-set-up-live-events-policies"></a>步骤 3： 为实时事件策略设置
 实时的事件使用策略来控制您的组织中的谁可以保留 live 事件和他们创建的事件中可用的功能。 您可以使用默认策略或创建一个或多自定义 live 事件策略。 创建自定义策略后，请将其分配给用户或您的组织中的用户组。
