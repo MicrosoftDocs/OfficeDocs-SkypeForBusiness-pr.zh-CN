@@ -1,30 +1,30 @@
 ---
-title: 登录到 Microsoft 团队
+title: 登录到 Microsoft 团队使用现代身份验证
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/23/2018
+ms.date: 11/15/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: 使用现代身份验证登录到 Microsoft 团队的指南。
+description: 如何使用现代身份验证登录到 Microsoft 团队。
 localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7e0f77ee5a98a8c4f28798709dcbc063424ec03
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 01ca138aebae8d0db731118baf3e340aa3332120
+ms.sourcegitcommit: bd32d44d27990e373ce6afa38897159473601113
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25011886"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "26544369"
 ---
-<a name="sign-in-to-microsoft-teams"></a>登录到 Microsoft 团队
+<a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>登录到 Microsoft 团队使用现代身份验证
 ==========================
 
-Microsoft 团队使用现代身份验证以保持登录体验简单和安全。
+Microsoft 团队使用现代身份验证以保持登录体验简单和安全。 若要查看用户登录到团队的方式，请阅读[登录到团队](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)。
 
 ## <a name="how-modern-authentication-works"></a>如何现代验证的工作原理
 

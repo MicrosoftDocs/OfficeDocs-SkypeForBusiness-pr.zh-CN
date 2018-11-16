@@ -20,13 +20,14 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: '请参阅有关如何更改用户的美国和欧洲的公共公用电话交换网 (PSTN) 紧急地址的步骤。 '
-ms.openlocfilehash: e27ea228972ceead0838cff481a0db983c503b02
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: '如何更改用户能够与公共公用电话交换网 (PSTN) 在美国和欧洲的紧急地址。 '
+ROBOTS: NOINDEX
+ms.openlocfilehash: 8dac43120fafa1a98e441b983b673e78d2a24d75
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347098"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26538956"
 ---
 # <a name="change-the-emergency-address-for-a-user"></a>更改用户的紧急地址
 

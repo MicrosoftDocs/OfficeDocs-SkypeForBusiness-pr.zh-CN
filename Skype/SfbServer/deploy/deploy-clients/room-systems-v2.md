@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读此文，了解有关部署 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 39704e044d5a5210d47a0347790f5602a3086270
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 7d9a24b69c1e91c5193f67b6bdc321981265cda7
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26510643"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539070"
 ---
 # <a name="deployment-overview"></a>部署概述
 
@@ -100,7 +100,7 @@ _规划表的示例 Skype 会议室系统 v2 服务帐户_
 定义要添加收件人、 所有 Skype 会议室系统 v2 服务 （用户） 帐户在本地 Active Directory 或 Azure AD 组，然后创建跨 Skype 会议室系统 v2 部署使用 Get-CSUserSession PowerShell cmdlet 的使用率报告。 例如，创建名为 SkypeRoomSystemsv2 服务帐户的组。 
 
 
-定义您的本地 Active Directory 或 Azure AD 的层次结构来保存所有 Skype 会议室系统 v2 计算机帐户 （如果他们加入到域） 中的一个组织单位和一个组织单位来都保存所有 Skype 会议室系统 v2 的用户帐户。 如果创建组织单位的 Skype 会议室系统 v2 计算机帐户，请考虑禁用继承，以确保您应用仅适用于加入域的 Skype 会议室 Systemsv2 的策略。 
+定义您的本地 Active Directory 或 Azure AD 的层次结构来保存所有 Skype 会议室系统 v2 计算机帐户 （如果他们加入到域） 中的一个组织单位和一个组织单位来都保存所有 Skype 会议室系统 v2 的用户帐户。 如果创建组织单位的 Skype 会议室系统 v2 计算机帐户，请考虑禁用继承，以确保您应用仅适用于加入域的 Skype 会议室系统 v2 的策略。 
 
 创建组策略对象分配给包含您 Skype 会议室系统计算机帐户的组织单位。 使用此到： 
 
@@ -128,7 +128,7 @@ _规划表的示例 Skype 会议室系统 v2 服务帐户_
 
 **专业人员提示**– 进行显示名称为这些帐户描述性且易于理解。 这些是搜索和将 Skype 会议室系统 v2 系统添加到会议时，用户会看到的名称。 某些组织使用的约定*网站*-*会议室名称*（*最大聊天室容量*）-RS，因此，例如 Curie — 伦敦 12 人会议室 — 可能就 CURIE （12)-RS 的显示名称。 
 
-<!-- If your organization has many conference rooms that require multiple, provisioned accounts, you might want to use [Skype Room Systems Accounts Provisioning Scripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) to bulk-provision multiple service accounts in an automated fashion. -->
+如果您的组织有许多需要多个的会议室，已设置的帐户，您可能需要使用[Skype 会议室系统帐户设置脚本](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5)批量设置以自动方式的多个服务帐户。
 
 
 |    |     |

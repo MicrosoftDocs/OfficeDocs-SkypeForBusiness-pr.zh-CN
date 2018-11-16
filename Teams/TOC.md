@@ -178,7 +178,7 @@
 ## [Teams 中的安全性和合规性概述](security-compliance-overview.md)
 ## [在 Teams 中对内容进行电子数据展示调查](ediscovery-investigation.md)
 ## [Teams 中的标识模式和身份验证](identify-models-authentication.md)
-## [现代身份验证](sign-in-teams.md)
+## [登录到团队使用现代身份验证](sign-in-teams.md)
 ## [将 Teams 用户或团队置于法定保留状态](legal-hold.md)
 ## [在 Teams 中搜索事件的审核日志](audit-log-events.md)
 ## [在 Teams 中使用内容搜索](content-search.md)

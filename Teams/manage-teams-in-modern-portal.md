@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf9c10640b132aeea352875f2a5acafe5cd6d377
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 14ab474289e5a677e1125df7146ba7c5a6fc2ca1
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531445"
+ms.locfileid: "26539054"
 ---
 <a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>管理团队中的 Microsoft 团队业务管理中心的 Skype
 ==========================================
@@ -34,13 +34,16 @@ ms.locfileid: "26531445"
 - 全局管理员
 - Teams 服务管理员
 
-您可以了解有关 Microsoft 团队中的管理角色的详细信息[此处](using-admin-roles.md)，您可以读取多有关如何使用 PowerShell cmdlet 进行管理[的 Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)中的团队。  
+您还应确保您的帐户已被分配非试用团队许可证管理。 作为一个已知问题的一部分，您应该确保您的帐户具有只有**一个**管理角色分配。  您可以了解有关 Microsoft 团队中[使用的 Microsoft 团队管理角色，来管理团队](using-admin-roles.md)，管理员角色的详细信息，并可以了解有关如何使用 PowerShell cmdlet 进行管理[的 Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)中的团队。  
 
 本文概述了团队中的 Microsoft 团队业务管理中心的 Skype 的管理工具。
 
 ## <a name="teams-overview-grid"></a>团队概述网格
 
-团队的管理工具是中的 Microsoft 团队 Skype 业务管理中心的**团队**节点下。 (在管理中心中选择**团队** > **管理团队**。)此节点提供的所有组的已启用团队的组织中的 Microsoft 的视图和每个工作组后盾 Office 365 组。
+团队的管理工具是中的 Microsoft 团队 Skype 业务管理中心的**团队**节点下。 (在管理中心中选择**团队** > **管理团队**。)此节点提供已 Microsoft 团队启用您的组织中的组的视图和每个工作组后盾 Office 365 组。
+
+> [!NOTE]
+> 我们正在回填以前创建以确保它们将出现在此视图的团队。
 
 ![团队概述网格](media/manage-teams-in-modern-portal-image1.png)  
 
@@ -80,7 +83,6 @@ ms.locfileid: "26531445"
 - **通道**-您可以添加新频道或删除现有通道。  无法删除默认的"常规"通道，并且一次创建您只能编辑的通道名称，不的说明。
 - **团队名称**
 - **团队说明**
-- **团队照片**
 - **团队隐私**-公共或专用
 - **团队分类**-通过您的 Office 365 组分类备份
 - **团队成员设置**-选择团队成员设置

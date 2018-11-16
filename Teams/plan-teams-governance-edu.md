@@ -13,14 +13,17 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 867c5c6a2c4a2bf3456e7956ad1a212ccd75f317
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 687012404713bcbfcb8ecf86efa8af36b8eb0a59
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014496"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539062"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>对于管理员 Microsoft 教育调控常见问题
+
+> [!Tip]
+> 观看下面的会话，若要了解有关 Microsoft 团队中的管理的详细信息：[监管、 管理和生命周期中的 Microsoft 团队](https://aka.ms/teams-governance)
 
 ## <a name="how-do-i-control-team-creation-im-worried-students-are-going-to-create-inappropriate-teams"></a>如何控制团队创建？ 我担心学生打算创建不正确的团队。
 

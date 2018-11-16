@@ -13,16 +13,19 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8529adfafcac9e00bf97dc358944d83f31cd7722
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5becca716ad4790cc0b156dd15895e66fea7d836
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371855"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539038"
 ---
 # <a name="plan-for-governance-in-teams"></a>团队中的治理规划
 
 团队提供了一组丰富的工具，以实现您的组织可能需要任何管理功能。 本文指导 IT 专业人员提出正确的问题，以确定他们的调控和如何满足这些要求。 
+
+> [!Tip] 
+> 观看下面的会话，若要了解有关 Microsoft 团队中的治理的详细信息：[监管、 管理和生命周期中的 Microsoft 团队](https://aka.ms/teams-governance)
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>组和团队创建、 命名、 分类和来宾访问
 

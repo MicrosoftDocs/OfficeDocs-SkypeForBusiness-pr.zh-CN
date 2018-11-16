@@ -7,7 +7,7 @@
 ### [客户端更新](../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Server 更新](../../SfbServer/sfb-server-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
-## 混合解决方案
+## 个团队和 Skype for Business 的混合解决方案
 ### [规划混合连接性](../hybrid/plan-hybrid-connectivity.md)
 ### [配置混合连接性](../hybrid/configure-hybrid-connectivity.md)
 #### [配置混合环境的 Azure AD 的连接](../hybrid/configure-azure-ad-connect.md)
@@ -15,6 +15,7 @@
 #### [配置多林环境](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
 ### [移动用户从内部部署到 Skype 的业务联机](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
 ### [将用户从内部部署移动到团队](../hybrid/move-users-from-on-premises-to-teams.md)
+### [与 Exchange 和 SharePoint 集成](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 ## 规划
 ### [拓扑基础知识](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
