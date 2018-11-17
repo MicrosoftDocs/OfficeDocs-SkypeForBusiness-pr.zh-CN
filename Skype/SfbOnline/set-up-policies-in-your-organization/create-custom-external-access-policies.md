@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Skype 业务 online 允许您创建其他外部访问策略。 与客户端或会议策略，其中可以有多个的组合，有三个可以代替大多数的方案的预定义的外部访问策略。
-ms.openlocfilehash: ad40319330a66c1f0ec141531ae0ccb16a01ae07
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a822e09875bbef1fcd1472ac988a32cadfaf5850
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372598"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561693"
 ---
 # <a name="create-custom-external-access-policies"></a>创建自定义外部访问策略
 
@@ -51,7 +51,7 @@ Skype 业务 online 允许您创建其他外部访问策略。 与客户端或�
 
 - **检查正在运行的是 Windows PowerShell 3.0 版本或更高版本**
     
-1. 若要验证正在运行的版本是 3.0 或更高：**开始菜单** > **Windows PowerShell**。
+1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
     
 2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
     
@@ -63,7 +63,7 @@ Skype 业务 online 允许您创建其他外部访问策略。 与客户端或�
     
 - **启动 Windows PowerShell 会话**
     
-1. 从 **开始菜单** > **Windows PowerShell**。
+1. From the **Start Menu** > **Windows PowerShell**.
     
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     
@@ -77,7 +77,7 @@ Skype 业务 online 允许您创建其他外部访问策略。 与客户端或�
     Import-PSSession $session
    ```
 
-   如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+   如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Windows PowerShell 将计算机设置](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
     
 ## <a name="create-a-custom-external-access-policy-for-a-user"></a>创建自定义外部访问策略的用户
 

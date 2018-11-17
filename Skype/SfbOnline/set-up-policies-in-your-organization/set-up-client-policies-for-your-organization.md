@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 客户端策略帮助确定可供用户使用的 Skype for Business Online 功能；例如，你可以为一些用户提供传输文件的权限，但拒绝其他用户拥有此权限。
-ms.openlocfilehash: 1a5e752976aaa14adeb0b2345da830c5765ce7f7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 09a94a1fd7303cbdebf36ab99ee8fd1b3f9b26e4
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373190"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561673"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>为你的组织设置客户端策略
 
@@ -65,7 +65,7 @@ ms.locfileid: "25373190"
     Import-PSSession $session
    ```
 
-   如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+   如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Windows PowerShell 将计算机设置](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
     
 ### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>禁用图释和状态通知和阻止保存 Im
 
@@ -137,7 +137,7 @@ ms.locfileid: "25373190"
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [为何想使用 Windows PowerShell 管理 Office 365 的 6 个理由） ](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为何想使用 Windows PowerShell 管理 Office 365 的 6 个理由）](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - 例如当你一次对多个用户更改设置时，Windows PowerShell 比起仅使用 Office 365 管理中心，在速度、简明性和效率方面具有许多优势。通过以下主题了解这些优势：
     

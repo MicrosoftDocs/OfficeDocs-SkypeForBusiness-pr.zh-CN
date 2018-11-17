@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: 阅读本主题可了解部署步骤媒体绕过与云连接器 Edition 2.0 及更高版本。
-ms.openlocfilehash: 38ff1ffa3aef7e6cd85237048c46c5746b61e7bb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a764c17af7c23d27305f9e2f3e88eaed6edc33cf
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531701"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561912"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>在云连接器版本中部署媒体旁路
  
@@ -32,7 +32,7 @@ ms.locfileid: "26531701"
   
 租户管理员必须在内部生产 Active Directory 中配置 DNS A 记录。 如果您有复杂的多站点环境，请参阅中的示例[示例： 媒体绕过网站复杂多站点环境中的 DNS 记录](deploy-media-bypass-in-cloud-connector.md#Example)。 DNS 记录应只为内部网络客户端解析，不应为外部网络客户端解析。
   
-配置完 DNS 之后，通过远程 PowerShell 使用 Skype for Business 管理员凭据连接到 Skype for Business Online。 有关更多信息，请参阅[使用 Windows PowerShell 连接到 Skype for Business Online](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+配置完 DNS 之后，通过远程 PowerShell 使用 Skype for Business 管理员凭据连接到 Skype for Business Online。 有关详细信息，请参阅[Windows PowerShell 将计算机设置](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
   
 在 PowerShell 会话中，输入以下命令，以启用媒体旁路：
   

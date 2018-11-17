@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 在业务 online Skype，您可以控制现有会议策略设置的一部分 (P2P) 点对点文件传输功能。 但是，这将允许或阻止文件传输他们用户属于同一组织中或从另一个组织的联合用户传输的文件的用户。 下面的下面的步骤，您可以阻止与联盟的组织或合作伙伴的 P2P 文件传输。
-ms.openlocfilehash: 6ca79b45c4e068ae6999db24cf6a0dd54e9e3aa6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7128de070e13a1c4fc62ba12e05c1fffb3595467
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372100"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561663"
 ---
 # <a name="block-point-to-point-file-transfers"></a>阻止点到点文件传输
 
@@ -53,7 +53,7 @@ ms.locfileid: "25372100"
 
 - **检查正在运行的是 Windows PowerShell 3.0 版本或更高版本**
     
-1. 若要验证正在运行的版本是 3.0 或更高：**开始菜单** > **Windows PowerShell**。
+1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
     
 2. 通过在**Windows PowerShell**窗口中键入_Get 主机_检查版本。
     
@@ -65,7 +65,7 @@ ms.locfileid: "25372100"
     
 - **启动 Windows PowerShell 会话**
     
-1. 从 **开始菜单** > **Windows PowerShell**。
+1. From the **Start Menu** > **Windows PowerShell**.
     
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     
@@ -79,7 +79,7 @@ ms.locfileid: "25372100"
     Import-PSSession $session
    ```
 
-   如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+   如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Windows PowerShell 将计算机设置](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
     
 ## <a name="disable-p2p-file-transfers-for-your-organization"></a>禁用组织的 P2P 文件传输
 

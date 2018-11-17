@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 新 Skype 业务管理中心报告区域显示您呼叫和音频会议活动在组织中。 使您钻取报告为您提供更精细了解每个用户的活动。 例如，你可以使用 Skype for Business PSTN 使用详细信息报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 您可以查看音频会议的 PSTN 用法详细信息，包括呼叫的成本，以便您可以了解您的使用，并调用帐单的详细信息，以确定您的组织内的使用情况。
-ms.openlocfilehash: 6003199b69395001dc47d77f83927ac32e06e5a4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e4af77832cca1cd2a9d9de49aa83f4400c359277
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862238"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561643"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用报告
 
@@ -92,7 +92,9 @@ ms.locfileid: "23862238"
      *    **MCOPSTN5** -国内调用计划 （120 分钟调用计划） 
      *    **MCOPSTN6** -国内调用计划 （240 分钟调用计划） 的说明： 有限的状态
      *    **MCOMEETADD** -音频会议
-     *    **MCOMEETACPEA** -付薪每分钟的音频会议 
+     *    **MCOMEETACPEA** -付薪每分钟的音频会议
+> [!NOTE]
+> 您可能会看到"无"字段中的数据一些。 "无数据"表示该字段不是适用于功能的呼叫类型。 
 ***
 ![第二](../images/sfbcallout2.png)<br/>如果你希望创建将一列或多列中的所有数据进行分组的视图，请单击某个列并将其拖动到" **若要按特定列进行分组，请将列标题拖至此处**"。
  ***

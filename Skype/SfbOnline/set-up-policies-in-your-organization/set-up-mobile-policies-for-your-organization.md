@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 您可以设置如何您的用户连接到 Skype 业务 online 对等功能使用户能够发起和接收电话呼叫在其移动电话上使用而不是其移动电话 nu 其单位电话号码的移动设备上的业务应用程序使用 Skypember。 还需要使用移动策略来要求在拨打或接听电话时使用 Wi-Fi 连接。
-ms.openlocfilehash: 73699cb2c608b7a161b371d86458a18a9c9d3c40
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7985dc1a1dcdbad63d1c302be8054efb904ac15b
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372027"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561599"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>为你的组织设置移动策略
 
@@ -65,7 +65,7 @@ ms.locfileid: "25372027"
     Import-PSSession $session
    ```
 
-   如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+   如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Windows PowerShell 将计算机设置](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
 
 ### <a name="require-a-wifi-connection-for-video-for-a-user"></a>要求用户进行视频操作时使用 WiFi 连接
 
@@ -127,7 +127,7 @@ ms.locfileid: "25372027"
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [为何想使用 Windows PowerShell 管理 Office 365 的 6 个理由） ](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为何想使用 Windows PowerShell 管理 Office 365 的 6 个理由）](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - 例如当你一次对多个用户更改设置时，Windows PowerShell 比起仅使用 Office 365 管理中心，在速度、简明性和效率方面具有许多优势。通过以下主题了解这些优势：
     

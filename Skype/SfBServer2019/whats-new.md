@@ -3,19 +3,18 @@ title: Skype for Business Server 中的新增功能
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/10/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要： 这些功能是新的业务服务器 2019 Skype 中。
-ms.openlocfilehash: 411ca0705fa06d0b5720656cec2fcb3cbda50eeb
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: b0a7040b0d63866bffd2e86a68a7447463485b1e
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696154"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561572"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>什么是 Business server 2019 Skype 中 
 
@@ -26,7 +25,6 @@ ms.locfileid: "25696154"
 - 云语音邮件  
 - 调用数据连接器
 - 并行迁移
-- 向工作组的迁移
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>统一消息服务： 云语音邮件 
 
@@ -50,14 +48,6 @@ Exchange UM 仍可在 Skype 的业务服务器 2019年与 Exchange 2013 或 Exch
 - 为呼叫 Analytics 分配支持人员和管理员角色，以便可以为帮助台工作者可以查看和解决其责任范围提供强大功能。 
 
 有关详细信息，请参阅[规划呼叫数据连接器](hybrid/plan-call-data-connector.md)。
-  
-
-
-## <a name="installation-and-upgrade-side-by-side-migration"></a>安装和升级:-并行迁移
-
-在-并行迁移中，您部署的业务服务器 2019年一起运行的是以前版本 (业务服务器 2015年或 Lync Server 2013 的 Skype) 的相应服务器运行 Skype 的新服务器，然后转接到新服务器的操作。 如果需要回滚到以前的版本，您只需要只要将操作切换回原始服务器。 
-
-完整详细信息，请参阅[Migration to Business Server 2019 的 Skype](migration/migration-to-skype-for-business-server-2019.md)。
 
 ### <a name="see-also"></a>另请参阅
 

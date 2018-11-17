@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype 的基于视频的屏幕共享 (VbSS) 的业务服务器规划和配置信息
-ms.openlocfilehash: 8541bb0dc3b5791c670a3beac77560b3c9663733
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 450a6ab5550c00e91e2d9772d954dc8f51d38156
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531622"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561919"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>视频基于屏幕共享的 Skype 业务服务器 
  
@@ -60,7 +60,7 @@ Skype 业务服务器想要提高人的 1-为-1，以及其 1 对多 （多方�
 如果以下的媒体端口已启用 QoS，还启用 VbSS 包括 AS MCU 将使用视频端口设置中所示的桌面共享会议期间加粗下面的屏幕共享流量。 
   
 > [!IMPORTANT]
-> 这些设置是一个特例，并实现这些功能的时，必须使用这些准确的设置。 这将覆盖[QoS 文档](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx)中的其他建议的设置。 此外需要 QoS GPO 除了定义这些端口值中指定 ASMCUSVC.exe Fo 共享您的应用程序。 
+> 这些设置是一个特例，并实现这些功能的时，必须使用这些准确的设置。 这将覆盖[QoS 文档](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx)中的其他建议的设置。 应用程序共享您需要指定 ASMCUSVC.exe QoS GPO 除了定义这些端口值中。 
   
 **应用程序服务器 QoS/VbSS 所需的设置**
 

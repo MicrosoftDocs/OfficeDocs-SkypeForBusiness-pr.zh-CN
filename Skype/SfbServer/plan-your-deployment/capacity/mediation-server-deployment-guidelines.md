@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: 本主题介绍中介服务器部署的规划指南。
-ms.openlocfilehash: 0e5568b93e0edb0b30bf3edf0893f5eb43ac8d19
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0b22a285be9e04929d53faffb58e0f7a3f8f3750
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967931"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561898"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Skype 业务服务器中的中介服务器的部署指南
  
@@ -48,7 +48,7 @@ ms.locfileid: "20967931"
 > [!NOTE]
 > 媒体旁路将不会与每个 PSTN 网关、IP-PBX 和 SBC 进行交互操作。 Microsoft 与认证合作伙伴一起对一组 PSTN 网关和 SBC 进行了测试，另外也对 Cisco IP-PBX 进行了一些测试。 仅与产品支持媒体绕过和版本上列出统一通信开放互操作性计划的 Lync Server 上的[浏览测试设备、 基础结构和工具的支持和扩展您的业务体验 Skype](http://partnersolutions.skypeforbusiness.com/solutionscatalog)。 
   
-如果分支站点恢复能力是必需的 Survivable Branch Appliance 或前端服务器、 中介服务器和网关的组合必须部署在分支站点。 （具有分支站点恢复能力假设是状态和会议不弹性站点。）规划语音分支站点的指南，请为它仍然应该为相关的业务服务器 2015 Skype 参阅我们[分支站点语音恢复能力的规划](https://technet.microsoft.com/en-us/library/gg398477%28v=ocs.15%29.aspx)文档。
+如果分支站点恢复能力是必需的 Survivable Branch Appliance 或前端服务器、 中介服务器和网关的组合必须部署在分支站点。 （具有分支站点恢复能力假设是状态和会议不弹性站点。）规划语音分支站点上的指南，请参阅[Plan for Business Server 的 Skype 中的企业语音恢复能力](../enterprise-voice-solution/enterprise-voice-resiliency.md)。
   
 对于与 IP PBX 的交互，如果 IP PBX 不正确支持与多个早期对话的早期媒体交互和 RFC 3960 交互，都可以从 IP PBX 到 Lync 终结点的传入呼叫的问候语的几个单词的第一个剪切。 此行为会很多严重是否在中央站点中介服务器的 IP PBX 的呼叫路由路由其中终止分支站点，因为信号完成需要更多时间。 如果您遇到此行为，部署中介服务器在分支站点是减少剪切第一个几个单词的唯一方式。
   
