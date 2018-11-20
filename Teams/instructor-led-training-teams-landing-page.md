@@ -1,7 +1,7 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Microsoft 团队教师授课实况培训
+title: 讲师引导的 Microsoft Teams 培训
 description: 注册教师授课实况类，以了解以团队。
 author: dearbeen
 ms.topic: hub-page
@@ -9,16 +9,16 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: 8944a17bb083dd5af17b8d217f31567fc27e83fe
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: ea7ccef2f9411e0a851b421e131a77f454470132
+ms.sourcegitcommit: be8b6383261358e91dcb79bf819502b8b7ac6526
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546773"
+ms.lasthandoff: 11/19/2018
+ms.locfileid: "26618591"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Microsoft 团队教师授课实况培训</h1>
+        <h1>讲师引导的 Microsoft Teams 培训</h1>
         <ul class="pivots">
             <li>
                 <a href="#tab1">教师授课实况培训</a>
@@ -28,7 +28,7 @@ ms.locfileid: "25546773"
                         <ul id="tab1-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Microsoft 高兴承载一系列免费、 实时、 联机培训课程旨在让您并运行与团队。 如果您的业务决策者、 管理、 IT 专业人员，或最终用户，您可以找到最适合您的类。 加入我们，在操作，请参阅工作组和获取问题的解答，并与其交互我们 live ヘ。<br><br> 单击图块，以注册。</p>
+                                    <p>Microsoft 高兴承载一系列免费、 实时、 联机培训课程旨在让您并运行与团队。如果您的业务决策者、 管理、 IT 专业人员，或最终用户，您可以找到最适合您的类。 加入我们，在操作，请参阅工作组和获取问题的解答，并与其交互我们 live ヘ。 寻找<a href="https://docs.microsoft.com/microsoftteams/enduser-training">点播最终用户培训</a>？<br><br>单击图块，以注册。</p>
                                 </div>
                             </li>
                             <li>
@@ -108,18 +108,18 @@ ms.locfileid: "25546773"
                             </a>
                         </li>
                         <li>
-                            <a href="https://docs.microsoft.com/MicrosoftTeams/enduser-training">
+                            <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-TrainingVideos-400x140.svg" alt="a video play symbol" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" data-linktype="external"/>
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>获取点播培训和视频</h3>
-                                                <p>要获取的最终用户小组培训和视频按需为您和您的用户。</p>
+                                                <h3>提示和技巧</h3>
+                                                <p>了解优化和组织您的日常工作中的工作组创作方法。 (访问群体： 最终用户)</p>
                                             </div>
                                         </div>
                                     </div>
