@@ -1,24 +1,25 @@
 ---
-title: 团队云会议录制
+title: Teams 云会议录制
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
+ms.reviewer: sonua
 search.appverid: MET150
 description: 在 Microsoft Teams 中部署云语音功能实践指导
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ae144405375daa818f334fdf5be85e75cd4f6b1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1819aa33dd951483754f4c00377865460a3765ff
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532881"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26620080"
 ---
-# <a name="teams-cloud-meeting-recording"></a>团队云会议录制
+# <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
 > [!Note]
 > [!INCLUDE [preview-feature](includes/preview-feature.md)]
@@ -46,7 +47,7 @@ ms.locfileid: "26532881"
 
 ### <a name="enable-microsoft-stream-for-users-in-the-organization"></a>为组织中的用户启用 Microsoft 流
 
-Microsoft 流是可用的合格的 Office 365 订阅一部分或作为独立的服务。  请参阅[流许可概述](https://docs.microsoft.com/stream/license-overview)的详细信息。  请注意，Microsoft 流不包括在业务 Essentials 或企业高级版计划。
+Microsoft 流是可用的合格的 Office 365 订阅一部分或作为独立的服务。  请参阅[流许可概述](https://docs.microsoft.com/stream/license-overview)的详细信息。  Microsoft 365 企业版和 Office 365 企业高级版，Office 365 业务 Essentials 现在包含 Microsoft 流。
 
 了解有关如何可以[分配给 Office 365 中的用户的许可证](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)，以便用户可以访问 Microsoft 流。 确保 Microsoft 流将不阻止用户，如[本文](https://docs.microsoft.com/stream/disable-user-organization)中定义。
 

@@ -1,5 +1,5 @@
 ---
-title: 向 Microsoft 工作组的板载前期应用
+title: 为早期采用者上线 Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fa0b8971e6809b2488f6926f4acf0df898760f4
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 4f5f4b0732aab299a2cf4038547dfa9b6bf4562d
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519662"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26620096"
 ---
-# <a name="onboard-early-adopters-to-microsoft-teams"></a>向 Microsoft 工作组的板载前期应用
+# <a name="onboard-early-adopters-to-microsoft-teams"></a>为早期采用者上线 Microsoft Teams
 
 ## <a name="invite-users-to-teams"></a>邀请用户加入团队
 
@@ -52,7 +52,7 @@ ms.locfileid: "26519662"
 团队桌面客户端为 Windows 和 Mac 用户提供了最佳的总体体验。 若要了解详细信息，请参阅[获取团队 （桌面客户端） 的客户端](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client)和[Microsoft 团队应用程序的硬件要求](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app)。
 
 > [!NOTE]
-> 作为一名管理员，您可以选择要分发到您的组织，如 System Center Configuration Manager (Windows) 或 Jamf Pro (macOS) 中的计算机上安装文件的方法。 若要获取
+> 作为一名管理员，您可以选择要分发到您的组织，如 System Center Configuration Manager (Windows) 或 Jamf Pro (macOS) 中的计算机上安装文件的方法。
 
 #### <a name="teams-for-windows"></a>用于 Windows 的团队 
 安装 Windows 桌面客户端的最简单方法是：

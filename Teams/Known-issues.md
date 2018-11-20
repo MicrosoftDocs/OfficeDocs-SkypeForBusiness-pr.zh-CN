@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba794c49543740c2b436320d6639454ffb447659
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 98d8ec4eb6f6ab943f1515900aa20debbb7933b8
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532275"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26620000"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -39,7 +39,7 @@ ms.locfileid: "26532275"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|不再可用的租户范围连接器的管理员管理  <br/> |我们尝试在客户端和联机版本中添加连接器时收到错误： 出现意外的错误。 请重试。 Set-organizationconfig ConnectorsEnabled = True   <br/> |禁用使用团队设置。 请参阅支持文章https://msdn.microsoft.com/microsoft-teams/connectors  <br/> |2017 年 6 月 21 日  <br/> |
+|不再可用的租户范围连接器的管理员管理  <br/> |我们尝试在客户端和联机版本中添加连接器时收到错误： 出现意外的错误。 请重试。 Set-organizationconfig ConnectorsEnabled = True   <br/> |禁用使用团队设置。 请参阅支持的文章：https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |2017 年 6 月 21 日  <br/> |
 
 ## <a name="apps"></a>应用
 

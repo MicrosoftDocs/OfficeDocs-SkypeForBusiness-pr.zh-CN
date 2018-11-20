@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.date: 11/06/18
-ms.reviewer: ''
+ms.reviewer: LolaJ
 description: 了解 Microsoft Teams、其基础结构以及如何配合使用 Teams 与 Office 365。
 localization_priority: Normal
 search.appverid: MET150
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd4dd3e322b254610fe815345fdec24c5b9832a9
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 82933d7baec05ec1c704152e606774eb0396e4c3
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26510541"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26620008"
 ---
 # <a name="welcome-to-microsoft-teams"></a>欢迎使用 Microsoft Teams
 
