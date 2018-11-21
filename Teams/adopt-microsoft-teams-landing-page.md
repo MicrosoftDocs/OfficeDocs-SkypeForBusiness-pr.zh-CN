@@ -1,5 +1,5 @@
 ---
-title: 采用 Microsoft 团队
+title: 采用 Microsoft Teams
 description: 使用这些采纳资源可帮助您规划和部署您的组织中的 Microsoft 团队。
 layout: LandingPage
 ms.topic: landing-page
@@ -12,14 +12,14 @@ ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd69ba3592b23acdc963b8438e35ef998a3ceec1
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 26f1a5c4c928b0a6b97d9eac83c5c913389a2a52
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519654"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625740"
 ---
-# <a name="adopt-microsoft-teams"></a>采用 Microsoft 团队
+# <a name="adopt-microsoft-teams"></a>采用 Microsoft Teams
 
 如果您是小型企业，或如果您想要推出团队开头聊天、 团队和通道和会议，使用我们的说明性快速入门指南，旨在获取您安装和运行速度快。 如果您具有混合的大型组织或本地 Skype 业务配置，或如果您想要推出语音功能 （例如 Office 365 中调用计划或电话系统)，您可以开始与我们快速入门指南，但您需要其他下**更深入地介绍采用指南**下面的指南。
 
@@ -109,6 +109,24 @@ ms.locfileid: "26519654"
                     </div>
                     <div class="cardText">
                         <h3>培训和证书</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Training" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>工具和下载内容</h3>
                     </div>
                 </div>
             </div>
