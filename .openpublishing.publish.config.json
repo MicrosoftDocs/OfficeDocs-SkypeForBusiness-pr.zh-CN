@@ -8,11 +8,6 @@
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
       "build_entry_point": "docs",
       "template_folder": "_themes"
     },
@@ -24,12 +19,6 @@
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content",
-        "Tutorial": "Content"
-      },
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "version": 0
@@ -42,12 +31,6 @@
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content",
-        "Tutorial": "Content"
-      },
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "version": 0
