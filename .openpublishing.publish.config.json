@@ -19,10 +19,10 @@
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
-      },
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "version": 0
+    },
     {
       "docset_name": "OfficeDocs-SkypeForBusiness",
       "build_source_folder": "Skype",
