@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 创建、 修改或删除 Skype 中为 Business Server 企业语音的通知应用程序的未分配号码范围。 这将影响如何处理打给未分配号码的呼叫。
-ms.openlocfilehash: ca8b3e621da3b479bcc650584ed2aea7669f07e1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 519f4b753314325b1af71f11f94ea669e78148a1
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372711"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625664"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>创建或修改业务服务器 Skype 中的未分配号码范围
  
@@ -40,7 +40,7 @@ Skype 业务服务器，您可以说到可用于您的组织，但未分配给�
   
 ### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>若要使用的业务 Server Control Panel Skype 配置未分配的电话号码
 
-1. 以 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator、 CsServerAdministrator 或 CsAdministrator 角色的成员身份登录到计算机。 有关详细信息，请参阅**Delegate Setup Permissions**。
+1. 以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。有关详细信息，请参阅**Delegate Setup Permissions**。
     
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。  
     
@@ -90,12 +90,12 @@ Skype 业务服务器，您可以说到可用于您的组织，但未分配给�
 
 1. 登录到计算机的业务 Server Management Shell 的 Skype 或使用**Delegate Setup Permissions**中所述的必要用户权限的 RTCUniversalServerAdmins 组成员身份的安装。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 3. 使用**New-csunassignednumber**创建一个新的未分配号码范围。 使用**Set-csunassignednumber**修改现有未分配号码范围。
     
     > [!TIP]
-    > 如果您具有重叠的范围并希望按某个特定顺序应用这些范围，请包含 Priority 参数。优先级最高的范围将应用于呼叫。 
+    > 如果您具有重叠的范围并希望按某个特定顺序应用这些范围，请包含 Priority 参数。 优先级最高的范围将应用于呼叫。 0 的值表示最高优先级。
   
     在命令行中，执行下列操作之一：
     
@@ -133,7 +133,7 @@ Skype 业务服务器，您可以说到可用于您的组织，但未分配给�
 
 ### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>使用业务 Server Control Panel 的 Skype 删除未分配号码范围
 
-1.  以 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator、 CsServerAdministrator 或 CsAdministrator 角色的成员身份登录到计算机。 有关详细信息，请参阅**Delegate Setup Permissions**。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。有关详细信息，请参阅**Delegate Setup Permissions**。
     
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。  
     
@@ -149,7 +149,7 @@ Skype 业务服务器，您可以说到可用于您的组织，但未分配给�
 
 1. 登录到计算机的业务 Server Management Shell 的 Skype 或使用**Delegate Setup Permissions**中所述的必要用户权限的 RTCUniversalServerAdmins 组成员身份的安装。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 3. 在命令行中键入：
     
@@ -168,8 +168,8 @@ Skype 业务服务器，您可以说到可用于您的组织，但未分配给�
   
 ## <a name="see-also"></a>另请参阅
 
-[新 CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
+[New-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
   
-[Set-csunassignednumber](https://docs.microsoft.com/powershell/module/skype/set-csunassignednumber?view=skype-ps)
+[Set-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/set-csunassignednumber?view=skype-ps)
   
-[Get CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/get-csunassignednumber?view=skype-ps)
+[Get-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/get-csunassignednumber?view=skype-ps)

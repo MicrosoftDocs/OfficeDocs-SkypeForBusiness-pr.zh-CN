@@ -9,12 +9,12 @@ ms.service: msteams
 description: 了解如何使用 PowerShell 控件来管理 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84de597cc5cc6a00227cf48d9d8559f9dcb3778e
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a898a4eca8d96ef2da44f17695472301d6332724
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531607"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625748"
 ---
 # <a name="teams-powershell-overview"></a>团队 PowerShell 概述 （英文)
 
@@ -22,7 +22,7 @@ Microsoft 团队具有一组丰富的 IT 管理员可以管理通过 Microsoft �
 
 ## <a name="which-modules-do-you-need-to-use"></a>您需要使用哪些模块？
 
-用于管理的 Microsoft 团队的 PowerShell 控件是两个不同的 PowerShell 模块中： [Microsoft 团队 PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3)(公共 preview) 和[Skype 的业务 PowerShell 模块](https://www.microsoft.com/en-us/download/details.aspx?id=39366)。 团队 PowerShell 模块包含所有创建和管理团队，业务 PowerShell 模块 Skype 包含用于管理策略、 配置和其他团队工具控件时所需的 cmdlet。 PowerShell 控件的参考文档会告诉您哪些模块包含正在研究 cmdlet。 （最终，两个模块将合并。）
+用于管理的 Microsoft 团队的 PowerShell 控件是两个不同的 PowerShell 模块中： [Microsoft 团队 PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5)(公共 preview) 和[Skype 的业务 PowerShell 模块](https://www.microsoft.com/en-us/download/details.aspx?id=39366)。 团队 PowerShell 模块包含所有创建和管理团队，业务 PowerShell 模块 Skype 包含用于管理策略、 配置和其他团队工具控件时所需的 cmdlet。 PowerShell 控件的参考文档会告诉您哪些模块包含正在研究 cmdlet。 （最终，两个模块将合并。）
 
 ## <a name="what-can-each-admin-role-do"></a>每个管理员角色可以做什么？
 
@@ -32,7 +32,7 @@ Microsoft 团队具有一组丰富的 IT 管理员可以管理通过 Microsoft �
 
 用于创建和管理团队的 cmdlet 是在[Microsoft 团队 PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3)中。 
 
-团队有后盾 O365 组，因此何时创建工作组，创建一个组。 有一组的操作系统上核心团队和其设置为提供的 cmdlet (``new-team``， ``get-team``， ``set-teamfunsettings``)，以及用于管理团队的通道 cmdlet (``new-teamchannel``， ``remove-teamchannel``)。 所有这些 cmdlet 可以为最终用户运行，但其将仅参与团队拥有或的成员。 如果您是全局管理员或团队服务管理员，您将能够在组织中的所有团队。
+团队有后盾 O365 组，因此何时创建工作组，创建一个组。 有一组的操作系统上核心团队和其设置为提供的 cmdlet (``new-team``， ``get-team``， ``set-teamfunsettings``， ``set-teammessagingsettings``， ``set-teamguestsettings``， ``set-teammembersettings``)，管理团队用户 (``add-teamuser``， ``remove-teamuser``)，以及用于管理团队的通道 cmdlet (``new-teamchannel``, ``remove-teamchannel``). 所有这些 cmdlet 可以为最终用户运行，但其将仅参与团队拥有或的成员。 如果您是全局管理员或团队服务管理员，您将能够在组织中的所有团队。
 
 > 使用中的 Microsoft 团队 PowerShell 模块 cmdlet **GroupId**是返回的**Identity**属性相同``Get-UnifiedGroup``Exchange PowerShell 模块中。
 
@@ -84,4 +84,4 @@ Microsoft 团队具有一组丰富的 IT 管理员可以管理通过 Microsoft �
 
 - [Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 - [Skype 的业务 cmdlet 参考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
-- [使用 Microsoft 团队管理员角色可以管理团队](using-admin-roles.md)
+- [使用 Microsoft Teams 管理员角色管理 Teams](using-admin-roles.md)

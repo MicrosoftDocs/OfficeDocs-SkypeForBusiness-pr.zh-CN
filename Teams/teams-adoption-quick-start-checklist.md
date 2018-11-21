@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队应用快速入门清单
+title: Microsoft Teams 采用快速入门清单
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,47 +15,49 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4106eb020385df464284f3c3ff236d93a6fc0f25
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: c3fa4f1d022951f54fdcf424ea64af731eddb811
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519649"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625732"
 ---
-# <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft 团队应用快速入门清单
+# <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft Teams 采用快速入门清单
 
-## <a name="get-started-driving-adoption-of-microsoft-teams"></a>开始驱动的 Microsoft 团队
+[下载一份清单](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-quick-start-checklist?branch=pr-en-us-2018)
 
-- 采用必备组件
+## <a name="get-started-driving-adoption-of-microsoft-teams"></a>开始推动采用 Microsoft Teams
+
+- [采用必备组件](teams-adoption-get-started.md)
 
 ## <a name="phase-1---start"></a>阶段 1-开始
 
-- 了解团队和频道
-- 创建您的第一个团队
-- 可供团队？
-- 会见利益干系人
-- 识别前期应用
+- [了解团队和频道](teams-adoption-understand-teams-and-channels.md)
+- [创建您的第一个团队](teams-adoption-your-first-teams.md)
+- [可供团队？](teams-adoption-assess-readiness.md)
+- [会见利益干系人](teams-adoption-assess-readiness.md#assess-your-stakeholders)）
+- [识别前期应用](teams-adoption-assess-readiness.md#identify-early-adopters)
 
 ## <a name="phase-2---experiment"></a>阶段 2-实验
 
-- 创建拥护者程序
-- 完成调控快速入门
-- 定义使用方案
-- 面试业务利益干系人
-- 映射并设置其优先级业务方案
-- 板载前期应用和收集反馈
-- 板载支持
+- [创建拥护者程序](teams-adoption-create-champions-program.md)
+- [完成调控快速入门](teams-adoption-governance-quick-start.md)
+- [定义使用方案](teams-adoption-define-usage-scenarios.md)
+- [面试业务利益干系人](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
+- [映射并设置其优先级业务方案](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
+- [板载前期应用和收集反馈](teams-adoption-onboard-early-adopters.md)
+- [板载支持](teams-adoption-onboard-support.md)
 
 ## <a name="phase-3---scale"></a>阶段 3-比例
 
-- 定义产出和成功度量值
-- 选择的服务启用策略
-- 吸引利益干系人
-- 展开您的实施团队
-- 展开您的监管和信息管理策略
-- 优化反馈和报告
-- 驱动器认知度和培训
-- 安排服务 reviews （英文）
+- [定义产出和成功度量值](teams-adoption-define-outcomes.md)
+- [选择的服务启用策略](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
+- [吸引利益干系人](teams-adoption-define-outcomes.md#engage-stakeholders)
+- [展开您的实施团队](teams-adoption-define-outcomes.md#expand-your-implementation-team)
+- [展开您的监管和信息管理策略](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
+- [优化反馈和报告](teams-adoption-optimize-feedback-and-reporting.md)
+- [驱动器认知度和培训](teams-adoption-drive-awareness.md)
+- [安排服务 reviews （英文）](teams-adoption-schedule-service-health-reviews.md)
 
 
 

@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f7f4dcc7ce15549384bbdd5485bed9fbe7b7ef5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 98112579a33d633e4303bbf4f395f508b955eb8e
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012406"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625671"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>快速入门 - Microsoft Teams 规划指南
 ==========================================================
@@ -49,7 +49,7 @@ ms.locfileid: "25012406"
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-如果你的 Office 365 租户中未启用 Microsoft Teams 并且你是 Office 365 管理员，请按照[管理用户对 Teams 的访问](user-access.md)一文中的说明进行操作，确保你的用户可以访问该应用。
+如果您的 Office 365 租户中未启用的 Microsoft 团队并且已管理员执行 Office 365 中[管理用户团队访问](user-access.md)我们的文章的说明，以确保您的用户将有权访问应用程序。
 
 ## <a name="step-3-complete-technical-planning"></a>步骤 3：完成技术规划
 
@@ -60,7 +60,7 @@ ms.locfileid: "25012406"
 3.  [Office 365 URL 和 IP 地址范围](office-365-urls-ip-address-ranges.md)
 4.  [Teams 中的来宾访问](guest-access.md)
 
-此外，有些组织可能想要查看 [Teams 中的安全性与合规性概述](security-compliance-overview.md)。
+此外，某些组织可能希望查看[安全和团队中的合规性概述](security-compliance-overview.md)。
 
 
 ## <a name="step-4-conduct-pilots-and-deploy-teams"></a>步骤 4：开展试点并部署 Teams
