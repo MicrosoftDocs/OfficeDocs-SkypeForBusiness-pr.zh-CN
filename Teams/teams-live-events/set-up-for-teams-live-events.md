@@ -14,12 +14,12 @@ description: 了解 live 团队，包括网络准备、 分配许可证、 使�
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08dd8c431f31fef8dc30f72f4944c2ba907850cc
-ms.sourcegitcommit: 2be5458d05fab32771845f855201126a87303b95
+ms.openlocfilehash: 1fe13722bfc8b5aa7a9f57d0dfd39c67146e6c31
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "26548827"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626267"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 
@@ -110,5 +110,5 @@ Live 事件视频播放使用流式处理 (ABR) 的自适应比特率，但它�
 ### <a name="related-topics"></a>相关主题
 - [什么是团队 live 事件？](what-are-teams-live-events.md)
 - [规划团队 live 事件](plan-for-teams-live-events.md)
-- [配置 live 团队中的事件设置](configure-teams-live-events.md)
+- [在工作组中配置 live 事件设置](configure-teams-live-events.md)
 

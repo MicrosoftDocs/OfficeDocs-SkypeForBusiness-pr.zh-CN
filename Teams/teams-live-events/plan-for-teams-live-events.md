@@ -1,5 +1,5 @@
 ---
-title: 规划中的 Microsoft 团队的实时事件
+title: 在 Microsoft Teams 中规划实时事件
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
@@ -12,14 +12,14 @@ search.appverid: MET150
 description: 了解如何设置中的 Microsoft 团队的实时事件之前应考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c0ee1ed41f1d906e43f119e6683f772bde32be3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 40722ee1e58e7524184408819932d9a2cfdc1275
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532314"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626259"
 ---
-# <a name="plan-for-live-events-in-microsoft-teams"></a>规划中的 Microsoft 团队的实时事件
+# <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 在规划团队 live 事件，以保留您的组织中的大型会议时，有需要启动所有最多设置之前，需要考虑的几个因素。 
@@ -109,5 +109,5 @@ ms.locfileid: "26532314"
 ### <a name="related-topics"></a>相关主题
 - [什么是团队 live 事件？](what-are-teams-live-events.md)
 - [设置团队的实时事件](set-up-for-teams-live-events.md)
-- [配置 live 团队中的事件设置](configure-teams-live-events.md)
+- [在工作组中配置 live 事件设置](configure-teams-live-events.md)
 

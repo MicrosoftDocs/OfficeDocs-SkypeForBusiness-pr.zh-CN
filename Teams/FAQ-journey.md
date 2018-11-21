@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e733d38bf914080274332abfffbd33c5eaddba50
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 865da90f5b6c9ffc13694692a67ab092d05c755a
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561737"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626173"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>FAQ - 从 Skype for Business 到 Microsoft Teams 的旅程
 
@@ -39,7 +39,7 @@ ms.locfileid: "26561737"
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Skype for Business Server 的未来会怎样？
 
-但我们知道客户使用业务本地和许多需要 Skype 继续 Skype 用于业务内部部署的一些用户或由于及其要求的地理区域。 业务服务器 2019年的 Skype 年 10 月 2019年发布。
+但我们知道客户使用业务本地和许多需要 Skype 继续 Skype 用于业务内部部署的一些用户或由于及其要求的地理区域。 业务服务器 2019年的 Skype 年 10 月 2018年发布。
 
 ### <a name="what-will-happen-to-the-skype-brand"></a>Skype 品牌将会发生什么情况？
 

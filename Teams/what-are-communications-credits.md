@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: badafff1ec2ca596828bdbcb7547cf777e08b432
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a987b6079b10a3deaf6a76dd2629be59b52a2007
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016554"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626236"
 ---
 # <a name="what-are-communications-credits"></a>什么是通信点数？
 
@@ -55,7 +55,7 @@ Communications 字幕式是音频会议和调用规划分钟支付的便捷方�
   
 ## <a name="what-are-the-communications-credits-rates"></a>Communications 字幕式率有哪些？
 
-如果您想知道如何的呼叫的成本什么的调用计划，请参阅 Communications 字幕式[用于呼叫的速率](https://products.office.com/skype-for-business/pstn-calling-plans#Rates)Plans。
+如果您想知道如何的呼叫的成本什么的调用计划，请参阅 Communications 字幕式[用于呼叫的速率](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates)Plans。
   
 ## <a name="what-is-it"></a>这是什么？
 

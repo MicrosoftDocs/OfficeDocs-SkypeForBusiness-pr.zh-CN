@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 摘要： 了解如何为业务服务器 Skype 中的边缘服务器的系统要求。
-ms.openlocfilehash: 05adb2fb0a4224699cf4465932eba1e7a85761e5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 16cc2a5e640872fe8c57113c7aaca588efab121a
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374869"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626158"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>为业务服务器中 Skype 边缘服务器的系统要求
  
@@ -156,7 +156,7 @@ Skype 的业务服务器扩展的合并边缘拓扑被优化 DNS 负载平衡新
     
 - 边缘内部接口必须位于不同网络您边缘服务器外部接口，且必须禁用它们之间的路由。
     
-- 外部接口的任何边缘服务器运行 A / V 边缘服务必须使用公开可路由 IP 地址和 NAT 或端口上的任何边缘外部 IP 地址的转换。
+- 外部接口的任何边缘服务器运行 A / V 边缘服务必须使用公共可路由 IP 地址和 NAT 或端口上的任何边缘外部 IP 地址的转换。
     
 #### <a name="hlb-requirements"></a>HLB 要求
 
