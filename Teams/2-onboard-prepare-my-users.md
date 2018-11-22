@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a751834c978c205316c1fd383f571d67d349f0b2
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: ca1b2e5d28adf95a634df914b4693efddcbc5dd0
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436570"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649554"
 ---
 # <a name="prepare-my-users"></a>准备我的用户
 
@@ -151,5 +151,5 @@ ms.locfileid: "25436570"
 
 <table>
 <tr><th>通信</th><th>培训</th><th>支持</th></tr>
-<tr><td><ul><li>电子邮件&mdash;个性化我们<a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">语音电子邮件模板</a></li><li>海报和数字签名 </li><li>启动事件</li><li>部门经理</li><li>支持者</li><li>团队和频道</li><li>Gamification</li></ul></td><td><ul><li>文章和来自 Microsoft 的视频：<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">切换到团队从 Skype for Business</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">团队视频培训</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">会议和呼叫</a></li></li></ul><li>内部帮助 （T 自动程序）</li><li>内部培训团队</li><li>合作伙伴培训团队</li></ul></td><td><ul><li>内部帮助台</li><li>外包的支持桌面</li><li>自助 （intranet 网站）</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">联机帮助和操作方法</a></li><li>Floor walkers 和拥护者</li><li>反馈循环&mdash;，请参阅<a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">示例用户反馈调查</a></li></td></tr>
+<tr><td><ul><li>电子邮件&mdash;个性化我们<a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">语音电子邮件模板</a></li><li>海报和数字签名 </li><li>启动事件</li><li>部门经理</li><li>支持者</li><li>团队和频道</li><li>Gamification</li></ul></td><td><ul><li>文章和来自 Microsoft 的视频：<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">切换到团队从 Skype for Business</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">团队视频培训</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">会议和呼叫</a></li></li></ul><li>内部帮助 （帮助）</li><li>内部培训团队</li><li>合作伙伴培训团队</li></ul></td><td><ul><li>内部帮助台</li><li>外包的支持桌面</li><li>自助 （intranet 网站）</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">联机帮助和操作方法</a></li><li>Floor walkers 和拥护者</li><li>反馈循环&mdash;，请参阅<a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">示例用户反馈调查</a></li></td></tr>
 </table>

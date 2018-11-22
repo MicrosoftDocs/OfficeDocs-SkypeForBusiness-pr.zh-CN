@@ -1,5 +1,5 @@
 ---
-title: 使用团队一起 Skype for Business 的组织的迁移和互操作性指南
+title: 面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
@@ -12,14 +12,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff664c630f5c8da8e3f63700d018b40ab9f0ef70
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: fb213c236b271d5b3012847118cc54a8fa075c2e
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532337"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649720"
 ---
-# <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>使用团队一起 Skype for Business 的组织的迁移和互操作性指南
+# <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导
 
 使用"共存模式"，如由 TeamsUpgradePolicy 托管互操作和迁移。 控制可以选择的用户的模式，这两个路由的传入呼叫和聊天和用户是否计划团队或 Skype for Business 中的会议。  推出，与即将开始的 TeamsAppPermissionsPolicy 一起使用，模式将也控制用户可在哪些客户端中启动聊天和呼叫。 
 
@@ -60,7 +60,7 @@ ms.locfileid: "26532337"
 - *会议日程安排*： 哪项服务都用于安排新的会议和确保正确的外接程序在 Outlook 中存在。 请注意 TeamsUpgradePolicy 不管理会议加入。 用户可以始终*加入*任何会议，无论是业务会议或团队会议 Skype。
 - *客户端体验*： 哪项功能均可在工作组和/或 Skype 业务客户端？ 这被实现 TeamsOnly 模式。 取决于即将开始的 TeamsAppPermissionsPolicy 支持其他模式。 在此新策略后，TeamsUpgradePolicy 将具有依赖项以确保团队为所需的模式正确配置。
 
-下面列出了计划的模式。 SfBWithTeamsCollab 和 SfBWithTeamsCollabAndMeetings 将允许混合的使用这两个客户端，但没有重叠的功能。 群岛模式允许使用情况的两个客户端，但包含重叠的功能。 例如，在群岛模式下，用户无法启动适用于商务或团队中任一 Skype 聊天，但在 SfBWithTeamsCollab，他们可以仅聊天中 for Business 的 Skype。 请注意，不是所有模式尚未完全可用。  
+下面列出了计划的模式。 SfBWithTeamsCollab 和 SfBWithTeamsCollabAndMeetings 将允许混合的使用这两个客户端，但没有重叠的功能。 群岛模式允许使用情况的两个客户端，但包含重叠的功能。 例如，在群岛模式下，用户无法启动中任一 Skype 聊天适用于商务或团队，但在 SfBWithTeamsCollab，他们可以仅聊天中 for Business 的 Skype （尽管它们可以参与团队通道对话）。 请注意，不是所有模式尚未完全可用。  
 </br>
 </br>
 
@@ -69,7 +69,7 @@ ms.locfileid: "26532337"
 |群岛|传入 VOIP 呼叫和除聊天园地为原始发件人，同一客户端中的，如果收件人联盟和在群岛模式下，在这种情况下它们位于在 SfB。<sup>1</sup>|两者|最终用户可以发起呼叫和聊天从任一客户端，并可以安排从任一客户端的会议。|
 |SfBOnly|传入呼叫和聊天路由至 Skype for Business|Skype for Business 仅|最终用户可以发起呼叫以及仅从 for Business 的 Skype 聊天和仅业务会议安排 Skype。 （还未实施）|
 |SfBWithTeamsCollab<sup>2</sup>|传入呼叫和聊天路由至 Skype for Business|Skype for Business 仅|最终用户可以发起呼叫以及仅从 for Business 的 Skype 聊天和仅业务会议安排 Skype。 他们还可以在工作组中使用通道。 （还未实施）|
-|SfBWithTeamsCollabAndMeetings<sup>2</sup>|传入呼叫和聊天路由至 Skype for Business|仅团队|最终用户可以发起呼叫，并从业务仅和唯一的 Skype 聊天安排团队会议。 他们还可以在工作组中使用通道。 （还未实施）|
+|SfBWithTeamsCollabAndMeetings<sup>2</sup>|传入呼叫和聊天路由至 Skype for Business|仅团队|最终用户可以发起呼叫，并从业务仅和唯一的 Skype 聊天安排团队会议。 它们可以参与团队通道对话。 （还未实施）|
 |TeamsOnly|传入呼叫和聊天路由至团队|仅团队|最终用户可以发起呼叫以及仅来自团队聊天。 Skype for Business 才可用于加入会议。|
 |旧</br>*弃用*|路由基于 TeamsInteropPolicy|不会影响|没有任何影响。 这是临时的简化从 TeamsInteropPolicy 过渡到 TeamsUpgradePolicy 模式。 完全支持 TeamsUpgradePolicy 以便*客户应更新其配置为非旧的模式。*  默认情况下，现在阻止授予旧模式。 |
 |||||
@@ -214,7 +214,7 @@ TeamsUpgradePolicy 控制传入的联盟的聊天和呼叫路由。 联盟路由
 |**群岛**</br>（默认值）|单个用户运行业务和团队-并行这两个 Skype。 此用户：</br><ul><li>可以启动聊天和 VOIP 呼叫中任一 Skype 业务或团队的客户端。 注意： 具有 for Business 的 Skype 用户驻留在本地无法启动从工作组与另一个 Skype 的企业用户取得联系。<li>接收聊天和 Skype for Business 中发起通过其 Skype 业务客户端中的其他用户的 VOIP 呼叫。<li>接收聊天链接如果它们位于*同一租户*中团队发起通过其团队客户端中的另一个用户的 VOIP 呼叫。<li>接收聊天和它们是否在*联盟的租户*，团队中其 Skype 业务客户端中的其他用户发起的 VOIP 呼叫。 <li>具有 PSTN 功能如下所述：<ul><li>如果用户驻留在 Skype 业务本地，启动和 Skype for Business 中收到 PSTN 呼叫。<li>如果用户驻留 online，用户具有电话系统，这种情况下用户：<ul><li>发起和接收团队中的 PSTN 呼叫，如果对用户配置直接路由<li>发起和接收 Skype for Business 中的 PSTN 呼叫，如果用户已制定 MS 调用计划或连接到 PSTN 网络通过任一 Skype 商务云连接器版或 Skype 的内部部署业务服务器 （混合语音）</ul></ul><li>可以安排会议在团队或 Skype for Business 中的 （和默认情况下将看到两个插件）。<li>可以加入业务或团队会议; 任何 Skype会议将在各自的客户端中打开。</ul>|
 |**SfBOnly**|单个用户运行仅 for Business 的 Skype。 此用户：</br><ul><li>可以启动聊天和仅从 for Business 的 Skype 调用。<li>收到任何聊天/呼叫中的业务客户端，其 Skype 无论其中启动，除非发起者团队用户拥有 for Business 的 Skype 驻留在本地。*<li>可以安排仅 Skype 业务会议，但可以加入 Skype 业务或团队的会议。</br>* 与内部部署用户使用群岛模式不建议在组合与 SfBOnly 模式中的其他用户。 如果具有 for Business 的 Skype 的团队用户驻留在本地启动呼叫或向 SfBOnly 用户聊天，SfBOnly 用户无法连接到并接收错过的聊天呼叫 email.*|
 |**SfBWithTeamsCollab**|单个用户运行业务和团队-并行这两个 Skype。 此用户：</br><ul><li>具有 SfBOnly 模式中的用户的功能。<li>工作组已启用仅对组协作 （通道）;聊天/呼叫/会议安排将被禁用。</ul>|
-|**SfBWithTeamsCollab</br>AndMeetings**|单个用户运行业务和团队-并行这两个 Skype。 此用户：<ul><li>已在 SfBOnly 模式下的聊天和用户的呼叫功能。<li>团队已启用组协作 （通道）;聊天和呼叫将被禁用。<li>可以安排仅团队会议，但可以加入 Skype 业务或团队的会议。</ul>|
+|**SfBWithTeamsCollab</br>AndMeetings**|单个用户运行业务和团队-并行这两个 Skype。 此用户：<ul><li>已在 SfBOnly 模式下的聊天和用户的呼叫功能。<li>已启用组协作的团队 （通道-包括通道对话）;聊天和呼叫将被禁用。<li>可以安排仅团队会议，但可以加入 Skype 业务或团队的会议。</ul>|
 |**TeamsOnly**</br>（需要 SfB Online 主页）|单个用户运行仅团队。 此用户：<ul><li>接收任何聊天并中调用他们团队的客户端，而不管在启动。<li>可以启动聊天和仅来自团队呼叫。<li>可以安排会议仅在工作组中的，但可以加入 Skype 业务或团队的会议。<li>可以继续使用 Skype 业务 IP 电话。</ul> |
 |**旧**</br>（已过时）|此模式在转换到 TeamsUpgradePolicy TeamsInteropPolicy 期间用来确保一致的体验作为软件更改推出。既然完全支持 TeamsUpgradePolicy 不再需要此模式。 使用模式的客户 = 旧应更新其配置上使用的其他模式。|
 |||

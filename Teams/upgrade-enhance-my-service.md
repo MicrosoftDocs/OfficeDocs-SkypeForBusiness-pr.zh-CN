@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f000a81c0762b11b06e81fd2fcca18915ce1233
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 278e6200547966e5a41983bf3a0f76ecb0e5ca11
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532352"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649681"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 
@@ -29,7 +29,7 @@ ms.locfileid: "26532352"
 
 这篇文章概述用于获取充分利用您在升级后操作系统团队的要求。 通过持续监视团队服务功能，您可以确保您为组织提供最大价值。
 
-## <a name="enhance-my-service-overview"></a>增强我服务概述
+## <a name="enhance-your-service-overview"></a>增强服务概述
 您已成功部署到您的组织，团队和运行的服务质量和可靠性下, 一步后是定期评估是否有任何机会来增强您的服务。 这是连续的服务改进，它规划云服务管理现代标准的一部分。 
 
 请确保您将始终获得最有效地使用您的服务的好方法是监视可能感兴趣的组织的新功能增强的[团队公共路线图](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)。 如果您有权访问 Office 365 管理门户，您会收到有关通过我们消息中心的新增和更改功能从我们的定期更新。 

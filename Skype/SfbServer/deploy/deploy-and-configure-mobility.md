@@ -8,12 +8,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: 本文将指导您完成配置用于 Mobility service，允许您的移动设备能够利用业务服务器移动功能的 Skype 业务服务器安装现有 Skype 的步骤。
-ms.openlocfilehash: 2afd462638eb6ed97f6efb694aa74994f2d59727
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: e1799459d2e7723298aa7fdda17f89a9041efd15
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375444"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649713"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>部署和配置 Mobility Skype 业务服务器  
  
@@ -174,7 +174,7 @@ ms.locfileid: "25375444"
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
-   - 现在，如果你有多个 SIP 域，则无法使用如上述示例中所示的 AllSipDomain 参数。你需要改为使用 DomainName 参数。当你使用 DomainName 参数时，你必须为 lyncdiscoverinternal 和 lyncdiscover 记录定义 FQDN。例如（将 -Ca 参数替换为你自己的证书颁发机构路径）：
+   - 现在，如果您有多个 SIP 域，则无法使用 AllSipDomain 参数，如上面的示例所示。 你需要改为使用 DomainName 参数。 当你使用 DomainName 参数时，你必须为 lyncdiscoverinternal 和 lyncdiscover 记录定义 FQDN。 例如（将 -Ca 参数替换为你自己的证书颁发机构路径）：
     
    ```
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
@@ -188,7 +188,7 @@ ms.locfileid: "25375444"
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
-   - 现在，如果你有多个 SIP 域，则无法使用如上述示例中所示的 AllSipDomain 参数。你需要改为使用 DomainName 参数。当你使用 DomainName 参数时，你必须为 lyncdiscoverinternal 和 lyncdiscover 记录定义 FQDN。例如（将 -Ca 参数替换为你自己的证书颁发机构路径）：
+   - 现在，如果您有多个 SIP 域，则无法使用 AllSipDomain 参数，如上面的示例所示。 你需要改为使用 DomainName 参数。 当你使用 DomainName 参数时，你必须为 lyncdiscoverinternal 和 lyncdiscover 记录定义 FQDN。 例如（将 -Ca 参数替换为你自己的证书颁发机构路径）：
     
    ```
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
@@ -258,7 +258,7 @@ ms.locfileid: "25375444"
 
 不应严格遵循以下步骤。因为在该产品的早期版本中，我们已引导你配置 Threat Management Gateway (TMG)，如果你未使用该产品，你需要从其创建自己的版本。
   
-Microsoft 产品，作为不再提供 TMG 和如果仍需要对其进行配置，您可以查看[Lync Server 2013 的步骤](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx)。 但的以下信息的用于很多通常，即使没有我们可以提供特定演练步骤有每台反向代理的方法。
+TMG 不再由 Microsoft 作为产品提供，并且如果你仍需要对其进行配置，则可以查看 [Lync Server 2013 步骤](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx)。 但的以下信息的用于很多通常，即使没有我们可以提供特定演练步骤有每台反向代理的方法。
   
 需要考虑以下两个主要事项：
   
@@ -459,7 +459,7 @@ Microsoft 产品，作为不再提供 TMG 和如果仍需要对其进行配置�
    Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
    ```
 
-若要查看命令过程此外，您可以签出[Test-csucwaconference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps)和[Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps)。
+要进一步查看命令过程，你可以参阅 [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) 和 [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps)。
   
 ## <a name="configure-for-push-notifications"></a>配置推送通知
 <a name="ConfigPush"> </a>
@@ -602,7 +602,7 @@ Microsoft 产品，作为不再提供 TMG 和如果仍需要对其进行配置�
    New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
    ```
 
-    有关详细信息[New-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)。
+    在 [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps) 中了解更多信息。
     
 ### <a name="modify-mobility-policy-by-user"></a>修改用户移动策略
 

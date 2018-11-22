@@ -14,18 +14,18 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bca4d2bb757f8fdcece40f82ad0ddce54c1d246
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 042c53f09fd7797c0a25703d204680885d675a29
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375563"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649697"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 
 本文是您升级旅程，只要您已完成从 for Business 的 Skype 您升级到团队开始的卓越阶段的一部分。
 
-# <a name="operate-my-service"></a>运行我的服务
+# <a name="operate-your-service"></a>运行您的服务
 
 本文概述了已升级后，在为组织成功操作团队的要求。 通过进行正确操作团队服务，您可以确保您正在为组织提供高质量、 可靠地体验。
 
@@ -173,7 +173,7 @@ Microsoft 团队是基于云的服务。 伴随这能够提供新特性和功能
 在[Microsoft 团队博客 （英文）](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)，您可以了解有关最佳做法、 趋势和有关团队产品更新的新闻。 希望找到主要功能团队此处发布更新。 您还可以订阅通过 RSS 源的博客。 您然后可以直接将团队通道，添加[RSS 源](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog)以便直接在工作组传递所有重要的新闻。
 
 发布的所有功能均编都档在[Microsoft 团队的发行说明](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)。
-此处您将发现已发布的功能的列表的桌面、 web 和移动设备。 一组相同的发行说明也是在[Microsoft 团队 T 自动程序](t-bot.md)发行说明选项卡上提供的。
+此处您将发现已发布的功能的列表的桌面、 web 和移动设备。 一组相同的发行说明也是[帮助](get-help-in-microsoft-teams.md)中的**新增**选项卡上的。
 
 熟悉的资源可用，并确保您分配适用所有者监视的更改。
 
@@ -488,7 +488,7 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 
 #### <a name="general-tasks"></a>常规任务
 
-[管理对 Microsoft Teams 的用户访问](user-access.md)
+[管理用户对 Microsoft Teams 的访问](user-access.md)
 
 
 ### <a name="team-creation-optional"></a>团队创建 （可选）

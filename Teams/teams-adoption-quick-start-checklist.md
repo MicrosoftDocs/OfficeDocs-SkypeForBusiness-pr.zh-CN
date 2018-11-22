@@ -15,16 +15,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3fa4f1d022951f54fdcf424ea64af731eddb811
-ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
+ms.openlocfilehash: b328b412a4272afcddf8b6d4d4db349c11ae8803
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26625732"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649649"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft Teams 采用快速入门清单
 
-[下载一份清单](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-quick-start-checklist?branch=pr-en-us-2018)
+[下载一份清单](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-quickstart-checklist-oct2018.pdf?raw=true)
 
 ## <a name="get-started-driving-adoption-of-microsoft-teams"></a>开始推动采用 Microsoft Teams
 

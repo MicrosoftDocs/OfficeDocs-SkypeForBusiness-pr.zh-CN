@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8e81a20d5c3e792f2a249b86d95a0ca22ab042e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 91608a65530c7f57772b0fe544394a669e67b2a4
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016258"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649522"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 
@@ -33,9 +33,9 @@ ms.locfileid: "25016258"
 
 网络的状态会影响的用户体验。 当用户具有较差的体验 （例如，呼叫下降或延迟时间加入会议时），它们与技术本身，与这种技术操作不起作用印象保留它们，然后打开不受支持的应用程序门关联这。 实施计划监视和缓解网络运行状况有助于确保良好的用户体验除了减少到支持桌面电话。 有关详细信息，请参阅以下文章：
 
--   [运行我的服务](upgrade-operate-my-service.md)
+-   [运行您的服务](upgrade-operate-my-service.md)
 -   [监视质量](upgrade-monitor-quality.md)
--   [增强我的服务](upgrade-enhance-my-service.md)
+-   [增强您的服务](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>驱动器用户 momentum 和采用
 
