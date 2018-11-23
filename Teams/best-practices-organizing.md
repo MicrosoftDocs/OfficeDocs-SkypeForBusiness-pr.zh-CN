@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66bf2e6aa01c24b327d26e2a30678ca3722a8c97
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 43c619f8d053d0d06b9b5494d812eea541869922
+ms.sourcegitcommit: 72afa227b917f9fabd278fc7bea9d515b5d53def
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532495"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26670928"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中组织团队的最佳做法
 ======================================================
@@ -29,7 +29,7 @@ ms.locfileid: "26532495"
 
 之前在我们的产品中创建一个团队，最好是需要考虑的事项的目标、 项目或工作项和可帮助组织的人员协作方式提供。 创建之后，将这些联系人或组添加到团队以开始协作。 最好为每个团队指定多个所有者 - 请参阅[管理团队](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)。
 
-请看一下此快速的视频，请参阅如何构建跨组织或单一用途团队的一些示例：
+请看一下此简短视频了解如何构建跨组织或单一用途团队的一些示例：
 
 > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
