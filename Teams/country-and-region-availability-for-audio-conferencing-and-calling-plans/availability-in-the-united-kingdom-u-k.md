@@ -1,5 +1,5 @@
 ---
-title: 英国 （英国） 中的可用性
+title: 在英国 (U.K.) 的可用性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -26,14 +26,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于英国业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: ada6f7c5d4919a3c114488da8b30e7b58f9d6821
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: ec3b6f1f9bb298e00b0d8786f7b8a04c8ab59352
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531132"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674767"
 ---
-# <a name="availability-in-the-united-kingdom-uk"></a>英国 （英国） 中的可用性
+# <a name="availability-in-the-united-kingdom-uk"></a>在英国 (U.K.) 的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
@@ -61,7 +61,7 @@ ms.locfileid: "26531132"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
-|适用于调用计划的分钟数。 |每月有可用的四个规划选项： <ul><li>120 分钟国内调用规划 </li><li>240 分钟国内调用规划</li></li><li>1200 minute 国内调用规划 </li></li><li>国内和国际呼叫计划 600 分钟</li></li> 
+|适用于调用计划的分钟数。 |每月有可用的四个规划选项： <ul><li>120 分钟国内调用规划 </li><li>240 分钟国内调用规划</li></li><li>1200 minute 国内调用规划 </li></li><li>国内和国际呼叫规划： 1200 分钟国内国际呼叫 （无论到达第一个日历月中）-或-600 分钟</li></li> 
 |可以发起出站呼叫到声讯电话号码？ <br/> | 部分支持： 使用 Communications 字幕式每分钟支付支持共享成本号码 （前缀 44843、 44844、 44845、 44870、 44871、 44872） 的呼叫。  不支持调用 449XX 前缀。 <br/> |
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
    

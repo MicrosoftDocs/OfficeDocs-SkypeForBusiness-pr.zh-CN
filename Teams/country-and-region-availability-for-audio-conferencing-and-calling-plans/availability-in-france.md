@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 法国可用的项目。
-ms.openlocfilehash: e42ca24d813058a511a81ceafa3961e1e179ca18
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d1956b9970a84ee9e1e66e6f745a29a0de04d354
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018014"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674783"
 ---
 # <a name="availability-in-france"></a>在法国的可用性
 
@@ -61,7 +61,7 @@ ms.locfileid: "25018014"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
-|适用于调用计划的分钟数。 |每月有可用的四个规划选项： <ul><li>120 分钟国内调用规划 </li><li>240 分钟国内调用规划</li></li><li>1200 minute 国内调用规划 </li></li><li>国内和国际呼叫计划 600 分钟</li></li> 
+|适用于调用计划的分钟数。 |每月有可用的四个规划选项： <ul><li>120 分钟国内调用规划 </li><li>240 分钟国内调用规划</li></li><li>1200 minute 国内调用规划 </li></li><li>国内和国际呼叫规划： 1200 分钟国内国际呼叫 （无论到达第一个日历月中）-或-600 分钟</li></li> 
 |可以发起出站呼叫到声讯电话号码？ <br/> | 是，完全支持这一次。 <br/> |
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
    

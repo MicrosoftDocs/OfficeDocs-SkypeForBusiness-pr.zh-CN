@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 会议迁移服务 (MMS) 是在后台运行，并为用户的业务和 Microsoft 团队会议将自动更新 Skype 业务服务 Skype。 MMS 旨在消除用户运行会议迁移工具需要更新其 Skype 业务和 Microsoft 团队的会议。
-ms.openlocfilehash: 4a1cdc03945e6399b4c77dd12b800fd25b2401cc
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: b5484459fc01337bd9eb2dad38e9f0e3349abd07
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561703"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674582"
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>设置会议迁移服务 (MMS)
 
@@ -182,7 +182,7 @@ Get-CsMeetingMigrationStatus -UserId "ashaw@contoso.com"
 1. 确定受影响的用户。运行以下命令获取受影响的用户列表，以及报告的具体错误：
     
    ```
-   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastErrorMessage
+   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastMessage
    ```
 
 2. 为其中的每个用户运行[会议迁移工具](https://go.microsoft.com/fwlink/p/?linkid=626047)以手动迁移他们的会议。

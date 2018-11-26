@@ -3,22 +3,22 @@ title: 来宾体验介绍
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 10/20/17
+ms.date: 11/26/18
 ms.topic: article
 ms.service: msteams
-ms.reviewer: laal
+ms.reviewer: sbhatta
 search.appverid: MET150
 description: 了解来宾用户可用的 Microsoft Teams 功能。
 localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 921617c2f9a4a1bcc9f38030bdcea0d72c7f54aa
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 55f1a2ae8c958dba9dbdd71b9b271944dad1f50c
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016514"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674550"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
@@ -31,7 +31,7 @@ ms.locfileid: "25016514"
   
     
     
-![此屏幕截图显示了 Microsoft Teams 中的一个团队所有者向一个来宾用户发送的欢迎电子邮件。 该邮件包括团队所有者可以自定义的文本以及 Teams 功能（例如，聊天、通话和会议）的简要说明。](media/bc0deb82-6394-4280-8fed-312645c8fefe.png)
+![由 Microsoft 团队中的团队所有者发送到来宾用户欢迎电子邮件的示例。 该邮件包括团队所有者可以自定义的文本以及 Teams 功能（例如，聊天、通话和会议）的简要说明。](media/guest-experience-image1.png)
   
     
     
@@ -43,7 +43,7 @@ ms.locfileid: "25016514"
   
     
     
-![此屏幕截图显示了 Northwind Traders 的 Marketing 频道的一部分，顶部横幅中的通知显示“This team has guests”，身为来宾的用户通过其姓名旁边的词语“GUEST”标识。](media/33394a31-7d10-4950-8b39-b7d9953397c3.png)
+![此屏幕截图显示了 Northwind Traders 的 Marketing 频道的一部分，顶部横幅中的通知显示“This team has guests”，身为来宾的用户通过其姓名旁边的词语“GUEST”标识。](media/guest-experience-image2.png)
   
     
     
@@ -70,8 +70,57 @@ ms.locfileid: "25016514"
 |发现和加入公用团队  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |查看组织结构图  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
+下表显示为来宾可用的呼叫和会议功能。
 
-    
+| 呼叫功能 | 来宾 | E1 和 E3 用户 | E5 和 EV 用户 |
+| --------------- | ----- | -------------- | -------------- |
+| VOIP 呼叫 | 是 | 是 | 是 |
+| 组呼叫 | 是 | 是 | 是 |
+| 核心呼叫控件支持 （保留，设置为静音，视频开/关屏幕共享） | 是 | 是 | 是 |
+| 传送目标 | 是 | 是 | 是 |
+| 可以将呼叫转接 | 是 | 是 | 是 |
+| 可以咨询转接 | 是 | 是 | 是 |
+| 可以通过 VOIP 呼叫中添加其他用户 | 是 | 是 | 是 |
+| 可以向呼叫添加用户的电话号码 | 否 | 否 | 是 |
+| 转发目标 | 否 | 是 | 是 |
+| 呼叫组目标 | 否 | 是 | 是 |
+| 未应答的目标 | 否 | 是 | 是 |
+| 可以是呼叫的联盟的目标 | 否 | 是 | 是 |
+| 可以进行联盟的呼叫 | 否 | 是 | 是 |
+| 可以将其呼叫立即转接 | 否 | 否 | 是 |
+| 可以同时拨打其电话 | 否 | 否 | 是 |
+| 可以将其未应答的呼叫路由 | 否 | 否 | 是 |
+| 错过的呼叫可以转到语音邮件 | 否 | 没有<sup>1</sup> |是 |
+| 可以接听了电话号码 | 否 | 否 | 是 |
+| 可拨打的电话号码 | 否 | 否 | 是 |
+| 可以访问呼叫设置 | 否 | 否 | 是 |
+| 可以更改语音邮件问候语 | 否 | 没有<sup>1</sup> | 是 |
+| 可以更改铃声 | 否 | 否  | 是 |
+| 支持 TTY | 否 | 否 | 是 |
+| 可以将代理人 | 否 | 否 | 是 |
+|  可委派 | 否 | 否 | 是 |
+
+
+<sup>1</sup>此功能将很快可用。
+
+
+
 > [!NOTE]
 > Office 365 管理员控制来宾可用的功能。 
   
+## <a name="frequently-asked-questions"></a>常见问题
+  
+Q。 来宾有相同的功能团队成员吗？答: 否。 有关哪些来宾可以和无法执行的操作的详细信息，请转到团队中的来宾功能。
+
+Q。 可以邀请多少来宾？答： 您可以添加到每个许可用户 5 来宾为止。
+
+Q。 来宾是否有权 OneDrive for Business？答: 否。
+
+Q。 来宾有权访问 SharePoint 文件？答: 是。
+
+Q。 可以在文件中搜索来宾？答: 否。
+
+Q。 来宾可以附加文件？答: 是，可以将来宾附加这两种方式中的文件: • 在左窗格中，选择文件，然后浏览到文件位置。
+• 从其计算机的上载。
+
+Q。 来宾您可以下载私人聊天中的文件。答: 是，他们可以接收来自私人聊天中的成员的文件，然后将其下载到他们的桌面。

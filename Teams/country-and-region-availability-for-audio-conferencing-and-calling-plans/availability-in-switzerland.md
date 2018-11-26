@@ -26,14 +26,17 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 瑞士可用的项目。
-ms.openlocfilehash: 022908195a6de8aacc4ba26ebe5397b14cb763e0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 22ec9173e00621694512f939818ed0987f5988d5
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012382"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674695"
 ---
 # <a name="availability-in-switzerland"></a>瑞士的可用性
+
+> [!NOTE]
+> 您可以获取**服务**号码中瑞士用于与会议自动助理和电话队列，但您无法在瑞士中获取**用户**号码，如调用计划不可用。
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
@@ -44,7 +47,7 @@ ms.locfileid: "25012382"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，为： <br/><ul><li> 苏黎世</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，为： <br/><ul><li> Zurich</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -68,7 +71,7 @@ ms.locfileid: "25012382"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |苏黎世  <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |Zurich  <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

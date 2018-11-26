@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 本文列出了在加拿大可用的适用于 Skype for Business 和 Microsoft Teams 的 Office 365 服务。
-ms.openlocfilehash: 5f0f75a747ccc80bbe4a6e0a10a925c3e6b91bdb
-ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
+ms.openlocfilehash: c88d233f3b4120b202ac09f2b48406d21f896b75
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25495595"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674791"
 ---
 # <a name="availability-in-canada"></a>在加拿大的可用性
 
@@ -61,7 +61,7 @@ ms.locfileid: "25495595"
 | **功能**                                        | **详细信息**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 是否可购买通话套餐？  <br/>    | 是  <br/>                                                                                                                                                                                                                                                                  |
-| 适用于调用计划的分钟数。               | 每月有可用的四个规划选项： <ul><li>120 分钟国内调用规划 </li><li>240 分钟国内调用规划</li></li><li>3000 minute 国内调用规划 </li></li><li>3000 国内和国际 600 的分钟数国内和国际呼叫计划</li></li> |
+| 适用于调用计划的分钟数。               | 每月有可用的四个规划选项： <ul><li>120 分钟国内调用规划 </li><li>240 分钟国内调用规划</li></li><li>3000 minute 国内调用规划</li></li><li>国内和国际呼叫规划： 3000 分钟国内国际呼叫 （无论到达第一个日历月中）-或-600 分钟</li>|
 | 可以发起出站呼叫到声讯电话号码？  <br/> | 不支持这一次。<br/>                                                                                                                                                                                                                                            |
 | 是否可以拨打呼出电话？  <br/>                 | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/>                                                                                                                                                                  |
 
