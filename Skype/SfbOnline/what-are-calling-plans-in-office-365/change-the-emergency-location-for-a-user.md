@@ -1,5 +1,5 @@
 ---
-title: 更改用户的紧急位置
+title: 分配或更改用户的紧急位置
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,21 +20,21 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: '了解如何更改您的用户的紧急位置。使用任意数量的位置，您可以更改紧急位置，员工移动楼层或建筑。 '
-ms.openlocfilehash: 7ebec7ca6a2180702eec9e24b3165eb501d4a097
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'Learn how to change the emergency location for your users. With an unlimited number of locations, you can change emergency locations as employees move floors or buildings. '
+ms.openlocfilehash: 292789b19899f01478e44a183236960282ac6330
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347108"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676414"
 ---
-# <a name="change-the-emergency-location-for-a-user"></a>更改用户的紧急位置
+# <a name="assign-or-change-the-emergency-location-for-a-user"></a>分配或更改用户的紧急位置
 
-当将电话号码分配给用户时，每个活动的电话号码必须有一个紧急地址（当在 Office 365 接电话或当转接电话号码时关联）。 当您将号码与紧急地址关联数时，还可以添加紧急位置以提供更精确位置的物理位置。 紧急位置可以是用户所在的楼层、侧楼或办公室编号。 给定的紧急地址可以具有任意的数量的位置，并且如果用户转到其他办公室或建筑，您可以更改紧急位置 — 例如，如果用户从 34 楼转到 35 楼。
+为用户分配的电话号码时，每个活动的电话号码必须具有关联的紧急地址。 （您将地址相关联时在 Office 365 或转接电话号码时获取电话号码。）当您将与紧急地址关联数时，还可以添加的紧急位置提供更精确位置中的物理位置。 紧急位置可以是用户所在的楼层、侧楼或办公室编号。 给定的紧急地址可以具有任意的数量的位置，并且如果用户转到其他办公室或建筑，您可以更改紧急位置 — 例如，如果用户从 34 楼转到 35 楼。
   
 若要了解如何获取 Office 365 中的通话套餐以及它们的价格，请参阅 [Skype for Business 和 Microsoft Teams 加载项授权](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
   
-## <a name="change-the-emergency-location-for-a-user"></a>更改用户的紧急位置
+## <a name="assign-or-change-the-emergency-location"></a>分配或更改的紧急位置
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
@@ -52,10 +52,12 @@ ms.locfileid: "25347108"
 6. 在" **分配号码**"页面上，单击" **更改位置**"。 
     
 7. 在**更改紧急地址**框中输入市/县的名称，单击**搜索**。
+
+8. 从下拉列表中选择**的位置的搜索**中，输入位置的部分名称 （例如，输入**floor**），然后单击**搜索**。 
     
 8. 从列表中选择的紧急位置，然后单击**保存**。
     
-    如果您想要添加新的紧急位置，请参阅[添加、 更改或删除您的组织的紧急位置](add-change-or-remove-an-emergency-location-for-your-organization.md)。
+    如果您想要在列表中添加新的紧急位置将显示，请参阅[添加、 更改或删除您的组织的紧急位置](add-change-or-remove-an-emergency-location-for-your-organization.md)。
     
 ## <a name="related-topics"></a>相关主题
 [为你的组织添加或删除紧急地址](add-or-remove-an-emergency-address-for-your-organization.md)

@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: '学习添加、更改或删除组织的公用电话交换网 (PSTN) 上 Skype for Business 使用的紧急位置。 '
-ms.openlocfilehash: 43a8ac0759fd8dc949953fe22cb73c00a96f4314
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
+ms.openlocfilehash: 81a70264e5b8a7f316a9c64e3fa6104d193dec66
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347049"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676432"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>添加、 更改或删除您的组织紧急地点
 

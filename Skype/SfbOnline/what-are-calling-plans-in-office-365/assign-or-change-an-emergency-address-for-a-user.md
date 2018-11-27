@@ -20,17 +20,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 了解如何为你的每个使用公用电话交换网 (PSTN) 的用户设置紧急地址和电话号码。
-ms.openlocfilehash: 10b22db9e50c1913124d021bff1cc7c285c1f52c
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: Learn how to set up an emergency address and phone number for each of your users that works with the Public Switched Telephone Network (PSTN).
+ms.openlocfilehash: c16e53df15d46457501c75ad5adcb0882d8fe875
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347022"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676394"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>为用户分配或更改紧急地址
 
-当您要设置调用计划在 Office 365 中时，将需要为每个用户分配电话号码和紧急地址。 必须先创建紧急地址，然后才能将其与电话号码关联。 请参阅[紧急位置、地址和呼叫路由是什么？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)了解详细信息。
+当设置 Office 365 的通话套餐时，需要将紧急地址分配给每个电话号码或用户。 在欧洲国家/地区，当从 Office 365 获取或将电话号码转到 Office 365 时，紧急地址将与电话号码关联。 在美国，紧急地址在被分配给用户时与电话号码关联。 如果分配给的用户移至新的位置，可以更改紧急地址。 有关紧急地址和位置有关详细信息，请参阅[紧急位置、 地址和呼叫路由是什么？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
   
 若要了解如何获取 Office 365 中的通话套餐以及它们的价格，请参阅 [Skype for Business 和 Microsoft Teams 加载项授权](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
   
@@ -49,7 +49,7 @@ ms.locfileid: "25347022"
     
 5. 在操作窗格中，在" **紧急位置**"下，单击" **更改**"。
     
-    > [!NOTE]
+    > [!IMPORTANT]
     > [!重要信息] 只能更改已验证的紧急地址。 若要更改未通过验证的紧急地址，请将其删除，并创建另一个紧急地址。 
   
 6. 在" **分配号码**"页面上，单击" **更改位置**"。
@@ -59,6 +59,11 @@ ms.locfileid: "25347022"
 8. 从地址下拉列表中，选择紧急地址，然后单击**保存**。 
     
 ## <a name="related-topics"></a>相关主题
+## <a name="related-topics"></a>相关主题
+[添加、 更改或删除您的组织的紧急地址](add-or-remove-an-emergency-address-for-your-organization.md)
+
+[添加、更改或删除你的组织的紧急位置](add-change-or-remove-an-emergency-location-for-your-organization.md)
+
 [什么是地址验证？](what-is-address-validation.md)
 
 [管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)

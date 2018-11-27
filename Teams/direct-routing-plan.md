@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 阅读本主题可了解如何 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。
-ms.openlocfilehash: a26dfc51e1a885569a37200d8613879e8f3bd484
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: d3b102dc09011e5990a42c608d78c6bb3f414ff7
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531984"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676549"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -221,6 +221,21 @@ SBC 使 DNS 查询解析 sip.pstnhub.microsoft.com。 根据 SBC 位置和数据
 
   > [!NOTE]
   > Microsoft 建议每个并发呼叫 SBC 上至少两个端口。
+
+## <a name="media-traffic-codecs"></a>媒体流量： 编解码器
+
+### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>SBC 和云媒体处理器或 Microsoft 团队的客户端之间的线路。
+适用于媒体绕过案例和无绕过用例
+
+之间的会话边界控制器和云媒体处理器 （不存在媒体旁路） 或团队客户端和 SBC （如果已启用媒体绕过） 之间的线路上的直接路由界面可以使用以下编解码器: • 非媒体绕过 (到云介质的 SBC处理器）： 绞丝 G.711、 G.722、 G、 729 • 媒体绕过 (SBC 团队客户端): 绞丝 G.711、 G.722、 G、 729，作品
+
+可以通过从费排除不需要的编解码器会话边界控制器上强制使用特定的编解码器。
+
+### <a name="leg-between-microsoft-teams-client--and-cloud-media-processor"></a>Microsoft 团队客户端和云媒体处理器之间的线路
+适用于非媒体绕过只有大小写。 与直接团队客户端和 SBC 之间的媒体绕过媒体流
+
+在云媒体处理器和 Microsoft 团队客户端之间的线路绞丝或 G.722 使用。 在基于 Microsoft 算法，请考虑多个参数此线路编码解码器选择。 
+
 
 ## <a name="supported-session-border-controllers-sbcs"></a>支持会话边界控制器 (Sbc)
 

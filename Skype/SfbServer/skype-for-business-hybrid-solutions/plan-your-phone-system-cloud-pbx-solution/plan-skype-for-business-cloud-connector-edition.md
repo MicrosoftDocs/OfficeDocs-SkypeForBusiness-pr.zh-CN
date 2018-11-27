@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 查找有关 Skype for Business 云连接器版本的信息，云连接器是一组打包的虚拟机 (Vm)，这些虚拟机负责通过 Office 365 中的电话系统（云 PBX）实施本地 PSTN 连接。
-ms.openlocfilehash: b98ba65555e8e94c743a87299b920f9ffd5efbfb
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6fcdaf3d3186effa5bb88f1252d51537dd1dba5f
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372522"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676476"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>规划 Skype for Business 云连接器版本
 
@@ -32,7 +32,7 @@ ms.locfileid: "25372522"
 
 本文档介绍云连接器 Edition 要求和支持的拓扑，并帮助您规划云连接器 Edition 部署。 请务必阅读本主题之前配置云连接器环境。 当已准备好部署和配置云连接器 Edition，请参阅[配置和管理业务云连接器 edition Skype](configure-skype-for-business-cloud-connector-edition.md)。
 
-云连接器 Edition 2.1 现已推出。 如果尚未升级到 2.1，请参阅[升级到新版本的云连接器](upgrade-to-a-new-version-of-cloud-connector.md)。 您可以安装在找到文件[https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)。
+云连接器 Edition 2.1 现已推出。 如果你尚未升级到 2.1，请参阅[Upgrade to a new version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md)。 您可以安装在找到文件[https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)。
 
 > [!NOTE]
 > Microsoft 支持的发行版的新版本后 60 天以前版本的云连接器 Edition。 Microsoft 会在 2.1 版发布后 60 天内继续支持 2.0.1 版，为你预留时间进行升级。 2.0.1 之前的所有版本不再受支持。
@@ -49,7 +49,7 @@ ms.locfileid: "25372522"
 
 规划云连接器 Edition 部署时，请考虑以下：
 
-- 若要使用云连接器充分利用云语音解决方案，您将需要注册 Office 365 中包括电话系统的 Office 365 租户。 如果您还没有 Office 365 租户可以了解如何在此处注册： [Office 365 的业务](https://products.office.com/en-us/business/office)。 请注意，您需要注册业务 online 包括 Skype 的计划。
+- 若要使用云连接器充分利用云语音解决方案，您将需要注册 Office 365 中包括电话系统的 Office 365 租户。 如果没有 Office 365 租户，你可以在此处了解如何注册：[Office 365 商业版](https://products.office.com/en-us/business/office)。 请注意，您需要注册业务 online 包括 Skype 的计划。
 
 - 若要注册的业务联机服务 Skype 云连接器 appliance 并运行各种 cmdlet，云连接器 2.0 及更高版本要求与 Skype 的专用的 Office 365 帐户进行业务租户管理员权限。 2.0 之前的云连接器版本需要具有专用的 Office 365 帐户以及租户全局管理员权限。
 
@@ -65,11 +65,13 @@ ms.locfileid: "25372522"
 
 - 如果需要，您可以继续使用当前 PSTN 运营商。
 
-- 如果您希望向云连接器上承载的用户提供拨入式会议，您可以从 Microsoft 或音频会议提供商 (ACP) 合作伙伴购买 PSTN 会议。
+- 如果您希望向云连接器上承载的用户提供拨入式会议，您可以从 Microsoft 购买 PSTN 会议许可证或付费音频会议提供。
+
+- 音频会议许可 （或付费版） 也是必需的呼叫升级。 如果业务用户 Skype 接收来自外部 PSTN 用户的调用，并希望将一个更多参与者添加到该呼叫 （向会议呼叫提升），将通过 Microsoft 音频会议服务执行升级。
 
 - 现在，云连接器 2.0 版和更高版本支持媒体旁路。 媒体绕过允许客户端媒体直接发送到下一个跃点公共公用电话交换网 (PSTN) — 网关或会话边界控制器 (SBC) — 并消除通过的媒体路径中的云连接器 Edition 组件。 有关详细信息，请参阅[规划媒体绕过云连接器版本中](plan-for-media-bypass-in-cloud-connector-edition.md)。
 
-- 云连接器 2.1 及更高版本支持使用 Operations Management Suite (OMS) 监视云连接器。 有关详细信息，请参阅[监视器云连接器使用操作管理套件 (OMS)](monitor-cloud-connector-using-operations-management-suite-oms.md)
+- 云连接器 2.1 及更高版本支持使用 Operations Management Suite (OMS) 监视云连接器。 有关详细信息，请参阅[Monitor Cloud Connector using Operations Management Suite (OMS)](monitor-cloud-connector-using-operations-management-suite-oms.md)
 
 - 云连接器位于 Office 365 企业 E5 位于其中的所有国家/地区。 但是，由于各种法规，云连接器无法配置租户位置设置为以下国家/地区之一： 阿尔及利亚、 孟加拉、 博茨瓦纳、 文莱、 喀麦隆，科特迪瓦，加纳、 黎巴嫩、 澳门，毛里求斯、 纳米比亚、 巴拉圭，塞内加尔。
 
@@ -112,7 +114,7 @@ ms.locfileid: "25372522"
 
 - **出站路由**-提供负载平衡的网关之间的语音流量或 Sbc 连接到云连接器 appliance。 通话将在连接到云连接器设备的所有网关或 SBC 之间平均拆分。
 
-    提供了路由到基于策略的网关。 仅基于目标（出站）PSTN 号码的全局策略受支持。
+    根据策略实现向网关路由。 仅支持基于目标（出站）PSTN 号码的全局策略。
 
 - **中央管理存储 (CMS) 角色**-包括拓扑组件，包括 CMS 文件传输的配置存储。
 
@@ -137,7 +139,7 @@ ms.locfileid: "25372522"
 
 - 通过部署单个 PSTN 网站内的多个云连接器装置允许高可用性。
 
-本主题介绍了 PSTN 网站。 有关规划 PSTN 网站的详细信息，请参阅[规划云连接器 Edition PSTN 的网站](plan-for-cloud-connector-edition-pstn-sites.md)。
+本主题介绍了 PSTN 网站。 有关规划 PSTN 网站的详细信息，请参阅[Plan for Cloud Connector Edition PSTN sites](plan-for-cloud-connector-edition-pstn-sites.md)。
 
 您可以部署下列云连接器拓扑：
 
@@ -159,7 +161,7 @@ ms.locfileid: "25372522"
 
 - 如果您拥有云连接器 2.0 或更高版本，并且部署 （具有较大的硬件） 的 16 装置的最大配置，您 PSTN 的网站可以处理达 8000 个并发呼叫。 如果部署小型版本，支持的限制为 800。
 
-    你还需要将某些设备专用于高可用性。最低建议是应保留一个设备用于高可用性。
+    你还需要将某些设备专用于高可用性。 最低建议是应保留一个设备用于高可用性。
 
   - 使用版本 2，如果部署 15 + 1 的配置，PSTN 站点可以处理多达 7,500 个呼叫。
 
@@ -196,7 +198,7 @@ ms.locfileid: "25372522"
 
 ### <a name="multiple-pstn-sites-with-one-or-more-cloud-connectors-per-site"></a>多个 PSTN 网站，每个网站一个或多个云连接器
 
-你还可以选择配置多个 PSTN 站点，并且每个站点具有一个或多个云连接器版本。如果 PSTN 站点达到并发呼叫限制，你可以添加另一个 PSTN 站点来处理负载。
+你还可以选择配置多个 PSTN 站点，并且每个站点具有一个或多个云连接器版本。 如果 PSTN 站点达到并发呼叫限制，你可以添加另一个 PSTN 站点来处理负载。
 
 多个 PSTN 网站也使你能够提供到最靠近你的用户的网关的连接。 例如，假设你在西雅图和阿姆斯特丹都有 PSTN 网关。 你可以部署两个 PSTN 网站（一个位于西雅图，另一个位于阿姆斯特丹），并指定用户使用最靠近他们的 PSTN 网站。 西雅图的用户将路由到西雅图的 PSTN 网站和网关，而阿姆斯特丹的用户将路由到阿姆斯特丹的 PSTN 网站和网关：
 
@@ -237,7 +239,7 @@ ms.locfileid: "25372522"
 
 - 如果在主机上需要代理服务器来浏览 Internet，则必须进行下列配置更改：
 
-  - 若要绕过代理服务器，指定 WinHTTP 代理设置，设置您的代理服务器和绕过列表包括"192.168.213。\*"用于您的云连接器管理服务和 Skype 业务企业网络子网 CloudConnector.ini 文件中定义的网络。 否则为管理连接将失败并阻止的部署和云连接器的自动恢复。 下面是示例 winhttp 配置命令： netsh winhttp 设置代理"10.10.10.175:8080"绕过列表 ="\*.local; 1。\*; 172.20。\*; 192.168.218。\*\<本地\>"。
+  - 若要绕过代理服务器，指定 WinHTTP 代理设置，设置您的代理服务器和绕过列表包括"192.168.213。\*"用于您的云连接器管理服务和 Skype 业务企业网络子网 CloudConnector.ini 文件中定义的网络。 否则，管理连接将失败，并将阻止部署和自动恢复 CloudConnector_shortest。 下面是示例 winhttp 配置命令： netsh winhttp 设置代理"10.10.10.175:8080"绕过列表 ="\*.local; 1。\*; 172.20。\*; 192.168.218。\*\<本地\>"。
 
   - 指定每台计算机，而不是每个用户的代理设置。 否则将失败云连接器下载。 使用注册表更改或组策略设置，如下所示，可以指定每台计算机的代理设置：
 
@@ -247,7 +249,7 @@ ms.locfileid: "25372522"
 
 - 合格的 PBX/Trunk 或合格的 SBC/网络（建议至少使用两个网关）。
 
-    云连接器支持经过认证适用于 Skype for Business 的相同会话边界控制器 (SBC)。 有关详细信息，请参阅[for Business 的 Skype 的电话基础结构](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。
+    云连接器支持经过认证适用于 Skype for Business 的相同会话边界控制器 (SBC)。 有关详细信息，请参阅 [Skype for Business 的电话基础结构](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。
 
 - 安装和配置 HYPER-V 主机服务器上的权限与本地服务器管理员帐户。 帐户必须在安装和配置了 Hyper-V 的本地服务器上具有管理员权限。
 
@@ -255,7 +257,7 @@ ms.locfileid: "25372522"
 
 - 外部 DNS 记录，这些记录是在安装程序包附带的 CloudConnector.ini 文件中定义的：
 
-  - 边缘组件; 的访问边缘服务的外部 DNS 记录例如，ap.\<域名\>。 每个 PSTN 网站都需要一个记录。 此记录必须包含该网站的所有边缘的 IP 地址。
+  - 边缘组件; 的访问边缘服务的外部 DNS 记录例如，ap.\<域名\>。 每个 PSTN 站点都需要一个记录。 此记录必须包含该网站所有边缘的 IP 地址。
 
 - 创建所有必需的 DNS 和 SRV 记录与 Office 365 租户。
 
@@ -282,7 +284,7 @@ ms.locfileid: "25372522"
 > 若要运行云连接器的最低硬件指南基于基本硬件容量 （内核、 MHz、 千兆字节，等） 带一些缓冲区以适应无形性能障碍隐藏在任何计算机的体系结构。 Microsoft 已对市场上出售的满足最低指导要求的硬件运行了最坏情况下的负载测试。 介质质量和系统性能都经过验证。 Microsoft 官方云连接器装置伙伴有特定云连接器硬件实现在其他们独立地进行测试性能及其代表通过其满足负载和质量要求的硬件的适用性。
 
 > [!NOTE]
-> AudioCodes 和 Sonus 生产的设备已修改了代码，并在 Windows Server Standard Edition 的服务器上运行。这些设备受支持。
+> AudioCodes 和 Sonus 生产的设备已修改了代码，并在 Windows Server Standard Edition 的服务器上运行。 这些设备受支持。
 
 ## <a name="information-you-need-to-gather-before-deployment"></a>您需要在部署之前收集的信息
 <a name="BKMK_PlanDeployment"> </a>
@@ -349,7 +351,7 @@ ms.locfileid: "25372522"
 
 \*这是中介组件上的默认端口范围。 为获得最佳呼叫流，每个呼叫需要四个端口。
 
-\*\*此端口必须配置 SBC/PSTN 网关;5060 是一个示例。 您可以在 SBC/PSTN 网关上配置其他端口。
+\*\*此端口必须配置 SBC/PSTN 网关;5060 是一个示例。 你可以在 SBC/PSTN 网关上配置其他端口。
 
 \*\*\*请注意，您还可以限制的端口范围 SBC/网关是否允许 SBC/网关制造商。
 
@@ -417,12 +419,12 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |方向  <br/> |源 IP  <br/> |目标 IP  <br/> |源端口  <br/> |目标端口  <br/> |协议  <br/> |用途  <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |出站  <br/> |云连接器主机 Ip  <br/> |任何  <br/> |任何  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
-|出站  <br/> |云连接器主机 Ip  <br/> |任何  <br/> |任何  <br/> |80、 443  <br/> |TCP  <br/> |证书吊销列表 (CRL)  <br/> |
-|出站  <br/> |云 Connectorr 主机 Ip  <br/> |任何  <br/> |任何  <br/> |80、 443  <br/> |TCP  <br/> |云连接器更新  <br/> Skype for Business Online  <br/> 管理 PowerShell  <br/> Windows 更新  <br/> |
+|出站  <br/> |云连接器主机 Ip  <br/> |任何  <br/> |任何  <br/> |80, 443  <br/> |TCP  <br/> |证书吊销列表 (CRL)  <br/> |
+|出站  <br/> |云 Connectorr 主机 Ip  <br/> |任何  <br/> |任何  <br/> |80, 443  <br/> |TCP  <br/> |云连接器更新  <br/> Skype for Business Online  <br/> 管理 PowerShell  <br/> Windows 更新  <br/> |
 
 如果需要限制性更强的规则，请参阅以下白名单 URL：
 
-- [Office 365 Url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)中的[证书吊销列表 Url](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)
+- [Office 365 URL 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)中的[证书吊销列表 URL](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
 - Windows 更新：[如何配置软件更新的防火墙](https://technet.microsoft.com/en-us/library/bb693717.aspx)
 
@@ -459,7 +461,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 当配置网关信息时，请记住以下事项：
 
-- 如果你只有一个网关，请在 .ini 文件中删除第二个网关的该部分。如果网关超过两个，请按照现有格式添加新网关。
+- 如果你只有一个网关，请在 .ini 文件中删除第二个网关的该部分。 如果网关超过两个，请按照现有格式添加新网关。
 
 - 请确保网关的 IP 地址和端口正确。
 
@@ -472,7 +474,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |**网站参数**|**说明**|**说明**|
 |:-----|:-----|:-----|
 |虚拟机域名  <br/> |云连接器的内部组件的域名。 此域应不同于生产域。 该名称必须在所有云连接器设备上都是相同的。  <br/> .Ini 文件中的名称:"VirtualMachineDomain"  <br/> |.local 域为首选。  <br/> |
-|云连接器域控制器名称  <br/> |域控制器的名称。  <br/> .Ini 文件中的名称:"服务器名称"  <br/> |必须为 15 个字符或更少。请仅输入 Netbios 名称。  <br/> |
+|云连接器域控制器名称  <br/> |域控制器的名称。  <br/> .Ini 文件中的名称:"服务器名称"  <br/> |必须为 15 个字符或更少。 请仅输入 Netbios 名称。  <br/> |
 |云连接器域控制器 IP/子网掩码  <br/> |域控制器的 IP 地址。  <br/> .Ini 文件中的名称:"IP"  <br/> ||
 |O365 联机服务 FQDN  <br/> |必须在世界各地的 O365 实例的大多数情况下默认值。  <br/> .Ini 文件中的名称:"OnlineSipFederationFqdn"  <br/> ||
 |SiteName  <br/> |Skype 业务网站名称;例如，西雅图。  <br/> .Ini 文件中的名称:"SiteName"  <br/> 对于 1.4.1 版及更高版本，各个站点的站点名称不能相同，并且名称必须与 Office 365 中定义的 PSTN 站点（如果存在）匹配。 请注意，在站点中注册第一台设备时，将会自动创建 PSTN 站点。  <br/> ||
@@ -488,22 +490,22 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |外部网络的交换机名称  <br/> |用于外部云连接器网络的开关的名称。  <br/> 在大多数情况下，可以使用建议的值。  <br/> .Ini 文件中的名称:"InternetSwitchName"下"参数池的虚拟网络  <br/> ||
 |内部网络的默认网关  <br/> |此网关必须提供 Internet 访问 （Internet 还需要设置 DNS 服务器） 并将云连接器组件的内部接口上配置。  <br/> .Ini 文件中的名称:"CorpnetDefaultGateway"下"参数池的虚拟网络  <br/> ||
 |边缘组件的外部接口的默认网关  <br/> |将在边缘组件的外部接口上配置。  <br/> .Ini 文件中的名称:"InternetDefaultGateway"下"参数池的虚拟网络  <br/> ||
-|内部网络的 DNS 服务器  <br/> |将在临时虚拟机的内部接口上配置。必须为 Internet 名称提供名称解析。如果不提供 DNS 服务器，Internet 连接将失败，部署无法完成。  <br/> .Ini 文件中的名称:"CorpnetDNSIPAddress"下"参数池的虚拟网络  <br/> ||
+|内部网络的 DNS 服务器  <br/> |将在临时虚拟机的内部接口上配置。 必须为 Internet 名称提供名称解析。 如果不提供 DNS 服务器，Internet 连接将失败，部署无法完成。  <br/> .Ini 文件中的名称:"CorpnetDNSIPAddress"下"参数池的虚拟网络  <br/> ||
 |边缘组件的外部接口的 DNS 服务器  <br/> |将在边缘的外部接口上配置。  <br/> .Ini 文件中的名称:"InternetDNSIPAddress"下"参数池的虚拟网络  <br/> ||
 |管理交换机名称。  <br/> |管理开关是临时的开关将自动创建，并的将用于在部署期间云连接器的配置。 部署之后将自动断开连接。 它必须是云连接器中使用的任何其他网络不同的子网。  <br/> 在大多数情况下，可以使用建议的值。  <br/> .Ini 文件中的名称:"ManagementSwitchName"下"参数池的虚拟网络  <br/> ||
 |管理子网地址/子网掩码  <br/> |管理子网是临时子网将自动创建，并的将用于在部署期间云连接器的配置。 部署之后将自动删除。 它必须是云连接器中使用的任何其他网络不同的子网。  <br/> .Ini 文件中的名称:"ManagementIPPrefix"和"ManagementIPPrefixLength"下"参数池的虚拟网络  <br/> ||
-|中央管理存储 (CMS) 计算机  <br/> |用于中央管理存储 (CMS) 的单个 FQDN。AD 域名将用于生成 FQDN。  <br/> .Ini 文件中的名称:"服务器名称"下"参数的主中央管理服务  <br/> |必须为 15 个字符或更少。请仅输入 Netbios 名称。  <br/> （CMS 池名称 = 服务器名称）  <br/> |
+|中央管理存储 (CMS) 计算机  <br/> |用于中央管理存储 (CMS) 的单个 FQDN。 AD 域名将用于生成 FQDN。  <br/> .Ini 文件中的名称:"服务器名称"下"参数的主中央管理服务  <br/> |必须为 15 个字符或更少。请仅输入 Netbios 名称。  <br/> （CMS 池名称 = 服务器名称）  <br/> |
 |CMS 计算机 IP 地址  <br/> |CMS 服务器 （内部外围网络中） 的 IP 地址。  <br/> INI 文件中的名称:"IP"下"参数的主中央管理服务  <br/> ||
 |文件共享名称   <br/> |要在服务器上创建 CMS 的 Skype 业务复制数据 (例如，CmsFileStore) 的文件共享名称。  <br/> 在大多数情况下，可以使用建议的值。  <br/> .Ini 文件中的名称:"CmsFileStore"下"参数的主中央管理服务  <br/> ||
-|中介组件池名称  <br/> |中介组件的池名称。请仅输入 Netbios 名称。AD 域名将用于生成 FQDN。  <br/> .Ini 文件中的名称:"参数的中介服务器池的"下的"PoolName"  <br/> |必须为 15 个字符或更少。请仅输入 Netbios 名称。  <br/> |
-|中介组件名称  <br/> |中介组件 1 的组件名称。请仅输入 Netbios 名称。AD 域名将用于生成 FQDN。  <br/> .Ini 文件中的名称:"参数的中介服务器池的"下的"服务器名称"  <br/> |必须为 15 个字符或更少。请仅输入 Netbios 名称。  <br/> |
+|中介组件池名称  <br/> |中介组件的池名称。 请仅输入 Netbios 名称。 AD 域名将用于生成 FQDN。  <br/> .Ini 文件中的名称:"参数的中介服务器池的"下的"PoolName"  <br/> |必须为 15 个字符或更少。 请仅输入 Netbios 名称。  <br/> |
+|中介组件名称  <br/> |中介组件 1 的组件名称。 请仅输入 Netbios 名称。 AD 域名将用于生成 FQDN。  <br/> .Ini 文件中的名称:"参数的中介服务器池的"下的"服务器名称"  <br/> |必须为 15 个字符或更少。 请仅输入 Netbios 名称。  <br/> |
 |中介组件计算机 IP 地址  <br/> |内部企业网络 IP 中介组件 （内部外围网络中）。  <br/> .Ini 文件中的名称:"参数的中介服务器池的"下的"IP"  <br/> ||
-|边缘池内部名称  <br/> |边缘组件的池名称。请仅输入 Netbios 名称。AD 域名将用于生成 FQDN。  <br/> .Ini 文件中的名称:"参数池的边缘服务器"下的"InternalPoolName"  <br/> |必须为 15 个字符或更少。请仅输入 Netbios 名称。  <br/> |
+|边缘池内部名称  <br/> |边缘组件的池名称。 请仅输入 Netbios 名称。 AD 域名将用于生成 FQDN。  <br/> .Ini 文件中的名称:"参数池的边缘服务器"下的"InternalPoolName"  <br/> |必须为 15 个字符或更少。 请仅输入 Netbios 名称。  <br/> |
 |边缘服务器内部名称  <br/> |边缘组件的组件名称。请仅输入 Netbios 名称。AD 域名将用于生成 FQDN。  <br/> .Ini 文件中的名称:"参数池的边缘服务器"下的"InternalServerName"  <br/> |必须为 15 个字符或更少。请仅输入 Netbios 名称。  <br/> |
 |边缘服务器内部 IP   <br/> |内部外围网络边缘的 IP 组件与云连接器的其他组件进行通信。  <br/> .Ini 文件中的名称:"参数池的边缘服务器"下的"InternalServerIPs"  <br/> ||
-|访问池外部名称  <br/> |访问边缘的名称；例如，AP。 此名称必须与为 SSL 证书提供的名称相匹配。 请仅输入 Netbios 名称。 SIP 域名将用于生成 FQDN。 一个外部池名称将用于在池中的所有边缘组件。 每个 PSTN 网站需要安装一个边缘访问池。  <br/> .Ini 文件中的名称:"参数池的边缘服务器"下的"ExternalSIPPoolName"  <br/> |必须为 15 个字符或更少。请仅输入 Netbios 名称。  <br/> "sip"保留，因此不能用作名称。  <br/> 生成的 FQDN 名称必须与为 SSL 证书提供的名称相匹配。  <br/> |
+|访问池外部名称  <br/> |访问边缘的名称；例如，AP。 此名称必须与为 SSL 证书提供的名称相匹配。 请仅输入 Netbios 名称。 SIP 域名将用于生成 FQDN。 一个外部池名称将用于在池中的所有边缘组件。 每个 PSTN 网站需要安装一个边缘访问池。  <br/> .Ini 文件中的名称:"参数池的边缘服务器"下的"ExternalSIPPoolName"  <br/> |必须为 15 个字符或更少。 请仅输入 Netbios 名称。  <br/> "sip"保留，因此不能用作名称。  <br/> 生成的 FQDN 名称必须与为 SSL 证书提供的名称相匹配。  <br/> |
 |访问边缘的外部 IP  <br/> |外部 IP 的边缘组件-如果没有 NAT 可用，或者是公共 IP 或转换 IP （请为指定这两个地址如果映射）。  <br/> .Ini 文件中的名称:"参数池的边缘服务器"下的"ExternalSIPIPs"  <br/> ||
-|媒体中继名称  <br/> |音频视频媒体中继边缘的名称；例如 MR。 一个外部池名称将用于池中的所有边缘组件。 每个 PSTN 网站需要安装一个边缘媒体中继池。  <br/> .Ini 文件中的名称:"参数池的边缘服务器"下的"ExternalMRFQDNPoolName"  <br/> |必须为 15 个字符或更少。请仅输入 Netbios 名称。  <br/> |
+|媒体中继名称  <br/> |音频视频媒体中继边缘的名称；例如 MR。 一个外部池名称将用于池中的所有边缘组件。 每个 PSTN 网站需要安装一个边缘媒体中继池。  <br/> .Ini 文件中的名称:"参数池的边缘服务器"下的"ExternalMRFQDNPoolName"  <br/> |必须为 15 个字符或更少。 请仅输入 Netbios 名称。  <br/> |
 |媒体中继边缘的外部 IP  <br/> |当前仅支持一个 IP，因此这将是与访问边缘相同的 IP，为公用 IP 或映射的 IP（如果映射，请同时指定两个地址）。 可以是与访问边缘的边缘组件外部 IP 相同的地址。 请注意，如果边缘服务器位于 NAT 后面，你还需要指定下一个参数的值。  <br/> .Ini 文件中的名称:"参数池的边缘服务器"下的"ExternalMRIPs"  <br/> ||
 |外部 IP 的媒体中继边缘 （如果 NAT 后面是边缘）  <br/> |如果你的边缘位于 NAT 后面，你还可以指定 NAT 设备的公共地址。  <br/> .Ini 文件中的名称:"参数池的边缘服务器"下的"ExternalMRPublicIPs"  <br/> ||
 |语音网关 1 品牌和型号  <br/> |指定 SBC/语音网关的品牌和型号。 请注意，您可以从在测试设备的列表连接的设备或 SIP 中继[https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP)。  <br/> ||
@@ -516,20 +518,20 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |语音网关 2 端口号  <br/> |语音网关 SIP 中继将侦听的端口，例如 5060。  <br/> ||
 |语音网关 1 协议，用于 SIP 通信  <br/> |TCP 或 TLS。  <br/> ||
 |语音网关 2 协议的 SIP 流量 （如果您有多个 2 个网关这行的副本）  <br/> |TCP 或 TLS。  <br/> ||
-|与边缘组件之间传输的流量的外部媒体端口范围  <br/> |与边缘的外部接口之间传输的媒体流量的 TCP/UDP 端口范围。 必须始终从 50 000 开始。 有关详细信息，请参阅"端口和协议"。  <br/> |50000-59 999  <br/> |
+|与边缘组件之间传输的流量的外部媒体端口范围  <br/> |与边缘的外部接口之间传输的媒体流量的 TCP/UDP 端口范围。 必须始终从 50 000 开始。 有关详细信息，请参阅"端口和协议"。  <br/> |50000 - 59 999  <br/> |
 |媒体端口范围为从通过内部防火墙的中介组件进行通信  <br/> |UDP 中介组件将用来向客户端和网关 （每个呼叫的建议 4 端口） 通信的端口范围。  <br/> ||
 |媒体端口范围进行通信到从 Skype 业务客户端通过内部防火墙  <br/> |出于规划目的，不可更改。 需要 Skype 业务客户端在内部网络内的中介组件及之间进行通信的内部防火墙中打开端口。  <br/> |50 000 - 50 019  <br/> |
 |公用证书密码  <br/> |必须通过脚本提供。  <br/> ||
 |安全模式管理员密码  <br/> 仅限于版本 1.4.2  <br/> |内部 CC 域的安全模式管理员密码。  <br/> ||
 |云连接器域管理员密码  <br/> 仅限于版本 1.4.2  <br/> |密码为云连接器域管理员 （不同于您的生产域）。 用户名是 Administrator。 你不能更改用户名。  <br/> ||
 |虚拟机管理员密码  <br/> 仅限于版本 1.4.2  <br/> |用于在部署过程中配置管理网络。  <br/> 用户名是 Administrator。你不能更改用户名。  <br/> ||
-|CABackupFile  <br/> 2.0 版及更高版本  <br/> |用于保存证书颁发机构服务从 Active Directory 服务器到文件部署云连接器网站中的多个设备时。 确定要用于一个云连接器网站内的所有装置才能将 CA 备份文件导入新的同一密码添加装置成功。  <br/> ||
+|CABackupFile  <br/> 2.0 版及更高版本  <br/> |用于保存证书颁发机构服务从 Active Directory 服务器到文件部署云连接器网站中的多个设备时。 请务必对一个云连接器内的所有设备使用相同密码，以确保成功地将 CA 备份文件导入到新添加的设备。  <br/> ||
 |CCEService  <br/> 2.0 版及更高版本  <br/> |用于云连接器管理服务；需要访问云连接器站点目录。务必对一个云连接器站点内的所有设备使用相同密码。  <br/> ||
 |Office 365 租户管理员  <br/> | 云连接器使用该帐户来更新和管理云连接器的租户设置： <br/>  2.0 及更高版本： 专用的 Office 365 凭据帐户与 Skype 的业务管理员权限。 <br/>  2.0 之前的版本：具有全局租户管理员权限的专用 Office 365 帐户的凭据。 <br/> ||
-|启用 Refer 支持  <br/> |这将定义在你的 IP/PBX 的中继配置上启用还是禁用 SIP REFER 支持。 默认值为 True。 如果你的 IP/PBX 网关提供 REFER 支持，请将此值保留为 true。 否则，需要将此值更改为 False。 如果您不能确定如果网关支持引用，请参阅[限定 IP Pbx 和网关](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。   <br/> ||
-|EnableFastFailoverTimer  <br/> 2.0 版及更高版本  <br/> |默认值"True"，如果出站呼叫未应答，网关在 10 秒内他们将路由到下一个可用网关;如果不有任何其他中继然后将自动丢弃该呼叫。  <br/> 但是，在网络和网关响应较慢的组织中，或者当建立呼叫的过程超过 10 秒时，这可能会导致不必要的呼叫丢弃。  <br/> 时发出呼叫到某些国家/地区，例如阿拉伯联合酋长国或阿富汗，呼叫建立过程可能需要 10 秒之上。 您需要将值更改为 False 如果遇到类似的问题。 请不要忘记更改上连接的 SBC 或网关的相应设置。  <br/> 值可以为 True 或 False。默认值为 True。  <br/> ||
+|启用 Refer 支持  <br/> |这将定义在你的 IP/PBX 的中继配置上启用还是禁用 SIP REFER 支持。 默认值为 True。 如果你的 IP/PBX 网关提供 REFER 支持，请将此值保留为 true。 否则，需要将此值更改为 False。 如果不确定你的网关是否支持 REFER，请参阅[合格的 IP-PBX 和网关](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。   <br/> ||
+|EnableFastFailoverTimer  <br/> 2.0 版及更高版本  <br/> |默认值"True"，如果出站呼叫未应答，网关在 10 秒内他们将路由到下一个可用网关;如果不有任何其他中继然后将自动丢弃该呼叫。  <br/> 但是，在网络和网关响应较慢的组织中，或者当建立呼叫的过程超过 10 秒时，这可能会导致不必要的呼叫丢弃。  <br/> 拨打某些国家/地区（例如阿联酋或阿富汗）的电话时，呼叫建立过程可能需要 10 秒以上。 如果遇到类似问题，则需将值更改为 False。 记得在连接的 SBC 或网关上更改相应的设置。  <br/> 值可以为 True 或 False。默认值为 True。  <br/> ||
 |ForwardCallHistory  <br/> 2.0 版及更高版本  <br/> | 此参数用于启用报告同时响铃、呼叫转接和呼叫转移场景中的初始呼叫方的 SIP 头。将此参数设置为 True 将启用两个 SIP 头：<br/>  History-Info <br/>  Referred-By <br/>  历史信息头用于重新设定 SIP 请求和"provide(s) 标准的机制来捕获请求历史记录信息以启用多的网络和最终用户的服务"([RFC 4244-部分 1.1](http://www.ietf.org/rfc/rfc4244.txt))。 对于云连接器中继接口，此头用于同时响铃和呼叫转接场景。  <br/>  值可以为 True 或 False。默认值为 False。<br/> ||
-|转发 PAI  <br/> 2.0 版及更高版本  <br/> |PAI 是使断言经过身份验证的用户的标识的 SIP 服务器的 sip 专用扩展。 对于 SIP 中继提供商，PAI 可能用于 bill 到目的的历史记录信息和推荐者标头不存在。 在配置启用转接 P-所宣称-Identity 时，中介服务器将转发 PAI 标头包含 SIP &amp; Tel URI 来自 SIP 中继到云连接器。 中介服务器将转发 PAI 标头包含 tel URI&amp;仅接收的 SIP 中继到云连接器的 E.164 号码。 中介服务器还将转发任一方向收到任何隐私标头。 如果 SIP 请求中介服务器发送包含窗体的隐私标头"隐私： id"结合 PAI 标头，然后已断言的标识应保留为私有外部网络信任域。  <br/> 值可以为 True 或 False。默认值为 False。  <br/> ||
+|转发 PAI  <br/> 2.0 版及更高版本  <br/> |PAI 是 SIP 的专用扩展，使 SIP 服务器可以断定已经过身份验证的用户的身份。 对于 SIP 中继提供程序，PAI 可用于 History-Info 和 Referred-By 头不存在的事件中的计费目的。 在配置启用转接 P-所宣称-Identity 时，中介服务器将转发 PAI 标头包含 SIP &amp; Tel URI 来自 SIP 中继到云连接器。 中介服务器将转发 PAI 标头包含 tel URI&amp;仅接收的 SIP 中继到云连接器的 E.164 号码。 中介服务器还会转发在任一方向收到的任何 Privacy 头。 如果 SIP 请求中介服务器发送包含窗体的隐私标头"隐私： id"结合 PAI 标头，然后已断言的标识应保留为私有外部网络信任域。  <br/> 值可以为 True 或 False。默认值为 False。  <br/> ||
 
 ### <a name="certificate-requirements"></a>证书要求
 <a name="BKMK_Certs"> </a>
@@ -668,7 +670,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 - 未运行的服务。
 
-  如果检测到下列事件之一时，整个云连接器然后装置的排空带标记为脱机，以防止尝试建立到告知装置的呼叫。 随后，云连接器自动恢复功能将还原服务并将设备标记为在线。 如果由于某种原因自动恢复失败，请参阅[Troubleshoot 云连接器部署](troubleshoot-your-cloud-connector-deployment.md)。
+  如果检测到下列事件之一时，整个云连接器然后装置的排空带标记为脱机，以防止尝试建立到告知装置的呼叫。 随后，云连接器自动恢复功能将还原服务并将设备标记为在线。 如果自动恢复由于某些原因失败，请参阅[Troubleshoot your Cloud Connector deployment](troubleshoot-your-cloud-connector-deployment.md)。
 
   - 在中央管理存储虚拟机上：
 
@@ -696,9 +698,9 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 - 边缘服务器上“CS RTCSRV”的 Windows 防火墙和中介服务器上的“CS RTCMEDSRV”的入站规则已禁用。
 
-云连接器 2.1 及更高版本支持使用 Operations Management Suite (OMS) 监视云连接器。 有关详细信息，请参阅[监视器云连接器使用操作管理套件 (OMS)](monitor-cloud-connector-using-operations-management-suite-oms.md)
+云连接器 2.1 及更高版本支持使用 Operations Management Suite (OMS) 监视云连接器。 有关详细信息，请参阅[Monitor Cloud Connector using Operations Management Suite (OMS)](monitor-cloud-connector-using-operations-management-suite-oms.md)
 
-## <a name="for-more-information"></a>详细信息
+## <a name="for-more-information"></a>有关详细信息
 <a name="BKMK_MoreInfo"> </a>
 
 有关详细信息，请参阅以下文章：
