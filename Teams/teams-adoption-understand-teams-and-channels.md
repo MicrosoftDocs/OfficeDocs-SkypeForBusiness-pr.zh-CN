@@ -1,7 +1,7 @@
 ---
-title: 了解团队和 Microsoft 团队中的通道
-author: LolaJacobsen
-ms.author: lolaj
+title: 了解 Microsoft Teams 中的团队和频道
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 了解有关构建团队和中的 Microsoft 团队的频道详细信息。
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 979c288f58bfde0d65a923030f81750f90e69ba3
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: b59da606f908334768fbe249bc40df87282caf5a
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519647"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699713"
 ---
-# <a name="understand-teams-and-channels-in-microsoft-teams"></a>了解团队和 Microsoft 团队中的通道
+# <a name="understand-teams-and-channels-in-microsoft-teams"></a>了解 Microsoft Teams 中的团队和频道
 
 团队和频道的概念是 Microsoft 团队的正常、 提高生产效率实现的基础。 
 

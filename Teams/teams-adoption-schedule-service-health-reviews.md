@@ -1,7 +1,7 @@
 ---
-title: 安排的 Microsoft 团队采用服务运行状况审阅
-author: LolaJacobsen
-ms.author: lolaj
+title: 为 Microsoft Teams 采用安排服务运行状况检查
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用服务运行状况团队应用中的报告。
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 126f64cad95f889f93eacca012b6a20c9962bcd1
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 26cbc5e80ea989bff7c68b8004a3cd38b4318538
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519661"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699842"
 ---
-# <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>安排的 Microsoft 团队采用服务运行状况审阅
+# <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用安排服务运行状况检查
 
 在您的技术实施团队合作，计划为团队保留每月的服务运行状况检查。 这些审阅中将共享见解上以下措施：
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在同一位置查找并管理 Skype for Business Server 2015 和 Lync 2013 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
-ms.openlocfilehash: 6bc575a5f2ae981a6f3ea613f8a262d048c5fde0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9c7d14e1439d3f7fd88ad6246495fccc1e7ef441
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531615"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699435"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
@@ -26,6 +26,7 @@ ms.locfileid: "26531615"
 有关最新的 Skype for Business Online 和 Office 365 更新，请参阅 [Office 365 路线图](https://go.microsoft.com/fwlink/p/?linkid=529454)。
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Skype for Business Server 2015 更新历史记录
+[KB 3061064](https://support.microsoft.com/kb/3061064)包含已释放所有累积更新的列表。 日期指示上次发行版的日期。 
 
 |软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |

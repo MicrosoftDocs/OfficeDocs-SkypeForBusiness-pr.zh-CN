@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 摘要： 阅读本主题可为 Skype 业务服务器了解有关统计信息管理器。
-ms.openlocfilehash: 7b4c45bf3fe230c331725a4510a2a8a499300bef
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 390a49a4346af5ab1bc2005db04d99fd60bad056
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531079"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699850"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>规划业务 Server 为统计信息管理器中的 Skype
 
@@ -139,6 +139,7 @@ ms.locfileid: "26531079"
 - PSExec-需要执行远程代理部署
 
 - 代理和服务器端组件所需的.NET 4.5 （附带 2012 R2）-
+- 下载[Skype 的业务服务器实时统计信息管理器 （64 位）](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
 
 ### <a name="networking-requirements"></a>网络要求
 

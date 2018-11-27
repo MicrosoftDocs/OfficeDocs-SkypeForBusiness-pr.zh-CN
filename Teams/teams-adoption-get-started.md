@@ -1,7 +1,7 @@
 ---
-title: 开始驱动的 Microsoft 团队
-author: LolaJacobsen
-ms.author: lolaj
+title: 开始推动采用 Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何启动过程，试用，并启用的 Microsoft 团队应用的阶段。
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6615f296fd1ff248b2801fd44c6cc92586b27876
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 75cecfd5050ce964fd7b2dbc9dff97da2fb920b3
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519683"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699746"
 ---
-# <a name="get-started-driving-adoption-of-microsoft-teams"></a>开始驱动的 Microsoft 团队
+# <a name="get-started-driving-adoption-of-microsoft-teams"></a>开始推动采用 Microsoft Teams
 
 通过驱动的 Microsoft 团队，您可以提供最佳用户体验，并增加公司内的业务价值。 我们的目标是您安装快速和运行，以便您就可以开始与团队您旅程。 本指南重点用户采用团队，并在您的环境技术准备，在我们文档其他节中具有依赖项。
 

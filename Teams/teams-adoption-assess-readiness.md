@@ -1,7 +1,7 @@
 ---
-title: 如何准备是您的组织的 Microsoft 团队？
-author: LolaJacobsen
-ms.author: lolaj
+title: 贵组织为 Microsoft Teams 准备到什么程度？
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 确定您的组织是否准备好切换到团队。
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 627d6ca502731c058b1737e5ae50346e5b4ca2be
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: ff819ad3d0f2c28d446981279dbf518f589fe616
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519658"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699812"
 ---
-# <a name="how-ready-is-your-organization-for-microsoft-teams"></a>如何准备是您的组织的 Microsoft 团队？
+# <a name="how-ready-is-your-organization-for-microsoft-teams"></a>贵组织为 Microsoft Teams 准备到什么程度？
 
 既然您的项目工作组具有聚集起来，并已开始查看团队可以为您的组织执行的操作，务必评估贵组织的准备情况团队转换。 若要评估您准备情况，您将需要：
 

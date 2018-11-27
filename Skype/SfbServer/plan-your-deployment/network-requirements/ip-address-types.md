@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 摘要： 实现 Skype 业务服务器之前查看下面的 IP 地址类型注意事项。
-ms.openlocfilehash: 46d448e0004c9a83921f0c92d12513e39f076dc3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 58d359b626334b49ed08904134c758128f78673e
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375201"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699414"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>在 Skype for Business 中配置 IP 地址类型
 
@@ -34,7 +34,7 @@ ms.locfileid: "25375201"
 
 1. 在“**Enterprise Edition 前端池**”下，右键单击池中的服务器，然后选择“**编辑属性**”。（也可以选择服务器，然后单击“**操作**”菜单中的“**编辑属性**”。）
 
-2. 在“**编辑属性**”对话框中，选择您要配置的 IP 地址类型。对于双协议栈配置，则选择“**启用 IPv4**”和“**启用 IPv6**”，如下图所示。
+2. 在“**编辑属性**”对话框中，选择您要配置的 IP 地址类型。 对于双协议栈配置中，选择**启用 IPv4**和**启用 IPv6**。
 
    **前端服务器池的“编辑属性”对话框**
 
@@ -49,8 +49,8 @@ ms.locfileid: "25375201"
 
    - **PSTN IP 地址**。在前端服务器上并置中介服务器时定义一个 PSTN IP 地址。该地址必须符合选择的地址类型的格式。
 
-     > [!NOTE]
-     > 不支持其他网络接口卡 (Nic) 以支持的 PSTN IP 地址配置前端服务器上安装。 有关支持的 Skype 业务服务器的 NIC 配置的详细信息，请参阅[Lync Server 2013 的硬件与 Server hardware platforms](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)。
+> [!NOTE]
+> 不支持其他网络接口卡 (Nic) 以支持的 PSTN IP 地址配置前端服务器上安装。 有关支持的 Skype 业务服务器的 NIC 配置的详细信息，请参阅[Lync Server 2013 的硬件与 Server hardware platforms](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)。
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>在中介服务器上部署 IP 地址类型
 
@@ -74,9 +74,14 @@ ms.locfileid: "25375201"
   - **主 IP 地址**。输入用于除公用电话交换网 (PSTN) 之外的所有通信的 IP 地址。所输入的 IP 地址必须符合选择的地址类型的格式。
 
   - **PSTN IP 地址**。在前端服务器上并置中介服务器时定义一个 PSTN IP 地址。该地址必须符合选择的地址类型的格式。
+> [!IMPORTANT]
+> 仅在*专用*中介服务器支持两个网卡。 如果在前端并置的中介 Sserver 角色，然后不支持双网卡。 
 
-    > [!NOTE]
-    > 不支持其他的 Nic 来支持的 PSTN IP 地址配置独立的中介服务器上安装。 有关支持的 Skype 业务服务器的 NIC 配置的详细信息，请参阅[Lync Server 2013 的硬件与 Server hardware platforms](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)。
+> [!NOTE]
+> - 有关支持的 Skype 的业务服务器 2015年的 NIC 配置的详细信息，请参阅[业务服务器 2015年的 Skype 的硬件](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
+> - 有关支持的 Skype 的业务服务器 2019年的 NIC 配置的详细信息，请参阅[业务服务器 2019年的 Skype 的硬件](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
+
+
 
 ## <a name="deploy-ip-address-types-on-an-edge-server"></a>在边缘服务器上部署 IP 地址类型
 

@@ -1,7 +1,7 @@
 ---
-title: Microsoft 团队应用阶段 2-实验
-author: LolaJacobsen
-ms.author: lolaj
+title: Microsoft Teams 采用第 2 阶段 - 试验
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何召开团队应用的试验阶段。
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d70fbe7ddfbfb820e13bbba09a78024b48a80a6
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: f77989e31e8e79f13d54f7b3506cbf5c0b19d8e5
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519650"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699722"
 ---
-# <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft 团队应用阶段 2-实验
+# <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams 采用第 2 阶段 - 试验
 
 您现在有关您的组织，掌握了一个绝佳的项目工作组和关键信息并已准备好试验团队。 我们建议试验指示灯利益干系人联系您有正关系，并且其组织中有足够的前期应用可以提供有意义的反馈的组内的 2 到 3 宣传项目。 大型或小型组织是否，我们建议您完成此阶段，以深入了解如何团队可以提高超出使用其聊天协作和文件存储功能。  
 

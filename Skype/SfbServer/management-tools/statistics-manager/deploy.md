@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 摘要： 阅读本主题可了解如何为业务服务器部署 for Skype 的统计信息管理器。
-ms.openlocfilehash: f408f494fc95fecdf0a0e80114d4d68d99181885
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2813b12dfda612374f1e10d4082d54ce46d88216
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532145"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699421"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>为业务 Server 部署的 Skype 的统计信息管理器
  
@@ -123,7 +123,7 @@ ms.locfileid: "26532145"
     
 ### <a name="install-the-website"></a>安装网站
 
-通过运行 StatsManWebSite.msi 并指定以下安装在主机上的网站：
+通过运行 （附带[的业务服务器实时统计信息管理器 （64 位） 的 Skype](https://www.microsoft.com/en-in/download/details.aspx?id=57518)） StatsManWebSite.msi 安装在主机上的网站并指定以下：
   
 1. 阅读许可协议，如果同意条款，请选择“**我接受许可协议中的条款**”，然后单击“**下一步**”。 
     

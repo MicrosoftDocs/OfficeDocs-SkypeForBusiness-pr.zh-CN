@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 采用快速入门清单
-author: LolaJacobsen
-ms.author: lolaj
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -11,16 +11,16 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 完成清单以开始您的 Microsoft 团队应用。
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b328b412a4272afcddf8b6d4d4db349c11ae8803
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 814cea93b78985e96c20095dff8cf42c0c4715bc
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649649"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699690"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft Teams 采用快速入门清单
 

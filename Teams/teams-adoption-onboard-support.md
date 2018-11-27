@@ -1,7 +1,7 @@
 ---
-title: Microsoft 团队的板载支持
-author: LolaJacobsen
-ms.author: lolaj
+title: 为 Microsoft Teams 上线支持
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 为您的团队应用的试验阶段使加载支持人员。
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b6fbcc35894d3f5c10d854a6608d99eba1db3b9
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 21e93c62a65b46b78c143d357a88ee2a789007bd
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519651"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699730"
 ---
-# <a name="onboard-support-for-microsoft-teams"></a>Microsoft 团队的板载支持
+# <a name="onboard-support-for-microsoft-teams"></a>为 Microsoft Teams 上线支持
 
 若要确保早期使用和拥护者团队将具有适当的支持，其开始使用团队，会见支持人员，并查看团队的功能。 支持组织的主要成员可能想要加入早期使用程序。 鼓励他们自己的方案中涉及的团队。 让他们看产品基本入职培训使用我们的联机培训资源。  
 

@@ -1,28 +1,28 @@
 ---
-title: 为 Microsoft 团队创建拥护者程序
-author: LolaJacobsen
-ms.author: lolaj
+title: 为 Microsoft Teams 创建支持者计划
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何培训工作组的拥护者提升团队应用。
-ms.custom:
-- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 754ffc617fb310deac244a10160f435a0ba7f6ea
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 6961c55f1ea75410e5b7e807a40d9a4512ad5249
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519655"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699864"
 ---
-# <a name="create-your-champions-program-for-microsoft-teams"></a>为 Microsoft 团队创建拥护者程序
+# <a name="create-your-champions-program-for-microsoft-teams"></a>为 Microsoft Teams 创建支持者计划
 
 拥护者对您的组织中驱动认知、 采用和培训至关重要。 冠军是人员，主要活力助人有兴趣新技术 （特别是团队） 和帮助其他员工使用符合您的最佳实践。 根据您的组织的大小您可能遇到此作为正式一部分的人员的角色，但通常员工需要由此角色上自己由于动机核心有助于其他人。
 

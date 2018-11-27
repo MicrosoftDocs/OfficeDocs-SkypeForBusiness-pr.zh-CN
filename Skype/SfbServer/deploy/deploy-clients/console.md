@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置 Skype 会议室系统 v2 控制台和其外围设备。
-ms.openlocfilehash: bb23f0dad26f37554657a101dc68dc7d776080b2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 01bc2fe49fc56a4926563ad18e384455ef437b77
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371059"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699428"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>配置 Skype 会议室系统 v2 控制台
  
@@ -47,14 +47,17 @@ ms.locfileid: "25371059"
 > 未能创建 Skype 会议室系统 v2 安装媒体根据这些说明可能会导致意外的行为。 创建 Skype 会议室系统 v2 安装介质不再支持 Windows 10 企业周年日 Update (版本 1607)。
   
 > [!NOTE]
-> 与 Windows 10 企业周年日更新将移至通过 Windows 应用商店的 Skype 会议室系统 v2 更新 3 现有 Skype 会议室系统 v2，但应该执行全新安装，如下所述。 
+> 与 Windows 10 企业移动到作为 Windows 应用商店的 Skype 会议室系统 v2 更新 3 现有 Skype 会议室系统 v2，但应该执行全新安装，如下所述。 
   
-1. 下载[CreateSrsMedia.ps1 脚本](https://go.microsoft.com/fwlink/?linkid=867842)。
+1. 下载 [CreateSrsMedia.ps1 脚本](https://go.microsoft.com/fwlink/?linkid=867842)。 
 2. （可选）下载并置于同一目录为脚本的任何所需的语言包 CAB 文件。 该脚本将指示其中您可以下载语言包文件适用于您要创建的介质的类型，如果您不确定获取从的语言包的位置。
 3. 在 Windows 10 计算机上，在提升的提示符下运行 CreateSrsMedia.ps1 脚本。
 
 
 按照脚本的说明创建 Skype 会议室系统 v2 USB 安装盘。 完成后，从计算机中删除 USB 磁盘，并继续[安装 Windows 10 和 Skype 会议室系统 v2 控制台应用程序](console.md#Reimage)。
+
+> [!TIP]
+> 您可能已经注意到我们不再标注的驱动程序、 Skype 会议室系统 v2 客户端或 Windows 10 企业的特定版本。 这是谨慎，我们希望了脚本，以匹配项，并验证所有安装程序兼容性。 该脚本将自动查找和获取的受支持的配置所需。  
     
 ## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>安装 Windows 10 和 Skype 会议室系统 v2 控制台应用
 <a name="Reimage"> </a>
@@ -135,7 +138,7 @@ Skype 会议室系统 v2 控制台现在应用所需的语言。
     
 3. 在"配置域"下的 FQDN 设置为 Skype 业务服务器。 如果业务 SIP 域 Skype 不同的用户的 Exchange 域，请在此字段中输入的 Exchange 域。
     
-4. 单击“**下一步**”。
+4. 单击" **下一步**"。
     
 5. 选择功能屏幕上的指定的设备，然后单击**下一步**。 默认设置是“自动屏幕共享”设置为“开启”，“隐藏会议名称”设置为“关闭”。 要选择的设备为：
     
@@ -181,7 +184,7 @@ Skype 会议室系统 v2 控制台需要信任由 Skype 用于连接到的业务
 ### <a name="join-an-active-directory-domain-optional"></a>加入 Active Directory 域 （可选）
 <a name="Certs"> </a>
 
-Skype 会议室系统 v2 控制台可以加入您的域。 应将 Skype 会议室系统 v2 控制台放入从 PC 工作站单独的 OU，因为多个工作站策略不与 Skype 会议室系统 v2 兼容。 常见的示例是将阻止自动启动 Skype 会议室系统 v2 的密码实施策略。 有关管理 GPO 设置的信息，请参阅[管理 Skype 会议室系统 v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md)。
+Skype 会议室系统 v2 控制台可以加入您的域。 应将 Skype 会议室系统 v2 控制台放入从 PC 工作站单独的 OU，因为多个工作站策略不与 Skype 会议室系统 v2 兼容。 常见的示例是将阻止自动启动 Skype 会议室系统 v2 的密码实施策略。 有关 GPO 设置管理的信息，请参阅[Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md)。
   
 ### <a name="to-join-skype-room-system-v2-to-a-domain"></a>将 Skype 会议室系统 v2 加入域
 
@@ -242,7 +245,7 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_Syste
 ## <a name="see-also"></a>另请参阅
 <a name="Checklist"> </a>
 
-[规划 Skype 会议室系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [部署 Skype 会议室系统 v2](room-systems-v2.md)
   

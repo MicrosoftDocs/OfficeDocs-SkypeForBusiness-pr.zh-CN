@@ -124,7 +124,7 @@
 ## [Office 365 中的通话套餐](/microsoftteams/what-are-calling-plans-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [通话套餐已知问题](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [添加、更改或删除你的组织的紧急位置](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
-### [为你的组织添加或删除紧急地址](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
+### [添加、 更改或删除您的组织的紧急地址](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [为用户分配、更改或删除电话号码](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [为用户分配或更改紧急地址](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
 ### [分配或更改用户的紧急位置](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)

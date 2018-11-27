@@ -1,28 +1,28 @@
 ---
-title: 定义产出和您的 Microsoft 团队采用成功
-author: LolaJacobsen
-ms.author: lolaj
+title: 为 Microsoft Teams 采用定义结果和成功
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何测量的产出和您的团队的广泛级启用成功。
-ms.custom:
-- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe4a146492712b4d18e8a4e1b18ea393a646662e
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 2df638a12b67ac70b0759f70365f48330c26914d
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519691"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699811"
 ---
-# <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>定义产出和您的 Microsoft 团队采用成功
+# <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用定义结果和成功
 
 对于每个业务方案或您改进的服务，很关键定义如下所示的哪些成功为您的业务。 您将已收集的信息您初始方案，在您的早期阶段映射。 准备您的扩展实现时，将需要随着并展开这些重要成功条件。
   

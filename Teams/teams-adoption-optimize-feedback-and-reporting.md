@@ -1,7 +1,7 @@
 ---
-title: 优化反馈和您的 Microsoft 团队采用报告
-author: LolaJacobsen
-ms.author: lolaj
+title: 为 Microsoft Teams 采用优化反馈和报告功能
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何获取用户反馈和使用服务运行状况团队应用中的报告。
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65790075f649693a5312c3a12cc5daac33c7ac90
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 5ab7a061b4f45564c6be42f708a0ded3ea00f268
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519656"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699834"
 ---
-# <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>优化反馈和您的 Microsoft 团队采用报告
+# <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用优化反馈和报告功能
 
 确保您得到信号后从您的服务和您的员工按照用户反馈和服务运行状况报告的我们最佳做法。  在某些情况下，您可能需要 Office 365 管理员权限才能访问特定服务使用率和运行状况报告。 如果您不是 Office 365 管理员为您的组织，使用该个人要授予访问此数据的一些 Microsoft 365 管理中心中的报告读取器角色。 
 

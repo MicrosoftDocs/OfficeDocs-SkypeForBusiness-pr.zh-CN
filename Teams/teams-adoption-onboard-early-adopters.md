@@ -1,7 +1,7 @@
 ---
-title: 板载前期应用和 Microsoft 团队收集反馈
-author: LolaJacobsen
-ms.author: lolaj
+title: 为早期采用者上线 Microsoft Teams 并收集反馈
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 为您的团队应用的试验阶段选择前期应用，然后收集您的项目的反馈。
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c1c85fead1bd1f1295a4ff3370d1b188f79eb73
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 58547d5f4577d9bca71317573677a56453188634
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519660"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699667"
 ---
-# <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>板载前期应用和 Microsoft 团队收集反馈
+# <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>为早期采用者上线 Microsoft Teams 并收集反馈
 
 返回表示早期使用程序感兴趣的员工的列表。 决定哪些这些人应参与与团队初始实验。 它可能是人员的所有或部分感兴趣。 即使您不要选择它们这些初始项目，继续，以便他们保持感并将愿意参加将来与他们通信。 它们将所选的项目，基于您讨论业务利益干系人和技术团队，如上所示您优先顺序练习入职培训过程的一部分。 
 

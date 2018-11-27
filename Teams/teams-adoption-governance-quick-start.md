@@ -1,7 +1,7 @@
 ---
-title: 治理的 Microsoft 团队的快速入门
-author: LolaJacobsen
-ms.author: lolaj
+title: Microsoft Teams 管理快速入门
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 应用计划的第 2 阶段的做出关键决策
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c71a7870fdcfb0c8818430ee748fae68a90d9471
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 7c8cf1460919019234da365626bfdf587c87249e
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519652"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699794"
 ---
-# <a name="governance-quick-start-for-microsoft-teams"></a>治理的 Microsoft 团队的快速入门
+# <a name="governance-quick-start-for-microsoft-teams"></a>Microsoft Teams 管理快速入门
 
 将同时，发生以下活动，它们可能涉及全部或部分关键团队。 作为最佳实践，推迟大型监管和安全对话后与团队您初始实验。 这将简化您将需要使在该更高版本的日期的决策。 此阶段的有一些需要做出的决定。 若要成功地使其首先需要回答以下问题：
 
