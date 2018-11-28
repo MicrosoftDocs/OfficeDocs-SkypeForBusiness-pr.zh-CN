@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76bacfe85fce14b2d5b1469295134e560c14c54a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a44af03e694937c5e874f6d53c0795a0c61dd606
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373289"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716364"
 ---
 # <a name="plan-my-users-experience"></a>规划我的用户体验
 
@@ -26,7 +26,7 @@ ms.locfileid: "25373289"
 
 ## <a name="client-deployment"></a>客户端部署
 
-支持 Microsoft Teams 的客户端包括 Web、桌面（Windows 和 Mac）和移动（Android、iOS 和 Windows Phone）。 有关如何安装 （Windows 和 Mac） 的桌面和移动客户端的其他详细信息，请参阅[获取 Microsoft 团队的客户端](https://docs.microsoft.com/microsoftteams/get-clients)。
+Microsoft 团队具有客户端适用于网站，桌面 （Windows 和 Mac） 和移动设备 （Android 和 iOS）。 有关如何安装 （Windows 和 Mac） 的桌面和移动客户端的其他详细信息，请参阅[获取 Microsoft 团队的客户端](https://docs.microsoft.com/microsoftteams/get-clients)。
 
 ## <a name="client-updates"></a>客户端更新
 

@@ -11,21 +11,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: 本文汇总了支持 Skype 会议室系统 v2 的要求。
-ms.openlocfilehash: 23ab819c4a32efd4228a1d1d5b7aba89275e5b39
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8cadbed89be0301071c2c8a30c715f786b549d36
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532071"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716449"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype 会议室系统 v2 要求
 
 本文汇总了支持 Skype 会议室系统 v2 的要求。 
 
-您的部署将涉及[部署 Skype 会议室系统 v2](../../deploy/deploy-clients/room-systems-v2.md)中所述的帐户创建和设置[配置的 Skype 会议室系统 v2 控制台](../../deploy/deploy-clients/console.md)中所述的会议控制台。 您可能还需要引用[Skype 业务加载项授权的](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)。
+您的部署将涉及[部署 Skype 会议室系统 v2](../../deploy/deploy-clients/room-systems-v2.md)中所述的帐户创建和设置[配置的 Skype 会议室系统 v2 控制台](../../deploy/deploy-clients/console.md)中所述的会议控制台。 
+
+您可能还需要引用：
+
+- [Skype for Business 附加许可](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+- [许可基于您的计划选项： Skype 会议室系统 v2](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Skype 会议室系统 v2 旨在用于业务服务器 2019年的 Skype、 Skype for Business Server 2015、 Microsoft 团队或 Skype 业务 online。 <br><br>不应使用 Skype 会议室系统 v2 早期平台，如 Lync Server 2013。 
+> Skype 会议室系统 v2 旨在用于业务服务器 2019年的 Skype、 Skype for Business Server 2015、 Microsoft 团队或 Skype 业务 online。 <br><br>不应使用 Skype 会议室系统 v2 早期平台，如 Lync Server 2013。
 
 > [!NOTE]
 > 如果使用 prem 上 Exchange 服务器，则 Skype 会议室系统 v2 需要使用 Exchange Server 2013 SP1 或更高版本。

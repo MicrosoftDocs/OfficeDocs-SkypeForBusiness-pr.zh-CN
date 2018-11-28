@@ -255,3 +255,49 @@
 | 2018 年 11 月 15 日 | [为 Microsoft Teams 试用或购买 Office 365 中的音频会议](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | 修改内容 |
 | 2018 年 11 月 16 日 | [在 Microsoft Teams 中为实时事件进行设置](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 修改内容 |
 | 2018 年 11 月 16 日 | [FAQ - 从 Skype for Business 到 Microsoft Teams 的升级旅程 - Microsoft Teams](/MicrosoftTeams/faq-journey) | 修改内容 |
+
+
+## <a name="week-of-november-19-2018"></a>2018 年 11 月 19 日一周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 2018 年 11 月 19 日 | [在 Microsoft Teams 中分配团队所有者和成员](/MicrosoftTeams/assign-roles-permissions) | 修改内容 |
+| 2018 年 11 月 19 日 | [在 Office 365 组织中启用 Microsoft Teams 功能](/MicrosoftTeams/enable-features-office-365)。 | 修改内容 |
+| 2018 年 11 月 19 日 | [讲师引导的 Microsoft Teams 培训](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 修改内容 |
+| 2018 年 11 月 19 日 | [Microsoft Teams 的已知问题](/MicrosoftTeams/known-issues) | 修改内容 |
+| 2018 年 11 月 19 日 | [Microsoft Teams 概述](/MicrosoftTeams/teams-overview) | 修改内容 |
+| 2018 年 11 月 19 日 | [Teams 云会议录制](/MicrosoftTeams/cloud-recording) | 修改内容 |
+| 2018 年 11 月 19 日 | [通话质量仪表板中可用的维度和衡量指标](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 修改内容 |
+| 2018 年 11 月 19 日 | [获取 Microsoft Teams 的客户端](/MicrosoftTeams/get-clients) | 修改内容 |
+| 2018 年 11 月 19 日 | [为早期采用者上线 Microsoft Teams](/MicrosoftTeams/get-started-with-teams-onboard-early-adopters) | 修改内容 |
+| 2018 年 11 月 19 日 | [使用 Microsoft Teams 管理员角色管理 Teams](/MicrosoftTeams/using-admin-roles) | 修改内容 |
+| 2018 年 11 月 19 日 | [获取资源以规划组织范围的 Microsoft Teams 部署](/MicrosoftTeams/get-started-with-teams-resources-for-org-wide-rollout) | 修改内容 |
+| 2018 年 11 月 19 日 | 使用 PowerShell 管理 Teams | 删除内容 |
+| 2018 年 11 月 19 日 | 使用管理员角色管理 Teams | 删除内容 |
+| 2018 年 11 月 20 日 | [采用 Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 修改内容 |
+| 2018 年 11 月 20 日 | [Microsoft Teams 采用快速入门清单](/MicrosoftTeams/teams-adoption-quick-start-checklist) | 修改内容 |
+| 2018 年 11 月 20 日 | [用于采用的工具和下载](/MicrosoftTeams/adopt-tools-and-downloads) | 添加内容 |
+| 2018 年 11 月 20 日 | [用于采用的工具和下载](/MicrosoftTeams/adopt-tools-and-downloads) | 修改内容 |
+| 2018 年 11 月 20 日 | Teams 中的消息传递策略是什么？ | 删除内容 |
+| 2018 年 11 月 20 日 | [快速入门 - Microsoft Teams 规划指南](/MicrosoftTeams/quick-start-enable-teams) | 修改内容 |
+| 2018 年 11 月 20 日 | [Teams PowerShell 概览](/MicrosoftTeams/teams-powershell-overview) | 修改内容 |
+| 2018 年 11 月 20 日 | [FAQ - 从 Skype for Business 到 Microsoft Teams 的升级旅程 - Microsoft Teams](/MicrosoftTeams/faq-journey) | 修改内容 |
+| 2018 年 11 月 20 日 | [在 Microsoft Teams 中规划实时事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修改内容 |
+| 2018 年 11 月 20 日 | [使用 PowerShell 在 Microsoft Teams 中设置实时事件策略](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 修改内容 |
+| 2018 年 11 月 20 日 | [在 Microsoft Teams 中为实时事件进行设置](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 修改内容 |
+| 2018 年 11 月 20 日 | [什么是通信点数？](/MicrosoftTeams/what-are-communications-credits) | 修改内容 |
+| 2018 年 11 月 21 日 | [Microsoft Teams 操作指南](/MicrosoftTeams/1-drive-value-operate-my-service) | 修改内容 |
+| 2018 年 11 月 21 日 | [为用户准备 Microsoft Teams](/MicrosoftTeams/2-onboard-prepare-my-users) | 修改内容 |
+| 2018 年 11 月 21 日 | [采用 Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 修改内容 |
+| 2018 年 11 月 21 日 | [用于采用的工具和下载](/MicrosoftTeams/adopt-tools-and-downloads) | 修改内容 |
+| 2018 年 11 月 21 日 | [通过用户采用推动使用 Microsoft Teams 实现价值 - Microsoft Teams](/MicrosoftTeams/continue-journey) | 修改内容 |
+| 2018 年 11 月 21 日 | [获取 Microsoft Teams 的客户端](/MicrosoftTeams/get-clients) | 修改内容 |
+| 2018 年 11 月 21 日 | [在过渡到全新的 Microsoft Teams 与 Skype for Business 管理中心期间管理团队](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | 修改内容 |
+| 2018 年 11 月 21 日 | [面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | 修改内容 |
+| 2018 年 11 月 21 日 | [Microsoft Teams 采用快速入门清单](/MicrosoftTeams/teams-adoption-quick-start-checklist) | 修改内容 |
+| 2018 年 11 月 21 日 | [在升级后改进你的服务 - Microsoft Teams](/MicrosoftTeams/upgrade-enhance-my-service) | 修改内容 |
+| 2018 年 11 月 21 日 | [Microsoft Teams 操作指南 - Microsoft Teams](/MicrosoftTeams/upgrade-operate-my-service) | 修改内容 |
+| 2018 年 11 月 21 日 | [在从 Skype for Business 升级到 Microsoft Teams 之前准备用户就绪计划 - Microsoft Teams](/MicrosoftTeams/upgrade-user-readiness) | 修改内容 |
+| 2018 年 11 月 22 日 | [在 Microsoft Teams 中组织团队的最佳做法](/MicrosoftTeams/best-practices-organizing) | 修改内容 |
+| 2018 年 11 月 22 日 | [在 Microsoft Teams 中管理会议设置](/MicrosoftTeams/meeting-settings-in-teams) | 添加内容 |

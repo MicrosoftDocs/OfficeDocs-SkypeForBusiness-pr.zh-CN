@@ -11,22 +11,22 @@ ms.collection: Teams_ITAdmin_Help
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用支持 Microsoft Teams 的各种客户端，包括 Web、桌面（Windows 和 Mac）和移动（Android、iOS 和 Windows Phone）。
+description: 了解如何使用包含 web、 桌面 （Windows 和 Mac） 和 mobile 的 Microsoft 团队提供的各种客户端 （Android 和 iOS）。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f90913cfcaa3fe36380ba0c072d921c7f55fa126
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 16ee59e01a45e79bb04a410857e128df7f12934e
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649538"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716348"
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================
 
-Microsoft 团队具有客户端适用于桌面 （Windows 和 Mac） web 和移动 （Android、 iOS 和 Windows Phone）。 这些客户端都要求有活动的 Internet 连接，不支持脱机模式。
+Microsoft 团队具有客户端适用于桌面 （Windows 和 Mac） web 和移动 （Android 和 iOS）。 这些客户端都要求有活动的 Internet 连接，不支持脱机模式。
 
 > [!NOTE]
 > 有效年 11 月 29，2018，您将不再能够使用 Microsoft 团队 Windows 10 S （预览） 应用程序，可从 Microsoft 存储。 我们建议您使用后 11 月 29 日下述本文中的团队应用程序之一。

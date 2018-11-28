@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置 Skype 会议室系统 v2 控制台和其外围设备。
-ms.openlocfilehash: 01bc2fe49fc56a4926563ad18e384455ef437b77
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 4218365e7cb4b396d3e93d3fa969546138ace33d
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699428"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716372"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>配置 Skype 会议室系统 v2 控制台
  
@@ -36,7 +36,7 @@ ms.locfileid: "26699428"
 - [Skype 会议室系统 v2 部署清单](console.md#Checklist)
     
 > [!NOTE]
-> Skype 会议室系统 v2 将其中的设备帐户正确设置[部署 Skype 会议室系统 v2](room-systems-v2.md)中所述的业务环境正确配置 Skype 仅适用。 
+> Skype 会议室系统 v2 将其中的设备帐户正确设置[部署 Skype 会议室系统 v2](room-systems-v2.md)中所述的业务环境正确配置 Skype 仅适用。
   
 ## <a name="prepare-the-installation-media"></a>准备安装媒体
 <a name="Prep_Media"> </a>
@@ -45,14 +45,13 @@ ms.locfileid: "26699428"
   
 > [!NOTE]
 > 未能创建 Skype 会议室系统 v2 安装媒体根据这些说明可能会导致意外的行为。 创建 Skype 会议室系统 v2 安装介质不再支持 Windows 10 企业周年日 Update (版本 1607)。
-  
+
 > [!NOTE]
-> 与 Windows 10 企业移动到作为 Windows 应用商店的 Skype 会议室系统 v2 更新 3 现有 Skype 会议室系统 v2，但应该执行全新安装，如下所述。 
+> 与 Windows 10 企业移动到作为 Windows 应用商店的 Skype 会议室系统 v2 更新 3 现有 Skype 会议室系统 v2，但应该执行全新安装，如下所述。
   
 1. 下载 [CreateSrsMedia.ps1 脚本](https://go.microsoft.com/fwlink/?linkid=867842)。 
 2. （可选）下载并置于同一目录为脚本的任何所需的语言包 CAB 文件。 该脚本将指示其中您可以下载语言包文件适用于您要创建的介质的类型，如果您不确定获取从的语言包的位置。
 3. 在 Windows 10 计算机上，在提升的提示符下运行 CreateSrsMedia.ps1 脚本。
-
 
 按照脚本的说明创建 Skype 会议室系统 v2 USB 安装盘。 完成后，从计算机中删除 USB 磁盘，并继续[安装 Windows 10 和 Skype 会议室系统 v2 控制台应用程序](console.md#Reimage)。
 
@@ -82,10 +81,9 @@ ms.locfileid: "26699428"
 
 8. 安装完成后，系统将关闭。
     
-系统已关闭后，它是安全地移除 USB 安装盘。 此时，可以将目标 devcie 放入其停靠 （如果使用基于停靠的产品）、 附加外围设备所需的会议室中，并连接到网络。 请参阅制造商说明。
+系统已关闭后，它是安全地移除 USB 安装盘。 此时，可以将目标设备放置在其停靠 （如果使用基于停靠的产品）、 附加外围设备所需的会议室中，并连接到网络。 请参阅制造商说明。
   
- 
-### <a name="selecting-a-language-in-creators-update"></a>在 Creator Update 中选择语言
+### <a name="selecting-a-language"></a>选择语言 
 
 创建者的更新，您需要在方案中使用 ApplyCurrentRegionAndLanguage.ps1 脚本隐式语言选择不提供所需的实际的应用程序语言的用户 (例如，需控制台应用程序采用法语，但它在接下来英语） （英文）。
   
@@ -121,8 +119,9 @@ ms.locfileid: "26699428"
 11. 启动提升的命令提示符。
     
 12. 运行以下命令： 
-    
+    ```
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
+    ```
     
 13. 重新启动系统。
     
