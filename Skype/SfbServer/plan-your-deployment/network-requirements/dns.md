@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 摘要： 实现 Skype 业务服务器之前查看本主题中的 DNS 注意事项。
-ms.openlocfilehash: d7f1cf424b98700eed7b2474e3c06db6d585fb30
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 20e520d0ecb43d098855c434db740592eb7c760c
+ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887888"
+ms.lasthandoff: 11/29/2018
+ms.locfileid: "26984746"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Skype for Business Server 的 DNS 要求
 
@@ -58,8 +58,8 @@ ms.locfileid: "23887888"
 |CNAME   |lyncdiscoverinternal。* \<sipdomain\>* <br/> lyncdiscoverinternal. *<span></span>contoso<span></span>.com*   |HLB FE 池 FQDN 或控制器的 FQDN  <br/> Web int.<span></span>contoso<span></span>.com   |内部自动发现 Service1 <br/> 如果需要，可实现作为而不是 A 记录 CNAME 这种情况。   ||
 |A/AAAA   |sip。* \<sipdomain\>* <br/> sip。* <span> </span>contoso<span></span>.com*  |前端的池服务器 IP 地址 （或到每个控制器 IP 地址）  <br/>  DNS 磅到*192.168.21.122 192.168.21.123 192.168.21.124*   |所需的自动配置，请参阅[演练的 Skype 业务客户端的查找服务](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype) <br/> 记录或外部客户端时指向前端池服务器或控制器服务器在内部网络或访问边缘服务上的记录   |& #x 2777;  |
 |A/AAAA   |ucupdates-r2。* \<sipdomain\>* <br/> ucupdates-r2。* <span> </span>contoso<span></span>.com*  |HLB FE 池 VIP 或控制器池 HLB VIP 或 SE 服务器/控制器服务器的 IP  <br/>  192.168.21.121  |部署此记录是可选 & #x 2778;  ||
-|A/AAAA   |\_sipinternaltls。\_tcp。* \<sipdomain\> * <br/>端口 5061 <br/>\_sipinternaltls。\_tcp。* <span> </span>contoso<span></span>.com* <br/>端口 5061  |前端池 FQDN  <br/>*FE-Pool。<span> </span>contoso<span></span>.com*  |允许内部用户自动登录 1 到前端服务器/池或 SE 服务器/池进行身份验证和重定向客户端登录请求。  |& #x 2777; |
-|A/AAAA |\_sipinternal。* \<sipdomain\>* <br/>\_sipinternal。<span> </span> *contoso<span></span>.com*  |前端池 FQDN  <br/>_FE-Pool。<span> </span>contoso<span></span>.com_  |内部用户访问和 #x 2776;  |& #x 2777;  |
+|SRV   |\_sipinternaltls。\_tcp。* \<sipdomain\> * <br/>端口 5061 <br/>\_sipinternaltls。\_tcp。* <span> </span>contoso<span></span>.com* <br/>端口 5061  |前端池 FQDN  <br/>*FE-Pool。<span> </span>contoso<span></span>.com*  |允许内部用户自动登录 1 到前端服务器/池或 SE 服务器/池进行身份验证和重定向客户端登录请求。  |& #x 2777; |
+|A/AAAA |sipinternal。* \<sipdomain\>* <br/>sipinternal。<span> </span> *contoso<span></span>.com*  |前端池 FQDN  <br/>_FE-Pool。<span> </span>contoso<span></span>.com_  |内部用户访问和 #x 2776;  |& #x 2777;  |
 |SRV   | \_ntp。\_udp。* \<sipdomain\> * <br/> \_ntp。\_udp。<span> </span> *contoso<span></span>.com*  |时间服务器 FQDN  <br/> 北美 america.pool.ntp.org   |NTP 源所需的 Lync Phone Edition 设备   |这需要支持桌面话筒。   |
 |SRV   |\_sipfederationtls。\_tcp。* \<sipdomain\> * <br/>\_sipfederationtls。\_tcp。<span> </span> *contoso<span></span>.com*  | 访问边缘服务 FQDN <br/> EdgePool int.<span></span>*contoso<span></span>.com*  |创建一个具有 IOS 或 Windows phone 移动客户端的每个 SIP 域的 SRV 记录。   |移动客户端支持   |
 |A/AAAA   |管理 URL  <br/>*Web int.<span></span>contoso<span></span>.com*  |FE 池 HLB VIP  <br/> 192.168.21.121   |Skype 的业务 Server Control Panel，请参阅[简单 Url](dns.md#BK_Simple)  ||
@@ -93,7 +93,7 @@ ms.locfileid: "23887888"
 |CNAME   |sip。* \<sipdomain\>* <br/> sip。* <span> </span>contoso<span></span>.com*  |外部访问边缘池 FQDN  <br/>*Access1。<span> </span>contoso<span></span>.com*  |查找边缘服务器池。 请参阅[演练的 Skype 业务客户端的查找服务](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)  |Y   |
 |SRV   |\_sip。\_tls。* \<sipdomain\> * <br/>\_sip。\_tls。<span> </span> *contoso<span></span>.com*  |外部访问边缘 FQDN  <br/>_Access1。<span> </span>contoso<span></span>.com_  |用于外部用户访问。 请参阅[演练的 Skype 业务客户端的查找服务](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)  |Y   |
 |SRV   |\_sipfederationtls。\_tcp。* \<sipdomain\> * <br/>\_sipfederationtls。\_tcp。<span> </span> *contoso<span></span>.com*  |外部访问边缘 FQDN  <br/>*Access1。<span> </span>contoso<span></span>.com*  |用于联盟和公共 IM 连接   |& #x 2776;  |
-|SRV   |\_xmpp 服务器。\_tcp。*< sipdomain\> * <br/>\_xmpp 服务器。\_tcp。* <span> </span>contoso<span></span>.com*  |外部访问边缘 FQDN  <br/>*Access1。<span> </span>contoso<span></span>.com*  |XMPP 代理服务接受并与配置 XMPP 联盟伙伴发送可扩展消息传递和状态协议 (XMPP) 消息。   |Y，部署联合身份验证，否则为可选  <br/> 在业务服务器 2019年的 Skype 中不可用。|
+|SRV   |\_xmpp 服务器。\_tcp。*<sipdomain\> * <br/>\_xmpp 服务器。\_tcp。* <span> </span>contoso<span></span>.com*  |外部访问边缘 FQDN  <br/>*Access1。<span> </span>contoso<span></span>.com*  |XMPP 代理服务接受并与配置 XMPP 联盟伙伴发送可扩展消息传递和状态协议 (XMPP) 消息。   |Y，部署联合身份验证，否则为可选  <br/> 在业务服务器 2019年的 Skype 中不可用。|
 |SRV   |\_sipfederationtls。\_tcp。* \<sipdomain\> * <br/>\_sipfederationtls。\_tcp。* <span> </span>contoso<span></span>.com*  |外部访问边缘 FQDN  <br/>*Access1。<span> </span>contoso<span></span>.com*  |若要支持推送通知服务和 Apple 推送通知服务，您可以创建一个 SRV 记录每个 SIP 域。 & #x 2778;  ||
 |A/AAAA   |外部前端池 web 服务 FQDN  <br/>*Web ext.<span></span>contoso<span></span>.com*  |反向代理的公共 IP 地址，而您的前端池和 #x 2776; 外部 Web 服务 VIP 的代理 <br/> 131.107.155.1 192.168.21.120 代理   |前端最终池外部接口用于通过 Skype 企业 Web 应用程序   |Y   |
 |A/AAAA/CNAME   |lyncdiscover。* \<sipdomain\>* <br/> lyncdiscover。* <span> </span>contoso<span></span>.com*  |如果您没有控制器和 #x 2777;，反向代理服务器公共 IP 地址，解析为外部 Web 服务 VIP 控制器池，如果您没有或前端池 <br/> 131.107.155.1 192.168.21.120 代理   | 自动发现，也可使用移动功能，业务 Web App 和计划程序 Web 应用程序的 Skype 解析反向代理服务器的客户端外部记录 <br/> 若要支持推送通知服务和 Apple 推送通知服务，您可以创建一个具有 Microsoft Lync 移动客户端的每个 SIP 域的 SRV 记录。 3  |Y   |

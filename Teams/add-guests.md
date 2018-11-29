@@ -12,12 +12,12 @@ ms.reviewer: sbhatta
 description: 了解管理员可用于将新来宾用户添加到组织的工具，包括 Microsoft Teams 桌面客户端和 Web 客户端以及 Azure Active Directory B2B 协作门户。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0671774d01ce8b2dfeea78fff36dde117931ff00
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 729490af1c1e15b82d62dc35386e9ad4344d863a
+ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674462"
+ms.lasthandoff: 11/29/2018
+ms.locfileid: "26984731"
 ---
 <a name="add-a-guest-to-a-team"></a>向团队添加来宾
 =====================
@@ -48,6 +48,6 @@ ms.locfileid: "26674462"
 
 ## <a name="more-information"></a>更多信息
 
-[授权的 Microsoft 团队中的来宾访问](teams-dependencies.md)
-[打开或关闭来宾访问中的 Microsoft 团队](set-up-guests.md)
-[使用 PowerShell 来控制对团队的来宾访问](guest-access-powershell.md)
+[在 Microsoft Teams 中授权来宾访问](teams-dependencies.md)</br>
+[打开或关闭来宾访问中的 Microsoft 团队](set-up-guests.md)</br>
+[使用 PowerShell 控制对团队的来宾访问](guest-access-powershell.md)
