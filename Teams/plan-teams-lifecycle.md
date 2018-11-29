@@ -12,18 +12,22 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb337853af524e9733d56dcb428f63268bd65b62
-ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
+ms.openlocfilehash: 56add7d27a367c5320243455d6891fa178526b4f
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25092697"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699738"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>在 Teams 中规划生命周期管理
 
-Teams 提供了一组丰富的工具，用于为组织实施协作生命周期管理流程。 本文通过适当的问题指导 IT 专业人员确定其对生命周期管理的要求，以及用于满足这些要求的工具。 
+Teams 提供了一组丰富的工具，用于为组织实施协作生命周期管理流程。本文通过适当的问题指导 IT 专业人员确定其对生命周期管理的要求，以及用于满足这些要求的工具。 
 
-规划生命周期管理很重要，因为这意味着你要制定有效地完成工作的规划。 大多数项目都会经历开始、中间和结束。 团队也是，但其构建和使用方式多种多样，因此，团队处在生命周期的哪个阶段并不总是很明显。 制定生命周期管理规划可帮助你在组织的项目经历这些阶段时对其进行跟踪。
+规划生命周期管理很重要，因为这意味着你要制定有效地完成工作的规划。大多数项目都会经历开始、中间和结束。团队也是如此，但其构建和使用方式多种多样，因此，团队处在生命周期的哪个阶段并不总是很明显。制定生命周期管理规划可帮助你在组织的项目经历这些阶段时对其进行跟踪。
+
+> [!Tip]
+> 观看以下会话，详细了解 Microsoft Teams 中的生命周期：[Microsoft Teams 中的治理、管理和生命周期](https://aka.ms/teams-governance)
+
 
 ## <a name="lifecycle-concepts"></a>生命周期概念
 
