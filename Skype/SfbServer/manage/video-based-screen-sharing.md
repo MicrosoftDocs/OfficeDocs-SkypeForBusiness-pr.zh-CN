@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype 的基于视频的屏幕共享 (VbSS) 的业务服务器规划和配置信息
-ms.openlocfilehash: 450a6ab5550c00e91e2d9772d954dc8f51d38156
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 84547168eb883522005480fb07ff2bfb9abd54f6
+ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561919"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "26993431"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>视频基于屏幕共享的 Skype 业务服务器 
  
@@ -120,14 +120,13 @@ VbSS 带宽为：
 - 如果你的帐户托管在 ASMCU 不满足支持 VbSS 的最低内部版本的环境中。
 - 如果 for Business 客户端使用的 Skype 较早版本的任何人加入会话，例如任何人都使用低于 16.0.6330.1000，对于业务会议室系统设备，Skype 或业务移动应用程序的 Skype 任何 Windows 客户端版本。 
 - 如果用户正在共享 Skype 的企业 Web 应用程序。
-- 如果有人在 Mac 上的业务用 Skype 并不驻留在 Skype 业务 online。
+- 如果有人在 Mac 上的业务用 Skype 并不驻留在上业务 online Skype 或业务服务器 2015年的 Skype 年 7 月，2018 累积更新 （或更高版本）。
 - 如果某人开始任何程序/Windows 共享。
 - 如果某人开始录制会话。
-- 如果某人在会话期间调用远程屏幕控制。
-
-    请注意，会话切换到 RDP 后，将不会切换回 VbSS。另外，从 VbSS 进行切换应为无缝操作，并且希望在大多数情况下不容易被检测到。
-  
+- 如果某人在会话期间调用远程屏幕控制。 
 - 包含 250 个以上的参与者的会议（当前不支持 VbSS）。
+
+请注意，会话切换到 RDP 后，将不会切换回 VbSS。另外，从 VbSS 进行切换应为无缝操作，并且希望在大多数情况下不容易被检测到。
     
 > [!NOTE]
 > 它具有不受支持到块中，或尝试阻止，请从转换 VbSS 到中 Skype RDP 业务屏幕共享。 

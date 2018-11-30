@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 团队中创建一个组织范围团队
+title: 在 Microsoft Teams 中创建组织范围的团队
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: phlouie
@@ -13,18 +13,18 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3980a73c817b83466c8c93c29fb60e7e20f4df48
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: cefcf6cb4d1710935e6448e4babd7a284165e767
+ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532806"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "26993415"
 ---
-# <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft 团队中创建一个组织范围团队
+# <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft Teams 中创建组织范围的团队
 
 组织范围团队提供的小型到中型组织成为进行协作的单个工作组中的每个人的自动方法。 
  
-与组织范围团队全局管理员可以轻松创建拉入组织中的每个用户保留成员的最新的 Active Directory 作为用户加入和离开组织的公共团队。 仅全局管理员可创建组织范围团队和组织范围球队是限制为与不超过 2500 用户组织的当前。 如果满足这些要求，管理员将作为下**隐私**选项看到**组织范围内**，创建一个团队时。
+与组织范围团队全局管理员可以轻松创建拉入组织中的每个用户保留成员的最新的 Active Directory 作为用户加入和离开组织的公共团队。 仅全局管理员可创建组织范围团队和组织范围球队是限制为与不超过 2500 用户组织的当前。 如果满足这些要求，全局管理员将作为下**隐私**选项看到**组织范围内**，创建一个团队时。
 
 ![要创建一个组织范围团队的组织范围选项的屏幕截图](media/create-org-wide-team.png "要创建一个组织范围团队的组织范围选项的屏幕截图")
 
@@ -48,3 +48,11 @@ ms.locfileid: "26532806"
 
 ### <a name="remove-accounts-that-might-not-belong"></a>删除可能不属于的帐户
 即使成员无法保留组织范围团队，作为团队所有者，您可以通过删除不属于帐户管理团队名单。 请确保您使用团队从您的组织范围团队中移除用户。  如果您使用另一种方式删除用户，如 Microsoft 365 管理中心或从组在 Outlook 中，用户可能会重新添加到组织范围团队。 
+
+## <a name="faq"></a>常见问题
+
+### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>是否存在一种方法创建一个组织范围团队之外使用团队客户端？ 
+
+全局管理员使用团队客户端只能创建一个组织范围团队。 如果您的组织限制使用 PowerShell 创建团队，建议的解决方法是将您的全局管理员添加到的用户可以创建工作组的安全组。 有关详细信息，请参阅[管理哪些人可以创建 Office 365 组](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)。 
+
+如果这不是一个选项，您可以创建公用工作组使用 PowerShell 并将全局管理员添加作为团队所有者。 然后，具有全局管理员单击 **...更多选项**旁边工作组名称，单击**编辑团队**，然后转到**组织范围的组织中的所有人都将自动添加**的隐私。 请注意，仅团队所有者可以访问**编辑团队**选项和仅全局管理员可以查看**组织范围内**的选项。

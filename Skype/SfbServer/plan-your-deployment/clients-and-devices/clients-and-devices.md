@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 摘要：支持的 Skype for Business 客户端和应用概述
-ms.openlocfilehash: 3c68264f9eabc32c9e8c11a243fd103bb7c97426
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: bde1e70699de8adfdf58a7cc892405d8eee8675c
+ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530810"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "26993378"
 ---
 # <a name="plan-for-clients-and-devices"></a>规划客户端和设备
 
@@ -34,13 +34,13 @@ Skype for Business Server 支持多种类型的客户端，包括计算机安装
 
 ### <a name="skype-for-business-2019"></a>Skype for Business (2019)
 
-推荐 Skype for Business (2019) 作为 Skype for Business Server 2019 的客户端，该客户端功能全面。 有关新功能的说明，请参阅 [Skype for Business 2016 中的新增功能](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)。 [Skype for Business 的桌面客户端功能比较](desktop-feature-comparison.md)中详细介绍了客户端功能支持，[Skype for Business 帮助](https://support.office.com/en-US/Skype-for-business)中提供了用户文档。 当用户安装 Office 365 时，会包含此客户端。
+Skype for Business (2019) 业务服务器 2015年和 2019年是建议的全功能的 Skype 客户端。 新功能的说明，请参阅[按照 Skype for Business 中的最新更新](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)。 [Skype for Business 的桌面客户端功能比较](desktop-feature-comparison.md)中详细介绍了客户端功能支持，[Skype for Business 帮助](https://support.office.com/en-US/Skype-for-business)中提供了用户文档。 当用户安装 Office 365 时，会包含此客户端。
 
 还会提供支持较少功能的免费基本客户端。 这两个版本均可从[在所有设备中下载 Skype for Business](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3) 下载。 [基本客户端限制](desktop-feature-comparison.md#Full-Basic)部分介绍了完整客户端与基本客户端之间的差别。
 
 ### <a name="skype-for-business-2016"></a>Skype for Business 2016
 
-推荐 Skype for Business 2016 作为 Skype for Business Server 的客户端，该客户端功能全面。 有关新功能的说明，请参阅 [Skype for Business 2016 中的新增功能](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)。 [Skype for Business 的桌面客户端功能比较](desktop-feature-comparison.md)中详细介绍了客户端功能支持，[Skype for Business 帮助](https://support.office.com/en-US/Skype-for-business)中提供了用户文档。 当用户安装 Office 365 时，会包含此客户端。
+Skype 的业务 2016年是业务服务器 2015年或 2019 Skype 全客户端。 有关新功能的说明，请参阅 [Skype for Business 2016 中的新增功能](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)。 [Skype for Business 的桌面客户端功能比较](desktop-feature-comparison.md)中详细介绍了客户端功能支持，[Skype for Business 帮助](https://support.office.com/en-US/Skype-for-business)中提供了用户文档。 当用户安装 Office 365 时，会包含此客户端。
 
 还会提供支持较少功能的免费基本客户端。 这两个版本均可从[在所有设备中下载 Skype for Business](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3) 下载。 [基本客户端限制](desktop-feature-comparison.md#Full-Basic)部分介绍了完整客户端与基本客户端之间的差别。
 

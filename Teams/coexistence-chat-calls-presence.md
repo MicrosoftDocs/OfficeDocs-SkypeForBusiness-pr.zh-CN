@@ -1,9 +1,8 @@
 ---
-title: 与 Skype for Business 的共存
+title: 与 Skype for Business 共存
 author: jambirk
 ms.author: francoid
 manager: Serdars
-ms.date: 11/7/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: francoid
@@ -13,113 +12,150 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0d6e4ad171ffc99e1f0aaa1c3b93e0fd61443bc
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2965c876424820f31e50e4a7df7b5ea7cf2f7294
+ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26535877"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "26993423"
 ---
-# <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 的共存
+# <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 共存
 
-由 TeamsUpgrade 模式、[迁移和互操作性指南组织使用团队一起 Skype for Business](migration-interop-guidance-for-teams-with-skype.md)中所述定义共存和 Skype for Business 和团队之间的互操作性。
+由 TeamsUpgrade 模式、[迁移和组织使用团队一起 for Business 的 Skype 的互操作性指南](migration-interop-guidance-for-teams-with-skype.md)中所述定义共存和 Skype 的业务和团队的客户端和用户之间的互操作性。
 
-任何给定的用户将始终分配 TeamsUpgrade 模式，默认情况下或显式由管理员。 默认值是*群岛*。 升级到团队的用户具有*TeamsOnly*的模式。
+任何给定的用户将始终分配 TeamsUpgrade 模式，默认情况下或显式由管理员。 默认值是*群岛*。 升级到团队的用户具有*TeamsOnly*的模式。 *SfBOnly*、 *SfBWithTeamsCollab*和*SfBWithTeamsCollabAndMeetings*也是可能的模式。
 
 > [!NOTE]
-> 已弃用*旧*模式;2018 年 11 月 15 之后，剩余*旧*模式的用户将被转换为*群岛*模式。
+> 已弃用*旧*模式;*旧*模式了用户已将转换为*群岛*模式。
 
 ## <a name="routing-parameters"></a>路由参数
 
 收件人的 TeamsUpgrade 模式是中确定的聊天、 呼叫和状态，是租户内兼跨联盟租户行为键。
 
-如果发件人使用的团队，创建一个新的对话线程时进行做出路由决定。 团队中的现有对话线程始终保留确定创建线程时的路由方法。 团队支持持久线程。
+如果发件人使用的团队，创建一个新的对话线程时进行做出路由决定。 团队中的现有对话线程始终保留确定创建线程时的路由方法： 团队支持持久线程。
 
  线程路由方法是：  
-* *本机*到团队对话中的租户团队
-* *互操作*的 Skype 团队业务对话中的租户
-* 跨租户联盟对话的*联盟*。
+
+- *本机*到团队对话中的租户团队
+- *互操作*的 Skype 团队业务对话中的租户
+- 对联盟对话跨租户的*联盟*
 
 确定线程路由方法的参数为：
-* 收件人的 TeamsUpgrade 模式
-* 发件人使用的客户端
-* 对话是否新或现有的线程的一部分
-* 对话是否在租户或联盟
-* 是否可能对话
-    * 在租户互操作性和联合身份验证从团队需要，则发起者的租户是纯联机或业务混合的 Skype。 向工作组的联合身份验证或租户中互操作性，则不能具有完全内部租户。
-    * 如果业务帐户发起方的 Skype，本地驻留的用户无法使用团队客户端租户中的互操作性和联合身份验证。 该用户必须改用业务客户端 Skype 的互操作性和联合身份验证。
-    * 团队团队通信始终是可能的租户。
+
+- 收件人的 TeamsUpgrade 模式
+- 发件人使用的客户端
+- 对话是否新或现有的线程的一部分
+- 对话是否在租户或联盟
+- 是否可能对话
+    - 在租户互操作性和联合身份验证从团队需要，则发起者的租户是纯联机或业务混合的 Skype。 向工作组的联合身份验证或租户中互操作性，则不能具有完全内部租户。
+    - 如果业务帐户发起方的 Skype，本地驻留的用户无法使用团队客户端租户中的互操作性和联合身份验证。 该用户必须改用业务客户端 Skype 的互操作性和联合身份验证。
+    - 总是可能在租户团队团队通信。
 
 # <a name="chat-and-call-routing"></a>聊天和呼叫路由
 
 ## <a name="in-tenant-routing-for-new-chats-or-calls"></a>租户中为新的聊天或呼叫路由 
 
-下表捕获当前做法租户中聊天和呼叫路由。 此表是有效的新呼叫或未启动从预先存在现有线程的聊天。 它介绍哪些客户端的新呼叫 （或聊天） 将路由到，如果产生左侧到右侧的租户中目标用户的用户。
+下表捕获的租户中聊天和呼叫路由，并可用于新呼叫或未启动从以前存在的线程的聊天。 它介绍哪些客户端将收到新呼叫或聊天，如果产生左侧到右侧的租户中收件人用户的用户。
 
-向 TeamsOnly 用户发送的邮件将始终位于工作组中。 如上所述可能对话时，始终将在 Skype for Business，位于向 SfB * 用户发送消息。 向群岛用户发送的邮件将始终位于已产生的客户端中。
+将始终将邮件发送给 TeamsOnly 用户路由到团队。 邮件发送到 SfB\*可能如上所述对话时，用户始终将路由到 for Business，Skype。 将始终将邮件发送给群岛用户路由到同一客户端从其发送。
 
-**表 1： 租户中新的聊天或呼叫路由**
+下面显示哪些客户端在给定模式下将收到来自原始发件人 （三个最左侧列），具体取决于发起者模式下，选择，客户端的呼叫并业务客户端其 Skype 所在的表格 (在 prem 或 online)。
 
-| <br/> 模式   | 从&nbsp;原始发件人 <br/> 客户端 | <br/> SfB&nbsp;驻留 | | <br/> 群岛  | 到&nbsp;目标 <br/> SfB\*   | <br/> TeamsOnly  |
-|--- |--- |--- |--- |--- |--- |--- |
-| 群岛 <br/>群岛 <br/>群岛 <br/>群岛<br/> SfB\*<br/> SfB\* <br/> TeamsOnly |Teams<br/>SfB <br/>Teams <br/>SfB <br/>SfB <br/>SfB <br/>Teams|Online<br/> Online<br/> 在 prem<br/> 在 prem<br/> Online<br/> 在 prem<br/> Online| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>|Teams <br/> SfB <br/> Teams <br/> SfB <br/>  SfB <br/> SfB <br/> Teams | *SfB* <br/> SfB <br/> **NA** <br/>SfB <br/> SfB <br/>SfB <br/>*SfB* <br/>  | Teams <br/>*Teams* <br/>Teams <br/>*Teams* <br/> *Teams*  <br/>*Teams* <br/>Teams <br/> |
-|  | | | | | | |
+在下面的表： 
+- **SfB\*** 代表任何以下模式： *SfBOnly*， *SfBWithTeamsCollab*， *SfBWithTeamsCollabAndMeetings*。
 
-在表中，SfB * 代表任何以下模式： *SfBOnly*， *SfBWithTeamsCollab*， *SfBWithTeamsCollabAndMeetings*。
+- *斜体文本*突出显示的互操作的对话。
 
-*斜体文本*表中指示的互操作的对话。
+- **不能**代表在其聊天或呼叫不是可能的情况。 原始发件人必须使用 Skype for Business 改为在这些情况下。 这是 Microsoft 的说明性指导信息，以便上-prem/混合客户为何使用模式群岛 (通常 SfBWithTeamsCollab) 之外的原因之一向工作组其升级旅程的起始点。
 
-表中的**加粗**表示在其聊天或呼叫不是可能的情况。 这是因为互操作性基础结构仅联机可用，需要 Skype 的团队帐户为 online 帐户相关联的业务帐户。 原始发件人必须使用 Skype for Business 改为在这些情况下。 这是 Microsoft 的说明性指导信息，以便上-prem/混合客户为何要比群岛 (通常为*SfBWithTeamsCollab*) 使用另一种模式的原因之一向工作组其升级旅程的起始点。
+**表 1a： 租户中新的聊天或呼叫路由到群岛模式收件人**
+
+| <br/><br/> 模式 | 原始发件人 <br/><br/> 客户端 | <br/><br/> SfB&nbsp;驻留 | | 收件人 <br/><br/> 群岛  |
+|--- |--- |--- |--- |--- |
+| 群岛 | Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business| Online<br/> Online<br/> 在 prem<br/>在 prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business|
+|SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> 在 prem<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
+|TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
+| | | | | |
+
+**表 1b： 租户中新的聊天或呼叫路由到的收件人的 SfB\*模式**
+
+| <br/><br/> 模式   | 原始发件人 <br/><br/> 客户端 | <br/><br/> SfB&nbsp;驻留 | |   收件人 <br/><br/> SfB\*   |
+|--- |--- |--- |---   |--- |
+| 群岛 |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business  |Online<br/> Online<br/> 在 prem<br/> 在 prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **不可行** <br/>Skype for Business<br/> |
+|SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> 在 prem<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
+|TeamsOnly |Teams| Online<br/>|&boxv;<br/> |  *Skype for Business* <br/>| 
+| | | | | |
+
+**表 1 的 c： 租户中新的聊天或呼叫路由到 TeamsOnly 模式收件人**
+
+| <br/><br/> 模式   | 原始发件人 <br/><br/> 客户端 | <br/><br/> SfB&nbsp;驻留 | |   收件人 <br/><br/> TeamsOnly  |
+|--- |--- |--- |--- | --- |
+| 群岛   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> 在 prem<br/> 在 prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
+|SfB\*  | Skype for Business<br/>Skype for Business<br/> | Online<br/> 在 prem<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
+|TeamsOnly  | Teams | Online |  &boxv; |Teams   |
+|  |  |  | | |
 
 ## <a name="federated-routing-for-new-chats-or-calls"></a>联盟路由进行呼叫或新的聊天
   
-下表捕获当前联盟的呼叫 （和聊天） 路由做法。 此表是有效的新呼叫或聊天。 它介绍哪些客户端的新呼叫 （或聊天） 将路由到，如果产生左侧到右侧联盟的目标用户的用户。
+下表捕获的联盟的呼叫和聊天室、 路由和可用于新呼叫或聊天。 介绍了哪些客户端将收到新呼叫或聊天，如果产生左侧到右侧联盟的目标用户的用户。
 
-总之，如果可能，上面所述的对话就 TeamsOnly 用户发送的邮件将始终位于中团队;邮件发送给 SfB * 用户将始终位于在 Skype 的业务需要。向群岛用户发送的邮件将始终位于 Skype for Business 中而不考虑所产生的客户端。 路由联盟聊天和呼叫不同租户中路由，群岛用户始终将 Skype for Business 中收到联盟的通信。
+总之，如果可能，上面所述的对话就 TeamsOnly 用户发送的邮件将始终位于中团队;邮件发送到 SfB\*用户将始终位于在 Skype 的业务需要。向群岛用户发送的邮件将始终停放在 for Business 的 Skype 无论客户端从其发送。 路由联盟聊天和呼叫不同租户中路由，群岛用户始终将 Skype for Business 中收到联盟的通信。
 
-此最后一个点的原因是，我们不能假定业务合作伙伴的联盟的 Skype 已使用团队，如果群岛模式。 群岛是默认模式中，但我们不能假定所有群岛用户都运行团队。 通过传送至 for Business 的 Skype 我们确保向群岛用户没有通信失败。 如果我们传送给团队，如果目标不使用团队，可能会丢失的通信。 传送到 for Business 的 Skype 可确保始终接收邮件。  
+这是因为我们不能假定业务合作伙伴的联盟的 Skype 已使用团队，如果群岛模式。 群岛是默认模式中，但我们不能假定所有群岛用户都运行团队。 通过传送至 for Business 的 Skype 我们确保向群岛用户没有通信失败。 如果我们传送给团队，如果目标不使用团队，可能会丢失的通信。 传送到 for Business 的 Skype 可确保始终接收邮件。  
 
 > [!NOTE]
-> 当前实现团队联合身份验证基于 Skype 业务联盟，因此它利用互操作性基础结构 (这要求发起方的租户应是纯联机或 SfB 混合)，并提供了一组缩减的功能与本机线程进行比较。 我们希望提供本机团队团队联盟将来，此时线程本机并提供完整的功能。
+> 当前实现团队联合身份验证基于 Skype 业务联盟，因此它利用互操作性基础结构 (这要求发起方的租户应是纯联机或业务混合的 Skype)，并提供功能与本机线程相比降低的集。 我们希望提供本机团队团队联盟将来，此时线程本机并提供完整的功能。
 
-**表 2： 联合新聊天或呼叫路由**
+下表介绍了哪些客户端将收到来自原始发件人 （三个最左侧列），具体取决于发起者模式下，客户端所选的呼叫和业务客户端其 Skype 所在 (上 prem 或 online)。
 
-| <br/>模式   | 从原始发件人<br/> 客户端| <br/>SfB 驻留| | <br/> 群岛 | 若要确定目标<br/> SfB\* | <br/> TeamsOnly  |
-|--- |--- |--- |--- |--- |--- |---|
-| 群岛 <br/>群岛 <br/>群岛 <br/>群岛<br/> SfB\*<br/> SfB\* <br/> TeamsOnly |Teams<br/>SfB <br/>Teams <br/>SfB <br/>SfB <br/>SfB <br/>Teams|Online<br/> Online<br/> 在 prem<br/> 在 prem<br/> Online<br/> 在 prem<br/> Online| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *SfB* <br/> SfB <br/> **NA** <br/>SfB <br/> SfB <br/>SfB <br/>SfB <br/> | *SfB* <br/> SfB <br/> **NA** <br/>SfB <br/> SfB <br/>SfB <br/>SfB <br/>  | Teams <br/>Teams <br/>**NA** <br/>*团队<br/>团队<br/>团队* <br/>Teams <br/> |
-|  | | | | | |
+**表 2a： 联合新的聊天或呼叫路由到群岛收件人**
 
-在表中，SfB * 代表任何以下模式： *SfBOnly*， *SfBWithTeamsCollab*， *SfBWithTeamsCollabAndMeetings*。
+| <br/><br/>模式   | 原始发件人<br/><br/> 客户端| <br/><br/>SfB 驻留| | 收件人<br/><br/> 群岛 |
+|--- |--- |--- |--- |--- |
+| 群岛 |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business  |Online<br/> Online<br/> 在 prem<br/> 在 prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **不可行**   <br/> Skype for Business |
+| SfB\* |Skype for Business <br/>Skype for Business |Online<br/> 在 prem<br/> | &boxv;<br/>&boxv;|Skype for Business <br/>Skype for Business |
+| TeamsOnly |Teams |Online| &boxv;|*Skype for Business* |
+|  | | | | 
 
-*斜体文本*突出显示的互操作的对话。
+**表 2b： 联合新的聊天或呼叫路由到的收件人的 SfB 给\*模式**
 
-**加粗**表示在其聊天或呼叫不是可能的情况。 原始发件人必须使用 Skype for Business 改为在这些情况下。 这是 Microsoft 的说明性指导信息，以便上-prem/混合客户为何要比群岛 (通常 SfBWithTeamsCollab) 使用另一种模式的原因之一向工作组其升级旅程的起始点。
+| <br/><br/>模式   | 原始发件人<br/><br/> 客户端| <br/><br/>SfB 驻留| |  收件人<br/><br/> SfB\* |  
+|--- |--- |--- |--- |--- |
+| 群岛 |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> 在 prem<br/> 在 prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **不可行** <br/>Skype for Business <br/> |  
+| SfB\* |Skype for Business <br/>Skype for Business  |Online<br/> 在 prem<br/>  |&boxv;<br/>&boxv; | Skype for Business <br/>Skype for Business  |
+| TeamsOnly | Teams|Online |&boxv; |*Skype for Business*  |
+|  | | | | |
+
+**表 2 的 c： 联合新的聊天或呼叫路由到 TeamsOnly 模式收件人**
+
+| <br/><br/>模式 | 原始发件人<br/><br/> 客户端| <br/><br/>SfB 驻留| |  收件人<br/>  <br/> TeamsOnly  |
+|--- |--- |--- |--- |--- |
+| 群岛  |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> 在 prem<br/> 在 prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**不可行** <br/>*Teams* |
+| SfB\* |Skype for Business <br/>Skype for Business  | Online<br/> 在 prem| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
+| TeamsOnly |Teams |Online |&boxv; |Teams |
+|  | | | | |
 
 ## <a name="chats-and-calls-from-pre-existing-threads"></a>聊天并调用从事先线程
 
 ### <a name="from-teams"></a>从工作组
 
-调用或聊天启动从预先存在持久线程中团队将路由中相同的方式的线程，如果该路由选项仍可用。 
+调用或聊天启动从预先存在持久线程中团队将路由中相同的方式的线程，如果该路由选项仍可用。
 
 如果团队中的前现有持久线程本机线程 （即路由至团队），其他聊天消息和从该线程的呼叫将转到团队。 如果它 （即路由至 for Business 的 Skype） 互操作性线程，其他聊天消息和呼叫将转到 Skype for Business （再次假定路由选项才可用）。
 
 > [!NOTE]
-> 团队中的前现有线程可能不再可路由。 这可能例如线程是否向用户立即升级到团队的互操作的线程。 由于互操作的线程，线程会将路由到 for Business 的 Skype 但用户不再可以使用 Skype for Business 的聊天和呼叫。 在这种情况下，线程将被禁用，不允许进一步进行通信。
+> 它是团队不再可路由，如线程时向用户立即升级到团队的互操作性线程在事先线程可能。 创建以来，它为互操作的线程，线程会将路由到 Skype for Business，但该用户不再可以使用 Skype for Business 的聊天和呼叫。 在这种情况下，线程将被禁用，不允许进一步进行通信。
 
 ### <a name="from-skype-for-business"></a>从 Skype for Business
 
-Skype for Business 没有线程持久性之外的 SIP 会话超时值 （10 分钟）。 聊天和从之前的 SIP 会话的过期 Skype for Business 中现有的线程的呼叫将路由线程的方式相同。 会向业务，无论哪些客户端的原始线程来自另一方的一侧的远程用户的 Skype 路由呼叫和从超出 SIP 会话超时 Skype for Business 中现有的线程的聊天室。
+业务线程的 Skype 不会保留超过 10 个最小 SIP 会话超时。 聊天和从之前的 SIP 会话的过期 Skype for Business 中现有的线程的呼叫将路由线程的方式相同。 会向业务，无论哪些客户端的原始线程来自另一方的一侧的远程用户的 Skype 路由呼叫和从超出 SIP 会话超时 Skype for Business 中现有的线程的聊天室。
 
 ## <a name="availability"></a>可用性
 
-上述中租户行为与在今天生产中可用。
+上述的这两种在租户和联盟行为器可用，但具有以下限制：
 
-上述的联盟的行为主要是立即生产中可用的。 下列元素仍对于正在推出和仅供前期应用上的租户： 
-* 联合身份验证与本地租户具有状态可见性
-* 团队客户端的联系人列表中的迁移联盟联系人的显示
-* 若要使用的 SIP URI 或 SMTP 地址来发现联盟的联系人的能力。
-
-推出的这些已开始，和常规可用性预期之前年 11 月 2018年的末尾。
+- 其租户驻留在其他 GoLocal 部署或地理区域的外部与会者看 IM 聊天"federated"会议中
+- 不支持联合身份验证和 Multitenant O365 和 Sovereign 云之间的互操作
 
 # <a name="presence"></a>状态
 
@@ -147,9 +183,10 @@ Skype for Business 没有线程持久性之外的 SIP 会话超时值 （10 分�
 
 **表 3： 在租户状态 （新线程）**
 
-|观察程序 <br/>客户端| |<br/>群岛 |Publisher <br/>SfB\* |<br/>仅团队|
+|观察程序 <br/><br/>客户端| |<br/><br/>群岛 |Publisher <br/><br/>SfB\* |<br/>仅团队|
 |--- |--- |--- |--- |---|
-|SfB <br/> Teams|&boxv;<br/>&boxv;<br/> |SfB <br/>Teams | SfB <br/>SfB | Teams  <br/> Teams |
+|Skype for Business |&boxv;|Skype for Business | Skype for Business | Teams|
+|Teams |&boxv; |Teams |Skype for Business |Teams |
 | | | | |
 
 ## <a name="federated-presence"></a>联盟的状态
@@ -160,13 +197,14 @@ Skype for Business 没有线程持久性之外的 SIP 会话超时值 （10 分�
 
 **表 4： 联合的状态 （新线程）**
 
-|观察程序 <br/> 客户端 | |<br/> 群岛  |Publisher <br/> SfB\* |<br/> 仅团队  |
+|观察程序 <br/><br/> 客户端 | |<br/><br/> 群岛  |Publisher <br/><br/> SfB\* |<br/><br/> 仅团队 |
 |--- |--- |--- |--- |---|
-|SfB <br/> Teams|&boxv;<br/>&boxv; |SfB <br/> SfB | SfB <br/> SfB | Teams <br/> Teams |
+|Skype for Business |&boxv; |Skype for Business  | Skype for Business  | Teams  |
+|Teams | &boxv;|Skype for Business |Skype for Business |Teams|
 | | | | ||
 
 ## <a name="presence-in-pre-existing-threads"></a>事先线程中的状态
 
 为了对齐状态和事先线程，目标的状态公开，需要使用，路由对齐线程中可访问性假定路由是线程的可能的。
 
-特别是，如果收件人先前必须与持久的互操作性会话线索随后升级到团队线程将不再反映准确的状态，并将不再可路由。 您应开始新的线程。
+特别是，如果收件人先前必须与持久的互操作性会话线索已升级到团队线程将不再反映准确的状态，并将不再可路由。 您应开始新的线程。
