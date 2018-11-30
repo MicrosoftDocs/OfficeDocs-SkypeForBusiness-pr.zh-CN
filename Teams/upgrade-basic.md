@@ -1,5 +1,5 @@
 ---
-title: 升级的基本任务清单-Microsoft 团队
+title: 升级基本清单 - Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -7,7 +7,7 @@ ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: 对于升级到团队业务的 Skype 加速的 10 步骤操作计划
+description: 从 Skype for Business 升级到 Teams 的十步加速行动计划
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -16,42 +16,42 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 7ba3471b2a51a4629d316a4507a08cd02e30022a
 ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/25/2018
 ms.locfileid: "25015642"
 ---
 <a name="about-upgrade-basic"></a>
-# <a name="upgrade-basic"></a>升级基本 
+# <a name="upgrade-basic"></a>升级基本信息 
 
-设计的小型组织或业务 online IM （聊天） 和仅会议使用 Skype 那些，基本升级的清单是加速的行动计划包括核心，建议使用活动和关联的资源实施从 for Business 的 Skype 到团队的成功移动。
+升级基本清单是面向小型组织或使用 Skype for Business Online 传递即时消息（聊天）和召开会议的组织的加速行动计划，包括实现成功从 Skype for Business 迁移到 Teams 的核心建议活动及关联资源。
 
-这些十个轻松步骤提供成功升级所需的全部内容。 正在设计用来为 45 30 天后，完成，但您应调整根据贵组织的升级计划的任务完成日期。
+这十个易于执行的步骤提供了成功升级所需的各方面内容。 这些步骤设计为在大约 30 到 45 天内完成，但你应根据贵组织的升级计划调整任务完成日期。
 
-会发生什么情况 for Business 的 Skype 在升级后？ 后用户升级到团队 （**仅团队**模式）：
+升级后，Skype for Business 会发生什么情况？ 在你的用户升级到 Teams（**仅 Teams** 模式）后：
 
--   禁用其 Skype 业务客户端，并所有聊天和呼叫将都转到团队。 请注意，这样不会卸载其桌面客户端。
--   在工作组计划业务会议设计，如安排之前升级工作的任何 Skype 但所有新的会议。
--   如果用户尝试登录到 for Business 的 Skype，他们将收到通知，从它们已向工作组已升级其客户端。
--   用户需要手动卸载业务其移动设备上的客户端 Skype。
+-   其 Skype for Business 客户端将被禁用，所有聊天和通话都将在 Teams 中进行。 请注意，这不会卸载其桌面上的客户端。
+-   升级之前安排的任何 Skype for Business 会议都将正常进行，但所有新会议都在 Teams 中安排。
+-   如果用户尝试登录 Skype for Business，其客户端会发出已升级到 Teams 的通知。
+-   用户需要手动卸载其移动设备上的 Skype for Business 客户端。
 
-请参阅我们有关升级的其他问题的[常见问题](https://aka.ms/SkypeToTeams-FAQ)。
+有关升级的其他问题，请参见我们的[常见问题解答](https://aka.ms/SkypeToTeams-FAQ)。
 
-不熟悉团队？ [阅读有关如何团队](https://products.office.com/microsoft-teams/group-chat-software)对话、 会议、 文件、 Office 应用程序和第三方集成在一起，为 Office 365 中的团队协作提供单个集线器。
+不熟悉 Teams？ [了解 Teams](https://products.office.com/microsoft-teams/group-chat-software) 如何将对话、会议、文件、Office 应用程序和第三方集成整合在一起，从而在 Office 365 中提供一个团队合作中心。
 
 <!--ENDOFSECTION-->
 
 <a name="step-1"></a>
 
-## <a name="step-1-notify-your-key-stakeholders"></a>步骤 1。 通知主要利益干系人
+## <a name="step-1-notify-your-key-stakeholders"></a>第 1 步 通知关键利益干系人
 
-*（关于在升级前四到六周）*
+*（在升级前的大约四到六周）*
 
-高级主持人负责公司成功;请务必保留它们以了解有关技术更改。 由于可能并非所有人都收到或读取升级资格的通知，您需要告知利益干系人 （例如，CEO、 IT 专业人员、 市场营销和帮助台潜在顾客） 在开始规划升级之前。
+高层领导对公司的成功负责；务必要让其了解技术变化。 由于可能会出现并非所有人都会收到或阅读有关升级资格的通知，你需要在开始规划升级之前告知利益干系人（例如，CEO、IT 专业人员、市场营销和支持人员领导）。
 
 **资源：**
 
--   [示例电子邮件： 利益干系人通信](upgrade-emails-surveys.md#step-1-email)
+-   [示例电子邮件：利益干系人沟通](upgrade-emails-surveys.md#step-1-email)
  
 [返回顶部](#about-upgrade-basic)
 
@@ -59,21 +59,21 @@ ms.locfileid: "25015642"
 
 <a name="step-2"></a>
 
-## <a name="step-2-prepare-your-organization-for-teams"></a>步骤 2。 准备您的组织团队
+## <a name="step-2-prepare-your-organization-for-teams"></a>第 2 步 让贵组织做好部署 Teams 的准备
 
-*（关于在升级前四到六周）*
+*（在升级前的大约四到六周）*
 
-团队提供的商业功能兼容 Skype — 例如 IM （聊天） 和会议，但它还可以执行等很多。 团队协作，则返回 true 集线器，为团队允许工作组用于管理项目、 文件、 对话和所有位于同一个位置的应用程序。 决定如何组织将使用团队和配置您的环境以获得成功。
+Teams 不仅提供与 Skype for Business 兼容的功能（例如即时消息传递（聊天）和会议），而且还提供更多其他功能。 作为名副其实的团队合作中心，工作组通过 Teams 可以在一个位置管理项目、文件、对话和应用程序。 决定贵组织如何使用 Teams 以及配置环境以获得成功。
 
 > [!Note]
-> 为业务客户现有 Skype，网络基础结构当前很可能已配置为团队。 若要确认此操作，您可以按照链接到下的"完成技术规划"指南 （这是可选的）。
+> 作为现有的 Skype for Business 客户，你当前的网络基础结构可能已配置为适合 Teams。 要对此进行确认，你可以按照链接到以下位置的“完成技术规划”指导进行操作（这是可选工作）：
 
 **资源：**
 
 -   [Teams 概述](Teams-overview.md)
 -   [了解团队和频道](teams-channels-overview.md)
--   [完成技术的规划](quick-start-enable-teams.md#step-3-complete-technical-planning)
--   [管理 Skype 会议室系统](https://aka.ms/srsdocs)
+-   [完成技术规划](quick-start-enable-teams.md#step-3-complete-technical-planning)
+-   [管理 Skype Room Systems](https://aka.ms/srsdocs)
 
 [返回顶部](#about-upgrade-basic)
 
@@ -81,15 +81,15 @@ ms.locfileid: "25015642"
 
 <a name="step-3"></a>
 
-## <a name="step-3-know-your-skype-for-business-users"></a>步骤 3。 了解您的业务用户的 Skype
+## <a name="step-3-know-your-skype-for-business-users"></a>第 3 步 了解你的 Skype for Business 用户
 
-*（大约四周之前升级）*
+*（在升级前的大约四周）*
 
-深采用 for Business 的 Skype 的用户可能需要更多时间或帮助团队对进行转换。 需要时间才能查看业务以确定您需要其他支持最多用户并建立针对您升级后的号码，您可以跟踪使用情况比较基准您当前 Skype。
+习惯使用 Skype for Business 的用户转换到 Teams 可能需要稍多一些时间或协助。 花一些时间了解当前的 Skype for Business 使用情况，以确定需要额外支持最多的用户，并制定可以根据升级后数量跟踪的使用基准。
 
 **资源：**
 
--   [请参阅 Office 365 中的活动报告中的使用率数据](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+-   [查看 Office 365 活动报告中的使用数据](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 [返回顶部](#about-upgrade-basic)
 
@@ -97,19 +97,19 @@ ms.locfileid: "25015642"
 
 <!--ENDOFSECTION-->
 
-## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>步骤 4。 通知用户，他们将从 for Business 的 Skype 升级，向工作组
+## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>第 4 步 向你的用户通知将从 Skype for Business 升级到 Teams
 
-*（即将升级前的 2 到 3 周）*
+*（在升级前的大约两周到三周）*
 
-提供留出足够通知您的用户将授予其时间以熟悉而不会产生负面影响其工作效率，正更多的用户体验产生团队。 发送通信以告知他们有什么变化、 更改为什么和如何可以为其准备。
+早早地提前通知你的用户，让其有时间熟悉 Teams，而不会对其工作效率造成负面影响，从而获得比较积极的用户体验。 告诉他们变化内容、变化原因以及如何为其做好准备。
 
 > [!Note]
-> 如果需要可以在此时间为您通过 Office 365 管理门户的用户启用团队。
+> 如果需要，此时可以通过 Office 365 管理门户为你的用户启用 Teams。
 
 **资源：**
 
--   [管理组织中的团队功能](enable-features-office-365.md)
--   [示例电子邮件： 通知用户有关 Skype for Business](upgrade-emails-surveys.md#step-4-email)
+-   [在贵组织中管理 Teams 功能](enable-features-office-365.md)
+-   [示例电子邮件：面向用户的 Skype for Business 通知](upgrade-emails-surveys.md#step-4-email)
 
 [返回顶部](#about-upgrade-basic)
 
@@ -117,14 +117,14 @@ ms.locfileid: "25015642"
 
 <a name="step-5"></a>
 
-## <a name="step-5-activate-the-user-upgrade-notification"></a>步骤 5。 激活用户升级通知
-*（关于在升级之前的一周）*
+## <a name="step-5-activate-the-user-upgrade-notification"></a>第 5 步 激活用户升级通知
+*（在升级前的大约一周）*
 
-维护升级 momentum 通过启用通过管理门户，提供可视通知中的商业客户端 Skype 的用户将从 for Business 的 Skype 升级到团队的升级通知用户。
+通过以下方法推动升级过程：在管理门户上启用用户升级通知、在 Skype for Business 客户端中提供用户将从 Skype for Business 升级到 Teams 的可视提醒。
 
 **资源：**
 
--   [设置您的共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)
+-   [设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)
 
 [返回顶部](#about-upgrade-basic)
 
@@ -132,14 +132,14 @@ ms.locfileid: "25015642"
 
 <a name="step-6"></a>
 
-## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>步骤 6。 提醒您他们将从 for Business 的 Skype 升级，向工作组的用户
-*（关于在升级之前的五天）*
+## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>第 6 步 提醒你的用户将从 Skype for Business 升级到 Teams
+*（在升级前的大约五天）*
 
-用户都具有其每日职责忙。 提醒他们正在进行升级将有助于确保它们记住才能准备团队所需的步骤。 这是理想的时间，以提醒用户可用的培训和如何开始使用团队。
+用户会忙于其日常职责。 向用户提醒有待处理的升级可帮助确保其记得采取为 Teams 做好准备所需的步骤。 此时正适合向用户提醒有可用的培训以及如何开始使用 Teams。
 
 **资源：**
 
--   [示例电子邮件： 提醒用户开始使用团队](upgrade-emails-surveys.md#step-6-email)
+-   [示例电子邮件：向用户提醒如何开始使用 Teams](upgrade-emails-surveys.md#step-6-email)
 
 [返回顶部](#about-upgrade-basic)
 
@@ -147,18 +147,18 @@ ms.locfileid: "25015642"
 
 <!--ENDOFSECTION-->
 
-## <a name="step-7-upgrade-users-to-teams"></a>步骤 7。 用户升级到团队 ！
+## <a name="step-7-upgrade-users-to-teams"></a>第 7 步 将用户升级到 Teams！
 
-*（升级天）*
+*（升级当天）*
 
-今天是您的组织正式升级到团队为您的通信和协作解决方案的天。 在工作组和 Skype 的业务管理中心中，通过将共存模式设置为**仅团队**激活升级开关。 (在管理中心，转到**组织范围的设置** > **团队升级**。)在其 Skype 业务他们已向工作组已升级的客户端，用户将收到通知。
+今天贵组织正式升级到 Teams，将其作为通信和协作解决方案。 在 Teams 与 Skype for Business 管理中心上，将共存模式设置为“**仅 Teams**”来激活升级开关。 （在管理中心上，转到“**组织范围的设置**” > “**Teams 升级**”。）用户将在其 Skype for Business 客户端中收到已升级到 Teams 的通知。
 
-我们建议每个人在升级之后，您发送电子邮件向工作组欢迎它们。
+我们建议在所有人都升级后，发送一封欢迎大家使用 Teams 的电子邮件。
 
 **资源：**
 
--   [设置您共存并升级设置](setting-your-coexistence-and-upgrade-settings.md)
--   [示例电子邮件： 欢迎用户参加团队](upgrade-emails-surveys.md#step-7-email)
+-   [设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)
+-   [示例电子邮件：欢迎用户使用 Teams](upgrade-emails-surveys.md#step-7-email)
 
 [返回顶部](#about-upgrade-basic)
 
@@ -166,15 +166,15 @@ ms.locfileid: "25015642"
 
 <a name="step-8"></a>
 
-## <a name="step-8-monitor-teams-usage-against-your-baseline"></a>步骤 8。 监视针对您的比较基准的团队使用率
+## <a name="step-8-monitor-teams-usage-against-your-baseline"></a>第 8 步 根据你的基准监控 Teams 使用情况
 
-*（有关升级后的一个或两个周）*
+*（在升级后的大约一周或两周）*
 
-对一项新技术的调整，可能需要一些时间。 检查使用率验证用户同时使用团队 — 或更高版本 — 级别与 for Business 的 Skype 一样。 签入不使用团队预期级别的用户。
+适应新技术可能需要一段时间。 检查使用情况以确认用户使用 Teams 的程度是否达到或超过使用 Skype for Business 的程度。 向未达到 Teams 使用预期程度的用户了解情况。
 
 **资源：**
 
--   [查看使用率数据](https://portal.office.com/AdminPortal/Home#/reportsUsage)
+-   [查看使用数据](https://portal.office.com/AdminPortal/Home#/reportsUsage)
 
 [返回顶部](#about-upgrade-basic)
 
@@ -182,15 +182,15 @@ ms.locfileid: "25015642"
 
 <!--ENDOFSECTION-->
 
-## <a name="step-9-measure-user-satisfaction"></a>步骤 9。 用户满意度度量值
+## <a name="step-9-measure-user-satisfaction"></a>第 9 步 评估满意度
 
-*（有关升级后的一个或两个周）*
+*（在升级后的大约一周或两周）*
 
-影响生产效率、 保留、 员工满意度和 — 最终 — 业务产出。 访问的用户以衡量其满意度团队升级以及用户观点。
+员工满意度可能会影响工作效率和留用，以及最终影响业务成果。 向用户了解其对升级的感受以及对 Teams 的满意度。
 
 **资源：**
 
--   [示例电子邮件： 检查用户使用](upgrade-emails-surveys.md#step-9-email)，以及[用户调查](upgrade-emails-surveys.md#step-9-surveys)
+-   [示例电子邮件：向用户了解情况](upgrade-emails-surveys.md#step-9-email)，以及[用户调查](upgrade-emails-surveys.md#step-9-surveys)
 
 [返回顶部](#about-upgrade-basic)
 
@@ -198,14 +198,14 @@ ms.locfileid: "25015642"
 
 <a name="step-10"></a>
 
-## <a name="step-10-maximize-your-roi-with-teams"></a>步骤 10。 最大限度地与团队投资回报 
+## <a name="step-10-maximize-your-roi-with-teams"></a>第 10 步 通过 Teams 最大化投资回报率 
 *（持续）*
     
-用户熟悉 IM （聊天） 和会议在工作组中的后，鼓励他们使用团队协作和应用程序集成、 真正优化其新的解决方案和最大化投资回报来扩展其用例。
+在用户习惯使用 Teams 传递即时消息（聊天）和召开会议后，鼓励他们通过使用 Teams 协作和应用集成扩展其用例，从而实实在在地优化其新的解决方案并最大化你的投资回报率。
 
 **资源：**
 
--   [示例电子邮件： 鼓励用户进一步了解团队](upgrade-emails-surveys.md#step-10-email)
+-   [示例电子邮件：鼓励用户进一步利用 Teams](upgrade-emails-surveys.md#step-10-email)
 
 [返回顶部](#about-upgrade-basic)
 
