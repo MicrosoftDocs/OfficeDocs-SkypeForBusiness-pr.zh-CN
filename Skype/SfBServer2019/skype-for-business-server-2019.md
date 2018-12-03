@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 摘要： 浏览这些链接以了解如何实现业务服务器 2019 Skype。
-ms.openlocfilehash: 66c3f4651a6423d7e8938c8c063c98aa5aeaaf47
-ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
+ms.openlocfilehash: 882338dc02f8db9c73415e73938a116ee3ea6171
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/29/2018
-ms.locfileid: "26984739"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131213"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype 业务服务器 2019
 
@@ -205,7 +205,7 @@ ms.locfileid: "26984739"
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **在开始之前** <br>[系统要求](plan/system-requirements.md) <br>[网络要求](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **安装 ** <br>[安装 Skype for Business Server](../SfbServer/deploy/install/install.md) <br> [迁移到业务 2019年的 Skype](migration/migration-to-skype-for-business-server-2019.md)                             | **企业语音**<br>[规划](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[部署](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
-| **新增功能**<br>[新增功能](whats-new.md)                                                                                                                                         | **混合解决方案**<br>[规划混合连接性](hybrid/plan-hybrid-connectivity.md)<br> [规划云语音邮件服务](hybrid/plan-cloud-voicemail.md)<br>[规划呼叫数据连接器](hybrid/plan-call-data-connector.md) |                                                                                                                                                                                                     |
+| **新增功能**<br>[新增功能](whats-new.md)                                                                                                                                         | **混合解决方案**<br>[规划混合连接性](hybrid/plan-hybrid-connectivity.md)<br> [规划云语音邮件服务](hybrid/plan-cloud-voicemail.md)<br>[规划呼叫数据连接器](hybrid/plan-call-data-connector.md) |  **以前的版本**<br/>  [Skype for Business Server 2015 文档](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Lync Server 2013 文档](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 
-* * *   
+* * *

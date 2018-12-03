@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 摘要： 浏览这些链接以了解如何实现业务服务器 2015 Skype。
-ms.openlocfilehash: 10ef6df61e3654a1bf413f0448bd0a96536571bc
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: bab1513d34aba9a48a1740ebd4101bea1eccce1a
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674825"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131284"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype for Business Server 2015
 
@@ -212,6 +212,8 @@ Skype for Business 是将企业级安全、 合规性以及控制结合在一起
                     <div class="cardText">
                         <h3>其他资源</h3>
                         <p><a href="https://infopedia.eventbuilder.com/?landingpageid=7p1c8p">Skype 业务准备系列</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-server-2019">Skype for Business Server 2019 文档</a></p>
+                        <p><a href="/lyncserver/microsoft-lync-server-2013">Lync Server 2013 文档</a></p>
                     </div>
                 </div>
             </div>
