@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cefcf6cb4d1710935e6448e4babd7a284165e767
-ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
+ms.openlocfilehash: 8d7e8654ed1f3dd7c10376a21d3c48563b688381
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "26993415"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131299"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft Teams 中创建组织范围的团队
 
@@ -55,4 +55,4 @@ ms.locfileid: "26993415"
 
 全局管理员使用团队客户端只能创建一个组织范围团队。 如果您的组织限制使用 PowerShell 创建团队，建议的解决方法是将您的全局管理员添加到的用户可以创建工作组的安全组。 有关详细信息，请参阅[管理哪些人可以创建 Office 365 组](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)。 
 
-如果这不是一个选项，您可以创建公用工作组使用 PowerShell 并将全局管理员添加作为团队所有者。 然后，具有全局管理员单击 **...更多选项**旁边工作组名称，单击**编辑团队**，然后转到**组织范围的组织中的所有人都将自动添加**的隐私。 请注意，仅团队所有者可以访问**编辑团队**选项和仅全局管理员可以查看**组织范围内**的选项。
+如果这不是一个选项，您可以创建公用工作组使用 PowerShell 并将全局管理员添加作为团队所有者。 这样，具有团队名称旁边单击**˙˙˙ 更多选项**，单击**编辑团队**，然后将隐私更改为**组织范围的组织中的所有人都将自动添加**的全局管理员。 请注意，仅团队所有者可以访问**编辑团队**选项和仅全局管理员可以查看**组织范围内**的选项。
