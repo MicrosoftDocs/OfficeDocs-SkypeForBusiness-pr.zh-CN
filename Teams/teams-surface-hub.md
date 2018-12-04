@@ -3,7 +3,7 @@ title: 曲面集线器部署的 Microsoft 团队
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 09/26/2018
+ms.date: 12/04/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,17 +16,20 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aca03693a7abea6e26f175cc49f0142894749160
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 485e4063c523608421955b86e0be680d5dc10b9a
+ms.sourcegitcommit: 5742301cdd28e5e26107920f18e70f41b0f67cfb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372178"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27132000"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>曲面集线器部署的 Microsoft 团队
 ======================================
 
 为 Microsoft Surface 集线器部署的 Microsoft 团队之前，请确保您已满足硬件、 操作系统和其他要求。 有关详细信息，请参阅[Microsoft Surface 中心管理指南](https://docs.microsoft.com/surface-hub/)。
+
+> [!NOTE]
+> 如果您从 Skype 中的业务联机转换，您需要确认的 Microsoft 团队许可证分配给用户。
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>从 Microsoft 存储的表面集线器安装团队 
 
