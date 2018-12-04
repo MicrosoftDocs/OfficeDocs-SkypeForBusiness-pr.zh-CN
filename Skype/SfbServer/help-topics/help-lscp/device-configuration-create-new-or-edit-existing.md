@@ -1,7 +1,7 @@
 ---
 title: 设备配置创建新的或编辑现有的
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 description: 在新的设备配置或编辑设备配置页上，您可以创建或修改用于管理业务 Phone edition 的 Skype 的设置的集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
-ms.openlocfilehash: 9179c36f2458c1850f4df454de063ee077faf8ab
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 2cdc2c5bf0c40a04faa48cbab81699e213008321
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19502820"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>设备配置：创建新的或编辑现有的
  
@@ -60,9 +61,6 @@ ms.lasthandoff: 05/24/2018
     
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [设备配置](device-configuration.md)
 
 [Set-csucphoneconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
-

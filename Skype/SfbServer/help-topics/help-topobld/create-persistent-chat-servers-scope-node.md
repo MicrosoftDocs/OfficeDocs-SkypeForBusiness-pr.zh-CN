@@ -11,18 +11,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
-description: 右键单击持久聊天池在拓扑生成器中执行以下：
-ms.openlocfilehash: 0fce18fb4e0882141b28cb073ce1b4e608487c02
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 右键单击在拓扑生成器以执行以下的持久聊天池：
+ms.openlocfilehash: e8126dd3576d71a955c45a53c4fd2cd66eb14142
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503436"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>创建持久聊天服务器范围节点
  
-右键单击**持久聊天池**在拓扑生成器中执行以下：
+右键单击在拓扑生成器以执行以下**持久聊天池**：
   
-- **新的持久聊天池**： 用于定义新的永久聊天服务器或池**定义新的永久聊天池**向导将启动。
+- **新的持久聊天池**： 启动用于定义一个新的持久聊天服务器或池**定义新的持久聊天池**向导。
     
 除了“新的持久聊天池”选项之外，还可以执行以下常规任务：
   
@@ -32,9 +33,6 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
-[在 Skype 的持久聊天服务器业务服务器 2015年计划](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[规划 Skype for Business Server 2015 中的持久聊天服务器](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[持久的聊天服务器添加到您的 Skype 业务服务器 2015年拓扑](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+[向您 Skype 业务服务器 2015年拓扑添加持久聊天服务器](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

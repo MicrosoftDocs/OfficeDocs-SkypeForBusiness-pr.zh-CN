@@ -9,29 +9,30 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
-description: tblEnumAttribute 是一个硬编码表包含节点表中使用的可见性和行为特性。
-ms.openlocfilehash: 24208b56aba586af500a2f659a2d5cbf1a47234d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: tblEnumAttribute 是一个硬编码表，包含用于节点表的 Visibility 和 Behavior 属性。
+ms.openlocfilehash: bd386bc77d15c627597a5680277235a05d0c8039
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19504864"
 ---
 # <a name="tblenumattribute"></a>tblEnumAttribute
  
-tblEnumAttribute 是一个硬编码表包含节点表中使用的可见性和行为特性。
+tblEnumAttribute 是一个硬编码表，包含用于节点表的 Visibility 和 Behavior 属性。
   
 **列**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|attributeID  <br/> |smallint，不为空  <br/> |该属性的 ID。  <br/> |
-|属性名称  <br/> |nvarchar (256) 不为空  <br/> |该属性的名称。  <br/> |
+|attributeID  <br/> |smallint，不为 null  <br/> |属性的 ID。  <br/> |
+|属性名称  <br/> |nvarchar (256)，不为 null  <br/> |属性的名称。  <br/> |
    
-**密钥**
+**关键字**
 
 |**列**|**说明**|
 |:-----|:-----|
-|attributeID  <br/> |为主键。  <br/> |
+|attributeID  <br/> |主键。  <br/> |
    
 **表值**
 
@@ -42,7 +43,4 @@ tblEnumAttribute 是一个硬编码表包含节点表中使用的可见性和行
    
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [tblNode](tblnode.md)
-

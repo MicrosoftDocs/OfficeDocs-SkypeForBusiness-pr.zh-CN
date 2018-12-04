@@ -9,45 +9,43 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
-description: tblEnumValue 是一个包含节点表中使用的属性的可见性和行为的值的硬编码表。
-ms.openlocfilehash: 4957f87401dc93cc98d18fa5b1844e13daaefabd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: tblenumvalue 表是一个硬编码表，包含节点表使用的属性的 Visibility 和 Behavior 值。
+ms.openlocfilehash: 4e17e5fc167342c106e7b5354d90c7fc284785c3
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19505074"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
-tblEnumValue 是一个包含节点表中使用的属性的可见性和行为的值的硬编码表。
+tblenumvalue 表是一个硬编码表，包含节点表使用的属性的 Visibility 和 Behavior 值。
   
 **列**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|valueID  <br/> |smallint，不为空  <br/> |ID 的值。  <br/> |
-|attributeID  <br/> |smallint，不为空  <br/> |该属性的 ID。  <br/> |
-|attributeValue  <br/> |nvarchar (256) 不为空  <br/> |值的名称。  <br/> |
+|valueID  <br/> |smallint，不为 null  <br/> |值的 ID。  <br/> |
+|attributeID  <br/> |smallint，不为 null  <br/> |属性的 ID。  <br/> |
+|attributeValue  <br/> |nvarchar (256)，不为 null  <br/> |值的名称。  <br/> |
    
-**密钥**
+**键**
 
 |**列**|**说明**|
 |:-----|:-----|
-|valueID  <br/> |为主键。  <br/> |
-|attributeID  <br/> |TblEnumAttribute.attributeID 表中查找与外键。  <br/> |
+|valueID  <br/> |主键。  <br/> |
+|attributeID  <br/> |在 tblEnumAttribute.attributeID 表中查找的外键。  <br/> |
    
 **表值**
 
 |**valueID**|**attributeID**|**attributeValue**|
 |:-----|:-----|:-----|
 |2  <br/> |1  <br/> |专用  <br/> |
-|3  <br/> |1  <br/> |作用域  <br/> |
-|4  <br/> |2  <br/> |正常  <br/> |
+|3  <br/> |1  <br/> |范围  <br/> |
+|4  <br/> |2  <br/> |普通  <br/> |
 |5  <br/> |2  <br/> |大会堂  <br/> |
 |6  <br/> |1  <br/> |打开  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [tblNode](tblnode.md)
-

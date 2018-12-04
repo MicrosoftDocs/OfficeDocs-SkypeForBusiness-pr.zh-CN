@@ -9,48 +9,46 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
-description: tblPrincipalType 包含主体的类型进行分类的 tblPrincipal 表中。
-ms.openlocfilehash: 3d1ec9b83561f06d3f8b1871223aafdf5c0775cb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: tblPrincipalType 包含要分类 tblPrincipal 表中的主体类型。
+ms.openlocfilehash: d5c710e1301344c853ef39aeff3b57f62c630c95
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19505123"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
-tblPrincipalType 包含主体的类型进行分类的 tblPrincipal 表中。
+tblPrincipalType 包含要分类 tblPrincipal 表中的主体类型。
   
 **列**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|ptypeID  <br/> |smallint，不为空  <br/> |主体的类型 id。  <br/> |
-|ptypeDesc  <br/> |nvarchar (256) 不为空  <br/> |类型的说明。  <br/> |
-|ptypeIsSystemUser  <br/> |位，不为空  <br/> |如果的类型对应于用于内部目的的主体，则返回 true。  <br/> |
-|ptypeIsUser  <br/> |位，不为空  <br/> |如果该类型是一种用户类型，则为 true。  <br/> |
+|ptypeID  <br/> |smallint，不为 null  <br/> |主体类型 id。  <br/> |
+|ptypeDesc  <br/> |nvarchar (256)，不为 null  <br/> |类型的说明。  <br/> |
+|ptypeIsSystemUser  <br/> |bit，不为 null  <br/> |如果类型对应于供内部使用的主体，则为 true。  <br/> |
+|ptypeIsUser  <br/> |bit，不为 null  <br/> |如果类型为用户类型，则为 true。  <br/> |
    
-**密钥**
+**关键字**
 
 |**列**|**说明**|
 |:-----|:-----|
-|ptypeID  <br/> |为主键。  <br/> |
+|ptypeID  <br/> |主键。  <br/> |
    
-**主体的值**
+**主体值**
 
-|**标识**|**角色**|**说明**|**用户**|
+|**ID**|**角色**|**说明**|**用户**|
 |:-----|:-----|:-----|:-----|
-|1  <br/> |任何  <br/> |与任何已知的类型的一般主体。 不使用 tblPrincipal 表中。  <br/> ||
-|2  <br/> |AnyUser  <br/> |用户类型的一般主体。 不使用 tblPrincipal 表中。  <br/> |是  <br/> |
-|3  <br/> |AnyGroup  <br/> |与组语义的一般主体。 不使用 tblPrincipal 表中。  <br/> ||
-|4  <br/> |系统用户  <br/> |主体由持久聊天服务器内部使用。  <br/> ||
-|5  <br/> |用户  <br/> |普通用户。  <br/> |是  <br/> |
-|8  <br/> |DC  <br/> |活动目录域服务域控制器。  <br/> ||
-|9  <br/> |组  <br/> |活动目录安全组。  <br/> ||
-|10  <br/> |文件夹  <br/> |活动目录容器或组织单位。  <br/> ||
+|1  <br/> |任何  <br/> |没有已知类型的通用主体。 不使用 tblPrincipal 表中。  <br/> ||
+|2  <br/> |AnyUser  <br/> |用户类型的通用主体。 不使用 tblPrincipal 表中。  <br/> |是  <br/> |
+|3  <br/> |AnyGroup  <br/> |与语义组的通用主体。 不使用 tblPrincipal 表中。  <br/> ||
+|4  <br/> |系统用户  <br/> |持久聊天服务器供内部使用的主体。  <br/> ||
+|5  <br/> |用户  <br/> |常规用户。  <br/> |是  <br/> |
+|8  <br/> |DC  <br/> |Active Directory 域服务的域控制器。  <br/> ||
+|9  <br/> |组  <br/> |Active Directory 安全组。  <br/> ||
+| 10  <br/> |文件夹  <br/> |Active Directory 容器或组织单位。  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
 [tblPrincipal](tblprincipal.md)
-

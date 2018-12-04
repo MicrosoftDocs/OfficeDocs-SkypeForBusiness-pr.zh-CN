@@ -1,7 +1,7 @@
 ---
 title: 设备配置
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 description: 设备配置是用于管理业务 Phone Edition 设备，Skype，全局或站点内的设置的集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
-ms.openlocfilehash: 20afbcfb48e5e556e017e67b283070e597d32295
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 14314e32c4ed277a1d823bfc3671f9b126f977e4
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503198"
 ---
 # <a name="device-configuration"></a>设备配置
  
@@ -52,9 +53,6 @@ ms.lasthandoff: 05/24/2018
     
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
-[设备配置： 创建新的或编辑现有的](device-configuration-create-new-or-edit-existing.md)
+[设备配置：创建新的或编辑现有的](device-configuration-create-new-or-edit-existing.md)
 
 [Set-csucphoneconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
-

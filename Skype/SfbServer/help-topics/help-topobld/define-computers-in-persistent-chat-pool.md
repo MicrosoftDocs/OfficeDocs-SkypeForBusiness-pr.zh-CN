@@ -11,16 +11,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
-description: 您定义的计算机，将是持久的聊天服务器池的一部分通过键入的完全合格的域名称 (FQDN) 中的计算机的 FQDN。 这必须是计算机在域名系统 DNS 主机（A 或 AAAA）记录中定义的名称。
-ms.openlocfilehash: e6175ba3eff5c80a94a3e0cc45b2c649cb7a993d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 您定义的计算机，通过在计算机 FQDN 中键入完全限定的域名 (FQDN) 将持久聊天服务器池的一部分。 这必须是计算机在域名系统 DNS 主机（A 或 AAAA）记录中定义的名称。
+ms.openlocfilehash: 1fecb4bcd964a71261e781e445391c86079b0e8e
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503905"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>定义持久聊天池中的计算机
  
-您定义的计算机，将是持久的聊天服务器池的一部分通过键入的完全合格的域名称 (FQDN) 中**的计算机的 FQDN**。 这必须是计算机在域名系统 DNS 主机（A 或 AAAA）记录中定义的名称。
+您定义的计算机，通过在**计算机 FQDN**中键入完全限定的域名 (FQDN) 将持久聊天服务器池的一部分。 这必须是计算机在域名系统 DNS 主机（A 或 AAAA）记录中定义的名称。
   
 单击“**添加**”将 FQDN 添加到池中的计算机列表。
   
@@ -30,7 +31,7 @@ ms.lasthandoff: 03/28/2018
   
 单击“**上一步**”以回到上一个池定义对话框。
   
-输入此池的计算机成员继续持久聊天服务器池定义完之后，请单击**下一步**。
+完成输入要继续进行持久聊天服务器池定义此池中的计算机成员后，请单击**下一步**。
   
 单击“**取消**”以放弃所有更改并退出“**定义新的持久聊天池**”向导。
   
@@ -38,9 +39,6 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
-[在 Skype 的持久聊天服务器业务服务器 2015年计划](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[规划 Skype for Business Server 2015 中的持久聊天服务器](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[持久的聊天服务器添加到您的 Skype 业务服务器 2015年拓扑](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+[向您 Skype 业务服务器 2015年拓扑添加持久聊天服务器](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

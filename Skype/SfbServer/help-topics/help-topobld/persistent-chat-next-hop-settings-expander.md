@@ -11,16 +11,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
-description: 您可以通过从列表中选择某个前端服务器或前端池配置持久聊天下一跃点池。
-ms.openlocfilehash: 06ad73fa1bf633a4562253576ff1beefa4d89d07
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 通过从列表中选择一个前端服务器或前端池配置持久聊天下一个跃点池。
+ms.openlocfilehash: 1b870ddedc5feca3bce38153d1ed4b4dc181f1e6
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503730"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>持久聊天下一跃点设置扩展器
  
-您可以通过从列表中选择一个前端服务器或前端池配置持久聊天**下一跃点池**。
+通过从列表中选择一个前端服务器或前端池配置持久聊天**下一个跃点池**。
   
  **确定** 接受更改并通过对话框提交更改。
   
@@ -30,9 +31,6 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>另请参阅
 
-#### 
-
-[在 Skype 的持久聊天服务器业务服务器 2015年计划](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[规划 Skype for Business Server 2015 中的持久聊天服务器](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[持久的聊天服务器添加到您的 Skype 业务服务器 2015年拓扑](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+[向您 Skype 业务服务器 2015年拓扑添加持久聊天服务器](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
