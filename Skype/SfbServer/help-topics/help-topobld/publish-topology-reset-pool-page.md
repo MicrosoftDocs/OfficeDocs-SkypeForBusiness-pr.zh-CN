@@ -11,22 +11,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
-description: 本文档是预备文档，可能随时更改。空白主题均以占位符的形式包含在内。
-ms.openlocfilehash: 3cf88c4f1a9b4241df20fdbd3afded1bcbe82a26
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 本文档是预备文档，可能随时更改。 空白主题均以占位符的形式包含在内。
+ms.openlocfilehash: 611ff6613a59cc755b5082d0e6ef99aa3583ab66
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503807"
 ---
-# <a name="publish-topology-reset-pool-page"></a><span data-ttu-id="c22bb-104">发布拓扑重置池页</span><span class="sxs-lookup"><span data-stu-id="c22bb-104">Publish Topology Reset Pool Page</span></span>
+# <a name="publish-topology-reset-pool-page"></a><span data-ttu-id="7cc4d-104">发布拓扑重置池页</span><span class="sxs-lookup"><span data-stu-id="7cc4d-104">Publish Topology Reset Pool Page</span></span>
  
-<span data-ttu-id="c22bb-p102">本文档是预备文档，可能随时更改。空白主题均以占位符的形式包含在内。</span><span class="sxs-lookup"><span data-stu-id="c22bb-p102">This is preliminary documentation and is subject to change. Blank topics are included as placeholders.</span></span>
+<span data-ttu-id="7cc4d-105">本文档是预备文档，可能随时更改。</span><span class="sxs-lookup"><span data-stu-id="7cc4d-105">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="7cc4d-106">空白主题均以占位符的形式包含在内。</span><span class="sxs-lookup"><span data-stu-id="7cc4d-106">Blank topics are included as placeholders.</span></span>
   
-<span data-ttu-id="c22bb-p103">要将新的计算机添加到现有池，必须重置该池以允许 Windows Fabric 重新定义该池的所有成员之间的连接。为此，请选择已向其添加了服务器的池，然后单击“**下一步**”。</span><span class="sxs-lookup"><span data-stu-id="c22bb-p103">To add new computers to an existing pool, you must reset the pool to allow the Windows Fabric to redefine the connections between all members of the pool. To do this, select the pool that you have added servers to, and then click **Next**.</span></span>
+<span data-ttu-id="7cc4d-p103">要将新的计算机添加到现有池，必须重置该池以允许 Windows Fabric 重新定义该池的所有成员之间的连接。为此，请选择已向其添加了服务器的池，然后单击“**下一步**”。</span><span class="sxs-lookup"><span data-stu-id="7cc4d-p103">To add new computers to an existing pool, you must reset the pool to allow the Windows Fabric to redefine the connections between all members of the pool. To do this, select the pool that you have added servers to, and then click **Next**.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="c22bb-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c22bb-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7cc4d-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7cc4d-109">See also</span></span>
 
-#### 
-
-[<span data-ttu-id="c22bb-110">创建并发布新的拓扑结构在 Skype 业务服务器 2015</span><span class="sxs-lookup"><span data-stu-id="c22bb-110">Create and publish new topology in Skype for Business Server 2015</span></span>](../../deploy/install/create-and-publish-new-topology.md)
-
+[<span data-ttu-id="7cc4d-110">在 Skype for Business Server 2015 中创建和发布新拓扑</span><span class="sxs-lookup"><span data-stu-id="7cc4d-110">Create and publish new topology in Skype for Business Server 2015</span></span>](../../deploy/install/create-and-publish-new-topology.md)
