@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 了解如何设置中的 Microsoft 团队的实时事件之前应考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40722ee1e58e7524184408819932d9a2cfdc1275
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: 590246808849b2cf25bdc0fb114352977973410f
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626259"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156130"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -44,17 +44,20 @@ ms.locfileid: "26626259"
 - 在 Microsoft 流中的实时事件创建 （针对[外部编码器生产](#production)） 的权限。
 
 > [!IMPORTANT]
-> Office 365 来宾，联盟和匿名用户不能为生产者或团队 live 事件中的演示者邀请。 但是，来宾和联盟的用户可以作为匿名 live 事件与会者加入。 
+> Office 365 来宾，联盟和匿名用户不能为生产者或团队 live 事件中的演示者邀请。 Office 365 来宾和联盟的用户可以仅观看 live 事件以匿名方式。 
  
 ## <a name="who-can-watch-live-events"></a>谁可以观看 live 事件？
 
-|**Attendee 可见性**           |**快速入门** |**外部编码器**  |
-|------------------------------|-------------|------------------|
-|公共 （匿名用户）      |  是        |  否              |
-|来宾用户                   |  否         |  否              |
-|联盟的公司中的所有人 |  否         |  否              |
-|公司中的所有人           |  是        |  是             |
-|特定于组 / 人员      |  是        |  是             |
+|**Attendee 可见性**       |**快速入门**  |**外部编码器**  |
+|------------------------------|-----------------|----------------------|
+|公共 （匿名用户）      |  是            |  否                  |
+|来宾用户                   |  没有<sup>1</sup> |  否                  |
+|联盟的公司中的所有人 |  没有<sup>1</sup> |  否                  |
+|公司中的所有人           |  是            |  是                 |
+|特定于组 / 人员      |  是            |  是                 |
+
+<sup>1</sup>仅可以为匿名用户观看 live 事件。
+
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>团队 live 事件和 Skype 会议广播
 下表重点介绍的核心功能和实时事件和它们与 Skype 会议广播的不同方式中提供的功能。 

@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 865da90f5b6c9ffc13694692a67ab092d05c755a
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: ec2db02fe8b91736675027aee2a08a7a8587105c
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626173"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156074"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>FAQ - 从 Skype for Business 到 Microsoft Teams 的旅程
 
@@ -97,7 +97,7 @@ ms.locfileid: "26626173"
  
 ### <a name="my-organization-is-already-running-teams-alongside-skype-for-business-can-i-just-disable-skype-for-business"></a>我的组织已在运行旁 for Business 的 Skype 的团队。 只可以禁用 Skype for Business
 
-否，您需要将用户切换到**团队仅**模式以完成其升级到团队。 如果您的组织已准备好切换到团队，需要与用户，从而知道的最新动态，并让他们一些时间来适应给团队进行沟通的时间。 这有助于确保拥有正升级体验，并帮助缓解调用与技术支持人员。 对于示例通信模板，下载我们[升级成功工具包](https://aka.ms/skypetoteams-UpgradeSuccessKit)。
+否，您需要将用户切换到**团队仅**模式以完成其升级到团队。 如果您的组织已准备好切换到团队，需要与用户，从而知道的最新动态，并让他们一些时间来适应给团队进行沟通的时间。 这有助于确保拥有正升级体验，并帮助缓解调用与技术支持人员。 对于示例通信模板，下载我们[升级成功工具包](https://aka.ms/UpgradeSuccessKit)。
  
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>如果我有关于升级过程问题，联系人可以人员？
 

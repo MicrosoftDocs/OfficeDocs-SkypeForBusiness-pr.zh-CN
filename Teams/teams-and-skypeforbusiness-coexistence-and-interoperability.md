@@ -1,5 +1,5 @@
 ---
-title: 商业和 Microsoft 团队了解共存和 Skype 的互操作性
+title: 了解 Skype for Business 与 Microsoft Teams 的共存和互操作性
 author: lsomi
 ms.author: lsomi
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be6cb8b6154c67e75a84bbb2e44add6109b3108c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 67f12156fbdb6bf619b1c6a7406b4bb104ec725b
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532436"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156122"
 ---
 ![升级旅程，重点强调项目定义阶段的阶段](media/upgrade-banner-project-definition.png "升级旅程，重点强调项目定义阶段的阶段")
 
@@ -54,7 +54,7 @@ ms.locfileid: "26532436"
 
 在此共存模式中，用户保留在 for Business 的 Skype — 不团队 — for 聊天、 会议和呼叫功能，以及它们不为团队和通道使用团队。 此模式为今天; 可用但是，在当前实现团队形式是不为用户自动关闭。 此功能是即将开始的。 在此期间，管理员可以删除任何用户需要作为其唯一的通信应用程序的业务的 Skype 随时了解最新的工作组许可证。
 
-### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-by-fall-2018"></a>仅工作组 （开始推出此模式出夏季完成 2018年和将由某 2018年完成对所有租户）
+### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-in-calendar-year-2019"></a>仅工作组 （开始推出此模式出夏季完成 2018年和日历年 2019年中将对所有租户完成）
 
 只要您的组织可供使用团队作为其唯一的沟通和协作工具的部分或全部用户，您可以升级到**团队仅**模式的这些用户。
 
