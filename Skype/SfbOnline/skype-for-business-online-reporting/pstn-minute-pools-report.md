@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 新 Skype 业务管理中心报告区域显示您呼叫和音频会议活动在组织中。 使您钻取报告为您提供更精细了解每个用户的活动。 例如，可以使用业务 PSTN minute 池报表 Skype 以查看在组织内当前月份消耗的分钟数。
-ms.openlocfilehash: 41f1e0c2dcc7504341bb6d9076c7a99b63ed50a9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 2840ac4bde1234f0f87fe17c41f43b6efad647b5
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865106"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182372"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN 分钟池报告
 
@@ -62,7 +62,7 @@ ms.locfileid: "23865106"
 ![第一](../images/sfbcallout1.png)<br/>下表显示了按许可证 （功能） 和使用率位置 minute 池的细分。 
 *    **功能**是用于呼叫的许可证/服务计划。 您可能会看到此报告中的许可证/服务计划包括：
      * MCOPSTN1-国内调用规划 （3000 分钟美国/1200年分钟欧盟计划
-     * MCOPSTN2-国际呼叫计划
+     * MCOPSTN2-国内和国际呼叫规划将用于看到国内池 （3000 分钟美国/加拿大/PR、 1200年分钟欧洲国家/地区） 的国际池 （600 分钟）。 只要国内-或-国际帽达到日历月内达到 minute 帽。 
      * MCOPSTN5-国内调用计划 （120 分钟调用计划）
      * MCOPSTN6-国内调用计划 （240 分钟调用计划）
      * MCOMEETADD-音频会议

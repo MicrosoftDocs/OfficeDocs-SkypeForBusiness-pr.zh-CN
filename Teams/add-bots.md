@@ -3,7 +3,7 @@ title: 在 Microsoft Teams 中为私人聊天和频道添加聊天机器人
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 12/05/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,12 +12,12 @@ ms.reviewer: lucarras
 description: 了解如何在 Microsoft Teams 中为私人聊天和频道添加聊天机器人、创建自定义聊天机器人以及为私人聊天侧向加载你自己的聊天机器人。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ff6cf5af3a1a2129ee22ae0ff51ac4216ccaefe
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 548da99413714f3947cec909ea51301eb68d2c0d
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013358"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182382"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>在 Microsoft Teams 中为私人聊天和频道添加聊天机器人
 ==========================================================
@@ -56,3 +56,14 @@ ms.locfileid: "25013358"
 
 
 3.  应用 ID 将解析为你的**聊天机器人名称**，然后你可以使用该聊天机器人启动聊天对话。
+
+<a name="side-load-your-bot-for-channels"></a>端加载通道您 bot
+-----------------------------------
+
+如果您想要与同事共享您自动程序，下面介绍了如何将其添加到不同的团队的通道：
+
+1. [创建应用程序包为您自动程序](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/apps/apps-upload)后，打开团队，并浏览到工作组在其中您将在一侧加载 bot。
+2. 团队名称旁边，选择**更多**（...）。
+3. 选择**管理团队**，然后选择**应用程序**选项卡。
+4. 您会在屏幕右下角，选择**上载自定义应用程序**。
+5. 浏览到应用程序包的位置，选择它，，然后单击**打开**。

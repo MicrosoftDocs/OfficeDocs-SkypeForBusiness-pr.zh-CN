@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67f12156fbdb6bf619b1c6a7406b4bb104ec725b
-ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
+ms.openlocfilehash: 4b2fa0d1631a3feb6d993b23a57cf084c3774c42
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "27156122"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182460"
 ---
 ![升级旅程，重点强调项目定义阶段的阶段](media/upgrade-banner-project-definition.png "升级旅程，重点强调项目定义阶段的阶段")
 
@@ -128,4 +128,4 @@ ms.locfileid: "27156122"
 > [!Important]
 > 什么开始简单聊天 (IM) 可能快速升级到呼叫或临时会议。 我们了解这些方案至关重要的可用性和用户体验，以及我们正在不断发展之间的业务和团队的用户的 Skype 的互操作性体验。 重新检查的最新信息。
 
-阅读本文后，请参阅[选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)、[迁移和互操作性指南](https://aka.ms/SkypeToTeams-Interop)和[设置您共存并升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)的实现详细信息。
+阅读本文后，请参阅[选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)、[迁移和互操作性指南](https://aka.ms/SkypeToTeams-Interop)、[与 for Business 的 Skype 共存](coexistence-chat-calls-presence.md)，和[设置您共存并升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)实现详细信息。

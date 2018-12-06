@@ -13,18 +13,18 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d7e8654ed1f3dd7c10376a21d3c48563b688381
-ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
+ms.openlocfilehash: 2b838652ee68895d8c2be3768316aa200a203945
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27131299"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182517"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft Teams 中创建组织范围的团队
 
 组织范围团队提供的小型到中型组织成为进行协作的单个工作组中的每个人的自动方法。 
  
-与组织范围团队全局管理员可以轻松创建拉入组织中的每个用户保留成员的最新的 Active Directory 作为用户加入和离开组织的公共团队。 仅全局管理员可创建组织范围团队和组织范围球队是限制为与不超过 2500 用户组织的当前。 如果满足这些要求，全局管理员将作为下**隐私**选项看到**组织范围内**，创建一个团队时。
+与组织范围团队全局管理员可以轻松创建拉入组织中的每个用户保留成员的最新的 Active Directory 作为用户加入和离开组织的公共团队。 仅全局管理员可创建组织范围团队和组织范围球队是限制为与不超过 2500 用户组织的当前。 如果满足这些要求，全局管理员将作为下**隐私**选项看到**组织范围内**，创建一个团队时。 
 
 ![要创建一个组织范围团队的组织范围选项的屏幕截图](media/create-org-wide-team.png "要创建一个组织范围团队的组织范围选项的屏幕截图")
 

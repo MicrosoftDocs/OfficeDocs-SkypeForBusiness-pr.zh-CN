@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文讨论中 Skype 会议室系统 v2 累积改进。
-ms.openlocfilehash: b4b7e8f238ce0963908b5aba1984bbd3f6d18a9f
-ms.sourcegitcommit: 19daa277829019807532e4ccb88cad1fdac6ee85
+ms.openlocfilehash: d37cf7561f2728dafa850aaa38d6e322fda7cfb9
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "25607380"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182478"
 ---
 # <a name="release-notes"></a>发行说明 
 
@@ -26,6 +26,7 @@ ms.locfileid: "25607380"
 
 | 发行版 | 发布到 <br>Microsoft 存储 | 
 | ---     | ---  |
+| 4.0.51.0 | 11/17/2018   | 
 | 4.0.31.0 | 10/16/2018   | 
 | 4.0.27.0 |  10/1/2018    | 
 | 4.0.19.0 |  08/31/2018    |   
@@ -48,6 +49,10 @@ ms.locfileid: "25607380"
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype 会议室系统 v2 功能简介和解决问题
+
+### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
+此更新中引入了：
+- 双显示 （前端的房间） 支持团队会议 
 
 ### <a name="40310-10162018"></a>4.0.31.0 (16/10/2018)
 此更新中引入了：
@@ -196,6 +201,6 @@ Introduced in this update:
 
 [有关 Skype 会议室系统 v2 的已知的问题](../../manage/skype-room-systems-v2/known-issues.md)
 
-[规划 Skype 会议室系统 v2](skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
 
 [管理 Skype 会议室系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

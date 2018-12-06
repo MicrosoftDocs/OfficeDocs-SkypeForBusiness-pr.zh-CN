@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c427f1cb342b64211aeabf042b0cb00d4a89759f
-ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
+ms.openlocfilehash: 9eb5626e9b4094ec814e0b55f4bb4fd3d0a42da8
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "27156114"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182501"
 ---
 # <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 共存
 
@@ -47,12 +47,13 @@ ms.locfileid: "27156114"
 - 对话是否新或现有的线程的一部分
 - 对话是否在租户或联盟
 - 是否可能对话
-    - 在租户互操作性要求，则租户是纯联机或业务混合的 Skype。 完全内部租户不能具有租户中的互操作性。
-    - 如果业务帐户发起方的 Skype，本地驻留的用户无法使用团队客户端租户中的互操作性或联合身份验证。 仅可以 for Business 的互操作性和联合身份验证的客户端使用 Skype。
-    - 总是可能在租户团队团队通信。
+    - *在租户*互操作性要求，则租户是纯联机或业务混合的 Skype。 完全内部租户不能具有租户中的互操作性。
+    - *跨租户联盟*始终需要正确的 Skype 业务联合身份验证配置以及从两个租户的适当团队联合身份验证配置。 Skype 业务混合不需要的任一租户。
+    - 如果业务帐户发起方的 Skype，本地驻留的用户无法使用团队客户端租户中的互操作性或联合身份验证。 用户只能使用 Skype for Business 客户端的互操作性和联合身份验证。
+    - 团队团队通信始终是可能的租户。
 
 > [!NOTE]
-> 目前，所有联盟涉及团队都利用业务联合身份验证管道 Skype 以及团队 – Skype 的业务互操作性。 我们计划本机团队 – 团队联合身份验证。 版本机联合身份验证时将更新存在文档
+> 目前，所有联盟涉及团队都利用业务联合身份验证管道 Skype 以及团队 – Skype 的业务互操作性。 我们计划本机团队 – 团队联合身份验证。 版本机联合身份验证时，将更新存在于文档。
 
 # <a name="chat-and-call-routing"></a>聊天和呼叫路由
 
