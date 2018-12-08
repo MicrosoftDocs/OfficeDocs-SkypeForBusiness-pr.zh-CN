@@ -13,19 +13,19 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6e25d8e4d28a40bed33483d3ebdd6b5499f9ec1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: f080d90f0a384bfdc4010a80d7c84a1b51a10754
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372019"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201362"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和合规性概述
 ======================================================
 
 Microsoft Teams 建立在 Office 365 超大规模企业级云之上，提供我们的客户期望的高级安全性和合规性功能。
 
-Teams 在上市时符合 Tier C 标准。 这包括以下标准：ISO 27001、ISO 27018、SSAE16 SOC 1 和 SOC 2、HIPAA 以及欧盟模型条款 (EUMC)。 在 Microsoft 合规性框架中，Microsoft 将 Office 365 应用和服务分类为四种类别。 每种类别均按特定的合规性承诺定义，Office 365 服务或相关的 Microsoft 服务必须履行这些承诺才能列在相应类别中。
+符合层 D 的团队。 这包括以下标准：ISO 27001、ISO 27018、SSAE16 SOC 1 和 SOC 2、HIPAA 以及欧盟模型条款 (EUMC)。 在 Microsoft 合规性框架中，Microsoft 将 Office 365 应用和服务分类为四种类别。 每种类别均按特定的合规性承诺定义，Office 365 服务或相关的 Microsoft 服务必须履行这些承诺才能列在相应类别中。
 
 默认情况下启用合规性类别 C 和 D 中的服务，它们有行业领先的合规性承诺。 类别 A 和 B 中的服务提供了针对整个组织开启或关闭这些服务的控制功能。 有关详细信息，请参阅[行业标准和规章的合规性框架](https://go.microsoft.com/fwlink/?linkid=855777)。 Teams 还支持云安全联盟合规性。
 
@@ -41,7 +41,7 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 内容搜索可以用于通过筛选功能的富所有团队数据都搜索和导出到特定合规性和诉讼支持的容器。 在有无电子数据展示案例的情况下，均可执行此操作。 这样，合规性管理员可以跨所有用户收集团队数据、 查看和导出进行进一步处理。 请参阅此[链接](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)可了解有关如何管理 Office 365 安全性和合规性中心中的 Microsoft 团队内容法规遵从性内容搜索。 
 
-提示： 可以使用 kind MicrosoftTeams 进行筛选，通过仅内容的 Microsoft 团队即聊天和通道消息、 会议和呼叫。 
+提示： 可以使用类型的 Microsoft 团队进行筛选，通过仅内容的 Microsoft 团队即聊天和通道消息、 会议和呼叫。 
 
 ## <a name="ediscovery"></a>电子数据展示
 
@@ -70,7 +70,7 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 ## <a name="legal-hold"></a>法定保留
 
-在诉讼，它通常所需的所有数据相关都联的用户 （管理员） 或团队永久保留，因此可用作证据的大小写。 这被通过发出合法保留的用户 （用户邮箱） 或团队。 时团队中的任何团队置于就地保留 （至目标的查询或筛选的内容邮箱或网站集的子集） 或诉讼保留 （整个邮箱或网站集），组邮箱置于保留项。 这样可以确保即使最终用户删除或编辑组邮箱到 ingested 的通道消息，该内容的变副本是维护和 eDisscovery 搜索中可用。 通常在电子数据展示案例的上下文中应用法定保留。 请参阅[此](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a)帮助文章以了解有关保留和 Office 365 安全性和合规性中心中的保留项的详细信息。 
+在诉讼，它通常所需的所有数据相关都联的用户 （管理员） 或团队永久保留，因此可用作证据的大小写。 这被通过发出合法保留的用户 （用户邮箱） 或团队。 时团队中的任何团队置于就地保留 （至目标的查询或筛选的内容邮箱或网站集的子集） 或诉讼保留 （整个邮箱或网站集），组邮箱置于保留项。 这样可以确保即使最终用户删除或编辑组邮箱到 ingested 的通道消息，该内容的变副本是维护和电子数据展示搜索中可用。 通常在电子数据展示案例的上下文中应用法定保留。 请参阅[此](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a)帮助文章以了解有关保留和 Office 365 安全性和合规性中心中的保留项的详细信息。 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>信息的 Microsoft 团队保护体系结构。 
 
@@ -137,7 +137,7 @@ Teams 中的数据位于与你的 Office 365 租户关联的地理区域。 目�
 
 Microsoft 团队严重依赖 Exchange Online、 SharePoint Online 和 Skype 业务 online 核心工作效率方案，如会议、 日历、 互操作的聊天和文件共享。 时用户直接登录到 Microsoft 团队的任何客户端上，为这些云应用程序设置的条件的访问策略应用于的 Microsoft 团队。 
 
-单独的 Microsoft 团队支持作为云应用程序在 Azure Active Directory 条件访问策略。 当用户登录时，为 Microsoft 团队云应用程序设置的条件的访问策略将适用于 Microsoft 团队。 但是，不正确的策略，如 Exchange Online 和 SharePoint Online 的其他应用程序，用户可能仍将能够直接访问这些资源。 对于有关 azure 门户中的某个条件的访问策略设置的详细信息，请转至: (https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
+单独的 Microsoft 团队支持作为云应用程序在 Azure Active Directory 条件访问策略。 当用户登录时，为 Microsoft 团队云应用程序设置的条件的访问策略将适用于 Microsoft 团队。 但是，不正确的策略，如 Exchange Online 和 SharePoint Online 的其他应用程序，用户可能仍将能够直接访问这些资源。 有关设置 azure 门户中的某个条件的访问策略的详细信息，请转到: (https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
 
 Windows 和 Mac 的 Microsoft 团队桌面客户端支持现代身份验证。 现代身份验证将跨平台基于在 Azure Active Directory 身份验证库 (ADAL) Microsoft Office 客户端应用程序登录。
 

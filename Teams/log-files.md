@@ -11,12 +11,12 @@ search.appverid: MET150
 description: 了解 Microsoft Teams 生成的调试、媒体和桌面日志，可以在哪里找到它们，以及它们如何帮助进行故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a14d6db6c03b540a6495b9028a4f0342ff92636
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: bf42d76e1e17dc81b1c3d0ab603050c6e2d25d71
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716332"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201330"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在对 Microsoft Teams 进行故障排除时使用日志文件
 =================================================
@@ -61,17 +61,11 @@ ms.locfileid: "26716332"
 
 -   Windows：
 
-    1.  右键单击应用任务栏中的 **Microsoft Teams图标**，选择 **“获取日志”**
-
-    2.  从 **“帮助”** 下拉菜单中选择 **“获取日志”**
-
-    3.  键盘快捷方式：Ctrl + Alt + Shift + 1
+      键盘快捷方式：Ctrl + Alt + Shift + 1
 
 -   Mac OSX：
 
-    1.  从 **“帮助”** 下拉菜单中选择 **“获取日志”**
-
-    2.  键盘快捷方式：Option + Command + Shift+1
+      键盘快捷方式：Option + Command + Shift+1
 
 调试日志会自动下载到以下文件夹。
 
@@ -97,6 +91,16 @@ ms.locfileid: "26716332"
 ---------------------
 
 桌面日志（也称为引导程序日志）包含桌面客户端和浏览器之间生成的日志数据。 与媒体日志一样，仅当 Microsoft 要求时，才需要这些日志。 这些日志是基于文本的，可以使用任何基于文本的编辑器以自上而下的方式读取。
+
+Windows：
+
+  1.  右键单击应用任务栏中的 **Microsoft Teams图标**，选择 **“获取日志”**
+
+  2.  从 **“帮助”** 下拉菜单中选择 **“获取日志”**
+
+Mac OsX:
+
+1.  从 **“帮助”** 下拉菜单中选择 **“获取日志”**
 
 |客户端 |位置 |
 |---------|---------|

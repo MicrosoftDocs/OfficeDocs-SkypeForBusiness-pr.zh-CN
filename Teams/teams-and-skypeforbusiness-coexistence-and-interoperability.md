@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b2fa0d1631a3feb6d993b23a57cf084c3774c42
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 2296d7eb423d1d268742be184e7e724e69dc0965
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182460"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201474"
 ---
 ![升级旅程，重点强调项目定义阶段的阶段](media/upgrade-banner-project-definition.png "升级旅程，重点强调项目定义阶段的阶段")
 
@@ -31,6 +31,9 @@ ms.locfileid: "27182460"
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>了解 Microsoft 团队和 Skype 的业务共存及互操作性
 
 如果您的组织使用 Skype for Business 今天并且打算开始 for Business 使用旁 Skype 团队 — 或您打算开始升级到团队 — 务必要了解如何两个应用程序共存，当和如何实现它们互操作，以及如何为从业务向工作组的 Skype 一直到其最终升级管理用户的迁移。
+
+> [!Tip]
+> 观看下面的会话了解[共存及互操作性](https://aka.ms/teams-upgrade-coexistence-interop)
 
 ## <a name="coexistence-of-teams-and-skype-for-business"></a>团队和 Skype 共存 for Business
 

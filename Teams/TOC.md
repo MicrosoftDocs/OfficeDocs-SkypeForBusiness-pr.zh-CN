@@ -225,7 +225,7 @@
 ### [启用或禁用更改音频会议设置时发送电子邮件](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 ### [使用户能够在加入会议时录制其姓名](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ### [打开或关闭会议的进入和退出通知](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
-
+### [配置团队中的桌面共享](configure-desktop-sharing.md)
 ### [Teams 云会议录制](cloud-recording.md)
 ### [在 Outlook 中使用 Teams 会议外接程序](teams-add-in-for-outlook.md)
 ### [设置会议迁移服务 (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -246,7 +246,6 @@
 ### [在 Teams 中为私人聊天和频道添加聊天机器人](add-bots.md)
 ### [在 Teams 中使用内置选项卡和自定义选项卡](built-in-custom-tabs.md)
 ### [在 Teams 中使用 Office 365 和自定义连接器](office-365-custom-connectors.md)
-### [使用 T-Bot 为用户提供 Teams 方面的帮助](t-bot.md)
 ### [使用团队活动报告](teams-activity-reports.md)
 ### [使用团队中的内嵌消息转换](inline-message-translation-teams.md)
 

@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于澳大利亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: c715c6670a79f6bdd317eda256bf73597f45cc82
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b39e940d4a2d4a113f1090cededdd052ff9594a9
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017452"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201466"
 ---
 # <a name="availability-in-australia"></a>澳大利亚中的可用性
 
@@ -44,7 +44,7 @@ ms.locfileid: "25017452"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |不可以。 [请联系我们](mailto:ptnapac@microsoft.com)。 <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |否。 [请联系我们](mailto:ptnapac@microsoft.com)。 <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
 
 ## <a name="phone-system"></a>电话系统
@@ -66,6 +66,11 @@ ms.locfileid: "25017452"
 |通话套餐的可用分钟数  <br/> |请参阅[Telstra 调用 for Office 365](https://aka.ms/TelstraVoicePlan)。 <br/> |
 |是否可以拨打呼出电话？  <br/> |请参阅[Telstra 调用 for Office 365](https://aka.ms/TelstraVoicePlan)。 <br/> |
 
+> [!IMPORTANT]
+> 到删除澳大利亚订户号 （由 Telstra） 请直接联系 Telstra。
+> 若要更新澳大利亚订户号 （由 Telstra） 紧急地址信息请直接联系 Telstra。
+> 有关详细信息，请参阅 [Telstra Call for Office 365](https://aka.ms/TelstraVoicePlan)。
+
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
 |**功能**|**详细信息**|
@@ -74,7 +79,7 @@ ms.locfileid: "25017452"
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
 
-如果您想要获得自动助理和呼叫队列收费和免费电话号码，请参阅[Telstra 调用 for Office 365](https://aka.ms/TelstraVoicePlan)。 音频会议服务号码，[请与我们联系](mailto:ptnapac@microsoft.com)。
+如果您想要自动助理中获得收费和免费电话号码，呼叫队列或音频会议服务号码，[请与我们联系](mailto:ptnapac@microsoft.com)。
 
 ## <a name="communications-credits"></a>通信点数
 

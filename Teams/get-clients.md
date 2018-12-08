@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16ee59e01a45e79bb04a410857e128df7f12934e
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: dfe4febe5d086af6914660bffb667942b9d00c25
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716348"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201354"
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================
@@ -144,3 +144,36 @@ Microsoft Teams 移动应用的支持移动平台如下：
 当前，未提供选项允许 IT 管理员配置客户端通知设置。 所有通知选项均由用户设置。 下图概括显示了默认客户端设置。
 
 ![“通知设置”屏幕截图。](media/Get_clients_for_Microsoft_Teams_image6.png)
+
+<a name="sample-powershell-script"></a>示例 PowerShell 脚本
+----------------------------
+
+此示例脚本，这需要提升的管理员帐户的上下文中的客户端计算机上运行，将创建新的入站的防火墙规则 c:\users 中找到的每个用户文件夹。 当团队找到此规则时，它将阻止团队中的应用程序提示用户创建防火墙规则，当用户进行来自团队其第一个呼叫。 
+
+```
+$users = Get-Childitem c:\users
+foreach ($user in $users) 
+{
+    $Path = "c:\users\" + $user.Name + "\appdata\local\Microsoft\Teams\Current\Teams.exe"
+    if (Test-Path $Path) 
+    {
+            $name = "teams.exe " + $user.Name
+            if (!(Get-NetFirewallRule -DisplayName $name))
+        {
+                New-NetFirewallRule -DisplayName “teams.exe” -Direction Inbound -Profile Domain -Program $Path -Action Allow
+        }
+    }
+}
+<#
+        .ABOUT THIS SCRIPT
+        (c) Microsoft Corporation 2018. All rights reserved. Script provided as-is without any warranty of any kind. Use it freely at your own risks.
+
+        Must be run with elevated permissions. Can be run as a GPO Computer Startup script, or as a Scheduled Task with elevated permissions. 
+
+        The script will create a new inbound firewall rule for each user folder found in c:\users. 
+
+        Requires PowerShell 3.0
+        
+#>
+
+```

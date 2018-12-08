@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 培训视频、 教程和其他资源来 admins 如何规划、 部署和运行的 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21a55aed41443ed0a1411384579cfad2acda7de5
-ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
+ms.openlocfilehash: f8f83869d715c01f678e112eb9170013f2f1b956
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26538966"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201338"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
@@ -130,7 +130,11 @@ ms.locfileid: "26538966"
                 <div class="card">
                     <div class="cardText">
                         <h3>从 Skype for Business 到 Teams 的旅程</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">教程：从 Skype for Business 到 Teams 的旅程</a></p>
+                         <p><a href="https://aka.ms/teams-upgrade-intro">视频： 升级简介</a></p>
+                        <p><a href="https://aka.ms/teams-upgrade-plan">视频： 规划升级</a></p>
+                        <p><a href="https://aka.ms/teams-upgrade-coexistence-interop">视频： 共存及互操作性</a></p>
+                        <p><a href="https://aka.ms/teams-upgrade-admin">视频： 管理员体验</a></p>
+                        <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">教程：从 Skype for Business 到 Teams 的旅程</a></p>
                     </div>
                 </div>
             </div>
@@ -165,7 +169,7 @@ ms.locfileid: "26538966"
                         <h3>规划和部署</h3>
                          <p><a href="quick-start-enable-teams.md">快速入门: Teams 规划指南</a></p>
                          <p><a href="http://aka.ms/teams-clients">视频： 工作组 Windows 桌面客户端</a></p>
-                         <p><a href="http://aka.ms/teams-governances">视频： 监管、 管理和生命周期中的 Microsoft 团队</a></p>
+                         <p><a href="http://aka.ms/teams-governance">视频： 监管、 管理和生命周期中的 Microsoft 团队</a></p>
                     </div>
                 </div>
             </div>

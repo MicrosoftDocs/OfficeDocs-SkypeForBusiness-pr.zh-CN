@@ -14,21 +14,27 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59e1723e388ef58c48650a916d73d2ac09b13d00
-ms.sourcegitcommit: 2e9761a3b195d31080bff3c9cc17a18adcd5350e
+ms.openlocfilehash: 1ac410d5248149641cb29461bb6c0f73e6cbfb8d
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25012070"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201346"
 ---
 # <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype for Business 的 Microsoft 团队升级
-
 
 支持 Microsoft 的智能 communications 远景，Microsoft 团队是中心点，用于团队合作，聊天、 会议、 呼叫、 协作、 应用程序集成和文件存储在一起。 为业务客户现有 Skype，邀请您升级到 Microsoft 团队，以体验此全套中的单个客户端体验的通信和协作功能。
 
 您升级旅程可能需要一些时间，以及我们将支持您的方式每一个步骤。 您刚开始与团队，已 for Business，使用旁 Skype 团队还是准备升级，我们正在努力使您适当级别的组织的指南和建议您执行下一步步骤开始意识到值团队可以提供您的组织。
 
 查看团队升级旅程，包括核心概念、 框架和升级途径为 for Business Skype 简介本[概述](https://aka.ms/UpgradeOverview)。
+
+> [!Tip]
+> 观看下面的会话了解从 for Business 的 Skype 升级到 Microsoft 团队： 
+> - [升级简介](https://aka.ms/teams-upgrade-intro)
+> - [规划升级](https://aka.ms/teams-upgrade-plan)
+> - [共存及互操作性](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [管理员体验](https://aka.ms/teams-upgrade-admin)
 
 ## <a name="upgrade-journey-framework"></a>升级旅程框架
 
