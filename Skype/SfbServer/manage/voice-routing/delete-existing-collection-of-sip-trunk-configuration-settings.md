@@ -1,0 +1,65 @@
+---
+title: 删除现有的 SIP 中继配置设置中 Skype 业务服务器集合
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+description: 'SIP 中继配置设置定义的关系和中介服务器和公用电话交换网 (pstn) 网关、 IP 公用交换机 (PBX) 或服务提供商会话边界控制器 (SBC) 之间的功能。 '
+ms.openlocfilehash: 3d568e07dd4baec59f050453087b2857a72377d4
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27223477"
+---
+# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a><span data-ttu-id="0a1b0-103">删除现有的 SIP 中继配置设置中 Skype 业务服务器集合</span><span class="sxs-lookup"><span data-stu-id="0a1b0-103">Delete an existing collection of SIP trunk configuration settings in Skype for Business Server</span></span>
+
+<span data-ttu-id="0a1b0-104">SIP 中继配置设置定义的关系和中介服务器和公用电话交换网 (pstn) 网关、 IP 公用交换机 (PBX) 或服务提供商会话边界控制器 (SBC) 之间的功能。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-104">SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network (PSTN) gateway, an IP-public branch exchange (PBX), or a Session Border Controller (SBC) at the service provider.</span></span> <span data-ttu-id="0a1b0-105">这些设置可执行如下所指定内容的操作：</span><span class="sxs-lookup"><span data-stu-id="0a1b0-105">These settings do such things as specify:</span></span>
+
+- <span data-ttu-id="0a1b0-106">是否在中继上启用媒体旁路功能。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-106">Whether media bypass should be enabled on the trunks.</span></span>
+- <span data-ttu-id="0a1b0-107">在其下发送实时传输控制协议 (RTCP) 数据包的条件。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-107">The conditions under which real-time transport control protocol (RTCP) packets are sent.</span></span>
+- <span data-ttu-id="0a1b0-108">是否每个中继上是否需要安全实时协议 (SRTP) 加密。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-108">Whether or not secure real-time protocol (SRTP) encryption is required on each trunk.</span></span>
+
+<span data-ttu-id="0a1b0-109">在安装 Skype 业务服务器时，会为您创建 SIP 中继配置设置的全局集合。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-109">When you install Skype for Business Server, a global collection of SIP trunk configuration settings is created for you.</span></span> <span data-ttu-id="0a1b0-110">此全局集合设置无法删除。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-110">This global collection of settings cannot be deleted.</span></span> <span data-ttu-id="0a1b0-111">但是，您可以使用业务 ServerControl 面板或[Remove-cstrunkconfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrunkConfiguration) cmdlet Skype 为其默认值"重置"中的全局集合的属性。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-111">However, you can use the Skype for Business ServerControl Panel or the [Remove-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrunkConfiguration) cmdlet to "reset" the properties in the global collection to their default values.</span></span> <span data-ttu-id="0a1b0-112">例如，如果已将 Enable3pccRefer 属性设置为 True，则当您重置全局集合时，Enable3pccRefer 属性将还原为其默认值 False。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-112">For example, if you have set the Enable3pccRefer property to True, when you reset the global collection the Enable3pccRefer property will revert to its default value of False.</span></span>
+
+<span data-ttu-id="0a1b0-p103">管理员还可以在站点作用域或服务作用域（针对单个 PSTN 网关）创建自定义中继配置设置；这些自定义设置可以删除。在删除这些自定义设置时，请注意以下事项：</span><span class="sxs-lookup"><span data-stu-id="0a1b0-p103">Administrators can also create custom trunk configuration settings at the site scope or at the service scope (for an individual PSTN gateway); these custom settings can be removed. When removing these custom settings keep the following in mind:</span></span>
+
+- <span data-ttu-id="0a1b0-p104">如果删除了服务作用域设置，由这些设置管理的 SIP 中继将由应用于这些站点的设置（如果存在）管理。如果站点设置不存在，这些中继随后会由中继配置设置的全局集合管理。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-p104">If you remove service scope settings, then the SIP trunk managed by those settings will be managed by the settings applied to their site, if they exist. If site settings do not exist, those trunks will then be managed by the global collection of trunk configuration settings.</span></span>
+- <span data-ttu-id="0a1b0-117">如果删除了站点作用域设置，由这些设置管理的任何 SIP 中继都将立即由中继配置设置的全局集合管理。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-117">If you remove site-scoped settings then any SIP trunks managed by those settings will now be managed by the global collection of trunk configuration settings.</span></span>
+
+<span data-ttu-id="0a1b0-118">**删除与 Skype 的中继配置设置的业务 Server Control Panel**</span><span class="sxs-lookup"><span data-stu-id="0a1b0-118">**To remove trunk configuration settings with the Skype for Business Server Control Panel**</span></span> 
+
+1. <span data-ttu-id="0a1b0-119">在业务 Server 控制面板的 Skype，单击**语音路由**，，然后单击**Trunk 配置**。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-119">In the Skype for Business Server Control Panel, click **Voice Routing**, and then click **Trunk Configuration**.</span></span>
+2. <span data-ttu-id="0a1b0-120">在**Trunk 配置**选项卡中，选择的 SIP 中继配置设置，以删除，再单击**编辑**，然后单击**删除**集合。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-120">On the **Trunk Configuration** tab, select the collection of SIP trunk configuration settings to be deleted, click **Edit**, and then click **Delete**.</span></span> <span data-ttu-id="0a1b0-121">若要在同一操作中删除多个集合，请单击第一个要删除的集合，然后按住 Ctrl 键并单击任何其他要删除的集合。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-121">To delete multiple collections in the same operation, click the first collection to be deleted, then hold down the Ctrl key and click any additional collections that you want to remove.</span></span>
+3. <span data-ttu-id="0a1b0-p106">集合的“状态”\*\*\*\* 属性将更新为“未提交”\*\*\*\*。若要提交更改和删除集合，请单击“提交”\*\*\*\*，然后单击“全部提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-p106">The **State** property for the collection will be updated to **Uncommitted**. To commit the changes, and to delete the collection, click **Commit** and then click **Commit All**.</span></span>
+4. <span data-ttu-id="0a1b0-124">在“未提交的语音配置设置”\*\*\*\* 对话框中，单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-124">In the **Uncommitted Voice Configuration Settings** dialog box, click **OK**.</span></span>
+5. <span data-ttu-id="0a1b0-125">在**业务 Server Control Panel 的 Skype**对话框中，单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-125">In the **Skype for Business Server Control Panel** dialog box, click **OK**.</span></span>
+6. <span data-ttu-id="0a1b0-126">如果改变了主意并且决定不删除集，单击**提交**，，然后单击**取消所有未提交的更改**。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-126">If you change your mind and decide not to delete the collection, click **Commit**, and then click **Cancel All Uncommitted Changes**.</span></span> <span data-ttu-id="0a1b0-127">**Skype 的业务 Server Control Panel**对话框出现时，单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-127">When the **Skype for Business Server Control Panel** dialog box appears, click **OK**.</span></span>
+
+## <a name="removing-trunk-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="0a1b0-128">使用 Windows PowerShell cmdlet 删除中继配置设置</span><span class="sxs-lookup"><span data-stu-id="0a1b0-128">Removing trunk configuration settings by using Windows PowerShell cmdlets</span></span>
+
+
+<span data-ttu-id="0a1b0-129">您可以使用 Windows PowerShell 和**Remove-cstrunkconfiguration** cmdlet 删除中继配置设置。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-129">You can delete trunk configuration settings by using Windows PowerShell and the **Remove-CsTrunkConfiguration** cmdlet.</span></span> <span data-ttu-id="0a1b0-130">可以从 Skype 业务 Server 命令行管理程序或从 Windows PowerShell 远程会话来运行此 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-130">You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> 
+
+<span data-ttu-id="0a1b0-131">**删除指定的设置集合**</span><span class="sxs-lookup"><span data-stu-id="0a1b0-131">**To remove a specified collection of settings**</span></span>
+
+<span data-ttu-id="0a1b0-132">以下命令将删除应用于 Redmond 站点的中继配置设置：</span><span class="sxs-lookup"><span data-stu-id="0a1b0-132">The following command removes the trunk configuration settings applied to the Redmond site:</span></span>
+
+`Remove-CsTrunkConfiguration -Identity site:Redmond`
+
+<span data-ttu-id="0a1b0-133">**删除适用于站点范围的所有集合**</span><span class="sxs-lookup"><span data-stu-id="0a1b0-133">**To remove all the collections applied to the site scope**</span></span>
+
+<span data-ttu-id="0a1b0-134">以下命令将删除应用于服务作用域的所有中继配置设置：</span><span class="sxs-lookup"><span data-stu-id="0a1b0-134">This command removes all the trunk configuration settings applied to the service scope:</span></span>
+
+`Get-CsTrunkConfiguration -Filter "service:*" | Remove-CsTrunkConfiguration`
+
+<span data-ttu-id="0a1b0-135">**删除启用了媒体旁路的所有集合**</span><span class="sxs-lookup"><span data-stu-id="0a1b0-135">**To remove all the collections where media bypass is enabled**</span></span>
+
+<span data-ttu-id="0a1b0-136">以下命令将删除启用了媒体旁路的所有中继配置设置：</span><span class="sxs-lookup"><span data-stu-id="0a1b0-136">The following command removes all the trunk configuration settings where media bypass has been enabled:</span></span>
+
+`Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration`
+
+<span data-ttu-id="0a1b0-137">有关详细信息，请参阅[Remove-cstrunkconfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrunkConfiguration) cmdlet 的帮助主题。</span><span class="sxs-lookup"><span data-stu-id="0a1b0-137">For more information, see the help topic for the [Remove-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrunkConfiguration) cmdlet.</span></span>
