@@ -9,12 +9,12 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: ea7ccef2f9411e0a851b421e131a77f454470132
-ms.sourcegitcommit: be8b6383261358e91dcb79bf819502b8b7ac6526
+ms.openlocfilehash: efb105e3d6b5ab1c2ec87df6520c52eeb7ded90d
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/19/2018
-ms.locfileid: "26618591"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214555"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -28,7 +28,7 @@ ms.locfileid: "26618591"
                         <ul id="tab1-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Microsoft 高兴承载一系列免费、 实时、 联机培训课程旨在让您并运行与团队。如果您的业务决策者、 管理、 IT 专业人员，或最终用户，您可以找到最适合您的类。 加入我们，在操作，请参阅工作组和获取问题的解答，并与其交互我们 live ヘ。 寻找<a href="https://docs.microsoft.com/microsoftteams/enduser-training">点播最终用户培训</a>？<br><br>单击图块，以注册。</p>
+                                    <p>Microsoft 高兴承载一系列免费、 实时、 联机培训课程旨在让您并运行与团队。如果您的业务决策者、 管理、 IT 专业人员，或最终用户，您可以找到最适合您的类。 加入我们，在操作，请参阅工作组和获取问题的解答，并与其交互我们 live ヘ。 有关培训机会的详细信息，包括点播版本的 live 培训、 签出我们的<a href="https://docs.microsoft.com/microsoftteams/enduser-training">点播最终用户培训</a>。<br><br>单击图块，以注册。</p>
                                 </div>
                             </li>
                             <li>
@@ -70,6 +70,25 @@ ms.locfileid: "26618591"
                                 </a>
                             </li>
                             <li>
+                             <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" data-linktype="external"/>
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>团队提示和技巧</h3>
+                                                <p>了解优化和组织您的日常工作中的工作组创作方法。 (访问群体： 最终用户)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
                             <a href="https://microsoftteams.eventbuilder.com/Upgrade%20101:%20Understanding%20your%20upgrade%20from%20Skype">
                                 <div class="cardSize">
                                     <div class="cardPadding">
@@ -101,25 +120,6 @@ ms.locfileid: "26618591"
                                             <div class="cardText">
                                                 <h3>从 for Business 的 Skype 切换到团队： 最终用户指南</h3>
                                                     <p>获取您需要快速开始团队从 Skype 转换期间使用的业务向工作组。 (访问群体： 最终用户)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" data-linktype="external"/>
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>提示和技巧</h3>
-                                                <p>了解优化和组织您的日常工作中的工作组创作方法。 (访问群体： 最终用户)</p>
                                             </div>
                                         </div>
                                     </div>
