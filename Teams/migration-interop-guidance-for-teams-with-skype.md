@@ -5,19 +5,19 @@ ms.author: MyAdvisor
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: lehewe
+ms.reviewer: bjwhalen
 description: 从 for Business 的 Skype 管理向工作组的过渡指南
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bc6d3c48dc0812311b511ead0583d3b9b9fcfa2
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: 34009b711427bada14c87ea3c1e204b4dc7e4c96
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201490"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214616"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导
 

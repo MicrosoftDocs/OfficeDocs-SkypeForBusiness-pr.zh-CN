@@ -13,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 摘要： 实现 Skype 业务服务器之前查看下面的网络组件注意事项。
-ms.openlocfilehash: ad0e3b48a320997ddce0559e388d5cfdcab861d1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: fd21ada12a8e2b05654fe6809dd5147480b0e306
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375080"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214510"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
 **摘要：** 实现 Skype 业务服务器之前查看下面的网络组件注意事项。
 
-在[网络规划、 监控设备以及与 Lync Server 疑难解答](https://www.microsoft.com/en-us/download/details.aspx?id=39084)的其他详细信息和深度白皮书还讨论这些主题中的信息。 而内容是指显式 Lync 2010 和 Lync 2013，业务服务器 Skype 的注意事项保持不变。
+这些主题中的信息在白皮书 [Lync Server 网络规划、监控和故障排除](https://www.microsoft.com/en-us/download/details.aspx?id=39084)中也有讨论，且更加详细、深入。 而内容是指显式 Lync 2010 和 Lync 2013，业务服务器 Skype 的注意事项保持不变。
 
 同样，如果您的网络涉及-wi-fi 以及有线的访问，该白皮书[提供通过 Wi-fi Lync 2013 Real-Time Communications](https://www.microsoft.com/en-us/download/details.aspx?id=36494)是参考资料，并且同样适用于业务服务器 Skype。
 
@@ -187,7 +187,7 @@ Skype 业务服务器支持多个解决方案。 这将允许 Skype 业务服务
 |**媒体**|**RTCP 最大带宽 (Kbps)**|
 |:-----|:-----|
 |音频  <br/> |5  <br/> |
-|视频（仅正在发送/接收的 H.264 或 RTVideo）  <br/> |10  <br/> |
+|视频（仅正在发送/接收的 H.264 或 RTVideo）  <br/> | 10  <br/> |
 |视频（正在发送/接收的 H.264 和 RTVideo）  <br/> |15  <br/> |
 
 出于容量规划的目的，以下两项统计数据十分重要：
@@ -233,7 +233,7 @@ Skype 业务服务器支持多个解决方案。 这将允许 Skype 业务服务
 
 ||**2 个参与者**|**3 个参与者**|**4 个参与者**|**5 个参与者**|**6 个参与者**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**接收的最大分辨率** <br/> |1920 x 1080  <br/> |1280 x 720  <br/> |640 x 360  <br/> |x 240 640 x 360 320  <br/> |x 240 640 x 360 320  <br/> |
+|**接收的最大分辨率** <br/> |1920x1080  <br/> |1280x720  <br/> |640x360  <br/> |640x360 320x240  <br/> |640x360 320x240  <br/> |
 |**总平均比特率** <br/> |2128  <br/> |4050  <br/> |1304  <br/> |1224  <br/> |1565  <br/> |
 |**总最大比特率** <br/> |4063  <br/> |5890  <br/> |2860  <br/> |2699  <br/> |3017  <br/> |
 
@@ -260,21 +260,14 @@ Skype 业务服务器不需要 QoS，但强烈建议。 如果遇到网络上的
 
 Skype 业务服务器提供完全支持的 QoS:，意味着已在使用 QoS 的组织可以轻松地集成 Skype 业务服务器其现有的网络基础结构。 为执行此操作，您必须执行以下步骤：
 
-- [启用 QoS 非 Windows 设备](https://technet.microsoft.com/library/26f793df-aef8-4028-9e3b-6c2c37ea61b9.aspx)。 默认情况下，会针对运行其他操作系统的计算机和其他设备（如 iPhone）禁用 QoS。 尽管可以使用 Skype 业务服务器启用和禁用 QoS 的设备，您通常不能使用该产品更改这些设备所使用的 DSCP 代码。
+- [Skype 的未基于 Windows 的设备的业务服务器中启用 QoS](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md)。 默认情况下，会针对运行其他操作系统的计算机和其他设备（如 iPhone）禁用 QoS。 尽管可以使用 Skype 业务服务器启用和禁用的服务质量的设备，您通常不能使用该产品可修改使用这些设备的 DSCP 代码。
 
-- [配置您的会议、 应用程序和中介服务器的端口范围](https://technet.microsoft.com/library/4d6eaa5d-0127-453f-be6a-e55384772d83.aspx)。 您必须为不同的数据包类型（如音频和视频）保留一组唯一的端口。 使用适用于 Business Server Skype 执行不启用或禁用 QoS 设置的属性值为 True 或 False。 而是可以通过配置端口范围，然后创建并应用组策略，来启用 QoS。 如果稍后决定不想用 QoS 您可以"禁用"QoS 删除相应的组策略对象。
+- [配置端口范围和会议、 应用程序和中介服务器的服务质量策略](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)。 您必须为不同的数据包类型（如音频和视频）保留一组唯一的端口。 使用适用于 Business Server Skype 执行不启用或禁用 QoS 设置的属性值为 True 或 False。 而是可以通过配置端口范围，然后创建并应用组策略，来启用 QoS。 如果稍后决定不想用 QoS 您可以"禁用"QoS 删除相应的组策略对象。
 
-- [配置边缘服务器的端口范围](https://technet.microsoft.com/library/6f0ae442-6624-4e3f-849a-5b9e387fb8cf.aspx)。 虽然不需要，但是可以将您的边缘服务器配置为与其他服务器使用相同的端口范围。
+- [配置端口范围和边缘服务器的服务质量策略](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md)。 虽然不需要，但是可以将您的边缘服务器配置为与其他服务器使用相同的端口范围。 仅配置 QoS 策略边缘服务器的内部端完成。 原因是 QoS 设计用于内部网络而不是 Internet 上。
 
-- [配置 Microsoft Lync 客户端的端口范围](https://technet.microsoft.com/library/287d5cea-7ada-461c-9b4a-9da2af315e71.aspx)。 这些端口范围仅适用于客户端计算机，并且通常与在您的服务器上配置的端口范围有所不同。
+- [配置端口范围和客户端中的业务服务器 Skype 的服务质量策略](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md)。 这些端口范围仅适用于客户端计算机，并且通常与在您的服务器上配置的端口范围有所不同。 请注意，Skype 业务服务器不支持 Windows 10 之外的 QoS 的 Windows 操作系统。
 
-- [配置服务质量策略会议、 应用程序和中介服务器](https://technet.microsoft.com/library/8adcbbc5-c9f5-476d-ab7f-72e61859cacf.aspx)。 这些策略可确定应用到不同数据包类型的 DSCP 代码。
-
-- [配置服务质量策略的 A / V 边缘服务器](https://technet.microsoft.com/library/119ee1f5-45b9-40ba-98e5-c694dd2fc5c2.aspx)。 仅应对边缘服务器的内端执行此操作。 原因是 QoS 设计用于内部网络而不是 Internet 上。
-
-- [配置对等的服务质量策略在 Windows 7 或 Windows 8 上运行的客户端](https://technet.microsoft.com/library/efff2b98-b3fb-4183-a4f0-329a9105ce2c.aspx)。 请注意 Skype 业务服务器不支持用于其他 Windows 操作系统的系统，如 Windows Vista 或 Windows XP QoS。
-
-- [配置 Microsoft Lync Phone Edition 设备上的服务质量](https://technet.microsoft.com/library/a6eb2620-a512-4ab6-bdfd-eb76be43bbfe.aspx)。 默认情况下，Lync Phone Edition 设备启用 QoS。 您可能想要更改默认 DSCP 值，以确保您的组织中的所有音频数据包均使用相同的 DSCP 代码。
 
 > [!NOTE]
 > 如果您使用的 Windows Server 2012 或 Windows Server 2012 R2 您可能感兴趣一组新的 Windows PowerShell cmdlet 可用于管理该平台上的 QoS。 有关详细信息，请参阅[Windows PowerShell 中的网络 QoS Cmdlet](https://go.microsoft.com/fwlink/p/?LinkId=285379)。

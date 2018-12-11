@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 直接路由中使用与所选的 SBC 供应商，以确认其 SBCs 的 Microsoft 合作伙伴。
-ms.openlocfilehash: 2d0873916585cab3eed6295e9be499f0eab39d53
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: feed9c228f1bdc0fb4bb8beb8f403617e9907b9f
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530997"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214547"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -45,7 +45,7 @@ Microsoft 与选定会话边界控制器 (SBC) 供应商认证的合作伙伴与
 
 |                                                       供应商                                                        |       产品       | 非媒体旁路 | 媒体旁路 | 软件版本 |
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|
-| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways) |   Mediant 500 SBC   |     &#10004;     |   待定    |  7.20A.200.055   |
+| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   待定    |  7.20A.200.055   |
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   待定    |  7.20A.200.055   |
 |                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   待定    |  7.20A.200.055   |
 |                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   待定    |  7.20A.200.055   |

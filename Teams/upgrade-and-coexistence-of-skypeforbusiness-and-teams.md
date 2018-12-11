@@ -1,12 +1,12 @@
 ---
-title: 选择您升级旅程-Microsoft 团队
+title: 选择升级旅程 - Microsoft Teams
 author: lsomi
 ms.author: lsomi
 manager: serdars
 ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: dearbeen, bjwhalen
 description: Skype 的业务和 Microsoft 团队共存选项和模式，并升级到达向工作组从 for Business 的 Skype 示例方案的详细信息。
 localization_priority: Normal
 search.appverid: MET150
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f78cab154dd2b697cbee851a06ef8633b742dbf
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: bdf8ee99b276603329682ce2a1749f946d209fbf
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533187"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214486"
 ---
 ![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
 
@@ -85,7 +85,7 @@ ms.locfileid: "26533187"
 
 随时间推移，用户组可以升级到**团队仅**模式，组织中的其余后跟。 最终，将已准备好停用 for Business 的 Skype 并仅团队用于通信和协作，整个组织或 — 如果业务需求将指定的一组特定保留 for Business 的 Skype — 大多数中的用户组织可以仅团队使用。 <br><br>
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul> 哪些升级旅程适合您的组织 #39 到; s 业务要求？<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul> 哪些升级旅程是适合贵组织的业务要求？<br><br></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul> 标识您当前的部署模型，使用的情况下，并为您的组织的主要注意事项将告知最适合您的组织迁移到团队。<br><br></ul></td></tr>
 </table>
 
@@ -93,7 +93,7 @@ ms.locfileid: "26533187"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul> 升级方案是适用于您的组织？<br><br></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul> 确定您的组织测验的时间线 s 升级旅程基于消息、 会议，并调用业务需求。<br><br> 确定所需的其他工作，完成您升级旅程。<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul> 确定贵组织的升级旅程基于消息、 会议，并调用业务要求的时间线。<br><br> 确定所需的其他工作，完成您升级旅程。<br><br></ul></td></tr>
 </table>
 
 您已选择后为您的组织[执行升级到团队](https://aka.ms/SkypeToTeams-Upgrade)最佳的升级旅程。

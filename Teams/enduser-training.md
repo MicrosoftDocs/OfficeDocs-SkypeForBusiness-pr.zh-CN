@@ -13,12 +13,12 @@ search.appverid: MET150
 description: 培训视频、 教程和其他资源来了解和使用团队组织中的用户。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f46eabe142ae62f1a231a14a919089e80e0c27b8
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: 4754a20c38c16c78744d44d78647f0efdede83e6
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676424"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214440"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams 的最终用户培训
 
@@ -132,18 +132,33 @@ ms.locfileid: "26676424"
                         <h3>快速启动</h3>
                          <p><a href="http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">下载本快速入门指南 (PDF) 以了解基础知识</a></p>
                         <p><a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">按照本快速入门快速加快中的文章</a></p>
-                        <p><a href="https://teamsdemo.office.com/">团队交互式演示</a></p>
                     </div>
                 </div>
             </div>
         </div>
-    </li><li>
+    </li> <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>团队概述 （英文)</h3>
+                        <p><a href="https://teamsdemo.office.com/">团队交互式演示</a></p>  
+                        <p><a href="https://microsoftteams.eventbuilder.com/event/1772">点播 live 培训： #ThisisTeams-如何团队可以为您处理</a></p>
+                        <p><a href="https://aka.ms/teamsgettingstartedondemand">点播 live 培训： Getting Started with 团队</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+       <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
                         <h3>切换到团队从 Skype for Business</h3>
                          <p><a href="https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964">文章： 从切换到团队 Skype for Business</a></p>
+                         <p><a href="https://aka.ms/upgrade101ondemand">点播 live 培训： 升级 101： 了解您从 for Business 的 Skype 到团队的升级</a></p>
+                        <p><a href="https://aka.ms/fromskypetoteamsondemand">点播 live 培训： 从 Skype for Business 向工作组</a></p>
                     </div>
                 </div>
             </div>
@@ -158,17 +173,6 @@ ms.locfileid: "26676424"
                          <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">视频： 转到指南团队所有者</a></p>
                          <p><a href="https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542">视频： 组织团队列表</a></p>
                          <p><a href="https://www.youtube.com/watch?v=hjJWtoaRJeE">设置工作组、 通道和选项卡的视频： 指南</a></p> 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>点播 live 培训</h3>
-                         <p><a href="https://microsoftteams.eventbuilder.com/event/1772">#ThisisTeams-如何为您的团队可以工作</a></p>
                     </div>
                 </div>
             </div>
