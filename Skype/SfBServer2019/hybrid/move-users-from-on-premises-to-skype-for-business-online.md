@@ -9,78 +9,50 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
-description: 摘要： 了解如何迁移用户设置和业务 online 将用户移至 Skype。
-ms.openlocfilehash: 9fd51c55be35e55be6ca837ccb72413043283ac7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+description: 了解如何为业务 Online 将用户移至 Skype。
+ms.openlocfilehash: 083f2f52fd07439d85d017db9c4b035b8ea326b6
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030747"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27243995"
 ---
-# <a name="move-users-from-on-premises-to-skype-for-business-online"></a><span data-ttu-id="18bc2-103">将用户从本地迁移至 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="18bc2-103">Move users from on premises to Skype for Business Online</span></span>
+# <a name="move-users-from-on-premises-to-skype-for-business-online"></a><span data-ttu-id="595d9-103">将用户从本地迁移至 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="595d9-103">Move users from on premises to Skype for Business Online</span></span>
 
-<span data-ttu-id="18bc2-104">**摘要：** 了解如何迁移用户设置和业务 online 将用户移至 Skype。</span><span class="sxs-lookup"><span data-stu-id="18bc2-104">**Summary:** Learn how to migrate user settings and move users to Skype for Business Online.</span></span>
+<span data-ttu-id="595d9-104">移动用户从内部部署到 Skype 业务 online 后，用户与交互 Skype 业务 online 其功能。</span><span class="sxs-lookup"><span data-stu-id="595d9-104">After you move a user from on-premises to Skype for Business Online, the user interacts with Skype for Business Online for its functionality.</span></span> <span data-ttu-id="595d9-105">存在内部部署的任何联系人将 Skype 业务 online 中可用，并且用户组织未来的任何现有会议更新为以便链接指向 Skype 业务 online。</span><span class="sxs-lookup"><span data-stu-id="595d9-105">Any contacts that existed on-premises will be available in Skype for Business Online, and any existing meetings the user organized for the future are updated to so the links point to Skype for Business Online.</span></span> <span data-ttu-id="595d9-106">如果为用户启用音频会议，会议也将包括电话拨入式坐标。</span><span class="sxs-lookup"><span data-stu-id="595d9-106">If the user is enabled for Audio Conferencing, the meetings will also include dial-in coordinates.</span></span>  <span data-ttu-id="595d9-107">将用户从内部部署环境迁移到 Skype 业务 online，用于 Move-csuser cmdlet 或 Skype 业务 Server Control Panel，二者是内部部署工具。</span><span class="sxs-lookup"><span data-stu-id="595d9-107">To move users from an on-premises environment to Skype for Business Online, use either the Move-CsUser cmdlet or the Skype for Business Server Control Panel, both of which are on-premises tools.</span></span> 
 
-<span data-ttu-id="18bc2-105">实际将用户移动到 Office 365 之前, 应首先确认用户帐户同步到云，并将其分配许可证。</span><span class="sxs-lookup"><span data-stu-id="18bc2-105">Before actually moving a user to Office 365, you should first confirm that the user accounts are synchronized to the cloud, and assign them a license.</span></span> <span data-ttu-id="18bc2-106">为此，请使用 Office 365 管理中心。</span><span class="sxs-lookup"><span data-stu-id="18bc2-106">To do this, you use the Office 365 Admin Center.</span></span>
+<span data-ttu-id="595d9-108">任何用户之前，请确保查看[先决条件](move-users-between-on-premises-and-cloud.md#prerequisites)将用户移动到云。</span><span class="sxs-lookup"><span data-stu-id="595d9-108">Before moving any users, be sure to review the [prerequisites](move-users-between-on-premises-and-cloud.md#prerequisites) to move users to the cloud.</span></span>
+ 
+## <a name="move-users-with-move-csuser"></a><span data-ttu-id="595d9-109">具有 Move-csuser 移动用户</span><span class="sxs-lookup"><span data-stu-id="595d9-109">Move users with Move-CsUser</span></span> 
 
-### <a name="to-confirm-that-an-on-premises-user-account-has-been-synchronized-with-office-365"></a><span data-ttu-id="18bc2-107">确认本地用户帐户是否已与 Office 365 同步</span><span class="sxs-lookup"><span data-stu-id="18bc2-107">To confirm that an on-premises user account has been synchronized with Office 365</span></span>
+<span data-ttu-id="595d9-110">可从业务管理命令行管理程序 PowerShell 窗口本地 Skype Move-csuser。</span><span class="sxs-lookup"><span data-stu-id="595d9-110">Move-CsUser is available from an on-premises Skype for Business Management Shell PowerShell window.</span></span> <span data-ttu-id="595d9-111">[所需的管理凭据](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)中所述，您必须具有足够的权限，这两个内部部署环境中以及与 Office 365 租户。</span><span class="sxs-lookup"><span data-stu-id="595d9-111">You must have sufficient privileges in both the on-premises environment as well as in the Office 365 tenant as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).</span></span> <span data-ttu-id="595d9-112">您可以使用一个帐户的具有权限在这两个环境中，也可以开始业务 Server 命令行管理程序窗口内部 Skype 与内部部署凭据，并使用`-Credential`参数指定的 Office 365 的凭据与所需的 Office 365 管理角色的帐户。</span><span class="sxs-lookup"><span data-stu-id="595d9-112">You can either use a single account that has privileges in both environments, or you can start an on-premise Skype for Business Server Management Shell window with on-premise credentials, and use the `-Credential` parameter to specify credentials for an Office 365 account with the necessary Office 365 administrative role.</span></span>
 
-1. <span data-ttu-id="18bc2-108">使用租户管理帐户，打开您的租户的 Office 365 管理中心。</span><span class="sxs-lookup"><span data-stu-id="18bc2-108">Using a tenant admin account, open the Office 365 admin center for your tenant.</span></span>  <span data-ttu-id="18bc2-109">租户管理员帐户应被授予业务管理员角色和用户管理角色 （或全局管理员角色） 来执行此功能在 Office 365 中的两个 Skype。</span><span class="sxs-lookup"><span data-stu-id="18bc2-109">Tenant admin accounts should be granted both the Skype for Business Admin Role and the User Management Role (or the Global Admin role) to perform this function in Office 365.</span></span>
+<span data-ttu-id="595d9-113">将用户移动到 online 使用 Move-csuser:</span><span class="sxs-lookup"><span data-stu-id="595d9-113">To move a user to online using Move-CsUser:</span></span>
 
-2. <span data-ttu-id="18bc2-110">在左侧的导航窗格中，单击**用户**，然后单击**活动用户**。</span><span class="sxs-lookup"><span data-stu-id="18bc2-110">On the left navigation pane, click **Users**, and then click **Active Users**.</span></span>
+- <span data-ttu-id="595d9-114">指定的用户将使用 Identity 参数。</span><span class="sxs-lookup"><span data-stu-id="595d9-114">Specify the user to move using the Identity parameter.</span></span>
+- <span data-ttu-id="595d9-115">指定-Target 参数的值"sipfed.online.lync。<span>com"。</span><span class="sxs-lookup"><span data-stu-id="595d9-115">Specify the -Target parameter with the value “sipfed.online.lync.<span>com”.</span></span>
+- <span data-ttu-id="595d9-116">如果两上部署和 Office 365 中没有足够的权限与一个帐户，使用-credential 参数，以提供足够的权限，在 Office 365 中使用的帐户。</span><span class="sxs-lookup"><span data-stu-id="595d9-116">If you do not have one account with sufficient permissions in both on premises and Office 365, use the -credential parameter to supply an account with sufficient permissions in Office 365.</span></span>
+- <span data-ttu-id="595d9-117">如果在 Office 365 中权限帐户不是以"on.microsoft 结尾。<span>com"，则必须指定-HostedMigrationOverrideUrl 参数，用正确的值[所需的管理凭据](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)中所述。</span><span class="sxs-lookup"><span data-stu-id="595d9-117">If the account with permissions in Office 365 does not end in “on.microsoft.<span>com”, then you must specify the -HostedMigrationOverrideUrl parameter, with  the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).</span></span>
 
-3. <span data-ttu-id="18bc2-111">单击“**搜索用户**”，然后键入用户的名称。</span><span class="sxs-lookup"><span data-stu-id="18bc2-111">Click **Search for a User**, and type the name of the user.</span></span>
-
-4. <span data-ttu-id="18bc2-112">确认您看到用户且其状态**与 Active Directory Synched**。</span><span class="sxs-lookup"><span data-stu-id="18bc2-112">Confirm that you see the user and that their status is **Synched with Active Directory**.</span></span>
-
-    <span data-ttu-id="18bc2-113">如果用户尚未同步，则应在三小时内执行下一次自动同步。</span><span class="sxs-lookup"><span data-stu-id="18bc2-113">If the user is not yet synchronized, the next automatic synchronization should happen within three hours.</span></span> <span data-ttu-id="18bc2-114">你还可以更早地强制同步。</span><span class="sxs-lookup"><span data-stu-id="18bc2-114">You can also force a synchronization sooner.</span></span> <span data-ttu-id="18bc2-115">有关详细信息，请参阅[强制目录同步](https://msdn.microsoft.com/en-us/library/azure/jj151771.aspx)。</span><span class="sxs-lookup"><span data-stu-id="18bc2-115">For more information, see [Force Directory Synchronization](https://msdn.microsoft.com/en-us/library/azure/jj151771.aspx).</span></span>
-
-<span data-ttu-id="18bc2-116">若要分配 Office 365 中的许可证，请参阅[分配给 Office 365 for Business 中的用户的许可证](https://support.office.com/en-us/article/Assign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)。</span><span class="sxs-lookup"><span data-stu-id="18bc2-116">To assign the license in Office 365, see [Assign licenses to users in Office 365 for Business](https://support.office.com/en-us/article/Assign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).</span></span>
-
-## <a name="migrate-user-settings-to-skype-for-business-online"></a><span data-ttu-id="18bc2-117">为业务 Online 将用户设置迁移至 Skype</span><span class="sxs-lookup"><span data-stu-id="18bc2-117">Migrate user settings to Skype for Business Online</span></span>
-
-<span data-ttu-id="18bc2-118">您将用户迁移到 Skype 业务 online 之前，应备份与要移动的帐户关联的用户数据。</span><span class="sxs-lookup"><span data-stu-id="18bc2-118">Before you migrate users to Skype for Business Online, you should back up the user data associated with the accounts to be moved.</span></span> <span data-ttu-id="18bc2-119">并非所有用户数据都会与用户帐户一并移动。</span><span class="sxs-lookup"><span data-stu-id="18bc2-119">Not all user data is moved with the user account.</span></span> <span data-ttu-id="18bc2-120">信息，请参阅[备份和还原要求： 数据](https://technet.microsoft.com/library/ecfb8e4d-cb4f-476d-9772-4486bd683c04.aspx)。</span><span class="sxs-lookup"><span data-stu-id="18bc2-120">For information, see [Backup and Restoration Requirements: Data](https://technet.microsoft.com/library/ecfb8e4d-cb4f-476d-9772-4486bd683c04.aspx).</span></span>
-
-<span data-ttu-id="18bc2-p105">用户设置随用户帐户一起移动。一些本地设置不随用户帐户一起移动。</span><span class="sxs-lookup"><span data-stu-id="18bc2-p105">User settings are moved with the user account. Some on-premises settings are not moved with the user account.</span></span>
-
-## <a name="move-pilot-users-to-skype-for-business-online"></a><span data-ttu-id="18bc2-123">将试点用户移至 Skype 业务 online</span><span class="sxs-lookup"><span data-stu-id="18bc2-123">Move pilot users to Skype for Business Online</span></span>
-
-<span data-ttu-id="18bc2-124">您将用户移至 Skype 业务 online 之前，您可能要移动的一些试点用户，以确认已正确配置您的环境。</span><span class="sxs-lookup"><span data-stu-id="18bc2-124">Before you move users to Skype for Business Online, you may want to move a few pilot users to confirm that your environment is correctly configured.</span></span> <span data-ttu-id="18bc2-125">然后，你可以在尝试移动其他用户之前验证功能和服务是否按预期运行。</span><span class="sxs-lookup"><span data-stu-id="18bc2-125">You can then verify that the features and services function as expected before attempting to move additional users.</span></span>
-
-<span data-ttu-id="18bc2-126">若要将内部部署用户移动到您的业务 Online 租户的 Skype 中 Skype, 的业务 Server Management Shell，使用 Microsoft Office 365 租户管理员凭据运行以下 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="18bc2-126">To move an on-premises user to your Skype for Business Online tenant, run the following cmdlets in the Skype for Business Server Management Shell, using the administrator credentials for your Microsoft Office 365 tenant.</span></span> <span data-ttu-id="18bc2-127">"Username@contoso.com"替换为您要移动的用户的信息。</span><span class="sxs-lookup"><span data-stu-id="18bc2-127">Replace "username@contoso.com" with the information for the user you want to move.</span></span>
+<span data-ttu-id="595d9-118">以下 cmdlet 序列可用于将用户移至 Skype，业务 online，并假定的 Office 365 凭据是单独的帐户，并提供作为 Get-credential 提示输入。</span><span class="sxs-lookup"><span data-stu-id="595d9-118">The following cmdlet sequence can be used to move a user to Skype for Business Online, and assumes the Office 365 credential is a separate account and supplied as input for the Get-Credential prompt.</span></span>
 
 ```
-$creds=Get-Credential
+$cred=Get-Credential
+$url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
+ 
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $cred -HostedMigrationOverrideUrl $url
 ```
+## <a name="move-users-with-skype-for-business-server-control-panel"></a><span data-ttu-id="595d9-119">与 Skype 的业务 Server 控制面板移动用户</span><span class="sxs-lookup"><span data-stu-id="595d9-119">Move users with Skype for Business Server Control Panel</span></span> 
 
-```
-Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds
-```
+1. <span data-ttu-id="595d9-120">打开业务服务器控件 Skype 面板应用程序。</span><span class="sxs-lookup"><span data-stu-id="595d9-120">Open the Skype for Business Server Control Panel app.</span></span>
+2. <span data-ttu-id="595d9-121">在左侧导航窗格中，选择**用户**。</span><span class="sxs-lookup"><span data-stu-id="595d9-121">In the left navigation, choose **Users**.</span></span>
+3. <span data-ttu-id="595d9-122">使用**查找**来查找您想要移动到 Skype 的业务联机用户。</span><span class="sxs-lookup"><span data-stu-id="595d9-122">Use **Find** to locate the user(s) you would like to move to Skype for Business Online.</span></span>
+4. <span data-ttu-id="595d9-123">选择的用户，，然后，从列表上方的**操作**下拉列表中选择**移动到业务 online Skype 的所选的用户**。</span><span class="sxs-lookup"><span data-stu-id="595d9-123">Select the user(s), and then, from the **Action** dropdown above the list, choose **Move selected users to Skype for Business Online**.</span></span>
+5. <span data-ttu-id="595d9-124">在向导中，单击**下一步**。</span><span class="sxs-lookup"><span data-stu-id="595d9-124">In the wizard, click **Next**.</span></span>
+6. <span data-ttu-id="595d9-125">如果出现提示，登录到 Office 365 帐户以。 onmicrosoft.com 和具有足够的权限。</span><span class="sxs-lookup"><span data-stu-id="595d9-125">If prompted, sign in to Office 365, with an account that ends in .onmicrosoft.com and has sufficient permissions.</span></span>
+7. <span data-ttu-id="595d9-126">单击**下一步**，然后**下**一次将用户移动。</span><span class="sxs-lookup"><span data-stu-id="595d9-126">Click **Next**, and then **Next** one more time to move the user.</span></span>
+8. <span data-ttu-id="595d9-127">请注意，顶部的主要控制面板中的应用程序，不向导提供了有关成功或失败状态邮件。</span><span class="sxs-lookup"><span data-stu-id="595d9-127">Note that status messages regarding success or failure are provided at the top of the main Control Panel app, not in the wizard.</span></span>
 
-## <a name="move-users-to-skype-for-business-online"></a><span data-ttu-id="18bc2-128">将用户迁移至 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="18bc2-128">Move users to Skype for Business Online</span></span>
+## <a name="see-also"></a><span data-ttu-id="595d9-128">另请参阅</span><span class="sxs-lookup"><span data-stu-id="595d9-128">See also</span></span>
 
-<span data-ttu-id="18bc2-129">您可以通过使用[Get-csuser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) cmdlet 移动多个用户使用-Filter 参数与特定属性分配给的用户帐户，如 RegistrarPool 选择的用户。</span><span class="sxs-lookup"><span data-stu-id="18bc2-129">You can move multiple users by using the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) cmdlet with the -Filter parameter to select the users with a specific property assigned to the user accounts, such as RegistrarPool.</span></span> <span data-ttu-id="18bc2-130">您可以通过管道给[Move-csuser](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps) cmdlet，返回的用户，如下面的示例中所示：</span><span class="sxs-lookup"><span data-stu-id="18bc2-130">You can then pipe the returned users to the [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps) cmdlet, as shown in the following example:</span></span>
-
-```
-Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds
-```
-
-<span data-ttu-id="18bc2-131">此外可以使用-OU 参数检索指定的 OU 中的所有用户在下面的示例所示：</span><span class="sxs-lookup"><span data-stu-id="18bc2-131">You can also use the -OU parameter to retrieve all users in the specified OU, as shown in the following example:</span></span>
-
-```
-Get-CsUser -OU "cn=hybridusers,cn=contoso.." | Move-CsUser -Target sipfed.online.lync.com -Credentials $creds
-```
-
-## <a name="verify-online-user-settings-and-features"></a><span data-ttu-id="18bc2-132">验证 Online 用户设置和功能</span><span class="sxs-lookup"><span data-stu-id="18bc2-132">Verify online user settings and features</span></span>
-
-<span data-ttu-id="18bc2-133">可通过以下方式验证用户是否已成功移动：</span><span class="sxs-lookup"><span data-stu-id="18bc2-133">You can verify that the user was moved successfully in the following ways:</span></span>
-
-- <span data-ttu-id="18bc2-p109">在 Skype for Business Online 控制面板中查看用户的状态。用于本地用户和联机用户的可视指示器不同。</span><span class="sxs-lookup"><span data-stu-id="18bc2-p109">View the status of the user in the Skype for Business Online Control Panel. The visual indicator for on-premises users and online users is different.</span></span>
-
-- <span data-ttu-id="18bc2-136">运行以下 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="18bc2-136">Run the following cmdlet:</span></span>
-
-  ```
-  Get-CsUser -Identity
-  ```
-
-
+[<span data-ttu-id="595d9-129">Move-CsUser</span><span class="sxs-lookup"><span data-stu-id="595d9-129">Move-CsUser</span></span>](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
