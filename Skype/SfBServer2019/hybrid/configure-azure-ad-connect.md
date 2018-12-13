@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 用于配置混合环境中的 Azure AD 连接的说明。
-ms.openlocfilehash: c2a57f9b58d88274dde8f9218faddabdee4342be
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 5d27de4786c588d5d2f2a276dc20c25436bada98
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536014"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244114"
 ---
 # <a name="configure-azure-ad-connect-for-skype-for-business-and-teams"></a>配置 Azure AD 连接 Skype 业务和团队 
  
@@ -35,9 +35,9 @@ Azure Active Directory 连接保持内部部署 Active Directory 与 Office 365 
 
 1. 单林，其中包含权威用户标识和业务服务器承载 Skype。 
 
-2. 多个林，其中仅具有一个业务服务器承载 Skype，以及包含权威用户标识的一个或多个其他林。 
+2. 多个林，其中仅具有一个业务服务器承载 Skype，以及包含权威用户标识 （帐户林） 的一个或多个其他林。 
 
-3. 在多个林中的业务服务器 Skype 的多个部署。 将很快宣布此复杂的方案的支持。
+3. 在多个林中的业务服务器 Skype 的多个部署。 提供满足某些要求时，组织可以合并到单个 Office 365 租户这些多个部署。
 
 ### <a name="single-forest"></a>单林 
 
@@ -58,7 +58,7 @@ Azure Active Directory 连接保持内部部署 Active Directory 与 Office 365 
 
 ### <a name="multiple-skype-for-business-server-deployments-in-multiple-forests"></a>对于业务服务器部署在多个林中的多个 Skype 
 
-Microsoft 将提供宣布支持将多个 Skype 的业务林同步到单个 online 租户，只有一个部署时间是在任何时刻混合模式下提供。 即将提供的更多详细信息。 
+在此方案中，有多个林，对于业务服务器，每个包含 Skype，单个 Office 365 租户。  使用 AAD 连接的租户，可以进行业务服务器包含 Skype 每个林同步到 Azure AD 中。 最多，只有一个林可以配置的 Skype 业务混合在给定时间。 在启用之前的林中的混合，以从所有其他林中的所有 SIP 域都必须使用[禁用 csonlineSipDomain](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain)都禁用。 有关如何进行此类将环境整合到 Office 365 的详细信息，请参阅[个团队和 Skype for Business 的云整合](cloud-consolidation.md)。
 
 ## <a name="general-requirements"></a>一般要求 
 

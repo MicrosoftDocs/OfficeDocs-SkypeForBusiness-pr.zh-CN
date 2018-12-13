@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 规划业务联机或团队实现业务服务器 Skype 和 Skype 之间的混合连接性注意事项。
-ms.openlocfilehash: 825057f84300d9e47427eea5b27117d168b4126f
-ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
+ms.openlocfilehash: ef74a0b2dcc4943b5e95ddd8ba15005e50ec6cd6
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26625687"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244023"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>规划业务服务器 Skype 和 Office 365 之间的混合连接性
 
@@ -31,7 +31,7 @@ ms.locfileid: "26625687"
 您已阅读本主题，并准备好配置混合连接后，请参阅[Business Server 和 Office 365 的 Skype 之间配置混合连接性](configure-hybrid-connectivity.md)。 配置主题提供业务 online 设置您的本地部署和团队或 Skype 之间的混合连接性的分步指导。
 
 
-## <a name="about-split-domain-functionality"></a>有关拆分域功能
+## <a name="about-shared-sip-address-space-functionality"></a>有关共享 SIP 地址空间功能
 <a name="BKMK_Overview"> </a>
 
  在本地部署的 Business Server 和团队的 Skype 或 Skype 业务 online 之间设置混合连接，您可以将一些用户驻留在本地和联机驻留的一些用户。
@@ -43,13 +43,9 @@ ms.locfileid: "26625687"
 当配置共享的 SIP 地址空间：
 
 - Azure Active Directory 连接用于与 Office 365 同步您的本地目录。
-
 - 用户驻留在本地与业务服务器的内部部署 Skype 进行交互。 
-
 - 联机驻留用户可能交互 Skype 业务联机或团队服务。
-
 - 这两种环境中的用户可以相互通信。 
-
 - 内部部署 Active Directory 是权威。 所有用户应首先，在内部部署 Active Directory 中创建，然后同步到 Azure AD。 即使您打算联机驻留用户，必须首先在内部部署环境中，创建用户，然后将用户移动到 online 以确保用户是内部部署用户可供搜索。 
 
 用户可以联机移动之前，必须为用户分配业务 Online (计划 2) 许可证 Skype。 如果用户将使用团队，还必须为用户分配的工作组许可证 （和业务许可证 Skype 必须保持启用状态）。 如果您的用户想要充分利用附加的联机功能，如要进行音频会议或电话系统，您需要将其分配 Office 365 中的适当许可。
@@ -61,24 +57,18 @@ ms.locfileid: "26625687"
 若要实现您的内部部署环境与 Office 365 通信服务之间的混合连接，您需要满足以下基础结构要求：
 
 - 一个本地部署的 Skype 业务服务器或受支持的拓扑中部署 Lync Server。 请参阅本主题中的[拓扑要求](plan-hybrid-connectivity.md#BKMK_Topology)。
-
 - Skype 业务 Online 启用的 Microsoft Office 365 租户。
-
     > [!NOTE]
     > 只能将混合配置的单个租户与你的本地部署结合使用。
-
 - Azure Active Directory Connect 用于将你的本地目录与 Office 365 同步。 有关详细信息，请参阅[Azure AD 连接： 帐户和权限](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
-
 - Skype Business Server 管理工具。  需要将用户从内部部署移动到云。 必须有权在本地部署和 internet 服务器上安装这些工具。 
-
 - Online 管理工具。  可以使用的团队和 Skype 业务管理中心或 Windows PowerShell 来管理工作组和 Skype 业务 online。 若要使用 PowerShell 管理团队或 Skype 业务 online，下载并安装 Business Online Connector Skype。 
-
 - 必须启用共享的 SIP 地址空间，并且必须配置内部部署 Office 365 用作宿主提供商。 有关配置混合连接所需的步骤的详细信息，请参阅[配置混合连接性](configure-hybrid-connectivity.md)。
 
 配置混合连接后，您可以将用户移至团队或 Skype 业务 online。 有关详细信息，请参阅[移动用户从内部部署到团队](move-users-from-on-premises-to-teams.md)和[移动用户从本地到业务 online Skype](move-users-from-on-premises-to-skype-for-business-online.md)。
 
 
-## <a name="topology-requirements"></a>拓扑要求
+## <a name="server-version-requirements"></a>Server 的版本要求
 <a name="BKMK_Topology"> </a>
 
 **工作组**或业务 online Skype 配置混合部署，您需要具备以下支持的拓扑结构之一：
@@ -105,13 +95,18 @@ ms.locfileid: "26625687"
  ## <a name="multi-forest-support"></a>多林支持
 <a name="BKMK_MultiForest"> </a>
 
-如果满足下列要求，用户可以访问其他林中的 Skype for Business 功能：
+Microsoft 支持以下类型的多林混合方案：
 
-- 用户已正确同步到托管 Skype for Business 的林中：在混合配置中，这意味着用户必须作为已禁用的用户对象同步。
+- **资源林拓扑中。** 在这种拓扑，存在一个林中承载 Skype 业务服务器 （的资源林），有一个或多个其他林的主机帐户标识，访问 Skype 业务在资源林中的服务器。 一般情况下，用户可以访问 Skype 另一个林中的业务功能如果满足以下要求：
+    - 用户正确同步到林中承载 for Business 的 Skype。 在混合配置中，这意味着，必须已禁用的用户对象作为对用户进行同步。
+    - 托管 Skype for Business 的林必须信任包含用户的林。
+    有关资源林混合方案的详细信息，请参阅[Deploy 资源林拓扑中的混合 for Business 的 Skype](configure-a-multi-forest-environment-for-hybrid.md)。
+- **在多个林中的业务服务器 Skype 的多个部署。** 由于合并和收购方案以及更复杂的企业版中可能出现此配置。  对于业务部署，多个 Skype 具有任何组织可以实现合并的所有用户从内部部署到单个 Office 365 租户中的云假定满足以下关键要求： 
+    - 必须有最一个 Office 365 租户涉及。 不支持合并方案中的与多个 Office 365 租户。
+    - 在任何给定时间，仅具有一个内部部署业务林的 Skype 可以在混合模式下 （共享 SIP 地址空间）。 业务林中的所有其他内部部署 Skype 必须保留在本地的完全 （并且可能与每个其他联盟）。 请注意以下其他内部部署组织可以与 AAD 同步，是否需要使用[新功能，以禁用联机 SIP 域](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain)截止年 12 月 2018年可用。
 
-- 托管 Skype for Business 的林必须信任包含用户的林。
+    客户的 Skype for Business 中的多林部署必须完全将业务林的每个 Skype 单独迁移到 Office 365 租户使用拆分域 （共享 SIP 地址空间） 功能，然后禁用与混合在本地部署中之前移动迁移下本地 Skype 业务部署。 此外之前要迁移到云中，, 内部部署用户保留在联盟状态与未表示同一个用户的本地目录中的任何用户。 有关详细信息，请参阅[个团队和 Skype for Business 的云合并](cloud-consolidation.md)。
 
-有关多林混合方案的详细信息，请参阅[Configure hybrid for Business 的 Skype 的多林环境](configure-a-multi-forest-environment-for-hybrid.md)。
 
 
 ## <a name="federation-requirements"></a>联合身份验证要求
@@ -122,11 +117,8 @@ ms.locfileid: "26625687"
 必须满足以下要求才能成功配置混合部署：
 
 - 为您的本地部署和您的 Office 365 租户配置的域匹配必须相同。如果在本地部署中启用了合作伙伴发现，则必须为您的联机租户配置开放联盟。如果未启用合作伙伴发现，则必须为您的联机租户配置封闭联盟。
-
 - 本地部署中的阻止域列表必须与您的联机租户的阻止域列表完全匹配。
-
 - 本地部署中的允许域列表必须与您的联机租户的允许域列表完全匹配。
-
 - Online 租户的外部通信，必须启用联盟。
 
 

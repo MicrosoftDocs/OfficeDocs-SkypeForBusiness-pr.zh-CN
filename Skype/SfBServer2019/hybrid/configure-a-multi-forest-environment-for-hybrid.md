@@ -1,5 +1,5 @@
 ---
-title: 配置混合 for Business 的 Skype 的多林环境
+title: 部署资源林拓扑
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,32 +10,29 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 以下各节提供有关如何配置具有资源/用户林模型，以提供业务功能在混合方案的 Skype 中的多林环境的指南。
-ms.openlocfilehash: ef2b57d1f89e4d5479cacce57ce9a6c47c495f21
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2e9e3d9f1f6d276ff99ee1e346bb1812ef0c3ea7
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532429"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244009"
 ---
-# <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>配置混合 for Business 的 Skype 的多林环境
+# <a name="deploy-a-resource-forest-topology"></a>部署资源林拓扑
  
 以下各节提供有关如何配置具有资源/用户林模型，以提供业务功能在混合方案的 Skype 中的多林环境的指南。 
   
 ![适用于混合部署的多林环境](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
-## <a name="validate-the-forest-topology"></a>验证林拓扑
+## <a name="topology-requirements"></a>拓扑要求
 
 支持多个用户林。 注意以下几项： 
-  
-- 对于单用户林或多个用户林部署，必须有 Skype 业务 server 的单个部署。
     
-- 有关受支持版本的 Lync Server 和企业服务器的 Skype 混合配置，请参阅[规划之间 Skype Business Server 和 Office 365 的混合连接性](plan-hybrid-connectivity.md)中的[拓扑要求](plan-hybrid-connectivity.md#BKMK_Topology)。
+- 有关受支持版本的 Lync Server 和企业服务器的 Skype 混合配置中，请参阅[规划之间 Skype Business Server 和 Office 365 的混合连接性](plan-hybrid-connectivity.md)中的[Server 的版本要求](plan-hybrid-connectivity.md#server-version-requirements)。
     
 - 可以在一个或多个林中，其中可能包含或不包含业务服务器包含 Skype 的林部署 Exchange 服务器。 请确保您应用了最新累积更新。
     
 - 有关与 Exchange Server 共存的详细信息（包括在各种本地和联机组合中的支持条件和限制），请参阅[Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)中的[功能支持](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)。
     
-有关详细信息，请参阅[系统要求](../plan/system-requirements.md)。
   
 ## <a name="user-homing-considerations"></a>用户驻留注意事项
 
@@ -43,7 +40,7 @@ Skype 的企业用户驻留在本地可以具有 Exchange 驻留在本地或联�
   
 ## <a name="configure-forest-trusts"></a>配置林信任
 
-所需的信任是资源林与每个用户林之间的双向可传递信任。 如果您有多个用户林，则要启用跨林身份验证，必须为这些林中的每个林启用名称前缀路由。 有关说明，请参阅[管理林信任](https://technet.microsoft.com/en-us/library/cc772440.aspx)。 
+在资源林拓扑中，资源林承载 Skype 业务服务器必须信任包含用户帐户将访问它的每个帐户林。 如果您有多个用户林，则要启用跨林身份验证，必须为这些林中的每个林启用名称前缀路由。 有关说明，请参阅[管理林信任](https://technet.microsoft.com/en-us/library/cc772440.aspx)。 如果您具有另一个林中部署 Exchange 服务器，并提供功能的 Skype 的企业用户，承载 Exchange 林必须信任业务服务器承载 Skype 的林。 例如，如果 Exchange 部署在帐户林，这将有效地意味着业务林的帐户和 Skype 之间的双向信任中配置都需要。
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>到林中承载 Skype for Business 同步帐户
 
@@ -94,9 +91,9 @@ Skype 的企业用户驻留在本地可以具有 Exchange 驻留在本地或联�
   
 ## <a name="configure-aad-connect"></a>配置 AAD Connect
 
-AAD Connect 将用于在不同林之间以及不同林与 Office 365 之间合并帐户。您应该在资源林中部署 AAD Connect。必须能够在多个林与 Office 365 之间同步，Dirsync 不支持此操作。 
-  
-AAD Connect 不会在内部部署林之间同步帐户。它使用 AD 连接来读取已在内部部署林之间同步的对象（通过 FIM 或类似产品）。然后，它利用筛选规则创建其元节中相匹配的已启用和已禁用对象的单一表示，然后将该单一已合并对象复制到 Office 365 中。 
+在资源林拓扑中，需要从资源林和任何帐户林 (s) 的用户属性已同步到 Azure AD。 执行此操作的最简单的和建议方式是具有 Azure AD 连接同步和合并来自*所有*已启用用户帐户的林和包含 for Business 的 Skype 的林的用户标识。 有关详细信息，请参阅，[业务和团队的 Skype 的配置 Azure AD 连接](configure-azure-ad-connect.md)。
+
+请注意，AAD 连接不提供同步在本地帐户和资源林之间。 必须单独配置使用 Microsoft Identity Manager 或类似的产品，如前面所述。
   
 完成之后并且 AAD Connect 正在合并时，如果您查看元节中的对象，应该看到类似如下的内容： 
   

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: 以下各节提供有关如何配置具有资源/用户林模型，以提供业务功能在混合方案的 Skype 中的多林环境的指南。
-ms.openlocfilehash: ca3cd4bfe324690c41fbd045af967e57cab5fe36
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 0c5e3e25e8ba9ae5b044093be53f25a37db28525
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531550"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244016"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>配置混合 for Business 的 Skype 的多林环境
  
@@ -49,7 +49,7 @@ Skype 的企业用户驻留在本地可以具有 Exchange 驻留在本地或联�
   
 ## <a name="configure-forest-trusts"></a>配置林信任
 
-所需的信任是资源林与每个用户林之间的双向可传递信任。 如果您有多个用户林，则要启用跨林身份验证，必须为这些林中的每个林启用名称前缀路由。 有关说明，请参阅[管理林信任](https://technet.microsoft.com/en-us/library/cc772440.aspx)。 
+所需的信任是资源林与每个用户林之间的双向可传递信任。 如果您有多个用户林，则要启用跨林身份验证，必须为这些林中的每个林启用名称前缀路由。 有关说明，请参阅[管理林信任](https://technet.microsoft.com/en-us/library/cc772440.aspx)。 如果您具有另一个林中部署 Exchange 服务器，并提供功能的 Skype 的企业用户，承载 Exchange 林必须信任业务服务器承载 Skype 的林。 例如，如果 Exchange 部署在帐户林，这将有效地意味着业务林的帐户和 Skype 之间的双向信任所需的配置中。
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>到林中承载 Skype for Business 同步帐户
 

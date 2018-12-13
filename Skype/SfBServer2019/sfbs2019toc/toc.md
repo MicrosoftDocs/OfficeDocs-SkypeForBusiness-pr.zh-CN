@@ -9,13 +9,28 @@
 
 ## 个团队和 Skype for Business 的混合解决方案
 ### [规划混合连接性](../hybrid/plan-hybrid-connectivity.md)
+
 ### [配置混合连接性](../hybrid/configure-hybrid-connectivity.md)
 #### [配置混合环境的 Azure AD 的连接](../hybrid/configure-azure-ad-connect.md)
 #### [Skype 混合配置的业务](../hybrid/configure-federation-with-skype-for-business-online.md)
-#### [配置多林环境](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
-### [移动用户从内部部署到 Skype 的业务联机](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
-### [将用户从内部部署移动到团队](../hybrid/move-users-from-on-premises-to-teams.md)
-### [与 Exchange 和 SharePoint 集成](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+
+### [内部部署和云之间移动用户](../hybrid/move-users-between-on-premises-and-cloud.md)
+#### [将用户从内部部署移动到团队](../hybrid/move-users-from-on-premises-to-teams.md)
+#### [将用户从本地迁移至 Skype for Business Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
+#### [从云到本地移动用户](../hybrid/move-users-from-the-cloud-to-on-premises.md)
+#### [管理会议迁移](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+
+### [禁用混合完成迁移到云中](../hybrid/cloud-consolidation-disabling-hybrid.md)
+
+### [部署资源林拓扑](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
+
+### [云整合个团队和 Skype for Business](../hybrid/cloud-consolidation.md)
+#### [更新边缘证书](../hybrid/cloud-consolidation-edge-certificates.md)
+
+#### [更新 AAD 连接到包含多个林](../hybrid/cloud-consolidation-aad-connect.md)
+
+### [与 Exchange 和 SharePoint 集成](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/hybrid/hybrid/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/breadcrumb/toc.json)
+
 
 ## 规划
 ### [拓扑基础知识](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)

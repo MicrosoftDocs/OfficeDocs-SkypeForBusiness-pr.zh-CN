@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 摘要： 了解如何为业务 Online 配置内部部署和 Skype 之间的互操作性。
-ms.openlocfilehash: db03636d412caa72a3b7a38d0c1d691c83d96a5b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b71ea92b5f7ce275dc5d1b5d2b7ece5be3c77ffc
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532775"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244002"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Skype 混合配置的业务
 
@@ -25,8 +25,7 @@ ms.locfileid: "26532775"
 - [配置为信任 Office 365 的本地环境并启用共享的 SIP 地址空间，与 Office 365。](#configure-your-on-premises-environment-to-share-your-SIP-address-space-with-Office-365)
 - [启用 Office 365 租户中的共享的 SIP 地址空间。](#configure-server-to-server-authentication-if-required)
 
-> [!NOTE]
-> 如果您有 Exchange 内部部署，您可能希望为业务 Online 环境 Exchange 内部部署和 Skype 之间配置 OAuth。 有关详细信息，请参阅[Skype 业务服务器中的管理服务器到服务器身份验证](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications)和[计划集成业务和 Exchange Skype](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support)。 
+请注意，是否您有 Exchange 内部部署，您可能需要的业务 Online 环境 Exchange 内部部署和 Skype 之间配置 OAuth。 有关详细信息，请参阅[Skype 业务服务器中的管理服务器到服务器身份验证](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications)和[计划集成业务和 Exchange Skype](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support)。 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-office-365"></a>配置内部部署边缘服务与 Office 365 联盟
 
