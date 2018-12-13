@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: 规划基于位置的业务 Server 企业语音路由的 Skype 中的会议，包括咨询呼叫传输。
-ms.openlocfilehash: d786f8def8cf88e29bbac2a908163a5a92d61d47
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 810b93d20fe9bdbf0ae057250509b1e9ec612afe
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373240"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240736"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>基于位置的业务服务器路由中 Skype 的会议
 
@@ -142,9 +142,13 @@ Get-csserverapplication-Identity Service: Registrar:<Pool FQDN>中此 cmdlet，\
 
 您的会议应用程序基于位置的路由找到正确的优先级值后，键入以下 cmdlet 为家庭用户启用基于位置的路由每个前端池或 Standard Edition Server:
 
-New-csserverapplication-Identity Service: Registrar:<Pool FQDN>/LBRouting-优先级<Application Priority>-启用 $true-关键 $true Uri<https://www.microsoft.com/LCS/LBRoutingFor>示例：
+New-csserverapplication-Identity Service: Registrar:`<Pool FQDN`> / LBRouting-优先级\<应用程序优先级\>-启用 $true-关键 $true Uri<http://www.microsoft.com/LCS/LBRouting> 
 
-New-csserverapplication-Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting-优先级 3-启用的 $true-关键 $true Urihttps://www.microsoft.com/LCS/LBRoutingAfter使用此 cmdlet，重新启动所有前端服务器池或 Standard Edition Server 位置已启用的会议应用程序的基于位置的路由。
+例如：
+
+New-csserverapplication-Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting-优先级 3-启用的 $true-关键 $true Urihttp://www.microsoft.com/LCS/LBRouting 
+
+使用此 cmdlet 后, 重新启动所有前端服务器池或 Standard Edition Server 位置已启用的会议应用程序基于位置的路由。
 
 > [!IMPORTANT]
 > 基于位置的路由执行进行到会议或咨询转接不强制实现直到所有前端服务器中适用的池或 Standard Edition Server 随即会重新启动。 如果您设置 **-关键**到上述 cmdlet 中 **$true** ，您的业务服务器服务的 Skype 将立即重新启动。 如果您不希望立即重新启动这些服务，设置 **-关键** **$false**为，然后使用**集 CsServerApplication**更改到 **-关键**到更高版本、 **$true**已重新启动服务后。

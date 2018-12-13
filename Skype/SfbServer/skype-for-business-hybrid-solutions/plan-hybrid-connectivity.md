@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 摘要：阅读本主题可了解如何规划 Skype for Business Server 与 Skype for Business Online 之间的混合连接。 设置混合连接是部署多种 Skype for Business 混合解决方案的第一步。
-ms.openlocfilehash: 909d8be38bd03291268c7fa3b2b091072a47970e
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6b0456c115e1d1fc9b1a341b17cfc9711f2a6bb7
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530886"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240761"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>规划 Skype for Business Server 与 Skype for Business Online 之间的混合连接
 
@@ -329,11 +329,11 @@ ms.locfileid: "26530886"
 
 规划混合部署时还应考虑以下用户相关的问题。
 
-- **用户联系人**为 Lync Online 用户的联系人的限制为 250 个字符。 当帐户移至 Lync Online，超出该号码的任何联系人将从用户的联系人列表中删除。
+- **用户联系人**Online 业务用户的 Skype 联系人的限制为 250 个字符。 当业务 online 帐户移至 Skype，超出该号码的任何联系人将从用户的联系人列表中删除。
 
 - **即时消息和状态**使用用户帐户都将迁移的用户联系人列表、 组和访问控制列表 (Acl)。
 
-- **会议数据、 会议内容和计划的会议**此内容不会迁移用户帐户。 用户必须在其帐户迁移到 Lync Online 之后重新安排会议。
+- **会议数据、 会议内容和计划的会议**此内容不会迁移用户帐户。 其帐户都将迁移到 Skype 业务 online 后，用户必须重新安排会议。
 
 ## <a name="user-policies-and-features"></a>用户策略和功能
 <a name="BKMK_UserPolicies"> </a>

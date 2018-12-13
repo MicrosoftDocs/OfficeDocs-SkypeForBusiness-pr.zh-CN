@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要： 业务服务器 2015年的 Skype 或 Skype 的业务 Online 管理员可以使用这些表了解上的客户端支持哪些功能。
-ms.openlocfilehash: 1dc94b9cb6b723d344994babe655921045b2acb0
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 35db705545dbec988a29b2025b4c3f1817923093
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25002387"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240799"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>业务服务器 2015年的 Skype 的的桌面客户端功能比较
  
@@ -32,10 +32,10 @@ ms.locfileid: "25002387"
 
 请参阅业务服务器 2019年上 Skype 支持客户端的[桌面客户端的业务 2019年的 Skype 的功能比较](../../../SfBServer2019/plan/feature-comparison.md)。
   
-下表显示可用于业务 online 中处理的业务服务器 2015年或 Skype Skype 每个客户端的功能。 您可能还希望参考智能手机和平板电脑客户端功能比较[的 Skype for Business 的移动客户端功能比较](mobile-feature-comparison.md)。 你的组织购买的客户端访问许可证或用户订阅许可证也将影响用户可以使用的功能。 向用户部署完整版还是基本版客户端取决于贵组织选择购买的许可证或计划。 请参阅[授权指南](https://products.office.com/en-us/skype-for-business/it-pros)的详细信息。
+下表显示可用于业务 online 中处理的业务服务器 2015年或 Skype Skype 每个客户端的功能。 您可能还希望参考智能手机和平板电脑客户端功能比较[的 Skype for Business 的移动客户端功能比较](mobile-feature-comparison.md)。 你的组织购买的客户端访问许可证或用户订阅许可证也将影响用户可以使用的功能。 向用户部署完整版还是基本版客户端取决于贵组织选择购买的许可证或计划。 有关更多详细信息，请参阅[许可指南](https://products.office.com/en-us/skype-for-business/it-pros)。
   
 > [!IMPORTANT]
-> Skype 的业务服务器 2015年和 Skype 业务 online 支持以下以前发布的客户端： Lync 2013、 Lync 2010、 Lync 2010 Mobile、 Lync Phone Edition，和 Lync 2010 Attendant。 有关这些客户端与其他服务器一起使用时的信息，请参阅[Lync Server 2013 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)和[Lync Server 2010 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx)。 
+> Skype 的业务服务器 2015年和 Skype 业务 online 支持以下以前发布的客户端： Lync 2013、 Lync 2010、 Lync 2010 Mobile、 Lync Phone Edition，和 Lync 2010 Attendant。 有关这些客户端与其他服务器结合使用的信息，请参阅 [Lync Server 2013 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)和 [Lync Server 2010 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx)。 
   
 > [!NOTE]
 > **Lync 2010 Attendant**客户端中不支持 Skype 业务 online。
@@ -268,7 +268,9 @@ ms.locfileid: "25002387"
     
 - 更改问候语
     
-- 组内呼叫应答
+- 群呼应答
+
+- 用户状态 UM 已禁用，并且他们使用旧 Outlook 客户端 （2013年或更早版本） 时，不会生成未接来电通知电子邮件
     
 ### <a name="online-or-hybrid-user-account-limitations"></a>联机或混合用户帐户限制
 <a name="Online-Hybrid"> </a>

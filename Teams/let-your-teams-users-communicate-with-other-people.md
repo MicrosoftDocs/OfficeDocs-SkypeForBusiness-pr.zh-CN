@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 请参阅如何配置团队以使用户可以与其他组织中的用户进行通信。
-ms.openlocfilehash: 3c01724d10867c210ff5fe13981b9ddfb801f8f1
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 6fb71e4c9e1461ca920d480336288b06e3111eb2
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013302"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240837"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>让您的团队用户聊天并与其他团队组织中的用户进行通信
 
@@ -51,11 +51,11 @@ ms.locfileid: "25013302"
 
    3. 如果您希望允许的所有工作组组织，与您的组织中的用户进行通信，请跳到步骤 5。 
    
-   4. 如果您希望限制哪些通信组织可以与用户在组织中，通过单击**域添加**到允许列表添加其他组织的域名。 在**添加域**窗格中，**允许**，然后**完成**将在域名称单击。
+   4. 如果您想要限制进行通信的组织可以与用户在组织中可以允许所有但某些域，或仅允许特定的部门。 若要允许所有但某些域，请添加您想要阻止通过单击**添加域**的域。 在**添加域**窗格置于域名，单击**已阻止**，然后**完成**。 若要限制到特定 organizatioins 通信，请将这些域添加到**Alowed**状态的列表。 一旦您已添加到允许列表的任何域，与其他组织的通信将被限制为仅这些组织其域是允许列表中。 
+   
+   5. 单击“**保存**”。 
 
-   4. 单击“**保存**”。 
-
-   5. 然后确保其他团队组织中的管理员执行相同的步骤。 例如，在其**允许域**列表中，其管理员需要为您的业务输入的域，如果这些限制的组织可以与他们的用户通信。 
+   6. 然后确保其他团队组织中的管理员执行相同的步骤。 例如，在其**允许域**列表中，其管理员需要为您的业务输入的域，如果这些限制的组织可以与他们的用户通信。 
 
 ### <a name="step-3---test-it"></a>步骤 3-对其进行测试
 若要测试您的安装程序，您需要的团队用户在防火墙背后处于不是。

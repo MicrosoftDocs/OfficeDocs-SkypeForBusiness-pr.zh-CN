@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: Skype 业务服务器使用 TLS 和 MTLS 来加密即时消息。 无论通信是限制在内部网络还是跨内部网络外围，所有服务器到服务器的通信都需要使用 MTLS。 当业务服务器 Skype 连接到第三方 IPPBX 系统或 SIP 中继 TLS 是可选的但强烈建议在中介服务器与媒体网关之间。 如果在此链接上配置了 TLS，则 MTLS 是必需的。 因此，必须使用从中介服务器信任的 CA 证书配置网关。
-ms.openlocfilehash: cdb5953253f10659747d0556d905de43d1d839b0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ff2aa0a3d0727aa5ed579413fe03593568f9f773
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21019729"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240893"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Skype 加密业务服务器
  
@@ -24,7 +24,7 @@ Skype 业务服务器使用 TLS 和 MTLS 来加密即时消息。 无论通信�
 > [!NOTE]
 > 2014 年发布了关于 SSL 3.0 的安全公告。 为业务服务器 2015年禁用中 Skype SSL 3.0 是受支持的选项。 若要了解有关顾问的安全性的详细信息，请参阅[Lync Server 2013 和 Skype 的业务服务器 2015年中禁用 SSL 3.0](https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/)。<br/>
 **安全说明：** 要确保使用的最强的加密协议，业务服务器 2015年的 Skype 将按以下顺序的 TLS 加密协议为客户端提供： **TLS 1.2 TLS 1.1、 TLS 1.0**。 TLS 是业务服务器 2015年的 Skype 的一个重要方面，因此需要为了保持受支持的环境。<br/>
-**安全说明：** 要确保使用的最强的加密协议，业务服务器 2019年的 Skype 将按以下顺序的 TLS 加密协议为客户端提供： **TLS 2.0、 TLS 1.2**。 TLS 是业务服务器 2019年的 Skype 的一个重要方面，因此需要为了保持受支持的环境。 
+**安全说明：** 要确保使用的最强的加密协议，业务服务器 2019年的 Skype 将按以下顺序的 TLS 加密协议为客户端提供： **TLS 1.3、 TLS 1.2**。 TLS 是业务服务器 2019年的 Skype 的一个重要方面，因此需要为了保持受支持的环境。 
   
 下表汇总了每种类型的通信的协议要求。 
   

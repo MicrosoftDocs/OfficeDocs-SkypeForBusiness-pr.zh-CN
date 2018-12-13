@@ -1,5 +1,5 @@
 ---
-title: 澳大利亚电话号码管理
+title: 澳大利亚的电话号码管理
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 使用此表可以找到有关获取和管理澳大利亚中的电话号码的 Skype 业务 Online 和 Microsoft 团队。
-ms.openlocfilehash: 88db4b1410071793622c5bab7e528c51180c7a80
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4d4a175e75b053a1966a8dff85b5dda539cd9ad0
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532753"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240878"
 ---
-# <a name="phone-number-management-for-australia"></a>澳大利亚电话号码管理
+# <a name="phone-number-management-for-australia"></a>澳大利亚的电话号码管理
 在澳大利亚，我们已与 Telstra 合作购买和提供Calling Plan通话计划。 Telstra 将销售通话计划，并向用户和自动语音与呼叫队列号码提供支持。 但是，服务号码和音频会议的许可证仍由 Office 365 负责销售和管理。
 
 有关详细信息，请参阅 [Telstra Call for Office 365](https://aka.ms/TelstraVoicePlan)。
@@ -42,7 +42,7 @@ ms.locfileid: "26532753"
 |**你要做什么？**|**执行下列步骤并下载正确的表单**|
 |:-----|:-----|
 |获取澳大利亚通话计划的新用户电话号码。   <br/> |请联系 [Telstra  Calling for Office 365](https://aka.ms/TelstraVoicePlan) 获取您用户的新电话号码。 稍后将相关号码添加至您所属组织，以便您向您的用户进行分发。 <br/>
-|获取适用于澳大利亚电话系统自助语音和呼叫队列的信的服务电话号码。 <br/> |请联系 [Telstra  Calling for Office 365](https://aka.ms/TelstraVoicePlan) 获取新电话号码。 稍后将相关号码添加至您所属组织，以便您向您的自动语音和呼叫队列进行分发。 <br/>|
+|如果您正在利用 Telstra 调用 for Office 365，您可能会获取新的可与电话系统自动助理和队列的澳大利亚呼叫从 Telstra 服务电话号码。 <br/> |请联系 [Telstra  Calling for Office 365](https://aka.ms/TelstraVoicePlan) 获取新电话号码。 稍后将相关号码添加至您所属组织，以便您向您的自动语音和呼叫队列进行分发。 如果您目前未使用 Telstra 调用，您可以联系我们 Microsoft 号码 ManagementService 办公桌前就可以从 Microsoft[请与我们联系](mailto:ptnapac@microsoft.com)获取服务号码。 <br/>|
 |获取新的澳大利亚音频会议服务电话号码。   <br/> |[请联系我们](mailto:ptnapac@microsoft.com)。|
 |您需要获取用户、自动语音和呼叫队列的 Office 365 转接电话号码。  <br/> |请联系 [Telstra  Calling for Office 365](https://aka.ms/TelstraVoicePlan) 转接电话号码。 稍后将相关号码添加到您所在组织。  <br/> |
 |您需要获取用于音频会议转接到 Office 365 的电话号码。  |[请联系我们](mailto:ptnapac@microsoft.com) |

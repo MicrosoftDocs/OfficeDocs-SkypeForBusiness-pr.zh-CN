@@ -1,5 +1,5 @@
 ---
-title: 限制和规格的 Microsoft 团队
+title: Microsoft Teams 的限制和规范
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,14 +13,14 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fb9594ddc5fd82f1f11d4425f000a831e2b90e4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9f77de0515cc026b0d225100e7528a6eae4a7965
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532306"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240682"
 ---
-<a name="limits-and-specifications-for-microsoft-teams"></a>限制和规格的 Microsoft 团队
+<a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 =============================================
 
 本文介绍一些限制、 规格和适用于 Microsoft 团队的其他要求。 
@@ -45,7 +45,7 @@ ms.locfileid: "26532306"
 |功能     | 最大限制 |
 |------------|---------------|
 |在会议中的人员数量  | 250    |
-|私人聊天中的人数  | 20    |
+|私人聊天中的人数  | 50    |
 
 <a name="storage"></a>存储
 -------

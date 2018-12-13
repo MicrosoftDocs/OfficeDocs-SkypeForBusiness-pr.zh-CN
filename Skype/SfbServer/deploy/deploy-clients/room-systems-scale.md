@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读此主题以了解有关部署在大型部署的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 536530fa7836389d8c621f7c81287bfb564f024d
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: ce3a857971fd60988e89608391cc3ec7d3d0c3ae
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699549"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240962"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>使用 System Center Configuration Manager 部署 Skype 会议室系统 v2
 
@@ -504,6 +504,28 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
 
 > [!NOTE]
 > 对其他 Surface Pro 模型，您可能必须重复相同的步骤。 有关详细信息，请参阅[管理驱动因素 System Center Configuration Manager 中](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers)。
+
+### <a name="create-skype-room-system-configuration-package"></a>创建 Skype 会议室系统配置包
+
+1.  在 Configuration Manager 控制台中，转到**软件库** \> **应用程序管理** \> **包**以及然后选择**创建新程序包**。
+
+2.  输入以下信息以创建包：
+
+    -   名称： **SR v2-配置 SR 安装程序包**
+
+    -   制造商： **Microsoft Corporation**
+
+    -   版本： **1.0.0**
+
+    -   选择**此程序包包含源文件**复选框、 **SR v2-配置 SR 安装程序**文件夹中，输入的路径，然后选择**下一步**。
+
+3.  选择**不创建程序**，然后选择**下一步**。
+
+4.  查看**确认的设置**页，然后选择**下一步**。
+
+5.  选择**关闭**。
+
+
 
 ## <a name="distribute-configuration-manager-packages"></a>分发配置管理器包
 

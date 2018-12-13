@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: 阅读有关如何安装和配置忙选项中 Skype 业务服务器。
-ms.openlocfilehash: 3cf197f58dda13ab0c1af2077a6eb0fb59dafcc4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a5fdd117f2c812bba69978a7d2943321b940bcc4
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370806"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240657"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>安装和配置适用于 Skype for Business Server 的忙碌选项
 
@@ -33,7 +33,7 @@ ms.locfileid: "25370806"
 
 无论其忙碌选项如何配置，都不会阻止通话或会议中的用户或将呼叫置于等待状态的用户发起新呼叫或会议。  
 
-有关的忙选项功能的详细信息，请参阅[Plan for Business Server 的 Skype 忙选项](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)。
+有关忙碌选项功能的详细信息，请参阅[Plan for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)。
 
 ## <a name="install"></a>安装 
 
@@ -76,7 +76,7 @@ ms.locfileid: "25370806"
 3. 接下来，运行[新建 CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) cmdlet 将忙选项添加到下面的示例中所示的服务器应用程序的列表：
 
    ```
-   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri https://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
+   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
     > [!NOTE]
@@ -96,7 +96,7 @@ ms.locfileid: "25370806"
 
 ## <a name="configure"></a>配置
 
-若要配置忙选项，请使用[集 CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) cmdlet。
+要配置忙碌选项，请使用 [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) cmdlet。  
 
 例如，以下命令可配置用户“Ken Myer”的忙碌选项。在此配置中，当“Ken Myer”已接听电话时，向其发起的任何呼叫都将返回忙音：
 
@@ -104,20 +104,19 @@ ms.locfileid: "25370806"
 Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 ```
 
-在下一个示例中，该命令可配置用户“Chrystal Velasquez”的忙碌选项。在此配置中，当“Chrystal Velasquez”已接听电话时，向其发起的新传入呼叫都将转接到语言邮件。
-
+在下一个示例中，该命令可配置用户“Chrystal Velasquez”的忙碌选项。 在此配置中，当“Chrystal Velasquez”已接听电话时，向其发起的新传入呼叫都将转接到语言邮件。
 
 ```
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-您可以通过使用[Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) cmdlet 检索有关忙选项的配置信息。 以下示例返回"KenMyer@Contoso.com"的忙选项设置：
+你可以通过使用 [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) cmdlet 检索有关忙碌选项的配置信息。 以下示例返回"KenMyer@Contoso.com"的忙选项设置：
 
 ```
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
 ```
 
-您可以通过使用[删除 CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx) cmdlet 删除忙选项。 以下命令将删除“Ken Myer”的忙碌选项。
+你可以通过使用 [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx) cmdlet 删除忙碌选项。 以下命令将删除“Ken Myer”的忙碌选项。
 
 ```
 Remove-CsBusyOptions -Identity "Ken Myer"
@@ -144,7 +143,7 @@ New-CsClsScenario -Parent Global -Name BusyOptions -Provider @{Add=$p1,$p2,$p3}
 <pre>
 Identity   : Service:Registrar:pool0.vdomain.com/BusyOptions
 Priority   : 5
-Uri        : https://www.microsoft.com/LCS/BusyOptions
+Uri        : http://www.microsoft.com/LCS/BusyOptions
 Name       : BusyOptions
 Enabled    : True
 Critical   : False
