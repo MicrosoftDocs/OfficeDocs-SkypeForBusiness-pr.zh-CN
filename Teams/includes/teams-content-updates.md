@@ -36,7 +36,7 @@
 | 2018 年 11 月 7 日 | [在 Microsoft Teams 中部署会议](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 添加内容 |
 | 2018 年 11 月 7 日 | [部署 Microsoft Teams](/MicrosoftTeams/deploy-microsoft-teams-landing-page) | 添加内容 |
 | 2018 年 11 月 7 日 | [为 Microsoft Teams 部署语音](/MicrosoftTeams/deploy-voice-microsoft-teams-landing-page) | 添加内容 |
-| 2018 年 11 月 7 日 | [Microsoft Teams 入门指南](/MicrosoftTeams/get-started-microsoft-teams-landing-page) | 添加内容 |
+| 2018 年 11 月 7 日 | [Microsoft Teams 入门指南](/MicrosoftTeams/get-started-with-teams-landing-page) | 添加内容 |
 | 2018 年 11 月 7 日 | [贵组织为 Microsoft Teams 准备到什么程度？](/MicrosoftTeams/teams-adoption-assess-readiness) | 添加内容 |
 | 2018 年 11 月 7 日 | [为 Microsoft Teams 创建支持者计划](/MicrosoftTeams/teams-adoption-create-champions-program) | 添加内容 |
 | 2018 年 11 月 7 日 | [为 Microsoft Teams 采用定义结果和成功](/MicrosoftTeams/teams-adoption-define-outcomes) | 添加内容 |
@@ -88,7 +88,7 @@
 | 2018 年 11 月 12 日 | [管理用户对 Microsoft Teams 的访问](/MicrosoftTeams/user-access) | 修改内容 |
 | 2018 年 11 月 12 日 | [在 Microsoft Teams 中管理设备](/MicrosoftTeams/device-management) | 修改内容 |
 | 2018 年 11 月 13 日 | [采用 Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 添加内容 |
-| 2018 年 11 月 13 日 | [Microsoft Teams 入门指南](/MicrosoftTeams/get-started-microsoft-teams-landing-page) | 添加内容 |
+| 2018 年 11 月 13 日 | [Microsoft Teams 入门指南](/MicrosoftTeams/get-started-with-teams-landing-page) | 添加内容 |
 | 2018 年 11 月 13 日 | [在 Microsoft Teams 中创建首批团队和频道](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | 添加内容 |
 | 2018 年 11 月 13 日 | [Microsoft Teams 入门指南](/MicrosoftTeams/get-started-with-teams-landing-page) | 添加内容 |
 | 2018 年 11 月 13 日 | [在 Microsoft Teams 中监视使用情况和反馈](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | 添加内容 |

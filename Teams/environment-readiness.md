@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b02cea9763207c9a756d98b3eecf1e4c579fdc3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 057493f42a4bbfa012fb57c2394c372dfc25c9fc
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013174"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264825"
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>检查你的环境是否为 Microsoft Teams 准备好
 ===========================================
@@ -27,7 +27,7 @@ ms.locfileid: "25013174"
 
 部署 Microsoft 团队之前强烈建议[部署学校数据同步](https://docs.microsoft.com/schooldatasync/)到的教育机构。 学校数据同步使用您的学校 SI 名单数据自动创建的 Microsoft 团队和其他应用程序的类和组。
 
-为了获得使用 Teams 的最佳体验，贵组织必须已部署了 Exchange Online 和 SharePoint Online。 如果未部署这些服务，或你有不同的设置，请参阅以下链接获取帮助：
+为了获得使用 Teams 的最佳体验，贵组织必须已部署了 Exchange Online 和 SharePoint Online。 您还必须确保您的当前环境已准备好团队。  请参阅以下链接以帮助：
 
 -   如果贵组织未部署任何 Office 365 工作负荷，请参阅[开始使用 Office 365 for business](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)。
 
@@ -41,4 +41,4 @@ ms.locfileid: "25013174"
 
 - 如果您的组织是教育机构并使用学生信息系统 (SI)，然后再部署 Microsoft 团队[部署学校数据同步](https://docs.microsoft.com/schooldatasync/)。
 
-                                                                               
+- 如果贵组织拥有现有的内部部署 Skype 业务服务器 （或 Lync Server） 部署，则必须配置 Azure AD 连接将与 Office 365 同步您的本地目录。  有关详细信息，请参阅[个团队和 Skype for Business 配置 Azure AD 连接](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/configure-azure-ad-connect)。

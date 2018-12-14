@@ -9,14 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 用于配置混合环境中的 Azure AD 连接的说明。
-ms.openlocfilehash: 5d27de4786c588d5d2f2a276dc20c25436bada98
-ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
+ms.openlocfilehash: a63f5bde6db1f9d04e2a1fbf03dd4434d1b7c8b3
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27244114"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264923"
 ---
-# <a name="configure-azure-ad-connect-for-skype-for-business-and-teams"></a>配置 Azure AD 连接 Skype 业务和团队 
+# <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>配置 Azure AD 连接个团队和 Skype for Business
  
 具有业务服务器 （或 Lync Server） 的 Skype 本地和用户计划业务 online 中使用团队或 Skype 的组织必须在此所述配置其内部部署目录同步与 Office 365 的 Azure AD 连接文档。  这包括直接从移动 Skype 业务本地到团队的组织。 具体而言，与 Skype 的业务本地组织必须确保正确 msRTCSIP 属性保持同步到 Azure AD。 
 
