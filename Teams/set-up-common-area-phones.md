@@ -1,0 +1,98 @@
+---
+title: 为 Microsoft 团队设置公用区域电话的许可证
+ms.author: lolaj
+author: lolaj
+manager: serdars
+ms.date: 12/13/2018
+ms.reviewer: kponnus
+ms.topic: article
+ms.tgt.pltfrm: cloud
+ms.service:
+- msteams
+search.appverid: MET150
+ms.collection:
+- Teams_ITAdmin_Help
+ms.audience: Admin
+appliesto:
+- Microsoft Teams
+localization_priority: Normal
+f1keywords: None
+ms.custom:
+- Phone System
+description: '了解如何为会议厅、 接待区和会议室设置公用区域电话 '
+ms.openlocfilehash: 44cd9a4faa6c94a60d84fa825149bbf4c6b846fe
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27271154"
+---
+# <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a><span data-ttu-id="a0d40-103">为 Microsoft 团队设置公用区域电话的许可证</span><span class="sxs-lookup"><span data-stu-id="a0d40-103">Set up the Common Area Phone license for Microsoft Teams</span></span>
+
+<span data-ttu-id="a0d40-104">公用区域电话通常放置在会议厅类似的区域或可供很多人发起呼叫; 另一个区域例如，接收区域、 会议厅或会议电话。</span><span class="sxs-lookup"><span data-stu-id="a0d40-104">A common area phone is typically placed in an area like a lobby or another area which is available to many people to make a call; for example, a reception area, lobby, or conference phone.</span></span> <span data-ttu-id="a0d40-105">公用区域电话设置为设备，而不是用户，并可以自动登录到网络。</span><span class="sxs-lookup"><span data-stu-id="a0d40-105">Common area phones are set up as devices rather than users, and can automatically sign into a network.</span></span>
+
+<span data-ttu-id="a0d40-106">下面的步骤中，我们将帮助您设置电话系统，以部署您的组织的公用区域电话帐户。</span><span class="sxs-lookup"><span data-stu-id="a0d40-106">In the steps below, we’ll help you set up an account for Phone System to deploy common area phones for your organization.</span></span> <span data-ttu-id="a0d40-107">更完整的会议室的体验，包括音频会议，请考虑购买与会议的专用的会议室许可证会议室设备。</span><span class="sxs-lookup"><span data-stu-id="a0d40-107">For a more complete meeting room experience, including audio conferencing, consider purchasing the dedicated Meeting Room license with a meeting room device.</span></span> 
+
+<span data-ttu-id="a0d40-108">执行所需的首要任务是公共区域电话 （帽） 许可证的购买并确保您已认证的电话。</span><span class="sxs-lookup"><span data-stu-id="a0d40-108">The first things you need to do are purchase a Common Area Phone (CAP) license and make sure that you have a certified phone.</span></span> <span data-ttu-id="a0d40-109">要搜索并了解有关认证的电话的详细信息，请转到[Microsoft 团队设备](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。</span><span class="sxs-lookup"><span data-stu-id="a0d40-109">To search for and learn more about certified phones, go to [Microsoft Teams devices](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).</span></span> 
+
+## <a name="step-1---buy-the-licenses"></a><span data-ttu-id="a0d40-110">第 1 步 - 购买许可证</span><span class="sxs-lookup"><span data-stu-id="a0d40-110">Step 1 - Buy the licenses</span></span>
+
+1. <span data-ttu-id="a0d40-111">在 Office 365 管理中心，转到**帐单** > **购买服务**，然后展开**其他计划**。</span><span class="sxs-lookup"><span data-stu-id="a0d40-111">In the Office 365 admin center, go to **Billing** > **Purchase services** and then expand **Other plans**.</span></span>
+
+    ![显示 Common Area Phone 图块的屏幕截图](media/set-up-common-area-phone-image1.png)
+
+2. <span data-ttu-id="a0d40-113">选择**公用区域电话** > **立即购买**。</span><span class="sxs-lookup"><span data-stu-id="a0d40-113">Select **Common Area Phone** > **Buy now**.</span></span>
+
+3. <span data-ttu-id="a0d40-114">在**签出**页上单击**立即购买**。</span><span class="sxs-lookup"><span data-stu-id="a0d40-114">On the **Checkout** page click **Buy now**.</span></span>
+
+4. <span data-ttu-id="a0d40-115">展开**加载项订阅**，然后单击要购买调用规划。</span><span class="sxs-lookup"><span data-stu-id="a0d40-115">Expand **Add-on subscriptions** and then click to buy a Calling Plan.</span></span> <span data-ttu-id="a0d40-116">选择**国内调用计划**或**规划国内和国际呼叫**。</span><span class="sxs-lookup"><span data-stu-id="a0d40-116">Choose either the **Domestic Calling Plan** or **Domestic and International Calling Plan**.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="a0d40-117">不需要电话系统许可证。</span><span class="sxs-lookup"><span data-stu-id="a0d40-117">You don't need a Phone System license.</span></span> <span data-ttu-id="a0d40-118">许可证包含在公共区域电话许可证中。</span><span class="sxs-lookup"><span data-stu-id="a0d40-118">It's included with the Common Area Phone license.</span></span>
+
+<span data-ttu-id="a0d40-119">许可证的详细信息，请参阅[业务和 Microsoft 团队授权加载项的 Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。</span><span class="sxs-lookup"><span data-stu-id="a0d40-119">For more information on licenses, see [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).</span></span>
+
+## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a><span data-ttu-id="a0d40-120">第 2 步 - 为手机创建一个新的用户帐户并分配许可证</span><span class="sxs-lookup"><span data-stu-id="a0d40-120">Step 2 - Create a new user account for the phone and assign the licenses</span></span>
+
+1. <span data-ttu-id="a0d40-121">在 Office 365 管理中心，转到**用户** > **活动用户** > **添加用户**。</span><span class="sxs-lookup"><span data-stu-id="a0d40-121">In the Office 365 admin center, go to **users** > **active users** > **add a user**.</span></span>
+
+2. <span data-ttu-id="a0d40-122">输入的用户名称类似"Main"的第一个名称和"接收"第二个名称。</span><span class="sxs-lookup"><span data-stu-id="a0d40-122">Enter a user name like “Main" for the first name and "Reception” for the second name.</span></span>
+
+3. <span data-ttu-id="a0d40-123">输入显示名称，如果不是，则自动生成类似"Main 接收。"</span><span class="sxs-lookup"><span data-stu-id="a0d40-123">Enter a display name if it doesn't autogenerate one like "Main Reception."</span></span>
+
+4. <span data-ttu-id="a0d40-124">输入用户名"MainReception"或"Mainlobby。"</span><span class="sxs-lookup"><span data-stu-id="a0d40-124">Enter a user name like "MainReception" or "Mainlobby."</span></span>
+
+5. <span data-ttu-id="a0d40-125">为公用区域电话，您可能需要手动设置密码或已为所有公用区域电话的同一密码。</span><span class="sxs-lookup"><span data-stu-id="a0d40-125">For common area phones, you might want to set a password manually or have the same password for all your common area phones.</span></span> <span data-ttu-id="a0d40-126">此外，您可能会认为有关清除**使此用户更改其首次登录时其密码**复选框。</span><span class="sxs-lookup"><span data-stu-id="a0d40-126">Also, you might think about clearing the **Make this user change their password when they first sign in** check box.</span></span>
+
+6. <span data-ttu-id="a0d40-127">向用户分配许可证。</span><span class="sxs-lookup"><span data-stu-id="a0d40-127">Assign the licenses to the user.</span></span> <span data-ttu-id="a0d40-128">在同一页面上，点击展开**产品许可证**。</span><span class="sxs-lookup"><span data-stu-id="a0d40-128">On the same page, click to expand **Product licenses**.</span></span> <span data-ttu-id="a0d40-129">打开公用区域电话和选取**国内调用规划**或**国内和国际呼叫计划**。</span><span class="sxs-lookup"><span data-stu-id="a0d40-129">Turn on the Common Area Phone and pick either a **Domestic Calling Plan** or a **Domestic and International Calling Plan**.</span></span> 
+
+    ![屏幕截图显示许可证分配](media/set-up-common-area-phone-image2.png)
+
+<span data-ttu-id="a0d40-131">有关详细信息，请参阅[添加用户](https://docs.microsoft.com/office365/admin/add-users/add-users?redirectSourcePath=%252farticle%252f1970f7d6-03b5-442f-b385-5880b9c256ec&view=o365-worldwide)。</span><span class="sxs-lookup"><span data-stu-id="a0d40-131">For more information, see [Add a user](https://docs.microsoft.com/office365/admin/add-users/add-users?redirectSourcePath=%252farticle%252f1970f7d6-03b5-442f-b385-5880b9c256ec&view=o365-worldwide).</span></span>
+
+## <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a><span data-ttu-id="a0d40-132">第 3 步 - 将电话号码分配给公共区域电话用户帐户</span><span class="sxs-lookup"><span data-stu-id="a0d40-132">Step 3 - Assign a phone number to the Common Area Phone user account</span></span>
+
+<span data-ttu-id="a0d40-133">业务管理中心的 Skype 用于向用户分配一个号码。</span><span class="sxs-lookup"><span data-stu-id="a0d40-133">Use the Skype for Business admin center to assign a number to the user.</span></span>
+
+1. <span data-ttu-id="a0d40-134">在 Microsoft 365 管理中心中，选择**管理中心** > **团队和 Skype** > **旧门户**。</span><span class="sxs-lookup"><span data-stu-id="a0d40-134">In the Microsoft 365 admin center, select **Admin centers** > **Teams & Skype** > **Legacy portal**.</span></span>
+
+2. <span data-ttu-id="a0d40-135">在业务管理中心的 Skype，选择**语音** > **电话号码**。</span><span class="sxs-lookup"><span data-stu-id="a0d40-135">In the Skype for Business admin center, select **Voice** > **Phone numbers**.</span></span>
+
+3.  <span data-ttu-id="a0d40-136">从电话号码列表中选择一个号码，然后点击**分配**。</span><span class="sxs-lookup"><span data-stu-id="a0d40-136">Select a number from the list of phone numbers and click **Assign**.</span></span>
+
+4. <span data-ttu-id="a0d40-137">在**分配**页上，在语音用户框中，键入将在下拉列表中**选择一个语音用户**的电话，然后选择用户使用的用户的名称。</span><span class="sxs-lookup"><span data-stu-id="a0d40-137">On the **Assign** page, in the Voice user box, type the name of the user who will be using the phone, and then select the user in the **Select a voice user** drop-down list.</span></span>
+
+5. <span data-ttu-id="a0d40-138">此时你还需要添加一个紧急联系地址。</span><span class="sxs-lookup"><span data-stu-id="a0d40-138">While you're there you will need to add an emergency address.</span></span> <span data-ttu-id="a0d40-139">从下拉列表中，选择**搜索条件市/县**、**按说明搜索**或**按位置的搜索**，然后在文本框中输入市/县、 说明或位置。</span><span class="sxs-lookup"><span data-stu-id="a0d40-139">Choose **Search by city**, **Search by description**, or **Search by location** from the drop-down list, and then enter the city, description, or location in the text box.</span></span> <span data-ttu-id="a0d40-140">一旦您搜索，查找下**选择紧急地址**选取适合您。</span><span class="sxs-lookup"><span data-stu-id="a0d40-140">Once you search, look under **Select emergency address** to pick the right one for you.</span></span>
+
+6. <span data-ttu-id="a0d40-141">点击**保存**，你的用户将显示如下：</span><span class="sxs-lookup"><span data-stu-id="a0d40-141">Click **Save** and your user should look like this:</span></span>
+
+   ![屏幕截图显示许可证分配](media/set-up-common-area-phone-image3.png)
+
+> [!NOTE]
+> <span data-ttu-id="a0d40-143">用户将仅显示它们是否能应用的电话系统许可证。</span><span class="sxs-lookup"><span data-stu-id="a0d40-143">Users will only show up if they have a Phone System license applied.</span></span> <span data-ttu-id="a0d40-144">如果你刚执行了该操作，用户可能需要经过一段时间才能在列表中显示。</span><span class="sxs-lookup"><span data-stu-id="a0d40-144">If you just did this, then sometimes it takes a bit for the user to show up in the list.</span></span>
+
+<span data-ttu-id="a0d40-145">有关详细信息，请参阅[为用户获取电话号码](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)。</span><span class="sxs-lookup"><span data-stu-id="a0d40-145">For more information, see [Getting phone numbers for your users](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).</span></span>
+
+<span data-ttu-id="a0d40-146">您还可使您的电话号码与另一个运营商和"端口"或转移到 Office 365。</span><span class="sxs-lookup"><span data-stu-id="a0d40-146">You can also take your phone number that you have with another carrier and "port" or transfer it over to Office 365.</span></span> <span data-ttu-id="a0d40-147">请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。</span><span class="sxs-lookup"><span data-stu-id="a0d40-147">See [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).</span></span>
+
+
