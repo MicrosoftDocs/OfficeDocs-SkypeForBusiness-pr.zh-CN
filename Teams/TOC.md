@@ -500,6 +500,7 @@
 #### [设置电话系统语音邮件](set-up-phone-system-voicemail.md)
 #### [什么是电话系统自动助理？](what-are-phone-system-auto-attendants.md)
 #### [应答自动助理并直接从团队呼叫队列呼叫](answer-auto-attendant-and-call-queue-calls.md)
+#### [设置 Microsoft 团队中的公用区域电话](set-up-common-area-phones.md)
 ### 电话系统直接路由
 #### [规划直接路由](direct-routing-plan.md)
 #### [配置直接路由](direct-routing-configure.md)

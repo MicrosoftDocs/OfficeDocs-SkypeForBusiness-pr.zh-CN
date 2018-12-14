@@ -13,16 +13,16 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33791cc16a7d2a45e16a41e4dfefe0efff8534b1
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 4c21eb588b899c6a0b4acd4e25eb79d54750e956
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699659"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264907"
 ---
 # <a name="adopt-microsoft-teams"></a>采用 Microsoft Teams
 
-如果您是小型企业，或如果您想要推出团队开头聊天、 团队和通道和会议，使用我们的说明性快速入门指南，旨在获取您安装和运行速度快。 如果您具有混合的大型组织或本地 Skype 业务配置，或如果您想要推出语音功能 （例如 Office 365 中调用计划或电话系统)，您可以开始与我们快速入门指南，但您需要其他下**更深入地介绍采用指南**下面的指南。
+如果您是小型企业，或如果您想要推出团队开头聊天，团队和通道和会议，使用我们说明性[获取启动指南](get-started-with-teams-landing-page.md)，旨在帮助您快速启动并正在运行。 如果您具有混合的大型组织或本地 Skype 业务配置，或如果您想要推出语音功能 （例如 Office 365 计划或电话系统调用)，您可以开始与我们入门指南，但您需要其他下**更深入地介绍采用指南**下面的指南。
 
 <ul class="panelContent cardsFTitle">
     <li>
