@@ -1,5 +1,5 @@
 ---
-title: 管理 Microsoft 团队中的会议设置
+title: 在 Microsoft Teams 中管理会议设置
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,14 +15,14 @@ search.appverid: MET150
 f1keywords: ms.teamsadmincenter.meetingsettings.overview
 MS.collection: Teams_ITAdmin_Help
 description: 了解如何管理的用户安排在组织中的团队会议设置。
-ms.openlocfilehash: bf7350d94f61fcbaff60dacb161d5096b8f549e7
-ms.sourcegitcommit: 72afa227b917f9fabd278fc7bea9d515b5d53def
+ms.openlocfilehash: 1e3415b1fd17a863e14a79fcc66b32e6749b39e7
+ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26671013"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "27283546"
 ---
-# <a name="manage-meeting-settings-in-microsoft-teams"></a>管理 Microsoft 团队中的会议设置
+# <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
 作为一名管理员，您使用团队会议设置来控制是否匿名用户可以加入团队会议和自定义会议邀请，如果您想要启用服务质量 (QoS) 设置的实时通信的端口。 这些设置应用于所有团队会议在组织中的用户日程安排。 **会议**管理这些设置 > 中的 Microsoft 团队业务管理中心的 Skype**会议设置**。 
 
@@ -62,7 +62,7 @@ ms.locfileid: "26671013"
     - **页脚**输入要作为页脚包含的文本。 
 3. 等待一小时或，更改将传播。 然后安排团队会议以查看会议邀请如下所示。  
 
-## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings-coming-soon"></a>设置您希望如何处理实时的媒体流量团队会议 （即将推出） 
+## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>设置您希望如何处理团队会议的实时的媒体流量
 如果您使用的服务质量 (QoS) 若要设置网络流量，可以启用 QoS 标记，并且您可以设置每种类型的媒体流量的端口范围。 
 
  ![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队 Skype 业务管理中心的
