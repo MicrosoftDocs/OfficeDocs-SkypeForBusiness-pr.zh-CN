@@ -501,6 +501,9 @@
 #### [什么是电话系统自动助理？](what-are-phone-system-auto-attendants.md)
 #### [应答自动助理并直接从团队呼叫队列呼叫](answer-auto-attendant-and-call-queue-calls.md)
 #### [设置 Microsoft 团队中的公用区域电话](set-up-common-area-phones.md)
+#### [呼叫寄存和取回](call-park-and-retrieve.md)
+#### [共享和分组呼叫应答呼叫](call-sharing-and-group-call-pickup.md)
+#### [共享的行外观](shared-line-appearance.md)
 ### 电话系统直接路由
 #### [规划直接路由](direct-routing-plan.md)
 #### [配置直接路由](direct-routing-configure.md)
