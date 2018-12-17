@@ -3,7 +3,7 @@ title: 呼叫驻留和检索中的 Microsoft 团队
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/13/2018
+ms.date: 12/17/2018
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 使用呼叫寄存和取回呼叫置于保持状态，云中团队服务中。
-ms.openlocfilehash: 02ec2b3af52cac65f82f5f0f0fc2b4b54ae61369
-ms.sourcegitcommit: 5f7e078125f810a9e9a89052854ef63916afe7d3
+ms.openlocfilehash: 004a5b12e178a6460ef05f7c6f5c5738c8ced042
+ms.sourcegitcommit: 0e671e6e6fdd25227068c7e3a3a5509b6536d2b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27283156"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "27294185"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>呼叫驻留和检索中的 Microsoft 团队
 
@@ -65,6 +65,11 @@ ms.locfileid: "27283156"
 使用[新建 CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) PowerShell cmdlet 创建呼叫寄存策略。
 
 使用[授予 CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps) PowerShell cmdlet 授予的呼叫寄存策略。
+
+您可以使用[集 CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps) ，如下所示更改默认设置：
+
+`Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true`
+
 
 ## <a name="troubleshooting"></a>故障排除
 
