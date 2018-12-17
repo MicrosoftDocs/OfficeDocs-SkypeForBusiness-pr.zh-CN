@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的德国电话号码的信息。
-ms.openlocfilehash: 56ad2fabe59f02cf29601363d60f7477cd7b4643
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9bebb35762985245aa90f4feeed707ca38ca1464
+ms.sourcegitcommit: 08ab8b02c717be65d79a945301518c3528184609
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013222"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "27292930"
 ---
 # <a name="phone-number-management-for-germany"></a>德国的电话号码管理
 
@@ -39,8 +39,8 @@ ms.locfileid: "25013222"
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取业务管理中心 Skype 中未列出的新用户电话号码。  <br/> | 在德国，你无法使用 Skype for Business 管理中心为你的组织获取电话号码。 你必须提交新的电话号码申请。 首先，下载此表单 <br/> [德国的新电话号码申请（地理号码）(v.3.0)(de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de-de).pdf?raw=true)。 <br/>  然后填写此表单并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
-|获取业务管理中心 Skype 中未列出的新服务电话号码。 <br/> |下载此窗体[德国 （服务号码） 的新电话号码请求 (v.1.2) (de de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/new-phone-number-request-for-germany-(service-numbers)-(v.1.2)-(de-de).pdf?raw=true)。<br/> 填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。
+|获取业务管理中心 Skype 中未列出的新用户电话号码。  <br/> | 在德国，你无法使用 Skype for Business 管理中心为你的组织获取电话号码。 你必须提交新的电话号码申请。 首先，下载此窗体。 <br/> [德国的新电话号码申请（地理号码）(v.3.0)(de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de-de).pdf?raw=true) <br/> [德国 （地理号码） 的新电话号码请求 (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.4.0)-(en-us).pdf?raw=true) </br>然后填充出并[将其向我们发送](mailto:ptneu@microsoft.com)  <br/> |
+|获取业务管理中心 Skype 中未列出的新服务电话号码。 <br/> |下载此窗体[德国 （服务号码） 的新电话号码请求 (v.1.2) (de de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/new-phone-number-request-for-germany-(service-numbers)-(v.1.2)-(de-de).pdf?raw=true)<br/> [德国 （服务号码） 的新电话号码请求 (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.4.0)-(en-us).pdf?raw=true) </br> 填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。
 |你需要将电话号码转移给我们。  <br/> | 下载以下形式之一。 <br/> 用户号码： <br/> [德国授权书 (LOA)（地理号码）(v.1.0)(de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de-de).pdf?raw=true) <br/><br/> 免费电话号码： <br/> [信函的授权 (LOA) 德国 （免费电话号码） (v.2.0) (de de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.2.0)-(de-de).pdf?raw=true) <br/><br/> 填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
 |你需要在国家电话目录中发布/取消发布电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
 |你需要将用户的号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要转换为服务号码的用户号码列表。 <br/> |

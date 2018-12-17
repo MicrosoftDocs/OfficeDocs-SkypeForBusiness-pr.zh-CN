@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的荷兰电话号码的信息。
-ms.openlocfilehash: 2703c7bfc51ca19c472362d440dbd394629efe83
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: e2da86ca6cd933d8473fc940121c6dfb2a4f734e
+ms.sourcegitcommit: 08ab8b02c717be65d79a945301518c3528184609
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012518"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "27292898"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>荷兰的电话号码管理
 
@@ -39,8 +39,8 @@ ms.locfileid: "25012518"
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取业务管理中心 Skype 中未列出的新用户电话号码。   <br/> | 下载[荷兰的新电话号码申请（地理号码）(v.3.0)(nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(geographic-numbers)-(v.3.0)-(nl-nl).pdf?raw=true) <br/>  <br/>  填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
-|获取业务管理中心 Skype 中未列出的新服务电话号码。 <br/> |下载此窗体[荷兰 （服务号码） 的新电话号码请求 (v.1.2) (nl nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/New-phone-number-request-for-the-netherlands-(service-numbers)-(v.1.2)-(nl-nl).pdf?raw=true)。<br/> 填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。
+|获取业务管理中心 Skype 中未列出的新用户电话号码。   <br/> | 下载此窗体。</br> [荷兰的新电话号码申请（地理号码）(v.3.0)(nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(geographic-numbers)-(v.3.0)-(nl-nl).pdf?raw=true) <br/> [新电话号码请求 （地理号码） 荷兰 (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-netherlands-(v.4.0)-(en-us).pdf?raw=true)  <br/>  填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
+|获取业务管理中心 Skype 中未列出的新服务电话号码。 <br/> |下载此窗体。</br> [荷兰 （服务号码） 的新电话号码请求 (v.1.2) (nl nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/New-phone-number-request-for-the-netherlands-(service-numbers)-(v.1.2)-(nl-nl).pdf?raw=true)<br/>[荷兰 （服务号码） 的新电话号码请求 (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-netherlands-(v.4.0)-(en-us).pdf?raw=true) </br> 填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。
 |你需要将电话号码转移给我们。  <br/> |下载下列表单之一： <br/> [荷兰授权书 (LOA)（地理号码）(v.2.0)(nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl-nl).pdf?raw=true) <br/> [荷兰授权书 (LOA)（非地理号码）(v.2.0)(nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(non-geographic-numbers)-(v.2.0)-(nl-nl).pdf?raw=true) <br/> <br/>  填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
 |你需要在国家电话目录中发布/取消发布电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
 |你需要将用户的号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要转换为服务号码的用户号码列表。 <br/> |
