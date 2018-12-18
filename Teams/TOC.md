@@ -96,7 +96,7 @@
 
 
 <!-- ============================================================ -->
-# [从 for Business 的 Skype 升级到团队](Journey-SkypeforBusiness-Teams.md)
+# [从 Skype for Business 升级到 Teams](Journey-SkypeforBusiness-Teams.md)
 ## [教程：从 Skype for Business 到 Teams 的旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [升级基本信息](upgrade-basic.md)
 ### [示例电子邮件和调查](upgrade-emails-surveys.md)
@@ -512,6 +512,8 @@
 #### [采用 PSTN 连接的混合环境中的用户帐户](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [为多个租户配置会话边界控制器](direct-routing-sbc-multiple-tenants.md)
 #### [经认证可用于直接路由的会话边界控制器列表](direct-routing-border-controllers.md)
+#### 直接路由的技术参考
+##### [出站呼叫的中继故障转移](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Online 的 Microsoft 团队呼叫流](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
