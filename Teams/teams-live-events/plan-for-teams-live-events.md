@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 了解如何设置中的 Microsoft 团队的实时事件之前应考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 590246808849b2cf25bdc0fb114352977973410f
-ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
+ms.openlocfilehash: e0c71258ee0285c4c00f69e63be1f2efbfc5e4ab
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "27156130"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297814"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "27156130"
 以下必备组件所需的用户安排的团队 live 事件。
 
 下面是必须分配的许可证：  
-- Office 365 企业版 E1、 E3 或 E5 许可证或 Office 365 A3 或 A5 许可证。 
+- Office 365 企业版 E3 或 E5 许可证或 Office 365 A3 或 A5 许可证。 
 - Microsoft 工作组和 Skype for Business，以及 Microsoft 流许可证。
 
 务必要了解 Office 365 许可证需要参与作为经过身份验证的用户的实时事件，但这取决于所使用的生产方法：

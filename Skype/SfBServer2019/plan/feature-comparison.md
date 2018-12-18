@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要： 业务服务器 2019年的 Skype 或 Skype 的业务 Online 管理员可以使用这些表了解上的客户端支持哪些功能。
-ms.openlocfilehash: c7933e37582314db431c14c99a188d4b962cadf7
-ms.sourcegitcommit: f69b5dbdbd61f77ffc0494886516effe35a0c338
+ms.openlocfilehash: dfc9e568ae9d600e03e1473aff7bcf6571b68f38
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "27282592"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297690"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>业务服务器 2019年的 Skype 的的桌面客户端功能比较
 
@@ -135,7 +135,7 @@ ms.locfileid: "27282592"
 |禁用会议 IM |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
 |将受众设为静音 |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |将每个人都设为与会者 |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
-|开通 Skype 会议直播 |& #x 2714;|||||
+|开通 Skype 会议直播 |& #x 2714;& #x 2779;|||& #x 2714;& #x 2780;||
 |代理人可以代表委托人安排会议 |& #x 2714;|& #x 2714;|& #x 2714;|||
 |在 Skype for Business 与 Outlook 之间同步代理人 |& #x 2714;||& #x 2714;||| 
 |设置视频聚焦（锁定视频） |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;| 
@@ -146,6 +146,10 @@ ms.locfileid: "27282592"
  & #x 2777; 对于业务 online Skype，此功能需要 Microsoft PSTN 会议、 Exchange 统一消息，或第三方音频会议提供商。
 
  & #x 2778; Lync for Mac 2011 客户端无法查看 Microsoft Office 2013 PowerPoint 演示文稿，当他们具有已共享在会议中的 Skype 的企业 Web 应用程序。
+
+& #x 2779; 为业务 2016年应用程序的 Skype，您必须使用单击以运行，生成 16.0.4227 或更高版本。
+
+& #x 2780; 对于业务 2015年应用程序的 Skype，您必须具有构建 15.0.4747 年 9 月更新或更高版本。
 
 ## <a name="voice-telephony-support"></a>语音（电话）支持
 <a name="BKMK_Telephony"> </a>

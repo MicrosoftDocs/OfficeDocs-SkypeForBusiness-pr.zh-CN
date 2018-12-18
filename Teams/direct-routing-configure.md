@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 了解如何配置 Microsoft 电话系统直接路由。
-ms.openlocfilehash: b56816d57b628c92e4c7f412b306ca1161021a66
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: cf856989cd4f87f4b46e1eb36cbeb403bf92b029
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240930"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297908"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -82,8 +82,8 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > [!NOTE]
   > 1. 我们强烈建议 SBC，设置限制使用可以找到 SBC 文档中的信息。 如果 SBC 处于容量级别限制将触发通知。
   > 2. 您可以仅配对的 FQDN，其中名称的域部分匹配一个除在您的租户中注册的域与 SBC \*。 onmicrosoft.com。 使用\*。 omicrosoft.com 域名不支持的 SBC FQDN 名称。 例如，如果您有两个域名：<br/><br/>
-  > **abc**.xyz<br/>**abc**。 onmicrosoft.com<br/><br/>
-  > SBC 名称，您可以使用名称 sbc.abc.xyz。 如果您尝试配对名称 sbc.xyz.abc 与 SBC，系统将不允许您，如此租户不属于域。
+  > **contoso**.com<br/>**contoso**。 onmicrosoft.com<br/><br/>
+  > SBC 名称，您可以使用名称 sbc.contoso.com。 如果您尝试配对名称 sbc.contoso.abc 与 SBC，系统将不允许您，如此租户不属于域。
 
 ```
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
@@ -310,7 +310,7 @@ Get-CSOnlinePSTNUsage
 若要创建"Redmond 1"路由，请输入：
 
   ```
-  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^+1(425|206)
+  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
   (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
   ```
 
@@ -336,7 +336,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 若要创建的其他 + 1 路由，请输入：
 
 ```
-New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\\+1(\d{10})$"
+New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
 
@@ -377,7 +377,7 @@ Name            : Redmond 2
 Identity        : Other +1 
 Priority            : 4
 Description     : 
-NumberPattern       : ^\\+1(\d{10})$
+NumberPattern       : ^\+1(\d{10})$
 OnlinePstnUsages    : {US and Canada}    
 OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
@@ -444,9 +444,9 @@ John Woods – 允许任意数量的呼叫。 当调用雷德蒙德号码范围�
 
 |**PSTN 用法**|**语音路由**|**号码模式**|**优先级**|**SBC**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|仅限美国|"Redmond 1"|^ + 1 (425\|206)(\d{7})$|1|sbc1<span></span>。 contoso.biz<br/>sbc2<span></span>。 contoso.biz|被叫方号码 +1 425 XXX XX XX 或 +1 206 XXX XX XX 活动路由|
-|仅限美国|"Redmond 2"|^ + 1 (425\|206)(\d{7})$|2|sbc3<span></span>。 contoso.biz<br/>sbc4<span></span>。 contoso.biz|被叫方号码 +1 425 XXX XX XX 或 +1 206 XXX XX XX 备份路由|
-|仅限美国|"其他 + 1"|^ + 1 (\d{10}) $|3|sbc5<span></span>。 contoso.biz<br/>sbc6<span></span>。 contoso.biz|被叫方路由号码 + 1 XXX XXX XX XX （除 +1 425 XXX XX XX 或 +1 206 XXX XX XX）|
+|仅限美国|"Redmond 1"|^\\+ 1 (425\|206)(\d{7})$|1|sbc1<span></span>。 contoso.biz<br/>sbc2<span></span>。 contoso.biz|被叫方号码 +1 425 XXX XX XX 或 +1 206 XXX XX XX 活动路由|
+|仅限美国|"Redmond 2"|^\\+ 1 (425\|206)(\d{7})$|2|sbc3<span></span>。 contoso.biz<br/>sbc4<span></span>。 contoso.biz|被叫方号码 +1 425 XXX XX XX 或 +1 206 XXX XX XX 备份路由|
+|仅限美国|"其他 + 1"|^\\+ 1 (\d{10}) $|3|sbc5<span></span>。 contoso.biz<br/>sbc6<span></span>。 contoso.biz|被叫方路由号码 + 1 XXX XXX XX XX （除 +1 425 XXX XX XX 或 +1 206 XXX XX XX）|
 |International|International|\d+|4|sbc2<span></span>。 contoso.biz<br/>sbc5<span></span>。 contoso.biz|任何号码模式的路由 |
 
 

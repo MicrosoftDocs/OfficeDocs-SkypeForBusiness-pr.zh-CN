@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 摘要： 阅读本主题可了解如何为业务服务器部署 for Skype 的统计信息管理器。
-ms.openlocfilehash: 2813b12dfda612374f1e10d4082d54ce46d88216
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: ef2dd51306dc2806161fc0c0d4b11087a2f466ea
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699421"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297697"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>为业务 Server 部署的 Skype 的统计信息管理器
  
@@ -302,8 +302,4 @@ Microsoft 强烈建议你使用受信任的证书颁发机构签发的证书。 
     
 - [为业务服务器升级的 Skype 的统计信息管理器](upgrade.md)
     
-- [解决的 Skype 的统计信息管理器的企业服务器](troubleshoot.md)
-    
-- [Skype for Business Server 统计信息管理器博客](https://blogs.technet.microsoft.com/skypestatsman/)
-    
-
+- [解决的业务服务器 Skype 的统计信息管理器](troubleshoot.md)ß

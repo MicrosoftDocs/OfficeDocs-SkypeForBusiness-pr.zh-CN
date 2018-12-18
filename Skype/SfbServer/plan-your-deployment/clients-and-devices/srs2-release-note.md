@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文讨论中 Skype 会议室系统 v2 累积改进。
-ms.openlocfilehash: d37cf7561f2728dafa850aaa38d6e322fda7cfb9
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: cdc180c0caa8cfe581d02a206d9b13e255214bfd
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182478"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297886"
 ---
 # <a name="release-notes"></a>发行说明 
 
@@ -26,6 +26,7 @@ ms.locfileid: "27182478"
 
 | 发行版 | 发布到 <br>Microsoft 存储 | 
 | ---     | ---  |
+| 4.0.64.0 | 12/14/2018   |
 | 4.0.51.0 | 11/17/2018   | 
 | 4.0.31.0 | 10/16/2018   | 
 | 4.0.27.0 |  10/1/2018    | 
@@ -49,6 +50,11 @@ ms.locfileid: "27182478"
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype 会议室系统 v2 功能简介和解决问题
+
+### <a name="40640-12142018"></a>4.0.64.0 (14/12/2018)
+此更新中引入了：
+- 在这两个前端的空间 （） 双屏幕会议室系统上显示上显示内容
+- 主题和前端的聊天室的用户界面改进
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
 此更新中引入了：

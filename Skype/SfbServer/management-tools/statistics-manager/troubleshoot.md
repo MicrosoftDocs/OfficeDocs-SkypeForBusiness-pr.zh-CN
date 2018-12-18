@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 摘要： 阅读本主题解决 Skype 您部署的统计信息管理器中的业务服务器。
-ms.openlocfilehash: 3a0bb2530e0b19685f28a747660e59b1fceec4e8
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 236b109f28de838d626e9c85844b87dc9e9eb20b
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533404"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297916"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>解决的 Skype 的统计信息管理器的企业服务器
  
@@ -177,7 +177,3 @@ ms.locfileid: "26533404"
 - [为业务 Server 部署的 Skype 的统计信息管理器](deploy.md)
     
 - [为业务服务器升级的 Skype 的统计信息管理器](upgrade.md)
-    
-- [Skype for Business Server 统计信息管理器博客](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
-    
-

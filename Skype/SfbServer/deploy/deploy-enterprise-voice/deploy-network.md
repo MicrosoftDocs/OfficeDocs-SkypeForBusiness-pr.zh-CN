@@ -13,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 创建或修改网络区域、 网络站点，并将 Skype 中的网络子网关联的业务服务器。 所有这些用于高级企业语音功能： 媒体绕过、 呼叫允许控制和基于位置的路由。
-ms.openlocfilehash: c0f8f63c6141e2cb163abad66665eee2d83c181f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fe6edf779d00b96918d8bf92ac7e749b9c003f15
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883906"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297647"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>部署网络区域、 站点和 Skype for Business 中的子网
 
 创建或修改网络区域、 网络站点，并将 Skype 中的网络子网关联的业务服务器。 所有这些用于高级企业语音功能： 媒体绕过、 呼叫允许控制和基于位置的路由。
 
-高级企业语音功能是[call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)、[media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)、[ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)和 [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)。 这些功能全都需要您创建网络区域、网络站点和子网。 例如，所有这些功能都要求拓扑中的每个子网与特定网络站点关联，每个网络站点必须与网络区域关联。 将这些术语的详细信息，请参阅[Skype 业务服务器中的高级企业语音功能的网络设置](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
+高级企业语音功能是[call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)、[media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)、[ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)和 [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)。 这些功能全都需要您创建网络区域、网络站点和子网。 例如，所有这些功能都要求拓扑中的每个子网与特定网络站点关联，每个网络站点必须与网络区域关联。 有关这些项目的更多信息，请参阅[Network settings for the advanced Enterprise Voice features in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
 
 呼叫允许控制和 E9-1-1 对网络站点具有其他配置要求：
 
@@ -40,7 +40,7 @@ ms.locfileid: "23883906"
 
 ### <a name="to-create-a-network-region-using-skype-for-business-server-management-shell"></a>创建网络区域的业务 Server 命令行管理程序中使用 Skype
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
 2. 运行 New-CsNetworkRegion cmdlet 创建网络区域：
 
@@ -80,7 +80,7 @@ ms.locfileid: "23883906"
 
 ### <a name="to-modify-a-network-region-using-skype-for-business-server-management-shell"></a>修改网络区域的业务 Server 命令行管理程序中使用 Skype
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
 2. 运行 Set-CsNetworkRegion cmdlet 修改现有网络区域：
 
@@ -122,7 +122,7 @@ ms.locfileid: "23883906"
 
 ### <a name="to-create-a-network-site-by-using-skype-for-business-server-management-shell"></a>若要使用 Skype 业务 Server 命令行管理程序创建网络站点
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
 2. 运行 New-CsNetworkSite cmdlet 创建网络站点：
 
@@ -175,7 +175,7 @@ ms.locfileid: "23883906"
 
 ### <a name="to-modify-a-network-site-by-using-skype-for-business-server-management-shell"></a>若要使用 Skype 业务 Server 命令行管理程序修改网络站点
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
 2. 运行 Set-CsNetworkSite cmdlet 修改网络站点：
 
@@ -223,7 +223,7 @@ ms.locfileid: "23883906"
 
 ### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>若要将子网与网络站点相关联的业务 Server 命令行管理程序中使用 Skype
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
 2. 运行**New-csnetworksubnet** cmdlet 将子网与网络站点相关联：
 
@@ -255,12 +255,12 @@ ms.locfileid: "23883906"
 
      `172.11.15.0, 31, "EMEA:Subnet in Paris", Paris`
 
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
 3. 运行以下 cmdlet 导入**subnet.csv**，然后将其内容存储在 Lync Server 管理存储中：
 
    ```
-   import-csv subnet.csv | foreach {New-CsNetworkSubnet $_IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
+   import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
    ```
 
 ### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-control-panel"></a>将子网与网络站点相关联使用 Skype 业务 Server Control Panel
@@ -280,7 +280,7 @@ ms.locfileid: "23883906"
 7. 单击“网络站点 ID”****，然后选择要向其中添加此子网的站点的站点 ID。
 
     > [!NOTE]
-    > 如果尚未创建网络站点，该列表将为空。 有关此过程的详细信息，请参阅[创建或修改网络站点](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx)。 您还可以通过运行**Get-csnetworksite** cmdlet 为您的部署检索站点 Id。 有关详细信息，请参阅 Business Server Management Shell 文档 Skype。
+    > 如果尚未创建网络站点，该列表将为空。 有关过程的详细信息，请参阅 [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx)。 您还可以通过运行**Get-csnetworksite** cmdlet 为您的部署检索站点 Id。 有关详细信息，请参阅 Business Server Management Shell 文档 Skype。
 
 8. （可选）单击“说明”****，然后键入其他信息来说明此子网。
 
@@ -314,19 +314,19 @@ ms.locfileid: "23883906"
 <a name="BKMK_AssociateSubnets"> </a>
 
 
-[新 CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
+[New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
 
-[Get-csnetworkregion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
+[Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
 
-[Set-csnetworkregion](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregion?view=skype-ps)
+[Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregion?view=skype-ps)
 
-[删除 CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregion?view=skype-ps)
+[Remove-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregion?view=skype-ps)
 
-[新 CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps)
+[New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps)
 
-[Get-csnetworksubnet](https://docs.microsoft.com/powershell/module/skype/get-csnetworksubnet?view=skype-ps)
+[Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/get-csnetworksubnet?view=skype-ps)
 
-[设置 CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
+[Set-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
 
-[删除 CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
+[Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
 

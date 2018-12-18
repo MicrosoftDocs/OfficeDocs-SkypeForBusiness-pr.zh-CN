@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 阅读本主题可了解如何 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。
-ms.openlocfilehash: f5634a65d6648d34671c372bc20c2145abdbfc96
-ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
+ms.openlocfilehash: dbc3de5c6eb7a9f45be1165614cd14fcb2d6d8c9
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27131307"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297878"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -147,7 +147,8 @@ Microsoft 强烈建议您申请证书的 SBC 通过生成证书签名请求 (CSR
 - Class 3 主要公用证书颁发机构
 - Comodo 安全根 CA
 - 德国 Telekom 
-- DigiCert 全局根 CA 
+- DigiCert 全局根 CA
+- DigiCert 高保证 EV 根 CA
 - 委托
 - GlobalSign
 - 转 Daddy

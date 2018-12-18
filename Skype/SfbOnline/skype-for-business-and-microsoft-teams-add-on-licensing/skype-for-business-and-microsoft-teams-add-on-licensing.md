@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关加载项许可证，哪些功能您将使用其、 如何购买的产品，以及如何与他们使用您现有的运营商。 您可以获取 Office 365，通信字幕式定价和计划的详细信息和呼叫计划。 '
-ms.openlocfilehash: 778f2b829c09442f105576a2407c51e1d9799ae2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 17115e5456ee874cbdb4ed96c8616d6f1d3527b7
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883992"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297672"
 ---
 # <a name="skype-for-business-and-microsoft-teams-add-on-licensing"></a>Skype for Business 和 Microsoft Teams 外接程序许可
 
@@ -59,7 +59,7 @@ ms.locfileid: "23883992"
 |**功能** <br/> |**说明** <br/> |
 |**音频会议** <br/> |有时您的组织中的人员将需要使用电话呼入到企业或 Microsoft 团队会议，而不是使用其计算机 Skype。 这种情况下使用的音频会议功能。  <br/> 要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 <br/> 如果要查找它的价格，请参阅 [音频会议的要求](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements)。  <br/> |
 |**用于拨入会议的免费电话号码，以及通过呼叫世界各地的任何电话号码从会议拨出以添加其他人的功能** <br/> |如果要添加音频会议，我们建议你 [设置通信点数](/microsoftteams/set-up-communications-credits-for-your-organization)。 <br/> |
-|**电话系统** <br/> |PBX 是一个企业电话系统。 Office 365 中的电话系统是 Office 365 中的一个托管的电话服务。 它为你提供了传统和创新的 PBX 功能，但不带复杂和昂贵的设备。 [下面是与 Office 365 中的电话系统获取的内容](/MicrosoftTeams/here-s-what-you-get-with-phone-system)。  <br/> 如果要查找它的价格，请参阅 [电话系统的要求](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements)。  <br/> |
+|**电话系统** <br/> |PBX 是一个企业电话系统。 Office 365 中的电话系统是一个托管的电话服务。 它为你提供了传统和创新的 PBX 功能，但不带复杂和昂贵的设备。 [下面是与 Office 365 中的电话系统获取的内容](/MicrosoftTeams/here-s-what-you-get-with-phone-system)。  <br/> 如果要查找它的价格，请参阅 [电话系统的要求](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements)。  <br/> |
 |**通话套餐** <br/> |适用于业务用户的其他 Skype 调用是免费的但如果您希望用户能够调用您的业务之外的任何电话号码得到[调用规划](/MicrosoftTeams/calling-plans-for-office-365)。 在 Office 365 中有国内通话套餐和国内和国际通话套餐。  <br/> 如果要查找它的的价格，请参阅 [通话套餐的要求](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)。  <br/> |
 |**Skype 会议室系统第 2 版** <br/> |这不是加载项，而是一项可将视频、音频和内容共享带入会议室的功能。 请参阅[Skype 会议室系统 v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)。  <br/> |
 

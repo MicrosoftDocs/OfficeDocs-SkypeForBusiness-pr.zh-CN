@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 摘要： 阅读本主题可了解如何针对 Business Server 升级的 Skype 的统计信息管理器。
-ms.openlocfilehash: f783534c52b59b5910dbd975c4e29642e18b67b7
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e2118377fc782af6818d070bc0bd3f5ddacab99e
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531474"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297893"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>为业务服务器升级的 Skype 的统计信息管理器
  
@@ -111,7 +111,3 @@ ms.locfileid: "26531474"
 - [为业务 Server 部署的 Skype 的统计信息管理器](deploy.md)
     
 - [解决的 Skype 的统计信息管理器的企业服务器](troubleshoot.md)
-    
-- [Skype for Business Server 统计信息管理器博客](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
-    
-
