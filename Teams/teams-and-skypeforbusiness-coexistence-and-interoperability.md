@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2296d7eb423d1d268742be184e7e724e69dc0965
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: c70519fc328b74a6269d4ed767d9223b8deca83d
+ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201474"
+ms.lasthandoff: 12/19/2018
+ms.locfileid: "27371176"
 ---
 ![升级旅程，重点强调项目定义阶段的阶段](media/upgrade-banner-project-definition.png "升级旅程，重点强调项目定义阶段的阶段")
 
@@ -51,7 +51,7 @@ ms.locfileid: "27201474"
 在此共存模式，调用**群岛**，每个客户端应用程序运行作为单独岛。 业务交谈 for Business 和团队的 Skype 的 Skype 交谈团队。 用户运行这两个客户端，从中启动通信客户端中本机通信。 因此，没有需要在**群岛**模式下的互操作性。
 
 > [!Tip]
-> Skype 业务联机客户推荐路径是开头的默认**群岛**模式、 驱动器组织中采用饱和度，然后快速移到**团队仅**模式。 在部署和混合客户将受益于准备采用组织时为起始点而不是群岛，并从该处到**团队仅**模式的进度部署的即将开始的**Skype for Business 使用团队协作**模式团队。 
+> Skype 业务联机客户推荐路径是开头的默认**群岛**模式、 驱动器组织中采用饱和度，然后快速移到**团队仅**模式。 在部署和混合客户可从组织准备采用时为起始点而不是群岛，并从该处到**团队仅**模式的进度部署即将开始的**Skype for Business 使用团队协作**模式团队。 
 
 ### <a name="skype-for-business-only"></a>Skype for Business 仅
 

@@ -11,12 +11,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: 为管理员提供的身份验证方法的更多控制此文章轮廓 cmdlet 使用的企业内部和外部、。 管理员可以打开身份验证方法或关闭到他们的网络的内部或外部。
-ms.openlocfilehash: 57b51a897f476d5c4b4b17ccda8ffe074f8a26cd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8350e1b6f3bae27c3b8355b0dee3b737bccaf655
+ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531100"
+ms.lasthandoff: 12/19/2018
+ms.locfileid: "27371184"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>关闭旧身份验证方法内部和外部到您的网络规划。
 
@@ -86,15 +86,15 @@ __类型 5 说明：__ 现代 ADAL 客户端将使用 MA 的*外部*，并且不
 > [!IMPORTANT]
 > 如果您使用的 Lync Web Access (LWA)，必须使用基于表单的访问 (FBA) 的外部访问，重新配置 LWA，以便客户端可以访问它来支持这些方案的匿名访问。 同样，如果您使用的拨入 Pin，将为外部用户仅阻止 FBA。 如果所需更改其 pin，他们将需要登录到其公司为此，请内部。
 
-## <a name="links"></a>链接 ##
+## <a name="links"></a>链接 
 - 有关详细的 PowerShell 信息：
-    - Get CsAuthConfig[https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Get-CsAuthConfig.md](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Get-CsAuthConfig.md)
-    - 设置 CsAuthConfig[https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsAuthConfig.md](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsAuthConfig.md)
+    -  [Get CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/get-csauthconfig?view=skype-ps)
+    -  [设置 CsAuthConfig](https://docs.microsoft.com/en-us/powershell/module/skype/set-csauthconfig?view=skype-ps)
 
 - 有关如何使用命令或上需要安装它们累积更新的详细方向：
-    - Cmdlet 简介[https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication](https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
-    - 更新 Skype 业务服务器 2015 （常规）[https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)
-    - 为业务服务器 2015，年 7 月 2018 Skype 核心组件累积更新 (6.0.9319.534)[https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server](https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server)
+    - [Cmdlet 简介](https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
+    - [为业务服务器 2015 Skype 的更新](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)（常规）
+    - [年 7 月 2018年业务服务器 2015，Skype 核心组件累积更新](https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server)(6.0.9319.534)
 
 
  
