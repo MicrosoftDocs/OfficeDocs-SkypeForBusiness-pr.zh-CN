@@ -3,7 +3,7 @@ title: 规划 Microsoft 365 政府-GCC 高部署的 Microsoft 团队
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 12/18/2018
+ms.date: 12/19/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -14,19 +14,19 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08e2c2d93aa38d41c8965b622aaa5a5b51652061
-ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
+ms.openlocfilehash: fe90163f53de63c0c0b4c82c510c0c4049188de4
+ms.sourcegitcommit: b4c7f2a0c5660610469fbb67e9810dd3fdcedbaa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 12/19/2018
-ms.locfileid: "27374775"
+ms.locfileid: "27378582"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Microsoft 365 政府版-GCC 高部署规划
 
 本指南为 IT 专业人员带来了部署 Office 365 在美国联邦政府实体或处理受制政府法规的数据和要求，使用 Microsoft 365 政府版 – GCC 高适合其他实体为满足这些要求。
 
 > [!NOTE]
-> 如果您的组织已满足 Microsoft 365 政府 – GCC 高资格要求和应用于并被接受到程序，您可以跳过步骤 1 到 4，直接转到步骤 5 以开始部署。
+> 如果您的组织已满足 Microsoft 365 政府 – GCC 高资格要求和应用于并被接受到程序，您可以跳过步骤 1 和 2，直接转到步骤 3。
 
 ## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---gcc-high-and-meets-eligibility-requirements"></a>第 1 步 确定您的组织是否需要 Microsoft 365 政府-GCC 高，并且符合资格要求。 
 
@@ -49,14 +49,27 @@ Microsoft 365 政府-GCC 高环境提供符合美国的云服务的政府要求�
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定 Microsoft 365 政府-GCC 高是否适合您的组织。</li><li>确认您的组织满足资格要求。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>了解由 Microsoft 365 政府-GCC 高提供的功能。</li></ul>|
 
 > [!Note]
 > Microsoft 365 政府-GCC 高仅在美国可用。 非 – 美国政府客户可以选择从[Office 365 政府计划](https://products.office.com/en/government/compare-office-365-government-plans)数。
 
-## <a name="step-2-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>第 2 步 了解哪些功能目前不可用或默认为禁用。 
+## <a name="step-2-apply-for-microsoft-365-government---gcc-high"></a>第 2 步 适用于 Microsoft 365 政府-GCC 高
 
-若要容纳政府云客户的要求，有一些区别 Microsoft 365 政府-GCC 高和企业计划。 请参阅下表可查看可用的功能。
+无决定的此服务适合您的组织，启动[此服务应用](https://products.office.com/government/eligibility-validation)的过程。
+
+
+## <a name="step-3-understand-microsoft-365-government---gcc-high-default-security-settings"></a>第 3 步 了解 Microsoft 365 政府-GCC 高的默认安全设置。
+
+我们建议您执行时间仔细检查您的[管理和安全设置](enable-features-office-365.md)，然后再对其进行修改和对默认安全设置进行任何更改之前，请考虑影响合规性。
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定是否需要修改任何默认 Microsoft 365 政府-GCC 高的安全设置，解决首先了解任何更改的影响您可能会使。</li></ul> |
+
+
+## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---gcc-high"></a>第 4 步 了解哪些团队功能在 Microsoft 365 政府-GCC 高当前可用
+
+若要容纳政府云客户的要求，有一些区别 リ モ ・ Microsoft 365 政府-GCC 高和团队中的企业计划。 请参阅下表可查看可用的功能。
 
 |                             | 功能                     | GCC 高       |
 |-----------------------------|-----------------------------|----------------|
@@ -126,24 +139,15 @@ Microsoft 365 政府-GCC 高环境提供符合美国的云服务的政府要求�
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定 Microsoft 365 政府-GCC 高功能集是否能满足您组织的需求。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>了解默认安全设置。</li></ul>|
-
-## <a name="step-3-understand-microsoft-365-government---gcc-high-default-security-settings"></a>第 3 步 了解 Microsoft 365 政府-GCC 高的默认安全设置。
-
-我们建议您执行时间仔细检查您的[管理和安全设置](enable-features-office-365.md)，然后再对其进行修改和对默认安全设置进行任何更改之前，请考虑影响合规性。
-
-|    |     |
-|-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定是否将修改任何默认 Microsoft 365 政府-GCC 高的安全设置，首先了解的任何更改影响的解决您可能会使。</li></ul> |
-
-## <a name="step-4-apply-for-microsoft-365-government---gcc-high"></a>第 4 步 适用于 Microsoft 365 政府-GCC 高
-
-无决定的此服务适合您的组织，启动[此服务应用](https://products.office.com/government/eligibility-validation)的过程。
+| ![](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定是否团队功能集能满足您组织的需求。</li></ul> |
 
 ## <a name="step-5-plan-for-governance"></a>第 5 步 规划调控
 
 确定调控和如何满足这些要求。 有关详细信息，请转到[团队中的治理规划](plan-teams-governance.md)。
+
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|决策点 |<ul><li>确定并记录您管理要求，[团队中的治理规划](plan-teams-governance.md)中的指南。 </li></ul>|
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>第 6 步 部署团队协作
 
