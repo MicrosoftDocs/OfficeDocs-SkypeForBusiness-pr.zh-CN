@@ -24,6 +24,7 @@
 ## [在 Teams 中规划生命周期管理](plan-teams-lifecycle.md)
 ## [团队中的治理规划](plan-teams-governance.md)
 ## [Microsoft 365 政府版-GCC 部署规划](plan-for-government-gcc.md)
+## [Microsoft 365 政府版-GCC 高部署规划](plan-for-government-gcc-high.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
