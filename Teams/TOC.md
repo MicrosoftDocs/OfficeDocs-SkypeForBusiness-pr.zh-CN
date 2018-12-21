@@ -488,6 +488,9 @@
 #### [什么是拨号计划？](what-are-dial-plans.md)
 #### [创建并管理拨号计划](create-and-manage-dial-plans.md)
 ### 电话系统
+#### 小组电话
+##### [Microsoft 团队的电话](phones-for-teams.md)
+##### [购买和部署 Microsoft 团队 IP 电话](buying-and-deploying-teams-ip-phones.md)
 #### [Office 365 中的电话系统是什么？](what-is-phone-system-in-office-365.md)
 #### [在你有组织中设置电话系统](setting-up-your-phone-system.md)
 #### [更改语音信箱问候语和电子邮件的默认语言](change-the-default-language-for-greetings-and-emails.md)

@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34009b711427bada14c87ea3c1e204b4dc7e4c96
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: d252b95496a3d86eb9667fd6dec9256d7ad98a00
+ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214616"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "27382675"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导
 
@@ -26,7 +26,7 @@ ms.locfileid: "27214616"
 
 使用"共存模式"，如由 TeamsUpgradePolicy 托管互操作和迁移。 控制可以选择的用户的模式，这两个路由的传入呼叫和聊天和用户是否计划团队或 Skype for Business 中的会议。  推出，与即将开始的 TeamsAppPermissionsPolicy 一起使用，模式将也控制用户可在哪些客户端中启动聊天和呼叫。 
 
-已失效 TeamsInteropPolicy。 其功能已整合到 TeamsUpgradePolicy，并配置 TeamsInteropPolicy 不再需要，通常不保证。 如果 TeamsUpgradePolicy 模式，则不会接受 TeamsInteropPolicy = 旧，但还停用该模式。  既然 TeamsUpgradePolicy 支持已完成，*客户必须更新其配置为使用旧之外模式*。 授予实例 TeamsUpgradePolicy 与 mode = 旧被阻止。  删除所有实例 TeamsInteropPolicy 和使用模式 TeamsUpgradePolicy 任何实例处于 Microsoft = 旧。
+已失效 TeamsInteropPolicy。 其功能已整合到 TeamsUpgradePolicy，并配置 TeamsInteropPolicy 不再需要，通常不保证。 除非 TeamsUpgradePolicy 具有模式，不采用 TeamsInteropPolicy = 旧，但该模式是已停用。  既然 TeamsUpgradePolicy 支持已完成，*客户必须更新其配置为使用旧之外模式*。 授予实例 TeamsUpgradePolicy 与 mode = 旧被阻止。  删除所有实例 TeamsInteropPolicy 和使用模式 TeamsUpgradePolicy 任何实例处于 Microsoft = 旧。
 
 ## <a name="fundamental-concepts"></a>基本概念
 
@@ -43,7 +43,7 @@ ms.locfileid: "27214616"
 
 5.  适用于业务用户之间团队和 Skype 的互操作才可能*如果团队用户联机驻留在 for Business 的 Skype*。 Skype 可以位于企业用户是本地 （和需要业务混合配置 Skype） 的收件人或联机。 位于业务本地 Skype 的用户可以使用团队群岛模式 （定义此文档中的更高版本），但不是能使用互操作的团队或 for Business 使用 Skype 的其他用户与联盟。  
 
-6.  升级到团队的用户 (即，向其授予与模式 TeamsUpgradePolicy = TeamsOnly)，用户必须联机驻留在 for Business 的 Skype。 这是确保互操作、 联盟和团队用户的完整管理所需的。 若要升级用户都驻留在内部部署，使用`Move-CsUser`从内部部署管理工具到第一次移动用户对 Skype 业务 online:
+6.  升级到团队的用户 (即，向其授予与模式 TeamsUpgradePolicy = TeamsOnly)，用户必须联机驻留在 for Business 的 Skype。 这是确保互操作、 联盟和团队用户的完整管理所需的。 若要升级用户都驻留在内部部署，使用`Move-CsUser`从内部部署管理工具到第一次移动用户对 Skype 业务 online。 有关详细信息，请参阅[将内部部署和云之间的用户移动](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)。 在摘要中，有两个选项：
 
     - 如果您具有 Skype 业务服务器 2019年或 CU8 Skype 的业务服务器 2015年，指定`-MoveToTeams`中切换`Move-CsUser`将用户移动到团队直接。
     - 否则为之后`Move-CsUser`完成后，将 TeamsOnly 模式分配给该用户使用 PowerShell 或团队 Admin Center。 
@@ -74,7 +74,6 @@ ms.locfileid: "27214616"
 |SfBWithTeamsCollab<sup>2</sup>|传入呼叫和聊天路由至 Skype for Business|Skype for Business 仅|最终用户可以发起呼叫以及仅从 for Business 的 Skype 聊天和仅业务会议安排 Skype。 他们还可以在工作组中使用通道。 （还未实施）|
 |SfBWithTeamsCollabAndMeetings<sup>2</sup>|传入呼叫和聊天路由至 Skype for Business|仅团队|最终用户可以发起呼叫，并从业务仅和唯一的 Skype 聊天安排团队会议。 它们可以参与团队通道对话。 （还未实施）|
 |TeamsOnly|传入呼叫和聊天路由至团队|仅团队|最终用户可以发起呼叫以及仅来自团队聊天。 Skype for Business 才可用于加入会议。|
-|旧</br>*弃用*|路由基于 TeamsInteropPolicy|不会影响|没有任何影响。 这是临时的简化从 TeamsInteropPolicy 过渡到 TeamsUpgradePolicy 模式。 完全支持 TeamsUpgradePolicy 以便*客户必须更新其配置为非旧的模式。*  授予的旧模式已不再可能。 |
 |||||
 
 **说明：**
@@ -111,8 +110,6 @@ TeamsUpgradePolicy 公开两个关键属性： 模式和 NotifySfbUsers。
 |SfBWithTeamsCollabAndMeetingsWithNotify|SfBWithTeamsCollabAndMeetings|True|此模式在 PowerShell 层存在但不是在管理用户体验中尚未公开。 从路由的角度看，这是与 SfBOnly 模式相同。 可用 TeamsAppPolicy 时，这将使通道和在工作组中计划的会议。|
 |UpgradeToTeams|TeamsOnly|False|将用户升级到团队，并阻止聊天、 电话和在 Skype for Business 中计划的会议，请使用此模式。|
 |全局|群岛|False|是默认策略。|
-|NoUpgrade|旧|False|将立即终止此实例。 不再可能向用户授予此策略|
-|NotifyForTeams|旧|True|将立即终止此实例。 不再可能向用户授予此策略|
 |||||
 
 向单个用户或在租户范围内，可以授予这些策略实例。 例如：
@@ -144,12 +141,12 @@ TeamsUpgradePolicy 控制传入的联盟的聊天和呼叫路由。 联盟路由
 
 今年更高版本，Microsoft 计划引入新策略的类型，TeamsAppPermissionsPolicy，以控制哪些部分团队客户端启用 （如 IM、 会议、 聊天、 通道）。 要启用/禁用团队中的工作负荷的新策略何时有空，将更新 TeamsUpgradePolicy，，以便当管理员尝试向用户授予 TeamsUpgradePolicy 实例，它将将首先检查，以确保 TeamsAppPolicy 正确配置所需的模式。 如果没有，授予将失败并解释如何必须先设置其他策略产生错误。 
 
-直到 TeamsAppPolicy 可用，TeamsUpgradePolicy 本质上控制呼叫和聊天，以及会议安排 （如公开通过 Outlook 加载项） 的路由。 因为团队的客户端行为尚不就地，并非所有模式都启用现代门户中。 从路由的角度看，SfBOnly、 SfBWithTeamsCollab 和 SfBWithTeamsCollabAndMeetings 模式是相同的。 
+直到 TeamsAppPermissionsPolicy 可用，TeamsUpgradePolicy 本质上控制呼叫和聊天，以及会议安排 （如公开通过 Outlook 加载项） 的路由。 因为团队的客户端行为尚不就地，并非所有模式都启用现代门户中。 从路由的角度看，SfBOnly、 SfBWithTeamsCollab 和 SfBWithTeamsCollabAndMeetings 模式是相同的。 
 
 
 
 ## <a name="action-required-for-organizations-that-are-using-modelegacy-andor-teamsinteroppolicy"></a>无需执行操作的使用模式组织 = 旧和/或 TeamsInteropPolicy
-使用模式的客户 = TeamsUpgradePolicy 中的旧 (策略实例 = NoUpgrade 或策略实例 = NotifyForTeams) 必须更新其配置要使用的策略与旧之外的模式。  此外，使用 TeamsInteropPolicy 客户应移除此策略的任何工作分配，因为它不再由系统，除在旧模式下，即将弃用。  请注意，它不再可以授予旧模式。 将在将来删除旧模式和 TeamsInteropPolicy。
+使用模式的客户 = TeamsUpgradePolicy 中的旧 (策略实例 = NoUpgrade 或策略实例 = NotifyForTeams) 必须更新其配置要使用的策略与旧之外的模式。  此外，使用 TeamsInteropPolicy 客户应移除此策略的任何工作分配，因为它不再由系统，除在旧模式下，即将弃用。  请注意，它不再可以授予旧模式。 
 
 所需的操作：
  - 使用用户的 TeamsInteropPolicy 客户*不*在旧模式下： 策略不影响以及它的建议您删除的任何用户级别分配和仅使用默认值使用全局策略。
@@ -171,7 +168,6 @@ TeamsUpgradePolicy 控制传入的联盟的聊天和呼叫路由。 联盟路由
 |**SfBWithTeamsCollab**|单个用户运行业务和团队-并行这两个 Skype。 此用户：</br><ul><li>具有 SfBOnly 模式中的用户的功能。<li>工作组已启用仅对组协作 （通道）;聊天/呼叫/会议安排将被禁用。</ul>|
 |**SfBWithTeamsCollab</br>AndMeetings**|单个用户运行业务和团队-并行这两个 Skype。 此用户：<ul><li>已在 SfBOnly 模式下的聊天和用户的呼叫功能。<li>已启用组协作的团队 （通道-包括通道对话）;聊天和呼叫将被禁用。<li>可以安排仅团队会议，但可以加入 Skype 业务或团队的会议。</ul>|
 |**TeamsOnly**</br>（需要 SfB Online 主页）|单个用户运行仅团队。 此用户：<ul><li>接收任何聊天并中调用他们团队的客户端，而不管在启动。<li>可以启动聊天和仅来自团队呼叫。<li>可以安排会议仅在工作组中的，但可以加入 Skype 业务或团队的会议。<li>可以继续使用 Skype 业务 IP 电话。</ul> |
-|**旧**</br>（已过时）|此模式在转换到 TeamsUpgradePolicy TeamsInteropPolicy 期间用来确保一致的体验作为软件更改推出。既然完全支持 TeamsUpgradePolicy 不再需要此模式。 使用模式的客户 = 旧必须更新其配置上使用的其他模式。|
 |||
 
 
