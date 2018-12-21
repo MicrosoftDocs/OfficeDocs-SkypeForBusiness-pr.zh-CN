@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5a6875ae8c30b81b6a063bb2ae59a0f72e9c677
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 4f649ebce7a1938961d1c9f9ef143617a863a924
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240791"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297736"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -28,29 +28,29 @@ ms.locfileid: "27240791"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|从团队中删除某人时，审核日志中报告的发起人用户名可能不正确。  <br/> |Teams 团队是 AAD 中的新式组。 当你通过 Teams 用户界面添加/删除成员时，流程会准确知道发起更改的用户，并且审核日志中会反映正确的信息。 但是，如果通过 AAD 添加/删除用户，更改会在后端同步到 Teams，但不会告诉 Teams 发起该操作的人员。 Microsoft Teams 会选择相应团队的第一个所有者作为发起人，此情况最终也反映在审核日志中。    <br/> |  <br/> |2018 年 5 月 11 日  <br/> |
+|从团队中删除某人时，审核日志中报告的发起人用户名可能不正确。  <br/> |Teams 团队是 AAD 中的新式组。当你通过 Teams 用户界面添加/删除成员时，流程会准确知道发起更改的用户，并且审核日志中会反映正确的信息。但是，如果通过 AAD 添加/删除用户，更改会在后端同步到 Teams，但不会告诉 Teams 发起该操作的人员。Microsoft Teams 会选择相应团队的第一个所有者作为发起人，此情况最终也反映在审核日志中。    <br/> |  <br/> |2018 年 5 月 11 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|Enhanced Mitigation Experience Toolkit (EMET) 中的 EAF 策略可能会将 Chromium 沙盒优化错误地标识为威胁。 <br/> |Chromium 沙盒存在问题，即 Enhanced Mitigation Experience Toolkit (EMET) 和 Windows Defender 高级威胁防护 (ATP) 中的导出地址表访问筛选 (EAF) 策略可能会将 Chromium 沙盒优化错误地标识为威胁。 这会导致 Teams 无法正常运行。  <br/> | 要解决此问题，请对 Teams 关闭 EAF。 有关此问题的详细信息，请参阅 [EMET 缓解准则](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines)。有关 Windows Defender ATP 和 EAF 策略的详细信息，请参阅[自定义漏洞利用保护](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |2018 年 10 月 11 日 <br/> |
+|Enhanced Mitigation Experience Toolkit (EMET) 中的 EAF 策略可能会将 Chromium 沙盒优化错误地标识为威胁。 <br/> |Chromium 沙盒存在问题，即 Enhanced Mitigation Experience Toolkit (EMET) 和 Windows Defender 高级威胁防护 (ATP) 中的导出地址表访问筛选 (EAF) 策略可能会将 Chromium 沙盒优化错误地标识为威胁。这会导致 Teams 无法正常运行。  <br/> | 要解决此问题，请对 Teams 关闭 EAF。有关此问题的详细信息，请参阅 [EMET 缓解准则](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines)。有关 Windows Defender ATP 和 EAF 策略的详细信息，请参阅[自定义漏洞利用保护](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |2018 年 10 月 11 日 <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|UsersPermissionToReadOtherUsersEnabled 设置为 false 时，无法向团队添加成员  <br/> |在 AAD 中此值设置为 false 时，客户无法在 Microsoft Teams 中添加外部/内部成员，并会显示以下错误消息：“我们无法添加成员。 遇到问题。 请稍后再试。” 但是，成员可以直接添加到 Office 365 组中。    <br/> |在 AAD 中此设置更改为 true。  <br/> |2018 年 4 月 10 日  <br/> |
+|UsersPermissionToReadOtherUsersEnabled 设置为 false 时，无法向团队添加成员  <br/> |在 AAD 中此值设置为 false 时，客户无法在 Microsoft Teams 中添加外部/内部成员，并会显示以下错误消息：“我们无法添加成员。遇到问题。请稍后再试。”但是，成员可以直接添加到 Office 365 组中。    <br/> |在 AAD 中此设置更改为 true。  <br/> |2018 年 4 月 10 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|以管理员身份对租户范围的连接器进行管理的功能不再可用。  <br/> |尝试在客户端和联机版本中添加连接器时，显示错误：发生意外错误。 请重试。 Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |通过 Teams 设置禁用。 请参阅此支持文章： https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |2017 年 6 月 21 日  <br/> |
+|以管理员身份对租户范围的连接器进行管理的功能不再可用。  <br/> |尝试在客户端和联机版本中添加连接器时，显示错误：发生意外错误。请重试。Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |通过 Teams 设置禁用。请参阅此支持文章： https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |2017 年 6 月 21 日  <br/> |
 
 ## <a name="apps"></a>应用
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|有些团队缺少连接器选项  <br/> |右键单击频道时，团队的任何成员都不显示连接器选项。  <br/> |团队的创建者必须有联机邮箱；否则，将不提供连接器选项。 这是预期行为。  <br/> |2017 年 6 月 26 日  <br/> |
+|有些团队缺少连接器选项  <br/> |右键单击频道时，团队的任何成员都不显示连接器选项。  <br/> |团队的创建者必须有联机邮箱；否则，将不提供连接器选项。这是预期行为。  <br/> |2017 年 6 月 26 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|“作业”应用在禁用后仍可见  <br/> |在管理中心禁用了“作业”应用后，此应用在获得教育版许可的用户的 Teams 客户端中仍可见。 在禁用的情况下选择此应用时，将返回错误：“烦躁! 出现错误...”  <br/> |无解决方法。  <br/> |2017 年 12 月 29 日  <br/> |
+|“作业”应用在禁用后仍可见  <br/> |在管理中心禁用了“作业”应用后，此应用在获得教育版许可的用户的 Teams 客户端中仍可见。在禁用的情况下选择此应用时，将返回错误：“烦躁! 出现错误...”  <br/> |无解决方法。  <br/> |2017 年 12 月 29 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -65,7 +65,7 @@ ms.locfileid: "27240791"
 |使用非 US 区域设置时，从 Outlook 外接程序发出的会议邀请的 PSTN 坐标中显示乱码字符。  <br/> |在使用非 US 区域设置的计算机上使用适用于 Microsoft Teams 的 Outlook 外接程序安排私人会议时，PSTN 坐标可能包含乱码字符。  <br/> |无解决方法。  <br/> |2017 年 9 月 25 日  <br/> |
 |拨出时需要使用 5 位数或更多位数。  <br/> |尝试从会议拨出的用户需要键入 5 位数或更多位数，尽管可以使用拨号计划规范化规则将简短数字拨号规范化为 E.164 格式。  <br/> |拨出时键入完整的 DID 数字或本地号码格式而不是内部分机号。  <br/> |2017 年 9 月 25 日  <br/> |
 |拨出控件间歇性地不显示出来。  <br/> |拨出控件在“会议信息”面板中可能不可见。  <br/> |无解决方法。  <br/> |2017 年 9 月 25 日  <br/> |
-|Microsoft Teams 会议不支持静态会议 ID。  <br/> |如果管理员将默认设置从动态会议 ID 更改为静态会议 ID，此设置对 Microsoft Teams 会议无效。 请参阅[在组织中使用音频会议动态 ID](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md)。  <br/> |无解决方法。  <br/> |2017 年 9 月 25 日  <br/> |
+|Microsoft Teams 会议不支持静态会议 ID。  <br/> |如果管理员将默认设置从动态会议 ID 更改为静态会议 ID，此设置对 Microsoft Teams 会议无效。请参阅[在组织中使用音频会议动态 ID](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md)。  <br/> |无解决方法。  <br/> |2017 年 9 月 25 日  <br/> |
 |PSTN 会议坐标不适用于 Skype for Business 本地部署用户。  <br/> |如果用户是 Skype for Business 本地部署用户，并分配有 Skype for Business Online、音频会议和 Teams 许可证，则使用 Teams 安排的所有会议都将不包括 PSTN 会议坐标。 <br/> |无解决方法。  <br/> |2018 年 2 月 1 日  <br/> |
 
 ## <a name="authentication"></a>身份验证
@@ -76,11 +76,11 @@ ms.locfileid: "27240791"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|Outlook 外接程序限制  <br/> |要使用 Outlook 外接程序，必须使用多重身份验证 (MFA) 登录 Teams。 如果在登录过程中 MFA 中途失败，你仍能够登录 Teams，但当你尝试使用外接程序时，会显示错误消息。  <br/> 目前，外接程序仅供 Windows 用户使用。  <br/> 如果你使用身份验证代理，将无法使用外接程序。  <br/> | 无解决方法。 <br/> |2017 年 8 月 2 日  <br/> |
+|Outlook 外接程序限制  <br/> |要使用 Outlook 外接程序，必须使用多重身份验证 (MFA) 登录 Teams。如果在登录过程中 MFA 中途失败，你仍能够登录 Teams，但当你尝试使用外接程序时，会显示错误消息。  <br/> 目前，外接程序仅供 Windows 用户使用。  <br/> 如果你使用身份验证代理，将无法使用外接程序。  <br/> | 无解决方法。 <br/> |2017 年 8 月 2 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|Microsoft Teams 始终登录加入域的 PC 帐户。   <br/> |如果用户有两个不同的 Teams 帐户并有一台启用了加入域的计算机，Teams 将在该计算机上使用加入域的配置文件来自动将用户登录到 Teams。 要切换到另一个 Teams 帐户，该用户必须手动注销该应用，然后输入另一个帐户的凭据以登录。 如果用户注销 Teams 并重新启动计算机，在重新启动后，Teams 将自动使用加入域的配置文件登录。 <br/> | 无解决方法。 <br/> |2017 年 8 月 2 日  <br/> |
+|Microsoft Teams 始终登录加入域的 PC 帐户。   <br/> |如果用户有两个不同的 Teams 帐户并有一台启用了加入域的计算机，Teams 将在该计算机上使用加入域的配置文件来自动将用户登录到 Teams。要切换到其他 Teams 帐户，用户必须手动注销该应用，并输入另一个帐户的凭据进行登录。如果用户注销 Teams 并重新启动计算机，则重新启动后，Teams 将自动使用加入域的配置文件来自动登录。 <br/> | 无解决方法。 <br/> |2017 年 8 月 2 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -88,7 +88,7 @@ ms.locfileid: "27240791"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|构建适用单一登录 (SSO) 的 Planner <br/> |SSO 不适用于 Planner。 在每个客户端上首次使用 Planner 时，必须重新登录。  <br/> |无解决方法。 正在准备进一步的身份验证增强功能。  <br/> |2017 年 2 月 28 日  <br/> |
+|构建适用单一登录 (SSO) 的 Planner <br/> |SSO 不适用于 Planner。在每个客户端上首次使用 Planner 时，必须重新登录。  <br/> |无解决方法。正在准备进一步的身份验证增强功能。  <br/> |2017 年 2 月 28 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -102,21 +102,21 @@ ms.locfileid: "27240791"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|Safari Web 客户端支持  <br/> |尝试在 Safari 上打开 Microsoft Teams Web 客户端的用户被导向到下载桌面客户端。 Microsoft 正在着手准备 Safari 支持，并将通过 [Teams 路线图](https://aka.ms/TeamsRoadmap)共享更新。  <br/> |使用支持的 Internet 浏览器，包括：Internet Explorer 11+、Microsoft Edge 12+、Chrome 51.0+ 和 Firefox 47.0+。  <br/> |2016 年 11 月 2 日  <br/> |
+|Safari Web 客户端支持  <br/> |尝试在 Safari 上打开 Microsoft Teams Web 客户端的用户被导向到下载桌面客户端。Microsoft 正在着手准备 Safari 支持，并将通过 [Teams 路线图](https://aka.ms/TeamsRoadmap)共享更新。  <br/> |使用支持的 Internet 浏览器，包括：Internet Explorer 11+、Microsoft Edge 12+、Chrome 51.0+ 和 Firefox 47.0+。  <br/> |2016 年 11 月 2 日  <br/> |
 
 ## <a name="channels"></a>频道
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|用户离开公司后，其在 Microsoft Teams 中显示为“未知用户”。<br/> |用户离开公司后，其在 Microsoft Teams 中显示为“未知用户”。 此外，对话选项卡中显示：“未知用户已添加到团队中。” <br/> |无解决方法。  <br/> |2016 年 9 月 12 日  <br/> |
+|用户离开公司后，其在 Microsoft Teams 中显示为“未知用户”。<br/> |用户离开公司后，其在 Microsoft Teams 中显示为“未知用户”。此外，对话选项卡中显示：“未知用户已添加到团队中。” <br/> |无解决方法。  <br/> |2016 年 9 月 12 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|用户无法重新预先存在的频道名称  <br/> |一旦创建了某个频道名称，即使已将其删除，仍无法重新创建该名称。 我们的系统按信息保护方案维护此数据。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/> |
+|用户无法重新预先存在的频道名称  <br/> |一旦创建了某个频道名称，即使已将其删除，仍无法重新创建该名称。我们的系统按信息保护方案维护此数据。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|在 Microsoft Teams 中重命名频道不会重命名 SharePoint Online 中的对应文件夹  <br/> |如果在 Microsoft Teams 中重命名了某个频道，SharePoint Online 文档库中与相应团队对应的文件夹不会更改以保持一致。 重命名后的频道“文件”选项卡顶部显示正确的 SharePoint Online 文件夹名称。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/> |
+|在 Microsoft Teams 中重命名频道不会重命名 SharePoint Online 中的对应文件夹  <br/> |如果在 Microsoft Teams 中重命名了某个频道，SharePoint Online 文档库中与相应团队对应的文件夹不会更改以保持一致。重命名后的频道“文件”选项卡顶部显示正确的 SharePoint Online 文件夹名称。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -133,41 +133,41 @@ ms.locfileid: "27240791"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|Teams 不会自动更新   <br/> | 使用安装脚本将 Microsoft Teams 安装到 Program Files 而不是默认位置后，在有新版本时，客户端不会自动更新。    <br/> | 特意设计。 请务必将该应用安装到默认位置：`user\Appdata`。  <br/> | 2017 年 9 月 7 日  <br/> |
+|Teams 不会自动更新   <br/> | 使用安装脚本将 Microsoft Teams 安装到 Program Files 而不是默认位置后，在有新版本时，客户端不会自动更新。    <br/> | 特意设计。请务必将该应用安装到默认位置：`user\Appdata`。  <br/> | 2017 年 9 月 7 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|将某个驱动器以符号方式链接或映射到 C:\users 会导致应用启动时显示白屏  <br/> | 使用安装脚本将 Microsoft Teams 安装到 Program Files 而不是默认位置后，在有新版本时，客户端不会自动更新。   <br/> | 特意设计。 请务必将该应用安装到默认位置：`user\Appdata`。 如果必须存在映射，则应使用 Web 版本的 Microsoft Teams。  <br/> | 2017 年 9 月 7 日  <br/> |
+|将某个驱动器以符号方式链接或映射到 C:\users 会导致应用启动时显示白屏  <br/> | 使用安装脚本将 Microsoft Teams 安装到 Program Files 而不是默认位置后，在有新版本时，客户端不会自动更新。   <br/> | 特意设计。请务必将该应用安装到默认位置：`user\Appdata`。如果必须存在映射，则应使用 Web 版本的 Microsoft Teams。  <br/> | 2017 年 9 月 7 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|将某个驱动器以符号方式链接或映射到 C:\users 会导致应用启动时显示白屏  <br/> |通过移动 `C:\users` 文件夹或使用符号链接更改默认位置 `C:\users\<user>\appData` 后，该应用启动时显示白屏。   <br/> |无已知解决方法。 如果必须存在映射，则应使用 Web 版本的 Microsoft Teams。   <br/> |2017 年 3 月 13 日  <br/> |
+|将某个驱动器以符号方式链接或映射到 C:\users 会导致应用启动时显示白屏  <br/> |通过移动 `C:\users` 文件夹或使用符号链接更改默认位置 `C:\users\<user>\appData` 后，该应用启动时显示白屏。   <br/> |无已知解决方法。如果必须存在映射，则应使用 Web 版本的 Microsoft Teams。   <br/> |2017 年 3 月 13 日  <br/> |
 
 ## <a name="environment"></a>环境
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|没有为组邮箱启用存档（额外存储）功能  <br/> |在 Office 365 安全性和合规性中心中，全局管理员无法对组邮箱启用存档。 他们只能对用户邮箱执行此操作。  <br/> |如果组邮箱容量几乎已满，请联系 Microsoft Office 支持以扩展邮箱大小。  <br/> |2017 年 2 月 1 日  <br/> |
+|没有为组邮箱启用存档（额外存储）功能  <br/> |在 Office 365 安全性和合规性中心中，全局管理员无法对组邮箱启用存档。他们只能对用户邮箱执行此操作。  <br/> |如果组邮箱容量几乎已满，请联系 Microsoft Office 支持以扩展邮箱大小。  <br/> |2017 年 2 月 1 日  <br/> |
 
 ## <a name="guest-access"></a>来宾访问
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|欧盟地区和亚太地区的客户在从其他租户添加来宾用户时收到错误    <br/> | 欧盟地区和亚太地区的客户遇到 Microsoft Teams 与 Azure Active Directory 之间出现复制延迟的问题。 当来自欧盟地区或亚太地区某个租户的用户尝试从任何其他租户添加来宾用户时，收到要求他们重试的错误消息。   <br/> |再次单击重试按钮以执行来宾用户添加操作。  <br/> |11/8/17  <br/> |
+|欧盟地区和亚太地区的客户在从其他租户添加来宾用户时收到错误    <br/> | 欧盟地区和亚太地区的客户遇到 Microsoft Teams 与 Azure Active Directory 之间出现复制延迟的问题。当来自欧盟地区或亚太地区某个租户的用户尝试从任何其他租户添加来宾用户时，收到要求他们重试的错误消息。   <br/> |再次单击重试按钮以执行来宾用户添加操作。  <br/> |11/8/17  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|对于来宾创建的频道未创建 Wiki  <br/> |来宾创建新频道时，未创建“**Wiki**”选项卡。 无法手动将“**Wiki**”选项卡附加到频道。 <br/> |无解决方法。  <br/> |9/20/17  <br/>|
+|对于来宾创建的频道未创建 Wiki  <br/> |来宾创建新频道时，未创建“**Wiki**”选项卡。无法手动将“**Wiki**”选项卡附加到频道。 <br/> |无解决方法。  <br/> |9/20/17  <br/>|
 
 ## <a name="meetings"></a>会议
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|用户无法访问会议/连接器，但有 Exchange Online 邮箱。 <br/> |客户可在 Exchange Online 中主动阻止来自服务的 EWS，但需要使 MS Teams 符合 EWS 策略。 <br/> |要使 MS Teams 符合 EWS 策略，必须在 EWSAllowList 中为 MS Teams 添加以下用户代理字符串：`*skypespaces*`（包括星号）。 完整命令如下： `set-organizationconfig -ewsallowlist *skypespaces*`<br/> 有关详细信息，请参阅：https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps。 <br/> |2017 年 5 月 30 日  <br/>|
+|用户无法访问会议/连接器，但有 Exchange Online 邮箱。 <br/> |客户可在 Exchange Online 中主动阻止来自服务的 EWS，但需要使 MS Teams 符合 EWS 策略。 <br/> |要使 MS Teams 符合 EWS 策略，必须在 EWSAllowList 中为 MS Teams 添加以下用户代理字符串：`*skypespaces*` 和 `*microsoftninja*`（包括星号）。 可以使用以下命令：`Set-organizationconfig -EwsAllowList @{Add="*MicrosoftNinja*","*SkypeSpaces*"}`<br/> 有关详细信息，请参阅：https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps。 <br/> |2017 年 5 月 30 日  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|某些会议需要 Skype for Business  <br/> |你的约会日历方便地显示在 Microsoft Teams 中。 为了进入会议，单击“**加入**”按钮。 <br/> 目前我们仍在此方面一直进行开发，如果此会议是使用 Skype for Business 安排的，则你单击“**加入**”后，Microsoft Teams 将启动你的 Skype for Business 客户端以便你进入会议。 在 Microsoft Teams 中安排的会议将在该产品中直接启动。  <br/> 将来，我们将改进此体验。  <br/> |单击“**加入**”。 Microsoft Teams 将智能地根据会议说明中包含的 URL 确定用户是否需要 Skype for Business 才能加入会议。  <br/> |2017 年 3 月 13 日  <br/> |
+|某些会议需要 Skype for Business  <br/> |你的约会日历方便地显示在 Microsoft Teams 中。为了进入会议，单击“**加入**”按钮。 <br/> 目前我们仍在此方面一直进行开发，如果此会议是使用 Skype for Business 安排的，则你单击“**加入**”后，Microsoft Teams 将启动你的 Skype for Business 客户端以便你进入会议。在 Microsoft Teams 中安排的会议将在该产品中直接启动。  <br/> 将来，我们将改进此体验。  <br/> |单击“**加入**”。Microsoft Teams 将智能地根据会议说明中包含的 URL 确定用户是否需要 Skype for Business 才能加入会议。  <br/> |2017 年 3 月 13 日  <br/> |
 
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
@@ -205,7 +205,7 @@ ms.locfileid: "27240791"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|用户个人资料照片  <br/> | 当前，Teams 没有阻止用户更改照片的机制。 BTS 团队已与提交考虑实现以下功能的开发团队会面交流：功能 108874：用于禁止上载个人资料照片的 IT 策略   <br/> | 如果你的客户希望能够在 Teams 中阻止上载个人资料照片，请让其在以下位置投票并添加业务案例： https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos
+|用户个人资料照片  <br/> | 当前，Teams 没有阻止用户更改照片的机制。BTS 团队已与提交考虑实现以下功能的开发团队会面交流：功能 108874：用于禁止上载个人资料照片的 IT 策略   <br/> | 如果你的客户希望能够在 Teams 中阻止上载个人资料照片，请让其在以下位置投票并添加业务案例： https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos
  <br/> |2017 年 3 月 1 日 <br/> |
 
 ## <a name="provisioning"></a>预配
@@ -227,11 +227,11 @@ ms.locfileid: "27240791"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|网站选项卡引起客户混乱  <br/> |网站选项卡不同于浏览器。 一些站点（尤其是要求进行身份验证或使用弹出窗口的站点）以网站选项卡方式固定时无法正常使用。  <br/> |我们正在改进该 UI 以使其对客户更加清晰。  <br/> |2018 年 5 月 2 日  <br/> |
+|网站选项卡引起客户混乱  <br/> |网站选项卡不同于浏览器。一些站点（尤其是要求进行身份验证或使用弹出窗口的站点）以网站选项卡方式固定时无法正常使用。  <br/> |我们正在改进该 UI 以使其对客户更加清晰。  <br/> |2018 年 5 月 2 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|启用了条件访问后，选项卡无法正常使用 <br/> |对租户启用了条件访问后，在桌面客户端上无法加载一些选项卡。 使用 Web 客户端时，可以加载这些选项卡。 可能受影响的一些选项卡为：PowerBI、Forms、VSTS、PowerApps 和 SharePoint List。  <br/> |要查看受影响的选项卡，必须在 Edge、IE 或安装了 Windows 10 Accounts 扩展程序的 Chrome 中使用 Teams。 一些选项卡仍依赖于 Web 身份验证，而在启用了 CA 时无法在桌面客户端中进行 Web 身份验证。 我们正在与合作伙伴合作以启用这些方案；到目前为止，我们已启用 Planner、OneNote 和 Stream。 <br/> |2018 年 4 月 5 日  <br/>|
+|启用了条件访问后，选项卡无法正常使用 <br/> |对租户启用了条件访问后，在桌面客户端上无法加载一些选项卡。使用 Web 客户端时，可以加载这些选项卡。可能受影响的一些选项卡为：PowerBI、Forms、VSTS、PowerApps 和 SharePoint List。  <br/> |要查看受影响的选项卡，必须在 Edge、IE 或安装了 Windows 10 Accounts 扩展程序的 Chrome 中使用 Teams。一些选项卡仍依赖于 Web 身份验证，而在启用了 CA 时无法在桌面客户端中进行 Web 身份验证。我们正在与合作伙伴合作以启用这些方案；到目前为止，我们已启用 Planner、OneNote 和 Stream。 <br/> |2018 年 4 月 5 日  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -247,21 +247,21 @@ ms.locfileid: "27240791"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|SharePoint 页面选项卡呈现白屏<br/> |当前不支持 SharePoint Online 虚域。 用户尝试添加 SharePoint 页面选项卡时看到的是白屏。 <br/> |无解决方法。 <br/> |2018 年 8 月 20 日  <br/>|
+|SharePoint 页面选项卡呈现白屏<br/> |当前不支持 SharePoint Online 虚域。用户尝试添加 SharePoint 页面选项卡时看到的是白屏。 <br/> |无解决方法。 <br/> |2018 年 8 月 20 日  <br/>|
 
 ## <a name="teams"></a>团队
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|从团队中删除某人时，审核日志中报告的发起人用户名可能不正确。  <br/> |Teams 团队是 AAD 中的新式组。 当你通过 Teams 用户界面添加/删除成员时，流程会准确知道发起更改的用户，并且审核日志中会反映正确的信息。 但是，如果通过 AAD 添加/删除用户，更改会在后端同步到 Teams，但不会告诉 Teams 发起该操作的人员。 Microsoft Teams 会选择相应团队的第一个所有者作为发起人，此情况最终也反映在审核日志中。    <br/> |  <br/> |2018 年 5 月 11 日  <br/> |
+|从团队中删除某人时，审核日志中报告的发起人用户名可能不正确。  <br/> |Teams 团队是 AAD 中的新式组。当你通过 Teams 用户界面添加/删除成员时，流程会准确知道发起更改的用户，并且审核日志中会反映正确的信息。但是，如果通过 AAD 添加/删除用户，更改会在后端同步到 Teams，但不会告诉 Teams 发起该操作的人员。Microsoft Teams 会选择相应团队的第一个所有者作为发起人，此情况最终也反映在审核日志中。    <br/> |  <br/> |2018 年 5 月 11 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|按照策略要求，在 OWA/Outlook 上未阻止向 Teams 上载照片   <br/> | Teams 允许用户直接将照片上载到 Office 365，不论策略设置如何，而不是对 OWA 阻止照片上载。   <br/> |<br/>  |10/16/17  <br/> |
+|按照策略要求，在 OWA/Outlook 上未阻止向 Teams 上载照片   <br/> | Teams 允许用户直接将照片上载到 Office 365，不论策略设置如何，而不是对 OWA 阻止照片上载。   <br/> |<br/>  |2017 年 10 月 16 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|公用团队列表未显示所有团队  <br/> |公用团队列表是基于 Microsoft Graph 的。  <br/> |如果你未看到某个团队，请尝试在右上方的搜索框中搜索该团队。 此外，团队所有者应向同事告知团队名称，因为搜索结果中可能会先显示许多团队。 <br/> | 2017 年 7 月 21 日  <br/>|
+|公用团队列表未显示所有团队  <br/> |公用团队列表是基于 Microsoft Graph 的。  <br/> |如果你未看到某个团队，请尝试在右上方的搜索框中搜索该团队。此外，团队所有者应向同事告知团队名称，因为搜索结果中可能会先显示许多团队。 <br/> | 2017 年 7 月 21 日  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -277,7 +277,7 @@ ms.locfileid: "27240791"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|删除团队还将删除与之关联的组。  <br/> |用户可能不了解删除团队时会删除基础 Office 365 组。 此外，如果删除基础 Office 365 组，也会删除团队。  <br/> |Microsoft Teams 其他语言版本向用户提供此信息。 Office 365 组界面上未提供此信息。 你的技术支持可以恢复已删除的组/团队。  <br/> |2017 年 3 月 13 日  <br/> |
+|删除团队还将删除与之关联的组。  <br/> |用户可能不了解删除团队时会删除基础 Office 365 组。此外，如果删除基础 Office 365 组，也会删除团队。  <br/> |Microsoft Teams 其他语言版本向用户提供此信息。Office 365 组界面上未提供此信息。你的技术支持可以恢复已删除的组/团队。  <br/> |2017 年 3 月 13 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
