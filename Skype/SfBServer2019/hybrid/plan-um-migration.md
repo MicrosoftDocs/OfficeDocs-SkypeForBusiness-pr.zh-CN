@@ -7,12 +7,12 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skypeforbusiness-server-itpro
 description: 本主题介绍了您需要考虑时您决定为业务 Online 或 Exchange Online 迁移您现有的 Skype 业务服务器或 Exchange Server 部署到最新版本或 Skype。
-ms.openlocfilehash: 64d489a944e7b56315e4b600893b46f5c1cc3355
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: ce3078b7a1e877422eb66040c3fa3a8b0e4fbdae
+ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699286"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "27382838"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>规划 Skype for Business Server 和 Exchange Server 迁移
 
@@ -51,7 +51,7 @@ Exchange 2019 中已弃用统一消息 (UM)。 这意味着 Exchange 2019 不再
 - Exchange 2013/exchange 2016年和 Skype 业务服务器到 Exchange 2019 2015年业务服务器 2019 Skype
 - Exchange 2013/exchange 2016年具有业务服务器 2019 Skype 业务服务器 2015年的 Skype
 
-以下方案需要无 PBX 或 SBC 配置存在当前部署的一部分，并假定您具有内部部署 Exchange 服务器上配置 UM。 每种解决方案还假定您已确定配置之间的业务服务器您的本地 Skype 和 Office 365 的混合部署。 业务混合部署的 Skype 的详细信息，请参阅[业务混合解决方案的 Skype](hybrid-solutions.md)。
+以下方案需要无 PBX 或 SBC 配置存在当前部署的一部分，并假定您具有内部部署 Exchange 服务器上配置 UM。 每种解决方案还假定您已确定配置之间的业务服务器您的本地 Skype 和 Office 365 的混合部署。 业务混合部署的 Skype 的详细信息，请参阅[规划混合连接性](plan-hybrid-connectivity.md)。
 
 ### <a name="exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019"></a>Exchange 2013/exchange 2016年和 Skype 的业务 2015 到 Exchange 2019 和 Skype 的业务 2019
 

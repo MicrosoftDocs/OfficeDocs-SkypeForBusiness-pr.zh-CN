@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 摘要： 浏览这些链接以了解如何开发概念、 逻辑和物理设计用于配置 Skype 的业务服务器 2019年功能、 服务器和拓扑。
-ms.openlocfilehash: 83b406401d377d8ffd4b46aee3a5264273bb142b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4ddaeac0f0e06c8e11e7a98dc46755c907b2937f
+ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531293"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "27382845"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>规划业务服务器 2019年部署您 Skype
  
@@ -49,8 +49,7 @@ Skype 业务服务器提供了即时消息 (IM)、 状态、 会议、 视频和
 |**[计划集成 Skype for Business 和 Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)** <br/><br/>您的组织部署 Exchange Server 和 Skype 业务服务器？ 如果是，请阅读有关如何集成两种产品功能的信息。 例如，状态信息和数据存档。   |**[规划客户端和设备](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)** <br/><br/>Skype 业务服务器支持的客户端接口可部署到贵组织的用户的集合。 精心规划可以确保员工获取他们的需要 Skype for Business 并且可供其地点正好为。   |
 |**[规划在 Skype 业务服务器的边缘服务器部署](../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md)** <br/><br/> 您的组织是否与内部网络之外的用户通信？ 如果是这样，请阅读有关如何部署边缘服务器支持跨组织的防火墙的通信。   |**[规划业务 Server Skype 中的高可用性和灾难恢复](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)** <br/><br/>高可用性指的是确保业务 Server 服务的 Skype 有，即使一个或多个服务器不可用。 灾难恢复指的是在出现自然或人为灾难时，维持服务运行并在灾难发生之前保留尽可能多的数据。 阅读规划高可用性和灾难恢复本节中的主题。   |
 |**[规划业务服务器中 Skype 的会议](../../SfbServer/plan-your-deployment/conferencing/conferencing.md)** <br/><br/> 为您的组织的会议要求是什么？ 阅读有关 Web 会议、A/V 会议以及电话拨入式会议功能和要求的内容。   |**[Skype 的业务 Server 中的安全性规划](../../SfbServer/plan-your-deployment/security/security.md)** <br/><br/>查找有关用户身份验证、 服务器到服务器身份验证以及应用程序身份验证，可帮助您了解和规划 Skype 业务服务器身份验证的资源。   |
-|**[业务混合解决方案的 Skype](../hybrid/hybrid-solutions.md)**  <br/><br/>您是否有用户驻留在企业服务器的内部部署 Skype 和 Skype 业务 online？ 如果有，请阅读有关如何设置混合部署以跨单个域同步本地和联机用户的信息。   ||
-|||
+|**[规划混合连接性](../hybrid/plan-hybrid-connectivity.md)**  <br/><br/>您是否有用户驻留在企业服务器的内部部署 Skype 和 Skype 业务 online？ 如果有，请阅读有关如何设置混合部署以跨单个域同步本地和联机用户的信息。   
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>有关规划 Skype 业务服务器的其他资源
 

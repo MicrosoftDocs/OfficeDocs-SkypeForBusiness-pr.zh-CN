@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 摘要： 实现 Skype 业务服务器之前查看本主题中的 DNS 注意事项。
-ms.openlocfilehash: 20e520d0ecb43d098855c434db740592eb7c760c
-ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
+ms.openlocfilehash: 8f47d7de61521c3908a8094bb7c6c866a55c4842
+ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/29/2018
-ms.locfileid: "26984746"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "27382852"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Skype for Business Server 的 DNS 要求
 
@@ -123,7 +123,7 @@ ms.locfileid: "26984746"
 ## <a name="hybrid-considerations"></a>混合注意事项
 <a name="BK_Hybrid"> </a>
 
-如果您计划让联机驻留的某些用户并一些驻留在内部部署参考文章规划[业务服务器 2015年的 Skype](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#BKMK_DNS)和[业务服务器 2019 Skype](../../../SfBServer2019/hybrid/hybrid-solutions.md)的混合连接。 您需要配置 DNS 正常的 Skype 业务服务器 2015年，以及添加其他 DNS 记录。
+如果您打算将一些用户驻留联机和一些上驻留的部署，请参阅规划文章[业务服务器 2019 Skype](../../../SfBServer2019/hybrid/plan-hybrid-connectivity.md)的混合连接。 您需要配置 DNS 正常的 Skype 业务服务器 2015年，以及添加其他 DNS 记录。
 
 此外应在请参阅"Office 365 Url 和 IP 地址范围"[https://aka.ms/o365ips](https://aka.ms/o365ips)以确认您的用户将有权访问他们将需要的联机资源。
 

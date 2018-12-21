@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: Skype 业务服务器使用 TLS 和 MTLS 来加密即时消息。 无论通信是限制在内部网络还是跨内部网络外围，所有服务器到服务器的通信都需要使用 MTLS。 当业务服务器 Skype 连接到第三方 IPPBX 系统或 SIP 中继 TLS 是可选的但强烈建议在中介服务器与媒体网关之间。 如果在此链接上配置了 TLS，则 MTLS 是必需的。 因此，必须使用从中介服务器信任的 CA 证书配置网关。
-ms.openlocfilehash: ff2aa0a3d0727aa5ed579413fe03593568f9f773
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: d6793af3329918af6d566199f8d9fd752df49a71
+ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240893"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "27382866"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Skype 加密业务服务器
  
@@ -45,7 +45,7 @@ Skype 业务服务器使用 TLS 和 MTLS 来加密即时消息。 无论通信�
 媒体通信使用安全 RTP (SRTP) 进行加密，SRTP 是为 RTP 通信提供保密性、身份验证和重播攻击保护的实时传输协议 (RTP) 的配置文件。此外，中介服务器与其内部下一个跃点之间的双向媒体流也使用 SRTP 进行加密。中介服务器与媒体网关之间的双向媒体流的加密是可选的，但建议进行加密。中介服务器能够支持对媒体网关进行加密，但该网关必须支持 MTLS 和证书存储。
   
 > [!NOTE]
-> 如果要实现混合环境，您还必须修改业务服务器加密级别 Skype。 默认情况下，加密级别为“必需”。 使用 Skype 业务 Server 命令行管理程序，必须对支持更改此设置。 有关设置混合的详细信息，请参阅部署文档中的[规划 Skype 业务服务器和 Skype 业务 online 之间的混合连接](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)或[业务服务器 2019年混合解决方案的 Skype](../../../SfBServer2019/hybrid/hybrid-solutions.md) 。
+> 如果要实现混合环境，您还必须修改业务服务器加密级别 Skype。 默认情况下，加密级别为“必需”。 使用 Skype 业务 Server 命令行管理程序，必须对支持更改此设置。 有关设置混合的详细信息，请参阅[规划 Skype 业务服务器和 Skype 业务 online 之间的混合连接](../../../SfBServer2019/hybrid/plan-hybrid-connectivity.md)。
   
 ## <a name="fips"></a>FIPS
 
