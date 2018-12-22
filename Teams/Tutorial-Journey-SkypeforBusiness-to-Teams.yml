@@ -18,12 +18,12 @@ metadata:
   - Teams_ITAdmin_Training
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 9bb08e55c9bf84b9402ace38235f870a13af1194
-  ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+  ms.openlocfilehash: d81b5f71c87b69f68f3bdbf4083a828a1c08fccf
+  ms.sourcegitcommit: d00b85ace80af0403efb85b71e5bcc66e76f837b
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 09/25/2018
-  ms.locfileid: "25012486"
+  ms.lasthandoff: 12/22/2018
+  ms.locfileid: "27411122"
 items:
 - durationInMinutes: 1
   content: "本教程是简介 for Business Skype 的 Microsoft 团队升级旅程和我们的端到端升级成功框架。 本教程将快速您定向到的推荐升级路径和资源可用于您刚开始进行规划，已在运行旁 Skype for Business，团队是否支持您在您旅程，或已准备好升级到团队。\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]\n\n此培训面向以下人员：\n-   IT 专业人员负责规划、 部署或管理 for Business 的 Skype。\n-   负责规划组织内的用户更改管理。\n-   希望了解如何为组织成功升级从 for Business 的 Skype 接近到团队。\n\n我们将转到有关如何这两种产品可以汇聚在一起，并解释哪些采取的步骤可以立即准备团队现有 Skype 业务环境的详细信息。 \n\n我们将讨论可帮助您规划和执行升级，概述包括跨技术和用户准备情况驱动获得最佳体验的主要活动的框架。\n\n本教程的主要目标是：\n-   浏览可帮助您规划您升级的升级路径。\n-   了解准备和实现升级所需的关键步骤。\n-   确定深入指导、 模板和资源可帮助您在您旅程。\n-   共享接下来的步骤开始使用我们的指南。\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]\n\n如果您有任何疑问或有关此培训的反馈，请发布在本教程的注释部分底部的\"下一步步骤\"页。\n\n要向我们提供有关 Teams 的产品反馈（例如，新功能想法），请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。\n"
@@ -32,7 +32,7 @@ items:
   content: "\n支持 Microsoft 的智能 communications 远景，Microsoft 团队是中心点，用于团队合作，聊天、 会议、 呼叫、 协作、 应用程序集成和文件存储在一起。 为业务客户现有 Skype，邀请您升级到 Microsoft 团队，以体验此全套中的单个客户端体验的通信和协作功能。\n\n若要获得更好地了解旅程，请查看[您从 for Business 的 Skype 旅程](https://aka.ms/upgradeabstract)(Sway，估计读取时间 3 分钟)\n\n团队是快速创新，不断添加新功能。 若要停留在顶部的功能将在团队中可用和时，将其签出[的将 Skype 的 Microsoft 团队的业务功能进行了更新路线图](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Updated-roadmap-for-bringing-Skype-for-Business-capabilities-to/ba-p/188007)（估计的阅读时间 2 分钟）\n\n我们还建议阅读[常见问题-从企业对 Microsoft 团队的 Skype 旅程](https://aka.ms/SkypeToTeams-FAQ)（估计的阅读时间 10 分钟） 若要获取的最常所讨论的主题深入了解。\n"
 - title: 升级旅程框架
   durationInMinutes: 2
-  content: "\nMicrosoft 提供的全面框架，可以帮助您规划和执行升级。 框架有两种不同类型： 基本升级变得更为简单环境和小型部署和升级 Pro for 较大的公司具有极高使用率的 Skype 业务功能。 在这两种情况下，框架包括以下几个阶段：\n\n![框架将指导您完成以下阶段： 项目利益干系人;项目定义;技术的准备情况和用户准备情况;部署和实施;卓越运营。](media/upgrade-banner-main.png \"框架将指导您完成以下阶段： 项目利益干系人;项目定义;技术的准备情况和用户准备情况;部署和实施;卓越运营。\")\n\n### <a name=\"upgrade-basic\"></a>升级基本\n\n设计的小型组织或业务 online IM （聊天） 和仅会议使用 Skype 那些，基本升级的清单是加速的行动计划包括核心，建议使用活动和关联的资源实施从 for Business 的 Skype 到团队的成功移动。\n\n这些十个轻松步骤提供成功升级所需的全部内容。\n正在设计用来为 45 30 天后，完成，但您应调整根据贵组织的升级计划的任务完成日期。\n\n### <a name=\"upgrade-pro\"></a>升级专业人员\n\n设计用于更大的组织或那些具有复杂部署 for Business （例如，混合或云语音部署），Skype 升级专业人员更长时间升级生命周期以及各种升级方案，包括运行 Microsoft 帐户旁 for Business 之前团队可供您的组织的 Skype 团队。\n\n可分为三个阶段，升级专业人员介绍：\n-   **升级前**： 启动意识到的小组的价值，随着时间的推移您升级的准备。 请考虑这些步骤以帮助确保积极的体验，如为您准备好后转换到团队的升级的系统必备组件。 如果您的组织已经在运行旁 for Business 的 Skype 团队，将用作贵组织的准备工作的验证检查点这些升级前的活动将用户升级到团队。\n-   **升级**： 准备好让用户停止 for Business 使用 Skype 组织后，您需要确保拥有留出足够的通知，以获得培训并开始使用团队 （如果尚未）。 您还需要执行步骤如业务会议其 Skype 进入团队以确保获得最佳体验。\n-   **升级后**： 您的整个组织对团队后，实现用于价值最大化的计划。 这包括监视您的网络质量、 提升的业务用法的 Skype 绕组向下，同时确保团队和规划指南继续发展的团队扩展功能。\n\n## <a name=\"which-one-to-choose\"></a>选择哪一个？\n\n没有任何将规定 Basic 或 Pro 是否适合您的部署的单个指示器。 但是，下表可帮助您确定哪种方法更适合：\n\n![上与 Pro Basic 决定受多种因素。](media/upgrade-basicvspro.png \n\"上与 Pro Basic 决定受多种因素。\")\n\n其他信息：\n-   [升级基本](https://aka.ms/UpgradeBasic)\n-   [升级专业人员](https://aka.ms/UpgradePro)\n"
+  content: "\nMicrosoft 提供的全面框架，可以帮助您规划和执行升级。 框架有两种不同类型： 基本升级变得更为简单环境和小型部署和升级 Pro for 较大的公司具有极高使用率的 Skype 业务功能。 在这两种情况下，框架包括以下几个阶段：\n\n![框架将指导您完成以下阶段： 项目利益干系人;项目定义;技术的准备情况和用户准备情况;部署和实施;卓越运营。](media/upgrade-banner-main.png \"框架将指导您完成以下阶段： 项目利益干系人;项目定义;技术的准备情况和用户准备情况;部署和实施;卓越运营。\")\n\n### <a name=\"upgrade-basic\"></a>升级基本信息\n\n升级基本清单是面向小型组织或使用 Skype for Business Online 传递即时消息（聊天）和召开会议的组织的加速行动计划，包括实现成功从 Skype for Business 迁移到 Teams 的核心建议活动及关联资源。\n\n这十个易于执行的步骤提供了成功升级所需的各方面内容。\n这些步骤设计为在大约 30 到 45 天内完成，但你应根据贵组织的升级计划调整任务完成日期。\n\n### <a name=\"upgrade-pro\"></a>升级专业人员\n\n设计用于更大的组织或那些具有复杂部署 for Business （例如，混合或云语音部署），Skype 升级专业人员更长时间升级生命周期以及各种升级方案，包括运行 Microsoft 帐户旁 for Business 之前团队可供您的组织的 Skype 团队。\n\n可分为三个阶段，升级专业人员介绍：\n-   **升级前**： 启动意识到的小组的价值，随着时间的推移您升级的准备。 请考虑这些步骤以帮助确保积极的体验，如为您准备好后转换到团队的升级的系统必备组件。 如果您的组织已经在运行旁 for Business 的 Skype 团队，将用作贵组织的准备工作的验证检查点这些升级前的活动将用户升级到团队。\n-   **升级**： 准备好让用户停止 for Business 使用 Skype 组织后，您需要确保拥有留出足够的通知，以获得培训并开始使用团队 （如果尚未）。 您还需要执行步骤如业务会议其 Skype 进入团队以确保获得最佳体验。\n-   **升级后**： 您的整个组织对团队后，实现用于价值最大化的计划。 这包括监视您的网络质量、 提升的业务用法的 Skype 绕组向下，同时确保团队和规划指南继续发展的团队扩展功能。\n\n## <a name=\"which-one-to-choose\"></a>选择哪一个？\n\n没有任何将规定 Basic 或 Pro 是否适合您的部署的单个指示器。 但是，下表可帮助您确定哪种方法更适合：\n\n![上与 Pro Basic 决定受多种因素。](media/upgrade-basicvspro.png \n\"上与 Pro Basic 决定受多种因素。\")\n\n其他信息：\n-   [升级基本信息](https://aka.ms/UpgradeBasic)\n-   [升级专业人员](https://aka.ms/UpgradePro)\n"
 - title: 规划您升级旅程
   durationInMinutes: 2
   content: >
@@ -97,24 +97,4 @@ items:
   content: "\n现在，您已移动到团队的所有用户，您需要获取确保该服务提供强大的质量，并且用户实际上都使用它。 阅读[驱动器与 Microsoft 团队卓越](https://aka.ms/SkypeToTeams-Operate)（估计的阅读时间 3 分钟） 以了解团队测量使用率和质量。\n"
 - title: 了解更多信息
   durationInMinutes: 1
-  content: >-
-    此培训涵盖了以下主要学习内容：
-
-    -   浏览可帮助您规划您升级的升级路径。
-
-    -   了解准备和实现升级所需的关键步骤。
-
-    -   确定深入指导、 模板和资源可帮助您在您旅程。
-
-    -   共享接下来的步骤开始使用我们的指南。
-
-
-    ### <a name="next-steps"></a>后续步骤
-
-    1.  访问 [http://SkypeandTeams.com](http://skypeandteams.com/) 以了解有关 Skype for Business 和 Teams 的最新信息
-
-    2.  Plan for Business 的 Skype 从向工作组您旅程
-
-    3.  向我们发送反馈
-        -    在此页面底部的“评论”部分发布。
-        -   要向我们提供 Teams 产品反馈或请求新功能，请访问 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)
+  content: "此培训涵盖了以下主要学习内容：\n-   浏览可帮助您规划您升级的升级路径。\n-   了解准备和实现升级所需的关键步骤。\n-   确定深入指导、 模板和资源可帮助您在您旅程。\n-   共享接下来的步骤开始使用我们的指南。\n\n### <a name=\"next-steps\"></a>后续步骤\n1.  访问 [http://SkypeandTeams.com](http://skypeandteams.com/) 以了解有关 Skype for Business 和 Teams 的最新信息\n2.  Plan for Business 的 Skype 从向工作组您旅程\n3.  向我们发送反馈\n    -    在此页面底部的“评论”部分发布。\n    -   要向我们提供 Teams 产品反馈或请求新功能，请访问 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)\n \n 如果您需要帮助规划和部署，您可以从[FastTrack](https://fasttrack.microsoft.com/en-us/portal.html#/register) （您必须登录） 请求帮助。\n\n 返回到[从业务向工作组的 Skype 升级](journey-skypeforbusiness-teams.md)。"
