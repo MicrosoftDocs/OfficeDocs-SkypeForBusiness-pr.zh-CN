@@ -1,5 +1,5 @@
 ---
-title: 管理您的设备中的 Microsoft 团队
+title: 在 Microsoft Teams 中管理设备
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,19 +12,19 @@ description: 了解如何管理与团队您组织中使用的设备。
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97fd4b8d7f613c6d3f435f2d505bbd2cf99d4b10
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: dff307b1bd4ede3e8999a78a5e6a8df36b8a1411
+ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531771"
+ms.lasthandoff: 12/28/2018
+ms.locfileid: "27458547"
 ---
-# <a name="manage-your-devices-in-microsoft-teams"></a>管理您的设备中的 Microsoft 团队
+# <a name="manage-your-devices-in-microsoft-teams"></a>在 Microsoft Teams 中管理设备
 
  作为一名管理员，您可以管理与团队您组织中使用的 Microsoft 团队链接 Skype 业务管理中心的所有设备。 您可以查看和管理组织的设备清单和执行任务更新，重新启动，等设备监视器诊断。 您还可以创建和配置配置文件分配的设备或设备组。 
 
 ## <a name="what-devices-can-you-manage"></a>您可以管理哪些设备？
-设备必须认证团队和团队中注册。 设备自动注册用户登录到工作组在设备的第一个时间。 
+设备必须认证团队和团队中注册。 设备自动注册用户登录到工作组在设备的第一个时间。 可以管理的认证设备的列表，请参阅[会议电话](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?categoryid=ddb1bc66-7499-4823-8d2b-a2c6dbe4f716)和[桌面电话](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?categoryid=c6536b33-f554-4b55-bd3d-c98733ebc017&page=1&filters=)。
 
 > [!NOTE]
 > 如果您有 Microsoft Intune，设备 Intune 自动注册。 注册设备后，确认设备合规性和条件的访问策略应用于该设备。 

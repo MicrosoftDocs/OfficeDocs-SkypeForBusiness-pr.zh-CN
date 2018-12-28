@@ -90,6 +90,7 @@
 ### [管理团队商业试用版](iw-trial-teams.md)
 ### [升级到 Office 365 订阅版本的免费的团队](upgrade-freemium.md)
 ## 支持的设备
+### [管理您的团队中的设备](device-management.md)
 ### [IP 电话](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [USB 音频和视频设备](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [会议室内设备和解决方案](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -490,7 +491,7 @@
 #### [创建并管理拨号计划](create-and-manage-dial-plans.md)
 ### 电话系统
 #### 小组电话
-##### [Microsoft 团队的电话](phones-for-teams.md)
+##### [Microsoft Teams 的电话功能](phones-for-teams.md)
 ##### [购买和部署 Microsoft 团队 IP 电话](buying-and-deploying-teams-ip-phones.md)
 #### [Office 365 中的电话系统是什么？](what-is-phone-system-in-office-365.md)
 #### [在你有组织中设置电话系统](setting-up-your-phone-system.md)
@@ -518,7 +519,7 @@
 #### [为多个租户配置会话边界控制器](direct-routing-sbc-multiple-tenants.md)
 #### [经认证可用于直接路由的会话边界控制器列表](direct-routing-border-controllers.md)
 #### 直接路由的技术参考
-##### [出站呼叫的中继故障转移](direct-routing-trunk-failover-on-outbound-call.md)
+##### [出站呼叫发生 Trunk 故障转移](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Online 的 Microsoft 团队呼叫流](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 

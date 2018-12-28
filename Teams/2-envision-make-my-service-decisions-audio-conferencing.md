@@ -1,9 +1,9 @@
 ---
-title: 决定要进行音频会议服务的 Microsoft 团队
+title: 做出音频会议服务决策 - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 03/13/2018
+ms.date: 12/28/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81dca894a378c5331c34b5840108e63536c8ac37
-ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
+ms.openlocfilehash: 0057f18d334c89f745ec74952fd01796c8b30880
+ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25597835"
+ms.lasthandoff: 12/28/2018
+ms.locfileid: "27458499"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -360,6 +360,7 @@ Office 365 的电话系统功能中的拨号计划是转换规范化规则的一
 > ||**FR-Service**<br>_法国的服务号码规范化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
+
 > [!TIP]
 > 可以利用下面的示例模板来记录拨号计划分配以支持你的项目：
 >
