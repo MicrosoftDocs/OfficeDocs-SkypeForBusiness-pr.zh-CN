@@ -1,9 +1,9 @@
 ---
-title: 规划 Microsoft 365 政府-GCC 高部署的 Microsoft 团队
+title: Microsoft 365 政府版规划 - GCC High 部署 - Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 12/19/2018
+ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe90163f53de63c0c0b4c82c510c0c4049188de4
-ms.sourcegitcommit: b4c7f2a0c5660610469fbb67e9810dd3fdcedbaa
+ms.openlocfilehash: 7ac987d64a6e1ea06178c0626d565293c80a22fe
+ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2018
-ms.locfileid: "27378582"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27544189"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Microsoft 365 政府版-GCC 高部署规划
 
@@ -151,6 +151,6 @@ Microsoft 365 政府-GCC 高环境提供符合美国的云服务的政府要求�
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>第 6 步 部署团队协作
 
-您已向 Microsoft 365 政府 – GCC 高 onboarded 后，您可以按照使用[FastTrack](https://fasttrack.microsoft.com/fasttrack-faq)和到板载您选择的合作伙伴服务的标准的部署方法。
+您已向 Microsoft 365 政府 – GCC 高 onboarded 后，您可以按照使用[FastTrack](https://www.microsoft.com/fasttrack)和到板载您选择的合作伙伴服务的标准的部署方法。
 
 当您准备好时，到[启用通过团队和通道组织内的协作](teams-overview.md)部署团队。 请务必与您应用和变更管理团队或团队拥护者。

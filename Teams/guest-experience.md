@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55f1a2ae8c958dba9dbdd71b9b271944dad1f50c
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 51d0de81701983fb64c60c5c4e29b9e6511b6357
+ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674550"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27544141"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
@@ -110,17 +110,24 @@ ms.locfileid: "26674550"
   
 ## <a name="frequently-asked-questions"></a>常见问题
   
-Q。 来宾有相同的功能团队成员吗？答: 否。 有关哪些来宾可以和无法执行的操作的详细信息，请转到团队中的来宾功能。
+Q。 来宾有相同的功能团队成员吗？<br>
+答： 否。 有关哪些来宾可以和无法执行的操作的详细信息，请转到团队中的来宾功能。
 
-Q。 可以邀请多少来宾？答： 您可以添加到每个许可用户 5 来宾为止。
+Q。 可以邀请多少来宾？<br>
+答： 您可以添加到每个许可用户 5 来宾为止。
 
-Q。 来宾是否有权 OneDrive for Business？答: 否。
+Q。 来宾是否有权 OneDrive for Business？<br>
+答： 否。
 
-Q。 来宾有权访问 SharePoint 文件？答: 是。
+Q。 来宾有权访问 SharePoint 文件？<br>
+答： 是。
 
-Q。 可以在文件中搜索来宾？答: 否。
+Q。 可以在文件中搜索来宾？<br>
+答： 否。
 
-Q。 来宾可以附加文件？答: 是，可以将来宾附加这两种方式中的文件: • 在左窗格中，选择文件，然后浏览到文件位置。
+Q。 来宾可以附加文件？<br>
+答： 来宾是，可以附加这两种方式中的文件: • 在左窗格中，选择文件，然后浏览到文件位置。
 • 从其计算机的上载。
 
-Q。 来宾您可以下载私人聊天中的文件。答: 是，他们可以接收来自私人聊天中的成员的文件，然后将其下载到他们的桌面。
+Q。 来宾您可以下载私人聊天中的文件。<br>
+答： 是，他们可以接收来自私人聊天中的成员的文件，然后将其下载到他们的桌面。
