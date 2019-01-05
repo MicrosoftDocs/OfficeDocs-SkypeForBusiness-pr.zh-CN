@@ -1,5 +1,5 @@
 ---
-title: 升级到 Office 365 订阅版本的 Microsoft 团队免费
+title: 将 Microsoft Teams free 升级到 Office 365 订阅版本
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,14 +16,14 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 92693db68372c3981f1ba7944403b4d0d0f2025c
-ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
+ms.openlocfilehash: cb8770b0929b46aa0e98e1429a11874756ed07e1
+ms.sourcegitcommit: d9059e8cb0a9b968ee16508f6bfcb5d949575590
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "27383507"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27733200"
 ---
-<a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>升级到 Office 365 订阅版本的 Microsoft 团队免费
+<a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>将 Microsoft Teams free 升级到 Office 365 订阅版本
 ======================================================
 
 如果您的组织使用免费版本的 Microsoft 团队，您可以轻松地升级到完整版，通过购买针对您的用户的 Office 365 订阅计划。 完整版提供了其他团队功能 — like 日程安排、 音频会议、 增强的管理和安全功能 — 免费版不提供。 Office 365 与基于云的版本的 Microsoft 的下一代通信和协作服务结合使用熟悉的 Microsoft Office 桌面套件 — 包括 Exchange Online、 SharePoint Online 和 Office Online — 可帮助用户工作效率从任何地方通过 internet。 升级团队时，您现有的团队数据将不会丢失;所有您团队、 通道、 聊天、 文件和权限附带您。 
@@ -83,6 +83,10 @@ ms.locfileid: "27383507"
 ![屏幕截图显示升级按钮](media/teams-freemium-upgrade-image1.png)
 
 输入您用于登录到团队的电子邮件地址，然后购买 Office 365 企业高级版计划。 如果您想要购买 Office 365 业务 Essentials 或 Enterprise edition 的 Office 365，[与支持部门联系](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade)。
+
+## <a name="whats-next"></a>下一步是什么？
+
+完成升级后，请参阅[入门的 Microsoft 团队](get-started-with-teams-landing-page.md)的第一个步骤和[采用 Microsoft 团队](adopt-microsoft-teams-landing-page.md)的团队应用的阶段性方法在整个组织。
 
 ## <a name="more-information"></a>更多信息
 
