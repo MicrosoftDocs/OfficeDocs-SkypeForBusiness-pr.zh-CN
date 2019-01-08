@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 为需要桌面电话和会议房间电话发起和接收音频呼叫或加入会议的客户，Microsoft 团队提供设备不断增长项目的组合。 客户可以直接购买从我们的团队 marketplace 获得这些设备。
-ms.openlocfilehash: b5dda1a8deb88278d1a3be1caefa7ef8eb90d933
-ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
+ms.openlocfilehash: f84bf50e7139b82c97af47e62fc128f5a178b5d0
+ms.sourcegitcommit: a4fed143f0e906c2b70933dd2db8f751e4eb46ba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "27383087"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27747966"
 ---
 # <a name="buying-and-deploying-microsoft-teams-ip-phones"></a>购买和部署 Microsoft 团队 IP 电话
 
@@ -33,8 +33,8 @@ ms.locfileid: "27383087"
 |Crestron 弹性 P100-T/P110-T    |即将提供|即将提供
 |Crestron M100|2.3875.00068|十进制 2018|       
 |Polycom Trio   |即将提供|即将提供|   
-|Yealink CP 960 |73.15.0.11|十进制 2018
-|Yealink T58/T56 系列 |58.15.0.11|十进制 2018|
+|Yealink CP 960 |73.15.0.20|十进制 2018
+|Yealink T58/T56 系列 |58.15.0.20|十进制 2018|
 
 
 可以通过在右上角中选择**设置**图标，然后单击**有关**，在团队登录页来检查的最小的固件版本。
@@ -56,4 +56,4 @@ ms.locfileid: "27383087"
 
 ## <a name="see-also"></a>另请参阅
 
-[Microsoft 团队的电话](phones-for-teams.md)
+[Microsoft Teams 的电话功能](phones-for-teams.md)
