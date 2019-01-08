@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8db3f5e451e9b1a68588af637f10a908f7fa5ff9
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: a486fb17e5ce09d7084d013479ab3087bcbe3f07
+ms.sourcegitcommit: 370741f97ed8ea5026f73ec97de2f89b223df9fa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674502"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27760532"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 ======================================
@@ -33,7 +33,7 @@ ms.locfileid: "26674502"
 - 在下面的“注释”部分中分享你的体验。
 
 
-来宾访问允许组织中要向其授予对现有团队和上一个或多个租户的频道的访问通过与组织外部的人员进行协作的团队。 具有业务或使用者的电子邮件帐户，如 Outlook、 Gmail，或其他任何人都可以参与作为来宾团队中具有到团队聊天、 会议和文件的完全访问权限。
+来宾访问允许组织中要向其授予对现有团队和上一个或多个租户的频道的访问通过与组织外部的人员进行协作的团队。 具有企业或消费者电子邮件帐户（例如 Outlook、Gmail 或其他帐户）的任何人都能以访客身份参与 Teams，并对团队聊天、会议和文件具有完全访问权限。
 
 来宾访问随所有 Office 365 企业高级版、 Office 365 Enterprise 和 Office 365 教育版订阅与任何其他的许可要求。 每个许可用户最多 5 来宾会对您的租户。 有关许可的详细信息，请参阅[Azure Active Directory B2B 协作许可指南](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance)。 
 
@@ -44,7 +44,7 @@ ms.locfileid: "26674502"
 
 ## <a name="who-is-a-guest"></a>谁是来宾？
 
-来宾是贵组织的员工、学生和成员以外的任何人。 他们在贵组织没有学校或工作帐户。 例如，来宾可以包括合作伙伴、供应商、提供商或顾问。 不属于您的组织的任何人都可以作为来宾团队中添加。 这意味着与业务帐户 （即，Azure Active Directory 帐户） 或使用者电子邮件帐户 （以及 Outlook.com、 Gmail.com 或其他） 的任何人都可以参与作为来宾团队中具有完全访问权限的团队和通道体验。 （您可以了解有关[授权来宾访问中的 Microsoft 团队](teams-dependencies.md)中的来宾限制。）团队中的所有来宾涵盖的相同的遵从性和审核保护 Office 365 的其余部分和 Azure AD 中可以安全地进行管理。 团队中的所有来宾涵盖的相同的遵从性和审核保护 Office 365 的其余部分和 Azure AD 中可以安全地进行管理。
+来宾是贵组织的员工、学生和成员以外的任何人。 他们在贵组织没有学校或工作帐户。 例如，来宾可以包括合作伙伴、供应商、提供商或顾问。 不属于您的组织的任何人都可以作为来宾团队中添加。 这意味着与业务帐户 （即，Azure Active Directory 帐户） 或使用者电子邮件帐户 （以及 Outlook.com、 Gmail.com 或其他） 的任何人都可以参与作为来宾团队中具有完全访问权限的团队和通道体验。 （您可以了解有关[授权来宾访问中的 Microsoft 团队](teams-dependencies.md)中的来宾限制。）团队中的所有来宾涵盖的相同的遵从性和审核保护 Office 365 的其余部分和 Azure AD 中可以安全地进行管理。 
 
 ## <a name="why-use-guest-access"></a>为什么使用来宾访问？
       

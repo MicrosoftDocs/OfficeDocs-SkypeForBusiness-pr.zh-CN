@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 为需要桌面电话和会议房间电话发起和接收音频呼叫或加入会议的客户，Microsoft 团队提供设备不断增长项目的组合。 客户可以直接购买从我们的团队 marketplace 获得这些设备。
-ms.openlocfilehash: f84bf50e7139b82c97af47e62fc128f5a178b5d0
-ms.sourcegitcommit: a4fed143f0e906c2b70933dd2db8f751e4eb46ba
+ms.openlocfilehash: c91a20f100e8edf9b7a6d9897b693ec0f511657f
+ms.sourcegitcommit: 370741f97ed8ea5026f73ec97de2f89b223df9fa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 01/08/2019
-ms.locfileid: "27747966"
+ms.locfileid: "27760556"
 ---
 # <a name="buying-and-deploying-microsoft-teams-ip-phones"></a>购买和部署 Microsoft 团队 IP 电话
 
@@ -27,7 +27,7 @@ ms.locfileid: "27747966"
 
 电话必须最低固件版本上列出下表中运行的 Microsoft 团队本身。
 
-|电话型号|固件版本|发布日期|
+|电话型号|固件版本|发布日期 |
 |---|---|---|---|
 |Audiocodes C450HD| 即将提供 |即将提供|
 |Crestron 弹性 P100-T/P110-T    |即将提供|即将提供
