@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 来宾访问清单
-author: romanma
-ms.author: romanma
+author: somakbhattacharyya
+ms.author: sbhatta
 manager: serdars
 ms.date: 11/09/18
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4051c2db43f3aa1cdb2d26af07076496c4838a94
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: a7fa7e7d7999bd42748e1997a4ec73b37ca14a67
+ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674486"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27772766"
 ---
 <a name="teams-guest-access-checklist"></a>团队来宾访问清单
 ==========================================

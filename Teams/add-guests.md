@@ -1,7 +1,7 @@
 ---
 title: 向团队添加来宾
-author: LaithAlShamri
-ms.author: laal
+author: somakbhattacharyya
+ms.author: sbhatta
 manager: serdars
 ms.date: 11/26/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.reviewer: sbhatta
 description: 了解管理员可用于将新来宾用户添加到组织的工具，包括 Microsoft Teams 桌面客户端和 Web 客户端以及 Azure Active Directory B2B 协作门户。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 729490af1c1e15b82d62dc35386e9ad4344d863a
-ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
+ms.openlocfilehash: efd44fade33f611148dc2ab4ca9afb4040705123
+ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/29/2018
-ms.locfileid: "26984731"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27772735"
 ---
 <a name="add-a-guest-to-a-team"></a>向团队添加来宾
 =====================
@@ -50,4 +50,4 @@ ms.locfileid: "26984731"
 
 [在 Microsoft Teams 中授权来宾访问](teams-dependencies.md)</br>
 [打开或关闭来宾访问中的 Microsoft 团队](set-up-guests.md)</br>
-[使用 PowerShell 控制对团队的来宾访问](guest-access-powershell.md)
+[使用 PowerShell 控制来宾对团队的访问](guest-access-powershell.md)
