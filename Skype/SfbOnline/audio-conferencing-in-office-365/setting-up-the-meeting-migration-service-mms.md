@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 会议迁移服务 (MMS) 是在后台运行，并为用户的业务和 Microsoft 团队会议将自动更新 Skype 的服务。 MMS 旨在消除用户运行会议迁移工具需要更新其 Skype 业务和 Microsoft 团队的会议。
-ms.openlocfilehash: 5b01dfc0c50ecb742e049905c81a418007ea3600
-ms.sourcegitcommit: d00b85ace80af0403efb85b71e5bcc66e76f837b
+ms.openlocfilehash: 94f3d315810e6fdee93ffa8abfe6a657ca8b43fd
+ms.sourcegitcommit: 1b9f19b1bd8f33ee2f011cd5ea2d0d75bf8647c9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/22/2018
-ms.locfileid: "27411112"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27783514"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>使用会议迁移服务 (MMS)
 
@@ -44,7 +44,6 @@ ms.locfileid: "27411112"
 **限制**： 会议如果以下任一情况，不能使用迁移服务：
 
 - 用户邮箱位于 Exchange 内部部署中。
-- 用户配置为使用第三方音频会议提供商。 请注意，音频会议提供商 [ACP] 支持计划的生命周期结束上 2019，年 4 月 1，为[以前宣布](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)。
 - 用户正在迁移从云到 Skype 的业务 Server 内部部署。
 
 在这些情况下，最终用户可以使用[会议迁移工具](https://www.microsoft.com/en-us/download/details.aspx?id=51659)来迁移他们自己的会议而。
@@ -96,8 +95,8 @@ ms.locfileid: "27411112"
 
 在以下情况下，MMS 会更新现有 Skype 业务和 Microsoft 团队会议添加、 删除或修改电话拨入式坐标：
 
-- 当您分配或删除与第三方音频会议提供商的 Skype 的业务集成未启用的用户的 Microsoft 音频会议服务许可证。
-- 如果更改了音频会议提供商的用户具有 Microsoft 的音频会议服务许可证从任何其他提供程序分配给 Microsoft。
+- 第三方音频会议提供商未启用时，您可以分配或删除用户和该用户的 Microsoft 音频会议服务许可证。
+- 当您更改用户的音频会议提供商从任何其他提供程序为 Microsoft，提供用户分配 Microsoft 音频会议许可证。 有关详细信息，请参阅[分配 Microsoft 作为音频会议提供商](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。 另请注意，支持第三方音频会议提供商 [ACP] 已安排生命周期结束上 2019，年 4 月 1，为[以前宣布](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)。
 - 当您启用或禁用的用户的音频会议。
 - 当您更改或重置用户配置为使用公开会议的会议 ID。
 - 当您将用户移动到新的音频会议桥。
@@ -108,8 +107,6 @@ ms.locfileid: "27411112"
 - 当你更改会议组织者的 SIP 地址（其 SIP 用户名或 SIP 域）时
 - 当您更改您的组织的会议 URL 使用`Update-CsTenantMeetingUrl`命令。
 
-> [!NOTE]
-> 如果为用户启用的第三方 ACP，则不会触发 MMS。 ACP 安排的生命周期结束上 2019 年 4 月 1，为[以前宣布](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)。 如果您希望 MMS 迁移用户的会议，首先对用户禁用 ACP。
 
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>更新会议分配 TeamsUpgradePolicy 时
 
@@ -123,6 +120,23 @@ ms.locfileid: "27411112"
 - 会议迁移时才会激活您授予`TeamsUpgradePolicy`为某个特定用户。 如果您授予`TeamsUpgradePolicy`与`mode=TeamsOnly`或`mode=SfBWithTeamsCollabAndMeetings`在租户范围内，会议迁移不调用。
 - 用户只能授予 TeamsOnly 模式如果用户驻留联机。 必须使用移动用户驻留在内部部署的`Move-CsUser`如上文所述。
 - 授予 TeamsOnly 或 SfBWithTeamsCollabAndMeetings 模式不转换现有团队会议为 Skype 业务会议。
+
+### <a name="trigger-meeting-migration-manually-via-powershell"></a>通过 PowerShell 自定义手动触发会议迁移
+
+除了自动会议迁移，管理员可以手动触发会议迁移的用户通过运行 cmdlet `Start-CsExMeetingMigration`。 此 cmdlet 队列中指定的用户的迁移请求。 新`TargetMeetingType`（这是当前仅限于技术应用程序中的参与者） 参数可以指定如何迁移会议： 
+
+- 使用`TargetMeetingType Current`指定的业务会议的 Skype 能够 Skype 业务会议并团队会议保持团队会议。 可能更改但是音频会议协调，和业务会议的任何本地 Skype 将业务 online 迁移到 Skype。
+- 使用`TargetMeetingType Teams`指定必须将任何现有会议迁移到团队，无论是否会议位于 Skype 中适用于商务联机或本地和无论是否需要的任何音频会议更新如下。 
+
+下面的示例演示如何启动会议迁移用户 ashaw@contoso.com，以便所有会议都将都迁移到团队：
+
+```
+Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
+```
+
+> [!NOTE]
+> 开始 CsExMeetingMigration cmdlet 可供所有客户，但新 TargetMeetingTypeParameter 仅目前点击客户的功能。 
+
 
 ## <a name="managing-mms"></a>管理 MMS
 
@@ -168,18 +182,7 @@ ms.locfileid: "27411112"
     - 让用户创建新的 Skype 会议。
     - [联系支持人员](https://go.microsoft.com/fwlink/p/?LinkID=518322)。
 
-### <a name="trigger-meeting-migration-manually-for-a-user"></a>用户的手动触发会议迁移
 
-除了自动会议迁移，管理员可以手动触发会议迁移的用户通过运行 cmdlet `Start-CsExMeetingMigration`。 此 cmdlet 队列中指定的用户的迁移请求。 `TargetMeetingType`参数可以指定如何迁移会议： 
-
-- 使用`TargetMeetingType Current`指定的业务会议的 Skype 能够 Skype 业务会议并团队会议保持团队会议。 可能更改但是音频会议协调，和业务会议的任何本地 Skype 将业务 online 迁移到 Skype。
-- 使用`TargetMeetingType Teams`指定必须将任何现有会议迁移到团队，无论是否会议位于 Skype 中适用于商务联机或本地和无论是否需要的任何音频会议更新如下。 
-
-下面的示例演示如何启动会议迁移用户 ashaw@contoso.com，以便所有会议都将都迁移到团队：
-
-```
-Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
-```
 ### <a name="enabling-and-disabling-mms"></a>启用和禁用 MMS
 
 所有组织，默认情况下启用 MMS，但可以禁用，如下所示：
