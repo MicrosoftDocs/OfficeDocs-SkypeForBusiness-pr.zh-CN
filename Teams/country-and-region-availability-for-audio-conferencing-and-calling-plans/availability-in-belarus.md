@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于白俄罗斯业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: c9ee1ce7bf93727d19cde5e79ade907aa75be923
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9df2ad1f118e5f0fe1ed1e88579fe8c14d34cf95
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013944"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789250"
 ---
 # <a name="availability-in-belarus"></a>白俄罗斯中的可用性
 
@@ -45,7 +45,7 @@ ms.locfileid: "25013944"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |否  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |使用 Communications 字幕式付薪每分钟的空闲  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 

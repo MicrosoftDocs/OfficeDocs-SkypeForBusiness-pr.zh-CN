@@ -3,7 +3,7 @@ title: 从联机业务的 Skype 升级到团队的 Microsoft 团队
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 12/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fabcd88a0444a01f950064ade0c49dfef50400e1
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4f454b3c6e7ae41e87c9d44c02cd76b995313fc7
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013568"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789328"
 ---
 ![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
 
@@ -43,9 +43,53 @@ ms.locfileid: "25013568"
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>分配的共存和升级模式
 
-升级到团队可以通过分配 TeamsUpgradePolicy，可以使用的 Microsoft 团队 Skype Business Admin Center 或 Skype 业务远程 Windows Powershell 会话执行的 TeamsOnly 模式来实现。
+您可以通过分配 TeamsUpgradePolicy，可以通过使用 Microsoft 团队和 Skype for Business Admin Center 或 Skype 业务远程 Windows Powershell 会话执行的 TeamsOnly 模式升级团队用户。
 
 有关详细信息，请参阅[设置您共存和升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)和[TeamsUpgradePolicy： 管理迁移和共存](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)。
+
+## <a name="upgrade-all-users-to-teams-at-one-time"></a>一次升级到团队的所有用户
+
+按照以下步骤一次将所有用户升级到团队。
+
+### <a name="step-1-notify-the-users-of-the-change"></a>步骤 1： 通知用户的更改 
+
+1. 选择**组织范围设置**中的 Microsoft 团队业务管理中心的 Skype， > **团队升级**。 
+2. **共存模式**下, 到**上**更改的**通知的 Skype 业务用户升级到团队是可用的**开关。
+
+### <a name="step-2-set-the-coexistence-mode-for-the-users"></a>步骤 2： 为用户设置的共存模式 
+
+1. 在 Microsoft 团队和 Skype 业务管理中心的选择**组织范围的设置**。 
+2. 从**共存模式**下拉列表中选择**仅团队**模式。
+ 
+## <a name="upgrade-users-in-stages"></a>分阶段升级用户
+
+如果您想要为团队中逐步升级您的用户，请按照以下步骤。
+
+### <a name="step-1-create-your-user-cohorts-for-the-upgrade"></a>步骤 1： 创建您升级的用户群体 
+
+用户群体是将同时移至仅团队模式的用户的组。  
+
+创建您的用户群体 （将链接添加到用户选择页）
+ 
+### <a name="step-2-set-the-user-mode-to-islands"></a>步骤 2： 将用户模式下设置为群岛 
+
+1. 在 Microsoft 团队和 Skype 业务管理中心的选择**用户**，然后选择用户群体。
+2. **升级团队**、 旁边选择**编辑**。
+3. 在**工作组升级**窗格的**共存模式**下，从下拉列表中选择**群岛**。 
+
+### <a name="step-3-set-notification-for-the-user-optional"></a>步骤 3： 为用户的通知 （可选） 
+
+1. 在的 Microsoft 团队和 Skype 业务管理中心的选择**用户**，然后选择用户群体。
+2. **升级团队**、 旁边选择**编辑**。
+3. 在**工作组升级**窗格的**共存模式**下，更改为**上**的**通知业务用户 Skype**开关。
+
+### <a name="step-4-set-the-user-mode-to-teams-only"></a>步骤 4： 将用户模式下设置为仅团队 
+
+当您准备升级团队用作其唯一的应用程序的用户时，为团队仅用户的共存模式。  
+
+1. 在 Microsoft 团队和 Skype 业务管理中心的选择**用户**，然后选择用户群体。
+2. **升级团队**、 旁边选择**编辑**。
+3. 在**工作组升级**窗格的**共存模式**下，从下拉列表中选择**仅团队**。 
 
 ## <a name="phone-system-and-teams-upgrade"></a>电话系统和团队升级
 

@@ -11,12 +11,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: 为管理员提供的身份验证方法的更多控制此文章轮廓 cmdlet 使用的企业内部和外部、。 管理员可以打开身份验证方法或关闭到他们的网络的内部或外部。
-ms.openlocfilehash: 8350e1b6f3bae27c3b8355b0dee3b737bccaf655
-ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
+ms.openlocfilehash: 1761722bca624451b1cfc6acc28bed7b00eabe6d
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2018
-ms.locfileid: "27371184"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789258"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>关闭旧身份验证方法内部和外部到您的网络规划。
 
@@ -82,6 +82,10 @@ __类型 5 说明：__ 现代 ADAL 客户端将使用 MA 的*外部*，并且不
 * 如果这两种角色存在池，但不在池级别定义策略，获取将返回一条错误消息。
 
 它可能最明智的方式执行 Get-这些值，并屏幕截图或其起始状态记录进行任何更改之前。 您可能还考虑在 OneNote 中保留更改日志。
+
+> [!NOTE]
+> 
+> 注意： 后配置 CsAuthConfig，您必须运行 Enable-cscomputer 顺序的设置才会生效的每台计算机上。
 
 > [!IMPORTANT]
 > 如果您使用的 Lync Web Access (LWA)，必须使用基于表单的访问 (FBA) 的外部访问，重新配置 LWA，以便客户端可以访问它来支持这些方案的匿名访问。 同样，如果您使用的拨入 Pin，将为外部用户仅阻止 FBA。 如果所需更改其 pin，他们将需要登录到其公司为此，请内部。

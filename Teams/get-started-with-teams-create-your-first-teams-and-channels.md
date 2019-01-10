@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 团队中创建第一个团队和通道
+title: 在 Microsoft Teams 中创建首批团队和频道
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 496d5f941f245d513aefbf165e37c33d9e431780
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: c2cb8fb04f244139255cb363a6779379824cb709
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519684"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789320"
 ---
-# <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>在 Microsoft 团队中创建第一个团队和通道
+# <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>在 Microsoft Teams 中创建首批团队和频道
 
 设置和使用您的团队和频道的第一组生成您的体验与团队并标识拥护者可帮助您的组织内的驱动器团队应用。 
 
@@ -41,7 +41,7 @@ ms.locfileid: "26519684"
 | ------------ | -------------------- | -------------------- |
 | 常规 | 所有团队都开头的常规通道。 使用此通道您开始了解团队进行通知。 |  |
 | 说劫持 | 介绍您自己与团队和共享您想要获得团队。 |  |
-| 如何实现？ | 操作方法提问频道。</br>步骤 1 – 安装桌面和移动客户端。</br>步骤 2 – 跳转到团队。| 链接到[团队帮助中心](https://support.office.com/teams)的固定选项卡</br>链接到[团队培训视频](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)的固定选项卡</br>链接到[团队桌面和移动客户端下载链接](https://teams.microsoft.com/downloads)的固定选项卡 |
+| 操作方法 | 操作方法提问频道。</br>步骤 1 – 安装桌面和移动客户端。</br>步骤 2 – 跳转到团队。| 链接到[团队帮助中心](https://support.office.com/teams)的固定选项卡</br>链接到[团队培训视频](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)的固定选项卡</br>链接到[团队桌面和移动客户端下载链接](https://teams.microsoft.com/downloads)的固定选项卡 |
 | 反馈 | 共享您的想法团队体验。 | 固定选项卡与 Polly 投票|
 | 将来团队的想法 | 共享您的想法在其中团队可以在组织中驱动器额外的值。 什么无法这些团队调用？ 谁将成员？ ||
 | 支持 | 如果内容未按预期方式工作，，使用此通道获取帮助。 ||

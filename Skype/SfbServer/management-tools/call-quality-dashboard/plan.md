@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 摘要： 了解有关呼叫质量仪表板规划时应考虑的事项。
-ms.openlocfilehash: 6df705b4d3b39bdd9f75d328277d9aa1c5fc23d1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b524bd344ead2dbc526265f6421881cc6a848b76
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531231"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789367"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>规划呼叫质量仪表板的 Skype 业务服务器 
  
@@ -83,7 +83,7 @@ CQD 还抽象化许多内部的 QoE 数据特性，例如"呼叫者"和"被叫�
 
 门户是最快捷的方式查看中多维数据集的数据。 门户附带了可供立即多个内置报表。 内置报告结构化方式指导用户到连续较小和最小切片呼叫数据的链接。 内置报告还突出显示的数据可以显示由演示图表和表具有不同的数据透视表、 筛选器和度量值的组合的各种不同方式。 每个访问门户的用户可以有其自己的报告，他/她可以修改和共享的组。 有关使用率 CQD Web 门户的详细信息，请参阅[使用呼叫质量仪表板 Skype 业务服务器](use.md)。
   
-支持为 CQD 门户的操作系统： Windows 8.1、 Windows 8、 Windows Server 2012 R2 和 Windows Server 2012。
+支持为 CQD 门户的操作系统： Windows 8.1、 Windows 8、 Windows Server 2012 R2、 Windows Server 2012 和 Windows Server 2016 (Skype 的业务服务器 2019 CQD 仅)。
   
 支持的浏览器 CQD 门户： Internet Explorer 11、internet、 Internet Explorer 10 和 Internet Explorer 9。
   
@@ -238,7 +238,7 @@ CQD 利用 Microsoft SQL Server、 Microsoft SQL Analysis Server 和 Microsoft I
     
 - 使用 IIS 8.5 的 Windows Server 2012 R2
 
-- Windows Server 2016 IIS
+- Windows Server 2016 使用 IIS 10.0 (Skype 的业务服务器 2019 CQD 仅)
     
 以下是 （层次结构顺序） 中所需的 IIS 角色服务：
   

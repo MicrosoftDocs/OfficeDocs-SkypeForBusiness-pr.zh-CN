@@ -18,22 +18,22 @@ f1keywords: None
 ms.custom:
 - SMB
 description: 很遗憾，还有阻止某些用户许可证时用户转到https://broadcast.skype.com并且想要使用 Skype 会议广播。 如果用户会看到此消息，他们可以分配给他们的阻止许可证之一。 如果您仍希望他们使用它，请将其分配其他 Office 365 许可证。
-ms.openlocfilehash: 68ea3a6632ce5c25c0c443edc8abc66a5c6f5bbe
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b20334a525aa7942af90439cf05add7c49fc1f8b
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861402"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788962"
 ---
-# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>阻止 Skype 会议直播的用户许可证
+# <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>阻止用户许可证承载 Skype 会议广播
 
-很遗憾，还有被阻止，当用户转到某些用户许可证https://broadcast.skype.com并且想要使用 Skype 会议广播。 如果用户会看到此消息，他们可以分配给他们的阻止许可证之一。 如果您仍希望他们使用它，请将其分配其他 Office 365 许可证。
+很遗憾，还有被阻止，当用户转到某些用户许可证https://broadcast.skype.com并且想要承载 Skype 会议广播。 如果用户会看到此消息，他们可以分配给他们的阻止许可证之一。 如果您仍希望他们使用它，请将其分配其他 Office 365 许可证。
   
  *"您的公司策略不允许您可以使用 Skype 会议广播。咨询您的系统管理员，以确保启用了服务并且具有正确的许可证。"* 
   
-## <a name="blocked-user-licenses"></a>阻止的用户许可证
+## <a name="blocked-user-licenses"></a>阻止的用户许可证 
 
-如果任何以下用户许可证分配给用户，将会阻止 Skype 会议广播。
+如果任何以下用户许可证分配给用户，将会阻止承载 Skype 会议广播事件。 进行流式处理广播的事件的与会者不需要任何用户许可证。
   
 - Office 365 教育预计完成成本/人员
     

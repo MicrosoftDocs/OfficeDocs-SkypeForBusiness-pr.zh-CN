@@ -8,26 +8,21 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 一般情况下，您的拓扑的其余部分以及迁移通讯簿。 但是，您可能需要执行一些迁移后的步骤，如果旧环境中自定义以下：
-ms.openlocfilehash: 01279284086499b112028644ea0e1ca2fc708dd0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 081246acaaede37ab7f7f204a3f7204d9b25fbcc
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370767"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788992"
 ---
 # <a name="migrate-address-book"></a>迁移通讯簿
 
 一般情况下，您的拓扑的其余部分以及迁移通讯簿。 但是，您可能需要执行一些迁移后的步骤，如果旧环境中自定义以下： 
 
-- 将**PartitionbyOU** WMI 属性设置为按组织单位 (OU) 的组通讯簿条目。 
-
 - 自定义通讯簿规范化规则。
 
 - 更改将**UseNormalizationRules**参数的默认值为 False。 
 
-  **分组的通讯簿条目**
-
-如果将**PartitionbyOU** WMI 属性设置为 True 可为每个 OU 中创建通讯簿，您需要的用户和联系人设置**Msrtcsip-groupingid** Active Directory 属性，如果您想要继续进行通讯簿条目分组。 您可能希望为通讯簿条目分组来限制的通讯簿搜索的范围。 若要使用**Msrtcsip-groupingid**属性，编写脚本以填充属性，分配的所有用户想要组合在一起的相同值。 例如，分配一个 single 值，在对 OU 中的所有用户。 
 
  **通讯簿规范化规则**
 
@@ -67,7 +62,7 @@ ms.locfileid: "25370767"
 
 1. 为业务 Server 命令行管理程序启动 Skype： 单击**开始**，单击**所有程序**，都单击**Microsoft Skype 的业务服务器 2019年**，，然后都单击**Skype 的业务 Server Management Shell**。
 
-2. 执行下列操作之一：
+2. 请执行下列操作之一：
 
    - 如果您的部署包括仅 Skype 的业务服务器 2019，在要以**将 UseNormalizationRules**和**IgnoreGenericRules**的值更改为 True 的全局级别运行以下 cmdlet: 
 

@@ -1,5 +1,5 @@
 ---
-title: 使用 PSTN 连接的混合环境中的用户帐户
+title: 采用 PSTN 连接的混合环境中的用户帐户
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,14 +15,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 了解不同的用户创建和组合的受支持或不受支持的组合。
-ms.openlocfilehash: f742efc18de05997f73a33b96800cc10a9a9d124
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 15513b426b37f01749c6253021ebb619385fb61e
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26510619"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789204"
 ---
-# <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>使用 PSTN 连接的混合环境中的用户帐户
+# <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>采用 PSTN 连接的混合环境中的用户帐户
 
 ## <a name="about-the-environment"></a>有关环境
 
@@ -62,10 +62,9 @@ ms.locfileid: "26510619"
 |本地 AD|Online |Microsoft Teams |直接路由  |是 |
 |**不受支持的组合**    | |         |         |
 |Azure AD| 部署/online 上 | Skype 业务/Microsoft 团队|企业语音/混合语音连接/直接路由  |否，必须在用户对象中创建的本地 AD 首先 |
-|本地 AD  |内部部署| Microsoft Teams| 企业语音/混合语音连接/直接路由   |否，Microsoft 团队客户端不支持的本地 Skype for Business |
-|本地 AD  |Online |Skype for Business | 直接路由  | 业务客户端的 Skype 否，不支持使用直接路由  |
-|本地 AD  |Online |Skype for Business  | 直接路由  |否，直接路由中不支持与 Skype for Business 客户端，用户必须先为 Skype for Business 中的企业语音启用  |
-|   |         |         |         ||
+|本地 AD  |内部部署| Microsoft Teams| 企业语音/混合语音连接/直接路由   |否，Microsoft 团队客户端不支持的本地 Skype for Business |     
+    
+|本地 AD |联机 |Skype for Business |直接路由 |否，直接路由中不支持与 Skype for Business 客户端，用户必须先为 Skype for Business 中的企业语音启用 | |  |        |        |        ||
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>与 PSTN 的混合环境的可支持性语句
 

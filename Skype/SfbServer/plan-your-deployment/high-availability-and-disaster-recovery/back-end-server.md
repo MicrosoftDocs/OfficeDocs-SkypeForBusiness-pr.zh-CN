@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: 了解业务服务器，包括 AlwaysOn 可用性组、 AlwaysOn 故障转移集群实例、 数据库镜像，和 SQL 故障转移群集 Skype 中支持的后端服务器高可用性选项。
-ms.openlocfilehash: 57cc09765ab8f753e60a5f76f5d93b385c7fd406
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c17d4afb20a0aeef2a1dacc40080a1092fbda357
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983182"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789290"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>后端服务器高可用性 Skype 业务服务器
  
@@ -41,11 +41,16 @@ ms.locfileid: "20983182"
 
 Skype 业务服务器支持与以下数据库软件镜像：
   
+- SQL Server 2016，Enterprise Edition 和 Standard Edition
+
 - SQL Server Enterprise Edition 和 Standard Edition 2014 年
     
 - SQL Server 2012 SP2 和 CU2，Enterprise Edition 和 Standard Edition
     
 - SQL Server 2008 R2 SP2，Enterprise Edition 和 Standard Edition
+
+> [!NOTE]
+> SQL Server 2016 是唯一支持的业务服务器 2019 Skype 的版本。
     
 异步数据库镜像不支持的后端服务器高可用性 Skype 业务服务器。 在本文档的后续部分中，除非另有说明，否则数据库镜像即表示同步数据库镜像。 
   
@@ -108,13 +113,18 @@ Skype 业务服务器支持与以下数据库软件镜像：
 
 Skype 业务服务器支持 SQL Server 故障转移群集与以下数据库软件：
   
+- SQL Server 2016，Enterprise Edition 和 Standard Edition
+
 - SQL Server Enterprise Edition 和 Standard Edition 2014 年
     
 - SQL Server 2012 SP2 和 CU2，Enterprise Edition 和 Standard Edition
     
 - SQL Server 2008 R2 SP2，Enterprise Edition 和 Standard Edition
+
+> [!NOTE]
+> SQL Server 2016 是唯一支持的业务服务器 2019 Skype 的版本。
     
-若要使用 SQL 故障转移群集，应首先设置，并部署前端池之前配置 SQL Server 群集。 最佳实践和故障转移群集在 SQL Server 2012 中的安装说明，请参阅[https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx)。 有关故障转移群集在 SQL Server 2008 中，请参阅[https://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx)。
+若要使用 SQL 故障转移群集，应首先设置，并部署前端池之前配置 SQL Server 群集。 最佳实践和故障转移群集 SQL Server 2014 和 2016年中的安装说明，请参阅[https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx)。 有关故障转移群集在 SQL Server 2008 中，请参阅[https://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx)。
   
 安装 SQL Server 时，应安装 SQL Server Management Studio 来管理数据库位置和日志文件位置。安装 SQL Server 时，SQL Server Management Studio 将作为可选组件安装。
   

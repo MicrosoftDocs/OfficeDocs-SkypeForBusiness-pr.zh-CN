@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要： 业务服务器 2019年的 Skype 或 Skype 的业务 Online 管理员可以使用这些表了解上的客户端支持哪些功能。
-ms.openlocfilehash: dfc9e568ae9d600e03e1473aff7bcf6571b68f38
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 296e96af455b7cea8cddf833acff19a665349933
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297690"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789109"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>业务服务器 2019年的 Skype 的的桌面客户端功能比较
 
@@ -135,9 +135,9 @@ ms.locfileid: "27297690"
 |禁用会议 IM |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
 |将受众设为静音 |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |将每个人都设为与会者 |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
-|开通 Skype 会议直播 |& #x 2714;& #x 2779;|||& #x 2714;& #x 2780;||
+|开通 Skype 会议直播 |& #x 2714;|||||
 |代理人可以代表委托人安排会议 |& #x 2714;|& #x 2714;|& #x 2714;|||
-|在 Skype for Business 与 Outlook 之间同步代理人 |& #x 2714;||& #x 2714;||| 
+|在 Skype for Business 与 Outlook 之间同步代理人 |& #x 2714;||& #x 2714;|& #x 2714;|| 
 |设置视频聚焦（锁定视频） |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;| 
 |提供/获取对屏幕共享的控制  |& #x 2714;||& #x 2714;|||
 

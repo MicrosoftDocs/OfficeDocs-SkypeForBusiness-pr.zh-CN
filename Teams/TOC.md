@@ -99,11 +99,9 @@
 
 
 <!-- ============================================================ -->
-# [从 Skype for Business 升级到 Teams](Journey-SkypeforBusiness-Teams.md)
-## [教程：从 Skype for Business 到 Teams 的旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [升级基本信息](upgrade-basic.md)
-### [示例电子邮件和调查](upgrade-emails-surveys.md)
-## [升级专业人员](upgrade-pro.md)
+# [升级到团队](upgrade-introduction.md)
+## [入门](upgrade-start-here.md)
+## [有关升级框架](upgrade-framework.md)
 ## [规划您升级旅程](upgrade-plan-journey.md)
 ### [登记项目利益干系人](upgrade-enlist-stakeholders.md)
 ### [定义您的项目范围](upgrade-define-project-scope.md)
@@ -120,22 +118,22 @@
 ### [评估组织更改准备情况](upgrade-org-change-readiness.md)
 ### [准备用户就绪性计划](upgrade-user-readiness.md)
 ## [召开用户试生产](pilot-essentials.md)
-## [执行升级到团队](upgrade-to-teams.md)
-### [从联机业务的 Skype 升级到团队](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-### [从 Skype 业务混合升级，向工作组](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
-### [从升级 Skype 业务本地到团队](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
-## [通过用户采用驱动器值](continue-journey.md)
+## [从联机业务的 Skype 升级到团队](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+## [从 Skype 升级业务混合或内部部署到团队](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+## [运行、 采用，和优化](continue-journey.md)
 ### [运行您的服务](upgrade-operate-my-service.md)
 ### [监视质量](upgrade-monitor-quality.md)
 ### [增强您的服务](upgrade-enhance-my-service.md)
+## [教程：从 Skype for Business 到 Teams 的旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [常见问题](FAQ-journey.md)
-
+## 其他信息
+### [迁移和 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
+### [与 Skype for Business 共存](coexistence-chat-calls-presence.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # 与 Office 365 的互操作性
-## [迁移和 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
-## [与 Skype for Business 共存](coexistence-chat-calls-presence.md)
+
 ## [设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 组和 Teams](office-365-groups.md)
 ## [使用 Teams 增强现有 Office 365 组](enhance-office-365-groups.md)

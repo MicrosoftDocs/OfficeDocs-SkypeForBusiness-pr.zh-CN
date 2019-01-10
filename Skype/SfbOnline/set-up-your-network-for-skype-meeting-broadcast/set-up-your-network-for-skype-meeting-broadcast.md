@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Learn about the Skype Meeting Broadcast feature of Skype for Business Online that enables you to schedule, produce, and broadcast meetings or events to large online audiences up to 10,000 attendees.
-ms.openlocfilehash: 7c22b4b0911935ffd90d10e65d2fff0d71018910
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b29ec51ddcb672f6727f7bc43958872962245ebb
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374551"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788972"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>设置 Skype 会议直播网络
 
@@ -93,7 +93,7 @@ ms.locfileid: "25374551"
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>在混合部署和组织中设置 Skype 会议直播
 
-如果您具有业务服务器 2015年业务 Online 组织和 Lync Server 2010、 Microsoft Lync Server 2013 和 Skype 的内部部署 Skype 联机具有两个用户和内部部署，您将需要中实现的其他安装步骤除了上文启用内部部署组织与 Skype 的业务联机通信并允许所有用户能够创建和加入 Skype 会议广播所示。 若要查看具体要求，请参阅[为 Skype 会议直播配置本地部署](https://go.microsoft.com/fwlink/?LinkId=617070)。
+如果您具有业务服务器 2015年业务 Online 组织和 Lync Server 2010、 Microsoft Lync Server 2013 和 Skype 的内部部署 Skype 联机具有两个用户和内部部署，您将需要中实现的其他安装步骤除了上文启用内部部署组织与 Skype 的业务联机通信并允许所有用户加入 Skype 会议广播所示。 若要查看具体要求，请参阅[为 Skype 会议直播配置本地部署](https://go.microsoft.com/fwlink/?LinkId=617070)。
 
 ## <a name="related-topics"></a>相关主题
 

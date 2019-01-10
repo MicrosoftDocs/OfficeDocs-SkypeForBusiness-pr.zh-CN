@@ -17,18 +17,18 @@ f1keywords: None
 ms.custom:
 - Setup
 description: '了解常见原因的 Skype 业务 Online 登录错误和工作通过解决这些问题。 '
-ms.openlocfilehash: df34252281bebe429a85fb1a778b6d28023eb9d4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b9eccd817fbb9a67fcbce61d73b4a701c6b063de
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371146"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789081"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>管理员 Skype 业务 Online 登录错误疑难解答
 
 若要解决的业务 Online 登录错误 Skype，启动通过消除登录难度的最常见原因。 如有必要，则可以按照步骤基于类型的错误的特定解决方案。 如果用户仍然不能登录，收集的其他信息，然后 seek 获取其他帮助。
 
-## <a name="what-do-you-want-to-do"></a>你要做什么？
+## <a name="what-do-you-want-to-do"></a>您要做什么？
 <a name="top"> </a>
 
 > [检查的 Skype 业务 Online 登录错误的常见原因](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
@@ -124,7 +124,7 @@ ms.locfileid: "25371146"
 
   - **名称**： sip
 
-  - **值/目的地**： sipdir.online.microsoft.com
+  - **值/目标**： sipdir.online.lync.com
 
 有关详细信息，请参阅 Microsoft 知识库文章 2566790， [Office 365 中的业务联机 DNS 配置问题的疑难解答 Skype](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790)。
 

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: 本文提供的指导您在该站点的用户数针对某个站点需要多少台服务器上根据业务服务器中 Skype User models 中所述的用法。
-ms.openlocfilehash: 3a1838200e4590649fd290530a50fba3015b670f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 1e802bc130086bcefc8fd06cbacd3f21222d6d0a
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261600"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789403"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>服务器容量规划用户模型使用情况的 Skype 业务
 
@@ -33,9 +33,9 @@ ms.locfileid: "23261600"
 |**硬件组件**|**推荐**|
 |:-----|:-----|
 |CPU  <br/> |64 位双处理器、六核、2.26 GHz 或更快。  <br/> Intel Itanium 处理器不支持的 Skype 业务 Server 服务器角色。  <br/> |
-|内存  <br/> |32 GB。  <br/> &bull;&nbsp;&nbsp;八个或多个 10,000 RPM 硬盘驱动器具有至少 72 GB 可用磁盘空间。  <br/> 其中两个磁盘驱动器应使用 RAID 1，另外六个磁盘驱动器应使用 RAID 10。  <br/> - 或 -  <br/> &bull;&nbsp;&nbsp;固态驱动器 (Ssd) 提供类似于 8 个 10,000 RPM 机械磁盘驱动器的性能。  <br/> |
-|磁盘  <br/> ||
-|网络  <br/> |&bull;&nbsp;&nbsp;1 个双端口网络适配器，1 Gbps 或更高 （建议为 2，这要求与一个 MAC 地址和一个 IP 地址结合使用）。  <br/> |
+|内存  <br/> |32 GB。  <br/> |
+|磁盘  <br/> |8 个或 8 个以上具有至少 72 GB 可用磁盘空间的 10,000 RPM 硬盘驱动器。 其中两个磁盘驱动器应使用 RAID 1，另外六个磁盘驱动器应使用 RAID 10。  <br/> - 或 - <br/>固态驱动器 (Ssd) 提供类似于 8 个 10,000 RPM 机械磁盘驱动器的性能。 <br/> |
+|网络  <br/> |1 个双端口网络适配器，1 Gbps 或更高（建议为 2 Gbps，这要求与一个 MAC 地址和一个 IP 地址结合使用）。  <br/> |
 
 ## <a name="summary-of-results"></a>结果摘要
 
@@ -81,7 +81,7 @@ ms.locfileid: "23261600"
 |1.3 Kpbs  <br/> |13 Mbps  <br/> |
 
 > [!NOTE]
-> 改进的共同位于媒体性能 A / V 会议和中介服务器在前端服务器上的功能，您应启用接收端扩展在前端服务器上的网络适配器 (RSS)。 通过启用 RSS，服务器上的多个处理器能够以并行方式处理传入数据包。 有关详细信息，请参阅[接收端扩展 (RSS) 中的 Windows Server 2012 文档](https://go.microsoft.com/fwlink/p/?LinkId=620365)。 有关如何启用 RSS 的详细信息，需要参阅网络适配器文档。
+> 改进的共同位于媒体性能 A / V 会议和中介服务器在前端服务器上的功能，您应启用接收端扩展在前端服务器上的网络适配器 (RSS)。 通过启用 RSS，服务器上的多个处理器能够以并行方式处理传入数据包。 有关详细信息，请参阅[ Windows Server 2012 中的接收方缩放 (RSS)](https://go.microsoft.com/fwlink/p/?LinkId=620365) 文档。 有关如何启用 RSS 的详细信息，需要参阅网络适配器文档。
 
 ## <a name="conferencing-maximums"></a>会议最大值
 
@@ -155,7 +155,7 @@ ms.locfileid: "23261600"
 
 虽然大部分数据库信息存储在前端服务器上的主要，您应该确保您的后端服务器满足和[与 Server Hardware Platforms](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)中本节前面列出的硬件建议。
 
-若要提供的您的后端服务器高可用性，建议部署 AlwaysOn 可用性组或 server 镜像。 有关详细信息，请参阅[Skype 业务服务器后端服务器高可用性](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)。
+若要提供的您的后端服务器高可用性，建议部署 AlwaysOn 可用性组或 server 镜像。 有关详细信息，请参阅 [Back End Server high availability in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)。
 
 ## <a name="monitoring-and-archiving"></a>监控和存档
 

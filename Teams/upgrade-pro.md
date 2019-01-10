@@ -1,5 +1,5 @@
 ---
-title: 升级专业人员的 Microsoft 团队的 Microsoft 团队
+title: 适用于 Microsoft Teams 的 Upgrade Pro - Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2613bd346a8780b23e1ca37fd37e148502e020c
-ms.sourcegitcommit: 4f848bba1b3522f1de573e3dac081906d47eb5ca
+ms.openlocfilehash: 9a849e9c6ab5934252f5bae1cbd26542f3393d57
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25719124"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789381"
 ---
 # <a name="upgrade-pro"></a>升级专业人员
 
@@ -61,7 +61,7 @@ ms.locfileid: "25719124"
 |**1**     |**评估现有环境来确定风险和要求**         |通过评估您的环境，您可以确定风险和将影响整个部署的要求。 通过主动识别这些项，您可以调整进行规划，以帮助确保成功。         |[升级到团队之前评估环境](upgrade-plan-journey-evaluate-environment.md)         |
 |**2**     |**完成的 Office 365 和团队技术入职培训**        |利用现有的入职培训清单，来确定任务和活动完成协作和语音功能与团队技术准备。         |[准备升级到团队的服务](upgrade-prepare-environment-prepare-service.md)         |
 |**3**     |**优化网络团队，特别是对于实时的媒体方案**         |如果您正在部署音频、 视频或会议，可以执行一些额外的步骤，以优化您的网络的功能。 团队使用可以适应音频和视频技术 （编解码器）&mdash;，因此下更好地执行&mdash;最网络条件。 若要确保一致的最佳性能，应该为团队准备您的网络。          |[准备您的网络升级到团队](upgrade-prepare-environment-prepare-network.md)         |
-|**4**     |**评估组织更改准备和关键使用案例和角色**        |若要实现从团队的价值，用户必须实际使用它。 只需启用团队并不保证您实现您的目标。 用户具有不同用例和不同学习样式，并且他们适应新技术在不同的速度。  了解用户群，您可以准备的教育以加快并加快用户应用适当的级别。         |[组织更改准备](upgrade-org-change-readiness.md#organizational-change-readiness)<br><br>[用例](upgrade-org-change-readiness.md#use-cases)<br><br>[角色](upgrade-org-change-readiness.md#personas)           |
+|**4**     |**评估组织更改准备情况**        |若要实现从团队的价值，用户必须实际使用它。 只需启用团队并不保证您实现您的目标。 用户具有不同用例和不同学习样式，并且他们适应新技术在不同的速度。  了解用户群，您可以准备的教育以加快并加快用户应用适当的级别。         |[组织更改准备](upgrade-org-change-readiness.md#organizational-change-readiness)           |
 |**5**     |**准备用于定义如何将通信、 培训和支持用户的用户就绪性计划**         |若要确保最佳 receptiveness 到新技术、 培训、 的广泛的消息 （引入远景/值消息和通用用例） 和消息的组合使用和支持定制到角色并已定义的群体和此外为您滞后根据。 此个性化的计划有助于加快用户采用通过使用户可以更快地与团队时演示您了解他们的需求。 这可作为您试点、 板载，和升级到团队。         |[准备用户就绪性计划](upgrade-user-readiness.md)<br><br>[升级成功工具包](https://aka.ms/UpgradeSuccessKit)<br><br>[团队视频培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)<br><br>[切换到团队从 Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)       |
 |**6**     |**宣布挂起的 Microsoft 团队启动**       |与包含，您用户早期帮助用户外观减少了混淆情况生成有关 Microsoft 团队，帮助从 for Business 的 Skype 随着时间的推移加速升级兴奋。          | [升级成功工具包](https://aka.ms/UpgradeSuccessKit)         |
 |**7**     |**准备您的 IT 员工团队**         |您的 Office 365 租户管理员、 技术主管和支持人员负责驱动的高品质用户体验。 这包括确保您的网络已准备好支持团队配置团队为您的用户，并能够有效地排查并解决可能出现的问题。         |[准备您的 IT 人员的 Microsoft 团队](https://docs.microsoft.com/microsoftteams/upgrade-prepare-it-pros)<br><br>[升级成功工具包](https://aka.ms/UpgradeSuccessKit)       |
@@ -82,7 +82,7 @@ ms.locfileid: "25719124"
 |步骤  |  |摘要 |资源 |
 |---------|---------|---------|---------|
 |**1**     |**宣布团队的官方**       |团队以确保认知度和园地值并与用户受益您组织启动与您有关开始的用户进行通信。 请考虑包括启动事件和电子邮件通信的多个窗体。         |[升级成功工具包](https://aka.ms/UpgradeSuccessKit)          |
-|**2**     |**启用用户的相应共存模式**         |按照步骤设置为您的组织的右共存模式。         |[设置您的共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)         |
+|**2**     |**启用用户的相应共存模式**         |按照步骤设置为您的组织的右共存模式。         |[设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)         |
 |**3**     |**随时可知团队指南**       |监视团队路线图和不断地评估组织准备情况来标识为您的组织将移动到团队适当的时间。         |[团队指南](https://aka.ms/teamsroadmap)         |
 |**4**     |**发送其他通信，并让到驱动器的团队拥护者**兴奋和团队的采用       |鼓励用户应用和维护正在进行的通信和拥护者团队兴奋。          |[Microsoft 365 拥护者计划](https://aka.ms/O365Champions)         |
 

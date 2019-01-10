@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 摘要： 配置测试用户帐户和业务服务器综合事务的 Skype 的观察程序节点设置。
-ms.openlocfilehash: 3881fc1878ed3b248aa3109b79a3e384ec4a5fb7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 257814108a276d049ed4ac9173fde6dfa4473ff2
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989886"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789389"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>配置观察程序节点测试用户和设置
  
@@ -33,12 +33,11 @@ ms.locfileid: "20989886"
 
 测试帐户不需要表示实际的人员，但他们必须是有效的 Active Directory 帐户。 此外，这些帐户必须为 Business Server 启用的 Skype、 它们必须具有有效的 SIP 地址和它们应启用企业语音 （以便使用 Test-cspstnpeertopeercall 综合事务）。 
   
-如果您使用的 TrustedServer 身份验证方法，您需要执行所有是确保这些帐户存在，并将其如前所述配置。 为每个要测试的池的至少三个测试用户，您应将其分配。 如果您使用的协商身份验证方法，您还必须使用 Set-cstestusercredential cmdlet 和业务 Server 命令行管理程序启用这些 Skype 测试帐户的综合事务处理。 执行此操作通过运行类似以下 （这些命令假定已创建了三个 Active Directory 用户帐户并为业务服务器的 Skype 启用这些帐户） 的命令：
+如果您使用的 TrustedServer 身份验证方法，您需要执行所有是确保这些帐户存在，并将其如前所述配置。 为每个要测试的池的至少两个测试用户，您应将其分配。 如果您使用的协商身份验证方法，您还必须使用 Set-cstestusercredential cmdlet 和业务 Server 命令行管理程序启用这些 Skype 测试帐户的综合事务处理。 执行此操作通过运行类似以下 （这些命令假定已创建了两个 Active Directory 用户帐户并为业务服务器的 Skype 启用这些帐户） 的命令：
   
 ```
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
 Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
-Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 ```
 
 您必须包括不仅的 SIP 地址，但还用户名和密码。 如果不包括密码，Set-cstestusercredential cmdlet 将提示您输入的信息。 可以通过使用前面的代码块中所示的域 name\user 名称格式指定的用户的用户名。
@@ -48,7 +47,6 @@ Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "li
 ```
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
-Get-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com"
 ```
 
 为每个用户，将返回类似于以下的信息：
@@ -62,15 +60,15 @@ Get-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com"
 创建测试用户之后，您可以使用类似如下的命令创建观察程序节点：
   
 ```
-New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
+New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
-此命令创建一个新的观察程序节点的使用默认设置并在运行综合事务的默认设置。 新的观察程序节点还使用的测试用户 watcher1@litwareinc.com、 watcher2@litwareinc.com 和 watcher3@litwareinc.com。 如果观察程序节点使用 TrustedServer 身份验证，这三个测试帐户可以是任何有效的用户帐户启用 Active Directory 和 Skype 业务 Server。 如果观察程序节点使用的协商身份验证方法，这些用户帐户必须也启用观察程序节点使用 Set-cstestusercredential cmdlet。
+此命令创建一个新的观察程序节点的使用默认设置并在运行综合事务的默认设置。 新的观察程序节点还使用的测试用户 watcher1@litwareinc.com 和 watcher2@litwareinc.com。 如果观察程序节点使用 TrustedServer 身份验证，两个测试帐户可以是任何有效的用户帐户启用 Active Directory 和 Skype 业务 Server。 如果观察程序节点使用的协商身份验证方法，这些用户帐户必须也启用观察程序节点使用 Set-cstestusercredential cmdlet。
   
 若要验证目标的自动发现登录的池已正确配置，而不是直接目标池改为使用以下步骤：
   
 ```
-New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
+New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
 ### <a name="configuring-extended-tests"></a>配置扩展的测试
@@ -78,16 +76,16 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 如果您想要启用 PSTN 测试，验证与公用电话交换网的连接，您需要执行其他一些配置设置的观察程序节点时。 首先，必须通过运行 Business Server 命令行管理程序从 Skype 类似于以下命令将测试用户与 PSTN 测试类型关联：
   
 ```
-$pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"  -Name "Contoso Provider Test" -TestType PSTN
+$pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com" -Name "Contoso Provider Test" -TestType PSTN
 ```
 
 > [!NOTE]
 > 此命令的结果必须存储在变量中。 本示例中，该变量名为 $pstnTest。 
   
-接下来，您可以使用**New-cswatchernodeconfiguration** cmdlet 将业务服务器池 Skype 的测试类型 （存储在变量 $pstnTest） 相关联。 例如，以下命令创建新观察程序节点配置的池 atl-cs-001.litwareinc.com，添加三个测试用户之前，创建和添加 PSTN 测试类型：
+接下来，您可以使用**New-cswatchernodeconfiguration** cmdlet 将业务服务器池 Skype 的测试类型 （存储在变量 $pstnTest） 相关联。 例如，以下命令创建新观察程序节点配置的池 atl-cs-001.litwareinc.com，添加两个测试用户之前，创建和添加 PSTN 测试类型：
   
 ```
-New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
+New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
 ```
 
 如果您尚未安装 Skype 业务 Server 核心文件和 RTCLocal 数据库在观察程序节点计算机上，上述命令将失败。 
@@ -100,7 +98,7 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
   
 - 注册
     
-- IM
+- 即时消息
     
 - GroupIM
     
@@ -202,7 +200,13 @@ Get-CsWatcherNodeConfiguration
 
 您将获得信息类似如下：
   
-标识： atl-cs-001.litwareinc.com TestUsers: {sip:watcher1@litwareinc.com，sip:watcher2@litwareinc.com...} ExtendedTests: {TestUsers = IList < System.String >;名称 = PSTN 测试;Te...} TargetFqdn: atl-cs-001.litwareinc.com 端口号： 5061To 验证是否已配置观察程序节点正确，键入以下命令从 Skype 业务 Server 命令行管理程序：
+标识： atl-cs-001.litwareinc.com <br/>
+TestUsers: {sip:watcher1@litwareinc.com，sip:watcher2@litwareinc.com...}<br/>
+ExtendedTests: {TestUsers = IList < System.String >;名称 = PSTN 测试;Te...}<br/>
+TargetFqdn: atl-cs-001.litwareinc.com<br/>
+端口号： 5061<br/>
+
+若要验证已正确配置观察程序节点，键入业务 Server 命令行管理程序从 Skype 以下命令：
   
 ```
 Test-CsWatcherNodeConfiguration
@@ -210,15 +214,15 @@ Test-CsWatcherNodeConfiguration
 
 此命令将测试您的部署中的每个观察程序节点，并确认是否已完成以下操作：
   
-- 安装所需的注册器角色
+- 安装所需的注册器角色。
     
-- 创建必需的注册表项 （完成您运行 Set-cswatchernodeconfiguration cmdlet 时）
+- 创建必需的注册表项 （完成您运行 Set-cswatchernodeconfiguration cmdlet 时）。
     
-- 您的服务器的企业服务器运行 Skype 的正确版本
+- 您的服务器的企业服务器运行 Skype 的正确版本。
     
-- 您的端口配置正确
+- 您的端口配置正确。
     
-- 您已分配的测试用户具有所需的凭据
+- 您已分配的测试用户具有所需的凭据。
     
 ## <a name="managing-watcher-nodes"></a>管理观察程序节点
 <a name="testuser"> </a>
@@ -380,15 +384,15 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
   
 若要更改频率运行综合事务的频率，请按照下列步骤：
   
-1. 打开 System Center Operations Manager。 单击创作节。 单击 （在创作） 下的规则部分
+1. 打开 System Center Operations Manager。 单击创作节。 单击 （在创作） 下的规则部分。
     
-2. 在规则部分中，找到名为"Main 综合事务运行程序性能集合规则"规则
+2. 在规则部分中，找到名为"Main 综合事务运行程序性能集合规则"规则。
     
-3. 右键单击该规则，并选中覆盖，选择该规则，重写方法，然后选择"类别的所有对象： 池观察程序"
+3. 右键单击该规则，并选中覆盖，选择该规则，重写方法，然后选择"类别的所有对象： 池观察程序"。
     
 4. 覆盖属性窗口中选择参数名称"频率"，并将覆盖值设置为所需的一个。
     
-5. 在同一窗口中，选择此重写需要应用的管理包
+5. 在同一窗口中，选择此重写需要应用的管理包。
     
 ## <a name="using-rich-logging-for-synthetic-transactions"></a>使用综合事务的富日志记录
 <a name="special_synthetictrans"> </a>
@@ -403,7 +407,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
     
 - 已执行的操作 (例如，创建、 加入或离开会议; 登录到 Skype 并 Business Server; 发送即时消息)。
     
-- 信息性、 verbose 和警告或在活动运行时生成的错误消息
+- 信息性、 verbose 和警告或在活动运行时生成的错误消息。
     
 - SIP 注册消息。
     
@@ -420,11 +424,13 @@ Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable Reg
 ```
 
 > [!NOTE]
-> ： 前面的 $ 字符的变量名。 使用一个变量的名称，例如 RegistrationTest (而不是 $RegistrationTest)。 
+> 不以 $ 字符在变量名。 使用一个变量的名称，例如 RegistrationTest (而不是 $RegistrationTest)。 
   
 运行此命令时，您将看到类似如下的输出：
   
-目标 Fqdn: atl-cs-001.litwareinc.com 结果： 故障延迟： 00:00:00 错误消息： 此计算机不具有任何已分配的证书。 诊断： 您可以访问此故障比刚刚此处显示的错误消息的更详细的信息。 若要访问此信息以 HTML 格式，使用与此类似的命令以保存到 HTML 文件的 RegistrationTest 变量中存储的信息：
+目标 Fqdn: atl-cs-001.litwareinc.com 结果： 故障延迟： 00:00:00 错误消息： 此计算机不具有任何已分配的证书。 诊断： 您可以访问此故障比刚刚此处显示的错误消息的更详细的信息。
+
+若要访问此信息以 HTML 格式，使用与此类似的命令以保存到 HTML 文件的 RegistrationTest 变量中存储的信息：
   
 ```
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html

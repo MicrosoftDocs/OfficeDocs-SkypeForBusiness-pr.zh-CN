@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 团队的 Microsoft 团队中的服务质量
+title: Microsoft Teams 中的服务质量 - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e68a11fcc519b63fe04bf6eedfbf9d87b3b80b0b
-ms.sourcegitcommit: 0e671e6e6fdd25227068c7e3a3a5509b6536d2b1
+ms.openlocfilehash: d5e6b37a0daff06a4676a7ecba1b67ecdd03649a
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "27294177"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789091"
 ---
 # <a name="quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams 中的服务质量 (QoS)
 
@@ -248,7 +248,7 @@ _表 3。DSCP 标记_
 
 2. 在命令提示符处，输入
    ```
-    gpudate.exe /force
+    gpupdate.exe /force
    ```
 
 ## <a name="verify-dscp-markings-in-the-group-policy-object"></a>验证 DSCP 标记中的组策略对象
@@ -259,7 +259,7 @@ _表 3。DSCP 标记_
 
 2. 在命令提示符处，输入 
    ```
-   gpresult /R >gp.txt
+   gpresult /R > gp.txt
    ```
 
    这将生成一个报告，并将其发送到一个名为 gp.txt 文本文件。 或者，您可以输入以下命令以生成更容易阅读 HTML 报表名为 gp.html 中相同的数据：

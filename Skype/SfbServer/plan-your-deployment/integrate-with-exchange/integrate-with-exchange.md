@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 摘要： 查看有关如何为业务 Server 与 Exchange Server 2016 或 Exchange Server 2013 中集成 Skype 本主题。
-ms.openlocfilehash: 901bfd35ef0e781d12c8f4f455912e9ad47d0bdd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 327a564e9c7a0a73ef178866f511c75388ac14bc
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532533"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789396"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>计划集成 Skype for Business 和 Exchange
  
@@ -104,9 +104,13 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 |错过的对话历史记录和呼叫日志写入到用户的 exchange 邮箱  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |在 Exchang 中存档内容（IM 和会议）  <br/> |是（需要 Exchange 2016/2013）  <br/> |是  <br/> |否  <br/> |否  <br/> |是  <br/> |
 |搜索存档内容  <br/> |是（需要 Exchange 2016/2013）  <br/> |是  <br/> |否  <br/> |否  <br/> |是  <br/> |
-|Exchange UM 语音邮件  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|Exchange UM 语音邮件  <br/> |是  <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |
 |服务器端对话历史记录  <br/> |是  <br/> |是  <br/> |否  <br/> |是  <br/> |是  <br/> |
-   
+
+> [!NOTE]
+> 没有 Skype 业务 Online、 业务服务器 2019年的 Skype 业务服务器 2015年的 Skype 和业务 Server 2013 的 Skype 支持云语音邮件服务。
+> 
+
 ## <a name="see-also"></a>另请参阅
 <a name="feature_support"> </a>
 

@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 巴林可用的项目。
-ms.openlocfilehash: 164334abc83df2005163dfdfcb72579405429c2e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 78a33a13df4b495313a8e8bb258fe5b383e20f12
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013086"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789179"
 ---
 # <a name="availability-in-bahrain"></a>巴林中的可用性
 
@@ -43,7 +43,7 @@ ms.locfileid: "25013086"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买音频会议？  <br/> |否  <br/> |
+|是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |是，为： <br/><ul><li>麦纳麦</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
    
@@ -78,7 +78,7 @@ ms.locfileid: "25013086"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否提供通信点数？  <br/> |是  <br/> |
+|是否提供通信点数？  <br/> |否  <br/> |
    
 如果你想进行设置，请参阅[为你的组织设置通信点数](../set-up-communications-credits-for-your-organization.md)。
   
