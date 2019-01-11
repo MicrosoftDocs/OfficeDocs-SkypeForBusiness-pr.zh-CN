@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d252b95496a3d86eb9667fd6dec9256d7ad98a00
-ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
+ms.openlocfilehash: 6d5bd0fc2e476e256d94717a1f77d1c30d880ddf
+ms.sourcegitcommit: cdaef5d0f7e1dbd1d934151152f40ad141b7bf83
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "27382675"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27895979"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导
 
@@ -90,7 +90,7 @@ TeamsUpgradePolicy 公开两个关键属性： 模式和 NotifySfbUsers。
 
 |参数|类型|允许的值</br>（默认斜体中）|说明|
 |---|---|---|---|
-|模式|枚举|*群岛*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>旧|指示客户端应中运行的模式。 如果模式 = 旧，使用此策略的组件将还原为考虑 TeamsInteropPolicy。 TeamsUpgradePolicy 现在完全支持，客户应更新其配置使用模式旧之外。|
+|模式|枚举|*群岛*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>SfBWithTeamsCollabAndMeetings</br>旧|指示客户端应中运行的模式。 如果模式 = 旧，使用此策略的组件将还原为考虑 TeamsInteropPolicy。 TeamsUpgradePolicy 现在完全支持，客户应更新其配置使用模式旧之外。|
 |NotifySfbUsers|Bool|*False*或 true|指示是否在业务客户端通知用户团队很快将替换 for Business 的 Skype Skype 中显示的标题。 这不能为 true 如果模式 = TeamsOnly。|
 |||||
 
