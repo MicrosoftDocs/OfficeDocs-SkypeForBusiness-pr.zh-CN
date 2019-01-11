@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1facd38b3ae5e55b0928127aa054d80e7445210
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: e205eeb00373e66271c98405209df69b272f89a4
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27791684"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896144"
 ---
 # <a name="about-the-upgrade-framework"></a>有关升级框架
 
@@ -44,7 +44,8 @@ ms.locfileid: "27791684"
 
 **准备您的组织团队**。 为了帮助确保成功升级到团队，务必准备为分配有足够的时间。 不仅将您的组织能够快速开始意识到的小组的价值，您将能够从 for Business 的 Skype 加速升级，只要团队可供您。 如果您已经已启用旁 for Business 的 Skype 团队，使用这些升级前的活动为检查点验证组织准备之前用户升级到团队。 
 
-> [提示]下载 [升级成功工具包](https://aka.ms/UpgradeSuccessKit) 模板用户准备情况材料，如通信和用户调查，除了示例升级项目计划和试用测试计划。 用下面的列表中的星号 （*） 标记工具包中可用的项目。
+> [!TIP]
+> 下载 [升级成功工具包](https://aka.ms/UpgradeSuccessKit) 模板用户准备情况材料，如通信和用户调查，除了示例升级项目计划和试用测试计划。 用下面的列表中的星号 （*） 标记工具包中可用的项目。
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>计划： 创建升级计划以帮助确保您的组织已设置为长期成功
 

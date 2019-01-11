@@ -15,12 +15,12 @@ ms.custom: Adopt
 ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b59da606f908334768fbe249bc40df87282caf5a
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: d8413bdf3bbcc2bcb4b172d46a84b7a46bd7d190
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699713"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896120"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>了解 Microsoft Teams 中的团队和频道
 
@@ -30,12 +30,13 @@ ms.locfileid: "26699713"
 
 - 通道的顺序完成的实际工时的工作组中的协作空格。 
 
-若要读取更多有关团队和通道，请参阅[团队和中的 Microsoft 团队的通道概述](teams-channels-overview.md)。 若要了解详细信息团队和 Office 365 组，请参阅[Office 365 组和 Microsoft 团队](office-365-groups.md)和[了解有关 Office 365 组](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+若要读取更多有关团队和通道，请参阅[团队和中的 Microsoft 团队的通道概述](teams-channels-overview.md)。 全面团队应用指南，获取[团队应用指南](https:aka.ms/teamstoolkit)。 若要了解详细信息团队和 Office 365 组，请参阅[Office 365 组和 Microsoft 团队](office-365-groups.md)和[了解有关 Office 365 组](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
 
 |  |  |
 |---------|---------|
 | 查看下面的简短视频   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+
 
 
 团队访问类型确定谁可以加入团队：
