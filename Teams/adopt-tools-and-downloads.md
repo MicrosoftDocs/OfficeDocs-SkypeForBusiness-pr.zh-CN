@@ -1,5 +1,5 @@
 ---
-title: 工具和采用的下载内容
+title: 用于采用的工具和下载
 description: 使用这些采纳资源可帮助您的 Microsoft 团队的推动采纳率和其他 Office 365 服务。
 layout: LandingPage
 ms.topic: landing-page
@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d7bf96f5da37b4f70ea24025e18b96a1061a483
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 9a01c837924f0499b9378d88b9ed6d7e70c9ba91
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699698"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896136"
 ---
 # <a name="tools-for-driving-adoption"></a>对于推动应用的工具 
 
@@ -144,3 +144,6 @@ ms.locfileid: "26699698"
 
 ### <a name="office-365-champions-program"></a>Office 365 拥护者程序
 Office 365 拥护者程序是一个免费程序，可帮助要获取更多来自 Microsoft 团队和其他 Office 365 服务的人员。 我们将我们在线社区[Microsoft 技术社区](https://aka.ms/DriveAdoption)中的与突出显示的新功能的最佳做法从调控驱动应用的所有组件的每月社区呼叫。 加入我们在社区https://aka.ms/O365Champions和获取早期版本的访问权限、 听到其他客户和了解从 Microsoft 专家。  
+
+### <a name="teams-adoption-guide"></a>团队应用指南
+签出此联机指南将帮助您在贵公司推出团队。 它包括多个可下载的工具、 模板和其他资源以帮助您沿您团队应用过程。
