@@ -3,7 +3,7 @@ title: 工作组模板入门
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/12/2018
+ms.date: 01/10/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 151a789b6047540071aa5780fb81a895503dd70b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: ead0a3dc9e27b90c49808bcece0aab39bf01f13a
+ms.sourcegitcommit: 4c5b9e8c4bdb1187d610209d365680702d4372fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531013"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27801461"
 ---
 # <a name="get-started-with-teams-templates"></a>工作组模板入门 
 
@@ -31,17 +31,18 @@ ms.locfileid: "26531013"
  
 本文适用于您，如果您是：
 
-• 负责规划、 部署和管理跨组织 • 为开发人员的多个团队希望创建与工作组预定义通道和应用程序以编程方式
+- 负责规划、 部署和管理您的组织内的多个团队<br>
+- 开发人员希望以编程方式使用预定义的通道和应用程序创建团队 
 
-## <a name="team-template-capabilities"></a>工作组模板功能
+## <a name="teams-template-capabilities"></a>工作组模板功能
 
-包含和模板的支持团队中的大多数属性。 但是，有几个属性，当前不支持的功能。 下表提供了包含的组件和工作组模板中不包含内容的快速摘要。
+包含和模板的支持团队中的大多数属性。 但有一些属性，当前不支持的功能。 下表提供了包含的组件和工作组模板中不包含内容的快速摘要。
 
 | **支持的工作组模板的团队属性** | **尚未支持的工作组模板的团队属性** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | 基本模板类型 | 团队成员资格 |
 | 团队名称 | 团队图片 |
-| 团队说明 | 频道设置 （例如，自动收藏夹和隐私） |
+| 团队说明 | 通道设置 |
 | 工作组可见性 （公共或专用） | 连接器 |
 | 团队设置 （例如，成员、 来宾，@ 提及） | 文件和内容 |
 | 自动收藏夹通道 | |
@@ -53,19 +54,19 @@ ms.locfileid: "26531013"
 
 ## <a name="what-are-base-template-types"></a>基本模板类型是什么？
 
-基本模板类型是 Microsoft 创建针对特定行业的特殊模板。 这些基本模板通常包含在尚未在工作组模板支持单独的存储和团队属性中不可用的专用应用程序。
+基本模板类型是 Microsoft 创建针对特定行业的特殊模板。 这些基本模板通常包含在尚不支持分别在工作组模板中存储和团队属性中不可用的专用应用程序。
 
-定义基本模板类型后，您可以扩展或重写这些特殊模板与您想要指定的其他属性。 但是，某些基本模板类型包含不能重写的属性。 
+定义基本模板类型后，您可以扩展或重写这些特殊模板与您想要指定的其他属性。 但某些基本模板类型包含不能重写的属性。 
 
 默认情况下基本模板设置为**标准**其不包含任何其他专用应用程序或特殊属性。 下面是可用的基本模板类型的当前列表。
 
 | 基本模板类型 | baseTemplateId | 基本模板专用应用程序和特殊属性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json) | 没有其他应用程序和属性 |
-| 医疗保健-护理协调 | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-CC.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-CC.json#) | 应用程序：<br/> -患者应用程序 （固定到**常规**选项卡）<br/> <br/>频道： <br/> -通知<br/> -糖尿病<br/> -心血管<br/> -已注册护理 |
-| 医疗保健-过程 huddle | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-PH.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-PH.json#) | 频道：<br/> -避免辅<br/> -Mortality 审阅 <br/> -阻止降到 <br/> -Sepsis 计划 |
-| 教育-类工作组<sup>1</sup> | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-CT.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-CT.json#) | 应用程序：<br/> -OneNote 类笔记本 （固定到**常规**选项卡） <br/> -分配应用程序 （固定到**常规**选项卡） <br/><br/> 团队属性 <br/> 团队可见性设置为**HiddenMembership** （不能重写） |
-| 培训-员工团队<sup>1</sup> | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-ST.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-ST.json#) | 应用<br/> -OneNote 员工笔记本 （固定到**常规**选项卡） |
+| Standard | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`standard` | 没有其他应用程序和属性 |
+| 培训- <br>类工作组<sup>1</sup> | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationClass` | 应用程序：<ul><li>OneNote 类笔记本 （固定到**常规**选项卡） </li><li>分配应用程序 （固定到**常规**选项卡）</li></ul> 团队属性：<ul><li>工作组可见性设置为**HiddenMembership** （不能重写）</li></ul> |
+| 培训-<br>员工工作组<sup>1</sup> | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationStaff` | 应用程序：<ul><li>OneNote 员工笔记本 （固定到**常规**选项卡）</li></ul> |
+|培训-<br>PLC 团队 |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | 应用程序：<ul><li>OneNote PLC 笔记本 （固定到**常规**选项卡）</ul></li>|
+|||
 
 <sup>1</sup>出版物中后期年 10 月，2018
 
@@ -74,7 +75,7 @@ ms.locfileid: "26531013"
 
 ## <a name="examples"></a>示例 
 
-您可以开始通过安装[Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/overview)中创建模板通过团队。
+您可以开始使用模板创建工作组使用[Microsoft Graph API](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)。
 
 ### <a name="create-a-team-from-a-template"></a>从模板创建工作组
 
@@ -83,15 +84,13 @@ ms.locfileid: "26531013"
 **使用标准的基本模板创建团队的请求**
 
 ~~~
-POST   /teams
+POST /teams
 Authorization: Bearer <TOKEN>
 Content-Type: application/json
 {
-    "baseTemplateId": "https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json",
-    "schemaVersion": "1.0",
-    
-    "teamDisplayName": "My Sample Team",
-    "teamDescription": "My Sample Team’s Description",
+  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/standard",
+  "displayName": "Sample Team",
+  "description": "Sample Team’s Description"
 }
 
 ~~~
@@ -99,23 +98,21 @@ Content-Type: application/json
 **请求创建额外的通道团队和禁止从删除通道的成员**
 
 ~~~
-POST   /teams
+POST /teams
 Authorization: Bearer <TOKEN>
 Content-Type: application/json
 {
-    "baseTemplateId": "https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json",
-    "schemaVersion": "1.0",
-    
-    "teamDisplayName": "My Sample Team",
-    "teamDescription": "My Sample Team’s Description",
-    "channels": [
-        {
-            "displayName": "Interns",
-            "autoFavorite": false
-        }
-    ],
+  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/standard",
+  "displayName": "My Sample Team",
+  "description": "My Sample Team’s Description",
+  "channels": [
+    {
+        "displayName": "Random",
+        "isFavoriteByDefault": true
+    }
+              ],
     "memberSettings": {
-        "allowDeleteChannels": false,
+        "allowDeleteChannels": false
     }
 }
 
@@ -124,93 +121,94 @@ Content-Type: application/json
 **请求创建工作组使用所有受支持的属性**
 
 ~~~
-POST   /teams
+POST /teams
 Authorization: Bearer <TOKEN>
 Content-Type: application/json
 {
-    "baseTemplateId": "https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json",
-    "schemaVersion": "1.0",
- 
-    "teamType": "Healthcare_CareCoordination",
+    "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
     "visibility": "Private",
-    "teamDisplayName": "My Care Team",
-    "teamDescription": "My Care Team’s description",
- 
+    "displayName": "Sample Engineering Team",
+    "description": "This is a sample engineering team, used to showcase the range of properties 
+supported by this API",
     "channels": [
         {
-            "displayName": "General  ",
-            "autoFavorite": true,
+            "displayName": "Announcements 📢",
+            "isFavoriteByDefault": true,
+            "description": "This is a sample announcements channel that is favorited by default. Use this 
+channel to make important team, product, and service announcements."
+        },
+        {
+            "displayName": "Training 🏋️",
+            "isFavoriteByDefault": true,
+            "description": "This is a sample training channel that is favorited by default and contains an 
+example of pinned website and YouTube tabs.",
             "tabs": [
-                   {
-                       "appId": "0d820ecd-def2-4297-adad-78056cde7c78",
-                       "tabDisplayName": "Intranet”
-                   }
-               ]
+                {
+                    "teamsApp@odata.bind":
+"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                   "name": "A Pinned Website",
+                    "configuration": {
+                        "contentUrl": "https://docs.microsoft.com/en-us/microsoftteams/microsoft-teams"
+                    }
+                },
+                {
+                    "teamsApp@odata.bind": 
+"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.youtube')",
+                    "name": "A Pinned YouTube Video",
+                    "configuration": {
+                        "contentUrl": "https://tabs.teams.microsoft.com/Youtube/Home/YoutubeTab?
+videoId=X8krAMdGvCQ",
+                        "websiteUrl": "https://www.youtube.com/watch?v=X8krAMdGvCQ"
+                    }
+                }
+            ]
         },
         {
-            "displayName": "Announcements",
-            "autoFavorite": true
+"displayName": "Planning 📅 ",
+            "description": "This is a sample of a channel that is not favorited by default, these channels 
+will appear in the more channels overflow menu.",
+            "isFavoriteByDefault": false
         },
         {
-            "displayName": "Diabetes",
-            "autoFavorite": true
-        },
-        {
-            "displayName": "Cardiovascular",
-            "autoFavorite": true
-        },
-        {
-            "displayName": "Registered Nurses",
-            "autoFavorite": true
+            "displayName": "Issues and Feedback 🐞",
+            "description": "This is a sample of a channel that is not favorited by default, these channels 
+will appear in the more channels overflow menu."
         }
     ],
- 
-     "memberSettings": {
+    "memberSettings": {
         "allowCreateUpdateChannels": true,
         "allowDeleteChannels": true,
         "allowAddRemoveApps": true,
         "allowCreateUpdateRemoveTabs": true,
         "allowCreateUpdateRemoveConnectors": true
-      },
- 
-      "guestSettings": {
+    },
+    "guestSettings": {
         "allowCreateUpdateChannels": false,
         "allowDeleteChannels": false
-      },
- 
-      "messagingSettings": {
+    },
+    "funSettings": {
+        "allowGiphy": true,
+        "giphyContentRating": "Moderate",
+        "allowStickersAndMemes": true,
+        "allowCustomMemes": true
+    },
+    "messagingSettings": {
         "allowUserEditMessages": true,
         "allowUserDeleteMessages": true,
         "allowOwnerDeleteMessages": true,
         "allowTeamMentions": true,
         "allowChannelMentions": true
-      },
- 
-      "funSettings": {
-        "allowGiphy": true,
-        "giphyContentRating": "moderate",
-        "allowStickersAndMemes": true,
-        "allowCustomMemes": true
-      }
- 
- 
-    "installedApplications": [
-      {
-        "id": "0d820ecd-def2-4297-adad-78056cde7c78"
-      }
+    },
+    "installedApps": [
+        {
+            "teamsApp@odata.bind": 
+"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.vsts')"
+        },
+        {
+            "teamsApp@odata.bind": 
+"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('1542629c-01b3-4a6d-8f76-1938b779e48d')"
+        }
     ]
-}
-~~~
-
-#### <a name="response"></a>响应
-
-~~~
-HTTP/1.1 202 Accepted
-Content-Type: application/json
-Location: /workflow/status/c953c202-7b44-4a63-aa33-364fcb2d65aa
-{
-    "workflowId": "c953c202-7b44-4a63-aa33-364fcb2d65aa",
-    "statusUri": "https://<apihostandpath>/workflow/status/c953c202-7b44-4a63-aa33-364fcb2d65aa"
 }
 ~~~
 
@@ -235,6 +233,6 @@ Content-Type: application/json
 
 ## <a name="related-topics"></a>相关主题
 
-- [创建团队](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/team_put_teams)（在预览）
+- [创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)（在预览）
 - [新团队](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Microsoft Teams 管理培训](itadmin-readiness.md)
