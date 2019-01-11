@@ -239,8 +239,6 @@
 #### [使用 PowerShell 设置团队 live 事件策略](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 #### [配置团队 live 事件设置](teams-live-events/configure-teams-live-events.md)
 
-
-
 ## 应用和服务
 ### [Teams 中适用于应用的管理设置](admin-settings.md)
 ### [团队应用程序权限和注意事项](app-permissions.md)
@@ -519,6 +517,10 @@
 #### 直接路由的技术参考
 ##### [出站呼叫发生 Trunk 故障转移](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Online 的 Microsoft 团队呼叫流](microsoft-teams-online-call-flows.md)
+## [团队分析和报告](teams-analytics-and-reports/teams-reporting-reference.md)
+### [团队使用情况报告](teams-analytics-and-reports/teams-usage-report.md)
+### [团队用户活动报告](teams-analytics-and-reports/user-activity-report.md) 
+### [团队设备使用情况报告](teams-analytics-and-reports/device-usage-report.md)
 <!-- ============================================================ -->
 
 
@@ -529,6 +531,8 @@
 ## [对于管理员 Microsoft 教育调控常见问题](plan-teams-governance-edu.md)
 <!-- ============================================================ -->
 
+# Firstline 工作者团队
+## [管理您的组织在工作组引进相关应用程序](manage-the-shifts-app-for-your-organization-in-teams.md)
 # [Teams 的 PowerShell cmdlet 参考](https://docs.microsoft.com/powershell/module/teams)
 
 # [Teams 的开发人员文档](https://docs.microsoft.com/microsoftteams/platform)
