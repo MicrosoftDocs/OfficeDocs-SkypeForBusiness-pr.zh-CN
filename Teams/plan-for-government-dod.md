@@ -1,43 +1,43 @@
 ---
-title: Microsoft 365 政府版规划 - GCC High 部署 - Microsoft Teams
+title: 规划 Microsoft 365 政府-DoD 部署的 Microsoft 团队
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/03/2019
+ms.date: 01/11/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
-description: 面向 IT 专业人员为中处理数据受美国政府法规的实体的驱动器 Office 365 部署指南。
+description: 面向 IT 专业人员为中处理数据受美国政府 DoD 法规的实体的驱动器 Office 365 部署指南。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af5261e20f11cfb4234fb6d27abfa31b18370556
+ms.openlocfilehash: 6464982fad114b28019534068503c3fce5f42c20
 ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988261"
+ms.locfileid: "27992178"
 ---
-# <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Microsoft 365 政府版-GCC 高部署规划
+# <a name="plan-for-microsoft-365-government---dod-deployments"></a>Microsoft 365 政府版-DoD 部署规划
 
-本指南为 IT 专业人员带来了部署 Office 365 在美国联邦政府实体或处理受制政府法规的数据和要求，使用 Microsoft 365 政府版 – GCC 高适合其他实体为满足这些要求。
+本指南为 IT 专业人员带来了部署 Office 365 在美国联邦政府实体或处理受制政府法规的数据和要求，其中使用 Microsoft 365 政府版 – DoD 适合于其他实体满足这些要求。
 
 > [!NOTE]
-> 如果您的组织已满足 Microsoft 365 政府 – GCC 高资格要求和应用于并被接受到程序，您可以跳过步骤 1 和 2，直接转到步骤 3。
+> 如果您的组织已满足 Microsoft 365 政府 – DoD 资格要求和应用于并被接受到程序，您可以跳过步骤 1 和 2，直接转到步骤 3。
 
-## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---gcc-high-and-meets-eligibility-requirements"></a>第 1 步 确定您的组织是否需要 Microsoft 365 政府-GCC 高，并且符合资格要求。 
+## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---dod-and-meets-eligibility-requirements"></a>第 1 步 确定您的组织是否需要 Microsoft 365 政府-DoD，并且符合资格要求。 
 
-Microsoft 365 政府-GCC 高环境提供符合美国的云服务的政府要求。 除了享受的特性和功能的 Office 365，组织受益于对 Microsoft 365 政府版 – GCC 高是唯一的以下功能：
+Microsoft 365 政府-DoD 环境提供符合美国的云服务的政府要求。 除了享受的特性和功能的 Office 365，组织受益于对 Microsoft 365 政府版 – DoD 是唯一的以下功能：
 
 - 贵组织的客户内容逻辑分离从 microsoft 商业的 Office 365 服务中的客户内容中。
 - 美国境内存储贵组织的客户内容。
 - 贵组织的客户内容的访问仅限于屏蔽 Microsoft 人员。
-- Microsoft 365 政府版 – GCC 高遵循认证和资格鉴定所需的美国公共部门客户。
+- Microsoft 365 政府版 – DoD 遵守认证和资格鉴定所需的美国公共部门客户。
 
-您可以找到有关 Microsoft 365 政府 – GCC 高提供在[Office 365 政府计划](https://products.office.com/government/compare-office-365-government-plans)，包括[资格要求](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)美国政府客户的详细信息。
+您可以找到有关 Microsoft 365 政府 – DoD 提供在[Office 365 政府计划](https://products.office.com/government/compare-office-365-government-plans)，包括[资格要求](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)美国政府客户的详细信息。
 
 [Office 365 美国政府服务说明](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)介绍平台的优点，在会议合规性要求美国境内居中。
 
@@ -48,30 +48,30 @@ Microsoft 365 政府-GCC 高环境提供符合美国的云服务的政府要求�
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定 Microsoft 365 政府-GCC 高是否适合您的组织。</li><li>确认您的组织满足资格要求。</li></ul> |
+| ![](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定 Microsoft 365 政府-DoD 是否适合您的组织。</li><li>确认您的组织满足资格要求。</li></ul> |
 
 > [!Note]
-> Microsoft 365 政府-GCC 高仅在美国可用。 非 – 美国政府客户可以选择从[Office 365 政府计划](https://products.office.com/en/government/compare-office-365-government-plans)数。
+> Microsoft 365 政府-DoD 仅在美国可用。 非 – 美国政府客户可以选择从[Office 365 政府计划](https://products.office.com/en/government/compare-office-365-government-plans)数。
 
-## <a name="step-2-apply-for-microsoft-365-government---gcc-high"></a>第 2 步 适用于 Microsoft 365 政府-GCC 高
+## <a name="step-2-apply-for-microsoft-365-government---dod"></a>第 2 步 适用于 Microsoft 365 政府-DoD
 
 无决定的此服务适合您的组织，启动[此服务应用](https://products.office.com/government/eligibility-validation)的过程。
 
 
-## <a name="step-3-understand-microsoft-365-government---gcc-high-default-security-settings"></a>第 3 步 了解 Microsoft 365 政府-GCC 高的默认安全设置。
+## <a name="step-3-understand-microsoft-365-government---dod-default-security-settings"></a>第 3 步 了解 Microsoft 365 政府-DoD 默认安全设置。
 
 我们建议您执行时间仔细检查您的[管理和安全设置](enable-features-office-365.md)，然后再对其进行修改和对默认安全设置进行任何更改之前，请考虑影响合规性。
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定是否需要修改任何默认 Microsoft 365 政府-GCC 高的安全设置，解决首先了解任何更改的影响您可能会使。</li></ul> |
+| ![](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定是否需要修改任何默认 Microsoft 365 政府-DoD 安全设置，解决首先了解任何更改的影响您可能会使。</li></ul> |
 
 
-## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---gcc-high"></a>第 4 步 了解哪些团队功能在 Microsoft 365 政府-GCC 高当前可用
+## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---dod"></a>第 4 步 了解哪些团队功能在 Microsoft 365 政府-DoD 当前可用
 
-若要容纳政府云客户的要求，有一些区别 リ モ ・ Microsoft 365 政府-GCC 高和团队中的企业计划。 请参阅下表可查看可用的功能。
+若要容纳政府云客户的要求，有一些区别 リ モ ・ Microsoft 365 政府-DoD 和团队中的企业计划。 请参阅下表可查看可用的功能。
 
-|                             | 功能                     | GCC 高       |
+|                             | 功能                     | DoD       |
 |-----------------------------|-----------------------------|----------------|
 | 基本 | 登录 | 有空 |
 | | 状态 | 有空 |
@@ -95,7 +95,6 @@ Microsoft 365 政府-GCC 高环境提供符合美国的云服务的政府要求�
 | | 桌面共享 | 有空 |
 | | 在共享授予 and 获得控制权 | 有空 |
 | | 从会议室连接 | 有空 |
-| | 匿名加入 | 有空 |
 | | 云录制 | 政府待办事项上 |
 | | 会议笔记 | 有空 |
 | | 广播的会议 | 政府待办事项上 |
@@ -151,6 +150,6 @@ Microsoft 365 政府-GCC 高环境提供符合美国的云服务的政府要求�
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>第 6 步 部署团队协作
 
-您已向 Microsoft 365 政府 – GCC 高 onboarded 后，您可以按照使用[FastTrack](https://www.microsoft.com/fasttrack)和到板载您选择的合作伙伴服务的标准的部署方法。
+您已向 Microsoft 365 政府 – DoD，onboarded 后，您可以按照使用[FastTrack](https://www.microsoft.com/fasttrack)和到板载您选择的合作伙伴服务的标准的部署方法。
 
 当您准备好时，到[启用通过团队和通道组织内的协作](teams-overview.md)部署团队。 请务必与您应用和变更管理团队或团队拥护者。

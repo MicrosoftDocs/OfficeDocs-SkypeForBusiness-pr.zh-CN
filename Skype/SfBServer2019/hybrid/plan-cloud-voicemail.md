@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 本文介绍优点、 规划注意事项以及用于实现 Microsoft 云语音邮件服务的要求。 有关配置云语音邮件的信息，请参阅配置云语音邮件。
-ms.openlocfilehash: 14df7c3d8fbe7cab0bff9482c1543e7a6084039e
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 1cf4376becb9826e7403b22e621843de7426abb6
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696203"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988168"
 ---
 # <a name="plan-cloud-voicemail-service"></a>规划云语音邮件服务
 
@@ -77,7 +77,7 @@ ms.locfileid: "25696203"
 
 - 外部 Exchange Web Services (EWS) URL 和自动发现，必须先设置或某些云语音邮件功能将受到限制。
 
--  如果您具有内部部署仅部署-的只有 Exchange 和 Skype for Business 的本地服务器-但要充分利用云语音邮件，则需要 ON PREM 许可证。 
+-  如果您有一个内部部署仅部署 & #x 2014; 即，仅 Exchange 和 Skype for Business 的本地服务器和 #x 2014; 但您想要充分利用云语音邮件，您需要 ON PREM 许可证。 
 
 ## <a name="migration-and-interoperability"></a>迁移和互操作性
 
@@ -86,7 +86,8 @@ ms.locfileid: "25696203"
 - Exchange Server 2019 不再提供的 Exchange UM 功能
 - Skype 的业务服务器 2019年不再与 Exchange Online UM 集成
 
-下表中列出版本互操作性和受支持的拓扑云语音邮件。 对于预览版本，云语音邮件只适用于 Skype Business Server 和 Exchange Server 2019 或 Exchange Online。
+下表，比较 Skype 列出版本的互操作性和受支持的拓扑云语音邮件业务服务器版本的用户可能驻留在与可能版本提供其 Exchange 邮箱。 云语音邮件只适用于 Skype Business Server 和 Exchange Server 2019 或 Exchange Online。
+
 
 
 |                               | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |

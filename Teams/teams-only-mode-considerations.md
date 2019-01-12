@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 024ed8c0248d26f803c0b8cd7a4114c2c255cdd5
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 39212613b7ecf86e7138c90adfbf5dc3a021ac46
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27791685"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988237"
 ---
 # <a name="teams-only-mode-considerations"></a>团队仅模式注意事项
 
@@ -32,7 +32,7 @@ ms.locfileid: "27791685"
 > [!IMPORTANT]
 > 如果您刚开始升级规划，请务必查看我们完全升级指南和规划资源。 [从这里开始](upgrade-introduction.md)。 
 
-**共存注意事项**： 已使用 Skype 业务 online 和/或 Skype 的业务服务器可以将团队引入满足他们的需求的步调其环境的组织。 组织可以增量推出团队到一组所需的用户根据需要，使用团队的用户通信与用户使用 Skype for Business，反之亦然。 若要管理此体验，管理员使用共存模式，定义的最终用户客户端体验，传入的路由行为聊天和呼叫，以及是否将新会议安排在团队或 for Business 的 Skype。 如果用户升级到**团队仅**;，用户可以与其他组织中用户联盟但是，当两个用户使用团队提供最佳体验。 升级到仅团队的用户仍可以加入 Skype 企业会议。 
+**共存注意事项**： 已使用 Skype 业务 online 和/或 Skype 的业务服务器可以将团队引入满足他们的需求的步调其环境的组织。 组织可以增量推出团队到一组所需的用户根据需要，使用团队的用户通信与用户使用 Skype for Business，反之亦然。 若要管理此体验，管理员使用共存模式，定义的最终用户客户端体验，传入的路由行为聊天和呼叫，以及是否将新会议安排在团队或 for Business 的 Skype。 如果用户升级到**团队仅**;，用户可以与其他组织中用户联盟但是，当两个用户使用团队提供最佳体验。 升级到仅团队的用户仍可以加入 Skype 业务会议。 
 
 > [!NOTE]
 > 升级到仅团队的用户无法与使用 Skype 使用者的用户通信。

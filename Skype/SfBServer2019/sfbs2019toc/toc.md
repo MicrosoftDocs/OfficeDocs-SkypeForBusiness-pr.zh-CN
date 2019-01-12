@@ -315,7 +315,7 @@
 #### [运行最佳做法分析器](../migration/run-best-practices-analyzer.md)
 #### [备份系统和数据](../migration/back-up-systems-and-data.md)
 #### [配置迁移客户端](../migration/configure-clients-for-migration.md)
-#### [确认您是从迁移的旧环境](../migration/verify-environment.md)
+#### [确认要从中迁移的旧环境](../migration/verify-environment.md)
 ### [第 3 阶段： 部署试点池](../migration/phase-3-deploy-pilot-pool.md)
 #### [为试点池准备 Active Directory](../migration/prepare-active-directory.md)
 #### [从现有部署下载拓扑](../migration/download-topology-from-existing-deployment.md)

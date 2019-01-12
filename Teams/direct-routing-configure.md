@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 了解如何配置 Microsoft 电话系统直接路由。
-ms.openlocfilehash: cf856989cd4f87f4b46e1eb36cbeb403bf92b029
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: d7744841b99e343339624314a94d95ab9472fa85
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297908"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988284"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -81,7 +81,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
 ```
   > [!NOTE]
   > 1. 我们强烈建议 SBC，设置限制使用可以找到 SBC 文档中的信息。 如果 SBC 处于容量级别限制将触发通知。
-  > 2. 您可以仅配对的 FQDN，其中名称的域部分匹配一个除在您的租户中注册的域与 SBC \*。 onmicrosoft.com。 使用\*。 omicrosoft.com 域名不支持的 SBC FQDN 名称。 例如，如果您有两个域名：<br/><br/>
+  > 2. 您可以仅配对的 FQDN，其中名称的域部分匹配一个除在您的租户中注册的域与 SBC \*。 onmicrosoft.com。 使用\*。 onmicrosoft.com 域名称不支持的 SBC FQDN 名称。 例如，如果您有两个域名：<br/><br/>
   > **contoso**.com<br/>**contoso**。 onmicrosoft.com<br/><br/>
   > SBC 名称，您可以使用名称 sbc.contoso.com。 如果您尝试配对名称 sbc.contoso.abc 与 SBC，系统将不允许您，如此租户不属于域。
 
