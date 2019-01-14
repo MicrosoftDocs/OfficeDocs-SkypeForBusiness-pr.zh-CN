@@ -3,68 +3,6 @@
 
 
 
-## <a name="week-of-november-26-2018"></a>2018 年 11 月 26 日一周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 2018 年 11 月 26 日 | [在加拿大的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada) | 修改内容 |
-| 2018 年 11 月 26 日 | [在法国的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france) | 修改内容 |
-| 2018 年 11 月 26 日 | [在德国的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany) | 修改内容 |
-| 2018 年 11 月 26 日 | [在爱尔兰的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland) | 修改内容 |
-| 2018 年 11 月 26 日 | [在西班牙的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain) | 修改内容 |
-| 2018 年 11 月 26 日 | [在荷兰的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands) | 修改内容 |
-| 2018 年 11 月 26 日 | [在英国 (U.K.) 的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k) | 修改内容 |
-| 2018 年 11 月 26 日 | [在美国 (U.S.) 的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s) | 修改内容 |
-| 2018 年 11 月 26 日 | [在 Microsoft Teams 中授权来宾访问](/MicrosoftTeams/teams-dependencies) | 修改内容 |
-| 2018 年 11 月 26 日 | [向团队添加来宾](/MicrosoftTeams/add-guests) | 修改内容 |
-| 2018 年 11 月 26 日 | [编辑来宾用户信息](/MicrosoftTeams/edit-guests-information) | 修改内容 |
-| 2018 年 11 月 26 日 | [使用 PowerShell 控制来宾对团队的访问](/MicrosoftTeams/guest-access-powershell) | 修改内容 |
-| 2018 年 11 月 26 日 | [Microsoft Teams 来宾访问清单](/MicrosoftTeams/guest-access-checklist) | 修改内容 |
-| 2018 年 11 月 26 日 | [Microsoft Teams 中的来宾访问](/MicrosoftTeams/guest-access) | 修改内容 |
-| 2018 年 11 月 26 日 | [来宾体验介绍](/MicrosoftTeams/guest-experience) | 修改内容 |
-| 2018 年 11 月 26 日 | [来宾加入团队的方式](/MicrosoftTeams/guest-joins) | 修改内容 |
-| 2018 年 11 月 26 日 | [在 Microsoft Teams 中管理来宾访问](/MicrosoftTeams/manage-guests) | 修改内容 |
-| 2018 年 11 月 26 日 | [在团队中查看来宾用户](/MicrosoftTeams/view-guests) | 修改内容 |
-| 2018 年 11 月 26 日 | [在瑞士的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland) | 修改内容 |
-| 2018 年 11 月 26 日 | [管理 Microsoft Teams Commercial Cloud Trial 产品](/MicrosoftTeams/iw-trial-teams) | 修改内容 |
-| 2018 年 11 月 26 日 | [将应用发布到 Microsoft Teams 租户应用目录](/MicrosoftTeams/tenant-apps-catalog-teams) | 修改内容 |
-| 2018 年 11 月 26 日 | [规划直接路由](/MicrosoftTeams/direct-routing-plan) | 修改内容 |
-| 2018 年 11 月 26 日 | [Microsoft Teams 的最终用户培训](/MicrosoftTeams/enduser-training) | 修改内容 |
-| 2018 年 11 月 26 日 | [什么是紧急位置、地址和呼叫路由？](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | 修改内容 |
-| 2018 年 11 月 26 日 | [采用 Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 修改内容 |
-| 2018 年 11 月 26 日 | [用于采用的工具和下载](/MicrosoftTeams/adopt-tools-and-downloads) | 修改内容 |
-| 2018 年 11 月 26 日 | [团队的动态成员资格概述](/MicrosoftTeams/dynamic-memberships) | 修改内容 |
-| 2018 年 11 月 26 日 | [Microsoft Teams 应用的硬件要求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 修改内容 |
-| 2018 年 11 月 26 日 | [在 Teams 中规划生命周期管理 - Microsoft Teams](/MicrosoftTeams/plan-teams-lifecycle) | 修改内容 |
-| 2018 年 11 月 26 日 | [贵组织为 Microsoft Teams 准备到什么程度？](/MicrosoftTeams/teams-adoption-assess-readiness) | 修改内容 |
-| 2018 年 11 月 26 日 | [为 Microsoft Teams 创建支持者计划](/MicrosoftTeams/teams-adoption-create-champions-program) | 修改内容 |
-| 2018 年 11 月 26 日 | [为 Microsoft Teams 采用定义结果和成功](/MicrosoftTeams/teams-adoption-define-outcomes) | 修改内容 |
-| 2018 年 11 月 26 日 | [为 Microsoft Teams 定义使用方案](/MicrosoftTeams/teams-adoption-define-usage-scenarios) | 修改内容 |
-| 2018 年 11 月 26 日 | [为 Microsoft Teams 推动认知并开展培训](/MicrosoftTeams/teams-adoption-drive-awareness) | 修改内容 |
-| 2018 年 11 月 26 日 | [开始推动采用 Microsoft Teams](/MicrosoftTeams/teams-adoption-get-started) | 修改内容 |
-| 2018 年 11 月 26 日 | [Microsoft Teams 管理快速入门](/MicrosoftTeams/teams-adoption-governance-quick-start) | 修改内容 |
-| 2018 年 11 月 26 日 | [为早期采用者上线 Microsoft Teams 并收集反馈](/MicrosoftTeams/teams-adoption-onboard-early-adopters) | 修改内容 |
-| 2018 年 11 月 26 日 | [为 Microsoft Teams 上线支持](/MicrosoftTeams/teams-adoption-onboard-support) | 修改内容 |
-| 2018 年 11 月 26 日 | [为 Microsoft Teams 采用优化反馈和报告功能](/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting) | 修改内容 |
-| 2018 年 11 月 26 日 | [Microsoft Teams 采用第 1 阶段 - 开始](/MicrosoftTeams/teams-adoption-phase1) | 修改内容 |
-| 2018 年 11 月 26 日 | [Microsoft Teams 采用第 2 阶段 - 试验](/MicrosoftTeams/teams-adoption-phase2-experiment) | 修改内容 |
-| 2018 年 11 月 26 日 | [Microsoft Teams 采用第 3 阶段 - 扩展](/MicrosoftTeams/teams-adoption-phase3-enable) | 修改内容 |
-| 2018 年 11 月 26 日 | [Microsoft Teams 采用快速入门清单](/MicrosoftTeams/teams-adoption-quick-start-checklist) | 修改内容 |
-| 2018 年 11 月 26 日 | [为 Microsoft Teams 采用安排服务运行状况检查](/MicrosoftTeams/teams-adoption-schedule-service-health-reviews) | 修改内容 |
-| 2018 年 11 月 26 日 | [了解 Microsoft Teams 中的团队和频道](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | 修改内容 |
-| 2018 年 11 月 26 日 | [在 Microsoft Teams 中创建首批团体](/MicrosoftTeams/teams-adoption-your-first-teams) | 修改内容 |
-| 2018 年 11 月 27 日 | [规划用户的 Microsoft Teams 体验](/MicrosoftTeams/5-envision-plan-my-users-experience) | 修改内容 |
-| 2018 年 11 月 27 日 | [快速入门 - Microsoft Teams 教育版管理员](/MicrosoftTeams/teams-quick-start-edu) | 修改内容 |
-| 2018 年 11 月 27 日 | [获取 Microsoft Teams 的客户端](/MicrosoftTeams/get-clients) | 修改内容 |
-| 2018 年 11 月 27 日 | [为早期采用者上线 Microsoft Teams](/MicrosoftTeams/get-started-with-teams-onboard-early-adopters) | 修改内容 |
-| 2018 年 11 月 27 日 | [在对 Microsoft Teams 进行故障排除时使用日志文件](/MicrosoftTeams/log-files) | 修改内容 |
-| 2018 年 11 月 27 日 | [为 Microsoft Teams 准备贵组织的网络](/MicrosoftTeams/prepare-network) | 修改内容 |
-| 2018 年 11 月 29 日 | [向团队添加来宾](/MicrosoftTeams/add-guests) | 修改内容 |
-| 2018 年 11 月 29 日 | [与 Skype for Business 共存](/MicrosoftTeams/coexistence-chat-calls-presence) | 修改内容 |
-| 2018 年 11 月 29 日 | [在 Microsoft Teams 中创建组织范围的团队](/MicrosoftTeams/create-an-org-wide-team) | 修改内容 |
-
-
 ## <a name="week-of-december-03-2018"></a>2018 年 12 月 3 日一周
 
 
@@ -173,7 +111,20 @@
 
 | 发布日期 |主题标题 | 更改 |
 |------|------------|--------|
-| 12 月 28 日 | [做出音频会议服务决策 - Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) | 修改内容 |
-| 12 月 28 日 | [Microsoft Teams 中的会议](/MicrosoftTeams/tutorial-meetings-in-teams) | 修改内容 |
-| 12 月 28 日 | [在 Microsoft Teams 中管理设备](/MicrosoftTeams/device-management) | 修改内容 |
-| 12 月 28 日 | [在 Office 365 组织中启用 Microsoft Teams 功能](/MicrosoftTeams/enable-features-office-365)。 | 修改内容 |
+| 2018 年 12 月 28 日 | [做出音频会议服务决策 - Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) | 修改内容 |
+| 2018 年 12 月 28 日 | [Microsoft Teams 中的会议](/MicrosoftTeams/tutorial-meetings-in-teams) | 修改内容 |
+| 2018 年 12 月 28 日 | [在 Microsoft Teams 中管理设备](/MicrosoftTeams/device-management) | 修改内容 |
+| 2018 年 12 月 28 日 | [在 Office 365 组织中启用 Microsoft Teams 功能](/MicrosoftTeams/enable-features-office-365)。 | 修改内容 |
+
+
+## <a name="week-of-december-31-2018"></a>2018 年 12 月 31 日一周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 2019 年 1 月 3 日 | （通过 SCCM）使用 MSI 安装 Microsoft Teams | 删除内容 |
+| 2019 年 1 月 3 日 | [Microsoft Teams 部署概述](/MicrosoftTeams/deployment-overview) | 修改内容 |
+| 2019 年 1 月 3 日 | [来宾体验介绍](/MicrosoftTeams/guest-experience) | 修改内容 |
+| 2019 年 1 月 3 日 | [Microsoft 365 政府版规划 - GCC High 部署 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | 修改内容 |
+| 2019 年 1 月 3 日 | [Microsoft 365 政府版规划 - GCC 部署 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | 修改内容 |
+| 2019 年 1 月 4 日 | [将 Microsoft Teams free 升级到 Office 365 订阅版本](/MicrosoftTeams/upgrade-freemium) | 修改内容 |
