@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 会议迁移服务 (MMS) 是在后台运行，并为用户的业务和 Microsoft 团队会议将自动更新 Skype 的服务。 MMS 旨在消除用户运行会议迁移工具需要更新其 Skype 业务和 Microsoft 团队的会议。
-ms.openlocfilehash: 94f3d315810e6fdee93ffa8abfe6a657ca8b43fd
-ms.sourcegitcommit: 1b9f19b1bd8f33ee2f011cd5ea2d0d75bf8647c9
+ms.openlocfilehash: e700725fc95957647bea8fe44d6a73a34bd16ab8
+ms.sourcegitcommit: 2d79898281258e123a86d9a0a2bc1211ee6b039e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27783514"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28019573"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>使用会议迁移服务 (MMS)
 
@@ -34,7 +34,9 @@ ms.locfileid: "27783514"
 
 - 当迁移用户从内部部署到云 （是否业务 online Skype 或 TeamsOnly）。
 - 当管理员对用户的音频会议设置进行了更改 
-- 在用户升级到 TeamsOnly 模式 （仅适用于技术计 サ ョ [点击] 客户）
+- 在升级 online 用户向仅，工作组或 TeamsUpgradePolicy 中的用户的模式设置为 SfBwithTeamsCollabAndMeetings （仅适用于点击客户）
+- 当您使用 PowerShell 
+
 
 默认情况下 MMS 是自动触发中每种情况下，尽管管理员可以禁用它在租户级别。 此外，管理员可以使用 PowerShell cmdlet 以手动触发给定用户的会议迁移。
 
@@ -76,7 +78,7 @@ ms.locfileid: "27783514"
 
 - 到云时从内部部署迁移用户
 - 当管理员对用户的音频会议设置进行了更改 
-- 在用户升级到 TeamsOnly 模式 （仅适用于点击客户）
+- 当 TeamsUpgradePolicy 中的用户的模式设置为 TeamsOnly 或 SfBWithTeamsCollabAndMeetings （仅适用于点击客户）
 - 当您使用 PowerShell 
 
 ### <a name="updating-meetings-when-you-move-an-on-premises-user-to-the-cloud"></a>更新会议的内部部署用户移到云中时
@@ -111,7 +113,7 @@ ms.locfileid: "27783514"
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>更新会议分配 TeamsUpgradePolicy 时
 
 > [!NOTE]
-> 本节介绍将首先对可点击客户的即将发布功能。
+> 本节介绍目前仅适用于点击客户的功能。
 
 默认情况下，会议迁移时，会自动触发向用户授予实例`TeamsUpgradePolicy`与`mode=TeamsOnly`或`mode= SfBWithTeamsCollabAndMeetings`。 如果您不希望将会议迁移授予这些模式，之一时，然后指定`MigrateMeetingsToTeams $false`中`Grant-CsTeamsUpgradePolicy`。
 
