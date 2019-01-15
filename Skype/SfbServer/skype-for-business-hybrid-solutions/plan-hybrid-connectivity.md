@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 摘要：阅读本主题可了解如何规划 Skype for Business Server 与 Skype for Business Online 之间的混合连接。 设置混合连接是部署多种 Skype for Business 混合解决方案的第一步。
-ms.openlocfilehash: 6b0456c115e1d1fc9b1a341b17cfc9711f2a6bb7
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 8fd32e8b70f2fc63919b9ec8abca2d0b70c90107
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240761"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015283"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>规划 Skype for Business Server 与 Skype for Business Online 之间的混合连接
 
@@ -333,7 +333,8 @@ ms.locfileid: "27240761"
 
 - **即时消息和状态**使用用户帐户都将迁移的用户联系人列表、 组和访问控制列表 (Acl)。
 
-- **会议数据、 会议内容和计划的会议**此内容不会迁移用户帐户。 其帐户都将迁移到 Skype 业务 online 后，用户必须重新安排会议。
+- **会议数据、 会议内容和计划的会议**此内容不会迁移用户帐户。 其帐户都将迁移到 Skype 业务 online 后，用户必须重新安排会议。 会议迁移服务将自动执行此操作时从迁移业务服务器 Skype 到 Skype 业务联机或团队，请参阅[使用会议迁移服务](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
+
 
 ## <a name="user-policies-and-features"></a>用户策略和功能
 <a name="BKMK_UserPolicies"> </a>

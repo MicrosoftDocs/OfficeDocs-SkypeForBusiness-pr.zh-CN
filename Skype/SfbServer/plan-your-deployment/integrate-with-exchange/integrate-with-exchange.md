@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 摘要： 查看有关如何为业务 Server 与 Exchange Server 2016 或 Exchange Server 2013 中集成 Skype 本主题。
-ms.openlocfilehash: 327a564e9c7a0a73ef178866f511c75388ac14bc
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 13be5cf29369b84db74052b36dec288220b91395
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789396"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015338"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>计划集成 Skype for Business 和 Exchange
  
@@ -108,7 +108,7 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 |服务器端对话历史记录  <br/> |是  <br/> |是  <br/> |否  <br/> |是  <br/> |是  <br/> |
 
 > [!NOTE]
-> 没有 Skype 业务 Online、 业务服务器 2019年的 Skype 业务服务器 2015年的 Skype 和业务 Server 2013 的 Skype 支持云语音邮件服务。
+> 没有云语音邮件服务，这受支持的 Skype 业务 Online、 Skype 业务服务器 2019年、 Skype 业务服务器 2015年和 Lync Server 2013。
 > 
 
 ## <a name="see-also"></a>另请参阅

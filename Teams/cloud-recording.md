@@ -12,12 +12,12 @@ description: 在 Microsoft Teams 中部署云语音功能实践指导
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1819aa33dd951483754f4c00377865460a3765ff
-ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
+ms.openlocfilehash: 085f2ff382c33f6914454fd1633054fd3e4602ca
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26620080"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015330"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -38,8 +38,10 @@ ms.locfileid: "26620080"
 - 用户已同意的公司准则，如果管理员设置
 - 用户要保存录制的 Microsoft 流中具有足够的存储空间
 - 用户具有 TeamsMeetingPolicy AllowCloudRecording 设置设置为 true
-- 用户具有 TeamsMeetingPolicy AllowTranscription 设置设置为 true，以便用户可以选择是否自动，理赔录制
 - 用户不是匿名，来宾或会议中的联合的用户
+
+> [!NOTE]
+> 此外，若要允许选择是否自动，理赔录制启动录制的人员，用户的 TeamsMeetingPolicy AllowTranscription 设置必须设置为 true
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>设置团队云会议录制您的组织中的用户
 
@@ -90,7 +92,7 @@ Microsoft 流是可用的合格的 Office 365 订阅一部分或作为独立的�
 
 使用中的设置 AllowTranscription 团队 powershell TeamsMeetingPolicy 控制是否录制启动器获取理赔会议录制可选择。 您可以了解有关管理 Office 365 PowerShell 中使用的 TeamsMeetingPolicy[此处](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
-已分配给用户的自定义策略，除非他们获取全局策略，其中已禁用默认情况下启用。
+已分配给用户的自定义策略，除非他们获取全局策略，其中包含默认情况下禁用 AllowTranscription。
 
 对于用户回退到全局策略，使用以下 cmdlet 删除特定的策略分配的用户：
 
