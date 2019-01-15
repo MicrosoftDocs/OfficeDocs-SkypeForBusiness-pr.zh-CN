@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f649ebce7a1938961d1c9f9ef143617a863a924
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 9e0a74bf35a122a672f99e91c872eab77a6ce6cd
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297736"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789164"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -163,7 +163,7 @@ ms.locfileid: "27297736"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|用户无法访问会议/连接器，但有 Exchange Online 邮箱。 <br/> |客户可在 Exchange Online 中主动阻止来自服务的 EWS，但需要使 MS Teams 符合 EWS 策略。 <br/> |要使 MS Teams 符合 EWS 策略，必须在 EWSAllowList 中为 MS Teams 添加以下用户代理字符串：`*skypespaces*` 和 `*microsoftninja*`（包括星号）。 可以使用以下命令：`Set-organizationconfig -EwsAllowList @{Add="*MicrosoftNinja*","*SkypeSpaces*"}`<br/> 有关详细信息，请参阅：https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps。 <br/> |2017 年 5 月 30 日  <br/>|
+|用户无法访问会议/连接器，但有 Exchange Online 邮箱。 <br/> |客户可在 Exchange Online 中主动阻止来自服务的 EWS，但需要使 MS Teams 符合 EWS 策略。 <br/> |要使 MS Teams 符合 EWS 策略，必须在 EWSAllowList 中为 MS Teams 添加以下用户代理字符串：`*skypespaces*` 和 `*microsoftninja*`（包含星号）。可以使用以下命令：`Set-organizationconfig -EwsAllowList @{Add="*MicrosoftNinja*","*SkypeSpaces*"}`<br/> 有关详细信息，请参阅：https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps。 <br/> |2017 年 5 月 30 日  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -205,8 +205,7 @@ ms.locfileid: "27297736"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|用户个人资料照片  <br/> | 当前，Teams 没有阻止用户更改照片的机制。BTS 团队已与提交考虑实现以下功能的开发团队会面交流：功能 108874：用于禁止上载个人资料照片的 IT 策略   <br/> | 如果你的客户希望能够在 Teams 中阻止上载个人资料照片，请让其在以下位置投票并添加业务案例： https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos
- <br/> |2017 年 3 月 1 日 <br/> |
+|用户个人资料照片  <br/> | 当前，Teams 没有阻止用户更改照片的机制。BTS 团队已与提交考虑实现以下功能的开发团队会面交流：功能 108874：用于禁止上载个人资料照片的 IT 策略   <br/> | 如果你的客户希望能够在 Teams 中阻止上载个人资料照片，请让其在以下位置投票并添加业务案例： https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos <br/> |2017 年 3 月 1 日 <br/> |
 
 ## <a name="provisioning"></a>预配
 
@@ -227,10 +226,6 @@ ms.locfileid: "27297736"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|网站选项卡引起客户混乱  <br/> |网站选项卡不同于浏览器。一些站点（尤其是要求进行身份验证或使用弹出窗口的站点）以网站选项卡方式固定时无法正常使用。  <br/> |我们正在改进该 UI 以使其对客户更加清晰。  <br/> |2018 年 5 月 2 日  <br/> |
-
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|
 |启用了条件访问后，选项卡无法正常使用 <br/> |对租户启用了条件访问后，在桌面客户端上无法加载一些选项卡。使用 Web 客户端时，可以加载这些选项卡。可能受影响的一些选项卡为：PowerBI、Forms、VSTS、PowerApps 和 SharePoint List。  <br/> |要查看受影响的选项卡，必须在 Edge、IE 或安装了 Windows 10 Accounts 扩展程序的 Chrome 中使用 Teams。一些选项卡仍依赖于 Web 身份验证，而在启用了 CA 时无法在桌面客户端中进行 Web 身份验证。我们正在与合作伙伴合作以启用这些方案；到目前为止，我们已启用 Planner、OneNote 和 Stream。 <br/> |2018 年 4 月 5 日  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
@@ -247,7 +242,11 @@ ms.locfileid: "27297736"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|SharePoint 页面选项卡呈现白屏<br/> |当前不支持 SharePoint Online 虚域。用户尝试添加 SharePoint 页面选项卡时看到的是白屏。 <br/> |无解决方法。 <br/> |2018 年 8 月 20 日  <br/>|
+|SharePoint 页面选项卡呈现白屏 <br/> |当前不支持 SharePoint Online 虚域。用户尝试添加 SharePoint 页面选项卡时看到的是白屏。 <br/> |无解决方法。 <br/> |2018 年 8 月 20 日  <br/>|
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|旧版 OneNote 选项卡  <br/> |在 Microsoft Teams 公共预览版期间创建的旧版 OneNote 选项卡无法重命名或删除。  <br/> |无解决方法。 <br/> |2017 年 11 月 8 日  <br/> |
 
 ## <a name="teams"></a>团队
 
