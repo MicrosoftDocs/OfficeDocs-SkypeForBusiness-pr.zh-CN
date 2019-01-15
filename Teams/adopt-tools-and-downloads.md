@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a01c837924f0499b9378d88b9ed6d7e70c9ba91
-ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
+ms.openlocfilehash: 64041c7cf66e880374d8d52f68c7ec5def0de61c
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27896136"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015322"
 ---
 # <a name="tools-for-driving-adoption"></a>对于推动应用的工具 
 
@@ -146,4 +146,7 @@ ms.locfileid: "27896136"
 Office 365 拥护者程序是一个免费程序，可帮助要获取更多来自 Microsoft 团队和其他 Office 365 服务的人员。 我们将我们在线社区[Microsoft 技术社区](https://aka.ms/DriveAdoption)中的与突出显示的新功能的最佳做法从调控驱动应用的所有组件的每月社区呼叫。 加入我们在社区https://aka.ms/O365Champions和获取早期版本的访问权限、 听到其他客户和了解从 Microsoft 专家。  
 
 ### <a name="teams-adoption-guide"></a>团队应用指南
-签出此联机指南将帮助您在贵公司推出团队。 它包括多个可下载的工具、 模板和其他资源以帮助您沿您团队应用过程。
+签出[团队应用 flipbook](https://aka.ms/teamstoolkit)，联机向导将帮助您在贵公司推出团队。 它包括多个可下载的工具、 模板和其他资源以帮助您沿您团队应用过程。
+
+### <a name="teams-customer-success-kit"></a>团队客户成功工具包
+[团队客户成功工具包](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)提供了可帮助您在组织中推出团队的工具。 它包括通知、 传单海报、 倒计时，并提示和技巧的电子邮件模板。 它还包括入门指南团队领导和 IT 管理员。
