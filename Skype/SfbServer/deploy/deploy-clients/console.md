@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置 Skype 会议室系统 v2 控制台和其外围设备。
-ms.openlocfilehash: 4218365e7cb4b396d3e93d3fa969546138ace33d
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: fab2854406e22b156c8fcca76e6701214199f62c
+ms.sourcegitcommit: d3708702393ac434344c758959109a3be2b3bfa4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716372"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28324932"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>配置 Skype 会议室系统 v2 控制台
  
@@ -41,22 +41,20 @@ ms.locfileid: "26716372"
 ## <a name="prepare-the-installation-media"></a>准备安装媒体
 <a name="Prep_Media"> </a>
 
-安装 Skype 会议室系统 v2 控制台应用程序需要具有至少 32 GB 内存格式设置为 FAT32 磁盘上的 USB 存储设备。 设备上不能有其他文件，USB 存储上的所有现有文件都会丢失。
+安装 Skype 会议室系统 v2 控制台应用程序需要 USB 存储设备具有至少 32 GB 的容量。 应在设备; 上的没有其他文件在 USB 存储任何现有文件都将丢失。
   
 > [!NOTE]
-> 未能创建 Skype 会议室系统 v2 安装媒体根据这些说明可能会导致意外的行为。 创建 Skype 会议室系统 v2 安装介质不再支持 Windows 10 企业周年日 Update (版本 1607)。
+> 未能创建 Skype 会议室系统 v2 安装媒体根据这些说明可能会导致意外的行为。
 
 > [!NOTE]
-> 与 Windows 10 企业移动到作为 Windows 应用商店的 Skype 会议室系统 v2 更新 3 现有 Skype 会议室系统 v2，但应该执行全新安装，如下所述。
+> 下面的过程是用于创建到图像新 Skype 会议室系统 v2 设备的安装介质中。 现有的设备，默认情况下自动更新从 Windows Update 和 Windows 应用商店。
   
 1. 下载 [CreateSrsMedia.ps1 脚本](https://go.microsoft.com/fwlink/?linkid=867842)。 
-2. （可选）下载并置于同一目录为脚本的任何所需的语言包 CAB 文件。 该脚本将指示其中您可以下载语言包文件适用于您要创建的介质的类型，如果您不确定获取从的语言包的位置。
-3. 在 Windows 10 计算机上，在提升的提示符下运行 CreateSrsMedia.ps1 脚本。
+2. 在 Windows 10 计算机上，在提升的提示符下运行 CreateSrsMedia.ps1 脚本。
+3. 按照脚本的说明创建 Skype 会议室系统 v2 USB 安装盘。
 
-按照脚本的说明创建 Skype 会议室系统 v2 USB 安装盘。 完成后，从计算机中删除 USB 磁盘，并继续[安装 Windows 10 和 Skype 会议室系统 v2 控制台应用程序](console.md#Reimage)。
+完成后，从计算机中删除 USB 磁盘，并继续[安装 Windows 10 和 Skype 会议室系统 v2 控制台应用程序](console.md#Reimage)。
 
-> [!TIP]
-> 您可能已经注意到我们不再标注的驱动程序、 Skype 会议室系统 v2 客户端或 Windows 10 企业的特定版本。 这是谨慎，我们希望了脚本，以匹配项，并验证所有安装程序兼容性。 该脚本将自动查找和获取的受支持的配置所需。  
     
 ## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>安装 Windows 10 和 Skype 会议室系统 v2 控制台应用
 <a name="Reimage"> </a>
