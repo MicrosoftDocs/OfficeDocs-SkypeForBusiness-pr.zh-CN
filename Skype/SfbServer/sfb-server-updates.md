@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在同一位置查找并管理 Skype for Business Server 2015 和 Lync 2013 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
-ms.openlocfilehash: 9c7d14e1439d3f7fd88ad6246495fccc1e7ef441
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 5ee195ab6837c8fb68e6768b0dadf5e014129e1b
+ms.sourcegitcommit: 71ba178ff60c4b36d4d8e287be9b16233a29ad55
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699435"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28022890"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
@@ -30,7 +30,7 @@ ms.locfileid: "26699435"
 
 |软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
-|Skype for Business Server 2015 更新 |[KB 3061064](https://support.microsoft.com/kb/3061064) |2018 年 7 月  |
+|Skype for Business Server 2015 更新 |[KB 3061064](https://support.microsoft.com/kb/3061064) |年 1 月 2019  |
 |Skype for Business Server 企业 Web 应用的累积更新 | [KB 4018462](https://support.microsoft.com/kb/4018462) |2017 年 5 月 |
 |Skype for Business Server 带宽策略服务的累积更新 | [KB 4012658](https://support.microsoft.com/kb/4012658) |2017 年 5 月 |
 |Skype for Business Server Unified Communications Managed API 5.0 Runtime 的累积更新 | [KB 4012657](https://support.microsoft.com/kb/4012657) |2017 年 5 月 |

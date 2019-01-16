@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fdd9c47e54c9ce51e736363eb47227614824a4c
-ms.sourcegitcommit: 768c7b5f0aaa4b38a0b98c7c9ff904ffedd2e9b9
+ms.openlocfilehash: 7f761e36712b94274ccf88aa03bd3658c039d438
+ms.sourcegitcommit: 71ba178ff60c4b36d4d8e287be9b16233a29ad55
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27893354"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28022912"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>管理组织中的 Microsoft 团队引进相关应用程序
 
@@ -36,7 +36,11 @@ ms.locfileid: "27893354"
 
 引进可用于所有 Office 365 订阅包括团队，与几个例外。 例外情况是美国政府云社区 (GCC) 和团队免费。 Office 365 美国政府引进不可或团队忙产品。
 
-若要了解有关团队许可的详细信息，请参阅[Office 365 许可团队](Office-365-licensing.md)。
+进一步了解许可团队，包括 Office 365 订阅的列表，包括团队，请参阅[Office 365 许可团队](Office-365-licensing.md)。
+
+## <a name="location-of-shifts-data"></a>引进数据的位置
+
+北美、 西欧和亚太地区中的数据中心中的 Azure 中当前存储引进数据。 有关存储数据的详细信息，请参阅[其中是我的数据](http://o365datacentermap.azurewebsites.net/)？
 
 ## <a name="set-up-shifts"></a>设置引进
 
