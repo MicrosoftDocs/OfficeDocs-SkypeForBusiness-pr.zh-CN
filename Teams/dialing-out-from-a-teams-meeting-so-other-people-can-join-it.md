@@ -21,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 了解你需要的信息以及会议组织者如何使用 Teams 向其他人拨出。
-ms.openlocfilehash: adb4d9ae492c324937dbe552fc138933428cc466
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: a1d06d75d48c45cfc13490c5c6562451909120dd
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297788"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326855"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>从 Microsoft Teams 会议拨出，以便其他人可以加入会议
 
 作为会议组织者，您可以拨出使用团队应用程序让其他人加入同一会议使用其电话。
 
-当您向某人拨出时，我们建议您该操作可使用其 （包括国家/地区代码） 的完整电话号码。
+当您向某人拨出时，我们建议您该操作可使用其 （包括国家/地区代码-E.164 格式） 的完整电话号码。
   
   请注意：
 

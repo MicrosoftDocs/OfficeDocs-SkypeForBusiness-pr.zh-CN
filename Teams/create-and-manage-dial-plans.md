@@ -23,13 +23,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: '了解如何在 Office 365 中创建呼叫拨号计划（PSTN 呼叫拨号计划）以及如何管理它们。 '
-ms.openlocfilehash: 1bf059f096e6e66c9f5b10913cc6754e3f9e247f
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+description: 'Learn how to create calling dial plans (PSTN Calling dial plans) in Office 365 and how to manage them. '
+ms.openlocfilehash: 49ce76cc723b120fce4fd259304e6bb066b10f6e
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25506797"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326824"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 
@@ -42,7 +42,7 @@ ms.locfileid: "25506797"
 
  **检查正在运行的是 Windows PowerShell 3.0 版本或更高版本**
   
-1. 若要验证正在运行的版本是 3.0 或更高：**开始菜单** > **Windows PowerShell**。
+1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
     
 2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
     
@@ -54,7 +54,7 @@ ms.locfileid: "25506797"
   
  **启动 Windows PowerShell 会话**
   
-1. 从 **开始菜单** > **Windows PowerShell**。
+1. From the **Start Menu** > **Windows PowerShell**.
     
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     
@@ -155,7 +155,7 @@ $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
 ```
 
-Run the following when you want to also examine the existing normalization rules, determine which one you want to delete, and then use its index to remove it. The array of normalization rules starts with index 0. We would like to remove the 3-digit normalization rule, so that is index 1.
+运行以下命令时要检查的现有的规范化规则，确定哪个要删除，并将其索引以便将其删除。规范化规则的数组开头索引值 0。我们希望删除 3 位数字表示规范化规则，以便索引 1。
   
 ```
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
@@ -181,7 +181,12 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1
 Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Run these to add the existing on-premises dial plan named OPDP1 as a tenant dial plan for your organization. You need to first save the on-premises dial plan to an .xml file, and then use it to create the new tenant dial plan.
+运行此选项可删除所有用户拥有 HostingProvider sipfed.online.lync.com policyname。
+```
+Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
+```
+
+运行这些脚本可为你的组织将名为 OPDP1 的本地拨号计划添加为租户拨号计划。 您需要先保存本地拨号计划到.xml 文件，然后使用它来创建新的租户拨号计划。
   
 运行此选项可将内部部署拨号计划保存到的.xml 文件。
   
@@ -207,7 +212,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

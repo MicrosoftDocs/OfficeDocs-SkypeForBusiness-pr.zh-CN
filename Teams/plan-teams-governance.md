@@ -1,5 +1,5 @@
 ---
-title: 团队-Microsoft 团队中的治理规划
+title: 在 Teams 中规划管理 - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5becca716ad4790cc0b156dd15895e66fea7d836
-ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
+ms.openlocfilehash: db98b9b5ab460207b2dd9f9a793a486402ec29fd
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26539038"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326863"
 ---
 # <a name="plan-for-governance-in-teams"></a>团队中的治理规划
 
@@ -40,15 +40,15 @@ ms.locfileid: "26539038"
 
 > [!TIP]
 > 下表用于捕获贵组织的要求。
-> 
-> |功能 |详细信息 |Azure AD Premium <br> 所需的许可证 |决策 |
-> |---------|---------|---------|---------|
-> |团队命名策略 | 使用基于前缀后缀、 自定义已阻止单词。 |P1 |TBD |
-> |团队分类 |向工作组分配分类。 |P1 |TBD |
-> |团队来宾访问 |允许或阻止来宾添加到团队。 |否 |TBD |
-> |团队创建 |限制向管理员团队创建。 |否 |TBD|
-> |团队创建 |限制团队创建安全组成员。 |P1 |TBD|
-> 
+
+|功能 |详细信息 |Azure AD Premium <br> 所需的许可证 |决策 |
+|---------|---------|---------|---------|
+|团队命名策略 | 使用基于前缀后缀、 自定义已阻止单词。 |P1 |TBD |
+|团队分类 |向工作组分配分类。 |P1 |TBD |
+|团队来宾访问 |允许或阻止来宾添加到团队。 |否 |TBD |
+|团队创建 |限制向管理员团队创建。 |否 |TBD|
+|团队创建 |限制团队创建安全组成员。 |P1 |TBD|
+
 > [!NOTE]
 > 可帮助您规划提前，[了解更多有关这些策略设置和哪些所需的许可证](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
 > 
@@ -69,7 +69,7 @@ ms.locfileid: "26539038"
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>组和团队过期、 保留和存档
 
-您的组织可能已设置的到期日期保留策略的其他要求和存档团队团队需要数据。 可以配置组过期策略，以自动管理生命周期的组和保留策略保留或删除的信息，根据需要且可以存档团队 （将它们设置为只读模式） 若要保留的时间点视图的工作组的不再处于活动状态。
+您的组织可能已设置的到期日期保留策略的其他要求和存档团队团队需要数据 （通道消息和频道文件）。 可以配置组过期策略，以自动管理生命周期的组和保留策略保留或删除的信息，根据需要且可以存档团队 （将它们设置为只读模式） 若要保留的时间点视图的工作组的不再处于活动状态。
 
 |           |            |
 |-----------|------------|
@@ -78,13 +78,13 @@ ms.locfileid: "26539038"
 
 > [!TIP]
 > 下表用于捕获贵组织的要求。
-> 
-> |功能 |详细信息 |Azure AD Premium <br>所需的许可证 |决策 |
-> |---------|---------|---------|---------|
-> |过期策略 |通过设置过期策略管理 Office 365 组的生命周期。 |P1 |TBD|
-> |保留策略 |保留还是删除在特定时间段内的数据 （团队通道消息和频道文件），通过为团队的保留策略设置中的安全性和合规性中心。 **注意**： 使用此功能要求许可或以上的 Office 365 企业版 E3。 |否 |TBD |
-> |存档和还原 |存档团队不再处于活动状态时，但您希望保留其周围的引用或将来重新激活。 |否 |TBD |
-> 
+
+|功能 |详细信息 |所需的 azure AD Premium 许可证 |决策 |
+|---------|---------|---------|---------|
+|过期策略 |通过设置过期策略管理 Office 365 组的生命周期。 |P1 |TBD|
+|保留策略 |保留还是删除在特定时间段内的数据，通过为团队的保留策略设置在安全 & 合规性中心。 **注意**： 使用此功能要求许可或以上的 Office 365 企业版 E3。 |否 |TBD |
+|存档和还原 |存档团队不再处于活动状态时，但您希望保留其周围的引用或将来重新激活。 |否 |TBD |
+
 > [!Note]
 > 组到期时间是 Azure AD Premium 功能。 能够使用此功能，您的租户必须为配置的设置和受影响的组的成员的管理员具有订阅 Azure AD Premium 和许可证。
 
@@ -115,7 +115,7 @@ ms.locfileid: "26539038"
 
 所有设置，包括有关如何为您的组织，实现这些技术指南的详细列表，请参阅以下文章：
 
--   [管理 Office 365 组织中的 Microsoft 团队功能](enable-features-office-365.md)
+-   [在 Office 365 组织中启用 Microsoft Teams 功能](enable-features-office-365.md)。
 -   [转换为新的 Microsoft 团队和业务管理中心的 Skype 的过程管理团队](manage-teams-skypeforbusiness-admin-center.md)
 -   [管理团队中的会议策略](meeting-policies-in-teams.md)
 

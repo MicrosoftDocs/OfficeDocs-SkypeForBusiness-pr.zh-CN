@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 本文介绍优点、 规划注意事项以及用于实现 Microsoft 云语音邮件服务的要求。 有关配置云语音邮件的信息，请参阅配置云语音邮件。
-ms.openlocfilehash: 1cf4376becb9826e7403b22e621843de7426abb6
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: 0ea27643acce66484081034b8685c7dcad9aa311
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988168"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326769"
 ---
 # <a name="plan-cloud-voicemail-service"></a>规划云语音邮件服务
 
@@ -75,9 +75,9 @@ ms.locfileid: "27988168"
 
 - 内部部署业务服务器，必须为用户启用了企业语音和 Skype 中承载语音邮件。
 
-- 外部 Exchange Web Services (EWS) URL 和自动发现，必须先设置或某些云语音邮件功能将受到限制。
+- 外部 Exchange Web Services (EWS) 必须设置 URL 和自动发现或某些云语音邮件功能将受到限制。
 
--  如果您有一个内部部署仅部署 & #x 2014; 即，仅 Exchange 和 Skype for Business 的本地服务器和 #x 2014; 但您想要充分利用云语音邮件，您需要 ON PREM 许可证。 
+-  如果您具有内部部署仅 deployment& #x 2014; 即，仅 Exchange 和 for Business 的 Skype 本地 servers& #x 2014; 但要充分利用云语音邮件，您不需要额外许可证。
 
 ## <a name="migration-and-interoperability"></a>迁移和互操作性
 

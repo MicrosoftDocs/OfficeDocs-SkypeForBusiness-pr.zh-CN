@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa6fef59-9d3a-4bda-acda-960734e4cb1a
 description: 开始迁移到 Skype 的业务服务器 2019年之前，请按照本节中所述的步骤。
-ms.openlocfilehash: b878cd0bd553465ab441e58bd031e50d716e17f6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 035383c08158352fa1eb11ba35cc142ad9002069
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028640"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326689"
 ---
 # <a name="phase-2-prepare-for-migration"></a>第 2 阶段： 准备迁移
 
@@ -25,8 +25,6 @@ ms.locfileid: "25028640"
 - [应用更新](apply-updates.md)
     
 - [为试点池部署配置 DNS 记录](configure-dns-records-for-pilot-pool-deployment.md)
-    
-- [运行最佳做法分析器](run-best-practices-analyzer.md)
     
 - [备份系统和数据](back-up-systems-and-data.md)
     

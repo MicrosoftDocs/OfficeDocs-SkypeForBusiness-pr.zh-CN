@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7fa7e7d7999bd42748e1997a4ec73b37ca14a67
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: efb5b4394ae7659982a747e79ace2296dbdf2345
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772766"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326706"
 ---
 <a name="teams-guest-access-checklist"></a>团队来宾访问清单
 ==========================================
@@ -71,7 +71,7 @@ ms.locfileid: "27772766"
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ 步骤 2： 配置 Office 365 组
 
-1. 在 Microsoft 365 管理中心，转到**设置** > **服务和加载项** > **Office 365 组**。
+1. 在 Microsoft 365 管理中心，转到**设置** > **服务 & 加载** > **Office 365 组**。
 2. 请确保**让外部组织的访问组内容的组成员**设置为**上**。 如果此设置处于关闭，来宾将无法访问任何组内容。
 3. 请确保**让组添加到组组织外部的人员的所有者**设置为**上**。 如果此设置处于关闭，团队所有者将无法添加新的来宾。 至少，此设置必须登录到支持来宾访问权限。
 
@@ -82,9 +82,9 @@ ms.locfileid: "27772766"
 
 ## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ 步骤 3： 启用租户级别的来宾访问
 
-至少，您必须打开的所有用户的许可证类型**来宾**Microsoft 团队。 
+至少，您必须启用来宾访问的**Microsoft 团队 & Business Admin Center 的 Skype**下的 Microsoft 团队。 
 
-1. 在工作组和 Skype 业务管理中心的选择**组织范围的设置** > **来宾访问**。
+1. 在工作组 & Skype 的业务管理中心中，选择**组织范围的设置** > **来宾访问**。
 2. 设置为**上**的**Microsoft 团队中的允许来宾访问**开关。
 
     ![屏幕快照显示了工作组设置切换的示例](media/set-up-guests-image1.png)
@@ -99,7 +99,7 @@ ms.locfileid: "27772766"
 
 确保用户可以添加来宾。 下面是如何：
 
-1. 在 Microsoft 365 管理中心，转到**设置** > **安全性和隐私**。
+1. 在 Microsoft 365 管理中心，转到**设置** > **安全 & 隐私**。
 
      ![屏幕快照显示了服务设置的示例](media/guest-access-checklist-Office365Admin_Services_addins.png)
 

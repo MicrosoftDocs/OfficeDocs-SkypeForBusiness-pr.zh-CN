@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: cf6f2118ff147e6c126db6fcbbd0af9dbe155e21
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: f4d66c58066cd5547a8692066763675006d97920
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699396"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326696"
 ---
 # <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>添加、 更改或删除您的组织的紧急地址
 
@@ -40,7 +40,7 @@ ms.locfileid: "26699396"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
+2. 转到**Microsoft 团队 & Business Admin Center 的 Skype** > **旧门户**。
     
 3. 在左侧导航中，转到**语音** > **紧急位置**，然后单击 **添加新地址**按钮。
     
@@ -62,7 +62,7 @@ ms.locfileid: "26699396"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
+2. 转到**Microsoft 团队 & Business Admin Center 的 Skype** > **旧门户**。
     
 3. 在左侧导航窗格中，转到**语音** > **紧急位置**，选择您想要更改的地址和操作窗格中单击**编辑**。
     
@@ -83,7 +83,34 @@ ms.locfileid: "26699396"
     
     > [!IMPORTANT]
     > 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
+
+## <a name="troubleshooting"></a>故障排除
+
+**处于"失败"状态的数目。**
+
+获取后从 Office 365 门户的号码，状态更改 **"设置"** 中为 **"失败"**。
+
+通常，数字添加从门户，使用指向某个位置这不匹配的电话的区号紧急地址时，将出现此问题。
+
+若要获取有关拨未正确激活的详细信息，请运行以下 Powershell:
+ 
+> [!语法] Get CsOnlineTelephoneNumber |Where-object {$_。ActivationState cnotcontains"激活"} |fl *
+
+结果，如区域、 id 和 ActivationState，留出其他信息还应包含 CityCode。
+
+**示例**中，对于马德里数，返回 CityCode 将为"EMEA-ES-所有-M_MA"。
+
+如果确实已使用错误的紧急地址，请确保已创建新的紧急地址对应于号码的区域代码并将其分配到的号码。
+
+1. 使用你的工作或学校帐户登录 Office 365。
     
+2. 转到**Microsoft 团队 & Business Admin Center 的 Skype** > **旧门户**。
+    
+3. 在左侧导航窗格中，转到**语音** > **电话号码**和数处于 **"失败"** 状态和从右侧网站菜单中，然后双击选择**新紧急地址**。
+
+
+请注意，更改紧急地址，数字的状态将更改为 **"待处理工作分配"** ，并可能需要 24 小时的成功激活之后。
+
 ## <a name="related-topics"></a>相关主题
 [什么是紧急位置、地址和呼叫路由？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 

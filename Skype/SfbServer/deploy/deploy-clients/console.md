@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置 Skype 会议室系统 v2 控制台和其外围设备。
-ms.openlocfilehash: fab2854406e22b156c8fcca76e6701214199f62c
-ms.sourcegitcommit: d3708702393ac434344c758959109a3be2b3bfa4
+ms.openlocfilehash: 162aaaed5472fefc3c23cc11800b166ed4b26bc2
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 01/16/2019
-ms.locfileid: "28324932"
+ms.locfileid: "28326714"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>配置 Skype 会议室系统 v2 控制台
  
@@ -52,6 +52,9 @@ ms.locfileid: "28324932"
 1. 下载 [CreateSrsMedia.ps1 脚本](https://go.microsoft.com/fwlink/?linkid=867842)。 
 2. 在 Windows 10 计算机上，在提升的提示符下运行 CreateSrsMedia.ps1 脚本。
 3. 按照脚本的说明创建 Skype 会议室系统 v2 USB 安装盘。
+
+> [!CAUTION]
+> 运行媒体创建脚本从文件夹的名称不能包含空格。 如果没有为文件夹名称中的空格，脚本将失败。
 
 完成后，从计算机中删除 USB 磁盘，并继续[安装 Windows 10 和 Skype 会议室系统 v2 控制台应用程序](console.md#Reimage)。
 

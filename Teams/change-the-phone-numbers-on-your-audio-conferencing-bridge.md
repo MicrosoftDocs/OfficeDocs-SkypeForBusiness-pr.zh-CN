@@ -1,5 +1,5 @@
 ---
-title: 更改音频会议网桥的电话号码
+title: 更改音频会议网桥中的电话号码
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
-ms.openlocfilehash: d90daec99ced371aae3ef0685d1138656a6ab138
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c1590fe63a712ece4c2f073dc6642b09ac273d32
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531770"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326871"
 ---
-# <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改音频会议网桥的电话号码
+# <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改音频会议网桥中的电话号码
 
 当您购买**音频会议**许可证时，Microsoft 承载您的组织的音频会议桥。 音频会议桥了出从不同位置的电话拨入电话号码，以便会议组织者并参与者可以使用它们 Skype 加入使用电话的业务或 Microsoft 小组会议。
   
@@ -46,7 +46,7 @@ ms.locfileid: "26531770"
 
 1. 使用你的工作帐户登录 Office 365。
 
-2. 转到**Office 365 管理中心** > **管理中心** > **团队和 Skype** > **旧门户** > **语音** > **电话号码**。
+2. 转到**Office 365 管理中心** > **管理中心** > **团队 & Skype** > **旧门户** > **语音** > **电话号码**。
 
 3. 从列表中，并在操作窗格中选择的电话号码，请单击**分配**。
 
@@ -60,7 +60,7 @@ ms.locfileid: "26531770"
 
 1. 使用你的工作帐户登录 Office 365。
 
-2. 转到**Office 365 管理中心** > **管理中心** > **团队和 Skype** > **会议** > **会议桥**。
+2. 转到**Office 365 管理中心** > **管理中心** > **团队 & Skype** > **会议** > **会议桥**。
 
 3. 突出显示您想要配置为默认的服务收费电话号码。
 
@@ -72,7 +72,7 @@ ms.locfileid: "26531770"
   
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到**Office 365 管理中心** > **管理中心** > **团队和 Skype** > **旧门户** > **音频会议** > **用户**，然后选择列表中的用户。
+2. 转到**Office 365 管理中心** > **管理中心** > **团队 & Skype** > **旧门户** > **音频会议** > **用户**，然后选择列表中的用户。
 
 3. 在"操作"窗格中单击" **编辑**"。
 
@@ -136,7 +136,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到**Office 365 管理中心** > **管理中心** > **团队和 Skype** > **旧门户** > **语音** > **电话号码**。
+2. 转到**Office 365 管理中心** > **管理中心** > **团队 & Skype** > **旧门户** > **语音** > **电话号码**。
 
 3. 从列表中，并在操作窗格中选择的电话号码，请单击**取消分配**。
 
@@ -220,6 +220,24 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
     > [!NOTE]
     > [!注释] 上面使用的位置信息需要与 Office 365 管理中心中设置的用户联系信息匹配。
+
+## <a name="troubleshooting"></a>故障排除
+
+**取消分配按钮是灰出**
+
+您想要取消分配一个号码，但按钮是灰出，如果时 hoovering 上方，您将被重定向以与支持部门联系并出现以下消息 _"默认或共享的号码 can´t 是从桥未分配。若要取消分配专用收费电话号码，请联系支持。_"。
+
+若要获取有关上网桥的详细信息，请运行以下 Powershell:
+```
+Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
+```
+
+结果，如标识、 名称和区域，留出其他信息还应包含 DefaultServiceNumber。
+
+**示例**，若要取消分配，DefaultServiceNumber"8005551234"
+```
+Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName “Conference Bridge” -RemoveDefaultServiceNumber 8005551234 
+```
 
 ## <a name="about-windows-powershell"></a>有关 Windows PowerShell
 

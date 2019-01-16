@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: b648c068131cd01f536aab65ca3cca05cfa0e7c7
-ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
+ms.openlocfilehash: f374a87a8cfa3645a685b6628a93b0e4d5236191
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26620088"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326887"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>通话质量仪表板中可用的维度和衡量指标
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 中的服务质量 - Microsoft Teams
+title: 在 Microsoft 团队中实现服务的质量
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5e6b37a0daff06a4676a7ecba1b67ecdd03649a
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: b519327b37c61a126c5101080f0c1eee9f8582f5
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789091"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326729"
 ---
-# <a name="quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams 中的服务质量 (QoS)
+# <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 团队中实现服务质量 (QoS)
 
 本文将帮助您的服务质量 (QoS) 中的 Microsoft 团队准备贵组织的网络。
 
@@ -33,15 +33,15 @@ ms.locfileid: "27789091"
 
 对于要真正有效的 QoS，一致 QoS 设置需要应用端到端中您的组织 （用户 Pc、 网络交换机和路由器到云），因为无法支持 QoS 优先级路径的任何部分会降低呼叫质量视频和屏幕共享。
 
-![组织的网络和 Office 365 服务之间的关系： 本地网络和设备将与反过来连接和 Office 365 云语音和音频会议服务互连网络连接。](media/Qos-in-Teams-Image1.png "组织的网络和 Office 365 服务之间的关系： 本地网络和设备将与反过来连接和 Office 365 云语音和音频会议服务互连网络连接。")
+QoS 是可用来确定优先级某些类型的网络流量通过不太敏感其他流量对网络延迟敏感的机制。 简单葡萄形状是 QoS 创建虚拟网络，因此某些类型的数据从不数据中的"乘泳道"，或很少遇到延迟。
 
-_图 1。组织的网络和 Office 365 服务之间的关系_
+设置优先级的实时通信，如呼叫或团队可以共享的会议流量时详细可靠地提供业务级的用户体验。 当不实现 QoS 时，在会议中的共享的屏幕可以冻结、 视频可以 pixellate 和颜色 shift 和语音呼叫会变得断断续续和难或无法了解。 对于要真正有效的 QoS，一致 QoS 设置需要应用端到端中您的组织 （用户 Pc、 网络交换机和路由器到云），因为无法支持 QoS 优先级路径的任何部分会降低呼叫质量视频和屏幕共享。
 
-
-在大多数情况下，该互连网络将非托管的网络 internet 连接。 
+![组织的网络和 Office 365 服务之间的关系： 本地网络和设备将与反过来连接和 Office 365 云语音和音频会议服务互连网络连接。](media/Qos-in-Teams-Image1.png) 
 
 一个选项可用于解决端到端 QoS 是[Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/)。 我们仍建议您实现您的本地网络上的 QoS。 这将提高整个部署的实时通信工作负载的质量，并解决阻塞点。 
 
+在大多数情况下，该网络连接到云企业将非托管的网络 internet 连接，您将无法可靠地设置 QoS。 一个选项可允许真正的端到端 QoS 是[Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/)。 我们仍建议您实现 QoS 上的端到端网络的部分中，您可以控制，即您的本地网络。 这将提高整个部署的实时通信工作负载的质量，并解决阻塞现有部署中的点。
 
 ## <a name="prioritize-teams-network-traffic-for-qos"></a>设置团队网络流量优先级的 QoS 
 
@@ -70,7 +70,7 @@ _图 1。组织的网络和 Office 365 服务之间的关系_
 
 _图 2。QoS 队列的示例_
 
-这些条目准备就绪后，就可以传递可预测的 QoS，因为基础的托管的网络现在了解如何进行分类，将标记，并设置其优先级流量。 从工作组角度来看，最重要的配置步骤的分类和标记的数据包，但在进行端到端 QoS 成功您还需要仔细对齐的基础的网络配置的应用程序的配置。
+这些条目准备就绪后，就可以传递可预测的 QoS，因为网络现在了解如何进行分类，将标记，并设置其优先级流量。 从工作组角度来看，最重要的配置步骤的分类和标记的数据包，但在进行端到端 QoS 成功您还需要仔细对齐的基础的网络配置的应用程序的配置。
 
 ## <a name="teams-qos-scenarios"></a>团队 QoS 方案
 
@@ -141,7 +141,7 @@ _表 1。网络性能指标-到 Office 365 服务的客户端_
 | 突发数据包丢失 | 任何 200 毫秒的时间间隔期间 < 10% |
 | 数据包丢失 | 任何 15 的第二个间隔期间 < 1% |
 | 数据包间到达抖动 | 任何 15 的第二个间隔期间 < 30 毫秒 |
-| 数据包重新排序 | 利用顺序数据包 < 0.05% |
+| 数据包重新排序 | < 0.05%共顺序数据包 |
 
 延迟指标目标假定您的公司网站和 Microsoft 边缘位于同一洲。
 
@@ -266,8 +266,7 @@ _表 3。DSCP 标记_
    ```
    gpresult /H >gp.html
    ```
-
-   ![运行 gpresult 命令控制台窗口的屏幕截图。](media/Qos-in-Teams-Image3.png "运行 gpresult 命令控制台窗口的屏幕截图。")
+ ![运行 gpresult 命令控制台窗口的屏幕截图。](media/Qos-in-Teams-Image3.png "运行 gpresult 命令控制台窗口的屏幕截图。")
 
 3. 在生成的文件中，查找的标题**应用组策略对象**和验证前面创建的组策略对象的名称位于应用策略的列表。 
 
