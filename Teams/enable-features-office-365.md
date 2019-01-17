@@ -15,44 +15,50 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a36c0a23076c5aa172824fe85103c57a8494dbf
-ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
+ms.openlocfilehash: 383a4a18d466e367a31e4b99f9975b51cc5f559a
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/28/2018
-ms.locfileid: "27458475"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988183"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>在 Office 365 组织中管理 Microsoft Teams 功能
 
-所有 Teams 设置不久都将迁移到 Microsoft Teams 与 Skype for Business 管理中心。在 Office 365 管理中心管理的唯一 Teams 功能是应用。 
+所有 Teams 设置不久都将迁移到全新的 Microsoft Teams 与 Skype for Business 管理中心。在 Microsoft 365 管理中心管理的唯一 Teams 功能是应用。 
 
 除非另有说明，否则选项的默认值为“**开启**”。
 
-## <a name="office-365-tenant-wide-settings"></a>Office 365 租户范围的设置 
+## <a name="tenant-wide-settings"></a>租户范围的设置 
 
-在**租户范围的设置**中，你可以开启或关闭应用。
+你可以在 Microsoft 365 管理中心的“**租户范围的设置**”中关闭或打开 Teams 的应用功能。 
 
-要编辑 Teams 的**租户范围的设置**，请访问 Microsoft Teams 与 Skype for Business 管理中心，然后选择“**旧门户**”。选择“**设置**” > “**服务和外接程序**” > “**Microsoft Teams**”。如果你已使用 Office 365 管理员身份登录，单击此链接应该能访问相应位置： 
->  
-> https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
+要编辑 Teams 的**租户范围的设置**，请访问 Microsoft 365 管理中心，然后选择“**设置**” > “**服务和外接程序**” > “**Microsoft Teams**”。如果你已使用 Office 365 管理员身份登录，单击此链接应该能转到相应位置： 
+
+https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
 
 ### <a name="apps"></a>应用
 
-应用是第三方服务提供的选项卡、连接器或聊天机器人或这三者的任意组合。可以在 Office 365 管理中心配置 Teams 管理策略来控制允许哪些外部第三方应用。通过这些策略可以指定允许和不允许哪些应用、新的外部应用行为以及是否允许侧向加载应用。 
+应用为选项卡、连接器、聊天机器人或这三者的任意组合，它们由 Teams（第一方应用，也称为默认应用）或第三方（也称为外部应用）提供。 在“**应用**”下，你可以启用和禁用默认应用，以及配置设置以控制外部应用。  
 
-在 **“应用”** 下，可以为贵组织配置以下设置： 
+#### <a name="default-apps"></a>默认应用
 
-![“应用”部分屏幕截图。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.png)
+这些应用（例如 Planner、Praise 和 Weather）由 Teams 提供。 要打开某个应用，请选中该应用对应的复选框。 要关闭某个应用，请取消选中相应的复选框。 
 
-- **在 Microsoft Teams 中允许外部应用：** 如果打开此开关，用户可以添加可供 Office 365 租户使用的选项卡和聊天机器人。 
- 
-    ![“应用”部分中的“允许外部应用”控件的屏幕截图。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
+![“默认应用”部分屏幕截图。](media/teams-tenant-wide-settings-default-apps.png "“默认应用”部分屏幕截图")
 
-- **默认启用新的外部应用：** 打开此开关后，用户可以在新应用添加到 Teams 应用目录后立即激活它们。如果你希望控制新应用，请关闭此开关。当然，如果你关闭此开关，必须记得定期查看新应用，以免贵组织错过酷炫的新应用。 
+#### <a name="external-apps"></a>外部应用
 
-- **允许侧向加载外部应用**：如果打开此开关，用户可以安装并启用自定义聊天机器人和选项卡。 
+这些应用由第三方提供。 你可以为外部应用配置以下设置。
 
-要了解详细信息，请阅读 [Teams 中适用于应用的管理员设置](admin-settings.md)。 
+![“外部应用”部分屏幕截图。](media/teams-tenant-wide-settings-external-apps-settings.png "“外部应用”部分屏幕截图，显示了你可以打开和关闭的设置")
+
+- **在 Microsoft Teams 中允许外部应用**：打开此设置后，用户可以添加贵组织可用的外部应用。 
+
+- **默认启用新的外部应用**：打开此设置后，用户可以在新应用添加到 Teams 应用目录后立即激活它们。 如果你希望控制新应用，请关闭此设置。 当然，如果你关闭此设置，必须记得定期查看新应用，以免贵组织错过新应用。 
+
+- **允许旁加载外部应用**：如果你希望打开一些外部应用并关闭其他外部应用，请关闭此设置，然后在外部应用列表中，关闭你不希望用户访问的应用。 打开此设置后，团队所有者和被授予权限的成员可以向 Teams 旁加载应用。 
+
+要了解详细信息，请参阅 [Teams 中适用于应用的管理员设置](admin-settings.md)。 
 
 ## <a name="teams-org-wide-settings"></a>Teams 组织范围的设置
 
@@ -83,10 +89,6 @@ ms.locfileid: "27458475"
 #### <a name="organization"></a>组织
 
 你可以在此处打开“**组织**”选项卡，其中显示用户组织的详细组织结构图。有关详细信息，请参阅[在 Teams 中使用“组织”选项卡](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894)。
-
-#### <a name="skype-for-business-interop"></a>Skype for Business 互操作性
-
-通过使用此设置，Teams 用户可以与 Skype for Business 用户聊天。有关 Teams 与 Skype for Business 之间的互操作性的详细信息，请访问[了解 Microsoft Teams 和 Skype for Business 的共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。
 
 #### <a name="devices"></a>设备
 

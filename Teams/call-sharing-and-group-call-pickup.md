@@ -1,9 +1,9 @@
 ---
-title: 呼叫共享和组中的 Microsoft 团队呼叫分拣
+title: Microsoft Teams 中的呼叫共享和组内呼叫应答
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/13/2018
+ms.date: 01/16/19
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 调用共享并组呼叫应答让用户与同事共享传入呼叫，以便用户不可用时，可以捕获呼叫。
-ms.openlocfilehash: 7f05484f0ba780eb8ed00df68b455d8555c1e4c0
-ms.sourcegitcommit: 5f7e078125f810a9e9a89052854ef63916afe7d3
+ms.openlocfilehash: 31df45d0420457528fd517c851b845a09cab32e0
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27283148"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328314"
 ---
-# <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>呼叫共享和组中的 Microsoft 团队呼叫分拣
+# <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams 中的呼叫共享和组内呼叫应答
 
 呼叫共享和组呼叫 Microsoft 团队让的用户共享其传入呼叫与同事，以便同事可以应答，当用户不可用时进行的呼叫的分拣的功能。
 
@@ -44,7 +44,7 @@ ms.locfileid: "27283148"
 
 ## <a name="configure-group-call-pickup"></a>配置组呼叫应答
 
-若要设置组的呼叫应答，用户首次配置的呼叫组，然后添加他们希望共享具有其呼叫的用户。 然后，他们选择同时响铃，或呼叫转接设置。 有关详细信息，请参阅[呼叫转接和同时拨打团队](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)。
+若要设置组的呼叫应答，用户首次配置 （这是不相同为安全组或 Office 365 组） 的呼叫组，，然后添加他们希望共享具有其呼叫的用户。 然后，他们选择同时响铃，或呼叫转接设置。 有关详细信息和分步过程，请参阅[呼叫转接和同时拨打团队](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)。
 
 呼叫组的创建和通知首选项是用户驱动的功能;管理员不需要配置这些功能的用户。 无法从安全组或 Office 365 组; 创建呼叫组必须在工作组中创建它们。
 

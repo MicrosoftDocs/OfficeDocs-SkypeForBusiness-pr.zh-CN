@@ -1,41 +1,14 @@
+---
+ms.openlocfilehash: 4216629a8b0f92092024984b21fca1b82a52a557
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015314"
+---
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
 
 
-
-
-## <a name="week-of-december-03-2018"></a>2018 年 12 月 3 日一周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 2018 年 12 月 3 日 | [Exchange 与 Microsoft Teams 如何交互](/MicrosoftTeams/exchange-teams-interact) | 修改内容 |
-| 2018 年 12 月 3 日 | [在 Microsoft Teams 中创建组织范围的团队](/MicrosoftTeams/create-an-org-wide-team) | 修改内容 |
-| 2018 年 12 月 3 日 | [规划直接路由](/MicrosoftTeams/direct-routing-plan) | 修改内容 |
-| 2018 年 12 月 3 日 | [为 Surface Hub 部署 Microsoft Teams](/MicrosoftTeams/teams-surface-hub) | 修改内容 |
-| 2018 年 12 月 4 日 | [FAQ - 从 Skype for Business 到 Microsoft Teams 的升级旅程 - Microsoft Teams](/MicrosoftTeams/faq-journey) | 修改内容 |
-| 2018 年 12 月 4 日 | [与 Skype for Business 共存](/MicrosoftTeams/coexistence-chat-calls-presence) | 修改内容 |
-| 2018 年 12 月 4 日 | [在 Microsoft Teams 中规划实时事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修改内容 |
-| 2018 年 12 月 4 日 | [了解 Skype for Business 与 Microsoft Teams 的共存和互操作性](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 修改内容 |
-| 2018 年 12 月 5 日 | [与 Skype for Business 共存](/MicrosoftTeams/coexistence-chat-calls-presence) | 修改内容 |
-| 2018 年 12 月 5 日 | [在 Microsoft Teams 中为私人聊天和频道添加聊天机器人](/MicrosoftTeams/add-bots) | 修改内容 |
-| 2018 年 12 月 5 日 | [在 Microsoft Teams 中创建组织范围的团队](/MicrosoftTeams/create-an-org-wide-team) | 修改内容 |
-| 2018 年 12 月 5 日 | [设置电话系统语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail) | 修改内容 |
-| 2018 年 12 月 6 日 | [在 Microsoft Teams 中创建组织范围的团队](/MicrosoftTeams/create-an-org-wide-team) | 修改内容 |
-| 2018 年 12 月 6 日 | [设置共存和升级设置](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings) | 修改内容 |
-| 2018 年 12 月 6 日 | [了解 Skype for Business 与 Microsoft Teams 的共存和互操作性](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 修改内容 |
-| 2018 年 12 月 6 日 | 在虚拟环境中运行 Microsoft Teams | 删除内容 |
-| 2018 年 12 月 7 日 | [FAQ - 从 Skype for Business 到 Microsoft Teams 的升级旅程 - Microsoft Teams](/MicrosoftTeams/faq-journey) | 修改内容 |
-| 2018 年 12 月 7 日 | [Microsoft Teams 管理培训](/MicrosoftTeams/itadmin-readiness) | 修改内容 |
-| 2018 年 12 月 7 日 | [Skype for Business 到 Microsoft Teams 升级](/MicrosoftTeams/journey-skypeforbusiness-teams) | 修改内容 |
-| 2018 年 12 月 7 日 | 使用 T-Bot 为用户提供 Microsoft Teams 方面的帮助 | 删除内容 |
-| 2018 年 12 月 7 日 | [快速入门 - Microsoft Teams 教育版管理员](/MicrosoftTeams/teams-quick-start-edu) | 修改内容 |
-| 2018 年 12 月 7 日 | [获取 Microsoft Teams 的客户端](/MicrosoftTeams/get-clients) | 修改内容 |
-| 2018 年 12 月 7 日 | [在对 Microsoft Teams 进行故障排除时使用日志文件](/MicrosoftTeams/log-files) | 修改内容 |
-| 2018 年 12 月 7 日 | [面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | 修改内容 |
-| 2018 年 12 月 7 日 | [Microsoft Teams 中的安全性和合规性概述](/MicrosoftTeams/security-compliance-overview) | 修改内容 |
-| 2018 年 12 月 7 日 | [了解 Skype for Business 与 Microsoft Teams 的共存和互操作性](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 修改内容 |
-| 2018 年 12 月 7 日 | [在澳大利亚的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia) | 修改内容 |
-| 2018 年 12 月 7 日 | [在 Microsoft Teams 中配置桌面共享](/MicrosoftTeams/configure-desktop-sharing) | 添加内容 |
 
 
 ## <a name="week-of-december-10-2018"></a>2018 年 12 月 10 日一周
@@ -128,3 +101,62 @@
 | 2019 年 1 月 3 日 | [Microsoft 365 政府版规划 - GCC High 部署 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | 修改内容 |
 | 2019 年 1 月 3 日 | [Microsoft 365 政府版规划 - GCC 部署 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | 修改内容 |
 | 2019 年 1 月 4 日 | [将 Microsoft Teams free 升级到 Office 365 订阅版本](/MicrosoftTeams/upgrade-freemium) | 修改内容 |
+
+
+## <a name="week-of-january-07-2019"></a>2019 年 1 月 7 日一周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 2019 年 1 月 7 日 | [购买和部署 Microsoft Teams IP 电话](/MicrosoftTeams/buying-and-deploying-teams-ip-phones) | 修改内容 |
+| 2019 年 1 月 8 日 | [购买和部署 Microsoft Teams IP 电话](/MicrosoftTeams/buying-and-deploying-teams-ip-phones) | 修改内容 |
+| 2019 年 1 月 8 日 | [Microsoft Teams 中的来宾访问](/MicrosoftTeams/guest-access) | 修改内容 |
+| 2019 年 1 月 8 日 | [在 Microsoft Teams 中授权来宾访问](/MicrosoftTeams/teams-dependencies) | 修改内容 |
+| 2019 年 1 月 8 日 | [向团队添加来宾](/MicrosoftTeams/add-guests) | 修改内容 |
+| 2019 年 1 月 8 日 | [编辑来宾用户信息](/MicrosoftTeams/edit-guests-information) | 修改内容 |
+| 2019 年 1 月 8 日 | [使用 PowerShell 控制来宾对团队的访问](/MicrosoftTeams/guest-access-powershell) | 修改内容 |
+| 2019 年 1 月 8 日 | [Microsoft Teams 来宾访问清单](/MicrosoftTeams/guest-access-checklist) | 修改内容 |
+| 2019 年 1 月 8 日 | [来宾体验介绍](/MicrosoftTeams/guest-experience) | 修改内容 |
+| 2019 年 1 月 8 日 | [来宾加入团队的方式](/MicrosoftTeams/guest-joins) | 修改内容 |
+| 2019 年 1 月 8 日 | [在 Microsoft Teams 中管理来宾访问](/MicrosoftTeams/manage-guests) | 修改内容 |
+| 2019 年 1 月 8 日 | [开启或关闭对 Microsoft Teams 的来宾访问](/MicrosoftTeams/set-up-guests) | 修改内容 |
+| 2019 年 1 月 8 日 | [在团队中查看来宾用户](/MicrosoftTeams/view-guests) | 修改内容 |
+| 2019 年 1 月 9 日 | [仅 Teams 模式注意事项](/MicrosoftTeams/teams-only-mode-considerations) | 添加内容 |
+| 2019 年 1 月 9 日 | [关于升级框架](/MicrosoftTeams/upgrade-framework) | 添加内容 |
+| 2019 年 1 月 9 日 | [升级到 Teams - Microsoft Teams](/MicrosoftTeams/upgrade-introduction) | 添加内容 |
+| 2019 年 1 月 9 日 | [开始 Microsoft Teams 升级](/MicrosoftTeams/upgrade-start-here) | 添加内容 |
+| 2019 年 1 月 9 日 | [从 Skype for Business 混合或本地部署升级到 Teams - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 添加内容 |
+| 2019 年 1 月 9 日 | [Microsoft Teams 的已知问题](/MicrosoftTeams/known-issues) | 修改内容 |
+| 2019 年 1 月 9 日 | [Microsoft Teams 中的服务质量 - Microsoft Teams](/MicrosoftTeams/qos-in-teams) | 修改内容 |
+| 2019 年 1 月 9 日 | [在 Exchange Online 中将 Microsoft Teams SMTP 域添加为允许的发件人域](/MicrosoftTeams/smtp-accepted-domain) | 修改内容 |
+| 2019 年 1 月 9 日 | [在 Microsoft Teams 中使用内置选项卡和自定义选项卡](/MicrosoftTeams/built-in-custom-tabs) | 修改内容 |
+| 2019 年 1 月 9 日 | [在巴林的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | 修改内容 |
+| 2019 年 1 月 9 日 | [在白俄罗斯的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus) | 修改内容 |
+| 2019 年 1 月 9 日 | [采用 PSTN 连接的混合环境中的用户帐户](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | 修改内容 |
+| 2019 年 1 月 9 日 | [在 Microsoft Teams 中创建首批团队和频道](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | 修改内容 |
+| 2019 年 1 月 9 日 | [在 Microsoft Teams 中设置音频会议自动助理语言](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams) | 修改内容 |
+| 2019 年 1 月 9 日 | [了解 Skype for Business 与 Microsoft Teams 的共存和互操作性](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 修改内容 |
+| 2019 年 1 月 9 日 | [在从 Skype for Business 升级到 Microsoft Teams 之前评估组织更改就绪情况 - Microsoft Teams](/MicrosoftTeams/upgrade-org-change-readiness) | 修改内容 |
+| 2019 年 1 月 9 日 | [适用于 Microsoft Teams 的 Upgrade Pro - Microsoft Teams](/MicrosoftTeams/upgrade-pro) | 修改内容 |
+| 2019 年 1 月 9 日 | [从 Skype for Business Online 升级到 Teams - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | 修改内容 |
+| 2019 年 1 月 9 日 | [使用 Microsoft Teams 管理员角色管理 Teams](/MicrosoftTeams/using-admin-roles) | 修改内容 |
+| 2019 年 1 月 9 日 | [从 Skype for Business 混合或本地部署升级到 Teams - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 修改内容 |
+| 2019 年 1 月 10 日 | [Microsoft Teams 文档和实践指导](/MicrosoftTeams/microsoft-teams) | 修改内容 |
+| 2019 年 1 月 10 日 | [开始使用 Teams 模板](/MicrosoftTeams/get-started-with-teams-templates) | 修改内容 |
+| 2019 年 1 月 10 日 | [在 Microsoft Teams 中监视使用情况和反馈](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | 修改内容 |
+| 2019 年 1 月 10 日 | [在 Microsoft Teams 中为组织管理 Shifts 应用](/MicrosoftTeams/manage-the-shifts-app-for-your-organization-in-teams) | 添加内容 |
+| 2019 年 1 月 10 日 | [Microsoft Teams 设备使用情况报告](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | 添加内容 |
+| 2019 年 1 月 10 日 | [Microsoft Teams 分析和报告](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 添加内容 |
+| 2019 年 1 月 10 日 | [Microsoft Teams 使用情况报告](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 添加内容 |
+| 2019 年 1 月 10 日 | [Microsoft Teams 用户活动报告](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 添加内容 |
+| 2019 年 1 月 11 日 | [面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | 修改内容 |
+| 2019 年 1 月 11 日 | [用于采用的工具和下载](/MicrosoftTeams/adopt-tools-and-downloads) | 修改内容 |
+| 2019 年 1 月 11 日 | [快速入门 - Microsoft Teams](/MicrosoftTeams/get-started-with-teams-quick-start) | 修改内容 |
+| 2019 年 1 月 11 日 | [了解 Microsoft Teams 中的团队和频道](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | 修改内容 |
+| 2019 年 1 月 11 日 | [关于升级框架](/MicrosoftTeams/upgrade-framework) | 修改内容 |
+| 2019 年 1 月 11 日 | [Microsoft 365 政府版规划 - DoD 部署 - Microsoft Teams](/MicrosoftTeams/plan-for-government-dod) | 添加内容 |
+| 2019 年 1 月 11 日 | [Microsoft Teams 中适用于应用的管理设置](/MicrosoftTeams/admin-settings) | 修改内容 |
+| 2019 年 1 月 11 日 | [配置直接路由](/MicrosoftTeams/direct-routing-configure) | 修改内容 |
+| 2019 年 1 月 11 日 | [在 Office 365 组织中启用 Microsoft Teams 功能](/MicrosoftTeams/enable-features-office-365)。 | 修改内容 |
+| 2019 年 1 月 11 日 | [Microsoft 365 政府版规划 - GCC High 部署 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | 修改内容 |
+| 2019 年 1 月 11 日 | [仅 Teams 模式注意事项](/MicrosoftTeams/teams-only-mode-considerations) | 修改内容 |

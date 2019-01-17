@@ -1,9 +1,9 @@
 ---
-title: 呼叫驻留和检索中的 Microsoft 团队
+title: Microsoft Teams 中的呼叫寄存和取回
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/17/2018
+ms.date: 01/16/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 使用呼叫寄存和取回呼叫置于保持状态，云中团队服务中。
-ms.openlocfilehash: 004a5b12e178a6460ef05f7c6f5c5738c8ced042
-ms.sourcegitcommit: 0e671e6e6fdd25227068c7e3a3a5509b6536d2b1
+ms.openlocfilehash: 2433a8836a037b530fbd895f7a37567f24d63b50
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "27294185"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328306"
 ---
-# <a name="call-park-and-retrieve-in-microsoft-teams"></a>呼叫驻留和检索中的 Microsoft 团队
+# <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams 中的呼叫寄存和取回
 
 呼叫寄存和取回是一种功能，允许用户将呼叫置于保留在云中团队服务中。 驻留呼叫后，该服务将生成一个唯一的代码调用检索。 寄存呼叫或其他人的用户然后可以使用该代码和支持的应用程序或设备取回呼叫。 
 
@@ -50,9 +50,9 @@ ms.locfileid: "27294185"
 
 | 功能 | 团队桌面 | 团队 Mac 应用程序 | 工作组 Web 应用程序 （边缘） |团队移动 iOS/Android 应用程序 | 团队 IP 电话 | Skype 业务 IP 电话 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| 驻留呼叫 | 是 | 是 | 是 | 即将提供 | 即将提供| 否 |
-| 取回驻留的呼叫 | 是 | 是 | 是 | 即将提供 | 即将提供| 否 |
-| 返回未检索到的呼叫拨打 | 是 | 是 | 是 | 即将提供 | 即将提供| 否 |
+| 驻留呼叫 | 是 | 是 | 是 | 是 | 即将提供| 否 |
+| 取回驻留的呼叫 | 是 | 是 | 是 | 是 | 即将提供| 否 |
+| 返回未检索到的呼叫拨打 | 是 | 是 | 是 | 是 | 即将提供| 否 |
 
 ## <a name="configuring-call-park-and-retrieve"></a>配置呼叫寄存和取回
 

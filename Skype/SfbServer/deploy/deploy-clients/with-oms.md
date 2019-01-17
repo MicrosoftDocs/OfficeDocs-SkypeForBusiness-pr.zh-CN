@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文讨论如何在使用 Microsoft 操作管理套件集成的端到端方式中部署的 Skype 会议室系统 v2 设备管理。
-ms.openlocfilehash: 5f370c7e222f75b11b41a39e99b9cba568d58241
-ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
+ms.openlocfilehash: 9a55238296452119679ff3c07147961fcec3eb7a
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25450487"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328276"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>使用 OMS 部署 Skype 会议室系统 v2 管理
 
@@ -138,9 +138,9 @@ ms.locfileid: "25450487"
 
 | JSON 字段                   | OMS 自定义字段           | 事件 ID        |
 |:-----------------------------|:---------------------------|:----------------|
-| 说明                  | SRSEventDescription_CF     | 未选定    |
+| 说明                  | SRSEventDescription_CF      | 未选定    |
 | ResourceState                | SRSResourceState_CF        | 未选定    |
-| 操作名称                | SRSOperationName_CF        | 未选定    |
+| OperationName                | SRSOperationName_CF        | 未选定    |
 | OperationResult              | SRSOperationResult_CF      | 未选定    |
 | OS                           | SRSOSVersion_CF            | 未选定    |
 | OSVersion                    | SRSOSLongVersion_CF        | 未选定    |
@@ -195,7 +195,7 @@ ms.locfileid: "25450487"
 
 ### <a name="create-a-tile-that-displays-active-devices"></a>创建活动设备将显示一个图块
 1.  选择**视图仪表板**开始添加您的图块数为单位。
-2.  从库中选择**号码和列表**
+2.  从库中选择**数字 & 列表**
 3.  定义**常规**属性：<br>
     **组标题：** 检测信号状态<br>
     **新组：** 选择
@@ -212,7 +212,7 @@ ms.locfileid: "25450487"
 8.  选择**应用**，然后**关闭**。
 
 ### <a name="create-a-tile-that-displays-devices-that-have-connectivity-issues"></a>创建具有连接问题的设备将显示一个图块
-1.  从库中，选择**号码和列表**，然后添加新的平铺。
+1.  从库中，选择**号码 & 列表**，然后添加新的平铺。
 2.  定义**常规**属性：<br>
     **组标题：** 将保留为空<br>
     **新组：** 未选定
@@ -230,7 +230,7 @@ ms.locfileid: "25450487"
 
 ### <a name="create-a-tile-that-displays-devices-that-have-a-hardware-error"></a>创建具有硬件错误的设备将显示一个图块
 
-1.  从库中，选择**号码和列表**，然后添加新的平铺。
+1.  从库中，选择**号码 & 列表**，然后添加新的平铺。
 2.  定义**常规**属性：<br>
     **组标题：** 硬件状态<br>
     **新组：** 选择
@@ -248,7 +248,7 @@ ms.locfileid: "25450487"
 
 ### <a name="create-a-tile-that-displays-skype-room-systems-v2-operating-system-versions"></a>创建显示 Skype 会议室系统 v2 操作系统版本拼贴
 
-1.  从库中，选择**圆环和列表**，然后添加新的平铺。
+1.  从库中选择**圆环 & 列表**，然后添加新的平铺。
 2.  定义**常规**属性：<br>
     **组标题：** 操作系统 Syetem 详细信息 <br>
     **新组：** 选择
@@ -272,7 +272,7 @@ ms.locfileid: "25450487"
 
 ### <a name="create-a-tile-that-displays-skype-room-systems-v2-application-versions"></a>创建显示 Skype 会议室系统 v2 应用程序版本拼贴
 
-1.  从库中，选择**圆环和列表**，然后添加新的平铺。
+1.  从库中选择**圆环 & 列表**，然后添加新的平铺。
 2.  定义**常规**属性：<br>
     **组标题：** Skype 会议室系统 v2 应用程序的详细信息 <br>
     **新组：** 选择
@@ -296,7 +296,7 @@ ms.locfileid: "25450487"
 
 ### <a name="create-a-tile-that-displays-devices-that-have-an-application-error"></a>创建具有应用程序错误的设备将显示一个图块
 
-1.  从库中，选择**号码和列表**，然后添加新的平铺。
+1.  从库中，选择**号码 & 列表**，然后添加新的平铺。
 2.  定义**常规**属性。<br>
     **组标题：** 将保留为空<br>
     **新组：** 未选定
@@ -314,7 +314,7 @@ ms.locfileid: "25450487"
 
 ### <a name="create-a-tile-that-displays-devices-that-have-been-restarted"></a>创建显示已重新启动设备拼贴
 
-1.  从库中，选择**号码和列表**，然后添加新的平铺。
+1.  从库中，选择**号码 & 列表**，然后添加新的平铺。
 2.  定义**常规**属性。<br>
     **组标题：** 将保留为空<br>
     **新组：** 未选定
@@ -392,7 +392,7 @@ ms.locfileid: "25450487"
 2.  输入以下查询，，，然后选择**运行**。<br>
     ```
     Event
-    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(10h)
+    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
     | summarize arg_max(TimeGenerated, *) by Computer
     | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
     | sort by TimeGenerated desc

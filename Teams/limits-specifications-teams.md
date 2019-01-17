@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f77de0515cc026b0d225100e7528a6eae4a7965
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: aa699ebabd57299ef2ced07c2c6d0fc551ac6b17
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240682"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328252"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 =============================================
@@ -30,14 +30,14 @@ ms.locfileid: "27240682"
 
 |功能    | 最大限制 |
 |-----------|---------------|
-|用户可创建的团队数量 | 受到 250 对象限制和 sup1;         |
+|用户可创建的团队数量 | 受到 250 对象 limit&sup1;         |
 |团队中的成员数 | 2500       |
 |[组织范围团队](create-an-org-wide-team.md)中的成员数 | 2500       |
-|全局管理员可以创建的团队数量        | 500,000 个   |
+|全局管理员可以创建的团队数量        |  500,000 个   |
 |Office 365 租户可以具有的团队数量    | 500,000 个     |
-|每个工作组的通道数    | 200         |
+|每个工作组的通道数    | 200 （包括已删除的通道）         |
 
-& sup1;Azure Active Directory 中的任何目录对象计算达到此限制。
+&sup1;Azure Active Directory 中的任何目录对象计算达到此限制。
 
 <a name="meetings-and-calls"></a>会议和呼叫 
 ------------------
