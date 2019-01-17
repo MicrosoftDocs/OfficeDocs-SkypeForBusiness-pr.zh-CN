@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 79d9fcde21b6d6f7d0c169efd852629fb43ae9b5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1f9fea1e2d3f8dcf4fc966d1392a38168fc1656e
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373783"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694858"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>定义和团队测试计划适用于企业中文档音频会议 
 ===============================================================================
@@ -80,7 +80,7 @@ ms.locfileid: "25373783"
 -   是否可以确认的最新公共路线图中所述的音频会议功能满足您的用户、 功能和部署的作用域的时间线中的要求
 
 > [!TIP]
-> 用于标识范围内的音频会议功能，可在找到您的部署的最新的工作组路线图<https://aka.ms/skype2teamsroadmap>。
+> 用于标识范围内的音频会议功能，可在找到您的部署的最新的工作组路线图<https://aka.ms/O365Roadmap>。
 
 既然已定义的音频会议角色和功能下, 一步评估标准将与团队的互操作性体验。 有关以及可用的配置选项的互操作性体验的其他信息，请参阅[Microsoft 团队和 Skype 的业务互操作性](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability)。
 
@@ -615,7 +615,7 @@ ms.locfileid: "25373783"
 <tr><th colspan="2">测试要点 </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
 <tr><th colspan="2">测试的缺点  </th></tr><br/><tr><td><strong>问题</strong>： 高延迟</td><td><strong>修正：</strong>调查数据包路由并实现的理想的路由。</td></tr>
-<tr><td><strong>问题</strong>： 往返时间不是 & #39; t double 延迟</td><td><strong>修正：</strong>调查可能防火墙或传送器配置问题。 调查流量路径。</td></tr>
+<tr><td><strong>问题</strong>： 往返时间 isn& #39; t double 延迟</td><td><strong>修正：</strong>调查可能防火墙或传送器配置问题。 调查流量路径。</td></tr>
 <tr><td><strong>问题</strong>： 较高的数据包丢失 </td><td><strong>修正：</strong>通过网络规划人员验证已分配足够带宽。 </td></tr>
 <tr><td><strong>问题</strong>： 高抖动 </td><td> <strong>修正：</strong>调查是否使用正确的区分的服务代码点 (DSCP) 值。 </td></tr>
 <tr><td><strong>问题</strong>： 较高的数据包丢失 </td><td><strong>修正：</strong>调查数据包丢失。 </td></tr>
@@ -643,7 +643,7 @@ ms.locfileid: "25373783"
 
 确定您希望到到 Office 365 端口为电话拨入式号码 （服务号码） 音频会议测试数
 
-**重要提示**
+**重要**
 
 当您规划号码移植测试，请务必查看针对[号码端口常见问题](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)中的号码移植请求的最新的准则。
 
@@ -653,7 +653,7 @@ ms.locfileid: "25373783"
 通常情况下，您可以找到所需的最新的 bill 或发票中的信息从您当前的服务提供商。
 
 > [!TIP]
-> 您可以端口或转接电话号码中所有当前支持的国家/地区内;但是，您所提交的端口顺序请求的方式可能会根据国家/地区的电话号码源自不同。 当前支持的国家/地区的最新列表，请参阅[国家/地区和音频会议和调用计划区域可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 < /br/ ><br/>
+> 您可以端口或转接电话号码中所有当前支持的国家/地区内;但是，您所提交的端口顺序请求的方式可能会根据国家/地区的电话号码源自不同。 当前受支持的国家/地区的最新列表，请参阅[国家/地区和音频会议和调用计划的区域可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</br/><br/>
 >   有关传输到音频会议的电话号码的其他信息 — 潜在限制以及 — 请参阅[转接到 Office 365 的电话号码](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)和[免费电话拨号 Office 365 中的限制](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.)。
 
 #### <a name="step-3"></a>步骤 3

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0057f18d334c89f745ec74952fd01796c8b30880
-ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
+ms.openlocfilehash: ad00f5df93cb91cc878a0b75a413b9299cde9a88
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/28/2018
-ms.locfileid: "27458499"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694772"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -35,7 +35,7 @@ ms.locfileid: "27458499"
 -   在最新公共路线图中所述的团队中的音频会议功能满足您的用户、 功能和部署的时间线中的作用域要求确认。
 
 > [!NOTE]
-> 用于标识范围中的团队音频会议功能，可在找到您的部署的最新的工作组路线图<https://aka.ms/skype2teamsroadmap>。
+> 用于标识范围中的团队音频会议功能，可在找到您的部署的最新的工作组路线图<https://aka.ms/O365Roadmap>。
 
 ## <a name="meetings-in-teams"></a>Teams 中的会议
 
@@ -44,7 +44,7 @@ ms.locfileid: "27458499"
 作为 （仅限受邀的方可以加入） 的专用会议安排会议或通道会议 （有权访问该频道的所有用户的开放） 和您的用户还可以启动临时会议中通道。
 
 > [!NOTE]
-> 若要了解有关会议在工作组中的功能的详细信息，请参阅 [Skype 的 Microsoft 团队功能路线图业务] https://aka.ms/skype2teamsroadmap)。
+> 若要了解有关会议在工作组中的功能的详细信息，请参阅[Microsoft 365 路线图](https://aka.ms/O365Roadmap)。
 
 会议参与者可以加入您的团队会议拨入的收费电话或免费电话拨入式会议桥通过 landlines 或移动电话的电话号码。 此外，用户可以让音频会议服务启动"呼叫我"功能，使他们可以参与会议由具有会议桥呼叫其电话 （有用的数据连接不可靠时），或允许的会议组织者邀请会议通过向其电话拨出的参与者。
 

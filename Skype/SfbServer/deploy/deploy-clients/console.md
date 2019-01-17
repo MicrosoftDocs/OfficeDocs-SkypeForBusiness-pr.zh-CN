@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置 Skype 会议室系统 v2 控制台和其外围设备。
-ms.openlocfilehash: 162aaaed5472fefc3c23cc11800b166ed4b26bc2
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 00203c8aa781c489d8a1cc8c2bf91a364bea057f
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326714"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694718"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>配置 Skype 会议室系统 v2 控制台
  
@@ -56,6 +56,13 @@ ms.locfileid: "28326714"
 > [!CAUTION]
 > 运行媒体创建脚本从文件夹的名称不能包含空格。 如果没有为文件夹名称中的空格，脚本将失败。
 
+CreateSrsMedia.ps1 脚本自动执行以下任务：
+
+1. 下载最新的 MSI 安装程序 Skype 会议室系统 v2。
+2. 确定用户必须提供的 Windows 的版本。 最近发布的版本可能或不能测试且支持用于 Skype 会议室系统 v2 设备。
+3. 下载所需的支持组件。
+4. 在安装介质中组合所需的组件。
+
 完成后，从计算机中删除 USB 磁盘，并继续[安装 Windows 10 和 Skype 会议室系统 v2 控制台应用程序](console.md#Reimage)。
 
     
@@ -74,11 +81,11 @@ ms.locfileid: "28326714"
 
 5. 引导到 USB 安装盘。 请参阅制造商说明。 如果 Surface Pro 目标设备，使用以下步骤引导到 USB 安装磁盘：
 
-    1. 按并继续按住下 （-） 按钮的卷。
+    a. 按并继续按住下 （-） 按钮的卷。
 
-    2. 按下并释放高级按钮。
+    b. 按下并释放高级按钮。
 
-    3. 启动 Windows 安装程序后，释放调低音量 (-) 按钮。
+    c. 启动 Windows 安装程序后，释放调低音量 (-) 按钮。
 
 8. 安装完成后，系统将关闭。
     

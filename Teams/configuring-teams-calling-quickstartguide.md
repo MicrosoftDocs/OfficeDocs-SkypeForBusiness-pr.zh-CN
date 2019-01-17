@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f3145455553c8126d66b3e56b69ec646f5f19ad
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: cc1c20f87103dc91a317e58dac03389275b255f2
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530693"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694694"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>快速入门指南：在 Microsoft Teams 中配置通话套餐
 ==============================================================
@@ -48,7 +48,7 @@ ms.locfileid: "26530693"
 > 您可以使用直接路由允许您强制用户和接收 PSTN 呼叫。 若要了解如何设置直接路由，请阅读[配置直接路由](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure)。
 
 ## <a name="teams-interop-policy-configuration"></a>Teams 互操作性策略配置
-若要启用团队以开始接收呼叫，您将需要更新团队升级策略和团队互操作性策略，使用[的 Microsoft 团队业务管理中心的 Skype](https://aka.ms/teamsadmincenter)或使用远程 Windows PowerShell 会话 Skype for Business [ `*-CsTeamsUpgradePolicy`和`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype)cmdlet，以将重定向到团队呼叫。
+若要启用团队以开始接收呼叫，您将需要更新团队升级策略和团队互操作性策略，使用[的 Microsoft 团队 & Skype 的业务管理中心](https://aka.ms/teamsadmincenter)或使用远程 Windows PowerShell 会话 Skype for Business [ `*-CsTeamsUpgradePolicy`和`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype)cmdlet，以将重定向到团队呼叫。
 
 有关升级团队的策略和团队互操作性策略的详细信息，请参阅[迁移和组织使用团队一起 for Business 的 Skype 的互操作性指南](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)。
 
@@ -97,14 +97,14 @@ Teams 互操作性策略具有以下默认配置：
 * **对于没有 Skype for Business 的客户**，此策略生效后，PSTN 呼叫将在 Teams 中接听。
 
 > [!WARNING]
-> 当前，将 `CallingDefaultClient` 更改为 Teams 还将影响向 Skype for Business IP 电话拨打的呼叫。 传入呼叫不会在电话上接收，而只会使 Teams 客户端响铃。 有关对现有的已认证 SIP 电话的支持的信息，请参阅 [Skype for Business 到 Microsoft Teams 功能路线图](https://aka.ms/skype2teamsroadmap)。
+> 当前，将 `CallingDefaultClient` 更改为 Teams 还将影响向 Skype for Business IP 电话拨打的呼叫。 传入呼叫不会在电话上接收，而只会使 Teams 客户端响铃。 请有关对现有认证的 SIP 电话支持的信息，参阅[Microsoft 365 路线图](https://aka.ms/O365Roadmap)。
 
 ### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>如何配置用户以接收 PSTN 呼叫的团队中
 使用旧的团队升级策略时应用团队互操作性策略，如上述通过业务远程 Windows PowerShell 会话的 Skype 重定向到团队呼叫：
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
-如果您选择使用 TeamsOnly 模式，您可以更改为 TeamsOnly 通过 Microsoft 团队和 Skype 的业务管理中心中，或通过业务远程 Windows PowerShell 会话的 Skype 重定向到团队呼叫的用户的共存模式：
+如果您选择使用 TeamsOnly 模式，您可以为 TeamsOnly 更改用户的共存模式，通过 Microsoft 团队 & Skype 的业务管理中心中，或通过业务远程 Windows PowerShell 会话的 Skype 重定向到团队呼叫：
 
     Grant-CsTeamsUpgradePolicy -PolicyName tag:UpgradeToTeams -Identity user@contoso.com
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
@@ -112,7 +112,7 @@ Teams 互操作性策略具有以下默认配置：
 ## <a name="see-also"></a>另请参阅
 [设置通话套餐](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
-[使用团队一起 Skype for Business 的组织的迁移和互操作性指南](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+[面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
 [Microsoft Teams 中具有通话套餐的电话系统实践指导](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
 

@@ -1,5 +1,5 @@
 ---
-title: 使电话系统的调用计划服务决策-Microsoft 团队
+title: 做出具有通话套餐的电话系统服务决策 - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bf0d5514f4202029acabe44268e8e7e7d671f60
-ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
+ms.openlocfilehash: 702b126ac065b3fd84737cd0a6bb00f47c6d4991
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25597843"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694756"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -29,7 +29,7 @@ ms.locfileid: "25597843"
 与 Microsoft 团队，用户可以发起和接收电话呼叫或从公用电话交换网 (PSTN)。 您的用户可以使用自己的专用的电话号码发出和接收来自团队客户端应用程序，其中包括语音邮件的高级功能的国内和国际电话呼叫。
 
 > [!NOTE]
-> 用于标识团队电话系统与调用规划范围内的功能，可在找到您的部署的最新的工作组路线图<https://aka.ms/skype2teamsroadmap>。
+> 用于标识团队电话系统与调用规划范围内的功能，可在找到您的部署的最新的工作组路线图<https://aka.ms/O365Roadmap>。
 
 ## <a name="phone-system-in-teams"></a>团队中的电话系统
 
@@ -76,7 +76,7 @@ ms.locfileid: "25597843"
 > [!TIP]
 > 下面是调用计划网站启用列表与电话系统的示例。
 > 
-> | **办公室**                     | **位置**   | **电话系统服务** |
+> | **Office**                     | **位置**   | **电话系统服务** |
 > |--------------------------------|----------------|--------------------------|
 > | Epping 路一号                | 澳大利亚      | 旧的 PSTN 服务 |
 > | 数码港道 100 号             | 香港 SAR  | 电话系统直接路由 |

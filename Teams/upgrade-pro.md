@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a849e9c6ab5934252f5bae1cbd26542f3393d57
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 6f1068a2e77211542fd56971615bab7cf23af39e
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789381"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694912"
 ---
 # <a name="upgrade-pro"></a>升级专业人员
 
@@ -37,7 +37,7 @@ ms.locfileid: "27789381"
 
 ## <a name="pre-upgrade"></a>升级前
 
-**准备您的组织团队。**  为了帮助确保成功升级到团队，务必准备为分配有足够的时间。 不仅将您的组织能够快速开始意识到的小组的价值，您将能够从 for Business 的 Skype 加速升级，只要团队可供您。 监视团队; 计划的增强功能[指南](https://aka.ms/skype2teamsroadmap)这将帮助您确定组织的右升级时间表。 如果您已经已启用旁 for Business 的 Skype 团队，使用这些升级前的活动为检查点验证组织准备之前用户升级到团队。 
+**准备您的组织团队。**  为了帮助确保成功升级到团队，务必准备为分配有足够的时间。 不仅将您的组织能够快速开始意识到的小组的价值，您将能够从 for Business 的 Skype 加速升级，只要团队可供您。 监视团队; 计划的增强功能[指南](https://aka.ms/O365Roadmap)这将帮助您确定组织的右升级时间表。 如果您已经已启用旁 for Business 的 Skype 团队，使用这些升级前的活动为检查点验证组织准备之前用户升级到团队。 
 
 > [!Tip]
 > 下载的模板用户准备情况材料，如通信和用户调查，除了升级项目计划示例和试点测试计划[升级成功工具包](https://aka.ms/UpgradeSuccessKit)。 工具包中可用的项目标有星号 (\*) 下表中。  
@@ -123,5 +123,5 @@ ms.locfileid: "27789381"
 > 不断发展我们升级专业人员的内容。 请务必重新检查的最新的指南，并阅读[团队博客 （英文）](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)。 
 
 > [!Important]
-> 如果您在 Office 365 租户管理员，您可能开始查看您 PowerShell cmdlet 或团队和 Business Admin Center 的 Skype 中的升级选项。 具有升级选项并不一定意味着您的组织已准备好进行此更改。 为获得最佳用户体验，请确认团队满足协作和通信要求，请验证您的网络已准备好支持团队和实现之前将用户升级到团队您用户的准备工作计划。
+> 如果您在 Office 365 租户管理员，您可能开始查看 PowerShell cmdlet 或团队 & Skype 的业务管理中心中的升级选项。 具有升级选项并不一定意味着您的组织已准备好进行此更改。 为获得最佳用户体验，请确认团队满足协作和通信要求，请验证您的网络已准备好支持团队和实现之前将用户升级到团队您用户的准备工作计划。
  

@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 442054ab5ea307dec078a175a28d0a1eece16453
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 995635ed8a7f3c9a9a5d4291652208246c3f9697
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371414"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694787"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>定义和团队测试计划适用于企业中文档电话系统与调用计划 
 ============================================================================================
@@ -82,7 +82,7 @@ ms.locfileid: "25371414"
 -   您可以确认中的最新公共路线图所述调用计划功能与电话系统是否满足您的用户、 功能和部署的作用域的时间线中的要求
 
 > [!TIP]
-> 用于标识电话系统与调用计划范围内的功能，可在找到您的部署的最新的工作组路线图<https://aka.ms/skype2teamsroadmap>。
+> 用于标识电话系统与调用计划范围内的功能，可在找到您的部署的最新的工作组路线图<https://aka.ms/O365Roadmap>。
 
 既然已定义调用计划角色和功能与电话系统，评估的下一个标准将与团队的互操作性体验。 有关以及可用的配置选项的互操作性体验的其他信息，请参阅[Microsoft 团队和 Skype 的业务互操作性](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability)。
 
@@ -615,7 +615,7 @@ ms.locfileid: "25371414"
 <tr><td>TBD</td><td>TBD</td></tr>
 <tr><th colspan="2">测试的缺点  </th></tr> 
 <tr><td><strong>问题</strong>： 高延迟</td><td><strong>修正：</strong>调查数据包路由并实现的理想的路由。</td></tr>
-<tr><td><strong>问题</strong>： 往返时间不是 & #39; t double 延迟</td><td><strong>修正：</strong>调查可能防火墙或传送器配置问题。 调查流量路径。</td></tr>
+<tr><td><strong>问题</strong>： 往返时间 isn& #39; t double 延迟</td><td><strong>修正：</strong>调查可能防火墙或传送器配置问题。 调查流量路径。</td></tr>
 <tr><td><strong>问题</strong>： 较高的数据包丢失 </td><td><strong>修正：</strong>通过网络规划人员验证已分配足够带宽。 </td></tr>
 <tr><td><strong>问题</strong>： 高抖动 </td><td> <strong>修正：</strong>调查是否使用正确的区分的服务代码点 (DSCP) 值。 </td></tr>
 <tr><td><strong>问题</strong>： 较高的数据包丢失 </td><td><strong>修正：</strong>调查数据包丢失。 </td></tr>

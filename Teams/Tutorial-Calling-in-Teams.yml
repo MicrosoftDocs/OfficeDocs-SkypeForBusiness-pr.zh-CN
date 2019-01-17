@@ -17,12 +17,12 @@ metadata:
   - Teams_ITAdmin_Training
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3c125870dc05f68bdf9baaeeb80630a98ffd62bb
-  ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+  ms.openlocfilehash: 4bb36fc10afbd9e0061da905d64999bf62bbfb4e
+  ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 11/15/2018
-  ms.locfileid: "26530979"
+  ms.lasthandoff: 01/17/2019
+  ms.locfileid: "28694764"
 items:
 - durationInMinutes: 1
   content: >
@@ -86,7 +86,7 @@ items:
     Teams 中的通话功能支持基本的电话系统功能，例如，使用集成的拨号盘应答和拨打电话（按姓名和号码）、通话保留和检索、呼叫转接和同时响铃、呼叫历史记录、语音邮件以及紧急呼叫。
 
 
-    以后将逐步添加更多高级功能。 有关详细信息，请参阅 [Skype for Business 到 Microsoft Teams 功能路线图](https://aka.ms/skype2teamsroadmap)。
+    以后将逐步添加更多高级功能。 有关详细信息，请参阅[Microsoft 365 Roadmap](https://aka.ms/O365Roadmap)。
 
 
     Teams 中的通话功能由电话系统（以前称为云 PBX）提供技术支持，Office 365 中也有此服务，用于在 Skype for Business Online 中实现 PSTN 呼叫功能。
@@ -98,7 +98,7 @@ items:
     <span style="color:red">**操作**：</span>要了解当前可用的功能以及我们预计开发的功能的时间线，请参阅以下资源：
 
 
-    - 在[公共路线图](https://aka.ms/skype2teamsroadmap)中，查看“通话路线图”幻灯片，大致了解功能发布日期的预计时间线。
+    - 在[公共路线图](https://aka.ms/O365Roadmap)中，查看“通话路线图”幻灯片，大致了解功能发布日期的预计时间线。
 
     - 查看 [Office 365 中的电话系统提供的功能](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)，了解电话系统功能的说明。 请注意，撰写此文时，其中一些功能可能只面向 Skype for Business 提供。
 
@@ -247,4 +247,4 @@ items:
   content: "\n现在，你已在你的环境中正确规划和实施了电话系统，你需要确保它得到使用并提供卓越的用户体验。 尽管完整的详细信息不在此培训的范围内，但我们依然要指出参与的最重要的方面：\n\n-   应用和更改管理用户可能只需开始时为其提供其使用该服务。 也可能不会。 因此，务必要执行合适的采用和变更管理。\n\n-   正在为电话客户端接受监控和驱动我们建议您 KSIs 其中一个是活动用户数来帮助您测量程度团队的用法。\n\n-   监控和推动质量\n\n用户的满意度直接与其通话质量相关；因此，务必要监控通话质量并进行改进（如果需要）。 要了解如何报告通话质量，请访问“通话质量仪表板”培训。 尽管这些视频已生成的 Skype for Business 后，它们应用于团队也： <https://aka.ms/sof-cqd>。\n"
 - title: 后续步骤
   durationInMinutes: 1
-  content: "\n此培训涵盖了以下主要学习内容：\n-   Teams 中的通话功能是什么？\n\n-   如何在 Teams 中规划通话功能\n\n-   如何在 Teams 中配置通话功能\n\n要了解详细信息，请参阅：\n\n-   [Microsoft Teams 中具有通话套餐的电话系统实践指导](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)\n\n-   [快速入门指南：在 Microsoft Teams 中配置通话套餐](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\n后续步骤\n\n1.  注册 [MyAdvisor](https://aka.ms/myadvisor) 以获取个性化部署指导。\n2.  开始为 Teams 部署电话系统\n3.  向我们发送反馈：\n    - 在此页面底部的“评论”部分发布。\n    - 要向我们提供有关 Teams 的反馈，或分享你对新功能的想法，请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。\n4.  保持最新：\n    - 按照[团队博客 （英文）](https://aka.ms/teamsblog)。\n    - 阅读[团队路线图](https://aka.ms/skype2teamsroadmap)。\n    - 了解在[发行说明](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)的最新公开发布功能。\n5.  浏览[更多培训和教程](https://aka.ms/Teamsacademy)。"
+  content: "\n此培训涵盖了以下主要学习内容：\n-   Teams 中的通话功能是什么？\n\n-   如何在 Teams 中规划通话功能\n\n-   如何在 Teams 中配置通话功能\n\n要了解详细信息，请参阅：\n\n-   [Microsoft Teams 中具有通话套餐的电话系统实践指导](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)\n\n-   [快速入门指南：在 Microsoft Teams 中配置通话套餐](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\n后续步骤\n\n1.  注册 [MyAdvisor](https://aka.ms/myadvisor) 以获取个性化部署指导。\n2.  开始为 Teams 部署电话系统\n3.  向我们发送反馈：\n    - 在此页面底部的“评论”部分发布。\n    - 要向我们提供有关 Teams 的反馈，或分享你对新功能的想法，请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。\n4.  保持最新：\n    - 按照[团队博客 （英文）](https://aka.ms/teamsblog)。\n    - 阅读[团队路线图](https://aka.ms/O365Roadmap)。\n    - 了解在[发行说明](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)的最新公开发布功能。\n5.  浏览[更多培训和教程](https://aka.ms/Teamsacademy)。"

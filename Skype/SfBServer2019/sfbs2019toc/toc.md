@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 6296e5ea0dde283dc46418d42db97c524277267b
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: 05cd733e96ad77b0a413c9846ceb3697b45eec13
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328283"
+ms.locfileid: "28694780"
 ---
 # [Skype 业务服务器 2019](../skype-for-business-server-2019.md)
 
@@ -319,7 +319,6 @@ ms.locfileid: "28328283"
 ### [第 2 阶段： 准备迁移](../migration/phase-2-prepare-for-migration.md)
 #### [将更新应用到旧的安装](../migration/apply-updates.md)
 #### [为试点池部署配置 DNS 记录](../migration/configure-dns-records-for-pilot-pool-deployment.md)
-#### [运行最佳做法分析器](../migration/run-best-practices-analyzer.md)
 #### [备份系统和数据](../migration/back-up-systems-and-data.md)
 #### [配置迁移客户端](../migration/configure-clients-for-migration.md)
 #### [确认要从中迁移的旧环境](../migration/verify-environment.md)

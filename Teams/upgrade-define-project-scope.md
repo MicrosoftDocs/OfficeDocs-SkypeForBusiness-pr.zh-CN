@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9830605dad592a147c22a60d1c7c275cbf969a64
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 833720e28fd53032ca9cb65fadc39b8cb753799e
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375216"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694843"
 ---
 ![升级旅程，重点强调项目定义阶段的阶段](media/upgrade-banner-project-definition.png "升级旅程，重点强调项目定义阶段的阶段")
 
@@ -96,7 +96,7 @@ ms.locfileid: "25375216"
 
 
 > [!TIP]
-> 若要帮助确保您的项目将停留在跟踪，请考虑定义更小、 短期里程碑除了更大的长期的目标。 这可能包括您将捕获作为您的用户试生产的一部分的指标。 在考虑您的日程表，使用[团队路线图 Skype](https://aka.ms/skype2teamsroadmap) ，如果您正在等待批准尚未在工作组中可用的功能。
+> 若要帮助确保您的项目将停留在跟踪，请考虑定义更小、 短期里程碑除了更大的长期的目标。 这可能包括您将捕获作为您的用户试生产的一部分的指标。 在考虑您日程表时，使用[Microsoft 365 路线图](https://aka.ms/O365Roadmap)，如果您正在等待批准尚未在工作组中可用的功能。
 
 ## <a name="risks-and-mitigation"></a>风险和缓解
 
@@ -112,7 +112,7 @@ ms.locfileid: "25375216"
 
 如范围您升级旅程，请务必设置时间表除完成日期的关键里程碑 （例如旁 Skype for Business 的所有用户, 启用组）。 一个定义的日程表，可帮助您向一致的最终状态的项目工作组驱动器，并通知右工作后计划，帮助确保您的项目保持在跟踪。一个不太加速 （其中任务可能被忽略） 的日程表，请考虑或太远 （其中 momentum 可能会丢失）。 程序的理想日程表帐户：
  
--   **合规性和用户方案要求产品准备**： 请参阅[产品路线图](https://aka.ms/skype2teamsroadmap)以衡量时团队将为您的组织做好准备。
+-   **合规性和用户方案要求产品准备**： 请参阅[产品路线图](https://aka.ms/O365Roadmap)以衡量时团队将为您的组织做好准备。
 -   **升级组**： 确定您是否将为启用团队或升级的升级的组，可能会影响您的总体升级旅程日程表的用户。
 -   **组织因素，如更改冻结，会计年度结束时，部署生命周期**： 讨论和可能影响您升级的时间线任何内部进程帐户。
 -   **其他更改所发生或时间大致相同**： 请考虑捆绑更改或间距它们以加快良好的用户体验和最小化对生产效率的任何影响。
