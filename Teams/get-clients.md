@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dfe4febe5d086af6914660bffb667942b9d00c25
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: 0b4e0e713bda280738ec72c8c4e07dc5b0da15c3
+ms.sourcegitcommit: 5f289e4ca3ba40013d38c352bd34eff96d6421b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201354"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726632"
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================
@@ -109,7 +109,7 @@ Web 客户端执行时连接到的浏览器版本检测[https://teams.microsoft.
 <a name="mobile-clients"></a>移动客户端
 --------------
 
-Microsoft 团队移动应用程序适用于 Android 和 iOS，和适用于转上用户参与基于聊对话，允许对等音频呼叫。 对于移动应用程序，请转到相关 mobile 存储 Google 播放和 Apple App Store。 Windows Phone 应用程序已停用 2018 年 7 月 20，请参阅[下面](https://support.microsoft.com/en-us/help/4230833/windows-phone-app-for-microsoft-teams-is-retiring)的详细信息。
+Microsoft 团队移动应用程序适用于 Android 和 iOS，和适用于转上用户参与基于聊对话，允许对等音频呼叫。 对于移动应用程序，请转到相关 mobile 存储 Google 播放和 Apple App Store。 Windows Phone 应用程序已停用 2018 年 7 月 20，并可能不再有效。 
 
 Microsoft Teams 移动应用的支持移动平台如下：
 

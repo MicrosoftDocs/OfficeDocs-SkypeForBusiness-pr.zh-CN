@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 新 Skype 业务管理中心报告区域显示您呼叫和音频会议活动在组织中。 使您钻取报告为您提供更精细了解每个用户的活动。 例如，你可以使用 Skype for Business PSTN 使用详细信息报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 您可以查看音频会议的 PSTN 用法详细信息，包括呼叫的成本，以便您可以了解您的使用，并调用帐单的详细信息，以确定您的组织内的使用情况。
-ms.openlocfilehash: e4af77832cca1cd2a9d9de49aa83f4400c359277
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: c0a207681db425bd411bfdbda1bb9f380fbb70a1
+ms.sourcegitcommit: 5f289e4ca3ba40013d38c352bd34eff96d6421b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561643"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726622"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用报告
 
@@ -76,7 +76,7 @@ ms.locfileid: "26561643"
      **统一的通信应用程序 (UCAP)** 
      *    **ucap_in**（如自动助理或呼叫的队列的 UC 应用程序到入站的 PSTN 呼叫） 
      *    **ucap_out**（如自动助理或呼叫的队列的 UC 应用程序从出站 PSTN 呼叫）
-     *    **注意：** 呼叫已转接到用户的 UC 应用程序从如自动助理或呼叫队列不会出现在 PSTN 用法报告为这些呼叫条引线是对等 (P2P) 音频呼叫。 您可能访问业务管理中心，在"工具 > Skype 的商业调用分析"下的 Skype 的 P2P 调用和搜索按用户名或 SIP 地址关联的日期/时间呼叫和/或发起 CLID （调用行 ID）。 
+     *    **注意：** 呼叫已转接到用户的 UC 应用程序从如自动助理或呼叫队列不会出现在 PSTN 用法报告为这些呼叫条引线是对等 (P2P) 音频呼叫。 您可能访问中的 Business Admin Center Skype"工具 > 商业调用分析的 Skype"下的 P2P 呼叫和搜索按用户名或 SIP 地址关联的日期/时间呼叫和/或发起 CLID （调用行 ID）。 
 *     
      **国内/国际**告诉您是否已发出的呼叫被视为国内 （在国家/地区） 或国际 （之外的国家/地区） 基于用户的位置。 
 *    **拨打的目标**是国家/地区目标如法国、 德国或美国 （美国） 时所拨打的名称。 
@@ -93,6 +93,9 @@ ms.locfileid: "26561643"
      *    **MCOPSTN6** -国内调用计划 （240 分钟调用计划） 的说明： 有限的状态
      *    **MCOMEETADD** -音频会议
      *    **MCOMEETACPEA** -付薪每分钟的音频会议
+> [!NOTE]
+> 如果您想要运行报告包括仅付薪每分钟的不包括在您的呼叫或会议订阅的呼叫，请通过功能"MCOPSTNPP"筛选报告。 这样将提供所有付薪每分钟的呼叫的明细。  为每分钟的音频会议的付薪，按"MCOMEETACPEA"而不是"MCOPSTNPP"筛选。  
+***
 > [!NOTE]
 > 您可能会看到"无"字段中的数据一些。 "无数据"表示该字段不是适用于功能的呼叫类型。 
 ***
