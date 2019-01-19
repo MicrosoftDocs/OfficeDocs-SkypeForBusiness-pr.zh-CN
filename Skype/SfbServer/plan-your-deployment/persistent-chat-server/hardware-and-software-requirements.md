@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 摘要： 阅读本主题可了解有关硬件和软件要求对于 Persistent Chat Server in Skype 业务服务器 2015年。
-ms.openlocfilehash: 487ee3beac288bc3573d640afa18aa790774b9c3
-ms.sourcegitcommit: a9bf4de79c84d239488455575322188a03535f71
+ms.openlocfilehash: ce39d4c535c75517160b53f89378144c5299bebf
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24013528"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729419"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中持久聊天服务器的硬件和软件要求
  
@@ -60,9 +60,11 @@ ms.locfileid: "24013528"
     
 - 持久聊天数据库 (mgc) 和合规性数据库 (mgccomp) 可以位于的 SQL Server 或不同 SQL 服务器上的同一实例中。
     
-为准备数据库平台，务必保证每一台计算机都满足硬件要求，然后安装好必备软件。 对服务器平台的持久聊天数据库服务器需要 Skype 的相同硬件业务服务器 2015年后端数据库服务器。 有关详细信息，请参阅[业务服务器 2015年的 Skype 服务器要求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
+为准备数据库平台，务必保证每一台计算机都满足硬件要求，然后安装好必备软件。 对服务器平台的持久聊天数据库服务器需要 Skype 的相同硬件业务服务器 2015年后端数据库服务器。 有关信息，请参阅 [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
   
 在数据库服务器上，确保安装了以下软件应用程序之一：
+
+- 最新的 service pack 的 Microsoft SQL Server 2017。
 
 - 使用 Service Pack 1 和您的 Microsoft SQL Server 2016 必须与 Skype 运行，业务 Server 累积更新 7 或更高版本。 我们建议将运行 SQL Server 2016 带有最新的 service pack。 有关如何安装 Microsoft SQL Server 2016 的详细信息，请参阅[安装 SQL Server 2016](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016)。
 
@@ -70,8 +72,6 @@ ms.locfileid: "24013528"
 
 - Microsoft SQL Server 2012 （64 位版本），以及我们建议最新的 service pack 的运行。 有关如何安装 Microsoft SQL Server 2012 的详细信息，请参阅[安装 SQL Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=248559)。
 
-- Microsoft SQL Server 2008 R2 （64 位版本），以及我们建议最新的 service pack 的运行。 有关如何安装 Microsoft SQL Server 2008 R2 的详细信息，请参阅[SQL Server 安装 (SQL Server 2008 R2)](https://go.microsoft.com/fwlink/p/?LinkId=275702)。 
-    
 ## <a name="persistent-chat-server-certificate-requirements"></a>持久聊天服务器证书要求
 
 有关获取证书的详细信息，创建 SQL Server 数据库和创建文件存储，请参阅[部署的 Skype 的业务服务器 2015年](../../deploy/deploy.md)。 
@@ -80,8 +80,8 @@ ms.locfileid: "24013528"
 
 有关硬件和软件要求的详细信息，请参阅以下主题：
   
-- [Skype for Business Server 2015 的服务器要求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+- [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
     
-- [Skype for Business Server 2015 的环境要求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)
+- [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)
     
 

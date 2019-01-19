@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: 阅读本主题可了解如何迁移 Lync 会议室系统设备使用 Skype 会议室系统 v2 软件。
-ms.openlocfilehash: b2d748a37e7e060e19d0708b6979f9254af13682
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: 9436c5a843f21b9913c0dbcbed6e62df8ef62ce2
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772901"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729405"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>将 Lync 会议室系统 (LRS) 设备迁移到 Skype 会议室系统 v2 
 Skype 会议室系统版本 1 (SR v1) 软件 Lync 会议室系统 (LRS) 设备已达到[2018 年 10 月 9，支持的结束](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)。 这意味着 Skype 会议室系统 v1 软件将不再能够获取所有产品更新或修补程序不再。 建议使用 Skype 会议室系统 v1 软件的 Lync 会议室系统设备的客户升级其设备到 Skype 会议室系统版本 2 (SR v2)。
@@ -45,27 +45,14 @@ Crestron 将为所有非 Crestron Lync 会议室系统客户[Crestron SR 系统]
 ### <a name="smart-room-systems-upgrade"></a>智能会议室系统升级 
 对于智能 LRS 客户，除了 Crestron 硬件折旧计划，Microsoft 和智能还提供解决方案升级到 Skype 会议室系统 v2 工作。 将通过智能技术 Inc.提供此升级请参阅有关此[此处](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml)的详细信息。
 
-<!--  
-For later 
-### Do-It-Yourself
-A Do-It-Yourself option is also available for customers with upgrade to Windows 10 and Skype Room Systems v2 software. Windows 10 Enterprise Licenses are available through [approved resellers](https://www.microsoft.com/en-us/Licensing/how-to-buy/how-to-buy.aspx) and Skype Room System V2 software will be available through this guide. 
- 
   
-To use this option however, customers must additionaly buy a [Logitech Screen Share](https://www.logitech.com/en-us/product/screen-share) adapter. Microsoft will provide instructions on how to use this adapter with Skype Room System v2 software. 
+若要使用此选项，但是所示，客户必须另外购买[Logitech 屏幕共享](https://www.logitech.com/en-us/product/screen-share)适配器。 Microsoft 将提供有关如何与 Skype 会议室系统 v2 软件一起使用此适配器的说明。 
 
 
-Look for upgrade instructions on this page shortly. 
+查找有关此页上的升级说明回来。 
   
-### Summary of upgrade options
-This table lists summary of all available options for existing LRS devices:
-<!--  For later 
-| Upgrade Option | SMART Room Systems | Crestron RL2 | Polycom CX8000 | Crestron RL |
-|:--- |:--- |:--- |:--- |:--- |
-|**Crestron hardware </br>Trade-in program**|Available|Available|Available|Available|
-|**Crestron RL3**|Not Available|Available|Not Available|Not Available|
-|**Do-It-Yourself**|Available|Not Available|Not Available|Not Available|
-| | | | | |
--->
+### <a name="summary-of-upgrade-options"></a>升级选项摘要
+下表列出的所有可用选项的现有 LRS 设备的摘要：
 
 ## <a name="what-should-you-do"></a>怎么办？
 我们建议您打算到之前使用上面提到的升级选项的 TLS 1.0/1.1 否决的 Skype 会议室系统 v2 更新 Lync 会议室系统的设备。 此外，也可以考虑将新设备认证 SR v2 替换为现有的设备。 有关详细信息，请参阅[聊天室设备](https://aka.ms/roomdevices)和也看看[Skype 会议室系统 v2 要求](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements)。  
@@ -74,4 +61,4 @@ This table lists summary of all available options for existing LRS devices:
 > Skype 会议室系统 v2 中尚不支持触摸和白板功能。 触摸和白板支持的 Skype 会议室系统 v2 积压工作中，将被添加到 H1 CY2019。
 
 > [!NOTE]
-> Skype 会议室系统 V2 软件当前不支持 TLS 1.2 协议。 TLS 1.2 支持正在处理，并且将在 TLS 1.0/1.1 否决之前完成。 客户升级到 SR v2 运行 SR v2 应用程序的最新版本的会议室设备上将不会看到 TLS 1.0/1.1 否决任何的影响。 在内部部署客户业务的 Skype 不应禁用 TLS 1.0/1.1 Skype 会议室系统 V2 annouces 支持 TLS 1.2。 
+> Skype 会议室系统 V2 软件应用程序版本 4.0.64.0 以来 2018 年 12 月 14，支持 TLS 1.2 协议。 对于在内部部署客户通讯 over TLS 1.2 启用 Skype 会议室系统 V2 需要 Skype 业务 2015 Cummulative 更新 9 (CU9) 或 Skype Buisness 2019 Cummulative 更新 1 (CU1)。 更改应不可知到 Skype 业务联机客户的客户端的更改一样向前和向后兼容。 

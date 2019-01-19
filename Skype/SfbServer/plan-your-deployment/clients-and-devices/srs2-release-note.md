@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文讨论中 Skype 会议室系统 v2 累积改进。
-ms.openlocfilehash: cdc180c0caa8cfe581d02a206d9b13e255214bfd
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 7eb6eb3c9bcd2cbbbe72a6fc96d619303216cd37
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297886"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729398"
 ---
 # <a name="release-notes"></a>发行说明 
 
@@ -26,7 +26,7 @@ ms.locfileid: "27297886"
 
 | 发行版 | 发布到 <br>Microsoft 存储 | 
 | ---     | ---  |
-| 4.0.64.0 | 12/14/2018   |
+| 4.0.64.0 | 2018 年 12 月 14 日   |
 | 4.0.51.0 | 11/17/2018   | 
 | 4.0.31.0 | 10/16/2018   | 
 | 4.0.27.0 |  10/1/2018    | 
@@ -55,6 +55,7 @@ ms.locfileid: "27297886"
 此更新中引入了：
 - 在这两个前端的空间 （） 双屏幕会议室系统上显示上显示内容
 - 主题和前端的聊天室的用户界面改进
+- TLS 1.2 客户端支持。 对于在内部部署客户通讯 over TLS 1.2 启用 Skype 会议室系统 V2 需要 Skype 业务 2015 Cummulative 更新 9 (CU9) 或 Skype Buisness 2019 Cummulative 更新 1 (CU1)。
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
 此更新中引入了：

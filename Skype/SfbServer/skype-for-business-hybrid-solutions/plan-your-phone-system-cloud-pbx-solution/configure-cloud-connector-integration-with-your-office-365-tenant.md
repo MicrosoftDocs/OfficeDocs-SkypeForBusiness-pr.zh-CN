@@ -13,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: 了解如何配置云连接器与 Office 365 租户的集成。
-ms.openlocfilehash: 01e5135a4b0ac6de391140bc6fc0d80bcc00e2ce
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 837775fea5a128dbbb8d143f15064e08d9267756
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375767"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729377"
 ---
-# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>配置云连接器与 Office 365 租户的集成
+# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configure Cloud Connector integration with your Office 365 tenant
  
 了解如何配置云连接器与 Office 365 租户的集成。
   
@@ -54,7 +54,7 @@ Skype for Business Cloud Connector Edition 安装完成后，执行本节中的�
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>在 Office 365 中为边缘添加 DNS 记录
 
-将以下 DNS 记录添加到 Office 365 租户。 有关如何将 DNS 记录添加到 Office 365 租户的信息，请参阅[添加或编辑自定义中的 DNS 记录 Office 365](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)。
+将以下 DNS 记录添加到 Office 365 租户。 有关如何将 DNS 记录添加到 Office 365 租户的信息，请参阅[在 Office 365 中添加或编辑自定义 DNS 记录](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)。
   
 1. 为访问边缘添加 DNS A 记录。
     
@@ -74,7 +74,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 ```
 
 > [!NOTE]
-> 用于对等方目标外部访问边缘 FQDN 应设置为一个 PSTN 网站，仅将在用户未分配到 PSTN 站点的情况下使用用作后备。 有关详细信息，请参阅[部署云 Connector 中单个网站](deploy-a-single-site-in-cloud-connector.md)和[部署云 Connector 中的多个网站](deploy-multiple-sites-in-cloud-connector.md)。 
+> 用于对等方目标外部访问边缘 FQDN 应设置为一个 PSTN 网站，仅将在用户未分配到 PSTN 站点的情况下使用用作后备。 有关详细信息，请参阅[Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md)和[Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md)。 
   
 ## <a name="set-up-pstn-gateways"></a>设置 PSTN 网关
 
@@ -98,7 +98,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
     
 ## <a name="set-up-your-users-in-office-365"></a>在 Office 365 中设置用户
 
-登录 Office 365 管理门户，添加将启用在线语音服务的用户，并向这些用户分配 E5 许可证或基于 E3 许可证的 Office 365 电话系统附加许可证。 有关添加用户的信息，请参阅[添加用户移动到 Office 365 的业务](https://support.office.com/en-US/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)。
+登录 Office 365 管理门户，添加将启用在线语音服务的用户，并向这些用户分配 E5 许可证或基于 E3 许可证的 Office 365 电话系统附加许可证。 有关添加用户的信息，请参阅[向 Office 365 for Business 添加用户](https://support.office.com/en-US/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)。
   
 ## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>为用户启用 Office 365 电话系统语音和语音邮件服务
 
@@ -166,7 +166,10 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
     
     用作用户域云连接器 （.ini 文件中的第一个 SIP 域） 的默认 SIP 域。
     
-    请注意，只是许可证分配所需的用户传播到业务联机目录 Skype。 将 Office 365 许可证 （如 E5) 分配给创建，允许达 1 小时，更改将传播，然后从该帐户删除许可证的帐户。
+    请注意，只是许可证分配所需的用户传播到业务联机目录 Skype。 Office 365 （如 E5) 许可给您创建，允许达 1 小时更改传播，请验证的用户帐户具有已正确设置到业务联机目录 Skype 通过运行以下 cmdlet，然后删除该帐户分配此帐户的许可证。
+    ```
+   Gets-CsOnlineUser -Identity <UserPrincipalName>
+   ```
     
 2. 开始使用您全局租户 Azure AD 远程 PowerShell 会话或用户管理员凭据，并向"HybridMediationServer"，然后运行以下 cmdlet，以设置 Azure AD 用户帐户的部门中的配置步骤 1:
 

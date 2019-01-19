@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 了解如何配置 Microsoft 电话系统直接路由。
-ms.openlocfilehash: d7744841b99e343339624314a94d95ab9472fa85
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: f89cae3569d5faf09e511439740485b40d91880e
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988284"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729441"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -31,7 +31,7 @@ ms.locfileid: "27988284"
 
 本文介绍如何配置 Microsoft 电话系统直接路由。 它详细说明如何配对对直接路由支持会话边界控制器 (SBC) 以及如何配置为使用直接路由连接到公共公用电话交换网 (PSTN) 的 Microsoft 团队用户。 若要完成本文中介绍的步骤操作，管理员需要某些熟悉 PowerShell cmdlet。 有关使用 PowerShell 的详细信息，请参阅[Windows PowerShell 将计算机设置](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。 
 
-我们建议您确认，您的 SBC 已配置为您的 SBC 供应商的推荐： 
+我们建议您确认，您的 SBC 已配置为与 SBC 供应商的推荐： 
 
 - [AudioCodes 部署文档](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
 - [Communications 部署文档的功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
@@ -42,7 +42,7 @@ ms.locfileid: "27988284"
 - [为用户启用直接路由服务](#enable-users-for-direct-routing-service)
 - [确保 Microsoft 团队是用户的首选呼叫客户端](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
-## <a name="pair-the-sbc-to-direct-routing-service-of-phone-system"></a>配对 SBC 定向电话系统的路由服务 
+## <a name="pair-the-sbc-to-the-direct-routing-service-of-phone-system"></a>配对到电话系统的直接路由服务 SBC 
 
 让您连接，或配对，直接路由界面 SBC 的三个高级步骤如下： 
 
@@ -50,7 +50,7 @@ ms.locfileid: "27988284"
 - 对 SBC 
 - 验证配对 
 
-### <a name="connect-to--skype-for-business-online-by-using-powershell"></a>使用 PowerShell online 业务连接到 Skype 
+### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>使用 PowerShell online 业务连接到 Skype 
 
 您可以使用连接到租户 PowerShell 会话配对直接路由界面 SBC。 若要打开 PowerShell 会话，请按照中[设置您的计算机的 Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)列出的步骤。 
  
@@ -60,7 +60,7 @@ ms.locfileid: "27988284"
 gcm *onlinePSTNGateway*
 ```
 
-您的命令将返回如下所示，将允许您管理 SBCs 的四个功能。 
+您的命令将返回如下所示，将允许您管理 SBC 的四个功能。 
 
 <pre>
 CommandType    Name                       Version    Source 
@@ -80,8 +80,8 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
 ```
   > [!NOTE]
-  > 1. 我们强烈建议 SBC，设置限制使用可以找到 SBC 文档中的信息。 如果 SBC 处于容量级别限制将触发通知。
-  > 2. 您可以仅配对的 FQDN，其中名称的域部分匹配一个除在您的租户中注册的域与 SBC \*。 onmicrosoft.com。 使用\*。 onmicrosoft.com 域名称不支持的 SBC FQDN 名称。 例如，如果您有两个域名：<br/><br/>
+  > 1. 我们强烈建议在 SBC 中, 设置的最大呼叫限制使用可以找到 SBC 文档中的信息。 如果 SBC 处于容量级别限制将触发通知。
+  > 2. 如果 FQDN 的域部分与某个除在您的租户中注册的域匹配，可以仅配对 SBC \*。 onmicrosoft.com。 使用\*。 onmicrosoft.com 域名称不支持的 SBC FQDN 名称。 例如，如果您有两个域名：<br/><br/>
   > **contoso**.com<br/>**contoso**。 onmicrosoft.com<br/><br/>
   > SBC 名称，您可以使用名称 sbc.contoso.com。 如果您尝试配对名称 sbc.contoso.abc 与 SBC，系统将不允许您，如此租户不属于域。
 
@@ -100,9 +100,9 @@ SendSipOptions        : True
 MaxConcurrentSessions : 100 
 Enabled               : True   
 </pre>
-还有其他可在配对设置的选项。 在上面的示例中，但是，仅的最低要求参数所示。 
+还有其他选项可在配对的过程中设置。 在上面的示例中，但是，仅的最低要求参数所示。 
  
-下表列出了您可以设置的*新建 CsOnlinePstnGateway*参数中使用的其他参数。 
+下表列出了您可以设置参数中使用的其他参数`New-CsOnlinePstnGateway`
 
 |必填？|名称|描述|默认值|可能的值|类型和限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -122,7 +122,7 @@ Enabled               : True
 - 检查 SBC 是否在列表中的配对 SBCs。 
 - 验证 SIP 选项。 
  
-#### <a name="validate-if-sbc-is-on-the-list-of-paired-sbcs"></a>验证 SBC 是否在列表中的配对的 Sbc 
+#### <a name="validate-if-the-sbc-is-on-the-list-of-paired-sbcs"></a>验证 SBC 是否在列表中的配对的 Sbc 
 
 对 SBC 后，验证 SBC 存在于列表中的配对 SBCs 通过远程 PowerShell 会话中运行以下命令：`Get-CSOnlinePSTNGateway`
 
@@ -148,11 +148,11 @@ Enabled               : True
 
 #### <a name="validate-sip-options-flow"></a>验证 SIP Options 流 
 
-要验证配对使用传出 SIP 选项，请使用 SBC 管理接口，并请参阅 SBC 获取 200 OK 响应的传出 OPTIONS。
-  
-当直接路由中看到传入的选项时，则它将启动向传入选项消息中的联系人标头字段中配置的 SBC FQDN 发送传出 options。 
+若要验证配对使用传出 SIP 选项，请使用 SBC 管理接口，并确认 SBC 接收其传出 OPTIONS 消息的 200 OK 响应。
 
-要验证配对使用传入 SIP 选项，请使用 SBC 管理接口，并查看 SBC 直接路由从传入 OPTIONS 消息上获取答复和响应代码是 200 确定。  
+当直接路由中看到传入的选项时，则它将启动发送消息 SBC fqdn 配置传入的选项消息中的联系人标头字段中的传出 SIP 选项。 
+
+要验证配对使用传入 SIP 选项，请使用 SBC 管理接口，并查看 SBC 发送给直接路由从传入 OPTIONS 消息的答复和发送响应代码是 200 确定。
 
 ## <a name="enable-users-for-direct-routing-service"></a>为用户启用直接路由服务 
 
@@ -161,20 +161,20 @@ Enabled               : True
 1. Office 365 中创建用户和分配电话系统许可证。 
 2. 确保业务 online 用户驻留在 Skype。 
 3. 配置的电话号码并启用企业语音和语音邮件。 
-4. 配置语音路由。 自动验证路由。  
+4. 配置语音路由。 自动验证路由。
 
 ### <a name="create-a-user-in-office-365-and-assign-the-license"></a>在 Office 365 中创建用户和分配许可证 
 
 有两个选项的 Office 365 中创建新用户。 但是，我们建议您的组织选择和使用一个选项以避免路由问题： 
 
-- 内部部署 Active Directory 中创建用户和同步到云用户。 请参阅[Azure Active Directory 集成本地目录](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)。  
+- 内部部署 Active Directory 中创建用户和同步到云用户。 请参阅[Azure Active Directory 集成本地目录](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)。
 - 直接在 Office 365 管理门户中创建用户。 请参阅[添加用户单独或到 Office 365-批量管理帮助](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)。 
 
-  如果生成与业务 2015年或 Lync 2010/2013年内部部署的 Skype 共存的系统，仅受支持的选项是在本地 Active Directory 中创建用户并同步到云 (选项 1) 的用户。 
+如果业务 Online 部署您 Skype 共同存在与 Skype 的业务 2015年或 Lync 2010/2013年内部部署，仅受支持的选项是在本地 Active Directory 中创建用户并同步到云 (选项 1) 的用户。 
 
 必需的许可证： 
 
-- Office 365 企业版 E3 （包括 SfB Plan2、 Exchange Plan2 和团队） + 电话系统  
+- Office 365 企业版 E3 （包括 SfB Plan2、 Exchange Plan2 和团队） + 电话系统
 - Office 365 企业 E5 （包括 SfB Plan2、 Exchange Plan2、 团队和电话系统） 
 
 可选许可证： 
@@ -201,15 +201,15 @@ Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
  
 1. 连接到远程 PowerShell 会话。 
 2. 输入命令： 
-    
+ 
 ```
-Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:+ phone number
+Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
 ```
 
 例如，若要添加的用户"Spencer 低"的电话号码，您可输入下列： 
 
 ```
-Set-CsUser -Identity “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
 使用的电话号码必须配置为完整的 E.164 电话号码与国家/地区代码。 
@@ -230,22 +230,22 @@ Sbc 可以被指定为活动状态且备份。 这意味着当配置为此号码
 - 语音路由策略 – 容器的 PSTN 用法;可分配给用户或多个用户 
 - PSTN 用法 – 语音路由和 PSTN 用法; 容器可以共享在不同的语音路由策略 
 - 语音路由 – 号码模式和联机 PSTN 网关，以用于呼叫其中号码匹配模式的设置 
-- 联机 PSTN 网关-指针位于 SBC，还会存储通过 SBC，如转发 P 已断言标识 (PAI) 或首选的编解码器; 发出呼叫时应用的配置可以添加到语音路由 
+- 联机 PSTN 网关-指向 SBC，还会存储通过 SBC，如转发 P 已断言标识 (PAI) 或首选的编解码器; 发出呼叫时应用的配置可以添加到语音路由 
 
 #### <a name="creating-a-voice-routing-policy-with-one-pstn-usage"></a>使用一个 PSTN 用法创建语音路由策略 
 
 下图显示呼叫流中的语音路由策略的两个示例。
 
-**（左侧） 呼叫流 1:** 如果用户选择调用 +1 425 XXX XX XX 或 +1 206 XXX XX XX，将该呼叫路由至 SBC sbc1<span></span>。 contoso.biz 或 sbc2<span></span>。 contoso.biz。 如果既 sbc1<span></span>。 contoso.biz 也 sbc2<span></span>。 contoso.biz 可用，将断开呼叫。 
+**（左侧） 呼叫流 1:** 如果用户选择调用 +1 425 XXX XX XX 或 +1 206 XXX XX XX，呼叫被路由到 SBC sbc1.contoso.biz 或 sbc2.contoso.biz。 如果既不 sbc1.contoso.biz，也不 sbc2.contoso.biz 都可用，呼叫将被丢弃。 
 
-**（在右侧） 呼叫流 2:** 如果用户选择调用 +1 425 XXX XX XX 或 +1 206 XXX XX XX，呼叫首先路由至 SBC sbc1<span></span>。 contoso.biz 或 sbc2<span></span>。 contoso.biz。 如果既 SBC 可用，将尝试使用较低的优先级的路由 (sbc3<span></span>。 contoso.biz 和 sbc4<span></span>。 contoso.biz)。 如果 SBCs 均不可用，呼叫将被丢弃。 
+**（在右侧） 呼叫流 2:** 如果用户选择调用 +1 425 XXX XX XX 或 +1 206 XXX XX XX，呼叫首先路由至 SBC sbc1.contoso.biz 或 sbc2.contoso.biz。 如果既 SBC 可用，具有低优先级路由将尝试 （sbc3.contoso.biz 和 sbc4.contoso.biz）。 如果 SBCs 均不可用，呼叫将被丢弃。 
 
 ![显示语音路由策略示例](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
 在这两个示例中，而语音路由分配优先级，在将路由 SBCs 会尝试按随机顺序。
 
   > [!NOTE]
-  > 除非用户也有 Microsoft 调用规划许可证，除匹配模式 + +1 425 XXX XX XX 或 +1 206 XXX XX XX 示例配置中的号码之外的任何号码的呼叫会被丢弃。 如果用户具有调用规划许可证，该呼叫将自动路由根据 Microsoft 调用计划的策略。 
+  > 除非用户也有 Microsoft 调用规划许可证，除 +1 425 XXX XX XX 或 +1 206 XXX XX XX 示例配置中的模式匹配的号码之外的任何号码的呼叫会被丢弃。 如果用户具有调用规划许可证，该呼叫将自动路由根据 Microsoft 调用计划的策略。 
 
 Microsoft 调用规划自动作为最后一个路由适用于使用 Microsoft 调用规划许可证的所有用户，并且不需要其他呼叫路由配置。
 
@@ -264,9 +264,9 @@ Microsoft 调用规划自动作为最后一个路由适用于使用 Microsoft �
 
 |**PSTN 用法**|**语音路由**|**号码模式**|**优先级**|**SBC**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|仅限美国|"Redmond 1"|^\\+ 1 (425\|206)(\d{7})$|1|sbc1<span></span>。 contoso.biz<br/>sbc2<span></span>。 contoso.biz|活动路由 +1 425 XXX XX XX 或 +1 206 XXX XX XX 拨电话号码|
-|仅限美国|"Redmond 2"|^\\+ 1 (425\|206)(\d{7})$|2|sbc3<span></span>。 contoso.biz<br/>sbc4<span></span>。 contoso.biz|备份路由 +1 425 XXX XX XX 或 +1 206 XXX XX XX 拨电话号码|
-|仅限美国|"其他 + 1"|^\\+ 1 (\d{10}) $|3|sbc5<span></span>。 contoso.biz<br/>sbc6<span></span>。 contoso.biz|呼叫的号码的路由 （除 +1 425 XXX XX XX 或 +1 206 XXX XX XX） + 1 XXX XXX XX XX|
+|仅限美国|"Redmond 1"|^\\+ 1 (425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|活动路由 +1 425 XXX XX XX 或 +1 206 XXX XX XX 拨电话号码|
+|仅限美国|"Redmond 2"|^\\+ 1 (425\|206)(\d{7})$|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|备份路由 +1 425 XXX XX XX 或 +1 206 XXX XX XX 拨电话号码|
+|仅限美国|"其他 + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|呼叫的号码的路由 （除 +1 425 XXX XX XX 或 +1 206 XXX XX XX） + 1 XXX XXX XX XX|
 |||||||
 
 所有路由与 PSTN 用法"美国和加拿大"相关联，PSTN 用法相关联的语音路由策略"仅美国。" 本示例中，语音路由策略分配给用户 Spencer 低。
@@ -275,12 +275,12 @@ Microsoft 调用规划自动作为最后一个路由适用于使用 Microsoft �
 
 在以下示例中，我们将演示如何配置路由、 PSTN 用法和路由策略，并将策略分配给用户。
 
-**步骤 1:** 创建 PSTN 用法"美国和加拿大。"
+**步骤 1:** 创建 PSTN 用法"美国和加拿大"。
 
 在业务远程 PowerShell 会话 Skype，键入：
 
 ```
-Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="US and Canada"}
+Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
 验证通过输入创建的使用情况： 
@@ -292,7 +292,7 @@ Get-CSOnlinePSTNUsage
   Identity  : Global
   Usage     : {testusage, US and Canada, International, karlUsage. . .}
 ```
-在下面的示例中，您可以查看正在运行的结果的 PowerShell 命令*`(Get-CSOnlinePSTNUsage).usage`* 显示 （不会被截断） 的完整名称。    
+在下面的示例中，您可以查看正在运行的结果的 PowerShell 命令`(Get-CSOnlinePSTNUsage).usage`显示 （不会被截断） 的完整名称。 
 <pre>
  testusage
  US and Canada
@@ -352,7 +352,7 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
      -OnlinePstnGatewayList sbc1.contoso.biz
     ```
 
-验证是否已正确配置路由通过运行`Get-CSOnlineVoiceRoute`Powershell 命令使用选项，如下所示： 
+验证是否已正确配置路由通过运行`Get-CSOnlineVoiceRoute`PowerShell 命令使用选项，如下所示： 
 
 ```
 Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
@@ -383,7 +383,7 @@ OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
 </pre>
 
-在示例中，该路由"其他 + 1"已自动分配优先级。 
+在示例中，该路由"其他 + 1"已自动分配优先级 4。 
 
 **步骤 3:**"我们仅"创建语音路由策略和向策略中添加 PSTN 用法"美国和加拿大。"
 
@@ -402,9 +402,9 @@ Description         :
 RouteType           : BYOT
 </pre>
 
-**步骤 4:** 向用户授予 Spence 低语音路由策略使用 PowerShell。
+**步骤 4:** 向用户授予 Spencer 低语音路由策略使用 PowerShell。
 
-- 在 Powershell 会话中的业务联机 Skype 中，键入：
+- 在 PowerShell 会话中的业务联机 Skype 中，键入：
 
     ```Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"```
 
@@ -426,11 +426,11 @@ Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 
 在下面的示例，您可以创建语音路由策略"没有限制。" 策略重复 PSTN 用法"美国和加拿大"创建在上面的示例，以及新的 PSTN 用法"International。" 
 
-这所有其他将呼叫路由到 SBCs sbc2<span></span>。 contoso.biz 和 sbc5<span></span>。 contoso.biz。 所示的示例将仅美国用户"Spencer 低，"策略和无限制分配给用户"John Woods"。
+这将路由到的 Sbc sbc2.contoso.biz 和 sbc5.contoso.biz 的所有其他呼叫。 所示的示例将仅美国"Spencer 低，"用户策略和无限制分配给用户"John Woods"。
 
 Spencer 低 – 允许仅对美国和加拿大号码的呼叫。 当调用雷德蒙德号码范围，必须使用 SBC 的特定集。 除非调用规划许可证分配给用户，将不会路由非美国号码。
 
-John Woods – 允许任意数量的呼叫。 当调用雷德蒙德号码范围，必须使用 SBC 的特定集。 非美国号码将路由通过 sbc2<span></span>。 contoso.biz 和 sbc5<span></span>。 contoso.biz。
+John Woods – 允许任意数量的呼叫。 当调用雷德蒙德号码范围，必须使用 SBC 的特定集。 将通过 sbc2.contoso.biz 和 sbc5.contoso.biz 路由非美国号码。
 
 ![显示分配给用户 Spencer 低的语音路由策略](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
@@ -444,14 +444,14 @@ John Woods – 允许任意数量的呼叫。 当调用雷德蒙德号码范围�
 
 |**PSTN 用法**|**语音路由**|**号码模式**|**优先级**|**SBC**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|仅限美国|"Redmond 1"|^\\+ 1 (425\|206)(\d{7})$|1|sbc1<span></span>。 contoso.biz<br/>sbc2<span></span>。 contoso.biz|被叫方号码 +1 425 XXX XX XX 或 +1 206 XXX XX XX 活动路由|
-|仅限美国|"Redmond 2"|^\\+ 1 (425\|206)(\d{7})$|2|sbc3<span></span>。 contoso.biz<br/>sbc4<span></span>。 contoso.biz|被叫方号码 +1 425 XXX XX XX 或 +1 206 XXX XX XX 备份路由|
-|仅限美国|"其他 + 1"|^\\+ 1 (\d{10}) $|3|sbc5<span></span>。 contoso.biz<br/>sbc6<span></span>。 contoso.biz|被叫方路由号码 + 1 XXX XXX XX XX （除 +1 425 XXX XX XX 或 +1 206 XXX XX XX）|
-|International|International|\d+|4|sbc2<span></span>。 contoso.biz<br/>sbc5<span></span>。 contoso.biz|任何号码模式的路由 |
+|仅限美国|"Redmond 1"|^\\+ 1 (425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|被叫方号码 +1 425 XXX XX XX 或 +1 206 XXX XX XX 活动路由|
+|仅限美国|"Redmond 2"|^\\+ 1 (425\|206)(\d{7})$|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|被叫方号码 +1 425 XXX XX XX 或 +1 206 XXX XX XX 备份路由|
+|仅限美国|"其他 + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6>.contoso.biz|被叫方路由号码 + 1 XXX XXX XX XX （除 +1 425 XXX XX XX 或 +1 206 XXX XX XX）|
+|International|International|\d+|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|任何号码模式的路由 |
 
 
   > [!NOTE]
-  > - 在语音路由策略中的 PSTN 用法的顺序至关重要。 用法的顺序，应用，如果找到匹配的中第一个用法，然后其他用法从不计算。 PSTN 用法"International"必须放置后 PSTN 用法"我们仅。" 若要更改的 PSTN 用法的顺序，请运行`Set-CSOnlineRouteRoutingPolicy`命令。 <br/>例如，若要更改的顺序从"美国和加拿大"第一个和"国际"秒到相反的顺序运行：<br/>   `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+  > - 在语音路由策略中的 PSTN 用法的顺序至关重要。 用法的顺序，应用，如果找到匹配的中第一个用法，然后其他用法从不计算。 PSTN 用法"International"必须放置后 PSTN 用法"我们仅。" 若要更改的 PSTN 用法的顺序，请运行`Set-CSOnlineRouteRoutingPolicy`命令。 <br/>例如，若要更改的顺序从"美国和加拿大"第一个和"国际"秒到相反的顺序运行：<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
  > - 自动分配"其他 + 1"和"International"语音路由的优先级。 他们不重要，只要他们具有较低的优先级，比"Redmond 1"和"Redmond 2"。
 
 #### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>为用户 John Woods 的语音路由策略示例
@@ -462,13 +462,13 @@ John Woods – 允许任意数量的呼叫。 当调用雷德蒙德号码范围�
 1. 首先，创建 PSTN 用法"International。" 在 Skype 业务 online 中的远程 PowerShell 会话，输入：
 
    ```
-   Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="International"}
+   Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
    ```
 
 2. 接下来，创建新的语音路由"International。"
 
    ```
-   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
+   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
    ```
    返回结果：
 
@@ -476,26 +476,26 @@ John Woods – 允许任意数量的呼叫。 当调用雷德蒙德号码范围�
    Identity                  : International 
    Priority                      : 5
    Description                   : 
-   NumberPattern                 : \d+
-   OnlinePstnUsages          : {International}    
+   NumberPattern                 : .*
+   OnlinePstnUsages          : {International} 
    OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
    Name                            : International
    SupressCallerId           :
    AlternateCallerId         :
    </pre>
-3. 接下来，创建语音路由策略"无限制"。 若要保留的呼叫就可以为本地域或内部呼叫号码"+1 425 XXX XX XX"和"+1 206 XXX XX XX"的特殊处理此语音路由策略中重复使用的 PSTN 用法"Redmond 1"和"Redmond"。
+3. 接下来，创建语音路由策略"无限制"。 若要保留为"+1 425 XXX XX XX"和"+1 206 XXX XX XX"作为本地号码的呼叫或本地呼叫的特殊处理此语音路由策略中重复使用的 PSTN 用法"Redmond 1"和"Redmond"。
 
 ```
-New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”
+New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
 ```
 
     Take note of the order of PSTN Usages:
 
-    a. If a call made to number “+1425 XXX XX XX” with the usages configured as in the following example, the call follows the route set in “US and Canada” usage and the special routing logic is applied. That is, the call is routed using  sbc1<span></span>.contoso.biz and sbc2<span></span>.contoso.biz first, and then  sbc3<span></span>.contoso.biz and sbc4<span></span>.contoso.biz as the backup routes. 
+    a. If a call made to number "+1 425 XXX XX XX" with the usages configured as in the following example, the call follows the route set in "US and Canada" usage and the special routing logic is applied. That is, the call is routed using sbc1.contoso.biz and sbc2.contoso.biz first, and then sbc3.contoso.biz and sbc4.contoso.biz as the backup routes. 
 
-    b.  If “International” PSTN usage is before “US and Canada,” calls to + 1425 XXX XX XX are routed to sbc2<span></span>.contoso.biz and sbc5<span></span>.contoso.biz as part of the routing logic. Enter the command:
+    b.  If "International" PSTN usage is before "US and Canada," calls to +1 425 XXX XX XX are routed to sbc2.contoso.biz and sbc5.contoso.biz as part of the routing logic. Enter the command:
 
-    ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”```
+    ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"```
 
    其返回
 
@@ -512,10 +512,10 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
    Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
    ```
 
-   然后验证工作分配使用的命令：   
+   然后验证工作分配使用的命令： 
 
    ```
-   Get-CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
+   Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
    ```
    返回结果：
 
@@ -525,7 +525,7 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
     No Restrictions
 </pre>
 
-应用于 John Woods 呼叫的语音策略是不受限制，并将按照适用于美国、 加拿大和国际呼叫的呼叫路由逻辑，结果。
+应用于 John Woods 呼叫的语音策略是不受限制，并将按照呼叫路由适用于美国、 加拿大和国际呼叫的逻辑，结果。
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>为用户设置为首选调用客户端的 Microsoft 团队
 

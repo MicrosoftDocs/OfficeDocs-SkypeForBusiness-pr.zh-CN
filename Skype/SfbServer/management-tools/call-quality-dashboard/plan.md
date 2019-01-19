@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 摘要： 了解有关呼叫质量仪表板规划时应考虑的事项。
-ms.openlocfilehash: b524bd344ead2dbc526265f6421881cc6a848b76
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 684ec4ead9d6292cb316f1330bace65149151fbf
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789367"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729456"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>规划呼叫质量仪表板的 Skype 业务服务器 
  
@@ -162,7 +162,7 @@ CQD 附带了几个组件，并帮助了解获取该工具的最简单和最佳�
 |||
 |:-----|:-----|
 |支持的操作系统  <br/> |Windows Server 2008 R2、 Windows Server 2012、 Windows Server 2012 R2  <br/> |
-|支持的 SQL Server  <br/> |SQL Server 2008 R2，SQL Server 2012，SQL Server 2014  <br/> |
+|支持的 SQL Server  <br/> |SQL Server 2012，SQL Server 2014 年 SQL Server 2016  <br/> |
    
 CQD 利用 Microsoft SQL Server、 Microsoft SQL Server Analysis Services 和 Microsoft Internet 信息服务，因此 CQD 的最低硬件和软件要求基本上与这些依赖的组件相同。 但是，根据组织的要求围绕数据刷新 （这将取决于部分的组织将生成的 QoE 数据量） 和部署成本，其他部署注意事项应将。
   
@@ -271,7 +271,7 @@ CQD 利用 Microsoft SQL Server、 Microsoft SQL Analysis Server 和 Microsoft I
   - IIS 管理控制台
     
 > [!NOTE]
->  请注意以下上述要求： 有 > 3.5 和.Net framework 4.5 版。 两者均需 （具体而言，3.5 SP1，则需要）。 > 中有些系统，如果 ASP.NET 为安装程序之前安装 IIS，然后 ASP.NET 可能未注册在 IIS 中。 通过不存在相应的.Net 版本和还缺少应用程序池配置中的.NET CLR 版本的应用程序池会出现该问题。 若要纠正此类问题 Windows Server 2008 R2 上的，执行`%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`。 在 Windows Server 2012 和 Windows Server 2012 R2 上，执行`dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45`跟删除从默认网站在的"ServiceModel"模块 > 管理工具是可选的但建议。 IIS 管理器。
+>  请注意以下上述要求： > 3.5 和.Net framework 4.5 版。 两者均需 （具体而言，3.5 SP1，则需要）.> 中有些系统，如果 ASP.NET 是安装之前安装 IIS，则可能未在 IIS 中注册 ASP.NET。 通过不存在相应的.Net 版本和还缺少应用程序池配置中的.NET CLR 版本的应用程序池会出现该问题。 若要纠正此类问题 Windows Server 2008 R2 上的，执行`%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`。 在 Windows Server 2012 和 Windows Server 2012 R2 上，执行`dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45`跟删除"ServiceModel"模块从默认网站 IIS Manager.> 管理工具中是可选的但建议。
   
 若要安装使用 PowerShell 这些要求，运行以下命令：
   
@@ -285,13 +285,13 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 
 SQL Server 的以下版本支持：
   
-- SQL Server 2008 R2
-    
 - SQL Server 2012
     
 - SQL Server 2014
 
 - SQL Server 2016
+
+- SQL Server 2017
     
 出于性能原因，建议您使用商业智能或 Enterprise edition。 这些版本允许使用的多个分区文件可以并行，这是有益于处理数据跨越多个月份或更长时间处理。 
   

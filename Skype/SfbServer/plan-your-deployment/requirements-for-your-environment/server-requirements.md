@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 摘要： 使用本主题的业务服务器 2015年服务器准备您的 Skype。 硬件、 操作系统、 数据库、 软件、 所有的系统要求和建议在此处要帮助确保成功安装和部署服务器场。
-ms.openlocfilehash: ae66e8994745317d8de4d033c6f6a65c6e41a9ac
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: f9c85fb774362e00c8b34e9cc0343e71e499ce49
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240729"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729370"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的服务器要求
  
@@ -91,10 +91,10 @@ ms.locfileid: "27240729"
   
 业务 Server 2015 Enterprise Edition 的 Skype 有点复杂，但下面是受支持的列表 (所有内容都是 64 位版本，您会注意到，请不要使用 32 位版本):
   
-||||
-|:-----|:-----|:-----|:-----|
-|Microsoft SQL Server 2016 企业版 （64 位版本） Service Pack 1 或更高版本，并且您必须运行与 Skype 的业务累积更新 7 或更高版本 （[下载业务累积更新的 Skype](https://support.microsoft.com/en-us/help/3061064)）。  <br/> |Microsoft SQL Server 2014 企业版 （64 位版本），并且您必须运行与累积更新 6 或更高版本 （[下载累积更新 6](https://support.microsoft.com/en-us/kb/3031047/)）。  <br/> |Microsoft SQL Server 2012 Enterprise （64 位版本），以及我们建议最新的 service pack 的运行。  <br/> |Microsoft SQL Server 2008 R2 Enterprise （64 位版本），以及我们建议最新的 service pack 的运行。  <br/> |
-|Microsoft SQL Server 2016 标准 （64 位版本） Service Pack 1 或更高版本，并且您必须运行与 Skype 的业务累积更新 7 或更高版本 （[下载业务累积更新的 Skype](https://support.microsoft.com/en-us/help/3061064)）。  <br/> |Microsoft SQL Server 2014 标准 （64 位版本），并且您必须运行与累积更新 6 或更高版本 （[下载累积更新 6](https://support.microsoft.com/en-us/kb/3031047/)）。  <br/> |Microsoft SQL Server 2012 Standard （64 位版本），以及我们建议最新的 service pack 的运行。  <br/> |Microsoft SQL Server 2008 R2 Standard （64 位版本），和建议的最新的 service pack 运行  <br/> |
+|||||
+|:-----|:-----|:-----|:-----|:-----|
+|Microsoft SQL Server 2017 企业版 （64 位版本），以及我们建议最新的 service pack 的运行。 <br/> |Microsoft SQL Server 2016 企业版 （64 位版本） Service Pack 1 或更高版本，并且您必须运行与 Skype 的业务累积更新 7 或更高版本 （[下载业务累积更新的 Skype](https://support.microsoft.com/en-us/help/3061064)）。  <br/> |Microsoft SQL Server 2014 企业版 （64 位版本），并且您必须运行与累积更新 6 或更高版本 （[下载累积更新 6](https://support.microsoft.com/en-us/kb/3031047/)）。  <br/> |Microsoft SQL Server 2012 Enterprise （64 位版本），以及我们建议最新的 service pack 的运行。  <br/> |
+|Microsoft SQL Server 2017 标准 （64 位版本），以及我们建议最新的 service pack 的运行。 <br/> |Microsoft SQL Server 2016 标准 （64 位版本） Service Pack 1 或更高版本，并且您必须运行与 Skype 的业务累积更新 7 或更高版本 （[下载业务累积更新的 Skype](https://support.microsoft.com/en-us/help/3061064)）。  <br/> |Microsoft SQL Server 2014 标准 （64 位版本），并且您必须运行与累积更新 6 或更高版本 （[下载累积更新 6](https://support.microsoft.com/en-us/kb/3031047/)）。  <br/> |Microsoft SQL Server 2012 Standard （64 位版本），以及我们建议最新的 service pack 的运行。  <br/> |
    
 如果您没有看到要使用此处列出的 SQL Server 版本，则无法使用它。
   
@@ -133,24 +133,24 @@ Microsoft 消息队列不是必需的。
   
 双节点：
   
+- Microsoft SQL Server 2017 标准 （64 位版本），以及我们建议最新的 service pack 的运行。
+
 - Microsoft SQL Server 2016 标准 （64 位版本） Service Pack 1 或更高版本。 我们建议最新的 service pack 的运行。
 
 - Microsoft SQL Server 2014 标准 （64 位版本），以及我们建议最新的 service pack 的运行。
     
 -  Microsoft SQL Server 2012 Standard （64 位版本），以及我们建议最新的 service pack 的运行。
-    
-- Microsoft SQL Server 2008 R2 Standard （64 位版本），以及我们建议最新的 service pack 的运行。
-    
+
 16 节点：
+
+- Microsoft SQL Server 2017 企业版 （64 位版本），以及我们建议最新的 service pack 的运行。
 
 - Microsoft SQL Server 2016 企业版 （64 位版本） Service Pack 1 或更高版本。 我们建议最新的 service pack 的运行。
   
 - Microsoft SQL Server 2014 企业版 （64 位版本），以及我们建议最新的 service pack 的运行。
     
 - Microsoft SQL Server 2012 Enterprise （64 位版本），以及我们建议最新的 service pack 的运行。
-    
-- Microsoft SQL Server 2008 R2 Enterprise （64 位版本），以及我们建议最新的 service pack 的运行。
-    
+
 > [!IMPORTANT]
 > 升级，我们希望您以确保在前端服务器至少具有 SQL Server 2012 SP1 安装之前升级。 到 SP1，如果您想要立即下载[这是一个链接](https://www.microsoft.com/en-us/download/details.aspx?id=35575)。
   

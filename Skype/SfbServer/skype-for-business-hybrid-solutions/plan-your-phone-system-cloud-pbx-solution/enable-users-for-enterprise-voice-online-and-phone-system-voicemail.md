@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: 了解如何在 Office 365 语音服务的企业用户您 Skype 中启用电话系统。
-ms.openlocfilehash: ec0e37c0597f81001075f144dd38b58acfbb1159
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9f11e52a3992e484643cfea06d0720d12e3f0e77
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372668"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729291"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>为用户启用企业语音 online 和 Office 365 语音邮件中的电话系统
  
@@ -31,11 +31,11 @@ ms.locfileid: "25372668"
   
 ## <a name="enable-phone-system-in-office-365-voice-services"></a>在 Office 365 语音服务中启用电话系统
 
-要为用户启用 Office 365 语音和语音邮件中的电话系统，您将需要执行一些初始的步骤，如检查以的业务 Online Connector 部署在您的服务器上所看到的 Skype 并启用托管语音邮件的用户。
+要为用户启用 Office 365 语音和语音邮件中的电话系统，您将需要执行一些初始的步骤，如检查以查看是否 Business Online Connector 的 Skype 部署在您的服务器上并启用托管语音邮件的用户。
   
 ### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>Office 365 语音和语音邮件中将您的用户启用电话系统
 
-1. 在开始之前，检查 Business Online Connector （Windows PowerShell 模块） 的 Skype 部署在前端服务器上。 如果不存在，则可以从[下载中心](https://www.microsoft.com/en-us/download/details.aspx?id=39366)下载。 您可以找到有关使用[配置您的计算机的业务联机管理 Skype](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx)在此模块的详细信息。
+1. 在开始之前，检查 Business Online Connector （Windows PowerShell 模块） 的 Skype 部署在前端服务器上。 如果未部署，则可以从[下载中心](https://www.microsoft.com/en-us/download/details.aspx?id=39366)下载。 您可以找到有关使用[配置您的计算机的业务联机管理 Skype](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx)在此模块的详细信息。
     
 2. 以管理员身份启动 Windows PowerShell。
     
@@ -140,7 +140,7 @@ ms.locfileid: "25372668"
 
 本节介绍如何更新启用了 Office 365 中的电话系统的用户的语音路由策略。
   
-在 Office 365 用户的电话系统必须具有语音路由策略分配给它们的呼叫路由成功。 这与本地业务语音用户不同，本地业务语音用户需要分配有语音策略，然后才能成功路由呼叫。 语音路由策略应包含在 Office 365 用户的电话系统定义授权的呼叫和路由的 PSTN 用法。 您可以将这些 PSTN 用法从现有语音策略复制到新的语音路由策略。 有关详细信息，请参阅[New-csvoiceroutingpolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)。
+在 Office 365 用户的电话系统必须具有语音路由策略分配给它们的呼叫路由成功。 这与本地业务语音用户不同，本地业务语音用户需要分配有语音策略，然后才能成功路由呼叫。 语音路由策略应包含在 Office 365 用户的电话系统定义授权的呼叫和路由的 PSTN 用法。 您可以将这些 PSTN 用法从现有语音策略复制到新的语音路由策略。 有关更多信息，请参阅 [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)。
   
 > [!NOTE]
 > 在 Office 365 用户的所有电话系统都分配名为它定义的呼叫功能，允许; BusinessVoice 相同 online 语音策略例如，允许同时响铃。 
@@ -172,6 +172,6 @@ ms.locfileid: "25372668"
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-    有关详细信息，请参阅[Grant-csvoiceroutingpolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps)。
+    有关详细信息，请参阅 [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps)。
     
 

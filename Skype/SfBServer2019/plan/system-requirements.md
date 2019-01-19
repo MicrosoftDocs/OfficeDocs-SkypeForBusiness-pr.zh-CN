@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 摘要： 准备您的 Skype 业务服务器 2019年服务器和域基础结构与本主题。 硬件、 操作系统、 数据库、 软件、 所有系统要求和建议，以及证书 DNS、 文件共享和 Active Directory 信息，在此处都要帮助确保成功安装和部署服务器场。
-ms.openlocfilehash: db5bada7b89de2fafc4d72c9fa5fcac05d8611ce
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: a812c2cbc96ab80eea55072162c54bc7371a9dc5
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297766"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729349"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>For Business Server 2019 Skype 的系统要求
  
@@ -193,9 +193,10 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2016 （64 位版本），并且您必须运行具有最新的更新。  <br/> ||
+|Microsoft SQL Server 2016 （64 位版本），并且您必须运行具有最新的更新。  <br/> |
+Microsoft SQL Server 2017 （64 位版本），并且您必须运行具有最新的更新。|
  |
-   
+
 如果您没有看到要使用此处列出的 SQL Server 版本，则无法使用它。
   
 > [!NOTE]
@@ -212,13 +213,13 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 双节点：
   
 - Microsoft SQL Server 2016 标准 （64 位版本），以及我们建议最新的 service pack 的运行。
-    
+- Microsoft SQL Server 2017 标准 （64 位版本），以及我们建议最新的 service pack 的运行。
+
 16 节点：
   
 - Microsoft SQL Server 2016 企业版 （64 位版本），以及我们建议最新的 service pack 的运行。
-    
-我们必须文章，配置 SQL Server 群集的 Skype 的业务服务器 2019，已获取就绪群集的步骤。
- 
+- Microsoft SQL Server 2017 企业版 （64 位版本），以及我们建议最新的 service pack 的运行。
+
 支持 SQL Always On，并且您可以阅读更多有关该产品中[的业务服务器 2019 Skype 后端服务器高可用性](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)。
   
 
