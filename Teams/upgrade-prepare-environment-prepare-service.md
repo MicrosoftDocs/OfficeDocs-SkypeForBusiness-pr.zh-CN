@@ -1,9 +1,8 @@
 ---
-title: 准备您的服务升级到团队的 Microsoft 团队
+title: 准备的 Microsoft 团队升级 | 入职培训推出清单
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7858737dc69f076ca059aca9de5437cb3cb88e52
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2243e1420e2bd1046789669168834cff2125c4ac
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374593"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349457"
 ---
 ![升级旅程，重点强调的技术的准备阶段的阶段](media/upgrade-banner-tech-readiness.png "升级旅程，重点强调的技术的准备阶段的阶段")
 
 本文是您升级旅程，与用户准备阶段并行完成的活动的技术的准备阶段的一部分。 在继续之前，确认您已完成从以前的阶段的这些活动：
 
--   [登记项目利益干系人](upgrade-enlist-stakeholders.md)
--   [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
--   [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
--   [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [登记项目利益干系人](upgrade-enlist-stakeholders.md)
+- [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
+- [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
+- [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>准备升级到团队的服务
 
@@ -38,17 +37,17 @@ ms.locfileid: "25374593"
 
 以下清单可指导您完成您的组织中部署的 Microsoft 团队的步骤：
 
--  [Office 365 准备团队](onboarding-checklist-enable-office-365.md)
+- [Office 365 准备团队](onboarding-checklist-enable-office-365.md)
 
--  [配置团队的核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
+- [配置团队的核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
--  [配置网络](onboarding-checklist-configure-networking.md)
+- [配置网络](onboarding-checklist-configure-networking.md)
 
--  [在工作组中配置云语音工作负荷](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [在工作组中配置云语音工作负荷](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 
--  [配置直接路由团队](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [配置直接路由团队](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
 
-任务和这些清单中的活动是"核心待办事项"适用于协作和语音功能与团队的每个部署。 您可以自定义要包含的活动和特定于您自己团队旅程的任务的清单。 
+任务和这些清单中的活动是"核心待办事项"适用于协作和语音功能与团队的每个部署。 您可以自定义要包含的活动和特定于您自己团队旅程的任务的清单。
 
 使用提供的清单来跟踪的每个单独的活动和任务，状态，以确保您没有跳过任何关键的步骤。 每个活动包括所需的操作和可用于完成了该活动的其他信息的引用的详细的说明。
 
@@ -57,7 +56,7 @@ ms.locfileid: "25374593"
 按每个站点的入职培训用户时，我们强烈建议[语音设置 （方案） 的网站启用设置方案](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)使用这些清单的补充指南作为。
 
 >[!NOTE]
->常见团队和 Skype 业务 online 之间了大部分的配置设置。 使用 Microsoft 团队 & Business Admin Center 的 Skype 配置这些设置。
+>常见团队和 Skype 业务 online 之间了大部分的配置设置。 您使用的 Microsoft 团队 & Business Admin Center 的 Skype 配置这些设置。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>谁将负责监督入职培训清单完成？</li></ul></td></tr>

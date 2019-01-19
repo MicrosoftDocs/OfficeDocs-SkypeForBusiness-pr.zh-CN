@@ -1,20 +1,19 @@
 ---
 layout: HubPage
 hide_bc: true
-title: 讲师引导的 Microsoft Teams 培训
-description: 注册教师授课实况类，以了解以团队。
+title: 教师授课实况培训和视频对于 Microsoft 团队管理员
+description: 注册教师授课实况类，以了解 Microsoft 团队。
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
-ms.date: 08/24/2018
-ms.openlocfilehash: efb105e3d6b5ab1c2ec87df6520c52eeb7ded90d
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 35b8a75e1c19acbe66e05c6d163b55cd4ab9f904
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214555"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349308"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -80,7 +79,7 @@ ms.locfileid: "27214555"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>团队提示和技巧</h3>
+                                                <h3>_AMP_ 团队提示和技巧</h3>
                                                 <p>了解优化和组织您的日常工作中的工作组创作方法。 (访问群体： 最终用户)</p>
                                             </div>
                                         </div>
@@ -100,7 +99,7 @@ ms.locfileid: "27214555"
                                             </div>
                                             <div class="cardText">
                                                 <h3>向工作组从 for Business 的 Skype 管理您的升级</h3>
-                                                <p>规划和实现成功升级到团队 (受众： IT 专业人员、 应用更改经理)</p>
+                                                <p>计划 & 实现成功升级到团队 (受众： IT 专业人员、 应用更改经理)</p>
                                             </div>
                                         </div>
                                     </div>

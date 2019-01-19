@@ -1,9 +1,8 @@
 ---
-title: 规划服务管理和质量-Microsoft 团队
+title: 规划服务管理和质量 |技术的准备情况
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,36 +13,37 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e23fba83c9b853f80baff0b2abd6b82c06955e1
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 59c881c6c40b8877fee46e3956970a0c305d0a4a
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017798"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349526"
 ---
 ![升级旅程，重点强调的技术的准备阶段的阶段](media/upgrade-banner-tech-readiness.png "升级旅程，重点强调的技术的准备阶段的阶段")
 
 本文是您升级旅程，与用户准备阶段并行完成的活动的技术的准备阶段的一部分。 在继续之前，确认您已完成从以前的阶段的这些活动：
 
--   [登记项目利益干系人](upgrade-enlist-stakeholders.md)
--   [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
--   [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
--   [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [登记项目利益干系人](upgrade-enlist-stakeholders.md)
+- [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
+- [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
+- [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
+
 # <a name="plan-for-quality"></a>规划质量
 
 如果您正在部署音频、 视频或会议，您可以优化该功能的环境的一些额外步骤。 此内容概述了交付和维护高质量的 Microsoft Teams 部署需要达到的要求。 您可以帮助确保成功部署规划服务管理和质量，在您的第一个试验或生产部署之前。
 
 指导由以下部分组成：
 
--   首先，概述用户体验和用于实现高质量的主要组成部分。 将着重介绍在上线 Microsoft Teams 之前重点关注的方面。
+- 首先，概述用户体验和用于实现高质量的主要组成部分。 将着重介绍在上线 Microsoft Teams 之前重点关注的方面。
 
--   其次，指导在首次用户试点或生产部署之前如何规划用于管理 Microsoft Teams 的支持模型。 本节介绍为了维护高质量 Teams 部署需要定期执行的任务。 此外，本节还介绍你开始了解和执行这些任务时可以遵循的进一步指导。
+- 其次，指导在首次用户试点或生产部署之前如何规划用于管理 Microsoft Teams 的支持模型。 本节介绍为了维护高质量 Teams 部署需要定期执行的任务。 此外，本节还介绍你开始了解和执行这些任务时可以遵循的进一步指导。
 
--   再次，提供具体的指导来帮助在你的组织中规划你的网络和终结点以支持 Microsoft Teams。
+- 再次，提供具体的指导来帮助在你的组织中规划你的网络和终结点以支持 Microsoft Teams。
 
--   最后，概述了后续步骤并提供相关内容参考。
+- 最后，概述了后续步骤并提供相关内容参考。
 
 ## <a name="key-technical-components-that-affect-user-experience"></a>影响用户体验的重要技术组件
 
@@ -67,13 +67,13 @@ ms.locfileid: "25017798"
 
 服务管理可以分为两种截然不同的职责类别：
 
--   **Microsoft 职责**。 Microsoft 负责构成 Office 365 服务的基础结构组件。 Microsoft 向客户负责确保为连接到 Teams 的任何用户提供可靠的高质量体验。
+- **Microsoft 职责**。 Microsoft 负责构成 Office 365 服务的基础结构组件。 Microsoft 向客户负责确保为连接到 Teams 的任何用户提供可靠的高质量体验。
 
--   **客户职责**。 你和你的组织负责管理 Office 365 服务、本地部署网络和用户终结点的各个方面。 例如，在向 Office 365 添加新的 IP 地址时，你必须更新合适的防火墙以允许新的终结点进行通信，从而避免用户中断。
+- **客户职责**。 你和你的组织负责管理 Office 365 服务、本地部署网络和用户终结点的各个方面。 例如，在向 Office 365 添加新的 IP 地址时，你必须更新合适的防火墙以允许新的终结点进行通信，从而避免用户中断。
 
 有关服务管理规划的详细指导，请参阅[规划服务管理](#plan-for-service-management)。
 
-#### <a name="network"></a>网络 
+#### <a name="network"></a>网络
 
 在大多数组织中，网络最初设计为用于访问其数据中心里的数据和应用。 对于 Office 365 等基于云的应用，则需要更改这些网络以支持 Teams 所需的全新访问和数据流。 必须先评估并优化当前网络，才能在组织中为 Teams 启用用户。 在利用云语音功能时，这一点至关重要。
 
@@ -101,7 +101,7 @@ Microsoft Teams 支持各种终结点。 你可以在任何地方从 PC、平板
 
 ![此示意图说明了质量的三个组成部分以及服务管理如何贯穿于这三个组成部分。焦点在服务管理上。](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "此示意图说明了质量的三个组成部分以及服务管理如何贯穿于这三个组成部分。焦点在服务管理上。")
 
-### <a name="introduction-to-the-operations-guide"></a>《操作指南》简介 
+### <a name="introduction-to-the-operations-guide"></a>《操作指南》简介
 
 **什么内容**、**什么人**和**什么方式**是在讨论服务质量时需要回答的三个重要问题。
 
@@ -133,17 +133,17 @@ Microsoft Teams 支持各种终结点。 你可以在任何地方从 PC、平板
 
 通过持续评估并修正本文档中所述的方面，你可以降低其对用户体验的潜在负面影响。 在部署中遇到的大多数用户体验问题可以分为以下类别：
 
--   防火墙或代理配置不完整
+- 防火墙或代理配置不完整
 
--   Wi-Fi 覆盖范围较小
+- Wi-Fi 覆盖范围较小
 
--   带宽不足
+- 带宽不足
 
--   VPN
+- VPN
 
--   使用了未优化或内置的音频设备
+- 使用了未优化或内置的音频设备
 
--   子网或网络设备存在问题
+- 子网或网络设备存在问题
 
 《体验质量评审指南》主要指导如何将通话质量仪表板 (CQD) 作为主要工具进行在线使用来报告和调查所述的每个方面，且重点在音频方面，以最大限度地提高采用率和作用。 为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。
 
@@ -151,7 +151,7 @@ Microsoft Teams 支持各种终结点。 你可以在任何地方从 PC、平板
 
 《体验质量评审指南》位于[此处](https://aka.ms/qerguide)。
 
-## <a name="plan-for-network-quality"></a>规划网络质量 
+## <a name="plan-for-network-quality"></a>规划网络质量
 
 下面主要介绍如何规划网络质量。
 
@@ -223,7 +223,7 @@ QoS 实施应包括网络的多个方面，从终结点一直到出口点，以�
 
 [Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)一文提供了为 Microsoft Teams 打开防火墙的完整指导。
 
-打开防火墙后，可以使用 [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) 验证云语音功能的连接性。
+打开防火墙之后，您可以使用 [Microsoft 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885) 验证云语音功能的连接。
 
 > [!IMPORTANT]
 > Microsoft Office 365 IP 和 URL 将随时间变化。 在服务管理规划中，务必要确保具有可操作的流程，以及一个小组负责监控 [Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)以及相应地进行更新。
@@ -250,13 +250,13 @@ VPN 为许多组织提供很有用的服务。 遗憾的是，它们通常未设
 
 可从几个因素来优化 Wi-Fi 网络。
 
--   实施 QoS 或 Wi-Fi 多媒体 (WMM) 以确保通过 Wi-Fi 网络的媒体流量相应地得到优先处理。
+- 实施 QoS 或 Wi-Fi 多媒体 (WMM) 以确保通过 Wi-Fi 网络的媒体流量相应地得到优先处理。
 
--   规划和优化 Wi-Fi 频带和接入点位置。 2.4 GHz 范围可以根据接入点位置提供合乎需要的体验，但接入点通常受该范围内运行的使用者其他设备的影响。 5 GHz 范围因其密度范围更适合实时媒体，但需要更多接入点以获取足够的覆盖范围。 此外，终结点还需要相应地支持该范围并配置为利用这些频带。
+- 规划和优化 Wi-Fi 频带和接入点位置。 2.4 GHz 范围可以根据接入点位置提供合乎需要的体验，但接入点通常受该范围内运行的使用者其他设备的影响。 5 GHz 范围因其密度范围更适合实时媒体，但需要更多接入点以获取足够的覆盖范围。 此外，终结点还需要相应地支持该范围并配置为利用这些频带。
 
--   如果部署了双频 Wi-Fi 网络，请考虑实施频带切换。 频带切换技术由 Wi-Fi 供应商实施，以促使双频客户端使用 5 GHz 范围。
+- 如果部署了双频 Wi-Fi 网络，请考虑实施频带切换。 频带切换技术由 Wi-Fi 供应商实施，以促使双频客户端使用 5 GHz 范围。
 
--   频道重叠 - 同一频道的多个接入点太靠近时，它们可能会导致信号重叠并无意地竞争，从而导致用户体验很差。 请确保频道上相邻的接入点不会重叠。
+- 频道重叠 - 同一频道的多个接入点太靠近时，它们可能会导致信号重叠并无意地竞争，从而导致用户体验很差。 请确保频道上相邻的接入点不会重叠。
 
 每个无线供应商都有自己的无线解决方案部署建议。 建议你咨询你的供应商了解具体指导。
 
@@ -340,7 +340,7 @@ Microsoft Teams 的主要优势之一是客户端会自动保持最新。 PC 和
 下表概述了规划活动，并提供相关内容链接。
 
 | 区域 | 详细信息 | 参考 |
-|-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---|---|---|
 | 规划服务管理 | 进行可操作的角色映射操作 <br/> 负责团队的签字认可 <br/> 角色就绪 | [《操作指南》](1-drive-value-operate-my-service.md) |
 | | 指定质量支持者 <br/> 质量支持者就绪| [了解 CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [《体验质量评审指南》](https://aka.ms/qerguide) |
 | | 安装质量体验评审模板 <br/> 上载构建文件 | [QERLite 模板](https://aka.ms/qertemplates) <br/> [上载构建信息](turning-on-and-using-call-quality-dashboard.md)|
@@ -348,7 +348,7 @@ Microsoft Teams 的主要优势之一是客户端会自动保持最新。 PC 和
 | | 实施 QoS | [Microsoft Teams 中的服务质量](qos-in-teams.md) |
 | | 绕过代理服务器 | [代理指导](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
 | | 实施拆分通道 VPN | [VPN 拆分通道指导](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
-| | 为实时媒体优化 Wi-Fi 网络  | 咨询第三方供应商 |
+| | 为实时媒体优化 Wi-Fi 网络 | 咨询第三方供应商 |
 | | 实施本地 Internet 出口 | [本地 Internet 出口](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
 | | 实施网络连接 <br/> 验证网络连接 | [Office 365 URL 和 IP 地址](https://aka.ms/o365ips) |
 | | | [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) |

@@ -1,5 +1,5 @@
 ---
-title: 将用户从内部部署移动到团队
+title: 将用户从业务服务器 2019年的 Skype 移至团队
 ms.author: crowe
 author: CarolynRowe
 manager: serdars--
@@ -10,19 +10,19 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 摘要： 了解如何迁移用户设置并将用户移动到团队。
-ms.openlocfilehash: 6bee0562b38ce3119306e23b11ea50ebdb8ac3e9
-ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
+ms.openlocfilehash: 75af7109de60c3d978914585105e4d2fbaad9302
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27244030"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29348911"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>将用户从内部部署移动到团队
 
 当用户移从本地至仅团队时，用户的 Skype 商业主页移从本地至联机和该用户分配 TeamsUpgradePolicy 与 mode = TeamsOnly。  用户移动后从内部部署到 TeamsOnly 模式：
 
 - 所有传入呼叫和 （是否从 Skype 发送适用于商务或团队） 聊天从其他用户，将位于用户的工作组客户端中。
-- 用户将能够与其他用户 （是否联机或本地） for Business 使用 Skype 的互操作。 
+- 用户将能够与其他用户 （是否联机或本地） for Business 使用 Skype 的互操作。
 - 用户将能够与联盟组织中的用户进行通信。
 - 该用户安排的新会议是团队会议。
 - 用户仍可以加入任何 Skype 业务会议。
@@ -36,8 +36,8 @@ ms.locfileid: "27244030"
 有两种方法将用户从本地移动到团队：
 
 - 如果您正在使用版本早于 Skype 业务服务器 2015 CU8，移动需要两个步骤 （其中均可编制脚本完成一起作为单独的步骤，如果需要）：
-    - [将用户从业务业务 online Skype （本地） 服务器的 Skype 移动](move-users-from-on-premises-to-skype-for-business-online.md)。
-    - 一旦用户驻留在 Skype 的在线，业务分配模式的用户 TeamsUpgradePolicy = TeamsOnly。 若要授予 TeamsOnly 模式，请从业务 Online PowerShell 窗口 Skype 运行以下 cmdlet:`Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
+  - [将用户从业务业务 online Skype （本地） 服务器的 Skype 移动](move-users-from-on-premises-to-skype-for-business-online.md)。
+  - 一旦用户驻留在 Skype 的在线，业务分配模式的用户 TeamsUpgradePolicy = TeamsOnly。 若要授予 TeamsOnly 模式，请从业务 Online PowerShell 窗口 Skype 运行以下 cmdlet:`Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
 - 如果您有从 Skype 的业务服务器 2015 CU8 或更高版本的管理工具，您可以使用上面的方法或可以如下所述的一个步骤中此移动。 此外，您可以选择提供内业务客户端之前将其移至仅团队 Skype 通知以及 （可选） 已由业务客户端 Skype 以无提示方式下载团队客户。
 
 ## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>将直接从 for Business 的 Skype 本地用户移至仅团队
@@ -68,13 +68,13 @@ ms.locfileid: "27244030"
 
 ### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>将移动到团队 Skype 用于业务 Server Control Panel
 
-1.  打开业务服务器控件 Skype 面板应用程序。
-2.  在左侧导航窗格中，选择**用户**。
-3.  使用**查找**来查找您想要将移动到团队的用户。
-4.  选择的用户，，然后，从列表上方的**操作**下拉列表中选择**移动到团队的所选的用户**。
-5.  在向导中，单击**下一步**。
-6.  如果出现提示，登录到 Office 365 帐户以。 onmicrosoft.com 和具有足够的权限。
-7.  单击**下一步**，然后**下**一次将用户移动。
+1. 打开业务服务器控件 Skype 面板应用程序。
+2. 在左侧导航窗格中，选择**用户**。
+3. 使用**查找**来查找您想要将移动到团队的用户。
+4. 选择的用户，，然后，从列表上方的**操作**下拉列表中选择**移动到团队的所选的用户**。
+5. 在向导中，单击**下一步**。
+6. 如果出现提示，登录到 Office 365 帐户以。 onmicrosoft.com 和具有足够的权限。
+7. 单击**下一步**，然后**下**一次将用户移动。
 8. 请注意，顶部的主要控制面板中的应用程序，不向导提供了有关成功或失败状态邮件。
 
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>通知您 Skype 业务内部部署用户的即将开始移动到团队
@@ -86,7 +86,7 @@ ms.locfileid: "27244030"
 若要通知他们会很快将升级到团队的内部部署用户，请创建 TeamsUpgradePolicy 的新实例与 NotifySfBUsers = true。 然后将该策略分配给您想要通知，通过直接向用户分配策略或通过策略设置在站点、 池或全局级别的用户。 以下 cmdlet 创建并授予用户级别策略：
 
 ```
-New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true 
+New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true
 Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNotifications
 ```
 
@@ -95,7 +95,6 @@ Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNoti
 `New-CsTeamsUpgradeConfiguration -Identity “site:redmond1”`
 
 默认情况下 DownloadTeams 的值为 True;但是，就*只*适用如果 NotifySfbUser 给定用户 = True。
-
 
 ## <a name="see-also"></a>另请参阅
 

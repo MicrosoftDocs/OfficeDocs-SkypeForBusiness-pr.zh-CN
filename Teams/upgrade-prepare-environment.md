@@ -1,9 +1,8 @@
 ---
-title: 准备您的环境升级从 Skype for Business 到 Microsoft 团队的 Microsoft 团队
+title: 准备环境以进行升级从 Skype 业务到团队
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 026bc13c5f86a07fafa721abbe1d95dcff53ff13
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c59ce73f4cff16c042753a69b4d14aa79896ebe0
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015618"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349401"
 ---
 ![升级旅程，重点强调的技术的准备阶段的阶段](media/upgrade-banner-tech-readiness.png "升级旅程，重点强调的技术的准备阶段的阶段")
 
 本文是您升级旅程，与用户准备阶段并行完成的活动的技术的准备阶段的一部分。 在继续之前，确认您已完成从以前的阶段的这些活动：
 
--   [登记项目利益干系人](upgrade-enlist-stakeholders.md)
--   [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
--   [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
--   [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [登记项目利益干系人](upgrade-enlist-stakeholders.md)
+- [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
+- [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
+- [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>准备升级到团队环境
 
@@ -36,8 +35,8 @@ ms.locfileid: "25015618"
 
 完成与您的用户准备情况准备并行的这些活动：
 
--   [准备您的 IT 员工](upgrade-prepare-IT-pros.md)，以帮助确保拥有所需的成功升级旅程什么。
--   确认环境满足所有[先决条件](upgrade-plan-journey-prerequisites.md)，并了解 Office 365 服务和团队之间的依赖关系。
--   通过使用示例调查表确认贵组织的就绪性将要向工作组成功升级旅程执行环境发现[评估您的环境](upgrade-plan-journey-evaluate-environment.md)。
--   [准备您的网络](upgrade-prepare-environment-prepare-network.md)规划、 准备，并使您的网络任何所需的补救步骤以支持团队工作负载。
--   使用入职培训清单以确保您的团队配置已准备好支持从 for Business 的 Skype 的用户迁移到团队的推出[准备您的服务](upgrade-prepare-environment-prepare-service.md)。
+- [准备您的 IT 员工](upgrade-prepare-IT-pros.md)，以帮助确保拥有所需的成功升级旅程什么。
+- 确认环境满足所有[先决条件](upgrade-plan-journey-prerequisites.md)，并了解 Office 365 服务和团队之间的依赖关系。
+- 通过使用示例调查表确认贵组织的就绪性将要向工作组成功升级旅程执行环境发现[评估您的环境](upgrade-plan-journey-evaluate-environment.md)。
+- [准备您的网络](upgrade-prepare-environment-prepare-network.md)规划、 准备，并使您的网络任何所需的补救步骤以支持团队工作负载。
+- 使用入职培训清单以确保您的团队配置已准备好支持从 for Business 的 Skype 的用户迁移到团队的推出[准备您的服务](upgrade-prepare-environment-prepare-service.md)。

@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 中的新增功能
+title: What's new in Business Server 2019 的 Skype |功能
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,14 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要： 这些功能是新的业务服务器 2019 Skype 中。
-ms.openlocfilehash: b0a7040b0d63866bffd2e86a68a7447463485b1e
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 044901b134c71c1cae004f9930bedeae0057578d
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561572"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29348882"
 ---
-# <a name="whats-in-skype-for-business-server-2019"></a>什么是 Business server 2019 Skype 中 
+# <a name="whats-in-skype-for-business-server-2019"></a>什么是 Business server 2019 Skype 中
 
 **摘要：** 阅读本主题可了解业务服务器 2019 Skype 中的新功能。  
 
@@ -26,13 +26,13 @@ ms.locfileid: "26561572"
 - 调用数据连接器
 - 并行迁移
 
-## <a name="unified-messaging-services-cloud-voicemail"></a>统一消息服务： 云语音邮件 
+## <a name="unified-messaging-services-cloud-voicemail"></a>统一消息服务： 云语音邮件
 
 Exchange UM 仍可在 Skype 的业务服务器 2019年与 Exchange 2013 或 Exchange 2016 集成 for Business 2019 Skype 时。 由于 Exchange 2019 中支持的变化，Exchange UM 集成正在注销 emphasised 支持云语音邮件和云自动助理功能。  
 
-云语音邮件使您的业务 2019年用户 #x 2014年; 它们驻留在本地或联机 & #x 2014; Microsoft 云具有相同的语音邮件服务的访问权限的所有 Skype。 云语音邮件的本地和联机用户提供以下好处：
+云语音邮件使您的业务 2019 users& #x 2014; 的所有 Skype 是否它们驻留在内部部署或 online& #x 2014; Microsoft 云有权访问相同的语音邮件服务。 云语音邮件的本地和联机用户提供以下好处：
 
-- 使用适用于业务联机、 团队或 Outlook 客户端 Skype 其 Exchange 邮箱中的语音邮件访问 
+- 使用适用于业务联机、 团队或 Outlook 客户端 Skype 其 Exchange 邮箱中的语音邮件访问
 - 能够使用基于 web 的门户管理其语音邮件选项
 
 有关详细信息，请参阅[规划云语音邮件服务](hybrid/plan-cloud-voicemail.md)和[Plan for Business Server 和 Exchange Server 迁移的 Skype](hybrid/plan-um-migration.md) 。
@@ -45,7 +45,7 @@ Exchange UM 仍可在 Skype 的业务服务器 2019年与 Exchange 2013 或 Exch
 
 - 跨 Microsoft 团队、 业务 online Skype 和 Skype 业务 server 监视您的用户体验。
 - 查看和解决问题跨网络
-- 为呼叫 Analytics 分配支持人员和管理员角色，以便可以为帮助台工作者可以查看和解决其责任范围提供强大功能。 
+- 为呼叫 Analytics 分配支持人员和管理员角色，以便可以为帮助台工作者可以查看和解决其责任范围提供强大功能。
 
 有关详细信息，请参阅[规划呼叫数据连接器](hybrid/plan-call-data-connector.md)。
 

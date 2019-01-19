@@ -1,9 +1,8 @@
 ---
-title: 从业务在本地部署 Skype 升级到团队的 Microsoft 团队
+title: 为业务内部部署到的 Microsoft 团队升级 Skype |部署 |Lync
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,25 +13,24 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd0d0f1536f509f2cdc9e379e398168f86d9b514
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5628b0bb382ef12580bb7bab12dca13e288fead7
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016778"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349332"
 ---
 ![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
 
 本文是您升级旅程的不同阶段提供部署和实施的一部分。 在继续之前，确认您已完成以下活动：
 
--   [登记项目利益干系人](upgrade-enlist-stakeholders.md)
--   [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
--   [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
--   [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
--   [准备您的环境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
--   [准备您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
--   [执行试验](https://aka.ms/SkypeToTeams-Pilot)
-
+- [登记项目利益干系人](upgrade-enlist-stakeholders.md)
+- [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
+- [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
+- [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [准备您的环境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [准备您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
+- [执行试验](https://aka.ms/SkypeToTeams-Pilot)
 
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>从业务在本地部署 Skype 升级到团队
 
@@ -49,7 +47,7 @@ ms.locfileid: "25016778"
 
 ## <a name="step-2-move-users-to-skype-for-business-online"></a>步骤 2： 将用户移动到业务 online Skype
 
-在您完成混合安装程序后，将用户移至 Skype 中，为业务 Online。 
+在您完成混合安装程序后，将用户移至 Skype 中，为业务 Online。
 
 有关详细信息，请参阅[移动用户从本地到业务 online Skype](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
 

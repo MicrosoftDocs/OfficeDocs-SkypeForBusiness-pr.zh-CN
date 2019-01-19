@@ -1,9 +1,8 @@
 ---
-title: 示例电子邮件和调查的基本升级的清单中的 Microsoft 团队
+title: Microsoft 团队转换电子邮件和调查 |基本的升级
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf684ff7b6d2b8470496276664e95b1556377a85
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 43d2df58bef38b65470791b40948170a9cd54374
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014320"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349442"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>示例电子邮件和调查的基本升级通信
 
@@ -44,6 +43,7 @@ Microsoft has indicated that Teams now has key capabilities that meet our commun
 
 Microsoft has provided an upgrade checklist outlining the essential tasks we should take to facilitate this transition. If you’re listed on the To line, you’re a key stakeholder in executing a successful transition to Teams and I may be reaching out for assistance. In the interim, let me know if you have any questions.
 ````
+
 [返回到步骤 1](upgrade-basic.md#step-1)
 
 <a name="step-4-email"></a>
@@ -67,8 +67,8 @@ Our official transition to Teams is set for <<X date>>, but your journey starts 
 
 CALL TO ACTION: Get started with Teams today
 
--   View this [Introducing Microsoft Teams video](https://teamsdemo.office.com/)
--   Follow these [Quick Start](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d) steps to send your first chat in Teams
+- View this [Introducing Microsoft Teams video](https://teamsdemo.office.com/)
+- Follow these [Quick Start](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d) steps to send your first chat in Teams
 
 If you have questions or need help, please reach out to <<insert company support information>>.
 ````
@@ -91,9 +91,9 @@ We’re just <<X weeks/days>> away from the transition to Microsoft Teams and wa
 
 CALL TO ACTION: Make your next online meeting a Teams meeting
 
--   Follow [these steps](https://support.office.com/article/get-your-team-together-for-better-meetings-71e3858c-7e5f-4ad7-bb67-c77d80237e96) to host your first Teams meeting.
--   Begin rescheduling recurring Skype for Business meetings in Teams.
--   Make every new online meeting a Teams meeting.
+- Follow [these steps](https://support.office.com/article/get-your-team-together-for-better-meetings-71e3858c-7e5f-4ad7-bb67-c77d80237e96) to host your first Teams meeting.
+- Begin rescheduling recurring Skype for Business meetings in Teams.
+- Make every new online meeting a Teams meeting.
 
 What will happen to my Skype for Business meetings after we move to Teams?
 
@@ -121,16 +121,16 @@ PLEASE READ: Skype for Business is now Microsoft Teams
 ````
 Let me be the first to officially welcome you to Microsoft Teams. Your Skype for Business client will be decommissioned, and Teams is your default application for chat and meetings. In case you missed it, let’s review what Microsoft Teams can do for you:
 
--   Offers familiar Skype for Business chat and meeting features to maintain a consistent feel.
--   Simplifies communication with a centralized contact list and persistent chat tracking for quick access to your conversations.
--   Saves time by providing a single location for your project notes, Office documents, team members, conversations AND meetings.
--   Alleviates the frustration of trying to find that lost email attachment, by storing and accessing files in one place
--   Makes communication more fun and personal with customizable memes and Giphys.
+- Offers familiar Skype for Business chat and meeting features to maintain a consistent feel.
+- Simplifies communication with a centralized contact list and persistent chat tracking for quick access to your conversations.
+- Saves time by providing a single location for your project notes, Office documents, team members, conversations AND meetings.
+- Alleviates the frustration of trying to find that lost email attachment, by storing and accessing files in one place
+- Makes communication more fun and personal with customizable memes and Giphys.
 
 CALL TO ACTION: If you need assistance getting started in Teams:
 
--   View this Introducing Microsoft Teams video: https://teamsdemo.office.com/
--   Visit the Office 365 Training Center, or simply ask T-Bot.
+- View this Introducing Microsoft Teams video: https://teamsdemo.office.com/
+- Visit the Office 365 Training Center, or simply ask T-Bot.
 
 Should you have questions about Teams, contact <<insert alias or contact info>>.
 
@@ -144,7 +144,6 @@ Regards,
 <a name="step-9-email"></a>
 
 ### <a name="check-in-email-for-step-9"></a>签入电子邮件，步骤 9
-
 
 主题行：
 
@@ -181,8 +180,8 @@ Now that you’re up and running with Microsoft Teams, learn what else Teams can
 
 CALL TO ACTION: Give teams and channels a try
 
--   Learn about [teams and channels](https://support.office.com/article/learn-about-teams-and-channels-5e4fd702-85f5-48d7-ae14-98821a1f90d3).
--   [Create a team](https://support.office.com/article/video-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46) for a current project or initiative.
+- Learn about [teams and channels](https://support.office.com/article/learn-about-teams-and-channels-5e4fd702-85f5-48d7-ae14-98821a1f90d3).
+- [Create a team](https://support.office.com/article/video-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46) for a current project or initiative.
 
 Tip: The best use of the Teams workspace comes when the right people join the right team. Work with your manager or colleagues to optimize the use of teams and channels.
 
@@ -199,32 +198,30 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 指示您是在工作组和是否想要了解详细信息的一个或多个活动中执行以下活动熟练程度。
 
-|  &nbsp;  | 非常熟练 | 有些熟练 | 根本不熟练 | 要了解详细信息 | 不适用 | 不确定/不熟悉 |   |   |   |    |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|------------------|--------------------|--------------------|-----|---------------------|---|---|---|----|
-| 使用小组 IM/聊天与其他人                                                                                                                     |              |                  |                    |                    |     |                     |   |   |   |    |
-| 团队用于联机会议                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
-| 使用团队协作 （团队和通道）                                                                                                          |              |                  |                    |                    |     |                     |   |   |   |    |
-| 在我的移动设备上使用团队                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
+| &nbsp; | 非常熟练 | 有些熟练 | 根本不熟练 | 要了解详细信息 | 不适用 | 不确定/不熟悉 | | | | |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 使用小组 IM/聊天与其他人 | | | | | | | | | | |
+| 团队用于联机会议 | | | | | | | | | | |
+| 使用团队协作 （团队和通道） | | | | | | | | | | |
+| 在我的移动设备上使用团队 | | | | | | | | | | |
 
-
-| **内容、 如果任何内容，阻止您使用的 Microsoft 团队？**   | **选择所有适用项** |
-|--------|-------|
-| 我从未听说有关该产品    | & #9744; |
-| 我没有我的计算机上安装   |  & #9744;  |
-| 我不知道如何，它会受益我使用的人员   |  & #9744;  |
-| 我还没有时间评估我需求   |  & #9744;  |
-| 我已经在使用满足我的沟通和协作需求其他应用程序   |  & #9744;  |
-| 我需要经过培训才能使用该   |  & #9744;  |
-| 我已尝试使用它，但有技术问题或错误的体验    |  & #9744;   |
-| 我们支持人员无法帮助我我问题   | & #9744;   |
-| 执行任何操作，我当前使用它    |  & #9744;  |
-| 其他 （请指定）     | & #9744;   |
-
+| **内容、 如果任何内容，阻止您使用的 Microsoft 团队？** | **选择所有适用项** |
+|---|---|
+| 我从未听说有关该产品 | & #9744; |
+| 我没有我的计算机上安装 | & #9744; |
+| 我不知道如何，它会受益我使用的人员 | & #9744; |
+| 我还没有时间评估我需求 | & #9744; |
+| 我已经在使用满足我的沟通和协作需求其他应用程序 | & #9744; |
+| 我需要经过培训才能使用该 | & #9744; |
+| 我已尝试使用它，但有技术问题或错误的体验 | & #9744; |
+| 我们支持人员无法帮助我我问题 | & #9744; |
+| 执行任何操作，我当前使用它 | & #9744; |
+| 其他 （请指定） | & #9744; |
 
 **可能性有多大？ 您向朋友/同事推荐的 Microsoft 团队(0 = 不根本可能...10 非常可能 =)**
 
-| 0      | 1            | 2                | 3                  | 4                  | 5   | 6                   | 7 | 8 | 9 | 10 |
-| ------| -----  | ---------|-------|-----|-------|------|------|------|------|------|
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
+| ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 
 [返回到步骤 9](upgrade-basic.md#step-9)

@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 的 Microsoft 团队升级
+title: 升级到 Microsoft 团队业务的 Skype
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,14 +13,14 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ac410d5248149641cb29461bb6c0f73e6cbfb8d
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: bfe9fb437be2df1c069c79d3c5281dbb121b4204
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201346"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349074"
 ---
-# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype for Business 的 Microsoft 团队升级
+# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype for Business 到 Microsoft Teams 升级
 
 支持 Microsoft 的智能 communications 远景，Microsoft 团队是中心点，用于团队合作，聊天、 会议、 呼叫、 协作、 应用程序集成和文件存储在一起。 为业务客户现有 Skype，邀请您升级到 Microsoft 团队，以体验此全套中的单个客户端体验的通信和协作功能。
 
@@ -30,10 +29,10 @@ ms.locfileid: "27201346"
 查看团队升级旅程，包括核心概念、 框架和升级途径为 for Business Skype 简介本[概述](https://aka.ms/UpgradeOverview)。
 
 > [!Tip]
-> 观看下面的会话了解从 for Business 的 Skype 升级到 Microsoft 团队： 
+> 观看以下视频可了解从 Skype for Business 到 Microsoft Teams 的升级旅程：
 > - [升级简介](https://aka.ms/teams-upgrade-intro)
 > - [规划升级](https://aka.ms/teams-upgrade-plan)
-> - [共存及互操作性](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)
 > - [管理员体验](https://aka.ms/teams-upgrade-admin)
 
 ## <a name="upgrade-journey-framework"></a>升级旅程框架
@@ -51,7 +50,6 @@ ms.locfileid: "27201346"
 
 选择下列选项之一，或浏览同时为您确定最佳的路径。 详细信息将联机随时间推移，因此检查后，您的组织将继续其迁移到团队。 为了帮助我们更好地了解您的升级路径以及哪些其他指导信息可能有用，请花些时间<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">共享您的反馈</a>。
 
-
 <div class="mx-tableFixed">
 <table>
 <tbody>
@@ -60,7 +58,6 @@ ms.locfileid: "27201346"
 <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-pro"><img src="media/upgrade-to-teams-upgrade-pro-icon.png" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization."></a></td></tr>
 </tbody></table>
 </div>
-
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

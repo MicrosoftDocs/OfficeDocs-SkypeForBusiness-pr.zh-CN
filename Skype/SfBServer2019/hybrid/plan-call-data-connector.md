@@ -1,5 +1,5 @@
 ---
-title: 规划呼叫数据连接器
+title: 规划呼叫数据连接器 |呼叫质量仪表板监控混合分析
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +9,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 使用业务联机遥测工具的 Skype 要监视的本地实现在混合方案的概述。
-ms.openlocfilehash: d704f23f9b8260e8d755c4d1f0f48da927859ba1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6bcf1e26ca005a30e4f1c940f655a3277e18001e
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530533"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349534"
 ---
 # <a name="plan-call-data-connector"></a>规划呼叫数据连接器
 
 ## <a name="overview"></a>概述
+
 本主题介绍优点、 规划注意事项和 Skype 实现业务服务器调用数据连接器的要求。 配置呼叫数据连接器的详细信息，请参阅[配置呼叫数据连接器](configure-call-data-connector.md)。
 
 > [!NOTE]
@@ -32,7 +33,7 @@ ms.locfileid: "26530533"
 
 - 查看和解决跨网络问题。
 
-- 为呼叫 Analytics 分配支持人员和管理员角色，以便可以为帮助台工作者可以查看和解决其责任范围提供强大功能。 
+- 为呼叫 Analytics 分配支持人员和管理员角色，以便可以为帮助台工作者可以查看和解决其责任范围提供强大功能。
 
 使用呼叫数据连接器，业务服务器 Skype 调用将数据推送到云服务，以便您可以利用业务联机呼叫分析 (CA) 和呼叫质量仪表板 (CQD) 的工具，Skype 下图中所示：
 
@@ -52,24 +53,23 @@ ms.locfileid: "26530533"
 
 ![SfB 云语音邮件](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-
 ## <a name="requirements"></a>要求
 
 以下要求假定您已有 Skype 业务服务器部署中支持的拓扑。  有关部署 Skype 业务服务器和支持的拓扑的详细信息，请参阅[拓扑基础知识](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics)。 若要配置呼叫数据连接器，您必须：
 
-- 启用混合连接性。 如果您已有 Skype 业务部署的服务器，并且您想要启用呼叫数据连接器，您必须确保已设置您的本地和联机环境之间的混合连接。 此有时也称为拆分域配置。 
+- 启用混合连接性。 如果您已有 Skype 业务部署的服务器，并且您想要启用呼叫数据连接器，您必须确保已设置您的本地和联机环境之间的混合连接。 此有时也称为拆分域配置。
 
    有关详细信息，请参阅[规划之间 Skype Business Server 和 Office 365 的混合连接性](plan-hybrid-connectivity.md)和[Skype Business Server 和 Office 365 之间配置混合连接性](configure-hybrid-connectivity.md)。
 
--  对 Office 365 租户，并确保您拥有启用以下角色：
+- 对 Office 365 租户，并确保您拥有启用以下角色：
 
-   - Skype 的业务服务器管理员 
-   - Office 365 全局管理员 
+  - Skype 的业务服务器管理员
+  - Office 365 全局管理员
 
 - 如果您未，打开呼叫质量仪表板[打开和使用的 Microsoft 团队和 Skype 业务 online 呼叫质量仪表板](/microsoftteams/turning-on-and-using-call-quality-dashboard)中所述。
- 
-- 与本地 LCSCdr 和 QoEMetrics 数据库启用监控的前端池。 没有它，调用数据连接器不具有要使用的度量数据。 
- 
+
+- 与本地 LCSCdr 和 QoEMetrics 数据库启用监控的前端池。 没有它，调用数据连接器不具有要使用的度量数据。
+
 > [!IMPORTANT]
 > 如果在前端池上没有启用监控，将无法正常呼叫数据连接器。
 

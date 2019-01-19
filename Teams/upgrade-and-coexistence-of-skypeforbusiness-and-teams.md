@@ -1,9 +1,8 @@
 ---
-title: 选择升级旅程 - Microsoft Teams
+title: 从 for Business 的 Skype 的 Microsoft 团队升级 |模式共存
 author: lsomi
 ms.author: lsomi
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen, bjwhalen
@@ -14,20 +13,20 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdf8ee99b276603329682ce2a1749f946d209fbf
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 9b625cbd633ad0d88c976356861b7c90e93c7a13
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214486"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349082"
 ---
 ![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
 
 本文是您升级旅程的不同阶段提供部署和实施的一部分。 在继续之前，确认您已完成以下活动：
 
--   [登记项目利益干系人](upgrade-enlist-stakeholders.md)
--   [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
--   [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
+- [登记项目利益干系人](upgrade-enlist-stakeholders.md)
+- [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
+- [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
 
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>向工作组从 Skype for Business 中选择您升级旅程
 
@@ -35,8 +34,9 @@ ms.locfileid: "27214486"
 
 > [!IMPORTANT]
 > 本文概述了使您可以管理哪些形式 Skype for Business 中的各种模式和团队是对用户可用。 与任何部署，我们强烈建议您对[试用您预期的计划](pilot-essentials.md)与所选组的用户之前将您的组织升级到团队。 请记住，引入新技术可以是用户的问题。 花时间评估用户准备和实现通信和培训计划之前实现任何此处列出的模式。
- 
+
 ## <a name="upgrade-journey-building-blocks"></a>升级旅程构建基块
+
 正式准备您的组织向工作组其旅程，您需要开始规划将最终让组织完全作为您的唯一的通信和协作解决方案利用团队的升级方案。
 
 为了帮助指导您的决策过程，熟悉的各种模式、 概念和术语相关从 for Business 的 Skype 升级到团队。 有关详细信息，请参阅[Microsoft 团队和 Skype 的业务共存及互操作性](https://aka.ms/SkypeToTeams-Coexist)
@@ -49,8 +49,8 @@ ms.locfileid: "27214486"
 
 下表比较共存和升级模式。
 
-|模式  |情况  |建议的使用  |优点  |注意事项  |
-|---------|---------|---------|---------|---------|
+|模式 |情况 |建议的使用 |优点 |注意事项 |
+|---|---|---|---|---|
 |群岛 |较小或简单 Skype 业务部署<br><br>功能以及愿意管理一些短期复杂性将移动到团队可以更快 |尽可能快地转到的完整的团队体验<br><br>召开概念证明 (PoC) 的团队<br><br>建议采用 Skype 业务 online 的组织的升级路径 |简单运行<br><br>丰富的团队体验前期的所有功能 |要求良好的用户通信，以避免混淆情况和向团队的驱动器使用率<br><br>退出策略要求用户在开始升级到团队仅阶段之前已完全采用团队<br><br>中群岛模式; 用户没有互操作从工作组业务帐户的用户的 Skype 时没有联合身份验证还驻留在本地|
 |Skype for Business 使用团队协作 |Skype 业务部署团队 （例如，高级合规性） 未尚未满足的要求<br><br>长期需要和/或对业务的 Skype 承诺|快速开始团队应用首先重点组协作<br><br>要立即在 for Business 的 Skype 上保留所有统一的通信工作负荷<br><br>推荐作为起点用于组织部署 （或混合） 上启动从其旅程 Skype for Business|团队和 for Business 的 Skype 之间没有重叠的功能<br><br>即时消息对话和会议日程安排将位于 Skype for Business （绑定到呼叫）<br><br>与仅团队中的用户的互操作性|
 |Skype for Business with 团队协作和会议 |Skype 业务部署具有大量使用企业语音和团队呼叫未尚未满足的要求<br><br>长期需要和/或对业务的 Skype 承诺<br><br>可能正在使用第三方会议服务|快速启动团队应用超越组协作<br><br>提高用户的会议体验<br><br>建议用于部署组织希望充分利用团队会议之前正在准备好 （通常是由于企业语音的本地） 完全升级。 |没有重叠的功能<br><br>团队的优秀会议。 功能指南、 用户体验和跨平台、 质量和可靠性<br><br>"好一起使用"体验 for Business 的 Skype 和团队之间<br><br>互操作性仅团队中的用户。|即时消息和聊天将位于 Skype for Business （绑定到呼叫）|
@@ -58,18 +58,22 @@ ms.locfileid: "27214486"
 |Skype for Business 仅 |一些用户需要停留在 Skype for Business<br><br>|通过提供只有一个客户端使用的限制用户混淆情况<br><br>用户仍可以参与被邀请参加团队会议|继续满足当前只能够满足业务的 Skype 的业务要求<br><br>与仅团队中的用户的互操作性|互操作性仅支持基本聊天和调用 Skype 商业和团队之间的互操作的升级方案的桌面共享和多方聊天和呼叫|
 
 ## <a name="upgrade-journeys"></a>升级到达
+
 您可以从 for Business，或者联机 Skype 升级采取多个方法或内部部署，为团队：
-- 在直接升级过程中，可以首先评估和早期采用的一部分在**群岛**模式下部署旁 for Business 的 Skype 的团队和您用户然后升级到**团队仅**模式的快速停用 Skype 的从业务目标组织中的所有用户的的环境。 这是 Skype 业务联机客户的推荐的旅程，除非他们担心其用户将与具有两个工具进行相同的操作 （聊天，电话，会议安排） 相混淆。 
+
+- 在直接升级过程中，可以首先评估和早期采用的一部分在**群岛**模式下部署旁 for Business 的 Skype 的团队和您用户然后升级到**团队仅**模式的快速停用 Skype 的从业务目标组织中的所有用户的的环境。 这是 Skype 业务联机客户的推荐的旅程，除非他们担心其用户将与具有两个工具进行相同的操作 （聊天，电话，会议安排） 相混淆。
 - 逐步升级旅程传递到一组特定的用户 （也称为*群体*），具体取决于其通信和协作要求的特定共存和升级模式。 随时间推移，整个组织可以汇聚成团队仅使用和最终取代 for Business 的 Skype。 但是，如果您的组织有令人信服的业务原因保留 for Business 的 Skype — 例如依赖与业务线应用程序集成的统一通信托管 API UCMA 基于解决方案或信息隔离墙解决方案当前可用的 Skype for Business 仅或需要时间才能升级到**团队仅**复杂企业语音部署 — 同时适用于业务用户之一保留 Skype 升级一部分用户**仅团队**模式用户群的一部分的共存模式。 逐步升级旅程是推荐用于本地 （和混合） 方法客户使用团队协作共存模式启动与 Skype 的业务和移动从中为仅团队模式时的用户要求满足 (可能到Skype for Business 使用团队协作和会议共存模式)。
 
 > [!IMPORTANT]
 > 对于这两种类型的升级旅程，如果您的组织目前仅业务在本地部署 Skype 您需要开始规划在将用户升级到**团队仅**模式之前实施业务混合的 Skype。 这还有助于加快团队与互操作性。
+>
 > 使用[MyAdvisor](https://myadvisor.fasttrack.microsoft.com/)可指导您 Skype 业务混合实现。
 
 > [!NOTE]
 > **仅团队**模式需要业务 online 属于群体的用户将驻留在 Skype 和则需要以便于您的业务的本地部署的 Skype 和您 Skype 业务 Online 租户之间的混合关系Skype for Business 和团队之间的互操作性。 移动到 Skype 业务 online 必须完成的一部分群体他们正在升级为**仅团队**模式之前的用户。 Skype 的业务服务器 2019年和业务服务器 2015 CU8 更新的 Skype 可以简化升级到团队的内部部署用户通过管理到 Skype 业务 online 的迁移和升级到**团队仅**模式下一个步骤中的用户的机制.
 
 ### <a name="direct-upgrade-journey"></a>直接升级旅程
+
 下图说明了直接升级旅程。
 
 ![直接升级旅程的屏幕截图。 所有用户最初在群岛模式下，使用团队，然后转换到仅团队模式，与整个组织升级到团队的最终状态。](media/upgrade_journey_direct_upgrade.png)
@@ -77,6 +81,7 @@ ms.locfileid: "27214486"
 团队是部署到组织中的所有用户，并在**群岛**模式下配置。 当您的组织确定团队已准备好满足所有通信和协作需求、 通知用户和为**仅团队**模式对其进行升级。 此时，可以从环境停用 for Business 的 Skype。
 
 ### <a name="gradual-upgrade-journey"></a>逐步升级旅程
+
 下图说明了逐步升级旅程的示例。
 
 ![在逐步升级过程中，群体的用户最初使用团队群岛评估模式中，然后在各种升级早期采用，for Business 的 Skype 并排模式。 仅团队模式，而与 for Business 的 Skype 保持与团队协作和会议模式的一组用户向某些群体转换。](media/upgrade_journey_gradual_upgrade.png)
@@ -88,8 +93,6 @@ ms.locfileid: "27214486"
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul> 哪些升级旅程是适合贵组织的业务要求？<br><br></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul> 标识您当前的部署模型，使用的情况下，并为您的组织的主要注意事项将告知最适合您的组织迁移到团队。<br><br></ul></td></tr>
 </table>
-
-
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul> 升级方案是适用于您的组织？<br><br></ul></td></tr>

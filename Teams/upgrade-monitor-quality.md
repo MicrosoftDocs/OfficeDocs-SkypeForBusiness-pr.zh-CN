@@ -1,9 +1,8 @@
 ---
-title: 体验审阅指南-Microsoft 团队的质量
+title: 用户体验质量 |Microsoft 团队 |QoS |呼叫质量
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bf538dc4e68d3068d6ae0875ec916cdd1f8fd52
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 59acafa7555b793555b504b1555b0d6969a12b4b
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017982"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349316"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 
@@ -33,17 +32,17 @@ ms.locfileid: "25017982"
 
 通过不断地评估和补救指南中所述的区域，您可以减少他们可能会产生负面影响的用户体验。 在部署中遇到的大多数用户体验问题可以分为以下类别：
 
--   防火墙或代理配置不完整
+- 防火墙或代理配置不完整
 
--   Wi-Fi 覆盖范围较小
+- Wi-Fi 覆盖范围较小
 
--   带宽不足
+- 带宽不足
 
--   VPN
+- VPN
 
--   使用了未优化或内置的音频设备
+- 使用了未优化或内置的音频设备
 
--   子网或网络设备存在问题
+- 子网或网络设备存在问题
 
 使用作为主要工具，呼叫质量仪表板 (CQD) 联机报告和调查所述，重点音频，以最大限度地应用和影响每个区域重点用户体验质量审阅指南中提供的指南。 为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。
 

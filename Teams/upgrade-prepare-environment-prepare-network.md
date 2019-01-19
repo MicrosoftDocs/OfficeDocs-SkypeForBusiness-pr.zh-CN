@@ -1,9 +1,8 @@
 ---
-title: 准备网络以便升级到 Teams - Microsoft Teams
+title: 准备您的网络的 Microsoft 团队 | 端口防火墙要求
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51559257012fc134f2bad3b94a33aad8953b0bf2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a3eb4317954e619f58236c96a2cee035f2df75e0
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374338"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349510"
 ---
 ![升级过程的各个阶段，重点在技术就绪阶段](media/upgrade-banner-tech-readiness.png "升级过程的各个阶段，重点在技术就绪阶段")
 
 本文属于升级过程的技术就绪阶段，此阶段的活动与用户就绪阶段并行完成。 在继续操作之前，请确认你已完成前面各阶段的活动。
 
--   [已登记项目利益干系人](upgrade-enlist-stakeholders.md)
--   [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
--   [了解 Skype for Business 和 Teams 的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
--   [已选择升级过程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [已登记项目利益干系人](upgrade-enlist-stakeholders.md)
+- [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
+- [了解 Skype for Business 和 Teams 的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
+- [已选择升级过程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-your-network-for-upgrading-to-teams"></a>准备网络以便升级到 Teams
 
@@ -40,11 +39,11 @@ ms.locfileid: "25374338"
 
 在讨论要采取的步骤之前，务必要了解会影响 Teams 性能从而影响用户高兴度和满意度的因素。 以下三个主要风险方面会影响用户对网络质量的感受：
 
--   可用带宽不足
+- 可用带宽不足
 
--   防火墙和代理阻止程序
+- 防火墙和代理阻止程序
 
--   网络损伤，例如抖动和数据包丢失
+- 网络损伤，例如抖动和数据包丢失
 
 下面所述步骤将帮助你确定你的部署是否可能受其中任何因素的影响，以及帮助你找到解决方案。 如果无法准备网络，很可能会导致用户不满意以及代价高昂的临时修复。 通过为 Teams 准备你的网络以及让贵组织做好相应准备，你可以动态提高成功率。
 
@@ -59,16 +58,15 @@ ms.locfileid: "25374338"
 > [!IMPORTANT]
 > 如果未提供所需的带宽，Teams 中的媒体堆栈将降低音频/视频会话的质量以适应较低的可用带宽，因而会影响通话或会议的质量。 Teams 客户端在处理音频质量和视频质量时将尝试优先考虑音频质量。 因此，提供所需带宽非常重要。
 
-
-|活动  |下载带宽  |上载带宽  |通信流 |
-|---------|---------|---------|---------|
-|**对等音频呼叫**     |0.1 Mbps         |0.1 Mbps        |客户端 <> 客户端         |
-|**对等视频呼叫（全屏）**     |4 Mbps         |4 Mbps         |客户端 <> 客户端          |
-|**对等桌面共享（1920&#215;1080 分辨率）**     |4 Mbps         |4 Mbps         |客户端 <> 客户端          |
-|**两方会议**     |4 Mbps         |4 Mbps         |客户端 <> Office 365         |
-|**三方会议**     |8 Mbps         |6.5 Mbps         |客户端 <> Office 365           |
-|**四方会议**     |5.5 Mbps         |4 Mbps         |客户端 <> Office 365           |
-|**五方或更多方会议**     |6 Mbps         |1.5 Mbps         |客户端 <> Office 365           |
+|活动 |下载带宽 |上载带宽 |通信流 |
+|---|---|---|---|
+|**对等音频呼叫** |0.1 Mbps |0.1 Mbps |客户端 <> 客户端 |
+|**对等视频呼叫（全屏）** |4 Mbps |4 Mbps |客户端 <> 客户端 |
+|**对等桌面共享（1920&#215;1080 分辨率）** |4 Mbps |4 Mbps |客户端 <> 客户端 |
+|**两方会议** |4 Mbps |4 Mbps |客户端 <> Office 365 |
+|**三方会议** |8 Mbps |6.5 Mbps |客户端 <> Office 365 |
+|**四方会议** |5.5 Mbps |4 Mbps |客户端 <> Office 365 |
+|**五方或更多方会议** |6 Mbps |1.5 Mbps |客户端 <> Office 365 |
 
 ### <a name="local-internet-egress"></a>本地 Internet 出口
 
@@ -78,26 +76,23 @@ ms.locfileid: "25374338"
 
 优化指向 Microsoft 的全局网络的网络路径将会提高性能，并最终将为用户提供最佳体验。 有关更多详细信息，请参阅博客文章 [Getting the best connectivity and performance in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694)（在 Office 365 中获取最佳连接性和性能）。
 
-
 为了在 Microsoft Teams 中获得实时媒体方面的最佳体验，必须满足 Office 365 的网络连接要求。 有关详细信息，请参阅 [Skype for Business Online 的媒体质量和网络连接性能](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)。
 
 两个定义网络段（客户端到 Microsoft Edge 和客户边缘到 Microsoft Edge）必须满足以下要求：
 
-
-|**值**  |**客户端到 Microsoft Edge**  |**客户边缘到 Microsoft Edge**  |
-|---------|---------|---------|
-|**延迟（单向）**     |< 50 ms          |< 30 ms          |
-|**延迟（往返时间或 RTT）** |< 100 ms         |< 60 ms         |
-|**突发数据包丢失**    |< 10%，在任何 200 ms 时间间隔内         |< 1%，在任何 200 ms 时间间隔内         |
-|**数据包丢失**     |< 1%，在任何 15 s 时间间隔内          |< 0.1%，在任何 15 s 时间间隔内         |
-|**数据包中间间隔抖动**    |< 30 ms，在任何 15 s 时间间隔内         |< 15 ms，在任何 15 s 时间间隔内         |
-|**数据包重新排序**    |< 0.05% 无序数据包         |< 0.01% 无序数据包         |
+|**值** |**客户端到 Microsoft Edge** |**客户边缘到 Microsoft Edge** |
+|---|---|---|
+|**延迟（单向）** |< 50 ms |< 30 ms |
+|**延迟（往返时间或 RTT）** |< 100 ms |< 60 ms |
+|**突发数据包丢失** |< 10%，在任何 200 ms 时间间隔内 |< 1%，在任何 200 ms 时间间隔内 |
+|**数据包丢失** |< 1%，在任何 15 s 时间间隔内 |< 0.1%，在任何 15 s 时间间隔内 |
+|**数据包中间间隔抖动** |< 30 ms，在任何 15 s 时间间隔内 |< 15 ms，在任何 15 s 时间间隔内 |
+|**数据包重新排序** |< 0.05% 无序数据包 |< 0.01% 无序数据包 |
 
 要测试两个网段，你可以使用[网络评估工具](https://go.microsoft.com/fwlink/?linkid=855799)。 此工具可以直接部署在客户端 PC 上，也可以部署在连接到客户网络边缘的 PC 上。 此工具附带内容有限的文档，有关此工具用法的深度文档，请参阅此处：[网络就绪评估](https://go.microsoft.com/fwlink/?linkid=855800)。 通过进行此网络就绪评估，你可以验证你的网络是否为运行实时媒体应用（例如 Microsoft Teams）做好准备。
 
 > [!NOTE]
 > 对于希望成功部署 Skype for Business 的客户，同样建议进行此网络就绪评估。
-
 
 ### <a name="vpn"></a>VPN
 
@@ -113,13 +108,13 @@ VPN 为许多组织提供很有用的服务。 遗憾的是，它们通常未设
 
 可从几个因素来优化 Wi-Fi 网络：
 
--   实施 QoS 或 Wi-Fi 多媒体 (WMM) 以确保通过 Wi-Fi 网络的媒体流量相应地得到优先处理。
+- 实施 QoS 或 Wi-Fi 多媒体 (WMM) 以确保通过 Wi-Fi 网络的媒体流量相应地得到优先处理。
 
--   规划和优化 Wi-Fi 频带和接入点位置。 2.4 GHz 范围可以根据接入点位置提供合乎需要的体验，但接入点通常受该范围内运行的使用者其他设备的影响。 5 GHz 范围因其密度范围更适合实时媒体，但需要更多接入点以获取足够的覆盖范围。 此外，终结点还需要相应地支持该范围并配置为利用这些频带。
+- 规划和优化 Wi-Fi 频带和接入点位置。 2.4 GHz 范围可以根据接入点位置提供合乎需要的体验，但接入点通常受该范围内运行的使用者其他设备的影响。 5 GHz 范围因其密度范围更适合实时媒体，但需要更多接入点以获取足够的覆盖范围。 此外，终结点还需要相应地支持该范围并配置为利用这些频带。
 
--   如果部署了双频 Wi-Fi 网络，请考虑实施频带切换。 _频带切换_技术由 Wi-Fi 供应商实施，以促使双频客户端使用 5 GHz 范围。
+- 如果部署了双频 Wi-Fi 网络，请考虑实施频带切换。 _频带切换_技术由 Wi-Fi 供应商实施，以促使双频客户端使用 5 GHz 范围。
 
--   同一频道的多个接入点太靠近时，它们可能会导致信号重叠并无意地竞争，从而导致用户体验很差。 请确保频道上相邻的接入点不会重叠。
+- 同一频道的多个接入点太靠近时，它们可能会导致信号重叠并无意地竞争，从而导致用户体验很差。 请确保频道上相邻的接入点不会重叠。
 
 每个无线供应商都有自己的无线解决方案部署建议。 建议你咨询你的供应商了解具体指导。
 
@@ -138,6 +133,7 @@ Microsoft Teams 会连接到 Microsoft Online Services，因此需要 Internet �
 <!--ENDOFSECTION-->
 
 ## <a name="additional-network-considerations"></a>其他网络考虑事项
+
 ### <a name="external-name-resolution"></a>外部名称解析
 
 确保运行 Teams 客户端的所有客户端计算机都可以解析外部 DNS 查询以发现 Office 365 提供的服务。
@@ -172,17 +168,17 @@ Microsoft Teams 会连接到 Microsoft Online Services，因此需要 Internet �
 
 为了提供用户满意度，应尽量减少你网络上的任何损伤。 最常见的网络损伤时延迟、数据包丢失和抖动：
 
--   **延迟**：这是 IP 数据包从网络上的 A 点传输到 B 点所用时间。 此网络传播延迟实际上与两点之间的物理距离和光速（包括中间各种路由器承担的额外开销）相关。 延迟以单向或往返时间度量。
+- **延迟**：这是 IP 数据包从网络上的 A 点传输到 B 点所用时间。 此网络传播延迟实际上与两点之间的物理距离和光速（包括中间各种路由器承担的额外开销）相关。 延迟以单向或往返时间度量。
 
--   **数据包丢失**：通常定义为在给定时间范围内丢失的数据包百分比。 数据包丢失直接影响音频质量 - 从几乎没有影响的丢失的小型单个数据包到导致音频完全切断的接连式突发丢失。
+- **数据包丢失**：通常定义为在给定时间范围内丢失的数据包百分比。 数据包丢失直接影响音频质量 - 从几乎没有影响的丢失的小型单个数据包到导致音频完全切断的接连式突发丢失。
 
--   **数据包中间间隔抖动或简单抖动**：这是连续数据包之间的延迟平均变化量。 大多数新式 VoIP 软件（包括 Skype for Business）可以通过缓冲适应某些程度的抖动。 仅当抖动超过缓冲量时，参与者才会注意到抖动效果。
+- **数据包中间间隔抖动或简单抖动**：这是连续数据包之间的延迟平均变化量。 大多数新式 VoIP 软件（包括 Skype for Business）可以通过缓冲适应某些程度的抖动。 仅当抖动超过缓冲量时，参与者才会注意到抖动效果。
 
 [媒体质量和网络连接性能](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)中介绍了这些损伤的最大值。 测试这些损伤时，我们会区分两种单独的段：
 
--   *边缘段*是路由器所在的段。 这是你的每个地点与 Internet 连接的最近逻辑网络段。 大多数情况下，这是路由器的连接点，也可能是外围网络（也称为 *DMZ*、*隔离区域*和*外围子网*）。 此段与 Internet 之间应没有影响路由器以外的设备的其他流量。
+- *边缘段*是路由器所在的段。 这是你的每个地点与 Internet 连接的最近逻辑网络段。 大多数情况下，这是路由器的连接点，也可能是外围网络（也称为 *DMZ*、*隔离区域*和*外围子网*）。 此段与 Internet 之间应没有影响路由器以外的设备的其他流量。
 
--   *客户端段*是客户端所在的逻辑网络段。
+- *客户端段*是客户端所在的逻辑网络段。
 
 应使用网络评估工具测试这两种段。 要测试段，请导航到相应目录，然后在命令提示符中输入 **networkassessmenttool.exe**。 结果将写入名为 Results.tsv 的文件，你可以针对每个段将其与 [要求](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)进行比较。
 
@@ -192,19 +188,18 @@ Microsoft Teams 会连接到 Microsoft Online Services，因此需要 Internet �
 
 ## <a name="network-remediation"></a>网络补救
 
-如果带宽规划、端口测试或网络要求测试的结果表明你的当前网络需要先补救才能部署 Teams，你可以通过以下几种方式来完成： 
+如果带宽规划、端口测试或网络要求测试的结果表明你的当前网络需要先补救才能部署 Teams，你可以通过以下几种方式来完成：
 
--   如果带宽不足，请升级连接，以便与 Office 365 的流量可以顺利传输。
+- 如果带宽不足，请升级连接，以便与 Office 365 的流量可以顺利传输。
 
--   如果端口被阻止，请更改防火墙规则并重新测试端口。
+- 如果端口被阻止，请更改防火墙规则并重新测试端口。
 
--   如果存在网络损伤，请始终进行根本原因分析。
+- 如果存在网络损伤，请始终进行根本原因分析。
 
 可以使用服务质量 (QoS) 通过划分流量优先级与分隔流量来尽量消除损伤。 有些组织选择部署 QoS 来克服带宽问题或限制流量传输量。 这不会提高质量，并会带来新的问题。 当网络损伤超过要求时，应始终进行根本原因分析。 可以采用 QoS 进行解决。 有关详细信息，请参阅 [Microsoft Teams 中的服务质量](qos-in-teams.md)。
 
 >[!NOTE]
 >许多网络会由于升级、扩展或其他业务要求而逐渐发展。 请确保在你的服务管理规划中具有可操作的流程以维护这些方面。
-
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>由谁负责完成所有网络段和组织地点的正确网络评估？</li></ul></td></tr>
@@ -217,10 +212,10 @@ Microsoft Teams 会连接到 Microsoft Online Services，因此需要 Internet �
 
 下面是本指导的主要结论。 你必须：
 
--   打开将使用 Teams 的客户端上用于传出连接的 TCP 端口 80 和 443。
+- 打开将使用 Teams 的客户端上用于传出连接的 TCP 端口 80 和 443。
 
--   打开将使用 Teams 的客户端上用于传出连接的 UDP 端口 3478 到 3481。
+- 打开将使用 Teams 的客户端上用于传出连接的 UDP 端口 3478 到 3481。
 
--   通过完成 [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).来确保你有足够的带宽用于部署 Teams。
+- 通过完成 [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).来确保你有足够的带宽用于部署 Teams。
 
--   从边缘段和客户段运行[网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)并确保满足[媒体质量和网络连接性能](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)中所述的要求。
+- 从边缘段和客户段运行[网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)并确保满足[媒体质量和网络连接性能](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)中所述的要求。

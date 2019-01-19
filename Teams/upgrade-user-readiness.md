@@ -1,9 +1,8 @@
 ---
-title: 准备用户准备规划在升级之前从 Skype 业务到 Microsoft 团队的 Microsoft 团队
+title: 准备用户准备情况计划;从 for Business 的 Skype 升级到团队
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de13a3775c9ffae4fde1ffcd71be23ffab4e4a96
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 48bc1527b5f57219ecf062f1ab7025d969c13182
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649689"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349443"
 ---
 ![升级旅程，重点强调的用户准备阶段的阶段](media/upgrade-banner-user-readiness.png "升级旅程，重点强调的用户准备阶段的阶段")
 
 本文是您升级旅程，并行与技术的准备阶段完成的活动的用户准备阶段的一部分。 在继续之前，确认您已完成从以前的阶段的这些活动：
 
--   [登记项目利益干系人](upgrade-enlist-stakeholders.md)
--   [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
--   [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
--   [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [登记项目利益干系人](upgrade-enlist-stakeholders.md)
+- [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
+- [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
+- [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-a-user-readiness-plan"></a>准备用户就绪性计划
 
@@ -37,11 +36,10 @@ ms.locfileid: "26649689"
 > [!Tip]
 > 下载的模板用户准备情况材料，如通信和用户调查，除了升级项目计划示例和试点测试计划[升级成功工具包](https://aka.ms/UpgradeSuccessKit)。
 
-|    |     |
-|-----------|------------|
+| | |
+|---|---|
 | ![](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>您可以如何创建准备规划，以加快和加速用户采用新解决方案？</li><li>您必须右认知、 培训和支持资源，分别用户能够更改和已定义的用户角色？</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>使用下面的列表生成的准备工作计划的想法。 选择最相关的活动 — 或添加您自己 — 设计优化您的组织的准备工作计划。 请记住要用于最大结果广泛的 （为整个组织） 和 （对于滞后或特定的角色） 目标市场活动的组合。</li></ul>|
-
 
 <div class="mx-tableFixed">
 <table>
@@ -53,6 +51,3 @@ ms.locfileid: "26649689"
 </div>
 
 您已创建您的用户的准备工作计划和关联的资源，并且您技术准备就地后，请继续[试点 リ モ ・ 组织](https://aka.ms/SkypeToTeams-Pilot)。
-
-
-

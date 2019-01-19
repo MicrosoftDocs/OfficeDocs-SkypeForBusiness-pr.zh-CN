@@ -1,5 +1,5 @@
 ---
-title: 规划混合连接性
+title: 规划混合连接 |Skype 业务服务器 2019 Office 365 集成
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 规划业务联机或团队实现业务服务器 Skype 和 Skype 之间的混合连接性注意事项。
-ms.openlocfilehash: ef74a0b2dcc4943b5e95ddd8ba15005e50ec6cd6
-ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
+ms.openlocfilehash: ca6fce658443cd100cc03b14730dac722337733d
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27244023"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29348942"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>规划业务服务器 Skype 和 Office 365 之间的混合连接性
 
@@ -30,28 +30,28 @@ ms.locfileid: "27244023"
 
 您已阅读本主题，并准备好配置混合连接后，请参阅[Business Server 和 Office 365 的 Skype 之间配置混合连接性](configure-hybrid-connectivity.md)。 配置主题提供业务 online 设置您的本地部署和团队或 Skype 之间的混合连接性的分步指导。
 
-
 ## <a name="about-shared-sip-address-space-functionality"></a>有关共享 SIP 地址空间功能
+
 <a name="BKMK_Overview"> </a>
 
  在本地部署的 Business Server 和团队的 Skype 或 Skype 业务 online 之间设置混合连接，您可以将一些用户驻留在本地和联机驻留的一些用户。
 
-这种配置依赖于共享 SIP 地址空间功能，并有时称为"拆分域"— 这意味着用户的域名，例如，contoso.com，分别使用 Skype 业务服务器上部署和团队或 for Business 的 Skype 之间联机，如下图中所示： 
+这种配置依赖于共享 SIP 地址空间功能，并有时称为"拆分域"— 这意味着用户的域名，例如，contoso.com，分别使用 Skype 业务服务器上部署和团队或 for Business 的 Skype 之间联机，如下图中所示：
 
 ![SfB 混合连接 - 拆分域](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
 当配置共享的 SIP 地址空间：
 
 - Azure Active Directory 连接用于与 Office 365 同步您的本地目录。
-- 用户驻留在本地与业务服务器的内部部署 Skype 进行交互。 
+- 用户驻留在本地与业务服务器的内部部署 Skype 进行交互。
 - 联机驻留用户可能交互 Skype 业务联机或团队服务。
-- 这两种环境中的用户可以相互通信。 
-- 内部部署 Active Directory 是权威。 所有用户应首先，在内部部署 Active Directory 中创建，然后同步到 Azure AD。 即使您打算联机驻留用户，必须首先在内部部署环境中，创建用户，然后将用户移动到 online 以确保用户是内部部署用户可供搜索。 
+- 这两种环境中的用户可以相互通信。
+- 内部部署 Active Directory 是权威。 所有用户应首先，在内部部署 Active Directory 中创建，然后同步到 Azure AD。 即使您打算联机驻留用户，必须首先在内部部署环境中，创建用户，然后将用户移动到 online 以确保用户是内部部署用户可供搜索。
 
 用户可以联机移动之前，必须为用户分配业务 Online (计划 2) 许可证 Skype。 如果用户将使用团队，还必须为用户分配的工作组许可证 （和业务许可证 Skype 必须保持启用状态）。 如果您的用户想要充分利用附加的联机功能，如要进行音频会议或电话系统，您需要将其分配 Office 365 中的适当许可。
 
-
 ## <a name="infrastructure-requirements"></a>基础结构要求
+
 <a name="BKMK_Infrastructure"> </a>
 
 若要实现您的内部部署环境与 Office 365 通信服务之间的混合连接，您需要满足以下基础结构要求：
@@ -61,19 +61,19 @@ ms.locfileid: "27244023"
     > [!NOTE]
     > 只能将混合配置的单个租户与你的本地部署结合使用。
 - Azure Active Directory Connect 用于将你的本地目录与 Office 365 同步。 有关详细信息，请参阅[Azure AD 连接： 帐户和权限](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
-- Skype Business Server 管理工具。  需要将用户从内部部署移动到云。 必须有权在本地部署和 internet 服务器上安装这些工具。 
-- Online 管理工具。  可以使用的团队和 Skype 业务管理中心或 Windows PowerShell 来管理工作组和 Skype 业务 online。 若要使用 PowerShell 管理团队或 Skype 业务 online，下载并安装 Business Online Connector Skype。 
+- Skype Business Server 管理工具。  需要将用户从内部部署移动到云。 必须有权在本地部署和 internet 服务器上安装这些工具。
+- Online 管理工具。  可以使用的团队和 Skype 业务管理中心或 Windows PowerShell 来管理工作组和 Skype 业务 online。 若要使用 PowerShell 管理团队或 Skype 业务 online，下载并安装 Business Online Connector Skype。
 - 必须启用共享的 SIP 地址空间，并且必须配置内部部署 Office 365 用作宿主提供商。 有关配置混合连接所需的步骤的详细信息，请参阅[配置混合连接性](configure-hybrid-connectivity.md)。
 
 配置混合连接后，您可以将用户移至团队或 Skype 业务 online。 有关详细信息，请参阅[移动用户从内部部署到团队](move-users-from-on-premises-to-teams.md)和[移动用户从本地到业务 online Skype](move-users-from-on-premises-to-skype-for-business-online.md)。
 
-
 ## <a name="server-version-requirements"></a>Server 的版本要求
+
 <a name="BKMK_Topology"> </a>
 
 **工作组**或业务 online Skype 配置混合部署，您需要具备以下支持的拓扑结构之一：
 
-- 包含业务服务器 2019年运行 Skype 的所有服务器的业务服务器 2019年部署 Skype。 
+- 包含业务服务器 2019年运行 Skype 的所有服务器的业务服务器 2019年部署 Skype。
 - 包含业务服务器 2015年运行 Skype 的所有服务器的业务服务器 2015年部署 Skype。
 - 运行 Lync Server 2013 的所有服务器与 Lync Server 2013 部署。  但是，如果不需要混合语音连接，您必须使用混合的版本拓扑如下所述。
 - 具有两个不同的服务器版本，如下所示的最大部署：
@@ -87,29 +87,29 @@ ms.locfileid: "27244023"
 
 - 混合的 Lync Server 2010 和 Skype 业务服务器 2015年部署
 - Lync Server 2010 和 Lync Server 2013 混合的部署
--   运行 Lync Server 2010 通过最新累积更新的所有服务器与 Lync Server 2010 部署。
+- 运行 Lync Server 2010 通过最新累积更新的所有服务器与 Lync Server 2010 部署。
+
 联合身份验证边缘服务器和从联合身份验证边缘服务器的下一个跃点服务器必须运行 Lync Server 2010 通过最新累积更新。 必须至少一台服务器或管理工作站上安装 Skype 业务服务器 2015年或 Lync Server 2013 管理工具。
 
+## <a name="multi-forest-support"></a>多林支持
 
-
- ## <a name="multi-forest-support"></a>多林支持
 <a name="BKMK_MultiForest"> </a>
 
 Microsoft 支持以下类型的多林混合方案：
 
 - **资源林拓扑中。** 在这种拓扑，存在一个林中承载 Skype 业务服务器 （的资源林），有一个或多个其他林的主机帐户标识，访问 Skype 业务在资源林中的服务器。 一般情况下，用户可以访问 Skype 另一个林中的业务功能如果满足以下要求：
-    - 用户正确同步到林中承载 for Business 的 Skype。 在混合配置中，这意味着，必须已禁用的用户对象作为对用户进行同步。
-    - 托管 Skype for Business 的林必须信任包含用户的林。
+  - 用户正确同步到林中承载 for Business 的 Skype。 在混合配置中，这意味着，必须已禁用的用户对象作为对用户进行同步。
+  - 托管 Skype for Business 的林必须信任包含用户的林。
     有关资源林混合方案的详细信息，请参阅[Deploy 资源林拓扑中的混合 for Business 的 Skype](configure-a-multi-forest-environment-for-hybrid.md)。
-- **在多个林中的业务服务器 Skype 的多个部署。** 由于合并和收购方案以及更复杂的企业版中可能出现此配置。  对于业务部署，多个 Skype 具有任何组织可以实现合并的所有用户从内部部署到单个 Office 365 租户中的云假定满足以下关键要求： 
-    - 必须有最一个 Office 365 租户涉及。 不支持合并方案中的与多个 Office 365 租户。
-    - 在任何给定时间，仅具有一个内部部署业务林的 Skype 可以在混合模式下 （共享 SIP 地址空间）。 业务林中的所有其他内部部署 Skype 必须保留在本地的完全 （并且可能与每个其他联盟）。 请注意以下其他内部部署组织可以与 AAD 同步，是否需要使用[新功能，以禁用联机 SIP 域](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain)截止年 12 月 2018年可用。
+- **在多个林中的业务服务器 Skype 的多个部署。** 由于合并和收购方案以及更复杂的企业版中可能出现此配置。  对于业务部署，多个 Skype 具有任何组织可以实现合并的所有用户从内部部署到单个 Office 365 租户中的云假定满足以下关键要求：
+
+  - 必须有最一个 Office 365 租户涉及。 不支持合并方案中的与多个 Office 365 租户。
+  - 在任何给定时间，仅具有一个内部部署业务林的 Skype 可以在混合模式下 （共享 SIP 地址空间）。 业务林中的所有其他内部部署 Skype 必须保留在本地的完全 （并且可能与每个其他联盟）。 请注意以下其他内部部署组织可以与 AAD 同步，是否需要使用[新功能，以禁用联机 SIP 域](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain)截止年 12 月 2018年可用。
 
     客户的 Skype for Business 中的多林部署必须完全将业务林的每个 Skype 单独迁移到 Office 365 租户使用拆分域 （共享 SIP 地址空间） 功能，然后禁用与混合在本地部署中之前移动迁移下本地 Skype 业务部署。 此外之前要迁移到云中，, 内部部署用户保留在联盟状态与未表示同一个用户的本地目录中的任何用户。 有关详细信息，请参阅[个团队和 Skype for Business 的云合并](cloud-consolidation.md)。
 
-
-
 ## <a name="federation-requirements"></a>联合身份验证要求
+
 <a name="BKMK_Federation"> </a>
 
 在配置混合时，必须确保您在本地和联机环境可以与每个其他联盟。  Online 环境具有开放联盟默认设置。通常，在本地环境具有默认情况下关闭联合身份验证。  
@@ -121,16 +121,15 @@ Microsoft 支持以下类型的多林混合方案：
 - 本地部署中的允许域列表必须与您的联机租户的允许域列表完全匹配。
 - Online 租户的外部通信，必须启用联盟。
 
-
 ## <a name="network-considerations"></a>网络注意事项
 
-以下各节介绍的注意事项： 
+以下各节介绍的注意事项：
 
-- DNS 设置 
-- 防火墙注意事项 
-
+- DNS 设置
+- 防火墙注意事项
 
 ### <a name="dns-settings"></a>DNS 设置
+
 <a name="BKMK_DNS"> </a>
 
 创建混合部署的 DNS 记录时，所有业务外部 DNS 记录的 Skype 应都指向的内部部署基础结构。 有关所需的 DNS 记录的详细信息，请参阅[Skype 业务服务器的 DNS 要求](../../sfbserver/plan-your-deployment/network-requirements/dns.md)。
@@ -142,9 +141,10 @@ Microsoft 支持以下类型的多林混合方案：
 |_Sipfederationtls._tcp 的 DNS SRV 记录。\<sipdomain.com\>用于所有支持的 SIP 域解析为访问边缘外部 IP(s)  <br/> |边缘服务器  <br/> |在混合配置中启用联盟通信。边缘服务器需要知道在什么位置为 SIP 域路由分布在本地设备和在线设备上的联盟流量。  <br/> 必须使用用户名与 SRV 记录中的域之间的严格 DNS 名称匹配。  <br/> |
 |边缘 Web 会议服务 FQDN 的 DNS A 记录，例如解析为 Web 会议边缘外部 IP 的 webcon.contoso.com  <br/> |内部企业网络连接的用户的计算机  <br/> |让在线用户能够在本地托管会议中演示或查看内容。内容包括 PowerPoint 文件、白板、轮询和共享笔记。  <br/> |
 
-根据 DNS 在您的组织中如何配置，您可能需要将这些记录添加到内部托管 DNS 区域，以便相应的 SIP 域能够提供对这些记录的内部 DNS 解析。 
+根据 DNS 在您的组织中如何配置，您可能需要将这些记录添加到内部托管 DNS 区域，以便相应的 SIP 域能够提供对这些记录的内部 DNS 解析。
 
 ### <a name="firewall-considerations"></a>防火墙注意事项
+
 <a name="BKMK_Firewall"> </a>
 
 您的网络上的计算机必须能够执行标准 Internet DNS 查找。如果这些计算机可以连接标准 Internet 站点，表明您的网络符合此要求。

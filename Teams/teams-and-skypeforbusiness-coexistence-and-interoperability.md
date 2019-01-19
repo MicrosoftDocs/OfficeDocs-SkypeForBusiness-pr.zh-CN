@@ -1,9 +1,8 @@
 ---
-title: 了解 Skype for Business 与 Microsoft Teams 的共存和互操作性
+title: Microsoft 团队 |升级，群岛模式互操作性策略，只
 author: lsomi
 ms.author: lsomi
 manager: serdars
-ms.date: 09/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,19 +13,19 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f27acda0494a436cf4d4bb7b47f91fda2bb42f22
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 41ff5d3329d46ee9f716e09145c94ad8e2dbaea8
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789359"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349495"
 ---
 ![升级旅程，重点强调项目定义阶段的阶段](media/upgrade-banner-project-definition.png "升级旅程，重点强调项目定义阶段的阶段")
 
 本文是您升级旅程的项目定义阶段的一部分，创建赞助 coalition 和项目工作组并为您的项目定义范围、 目标和远景后完成活动。 在继续之前，确认您已完成以下活动：
 
--   [登记项目利益干系人](upgrade-enlist-stakeholders.md)
--   [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
+- [登记项目利益干系人](upgrade-enlist-stakeholders.md)
+- [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
 
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>了解 Microsoft 团队和 Skype 的业务共存及互操作性
 
@@ -42,7 +41,7 @@ ms.locfileid: "27789359"
 我们建议您查看可帮助确定适合您的组织的路径如下所述的共存模式。
 
 > [!Important]
-> 引入新技术或对您现有，且与熟悉的 Skype 业务环境进行更改，同时还提供了很多新业务好处，可以为用户中断。 需要评估用户准备和实现通信和培训计划实现的任何更改按照本文之前的时间。 此外，我们强烈建议您实现您的组织内之前与一组选定用户的试用计划。 
+> 引入新技术或对您现有，且与熟悉的 Skype 业务环境进行更改，同时还提供了很多新业务好处，可以为用户中断。 需要评估用户准备和实现通信和培训计划实现的任何更改按照本文之前的时间。 此外，我们强烈建议您实现您的组织内之前与一组选定用户的试用计划。
 
 ### <a name="islands-mode"></a>群岛模式
 
@@ -51,7 +50,7 @@ ms.locfileid: "27789359"
 在此共存模式，调用**群岛**，每个客户端应用程序运行作为单独岛。 业务交谈 for Business 和团队的 Skype 的 Skype 交谈团队。 用户运行这两个客户端，从中启动通信客户端中本机通信。 因此，没有需要在**群岛**模式下的互操作性。
 
 > [!Tip]
-> Skype 业务联机客户推荐路径是开头的默认**群岛**模式、 驱动器组织中采用饱和度，然后快速移到**团队仅**模式。 在部署和混合客户可从组织准备采用时为起始点而不是群岛，并从该处到**团队仅**模式的进度部署即将开始的**Skype for Business 使用团队协作**模式团队。 
+> Skype 业务联机客户推荐路径是开头的默认**群岛**模式、 驱动器组织中采用饱和度，然后快速移到**团队仅**模式。 在部署和混合客户可从组织准备采用时为起始点而不是群岛，并从该处到**团队仅**模式的进度部署即将开始的**Skype for Business 使用团队协作**模式团队。
 
 ### <a name="skype-for-business-only"></a>Skype for Business 仅
 
@@ -82,32 +81,32 @@ ms.locfileid: "27789359"
 
 有关共存模式、 先决条件，以及管理的详细信息，请参阅[迁移和组织使用团队一起 for Business 的 Skype 的互操作性指南](https://aka.ms/SkypeToTeams-Interop)和[设置您共存并升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)。
 
-
-|         |         |         |
-|---------|---------|---------|
+| | | |
+|---|---|---|
 |<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>最佳的共存模式适合您的组织和用户需求？</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|后续步骤|<ul><li>选择您升级旅程的最佳方法。</li></ul>|
-
 
 ## <a name="interoperability-of-teams-and-skype-for-business"></a>团队和 for Business 的 Skype 的互操作性
 
 互操作性是能够个团队和 Skype 的同一组织中的企业用户团队和 for Business 的 Skype 间通信。
 
-
 ### <a name="native-interop-and-interop-escalation"></a>本机互操作性和互操作性升级
 
 有两种类型的互操作的体验： 本机和互操作性升级。
 
--   用户当前正在使用的客户端中发生的_本机互操作_体验。 对于业务客户端，团队中其他 Skype 中将一个用户。 本机互操作性体验不会执行其到另一个客户端进行通信，用户将能够进行客户端他们当前正在使用中的其对话。 本机互操作的体验是一对一聊天和调用。
--   _互操作性升级_体验表示作为帮助用户执行高级 （如共享其桌面） 操作的一部分，该服务可方便的会议创建，并在继续该会议中体验。 操作的发起方平台上创建会议。 不在该平台收到会议的用户加入坐标和加入会议 （之后切换客户端）。
+- 用户当前正在使用的客户端中发生的_本机互操作_体验。 对于业务客户端，团队中其他 Skype 中将一个用户。 本机互操作性体验不会执行其到另一个客户端进行通信，用户将能够进行客户端他们当前正在使用中的其对话。 本机互操作的体验是一对一聊天和调用。
+- _互操作性升级_体验表示作为帮助用户执行高级 （如共享其桌面） 操作的一部分，该服务可方便的会议创建，并在继续该会议中体验。 操作的发起方平台上创建会议。 不在该平台收到会议的用户加入坐标和加入会议 （之后切换客户端）。
 
 ### <a name="native-interop-experiences"></a>本机互操作体验
 
 根据分配给用户 （如上所述） 的共存模式，提供了以下本机互操作的体验：
 
--   适用于业务用户的 Skype 可以一对一聊天，与团队用户，反之亦然。 互操作性聊天需要通过属于的团队云服务 （并因此仅存在于联机） 的互操作性网关。 互操作性聊天是纯文本： 富文本和图释不受支持。 通知团队中的用户的对话的互操作的对话;很快将提供 Skype 业务用户的类似通知。
+- 适用于业务用户的 Skype 可以一对一聊天，与团队用户，反之亦然。 互操作性聊天需要通过属于的团队云服务 （并因此仅存在于联机） 的互操作性网关。 互操作性聊天是纯文本： 富文本和图释不受支持。 通知团队中的用户的对话的互操作的对话;很快将提供 Skype 业务用户的类似通知。
+
 ![互操作聊天从团队体验](media/Interop_chat_experience_from_Teams.png "互操作聊天从团队体验")
--   Skype 的企业用户可以进行一对一语音和视频呼叫的团队用户，反之亦然。
+
+- Skype 的企业用户可以进行一对一语音和视频呼叫的团队用户，反之亦然。
+
 ![互操作调用从团队体验](media/Interop_calling_experience_from_Teams.png "互操作调用从团队体验")
 
 > [!Important]
@@ -115,18 +114,17 @@ ms.locfileid: "27789359"
 
 这些互操作的体验是提供给，并且用户拥有分配以下共存模式之一之间： **Skype for Business 使用团队协作**， **Business 团队协作和会议的 Skype**， **Skype 的仅业务**，或**仅团队**。 在群岛模式中对用户没有互操作性。
 
-
 ### <a name="native-interop-experience-limitations"></a>本机互操作性体验限制
 
 某些功能不可用的互操作性聊天和团队之间 for Business 的 Skype 的互操作调用体验：
 
--   减价、 富文本和完整的图释集不支持从工作组或业务的 Skype。 不支持团队聊天中撰写框其他本机功能。
--   不支持团队和 for Business 的 Skype 之间共享 （桌面或应用程序共享） 的屏幕。
--   团队中的组聊天 （多方对话） 只能包含使用团队参与者。
--   Skype for Business 中的多个方 IM 对话 （群聊） 只能包含 for Business 使用 Skype 的参与者。
--   升级正在进行的对等语音或视频呼叫涉及的业务用户的工作组和 Skype 的多方呼叫不受支持。
--   文件传输的两方聊天，或在群聊，从团队 Skype for Business 文件附件 —，反之亦然 — 不受支持。
--   与业务持久聊天的 Skype 没有互操作性。
+- 减价、 富文本和完整的图释集不支持从工作组或业务的 Skype。 不支持团队聊天中撰写框其他本机功能。
+- 不支持团队和 for Business 的 Skype 之间共享 （桌面或应用程序共享） 的屏幕。
+- 团队中的组聊天 （多方对话） 只能包含使用团队参与者。
+- Skype for Business 中的多个方 IM 对话 （群聊） 只能包含 for Business 使用 Skype 的参与者。
+- 升级正在进行的对等语音或视频呼叫涉及的业务用户的工作组和 Skype 的多方呼叫不受支持。
+- 文件传输的两方聊天，或在群聊，从团队 Skype for Business 文件附件 —，反之亦然 — 不受支持。
+- 与业务持久聊天的 Skype 没有互操作性。
 
 有关所有这些限制 （除外持久聊天），一个可能的解决方法是一个用户开始会议并邀请其他用户加入它。 此解决方法是互操作性升级的基础。
 

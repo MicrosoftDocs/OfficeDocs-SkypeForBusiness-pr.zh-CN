@@ -1,9 +1,8 @@
 ---
-title: 规划 Skype for Business Server 与 Skype for Business Online 之间的混合连接
+title: 规划混合连接性 |Skype 业务服务器 2015年和联机
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 1/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -17,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 摘要：阅读本主题可了解如何规划 Skype for Business Server 与 Skype for Business Online 之间的混合连接。 设置混合连接是部署多种 Skype for Business 混合解决方案的第一步。
-ms.openlocfilehash: 8fd32e8b70f2fc63919b9ec8abca2d0b70c90107
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: fe862c5d25a9fca17a42fb1026b608b8656d419d
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015283"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349098"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>规划 Skype for Business Server 与 Skype for Business Online 之间的混合连接
 
@@ -65,6 +64,7 @@ ms.locfileid: "28015283"
 （有关配置 Lync Server 2013 或 Lync Server 2010 混合部署的信息，请参阅[Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360)。）
 
 ## <a name="overview"></a>概述
+
 <a name="BKMK_Overview"> </a>
 
 混合解决方案使你可以根据自己的计划和业务需求将用户迁移到云。 本主题重点介绍 Skype for Business Server 本地部署与 Skype for Business Online 之间的混合连接。 通过此连接，你可以将一些用户在本地托管，一些用户在线托管。
@@ -122,6 +122,7 @@ ms.locfileid: "28015283"
 您还可以配置混合部署的与集成本地 Exchange 和 SharePoint，或与 Microsoft Office 365 应用程序，包括 Exchange Online 和 SharePoint Online。 你还可以使用云连接器版本配置不需要完整 Skype for Business Server 部署的混合语音解决方案。 有关用于业务混合解决方案和规划迁移到云中的所有 Skype 的详细信息，请参阅[业务混合解决方案的 Skype](skype-for-business-hybrid-solutions.md)。
 
 ## <a name="infrastructure-requirements"></a>基础结构要求
+
 <a name="BKMK_Infrastructure"> </a>
 
 要实施和部署 Skype for Business Server 与 Skype for Business Online 之间的混合连接，必须在环境中进行以下配置：
@@ -147,6 +148,7 @@ ms.locfileid: "28015283"
 - 已启用共享会话初始协议 (SIP) 地址空间。 SIP 地址是网络上每个用户的唯一标识符，类似于电话号码或电子邮件地址。 您尝试移动用户从内部部署到 Skype 业务 online 之前，您需要配置 Office 365 租户共享您的本地部署的共享会话初始协议 (SIP) 地址空间。 有关详细信息，请参阅[Configure federation with Skype for Business Online](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)。
 
 ## <a name="multi-forest-support"></a>多林支持
+
 <a name="BKMK_MultiForest"> </a>
 
 如果满足下列要求，用户可以访问其他林中的 Skype for Business 功能：
@@ -158,6 +160,7 @@ ms.locfileid: "28015283"
 有关多林混合方案的详细信息，请参阅[Configure hybrid for Business 的 Skype 的多林环境](deploy-hybrid-connectivity/configure-a-multi-forest-environment-for-hybrid.md)。
 
 ## <a name="exchange-co-existence"></a>Exchange 共存
+
 <a name="BKMK_Exchange"> </a>
 
 要支持与 Exchange 共存，请记住下列事项：
@@ -173,16 +176,19 @@ ms.locfileid: "28015283"
 有关与 Exchange Server 共存的详细信息（包括在各种本地和联机组合中的支持条件和限制），请参阅[Plan to integrate Skype for Business and Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)中的[功能支持](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)。
 
 ## <a name="administrator-credentials"></a>管理员凭据
+
 <a name="BKMK_Credentials"> </a>
 
 当要求您提供您的管理员凭据时，使用的用户名和密码的管理员帐户为您的 Office 365 租户。 Azure Active Directory 联合身份验证、 目录同步、 单一登录，和将用户迁移到 Skype 配置业务 online 时，您还将使用这些凭据。
 
 ## <a name="skype-for-business-online-powershell"></a>Skype for Business Online PowerShell
+
 <a name="BKMK_PowerShell"> </a>
 
 管理员现在可以使用 Windows PowerShell 管理 Skype 业务联机和其 Skype 业务联机用户帐户。 若要执行此操作，您必须首先下载和安装的业务 Online 连接器模块从 Microsoft 下载中心下载 Skype。 有关下载，安装和使用 Skype 对业务联机连接器模块和 using Windows PowerShell to manage Skype 业务 online 的详细信息，请参阅[使用 Windows PowerShell 管理 for Business 的 Skype联机](https://technet.microsoft.com/library/dn362831.aspx)。
 
 ## <a name="skype-for-business-client-support"></a>Skype for Business 客户端支持
+
 <a name="BKMK_ClientSupport"> </a>
 
 客户端中支持的功能与本地和联机环境中提供的功能一样，存在一些差异。 以下客户端支持与 Skype 业务 Online 混合部署中：
@@ -214,6 +220,7 @@ ms.locfileid: "28015283"
 - [Skype for Business 的移动客户端功能比较](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)
 
 ## <a name="topology-requirements"></a>拓扑要求
+
 <a name="BKMK_Topology"> </a>
 
 业务 online 与 Skype 配置混合部署，您需要具备以下支持的拓扑结构之一：
@@ -255,6 +262,7 @@ ms.locfileid: "28015283"
   - 与站点的 SIP 联盟关联的边缘池
 
 ## <a name="federation-allowedblocked-lists-requirements"></a>联盟允许/阻止列表的要求
+
 <a name="BKMK_Federation"> </a>
 
 允许域列表包括已配置合作伙伴“边缘”完全限定域名 (FQDN) 的域。 这些有时称为允许的伙伴服务器 ordirect 联盟伙伴。 您应熟悉开放联盟和关闭联盟伙伴发现 andallowed 伙伴域列表中，分别中称为本地部署之间的差异。
@@ -270,6 +278,7 @@ ms.locfileid: "28015283"
 - Online 租户，使用适用于业务 Online 控制面板 Skype 配置的外部通信，必须启用联盟。
 
 ## <a name="dns-settings"></a>DNS 设置
+
 <a name="BKMK_DNS"> </a>
 
 创建混合部署的 DNS 记录时，所有业务外部 DNS 记录的 Skype 应都指向的内部部署基础结构。 有关所需的 DNS 记录的详细信息，请参阅[业务服务器 2015年的 Skype 的 DNS 要求](../plan-your-deployment/network-requirements/dns.md)。
@@ -286,6 +295,7 @@ ms.locfileid: "28015283"
 [!NOTE] _sipfederationtls._tcp。\<sipdomain.com\> ，则需要混合配置从边缘服务器的 SRV 记录解析。 如果边缘服务器不能解决这些记录，请在本地用户不能看到的状态或与在线用户进行通信。
 
 ## <a name="firewall-considerations"></a>防火墙注意事项
+
 <a name="BKMK_Firewall"> </a>
 
 您的网络上的计算机必须能够执行标准 Internet DNS 查找。如果这些计算机可以连接标准 Internet 站点，表明您的网络符合此要求。
@@ -295,12 +305,12 @@ ms.locfileid: "28015283"
 有关详细信息，请参阅 [Office 365 URL 和 IP 地址范围](https://go.microsoft.com/fwlink/p/?LinkId=252942)。
 
 ## <a name="port-and-protocol-requirements"></a>端口和协议要求
+
 <a name="BKMK_Ports"> </a>
 
 除了内部通信的端口要求，还必须配置以下端口以启用混合连接：
 
-
-|**协议**|**TCP 或 UDP**|**源 IP**|**目标 IP**|**源端口**|**目标端口**|**说明**|
+|协议|TCP 或 UDP|源 IP|目标 IP|源端口|目标端口|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |SIP (MTLS)  <br/> |TCP  <br/> |访问边缘  <br/> |Office 365  <br/> |任何  <br/> |5061  <br/> |信号  <br/> |
 |SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |访问边缘  <br/> |任何  <br/> |5061  <br/> |信号  <br/> |
@@ -312,6 +322,7 @@ ms.locfileid: "28015283"
 有关端口和防火墙的边缘服务器规划的详细信息，请参阅[中的业务服务器 2015 Skype 的边缘服务器环境要求](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)。 另请参阅[Port and protocol requirements for servers](../plan-your-deployment/network-requirements/ports-and-protocols.md)和[协议工作负荷图](https://go.microsoft.com/fwlink/p/?LinkId=550989)。
 
 ## <a name="user-accounts-and-data"></a>用户帐户和数据
+
 <a name="BKMK_UserAccounts"> </a>
 
 在混合部署中，您想要联机承载任何用户必须先创建在本地部署中，以便在 Active Directory 域服务中创建的用户帐户。 然后，您可以将用户移动到 Skype 业务 online，其中将移动用户的联系人列表。
@@ -335,8 +346,8 @@ ms.locfileid: "28015283"
 
 - **会议数据、 会议内容和计划的会议**此内容不会迁移用户帐户。 其帐户都将迁移到 Skype 业务 online 后，用户必须重新安排会议。 会议迁移服务将自动执行此操作时从迁移业务服务器 Skype 到 Skype 业务联机或团队，请参阅[使用会议迁移服务](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
 
-
 ## <a name="user-policies-and-features"></a>用户策略和功能
+
 <a name="BKMK_UserPolicies"> </a>
 
 - 在混合环境中，可以为本地或联机用户（但不是同时）启用即时消息和会议。
@@ -344,5 +355,3 @@ ms.locfileid: "28015283"
 - **客户端支持**他们会移动到 Skype 业务 online 时，某些用户可能需要新的客户端版本。 为 Office Communications Server 2007 R2，用户必须将移动到 Skype 之前迁移到 Skype 业务 online 业务服务器或 Lync Server 2013 的池。
 
 - **在本地策略和配置 （非用户）** 联机和本地策略要求单独的配置。 无法设置适用于二者的全局策略。
-
-
