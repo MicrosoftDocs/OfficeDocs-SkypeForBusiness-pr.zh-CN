@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 了解有关呼叫分析和呼叫质量仪表板以及何时使用它们来监视和解决呼叫质量问题。
-ms.openlocfilehash: 8d41e051a7f55c24c3388e707648970bb1ab64df
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a212afea9f8d5010fa68af66ce72b39280a7d11c
+ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013544"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "29442434"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>呼叫分析和呼叫质量仪表板
 
@@ -43,7 +43,7 @@ Microsoft 团队和 for Business 的 Skype 提供两种方法可以监视和解�
 
 呼叫分析显示设备、 网络和与特定的呼叫和会议中每个用户的 Microsoft 团队或 Skype 业务帐户相关的连接的详细的信息。 如果您是 Office 365 管理员，您可以使用调用分析解决的 Microsoft 团队和 Skype for Business 中的呼叫质量和连接问题。
 
-若要查看此信息中的 Microsoft 团队和业务管理中心的 Skype 的用户，单击**呼叫历史记录**选项卡中的用户详细信息页，显示该用户参与 30 天内的所有呼叫和会议的用户。
+若要查看此信息中的 Microsoft 团队 & Business Admin Center 的 Skype 的用户，单击**呼叫历史记录**选项卡中的用户详细信息页，显示该用户参与 30 天内的所有呼叫和会议的用户。
 
 ![调用分析用户数据。](media/call-analytics-user-data.png)
 
@@ -51,14 +51,19 @@ Microsoft 团队和 for Business 的 Skype 提供两种方法可以监视和解�
 
 ![调用分析用户会话数据。](media/call-analytics-user-data-session.png)
 
-如果您希望非管理员，例如从外部供应商，帮助台代理用于呼叫的分析，就可以分配权限，以便他们可以使用调用分析，但不是能访问业务管理中心的 Skype 的其余部分： 
+如果您希望非管理员，例如从外部供应商，帮助台代理用于呼叫的分析，就可以分配权限，以便他们可以使用调用分析，但不是能访问的 Microsoft 团队 & Skype 业务管理中心的其余部分： 
   
-- **第 1 层权限的帮助台代理**： 代理，请参阅一组有限的数据和呼叫分析中的个人身份信息 (PII)。 它们可以解决呼叫，但它们将交给会议问题的第 2 层代理。
+- **通过通信帮助台代理支持专员权限**： 代理，请参阅一组有限的数据和呼叫分析中的个人身份信息 (PII)。 它们可以解决呼叫，但它们将交给会议问题的通信支持工程师。
     
-- **第 2 层权限的帮助台代理**： 代理，请参阅呼叫分析中的所有可用数据和解决呼叫和会议。 拥有完全访问呼叫日志和客户信息。
+- **通过通信帮助台代理支持工程师权限**： 代理，请参阅呼叫分析中的所有可用数据和解决呼叫和会议。 拥有完全访问呼叫日志和客户信息。
+
+> [!NOTE]
+> Communications 支持专家角色等同于第 1 层支持它等效于第 2 层支持 communications 支持工程师角色。
+
+有关 communications 支持专家和通信支持工程师角色，请参阅[管理团队使用的 Microsoft 团队管理角色](using-admin-roles.md)。
 
 > [!IMPORTANT]
-> 帮助台代理权限和网络拓扑上载中将提供新的管理门户在几个月。 同时，您可以继续使用https://adminportal.services.skypeforbusiness.com1 层和第 2 层帮助台访问。
+> 帮助台代理权限和网络拓扑上载是在 Microsoft 团队 & Business Admin Center 的 Skype 中可用。 Communications 支持专家和 Communications 支持工程师可以使用此门户访问呼叫分析和呼叫质量仪表板。
     
 有关设置呼叫分析的详细信息，请参阅[Set up 商业调用分析的 Skype](set-up-call-analytics.md)。 有关帮助台代理与呼叫分析的工作原理的详细信息，请参阅[使用呼叫分析解决质量欠佳的呼叫质量](use-call-analytics-to-troubleshoot-poor-call-quality.md)。
   
@@ -74,11 +79,14 @@ Microsoft 团队和 for Business 的 Skype 提供两种方法可以监视和解�
   
 有关详细信息，请参阅[业务 online Skype 调用质量仪表板的功能](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD)。
   
-呼叫分析和 CQD 并行运行和可在独立或一起使用。 例如，假设 1 层代理确定所需解决呼叫问题的更多帮助。 第 1 层代理传入呼叫发送给第 2 层代理，第 1 层代理比呼叫分析中有权访问的详细信息。 反过来，第 2 层代理可以通知问题的网络工程师。 网络工程师可以检查 CQD 以查看整个网站相关问题可能是参与呼叫问题的原因。
+呼叫分析和 CQD 并行运行和可在独立或一起使用。 例如，假设 communications 支持专家确定所需解决呼叫问题的更多帮助。 Communications 支持专家将传递对通信支持工程师，哪些人有权调用分析中的信息比通信支持专业人员的调用。 反过来，communications 支持工程师可以通知问题的网络工程师。 网络工程师可能会检查 CQD 以查看整个网站相关问题可能是参与呼叫问题的原因。
   
 有关 CQD 的详细信息，请参阅[打开和使用的 Microsoft 团队和 Skype 业务 online 呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)和[维度和度量值的 Microsoft 团队和 Skype 业务 online 呼叫质量仪表板中可用](dimensions-and-measures-available-in-call-quality-dashboard.md)。
   
 ## <a name="related-topics"></a>相关主题
+
 [设置呼叫分析](set-up-call-analytics.md)
 
 [使用通话分析解决通话质量不佳的问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+
+[打开和使用呼叫质量仪表板的 Microsoft 团队和 Skype 业务 online](turning-on-and-using-call-quality-dashboard.md)

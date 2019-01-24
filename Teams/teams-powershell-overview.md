@@ -1,5 +1,5 @@
 ---
-title: 团队 PowerShell 概述 （英文)
+title: Teams PowerShell 概览
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -9,20 +9,24 @@ ms.service: msteams
 description: 了解如何使用 PowerShell 控件来管理 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a898a4eca8d96ef2da44f17695472301d6332724
-ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
+ms.openlocfilehash: 477aa468cf057bd5f1a042acd5aff9772e8244f0
+ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26625748"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "29442426"
 ---
-# <a name="teams-powershell-overview"></a>团队 PowerShell 概述 （英文)
+# <a name="teams-powershell-overview"></a>Teams PowerShell 概览
 
-Microsoft 团队具有一组丰富的 IT 管理员可以管理通过 Microsoft 团队和 Skype Business Admin Center、 PowerShell 控件和图形 Api 的产品的工具。 本指南介绍了我们如何构建 IT 管理员可以使用，我们 PowerShell cmdlet，并提供指向更多文档。 请注意不同工作组管理员角色有权访问不同的 cmdlet。 有关详细信息，请参阅[管理团队使用的 Microsoft 团队管理角色](using-admin-roles.md)。
+Microsoft 团队具有一组丰富的 IT 管理员可以管理通过 Microsoft 团队 & Business Admin Center、 PowerShell 控件和图形 Api 的 Skype 产品的工具。 本指南介绍了我们如何构建 IT 管理员可以使用，我们 PowerShell cmdlet，并提供指向更多文档。 请注意不同工作组管理员角色有权访问不同的 cmdlet。 有关详细信息，请参阅[管理团队使用的 Microsoft 团队管理角色](using-admin-roles.md)。
 
 ## <a name="which-modules-do-you-need-to-use"></a>您需要使用哪些模块？
 
-用于管理的 Microsoft 团队的 PowerShell 控件是两个不同的 PowerShell 模块中： [Microsoft 团队 PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5)(公共 preview) 和[Skype 的业务 PowerShell 模块](https://www.microsoft.com/en-us/download/details.aspx?id=39366)。 团队 PowerShell 模块包含所有创建和管理团队，业务 PowerShell 模块 Skype 包含用于管理策略、 配置和其他团队工具控件时所需的 cmdlet。 PowerShell 控件的参考文档会告诉您哪些模块包含正在研究 cmdlet。 （最终，两个模块将合并。）
+管理团队的 PowerShell 控件是两个不同的 PowerShell 模块中： 
+- [Microsoft 团队 PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5)（公共预览）： 团队 PowerShell 模块包含您需要创建和管理团队的所有 cmdlet。  
+- [业务 PowerShell 模块的 Skype](https://www.microsoft.com/en-us/download/details.aspx?id=39366): Skype for Business PowerShell 模块包含 cmdlet 来管理策略、 配置和其他团队工具。 
+
+PowerShell 控件的参考文档会告诉您哪些模块包含正在研究 cmdlet。 （最终，两个模块将合并。）
 
 ## <a name="what-can-each-admin-role-do"></a>每个管理员角色可以做什么？
 
@@ -71,7 +75,7 @@ Microsoft 团队具有一组丰富的 IT 管理员可以管理通过 Microsoft �
 
 配置是存储桶的维护中不能在用户级别指定的服务的设置。 在整个组织始终应用设置。 全局配置是在组织中的唯一有效的配置。 每种配置类型附带的两个主要 cmdlet:
 
-- ``Get-Cs<ConfigurationName>``(例如， ``Get-CsTeamsClientConfiguration``): 
+- 例如：``Get-Cs<ConfigurationName>``。 
 
 - 设置命令 (例如， ``Set-CsTeamsClientConfiguration``): 该类型的配置中设置属性。 指定要修改的参数。
    > 您可以引用正在修改以下两种方式中的配置： 通过指定-**Identity 全局**，或通过运行``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``。
