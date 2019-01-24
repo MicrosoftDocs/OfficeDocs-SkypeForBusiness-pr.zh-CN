@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa699ebabd57299ef2ced07c2c6d0fc551ac6b17
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: 957d1d3b708d0d35c2743b9382af3ad12aba6632
+ms.sourcegitcommit: 38f225d59929a08923e801f334fea7b3d28f537d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328252"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "29454573"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 =============================================
@@ -31,8 +31,8 @@ ms.locfileid: "28328252"
 |功能    | 最大限制 |
 |-----------|---------------|
 |用户可创建的团队数量 | 受到 250 对象 limit&sup1;         |
-|团队中的成员数 | 2500       |
-|[组织范围团队](create-an-org-wide-team.md)中的成员数 | 2500       |
+|团队中的成员数 | $2,500       |
+|[组织范围团队](create-an-org-wide-team.md)中的成员数 | $2,500       |
 |全局管理员可以创建的团队数量        |  500,000 个   |
 |Office 365 租户可以具有的团队数量    | 500,000 个     |
 |每个工作组的通道数    | 200 （包括已删除的通道）         |
@@ -45,14 +45,17 @@ ms.locfileid: "28328252"
 |功能     | 最大限制 |
 |------------|---------------|
 |在会议中的人员数量  | 250    |
-|私人聊天中的人数  | 50    |
+|私人聊天中的人数  | 50%    |
 
-<a name="storage"></a>存储
+> [!IMPORTANT]
+> 默认情况下 AllowChannelMeetingScheduling 和 AllowPrivateMeetingScheduling 不包含种带内设置相对于 TeamsMeetingPolicy 如网亭工作者不会安排团队会议的功能。 这仅适用于网亭工作者。 
+
+<a name="storage"></a> 存储
 -------
 
 Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网站，团队中的每个频道在默认团队网站文档库中都有一个文件夹。 对话中共享的文件会自动添加到文档库中，在 SharePoint 中设置的权限和文件安全选项会自动反映在 Teams 中。
 
-如果您没有 SharePoint Online 租户中启用，Microsoft 团队用户始终不能共享团队中的文件。 此外，由于该功能需要 OneDrive for Business（它与 SharePoint 许可证关联），因此私人聊天中的用户无法共享文件。
+如果你的租户中未启用 SharePoint Online，则 Microsoft Teams 用户不是总能够在团队中共享文件。 此外，由于该功能需要 OneDrive for Business（它与 SharePoint 许可证关联），因此私人聊天中的用户无法共享文件。
 
 通过在 SharePoint Online 文档库和 OneDrive for Business 中存储文件，在租户级别配置的所有合规性规则将得到遵循。 （有关详细信息，请参阅[如何 SharePoint Online 和 OneDrive for Business 交互的 Microsoft 团队](sharepoint-onedrive-interact.md)。）
 
@@ -60,7 +63,7 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 
 |功能                 |Office 365 商业协作版  |Office 365 商业高级版   |Office 365 企业版 E1  |Office 365 企业版 E3  |Office 365 企业版 E5  |Office 365 企业版 F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
-|存储                 |1 TB 每个组织以及每个许可证购买 10 GB  |1 TB 每个组织以及每个许可证购买 10 GB  |1 TB 每个组织以及每个许可证购买 10 GB   |1 TB 每个组织以及每个许可证购买 10 GB |1 TB 每个组织以及每个许可证购买 10 GB  |每个组织的 1 TB           |
+| 存储                 |1 TB 每个组织以及每个许可证购买 10 GB  |1 TB 每个组织以及每个许可证购买 10 GB  |1 TB 每个组织以及每个许可证购买 10 GB   |1 TB 每个组织以及每个许可证购买 10 GB |1 TB 每个组织以及每个许可证购买 10 GB  |每个组织的 1 TB           |
 |团队文件存储 |最多 25 TB 每个网站集或组 |最多 25 TB 每个网站集或组 |最多 25 TB 每个网站集或组 |最多 25 TB 每个网站集或组 |最多 25 TB 每个网站集或组 |最多 25 TB 每个网站集或组 |
 |文件上载限制       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
@@ -78,8 +81,8 @@ Microsoft 团队聊天函数处理 Microsoft Exchange 后端，以便您可以�
 |功能  |Office 365 企业版 E1  |Office 365 企业版 E3  |Office 365 企业版 E5  |Office 365 企业版 F1  |
 |---------|---------|---------|---------|---------|
 |邮件大小限制&dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
-|文件附件限制&Dagger;  |20     |20     |20     |20    |
-|内嵌图像限制&Dagger; |50   |50   |50   |50   |
+|文件附件限制&Dagger;  | 10     | 10     | 10     | 10    |
+|内嵌图像限制&Dagger; |50%   |50%   |50%   |50%   |
 
 &dagger;如果邮件超过此限制，生成预览消息，并要求用户要查看/下载原始电子邮件从提供的链接。
 
