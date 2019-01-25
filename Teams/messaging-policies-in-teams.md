@@ -1,5 +1,5 @@
 ---
-title: 什么消息团队中的策略？
+title: Teams 中的消息传递策略是什么？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,14 +16,14 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 了解有关消息策略以及如何使用它们来控制聊天消息团队。
-ms.openlocfilehash: 7b9cb8a6a5c30806d44f5056e4dee0de79823841
-ms.sourcegitcommit: c6b62a64d198fe18ae53cf849d125c5143053456
+ms.openlocfilehash: 203acb58113d162e6752ca5d327b8575c58a7133
+ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25453791"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "29530933"
 ---
-# <a name="what-are-messaging-policies-in-teams"></a>什么消息团队中的策略？
+# <a name="what-are-messaging-policies-in-teams"></a>Teams 中的消息传递策略是什么？
 
 邮件策略用于控制哪些聊天和消息功能的通道供 Microsoft 团队中的用户。 您可以使用创建或的组织中的人员创建一个或多个自定义的邮件策略的默认策略。 创建策略后，您将其分配用户组的组织中。
 
@@ -37,6 +37,8 @@ ms.locfileid: "25453791"
 - **用户可以删除发送的消息**使用此设置可允许用户删除聊天中发送的邮件。
 - **用户可以编辑已发送的邮件**使用此设置可允许用户编辑其聊天中发送的邮件。
 - **已读回执**使用此设置指定是否读回执是控制、 每个人、 启用或禁用的用户。
+<a name="bkchat"> </a>
+
 - **聊天** 如果您希望能够使用团队应用程序与其他人聊天您组织中的用户，请打开此设置。
 - **使用 Giphys 对话中** 如果关闭此，用户可以与其他人聊天对话中包括 Giphys。 Giphy 是联机数据库和搜索引擎，使用户可以搜索和共享动态的 GIF 文件。 每个 Giphy 分配内容评级。
 - **Giphy 内容评级** 
@@ -51,4 +53,4 @@ ms.locfileid: "25453791"
 如果您已创建的自定义消息策略，它将仅处于活动状态的用户如果该策略分配给用户。  要自定义策略分配团队管理中心中的用户，请单击**用户**的左侧窗格中，选择要分配到的策略的用户，然后选择在**分配策略**下的**编辑**。
 
 ### <a name="related-topics"></a>相关主题
-[团队中的会议策略](meeting-policies-in-teams.md)
+[Teams 中的会议策略](meeting-policies-in-teams.md)

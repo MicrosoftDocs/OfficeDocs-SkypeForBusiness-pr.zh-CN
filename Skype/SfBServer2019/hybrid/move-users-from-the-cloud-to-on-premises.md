@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 了解如何移动用户从 Skype 业务 online 到本地。
-ms.openlocfilehash: fadb3a485cac691a97f0786aea78000b6b48c344
-ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
+ms.openlocfilehash: 7032e7f2968b7861a7fac199fd8ba949980fe770
+ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27247621"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "29530941"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>从云到本地移动用户 
 
@@ -35,7 +35,7 @@ ms.locfileid: "27247621"
 一旦您移动用户从云回内部部署：
 
 - 用户与您为其功能的业务服务器部署的 Skype 交互。 
-- 业务 online Skype 中存在的任何联系人都将迁移回 Skype 业务服务器。 目前，团队中的联系人不会迁移回本地。
+- 业务联机或团队中任一 Skype 存在任何联系人都将迁移到 Skype 业务服务器。 联系人的两种合并，并在本地然后迁移回中。  此外，团队保持事先团队中的联系人。
 - 如果用户还使用团队，不会与 Skype 业务用户的互操作的功能，也不能将他们能够与联盟组织中的用户进行通信。
 - Skype 中的业务联机会议是*不*回自动迁移在本地。 用户应之一重新其会议或者，如果需要，使用[会议迁移工具](https://support.office.com/en-us/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)。
 
@@ -82,4 +82,4 @@ Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Creden
 
 ## <a name="see-also"></a>另请参阅
 
-[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+Move-CsUser
