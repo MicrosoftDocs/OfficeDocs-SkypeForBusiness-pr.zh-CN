@@ -14,10 +14,10 @@ ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
 ms.openlocfilehash: db174b9e9df8fb6a819930babfaae9422f3ffe30
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
+ms.lasthandoff: 01/25/2019
 ms.locfileid: "26531745"
 ---
 # <a name="skype-for-business-online-admin"></a>Skype for Business Online 管理
@@ -54,7 +54,7 @@ ms.locfileid: "26531745"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>我们 = #39; re 此处以帮助</h3>
+                        <h3>We& #39; re 此处以帮助</h3>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@ ms.locfileid: "26531745"
 
 ---
 
-<h2>什么 = #39; s 新</h2>
+<h2>What& #39; s 新</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -236,7 +236,7 @@ ms.locfileid: "26531745"
                 <div class="card">
                     <div class="cardText">
                         <h3>电话系统</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Office 365 中的电话系统是什么？</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">此处测验 s 与 Office 365 中的电话系统获取的内容</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Office 365 中的电话系统是什么？</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& #39; s 与 Office 365 中的电话系统获取的内容</a></p>
                </div>
                 </div>
             </div>
