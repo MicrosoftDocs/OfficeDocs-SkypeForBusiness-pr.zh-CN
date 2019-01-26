@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66a5a75d31b06976cd59d40f189fc87bf96c316e
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: ac7466df9000eba2ea2689c717a2012fd252e150
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348903"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562602"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 
@@ -51,5 +51,6 @@ ms.locfileid: "29348903"
 
 - 监视团队[路线图](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)。
 - 实现规划窗体 （如下所示） 以准备和实现新功能的更改。 请务必包括技术和用户准备活动。
+
 
 ![示例窗体显示预期的发布日期和注释有关与下一个步骤和所有者一起列出的新增功能](media/upgrade-change-plan-form.png "示例窗体显示预期的发布日期和注释有关与下一个步骤和所有者一起列出的新增功能")

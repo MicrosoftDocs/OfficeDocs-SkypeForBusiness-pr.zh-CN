@@ -1,5 +1,5 @@
 ---
-title: 使用 MSI 安装 Microsoft Teams
+title: 安装 Microsoft 团队使用通过 SCCM MSI
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4983f8089a5d221a29f67ae25dfa6766751a7394
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: ad0564d491302ae6b934cca1ae8501329951d9fd
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530587"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562586"
 ---
 <a name="install-microsoft-teams-using-msi"></a>使用 MSI 安装 Microsoft Teams
 =================================

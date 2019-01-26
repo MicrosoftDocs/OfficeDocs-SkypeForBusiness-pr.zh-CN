@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0ee02c2d8b8303bb353c2ebf1e30a72cc0e4f17
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 9b455d7599f5de8e2eb76f560e593eb5e409ecae
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349386"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562796"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 
@@ -165,7 +165,7 @@ Microsoft 团队是基于云的服务。 伴随这能够提供新特性和功能
 
 ### <a name="monitoring-for-change"></a>更改监控
 
-变更管理的第一步监控团队计划的更改。 监视这些更改的最佳源的是[Office 365 路线图](https://products.office.com/business/office-365-roadmap)，其中列出了当前正在开发，要推出的客户，或具有完全启动的功能。 您可以通过使用筛选器提供，搜索团队特定功能或可路线图下载到供进一步分析 Excel 文件。 为每个功能指南提供的简短说明，以及预期的发行日期。
+变更管理的第一步监控团队计划的更改。 监视这些更改的最佳源是[Microsoft 365 路线图](https://www.microsoft.com/microsoft-365/roadmap)，其中列出了当前正在开发，要推出的客户，或具有完全启动的功能。 您可以通过使用筛选器提供，搜索团队特定功能或可路线图下载到供进一步分析 Excel 文件。 为每个功能指南提供的简短说明，以及预期的发行日期。
 
 在[Microsoft 团队博客 （英文）](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)，您可以了解有关最佳做法、 趋势和有关团队产品更新的新闻。 希望找到主要功能团队此处发布更新。 您还可以订阅通过 RSS 源的博客。 您然后可以直接将团队通道，添加[RSS 源](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog)以便直接在工作组传递所有重要的新闻。
 

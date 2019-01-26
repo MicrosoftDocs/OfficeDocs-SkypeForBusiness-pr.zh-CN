@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b77af005130a4e3783f69c908184a8e19b44a9c5
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: f15aeaec8ed894cf25e72c8494aed3ae36070992
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772790"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562618"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 ======================================
@@ -44,7 +44,7 @@ ms.locfileid: "27772790"
 
 ## <a name="who-is-a-guest"></a>谁是来宾？
 
-来宾是贵组织的员工、学生和成员以外的任何人。 他们在贵组织没有学校或工作帐户。 例如，来宾可以包括合作伙伴、供应商、提供商或顾问。 不属于您的组织的任何人都可以作为来宾团队中添加。 这意味着与业务帐户 （即，Azure Active Directory 帐户） 或使用者电子邮件帐户 （以及 Outlook.com、 Gmail.com 或其他） 的任何人都可以参与作为来宾团队中具有完全访问权限的团队和通道体验。 （您可以了解有关[授权来宾访问中的 Microsoft 团队](teams-dependencies.md)中的来宾限制。）团队中的所有来宾涵盖的相同的遵从性和审核保护 Office 365 的其余部分和 Azure AD 中可以安全地进行管理。 
+来宾是贵组织的员工、学生和成员以外的任何人。 他们在贵组织没有学校或工作帐户。 例如，来宾可以包括合作伙伴、供应商、提供商或顾问。 不属于您的组织的任何人都可以作为来宾团队中添加。 这意味着与业务帐户 （即，Azure Active Directory 帐户） 或使用者电子邮件帐户 （以及 Outlook.com、 Gmail.com 或其他） 的任何人都可以参与作为来宾团队中具有完全访问权限的团队和通道体验。 （您可以了解有关[授权来宾访问中的 Microsoft 团队](teams-dependencies.md)中的来宾限制。）团队中的所有来宾涵盖的相同的遵从性和审核保护 Office 365 的其余部分和 Azure AD 中可以安全地进行管理。
 
 ## <a name="why-use-guest-access"></a>为什么使用来宾访问？
       

@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 直接路由中使用与所选的 SBC 供应商，以确认其 SBCs 的 Microsoft 合作伙伴。
-ms.openlocfilehash: 0230828c9aef49f8979c30d19c1d2d5e15779d84
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 611c7a4b7315b2c463ffffe8166eaeee7b6b7b7a
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326840"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562765"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -60,7 +60,7 @@ Microsoft 与选定会话边界控制器 (SBC) 供应商认证的合作伙伴与
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   待定    |      V7.0.2      |
 |                                                                                                                     |    SBC SWe 精简版     |     &#10004;     |   待定    |      V7.0.4      |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   待定    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |   待定    |   待定  |   待定    |
-|                                                                                                                     |      AP 4600         |    待定    |   待定    |      待定      |
-|                                                                                                                     |      VME             |    待定    |   待定    |      待定      |
+|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |    &#10004;     |   待定  |   ECZ8.1.0 MR 1 GA （构建 145）  |
+|                                                                                                                     |      AP 4600         |    &#10004;   |   待定    |     ECZ8.1.0 MR 1 GA （构建 145）  |
+|                                                                                                                     |      VME             |    &#10004;    |   待定    |     ECZ8.1.0 MR 1 GA （构建 145）     |
 |                     [TE 系统](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |   待定    |      v3.16.2      |

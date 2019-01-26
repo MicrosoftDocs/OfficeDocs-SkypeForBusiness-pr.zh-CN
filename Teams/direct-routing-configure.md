@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 了解如何配置 Microsoft 电话系统直接路由。
-ms.openlocfilehash: f89cae3569d5faf09e511439740485b40d91880e
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 565d25566843a507cb875eb96f32531d2ee77caf
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729441"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562820"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -57,7 +57,7 @@ ms.locfileid: "28729441"
 您建立一个远程 PowerShell 会话后，请验证您可以看到这些命令以管理 SBC。 若要验证命令，键入或复制/粘贴在下面的示例 PowerShell 会话中，按 Enter: 
 
 ```
-gcm *onlinePSTNGateway*
+Get-Command *onlinePSTNGateway*
 ```
 
 您的命令将返回如下所示，将允许您管理 SBC 的四个功能。 

@@ -1,5 +1,5 @@
 ---
-title: 您的 Microsoft 团队入门升级
+title: 开始 Microsoft Teams 升级
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,14 +14,14 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bade1b333accd5b39fb777894e2eaf3b06c6cc9
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: bc428a6e4e256a38248e66a99d5a95b668e5eeb6
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015352"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562757"
 ---
-# <a name="getting-started-with-your-microsoft-teams-upgrade"></a>您的 Microsoft 团队入门升级
+# <a name="getting-started-with-your-microsoft-teams-upgrade"></a>开始 Microsoft Teams 升级
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>为什么要升级到 Microsoft 团队？
 
@@ -47,3 +47,10 @@ Microsoft 致力于您成功，并提供了稳固围绕旨在帮助您规划和�
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+
+> [!Tip]
+> 观看以下视频可了解从 Skype for Business 到 Microsoft Teams 的升级旅程：
+> - [升级简介](https://aka.ms/teams-upgrade-intro)
+> - [规划升级](https://aka.ms/teams-upgrade-plan)
+> - [共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [管理员体验](https://aka.ms/teams-upgrade-admin)

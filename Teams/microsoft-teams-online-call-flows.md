@@ -13,14 +13,17 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 介绍如何团队工作负荷利用不同拓扑中的 Office 365 流。
-ms.openlocfilehash: 7bb107d58290798a2f075f4c789b788c6b5080f2
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 455e90d05a26ce387f916f531991ccaf664860d2
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013616"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562804"
 ---
 # <a name="microsoft-teams-online-call-flows"></a>Online 的 Microsoft 团队呼叫流
+
+> [!Tip]
+> 观看下面的会话，若要了解如何团队利用您的网络和如何最好地规划最佳的网络连接：[团队网络规划](https://aka.ms/teams-networking)
 
 ## <a name="overview"></a>概述
 本文档介绍团队工作负荷如何利用不同拓扑中的 Office 365 流。 此外，它指定用于对等媒体通信的唯一团队流。 文档枚举这些流程，并介绍其用途和其原点/终止网络。 例如，流 X 用于 Office 365 客户端在本地与云中，来自客户网络和 Office 365 云终结点终止的 Office 365 服务进行通信和流 Y 由本地的 Office 365 客户端与进行通信Internet，Office 365 具有依赖项，从客户网络，发起和终止 Internet 上的终结点上的服务。
