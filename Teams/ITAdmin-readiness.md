@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 培训视频、 教程和其他资源来 admins 如何规划、 部署和运行的 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8f83869d715c01f678e112eb9170013f2f1b956
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: 8ed98c1d26d6116d95e91030f57e92af9ebae61e
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201338"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562594"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
@@ -146,6 +146,9 @@ ms.locfileid: "27201338"
                     <div class="cardText">
                         <h3>团队协作</h3>
                          <p><a href="https://aka.ms/edx-cld267x-about">课程： 启用与 Microsoft 团队的团队协作</a></p>
+                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">视频： 在运行并获取您的团队</a></p>
+                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">视频： 转到指南团队所有者</a></p>
+                         <p><a href="create-an-org-wide-team.md">文章： 在工作组中创建一个组织范围团队</a></p>
                     </div>
                 </div>
             </div>
@@ -166,7 +169,7 @@ ms.locfileid: "27201338"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>规划和部署</h3>
+                        <h3>计划 & 部署</h3>
                          <p><a href="quick-start-enable-teams.md">快速入门: Teams 规划指南</a></p>
                          <p><a href="http://aka.ms/teams-clients">视频： 工作组 Windows 桌面客户端</a></p>
                          <p><a href="http://aka.ms/teams-governance">视频： 监管、 管理和生命周期中的 Microsoft 团队</a></p>
@@ -191,10 +194,9 @@ ms.locfileid: "27201338"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>团队和频道</h3>
-                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">视频： 在运行并获取您的团队</a></p>
-                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">视频： 转到指南团队所有者</a></p>
-                         <p><a href="create-an-org-wide-team.md">文章： 在工作组中创建一个组织范围团队</a></p>
+                        <h3>网络 & 呼叫质量</h3>
+                         <p><a href="https://aka.ms/teams-quality">视频： 呼叫质量概述</a></p>
+                         <p><a href="https://aka.ms/teams-networking">视频： 网络规划</a></p>
                     </div>
                 </div>
             </div>
@@ -228,7 +230,7 @@ ms.locfileid: "27201338"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>应用程序和工具</h3>
+                        <h3>应用程序 & 工具</h3>
                         <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">视频： 添加工具 （英文） 选项卡</a></p>
                         <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">视频： 使用命令框</a></p>
                         <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">视频： 命令栏概述</a></p>
