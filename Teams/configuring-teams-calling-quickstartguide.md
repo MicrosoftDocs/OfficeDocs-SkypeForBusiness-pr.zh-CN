@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc1c20f87103dc91a317e58dac03389275b255f2
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: 3e66005ca69a08cd0cf944455e73c155d20bfea9
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694694"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593923"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>快速入门指南：在 Microsoft Teams 中配置通话套餐
 ==============================================================
@@ -30,7 +30,7 @@ ms.locfileid: "28694694"
 请参阅 2017 年 12 月 12 日 Teams 中的通话套餐公告：[Teams 中通话功能的下一个阶段是智能通信](https://aka.ms/ipyqus)
 
 > [!NOTE]
-> 我们建议你与此快速入门指南一起使用[实践指导](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)和 [FastTrack](https://aka.ms/cloudvoice) 来规划和推动成功的部署。
+> 我们建议，本快速入门指南的同时，在您阅读[电话系统与调用计划](calling-plan-landing-page.md)和[FastTrack](https://aka.ms/cloudvoice)计划和驱动器成功推出。
 
 通过添加由 Skype for Business 提供技术支持的 Office 365 功能 - 通话套餐，现在可以使用 Teams 通过公用电话交换网 (PSTN) 向座机和手机拨打电话，也可以接听来自座机和手机的电话。
 
@@ -114,7 +114,7 @@ Teams 互操作性策略具有以下默认配置：
 
 [面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-[Microsoft Teams 中具有通话套餐的电话系统实践指导](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
+[具有通话套餐的电话系统](calling-plan-landing-page.md)
 
 [Skype for Business PowerShell cmdlet 参考](https://docs.microsoft.com/powershell/module/skype)
 

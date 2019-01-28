@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 培训视频、 教程和其他资源来 admins 如何规划、 部署和运行的 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ed98c1d26d6116d95e91030f57e92af9ebae61e
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: c394a2259223dfb7fc5ab233a2de604af2174d13
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562594"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593907"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
@@ -170,7 +170,7 @@ ms.locfileid: "29562594"
                 <div class="card">
                     <div class="cardText">
                         <h3>计划 & 部署</h3>
-                         <p><a href="quick-start-enable-teams.md">快速入门: Teams 规划指南</a></p>
+                         <p><a href="deploy-chat-teams-channels-microsoft-teams-landing-page.md">部署聊天、 团队、 通道和 Microsoft 团队中的应用程序</a></p>
                          <p><a href="http://aka.ms/teams-clients">视频： 工作组 Windows 桌面客户端</a></p>
                          <p><a href="http://aka.ms/teams-governance">视频： 监管、 管理和生命周期中的 Microsoft 团队</a></p>
                     </div>

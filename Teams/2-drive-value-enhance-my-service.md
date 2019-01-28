@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb6aeca0892bb3ccd07c5d4dd60508424845b4c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 66f7aafe353227c9602fbaecbd386a897aa021ea
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532166"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593883"
 ---
 # <a name="enhance-my-service"></a>增强我的服务
 
@@ -31,7 +31,7 @@ ms.locfileid: "26532166"
 
 此外，因为组织增长和更改，您应花时间随着并以确保该服务配置以满足组织当前需求的定期更新您的业务使用案例。  确保将通过您的组织中建立反馈通道从您的用户和内部拥护者中获取现实世界的反馈。 这些可非正式对话，常规会议或通过团队频道或 Yammer 社区。 
 
-当您看到增强您的服务的机会时，花时间正确。 随着我们实现阶段 (https://docs.microsoft.com/MicrosoftTeams/quick-start-enable-teams) ，应用相同的指南端到端。 不太小、 增量更改时，可能需要完成所有活动和完全，任务，但您应该确保评估每个活动和一路以便在成功结果为自己的最大限度地将任务。
+当您看到增强您的服务的机会时，花时间正确。 随着[部署聊天、 团队、 通道和 Microsoft 团队中的应用程序](deploy-chat-teams-channels-microsoft-teams-landing-page.md)和应用相同的指南端到端。 不太小、 增量更改时，可能需要完成所有活动和完全，任务，但您应该确保评估每个活动和一路以便在成功结果为自己的最大限度地将任务。
 
 
 <table>

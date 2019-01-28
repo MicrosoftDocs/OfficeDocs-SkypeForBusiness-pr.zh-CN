@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bb2ed4352b8a3fa1bfcb4d17527ca2272f06b3c
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 5f93a3ad801e72adaa7514fef83572f7766b0ee6
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349276"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594363"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 
@@ -34,9 +34,9 @@ ms.locfileid: "29349276"
 
 请确保您将始终获得最有效地使用您的服务的好方法是监视可能感兴趣的组织的新功能增强的[团队公共路线图](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)。 如果您有权访问 Office 365 管理门户，您会收到有关通过我们消息中心的新增和更改功能从我们的定期更新。
 
-此外，因为组织增长和更改，您应花时间随着并以确保该服务配置以满足组织当前需求的定期更新您的业务使用案例。 确保您通过您的组织中建立反馈通道从您的用户和内部拥护者中获取现实世界的反馈。 这些可非正式对话，常规会议，或完成通过团队频道或 Yammer 社区。
+当您看到增强您的服务的机会时，花时间正确。 随着[部署聊天、 团队、 通道和 Microsoft 团队中的应用程序](deploy-chat-teams-channels-microsoft-teams-landing-page.md)和应用相同的指南端到端。 不太小、 增量更改时，可能需要完成所有活动和完全，任务，但您应该确保评估每个活动和一路以便在成功结果为自己的最大限度地将任务。
 
-当您看到增强您的服务的机会时，花时间正确。 随着我们[实现阶段](quick-start-enable-teams.md)并应用相同的指南端到端。 不太小、 增量更改时，可能需要完成所有活动和完全，任务，但您应该确保评估每个活动和一路以便在成功结果为自己的最大限度地将任务。
+当您看到增强您的服务的机会时，花时间正确。 随着我们[实现阶段](deploy-chat-teams-channels-microsoft-teams-landing-page.md)并应用相同的指南端到端。 不太小、 增量更改时，可能需要完成所有活动和完全，任务，但您应该确保评估每个活动和一路以便在成功结果为自己的最大限度地将任务。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>决定谁将监视公共路线图和新功能或服务的组织可能会受益于其他服务通知。</li><li>决定要这些新功能或服务向报告主要利益干系人，通过调控委员会节奏。</li></ul></td></tr>

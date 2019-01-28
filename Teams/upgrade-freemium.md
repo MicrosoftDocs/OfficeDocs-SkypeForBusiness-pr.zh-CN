@@ -16,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: cb8770b0929b46aa0e98e1429a11874756ed07e1
-ms.sourcegitcommit: d9059e8cb0a9b968ee16508f6bfcb5d949575590
+ms.openlocfilehash: 468a3c60b83784fb308165a5da835d451f2bc780
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "27733200"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594227"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>将 Microsoft Teams free 升级到 Office 365 订阅版本
 ======================================================
@@ -86,7 +86,7 @@ ms.locfileid: "27733200"
 
 ## <a name="whats-next"></a>下一步是什么？
 
-完成升级后，请参阅[入门的 Microsoft 团队](get-started-with-teams-landing-page.md)的第一个步骤和[采用 Microsoft 团队](adopt-microsoft-teams-landing-page.md)的团队应用的阶段性方法在整个组织。
+完成升级后，请参阅[入门的 Microsoft 团队](get-started-with-teams-quick-start.md)的第一个步骤和[采用 Microsoft 团队](adopt-microsoft-teams-landing-page.md)的团队应用的阶段性方法在整个组织。
 
 ## <a name="more-information"></a>更多信息
 

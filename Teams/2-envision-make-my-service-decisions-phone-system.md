@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 702b126ac065b3fd84737cd0a6bb00f47c6d4991
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: eb254de21bfaf0ffb66a9c9177e5109a1b4eafc1
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694756"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593963"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -135,7 +135,7 @@ ms.locfileid: "28694756"
 >[!NOTE]
 > 实施了回退机制，以便电话系统语音邮件可以通过使用 SMTP 重新发送邮件，这意味着，在第三方电子邮件系统中有邮箱的用户将会收到其语音邮件。 此机制不包括保证的服务正常运行时间或其他语音邮件功能，如更改语音邮件问候语。
 
-有关在电话系统的实施中的语音邮件的详细信息，请参阅[Exchange server 支持的 Azure PBX 语音邮件](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#licensing-for-calling-plans)。
+有关在电话系统的实施中的语音邮件的详细信息，请参阅[电话系统与调用计划](calling-plan-landing-page.md)。
 
 <br>
 

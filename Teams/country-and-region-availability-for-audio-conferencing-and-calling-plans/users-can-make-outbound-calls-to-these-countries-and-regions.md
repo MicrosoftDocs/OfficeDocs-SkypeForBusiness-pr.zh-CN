@@ -8,7 +8,6 @@ ms.topic: article
 ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
 ms.service:
-- skype-for-business-online
 - msteams
 ms.collection:
 - Adm_Skype4B_Online
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 本主题包含所有用户可以发起出站调用，如果拥有调用规划国家/地区。
-ms.openlocfilehash: 987379350d2605702d0e9e080f6a7a3a6d3a0383
-ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
+ms.openlocfilehash: 6843d06d99e049cdd7576c4c5618c1f5d0297133
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "25576573"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594323"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>用户可以拨打到这些国家和地区的出站电话
 
@@ -38,7 +37,7 @@ ms.locfileid: "25576573"
 
 |**A-D**| **E-H**|**我-L**|**M-O**|**P-S**|**T-Z**|
 ---|---|---|---|---|---|
-|阿富汗|厄瓜多尔 |冰岛 |澳门特别行政区 |巴基斯坦 |台湾   |
+|阿富汗|厄瓜多尔 |冰岛 |澳门特别行政区 |巴基斯坦 |中国台湾   |
 |阿尔巴尼亚|埃及 |印度 |马其顿 |帕劳 |塔吉克斯坦   |
 |阿尔及利亚|萨尔瓦多 |印度尼西亚 |马拉维 |巴勒斯坦民族权力机构 |坦桑尼亚联合共和国  |
 |美属萨摩亚|赤道几内亚 |伊朗 |马来西亚 |巴拿马 | 泰国   |

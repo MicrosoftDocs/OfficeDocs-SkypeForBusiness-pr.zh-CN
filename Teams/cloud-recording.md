@@ -12,12 +12,12 @@ description: 在 Microsoft Teams 中部署云语音功能实践指导
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 085f2ff382c33f6914454fd1633054fd3e4602ca
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: b2b57b7c39dc129c485943c5048a8d4b6441d942
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015330"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594195"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -61,7 +61,7 @@ Microsoft 流是可用的合格的 Office 365 订阅一部分或作为独立的�
 
 如果 Microsoft 流管理员[设置公司准则策略](https://docs.microsoft.com/stream/company-policy-and-consent)并要求员工保存内容之前接受此策略，用户必须完成之前的 Microsoft 团队中的记录。 推出组织中的录制功能之前，请确保用户同意策略。
 
-### <a name="enabledisable-cloud-recording-for-users"></a>启用/禁用将云用户录制
+### <a name="turn-on-or-turn-off-cloud-recording"></a>打开或关闭云录制
 
 使用中的设置 AllowCloudRecording 团队 powershell TeamsMeetingPolicy 控制是否允许用户的会议录制。 您可以了解有关管理 Office 365 PowerShell 中使用的 TeamsMeetingPolicy[此处](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
@@ -86,7 +86,7 @@ Microsoft 流是可用的合格的 Office 365 订阅一部分或作为独立的�
 |      我希望录制的大部分用户禁用，但有选择性地启用特定用户允许进行录音       | <ol><li>确认全局 CsTeamsMeetingPolicy 具有 AllowCloudRecording = False<li>大多数用户已被授予全局 CsTeamsMeetingPolicy 或一个 CsTeamsMeetingPolicy 策略的与 AllowCloudRecording = False<li>所有其他用户已被授予与 AllowCloudRecording CsTeamsMeetingPolicy 策略之一 = True <ol> |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
 
-### <a name="enabledisable-recording-transcription-for-users"></a>启用/禁用的用户的录制转录
+### <a name="turn-on-or-turn-off-recording-transcription"></a>打开或关闭录制转录
 
 在用户记录其团队会议时，他们可以确认是否脚本应自动生成后录制会议。 如果管理员已禁用会议组织者和录制启动器转录功能，录制发起者不会选择，理赔会议录制。
 

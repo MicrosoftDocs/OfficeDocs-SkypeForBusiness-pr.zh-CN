@@ -1,5 +1,5 @@
 ---
-title: 企业中的 Microsoft 团队测试的电话系统与调用计划的计划
+title: 针对 Microsoft Teams 中具有通话套餐的电话系统的企业测试计划
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 995635ed8a7f3c9a9a5d4291652208246c3f9697
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: 85774296ad871d7d9d036a660299cc88099c4de6
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694787"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594059"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>定义和团队测试计划适用于企业中文档电话系统与调用计划 
 ============================================================================================
@@ -72,8 +72,8 @@ ms.locfileid: "28694787"
 <a name="define-phone-system-with-calling-plans-feature-requirements"></a>定义电话系统与调用计划功能要求 
 ------------------------------------------------------------
 
-作为定义范围中的用户调用计划功能要求的电话系统的一部分，您应该已经完成构想阶段的第一个步骤之一是[个人分析](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#assess-environment-and-evaluate-adoption-readiness)，其中定义电话系统与调用计划角色和应用场景。
-标识此比较基准下, 一步是评估的最新的工作组公共路线图来确定：
+作为定义范围中的用户调用计划功能要求的电话系统的一部分，请参阅[电话系统与调用计划](calling-plan-landing-page.md)。
+接下来，计算值的最新的工作组公共路线图来确定：
 
 -   调用计划的功能，您将部署范围内的用户的电话系统。
 

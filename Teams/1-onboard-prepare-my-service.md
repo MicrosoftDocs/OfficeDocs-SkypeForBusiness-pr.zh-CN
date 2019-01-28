@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 335d5baac6f13d899b8d6f9875a419d86da1b6af
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cdcf5bd3da33463d39f8681a41d7299f3d66e727
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374314"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593931"
 ---
 # <a name="prepare-my-service"></a>准备我的服务
 
@@ -41,7 +41,7 @@ ms.locfileid: "25374314"
 任务和这些清单中的活动是"核心待办事项"适用于云与团队的语音功能的每个部署。 您可以自定义要包含的活动和特定于您自己团队旅程的任务的清单。
 
 >[!NOTE]
->本指南重点在于调用计划、 音频会议和直接路由。 如果您熟悉向工作组，请查看[Microsoft 团队概述](teams-overview.md)。 规划团队部署的一般指导，请参阅[Microsoft 团队规划指南](quick-start-enable-teams.md)。
+>本指南重点在于调用计划、 音频会议和直接路由。 如果您熟悉向工作组，请查看[Microsoft 团队概述](teams-overview.md)。 有关规划团队部署的一般指南，从开始[部署聊天、 团队、 通道和 Microsoft 团队中的应用程序](deploy-chat-teams-channels-microsoft-teams-landing-page.md)。
 
 使用提供的清单来跟踪的每个单独的活动和任务，状态，以确保您没有跳过任何关键的步骤。 每个活动包括所需的操作和可用于完成了该活动的其他信息的引用的详细的说明。
 
@@ -50,7 +50,7 @@ ms.locfileid: "25374314"
 按每个站点的入职培训用户时，我们强烈建议[语音设置 （方案） 的网站启用设置方案](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)使用这些清单的补充指南作为。
 
 >[!NOTE]
->常见团队和 Skype 业务 online 之间了大部分的配置设置。 使用 Office 365 管理中心和团队和业务管理中心的 Skype 配置这些设置。
+>常见团队和 Skype 业务 online 之间了大部分的配置设置。 Office 365 管理中心和团队 & Business Admin Center 的 Skype 用于配置这些设置。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>谁将负责监督入职培训清单完成？</li></ul></td></tr>
@@ -114,7 +114,7 @@ ms.locfileid: "25374314"
 
 - [设置音频会议 for Skype Business 和 Microsoft 团队](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
 
-- [技术规划调用计划的电话系统](phone-system-with-calling-plans.md#technical-planning-for-phone-system-with-calling-plans)
+- [技术规划调用计划的电话系统](calling-plan-landing-page.md)
 
 - [调用计划为设置 Skype 业务和 Microsoft 团队](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
@@ -125,7 +125,7 @@ ms.locfileid: "25374314"
 ### <a name="execute-the-test-plan"></a>执行测试计划
 
 [//]: # (好了编辑？"User"看起来有点不明确给我。)
-已配置的用户环境和服务后，测试的最后一步将包括具有焦点的功能及功能验证测试计划执行。 
+已配置的用户环境和服务后，测试的最后一步将包括具有焦点的功能及功能验证测试计划执行。 
 
 **测试先决条件和假设条件的用户和网站范围内的音频会议：**
 
@@ -137,7 +137,7 @@ ms.locfileid: "25374314"
 
 -   已标识并配置专用和共享的音频会议电话拨入式号码语言首选项的列表。
 
--   [Communications 字幕式](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)（如果需要） 已为组织设置。
+-   [Communications 字幕式](what-are-communications-credits.md)（如果需要） 已为组织设置。
 
 -   音频会议的会议桥设置已标识和配置 （PIN 长度、 条目/退出通知启用通知首选项）。
 
@@ -155,7 +155,7 @@ ms.locfileid: "25374314"
 
 -   已获得或移植到 Microsoft 和租户门户中提供有要分配给用户的电话号码。
 
--   [Communications 字幕式](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)（如果需要） 已为组织设置。
+-   [Communications 字幕式](what-are-communications-credits.md)（如果需要） 已为组织设置。
 
 -   租户用户策略和拨号计划设置支持调用计划方案具有已标识、 配置，并应用。
 

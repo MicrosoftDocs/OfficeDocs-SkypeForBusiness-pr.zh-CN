@@ -12,13 +12,16 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10de89c43a653cd090f313ec368bde42bd774b03
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 64cb77116d55d9ddf9c084bff2205ecb4ba8aaca
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530557"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593891"
 ---
+> [!NOTE]
+> 查看以下信息以了解聊天、 工作组、 通道和团队中的 & 应用程序。 然后，转到[部署聊天、 工作组、 通道和团队中的 & 应用程序](deploy-chat-teams-channels-microsoft-teams-landing-page.md)来为您的团队推出遍历的重要决策的列表。
+
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 =================================================
 
@@ -57,13 +60,13 @@ ms.locfileid: "26530557"
 
    > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
-如果您是 Office 365 中的 Microsoft 团队管理员，您有权访问业务管理中心的 Skype 团队中的系统范围设置。 这些设置可能会影响团队所有者在团队设置下看到的选项和默认设置。 例如，你可以为团队范围的公告、讨论和资源启用默认频道“常规”，它将在所有团队中显示。
+如果您是 Office 365 中的 Microsoft 团队管理员，您的团队 & Business Admin Center 的 Skype 有权访问系统范围的设置。 这些设置可能会影响团队所有者在团队设置下看到的选项和默认设置。 例如，你可以为团队范围的公告、讨论和资源启用默认频道“常规”，它将在所有团队中显示。
 
 默认情况下，所有用户都有权在 Microsoft Teams 中创建团队（要对此进行修改，请参阅[在 Teams 中指定角色和权限](assign-roles-permissions.md)）。 现有 Office 365 组的用户也可以使用 Teams 功能帮助自己。
 
 吸引用户使用 Teams 的一项关键的早期计划活动是帮助人们考虑和了解 Microsoft Teams 如何在其日常生活中增强协作。 与人员交谈，并帮助他们选择其中他们当前协作方式零碎的业务方案。  将他们带入具有可帮助他们完成工作的相关选项卡的频道。 Teams 最强大的用例之一就是跨组织流程。 
 
-<a name="examples-teams"></a>示例团队 
+<a name="example-teams"></a>示例团队 
 --------------
 
 下面是一些操作示例，介绍了不同类型的用户如何建立其团队、频道和应用（选项卡/连接器/聊天机器人）- 要与你的用户社区开始有关 Microsoft Teams 的对话，这可能很有帮助作用。 当你考虑如何在贵组织中实施 Microsoft Teams 时，请注意，你可以指导如何建立团队，但用户可以控制如何自我组织。 这些示例正是促使团队开始仔细思考各种可能性。

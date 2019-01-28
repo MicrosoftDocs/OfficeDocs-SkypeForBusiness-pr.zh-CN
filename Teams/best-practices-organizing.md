@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43c619f8d053d0d06b9b5494d812eea541869922
-ms.sourcegitcommit: 72afa227b917f9fabd278fc7bea9d515b5d53def
+ms.openlocfilehash: a4a839e7f903e232a3ebfe76056cfb97f2bc8219
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26670928"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594107"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中组织团队的最佳做法
 ======================================================
@@ -51,7 +51,7 @@ ms.locfileid: "26670928"
 -  用于通知，或将 SharePoint 新闻连接器配置为发布到此通道您现代状态报告。  
 -  对于新的或单一用途团队，它可能会开头的唯一通道，因为您决定如何团队最能支持您的目标。
 
-当前，你不能删除“常规”频道，也不能将其取消收藏。 为频道命名时，请注意，频道将按字母顺序排列在“常规”频道后面。  在具有许多通道团队使用的"收藏夹通道"功能来控制自动导航到团队时看到的通道。 
+当前，你不能删除“常规”频道，也不能将其取消收藏。 为频道命名时，请注意，频道将按字母顺序排列在“常规”频道后面。 在具有许多通道团队使用的"收藏夹通道"功能来控制自动导航到团队时看到的通道。 
 
 了解更多[工作通道中](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels)使用这些快速提示的最终用户。 
 
