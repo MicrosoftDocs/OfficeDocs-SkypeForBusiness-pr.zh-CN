@@ -12,26 +12,26 @@ description: 了解如何管理与团队您组织中使用的设备。
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dff307b1bd4ede3e8999a78a5e6a8df36b8a1411
-ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
+ms.openlocfilehash: eb2c6b9f0693246d9d8a724d12a33bb05805fb83
+ms.sourcegitcommit: d83da643f5e25e5287961fe723012a6ce9bb9738
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/28/2018
-ms.locfileid: "27458547"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29598810"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>在 Microsoft Teams 中管理设备
 
- 作为一名管理员，您可以管理与团队您组织中使用的 Microsoft 团队链接 Skype 业务管理中心的所有设备。 您可以查看和管理组织的设备清单和执行任务更新，重新启动，等设备监视器诊断。 您还可以创建和配置配置文件分配的设备或设备组。 
+ 作为一名管理员，您可以管理与团队您组织中使用的 Microsoft 团队 & Skype 从业务管理中心的所有设备。 您可以查看和管理组织的设备清单和执行任务更新，重新启动，等设备监视器诊断。 您还可以创建和配置配置文件分配的设备或设备组。 
 
 ## <a name="what-devices-can-you-manage"></a>您可以管理哪些设备？
-设备必须认证团队和团队中注册。 设备自动注册用户登录到工作组在设备的第一个时间。 可以管理的认证设备的列表，请参阅[会议电话](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?categoryid=ddb1bc66-7499-4823-8d2b-a2c6dbe4f716)和[桌面电话](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?categoryid=c6536b33-f554-4b55-bd3d-c98733ebc017&page=1&filters=)。
+设备必须认证团队和团队中注册。 设备自动注册用户登录到工作组在设备的第一个时间。 可以管理的认证设备的列表，请参阅[会议电话](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16)和[桌面电话](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34)。
 
 > [!NOTE]
 > 如果您有 Microsoft Intune，设备 Intune 自动注册。 注册设备后，确认设备合规性和条件的访问策略应用于该设备。 
 
 ## <a name="manage-devices-in-teams"></a>管理团队中的设备
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队 Skype 业务管理中心的
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用业务管理中心的 Microsoft 团队 & Skype
 
 1. 在左侧导航窗格中，转到**设备** > **管理设备**。
 2. 选择**所有设备**。  
@@ -42,9 +42,9 @@ ms.locfileid: "27458547"
     
 |若要执行此操作...  |执行此操作 |
 |---------|---------|
-|更改设备信息   | 选择设备 >**编辑**。 您可以编辑详细信息，如设备名称、 用户信息、 资产标记，并添加备注。     |
+|更改设备信息   | 选择**编辑**设备 >。 您可以编辑详细信息，如设备名称、 用户信息、 资产标记，并添加备注。     |
 |管理软件更新   |选择设备 >**更新**。 您可以查看软件和固件更新适用于设备的列表并选择要安装的更新。    |
-|重新启动设备   |选择设备 >**重新启动**。          |
+|重新启动设备   |选择**重新启动**设备 >。          |
 |查看设备历史记录  | 选择设备 >**历史记录**。 您可以查看设备的更新历史记录。     |
 |查看诊断  | 选择设备 >**诊断**。        |
 
@@ -54,7 +54,7 @@ ms.locfileid: "27458547"
 
 ### <a name="create-a-configuration-profile"></a>创建配置文件
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队 Skype 业务管理中心的
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用业务管理中心的 Microsoft 团队 & Skype
 
 1. 在左侧导航窗格中，转到**设备** > **管理设备**。
 2. 选择**配置配置文件**，，然后选择**新的配置文件**。
@@ -63,7 +63,7 @@ ms.locfileid: "27458547"
 
 ### <a name="assign-a-configuration-profile"></a>分配配置配置文件
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队 Skype 业务管理中心的
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用业务管理中心的 Microsoft 团队 & Skype
 
 1. 在左侧导航窗格中，转到**设备** > **管理设备**。
 2. 选择**配置文件**，，然后单击在**分配 2 分配给**您想要分配的配置文件中，下的链接。  
