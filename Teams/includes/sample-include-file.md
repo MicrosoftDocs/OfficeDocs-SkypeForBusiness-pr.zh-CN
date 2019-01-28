@@ -1,1 +1,1 @@
-<span data-ttu-id="02a1c-101">示例包括文件 - 替换此文本。</span><span class="sxs-lookup"><span data-stu-id="02a1c-101">Sample include file - just replace this text with your own.</span></span>
+<span data-ttu-id="6890f-101">示例包括文件 - 替换此文本。</span><span class="sxs-lookup"><span data-stu-id="6890f-101">Sample include file - just replace this text with your own.</span></span>
