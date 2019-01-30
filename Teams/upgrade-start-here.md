@@ -3,7 +3,7 @@ title: 开始 Microsoft Teams 升级
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 01/14/2019
+ms.date: 01/30/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc428a6e4e256a38248e66a99d5a95b668e5eeb6
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 3881990e6c6906f59ceef2c2c4055399457d6952
+ms.sourcegitcommit: 784dcab3923adec61449b3b901e22a991f0c262d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562757"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29662467"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>开始 Microsoft Teams 升级
 
@@ -34,6 +34,8 @@ Microsoft 鼓励客户尽快为可行优化福利总的说来升级到团队。 
 ## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>如何为 Microsoft 帮助客户使用其升级到团队？ 
 
 Microsoft 致力于您成功，并提供了稳固围绕旨在帮助您规划和执行升级到团队的经验证、 端到端升级成功框架的指南。 我们指南旨在为升级旅程，每个阶段刚入门规划，已在运行团队旁 Skype for Business，还是准备好升级到团队。
+
+为了方便您升级规划和实施，Microsoft 承载互补旨在快速熟悉我们升级框架、 共享见解升级的准备您的用户和定向到您的联机培训各种共存选项您的组织可以承担您旅程向工作组。 升级规划概述会话的加入我们： [https://aka.ms/Upgrade101](https://aka.ms/upgrade101)。
  
 ## <a name="why-do-i-need-upgrade-guidance-cant-i-just-deletedecommission-skype-for-business"></a>为什么需要升级指南？ 不能我刚删除/停用 Skype for Business？ 
 
