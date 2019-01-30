@@ -17,17 +17,19 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: 了解用于远程管理的 Skype online 通过 Windows PowerShell，包括支持的操作系统上的业务要求。
-ms.openlocfilehash: 001e8da26daaff65a1761519073667e530688243
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 01fa2856149bb7718fc34bb83f48e03a307496b8
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862580"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635625"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>为 Windows PowerShell 设置计算机
 
 远程管理的 Skype 业务 online 使用 Microsoft PowerShell 支持只能在运行以下操作系统之一的 64 位计算机上：
-  
+
+- Windows Server 2016
+
 - Windows 10
     
 - Windows 8.1

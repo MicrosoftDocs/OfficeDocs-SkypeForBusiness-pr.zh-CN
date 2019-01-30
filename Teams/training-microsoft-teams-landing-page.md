@@ -12,12 +12,12 @@ ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f67a641898ca305662b5ea4b06bf772146a19a9f
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 29cfb69af17387ad5ca9b9cf4f1ceff11fe09117
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29595365"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635688"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft 团队培训
 
@@ -116,7 +116,7 @@ ms.locfileid: "29595365"
                 <div class="card">
                     <div class="cardText">
                         <h3>采用专员证书</h3>
-                        <p><a href="http://aka.ms/AdoptionCert">在早期年 1 月 2019，我们释放 Microsoft 服务采用专员认证课程，其中团队，旨在教您如何成功驱动器，公司内的 Microsoft 服务的应用。</a></p>
+                        <p><a href="http://aka.ms/AdoptionCert">在早期年 1 月 2019，我们发布 Microsoft 服务采用专员认证课程，其中团队。它将教您如何推行您组织的 Microsoft 服务</a></p>
                     </div>
                 </div>
             </div>

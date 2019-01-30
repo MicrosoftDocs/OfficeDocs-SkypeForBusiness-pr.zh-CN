@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: f4d66c58066cd5547a8692066763675006d97920
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: a1e1421e79b25da37f26c09b271abb67f7b3340b
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326696"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635751"
 ---
 # <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>添加、 更改或删除您的组织的紧急地址
 
@@ -53,6 +53,8 @@ ms.locfileid: "28326696"
     
     > [!IMPORTANT]
     > [!重要信息] 验证街道或市镇地址涉及确保该地址是合法的并且格式设置正确。 则可能的部分正确的紧急地址，例如，如果您输入正确市/县的名称可能仍通过验证。 即使拼写错误并通过验证，拼错的城市名称和地址的其他正确部分相结合也足以将呼叫路由到合适的紧急派遣中心。 
+    
+    > 注意： 比利时，法国、 德国、 爱尔兰、 荷兰和西班牙务必要了解的才能成功激活 Office 365 中将用于获取数，紧急位置的地址设置中的电话号码必须匹配电话号码的区域代码。
   
     如果地址无法验证，如果你验证的是美国地址，可以通过单击**发送验证请求**来发送手动验证请求，或者，如果在美国以外，可单击**打开服务请求以获取地址验证帮助**。
     

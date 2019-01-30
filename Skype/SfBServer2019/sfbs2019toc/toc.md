@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 05cd733e96ad77b0a413c9846ceb3697b45eec13
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694780"
----
 # [Skype 业务服务器 2019](../skype-for-business-server-2019.md)
 
 ## [新增功能](../whats-new.md)
@@ -275,7 +267,6 @@ ms.locfileid: "28694780"
 #### [高分辨率照片](../../SfbServer/deploy/integrate-with-exchange-server/high-resolution-photos.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [使用统一联系人存储库](../../SfbServer/deploy/integrate-with-exchange-server/use-the-unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [ExchangeUnified 消息语音邮件](../../SfbServer/deploy/integrate-with-exchange-server/exchangeunified-messaging-for-voice-mail.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### [个人联系人存储库](../../SfbServer/deploy/integrate-with-exchange-server/personal-contacts-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Outlook Web App](../../SfbServer/deploy/integrate-with-exchange-server/outlook-web-app.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [OAuth 与 Online 和本地](../../SfbServer/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [部署统一联系人存储](../../SfbServer/deploy/deploy-unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
