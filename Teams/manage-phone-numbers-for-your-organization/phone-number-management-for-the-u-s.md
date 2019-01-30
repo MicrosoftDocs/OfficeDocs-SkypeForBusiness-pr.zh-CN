@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的美国（和波多黎各）电话号码的信息。
-ms.openlocfilehash: 4998a742bdfdcf23d6f20a4f00ec889f9ef838eb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1a675b0fa0b06ca3882d804d8ad80b2ec88e71a7
+ms.sourcegitcommit: e2ba383205baa447990d4b2f9c145e299406b9ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531005"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29651110"
 ---
 # <a name="phone-number-management-for-the-us"></a>美国的电话号码管理
 
@@ -41,9 +41,9 @@ ms.locfileid: "26531005"
 |:-----|:-----|
 |获取业务管理中心 Skype 中未列出的新用户电话号码。  <br/> |下载[美国的新电话号码申请（用户号码）(v.3.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en-us).pdf?raw=true) 表单，填写此表单并[将其发送给我们](mailto:gcstnmsd@microsoft.com)。  <br/> |
 |获取业务管理中心 Skype 中未列出的新服务电话号码。 <br/> |服务内部美国的电话号码，请[下载此窗体](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-inside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true)、 填充出，并[将其向我们发送](mailto:ptn@microsoft.com)。
-|你需要将电话号码转移给我们。  <br/> | 下载下列表单之一： <br/> [信函的授权 (LOA) 美国 （用户和服务号码） (v.3.2)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/>[美国授权书 (LOA)（免费电话号码）(v.3.2)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/Letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/><br/>**注意：** 如果你尝试获取超过 999 个订阅者或用户电话号码，你需要填写授权书 (LOA) 并将其发送给我们。 请参阅[将电话号码转移到 Office 365](../transfer-phone-numbers-to-office-365.md) 获取详细信息。          <br/>  <br/>   填写此申请并[将其发送给我们](mailto:ptn@microsoft.com)。  <br/> |
-|你需要将用户的号码更改为服务号码。  <br/> |[向我们发送](mailto:ptn@microsoft.com)你的 PIN 以及你想要转换为服务号码的用户号码列表。 要设置 PIN，请访问[此处](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)。  <br/> |
-|你需要将号码从一个 Office 365 组织转移到另一个。  <br/> |[向我们发送](mailto:ptn@microsoft.com)你想要转移的用户（订阅者）电话号码列表以及你想要从其转移号码的源组织的 PIN。 要设置 PIN，请访问[此处](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)。  <br/> |
+|获取对我们转接的电话号码。  <br/> | 下载下列表单之一： <br/> [信函的授权 (LOA) 美国 （用户和服务号码） (v.3.2)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/>[美国授权书 (LOA)（免费电话号码）(v.3.2)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/Letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/><br/>**注意：** 如果你尝试获取超过 999 个订阅者或用户电话号码，你需要填写授权书 (LOA) 并将其发送给我们。 请参阅[将电话号码转移到 Office 365](../transfer-phone-numbers-to-office-365.md) 获取详细信息。          <br/>  <br/>   填写此申请并[将其发送给我们](mailto:ptn@microsoft.com)。  <br/> |
+|用户的号更改为服务号码。  <br/> |[向我们发送](mailto:ptn@microsoft.com)你的 PIN 以及你想要转换为服务号码的用户号码列表。 要设置 PIN，请访问[此处](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)。  <br/> |
+|将从一个 Office 365 组织的号码转接到另一个。  <br/> |[向我们发送](mailto:ptn@microsoft.com)你想要转移的用户（订阅者）电话号码列表以及你想要从其转移号码的源组织的 PIN。 要设置 PIN，请访问[此处](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)。  <br/> |
 |||
    
 ## <a name="related-topics"></a>相关主题 
