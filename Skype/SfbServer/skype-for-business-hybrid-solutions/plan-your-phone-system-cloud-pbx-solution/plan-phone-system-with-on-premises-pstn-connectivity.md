@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 了解 Office 365 (云 PBX) 中的电话系统的规划注意事项的内部部署 PSTN 连接。
-ms.openlocfilehash: 4614b3fdc62d8a51323ee7c9f261bec3d6cea6c3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 978da546961188c54c7e08e2ed140f8d01986e44
+ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531600"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "29686470"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>规划 Office 365 中的电话系统与内部部署 PSTN 连接中 Skype 业务 Server
 
 了解 Office 365 (云 PBX) 中的电话系统的规划注意事项的内部部署 PSTN 连接。
 
-如果您已有 Skype 业务服务器或本地 Lync Server 2013 部署，此内容是相关。 有关其他方案，请参阅[规划 Office 365 (云 PBX) 解决方案中电话系统](plan-your-phone-system-cloud-pbx-solution.md)。
+如果您已有 Skype 业务服务器或本地 Lync Server 2013 部署，此内容是相关。 有关其他方案，请参阅[Microsoft 电话服务解决方案](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)。
 
  通过内部部署 PSTN 连接的 Office 365 中的电话系统可以利用您的用户的电话系统 (云 PBX) 功能。 这在以下情况下可能很有帮助：
 
@@ -105,12 +105,12 @@ ms.locfileid: "26531600"
     > [!NOTE]
     > 您所使用的 AAD Connect 版本必须是版本 1.0.9125.0 或更高版本。如果您使用较早版本的 AAD Connect 工具或 DirSync，请升级到支持的版本。您可以升级您的当前安装并维护您在环境中定义的任何自定义规则。 
 
-- **配置混合部署**是否所有业务用户您 Skype 目前驻留之一联机或本地，或如果当前有组合，在[部署混合中所述，必须完成业务服务器或 Lync Server 2013 配置混合部署的 Skype 的步骤Skype 业务服务器和 Skype 业务 online 之间的连接](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)。 在混合部署的更多背景信息，请参阅[规划 Skype 业务服务器和 Skype 业务 online 之间的混合连接性](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)。 
+- **配置混合部署**是否所有业务用户您 Skype 目前驻留之一联机或本地，或如果当前有组合，在[部署混合中所述，必须完成业务服务器或 Lync Server 2013 配置混合部署的 Skype 的步骤Skype 业务 server 和 Office 365 之间的连接](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)。 在混合部署的更多背景信息，请参阅[Plan Business Server 和 Office 365 的 Skype 之间的混合连接性](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)。 
 
     如果您使用 Lync Server 2013，请参阅[Lync Server 2013 hybrid](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx)。
 
 - **Active Directory 联合身份验证服务 (AD FS) （推荐）** 我们建议部署 AD FS 以支持单一登录。 有关详细信息，请参阅[Active Directory 联合身份验证服务 (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx)。
 
-有关部署 Office 365 中的电话系统的信息，请参阅[启用通过内部部署中的业务服务器 Skype 的 PSTN 连接的 Office 365 中的电话系统的用户](enable-users-for-phone-system.md)。
+有关部署 Office 365 中的电话系统的信息，请参阅[设置您的组织中的电话系统](https://docs.microsoft.com/en-us/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)。
 
 

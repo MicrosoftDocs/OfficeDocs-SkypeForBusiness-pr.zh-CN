@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6acb497937ad7548f8ffc745d12b0ddd813b3e46
-ms.sourcegitcommit: 38efc00dfadc98cebd362877a1239d852f804f06
+ms.openlocfilehash: ba75e2efa5ce96a30f868bef44349468753abeec
+ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25353188"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "29686462"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -51,9 +51,9 @@ Teams 会议外接程序要求用户使用新式身份验证登录 Teams。 如�
 
 ## <a name="enable-private-meetings"></a>启用私人会议
 
-允许中团队业务管理中心此插件的 Skype 获取部署必须启用专用会议计划。 在管理中心，转到**会议** > **会议策略**，并在**常规**部分，为切换**允许安排专用会议**。)
+允许必须启用团队 & 业务管理中心此插件的 Skype 获取部署中的专用会议计划。 在管理中心，转到**会议** > **会议策略**，并在**常规**部分，为切换**允许安排专用会议**。)
 
-![Skype 业务管理中心的团队中的设置的屏幕截图。](media/teams-add-in-for-outlook-image1.png)
+![团队 & Skype 的业务管理中心中的设置的屏幕截图。](media/teams-add-in-for-outlook-image1.png)
 
 Teams 客户端通过确定用户需要 32 位还是 64 位版本来安装正确的外接程序。
 
@@ -65,12 +65,11 @@ Teams 客户端通过确定用户需要 32 位还是 64 位版本来安装正确
 Teams 会议外接程序仍是正在构建的功能，因此请注意以下事项：
 - 一些在线会议功能（例如，录制、投票和白板）还不可用。
 - 会议选项当前不可用。
-- 当前只能邀请公司内部的人员，因为外部用户还不能加入会议。
 - 此外接程序用于特定参与者的安排会议，而非用于频道中的会议。 频道会议必须从 Teams 中安排。 当前，仅面向 Windows 用户提供 Outlook 中的 Teams 会议外接程序，但即将面向 Mac 用户提供。
 - 如果用户的 PC 和 Teams 服务的网络路径中存在身份验证代理，则此外接程序将无法工作。
 - 外接程序要增量推出和可能不可用，贵组织尚未。
 
-## <a name="troubleshooting"></a>疑难解答
+## <a name="troubleshooting"></a>故障排除
 
 如果无法让团队会议外接程序 Outlook 安装，请尝试以下疑难解答步骤。
 

@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 查找有关 Skype for Business 云连接器版本的信息，云连接器是一组打包的虚拟机 (Vm)，这些虚拟机负责通过 Office 365 中的电话系统（云 PBX）实施本地 PSTN 连接。
-ms.openlocfilehash: 6fcdaf3d3186effa5bb88f1252d51537dd1dba5f
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: 4d03d8ea6936ad906de01a5b478fce01d62113c4
+ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676476"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "29686506"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>规划 Skype for Business 云连接器版本
 
 查找有关 Skype for Business 云连接器版本的信息，云连接器是一组打包的虚拟机 (Vm)，这些虚拟机负责通过 Office 365 中的电话系统（云 PBX）实施本地 PSTN 连接。
 
-如果您已没有现有的 Lync Server 或 Skype 业务服务器部署，云连接器 Edition 可能适合您的组织的解决方案。 如果您仍调查的 Office 365 解决方案中的电话系统适合您的业务，请参阅[规划 Office 365 (云 PBX) 解决方案中电话系统](plan-your-phone-system-cloud-pbx-solution.md)。
+如果您已没有现有的 Lync Server 或 Skype 业务服务器部署，云连接器 Edition 可能适合您的组织的解决方案。 如果您仍调查的 Office 365 解决方案中的电话系统适合您的业务，请参阅[Microsoft 电话服务解决方案](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)。
 
 本文档介绍云连接器 Edition 要求和支持的拓扑，并帮助您规划云连接器 Edition 部署。 请务必阅读本主题之前配置云连接器环境。 当已准备好部署和配置云连接器 Edition，请参阅[配置和管理业务云连接器 edition Skype](configure-skype-for-business-cloud-connector-edition.md)。
 
@@ -262,7 +262,7 @@ ms.locfileid: "26676476"
 - 创建所有必需的 DNS 和 SRV 记录与 Office 365 租户。
 
     > [!IMPORTANT]
-    > 当您将您的租户集成与云连接器 Edition，使用默认域后缀，。 onmicrosoft.com，作为您的组织的 SIP 域不受支持。 > 不能使用 sip。\<域名\>为您云连接器边缘访问的名称代理接口因为 Office 365 使用此 DNS 记录。
+    > 当您将您的租户集成与云连接器 Edition，使用默认域后缀，。 onmicrosoft.com，作为您的组织的 SIP 域不受支持。 不能使用 sip 的 >。\<域名\>为您云连接器边缘访问的名称代理接口因为 Office 365 使用此 DNS 记录。
 
 - 从公共证书颁发机构 (CA) 获得的用于外部边缘的证书。
 
@@ -380,10 +380,10 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |**源 IP**|**目标 IP**|**源端口**|**目标端口**|
 |:-----|:-----|:-----|:-----|
 |任何  <br/> |云连接器边缘外部接口  <br/> |任何  <br/> |TCP(MTLS) 5061  <br/> |
-|云连接器边缘外部接口  <br/> |任何  <br/> |任何  <br/> |TCP(MTLS) 5061  <br/> |
-|云连接器边缘外部接口  <br/> |任何  <br/> |任何  <br/> |TCP 80  <br/> |
-|云连接器边缘外部接口  <br/> |任何  <br/> |任何  <br/> |UDP 53  <br/> |
-|云连接器边缘外部接口  <br/> |任何  <br/> |任何  <br/> |TCP 53  <br/> |
+|云连接器边缘外部接口  <br/> |任意  <br/> |任何  <br/> |TCP(MTLS) 5061  <br/> |
+|云连接器边缘外部接口  <br/> |任意  <br/> |任意  <br/> |TCP 80  <br/> |
+|云连接器边缘外部接口  <br/> |任意  <br/> |任意  <br/> |UDP 53  <br/> |
+|云连接器边缘外部接口  <br/> |任意  <br/> |任意  <br/> |TCP 53  <br/> |
 |云连接器边缘外部接口  <br/> |任何  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
 |任何  <br/> |云连接器边缘外部接口  <br/> |TCP 50,000-59,999  <br/> |TCP 443  <br/> |
 |任何  <br/> |云连接器边缘外部接口  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
@@ -402,13 +402,13 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |**源 IP**|**目标 IP**|**源端口**|**目标端口**|
 |:-----|:-----|:-----|:-----|
 |任何  <br/> |云连接器边缘外部接口  <br/> |任何  <br/> |TCP(MTLS) 5061  <br/> |
-|云连接器边缘外部接口  <br/> |任何  <br/> |任何  <br/> |TCP(MTLS) 5061  <br/> |
-|云连接器边缘外部接口  <br/> |任何  <br/> |任何  <br/> |TCP 80  <br/> |
-|云连接器边缘外部接口  <br/> |任何  <br/> |任何  <br/> |UDP 53  <br/> |
-|云连接器边缘外部接口  <br/> |任何  <br/> |任何  <br/> |TCP 53  <br/> |
+|云连接器边缘外部接口  <br/> |任意  <br/> |任何  <br/> |TCP(MTLS) 5061  <br/> |
+|云连接器边缘外部接口  <br/> |任意  <br/> |任意  <br/> |TCP 80  <br/> |
+|云连接器边缘外部接口  <br/> |任意  <br/> |任意  <br/> |UDP 53  <br/> |
+|云连接器边缘外部接口  <br/> |任意  <br/> |任意  <br/> |TCP 53  <br/> |
 |云连接器边缘外部接口  <br/> |任何  <br/> |TCP 50,000-59,999  <br/> |任何  <br/> |
-|云连接器边缘外部接口  <br/> |任何  <br/> |UDP 3478；UDP 50,000-59,999  <br/> |任何  <br/> |
-|任何  <br/> |云连接器边缘外部接口  <br/> |任何  <br/> |TCP 443；TCP 50,000-59,999  <br/> |
+|云连接器边缘外部接口  <br/> |任何  <br/> |UDP 3478；UDP 50,000-59,999  <br/> |任意  <br/> |
+|任意  <br/> |云连接器边缘外部接口  <br/> |任何  <br/> |TCP 443；TCP 50,000-59,999  <br/> |
 |任何  <br/> |云连接器边缘外部接口  <br/> |任何  <br/> |UDP 3478；UDP 50,000 - 59,999  <br/> |
 
 ### <a name="host-internet-connectivity-requirements"></a>主机 Internet 连接要求
@@ -494,7 +494,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |边缘组件的外部接口的 DNS 服务器  <br/> |将在边缘的外部接口上配置。  <br/> .Ini 文件中的名称:"InternetDNSIPAddress"下"参数池的虚拟网络  <br/> ||
 |管理交换机名称。  <br/> |管理开关是临时的开关将自动创建，并的将用于在部署期间云连接器的配置。 部署之后将自动断开连接。 它必须是云连接器中使用的任何其他网络不同的子网。  <br/> 在大多数情况下，可以使用建议的值。  <br/> .Ini 文件中的名称:"ManagementSwitchName"下"参数池的虚拟网络  <br/> ||
 |管理子网地址/子网掩码  <br/> |管理子网是临时子网将自动创建，并的将用于在部署期间云连接器的配置。 部署之后将自动删除。 它必须是云连接器中使用的任何其他网络不同的子网。  <br/> .Ini 文件中的名称:"ManagementIPPrefix"和"ManagementIPPrefixLength"下"参数池的虚拟网络  <br/> ||
-|中央管理存储 (CMS) 计算机  <br/> |用于中央管理存储 (CMS) 的单个 FQDN。 AD 域名将用于生成 FQDN。  <br/> .Ini 文件中的名称:"服务器名称"下"参数的主中央管理服务  <br/> |必须为 15 个字符或更少。请仅输入 Netbios 名称。  <br/> （CMS 池名称 = 服务器名称）  <br/> |
+|中央管理存储 (CMS) 计算机  <br/> |用于中央管理存储 (CMS) 的单个 FQDN。 AD 域名将用于生成 FQDN。  <br/> .Ini 文件中的名称:"服务器名称"下"参数的主中央管理服务  <br/> |必须为 15 个字符或更少。 请仅输入 Netbios 名称。  <br/> （CMS 池名称 = 服务器名称）  <br/> |
 |CMS 计算机 IP 地址  <br/> |CMS 服务器 （内部外围网络中） 的 IP 地址。  <br/> INI 文件中的名称:"IP"下"参数的主中央管理服务  <br/> ||
 |文件共享名称   <br/> |要在服务器上创建 CMS 的 Skype 业务复制数据 (例如，CmsFileStore) 的文件共享名称。  <br/> 在大多数情况下，可以使用建议的值。  <br/> .Ini 文件中的名称:"CmsFileStore"下"参数的主中央管理服务  <br/> ||
 |中介组件池名称  <br/> |中介组件的池名称。 请仅输入 Netbios 名称。 AD 域名将用于生成 FQDN。  <br/> .Ini 文件中的名称:"参数的中介服务器池的"下的"PoolName"  <br/> |必须为 15 个字符或更少。 请仅输入 Netbios 名称。  <br/> |
@@ -676,7 +676,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
      - Skype for Business 主复制器代理
 
-     - Skype for Business 备份复制器代理
+     -  Skype for Business 备份复制器代理
 
   - 在中介服务器虚拟机上：
 
@@ -705,7 +705,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 有关详细信息，请参阅以下文章：
 
-- [规划 Office 365 中的电话系统（云 PBX）解决方案](plan-your-phone-system-cloud-pbx-solution.md)
+- [Microsoft 电话服务解决方案](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [配置和管理 Skype for Business 云连接器版本](configure-skype-for-business-cloud-connector-edition.md)
 
