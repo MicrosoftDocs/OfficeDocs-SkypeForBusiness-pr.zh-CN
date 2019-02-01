@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 有关配置呼叫数据连接器，从而遥测从 Skype 的业务的本地业务在线工具使用 Skype 查看说明。
-ms.openlocfilehash: 959bb182da91029fd43ebc3ccb99fb5a69d820b2
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4b358562838cfd1412891514e999f2c8544f3a4f
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533132"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690457"
 ---
 # <a name="configure-call-data-connector"></a>配置呼叫数据连接器
 
@@ -27,7 +27,7 @@ ms.locfileid: "26533132"
 
 ## <a name="enable-monitoring"></a>启用监控
  
-您必须配置呼叫数据记录 (CDR) 和用户体验质量 (QoE) 中的数据收集您的前端池与本地 LCSCdr 和 QoEMetrics 数据库; 监控否则，呼叫分析和呼叫质量仪表板不会收到要处理的数据。 之前您配置呼叫数据连接器，请按照[部署监控 Skype 业务服务器中](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md)配置 QoE 和 CDR 以及基本监控中提供的步骤。
+您必须配置呼叫数据记录 (CDR) 和用户体验质量 (QoE) 中的数据收集您的前端池与本地 LcsCDR 和 QoEMetrics 数据库; 监控否则，呼叫分析和呼叫质量仪表板不会收到要处理的数据。 之前您配置呼叫数据连接器，请按照[部署监控 Skype 业务服务器中](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md)配置 QoE 和 CDR 以及基本监控中提供的步骤。
 
 > [!IMPORTANT]
 > 如果在前端池上没有启用监控，将无法正常呼叫数据连接器。
@@ -112,7 +112,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDat
 
 下表中所示使用调用数据连接器的最常用设置的值：  
 
-|属性|描述|默认值|
+|属性|说明|默认值|
 |:-----|:-----|:-----|
 |EnableCallDataConnector  <br/> |指示是否启用呼叫数据连接器。 如果为 True，则会向联机监视转接监控记录。  <br/> |$False  <br/> |
 | Identity  | 确定该命令的作用域级别： 全局或站点。   | 全局  |

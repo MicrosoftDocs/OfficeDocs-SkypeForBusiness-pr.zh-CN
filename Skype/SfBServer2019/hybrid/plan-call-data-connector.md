@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 使用业务联机遥测工具的 Skype 要监视的本地实现在混合方案的概述。
-ms.openlocfilehash: 6bcf1e26ca005a30e4f1c940f655a3277e18001e
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 4e38f7d190cd30c1f0e39dc4cdfa5166ba6a929d
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349534"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690443"
 ---
 # <a name="plan-call-data-connector"></a>规划呼叫数据连接器
 
@@ -68,7 +68,7 @@ ms.locfileid: "29349534"
 
 - 如果您未，打开呼叫质量仪表板[打开和使用的 Microsoft 团队和 Skype 业务 online 呼叫质量仪表板](/microsoftteams/turning-on-and-using-call-quality-dashboard)中所述。
 
-- 与本地 LCSCdr 和 QoEMetrics 数据库启用监控的前端池。 没有它，调用数据连接器不具有要使用的度量数据。
+- 与本地 LcsCDR 和 QoEMetrics 数据库启用监控的前端池。 没有它，调用数据连接器不具有要使用的度量数据。
 
 > [!IMPORTANT]
 > 如果在前端池上没有启用监控，将无法正常呼叫数据连接器。
@@ -78,13 +78,13 @@ ms.locfileid: "29349534"
 | 功能报告 | Skype for Business Online | Skype for Business Server   |
 |:---------------------------|:---------------------|:---------------------|:------------------|
 | 应用程序共享指标 |是 | 有限 |
-| 客户构建信息| 是 | 是 |
+| 客户构建信息| 是  | 是 |
 | 深入分析 | 是 | 否 |
 | 媒体可靠性指标 | 是 | 有限 |
-| 即开报告 | 是 | 是 |
+| 即开报告 | 是  | 是 |
 | 概述报告 | 是 | 否 |
-| 每用户报告 | 是 | 是 |
-| 设置自定义报表 <br> （添加、 删除、 修改报表） | 是 | 是 |
+| 每用户报告 | 是  | 是 |
+| 设置自定义报表 <br> （添加、 删除、 修改报表） | 是  | 是 |
 | 基于视频的屏幕共享指标 | 是 | 否 |
 | 用于编程访问的数据 Api <br> 到 CQD | 否 | 是 |
 ||||

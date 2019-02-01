@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 摘要： 了解与 Exchange 和 SharePoint 的业务服务器 2015年集成 Skype。
-ms.openlocfilehash: 8d080174ab5560384478c1320d09bc218ef8543b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: f0437e4a93bfd897fb04e29ce2729a30789ce889
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530605"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690450"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>与 Exchange 和 SharePoint 集成
 
@@ -106,7 +106,7 @@ ms.locfileid: "26530605"
 |错过的对话历史记录和呼叫日志写入到用户的 exchange 邮箱  <br/> ||
 |联系人列表（通过统一联系人存储）  <br/> |Lync Server 2013 或业务客户端所需的 Skype  <br/> |
 |Lync 2013，Skype 业务客户端和 Lync Web App 中的高分辨率联系人照片  <br/> ||
-|会议委派  <br/> |只有当两个用户联机驻留在相同林中或者驻留在内部部署中时才支持。 有关详细信息，请参阅[业务混合解决方案的 Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)。 <br/> |
+|会议委派  <br/> |仅当两个用户都联机驻留在同一林中，或两者都驻留在本地支持。 有关详细信息，请参阅[业务混合解决方案的 Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)。 <br/> |
 |在 Exchang 中存档内容（IM 和会议）  <br/> ||
 |搜索存档内容  <br/> ||
 |语音邮件  <br/> ||

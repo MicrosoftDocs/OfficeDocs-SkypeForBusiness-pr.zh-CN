@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 阅读本主题可了解如何 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。
-ms.openlocfilehash: dbc3de5c6eb7a9f45be1165614cd14fcb2d6d8c9
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 77c4e21b2be0f8d4729924484102ba31becbfbe7
+ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297878"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690569"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -135,7 +135,7 @@ Microsoft 强烈建议您申请证书的 SBC 通过生成证书签名请求 (CSR
 
 证书需要有主题、 公共名称或使用者替代名称字段中的 SBC FQDN。
 
-此外，直接路由支持通配符中的常见的名称或 SAN，并且通配符需要符合标准[RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1)。 一个示例将使用 *。 在 SAN 中，将符合 SBC FQDN sbc.contoso.com，但不会与 sbc.test.contoso.com 相匹配的 contoso.com。
+或者，直接路由支持通配符 SAN 中并通配符需要符合标准[RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1)。 一个示例将使用 *。 在 SAN 中，将符合 SBC FQDN sbc.contoso.com，但不会与 sbc.test.contoso.com 相匹配的 contoso.com。
 
 需要由一个以下的根证书颁发机构生成该证书：
 

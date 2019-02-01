@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 摘要： 实现 Skype 业务服务器之前查看端口使用情况注意事项。
-ms.openlocfilehash: 3de98f096215c8f703f23081d2b102d3d5c9ffac
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b02f329fdc8209fa9143a966181180ed7cf3b0be
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530871"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690472"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>服务器的端口和协议要求
  
@@ -31,7 +31,7 @@ Skype 业务服务器要求的特定端口的外部和内部防火墙上打开�
   
 通过查看协议工作负荷海报移开[Technical diagrams for Business Server 2015 Skype 的](../../technical-diagrams.md)文章链接，还可以在这些表关系图窗体中找到信息。
 > [!NOTE]
-> - 如果您在实施 Skype 业务 online (O365) 请参阅[Office 365 Url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 混合环境需要引用本主题以及混合[端口和协议要求](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#port-and-protocol-requirements)。
+> - 如果您在实施 Skype 业务 online (O365) 请参阅[Office 365 Url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 混合环境需要引用此主题以及[规划混合连接性](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)。
 > - 您可以有硬件或软件的防火墙，我们不需要特定的模型或版本。 重要的是哪些端口是白名单，因此防火墙将不会影响 Skype 正常业务服务器。
   
 ## <a name="port-and-protocol-details"></a>端口和协议详细信息
@@ -181,18 +181,18 @@ Skype 业务服务器要求的特定端口的外部和内部防火墙上打开�
 
 |规则名称|源 IP|目标 IP|协议|源端口|目标端口|身份验证要求|
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
-|A/V 边缘服务器内部入站  |任意  |A/V 边缘服务器内部  |UDP 和 TCP  |任意  |任意  |不进行身份验证  |
-|A/V 边缘服务器外部入站  |任意  |A/V 边缘服务器外部  |UDP 和 TCP  |任意  |任意  |不进行身份验证  |
-|A/V 边缘服务器内部出站  |A/V 边缘服务器内部  |任意  |UDP &amp; TCP  |任何  |任意  |不进行身份验证  |
-|A/V 边缘服务器外部出站  |A/V 边缘服务器外部  |任意  |UDP 和 TCP  |任意  |任意  |不进行身份验证  |
-|中介服务器入站  |任意  |中介  <br/> 服务器  |UDP 和 TCP  |任意  |任意  |不进行身份验证  |
-|中介服务器出站  |中介  <br/> 服务器  |任意  |UDP 和 TCP  |任意  |任意  |不进行身份验证  |
-|会议助理入站  |任意  |运行会议助理的前端服务器  |UDP 和 TCP  |任意  |任意  |不进行身份验证  |
-|会议助理出站  |运行会议助理的前端服务器  |任意  |UDP 和 TCP  |任意  |任意  |不进行身份验证  |
-|A/V 会议入站  |任意  |前端服务器  |UDP 和 TCP  |任意  |任意  |不进行身份验证  |
-|A/V 会议出站  |前端服务器  |任意  |UDP 和 TCP  |任意  |任意  |不进行身份验证  |
-|Exchange 入站  |任意  |Exchange 统一消息  |UDP 和 TCP  |任意  |任意  |不进行身份验证  |
-|应用程序共享服务器入站  |任意  |应用程序共享服务器  |TCP  |任意  |任意  |不进行身份验证  |
-|应用程序共享服务器出站  |应用程序共享服务器  |任意  |TCP  |任意  |任意  |不进行身份验证  |
-|Exchange 出站  |Exchange 统一消息  |任意  |UDP 和 TCP  |任意  |任意  |不进行身份验证  |
-|客户端  |任意  |任意  |UDP  |指定的媒体端口范围  |任意  |不进行身份验证  |
+|A/V 边缘服务器内部入站  |任何  |A/V 边缘服务器内部  |UDP 和 TCP  |任何  |任何  |不进行身份验证  |
+|A/V 边缘服务器外部入站  |任何  |A/V 边缘服务器外部  |UDP 和 TCP  |任何  |任何  |不进行身份验证  |
+|A/V 边缘服务器内部出站  |A/V 边缘服务器内部  |任何  |UDP &amp; TCP  |任何  |任何  |不进行身份验证  |
+|A/V 边缘服务器外部出站  |A/V 边缘服务器外部  |任何  |UDP 和 TCP  |任何  |任何  |不进行身份验证  |
+|中介服务器入站  |任何  |中介  <br/> 服务器  |UDP 和 TCP  |任何  |任何  |不进行身份验证  |
+|中介服务器出站  |中介  <br/> 服务器  |任何  |UDP 和 TCP  |任何  |任何  |不进行身份验证  |
+|会议助理入站  |任意  |运行会议助理的前端服务器  |UDP 和 TCP  |任何  |任何  |不进行身份验证  |
+|会议助理出站  |运行会议助理的前端服务器  |任何  |UDP 和 TCP  |任何  |任何  |不进行身份验证  |
+|A/V 会议入站  |任何  |前端服务器  |UDP 和 TCP  |任何  |任何  |不进行身份验证  |
+|A/V 会议出站  |前端服务器  |任何  |UDP 和 TCP  |任何  |任何  |不进行身份验证  |
+|Exchange 入站  |任何  |Exchange 统一消息  |UDP 和 TCP  |任何  |任何  |不进行身份验证  |
+|应用程序共享服务器入站  |任何  |应用程序共享服务器  |TCP  |任何  |任何  |不进行身份验证  |
+|应用程序共享服务器出站  |应用程序共享服务器  |任何  |TCP  |任何  |任何  |不进行身份验证  |
+|Exchange 出站  |Exchange 统一消息  |任何  |UDP 和 TCP  |任何  |任何  |不进行身份验证  |
+|客户端  |任何  |任何  |UDP  |指定的媒体端口范围  |任意  |不进行身份验证  |
