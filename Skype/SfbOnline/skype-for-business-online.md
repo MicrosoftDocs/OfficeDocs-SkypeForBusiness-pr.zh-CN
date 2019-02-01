@@ -15,7 +15,7 @@ ms.topic: landing-page
 ms.author: tonysmit
 ms.openlocfilehash: db174b9e9df8fb6a819930babfaae9422f3ffe30
 ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 01/25/2019
 ms.locfileid: "26531745"
@@ -54,7 +54,7 @@ ms.locfileid: "26531745"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>We& #39; re 此处以帮助</h3>
+                        <h3>我们随时为你提供帮助</h3>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@ ms.locfileid: "26531745"
 
 ---
 
-<h2>What& #39; s 新</h2>
+<h2>新增功能</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -134,7 +134,7 @@ ms.locfileid: "26531745"
                     <div class="cardText">
                         <h3>文章</h3>
                         <p><a 
-                        href="/microsoftteams/setting-up-your-phone-system">在你有组织中设置电话系统</a></p>
+                        href="/microsoftteams/setting-up-your-phone-system">在组织中设置电话系统</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">与音频会议的第三方集成</a></p>
                     </div>
                 </div>
@@ -151,7 +151,7 @@ ms.locfileid: "26531745"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>新增功能</h3>
+                        <h3>新功能</h3>
                         <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">加拿大的通话套餐（通用）</a></p>
                         <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">澳大利亚的通话套餐（仅限预览）</a></p>
                     </div>
@@ -236,7 +236,7 @@ ms.locfileid: "26531745"
                 <div class="card">
                     <div class="cardText">
                         <h3>电话系统</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Office 365 中的电话系统是什么？</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& #39; s 与 Office 365 中的电话系统获取的内容</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Office 365 中的电话系统是什么？</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">下面是可使用 Office 365 中的电话系统完成的内容</a></p>
                </div>
                 </div>
             </div>
