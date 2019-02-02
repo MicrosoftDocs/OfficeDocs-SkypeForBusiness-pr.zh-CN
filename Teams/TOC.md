@@ -21,6 +21,7 @@
 ## [在 Microsoft Teams 中分配团队所有者和成员](assign-roles-permissions.md)
 ## [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
 ## [在工作组中创建一个组织范围团队](create-an-org-wide-team.md)
+## [什么邮件策略？](messaging-policies-in-teams.md)
 ## [开始使用 Teams 模板](get-started-with-teams-templates.md)
 ## [团队的动态成员资格概述](dynamic-memberships.md)
 ## [状态](presence-admins.md)
@@ -52,6 +53,7 @@
 ### [使用 PowerShell 控制对团队的来宾访问](guest-access-PowerShell.md)
 ### [来宾访问清单](guest-access-checklist.md)
 
+## [外部访问 （联合身份验证）](manage-external-access.md)
 
 ## [管理团队](using-admin-roles.md)
 ### [在贵组织中管理 Teams 功能](enable-features-office-365.md)
@@ -114,7 +116,6 @@
 # [会议 & 会议](deploy-meetings-microsoft-teams-landing-page.md)
 ## [教程：Teams 中的会议](Tutorial-Meetings-in-Teams.yml)
 ## [管理会议设置](meeting-settings-in-teams.md)
-## [什么邮件策略？](messaging-policies-in-teams.md)
 ## [用户设置更改时向其发送的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [使用户能够在加入会议时录制其姓名](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [打开或关闭会议的进入和退出通知](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
