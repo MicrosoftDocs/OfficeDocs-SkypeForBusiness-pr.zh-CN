@@ -13,45 +13,25 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c65d5378ebe72175ac3238ba058866c49f6c4dd
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: c1fc83f0911849655c1a27bdee2d87107f6eaebc
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772798"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706312"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
 
 来宾受邀加入团队时，会收到欢迎电子邮件，其中包括有关团队的一些信息以及成为成员后应做些什么。 来宾必须接受电子邮件中的邀请才能访问团队及其频道。
-  
-    
-    
-
-  
-    
     
 ![由 Microsoft 团队中的团队所有者发送到来宾用户欢迎电子邮件的示例。 该邮件包括团队所有者可以自定义的文本以及 Teams 功能（例如，聊天、通话和会议）的简要说明。](media/guest-experience-image1.png)
-  
-    
     
 所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 如以下示例团队屏幕截图中所示，横幅显示“This team has guests”，每个来宾的姓名旁边显示“GUEST”标签。
-  
-    
-    
-
-  
-    
     
 ![此屏幕截图显示了 Northwind Traders 的 Marketing 频道的一部分，顶部横幅中的通知显示“This team has guests”，身为来宾的用户通过其姓名旁边的词语“GUEST”标识。](media/guest-experience-image2.png)
-  
-    
-    
-下表比较了组织的团队成员可用的 Microsoft Teams 功能和团队的来宾用户可用的功能。
-  
-    
-    
 
+下表比较了组织的团队成员可用的 Microsoft Teams 功能和团队的来宾用户可用的功能。
 
 |**Teams 中的功能**|**组织中的 Teams 用户**|**来宾用户**|
 |:-----|:-----|:-----|
@@ -103,15 +83,17 @@ ms.locfileid: "27772798"
 
 <sup>1</sup>此功能将很快可用。
 
-
-
 > [!NOTE]
 > Office 365 管理员控制来宾可用的功能。 
-  
+ 
+## <a name="guest-access-vs-external-access-federation"></a>来宾访问与外部访问 （联合身份验证）
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+ 
 ## <a name="frequently-asked-questions"></a>常见问题
   
 Q。 来宾有相同的功能团队成员吗？<br>
-答： 否。 有关哪些来宾可以和无法执行的操作的详细信息，请转到团队中的来宾功能。
+答： 否。 有关哪些来宾可以和无法执行的操作的详细信息，请转到[团队中的来宾功能](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b)。
 
 Q。 可以邀请多少来宾？<br>
 答： 您可以添加到每个许可用户 5 来宾为止。

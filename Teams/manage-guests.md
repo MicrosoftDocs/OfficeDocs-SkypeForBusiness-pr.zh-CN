@@ -12,12 +12,12 @@ search.appverid: MET150
 description: IT 管理员可以在租户级别添加来宾、设置和管理来宾用户策略和权限、确定哪些用户可以邀请来宾以及获取有关来宾用户活动的报告。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c43309a6e4ae287181f6e363a40d99a0650984cc
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: 3866e4c3f8e63e9fe8518917193d4587e670ad93
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328244"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706288"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理来宾访问
 ======================================
@@ -37,6 +37,10 @@ IT 管理员可以在租户级别添加来宾、 设置和管理来宾用户策�
 > [!NOTE]
 > Microsoft 团队始终采用 Azure Active Directory 外部设置，以允许或阻止来宾用户添加到租户。 有关详细信息，请参阅[Microsoft 团队中的授权来宾访问](Teams-dependencies.md)。
   
+## <a name="guest-access-vs-external-access-federation"></a>来宾访问与外部访问 （联合身份验证）
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
 ## <a name="review-guest-access-periodically"></a>定期查看来宾访问
 
 在团队中，您可以添加 5 个来宾的每个许可用户。 由于此限制，或您希望用于保存您的租户最新，因为您应当查看来宾访问定期确定具有不再需要它们的访问权的用户。 Azure Active Directory (Azure AD) 可用于创建访问查看组成员或分配给应用程序的用户。 创建定期访问评论可以节省时间。 如果您需要定期查看用户有权访问应用程序用户或组的成员，您可以定义这些评论的频率。 

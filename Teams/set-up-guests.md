@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42fead56b8064d2697ca4e8b115eefd0116a5e36
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: bc01f54229e5a2644fc004b4014ad41e3c0f8d73
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772758"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706256"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>开启或关闭对 Microsoft Teams 的来宾访问
 ======================================
@@ -28,13 +28,16 @@ ms.locfileid: "27772758"
 
 在 Azure Active Directory 中设置来宾设置后， 更改在 Office 365 组织中生效需要 2 小时到 24 小时。 如果用户会看到"请与管理员联系"的邮件如果他们尝试将来宾添加到其工作组，，则可能的来宾功能尚未启用或设置尚未有效。
 
-
 > [!IMPORTANT]
 > 要启用来宾访问功能的完全体验，非常重要的一点是理解 Microsoft Teams、Azure Active Directory 和 Office 365 之间的核心授权相关性。 有关详细信息，请参阅[在 Microsoft Teams 中授权来宾访问](Teams-dependencies.md)。
 
-## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a>为业务管理中心中团队 Skype 配置来宾访问
+## <a name="guest-access-vs-external-access-federation"></a>来宾访问与外部访问 （联合身份验证）
 
-1.  业务管理中心的登录到团队和 Skype。
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a>在业务管理中心团队 & Skype 中配置来宾访问
+
+1.  登录到业务管理中心团队 & Skype。
 
 2.  选择**组织范围设置** > **来宾访问**。
 

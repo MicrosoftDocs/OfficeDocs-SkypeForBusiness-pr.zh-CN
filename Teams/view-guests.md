@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 了解管理员如何在 Microsoft Teams 中查看有关来宾用户的信息。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a10269076275a16f18a9cda8471a669688a1ab4
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: 2b842a2434a5555fe7f65d6119750cff36e9513d
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772736"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706272"
 ---
 <a name="view-guest-users-in-a-team"></a>在团队中查看来宾用户
 ==========================
@@ -26,9 +26,11 @@ ms.locfileid: "27772736"
 标识来宾用户：
 
 1.  登录到 Microsoft 365 管理中心。
-2.  选择**管理中心** > **团队和 Skype**。
-3.  在 Microsoft 团队和 Skype 管理中心中，选择**用户**。 您将看到**来宾**追加到任何来宾用户的显示名称。
+2.  选择**管理中心** > **团队 & Skype**。
+3.  在 Microsoft 团队 & Skype 管理中心中，选择**用户**。 您将看到**来宾**追加到任何来宾用户的显示名称。
   
 您还可以标识来宾用户从在您拥有一个团队。  
 
+## <a name="guest-access-vs-external-access-federation"></a>来宾访问与外部访问 （联合身份验证）
 
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

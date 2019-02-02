@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 210824858d953a99844817b3ef27265626d91928
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: df8e60f8a5d7aaf2638e1220baf1c41a59075ae0
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562780"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706439"
 ---
 <a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>管理团队中的 Microsoft 团队 & Business Admin Center 的 Skype
 ==========================================

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f15aeaec8ed894cf25e72c8494aed3ae36070992
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 2c2e13a97c367a61559a33ea0229d7ef682744c7
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562618"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706264"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 ======================================
@@ -31,7 +31,6 @@ ms.locfileid: "29562618"
 - 请在 [Teams 路线图](https://aka.ms/teamsroadmap)中了解即将发布的新功能或更新功能。
 - 请在 [Teams UserVoice](https://aka.ms/TeamsUserVoice) 中将你想要的功能告诉我们。
 - 在下面的“注释”部分中分享你的体验。
-
 
 来宾访问允许组织中要向其授予对现有团队和上一个或多个租户的频道的访问通过与组织外部的人员进行协作的团队。 具有企业或消费者电子邮件帐户（例如 Outlook、Gmail 或其他帐户）的任何人都能以访客身份参与 Teams，并对团队聊天、会议和文件具有完全访问权限。
 
@@ -52,9 +51,9 @@ ms.locfileid: "29562618"
 
 团队基于 Office 365 组，并提供访问 Office 365 组共享的资产的新方法。 Teams 是实现在组/团队成员之间进行持久聊天的最佳解决方案。 Office 365 是针对一组共享团队资产（例如 SharePoint 网站或 Power BI 仪表板）提供跨应用成员身份的服务，以便团队可以有效且安全地协作。 
 
-## <a name="how-does-guest-access-compare-to-federation-external-access"></a>来宾访问比较联合身份验证 （外部访问）？
+## <a name="how-does-guest-access-compare-to-external-access-federation"></a>来宾访问比较外部访问 （联合身份验证）？
 
-通过联盟或外部访问，外部用户可以有 1:1 聊天和呼叫与其他组织中的用户通过使用团队或 Skype for Business。 联盟的用户无法访问任何工作组资源。 与来宾访问相比，外部访问没有显式邀请，允许跨组织通信 （如果允许的策略），但仅限于聊天和仅呼叫。
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>更多信息
     

@@ -96,7 +96,7 @@
 
 #### [更新 AAD 连接到包含多个林](../../SFBServer2019/hybrid/cloud-consolidation-aad-connect.md)
 
-### [与 Exchange 和 SharePoint 集成](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+### [与 Exchange 和 SharePoint 集成](../skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md)
 
 
 

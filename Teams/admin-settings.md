@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e50992aa8489d93b577e957cffc98c18e7cc15e
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: da73768f69159c32543d0843139facc2b9ef4f9a
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988175"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706352"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams 中适用于应用的管理设置
 ==========================================
@@ -29,7 +29,7 @@ ms.locfileid: "27988175"
 
 应用程序是选项卡、 连接器、 自动程序或这三种，提供通过团队 （第一方应用程序和也称为应用程序默认） 或第三方 （也称为外部应用程序） 的任意组合。 在 Microsoft 365 管理中心，您可以启用和禁用默认应用程序和配置设置来控制外部应用程序。 这些设置允许您指定的外部应用程序允许的和不允许，新的外部应用程序行为，以及是否允许端加载应用程序。
 
- 若要管理团队中的应用程序的管理设置，请转到 Microsoft 365 管理中心，并选择**设置** > **服务和外接程序** > **Microsoft 团队**。 如果你已使用 Office 365 管理员身份登录，单击此链接应该能访问相应位置：
+ 若要管理团队中的应用程序的管理设置，请转到 Microsoft 365 管理中心，并选择**设置** > **服务 & 加载项** > **Microsoft 团队**。 如果你已使用 Office 365 管理员身份登录，单击此链接应该能访问相应位置：
 
 https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 
