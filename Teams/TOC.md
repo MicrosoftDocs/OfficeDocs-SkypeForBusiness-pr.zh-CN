@@ -302,6 +302,11 @@
 ### [采用 PSTN 连接的混合环境中的用户帐户](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [为多个租户配置会话边界控制器](direct-routing-sbc-multiple-tenants.md)
 ### [经认证可用于直接路由的会话边界控制器列表](direct-routing-border-controllers.md)
+### 基于位置的路由
+#### [基于位置的路由术语](location-based-routing-terminology.md)
+#### [规划基于位置的路由直接路由](location-based-routing-plan.md)
+#### [配置基于位置的路由的网络设置](location-based-routing-configure-network-settings.md)
+#### [启用基于位置的路由直接路由](location-based-routing-enable.md)
 ### 直接路由的技术参考
 #### [出站呼叫发生 Trunk 故障转移](direct-routing-trunk-failover-on-outbound-call.md)
 
@@ -641,6 +646,7 @@
 
 ## Firstline 工作者团队
 ### [管理您的组织在工作组引进相关应用程序](manage-the-shifts-app-for-your-organization-in-teams.md)
+### [零售工作组模板入门](get-started-with-retail-teams-templates.md)
 
 ## [规划 Microsoft 365 政府-GCC](plan-for-government-gcc.md)
 ### [规划 Microsoft 365 政府-GCC 高](plan-for-government-gcc-high.md)
