@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: 配置 OAuth 业务 online 本地 Exchange 和 Skype 之间的身份验证使 Skype 功能支持中所述的业务和 Exchange 集成功能。
-ms.openlocfilehash: d4c7e491b43b457c96a69ebba1ea808054346d98
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: f6108842f827cbb9cfb6761495c4787ed2b7868b
+ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373869"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "29735172"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>在 Skype for Business Online 和 Exchange 本地之间配置 OAuth
 
@@ -30,7 +30,7 @@ ms.locfileid: "25373869"
 
 -  在可以执行此过程或其他过程之前，你需要被分配适当的权限。 若要查看所需的权限，请参阅[and Shell infrastructure permissions](https://go.microsoft.com/fwlink/p/?LinkId=746511)主题。
 
-- 有关可能适用于此主题中的过程的键盘快捷方式的信息，请参阅[Exchange 管理中心中的键盘快捷方式]( https://go.microsoft.com/fwlink/p/?LinkId=746512)。
+- 有关可能适用于本主题中所述的过程的键盘快捷方式的信息，请参阅 [Exchange 管理中心内的键盘快捷方式]( https://go.microsoft.com/fwlink/p/?LinkId=746512)。
 
 ## <a name="configure-oauth-authentication-between-your-on-premises-exchange-and-skype-for-business-organizations"></a>在本地 Exchange 和 Skype for Business 组织之间配置 OAuth 身份验证
 
@@ -52,7 +52,7 @@ New-AuthServer -Name "WindowsAzureACS" -AuthMetadataUrl "https://accounts.access
 Get-PartnerApplication | ?{$_.ApplicationIdentifier -eq "00000002-0000-0ff1-ce00-000000000000" -and $_.Realm -eq ""} | Set-PartnerApplication -Enabled $true
 ```
 
-### <a name="step-3-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>步骤 3：为 Skype for Business Online 合作伙伴应用程序创建新的邮件用户帐户
+### <a name="step-3-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>步骤 3：为 Skype for Business Online 合作伙伴应用程序创建新的邮件用户帐户 
 
 此步骤在本地执行。它将创建一个邮件用户并为其分配合适的管理角色权限。随后此用户将用于下一步骤。
 
@@ -126,7 +126,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
    $cer.Import($CertFile);
    $binCert = $cer.GetRawCertData();
    $credValue = [System.Convert]::ToBase64String($binCert);
-   $ServiceName = "00000002-0000-0ff1-ce00-000000000000";
+   $ServiceName = "00000004-0000-0ff1-ce00-000000000000";
    $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
    New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
    ```

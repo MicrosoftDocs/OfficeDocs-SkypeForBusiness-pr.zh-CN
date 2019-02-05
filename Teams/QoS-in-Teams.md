@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 团队中实现服务的质量
+title: 在 Microsoft Teams 中实施服务质量
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b519327b37c61a126c5101080f0c1eee9f8582f5
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 5667374b52561af8809ab136646ffaf9d6077ad1
+ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326729"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "29735127"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 团队中实现服务质量 (QoS)
 
@@ -232,13 +232,15 @@ _表 3。DSCP 标记_
 
 6. 在**基于策略的 QoS**对话框中，在打开页上，键入**名称**框中的新策略的名称。 选择**指定 DSCP 值**并将值设置为**46**。 保留未选择，**指定出站调节率**，然后单击**下一步**。
 
-7. 在下一页上，确保选中**所有应用程序**，，然后单击**下一步**。 此设置指示网络以查找所有包的特定应用程序创建的 46，而不仅仅是数据包的 DSCP 标记。
+7. 在下一页上，选择**仅使用此可执行文件名称的应用程序**和输入**Teams.exe**的名称，然后单击**下一步**。 此设置指示要仅设置优先级团队客户端的匹配流量的策略。
 
 8. 在第三页上，确保同时**任何源 IP 地址**和**任何目标 IP 地址**选中，则，然后单击**下一步**。 这两个设置确保将管理数据包而不考虑哪台计算机 （IP 地址） 发送数据包和哪台计算机 （IP 地址） 将接收数据包。
 
 9. 在四页中，从**选择此 QoS 策略应用于的协议**下拉列表中选择**TCP 和 UDP** 。 TCP （传输控制协议） 和 UDP （用户数据报协议） 是最常使用的两个网络协议。
 
 10. 在标题下**指定源端口号**，**从此源端口或范围**中进行选择。 在相应的文本框中，键入供音频传输的端口范围。 例如，如果预留端口 50000 到音频流量的端口 50019，输入使用以下格式的端口范围： **50000:50019**。 单击“**完成**”。
+
+11. 重复步骤 5-10，以创建策略的视频和应用程序/桌面共享，替换步骤 6 和 10 中的相应值。
 
 已在客户端计算机上刷新组策略之前，您已创建的新策略不会生效。 尽管自己定期刷新组策略，您可以强制立即刷新。
 
