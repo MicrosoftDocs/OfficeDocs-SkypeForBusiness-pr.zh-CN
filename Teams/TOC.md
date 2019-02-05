@@ -23,6 +23,7 @@
 ## [在工作组中创建一个组织范围团队](create-an-org-wide-team.md)
 ## [什么邮件策略？](messaging-policies-in-teams.md)
 ## [开始使用 Teams 模板](get-started-with-teams-templates.md)
+## [Microsoft 团队医疗保健模板入门](healthcare/healthcare-templates.md)
 ## [团队的动态成员资格概述](dynamic-memberships.md)
 ## [状态](presence-admins.md)
 ## [与其他组织中的团队用户通信](let-your-teams-users-communicate-with-other-people.md)
