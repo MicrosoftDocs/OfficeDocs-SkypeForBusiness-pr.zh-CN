@@ -58,8 +58,8 @@
 
 ## [管理团队](using-admin-roles.md)
 ### [在贵组织中管理 Teams 功能](enable-features-office-365.md)
-### [在过渡到全新的 Microsoft Teams 与 Skype for Business 管理中心期间管理团队](manage-teams-skypeforbusiness-admin-center.md)
-### [管理 Business Admin Center Microsoft 团队 & Skype 中的团队](manage-teams-in-modern-portal.md)
+### [转换为新的 Microsoft 团队管理中心的过程管理团队](manage-teams-skypeforbusiness-admin-center.md)
+### [管理 Microsoft 团队管理中心中的团队](manage-teams-in-modern-portal.md)
 ### [分配团队所有者和团队中的成员](assign-roles-permissions.md)
 ### [Skype 会议应用程序使用团队配置](configure-skype-meetings-app-to-work-with-teams.md)
 ### [与其他组织中的团队用户通信](let-your-teams-users-communicate-with-other-people.md)
