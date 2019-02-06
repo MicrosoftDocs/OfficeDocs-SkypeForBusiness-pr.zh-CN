@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9eb5626e9b4094ec814e0b55f4bb4fd3d0a42da8
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 67c2e403511c3329d37fa3712bc8f559dcc16c38
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182501"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742994"
 ---
 # <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 共存
 
@@ -78,7 +78,7 @@ ms.locfileid: "27182501"
 |--- |--- |--- |--- |--- |
 | 群岛 | Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business| Online<br/> Online<br/> 在 prem<br/>在 prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business|
 |SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> 在 prem<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
-|TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
+|TeamsOnly |团队| Online<br/>|&boxv;<br/>|团队|
 | | | | | |
 
 **表 1b： 租户中新的聊天或呼叫路由到的收件人的 SfB\*模式**
@@ -87,16 +87,16 @@ ms.locfileid: "27182501"
 |--- |--- |--- |---   |--- |
 | 群岛 |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business  |Online<br/> Online<br/> 在 prem<br/> 在 prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **不可行** <br/>Skype for Business<br/> |
 |SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> 在 prem<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
-|TeamsOnly |Teams| Online<br/>|&boxv;<br/> |  *Skype for Business* <br/>| 
+|TeamsOnly |团队| Online<br/>|&boxv;<br/> |  *Skype for Business* <br/>| 
 | | | | | |
 
 **表 1 的 c： 租户中新的聊天或呼叫路由到 TeamsOnly 模式收件人**
 
 | <br/><br/> 模式   | 原始发件人 <br/><br/> 客户端 | <br/><br/> SfB&nbsp;驻留 | |   收件人 <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| 群岛   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> 在 prem<br/> 在 prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
+| 群岛   |团队<br/>Skype for Business<br/>团队 <br/>Skype for Business<br/>|Online<br/> Online<br/> 在 prem<br/> 在 prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  团队 <br/>*Teams* <br/>团队 <br/>*Teams*  |
 |SfB\*  | Skype for Business<br/>Skype for Business<br/> | Online<br/> 在 prem<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
-|TeamsOnly  | Teams | Online |  &boxv; |Teams   |
+|TeamsOnly  | 团队 | Online |  &boxv; |团队   |
 |  |  |  | | |
 
 ## <a name="federated-routing-for-new-chats-or-calls"></a>联盟路由进行呼叫或新的聊天
@@ -116,27 +116,27 @@ ms.locfileid: "27182501"
 
 | <br/><br/>模式   | 原始发件人<br/><br/> 客户端| <br/><br/>SfB 驻留| | 收件人<br/><br/> 群岛 |
 |--- |--- |--- |--- |--- |
-| 群岛 |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business  |Online<br/> Online<br/> 在 prem<br/> 在 prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **不可行**   <br/> Skype for Business |
+| 群岛 |团队<br/>Skype for Business <br/>团队 <br/>Skype for Business  |Online<br/> Online<br/> 在 prem<br/> 在 prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **不可行**   <br/> Skype for Business |
 | SfB\* |Skype for Business <br/>Skype for Business |Online<br/> 在 prem<br/> | &boxv;<br/>&boxv;|Skype for Business <br/>Skype for Business |
-| TeamsOnly |Teams |Online| &boxv;|*Skype for Business* |
+| TeamsOnly |团队 |Online| &boxv;|*Skype for Business* |
 |  | | | | 
 
 **表 2b： 联合新的聊天或呼叫路由到的收件人的 SfB 给\*模式**
 
 | <br/><br/>模式   | 原始发件人<br/><br/> 客户端| <br/><br/>SfB 驻留| |  收件人<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| 群岛 |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> 在 prem<br/> 在 prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **不可行** <br/>Skype for Business <br/> |  
+| 群岛 |团队<br/>Skype for Business <br/>团队 <br/>Skype for Business <br/>|Online<br/> Online<br/> 在 prem<br/> 在 prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **不可行** <br/>Skype for Business <br/> |  
 | SfB\* |Skype for Business <br/>Skype for Business  |Online<br/> 在 prem<br/>  |&boxv;<br/>&boxv; | Skype for Business <br/>Skype for Business  |
-| TeamsOnly | Teams|Online |&boxv; |*Skype for Business*  |
+| TeamsOnly | 团队|Online |&boxv; |*Skype for Business*  |
 |  | | | | |
 
 **表 2 的 c： 联合新的聊天或呼叫路由到 TeamsOnly 模式收件人**
 
 | <br/><br/>模式 | 原始发件人<br/><br/> 客户端| <br/><br/>SfB 驻留| |  收件人<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| 群岛  |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> 在 prem<br/> 在 prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**不可行** <br/>*Teams* |
+| 群岛  |团队<br/>Skype for Business <br/>团队 <br/>Skype for Business <br/>|Online<br/> Online<br/> 在 prem<br/> 在 prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| 团队 <br/>*Teams* <br/>**不可行** <br/>*Teams* |
 | SfB\* |Skype for Business <br/>Skype for Business  | Online<br/> 在 prem| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
-| TeamsOnly |Teams |Online |&boxv; |Teams |
+| TeamsOnly |团队 |Online |&boxv; |团队 |
 |  | | | | |
 
 ## <a name="chats-and-calls-from-pre-existing-threads"></a>聊天并调用从事先线程
@@ -190,7 +190,7 @@ ms.locfileid: "27182501"
 |观察程序 <br/><br/>客户端| |<br/><br/>群岛 |Publisher <br/><br/>SfB\* |<br/>仅团队|
 |--- |--- |--- |--- |---|
 |Skype for Business |&boxv;|Skype for Business | Skype for Business | Teams|
-|Teams |&boxv; |Teams |Skype for Business |Teams |
+|Teams |&boxv; |Teams |Skype for Business |团队 |
 | | | | |
 
 ## <a name="federated-presence"></a>联盟的状态
@@ -204,7 +204,7 @@ ms.locfileid: "27182501"
 |观察程序 <br/><br/> 客户端 | |<br/><br/> 群岛  |Publisher <br/><br/> SfB\* |<br/><br/> 仅团队 |
 |--- |--- |--- |--- |---|
 |Skype for Business |&boxv; |Skype for Business  | Skype for Business  | Teams  |
-|Teams | &boxv;|Skype for Business |Skype for Business |Teams|
+|Teams | &boxv;|Skype for Business |Skype for Business |团队|
 | | | | ||
 
 ## <a name="presence-in-pre-existing-threads"></a>事先线程中的状态
@@ -212,3 +212,7 @@ ms.locfileid: "27182501"
 为了对齐状态和事先线程，目标的状态公开，需要使用，路由对齐线程中可访问性假定路由是线程的可能的。
 
 特别是，如果收件人先前必须与持久的互操作性会话线索已升级到团队线程将不再反映准确的状态，并将不再可路由。 您应开始新的线程。
+
+## <a name="related-links"></a>相关的链接
+
+[视频： 管理共存和 SfB 和团队之间的互操作性](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

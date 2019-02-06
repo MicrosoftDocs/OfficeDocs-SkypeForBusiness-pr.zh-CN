@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b4e0ad44904a14d6a1296ea17080f668a3ab461
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: 08abde935b69aa58e5e54bd50b31f1c9d554552e
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735203"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742955"
 ---
 # <a name="get-started-with-teams-templates"></a>开始使用 Teams 模板 
 
@@ -67,8 +67,8 @@ ms.locfileid: "29735203"
 |培训-<br>PLC 团队 |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | 应用程序：<ul><li>OneNote PLC 笔记本 （固定到**常规**选项卡）</ul></li>|
 | 零售-<br>存储 | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | 频道：<ul><li>Shift 提交</li><li>学习</li></ul>团队属性<ul><li>设置为 Public 工作组可见性</li></ul>成员权限<ul><li>阻止创建、 更新或删除通道成员成员</li><li>阻止添加或删除应用程序的成员</li><li>阻止从创建、 更新或删除连接器的成员</li></ul> |
 | 零售-<br>管理器协作 | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | 频道：<ul><li>Shift 提交</li><li>学习</li></ul>团队属性：<ul><li>设置为 Private 工作组可见性</li></ul>成员权限：<ul><li>阻止创建、 更新或删除通道成员成员</li><li>阻止添加或删除应用程序的成员</li><li>阻止从创建、 更新或删除连接器的成员</li></ul>|
-| 医疗保健-<br>行政区范围 |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWardWide` |频道： <ul><li>通知\*</li><li>呼叫灯</li><li>有趣材料 （英文)\*</li><li>Huddles\*<li>计划和患者统计\*</li><li>培训和认证 </li><li>将舍入为\*</li></ul>\*自动 favorited 通道 |
-|医疗保健-<br>医院范围 | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospitalWide` |频道：<ul><li>通知\*</li><li>合规性\*</li><li>监控</li><li>财务</li><li>有趣材料 （英文)\*</li><li>人力资源</li><li>实验室</li><li>患者安全和质量改进\*</li><li>药房</li></ul>\*自动 favorited 通道|
+| 医疗保健-<br>行政区 |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWardWide` |频道： <ul><li>通知\*</li><li>呼叫灯</li><li>有趣材料 （英文)\*</li><li>Huddles\*</li><li>将舍入为</li><li>培训\*</li></ul>\*自动 favorited 通道 |
+|医疗保健-<br>医院 | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospitalWide` |频道：<ul><li>通知\*</li><li>合规性\*</li><li>监控</li><li>财务</li><li>有趣材料 （英文)\*</li><li>人力资源</li><li>实验室</li></li><li>药房</li></ul>\*自动 favorited 通道|
 |||
 
 > [!NOTE]

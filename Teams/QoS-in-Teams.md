@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5667374b52561af8809ab136646ffaf9d6077ad1
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: 8aa4bb6858fceb45fbf6abca8fe475ba49dbe1ba
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735127"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742860"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 团队中实现服务质量 (QoS)
 
@@ -333,6 +333,8 @@ _表 3。DSCP 标记_
 
 ## <a name="more-information"></a>更多信息
 
+[视频： 网络规划](https://aka.ms/teams-networking)
+
 [为 Microsoft Teams 准备贵组织的网络](prepare-network.md)
 
-[ExpressRout QoS 要求](https://docs.microsoft.com/azure/expressroute/expressroute-qos)
+[ExpressRoute QoS 要求](https://docs.microsoft.com/azure/expressroute/expressroute-qos)

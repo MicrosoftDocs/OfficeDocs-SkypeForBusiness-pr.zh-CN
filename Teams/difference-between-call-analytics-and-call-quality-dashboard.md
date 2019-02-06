@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 了解有关呼叫分析和呼叫质量仪表板以及何时使用它们来监视和解决呼叫质量问题。
-ms.openlocfilehash: a212afea9f8d5010fa68af66ce72b39280a7d11c
-ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
+ms.openlocfilehash: 8f664dfc8a609e23485f1dd935c00d8e5a745943
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29442434"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742986"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>呼叫分析和呼叫质量仪表板
 
@@ -84,6 +84,8 @@ Microsoft 团队和 for Business 的 Skype 提供两种方法可以监视和解�
 有关 CQD 的详细信息，请参阅[打开和使用的 Microsoft 团队和 Skype 业务 online 呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)和[维度和度量值的 Microsoft 团队和 Skype 业务 online 呼叫质量仪表板中可用](dimensions-and-measures-available-in-call-quality-dashboard.md)。
   
 ## <a name="related-topics"></a>相关主题
+
+[视频： 呼叫质量概述](https://aka.ms/teams-quality)
 
 [设置呼叫分析](set-up-call-analytics.md)
 

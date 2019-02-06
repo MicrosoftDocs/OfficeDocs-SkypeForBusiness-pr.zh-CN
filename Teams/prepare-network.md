@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2af8872253e2962322712a013cb3043a7da2d81b
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: b6b95da8ee416d4f64d22a8c0622acd417b7bb1d
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562626"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742845"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备贵组织的网络
 =================================================
@@ -117,3 +117,6 @@ The content you will find below can be used as supplemental background informati
 |![决策点图标。](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |决策点         |你是否评估了用于支持实时媒体的网络功能？<br></br>如果未正确评估你的网络，或者你知道它将无法支持实时媒体，你是否将禁用视频和屏幕共享功能以降低网络影响和糟糕的 Teams 体验？         |
 |![后续步骤图标。](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |后续步骤         |网络质量未知：按照[网络就绪评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)指导来确定你的网络是否可以支持实时媒体。<br></br>网络质量较差：执行网络补救步骤以提供合适的环境来支持高质量的实时媒体。<br></br>网络满意：确保可以正确访问所有 IP 地址和端口。           |
 
+## <a name="related-topics"></a>相关主题
+
+[视频： 网络规划](https://aka.ms/teams-networking)

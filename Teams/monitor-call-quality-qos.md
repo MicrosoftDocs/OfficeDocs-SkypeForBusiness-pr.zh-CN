@@ -1,7 +1,7 @@
 ---
-title: 在 Microsoft 团队中实现 QoS 和监视器呼叫分析
+title: 在 Microsoft Teams 中实施 QoS 和监控通话分析
 author: jambirk
-ms.author: MyAdvisor
+ms.author: jambirk
 manager: Serdars
 ms.topic: article
 ms.service: msteams
@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0f82a546057558cc6c69c9c0de19bc9ccb021cd
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 505409ac51552a99fabc4eb41801a1f19a737877
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28328169"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742947"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>在 Microsoft 团队中实现 QoS 和监视呼叫质量
 
@@ -37,7 +37,7 @@ ms.locfileid: "28328169"
 
 ## <a name="related-topics"></a>相关主题
 
-[实现的 Microsoft 团队的 QoS](monitor-call-quality-qos.md)
+[视频： 呼叫质量概述](https://aka.ms/teams-quality)
 
 [设置呼叫分析](set-up-call-analytics.md)
 

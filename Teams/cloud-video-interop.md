@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队云视频互操作
+title: Microsoft Teams 的云视频互操作性
 author: lolaj
 ms.author: lolaj
 manager: serdars
@@ -12,14 +12,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44dc13f9ff6fd391d84a5a461badc7edbc8abbdb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e038a4618bd456336681c2fff95936a821c770ea
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533356"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742963"
 ---
-# <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 团队云视频互操作
+# <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams 的云视频互操作性
 
 云视频互操作使第三方会议房间设备加入 Microsoft 小组会议。
 
@@ -67,10 +67,10 @@ ms.locfileid: "26533356"
 
 ## <a name="key-business-considerations"></a>关键业务注意事项
 
-**旁 3 P 视频基础结构的 Microsoft 团队**
+**第三方视频基础结构旁的 Microsoft 团队**
 
-- 您是否有 3 P 视频设备的大型部署？
-- 您必须在您的组织中调用控制器 3 P？
+- 您必须大型部署的第三方视频设备？
+- 您在组织中必须第三方呼叫控制器？
 - 您计划如何使您当前的呼叫控制器旁的 Microsoft 团队？
 - 您想 infra 运行您自己的视频或托管？ 
 - 您计划部署团队会议室系统？ 当？
@@ -89,9 +89,9 @@ ms.locfileid: "26533356"
 ## <a name="business-workflow-scenarios"></a>业务工作流方案
 
 - **业务服务器 Skype-> Microsoft 团队：** 您的组织具有第三方设备和 Skype 从业务上 prem 服务器移到的 Microsoft 团队。  
-- **For Business 的 Skype 联机-> Microsoft 团队：** 您的组织迁移到 Microsoft 团队从 Skype 业务 online。
+- **For Business 联机-Skype > Microsoft 团队：** 您的组织迁移到 Microsoft 团队从 Skype 业务 online。
 - **Cisco UC-> Microsoft 团队：** 从 Cisco 移动到 Microsoft 团队，但未就绪，以替换 Cisco 设备，您的组织。
-- **混合的系统-> Microsoft 团队：** 您的组织具有多个系统环境并排中的 （Cisco、 BroadSoft、 SfB 服务器、 SfBO）。
+- **混合系统-> Microsoft 团队：** 您的组织具有多个系统环境并排中的 （Cisco、 BroadSoft、 SfB 服务器、 SfBO）。
 - **另一个云会议提供商-> Microsoft 团队：** 您的组织已迁移到 Microsoft 团队的另一个云会议提供商的用户。
 
 
