@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: a1e1421e79b25da37f26c09b271abb67f7b3340b
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: d2eddc3812919a187fffa01279136be2a7735095
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635751"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753673"
 ---
 # <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>添加、 更改或删除您的组织的紧急地址
 
@@ -40,7 +40,7 @@ ms.locfileid: "29635751"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Microsoft 团队 & Business Admin Center 的 Skype** > **旧门户**。
+2. 转到**Microsoft 团队管理中心** > **旧门户**。
     
 3. 在左侧导航中，转到**语音** > **紧急位置**，然后单击 **添加新地址**按钮。
     
@@ -64,7 +64,7 @@ ms.locfileid: "29635751"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Microsoft 团队 & Business Admin Center 的 Skype** > **旧门户**。
+2. 转到**Microsoft 团队管理中心** > **旧门户**。
     
 3. 在左侧导航窗格中，转到**语音** > **紧急位置**，选择您想要更改的地址和操作窗格中单击**编辑**。
     
@@ -79,7 +79,7 @@ ms.locfileid: "29635751"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
+2. 转到**Microsoft 团队管理中心** > **旧门户**。
     
 3. 在左侧导航窗格中，转到**语音** > **紧急位置**，选择您想要删除的地址和操作窗格中单击**删除**。
     
@@ -106,7 +106,7 @@ ms.locfileid: "29635751"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Microsoft 团队 & Business Admin Center 的 Skype** > **旧门户**。
+2. 转到**Microsoft 团队管理中心** > **旧门户**。
     
 3. 在左侧导航窗格中，转到**语音** > **电话号码**和数处于 **"失败"** 状态和从右侧网站菜单中，然后双击选择**新紧急地址**。
 

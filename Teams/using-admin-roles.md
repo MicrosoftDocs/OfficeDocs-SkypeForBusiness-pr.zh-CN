@@ -10,12 +10,12 @@ ms.reviewer: islubin
 description: 了解如何使用不同的管理角色管理团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26b9342703fbfd25992821984b2f40638d7bda62
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 824c9d93c98bb1f6fd9af0cbb93bac24f84e926e
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789195"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754312"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>使用 Microsoft Teams 管理员角色管理 Teams
 
@@ -23,20 +23,20 @@ ms.locfileid: "27789195"
 
 ## <a name="teams-roles-and-capabilities"></a>工作组角色和功能
 
-有四个团队管理员角色可用： 团队服务管理员、 团队 communications 管理员、 团队 communications 支持专家、 和团队 communications 支持工程师。 查看以下表了解每个角色可以执行的操作，该工具管理员可用于在团队和 Skype 业务管理中心和 PowerShell。
+有四个团队管理员角色可用： 团队服务管理员、 团队 communications 管理员、 团队 communications 支持专家、 和团队 communications 支持工程师。 查看下表了解每个角色可以执行的操作，并且该工具管理员可以使用中的 Microsoft 团队管理中心和 PowerShell。
 
 <!-- add Global admin role? -->
 
 | 角色 | 可以执行这些任务 | 可以访问以下工具 |
 |----- | ------------------ | ------------------------------ |
-| Teams 服务管理员 | 管理 Microsoft 团队服务，管理和创建 Office 365 组 | 所有内容中的 Microsoft 团队 Skype Business Admin Center 和关联的 PowerShell 控件，包括：<br><br> 管理会议，包括会议策略、 配置和会议网桥<sup>1、 3</sup><br><br> 管理语音，包括调用策略和电话号码的清单和分配<sup>1</sup><br><br> 管理消息传递，包括消息策略<sup>1、 3</sup><br><br> 管理所有组织范围的设置，包括联合身份验证、 团队升级和团队客户端设置<sup>1、 3</sup><br><br> 管理组织及其关联的设置，包括成员资格 （通过 PowerShell 中，在推出的管理门户中的团队管理支持管理组） <sup>23</sup>中的团队<br><br> 查看用户配置文件页和解决用户呼叫质量问题使用高级故障排除工具集<sup>3</sup> |
+| Teams 服务管理员 | 管理 Microsoft 团队服务，管理和创建 Office 365 组 | 中的 Microsoft 团队管理中心和关联的 PowerShell 控件，包括的所有内容：<br><br> 管理会议，包括会议策略、 配置和会议网桥<sup>1、 3</sup><br><br> 管理语音，包括调用策略和电话号码的清单和分配<sup>1</sup><br><br> 管理消息传递，包括消息策略<sup>1、 3</sup><br><br> 管理所有组织范围的设置，包括联合身份验证、 团队升级和团队客户端设置<sup>1、 3</sup><br><br> 管理组织及其关联的设置，包括成员资格 （通过 PowerShell 中，在推出的管理门户中的团队管理支持管理组） <sup>23</sup>中的团队<br><br> 查看用户配置文件页和解决用户呼叫质量问题使用高级故障排除工具集<sup>3</sup> |
 | Teams 通信管理员 | 在 Microsoft Teams 服务中管理通话和会议功能 | 管理会议，包括会议策略、 配置和会议网桥<sup>1、 3</sup><br><br> 管理语音，包括调用策略和电话号码的清单和分配<sup>1</sup><br><br> 查看用户配置文件页和解决用户呼叫质量问题使用高级故障排除工具集<sup>3</sup> |
 | Teams 通信支持工程师 | 使用**高级**工具解决团队中的通信问题。 | 查看用户配置文件页和解决用户呼叫质量问题使用高级故障排除工具集<sup>3</sup> |
 | 团队 Communications 支持专家 | 使用**基本**工具解决团队中的通信问题。| 访问用户配置文件页的疑难解答呼叫分析中的呼叫。 只能查看搜索的特定用户的用户信息。<sup>3</sup>
 
 <sup>1</sup> [PowerShell-商业模块的 Skype](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell 的 Microsoft 团队模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
-<sup>3</sup> [的 Microsoft 团队和 Skype 的业务管理中心](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+<sup>3</sup> [的 Microsoft 团队管理中心](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
 <!-- <sup>4</sup> Azure Active Directory Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 -->

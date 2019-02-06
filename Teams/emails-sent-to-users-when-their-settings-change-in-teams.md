@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解在 Microsoft Teams 中当用户的电话拨入式会议设置更改时自动通过电子邮件向其发送的信息。 '
-ms.openlocfilehash: 95c0988c208c0a4796872cd835f56fb0644e97c5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: db9b2c2d99aad64bd9d607e5acbac99afc36d978
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372224"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754670"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>在 Microsoft Teams 中当用户设置更改时向其发送的电子邮件
 
@@ -85,7 +85,7 @@ ms.locfileid: "25372224"
 
 默认情况下，将向你的用户发送电子邮件，但如果你不希望他们收到音频会议的电子邮件，可使用 Microsoft Teams 或 Windows PowerShell。 
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **使用 Microsoft Teams 和 Skype for Business 管理中心：**
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 了解的参数的长度和 PIN 要求并查看如何在 Microsoft 团队中设置对会议的长度。
-ms.openlocfilehash: 94be2277b631df9e8c65c9ce2936faeb961a42d7
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 437de07454e3421c793ed652f9124df2aea55478
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531333"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754532"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>在 Microsoft Teams 中设置音频会议的 PIN 长度
 
@@ -38,7 +38,7 @@ ms.locfileid: "26531333"
   
 ## <a name="setting-the-pin-length"></a>设置 PIN 长度
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队和 Skype for Business Admin Center
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 

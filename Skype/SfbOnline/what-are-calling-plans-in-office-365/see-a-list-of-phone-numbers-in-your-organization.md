@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 了解如何组织、 分配给用户的所有号码和从业务管理中心的 Skype 分配给语音用户的所有号码中的所有电话号码的列表，请参阅。
-ms.openlocfilehash: a6ab8115e1b336f2ccc77548fdfe501852efbda7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7cda5c0ae791436d9f584cc4af802bfbc3649fcc
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370696"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753479"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>查看组织中的电话号码列表
 
@@ -39,7 +39,7 @@ ms.locfileid: "25370696"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
+2. 转到**Microsoft 团队管理中心** > **旧门户**。
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Phone numbers**.
     
@@ -71,14 +71,14 @@ ms.locfileid: "25370696"
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
+2. 转到**Microsoft 团队管理中心** > **旧门户**。
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Voice users**.
     
     > [!IMPORTANT]
     > 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
     
-4. You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:
+4. 您可以筛选视图分配给用户的电话号码或您可以分配给用户的电话号码。 你可以按以下内容筛选：
     
    - 包括服务电话号码在内的 **全部**电话号码。
     
@@ -95,14 +95,14 @@ ms.locfileid: "25370696"
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
+2. 转到**Microsoft 团队管理中心** > **旧门户**。
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Voice users**.
     
     > [!IMPORTANT]
     > 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
     
-4. You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:
+4. 可以使用下拉列表以筛选视图的活动用户，用户是否联机或本地或的状态和用户许可类型。 你可以按以下内容筛选：
     
    - **活动用户**以及用户是在线还是在本地。
     

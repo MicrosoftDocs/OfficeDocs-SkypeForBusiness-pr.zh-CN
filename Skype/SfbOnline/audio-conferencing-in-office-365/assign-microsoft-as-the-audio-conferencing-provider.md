@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: 2fd01e38b05615bab79471b60aafeb8d0409c1d4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0cbfe5fec234ab237bd0c6bf108cfaa968685f0f
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017122"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753557"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>将 Microsoft 指定为音频会议提供商
 
@@ -41,7 +41,7 @@ Microsoft 音频会议提供电话拨入电话号码、PIN 和会议 ID，与会
 
 ### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) 使用 Skype for Business 管理中心
 
-1. 转到**团队和业务管理中心的 Skype** > **旧门户**。
+1. 转到**Microsoft 团队管理中心** > **旧门户**。
     
 2. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议**。
     

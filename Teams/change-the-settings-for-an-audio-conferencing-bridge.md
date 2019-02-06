@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '获取所需更改用于提示呼叫者和它们不使用 Skype 业务或 Microsoft 团队的应用程序时收集名称和 pin 的会议组织者的会议桥的设置的步骤。 '
-ms.openlocfilehash: 4c9a932a8ae084466756d2af5f72874d274aea2e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c6e4a0e04b1e63e02dd477e1c1d2e70cc7234052
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371617"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754717"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议网桥的设置
 
@@ -43,7 +43,7 @@ ms.locfileid: "25371617"
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队和 Skype for Business Admin Center
+## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队管理中心
 
 1. 在左侧导航窗格中，转到**会议** > **会议桥**。 
 
@@ -92,7 +92,7 @@ ms.locfileid: "25371617"
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. Go to the **Office 365 admin center** > **Skype for Business**.
     
 3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 网桥的设置**。
     
@@ -105,7 +105,7 @@ ms.locfileid: "25371617"
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. Go to the **Office 365 admin center** > **Skype for Business**.
     
 3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 网桥的设置**。
     

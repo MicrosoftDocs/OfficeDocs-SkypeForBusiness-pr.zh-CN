@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 了解什么需要迁移到直接路由从 Skype 业务联机和团队配置角度。
-ms.openlocfilehash: 21ca5c94e07a6ff3ae7f5eb59d3f82c3aa78cc83
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4aeb9a2a2ba1bc8398896b2040276f08658194f5
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016186"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754468"
 ---
 # <a name="migrating-to-direct-routing"></a>迁移到直接路由
 
@@ -40,7 +40,7 @@ ms.locfileid: "25016186"
 |用户对象属性 |具有通话套餐的电话系统|电话系统与本地 Skype 通过 PSTN 连接的业务服务器|在本地与云连接器通过 PSTN 连接电话系统|PSTN 连接，通过直接路由内部部署与电话系统|
 |---|---|---|---|---|
 |客户端|适用于商务或团队的 Skype |Skype for Business |Skype for Business |Teams|
-|许可证|在线 Skype 业务</br>计划 2</br></br>MCOProfessional 或 MCOSTANDARD）</br></br></br>电话系统 (MCOEV)</br></br></br>通话套餐</br>Teams|Skype 业务 Online 计划 2 （MCOProfessional 或 MCOSTANDARD）</br></br></br>电话系统 (MCOEV)|Skype 业务 Online 计划 2 （MCOProfessional 或 MCOSTANDARD）</br></br></br>电话系统 (MCOEV)|Skype 业务 Online 计划 2 （MCOProfessional 或 MCOSTANDARD</br></br></br>电话系统 (MCOEV)</br></br>Teams|
+|许可证|在线 Skype 业务</br>计划 2</br></br>MCOProfessional 或 MCOSTANDARD）</br></br></br>电话系统 (MCOEV)</br></br></br>通话套餐</br>团队|Skype 业务 Online 计划 2 （MCOProfessional 或 MCOSTANDARD）</br></br></br>电话系统 (MCOEV)|Skype 业务 Online 计划 2 （MCOProfessional 或 MCOSTANDARD）</br></br></br>电话系统 (MCOEV)|Skype 业务 Online 计划 2 （MCOProfessional 或 MCOSTANDARD</br></br></br>电话系统 (MCOEV)</br></br>团队|
 OnPremLineURI |不适用|电话号码必须同步从内部部署 AD。 |内部部署 Active Directory 中或在 Azure Active Directory 中，可以管理的电话号码。|内部部署 Active Directory 中或在 Azure Active Directory 中，可以管理的电话号码。 但是，如果组织具有 for Business 的内部部署 Skype，必须从本地 Active Directory 同步数。|
 |LineURI|PSTN 呼叫电话号码|自动设置从 OnPremLineURI 参数|自动设置从 OnPremLineURI 参数|自动设置从 OnPremLineURI 参数|
 |EnterpriseVoiceEnabled|True|True|True|True|
@@ -50,7 +50,7 @@ OnPremLineURI |不适用|电话号码必须同步从内部部署 AD。 |内部�
 |VoiceRoutingPolicy|值|值|值|不适用|
 |OnlineVoiceRoutingPolicy|$Null|$Null|$Null|值|
 |TeamsUpgradePolicy<sup>1</sup>|TeamsOnly、 SfBOnly 或群岛|$Null|$Null|群岛或 TeamsOnly|
-|TeamsInterPolicy<sup>2</sup></br>CallingDefaultClient –，请阅读下面的注释。|团队或 SfB |SfB|SfB|Teams|
+|TeamsInterPolicy<sup>2</sup></br>CallingDefaultClient –，请阅读下面的注释。|团队或 SfB |SfB|SfB|团队|
 |TeamsCallingPolicy</br>AllowPrivateCalling|True|不适用|不适用|True|
 |TeamsCallingPolicy</br>AllowGroupCalling|True|不适用|不适用|True|
 ||||||
@@ -59,7 +59,7 @@ OnPremLineURI |不适用|电话号码必须同步从内部部署 AD。 |内部�
 
 <sup>2</sup>以前发布，TeamsInteropPolicy 将已撤销 （第 3 季度的末尾的目标），并已被其功能合并到 TeamsUpgradePolicy。 使用"共存模式"，如由 TeamsUpgradePolicy，这是现在可将托管互操作和迁移。 选择的用户的模式将管理这两个路由的传入呼叫和聊天室和用户可在哪些客户端启动聊天和呼叫或安排会议。 虽然 TeamsInteropPolicy 将停用，它仍需要 phaseout 期间，在与 TeamsUpgradePolicy 并行中进行设置。  
 
-作为本次努力取得的一部分，Microsoft 最近更新"Microsoft 团队和 Skype 的业务管理中心"（也称为现代门户） 以反映新的管理模型基于共存模式。 在现代门户中，配置现在在自动 TeamsUpgradePolicy 将还设置 TeamsInteropPolicy 为一致的值，因此 TeamsInteropPolicy 不再显示在用户界面中。 但是，管理员使用 PowerShell 仍必须设置 TeamsUpgradePolicy 兼 TeamsInteropPolicy 在一起以确保正确路由。 转换到 TeamsUpgradePolicy 完毕后，它将不再需要还设置 TeamsInteropPolicy。
+作为本次努力取得的一部分，Microsoft 最近更新"的 Microsoft 团队 admin center"（也称为现代门户） 以反映新的管理模型基于共存模式。 在现代门户中，配置现在在自动 TeamsUpgradePolicy 将还设置 TeamsInteropPolicy 为一致的值，因此 TeamsInteropPolicy 不再显示在用户界面中。 但是，管理员使用 PowerShell 仍必须设置 TeamsUpgradePolicy 兼 TeamsInteropPolicy 在一起以确保正确路由。 转换到 TeamsUpgradePolicy 完毕后，它将不再需要还设置 TeamsInteropPolicy。
 
 有关详细信息，请参阅[迁移和互操作性的组织使用团队一起 for Business 的 Skype 的指南](migration-interop-guidance-for-teams-with-skype.md)。
 
@@ -111,7 +111,7 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 
 ## <a name="related-links"></a>相关的链接
 
-[使用团队一起 Skype for Business 的组织的迁移和互操作性指南](migration-interop-guidance-for-teams-with-skype.md)
+[面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](migration-interop-guidance-for-teams-with-skype.md)
 
 [授予 CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)
 

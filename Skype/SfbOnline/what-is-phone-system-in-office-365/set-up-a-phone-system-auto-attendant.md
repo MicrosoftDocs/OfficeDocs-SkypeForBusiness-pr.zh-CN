@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何设置和测试高效处理您的组织的呼叫的电话系统 (云 PBX) 自动助理。 '
-ms.openlocfilehash: 0bf312734c788e0bd02bc4fce40dbea4267850d4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9e84ea2130238866db61fa222169435772cc7758
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531575"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754150"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>设置电话系统自动助理
 
@@ -49,9 +49,9 @@ ms.locfileid: "26531575"
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>第 2 步 - 创建新的自动助理
 
- **使用 Microsoft 团队 Skype 业务管理中心的**
+ **使用 Microsoft 团队管理中心**
 
-在**Microsoft 团队和 Skype 的业务管理中心**，单击![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **旧门户** >  **呼叫路由** > **自动助理**，然后单击 **+ 添加新**：
+在**Microsoft 团队管理中心**中，单击![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **旧门户** >  **呼叫路由** > **自动助理**，然后单击 **+ 添加新**：
 
 ### <a name="edit-general-info-page"></a>"编辑常规信息"页面
 

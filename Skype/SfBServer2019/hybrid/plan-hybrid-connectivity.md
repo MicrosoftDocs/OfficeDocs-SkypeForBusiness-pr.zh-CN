@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 规划业务联机或团队实现业务服务器 Skype 和 Skype 之间的混合连接性注意事项。
-ms.openlocfilehash: ca6fce658443cd100cc03b14730dac722337733d
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 9e71ec9de7e9ade3502532056ec63826d9f77597
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348942"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753948"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>规划业务服务器 Skype 和 Office 365 之间的混合连接性
 
@@ -62,7 +62,7 @@ ms.locfileid: "29348942"
     > 只能将混合配置的单个租户与你的本地部署结合使用。
 - Azure Active Directory Connect 用于将你的本地目录与 Office 365 同步。 有关详细信息，请参阅[Azure AD 连接： 帐户和权限](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
 - Skype Business Server 管理工具。  需要将用户从内部部署移动到云。 必须有权在本地部署和 internet 服务器上安装这些工具。
-- Online 管理工具。  可以使用的团队和 Skype 业务管理中心或 Windows PowerShell 来管理工作组和 Skype 业务 online。 若要使用 PowerShell 管理团队或 Skype 业务 online，下载并安装 Business Online Connector Skype。
+- Online 管理工具。  您可以使用团队管理中心或 Windows PowerShell 来管理工作组和 Skype 业务 online。 若要使用 PowerShell 管理团队或 Skype 业务 online，下载并安装 Business Online Connector Skype。
 - 必须启用共享的 SIP 地址空间，并且必须配置内部部署 Office 365 用作宿主提供商。 有关配置混合连接所需的步骤的详细信息，请参阅[配置混合连接性](configure-hybrid-connectivity.md)。
 
 配置混合连接后，您可以将用户移至团队或 Skype 业务 online。 有关详细信息，请参阅[移动用户从内部部署到团队](move-users-from-on-premises-to-teams.md)和[移动用户从本地到业务 online Skype](move-users-from-on-premises-to-skype-for-business-online.md)。

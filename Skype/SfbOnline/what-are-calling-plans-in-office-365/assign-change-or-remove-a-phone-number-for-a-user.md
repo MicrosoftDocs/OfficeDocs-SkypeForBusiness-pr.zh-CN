@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 了解如何给 Skype for Business 用户分配、更改或删除工作电话号码，以便外部业务和客户能呼入。
-ms.openlocfilehash: 40c067657132781d29b8f20a3738d6d28ce36331
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: Learn how to assign, change, or remove a work phone number to your Skype for Business users so outside businesses and clients can call in.
+ms.openlocfilehash: 4e0189f29b2e7f8324e378c4ad314f8a55a8fa0b
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374655"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754865"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>为用户分配、更改或删除电话号码
 
@@ -50,7 +50,7 @@ ms.locfileid: "25374655"
 若要了解如何获取 Office 365 中的通话套餐以及它们的价格，请参阅 [Skype for Business 和 Microsoft Teams 加载项授权](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
   
 > [!NOTE]
-> One way to see whether a user has a license assigned is by going to **Skype for Business admin center** > **Voice** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center. 
+> 一种方法查看用户是否已分配的许可证是通过转至**业务管理中心的 Skype** > **语音** > **语音用户**，然后选择用户。 如果已分配许可证，则将**已分配的许可证**下注明。 您还可以使用 Office 365 管理中心。 
   
  ## <a name="assign-a-phone-number-to-a-user"></a>为用户分配电话号码
  
@@ -58,7 +58,7 @@ ms.locfileid: "25374655"
  
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
+2. 转到**Microsoft 团队管理中心** > **旧门户**。
     
 3. 在左侧导航窗格中，单击**语音** > **语音用户**。
    > [!NOTE]
@@ -80,7 +80,7 @@ ms.locfileid: "25374655"
 8. 在选择电话号码和紧急位置之后，请单击" **保存**"。
     
     > [!NOTE]
-    > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
+    > Office 365 和 Skype 业务 online 之间的延迟，因为它可能花费达 24 小时的用户启用。 如果之后 24 小时，如果不正确分配电话号码，请[对业务产品-管理员技术联系人支持](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 我们随时为你提供帮助！ 
   
 
 
@@ -90,7 +90,7 @@ ms.locfileid: "25374655"
  
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
+2. 转到**Microsoft 团队管理中心** > **旧门户**。
     
 3. 在左侧导航窗格中，单击**语音** > **语音用户**。
     
@@ -114,7 +114,7 @@ ms.locfileid: "25374655"
  
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
+2. 转到**Microsoft 团队管理中心** > **旧门户**。
     
 3. 在左侧导航窗格中，单击**语音** > **语音用户**。
     

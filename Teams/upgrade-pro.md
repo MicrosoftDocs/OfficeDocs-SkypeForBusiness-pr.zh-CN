@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bff0bc862313ecf5ef85152797266b8cc40b2be
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: e948685a1a49920ca7cf200435266e2cbaaf165d
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349378"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754831"
 ---
 # <a name="upgrade-pro"></a>升级专业人员
 
@@ -122,4 +122,4 @@ ms.locfileid: "29349378"
 > 不断发展我们升级专业人员的内容。 请务必重新检查的最新的指南，并阅读[团队博客 （英文）](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)。
 
 > [!Important]
-> 如果您在 Office 365 租户管理员，您可能开始查看 PowerShell cmdlet 或团队 & Skype 的业务管理中心中的升级选项。 具有升级选项并不一定意味着您的组织已准备好进行此更改。 为获得最佳用户体验，请确认团队满足协作和通信要求，请验证您的网络已准备好支持团队和实现之前将用户升级到团队您用户的准备工作计划。
+> 如果您在 Office 365 租户管理员，您可能开始查看 PowerShell cmdlet 或 Microsoft 团队管理中心中的升级选项。 具有用于升级的选项并不一定意味着贵组织已准备好进行此项变更。 为获得最佳用户体验，请确认团队满足协作和通信要求，请验证您的网络已准备好支持团队和实现之前将用户升级到团队您用户的准备工作计划。

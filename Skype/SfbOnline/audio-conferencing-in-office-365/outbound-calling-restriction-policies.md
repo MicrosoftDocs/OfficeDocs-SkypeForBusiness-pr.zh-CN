@@ -19,18 +19,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理员可以控制音频会议和最终用户 PSTN 的呼叫可以由用户所做的类型。
-ms.openlocfilehash: ed61dc5c131dd38d59820f3ccda9682dcf7fd886
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 97df093168e896eabbc210545d516f386e1a6d25
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882009"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753469"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音频会议和用户 PSTN 通话的出站通话限制策略
 
 作为管理员，您可以使用出站呼叫控件来限制组织用户可以进行的音频会议和最终用户 PSTN 呼叫类型。 
 
-出站通话控件可以应用基于每个用户，并提供了下列两个控件，以便独立限制每种类型的出站呼叫。 默认情况下，这两个控件设置为允许国际和国内出站呼叫。 
+Outbound call controls can be applied on a per-user basis and provide the following two controls to independently restrict each type of outbound calls. By default, both controls are set to allow international and domestic outbound calls. 
 
 |控件|说明|控件选项|
 |:-----|:-----|:-----|
@@ -45,7 +45,7 @@ ms.locfileid: "23882009"
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>限制音频会议出站呼叫 
 
-![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
 
 1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 
@@ -55,7 +55,7 @@ ms.locfileid: "23882009"
 
 4. 在**会议拨出权限**下，选择所需的拨出限制选项。
 
-5. 单击" **保存**"。 
+5. 单击“**保存**”。 
 
 ![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
 
@@ -67,16 +67,16 @@ ms.locfileid: "23882009"
 
     ![拨出选项限制](../images/restrictions-to-dial-outs.png)
 
-5. 单击" **保存**"。
+5. 单击“**保存**”。
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 **使用 PowerShell**
 
-出站呼叫限制由名为 OnlineDialOutPolicy 的单个策略控制，其中每个都有一个限制属性。 无法自定义策略，而是为每个设置组织使用预定义策略实例。 
+Outbound call restrictions are controlled by a single policy called OnlineDialOutPolicy which has a restriction attribute for each. The policy cannot be customized, rather there are pre-defined policy instances for each combination of the settings. 
 
-Get CSOnlineDialOutPolicy cmdlet 可用于查看出站呼叫策略并使用 CSDialOutPolicy cmdlet 将其分配给用户。 （请注意，授予 cmdlet 不包含 Get cmdlet 使用的单词“Online”。） 
+You can use the Get-CSOnlineDialOutPolicy cmdlet to view the outbound calling policies and assign them to users by using the Grant-CSDialOutPolicy cmdlet. (Please note that the Grant cmdlet doesn’t contain the word “Online” as the Get cmdlet does.) 
 
 下表概述了每个策略。
 

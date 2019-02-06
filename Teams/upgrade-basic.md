@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0b6940a2e58a0a459c6f7858c0d7bd19f53ca39
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: ccc958aaba8546f1af8f8bb1644d0fdeea8f0860
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594411"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754296"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -153,7 +153,7 @@ Users are busy with their daily responsibilities. Reminding them of the pending 
 
 *（升级当天）*
 
-Today is the day your organization officially upgrades to Teams as your communication and collaboration solution. In the Teams & Skype for Business Admin Center, activate the upgrade switch by setting the coexistence mode to **Teams Only**. (In the admin center, go to **Org-wide Settings** > **Teams Upgrade**.) Users will receive a notification in their Skype for Business client that they’ve been upgraded to Teams.
+今天贵组织正式升级到 Teams，将其作为通信和协作解决方案。 在 Microsoft 团队管理中心，通过将共存模式设置为**仅团队**激活升级开关。 （在管理中心上，转到“**组织范围的设置**” > “**Teams 升级**”。）用户将在其 Skype for Business 客户端中收到已升级到 Teams 的通知。
 
 我们建议在所有人都升级后，发送一封欢迎大家使用 Teams 的电子邮件。
 

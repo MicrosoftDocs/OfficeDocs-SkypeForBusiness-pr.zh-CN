@@ -13,12 +13,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb2e7ba5f854c392d86006fdb6bd313b3fd87c68
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 5195b929cb5da2fc462cc2ed6826300d835c2b35
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182452"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753994"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>设置共存和升级设置
 
@@ -35,7 +35,7 @@ ms.locfileid: "27182452"
 
 ## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>设置为在组织中的所有用户的的升级选项
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队业务管理中心的 Skype**
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
 
 1. 在左侧导航窗格中，转到**组织范围的设置** > **团队升级**。 
 
@@ -53,7 +53,7 @@ ms.locfileid: "27182452"
 
 ## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>设置您的组织中的单个用户的升级选项
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队业务管理中心的 Skype**
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
 
 1. 在左侧导航窗格中，转到**用户**，，然后从列表中选择用户。 
 2. 在用户，在**升级团队**、 下的**帐户**选项卡上单击**编辑**。

@@ -12,17 +12,14 @@ description: 在 Microsoft Teams 中部署云语音功能实践指导
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2b57b7c39dc129c485943c5048a8d4b6441d942
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: f773c88c16f77e6879adb29852514ef7548790fa
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594195"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754749"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
-
-> [!Note]
-> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 在 Microsoft 团队中，用户可以记录其团队会议和捕获音频、 视频和共享活动的屏幕的组呼叫。 还有一个选项以录制内容已自动转录，以便用户可以播放会议录制与字幕和搜索重要讨论项在脚本中。 录制云中发生的情况，并保存到[Microsoft 流](https://docs.microsoft.com/stream/)，以便用户可以跨组织安全地共享它。
 

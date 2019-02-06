@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2243e1420e2bd1046789669168834cff2125c4ac
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: b4b80b514961057eaba1c3a11d49b0e1696110d1
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349457"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754799"
 ---
 ![升级旅程，重点强调的技术的准备阶段的阶段](media/upgrade-banner-tech-readiness.png "升级旅程，重点强调的技术的准备阶段的阶段")
 
@@ -56,7 +56,7 @@ ms.locfileid: "29349457"
 按每个站点的入职培训用户时，我们强烈建议[语音设置 （方案） 的网站启用设置方案](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)使用这些清单的补充指南作为。
 
 >[!NOTE]
->常见团队和 Skype 业务 online 之间了大部分的配置设置。 您使用的 Microsoft 团队 & Business Admin Center 的 Skype 配置这些设置。
+>常见团队和 Skype 业务 online 之间了大部分的配置设置。 您可以使用的 Microsoft 团队管理中心配置这些设置。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>谁将负责监督入职培训清单完成？</li></ul></td></tr>

@@ -20,23 +20,23 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 了解如何在 Microsoft Teams 中启用或禁用用户是否可以在加入会议时录制其姓名。
-ms.openlocfilehash: bf58498ed6c00f69a32d2391d24a6c5bef1e1df7
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 36e55b4cbffe4f1f57771578104f426f705a5ecd
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347527"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754240"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>在 Microsoft Teams 中让用户能够在加入会议时录制其姓名
 
-当您要设置 Office 365 中的音频会议时，您将收到电话号码和所谓音频会议桥。 会议网桥可以包含一个或多个电话号码，这些号码可以是专用或共享电话号码。
+当你在 Office 365 中设置音频会议时，你将收到电话号码以及所谓的音频会议网桥。 会议网桥可以包含一个或多个电话号码，这些电话号码可以是专用或共享电话号码。
   
-会议网桥负责应答使用电话拨入会议的用户的呼叫。 会议桥的自动助理，从接听呼叫者使用语音提示，然后，具体取决于其设置，可以播放通知，向呼叫者提出记录其姓名，并对会议组织者 PIN 安全设置。 旋转中心点分发给会议组织者，以允许其开始会议。 然而，你也可以将其设置为无需 PIN 即可启动会议。
+会议网桥负责应答使用电话拨入会议的用户的呼叫。 会议网桥通过来自自动助理的语音提示应答呼叫者，然后根据其设置，可以播放通知、让呼叫者录制其姓名以及为会议组织者设置 PIN 安全。 将向会议组织者提供 PIN 以允许他们启动会议。 但你可以设置不需要使用 PIN 即可启动会议。
 
   
 ## <a name="set-whether-callers-should-record-their-name"></a>设置呼叫者是否应录制其姓名
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队和 Skype for Business Admin Center
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 

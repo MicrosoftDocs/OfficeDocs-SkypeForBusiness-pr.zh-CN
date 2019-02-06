@@ -1,5 +1,5 @@
 ---
-title: 有关升级框架
+title: 关于升级框架
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,14 +14,14 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e205eeb00373e66271c98405209df69b272f89a4
-ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
+ms.openlocfilehash: 5a9a2bd4bfe1122fe31951f4382340a7bbd57b1f
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27896144"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754564"
 ---
-# <a name="about-the-upgrade-framework"></a>有关升级框架
+# <a name="about-the-upgrade-framework"></a>关于升级框架
 
 为了帮助您升级旅程猜测，我们已使用用于实现更改的经验证的框架。 如下所示，每个步骤框架中的生成在之前的步骤，以获得最佳效果，建议顺序中的步骤。  
 
@@ -123,5 +123,5 @@ ms.locfileid: "27896144"
 > 不断发展我们升级内容。 请务必重新检查的最新的指南，并阅读[团队博客 （英文）](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)。 
 
 > [!Important]
-> 如果您在 Office 365 租户管理员，您可能开始查看您 PowerShell cmdlet 或团队和 Business Admin Center 的 Skype 中的升级选项。 具有升级选项并不一定意味着您的组织已准备好进行此更改。 为获得最佳用户体验，请确认团队满足协作和通信要求，请验证您的网络已准备好支持团队和实现之前将用户升级到团队您用户的准备工作计划。
+> 如果您在 Office 365 租户管理员，您可能开始查看 PowerShell cmdlet 或 Microsoft 团队管理中心中的升级选项。 具有用于升级的选项并不一定意味着贵组织已准备好进行此项变更。 为获得最佳用户体验，请确认团队满足协作和通信要求，请验证您的网络已准备好支持团队和实现之前将用户升级到团队您用户的准备工作计划。
  

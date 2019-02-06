@@ -1,5 +1,5 @@
 ---
-title: 设置的电话号码包含在邀请中的 Microsoft 团队
+title: 在 Microsoft Teams 中设置包含在邀请中的电话号码
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '获取创建默认的电话号码的呼叫者加入 Microsoft 团队会议的步骤。 '
-ms.openlocfilehash: 20dfd4255cd41e9f5aebf419f77307b30fe40042
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8cbe7a88d1fcb857ce94a95b2a9af7a159ccef5a
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533292"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754556"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft Teams 中设置包含在邀请中的电话号码
 
@@ -49,15 +49,15 @@ Office 365 中的音频会议，组织中的用户创建的 Microsoft 团队会�
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>设置或更改会议组织者或用户的默认音频会议电话号码
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队和 Skype for Business Admin Center
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
 
 1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 
-    ![显示选择的 Microsoft 团队和 Skype 的业务管理中心中的用户](media/teamsselectusers.png)
+    ![在管理中心中的 Microsoft 团队选择用户的显示](media/teamsselectusers.png)
 
 2. 在页面的顶部，单击**编辑**。
 
-    ![单击编辑中的 Microsoft 团队和 Skype 的业务管理中心](media/teamsedituser.png)
+    ![单击编辑中的 Microsoft 团队管理中心](media/teamsedituser.png)
 
 3. 在**音频会议**旁边，单击**编辑**。 
     

@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e51042d5478dbaeb89691b9ad482955055a58ac
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: 660b838c38da478be2f1226fcdd1b104c3b10b54
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706368"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753929"
 ---
 <a name="teams-guest-access-checklist"></a>团队来宾访问清单
 ==========================================
@@ -86,9 +86,9 @@ ms.locfileid: "29706368"
 
 ## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ 步骤 3： 启用租户级别的来宾访问
 
-至少，您必须启用来宾访问的**Microsoft 团队 & Business Admin Center 的 Skype**下的 Microsoft 团队。 
+至少，您必须启用来宾访问的**Microsoft 团队管理中心**下的 Microsoft 团队。 
 
-1. 在工作组 & Skype 的业务管理中心中，选择**组织范围的设置** > **来宾访问**。
+1. 在团队管理中心中选择**组织范围设置** > **来宾访问**。
 2. 设置为**上**的**Microsoft 团队中的允许来宾访问**开关。
 
     ![屏幕快照显示了工作组设置切换的示例](media/set-up-guests-image1.png)

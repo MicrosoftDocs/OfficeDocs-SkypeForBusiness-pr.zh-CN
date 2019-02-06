@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Microsoft Teams 中启用或禁用 Skype 在 PIN 等设置更改或默认会议号码更改时向用户发送电子邮件。 '
-ms.openlocfilehash: 2c082410f7acf000473e001f46587025edd6e9c7
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5f0573a0dec22791bd49eeeb6be6235ae2838c70
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015538"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754134"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>在 Microsoft Teams 中启用或禁用在音频会议设置更改时发送电子邮件
 
-|||UNTRANSLATED_CONTENT_START|||Users are automatically notified by email when they are enabled for Audio Conferencing.|||UNTRANSLATED_CONTENT_END||| 有时可能，但是，当您想要减少发送给 Microsoft 团队用户的电子邮件数。 在这种情况下，您可以禁用发送电子邮件。
+为用户启用了音频会议时，会自动通过电子邮件向其发送通知。 但是，有时候你可能希望减少向 Microsoft Teams 用户发送的电子邮件数量。 在这种情况下，你可以禁用发送电子邮件。
   
 如果禁用发送电子邮件，则不会向用户发送音频会议电子邮件，包括以下情况的电子邮件：为用户启用或禁用了音频会议时、重置其 PIN 时以及当会议 ID 和默认会议电话号码更改时。
   
@@ -58,7 +58,8 @@ ms.locfileid: "25015538"
 
 你可以使用 Microsoft Teams 或 Windows PowerShell 启用或禁用向用户发送电子邮件。
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **使用 Microsoft Teams 和 Skype for Business 管理中心：**
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
+
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
 2. 在“**会议网桥**”页面顶部，单击“**网桥设置**”。 

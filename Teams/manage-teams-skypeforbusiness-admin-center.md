@@ -1,5 +1,5 @@
 ---
-title: 转换为新的 Microsoft 团队和业务管理中心的 Skype 的过程管理团队
+title: 转换为新的 Microsoft 团队管理中心的过程管理团队
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: 了解如何管理租户范围和团队从团队转换期间的用户设置在 Office 365 管理中心，为新的 Microsoft 团队业务管理中心的 Skype 体验。
+description: 了解如何管理租户范围和团队从团队转换期间的用户设置在 Office 365 管理中心对新的 Microsoft 团队管理中心体验。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -16,30 +16,30 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: b3305efee9636dfff391fc9a851227cf215b719a
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: e695c54427dbe80daa179ad6d02e99a2556d9782
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649530"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753533"
 ---
-<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>转换为新的 Microsoft 团队和业务管理中心的 Skype 的过程管理团队
+<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>转换为新的 Microsoft 团队管理中心的过程管理团队
 ======================================================
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams--skype-for-business-admin-center"></a>什么是新的 Microsoft 团队和业务管理中心的 Skype？  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>什么是新的 Microsoft 团队管理中心？  
 
 新的管理中心体验将为您提供管理团队和 Skype for Business 的统一体验。 我们提供附加功能、 端到端见解和管理用户级别上的团队设置的功能。
 
-![Microsoft 团队和 Skype 业务管理中心的屏幕截图。](media/manage-teams-skype-for-business-admin-center-portal.png)
+![在管理中心内，Microsoft 团队的屏幕截图。](media/manage-teams-skype-for-business-admin-center-portal.png)
 
-## <a name="settings-migrated-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>设置迁移到新的 Microsoft 团队和 Skype 的业务管理中心
+## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>设置迁移到新的 Microsoft 团队管理中心
 
 下表标识团队体验已迁移并显示新的管理门户中的当前设置和策略之间的关系的部分。
 
-|Office 365 管理中心中的团队的部分  |设置名称 （租户级别）  |Microsoft 团队和 Skype Business Admin Center 策略   |级别： 租户或用户   |
+|Office 365 管理中心中的团队的部分  |设置名称 （租户级别）  |Microsoft 团队管理中心策略   |级别： 租户或用户   |
 |---------|---------|---------|---------|
 |常规     |显示个人配置文件中的组织聊天        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  租户       |
 |常规     |用于未设置团队收件人 Skype for Business         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
@@ -67,7 +67,7 @@ ms.locfileid: "26649530"
 |消息     |允许用户删除其自己的邮件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
 |消息     |允许用户私下聊天         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
 
-<sup>1</sup>弃用的来宾。 启用/禁用来宾现在中的 Microsoft 团队业务管理中心的 Skype 管理。 启用/禁用团队业务 enterprise，Edu 学生，并将很快弃用 Edu 教职员工。 这应该通过分配许可证在 Office 365 管理中心中的管理。 请参阅[Microsoft 团队管理用户访问](user-access.md)。
+<sup>1</sup>弃用的来宾。 在管理中心中的 Microsoft 团队可以立即托管启用/禁用来宾。 启用/禁用团队业务 enterprise，Edu 学生，并将很快弃用 Edu 教职员工。 这应该通过分配许可证在 Office 365 管理中心中的管理。 请参阅[Microsoft 团队管理用户访问](user-access.md)。
 
 > [!NOTE]
 > 您将继续在 Office 365 管理中心中配置与团队和频道使用组仪表板。 应用程序设置将保留在 Office 365 管理中心的团队区域，并且将更高版本迁移。 
@@ -78,7 +78,7 @@ ms.locfileid: "26649530"
 
 下表显示了您可以在迁移期间管理功能。
 
-|功能  |Microsoft 团队和 Skype 的业务管理中心                       |Skype 的业务管理中心 （旧）  |Office 365 管理中心  |
+|功能  |Microsoft 团队管理中心                      |Skype 的业务管理中心 （旧）  |Office 365 管理中心  |
 |---------|:---------:|:---------:|:---------:|
 |团队消息、 会议和 Live 事件策略     |     X    |         |         |
 |团队升级策略     |    X     |         |         |
@@ -97,6 +97,6 @@ ms.locfileid: "26649530"
 
 ## <a name="manage-settings-after-the-migration"></a>迁移后管理设置
 
-这些设置的迁移完成后，我们将在 Office 365 管理中心和业务管理中心中，为 Skype 中禁用这些，然后中新的 Microsoft 团队业务管理中心的 Skype 进行管理。
+这些设置的迁移完成后，我们将在 Office 365 管理中心和业务管理中心中，为 Skype 中禁用这些和它们然后可以托管在新的 Microsoft 团队管理中心。
 
 

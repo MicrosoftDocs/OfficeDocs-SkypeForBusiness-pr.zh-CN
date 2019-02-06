@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44f3cdad4ab65935c2721244364861db7a140f15
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 668e44b66b08b16a04e730c43dbbe02a9edea4fe
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349292"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754628"
 ---
 ![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
 
@@ -41,7 +41,7 @@ ms.locfileid: "29349292"
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>分配的共存和升级模式
 
-您可以通过分配 TeamsUpgradePolicy，可以使用的 Microsoft 团队 & Skype Business Admin Center 或 Skype 业务远程 Windows Powershell 会话执行的 TeamsOnly 模式升级团队用户。
+您可以通过分配 TeamsUpgradePolicy，可以执行的业务远程 Windows Powershell 会话中使用的 Microsoft 团队管理中心或 Skype 的 TeamsOnly 模式升级团队用户。
 
 有关详细信息，请参阅[设置您共存和升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)和[TeamsUpgradePolicy： 管理迁移和共存](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)。
 
@@ -51,12 +51,12 @@ ms.locfileid: "29349292"
 
 ### <a name="step-1-notify-the-users-of-the-change"></a>步骤 1： 通知用户的更改
 
-1. 在 Microsoft 团队 & Skype 的业务管理中心中，选择**组织范围的设置** > **团队升级**。
+1. 在 Microsoft 团队管理中心，选择**组织范围设置** > **团队升级**。
 2. **共存模式**下, 到**上**更改的**通知的 Skype 业务用户升级到团队是可用的**开关。
 
 ### <a name="step-2-set-the-coexistence-mode-for-the-users"></a>步骤 2： 为用户设置的共存模式
 
-1. 在 Microsoft 团队 & Skype 的业务管理中心中，选择**组织范围的设置**。
+1. 在 Microsoft 团队管理中心中，选择**组织范围的设置**。
 2. 从**共存模式**下拉列表中选择**仅团队**模式。
 
 ## <a name="upgrade-users-in-stages"></a>分阶段升级用户
@@ -71,13 +71,13 @@ ms.locfileid: "29349292"
 
 ### <a name="step-2-set-the-user-mode-to-islands"></a>步骤 2： 将用户模式下设置为群岛
 
-1. 在 Microsoft 团队 & Skype 的业务管理中心中，选择**用户**，然后选择用户群体。
+1. 在 Microsoft 团队管理中心中，选择**用户**，然后选择用户群体。
 2. **升级团队**、 旁边选择**编辑**。
 3. 在**工作组升级**窗格的**共存模式**下，从下拉列表中选择**群岛**。
 
 ### <a name="step-3-set-notification-for-the-user-optional"></a>步骤 3： 为用户的通知 （可选）
 
-1. 在 Microsoft 团队 & Skype 的业务管理中心中，选择**用户**，然后选择用户群体。
+1. 在 Microsoft 团队管理中心中，选择**用户**，然后选择用户群体。
 2. **升级团队**、 旁边选择**编辑**。
 3. 在**工作组升级**窗格的**共存模式**下，更改为**上**的**通知业务用户 Skype**开关。
 
@@ -85,7 +85,7 @@ ms.locfileid: "29349292"
 
 当您准备升级团队用作其唯一的应用程序的用户时，为团队仅用户的共存模式。
 
-1. 在 Microsoft 团队 & Skype 的业务管理中心中，选择**用户**，然后选择用户群体。
+1. 在 Microsoft 团队管理中心中，选择**用户**，然后选择用户群体。
 2. **升级团队**、 旁边选择**编辑**。
 3. 在**工作组升级**窗格的**共存模式**下，从下拉列表中选择**仅团队**。
 

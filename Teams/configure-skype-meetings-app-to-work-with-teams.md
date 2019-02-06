@@ -3,29 +3,29 @@ title: Skype 会议应用程序使用团队配置
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
-ms.date: 08/21/2018
+ms.date: 09/21/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: 管理员可以使用的 Microsoft 团队和 Skype Admin Center Skype 会议应用程序以使用团队配置
+description: 管理员可以使用的 Microsoft 团队管理中心 Skype 会议应用程序以使用团队配置
 Set_Free_Tag: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d87433b57936534afad05d38cb42e64c798f74e4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e94598822ab321ea514bb41af2fa0e4f8ee57ff0
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853404"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754572"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Skype 会议应用程序使用团队配置
 ===================================================
 
-用户升级到 Microsoft 团队后，管理员可以使用的 Microsoft 团队和 Skype Admin Center 指定用户将使用的业务会议加入 Skype 的首选应用程序。
+用户升级到 Microsoft 团队后，管理员可以使用的 Microsoft 团队管理中心指定用户将使用的业务会议加入 Skype 的首选应用程序。
 
 将会议应用程序的 Skype 指定为首选应用程序：
 
-1. 登录到 Microsoft 团队和管理中心。
+1. 登录到 Microsoft 团队管理中心。
 2. 在左窗格中，**组织范围的设置**下选择**工作组升级**。
 3. 对团队升级页上，在**应用程序首选项**下的，从**加入 Skype 业务会议的用户的首选应用程序**下拉列表中选择**Skype 会议应用程序**。
 

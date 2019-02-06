@@ -21,24 +21,24 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解在 Microsoft Teams 中重置用户的会议 ID 以及获取会议更新和迁移工具链接的步骤。 '
-ms.openlocfilehash: bed015c92e197c1ee2dc1b48e495eee98445e3f0
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: a33ccf71d683fc7ae55011f502eda5182ed40268
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019041"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754702"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中重置用户的会议 ID
 
-底部的会议邀请以及的拨入电话号码的呼叫者可用于向会议呼叫中包含动态的会议 ID。 当用户拨打的电话号码时，会议自动助理会要求呼叫者输入此会议 ID，以便他们可以参加会议。
+一个动态会议 ID 与呼叫者可用于拨入会议的拨入电话号码一起包含在会议邀请底部。 在用户拨打电话号码时，会议的自动助理会要求呼叫者输入此会议 ID 才能参加会议。
   
 > [!NOTE]
-> 如果你的会议提供商是 Microsoft，默认情况下用户的会议 ID 设置为“仅动态”。 遗憾的是，它不能更改其成为静态的因为这是现在不受支持。 为启用了音频会议的 Microsoft 团队用户只能自动设置会议 Id。 
+> 如果你的会议提供商是 Microsoft，则默认情况下，你的用户的会议 ID 设置为“仅动态”。 很遗憾，无法将其更改为静态，因为现在不支持。 仅会为启用了音频会议的 Microsoft Teams 用户自动设置会议 ID。 
 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>重置用户的会议 ID
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队和 Skype for Business Admin Center
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
 
 1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 
@@ -63,7 +63,7 @@ ms.locfileid: "25019041"
     
 - 重置之后，你可以看到新会议 ID 列在" **会议 ID**"下方。
     
-- [!重要信息] 创建新会议 ID 后，呼叫者不能再使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 
+- [!重要信息]  创建新会议 ID 后，呼叫者不能再使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 

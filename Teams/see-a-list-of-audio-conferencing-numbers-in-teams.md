@@ -20,20 +20,20 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Microsoft Teams 中查找拨入会议号码。 '
-ms.openlocfilehash: e2a3684e7f2c0264e36a6e30ce2df4adf2537895
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 5c28e8555dc2c90454798a5cfc4eab2319a98184
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347374"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754919"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>在 Microsoft Teams 中查看音频会议号码列表
 
-时为 Microsoft 团队用户设置音频会议，您可以查看为音频会议提供给他们的电话号码。 此列表都会将所有可供您的组织的音频会议电话号码。
+当你为 Microsoft Teams 用户设置音频会议时，你可以看到可提供给他们用于加入音频会议的电话号码。 此列表将包含贵组织可用的所有音频会议电话号码。
   
- **正在搜索价格？** 请参阅[定价音频会议](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
+ **要查找价格？** 请参阅[音频会议的定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
   
-如果仅有一个电话号码在你的组织中可用，则会将其作为你的所有用户的默认号码。 当多个电话号码可用时，你可以为每个用户选择默认电话号码。 将 Microsoft 团队的会议邀请中包含此默认号码。
+如果仅有一个电话号码在你的组织中可用，则会将其作为你的所有用户的默认号码。 当多个电话号码可用时，你可以为每个用户选择默认电话号码。 此默认号码将包含在 Microsoft Teams 会议邀请中。
   
 要为单个用户更改拨入电话号码，你可以参阅[设置包含在邀请中的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)。
   
@@ -45,7 +45,7 @@ ms.locfileid: "25347374"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>查看音频会议电话号码
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队和 Skype for Business Admin Center
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
 
 1. 在左侧导航窗格中，转到**会议** > **会议桥**。 
 2. 查看可用于音频会议的电话号码。

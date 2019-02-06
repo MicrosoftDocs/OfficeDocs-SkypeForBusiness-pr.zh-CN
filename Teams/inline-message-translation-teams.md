@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2afc1d0374333fdbb0bec9246d04224c6a82f032
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 466160616adea80a2fcb6a3bfd035ca397d73754
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532699"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754423"
 ---
 <a name="use-inline-message-translation-in-microsoft-teams"></a>在 Microsoft Teams 中使用内联消息翻译 
 =================================================
@@ -40,9 +40,9 @@ ms.locfileid: "26532699"
 1. 使用[组 CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) cmdlet 来启用在策略。
 2. 策略所需几分钟时间来应用。 用户可能需要先注销，然后重新登录到团队。
 
-## <a name="enable-by-using-the-microsoft-teams--skype-for-business-admin-center"></a>使用 Microsoft 团队和 Skype for Business Admin Center 启用
+## <a name="enable-by-using-the-microsoft-teams-admin-center"></a>使用 Microsoft 团队管理中心启用
 
-中**的 Microsoft 团队和业务管理中心的 Skype**、 从左侧栏中选择**消息的策略**，然后可以创建新的策略或编辑现有策略，以及设置****允许用户将邮件**选项**.
+在**Microsoft 团队管理中心**中，从左侧栏中选择**消息的策略**，然后或者是创建新的策略或编辑现有策略，请设置为**上**的**允许用户将邮件**选项。
 
 > [!NOTE]
 >翻译是由服务完成和传送到捕获的合规性记录中的内容不影响客户端。 若要了解有关转换的详细信息，请参阅[Microsoft translator （英文） 是什么？](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)。

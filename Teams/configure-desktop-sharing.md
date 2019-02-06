@@ -1,5 +1,5 @@
 ---
-title: 配置中的 Microsoft 团队的桌面共享
+title: 在 Microsoft Teams 中配置桌面共享
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
@@ -12,21 +12,21 @@ description: 配置会议策略以让用户共享其桌面团队聊天或会议�
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 422d5fb3a19dad2e14e0cdf54a532b0afc6eed67
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: fcc76f79d288844611e17154359e8c9c3ab4ed23
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27202486"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754765"
 ---
-<a name="configure-desktop-sharing-in-microsoft-teams"></a>配置中的 Microsoft 团队的桌面共享
+<a name="configure-desktop-sharing-in-microsoft-teams"></a>在 Microsoft Teams 中配置桌面共享
 ============================================
 
 桌面共享允许用户在会议或对话过程中演示屏幕或应用程序。 管理员可以配置屏幕中 Microsoft 团队以使用户可以共享整个屏幕、 应用程序或文件共享。 您可以让用户授予或请求控制、 允许共享 PowerPoint、 添加白板和允许共享的便笺。 您还可以配置是否匿名或外部用户可以请求对共享屏幕的控制权。
 
 要配置屏幕共享，您创建新的会议策略，然后将其分配给您要管理的用户。
 
-在 Microsoft 团队业务管理中心的 Skype:
+**在 Microsoft 团队管理中心**
 
 1. 选择**会议** > **会议策略**。
 

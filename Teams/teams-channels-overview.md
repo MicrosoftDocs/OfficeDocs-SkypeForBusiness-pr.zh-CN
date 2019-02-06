@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64cb77116d55d9ddf9c084bff2205ecb4ba8aaca
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 9ae5d850670007d4356fa3de8610e4b110856734
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593891"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753843"
 ---
 > [!NOTE]
 > 查看以下信息以了解聊天、 工作组、 通道和团队中的 & 应用程序。 然后，转到[部署聊天、 工作组、 通道和团队中的 & 应用程序](deploy-chat-teams-channels-microsoft-teams-landing-page.md)来为您的团队推出遍历的重要决策的列表。
@@ -60,7 +60,7 @@ ms.locfileid: "29593891"
 
    > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
-如果您是 Office 365 中的 Microsoft 团队管理员，您的团队 & Business Admin Center 的 Skype 有权访问系统范围的设置。 这些设置可能会影响团队所有者在团队设置下看到的选项和默认设置。 例如，你可以为团队范围的公告、讨论和资源启用默认频道“常规”，它将在所有团队中显示。
+如果您是 Office 365 中的 Microsoft 团队管理员，您的 Microsoft 团队管理中心中有权访问系统范围的设置。 这些设置可能会影响团队所有者在团队设置下看到的选项和默认设置。 例如，你可以为团队范围的公告、讨论和资源启用默认频道“常规”，它将在所有团队中显示。
 
 默认情况下，所有用户都有权在 Microsoft Teams 中创建团队（要对此进行修改，请参阅[在 Teams 中指定角色和权限](assign-roles-permissions.md)）。 现有 Office 365 组的用户也可以使用 Teams 功能帮助自己。
 

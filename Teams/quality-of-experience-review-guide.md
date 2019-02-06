@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa50607a01888f776c480b33af52fccd67a1b7b5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 34ec9518c8f5406b3bb6c489d571d89f50f34b34
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373172"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754823"
 ---
 # <a name="quality-of-experience-review-guide"></a>查看用户体验指南的质量
 
@@ -463,11 +463,11 @@ _图 6-Microsoft 团队筛选器添加到报表_
 
 -   转到<https://cqd.lync.com>。
 
--   转到**Microsoft 团队和业务管理中心的 Skype**并选择链接到 CQD，如下图所示。
+-   转到**Microsoft 团队管理中心**，并选择链接到 CQD，如下图所示。
 
 ![在左侧的导航窗格中，选择对呼叫质量仪表板链接。](media/qerguide-image-mopo.png "在左侧的导航窗格中，选择对呼叫质量仪表板链接。")
 
-_图 7 – 通过 Microsoft 团队和 Skype 业务管理中心的访问 CQD_
+_图 7 – CQD 通过 Microsoft 团队管理中心访问_
 
 -   转到旧**业务管理中心的 Skype** > **工具**，然后选择 CQD，如下图所示的链接。
 
@@ -627,18 +627,18 @@ _表 5-构建文件结构_
 
 | 列名称        | 数据类型 | 示例                   | 指南    |
 |--------------------|-----------|---------------------------|-------------|
-| 网络            | 字符串    | 192.168.1.0               | 必需    |
-| NetworkName        | 字符串    | 美国/西雅图/西雅图-SEA-1 | 必需\*  |
+| 网络            | String    | 192.168.1.0               | 必需    |
+| NetworkName        | String    | 美国/西雅图/西雅图-SEA-1 | 必需\*  |
 | NetworkRange       | 数字    | 26                        | 必需    |
-| BuildingName       | 字符串    | 西雅图-SEA-1             | 必需\*  |
-| OwnershipType      | 字符串    | Contoso                   | 可选    |
-| BuildingType       | 字符串    | IT 终止            | 可选    |
-| BuildingOfficeType | 字符串    | Engineering               | 可选    |
-| 城市               | 字符串    | 西雅图                   | 推荐 |
-| 邮政编码            | 字符串    | 98001                     | 推荐 |
-| 国家/地区            | 字符串    | 我们                        | 推荐 |
-| 省/市/自治区              | 字符串    | WA                        | 推荐 |
-| 区域             | 字符串    | MSU                      | 推荐 |
+| BuildingName       | String    | 西雅图-SEA-1             | 必需\*  |
+| OwnershipType      | String    | Contoso                   | 可选    |
+| BuildingType       | String    | IT 终止            | 可选    |
+| BuildingOfficeType | String    | Engineering               | 可选    |
+| 城市               | String    | 西雅图                   | 推荐 |
+| ZipCode            | String    | 98001                     | 推荐 |
+| 国家/地区            | String    | 我们                        | 推荐 |
+| 省/市/自治区              | String    | WA                        | 推荐 |
+| 区域             | String    | MSU                      | 推荐 |
 | InsideCorp         | Bool      | 1                         | 必需    |
 | ExpressRoute       | Bool      | 0                         | 必需    |
 
@@ -1206,7 +1206,7 @@ _图 30-客户端版本报告_
 
 #### <a name="diagnostic-alert"></a>诊断通知
 
-如果收到诊断警报"客户端版本不佳的已知正在使用"功能，重点关注首次更新这些客户端。 确定了这些客户端产生负面影响呼叫质量的通知。 您可以使用客户端和设备报告 （如上所示） 以帮助确保不再更新具有已知问题的客户端。
+如果收到诊断警报"客户端版本不佳的已知正在使用"功能，重点关注首次更新这些客户端。 确定了这些客户端产生负面影响呼叫质量的通知。 您可以使用客户端 & （如上所示） 以帮助确保不再更新具有已知问题的客户端设备报告。
 
 #### <a name="remediation"></a>修正
 
@@ -1245,7 +1245,7 @@ _图 30-客户端版本报告_
 
 通过为用户提供认证个团队和 Skype for Business 的设备，可以减少遇到设备本身 （这是更可能，例如，带内置便携式计算机扬声器和麦克风） 由于负体验的可能性。 有关详细信息，请参阅[认证计划](/SkypeForBusiness/certification/overview)和[合作伙伴解决方案目录](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)上的以下文章。
 
-设备报告用来评估设备用法通过批量和 MOS 得分 （仅限音频），可以在客户端和设备下的相应模板中找到。 
+设备报告用来评估设备用法通过批量和 MOS 得分 （仅限音频），可在客户端 & 设备下的相应模板中找到。 
 
 > [!IMPORTANT]
 > 除非您排除联盟参与者数据，这些报表将包括来自联盟的终结点的客户端遥测。 若要排除联盟的终结点，您必须添加**第二个租户 ID**设置为贵组织的[租户 ID](#tenant-id)查询筛选器。 此外，您可以使用[URL 筛选器](#url-filter)中排除联盟参与者遥测。
@@ -1262,7 +1262,7 @@ _图 31-设备 （麦克风） 报告_
 
 ##### <a name="diagnostic-alert"></a>诊断通知
 
-如果您收到诊断警报"呼叫下降，导致音频驱动程序"重点关注首先补救这些驱动程序。 该通知已标识已知的损坏驱动程序均导致调用删除且产生负面影响呼叫可靠性。 在客户端和设备部分中找到的麦克风驱动程序报表 （如上所示），可用于帮助实现过程。
+如果您收到诊断警报"呼叫下降，导致音频驱动程序"重点关注首先补救这些驱动程序。 该通知已标识已知的损坏驱动程序均导致调用删除且产生负面影响呼叫可靠性。 麦克风驱动程序报告 （如上所示），它在客户端 & 设备部分中找到，可用于帮助实现过程。
 
 ##### <a name="remediation"></a>修正
 
@@ -1351,7 +1351,7 @@ _表 12-网络性能要求_
 
 ### <a name="devices"></a>设备
 
--   [为业务解决方案的 Skype 目录个人外设和 Pc](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
+-   [业务解决方案目录个人外围设备 & Pc 的 Skype](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 
 ### <a name="tenant-reporting"></a>报告的租户
 

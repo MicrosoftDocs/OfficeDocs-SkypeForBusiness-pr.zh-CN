@@ -9,16 +9,16 @@ ms.service: msteams
 description: 了解如何使用 PowerShell 控件来管理 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 477aa468cf057bd5f1a042acd5aff9772e8244f0
-ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
+ms.openlocfilehash: 45714418f123022bc3545d4923bd18fc71bad746
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29442426"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754540"
 ---
 # <a name="teams-powershell-overview"></a>Teams PowerShell 概览
 
-Microsoft 团队具有一组丰富的 IT 管理员可以管理通过 Microsoft 团队 & Business Admin Center、 PowerShell 控件和图形 Api 的 Skype 产品的工具。 本指南介绍了我们如何构建 IT 管理员可以使用，我们 PowerShell cmdlet，并提供指向更多文档。 请注意不同工作组管理员角色有权访问不同的 cmdlet。 有关详细信息，请参阅[管理团队使用的 Microsoft 团队管理角色](using-admin-roles.md)。
+Microsoft 团队具有一组丰富的 IT 管理员可以管理通过 Microsoft 团队管理中心、 PowerShell 控件和图形 Api 产品的工具。 本指南介绍了我们如何构建 IT 管理员可以使用，我们 PowerShell cmdlet，并提供指向更多文档。 请注意不同工作组管理员角色有权访问不同的 cmdlet。 有关详细信息，请参阅[管理团队使用的 Microsoft 团队管理角色](using-admin-roles.md)。
 
 ## <a name="which-modules-do-you-need-to-use"></a>您需要使用哪些模块？
 
@@ -75,7 +75,7 @@ PowerShell 控件的参考文档会告诉您哪些模块包含正在研究 cmdle
 
 配置是存储桶的维护中不能在用户级别指定的服务的设置。 在整个组织始终应用设置。 全局配置是在组织中的唯一有效的配置。 每种配置类型附带的两个主要 cmdlet:
 
-- 例如：``Get-Cs<ConfigurationName>``。 
+- ``Get-Cs<ConfigurationName>``(例如， ``Get-CsTeamsClientConfiguration``): 
 
 - 设置命令 (例如， ``Set-CsTeamsClientConfiguration``): 该类型的配置中设置属性。 指定要修改的参数。
    > 您可以引用正在修改以下两种方式中的配置： 通过指定-**Identity 全局**，或通过运行``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``。

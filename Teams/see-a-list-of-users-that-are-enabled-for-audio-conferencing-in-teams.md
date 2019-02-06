@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Microsoft Teams 中查看贵组织中启用了电话拨入式会议的用户列表。 '
-ms.openlocfilehash: 47e8f6879a16f9ee56e9050a07764800d4dba12b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e9c8b594af6201200585a5633cfbd745e73dd483
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533108"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754200"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft Teams 中查看启用了音频会议的用户列表
 
@@ -36,7 +36,7 @@ ms.locfileid: "26533108"
   
 ## <a name="viewing-a-list-of-users"></a>查看用户列表
 
-- Skype 业务管理中心的左侧导航中的 Microsoft 团队中单击**用户**。
+- 在 Microsoft 团队管理中心中，在左侧导航窗格中，单击**用户**。
 
 
 ## <a name="what-else-should-i-know"></a>我还需了解哪些信息？

@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 团队中配置 live 事件设置
+title: 在 Microsoft Teams 中配置实时事件设置
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
@@ -14,32 +14,32 @@ description: 了解如何管理保留在您的组织中的团队 live 事件的�
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8e12b6b85b61bb8c6312054be07dc37365c62c0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 5dec5d34721bc30001972590c4501045a6e46ca8
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532246"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754476"
 ---
-# <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft 团队中配置 live 事件设置
+# <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams 中配置实时事件设置
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 使用团队 live 事件设置您的组织中配置的实时事件的保留设置。 您可以设置的支持 URL 和配置第三方视频分布提供程序。 这些设置适用于您的组织中创建的所有 live 事件。 
 
-您可以方便地管理业务管理中心中的 Microsoft 团队 Skype 这些设置。 在左侧导航窗格中，转到**会议** > **Live 事件设置**。 
+您可以方便地管理 Microsoft 团队管理中心中的这些设置。 在左侧导航窗格中，转到**会议** > **Live 事件设置**。 
 
-![live 事件 settings.png](../media/teams-live-events-settings.png "团队的屏幕截图 live 事件设置可以配置中的 Microsoft 团队业务管理中心的 Skype") 
+![live 事件 settings.png](../media/teams-live-events-settings.png "团队的屏幕截图 live 事件设置可以配置在管理中心中的 Microsoft 团队") 
 
 ## <a name="set-up-event-support-url"></a>设置事件支持 URL
 
 显示此 URL live 事件与会者。 添加您的组织的支持 URL，使与会者可以与支持部门联系 live 事件期间方式。
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams--skype-for-business-admin-center"></a>![团队-徽标-30x30.png](../media/teams-logo-30x30.png) 使用 Microsoft 团队 Skype 业务管理中心的
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![团队-徽标-30x30.png](../media/teams-logo-30x30.png) 使用 Microsoft 团队管理中心
 
 1. 在左侧导航窗格中，转到**会议** > **Live 事件设置**。
 2. 在**支持的 URL**，输入您的组织的支持 URL。 
 
-    ![支持 URL 设置 live 中的 Microsoft 团队业务管理中心的 Skype 事件](../media/teams-live-events-settings-supporturl.png "屏幕截图支持 URL 设置团队 live 事件")
+    ![支持 URL 设置 live 的 Microsoft 团队管理中心中的事件](../media/teams-live-events-settings-supporturl.png "屏幕截图支持 URL 设置团队 live 事件")
 
 ### <a name="using-windows-powershell"></a>使用 Windows PowerShell
 请运行以下命令：
@@ -51,12 +51,12 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 
 如果您购买并设置软件定义网络 (SDN) 解决方案或通过 Microsoft 视频传递合作伙伴的企业内容交付网络 (eCDN) 解决方案，团队中配置实时事件提供的程序。 
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams--skype-for-business-admin-center"></a>![团队-徽标-30x30.png](../media/teams-logo-30x30.png) 使用 Microsoft 团队 Skype 业务管理中心的
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![团队-徽标-30x30.png](../media/teams-logo-30x30.png) 使用 Microsoft 团队管理中心
 
 1. 在左侧导航窗格中，转到**会议** > **Live 事件设置**。
 2. 在**第三方视频分布提供**，完成以下任务： 
 
-    ![第三方视频通讯组中的 Microsoft 团队业务管理中心的 Skype 的提供程序设置](../media/teams-live-events-settings-distribution-provider.png "屏幕截图的第三方视频分布提供程序设置的实时事件")
+    ![Microsoft 团队管理中心中的第三方视频分布提供程序设置](../media/teams-live-events-settings-distribution-provider.png "屏幕截图的第三方视频分布提供程序设置的实时事件")
 
     - **使用第三方分发提供程序**关闭此到启用的第三方视频分布提供程序。
     - **SDN 提供程序名称**选择您使用的提供程序。

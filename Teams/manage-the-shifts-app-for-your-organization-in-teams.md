@@ -1,5 +1,5 @@
 ---
-title: 管理组织中的 Microsoft 团队引进相关应用程序
+title: 在 Microsoft Teams 中为组织管理 Shifts 应用
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
@@ -12,14 +12,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f761e36712b94274ccf88aa03bd3658c039d438
-ms.sourcegitcommit: 71ba178ff60c4b36d4d8e287be9b16233a29ad55
+ms.openlocfilehash: 204dc5899a72b1bc1516441ca8654e7341f19942
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28022912"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754524"
 ---
-# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>管理组织中的 Microsoft 团队引进相关应用程序
+# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Shifts 应用
 
 > [!IMPORTANT]
 > 有效 2019 年 10 月 1，，Microsoft StaffHub 将要停用。 我们正在构建 StaffHub 功能，包括时间表和任务管理功能，向 Microsoft 团队。 Firstline 工作人员的其他功能将推出向工作组随着时间的推移。 若要了解详细信息，请参阅[Microsoft StaffHub 要停用](https://support.office.com/article/microsoft-staffhub-to-be-retired-30ca17f3-5502-4bc9-bb0a-bed04bb362f0)。  
@@ -49,7 +49,7 @@ ms.locfileid: "28022912"
 默认情况下，为您的组织中的所有工作组用户启用引进。 您可以关闭或打开 Microsoft 365 管理中心中的组织的应用程序。
 
 1. 登录到 Microsoft 365 管理中心，使用您的 Office 365 管理员帐户。
-2. 转到**设置** > **服务和外接程序** > **Microsoft 团队**。 
+2. 转到**设置** > **服务 & 加载项** > **Microsoft 团队**。 
 3. **租户范围的设置**下选择**应用程序**，然后在**默认应用程序**，清除或选择**班次**复选框，以关闭或打开应用程序。 
 
     ![默认应用程序部分的屏幕截图](media/firstline-worker-enable-disable-shifts.png "Microsoft 365 管理中心内，显示的应用程序，包括引进应用程序列表中的默认应用程序部分的屏幕截图")
@@ -62,13 +62,13 @@ ms.locfileid: "28022912"
  
 团队包括您可以分配给 firstline 工作者您的组织中的内置 FirstLineWorker 应用程序设置策略。 默认情况下，该策略包括活动、 引进、 聊天和调用应用程序。 
 
-若要查看 FirstLineWorker 策略中的 Microsoft 团队 Skype 业务管理中心的左侧导航窗格中，转到**团队应用程序** > **应用程序设置策略**。
+若要查看 FirstLineWorker 策略中，Microsoft 团队管理中心的左侧窗格中，转到**团队应用程序** > **应用程序设置策略**。
 
-![中的 Microsoft 团队业务管理中心的 Skype FirstLineWorker 应用程序设置策略的屏幕截图](media/firstline-worker-app-setup-policy.png "中的 Microsoft 团队业务管理中心的 Skype FirstLineWorker 应用程序设置策略的屏幕截图")
+![Microsoft 团队管理中心中的 FirstLineWorker 应用程序设置策略的屏幕截图](media/firstline-worker-app-setup-policy.png "Microsoft 团队管理中心中的 FirstLineWorker 应用程序设置策略的屏幕截图")
 
 #### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>将 FirstLineWorker 策略分配给各个用户
 
-1. 中的 Microsoft 团队 Skype 业务管理中心的左侧导航窗格中，转到**用户**，，然后单击用户。
+1. 在 Microsoft 团队管理中心的左侧导航窗格中，转到**用户**，，然后单击用户。
 2. 旁边**分配策略**，选择**编辑**。
 3. **团队应用程序设置策略**，下选择**FirstLineWorker**，，然后选择**保存**。
 

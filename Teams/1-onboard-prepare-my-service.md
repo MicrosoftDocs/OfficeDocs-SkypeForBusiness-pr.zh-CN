@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdcf5bd3da33463d39f8681a41d7299f3d66e727
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 21cd36632f04060a50bd4fa6f742a5e7972ebec6
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593931"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753497"
 ---
 # <a name="prepare-my-service"></a>准备我的服务
 
@@ -50,7 +50,7 @@ ms.locfileid: "29593931"
 按每个站点的入职培训用户时，我们强烈建议[语音设置 （方案） 的网站启用设置方案](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)使用这些清单的补充指南作为。
 
 >[!NOTE]
->常见团队和 Skype 业务 online 之间了大部分的配置设置。 Office 365 管理中心和团队 & Business Admin Center 的 Skype 用于配置这些设置。
+>常见团队和 Skype 业务 online 之间了大部分的配置设置。 您可以使用 Office 365 管理中心和 Microsoft 团队管理中心配置这些设置。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>谁将负责监督入职培训清单完成？</li></ul></td></tr>

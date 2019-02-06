@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理员可以控制组织者如何使用他们会议的免费电话号码。
-ms.openlocfilehash: 0ee8274dd30b246da513d0597bf39964b94be8ca
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: f553cc3abad8f4490d06099554c188881ef47e24
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678153"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753755"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>禁用特定 Skype for Business Online 用户的免费电话号码
  
@@ -48,7 +48,7 @@ By default, all users in your organization are enabled for using toll-free numbe
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>禁用特定用户的免费电话号码 
 
-**Microsoft 团队和 Skype 业务管理中心的**：
+从**Microsoft 团队管理中心**：
 
 1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
 

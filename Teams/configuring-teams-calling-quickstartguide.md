@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e66005ca69a08cd0cf944455e73c155d20bfea9
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 0aa397b7a859e24beaf5f8455ef054b7d5a18222
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593923"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753615"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>快速入门指南：在 Microsoft Teams 中配置通话套餐
 ==============================================================
@@ -48,7 +48,7 @@ ms.locfileid: "29593923"
 > 您可以使用直接路由允许您强制用户和接收 PSTN 呼叫。 若要了解如何设置直接路由，请阅读[配置直接路由](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure)。
 
 ## <a name="teams-interop-policy-configuration"></a>Teams 互操作性策略配置
-若要启用团队以开始接收呼叫，您将需要更新团队升级策略和团队互操作性策略，使用[的 Microsoft 团队 & Skype 的业务管理中心](https://aka.ms/teamsadmincenter)或使用远程 Windows PowerShell 会话 Skype for Business [ `*-CsTeamsUpgradePolicy`和`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype)cmdlet，以将重定向到团队呼叫。
+若要启用团队以开始接收呼叫，您将需要更新团队升级策略和团队互操作性策略，使用[的 Microsoft 团队管理中心](https://aka.ms/teamsadmincenter)或使用远程 Windows PowerShell 会话 Skype for Business[`*-CsTeamsUpgradePolicy`和`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype)cmdlet，以将重定向到团队呼叫。
 
 有关升级团队的策略和团队互操作性策略的详细信息，请参阅[迁移和组织使用团队一起 for Business 的 Skype 的互操作性指南](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)。
 
@@ -90,7 +90,7 @@ Teams 互操作性策略具有以下默认配置：
     CallingDefaultClient       : Teams
     ChatDefaultClient          : Teams
 
-如果您选择使用更新的团队升级策略，您需要向用户分配 TeamsOnly 模式。
+如果您选择使用更新的团队升级策略，您需要向用户分配仅团队模式。
 
 以上策略的行为如下：
 * **对于现有 Skype for Business 客户**，此策略旨在将传入呼叫重定向至 Teams。 这包括 VoIP（来自 Teams 和 Skype for Business）和 PSTN 呼叫。 
@@ -104,7 +104,7 @@ Teams 互操作性策略具有以下默认配置：
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
-如果您选择使用 TeamsOnly 模式，您可以为 TeamsOnly 更改用户的共存模式，通过 Microsoft 团队 & Skype 的业务管理中心中，或通过业务远程 Windows PowerShell 会话的 Skype 重定向到团队呼叫：
+如果您选择使用仅团队模式，可以更改用户的共存模式为仅团队通过 Microsoft 团队 acmin 中心或通过业务远程 Windows PowerShell 会话 Skype 重定向到团队呼叫：
 
     Grant-CsTeamsUpgradePolicy -PolicyName tag:UpgradeToTeams -Identity user@contoso.com
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com

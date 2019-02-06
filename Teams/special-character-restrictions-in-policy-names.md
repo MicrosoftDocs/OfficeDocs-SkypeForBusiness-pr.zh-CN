@@ -22,26 +22,24 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: 请参阅有与特殊字符的策略和解决办法可以执行的操作的名称中哪些问题。
-ms.openlocfilehash: e1d46f70b42b96b2f3811c97d0110946fd013cd7
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: ffb6082a613587b654f997bc2b2154bfeade15bf
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017500"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754733"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>什么是团队策略中的特殊字符限制？
 
-**您无法创建或编辑 Business Admin Center 中的 Microsoft 团队和 Skype 的名称中具有特殊字符的策略 （对于消息、 会议、 等）。** 
+**无法创建或编辑策略 （对于消息、 会议、 等） 的已在名称中的 Microsoft 团队管理特殊字符居中**。 
 
-如果某个策略名称包含特殊字符，您将在管理中的 Microsoft 团队和业务管理中心的 Skype 这些策略限制。 **因此，我们强烈建议策略名称不包含特殊字符**。 
+如果某个策略名称包含特殊字符，您将在管理这些策略的 Microsoft 团队管理中心中的限制。 **因此，我们强烈建议策略名称不包含特殊字符**。 
 
-使用 PowerShell 的会议和消息团队可以如具有特殊字符已创建的策略名称 @，#、 $。 但是，如果您想对中的 Microsoft 团队和 Skype 业务管理中心的策略进行更改，将看不到。 
+使用 PowerShell 的会议和消息团队可以如具有特殊字符已创建的策略名称 @，#、 $。 但是，如果您想要更改的 Microsoft 团队管理中心中的策略，将看不到。 
 
-如果必须具有特殊字符的策略，您将需要编辑策略使用 Windows PowerShell （始终） 或创建新策略中的 Microsoft 团队和业务管理中心的 Skype 与旧策略相同的设置和将其分配给同一分组p 的用户。
+如果必须具有特殊字符的策略，您需要编辑策略使用 Windows PowerShell （始终） 或在与旧策略相同的设置的 Microsoft 团队管理中心创建新的策略和将其分配给同一组的用户。
 
 ## <a name="to-remove-special-characters"></a>若要删除特殊字符
-
-
 
 **步骤 1 – 进行远程 powershell 连接。**
 如果尚未尚未[设置您的计算机的 Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 。
@@ -65,7 +63,7 @@ ms.locfileid: "25017500"
 
 **步骤 3-创建新的策略。**
 
-您可以使用相同的设置用于业务管理中心或 PowerShell 的 Microsoft 团队和 Skype 创建新策略。
+您可以使用的 Microsoft 团队管理中心或 PowerShell 相同的设置创建新策略。
 
 运行此会为您创建新策略，但您需要通过查看[设置 CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) ，然后运行它添加正确设置：
 
@@ -110,4 +108,4 @@ Windows PowerShell Office 365 的功能是管理用户以及允许或不允许�
     > [!NOTE]
     > Skype 业务 online 的 Windows PowerShell 模块使您能够创建了业务 Online 和 Microsoft 团队连接到 Skype 远程 Windows PowerShell 会话。 此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。
   
-### <a name="related-topics"></a>相关主题
+

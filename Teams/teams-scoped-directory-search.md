@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6260651dfa48dc07a15dbc1bbcf41297ecc281cf
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 2a4a36de9b535d7c95f93175a97ce5266fdc37ec
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326816"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754304"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 范围目录搜索
 
@@ -46,11 +46,11 @@ Microsoft 团队允许组织为用户提供的目录的自定义视图。 Micros
 
 2.  登录到 Microsoft 365 管理中心，选择**管理中心**、，然后选择**工作组 & Skype**。
  
-3.  在业务管理中心的 Microsoft 团队 & Skype，选择**组织范围的设置** > **团队设置**。
+3.  在 Microsoft 团队管理中心，选择**组织范围设置** > **团队设置**。
 
 4.  在**搜索****作用域目录搜索团队使用 Exchange 通讯簿策略 (APB) 中的**，旁边的下启用**上**的切换。 
 
-    ![范围中的业务管理中心团队 & Skype 的目录搜索](media/teams-scoped-directory-search-image1.png)
+    ![范围的 Microsoft 团队管理中心中的目录搜索](media/teams-scoped-directory-search-image1.png)
 
 > [!NOTE]
 > 混合配置 （与 Exchange 内部部署团队） 不支持限定的搜索模式。 

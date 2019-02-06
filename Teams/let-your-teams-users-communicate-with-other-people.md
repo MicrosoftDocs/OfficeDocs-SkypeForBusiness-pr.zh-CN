@@ -1,5 +1,5 @@
 ---
-title: 与其他组织中的团队用户通信
+title: 与其他组织中的 Teams 用户通信
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 请参阅如何配置团队以使用户可以与其他组织中的用户进行通信。
-ms.openlocfilehash: 6fb71e4c9e1461ca920d480336288b06e3111eb2
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 39fa6de27b6ff4f662955ac3cf36d7826379d753
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240837"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754725"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>让您的团队用户聊天并与其他团队组织中的用户进行通信
 
@@ -43,7 +43,7 @@ ms.locfileid: "27240837"
 
 ### <a name="step-2---enable-your-organization-to-communicate-with-another-teams-organization"></a>步骤 2-启用组织与另一个团队组织进行通信
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队和 Skype 的业务管理中心**
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
 
    1. 在左侧导航窗格中，转到**组织范围的设置** > **外部访问**。 
 
@@ -76,7 +76,7 @@ ms.locfileid: "27240837"
 
 具有管理员，组织执行以下步骤：
     
-1. 在 Office 365 管理中心，转到**管理中心** > **团队和 Skype** > **旧门户**。
+1. 在 Office 365 管理中心，转到**管理中心** > **团队 & Skype** > **旧门户**。
   
 2. 在 **Skype for Business 管理中心**，选择“**组织**” > “**外部通信**”。
     

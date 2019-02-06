@@ -14,12 +14,12 @@ description: 了解 live 团队，包括网络准备、 分配许可证、 使�
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fe13722bfc8b5aa7a9f57d0dfd39c67146e6c31
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: 078374652325d177e30db1d320f22e5d814ac548
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626267"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754781"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 
@@ -41,7 +41,7 @@ ms.locfileid: "26626267"
 
 ### <a name="create-or-edit-a-live-events-policy"></a>创建或编辑 live 事件策略
 
-**![团队-徽标-30x30.png](../media/teams-logo-30x30.png)的 Microsoft 团队和 Skype 用于业务管理中心**
+**![团队-徽标-30x30.png](../media/teams-logo-30x30.png)使用的 Microsoft 团队管理中心**
 
 1. 在左侧导航窗格中，转到**会议** > **Live 事件策略**。 
 2. 请执行下列操作之一：
@@ -51,7 +51,7 @@ ms.locfileid: "26626267"
 
     以下是您可以更改以适合您组织的需要的设置。
 
-    ![屏幕截图 live 事件策略设置](../media/teams-live-events-policies.png "屏幕截图 live 事件中的 Microsoft 团队业务管理中心的 Skype 的策略设置") 
+    ![屏幕截图 live 事件策略设置](../media/teams-live-events-policies.png "屏幕截图 live 事件的 Microsoft 团队管理中心中的策略设置") 
 
 |设置  |说明  |
 |---------|---------|
@@ -68,7 +68,7 @@ ms.locfileid: "26626267"
 
 如果您创建的自定义的实时事件策略，则将其分配给用户的策略处于活动状态。 
 
-![团队-徽标-30x30.png](../media/teams-logo-30x30.png) 使用 Microsoft 团队 Skype 业务管理中心的
+![团队-徽标-30x30.png](../media/teams-logo-30x30.png) 使用 Microsoft 团队管理中心
 
 1. 在左侧导航窗格中，转到**用户**，，然后选择用户。
 2. 旁边**分配策略**，选择**编辑**。 

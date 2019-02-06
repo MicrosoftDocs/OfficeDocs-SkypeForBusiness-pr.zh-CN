@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: ec3cbc89a0a8ab07d7936d604d1f38a5d99ed2b6
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 84134809d11b8175dca6369afdf552543ffc07d0
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182390"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753968"
 ---
 # <a name="create-a-phone-system-call-queue"></a>创建电话系统呼叫队列
 
@@ -104,9 +104,9 @@ ms.locfileid: "27182390"
   
 ## <a name="step-3---create-a-new-call-queue"></a>第 3 步 - 创建新的呼叫队列
 
- **使用 Microsoft 团队 Skype 业务管理中心的**
+ **使用 Microsoft 团队管理中心**
 
-在**Microsoft 团队和 Skype 的业务管理中心**，单击![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **旧门户** >  **呼叫路由** > **呼叫队列**，然后单击 **+ 添加新**：
+在**Microsoft 团队管理中心**中，单击![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **旧门户** >  **呼叫路由** > **呼叫队列**，然后单击 **+ 添加新**：
   
 ### <a name="set-the-call-queue-display-name-phone-number-and-domain-if-any"></a>设置呼叫队列显示名称、电话号码和域（如有）
 

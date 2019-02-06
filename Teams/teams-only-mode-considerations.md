@@ -1,5 +1,5 @@
 ---
-title: 团队仅模式注意事项
+title: 仅 Teams 模式注意事项
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,20 +14,20 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39212613b7ecf86e7138c90adfbf5dc3a021ac46
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: d6342ba15ac05e9b26b2f62499c84fe43631ca94
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988237"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754508"
 ---
-# <a name="teams-only-mode-considerations"></a>团队仅模式注意事项
+# <a name="teams-only-mode-considerations"></a>仅 Teams 模式注意事项
 
-如果您是管理员在 Office 365 租户，现在您会看到升级为仅工作组模式中的 Microsoft 团队业务管理中心的 Skype 选项。  利用此功能可以升级各个用户，或者此外，整个租户。  
+如果您是管理员在 Office 365 租户，现在您会看到升级为仅团队模式的 Microsoft 团队管理中心中的选项。 利用此功能可以升级各个用户，或者此外，整个租户。  
 
 升级到团队仅模式为用户提供用于在 Office 365 中，通过单个客户端体验的团队协作的中心的 Microsoft 团队的全部好处。 此外，仅在工作组模式中的用户将接收所有呼叫和聊天团队，无论发件人是否适用于商务或团队使用 Skype 然后中受益于互操作和联合身份验证支持。
 
-虽然成千上万客户已成功升级到 Microsoft 团队，有可能影响一路将您的组织升级时间线和用户体验的注意事项。 具体而言，具有升级选项并不一定意味着您的组织已准备好进行此更改。 获得最佳用户体验，确认团队满足协作和通信要求，请确保您的网络已准备好支持团队和实现之前将用户升级到团队您用户的准备工作计划。 
+虽然成千上万客户已成功升级到 Microsoft 团队，有可能影响一路将您的组织升级时间线和用户体验的注意事项。 具体而言，具有升级选项并不一定意味着您的组织已准备好进行此更改。 为了实现最佳用户体验，请先确认 Teams 满足你的协作和通信要求，确保你的网络可以支持 Teams，以及实施你的用户就绪计划，然后再将用户升级到 Teams。 
 
 > [!IMPORTANT]
 > 如果您刚开始升级规划，请务必查看我们完全升级指南和规划资源。 [从这里开始](upgrade-introduction.md)。 

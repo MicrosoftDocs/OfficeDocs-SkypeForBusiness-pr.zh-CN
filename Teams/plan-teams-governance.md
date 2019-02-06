@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db98b9b5ab460207b2dd9f9a793a486402ec29fd
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 87f52eae4b99a76fc1eddf60fbdfd876efa8da05
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326863"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754807"
 ---
 # <a name="plan-for-governance-in-teams"></a>团队中的治理规划
 
@@ -116,7 +116,7 @@ ms.locfileid: "28326863"
 所有设置，包括有关如何为您的组织，实现这些技术指南的详细列表，请参阅以下文章：
 
 -   [在 Office 365 组织中启用 Microsoft Teams 功能](enable-features-office-365.md)。
--   [转换为新的 Microsoft 团队和业务管理中心的 Skype 的过程管理团队](manage-teams-skypeforbusiness-admin-center.md)
+-   [转换为新的 Microsoft 团队管理中心的过程管理团队](manage-teams-skypeforbusiness-admin-center.md)
 -   [管理团队中的会议策略](meeting-policies-in-teams.md)
 
 

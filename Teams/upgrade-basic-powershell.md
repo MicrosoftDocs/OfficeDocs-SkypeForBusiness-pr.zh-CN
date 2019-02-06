@@ -13,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 753a79bb8138577b5f97666b5b0081520bd386fe
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 5f0d76ffb4f2564a09ea3a4418f9baf7e53e8446
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349238"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754380"
 ---
 # <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>您的用户从升级 Skype 业务 online 到 Microsoft 团队
 
 > [!Note]
 > 本文中介绍的命令旨在用作[基本升级](https://aka.ms/UpgradeBasic)的清单的一部分。
 
-升级的技术迁移方面伴有将升级到团队，然后将它们移动到**团队仅**模式 for Business 的 Skype 通知用户。 业务远程 Windows PowerShell 会话或通过 Microsoft 团队 & Business Admin Center 的 Skype，可以通过 Skype 完成这些步骤。
+升级的技术迁移方面伴有将升级到团队，然后将它们移动到**团队仅**模式 for Business 的 Skype 通知用户。 业务远程 Windows PowerShell 会话或通过 Microsoft 团队管理中心，可以通过 Skype 完成这些步骤。
 
-我们主动推出升级工具中[的 Microsoft 团队 & Business Admin Center 的 Skype](manage-teams-skypeforbusiness-admin-center.md)，并应立即在您的租户上可用。 只要可用它，您可以找到有关迁移用户[设置您共存并升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)的信息。
+我们主动推出升级工具在[Microsoft 团队管理中心](manage-teams-skypeforbusiness-admin-center.md)中，并应立即在您的租户上可用。 只要可用它，您可以找到有关迁移用户[设置您共存并升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)的信息。
 
 如果您已经准备立即升级，您可以使用下表中列出的[PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)命令。
 

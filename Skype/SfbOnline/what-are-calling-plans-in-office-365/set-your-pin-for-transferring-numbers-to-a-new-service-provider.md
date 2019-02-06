@@ -20,17 +20,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 如需将电话号码从 Skype for Business Online 转移或转出到另一个电话服务提供商或运营商，将需要手动 PIN。 设置 PIN 后，在请求将电话号码转出时将需要将其包括在内。
-ms.openlocfilehash: 3a3744a4b1272bab987add10039c89c6e3983927
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: To transfer or port out phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.
+ms.openlocfilehash: bcab4a05e7e24fd301563627a82f739ca169ecc2
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347088"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753451"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>设置 PIN 以将号码转移到新服务提供商
 
-将电话号码从 Skype for Business Online 传输或*转出*到另一个电话服务提供商或运营商，将需要手动设置 PIN。 设置 PIN 后，在请求将电话号码转出时将需要将其包括在内。 
+To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. 
   
 > [!IMPORTANT]
 > PIN 转网 PIN 仅适用于美国国内的组织。 
@@ -55,7 +55,7 @@ ms.locfileid: "25347088"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Microsoft 团队和业务管理中心的 Skype** > **旧门户**。
+2. 转到**Microsoft 团队管理中心** > **旧门户**。
     
 3. 在左侧导航窗格中，选择**语音** > **端口订单**。
     

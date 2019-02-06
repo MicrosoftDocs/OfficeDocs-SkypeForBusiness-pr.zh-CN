@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 396650240c1d7b10e2fd6716ec52c13a649839e5
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: be1aa39a73cf5c4a28866ac8b702afebeb992b0d
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706320"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753816"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授权来宾访问
 ===========================================
@@ -75,7 +75,7 @@ Azure AD 许可允许您要添加每个许可证的最多 5 来宾。 有关 Azu
 
 在团队中，您可以控制是否启用或禁用组织的来宾体验。 设置默认情况下禁用，并且在租户级别的团队仅适用。
 
-您可以从 Microsoft 团队 & Business Admin Center 的 Skype 管理团队来宾访问设置。 有关更多信息，请参阅[开启或关闭 Microsoft Teams 的来宾访问](set-up-guests.md)。 
+您可以从 Microsoft 团队管理中心管理团队来宾访问设置。 有关更多信息，请参阅[开启或关闭 Microsoft Teams 的来宾访问](set-up-guests.md)。 
 
 
 ## <a name="control-guest-access-in-office-365-groups"></a>Office 365 组中的控件来宾访问

@@ -12,16 +12,16 @@ description: 了解如何管理与团队您组织中使用的设备。
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb2c6b9f0693246d9d8a724d12a33bb05805fb83
-ms.sourcegitcommit: d83da643f5e25e5287961fe723012a6ce9bb9738
+ms.openlocfilehash: eb306930b4adca9c50e46ad1515324bbac2a2e2d
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29598810"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754192"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>在 Microsoft Teams 中管理设备
 
- 作为一名管理员，您可以管理与团队您组织中使用的 Microsoft 团队 & Skype 从业务管理中心的所有设备。 您可以查看和管理组织的设备清单和执行任务更新，重新启动，等设备监视器诊断。 您还可以创建和配置配置文件分配的设备或设备组。 
+ 作为一名管理员，您可以管理与团队一起使用的 Microsoft 团队管理中心组织中的所有设备。 您可以查看和管理组织的设备清单和执行任务更新，重新启动，等设备监视器诊断。 您还可以创建和配置配置文件分配的设备或设备组。 
 
 ## <a name="what-devices-can-you-manage"></a>您可以管理哪些设备？
 设备必须认证团队和团队中注册。 设备自动注册用户登录到工作组在设备的第一个时间。 可以管理的认证设备的列表，请参阅[会议电话](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16)和[桌面电话](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34)。
@@ -31,7 +31,7 @@ ms.locfileid: "29598810"
 
 ## <a name="manage-devices-in-teams"></a>管理团队中的设备
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用业务管理中心的 Microsoft 团队 & Skype
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
 
 1. 在左侧导航窗格中，转到**设备** > **管理设备**。
 2. 选择**所有设备**。  
@@ -54,7 +54,7 @@ ms.locfileid: "29598810"
 
 ### <a name="create-a-configuration-profile"></a>创建配置文件
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用业务管理中心的 Microsoft 团队 & Skype
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
 
 1. 在左侧导航窗格中，转到**设备** > **管理设备**。
 2. 选择**配置配置文件**，，然后选择**新的配置文件**。
@@ -63,7 +63,7 @@ ms.locfileid: "29598810"
 
 ### <a name="assign-a-configuration-profile"></a>分配配置配置文件
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用业务管理中心的 Microsoft 团队 & Skype
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
 
 1. 在左侧导航窗格中，转到**设备** > **管理设备**。
 2. 选择**配置文件**，，然后单击在**分配 2 分配给**您想要分配的配置文件中，下的链接。  

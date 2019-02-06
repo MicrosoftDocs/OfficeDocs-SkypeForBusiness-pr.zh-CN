@@ -1,5 +1,5 @@
 ---
-title: 管理团队中的 Microsoft 团队 & Business Admin Center 的 Skype
+title: 管理 Microsoft 团队管理中心中的团队
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,39 +8,39 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: islubin
-description: 了解如何查看或更新您的团队中的 Microsoft 团队 & Business Admin Center 的 Skype。
+description: 了解如何查看或更新您的 Microsoft 团队管理中心中的团队。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df8e60f8a5d7aaf2638e1220baf1c41a59075ae0
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: bd56bd9147ca58ad38b41f64a7a6f3c6a8daf134
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706439"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754184"
 ---
-<a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>管理团队中的 Microsoft 团队 & Business Admin Center 的 Skype
+<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>管理 Microsoft 团队管理中心中的团队
 ==========================================
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 ## <a name="overview"></a>概述
 
-作为一名 IT 管理员，您可能需要查看或更新您的组织已设置的协作，或您的团队可能需要执行修正操作，如分配无所有者团队的所有者。 您可以管理业务管理中心的通过 Microsoft 团队 PowerShell 模块和 Microsoft 团队 & Skype 您组织中使用的团队。 对于使用以下两个工具集的完整的管理功能，您应该确保您已分配下列角色之一：
+作为一名 IT 管理员，您可能需要查看或更新您的组织已设置的协作，或您的团队可能需要执行修正操作，如分配无所有者团队的所有者。 您可以管理通过 Microsoft 团队 PowerShell 模块和 Microsoft 团队管理中心您组织中使用的团队。 对于使用以下两个工具集的完整的管理功能，您应该确保您已分配下列角色之一：
 
 - 全局管理员
 - Teams 服务管理员
 
 您还应确保您的帐户已被分配非试用团队许可证管理。 作为一个已知问题的一部分，您应该确保您的帐户具有只有**一个**管理角色分配。  您可以了解有关 Microsoft 团队中[使用的 Microsoft 团队管理角色，来管理团队](using-admin-roles.md)，管理员角色的详细信息，并可以了解有关如何使用 PowerShell cmdlet 进行管理[的 Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)中的团队。  
 
-本文概述了团队中的 Microsoft 团队 & Business Admin Center 的 Skype 的管理工具。
+本文概述了 Microsoft 团队管理中心中的团队的管理工具。
 
 ## <a name="teams-overview-grid"></a>团队概述网格
 
-团队的管理工具是 Microsoft 团队 & Skype 的业务管理中心中的**团队**节点下。 (在管理中心中选择**团队** > **管理团队**。)此节点提供已 Microsoft 团队启用您的组织中的组的视图和每个工作组后盾 Office 365 组。
+团队的管理工具是 Microsoft 团队管理中心中的**团队**节点下。 (在管理中心中选择**团队** > **管理团队**。)此节点提供已 Microsoft 团队启用您的组织中的组的视图和每个工作组后盾 Office 365 组。
 
 > [!NOTE]
 > 我们正在回填以前创建以确保它们将出现在此视图的团队。
@@ -94,7 +94,7 @@ ms.locfileid: "29706439"
 
 **问题： 团队团队概述网格中缺少**
 
-当您输入的 Microsoft 团队 & Business Admin Center 的 Skype 时，**团队**选项下您的团队一些缺少团队概述网格中的列表。
+输入的 Microsoft 团队管理中心时，**团队**选项下您的团队丢失了一些来自团队概述网格中的列表。
 
 **原因**： 该团队已正确 （或尚未） 分析系统这会导致它才能被识别缺少属性，则会发生此问题。
 
@@ -112,7 +112,7 @@ ms.locfileid: "29706439"
 
 5. 在右上角中运行查询。
 
-6. 确认工作组正确显示回到上的 Microsoft 团队 & Business Admin Center-的 Skype 团队概述 （英文）
+6. 确认工作组正确显示回到上的 Microsoft 团队管理中心-团队概述 （英文）
 
 
 ## <a name="learn-more"></a>了解更多信息
