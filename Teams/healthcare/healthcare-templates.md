@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Microsoft 团队医疗保健模板入门
-ms.openlocfilehash: 7d55d2d6a5f062bc5eb85b6bfc5227f7813c91ca
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: e2b1e9cb2171f250c9d9e635c3d5233c4f47f24e
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735627"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760564"
 ---
 # <a name="get-started-with-microsoft-teams-healthcare-templates"></a>Microsoft 团队医疗保健模板入门
 
@@ -34,7 +34,7 @@ Microsoft 团队模板允许您快速和轻松创建团队提供的预定义的�
 
 |基本模板类型 |baseTemplateId |比较基准模板通道|
 |:--- |:---|:---|
-|医疗保健-行政区 | https://<span></span>图<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | 通知\* <br> 呼叫灯\* <br> 有趣材料 （英文)\* <br> Huddles\* <br>将舍入为\* <br>培训\* |
+|医疗保健-行政区 | https://<span></span>图<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | 通知\* <br> Huddles\* <br> 将舍入为\* <br> 人员配备扁平化\* <br> 培训\* |
 |     | |         |
 
 \*自动 favorited 
@@ -45,7 +45,7 @@ Microsoft 团队模板允许您快速和轻松创建团队提供的预定义的�
 
 |基本模板类型 |baseTemplateId |比较基准模板通道|
 |:--- |:---|:---|
-|医疗保健-医院 | https://<span></span>图<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | 通知\* <br> 合规性\* <br> 有趣材料 （英文)\* <br>监控<br>财务<br>人力资源 <br>实验室<br> 药房 |
+|医疗保健-医院 | https://<span></span>图<span></span>.microsoft.com/beta/teamsTemplates/healthcareHospital   | 通知\* <br> 合规性\* <br> 监控 <br> 人力资源 <br> 药房 |
 | | |  |
 
 \*自动 favorited 
@@ -58,7 +58,7 @@ Microsoft 团队模板允许您快速和轻松创建团队提供的预定义的�
 
 ``` Powershell
 { 
-          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospitalWide",
+          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospital",
           "DisplayName": "Contoso Hospital",
           "Description": "Team for all staff in Contoso Hospital",
           "Channels": [

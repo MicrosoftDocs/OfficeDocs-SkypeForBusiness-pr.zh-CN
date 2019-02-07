@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 了解不同的用户创建和组合的受支持或不受支持的组合。
-ms.openlocfilehash: f85a9903c2b1d35d110c26b276305ed4c9ce949a
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: 6f1cdbfc012026d7a41f5ca96e730aeb861eeb40
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635721"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760556"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>采用 PSTN 连接的混合环境中的用户帐户
 
@@ -34,7 +34,7 @@ ms.locfileid: "29635721"
 - 启用发起和接收和来自客户端的公共公用电话交换网 (PSTN) 呼叫的用户
 
  
-如果您具有不同的环境 （如业务云连接器 edition Skype)、 混合未配置，或您的用户将不会启用 PSTN 呼叫，可支持性矩阵将不同。  
+如果您具有不同的环境 （如业务云连接器 edition Skype)、 混合未配置，或您的用户未启用 PSTN 呼叫，可支持性矩阵将不同。  
 
 ## <a name="about-the-combinations-and-the-supportability-statement"></a>组合以及可支持性语句  
 
@@ -43,12 +43,12 @@ ms.locfileid: "29635721"
 
 **定义：**   
 - **企业语音：** 提供具有内部部署 Skype 业务用户帐户的用户访问 PSTN 的选项。 业务中介服务器的内部部署 Skype pstn 提供互联性。  
-- **混合语音连接性：** 提供与联机 Skype 的 pstn 访问业务帐户的选项。 业务中介服务器的内部部署 Skype pstn 提供互联性。 
+- **混合语音连接性：** 提供的用户与 Skype 业务 Online 帐户访问 PSTN 的选项。 业务中介服务器的内部部署 Skype pstn 提供互联性。 
 - **直接路由：** 具有联机 Skype 业务帐户，Microsoft 团队许可证，使用的 Microsoft 团队客户端的用户提供 PSTN 访问的选项。 SBC 从 Microsoft 连接到 Office 365 中 SIP 代理服务器不需要任何本地软件。
 
   
 **环境支持下列组合：**
-- **方案 1:** 用户帐户中的本地业务 Skype 和将 Skype 用于业务客户端与企业语音
+- **方案 1:** 用户帐户中 Skype 业务本地和将 Skype 用于业务客户端与企业语音
 - **方案 2:** 用户帐户中 Skype 在线业务和将 Skype 用于业务混合语音连接的客户端
 - **方案 3:** 用户帐户中的业务联机 Skype 与 Microsoft 团队许可证，并将使用团队客户端
  

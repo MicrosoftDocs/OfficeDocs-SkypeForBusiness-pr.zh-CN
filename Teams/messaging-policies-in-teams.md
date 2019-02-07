@@ -16,21 +16,23 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 了解有关消息策略以及如何使用它们来控制聊天消息团队。
-ms.openlocfilehash: 203acb58113d162e6752ca5d327b8575c58a7133
-ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
+ms.openlocfilehash: 5292d88c148e2bd23242f96a3593d98178b9a923
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "29530933"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760580"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>Teams 中的消息传递策略是什么？
-
+::: zone target="docs"
 邮件策略用于控制哪些聊天和消息功能的通道供 Microsoft 团队中的用户。 您可以使用创建或的组织中的人员创建一个或多个自定义的邮件策略的默认策略。 创建策略后，您将其分配用户组的组织中。
 
 可以在工作组管理中心轻松地管理策略 (http://admin.teams.microsoft.com)左侧导航窗格中单击**消息策略**和日志记录使用管理员凭据。 若要编辑现有的默认策略为您的组织，选择**全局 （组织范围内默认值）** 行，然后单击**编辑**。 若要创建新的邮件策略，单击**新建策略**。
 
 ![团队中的邮件策略](media/messaging-policies.png)
+::: zone-end
 
+::: zone target="chromeless"
 下面介绍了可用的策略设置： 
 
 - **所有者可以删除发送的消息** 使用此设置可以让所有者删除聊天中的用户发送的邮件。
@@ -49,8 +51,12 @@ ms.locfileid: "29530933"
 - **在对话中使用标签**如果关闭此，用户可以与其他人聊天对话中包括标签。
 - **允许 URL 预览**使用此设置以启用自动 URL 预览打开或关闭消息中。
 - **允许用户将邮件**启用此设置以使用户可以自动将团队邮件转换为 Office 365 其个人语言设置由指定语言。
+::: zone-end
 
+::: zone target="docs"
 如果您已创建的自定义消息策略，它将仅处于活动状态的用户如果该策略分配给用户。  要自定义策略分配团队管理中心中的用户，请单击**用户**的左侧窗格中，选择要分配到的策略的用户，然后选择在**分配策略**下的**编辑**。
+
 
 ### <a name="related-topics"></a>相关主题
 [Teams 中的会议策略](meeting-policies-in-teams.md)
+::: zone-end

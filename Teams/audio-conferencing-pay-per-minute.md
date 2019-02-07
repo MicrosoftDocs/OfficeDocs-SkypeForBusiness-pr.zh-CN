@@ -23,13 +23,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
-description: 标准的音频会议的每用户许可证，除了卷和授权组织还可以选择付薪每分钟版，若要为其组织的音频会议功能。
-ms.openlocfilehash: 17a27c8426356b985168b26c6d19eabd88e306fa
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+description: 标准的音频会议的每用户许可证，除了使用 Microsoft 批量许可的组织还可以选择付薪每分钟版，若要为其组织的音频会议功能。
+ms.openlocfilehash: 7366ea4186d045b75847fd7397becefcf150b8a6
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530853"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760548"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音频会议按分钟付费
 
