@@ -126,6 +126,8 @@
 ##### [部署概述](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [统一联系人存储库](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [规划 Skype for Business Server 和 Exchange Server 迁移](../hybrid/plan-um-migration.md)
+#### [Exchange 统一消息在线迁移支持](../plan/exchange-unified-messaging-online-migration-support.md)
+
 ### [监控](../../SfbServer/plan-your-deployment/monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [存档](../../SfbServer/plan-your-deployment/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [会议](../../SfbServer/plan-your-deployment/conferencing/conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
