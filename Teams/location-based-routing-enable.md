@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3468b413fedc5d3e24871a632f50b5d58c7c5467
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 8437eba299cb42415d224017ca7d0e888fffa684
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715450"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771005"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>启用基于位置的路由直接路由
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 在按照本文中的步骤之前，请确保您已阅读[Plan Location-Based 路由直接路由](location-based-routing-plan.md)并完成[配置的基于位置的路由的网络设置](location-based-routing-configure-network-settings.md)中的步骤。
 
@@ -34,7 +36,7 @@ ms.locfileid: "29715450"
 
 ## <a name="enable-location-based-routing-for-users"></a>启用的用户的基于位置的路由
 
-1. 使用``Set-CsOnlinPstnUsages``cmdlet 设置 PSTN 用法。 使用多个实例，用逗号分隔每个使用率。
+1. 使用``Set-CsOnlinePstnUsages``cmdlet 设置 PSTN 用法。 使用多个实例，用逗号分隔每个使用率。
 
     ```
     Set-CsOnlinePstnUsage -Usage <usages> 

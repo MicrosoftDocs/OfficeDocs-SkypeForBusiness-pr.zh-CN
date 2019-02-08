@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 了解如何配置一个会话边界控制器 (SBC) 提供多个租户。
-ms.openlocfilehash: 618f956519c4a9e8ffe07e3000a91af39469adfc
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8c962647645b742f6c7b612e25873c6486bb51a0
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532821"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771021"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -206,7 +206,9 @@ SBC 需要证书进行身份验证连接。 运营商需要使用 SAN 中请求�
 
 例如：
 
-*新-CSOnlinePSTNGateway – FQDN sbc1.customers.adatum.biz SipSignallingPort 5068*
+```
+New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
+```
 
 为用户提供的电话号码和配置语音路由。
 

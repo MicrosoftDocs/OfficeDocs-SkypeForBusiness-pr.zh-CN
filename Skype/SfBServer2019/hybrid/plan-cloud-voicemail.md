@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 本文介绍优点、 规划注意事项以及用于实现 Microsoft 云语音邮件服务的要求。 有关配置云语音邮件的信息，请参阅配置云语音邮件。
-ms.openlocfilehash: d1e962f36cdefafdd1efa2d02a719eed1d2e93fd
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: e16ad9fb123342f7ac7e780f43bffd9b54b82ce6
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349021"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770913"
 ---
 # <a name="plan-cloud-voicemail-service"></a>规划云语音邮件服务
 
@@ -93,7 +93,7 @@ ms.locfileid: "29349021"
 Skype for Business Server 2015 | Exchange Server 统一消息 | Exchange Server 统一消息 |  | 云语音邮件 <br> Exchange Online UM * |
 Lync Server 2013 <br>  | Exchange Server 统一消息 | Exchange Server 统一消息 | | 云语音邮件 <br> Exchange Online UM * |
 
-\*直到弃用。
+\*直到弃用。 有关详细信息，请参阅[支持的 Exchange 统一消息 Online migration](../plan/exchange-unified-messaging-online-migration-support.md) 。 
 
 Microsoft 建议的以下的迁移路径：
 

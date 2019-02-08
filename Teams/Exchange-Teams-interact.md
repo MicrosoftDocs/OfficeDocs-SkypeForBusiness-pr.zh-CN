@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08e77d3792c6575748b43785f21ba389a957eedb
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 0e1140fd30baa027ded92494b7455aab5500a726
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742837"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770897"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互 
 =========================================
@@ -35,18 +35,20 @@ ms.locfileid: "29742837"
 
 **支持的操作：** 
 
-| 用户的邮箱托管在： | 电子数据展示| 法定保留 | 保留| 团队和频道的管理 |创建和查看会议| 修改用户个人资料图片 | 呼叫历史记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件 |添加和配置连接器|添加和配置选项卡|添加和配置聊天机器人| 
+| 用户的邮箱托管在： | 电子数据展示| 法律&nbsp;保留 | 保留| 团队和频道的管理 |创建和查看会议| 修改用户个人资料图片 | 呼叫历史记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件 |添加和配置连接器|添加和配置选项卡|添加和配置聊天机器人| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是 |是|是|是|是|是|是|是|是|是 |是|
 |**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|是 |是 |是|是|是 |是|是|是|是 |是 |是|
-|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2，3</sup>|是<sup>4|是|否|否|是|是|否|否|否|是|是|
-|**本地 Exchange**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2，3</sup>|是<sup>4|是|是 （Exchange 2016 CU3 +）|否|是|是|否|不<sup>5|否|否|是|
-                                                            
+|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2,3</sup>|是<sup>4|是|否|否|是|是|否|否|否|是|是|
+|**本地 Exchange**（同步到所需 Azure AD）|是<sup>2</sup>| 是<sup>2,3</sup> |是<sup>4|是|是 （Exchange 2016 CU3 +）|否|是|是|否|不<sup>5|否|否|是|
+
 <sup>1</sup> exchange 2016 CU3 和上方支持  
 <sup>2</sup>电子数据展示和合规性上通道消息的法律挂起支持所有承载选项。  
 <sup>3</sup>团队专用聊天消息是尚不支持的法律挂起对此托管选项。
+
 <sup>4</sup>保留将使用联机用户的卷影邮箱存储的邮件。 [Exchange 混合环境中的团队用户的 Microsoft 团队支持 eDiscover](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)。
-<sup>4</sup>与内部部署 Exchange 邮箱可能与团队使用语音邮件和接收语音邮件消息在 Outlook 中，但语音邮件消息的团队用户将无法在可供使用，可以查看或团队客户端中播放。
+
+<sup>5</sup>不可用来查看或团队客户端中播放团队用户与内部部署 Exchange 邮箱可能与团队使用语音邮件和接收语音邮件消息在 Outlook 中，但语音邮件消息。
 
 其他信息：
 

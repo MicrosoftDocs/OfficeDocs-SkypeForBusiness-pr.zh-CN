@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f397dd63cfa50069d6072686ae3650b837ca53a1
-ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
+ms.openlocfilehash: 77ee256352925ad92f0d74f7a9fb60704847709a
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690464"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770905"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 =============================================
@@ -37,7 +37,7 @@ ms.locfileid: "29690464"
 |Office 365 租户可以具有的团队数量    | 500,000 个     |
 |每个工作组的通道数    | 200 （包括已删除的通道）         |
 
-&sup1;Azure Active Directory 中的任何目录对象计算达到此限制。
+&sup1;Azure Active Directory 中的任何目录对象计算达到此限制。 全局管理员不受此限制的因为调用 Microsoft Graph 使用[应用程序权限](https://docs.microsoft.com/graph/permissions-reference)的应用程序。
 
 > [!NOTE]
 > 通道不支持类似的特殊字符 ~ # %& * {} + / \: < >？ |'"中的通道名称。  

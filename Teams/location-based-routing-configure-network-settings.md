@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb84f58c48292c13bd4af6f355f5e4da22458c9
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 6b99e21d172e35eb8e2ceb2aaabacee78cf45ef9
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715474"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771013"
 ---
-# <a name="configure-network-settings-for-location-based-routing"></a>配置基于位置的路由的网络设置 
+# <a name="configure-network-settings-for-location-based-routing"></a>配置基于位置的路由的网络设置
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
 如果您尚未进行，请阅读[Plan Location-Based 路由直接路由中](location-based-routing-plan.md)查看您需要执行其他步骤之前部署基于位置的路由的网络设置。
 
@@ -59,7 +61,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 
 ## <a name="define-network-subnets"></a>定义网络子网
 
-使用``New-Cs-TenantNetworkSubnet``cmdlet，以定义网络子网，并将它们关联到网络站点。 每个内部子网只能与一个站点关联。 
+使用``New-CsTenantNetworkSubnet``cmdlet，以定义网络子网，并将它们关联到网络站点。 每个内部子网只能与一个站点关联。 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
@@ -89,7 +91,7 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 ## <a name="define-external-subnets"></a>定义外部子网
-使用``New-Cs-TenantTrustedIPAddress``cmdlet，以定义外部子网，并将其分配到租户。 您可以定义任意的数量的子网租户。 
+使用``New-CsTenantTrustedIPAddress``cmdlet，以定义外部子网，并将其分配到租户。 您可以定义任意的数量的子网租户。 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <Subnet IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```

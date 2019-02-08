@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f0f399dab4097a69ef9d7a90865b81eeb206b54
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 7bcf4341d171f8b9faf8c11bbe8d85503cf2240b
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715442"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770997"
 ---
-# <a name="location-based-routing-terminology"></a>基于位置的路由术语 
+# <a name="location-based-routing-terminology"></a>基于位置的路由术语
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
 下面是一些术语和概念用于整个基于位置的路由文档的。 最好之前插入文档获取更深入地介绍要熟悉这些术语和概念。
 
