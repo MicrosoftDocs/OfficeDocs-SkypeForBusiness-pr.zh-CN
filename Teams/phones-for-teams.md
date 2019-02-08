@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队的电话
+title: Microsoft Teams 的电话功能
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,48 +14,47 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文介绍 Microsoft 团队和 Microsoft 团队认证的电话中支持的功能认证的电话的列表。
-ms.openlocfilehash: 8f6155939cc0834bb3f9fe89a3aef02cc3169bb3
-ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
+ms.openlocfilehash: 8605bbc1ba0f9f69c2115b89ec7332309891253d
+ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "27383089"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29770410"
 ---
-# <a name="phones-for-microsoft-teams"></a>Microsoft 团队的电话
+# <a name="phones-for-microsoft-teams"></a>Microsoft Teams 的电话功能
 
 Microsoft 团队支持的用户需要传统的电话体验的项目组合的桌面电话。 本文介绍 Microsoft 团队和 Microsoft 团队认证的电话中支持的功能认证的电话的列表。 要获取团队认证设备上的最新和最新信息，请转到[团队市场](http://office.com/teamsdevices)。
 
 ## <a name="teams-certified-ip-phones"></a>认证的 IP 电话的团队
-若要在电话上提供高质量和可靠的 Microsoft 团队体验，我们已合作，并主动使用 Yealink、 Crestron、 Polycom 和 Audiocodes 开发和认证套桌面电话和会议室内音频设备。
+若要在电话上提供高质量和可靠的 Microsoft 团队体验，我们已合作，并主动使用 Yealink、 Crestron、 Polycom 和 Audiocodes 开发和认证套桌面电话和会议室内音频设备。 当前受支持的设备，请参阅[IP 电话](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Microsoft 小组电话功能集
 
 下表中提供高级一的支持团队认证的 IP 电话的功能。
 
-
 |功能 |桌面电话 （个人模式） |会议房间电话 （共享模式）|
 |---------|---------|---------|
 |**身份验证** | |  |
-|使用用户凭据登录 |  是 | 是|
-|使用 PC/Smartphone 登录  | 是 |是|
-|现代化身份验证 | 是 |是 |
+|使用用户凭据登录 |  是  | 是 |
+|使用 PC/Smartphone 登录  | 是  |是|
+|现代化身份验证 | 是  |是  |
 |电话锁定对话/解除 | 是 |否 |
 |**通话** |  |  |
-|P2P 传入/传出呼叫 | 是  |是 |
-|呼叫控件通过 UI （静音、 保持/继续、 传输、 终止呼叫）| 是  |是 |
-|PSTN 呼叫| 是  |是 |
+|P2P 传入/传出呼叫 | 是   |是  |
+|呼叫控件通过 UI （静音、 保持/继续、 传输、 终止呼叫）| 是   |是  |
+|PSTN 呼叫| 是   |是 |
 |可视语音邮件 | 是 | 否 |
-|911 的支持  | 是  |是 |
+|911 的支持  | 是   |是  |
 |**日历和状态**|   | |
-|日历访问和会议详细信息|是 |是|
-|状态集成 |是|是|
-|Exchange 日历集成 |是|是|
-|联系人图片集成  |是|是|
-|企业目录访问 | 是|是|
+|日历访问和会议详细信息|是  |是 |
+|状态集成 |是|是 |
+|Exchange 日历集成 |是 |是 |
+|联系人图片集成  |是 |是 |
+|企业目录访问 | 是 |是 |
 |**会议**|   ||
-|一次单击加入会议  | 是  |是 |
-|业务会议加入 Skype | 是  | 是|
-|会议呼叫控制 （静音/解除静音，保持/继续、 挂断、 添加/删除参与者）|是|是|
+|一次单击加入会议  | 是   |是  |
+|业务会议加入 Skype | 是   | 是 |
+|会议呼叫控制 （静音/解除静音，保持/继续、 挂断、 添加/删除参与者）|是 |是 |
 |会议详细信息|是|否|
 
 我们正在持续添加功能，帮助我们增强其团队体验电话上的用户。 以下屏幕截图演示一些我们现在支持的体验。
@@ -125,6 +124,26 @@ Microsoft 团队用户可以访问其语音邮件，当他们导航到**语音�
 
 ![注销团队](media/teams-sign-out.png)
 
+# <a name="finding-the-firmware-version-on-a-mobile-device"></a>移动设备上查找的固件版本
+
+可以通过在右上角中选择**设置**图标，然后单击**有关**，在团队登录页来检查的最小的固件版本。
+
+**团队登录页**
+
+![团队登录页](media/teams-sign-in-page.jpg)
+
+**设置页**
+
+![工作组设置页](media/teams-settings-page.jpg)
+
+## <a name="required-licenses"></a>所需的许可证
+
+作为其[Office 365 订阅](Office-365-licensing.md)的一部分，则可以购买 Microsoft 团队许可证。 若要了解有关使用电话上的 Microsoft 团队所需的许可证的详细信息，请参阅可用[电话系统许可证](https://products.office.com/en-us/microsoft-teams/voice-calling)。
+
+有关获取团队的详细信息，请查看[如何获取 Microsoft 团队访问？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+
 ## <a name="see-also"></a>另请参阅
 
-[购买和部署 Microsoft 团队 IP 电话](buying-and-deploying-teams-ip-phones.md)
+[团队市场](http://office.com/teamsdevices)
+
+[IP 电话](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

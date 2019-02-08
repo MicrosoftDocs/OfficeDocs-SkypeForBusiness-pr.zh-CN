@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解获取正确的固件、 如果需要对其进行更新、 分配许可证和配置的业务联机电话设置 Skype 的部署步骤
-ms.openlocfilehash: f036f2fa47c99d1ea206192c15c901fc9391c1ee
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 04cb3aa17574f56d9069f07a10c1c6ae95f9576d
+ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297654"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29770359"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>部署 Skype for Business Online 电话
 
@@ -184,7 +184,7 @@ ms.locfileid: "27297654"
     
 - **电话锁定** Skype for Business 认证电话新近引入的用于保护电话的功能。 如果启用，用户将被要求在身份验证成功后创建一个 PIN。 一旦创建，当定义的空闲超时过期、 用户手动锁定其电话或使用电话配使其电话锁定与其 PC 锁定同步时，电话将锁定。 如果多次输错电话锁定 PIN，电话会将此用户注销或要求输入管理员的代码才能解锁电话，但不同电话合作伙伴在这方面的要求有所差异。 用户的 PIN 应为 6-15 位数字。
     
-    您可以为组织 （其默认情况下启用） 禁用电话锁定，更改空闲超时并选择时锁定或未使用的种带内设置用户是否可以发出电话呼叫。 有关这些设置的详细信息，请参阅 [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx)。
+    您可以为组织 （其默认情况下启用） 禁用电话锁定，更改空闲超时并选择时锁定或未使用的种带内设置用户是否可以发出电话呼叫。 有关这些设置的更多详细信息，请参阅[Set-csucphoneconfiguration](https://technet.microsoft.com/en-us/library/mt629497.aspx) 。
     
 ## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>第 7 步（可选）- 如果拥有设备配对和 Better Together over Ethernet (BToE)
 <a name="BK_BTOE"> </a>

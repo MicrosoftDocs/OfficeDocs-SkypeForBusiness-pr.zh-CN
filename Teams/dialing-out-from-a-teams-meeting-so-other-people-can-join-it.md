@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 了解你需要的信息以及会议组织者如何使用 Teams 向其他人拨出。
-ms.openlocfilehash: a1d06d75d48c45cfc13490c5c6562451909120dd
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 4352bc7f6bd110a8dda267092920a2e2de22a4ae
+ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326855"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29770392"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>从 Microsoft Teams 会议拨出，以便其他人可以加入会议
 
@@ -55,7 +55,7 @@ ms.locfileid: "28326855"
 
 ## <a name="allow-users-to-dial-in"></a>允许用户拨入
 
-如果您要查找有关如何使您的团队会议拨入的用户的说明，请参阅[Microsoft 团队中的音频会议的电话号码](/Teams/phone-numbers-for-audio-conferencing-in-teams.md)。
+如果您要查找有关如何使您的团队会议拨入的用户的说明，请参阅[Microsoft 团队中的音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)。
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>要了解有关音频会议的详细信息？
 
