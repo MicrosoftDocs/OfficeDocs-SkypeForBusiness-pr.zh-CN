@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7cbce74cdc06a2f37f628dd32f6f36356c1ad27a
-ms.sourcegitcommit: 708e691b00f490da45d8d7f1d6594be29f45023b
+ms.openlocfilehash: 3e924311188e077e10e844b55e4a429ab5344dca
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29354497"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29786426"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导
 
@@ -44,12 +44,10 @@ ms.locfileid: "29354497"
 
 6.  升级和互操作性行为决定基于由 TeamsUpgradePolicy 的用户的共存模式。 TeamsInteropPolicy 不再兑现和授予模式 = 不再允许旧。 
 
-7.  将用户升级到 TeamsOnly 模式可确保的所有传入的聊天和呼叫将始终位于用户的团队的客户端，无论哪些客户端中它从 orignated。 这些用户还将安排团队中的所有新会议。 若要在 TeamsOnly 模式下，用户必须驻留联机 Skype for Business 中。 这是确保互操作、 联盟和团队用户的完整管理所需的。若要将用户升级到 TeamsOnly： 答： 如果用户驻留在 for Business 的 Skype 联机 （或永远不会有任何 Skype 帐户），向他们授予使用模式 TeamsUpgradePolicy = TeamsOnly 使用"UpgradeToTeams"实例使用 PowerShell，或使用团队 Admin Center 选择TeamsOnly 模式。
-    B。 如果用户驻留在内部部署，请使用`Move-CsUser`从内部部署管理工具到第一次移动用户对 Skype 业务 online。 从本地移动用户时，有两个选项：  
-      - 如果您具有 Skype 业务服务器 2019年或 CU8 Skype 的业务服务器 2015年，您可以指定`-MoveToTeams`中切换`Move-CsUser`将用户移动到团队直接。 此选项还将到团队迁移用户的会议，（尽管现在，会议迁移才正常工作的点击客户）。 
-       - 否则为之后`Move-CsUser`完成后，将 TeamsOnly 模式分配给该用户使用 PowerShell 或团队 Admin Center。  
+7.  将用户升级到 TeamsOnly 模式可确保的所有传入的聊天和呼叫将始终位于用户的团队的客户端，无论哪些客户端中它从 orignated。 这些用户还将安排团队中的所有新会议。 若要在 TeamsOnly 模式下，用户必须驻留联机 Skype for Business 中。 这是确保互操作、 联盟和团队用户的完整管理所需的。升级到 TeamsOnly 用户：
+    - 如果用户驻留在 for Business 的 Skype 联机 （或永远不会有任何 Skype 帐户），向其授予与模式 TeamsUpgradePolicy = TeamsOnly 使用"UpgradeToTeams"实例使用 PowerShell，或使用团队 Admin Center 选择 TeamsOnly 模式。
+    - 如果用户驻留在内部部署，请使用`Move-CsUser`从内部部署管理工具到第一次移动用户对 Skype 业务 online。  如果您具有 Skype 业务服务器 2019年或 CU8 Skype 的业务服务器 2015年，您可以指定`-MoveToTeams`中切换`Move-CsUser`用户直接移至团队移动的一部分联机。 此选项还将到团队迁移用户的会议，（尽管现在，会议迁移才正常工作的点击客户）。 如果`-MoveToTeams`不指定或不可用，然后后`Move-CsUser`完成后，将 TeamsOnly 模式分配给该用户使用 PowerShell 或团队 Admin Center。  
      有关详细信息，请参阅[将内部部署和云之间的用户移动](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)。  有关会议迁移的详细信息，请参阅[使用会议迁移服务 (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
-
 
 8.  使用团队系统小组电话功能，用户必须是在 TeamsOnly 模式 （即，业务 online 驻留在 Skype 和升级到团队） 中，以及他们必须配置 Microsoft 电话系统[直接路由](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277)（这使您可以使用电话系统与您自己的 SIP 中继和 SBC） 或 Office 365 调用规划。   
 
@@ -147,7 +145,7 @@ TeamsUpgradePolicy 控制传入的联盟的聊天和呼叫路由。 联盟路由
 |会议日程安排|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
 
-下面显示显示，对于给定的模式，这些设置的预期值：
+下面显示，对于给定的模式，这些设置的预期值：
 
 |模式|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
 |---|---|---|---|---|
@@ -170,21 +168,9 @@ PS C:\Users\janedoe>`
 之前的客户端行为上述自动实施传递，每个 SfB 模式行为本质上是相同。 SfBOnly、 SfBWithTeamsCollab 和 SfBWithTeamsCollabAndMeetings 模式是如何它们路由传入呼叫和聊天中都相同。 唯一的区别，现在，是是否启用团队 Outlook 外接程序和 Skype for Business 中。 传递区分客户端 experiece，直到在管理门户中启用的 SfB 模式仅为 1。 但所有模式在 PowerShell 中可用。
 
 
-## <a name="teamsinteroppolicy-and-legacy-mode-being-retired"></a>TeamsInteropPolicy 和正在停用旧模式 
+## <a name="teamsinteroppolicy-and-legacy-mode-has-been-retired"></a>已失效 TeamsInteropPolicy 和旧版模式 
 
-已由 TeamsUpgradePolicy 取代 TeamsInteropPolicy。 已更新以前适用 TeamsInteropPolicy 的所有组件，以改为服从 TeamsUpgradePolicy。  Microsoft 有以前推出 TeamsUpgradePolicy 以便于从 TeamsInteropPolicy 转换为 TeamsUpgradePolicy 的"旧"模式。 在旧模式下，理解 TeamsUpgradePolicy 的路由组件将还原回为 TeamsInteropPolicy。 路由现在完全支持 TeamsUpgradePolicy，不再支持旧版模式。 *使用旧模式客户必须更新 TeamsUpgradePolicy 使用其他模式之一其配置。* 
-
-
-### <a name="action-required-for-organizations-that-are-using-modelegacy-andor-teamsinteroppolicy"></a>无需执行操作的使用模式组织 = 旧和/或 TeamsInteropPolicy
-使用模式的客户 = TeamsUpgradePolicy 中的旧 (策略实例 = NoUpgrade 或策略实例 = NotifyForTeams) 必须更新其配置要使用的策略与旧之外的模式。  此外，使用 TeamsInteropPolicy 客户应删除此策略的任何工作分配，因为它不再由系统使用。  请注意，它不再可以授予旧模式。 
-
-所需的操作：
- - 使用用户的 TeamsInteropPolicy 客户*不*在旧模式下： 策略不影响以及它的建议您删除的任何用户级别分配和仅使用默认值使用全局策略。
- - 使用旧模式 TeamsInteropPolicy 传送到 SfB (DisallowOverrideCallingSfbChatSfb) 的客户： 这些组织应改用在 TeamsUpgradePolicy 中使用 SfB 模式 (SfBOnly，SfBWithTeamsCollab，SfbWithTeamsCollabAndMeetings) 之一。 从路由的角度看，这些模式任一行为与使用旧模式 TeamsInteropPolicy 传送到 SfB 相同。
-  - 使用旧模式 TeamsInteropPolicy 传送到团队 (DisallowOverrideCallingTeamsChatTeams) 的客户： 这些组织应切换到 TeamsOnly 模式。  从路由的角度看，这将是具有相同的。 一个不同之处在于，仅在工作组模式中的用户将不再能够发起聊天和呼叫，也不能在 Skype for Business 中安排会议。 但是，他们仍可以加入任何 Skype 业务会议。
-
-
- **Microsoft 请求客户删除通过 2018 年 11 月 15，所有使用旧模式。** 一段时间后，Microsoft 走实例与模式 TeamsUpgradePolicy = 旧。</br> 
+已由 TeamsUpgradePolicy 取代 TeamsInteropPolicy。 已更新以前适用 TeamsInteropPolicy 的所有组件，以改为服从 TeamsUpgradePolicy。  Microsoft 有以前推出 TeamsUpgradePolicy 以便于从 TeamsInteropPolicy 转换为 TeamsUpgradePolicy 的"旧"模式。 在旧模式下，理解 TeamsUpgradePolicy 的路由组件将还原回为 TeamsInteropPolicy。 路由现在完全支持 TeamsUpgradePolicy。 不再支持旧版模式和不再可以授予旧版模式
 
 
 ## <a name="detailed-mode-descriptions"></a>详细的模式说明
@@ -193,7 +179,7 @@ PS C:\Users\janedoe>`
 
 |模式|说明 （includeding 计划的客户端体验）|
 |---|---|
-|**群岛**</br>（默认值）|用户运行业务和团队-并行这两个 Skype。 此用户：</br><ul><li>可以启动聊天和 VOIP 呼叫中任一 Skype 业务或团队的客户端。 注意： 具有 for Business 的 Skype 用户驻留在本地无法启动从工作组与另一个 Skype 的企业用户取得联系。<li>接收聊天 & VOIP 呼叫中已开始的 Skype for Business 中其 Skype 业务客户端的其他用户。<li>接收聊天 & VOIP 呼叫他们团队的客户端中已开始另一个用户团队它们是否为*同一租户*中。<li>接收聊天 & VOIP 呼叫中已开始另一个用户的团队中其 Skype for Business 客户端它们是否在*联盟的租户*。 <li>具有 PSTN 功能如下所述：<ul><li>如果用户驻留在 Skype 业务本地，启动和 Skype for Business 中收到 PSTN 呼叫。<li>如果用户驻留 online，用户具有电话系统，这种情况下用户：<ul><li>发起和接收团队中的 PSTN 呼叫，如果对用户配置直接路由<li>发起和接收 Skype for Business 中的 PSTN 呼叫，如果用户已制定 MS 调用计划或连接到 PSTN 网络通过任一 Skype 商务云连接器版或 Skype 的内部部署业务服务器 （混合语音）</ul></ul><li>可以安排会议在团队或 Skype for Business 中的 （和默认情况下将看到两个插件）。<li>可以加入业务或团队会议; 任何 Skype会议将在各自的客户端中打开。</ul>|
+|**群岛**</br>（默认值）|用户运行业务和团队-并行这两个 Skype。 此用户：</br><ul><li>可以启动聊天和 VOIP 呼叫中任一 Skype 业务或团队的客户端。 注意： 具有 for Business 的 Skype 用户驻留在本地无法启动从团队访问另一个 Skype 业务用户，无论收件人的模式。<li>接收聊天 & VOIP 呼叫中已开始的 Skype for Business 中其 Skype 业务客户端的其他用户。<li>接收聊天 & VOIP 呼叫他们团队的客户端中已开始另一个用户团队它们是否为*同一租户*中。<li>接收聊天 & VOIP 呼叫中已开始另一个用户的团队中其 Skype for Business 客户端它们是否在*联盟的租户*。 <li>具有 PSTN 功能如下所述：<ul><li>如果用户驻留在 Skype 业务本地，启动和 Skype for Business 中收到 PSTN 呼叫。<li>如果用户驻留 online，用户具有电话系统，这种情况下用户：<ul><li>发起和接收团队中的 PSTN 呼叫，如果对用户配置直接路由<li>发起和接收 Skype for Business 中的 PSTN 呼叫，如果用户已制定 MS 调用计划或连接到 PSTN 网络通过任一 Skype 商务云连接器版或 Skype 的内部部署业务服务器 （混合语音）</ul></ul><li>可以安排会议在团队或 Skype for Business 中的 （和默认情况下将看到两个插件）。<li>可以加入业务或团队会议; 任何 Skype会议将在各自的客户端中打开。</ul>|
 |**SfBOnly**|用户运行仅 for Business 的 Skype。 此用户：</br><ul><li>可以启动聊天和仅从 for Business 的 Skype 调用。<li>收到任何聊天/呼叫中的业务客户端，其 Skype 无论其中启动，除非发起者团队用户拥有 for Business 的 Skype 驻留在本地。*<li>可以安排仅 Skype 业务会议，但可以加入 Skype 业务或团队的会议。</br>* 与内部部署用户使用群岛模式不建议在组合与 SfBOnly 模式中的其他用户。 如果具有 for Business 的 Skype 的团队用户驻留在本地启动呼叫或向 SfBOnly 用户聊天，SfBOnly 用户无法连接到并接收错过的聊天呼叫 email.*|
 |**SfBWithTeamsCollab**|用户运行业务和团队-并行这两个 Skype。 此用户：</br><ul><li>具有 SfBOnly 模式中的用户的功能。<li>工作组已启用仅对组协作 （通道）;聊天/呼叫/会议安排将被禁用。</ul>|
 |**SfBWithTeamsCollab</br>AndMeetings**|用户运行业务和团队-并行这两个 Skype。 此用户：<ul><li>已在 SfBOnly 模式下的聊天和用户的呼叫功能。<li>已启用组协作的团队 （通道-包括通道对话）;聊天和呼叫将被禁用。<li>可以安排仅团队会议，但可以加入 Skype 业务或团队的会议。</ul>|
@@ -205,16 +191,14 @@ PS C:\Users\janedoe>`
 
 ## <a name="related-topics"></a>相关主题
 
+[与 Skype for Business 共存](https://docs.microsoft.com/en-us/microsoftteams/coexistence-chat-calls-presence)
+
 [Get CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
 
 [授予 CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
 [Get CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradeconfiguration?view=skype-ps)
 
-[新 CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsupgradepolicy?view=skype-ps)
-
-[删除 CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsupgradepolicy?view=skype-ps)
-
 [设置 CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
 
-[设置 CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradepolicy?view=skype-ps)
+

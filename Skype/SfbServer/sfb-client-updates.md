@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 为 IT 专业人员提供指向 Skype for Business 2016、Skype for Business 2015 和 Lync 2013 客户端永久版本的最新更新信息的链接
-ms.openlocfilehash: 62aa604385b76df94c647199994211f25f265d56
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: f3cf01aeec5117a210207cb958f7255f6592c606
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771037"
+ms.locfileid: "29786404"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>使用 Windows Installer (MSI) 的 Skype for Business 版本的最新更新
 
@@ -42,7 +42,7 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 
 |软件包名称|KB 编号|发布日期|
 |:---  |:---  |:---  |
-|Skype for Business 2016 更新 |[KB4461586](https://support.microsoft.com/kb/4461586/) | 2018 年 1 月|
+|Skype for Business 2016 更新 |[KB4461586](https://support.microsoft.com/kb/4461586/) | 年 1 月 2019|
 |Skype for Business 2016 更新 |[KB4461545](https://support.microsoft.com/kb/4461545/) | 12 月 2018|
 |Skype for Business 2016 安全更新 |[KB4461473](https://support.microsoft.com/kb/4461473/) | 11 月 2018|
 |Skype for Business 2016 更新 |[KB4092445](https://support.microsoft.com/kb/4092445/) | 10 月 2018|
@@ -83,6 +83,11 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 
 |软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
+|Skype for Business 2015/Lync 2013 更新 |[KB4461557](https://support.microsoft.com/kb/4461557/)| 年 1 月 2019 |
+|Skype for Business 2015/Lync 2013 安全更新 |[KB4461487](https://support.microsoft.com/kb/4461487/)| 11 月 2018 |
+|Skype for Business 2015/Lync 2013 更新 |[KB4461446](https://support.microsoft.com/kb/4461446/)| 10 月 2018 |
+|Skype for Business 2015/Lync 2013 更新 |[KB4092457](https://support.microsoft.com/kb/4092457/)| 年 9 月 2018 |
+|Skype for Business 2015/Lync 2013 更新 |[KB4032250](https://support.microsoft.com/kb/4032250/)| 8 月 2018 |
 |Skype for Business 2015/Lync 2013 安全更新 |[ KB 4022225 ](https://support.microsoft.com/kb/4022225) | 2018 年 7 月 |
 |Skype for Business 2015/Lync 2013 更新 |[KB 4022170 ](https://support.microsoft.com/kb/4022170) | 6 月 2018 日 |
 |Skype for Business 2015/Lync 2013 更新 |[KB 4018377 ](https://support.microsoft.com/kb/4018377) | 2018 年 5 月 |
@@ -135,6 +140,11 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 
 软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
+|Skype for Business 2015/Lync 2013 更新 |[KB4461557](https://support.microsoft.com/kb/4461557/)| 年 1 月 2019 |
+|Skype for Business 2015/Lync 2013 安全更新 |[KB4461487](https://support.microsoft.com/kb/4461487/)| 11 月 2018 |
+|Skype for Business 2015/Lync 2013 更新 |[KB4461446](https://support.microsoft.com/kb/4461446/)| 10 月 2018 |
+|Skype for Business 2015/Lync 2013 更新 |[KB4092457](https://support.microsoft.com/kb/4092457/)| 年 9 月 2018 |
+|Skype for Business 2015/Lync 2013 更新 |[KB4032250](https://support.microsoft.com/kb/4032250/)| 8 月 2018 |
 |Skype for Business/Lync 2013 安全更新 |[KB 4022225 ](https://support.microsoft.com/kb/4022225)| 2018 年 7 月 |
 |Skype for Business 2015/Lync 2013 更新|[KB 4022170 ](https://support.microsoft.com/kb/4022170) | 6 月 2018 日 |
 |Skype for Business 2015/Lync 2013 更新|[KB 4018377 ](https://support.microsoft.com/kb/4018377) | 2018 年 5 月 |

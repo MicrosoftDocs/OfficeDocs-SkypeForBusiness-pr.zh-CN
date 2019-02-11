@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67c2e403511c3329d37fa3712bc8f559dcc16c38
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: c7dee2921e6458c797a09f5b3fa78118992766b2
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742994"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29786396"
 ---
 # <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 共存
 
@@ -177,7 +177,7 @@ ms.locfileid: "29742994"
     * 从 for Business 的 Skype，任何其他用户将看到群岛用户的 Skype 业务状态 （在租户和联盟）;这与上面的路由表对齐
 
 > [!NOTE]
-> 这是从以前的实现 （称为统一状态） 的业务客户端中显示的目标的团队和 Skype 组合、 聚合状态的最新更改。 事实证明，经常会导致在准确状态，即用户未访问即使其状态显示它们 online 中显示为向用户令人费解的前面的方法。
+> 这是从以前的实现 （称为统一状态） 的业务客户端中显示的目标的团队和 Skype 组合、 聚合状态的最新更改。 因为经常会导致显示不正确的状态，即用户未访问即使其状态联机显示它们是令人费解向用户的上一方法。
 
 ## <a name="in-tenant-presence"></a>租户状态
 

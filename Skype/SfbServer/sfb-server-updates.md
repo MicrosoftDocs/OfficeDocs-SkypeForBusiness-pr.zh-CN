@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在同一位置查找并管理 Skype for Business Server 2015 和 Lync 2013 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
-ms.openlocfilehash: 480a2d69ecf15b23b88490cfed1806f45d6beed3
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 6433fe939bca07c520d402f193ff1e5fdacb8a09
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742853"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29786360"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
@@ -25,83 +25,60 @@ ms.locfileid: "29742853"
 有关最新 Skype 业务 Online 和 Office 365 更新，请参阅[Microsoft 365 路线图](https://go.microsoft.com/fwlink/p/?linkid=529454)。
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Skype for Business Server 2015 更新历史记录
-[KB 3061064](https://support.microsoft.com/kb/3061064)包含已释放所有累积更新的列表。 日期指示上次发行版的日期。 
+
+[KB 3061064](https://support.microsoft.com/kb/3061064)包含已发布的所有累积更新。 
 
 |软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
-|Skype for Business Server 2015 更新 |[KB 3061064](https://support.microsoft.com/kb/3061064) |年 1 月 2019  |
-|Skype for Business Server 企业 Web 应用的累积更新 | [KB 4018462](https://support.microsoft.com/kb/4018462) |2017 年 5 月 |
-|Skype for Business Server 带宽策略服务的累积更新 | [KB 4012658](https://support.microsoft.com/kb/4012658) |2017 年 5 月 |
-|Skype for Business Server Unified Communications Managed API 5.0 Runtime 的累积更新 | [KB 4012657](https://support.microsoft.com/kb/4012657) |2017 年 5 月 |
-|Skype for Business Server 会议公告的累积更新 | [KB 4012656](https://support.microsoft.com/kb/4012656) |2017 年 5 月 |
-|Skype for Business Server 2015 响应组服务的累积更新 |[KB 4012655](https://support.microsoft.com/kb/4012655) |2017 年 5 月 |
-|Skype for Business Server 2015 会议服务器的累积更新 |[KB 4012654](https://support.microsoft.com/kb/4012654) |2017 年 5 月 |
-|Skype for Business Server 2015 持久聊天服务器的累积更新 |[KB 4012653](https://support.microsoft.com/kb/4012653) |2017 年 5 月 |
-|Skype for Business Server 2015 Web 组件服务器的累积更新 |[KB 4012622](https://support.microsoft.com/kb/4012622) |2017 年 5 月 |
-|Skype for Business Server 2015 前端服务器和边缘服务器的累积更新 |[KB 4012621](https://support.microsoft.com/kb/4012621) |2017 年 5 月 |
-|Skype for Business Server 2015 核心组件的累积更新 |[KB 4012620](https://support.microsoft.com/kb/4012620) |2017 年 5 月 |
-|Skype for Business Server 2015 和 Unified Communications Managed API 5.0 Runtime 的累积更新 |[KB 3199095](https://support.microsoft.com/kb/3199095) |2016 年 11 月 |
-|Skype for Business Server 2015 前端服务器和边缘服务器的累积更新 |[KB 3199093](https://support.microsoft.com/kb/3199093) |2016 年 11 月 |
-|Skype for Business Server 2015 Web 组件服务器的累积更新 |[KB 3199094](https://support.microsoft.com/kb/3199094) |2016 年 11 月 |
-|Skype for Business Server 2015 持久聊天服务器的累积更新 |[KB 3199097](https://support.microsoft.com/kb/3199097) |2016 年 11 月 |
-|Skype for Business Server 2015 核心组件的累积更新 |[KB 3199088](https://support.microsoft.com/kb/3199088) |2016 年 11 月 |
-|Skype for Business Server 2015 会议服务器的累积更新 |[KB 3199092](https://support.microsoft.com/kb/3199092) |2016 年 11 月 |
-|Skype for Business Server 2015 中介服务器的累积更新 |[KB 3199096](https://support.microsoft.com/kb/3199096) |2016 年 11 月 |
-|Skype for Business Server 2015 视频互操作服务器的累积更新 |[KB 3149235](https://support.microsoft.com/kb/3149235) |6 月 2016 日 |
-|Skype for Business Server 2015 中介服务器的累积更新 |[KB 3149234](https://support.microsoft.com/kb/3149234) |6 月 2016 日 |
-|Skype for Business Server 2015 会议服务器的累积更新 |[KB 3149233](https://support.microsoft.com/kb/3149233) |6 月 2016 日 |
-|Skype for Business Server 2015 和 Unified Communications Managed API 5.0 Runtime 的累积更新 |[KB 3149232](https://support.microsoft.com/kb/3149232) |6 月 2016 日 |
-|Skype for Business Server 2015 性能计数器的累积更新 |[KB 3149231](https://support.microsoft.com/kb/3149231) |6 月 2016 日 |
-|Skype for Business Server 2015 响应组服务的累积更新 |[KB 3149229](https://support.microsoft.com/kb/3149229) |6 月 2016 日 |
-|Skype for Business Server 2015 Web 组件服务器的累积更新 |[KB 3149228](https://support.microsoft.com/kb/3149228) |6 月 2016 日 |
-|Skype for Business Server 2015 前端服务器和边缘服务器的累积更新 |[KB 3149227](https://support.microsoft.com/kb/3149227) |6 月 2016 日 |
-|Skype for Business Server 2015 核心组件的累积更新 |[KB 3149226](https://support.microsoft.com/kb/3149226) |6 月 2016 日 |
-|Skype for Business Server 2015 忙碌选项的累积更新 |[KB 3137160](https://support.microsoft.com/kb/3137160) |6 月 2016 日 |
-|Skype for Business Server 2015 性能计数器的累积更新 |[KB 3134266](https://support.microsoft.com/kb/3134266) |2016 年 3 月 |
-|Skype for Business Server 2015 响应组服务的累积更新 |[KB 3134265](https://support.microsoft.com/kb/3134265) |2016 年 3 月 |
-|Skype for Business Server 2015 会议助理的累积更新 |[KB 3134264](https://support.microsoft.com/kb/3134264) |2016 年 3 月 |
-|Skype for Business Server 2015 Web 组件服务器的累积更新 |[KB 3134262](https://support.microsoft.com/kb/3134262) |2016 年 3 月 |
-|Skype for Business Server 2015 前端服务器和边缘服务器的累积更新 |[KB 3134260](https://support.microsoft.com/kb/3134260) |2016 年 3 月 |
-|Skype for Business Server 2015 核心组件的累积更新 |[KB 3134259](https://support.microsoft.com/kb/3134259) |2016 年 3 月 |
-|Skype for Business Server 2015 会议服务器的累积更新 |[KB 3097708](https://support.microsoft.com/kb/3097708) |2015 年 11 月 |
-|Skype for Business Server 2015 核心组件的累积更新 |[KB 3097644](https://support.microsoft.com/kb/3097644) |2015 年 11 月 |
-|Skype for Business Server 2015 Web 组件服务器的累积更新 |[KB 3097642](https://support.microsoft.com/kb/3097642) |2015 年 11 月 |
-|Skype for Business Server 2015 和 Unified Communications Managed API 5.0 Runtime 的累积更新 |[KB 3097649](https://support.microsoft.com/kb/3097649) |2015 年 11 月 |
-|Skype for Business Server 2015 性能计数器的累积更新 |[KB 3097648](https://support.microsoft.com/kb/3097648) |2015 年 11 月 |
-|Skype for Business Server 2015 企业 Web 应用的累积更新 |[KB 3097647](https://support.microsoft.com/kb/3097647) |2015 年 11 月 |
-|Skype for Business Server 2015 会议助理的累积更新 |[KB 3097646](https://support.microsoft.com/kb/3097646) |2015 年 11 月 |
-|Skype for Business Server 2015 响应组服务的累积更新 |[KB 3097643](https://support.microsoft.com/kb/3097643) |2015 年 11 月 |
-|Skype for Business Server 2015 前端服务器和边缘服务器的累积更新 |[KB 3097645](https://support.microsoft.com/kb/3097645) |2015 年 11 月 |
-|Skype for Business Server 2015 群组通话接听的累积更新 |[KB 3124205](https://support.microsoft.com/kb/3124205) |2015 年 11 月 |
+|累积更新 8 Skype 业务服务器 2015年、 前端服务器和边缘服务器|[KB 4464355](https://support.microsoft.com/kb/4464355)|年 1 月 2019|
+|累积更新 7 的 Skype 业务服务器 2015，前端服务器和边缘服务器 |[KB 4340904](https://support.microsoft.com/kb/3134260) |2018 年 7 月 |
+|累积更新 6 修补 2 的 Skype 业务服务器 2015，前端服务器和边缘服务器 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018 年 3 月 |
+|累积更新 6 修补程序 1 的 Skype 业务服务器 2015，前端服务器和边缘服务器 |[KB 4074701](https://support.microsoft.com/kb/4074701)|2018 年 1 月 |
+|累积更新 6 Skype 的业务服务器 2015，前端服务器和边缘服务器|[KB 4036312](https://support.microsoft.com/kb/4036312) |2017 年 12 月 |
+|累积更新 5 的 Skype 业务服务器 2015，前端服务器和边缘服务器  |[KB 4012621](https://support.microsoft.com/kb/4012621) |2017 年 5 月 |
+|累积更新 4 修补程序 1 的 Skype 业务服务器 2015，前端服务器和边缘服务器 |[KB 3207506](https://support.microsoft.com/kb/3207506) |2017 年 2 月 |
+|累积更新 4 Skype 的业务服务器 2015，前端服务器和边缘服务器 |[KB 3199093](https://support.microsoft.com/kb/3199093) |2017 年 11 月 |
+|累积更新 3 的 Skype 业务服务器 2015，前端服务器和边缘服务器 |[KB 3149227](https://support.microsoft.com/kb/3149227) |6 月 2016 日 |
+|累积更新 2 的 Skype 业务服务器 2015，前端服务器和边缘服务器 |[KB 3134260](https://support.microsoft.com/kb/3134260) |2016 年 3 月 |
+|累积更新 1 的 Skype 业务服务器 2015，前端服务器和边缘服务器 |[KB 3097645](https://support.microsoft.com/kb/3097645) |2015 年 11 月 |
+|Skype for Business Server 2015 核心组件的累积更新 |[KB 3098601](https://support.microsoft.com/kb/3098601) |2015 年 9 月 |
+|Skype for Business Server 2015 前端服务器和边缘服务器的累积更新|[KB 3061059](https://support.microsoft.com/kb/3061059) |6 月 2015 日 |
+||||
 
 * * *
 
 ## <a name="lync-server-2013-update-history"></a>Lync Server 2013 更新历史记录
 
+[KB 2809243](http://support.microsoft.com/kb/2809243)包含已发布的所有累积更新。
+
 |软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
-|Lync Server 2013 累积更新 9  |[KB 2809243](https://www.microsoft.com/en-us/download/details.aspx?id=36820) |2017 年 7 月 |
-|Lync Server 2013 累积更新 8 修补程序 4 |[KB 2809243](https://www.microsoft.com/en-us/download/details.aspx?id=36820) |2017 年 7 月 |
-|Lync Server 2013 累积更新 8 修补程序 1 |[KB 2809243](https://www.microsoft.com/en-us/download/details.aspx?id=36820) |2017 年 7 月 |
-|Lync Server 2013 前端服务器和边缘服务器的累积更新 5.0.8308.965 |[KB 3175334](https://support.microsoft.com/kb/3175334)|2016 年 8 月 |
-|Lync Server 2013 会议助理的累积更新 5.0.8308.965 |[KB 3175335](https://support.microsoft.com/kb/3175335)|2016 年 8 月 |
-|Lync Server 2013 响应组服务的累积更新 5.0.8308.965 |[KB 3175338](https://support.microsoft.com/kb/3175338)|2016 年 8 月 |
-|Lync Server 2013 和 Unified Communications Managed API 5.0 Runtime 的累积更新 5.0.8308.965 |[KB 3175339](https://support.microsoft.com/en-us/help/3175339)|2016 年 8 月 |
-|Lync Server 2013 共享线路外观的累积更新 5.0.8308.956 |[KB 3148257](https://support.microsoft.com/kb/3148257)|2016 年 4 月 |
-|Lync Server 2013 中介服务器的累积更新 5.0.8308.956 |[KB 3140586](https://support.microsoft.com/kb/3140586)|2016 年 4 月 |
-|Lync Server 2013 响应组服务的累积更新 5.0.8308.956 |[KB 3140585](https://support.microsoft.com/kb/3140585)|2016 年 4 月 |
-|Lync Server 2013 会议服务器的累积更新 5.0.8308.956 |[KB 3140584](https://support.microsoft.com/kb/3140584)|2016 年 4 月 |
-|Lync Server 2013 前端服务器和边缘服务器的累积更新 5.0.8308.956 |[KB 3140582](https://support.microsoft.com/kb/3140582)|2016 年 4 月 |
-|Lync Server 2013 核心组件的累积更新 5.0.8308.956 |[KB 3140581](https://support.microsoft.com/kb/3140581)|2016 年 4 月 |
-|Lync Server 2013 Web 组件服务器的累积更新 5.0.8308.945 |[KB 3126638](https://support.microsoft.com/kb/3126638)|2016 年 1 月 |
-|Lync Server 2013 核心组件的累积更新 5.0.8308.945 |[KB 3126637](https://support.microsoft.com/kb/3126637)|2016 年 1 月 |
-|Lync Server 2013 前端服务器和边缘服务器的累积更新 5.0.8308.941 |[KB 3120728](https://support.microsoft.com/kb/3120728)|2015 年 12 月 |
-|Lync Server 2013 会议服务器的累积更新 5.0.8308.933 |[KB 3082047](https://support.microsoft.com/kb/3082047)|2015 年 9 月 |
-|Lync Server 2013 响应组服务的累积更新 5.0.8308.933 |[KB 3081743](https://support.microsoft.com/kb/3081743)|2015 年 9 月 |
-|Lync Server 2013 前端服务器和边缘服务器的累积更新 5.0.8308.933 |[KB 3081740](https://support.microsoft.com/kb/3081740)|2015 年 9 月 |
-|Lync Server 2013 核心组件的累积更新 5.0.8308.933 |[KB 3081739](https://support.microsoft.com/kb/3081739)|2015 年 9 月 |
-|Lync Server 2013 核心组件的累积更新 5.0.8308.927 |[KB 3080356](https://support.microsoft.com/kb/3080356)|2015 年 9 月 |
-|Lync Server 2013 更新 |[KB 2809243](https://support.microsoft.com/en-us/help/2809243)|2018 年 7 月 |
+|Lync Server 2013 累积更新 10 修补 1 |[KB 4458772](http://support.microsoft.com/kb/4458772)|年 1 月 2019|
+|Lync Server 2013 累积更新 10 |[KB 4295703](http://support.microsoft.com/kb/4295703)|2018 年 7 月 |
+|Lync Server 2013 累积更新 9  |[KB 4019183](hhttp://support.microsoft.com/kb/4019183) |2017 年 7 月 |
+|Lync Server 2013 累积更新 8 修补程序 4 |[KB 4014154](http://support.microsoft.com/kb/4014154) |2017 年 3 月 |
+|Lync Server 2013 累积更新 8 修补 3 |[KB 3210166](http://support.microsoft.com/kb/3210166) |2017 年 1 月 |
+|Lync Server 2013 累积更新 8 修补 2 |[KB 3212869](http://support.microsoft.com/kb/3212869) |2016 年 12 月 |
+|Lync Server 2013 累积更新 8 修补程序 1 |[KB 3200079](http://support.microsoft.com/kb/3200079) |2016 年 11 月 |
+|Lync Server 2013 累积更新 8 |[KB 3175336](https://support.microsoft.com/kb/3175336)|2016 年 8 月 |
+|Lync Server 2013 累积更新 7  |[KB 3140581](https://support.microsoft.com/kb/3140581)|2016 年 4 月 |
+|Lync Server 2013 累积更新 6 修补 2 |[KB 3175338](https://support.microsoft.com/kb/3175338)|2016 年 1 月 |
+|Lync Server 2013 累积更新 6 修补 1 |[KB 3121213](http://support.microsoft.com/kb/3121213)|2015 年 12 月 |
+|Lync Server 2013 累积更新 6 |[KB 3081739](https://support.microsoft.com/kb/3081739)|2015 年 9 月 |
+|Lync Server 2013 累积更新 5 修补 10 |[KB 3064728](https://support.microsoft.com/kb/3064728)|2015 年 7 月 |
+|Lync Server 2013 累积更新 5 修补 9 |[KB 3051951](https://support.microsoft.com/kb/3051951)|2015 年 5 月 |
+|Lync Server 2013 累积更新 5 修补 8  |[KB 3031065](https://support.microsoft.com/kb/3031065)|2015 年 2 月 |
+|Lync Server 2013 累积更新 5 修补 7.1|[KB 3027553](https://support.microsoft.com/kb/3140582)|2014 年 12 月 |
+|Lync Server 2013 累积更新 5 修补 7 |[KB 3018232](https://support.microsoft.com/kb/3018232)|2014 年 12 月 |
+|Lync Server 2013 累积更新 5 修补 6 |[KB 3010028](https://support.microsoft.com/kb/3010028)|2014 年 11 月  |
+|Lync Server 2013 累积更新 5 修补 5|[KB 3003358](https://support.microsoft.com/kb/3003358)|2014 年 10 月 |
+| Lync Server 2013 累积更新 5 修补 2 |[KB 2987511](https://support.microsoft.com/kb/3120728)|2014 年 9 月 |
+| Lync Server 2013 累积更新 5 |[KB 2937305](https://support.microsoft.com/kb/2937305)|2014 年 8 月 |
+|Lync Server 2013 累积更新 4 |[KB 2905040](https://support.microsoft.com/kb/2905040)|2014 年 1 月 |
+|Lync Server 2013 累积更新 3 |[KB 881682](https://support.microsoft.com/kb/881682)|2013 年 10 月 |
+|Lync Server 2013 累积更新 2 |[KB 2835432](https://support.microsoft.com/kb/2835432)|2013 年 7 月 |
+|Lync Server 2013 累积更新 1 |[KB 2781550](https://support.microsoft.com/kb/2781550)|2013 年 2 月 |
+||||
 
 ### <a name="lync-server-2013-dev-tools"></a>Lync Server 2013 开发工具
 
@@ -155,9 +132,28 @@ ms.locfileid: "29742853"
 
 ## <a name="lync-server-2010-update-history"></a>Lync Server 2010 更新历史记录
 
+[KB 2493736](http://support.microsoft.com/kb/2493736)包含已发布的所有累积更新。
+
 |软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
-|Lync Server 2010 |[KB 2493736](https://support.microsoft.com/kb/2493736) |2015 年 2 月 |
+|Lync Server 2010 累积更新 18|[KB 2493736](https://support.microsoft.com/kb/2493736) |年 1 月 2019|
+|Lync Server 2010 累积更新 17|[KB 3148801](https://support.microsoft.com/kb/3148801) |2016 年 4 月 |
+|Lync Server 2010 累积更新 16|[KB 3057803](https://support.microsoft.com/kb/3057803) |2015 年 5 月 |
+|Lync Server 2010 累积更新 15 |[KB 3030726](https://support.microsoft.com/kb/3030726) |2015 年 2 月|
+|Lync Server 2010 累积更新 13|[KB 2982385](http://support.microsoft.com/kb/2982385) </br> [KB 2982388](http://support.microsoft.com/kb/2982388)|2014 年 9 月|
+|Lync Server 2010 累积更新 12 |[KB 2957044](https://support.microsoft.com/kb/2957044) |2014 年 4 月 |
+|Lync Server 2010 累积更新 11 |[KB 2909888](https://support.microsoft.com/kb/2909888) |2014 年 1 月|
+|Lync Server 2010 累积更新 10 |[KB 2889610](https://support.microsoft.com/kb/2889610) |2013 年 10 月|
+|Lync Server 2010 累积更新 9 |[KB 2860700](https://support.microsoft.com/kb/2860700) |2013 年 7 月|
+|Lync Server 2010 累积更新 8 |[KB 2791381](https://support.microsoft.com/kb/2791381) |2013 年 7 月|
+|Lync Server 2010 累积更新 7 |[KB 2737915](https://support.microsoft.com/kb/2737915) |2012 年 10 月|
+|Lync Server 2010 累积更新 6 |[KB 2701585](https://support.microsoft.com/kb/2701585) |6 月 2012 日|
+|Lync Server 2010 累积更新 5 |[KB 2670352](https://support.microsoft.com/kb/2670352) |2012 年 2 月|
+|Lync Server 2010 累积更新 4 |[KB 2514980](https://support.microsoft.com/kb/2514980) |2011 年 11 月|
+|Lync Server 2010 累积更新 3|[KB 2571546](https://support.microsoft.com/kb/2571546) |2011 年 7 月|
+|Lync Server 2010 累积更新 2|[KB 2500442](https://support.microsoft.com/kb/2500442) |2011 年 4 月|
+|Lync Server 2010 累积更新 1|[KB 2467775](https://support.microsoft.com/kb/2467775) |2011 年 1 月|
+||||
 
 ### <a name="group-chat-2010-updates"></a>群聊 2010 更新
 

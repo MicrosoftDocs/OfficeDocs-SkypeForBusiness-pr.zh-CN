@@ -10,16 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 按年 2 月 2020 retiring Exchange 统一消息在线 (ExchUMO) 服务。 本文概述了什么影响客户应知道并执行的操作及其业务连续性规划。
-ms.openlocfilehash: 1f755f8974ba18eba296051c547ee12b79b114d1
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: af9418a764780efca07a37f1c0b55415d0305f55
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 02/08/2019
-ms.locfileid: "29779882"
+ms.locfileid: "29786419"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息在线迁移支持  
 
-[通知](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-support-for-unified-messaging-in-exchange-online/)年 2 月 8 2019年上没有 Microsoft 按年 2 月 2020 retiring Exchange 统一消息在线 (ExchUMO) 服务。 本文提供了哪些受影响的客户的摘要应知道以及操作将其业务连续性规划。 
+[通知](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)年 2 月 8 2019年上没有 Microsoft 按年 2 月 2020 retiring Exchange 统一消息在线 (ExchUMO) 服务。 本文提供了哪些受影响的客户的摘要应知道以及操作将其业务连续性规划。 
  
 ExchUMO 客户的语音邮件、 自动助理和/或集成的传真服务部署。 Microsoft 帮助这些客户迁移到其支持成千上万客户已 Skype 业务 Online 和 Microsoft 团队的基于云的服务计划。 
 
@@ -54,7 +54,7 @@ Microsoft 已发现的占用 ExchUMO 功能并将帮助客户迁移基于以下�
 
 1.  **获取通知**
  
-    熟悉[博客通知](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-support-for-unified-messaging-in-exchange-online/)和此文，规划您的用户的顺利迁移。 有关云语音邮件功能的详细信息，请参阅[检查的 Skype 业务语音邮件和选项](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8)。  
+    熟悉[博客通知](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)和此文，规划您的用户的顺利迁移。 有关云语音邮件功能的详细信息，请参阅[检查的 Skype 业务语音邮件和选项](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8)。  
  
 
 2.  **建立业务混合拓扑的 Skype**
