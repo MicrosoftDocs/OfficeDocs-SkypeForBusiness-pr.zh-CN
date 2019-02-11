@@ -1,9 +1,8 @@
 ---
-title: FAQ - 从 Skype for Business 升级到 Microsoft Teams
+title: Microsoft Teams FAQ | 会议、通话功能
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 01/16/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,22 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c030419a7176121bc102b83b7ff3551a00397b89
-ms.sourcegitcommit: d3708702393ac434344c758959109a3be2b3bfa4
+ms.openlocfilehash: a41c58a1d158cd3d09582e064e7cd59777687f67
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28324939"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753978"
 ---
 # <a name="faq---upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ - 从 Skype for Business 升级到 Microsoft Teams
 
 > [!Tip]
-> 请观看以下视频，了解有关从 Skype for Business 成功升级到 Microsoft Teams 的规划指导： 
+> 请观看以下视频，了解有关从 Skype for Business 成功升级到 Microsoft Teams 的规划指导：
 > - [升级简介](https://aka.ms/teams-upgrade-intro)（33 分钟）
 > - [规划升级](https://aka.ms/teams-upgrade-plan)（30 分钟）
 > - [共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)（53 分钟）
 > - [管理员体验](https://aka.ms/teams-upgrade-admin)（24 分钟）
-
 
 ## <a name="intelligent-communications-vision"></a>智能通信愿景
 
@@ -71,7 +69,7 @@ Teams 由全新的 Skype 后端基础结构提供支持，专为高度可扩展�
 
 ### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deployingor-planning-to-deployskype-for-business-in-office-365"></a>对当前正在部署或计划部署 Office 365 中的 Skype for Business 客户，你们有什么建议？
 
-客户应评估[从 Skype 到 Teams 的路线图](https://aka.ms/skype2teamsroadmap)来确定功能是否满足业务需求和执行时间需求。 如果满足，他们应调整策略以仅部署 Teams。 Teams 部署将基于规划和基础结构投资（例如，网络评估）。 我们鼓励所有新 Office 365 客户开始独立使用 Teams 或与 Skype for Business 并行使用 Teams。
+客户应对 [Microsoft 365 路线图](https://aka.ms/O365Roadmap)进行评估，确定哪些功能将满足业务需求和时间要求。 如果满足，他们应调整策略以仅部署 Teams。 Teams 部署将基于规划和基础结构投资（例如，网络评估）。 我们鼓励所有新 Office 365 客户开始独立使用 Teams 或与 Skype for Business 并行使用 Teams。
 
 ### <a name="what-support-are-you-offering-customers-who-want-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-online"></a>你们向希望迁移至 Teams 的客户提供什么支持，尤其是在 Office 365 中的 Skype for Business Online 上进行了大量投资的客户？
 
@@ -92,31 +90,31 @@ Teams 在 Office 365 套件中提供。 现在 Skype for Business Online 中作�
 ### <a name="how-long-will-it-take-to-upgrade-my-organization-to-teams"></a>我的组织升级到 Teams 需要多长时间？
 
 贵组织从 Skype for Business 到 Teams 的旅程可由你制定。 为了帮助你规划和执行，你可以选择两种核心升级路径之一：Upgrade Basic 和 Upgrade Pro。 Upgrade Basic 适用于小型组织或者 Skype for Business 采用率或核心工作负荷（例如即时消息）较低的组织，设计为一次将整个组织升级到 Teams。 Upgrade Pro 适用于采用扩展功能的组织，更具阶段化的升级方法有利于这些组织。 [请查看这两种路径](https://aka.ms/skypetoteams-home)来确定最适合贵组织的方法。
- 
-### <a name="why-dont-i-see-a-teams-only-mode-in-the-microsoft-teams--skype-for-business-admin-center"></a>为什么在 Microsoft Teams 与 Skype for Business 管理中心中没有看到“仅 Teams”模式？
+
+### <a name="why-dont-i-see-a-teams-only-mode-in-the-microsoft-teams-admin-center"></a>为何在 Microsoft Teams 管理中心中看不到“仅 Teams”模式？
 
 我们将在接下来的几周启用此模式。 此外，你还将看到显示的附加共存模式，让贵组织可以管理适合自己的 Skype for Business 到 Teams 旅程。 详细了解已提供或不久将提供的[共存和升级模式](https://aka.ms/skypetoteams-coexist)。
- 
+
 ### <a name="what-does-it-mean-to-have-teams-be-ready-for-my-organization"></a>Teams“随时可用于”我的组织意味着什么？
 
 作为 Skype for Business 客户，当 Teams 具有贵组织中当前启用并处于活动状态的 Skype for Business 功能时，你就会明白此时 Teams 随时可用。 以相关功能的可用性来安排你的升级，将会帮助你的用户轻松地从 Skype for Business 过渡到 Teams。 除了了解 Teams 何时可用于贵组织之外，你还需要规划贵组织的 Teams 就绪情况，从[验证技术就绪情况](https://aka.ms/skypetoteams-technicalreadiness)到[实施用户就绪和接受策略](https://aka.ms/skypetoteams-userreadiness)。
- 
+
 ### <a name="what-should-i-do-to-prepare-for-my-upgrade"></a>我应该为升级做哪些准备？
 
 要成功升级，要验证技术就绪情况以及用户接受就绪情况。 即使你确定贵组织尚未准备好升级到 Teams，你现在仍可以开始规划过程。 此外，你可以同时启用 Teams 和 Skype for Business 以开始利用 Teams 的价值。 现在就开始进行 [Skype 到 Teams 的旅程](https://aka.ms/skypetoteams-home)。
- 
+
 ### <a name="my-organization-is-already-running-teams-alongside-skype-for-business-can-i-just-disable-skype-for-business"></a>我的组织已在同时运行 Teams 和 Skype for Business。 是否可以直接禁用 Skype for Business？
 
 不可以，你将需要将用户切换到**仅 Teams** 模式来完成到 Teams 的升级。 如果贵组织已准备好升级到 Teams，请花时间与用户沟通，让他们了解将要发生的情况，让他们可以适应 Teams。 这将有利于确保其拥有正面的升级体验，以及有利于减少拨打给技术支持人员的电话。 如需示例沟通模板，请下载我们的 [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit)。
- 
+
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>如果我有升级过程方面的问题，可以联系谁？
 
-如果你有与升级有关的问题，请联系你当前的联系点，可能包括为你分配的 Microsoft 帐户团队、合作伙伴或 FastTrack。 此外，你可以在你的 [Microsoft Teams 与 Skype for Business 管理中心](https://admin.teams.microsoft.com/)打开一个帮助票证。
- 
+如果你有与升级有关的问题，请联系你当前的联系点，可能包括为你分配的 Microsoft 帐户团队、合作伙伴或 FastTrack。 或者，你可以从 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com/)内开立一个帮助票证。
+
 ### <a name="do-i-upgrade-all-users-on-my-tenant-together-or-can-i-opt-to-upgrade-select-users-at-a-time"></a>是要一起升级我的租户上的所有用户，还是可以选择一次升级选定的用户？
 
 当 Teams 满足你的需求时，你可以灵活地选择要升级的用户，无论是个人、多组用户还是整个组织。 为了帮助了解最适合贵组织的方法，请查看你可以启用的各种[共存和升级模式](https://aka.ms/skypetoteams-coexist)。
- 
+
 ### <a name="what-happens-after-my-users-are-upgraded"></a>我的用户升级后会发生什么情况？
 
 在你的用户升级到 Teams（**仅 Teams** 模式）后：
@@ -137,7 +135,8 @@ Teams 在 Office 365 套件中提供。 现在 Skype for Business Online 中作�
 
 ### <a name="how-can-customers-learn-when-skype-for-business-capabilities-will-be-available-in-teams"></a>客户如何了解何时将在 Teams 中提供 Skype for Business 功能？
 
-[https://aka.ms/skype2teamsroadmap](https://aka.ms/skype2teamsroadmap) 上提供了从 Skype 到 Teams 特定的路线图。 接下来，我们将在 [Office 365 路线图](https://go.microsoft.com/fwlink/?linkid=859057)中提供有关即将提供的 Teams 功能的信息。
+请参阅 [Microsoft 365 路线图](https://aka.ms/O365Roadmap)。
+
 
 ### <a name="which-apis-and-sdks-will-be-made-available-for-teams"></a>将为 Teams 提供哪些 API 和 SDK？
 
@@ -155,7 +154,6 @@ Teams 在 Office 365 套件中提供。 现在 Skype for Business Online 中作�
 
 有关 Teams 对美国政府社区云 (GCC) 的可用性的其他信息，请参阅[此处](plan-for-government-gcc.md)。
 
-
 ## <a name="calling-capabilities"></a>通话功能
 
 ### <a name="what-is-the-plan-for-microsofts-online-voice-capabilities"></a>Microsoft 的联机语音功能的计划是什么？
@@ -164,12 +162,11 @@ Teams 在 Office 365 套件中提供。 现在 Skype for Business Online 中作�
 
 ### <a name="what-is-the-guidance-for-customers-already-deployed-on-phone-system-cloud-pbx-in-skype-for-business-online"></a>对于已在 Skype for Business Online 中的电话系统（云 PBX）上部署的客户，有什么指导？
 
-客户应评估 [Teams 路线图](https://aka.ms/skype2teamsroadmap)以确定何时功能将满足其业务需求。 我们鼓励所有 Office 365 客户开始独立使用 Teams 或与 Skype for Business 并行使用 Teams。
+客户应评估 [Teams 路线图](https://aka.ms/O365Roadmap)以确定何时功能将满足其业务需求。 我们鼓励所有 Office 365 客户开始独立使用 Teams 或与 Skype for Business 并行使用 Teams。
 
 ### <a name="when-will-hybrid-customers-be-able-to-move-to-teams"></a>混合客户何时将能够迁移至 Teams？
 
 我们已根据客户反馈简化客户将 Trunk 或第三方电话服务系统连接到 Office 365 的方式。 对于通话，希望将自己的电话服务加入 Teams 的客户现在可以通过通用版本的[直接路由](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359)来实现。 在 Microsoft Teams 中可以选择使用直接路由和通话套餐拨打电话。
-
 
 ## <a name="messaging-capabilities"></a>消息传递功能
 
@@ -203,7 +200,7 @@ Skype Room Systems v1（也称为 Lync Room Systems）将进行升级，从而�
 
 ### <a name="whats-planned-for-new-management-experiences"></a>对全新管理体验有什么计划？
 
-Microsoft 已在 Office 365 管理中心启动面向 IT 专业人士的 [Microsoft Teams 与 Skype for Business 管理中心](https://admin.teams.microsoft.com/)。 与 Skype for Business 管理控制台一样，此新门户将是一个用于管理新体验的地方。 该门户的初始版本计划在 2018 年第一季度推出，旨在通过适合企业的策略模型为仅使用 Teams 的客户提供管理支持，替代现有的 Teams 管理界面。 在此门户中，我们将能够创建自定义联机状态、聊天、应用、会议和语音策略，以及为 Teams 用户分配策略。
+Microsoft 已在 Office 365 管理员中心内启动面向 IT 专业人员的 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com/)。 与 Skype for Business 管理控制台一样，此新门户将是一个用于管理新体验的地方。 该门户的初始版本计划在 2018 年第一季度推出，旨在通过适合企业的策略模型为仅使用 Teams 的客户提供管理支持，替代现有的 Teams 管理界面。 在此门户中，我们将能够创建自定义联机状态、聊天、应用、会议和语音策略，以及为 Teams 用户分配策略。
 
 ## <a name="device-compatibility"></a>设备兼容性
 
