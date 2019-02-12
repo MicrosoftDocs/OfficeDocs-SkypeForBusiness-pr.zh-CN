@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 管理资源中的 Microsoft 团队的帐户
-ms.openlocfilehash: 53d335b4f345967494767445ec206efcb6f78388
-ms.sourcegitcommit: e091201f2bcb86bee011e7ac0de741a6c673cedd
+ms.openlocfilehash: a40d281349f6b5f8cdc8a95dbb77a7d3f9da8cc4
+ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29770713"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29890753"
 ---
 # <a name="manage-resource-accounts-in-teams"></a>管理团队中的资源帐户 
 
@@ -33,7 +33,7 @@ ms.locfileid: "29770713"
 
 若要开始非常重要记住几件事：
   
-- 企业版 E3 以及**电话系统**的许可证或企业 E5 许可证，您的组织必须 （最低要求）。 已分配的**电话系统**用户许可证数影响服务号码可用于资源帐户分配给队列或自动助理呼叫的号码。 取决于您的组织中分配的**电话系统**和**音频会议**的许可证数量的资源帐户，您可以数。 若要了解有关授权的详细信息，请参阅[业务和 Microsoft 团队授权加载项的 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+- 企业版 E3 以及**电话系统**的许可证或企业 E5 许可证，您的组织必须 （最低要求）。 已分配的**电话系统**用户许可证数影响服务号码可用于资源帐户分配给队列或自动助理呼叫的号码。 取决于您的组织中分配的**电话系统**和**音频会议**的许可证数量的资源帐户，您可以数。 若要了解有关授权的详细信息，请参阅[业务和 Microsoft 团队授权加载项的 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
 
     > [!NOTE]
     > 要重定向呼叫的人员在组织中联机，它们必须具有**电话系统**许可证和启用了企业语音或其 Office 365 调用计划。 请参阅[业务和 Microsoft 团队许可证分配 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。 要为他们启用企业语音，可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
@@ -89,19 +89,19 @@ Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3
 
 为实现的混合与 Skype 的业务服务器：
 
-[规划云自动助理](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant.md)
+[规划云自动助理](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
 
-[配置云自动助理](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant.md)
+[配置云自动助理](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant)
 
 对于业务 online 团队或 Skype 中实现：
 
-[什么是电话系统自动助理？](what-are-phone-system-auto-attendants.md)
+[什么是电话系统自动助理？](what-are-phone-system-auto-attendants)
 
-[设置电话系统自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+[设置电话系统自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
 [小型企业示例-设置的自动助理](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[创建电话系统呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
+[创建电话系统呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [新 CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
