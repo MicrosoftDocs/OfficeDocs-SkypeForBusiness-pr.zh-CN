@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 呼叫者 ID 可以通过使用名为 CallingLineIdentity 策略控制的电话系统的用户的入站和出站呼叫。
-ms.openlocfilehash: c8a823235c3c3fedaf71d42e8482c5f4579b80ef
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 4ae5c54d68410096104f61bf8cdbd71fa0628003
+ms.sourcegitcommit: 99bc2db8cb857b6fd2ddf9b837198be849dafb9b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958168"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29981911"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>如何在你的组织中使用来电显示
 
@@ -65,7 +65,7 @@ ms.locfileid: "24958168"
 
 通过 EnableUserOverride 属性，单个用户或多个用户可以将其"来电显示"设置更改为" **匿名**"。 仅当 CallingLineIdentity 策略配置了 CallingIDSubstitute 参数 LineURI 或 Substitute 时适用。 EnableUserOverride 的默认值是 False。
   
-最终用户可以使用 for Business 桌面客户端的 Skype 中的**呼叫转接设置**选项卡将其呼叫者 ID 设置为**匿名**。
+最终用户可以通过使用 for Business 桌面客户端的 Skype 中的**设置**选项卡将其呼叫者 ID 设置为**匿名**，选择**呼叫最终用户**（如果由管理员启用），选择所有呼叫的**隐藏我的电话号码和配置文件信息**.
   
 ||||
 |:-----|:-----|:-----|
