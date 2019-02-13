@@ -1,5 +1,5 @@
 ---
-title: 规划基于位置的路由直接路由
+title: 为直接路由计划基于位置的路由
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82e11cb47aeeaf0c88ba0f6179f99195af9a7473
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 8faf0f70b509a851b8365bea5ce4a69a57f198d1
+ms.sourcegitcommit: 09c2094104ee055cb1cb047a5fab8f9fd02b123e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771029"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29967453"
 ---
-# <a name="plan-location-based-routing-for-direct-routing"></a>规划基于位置的路由直接路由
+# <a name="plan-location-based-routing-for-direct-routing"></a>为直接路由计划基于位置的路由
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -30,7 +30,7 @@ ms.locfileid: "29771029"
 
 此处，您将获取基于位置的路由和指南可帮助您为其规划的概述。 当您准备好应用并启用基于位置的路由时，请参阅：
 - [部署基于位置的路由的网络设置](location-based-routing-configure-network-settings.md)
-- [启用基于位置的路由直接路由](location-based-routing-enable.md)
+- [为直接路由启用基于位置的路由](location-based-routing-enable.md)
 
 基于位置的路由是允许您限制的入站或出站 PSTN 呼叫时，基于策略和用户的地理位置的收费电话绕过功能。 
 
@@ -235,7 +235,7 @@ ms.locfileid: "29771029"
 - 团队移动客户端 （iOS 和 Android）
 - 团队 IP 电话
 
-不支持的商业客户端的 Skype。
+不支持的工作组 web 客户端和 Skype 业务客户端。
 
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>基于位置的路由不支持的功能
 
@@ -251,5 +251,5 @@ ms.locfileid: "29771029"
 转到[基于位置的路由配置网络设置](location-based-routing-configure-network-settings.md)。
 
 ### <a name="related-topics"></a>相关主题
-- [启用基于位置的路由直接路由](location-based-routing-enable.md)
+- [为直接路由启用基于位置的路由](location-based-routing-enable.md)
 - [基于位置的路由术语](location-based-routing-terminology.md)

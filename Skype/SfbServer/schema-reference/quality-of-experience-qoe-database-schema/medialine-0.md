@@ -29,8 +29,8 @@ ms.locfileid: "19505081"
 |**ConnectivityIce** <br/> |tinyint  <br/> | <br/> |此列是存在但未在 Microsoft Lync Server 2013 中使用。 CallerConnectivityICE 和 CalleeConnectivityICE 列捕获有关用于媒体行的连接信息。  <br/> |
 |**CallerIceWarningFlags** <br/> |int  <br/> | <br/> |有关位标志中所述的互动式连接建立 (ICE) 过程的信息。 有关详细信息，请参阅*质量的体验监控服务器协议规范*，可供下载。 <br/> |
 |**CalleeIceWarningFlags** <br/> |int  <br/> | <br/> |相同 CallerIceWarningFlags，但被叫方侧。 有关详细信息，请参阅*质量的体验监控服务器协议规范*，可供下载。 <br/> |
-|**安全** <br/> |tinyint  <br/> | <br/> |使用中的安全配置文件。 0 为 NONE，1 是 SRTP，2 是 V1。  <br/> |
-|**传输** <br/> |tinyint  <br/> | <br/> |UDP 0，1 是 TCP。  <br/> |
+|**安全性** <br/> |tinyint  <br/> | <br/> |使用中的安全配置文件。 0 为 NONE，1 是 SRTP，2 是 V1。  <br/> |
+|**Transport** <br/> |tinyint  <br/> | <br/> |UDP 0，1 是 TCP。  <br/> |
 |**CallerIPAddr** <br/> |int  <br/> |外  <br/> |呼叫者的 IP 地址。 请参阅[IPAddress 表](ipaddress.md)的详细信息。 <br/> |
 |**CallerPort** <br/> |int  <br/> | <br/> | 呼叫者使用的端口。 <br/> |
 |**CallerSubnet** <br/> |int  <br/> | 外 <br/> |呼叫者的子网。 请参阅[IPAddress 表](ipaddress.md)的详细信息。 <br/> |

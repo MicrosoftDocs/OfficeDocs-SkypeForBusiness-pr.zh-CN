@@ -16,14 +16,14 @@
 <!-- ============================================================ -->
 
 
-# [聊天、 工作组、 通道和 & 应用程序](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+# [聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [团队和频道的概述](teams-channels-overview.md)
 ## [在 Microsoft Teams 中分配团队所有者和成员](assign-roles-permissions.md)
 ## [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
 ## [在工作组中创建一个组织范围团队](create-an-org-wide-team.md)
 ## [什么邮件策略？](messaging-policies-in-teams.md)
 ## [开始使用 Teams 模板](get-started-with-teams-templates.md)
-## [Microsoft 团队医疗保健模板入门](healthcare/healthcare-templates.md)
+## [Microsoft Teams 医疗保健模板入门](healthcare/healthcare-templates.md)
 ## [团队的动态成员资格概述](dynamic-memberships.md)
 ## [状态](presence-admins.md)
 ## [与其他组织中的团队用户通信](let-your-teams-users-communicate-with-other-people.md)
@@ -38,7 +38,7 @@
 ### [使用内置和自定义选项卡](built-in-custom-tabs.md)
 ### [使用 Office 365 和自定义连接器](Office-365-custom-connectors.md)
 ### [将应用程序发布到团队租户的应用程序目录](tenant-apps-catalog-teams.md)
-### [Skype 会议应用程序使用团队配置](configure-skype-meetings-app-to-work-with-teams.md)
+### [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
 
 
 
@@ -58,10 +58,10 @@
 
 ## [管理团队](using-admin-roles.md)
 ### [在贵组织中管理 Teams 功能](enable-features-office-365.md)
-### [转换为新的 Microsoft 团队管理中心的过程管理团队](manage-teams-skypeforbusiness-admin-center.md)
-### [管理 Microsoft 团队管理中心中的团队](manage-teams-in-modern-portal.md)
+### [在过渡到全新的 Microsoft Teams 管理中心期间管理团队](manage-teams-skypeforbusiness-admin-center.md)
+### [在 Microsoft Teams 管理中心中管理团队](manage-teams-in-modern-portal.md)
 ### [分配团队所有者和团队中的成员](assign-roles-permissions.md)
-### [Skype 会议应用程序使用团队配置](configure-skype-meetings-app-to-work-with-teams.md)
+### [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
 ### [与其他组织中的团队用户通信](let-your-teams-users-communicate-with-other-people.md)
 ### [使用内嵌消息转换](inline-message-translation-teams.md)
 ### [使用 Microsoft Teams 范围目录搜索](teams-scoped-directory-search.md)
@@ -76,6 +76,7 @@
 ### 准备推出团队
 #### [检查你的环境是否已为 Teams 准备就绪](environment-readiness.md)
 #### [为 Teams 准备贵组织的网络](prepare-network.md)
+#### [工作组或业务 online Skype 的代理服务器](proxy-servers-for-skype-for-business-online.md)
 #### [限制和规格团队](limits-specifications-teams.md)
 #### [在 Teams 中创建团队时规划 Office 365 组](plan-office-365-groups.md)
 #### [获取工具以支持 Teams 部署](rollout-tools.md)
@@ -114,7 +115,7 @@
 <!-- ============================================================ -->
 
 
-# [会议 & 会议](deploy-meetings-microsoft-teams-landing-page.md)
+# [会议](deploy-meetings-microsoft-teams-landing-page.md)
 ## [教程：Teams 中的会议](Tutorial-Meetings-in-Teams.yml)
 ## [管理会议设置](meeting-settings-in-teams.md)
 ## [用户设置更改时向其发送的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -305,9 +306,9 @@
 ### [经认证可用于直接路由的会话边界控制器列表](direct-routing-border-controllers.md)
 ### 基于位置的路由
 #### [基于位置的路由术语](location-based-routing-terminology.md)
-#### [规划基于位置的路由直接路由](location-based-routing-plan.md)
-#### [配置基于位置的路由的网络设置](location-based-routing-configure-network-settings.md)
-#### [启用基于位置的路由直接路由](location-based-routing-enable.md)
+#### [为直接路由计划基于位置的路由](location-based-routing-plan.md)
+#### [为基于位置的路由配置网络设置](location-based-routing-configure-network-settings.md)
+#### [为直接路由启用基于位置的路由](location-based-routing-enable.md)
 ### 直接路由的技术参考
 #### [出站呼叫发生 Trunk 故障转移](direct-routing-trunk-failover-on-outbound-call.md)
 
@@ -504,7 +505,7 @@
 #### [为组织设置通信点数](set-up-communications-credits-for-your-organization.md)
 #### [存入资金和管理通信点数](add-funds-and-manage-communications-credits.md)
 
-### [Online 的 Microsoft 团队呼叫流](microsoft-teams-online-call-flows.md)
+### [Microsoft Teams 联机通话流程](microsoft-teams-online-call-flows.md)
 
 ## 对于大型组织的实际指导
 ### [教程： 调用中团队](Tutorial-calling-in-teams.yml)
@@ -574,6 +575,7 @@
 ### [运行您的服务](upgrade-operate-my-service.md)
 ### [监视质量](upgrade-monitor-quality.md)
 ### [增强您的服务](upgrade-enhance-my-service.md)
+
 ## [教程：从 Skype for Business 到 Teams 的旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [常见问题](FAQ-journey.md)
 ## 其他信息
@@ -631,9 +633,9 @@
 #### [查看用户体验指南的质量](quality-of-experience-review-guide.md)
 #### [设置团队中的 QoS](QoS-in-Teams.md)
 #### [实现 QoS 和监视呼叫质量](monitor-call-quality-qos.md)
-#### [呼叫分析和呼叫质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
-#### [设置呼叫分析](set-up-call-analytics.md)
-#### [使用通话分析解决通话质量不佳的问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+#### [通话分析和通话质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
+#### [设置通话分析](set-up-call-analytics.md)
+#### [使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 #### [启用和使用通话质量仪表板](turning-on-and-using-call-quality-dashboard.md)
 #### [通话质量仪表板中可用的维度和衡量指标](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [通话质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)
@@ -642,12 +644,12 @@
 
 ## Teams 教育版
 ### [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
-### [对于教育管理员团队资源](resources-teams-edu.md)
+### [面向教育版管理员的 Teams 资源](resources-teams-edu.md)
 ### [对于管理员 Microsoft 教育调控常见问题](plan-teams-governance-edu.md)
 
 ## Firstline 工作者团队
 ### [管理您的组织在工作组引进相关应用程序](manage-the-shifts-app-for-your-organization-in-teams.md)
-### [零售工作组模板入门](get-started-with-retail-teams-templates.md)
+### [Teams 零售模板入门](get-started-with-retail-teams-templates.md)
 
 ## [规划 Microsoft 365 政府-GCC](plan-for-government-gcc.md)
 ### [规划 Microsoft 365 政府-GCC 高](plan-for-government-gcc-high.md)

@@ -12,20 +12,20 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9673d25234f4dfa8d28259701a18739c5307ee9
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 11b874b3c42fa62889eb8c2bf8c9633d612c875a
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593915"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964339"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 URL 和 IP 地址范围
 =====================================
 
-有关详细和最新列表的 Url、 IP 地址、 端口和协议必须正确配置团队转到[Office 365 Url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)。 Microsoft 在不断改进 Office 365 服务，并添加新功能，这意味着所需的端口，Url 和 IP 地址可能会随时间。 建议的您[通过 RSS 订阅](https://go.microsoft.com/fwlink/p/?linkid=236301)此信息更新或更改时收到通知。
+有关详细和最新列表的 Url、 IP 地址、 端口和协议必须正确配置团队转到[Office 365 Url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)。 Microsoft 一直在改进 Office 365 服务并添加新功能，因此，所需端口、URL 和 IP 地址可能会随时间变化。 建议的您[通过 RSS 订阅](https://go.microsoft.com/fwlink/p/?linkid=236301)此信息更新或更改时收到通知。
 
 呼叫和会议的体验基于的下一个生成基于云的基础结构还使用 Skype 和 Skype for Business 的团队。 这些技术投资包括对媒体处理和信号、 H.264 视频编解码器、 绞丝和作品音频编解码器、 网络恢复能力、 遥测、 和质量诊断的基于 Azure 云服务。 因此，需要的 URL 和 IP 可能与 Skype 和 Skype for Business 关联。
 
 对于所有 Office 365 工作负载，团队服务的建议的连接方法绕过转发代理，在可能的情况。 代理服务器位于客户端和 Office 365 数据中心之间，媒体可能强制 over TCP 而不是 UDP，将会影响媒体质量。 下载示例，可以用来配置[管理 Office 365](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)终结点的流量绕过代理 PAC 文件。
 
-如果您的网络和安全策略要求 Office 365 通信都通过传输代理服务器，请确保团队部署到生产环境之前已满足上述要求 （查看[业务 online Skype 的代理服务器](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)（英文）指南）。
+如果您的网络和安全策略要求 Office 365 通信都通过传输代理服务器，请确保已部署到生产环境 （回顾[工作组或业务 online Skype 的代理服务器](proxy-servers-for-skype-for-business-online.md)的团队之前满足上述要求有关指南）。

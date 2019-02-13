@@ -1,5 +1,5 @@
 ---
-title: 体验审阅指南的 Microsoft 团队的质量
+title: Microsoft Teams 体验质量概述指南
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34ec9518c8f5406b3bb6c489d571d89f50f34b34
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 3b19fe5dce5c728880c54321e5d6dbb1901d0aac
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754823"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964447"
 ---
 # <a name="quality-of-experience-review-guide"></a>查看用户体验指南的质量
 
@@ -625,7 +625,7 @@ _表 4-报告筛选器_
 
 _表 5-构建文件结构_
 
-| 列名称        | 数据类型 | 示例                   | 指南    |
+| 列名称        | 数据类型 | 示例                   | 指引    |
 |--------------------|-----------|---------------------------|-------------|
 | 网络            | String    | 192.168.1.0               | 必需    |
 | NetworkName        | String    | 美国/西雅图/西雅图-SEA-1 | 必需\*  |
@@ -899,7 +899,7 @@ _表 7 – 呼叫安装失败的原因_
 _表 8-呼叫的后续步骤安装失败修正_
 
 
-|      修正      |                                                                                                                                                                                                                                                                                                                                                                   指南                                                                                                                                                                                                                                                                                                                                                                   |
+|      修正      |                                                                                                                                                                                                                                                                                                                                                                   指引                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 配置防火墙 | 与网络团队合作，并确认您针对[Office 365 IP 地址列表](https://aka.ms/o365ips)的防火墙配置。<br><br>确认的防火墙规则包含[媒体子网](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)和端口。 <br><br>验证在防火墙中打开所需的端口 （如下所示）。 UDP 应该能得到优先级，因为 TCP 被视为音频、 视频、 故障回复协议和基于视频的屏幕共享，以及其使用会影响呼叫的质量。 旧 RDP 应用程序共享仅使用 TCP。<br><ul><li>**TCP:** 端口 443</li><li>**UDP:** 端口 3478 – 3481</li><ul> |
 |        验证         |                                                                                                                                                                                                                                                                 [Microsoft 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)用于验证从受影响的构建或子网的连接使用连接检查函数。                                                                                                                                                                                                                                                                  |
@@ -958,7 +958,7 @@ _图 22 – 按子网的投递失败_
 
 _表 9-呼叫的后续步骤放置修正_
 
-| 修正                              | 指南                      |
+| 修正                              | 指引                      |
 |------------------------------------------|-------------------------------|
 | **网络/internet**                         | **拥塞**： 使用您的网络团队监视在特定建筑物/子网确认不存在问题与过度使用带宽。 如果您执行确认存在网络拥塞，请考虑增加到该生成的带宽或应用 QoS。 使用包含[质量不佳流摘要报告](#quality-investigations)查看问题子问题的抖动、 延迟和数据包丢失，因为这些通常将前面丢弃的流。<br><br>您可以使用[网络规划器工具](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)有助于更好地了解您组织的带宽需求。<br><br>**QoS**： 如果增加带宽不切实际或成本上不可行，请考虑实现 QoS。 此工具是非常有效地管理拥挤的流量，都无法保证上方非媒体流量托管网络上的媒体数据包确定其优先级。 此外，如果不清除证据的带宽有原因，请考虑这些解决方案：<ul><li>[Microsoft 团队 QoS 指南](qos-in-teams.md)</li><li>[Skype 的业务 QoS 指南](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul><br>**执行网络准备情况评估**： 网络评估提供了有关预期的带宽使用情况的详细信息、 如何应对带宽和网络发生更改，以及建议个团队和 Skype for Business 的网络的做法。 使用上表作为您的源，必须建筑或子网的最佳候选人评估的列表。<ul><li>[Microsoft 团队网络准备情况评估](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype 的业务网络准备情况评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft 网络评估工具：** 简单的网络性能测试中使用此工具可确定网络团队将执行程度或 Skype 业务联机呼叫。 此工具可帮助您评估子网的性能和验证针对 Microsoft 性能[要求](https://aka.ms/performancerequirements)的网络的准备。<ul><li>[下载网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul> |
 | **客户端 (for Business 的 Skype 仅联机)** | 知道某些旧客户端，记录与媒体可靠性的问题。 查看呼叫分析报告从多个受影响的用户，或在 CQD 筛选到特定建筑或子网与而丢弃的总呼叫失败 %度量值中创建自定义客户端版本表报表。 此信息将帮助您了解呼叫中的特定构建的垂直距离和客户端的特定版本之间是否存在的关系。     |
@@ -1040,7 +1040,7 @@ _图 24 – 来构建差音频流摘要-和子网会议_
 
 _表 10-常见贡献高 PSR_
 
-| 修正                              | 指南                         |
+| 修正                              | 指引                         |
 |------------------------------------------|----------------------------------|
 | **网络**                                 | **拥塞**： 使用过度或下设置网络与媒体质量会出现问题。 使用网络团队核实，确定是否从用户网络连接到 internet 出口点具有足够的带宽来支持媒体。 [网络计划工具](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)可帮助您更好地了解您组织的带宽需求。<br><br>**执行网络准备情况评估**： 网络评估提供了有关预期的带宽使用情况的详细信息、 如何应对带宽和网络发生更改，以及建议个团队和 Skype for Business 的网络的做法。 使用上表作为您的源，必须建筑或子网的最佳候选人评估的列表。<ul><li>[Microsoft 团队网络准备情况评估](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype 的业务网络准备情况评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft 网络评估工具：** 简单的网络性能测试中使用此工具可确定网络团队将执行程度或 Skype 业务联机呼叫。 此工具可帮助您评估子网的性能和验证针对 Microsoft 性能[要求](https://aka.ms/performancerequirements)的网络的准备。<ul><li>[下载网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br> |
 | **服务质量 (QoS)**  | QoS 是该经验证的工具，可帮助确定优先级数据包拥塞的网络，以确保它们到达其保持不变的目标和时间。 请考虑实现跨组织最大限度地受到限制带宽，其中的用户体验质量的 QoS。 QoS 将帮助您解决通常与数据包丢失的高级别关联的问题和 — 在较小者一定程度上 — 不稳定和往返行程的时间。<ul><li>[Microsoft 团队 QoS 指南](qos-in-teams.md)</li><li>[Skype 的业务 QoS 指南](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul> |
@@ -1123,7 +1123,7 @@ TCP 使用率的最常见原因缺少在防火墙或代理的例外规则。 我
 
 _表 11-TCP 流构建和子网的补救指南_
 
-| 修正        | 指南     |
+| 修正        | 指引     |
 |--------------------|--------------------------------------|
 | 配置防火墙 | 验证[Office 365 IP 端口和地址](https://aka.ms/o365ips)会从您的防火墙中排除。 有关媒体相关 TCP 问题，重点介绍您初始措施以下：<ul><li>验证客户端媒体的子网 13.107.64.0/18 和 52.112.0.0/14 位于防火墙规则。</li><li>UDP 3478 – 3481 端口是必需的媒体端口，且必须打开，否则将客户端故障回复到 TCP 端口 443。</li></ul> |
 | 验证             | [Microsoft 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)用于从受影响的构建或子网连接到特定的 Office 365 IP 地址和端口检查存在问题。    |
@@ -1172,13 +1172,13 @@ _图 29 – 来构建 HTTP 代理使用率和子网_
 
 ##### <a name="remediation"></a>修正
 
-我们[建议](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)您始终绕的 Skype 代理过业务和团队，尤其是媒体流量。 代理不进行 for Business 的 Skype 更为安全，因为已对其流量进行加密。 环境中可能会出现由于延迟和数据包丢失而引起的与性能相关的问题。 例如，这些问题将导致负体验，与音频、 视频和屏幕共享、 实时流至关重要。
+我们[建议](proxy-servers-for-skype-for-business-online.md)您始终绕的 Skype 代理过业务和团队，尤其是媒体流量。 代理不进行 for Business 的 Skype 更为安全，因为已对其流量进行加密。 环境中可能会出现由于延迟和数据包丢失而引起的与性能相关的问题。 例如，这些问题将导致负体验，与音频、 视频和屏幕共享、 实时流至关重要。
 
 HTTP 使用率的最常见原因缺少中代理的例外规则。 使用构建或子网，提供您可以快速确定哪些代理需要配置媒体绕过。
 
 确认所需的[Office 365 Fqdn](https://aka.ms/o365ips)白名单中您的代理。
 
-有关使用 Skype 业务联机和团队代理的详细信息，请参阅[这篇文章](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)。
+有关使用 Skype 业务联机和团队代理的详细信息，请参阅[这篇文章](proxy-servers-for-skype-for-business-online.md)。
 
 ## <a name="endpoint-investigations"></a>终结点调查
 
@@ -1337,11 +1337,11 @@ _表 12-网络性能要求_
 
 -   [介绍呼叫分析](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
--   [设置呼叫分析](set-up-call-analytics.md)
+-   [设置通话分析](set-up-call-analytics.md)
 
 -   [通话分析与通话质量仪表板之间有何区别？](difference-between-call-analytics-and-call-quality-dashboard.md)
 
--   [使用通话分析解决通话质量不佳的问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+-   [使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 ### <a name="call-analytics-support"></a>呼叫分析支持
 
@@ -1357,7 +1357,7 @@ _表 12-网络性能要求_
 
 -   [Office 365 应用内容包](https://www.microsoft.com/microsoft-365/blog/2017/05/22/announcing-the-public-preview-of-the-office-365-adoption-content-pack-in-powerbi/)
 
--   [Microsoft 365 使用率分析](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f)
+-   [Microsoft 365 使用情况分析](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f)
 
 -   [Skype for Business Online 报告](/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting)
 

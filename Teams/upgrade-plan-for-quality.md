@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59c881c6c40b8877fee46e3956970a0c305d0a4a
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 81b47a5a77a04becee748e4285641ce341fb65d4
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349526"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964423"
 ---
 ![升级旅程，重点强调的技术的准备阶段的阶段](media/upgrade-banner-tech-readiness.png "升级旅程，重点强调的技术的准备阶段的阶段")
 
@@ -211,7 +211,7 @@ QoS 实施应包括网络的多个方面，从终结点一直到出口点，以�
 
 一些代理服务器供应商会提供一个自动流程以确保配置是最新的。 如果你的供应商未提供此自动流程，你可以从 <https://aka.ms/o365proxies> 下载更新的 PAC 文件。
 
-[Skype for Business Online 和 Teams 的代理服务器](/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
+[工作组或业务 Online 的 Skype 和工作组代理服务器](proxy-servers-for-skype-for-business-online.md)
 
 #### <a name="firewalls"></a>防火墙
 

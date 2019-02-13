@@ -1,5 +1,5 @@
 ---
-title: 管理团队中的资源帐户
+title: 在 Teams 中管理资源帐户
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 管理资源中的 Microsoft 团队的帐户
-ms.openlocfilehash: a40d281349f6b5f8cdc8a95dbb77a7d3f9da8cc4
-ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
+ms.openlocfilehash: 3bab9f4c76a7bc5b0baf534b17ca3f5abaf11478
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29890753"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964407"
 ---
 # <a name="manage-resource-accounts-in-teams"></a>管理团队中的资源帐户 
 
@@ -95,7 +95,7 @@ Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3
 
 对于业务 online 团队或 Skype 中实现：
 
-[什么是电话系统自动助理？](what-are-phone-system-auto-attendants)
+[什么是电话系统自动助理？](what-are-phone-system-auto-attendants.md)
 
 [设置电话系统自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
