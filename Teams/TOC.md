@@ -65,11 +65,11 @@
 ### [与其他组织中的团队用户通信](let-your-teams-users-communicate-with-other-people.md)
 ### [使用内嵌消息转换](inline-message-translation-teams.md)
 ### [使用 Microsoft Teams 范围目录搜索](teams-scoped-directory-search.md)
-### [团队分析和报告](teams-analytics-and-reports/teams-reporting-reference.md)
+### [团队分析和报告在管理中心中的 Microsoft 团队](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [团队使用情况报告](teams-analytics-and-reports/teams-usage-report.md)
 #### [团队用户活动报告](teams-analytics-and-reports/user-activity-report.md) 
 #### [团队设备使用情况报告](teams-analytics-and-reports/device-usage-report.md)
-#### [使用团队活动报告](teams-activity-reports.md)
+### [在 Microsoft 365 管理中心中的团队活动报告](teams-activity-reports.md)
 
 
 ## 引用
@@ -129,34 +129,58 @@
 
 ## [音频会议](deploy-audio-conferencing-teams-landing-page.md)
 
-### [教程： 团队中的音频会议](Tutorial-Audio-Conferencing.yml)
 ### [Office 365 中的音频会议](audio-conferencing-in-office-365.md)
-### [将 Microsoft 指定为音频会议提供商](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [音频会议常见问题](audio-conferencing-common-questions.md)
-### [音频会议按分钟付费](audio-conferencing-pay-per-minute.md)
-### [更改音频会议网桥的设置](change-the-settings-for-an-audio-conferencing-bridge.md)
-### [更改音频会议网桥的电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
-### [从会议拨出，以便其他人可以加入会议](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
-### [禁用特定用户的免费电话号码](disabling-toll-free-numbers-for-specific-teams-users.md)
-### [用户设置更改时自动向其发送的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md)
-### [启用或禁用更改音频会议设置时发送电子邮件](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
-### [使用户能够在加入会议时录制其姓名](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
-### [管理用户的音频会议设置](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-### [管理您的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
-### [音频会议和用户 PSTN 通话的出站通话限制策略](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [重置用户的会议 ID](reset-a-conference-id-for-a-user-in-teams.md)
-### [重置用户的音频会议 PIN](reset-the-audio-conferencing-pin-in-teams.md)
-### [查看音频会议号码列表](see-a-list-of-audio-conferencing-numbers-in-teams.md)
-### [查看启用了音频会议的用户列表](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
-### [查看和重置分配给用户的会议 ID](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
-### [通过电子邮件向用户发送音频会议信息](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
-### [设置音频会议的自动助理语言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
-### [设置包含在邀请中的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)
-### [设置音频会议的 PIN 长度](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
-### [在没有 PIN 的情况下通过电话启动音频会议](start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md)
+### [教程： 团队中的音频会议](Tutorial-Audio-Conferencing.yml)
 ### [试用或购买 Office 365 中的音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
-### [打开或关闭会议的进入和退出通知](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
 ### [音频会议免费拨出期](complimentary-dial-out-period.md)
+
+
+### [为业务和 Microsoft 团队中设置 Skype 音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
+### [将 Microsoft 指定为音频会议提供商](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
+### 管理音频会议桥
+#### [更改音频会议网桥中的电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
+#### [更改音频会议网桥的设置](change-the-settings-for-an-audio-conferencing-bridge.md)
+#### [查看音频会议号码列表](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+#### [设置音频会议的自动助理语言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+
+### [管理您的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+#### [音频会议按分钟付费](audio-conferencing-pay-per-minute.md)
+
+
+### [管理用户的音频会议设置](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+
+#### [查看启用了音频会议的用户列表](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
+
+#### [使用户能够在加入会议时录制其姓名](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
+#### [重置用户的会议 ID](reset-a-conference-id-for-a-user-in-teams.md)
+#### [重置用户的音频会议 PIN](reset-the-audio-conferencing-pin-in-teams.md)
+#### [用户设置更改时自动向其发送的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md)
+#### [启用或禁用更改音频会议设置时发送电子邮件](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
+#### [禁用特定用户的免费电话号码](disabling-toll-free-numbers-for-specific-teams-users.md)
+#### [音频会议和用户 PSTN 通话的出站通话限制策略](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [查看和重置分配给用户的会议 ID](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
+#### [对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
+
+### 管理音频会议的会议设置
+
+#### [从会议拨出，以便其他人可以加入会议](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
+#### [打开或关闭会议的进入和退出通知](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+#### [设置音频会议的 PIN 长度](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
+#### [设置包含在邀请中的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)
+#### [在没有 PIN 的情况下通过电话启动音频会议](start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md)
+
+
+
+
+
+
+
+
+
+
 
 
 ## [云视频互操作](cloud-video-interop.md)
@@ -581,6 +605,7 @@
 ## 其他信息
 ### [迁移和 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
 ### [与 Skype for Business 共存](coexistence-chat-calls-presence.md)
+### [团队客户端体验和符合共存模式](teams-client-experience-and-conformance-to-coexistence-modes.md)
 <!-- ============================================================ -->
 #       
 #        
