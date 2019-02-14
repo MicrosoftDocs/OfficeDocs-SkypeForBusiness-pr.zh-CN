@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e1140fd30baa027ded92494b7455aab5500a726
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 7c251255807e1c673c672db20a85b7f56c4a64d6
+ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29770897"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29992814"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互 
 =========================================
@@ -46,7 +46,7 @@ ms.locfileid: "29770897"
 <sup>2</sup>电子数据展示和合规性上通道消息的法律挂起支持所有承载选项。  
 <sup>3</sup>团队专用聊天消息是尚不支持的法律挂起对此托管选项。
 
-<sup>4</sup>保留将使用联机用户的卷影邮箱存储的邮件。 [Exchange 混合环境中的团队用户的 Microsoft 团队支持 eDiscover](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)。
+<sup>4</sup>保留将使用联机用户的卷影邮箱存储的邮件。 [Exchange 混合环境中的团队用户的 Microsoft 团队支持电子数据展示](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)。
 
 <sup>5</sup>不可用来查看或团队客户端中播放团队用户与内部部署 Exchange 邮箱可能与团队使用语音邮件和接收语音邮件消息在 Outlook 中，但语音邮件消息。
 
