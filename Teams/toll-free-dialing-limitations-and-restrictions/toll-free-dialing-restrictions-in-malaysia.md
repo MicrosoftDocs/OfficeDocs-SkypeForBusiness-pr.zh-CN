@@ -1,7 +1,7 @@
 ---
 title: 马来西亚的免费电话拨号限制
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,34 +24,34 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 这将帮助您了解如何拨号中每个国家/地区免费电话号码。 选择国家/地区后，它会将您导引到特定国家/地区的页面包含特定详细信息、 限制和免费电话服务可用性的限制的免费电话服务位于。 拨号格式将显示您拨免费电话号码每个国家/地区内所需的访问代码。
-ms.openlocfilehash: 5defd6b48eb098e631232732aaeb7b547d6464d5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: cae0d9866b08db90c041c96f657954d2c0d7f9e9
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012494"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047229"
 ---
-# <a name="toll-free-dialing-restrictions-in-malaysia"></a><span data-ttu-id="0ff3a-105">马来西亚的免费电话拨号限制</span><span class="sxs-lookup"><span data-stu-id="0ff3a-105">Toll-free dialing restrictions in Malaysia</span></span>
+# <a name="toll-free-dialing-restrictions-in-malaysia"></a><span data-ttu-id="2c20c-105">马来西亚的免费电话拨号限制</span><span class="sxs-lookup"><span data-stu-id="2c20c-105">Toll-free dialing restrictions in Malaysia</span></span>
 
-<span data-ttu-id="0ff3a-106">[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费电话拨号限制和限制的详细信息。</span><span class="sxs-lookup"><span data-stu-id="0ff3a-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="2c20c-106">[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费电话拨号限制和限制的详细信息。</span><span class="sxs-lookup"><span data-stu-id="2c20c-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="0ff3a-107">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="0ff3a-107">**Details**</span></span>|<span data-ttu-id="0ff3a-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="0ff3a-108">**Description**</span></span>|
+|<span data-ttu-id="2c20c-107">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="2c20c-107">**Details**</span></span>|<span data-ttu-id="2c20c-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="2c20c-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="0ff3a-109">是免费调用可用？</span><span class="sxs-lookup"><span data-stu-id="0ff3a-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="0ff3a-110">是</span><span class="sxs-lookup"><span data-stu-id="0ff3a-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="0ff3a-111">拨号格式</span><span class="sxs-lookup"><span data-stu-id="0ff3a-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="0ff3a-112">1 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="0ff3a-112">1 800 XXX XXX</span></span>  <br/> |
-|<span data-ttu-id="0ff3a-113">国家/地区 ISO 代码</span><span class="sxs-lookup"><span data-stu-id="0ff3a-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="0ff3a-114">MY</span><span class="sxs-lookup"><span data-stu-id="0ff3a-114">MY</span></span>  <br/> |
-|<span data-ttu-id="0ff3a-115">岛/区域介绍</span><span class="sxs-lookup"><span data-stu-id="0ff3a-115">Island/territory covered</span></span>  <br/> | <span data-ttu-id="0ff3a-116">马来西亚半岛和东马来西亚</span><span class="sxs-lookup"><span data-stu-id="0ff3a-116">Peninsular Malaysia and East Malaysia</span></span> <br/> |
-|<span data-ttu-id="0ff3a-117">未涵盖岛/区域</span><span class="sxs-lookup"><span data-stu-id="0ff3a-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="0ff3a-118">不适用</span><span class="sxs-lookup"><span data-stu-id="0ff3a-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="0ff3a-119">有线固定行可用性</span><span class="sxs-lookup"><span data-stu-id="0ff3a-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="0ff3a-120">是</span><span class="sxs-lookup"><span data-stu-id="0ff3a-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="0ff3a-121">移动网络可用性</span><span class="sxs-lookup"><span data-stu-id="0ff3a-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="0ff3a-122">是</span><span class="sxs-lookup"><span data-stu-id="0ff3a-122">Yes</span></span>  <br/> |
-|<span data-ttu-id="0ff3a-123">注释、 限制和访问问题</span><span class="sxs-lookup"><span data-stu-id="0ff3a-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="0ff3a-124">移动访问： 通话收费。</span><span class="sxs-lookup"><span data-stu-id="0ff3a-124">Mobile access: Airtime is charged.</span></span>  <br/> |
+|<span data-ttu-id="2c20c-109">是免费调用可用？</span><span class="sxs-lookup"><span data-stu-id="2c20c-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="2c20c-110">是</span><span class="sxs-lookup"><span data-stu-id="2c20c-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="2c20c-111">拨号格式</span><span class="sxs-lookup"><span data-stu-id="2c20c-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="2c20c-112">1 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="2c20c-112">1 800 XXX XXX</span></span>  <br/> |
+|<span data-ttu-id="2c20c-113">国家/地区 ISO 代码</span><span class="sxs-lookup"><span data-stu-id="2c20c-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="2c20c-114">MY</span><span class="sxs-lookup"><span data-stu-id="2c20c-114">MY</span></span>  <br/> |
+|<span data-ttu-id="2c20c-115">岛/区域介绍</span><span class="sxs-lookup"><span data-stu-id="2c20c-115">Island/territory covered</span></span>  <br/> | <span data-ttu-id="2c20c-116">马来西亚半岛和东马来西亚</span><span class="sxs-lookup"><span data-stu-id="2c20c-116">Peninsular Malaysia and East Malaysia</span></span> <br/> |
+|<span data-ttu-id="2c20c-117">未涵盖岛/区域</span><span class="sxs-lookup"><span data-stu-id="2c20c-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="2c20c-118">不适用</span><span class="sxs-lookup"><span data-stu-id="2c20c-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="2c20c-119">有线固定行可用性</span><span class="sxs-lookup"><span data-stu-id="2c20c-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="2c20c-120">是</span><span class="sxs-lookup"><span data-stu-id="2c20c-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="2c20c-121">移动网络可用性</span><span class="sxs-lookup"><span data-stu-id="2c20c-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="2c20c-122">是</span><span class="sxs-lookup"><span data-stu-id="2c20c-122">Yes</span></span>  <br/> |
+|<span data-ttu-id="2c20c-123">注释、 限制和访问问题</span><span class="sxs-lookup"><span data-stu-id="2c20c-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="2c20c-124">移动访问： 通话收费。</span><span class="sxs-lookup"><span data-stu-id="2c20c-124">Mobile access: Airtime is charged.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="0ff3a-125">相关主题</span><span class="sxs-lookup"><span data-stu-id="0ff3a-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="2c20c-125">相关主题</span><span class="sxs-lookup"><span data-stu-id="2c20c-125">Related topics</span></span>
 
-[<span data-ttu-id="0ff3a-126">免费电话拨号限制和限制</span><span class="sxs-lookup"><span data-stu-id="0ff3a-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="2c20c-126">免费电话拨号限制和限制</span><span class="sxs-lookup"><span data-stu-id="2c20c-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="0ff3a-127">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="0ff3a-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="2c20c-127">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="2c20c-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  
