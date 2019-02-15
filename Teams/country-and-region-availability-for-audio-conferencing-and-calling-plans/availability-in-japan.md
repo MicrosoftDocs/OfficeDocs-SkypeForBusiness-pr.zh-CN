@@ -1,7 +1,7 @@
 ---
 title: 日本的可用性
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于日本业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 5b42a6a1303d8079d41381c7b780c7ddf380138c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8176781d82319c74d8838b6dbb7f9b355360ba7e
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015810"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048631"
 ---
 # <a name="availability-in-japan"></a>日本的可用性
 
@@ -52,8 +52,8 @@ ms.locfileid: "25015810"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-| 自动助理 <br/> |可用  <br/> |
-|呼叫队列  <br/> |可用  <br/> |
+| 自动助理 <br/> |有空  <br/> |
+|呼叫队列  <br/> |有空  <br/> |
 |语音邮件  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通话套餐

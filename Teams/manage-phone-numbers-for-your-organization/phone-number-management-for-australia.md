@@ -1,7 +1,7 @@
 ---
 title: 澳大利亚的电话号码管理
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 使用此表可以找到有关获取和管理澳大利亚中的电话号码的 Skype 业务 Online 和 Microsoft 团队。
-ms.openlocfilehash: 6040cef3540680c68f5ccbc4cbe9b6c0b6f34617
-ms.sourcegitcommit: e2ba383205baa447990d4b2f9c145e299406b9ab
+ms.openlocfilehash: 7ef7021fe4e7801630368ef29fc070ad751f37d0
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29651086"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046939"
 ---
 # <a name="phone-number-management-for-australia"></a>澳大利亚的电话号码管理
 在澳大利亚，我们已与 Telstra 合作购买和提供Calling Plan通话计划。 Telstra 将销售通话计划，并向用户和自动语音与呼叫队列号码提供支持。 但是，服务号码和音频会议的许可证仍由 Office 365 负责销售和管理。

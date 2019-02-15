@@ -1,7 +1,7 @@
 ---
 title: 免费电话拨号越南中的限制
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 这将帮助您了解如何拨号中每个国家/地区免费电话号码。 选择国家/地区后，它会将您导引到特定国家/地区的页面包含特定详细信息、 限制和免费电话服务可用性的限制的免费电话服务位于。 拨号格式将显示您拨免费电话号码每个国家/地区内所需的访问代码。
-ms.openlocfilehash: 171ba2476bc17fcd06f0bc4cc62766c4a2d0d243
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7b1dc043b537b2ab8b4c50e57d640ed7ecf03b0e
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371207"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046429"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>免费电话拨号越南中的限制
 
@@ -45,7 +45,7 @@ ms.locfileid: "25371207"
 | 未涵盖岛/区域  <br/>              | 不适用  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
 | 有线固定行可用性  <br/>             | 部分。 请参阅注释。  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
 | 移动网络可用性  <br/>               | 部分。 请参阅注释。  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
-| 注释、 限制和访问问题  <br/> | 越南电信国际 (VTI) 和 VNPT （越南 Post 和电信） 固定和移动网络将工作的 120 XX XXX 数字格式。 <br/>   <br/>**注意：** Mobifone &amp; Vinaphone 属于 VNPT。 数字格式 122 XXX XX 区内： Viettel （固定和移动）。 按照电信越南部、 允许的最大呼叫持续时间为 2 小时。 |
+| 注释、 限制和访问问题  <br/> | 越南电信国际 (VTI) 和 VNPT （越南 Post 和电信） 固定和移动网络将工作的 120 XX XXX 数字格式。 <br/>   <br/>**注意：** Mobifone &amp; Vinaphone 属于 VNPT。 The number format 122 XXX XX network coverage: Viettel (fixed and mobile). 按照电信越南部、 允许的最大呼叫持续时间为 2 小时。 |
    
 ## <a name="related-topics"></a>相关主题
 

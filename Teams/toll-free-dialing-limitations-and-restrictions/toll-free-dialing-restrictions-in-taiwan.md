@@ -1,7 +1,7 @@
 ---
 title: 免费电话拨号台湾中的限制
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 这将帮助您了解如何拨号中每个国家/地区免费电话号码。 选择国家/地区后，它会将您导引到特定国家/地区的页面包含特定详细信息、 限制和免费电话服务可用性的限制的免费电话服务位于。 拨号格式将显示您拨免费电话号码每个国家/地区内所需的访问代码。
-ms.openlocfilehash: 0d23e2fdb184b57a63cbf3c19ed34a9c5f849404
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 43cc5507e1cce34d70c131d9a8d8836f83494a84
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014994"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047253"
 ---
 # <a name="toll-free-dialing-restrictions-in-taiwan"></a>免费电话拨号台湾中的限制
 

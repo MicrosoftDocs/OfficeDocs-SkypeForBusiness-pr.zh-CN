@@ -1,7 +1,7 @@
 ---
 title: 在法国的可用性
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 法国可用的项目。
-ms.openlocfilehash: 4845b612b3a1316f8d7ac3da527ae118c6d6681c
-ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
+ms.openlocfilehash: 1714edad45c3be07b99b742a47743ad4fbf091cf
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "27382659"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047607"
 ---
 # <a name="availability-in-france"></a>在法国的可用性
 
@@ -52,8 +52,8 @@ ms.locfileid: "27382659"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-| 自动助理 <br/> |可用  <br/> |
-|呼叫队列  <br/> |可用  <br/> |
+| 自动助理 <br/> |有空  <br/> |
+|呼叫队列  <br/> |有空  <br/> |
 |语音邮件  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通话套餐

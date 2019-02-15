@@ -1,7 +1,7 @@
 ---
-title: 在你有组织中设置电话系统
-ms.author: tonysmit
-author: tonysmit
+title: 在组织中设置电话系统
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: makolomi
 ms.topic: article
@@ -23,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为组织设置电话系统 (云 PBX)。 '
-ms.openlocfilehash: aae5a8e5fc8a0cd2cb20a2e3964c14a89039ce1e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0ae2d890e87ecef217bfdafd2c547de7ae35414d
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374447"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047559"
 ---
-# <a name="setting-up-phone-system-in-your-organization"></a>在你有组织中设置电话系统
+# <a name="setting-up-phone-system-in-your-organization"></a>在组织中设置电话系统
 
 The following is a step-by-step guide for setting up Phone System in Office 365. Links to additional, detailed information are available at the end of each step.
 
@@ -63,7 +63,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. Go to the **Office 365 admin center** > **Skype for Business**.
     
 3. 在左侧导航窗格中转到 **语音** > **电话号码**，单击 **添加新号码** ![添加按钮](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)，然后单击**新的用户数量**。
     
@@ -90,7 +90,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. Go to the **Office 365 admin center** > **Skype for Business**.
 
 3. 在左侧导航窗格中转到**语音** > **电话号码** > **添加新号码**，然后单击**新服务号码**。
 

@@ -1,7 +1,7 @@
 ---
 title: 在加拿大的可用性
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 本文列出了在加拿大可用的适用于 Skype for Business 和 Microsoft Teams 的 Office 365 服务。
-ms.openlocfilehash: c88d233f3b4120b202ac09f2b48406d21f896b75
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: b33d4a8ac52b0ae086e2ff344dea95d1538192f1
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674791"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046632"
 ---
 # <a name="availability-in-canada"></a>在加拿大的可用性
 
@@ -52,8 +52,8 @@ ms.locfileid: "26674791"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-| 自动助理 <br/> |可用  <br/> |
-|呼叫队列  <br/> |可用  <br/> |
+| 自动助理 <br/> |有空  <br/> |
+|呼叫队列  <br/> |有空  <br/> |
 |语音邮件  <br/> |可用  <br/> |
 
 ## <a name="calling-plans"></a>通话套餐

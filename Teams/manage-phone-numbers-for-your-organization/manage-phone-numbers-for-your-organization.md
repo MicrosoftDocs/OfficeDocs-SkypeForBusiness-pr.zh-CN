@@ -1,7 +1,7 @@
 ---
 title: 管理组织的电话号码
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -26,12 +26,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 在每个国家或地区，为 Skype for Business Online 和 Microsoft Teams 用户获取电话号码的说明均不同。 请访问下面你所在国家或地区对应的链接来获取你所需信息。
-ms.openlocfilehash: aca08e4af22eeed2422f88af6c6883a8c4e1a076
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b2f20983051f55464d95ed0a36a4173c68b8b4db
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015450"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048160"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>管理组织的电话号码
 有三种方法可以为您的组织获取用户和服务（收费和免费）号码。

@@ -1,7 +1,7 @@
 ---
 title: 语音邮件问候语和消息的语言
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解在 Skype for Business 中可以为默认系统消息设置哪些语言。 '
-ms.openlocfilehash: 77500d8a84dada5f2a5005c214fded7eddb3186e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 601a23efe09a486afdcd88ad2f45ec9b9b666fd7
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013270"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047711"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>语音邮件问候语和消息的语言
 

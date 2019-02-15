@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 摘要： 了解 Business Server Skype 中的边缘服务器的环境要求。
-ms.openlocfilehash: 4b8c4d63063e7dcd496d0063eff8e8f8b8027058
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c1a7c9ff9b55d2b5cdf978b87913f50b6521ea77
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532458"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047879"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>边缘服务器环境要求中 Skype 业务服务器
  
@@ -79,11 +79,11 @@ Skype 的业务 Server 边缘服务器拓扑还可以使用：
 |:-----|:-----|:-----|:-----|:-----|
 |使用专用 IP 地址和 NAT 的单一合并边缘  <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
 |使用公用 IP 地址的单一合并边缘  <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
-|使用专用 IP 地址和 NAT 的扩展合并边缘（DNS 负载平衡）  <br/> |是  <br/> |是  <br/> |是  <br/> |是 & sup1;  <br/> |
-|使用公用 IP 地址的扩展合并边缘（DNS 负载平衡）  <br/> |是  <br/> |是  <br/> |是  <br/> |是 & sup1;  <br/> |
+|使用专用 IP 地址和 NAT 的扩展合并边缘（DNS 负载平衡）  <br/> |是  <br/> |是  <br/> |是  <br/> |Yes&sup1;  <br/> |
+|使用公用 IP 地址的扩展合并边缘（DNS 负载平衡）  <br/> |是  <br/> |是  <br/> |是  <br/> |Yes&sup1;  <br/> |
 |使用硬件负载平衡器的扩展合并边缘  <br/> |是  <br/> |不支持（每个 VIP 一个 DNS A 记录）  <br/> |是  <br/> |是  <br/> |
    
-& sup1;Exchange 统一消息 (UM) 使用 DNS 负载平衡的远程用户故障转移需要 Exchange 2013 或更高版本。
+&sup1;Exchange 统一消息 (UM) 使用 DNS 负载平衡的远程用户故障转移需要 Exchange 2013 或更高版本。
   
 ### <a name="ip-address-requirements"></a>IP 地址要求
 
@@ -302,7 +302,7 @@ Skype 业务 server 使用证书实现同时服务器之间以及从服务器到
 - 音频/视频身份验证服务 (不要将此混淆与 A / V 边缘服务的不使用证书进行加密音频和视频流)
     
 > [!IMPORTANT]
-> 对于媒体中继身份验证服务，所有边缘服务器需要有完全相同的证书，连私钥也应相同。 
+> 所有边缘服务器 （如果它们属于相同的边缘服务器池） 都需要具有相同的私钥的媒体中继身份验证服务与完全相同的证书。 
   
 ### <a name="internal-certificates"></a>内部证书
 
@@ -355,19 +355,19 @@ Skype 业务 server 使用证书实现同时服务器之间以及从服务器到
   
 |**角色或协议**|**TCP 或 UDP**|**目标端口或端口范围**|**源 IP 地址**|**目标 IP 地址**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP  <br/> 不支持在 Skype 业务服务器 2019 |TCP  <br/> |5269  <br/> |任意  <br/> |XMPP 代理服务 （与访问边缘服务共享 IP 地址  <br/> |XMPP 代理服务接受来自所定义的 XMPP 联盟中 XMPP 联系人的流量。  <br/> |
-|访问/HTTP  <br/> |TCP  <br/> |80  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |任意  <br/> |证书吊销和 CRL 检查和检索。  <br/> |
-|访问/DNS  <br/> |TCP  <br/> |53  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |任意  <br/> |通过 TCP 的 DNS 查询。  <br/> |
-|访问/DNS  <br/> |UDP  <br/> |53  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |任意  <br/> |通过 UDP 的 DNS 查询。  <br/> |
-|访问/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |外部用户访问的客户端到服务器 SIP 通信。  <br/> |
-|访问/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |任意  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |适用于使用 SIP 的联盟和公共 IM 连接。  <br/> |
-|访问/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |任意  <br/> |适用于使用 SIP 的联盟和公共 IM 连接。  <br/> |
-|Web 会议/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 Web 会议边缘服务 <br/> **公用 IP:** 边缘服务器 Web 会议边缘服务公共 IP 地址 <br/> |Web 会议媒体。  <br/> |
+|XMPP  <br/> 不支持在 Skype 业务服务器 2019 |TCP  <br/> |5269  <br/> |任何  <br/> |XMPP 代理服务 （与访问边缘服务共享 IP 地址  <br/> |XMPP 代理服务接受来自所定义的 XMPP 联盟中 XMPP 联系人的流量。  <br/> |
+|访问/HTTP  <br/> |TCP  <br/> |80  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |任何  <br/> |证书吊销和 CRL 检查和检索。  <br/> |
+|访问/DNS  <br/> |TCP  <br/> |53  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |任何  <br/> |通过 TCP 的 DNS 查询。  <br/> |
+|访问/DNS  <br/> |UDP  <br/> |53  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |任何  <br/> |通过 UDP 的 DNS 查询。  <br/> |
+|访问/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |任意   <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |外部用户访问的客户端到服务器 SIP 通信。  <br/> |
+|访问/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |任何  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |适用于使用 SIP 的联盟和公共 IM 连接。  <br/> |
+|访问/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |任何  <br/> |适用于使用 SIP 的联盟和公共 IM 连接。  <br/> |
+|Web 会议/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |任意   <br/> |**使用 NAT 的专用 IP:** 边缘服务器 Web 会议边缘服务 <br/> **公用 IP:** 边缘服务器 Web 会议边缘服务公共 IP 地址 <br/> |Web 会议媒体。  <br/> |
 |A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |任意  <br/> |这可以用于中继媒体流量。  <br/> |
 |A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |任意  <br/> |这可以用于中继媒体流量。  <br/> |
-|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |任意  <br/> |3478 出站：  <br/> • Skype 业务服务器用来确定它与之通信的边缘服务器的版本。  <br/> • 用于边缘服务器之间的媒体流量。  <br/> • 与 Lync Server 2010 的联盟时必需。  <br/> • 如果贵组织中部署多个边缘池需要。  <br/> |
+|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |任何  <br/> |3478 出站：  <br/> • Skype 业务服务器用来确定它与之通信的边缘服务器的版本。  <br/> • 用于边缘服务器之间的媒体流量。  <br/> • 与 Lync Server 2010 的联盟时必需。  <br/> • 如果贵组织中部署多个边缘池需要。  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |任意  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |在端口 3478 上通过 UDP 进行的候选项 STUN/TURN 协商。  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |在端口 443 上通过 TCP 进行的候选项 STUN/TURN 协商。  <br/> |
+|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |任意   <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |在端口 443 上通过 TCP 进行的候选项 STUN/TURN 协商。  <br/> |
 |A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |任意  <br/> |在端口 443 上通过 TCP 进行的候选项 STUN/TURN 协商。  <br/> |
    
 ### <a name="internal-port-firewall-summary-table"></a>内部端口防火墙摘要表
@@ -379,11 +379,11 @@ Skype 业务 server 使用证书实现同时服务器之间以及从服务器到
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |边缘服务器内部接口  <br/> |任意：  <br/> • 控制器  <br/> • 控制器池  <br/> • 前端服务器  <br/> • 前端池  <br/> |入站到控制器、 控制器池、 前端服务器或前端池的 SIP 流量从边缘服务器内部接口。  <br/> |
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |任意：  <br/> • 前端服务器  <br/> • 每台前端服务器  <br/>  在前端池 <br/> |边缘服务器内部接口  <br/> |从 web 会议流量在前端服务器或每个前端服务器 （如果您具有一个前端池） 到您的边缘服务器内部接口。  <br/> |
 |SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |任意：  <br/> • 前端服务器  <br/> • 前端池  <br/> ？ 使用此边缘服务器的任何 Survivable Branch Appliance  <br/> ？ 使用此边缘服务器的任何 Survivable Branch Server  <br/> |边缘服务器内部接口  <br/> |身份验证的 A / V 用户从前端服务器或前端池，或 Survivable Branch Appliance 或 Survivable Branch Server，使用您的边缘服务器。  <br/> |
-|STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |任意  <br/> |边缘服务器内部接口  <br/> |首选的路径为 A / V 媒体传输内部和外部用户与您的 Survivable Branch Appliance 或 Survivable Branch Server 之间。  <br/> |
-|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |边缘服务器内部接口  <br/> |回退路径，a / V 媒体传输之间内部和外部用户和您的 Survivable Branch Appliance 或 Survivable Branch Server，如果 UDP 通信不起作用。 然后 TCP 用于文件传输和桌面共享。  <br/> |
+|STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |任何  <br/> |边缘服务器内部接口  <br/> |首选的路径为 A / V 媒体传输内部和外部用户与您的 Survivable Branch Appliance 或 Survivable Branch Server 之间。  <br/> |
+|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |任意   <br/> |边缘服务器内部接口  <br/> |回退路径，a / V 媒体传输之间内部和外部用户和您的 Survivable Branch Appliance 或 Survivable Branch Server，如果 UDP 通信不起作用。 然后 TCP 用于文件传输和桌面共享。  <br/> |
 |HTTPS  <br/> |TCP  <br/> |端口 4443  <br/> |任意：  <br/> • 包含中央管理存储的前端服务器  <br/> • 包含中央管理存储的前端池  <br/> |边缘服务器内部接口  <br/> |从中央管理存储到边缘服务器的更改复制。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50001  <br/> |任意  <br/> |边缘服务器内部接口  <br/> |使用 Skype 业务 Server 命令行管理程序和 Centralized Logging Service cmdlet、 ClsController 命令行 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合的集中日志记录服务控制器。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50002  <br/> |任意  <br/> |边缘服务器内部接口  <br/> |使用 Skype 业务 Server 命令行管理程序和 Centralized Logging Service cmdlet、 ClsController 命令行 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合的集中日志记录服务控制器。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50001  <br/> |任何  <br/> |边缘服务器内部接口  <br/> |使用 Skype 业务 Server 命令行管理程序和 Centralized Logging Service cmdlet、 ClsController 命令行 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合的集中日志记录服务控制器。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50002  <br/> |任何  <br/> |边缘服务器内部接口  <br/> |使用 Skype 业务 Server 命令行管理程序和 Centralized Logging Service cmdlet、 ClsController 命令行 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合的集中日志记录服务控制器。  <br/> |
 |MTLS  <br/> |TCP  <br/> |50003  <br/> |任意  <br/> |边缘服务器内部接口  <br/> |使用 Skype 业务 Server 命令行管理程序和 Centralized Logging Service cmdlet、 ClsController 命令行 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合的集中日志记录服务控制器。  <br/> |
    
 ### <a name="hardware-load-balancers-for-edge-port-tables"></a>边缘的硬件负载平衡器端口表
@@ -396,14 +396,14 @@ Skype 业务 server 使用证书实现同时服务器之间以及从服务器到
   
 |**角色或协议**|**TCP 或 UDP**|**目标端口或端口范围**|**源 IP 地址**|**目标 IP 地址**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|访问/HTTP  <br/> |TCP  <br/> |80  <br/> |边缘服务器访问边缘服务公共 IP 地址  <br/> |任意  <br/> |证书吊销和 CRL 检查和检索。  <br/> |
-|访问/DNS  <br/> |TCP  <br/> |53  <br/> |边缘服务器访问边缘服务公共 IP 地址  <br/> |任意  <br/> |通过 TCP 的 DNS 查询。  <br/> |
-|访问/DNS  <br/> |UDP  <br/> |53  <br/> |边缘服务器访问边缘服务公共 IP 地址  <br/> |任意  <br/> |通过 UDP 的 DNS 查询。  <br/> |
+|访问/HTTP  <br/> |TCP  <br/> |80  <br/> |边缘服务器访问边缘服务公共 IP 地址  <br/> |任何  <br/> |证书吊销和 CRL 检查和检索。  <br/> |
+|访问/DNS  <br/> |TCP  <br/> |53  <br/> |边缘服务器访问边缘服务公共 IP 地址  <br/> |任何  <br/> |通过 TCP 的 DNS 查询。  <br/> |
+|访问/DNS  <br/> |UDP  <br/> |53  <br/> |边缘服务器访问边缘服务公共 IP 地址  <br/> |任何  <br/> |通过 UDP 的 DNS 查询。  <br/> |
 |A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |边缘服务器 A / V 边缘服务的 IP 地址  <br/> |任意  <br/> |这可以用于中继媒体流量。  <br/> |
 |A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |边缘服务器 A / V 边缘服务公共 IP 地址  <br/> |任意  <br/> |这可以用于中继媒体流量。  <br/> |
-|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |边缘服务器 A / V 边缘服务公共 IP 地址  <br/> |任意  <br/> |3478 出站：  <br/> • Skype 业务服务器用来确定它与之通信的边缘服务器的版本。  <br/> • 用于边缘服务器之间的媒体流量。  <br/> • 联盟时必需。  <br/> • 如果贵组织中部署多个边缘池需要。  <br/> |
+|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |边缘服务器 A / V 边缘服务公共 IP 地址  <br/> |任何  <br/> |3478 出站：  <br/> • Skype 业务服务器用来确定它与之通信的边缘服务器的版本。  <br/> • 用于边缘服务器之间的媒体流量。  <br/> • 联盟时必需。  <br/> • 如果贵组织中部署多个边缘池需要。  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |任意  <br/> |边缘服务器 A / V 边缘服务公共 IP 地址  <br/> |在端口 3478 上通过 UDP 进行的候选项 STUN/TURN 协商。  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |边缘服务器 A / V 边缘服务公共 IP 地址  <br/> |在端口 443 上通过 TCP 进行的候选项 STUN/TURN 协商。  <br/> |
+|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |任意   <br/> |边缘服务器 A / V 边缘服务公共 IP 地址  <br/> |在端口 443 上通过 TCP 进行的候选项 STUN/TURN 协商。  <br/> |
 |A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |边缘服务器 A / V 边缘服务公共 IP 地址  <br/> |任意  <br/> |在端口 443 上通过 TCP 进行的候选项 STUN/TURN 协商。  <br/> |
    
 #### <a name="internal-port-firewall-summary-table"></a>内部端口防火墙摘要表
@@ -415,22 +415,22 @@ Skype 业务 server 使用证书实现同时服务器之间以及从服务器到
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |任意：  <br/> • 前端服务器  <br/> • 前端池中每个前端服务器  <br/> |边缘服务器内部接口  <br/> |从 web 会议流量在前端服务器或每个前端服务器 （如果您具有一个前端池） 到您的边缘服务器内部接口。  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |任意：  <br/> • 前端服务器  <br/> • 前端池中每个前端服务器  <br/> |边缘服务器内部接口  <br/> |首选的路径为 A / V 媒体传输内部和外部用户与您的 Survivable Branch Appliance 或 Survivable Branch Server 之间。  <br/> |
 |STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |任意：  <br/> • 前端服务器  <br/> • 池中每个前端服务器  <br/> |边缘服务器内部接口  <br/> |回退路径，a / V 媒体传输之间内部和外部用户和您的 Survivable Branch Appliance 或 Survivable Branch Server，如果 UDP 通信不起作用。 然后 TCP 用于文件传输和桌面共享。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50001  <br/> |任意  <br/> |边缘服务器内部接口  <br/> |使用 Skype 业务 Server 命令行管理程序和 Centralized Logging Service cmdlet、 ClsController 命令行 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合的集中日志记录服务控制器。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50002  <br/> |任意  <br/> |边缘服务器内部接口  <br/> |使用 Skype 业务 Server 命令行管理程序和 Centralized Logging Service cmdlet、 ClsController 命令行 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合的集中日志记录服务控制器。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50001  <br/> |任何  <br/> |边缘服务器内部接口  <br/> |使用 Skype 业务 Server 命令行管理程序和 Centralized Logging Service cmdlet、 ClsController 命令行 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合的集中日志记录服务控制器。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50002  <br/> |任何  <br/> |边缘服务器内部接口  <br/> |使用 Skype 业务 Server 命令行管理程序和 Centralized Logging Service cmdlet、 ClsController 命令行 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合的集中日志记录服务控制器。  <br/> |
 |MTLS  <br/> |TCP  <br/> |50003  <br/> |任意  <br/> |边缘服务器内部接口  <br/> |使用 Skype 业务 Server 命令行管理程序和 Centralized Logging Service cmdlet、 ClsController 命令行 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合的集中日志记录服务控制器。  <br/> |
    
 #### <a name="external-interface-virtual-ips"></a>外部接口虚拟 IP
 
 |**角色或协议**|**TCP 或 UDP**|**目标端口或端口范围**|**源 IP 地址**|**目标 IP 地址**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP  <br/> Skype 的业务服务器 2019年中不支持 |TCP  <br/> |5269  <br/> |任意  <br/> |XMPP 代理服务 （与访问边缘服务共享 IP 地址）  <br/> |XMPP 代理服务接受来自所定义的 XMPP 联盟中 XMPP 联系人的流量。  <br/> |
+|XMPP  <br/> Skype 的业务服务器 2019年中不支持 |TCP  <br/> |5269  <br/> |任何  <br/> |XMPP 代理服务 （与访问边缘服务共享 IP 地址）  <br/> |XMPP 代理服务接受来自所定义的 XMPP 联盟中 XMPP 联系人的流量。  <br/> |
 |XMPP  <br/>Skype 的业务服务器 2019年中不支持 |TCP  <br/> |5269  <br/> |XMPP 代理服务 （与访问边缘服务共享 IP 地址）  <br/> |任何  <br/> |XMPP 代理服务发送来自所定义的 XMPP 联盟中 XMPP 联系人的流量。  <br/> |
-|访问/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |外部用户访问的客户端到服务器 SIP 通信。  <br/> |
-|访问/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |任意  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |适用于使用 SIP 的联盟和公共 IM 连接。  <br/> |
+|访问/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |任意   <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |外部用户访问的客户端到服务器 SIP 通信。  <br/> |
+|访问/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |任何  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |适用于使用 SIP 的联盟和公共 IM 连接。  <br/> |
 |访问/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**使用 NAT 的专用 IP:** 边缘服务器访问边缘服务 <br/> **公用 IP:** 边缘服务器访问边缘服务公共 IP 地址 <br/> |任意  <br/> |适用于使用 SIP 的联盟和公共 IM 连接。  <br/> |
-|Web 会议/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 Web 会议边缘服务 <br/> **公用 IP:** 边缘服务器 Web 会议边缘服务公共 IP 地址 <br/> |Web 会议媒体。  <br/> |
-|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |任意  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |在端口 3478 上通过 UDP 进行的候选项 STUN/TURN 协商。  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |在端口 443 上通过 TCP 进行的候选项 STUN/TURN 协商。  <br/> |
+|Web 会议/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |任意   <br/> |**使用 NAT 的专用 IP:** 边缘服务器 Web 会议边缘服务 <br/> **公用 IP:** 边缘服务器 Web 会议边缘服务公共 IP 地址 <br/> |Web 会议媒体。  <br/> |
+|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |任何  <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |在端口 3478 上通过 UDP 进行的候选项 STUN/TURN 协商。  <br/> |
+|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |任意   <br/> |**使用 NAT 的专用 IP:** 边缘服务器 A / V 边缘服务 <br/> **公用 IP:** 边缘服务器 A / V 边缘服务公共 IP 地址 <br/> |在端口 443 上通过 TCP 进行的候选项 STUN/TURN 协商。  <br/> |
    
 #### <a name="internal-interface-virtual-ips"></a>内部接口虚拟 IP
 
@@ -448,4 +448,4 @@ Skype 业务 server 使用证书实现同时服务器之间以及从服务器到
 |访问/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |边缘服务器内部 VIP 接口  <br/> |任意：  <br/> • 控制器  <br/> • 控制器池 VIP 地址  <br/> • 前端服务器  <br/> • 前端池 VIP 地址  <br/> |入站 SIP 流量到 Director，Director 池 VIP 地址、 前端服务器或从边缘服务器内部接口的前端池 VIP 地址。  <br/> |
 |SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |任意：  <br/> • 前端服务器 IP 地址  <br/> • 前端池的 IP 地址  <br/> ？ 使用此边缘服务器的任何 Survivable Branch Appliance  <br/> ？ 使用此边缘服务器的任何 Survivable Branch Server  <br/> |边缘服务器内部接口  <br/> |身份验证的 A / V 用户从前端服务器或前端池，或 Survivable Branch Appliance 或 Survivable Branch Server，使用您的边缘服务器。  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |任意  <br/> |边缘服务器内部接口  <br/> |用于内外部用户间的 A/V 媒体传输的首选路径。  <br/> |
-|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |边缘服务器内部 VIP 接口  <br/> |在 UDP 通信不起作用的情况下，在内部用户与外部用户之间传输 A/V 媒体的回退路径。然后 TCP 用于文件传输和桌面共享。  <br/> |
+|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |任意   <br/> |边缘服务器内部 VIP 接口  <br/> |在 UDP 通信不起作用的情况下，在内部用户与外部用户之间传输 A/V 媒体的回退路径。然后 TCP 用于文件传输和桌面共享。  <br/> |

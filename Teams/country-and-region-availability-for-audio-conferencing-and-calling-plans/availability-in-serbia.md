@@ -1,7 +1,7 @@
 ---
 title: 塞尔维亚中的可用性
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于塞尔维亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: a5e62d8653100870bdc431a931e587cbf7abac74
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f427e0aea74dc5c0fd0b5693171289d0803d5694
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015986"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046947"
 ---
 # <a name="availability-in-serbia"></a>塞尔维亚中的可用性
 
@@ -52,8 +52,8 @@ ms.locfileid: "25015986"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-| 自动助理 <br/> |可用  <br/> |
-|呼叫队列  <br/> |可用  <br/> |
+| 自动助理 <br/> |有空  <br/> |
+|呼叫队列  <br/> |有空  <br/> |
 |语音邮件  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通话套餐

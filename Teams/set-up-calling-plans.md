@@ -1,7 +1,7 @@
 ---
 title: 设置通话套餐
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: a873c1d21d639917943b1ea3699620f4ef68951d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5f617ecea591d76b5dcd3e7daa308e7f7a74d808
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014970"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047075"
 ---
 # <a name="set-up-calling-plans"></a>设置通话套餐
 适用于业务用户的其他 Skype 调用是免费的但如果您希望用户能够调用您的公司外部的电话得到国内调用规划或国际呼叫规划 Office 365 中。 很容易地设置此功能您的业务。 
@@ -53,7 +53,7 @@ ms.locfileid: "25014970"
     
 - **转网现有的号码。** 您可以将当前服务提供商或电话运营商提供的现有号码转网或转移到 Office 365。 有关详细信息，请参阅[将电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md) 或[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，从而帮助您执行此操作。  
   
-- **使用新号码的请求表单。** 有时 （根据您的国家/地区） 您将无法获取您的业务管理中心中，使用 Skype 的新电话号码，或需要特定的电话号码或区域代码。 如果是这样，你需要下载表单并将其发送给我们。 有关详细信息，请参阅 [管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 。 
+- **使用新号码的请求表单。** 有时 （根据您的国家/地区） 您将无法获取您的业务管理中心中，使用 Skype 的新电话号码，或需要特定的电话号码或区域代码。 如果是这样，你需要下载表单并将其发送给我们。 有关详细信息，请参阅[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>步骤 4： 添加紧急地址和为您的组织的位置
 <a name="bkmk_add_addresses"></a>的紧急地址必须与电话号码; 相关联此关联发生的情况可能会因国家和地区。 例如在美国，向用户分配电话号码时需要关联紧急地址。 在英国，从 Office 365 获取的电话号码或将电话号码从当前的服务提供商转移时号码时需要将紧急地址关联到电话号码。 

@@ -1,7 +1,7 @@
 ---
-title: 将电话号码转移到 Office 365
-ms.author: tonysmit
-author: tonysmit
+title: 将电话号码转接到 Office 365
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -26,14 +26,14 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: 851fbbc14a370f8c55d4a8e43924b5b12e36407c
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 3342e8a3f5a78ea505f7ed22c73e90d840c5a0ee
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754654"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048831"
 ---
-# <a name="transfer-phone-numbers-to-office-365"></a>将电话号码转移到 Office 365
+# <a name="transfer-phone-numbers-to-office-365"></a>将电话号码转接到 Office 365
 
 将你的电话号码从当前的服务提供商转移到 Skype for Business 很简单。将你的电话号码转网到 Skype for Business 之后，Microsoft 将成为你的服务提供商并为你出具这些号码的账单。
   

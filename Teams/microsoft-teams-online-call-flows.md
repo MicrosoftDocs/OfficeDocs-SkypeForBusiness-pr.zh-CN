@@ -1,7 +1,7 @@
 ---
-title: Online 的 Microsoft 团队呼叫流
-author: tonysmit
-ms.author: tonysmit
+title: Microsoft Teams 联机通话流程
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.date: 06/08/2018
 ms.topic: article
@@ -13,14 +13,14 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 介绍如何团队工作负荷利用不同拓扑中的 Office 365 流。
-ms.openlocfilehash: 455e90d05a26ce387f916f531991ccaf664860d2
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: ce5af3e2f7d14eb0d07fe2838ab1a85954d55ba3
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562804"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048743"
 ---
-# <a name="microsoft-teams-online-call-flows"></a>Online 的 Microsoft 团队呼叫流
+# <a name="microsoft-teams-online-call-flows"></a>Microsoft Teams 联机通话流程
 
 > [!Tip]
 > 观看下面的会话，若要了解如何团队利用您的网络和如何最好地规划最佳的网络连接：[团队网络规划](https://aka.ms/teams-networking)

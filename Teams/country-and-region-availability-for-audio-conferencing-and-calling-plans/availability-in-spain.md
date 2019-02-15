@@ -1,7 +1,7 @@
 ---
-title: 西班牙中的可用性
-ms.author: tonysmit
-author: tonysmit
+title: 在西班牙的可用性
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,14 +26,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于西班牙业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: a9410ddd7a64273ca56e30753c3f4ba2df2c05b3
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 9ce7603c8145c41401b145e48c0547e0164a1777
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674735"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048823"
 ---
-# <a name="availability-in-spain"></a>西班牙中的可用性
+# <a name="availability-in-spain"></a>在西班牙的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
@@ -52,8 +52,8 @@ ms.locfileid: "26674735"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-| 自动助理 <br/> |可用  <br/> |
-|呼叫队列  <br/> |可用  <br/> |
+| 自动助理 <br/> |有空  <br/> |
+|呼叫队列  <br/> |有空  <br/> |
 |语音邮件  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通话套餐

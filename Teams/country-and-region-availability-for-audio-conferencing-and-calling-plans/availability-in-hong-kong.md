@@ -1,7 +1,7 @@
 ---
-title: （香港特别行政区） 中的可用性
-ms.author: tonysmit
-author: tonysmit
+title: 在中国香港的可用性
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,14 +26,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 适用 （香港特别行政区）。
-ms.openlocfilehash: e25fd1bb12f3ee7e2e0f4aac236519bab37de483
-ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
+ms.openlocfilehash: 328688b85fa3a564d4ce6add9534404879b74618
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690546"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046995"
 ---
-# <a name="availability-in-hong-kong"></a>（香港特别行政区） 中的可用性
+# <a name="availability-in-hong-kong"></a>在中国香港的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 

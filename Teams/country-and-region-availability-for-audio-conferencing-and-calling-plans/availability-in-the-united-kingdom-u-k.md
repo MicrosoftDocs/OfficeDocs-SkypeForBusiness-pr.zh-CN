@@ -1,7 +1,7 @@
 ---
 title: 在英国 (U.K.) 的可用性
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于英国业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: ec3b6f1f9bb298e00b0d8786f7b8a04c8ab59352
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: a3862288f26993b400558abf9b92cb12d4f84f46
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674767"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047575"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>在英国 (U.K.) 的可用性
 
@@ -52,8 +52,8 @@ ms.locfileid: "26674767"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-| 自动助理 <br/> |可用  <br/> |
-|呼叫队列  <br/> |可用  <br/> |
+| 自动助理 <br/> |有空  <br/> |
+|呼叫队列  <br/> |有空  <br/> |
 |语音邮件  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通话套餐

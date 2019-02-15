@@ -1,7 +1,7 @@
 ---
-title: 在美国 （美国） 的可用性
-ms.author: tonysmit
-author: tonysmit
+title: 在美国 (U.S.) 的可用性
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,14 +26,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于美国的业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 8441420c953222538b10488d99f11c7f0f742e0d
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 5ef3e2435f4219f42f6e8cc9b02b057bcee96634
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674799"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048775"
 ---
-# <a name="availability-in-the-united-states-us"></a>在美国 （美国） 的可用性
+# <a name="availability-in-the-united-states-us"></a>在美国 (U.S.) 的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
@@ -52,8 +52,8 @@ ms.locfileid: "26674799"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-| 自动助理 <br/> |可用  <br/> |
-|呼叫队列  <br/> |可用  <br/> |
+| 自动助理 <br/> |有空  <br/> |
+|呼叫队列  <br/> |有空  <br/> |
 |语音邮件  <br/> |可用  <br/> |
 
 ## <a name="calling-plans"></a>通话套餐

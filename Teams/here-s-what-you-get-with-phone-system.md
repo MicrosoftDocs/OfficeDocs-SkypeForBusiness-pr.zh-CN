@@ -1,7 +1,7 @@
 ---
 title: Office 365 中的电话系统的功能
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 msreviewer: jastarck, makolomi
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: ac97c6d194673087ad90be88e649b7cb067ba89f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 864e687634426fd8fce0d489ef81cc85bbacf5e0
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017476"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048202"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 中的电话系统的功能
 
@@ -96,7 +96,7 @@ PBX 是一个企业内部电话系统。 Office 365 加载项中的电话系统�
 ||||
 |:-----|:-----|:-----|
 |**丰富客户端** <br/> |**移动客户端** <br/> |**IP 电话** <br/> |
-| 适用于在 Office 365 中受支持的所有电脑和 Mac 客户端。 <br/> [安装 Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [为 Office 365 设置 Lync for Mac 2011](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | 我们提供针对以下操作系统的 Skype for Business 客户端： <br/> [iOS](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |从众多与 Skype for Business 兼容的桌面电话中选择。 请参阅[获取适用于 Skype for Business Online 的电话](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)。<br/> |
+| 适用于在 Office 365 中受支持的所有电脑和 Mac 客户端。 <br/> [安装 Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [为 Office 365 设置 Lync for Mac 2011](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | 我们提供针对以下操作系统的 Skype for Business 客户端： <br/> [iOS](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |从众多与 Skype for Business 兼容的桌面电话中选择。 请参阅[获取适用于 Skype for Business Online 的电话](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)。 <br/> |
    
 ## <a name="related-topics"></a>相关主题
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

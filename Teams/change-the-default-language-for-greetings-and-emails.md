@@ -1,7 +1,7 @@
 ---
 title: 更改问候语和电子邮件的默认语言
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何设置 Skype for Busineses 以便将其他语言用于贵组织的默认语音邮箱问候语。 '
-ms.openlocfilehash: aeebc9907e0f2933921e449a7915bd8cced9cd66
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: 3ef3961b252765920427ccea8ebfa55feb38bdf8
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678351"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048696"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>更改问候语和电子邮件的默认语言
 
