@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f080d90f0a384bfdc4010a80d7c84a1b51a10754
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: 20b1ff0536117516484a1d9f54fc49fedbab2e12
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201362"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056520"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和合规性概述
 ======================================================
@@ -31,15 +31,15 @@ Microsoft Teams 建立在 Office 365 超大规模企业级云之上，提供我�
 
 Teams 还强制执行团队范围和组织范围的双重身份验证、通过 Active Directory 进行单一登录以及对正在传输的数据和静态数据加密。 文件存储在 SharePoint 中，并会进行 SharePoint 加密。 笔记存储在 OneNote 中，并会进行 OneNote 加密。 工作组 SharePoint 网站中存储的 OneNote 数据。 Wiki 选项卡可以还用于笔记记录和团队 SharePoint 网站中还存储它的内容。
 
-我们还增加了以下支持：审核日志搜索、针对频道、聊天和文件的电子数据展示和法定保留，以及通过 Microsoft Intune 进行移动应用管理。 转到 Office 365 安全性和合规性中心，来管理这些设置。 
+我们还增加了以下支持：审核日志搜索、针对频道、聊天和文件的电子数据展示和法定保留，以及通过 Microsoft Intune 进行移动应用管理。 转到 Office 365 安全性 & 合规性中心管理这些设置。 
 
 ## <a name="auditing-and-reporting"></a>审核和报告
 
-审核日志搜索插入到 Office 365 安全性和合规性中心的权限，并公开能力设置通知和/或导出的工作负荷特定或泛型事件设置用于管理使用和调查，跨报告使可用，审核事件不受限制的审核时间线。 审核日志的所有数据提供有关在 Office 365 安全性和合规性中心中的通知的设置以及筛选和导出供进一步分析。 请参阅此[链接](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)可了解有关如何进行审核日志搜索的 Office 365 安全性和合规性中心中的 Microsoft 团队事件详细信息。 
+审核日志搜索插入到 Office 365 安全性 & 合规中心的权限，并公开能力设置通知和/或导出的工作负荷特定或泛型事件设置用于管理使用和调查，跨报告使可用，审核事件不受限制的审核时间线。 审核日志的所有数据提供有关 Office 365 安全性 & 合规中心内的通知的设置以及筛选和导出供进一步分析。 请参阅此[链接](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)可了解有关如何执行审核日志搜索的 Office 365 安全性 & 合规性中心中的 Microsoft 团队事件详细信息。 
 
 ## <a name="compliance-content-search"></a>合规性内容搜索
 
-内容搜索可以用于通过筛选功能的富所有团队数据都搜索和导出到特定合规性和诉讼支持的容器。 在有无电子数据展示案例的情况下，均可执行此操作。 这样，合规性管理员可以跨所有用户收集团队数据、 查看和导出进行进一步处理。 请参阅此[链接](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)可了解有关如何管理 Office 365 安全性和合规性中心中的 Microsoft 团队内容法规遵从性内容搜索。 
+内容搜索可以用于通过筛选功能的富所有团队数据都搜索和导出到特定合规性和诉讼支持的容器。 在有无电子数据展示案例的情况下，均可执行此操作。 这样，合规性管理员可以跨所有用户收集团队数据、 查看和导出进行进一步处理。 请参阅此[链接](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)可了解有关如何管理 Office 365 安全性 & 合规性中心中的 Microsoft 团队内容法规遵从性内容搜索。 
 
 提示： 可以使用类型的 Microsoft 团队进行筛选，通过仅内容的 Microsoft 团队即聊天和通道消息、 会议和呼叫。 
 
@@ -47,7 +47,7 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 电子数据展示是为了回应法律诉讼或调查中提供文件的要求而找出、收集和生成电子方式存储的信息 (ESI) 的电子操作过程。 功能包括案例管理、 保留、 搜索、 分析和团队数据导出。 这包括聊天、 消息和文件、 会议和呼叫摘要。 有关创建和电子数据展示中可用团队会议和呼叫、 会议和呼叫中发生事件的摘要。 
 
-有关如何执行电子数据展示中安全性和合规性中心和运行团队内容法规遵从性内容搜索的详细信息，请转到以下链接： 
+有关如何执行安全 & 合规性中心中的电子数据展示和运行团队内容法规遵从性内容搜索的详细信息，请转到以下链接： 
 
 [电子数据展示](https://support.office.com/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e) 
 
@@ -70,7 +70,7 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 ## <a name="legal-hold"></a>法定保留
 
-在诉讼，它通常所需的所有数据相关都联的用户 （管理员） 或团队永久保留，因此可用作证据的大小写。 这被通过发出合法保留的用户 （用户邮箱） 或团队。 时团队中的任何团队置于就地保留 （至目标的查询或筛选的内容邮箱或网站集的子集） 或诉讼保留 （整个邮箱或网站集），组邮箱置于保留项。 这样可以确保即使最终用户删除或编辑组邮箱到 ingested 的通道消息，该内容的变副本是维护和电子数据展示搜索中可用。 通常在电子数据展示案例的上下文中应用法定保留。 请参阅[此](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a)帮助文章以了解有关保留和 Office 365 安全性和合规性中心中的保留项的详细信息。 
+在诉讼，它通常所需的所有数据相关都联的用户 （管理员） 或团队永久保留，因此可用作证据的大小写。 这被通过发出合法保留的用户 （用户邮箱） 或团队。 时团队中的任何团队置于就地保留 （至目标的查询或筛选的内容邮箱或网站集的子集） 或诉讼保留 （整个邮箱或网站集），组邮箱置于保留项。 这样可以确保即使最终用户删除或编辑组邮箱到 ingested 的通道消息，该内容的变副本是维护和电子数据展示搜索中可用。 通常在电子数据展示案例的上下文中应用法定保留。 请参阅[此](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a)帮助文章以了解有关保留和 Office 365 安全性 & 合规性中心中的保留项的详细信息。 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>信息的 Microsoft 团队保护体系结构。 
 
@@ -93,13 +93,13 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 | 信息保护功能 | Office 365 商业协作版 | Office 365 商业高级版 | Office 365 企业版 E1 | Office 365 企业版 E3/E4 | Office 365 企业版 E5 |
 |-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
-|              存档              |               -                |              -              |            -             |             是             |           是            |
-|        就地电子数据展示        |               -                |              -              |            -             |             是             |           是            |
+|              存档              |               -                |              -              |            -             |             是              |           是             |
+|        就地电子数据展示        |               -                |              -              |            -             |             是              |           是            |
 |        高级电子数据展示        |               -                |              -              |            -             |              -              |           是            |
-|            法定保留             |               -                |              -              |            -             |             是             |           是            |
-|     合规性内容搜索     |               -                |              -              |            -             |             是             |           是            |
-|      审核和报告       |              是               |             是             |           是            |             是             |           是            |
-|       条件的访问\*        |              是               |             是             |           是            |             是             |           是            |
+|            法定保留             |               -                |              -              |            -             |             是              |           是             |
+|     合规性内容搜索     |               -                |             是              |           是             |             是              |           是            |
+|      审核和报告       |              是               |             是              |           是             |             是              |           是            |
+|       条件的访问\*        |              是                |             是              |           是             |             是              |           是            |
 
 > [!NOTE]
 > \*条件访问需要额外的许可证
@@ -110,9 +110,9 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 |![决策点图标。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |决策点         |贵组织是否有所需的许可证来满足合规性和安全性业务需求？         |
 |![后续步骤图标。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |后续步骤         |查看贵组织的当前许可，并确认它满足合规性和安全性的所有业务要求。         |
 
-然后再启用这些功能，确保 Office 365 管理中心中有权访问安全性和合规性中心。 默认情况下，租户管理员有访问权限。
+然后再启用这些功能，确保您在 Office 365 管理中心中有权安全 & 合规性中心。 默认情况下，租户管理员有访问权限。
 
-内容搜索和电子数据展示不需要启用中安全性和合规性中心。
+内容搜索和电子数据展示不需要安全 & 合规性中心中的启用。
 
 <a name="location-of-data-in-teams"></a>Teams 中的数据的位置
 -------------------------

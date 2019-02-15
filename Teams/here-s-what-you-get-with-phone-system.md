@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 864e687634426fd8fce0d489ef81cc85bbacf5e0
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 9898bcea949c5150667ae502edfa6b1fccd64764
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048202"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056616"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 中的电话系统的功能
 
@@ -74,12 +74,14 @@ PBX 是一个企业内部电话系统。 Office 365 加载项中的电话系统�
 
 设置电话系统最适合您的业务的方式：
   
-- 您可用于贵公司的现有的电话线路的电话系统加载项或[什么是 Office 365 中调用计划？](what-are-calling-plans-in-office-365.md)服务的入站和出站呼叫。
+- 您可以与贵公司的现有的电话线路或入站和出站呼叫的[电话系统与调用计划](calling-plan-landing-page.md)服务使用的电话系统加载项。
     
 - 你可以从 Office 365 获取新的电话号码，或者将现有电话号码转移至 Skype for Business。 
     
 请参阅规划和电话系统中您的业务设置以下文章：
-  
+
+- [具有通话套餐的电话系统](calling-plan-landing-page.md)
+
 - [设置呼叫计划](set-up-calling-plans.md)： 本文已获取设置与您的电话号码，或要转接到 for Business 的 Skype 您现有的电话号码的分步说明。
     
 - [规划 Office 365 (云 PBX) 解决方案中电话系统](https://go.microsoft.com/fwlink/?LinkId=708645)： 本文排放所有部署选项。 其中还介绍了如何规划只有云的完整解决方案。 
@@ -89,7 +91,8 @@ PBX 是一个企业内部电话系统。 Office 365 加载项中的电话系统�
 - [设置电话系统语音邮件 - 管理员帮助](set-up-phone-system-voicemail.md)
     
 - [探索 Skype for Business](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba)： 帮助贵公司的用户了解如何使用 Skype for Business 功能。 
-    
+
+
 ## <a name="availability"></a>可用性
 <a name="bkmk_setup"> </a>
 

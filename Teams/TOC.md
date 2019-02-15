@@ -21,7 +21,7 @@
 ## [在 Microsoft Teams 中分配团队所有者和成员](assign-roles-permissions.md)
 ## [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
 ## [在工作组中创建一个组织范围团队](create-an-org-wide-team.md)
-## [什么邮件策略？](messaging-policies-in-teams.md)
+## [管理邮件策略](messaging-policies-in-teams.md)
 ## [开始使用 Teams 模板](get-started-with-teams-templates.md)
 ## [Microsoft Teams 医疗保健模板入门](healthcare/healthcare-templates.md)
 ## [团队的动态成员资格概述](dynamic-memberships.md)
@@ -117,6 +117,7 @@
 
 # [会议](deploy-meetings-microsoft-teams-landing-page.md)
 ## [教程：Teams 中的会议](Tutorial-Meetings-in-Teams.yml)
+## [管理会议策略](meeting-policies-in-teams.md)]
 ## [管理会议设置](meeting-settings-in-teams.md)
 ## [用户设置更改时向其发送的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [使用户能够在加入会议时录制其姓名](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)

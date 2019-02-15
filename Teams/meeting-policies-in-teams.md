@@ -1,5 +1,5 @@
 ---
-title: 团队中的会议策略
+title: 管理会议策略
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -12,13 +12,15 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
+f1keywords:
+- ms.teamsadmincenter.meetingpolicies.overview
 description: 了解如何管理会议团队中的策略设置。
-ms.openlocfilehash: 03c983e98d5bcb349a7a2796ad59cb22c03e22bd
-ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
+ms.openlocfilehash: 96b5008ebbdbcad2dc44234d861c4127c77ed69c
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "27283538"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056608"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -37,7 +39,7 @@ ms.locfileid: "27283538"
 
 <a name="bkaudioandvideo"> </a>
 
-## <a name="audio--video"></a>音频和视频
+## <a name="audio--video"></a>音频 & 视频
    - **允许转录**如果您关闭此，会议的转录将对用户可用。
    - **允许云录制**打开： 将允许录制内容将保存到云。
    - **允许的 IP 视频**打开： 将允许 IP 视频会议期间。
@@ -55,7 +57,7 @@ ms.locfileid: "27283538"
 
 <a name="bkparticipantsandguests"> </a>
 
-## <a name="participants--guests"></a>参与者和来宾
+## <a name="participants--guests"></a>参与者 & 来宾
    - **允许匿名用户拨出**如果您希望会议参与者拨出添加其他人，可以对此进行打开。 如果您将其关闭，无会议参与者可以从电话拨出会议。
    - **允许匿名用户开始会议**如果此设置处于关闭状态，只有是已经过身份验证的团队应用程序与会议的人员可以开始会议。 如果是任何人都可以开始会议。
    - **自动允许的用户**如果您关闭此操作，然后会议参与者处于会议厅直到有人开始会议。 如果是在上，将允许会议参与者自动加入会议。

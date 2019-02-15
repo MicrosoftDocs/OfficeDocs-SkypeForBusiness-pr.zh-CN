@@ -1,5 +1,5 @@
 ---
-title: 出站呼叫的中继故障转移
+title: 出站呼叫发生 Trunk 故障转移
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,14 +16,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 阅读本主题可了解如何处理出站呼叫从团队对会话边界控制器 (SBC) 上的中继故障转移。
-ms.openlocfilehash: 620230ca3be07bb54386f54a983539716d07b2e9
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: bab62130c060b4bfadd633c86dd75caf98b07a46
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297806"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056592"
 ---
-# <a name="trunk-failover-on-outbound-calls"></a>出站呼叫的中继故障转移
+# <a name="trunk-failover-on-outbound-calls"></a>出站呼叫发生 Trunk 故障转移
 
 本主题介绍如何避免出站呼叫-从团队对会话边界控制器 (SBC) 上的中继故障转移。
 
@@ -34,7 +34,7 @@ ms.locfileid: "27297806"
 
 ## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>接收从会话边界控制器 (SBC) 的特定 SIP 代码的故障转移
 
-如果直接路由到传出 Invite 的响应中收到任何 4xx 或 6xx SIP 错误代码，请呼叫被视为完成默认情况下。 传出意味着来自团队客户端呼叫到公共公用电话交换网 (PSTN) 与以下通信流： 团队客户端-> 直接路由-> SBC-> 电话网络。
+如果直接路由到传出 Invite 的响应中收到任何 4xx 或 6xx SIP 错误代码，请呼叫被视为完成默认情况下。 传出意味着来自团队客户端呼叫到公共公用电话交换网 (PSTN) 与以下通信流： 团队客户端的直接路由 >-> SBC-> 电话网络。
 
 [会话初始协议 (SIP) RFC](https://tools.ietf.org/html/rfc3261)中，可以找到 SIP 代码的列表。
 
@@ -48,11 +48,11 @@ ms.locfileid: "27297806"
 ![显示 SBC 无法访问 PSTN 由于网络问题](media/direct-routing-failover-response-codes1.png)
 
 但是，其中可能可以将传入呼叫路由中没有一个详细的 SBC。
-如果您配置的参数集 CSOnlinePSTNGateway-Identity sbc1.contoso.com-ReinviteResponceCode"408"，将为第二个 SBC 尝试--SBC2.contoso.com 如下图中：
+如果您配置参数`Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`，将尝试第二个 SBC-SBC2.contoso.com 如下图中：
 
 ![显示传送到第二个 SBC](media/direct-routing-failover-response-codes2.png)
 
-参数-FailoverResponceCodes 并指定代码可帮助您可以精细优化您的路由，并避免设置潜在 SBC 不能因网络或其他问题而呼叫时的问题。
+参数-FailoverResponseCodes 并指定代码可帮助您可以精细优化您的路由，并避免设置潜在 SBC 不能因网络或其他问题而呼叫时的问题。
 
 默认值： 408 503、 504
 
