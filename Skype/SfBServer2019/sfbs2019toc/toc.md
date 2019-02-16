@@ -2,36 +2,13 @@
 
 ## [新增功能](../whats-new.md)
 ## [内容已被弃用](../deprecated.md)
-## [Microsoft 电话服务解决方案](../hybrid/msft-telephony-solutions.md)
+## [Microsoft 电话服务解决方案](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
 ## [Skype 业务下载和更新](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [客户端更新](../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Server 更新](../../SfbServer/sfb-server-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
-## 个团队和 Skype for Business 的混合解决方案
-### [规划混合连接性](../hybrid/plan-hybrid-connectivity.md)
-
-### [配置混合连接性](../hybrid/configure-hybrid-connectivity.md)
-#### [配置混合环境的 Azure AD 的连接](../hybrid/configure-azure-ad-connect.md)
-#### [Skype 混合配置的业务](../hybrid/configure-federation-with-skype-for-business-online.md)
-
-### [内部部署和云之间移动用户](../hybrid/move-users-between-on-premises-and-cloud.md)
-#### [将用户从内部部署移动到团队](../hybrid/move-users-from-on-premises-to-teams.md)
-#### [将用户从本地迁移至 Skype for Business Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
-#### [从云到本地移动用户](../hybrid/move-users-from-the-cloud-to-on-premises.md)
-#### [管理会议迁移](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
-
-### [禁用混合完成迁移到云中](../hybrid/cloud-consolidation-disabling-hybrid.md)
-
-### [部署资源林拓扑](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
-
-### [云整合个团队和 Skype for Business](../hybrid/cloud-consolidation.md)
-#### [更新边缘证书](../hybrid/cloud-consolidation-edge-certificates.md)
-
-#### [更新 AAD 连接到包含多个林](../hybrid/cloud-consolidation-aad-connect.md)
-
-### [与 Exchange 和 SharePoint 集成](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-
+## [个团队和 Skype for Business 的混合解决方案](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## 规划
 ### [拓扑基础知识](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -119,13 +96,13 @@
 #### [通过工号拨号](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [远程呼叫控制](../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### 云语音邮件
-#####[规划云语音邮件](../hybrid/plan-cloud-voicemail.md)
-##### [配置云语音邮件](../hybrid/configure-cloud-voicemail.md)
+#####[规划云语音邮件](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
+##### [配置云语音邮件](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
 ### [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [统一消息](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [部署概述](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [统一联系人存储库](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
-#### [规划 Skype for Business Server 和 Exchange Server 迁移](../hybrid/plan-um-migration.md)
+#### [规划 Skype for Business Server 和 Exchange Server 迁移](../../sfbhybrid/hybrid/plan-um-migration.md)
 #### [Exchange 统一消息在线迁移支持](../plan/exchange-unified-messaging-online-migration-support.md)
 
 ### [监控](../../SfbServer/plan-your-deployment/monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -434,8 +411,8 @@
 ###### [位置趋势报告](../../SfbServer/manage/health-and-monitoring/location-trend-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [评价我的呼叫](../../SfbServer/manage/health-and-monitoring/rate-my-call.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### 调用数据连接器
-##### [规划呼叫数据连接器](../hybrid/plan-call-data-connector.md)
-##### [配置呼叫数据连接器](../hybrid/configure-call-data-connector.md)
+##### [规划呼叫数据连接器](../../sfbhybrid/hybrid/plan-call-data-connector.md)
+##### [配置呼叫数据连接器](../../sfbhybrid/hybrid/configure-call-data-connector.md)
 
 ### [存档](../../SfbServer/manage/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [选项](../../SfbServer/manage/archiving/options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)

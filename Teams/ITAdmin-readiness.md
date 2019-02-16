@@ -4,29 +4,29 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 11/07/2018
+ms.date: 02/15/2019
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 search.appverid: MET150
-description: 培训视频、 教程和其他资源来 admins 如何规划、 部署和运行的 Microsoft 团队。
+description: 培训视频、 PowerPoint 文件 （英文）、 教程和其他资源来 admins 如何规划、 部署和运行的 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c394a2259223dfb7fc5ab233a2de604af2174d13
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: eda922ce0346a69d657789bdc13a6381254c2b3a
+ms.sourcegitcommit: 2ef6a05c659100eea0d92c729001cd4e14434b9f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593907"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30062620"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
 
-使用这些教程、 视频和其他培训资源来了解团队和组织中驱动器使用率。 经常访问这里的新内容。 
+使用的培训资源以帮助您了解团队、 教其他人或运行研讨会。 经常访问这里的新内容。 
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -36,68 +36,14 @@ ms.locfileid: "29593907"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>入门团队</h3>
+                        <h3>快速入门几个团队和频道</h3>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-   <li>
-        <a href="https://docs.microsoft.com/microsoftteams/tutorial-journey-skypeforbusiness-to-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/flag-blue.svg" alt="Flag" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>学习教程上升级旅程从 for Business 的 Skype 到团队</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-   <li>
-        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>获取用户的培训</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
- <li>
-        <a href="https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>签出 YouTube 上的团队通道</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
- <li>
+    <li>
         <a href="https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos">
         <div class="cardSize">
             <div class="cardPadding">
@@ -115,169 +61,54 @@ ms.locfileid: "29593907"
         </div>
         </a>
     </li>
-</ul>
-
-    
-</ul>
-
----
-
-<h2>特色培训</h2>
-<ul class="panelContent cardsW">
     <li>
+        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
+                        </div>
+                    </div>
                     <div class="cardText">
-                        <h3>从 Skype for Business 到 Teams 的旅程</h3>
-                         <p><a href="https://aka.ms/teams-upgrade-intro">视频： 升级简介</a></p>
-                        <p><a href="https://aka.ms/teams-upgrade-plan">视频： 规划升级</a></p>
-                        <p><a href="https://aka.ms/teams-upgrade-coexistence-interop">视频： 共存及互操作性</a></p>
-                        <p><a href="https://aka.ms/teams-upgrade-admin">视频： 管理员体验</a></p>
-                        <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">教程：从 Skype for Business 到 Teams 的旅程</a></p>
+                        <h3>获取用户的培训</h3>
                     </div>
                 </div>
             </div>
         </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>团队协作</h3>
-                         <p><a href="https://aka.ms/edx-cld267x-about">课程： 启用与 Microsoft 团队的团队协作</a></p>
-                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">视频： 在运行并获取您的团队</a></p>
-                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">视频： 转到指南团队所有者</a></p>
-                         <p><a href="create-an-org-wide-team.md">文章： 在工作组中创建一个组织范围团队</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>体系结构</h3>
-                        <p><a href="http://aka.ms/teams-foundations">视频： 基础-团队的核心组件</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>计划 & 部署</h3>
-                         <p><a href="deploy-chat-teams-channels-microsoft-teams-landing-page.md">部署聊天、 团队、 通道和 Microsoft 团队中的应用程序</a></p>
-                         <p><a href="http://aka.ms/teams-clients">视频： 工作组 Windows 桌面客户端</a></p>
-                         <p><a href="http://aka.ms/teams-governance">视频： 监管、 管理和生命周期中的 Microsoft 团队</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li> <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Teams 教育版</h3>
-                        <p><a href="teams-quick-start-edu.yml">快速入门： 对于教育管理员团队</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </a>
     </li>
-<li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>网络 & 呼叫质量</h3>
-                         <p><a href="https://aka.ms/teams-quality">视频： 呼叫质量概述</a></p>
-                         <p><a href="https://aka.ms/teams-networking">视频： 网络规划</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>安全性和合规性</h3>
-                       <p><a href="https://www.youtube.com/watch?v=OF65_p_07cE">视频： 了解电子发现团队中</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-        <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>会议</h3>
-                        <p><a href="tutorial-meetings-in-teams.yml">教程：Teams 中的会议</a></p>
-                        <p><a href="https://aka.ms/teams-meetings-intro">视频： 会议中的 Microsoft 团队简介</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>应用程序 & 工具</h3>
-                        <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">视频： 添加工具 （英文） 选项卡</a></p>
-                        <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">视频： 使用命令框</a></p>
-                        <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">视频： 命令栏概述</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-<li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>音频会议</h3>
-                         <p><a href="tutorial-audio-conferencing.yml">教程： 团队中的音频会议</a></p>
-                         <p><a href="https://www.youtube.com/watch?v=AGPvaW4Vg0o">音频会议的视频： 简介</a></p>
-                         <p><a href="https://www.youtube.com/watch?v=AWbuvcWcYIc">视频： 规划音频会议</a></p>
-                         <p><a href="https://www.youtube.com/watch?v=5k0C21KAsns">视频： 数字移植音频会议</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>电话系统</h3>
-                         <p><a href="https://aka.ms/teams-phone-system">视频： 简介中的 Microsoft 团队的电话系统</a></p>
-                         <p><a href="configuring-teams-calling-quickstartguide.md">快速入门： 工作组中的 Configuring 调用计划</a></p>
-                         <p><a href="tutorial-calling-in-teams.yml">教程：了解 Teams 中的通话功能</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>直接路由</h3>
-                        <p><a href="https://aka.ms/teams-direct-routing">视频： 直接路由中的 Microsoft 团队</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-      </ul>
+</ul>
 
 
+<h2>技术的培训</h2>
+
+| 模块 | 视频 | PowerPoint 图标 |
+| ------------ | -------------------- | -------------------- |
+| 基础-核心组件 | [视频](http://aka.ms/teams-foundations) | [平台](http://aka.ms/teams-foundations-deck) |
+| Windows 桌面客户端 | [视频](http://aka.ms/teams-clients) | [平台](http://aka.ms/teams-clients-deck) |
+| 调控、 管理和 Lifecylce | [视频](http://aka.ms/teams-governance) | [平台](http://aka.ms/teams-governance-deck) |
+| 网络规划 | [视频](http://aka.ms/teams-networking) | [平台](http://aka.ms/teams-networking-deck) |
+| 呼叫质量概述 （英文) | [视频](http://aka.ms/teams-quality) | [平台](http://aka.ms/teams-quality-deck) |
+| 会议简介 | [视频](http://aka.ms/teams-meetings-intro) | [平台](http://aka.ms/teams-meetings-intro-deck) |
+| 电话系统简介 | [视频](http://aka.ms/teams-phone-system) | [平台](http://aka.ms/teams-phone-system-deck) |
+| 直接路由 | [视频](http://aka.ms/teams-direct-routing) | [平台](http://aka.ms/teams-direct-routing-deck) |
+| 从 Skype for Business 升级到 Teams | [视频 1： 升级简介](https://aka.ms/teams-upgrade-intro)</br>[视频 2： 规划升级](https://aka.ms/teams-upgrade-plan)</br>[视频 3： 共存及互操作性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[视频 4： 管理员体验](https://aka.ms/teams-upgrade-admin) | [平台](htt://aka.ms/teams-upgrade-deck)|
+
+<h2>快速入门指南</h2>
+
+- [快速入门： 对于教育管理员团队](teams-quick-start-edu.yml)
+- [快速入门： 工作组中的 Configuring 调用计划](configuring-teams-calling-quickstartguide.md)
+
+<h2>教程</h2>
+
+- [教程：从 Skype for Business 到 Teams 的旅程](tutorial-journey-skypeforbusiness-to-teams.yml)
+- [教程：Teams 中的会议](tutorial-meetings-in-teams.yml)
+- [教程： 团队中的音频会议](tutorial-audio-conferencing.yml)
+- [教程：了解 Teams 中的通话功能](tutorial-calling-in-teams.yml)
+
+<h2>课程</h2>
+
+- [启用与 Microsoft 团队的团队协作](https://aka.ms/edx-cld267x-about)
+- [Microsoft 服务采用专员](https://aka.ms/AdoptionCert)
