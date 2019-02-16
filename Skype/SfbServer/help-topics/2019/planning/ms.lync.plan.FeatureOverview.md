@@ -1,5 +1,5 @@
 ---
-title: 功能概述 （规划工具）
+title: Feature Overview (Planning Tool)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype 业务 server 规划工具
-ms.openlocfilehash: 22f14c0d31eaed5a6518263b15a9962e4bd136d0
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: f7a9f7fd0dfc7f4c65d85404bd827aee7b98332b
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082606"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059142"
 ---
-# <a name="feature-overview-planning-tool"></a>功能概述 （规划工具）
+# <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
 Skype 业务 server 规划工具
   
@@ -90,7 +90,7 @@ Skype 业务 server 规划工具
     Skype 业务服务器，您可以存储在 Exchange 统一消息 (UM); 中的语音邮件然后，这些语音邮件消息将显示为用户的收件箱中的电子邮件。
 
     > [!NOTE]
-    > Exchange 统一消息为以前已知不再可用在 Exchange 2019，但您可以仍使用电话系统中的记录的语音邮件，然后用户的 Exchange 邮箱中保留录制。 有关详细信息，请参阅[规划语音邮件云服务](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)。
+    > Exchange 统一消息为以前已知不再可用在 Exchange 2019，但您可以仍使用电话系统中的记录的语音邮件，然后用户的 Exchange 邮箱中保留录制。 有关详细信息，请参阅[规划语音邮件云服务](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)。
     
 ### <a name="voice"></a>语音
 
@@ -105,7 +105,7 @@ Skype 业务 server 规划工具
     Exchange 统一消息 (UM) 合并语音邮件和电子邮件到单个消息传递基础结构。 Skype 的业务服务器 2015年使用 Exchange UM 来提供呼叫应答、 订阅者访问、 呼叫通知和自动助理服务。 如果您使用这些服务，您需要将 Exchange UM 和 Skype 为共享的 Active Directory 拓扑中的业务 Server 相集成。
 
     > [!NOTE]
-    > Exchange 统一消息为以前已知不再可用在 Exchange 2019，但您可以仍使用电话系统中的记录的语音邮件，然后用户的 Exchange 邮箱中保留录制。 有关详细信息，请参阅[规划语音邮件云服务](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)。
+    > Exchange 统一消息为以前已知不再可用在 Exchange 2019，但您可以仍使用电话系统中的记录的语音邮件，然后用户的 Exchange 邮箱中保留录制。 有关详细信息，请参阅[规划语音邮件云服务](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)。
     
 ### <a name="additional-deployment-options"></a>其他部署选项
 

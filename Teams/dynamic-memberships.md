@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a96205f1971207f81d6191ef46e1be25e063f4c
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 6fe6a097ba413c81d90f5fe519c5d6cbf1377a98
+ms.sourcegitcommit: 2ef6a05c659100eea0d92c729001cd4e14434b9f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699769"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30062652"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>团队的动态成员资格概述
 
@@ -33,8 +33,11 @@ Microsoft 团队支持团队使用动态成员身份的 Office 365 组相关联�
 Microsoft 团队花几分钟到最多为 2 小时以反映动态成员身份更改之后生效的 Office 365 组的团队。 
 
 > [!NOTE]
-> - 规则可以定义工作组成员，但不是团队所有者。
+> - 规则可以定义谁是团队成员，但不是谁团队所有者。
 > - 当前工作组和频道大小限制，请参阅[限制和规格的 Microsoft 团队](limits-specifications-teams.md)。
+> - 所有者不能添加或删除用户作为团队的成员，因为由动态组规则定义成员。
+> - 成员不能让团队后盾动态组。
+
 
 ## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>创建和管理 Office 365 组与动态成员身份
 时以租户管理员身份登录，请按照[创建动态组并检查状态](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)中的说明。 根据需要请参阅[动态成员身份的 Azure Active Directory 组的规则](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)。

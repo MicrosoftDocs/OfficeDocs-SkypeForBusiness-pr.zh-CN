@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 了解 Office 365 (云 PBX) 中的电话系统的规划注意事项的内部部署 PSTN 连接。
-ms.openlocfilehash: 978da546961188c54c7e08e2ed140f8d01986e44
-ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
+ms.openlocfilehash: 3856a4901666ec58b286d5edb26c7d69bba65e41
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "29686470"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069481"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>规划 Office 365 中的电话系统与内部部署 PSTN 连接中 Skype 业务 Server
 
@@ -105,7 +105,7 @@ ms.locfileid: "29686470"
     > [!NOTE]
     > 您所使用的 AAD Connect 版本必须是版本 1.0.9125.0 或更高版本。如果您使用较早版本的 AAD Connect 工具或 DirSync，请升级到支持的版本。您可以升级您的当前安装并维护您在环境中定义的任何自定义规则。 
 
-- **配置混合部署**是否所有业务用户您 Skype 目前驻留之一联机或本地，或如果当前有组合，在[部署混合中所述，必须完成业务服务器或 Lync Server 2013 配置混合部署的 Skype 的步骤Skype 业务 server 和 Office 365 之间的连接](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)。 在混合部署的更多背景信息，请参阅[Plan Business Server 和 Office 365 的 Skype 之间的混合连接性](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)。 
+- **配置混合部署**是否所有业务用户您 Skype 目前驻留之一联机或本地，或如果当前有组合，在[部署混合中所述，必须完成业务服务器或 Lync Server 2013 配置混合部署的 Skype 的步骤Skype 业务 server 和 Office 365 之间的连接](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)。 在混合部署的更多背景信息，请参阅[Plan Business Server 和 Office 365 的 Skype 之间的混合连接性](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)。 
 
     如果您使用 Lync Server 2013，请参阅[Lync Server 2013 hybrid](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx)。
 

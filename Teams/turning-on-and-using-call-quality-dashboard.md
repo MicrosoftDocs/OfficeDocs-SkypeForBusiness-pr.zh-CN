@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '请参阅如何启用和 Skype 用于业务联机呼叫质量仪表板并获取呼叫的质量摘要报告。 '
-ms.openlocfilehash: 008fbeca5ae9b81d74e9a38f60c12a6fc1f919cc
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 18c5c87d437235733e9ffc7c8a1ec60883a33305
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373805"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069614"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用呼叫质量仪表板的 Microsoft 团队和 Skype 业务 online
 
@@ -167,7 +167,7 @@ CQD 这两个版本提供高级入口点的整个呼叫质量信息，但信息�
 > 如果两个终结点之一连接到 Wifi 网络给定流，然后归为 Wifi CQD 中。 
   
 ## <a name="selecting-product-data-to-see-in-reports"></a>选择要查看报告中的产品数据
-<a name="BKMKFeaturesOfTheCQD"> </a>
+<a name="BKMKProductFilter"></a>
 
 在摘要和位置增强报告中，您可以使用**产品筛选器**下拉列表以显示所有产品数据，只有 Microsoft 团队数据或仅联机业务数据的 Skype。
   
@@ -176,7 +176,7 @@ CQD 这两个版本提供高级入口点的整个呼叫质量信息，但信息�
 在详细的报告，您可以使用**是团队**维度筛选 Online 业务数据的报表定义一部分的 Microsoft 团队或 Skype 的数据。
   
 ## <a name="upload-building-information"></a>上载构建信息
-<a name="BKMKFeaturesOfTheCQD"> </a>
+<a name="BKMKBuildingInformationUpload"></a>
 
 CQD 摘要报告仪表板包含一个**租户数据上载**的页，通过从右上角的设置菜单中选择**租户数据上载**访问。 此页用于 admins 上载他们自己的信息，如映射的 IP 地址和地理信息，每个无线 AP 和其 MAC 地址映射，等等。
   
@@ -223,18 +223,18 @@ CQD 摘要报告仪表板包含一个**租户数据上载**的页，通过从右
     
 |**列名称**|**数据类型**|**示例**|
 |:-----|:-----|:-----|
-|网络  <br/> |字符串  <br/> |192.168.1.0  <br/> |
-|NetworkName  <br/> |字符串  <br/> |美国/西雅图/西雅图-SEA-1  <br/> |
+|网络  <br/> |String  <br/> |192.168.1.0  <br/> |
+|NetworkName  <br/> |String  <br/> |美国/西雅图/西雅图-SEA-1  <br/> |
 |NetworkRange  <br/> |数字  <br/> |26  <br/> |
-|BuildingName  <br/> |字符串  <br/> |西雅图-SEA-1  <br/> |
-|OwnershipType  <br/> |字符串  <br/> |Contoso  <br/> |
-|BuildingType  <br/> |字符串  <br/> |IT 终止  <br/> |
-|BuildingOfficeType  <br/> |字符串  <br/> |Engineering  <br/> |
-|城市  <br/> |字符串  <br/> |西雅图  <br/> |
-|邮政编码  <br/> |字符串  <br/> |98001  <br/> |
-|国家/地区  <br/> |字符串  <br/> |我们  <br/> |
-|省/市/自治区  <br/> |字符串  <br/> |WA  <br/> |
-|区域  <br/> |字符串  <br/> |MSU  <br/> |
+|BuildingName  <br/> |String  <br/> |西雅图-SEA-1  <br/> |
+|OwnershipType  <br/> |String  <br/> |Contoso  <br/> |
+|BuildingType  <br/> |String  <br/> |IT 终止  <br/> |
+|BuildingOfficeType  <br/> |String  <br/> |Engineering  <br/> |
+|城市  <br/> |String  <br/> |西雅图  <br/> |
+|ZipCode  <br/> |String  <br/> |98001  <br/> |
+|国家/地区  <br/> |String  <br/> |我们  <br/> |
+|省/市/自治区  <br/> |String  <br/> |WA  <br/> |
+|区域  <br/> |String  <br/> |MSU  <br/> |
 |InsideCorp  <br/> |Bool  <br/> |1  <br/> |
 |ExpressRoute  <br/> |Bool  <br/> |0  <br/> |
    
@@ -242,7 +242,7 @@ CQD 摘要报告仪表板包含一个**租户数据上载**的页，通过从右
 > 网络范围可以用于表示 supernet （单个路由前缀开头的几个子网的组合）。 所有新的生成上载将检查有任何重叠的区域。 如果先前已上载的生成文件，您应将当前文件下载并重新上载以找出任何重叠并再次上载之前修复问题。 重叠之前上载文件的任何情况可能会导致建筑物报告中的子网的错误映射。 某些 VPN 实现未准确报告的子网信息。 当将 VPN 子网添加到该生成文件，而不是一个条目的子网，建议的单独添加条目的 VPN 子网中每个地址作为单独的 32 位网络。 每行可以有相同的构建元数据。 例如，而不是一个 172.16.18.0/24 行中，您应具有 256 行，通过为每个地址之间 172.16.18.0/32 172.16.18.255/32，非独占一行。 
   
 ## <a name="selecting-media-type-in-detailed-reports"></a>详细的报告中的选择媒体类型
-<a name="BKMKFeaturesOfTheCQD"> </a>
+<a name="BKMKMediaType"></a>
 
 详细的报告支持看质量和媒体可靠性的音频、 视频、 应用程序共享和基于视频的屏幕共享的媒体类型。 维度、 度量和特定于单个媒体类型的筛选器具有"音频"、"视频"、"的"或"VBSS"作为前缀。
   
@@ -257,7 +257,7 @@ CQD 摘要报告仪表板包含一个**租户数据上载**的页，通过从右
 
 [使用呼叫分析解决质量欠佳的呼叫质量](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[呼叫分析和呼叫质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
+[通话分析和通话质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

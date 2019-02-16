@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要： 这些功能是新的业务服务器 2019 Skype 中。
-ms.openlocfilehash: 044901b134c71c1cae004f9930bedeae0057578d
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 4eb674293b152109a9743fce5114fe11e3e97158
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348882"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30058980"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>什么是 Business server 2019 Skype 中
 
@@ -35,7 +35,7 @@ Exchange UM 仍可在 Skype 的业务服务器 2019年与 Exchange 2013 或 Exch
 - 使用适用于业务联机、 团队或 Outlook 客户端 Skype 其 Exchange 邮箱中的语音邮件访问
 - 能够使用基于 web 的门户管理其语音邮件选项
 
-有关详细信息，请参阅[规划云语音邮件服务](hybrid/plan-cloud-voicemail.md)和[Plan for Business Server 和 Exchange Server 迁移的 Skype](hybrid/plan-um-migration.md) 。
+有关详细信息，请参阅[规划云语音邮件服务](../sfbhybrid/hybrid/plan-cloud-voicemail.md)和[Plan for Business Server 和 Exchange Server 迁移的 Skype](../sfbhybrid/hybrid/plan-um-migration.md) 。
   
 ## <a name="call-monitoring-call-data-connector"></a>监控呼叫： 调用数据连接器
 
@@ -47,7 +47,7 @@ Exchange UM 仍可在 Skype 的业务服务器 2019年与 Exchange 2013 或 Exch
 - 查看和解决问题跨网络
 - 为呼叫 Analytics 分配支持人员和管理员角色，以便可以为帮助台工作者可以查看和解决其责任范围提供强大功能。
 
-有关详细信息，请参阅[规划呼叫数据连接器](hybrid/plan-call-data-connector.md)。
+有关详细信息，请参阅[规划呼叫数据连接器](../sfbhybrid/hybrid/plan-call-data-connector.md)。
 
 ### <a name="see-also"></a>另请参阅
 

@@ -14,18 +14,18 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 摘要： 了解您需要为您的本地 Skype Business Server 混合部署配置 Skype 会议广播执行的步骤。
-ms.openlocfilehash: bae25dae268dd5ad3b3ab7862feb1156df850953
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 09b99cab45b8832be34a3219a222324d199c5195
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371392"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069467"
 ---
-# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>配置 Skype 会议直播本地部署
+# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configure your on-premises deployment for Skype Meeting Broadcast
  
 **摘要：** 了解您需要为您的本地 Skype Business Server 混合部署配置 Skype 会议广播执行的步骤。
   
-Skype 会议广播是为 Office 365 的一部分的联机服务。 如果您的业务 Server 内部部署运行 Skype，并想要在您的环境中使用 Skype 会议广播，您需要按照本主题中的配置步骤。 在开始之前，您的环境需要用来配置混合 Skype 业务 online。 有关详细信息，请参阅[规划 Skype 业务服务器和 Skype 业务 online 之间的混合连接性](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)和[部署业务服务器和 Skype 业务 online Skype 之间的混合连接性](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)。
+Skype 会议广播是为 Office 365 的一部分的联机服务。 如果您的业务 Server 内部部署运行 Skype，并想要在您的环境中使用 Skype 会议广播，您需要按照本主题中的配置步骤。 在开始之前，您的环境需要用来配置混合 Skype 业务 online。 有关详细信息，请参阅[Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)和[Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)。
   
 ## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>为会议广播 Skype 配置混合环境
 

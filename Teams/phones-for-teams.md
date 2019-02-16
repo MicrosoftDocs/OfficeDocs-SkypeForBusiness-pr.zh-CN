@@ -14,19 +14,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文介绍 Microsoft 团队和 Microsoft 团队认证的电话中支持的功能认证的电话的列表。
-ms.openlocfilehash: 8605bbc1ba0f9f69c2115b89ec7332309891253d
-ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
+ms.openlocfilehash: b9f5b85219981f8fa4c67d5f2ed6e666fc7fada2
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29770410"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069622"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 的电话功能
 
 Microsoft 团队支持的用户需要传统的电话体验的项目组合的桌面电话。 本文介绍 Microsoft 团队和 Microsoft 团队认证的电话中支持的功能认证的电话的列表。 要获取团队认证设备上的最新和最新信息，请转到[团队市场](http://office.com/teamsdevices)。
 
-## <a name="teams-certified-ip-phones"></a>认证的 IP 电话的团队
-若要在电话上提供高质量和可靠的 Microsoft 团队体验，我们已合作，并主动使用 Yealink、 Crestron、 Polycom 和 Audiocodes 开发和认证套桌面电话和会议室内音频设备。 当前受支持的设备，请参阅[IP 电话](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。
+## <a name="teams-certified-ip-phones"></a>认证的 IP 电话的团队 
+
+若要在电话上提供高质量和可靠的 Microsoft 团队体验，我们已合作，并主动使用 Yealink、 Crestron、 Polycom 和 Audiocodes 开发和认证套桌面电话和会议室内音频设备。 当前受支持的设备，请参阅[当前认证的 IP 电话](/SfbPartnerCertification/certification/teams-ip-phones.md#currently-certified-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Microsoft 小组电话功能集
 
@@ -124,7 +125,7 @@ Microsoft 团队用户可以访问其语音邮件，当他们导航到**语音�
 
 ![注销团队](media/teams-sign-out.png)
 
-# <a name="finding-the-firmware-version-on-a-mobile-device"></a>移动设备上查找的固件版本
+## <a name="finding-the-firmware-version-on-a-mobile-device"></a>移动设备上查找的固件版本
 
 可以通过在右上角中选择**设置**图标，然后单击**有关**，在团队登录页来检查的最小的固件版本。
 

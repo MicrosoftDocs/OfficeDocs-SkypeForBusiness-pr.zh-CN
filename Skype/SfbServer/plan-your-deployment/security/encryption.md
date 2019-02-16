@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: Skype 业务服务器使用 TLS 和 MTLS 来加密即时消息。 无论通信是限制在内部网络还是跨内部网络外围，所有服务器到服务器的通信都需要使用 MTLS。 当业务服务器 Skype 连接到第三方 IPPBX 系统或 SIP 中继 TLS 是可选的但强烈建议在中介服务器与媒体网关之间。 如果在此链接上配置了 TLS，则 MTLS 是必需的。 因此，必须使用从中介服务器信任的 CA 证书配置网关。
-ms.openlocfilehash: 1a109bea59644e00b3b010c42d9b12918296b47c
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 7ed4297ef766b769827b6805087d02f0ad708fe7
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789374"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069630"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Skype 加密业务服务器
  
@@ -34,7 +34,7 @@ Skype 业务服务器使用 TLS 和 MTLS 来加密即时消息。 无论通信�
 |:-----|:-----|
 |服务器到服务器  <br/> |MTLS  <br/> |
 |客户端到服务器  <br/> |TLS  <br/> |
-|即时消息和状态  <br/> |TLS  <br/> |
+|即时消息和状态  <br/> |TLS   <br/> |
 |音频、视频和媒体的桌面共享  <br/> |SRTP  <br/> |
 |桌面共享（信号）  <br/> |TLS  <br/> |
 |Web 会议  <br/> |TLS  <br/> |
@@ -45,7 +45,7 @@ Skype 业务服务器使用 TLS 和 MTLS 来加密即时消息。 无论通信�
 媒体通信使用安全 RTP (SRTP) 进行加密，SRTP 是为 RTP 通信提供保密性、身份验证和重播攻击保护的实时传输协议 (RTP) 的配置文件。此外，中介服务器与其内部下一个跃点之间的双向媒体流也使用 SRTP 进行加密。中介服务器与媒体网关之间的双向媒体流的加密是可选的，但建议进行加密。中介服务器能够支持对媒体网关进行加密，但该网关必须支持 MTLS 和证书存储。
   
 > [!NOTE]
-> 有关设置混合的详细信息，请参阅[规划 Skype 业务服务器和 Skype 业务 online 之间的混合连接](../../../SfBServer2019/hybrid/plan-hybrid-connectivity.md)。
+> 有关设置混合的详细信息，请参阅[规划混合连接性](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)。
   
 ## <a name="fips"></a>FIPS
 

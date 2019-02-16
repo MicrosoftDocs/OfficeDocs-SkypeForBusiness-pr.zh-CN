@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 摘要： 浏览这些链接以了解如何实现业务服务器 2015 Skype。
-ms.openlocfilehash: cfd3745b2b8e43c475028595e4bd8b8e9b3b5266
-ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
+ms.openlocfilehash: bc7c8f586eaf0312d0a37e814634104dab4df324
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "29686513"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069637"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype for Business Server 2015
 
@@ -43,7 +43,7 @@ Skype for Business 是将企业级安全、 合规性以及控制结合在一起
         </a>
     </li>
     <li>
-        <a href="/SkypeForBusiness/hybrid/plan-hybrid-connectivity">
+        <a href="/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -197,7 +197,7 @@ Skype for Business 是将企业级安全、 合规性以及控制结合在一起
                 <div class="card">
                     <div class="cardText">
                         <h3>混合解决方案</h3>
-                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">规划混合连接性</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">规划混合连接性</a></p>
                                        </div>
                 </div>
             </div>

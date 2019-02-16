@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 按年 2 月 2020 retiring Exchange 统一消息在线 (ExchUMO) 服务。 本文概述了什么影响客户应知道并执行的操作及其业务连续性规划。
-ms.openlocfilehash: af9418a764780efca07a37f1c0b55415d0305f55
-ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
+ms.openlocfilehash: 8d09a9a16104420bfbe225aefefab57399f8dec5
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29786419"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059164"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息在线迁移支持  
 
@@ -59,7 +59,7 @@ Microsoft 已发现的占用 ExchUMO 功能并将帮助客户迁移基于以下�
 
 2.  **建立业务混合拓扑的 Skype**
 
-    如果您没有为业务建立的混合拓扑 Skype，您需要执行的启用语音邮件用户的顺利迁移。 有关详细信息，请参阅[业务混合配置 Skype](../hybrid/configure-federation-with-skype-for-business-online.md) 。 
+    如果您没有为业务建立的混合拓扑 Skype，您需要执行的启用语音邮件用户的顺利迁移。 有关详细信息，请参阅[业务混合配置 Skype](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) 。 
 
     > [!Note]
     > 不需要将用户迁移到语音邮件服务迁移联机。 但是，对于内部部署用户利用基于云的语音邮件服务，混合拓扑是必须建立。

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 摘要： 查看 while planning to Exchange 2013 或 2016年业务服务器集成 Skype 本主题。
-ms.openlocfilehash: f560df43ab6347890cc5a3b956d43ed37a55bdf3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: ee6e6bc81c4bd0b2291b7f4be7ceb13894d2aec2
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263898"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059185"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>在 Skype for Business 中规划 Exchange 统一消息集成
 
@@ -27,7 +27,7 @@ Skype 业务服务器支持的组合语音消息传递和电子邮件到单个�
 在 Microsoft Exchange Server 2013 和 2016年，Exchange UM 作为服务运行在 Exchange 邮箱服务器上。 Skype 的业务 Server 企业语音部署，为语音消息传递和电子邮件消息到一个存储的用户可以从 (Outlook Voice Access) 的电话或计算机访问结合统一消息。 统一消息和企业服务器的 Skype 协同工作来向企业语音用户提供呼叫应答、 Outlook Voice Access 和自动助理服务。
 
 > [!NOTE]
-> Exchange UM 仍可在 Skype 的业务服务器 2019年与 Exchange 2013 或 Exchange 2016 集成 for Business 2019 Skype 时。 由于 Exchange 2019 中支持的变化，Exchange UM 集成正在注销 emphasised 支持云语音邮件和云自动助理功能。  有关详细信息，请参阅[规划云语音邮件服务](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)和[Plan for Business Server 和 Exchange Server 迁移的 Skype](../../../SfBServer2019/hybrid/plan-um-migration.md) 。
+> Exchange UM 仍可在 Skype 的业务服务器 2019年与 Exchange 2013 或 Exchange 2016 集成 for Business 2019 Skype 时。 由于 Exchange 2019 中支持的变化，Exchange UM 集成正在注销 emphasised 支持云语音邮件和云自动助理功能。  有关详细信息，请参阅[规划云语音邮件服务](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)和[Plan for Business Server 和 Exchange Server 迁移的 Skype](../../../sfbhybrid/hybrid/plan-um-migration.md) 。
 
 
 内部部署 Exchange UM 部署中支持这些功能，您必须运行下列选项之一：
@@ -38,7 +38,7 @@ Skype 业务服务器支持的组合语音消息传递和电子邮件到单个�
 - Microsoft Exchange Server 2019 (仅业务服务器 2019 Skype)
 
 > [!NOTE]
-> Exchange 统一消息为以前已知不再可用的业务服务器 2019，使用电话系统来记录中的语音邮件，然后用户的 Exchange 邮箱中保留录制的 Skype 中。 有关详细信息，请参阅[规划语音邮件云服务](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)。
+> Exchange 统一消息为以前已知不再可用的业务服务器 2019，使用电话系统来记录中的语音邮件，然后用户的 Exchange 邮箱中保留录制的 Skype 中。 有关详细信息，请参阅[规划语音邮件云服务](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)。
 
 ## <a name="features-of-integrated-unified-messaging-and-skype-for-business-server"></a>集成的统一消息和 Skype 业务服务器的功能
 
@@ -132,13 +132,13 @@ Skype 业务服务器支持 Exchange UM 集成的以下拓扑：
 
 有关如何启用或禁用 Microsoft Exchange Server 2010 统一消息的详细信息，请参阅：
 
-- [启用 Exchange 2010 统一消息](https://go.microsoft.com/fwlink/p/?LinkId=204418)
+- [在 Exchange 2010 上启用统一消息](https://go.microsoft.com/fwlink/p/?LinkId=204418)
 
-- [禁用 Exchange 2010 统一消息](https://go.microsoft.com/fwlink/p/?LinkId=204416)
+- [在 Exchange 2010 上禁用统一消息](https://go.microsoft.com/fwlink/p/?LinkId=204416)
 
 ### <a name="exchange-server-2019"></a>Exchange Server 2019
 
-Exchange 统一消息不再存在于在 Exchange 2019，如果您具有 Exchange 2019 并希望将需要使用云语音邮件服务[规划云语音邮件服务](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)中所述的等效功能。
+Exchange 统一消息不再存在于在 Exchange 2019，如果您具有 Exchange 2019 并希望将需要使用云语音邮件服务[规划云语音邮件服务](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)中所述的等效功能。
 
 
 ## <a name="see-also"></a>另请参阅

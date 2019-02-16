@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: 摘要： 浏览这些链接以了解如何开发概念、 逻辑和物理设计用于配置 Skype 的业务服务器 2015年功能、 服务器和拓扑。
-ms.openlocfilehash: 937d449c1a6c32296f4725709b4cf6cf9e066eda
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d3969b1ad48aee21d948eafd72127e9c18e6e2c9
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881985"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069488"
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>规划您的 Skype for Business Server 2015 部署
  
@@ -34,7 +34,7 @@ Skype 业务服务器提供了即时消息 (IM)、 状态、 会议、 视频和
   
 ||**内容**|**说明**|
 |:--- |:--- |:--- |
-|![技术图表图标](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Skype for Business Server 2015 的技术图示](../technical-diagrams.md) <br/> |通过这些大尺寸图表概览体系结构选项。  <br/> |
+|![技术图表图标](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Technical diagrams for Skype for Business Server 2015](../technical-diagrams.md) <br/> |通过这些大尺寸图表概览体系结构选项。  <br/> |
 |![视频图标](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|[Skype for Business： 快速简介](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) <br/> [Skype for Business： 适用于新的用户的分步指南](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be) <br/> |视频演示和培训 for Business 的 Skype 发现。  <br/> |
    
 ##  <a name="articles-about-planning-for-skype-for-business-server"></a>有关规划 Business Server Skype 的文章
@@ -50,7 +50,7 @@ Skype 业务服务器提供了即时消息 (IM)、 状态、 会议、 视频和
 |**[计划集成业务和 Exchange Skype](integrate-with-exchange/integrate-with-exchange.md)** 您的组织部署 Exchange Server 和 Skype 业务服务器？ 如果是，请阅读有关如何集成两种产品功能的信息。 例如，状态信息和数据存档。 <br/> |**[规划客户端和设备](clients-and-devices/clients-and-devices.md)** Skype 业务服务器支持的客户端接口可部署到贵组织的用户的集合。 精心规划可以确保员工获取他们的需要 Skype for Business 并且可供其地点正好为。 <br/> |
 |**[规划业务服务器 2015 Skype 中的持久聊天服务器](persistent-chat-server/persistent-chat-server.md)** 您的组织是否要实现让组织中的多个用户参与对话的段时间内保留的聊天室？ 如果因此阅读有关如何规划和部署持久聊天服务器。 <br/> |**[规划高可用性和灾难恢复中的业务服务器 2015 Skype](high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)** 高可用性指的是确保业务 Server 服务的 Skype 有，即使一个或多个服务器不可用。 灾难恢复指的是在出现自然或人为灾难时，维持服务运行并在灾难发生之前保留尽可能多的数据。 阅读此部分中的主题以规划高可用性和灾难恢复。 <br/> |
 |**[规划中的业务服务器 2015 Skype 的会议](conferencing/conferencing.md)** 为您的组织的会议要求是什么？ 阅读有关 Web 会议、A/V 会议以及电话拨入式会议功能和要求的内容。 <br/> |**[规划业务服务器 2015 的 Skype 中的安全性](security/security.md)** 查找有关用户身份验证、 服务器到服务器身份验证以及应用程序身份验证，可帮助您了解和规划 Skype 业务服务器身份验证的资源。 <br/> |
-|**[规划业务服务器和 Skype 业务 online Skype 之间的混合连接性](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)** 您是否有用户驻留在企业服务器的内部部署 Skype 和 Skype 业务 online？ 如果有，请阅读有关如何设置混合部署以跨单个域同步本地和联机用户的信息。 <br/> ||
+|**[规划业务服务器和 Skype 业务 online Skype 之间的混合连接性](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)** 您是否有用户驻留在企业服务器的内部部署 Skype 和 Skype 业务 online？ 如果有，请阅读有关如何设置混合部署以跨单个域同步本地和联机用户的信息。 <br/> ||
 |**[规划边缘服务器部署中的业务服务器 2015 Skype](edge-server-deployments/edge-server-deployments.md)** 您的组织是否与内部网络之外的用户通信？ 如果是这样，请阅读有关如何部署边缘服务器支持跨组织的防火墙的通信。 <br/> ||
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>有关规划 Skype 业务服务器的其他资源
@@ -59,6 +59,6 @@ Skype 业务服务器提供了即时消息 (IM)、 状态、 会议、 视频和
   
 ||**内容**|**说明**|
 |:--- |:--- |:--- |
-|![文档图标](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[面向 IT 专业人员的 Business Server 的 Skype](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |请访问资源中心访问视频、 社区网站、 文档、 下载和更多内容。  <br/> |
+|![文档图标](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[面向 IT 专业人员的 Skype for Business Server](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |请访问资源中心访问视频、 社区网站、 文档、 下载和更多内容。  <br/> |
 |![开发人员内容图标](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype 开发人员平台](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |查找对于业务服务器，包括代码示例、 培训和 Sdk Skype 开发人员资源。  <br/> |
-|![新闻、博客等图标](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[变更管理和采用](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office 博客](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Office 365 技术博客](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Skype 团队博客 （英文)](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |为业务服务器及时来自创建的团队和文档 Skype 的新闻。  <br/> |
+|![新闻、博客等图标](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[更改管理和采用](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office 博客](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Office 365 技术博客](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Skype 团队博客](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |为业务服务器及时来自创建的团队和文档 Skype 的新闻。  <br/> |

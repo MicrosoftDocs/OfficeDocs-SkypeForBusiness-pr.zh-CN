@@ -3,7 +3,7 @@ title: 为 Skype for Business Server 语音邮件配置 Exchange Server 统一�
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/19/2016
+ms.date: 2/11/2019
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 摘要： 配置 Exchange Server 统一消息的 Skype Business Server 语音邮件。
-ms.openlocfilehash: 09ff81c170713f1dd3235f3968d586afc80929fd
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 03511671e0535e07dbc10e50b427364c3502a674
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375809"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059192"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>为 Skype for Business Server 语音邮件配置 Exchange Server 统一消息
  
@@ -25,7 +25,7 @@ ms.locfileid: "25375809"
 Skype 业务服务器，您可以在 Exchange Server 2016 或 Exchange Server 2013; 中存储的语音邮件然后，这些语音邮件消息将显示为用户的收件箱中的电子邮件。 
 
 > [!NOTE]
-> Exchange 统一消息为以前已知不再可用在 Exchange 2019，但您可以仍使用电话系统中的记录的语音邮件，然后用户的 Exchange 邮箱中保留录制。 有关详细信息，请参阅[规划语音邮件云服务](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)。
+> Exchange 统一消息为以前已知不再可用在 Exchange 2019，但您可以仍使用电话系统中的记录的语音邮件，然后用户的 Exchange 邮箱中保留录制。 有关详细信息，请参阅[规划语音邮件云服务](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)。
   
 如果您已配置的业务服务器和 Exchange Server 2016 或 Exchange Server 2013 的 Skype 之间的服务器到服务器身份验证，则表明已准备好安装统一消息。 为此，必须首先创建，并将新的统一消息拨号计划分配 Exchange 服务器上。 例如，（在 Exchange 命令行管理程序从运行） 这两个命令为 Exchange 配置新 3 位数字拨号计划：
   
@@ -93,7 +93,7 @@ $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
-如果您有第二个已启用统一消息的用户可以使用[Test-csexumvoicemail](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps) cmdlet 以确认此第二个用户都可以离开的第一个用户的语音邮件消息。
+如果已为第二个用户启用了统一消息，则可使用 [Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps) cmdlet 验证第二个用户是否可为第一个用户留下语音邮件。
   
 ```
 $credential = Get-Credential "litwareinc\pilar"
@@ -140,7 +140,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 
 
-### <a name="configure-unified-messaging-on-microsoft-exchange-with-exchucutilps1"></a>配置使用 ExchUCUtil.ps1 的 Microsoft Exchange 统一消息 
+### <a name="configure-unified-messaging-on-microsoft-exchange-with-exchucutilps1"></a>Configure Unified Messaging on Microsoft Exchange with ExchUCUtil.ps1 
 
 当您正在为业务 Server 与 Exchange 统一消息 (UM) 集成 Microsoft Skype 时，您必须在命令行管理程序中运行 ExchUcUtil.ps1 脚本。 ExchUcUtil.ps1 脚本执行以下操作：
 
@@ -152,7 +152,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 - 创建 UM 智能寻每个 UM IP 网关。 每个智能寻线的引导标识符指定 Skype 用于业务 Server 前端池或 Standard Edition server 的与 UM IP 网关相关联的 UM SIP URI 拨号计划。
 - 业务 Server 读取 Active Directory UM 容器对象，例如 UM 拨号计划、 自动助理、 UM IP 网关和 UM 智能寻权限的授予 Skype。
   > [!IMPORTANT]
-  > 必须将每个 UM 林配置为信任的林顺序 Skype 业务服务器部署，并在其中部署业务 Server 2013 的 Skype 林必须配置为信任每个 UM 林。 如果 Exchange UM 安装在多个林中，则必须为每个 UM 林执行 Exchange Server 集成步骤或您必须指定 Skype Business Server 域。 例如，ExchUcUtil.ps1 – 林： < lync 的域-控制器的 fqdn >。 
+  > 必须将每个 UM 林配置为信任的林顺序 Skype 业务服务器部署，并在其中部署业务 Server 2013 的 Skype 林必须配置为信任每个 UM 林。 如果 Exchange UM 安装在多个林中，则必须为每个 UM 林执行 Exchange Server 集成步骤或您必须指定 Skype Business Server 域。 例如，ExchUcUtil.ps1 – 林： <lync-域-控制器-fqdn>。 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>使用命令行管理程序运行 ExchUcUtil.ps1 脚本
 
@@ -163,7 +163,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 > 您必须具有 Exchange Organization Management 角色的权限或者是要运行脚本的 Exchange Organization Administrators 安全组的成员。 
 
 1. 打开 Exchange Management Shell。
-2. 在 C:\Windows\System32 提示符处，键入**cd\<驱动器号 >: \Program Files\Microsoft\Exchange Server\V15\Scripts >。ExchUcUtil.ps1**，然后按 Enter。
+2. 在 C:\Windows\System32 提示符处，键入**cd\<驱动器 letter>:\Program Files\Microsoft\Exchange Server\V15\Scripts>。ExchUcUtil.ps1**，然后按 Enter。
 
 #### <a name="how-do-you-know-this-worked"></a>您如何知道这样可行？
 
@@ -188,7 +188,7 @@ Exchange Server 必须配置了服务器证书，才能连接到 Skype 业务服
 
 **若要下载 CA 证书：**
 
-1. 在运行 Exchange UM 服务器上，单击**开始**，单击**运行**类型**http://\<发证 CA 服务器名称 > / certsrv**，然后单击**确定**。
+1. 在运行 Exchange UM 服务器上，单击**开始**，单击**运行**类型**http://\<颁发 CA Server>/certsrv 名称**，然后单击**确定**。
 2. 在选择任务下，单击**下载 CA 证书、 证书链或 CRL**。
 3. 在**下载 CA 证书、 证书链或 CRL**下选择**Base 64 编码方式**，，然后单击**下载 CA 证书**。
    > [!NOTE]
@@ -205,7 +205,7 @@ Exchange Server 必须配置了服务器证书，才能连接到 Skype 业务服
 6. 单击**关闭**，然后单击**确定**。 
 7. 在控制台树中，展开**证书 （本地计算机）**，展开**受信任的根证书颁发机构**，，然后单击**证书**。
 8. 右键单击**证书**，单击**所有任务**，然后单击**导入**。
-9. 单击“**下一步**”。 
+9. 单击" **下一步**"。 
 10. 单击**浏览**找到文件，，，然后单击**下一步**。 （该文件将具有为.cer 或.p7b 文件扩展名，具体取决于您的**下载 CA 证书**的步骤 3 中选择的编码。
 11. 单击**将所有证书放**入下列存储。
 12. 单击**浏览**，然后选择**受信任的根证书颁发机构**。 
