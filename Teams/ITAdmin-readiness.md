@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 培训视频、 PowerPoint 文件 （英文）、 教程和其他资源来 admins 如何规划、 部署和运行的 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eda922ce0346a69d657789bdc13a6381254c2b3a
-ms.sourcegitcommit: 2ef6a05c659100eea0d92c729001cd4e14434b9f
+ms.openlocfilehash: 58f37fba985817b777ebce7c125b9cd5d80cc425
+ms.sourcegitcommit: 11f95d0df48a23e701ffaf3b26445d736cbbb884
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30062620"
+ms.lasthandoff: 02/18/2019
+ms.locfileid: "30079130"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
@@ -94,7 +94,7 @@ ms.locfileid: "30062620"
 | 会议简介 | [视频](http://aka.ms/teams-meetings-intro) | [平台](http://aka.ms/teams-meetings-intro-deck) |
 | 电话系统简介 | [视频](http://aka.ms/teams-phone-system) | [平台](http://aka.ms/teams-phone-system-deck) |
 | 直接路由 | [视频](http://aka.ms/teams-direct-routing) | [平台](http://aka.ms/teams-direct-routing-deck) |
-| 从 Skype for Business 升级到 Teams | [视频 1： 升级简介](https://aka.ms/teams-upgrade-intro)</br>[视频 2： 规划升级](https://aka.ms/teams-upgrade-plan)</br>[视频 3： 共存及互操作性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[视频 4： 管理员体验](https://aka.ms/teams-upgrade-admin) | [平台](htt://aka.ms/teams-upgrade-deck)|
+| 从 Skype for Business 升级到 Teams | [视频 1： 升级简介](https://aka.ms/teams-upgrade-intro)</br>[视频 2： 规划升级](https://aka.ms/teams-upgrade-plan)</br>[视频 3： 共存及互操作性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[视频 4： 管理员体验](https://aka.ms/teams-upgrade-admin) | [平台](http://aka.ms/teams-upgrade-deck)|
 
 <h2>快速入门指南</h2>
 
