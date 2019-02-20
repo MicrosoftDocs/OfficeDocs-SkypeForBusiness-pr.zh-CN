@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be2e95d7be359856d5aef4f67664ef27ee62fa74
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: cdaa51072df7ffeeb2aeb2c66e73f07b0c0c0569
+ms.sourcegitcommit: d8a68433949edfbbece628dd0e1c0ce9205ba0a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562610"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "30087817"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>管理对 Microsoft Teams 的用户访问
 =====================================
@@ -50,7 +50,7 @@ ms.locfileid: "29562610"
 > [!IMPORTANT]
 > 新 MsolLicenseOptions 将启用以前被禁用，除非的所有服务 explictitly identitied 中自定义脚本。 作为示例，如果您想要保留这两个 Exchange & Sway 此外禁用团队时禁用您将需要包括此脚本或两个 Exchange & Sway 将变为启用您已确定这些用户。 如果您希望执行利用 GUI 管理此功能，请参阅： [Office 365 许可报告和管理工具-删除许可证分配批量](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
 
-正如任何其他工作负荷一样，通过 PowerShell 以工作负荷许可证方式启用和禁用 Teams。 Microsoft Teams 的服务计划名称为 TEAMS1。 对于政府服务计划名称是 TEAMS_GOV。 （有关详细信息，请参阅[通过 Office 365 PowerShell 禁用对服务的访问](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)。）
+正如任何其他工作负荷一样，通过 PowerShell 以工作负荷许可证方式启用和禁用 Teams。 Microsoft Teams 的服务计划名称为 TEAMS1。 对于 GCC 服务计划名称是 TEAMS_GOV。 对于 GCC 高服务计划名称是 TEAMS_GCCHIGH。 对于 DoD 服务计划名称是 TEAMS_DOD (请参阅[禁止访问服务与 Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)的详细信息。)
 
 **示例：** 下面是只在特定许可证类型中的所有人，您就会禁用团队的快速示例。 你需要先执行此操作，然后单独为应该拥有访问权限的用户启用 Microsoft Teams，以进行试点。
 

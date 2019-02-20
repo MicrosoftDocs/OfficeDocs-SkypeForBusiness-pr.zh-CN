@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5353079da3cc697d88983407db97c2d8894ea7a8
-ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
+ms.openlocfilehash: 8cc7f27d244b557b96f79b62247ae887a083a0e6
+ms.sourcegitcommit: d8a68433949edfbbece628dd0e1c0ce9205ba0a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29992854"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "30087841"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -74,9 +74,9 @@ ms.locfileid: "29992854"
 自动根据模式，用户体验的一致性声明推出之前`Grant-csTeamsUpgradePolicy`cmdlet 检查 TeamsMessagingPolicy、 TeamsCallingPolicy 和 TeamsMeetingPolicy，以确定它们是否中相应的设置的配置设置可以与指定模式兼容。 如果任何未正确配置，则授予会成功，但警告将提供在 PowerShell 中指示的特定设置的配置不正确。 下面是 PowerShell 警告可能外观的示例：
 
 
-`PS C:\Users\janedoe> Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab
-WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.
-PS C:\Users\janedoe>`
+`Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
+
+*警告: user1@contoso.com' 用户当前已启用的有效策略值： AllowUserChat AllowPrivateCalling、 AllowPrivateMeetingScheduling、 AllowChannelMeetingScheduling。Near 术语，当使用模式授予 TeamsUpgradePolicy = SfBWithTeamsCollab 给用户，您必须单独还分配策略，以确保用户具有有效策略禁用值： AllowUserChat、 AllowPrivateCalling，AllowPrivateMeetingScheduling，AllowChannelMeetingScheduling。将来，功能也会自动授予 TeamsUpgradePolicy。*
 
 时看到这样的警告，管理员随后应更新指示的策略中团队提供兼容的最终用户体验。 如果管理员决定不执行任何操作由于警告，用户仍可以访问聊天，呼叫和/或会议中团队的日程安排功能，具体取决于 TeamsMessagingPolicy、 TeamsCallingPolicy 和 TeamsMeetingPolicy 的值可能会造成的混乱的最终用户体验。
 
