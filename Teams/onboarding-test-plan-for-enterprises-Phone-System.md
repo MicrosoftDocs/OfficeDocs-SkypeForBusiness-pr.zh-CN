@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85774296ad871d7d9d036a660299cc88099c4de6
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: e96f39cbcf5dcca4c0687f89f37ead6791ff2d98
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594059"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120739"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>定义和团队测试计划适用于企业中文档电话系统与调用计划 
 ============================================================================================
@@ -752,7 +752,7 @@ ms.locfileid: "29594059"
 
 -   已发现的组织的网站和范围内的用户组列表。
 
--   [Communications 字幕式](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)（如果需要） 已为组织设置。
+-   [Communications 字幕式](what-are-communications-credits.md)（如果需要） 已为组织设置。
 
 -   电话系统与调用计划已标识和配置设置。
 

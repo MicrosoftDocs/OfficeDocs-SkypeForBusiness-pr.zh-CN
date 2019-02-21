@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad00f5df93cb91cc878a0b75a413b9299cde9a88
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: ba2faa36cbb1a745ada776d40113aab80790b728
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694772"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120713"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -72,7 +72,7 @@ ms.locfileid: "28694772"
 > [!TIP]
 > 下面是音频会议网站启用列表模板的示例：
 > 
-> |办公地点   |位置 |PSTN 会议服务  |
+> |Office   |位置 |PSTN 会议服务  |
 > |---------|---------|---------|
 > |Epping 路一号|澳大利亚|音频会议|
 > |数码港道 100 号|香港 SAR|旧的 PSTN 会议|
@@ -84,20 +84,20 @@ ms.locfileid: "28694772"
 
 ## <a name="licensing-for-audio-conferencing"></a>许可音频会议
 
-[音频会议许可证](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)是作为 Office 365 E5 订阅计划的一部分或作为 Office 365 E1 或 Office 365 E3 订阅计划的加载项服务。
+[音频会议许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)是作为 Office 365 E5 订阅计划的一部分或作为 Office 365 E1 或 Office 365 E3 订阅计划的加载项服务。
 
 > [!NOTE]
 > 团队中的 PSTN 或电话拨入式会议不支持第三方音频会议提供商 (Acp)。
 > <br>如果你现在已使用 Skype for Business Online PSTN 会议，则可以立即利用 Teams 中的音频会议。
 
-提供免费的会议桥接电话号码和以支持会议拨出式国际电话号码，您必须为组织设置[Communications 字幕式](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)。
+提供免费的会议桥接电话号码和以支持会议拨出式国际电话号码，您必须为组织设置[Communications 字幕式](what-are-communications-credits.md)。
 
 > [!IMPORTANT]
 > 某些国家/地区免费的会议桥接电话号码只能由提供服务。 若要支持电话拨入式中的这些国家/地区，必须使用 Communications 字幕式。
 
 首先要考虑实现 Communications 字幕式是确定的初始资金量时您想要购买。 如果您的组织选择使用自动充电，您需要决定自动充电量和触发器量 （最低量资金）。 实际使用将确定自动充电量。 您应随着时间的推移监视 Communications 字幕式使用率，并根据需要调整充电。
 
-您可以了解有关 Communications 字幕式[此处](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)。
+您可以了解有关 Communications 字幕式[此处](what-are-communications-credits.md)。
 
 <br>
 
@@ -165,7 +165,7 @@ Office 365 中的音频会议服务包括：
 
 -   [获取服务电话号码](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
--   [将电话号码转移到 Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
+-   [将电话号码转接到 Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
 <br>
 
@@ -245,8 +245,8 @@ Office 365 中的音频会议服务包括：
 > |用户  |办公地点  |默认收费电话号码  |默认免费电话号码  |允许免费电话  |未经身份验证的呼叫方绕过休息室  |会议拨出  |
 > |---------|---------|---------|---------|---------|---------|---------|
 > |Adele Vance|Epping 路一号|TBA|TBA|是|启用|国际和国内|
-> |Alex Wilber|Epping 路一号|TBA|TBA|否|禁用|不允许|
-> |Ben Walters|Epping 路一号|TBA|TBA|否|禁用|不允许|
+> |Alex Wilber|Epping 路一号|TBA|TBA|否|已禁用|不允许|
+> |Ben Walters|Epping 路一号|TBA|TBA|否|已禁用|不允许|
 > |Christie Cline|滨海林荫道一号|TBA|TBA|是|禁用|国内|
 > |Debra Berger|滨海林荫道一号|TBA|TBA|是|启用|国内|
 > |Lee Gu|滨海林荫道一号|TBA|TBA|是|启用|国内|
@@ -302,7 +302,7 @@ Microsoft 云语音解决方案中的电话号码的两种类型包括：
 
 -   [转接到 Office 365 的电话号码](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
--   [关于转移电话号码的常见问题](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
+-   [转接电话号码常见问题](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
 

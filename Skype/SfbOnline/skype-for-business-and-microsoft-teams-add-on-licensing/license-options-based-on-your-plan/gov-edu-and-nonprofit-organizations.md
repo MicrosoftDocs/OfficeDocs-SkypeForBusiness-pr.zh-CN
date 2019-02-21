@@ -14,23 +14,22 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关 GOV、EDU 和非营利组织计划的加载项许可证和功能。 '
-ms.openlocfilehash: c69307833becfc6f9adc3ade2eeed962ceefcedb
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e1c19e7db6f4167fa0992101c7070dc4661665b0
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883920"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120370"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV、EDU 和非营利组织
 
-大多数 Skype for Business 功能都适用于 .gov、.edu 和非赢利组织。 请参阅下的表详细信息。
+Most Skype for Business features are available to .gov, .edu, and nonprofit organizations. See the following table for details.
 
 |**Skype for Business 功能**|**可用于 .GOV (GCC)**|**可用于 .GOV（非 GCC）**|**可用于 .EDU**|**可用于非营利组织**|
 |:-----|:-----|:-----|:-----|:-----|

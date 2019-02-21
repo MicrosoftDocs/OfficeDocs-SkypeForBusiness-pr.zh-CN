@@ -1,5 +1,5 @@
 ---
-title: Office 365 中的电话系统的功能
+title: 以下是 Office 365 中的电话系统功能
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 9898bcea949c5150667ae502edfa6b1fccd64764
-ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
+ms.openlocfilehash: 655e095f87ee9ad53cb57df09ca8366ecc8eb8f6
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30056616"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120897"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 中的电话系统的功能
+# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是 Office 365 中的电话系统功能
 
 PBX 是一个企业内部电话系统。 Office 365 加载项中的电话系统为您提供了 PBX 的功能，但不带复杂和昂贵设备。 
   
@@ -86,7 +86,7 @@ PBX 是一个企业内部电话系统。 Office 365 加载项中的电话系统�
     
 - [规划 Office 365 (云 PBX) 解决方案中电话系统](https://go.microsoft.com/fwlink/?LinkId=708645)： 本文排放所有部署选项。 其中还介绍了如何规划只有云的完整解决方案。 
     
-- [加载项业务和 Microsoft 团队授权的 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)： 了解您需要购买 Office 365 中获取电话系统的许可证。
+- [Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)： 了解您需要购买 Office 365 中获取电话系统的许可证。
     
 - [设置电话系统语音邮件 - 管理员帮助](set-up-phone-system-voicemail.md)
     

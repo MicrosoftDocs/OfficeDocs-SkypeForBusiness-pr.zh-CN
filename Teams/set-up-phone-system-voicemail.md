@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: b0111c1d83772aee2b1b4075fdfe5125b4685c88
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 891279af8416786ae25efd72450f1cd695b11df4
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047821"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121009"
 ---
 # <a name="set-up-phone-system-voicemail"></a>设置电话系统语音邮件
 
@@ -42,9 +42,9 @@ ms.locfileid: "30047821"
 
 对于业务联机和调用计划用户 Skype，电话系统的语音邮件是自动设置，然后分配给他们的**电话系统**许可证和电话号码后，为用户设置。
   
-1. If the Phone System feature isn't included in your plan, you may need to purchase **Phone System** add-on licenses. You may also need to purchase an Exchange Online license. See [Skype for Business and Microsoft Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+1. 如果电话系统功能不包括在您的计划，您可能需要购买附加许可证**电话系统**。 您可能还需要购买 Exchange Online 的许可证。 请参阅[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
-2. [Assign or remove licenses for Office 365 for business](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), the [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), and the Exchange Online licenses to the people in your business. After you do that, they will be able to receive voicemail messages!
+2. [分配或删除业务的 Office 365 的许可证](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)，[分配的 Microsoft 团队许可证](assign-teams-licenses.md)，以及您企业中的人员的 Exchange Online 许可证。 分配完成后，他们将能够接收语音邮件消息！
     
 3. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below.
 
@@ -52,9 +52,9 @@ ms.locfileid: "30047821"
 
 下面是有关配置电话系统语音邮件以用于本地通话套餐环境的信息。
   
-1. If the Phone System feature isn't included in your plan, you may need to purchase **Phone System** add-on licenses. You also need to purchase an Exchange Online license. See [Skype for Business and Microsoft Teams add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+1. 如果电话系统功能不包括在您的计划，您可能需要购买附加许可证**电话系统**。 您还需要购买 Exchange Online 的许可证。 请参阅[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
-2. [分配或删除业务的 Office 365 的许可证](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)，[业务和 Microsoft 团队许可证分配 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)，以及您企业中的人员的 Exchange Online 许可证。
+2. [分配或删除业务的 Office 365 的许可证](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)，[分配的 Microsoft 团队许可证](assign-teams-licenses.md)，以及您企业中的人员的 Exchange Online 许可证。
     
 3. 按照[配置商务云连接器版指南的 Skype](https://technet.microsoft.com/library/mt605228.aspx)**为用户启用电话系统语音和语音邮件服务**部分中的说明。
 
@@ -62,7 +62,7 @@ ms.locfileid: "30047821"
 
 5. 你还可以参阅 [Exchange Server 的 azure PBX 的语音邮件支持](https://support.microsoft.com/kb/3195158)，了解如何为拥有本地邮箱的电话系统用户配置 Azure 语音邮件消息的传递方式。
 
-6. 请还阅读并遵循以下文档中所述的步骤：[混合配置向导](https://docs.microsoft.com/en-us/exchange/hybrid-configuration-wizard)
+6. 请还阅读并遵循以下文档中所述的步骤：[混合配置向导](https://docs.microsoft.com/exchange/hybrid-configuration-wizard)
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>设置组织的语音邮件策略
 

@@ -1,5 +1,5 @@
 ---
-title: 为组织设置通信点数
+title: 设置组织的通信点数
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 0570c454cdc3fc98fa6dfa4a8fe571714263421e
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: d5e246b42a2e90bf0808a574ed27ee76a4b60280
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048282"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120913"
 ---
-# <a name="set-up-communications-credits-for-your-organization"></a>为组织设置通信点数
+# <a name="set-up-communications-credits-for-your-organization"></a>设置组织的通信点数
 
 您需要设置通信点数，如果您想要使用 Skype for Business 和 Microsoft Teams 的免费电话号码。 此外，我们建议您设置 Communications 字幕式调用计划 （国内或国际） 和音频会议用户需要拨出**任何目标**的能力。 多个国家/地区内包括在内，但某些目标不能包含在您调用规划或音频会议的订阅。 如果您不会设置 Communications 字幕式帐单且将**Communications 字幕式**许可证分配给用户，并且您运行出分钟，以便您的组织 （具体取决于您调用计划或音频会议中计划国家/地区），这些用户将无法发起呼叫或从音频会议拨出。 您可以获取详细信息，请通过读取资金数量，包括建议[Communications 字幕式是什么？](what-are-communications-credits.md)
   
@@ -44,18 +44,18 @@ ms.locfileid: "30048282"
   
 这样，**您需要为音频会议或电话系统许可证分配**用户。
   
-- 将**音频会议**许可证分配给用户。 请参阅[业务和 Microsoft 团队许可证分配 Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
+- 将**音频会议**许可证分配给用户。 请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。
     
-    指定此许可证后，您需要设置音频会议。 有关分步说明，请参阅[尝试或购买 Office 365 中的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)。
+    指定此许可证后，您需要设置音频会议。 有关分步说明，请参阅[尝试或购买 Office 365 中的音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
     
-- 将**电话系统**和国内或国内和国际呼叫规划许可证分配给用户。 请参阅[业务和 Microsoft 团队许可证分配 Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
+- 将**电话系统**和国内或国内和国际呼叫规划许可证分配给用户。 请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。
     
     > [!NOTE]
     > 尽管不需要的通信字幕式，则仍需还分配**国内调用规划**或**国内和国际呼叫规划**许可证。
   
     分配这些许可证后，你需要获得贵组织的电话号码，然后将这些号码分配给组织中的人员。 有关分步说明，请参阅[Set up 调用计划](set-up-calling-plans.md)。
     
-有关详细信息，请参阅[业务和 Microsoft 团队授权加载项的 Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+有关详细信息，请参阅[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>步骤 2： 为您的组织的通信字幕式设置
 
@@ -113,7 +113,7 @@ ms.locfileid: "30048282"
     
 您还可以参见信息通过[登录到 Office 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)，转到**帐单** > **订阅** > **添加订阅**。
   
-若要查看使用许可证或许可证需要为每个功能的表，请参阅[业务和 Microsoft 团队授权加载项的 Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
+若要查看使用许可证或许可证需要为每个功能的表，请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 ## <a name="related-topics"></a>相关主题
 
@@ -123,9 +123,7 @@ ms.locfileid: "30048282"
     
 - [设置通话套餐](set-up-calling-plans.md) 和 [Office 365 的通话套餐](calling-plans-for-office-365.md)
     
-- [存入资金和管理通信点数](add-funds-and-manage-communications-credits.md)
+- [添加资金并管理通信点数](add-funds-and-manage-communications-credits.md)
     
-- [配置云连接器](https://technet.microsoft.com/library/mt605228.aspx)和[下载云连接器](https://aka.ms/CloudConnectorInstaller)
-
   
  

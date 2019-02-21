@@ -14,12 +14,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f87ab06fd867d216a8668d9bbb9e3ad1e807b463
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 9a11360c5cae498262a717c41e4247037de1db54
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649594"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120508"
 ---
 # <a name="operate-my-service"></a>运行我的服务
 
@@ -80,7 +80,7 @@ Microsoft 团队汇集技术跨 Office 365 提供集线器团队协作。 示例
 
 本指南介绍焦点来管理工作组服务的关键区域。 很可能必须服务管理计划中支持的技术取决于团队的位置。 如果不需要，您将需要建立这些技术组件的正确的服务管理计划 (在本地和联机) 以及。 这有助于确保您的用户体验高质量、 可靠地与团队。
 
-#### <a name="references"></a>参考 
+#### <a name="references"></a>References 
 
 [Microsoft Teams 概述](teams-overview.md)
 
@@ -137,7 +137,7 @@ Microsoft System Center 是帮助您管理数据中心、 客户端设备和混�
 
 ### <a name="monitoring-for-advanced-scenarios"></a>监视的高级方案
 
-您可以通过利用 Office 365 服务通信 API 以编程方式访问 Office 365 服务运行状况和更改监控服务运行状况和要做出的更改。 使用此 API 创建自己的监视工具，或连接到 Office 365 服务通信，可能简化如何监视您的环境的您现有的监视工具。 有关详细信息，请参阅[企业开发人员的 Office 365](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx)。
+您可以通过利用 Office 365 服务通信 API 以编程方式访问 Office 365 服务运行状况和更改监控服务运行状况和要做出的更改。 使用此 API 创建自己的监视工具，或连接到 Office 365 服务通信，可能简化如何监视您的环境的您现有的监视工具。 有关详细信息，请参阅[企业开发人员的 Office 365](https://developer.microsoft.com/office)。
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每天/每周/每月/按需任务
 
@@ -146,7 +146,7 @@ Microsoft System Center 是帮助您管理数据中心、 客户端设备和混�
 | 监控服务运行状况 | 使用可用的工具，主动监视的 Microsoft 团队服务运行状况，（和相关服务）。 相关服务包括： Exchange Online 中，SharePoint Online 的 OneDrive for Business，Azure Active Directory。 | 实时 |               |
 | 事件通知  | 通知事件的影响团队服务的内部利益干系的人。 内部利益干系人可以包括用户、 支持人员和事件的经理。                                                                          | 根据需要 |               |
 
-### <a name="references"></a>参考 
+### <a name="references"></a>References 
 
 [如何检查 Office 365 服务运行状况](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
 
@@ -243,9 +243,9 @@ Microsoft 团队是基于云的服务。 伴随这能够提供新特性和功能
 
 其他两个报表是特定于团队的并提供更多有关团队使用情况的详细信息从用户和设备的角度来看。 可在此处找到两个报表：
 
-[Microsoft 团队设备使用情况报告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
+[Microsoft Teams 设备使用情况报告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
 
-[Microsoft 团队用户活动报告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+[Microsoft Teams 用户活动报告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
 
 #### <a name="required-permissions"></a>所需的权限
 
@@ -276,7 +276,7 @@ Microsoft 团队是基于云的服务。 伴随这能够提供新特性和功能
 | （驱动器值阶段）              |                                                                                                                                  |           |               |
 | 更新应用计划             | 应用计划基于如何测量的使用情况的更新将与您规划目标进行比较。                                         | 根据需要 |               |
 
-### <a name="references"></a>参考 
+### <a name="references"></a>References 
 
 [有关 Office 365 管理中心](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
@@ -327,7 +327,7 @@ NPS 是一个索引，为 100，介于-100 度量客户的通信意愿建议公�
 | 评估用户的观点 | 捕获和评估用户的观点，使用调查或面试，或通过团队或 Yammer 中的反馈通道。                                                                 | 根据需要 |               |
 | 更新应用计划 | 驱动器根据用户反馈; 您组织中的更改这可以包括更改沟通计划、 培训计划或向用户提供支持的方式。 | 根据需要 |               |
 
-### <a name="references"></a>参考 
+### <a name="references"></a>References 
 
 [Net 者均分数](https://en.wikipedia.org/wiki/Net_Promoter)
 
@@ -359,7 +359,7 @@ NPS 是一个索引，为 100，介于-100 度量客户的通信意愿建议公�
 | 灾难恢复和高可用性测试                | 执行常规的高可用性和灾难恢复测试对网络基础结构，以确保它符合既定的服务级别目标 (Slo) 或团队服务的服务级别协议 (Sla)。                                                                                                                                                  | 每月                |               |
 
 
-### <a name="references"></a>参考 
+### <a name="references"></a>References 
 
 [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
@@ -393,11 +393,11 @@ NPS 是一个索引，为 100，介于-100 度量客户的通信意愿建议公�
 
 
 
-### <a name="references"></a>参考 
+### <a name="references"></a>References 
 
 [了解 CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
-[上载构建信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
+[上载构建信息](turning-on-and-using-call-quality-dashboard.md#upload-building-information)
 
 [查看用户体验指南的质量](https://aka.ms/qerguide)
 
@@ -452,11 +452,11 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 | 终结点管理      | 维护支持的终结点和接口设备 （如耳麦） 的目录。 管理供应商合同、 担保、 分发、 替换，并修复策略。                                                                                                                                                                                                        | 每月   |               |
 | 终结点疑难解答 | 故障排除任务可以包括验证咨询已知的问题列表、 收集日志、 分析和升级到 Microsoft 技术支持或第三方供应商的连接。                                                                                                                                                                                               | 根据需要 |               |
 
-### <a name="references"></a>参考 
+### <a name="references"></a>References 
 
 [Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)
 
-[获取 Microsoft Teams 的客户端](get-clients.md)
+[获取 Microsoft Teams 客户端](get-clients.md)
 
 [Microsoft 团队社区](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
@@ -487,7 +487,7 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 
 #### <a name="general-tasks"></a>常规任务
 
-[管理用户对 Microsoft Teams 的访问](user-access.md)
+[管理 Microsoft Teams 的用户访问](user-access.md)
 
 #### <a name="common-tasks-for-phone-system"></a>电话系统的常见任务
 
@@ -497,25 +497,25 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 
 [添加、更改或删除你的组织的紧急位置](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
 
-[创建并管理拨号计划](https://docs.microsoft.com/microsoftteams/create-and-manage-dial-plans)
+[创建并管理拨号计划](create-and-manage-dial-plans.md)
 
 #### <a name="common-tasks-for-audio-conferencing"></a>音频会议的常见任务
 
-[更改音频会议网桥的设置](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge)
+[更改音频会议网桥的设置](change-the-settings-for-an-audio-conferencing-bridge.md)
 
-[更改音频会议网桥的电话号码](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge)
+[更改音频会议网桥的电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 
-[管理用户的音频会议设置](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)
+[管理用户的音频会议设置](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-[重置 PIN 的音频会议](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin)
+[重置 PIN 的音频会议](reset-the-audio-conferencing-pin-in-teams.md)
 
 ### <a name="license-management"></a>许可证管理
 
-根据您的组织增长或缩短，很重要计划许可当前和将来的需求。 没有基本团队许可证，除了许可云语音功能 （[电话系统](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system)和[音频会议](https://products.office.com/skype-for-business/audio-conferencing)）。
+根据您的组织增长或缩短，很重要计划许可当前和将来的需求。 没有基本团队许可证，除了许可云语音功能 （[电话系统](here-s-what-you-get-with-phone-system.md)和[音频会议](https://products.office.com/skype-for-business/audio-conferencing)）。
 
-对于团队，电话系统的许可证要求相关[调用规划](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)许可证。 调用许可计划，可以发起和接收国内和/或国际电话呼叫。 这些计划是基于使用的以及与它们具有 minute 池关联。 设置[Communications 字幕式](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)将确保从不运行停用。
+对于团队，电话系统的许可证要求相关[调用规划](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)许可证。 调用许可计划，可以发起和接收国内和/或国际电话呼叫。 这些计划是基于使用的以及与它们具有 minute 池关联。 设置[Communications 字幕式](what-are-communications-credits.md)将确保从不运行停用。
 
-音频会议允许 tolled 电话拨入式会议和国内拨出式会议服务。 免费电话拨入式会议或非国内拨出方案可能导致您的哪些[Communications 字幕式](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)种额外费用所需。
+音频会议允许 tolled 电话拨入式会议和国内拨出式会议服务。 免费电话拨入式会议或非国内拨出方案可能导致您的哪些[Communications 字幕式](what-are-communications-credits.md)种额外费用所需。
 
 Communications 字幕式可以补充调用规划和音频会议的许可证。 调用规划许可证和通信字幕式是基于使用的因此需要监视和相应的设置。
 
@@ -525,7 +525,7 @@ Communications 字幕式可以补充调用规划和音频会议的许可证。 �
 
 有两种方法来获取团队中的数字： 可以端口从其他提供程序的电话号码，或者您可以设置直接从 Microsoft 的号码清单的号码。 这两种方法[为用户获取电话号码](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)所述。
 
-没有为电话号码，您可以从 Microsoft 的号码库存设置数的限制。 限制由许多因素中详细介绍[您可以获取多少个电话号码？](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)。
+没有为电话号码，您可以从 Microsoft 的号码库存设置数的限制。 限制由许多因素中详细介绍[您可以获取多少个电话号码？](how-many-phone-numbers-can-you-get.md)。
 限制取决于号码的类型 — 收费电话忙服务号码、 收费电话服务号码和订阅者 （用户） 号码。 每个具有自己的限制，所以必须单独管理。 如果您正在接近限制 （或已达到限制），可以对限制应用的增量。 此过程所述的上一段中的文章。
 
 可能会出现时数字不是可在其中服务是可用的区域设置的时间。 有关请求号码的过程的信息，请参阅[管理您的组织的电话号码](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。

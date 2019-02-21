@@ -28,12 +28,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 你可以选择某个国家/地区以查看音频会议、电话系统、通话套餐、通信点数以及收费和免费电话号码是否可用。
-ms.openlocfilehash: 01a9d6262cc7c452b9d937242ca431fe9e478777
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 789584991eaf6b95541d9fc49ec094d5c0481228
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048488"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120873"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -133,7 +133,7 @@ ms.locfileid: "30048488"
 
 ***
 
-如果你想查看某项 Skype for Business 或 Microsoft Teams 服务是否可用，你可以查看 [Skype for Business 和 Microsoft Teams 外接程序许可](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)，以帮助你购买许可证并分配给用户。
+如果你想查看某项 Skype for Business 或 Microsoft Teams 服务是否可用，你可以查看 [Skype for Business 和 Microsoft Teams 外接程序许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)，以帮助你购买许可证并分配给用户。
 
 > [!NOTE]
 > 
@@ -178,7 +178,7 @@ ms.locfileid: "30048488"
 ### <a name="calling-plans"></a>通话套餐
 通过电话系统，通话套餐允许用户拨打和接听电话。 你首先需要获取用户（订阅者）电话号码（而非服务号码）以分配给用户，然后分配通话套餐。 有两种类型的可用通话套餐：**国内**以及**国内和国际**。 有关更多详细信息，请参阅[通话套餐是什么？](../what-are-calling-plans-in-office-365.md)。
 
-有关许可信息，你也可以参阅[电话系统和通话套餐许可](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
+有关许可信息，你也可以参阅[电话系统和通话套餐许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 > [!NOTE]
 > 国家/地区依据“**Office 365 管理中心**” > “**活动用户**”中显示的用户许可证位置，而**不是** **Office 365 管理中心**的“**组织配置文件**”下列出的帐单地址。 

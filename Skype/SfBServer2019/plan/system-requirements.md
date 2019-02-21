@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 摘要： 准备您的 Skype 业务服务器 2019年服务器和域基础结构与本主题。 硬件、 操作系统、 数据库、 软件、 所有系统要求和建议，以及证书 DNS、 文件共享和 Active Directory 信息，在此处都要帮助确保成功安装和部署服务器场。
-ms.openlocfilehash: a812c2cbc96ab80eea55072162c54bc7371a9dc5
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 0f2926bc0d110ce7270b6798895ecda7ebabb23a
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729349"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120656"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>For Business Server 2019 Skype 的系统要求
  
@@ -50,7 +50,7 @@ ms.locfileid: "28729349"
 |:-----|:-----|
 |CPU  <br/> |Intel Xeon E5 2673 v3 双处理器、 6 核 2.4 ghz 或更高版本。  <br/> Intel Itanium 处理器不支持 Skype 业务服务器 2019年角色。  <br/> |
 |内存  <br/> |32 GB。  <br/> |
-|磁盘  <br/> |以下之一：  <br/> • 8 块或更多 10000 RPM 硬盘，至少 72 GB 可用磁盘空间（2 块磁盘使用 RAID 1，6 块磁盘使用 RAID 10）。  <br/> 或  <br/> • 能够提供与 8 块 10000 RPM 机械硬盘相同的可用空间和类似性能的固态硬盘 (SSD)。  <br/> |
+|磁盘  <br/> |以下之一：  <br/> • 8 块或更多 10000 RPM 硬盘，至少 72 GB 可用磁盘空间（2 块磁盘使用 RAID 1，6 块磁盘使用 RAID 10）。  <br/> 或者  <br/> • 能够提供与 8 块 10000 RPM 机械硬盘相同的可用空间和类似性能的固态硬盘 (SSD)。  <br/> |
 |网络  <br/> |1 个双端口网络适配器，1 Gbps 或更高（可使用 2 个网络适配器，但需要通过一个 MAC 地址和一个 IP 地址配合使用）。  <br/> 双处理器或多宿主配置是**不**支持前端服务器、 后端服务器，和 Standard Edition 服务器。 <br/> 只要它们不公开给操作系统，并且正在使用监视和管理服务器硬件，您可以通过带管理系统，如 DRAC 或 ILO。 这种情况不会形成多宿主服务器，并且受支持。  <br/> |
 
 
@@ -60,7 +60,7 @@ ms.locfileid: "28729349"
 |:-----|:-----|
 |CPU  <br/> |Intel Xeon E5 2673 v3 双处理器、 6 核 2.4 ghz 或更高版本。 <br/> Intel Itanium 处理器不支持 Skype 业务服务器 2019年角色。  <br/> |
 |内存  <br/> |64 千兆字节 (GB)。  <br/> |
-|磁盘  <br/> |以下之一：  <br/> • 8 块或更多 10000 RPM 硬盘，至少 72 GB 可用磁盘空间（2 块磁盘使用 RAID 1，6 块磁盘使用 RAID 10）。  <br/> 或  <br/> • 能够提供与 8 块 10000 RPM 机械硬盘相同的可用空间和类似性能的固态硬盘 (SSD)。  <br/> |
+|磁盘  <br/> |以下之一：  <br/> • 8 块或更多 10000 RPM 硬盘，至少 72 GB 可用磁盘空间（2 块磁盘使用 RAID 1，6 块磁盘使用 RAID 10）。  <br/> 或者  <br/> • 能够提供与 8 块 10000 RPM 机械硬盘相同的可用空间和类似性能的固态硬盘 (SSD)。  <br/> |
 |网络  <br/> |1 个双端口网络适配器，1 Gbps 或更高（可使用 2 个网络适配器，但需要通过一个 MAC 地址和一个 IP 地址配合使用）。  <br/> 双处理器或多宿主配置是**不**支持前端服务器、 后端服务器，和 Standard Edition 服务器。 <br/> 只要它们不公开给操作系统，并且正在使用监视和管理服务器硬件，您可以通过带管理系统，如 DRAC 或 ILO。 这种情况不会形成多宿主服务器，并且受支持。  <br/> |
    
 建议的边缘服务器、 独立中介服务器和控制器的硬件：
@@ -91,7 +91,7 @@ ms.locfileid: "28729349"
 |Windows Server 2016 <br/> ||
 ||
    
-除了下面列出的操作系统不会处理正确; 的内容请不尝试使用它的 Skype 安装的业务服务器 2019年。
+除了下面列出的操作系统不会处理正确; 的内容请不尝试使用它的 Skype 安装的业务服务器 2019年。 例如，服务器核心选项未列出，并因此不受支持。
 
 > [!NOTE]
 > 

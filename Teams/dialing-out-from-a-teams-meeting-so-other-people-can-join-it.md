@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 了解你需要的信息以及会议组织者如何使用 Teams 向其他人拨出。
-ms.openlocfilehash: 4352bc7f6bd110a8dda267092920a2e2de22a4ae
-ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
+ms.openlocfilehash: 3a06019f942a5fb670b7ed24ea23ccb77ed238f7
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29770392"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120849"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>从 Microsoft Teams 会议拨出，以便其他人可以加入会议
 
@@ -59,6 +59,6 @@ ms.locfileid: "29770392"
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>要了解有关音频会议的详细信息？
 
-[试用或购买 Office 365 中的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[试用或购买 Office 365 中的音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-[Skype for Business 和 Microsoft Teams 外接程序许可](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

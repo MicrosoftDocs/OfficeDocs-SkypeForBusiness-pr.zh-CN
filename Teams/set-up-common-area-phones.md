@@ -1,5 +1,5 @@
 ---
-title: 为 Microsoft 团队设置公用区域电话的许可证
+title: 为 Microsoft Teams 设置公共区域电话许可证
 ms.author: lolaj
 author: lolaj
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为会议厅、 接待区和会议室设置公用区域电话 '
-ms.openlocfilehash: 44cd9a4faa6c94a60d84fa825149bbf4c6b846fe
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: b7fb997a8e9367c4a3b8629f037ad79871b64b25
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27271154"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121041"
 ---
-# <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>为 Microsoft 团队设置公用区域电话的许可证
+# <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>为 Microsoft Teams 设置公共区域电话许可证
 
 公用区域电话通常放置在会议厅类似的区域或可供很多人发起呼叫; 另一个区域例如，接收区域、 会议厅或会议电话。 公用区域电话设置为设备，而不是用户，并可以自动登录到网络。
 
@@ -50,7 +50,7 @@ ms.locfileid: "27271154"
 > [!NOTE]
 > 不需要电话系统许可证。 许可证包含在公共区域电话许可证中。
 
-许可证的详细信息，请参阅[业务和 Microsoft 团队授权加载项的 Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
+有关许可证的详细信息，请参阅[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>第 2 步 - 为手机创建一个新的用户帐户并分配许可证
 
@@ -74,7 +74,7 @@ ms.locfileid: "27271154"
 
 业务管理中心的 Skype 用于向用户分配一个号码。
 
-1. 在 Microsoft 365 管理中心中，选择**管理中心** > **团队和 Skype** > **旧门户**。
+1. 在 Microsoft 365 管理中心中，选择**管理中心** > **团队 & Skype** > **旧门户**。
 
 2. 在业务管理中心的 Skype，选择**语音** > **电话号码**。
 

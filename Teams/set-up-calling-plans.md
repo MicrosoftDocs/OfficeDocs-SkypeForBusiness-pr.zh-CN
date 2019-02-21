@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 5f617ecea591d76b5dcd3e7daa308e7f7a74d808
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 11dfac5c72845354aeaabcc4bf15bc9ae7cf815d
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047075"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120831"
 ---
 # <a name="set-up-calling-plans"></a>设置通话套餐
 适用于业务用户的其他 Skype 调用是免费的但如果您希望用户能够调用您的公司外部的电话得到国内调用规划或国际呼叫规划 Office 365 中。 很容易地设置此功能您的业务。 
@@ -39,12 +39,12 @@ ms.locfileid: "30047075"
 转到[音频会议和调用计划国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)并选择您的国家或地区，获取有关调用计划，可用性信息以及有关音频会议，电话系统，收费和免费电话信息数字和 Communications 字幕式。
   
 ## <a name="step-2-buy-and-assign-licenses"></a>步骤 2： 购买和分配许可证
-1. 如果您计划中不包括 Office 365 功能中的电话系统，您可能需要购买附加许可证**电话系统**。 **电话系统**许可证后，购买[调用 Office 365 的计划](calling-plans-for-office-365.md)。 请参阅[业务和 Microsoft 团队授权加载项的 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)，and 购买的许可证和计划。 
+1. 如果您计划中不包括 Office 365 功能中的电话系统，您可能需要购买附加许可证**电话系统**。 **电话系统**许可证后，购买[调用 Office 365 的计划](calling-plans-for-office-365.md)。 请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)，and 购买的许可证和计划。 
     
     > [!TIP]
     > **电话系统**许可证和调用计划在 Office 365 中，若要查看以购买调用计划选项，您必须首先具有**电话系统**许可证，以便在一起，转。
   
-2. 首次分配许可证，并将调用规划给您的组织中的人员。 请参阅[业务和 Microsoft 团队许可证分配 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
+2. 首次分配许可证，并将调用规划给您的组织中的人员。 请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。
     
 ## <a name="step-3-get-phone-numbers"></a>步骤 3： 获取电话号码
 有三种方法，以获得新的用户数：

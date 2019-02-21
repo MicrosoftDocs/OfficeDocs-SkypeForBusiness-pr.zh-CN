@@ -1,5 +1,5 @@
 ---
-title: 在组织中设置电话系统
+title: 设置组织内的电话系统
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -23,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为组织设置电话系统 (云 PBX)。 '
-ms.openlocfilehash: 0ae2d890e87ecef217bfdafd2c547de7ae35414d
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 5318c51fc389945fea09242cc211bb80ccbe4450
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047559"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120961"
 ---
-# <a name="setting-up-phone-system-in-your-organization"></a>在组织中设置电话系统
+# <a name="setting-up-phone-system-in-your-organization"></a>设置组织内的电话系统
 
 The following is a step-by-step guide for setting up Phone System in Office 365. Links to additional, detailed information are available at the end of each step.
 
@@ -44,7 +44,7 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>步骤 2： 购买和分配电话系统和通话套餐许可证
 
-To assign a Phone System and Calling Plan license to a single user the steps are the same as assigning an Office 365 license. See [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). If you want to assign multiple users in bulk, see [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+若要将电话系统和通话套餐许可证分配给单个用户的步骤与分配 Office 365 许可证相同。 请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。 如果您想要分配批量的多个用户，请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。
 
 ## <a name="step-3-get-phone-numbers-for-your-users"></a>步骤 3： 为用户获取电话号码
 
@@ -182,7 +182,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
   
 有关音频会议的常见问题，请参阅 [音频会议的常见问题](audio-conferencing-common-questions.md) 。
     
-1. If you purchased **Audio Conferencing** add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+1. 如果购买了 **音频会议** 外接程序许可证和通信点数许可证，也要分配它们。 有关说明，请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。
 
     Decide on your audio conferencing provider. An audio conferencing provider supplies an audio conferencing bridge. The conferencing bridge sets your dial-in phone numbers, PINs, and conference IDs for meetings. Decide whether to use Microsoft or a third-party audio conferencing provider:
 
@@ -203,7 +203,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
     
    3. 将自动助理语言设置的音频会议[中的业务的 Skype](/skypeforbusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing)或[中的 Microsoft 团队](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)的音频会议自动助理使用问候时它们拨入音频会议电话号码的呼叫者。 此步骤仅在使用 Microsoft 作为音频会议提供商时适用。
     
-   4. 设置音频会议的 PIN 长度[for Business 的 Skype](/skypeforbusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings)或[中的 Microsoft 团队](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)。
+   4. 设置音频会议的 PIN 长度[中的 Microsoft 团队](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)。
     
       > [!NOTE]
       > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
@@ -280,7 +280,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 **若要了解有关分配通信点数许可证的详细信息，请参阅 [为您的组织设置通信点数](set-up-communications-credits-for-your-organization.md) 。**
 
 ## <a name="related-topics"></a>相关主题
-[Office 365 中的电话系统的功能](here-s-what-you-get-with-phone-system.md)
+[以下是 Office 365 中的电话系统功能](here-s-what-you-get-with-phone-system.md)
 
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

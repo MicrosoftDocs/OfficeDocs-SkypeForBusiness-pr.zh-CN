@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: c51d058cfc6fc378047d439259042b0316c56d84
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 8c80aace74b7b0fb2d4a6c696edde47c30eb5b15
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048655"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120977"
 ---
 # <a name="what-are-communications-credits"></a>什么是通信点数？
 
@@ -97,7 +97,7 @@ Communications 字幕式是音频会议和调用规划分钟支付的便捷方�
     
 您还可以参见信息通过[登录到 Office 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)定价和转到**帐单** > **订阅** > **添加订阅**。
   
-若要查看使用许可证或许可证需要为每个功能的表，请参阅[业务和 Microsoft 团队授权加载项的 Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
+若要查看使用许可证或许可证需要为每个功能的表，请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 ## <a name="related-topics"></a>相关主题
 [Skype for Business PSTN 使用报告](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)

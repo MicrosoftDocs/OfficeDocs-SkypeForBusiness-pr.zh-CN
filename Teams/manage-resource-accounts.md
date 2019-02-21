@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 管理资源中的 Microsoft 团队的帐户
-ms.openlocfilehash: 3bab9f4c76a7bc5b0baf534b17ca3f5abaf11478
-ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
+ms.openlocfilehash: 685361c829a20a216e240e9f502e6ab24dcb86c5
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "29964407"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120937"
 ---
 # <a name="manage-resource-accounts-in-teams"></a>管理团队中的资源帐户 
 
@@ -33,21 +33,21 @@ ms.locfileid: "29964407"
 
 若要开始非常重要记住几件事：
   
-- 企业版 E3 以及**电话系统**的许可证或企业 E5 许可证，您的组织必须 （最低要求）。 已分配的**电话系统**用户许可证数影响服务号码可用于资源帐户分配给队列或自动助理呼叫的号码。 取决于您的组织中分配的**电话系统**和**音频会议**的许可证数量的资源帐户，您可以数。 若要了解有关授权的详细信息，请参阅[业务和 Microsoft 团队授权加载项的 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
+- 企业版 E3 以及**电话系统**的许可证或企业 E5 许可证，您的组织必须 （最低要求）。 已分配的**电话系统**用户许可证数影响服务号码可用于资源帐户分配给队列或自动助理呼叫的号码。 取决于您的组织中分配的**电话系统**和**音频会议**的许可证数量的资源帐户，您可以数。 若要了解有关授权的详细信息，请参阅[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
     > [!NOTE]
-    > 要重定向呼叫的人员在组织中联机，它们必须具有**电话系统**许可证和启用了企业语音或其 Office 365 调用计划。 请参阅[业务和 Microsoft 团队许可证分配 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。 要为他们启用企业语音，可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > 要重定向呼叫的人员在组织中联机，它们必须具有**电话系统**许可证和启用了企业语音或其 Office 365 调用计划。 请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。 要为他们启用企业语音，可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- 若要了解有关 Office 365 通话套餐的详细信息，请参阅 [Office 365 中有哪些通话套餐？](/microsoftteams/what-are-calling-plans-in-office-365) 和 [Office 365 的通话套餐](/microsoftteams/calling-plans-for-office-365)。
+- 若要了解有关 Office 365 调用计划的详细信息，请参阅[Office 365 调用计划](calling-plans-for-office-365.md)。
 - 您可以仅分配收费和免费电话服务电话号码的**Microsoft 团队管理中心**中获得或从另一个服务提供商转接到的资源帐户。 若要获取并使用免费电话号码，则需要设置通信点数。
 
 > [!NOTE]
-> 用户 （订阅服务器） 的电话号码不能分配给资源帐户-可以使用仅服务收费电话或免费电话号码。
+> 用户 （订阅服务器） 的电话号码不能分配给资源帐户。 可以使用只有服务收费电话或免费电话号码。
 
-若要将电话号码分配给资源帐户，您需要用于获取或转移您现有的收费电话或免费电话服务号码。 获得收费电话或免费电话服务电话号码后，他们会显示在**Microsoft 团队管理中心** > **语音** > **电话号码**，以及被列为**Service-免费电话****号码类型**列出将。 若要获取服务号码，请参阅[Getting 服务电话号码](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)或如果您希望进行传输和现有服务号码，请参阅[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)。
+若要将电话号码分配给资源帐户，您需要用于获取或转移您现有的收费电话或免费电话服务号码。 获得收费电话或免费电话服务电话号码后，他们会显示在**Microsoft 团队管理中心** > **语音** > **电话号码**，以及被列为**Service-免费电话****号码类型**列出将。 若要获取服务号码，请参阅[Getting 服务电话号码](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)或如果您希望进行传输和现有服务号码，请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。
   
 > [!NOTE]
-> 如果您在美国以外，您无法使用的 Microsoft 团队管理中心获取服务号码。 转到[管理您的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)而是以了解如何执行从美国的外部。
+> 如果您在美国以外，您无法使用的 Microsoft 团队管理中心获取服务号码。 转到[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)而是以了解如何执行从美国的外部。
 
 ## <a name="create-a-resource-account-in-powershell"></a>在 Powershell 中创建资源帐户
 

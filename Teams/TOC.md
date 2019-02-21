@@ -21,7 +21,7 @@
 ## [在 Microsoft Teams 中分配团队所有者和成员](assign-roles-permissions.md)
 ## [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
 ## [在工作组中创建一个组织范围团队](create-an-org-wide-team.md)
-## [管理邮件策略](messaging-policies-in-teams.md)
+## [管理消息传递策略](messaging-policies-in-teams.md)
 ## [开始使用 Teams 模板](get-started-with-teams-templates.md)
 ## [Microsoft Teams 医疗保健模板入门](healthcare/healthcare-templates.md)
 ## [团队的动态成员资格概述](dynamic-memberships.md)
@@ -76,7 +76,7 @@
 ### 准备推出团队
 #### [检查你的环境是否已为 Teams 准备就绪](environment-readiness.md)
 #### [为 Teams 准备贵组织的网络](prepare-network.md)
-#### [工作组或业务 online Skype 的代理服务器](proxy-servers-for-skype-for-business-online.md)
+#### [Teams 或 Skype for Business Online 的代理服务器](proxy-servers-for-skype-for-business-online.md)
 #### [限制和规格团队](limits-specifications-teams.md)
 #### [在 Teams 中创建团队时规划 Office 365 组](plan-office-365-groups.md)
 #### [获取工具以支持 Teams 部署](rollout-tools.md)
@@ -105,8 +105,15 @@
 ### 许可
 #### [管理对 Teams 的用户访问](user-access.md)
 #### [适用于 Teams 的 Office 365 许可](office-365-licensing.md)
-#### [分配 Skype for Business 和 Teams 许可证](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Skype for Business 和 Teams 外接程序许可](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [将团队许可证分配](assign-teams-licenses.md)
+#### [团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+##### 基于计划的许可证选项
+###### [Office 365 商业高级版](teams-add-on-licensing/office-365-business-premium.md)
+###### [Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
+###### [Office 365 企业版 E1 和 E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
+###### [Office 365 企业 E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
+###### [Office 365 企业 E5 没有音频会议](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
+###### [GOV、 EDU 和非赢利组织](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
 #### [管理团队商业试用版](iw-trial-teams.md)
 #### [升级到 Office 365 订阅版本的免费的团队](upgrade-freemium.md)
 
@@ -303,7 +310,7 @@
 ### 语音邮件
 #### [设置电话系统语音邮件](set-up-phone-system-voicemail.md)
 #### [更改语音邮件的默认语言](change-the-default-language-for-greetings-and-emails.md)
-#### [语音邮件问候语和消息的语言](languages-for-voicemail-greetings-and-messages.md)
+#### [语音邮件问候和消息所使用的语言](languages-for-voicemail-greetings-and-messages.md)
 ### 呼叫者 ID
 #### [如何在你的组织中使用来电显示](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [为用户设置来电显示](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -317,7 +324,7 @@
 ### [共享的行外观](shared-line-appearance.md)
 
 ## [通话套餐](calling-plan-landing-page.md)
-### [Office 365 的通话套餐](calling-plans-for-office-365.md)
+### [Office 365 通话套餐](calling-plans-for-office-365.md)
 ### [为组织设置调用计划](set-up-calling-plans.md)
 ### [快速入门指南： 配置调用计划](configuring-teams-calling-quickstartguide.md)
 
@@ -338,7 +345,7 @@
 #### [出站呼叫发生 Trunk 故障转移](direct-routing-trunk-failover-on-outbound-call.md)
 
 ## 电话号码
-### [管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+### [管理组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 ### [用于调用计划的电话号码的类型](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 ### [为用户获取电话号码](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [你可以获取多少个电话号码？](how-many-phone-numbers-can-you-get.md)
@@ -527,8 +534,8 @@
 
 ### 管理通信字幕式
 #### [什么是通信点数？](what-are-communications-credits.md)
-#### [为组织设置通信点数](set-up-communications-credits-for-your-organization.md)
-#### [存入资金和管理通信点数](add-funds-and-manage-communications-credits.md)
+#### [设置组织的通信点数](set-up-communications-credits-for-your-organization.md)
+#### [添加资金并管理通信点数](add-funds-and-manage-communications-credits.md)
 
 ### [Microsoft Teams 联机通话流程](microsoft-teams-online-call-flows.md)
 
@@ -606,7 +613,7 @@
 ## 其他信息
 ### [迁移和 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
 ### [与 Skype for Business 共存](coexistence-chat-calls-presence.md)
-### [团队客户端体验和符合共存模式](teams-client-experience-and-conformance-to-coexistence-modes.md)
+### [Teams 客户端体验和共存模式的一致性](teams-client-experience-and-conformance-to-coexistence-modes.md)
 <!-- ============================================================ -->
 #       
 #        
@@ -621,11 +628,10 @@
 
 ## 支持的设备
 ### [管理您的团队中的设备](device-management.md)
-### [IP 电话](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [小组电话](phones-for-teams.md)
 ### [USB 音频和视频设备](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [会议室内设备和解决方案](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [部署座机](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [联机电话 Skype for Business](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 ## [安全 & 合规性](security-compliance-overview.md)
@@ -662,7 +668,7 @@
 #### [通话分析和通话质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
 #### [设置通话分析](set-up-call-analytics.md)
 #### [使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-#### [启用和使用通话质量仪表板](turning-on-and-using-call-quality-dashboard.md)
+#### [打开并使用通话质量仪表板](turning-on-and-using-call-quality-dashboard.md)
 #### [通话质量仪表板中可用的维度和衡量指标](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [通话质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)
 

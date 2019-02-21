@@ -14,19 +14,18 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解 Skype 会议室系统 v2 中可用的功能。 '
-ms.openlocfilehash: 504666aef333ea3dec8f5b217396d75285ea628a
-ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
+ms.openlocfilehash: 2c7b2f4460dbfea5a16a36f7ceed20c8b8ebe2f4
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "25576507"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120481"
 ---
 # <a name="skype-room-systems-v2"></a>Skype 会议室系统 v2
 <a name="bkmk_srs"> </a>

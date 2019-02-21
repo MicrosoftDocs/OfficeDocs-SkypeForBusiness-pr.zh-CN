@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解什么是电话系统 (云 PBX) 自动助理以及如何使用它们。 '
-ms.openlocfilehash: bd59a88c0e8a1bd23c0caf23a3a3099e6ad98063
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: f0b93d39bffc2c479e853228cb4d14f38d9a570d
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048322"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120805"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>什么是电话系统自动助理？
 
@@ -53,10 +53,10 @@ ms.locfileid: "30048322"
 
 要开始使用自动助理，记住以下几点至关重要：
   
-- 企业版 E3 以及**电话系统**的许可证或企业 E5 许可证，您的组织必须 （最低要求）。 可供用于自动助理的**电话系统**的用户许可证分配影响的服务数数字的号码。 您可以自动助理数是取决于您的组织中分配的号码**电话系统**和**音频会议**许可证。 若要了解有关授权的详细信息，请转[Skype 业务和 Microsoft 团队加载项授权的](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
+- 企业版 E3 以及**电话系统**的许可证或企业 E5 许可证，您的组织必须 （最低要求）。 可供用于自动助理的**电话系统**的用户许可证分配影响的服务数数字的号码。 您可以自动助理数是取决于您的组织中分配的号码**电话系统**和**音频会议**许可证。 若要了解有关授权的详细信息，请参阅[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
     > [!TIP]
-    > 要重定向呼叫的运算符或联机用户与**电话系统**许可证的菜单选项，您将需要启用企业语音或分配给它们的调用计划。 请参阅[业务和 Microsoft 团队许可证分配 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。 你还可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > 要重定向呼叫的运算符或联机用户与**电话系统**许可证的菜单选项，您将需要启用企业语音或分配给它们的调用计划。 请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。 你还可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - 若要获取并使用自动助理服务免费电话号码，您需要设置 Communications 字幕式。 若要执行此操作，请参阅[Communications 字幕式是什么？](what-are-communications-credits.md)并[设置为您的组织的通信字幕式](set-up-communications-credits-for-your-organization.md)。
     
@@ -271,7 +271,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 您可以获取有关如何对您[如何可以呼叫者 ID 是您组织中使用](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization)的组织中的呼叫者 ID 设置进行更改的详细信息。
   
 ## <a name="related-topics"></a>相关主题
-[Office 365 中的电话系统的功能](here-s-what-you-get-with-phone-system.md)
+[以下是 Office 365 中的电话系统功能](here-s-what-you-get-with-phone-system.md)
 
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

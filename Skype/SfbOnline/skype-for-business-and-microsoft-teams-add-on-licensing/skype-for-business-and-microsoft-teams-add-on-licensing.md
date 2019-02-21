@@ -1,6 +1,6 @@
 ---
-title: Skype for Business 和 Microsoft Teams 外接程序许可
-ms.date: 05/23/2018
+title: Skype for Business 附加许可
+ms.date: 02/15/2019
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,27 +16,26 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关加载项许可证，哪些功能您将使用其、 如何购买的产品，以及如何与他们使用您现有的运营商。 您可以获取 Office 365，通信字幕式定价和计划的详细信息和呼叫计划。 '
-ms.openlocfilehash: 17115e5456ee874cbdb4ed96c8616d6f1d3527b7
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 855ada8caf7c2ed1cb4c38e52ef24439d961cc25
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297672"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120314"
 ---
-# <a name="skype-for-business-and-microsoft-teams-add-on-licensing"></a>Skype for Business 和 Microsoft Teams 外接程序许可
+# <a name="skype-for-business-add-on-licensing"></a>Skype for Business 附加许可
 
 ## <a name="what-are-add-on-licenses"></a>什么是附加许可证？
 
-加载项许可证是许可证的特定 Skype 业务和 Microsoft 团队的功能。 某些企业希望以有竞争力的价格灵活地购买特定功能。 若要添加一项功能，购买每个用户都将使用它的一个附加许可证。
+附加许可证是针对特定 Skype for Business 功能的许可证。 某些企业希望以有竞争力的价格灵活地购买特定功能。 若要添加一项功能，购买每个用户都将使用它的一个附加许可证。
 
-商业和授权的 Microsoft 团队的 Skype 旨在为您提供的最大的灵活性量。 例如后使用 while 基本 Skype 业务功能，当您准备好使用 Office 365 中的其他功能，如要进行音频会议或电话系统您可以购买附加许可证。
+Skype for Business 许可旨在为你提供最大的灵活性。 例如后使用 while 基本 Skype 业务功能，当您准备好使用 Office 365 中的其他功能，如要进行音频会议或电话系统您可以购买附加许可证。
 
 ## <a name="how-does-add-on-licensing-affect-cost"></a>附加许可对成本有何影响？
 
@@ -52,12 +51,12 @@ ms.locfileid: "27297672"
 
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>有了附加许可证，我可以获得哪些功能？
 
-根据其已规划您有，可以为业务和 Microsoft 团队的功能的以下 Skype 购买附加许可证：
+根据已有的方案，你可以购买以下 Skype for Business 功能的附加许可证：
 
 |||
 |:-----|:-----|
 |**功能** <br/> |**说明** <br/> |
-|**音频会议** <br/> |有时您的组织中的人员将需要使用电话呼入到企业或 Microsoft 团队会议，而不是使用其计算机 Skype。 这种情况下使用的音频会议功能。  <br/> 要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 <br/> 如果要查找它的价格，请参阅 [音频会议的要求](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements)。  <br/> |
+|**音频会议** <br/> |有时您的组织中的人员将需要使用电话呼叫 Skype 业务会议，而不是使用自己的计算机。 这种情况下使用的音频会议功能。  <br/> 要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 <br/> 如果要查找它的价格，请参阅 [音频会议的要求](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements)。  <br/> |
 |**用于拨入会议的免费电话号码，以及通过呼叫世界各地的任何电话号码从会议拨出以添加其他人的功能** <br/> |如果要添加音频会议，我们建议你 [设置通信点数](/microsoftteams/set-up-communications-credits-for-your-organization)。 <br/> |
 |**电话系统** <br/> |PBX 是一个企业电话系统。 Office 365 中的电话系统是一个托管的电话服务。 它为你提供了传统和创新的 PBX 功能，但不带复杂和昂贵的设备。 [下面是与 Office 365 中的电话系统获取的内容](/MicrosoftTeams/here-s-what-you-get-with-phone-system)。  <br/> 如果要查找它的价格，请参阅 [电话系统的要求](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements)。  <br/> |
 |**通话套餐** <br/> |适用于业务用户的其他 Skype 调用是免费的但如果您希望用户能够调用您的业务之外的任何电话号码得到[调用规划](/MicrosoftTeams/calling-plans-for-office-365)。 在 Office 365 中有国内通话套餐和国内和国际通话套餐。  <br/> 如果要查找它的的价格，请参阅 [通话套餐的要求](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)。  <br/> |
@@ -108,6 +107,6 @@ ms.locfileid: "27297672"
     
 - [设置通话套餐](/microsoftteams/set-up-calling-plans) 和 [Office 365 的通话套餐](/MicrosoftTeams/calling-plans-for-office-365)
     
-- [存入资金和管理通信点数](/microsoftteams/add-funds-and-manage-communications-credits)
+- [添加资金并管理通信点数](/microsoftteams/add-funds-and-manage-communications-credits)
     
 - [配置云连接器](https://technet.microsoft.com/en-us/library/mt605228.aspx)和[下载云连接器](https://aka.ms/CloudConnectorInstaller)

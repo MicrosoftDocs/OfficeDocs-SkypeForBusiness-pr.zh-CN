@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文介绍 Microsoft 团队和 Microsoft 团队认证的电话中支持的功能认证的电话的列表。
-ms.openlocfilehash: b9f5b85219981f8fa4c67d5f2ed6e666fc7fada2
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: ac4e609378e23dde4a91fd45bee917ad5c1340d7
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069622"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120953"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 的电话功能
 
@@ -147,4 +147,4 @@ Microsoft 团队用户可以访问其语音邮件，当他们导航到**语音�
 
 [团队市场](http://office.com/teamsdevices)
 
-[IP 电话](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[IP 电话的 Microsoft 团队认证](/skypeforbusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

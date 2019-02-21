@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 标准的音频会议的每用户许可证，除了使用 Microsoft 批量许可的组织还可以选择付薪每分钟版，若要为其组织的音频会议功能。
-ms.openlocfilehash: 7366ea4186d045b75847fd7397becefcf150b8a6
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+ms.openlocfilehash: affeba7a1fda6aaada47bc9b0a8c124caf84cf9e
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760548"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120969"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音频会议按分钟付费
 
@@ -55,23 +55,23 @@ ms.locfileid: "29760548"
 > [!NOTE]
 > 您可以找到关联到这些类型的呼叫通过查看**看到要呼叫部分率**式[音频会议](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates)的电话拨入式和拨出式速率。
   
-付薪每分钟需要您的组织有[Communications 字幕式](what-are-communications-credits.md)启用与分配给音频会议，以使每个用户的许可证。 如果您希望更多详细信息，请参阅[Set up Communications 字幕式为您的组织](set-up-communications-credits-for-your-organization.md)和/或[加载项业务和 Microsoft 团队授权的 Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
+付薪每分钟需要您的组织有[Communications 字幕式](what-are-communications-credits.md)启用与分配给音频会议，以使每个用户的许可证。 如果您希望更多详细信息，请参阅[Set up Communications 字幕式为您的组织](set-up-communications-credits-for-your-organization.md)和/或[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
-若要启用音频会议付薪每分钟您组织中的用户，请参阅[尝试或购买 Office 365 中的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)。
+若要启用音频会议付薪每分钟您组织中的用户，请参阅[尝试或购买 Office 365 中的音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
   
 ## <a name="want-to-find-out-more-about-pricing"></a>要了解有关定价的详细信息？
 
- **正在搜索价格？** 请参阅[如何查看价格和购买附加许可证](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing#bkmk_how)或下列选项之一：
+ **正在搜索价格？** 请参阅[如何查看价格和购买附加许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how)或下列选项之一：
   
-- [音频会议的定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+- [音频会议的定价](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
     
-- [电话系统的定价](https://products.office.com/skype-for-business/phone-system#Requirements)
+- [电话系统的定价](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
     
-- [通话套餐的定价](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
+- [通话套餐的定价](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
     
 ## <a name="related-topics"></a>相关主题
   
-[Skype for Business 和 Microsoft Teams 外接程序许可](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
   
  

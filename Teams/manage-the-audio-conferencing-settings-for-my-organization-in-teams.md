@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解为用户分配电话拨入式会议许可证和会议 ID 的 Microsoft Teams 步骤以及许多其他电话拨入式会议设置。 '
-ms.openlocfilehash: 9769f5cd0a31ddf8494f57454bec698d1a626d4a
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 34afd4597bad857b061296feb87fe8cae758c99f
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754044"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121033"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理贵组织的音频会议设置
 
@@ -37,7 +37,7 @@ ms.locfileid: "29754044"
 ## <a name="assign-an-audio-conferencing-license"></a>分配音频会议许可证
 
 > [!NOTE]
-> 不能使用 Teams 分配许可证。 必须使用 Office 365 管理中心。 请参阅[分配 Skype for Business 和 Microsoft Teams 许可证](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。 
+> 不能使用 Teams 分配许可证。 必须使用 Office 365 管理中心。 请参阅[分配 Skype for Business 和 Microsoft Teams 许可证](assign-teams-licenses.md)。 
   
  **为用户分配许可证**
   
@@ -50,7 +50,7 @@ ms.locfileid: "29754044"
   
 3. 在“操作”窗格中的“**产品许可证**”下，单击“**编辑**”。 
     
-4. 在“**产品许可证**”页面上，开启“**音频会议**”，然后单击“**保存**”。 有关许可的详细信息，请参阅 [Skype for Business 和 Microsoft Teams 加载项许可](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
+4. 在“**产品许可证**”页面上，开启“**音频会议**”，然后单击“**保存**”。 有关许可的详细信息，请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
 > [!NOTE]
 > 在分配许可证后，Microsoft 最初可能不会作为音频会议提供商显示在下拉列表中。 如果发生这种情况，请注销 Office 365 管理中心或按 Ctrl+F5 刷新浏览器窗口。 

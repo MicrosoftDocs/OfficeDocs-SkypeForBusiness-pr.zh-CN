@@ -1,5 +1,5 @@
 ---
-title: Office 365 ProPlus，或业务 Online 独立计划 2 的 Skype
+title: Office 365 ProPlus 或业务 Online 独立计划 2 的 Skype
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,23 +14,22 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 了解有关加载项许可证、 功能和如何购买 Office 365 ProPlus 或 Skype 业务 Online 独立计划 2。
-ms.openlocfilehash: 2a5cd00a0573999afe6f27b6a792b0eaa2260093
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 79f2638f8c2da923846ac522752a3f2bc0a940ec
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240664"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120334"
 ---
-# <a name="office-365-proplus-or-skype-for-business-online-standalone-plan-2"></a>Office 365 ProPlus，或业务 Online 独立计划 2 的 Skype
+# <a name="office-365-proplus-or-skype-for-business-online-standalone-plan-2"></a>Office 365 ProPlus 或业务 Online 独立计划 2 的 Skype
 
-如果您已购买[Office 365 ProPlus](https://products.office.com/en-us/business/office-365-proplus-business-software)，或[业务 Online 独立计划 2 的 Skype](https://products.office.com/en-us/skype-for-business/online)计划，下面是您需要购买，以获取更多的 Skype 业务功能的加载项许可证。
+如果您已购买[Office 365 ProPlus](https://products.office.com/en/business/office-365-proplus-business-software)或[业务 Online 独立计划 2 的 Skype](https://products.office.com/skype-for-business/online)，下面是您需要购买，以获取更多的 Skype 业务功能的加载项许可证。
 
 > [!IMPORTANT]
 > 尽管音频会议、电话系统和通话套餐可以与 Skype for Business Online Plan 2 一起购买以启用语音通话功能，我们建议您评估企业版 E5 计划，以了解它是否更划算。

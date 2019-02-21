@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解有关电话系统可以为您执行的操作。 '
-ms.openlocfilehash: ebf8e5dbf628cf0619df0ab9906c25d75662bdc6
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 4c05c8b5007ea5ffcba6b2c46fc36757858a0dfa
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048799"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121025"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 中的电话系统是什么？
 
@@ -76,8 +76,8 @@ Office 365 中调用计划允许您搜索，获取，以及分配组织中用户
 如果您已准备好开始，请参阅[设置您的组织中的电话系统](setting-up-your-phone-system.md)。
 
 ## <a name="related-topics"></a>相关主题
-- [Skype for Business 和 Microsoft Teams 外接程序许可](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- [Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [管理组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [用于通话套餐的不同类型的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [获取适用于 Skype for Business Online 的电话](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
 

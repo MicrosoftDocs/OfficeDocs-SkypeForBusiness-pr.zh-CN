@@ -1,5 +1,5 @@
 ---
-title: 团队客户端体验和符合共存模式
+title: Teams 客户端体验和共存模式的一致性
 author: dearbeen
 ms.author: bjwhalen
 manager: serdars
@@ -13,16 +13,16 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cc7f27d244b557b96f79b62247ae887a083a0e6
-ms.sourcegitcommit: d8a68433949edfbbece628dd0e1c0ce9205ba0a0
+ms.openlocfilehash: bd81915739d9ad2087dec5b66595efd1c49e2c84
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "30087841"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120889"
 ---
 <a name="about-upgrade-basic"></a>
 
-# <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>团队客户端体验和符合共存模式
+# <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams 客户端体验和共存模式的一致性
 
 > [!NOTE]
 > 当用户在任何业务模式 （SfBOnly、 SfBWithTeamsCollab SfBWithTeamsCollabAndMeetings） Skype 中时，此页介绍团队客户端的行为重要即将发生变化。
@@ -71,7 +71,7 @@ ms.locfileid: "30087841"
 |SfBWithTeamsCollab 或 SfBOnly|已禁用|已禁用|已禁用|已禁用|
 ||||||
 
-自动根据模式，用户体验的一致性声明推出之前`Grant-csTeamsUpgradePolicy`cmdlet 检查 TeamsMessagingPolicy、 TeamsCallingPolicy 和 TeamsMeetingPolicy，以确定它们是否中相应的设置的配置设置可以与指定模式兼容。 如果任何未正确配置，则授予会成功，但警告将提供在 PowerShell 中指示的特定设置的配置不正确。 下面是 PowerShell 警告可能外观的示例：
+自动根据模式，用户体验的一致性声明推出之前`Grant-CsTeamsUpgradePolicy`cmdlet 检查 TeamsMessagingPolicy、 TeamsCallingPolicy 和 TeamsMeetingPolicy，以确定它们是否中相应的设置的配置设置可以与指定模式兼容。 如果任何未正确配置，则授予会成功，但警告将提供在 PowerShell 中指示的特定设置的配置不正确。 下面是 PowerShell 警告可能外观的示例：
 
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`

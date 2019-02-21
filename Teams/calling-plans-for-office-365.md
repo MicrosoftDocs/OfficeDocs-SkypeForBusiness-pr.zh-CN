@@ -1,5 +1,5 @@
 ---
-title: Office 365 的通话套餐
+title: Office 365 通话套餐
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -28,14 +28,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 75a3e031109216899b218c2572ae5906b4be796c
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 091807d63be0c2853217f2bd2c442e8023cc3169
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047984"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121001"
 ---
-# <a name="calling-plans-for-office-365"></a>Office 365 的通话套餐
+# <a name="calling-plans-for-office-365"></a>Office 365 通话套餐
 
 为业务和 Microsoft 团队用户其他 Skype 调用是免费的但如果您希望用户能够调用常规电话，并且还没有服务提供程序发出语音呼叫，您需要购买调用规划。 [Office 365 中有哪些通话套餐？](what-are-calling-plans-in-office-365.md)
   
@@ -60,19 +60,19 @@ ms.locfileid: "30047984"
     ![购买云 PBX 许可证时，您将看到一个选项以购买调用规划语音。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > 根据您的计划，您可能需要之前可以购买电话系统许可证购买更多的加载项。 在[加载项业务和 Microsoft 团队授权的 Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)的详细信息，请参阅"根据您的计划的许可证选项"。
+    > 根据您的计划，您可能需要之前可以购买电话系统许可证购买更多的加载项。 在[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)的详细信息，请参阅"根据您的计划的许可证选项"。
   
 2. 购买电话系统许可证后，您可以通过登录到**Office 365 管理中心**购买调用规划，选择**帐单** > **购买服务** > **加载项订阅**，，然后单击**立即购买**。 您将看到调用计划存在。
     
     ![购买云 PBX 许可证后，您可以购买语音呼叫计划。](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-您可以购买和分配给不同的用户，具体取决于组织的需求的不同调用计划。 您选择调用规划所需之后，继续进行签出。 为 Office 365 管理中心中的每个用户分配计划。 若要了解如何，请参阅[业务和 Microsoft 团队许可证分配 Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
+您可以购买和分配给不同的用户，具体取决于组织的需求的不同调用计划。 您选择调用规划所需之后，继续进行签出。 为 Office 365 管理中心中的每个用户分配计划。 若要了解如何，请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>您必须为内部部署 PSTN 连接的混合用户提供的服务提供商？
 
 如果是这样，您无需购买调用规划。 Office 365 企业 E5 包含**电话系统**的加载项，因此您可以继续进行签出。
   
-然后，将企业 E5 或**电话系统**的加载项许可证分配给 Office 365 管理中心中的用户。 若要了解如何，请参阅[业务和 Microsoft 团队许可证分配 Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
+然后，将企业 E5 或**电话系统**的加载项许可证分配给 Office 365 管理中心中的用户。 若要了解如何，请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。
   
 ## <a name="pricing-information"></a>定价信息
 
@@ -88,9 +88,7 @@ ms.locfileid: "30047984"
   
 - [设置通话套餐](set-up-calling-plans.md)
     
-- [Skype for Business 和 Microsoft Teams 外接程序许可](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-    
-- [规划业务云连接器 edition Skype](https://technet.microsoft.com/library/Mt605227.aspx)： 这篇文章介绍如何设置 Office 365 电话系统与您自己的 PSTN 连接。
+- [Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
 - [规划 Office 365 中的电话系统（云 PBX）解决方案](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
@@ -103,9 +101,5 @@ ms.locfileid: "30047984"
     
 - [设置通话套餐](set-up-calling-plans.md)
     
-- [存入资金和管理通信点数](add-funds-and-manage-communications-credits.md)
-    
-- [配置云连接器](https://technet.microsoft.com/library/mt605228.aspx)和[下载云连接器](https://aka.ms/CloudConnectorInstaller)
-  
-  
+- [添加资金并管理通信点数](add-funds-and-manage-communications-credits.md)
  

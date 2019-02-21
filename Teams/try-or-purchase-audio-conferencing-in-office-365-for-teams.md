@@ -1,5 +1,5 @@
 ---
-title: 尝试或购买 Microsoft 团队的 Office 365 中的音频会议
+title: 为 Microsoft Teams 试用或购买 Office 365 中的音频会议
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,14 +21,14 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
-ms.openlocfilehash: 1b04a2506bd495165afcdf3e9f41ed6db6cd9252
-ms.sourcegitcommit: bd32d44d27990e373ce6afa38897159473601113
+ms.openlocfilehash: 58abec46586e93c2eb9b7fccdc1190cf9cf4c778
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "26544401"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120755"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>尝试或购买 Microsoft 团队的 Office 365 中的音频会议
+# <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>为 Microsoft Teams 试用或购买 Office 365 中的音频会议
 
 有时，组织中的用户需要使用电话拨入会议。 Microsoft 团队包括刚这种情况下的音频会议功能 ！ 人员可以使用电话，而不在移动设备或 PC 上使用的 Microsoft 团队应用程序的 Microsoft 团队会议呼叫。
 
@@ -48,11 +48,11 @@ ms.locfileid: "26544401"
 
    - **试用**其售前： 您可以注册 Office 365 企业 E5 免费试用版包括音频会议。 请参阅 [Office 365 企业版 E5 试用](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)。
 
-   - **购买**： 请参阅[业务和 Microsoft 团队授权加载项的 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
+   - **购买**： 请参阅[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 3. [如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc)分配给贵组织中打算安排或主持会议的人。
 
-4. 如果购买了音频会议外接程序许可证和通信点数许可证，也要分配它们。 有关说明，请参阅[业务和 Microsoft 团队许可证分配 Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
+4. 如果购买了音频会议外接程序许可证和通信点数许可证，也要分配它们。 有关说明，请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>若要购买和分配按分钟付费的音频会议许可证：
 

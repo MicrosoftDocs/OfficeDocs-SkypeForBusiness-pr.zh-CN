@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 了解如何设置中的 Microsoft 团队的实时事件之前应考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0c71258ee0285c4c00f69e63be1f2efbfc5e4ab
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: cee30cc853043b4424a9a30c1ad785f77ea05f70
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297814"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120921"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "27297814"
 - **为快速开始生产** 必须为用户分配的 Microsoft 团队许可证。
 - **为外部编码器生产**必须为用户分配 Microsoft 流许可证。
 
-有关许可的详细信息，请参阅[业务和 Microsoft 团队授权加载项的 Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
+有关许可的详细信息，请参阅[Microsoft 团队加载项授权](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 用户必须拥有：
 - 在启用的团队中的专用会议计划 (*TeamsMeetingPolicy AllowPrivateMeetingScheduling 参数 = True*)。
@@ -85,7 +85,7 @@ ms.locfileid: "27297814"
 |Attendee DVR 控件 （暂停、 后退） |& #x 2714; |& #x 2714; |& #x 2714; |
 |合作伙伴 eCDN 支持 |& #x 2714;（配置单元，Kollective，提升） |& #x 2714;（配置单元，Kollective，提升） |& #x 2714;（配置单元，Kollective，提升） |
 |生产者后广播出席情况报告 |& #x 2714; |& #x 2714; |X |
-|访问群体的观点分析 – Live 投票和投票 |& #x 2714;（Microsoft 脉冲） |X |X |
+|访问群体的观点分析 – Live 投票 & 投票 |& #x 2714;（Microsoft 脉冲） |X |X |
 
 > [!IMPORTANT]
 > 可能更改设置的限制。

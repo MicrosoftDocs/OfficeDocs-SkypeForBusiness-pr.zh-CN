@@ -1,5 +1,5 @@
 ---
-title: 分配 Skype for Business 和 Microsoft Teams 许可证
+title: 分配 Skype for Business 许可证
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,48 +15,47 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 description: '了解如何为电话系统、音频会议、通话套餐和通信点数分配 Skype for Business 许可证。 '
-ms.openlocfilehash: e14ca00d7afa2045248b2a6f18e42a51f3d77b71
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: f1fcece66976d303146a4e173f9e51892ad82282
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372793"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120408"
 ---
-# <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>分配 Skype for Business 和 Microsoft Teams 许可证
+# <a name="assign-skype-for-business-licenses"></a>分配 Skype for Business 许可证
 
-This article gives you tips about assigning licenses to your users for features like Audio Conferencing, Phone System, and Calling Plans. It also provides scripts for assigning licenses in bulk.
+本文提供了有关将许可证分配给您的用户，以用于音频会议、电话系统和通话套餐等功能的提示。 它还提供了批量分配许可证的脚本。
 
 > [!IMPORTANT]
-> 信息，请参阅[业务和 Microsoft 团队的加载项的 Skype 许可](skype-for-business-and-microsoft-teams-add-on-licensing.md)**如何购买**哪些需要购买的许可证以及它们的具体取决于您的 Office 365 计划-以便用户获取音频会议、 免费电话号码，以及呼叫的功能外部业务电话号码。
+> 信息，请参阅[业务加载项授权的 Skype](skype-for-business-and-microsoft-teams-add-on-licensing.md) **如何购买**哪些需要购买的许可证以及它们的具体取决于您的 Office 365 计划-使用户获取音频会议、 免费电话号码，以及呼叫电话号码之外的功能您的业务。
 
 
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>电话系统和通话套餐：分配许可证的提示和脚本
 
 分配音频会议、电话系统和呼叫套餐许可证之前的注意事项
 
-- **Using on-premises PSTN connectivity for hybrid users?** If so, you only need to assign a **Phone System** license. You should **NOT** assign a Calling Plan.
+- **使用的是面向混合用户的内部部署 PSTN 连接？** 如果是这样，您只需将**电话系统**许可证分配。 您应该**不**调用规划的分配。
 
-- **Latency after assigning licenses**: Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for a user to be assigned a Calling Plan after you assign a license. If after 24 hours the user isn't assigned a Calling Plan, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **延迟后分配许可证**： Office 365 和 Skype 业务 online 之间的延迟，因为它可能可能需要多达 24 小时用户要分配调用规划后分配许可证。 如果 24 小时后用户未分配调用计划，请[对业务产品-管理员技术联系人支持](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
-- **Error messages**: You will get an error message if you haven't purchased the correct number of licenses. If you need to buy more Calling Plan licenses, choose **Buy more**.
+- **错误消息** ：如果你还没有购买正确数量的许可证，则会收到一条错误消息。 如果您需要购买更多调用规划许可证，请选择**购买更多**。
     
-- **Next steps**: After you assign Calling Plan licenses to your users, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
+- **后续步骤**： 将调用规划许可证分配给您的用户后，您将需要获得您的组织，您的电话号码，然后将这些号码分配给您的组织中的人员。 有关分步说明，请参阅[Set up 调用计划](/microsoftteams/set-up-calling-plans)。
     
 ### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>如何将电话系统和调用规划许可证分配给一个用户
 
-步骤与分配 Office 365 许可证相同。请参阅[如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
+步骤与分配 Office 365 许可证相同。 请参阅[如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
 
 ### <a name="how-to-assign-phone-system-and-calling-plan-licenses-in-bulk"></a>如何批量分配电话系统和通话套餐许可证
 
-1. Install the **Microsoft Online Services Sign-In Assistant for IT Professionals RTW**. Don't have the module installed? See [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkId=625123) to download it.
+1. 安装 **适用于 IT 专业人员 RTW 的 Microsoft Online Services 登录助手** 。 没有安装模块？ 请参阅[Microsoft Online Services 登录助手的 IT 专业人员的一项](https://go.microsoft.com/fwlink/?LinkId=625123)以下载该。
 
-2. Install the **Windows Azure Active Directory Module.** Don't have the module installed? See [Manage Azure AD using Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=320628) for download instructions and cmdlet syntax.
+2. 安装 **Windows Azure Active Directory 模块。** 没有安装模块？ 下载说明和 cmdlet 语法，请参阅[Manage 使用 Windows PowerShell 的 Azure AD](https://go.microsoft.com/fwlink/p/?LinkId=320628) 。
 
 3. 在安装模块后，请使用 Windows PowerShell 命令提示符和以下语法向用户分配许可证：
 
@@ -115,13 +114,13 @@ This article gives you tips about assigning licenses to your users for features 
 
 ### <a name="what-you-need-to-know-before-assigning-audio-conferencing-licenses"></a>您需要知道分配音频会议许可证之前
 
-- **Third-party audio conferencing provider**: If someone is already set up to use a third-party audio conferencing provider, when you assign them an **Audio Conferencing** license, they will be changed to use Microsoft as the audio conferencing provider. You can change them back to the third-party provider.
+- **第三方音频会议提供商**： 如果某人已设置为使用第三方音频会议提供商，您将其分配的**音频会议**许可证时，他们将更改用于 Microsoft 为音频会议提供程序。 你可以将他们更改回第三方提供商。
 
-- Next steps: After you assign **Audio Conferencing** licenses, you need to assign an audio conferencing provider. See [Assign Microsoft as the audio conferencing provider].
+- 后续步骤： 分配**音频会议**许可证后，您需要分配音频会议提供商。 请参阅 [将 Microsoft 指定为音频会议提供商]。
 
 ### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>如何将音频会议许可证分配给一个用户
 
-步骤与分配 Office 365 许可证相同。请参阅[如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
+步骤与分配 Office 365 许可证相同。 请参阅[如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
 
 ### <a name="how-to-assign-audio-conferencing-licenses-in-bulk"></a>如何将音频会议许可证批量分配
 
@@ -131,7 +130,7 @@ This article gives you tips about assigning licenses to your users for features 
 
     在安装模块后，请使用 Windows PowerShell 命令提示符和以下语法向用户分配许可证：
 
-    The name of the licenses or product names in the script are listed in italics text. See [Audio Conferencing product names or SKUs used for scripting](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) for all of the product names.
+    脚本中的许可证名称或产品名称将以斜体文本列出。 请参阅[音频会议产品名称或 Sku 用于编写脚本](assign-skype-for-business-and-microsoft-teams-licenses.md#sku)的所有产品名称。
 
     本示例指定一个要进行音频会议许可证以及一个企业版 E3 许可证。
 
@@ -188,21 +187,21 @@ foreach ($user in $users)
 
 - **企业 E5 客户**： 即使您的用户分配了企业 E5 许可证，但仍建议您将为其分配**Communications 字幕式**许可证。
     
-- **Next steps**: After you assign these licenses, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
+- **后续步骤** ：分配这些许可证后，你需要获得贵组织的电话号码，然后将这些号码分配给组织中的人员。 有关分步说明，请参阅[Set up 调用计划](/microsoftteams/set-up-calling-plans)。
     
 ### <a name="how-to-assign-a-communications-credits-license-to-one-user"></a>如何将 Communications 字幕式许可证分配给一个用户
 
-步骤与分配 Office 365 许可证相同。请参阅[如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
+步骤与分配 Office 365 许可证相同。 请参阅[如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
 
 ### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>如何将批量 Communications 字幕式许可证分配
 
-Take a look at the sample script for assigning **Audio Conferencing** licenses. Update it with the info for assigning **Communications Credits** licenses.
+请看一下分配**音频会议**许可证的示例脚本。 更新其分配**Communications 字幕式**许可证的信息。
 
 ## <a name="related-topics"></a>相关主题
   
 [设置通话套餐](/microsoftteams/set-up-calling-plans)
   
-[存入资金和管理通信点数](/microsoftteams/add-funds-and-manage-communications-credits)
+[添加资金并管理通信点数](/microsoftteams/add-funds-and-manage-communications-credits)
   
   
  

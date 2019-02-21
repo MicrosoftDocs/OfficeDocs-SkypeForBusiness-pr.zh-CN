@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解在 Microsoft Teams 中当用户的电话拨入式会议设置更改时自动通过电子邮件向其发送的信息。 '
-ms.openlocfilehash: db9b2c2d99aad64bd9d607e5acbac99afc36d978
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 1d38963771388b1aec9bb2274e23dcfd22e9fe4b
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754670"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120881"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>在 Microsoft Teams 中当用户设置更改时向其发送的电子邮件
 
@@ -35,7 +35,7 @@ ms.locfileid: "29754670"
 
 - **为用户分配了音频会议许可证时，或者你将音频会议提供商更改为 Microsoft 时。**
 
-     此电子邮件包括会议 ID、默认的会议电话号码、用户的音频会议 PIN 以及使用 Skype for Business Online 会议更新工具为用户更新现有会议的说明和链接。 请参阅[分配 Skype for Business 和 Microsoft Teams 许可证](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)或[将 Microsoft 指定为音频会议提供商](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
+     此电子邮件包括会议 ID、默认的会议电话号码、用户的音频会议 PIN 以及使用 Skype for Business Online 会议更新工具为用户更新现有会议的说明和链接。 请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)或[分配 Microsoft 作为音频会议提供商](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
 
     > [!NOTE]
     > 如果贵组织已启用动态会议 ID，则用户安排的所有会议都将具有唯一的会议 ID。 你可以[在贵组织中设置音频会议动态 ID](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user)。 
@@ -44,7 +44,7 @@ ms.locfileid: "29754670"
 
      ![Skype for Business 验证许可证](media/audio-conferencing-user-enabled.png)
 
-    有关许可的详细信息，请参阅 [Skype for Business 和 Microsoft Teams 加载项许可](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
+    您可以了解有关查看[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)许可的详细信息。
 
 - **更改了用户的会议 ID 或默认会议电话号码。**
 

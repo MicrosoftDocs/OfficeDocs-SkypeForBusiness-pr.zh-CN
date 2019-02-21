@@ -14,23 +14,22 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关加载项许可证、 功能和如何购买 Office 365 企业版计划。 '
-ms.openlocfilehash: bc88524050e8606c6d93a8fcf24ed5d8c1638fe3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 084d60a2c21712e119657005a52dc0af11bce9a0
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886754"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120344"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 企业版 E5
 
-[Office 365 企业 E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software)计划包括大多数 Skype 业务和 Microsoft 团队的功能。 只有几个附加选项。
+[Office 365 企业版 E5 ](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software)计划包括大部分 Skype for Business 功能。只有几个附加选项。
   
 |||
 |:-----|:-----|

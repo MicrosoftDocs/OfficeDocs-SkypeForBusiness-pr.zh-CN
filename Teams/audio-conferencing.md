@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: a3ce04974eec062360bb6b0663255f079e097554
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 0bf506350a6e656d0143a968bcd0e884b47e5653
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532230"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120681"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的音频会议实践指导
 ============================================================
@@ -266,19 +266,19 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 
 ## <a name="licensing-for-audio-conferencing"></a>许可音频会议
 
-[音频会议许可证](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)作为 Office 365 E5 订阅计划的一部分提供，或者作为 Office 365 E1 或 Office 365 E3 订阅计划的附加内容提供。
+[音频会议许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)作为 Office 365 E5 订阅计划的一部分提供，或者作为 Office 365 E1 或 Office 365 E3 订阅计划的附加内容提供。
 
 > [!NOTE]
 > Teams 中的 PSTN 或电话拨入式会议不支持第三方<sup></sup>音频会议提供商 (ACP)。<br>如果你现在已使用 Skype for Business Online PSTN 会议，则可以立即利用 Teams 中的音频会议。
 
-为了提供免费电话会议桥接电话号码以及支持向国际电话号码拨出的会议，你需要为贵组织设置[通信点数](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)。
+为了提供免费电话会议桥接电话号码以及支持向国际电话号码拨出的会议，你需要为贵组织设置[通信点数](what-are-communications-credits.md)。
 
 > [!IMPORTANT]
 > 在有些国家/地区，仅通过免费电话会议桥接电话号码提供服务，这种情况下，在此类国家/地区，必须使用通信点数以支持拨入。
 
-实施通信点数时首先要考虑的是确定要购买的初始资金数额。 可以参考[通信点数](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)一文中的建议资金数额。
+实施通信点数时首先要考虑的是确定要购买的初始资金数额。 可以参考[通信点数](what-are-communications-credits.md)一文中的建议资金数额。
 
-如果贵组织选择使用自动充值，[通信点数](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)文档中也提供了触发数额（最低资金数额）建议。 自动充值数额需要由实际使用情况确定。 应持续监控通信点数使用情况，并根据需要调整充值数额。
+如果贵组织选择使用自动充值，[通信点数](what-are-communications-credits.md)文档中也提供了触发数额（最低资金数额）建议。 自动充值数额需要由实际使用情况确定。 应持续监控通信点数使用情况，并根据需要调整充值数额。
 
 <br>
 
@@ -324,7 +324,7 @@ Office 365 中的音频会议服务包括：
 -   对会议桥接支持多种语言（主要和辅助）
 -   租户的默认电话号码
 
-有关包含的功能的完整说明，请参阅[为 Skype for Business 和 Microsoft Teams 设置音频会议](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)以及[用于音频会议的电话号码](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)。
+有关包含的功能的完整说明，请参阅[为 Skype for Business 和 Microsoft Teams 设置音频会议](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)以及[用于音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)。
 
 > [!NOTE]
 > 根据[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)中所述的适用许可证数量，专用会议网桥电话号码的数量不超过每个租户可以获取的电话号码限制。 免费电话会议桥接电话号码需要通信点数。
@@ -334,7 +334,7 @@ Office 365 中的音频会议服务包括：
 > [!NOTE]
 > 将电话号码转移到 Microsoft 的复杂性根据国家或地区、运营商、涉及的线路数量以及许多其他影响因素而有很大不同。 要计划电话携号转网，请查看[携号转网指南](https://go.microsoft.com/fwlink/?linkid=859011)。
 
-有关将电话号码转移到音频会议服务的其他详细信息，请参阅[将电话号码转移到 Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)。
+有关将电话号码转移到音频会议服务的其他详细信息，请参阅[将电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md)。
 
 <br>
 
@@ -432,7 +432,7 @@ Office 365 的电话系统功能中的[拨号计划](https://docs.microsoft.com/
     -   **租户-用户拨号计划** - 该拨号计划仅适用于特定用户。
 
 > [!NOTE]
-> 有关进一步详细信息和示例，请参阅[什么是拨号计划？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)文档。
+> 有关进一步详细信息和示例，请参阅[什么是拨号计划？](what-are-dial-plans.md)文档。
 
 分配给用户的有效拨号计划是服务拨号计划（基于用户的 Office 365 使用位置）和租户拨号计划（可以是租户-全局拨号计划或租户-用户拨号计划）的组合。
 

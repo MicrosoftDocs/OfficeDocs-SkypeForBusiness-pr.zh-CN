@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb254de21bfaf0ffb66a9c9177e5109a1b4eafc1
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: a7cd550b266f69d4ad0223bd7364ec1b69e56745
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593963"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120567"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -88,20 +88,20 @@ ms.locfileid: "29593963"
 
 ## <a name="phone-numbers-and-emergency-locations"></a>电话号码和紧急位置
 
-与调用计划在 Office 365 中，您的组织中的每个用户需要有分机 (DID) 电话号码和相应的验证紧急地址唯一直接向。 查看[管理云语音电话号码](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system#manage-cloud-voice-telephone-numbers)，以规划调用计划实现电话号码获取。
+与调用计划在 Office 365 中，您的组织中的每个用户需要有分机 (DID) 电话号码和相应的验证紧急地址唯一直接向。 查看[管理云语音电话号码](2-envision-make-my-service-decisions-phone-system.md#manage-cloud-voice-telephone-numbers)，以规划调用计划实现电话号码获取。
 
 当您正在配置的调用计划的电话号码时，必须将紧急地址分配给每个电话号码之前您分配给用户的数量。 为了支持紧急呼叫，必须这样做。 必须验证的紧急地址，以确保它按正确格式用于紧急响应服务。
 
 > [!IMPORTANT]
-> 紧急服务呼叫调用计划在服务中与传统电话服务中的工作方式不同。 很重要，您了解这些差异，以及向所有用户的通信它们。 有关详细信息，请参阅[紧急呼叫条款和条件](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)。
+> 紧急服务呼叫调用计划在服务中与传统电话服务中的工作方式不同。 很重要，您了解这些差异，以及向所有用户的通信它们。 有关详细信息，请参阅[紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)。
 
 除了提供验证紧急地址，您可以定义紧急位置，并将它们与验证的紧急地址以提供更精确位置中的地址。 紧急位置通常是用户所在的建筑物编号、楼层、建筑物侧楼或办公室号码。
 
 若要了解有关相对于调用计划的紧急位置的详细信息，请查看以下文章：
 
--   [什么是紧急位置、地址和呼叫路由？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
+-   [什么是紧急位置、地址和呼叫路由？](what-are-emergency-locations-addresses-and-call-routing.md)
 
--   [紧急呼叫条款和条件](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
+-   [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
 <br>
 
@@ -130,7 +130,7 @@ ms.locfileid: "29593963"
 
 默认情况下，电话系统的语音邮件与 Exchange Online; 一起工作但是，它具有的最小支持的 Exchange 内部部署版本和部署模型以允许对内部部署 Exchange 部署中的用户邮箱发送的语音邮件消息。
 
-电话系统语音邮件包括语音邮件转录，默认情况下，为组织中的所有用户启用该功能。 您的业务需求可能需要您禁用语音邮件转录的特定用户或整个组织中的每个人。 如果您的组织决定保留启用语音邮件转录，您需要还考虑是否需要启用语音邮件转录亵渎屏蔽。 有关详细信息，请参阅[设置您的组织中的语音邮件策略](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail)。
+电话系统语音邮件包括语音邮件转录，默认情况下，为组织中的所有用户启用该功能。 您的业务需求可能需要您禁用语音邮件转录的特定用户或整个组织中的每个人。 如果您的组织决定保留启用语音邮件转录，您需要还考虑是否需要启用语音邮件转录亵渎屏蔽。 有关详细信息，请参阅[设置您的组织中的语音邮件策略](set-up-phone-system-voicemail.md)。
 
 >[!NOTE]
 > 实施了回退机制，以便电话系统语音邮件可以通过使用 SMTP 重新发送邮件，这意味着，在第三方电子邮件系统中有邮箱的用户将会收到其语音邮件。 此机制不包括保证的服务正常运行时间或其他语音邮件功能，如更改语音邮件问候语。
@@ -149,7 +149,7 @@ ms.locfileid: "29593963"
 > 
 > |用户 |Exchange 邮箱 |启用语音邮件？ |语音邮件转录 |语音邮件转录亵渎屏蔽 |
 > |------------------|------------------|-------------------|----------|----------|
-> |Emily Braun      |Online      |是 |启用 |启用 |
+> |Emily Braun      |Online      |是 |启用 |已启用 |
 > |Lidia Holloway   |Online      |是 |启用 |已禁用 |
 > |港 Lahr       |本地 |是 |启用 |启用 |
 > |Marcel Beauchamp |本地 |是 |禁用 |不适用 |
@@ -214,9 +214,9 @@ ms.locfileid: "29593963"
 
 若要了解有关电话系统和调用计划详细信息，请查看以下文章：
 
--   [电话系统](https://products.office.com/skype-for-business/phone-system)
+-   [电话系统](https://products.office.com/en-us/skype-for-business/phone-system)
 
--   [通话套餐](https://products.office.com/skype-for-business/calling-plans)
+-   [通话套餐](https://products.office.com/en-us/skype-for-business/calling-plans)
 
 <br>
 
@@ -247,7 +247,7 @@ ms.locfileid: "29593963"
 
 对于调用计划实现中，您可以控制使用 Communications 字幕式基于每个用户，它可以帮助您确保您已与您的业务需求分配这些字幕式中对齐方式。
 
-若要了解有关 Communications 字幕式的详细信息，请查看[Communications 字幕式是什么？](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)。
+若要了解有关 Communications 字幕式的详细信息，请查看[Communications 字幕式是什么？](what-are-communications-credits.md)。
 
 <br>
 
@@ -261,9 +261,9 @@ ms.locfileid: "29593963"
 > 
 > |用户 |办公地点 |调用计划 |通信点数 |
 > |----|----|----|----|
-> |Emily Braun |伦敦桥大街 32 号 |国际和国内通话套餐 |启用 |
+> |Emily Braun |伦敦桥大街 32 号 |国际和国内通话套餐 |已启用 |
 > |Lidia Holloway |伦敦桥大街 32 号 |国内通话套餐 |已禁用 |
-> |港 Lahr |伦敦桥大街 32 号 |国内通话套餐 |启用 |
+> |港 Lahr |伦敦桥大街 32 号 |国内通话套餐 |已启用 |
 > |Marcel Beauchamp |39 quai du Président Roosevelt |国内通话套餐 |禁用 |
 > |Rachelle Cormier |39 quai du Président Roosevelt |国际和国内通话套餐 |启用 |
 > |Isabell Potvin |39 quai du Président Roosevelt |国内通话套餐 |已禁用 |
@@ -297,11 +297,11 @@ Microsoft 云语音解决方案中的电话号码的两种类型包括：
 
 -   服务号码，可用作收费和免费电话服务号码，具有更高的并发呼叫容量比订户号且可分配给服务，如要进行音频会议、 自动助理或呼叫的队列。
 
-有关电话号码的类型的详细信息，请参阅[不同种类的用于调用计划的电话号码](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans)。
+有关电话号码的类型的详细信息，请参阅[不同种类的用于调用计划的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)。
 
 您可以获取的电话号码的总计取决于类型电话号码和您已购买和分配给您的用户的许可证数量。
 
-有关您可以获取的电话号码的总计的详细信息，请参阅[您可以获取多少个电话号码？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
+有关您可以获取的电话号码的总计的详细信息，请参阅[您可以获取多少个电话号码？](how-many-phone-numbers-can-you-get.md)
 
 <br>
 
@@ -322,9 +322,9 @@ Microsoft 云语音解决方案中的电话号码的两种类型包括：
 
 电话号码移植是一个复杂的主题，并要求进行规划时应、 协调和充分管理股东的期望。 若要了解详细信息，请参阅以下文章：
 
--   [转接到 Office 365 的电话号码](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
+-   [转接到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)
 
--   [关于转移电话号码的常见问题](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
+-   [转接电话号码常见问题](transferring-phone-numbers-common-questions.md)
 
 <br>
 
@@ -356,7 +356,7 @@ Office 365 的电话系统功能中的拨号计划是翻译的规范化规则的
 > [!IMPORTANT]
 > 每个租户拨号计划; 中可以有 25 规范化规则的最大因此，很重要，以避免重复已有的规范化规则作为服务的一部分拨号计划。
 
-有关拨号计划的详细信息，请参阅[拨号计划是什么？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
+有关拨号计划的详细信息，请参阅[什么是拨号计划？](what-are-dial-plans.md)
 
 <br>
 

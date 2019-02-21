@@ -1,5 +1,5 @@
 ---
-title: 企业的 Microsoft 团队中的音频会议的测试计划
+title: 针对 Microsoft Teams 中的音频会议的企业测试计划
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f9fea1e2d3f8dcf4fc966d1392a38168fc1656e
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: 16207273020dbe6e1ab4e2cd5ff958fcdbe614dc
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694858"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120747"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>定义和团队测试计划适用于企业中文档音频会议 
 ===============================================================================
@@ -752,7 +752,7 @@ ms.locfileid: "28694858"
 
 -   专用和共享的音频会议电话拨入式号码列表 — 与范围中组织站点和用户的语言首选项 — 已标识和配置。
 
--   [Communications 字幕式](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)（如果需要） 已为您的组织，以提供对免费的会议桥接电话号码和支持会议访问电话拨出式方案国际设置。
+-   [Communications 字幕式](what-are-communications-credits.md)（如果需要） 已为您的组织，以提供对免费的会议桥接电话号码和支持会议访问电话拨出式方案国际设置。
 
 -   音频会议的会议桥设置已标识并配置所有用户的范围 （PIN 长度、 条目/退出通知启用通知首选项）。
 
