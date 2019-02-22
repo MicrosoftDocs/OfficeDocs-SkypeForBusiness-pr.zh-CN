@@ -3,7 +3,7 @@ title: Microsoft Teams 的已知问题
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 8/21/2018
+ms.date: 2/19/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e0a74bf35a122a672f99e91c872eab77a6ce6cd
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 0877ce3f92a9266d3ae4ea93f634a1e8d612be57
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789164"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120438"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -32,7 +32,7 @@ ms.locfileid: "27789164"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|Enhanced Mitigation Experience Toolkit (EMET) 中的 EAF 策略可能会将 Chromium 沙盒优化错误地标识为威胁。 <br/> |Chromium 沙盒存在问题，即 Enhanced Mitigation Experience Toolkit (EMET) 和 Windows Defender 高级威胁防护 (ATP) 中的导出地址表访问筛选 (EAF) 策略可能会将 Chromium 沙盒优化错误地标识为威胁。这会导致 Teams 无法正常运行。  <br/> | 要解决此问题，请对 Teams 关闭 EAF。有关此问题的详细信息，请参阅 [EMET 缓解准则](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines)。有关 Windows Defender ATP 和 EAF 策略的详细信息，请参阅[自定义漏洞利用保护](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |2018 年 10 月 11 日 <br/> |
+|Enhanced Mitigation Experience Toolkit (EMET) 中的 EAF 策略可能会将 Chromium 沙盒优化错误地标识为威胁。 <br/> |Chromium 沙盒存在问题，即 Enhanced Mitigation Experience Toolkit (EMET) 和 Windows Defender 高级威胁防护 (ATP) 中的导出地址表访问筛选 (EAF) 策略可能会将 Chromium 沙盒优化错误地标识为威胁。这会导致 Teams 无法正常运行。  <br/> | 要解决此问题，请对 Teams 关闭 EAF。有关此问题的详细信息，请参阅 [EMET 缓解准则](https://support.microsoft.com/zh-CN/help/2909257/emet-mitigations-guidelines)。有关 Windows Defender ATP 和 EAF 策略的详细信息，请参阅[自定义漏洞利用保护](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |2018 年 10 月 11 日 <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -272,7 +272,7 @@ ms.locfileid: "27789164"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|团队成员上限为 2500  <br/> |Microsoft Team 中每个团队最多可以有 2500 个成员。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/> |
+|团队成员最大数量为 5000 人  <br/> |在 Microsoft Team 中，每个团队成员的最大数量为 5000 人。  <br/> |无解决方法。  <br/> |2019/2/6  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
