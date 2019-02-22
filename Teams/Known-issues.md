@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0877ce3f92a9266d3ae4ea93f634a1e8d612be57
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 252d1508065aaf0a26e865b8f8d8109dec81512e
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120438"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178578"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -163,7 +163,7 @@ ms.locfileid: "30120438"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|用户无法访问会议/连接器，但有 Exchange Online 邮箱。 <br/> |客户可在 Exchange Online 中主动阻止来自服务的 EWS，但需要使 MS Teams 符合 EWS 策略。 <br/> |要使 MS Teams 符合 EWS 策略，必须在 EWSAllowList 中为 MS Teams 添加以下用户代理字符串：`*skypespaces*` 和 `*microsoftninja*`（包含星号）。可以使用以下命令：`Set-organizationconfig -EwsAllowList @{Add="*MicrosoftNinja*","*SkypeSpaces*"}`<br/> 有关详细信息，请参阅：https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps。 <br/> |2017 年 5 月 30 日  <br/>|
+|用户无法访问会议/连接器，但有 Exchange Online 邮箱。 <br/> |客户可在 Exchange Online 中主动阻止来自服务的 EWS，但需要使 MS Teams 符合 EWS 策略。 <br/> |要使 MS Teams 符合 EWS 策略，必须在 EWSAllowList 中为 MS Teams 添加以下用户代理字符串：`SkypeSpaces/*` 和 `MicrosoftNinja/*`（包含星号）。可以使用以下命令：`Set-organizationconfig -EwsAllowList @{Add="MicrosoftNinja/*","SkypeSpaces/*"}`<br/> 有关详细信息，请参阅：https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps。 <br/> |2017 年 5 月 30 日  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
