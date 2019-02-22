@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Microsoft Teams 中启用或禁用 Skype 在 PIN 等设置更改或默认会议号码更改时向用户发送电子邮件。 '
-ms.openlocfilehash: 5f0573a0dec22791bd49eeeb6be6235ae2838c70
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 7c08f0268c707a545873afe76e850a90a41087b4
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754134"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178635"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>在 Microsoft Teams 中启用或禁用在音频会议设置更改时发送电子邮件
 
@@ -35,7 +35,7 @@ ms.locfileid: "29754134"
   
 下面是为用户启用了音频会议时向用户发送的电子邮件示例：
   
-![音频会议电子邮件](media/audio-conferencing-user-enabled.png)
+![音频会议电子邮件](media/teams-emails-sent-to-users-when-settings-change-image1.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>什么时候向用户发送电子邮件？
 

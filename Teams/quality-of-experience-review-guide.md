@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 体验质量概述指南
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: rowille
 manager: serdars
 ms.date: 09/05/2018
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b19fe5dce5c728880c54321e5d6dbb1901d0aac
-ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
+ms.openlocfilehash: c9162a10d55b224e14867866395b1e44d18e8e6e
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "29964447"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178737"
 ---
 # <a name="quality-of-experience-review-guide"></a>查看用户体验指南的质量
 
@@ -57,11 +57,17 @@ _图 1-本指南中介绍的密钥操作区域_
 
 ## <a name="prerequisites"></a>先决条件
 
-之前使用本指南，请确保您拥有适当租户[角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)分配，以便您可以访问 CQD。
+之前使用本指南，请确保您拥有适当租户[角色](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)分配，以便您可以访问 CQD。
 
--   **Office 365 全局管理员角色：** 在您规划，包括 for Business 的 Skype 访问 Office 365 套件的服务中的所有管理功能。
+-   **Office 365 全局管理员角色** 
 
--   **业务管理员角色的 Skype:** 为您的组织配置 for Business 的 Skype 并能够在 Office 365 管理中心查看所有[活动报告](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)。 即使部署仅团队，则需要此角色。
+-   **Skype 业务管理员角色** 
+
+-   **团队服务管理员角色** 
+
+-   **团队 Communications 支持工程师角色** 
+
+-   **团队 Communications 支持专家角色** 
 
 此外，您可以向 Office 365 用户帐户以允许访问报告功能仅分配下列角色。
 
@@ -95,7 +101,7 @@ CQD 中的实际度量值随工作负荷，但出于的质量体验审阅我们�
 > CQD 提供"质量欠佳由于..." 度量值，以便更好地了解哪些条件导致要归类为质量欠佳的流。
 
 
-_表 1-较差的服务指标_
+_表 1 的音频质量较差的指标_
 
 | 指标的平均值     | 说明     | 用户体验 |
 |-------------|-----------------|-----------------|
@@ -139,7 +145,7 @@ _表 2-核心目标运行状况评估指标_
 <tr><td rowspan="5"><strong>会议</strong></td><td>内部</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>有线内部</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
 <tr><td>内部 Wi-fi 5 GHz</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
-<tr><td>内部 Wi-fi 2.4 GHz</td><td>4.0%</td><td>0.5%</td><td>2.0%</td></tr>
+<tr><td>内部 Wi-fi 2.4 GHz</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>综合</td><td>2.0%</td><td>0.5%</td><td>3.0%</td></tr>
 <tr><td rowspan="4"><strong>P2P</strong></td><td>内部</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>内部有线/Wi-fi 5 GHz</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>

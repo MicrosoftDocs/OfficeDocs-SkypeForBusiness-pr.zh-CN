@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解在 Microsoft Teams 中当用户的电话拨入式会议设置更改时自动通过电子邮件向其发送的信息。 '
-ms.openlocfilehash: 1d38963771388b1aec9bb2274e23dcfd22e9fe4b
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 1431cd4391219e052ec2ad3702a9e4c227912a06
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120881"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178690"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>在 Microsoft Teams 中当用户设置更改时向其发送的电子邮件
 
@@ -42,9 +42,9 @@ ms.locfileid: "30120881"
 
     下面是此电子邮件示例：
 
-     ![Skype for Business 验证许可证](media/audio-conferencing-user-enabled.png)
+     ![Skype for Business 验证许可证](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    您可以了解有关查看[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)许可的详细信息。
+    若要了解有关授权的详细信息，请参阅[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 - **更改了用户的会议 ID 或默认会议电话号码。**
 
@@ -52,7 +52,7 @@ ms.locfileid: "30120881"
 
     下面是此电子邮件示例：
 
-     ![电话拨入式会议信息已更改。](media/audio-conferencing-info-change.png)
+     ![电话拨入式会议信息已更改。](media/teams-emails-sent-to-users-when-settings-change-image2.png)
 
 - **重置了用户的音频会议 PIN。**
 
@@ -60,7 +60,7 @@ ms.locfileid: "30120881"
     
      下面是此电子邮件示例：
     
-     ![电话拨入式会议 PIN 已更改。](media/audio-conferencing-pin-has-changed.png)
+     ![电话拨入式会议 PIN 已更改。](media/teams-emails-sent-to-users-when-settings-change-image3.png)
   
 - **用户的许可证被删除，或者音频会议提供商从 Microsoft 更改为其他提供商或“无”。**
 
@@ -70,7 +70,7 @@ ms.locfileid: "30120881"
 
     下面是此电子邮件示例：
 
-     ![电话拨入式会议已关闭。](media/audio-conferencing-turned-off.png)
+     ![电话拨入式会议已关闭。](media/teams-emails-sent-to-users-when-settings-change-image4.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

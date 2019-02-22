@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 摘要：如何使用容量计算器工具。
-ms.openlocfilehash: c55c42942ef14d7ec1904fb8b43340d6a2babb50
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8fdd2132a60becfc68c6e8d59acd8660a33eb9b4
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533411"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178659"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype 业务服务器容量规划计算器
  
@@ -26,7 +26,7 @@ ms.locfileid: "26533411"
 > - 业务服务器 2019 的 Skype。
 > - Skype 业务服务器 2015年。
   
-[业务 Server 2015 容量计算器的 Skype](https://www.microsoft.com/en-us/download/details.aspx?id=51196)和[业务 Server 2019 容量计算器的 Skype](https://www.microsoft.com/en-in/download/details.aspx?id=57510)扩充[Skype 业务规划工具](https://www.microsoft.com/en-us/download/details.aspx?id=50357)和部署文档 ([规划您 Skype for Business服务器 2015年部署](../plan-your-deployment/plan-your-deployment.md)和[Plan for Business Server 2019 部署您 Skype](../../SfBServer2019/plan/plan-your-deployment-2019.md)分别)。 请在阅读指南并使用规划工具创建建议的拓扑之后使用计算器。
+[业务 Server 2015 容量计算器的 Skype](https://www.microsoft.com/en-us/download/details.aspx?id=51196)和[业务 Server 2019 容量计算器的 Skype](https://www.microsoft.com/en-us/download/details.aspx?id=57509)扩充[Skype 业务规划工具](https://www.microsoft.com/en-us/download/details.aspx?id=50357)和部署文档 ([规划您 Skype for Business服务器 2015年部署](../plan-your-deployment/plan-your-deployment.md)和[Plan for Business Server 2019 部署您 Skype](../../SfBServer2019/plan/plan-your-deployment-2019.md)分别)。 请在阅读指南并使用规划工具创建建议的拓扑之后使用计算器。
   
 Skype for Business Server 容量计算器帮助您确定服务器要求基于用户和您的组织使用的通信工具的数量。 在确定你的配置文件和你想要为用户启用的功能之后，请使用计算器确定所需的服务器数、内存和带宽。 此版本的计算器不针对磁盘 I/O 要求提供指导。
   

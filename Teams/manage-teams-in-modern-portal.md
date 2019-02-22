@@ -1,5 +1,5 @@
 ---
-title: 管理 Microsoft 团队管理中心中的团队
+title: 在 Microsoft Teams 管理中心中管理团队
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,14 +15,14 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd56bd9147ca58ad38b41f64a7a6f3c6a8daf134
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: cf4d312f8fcb7f9ba509359eaaeed415be3e9662
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754184"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178674"
 ---
-<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>管理 Microsoft 团队管理中心中的团队
+<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心中管理团队
 ==========================================
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
@@ -112,7 +112,7 @@ ms.locfileid: "29754184"
 
 5. 在右上角中运行查询。
 
-6. 确认工作组正确显示回到上的 Microsoft 团队管理中心-团队概述 （英文）
+6. 确认工作组能够正确显示在 Microsoft 团队管理中心-团队概述 （英文）
 
 
 ## <a name="learn-more"></a>了解更多信息

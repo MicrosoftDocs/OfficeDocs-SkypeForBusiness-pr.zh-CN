@@ -16,10 +16,10 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: 了解如何管理会议团队中的策略设置。
 ms.openlocfilehash: 96b5008ebbdbcad2dc44234d861c4127c77ed69c
-ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2019
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "30056608"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略

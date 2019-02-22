@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd81915739d9ad2087dec5b66595efd1c49e2c84
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 1d97bf7230e8d1f78f2cf5c169fbf48a93f415bb
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120889"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178643"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -44,6 +44,7 @@ ms.locfileid: "30120889"
 
 **说明：**
 <sup>1</sup>会议聊天是仍然可用。
+
 <sup>2</sup>现在，SfBwithTeamsCollab 和 SfBOnly 的行为相同，但 SfBOnly 模式也禁用团队; 中的通道和文件功能的用途是但是，当前此功能允许在要禁用的团队中没有设置。
 
 
@@ -74,9 +75,9 @@ ms.locfileid: "30120889"
 自动根据模式，用户体验的一致性声明推出之前`Grant-CsTeamsUpgradePolicy`cmdlet 检查 TeamsMessagingPolicy、 TeamsCallingPolicy 和 TeamsMeetingPolicy，以确定它们是否中相应的设置的配置设置可以与指定模式兼容。 如果任何未正确配置，则授予会成功，但警告将提供在 PowerShell 中指示的特定设置的配置不正确。 下面是 PowerShell 警告可能外观的示例：
 
 
-`Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
+授予 CsTeamsUpgradePolicy-Identity user1@contoso.com-PolicyName SfBWithTeamsCollab
 
-*警告: user1@contoso.com' 用户当前已启用的有效策略值： AllowUserChat AllowPrivateCalling、 AllowPrivateMeetingScheduling、 AllowChannelMeetingScheduling。Near 术语，当使用模式授予 TeamsUpgradePolicy = SfBWithTeamsCollab 给用户，您必须单独还分配策略，以确保用户具有有效策略禁用值： AllowUserChat、 AllowPrivateCalling，AllowPrivateMeetingScheduling，AllowChannelMeetingScheduling。将来，功能也会自动授予 TeamsUpgradePolicy。*
+警告: user1@contoso.com' 用户当前已启用的有效策略值： AllowUserChat AllowPrivateCalling、 AllowPrivateMeetingScheduling、 AllowChannelMeetingScheduling。 Near 术语，当使用模式授予 TeamsUpgradePolicy = SfBWithTeamsCollab 给用户，您必须单独还分配策略，以确保用户具有有效策略禁用值： AllowUserChat、 AllowPrivateCalling，AllowPrivateMeetingScheduling，AllowChannelMeetingScheduling。 将来，功能将自动服从 TeamsUpgradePolicy。
 
 时看到这样的警告，管理员随后应更新指示的策略中团队提供兼容的最终用户体验。 如果管理员决定不执行任何操作由于警告，用户仍可以访问聊天，呼叫和/或会议中团队的日程安排功能，具体取决于 TeamsMessagingPolicy、 TeamsCallingPolicy 和 TeamsMeetingPolicy 的值可能会造成的混乱的最终用户体验。
 

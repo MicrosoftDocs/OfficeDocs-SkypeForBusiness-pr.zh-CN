@@ -1,5 +1,5 @@
 ---
-title: Skype 会议应用程序使用团队配置
+title: 将 Skype 会议应用配置为与 Teams 配合使用
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
@@ -11,14 +11,14 @@ description: 管理员可以使用的 Microsoft 团队管理中心 Skype 会议�
 Set_Free_Tag: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e94598822ab321ea514bb41af2fa0e4f8ee57ff0
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: d7ff2ea007303d88bcf2b6e6d68091513b5c60e2
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754572"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178627"
 ---
-<a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Skype 会议应用程序使用团队配置
+<a name="configure-the-skype-meetings-app-to-work-with-teams"></a>将 Skype 会议应用配置为与 Teams 配合使用
 ===================================================
 
 用户升级到 Microsoft 团队后，管理员可以使用的 Microsoft 团队管理中心指定用户将使用的业务会议加入 Skype 的首选应用程序。
@@ -29,7 +29,7 @@ ms.locfileid: "29754572"
 2. 在左窗格中，**组织范围的设置**下选择**工作组升级**。
 3. 对团队升级页上，在**应用程序首选项**下的，从**加入 Skype 业务会议的用户的首选应用程序**下拉列表中选择**Skype 会议应用程序**。
 
-![选择首选应用程序的用户可以加入 Skype 业务会议](media/configure-skype-meetings-app-to-work-with-teams.png)
+![选择首选应用程序的用户可以加入 Skype 业务会议](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
 
 ## <a name="known-limitations"></a>已知限制
 

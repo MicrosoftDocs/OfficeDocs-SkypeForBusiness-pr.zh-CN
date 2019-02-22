@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 本节中的主题帮助您了解如何规划和部署 Skype 业务服务器，以便您可以充分规划您的组织和 plan for 其活动生成服务器负载中的用户数。
-ms.openlocfilehash: 996fd1df51442bcaadbd0ae548e9cf57e580279a
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 4a18b68d080eb7cb2a384b727e4ce4d7593d0ac4
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696343"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178714"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>服务器容量规划的 Skype 业务 2019
 
@@ -171,8 +171,8 @@ Microsoft 在其性能测试期间对用于监控和存档的数据库服务器�
 |:-----|:-----|
 |CPU  <br/> |Intel Xeon E5 2673 v3 双处理器、 6 核 2.4 ghz 或更高版本。  <br/> |
 |内存  <br/> |48 GB  <br/> |
-|磁盘  <br/> |
-任一: • 4 或更多 10000 RPM 硬盘驱动器具有至少 72 GB 可用磁盘的空间 （磁盘应为 2 个 RAID 1 配置中）。 或 • 固态驱动器 (Ssd) 能够提供相同释放空间和类似于 4 10000 RPM 机械磁盘驱动器的性能。   <br/> | |网络  <br/> |1 个双端口网络适配器，1 Gbps 或更高 （建议为 2，这要求与一个 MAC 地址和一个 IP 地址结合使用）。  <br/> |
+|磁盘  <br/> | 以下之一：<br/> • 4 块或更多 10000 RPM 硬盘，至少 72 GB 可用磁盘空间（磁盘应采用双 RAID 1 配置）。 <br/>或 <br/>• 能够提供与 4 块 10000 RPM 机械硬盘相同的可用空间和类似性能的固态硬盘 (SSD)。   <br/> |
+|网络  <br/> | 1 个双端口网络适配器，1 Gbps 或更高（建议为 2 Gbps，这要求与一个 MAC 地址和一个 IP 地址结合使用）。  <br/> |
 
 **建议的磁盘配置**
 

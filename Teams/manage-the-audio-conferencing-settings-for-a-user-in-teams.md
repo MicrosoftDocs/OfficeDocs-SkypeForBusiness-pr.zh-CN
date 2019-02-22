@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '作为 Office 365 管理员，你可以为贵组织中的单个用户编辑 Microsoft Teams 音频会议设置（例如，提供商、默认的收费或免费电话号码、会议 ID 或 PIN）。 '
-ms.openlocfilehash: 5b5ea2217f0bd5dce9738ab5013c176c89a9050f
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 46b3eaf393ba49a17fb92c3cbeebc1d6927f16e5
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754338"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178651"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中管理用户的音频会议设置
 
@@ -50,7 +50,7 @@ ms.locfileid: "29754338"
 |**未经身份验证的用户可以在会议中的第一个人**|若要更改此设置，切换**未经身份验证的用户可以在会议中的第一个人**打开或关闭。
 |**电话拨出式权限**|若要更改此设置，请单击**编辑**旁边**音频会议**和**音频会议**窗格中，选择下**拨出式会议**的选项。|
 
-![显示用户的音频会议设置](media/sfbaudioconf-usersettings.png)
+![显示用户的音频会议设置](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
  
 
 > [!Note]

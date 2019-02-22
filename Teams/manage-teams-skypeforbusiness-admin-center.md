@@ -1,5 +1,5 @@
 ---
-title: 转换为新的 Microsoft 团队管理中心的过程管理团队
+title: 在过渡到全新的 Microsoft Teams 管理中心期间管理团队
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,14 +16,14 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: e695c54427dbe80daa179ad6d02e99a2556d9782
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 581be37a3acf4b0063cf93da1ba1289cd08b2f2e
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753533"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178499"
 ---
-<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>转换为新的 Microsoft 团队管理中心的过程管理团队
+<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在过渡到全新的 Microsoft Teams 管理中心期间管理团队
 ======================================================
 
 > [!IMPORTANT]
@@ -52,6 +52,11 @@ ms.locfileid: "29753533"
 |设置用户/许可证类型     |为所有用户打开或关闭的 Microsoft 团队          |已弃用的<sup>1</sup>        |         |
 |团队和频道     |         |重定向到 Azure Active Directory 组管理 （当前体验相同）。              |用户         |
 |团队和频道     |         |重定向到 AAD 组管理 （当前体验相同）。             |用户          |
+|应用|默认启用新的外部应用|组织范围应用程序设置|租户|
+|应用|允许外部应用程序|组织范围应用程序设置|租户|
+|应用|允许的外部应用程序<sup>2</sup> sideloading|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|用户|
+|应用|默认应用程序<sup>3</sup>|TeamsAppPermissionPolicy|用户|
+|应用|外部应用程序<sup>3</sup>|TeamsAppPermissionPolicy|用户|
 |呼叫和会议     |允许安排私人会议         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
 |呼叫和会议     |允许点对点通道 meetup         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
 |呼叫和会议     |允许安排频道会议         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
@@ -68,6 +73,13 @@ ms.locfileid: "29753533"
 |消息     |允许用户私下聊天         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
 
 <sup>1</sup>弃用的来宾。 在管理中心中的 Microsoft 团队可以立即托管启用/禁用来宾。 启用/禁用团队业务 enterprise，Edu 学生，并将很快弃用 Edu 教职员工。 这应该通过分配许可证在 Office 365 管理中心中的管理。 请参阅[Microsoft 团队管理用户访问](user-access.md)。
+<br><br>
+<sup>2</sup> Sideloading 拆分，如下所示：
+
+- 允许对 sideload 应用程序可以在用户级别[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)中托管的用户。
+- 允许租户进行交互可在组织范围应用程序设置的租户级别管理的自定义应用程序中的用户。
+ 
+<sup>3</sup>默认应用程序和外部应用程序可以启用和禁用 TeamsAppPermissionPolicy 用户级别。 此外，可以在组织范围应用程序设置将覆盖任何用户和租户级设置的租户级别阻止应用程序。 
 
 > [!NOTE]
 > 您将继续在 Office 365 管理中心中配置与团队和频道使用组仪表板。 应用程序设置将保留在 Office 365 管理中心的团队区域，并且将更高版本迁移。 
