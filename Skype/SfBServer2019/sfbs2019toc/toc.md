@@ -98,6 +98,12 @@
 #### 云语音邮件
 #####[规划云语音邮件](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
 ##### [配置云语音邮件](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
+#### 云自动助理
+##### [规划云自动助理](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)
+##### [配置云自动助理](../../SfbHybrid/hybrid/configure-cloud-auto-attendant.md)
+#### 云呼叫队列
+##### [规划云呼叫队列](../../SfbHybrid/hybrid/plan-call-queue.md)
+##### [配置云呼叫队列](../../SfbHybrid/hybrid/configure-call-queue.md)
 ### [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [统一消息](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [部署概述](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 

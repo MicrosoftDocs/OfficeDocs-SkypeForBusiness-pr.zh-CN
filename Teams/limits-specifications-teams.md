@@ -3,7 +3,7 @@ title: Microsoft Teams 的限制和规范
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/31/2019
+ms.date: 10/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: karuanag
@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 167c62c9f7fea440dea30b3946c95fc382a9757b
-ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
+ms.openlocfilehash: 99e061246e673b5659c18190511dd33a5fec72ce
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29992806"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210673"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 =============================================
@@ -38,9 +38,6 @@ ms.locfileid: "29992806"
 |每个工作组的通道数    | 200 （包括已删除的通道）         |
 
 &sup1;Azure Active Directory 中的任何目录对象计算达到此限制。 全局管理员不受此限制的因为调用 Microsoft Graph 使用[应用程序权限](https://docs.microsoft.com/graph/permissions-reference)的应用程序。
-
-> [!NOTE]
-> 通道不支持类似的特殊字符 ~ # %& * {} + / \: < >？ |'"中的通道名称。  
 
 <a name="meetings-and-calls"></a>会议和呼叫 
 ------------------

@@ -1,5 +1,5 @@
 ---
-title: 管理应用程序中的 Microsoft 团队的安装程序策略
+title: 在 Microsoft Teams 中管理应用设置策略
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,14 +15,14 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解 Microsoft 团队以及如何使用它们 pin 应用程序自定义您的组织中的用户的工作组中的应用程序设置策略。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fe6281015072858c959a65a6cd17ed157db0afa9
-ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
+ms.openlocfilehash: 4e6ad41dac9021079bffa80284809733c39f3cc9
+ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29894254"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30205760"
 ---
-# <a name="manage-app-setup-policies-in-microsoft-teams"></a>管理应用程序中的 Microsoft 团队的安装程序策略
+# <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -108,7 +108,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>内置应用程序安装程序将哪些策略都包含在 Microsoft 团队管理中心？
 
-- **全局 （组织范围内默认值）**： 此默认策略应用于组织中的所有用户，除非您将其他策略分配。 编辑您的用户的最重要的 pin 应用程序的全局策略。 
+- **全局 （组织范围内默认值）**： 此默认策略应用于组织中的所有用户，除非您将其他策略分配。 编辑您的用户的最重要的 pin 应用程序的全局策略。
 - **FirstLineWorker**： 此策略为 firstline 工作者。 您可以将其组织中分配给 firstline 工作者。 务必要了解，如您所创建的自定义策略，您必须将策略分配给用户处于活动状态的设置。 详细信息，请转到本文的[分配给用户的自定义应用程序设置策略](#assign-a-custom-app-setup-policy-to-users)一节。
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>为什么我无法在添加固定的应用程序窗格中查找应用程序
@@ -142,9 +142,9 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>了解团队移动体验时需要什么操作？
 
-团队移动客户端 （iOS 和 Android） 当前不支持个人的应用程序。 在策略中设置的应用程序，根据固定到团队桌面客户端应用程序可能不出现在工作组移动客户端。 个人 bot 仍显示在聊天移动客户端上。 
+团队移动客户端 （iOS 和 Android） 当前不支持静态选项卡与个人应用程序。 在策略中设置的应用程序，根据固定到团队桌面客户端应用程序可能不出现在工作组移动客户端。 个人 bot 仍显示在聊天移动客户端上。
 
-团队移动客户端，用户会看到如活动、 聊天和团队的核心团队应用程序，您可以锁定某些 microsoft，如引进和计划程序的第一方应用程序。
+团队移动客户端，用户会看到如活动、 聊天和团队的核心团队应用程序，您可以锁定某些 microsoft，如班次的第一方应用程序。
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>用户可以更改的固定通过策略的应用程序的顺序？
 

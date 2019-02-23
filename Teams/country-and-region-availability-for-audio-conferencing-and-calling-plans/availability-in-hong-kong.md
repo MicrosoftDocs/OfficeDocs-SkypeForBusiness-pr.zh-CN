@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 适用 （香港特别行政区）。
-ms.openlocfilehash: 328688b85fa3a564d4ce6add9534404879b74618
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 8538e862f516d5fb26e382f184c6eaf17ee48899
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046995"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210785"
 ---
 # <a name="availability-in-hong-kong"></a>在中国香港的可用性
 
@@ -43,7 +43,7 @@ ms.locfileid: "30046995"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买音频会议？  <br/> |是  <br/> |
+|是否可购买音频会议？  <br/> |否  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |是，为：<br/><ul><li> 香港特别行政区</ul> 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
    

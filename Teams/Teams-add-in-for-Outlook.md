@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e892e5c615fce6ed8c65fdfaeadbacba88e1ec5c
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 1a522a8c4eb3d37159a5b377db5d6e19442a202a
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753747"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210582"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -65,6 +65,7 @@ Teams 客户端通过确定用户需要 32 位还是 64 位版本来安装正确
 Teams 会议外接程序仍是正在构建的功能，因此请注意以下事项：
 - 一些在线会议功能（例如，录制、投票和白板）还不可用。
 - 会议选项当前不可用。
+- 当前只能邀请公司内部的人员，因为外部用户还不能加入会议。
 - 此外接程序用于特定参与者的安排会议，而非用于频道中的会议。 频道会议必须从 Teams 中安排。 当前，仅面向 Windows 用户提供 Outlook 中的 Teams 会议外接程序，但即将面向 Mac 用户提供。
 - 如果用户的 PC 和 Teams 服务的网络路径中存在身份验证代理，则此外接程序将无法工作。
 - 外接程序要增量推出和可能不可用，贵组织尚未。

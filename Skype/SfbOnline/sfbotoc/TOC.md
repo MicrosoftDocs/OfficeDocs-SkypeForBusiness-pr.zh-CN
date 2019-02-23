@@ -220,7 +220,6 @@
 ### [什么是拨号计划？](/microsoftteams/what-are-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Office 365 中的电话系统](/microsoftteams/what-is-phone-system-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [创建电话系统呼叫队列](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [获取适用于 Skype for Business Online 的电话](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [部署 Skype for Business Online 电话](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
 #### [设置公用区域电话 (CAP)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
@@ -230,11 +229,12 @@
 #### [更改组织中的语音邮件问候语和电子邮件的默认语言](/microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [语音邮件问候和消息所使用的语言](/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [设置电话系统语音邮件 - 管理员帮助](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [设置电话系统自动助理](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [在你有组织中设置电话系统](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [什么是电话系统自动助理？](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [设置电话系统自动助理](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+#### [设置电话系统自动助理](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [小型企业示例-设置的自动助理](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+### [创建电话系统呼叫队列](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+
 
 
 ## [设置 Skype 会议直播网络](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)

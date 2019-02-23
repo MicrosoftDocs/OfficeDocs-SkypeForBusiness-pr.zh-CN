@@ -13,15 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6b95da8ee416d4f64d22a8c0622acd417b7bb1d
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 3af825b28f1c6c4abc202bb343c80b50176de16e
+ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742845"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30205672"
 ---
-<a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备贵组织的网络
-=================================================
+# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备贵组织的网络
 
 > [!Tip]
 > 观看下面的会话，若要了解如何团队利用您的网络和如何最好地规划最佳的网络连接：[团队网络规划](https://aka.ms/teams-networking)
@@ -46,23 +45,29 @@ Teams 组合了三种形式的流量：
 
 
 |值  |客户端到 Microsoft Edge  |客户边缘到 Microsoft Edge  |
-|---------|---------|---------|
-|**延迟（单向）**     |< 50 ms          |< 30 ms          |
-|**延迟（RTT 或往返时间）** |< 100 ms         |< 60 ms         |
+|:--- |:--- |:--- |
+|**延迟（单向）** \*  |< 50 ms          |< 30 ms         |
+|**延迟（RTT 或往返时间）** \* |< 100 ms   |< 60 ms |
 |**突发数据包丢失**    |< 10%，在任何 200 ms 时间间隔内         |< 1%，在任何 200 ms 时间间隔内         |
 |**数据包丢失**     |< 1%，在任何 15 s 时间间隔内          |< 0.1%，在任何 15 s 时间间隔内         |
 |**数据包中间间隔抖动**    |< 30 ms，在任何 15 s 时间间隔内         |< 15 ms，在任何 15 s 时间间隔内         |
 |**数据包重新排序**    |< 0.05% 无序数据包         |< 0.01% 无序数据包         |
+
+\*延迟指标目标假定您的公司网站和 Microsoft 边缘位于同一洲。
+
+公司网站连接到 Microsoft 网络边缘包含第一个跃点网络访问，可以是 WiFi 或其他无线技术。
+
+网络性能目标假定适当的带宽和/或[QoS 规划](QoS-in-Teams.md)。 换句话说的要求适用于团队实时的媒体流量直接峰值负载下的网络连接时。
 
 要测试两个网段，你可以使用[网络评估工具](https://go.microsoft.com/fwlink/?linkid=855799)。 此工具可以直接部署在客户端 PC 上，也可以部署在连接到客户网络边缘的 PC 上。 此工具附带内容有限的文档，有关此工具用法的深度文档，请参阅此处：[网络就绪评估](https://go.microsoft.com/fwlink/?linkid=855800)。 通过进行此网络就绪评估，你可以验证你的网络是否为运行实时媒体应用（例如 Microsoft Teams）做好准备。
 
 > [!NOTE]
 > 对于希望成功部署 Skype for Business 的客户，同样建议进行此网络就绪评估。
 
-<a name="bandwidth-requirements"></a>带宽要求
-----------
 
-Microsoft Teams 的带宽计算很复杂，因此为了帮助进行此计算，创建了一个计算器。 要访问计算器，请转到 [MyAdvisor 中的网络规划器](https://aka.ms/bwcalc/)。
+## <a name="bandwidth-requirements"></a>带宽要求
+
+Microsoft Teams 的带宽计算很复杂，因此为了帮助进行此计算，创建了一个计算器。 若要访问计算器，转到[网络规划人员](https://aka.ms/bwcalc/)MyAdvisor 中。
 
 > [!NOTE]
 > 团队带宽处理改进了业务 online Skype： 对于呼叫或会议 （与音频、 视频和共享） 的体验，高质量，团队需要仅 1.2 Mbps。 它还可以扩展最多进一步的超级高质量，如果没有足够的可用带宽。 当团队请求遇到低带宽条件时，团队可以快速重新调整带宽使用情况，以适应可用带宽。
@@ -88,11 +93,11 @@ The content you will find below can be used as supplemental background informati
 <a name="additional-network-considerations"></a>其他网络考虑事项
 ---------------
 
-#### <a name="external-name-resolution"></a>**外部名称解析**
+#### <a name="external-name-resolution"></a>外部名称解析
 
-确保运行 Teams 客户端的所有客户端计算机都可以解析外部 DNS 查询以发现 Office 365 提供的服务。
+确保运行团队客户端的所有客户端计算机可以解析发现 Office 365 提供的服务的外部 DNS 查询，并且，您的防火墙不会阻止访问。 有关配置防火墙端口的信息，请转到[Office 365 Url 和 IP 范围](office-365-urls-ip-address-ranges.md)。
 
-#### <a name="nat-pool-size"></a>**NAT 池大小**
+#### <a name="nat-pool-size"></a>NAT 池大小
 
 多个用户/设备使用网络地址转换 (NAT) 或端口地址转换 (PAT) 访问 Office 365 时，你需要确保每个公开可路由 IP 地址后面隐藏的设备不超过支持的数量。
 

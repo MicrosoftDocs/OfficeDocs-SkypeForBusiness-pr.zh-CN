@@ -16,18 +16,21 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 管理资源中的 Microsoft 团队的帐户
-ms.openlocfilehash: 685361c829a20a216e240e9f502e6ab24dcb86c5
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 60fcfe34c665805eac90b5e5be862786e9e68de5
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120937"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210777"
 ---
-# <a name="manage-resource-accounts-in-teams"></a>管理团队中的资源帐户 
+# <a name="manage-resource-accounts-in-microsoft-teams"></a>管理资源中的 Microsoft 团队的帐户
 
 资源帐户也称为 Azure Active Directory 中的已禁用的用户对象，可以用于通常表示资源。 在 Exchange 它可能用于表示会议室，例如，并允许有一个电话号码。 在 Microsoft 365 或本地的企业服务器，使用 Skype 可托管资源帐户并使用 Powershell 命令创建这些帐户。
 
-在 Microsoft 团队 os Skype 业务联机，每个呼叫队列或自动助理需要具有关联的资源帐户。 资源帐户是否需要分配的电话号码将取决于打算使用的关联的呼叫队列或自动助理。 引用上调用队列的文章和自动助理电话号码分配给资源帐户之前底部这篇文章的链接。
+在 Microsoft 团队或 Skype 业务联机，每个呼叫队列或自动助理需要具有关联的资源帐户。 资源帐户是否需要分配的电话号码将取决于打算使用的关联的呼叫队列或自动助理。 引用上调用队列的文章和自动助理电话号码分配给资源帐户之前底部这篇文章的链接。
+
+> [!NOTE]
+> 本文同时适用于 Microsoft 团队和 Skype 业务 online。
 
 ## <a name="prerequisites-to-assign-a-phone-number-to-a-resource-account"></a>若要将电话号码分配给资源帐户的先决条件
 
