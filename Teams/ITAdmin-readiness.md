@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 培训视频、 PowerPoint 文件 （英文）、 教程和其他资源来 admins 如何规划、 部署和运行的 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58f37fba985817b777ebce7c125b9cd5d80cc425
-ms.sourcegitcommit: 11f95d0df48a23e701ffaf3b26445d736cbbb884
+ms.openlocfilehash: 13b6b6e376043cb029c9775e0d0c3e6375370b0a
+ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "30079130"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30205680"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
@@ -86,15 +86,15 @@ ms.locfileid: "30079130"
 
 | 模块 | 视频 | PowerPoint 图标 |
 | ------------ | -------------------- | -------------------- |
-| 基础-核心组件 | [视频](http://aka.ms/teams-foundations) | [平台](http://aka.ms/teams-foundations-deck) |
-| Windows 桌面客户端 | [视频](http://aka.ms/teams-clients) | [平台](http://aka.ms/teams-clients-deck) |
-| 调控、 管理和 Lifecylce | [视频](http://aka.ms/teams-governance) | [平台](http://aka.ms/teams-governance-deck) |
-| 网络规划 | [视频](http://aka.ms/teams-networking) | [平台](http://aka.ms/teams-networking-deck) |
-| 呼叫质量概述 （英文) | [视频](http://aka.ms/teams-quality) | [平台](http://aka.ms/teams-quality-deck) |
-| 会议简介 | [视频](http://aka.ms/teams-meetings-intro) | [平台](http://aka.ms/teams-meetings-intro-deck) |
-| 电话系统简介 | [视频](http://aka.ms/teams-phone-system) | [平台](http://aka.ms/teams-phone-system-deck) |
-| 直接路由 | [视频](http://aka.ms/teams-direct-routing) | [平台](http://aka.ms/teams-direct-routing-deck) |
-| 从 Skype for Business 升级到 Teams | [视频 1： 升级简介](https://aka.ms/teams-upgrade-intro)</br>[视频 2： 规划升级](https://aka.ms/teams-upgrade-plan)</br>[视频 3： 共存及互操作性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[视频 4： 管理员体验](https://aka.ms/teams-upgrade-admin) | [平台](http://aka.ms/teams-upgrade-deck)|
+| 基础-核心组件 | [视频](https://aka.ms/teams-foundations) | [平台](https://aka.ms/teams-foundations-deck) |
+| Windows 桌面客户端 | [视频](https://aka.ms/teams-clients) | [平台](https://aka.ms/teams-clients-deck) |
+| 调控、 管理和 Lifecylce | [视频](https://aka.ms/teams-governance) | [平台](https://aka.ms/teams-governance-deck) |
+| 网络规划 | [视频](https://aka.ms/teams-networking) | [平台](https://aka.ms/teams-networking-deck) |
+| 呼叫质量概述 （英文) | [视频](https://aka.ms/teams-quality) | [平台](https://aka.ms/teams-quality-deck) |
+| 会议简介 | [视频](https://aka.ms/teams-meetings-intro) | [平台](https://aka.ms/teams-meetings-intro-deck) |
+| 电话系统简介 | [视频](https://aka.ms/teams-phone-system) | [平台](https://aka.ms/teams-phone-system-deck) |
+| 直接路由 | [视频](https://aka.ms/teams-direct-routing) | [平台](https://aka.ms/teams-direct-routing-deck) |
+| 从 Skype for Business 升级到 Teams | [视频 1： 升级简介](https://aka.ms/teams-upgrade-intro)</br>[视频 2： 规划升级](https://aka.ms/teams-upgrade-plan)</br>[视频 3： 共存及互操作性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[视频 4： 管理员体验](https://aka.ms/teams-upgrade-admin) | [平台](https://aka.ms/teams-upgrade-deck)|
 
 <h2>快速入门指南</h2>
 

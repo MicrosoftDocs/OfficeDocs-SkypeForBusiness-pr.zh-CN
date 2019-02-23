@@ -314,10 +314,12 @@
 ### 呼叫者 ID
 #### [如何在你的组织中使用来电显示](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [为用户设置来电显示](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### 自动助理和呼叫队列
+### 自动助理和呼叫队列 
 #### [什么是电话系统自动助理](what-are-phone-system-auto-attendants.md)
-#### [设置电话系统自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [创建电话系统呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [设置电话系统自动助理](create-a-phone-system-auto-attendant.md)
+#### [小型企业示例-设置的自动助理](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [管理资源中的 Microsoft 团队的帐户](manage-resource-accounts.md)
+#### [创建电话系统呼叫队列](create-a-phone-system-call-queue.md)
 #### [应答自动助理并直接从团队呼叫队列呼叫](answer-auto-attendant-and-call-queue-calls.md)
 ### [呼叫寄存和取回](call-park-and-retrieve.md)
 ### [共享和分组呼叫应答呼叫](call-sharing-and-group-call-pickup.md)
@@ -664,7 +666,7 @@
 ### [监视呼叫质量](monitor-call-quality-qos.md)
 #### [查看用户体验指南的质量](quality-of-experience-review-guide.md)
 #### [设置团队中的 QoS](QoS-in-Teams.md)
-#### [实现 QoS 和监视呼叫质量](monitor-call-quality-qos.md)
+##### [设置 Windows 客户端上的 QoS](QoS-in-Teams-clients.md)
 #### [通话分析和通话质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
 #### [设置通话分析](set-up-call-analytics.md)
 #### [使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
