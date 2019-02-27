@@ -15,12 +15,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解 Microsoft 团队以及如何使用它们 pin 应用程序自定义您的组织中的用户的工作组中的应用程序设置策略。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4e6ad41dac9021079bffa80284809733c39f3cc9
-ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
+ms.openlocfilehash: 3e46f5ea50d3e9cdb1717838beec454cca05ba30
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30205760"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302686"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -152,7 +152,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 ### <a name="custom-teams-apps"></a>自定义团队应用程序
 
-#### <a name="my-organization-built-a-custom-teams-app-and-published-it-through-appsource-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>我的组织构建自定义的团队应用程序并将其发布到 AppSource 但预期时应用程序固定到应用程序栏团队中不显示的应用程序图标。 如何解决它？ 
+#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>我的组织构建自定义的团队应用程序和发布，到 AppSource 或租户的应用程序目录，但按预期方式时应用程序固定到团队中的应用程序栏，不显示的应用程序图标。 如何解决它？ 
 
 请确保您遵循徽标准则之前提交应用程序。 若要了解详细信息，请参阅[卖方仪表板提交的清单](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist)。 
 

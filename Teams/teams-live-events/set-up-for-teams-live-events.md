@@ -14,12 +14,12 @@ description: 了解 live 团队，包括网络准备、 分配许可证、 使�
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 078374652325d177e30db1d320f22e5d814ac548
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: aaa22e0b28d883c805eaddc1e01d3cf7d2cda450
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754781"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302702"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 
@@ -40,6 +40,7 @@ ms.locfileid: "29754781"
 > 您的组织中的用户将获得全局策略，除非您创建和分配自定义策略。 默认情况下，在全局策略中，为团队用户启用了 live 事件调度、 转录处于关闭、 组织中的所有人都可以加入 live 事件和录制设置设为始终记录。 
 
 ### <a name="create-or-edit-a-live-events-policy"></a>创建或编辑 live 事件策略
+<a name="bkcreatepolicy"> </a>
 
 **![团队-徽标-30x30.png](../media/teams-logo-30x30.png)使用的 Microsoft 团队管理中心**
 

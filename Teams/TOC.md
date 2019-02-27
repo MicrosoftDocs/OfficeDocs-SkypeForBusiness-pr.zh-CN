@@ -682,6 +682,7 @@
 ### [对于管理员 Microsoft 教育调控常见问题](plan-teams-governance-edu.md)
 
 ## Firstline 工作者团队
+### [Microsoft StaffHub 要停用](microsoft-staffhub-to-be-retired.md)
 ### [管理您的组织在工作组引进相关应用程序](manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Teams 零售模板入门](get-started-with-retail-teams-templates.md)
 

@@ -3,7 +3,7 @@ title: 管理会议策略
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 06/07/2018
+ms.date: 02/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -15,23 +15,25 @@ appliesto:
 f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: 了解如何管理会议团队中的策略设置。
-ms.openlocfilehash: 96b5008ebbdbcad2dc44234d861c4127c77ed69c
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 412deb1e8d671b40fd574d72a68f9dad15281645
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30056608"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302694"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
-会议策略用于控制对会议的组织中的用户安排会议参与者可用的功能。 在创建策略，并进行更改后，然后，您可以分配给策略使用。 
+会议策略用于控制对会议的组织中的用户安排的会议的参与者可用的功能。 在创建策略，并进行更改后，您可以然后用户分配策略。 
 
 ## <a name="here-are-the-settings-you-can-change-to-fit-your-organization"></a>下面是您可以更改以适合您的组织的设置
 <a name="bkgeneral"> </a>
 
-## <a name="general"></a>常规
-   - **名称**这是策略的将出现在会议策略页的名称。 它不能包含特殊 chararcters，也可以是多长时间超过 64 个字符。
-   - **说明**您可以为您创建的策略置于的友好说明。 这将非常有用，如果您想要将策略分配到一组用户。
+### <a name="new-meeting-policy-name-and-description"></a>新会议策略名称和说明
+   - **新的会议策略**更改此设置将出现在会议策略页的策略的名称。 名称不能包含特殊字符也能超过 64 个字符。
+   - **说明**您可以添加您创建的策略的友好说明。 这将非常有用，如果您想要将策略分配到一组用户。
+
+### <a name="general"></a>常规
    - **允许立即开会**打开： 将允许立即开会功能可加入会议的用户。
    - **允许 Outlook 外接程序**打开将让他们安排会议时，Outlook 外接程序提供已分配给策略的用户。
    - **允许通道会议日程安排**打开： 将允许通道会议安排。
@@ -39,7 +41,7 @@ ms.locfileid: "30056608"
 
 <a name="bkaudioandvideo"> </a>
 
-## <a name="audio--video"></a>音频 & 视频
+### <a name="audio--video"></a>音频 & 视频
    - **允许转录**如果您关闭此，会议的转录将对用户可用。
    - **允许云录制**打开： 将允许录制内容将保存到云。
    - **允许的 IP 视频**打开： 将允许 IP 视频会议期间。
@@ -47,7 +49,7 @@ ms.locfileid: "30056608"
 
 <a name="bkcontentsharing"> </a>
 
-## <a name="content-sharing"></a>内容共享
+### <a name="content-sharing"></a>内容共享
    - **屏幕共享模式**您可以选择屏幕共享模式。 这将在屏幕上将策略分配的用户可以使用会议期间使用的大小。
    - **允许参与者授予或请求控制权**这样，所有参与者在会议中提供和请求的屏幕共享控制权。
    - **允许外部参与者授予或请求控制权**这样，外部 （某人不是您组织的一部分） 参与者授予和共享屏幕时请求的会议控制权。
@@ -57,9 +59,8 @@ ms.locfileid: "30056608"
 
 <a name="bkparticipantsandguests"> </a>
 
-## <a name="participants--guests"></a>参与者 & 来宾
-   - **允许匿名用户拨出**如果您希望会议参与者拨出添加其他人，可以对此进行打开。 如果您将其关闭，无会议参与者可以从电话拨出会议。
-   - **允许匿名用户开始会议**如果此设置处于关闭状态，只有是已经过身份验证的团队应用程序与会议的人员可以开始会议。 如果是任何人都可以开始会议。
-   - **自动允许的用户**如果您关闭此操作，然后会议参与者处于会议厅直到有人开始会议。 如果是在上，将允许会议参与者自动加入会议。
+### <a name="participants--guests"></a>参与者 & 来宾
+   - **允许匿名用户开始会议**如果此设置处于关闭状态，只有已经过身份验证的团队应用程序与会议的人可以开始会议。 如果是任何人都可以开始会议。
+   - **自动允许的用户**如果您关闭此操作，然后会议参与者处于会议厅直到有人开始会议。 如果是会议参与者将允许加入会议自动。
 
 
