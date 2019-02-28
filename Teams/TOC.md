@@ -192,7 +192,6 @@
 
 
 ## [云视频互操作](cloud-video-interop.md)
-### [设置云视频互操作](cloud-video-interop-for-teams-set-up.md)
 
 ## Live 事件
 ### [什么是团队 live 事件？](teams-live-events/what-are-teams-live-events.md)
