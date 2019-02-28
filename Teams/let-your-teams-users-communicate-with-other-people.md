@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 请参阅如何配置团队以使用户可以与其他组织中的用户进行通信。
-ms.openlocfilehash: 39fa6de27b6ff4f662955ac3cf36d7826379d753
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 664c459f85d3a6657c0e556d19d92b7b278f0aee
+ms.sourcegitcommit: ea1085228894ae448f575f9e13a9f25a1f47e636
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754725"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30312273"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>让您的团队用户聊天并与其他团队组织中的用户进行通信
 
@@ -32,6 +32,9 @@ ms.locfileid: "29754725"
 - 您希望任何其他人在世界上使用团队能够找到并与您联系，使用您的电子邮件地址。 如果您和其他用户同时启用外部访问，并允许彼此的域，这将正常工作。 如果它不起作用，其他用户应确保他或她配置不阻止您的域。
 
 这将使用户能够查找、 呼叫，并向您发送即时消息，以及设置与您的会议。 如果您希望外部用户有权访问工作组和通道，来宾访问可能转更好的方法。 请按照本文和确保到[启用来宾访问](set-up-guests.md)，以便用户可以进行通信。
+
+> [!IMPORTANT]
+> 为了当前给外部用户的 Microsoft 团队客户端中联盟组织当前不是您的 AAD/租户的来宾之外，您必须是正确的混合的安装程序和业务 online 移至 Skype。 从 2/25/2019年团队尚未不支持本机联盟用户的情况下被业务 online 驻留在 Skype 的 SIP 配置文件。 有关混合注册您的帐户，然后移到团队的其他设置，请参阅[升级业务混合部署到团队的 Skype](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)。
 
 ## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>让您的团队用户聊天并与其他团队组织中的用户进行通信
 

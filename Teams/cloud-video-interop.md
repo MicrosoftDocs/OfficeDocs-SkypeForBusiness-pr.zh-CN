@@ -12,23 +12,36 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e038a4618bd456336681c2fff95936a821c770ea
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 7ebf153def5c53f2cabdf9a6293ed55e69c1c2f9
+ms.sourcegitcommit: ea1085228894ae448f575f9e13a9f25a1f47e636
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742963"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30312265"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams 的云视频互操作性
 
-云视频互操作使第三方会议房间设备加入 Microsoft 小组会议。
+视频互操作云 (CVI) 是一种 Microsoft 合格第三方解决方案，使第三方会议室 （监控） 和个人视频设备 (VTCs) 加入会议的 Microsoft 团队。
+ 
+与 Microsoft 团队，包括音频、 视频以及内容共享的会议中获取丰富的联机内容协作。 通过桌面和 web 客户端，以及通过与 Microsoft 团队本机集成的许多合作伙伴设备，这可以被喜欢。 但是，许多客户已购买了视频电话会议和个人的视频通信设备，可以升级的费用。 云视频互操作提供了一个简单的解决方案，从而使您可以继续使用您现有的解决方案，直到您准备升级。
 
-电话会议与内容协作的视频可帮助您进行充分利用会议。 但是，会议室系统和设备的升级的费用。 云视频互操作的 Microsoft 团队系统处理，而所有参与者 – 在会议室内或内部团队客户端提供本机会议体验。 
+与云视频互操作，Microsoft 团队所有参与者 – 在会议室中或内部团队客户端提供本机会议体验。
 
-## <a name="partners-certified-for-microsoft-teams"></a>Microsoft 团队认证的合作伙伴
+### <a name="is-cloud-video-interop-for-me"></a>我是否云视频互操作？
+
+云视频互操作提供了中间服务时转换到完整本机 Microsoft 团队解决方案，使用团队终结点。 提供的服务应一部分迁移路径。
+
+云视频互操作供客户满足以下条件：
+
+- 具有未限定与 Microsoft 团队的直接集成的大型会议室内设备的部署和个人的视频设备部署 （50 + 设备）
+- 支持云视频互操作合作伙伴之一
+- 要保留其当前中的投资值到本机 Microsoft 团队解决方案在迁移期间会议室内设备和个人的视频设备
+
+虽然云视频互操作提供了一个绝佳的中间解决方案，我们鼓励长期查找到我们本机团队会议解决方案，如团队会议室系统，我们客户。 
+
+### <a name="partners-certified-for-microsoft-teams"></a>Microsoft 团队认证的合作伙伴
 
 以下合作伙伴具有 Microsoft 团队视频互操作的解决方案。 您的公司可以选择使用这些合作伙伴在企业内的任意组合。 
-
 
 |合作伙伴|合作伙伴解决方案|
 |----|---|
@@ -36,63 +49,72 @@ ms.locfileid: "29742963"
 |![Pexip 无穷大](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Microsoft 团队 Pexip 无穷大</a> | 
 |![BlueJeans 网关](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Microsoft 团队 blueJeans 网关</a> |
 
-## <a name="partner-solutions"></a>合作伙伴解决方案
+### <a name="cloud-video-interop-overview"></a>云视频互操作概述
 
-我们的合作伙伴开发了网关解决方案，将第三方基于标准的 SIP 和 H.323 设备连接到 Microsoft 小组会议。  
- 
-**认证和 Microsoft 支持**
+云视频互操作是由我们的合作伙伴提供对内部部署和 Microsoft 团队的现有视频会议和视频设备个人解决方案之间的互操作性提供一个第三方服务。
 
-- 只能通过认证合作伙伴解决方案
-- 与 Microsoft 共同工程
-- 客户点击之前证书
-
-**企业**
-
-- HD 视频 (1080p) 和内容 (VBSS)
-- 对 H.323 和 SIP 会议室内设备的支持
-- 本机团队/Exchange 计划
-- 而不是 VMR 的网关设计
-
-**针对云的标尺**
-
-- 部署和托管在 Azure
-- 与云解决方案自动缩放
-
- 
-## <a name="reference-architecture"></a>参考体系结构
-
-下图介绍团队合作伙伴解决方案的高级体系结构。
+我们的合作伙伴提供的解决方案包括的组件可以部署完全云基于或部分/完全在本地。 
+     
+下图显示了我们的合作伙伴的高级体系结构解决方案。
 
 ![团队云视频互操作合作伙伴解决方案](media/teams-cloud-video-interop-partner-solution.png)
 
-## <a name="key-business-considerations"></a>关键业务注意事项
 
-**第三方视频基础结构旁的 Microsoft 团队**
+## <a name="deploy-cloud-video-interop"></a>部署云视频互操作
 
-- 您必须大型部署的第三方视频设备？
-- 您在组织中必须第三方呼叫控制器？
-- 您计划如何使您当前的呼叫控制器旁的 Microsoft 团队？
-- 您想 infra 运行您自己的视频或托管？ 
-- 您计划部署团队会议室系统？ 当？
+在部署云视频互操作解决方案时，务必了解您正在部署合作伙伴解决方案。 下图中列出了部署云视频互操作应采取的常规步骤。
 
-**已存在的认证互操作的提供程序**
+![组织中部署 CVI](media/deploying-cvi.png)
 
-- 若要继续与您当前的认证合作伙伴吗？
-- 您是否需要继续支持集成的会议室环境 （Exchange，一个触摸拨号）？
+### <a name="plan"></a>规划
 
-**其他要求**
+在计划阶段，您应确定您将不替换本机团队设备，并查找云视频互操作合作伙伴可以支持这些设备的设备。  
 
-- 您需要实时监控、 疑难解答、 和报告功能？
-- 是否需要可在 sovereign 或政府群？
-- 您是否有外部公司加入团队会议？ 
+还有一点了解，您将需要许可证，每个用户都将安排要在其中一个已启用云视频互操作的设备，以加入的会议。 请注意，可以从云视频互操作合作伙伴获得完全许可要求。 确保这是清除开始部署之前。
 
-## <a name="business-workflow-scenarios"></a>业务工作流方案
+### <a name="configure"></a>配置
 
-- **业务服务器 Skype-> Microsoft 团队：** 您的组织具有第三方设备和 Skype 从业务上 prem 服务器移到的 Microsoft 团队。  
-- **For Business 联机-Skype > Microsoft 团队：** 您的组织迁移到 Microsoft 团队从 Skype 业务 online。
-- **Cisco UC-> Microsoft 团队：** 从 Cisco 移动到 Microsoft 团队，但未就绪，以替换 Cisco 设备，您的组织。
-- **混合系统-> Microsoft 团队：** 您的组织具有多个系统环境并排中的 （Cisco、 BroadSoft、 SfB 服务器、 SfBO）。
-- **另一个云会议提供商-> Microsoft 团队：** 您的组织已迁移到 Microsoft 团队的另一个云会议提供商的用户。
+您已选择为 CVI 部署合作伙伴将为您提供的贵组织中成功部署所需的所有步骤都组成完整部署文档。 这将包括防火墙端口和 IP 范围，您的设备，并需要更改其他设置的配置更改。
 
+### <a name="provision"></a>设置  
 
-选择之后的伙伴，您已准备好[设置 Microsoft 团队的云视频互操作](cloud-video-interop-for-teams-set-up.md)。 
+在设置阶段，您将向用户分配许可证相应根据合作伙伴配置指南。 您还需要通过提供对团队环境的合作伙伴访问的 Azure Consent 过程。 可在此处找到 Azure Consent 过程的详细信息：https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent 
+
+### <a name="schedule"></a>计划
+
+计划使用任一团队会议外接程序 Outlook 或团队客户端的任何会议用户启用了云视频互操作后，将具有相应的其他信息自动添加到会议这样的团队云视频互操作兼容的设备可以加入这些会议。
+
+### <a name="join"></a>Join
+
+合作伙伴解决方案中，根据有几种方法可以加入已启用云视频互操作的会议。 精确的与会方案将由您云视频互操作的合作伙伴提供。 我们列出了一些下面的示例：
+
+- IVR （互动语音响应） 
+  - 您可以使用 tenantkey@domain 的合作伙伴的 IVR 拨入。
+  - 当您伙伴 IVR 中时，将提示您输入 VTC conferenceId，其中将然后将您连接到团队会议。
+- 直接拨号 
+  - 您可以直接拨团队会议不使用直拨功能，与合作伙伴的 IVR 进行交互的情况下使用 tenantkey 的完整字符串。VTC ConferenceId@domain。
+- 一站式拨号 
+  - 如果您有集成的团队会议室，您可以使用 （而无需键入任何拨号串） 由您的合作伙伴提供的一站式拨号功能。
+
+## <a name="manage-cloud-video-interop"></a>管理云视频互操作
+
+部署云视频互操作后，您可以管理使用我们的合作伙伴提供的解决方案的设备。 每个合作伙伴提供一个将包含许可证和设备管理的管理界面。 
+
+报告中也有直接从合作伙伴管理界面。 报告功能的详细信息，请与您选择的合作伙伴。 
+
+### <a name="troubleshooting-cloud-video-interop"></a>疑难解答云视频互操作
+
+云视频互操作是合作伙伴提供服务。 如果您遇到问题，第一步是将设备已安装了团队客户端连接并将其连接到同一段作为云视频互操作设备造成问题。 
+
+如果正确上这一段，并且您的团队功能还具有遵循合作伙伴提供的所有网络和配置指南，您将需要与合作伙伴联系进一步疑难解答。 
+
+## <a name="powershell-for-cloud-video-interop"></a>PowerShell for 云视频互操作
+
+为您 （部分） 自动化云视频互操作的部署提供了以下 PowerShell cmdlet。
+
+- **Get CsTeamsVideoInteropServicepolicy**: Microsoft 提供的预构建的策略用于每个允许您指定要用于云视频互操作的合作伙伴的支持合作伙伴。<br>此 cmdlet，可以确定可以在组织中使用的预构建的策略。 通过利用授予 CsTeamsVideoInteropServicePolicy cmdlet，可以将此策略分配给一个或多个用户。
+- **授予 CsTeamsVideoInteropServicePolicy**： 此 cmdlet 可以分配组织中使用的预构建的策略或将策略分配给特定用户。
+- **新建 CsVideoInteropServiceProvider**： 此 cmdlet 用于指定有关您的组织希望使用支持 CVI 合作伙伴的信息。
+- **设置 CsVideoInteropServiceProvider**： 使用此 cmdlet 更新您的组织使用的支持 CVI 合作伙伴的信息。
+- **Get CsVideoInteropServiceProvider**： 使用此 cmdlet 获取所有的提供程序已配置为在组织中使用。
+- **删除 CsVideoInteropServiceProvider**： 使用此 cmdlet 可删除有关您的组织不再使用的提供程序的所有提供商信息。
