@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11e08837aa7f9eeb4b74d8f8d98e05dc33d2ea49
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 028ce0fe9e1fd30f96b157cd8fd82acd8f5d1268
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29743002"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342194"
 ---
 ![升级旅程，重点强调项目定义阶段的阶段](media/upgrade-banner-project-definition.png "升级旅程，重点强调项目定义阶段的阶段")
 
@@ -56,7 +56,7 @@ ms.locfileid: "29743002"
 
 在此共存模式中，用户保留在 for Business 的 Skype — 不团队 — for 聊天、 会议和呼叫功能，以及它们不为团队和通道使用团队。 此模式为今天; 可用但是，在当前实现团队形式是不为用户自动关闭。 此功能是即将开始的。 在此期间，管理员可以删除任何用户需要作为其唯一的通信应用程序的业务的 Skype 随时了解最新的工作组许可证。
 
-### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-in-calendar-year-2019"></a>仅工作组 （开始推出此模式出夏季完成 2018年和日历年 2019年中将对所有租户完成）
+### <a name="teams-only"></a>仅团队
 
 **团队仅**用户只能使用业务客户端 Skype 加入现有 Skype 业务会议或 for Business 的 Skype 上具有已按未升级的用户或外部组织的会议。 已升级的用户可以继续与组织中仍在使用 Skype for Business 使用适用于业务; 之间团队和 Skype 的互操作性功能的其他用户通信但是，已升级的用户无法启动业务聊天、 通话或会议的 Skype。
 

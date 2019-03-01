@@ -1,7 +1,7 @@
 ---
 title: 在 VDI 环境中规划 Skype for Business
-ms.author: jambirk
 author: jambirk
+ms.author: jambirk
 ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: 本主题讨论使用 Skype for Business 连接到远程虚拟桌面时的规划注意事项。
-ms.openlocfilehash: e4e23ecfba1e7d789dccd5a6cea0e32733643ce4
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 0d24426ea661e5a2d445e4fd7ef90d6a41518692
+ms.sourcegitcommit: 2a34c9955d2cf54085dee527ea493ce991ef2e10
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965689"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30340410"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>在 VDI 环境中规划 Skype for Business
  
@@ -47,9 +47,9 @@ ms.locfileid: "23965689"
   
 有关详细信息，请访问以下链接：
   
-- Citrix [HDX 实时 Optimization Pack 2.1](https://docs.citrix.com/en-us/hdx-optimization/2-1.mdl)
+- Citrix [HDX RealTime Optimization Pack 2.1](https://docs.citrix.com/en-us/hdx-optimization/2-1.mdl)
     
-- [技术概述](https://docs.citrix.com/en-us/hdx-optimization/2-1/about.mdl)
+- [技术概述 ](https://docs.citrix.com/en-us/hdx-optimization/2-1/about.mdl)
     
 - [CTX200279 Skype 业务功能支持](https://support.citrix.com/article/CTX200279)
     
@@ -91,9 +91,9 @@ Microsoft Lync VDI 插件仅支持某些 Windows 操作系统和业务 2015年�
     
 - [部署 Lync VDI 插件与 Skype 业务服务器](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
     
-- Citrix 知识中心文章[CTX138408](https://support.citrix.com/article/CTX138408)
+- Citrix 知识中心文章 [CTX138408](https://support.citrix.com/article/CTX138408)
     
-可在[Microsoft Lync VDI 2013 插件 （32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=35457)或[Microsoft Lync VDI 2013 插件 （64 位）](https://www.microsoft.com/en-us/download/details.aspx?id=35454)Microsoft VDI 插件。 与业务 2015年客户端，尽管名称为 Skype 支持此插件。
+你可以从 [Microsoft Lync VDI 2013 插件（32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=35457)或 [Microsoft Lync VDI 2013 插件（64 位）](https://www.microsoft.com/en-us/download/details.aspx?id=35454)获取 Microsoft VDI 插件。 与业务 2015年客户端，尽管名称为 Skype 支持此插件。
   
 ### <a name="supported-virtualization-technologies-and-known-limitations"></a>支持的虚拟化技术和已知限制
 <a name="Supported_virt"> </a>
@@ -104,7 +104,7 @@ Microsoft Lync VDI 插件仅支持某些 Windows 操作系统和业务 2015年�
 
 Lync VDI 插件支持完整桌面远程会话在个人虚拟桌面方案中，但不能在远程桌面会话方案。 这些方案如下所述：
   
-- **支持：个性化虚拟桌面或虚拟桌面基础结构 (VDI)。** 在此方案中，每个用户都登录到可自定义的虚拟桌面，并且能够将文件保存到桌面上，这些文件跨会话持续存在。 Microsoft 远程桌面服务和 VMware 范围视图是用于测试与业务 2015年的 Skype 的示例实现的。 其他正在进行验证的实施包括 Citrix XenDesktop。 供应商特定 VDI 环境和由 Microsoft 已经过测试的客户端硬件有关的信息，请参阅[基础结构符合 Microsoft Lync 要求](https://go.microsoft.com/fwlink/?LinkID=313435)。
+- **支持：个性化虚拟桌面或虚拟桌面基础结构 (VDI)。** 在此方案中，每个用户都登录到可自定义的虚拟桌面，并且能够将文件保存到桌面上，这些文件跨会话持续存在。 Microsoft 远程桌面服务和 VMware 范围视图是用于测试与业务 2015年的 Skype 的示例实现的。 其他正在进行验证的实施包括 Citrix XenDesktop。 有关已经过 Microsoft 测试的供应商特定的 VDI 环境和客户端硬件的信息，请参阅[符合 Microsoft Lync 要求的基础结构](https://go.microsoft.com/fwlink/?LinkID=313435)。
     
 - **不支持：远程桌面会话。** 在此方案中，每个用户都登录到无法自定义的常规虚拟桌面会话。 示例包括 Microsoft 远程桌面会话 (RDSH) 和 Citrix XenApp 结合使用 Citrix 接收器。
     
@@ -130,11 +130,11 @@ Lync VDI 插件旨在使用独立于平台的 Api 调用动态虚拟通道 (DVCs
     
 - 如果您正在使用远程桌面服务，则选择 32 位或 64 位 Lync VDI 插件匹配本地计算机的操作系统。 本地计算机和虚拟机不必都使用 32 位或 64 位操作系统。 如果使用其他虚拟化解决方案或平台，请参阅提供商的要求。
     
-- 本地计算机必须运行[的远程桌面客户端的最新版本](https://go.microsoft.com/fwlink/p/?LinkId=268032)。 可以安装由 Microsoft 提供的最新远程桌面服务客户端更新，也可以安装由虚拟化解决方案提供商提供的最新远程桌面客户端软件。 
+- 本地计算机必须运行[最新版本的远程桌面客户端](https://go.microsoft.com/fwlink/p/?LinkId=268032)。 可以安装由 Microsoft 提供的最新远程桌面服务客户端更新，也可以安装由虚拟化解决方案提供商提供的最新远程桌面客户端软件。 
     
 - 在本地计算机上，必须配置远程桌面客户端设置，以便在本地计算机上播放音频并禁用远程录制。 若要在 Windows 中配置这些设置用于远程桌面连接，请参阅下一节"以"配置远程桌面连接设置。 
     
-可在[Microsoft Lync VDI 2013 插件 （32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=35457)或[Microsoft Lync VDI 2013 插件 （64 位）](https://www.microsoft.com/en-us/download/details.aspx?id=35454)Microsoft VDI 插件。
+你可以从 [Microsoft Lync VDI 2013 插件（32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=35457)或 [Microsoft Lync VDI 2013 插件（64 位）](https://www.microsoft.com/en-us/download/details.aspx?id=35454)获取 Microsoft VDI 插件。
   
 #### <a name="known-feature-limitations"></a>已知功能限制
 <a name="VDI_prereq"> </a>

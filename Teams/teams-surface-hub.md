@@ -1,5 +1,5 @@
 ---
-title: 曲面集线器部署的 Microsoft 团队
+title: 为 Surface Hub 部署 Microsoft Teams
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -16,20 +16,22 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 485e4063c523608421955b86e0be680d5dc10b9a
-ms.sourcegitcommit: 5742301cdd28e5e26107920f18e70f41b0f67cfb
+ms.openlocfilehash: 8a97e651e703146c07450229fb4958116d0fd8a2
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27132000"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342202"
 ---
-<a name="deploy-microsoft-teams-for-surface-hub"></a>曲面集线器部署的 Microsoft 团队
+<a name="deploy-microsoft-teams-for-surface-hub"></a>为 Surface Hub 部署 Microsoft Teams
 ======================================
 
-为 Microsoft Surface 集线器部署的 Microsoft 团队之前，请确保您已满足硬件、 操作系统和其他要求。 有关详细信息，请参阅[Microsoft Surface 中心管理指南](https://docs.microsoft.com/surface-hub/)。
+为面集线器安装团队之前，请确保要执行下列操作：
 
-> [!NOTE]
-> 如果您从 Skype 中的业务联机转换，您需要确认的 Microsoft 团队许可证分配给用户。
+ 满足 □ 使确保硬件、 操作系统和其他要求。 有关详细信息，请参阅[Microsoft Surface 中心管理指南](https://docs.microsoft.com/surface-hub/)。<br>
+ □ 请确保已安装团队所需的最低操作系统 update- [KB4343889](https://support.microsoft.com/help/4343889)。<br>
+ □ 将团队许可证分配给集线器设备帐户。<br>
+ □ 如果您从 Skype 转换的业务联机状态，确认团队许可证已分配给用户。
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>从 Microsoft 存储的表面集线器安装团队 
 
@@ -37,7 +39,7 @@ ms.locfileid: "27132000"
  
 1. 启动 Microsoft 存储：<br>
    a. 点击**开始** > **所有应用程序** > **设置**。<br> b. 点击**面集线器设备帐户、 管理**。<br>
-   c. 在左侧，点击**应用程序和功能**选项卡。<br> d. 在右侧，点击**打开存储**按钮。 
+   c. 在左侧，点击**应用程序 & 功能**选项卡。<br> d. 在右侧，点击**打开存储**按钮。 
 2. 从 Microsoft 存储，搜索*的 Microsoft 团队*。 将显示**图面中心的 Microsoft 团队**。 点击**获取应用程序**按钮以安装。  
 3. 安装完成后，重新启动面集线器。 
 

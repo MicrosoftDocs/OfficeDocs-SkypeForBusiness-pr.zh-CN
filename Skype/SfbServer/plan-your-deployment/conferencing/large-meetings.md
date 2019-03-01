@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 摘要： 阅读本主题可了解有关实施和管理大型会议中 Skype 业务 server 最佳实践。
-ms.openlocfilehash: 0d78a679414ec9287837e494d94bdc708879f863
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d77a3b3fa5f989f36fd9097499de0fd75991b5e4
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20970512"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342210"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>规划大型会议中 Skype 业务服务器
  
@@ -101,6 +101,7 @@ Skype 业务服务器可以支持的会议的大小取决于是否在共享或�
 - 使观众或个别用户静音/取消静音
     
 - 管理会议内容，包括上载内容、删除内容和切换活动内容
+
     
 ### <a name="maintain-a-separate-calendar"></a>维护单独的日历
 
@@ -186,6 +187,8 @@ Skype 业务服务器可以支持的会议的大小取决于是否在共享或�
     
 > [!NOTE]
 > 支持大型会议中 Skype 的业务服务器需要的设置**AllowLargeMeetings**设置为 true。 当此设置设置为 true，Skype 的用户加入会议时，将超大型会议优化业务体验。 具体而言，在大型会议中，for Business 的 Skype 不会显示初始或完整的会议参与者列表中，这是性能瓶颈客户端和 Skype 业务服务器更新。 Skype for Business 将仅显示有关用户和会议的演示者的列表的信息。 Skype for Business 仍会显示可用的大型会议中的参与者的总数。
+
+
   
 若要禁用大型会议中不需要的会议功能，需要使用此处指定的所有会议策略设置（“最大会议规模”**** 设置除外）。
   
