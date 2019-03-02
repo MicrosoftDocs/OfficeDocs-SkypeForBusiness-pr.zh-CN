@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 4ace3c1d-c1b6-4f99-bc71-0d1757c8aba9
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于白俄罗斯业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: f2daefe760235dc7f80ea351933102c70d5c9fb5
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 67e9436b61d4f88c042d0e827244ffffe3604e88
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048314"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30350911"
 ---
 # <a name="availability-in-belarus"></a>在白俄罗斯的可用性
 

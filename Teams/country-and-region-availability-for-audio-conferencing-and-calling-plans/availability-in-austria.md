@@ -1,5 +1,5 @@
 ---
-title: 奥地利中的可用性
+title: 在奥地利的可用性
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 298c6df7-0054-48cf-867c-082bdb695999
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于奥地利业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 725b6491bb3b4bc4b96b5231690db247a84e9cdb
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 0b7393728e17fb540126a09221534fbfcecd8050
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046875"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353415"
 ---
-# <a name="availability-in-austria"></a>奥地利中的可用性
+# <a name="availability-in-austria"></a>在奥地利的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 

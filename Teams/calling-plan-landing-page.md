@@ -6,22 +6,25 @@ manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
 description: 调用计划登录页
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3299460eeb504c53737d163a6026081775fce5d
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: cce239825389e11cfbc627d518e7d1e459fa77d3
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29595361"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351495"
 ---
 # <a name="phone-system-with-calling-plans"></a>具有通话套餐的电话系统 
 
-您已完成的[开始](get-started-with-teams-quick-start.md)。 您已推出团队[聊天、 工作组、 通道和 & 应用程序](deploy-chat-teams-channels-microsoft-teams-landing-page.md)与您的组织内。 也许您已经部署了[会议 & 会议](deploy-meetings-microsoft-teams-landing-page.md)。 现在已准备好添加云语音工作负荷，因而您已决定使用调用计划与 Microsoft 电话系统连接到公共公用电话交换网 (PSTN)。 
+您已完成的[开始](get-started-with-teams-quick-start.md)。 你已在整个组织中部署了具有[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)的 Teams。 也许您已经部署了[会议 & 会议](deploy-meetings-microsoft-teams-landing-page.md)。 现在已准备好添加云语音工作负荷，因而您已决定使用调用计划与 Microsoft 电话系统连接到公共公用电话交换网 (PSTN)。 
 
 本文介绍数据调用计划以及其他注意事项核心部署决策可能想要配置，根据组织的需要。 有关 Microsoft 云语音产品的详细信息，您还应阅读[Microsoft 团队中的云语音功能](cloud-voice-landing-page.md)。
 
@@ -31,7 +34,7 @@ ms.locfileid: "29595361"
 以下文章提供有关部署和使用 Microsoft 调用计划的详细信息：
 
 - [Office 365 中的电话系统](what-is-phone-system-in-office-365.md)
-- [Office 365 的通话套餐](calling-plans-for-office-365.md)
+- [Office 365 通话套餐](calling-plans-for-office-365.md)
 - [设置通话套餐](set-up-calling-plans.md)
 
 
@@ -44,7 +47,7 @@ ms.locfileid: "29595361"
 - 国内呼叫计划 
 - 国内和国际呼叫计划
 
-|问自己|操作 |
+|询问你自己|操作 |
 |------------|-------|
 |有调用计划在我的区域中？ 哪些用户位置会调用规划服务？ | 有关详细信息，请参阅[国家和地区音频会议和调用计划的可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 | 
 我的用户是否需要国际呼叫？ | 有关详细信息，请参阅[调用 Office 365 的计划](calling-plans-for-office-365.md)。 |
@@ -52,7 +55,7 @@ ms.locfileid: "29595361"
 每个我用户是否有直接向内拨打 (DID) 电话号码？ | 若要获取电话号码，请参阅[步骤 3： 获取电话号码](set-up-calling-plans.md#step-3-get-phone-numbers)。 |
 |||
 
-### <a name="transfer-phone-numbers-to-office-365"></a>将电话号码转移到 Office 365
+### <a name="transfer-phone-numbers-to-office-365"></a>将电话号码转接到 Office 365
 
 很容易将您的电话号码从您当前的服务提供商转接到团队。 端口您向工作组的电话号码后，Microsoft 将成为服务提供商，将向您为这些电话号码。 有关详细信息，请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。
 
@@ -61,7 +64,7 @@ ms.locfileid: "29595361"
 
 与调用计划在 Office 365 中，每个用户在您的组织需要具有唯一直接拨入 (DID) 电话号码和相应的验证紧急地址。 您还可以指定紧急地址 （例如，办公室号码或楼层号） 中的紧急位置。 
 
-|问自己|操作 |
+|询问你自己|操作 |
 |:------------|:-------|
 |如何详细我是否需要为的紧急地址和位置信息？ |有关详细信息，请参阅[紧急位置、 地址和呼叫路由是什么？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)。
 
@@ -70,7 +73,7 @@ ms.locfileid: "29595361"
 
 默认情况下，所有出站呼叫的分配的电话号码用作调用 identity (呼叫者 ID)。 呼叫接收人可以快速识别呼叫方，并决定是接收还是拒绝呼叫。
 
-|问自己|操作 |
+|询问你自己|操作 |
 |:------------|:-------|
 |我想要屏蔽或禁用呼叫者 ID 吗？ | 若要更改或阻止呼叫者 ID，请参阅[设置用户的呼叫者 ID](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user)。 |
 |||

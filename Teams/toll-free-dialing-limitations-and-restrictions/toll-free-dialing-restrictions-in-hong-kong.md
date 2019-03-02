@@ -1,5 +1,5 @@
 ---
-title: 免费电话拨号 （香港特别行政区） 中的限制
+title: 中国香港的免费拨号限制
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 999aa4b0-6084-4fbe-83c9-eed030bf9560
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 这将帮助您了解如何拨号中每个国家/地区免费电话号码。 选择国家/地区后，它会将您导引到特定国家/地区的页面包含特定详细信息、 限制和免费电话服务可用性的限制的免费电话服务位于。 拨号格式将显示您拨免费电话号码每个国家/地区内所需的访问代码。
-ms.openlocfilehash: 449d953cb714fd13a60ce9952e295927d3e31645
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 26afa58dee792936cad75ae01342c70f0cc63797
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048639"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351391"
 ---
-# <a name="toll-free-dialing-restrictions-in-hong-kong"></a>免费电话拨号 （香港特别行政区） 中的限制
+# <a name="toll-free-dialing-restrictions-in-hong-kong"></a>中国香港的免费拨号限制
 
 [查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费电话拨号限制和限制的详细信息。
 

@@ -5,22 +5,20 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: 本文介绍如何监视和解决直接路由配置。
-ms.openlocfilehash: 46fd5ad046551d30bf3822d11864edc2a5353a26
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 75f116004c0385aa7d13b0173380221304590814
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014930"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30350983"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>监视和故障排除直接路由
 
@@ -46,7 +44,7 @@ Microsoft 从事的故障排除与监视提供更多工具。 请检查定期更
 
 ![SIP 选项配置示例](media/sip-options-config-example.png)
 
-当用户发出呼叫号码 +1 425\<任意七位数字 >，直接路由计算路由。 作为路由中有两个 SBCs: sbc1.contoso.com 和 sbc2.contoso.com。 这两个 SBCs 作为路由中具有相同的优先级。 选取 SBC 之前, 的路由机制计算 SBCs 基于 SBC 发送 SIP 选项时的运行状况上次时间。 
+当用户发出呼叫号码 +1 425\<直接路由任何七个 digits> 计算路由。 作为路由中有两个 SBCs: sbc1.contoso.com 和 sbc2.contoso.com。 这两个 SBCs 作为路由中具有相同的优先级。 选取 SBC 之前, 的路由机制计算 SBCs 基于 SBC 发送 SIP 选项时的运行状况上次时间。 
 
 SBC 被视为正常运行，如果时刻发送呼叫的统计信息显示 SBC 发送定期的选项。  
 
@@ -73,7 +71,7 @@ SBC 被视为正常运行，如果时刻发送呼叫的统计信息显示 SBC �
 
 您可以使用以下工具来监视您的配置：  
  
-- 通话质量仪表板 
+- 呼叫质量仪表板 
 - SBC 日志 
 
 直接路由服务已向呼叫分析或 SBC 日志报告非常描述性错误代码。 

@@ -1,5 +1,5 @@
 ---
-title: 免费电话拨号限制在中国-北 （10 800 714 格式范围）
+title: 中国的免费拨号限制 - 北部（10 800 714 XXXX 范围）
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: de35403c-ac6d-4325-9fb2-9bead8f14faf
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 这将帮助您了解如何拨号中每个国家/地区免费电话号码。 选择国家/地区后，它会将您导引到特定国家/地区的页面包含特定详细信息、 限制和免费电话服务可用性的限制的免费电话服务位于。 拨号格式将显示您拨免费电话号码每个国家/地区内所需的访问代码。
-ms.openlocfilehash: f012a013b7999347385838a0990998b2d7f2ac9a
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 18969d7f5f002ffaaf5bcdc5c97cc3e0ea9c65b4
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048647"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30350927"
 ---
-# <a name="toll-free-dialing-restrictions-in-china---north-10-800-714-xxxx-range"></a>免费电话拨号限制在中国-北 （10 800 714 格式范围）
+# <a name="toll-free-dialing-restrictions-in-china---north-10-800-714-xxxx-range"></a>中国的免费拨号限制 - 北部（10 800 714 XXXX 范围）
 
 [查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费电话拨号限制和限制的详细信息。
 

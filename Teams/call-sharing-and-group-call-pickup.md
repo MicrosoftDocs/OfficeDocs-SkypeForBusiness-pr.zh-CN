@@ -3,15 +3,15 @@ title: Microsoft Teams 中的呼叫共享和组内呼叫应答
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 01/16/19
+ms.date: 02/19/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service:
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 调用共享并组呼叫应答让用户与同事共享传入呼叫，以便用户不可用时，可以捕获呼叫。
-ms.openlocfilehash: 31df45d0420457528fd517c851b845a09cab32e0
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: df98dd4df064b23b687ddcc569e6c5a431137527
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328314"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351327"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams 中的呼叫共享和组内呼叫应答
 
@@ -48,7 +48,7 @@ ms.locfileid: "28328314"
 
 呼叫组的创建和通知首选项是用户驱动的功能;管理员不需要配置这些功能的用户。 无法从安全组或 Office 365 组; 创建呼叫组必须在工作组中创建它们。
 
-管理员不能阻止用户创建组和更改其他呼叫分拣设置。 不阻止功能。
+管理员应启用通过**TeamsCallingPolicy AllowCallGroups**设置用户的呼叫组。 管理员可以仅控制此用户是否可以配置呼叫组。 一旦位设置为 true，则管理员无法防止其他用户配置和添加他们选择的呼叫组用户。
 
 ## <a name="limitations"></a>限制
 

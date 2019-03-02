@@ -10,15 +10,18 @@ ms.reviewer: MyAdvisor
 description: 向 IT 管理员介绍 Microsoft Teams 中的音频会议的视频。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+ms.collection:
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08bc1ac1d150f664793de26068e05567ade7c197
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 696ea2c542a3c8540b75e999bd95c0c910125057
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012910"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352951"
 ---
 <a name="videos-audio-conferencing-in-microsoft-teams"></a>视频 Microsoft Teams 中的音频会议
 =============================================

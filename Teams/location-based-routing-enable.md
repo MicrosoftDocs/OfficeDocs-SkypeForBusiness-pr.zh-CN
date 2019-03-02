@@ -1,5 +1,5 @@
 ---
-title: 启用基于位置的路由直接路由
+title: 为直接路由启用基于位置的路由
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,17 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 description: 了解如何启用基于位置的路由，以便直接路由。
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8437eba299cb42415d224017ca7d0e888fffa684
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 854f0fefc006c02bc07c73cd4519b943411094f5
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771005"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352543"
 ---
-# <a name="enable-location-based-routing-for-direct-routing"></a>启用基于位置的路由直接路由
+# <a name="enable-location-based-routing-for-direct-routing"></a>为直接路由启用基于位置的路由
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -65,7 +68,7 @@ ms.locfileid: "29771005"
     
     ||语音路由策略 1|语音路由策略 2|
     |---------|---------|---------|
-    |语音策略 ID   |德里语音路由策略   |海德拉巴语音路由策略    |
+    |Online 语音策略 ID   |德里联机语音路由策略   |海德拉巴联机语音路由策略    |
     |联机 PSTN 用法  |长途电话  |Long Distance，Local，内部  |
 
     有关详细信息，请参阅[新建 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy)。
@@ -76,21 +79,21 @@ ms.locfileid: "29771005"
 ## <a name="enable-location-based-routing-for-network-sites"></a>启用基于位置的路由的网络站点
 1.  使用``Set-CsTenantNetworkSite``cmdlet 启用基于位置的路由和关联的语音路由策略给您需要强制执行路由限制的网络站点。
     ```
-    Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false> -OnlineVoiceRoutingPolicy <voice routing policy ID> 
+    Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
 
     本示例中，我们启用德里网站和海德拉巴站点基于位置的路由。 
 
     ```
-    Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true -OnlineVoiceRoutingPolicy "DelhiVoiceRoutingPolicy" 
-    Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true -OnlineVoiceRoutingPolicy "HyderabadVoiceRoutingPolicy" 
+    Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
+    Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
     下表显示了在此示例基于位置的路由启用的网站。
 
     ||站点 1 （德里）  |站点 2 （海德拉巴）  |
     |---------|---------|---------|
+|站点名称    |站点 1 （德里）    |站点 2 （海德拉巴）   
     |EnableLocationBasedRouting    |True    |True    |
-    |语音路由策略    | 德里语音路由策略       |海德拉巴语音路由策略    |
     |子网     |子网 1 （德里）     |子网 2 （海德拉巴）     |
 
 ## <a name="enable-location-based-routing-for-gateways"></a>启用基于位置的网关的路由
@@ -103,7 +106,7 @@ ms.locfileid: "29771005"
 
     本示例中，我们将创建一个网关配置，每个网关。 
     ```
-    New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
+    New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
     ```
     有关详细信息，请参阅[配置直接路由](direct-routing-configure.md)。
     
@@ -142,25 +145,25 @@ ms.locfileid: "29771005"
     |---------|---------|---------|
     |PstnGateway:Gateway 1 DEL 网关    |    True     |   站点 1 （德里）      |
     |PstnGateway:Gateway 2 HYD 网关     |   True      |      站点 2 （海德拉巴）   |
-    |PstnGateway:Gateway 3 DEL PBX    |    True     |     站点 1 （德里）    |
-    |PstnGateway:Gateway 4 HYD PBX    |    True     |    站点 2 （海德拉巴）     |
+    |PstnGateway:Gateway 3 DEL PBX    |    False     |     站点 1 （德里）    |
+    |PstnGateway:Gateway 4 HYD PBX    |    False     |    站点 2 （海德拉巴）     |
 
 ## <a name="enable-location-based-routing-for-calling-policies"></a>启用基于位置的路由调用策略
 
 若要强制执行的特定用户的基于位置的路由，用户的语音策略，可防止 PTSN 收费电话设置，绕过。 
 
-使用``Grant-TeamsCallingPolicy``cmdlet 来启用基于位置的路由通过防止 PSTN 收费绕过。
+使用``Grant-CsTeamsCallingPolicy``cmdlet 来启用基于位置的路由通过防止 PSTN 收费绕过。
 
 ```
-Grant-TeamsCallingPolicy -PolicyName <policy name> -id <user id> 
+Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
 ```
 本示例中，我们将禁止 PSTN 收费绕过为 User1 的调用策略。 
 
 ```
-Grant-TeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
+Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 
 ### <a name="related-topics"></a>相关主题
-- [规划基于位置的路由直接路由](location-based-routing-plan.md)
-- [配置基于位置的路由的网络设置](location-based-routing-configure-network-settings.md)
+- [为直接路由计划基于位置的路由](location-based-routing-plan.md)
+- [为基于位置的路由配置网络设置](location-based-routing-configure-network-settings.md)
 - [基于位置的路由术语](location-based-routing-terminology.md)

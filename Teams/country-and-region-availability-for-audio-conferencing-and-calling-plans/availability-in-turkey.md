@@ -1,5 +1,5 @@
 ---
-title: 土耳其中的可用性
+title: 在土耳其的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: c34f4dba-6803-42f8-8133-6ecc5220be3c
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于土耳其业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 7749ebf9ab2100bc033644f9979c251f00841d9b
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 432e2fa65069ce457d1b8a04e2436b65d0788239
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048096"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351343"
 ---
-# <a name="availability-in-turkey"></a>土耳其中的可用性
+# <a name="availability-in-turkey"></a>在土耳其的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 

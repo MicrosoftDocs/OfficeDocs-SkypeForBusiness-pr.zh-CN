@@ -7,14 +7,13 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 - Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -26,12 +25,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 在每个国家或地区，为 Skype for Business Online 和 Microsoft Teams 用户获取电话号码的说明均不同。 请访问下面你所在国家或地区对应的链接来获取你所需信息。
-ms.openlocfilehash: b2f20983051f55464d95ed0a36a4173c68b8b4db
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 23923d6d31222d1d97d43318227ce2b1e558d5c2
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048160"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351895"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>管理组织的电话号码
 有三种方法可以为您的组织获取用户和服务（收费和免费）号码。

@@ -7,7 +7,7 @@ ms.date: 01/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: phecda louie
+ms.reviewer: phlouie
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用团队模板来创建工作组使用预定义的通道。
@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27c27aabd9463287c15a98282d6efe114642a8a1
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+ms.openlocfilehash: 97504dcc6fa1cd465eae7bf0ea151cdf36f525d2
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760572"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352639"
 ---
 # <a name="get-started-with-teams-templates"></a>开始使用 Teams 模板 
 
@@ -80,5 +80,5 @@ ms.locfileid: "29760572"
 - [创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)（在预览）
 - [新团队](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Microsoft Teams 管理培训](itadmin-readiness.md)
-- [零售工作组模板入门](get-started-with-retail-teams-templates.md)
+- [Teams 零售模板入门](get-started-with-retail-teams-templates.md)
 - [医护团队模板入门](healthcare/healthcare-templates.md)

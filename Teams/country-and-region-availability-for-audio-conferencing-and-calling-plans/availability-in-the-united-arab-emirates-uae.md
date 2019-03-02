@@ -1,5 +1,5 @@
 ---
-title: 阿拉伯联合酋长国 （阿拉伯联合酋长国） 中的可用性
+title: 在阿拉伯联合酋长国 (UAE) 的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 0e62e15f-e84a-42c3-87cb-adeb6dcfd761
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于阿拉伯联合酋长国业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 59e0aa3e70128169a95c35abfef040e517736ad3
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 5a83db3ecfc43e31193deba58271e90115143ecd
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047936"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352031"
 ---
-# <a name="availability-in-the-united-arab-emirates-uae"></a>阿拉伯联合酋长国 （阿拉伯联合酋长国） 中的可用性
+# <a name="availability-in-the-united-arab-emirates-uae"></a>在阿拉伯联合酋长国 (UAE) 的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 

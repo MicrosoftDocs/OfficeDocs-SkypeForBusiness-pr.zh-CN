@@ -1,5 +1,5 @@
 ---
-title: 用户可以拨打到这些国家和地区的出站电话
+title: 用户可以向这些国家和地区进行出站呼叫
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,11 +7,11 @@ ms.reviewer: mikedav, jastark
 ms.topic: article
 ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
-ms.service:
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +24,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 本主题包含所有用户可以发起出站调用，如果拥有调用规划国家/地区。
-ms.openlocfilehash: 55158366711e51472884aab74db6f5f70a9241c3
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 59cfb8f99392538313f67ff80f13aa394cfa4352
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047527"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351943"
 ---
-# <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>用户可以拨打到这些国家和地区的出站电话
+# <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>用户可以向这些国家和地区进行出站呼叫
 
 ### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>请参阅国家/地区内用户可以发起出站呼叫到，如果用户具有国内和国际呼叫规划许可证
 

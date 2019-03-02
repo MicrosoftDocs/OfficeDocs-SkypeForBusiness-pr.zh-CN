@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队医疗保健模板入门
+title: 入门医疗保健机构的工作组模板
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,15 +12,15 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Microsoft 团队医疗保健模板入门
-ms.openlocfilehash: e2b1e9cb2171f250c9d9e635c3d5233c4f47f24e
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+description: 入门医疗保健机构的工作组模板
+ms.openlocfilehash: 98fff56720bc0d0dee530ab37c67e0e24aaba086
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760564"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351711"
 ---
-# <a name="get-started-with-microsoft-teams-healthcare-templates"></a>Microsoft 团队医疗保健模板入门
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>入门医疗保健机构的工作组模板
 
 Microsoft 团队模板允许您快速和轻松创建团队提供的预定义的模板的设置、 通道和预安装的应用程序。
 
@@ -37,7 +37,7 @@ Microsoft 团队模板允许您快速和轻松创建团队提供的预定义的�
 |医疗保健-行政区 | https://<span></span>图<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | 通知\* <br> Huddles\* <br> 将舍入为\* <br> 人员配备扁平化\* <br> 培训\* |
 |     | |         |
 
-\*自动 favorited 
+\*自动 favorited
 
 ## <a name="hospital-template"></a>医院模板
 

@@ -7,12 +7,11 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: a5a696c3-d321-4e61-9aad-e3a87041196e
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: a3762b58d6014c4f32bb03ba821aa704c7145ea9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9d50c4682553999c2836d8e18bd3f6a56d88554c
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013478"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351599"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 中的音频会议
 Office 365 中的音频会议允许用户从其电话加入会议呼叫。 音频会议允许达 250 位电话与会者。
@@ -42,7 +41,7 @@ Office 365 中的音频会议允许用户从其电话加入会议呼叫。 音�
 - 用户可以使用蓝牙设备采用"免提"方式加入会议。
 - 查找更轻松地，并对其情况更方便。
 
-您只需为建立音频会议计划安排或潜在顾客会议的人员。 拨入会议与会者不需要分配给他们或其他安装程序的许可证。
+你只需为打算安排或主持会议的人设置音频会议。 拨入会议与会者不需要分配给他们或其他安装程序的许可证。
 
 与会者加入会议后，他们还可以发起电话拨出并邀请其他呼叫者到企业或 Microsoft 团队会议 Skype。 请参阅[从，使其他人可以加入该团队会议拨出](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)或[从业务会议，使其他人可以加入它 Skype 拨出](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)。
 
@@ -50,7 +49,7 @@ Office 365 中的音频会议允许用户从其电话加入会议呼叫。 音�
 如需了解有关定价信息，请参阅[音频会议定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
 
 ## <a name="where-is-it-available"></a>其中是否可用？
-与音频会议，您的用户可以使用收费和免费电话号码拨入会议。 他们正在启用音频会议时，会自动为对组织共享音频会议号码分配收费 （服务）。 可以将其他城市的专用收费和免费号码分配给你的组织。
+与音频会议，您的用户可以使用收费和免费电话号码拨入会议。 他们正在启用音频会议时，会自动为对组织共享音频会议号码分配收费 （服务）。 可以从其他城市将专用收费和免费电话号码分配给你的组织。
 
 免费电话号码 （服务号码） 是可用，但仅在某些国家/地区。 若要了解哪些资源可在您的国家或地区，请参阅[国家和地区音频会议和调用计划的可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
@@ -90,7 +89,7 @@ Office 365 中的音频会议允许用户从其电话加入会议呼叫。 音�
     
 - **转网现有的号码。** 您可以将当前服务提供商或电话运营商提供的现有号码转网或转移到 Office 365。 有关详细信息，请参阅[将电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md) 或[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，从而帮助您执行此操作。  
   
-- **使用新号码的请求表单。** 有时 （根据您的国家/地区） 您将无法获取您的业务管理中心中，使用 Skype 的新电话号码，或需要特定的电话号码或区域代码。 如果是这样，你需要下载表单并将其发送给我们。 有关详细信息，请参阅 [管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 。
+- **使用新号码的请求表单。** 有时 （根据您的国家/地区） 您将无法获取您的业务管理中心中，使用 Skype 的新电话号码，或需要特定的电话号码或区域代码。 如果是这样，你需要下载表单并将其发送给我们。 有关详细信息，请参阅[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
 ## <a name="how-do-you-set-it-up"></a>如何设置其？
 您已决定为您的用户设置音频会议之后，请参阅的步骤为此，您可以按照[设置业务和 Microsoft 团队的 Skype 的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)。
@@ -99,6 +98,6 @@ Office 365 中的音频会议允许用户从其电话加入会议呼叫。 音�
 
 [设置 Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   
-[Microsoft 团队中的音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md) 
+[Microsoft Teams 中用于音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md) 
 
 [Skype for Business Online 中的音频会议电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)

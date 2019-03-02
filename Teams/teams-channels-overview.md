@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ae5d850670007d4356fa3de8610e4b110856734
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: babfec7ae442b9d5f787fda7a9d9eedb0e3a6303
+ms.sourcegitcommit: e739925aa73f257b72ce4f94002d8b17582252a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753843"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357767"
 ---
 > [!NOTE]
 > 查看以下信息以了解聊天、 工作组、 通道和团队中的 & 应用程序。 然后，转到[部署聊天、 工作组、 通道和团队中的 & 应用程序](deploy-chat-teams-channels-microsoft-teams-landing-page.md)来为您的团队推出遍历的重要决策的列表。
@@ -88,7 +88,7 @@ Microsoft Teams 的特点在于打破组织界限及推动跨职能团队，因�
 
 可以根据组织结构创建团队。  对于想要推动士气、举行团队特定评审、澄清员工入职流程、讨论人力计划并提高跨分散人力的可见性的领导来说，这最为适用。  
 
-![Microsoft Teams 中团队和频道组织方式层次结构示意图。](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
+![Microsoft Teams 中团队和频道组织方式层次结构示意图。](media/overview-of-teams-and-channels-image1.png)
 
 ## <a name="org-wide-teams"></a>组织范围团队
 

@@ -1,5 +1,5 @@
 ---
-title: 肯尼亚中的可用性
+title: 在肯尼亚的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 4ec0cc20-1bcd-4596-a220-f7b363d95055
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于肯尼亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 7a9fcd3d3c658c95bdb70b8de9349444fae0c41e
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 3a6c3dcd0f48588df4948249f57439ac7f29610c
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048599"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353519"
 ---
-# <a name="availability-in-kenya"></a>肯尼亚中的可用性
+# <a name="availability-in-kenya"></a>在肯尼亚的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 

@@ -1,5 +1,5 @@
 ---
-title: 葡萄牙中的可用性
+title: 在葡萄牙的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 91951367-bb7c-4620-bc23-10e6a0ac58e0
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于葡萄牙业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: afef72fe665e3894a5f635cc8ae046a6e36ceb4a
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: fe57e80ce4296a0d480c6e7c00e3342964554cad
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046795"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352575"
 ---
-# <a name="availability-in-portugal"></a>葡萄牙中的可用性
+# <a name="availability-in-portugal"></a>在葡萄牙的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 

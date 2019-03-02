@@ -1,5 +1,5 @@
 ---
-title: 克罗地亚中的可用性
+title: 在克罗地亚的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 30a528ca-43bc-4e7f-81fe-3adc7d3d6acb
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于克罗地亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 9203fce004d80573161e6c6542d6f6ebfdfbb90a
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 328a17b5192b50a390943fd239f932ed8b3f8cdd
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047163"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353047"
 ---
-# <a name="availability-in-croatia"></a>克罗地亚中的可用性
+# <a name="availability-in-croatia"></a>在克罗地亚的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
