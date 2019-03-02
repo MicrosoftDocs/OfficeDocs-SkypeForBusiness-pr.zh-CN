@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 了解如何在 Microsoft Teams 中针对音频会议号码选择音频会议自动助理语言。
-ms.openlocfilehash: 44861c1dc7c95afe09194c05f357cf371d00ca43
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 8babb2857862c74d2e94faf248b436c487b92b21
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754010"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352823"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft Teams 中设置音频会议自动助理语言
 

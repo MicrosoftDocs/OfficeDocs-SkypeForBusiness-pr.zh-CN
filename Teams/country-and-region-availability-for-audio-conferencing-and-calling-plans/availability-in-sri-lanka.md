@@ -1,18 +1,17 @@
 ---
-title: 斯里兰卡中的可用性
-ms.author: tonysmit
-author: tonysmit
+title: 在斯里兰卡的可用性
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 5e91dcb0-7c23-415b-9e0b-82115dc046da
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于斯里兰卡业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 01dba4ec6d4ad62350fd77e6283602e335558f41
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 04ca009a0b542a156ec3e6fba95e79c5880f6695
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016130"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352919"
 ---
-# <a name="availability-in-sri-lanka"></a>斯里兰卡中的可用性
+# <a name="availability-in-sri-lanka"></a>在斯里兰卡的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
@@ -52,8 +51,8 @@ ms.locfileid: "25016130"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-| 自动助理 <br/> |可用  <br/> |
-|呼叫队列  <br/> |可用  <br/> |
+| 自动助理 <br/> |有空  <br/> |
+|呼叫队列  <br/> |有空  <br/> |
 |语音邮件  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通话套餐

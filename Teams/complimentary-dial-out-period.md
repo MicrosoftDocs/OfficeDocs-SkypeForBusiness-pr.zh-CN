@@ -1,5 +1,5 @@
 ---
-title: 优惠拨出时段
+title: 免费拨出时段
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, OscarR
 ms.topic: article
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: 根据 Skype for Business Online PSTN 服务使用条款和客户的批量授权，客户可以使用 Office 365 通话套餐和 Office 365 音频会议。
-ms.openlocfilehash: 235b8906385be0e6228a7d99c3dda1a52507f137
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1d1d047e4888c2f8fbfa93aeb7ab4c00dfc62bde
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532889"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352863"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音频会议免费拨出期
 
@@ -49,7 +48,7 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
 - 每分钟至该目标我们已发布的费用在使用 Communications 字幕式计费到目标不在区域的国家/地区列表中的所有出站呼叫 (提供租户已设置 Communications 字幕式和分配到 Communications 字幕式许可证会议组织者）。
 
 > [!NOTE]
-> 您可以监视针对电话拨出式 minute 池中 Business Admin Center Skype 的使用情况。 在 Microsoft 团队和 Skype 管理中心中，转到**旧门户** > **报告** > **PSTN 分钟池**。 此互补分钟池将被标记在报表中为"出站调用区域的国家/地区。"
+> 您可以监视针对电话拨出式 minute 池中 Business Admin Center Skype 的使用情况。 在 Microsoft 团队 & Skype 管理中心中，转到**旧门户** > **报告** > **PSTN 分钟池**。 此互补分钟池将被标记在报表中为"出站调用区域的国家/地区。"
 
 将给定的客户的所有租户管理员都发送电子邮件通知时的租户的电话拨出式分钟池利用率已达到 80%到 100%。
 

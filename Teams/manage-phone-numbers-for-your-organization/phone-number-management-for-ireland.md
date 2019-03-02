@@ -7,14 +7,13 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 - Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的爱尔兰电话号码的信息。
-ms.openlocfilehash: a282f51690e91a1dc543c1f675adf3d59b1a8e4f
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: dbdd303ba5dedcba34d25c7d9794fa733b302343
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046955"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352399"
 ---
 # <a name="phone-number-management-for-ireland"></a>爱尔兰的电话号码管理
 

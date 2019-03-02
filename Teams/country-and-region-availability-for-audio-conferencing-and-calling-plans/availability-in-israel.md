@@ -1,5 +1,5 @@
 ---
-title: 以色列中的可用性
+title: 在以色列的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: d9c0434e-4d95-4cb1-a22a-6fd58933a98a
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于以色列业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 1164a0c431bfb26f8ce6c759e14ce6e52d92c869
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: b365d237a07c313f81d265d6dd438ac188073dcf
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048863"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352695"
 ---
-# <a name="availability-in-israel"></a>以色列中的可用性
+# <a name="availability-in-israel"></a>在以色列的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 

@@ -7,14 +7,13 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 572ca0c8-b9f0-4948-9409-e12ee0b94aa0
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
-ms.openlocfilehash: 58edfebbcd01042828d52bc07df9ce8c7d678a59
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 570a3fa3d81c9e5a98125c777e7aa86d4cb8cfdd
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375172"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352671"
 ---
 # <a name="audio-conferencing-supported-languages"></a>音频会议支持的语言
 

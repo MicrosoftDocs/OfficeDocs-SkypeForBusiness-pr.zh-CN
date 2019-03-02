@@ -1,18 +1,17 @@
 ---
-title: 瑞士的可用性
-ms.author: tonysmit
-author: tonysmit
+title: 在瑞士的可用性
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: bbaf568d-363f-45e7-acd2-82e5ebb7fa21
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 瑞士可用的项目。
-ms.openlocfilehash: 22ec9173e00621694512f939818ed0987f5988d5
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: f8248b6daa40c80a18c4fdd61c4419d54d2ada5d
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674695"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352687"
 ---
-# <a name="availability-in-switzerland"></a>瑞士的可用性
+# <a name="availability-in-switzerland"></a>在瑞士的可用性
 
 > [!NOTE]
 > 您可以获取**服务**号码中瑞士用于与会议自动助理和电话队列，但您无法在瑞士中获取**用户**号码，如调用计划不可用。
@@ -55,8 +54,8 @@ ms.locfileid: "26674695"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-| 自动助理 <br/> |可用  <br/> |
-|呼叫队列  <br/> |可用  <br/> |
+| 自动助理 <br/> |有空  <br/> |
+|呼叫队列  <br/> |有空  <br/> |
 |语音邮件  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通话套餐

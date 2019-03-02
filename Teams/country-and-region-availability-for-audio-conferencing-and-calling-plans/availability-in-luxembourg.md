@@ -1,5 +1,5 @@
 ---
-title: 卢森堡中的可用性
+title: 在卢森堡的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 466bff97-98ef-4e44-95b5-f51ee80b2128
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 卢森堡可用的项目。
-ms.openlocfilehash: 9eefc9645ab2f03ce8156193799e7e99adfc1c27
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: d43be0cfca4f0eddee529e12a7f5fad25d3a7079
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047139"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352183"
 ---
-# <a name="availability-in-luxembourg"></a>卢森堡中的可用性
+# <a name="availability-in-luxembourg"></a>在卢森堡的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 

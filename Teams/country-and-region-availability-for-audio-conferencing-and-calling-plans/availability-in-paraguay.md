@@ -1,5 +1,5 @@
 ---
-title: 巴拉圭中的可用性
+title: 在巴拉圭的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 1bf00fc9-342d-4244-822d-0a3e8f20ea27
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 巴拉圭可用的项目。
-ms.openlocfilehash: 297b6b6f77d2eba9b7f7f303abd713512a5f41a0
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 15c2d33397f3f4bf9d51cee1705116cedb66efcd
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046511"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352711"
 ---
-# <a name="availability-in-paraguay"></a>巴拉圭中的可用性
+# <a name="availability-in-paraguay"></a>在巴拉圭的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 

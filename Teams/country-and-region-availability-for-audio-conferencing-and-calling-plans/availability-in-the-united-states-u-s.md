@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 267abb97-5a9c-4ed3-aa6d-47cb63d39cd0
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于美国的业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 5ef3e2435f4219f42f6e8cc9b02b057bcee96634
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: d6f1b205016146fb9b90458b387f23f31cfe1b69
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048775"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352631"
 ---
 # <a name="availability-in-the-united-states-us"></a>在美国 (U.S.) 的可用性
 

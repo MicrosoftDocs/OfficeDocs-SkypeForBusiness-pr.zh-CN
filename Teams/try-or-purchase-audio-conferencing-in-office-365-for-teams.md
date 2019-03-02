@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +22,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
-ms.openlocfilehash: 58abec46586e93c2eb9b7fccdc1190cf9cf4c778
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: eaf978c35fbcf836c88abc83d030f31dee80bb27
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120755"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352351"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>为 Microsoft Teams 试用或购买 Office 365 中的音频会议
 

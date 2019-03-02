@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理员可以控制组织者在其会议中使用免费电话号码的情况。
-ms.openlocfilehash: 3334a9f4af261d9b4cacd988fcdff2f6a0a4eb19
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 3e784619aaa3034e32e64946f513975880203eb8
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753937"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352479"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>对特定 Teams 用户禁用免费电话号码
 

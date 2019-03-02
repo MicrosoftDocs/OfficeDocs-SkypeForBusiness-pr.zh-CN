@@ -10,15 +10,18 @@ ms.service: msteams
 search.appverid: MET150
 description: 了解术语和概念的直接路由与基于位置的路由相关联。
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bcf4341d171f8b9faf8c11bbe8d85503cf2240b
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 122ded988b9bf3c2cd8d439e84cb132e3a3f690d
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29770997"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352328"
 ---
 # <a name="location-based-routing-terminology"></a>基于位置的路由术语
 
@@ -34,6 +37,6 @@ ms.locfileid: "29770997"
 |受信任的外部 IP 地址    |受信任的外部 IP 地址是企业网络的 Internet 外部 IP 地址。 决定是否用户的终结点位于企业网络内部之前检查的特定网站匹配项。 如果用户的外部 IP 与受信任列表中定义的 IP 地址相匹配，基于位置的路由检查以确定用户的终结点所在的内部子网。 如果用户的外部 IP 地址不匹配的受信任列表中定义的任意 IP 地址，终结点分类为未知位置，或从基于位置的路由启用的用户的所有 PSTN 呼叫被都阻止。          |
 
 ### <a name="related-topics"></a>相关主题
-- [规划基于位置的路由直接路由](location-based-routing-plan.md)
-- [配置基于位置的路由的网络设置](location-based-routing-configure-network-settings.md)
-- [启用基于位置的路由直接路由](location-based-routing-enable.md)
+- [为直接路由计划基于位置的路由](location-based-routing-plan.md)
+- [为基于位置的路由配置网络设置](location-based-routing-configure-network-settings.md)
+- [为直接路由启用基于位置的路由](location-based-routing-enable.md)

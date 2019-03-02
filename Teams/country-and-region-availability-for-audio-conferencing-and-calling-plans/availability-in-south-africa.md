@@ -1,5 +1,5 @@
 ---
-title: 南非中的可用性
+title: 在南非的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 7619d889-19c8-48b8-8203-7c25db67a0ce
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于南非业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 78c1d460d8bd4ca1f1dfb9e2a49bec518de25ff0
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: d0cda21c38895a8eeebcb75b1093d6c41a9c71fc
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047781"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352871"
 ---
-# <a name="availability-in-south-africa"></a>南非中的可用性
+# <a name="availability-in-south-africa"></a>在南非的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
