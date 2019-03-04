@@ -3,7 +3,7 @@ title: Microsoft Teams 的已知问题
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 2/19/2019
+ms.date: 2/25/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 252d1508065aaf0a26e865b8f8d8109dec81512e
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: 53a6a258d96777e5dc335fcecb84e9f2b7962beb
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178578"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342100"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -43,6 +43,10 @@ ms.locfileid: "30178578"
 |以管理员身份对租户范围的连接器进行管理的功能不再可用。  <br/> |尝试在客户端和联机版本中添加连接器时，显示错误：发生意外错误。请重试。Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |通过 Teams 设置禁用。请参阅此支持文章： https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |2017 年 6 月 21 日  <br/> |
 
 ## <a name="apps"></a>应用
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|在桌面应用中使用“网站”选项卡时，[条件访问](https://docs.microsoft.com/zh-CN/azure/active-directory/conditional-access/overview)可能不起作用<br/> |如果网站（例如 Intranet 门户）设有浏览器或 IP 地址限制等条件访问策略，则该网站可能不会在桌面应用中呈现为 Teams 内的选项卡。 <br/> |请在浏览器中使用 Teams 而不是使用桌面应用  <br/> |2018/7/1  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -226,6 +230,10 @@ ms.locfileid: "30178578"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
+|网站选项卡引起客户混乱  <br/> |网站选项卡不同于浏览器。一些站点（尤其是要求进行身份验证或使用弹出窗口的站点）以网站选项卡方式固定时无法正常使用。  <br/> |我们正在改进该 UI 以使其对客户更加清晰。  <br/> |2018 年 5 月 2 日  <br/>|
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
 |启用了条件访问后，选项卡无法正常使用 <br/> |对租户启用了条件访问后，在桌面客户端上无法加载一些选项卡。使用 Web 客户端时，可以加载这些选项卡。可能受影响的一些选项卡为：PowerBI、Forms、VSTS、PowerApps 和 SharePoint List。  <br/> |要查看受影响的选项卡，必须在 Edge、IE 或安装了 Windows 10 Accounts 扩展程序的 Chrome 中使用 Teams。一些选项卡仍依赖于 Web 身份验证，而在启用了 CA 时无法在桌面客户端中进行 Web 身份验证。我们正在与合作伙伴合作以启用这些方案；到目前为止，我们已启用 Planner、OneNote 和 Stream。 <br/> |2018 年 4 月 5 日  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
@@ -282,3 +290,6 @@ ms.locfileid: "30178578"
 |:-----|:-----|:-----|:-----|
 |Teams 桌面应用显示白屏  <br/> | <br/> |尝试在计算机上删除或重新安装显卡驱动程序，或从命令行使用禁用 GPU 标志启动 Teams：<ul><li>对于 Windows：打开命令提示窗口并输入以下命令： `cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>对于 Mac：启动终端并输入以下命令： `cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|在以管理方式添加时，用户未收到欢迎电子邮件  <br/> |在使用 PowerShell 或 Teams 管理中心向团队添加成员时，用户不会从 Microsoft Teams 收到欢迎电子邮件  <br/> |如果直接从 Teams UI 添加成员，则将发送电子邮件 当前，没法采用管理方式实现此目标  <br/> |2019/2/12  <br/> |
