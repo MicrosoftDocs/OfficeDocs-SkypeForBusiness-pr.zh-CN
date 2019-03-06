@@ -14,12 +14,12 @@ MS.collection: Teams_ITAdmin_Help
 description: 了解如何在 Microsoft 团队管理中心可用团队报告。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8759de65058c6f2c418622df05028b3c03c94aa6
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 6769a21e621b0259d6811daed90f43f99fdd047f
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "29754620"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408225"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析和报告
 
@@ -41,7 +41,7 @@ ms.locfileid: "29754620"
 |报告  |测量什么？ |
 |---------|---------|
 |[团队使用情况报告](teams-usage-report.md)  |  活动用户<br/>团队和频道中的活动用户<br/>活动信道<br/>邮件<br/>团队的隐私设置<br/>团队中的来宾   |
-|[团队用户活动报告](user-activity-report.md)  |  1:1 在调用用户 particpated<br/>在工作组聊天中张贴的邮件用户<br/>在专用的聊天中张贴的邮件用户<br/>用户上次活动日期     |
+|[团队用户活动报告](user-activity-report.md)  |  1:1 呼叫用户参与<br/>在工作组聊天中张贴的邮件用户<br/>在专用的聊天中张贴的邮件用户<br/>用户上次活动日期     |
 |[团队设备使用情况报告](device-usage-report.md)   |  Windows 用户<br/>Mac 用户<br/>iOS 用户<br/>Android 移动电话用户     |
 
 > [!NOTE]

@@ -8,7 +8,9 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 管理资源中的 Microsoft 团队的帐户
-ms.openlocfilehash: 60fcfe34c665805eac90b5e5be862786e9e68de5
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 22574b2045f162353c3b1154590f3cf903721cf8
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210777"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408256"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>管理资源中的 Microsoft 团队的帐户
 

@@ -1,11 +1,11 @@
 ---
 title: 用于采用的工具和下载
 description: 使用这些采纳资源可帮助您的 Microsoft 团队的推动采纳率和其他 Office 365 服务。
-layout: LandingPage
 ms.topic: landing-page
 author: karuanag
 ms.author: karuanag
 manager: serdars
+layout: LandingPage
 ms.date: 11/20/2018
 ms.service: msteams
 ms.custom: Adopt
@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64041c7cf66e880374d8d52f68c7ec5def0de61c
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: 0e127be7c64dfadcc8cf01e2abcd4bb069d92b78
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015322"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408240"
 ---
 # <a name="tools-for-driving-adoption"></a>对于推动应用的工具 
 
@@ -149,4 +149,4 @@ Office 365 拥护者程序是一个免费程序，可帮助要获取更多来自
 签出[团队应用 flipbook](https://aka.ms/teamstoolkit)，联机向导将帮助您在贵公司推出团队。 它包括多个可下载的工具、 模板和其他资源以帮助您沿您团队应用过程。
 
 ### <a name="teams-customer-success-kit"></a>团队客户成功工具包
-[团队客户成功工具包](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)提供了可帮助您在组织中推出团队的工具。 它包括通知、 传单海报、 倒计时，并提示和技巧的电子邮件模板。 它还包括入门指南团队领导和 IT 管理员。
+[团队客户成功工具包](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)提供了可帮助您在组织中推出团队的工具。 它包括通知、 传单海报、 倒计时和 & 提示和技巧的电子邮件模板。 它还包括入门指南团队领导和 IT 管理员。

@@ -20,16 +20,17 @@ metadata:
   localization_priority: Normal
   search.appverid: MET150
   ms.collection:
+  - M365-voice
   - Adm_Skype4B_Online
   - Teams_ITadmin_Training
   ms.custom:
   - NewAdminCenter_Update
-  ms.openlocfilehash: c309f4882cc12c3d8ccb9a0d9bccadb6d1cd459e
-  ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+  ms.openlocfilehash: f6138e8279ca0c45c186cc3c9e60bf7952a6d14f
+  ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/22/2019
-  ms.locfileid: "30210767"
+  ms.lasthandoff: 03/05/2019
+  ms.locfileid: "30408365"
 items:
 - durationInMinutes: 2
   content: "\n[Microsoft 团队](/MicrosoftTeams/Teams-overview.md)和[for Business 的 Skype](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7)都是提供聊天、 电话对话、 语音邮件、 会议、 文件和一个位置中的共同应用程序的 Office 365 的一部分。 都使用[**电话系统**](/MicrosoftTeams/what-is-phone-system-in-office-365)启用呼叫控制和 Office 365 云中的 PBX 功能。 \n\n电话系统允许您[设置的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)，包括语音邮件和[自动助理](/microsoftteams/what-are-phone-system-auto-attendants)，哪些呼叫您的业务让的人员导航菜单系统，以使其向右部门，请使用替换现有的 PBX 系统人，或运算符。 自动助理可用于与团队或 Skype 业务。 为组织的业务管理中心使用 Skype 创建自动助理系统。\n\n如果您需要设置自动助理，本文将指导您完成规划和实现假想的小型企业的自动助理。 它不是通用的解决方案，但它是一个很好的起始点。 \n\n## <a name=\"before-you-begin\"></a>开始之前\n\n我们假定您已经已以下： \n- 使用[调用规划](/MicrosoftTeams/what-are-calling-plans-in-office-365)为用户提供电话号码[设置您的组织中的电话系统](/MicrosoftTeams/setting-up-your-phone-system.md)。\n- [设置电话系统语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail.md) \n- 检查[电话系统自动助理是什么？](/MicrosoftTeams/what-are-phone-system-auto-attendants.md)以更好地了解可以交互自动助理的电话系统功能。\n\n此外，您会高兴地发现大部分的规划和设计部分可以进行使用白板或索引卡： 具有良好的计划不从技术上讲 ヒ。\n"

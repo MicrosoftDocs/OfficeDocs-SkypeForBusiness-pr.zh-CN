@@ -9,15 +9,17 @@ ms.service: msteams
 search.appverid: MET150
 description: 了解基于 AAD 的动态团队成员资格。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fe6a097ba413c81d90f5fe519c5d6cbf1377a98
-ms.sourcegitcommit: 2ef6a05c659100eea0d92c729001cd4e14434b9f
+ms.openlocfilehash: 512ca6de74f5061976203b3467e7e17bdfe6a800
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30062652"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408272"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>团队的动态成员资格概述
 

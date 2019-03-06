@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 摘要： 实现 Skype 业务服务器之前查看下面的网络组件注意事项。
-ms.openlocfilehash: fd21ada12a8e2b05654fe6809dd5147480b0e306
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: e05e40bc460ddddc6d9576d9842ab592f16e1481
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214510"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408170"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
@@ -80,21 +80,21 @@ Network performance and needs are directly linked to the traffic load placed on 
 
 |规则名称 |源 IP |目标 IP |协议 |源端口 |目标端口 |身份验证要求 |
 |:--- |:--- |:--- |:--- |:---|:---|:--- |
-|A/V 边缘服务器内部入站|任意  |A/V 边缘服务器内部|UDP 和 TCP|任意 |任意 |不进行身份验证|
-|A/V 边缘服务器外部入站|任意  |A/V 边缘服务器外部|UDP 和 TCP|任意 |任意 |不进行身份验证|
-|A/V 边缘服务器内部出站|A/V 边缘服务器内部  |A/V 边缘服务器外部 |UDP 和 TCP|任意 |任意 |不进行身份验证|
-|A/V 边缘服务器外部出站|A/V 边缘服务器外部 |任意 |UDP 和 TCP|任意 |任意 |不进行身份验证|
-|中介服务器入站|任意  |中介服务器 |UDP 和 TCP|任意 |任意 |不进行身份验证|
-|中介服务器出站|中介服务器  |任意|UDP 和 TCP|任意 |任意 |不进行身份验证|
-|会议助理入站|任意  |运行会议助理的前端服务器 |UDP 和 TCP|任意 |任意 |不进行身份验证|
-|会议助理出站|运行会议助理的前端服务器  |任意|UDP 和 TCP|任意 |任意 |不进行身份验证|
-|A/V 会议入站|任意|前端服务器|UDP 和 TCP|任意 |任意 |不进行身份验证|
-|A/V 会议出站|前端服务器|任意|UDP 和 TCP|任意 |任意 |不进行身份验证|
-|Exchange 入站|任意|Exchange 统一消息|UDP 和 TCP|任意 |任意 |不进行身份验证|
-|应用程序共享服务器入站|任意|应用程序共享服务器|UDP 和 TCP|任意 |任意 |不进行身份验证|
-|应用程序共享服务器出站|应用程序共享服务器| 任意 |UDP 和 TCP|任意 |任意 |不进行身份验证|
-|Exchange 出站|Exchange 统一消息|任意|UDP 和 TCP|任意 |任意 |不进行身份验证|
-|客户端| 任意  |任意|UDP 和 TCP|任意 |任意 |不进行身份验证|
+|A/V 边缘服务器内部入站|任何  |A/V 边缘服务器内部|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|A/V 边缘服务器外部入站|任何  |A/V 边缘服务器外部|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|A/V 边缘服务器内部出站|A/V 边缘服务器内部  |A/V 边缘服务器外部 |UDP 和 TCP|任何 |任何 |不进行身份验证|
+|A/V 边缘服务器外部出站|A/V 边缘服务器外部 |任何 |UDP 和 TCP|任何 |任何 |不进行身份验证|
+|中介服务器入站|任何  |中介服务器 |UDP 和 TCP|任何 |任何 |不进行身份验证|
+|中介服务器出站|中介服务器  |任何|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|会议助理入站|任意  |运行会议助理的前端服务器 |UDP 和 TCP|任何 |任何 |不进行身份验证|
+|会议助理出站|运行会议助理的前端服务器  |任何|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|A/V 会议入站|任何|前端服务器|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|A/V 会议出站|前端服务器|任何|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|Exchange 入站|任何|Exchange 统一消息|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|应用程序共享服务器入站|任意|应用程序共享服务器|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|应用程序共享服务器出站|应用程序共享服务器| 任何 |UDP 和 TCP|任何 |任何 |不进行身份验证|
+|Exchange 出站|Exchange 统一消息|任何|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|客户端| 任何  |任何|UDP 和 TCP|任何 |任何 |不进行身份验证|
 |         |         |         |         |         |         |         |
 
 
@@ -137,7 +137,7 @@ G.722 编解码器的立体声版本由基于 Lync Room System 的系统使用�
 |**视频编解码器**|**分辨率和纵横比**|**最大视频负载比特率 (Kbps)**|**最小视频负载比特率 (Kbps)**|
 |:-----|:-----|:-----|:-----|
 |H.264  <br/> |320x180 (16:9)  <br/> 212x160 (4:3)  <br/> |250  <br/> |15  <br/> |
-|H.264/RTVideo  <br/> |424x240 (16:9))  <br/> 320x240 (4:3  <br/> |350  <br/> |100  <br/> |
+|H.264/RTVideo  <br/> |424 x 240 (16:9)  <br/> 320x240 (4:3)  <br/> |350  <br/> |100  <br/> |
 |H.264  <br/> |480x270 (16:9)  <br/> 424x320 (4:3)  <br/> |450  <br/> |200  <br/> |
 |H.264/RTVideo  <br/> |640x360 (16:9)  <br/> 640x480 (4:3)  <br/> |800  <br/> |300  <br/> |
 |H.264  <br/> |848x480 (16:9)  <br/> |1500  <br/> |400  <br/> |

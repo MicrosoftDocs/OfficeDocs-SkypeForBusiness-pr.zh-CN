@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: 阅读本主题可了解如何迁移 Lync 会议室系统设备使用 Skype 会议室系统 v2 软件。
-ms.openlocfilehash: 22693913c613f87c3f11ad5b421d771b661d9b91
-ms.sourcegitcommit: 502f85e7920b1a9a14f879d6211e10ad8daba69f
+ms.openlocfilehash: c01b579e73775e5f6b237f74975681fef7ea45ea
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/22/2019
-ms.locfileid: "29382469"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408210"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>将 Lync 会议室系统 (LRS) 设备迁移到 Skype 会议室系统 v2
 
@@ -41,7 +41,7 @@ Skype 会议室系统版本 2 (SR v2) 软件与除了 Skype 的 Microsoft 团队
 
 ### <a name="crestron-hardware-trade-in-program"></a>Crestron 硬件折旧计划
 
-Crestron 将为所有非 Crestron Lync 会议室系统客户[Crestron SR 系统](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr)或等效提供升级。 此程序的详细信息，请参阅[此处](https://support.crestron.com/app/answers/answer_view/a_id/1000220)或<!-- For details, -->[电子邮件](mailto:lrsupgrade@crestron.com)Crestron LRS 支持。  
+Crestron 将提供升级到[Crestron SR 系统](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr)或等效的所有非 Crestron Lync 会议室系统客户 （例如智能或 Polycom LRS）。 此程序的详细信息，请参阅[此处](https://support.crestron.com/app/answers/answer_view/a_id/1000220)或<!-- For details, -->[电子邮件](mailto:lrsupgrade@crestron.com)Crestron LRS 支持。  
 
 ### <a name="crestron-rl2-upgrade-to-srs-v2"></a>Crestron RL2 升级到 SR v2
 
@@ -49,17 +49,8 @@ Crestron 将为所有非 Crestron Lync 会议室系统客户[Crestron SR 系统]
 
 ### <a name="smart-room-systems-upgrade"></a>智能会议室系统升级
 
-对于智能 LRS 客户，除了 Crestron 硬件折旧计划，Microsoft 和智能还提供解决方案升级到 Skype 会议室系统 v2 工作。 将通过智能技术 Inc.提供此升级请参阅有关此[此处](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml)的详细信息。
+对于智能 LRS 客户，除了 Crestron 硬件折旧计划，智能也正在提供解决方案升级到 Skype 会议室系统 v2。 向下产品支持的客户，将通过智能技术 Inc.提供此升级。 请参阅有关此[此处](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml)的详细信息。
 
-若要使用此选项，客户必须此外购买[Logitech 屏幕共享](https://www.logitech.com/en-us/product/screen-share)适配器。 Microsoft 将提供有关如何与 Skype 会议室系统 v2 软件一起使用此适配器的说明。
-
-查找有关此页上的升级说明回来。
-  
-<!-- 
-### Summary of upgrade options
-
-This table lists summary of all available options for existing LRS devices:
--->
 
 ## <a name="what-should-you-do"></a>怎么办？
 

@@ -8,17 +8,19 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 入门医疗保健机构的工作组模板
-ms.openlocfilehash: 98fff56720bc0d0dee530ab37c67e0e24aaba086
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: fac7aa90d0fe7f1e6b3e1570378b78a50d321869
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351711"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408280"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>入门医疗保健机构的工作组模板
 

@@ -1,11 +1,11 @@
 ---
-title: 设置呼叫分析
+title: 设置通话分析
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
 ms.topic: article
-ms.assetid: ''
+ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 ms.tgt.pltfrm: cloud
 ms.service:
 - skype-for-business-online
@@ -23,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 设置和使用调用分析确定并解决 Skype 的业务和 Microsoft 团队呼叫质量问题。
-ms.openlocfilehash: 489dceae4924f3f720fd60f86423781c1aa31b41
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 4d6216fe1771158453ca32bbabfed5fcf9b09156
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754548"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408288"
 ---
-# <a name="set-up-call-analytics"></a>设置呼叫分析
+# <a name="set-up-call-analytics"></a>设置通话分析
 
 为工作组或业务联机管理 Skype，您可以使用调用分析解决 for Business 的 Skype 和 Microsoft 团队呼叫质量和连接问题。 您可能会发现有用设置呼叫分析中的以下功能：
   
@@ -94,9 +94,9 @@ Communications 支持专家处理基本呼叫质量问题。 他们不调查与�
 ## <a name="related-topics"></a>相关主题
 <a name="BKMK_UploadFiles"> </a>
 
-[使用通话分析解决通话质量不佳的问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[呼叫分析和呼叫质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
+[通话分析和通话质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  
