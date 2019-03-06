@@ -13,12 +13,12 @@ search.appverid: MET150
 description: 培训视频、 教程和其他资源来了解和使用团队组织中的用户。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85500815e191363dcf8a5cd9b9c1cdd90aa769cd
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 2f1a1400b0fad924770b148e3ba3ac11fb3d35de
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29708549"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408053"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams 的最终用户培训
 
