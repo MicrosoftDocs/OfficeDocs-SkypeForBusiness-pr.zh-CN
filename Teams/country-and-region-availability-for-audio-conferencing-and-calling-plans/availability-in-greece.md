@@ -9,7 +9,7 @@ ms.assetid: 6b1a5b69-4bc2-4427-91e6-adb26993c365
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 希腊可用的项目。
-ms.openlocfilehash: b9041bda474a93af33250d9c79cbf51a029d8b48
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 4c38c9f06e2f8957913e0eb089ea7f00efe1246a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353159"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465177"
 ---
 # <a name="availability-in-greece"></a>在希腊的可用性
 

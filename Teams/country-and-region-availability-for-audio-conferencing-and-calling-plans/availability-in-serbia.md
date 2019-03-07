@@ -9,7 +9,7 @@ ms.assetid: 573ef225-36e4-4dc2-adef-d4567858c02b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于塞尔维亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 82e6ee4830533f4e9fd1d0944e405073c970efc4
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 71f04a3428a77a8f702865868fddd78fd5e3d051
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353215"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462209"
 ---
 # <a name="availability-in-serbia"></a>在塞尔维亚的可用性
 

@@ -9,7 +9,7 @@ ms.assetid: b273afb4-94ef-4075-a24c-445c58ede933
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 约旦可用的项目。
-ms.openlocfilehash: 0d2e3cd9e5dacdf7edf370aec3fc7d1cff7d51f0
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: f68526a66334ac7702d48c0603cab09c24e14ba5
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351791"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459977"
 ---
 # <a name="availability-in-jordan"></a>在约旦的可用性
 

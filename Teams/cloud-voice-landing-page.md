@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 团队中的云语音
+title: Cloud voice in Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -8,22 +8,21 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
 description: 部署团队中的云语音登陆页面
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 969bab316a39ec873fea802a9c257cf062891bb9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 93a17e76444efbc57f2d8043ca1e6eda68806263
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351295"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465305"
 ---
-# <a name="cloud-voice-in-microsoft-teams"></a>在 Microsoft 团队中的云语音
+# <a name="cloud-voice-in-microsoft-teams"></a>Cloud voice in Microsoft Teams
 
 你已完成了[入门](get-started-with-teams-quick-start.md)。 你已在整个组织中部署了具有[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)的 Teams。 也许您已经部署了[会议 & 会议](deploy-meetings-microsoft-teams-landing-page.md)。 现在您已准备好添加云为您的用户的语音功能。 
 

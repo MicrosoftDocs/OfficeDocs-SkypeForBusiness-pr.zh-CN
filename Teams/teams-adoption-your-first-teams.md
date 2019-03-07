@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何通过使用该产品团队推行。
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82956a64e80811efd176f853651aa9db3770afc3
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 7d57349a499e4434ba796cdf75df6258591f4144
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699706"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459449"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>在 Microsoft Teams 中创建首批团体
 
@@ -28,7 +30,7 @@ ms.locfileid: "26699706"
 
 | 团队名称 | 建议的通道名称 |
 | --------- | ---------------------- |
-| 了解团队 | 常规</br> 说劫持</br> 如何实现？</br>反馈 </br> 将来团队的想法 </br> 支持 |
+| 了解团队 | 常规</br> 打招呼</br> 如何实现？</br>反馈 </br> 将来团队的理念 </br> 支持 |
 | Microsoft 团队实现 | 常规 <br/> 认知度和采用 <br/> 业务工作效率 <br/> 早期使用程序 <br/> 反馈和见解 <br/> 安全性和遵从性 <br/> 策略和规划 <br/> 服务运行状况和事件 <br/> 培训 <br/> Watercooler 聊天 |
 | 团队协作拥护者 | 常规 <br/> 最佳实践，培训和操作方法 <br/> 推广人角 <br/> 反馈和支持 <br/> 程序负责人 <br/> 社交集线器 |
 

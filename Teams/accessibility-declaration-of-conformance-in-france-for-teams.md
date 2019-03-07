@@ -9,7 +9,7 @@ ms.service:
 - msteams
 - skype-for-business-online
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
@@ -21,12 +21,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: "Microsoft 小组东部 l'outil de 聊天 collaboratif d'Office 365 qui intègre toutes les personnes、 contenus et outils 不 votre équipe besoin 浇注 être 以及 impliquée et efficace。 "
-ms.openlocfilehash: 740bb149a5bf69942887c488c20a449a05a538a7
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c33d5af62b7f31d8991fc8ff8b56bd39e06aaed5
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013398"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460505"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en matière d'accessibilité
 

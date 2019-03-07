@@ -9,7 +9,7 @@ ms.assetid: a4921bd0-d6b4-4b98-b5c9-a2bb9c830d93
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于文莱业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: e9442c98329833f96f995b012f90461cc6eb9e90
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 50d091ca6ba22e20cef5f0e7d25032768ede8326
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351263"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463257"
 ---
 # <a name="availability-in-brunei"></a>在文莱的可用性
 

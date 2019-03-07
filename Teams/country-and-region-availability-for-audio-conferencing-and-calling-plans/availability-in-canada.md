@@ -9,7 +9,7 @@ ms.assetid: 44ac6f2b-e566-45bf-acc6-24b5184f1554
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 本文列出了在加拿大可用的适用于 Skype for Business 和 Microsoft Teams 的 Office 365 服务。
-ms.openlocfilehash: c537957732503e6657a2ffe47e002955d54d4ec5
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: cc3c55b1fb4295c5987e2aaa9afc4ffcd2014809
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353591"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460145"
 ---
 # <a name="availability-in-canada"></a>在加拿大的可用性
 

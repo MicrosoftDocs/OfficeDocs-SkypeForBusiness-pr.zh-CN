@@ -9,7 +9,7 @@ ms.assetid: 91618281-947b-4039-abf5-37bf388367c9
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于韩国业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 9d5f6e40067b87c22e0840307d3bce467138f25a
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 395ac1aecbe3e109c67c8ba98fdafd63f2f8ab20
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352455"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465209"
 ---
 # <a name="availability-in-south-korea"></a>在韩国的可用性
 

@@ -10,15 +10,17 @@ description: 启动 Microsoft 团队试浏览所有团队的指南可以提供�
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3dfea5c5903c5b5577aa0300ddac42c6db2a7fb4
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: de8041bb9557ec224c2ab2b3a5fa4f92de1280cf
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348934"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463577"
 ---
 ![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
 

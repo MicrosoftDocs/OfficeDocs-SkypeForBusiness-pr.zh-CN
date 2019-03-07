@@ -9,18 +9,20 @@ ms.service: msteams
 ms.reviewer: ''
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: 了解如何将上载到网站。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9f9c093e7a80a7f4f3165f58cd6dc34f532ab7e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5267f419fd61bd492a904dd358b930e2d55d6b1b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017412"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462633"
 ---
 <a name="adding-and-updating-locations-data"></a>添加和更新位置数据
 ============================
@@ -45,10 +47,10 @@ ms.locfileid: "25017412"
 
 |网络|网络名称|网络范围|构建名称|所有权类型|构建基类型|构建 Office 类型|城市|邮政编码|国家/地区|省/市/自治区|区域|内部 Corp|Express 路由|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso 租用 re&f|办公室|Re&f|山地视图|94043|我们|CA|我们|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso 租用 re&f|办公室|Re&f|山地视图|94043|我们|CA|我们|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso 租用 re&f|办公室|Re&f|山地视图|94043|我们|CA|我们|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso 租用 re&f|办公室|Re&f|山地视图|94043|我们|CA|我们|1|1|
+|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso 租用 RE&F|Office|RE&F|山地视图|94043|我们|CA|我们|1|1|
+|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso 租用 RE&F|Office|RE&F|山地视图|94043|我们|CA|我们|1|1|
+|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso 租用 RE&F|Office|RE&F|山地视图|94043|我们|CA|我们|1|1|
+|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso 租用 RE&F|Office|RE&F|山地视图|94043|我们|CA|我们|1|1|
 
 
 有关格式化数据文件的详细信息，请参阅[租户数据文件格式和构建数据文件结构](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-building-data-file-structure)。
@@ -56,4 +58,4 @@ ms.locfileid: "25017412"
 
 ## <a name="related-topics"></a>相关主题
 
-[设置呼叫分析](set-up-call-analytics.md)
+[设置通话分析](set-up-call-analytics.md)

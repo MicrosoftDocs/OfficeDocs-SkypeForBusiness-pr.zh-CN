@@ -9,7 +9,7 @@ ms.assetid: 1f9c7e23-41f8-4ca2-8097-b9f2c969897e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 比利时可用的项目。
-ms.openlocfilehash: 3fc183cf7e3443a84974d3ac5c978b303446cb5c
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 9c80c548902c25d0d6d79ffbcabf24360dad5dda
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352223"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460057"
 ---
 # <a name="availability-in-belgium"></a>在比利时的可用性
 

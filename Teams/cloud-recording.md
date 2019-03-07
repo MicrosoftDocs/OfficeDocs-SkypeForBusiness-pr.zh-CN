@@ -5,23 +5,24 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 ms.reviewer: sonua
 search.appverid: MET150
 description: 在 Microsoft Teams 中部署云语音功能实践指导
-MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f773c88c16f77e6879adb29852514ef7548790fa
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 93ab7201d96fe337cbdc1c0bbf89f9eab3006d91
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754749"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463089"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
-在 Microsoft 团队中，用户可以记录其团队会议和捕获音频、 视频和共享活动的屏幕的组呼叫。 还有一个选项以录制内容已自动转录，以便用户可以播放会议录制与字幕和搜索重要讨论项在脚本中。 录制云中发生的情况，并保存到[Microsoft 流](https://docs.microsoft.com/stream/)，以便用户可以跨组织安全地共享它。
+在 Microsoft 团队中，用户可以记录其团队会议和捕获音频、 视频和共享活动的屏幕的组呼叫。 还有一个用于为录像添加自动转录功能的选项，这样用户就能够回放包含隐藏式字幕的会议录像，并在转录文本中搜索重要的讨论事项。 录制云中发生的情况，并保存到[Microsoft 流](https://docs.microsoft.com/stream/)，以便用户可以跨组织安全地共享它。
 
 相关：[团队会议录制最终用户文档](https://aka.ms/recordmeeting)
 

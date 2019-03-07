@@ -11,7 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解在 Microsoft Teams 中当用户的电话拨入式会议设置更改时自动通过电子邮件向其发送的信息。 '
-ms.openlocfilehash: 1431cd4391219e052ec2ad3702a9e4c227912a06
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: 6081f531bb7cbae180997dedd9e9892e9829ae1b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178690"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462809"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>在 Microsoft Teams 中当用户设置更改时向其发送的电子邮件
 

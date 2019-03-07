@@ -9,7 +9,7 @@ ms.assetid: cea54175-c39d-4ac2-ba84-2ffeb1c111e7
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于秘鲁业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: aa9f2a378d77038258467f223bbad38ad4e06a39
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: ae9881b90ba06312b820b66852a59908c887f713
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351703"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461865"
 ---
 # <a name="availability-in-peru"></a>在秘鲁的可用性
 

@@ -8,19 +8,21 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何测量的产出和您的团队的广泛级启用成功。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2df638a12b67ac70b0759f70365f48330c26914d
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 09efb86effe9179908c10eb9fbb7de30cc5a247d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699811"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461809"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用定义结果和成功
 
@@ -73,7 +75,7 @@ ms.locfileid: "26699811"
 | 首先团队 | 团队核心 | 团队转大 | Skype 并排比较 | 迁移 |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | 与团队的潜在顾客云部署 | 导致与团队协作方案启用 | 对团队和组织范围内团队的所有员工 | 启用团队和 Skype for Business | 将用户从 for Business 的 Skype 迁移到团队 |
-| -适用于新的或低使用率 Office 365 客户 <br/>-具有潜在顾客团队客户特定方案中 <br/>-突出显示 Office 365 集成的用户体验和加速价值 <br/>-进行规划的工作负荷启用在一起以避免串行实现 | -Online 启用以及 OneDrive 和 SharePoint 团队 <br/>创建公司 intranet 与 Microsoft 流共享新闻资源和视频<br/>**携手共赢**： <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-对于客户与不超过 1000年座位 （当前限制）<br/>-启用跨所有一个团队的组织合作<br/>-自动执行常见任务 （休假请求、 员工调查 executive 合作） |-使用团队核心策略可加速协作<br/>-突出显示会议方案指南根据所需的大小和功能集</br>-使用 Skype for Business 的企业呼叫、 互操作性和混合方案<br/>-使用公共路线图功能规划。 |计划移动到团队从 for Business 的 Skype 通过为客户创建服务策略路线图<br/>附加功能版本安排<br/>-建议包括端侧和团队核心简化转换
+| -适用于新的或低使用率 Office 365 客户 <br/>-具有潜在顾客团队客户特定方案中 <br/>-突出显示 Office 365 集成的用户体验和加速价值 <br/>-进行规划的工作负荷启用在一起以避免串行实现 | -Online 启用以及 OneDrive 和 SharePoint 团队 <br/>创建公司 intranet 与 Microsoft 流共享新闻资源和视频<br/>**携手共赢**： <br/>团队<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-对于客户与不超过 1000年座位 （当前限制）<br/>-启用跨所有一个团队的组织合作<br/>-自动执行常见任务 （休假请求、 员工调查 executive 合作） |-使用团队核心策略可加速协作<br/>-突出显示会议方案指南根据所需的大小和功能集</br>-使用 Skype for Business 的企业呼叫、 互操作性和混合方案<br/>-使用公共路线图功能规划。 |计划移动到团队从 for Business 的 Skype 通过为客户创建服务策略路线图<br/>附加功能版本安排<br/>-建议包括端侧和团队核心简化转换
 
 以下是我们建议大多数客户组织。 但是，有一些例外。 若要获取此处未涉及任何方案的指导，提问我们驱动应用社区中或接近 FastTrack 团队或 Microsoft 合作伙伴网络。
 

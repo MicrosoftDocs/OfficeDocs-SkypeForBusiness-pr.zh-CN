@@ -9,7 +9,7 @@ ms.assetid: 523a955c-5185-4a53-9234-d8a71f57be85
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于英国业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: ab53c7382bed45845085dea2a813e0dd201f85e9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 53b15dc2a9bc62a0e6023e61878d80e637dae8a2
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353287"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459425"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>在英国 (U.K.) 的可用性
 

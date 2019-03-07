@@ -9,7 +9,7 @@ ms.assetid: c3a51334-fff3-4b31-9618-c150adb53a0c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 立陶宛可用的项目。
-ms.openlocfilehash: cd0f5105ee73ea45b9b97d5d4bd8c6e095071ab4
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 0ad1696b1f2fcccc45c832f1ac21668733b73712
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352519"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465193"
 ---
 # <a name="availability-in-lithuania"></a>在立陶宛的可用性
 

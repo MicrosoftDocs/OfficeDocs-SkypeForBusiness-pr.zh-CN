@@ -1,5 +1,5 @@
 ---
-title: 面向 IT 专业人员的 Microsoft 团队的 Microsoft 教育调控常见问题
+title: 面向 IT 专业人员的 Microsoft 教育版管理 FAQ - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: 使用团队的 Microsoft 教育组管理员从常见问题的答案。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 687012404713bcbfcb8ecf86efa8af36b8eb0a59
-ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
+ms.openlocfilehash: d5058347677b1c5baef6f01fefb1f8eca3ac4384
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26539062"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461177"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>对于管理员 Microsoft 教育调控常见问题
 

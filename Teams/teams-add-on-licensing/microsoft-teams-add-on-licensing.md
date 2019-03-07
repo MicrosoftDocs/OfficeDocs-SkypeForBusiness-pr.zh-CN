@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队加载项许可
+title: Microsoft Teams 附加许可
 ms.date: 02/14/2019
 ms.author: tonysmit
 author: tonysmit
@@ -8,7 +8,9 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -17,14 +19,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 了解有关加载项许可证，哪些功能您将与每个许可证、 如何购买的产品，以及如何与他们使用您现有的运营商。 您可以获取 Office 365，通信字幕式定价和计划的详细信息和呼叫计划。
-ms.openlocfilehash: d776e6e3b54f8a847bd82ef8b1c373af2211dbae
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 6cf3b2a242a941c9a4352aa35afd1dcbe23c902c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30127675"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460129"
 ---
-# <a name="microsoft-teams-add-on-licensing"></a>Microsoft 团队加载项许可
+# <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams 附加许可
 
 ## <a name="what-are-add-on-licenses"></a>什么是附加许可证？
 
@@ -61,11 +63,11 @@ Microsoft 团队许可旨在为您提供的最大的灵活性量。 例如，使
 
 可对您的加载项许可选项取决于您的 Office 365 计划。 有关计划的特定信息、功能和选项，请参阅以下主题。
 
-- [Office 365 商业高级版](office-365-business-premium.md)
+- [Office 365 企业高级版](office-365-business-premium.md)
 - [Office 365 ProPlus](office-365-premium-pro-plus.md)
 - [Office 365 企业版 E1 或 E3](office-365-enterprise-e1-e3.md)
-- [Office 365 企业 E5](office-365-enterprise-e5-with-audio-conferencing.md)
-- [Office 365 企业 E5 （无需音频会议）](office-365-enterprise-e5-without-audio-conferencing.md)
+- [Office 365 企业版 E5](office-365-enterprise-e5-with-audio-conferencing.md)
+- [Office 365 Enterprise E5（不含音频会议）](office-365-enterprise-e5-without-audio-conferencing.md)
 - [Skype 会议室系统第 2 版](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 - [GOV、EDU 和非营利组织](gov-edu-and-nonprofit-organizations.md)
 

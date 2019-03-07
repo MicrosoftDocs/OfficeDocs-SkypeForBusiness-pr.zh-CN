@@ -1,5 +1,5 @@
 ---
-title: 从业务混合或本地部署的 Microsoft 团队 Skype 升级到团队
+title: 从 Skype for Business 混合或本地部署升级到 Teams - Microsoft Teams
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
@@ -11,15 +11,17 @@ description: 从业务混合或本地部署 Skype 升级到团队的注意事项
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 016165ea54b3a87d4a26f5670964794364e78985
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 38a9c3bd2e9649ea657a559f1c6d41aab86edd56
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27791682"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464761"
 ---
 ![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
 

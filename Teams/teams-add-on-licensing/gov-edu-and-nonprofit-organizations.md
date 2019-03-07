@@ -1,5 +1,5 @@
 ---
-title: GOV、EDU 和非营利组织
+title: GOV、EDU 和非营利性组织
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,7 +7,9 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,14 +18,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关 GOV、EDU 和非营利组织计划的加载项许可证和功能。 '
-ms.openlocfilehash: c4e77fbd08d81a69b6c1e59c7bfe6e0519eb62ab
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 503afdff3cdcb8c19014a5055c402436091b6c70
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30127619"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459633"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>GOV、EDU 和非营利组织
+# <a name="gov-edu-and-non-profit-organizations"></a>GOV、EDU 和非营利性组织
 
 团队的大多数功能可供美国政府、 教育和非赢利组织。 请参阅下的表详细信息。
 

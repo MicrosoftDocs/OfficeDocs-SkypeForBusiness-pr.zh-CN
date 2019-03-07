@@ -9,7 +9,7 @@ ms.assetid: 4f3430a6-141f-4842-817d-ca4355ae8fda
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 墨西哥可用的项目。
-ms.openlocfilehash: 9ffdf1bcce04ce8b5004f6f7f9f695908cb88e2d
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: a3e1b5526e859652c6c8b17e7a4b6e23d4956ffa
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351527"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461993"
 ---
 # <a name="availability-in-mexico"></a>在墨西哥的可用性
 

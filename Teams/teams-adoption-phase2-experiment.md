@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何召开团队应用的试验阶段。
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f77989e31e8e79f13d54f7b3506cbf5c0b19d8e5
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 23622e076b470dbb2fb9607c90cbc1f864fb42e1
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699722"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464641"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams 采用第 2 阶段 - 试验
 

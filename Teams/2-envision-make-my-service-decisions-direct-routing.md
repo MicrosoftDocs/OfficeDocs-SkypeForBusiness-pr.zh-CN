@@ -1,5 +1,5 @@
 ---
-title: 决定电话系统直接路由服务的 Microsoft 团队
+title: 做出电话系统直接路由服务决策 - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: 了解直接路由，许可，并需要进行决策。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d79b6e0423ddb94b29a9d82ea1e6d6d1f173cf3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4e0597444b9f46d9ac3761ef42a4817a5db5117f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374439"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462737"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -52,7 +54,7 @@ ms.locfileid: "25374439"
 > [!TIP]
 > 下面是直接路由网站启用列表的示例。
 > 
-> | **办公室**                     | **位置**   | **电话系统服务** |
+> | **Office**                     | **位置**   | **电话系统服务** |
 > |--------------------------------|----------------|--------------------------|
 > | Epping 路一号                | 澳大利亚      | 旧的 PSTN 服务 |
 > | 数码港道 100 号             | 香港 SAR  | 电话系统直接路由 |
@@ -87,9 +89,9 @@ ms.locfileid: "25374439"
 
 电话系统的语音邮件，由 Azure 语音邮件服务，支持语音邮件存款仅 Exchange 邮箱和不支持第三方电子邮件系统。
 
-电话系统语音邮件包括语音邮件转录，默认情况下，为组织中的所有用户启用该功能。 您的业务需求可能需要您禁用语音邮件转录的特定用户或整个组织中的每个人。 如果您的组织决定保留启用语音邮件转录，您需要还考虑是否需要启用语音邮件转录亵渎屏蔽。 有关详细信息，请参阅[设置您的组织中的语音邮件策略](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail)。
+电话系统语音邮件包括语音邮件转录，默认情况下，为组织中的所有用户启用该功能。 您的业务需求可能需要您禁用语音邮件转录的特定用户或整个组织中的每个人。 如果您的组织决定保留启用语音邮件转录，您需要还考虑是否需要启用语音邮件转录亵渎屏蔽。 有关详细信息，请参阅[设置您的组织中的语音邮件策略](set-up-phone-system-voicemail.md)。
 
-有关在电话系统的实施中的语音邮件的详细信息，请参阅[设置电话系统的语音邮件](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail)。
+有关在电话系统的实施中的语音邮件的详细信息，请参阅[设置电话系统的语音邮件](set-up-phone-system-voicemail.md)。
 
 |         |         |         |
 |---------|---------|---------|
@@ -101,7 +103,7 @@ ms.locfileid: "25374439"
 > 
 > | **用户**         | **Exchange 邮箱** | **启用语音邮件？** | **语音邮件转录** | **语音邮件转录亵渎屏蔽** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|
-> | Emily Braun      | Online               | 是                   | 启用                     | 启用                                       |
+> | Emily Braun      | Online               | 是                   | 启用                     | 已启用                                       |
 > | Lidia Holloway   | Online               | 是                   | 启用                     | 已禁用                                      |
 > | 港 Lahr       | 本地          | 是                   | 启用                     | 启用                                       |
 > | Marcel Beauchamp | 本地          | 是                   | 禁用                    | 不适用                                           |
@@ -109,15 +111,13 @@ ms.locfileid: "25374439"
 > | Isabell Potvin   | 本地          | 是                   | 禁用                    | 不适用                                           |
 > 
 > [!NOTE]
-> 若要使用团队和语音邮件，您的用户必须具有 Exchange 邮箱。 有关详细信息，请参阅[如何 Exchange 和 Microsoft 团队进行交互](https://docs.microsoft.com/microsoftteams/exchange-teams-interact)。
+> 若要使用团队和语音邮件，您的用户必须具有 Exchange 邮箱。 有关详细信息，请参阅[如何 Exchange 和 Microsoft 团队进行交互](exchange-teams-interact.md)。
 
 <!--ENDOFSECTION-->
 
 ## <a name="licensing-for-direct-routing"></a>许可直接路由
 
 如果组织打算使用直接路由，则需要获得所需的许可证。 直接路由中的用户必须具有以下许可证分配 Office 365 中：
-
-
 
 -   Microsoft 电话系统
 
@@ -129,12 +129,12 @@ ms.locfileid: "25374439"
 
 
 > [!NOTE]
-> 要提供免费的会议桥接电话号码，并以支持会议拨出式国际电话号码，您应为组织设置[Communications 字幕式](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)。
+> 要提供免费的会议桥接电话号码，并以支持会议拨出式国际电话号码，您应为组织设置[Communications 字幕式](what-are-communications-credits.md)。
 
 音频会议和电话系统可以授权单独作为附加服务的现有用户拥有 Office 365 E3 或 E1 订阅计划;它们已作为 Office 365 E5 订阅计划的一部分包含。
 
 > [!TIP]
-> 您还可以使用直接路由中的第三方 Pbx 其呼叫路由时启用了调用计划的用户。 有关详细信息，请参阅[授权和其他要求的直接路由](https://docs.microsoft.com/microsoftteams/direct-routing-plan#licensing-and-other-requirements)。
+> 您还可以使用直接路由中的第三方 Pbx 其呼叫路由时启用了调用计划的用户。 有关详细信息，请参阅[授权和其他要求的直接路由](direct-routing-plan.md#licensing-and-other-requirements)。
 
 
 |         |         |         |
@@ -161,7 +161,7 @@ Office 365 租户必须启用与一个或多个域，因为默认\*。 onmicroso
 
 ## <a name="sbc-considerations"></a>SBC 注意事项
 
-您需要使用认证和受支持的会话边界控制器 (Sbc) 所需的直接路由服务为用户提供 PSTN 连接到配对。 认证的 Sbc 的列表，请参阅[支持的会话边界控制器](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs)。
+您需要使用认证和受支持的会话边界控制器 (Sbc) 所需的直接路由服务为用户提供 PSTN 连接到配对。 认证的 Sbc 的列表，请参阅[支持的会话边界控制器](direct-routing-plan.md#supported-session-border-controllers-sbcs)。
 
 根据您的环境，位置数，以及语音路由要求，您可能需要部署多个 SBCs 以支持用户群。
 
@@ -179,7 +179,7 @@ Office 365 租户必须启用与一个或多个域，因为默认\*。 onmicroso
 > [!NOTE]
 > 此外支持与 Sbc 的通配符证书的使用。
 
-有关受支持的证书颁发机构的列表和详细信息，请参阅[SBC 的受信任的公共证书](https://docs.microsoft.com/microsoftteams/direct-routing-plan#public-trusted-certificate-for-the-sbc)。
+有关受支持的证书颁发机构的列表和详细信息，请参阅[SBC 的受信任的公共证书](direct-routing-plan.md#public-trusted-certificate-for-the-sbc)。
 
 
 ### <a name="sbc-ip-addresses-and-ports"></a>SBC IP 地址和端口
@@ -190,7 +190,7 @@ Sbc 需要双向连接与信号和媒体的云服务进行通信。 信号是通
 
 您需要在每个 SIP 信号和媒体的 SBC 上定义特定端口号，配置防火墙以允许对这些端口和其关联的 IP 地址的双向通信。
 
-有关详细信息，请参阅[SIP 信号： Fqdn 和防火墙端口](https://docs.microsoft.com/microsoftteams/direct-routing-plan#sip-signaling-fqdns-and-firewall-ports)和[媒体流量： 端口范围](https://docs.microsoft.com/microsoftteams/direct-routing-plan#media-traffic-port-ranges)。
+有关详细信息，请参阅[SIP 信号： Fqdn 和防火墙端口](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports)和[媒体流量： 端口范围](direct-routing-plan.md#media-traffic-port-ranges)。
 
 
 > [!NOTE]
@@ -270,7 +270,7 @@ Sbc 需要双向连接与信号和媒体的云服务进行通信。 信号是通
 
 -   配置为首选调用客户端通过分配 TeamsCallingPolicy 和 TeamsInteropPolicy 团队。
 
-有关详细信息，请参阅[设置为首选的 Microsoft 团队呼叫的用户的客户端](https://docs.microsoft.com/microsoftteams/direct-routing-configure#set-microsoft-teams-as-the-preferred-calling-client-for-the-users)。
+有关详细信息，请参阅[设置为首选的 Microsoft 团队呼叫的用户的客户端](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users)。
 
 
 |         |         |         |
@@ -281,7 +281,7 @@ Sbc 需要双向连接与信号和媒体的云服务进行通信。 信号是通
 > [!IMPORTANT]
 > 当用户配置为仅团队模式时，此用户可以不再登录到 for Business 的 Skype。
 
-要让您用户可以查看团队客户端中的呼叫选项卡，您需要启用专用的租户组织级别呼叫。 有关如何启用接听私人电话的详细信息，请参阅[启用 Microsoft 团队呼叫](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-calling-for-microsoft-teams)。
+要让您用户可以查看团队客户端中的呼叫选项卡，您需要启用专用的租户组织级别呼叫。 有关如何启用接听私人电话的详细信息，请参阅[启用 Microsoft 团队呼叫](direct-routing-configure.md)。
 
 
 <!--ENDOFSECTION-->

@@ -9,7 +9,7 @@ ms.assetid: 8791fdc3-ef3b-425f-a3a8-bb9c3651ce79
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 新加坡可用的项目。
-ms.openlocfilehash: e63d94b447f2720461fa7dc1470564d0d030e253
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 6e4866a11774e305d8ecae3bc37ab0c296cb08a8
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352487"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461689"
 ---
 # <a name="availability-in-singapore"></a>在新加坡的可用性
 

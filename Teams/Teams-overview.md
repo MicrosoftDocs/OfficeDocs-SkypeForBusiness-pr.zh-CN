@@ -10,15 +10,17 @@ ms.reviewer: LolaJ
 description: 找到在组织中部署 Microsoft Teams 的正确途径。 了解 Teams 基础结构以及如何与 Office 365 配合使用。
 localization_priority: Priority
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13fc63883e3dcdc5585cf68e013bbdc00bb9a503
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 7ee4cba00f20eb53630845f1956d88d47e333084
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754849"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458865"
 ---
 # <a name="welcome-to-microsoft-teams"></a>欢迎使用 Microsoft Teams
 如果你是贵组织的 Microsoft Teams 管理员，本文正适合你。 如果你已准备好开始使用 Teams，请首先参阅[如何部署 Teams](How-to-roll-out-teams.md)。
@@ -36,7 +38,7 @@ ms.locfileid: "29754849"
 
 从现有组创建团队时，该组的成员身份、站点、邮箱和笔记本将在 Teams 中出现。 不要错误新的[组织范围的团队](create-an-org-wide-team.md)，这是一种特殊类型的团队，它将组织中所有用户包含进来，并在用户加入和离开组织时在 Active Directory 中更新成员身份。 
 
-若要自定义和扩展 Teams，请通过[应用、聊天机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)添加第三方应用。 在 Teams 中，你可以将组织外部的人员包含进来，方法是[将其以来宾身份添加](guest-access.md)到团队或频道中。 作为 Office 365 的一部分，Teams 提供了强大的[开发平台](https://docs.microsoft.com/zh-CN/microsoftteams/platform)，以便你可以构建组织所需的团队合作中心。 
+若要自定义和扩展 Teams，请通过[应用、聊天机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)添加第三方应用。 在 Teams 中，你可以将组织外部的人员包含进来，方法是[将其以来宾身份添加](guest-access.md)到团队或频道中。 作为 Office 365 的一部分，Teams 提供了强大的[开发平台](https://docs.microsoft.com/en-us/microsoftteams/platform)，以便你可以构建组织所需的团队合作中心。 
 
 ![Teams 桌面应用和移动应用](media/teams-overview-hub.png)
 

@@ -1,5 +1,5 @@
 ---
-title: 准备环境以进行升级从 Skype 业务到团队
+title: 为从 Skype for Business 升级到 Teams 准备环境
 author: turgayo
 ms.author: turgayo
 manager: serdars
@@ -10,15 +10,17 @@ description: 在开始升级到团队从 Skype for Business 之前验证环境�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c59ce73f4cff16c042753a69b4d14aa79896ebe0
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 485bd42198e54c5ccacc6296c31a19298d66ccf7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349401"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464953"
 ---
 ![升级旅程，重点强调的技术的准备阶段的阶段](media/upgrade-banner-tech-readiness.png "升级旅程，重点强调的技术的准备阶段的阶段")
 

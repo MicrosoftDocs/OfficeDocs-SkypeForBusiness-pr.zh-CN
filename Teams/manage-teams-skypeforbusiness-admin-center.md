@@ -12,16 +12,18 @@ description: 了解如何管理租户范围和团队从团队转换期间的用�
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 581be37a3acf4b0063cf93da1ba1289cd08b2f2e
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: bab16d1078e1b52ef62e0fac223132ccad75d531
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178499"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463985"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在过渡到全新的 Microsoft Teams 管理中心期间管理团队
 ======================================================

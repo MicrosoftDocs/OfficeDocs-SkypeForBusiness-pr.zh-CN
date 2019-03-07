@@ -7,7 +7,9 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 了解有关加载项许可证、 功能和如何购买 Office 365 ProPlus 的信息。
-ms.openlocfilehash: 4cf3fb68f2063b70c30efc05be4e98d4e4620e76
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 58f5259474a31bfd873dcfc336aee9b733662e0c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30127579"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463177"
 ---
 # <a name="office-365-proplus"></a>Office 365 ProPlus
 

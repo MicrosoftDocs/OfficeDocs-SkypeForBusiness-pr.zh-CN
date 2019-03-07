@@ -9,7 +9,7 @@ ms.assetid: 14b4e0d3-6add-47a5-b0a2-e80fc5199fce
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 法国可用的项目。
-ms.openlocfilehash: bedc12da81972551fc2743f8552cdee1b93cdbfb
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 49bcadc16aab6a6792ae2c57eea5f943ed6208a0
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351751"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465121"
 ---
 # <a name="availability-in-france"></a>在法国的可用性
 

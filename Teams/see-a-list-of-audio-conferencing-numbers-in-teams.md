@@ -11,7 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Microsoft Teams 中查找拨入会议号码。 '
-ms.openlocfilehash: 5c28e8555dc2c90454798a5cfc4eab2319a98184
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 72cb7018e49ccbae777869f1305cf9e64df6fcb0
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754919"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465089"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>在 Microsoft Teams 中查看音频会议号码列表
 

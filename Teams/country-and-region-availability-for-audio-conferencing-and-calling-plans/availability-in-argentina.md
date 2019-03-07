@@ -9,7 +9,7 @@ ms.assetid: 3050548b-dc73-4bac-b03b-ade6cb28704a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 阿根廷可用的项目。
-ms.openlocfilehash: c83440e1e20025fec6d6ebbe5714244d3e3b1b46
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 5ed8744f38d8cd6465c59a5169b0a92b8eba8385
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351918"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462513"
 ---
 # <a name="availability-in-argentina"></a>在阿根廷的可用性
 

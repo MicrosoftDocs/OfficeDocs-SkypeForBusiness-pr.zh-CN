@@ -3,36 +3,78 @@ title: 管理会议策略
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 02/25/2019
+ms.date: 03/01/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
 f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: 了解如何管理会议团队中的策略设置。
-ms.openlocfilehash: 412deb1e8d671b40fd574d72a68f9dad15281645
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: a7b7cc9d6aa0ba10583f872d8c542152f908b551
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30302694"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462649"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
-会议策略用于控制对会议的组织中的用户安排的会议的参与者可用的功能。 在创建策略，并进行更改后，您可以然后用户分配策略。 
+::: zone target="docs"
+会议策略用于控制对会议的组织中的用户安排的会议的参与者可用的功能。 在创建策略，并进行更改后，然后，您可以分配给策略使用。 
 
-## <a name="here-are-the-settings-you-can-change-to-fit-your-organization"></a>下面是您可以更改以适合您的组织的设置
-<a name="bkgeneral"> </a>
+默认情况下，创建名为全局 （组织范围内默认值） 的策略。 默认情况下，您的组织中的所有用户将都分配此会议策略。 可以更改此策略，或创建一个或多个自定义策略并向其分配用户。 创建自定义策略时，可以允许或阻止某些功能对用户可用，然后将其分配给一个或多个用户拥有应用于它们的设置。 
+
+## <a name="change-or-create-a-meeting-policy"></a>更改或创建的会议策略
+
+要更改或创建的会议策略，请转到**Microsoft 团队管理中心** > **会议** > **会议策略**。 从列表中，选择一个策略，或选择**新策略**。 选择您的设置，然后选择**保存**。
+
+例如，假设您有大量的用户，并且想要限制其会议将需要的带宽量。 您可以创建名为"带宽有限"的新自定义策略，并禁用以下设置：
+
+在**音频 & 视频**: 下
+- 关闭云录制
+- 关闭允许 IP 视频
+
+在**内容共享**: 下
+- 禁用屏幕共享模式
+- 关闭白板
+- 关闭共享便笺
+
+然后将策略分配给用户。
+
+> [!NOTE] 
+> 用户可以一次只能有一个会议策略分配。 
+
+## <a name="assign-a-meeting-policy-to-a-user"></a>为用户分配的会议策略
+
+要分配策略，请转到**Microsoft 团队管理中心** > **用户**。 
+ 
+如果您将策略应用于一个用户，选择用户的显示名称。 选择**分配策略**、 旁边的**编辑**。 然后，在**编辑用户策略**窗格中的**会议策略**，下，从下拉列表中，选择会议策略，并选择**保存**。 您还可以编辑的用户列表中的设置。 若要执行此操作，请通过单击左侧的用户的显示名称选择用户。 选择**编辑设置**。 然后，**编辑设置**窗格中的**会议策略**，下，从下拉列表中选择策略，然后选择**保存**。 
+ 
+如果您要向多个用户应用策略，通过单击左侧的用户名称，选择每个用户，然后单击**编辑设置**。 在**编辑设置**窗格中，**会议策略**，下从下拉列表中选择策略，然后选择**保存**。
+ 
+也可以执行此操作，转到**Microsoft 团队管理中心** > **会议** >  **会议策略**。 选择策略，然后选择**管理用户**。 在**管理用户**窗格中，请按显示区或用户名称中搜索用户。 选择的名称并选择**添加**。 添加完用户后，选择**保存**。
+
+> [!NOTE] 
+> 不能删除策略，如果用户已分配给它。 您必须首先将不同的策略分配给所有受影响的用户，然后可以删除原始的策略。
+ 
+ 
+## <a name="user-policy-settings"></a>用户策略设置
+
+当您选择**会议策略**页上的现有策略，或选择要添加新的策略的**新策略**时，您可以配置以下设置。
 
 ### <a name="new-meeting-policy-name-and-description"></a>新会议策略名称和说明
-   - **新的会议策略**更改此设置将出现在会议策略页的策略的名称。 名称不能包含特殊字符也能超过 64 个字符。
-   - **说明**您可以添加您创建的策略的友好说明。 这将非常有用，如果您想要将策略分配到一组用户。
+   - **名称**这是策略的将出现在**会议策略**页的名称。 它不能包含特殊字符或能超过 64 个字符。 请注意，不能更改现有的策略的名称。
+   - **说明**您可以将放在您创建的策略的友好说明。 这将非常有用，如果您想要将策略分配到一组用户。
+::: zone-end 
 
+<a name="bkgeneral"> </a>
 ### <a name="general"></a>常规
    - **允许立即开会**打开： 将允许立即开会功能可加入会议的用户。
    - **允许 Outlook 外接程序**打开将让他们安排会议时，Outlook 外接程序提供已分配给策略的用户。
@@ -43,7 +85,7 @@ ms.locfileid: "30302694"
 
 ### <a name="audio--video"></a>音频 & 视频
    - **允许转录**如果您关闭此，会议的转录将对用户可用。
-   - **允许云录制**打开： 将允许录制内容将保存到云。
+   - **允许云录制**打开： 将允许在云中保存录制内容。
    - **允许的 IP 视频**打开： 将允许 IP 视频会议期间。
    - **媒体比特率 (Kb)** 您可以设置会议的比特率。 默认为 50 MB。
 
@@ -63,4 +105,7 @@ ms.locfileid: "30302694"
    - **允许匿名用户开始会议**如果此设置处于关闭状态，只有已经过身份验证的团队应用程序与会议的人可以开始会议。 如果是任何人都可以开始会议。
    - **自动允许的用户**如果您关闭此操作，然后会议参与者处于会议厅直到有人开始会议。 如果是会议参与者将允许加入会议自动。
 
+[完整的文章](meeting-policies-in-teams.md)
 
+### <a name="related-topics"></a>相关主题
+[团队中的邮件策略](messaging-policies-in-teams.md)

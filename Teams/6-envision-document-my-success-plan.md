@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: 选择部署模型、 开发负责-无论如何-咨询-通知 (RACI) 矩阵、 创建执行和调控计划。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 271faa8ffc4a4e6c3977382cf5a1153513bd1ba5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dd124b8ce06b15bb0c6c33aecd848d9382afde64
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374207"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462137"
 ---
 # <a name="document-my-success-plan"></a>文档我成功的计划
 
@@ -58,15 +60,15 @@ ms.locfileid: "25374207"
 | 活动/角色                                         | 项目主管 | 协作主管/架构师 | 顾问 | 变更管理/采用专业人员 | 业务单位代表 |
 |-------------------------------------------------------|--------------|------------------------------|------------|---------------------------------------|-------------------------------|
 | 程序演示文稿启动呼叫                     | R A         | C                            |            |                                       |                               |
-| 设置呼叫质量仪表板                         | I            | C                            | R A       |                                       |                               |
-| 启动呼叫期间共享发现调查表 | I            | C                            | R A       |                                       |                               |
+| 设置呼叫质量仪表板                         | 如果已定义，则此命令将确定两个用户能否登录系统，如果能够登录，则随后还将确定这两个用户能否交换即时消息。            | C                            | R A       |                                       |                               |
+| 启动呼叫期间共享发现调查表 | 如果已定义，则此命令将确定两个用户能否登录系统，如果能够登录，则随后还将确定这两个用户能否交换即时消息。            | C                            | R A       |                                       |                               |
 | Envision 阶段启动                                | R A         | C                            |            |                                       |                               |
 | 业务使用情况下研讨会 （英文)                           | A            |                              |            | R                                     | C                             |
 | 查看发现调查表                    |              | R A                         | C          |                                       |                               |
-| 体系结构研讨会 （英文)                                 | I            | R A                         | C          |                                       |                               |
-| 采用用户方案构想阶段研讨会       | C            | I                            | A          | R                                     |                               |
+| 体系结构研讨会 （英文)                                 | 如果已定义，则此命令将确定两个用户能否登录系统，如果能够登录，则随后还将确定这两个用户能否交换即时消息。            | R A                         | C          |                                       |                               |
+| 采用用户方案构想阶段研讨会       | C            | 如果已定义，则此命令将确定两个用户能否登录系统，如果能够登录，则随后还将确定这两个用户能否交换即时消息。                            | A          | R                                     |                               |
 | 采用成功研讨会 （英文)                             |              |                              | R A       | C                                     |                               |
-| 客户端和设备准备研讨会 （英文)                  | I            |                              | R A       | C                                     |                               |
+| 客户端和设备准备研讨会 （英文)                  | 如果已定义，则此命令将确定两个用户能否登录系统，如果能够登录，则随后还将确定这两个用户能否交换即时消息。            |                              | R A       | C                                     |                               |
 
 
 <table>

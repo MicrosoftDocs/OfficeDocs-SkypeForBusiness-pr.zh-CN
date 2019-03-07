@@ -10,15 +10,17 @@ description: 任务和活动所需的团队服务管理，包括监视服务运�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b455d7599f5de8e2eb76f560e593eb5e409ecae
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 42df00ed52b62d70d8c9ea734291d77e0ba038ad
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562796"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460497"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 
@@ -81,7 +83,7 @@ Microsoft 团队汇集技术跨 Office 365 提供集线器团队协作。 示例
 
 本指南介绍焦点来管理工作组服务的关键区域。 很可能必须服务管理计划中支持的技术取决于团队的位置。 如果不需要，您将需要建立这些技术组件的正确的服务管理计划 (在本地和联机) 以及。 这有助于确保您的用户体验高质量、 可靠地与团队。
 
-#### <a name="references"></a>参考
+#### <a name="references"></a>References
 
 [Microsoft Teams 概述](teams-overview.md)
 
@@ -147,7 +149,7 @@ Microsoft System Center 是帮助您管理数据中心、 客户端设备和混�
 | 监控服务运行状况 | 使用可用的工具，主动监视的 Microsoft 团队服务运行状况，（和相关服务）。 相关服务包括： Exchange Online 中，SharePoint Online 的 OneDrive for Business，Azure Active Directory。 | 实时 | |
 | 事件通知 | 通知事件的影响团队服务的内部利益干系的人。 内部利益干系人可以包括用户、 支持人员和事件的经理。 | 根据需要 | |
 
-### <a name="references"></a>参考
+### <a name="references"></a>References
 
 [如何检查 Office 365 服务运行状况](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
 
@@ -277,7 +279,7 @@ Microsoft 团队是基于云的服务。 伴随这能够提供新特性和功能
 | （驱动器值阶段） | | | |
 | 更新应用计划 | 应用计划基于如何测量的使用情况的更新将与您规划目标进行比较。 | 根据需要 | |
 
-### <a name="references"></a>参考
+### <a name="references"></a>References
 
 [有关 Office 365 管理中心](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
@@ -328,7 +330,7 @@ NPS 是介于 – 100 到 100 的度量客户的通信意愿建议公司的产�
 | 评估用户的观点 | 捕获和评估用户的观点，使用调查或面试，或通过团队或 Yammer 中的反馈通道。 | 根据需要 | |
 | 更新应用计划 | 驱动器根据用户反馈; 您组织中的更改这可以包括更改沟通计划、 培训计划或向用户提供支持的方式。 | 根据需要 | |
 
-### <a name="references"></a>参考
+### <a name="references"></a>References
 
 [Net 者均分数](https://en.wikipedia.org/wiki/Net_Promoter)
 
@@ -359,7 +361,7 @@ NPS 是介于 – 100 到 100 的度量客户的通信意愿建议公司的产�
 | 网络故障排除和修复 | 帮助团队支持人员、 服务所有者和主要利益干系人进行故障排除和修正问题到相关的团队连接、 可靠性或质量。 网络元素可能包括：<ul><li>防火墙</li><li>Vpn</li><li>有线和 Wi-fi 网络</li><li>Internet 连接和 ExpressRoute</li><li>DNS</li></ul> | 根据需要 | |
 | 灾难恢复和高可用性测试 | 执行常规的高可用性和灾难恢复测试对网络基础结构，以确保它符合既定的服务级别目标 (Slo) 或团队服务的服务级别协议 (Sla)。 | 每月 | |
 
-### <a name="references"></a>参考
+### <a name="references"></a>References
 
 [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
@@ -391,7 +393,7 @@ NPS 是介于 – 100 到 100 的度量客户的通信意愿建议公司的产�
 | 构建 CQD 中的数据的更新 | 更新或更改到网络时 CQD 中添加新的生成定义 （请参阅[上载构建信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)）。 | 根据需要 | |
 | 填充质量冠军角色 | 端到端负责组织中的质量。 这包括：<ul><li>确保定期召开 QER。</li><li>报告质量状态的主要利益干系人。</li><li>确保定义是最新的生成数据。</li><li>要确保用户具有与团队高质量体验的组织中协调修复措施。</li></ul> | 每天 | |
 
-### <a name="references"></a>参考
+### <a name="references"></a>References
 
 [了解 CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
@@ -448,11 +450,11 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 | 终结点管理 | 维护支持的终结点和接口设备 （如耳麦） 的目录。 管理供应商合同、 担保、 分发、 替换，并修复策略。 | 每月 | |
 | 终结点疑难解答 | 故障排除任务可以包括验证咨询已知的问题列表、 收集日志、 分析和升级到 Microsoft 技术支持或第三方供应商的连接。 | 根据需要 | |
 
-### <a name="references"></a>参考
+### <a name="references"></a>References
 
 [Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)
 
-[获取 Microsoft Teams 的客户端](get-clients.md)
+[获取 Microsoft Teams 客户端](get-clients.md)
 
 [Microsoft 团队社区](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
@@ -483,7 +485,7 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 
 #### <a name="general-tasks"></a>常规任务
 
-[管理用户对 Microsoft Teams 的访问](user-access.md)
+[管理 Microsoft Teams 的用户访问](user-access.md)
 
 ### <a name="team-creation-optional"></a>团队创建 （可选）
 

@@ -9,7 +9,7 @@ ms.assetid: 42691c26-3b0a-43b6-bc92-012b2992c6fe
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于瑞典业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 314fa62150a071eb50b3053aa8bbbce8cc79785f
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: a5a9c5838fa7ef747d1fcea723840c4e6c289c13
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352503"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459561"
 ---
 # <a name="availability-in-sweden"></a>在瑞典的可用性
 

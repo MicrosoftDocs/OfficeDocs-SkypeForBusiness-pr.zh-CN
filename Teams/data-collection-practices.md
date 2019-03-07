@@ -10,9 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service:
 - skype-for-business-online
 - msteams
-ms.collection:
+MS.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
+- M365-collaboration
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,12 +24,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft 收集统计、 使用和错误的数据，以了解如何使用 for Business 的 Skype 和其中用户遇到问题。 使用的数据来规划产品改进。
-ms.openlocfilehash: df56d2321a2f3c2d7f4159e3f1b782254cf1a64b
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: d2673424bcddb1b6b3ebaae3bc7bde7f1fce790f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678375"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464113"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype 的业务和 Microsoft 团队数据集做法
 
@@ -108,7 +108,7 @@ Skype 会议应用程序和联接启动器网页，控制遥测的方法是通�
 - 最终用户单独常规选项卡中加入 (单击齿轮图标![齿轮图标](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)，然后将**选项**对话框打开与显示**常规**选项卡) 中的商业客户端 Skype。
     
  
-![Skype 选项中的业务数据集复选框 > 常规对话框](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
+![在常规选项 > 对话框中的业务数据集复选框的 Skype](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   
 对于 Skype 会议应用程序，MeetingUxEnableTelemetry 还将控制错误报告，但对 Windows 上崩溃，Watson 设置控制上载崩溃信息。 在桌面客户端对话框中看到如 Skype 会议应用程序没有用户设置。
 

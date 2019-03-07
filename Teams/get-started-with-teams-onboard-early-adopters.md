@@ -10,15 +10,17 @@ ms.reviewer: lolaj
 description: 为早期采用者上线你在 Microsoft Teams 中创建的第一组团队和频道。
 localization_priority: Priority
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 108979714eea2b6e39a7e40539b4d049d3b64f6c
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: b9e4f1c5c019b7d4436bab0379a94cb61e548fa5
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594347"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465169"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>为早期采用者上线 Microsoft Teams
 

@@ -12,16 +12,16 @@ description: 了解如何创建和设置网络区域、 网站和子网为基于
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60ed4b1c69f2b6495e21fe28653b19ca905dfc6c
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 67202207b5668022f4e0b33acc2d20f3c4abd7aa
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353439"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462705"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>为基于位置的路由配置网络设置
 

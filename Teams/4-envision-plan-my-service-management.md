@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: 通过规划运营角色和分配质量支持者来交付和维护高质量的部署。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 562ed8dbd4e4130b6ef157e600f69ea486ee813b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 67d12d4db29341b4c663b8515c293e6870bef715
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374222"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459025"
 ---
 # <a name="plan-my-service-management"></a>规划服务管理
 

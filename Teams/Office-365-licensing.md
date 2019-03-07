@@ -13,15 +13,17 @@ search.appverid: MET150
 description: 了解不同的 Office 365 许可证、哪些许可证支持用户使用 Microsoft Teams 以及如何启用或禁用它。
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3968b682e0b7c7bf2c7a701a40fd8073f513eb20
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: a2eeffd8e59272c1f7c8fa756edecab94fd5ab11
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120731"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460265"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>适用于 Microsoft Teams 的 Office 365 许可
 ========================================

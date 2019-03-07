@@ -10,15 +10,17 @@ description: 首先，登记利益干系人和然后范围项目规划您的升�
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86469155ada299afb3d31d84132f9a781b8c8aa6
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: d3c2c95e6034c365f95c5e8c4f6f124023437b9d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349394"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462433"
 ---
 为与右项目团队成功设置![确保您的项目。定义项目范围、 目标和日程表。确认技术和用户准备情况。执行套推广计划。维护 momentum 以最大限度地结果。](media/upgrade-banner-main.png "开始您升级旅程")
 

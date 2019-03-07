@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: 确定调控小组的主要利益干系人和项目负责人确定部署目标、 跟踪进度，并删除窗口阻止程序。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecbefe68b00e8388298ee6eb64ddbdc55ad0eeb9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 010d4e2b7a9f64ca57e38b185b013d92b4d7c1ca
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014480"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464281"
 ---
 # <a name="steering-committee"></a>调控委员会
 
@@ -50,7 +52,7 @@ ms.locfileid: "25014480"
 
 -   标识、 管理和缓解差距、 风险和问题其中其他影响是需要从委员会。
 
--   收集从执行发起人或管理层的领导团队需要升级，确定优先级和解决任何冲突利益干系人业务部门之间的问题的支持。 
+-   收集从执行发起人或管理层的领导团队需要升级，确定优先级和解决任何冲突利益干系人业务部门之间的问题的支持。 
 
 -   提供正式反馈和 executive 领导、 更改顾问委员会，或其他业务和 IT 利益干系人，如果适用的建议。
 

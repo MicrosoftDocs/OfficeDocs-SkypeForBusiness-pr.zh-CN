@@ -11,7 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Microsoft Teams 中查看贵组织中启用了电话拨入式会议的用户列表。 '
-ms.openlocfilehash: e9c8b594af6201200585a5633cfbd745e73dd483
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 2e1c74ccd856f32e8ff577ed7f718715e9e3c1b7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754200"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459865"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft Teams 中查看启用了音频会议的用户列表
 

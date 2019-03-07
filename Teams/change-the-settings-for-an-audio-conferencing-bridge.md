@@ -11,8 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '获取所需更改用于提示呼叫者和它们不使用 Skype 业务或 Microsoft 团队的应用程序时收集名称和 pin 的会议组织者的会议桥的设置的步骤。 '
-ms.openlocfilehash: 250d474d92acafb0fe7042743442e2005997588b
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: b407c51526470f61d58a25a4c4f1951d6f9556fa
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352767"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460945"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议网桥的设置
 

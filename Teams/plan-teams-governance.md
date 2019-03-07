@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: 了解如何规划团队中实现调控功能。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87f52eae4b99a76fc1eddf60fbdfd876efa8da05
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 0792bf80ebc2d55f4f60e72fe0373a6d86df3923
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754807"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464873"
 ---
 # <a name="plan-for-governance-in-teams"></a>团队中的治理规划
 
@@ -115,8 +117,8 @@ ms.locfileid: "29754807"
 
 所有设置，包括有关如何为您的组织，实现这些技术指南的详细列表，请参阅以下文章：
 
--   [在 Office 365 组织中启用 Microsoft Teams 功能](enable-features-office-365.md)。
--   [转换为新的 Microsoft 团队管理中心的过程管理团队](manage-teams-skypeforbusiness-admin-center.md)
+-   [管理 Office 365 组织中的 Microsoft Teams 功能](enable-features-office-365.md)
+-   [在过渡到全新的 Microsoft Teams 管理中心期间管理团队](manage-teams-skypeforbusiness-admin-center.md)
 -   [管理团队中的会议策略](meeting-policies-in-teams.md)
 
 

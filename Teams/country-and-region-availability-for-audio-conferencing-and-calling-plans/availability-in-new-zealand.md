@@ -9,7 +9,7 @@ ms.assetid: cde2f823-753a-4202-8ca6-081ac056b5a5
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于新西兰业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 6c778b8a5b12eb6deb5760fbf58ea1eec4530f8c
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 81894289816a7930e204cd39c8f2050f85186083
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352343"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464705"
 ---
 # <a name="availability-in-new-zealand"></a>在新西兰的可用性
 

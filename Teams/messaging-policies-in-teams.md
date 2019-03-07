@@ -7,7 +7,9 @@ ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,14 +18,14 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 了解有关消息策略以及如何使用它们来控制聊天消息团队。
-ms.openlocfilehash: 6349bd8299883fe213797a51e7051411c74298ef
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: b30b14ef8db70a6d8d88d4413a82fd1d672da13b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30302662"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465297"
 ---
-# <a name="what-are-messaging-policies-in-teams"></a>Teams 中的消息传递策略是什么？
+# <a name="what-are-messaging-policies-in-teams"></a>Teams 中的消息传递策略是什么？  
 
 ::: zone target="docs"
 邮件策略用于控制哪些聊天和消息功能的通道供 Microsoft 团队中的用户。 您可以使用创建或的组织中的人员创建一个或多个自定义的邮件策略的默认策略。 创建策略后，您将其分配用户组的组织中。
@@ -35,8 +37,7 @@ ms.locfileid: "30302662"
 若要编辑您的组织的现有默认消息策略，请单击**全局 （组织范围内默认值）** 行中，然后进行更改。 若要创建新的自定义邮件策略，单击**新建策略**，然后选择您的设置。 完成后，请选择**保存**。
 
 ![消息团队中的策略设置](media/messaging-policies-image2.png)
-::: zone-end
-
+::: zone-end  
 ::: zone target="chromeless"
 使用以下设置来更改全局消息策略或创建新的自定义策略：
 

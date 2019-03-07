@@ -11,15 +11,17 @@ description: 使用经验证的成功框架帮助贵组织的升级旅程，从 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a9a2bd4bfe1122fe31951f4382340a7bbd57b1f
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 91a2b5ae92598ad9a210f84bfce1a89fc1c97350
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754564"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460561"
 ---
 # <a name="about-the-upgrade-framework"></a>关于升级框架
 

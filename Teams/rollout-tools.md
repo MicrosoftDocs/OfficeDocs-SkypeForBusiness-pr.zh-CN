@@ -9,15 +9,17 @@ ms.service: msteams
 description: 找到支持你部署 Microsoft Teams 的工具，包括电子邮件模板、入门指南、Customer Success Kit 等。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94c35dbf18b3afdeb62cb4bb463e040f38f37f65
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e542dbcba4d098d197dfd70ab663aa06c9144f4c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532290"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458833"
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>获取工具以支持 Microsoft Teams 部署
 =================================================

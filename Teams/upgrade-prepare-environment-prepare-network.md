@@ -10,15 +10,17 @@ description: 使用此指导来准备网络以便进行 Teams 部署和推出
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9cb83e60748cd36cc88256862a76131eb12d93ec
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 34070ae8ac21be278596960a5a15129906d867f0
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29743017"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463705"
 ---
 ![升级过程的各个阶段，重点在技术就绪阶段](media/upgrade-banner-tech-readiness.png "升级过程的各个阶段，重点在技术就绪阶段")
 

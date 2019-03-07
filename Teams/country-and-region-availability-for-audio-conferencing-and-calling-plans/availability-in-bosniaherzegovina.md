@@ -9,7 +9,7 @@ ms.assetid: 14066a15-acca-4d39-b862-d163ab824196
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于波斯尼亚和黑塞哥维那业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 43863e2b51524f2440257b1ab311b47fe7eaab91
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 85b5225ec0a8c6cb4e38a9fe796019b6bbdad96f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352207"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462017"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>在波斯尼亚 &amp; 黑塞哥维那的可用性
 

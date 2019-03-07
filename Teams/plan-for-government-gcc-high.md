@@ -11,15 +11,17 @@ description: 面向 IT 专业人员为中处理数据受美国政府法规的实
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af5261e20f11cfb4234fb6d27abfa31b18370556
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: b4b1dc313fa1ea223e7c55f066b869b29c098fd2
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988261"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460825"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Microsoft 365 政府版-GCC 高部署规划
 
@@ -102,7 +104,7 @@ Microsoft 365 政府-GCC 高环境提供符合美国的云服务的政府要求�
 | | 联盟的会议 | 有空 |
 | | 曲面集线器支持 | 政府待办事项上 |
 | 呼叫 | 联系人 | 有空 |
-| | 历史记录 | 可用 |
+| | 历史记录 | 有空 |
 | | 语音邮件 | 可用 |
 | | VoIP 呼叫 | 有空 |
 | | Skype for Business 的团队呼叫 | 可用 |

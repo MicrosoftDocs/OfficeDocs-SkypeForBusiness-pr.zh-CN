@@ -11,15 +11,17 @@ description: 开始更新到 Microsoft 团队的 Skype for Business
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a42eec3f5e5271f34cdab10893953753c3896369
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: d6f25aeb3143e60ed71bff2aa32527de659fcbac
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562739"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465273"
 ---
 # <a name="upgrade-to-teams"></a>升级到团队
 

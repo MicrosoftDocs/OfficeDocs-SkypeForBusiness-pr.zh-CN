@@ -9,7 +9,7 @@ ms.assetid: 945d8b19-d310-44fc-b804-89eb3dd64ea8
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于西班牙业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: e0f11dc72b425be9a5be318658bde45013a883bd
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: f37e1e3aebed488bcf8d8ac373e13db79d6d4b30
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352943"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461537"
 ---
 # <a name="availability-in-spain"></a>在西班牙的可用性
 

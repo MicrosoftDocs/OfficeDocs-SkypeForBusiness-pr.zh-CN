@@ -11,7 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 了解提供哪些国家和地区的电话拨入式会议号码，以及如何自动分配这些号码。
-ms.openlocfilehash: 801c1c5b3c861aea1dea54779edf8d6af86aaa44
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 1846afc0b09d4994e7e7ea3be96d51d052654583
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351639"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460433"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中音频会议的电话号码
 

@@ -12,16 +12,18 @@ description: 了解如何升级免费版本的 Microsoft 团队
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 468a3c60b83784fb308165a5da835d451f2bc780
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: d8365792ead4422786d8e54c2541ff42d79f35b6
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594227"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464313"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>将 Microsoft Teams free 升级到 Office 365 订阅版本
 ======================================================

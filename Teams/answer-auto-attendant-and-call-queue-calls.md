@@ -9,15 +9,17 @@ ms.service: msteams
 description: 介绍电话系统自动助理和呼叫的队列，并说明如何可以应答团队中的这些呼叫。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b0b533020def2e344991fa758304888c8166436
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c010ae5a812cfd3d49279dd3728e948bdb31ca53
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530943"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465329"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>应答自动助理并直接从团队呼叫队列呼叫
 ===========================================================
@@ -38,7 +40,7 @@ ms.locfileid: "26530943"
 
 ![传入呼叫通知](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-一旦应答自动助理或呼叫队列呼叫时，用户可以处理像其他呼叫和 #x 2014; 呼叫他们可以添加或另一个用户或转接到另一方呼叫中的会议。 此外，自动助理将呼叫转接基于用户的配置。
+一旦应答自动助理或呼叫队列呼叫时，用户可以处理与任何其他呼叫 & #x 2014; 一样调用他们可以添加或另一个用户或转接到另一方呼叫中的会议。 此外，自动助理将呼叫转接基于用户的配置。
 
 > [!NOTE] 
 > 调用基于用户的配置不转接呼叫的队列。 这是为了确保代理可以应答呼叫之前，呼叫者保持队列中没有意外转接呼叫者。

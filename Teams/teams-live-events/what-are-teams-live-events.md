@@ -1,24 +1,26 @@
 ---
-title: 什么是 Microsoft 团队 live 事件？
+title: Microsoft Teams 实时事件是什么？
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: tonysmit
 search.appverid: MET150
 description: 了解如何 live 事件使用户能够广播视频和 Microsoft 团队、 Yammer 和 Microsoft 流中的大型联机访问群体的内容。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 881d5c2754703766cb9b84525472bfa18fc6e651
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4a818e95bf4d71fca06e7ea08f0bcff47efe4e2f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532238"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461049"
 ---
-# <a name="what-are-microsoft-teams-live-events"></a>什么是 Microsoft 团队 live 事件？
+# <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么？
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 ## <a name="overview"></a>概述
@@ -27,7 +29,7 @@ ms.locfileid: "26532238"
 
 Microsoft 365 live 事件使 live 视频流到新的级别，鼓励连接在整个项目生命周期与与会者之前、 升级期间和之后 live 事件。 您可以创建 live 事件，只要在访问群体、 团队或社区驻留，使用 Microsoft 流，Microsoft 团队或 Yammer。  
 
-团队提供基于聊天的协作、 呼叫、 会议和 live 事件，因此您可以展开您的会议的访问群体。 团队 live 事件是一种扩展的团队会议，使用户能够为大型联机访问群体广播视频和会议内容。 通过这些方法，其中的事件宿主前导之间的交互和访问群体参与主要是为了查看共享的主机的内容-一对多通信。 与会者可以观看 Yammer、 团队和/或 Microsoft 流的活动或录制事件，并可与演示者使用仲裁的 Q & A 或 Yammer 对话进行交互。 
+团队提供基于聊天的协作、 呼叫、 会议和 live 事件，因此您可以展开您的会议的访问群体。 团队 live 事件是一种扩展的团队会议，使用户能够为大型联机访问群体广播视频和会议内容。 通过这些方法，其中的事件宿主前导之间的交互和访问群体参与主要是为了查看共享的主机的内容-一对多通信。 与会者可以观看 Yammer、 团队和/或 Microsoft 流的活动或录制事件，并可与使用仲裁的 Q & A 或 Yammer 对话的演示者进行交互。 
 
 团队 live 事件视为 Skype 会议广播的下一个版本和最终将替换 Skype 会议广播中提供的功能。 期间团队 live 事件的公共预览发布，我们将继续支持服务的新的或将来事件不会中断的 Skype 会议广播。 但是，我们建议您 live 事件可以利用所有新功能和令人兴奋功能包括屏幕共享、 试用团队 attendee 计数和外部的硬件软件编码器的支持。 
 

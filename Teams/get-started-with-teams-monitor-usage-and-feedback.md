@@ -10,15 +10,17 @@ ms.reviewer: lolaj
 description: 了解可用于查看用户使用 Microsoft Teams 的情况以及收集用户体验反馈的报告选项。
 localization_priority: Priority
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf30553d8a2b04a25fa596f6692c5f5e5522aa74
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 24928ceab9224853c81ae352374aaf4e2ca947fb
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754686"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459969"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>在 Microsoft Teams 中监视使用情况和反馈
 了解用户使用 Teams 的情况以及他们对 Teams 的体验非常重要。 使用情况报告可以帮助你更好地了解使用模式，并且连同用户反馈一起，为你提供相关见解来了解更广泛的部署以及在何处设置培训和通信工作的优先级。

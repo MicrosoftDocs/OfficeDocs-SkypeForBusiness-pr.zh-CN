@@ -10,15 +10,17 @@ description: 从 Skype for Business 升级到 Teams 的十步加速行动计划
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccc958aaba8546f1af8f8bb1644d0fdeea8f0860
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 1cdc1a9de03256698d2cc06defb713cb4e394a84
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754296"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460201"
 ---
 <a name="about-upgrade-basic"></a>
 

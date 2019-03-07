@@ -1,5 +1,5 @@
 ---
-title: 准备用户准备情况计划;从 for Business 的 Skype 升级到团队
+title: 准备用户就绪计划；从 Skype for Business 升级到 Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -10,15 +10,17 @@ description: 规划与通信和培训，支持您为试点、 板载和升级到
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48bc1527b5f57219ecf062f1ab7025d969c13182
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 3172d85065f72d16df800d77e196632181c7d7bd
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349443"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459705"
 ---
 ![升级旅程，重点强调的用户准备阶段的阶段](media/upgrade-banner-user-readiness.png "升级旅程，重点强调的用户准备阶段的阶段")
 

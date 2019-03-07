@@ -10,15 +10,17 @@ ms.reviewer: lolaj, rowille
 description: 用于帮助组织开始使用 Microsoft Teams 的规划工具、研讨会和入门工具包。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5458596d1eba8d956d6a75e0d99c99982e6525b9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 04bee65e6d2c21b6e2857d44a50bae497b251d5b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012102"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463953"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>工具和研讨会：规划、交付和采用 Microsoft Teams
 
@@ -27,7 +29,7 @@ ms.locfileid: "25012102"
 
 - [Microsoft Teams 客户成功套件](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)
 
-    该工具包包含各种各样的演示文稿、 电子邮件模板、 提示和技巧和可用于推出和驱动器中您的组织采用团队的海报。 为管理员和团队主管和的每个部门的使用案例示例，它包括两个快速入门指南。 使用这些资源充分利用您的组织，包括市场营销、 销售、 财务、 人力资源部门中的各种功能的团队 IT、 工程、 和项目管理。
+    该工具包包含各种各样的演示文稿、 电子邮件模板、 提示 & 技巧和可用于推出和驱动器中您的组织采用团队的海报。 为管理员和团队主管和的每个部门的使用案例示例，它包括两个快速入门指南。 使用这些资源充分利用您的组织，包括市场营销、 销售、 财务、 人力资源部门中的各种功能的团队 IT、 工程、 和项目管理。
 
 
 - [管理员快速入门指南](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
