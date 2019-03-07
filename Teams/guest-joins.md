@@ -6,18 +6,20 @@ manager: serdars
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: 简要介绍如何在 Microsoft Teams 中邀请来宾加入团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b55631b50e99b9544bf7399cb9a6cf4e762dec07
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 85956acbdd07ea5e014c93a1229a1ebc432b718f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "29706296"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458873"
 ---
 <a name="how-a-guest-joins-a-team"></a>来宾加入团队的方式
 ========================

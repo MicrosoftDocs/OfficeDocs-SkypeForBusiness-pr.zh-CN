@@ -9,7 +9,7 @@ ms.assetid: bbaf568d-363f-45e7-acd2-82e5ebb7fa21
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 瑞士可用的项目。
-ms.openlocfilehash: f8248b6daa40c80a18c4fdd61c4419d54d2ada5d
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 42721cc79cfb69c209d906825835d4c3adb6133b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352687"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462465"
 ---
 # <a name="availability-in-switzerland"></a>在瑞士的可用性
 

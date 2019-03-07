@@ -10,15 +10,17 @@ ms.reviewer: crowe
 description: 了解如何配置 Exchange 混合组织以配合使用 Microsoft Teams。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c163a13278f910d6a0bd5b1650e07875c2b4cb8
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: e52c757b3e2456561d664b07667a5f08fd1c1617
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014080"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458929"
 ---
 <a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>配置 Exchange 混合组织以配合使用 Microsoft Teams
 ======================================================================

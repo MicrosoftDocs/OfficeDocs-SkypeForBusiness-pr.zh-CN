@@ -1,5 +1,5 @@
 ---
-title: 什么是团队策略中的特殊字符限制？
+title: Teams 策略中采用了哪些特殊字数限制？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.service:
 - msteams
 - skype-for-business-online
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
@@ -22,14 +22,14 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: 请参阅有与特殊字符的策略和解决办法可以执行的操作的名称中哪些问题。
-ms.openlocfilehash: ffb6082a613587b654f997bc2b2154bfeade15bf
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 3d2bc6f253f048dc07ab99111df3bc1d47788795
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754733"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460153"
 ---
-# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>什么是团队策略中的特殊字符限制？
+# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Teams 策略中采用了哪些特殊字数限制？
 
 **无法创建或编辑策略 （对于消息、 会议、 等） 的已在名称中的 Microsoft 团队管理特殊字符居中**。 
 

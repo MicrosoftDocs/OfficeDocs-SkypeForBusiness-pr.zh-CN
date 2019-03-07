@@ -9,7 +9,7 @@ ms.assetid: 267abb97-5a9c-4ed3-aa6d-47cb63d39cd0
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于美国的业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: d6f1b205016146fb9b90458b387f23f31cfe1b69
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 6e6fa9e7339c2b6792788a098d32e90518074815
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352631"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462897"
 ---
 # <a name="availability-in-the-united-states-us"></a>在美国 (U.S.) 的可用性
 

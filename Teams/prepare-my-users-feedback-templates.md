@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: 收集用户反馈，从而提高 Microsoft 团队或 Skype for Business 中的云语音实现。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3c315588365d023f61a12aa0e2ecf8068a4aaf7
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: 74594c81d86bf19b80cf40ad8292517705e7e690
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436609"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463873"
 ---
 # <a name="user-feedback-surveys"></a>用户反馈调查 
 
@@ -55,13 +57,13 @@ ms.locfileid: "25436609"
 
 您可以使用建议的可能性有工作组作为向朋友或同事电话？ (0 = 不根本可能...10 非常可能 =)
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
 可能性有多大？ 您向朋友或同事推荐电话设备 (0 = 不根本可能...10 非常可能 =)  
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 

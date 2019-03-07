@@ -12,16 +12,16 @@ description: 了解术语和概念的直接路由与基于位置的路由相关�
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 122ded988b9bf3c2cd8d439e84cb132e3a3f690d
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 34ec6558873da0db3537f6c5ae82b6624a3af369
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352328"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462393"
 ---
 # <a name="location-based-routing-terminology"></a>基于位置的路由术语
 

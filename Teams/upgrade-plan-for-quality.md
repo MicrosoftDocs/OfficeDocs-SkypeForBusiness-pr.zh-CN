@@ -10,15 +10,17 @@ description: 使用本指南可了解有关所需提供和维护高质量的 Mic
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81b47a5a77a04becee748e4285641ce341fb65d4
-ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
+ms.openlocfilehash: bc1332acb7f6623ed3d9faf8919558b71d4b347d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "29964423"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465185"
 ---
 ![升级旅程，重点强调的技术的准备阶段的阶段](media/upgrade-banner-tech-readiness.png "升级旅程，重点强调的技术的准备阶段的阶段")
 
@@ -109,7 +111,7 @@ Microsoft Teams 支持各种终结点。 你可以在任何地方从 PC、平板
 
 ### <a name="operational-role-mapping"></a>可操作的角色映射
 
-早期规划服务管理是一个关键的里程碑，因为在启用首批试点用户时即开始操作阶段。 项目团队必须审阅并同意所需的任务和活动，确定负责每个可操作任务的团队，以及得到各个团队的承诺和签字认可。
+早期规划服务管理是一个关键的里程碑，因为在启用首批试点用户时即开始操作阶段。 项目团队必须审阅并同意所需的任务和活动，确定负责每个运营任务的团队，以及得到各个团队的承诺和签字认可。
 
 在完成签字认可后，负责团队必须开始执行这些角色和职责。 这可能包括培训和就绪工作、更新人员配置模型或确保外部合作伙伴已准备好交付。
 
@@ -223,7 +225,7 @@ QoS 实施应包括网络的多个方面，从终结点一直到出口点，以�
 
 [Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)一文提供了为 Microsoft Teams 打开防火墙的完整指导。
 
-打开防火墙之后，您可以使用 [Microsoft 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885) 验证云语音功能的连接。
+打开防火墙后，可以使用  [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)  验证云语音功能的连接性。
 
 > [!IMPORTANT]
 > Microsoft Office 365 IP 和 URL 将随时间变化。 在服务管理规划中，务必要确保具有可操作的流程，以及一个小组负责监控 [Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)以及相应地进行更新。
@@ -339,7 +341,7 @@ Microsoft Teams 的主要优势之一是客户端会自动保持最新。 PC 和
 
 下表概述了规划活动，并提供相关内容链接。
 
-| 区域 | 详细信息 | 参考 |
+| 区域 | 详细信息 | References |
 |---|---|---|
 | 规划服务管理 | 进行可操作的角色映射操作 <br/> 负责团队的签字认可 <br/> 角色就绪 | [《操作指南》](1-drive-value-operate-my-service.md) |
 | | 指定质量支持者 <br/> 质量支持者就绪| [了解 CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [《体验质量评审指南》](https://aka.ms/qerguide) |
@@ -354,7 +356,7 @@ Microsoft Teams 的主要优势之一是客户端会自动保持最新。 PC 和
 | | | [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) |
 | | 执行网络评估 | [网络就绪评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
 | 规划终结点质量 | 更新终结点防火墙 | [Office 365 URL 和 IP 地址](https://aka.ms/o365ips) |
-| | 验证软件要求 | [获取 Microsoft Teams 的客户端](get-clients.md) |
+| | 验证软件要求 | [获取 Microsoft Teams 客户端](get-clients.md) |
 | | 实施终结点 Wi-Fi 建议 | 咨询第三方供应商 |
 | | 进行角色-设备映射 <br/> 预配设备并对其进行试点 | [Client and Devices - Readiness Workshop（客户端和设备 - 就绪研讨会）](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [设备目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
 

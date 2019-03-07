@@ -10,16 +10,18 @@ ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: 了解如何使用中的 Microsoft 团队管理中心团队使用情况报告您的组织中获取团队活动的概述。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f3b437beb56f7cc073c9ab32728e2bb16fbfd4d
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: d013073402de29fc586b14c9cc3bd5ab336d3086
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "29754516"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463105"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams 使用情况报告
 

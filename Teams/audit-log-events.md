@@ -6,18 +6,20 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
 description: 了解如何从 Office 365 审核日志检索 Microsoft Teams 数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 712f227dafab4400712471ea4b56be62662f1dcf
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a5207007b3855f5fa093050ac0ff8c885fd333af
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015674"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464049"
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 ==================================================
@@ -38,7 +40,7 @@ ms.locfileid: "25015674"
 
 ## <a name="turn-on-auditing-in-teams"></a>在 Teams 中启用审核
 
-您可以查看审核数据之前，必须**安全性和合规性中心**中的审核功能的第一个开启 (https://protection.office.com)。 有关启用审核的帮助，请阅读[启用或关闭 Office 365 审核日志搜索](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。
+您可以查看审核数据之前，必须**安全 & 合规性中心**中的审核功能的第一个开启 (https://protection.office.com)。 有关启用审核的帮助，请阅读[启用或关闭 Office 365 审核日志搜索](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。
 
 
 > [!IMPORTANT]

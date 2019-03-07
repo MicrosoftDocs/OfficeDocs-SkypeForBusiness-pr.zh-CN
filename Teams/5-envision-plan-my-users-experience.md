@@ -1,5 +1,5 @@
 ---
-title: 规划用户体验的 Microsoft 团队
+title: 规划用户的 Microsoft Teams 体验
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: 选择团队客户端应用程序，规划终结点质量，获取有关部署 Wi-fi 终结点和选择音频设备的建议。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a44af03e694937c5e874f6d53c0795a0c61dd606
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: 95777c59da635631c1493fc15351521248eead34
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716364"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459033"
 ---
 # <a name="plan-my-users-experience"></a>规划我的用户体验
 

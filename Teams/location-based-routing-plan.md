@@ -12,16 +12,16 @@ description: 了解如何规划基于位置的路由直接路由。
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff596f444c5df963b809e1ccacd525cb0dfd74e4
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 8e6e8167dd6f543693638bed4fcbb467600364f0
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351823"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461681"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>为直接路由计划基于位置的路由
 

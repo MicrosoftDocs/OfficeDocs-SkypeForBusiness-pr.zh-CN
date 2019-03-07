@@ -9,15 +9,17 @@ ms.reviewer: crowe
 description: 了解 Microsoft Teams 与各种 Exchange 设置之间存在哪些功能，例如，创建和加入团队、创建频道等。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c251255807e1c673c672db20a85b7f56c4a64d6
-ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
+ms.openlocfilehash: 020204700101e086691004cb90b5e5f7eabdbe5a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29992814"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462185"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互 
 =========================================
@@ -39,8 +41,8 @@ ms.locfileid: "29992814"
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是 |是|是|是|是|是|是|是|是|是 |是|
 |**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|是 |是 |是|是|是 |是|是|是|是 |是 |是|
-|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2,3</sup>|是<sup>4|是|否|否|是|是|否|否|否|是|是|
-|**本地 Exchange**（同步到所需 Azure AD）|是<sup>2</sup>| 是<sup>2,3</sup> |是<sup>4|是|是 （Exchange 2016 CU3 +）|否|是|是|否|不<sup>5|否|否|是|
+|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2,3</sup>|是<sup>4|是|否|否|是|是|否|是<sup>5|是 |是 |是|
+|**本地 Exchange**（同步到所需 Azure AD）|是<sup>2</sup>| 是<sup>2,3</sup> |是<sup>4|是|是 （Exchange 2016 CU3 +）|是 （Exchange 2016 CU3 +）|是 |是|否|是<sup>5|是 |是 |是|
 
 <sup>1</sup> exchange 2016 CU3 和上方支持  
 <sup>2</sup>电子数据展示和合规性上通道消息的法律挂起支持所有承载选项。  
@@ -64,7 +66,7 @@ ms.locfileid: "29992814"
 
 -   在 Microsoft Teams 中，安全性和合规性功能（例如，电子数据展示、内容搜索、存档和法定保留）在 Exchange Online 和 SharePoint Online 环境中完全正常。 对于频道对话，消息会记录到 Exchange Online 中的组邮箱，它们在此可用于电子数据展示。 如果在组织中为用户启用了 SharePoint Online 和 OneDrive for Business（使用工作帐户或学校帐户），也可以对 Teams 中的所有文件使用这些合规性功能。
 
--   对于 Exchange 内部部署，您必须配置 OAuth [Exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)中所述。 
+-   对于 Exchange 内部部署，您必须配置新的 Exchange OAuth 身份验证协议，如[Exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)中所述。 
 
 > [!NOTE]
 > 当前，如果贵组织具有合规性要求以确保所有会议讨论均可发现，当组织者有本地 Exchange 邮箱时，你应禁用私人会议。

@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: 定期评估机会增强团队服务、 监控任何有意义的功能增强的团队路线图。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66f7aafe353227c9602fbaecbd386a897aa021ea
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: eb8671e8b5a5247a8341b9921647c0dd63da8d7c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593883"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460257"
 ---
 # <a name="enhance-my-service"></a>增强我的服务
 

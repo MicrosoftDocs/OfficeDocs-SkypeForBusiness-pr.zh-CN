@@ -9,7 +9,7 @@ ms.assetid: c76db643-292f-4513-8c6e-367c50f43fe9
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 本文列出了在哥伦比亚可用的适用于 Skype for Business 和 Microsoft Teams 的 Office 365 服务。
-ms.openlocfilehash: ef0652617a19f069a2c116783d1213db95f0ec2b
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 94a74f93ced88db1b92ace7cda5b9757de689aa4
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353095"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462345"
 ---
 # <a name="availability-in-colombia"></a>哥伦比亚可用性
 

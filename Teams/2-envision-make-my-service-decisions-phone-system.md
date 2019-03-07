@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: 从中调用计划和许可、 配置紧急位置和功能，如语音邮件和呼叫者 ID，获取或转接电话号码。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7cd550b266f69d4ad0223bd7364ec1b69e56745
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: f7a277133adb520ea2a5e23cab05477f79f18ea1
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120567"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461889"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 

@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-ms.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 description: 任务和所需的团队服务管理，包括监视服务运行状况和评估并确保网络质量和使用情况的活动。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a11360c5cae498262a717c41e4247037de1db54
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: bc4dbb59b5346286b10b8a146b96c2b1f5dbc40e
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120508"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459153"
 ---
 # <a name="operate-my-service"></a>运行我的服务
 

@@ -9,7 +9,7 @@ ms.assetid: b96cfc51-5fc2-47e1-b98d-d9a098793273
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 罗马尼亚可用的项目。
-ms.openlocfilehash: 7c492445481d971de9c13d0677848bb1aa953726
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: a082c98ecffc4e793bce5a14244be96aeb4e5033
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351479"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462001"
 ---
 # <a name="availability-in-romania"></a>在罗马尼亚的可用性
 

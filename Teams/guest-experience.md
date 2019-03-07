@@ -10,15 +10,17 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 description: 了解来宾用户可用的 Microsoft Teams 功能。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1fc83f0911849655c1a27bdee2d87107f6eaebc
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 9301ecf94588560b1ba11b17b2c7f92d89cb072a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "29706312"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458977"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================

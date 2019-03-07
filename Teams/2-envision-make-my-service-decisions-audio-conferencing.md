@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: 了解有关会议、 授权和可用性、 配置会议网桥的设置，获取或转接电话号码、 选择租户拨号计划。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba2faa36cbb1a745ada776d40113aab80790b728
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: d8b98aa7a601466826d95ddb2413e702f94f4877
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120713"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459145"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 

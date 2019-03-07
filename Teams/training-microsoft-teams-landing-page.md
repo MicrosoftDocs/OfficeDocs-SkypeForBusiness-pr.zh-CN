@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队培训
+title: Microsoft Teams 培训
 description: 使用这些最终用户、 管理员和教师授课实况培训资源可帮助您充分利用 Microsoft 团队您的组织中。
 layout: LandingPage
 ms.topic: landing-page
@@ -8,18 +8,20 @@ ms.author: lolaj
 manager: serdars
 ms.date: 01/28/2019
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29cfb69af17387ad5ca9b9cf4f1ceff11fe09117
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: f227a9787368b325f102229afebdebf000513bb9
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635688"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463681"
 ---
-# <a name="microsoft-teams-training"></a>Microsoft 团队培训
+# <a name="microsoft-teams-training"></a>Microsoft Teams 培训
 
 
 

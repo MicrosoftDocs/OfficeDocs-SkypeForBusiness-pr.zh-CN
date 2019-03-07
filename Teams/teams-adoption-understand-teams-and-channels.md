@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解有关构建团队和中的 Microsoft 团队的频道详细信息。
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8413bdf3bbcc2bcb4b172d46a84b7a46bd7d190
-ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
+ms.openlocfilehash: 7721e8acd7487d89400bd7ac0d177e8413d30f47
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27896120"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460953"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>了解 Microsoft Teams 中的团队和频道
 

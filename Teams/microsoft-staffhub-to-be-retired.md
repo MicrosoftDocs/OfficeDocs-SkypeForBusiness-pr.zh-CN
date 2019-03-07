@@ -1,5 +1,5 @@
 ---
-title: Microsoft StaffHub 要停用
+title: Microsoft StaffHub 将停用
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
@@ -9,17 +9,19 @@ ms.service: msteams
 search.appverid: MET150
 description: ''
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Office for business, Microsoft Teams
-ms.openlocfilehash: d5b0cb21334a1959c18352657f8e72ae1dd015d2
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: 0a7f21b4c999ab7300b88e059b87d3710ddd700a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30307130"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465129"
 ---
-# <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub 要停用
+# <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub 将停用
 
 有效 2019 年 10 月 1，，Microsoft StaffHub 将要停用。 我们正在构建 StaffHub 功能，包括时间表和任务管理功能，向 Microsoft 团队。 团队移动应用程序现在包含 shift 管理和主屏幕体验。 Firstline 工作人员的其他功能将推出向工作组随着时间的推移。 
 

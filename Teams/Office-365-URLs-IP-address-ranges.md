@@ -9,15 +9,17 @@ ms.service: msteams
 description: 了解如何正确配置 Office 365 URL 和 IP 地址范围，在适用的情况下对与 Microsoft Teams 服务的连接不使用正向代理，以及了解网络连接和安全策略的要求。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11b874b3c42fa62889eb8c2bf8c9633d612c875a
-ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
+ms.openlocfilehash: c6592e74e9cedd69ff1e770374c717acc2c0b4b4
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "29964339"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464649"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 URL 和 IP 地址范围
 =====================================

@@ -9,7 +9,7 @@ ms.assetid: 1e242b5d-0526-431c-885f-ff27a9560d0a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于芬兰业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: e740e964608496899ea7809495a68f6092b5f293
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: c65d297eccdd09a5634b60ee97e6496db76eb5dd
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352999"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462193"
 ---
 # <a name="availability-in-finland"></a>在芬兰的可用性
 

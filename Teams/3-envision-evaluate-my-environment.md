@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: 使用角色和网络分析评估贵组织的准备情况，请打开了正确的 TCP 和 UDP 端口，执行的任何网络补救。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a00bf784b283f1f2d948e82d90ce54b0a67a6439
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 29bfd87d860cc68b988e365a77f28eed8fa9e2f5
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373311"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459091"
 ---
 # <a name="evaluate-my-environment"></a>评估我的环境
 

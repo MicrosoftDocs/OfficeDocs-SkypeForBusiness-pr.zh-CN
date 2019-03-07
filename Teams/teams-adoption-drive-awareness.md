@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何提高认知度并实现的 Microsoft 团队应用培训计划。
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8da00716e83d1b227bdf2c4ff66b1c026aa8e55c
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: bf3437d07bef4b068f68ba6607e664aa25c99605
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699754"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459585"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>为 Microsoft Teams 推动认知并开展培训
 
@@ -48,7 +50,7 @@ ms.locfileid: "26699754"
 - [教师授课实况最终用户培训团队](instructor-led-training-teams-landing-page.md)
 - [培训团队的管理员](itadmin-readiness.md)
 - [Online 最终用户培训](enduser-training.md)
-- [咖啡在云在线培训拥护者： IT 专业人员？](https://aka.ms/CoffeeintheCloud) 
+- [在线培训拥护者 & IT 专业人员在云中咖啡](https://aka.ms/CoffeeintheCloud) 
 - [生命 Office 365 培训欺骗工作表中的一天](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>度量和分享成功

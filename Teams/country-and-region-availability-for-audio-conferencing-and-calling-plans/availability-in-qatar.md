@@ -9,7 +9,7 @@ ms.assetid: 34743a0a-e743-4142-961f-679da254d080
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 卡塔尔可用的项目。
-ms.openlocfilehash: 0e009e47d46cbc72c9c953041a43d593f447696b
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: d3fa5af4f9ac9812cd22c0422304bb1a1de58b8f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353551"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463017"
 ---
 # <a name="availability-in-qatar"></a>在卡塔尔的可用性
 

@@ -1,5 +1,5 @@
 ---
-title: 存入资金和管理通信点数
+title: 添加资金并管理通信点数
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,8 +13,7 @@ ms.service:
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -32,14 +31,14 @@ f1keywords:
 ms.custom:
 - Licensing
 description: '了解如何支付通信字幕式 （PSTN 消耗量） 的 Skype 业务服务并查看计划以保留您具有连续电话系统的访问权限的用户。 '
-ms.openlocfilehash: 1ae700c315188fe68d856a0a39b5dd35a4997a0c
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 1c4fc9b9834b11c641961651843073a2392bc95b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047221"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459345"
 ---
-# <a name="add-funds-and-manage-communications-credits"></a>存入资金和管理通信点数
+# <a name="add-funds-and-manage-communications-credits"></a>添加资金并管理通信点数
 
 Communications 字幕式是用于电话系统和调用计划在 Office 365 中的便捷方法。 它有助于确保您和您的用户永远不会捕获而无需成为能够：
   
@@ -81,7 +80,7 @@ Communications 字幕式是用于电话系统和调用计划在 Office 365 中�
     
 您还可以参见信息通过[登录到 Office 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)，转到**帐单** > **订阅** > **添加订阅**。
   
-若要查看使用许可证或许可证需要为每个功能的表，请参阅[业务和 Microsoft 团队授权加载项的 Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。
+若要查看使用许可证或许可证需要为每个功能的表，请参阅 [teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 ## <a name="related-topics"></a>相关主题
 
@@ -91,7 +90,5 @@ Communications 字幕式是用于电话系统和调用计划在 Office 365 中�
     
 - [设置通话套餐](set-up-calling-plans.md) 和 [Office 365 的通话套餐](calling-plans-for-office-365.md)
         
-- [配置云连接器](https://technet.microsoft.com/library/mt605228.aspx)和[下载云连接器](https://aka.ms/CloudConnectorInstaller)
-
-  
+ 
  

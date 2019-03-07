@@ -10,15 +10,17 @@ ms.reviewer: ''
 description: 对于 IT 管理员教育有助于团队资源的列表。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b296db9db0f56e77b7e8146d2cf436726a10ec0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 57e402161dad595d1b2d5eb3db937e59e68e75a8
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015458"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462617"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>对于教育管理员的 Microsoft 团队资源
 ==============================================

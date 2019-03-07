@@ -1,5 +1,5 @@
 ---
-title: 用于 Microsoft 团队活动报告
+title: 使用 Microsoft Teams 用户活动报告
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
@@ -10,18 +10,20 @@ ms.service: msteams
 ms.reviewer: chenle
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: 了解如何使用活动报告以查看您的组织中的用户如何使用 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2466995597757cd5c18758bc3d1842ea4a9fb4e1
-ms.sourcegitcommit: e7f035151ba7447ada326d439df59cbfc5a79a26
+ms.openlocfilehash: 34ae95d405e9ab1f35c81db0d61ee48ba18141cf
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "29995421"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463369"
 ---
-<a name="use-activity-reports-for-microsoft-teams"></a>用于 Microsoft 团队活动报告 
+<a name="use-activity-reports-for-microsoft-teams"></a>使用 Microsoft Teams 用户活动报告 
 ========================================
 
 可以使用在 Microsoft 365 管理中心活动报告以查看您的组织中的用户如何使用 Microsoft 团队。 例如，如果某些不尚未使用的 Microsoft 团队，它们可能不知道如何开始或了解如何使用团队是更提高生产效率和协作。 组织可以使用活动报告来决定在何处优先安排培训和沟通工作。

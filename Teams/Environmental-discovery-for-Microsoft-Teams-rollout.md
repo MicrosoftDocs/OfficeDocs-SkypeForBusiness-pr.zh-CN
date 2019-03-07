@@ -9,15 +9,17 @@ ms.reviewer: dearbeen
 description: 如何规划从 for Business 的 Skype 您迁移到 Microsoft 团队执行详细的环境发现。
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cb6d41c5f57c436fd940cbf1f515e08daad9441
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 65da6bfa0ec87534d39e1665079f991e8c92aaa9
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349137"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462297"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>针对 Microsoft Teams 部署的环境发现
 ===================================================

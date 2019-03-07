@@ -9,16 +9,18 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 测量结果的您的音频会议、 电话系统与调用计划，或电话系统直接路由部署中，并确认您已实现，应该怎么做的产出。
-ms.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f969955dc01d0ea66ea2242549eff4938d80ce6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 405ec9e5471925ed977fc480d1b64f8d8deaee4b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372718"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465105"
 ---
 # <a name="define-my-success"></a>定义我成功
 
@@ -220,7 +222,7 @@ KSIs 测量质量和成功的关键结果，并通过详细报告良好和/或�
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>什么是您的组织和 #39; s OKRs 和 KSIs？</li><li>哪些风险已标识与您的组织中的音频会议实现相关？ 标识风险缓解计划是什么？</li><li>哪些风险已标识与您的组织中的调用计划实现相关？ 标识风险缓解计划是什么？</li><li>哪些风险已标识与您的组织中的直接路由中实现相关？ 标识风险缓解计划是什么？</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>您 organization& #39; s OKRs 和 KSIs 是什么？</li><li>哪些风险已标识与您的组织中的音频会议实现相关？ 标识风险缓解计划是什么？</li><li>哪些风险已标识与您的组织中的调用计划实现相关？ 标识风险缓解计划是什么？</li><li>哪些风险已标识与您的组织中的直接路由中实现相关？ 标识风险缓解计划是什么？</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|后续步骤|<ul><li>文档 OKRs 和 KSIs，并建立风险中注册。</li></ul>|
 
 <!--ENDOFSECTION-->

@@ -10,15 +10,17 @@ description: 如果您正在大型组织或主要具有自定义业务部署您 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e948685a1a49920ca7cf200435266e2cbaaf165d
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: caec680997f4fd44582dbb19b90e5c56d2b9c5b7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754831"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464097"
 ---
 # <a name="upgrade-pro"></a>升级专业人员
 

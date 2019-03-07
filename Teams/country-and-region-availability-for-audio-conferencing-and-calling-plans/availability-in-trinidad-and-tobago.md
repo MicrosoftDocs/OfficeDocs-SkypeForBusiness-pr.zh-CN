@@ -9,7 +9,7 @@ ms.assetid: 7ab4538a-3513-40c3-ad54-89067d2357d3
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于特立尼达和多巴哥业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 29b5dc0b7de7d7f5e621d4736676a9ebf335b314
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: e73094ca77643da6f8cc55bc2ccd92e67eaa9da0
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353447"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465201"
 ---
 # <a name="availability-in-trinidad-and-tobago"></a>在特立尼达和多巴哥的可用性
 

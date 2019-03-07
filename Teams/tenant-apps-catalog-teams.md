@@ -1,5 +1,5 @@
 ---
-title: 将应用程序发布到 Microsoft 团队租户的应用程序目录
+title: 将应用发布到 Microsoft Teams 租户应用目录
 author: ChuckEdmonson
 ms.author: lolaj
 manager: serdars
@@ -10,17 +10,19 @@ ms.reviewer: prem
 description: 面向 Microsoft 团队租户的应用程序目录中发布应用程序的指南。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2454ad195fbecb25b30218ac156e62d396b4a6dd
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: c7e280d0e0034290232010897b34e0e30319bd51
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674817"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464209"
 ---
-<a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>将应用程序发布到 Microsoft 团队租户的应用程序目录
+<a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>将应用发布到 Microsoft Teams 租户应用目录
 =======================================================
 
 您可以使用 Microsoft 团队租户的应用程序目录以测试和分发到您的组织的业务线应用程序。 

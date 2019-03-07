@@ -10,15 +10,17 @@ description: 有关从 Skype for Business 到 Microsoft Teams 的升级旅程的
 localization_priority: Priority
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a41c58a1d158cd3d09582e064e7cd59777687f67
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 7df0310420ba54cffb47393e254bb9d40387a21d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753978"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461713"
 ---
 # <a name="faq---upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ - 从 Skype for Business 升级到 Microsoft Teams
 

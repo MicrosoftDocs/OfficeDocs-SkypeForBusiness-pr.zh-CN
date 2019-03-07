@@ -11,15 +11,17 @@ ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
 description: Office 365 用户未授权的 Microsoft 团队可以发起 1 年试用版的团队。
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc0b62ce0be0606ad4c31d3cee04347729fbbe32
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 5101cc8f54d41aaf63b24fea1d9092b1465a81d7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214578"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462369"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams Commercial Cloud Trial 产品
 =======================================================
@@ -76,9 +78,9 @@ Microsoft 团队是为您的组织的绝佳协作工具。 它使人和团队讨
 
 您可以关闭用户能够安装试用版应用程序和服务。
 
-1. 从[Microsoft 365 管理中心](https://portal.office.com/adminportal/home)，转到**设置** > **服务和外接程序** > **用户拥有的应用程序和服务**。
+1. 从[Microsoft 365 管理中心](https://portal.office.com/adminportal/home)，转到**设置** > **服务 & 加载项** > **用户拥有的应用程序和服务**。
 
-    ![在 Office 365 管理中心中的服务和外接程序页的屏幕截图。](media/iw-trial-enable-1.png)
+    ![在 Office 365 管理中心中的服务 & 外接程序页的屏幕截图。](media/iw-trial-enable-1.png)
 
 2. 关闭**让用户安装试用版应用程序和服务**。
 

@@ -9,15 +9,17 @@ ms.service: msteams
 search.appverid: MET150
 description: 了解可用于各种需求（例如财务、活动计划、销售等）的不同团队、频道和应用。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: babfec7ae442b9d5f787fda7a9d9eedb0e3a6303
-ms.sourcegitcommit: e739925aa73f257b72ce4f94002d8b17582252a1
+ms.openlocfilehash: b3f49bc8ed4fe5c140c01bbc29c1d7ed7595f547
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357767"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458841"
 ---
 > [!NOTE]
 > 查看以下信息以了解聊天、 工作组、 通道和团队中的 & 应用程序。 然后，转到[部署聊天、 工作组、 通道和团队中的 & 应用程序](deploy-chat-teams-channels-microsoft-teams-landing-page.md)来为您的团队推出遍历的重要决策的列表。

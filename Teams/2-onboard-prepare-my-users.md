@@ -1,5 +1,5 @@
 ---
-title: 用户准备的 Microsoft 团队
+title: 为用户准备 Microsoft Teams
 author: dearbeen
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: 通过定义您的目标、 了解哪些验收如下所示，并提供培训和支持创建规划，以用户。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca1b2e5d28adf95a634df914b4693efddcbc5dd0
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 22d8383914755bdd3d9d185f083509de9175bef6
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649554"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463497"
 ---
 # <a name="prepare-my-users"></a>准备我的用户
 

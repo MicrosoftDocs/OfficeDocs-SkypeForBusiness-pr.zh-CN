@@ -10,21 +10,23 @@ ms.reviewer: anach
 description: 有关 Microsoft 团队中的保留策略的常见问题。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c8ebd3d35c471a529899cd46a364511f7ea267c
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 7597565afcd63872554e867d8f68929a3e214538
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25004575"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461017"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Microsoft 团队保留策略常见问题
 
 ### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>哪些类型的策略可以设置保留策略中以及它们如何工作？
 
-在安全和合规性中心中，工作组或任何其他工作负荷，设置的保留策略时您可以设置策略的两种主要类型： 
+在安全 & 合规性中心中，为团队或任何其他工作负荷，设置的保留策略时您可以设置策略的两种主要类型： 
 - 保留： 这些策略确保您的数据保留给定时间段的时间，无论在最终用户工具会发生什么情况。 他们确保数据保留出于合规性和电子数据展示，直到这次中可用的过期。 时间过后，您的策略可以指明是否不执行任何操作或删除的数据。 在工作组，如果您为 7 年创建保留策略，即使最终用户删除其团队邮件，这些消息仍保留电子数据展示的 7 年。
 - 删除： 这些策略确保数据不为您的组织的责任。 指定的持续时间后从团队中的所有相关存储删除数据。 
 
@@ -54,9 +56,9 @@ ms.locfileid: "25004575"
 
 是，业务联机和团队互操作性聊天 Skype 的工作方式相同。 后的业务在线聊天 Skype 进入团队，它将成为团队聊天线程中的邮件，并获取 ingested 到适当的邮箱。 使相同流动 works – 团队删除策略将从团队线程中删除这些消息。 但是，如果对话历史记录处于的 Skype 业务 online 并从业务联机客户端的 Skype 那些被保存到邮箱，团队保留策略不处理此聊天数据。
 
-### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>怎么办？ 这些通过安全性和合规性中心 cmdlet 我应使用什么？ 
+### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>怎么办？ 这些通过安全 & 合规性中心 cmdlet 我应使用什么？ 
 
-绝对。 您可以创建使用[安全性和合规性中心 Powershell cmdlet]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)的团队保留策略。 请记住这些不是 Exchange Online cmdlet。 以下是我们创建团队的 cmdlet。 他们遵循现有术语和样式从目前可保留 cmdlet 在安全性和合规性中心。
+绝对。 您可以创建使用[安全 & 合规性中心 Powershell cmdlet]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)的团队保留策略。 请记住这些不是 Exchange Online cmdlet。 以下是我们创建团队的 cmdlet。 他们按照从今天境内安全 & 合规中心的保留 cmdlet 现有术语和样式。
 
 |策略|规则|
 |---|---|
