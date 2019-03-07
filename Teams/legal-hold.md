@@ -6,43 +6,45 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
 description: 了解如何使用安全性和合规性中心将 Microsoft Teams 用户或团队置于法定保留状态，以及了解根据数据要求哪些内容需要法定保留。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: beceba4be0756ee9f6f5a80c2a9443170fab5871
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: eec053649cedfa3e29738dd1679d88b43ee54770
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014344"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461601"
 ---
-<a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a><span data-ttu-id="72d29-103">将 Microsoft Teams 用户或团队置于法定保留状态</span><span class="sxs-lookup"><span data-stu-id="72d29-103">Place a Microsoft Teams user or team on legal hold</span></span>
+<a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a><span data-ttu-id="050c4-103">将 Microsoft Teams 用户或团队置于法定保留状态</span><span class="sxs-lookup"><span data-stu-id="050c4-103">Place a Microsoft Teams user or team on legal hold</span></span>
 ==================================================
 
-<span data-ttu-id="72d29-104">要将用户或团队置于法定保留状态，请导航到[安全性和合规性中心](https://go.microsoft.com/fwlink/?linkid=854628)。</span><span class="sxs-lookup"><span data-stu-id="72d29-104">To put a user or a team on Legal Hold, navigate to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=854628).</span></span> <span data-ttu-id="72d29-105">在你创建新案例时，系统会为你提供用于将邮箱或网站置于保留状态的选项。</span><span class="sxs-lookup"><span data-stu-id="72d29-105">When you create a new case, you are presented with the option to place mailboxes or sites on hold.</span></span>
+<span data-ttu-id="050c4-104">要将用户或团队置于法定保留状态，请导航到[安全性和合规性中心](https://go.microsoft.com/fwlink/?linkid=854628)。</span><span class="sxs-lookup"><span data-stu-id="050c4-104">To put a user or a team on Legal Hold, navigate to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=854628).</span></span> <span data-ttu-id="050c4-105">在你创建新案例时，系统会为你提供用于将邮箱或网站置于保留状态的选项。</span><span class="sxs-lookup"><span data-stu-id="050c4-105">When you create a new case, you are presented with the option to place mailboxes or sites on hold.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="72d29-106">将用户置于保留状态并不会自动将组置于保留状态，反之亦然。</span><span class="sxs-lookup"><span data-stu-id="72d29-106">Placing a user on hold does not automatically place a group on hold or vice-versa.</span></span>
+> <span data-ttu-id="050c4-106">将用户置于保留状态并不会自动将组置于保留状态，反之亦然。</span><span class="sxs-lookup"><span data-stu-id="050c4-106">Placing a user on hold does not automatically place a group on hold or vice-versa.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="72d29-107">将用户或组置于保留状态时，将保留所有消息副本。</span><span class="sxs-lookup"><span data-stu-id="72d29-107">When a user or group is placed on hold, all message copies will be retained.</span></span> <span data-ttu-id="72d29-108">示例：Clay 在某个频道中发布了一条消息，之后修改了该消息。</span><span class="sxs-lookup"><span data-stu-id="72d29-108">Example: Clay posted a message in a channel and then modified the message.</span></span> <span data-ttu-id="72d29-109">在保留应用场景中，会保留该消息的两个副本。</span><span class="sxs-lookup"><span data-stu-id="72d29-109">In a hold scenario, both copies of the message are retained.</span></span> <span data-ttu-id="72d29-110">如果未处于法定保留状态，则只保留最新消息。</span><span class="sxs-lookup"><span data-stu-id="72d29-110">Without Legal Hold, only the latest message is retained.</span></span>
+> <span data-ttu-id="050c4-107">将用户或组置于保留状态时，将保留所有消息副本。</span><span class="sxs-lookup"><span data-stu-id="050c4-107">When a user or group is placed on hold, all message copies will be retained.</span></span> <span data-ttu-id="050c4-108">示例：Clay 在某个频道中发布了一条消息，之后修改了该消息。</span><span class="sxs-lookup"><span data-stu-id="050c4-108">Example: Clay posted a message in a channel and then modified the message.</span></span> <span data-ttu-id="050c4-109">在保留应用场景中，会保留该消息的两个副本。</span><span class="sxs-lookup"><span data-stu-id="050c4-109">In a hold scenario, both copies of the message are retained.</span></span> <span data-ttu-id="050c4-110">如果未处于法定保留状态，则只保留最新消息。</span><span class="sxs-lookup"><span data-stu-id="050c4-110">Without Legal Hold, only the latest message is retained.</span></span>
 
 
 
-<span data-ttu-id="72d29-111">在下图中，有一个涉及 Clay 的调查。</span><span class="sxs-lookup"><span data-stu-id="72d29-111">In the figure below, there is an investigation involving Clay.</span></span> <span data-ttu-id="72d29-112">Clay 是 Brokers-Dealers 团队的成员。</span><span class="sxs-lookup"><span data-stu-id="72d29-112">Clay is a member of the Brokers-Dealers team.</span></span>
+<span data-ttu-id="050c4-111">在下图中，有一个涉及 Clay 的调查。</span><span class="sxs-lookup"><span data-stu-id="050c4-111">In the figure below, there is an investigation involving Clay.</span></span> <span data-ttu-id="050c4-112">Clay 是 Brokers-Dealers 团队的成员。</span><span class="sxs-lookup"><span data-stu-id="050c4-112">Clay is a member of the Brokers-Dealers team.</span></span>
 
-<span data-ttu-id="72d29-113">如果我们需要将 Clay 可能讨论了 Brokering 计划的所有地方置于法定保留状态，请确保将该团队的 SharePoint 网站以及 Clay 的 OneDrive for Business 网站添加到法定保留网站列表。</span><span class="sxs-lookup"><span data-stu-id="72d29-113">If we needed to Legal Hold all the places Clay could have discussed Brokering plans, ensure that the team’s SharePoint site is added to the Legal Hold site list, as well as Clay’s OneDrive for Business site.</span></span>
+<span data-ttu-id="050c4-113">如果我们需要将 Clay 可能讨论了 Brokering 计划的所有地方置于法定保留状态，请确保将该团队的 SharePoint 网站以及 Clay 的 OneDrive for Business 网站添加到法定保留网站列表。</span><span class="sxs-lookup"><span data-stu-id="050c4-113">If we needed to Legal Hold all the places Clay could have discussed Brokering plans, ensure that the team’s SharePoint site is added to the Legal Hold site list, as well as Clay’s OneDrive for Business site.</span></span>
 
 ![“创建新保留”对话框屏幕截图。](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image3.png)
 
-<span data-ttu-id="72d29-115">概括起来，使用下表了解根据数据要求需要将哪些内容置于法定保留状态：</span><span class="sxs-lookup"><span data-stu-id="72d29-115">To recap, use the table below to understand what needs to be placed on Legal Hold based on data requirements:</span></span>
+<span data-ttu-id="050c4-115">概括起来，使用下表了解根据数据要求需要将哪些内容置于法定保留状态：</span><span class="sxs-lookup"><span data-stu-id="050c4-115">To recap, use the table below to understand what needs to be placed on Legal Hold based on data requirements:</span></span>
 
-|<span data-ttu-id="72d29-116">应用场景</span><span class="sxs-lookup"><span data-stu-id="72d29-116">Scenario</span></span>  |<span data-ttu-id="72d29-117">置于保留状态的内容</span><span class="sxs-lookup"><span data-stu-id="72d29-117">What to place on hold</span></span>  |
+|<span data-ttu-id="050c4-116">应用场景</span><span class="sxs-lookup"><span data-stu-id="050c4-116">Scenario</span></span>  |<span data-ttu-id="050c4-117">置于保留状态的内容</span><span class="sxs-lookup"><span data-stu-id="050c4-117">What to place on hold</span></span>  |
 |---------|---------|
-|<span data-ttu-id="72d29-118">**Microsoft Teams 私人聊天**</span><span class="sxs-lookup"><span data-stu-id="72d29-118">**Microsoft Teams Private Chats**</span></span>     |<span data-ttu-id="72d29-119">用户邮箱</span><span class="sxs-lookup"><span data-stu-id="72d29-119">User mailbox</span></span>         |
-|<span data-ttu-id="72d29-120">**Microsoft Teams 频道聊天**</span><span class="sxs-lookup"><span data-stu-id="72d29-120">**Microsoft Teams Channel Chats**</span></span>    |<span data-ttu-id="72d29-121">用于团队的组邮箱</span><span class="sxs-lookup"><span data-stu-id="72d29-121">Group mailbox used for the team</span></span>         |
-|<span data-ttu-id="72d29-122">**Microsoft Teams 内容（例如 Wiki、文件）**</span><span class="sxs-lookup"><span data-stu-id="72d29-122">**Microsoft Teams Content (e.g. Wiki, Files)**</span></span>     |<span data-ttu-id="72d29-123">团队使用的 SharePoint 网站</span><span class="sxs-lookup"><span data-stu-id="72d29-123">SharePoint site used by the team</span></span>         |
-|<span data-ttu-id="72d29-124">**私密内容**</span><span class="sxs-lookup"><span data-stu-id="72d29-124">**Private Content**</span></span>     |<span data-ttu-id="72d29-125">用户的 OneDrive for Business 网站</span><span class="sxs-lookup"><span data-stu-id="72d29-125">OneDrive for Business site of the user</span></span>         |
+|<span data-ttu-id="050c4-118">**Microsoft Teams 私人聊天**</span><span class="sxs-lookup"><span data-stu-id="050c4-118">**Microsoft Teams Private Chats**</span></span>     |<span data-ttu-id="050c4-119">用户邮箱</span><span class="sxs-lookup"><span data-stu-id="050c4-119">User mailbox</span></span>         |
+|<span data-ttu-id="050c4-120">**Microsoft Teams 频道聊天**</span><span class="sxs-lookup"><span data-stu-id="050c4-120">**Microsoft Teams Channel Chats**</span></span>    |<span data-ttu-id="050c4-121">用于团队的组邮箱</span><span class="sxs-lookup"><span data-stu-id="050c4-121">Group mailbox used for the team</span></span>         |
+|<span data-ttu-id="050c4-122">**Microsoft Teams 内容（例如 Wiki、文件）**</span><span class="sxs-lookup"><span data-stu-id="050c4-122">**Microsoft Teams Content (e.g. Wiki, Files)**</span></span>     |<span data-ttu-id="050c4-123">团队使用的 SharePoint 网站</span><span class="sxs-lookup"><span data-stu-id="050c4-123">SharePoint site used by the team</span></span>         |
+|<span data-ttu-id="050c4-124">**私密内容**</span><span class="sxs-lookup"><span data-stu-id="050c4-124">**Private Content**</span></span>     |<span data-ttu-id="050c4-125">用户的 OneDrive for Business 网站</span><span class="sxs-lookup"><span data-stu-id="050c4-125">OneDrive for Business site of the user</span></span>         |
