@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb1a23fb64f2a6c2d24e70f69a7997b1ec2049a6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ebefcf81eace90f99b2871fcd7232f799af3edb2
+ms.sourcegitcommit: 2dd1369e5112b0c4ed7c6b0be8a17489b71f494a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461569"
+ms.locfileid: "30469767"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导
 
@@ -38,7 +38,7 @@ ms.locfileid: "30461569"
 3.  所有用户具有基础 Skype 的业务帐户"驻留"之一 online 的团队或者内部部署：
     - 已为业务 Online 使用 Skype 的用户使用其现有的 online 帐户。
     - 已使用 Skype 业务/Lync 内部部署的用户使用其现有的内部部署帐户。
-    - 我们不能为其检测现有 Skype 业务帐户的用户将有 Skype 业务联机时创建团队用户自动配置的帐户。 业务许可证没有 Skype 是必需的。
+    - 我们不能为其检测现有 Skype 业务帐户的用户将有 Skype 业务联机时创建团队用户自动配置的帐户。
 
 4.  如果必须在本地部署的任一 Skype 适用于商务或 Lync，并且您希望为团队用户这些用户，您必须至少确保 Azure AD 连接正在同步 msRTCSIP DeploymentLocator 属性到 AAD，因此该团队/Skype for Business联机正确检测您在本地环境。 此外，将任何用户移至仅团队模式 （即，升级用户），*您必须首先配置 Skype 业务混合模式*。 有关详细信息，请参阅[配置 Azure AD 连接的 Skype 业务和团队](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-azure-ad-connect)。
 
