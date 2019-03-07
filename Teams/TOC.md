@@ -126,6 +126,7 @@
 ## [教程：Teams 中的会议](Tutorial-Meetings-in-Teams.yml)
 ## [管理会议策略](meeting-policies-in-teams.md)
 ## [管理会议设置](meeting-settings-in-teams.md)
+## [自定义会议邀请](customize-meeting-invitations-in-teams.md)
 ## [用户设置更改时向其发送的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [使用户能够在加入会议时录制其姓名](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [打开或关闭会议的进入和退出通知](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
@@ -333,7 +334,7 @@
 ### [规划直接路由](direct-routing-plan.md)
 ### [配置直接路由](direct-routing-configure.md)
 ### [迁移到直接路由](direct-routing-migrating.md)
-### [监视和故障排除直接路由](direct-routing-monitor-and-troubleshoot.md)
+### [对直接路由进行监视和故障排除](direct-routing-monitor-and-troubleshoot.md)
 ### [采用 PSTN 连接的混合环境中的用户帐户](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [为多个租户配置会话边界控制器](direct-routing-sbc-multiple-tenants.md)
 ### [经认证可用于直接路由的会话边界控制器列表](direct-routing-border-controllers.md)
@@ -470,7 +471,7 @@
 #### [美国的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
 
-### [免费电话拨号限制和限制](toll-free-dialing-limitations-and-restrictions.md)
+### [免费拨号限制](toll-free-dialing-limitations-and-restrictions.md)
 #### [阿根廷](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [澳大利亚](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 #### [白俄罗斯](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
@@ -681,7 +682,7 @@
 ### [对于管理员 Microsoft 教育调控常见问题](plan-teams-governance-edu.md)
 
 ## Firstline 工作者团队
-### [Microsoft StaffHub 要停用](microsoft-staffhub-to-be-retired.md)
+### [Microsoft StaffHub 将停用](microsoft-staffhub-to-be-retired.md)
 ### [管理您的组织在工作组引进相关应用程序](manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Teams 零售模板入门](get-started-with-retail-teams-templates.md)
 
