@@ -9,15 +9,17 @@ ms.service: msteams
 description: 了解 Office 365 组和组成员身份与 Microsoft Teams 如何配合使用
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bbb71a7b2d941abc57315b0f6dfb2c309facaf4f
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 16585f1de4c7486db0f5e62f98f8ba668adf3e1f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699249"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458817"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 组和 Microsoft 团队
 =====================================

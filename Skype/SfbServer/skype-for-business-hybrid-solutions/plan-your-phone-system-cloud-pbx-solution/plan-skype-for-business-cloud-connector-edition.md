@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 查找有关 Skype for Business 云连接器版本的信息，云连接器是一组打包的虚拟机 (Vm)，这些虚拟机负责通过 Office 365 中的电话系统（云 PBX）实施本地 PSTN 连接。
-ms.openlocfilehash: 6fcdaf3d3186effa5bb88f1252d51537dd1dba5f
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 4d03d8ea6936ad906de01a5b478fce01d62113c4
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210689"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454133"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>规划 Skype for Business 云连接器版本
 
 查找有关 Skype for Business 云连接器版本的信息，云连接器是一组打包的虚拟机 (Vm)，这些虚拟机负责通过 Office 365 中的电话系统（云 PBX）实施本地 PSTN 连接。
 
-如果您已没有现有的 Lync Server 或 Skype 业务服务器部署，云连接器 Edition 可能适合您的组织的解决方案。 如果您仍调查的 Office 365 解决方案中的电话系统适合您的业务，请参阅[规划 Office 365 (云 PBX) 解决方案中电话系统](plan-your-phone-system-cloud-pbx-solution.md)。
+如果您已没有现有的 Lync Server 或 Skype 业务服务器部署，云连接器 Edition 可能适合您的组织的解决方案。 如果您仍调查的 Office 365 解决方案中的电话系统适合您的业务，请参阅[Microsoft 电话服务解决方案](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)。
 
 本文档介绍云连接器 Edition 要求和支持的拓扑，并帮助您规划云连接器 Edition 部署。 请务必阅读本主题之前配置云连接器环境。 当已准备好部署和配置云连接器 Edition，请参阅[配置和管理业务云连接器 edition Skype](configure-skype-for-business-cloud-connector-edition.md)。
 
@@ -705,7 +705,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 有关详细信息，请参阅以下文章：
 
-- [规划 Office 365 中的电话系统（云 PBX）解决方案](plan-your-phone-system-cloud-pbx-solution.md)
+- [Microsoft 电话服务解决方案](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [配置和管理 Skype for Business 云连接器版本](configure-skype-for-business-cloud-connector-edition.md)
 

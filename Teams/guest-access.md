@@ -10,15 +10,17 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 description: 利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8b7bcf1951da82b85b9541ee2e4ec0e8216ede4
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 59cd4e06d3a5a98298d67fcfbb785efb371fe0f0
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059022"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458825"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 ======================================

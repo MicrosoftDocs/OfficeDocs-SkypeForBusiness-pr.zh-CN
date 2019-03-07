@@ -11,7 +11,7 @@ ms.service:
 - msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
+- M365-collaboration
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 了解如何在 Microsoft Teams 和 Skype for Business Online 的呼叫质量仪表板中进行流质量分类。
-ms.openlocfilehash: 43c3e876b041e8a586b43d21f049731e3450a1a4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9a25e44393cbe8660687451fea5163f064c16240
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374322"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460305"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>通话质量仪表板中的流分类
 
@@ -41,7 +41,7 @@ Streams in CQD are classified as good, poor, or unclassified based on the values
 
 如果满足以下一个或多个条件，则音频流标记为“差”：
 
-|**指标**|**异常条件**|**解释**|
+|**指标**|**条件**|**解释**|
 |:-----|:-----|:-----|
 |Audio Degradation Avg|> 1.0|Average Network Mean Opinion Score degradation for stream. Represents how much the network loss and jitter has impacted the quality of received audio.|
 |Round Trip|> 500|计算的平均网络传播往返时间，根据 RFC3550 以毫秒为单位指定。|
@@ -53,7 +53,7 @@ Streams in CQD are classified as good, poor, or unclassified based on the values
 
 视频流根据第一个可用指标的值按以下顺序标记为“好”或“差”：
 
-|**步骤编号**|**指标**|**异常条件**|**如果条件为真的分类**|**如果条件为假的分类**|**如果指标不可用的分类**|**解释**|
+|**步骤编号**|**指标**|**条件**|**如果条件为真的分类**|**如果条件为假的分类**|**如果指标不可用的分类**|**解释**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|继续前往步驟 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|< 7|Poor|Good|继续前往步驟 3|在会话持续期间计算到的视频流每秒接收的平均帧数。|
@@ -63,7 +63,7 @@ Streams in CQD are classified as good, poor, or unclassified based on the values
 
 VBSS 流根据第一个可用指标的值按以下顺序标记为“好”或“差”：
 
-|**步骤编号**|**指标**|**异常条件**|**如果条件为真的分类**|**如果条件为假的分类**|**如果指标不可用的分类**|**解释**|
+|**步骤编号**|**指标**|**条件**|**如果条件为真的分类**|**如果条件为假的分类**|**如果指标不可用的分类**|**解释**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|继续前往步驟 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|<2|Poor|Good|继续前往步驟 3|在会话持续期间计算到的视频流每秒接收的平均帧数。|
@@ -74,7 +74,7 @@ VBSS 流根据第一个可用指标的值按以下顺序标记为“好”或“
 如果满足以下一个或多个条件，则应用程序共享流标记为“差”：
 
 
-| **指标**                                     | **异常条件** | **解释**                                                                                                                                                                                                        |
+| **指标**                                     | **条件** | **解释**                                                                                                                                                                                                        |
 |:-----------------------------------------------|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Spoiled Tile Percent Total                     | > 36          | Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server. |
 | AppSharing RDP Tile Processing Latency Average | > 400         | 在会议服务器上处理 RDP 堆栈图块的平均延迟，以毫秒为单位。                                                                                                                          |
@@ -110,4 +110,4 @@ If ICE connectivity succeeded for an unclassified stream, the stream is likely c
 
 [通话质量仪表板中可用的维度和衡量指标](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[使用通话分析解决通话质量不佳的问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)

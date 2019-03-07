@@ -12,7 +12,7 @@ ms.service:
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何从 Teams 管理中心启用或禁用匿名呼叫者加入会议。 '
-ms.openlocfilehash: f815a52bf8cc26018f68eae3c2ad5689c8dd6f95
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: ebca4743692eca43eb8dda15928a5329fd7d0855
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754678"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463865"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>在 Microsoft Teams 中在没有 PIN 的情况下通过电话启动音频会议
 
