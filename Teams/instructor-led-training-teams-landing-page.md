@@ -1,19 +1,21 @@
 ---
 layout: HubPage
 hide_bc: true
-title: 教师授课实况培训和视频对于 Microsoft 团队管理员
+title: 面向 Microsoft Teams 管理员的讲师引导式培训和视频
 description: 注册教师授课实况类，以了解 Microsoft 团队。
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Training
-ms.openlocfilehash: 35b8a75e1c19acbe66e05c6d163b55cd4ab9f904
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.collection:
+- Teams_ITAdmin_Training
+- M365-collaboration
+ms.openlocfilehash: f3797407d02717109f1d8ab8b288cd68f9defe57
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349308"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461217"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -138,6 +140,44 @@ ms.locfileid: "29349308"
                                             <div class="cardText">
                                                 <h3>面向教育机构的网络研讨会团队</h3>
                                                 <p>了解如何使用高等教育团队。 (访问群体： 员工学生、 学术调查教职员工，IT 专业人员)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image8.svg" alt="successful meeting" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>优化团队会议</h3>
+                                                <p>了解如何利用您之前的过程中的团队和发布会议体验。 (访问群体： 最终用户)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="https://microsoftteams.eventbuilder.com/FLW3">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image9.svg" alt="mobile user" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>与团队 Firstline 工作者</h3>
+                                                <p>了解团队中的新发布的 firstline 辅助功能。 (访问群体： 最终用户)</p>
                                             </div>
                                         </div>
                                     </div>
