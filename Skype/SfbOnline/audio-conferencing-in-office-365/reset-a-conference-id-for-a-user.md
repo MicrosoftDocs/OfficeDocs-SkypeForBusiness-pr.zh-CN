@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解重置用户的步骤的业务 online，会议中 Skype 的会议 ID 和获取链接到会议更新和迁移工具。 '
-ms.openlocfilehash: d569dfb015db5cea79c57233ba455adfd90a3182
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 748664ec8e6584adcbcb0630147f1bcd60be9482
+ms.sourcegitcommit: 17348a197c8ed76d587f3c3d0ff36c56414183f0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887542"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30475792"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>对业务 Online 重置 Skype 中的用户的会议 ID
 
@@ -35,7 +35,7 @@ ms.locfileid: "23887542"
 底部的会议邀请以及的拨入电话号码的呼叫者可用于向会议呼叫中包含动态的会议 ID。 当用户拨打的电话号码时，会议自动助理会要求呼叫者输入此会议 ID，以便他们可以参加会议。
   
 > [!NOTE]
-> 如果你的会议提供商是 Microsoft，默认情况下用户的会议 ID 设置为“仅动态”。 但是，不能在 Skype for Business 管理中心或使用 Windows Powershell 将其更改为静态，目前该操作不受支持。 仅为启用音频会议的 Skype for Business 用户自动设置会议 ID。 
+> 如果您的会议提供商，Microsoft 用户的会议 Id 设置为仅动态。 这不能更改。 仅为启用音频会议的 Skype for Business 用户自动设置会议 ID。 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>重置用户的会议 ID
    
@@ -59,7 +59,7 @@ ms.locfileid: "23887542"
     
 - 如果您选择**用户**页上的用户可以查看为音频会议用户的会议 ID 底部的操作窗格下**音频会议**。
     
-- [!重要信息] 创建新会议 ID 后，呼叫者不能再使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 用户可以使用 Skype 业务会议工具更新其现有会议。 若要查看如何下载、 安装和运行 Skype 业务会议更新工具，请参阅：
+- [!重要信息]  创建新会议 ID 后，呼叫者不能再使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 用户可以使用 Skype 业务会议工具更新其现有会议。 若要查看如何下载、 安装和运行 Skype 业务会议更新工具，请参阅：
     
   - [Skype for Business 和 Lync 的会议更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)
     
