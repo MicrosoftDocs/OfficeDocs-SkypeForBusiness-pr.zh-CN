@@ -18,15 +18,15 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 39c36772de3370e29e8ab47fe596186b76bf3361
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 52462bcb9f609a2e9c68757a36a9e5ed1cfa2b13
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461337"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494210"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 中的音频会议
 Office 365 中的音频会议允许用户从其电话加入会议呼叫。 音频会议允许达 250 位电话与会者。

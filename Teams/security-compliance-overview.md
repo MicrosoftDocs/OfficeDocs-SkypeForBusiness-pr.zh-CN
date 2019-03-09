@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4833a36b08d3acc4b3cbe7ffaf2eaa4726fe0c82
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3c1288bee6e2b1adcceb3b899f705536c8a00133
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458937"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493978"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和合规性概述
 ======================================================
@@ -150,4 +150,4 @@ Microsoft 团队桌面应用程序支持 AppLocker。  有关 AppLocker 先决�
 
 作为 Office 365 的客户，你拥有并控制你的数据。 除了为你提供你已订阅的服务外，Microsoft 不会将你的数据用于任何其他用途。 作为服务提供商，我们不会扫描你的电子邮件、文档或团队来做广告或用于与服务无关的用途。 Microsoft 无权访问上载的内容。 对于 OneDrive for Business 和 SharePoint Online，客户数据位于租户中。
 
-请在 [Office 365 信任中心](https://go.microsoft.com/fwlink/?linkid=855779)详细查看我们的信任和安全相关的信息。 Teams 与 Office 365 信任中心遵循相同的指导和原则。
+签出有关我们信任和安全的详细信息的相关[Microsoft 信任中心](https://microsoft.com/trustcenter)的信息。 团队作为 Microsoft 信任中心遵循相同的指南和原则。

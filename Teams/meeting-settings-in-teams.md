@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 了解如何管理的用户安排在组织中的团队会议设置。
-ms.openlocfilehash: ad48e44ef475d3643444cfb570e81d8224117133
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ec43fe9c436de612440bbec687868dc4de749191
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462641"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494247"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -80,7 +80,7 @@ ms.locfileid: "30462641"
 
     ![会议-设置-network.png](media/meeting-settings-network.png "团队会议的 Microsoft 团队管理中心中的网络设置的屏幕截图")
 
-    - 要允许 DSCP 标记，以用于 QoS，请打开**插入的服务质量 (QoS) 标记的实时的媒体流量**。 只有或不使用标记的选项，您不能为每种通信类型的自定义标记。 更多有关 DSCP 标记，请参阅[选择 QoS 实现方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
+    - 要允许 DSCP 标记，以用于 QoS，请打开**插入的服务质量 (QoS) 标记的实时的媒体流量**。 只有或不; 使用标记的选项不能设置为每种通信类型的自定义标记。 更多有关 DSCP 标记，请参阅[选择 QoS 实现方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
     - 若要指定端口范围，旁边**选择每种类型的实时的媒体流量的端口范围**，请选择**指定端口范围**，，然后输入音频、 视频和屏幕共享的起始和结束端口。 选择此选项需要实现 QoS。
     > [!IMPORTANT]
     > 如果您选择**自动使用任何可用的端口**，1024年之间可用的端口，并使用 65535。 仅当不实现 QoS，请使用此选项。

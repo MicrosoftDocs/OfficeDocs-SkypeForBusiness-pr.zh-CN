@@ -3,7 +3,7 @@ title: 使用 Microsoft Teams 范围目录搜索
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/09/2018
+ms.date: 03/08/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a4a36de9b535d7c95f93175a97ce5266fdc37ec
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: e21cc33ab24dc14bd56f15146180ef90afdde7de
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754304"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494154"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 范围目录搜索
 

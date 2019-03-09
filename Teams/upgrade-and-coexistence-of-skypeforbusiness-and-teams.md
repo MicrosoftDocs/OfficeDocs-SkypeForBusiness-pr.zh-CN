@@ -10,17 +10,20 @@ description: Skype 的业务和 Microsoft 团队共存选项和模式，并升�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
+f1keywords:
+- ms.teamsadmincenter.orgwidesettings.teamsfeatures.upgradetoteamsarticle
+- ms.teamsadmincenter.upgradeoverride.learnmore
 MS.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bf81e18970366fee397504642b181f6e8c40add
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f4c7401ccf8bdefa7eaf906795d5e5e37ac8ba2e
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461609"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493954"
 ---
 ![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
 

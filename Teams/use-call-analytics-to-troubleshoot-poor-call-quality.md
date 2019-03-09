@@ -4,7 +4,7 @@ ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
-ms.date: 01/22/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
@@ -20,16 +20,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords:
+- ms.teamsadmincenter.directrouting.callanalytics
+- ms.teamsadmincenter.users.activity.audioqualitycolumn
 ms.custom:
 - Reporting
 description: 使用呼叫分析有关设备、 网络和连接的详细信息解决用户问题与 Microsoft 团队和 Skype 业务呼叫和会议。
-ms.openlocfilehash: d5409e1f37aaec6853362edc8caf74ea2a468cd7
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b020ae52b9cb7906484c6a0a5403e626ebab68a8
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464401"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494234"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用通话分析来排查通话质量不良问题
 

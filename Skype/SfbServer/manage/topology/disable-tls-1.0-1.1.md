@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 摘要： 准备，并在您的环境中实现禁用 TLS 1.0 和 1.1。
-ms.openlocfilehash: 50d4da536bbfcd112057464b3d4142b3eeed2b44
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: f99cf01ceb952298e90d296461e0d2b663f92c5d
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532511"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493931"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>为业务 Server 2015 禁用 TLS 1.0/1.1 中 Skype
 
@@ -44,7 +44,11 @@ Microsoft 提供了在 TLS 可用[下面](https://cloudblogs.microsoft.com/micro
 - 就地升级业务服务器 2015，与 CU6 HF2 和更高版本上的 Skype 
     - Windows Server 2008 R2，2012 （与 KB [3140245](https://support.microsoft.com/en-us/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in)或取代更新） 或 2012 R2
 - Exchange 连接和 Outlook Web App 与 Exchange Server 2010 SP3 RU19 或更高版本，指南[此处](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)
- 
+- 与 Skype 的业务服务器 2015 CU6 HF2 或更高的 survivable Branch Appliance (SBA) （他们打包咨询更新，并为装置所做，则确认您的供应商）
+- 与 Skype 的业务服务器 2015 CU6 HF2 或更高的 survivable Branch Server (SBS)
+- Lync Server 2013**仅限边缘角色**，这是因为边缘角色没有 Windows Fabric 1.0 的依赖关系。
+
+
 ### <a name="fully-tested-and-supported-clients"></a>充分测试和支持的客户端
 
 - Lync 2013 (for Business 的 Skype) 桌面客户端、 MSI 和 C2R，包括基本[15.0.5023.1000 及更高](https://support.microsoft.com/en-us/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
@@ -74,6 +78,7 @@ Microsoft 提供了在 TLS 可用[下面](https://cloudblogs.microsoft.com/micro
 除非另有说明，以下产品不在 TLS 1.0/1.1 禁用支持的范围内，将无法正常 TLS 1.0 和 1.1 其中已禁用的环境中。  这意味着： 如果您仍可以利用超出范围服务器或客户端，您必须更新或删除这些，如果您需要禁用 TLS 1.0/1.1 无处不在您 Skype 的业务服务器本地部署。
 
 - Lync Server 2013
+- Lync Server 2010
 - Windows Server 2008 及更低
 - Lync for Mac 2011
 - Lync 2013 mobile-iOS、 iPad、 Android 或 Windows Phone
@@ -81,6 +86,8 @@ Microsoft 提供了在 TLS 可用[下面](https://cloudblogs.microsoft.com/micro
 - 所有 Lync 2010 客户端
 - Lync Phone Edition-更新的指南[下面](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/ba-p/120035)。
 - 2013 基于 Survivable Branch Appliance (SBA) 或 Survivable Branch Server (SBS)
+- 云连接器 Edition (CCE)
+- Windows Phone 版 Skype for Business
 
 ### <a name="exceptions"></a>异常
 
@@ -443,7 +450,7 @@ Windows Registry Editor Version 5.00
 
 ### <a name="validate-that-workloads-are-functioning-as-expected"></a>验证预期的工作负荷的正常运行
 
-一次 TLS 1.0 和 1.1 已禁用您的环境中，确保您的主要工作负载都按预期方式，如 IM 和状态、 P2P 运行所有呼叫，企业语音，等等。
+一旦您的环境中已禁用 TLS 1.0 和 1.1，确保所有主工作负荷都运行正常，如 IM & 状态，P2P 呼叫企业语音，等等。
 
 **验证正在使用仅 TLS 1.2**
 
@@ -472,8 +479,8 @@ Windows Registry Editor Version 5.00
 
 **选项 2:** 预安装本地 SQL 实例 （RTCLOCAL 和 LYNCLOCAL）
 
-1. 下载并将 SQL Express 2014 SP2 (SQLEXPR_x64.exe) 复制到 FE 上的本地文件夹。 假设文件夹路径 < SQL_FOLDER_PATH >。
-2. 启动 PowerShell 或命令提示符并导航到 < SQL_FOLDER_PATH >。
+1. 下载并将 SQL Express 2014 SP2 (SQLEXPR_x64.exe) 复制到 FE 上的本地文件夹。 假设文件夹路径 <SQL_FOLDER_PATH>。
+2. 启动 PowerShell 或命令提示符并导航到 <SQL_FOLDER_PATH>。
 3. 通过运行以下命令创建 RTCLOCAL SQL 实例。 等待 SQLEXPR_x64.exe 完成之前：
 
     SQLEXPR_x64.exe /Q /IACCEPTSQLSERVERLICENSETERMS /UPDATEENABLED = 0 /HIDECONSOLE /ACTION = 安装/功能 = SQLEngine、 工具 /INSTANCENAME = RTCLOCAL /TCPENABLED = 1 /SQLSVCACCOUNT ="NT 机构 \ 网络服务"/SQLSYSADMINACCOUNTS ="Builtin\管理员"/BROWSERSVCSTARTUPTYPE ="自动"/AGTSVCACCOUNT ="NTAUTHORITY\NetworkService"/SQLSVCSTARTUPTYPE = 地

@@ -10,17 +10,18 @@ ms.reviewer: prem
 description: 面向 Microsoft 团队租户的应用程序目录中发布应用程序的指南。
 localization_priority: Normal
 search.appverid: MET150
+f1keywords: ms.teamsadmincenter.apppolicies.publishtenantapps
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7e280d0e0034290232010897b34e0e30319bd51
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 282e5bab91d08ee3374eddeaa0fe4628fb6b5ac0
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464209"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494258"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>将应用发布到 Microsoft Teams 租户应用目录
 =======================================================

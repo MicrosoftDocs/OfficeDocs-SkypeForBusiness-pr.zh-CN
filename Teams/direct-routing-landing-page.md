@@ -11,14 +11,15 @@ ms.collection:
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
+F1keywords: ms.teamsadmincenter.directrouting.overview
 description: 直接路由登陆页面
 appliesto: Microsoft Teams
-ms.openlocfilehash: 6aeff0f79dfbc6cd7b3ba3cddefee382673d24eb
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: b8f7840b981b67f941598638b2624de0cd512b8c
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353263"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494058"
 ---
 # <a name="phone-system-direct-routing"></a>电话系统直接路由
 
@@ -34,7 +35,7 @@ ms.locfileid: "30353263"
 - [规划直接路由](direct-routing-plan.md) 
 - [配置直接路由](direct-routing-configure.md)
 - [经认证可用于直接路由的会话边界控制器列表](direct-routing-border-controllers.md)
-- [监视和故障排除直接路由](direct-routing-monitor-and-troubleshoot.md)
+- [对直接路由进行监视和故障排除](direct-routing-monitor-and-troubleshoot.md)
 
 此外，您可能想要阅读以下文章根据您的要求：
 

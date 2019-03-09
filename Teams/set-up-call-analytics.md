@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 设置和使用调用分析确定并解决 Skype 的业务和 Microsoft 团队呼叫质量问题。
-ms.openlocfilehash: e54668afc6e71b519f1656443a25e17274b22fb2
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 97faee554bd4a4ea8b88226d12cb675fab51e114
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462830"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494218"
 ---
 # <a name="set-up-call-analytics"></a>设置通话分析
 
@@ -51,7 +51,7 @@ ms.locfileid: "30462830"
 ## <a name="set-call-analytics-permissions"></a>设置呼叫分析的权限
 <a name="BKMK_SetCAPerms"></a>
 
-作为管理员，您获取的呼叫分析的所有功能的完全访问权限。 此外，您可以分配支持人员的 Azure Active Directory 角色。 团队 communications 支持专家角色分配用户应具有有限的呼叫分析视图。 团队 communications 支持工程师角色分配用户需要访问呼叫分析的全部功能。 这两个权限级别防止对其余的 Microsoft 团队管理中心的访问。
+作为管理员，必须调用分析的所有功能的完全访问权限。 此外，您可以分配支持人员的 Azure Active Directory 角色。 团队 communications 支持专家角色分配用户应具有有限的呼叫分析视图。 团队 communications 支持工程师角色分配用户需要访问呼叫分析的全部功能。 这两个权限级别防止对其余的 Microsoft 团队管理中心的访问。
 
 > [!NOTE]
 > Communications 支持专家角色等同于第 1 层支持它等效于第 2 层支持 communications 支持工程师角色。

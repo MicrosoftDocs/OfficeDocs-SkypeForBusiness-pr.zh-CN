@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 摘要： 查看的 Skype 方案的业务服务器部署选项。 是否希望一台服务器或首选 DNS 或 HLB 的服务器池，应帮助本主题。
-ms.openlocfilehash: 524245db9415637f1f8b986648003b35ab653245
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 2ea6c30b6a430b880b1b75b6f5e36cc6a8721f18
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882239"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493682"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>高级边缘服务器的 DNS 规划 Skype 业务服务器
  
@@ -129,7 +129,7 @@ Skype 业务客户端在类似于早期版本的 Lync 客户端如何查找和�
 ## <a name="automatic-configuration-without-split-brain-dns"></a>没有拆分式 DNS 时的自动配置
 <a name="NoSplitBrainDNS"> </a>
 
-如果不使用拆分式 DNS，内部自动配置运行 for Business 的 Skype 的客户端不会起作用，除非您使用我们在这里有解决方法之一。 为什么不进行合计？ 因为 Skype 业务服务器需要用户的 SIP URI 匹配指定用于自动配置的前端池的域。 此尚未更改从早期版本的 Lync Server。
+如果不使用拆分式 DNS，内部自动配置运行 for Business 的 Skype 的客户端不会起作用，除非您使用我们在这里有解决方法之一。 为什么会不起作用？ 因为 Skype 业务服务器需要用户的 SIP URI 匹配指定用于自动配置的前端池的域。 此尚未更改从早期版本的 Lync Server。
   
 所以，如果正在使用两个 SIP 域，那么需要以下 DNS SRV 记录：
   
@@ -207,14 +207,14 @@ Skype 业务客户端在类似于早期版本的 Lync 客户端如何查找和�
   
 |**GeoDNS 记录**|**池记录**|**CNAME 记录**|**DNS 设置（选择一个选项）**|
 |:-----|:-----|:-----|:-----|
-|开会 int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com 的 Meet.contoso.com 别名  <br/> Pool2InternalWebFQDN.contoso.com 的 Meet.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
-|开会 ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com 的 Meet.contoso.com 别名  <br/> Pool2ExternalWebFQDN.contoso.com 的 Meet.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
-|Dialin int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com 的 Dialin.contoso.com 别名  <br/> Pool2InternalWebFQDN.contoso.com 的 Dialin.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
-|Dialin ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com 的 Dialin.contoso.com 别名  <br/> Pool2ExternalWebFQDN.contoso.com 的 Dialin.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
-|Lyncdiscoverint int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com 的 Lyncdiscoverinternal.contoso.com 别名  <br/> Pool2InternalWebFQDN.contoso.com 的 Lyncdiscoverinternal.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
-|Lyncdiscover ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com 的 Lyncdiscover.contoso.com 别名  <br/> Pool2ExternalWebFQDN.contoso.com 的 Lyncdiscover.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
-|计划程序 int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com 的 Scheduler.contoso.com 别名  <br/> Pool2InternalWebFQDN.contoso.com 的 Scheduler.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
-|计划程序 ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com 的 Scheduler.contoso.com 别名  <br/> Pool2ExternalWebFQDN.contoso.com 的 Scheduler.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
+|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |为满足 int.geolb.contoso.com Meet.contoso.com  <br/>   <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
+|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |为满足 ext.geolb.contoso.com Meet.contoso.com  <br/>   <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
+|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com 的 Dialin.contoso.com 别名  <br/> Pool2InternalWebFQDN.contoso.com 的 Dialin.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
+|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com 的 Dialin.contoso.com 别名  <br/> Pool2ExternalWebFQDN.contoso.com 的 Dialin.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
+|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com 的 Lyncdiscoverinternal.contoso.com 别名  <br/> Pool2InternalWebFQDN.contoso.com 的 Lyncdiscoverinternal.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
+|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com 的 Lyncdiscover.contoso.com 别名  <br/> Pool2ExternalWebFQDN.contoso.com 的 Lyncdiscover.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
+|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com 的 Scheduler.contoso.com 别名  <br/> Pool2InternalWebFQDN.contoso.com 的 Scheduler.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
+|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com 的 Scheduler.contoso.com 别名  <br/> Pool2ExternalWebFQDN.contoso.com 的 Scheduler.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
    
 ## <a name="dns-load-balancing"></a>DNS 负载平衡
 <a name="DNSLB"> </a>
@@ -254,7 +254,7 @@ DNS 负载平衡不可用于：
   
 - 客户端到服务器的 web 前端服务器或控制器的流量。
     
-继续更深入的 DNS SRV 记录如何选择当多 DNS 记录返回查询，访问边缘服务始终选择数字优先级最低记录时，断开裁判是否需要，可使用的最大数字权重。 这是与[Internet 工程任务组文档](https://www.ietf.org/rfc/rfc2782.txt)一致。
+继续更深入的 DNS SRV 记录如何选择当多 DNS 记录返回查询，访问边缘服务始终选择数字优先级最低记录时，断开裁判是否需要，可使用的最大数字权重。 这与 [Internet 工程任务组文档](https://www.ietf.org/rfc/rfc2782.txt)一致。
   
 例如，如果第一条 DNS SRV 记录权重为 20，优先级为 40，而第二条 DNS SRV 记录权重为 10，优先级为 50，则选择第一条记录，因为其优先级 40 更低。优先级总是最先进行比较，这是客户端首先要找的主机。优先级总是最先比较，这是首先成为客户端目标的主机。如果两个目标优先级相同该怎么办？ 
   

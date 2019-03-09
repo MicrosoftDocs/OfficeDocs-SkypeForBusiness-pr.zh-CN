@@ -14,14 +14,15 @@ search.appverid: MET150
 description: 开启或关闭 Microsoft Teams 中的来宾访问功能。
 ms.custom:
 - NewAdminCenter_Update
+f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af8cb3f6c8ba764bfd813b9d65479404dfbf1983
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 6b446b3baadb1bc692017496f19535d2246244fb
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462441"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493642"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>开启或关闭对 Microsoft Teams 的来宾访问
 ======================================

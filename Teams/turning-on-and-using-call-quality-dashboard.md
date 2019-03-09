@@ -21,15 +21,16 @@ appliesto:
 localization_priority: Normal
 f1keywords:
 - ms.lync.lac.ToolsCallQualityDashboard
+- ms.teamsadmincenter.directrouting.cqd
 ms.custom:
 - Reporting
 description: '请参阅如何启用和 Skype 用于业务联机呼叫质量仪表板并获取呼叫的质量摘要报告。 '
-ms.openlocfilehash: ff6e878a08dacf0fe206d68759ca23345b57301d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 58d1fe6db8108c2660b67fd072878aa1d2b81798
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461033"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494170"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用呼叫质量仪表板的 Microsoft 团队和 Skype 业务 online
 

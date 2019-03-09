@@ -20,16 +20,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: 了解什么是电话系统 (云 PBX) 自动助理以及如何使用它们。
-ms.openlocfilehash: 8ffb43d02ed100a3767fce3338b98c05760c1c9a
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 22136339b980779991170d0f072ec762b8c39c7a
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353503"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494202"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>什么是电话系统自动助理？
 

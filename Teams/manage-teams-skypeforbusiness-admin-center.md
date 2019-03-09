@@ -3,7 +3,7 @@ title: 在过渡到全新的 Microsoft Teams 管理中心期间管理团队
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/05/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -12,18 +12,19 @@ description: 了解如何管理租户范围和团队从团队转换期间的用�
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
+f1keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: bab16d1078e1b52ef62e0fac223132ccad75d531
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 9f1adb47709d3e053bb2349d8a3e548bedc58d9d
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463985"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493689"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在过渡到全新的 Microsoft Teams 管理中心期间管理团队
 ======================================================
