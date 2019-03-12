@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 摘要： 查看的 Skype 方案的业务服务器部署选项。 是否希望一台服务器或首选 DNS 或 HLB 的服务器池，应帮助本主题。
-ms.openlocfilehash: 2ea6c30b6a430b880b1b75b6f5e36cc6a8721f18
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 4631f7120bb091f3a9666edd4ab2d92cfdf52a00
+ms.sourcegitcommit: ce3f40d2ffdf452111a317a019eeebf807b0c78a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493682"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30537563"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>高级边缘服务器的 DNS 规划 Skype 业务服务器
  
@@ -209,12 +209,12 @@ Skype 业务客户端在类似于早期版本的 Lync 客户端如何查找和�
 |:-----|:-----|:-----|:-----|
 |Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |为满足 int.geolb.contoso.com Meet.contoso.com  <br/>   <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
 |Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |为满足 ext.geolb.contoso.com Meet.contoso.com  <br/>   <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
-|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com 的 Dialin.contoso.com 别名  <br/> Pool2InternalWebFQDN.contoso.com 的 Dialin.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
-|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com 的 Dialin.contoso.com 别名  <br/> Pool2ExternalWebFQDN.contoso.com 的 Dialin.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
-|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com 的 Lyncdiscoverinternal.contoso.com 别名  <br/> Pool2InternalWebFQDN.contoso.com 的 Lyncdiscoverinternal.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
-|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com 的 Lyncdiscover.contoso.com 别名  <br/> Pool2ExternalWebFQDN.contoso.com 的 Lyncdiscover.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
-|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com 的 Scheduler.contoso.com 别名  <br/> Pool2InternalWebFQDN.contoso.com 的 Scheduler.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
-|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com 的 Scheduler.contoso.com 别名  <br/> Pool2ExternalWebFQDN.contoso.com 的 Scheduler.contoso.com 别名  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
+|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |为满足 int.geolb.contoso.com Meet.contoso.com   <br/>  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
+|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |为满足 ext.geolb.contoso.com Meet.contoso.com  <br/>  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
+|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |为满足 int.geolb.contoso.com Meet.contoso.com   <br/>   <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
+|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |为满足 ext.geolb.contoso.com Meet.contoso.com  <br/>  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
+|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |为满足 int.geolb.contoso.com Meet.contoso.com   <br/>  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
+|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |为满足 ext.geolb.contoso.com Meet.contoso.com   <br/>  <br/> |在池之间启用循环  <br/> **或者** <br/> 使用主池，发生故障时连接到副池  <br/> |
    
 ## <a name="dns-load-balancing"></a>DNS 负载平衡
 <a name="DNSLB"> </a>
