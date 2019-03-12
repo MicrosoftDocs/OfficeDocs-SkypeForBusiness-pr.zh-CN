@@ -5,14 +5,12 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
-ms.topic: article
+ms.topic: reference
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - Teams_ITAdmin_Help
 - M365-voice
 ms.audience: Admin
@@ -27,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 你可以选择某个国家/地区以查看音频会议、电话系统、通话套餐、通信点数以及收费和免费电话号码是否可用。
-ms.openlocfilehash: a84ade55bc05f5fa1ac97cb291a9c43ef64552c3
-ms.sourcegitcommit: 310354297b8e8fb4e7426fd91f179253eaf4af7e
+ms.openlocfilehash: accdefde4fa94b9a0526938bd64ec5171810d36e
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "30364483"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542900"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -43,10 +41,10 @@ ms.locfileid: "30364483"
 > [!div class="op_single_selector"]    
 > - [阿根廷](availability-in-argentina.md)
 > - [澳大利亚](availability-in-australia.md)
-> - [奥地利](availability-in-austria.md)
+> - [Austria（奥地利）](availability-in-austria.md)
 > - [巴林](availability-in-bahrain.md)
 > - [白俄罗斯](availability-in-belarus.md)
-> - [比利时](availability-in-belgium.md)
+> - [Belgium（比利时）](availability-in-belgium.md)
 > - [伯利兹](availability-in-belize.md)
 > - [波斯尼亚和黑塞哥维那](availability-in-bosniaherzegovina.md)
 > - [巴西](availability-in-brazil.md)
@@ -57,25 +55,25 @@ ms.locfileid: "30364483"
 > - [中国](availability-in-china.md)
 > - [哥伦比亚](availability-in-colombia.md)
 > - [哥斯达黎加](availability-in-costa-rica.md)
-> - [克罗地亚](availability-in-croatia.md)
+> - [Croatia（克罗地亚）](availability-in-croatia.md)
 > - [塞浦路斯](availability-in-cyprus.md)
 > - [捷克共和国](availability-in-the-czech-republic.md)
 > - [丹麦](availability-in-denmark.md)
 > - [多米尼加共和国](availability-in-the-dominican-republic.md)
-> - [厄瓜多尔](availability-in-ecuador.md)
+> - [Ecuador（厄瓜多尔）](availability-in-ecuador.md)
 > - [埃及](availability-in-egypt.md)
 > - [萨尔瓦多](availability-in-el-salvador.md)
 > - [爱沙尼亚](availability-in-estonia.md)
-> - [芬兰](availability-in-finland.md)
-> - [法国](availability-in-france.md)
+> - [Finland（芬兰）](availability-in-finland.md)
+> - [France（法国）](availability-in-france.md)
 > - [格鲁吉亚](availability-in-georgia.md)
-> - [德国](availability-in-germany.md)
+> - [Germany（德国）](availability-in-germany.md)
 > - [希腊](availability-in-greece.md)
 > - [洪都拉斯](availability-in-honduras.md)
 > - [香港特别行政区](availability-in-hong-kong.md)
 > - [匈牙利](availability-in-hungary.md)
-> - [印度](availability-in-india.md)
-> - [印度尼西亚](availability-in-indonesia.md)
+> - [India（印度）](availability-in-india.md)
+> - [Indonesia（印度尼西亚）](availability-in-indonesia.md)
 > - [爱尔兰](availability-in-ireland.md)
 > - [以色列](availability-in-israel.md)
 > - [意大利](availability-in-italy.md)
@@ -83,28 +81,28 @@ ms.locfileid: "30364483"
 > - [约旦](availability-in-jordan.md)
 > - [肯尼亚](availability-in-kenya.md)
 > - [拉脱维亚](availability-in-latvia.md)
-> - [立陶宛](availability-in-lithuania.md)
+> - [Lithuania（立陶宛）](availability-in-lithuania.md)
 > - [卢森堡](availability-in-luxembourg.md)
 > - [马其顿](availability-in-macedonia.md)
 > - [马来西亚](availability-in-malaysia.md)
 > - [马耳他](availability-in-malta.md)
 > - [墨西哥](availability-in-mexico.md)
 > - [摩尔多瓦](availability-in-moldova.md)
-> - [摩纳哥](availability-in-monaco.md)
+> - [Monaco（摩纳哥）](availability-in-monaco.md)
 > - [荷兰](availability-in-the-netherlands.md)
 > - [新西兰](availability-in-new-zealand.md)
 > - [挪威](availability-in-norway.md)
-> - [巴基斯坦](availability-in-pakistan.md)
+> - [Pakistan（巴基斯坦）](availability-in-pakistan.md)
 > - [巴拿马](availability-in-panama.md)
 > - [巴拉圭](availability-in-paraguay.md)
-> - [秘鲁](availability-in-peru.md)
+> - [Peru（秘鲁）](availability-in-peru.md)
 > - [菲律宾](availability-in-the-philippines.md)
 > - [波兰](availability-in-poland.md)
-> - [葡萄牙](availability-in-portugal.md)
+> - [Portugal（葡萄牙）](availability-in-portugal.md)
 > - [波多黎各](availability-in-puerto-rico.md)
 > - [卡塔尔](availability-in-qatar.md)
 > - [罗马尼亚](availability-in-romania.md)
-> - [俄罗斯](availability-in-russia.md)
+> - [Russia（俄罗斯）](availability-in-russia.md)
 > - [沙特阿拉伯](availability-in-saudi-arabia.md)
 > - [塞尔维亚](availability-in-serbia.md)
 > - [新加坡](availability-in-singapore.md)
@@ -115,7 +113,7 @@ ms.locfileid: "30364483"
 > - [西班牙](availability-in-spain.md)
 > - [斯里兰卡](availability-in-sri-lanka.md)
 > - [瑞典](availability-in-sweden.md)
-> - [瑞士](availability-in-switzerland.md)
+> - [Switzerland（瑞士）](availability-in-switzerland.md)
 > - [台湾](availability-in-taiwan.md)
 > - [泰国](availability-in-thailand.md)
 > - [特立尼达和多巴哥](availability-in-trinidad-and-tobago.md)
@@ -124,9 +122,9 @@ ms.locfileid: "30364483"
 > - [阿拉伯联合酋长国 (UAE)](availability-in-the-united-arab-emirates-uae.md)
 > - [英国](availability-in-the-united-kingdom-u-k.md)
 > - [美国](availability-in-the-united-states-u-s.md)
-> - [乌拉圭](availability-in-uruguay.md)
+> - [Uruguay（乌拉圭）](availability-in-uruguay.md)
 > - [委内瑞拉](availability-in-venezuela.md)
-> - [越南](availability-in-vietnam.md)
+> - [Vietnam（越南）](availability-in-vietnam.md)
 
 **如果您要查找的所有国家和地区，与电子表格下载并保存[云语音功能国家/地区可用性电子表格](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-02012019)-(en-us).xlsx?raw=true)**。
 

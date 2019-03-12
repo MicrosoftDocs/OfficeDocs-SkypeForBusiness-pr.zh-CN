@@ -6,15 +6,18 @@ manager: serdars
 ms.date: 09/06/2018
 ms.topic: article
 ms.service: msteams
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 description: 了解如何使用 PowerShell 控件来管理 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45714418f123022bc3545d4923bd18fc71bad746
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 68dbd84c93e34d79d29c75ce7c3ad98934227432
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754540"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543220"
 ---
 # <a name="teams-powershell-overview"></a>Teams PowerShell 概览
 

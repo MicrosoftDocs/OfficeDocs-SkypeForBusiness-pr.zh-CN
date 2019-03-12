@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 456e4813-a235-43c2-beda-dd2276bdd108
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于爱尔兰业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 7aa09c8bbb9aedfffd58b3b01d7635e64b27176f
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cd500943eb6844997a77222d4b33bd4e9f1767f0
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464425"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542860"
 ---
 # <a name="availability-in-ireland"></a>在爱尔兰的可用性
 

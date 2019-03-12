@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 573ef225-36e4-4dc2-adef-d4567858c02b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于塞尔维亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 71f04a3428a77a8f702865868fddd78fd5e3d051
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 9112e7ac9f5f3eb2e7047b6fcfd8f9f1ca71d5af
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462209"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541485"
 ---
 # <a name="availability-in-serbia"></a>在塞尔维亚的可用性
 

@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.date: 01/11/2019
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
@@ -17,12 +17,12 @@ MS.collection:
 description: 了解如何在 Microsoft 团队管理中心可用团队报告。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3c6479dbd9dbc9e8097f4228ad2b11288390fad
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: c674f9256d30e4b4a4f5a6f8e336e7d03f551df0
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494226"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541501"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析和报告
 

@@ -7,9 +7,7 @@ ms.reviewer: mikedav, wlooney, gageames
 ms.topic: article
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 了解有关呼叫分析和呼叫质量仪表板以及何时使用它们来监视和解决呼叫质量问题。
-ms.openlocfilehash: e8c9331a26caf5e2fe4cb618ac896393d35939ba
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 693e17152d3c51ae51efaa0977d5d83b5c5f2297
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460849"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543004"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>通话分析和通话质量仪表板
 
@@ -44,7 +42,7 @@ Microsoft 团队和 for Business 的 Skype 提供两种方法可以监视和解�
 
 若要查看此信息的用户的 Microsoft 团队管理中心中，单击**呼叫历史记录**选项卡中的用户详细信息页，显示该用户参与 30 天内的所有呼叫和会议的用户。
 
-![调用分析用户数据。](media/call-analytics-user-data.png)
+![调用分析用户数据。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
 要获取有关给定会话包括详细的媒体和网络统计信息的其他信息，请单击的会话，若要查看的详细信息。
 
@@ -76,7 +74,7 @@ Microsoft 团队和 for Business 的 Skype 提供两种方法可以监视和解�
 
 借助 CQD 的 Location-Enhanced 报告，可以评估聚合呼叫质量和可靠性中用户的构建以确定问题是否被隔离到单个用户，或者影响的用户更大条线段。
 
-![呼叫质量仪表板位置增强报告的屏幕截图。 显示的选项卡是概述，建筑物-有线，建筑物-WiFi 和 Mobile (LTE)。 正在应用筛选器以查看特定大厦内的流。](media/call-quality-dashboard-location-enhanced-reports-building-selection.png)
+![呼叫质量仪表板位置增强报告的屏幕截图。 显示的选项卡是概述，建筑物-有线，建筑物-WiFi 和 Mobile (LTE)。 正在应用筛选器以查看特定大厦内的流。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
 > 若要启用 CQD 中的特定于构建的视图，管理员必须 CQD 的租户数据上载页面上的[上载构建信息](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload)。

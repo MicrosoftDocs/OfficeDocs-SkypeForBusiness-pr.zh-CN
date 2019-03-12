@@ -9,18 +9,21 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.audience: Admin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: 了解有关 Microsoft 团队和如何使用它们来控制对组织中用户可用的应用程序中的应用程序权限策略。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 47a4d3a444a0685e0a1ff568332bdc426752af4c
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 46a4cbd008db7dc742cd5cc3d22277d7535daa88
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30411378"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542228"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>管理应用程序中的 Microsoft 团队的权限策略
 

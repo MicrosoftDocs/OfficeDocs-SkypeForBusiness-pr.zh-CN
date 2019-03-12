@@ -9,14 +9,17 @@ ms.assetid: ''
 ms.service: msteams
 ms.tgt_pltfrm: na
 ms.devlang: na
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Training
 ms.topic: landing-page
 ms.author: dearbeen
-ms.openlocfilehash: dd5b9a3955c3b647d9823c29d2d871800a144223
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 84d409f18fb6e6f4832ad4f5912f2b50fef05736
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532635"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30540941"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
@@ -132,7 +135,7 @@ ms.locfileid: "26532635"
                     <div class="cardText">
                         <h3>文章</h3>
                         <p><a 
-                        href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">在你有组织中设置电话系统</a></p>
+                        href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">在组织中设置电话系统</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">与音频会议的第三方集成</a></p>
                     </div>
                 </div>
@@ -149,7 +152,7 @@ ms.locfileid: "26532635"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>新增功能</h3>
+                        <h3>新功能</h3>
                         <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">加拿大的通话套餐（通用）</a></p>
                         <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">澳大利亚的通话套餐（仅限预览）</a></p>
                     </div>

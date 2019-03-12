@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 MS.collection:
@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关 GOV、EDU 和非营利组织计划的加载项许可证和功能。 '
-ms.openlocfilehash: 503afdff3cdcb8c19014a5055c402436091b6c70
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f2afc5b36d15f0b420cd8cdf7ce545dd78a5a941
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459633"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542676"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV、EDU 和非营利性组织
 

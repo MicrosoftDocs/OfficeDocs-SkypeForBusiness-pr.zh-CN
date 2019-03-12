@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 93419ae6-1f3d-4182-83d1-afe02060fd6a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于厄瓜多尔业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: e169f6f6cde83f584a9d45dbaf1ae783b9cad319
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: a06faa5d56d379984f224005fc3ea3a844820f7a
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464233"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541293"
 ---
 # <a name="availability-in-ecuador"></a>在厄瓜多尔的可用性
 

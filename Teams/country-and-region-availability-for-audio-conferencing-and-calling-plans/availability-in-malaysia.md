@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 5cde872f-9cd8-4a5d-9244-0dc9a7ae5651
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于马来西亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 81b847e1a3e29e13b5dd203563bf83bea75fae05
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ddce841e9bf2eb4a4dc0aacf453276d4cfdc30b6
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464129"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541725"
 ---
 # <a name="availability-in-malaysia"></a>在马来西亚的可用性
 

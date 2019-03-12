@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 14066a15-acca-4d39-b862-d163ab824196
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于波斯尼亚和黑塞哥维那业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 85b5225ec0a8c6cb4e38a9fe796019b6bbdad96f
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 47f3ba9bfaf7efdd21974838d28daa33afc251b7
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462017"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543261"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>在波斯尼亚 &amp; 黑塞哥维那的可用性
 

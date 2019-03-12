@@ -7,14 +7,10 @@ ms.reviewer: mikedav, roykuntz
 ms.topic: article
 ms.assetid: 2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -25,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解 Office 365 哪种类型的拨号计划 （PSTN 呼叫拨号计划） 的呼叫，以及如何为您的组织选择一种。  '
-ms.openlocfilehash: 3158e31b5008fef91e3da4be86ee6cabf3a5fd1b
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 8dc0bb49d37c2df1903332eb71809869d9ebf66a
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352879"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542404"
 ---
 # <a name="what-are-dial-plans"></a>什么是拨号计划？
 

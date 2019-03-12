@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 42691c26-3b0a-43b6-bc92-012b2992c6fe
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于瑞典业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: a5a9c5838fa7ef747d1fcea723840c4e6c289c13
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 8b9270c8fe95f87143f40c22d0ce0bdc54ab780c
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459561"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543148"
 ---
 # <a name="availability-in-sweden"></a>在瑞典的可用性
 

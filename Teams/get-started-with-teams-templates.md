@@ -10,17 +10,20 @@ ms.service: msteams
 ms.reviewer: phlouie
 localization_priority: Normal
 search.appverid: MET150
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 description: 了解如何使用团队模板来创建工作组使用预定义的通道。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97504dcc6fa1cd465eae7bf0ea151cdf36f525d2
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: f16b851641de64813212bf67a83dbf9d7a05c043
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352639"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541637"
 ---
 # <a name="get-started-with-teams-templates"></a>开始使用 Teams 模板 
 

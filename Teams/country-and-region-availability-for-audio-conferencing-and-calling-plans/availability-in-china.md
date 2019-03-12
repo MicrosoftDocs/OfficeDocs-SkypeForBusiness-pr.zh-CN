@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 30fde7fa-fb2b-4e73-8217-bdd41bd38567
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是针对中国可用业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: d6943750bb673a3c2ece14d15e63a4ded8fd3858
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: fa2a73cfb3ae553dfae9d52b8f441c759ea904d6
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461513"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542988"
 ---
 # <a name="availability-in-china"></a>在中国的可用性
 

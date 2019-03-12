@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: c0cf7433-3abd-4618-8d3b-74d204caf3a7
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于菲律宾业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 766f6247419538158d35710c079f6788f94a4784
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b4421c88c0ac0ccb5c638abc446a46426de03ed5
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464481"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542468"
 ---
 # <a name="availability-in-the-philippines"></a>在菲律宾的可用性
 

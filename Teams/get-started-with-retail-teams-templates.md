@@ -1,34 +1,37 @@
 ---
-title: 零售工作组模板入门
+title: 在零售业工作组模板入门
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 02/01/2019
+ms.date: 03/11/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: phecda louie
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用工作组模板创建团队结构围绕零售商需求而设计。
+description: 了解如何使用工作组模板创建团队结构设计零售商需求。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e74a7d44709f93fd0ef74917e5fc21103d2a8bbd
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 4ee9ecf1a6db549a002c72f7eeea1e0a383ae966
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715434"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543012"
 ---
-# <a name="get-started-with-retail-teams-templates"></a>零售工作组模板入门 
+# <a name="get-started-with-teams-templates-in-retail"></a>在零售业工作组模板入门 
 
 工作组模板允许您快速和轻松创建团队提供的预定义的模板的设置、 通道和预安装的应用程序。
 
-零售工作组模板具有预建的团队结构围绕零售商需求而设计的定义。 零售工作组模板可用于快速创建适用于零售商并将它们部署在整个组织的团队的类型。 您还可以扩展零售工作组模板创建适合您组织的特定需求的团队。
+工作组模板具有预建的团队结构围绕零售商需求而设计的定义。 工作组模板可用于快速创建适用于零售商并将它们部署在整个组织的团队的类型。 您还可以扩展工作组模板创建适合您组织的特定需求的团队。
 
-本文中，我们将介绍每个零售工作组模板和我们建议使用它们。
+本文中，我们将介绍每个工作组模板和我们建议使用它们。
 
 本文适用于您，如果您是负责规划、 部署和管理多个团队整个组织零售。
 
@@ -36,7 +39,7 @@ ms.locfileid: "29715434"
 
 ## <a name="store-template"></a>存储模板
 
-零售工作组模板之一存储模板。 存储模板非常适合于创建团队表示单个零售存储位置。 使用存储模板时，可以创建您的组织中的每个零售店铺团队。
+存储模板非常适合于创建团队表示单个零售存储位置。 使用存储模板时，可以创建您的组织中的每个零售店铺团队。
 
 | 基本模板类型 | baseTemplateId | 此基本模板附带的属性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
@@ -47,11 +50,11 @@ ms.locfileid: "29715434"
 
 - 如果您的组织内每个存储有部门，添加为每个部门的通道。 这将有助于通信和部门的协作。
 
-- 如果您的组织有任何内部网站 （例如，SharePoint 网站），请考虑这些固定用作相关团队通道中的选项卡。 请参阅文档[此处](get-started-with-teams-templates.md)的说明。
+- 如果您的组织有任何内部网站 （例如，SharePoint 网站），请考虑这些固定用作相关团队通道中的选项卡。 有关说明，请参阅[入门工作组模板](get-started-with-teams-templates.md)。
 
 ## <a name="manager-collaboration-template"></a>管理器协作模板
 
-管理器协作模板是另一个零售工作组模板。 管理器协作模板非常适合于创建一组管理跨存储/区域/等进行协作的团队。例如，如果您的组织具有区域，您可能为加利福尼亚地区创建管理器协作工作组和包括在该区域中，所有存储区管理器，以及为该区域的区域管理器。
+另一个设计零售商周围的工作组模板需要的管理器协作模板。 管理器协作模板非常适合于创建一组管理跨存储/地区等协作的团队。例如，如果您的组织具有区域，您可能为加利福尼亚地区创建管理器协作工作组和包括在该区域中，所有存储区管理器，以及为该区域的区域管理器。
 
 | 基本模板类型 | baseTemplateId | 此基本模板附带的属性 |
 | ------------------ | -------------- | ----------------------------------------------------- |

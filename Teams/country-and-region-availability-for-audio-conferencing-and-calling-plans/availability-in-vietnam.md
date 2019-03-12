@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 86208bc1-fbf9-449e-913b-2e3654fc33e4
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于越南业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 89776a7e2c321ab5bdfc976e279c6d88749871b4
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: a27dfa6774d90cd54a1824e9af75601a2274ad8b
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463649"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541005"
 ---
 # <a name="availability-in-vietnam"></a>在越南的可用性
 

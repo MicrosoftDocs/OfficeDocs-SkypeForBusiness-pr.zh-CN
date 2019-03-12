@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 7ab4538a-3513-40c3-ad54-89067d2357d3
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于特立尼达和多巴哥业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: e73094ca77643da6f8cc55bc2ccd92e67eaa9da0
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 89c8ac47534ccc8097ecec6bd0ddcba25a60cb97
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465201"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541685"
 ---
 # <a name="availability-in-trinidad-and-tobago"></a>在特立尼达和多巴哥的可用性
 

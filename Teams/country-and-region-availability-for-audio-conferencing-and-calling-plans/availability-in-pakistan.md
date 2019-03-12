@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 2066d1f9-cbf6-411f-91bb-84d824b4325e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面巴基斯坦为提供了 Office 365 服务的业务和 Microsoft 团队的 Skype。
-ms.openlocfilehash: 7da611752f8591c95199abc11dbece28713dec8b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b54e12e9ba76d38ff6251bbf0bebb808e47a8f3f
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464217"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541029"
 ---
 # <a name="availability-in-pakistan"></a>在巴基斯坦的可用性
 

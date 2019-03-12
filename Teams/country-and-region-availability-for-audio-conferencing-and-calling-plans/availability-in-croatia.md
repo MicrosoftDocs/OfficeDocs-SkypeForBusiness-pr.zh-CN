@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 30a528ca-43bc-4e7f-81fe-3adc7d3d6acb
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于克罗地亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: c025000928b48e9ecfb2366add6f83ac1895c6c1
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 93005cc68bbd7f668b344dbf968c3ce42a67e114
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464081"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541205"
 ---
 # <a name="availability-in-croatia"></a>在克罗地亚的可用性
 

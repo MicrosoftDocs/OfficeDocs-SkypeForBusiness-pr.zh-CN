@@ -9,8 +9,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -21,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解有关电话系统可以为您执行的操作。 '
-ms.openlocfilehash: 61b11b12678eb2bbe5cd0d2d89add79d5249a7d6
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 3e008230a3237f5d4a92224a000aa8f8bb9af6ac
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30350897"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542126"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 中的电话系统是什么？
 
@@ -78,5 +76,5 @@ Office 365 中调用计划允许您搜索，获取，以及分配组织中用户
 - [Microsoft Teams 附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [管理组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [用于通话套餐的不同类型的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-- [获取适用于 Skype for Business Online 的电话](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
+- [获取适用于 Skype for Business Online 的手机](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
 

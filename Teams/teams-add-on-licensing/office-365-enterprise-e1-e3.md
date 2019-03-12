@@ -5,7 +5,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 MS.collection:
@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关加载项许可证、 功能和如何购买 Office 365 企业版 E1 和 E3 计划。 '
-ms.openlocfilehash: 552aaf7f9cc7970c8baa97ce183ada6d5eab26ad
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 853cc90b8c0e6a0a5fd42a104ae9c972437995d7
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460681"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541421"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 企业版 E1 和 E3
 

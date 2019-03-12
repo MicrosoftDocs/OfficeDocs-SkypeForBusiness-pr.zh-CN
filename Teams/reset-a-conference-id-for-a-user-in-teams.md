@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解在 Microsoft Teams 中重置用户的会议 ID 以及获取会议更新和迁移工具链接的步骤。 '
-ms.openlocfilehash: a33ccf71d683fc7ae55011f502eda5182ed40268
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: f5926d838d61d38eb5b8e9f840cd9d7a4694253f
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754702"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542844"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中重置用户的会议 ID
 
@@ -77,4 +75,4 @@ Windows PowerShell Office 365 的功能是管理用户以及允许或不允许�
     
 ## <a name="related-topics"></a>相关主题
 
-[重置 PIN 的音频会议](reset-the-audio-conferencing-pin-in-teams.md)
+[重置音频会议 PIN](reset-the-audio-conferencing-pin-in-teams.md)

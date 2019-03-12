@@ -5,7 +5,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 MS.collection:
@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 了解有关加载项许可证，哪些功能您将与每个许可证、 如何购买的产品，以及如何与他们使用您现有的运营商。 您可以获取 Office 365，通信字幕式定价和计划的详细信息和呼叫计划。
-ms.openlocfilehash: 6cf3b2a242a941c9a4352aa35afd1dcbe23c902c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5912ac5cf79f0db7aaf02fa4d8425d3da80a99bb
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460129"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543076"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams 附加许可
 
@@ -63,13 +63,13 @@ Microsoft 团队许可旨在为您提供的最大的灵活性量。 例如，使
 
 可对您的加载项许可选项取决于您的 Office 365 计划。 有关计划的特定信息、功能和选项，请参阅以下主题。
 
-- [Office 365 企业高级版](office-365-business-premium.md)
+- [Office 365 商业高级版](office-365-business-premium.md)
 - [Office 365 ProPlus](office-365-premium-pro-plus.md)
 - [Office 365 企业版 E1 或 E3](office-365-enterprise-e1-e3.md)
 - [Office 365 企业版 E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5（不含音频会议）](office-365-enterprise-e5-without-audio-conferencing.md)
-- [Skype 会议室系统第 2 版](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
-- [GOV、EDU 和非营利组织](gov-edu-and-nonprofit-organizations.md)
+- [Skype 会议室系统 v2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [GOV、EDU 和非营利性组织](gov-edu-and-nonprofit-organizations.md)
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>如何查看价格并购买附加许可证
 <a name="bkmk_how"> </a>

@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 66b75985-d7ba-4731-88d8-2d48719eb02c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于匈牙利业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 368513df292e64a90efa2e770b8fcf2439637938
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 226d7010c513367d20f990e89914d4cd6ef83ab3
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462874"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542117"
 ---
 # <a name="availability-in-hungary"></a>在匈牙利的可用性
 

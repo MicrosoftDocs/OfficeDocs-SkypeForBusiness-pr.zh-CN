@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何为业务 Online 到 Skype 中的用户分配的会议 ID 和会议 Id 参数应为。 '
-ms.openlocfilehash: 7996cc91bd9461f733f82da3eb01eeac7109604a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: eb7d42fa88c54b917e89eb97ce9f52bd03af4935
+ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883412"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30535956"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>查看和重置 Skype for Business Online​  中分配给用户的会议 ID
 
@@ -51,7 +51,7 @@ ms.locfileid: "23883412"
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. Go to the **Office 365 admin center** > **Skype for Business**.
 
 3. 在 **Skype for Business 管理中心**> **音频会议** > **用户**，选择需要会议 ID 的用户。
 
@@ -79,7 +79,7 @@ ms.locfileid: "23883412"
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. Go to the **Office 365 admin center** > **Skype for Business**.
 
 3. 在**业务管理中心的 Skype**> **音频会议** > **用户**，在**会议 ID**下的操作窗格中单击**重置**。
 
@@ -90,7 +90,7 @@ ms.locfileid: "23883412"
 可以通过使用 Windows PowerShell 重置用户的会议 ID。 若要执行此操作，请运行：
 
   ```
-  Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ResetConferenceID 8271964
+  Set-CsOnlineDialInConferencingUser -Identity "Amos Marble" -ResetConferenceID
   ```
 
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？

@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解如何设置和测试高效处理您的组织的呼叫的电话系统 (云 PBX) 自动助理。
-ms.openlocfilehash: f055a6851610bc2071e1705a4b5739544c5d72bd
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 83a59090e447a5bfbda4cf72481b9d6b1ce21a0e
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353295"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542316"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>设置电话系统自动助理
 
@@ -373,4 +371,4 @@ ms.locfileid: "30353295"
 
 [什么是电话系统自动助理？](what-are-phone-system-auto-attendants.md)
 
-[小型企业示例-设置的自动助理](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
+[小型企业示例 - 设置自动助理](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml)  

@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: f3107dfc-592e-4952-a451-921b89cd5d3f
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于乌克兰业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 3782b2333b1722ef182af913371791231b8d948b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: a6fb2b0c48756afdf594a9f2ae091ef6706e3530
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461481"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543092"
 ---
 # <a name="availability-in-the-ukraine"></a>在乌克兰的可用性
 

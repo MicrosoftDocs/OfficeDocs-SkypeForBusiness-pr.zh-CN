@@ -9,18 +9,21 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.audience: Admin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: 了解 Microsoft 团队以及如何使用它们 pin 应用程序自定义您的组织中的用户的工作组中的应用程序设置策略。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3e46f5ea50d3e9cdb1717838beec454cca05ba30
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: 6c88ba45aba076c6e26fe8bc16fd3643499a881b
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30302686"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541821"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -45,7 +48,7 @@ ms.locfileid: "30302686"
 
 ## <a name="create-a-custom-app-setup-policy"></a>创建自定义应用程序安装程序策略
 
-您可以使用的 Microsoft 团队管理中心或 Windows PowerShell 创建自定义策略。
+在管理中心内，Microsoft 团队可用于创建自定义策略。
 
 1. 在左窗格中的 Microsoft 团队管理中心，转到**团队应用程序** > **应用程序设置策略**。
 2. 选择**新策略**。

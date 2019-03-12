@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 在查找并获取组织的电话号码时，获取的电话号码会比已分配许可证的电话号码多。 但这取决于你已购买并分配的电话号码类型和许可证类型。 您可以单击不同种类的用于调用计划以找出有关业务 online Skype 中使用不同的电话号码的电话号码。
-ms.openlocfilehash: fa2a33086d832cc7d35afa6da59f431ebae47b19
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 9adedf15bbedda7aaf03645cf6eaa253e59eadc4
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352783"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542980"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>可以获得多少个电话号码？
 

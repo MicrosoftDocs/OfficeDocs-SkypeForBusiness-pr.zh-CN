@@ -1,14 +1,13 @@
 ---
-title: 共享的行中的 Microsoft 团队的外观
+title: Microsoft Teams 中的共享线路外观
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/13/2018
+ms.date: 02/19/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service:
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
@@ -20,14 +19,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 共享的行外观允许用户选择代理人应答或处理代表其拨打的呼叫。
-ms.openlocfilehash: 41c0eb9f740a7fa771769159fe4f560019293857
-ms.sourcegitcommit: f69b5dbdbd61f77ffc0494886516effe35a0c338
+ms.openlocfilehash: 0a110e18cb8a939870528d2700ec54103cf91a6e
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "27283757"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541693"
 ---
-# <a name="shared-line-appearance-in-microsoft-teams"></a>共享的行中的 Microsoft 团队的外观
+# <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams 中的共享线路外观
 
 共享的行外观是允许用户选择代理人应答或处理代表其拨打的呼叫委派功能的一部分。 此功能很有用，如果用户具有行政助理定期处理用户的呼叫。 在上下文中共享的行外观，管理器是某人人员授予要发起或接收呼叫代表自己的委托和代理人可以发起和接收代表别人呼叫。
 
@@ -43,6 +42,8 @@ ms.locfileid: "27283757"
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>配置委派和共享的行外观
 
 委派和共享的行外观是用户驱动的功能： 没有管理员设置配置。 有关如何使用该功能的信息，请参阅[共享与代理人的电话线路](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
+
+租户管理员应启用此功能**TeamsCallingPolicy AllowDelegation**设置，以便通过委派。
 
 ## <a name="shared-line-appearance-feature-availability"></a>共享行外观功能可用性
 

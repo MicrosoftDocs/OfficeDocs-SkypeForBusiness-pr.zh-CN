@@ -1,10 +1,10 @@
 ---
-title: 入门医疗保健机构的工作组模板
+title: 适合于医疗保健组织的 Teams 模板入门
 author: jambirk
 ms.author: jambirk
 manager: serdars
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
@@ -14,15 +14,15 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 入门医疗保健机构的工作组模板
-ms.openlocfilehash: fac7aa90d0fe7f1e6b3e1570378b78a50d321869
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+description: 适合于医疗保健组织的 Teams 模板入门
+ms.openlocfilehash: 68ab93ceca20f0d26c9dac0b5b65667835bd1203
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408280"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541661"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>入门医疗保健机构的工作组模板
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>适合于医疗保健组织的 Teams 模板入门
 
 Microsoft 团队模板允许您快速和轻松创建团队提供的预定义的模板的设置、 通道和预安装的应用程序。
 
