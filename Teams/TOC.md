@@ -674,16 +674,14 @@
 #### [通话质量仪表板中可用的维度和衡量指标](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [通话质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)
 
-
-
 ## Teams 教育版
 ### [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
 ### [面向教育版管理员的 Teams 资源](resources-teams-edu.md)
 ### [面向管理员的 Microsoft 教育版管理常见问题解答](plan-teams-governance-edu.md)
 
 ## 适合于一线工作者的 Teams
-### [Microsoft StaffHub 将停用](microsoft-staffhub-to-be-retired.md)
-### [在 Teams 中为组织管理 Shifts 应用](manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Microsoft StaffHub 将停用](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
+### [在 Teams 中为组织管理 Shifts 应用](teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Teams 零售模板入门](get-started-with-retail-teams-templates.md)
 
 ## [Microsoft 365 政府版计划 - GCC](plan-for-government-gcc.md)
@@ -694,7 +692,4 @@
 ### [Teams 的 PowerShell cmdlet 参考](https://docs.microsoft.com/powershell/module/teams)
 
 ## [Teams 开发人员文档](https://docs.microsoft.com/microsoftteams/platform)
-
-
-
 ## [在 Microsoft Teams 中获取帮助](get-help-in-microsoft-teams.md)
