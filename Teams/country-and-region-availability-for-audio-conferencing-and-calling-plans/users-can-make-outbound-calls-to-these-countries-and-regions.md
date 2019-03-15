@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark
-ms.topic: article
+ms.topic: reference
 ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 本主题包含所有用户可以发起出站调用，如果拥有调用规划国家/地区。
-ms.openlocfilehash: 1965e362114b98f2b41cf3f3efbf74fcab93a83c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 70c0a0631f4f01ab87ef185b96b6c3fb00b14e6e
+ms.sourcegitcommit: 13445200c9b2991d5a88c8e203048cd7d094382c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465097"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30645421"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>用户可以向这些国家和地区进行出站呼叫
 
@@ -63,16 +63,16 @@ ms.locfileid: "30465097"
 |不丹 |几内亚 |卢森堡 |荷属安德列斯群岛 |斯洛伐克 |赞比亚  |
 |玻利维亚 |圭亚那| |新喀里多尼亚 |斯洛文尼亚 |津巴布韦 |
 |波斯尼亚和黑塞哥维那 |海地 ||新西兰 |南非 | 
-|博茨瓦纳 |洪都拉斯 ||尼加拉瓜 |西班牙 |
-|巴西 |香港特别行政区 ||尼日尔 |斯里兰卡 | 
-|Bunei 达鲁萨兰 |匈牙利 ||尼日利亚 |圣皮埃尔和密克隆群岛 | 
-|保加利亚 |||北马里亚纳群岛 |苏丹 |
-|布基纳法索 |||挪威 |苏里南 |
-|柬埔寨 |||阿曼 |斯威士兰 | 
-|喀麦隆 ||||瑞典 |
-|加拿大 ||||瑞士 | 
-|佛得角 ||||阿拉伯叙利亚共和国 |
-|开曼群岛 |
+|博茨瓦纳 |洪都拉斯 ||尼加拉瓜 |南苏丹 |
+|巴西 |香港特别行政区 ||尼日尔 |西班牙 | 
+|Bunei 达鲁萨兰 |匈牙利 ||尼日利亚 |斯里兰卡 | 
+|保加利亚 |||北马里亚纳群岛 |圣皮埃尔和密克隆群岛 |
+|布基纳法索 |||挪威 |苏丹 |
+|柬埔寨 |||阿曼 |苏里南 | 
+|喀麦隆 ||||斯威士兰 |
+|加拿大 ||||瑞典 | 
+|佛得角 ||||瑞士 |
+|开曼群岛 ||||阿拉伯叙利亚共和国 |
 |中非共和国 |
 |智利 |
 |中国 |
