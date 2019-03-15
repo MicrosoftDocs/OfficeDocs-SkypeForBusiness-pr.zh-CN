@@ -1,10 +1,10 @@
 ---
-title: Office 365-规程的英国 （英国） 中的呼叫计划
+title: Office 365 中的通话套餐 - 英国行为准则
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
-ms.topic: article
+ms.topic: reference
 ms.assetid: 44c6c523-2cd8-43c5-a53c-e9c59489b9c6
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,14 +22,14 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: 74458d97735d678f827b1510f10969bcda407cb6
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 0973dab8afdbcfbeeb563694489a593e0029b212
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542996"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569428"
 ---
-# <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Office 365-规程的英国 （英国） 中的呼叫计划
+# <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Office 365 中的通话套餐 - 英国行为准则
 
 此代码适用于小型企业客户 （组织 10 名员工或更少） 在英国 （英国） 与 Office 365 调用规划服务 （"服务"） 按照英国 communications 法规。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
 
@@ -131,21 +131,21 @@ Skype for Business 会将高价位服务呼叫发送给另一家电话公司（"
 
 ### <a name="complaints"></a>投诉
 
-如果要向 PhonepayPlus 投诉某个服务提供商，可以在线或通过拨打电话免费提交质询：
+如果您希望投诉 PhonepayPlus 服务提供商，您可能免费、 提交查询，联机方式或通过电话：
 
-- 电话：0300 30 300 20（周一至周五上午 9:30 至下午 5:00）
+- 电话： 0300年 30 300 20 （到周五上午 9:30 — 下午 5 点星期一）
 
-- 在线质询：[http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
+- 联机查询：[http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
 
-### <a name="dispute-resolution"></a>争议解决
+### <a name="dispute-resolution"></a>争议解决方案
 
-如果你认为账单上收取的高价位服务费是 Skype for Business 的过失所致并希望进行退款，可以根据 Skype for Business 投诉处理准则提出投诉。如果你向 Skype for Business 提出投诉并且 (a) 该投诉在提交八 (8) 周后仍未解决或者 (b) 你收到了表明我们已做出最终决定的来信，你可以将投诉提交给 Ombudsman Services，它是经 Ofcom 批准的处理通信服务投诉的第三方机构。
+如果您认为您 bill 上您 Premium 速率服务费用费用已 Skype 业务的部件的错误和您希望退款，您可以为业务投诉处理代码文件根据 Skype 的投诉。 如果您投诉与 Skype 的业务和之一 （a） 投诉后未解决八 （8） 的哪几周提交或者 （b） 您收到来自我们指出，我们已到达最终决策，您可以参阅投诉 Ombudsman 服务字母即第三方批准 Ofcom 处理 communications 服务有关的投诉。
 
-## <a name="13-national-translation-services-personal-numbers-and-0870-numbers"></a>13 国内转换服务、个人号码和 0870 号码
+## <a name="13-national-translation-services-personal-numbers-and-0870-numbers"></a>13.国家/地区的翻译服务、 个人号码和 0870年号码
 
-国内转换服务是以 08 或 0500 开头的电话号码（免费电话号码），国家电话编号方案将其分类为"特殊服务号码"。个人号码带有 070 数字前缀。
+国家/地区的翻译服务是 08 或 0500 （免费电话号码） 开头和都属于"特殊服务号码"的国家/地区电话编号计划的电话号码。 个人号码的号码 070 与作为前缀。
 
-国内转换服务、个人号码和 0870 号码的费率在我们的[网站](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)上提供，费率会根据发起呼叫的时段和日期浮动。拨打 0800 号码是免费的。
+国家/地区的翻译服务、 个人号码和 0870年号码的率我们的[网站](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)上提供和可能波动根据日期和星期几进行呼叫的时间长短。 对 0800年号码的呼叫都可用。
 
 
 ## <a name="related-topics"></a>相关主题

@@ -11,10 +11,10 @@ ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 摘要： 业务服务器 Skype 的阶段 AV 和 OAuth 证书。
 ms.openlocfilehash: 9fd4074034e9bff6b27ed9a22143c59dc9890821
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "25375934"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>为业务服务器阶段中 Skype AV 和 OAuth 证书使用在 Set-cscertificate 中的滚动分期
@@ -85,10 +85,10 @@ A/V 身份验证服务负责颁发供客户端和其他 A/V 使用者使用的�
 |:-----|:-----|
 |1  <br/> |开始时间：2015 年 7 月 22 日上午 12:00:00  <br/> 当前 AudioVideoAuthentication 证书在 2015 年 7 月 22 日下午 2:00:00 到期。这由证书上的过期时间戳决定。规划证书替换和滚动，计入现有证书达到过期时间前的 8 小时重叠期（默认令牌生命周期）。上午 2:00:00 提前时间在本例中用来给管理员留出足够的时间，在上午 6:00:00 生效时间前放置和设置新证书。  <br/> |
 |2  <br/> |2015 年 7 月 22 日上午 2:00:00 - 2015 年 7 月 22 日上午 5:59:59  <br/> 有效时间 6:00:00 （4 小时提前期对于此示例，但可更长时间） 边缘服务器上设置证书使用 Set-cscertificate-类型\<证书使用类型\>-指纹\<新证书的指纹\>-滚动-EffectiveDate\<的新证书的有效时间的 datetime 字符串\>  <br/> |
-|3  <br/> |2015 年 7 月 22 日上午 6:00 - 2015 年 7 月 22 日下午 2:00  <br/> 为了验证令牌，首先尝试新证书，如果新证书未能验证令牌，则尝试旧证书。在 8 小时（默认令牌生命周期）重叠期内，此过程用于所有令牌。  <br/> |
-|4  <br/> |结束时间：2015 年 7 月 22 日下午 2:00:01  <br/> 旧证书过期，新证书接替旧证书。 可以使用删除 CsCertificate 安全删除旧证书-类型\<证书使用类型\>-以前  <br/> |
+|3  <br/> |2015 年 7 月 22 日上午 6:00 - 2015 年 7 月 22 日下午 2:00  <br/> 若要验证令牌，新证书将首先尝试，并如果新证书无法验证令牌，尝试旧的证书。 8 小时 （默认令牌生存期） 重叠期间使用的所有标记该过程。  <br/> |
+|4  <br/> |结束日期： 7/22/2015年 2:00:01 PM  <br/> 旧证书已过期，对所具有新的证书。 可以使用删除 CsCertificate 安全删除旧证书-类型\<证书使用类型\>-以前  <br/> |
    
-当达到生效时间（2015 年 7 月 22 日上午 6:00:00）时，新证书将颁发所有新令牌。 在验证令牌时，将首先根据新证书验证令牌。 如果验证失败，将尝试旧证书。 尝试新证书并回到旧证书的过程将一直继续下去，直到到达旧证书的到期时间。 旧证书到期后（2015 年 7 月 22 日下午 2:00:00），将只根据新证书验证令牌。 旧证书可安全删除使用删除 cmdlet 与-以前的参数。
+当达到有效时间 (7/22/2015年 6:00:00)，所有新令牌颁发由新的证书。 验证令牌时, 令牌将首先验证新的证书。 如果验证失败，则将尝试旧的证书。 尝试新和下降回原来的证书的过程将继续之前旧证书的到期时间。 一旦旧的证书已过期 (7/22/2015年 2:00:00)，新证书将仅验证令牌。 旧证书可安全删除使用删除 cmdlet 与-以前的参数。
 
 ```
 Remove-CsCertificate -Type AudioVideoAuthentication -Previous
@@ -100,9 +100,9 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
     
 2. 前端服务器上的现有证书的可导出私钥请求续订或新 OAuthTokenIssuer 证书。
     
-3. （如果您部署了一个池），新 OAuthTokenIssuer 证书导入前端池中服务器。 将全局复制 OAuthTokenIssuer 证书且只需在部署中的任何服务器更新和续订这些证书。 前端服务器用作示例。
+3. （如果您部署了一个池），新 OAuthTokenIssuer 证书导入前端池中服务器。 OAuthTokenIssuer 证书全局复制，并且仅需要更新并在您的部署中的任何服务器续订。 前端服务器用作示例。
     
-4. 使用 Set-cscertificate cmdlet 配置导入的证书和使用-Roll 参数和-EffectiveDate 参数。 生效日期应定义为当前证书到期时间（14:00:00 或 2:00:00 PM）减去至少 24 个小时。 
+4. 使用 Set-cscertificate cmdlet 配置导入的证书和使用-Roll 参数和-EffectiveDate 参数。 应定义的有效日期，为当前证书过期时间 (14: 00:00 或 2:00:00) 减去至少 24 小时。 
     
     Set-cscertificate 命令与-Roll 和-EffectiveTime 参数：
     
@@ -123,7 +123,7 @@ Set-CsCertificate 命令示例：
 > [!IMPORTANT]
 > EffectiveDate 必须要设置格式，以匹配您的服务器的区域和语言设置。 本例使用美国英语区域和语言设置 
   
-当到达生效时间（2015 年 7 月 21 日上午 1:00:00）时，新证书将颁发所有新令牌。 在验证令牌时，将首先根据新证书验证令牌。 如果验证失败，将尝试旧证书。 尝试新证书并回到旧证书的过程将一直继续下去，直到到达旧证书的到期时间。 旧证书到期后（2015 年 7 月 22 日下午 2:00:00），将只根据新证书验证令牌。 旧证书可安全删除使用删除 cmdlet 与-以前的参数。
+当达到有效时间 (7/21/2015年 1:00:00)，所有新令牌颁发由新的证书。 验证令牌时, 令牌将首先验证新的证书。 如果验证失败，则将尝试旧的证书。 尝试新和下降回原来的证书的过程将继续之前旧证书的到期时间。 一旦旧的证书已过期 (7/22/2015年 2:00:00)，新证书将仅验证令牌。 旧证书可安全删除使用删除 cmdlet 与-以前的参数。
 ```
 Remove-CsCertificate -Type OAuthTokenIssuer -Previous 
 ```
@@ -132,6 +132,6 @@ Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 
 [管理服务器到服务器身份验证 (OAuth) 和 Skype 中的业务服务器的合作伙伴应用程序](server-to-server-and-partner-applications.md)
 
-[Set-cscertificate](https://docs.microsoft.com/powershell/module/skype/set-cscertificate?view=skype-ps)
+[Set-CsCertificate](https://docs.microsoft.com/powershell/module/skype/set-cscertificate?view=skype-ps)
   
-[删除 CsCertificate](https://docs.microsoft.com/powershell/module/skype/remove-cscertificate?view=skype-ps)
+[Remove-CsCertificate](https://docs.microsoft.com/powershell/module/skype/remove-cscertificate?view=skype-ps)

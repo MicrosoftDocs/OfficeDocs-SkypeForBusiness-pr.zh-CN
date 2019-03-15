@@ -4,7 +4,7 @@ author: jambirk
 ms.author: jambirk
 manager: serdars
 ms.reviewer: kblevens, phlouie
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 description: 了解基于 AAD 的动态团队成员资格。
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 512ca6de74f5061976203b3467e7e17bdfe6a800
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 45e9da5b5bc9c1bb5800634d727bd6c9218812ab
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408272"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569827"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>团队的动态成员资格概述
 

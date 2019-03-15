@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 0bf506350a6e656d0143a968bcd0e884b47e5653
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: c5e9015bb13dd21ff503ac5767cce5b9704eef03
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120681"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633287"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的音频会议实践指导
 ============================================================
@@ -324,7 +324,7 @@ Office 365 中的音频会议服务包括：
 -   对会议桥接支持多种语言（主要和辅助）
 -   租户的默认电话号码
 
-有关包含的功能的完整说明，请参阅[为 Skype for Business 和 Microsoft Teams 设置音频会议](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)以及[用于音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)。
+包含功能的完整说明，请参阅[设置 Microsoft 团队的音频会议](set-up-audio-conferencing-in-teams.md)和[音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)。
 
 > [!NOTE]
 > 根据[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)中所述的适用许可证数量，专用会议网桥电话号码的数量不超过每个租户可以获取的电话号码限制。 免费电话会议桥接电话号码需要通信点数。
@@ -549,4 +549,4 @@ Office 365 的电话系统功能中的[拨号计划](https://docs.microsoft.com/
 <br>
 ## <a name="see-also"></a>另请参阅
 
-[设置 Skype for Business 和 Microsoft Teams 音频会议](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[设置 Microsoft 团队的音频会议](set-up-audio-conferencing-in-teams.md)

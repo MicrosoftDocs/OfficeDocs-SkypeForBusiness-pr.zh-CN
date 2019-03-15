@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 0dc3969f-2ca2-4fc3-991d-c951a4b6240f
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 这将帮助您了解如何拨号中每个国家/地区免费电话号码。 选择国家/地区后，它会将您导引到特定国家/地区的页面包含特定详细信息、 限制和免费电话服务可用性的限制的免费电话服务位于。 拨号格式将显示您拨免费电话号码每个国家/地区内所需的访问代码。
-ms.openlocfilehash: 25b596d8f27e8cf2f6b40c41a1380450380b7545
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 451b71f2a711d54dea75526d96359ed43e47dbbd
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463353"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569596"
 ---
 # <a name="toll-free-dialing-restrictions-in-cyprus"></a>塞浦路斯的免费拨号限制
 

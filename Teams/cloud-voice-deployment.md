@@ -4,7 +4,7 @@ author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 08/21/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: MyAdvisor
@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6d8057fa2cba1f14ed00eebebdb522144eb283d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 953c971c39bde9d112619fcaee145008c378f1a3
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458913"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568437"
 ---
 # <a name="cloud-voice-deployment"></a>云语音部署
 
-团队协作和 Office 365 中的通信的中心的 Microsoft 团队现已提供音频会议，调用计划，与电话系统和电话系统直接路由功能，以满足通过扩展团队会议的其他业务需求和包括通过公用电话交换网 (PSTN) 连接的外部组织的呼叫体验。
+作为 Office 365 中团队合作和沟通的中心的 Microsoft Teams 现在通过扩展 Teams 会议和通话体验以包含通过公用电话交换网 (PSTN) 连接的外部各方，提供了音频会议、具有通话套餐的电话系统以及电话系统直接路由功能，从而满足额外的业务需求。
 
 
 > [!Tip] 
@@ -44,7 +44,7 @@ Office 365 中的音频会议允许参与者从任何电话加入 Teams 会议�
 
 ## <a name="phone-system-with-calling-plans-calling-plans-in-microsoft-teams"></a>调用计划 （"计划"） 中调用的 Microsoft 团队的电话系统
 
-电话系统是一项 Office 365 功能，用于管理呼叫路由、策略和用户预配。 其中包括电话呼叫管理系统、呼叫路由和呼叫控制。
+电话系统是一个 Office 365 功能，能够进行呼叫路由、 策略和用户设置管理。 这包括电话呼叫管理系统、 呼叫路由和呼叫控制。
 
 调用计划是业务 online 传递通过团队和 Skype 的电话系统功能的加载项服务。 调用计划要求问题的用户将驻留在 Skype 业务 online 中的 Microsoft 团队工作。 呼叫计划在您的业务的人员提供一个主要电话号码，并允许其发起和接收与组织以外的电话呼叫通过 PSTN。
 
@@ -64,7 +64,7 @@ Office 365 中的音频会议允许参与者从任何电话加入 Teams 会议�
 > [!div class="mx-tableFixed"]
 > |展望  |上线  |推动价值  |
 > |---------|---------|---------|
-> |[定义我成功](1-envision-define-my-success-cloud-voice.md) <br> 使我服务决策 <br>&nbsp;&nbsp;[音频会议](2-envision-make-my-service-decisions-audio-conferencing.md)，<br>&nbsp;&nbsp;[调用计划](2-envision-make-my-service-decisions-phone-system.md)，或[直接路由](2-envision-make-my-service-decisions-direct-routing.md) <br> [评估我的环境](3-envision-evaluate-my-environment.md) <br> [规划我服务管理](4-envision-plan-my-service-management.md) <br> [规划我的用户体验](5-envision-plan-my-users-experience.md) <br> [文档我成功的计划](6-envision-document-my-success-plan.md)    | [准备我的服务](1-onboard-prepare-my-service.md) <br> [准备我的用户](2-onboard-prepare-my-users.md) <br> [部署我服务](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [运行我的服务](1-drive-value-operate-my-service.md) <br> [增强我的服务](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
+> |[定义成功](1-envision-define-my-success-cloud-voice.md) <br> 使我服务决策 <br>&nbsp;&nbsp;[音频会议](2-envision-make-my-service-decisions-audio-conferencing.md)，<br>&nbsp;&nbsp;[调用计划](2-envision-make-my-service-decisions-phone-system.md)，或[直接路由](2-envision-make-my-service-decisions-direct-routing.md) <br> [评估环境](3-envision-evaluate-my-environment.md) <br> [规划服务管理](4-envision-plan-my-service-management.md) <br> [规划我的用户体验](5-envision-plan-my-users-experience.md) <br> [记录成功计划](6-envision-document-my-success-plan.md)    | [准备服务](1-onboard-prepare-my-service.md) <br> [准备用户](2-onboard-prepare-my-users.md) <br> [部署服务](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [操作服务](1-drive-value-operate-my-service.md) <br> [增强服务](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
 
 内容已排序方式显示，旨在让您了解端到端部署旅程从开始到结束。 如果您正在主动已部署，我们仍建议您引用的适用的内容区域。
 

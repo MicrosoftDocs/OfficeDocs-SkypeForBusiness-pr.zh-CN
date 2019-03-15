@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 标准的音频会议的每用户许可证，除了使用 Microsoft 批量许可的组织还可以选择付薪每分钟版，若要为其组织的音频会议功能。
-ms.openlocfilehash: 5b2a194b999382e66db8c9a87d19594fbb4d6a3d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 72083c7c312382b5288293cbe1223594f3053455
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464409"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569715"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音频会议按分钟付费
 
@@ -61,9 +61,9 @@ ms.locfileid: "30464409"
 
  **正在搜索价格？** 请参阅[如何查看价格和购买附加许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how)或下列选项之一：
   
-- [音频会议的定价](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
+- [为音频会议定价](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
     
-- [电话系统的定价](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
+- [定价电话系统](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
     
 - [通话套餐的定价](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
     

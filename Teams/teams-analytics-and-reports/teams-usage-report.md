@@ -3,7 +3,7 @@ title: Microsoft Teams 使用情况报告
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 01/11/2019
+ms.date: 03/12/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 description: 了解如何使用中的 Microsoft 团队管理中心团队使用情况报告您的组织中获取团队活动的概述。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d013073402de29fc586b14c9cc3bd5ab336d3086
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0307d0b0d8c0d2501aa8f61693c4c9c01d30cc07
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463105"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569931"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams 使用情况报告
 
@@ -50,5 +50,5 @@ Microsoft 团队管理中心中的团队使用率报告为您提供了概述使�
 
 ## <a name="related-topics"></a>相关主题
 - [团队分析和报告](teams-reporting-reference.md)
-- [团队用户活动报告](user-activity-report.md)
-- [团队设备使用情况报告](device-usage-report.md)
+- [Teams 用户活动报告](user-activity-report.md)
+- [Teams 设备使用报告](device-usage-report.md)

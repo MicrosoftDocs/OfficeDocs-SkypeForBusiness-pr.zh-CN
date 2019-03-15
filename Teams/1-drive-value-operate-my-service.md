@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 04/12/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ description: 任务和所需的团队服务管理，包括监视服务运行状�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc4dbb59b5346286b10b8a146b96c2b1f5dbc40e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cbf0da1cab0f350b9abc7b01e6583e54a996c687
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459153"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569476"
 ---
-# <a name="operate-my-service"></a>运行我的服务
+# <a name="operate-my-service"></a>操作服务
 
 这篇文章概述用于成功操作为您的组织的云语音服务的要求。 通过进行正确操作云语音服务，您可以确保您正在为组织提供高质量、 可靠地体验。
 
@@ -400,7 +400,7 @@ NPS 是一个索引，为 100，介于-100 度量客户的通信意愿建议公�
 
 [上载构建信息](turning-on-and-using-call-quality-dashboard.md#upload-building-information)
 
-[查看用户体验指南的质量](https://aka.ms/qerguide)
+[体验质量检查指南](https://aka.ms/qerguide)
 
 <!--ENDOFSECTION-->
 
@@ -473,7 +473,7 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 
 <!--ENDOFSECTION-->
 
-## <a name="manage-teams"></a>管理团队
+## <a name="manage-teams"></a>管理 Teams
 
 已部署的 Microsoft 团队服务后，您需要执行与其管理相关的多个活动。 从管理服务和单独的用户容量规划和设置的许可和电话号码活动区域中。 以下各节介绍其中一些常见管理任务。
 
@@ -496,7 +496,7 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 
 [为用户分配或更改紧急地址](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user)
 
-[添加、更改或删除你的组织的紧急位置](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
+[为你的组织添加、更改或删除紧急位置](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
 
 [创建并管理拨号计划](create-and-manage-dial-plans.md)
 
@@ -504,11 +504,11 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 
 [更改音频会议网桥的设置](change-the-settings-for-an-audio-conferencing-bridge.md)
 
-[更改音频会议网桥的电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
+[更改音频会议网桥中的电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 
 [管理用户的音频会议设置](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-[重置 PIN 的音频会议](reset-the-audio-conferencing-pin-in-teams.md)
+[重置音频会议 PIN](reset-the-audio-conferencing-pin-in-teams.md)
 
 ### <a name="license-management"></a>许可证管理
 
@@ -547,7 +547,7 @@ Communications 字幕式可以补充调用规划和音频会议的许可证。 �
 
 <!--ENDOFSECTION-->
 
-## <a name="quality-of-experience-review-guide"></a>查看用户体验指南的质量
+## <a name="quality-of-experience-review-guide"></a>体验质量检查指南
 
 [质量体验审阅指南](https://aka.ms/qerguide)包含一组活动的评估，并提供对影响在改善用户体验，最大，如下所示的主要区域中的补救指南。
 

@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: '获取所需更改用于提示呼叫者和它们不使用 Skype 业务或 Microsoft 团队的应用程序时收集名称和 pin 的会议组织者的会议桥的设置的步骤。 '
-ms.openlocfilehash: 04ad6cfe3de9b4549db6382fe790b7fb8c644fc7
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 2f3f08254409086ee99b3c5f60d243f893fff4e6
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494194"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633230"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议网桥的设置
 
@@ -134,4 +134,6 @@ ms.locfileid: "30494194"
   
 ## <a name="related-topics"></a>相关主题
 
-[设置音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[设置 Microsoft 团队的音频会议](set-up-audio-conferencing-in-teams.md)
+
+[为 Skype 的音频会议设置业务 online](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

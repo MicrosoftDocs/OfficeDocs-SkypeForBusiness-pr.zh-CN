@@ -12,10 +12,10 @@ ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 摘要： 安装和配置观察程序节点的 Skype Business Server 综合事务。
 ms.openlocfilehash: 6719826515954290f30eac272f638b846f45142a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "25375984"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>安装和配置观察程序节点
@@ -38,7 +38,7 @@ ms.locfileid: "25375984"
 |:-----|:-----|
 |Test-CsAddressBookService (ABS)  <br/> |确保用户能够查找不在其联系人列表中的用户。  <br/> |
 |Test-CsAddressBookWebQuery (ABWQ)  <br/> |确保用户能够查找不在其联系人列表中通过 HTTP 的用户。  <br/> |
-|Test-csavconference (AvConference)  <br/> |确认用户能够创建和参与音频/视频会议。  <br/> |
+|Test-CsAVConference (AvConference)  <br/> |确认用户能够创建和参与音频/视频会议。  <br/> |
 |Test-CsGroupIM (IM Conferencing)  <br/> |确认用户能够在会议中发送即时消息并且可参与三个或三个以上的人员组成的即时消息对话。  <br/> |
 |Test-CsIM (P2P IM)  <br/> |确认用户能够发送对等即时消息。  <br/> |
 |Test-CsP2PAV (P2PAV)  <br/> |确认用户能够发出对等音频呼叫（仅信号）。  <br/> |
@@ -46,18 +46,18 @@ ms.locfileid: "25375984"
 |Test-CsRegistration (Registration)  <br/> |确保用户能够登录到 for Business 的 Skype。  <br/> |
 |Test-CsPstnPeerToPeerCall (PSTN)  <br/> |确认用户能够向企业外部人员发出呼叫以及接收其发出的呼叫（PSTN 号码）。  <br/> |
 |Test-CsASConference (ASConference)  <br/> |确认用户能够创建和参与应用程序共享会议。  <br/> |
-|Test-csavedgeconnectivity (AVEdgeConnectivity)  <br/> |确认音频视频边缘服务器能够接受对等呼叫和会议呼叫的连接。  <br/> |
-|Test-csdataconference (DataConference)  <br/> |确认用户可参与数据协作会议（包含白板和投票等活动的联机会议）。  <br/> |
-|Test-csdialinconferencing (DialinConferencing)  <br/> |确认用户能够拨打电话号码加入会议。  <br/> |
-|Test-csdialinconferencing (DialinConferencing)  <br/> |确认用户能够拨打电话号码加入会议。  <br/> |
-|Test-csexumconnectivity (ExumConnectivity)  <br/> |确认用户可以连接到 Exchange 统一消息 (UM)。  <br/> |
+|Test-CsAVEdgeConnectivity (AVEdgeConnectivity)  <br/> |确认音频视频边缘服务器能够接受对等呼叫和会议呼叫的连接。  <br/> |
+|Test-CsDataConference (DataConference)  <br/> |确认用户可参与数据协作会议（包含白板和投票等活动的联机会议）。  <br/> |
+|Test-CsDialinConferencing (DialinConferencing)  <br/> |确认用户能够拨打电话号码加入会议。  <br/> |
+|Test-CsDialinConferencing (DialinConferencing)  <br/> |确认用户能够拨打电话号码加入会议。  <br/> |
+|Test-CsExumConnectivity (ExumConnectivity)  <br/> |确认用户可以连接到 Exchange 统一消息 (UM)。  <br/> |
 |Test-csgroupim TestJoinLauncher (JoinLauncher)  <br/> |确认用户能够创建并加入计划的会议（通过 Web 地址链接）。  <br/> |
 |Test-CsMCXP2PIM (MCXP2PIM)  <br/> |确认移动设备用户能够注册和发送即时消息。  <br/> |
-|测试 CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |确认视频互操作服务器已启动，可以通过视频的 SIP 中继处理传入连接。  <br/> **注意：** MCX 旧的移动客户端支持不再可用的业务服务器 2019 Skype 中。 |
-|Test-cspersistentchatmessage (PersistentChatMessage)  <br/> |确认用户可使用持久聊天服务交换消息。  <br/> |
-|Test-csucwaconference (UcwaConference)  <br/> |确认用户可通过 Web 加入会议。  <br/> |
-|Test-csunifiedcontactstore (UnifiedContactStore)  <br/> |确认可通过统一的联系人存储库访问用户的联系人。 统一联系人存储库提供了一种方法来维护一组可访问的业务服务器 2015年、 Outlook 消息和协作客户端和/或 Outlook Web Access 使用 Skype 联系人的用户。  <br/> |
-|Test-csxmppim (XmppIM)  <br/> |确认可通过可扩展消息传递和状态协议 (XMPP) 网关发送即时消息。  <br/> XMPP 网关和代理中的业务服务器 2015 Skype 可用，但业务服务器 2019年不再支持在 Skype。  |
+|Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |确认视频互操作服务器已启动，可以通过视频的 SIP 中继处理传入连接。  <br/> **注意：** MCX 旧的移动客户端支持不再可用的业务服务器 2019 Skype 中。 |
+|Test-CsPersistentChatMessage (PersistentChatMessage)  <br/> |确认用户可使用持久聊天服务交换消息。  <br/> |
+|Test-CsUcwaConference (UcwaConference)  <br/> |确认用户可通过 Web 加入会议。  <br/> |
+|Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |确认可通过统一的联系人存储库访问用户的联系人。 统一联系人存储库提供了一种方法来维护一组可访问的业务服务器 2015年、 Outlook 消息和协作客户端和/或 Outlook Web Access 使用 Skype 联系人的用户。  <br/> |
+|Test-CsXmppIM (XmppIM)  <br/> |确认可通过可扩展消息传递和状态协议 (XMPP) 网关发送即时消息。  <br/> XMPP 网关和代理中的业务服务器 2015 Skype 可用，但业务服务器 2019年不再支持在 Skype。  |
 
 不需要安装观察程序节点以使用 System Center Operations Manager。 如果未安装这些节点，您仍可以获取实时通知从 Skype 业务服务器 2015年组件时出现问题。 （的组件和用户管理包不使用观察程序节点。）但是，观察程序节点是必需的如果您想要使用的主动监控管理包监视的端到端方案。
   
@@ -153,8 +153,8 @@ MaximumLogonAttempts :
   
 ||**说明**|**支持的位置**|
 |:-----|:-----|:-----|
-|TrustedServer  <br/> |使用证书可模拟内部服务器并绕过身份验证质询。  <br/> 这对于喜欢在每个观察程序节点管理单个证书而不是多个用户密码的管理员来说很有用。  <br/> |企业内部。  <br/> 采用这种方法时，观察程序节点必须与要监控的池位于同一个域中。如果观察程序节点与池在不同的域中，请改用凭据身份验证。  <br/> |
-|Negotiate  <br/> |将用户名和密码安全地存储在每个观察程序节点的 Windows 凭据管理器中。  <br/> 此模式需要更多密码管理，但它是企业外部的观察程序节点的唯一选择。不能将这些观察程序节点视为经过身份验证的受信任终结点。  <br/> |企业外部。  <br/> 企业内部。  <br/> |
+|TrustedServer  <br/> |使用证书可模拟内部服务器并绕过身份验证质询。  <br/> 这对于喜欢在每个观察程序节点管理单个证书而不是多个用户密码的管理员来说很有用。  <br/> |企业内部。  <br/> 采用这种方法时，观察程序节点必须与要监控的池位于同一个域中。 如果观察程序节点与池在不同的域中，请改用凭据身份验证。  <br/> |
+|Negotiate  <br/> |将用户名和密码安全地存储在每个观察程序节点的 Windows 凭据管理器中。  <br/> 此模式需要更多密码管理，但它是企业外部的观察程序节点的唯一选择。 不能将这些观察程序节点视为经过身份验证的受信任终结点。  <br/> |企业外部。  <br/> 企业内部。  <br/> |
    
 ## <a name="configure-a-watcher-node-to-use-trusted-server-authentication"></a>配置观察程序节点以使用受信任的服务器身份验证
 <a name="enable_synthetic_trans"> </a>

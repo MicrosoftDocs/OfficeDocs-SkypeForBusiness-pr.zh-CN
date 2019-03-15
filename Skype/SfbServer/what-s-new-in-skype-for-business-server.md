@@ -3,7 +3,7 @@ title: Skype for Business Server 2015 中的新增功能
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2018
+ms.date: 12/20/2017
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: 摘要： 阅读此主题以了解业务服务器 2015 Skype 中的新功能。 有关新的客户端体验的详细信息，请参阅 Lync 现 for Business 的 Skype--请参阅 what's new。
-ms.openlocfilehash: 9c5dd3996cb6c15de93b564fa800e01270d92b66
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e1ae2a046b955e83ccc7c811984a526c26f7c526
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21012449"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "24961027"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的新增功能
 
@@ -48,7 +48,7 @@ Skype 的业务服务器 2015年改善了语音和视频功能，包括呼叫数
   
 ### <a name="call-data-collection-and-analysis"></a>呼叫数据收集与分析
 
-速率我呼叫功能允许 Skype 业务服务器 2015年管理员收集呼叫数据。 这项功能仅适用于内部部署。 在呼叫完成后，系统将提示用户参与调查。 有关详细信息，请参阅[速率我的呼叫中的业务服务器 2015 Skype](manage/health-and-monitoring/rate-my-call.md)。
+速率我呼叫功能允许 Skype 业务服务器 2015年管理员收集呼叫数据。 这项功能仅适用于内部部署。 在呼叫完成后，系统将提示用户参与调查。 如需了解详细信息，请参阅 [Rate my Call in Skype for Business Server 2015](manage/health-and-monitoring/rate-my-call.md)。
   
 ### <a name="improved-interoperability-with-third-party-video-teleconferencing-systems"></a>与第三方视频电话会议系统的更好互操作性
 
@@ -100,14 +100,14 @@ Skype 的业务服务器 2015年提供了几种新功能，以提高可管理性
 
 为业务服务器 2015 使用新的就地升级功能，它使用现有的 Lync Server 2013 硬件和服务器投资，从而减少了部署业务服务器 2015 Skype 的总成本中，现在可以将对 Lync Server 2013 系统升级到 Skype。
   
-就地升级有两种情景：无需停机的移动用户方法和需要停机的脱机方法。 有关哪些升级过程适合您的业务的详细信息，请参阅[计划升级到业务服务器 2015年的 Skype](plan-your-deployment/upgrade.md)。 
+就地升级有两种情景：无需停机的移动用户方法和需要停机的脱机方法。 有关哪种升级过程最适合您的企业的详细信息，请参阅 [Plan to upgrade to Skype for Business Server 2015](plan-your-deployment/upgrade.md)。 
   
 > [!NOTE]
 > 就地选项不可用，如果您要从 Lync Server 2010 升级。 有关从 Lync Server 2010 升级的详细信息，请参阅[计划升级到业务服务器 2015年的 Skype](plan-your-deployment/upgrade.md)。 
   
 ### <a name="smart-setup"></a>智能设置
 
-能够自动检测和下载更新的智能设置功能现已纳入安装程序。 在安装过程中，则询问用户应检查更新的安装过程。 有关详细信息，请参阅[安装的业务服务器 2015年的 Skype](deploy/install/install.md)。
+能够自动检测和下载更新的智能设置功能现已纳入安装程序。 在安装过程中，则询问用户应检查更新的安装过程。 如需了解详细信息，请参阅 [Install Skype for Business Server 2015](deploy/install/install.md)。
   
 ### <a name="improved-front-end-server-patching-and-upgrade-process"></a>改进的前端服务器修补和升级过程
 
@@ -127,7 +127,7 @@ Skype 的业务服务器 2015年添加为 SQL Server AlwaysOn 可用性组和 SQ
   
 SQL Server 故障转移群集实例利用 Windows Server 故障转移群集 (WSFC) 功能，以提供冗余服务器实例级别通过本地高可用性，故障转移群集实例 (FCI)。 FCI 是安装在 Windows Server 故障转移群集 (WSFC) 节点以及可能的跨多个子网的 SQL Server 的单个实例。
   
-有关详细信息，请参阅[规划高可用性和灾难恢复的业务服务器 2015 Skype 中](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
+有关详细信息，请参阅[Plan for high availability and disaster recovery in Skype for Business Server 2015](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
   
 ### <a name="centralized-logging-and-troubleshooting-improvements-for-on-premises-servers"></a>内部服务器的集中日志和故障排除改进
 

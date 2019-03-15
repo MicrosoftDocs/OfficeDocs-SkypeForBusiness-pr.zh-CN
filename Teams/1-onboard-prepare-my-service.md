@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 09/11/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 203a819eb3732d37aa65f92372eb21ffd59aea08
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 8ede6bb8d63a53ccd636bb9881d60e521492afb8
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462065"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568453"
 ---
-# <a name="prepare-my-service"></a>准备我的服务
+# <a name="prepare-my-service"></a>准备服务
 
 本文概述了准备云的组织的语音服务的要求。 通过正确准备，您可以确保您已准备好提供语音功能延伸到您的组织的云。
 
@@ -112,9 +112,9 @@ ms.locfileid: "30462065"
 
 有关其他信息，请参阅：
 
-- [音频会议技术规划](audio-conferencing.md#technical-planning-for-audio-conferencing)
+- [技术规划音频会议](audio-conferencing.md#technical-planning-for-audio-conferencing)
 
-- [设置音频会议 for Skype Business 和 Microsoft 团队](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+- [设置 Microsoft 团队的音频会议](set-up-audio-conferencing-in-teams.md)
 
 - [技术规划调用计划的电话系统](calling-plan-landing-page.md)
 

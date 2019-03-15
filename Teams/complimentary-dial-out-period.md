@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, OscarR
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: 根据 Skype for Business Online PSTN 服务使用条款和客户的批量授权，客户可以使用 Office 365 通话套餐和 Office 365 音频会议。
-ms.openlocfilehash: 95913132b75eee1a7641c3dd590f44a81efef376
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 37e42cfe15e592822286936f6a0994cb9862d5b2
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463081"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569635"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音频会议免费拨出期
 

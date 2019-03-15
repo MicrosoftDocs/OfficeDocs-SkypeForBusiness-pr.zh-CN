@@ -13,12 +13,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: 了解如何配置 Microsoft 电话系统直接路由。
-ms.openlocfilehash: 4e117cd7e8bdde34a4982408052a1a61aedd00d7
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 5c2d90ccb88c0e654239ec02a5780778a7db6bbe
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353479"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569779"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -105,14 +105,14 @@ Enabled               : True
 |必填？|名称|描述|默认值|可能的值|类型和限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |是|FQDN|SBC 的 FQDN 名称 |无|NoneFQDN 名称，限制 63 个字符|字符串，在[Active Directory 中的计算机、 域、 站点和 Ou 中的命名约定](https://support.microsoft.com/help/909264)的允许和禁止字符的列表|
-|否|MediaBypass |参数留作将来使用。 参数指示的 SBC 支持媒体绕过功能，管理员希望使用它。|无|True<br/>False|布尔值|
+|否|MediaBypass |参数留作将来使用。 参数指示的 SBC 支持媒体绕过功能，管理员希望使用它。|无|True<br/>False|Boolean|
 |是|SipSignallingPort |用于与直接路由服务通信使用的传输层安全性 (TLS) 协议的侦听端口。|无|任何端口|0 到 65535 |
-|否|FailoverTimeSeconds |如果设置为 10 （默认值），在 10 秒内未应答，网关的出站呼叫路由至下一个可用中继;如果不有任何其他的中继，则自动丢弃该呼叫。 在网络和网关响应较慢的组织中，这可能会导致不必要地放弃一些呼叫。 默认值为 10。| 10|数字|Int|
-|否|ForwardCallHistory |指示是否通过中继转移呼叫历史记录信息。 如果启用，Office 365 PSTN 代理发送两个标头： 历史记录信息和推荐者。 默认值为**False** ($False)。 |False|True<br/>False|布尔值|
-|否|ForwardPAI|指示 P-Asserted-Identity (PAI) 标头是否随呼叫一起转移。 PAI 标头提供了一种验证呼叫者身份的方法。 默认值为**False** ($False)。|False|True<br/>False|布尔值|
-|否|SendSIPOptions |定义如果 SBC 将或将不会发送 SIP 选项。 如果禁用，将从监控和警报系统中排除 SBC。 我们强烈建议您启用 SIP 选项。 默认值为**True**。 |True|True<br/>False|布尔值|
+|否|FailoverTimeSeconds |如果设置为 10 （默认值），在 10 秒内未应答，网关的出站呼叫路由至下一个可用中继;如果不有任何其他的中继，则自动丢弃该呼叫。 在网络和网关响应较慢的组织中，这可能会导致不必要地放弃一些呼叫。 默认值为 10。|10|数字|Int|
+|否|ForwardCallHistory |指示是否通过中继转移呼叫历史记录信息。 如果启用，Office 365 PSTN 代理发送两个标头： 历史记录信息和推荐者。 默认值为**False** ($False)。 |False|True<br/>False|Boolean|
+|否|ForwardPAI|指示 P-Asserted-Identity (PAI) 标头是否随呼叫一起转移。 PAI 标头提供了一种验证呼叫者身份的方法。 如果启用了隐私： ID 还会发送标头。 默认值为**False** ($False)。|False|True<br/>False|Boolean|
+|否|SendSIPOptions |定义如果 SBC 将或将不会发送 SIP 选项。 如果禁用，将从监控和警报系统中排除 SBC。 我们强烈建议您启用 SIP 选项。 默认值为**True**。 |True|True<br/>False|Boolean|
 |否|MaxConcurrentSessions |使用警报系统。 90%的并发会话数时警报系统时设置的任何值，将生成向租户管理员警报或高于此值。 如果未设置参数，则不会生成通知。 但是，监视系统将报告并发会话每 24 小时的数。 |Null|Null<br/>1 至 100,000 ||
-|否|启用 *|用于启用出站呼叫的此 SBC。 可用于时正在更新或维护期间中临时删除 SBC。 |False|True<br/>False|布尔值|
+|否|启用 *|用于启用出站呼叫的此 SBC。 可用于时正在更新或维护期间中临时删除 SBC。 |False|True<br/>False|Boolean|
  
 ### <a name="verify-the-sbc-pairing"></a>验证 SBC 配对 
 

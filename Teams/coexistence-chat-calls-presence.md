@@ -3,21 +3,23 @@ title: 与 Skype for Business 共存
 author: jambirk
 ms.author: francoid
 manager: Serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: francoid
-description: 本文档介绍了基于分配 TeamsUpgrade 模式的聊天、 呼叫路由和团队的用户和业务，在租户和联盟的 Skype 之间的状态的行为。 它包括路由优化、 状态行为，以及从*旧**群岛*到默认 TeamsUpgrade 模式的更改和*旧*即将退休。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7dee2921e6458c797a09f5b3fa78118992766b2
-ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
+description: 本文档介绍了基于分配 TeamsUpgrade 模式的聊天、 呼叫路由和团队的用户和业务，在租户和联盟的 Skype 之间的状态的行为。 它包括路由优化、 状态行为，以及从*旧**群岛*到默认 TeamsUpgrade 模式的更改和*旧*即将退休。
+ms.openlocfilehash: c6343b7f62249dab6e02c1e42fce1cc567f5035a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29786396"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569707"
 ---
 # <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 共存
 

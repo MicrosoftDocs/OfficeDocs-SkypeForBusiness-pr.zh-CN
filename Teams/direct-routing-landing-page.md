@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.date: 01/28/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
@@ -14,21 +14,20 @@ search.appverid: MET150
 F1keywords: ms.teamsadmincenter.directrouting.overview
 description: 直接路由登陆页面
 appliesto: Microsoft Teams
-ms.openlocfilehash: b8f7840b981b67f941598638b2624de0cd512b8c
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 5710ddd2c3715f0cfd1e4b1ca5b45058c9741e18
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494058"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569859"
 ---
 # <a name="phone-system-direct-routing"></a>电话系统直接路由
 
 你已完成了[入门](get-started-with-teams-quick-start.md)。 你已在整个组织中部署了具有[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)的 Teams。 也许您已经部署了[会议 & 会议](deploy-meetings-microsoft-teams-landing-page.md)。 现在已准备好添加云语音工作负荷，并已决定要使用电话系统直接路由电话运营商用于公共公用电话交换网 (PSTN) 连接。 直接路由中，您可以使用电话系统与几乎任何电话运营商。
 
-本文介绍数据直接路由以及其他注意事项核心部署决策可能想要配置，根据组织的需要。  有关 Microsoft 云语音产品的详细信息，您还应阅读[Microsoft 团队中的云语音功能](cloud-voice-landing-page.md)。
+本文介绍数据直接路由以及其他注意事项核心部署决策可能要考虑的事项，根据组织的需要。 有关 Microsoft 云语音产品的详细信息，您还应阅读[Microsoft 团队中的云语音功能](cloud-voice-landing-page.md)。
 
 ## <a name="learn-more-about-direct-routing"></a>了解有关直接路由的详细信息
-
 
 下面的文章提供有关配置和使用电话系统直接路由的详细信息。 配置直接路由需要了解 PSTN 路由设计。 您应阅读这些文章以了解如何规划和配置直接路由中的所有：
 
@@ -47,7 +46,6 @@ ms.locfileid: "30494058"
 ## <a name="core-deployment-decisions"></a>核心部署决策
 
 这些是要考虑的直接路由中的核心决策。 
-
 
 |询问你自己|操作 |
 | :------------|:-------|

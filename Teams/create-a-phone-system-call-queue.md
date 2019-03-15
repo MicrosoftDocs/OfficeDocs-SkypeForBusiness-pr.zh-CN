@@ -20,17 +20,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 3ac506f62f7b6dad35b9b1ec04fe2ffe2d612061
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: 了解如何设置 Office 365 (云 PBX) 呼叫队列以获得组织问候语、保持音乐和将呼叫重定向到通讯组列表和安全组中的呼叫代理。还可以设置最大队列大小、超时和呼叫处理选项。
+ms.openlocfilehash: f22b840bfde011937305732e61748d8a1feae390
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543044"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633271"
 ---
 # <a name="create-a-phone-system-call-queue"></a>创建电话系统呼叫队列
 
-队列包括问候语有人呼叫您的组织、 能够自动将呼叫置于保持状态，和搜索处理该呼叫的人员时的下一个可用呼叫代理的功能电话号码时所使用的电话系统呼叫者保留音乐侦听呼叫。 您可以为组织创建单个或多个呼叫的队列。
+Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
   
 电话系统呼叫队列可提供：
   
@@ -55,14 +55,14 @@ ms.locfileid: "30543044"
 > [!NOTE]
 > 本文同时适用于 Microsoft 团队和 Skype 业务 online。
 
-## <a name="step-1---getting-started"></a>第 1 步 - 开始
+## <a name="step-1---get-started"></a>步骤 1-开始
 
 要开始使用呼叫队列，记住以下几点至关重要：
   
-- 企业版 E3 以及**电话系统**的许可证或企业 E5 许可证，您的组织必须 （最低要求）。 已分配的**电话系统**用户许可证数量影响服务号码可用于呼叫的队列数。 您可以呼叫队列数是取决于您的组织中分配的**电话系统**和**音频会议**的许可证数量。 若要了解有关授权的详细信息，请参阅[业务和 Microsoft 团队授权加载项的 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+- 企业版 E3 以及**电话系统**的许可证或企业 E5 许可证，您的组织必须 （最低要求）。 已分配的**电话系统**用户许可证数量影响服务号码可用于呼叫的队列数。 您可以呼叫队列数是取决于您的组织中分配的**电话系统**和**音频会议**的许可证数量。 若要了解有关授权的详细信息，请参阅[Business 加载项授权的 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)或[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
     > [!NOTE]
-    > 要重定向呼叫的人员在组织中联机，它们必须具有**电话系统**许可证和启用了企业语音或其 Office 365 调用计划。 请参阅[业务和 Microsoft 团队许可证分配 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。 要为他们启用企业语音，可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > 要重定向呼叫的人员在组织中联机，它们必须具有**电话系统**许可证和启用了企业语音或其 Office 365 调用计划。 请参阅[业务许可证分配 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)或[分配 Microsoft 团队许可证](assign-teams-licenses.md)。 要为他们启用企业语音，可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - 若要了解有关 Office 365 通话套餐的详细信息，请参阅 [Office 365 中有哪些通话套餐？](what-are-calling-plans-in-office-365.md) 和 [Office 365 的通话套餐](calling-plans-for-office-365.md)。
 
@@ -80,7 +80,7 @@ ms.locfileid: "30543044"
 
   - Lync 桌面客户端 2013（32 位和 64 位版本）
 
-  - 支持的 Microsoft 团队的所有 IP 电话型号。 请参阅[获取适用于 Skype for Business Online 的电话](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)。
+  - 支持的 Microsoft 团队的所有 IP 电话型号。 请参阅[获取适用于 Skype for Business Online 的电话](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)。
 
   - Mac Skype for Business 客户端（版本 16.8.196 及更高版本）
 
@@ -100,7 +100,7 @@ ms.locfileid: "30543044"
 
 ## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>第 2 步 - 获取或转移收费或免费服务电话号码
 
-在创建和设置呼叫队列之前，您需要获取或转移现有的收费或免费服务号码。 获得收费电话或免费电话服务电话号码后，他们会显示在**Microsoft 团队管理中心** > **语音** > **电话号码**，以及被列为**Service-免费电话****号码类型**列出将。 若要获取服务号码，请参阅[Getting 服务电话号码](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)或如果您想要传输的现有服务号码，请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。
+在创建和设置呼叫队列之前，您需要获取或转移现有的收费或免费服务号码。 获得收费电话或免费电话服务电话号码后，他们会显示在**Microsoft 团队管理中心** > **语音** > **电话号码**，以及被列为**Service-免费电话****号码类型**列出将。 若要获取服务号码，请参阅[Getting 服务电话号码](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)或如果您想要传输的现有服务号码，请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。
   
 > [!NOTE]
 > 如果您在美国以外，您无法使用的 Microsoft 团队管理中心获取服务号码。 转到[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)而是以了解如何执行从美国的外部。
@@ -133,7 +133,7 @@ ms.locfileid: "30543044"
 
 **添加帐户**选择一个资源帐户。 资源帐户可能也可能不与服务收费电话或免费电话号码呼叫队列，但每个呼叫队列需要关联的资源帐户。
 
-如果没有任何列出，您需要获取服务号码并将其分配给资源帐户才能创建此呼叫队列，如前面所述。 若要获取服务号码，请参阅[Getting 服务电话号码](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)。 您需要创建资源帐户中所述[在团队中的管理资源帐户](manage-resource-accounts.md)如果您希望您呼叫的队列具有关联的电话号码。
+如果没有任何列出，您需要获取服务号码并将其分配给资源帐户才能创建此呼叫队列，如前面所述。 若要获取服务号码，请参阅[Getting 服务电话号码](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。 您需要创建资源帐户中所述[在团队中的管理资源帐户](manage-resource-accounts.md)如果您希望您呼叫的队列具有关联的电话号码。
 
 > [!NOTE]
 > 如果您希望或需要分配**域**可以执行，将它分配给呼叫队列的资源帐户。
@@ -167,7 +167,7 @@ ms.locfileid: "30543044"
 - 拥有**电话系统**许可证和启用了企业语音或拥有通话套餐的在线用户。
 
   > [!NOTE]
-  > 要重定向呼叫的人员在组织中联机，它们必须具有**电话系统**许可证和启用了企业语音或其调用规划。 请参阅[业务和 Microsoft 团队许可证分配 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
+  > 要重定向呼叫的人员在组织中联机，它们必须具有**电话系统**许可证和启用了企业语音或其调用规划。 请参阅[业务许可证分配 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)或[分配 Microsoft 团队许可证](assign-teams-licenses.md)。
 
  要为他们启用企业语音，可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
@@ -285,7 +285,7 @@ New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
-您可以获取有关如何对您[如何可以呼叫者 ID 是您组织中使用](/skypeforbusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)一文中的组织中的呼叫者 ID 设置进行更改的详细信息。
+您可以获取有关如何对您[如何可以呼叫者 ID 是您组织中使用](/skypeforbusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization)一文中的组织中的呼叫者 ID 设置进行更改的详细信息。
   
 ## <a name="want-to-know-more"></a>希望了解更多信息吗？
 
@@ -321,7 +321,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 [以下是 Office 365 中的电话系统功能](here-s-what-you-get-with-phone-system.md)
 
-[获取服务电话号码](/Skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[获取服务电话号码](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

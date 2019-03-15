@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: a5a696c3-d321-4e61-9aad-e3a87041196e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,12 +21,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 52462bcb9f609a2e9c68757a36a9e5ed1cfa2b13
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 20ce25368c5b77bcd355bc5ed0d6ef55868401c1
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494210"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30570115"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 中的音频会议
 Office 365 中的音频会议允许用户从其电话加入会议呼叫。 音频会议允许达 250 位电话与会者。
@@ -49,7 +49,7 @@ Office 365 中的音频会议允许用户从其电话加入会议呼叫。 音�
 如需了解有关定价信息，请参阅[音频会议定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
 
 ## <a name="where-is-it-available"></a>其中是否可用？
-与音频会议，您的用户可以使用收费和免费电话号码拨入会议。 他们正在启用音频会议时，会自动为对组织共享音频会议号码分配收费 （服务）。 可以从其他城市将专用收费和免费电话号码分配给你的组织。
+与音频会议，您的用户可以使用收费和免费电话号码拨入会议。 他们正在启用音频会议时，会自动为对组织共享音频会议号码分配收费 （服务）。 专用的收费和免费电话号码可分配给您的组织从其他城市。
 
 免费电话号码 （服务号码） 是可用，但仅在某些国家/地区。 若要了解哪些资源可在您的国家或地区，请参阅[国家和地区音频会议和调用计划的可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
@@ -92,7 +92,7 @@ Office 365 中的音频会议允许用户从其电话加入会议呼叫。 音�
 - **使用新号码的请求表单。** 有时 （根据您的国家/地区） 您将无法获取您的业务管理中心中，使用 Skype 的新电话号码，或需要特定的电话号码或区域代码。 如果是这样，你需要下载表单并将其发送给我们。 有关详细信息，请参阅[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
 ## <a name="how-do-you-set-it-up"></a>如何设置其？
-您已决定为您的用户设置音频会议之后，请参阅的步骤为此，您可以按照[设置业务和 Microsoft 团队的 Skype 的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)。
+您已决定为您的用户设置音频会议之后，请参阅[设置 Microsoft 团队的音频会议](set-up-audio-conferencing-in-teams.md)或[设置业务 online Skype 的音频会议](/SkypeForBusiness/audio-conferencing-in-office/set-up-audio-conferencing)的步骤，您可以按照这样。
 
 ## <a name="related-topics"></a>相关主题
 

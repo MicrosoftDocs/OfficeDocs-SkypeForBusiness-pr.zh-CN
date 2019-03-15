@@ -8,12 +8,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: 本文将指导您完成配置用于 Mobility service，允许您的移动设备能够利用业务服务器移动功能的 Skype 业务服务器安装现有 Skype 的步骤。
-ms.openlocfilehash: e1799459d2e7723298aa7fdda17f89a9041efd15
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 788f4084f902fc1b5fee8ae29fcd518542f3572d
+ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649713"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30536031"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>部署和配置 Mobility Skype 业务服务器  
  
@@ -258,7 +258,7 @@ ms.locfileid: "26649713"
 
 不应严格遵循以下步骤。因为在该产品的早期版本中，我们已引导你配置 Threat Management Gateway (TMG)，如果你未使用该产品，你需要从其创建自己的版本。
   
-TMG 不再由 Microsoft 作为产品提供，并且如果你仍需要对其进行配置，则可以查看 [Lync Server 2013 步骤](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx)。 但的以下信息的用于很多通常，即使没有我们可以提供特定演练步骤有每台反向代理的方法。
+Microsoft 产品，作为不再提供 TMG 和如果仍需要对其进行配置，您可以查看[Lync Server 2013 的步骤](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx)。 但的以下信息的用于很多通常，即使没有我们可以提供特定演练步骤有每台反向代理的方法。
   
 需要考虑以下两个主要事项：
   
@@ -464,7 +464,7 @@ TMG 不再由 Microsoft 作为产品提供，并且如果你仍需要对其进�
 ## <a name="configure-for-push-notifications"></a>配置推送通知
 <a name="ConfigPush"> </a>
 
-即使 Skype 或 Lync 应用处于非活动状态，也可以向移动设备发送推送通知（以徽章、图标或警告的形式）。 但什么是推送通知？ 它们是事件警报，如新的或错过的 IM 邀请，或收到的语音邮件。 业务服务器 Mobility service 的 Skype 业务 Server 推送通知服务，为 Windows Phone 用户然后发送通知到 Microsoft 推送通知服务 (MSNS) 向基于云的 Skype 发送这些通知。
+即使 Skype 或 Lync 应用处于非活动状态，也可以向移动设备发送推送通知（以徽章、图标或警告的形式）。 但是，什么是推送通知？ 它们是事件警报，如新的或错过的 IM 邀请，或收到的语音邮件。 业务服务器 Mobility service 的 Skype 业务 Server 推送通知服务，为 Windows Phone 用户然后发送通知到 Microsoft 推送通知服务 (MSNS) 向基于云的 Skype 发送这些通知。
   
 此功能未更改从 Lync Server 2013，但如果您有 Skype 业务服务器，您需要执行下列操作：
   

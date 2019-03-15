@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 了解如何使用内置选项卡和自定义选项卡来包括对话、文件、地图等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1e93de09dc99832f942397a3af966334371a094
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e63cbe83214f9323692804b7d297de9091aceef0
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458793"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568661"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>在 Microsoft Teams 中使用内置选项卡和自定义选项卡
 ==================================================
@@ -32,7 +32,7 @@ ms.locfileid: "30458793"
 
 ## <a name="work-with-tabs"></a>使用选项卡
 
-- 与每个新的通道，默认情况下，对话和文件设置两个选项卡。 
+- 与每个新的通道，默认情况下设置两个选项卡： 对话和文件。 
 
     ![Marketing 团队的“对话”部分屏幕截图。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
 - 与每个私人聊天，默认情况下，对话、 文件、 组织和活动设置四个选项卡。

@@ -4,7 +4,7 @@ author: dearbeen
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/31/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22d8383914755bdd3d9d185f083509de9175bef6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 2231b8d9d80507be863d1aef64e8aa0d91cddeec
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463497"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569268"
 ---
-# <a name="prepare-my-users"></a>准备我的用户
+# <a name="prepare-my-users"></a>准备用户
 
 本文概述了准备您的用户使用云语音服务的要求。 通过正确准备您的用户，您将确保您为组织提供最大价值。
 

@@ -1,10 +1,10 @@
 ---
-title: 部署 Microsoft 团队云语音服务
+title: 部署 Microsoft Teams 云语音服务
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 05/16/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ce9b3f5a1d81728f0bff6951211453fb4aa2ef4
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 8ea80d3ba87a6499cba3bf52b5f70d45d0619c8a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458993"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568461"
 ---
-# <a name="deploy-my-service"></a>部署我服务
+# <a name="deploy-my-service"></a>部署服务
 
 本文概述了正确部署云语音服务的要求。 按照部署云语音服务，您可以确保的说明性指导您成功帐户为满足所有要求并提供可重复的结果。
 

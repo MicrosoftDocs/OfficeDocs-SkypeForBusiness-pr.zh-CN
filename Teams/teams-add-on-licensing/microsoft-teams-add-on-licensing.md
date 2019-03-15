@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 了解有关加载项许可证，哪些功能您将与每个许可证、 如何购买的产品，以及如何与他们使用您现有的运营商。 您可以获取 Office 365，通信字幕式定价和计划的详细信息和呼叫计划。
-ms.openlocfilehash: 5912ac5cf79f0db7aaf02fa4d8425d3da80a99bb
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 8b3e68fe89f2a7f07f5f117d60c2a74327a891ca
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543076"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633223"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams 附加许可
 
@@ -38,9 +38,9 @@ Microsoft 团队许可旨在为您提供的最大的灵活性量。 例如，使
 
 对于大多数企业，购买企业版计划中的一系列软件将降低总成本。 通常情况下，而不是单独的多个加载项许可证购买作为计划的一部分时，您可能结尾更高版本组合的成本。
 
-成本的详细信息，请参阅 [如何查看价格和购买加载项许可证](microsoft-teams-add-on-licensing.md#bkmk_how) 或下列选项之一：
+成本的详细信息，请参阅下列选项之一：
 
-- [音频会议的定价](https://products.office.com/microsoft-teams/online-meeting-solutions)
+- [为音频会议定价](https://products.office.com/microsoft-teams/online-meeting-solutions)
 
 - [电话系统的定价和调用计划](https://products.office.com/microsoft-teams/voice-calling)
 
@@ -64,7 +64,7 @@ Microsoft 团队许可旨在为您提供的最大的灵活性量。 例如，使
 可对您的加载项许可选项取决于您的 Office 365 计划。 有关计划的特定信息、功能和选项，请参阅以下主题。
 
 - [Office 365 商业高级版](office-365-business-premium.md)
-- [Office 365 ProPlus](office-365-premium-pro-plus.md)
+- [Office 365 专业增强版](office-365-premium-pro-plus.md)
 - [Office 365 企业版 E1 或 E3](office-365-enterprise-e1-e3.md)
 - [Office 365 企业版 E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5（不含音频会议）](office-365-enterprise-e5-without-audio-conferencing.md)

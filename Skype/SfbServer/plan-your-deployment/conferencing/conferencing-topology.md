@@ -10,10 +10,10 @@ localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 摘要： 阅读本主题可了解有关规划业务服务器中 Skype 会议拓扑。
 ms.openlocfilehash: d8e3d771eadfe47ee1d7ec15eb68051b717643bf
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "25375955"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>规划业务 Server Skype 的会议拓扑
@@ -77,7 +77,7 @@ Web 会议需要以下条件：
   
 Skype 业务服务器提供了下列方式来配置 Office Web Apps Server/Office Online Server。 根据你的需要，你可以：
   
-- **安装 Business Server 和 Office Web Apps Server/Office Online Server 内部部署组织的防火墙背后处于和相同的网络区域中的两个 Skype。** 借助此拓扑，将通过反向代理服务器提供对 Office Web Apps Server/Office Online Server 的外部访问权限。 理想情况下，您应安装 Office Web Apps Server/Office Online Server 在同一个网络区域中作为 Skype 业务服务器。
+- **安装 Business Server 和 Office Web Apps Server/Office Online Server 内部部署组织的防火墙背后处于和相同的网络区域中的两个 Skype。** With this topology, external access to Office Web Apps Server/Office Online Server will be provided through your reverse proxy server. 理想情况下，您应安装 Office Web Apps Server/Office Online Server 在同一个网络区域中作为 Skype 业务服务器。
     
     外部 Skype 业务客户端可以使用反向代理服务器，它是从 Internet 接受请求，并将它们转发到内部网络的服务器连接到业务服务器 Skype 和 Office Web Apps Server/Office Online Server。 （内部客户端不需要使用反向代理服务器，因为他们可以直接连接到 Office Web Apps Server/Office Online Server。）如果您想要使用的业务服务器仅由 Skype 使用专用的 Office Web Apps Server/Office Online Server 服务器场，这种拓扑最有效。
     
@@ -104,7 +104,7 @@ Skype 业务服务器提供了下列方式来配置 Office Web Apps Server/Offic
   
 承载大型会议的用户必须具有其用户帐户驻留在前端池。 但是，我们不建议您承载此池中的其他用户帐户。 相反，仅对大型会议使用它。 最佳做法是仅对主机大型会议使用此池中创建特殊用户帐户。 由于性能进行了优化的大型会议设置，使用作为普通用户可能会遇到问题，如无法升级到会议的 P2P 会话时涉及的 PSTN 方终结点。
   
-在管理恰好包含两个前端服务器的池时，有一些特别注意事项。 有关详细信息，请参阅[拓扑的业务服务器 2015年的 Skype 的基础知识](../../plan-your-deployment/topology-basics/topology-basics.md)和[业务服务器 2015年的 Skype 的参考拓扑](../../plan-your-deployment/topology-basics/reference-topologies.md)。
+在管理恰好包含两个前端服务器的池时，有一些特别注意事项。有关详细信息，请参阅 [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) 和 [Reference topologies for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/reference-topologies.md)。
   
 此外，如果您希望选择性地提供针对用于大型会议的池的灾难恢复备份和故障转移，您可以将该池与其他数据中心内类似的设置专用池配对。 有关详细信息，请参阅[规划高可用性和灾难恢复 Skype 业务服务器中](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
   
@@ -114,7 +114,7 @@ Skype 业务服务器提供了下列方式来配置 Office Web Apps Server/Offic
     
 - Office Web Apps Server/Office Online Server 是在大型会议中启用 PowerPoint 演示文稿功能所必需的。 Office Web Apps Server/Office Online Server 可专用于大型会议池，也可以是已部署专用池的站点中的其他池所使用的同一个 Office Web Apps Server/Office Online Server。 有关详细信息，请参阅[配置与 Skype 的业务服务器中的 Office Web Apps Server 的集成](../../deploy/deploy-conferencing/office-web-app-server.md)。 
     
-- 若要实现前端服务器的负载平衡，需要实现 HTTP 流量（如会议内容下载）的硬件负载平衡。 建议对 SIP 流量实现 DNS 负载平衡。 有关详细信息，请参阅[负载平衡的 Skype 的业务要求](../../plan-your-deployment/network-requirements/load-balancing.md)。 
+- 若要实现前端服务器的负载平衡，需要实现 HTTP 流量（如会议内容下载）的硬件负载平衡。建议对 SIP 流量实现 DNS 负载平衡。有关详细信息，请参阅 [Load balancing requirements for Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md)。 
     
 - 如果您想要使用专用的大型会议池的监控服务器，我们建议对业务服务器部署中您 Skype 的前端服务器池的所有使用监控服务器和共享其数据库。 有关详细信息，请参阅[规划中的业务服务器 Skype 监控](../../plan-your-deployment/monitoring.md)。
     

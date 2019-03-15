@@ -1,10 +1,10 @@
 ---
-title: 记录您的 Microsoft 团队成功计划
+title: 编制 Microsoft Teams 成功计划文档
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd124b8ce06b15bb0c6c33aecd848d9382afde64
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b0a10f56c29ca2218d5dde2c98fb3285c3907b1d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462137"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568469"
 ---
-# <a name="document-my-success-plan"></a>文档我成功的计划
+# <a name="document-my-success-plan"></a>记录成功计划
 
 这篇文章概述用于正确记录云语音部署要求。 通过定义和记录所有决策点及后续步骤规划云语音部署时，您可以确保所有利益干系人和项目工作组成员在提供成功产出对齐。 
 
@@ -87,8 +87,8 @@ ms.locfileid: "30462137"
 
 | 网站/部门                            | 雇员数 | 音频会议 | 电话系统                    | 若要执行的季度 |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
-| 美国： 纽约                             | 2000                | 是                | 具有通话套餐的电话系统 | 第 1 季度 CY2018          |
-| 爱尔兰： 都柏林                          | 300                 | 是                | 具有通话套餐的电话系统 | 第 1 季度 CY2018          |
+| 美国： 纽约                             | 2000                | 是                | 调用计划的电话系统 | 第 1 季度 CY2018          |
+| 爱尔兰： 都柏林                          | 300                 | 是                | 调用计划的电话系统 | 第 1 季度 CY2018          |
 | 奥地利： 维也纳                          | 500                 | 是                | 电话系统直接路由     | Q2 CY2018          |
 | 意大利： 米兰                             | 200                 | 是                | 不适用                             | Q2 CY2018          |
 | 南美洲： 巴西                    | 1500                | 是                | 电话系统直接路由     | Q2 CY2018          |
@@ -176,7 +176,7 @@ ms.locfileid: "30462137"
 
 映射操作角色的练习将建立角色和职责，以及分配给每个操作的角色，您需要支持音频会议的实现的团队。
 
-你需要完成此项，并在成功计划中包括运营计划以确保完成解决方案的运营就绪。
+您需要完成这并作为以确保解决方案的应急行动准备成功计划的一部分包含运营的计划。
 
 <table>
 

@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 08/27/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dansteve
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4887cb129242473da46a611c4f873e79384e5e32
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0c7343f294f18d5aaacf01059459524cdd2700a2
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460337"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569955"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft Teams 中分配团队所有者和成员
 =================================================
@@ -42,7 +42,8 @@ Microsoft 团队中有两个用户角色：**所有者**和**成员**。 默认�
 |          **添加频道**          |    是     |    是<sup>2</sup>|
 | **编辑频道名称/说明** |    是     |    是<sup>2</sup>|
 |        **删除频道**         |    是     |    是<sup>2</sup>|
-|          **添加成员**          |  是<sup>3</sup>   |     否      |
+|          **添加成员**          |  是<sup>3</sup>   |     没有<sup>4</sup>    |
+|          **请求添加成员**          |  不适用   |     是<sup>5</sup>     |
 |           **添加选项卡**            |    是     |    是<sup>2</sup>|
 |        **添加连接器**         |    是     |    是<sup>2</sup>|
 |           **添加聊天机器人**            |    是     |    是<sup>2</sup>|
@@ -52,6 +53,10 @@ Microsoft 团队中有两个用户角色：**所有者**和**成员**。 默认�
 <sup>2</sup>这些项可以关闭所有者在团队级别中，在这种情况下成员不会对它们的访问。
 
 <sup>3</sup>后添加到团队的成员，所有者可以升级到所有者状态成员。 还有可能的所有者降级成员自己状态。
+
+<sup>4</sup>工作组成员可以将其他成员添加到公共团队。
+
+<sup>5</sup>时团队成员无法直接将成员添加到专用团队，它们可以请求某人添加到组中已经存在的成员。 当成员请求某人添加到组中时，团队所有者将收到通知他们具有挂起的申请，他们可以接受或拒绝。
 
 
 

@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4f4947b1-3760-46f9-8367-877aaf405d6c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 这将帮助您了解如何拨号中每个国家/地区免费电话号码。 选择国家/地区后，它会将您导引到特定国家/地区的页面包含特定详细信息、 限制和免费电话服务可用性的限制的免费电话服务位于。 拨号格式将显示您拨免费电话号码每个国家/地区内所需的访问代码。
-ms.openlocfilehash: cb0954a970515cac01bf63a881f4765a18d5e0ae
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 51cea911ba4b6b21ea0a7b01b2c460e8b4096d5b
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459477"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569245"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a>中国的免费拨号限制 - 南部（10 800 140 XXXX 范围）
 

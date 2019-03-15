@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解在 Microsoft Teams 中当用户的电话拨入式会议设置更改时自动通过电子邮件向其发送的信息。 '
-ms.openlocfilehash: 6081f531bb7cbae180997dedd9e9892e9829ae1b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cdd45eaad709ed2060cc0b0f9700e213ea884b72
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462809"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633331"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>在 Microsoft Teams 中当用户设置更改时向其发送的电子邮件
 
-当使用 Microsoft 作为音频会议提供商时，会自动向[启用了音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)的用户发送电子邮件。
+当使用 Microsoft 作为音频会议提供商时，会自动向[启用了音频会议](set-up-audio-conferencing-in-teams.md)的用户发送电子邮件。
 
 默认情况下，对于启用了音频会议的用户，向其发送的电子邮件共有四种类型。 但是，如果你要限制向用户发送的电子邮件数，你可以将其关闭。 在下列情况下，Office 365 中的音频会议将向用户发送电子邮件：
 

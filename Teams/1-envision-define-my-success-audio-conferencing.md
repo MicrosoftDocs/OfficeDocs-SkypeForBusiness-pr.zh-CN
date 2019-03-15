@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -13,14 +13,14 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: 267ce64472fe643bb3544b80a3e3f6222db1d4ba
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7c294b3ac75b92f7c6e2384f34497bc620478d29
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373973"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568535"
 ---
-# <a name="define-my-success"></a>定义我成功
+# <a name="define-my-success"></a>定义成功
 
 这篇文章概述用于定义您的组织的音频会议的部署成功的要求。 通过正确定义哪些成功如下所示，您可以通过部署为您进行测量结果，并验证您获得的结果是，应该怎么做的。
 
@@ -145,27 +145,27 @@ KSIs 测量质量和成功的关键结果，并通过详细报告良好和/或�
 > |使用/采用|通话质量与以前的解决方案一样或优于以前的解决方案|调查|80% 的用户同意或非常同意|启用和季度后|信息技术团队|
 > |使用/采用|Microsoft Teams 简化了通信流程|调查|80% 的用户同意或非常同意|启用和季度后|变更管理团队|
 > |使用/采用|用户主动使用解决方案|Office 365 报告、通话质量仪表板|80% 的用户每天主动使用|每天|变更管理团队|
-> |使用/质量|质量较差的通话/会议的百分比应尽可能低|通话质量仪表板|每月质量较差的通话低于 5%|每天|信息技术团队|
-> |使用/支持|我知道如何获取技术支持|调查|90% 的用户同意或非常同意|启用和季度后|变更管理团队|
-> |使用/支持|我对技术支持的质量感到满意|调查|80% 的用户同意或非常同意|每次事故后|信息技术团队|
-> |财务|旧会议分钟数减少|财务系统|符合定义的 ROI|基于 ROI|变更管理团队|
+> |使用率/质量|应最少质量欠佳的呼叫会议百分比|呼叫质量仪表板|< 5%的质量欠佳的呼叫，每个月|每天|信息技术团队|
+> |使用率/支持|我知道如何获得技术支持|调查|90%的用户同意或完全同意|启用和季度后|变更管理团队|
+> |使用率/支持|我满意的质量的技术支持|调查|80% 的用户同意或非常同意|每个事件之后|信息技术团队|
+> |财务|排放量的旧会议分钟|财务系统|满足定义投资回报|基于投资回报|变更管理团队|
 
 您需要确定业务风险的本练习，一部分并定义每个确定风险缓解计划。 可以风险注册到捕获此信息。
 
 > [!TIP]
 > 风险注册可以编写为下面的示例：
 > 
-> |风险  |可能性  |影响  |综合  |迁移计划  |
+> |风险  |可能性  |影响  |总体  |缓解计划  |
 > |---------|---------|---------|---------|---------|
-> |即将进行的合并将最多添加 1,000 人|高|高|高|<ul><li>对于合并公司，创建自己的项目阶段 （构想、 Onboard 驱动器值） 应用于单独 OKR</li><li>在现有 OKRs 中不包括这些 OKRs</li></ul>|
-> |电话携号转网将延迟项目完成|高|高|高|<ul><li>准备支持移植提早 （客户服务记录，帐单字母的授权的详细信息） 的电话号码所需的所有信息</li><li>调整项目日程表以容纳的电话号码移植执行的周转时间</li><li>向外部参与者说明使用新的电话拨入式会议号码</li></ul>|
-> |规划的网络重新设计|高|中|中|<ul><li>作为现代的通信和协作平台实现团队之前, 进行网络准备情况评估网站范围内的项目</li></ul>|
+> |即将发布并购将添加多达 1,000 个人员|高|高|高|<ul><li>对于合并公司，创建自己的项目阶段 （构想、 Onboard 驱动器值） 应用于单独 OKR</li><li>在现有 OKRs 中不包括这些 OKRs</li></ul>|
+> |电话号码移植将延迟项目完成|高|高|高|<ul><li>准备支持移植提早 （客户服务记录，帐单字母的授权的详细信息） 的电话号码所需的所有信息</li><li>调整项目日程表以容纳的电话号码移植执行的周转时间</li><li>向外部参与者通信使用新的电话拨入式会议号码</li></ul>|
+> |计划网络重新设计|高|中|中|<ul><li>作为现代的通信和协作平台实现团队之前, 进行网络准备情况评估网站范围内的项目</li></ul>|
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>什么是您的组织和 #39; s OKRs 和 KSIs？</li><li>哪些风险已标识与您的组织中的音频会议实现相关？ 标识风险缓解计划是什么？</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>您 organization& #39; s OKRs 和 KSIs 是什么？</li><li>哪些风险已标识与您的组织中的音频会议实现相关？ 标识风险缓解计划是什么？</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|后续步骤|<ul><li>文档 OKRs，KSIs，并建立风险中注册。</li></ul>|
 
 <!--ENDOFSECTION-->

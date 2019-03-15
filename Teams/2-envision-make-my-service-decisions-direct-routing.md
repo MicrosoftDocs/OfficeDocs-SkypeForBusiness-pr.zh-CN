@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 07/09/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e0597444b9f46d9ac3761ef42a4817a5db5117f
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: aca4fc24cb39fd1dc607825a73b9f3751992de3d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462737"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569763"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
 若要规划的电话系统直接路由 （"直接路由"） 的技术实现，则必须进行一系列服务决策提前更好地准备您的组织，以实现解决方案满足业务要求您已定义。
 
-## <a name="calling-in-teams"></a>在 Teams 中进行通话
+## <a name="calling-in-teams"></a>团队呼叫
 
 与 Microsoft 团队，用户可以发起和接收电话呼叫或从公用电话交换网 (PSTN)。 您的用户可以使用自己的专用的电话号码发起和接收国内和国际电话呼叫 （包括语音邮件） 的团队客户端应用程序。
 
@@ -56,11 +56,11 @@ ms.locfileid: "30462737"
 > 
 > | **Office**                     | **位置**   | **电话系统服务** |
 > |--------------------------------|----------------|--------------------------|
-> | Epping 路一号                | 澳大利亚      | 旧的 PSTN 服务 |
-> | 数码港道 100 号             | 香港 SAR  | 电话系统直接路由 |
-> | 滨海林荫道一号           | 新加坡      | 电话系统直接路由 |
-> | 伦敦桥大街 32 号        | 英国 | 具有通话套餐的电话系统 |
-> | 39 quai du Président Roosevelt | 法国         | 具有通话套餐的电话系统 |
+> | 一个 Epping 旅途                | 澳大利亚      | 旧 PSTN 服务 |
+> | 100 Cyberport 旅途             | （香港特别行政区)  | 电话系统直接路由 |
+> | 一个船坞 Boulevard           | 新加坡      | 电话系统直接路由 |
+> | 32 伦敦桥-街道        | 英国 | 调用计划的电话系统 |
+> | 39 quai 是 Président 罗斯福总统那个时代 | 法国         | 调用计划的电话系统 |
 
 <!--ENDOFSECTION-->
 
@@ -101,14 +101,14 @@ ms.locfileid: "30462737"
 > [!TIP]
 > 按下表可以记录调用计划实现的电话系统的语音邮件详细信息。
 > 
-> | **用户**         | **Exchange 邮箱** | **启用语音邮件？** | **语音邮件转录** | **语音邮件转录亵渎屏蔽** |
+> | **User**         | **Exchange 邮箱** | **启用语音邮件？** | **语音邮件转录** | **语音邮件转录亵渎屏蔽** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|
-> | Emily Braun      | Online               | 是                   | 启用                     | 已启用                                       |
-> | Lidia Holloway   | Online               | 是                   | 启用                     | 已禁用                                      |
-> | 港 Lahr       | 本地          | 是                   | 启用                     | 启用                                       |
-> | Marcel Beauchamp | 本地          | 是                   | 禁用                    | 不适用                                           |
-> | Rachelle Cormier | Online               | 是                   | 禁用                    | 不适用                                           |
-> | Isabell Potvin   | 本地          | 是                   | 禁用                    | 不适用                                           |
+> | Emily Braun      | Online               | 是                   | 已启用                     | 已启用                                       |
+> | Lidia Holloway   | Online               | 是                   | 已启用                     | 已禁用                                      |
+> | 港 Lahr       | 本地部署          | 是                   | 已启用                     | 已启用                                       |
+> | Marcel Beauchamp | 本地部署          | 是                   | 已禁用                    | 不适用                                           |
+> | Rachelle Cormier | Online               | 是                   | 已禁用                    | 不适用                                           |
+> | Isabell Potvin   | 本地部署          | 是                   | 已禁用                    | 不适用                                           |
 > 
 > [!NOTE]
 > 若要使用团队和语音邮件，您的用户必须具有 Exchange 邮箱。 有关详细信息，请参阅[如何 Exchange 和 Microsoft 团队进行交互](exchange-teams-interact.md)。
@@ -208,7 +208,7 @@ Sbc 需要双向连接与信号和媒体的云服务进行通信。 信号是通
 > | **SBC DNS 域名 (FQDN)** | **SBC 品牌和型号** | **证书** | **位置**  | **IP 地址** | **SIP 信号端口** | **NAT？** | **最大并发会话** | **启用媒体绕过？** |
 > |-------------------------|------------------------|-----------------|---------------|----------------|------------------------|----------|-----------------------------|---------------------------|
 > | SBC Europe.contoso.com | TBD | \*。 contoso.com | 阿姆斯特丹 | TBD | TBD | 是 | TBD | 否 |
-> | SBC Asia.contoso.com | TBD | \*。 contoso.com | 香港特别行政区 | TBD | TBD | 否 | TBD | 是 |
+> | SBC Asia.contoso.com | TBD | \*。 contoso.com | （香港特别行政区) | TBD | TBD | 否 | TBD | 是 |
 > | SBC Africa.contoso.com | TBD | \*。 contoso.com | 约翰内斯堡 | TBD | TBD | 是 | TBD | 是 |
 
 <!--ENDOFSECTION-->
@@ -290,7 +290,7 @@ Sbc 需要双向连接与信号和媒体的云服务进行通信。 信号是通
 
 使用从本文前面几节的信息来记录您服务的决策。 一般情况下，本文档将包含以下主要章节：
 
--   具有通话套餐的电话系统地点启用列表
+-   与调用计划网站启用列表的电话系统
 
 -   语音邮件配置详细信息
 

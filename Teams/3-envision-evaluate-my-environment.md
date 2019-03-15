@@ -1,10 +1,10 @@
 ---
-title: 评估您的环境的 Microsoft 团队云语音工作负荷
+title: 评估 Microsoft Teams 云语音和工作负载的环境
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29bfd87d860cc68b988e365a77f28eed8fa9e2f5
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c092904151ac0a05536a52a9ee8b475c9264a21a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459091"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568534"
 ---
-# <a name="evaluate-my-environment"></a>评估我的环境
+# <a name="evaluate-my-environment"></a>评估环境
 
 本文概述了正确评估当前环境使用云语音服务的要求。 通过评估您的环境，您可以确定风险和将影响总体云语音部署要求。 通过预先确定这些项，您可以调整驱动器成功进行规划。
 

@@ -5,23 +5,21 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: NMuravlyannikov
-ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.topic: conceptual
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: 阅读本主题可了解如何 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。
-ms.openlocfilehash: 77c4e21b2be0f8d4729924484102ba31becbfbe7
-ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
+ms.openlocfilehash: 202b25903a3e48b0a2a2f32853f061eb8ca73cc8
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690569"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569939"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -79,7 +77,7 @@ Microsoft 还提供了一云语音解决方案，如调用规划。  但是，�
 |直接路由的连接点 |直接路由的连接点是具有以下三个 Fqdn:<br/><br/>`sip.pstnhub.microsoft.com`– 必须首先尝试全局 FQDN。<br/>`sip2.pstnhub.microsoft.com`– 辅助 FQDN，地理位置映射到第二个优先级区域。<br/>`sip3.pstnhub.microsoft.com`– 第三级 FQDN，地理位置映射到第三个优先级区域。<br/><br/>有关配置要求的信息，请参阅[SIP 信号： Fqdn 和防火墙端口](#sip-signaling-fqdns-and-firewall-ports)。|
 |防火墙的 IP 地址和直接路由的媒体端口 |SBC 对下列服务在云中进行通信：<br/><br/>SIP 代理，处理的信号<br/>媒体处理器，处理媒体-除媒体绕过位于<br/><br/>这两个服务具有单独的 IP 地址中 Microsoft 云，本文档后面所述。<br/><br/>有关详细信息，请参阅[Office 365 Url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)中的[Microsoft 团队部分](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)。 |
 |媒体传输配置文件|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-防火墙的 IP 地址和端口的 Microsoft 团队媒体 |有关详细信息，请参阅 [Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。 |
+防火墙的 IP 地址和端口的 Microsoft 团队媒体 |有关详细信息，请参阅[Office 365 Url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。 |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>许可和其他要求 
@@ -106,7 +104,7 @@ Microsoft 还提供了一云语音解决方案，如调用规划。  但是，�
 
 有关电话系统授权的详细信息，请参阅[充分利用与 Office 365 的 Office](https://products.office.com/compare-all-microsoft-office-products?tab=2)和[Office 365 计划选项](https://technet.microsoft.com/library/office-365-plan-options.aspx)。 
 
-有关电话系统授权的详细信息，请参阅[业务和 Microsoft 团队授权加载项的 Skype](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。 
+有关电话系统许可的详细信息，请参阅[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
 
 ## <a name="sbc-domain-names"></a>SBC 域名
 

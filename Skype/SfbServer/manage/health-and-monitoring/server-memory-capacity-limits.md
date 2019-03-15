@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: 摘要： 了解如何针对业务服务器监视的 Skype 中的服务器内存容量限制。
-ms.openlocfilehash: 05913ea5b32a9a40d7c577c4a0795ccb07db211f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6eb60d48e9da0736ac8753000343b5dc1458bacf
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978698"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "21226972"
 ---
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>监控服务器内存容量限制 Skype 业务服务器
  
@@ -24,7 +24,7 @@ ms.locfileid: "20978698"
 > 容量规划是指本主题中的信息仅适用于 Lync 2010 移动客户端和 Mobility Service (Mcx)。 由 Lync Server 2013 规划工具提供容量规划的统一通信 Web API (UCWA)，Lync 2013 移动客户端，使用。 
 
 > [!NOTE]
-> MCX 旧的移动客户端支持不再可用的业务服务器 2019 Skype 中。 您的用户需要升级到当前客户端。
+> MCX (Mobility Service) 支持旧的移动客户端的不再可用的业务服务器 2019 Skype 中。 业务移动客户端的所有当前 Skype 已使用统一通信 Web API (UCWA) 来支持即时消息 (IM)、 状态和联系人。 与使用 MCX 的旧客户端的用户需要升级到当前客户端。
   
 两个移动性能计数器可以帮助您确定当前使用情况并帮助您规划业务服务器 Mobility Service (Mcx)，以及为 UCWA，监视内存使用量 Skype 的容量。 UCWA，对于计数器类别是**LS:WEB-UCWA**。 对于 Mobility Service (Mcx)，计数器类别为“**LS:WEB - 移动通信服务**”。 要监控的计数器包括：
   

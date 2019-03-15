@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 摘要： 将 Skype 集成的企业服务器和 Outlook Web App。
-ms.openlocfilehash: 63533e0f592a332e1e5f4ff9829b16cde4b1299f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 17f58acac3b59611df58d4c60ce875a5a17187cf
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263919"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569628"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>配置业务服务器的内部部署 Skype 和 Outlook Web App 之间的集成
 
@@ -40,7 +40,7 @@ ms.locfileid: "23263919"
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 ```
 
-- **AllowFederatedUsers**参数指定是否允许内部用户与联盟域中的用户进行通信。 此属性还决定内部用户可以与 Skype 的共享 SIP 地址空间情况用户 Business Server 和 Exchange Online 的通信。
+- **AllowFederatedUsers** 参数指定是否允许内部用户与联盟域中的用户进行通信。 此属性还决定内部用户可以与 Skype 的共享 SIP 地址空间情况用户 Business Server 和 Exchange Online 的通信。
 
 有关为业务 Server 命令行管理程序中使用 Skype 的详细信息，请参阅[Business Server Management Shell 的 Skype](../../manage/management-shell.md)。
 
@@ -55,19 +55,19 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 > [!NOTE]
 > 如果您在中国使用 21Vianet 运营的 Office 365，请将此示例中 ProxyFqdn 参数的值（“exap.um.outlook.com”）替换为 21Vianet 运营的服务的 FQDN：“exap.um.partner.outlook.cn”。 如果您使用 Office 365 GCC 高，值替换 ProxyFqdn 参数在本示例中 ("exap.um.outlook.com") 的 FQDN 为 GCC 高:"exap.um.office365.us"。
 
-- **标识**要创建 （例如，"Exchange Online"） 的宿主提供商指定唯一的字符串值标识符。 包含空格的值必须用双引号括起来。
+- **Identity** 将为您创建的宿主提供程序指定一个唯一的字符串值标识符（例如“Exchange Online”）。 包含空格的值必须用双引号括起来。
 
 - **Enabled ** 指示您的域与承载服务提供商之间的网络连接是否已启用。 必须将其设置为 True。
 
-- **EnabledSharedAddressSpace**指示是否将共享 SIP 地址空间方案中使用的宿主提供商。 必须将其设置为 True。
+- **EnabledSharedAddressSpace** 指示是否将在共享的 SIP 地址空间方案中使用托管提供程序。 必须将其设置为 True。
 
 - **HostsOCSUsers**指示承载服务提供商是否用于承载 Office Communications Server 或 Skype 业务服务器。 必须将其设置为 False。
 
-- **ProxyFQDN**指定的宿主提供商使用的代理服务器的完全限定的域名 (FQDN)。 对于 Exchange Online，FQDN 为 exap.um.outlook.com。
+- **ProxyFQDN** 指定宿主提供程序所使用的代理服务器的完全限定域名 (FQDN)。 对于 Exchange Online，FQDN 为 exap.um.outlook.com。
 
 - **IsLocal**指示承载服务提供商使用的代理服务器是否包含您 Skype 企业服务器拓扑中。 必须将其设置为 False。
 
-- **VerificationLevel**指示允许与宿主提供程序发送的邮件的验证级别。 指定**UseSourceVerification**，它依赖于从托管服务提供商发送的消息中包括的验证级别。 如果未指定此级别，则邮件将被拒绝为无法验证。
+- **VerificationLevel**指示允许与宿主提供程序发送的邮件的验证级别。 指定 **UseSourceVerification**，它依赖于从宿主提供程序发送的邮件中包含的验证级别。 如果未指定此级别，则邮件将被拒绝为无法验证。
 
 ## <a name="verify-replication-of-the-updated-central-management-store"></a>确保复制更新后的中央管理存储
 
@@ -78,12 +78,14 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 ```
 Get-CsManagementStoreReplicationStatus
 ```
+检查是否 UpToDate 值 TRUE 显示的所有副本。
 
 若要确认已应用所做的更改，在边缘服务器上，运行以下 cmdlet:
 
 ```
 Get-CsHostingProvider -LocalStore
 ```
+如果显示的信息与前面的步骤中提交更改相匹配的仔细检查。
 
 ## <a name="see-also"></a>另请参阅
 

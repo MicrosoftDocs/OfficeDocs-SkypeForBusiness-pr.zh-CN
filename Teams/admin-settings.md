@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69b14984ac9acca71a7729615cde2280b064ff9b
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: ad61e412bbbe0a880a279179f40124895d6e38a5
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493562"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568405"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams 中适用于应用的管理设置
 ==========================================
@@ -32,7 +32,7 @@ ms.locfileid: "30493562"
 
 应用程序是选项卡、 连接器、 自动程序或这三种，提供通过团队 （第一方应用程序和也称为应用程序默认） 或第三方 （也称为外部应用程序） 的任意组合。 在 Microsoft 365 管理中心，您可以启用和禁用默认应用程序和配置设置来控制外部应用程序。 这些设置允许您指定的外部应用程序允许的和不允许，新的外部应用程序行为，以及是否允许端加载应用程序。
 
- 若要管理团队中的应用程序的管理设置，请转到 Microsoft 365 管理中心，并选择**设置** > **服务 & 加载项** > **Microsoft 团队**。 如果你已使用 Office 365 管理员身份登录，单击此链接应该能访问相应位置：
+ 若要管理团队中的应用程序的管理设置，请转到 Microsoft 365 管理中心，并选择**设置** > **服务 & 加载项** > **Microsoft 团队**。 如果你已使用 Office 365 管理员身份登录，点击此链接应该能实现此操作：
 
 https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 
@@ -44,7 +44,7 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 ## <a name="allow-external-apps-in-teams"></a>在 Teams 中允许外部应用
 
-默认情况下，启用“**在 Microsoft Teams 中允许外部应用**”，并选中所有应用。  如果要关闭此设置，则会禁用所有外部第三方应用程序。 
+默认情况下，启用“**在 Microsoft Teams 中允许外部应用**”，并选中所有应用。 如果要关闭此设置，则会禁用所有外部第三方应用程序。 
 
 ## <a name="enable-new-external-apps-by-default"></a>默认启用新的外部应用
 

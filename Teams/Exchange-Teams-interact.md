@@ -3,7 +3,7 @@ title: Exchange 与 Microsoft Teams 如何交互
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: crowe
 description: 了解 Microsoft Teams 与各种 Exchange 设置之间存在哪些功能，例如，创建和加入团队、创建频道等。
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 020204700101e086691004cb90b5e5f7eabdbe5a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 560e1f81db6e8150bcd8d686747bfb297cbfcf84
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462185"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569979"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互 
 =========================================
@@ -40,9 +40,9 @@ ms.locfileid: "30462185"
 | 用户的邮箱托管在： | 电子数据展示| 法律&nbsp;保留 | 保留| 团队和频道的管理 |创建和查看会议| 修改用户个人资料图片 | 呼叫历史记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件 |添加和配置连接器|添加和配置选项卡|添加和配置聊天机器人| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是 |是|是|是|是|是|是|是|是|是 |是|
-|**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|是 |是 |是|是|是 |是|是|是|是 |是 |是|
-|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2,3</sup>|是<sup>4|是|否|否|是|是|否|是<sup>5|是 |是 |是|
-|**本地 Exchange**（同步到所需 Azure AD）|是<sup>2</sup>| 是<sup>2,3</sup> |是<sup>4|是|是 （Exchange 2016 CU3 +）|是 （Exchange 2016 CU3 +）|是 |是|否|是<sup>5|是 |是 |是|
+|**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|是 |是 |是|是|是 |是|是|是|是 |是 |是 |
+|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2,3</sup>|是<sup>4|是|否|否|是|是 |否|是<sup>5|是 |是 |是|
+|**本地 Exchange**（同步到所需 Azure AD）|是<sup>2</sup>| 是<sup>2,3</sup> |是<sup>4|是|是 （Exchange 2016 CU3 +）|是 （Exchange 2016 CU3 +）|是 |是 |否|是<sup>5|是 |是 |是 |
 
 <sup>1</sup> exchange 2016 CU3 和上方支持  
 <sup>2</sup>电子数据展示和合规性上通道消息的法律挂起支持所有承载选项。  
@@ -69,7 +69,7 @@ ms.locfileid: "30462185"
 -   对于 Exchange 内部部署，您必须配置新的 Exchange OAuth 身份验证协议，如[Exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)中所述。 
 
 > [!NOTE]
-> 当前，如果贵组织具有合规性要求以确保所有会议讨论均可发现，当组织者有本地 Exchange 邮箱时，你应禁用私人会议。
+> 目前，如果您的组织具有合规性要求才能确保所有会议讨论可供搜索，则应禁用专用的会议，如果组织者具有 Exchange 内部部署邮箱。
 > 
 > [!IMPORTANT]
 > Exchange 混合部署，在聊天消息中的内容是可不管聊天参与者是否具有一个基于云的邮箱或内部部署邮箱搜索。 若要了解详细信息，请阅读[搜索基于云的邮箱的内部部署 Office 365 中的用户](https://docs.microsoft.com/en-us/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 若要了解有关搜索团队中的内容，请阅读[Office 365 安全性 & 合规性中心中的内容搜索](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。

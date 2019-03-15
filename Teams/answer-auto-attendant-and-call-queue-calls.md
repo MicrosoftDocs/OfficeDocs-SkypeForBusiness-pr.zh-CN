@@ -1,10 +1,10 @@
 ---
-title: 应答自动助理并直接从团队呼叫队列呼叫
+title: 直接从 Teams 回答自动助理和呼叫队列
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/20/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 description: 介绍电话系统自动助理和呼叫的队列，并说明如何可以应答团队中的这些呼叫。
 localization_priority: Normal
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c010ae5a812cfd3d49279dd3728e948bdb31ca53
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 900fe698654a760c9863583da0b3cd161625844d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465329"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569436"
 ---
-<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>应答自动助理并直接从团队呼叫队列呼叫
+<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接从 Teams 回答自动助理和呼叫队列
 ===========================================================
 
 团队用户可接收并从业务 online Skype 应答呼叫自动助理，并直接从其团队客户端调用队列。 团队用户自动助理功能现已可用，并调用队列功能处于预览。 

@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7a277133adb520ea2a5e23cab05477f79f18ea1
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4d473408b054d1e7a89ad5ce27c1686cce181d9e
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461889"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568685"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
 规划电话系统的技术实现与调用计划，则必须进行准备您的组织，以实现解决方案满足您定义的业务要求的更好地提前服务决策一系列。
 
-## <a name="calling-in-teams"></a>在 Teams 中进行通话
+## <a name="calling-in-teams"></a>团队呼叫
 
 与 Microsoft 团队，用户可以发起和接收电话呼叫或从公用电话交换网 (PSTN)。 您的用户可以使用自己的专用的电话号码发出和接收来自团队客户端应用程序，其中包括语音邮件的高级功能的国内和国际电话呼叫。
 
@@ -42,7 +42,7 @@ ms.locfileid: "30461889"
 > [!IMPORTANT]
 > 电话系统与团队部署使用您自己的电信服务提供商的功能也是提供电话系统直接路由。 若要了解有关直接路由的详细信息，请查看[直接路由的指南](2-envision-make-my-service-decisions-direct-routing.md)。
 
-## <a name="phone-system-with-calling-plans"></a>具有通话套餐的电话系统
+## <a name="phone-system-with-calling-plans"></a>调用计划的电话系统
 
 若要使用 Microsoft，根据您的电信服务提供程序，您需要获得调用规划许可证并将其分配给您电话系统的用户。
 
@@ -56,7 +56,7 @@ ms.locfileid: "30461889"
 
 <!--ENDOFSECTION-->
 
-## <a name="availability-of-calling-plans"></a>通话套餐的可用情况
+## <a name="availability-of-calling-plans"></a>调用计划的可用性
 
 规划团队中调用计划的实现之前，请确认，调用计划服务都在您所在的区域中通过查看[国家和地区音频会议和调用计划的可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
@@ -80,11 +80,11 @@ ms.locfileid: "30461889"
 > 
 > | **Office**                     | **位置**   | **电话系统服务** |
 > |--------------------------------|----------------|--------------------------|
-> | Epping 路一号                | 澳大利亚      | 旧的 PSTN 服务 |
-> | 数码港道 100 号             | 香港 SAR  | 电话系统直接路由 |
-> | 滨海林荫道一号           | 新加坡      | 电话系统直接路由 |
-> | 伦敦桥大街 32 号        | 英国 | 具有通话套餐的电话系统 |
-> | 39 quai du Président Roosevelt | 法国         | 具有通话套餐的电话系统 |
+> | 一个 Epping 旅途                | 澳大利亚      | 旧 PSTN 服务 |
+> | 100 Cyberport 旅途             | （香港特别行政区)  | 电话系统直接路由 |
+> | 一个船坞 Boulevard           | 新加坡      | 电话系统直接路由 |
+> | 32 伦敦桥-街道        | 英国 | 调用计划的电话系统 |
+> | 39 quai 是 Président 罗斯福总统那个时代 | 法国         | 调用计划的电话系统 |
 
 <!--ENDOFSECTION-->
 
@@ -92,7 +92,7 @@ ms.locfileid: "30461889"
 
 与调用计划在 Office 365 中，您的组织中的每个用户需要有分机 (DID) 电话号码和相应的验证紧急地址唯一直接向。 查看[管理云语音电话号码](2-envision-make-my-service-decisions-phone-system.md#manage-cloud-voice-telephone-numbers)，以规划调用计划实现电话号码获取。
 
-当您正在配置的调用计划的电话号码时，必须将紧急地址分配给每个电话号码之前您分配给用户的数量。 为了支持紧急呼叫，必须这样做。 必须验证的紧急地址，以确保它按正确格式用于紧急响应服务。
+当您正在配置的调用计划的电话号码时，必须将紧急地址分配给每个电话号码之前您分配给用户的数量。 这是需要支持紧急呼叫。 必须验证的紧急地址，以确保它按正确格式用于紧急响应服务。
 
 > [!IMPORTANT]
 > 紧急服务呼叫调用计划在服务中与传统电话服务中的工作方式不同。 很重要，您了解这些差异，以及向所有用户的通信它们。 有关详细信息，请参阅[紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)。
@@ -117,10 +117,10 @@ ms.locfileid: "30461889"
 > 
 > |用户 |紧急位置和地址 |电话号码 |
 > |-----|-------------------------------|-------------|
-> |Emily Braun |1034/32 London Bridge Street, London, SE1, United Kingdom |+ 44 23 4567 8901 |
+> |Emily Braun |1034/32 伦敦桥街道，伦敦，SE1，United Kingdom |+ 44 23 4567 8901 |
 > |Lidia Holloway |1065/32 伦敦桥街道，伦敦，SE1，United Kingdom |+ 44 23 4567 89112 |
-> |港 Lahr |1023/32 London Bridge Street, London, SE1, United Kingdom |+ 44 23 4567 8921 |
-> |Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
+> |港 Lahr |1023/32 伦敦桥街道，伦敦，SE1，United Kingdom |+ 44 23 4567 8921 |
+> |Marcel Beauchamp |07E15D/39 quai 是 Président Roosevelt、 92130 Issy-les-Moulineaux，法国 | TBA |
 > |Rachelle Cormier |07N15D/39 quai 是 Président Roosevelt、 92130 Issy-les-Moulineaux，法国 | TBA |
 > |Isabell Potvin |07F05E/39 quai 是 Président Roosevelt、 92130 Issy-les-Moulineaux，法国 | TBA |
 
@@ -151,18 +151,18 @@ ms.locfileid: "30461889"
 > 
 > |用户 |Exchange 邮箱 |启用语音邮件？ |语音邮件转录 |语音邮件转录亵渎屏蔽 |
 > |------------------|------------------|-------------------|----------|----------|
-> |Emily Braun      |Online      |是 |启用 |已启用 |
-> |Lidia Holloway   |Online      |是 |启用 |已禁用 |
-> |港 Lahr       |本地 |是 |启用 |启用 |
-> |Marcel Beauchamp |本地 |是 |禁用 |不适用 |
-> |Rachelle Cormier |Online      |是 |禁用 |不适用 |
-> |Isabell Potvin   |本地 |是 |禁用 |不适用 |
+> |Emily Braun      |Online      |是 |已启用 |已启用 |
+> |Lidia Holloway   |Online      |是 |已启用 |已禁用 |
+> |港 Lahr       |本地部署 |是 |已启用 |已启用 |
+> |Marcel Beauchamp |本地部署 |是 |已禁用 |不适用 |
+> |Rachelle Cormier |Online      |是 |已禁用 |不适用 |
+> |Isabell Potvin   |本地部署 |是 |已禁用 |不适用 |
 
 <!--ENDOFSECTION-->
 
-## <a name="calling-identity"></a>呼叫标识
+## <a name="calling-identity"></a>调用标识
 
-默认情况下，所有出站呼叫均使用分配的电话号码作为呼叫标识（呼叫方 ID）。 呼叫接收人可以快速识别呼叫方，并决定是接收还是拒绝呼叫。 在某些情况下，有合法的业务要求屏蔽要使用的 office 主行号保护呼叫者的标识的呼叫者 ID — 这通常是由自动助理配置一个服务号 — 为呼叫者 ID，或阻止呼叫者 ID演示文稿完全忽略。
+默认情况下，所有出站呼叫的分配的电话号码用作调用 identity (呼叫者 ID)。 呼叫接收人可以快速识别呼叫方，并决定是接收还是拒绝呼叫。 在某些情况下，有合法的业务要求屏蔽要使用的 office 主行号保护呼叫者的标识的呼叫者 ID — 这通常是由自动助理配置一个服务号 — 为呼叫者 ID，或阻止呼叫者 ID演示文稿完全忽略。
 
 <br>
 
@@ -174,14 +174,14 @@ ms.locfileid: "30461889"
 > [!TIP]
 > 下面是呼叫者 ID 屏蔽详细信息的文档的示例。
 > 
-> |用户  |启用出站呼叫方 ID 屏蔽  |呼叫方 ID 屏蔽类型  |允许用户覆盖  | 启用入站呼叫方 ID 屏蔽  |
+> |用户  |启用出站呼叫者 ID 屏蔽  |呼叫者 ID 屏蔽类型  |允许用户替代  | 启用入站呼叫者 ID 屏蔽  |
 > |---------|---------|---------|---------|---------|
 > |Emily Braun|否|不适用|是|否|
-> |Lidia Holloway|是|服务号码（OrgAA，+44 20 7946 0000）|否|是|
+> |Lidia Holloway|是|服务号码 (OrgAA，+ 44 20 7946 0000)|否|是|
 > |港 Lahr|否|不适用|是|否|
-> |Marcel Beauchamp|是|服务号码（OrgAA，待定）|否|是|
+> |Marcel Beauchamp|是|服务号码 （OrgAA，待发布）|否|是|
 > |Rachelle Cormier|是|匿名|是|否|
-> |Isabell Potvin|是|服务号码（OrgAA，待定）|否|是|
+> |Isabell Potvin|是|服务号码 （OrgAA，待发布）|否|是|
 
 <!--ENDOFSECTION-->
 
@@ -193,24 +193,24 @@ ms.locfileid: "30461889"
 
 若要支持的其他音频会议和调用计划使用情况 （国际会议拨出、 外部调用后调用规划 minute 分配用完，等等），可以设置您的组织 Communications 字幕式。
 
-## <a name="licensing-for-calling-plans"></a>通话套餐许可
+## <a name="licensing-for-calling-plans"></a>调用计划许可
 
 如果您的组织打算使用 Microsoft，如电信服务提供程序，您需要获取调用规划加载项适用于用户的业务需求。 一般情况下，不以为组织中的所有人需要进行国际呼叫，以便您可以设置大多数用户使用国内调用规划许可证。
 
-有两种类型的通话套餐许可证：
+有两种类型的调用规划许可证：
 
 -   国内通话套餐
 
 -   国际和国内通话套餐
 
 > [!NOTE]
-> 对特定用户而言，“国内”由用户的已分配 Office 365 使用位置确定。
+> 内容被视为"国内"特定用户，取决于用户分配 Office 365 使用位置。
 
-每种通话套餐类型均分配用户每月可以用于拨打国内电话或国际电话的通话分钟数。 国际和国内调用规划小于相比国内调用计划成本。
+每个调用规划类型提供了呼叫的用户可以使用每个月，可以发出国内呼叫或国际呼叫分钟分配。 国际和国内调用规划小于相比国内调用计划成本。
 
 订阅和分配单个用户的业务要求的最适当调用规划类型的灵活性帮助组织控制其调用计划实现成本。
 
-对于每个 Office 365 租户，按国家或地区以及按每种通话套餐类型共用组合的通话分钟数。 达到租户的每月通话分钟数上限时，将会在当月其余时间内暂停通话套餐服务（紧急呼叫除外）。 调用计划服务将自动继续执行下一个日历月的第一天。
+每个 Office 365 租户，由国家或地区，以及每个调用规划类型建立池的组合呼叫分钟数。 达到租户每月的呼叫分钟上限后，将相应月份的其余部分的挂起调用计划 （除外紧急呼叫） 的服务。 调用计划服务将自动继续执行下一个日历月的第一天。
 
 您可以设置 Communications 字幕式的组织，允许用户为后调用分钟的分配耗尽而无需等待，直到下个月帐单周期发起出站呼叫。 此外，Communications 字幕式授予用户分配国内调用规划进行国际呼叫，然后使用"付薪每分钟"模型收取的能力。
 
@@ -230,14 +230,14 @@ ms.locfileid: "30461889"
 > [!TIP]
 > 您可以使用下面的示例文档的电话系统与调用计划用户许可证分配。
 > 
-> |用户 |办公地点 |Office 365 许可证 |调用计划 |
+> |用户 |Office |Office 365 许可证 |调用计划 |
 > |----|----|----|----|
-> |Emily Braun |伦敦桥大街 32 号 |Office 365 E5 |国际和国内通话套餐 |
-> |Lidia Holloway |伦敦桥大街 32 号 |Office 365 E5 |国内通话套餐 |
-> |港 Lahr |伦敦桥大街 32 号 |Office 365 E5 |国内通话套餐 |
-> |Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3，电话系统加载项 |国内通话套餐 |
-> |Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |国际和国内通话套餐 |
-> |Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3，电话系统加载项 |国内通话套餐 |
+> |Emily Braun |32 伦敦桥-街道 |Office 365 E5 |国际和国内通话套餐 |
+> |Lidia Holloway |32 伦敦桥-街道 |Office 365 E5 |国内通话套餐 |
+> |港 Lahr |32 伦敦桥-街道 |Office 365 E5 |国内通话套餐 |
+> |Marcel Beauchamp |39 quai 是 Président 罗斯福总统那个时代 |Office 365 E3，电话系统加载项 |国内通话套餐 |
+> |Rachelle Cormier |39 quai 是 Président 罗斯福总统那个时代 |Office 365 E5 |国际和国内通话套餐 |
+> |Isabell Potvin |39 quai 是 Président 罗斯福总统那个时代 |Office 365 E3，电话系统加载项 |国内通话套餐 |
 
 <!--ENDOFSECTION-->
 
@@ -245,7 +245,7 @@ ms.locfileid: "30461889"
 
 使用 Communications 字幕式，用户可以从电话拨出音频会议 （外部会议组织者发起国家/地区） 世界任意位置添加从其他人。 您可以设置 Communications 字幕式为您的组织，以使用户为他们已耗尽而无需等待，直到下个月的帐单周期呼叫分钟，其分配后发起出站呼叫。 此外，Communications 字幕式授予用户分配与国内调用规划进行国际呼叫，然后使用"付薪每分钟"模型收取的能力。
 
-实施通信点数时首先要考虑的是确定要购买的初始资金数额。 如果您的组织选择使用自动充电，您将通过测量实际使用率决定最佳量。 随时间推移，监视 Communications 字幕式使用率，并调整您所需的充电额。
+首先要考虑以便实现 Communications 字幕式时是确定资金，若要购买的初始量。 如果您的组织选择使用自动充电，您将通过测量实际使用率决定最佳量。 随时间推移，监视 Communications 字幕式使用率，并调整您所需的充电额。
 
 对于调用计划实现中，您可以控制使用 Communications 字幕式基于每个用户，它可以帮助您确保您已与您的业务需求分配这些字幕式中对齐方式。
 
@@ -261,14 +261,14 @@ ms.locfileid: "30461889"
 > [!TIP]
 > 使用下面的示例文档调用计划的用户的通信字幕式工作分配列表。
 > 
-> |用户 |办公地点 |调用计划 |通信点数 |
+> |用户 |Office |调用计划 |通信点数 |
 > |----|----|----|----|
-> |Emily Braun |伦敦桥大街 32 号 |国际和国内通话套餐 |已启用 |
-> |Lidia Holloway |伦敦桥大街 32 号 |国内通话套餐 |已禁用 |
-> |港 Lahr |伦敦桥大街 32 号 |国内通话套餐 |已启用 |
-> |Marcel Beauchamp |39 quai du Président Roosevelt |国内通话套餐 |禁用 |
-> |Rachelle Cormier |39 quai du Président Roosevelt |国际和国内通话套餐 |启用 |
-> |Isabell Potvin |39 quai du Président Roosevelt |国内通话套餐 |已禁用 |
+> |Emily Braun |32 伦敦桥-街道 |国际和国内通话套餐 |已启用 |
+> |Lidia Holloway |32 伦敦桥-街道 |国内通话套餐 |已禁用 |
+> |港 Lahr |32 伦敦桥-街道 |国内通话套餐 |已启用 |
+> |Marcel Beauchamp |39 quai 是 Président 罗斯福总统那个时代 |国内通话套餐 |已禁用 |
+> |Rachelle Cormier |39 quai 是 Président 罗斯福总统那个时代 |国际和国内通话套餐 |已启用 |
+> |Isabell Potvin |39 quai 是 Président 罗斯福总统那个时代 |国内通话套餐 |已禁用 |
 
 <br>
 
@@ -277,9 +277,9 @@ ms.locfileid: "30461889"
 >
 > |         |         |
 > |---------|---------|
-> |初始数额|$ 1,000|
-> |触发数额|$400|
-> |自动充值数额|TBA|
+> |初始量|1000|
+> |触发量|$ 400|
+> |自动充电量|TBA|
 
 <!--ENDOFSECTION-->
 
@@ -370,38 +370,38 @@ Office 365 的电话系统功能中的拨号计划是翻译的规范化规则的
 > [!TIP]
 > 适用于您的项目时，您可以使用以下模板文档的租户拨号计划配置。
 > 
-> |租户拨号计划名称<br>_说明_  |规范化规则名称<br>_说明_  |模式<br>转换<br>IsInternalExtension  |
+> |租户的拨号计划名称<br>_说明_  |规范化规则名称<br>_说明_  |模式<br>转换<br>IsInternalExtension  |
 > |---------|---------|---------|
-> |**AU-NSW-NorthRyde-OER**<br>_新南威尔士北莱德 Epping 路一号，AU 拨号计划_|**AU-NSW-NorthRyde-OER-Internal**<br>_澳大利亚新南威尔士北莱德 Epping 路一号办公地点的内部号码 (x7000 - x7999)_|^(7\d{3})$<br>+6125550$1<br>True|
-> ||**AU-NSW-Local**<br>_澳大利亚新南威尔士的本地号码规范化_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
-> ||**AU-TollFree**<br>_澳大利亚的免费电话号码规范化_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
-> ||**AU-Service**<br>_澳大利亚的服务号码规范化_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
-> |**SG-Singapore-OMB**<br>_新加坡 OMB，SG 拨号计划_|**SG-OMB-Internal**<br>_内部号码 （"x 8999 x8000 â €） OMB office，新加坡_|^(8\d{3})$<br>+656888$1<br>True|
-> ||**SG-TollFree**<br>_新加坡的免费电话号码规范化_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
-> ||**SG-Service**<br>_新加坡的服务号码规范化_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
-> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux，法国拨号计划_|**FR-39qdPR-Internal**<br>_内部号码 （"x 7999 x7000 â €） 39 quai 是 Président Roosevelt office，Issy-les-Moulineaux，法国_|^(7\d{3})$<br>+3319999$1<br>True|
-> ||**FR-TollFree**<br>_法国的免费电话号码规范化_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
-> ||**FR-Service**<br>_法国的服务号码规范化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+> |**AU NSW NorthRyde OER**<br>_一个 Epping 旅途北美 Ryde，NSW，AU 拨号计划_|**AU-NSW-NorthRyde-OER-内部**<br>_一个 Epping 旅途 office，北美 Ryde，NSW，澳大利亚内部号码 (x7000-x 7999)_|^(7\d{3})$<br>+ 6125550$ 1<br>True|
+> ||**AU NSW 本地**<br>_本地号码规范化为 NSW，澳大利亚的_|^ ([2-9] \d{7}) $<br>+612$ 1<br>False|
+> ||**AU 电话**<br>_澳大利亚的收费电话免费号码规范化_|^ (1 [38] \d{4,8}) \d*$<br>能包含长途 $1<br>False|
+> ||**AU 服务**<br>_澳大利亚的服务号码规范化_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
+> |**SG-新加坡 OMB**<br>_OMB 新加坡，SG 拨号计划_|**SG OMB 内部**<br>_内部号码 （"x 8999 x8000 â €） OMB office，新加坡_|^(8\d{3})$<br>+ 656888$ 1<br>True|
+> ||**SG 电话**<br>_新加坡收费免费号码规范化_|^(1?800\d{7}) \d*$<br>65$ 1<br>False|
+> ||**SG 服务**<br>_新加坡服务号码规范化_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
+> |**FR 巴黎 Issy 39qdPR**<br>_39 quai 是 Président Roosevelt Issy-les-Moulineaux，法国拨号计划_|**FR 39qdPR 内部**<br>_内部号码 （"x 7999 x7000 â €） 39 quai 是 Président Roosevelt office，Issy-les-Moulineaux，法国_|^(7\d{3})$<br>+ 3319999$ 1<br>True|
+> ||**FR 电话**<br>_法国收费免费号码规范化_|^ 0?(80\d{7}) \d*$<br>: + 33$ 1<br>False|
+> ||**FR 服务**<br>_法国服务号码规范化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
 
 > [!TIP]
-> 可以利用下面的示例模板来记录拨号计划分配以支持你的项目：
+> 下面的示例模板可以利用对文档拨号计划分配来支持您的项目：
 >
-> |用户  |办公地点  |拨号计划类型  |拨号计划名称  |
+> |用户  |Office  |拨号计划类型  |拨号计划名称  |
 > |---------|---------|---------|---------|
-> |Adele Vance|Epping 路一号|租户拨号计划|AU-NSW-NorthRyde-OER|
-> |Alex Wilber|Epping 路一号|租户拨号计划|AU-NSW-NorthRyde-OER|
-> |Ben Walters|Epping 路一号|租户拨号计划|AU-NSW-NorthRyde-OER|
-> |Christie Cline|滨海林荫道一号|租户拨号计划|SG-Singapore-OMB|
-> |Debra Berger|滨海林荫道一号|租户拨号计划|SG-Singapore-OMB|
-> |Lee Gu|滨海林荫道一号|租户拨号计划|SG-Singapore-OMB|
-> |Emily Braun|伦敦桥大街 32 号|服务拨号计划|不适用|
-> |Lidia Holloway|伦敦桥大街 32 号|服务拨号计划|不适用|
-> |港 Lahr|伦敦桥大街 32 号|服务拨号计划|不适用|
-> |Marcel Beauchamp|39 quai du Président Roosevelt|租户拨号计划|FR-Paris-Issy-30qdPR|
-> |Rachelle Cormier|39 quai du Président Roosevelt|租户拨号计划|FR-Paris-Issy-30qdPR|
-> |Isabell Potvin|39 quai du Président Roosevelt|租户拨号计划|FR-Paris-Issy-30qdPR|
+> |Adele Vance|一个 Epping 旅途|租户拨号计划|AU NSW NorthRyde OER|
+> |Alex Wilber|一个 Epping 旅途|租户拨号计划|AU NSW NorthRyde OER|
+> |Ben Walters|一个 Epping 旅途|租户拨号计划|AU NSW NorthRyde OER|
+> |很快 Cline|一个船坞 Boulevard|租户拨号计划|SG-新加坡 OMB|
+> |徐高阳|一个船坞 Boulevard|租户拨号计划|SG-新加坡 OMB|
+> |李 Gu|一个船坞 Boulevard|租户拨号计划|SG-新加坡 OMB|
+> |Emily Braun|32 伦敦桥-街道|服务拨号计划|不适用|
+> |Lidia Holloway|32 伦敦桥-街道|服务拨号计划|不适用|
+> |港 Lahr|32 伦敦桥-街道|服务拨号计划|不适用|
+> |Marcel Beauchamp|39 quai 是 Président 罗斯福总统那个时代|租户拨号计划|FR 巴黎 Issy 30qdPR|
+> |Rachelle Cormier|39 quai 是 Président 罗斯福总统那个时代|租户拨号计划|FR 巴黎 Issy 30qdPR|
+> |Isabell Potvin|39 quai 是 Président 罗斯福总统那个时代|租户拨号计划|FR 巴黎 Issy 30qdPR|
 
 <!--ENDOFSECTION-->
 
@@ -409,17 +409,17 @@ Office 365 的电话系统功能中的拨号计划是翻译的规范化规则的
 
 使用从本文前面几节的信息来记录您服务的决策。 一般情况下，本文档将包含以下主要章节：
 
--   具有通话套餐的电话系统地点启用列表
+-   与调用计划网站启用列表的电话系统
 
--   具有通话套餐的电话系统用户的许可证分配
+-   电话系统与调用计划的用户的许可证分配
 
--   通信点数计划数量
+-   Communications 字幕式规划号码
 
--   电话号码获取、电话号码和紧急位置详细信息
+-   电话号码获取、 电话号码和紧急位置详细信息
 
 -   语音邮件配置详细信息
 
--   呼叫方 ID 屏蔽配置详细信息
+-   呼叫者 ID 屏蔽配置详细信息
 
 -   租户拨号计划
 

@@ -29,16 +29,16 @@ f1keywords:
 ms.custom:
 - Licensing
 description: '了解如何支付通信字幕式 （PSTN 消耗量） 的 Skype 业务服务并查看计划以保留您具有连续电话系统的访问权限的用户。 '
-ms.openlocfilehash: f2b4b6d882753e20d2c7d401fb4fb63082b02f0f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: bbb24094e7aefd428e510273a922dab4461b7dde
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542252"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569077"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>添加资金并管理通信点数
 
-Communications 字幕式是用于电话系统和调用计划在 Office 365 中的便捷方法。 它有助于确保您和您的用户永远不会捕获而无需成为能够：
+Communications 字幕式是用于电话系统和调用计划在 Office 365 中的便捷方法。 通信字幕式有助于确保您和您的用户永远不会捕获而无需成为能够：
   
 - 拨入音频会议使用免费电话拨入电话号码。
     
@@ -78,7 +78,7 @@ Communications 字幕式是用于电话系统和调用计划在 Office 365 中�
     
 您还可以参见信息通过[登录到 Office 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)，转到**帐单** > **订阅** > **添加订阅**。
   
-若要查看使用许可证或许可证需要为每个功能的表，请参阅 [teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+若要查看使用许可证或许可证需要为每个功能的表，请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 ## <a name="related-topics"></a>相关主题
 

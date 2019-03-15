@@ -3,7 +3,7 @@ title: Microsoft 团队用户应用计划 |最佳实践
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ad07d4445e02c10eb75a62d6fa2933b413b8107
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cb457ff6f5ba40575a8a7fc35738d8dda1ce45f5
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463273"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569971"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 
@@ -34,9 +34,9 @@ ms.locfileid: "30463273"
 
 网络的状态会影响的用户体验。 当用户具有较差的体验 （例如，呼叫下降或延迟时间加入会议时），它们与技术本身，与这种技术操作不起作用印象保留它们，然后打开不受支持的应用程序门关联这。 实施计划监视和缓解网络运行状况有助于确保良好的用户体验除了减少到支持桌面电话。 有关详细信息，请参阅以下文章：
 
-- [运行您的服务](upgrade-operate-my-service.md)
-- [监视质量](upgrade-monitor-quality.md)
-- [增强您的服务](upgrade-enhance-my-service.md)
+- [运行服务](upgrade-operate-my-service.md)
+- [监控质量](upgrade-monitor-quality.md)
+- [增强服务](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>驱动器用户 momentum 和采用
 

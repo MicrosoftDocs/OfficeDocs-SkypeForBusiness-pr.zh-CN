@@ -13,14 +13,14 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: 了解什么需要迁移到直接路由从 Skype 业务联机和团队配置角度。
-ms.openlocfilehash: 100999483aa3246807008c2e8c60fc6d3ed5baa9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: ff70af11783fb184fc3599fdb6d5fc13c15478a7
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353111"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569923"
 ---
-# <a name="migrating-to-direct-routing"></a>迁移到直接路由
+# <a name="migrate-to-direct-routing"></a>迁移到直接路由
 
 本文介绍了所需从业务 Online 和 Microsoft 团队配置角度 Skype 直接路由到迁移。 本文介绍如何从以下迁移： 
  
@@ -35,7 +35,7 @@ ms.locfileid: "30353111"
 
 下表显示为与 Office 365 电话系统所选 PSTN 连接选项设置为用户的最终状态。 显示仅语音相关的属性。
 
-|用户对象属性 |具有通话套餐的电话系统|电话系统与本地 Skype 通过 PSTN 连接的业务服务器|在本地与云连接器通过 PSTN 连接电话系统|PSTN 连接，通过直接路由内部部署与电话系统|
+|用户对象属性 |调用计划的电话系统|电话系统与本地 Skype 通过 PSTN 连接的业务服务器|在本地与云连接器通过 PSTN 连接电话系统|PSTN 连接，通过直接路由内部部署与电话系统|
 |---|---|---|---|---|
 |客户端|适用于商务或团队的 Skype |Skype for Business |Skype for Business |Teams|
 |许可证|在线 Skype 业务</br>计划 2</br></br>MCOProfessional 或 MCOSTANDARD）</br></br></br>电话系统 (MCOEV)</br></br></br>通话套餐</br>团队|Skype 业务 Online 计划 2 （MCOProfessional 或 MCOSTANDARD）</br></br></br>电话系统 (MCOEV)|Skype 业务 Online 计划 2 （MCOProfessional 或 MCOSTANDARD）</br></br></br>电话系统 (MCOEV)|Skype 业务 Online 计划 2 （MCOProfessional 或 MCOSTANDARD</br></br></br>电话系统 (MCOEV)</br></br>团队|

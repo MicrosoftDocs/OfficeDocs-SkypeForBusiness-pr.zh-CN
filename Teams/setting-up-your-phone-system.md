@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为组织设置电话系统 (云 PBX)。 '
-ms.openlocfilehash: ef677e694ca170b7576f6613cbfddd83f9b493b0
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 5423ceb0dcd4de03c95ff956e50442a784de877c
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542884"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633279"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>设置组织内的电话系统
 
@@ -205,7 +205,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
       > [!NOTE]
       > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-**有关音频会议的详细信息，请参阅 [设置音频会议](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) 。**
+**有关音频会议的详细信息，请参阅[设置 Microsoft 团队的音频会议](set-up-audio-conferencing-in-teams.md)。**
 
 ## <a name="step-7-if-you-want-to-set-up-a-phone-system-call-queue"></a>步骤 7：如果您想要设置电话系统呼叫队列
 

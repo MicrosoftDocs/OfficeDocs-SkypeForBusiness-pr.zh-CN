@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: 摘要： 了解可用于监视服务器运行统一通信 Web API (UCWA) 和 Skype 业务服务器 Mcx Mobility Service 的性能计数器。
-ms.openlocfilehash: a1e44d0ba7fec9eb50d7d1f1bcea78a85a1f4955
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: dc2f414dce47442d50018c4a800a0c91279068c8
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969843"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "21226993"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Skype 业务服务器中的移动性能计数器
  
@@ -27,7 +27,7 @@ UCWA 表中的计数器的类别名称是**LS:WEB-UCWA**。
 Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communication Service**。
 
 > [!NOTE]
-> MCX 旧的移动客户端支持不再可用的业务服务器 2019 Skype 中。 您的用户需要升级到当前客户端。
+> MCX (Mobility Service) 支持旧的移动客户端的不再可用的业务服务器 2019 Skype 中。 业务移动客户端的所有当前 Skype 已使用统一通信 Web API (UCWA) 来支持即时消息 (IM)、 状态和联系人。 与使用 MCX 的旧客户端的用户需要升级到当前客户端。
   
 ## <a name="performance-counters-for-ucwa"></a>UCWA 性能计数器
 
@@ -114,4 +114,4 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communi
 |Total Successful Outbound Voice Calls  <br/> |成功的出站语音呼叫总数  <br/> |
    
 > [!NOTE]
-> MCX 旧的移动客户端支持不再可用的业务服务器 2019 Skype 中。 您的用户需要升级到当前客户端。
+> MCX (Mobility Service) 支持旧的移动客户端的不再可用的业务服务器 2019 Skype 中。 业务移动客户端的所有当前 Skype 已使用统一通信 Web API (UCWA) 来支持即时消息 (IM)、 状态和联系人。 与使用 MCX 的旧客户端的用户需要升级到当前客户端。
