@@ -4,7 +4,7 @@ author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 ms.date: 10/20/17
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
@@ -14,17 +14,17 @@ search.appverid: MET150
 description: 简要介绍如何在 Microsoft Teams 中邀请来宾加入团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85956acbdd07ea5e014c93a1229a1ebc432b718f
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d8bc9eabb467479b0b33793ace9fc0b97d179f93
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458873"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640711"
 ---
 <a name="how-a-guest-joins-a-team"></a>来宾加入团队的方式
 ========================
 
-Microsoft Teams 中的团队所有者可以通过 Web 或桌面在其团队中添加和管理来宾。 具有企业或消费者电子邮件帐户（例如 Outlook、Gmail 或其他帐户）的任何人都能以访客身份参与 Teams，并对团队聊天、会议和文件具有完全访问权限。 仅贵组织外部的人员（例如，合作伙伴或顾问）可以添加为来宾。 贵组织中的人员可以作为常规团队成员加入。
+Microsoft Teams 中的团队所有者可以通过 Web 或桌面在其团队中添加和管理来宾。 具有业务或使用者的电子邮件帐户，如 Outlook、 Gmail，或其他任何人都可以参与作为来宾团队中具有到团队聊天、 会议和文件的完全访问权限。 仅贵组织外部的人员（例如，合作伙伴或顾问）可以添加为来宾。 贵组织中的人员可以作为常规团队成员加入。
   
 > [!NOTE]
 > 管理员必须在 Teams 中启用来宾访问，来宾才可以加入团队。 若要执行的操作，请参阅[打开或关闭 Microsoft 团队的来宾访问](set-up-guests.md)。 

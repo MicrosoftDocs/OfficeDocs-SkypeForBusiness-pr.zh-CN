@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/11/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
 description: 包括审核和报告、 合规性内容搜索、 电子数据展示，和更多的 Microsoft 团队的安全性和遵从性功能的概述。
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c1288bee6e2b1adcceb3b899f705536c8a00133
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: d78f1e0a4f1c3a5ca95dff0f50d688c2d8a6b239
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493978"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640783"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和合规性概述
 ======================================================
@@ -96,11 +96,11 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 | 信息保护功能 | Office 365 商业协作版 | Office 365 商业高级版 | Office 365 企业版 E1 | Office 365 企业版 E3/E4 | Office 365 企业版 E5 |
 |-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
 |              存档              |               -                |              -              |            -             |             是              |           是             |
-|        就地电子数据展示        |               -                |              -              |            -             |             是              |           是            |
+|        就地电子数据展示        |               -                |              -              |            -             |             是              |           是             |
 |        高级电子数据展示        |               -                |              -              |            -             |              -              |           是            |
 |            法定保留             |               -                |              -              |            -             |             是              |           是             |
-|     合规性内容搜索     |               -                |             是              |           是             |             是              |           是            |
-|      审核和报告       |              是               |             是              |           是             |             是              |           是            |
+|     合规性内容搜索     |               -                |             是              |           是             |             是              |           是             |
+|      审核和报告       |              是               |             是              |           是             |             是              |           是             |
 |       条件的访问\*        |              是                |             是              |           是             |             是              |           是            |
 
 > [!NOTE]

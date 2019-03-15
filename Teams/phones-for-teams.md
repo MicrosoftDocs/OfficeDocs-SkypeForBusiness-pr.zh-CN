@@ -4,7 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.reviewer: kponnus
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.audience: Admin
 appliesto:
@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: 本文介绍 Microsoft 团队和 Microsoft 团队认证的电话中支持的功能认证的电话的列表。
-ms.openlocfilehash: 55777b0bdf03b51e01ffe127e173adb475c957e6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 9531d1c3619c15b0b8669708e40264fec5f211fd
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461793"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640983"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 的电话功能
 
@@ -45,7 +45,7 @@ Microsoft 团队支持的用户需要传统的电话体验的项目组合的桌�
 |**通话** |  |  |
 |P2P 传入/传出呼叫 | 是   |是  |
 |呼叫控件通过 UI （静音、 保持/继续、 传输、 终止呼叫）| 是   |是  |
-|PSTN 呼叫| 是   |是 |
+|PSTN 呼叫| 是   |是  |
 |可视语音邮件 | 是 | 否 |
 |911 的支持  | 是   |是  |
 |**日历和状态**|   | |

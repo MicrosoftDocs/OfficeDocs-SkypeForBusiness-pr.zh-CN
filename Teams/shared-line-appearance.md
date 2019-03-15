@@ -5,7 +5,7 @@ author: lolaj
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc
-ms.topic: article
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 共享的行外观允许用户选择代理人应答或处理代表其拨打的呼叫。
-ms.openlocfilehash: 0a110e18cb8a939870528d2700ec54103cf91a6e
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 81eea77595f07db5772ffc4f3d6ee0b0dafa95c5
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541693"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641205"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams 中的共享线路外观
 
@@ -51,14 +51,14 @@ ms.locfileid: "30541693"
 
 | 功能 | 团队桌面 | 团队 Mac 应用程序 | 工作组 Web 应用程序 （边缘） |团队移动 iOS/Android 应用程序 | 团队 IP 电话 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| 设置委派 | 是 | 是 | 是 | 否 | 否 |
-| 接收代表另一个呼叫 | 是 | 是 | 是 | 是 | 是 |
-| 呼叫代表另一个电话号码 | 是 | 是 | 是 | 是 | 是 |
-| 代表其他呼叫团队用户 | 是 | 是 | 是 | 是 | 是 |
-| 查看共享的行的管理视图 | 是 | 是 | 是 | 否 | 否 |
-| 请参阅经理的呼叫活动的管理视图 | 是 | 是 | 是 | 否 | 否 |
-| 查看代理人的管理器视图 | 是 | 是 | 是 | 否 | 否 |
-| 管理员或管理器可以保持或恢复 | 是 | 是 | 是 | 否 | 否 |
+| 设置委派 | 是  | 是  | 是 | 否 | 否 |
+| 接收代表另一个呼叫 | 是  | 是  | 是  | 是  | 是 |
+| 呼叫代表另一个电话号码 | 是  | 是  | 是  | 是  | 是 |
+| 代表其他呼叫团队用户 | 是  | 是  | 是  | 是  | 是 |
+| 查看共享的行的管理视图 | 是  | 是  | 是 | 否 | 否 |
+| 请参阅经理的呼叫活动的管理视图 | 是  | 是  | 是 | 否 | 否 |
+| 查看代理人的管理器视图 | 是  | 是  | 是 | 否 | 否 |
+| 管理员或管理器可以保持或恢复 | 是  | 是  | 是 | 否 | 否 |
 
 ## <a name="limitations"></a>限制
 

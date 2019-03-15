@@ -3,7 +3,7 @@ title: 在 Microsoft Teams 中实施 QoS 和监控通话分析
 author: jambirk
 ms.author: jambirk
 manager: Serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jambirk
 description: 使用服务质量 (QoS) 设置，然后调用分析和呼叫质量仪表板中的 Microsoft 团队。
@@ -14,12 +14,12 @@ MS.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a40b5d14268323f1231377e96b75a3120145245
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 77730db17e900951f0fe1a60b7c0ae2ccdbfbc5b
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408248"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641070"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>在 Microsoft 团队中实现 QoS 和监视呼叫质量
 

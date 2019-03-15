@@ -1,10 +1,10 @@
 ---
-title: Microsoft Teams 中的数据的位置
+title: Microsoft Teams 中的数据位置
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/11/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
 description: 了解如何在 Microsoft 团队中存储数据的位置。
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd454c1ec03420f01797f5af19e62d5d9419133a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 7a5c8ca2676b62382c146f897453ffa4e8624ecc
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463233"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640911"
 ---
-# <a name="location-of-data-in-microsoft-teams"></a>Microsoft Teams 中的数据的位置
+# <a name="location-of-data-in-microsoft-teams"></a>Microsoft Teams 中的数据位置
 
 Teams 中的数据位于与你的 Office 365 租户关联的地理区域。 目前，团队支持澳大利亚、 加拿大、 印度、 日本、 英国、 美国、 APAC 和 EMEA 区域。 
 

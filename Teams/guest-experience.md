@@ -4,7 +4,7 @@ author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 ms.date: 11/26/18
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9301ecf94588560b1ba11b17b2c7f92d89cb072a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 041bd5db6f0579a21dbdff15136e91a70e5a8d21
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458977"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641078"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
@@ -56,19 +56,19 @@ ms.locfileid: "30458977"
 
 | 呼叫功能 | 来宾 | E1 和 E3 用户 | E5 和 EV 用户 |
 | --------------- | ----- | -------------- | -------------- |
-| VOIP 呼叫 | 是 | 是 | 是 |
-| 组呼叫 | 是 | 是 | 是 |
-| 核心呼叫控件支持 （保留，设置为静音，视频开/关屏幕共享） | 是 | 是 | 是 |
-| 传送目标 | 是 | 是 | 是 |
-| 可以将呼叫转接 | 是 | 是 | 是 |
-| 可以咨询转接 | 是 | 是 | 是 |
-| 可以通过 VOIP 呼叫中添加其他用户 | 是 | 是 | 是 |
+| VOIP 呼叫 | 是 | 是  | 是  |
+| 组呼叫 | 是 | 是  | 是  |
+| 核心呼叫控件支持 （保留，设置为静音，视频开/关屏幕共享） | 是 | 是  | 是  |
+| 传送目标 | 是 | 是  | 是  |
+| 可以将呼叫转接 | 是 | 是  | 是  |
+| 可以咨询转接 | 是 | 是  | 是  |
+| 可以通过 VOIP 呼叫中添加其他用户 | 是 | 是  | 是  |
 | 可以向呼叫添加用户的电话号码 | 否 | 否 | 是 |
-| 转发目标 | 否 | 是 | 是 |
-| 呼叫组目标 | 否 | 是 | 是 |
-| 未应答的目标 | 否 | 是 | 是 |
-| 可以是呼叫的联盟的目标 | 否 | 是 | 是 |
-| 可以进行联盟的呼叫 | 否 | 是 | 是 |
+| 转发目标 | 否 | 是 | 是  |
+| 呼叫组目标 | 否 | 是 | 是  |
+| 未应答的目标 | 否 | 是 | 是  |
+| 可以是呼叫的联盟的目标 | 否 | 是 | 是  |
+| 可以进行联盟的呼叫 | 否 | 是 | 是  |
 | 可以将其呼叫立即转接 | 否 | 否 | 是 |
 | 可以同时拨打其电话 | 否 | 否 | 是 |
 | 可以将其未应答的呼叫路由 | 否 | 否 | 是 |

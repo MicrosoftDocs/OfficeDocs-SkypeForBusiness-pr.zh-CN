@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 04/16/2018
-ms.topic: article
+ms.topic: reference
 audience: Admin
 ms.service: msteams
 ms.reviewer: ''
@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2eeffd8e59272c1f7c8fa756edecab94fd5ab11
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 20a10288c53ef26e47f50339c581901bd4e33958
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460265"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640695"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>适用于 Microsoft Teams 的 Office 365 许可
 ========================================
@@ -46,7 +46,7 @@ ms.locfileid: "30460265"
 > Teams 也适用于非盈利组织。 团队将开始推出的美国政府云社区 (GCC) 在年 7 月 17 日，并可供所有合格客户年 8 月 2018年结束。 我们正在置于的其他美国政府云 （GCC 高和 DoD） 的 Microsoft 团队即将提供。 更多的 Microsoft 团队博客中阅读[此处](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)。
 
 > [!NOTE]
-> 从 2018 年 10 月 1 日起，将向拥有 500 或以下席位的新 Office 365 客户提供 Teams，他们将无法访问 Skype for Business Online。 已在使用 Skype for Business Online 的租户将能够继续使用（包括预配新用户），直到他们完成到 Teams 的过渡。 要了解详细信息，请参阅 [Microsoft Teams 现在是 Office 365 中的主要会议和通话客户端](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)。
+> 启动年 10 月 1 2018年 500 座位或更少的新 Office 365 客户将向工作组 onboarded，并且将无法访问 Skype 业务 online。 已使用 Skype 的业务联机都将能够继续进行的租户 （包括设置新的用户） 是直至其过渡到团队。 若要了解详细信息，请参阅[Microsoft 团队现在主客户端的会议和 Office 365 中调用](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)。
         
 团队核心功能方面没有任何区别的 Office 365 订阅。 合规性功能的可用性依赖于正确的订阅级别。 要了解详细信息，请阅读 [Teams 中的安全性和合规性概述](security-compliance-overview.md)。 每个订阅中可用的功能的详细列表，请参阅[Office 365 平台服务说明](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)。
 

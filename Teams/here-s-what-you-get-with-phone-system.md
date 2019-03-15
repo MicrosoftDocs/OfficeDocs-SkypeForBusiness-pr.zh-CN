@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 msreviewer: jastarck, makolomi
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 051834d3a0fd232cc9839ee6a72a41e9be127636
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 3982afffc948d58d6793b13c06fa3d29d8e48ac9
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542916"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640919"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是 Office 365 中的电话系统功能
 
-PBX 是一个企业内部电话系统。 Office 365 加载项中的电话系统为您提供了 PBX 的功能，但不带复杂和昂贵设备。 
+PBX 是内部企业电话系统。 Office 365 加载项中的电话系统为您提供了 PBX 的功能，但不带复杂和昂贵设备。 
   
 与电话系统的加载项，您可以使用 for Business 的 Skype 完成基本任务发起和接收呼叫，例如转接呼叫和调节到静音或 unmuting 呼叫，从几乎任何位置具有 Internet 访问权限。 此功能全球通用！ 
   
@@ -77,7 +77,7 @@ PBX 是一个企业内部电话系统。 Office 365 加载项中的电话系统�
     
 请参阅规划和电话系统中您的业务设置以下文章：
 
-- [具有通话套餐的电话系统](calling-plan-landing-page.md)
+- [调用计划的电话系统](calling-plan-landing-page.md)
 
 - [设置呼叫计划](set-up-calling-plans.md)： 本文已获取设置与您的电话号码，或要转接到 for Business 的 Skype 您现有的电话号码的分步说明。
     

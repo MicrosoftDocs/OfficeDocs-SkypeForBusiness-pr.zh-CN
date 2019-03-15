@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 10/05/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
 description: 了解这些限制、 规格和适用于 Microsoft 团队的其他要求。
@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4da0f7049912c246a58792c8c03c15b28a083cbc
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 391fd25aeec4ae52b31865f25be9b127158ef764
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460649"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641165"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 =============================================
@@ -54,7 +54,7 @@ ms.locfileid: "30460649"
 
 Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网站，团队中的每个频道在默认团队网站文档库中都有一个文件夹。 对话中共享的文件会自动添加到文档库中，在 SharePoint 中设置的权限和文件安全选项会自动反映在 Teams 中。
 
-如果您没有 SharePoint Online 租户中启用，Microsoft 团队用户始终不能共享团队中的文件。 此外，由于该功能需要 OneDrive for Business（它与 SharePoint 许可证关联），因此私人聊天中的用户无法共享文件。
+如果您没有 SharePoint Online 租户中启用，Microsoft 团队用户始终不能共享团队中的文件。 私人聊天中的用户也无法共享文件，因为该功能所必需的 OneDrive for Business （这绑定到 SharePoint 许可证）。
 
 通过在 SharePoint Online 文档库和 OneDrive for Business 中存储文件，在租户级别配置的所有合规性规则将得到遵循。 （有关详细信息，请参阅[如何 SharePoint Online 和 OneDrive for Business 交互的 Microsoft 团队](sharepoint-onedrive-interact.md)。）
 
@@ -80,7 +80,7 @@ Microsoft 团队聊天函数处理 Microsoft Exchange 后端，以便您可以�
 |功能  |Office 365 企业版 E1  |Office 365 企业版 E3  |Office 365 企业版 E5  |Office 365 企业版 F1  |
 |---------|---------|---------|---------|---------|
 |邮件大小限制&dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
-|文件附件限制&Dagger;  | 10     | 10     | 10     | 10    |
+|文件附件限制&Dagger;  |10     |10     |10     |10    |
 |内嵌图像限制&Dagger; |50   |50   |50   |50   |
 
 &dagger;如果邮件超过此限制，生成预览消息，并要求用户要查看/下载原始电子邮件从提供的链接。
@@ -89,7 +89,7 @@ Microsoft 团队聊天函数处理 Microsoft Exchange 后端，以便您可以�
 
 有关详细信息，请参阅[Exchange Online 限制](https://technet.microsoft.com/library/exchange-online-limits.aspx)。
 
-<a name="browsers"></a> 浏览器 
+<a name="browsers"></a>浏览器 
 --------
 
 [!INCLUDE [browser-support](includes/browser-support.md)]

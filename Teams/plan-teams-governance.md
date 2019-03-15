@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 08/10/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 description: 了解如何规划团队中实现调控功能。
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0792bf80ebc2d55f4f60e72fe0373a6d86df3923
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 2ce14fee8e9039f538d39c61ef4436c69160b222
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464873"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640943"
 ---
-# <a name="plan-for-governance-in-teams"></a>团队中的治理规划
+# <a name="plan-for-governance-in-teams"></a>在 Teams 中规划管理
 
 团队提供了一组丰富的工具，以实现您的组织可能需要任何管理功能。 本文指导 IT 专业人员提出正确的问题，以确定他们的调控和如何满足这些要求。 
 
@@ -118,7 +118,7 @@ ms.locfileid: "30464873"
 所有设置，包括有关如何为您的组织，实现这些技术指南的详细列表，请参阅以下文章：
 
 -   [管理 Office 365 组织中的 Microsoft Teams 功能](enable-features-office-365.md)
--   [在过渡到全新的 Microsoft Teams 管理中心期间管理团队](manage-teams-skypeforbusiness-admin-center.md)
+-   [在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
 -   [管理团队中的会议策略](meeting-policies-in-teams.md)
 
 

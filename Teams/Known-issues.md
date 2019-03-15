@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 2/25/2019
-ms.topic: article
+ms.topic: troubleshooting
 ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64389cdf1455c23f2c234149630a9d6091ee7274
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 718b239da2d65bc01675f91c68ad18f7dee68c3e
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462329"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641229"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -34,7 +34,7 @@ ms.locfileid: "30462329"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|Enhanced Mitigation Experience Toolkit (EMET) 中的 EAF 策略可能会将 Chromium 沙盒优化错误地标识为威胁。 <br/> |Chromium 沙盒存在问题，即 Enhanced Mitigation Experience Toolkit (EMET) 和 Windows Defender 高级威胁防护 (ATP) 中的导出地址表访问筛选 (EAF) 策略可能会将 Chromium 沙盒优化错误地标识为威胁。这会导致 Teams 无法正常运行。  <br/> | 要解决此问题，请对 Teams 关闭 EAF。有关此问题的详细信息，请参阅 [EMET 缓解准则](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines)。有关 Windows Defender ATP 和 EAF 策略的详细信息，请参阅[自定义漏洞利用保护](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |2018 年 10 月 11 日 <br/> |
+|Enhanced Mitigation Experience Toolkit (EMET) 中的 EAF 策略可能会将 Chromium 沙盒优化错误地标识为威胁。 <br/> |Chromium 沙盒存在问题，即 Enhanced Mitigation Experience Toolkit (EMET) 和 Windows Defender 高级威胁防护 (ATP) 中的导出地址表访问筛选 (EAF) 策略可能会将 Chromium 沙盒优化错误地标识为威胁。这会导致 Teams 无法正常运行。  <br/> | 要解决此问题，请对 Teams 关闭 EAF。有关此问题的详细信息，请参阅 [EMET 缓解准则](https://support.microsoft.com/zh-CN/help/2909257/emet-mitigations-guidelines)。有关 Windows Defender ATP 和 EAF 策略的详细信息，请参阅[自定义漏洞利用保护](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |2018 年 10 月 11 日 <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -48,7 +48,7 @@ ms.locfileid: "30462329"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|在桌面应用中使用“网站”选项卡时，[条件访问](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)可能不起作用<br/> |如果网站（例如 Intranet 门户）设有浏览器或 IP 地址限制等条件访问策略，则该网站可能不会在桌面应用中呈现为 Teams 内的选项卡。 <br/> |请在浏览器中使用 Teams 而不是使用桌面应用  <br/> |2018/7/1  <br/> |
+|在桌面应用中使用“网站”选项卡时，[条件访问](https://docs.microsoft.com/zh-CN/azure/active-directory/conditional-access/overview)可能不起作用<br/> |如果网站（例如 Intranet 门户）设有浏览器或 IP 地址限制等条件访问策略，则该网站可能不会在桌面应用中呈现为 Teams 内的选项卡。 <br/> |请在浏览器中使用 Teams 而不是使用桌面应用  <br/> |2018/7/1  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|

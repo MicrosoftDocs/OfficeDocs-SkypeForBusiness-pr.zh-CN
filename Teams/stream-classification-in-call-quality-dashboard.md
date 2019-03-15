@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: gageames
-ms.topic: article
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 了解如何在 Microsoft Teams 和 Skype for Business Online 的呼叫质量仪表板中进行流质量分类。
-ms.openlocfilehash: a04843e45e444da34bf065c1cdfbf0a619be9406
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: b3b63ff8ac89ed0ad1d88893913fa89af769e078
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541717"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641031"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>通话质量仪表板中的流分类
 
@@ -44,7 +44,7 @@ Streams in CQD are classified as good, poor, or unclassified based on the values
 |Audio Degradation Avg|> 1.0|Average Network Mean Opinion Score degradation for stream. Represents how much the network loss and jitter has impacted the quality of received audio.|
 |Round Trip|> 500|计算的平均网络传播往返时间，根据 RFC3550 以毫秒为单位指定。|
 |Packet Loss Rate|> 0.1|流的平均丢包率。|
-|Jitter|> 30|流的平均抖动值，以毫秒为单位。|
+|抖动|> 30|流的平均抖动值，以毫秒为单位。|
 |Ratio Concealed Samples Avg|> 0.07|使用生成的数据包丢失的总数的音频帧的样本隐藏样本数的音频帧的数目的平均比率。|
 
 ### <a name="video-classifier"></a>视频分类器

@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 61dfb27c-5bfa-4481-a930-9c026e73ff3a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 在查找并获取组织的电话号码时，获取的电话号码会比已分配许可证的电话号码多。 但这取决于你已购买并分配的电话号码类型和许可证类型。 您可以单击不同种类的用于调用计划以找出有关业务 online Skype 中使用不同的电话号码的电话号码。
-ms.openlocfilehash: 9adedf15bbedda7aaf03645cf6eaa253e59eadc4
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: d2eba9d9d12610ed93b1da3e322c297fd93424d6
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542980"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640951"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>可以获得多少个电话号码？
 

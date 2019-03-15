@@ -1,10 +1,10 @@
 ---
-title: Microsoft 团队中的保留策略
+title: Microsoft Teams 中的保留策略
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/11/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
 description: 了解如何保留策略以及如何管理这些团队中。
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d07629f41a54dcab1995f2aef2d7536479be25d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c3c253569f642a8833d9bfad6677fe1a17624447
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464553"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640975"
 ---
-# <a name="retention-policies-in-microsoft-teams"></a>Microsoft 团队中的保留策略
+# <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams 中的保留策略
 
 团队对话是永久性的且保留默认情况下不限次数。 保留策略的引入，管理员可以在工作组聊天和频道邮件安全 & 合规性中心中配置保留策略 （保留和删除）。 这有助于组织保留特定时间段法规遵从性 （即保留策略） 的数据，或者如果认为是责任特定的一段时间后删除的数据 （即，删除策略）。 团队保留策略确保删除数据时，它从删除所有团队服务上的永久数据存储位置。 
 

@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 06/08/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sonua
 localization_priority: Normal
@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 介绍如何团队工作负荷利用不同拓扑中的 Office 365 流。
-ms.openlocfilehash: 485bd1706a3b5df9ca7ca92a8644f2470f95b739
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 49393337fd8e4f5c0bbfdf8b3cea0edf383fbd57
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460737"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641086"
 ---
 # <a name="microsoft-teams-online-call-flows"></a>Microsoft Teams 联机通话流程
 
@@ -34,7 +34,7 @@ ms.locfileid: "30460737"
 文档有三个主要部分。 第一个提供背景信息，如网络 （即 Office 365 流可能遍历）、 类型的通信、 客户网络连接指南 to Office 365 服务终结点、 第三方组件和主体互操作性的使用团队选择媒体流。 第二个说明了在各种拓扑中的这些流程的使用情况。 为每个拓扑，它枚举所有支持的流，并说明了如何使用这些流程通过多个用例。 对于每个用例，它介绍顺序以及选择通过流程图的流。 第三个介绍用于优化，通过简单拓扑中说明了部署 Express 路由时如何使用这些流程。
 
 ## <a name="background"></a>背景
-### <a name="network-segments"></a>网络分段
+### <a name="network-segments"></a>网络段
 **客户网络**： 这是控制并管理总体网络一部分的网络段。 这包括客户办公室内的所有客户连接是否有线或无线，办公楼到本地数据中心之间 Internet 提供商、 Express 路由或任何其他专用对等连接。 
 
 通常情况下，客户网络具有多个网络外围防火墙和/或代理服务器，其强制实施组织的安全策略和的仅允许您设置并配置某些网络流量。 由于客户管理此网络，客户可以直接控制的网络，性能，强烈建议完成客户网络评估，以验证性能这两个网络中以及从网站内的您到 Office 365 网络的网络。 在本地部署的业务和 PSTN 会话边界控制器与 PSTN 连接到网络 （即，直接路由） 的 Skype 是可选的。
@@ -49,7 +49,7 @@ ms.locfileid: "30460737"
 
 **Express 路由 （可选）**： 这是您将为您提供专用的专用连接到 Office 365 网络的总体网络一部分的网络段。
 
-### <a name="types-of-traffic"></a>流量类型
+### <a name="types-of-traffic"></a>类型的通信
 
 **实时媒体**： 封装 RTP （实时传输协议） 和支持音频、 视频和共享工作负荷的屏幕中的数据。 一般情况下，媒体流量高度是延迟敏感，因此您希望采用的最直接路径可能，并使用 UDP 和 TCP 作为传输层协议，它是最佳传输质量角度从交互式实时媒体此通信。 (注意： 媒体作为最后的手段，可以使用 TCP/IP 和还隧道 HTTP 协议内，但不是建议由于错误质量影响。)通过 SRTP，只对负载用于加密被安全 RTP 流。
 

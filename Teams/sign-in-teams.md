@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 11/15/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eec164da4dafe9be54272a72680cfa920d32d60c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5dc79f6913a2996734b34d589f124c440eb9835e
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458809"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641102"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式验证登录 Microsoft Teams
 ==========================
@@ -49,7 +49,6 @@ Microsoft 团队使用现代身份验证以保持登录体验简单和安全。 
 如果用户正在 （例如，如果其租户已启用 Kerberos） 的加入域的计算机上，他们不能在他们已完成现代身份验证之后切换用户帐户。 如果用户加入域的计算机上不工作，他们可以切换帐户。
 
 ## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>注销完成现代身份验证后的 Microsoft 团队
-
 要注销团队，用户可以单击顶部的应用程序，其配置文件图片，然后选择**注销**。它们可以右键单击其任务栏上，在应用程序图标，然后选择**注销**。一旦他们已超出团队登录，他们需要输入其凭据重新启动应用程序。
 
 ## <a name="troubleshooting-modern-authentication"></a>疑难解答现代的身份验证

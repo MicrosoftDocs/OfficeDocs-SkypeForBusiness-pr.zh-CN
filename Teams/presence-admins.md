@@ -1,26 +1,28 @@
 ---
-title: 团队中的用户状态
+title: Teams 中的用户状态
 author: jambirk
 ms.author: jambirk
 manager: serdars
 ms.date: 08/21/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: rakayala
 description: 信息管理员需要了解有关在团队中的状态。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1934a602d89240c89ffb4f7410192d19a7dd2e61
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 75710a428273a38954de38ef5b6094d412aa3085
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533023"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640967"
 ---
-# <a name="user-presence-in-teams"></a>团队中的用户状态
+# <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
 状态的用户配置文件中的 Microsoft 团队 （和整个 Office 365） – 的一部分，指示用户的当前的可用性和向组织中的其他用户的状态。 默认情况下使用团队您组织中的任何人都可以看到联机其他用户时可用。
 
@@ -58,9 +60,9 @@ ms.locfileid: "26533023"
 
 Skype for Business 中的以下管理设置是团队中的不同：
 - 状态始终启用共享团队中的组织中的用户。 隐私 （确定谁可以看到的状态） 配置不在工作组中可用。
-- 团队中的用户始终启用共享与所有人 （包括联盟服务） 的状态。 其联系人列表 （如果有一个在 SfB） 是可见下**聊天 > 联系人**或在**呼叫 > 联系人**。
+- 团队中的用户始终启用共享与所有人 （包括联盟服务） 的状态。 可见或**呼叫 > 联系人**下**聊天 > 联系人**其联系人列表 （如果有一个 SfB 中）。
 - 团队中的用户始终启用客户端请勿打扰和突破性的功能。
-- （包括 OOF 和其他日历信息） 的日历集成始终启用团队中的用户，如果与 Outlook 集成。
+- （包括 OOF & 其他日历信息） 的日历集成始终启用团队中的用户，如果与 Outlook 集成。
 - *上一次发现*或*离开相*（如果使用 Skype for Business 的双环境中） 标记始终启用团队中的用户。
 - 未启用团队中的用户设置自定义状态。
 
@@ -68,6 +70,6 @@ Skype for Business 中的以下管理设置是团队中的不同：
 > 当前不支持团队管理员能够自定义这些设置。
 
 
-## <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 的共存
+## <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 共存
 
 有关与 for Business 的 Skype 共存时，团队状态的工作方式的详细信息，请参阅[使用 Skype for Business 的共存](coexistence-chat-calls-presence.md)。 

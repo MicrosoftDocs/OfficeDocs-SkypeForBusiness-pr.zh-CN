@@ -18,10 +18,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a7712caa826804d26fd2e3527183128ce78520c3
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
+ms.lasthandoff: 03/15/2019
 ms.locfileid: "30460233"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>在 Office 365 组织中管理 Microsoft Teams 功能
@@ -56,9 +56,9 @@ These apps are provided by third parties. You can configure the following settin
 
 - **在 Microsoft Teams 中允许外部应用**：打开此设置后，用户可以添加贵组织可用的外部应用。 
 
-- **允许旁加载外部应用**：如果你希望打开一些外部应用并关闭其他外部应用，请关闭此设置，然后在外部应用列表中，关闭你不希望用户访问的应用。 打开此设置后，团队所有者和被授予权限的成员可以向 Teams 旁加载应用。 
+- **Allow sideloading of external apps**: If you want to turn on some external apps and turn off others , turn off this setting, and then in the list of external apps, turn off the apps that you don't want users to access. When this setting is turned on, team owners and members who are granted permission can sideload apps to Teams. 
 
-- **默认启用新的外部应用**：打开此设置后，用户可以在新应用添加到 Teams 应用目录后立即激活它们。 如果你希望控制新应用，请关闭此设置。 当然，如果你关闭此设置，必须记得定期查看新应用，以免贵组织错过新应用。 
+- **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
 
 要了解详细信息，请参阅 [Teams 中适用于应用的管理员设置](admin-settings.md)。 
 
@@ -118,7 +118,7 @@ Microsoft Teams 范围目录搜索使用 Exchange 通讯簿策略 (APB) 允许�
 
 #### <a name="app-preferences"></a>应用首选项
 
-你可以在此处选择用户加入 Skype for Business 会议时使用的应用（Skype for Business 或 [Skype Meetings 应用](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)）。此设置与共存模式设置无关。
+你可以在此处选择用户加入 Skype for Business 会议时使用的应用（Skype for Business 或 [Skype Meetings 应用](https://support.office.com/zh-CN/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)）。此设置与共存模式设置无关。
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>如何了解提供了哪些功能？
 

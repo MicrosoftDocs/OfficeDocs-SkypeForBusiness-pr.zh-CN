@@ -1,10 +1,10 @@
 ---
-title: Microsoft 团队保留策略常见问题
+title: Microsoft Teams 保留策略常见问题解答
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/11/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
 description: 有关 Microsoft 团队中的保留策略的常见问题。
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7597565afcd63872554e867d8f68929a3e214538
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 14e398908a13e621d739a5a923b52588551506f8
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461017"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641332"
 ---
-# <a name="microsoft-teams-retention-policies-faq"></a>Microsoft 团队保留策略常见问题
+# <a name="microsoft-teams-retention-policies-faq"></a>Microsoft Teams 保留策略常见问题解答
 
 ### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>哪些类型的策略可以设置保留策略中以及它们如何工作？
 

@@ -4,7 +4,7 @@ author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 ms.date: 11/25/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7fb3479c8230735d04494bd6aacfbd8d3d23395
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 42ec1ce60a206fa0a67f40c08db4658c0c53e543
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493570"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641187"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 ======================================
@@ -35,7 +35,7 @@ ms.locfileid: "30493570"
 - 请在 [Teams UserVoice](https://aka.ms/TeamsUserVoice) 中将你想要的功能告诉我们。
 - 在下面的“注释”部分中分享你的体验。
 
-来宾访问允许组织中要向其授予对现有团队和上一个或多个租户的频道的访问通过与组织外部的人员进行协作的团队。 具有企业或消费者电子邮件帐户（例如 Outlook、Gmail 或其他帐户）的任何人都能以访客身份参与 Teams，并对团队聊天、会议和文件具有完全访问权限。
+来宾访问允许组织中要向其授予对现有团队和上一个或多个租户的频道的访问通过与组织外部的人员进行协作的团队。 具有业务或使用者的电子邮件帐户，如 Outlook、 Gmail，或其他任何人都可以参与作为来宾团队中具有到团队聊天、 会议和文件的完全访问权限。
 
 来宾访问随所有 Office 365 企业高级版、 Office 365 Enterprise 和 Office 365 教育版订阅与任何其他的许可要求。 每个许可用户最多 5 来宾会对您的租户。 有关许可的详细信息，请参阅[Azure Active Directory B2B 协作许可指南](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance)。 
 

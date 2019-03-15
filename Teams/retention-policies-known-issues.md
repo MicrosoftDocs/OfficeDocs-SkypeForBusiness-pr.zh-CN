@@ -1,10 +1,10 @@
 ---
-title: 有关 Microsoft 团队中的保留策略的已知的问题
+title: Microsoft Teams 中保留策略的已知问题
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/11/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
 description: 当前的 Microsoft 团队保留策略的已知问题的列表。
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 411ef4bf12d55af0b913443219a00f3f56c7eba2
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e64bcb2959060b8237f06a1986f15a093eb321a2
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461185"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641149"
 ---
-# <a name="known-issues-for-retention-policies-in-microsoft-teams"></a>有关 Microsoft 团队中的保留策略的已知的问题
+# <a name="known-issues-for-retention-policies-in-microsoft-teams"></a>Microsoft Teams 中保留策略的已知问题
 
 以下已知问题被的团队中的保留策略的跟踪，调查。
 

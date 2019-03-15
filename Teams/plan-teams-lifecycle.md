@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 09/26/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 description: 了解如何在 Teams 中规划实施生命周期管理规划功能。
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccd8366b746fe21fcfbe81a3878997e4e1b383bc
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b5686ec27495c8bbefbd07701031ddc179244986
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460385"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641356"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>在 Teams 中规划生命周期管理
 

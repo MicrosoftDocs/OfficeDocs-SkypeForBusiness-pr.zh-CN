@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e542dbcba4d098d197dfd70ab663aa06c9144f4c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 17ef7a0575de20fcef7a10e71d8b81e1504f947e
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458833"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640671"
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>获取工具以支持 Microsoft Teams 部署
 =================================================
@@ -28,7 +28,7 @@ Microsoft Teams Customer Success Kit 提供用于协助贵组织在内部成功�
 
 ### <a name="learn-adjust-and-repeat"></a>学习、调整和重复
 
-当你使用 Customer Success Kit 资源完成此处建议的步骤时，你的利益干系人、支持者和用户将会分享反馈。 这些宝贵的见解可以协助你调整你的方法、消息传递和模式，以推动其他采用，并最终实现你的业务成果。 敏捷服务管理模式中的灵活性对于以当前的业务发展步伐获得成功至关重要。 如果你阅读本文档，你即是负责成功完成此部署的核心个人之一，并且你根据当前条件调整计划的能力将加快贵公司的采用过程。
+随着您通过使用客户成功工具包资源推荐的步骤，您的利益干系人、 衫、 和用户将共享的反馈。 这些宝贵的见解可以协助你调整你的方法、消息传递和模式，以推动其他采用，并最终实现你的业务成果。 敏捷服务管理模式中的灵活性对于以当前的业务发展步伐获得成功至关重要。 如果你阅读本文档，你即是负责成功完成此部署的核心个人之一，并且你根据当前条件调整计划的能力将加快贵公司的采用过程。
 
 Microsoft Teams 旨在促进协作，但却是易于使用的功能强大的服务。 定期重审在此旅程开始时选择的业务成果将确保通过采用 Microsoft Teams，你将在那些优先项内实现可衡量业务提升。
 
