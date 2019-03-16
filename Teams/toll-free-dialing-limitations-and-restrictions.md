@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 6b8d5ddb-59c1-4ee7-b171-18e5ace2dcd6
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,20 +22,20 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 这将帮助您了解如何拨号中每个国家/地区免费电话号码。 选择国家/地区后，它会将您导引到特定国家/地区的页面包含特定详细信息、 限制和免费电话服务可用性的限制的免费电话服务位于。 拨号格式将显示您可以拨打的免费电话号码每个国家/地区内所需的访问代码。
-ms.openlocfilehash: 2c5f5d97972fe1c1002ffb16ca39f6a6224beb06
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 854b471cff9affeb6c051a1a7d8993aeb27f7f6d
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542109"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649393"
 ---
-# <a name="toll-free-dialing-limitations-and-restrictions"></a><span data-ttu-id="a5f5f-105">免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="a5f5f-105">Toll-free dialing limitations and restrictions</span></span>
+# <a name="toll-free-dialing-limitations-and-restrictions"></a><span data-ttu-id="cefc2-105">免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="cefc2-105">Toll-free dialing limitations and restrictions</span></span>
 
-<span data-ttu-id="a5f5f-106">这将帮助您了解如何拨打每个国家 / 地区内的免费电话号码。</span><span class="sxs-lookup"><span data-stu-id="a5f5f-106">This will help you find out how to dial toll free numbers in each country or region.</span></span> <span data-ttu-id="a5f5f-107">选择国家/地区后，它会将您导引到页面包含其中收费免费服务可以包括具体的详细信息、 限制和限制。</span><span class="sxs-lookup"><span data-stu-id="a5f5f-107">After you select the country/region, it will take you to a page that contains where toll free service is available including specific details, restrictions, and limits.</span></span> <span data-ttu-id="a5f5f-108">拨号格式将显示您可以拨打的免费电话号码每个国家/地区内所需的访问代码。</span><span class="sxs-lookup"><span data-stu-id="a5f5f-108">The dialing format or formats will show you the required access codes within each country/region to dial the toll-free number.</span></span>
+<span data-ttu-id="cefc2-106">这将帮助您了解如何拨打每个国家 / 地区内的免费电话号码。</span><span class="sxs-lookup"><span data-stu-id="cefc2-106">This will help you find out how to dial toll free numbers in each country or region.</span></span> <span data-ttu-id="cefc2-107">选择国家/地区后，它会将您导引到页面包含其中收费免费服务可以包括具体的详细信息、 限制和限制。</span><span class="sxs-lookup"><span data-stu-id="cefc2-107">After you select the country/region, it will take you to a page that contains where toll free service is available including specific details, restrictions, and limits.</span></span> <span data-ttu-id="cefc2-108">拨号格式将显示您可以拨打的免费电话号码每个国家/地区内所需的访问代码。</span><span class="sxs-lookup"><span data-stu-id="cefc2-108">The dialing format or formats will show you the required access codes within each country/region to dial the toll-free number.</span></span>
   
-<span data-ttu-id="a5f5f-109">如果您准备好，选择的国家或地区：</span><span class="sxs-lookup"><span data-stu-id="a5f5f-109">If you're ready, select a country or region:</span></span>
+<span data-ttu-id="cefc2-109">如果您准备好，选择的国家或地区：</span><span class="sxs-lookup"><span data-stu-id="cefc2-109">If you're ready, select a country or region:</span></span>
   
-## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a><span data-ttu-id="a5f5f-110">选择您的国家或地区，请参阅拨号代码、 限制和限制。</span><span class="sxs-lookup"><span data-stu-id="a5f5f-110">Select your country or region to see the dialing codes, limitations and restrictions.</span></span>
+## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a><span data-ttu-id="cefc2-110">选择您的国家或地区，请参阅拨号代码、 限制和限制。</span><span class="sxs-lookup"><span data-stu-id="cefc2-110">Select your country or region to see the dialing codes, limitations and restrictions.</span></span>
 
 > [!div class="op_single_selector"]    
 > - [阿根廷](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -100,26 +100,26 @@ ms.locfileid: "30542109"
 > - [委内瑞拉](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [Vietnam（越南）](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a><span data-ttu-id="a5f5f-172">下面是有关免费电话号码记住一些重要事项：</span><span class="sxs-lookup"><span data-stu-id="a5f5f-172">Here are some important things for you to remember about toll free numbers:</span></span>
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a><span data-ttu-id="cefc2-172">下面是有关免费电话号码记住一些重要事项：</span><span class="sxs-lookup"><span data-stu-id="cefc2-172">Here are some important things for you to remember about toll free numbers:</span></span>
 
-- <span data-ttu-id="a5f5f-173">**每个国家/地区内仅使用免费电话号码。**</span><span class="sxs-lookup"><span data-stu-id="a5f5f-173">**Toll free numbers only operate within each country/region.**</span></span> <span data-ttu-id="a5f5f-174">例如，用户将无法调用外部澳大利亚澳大利亚免费电话号码。</span><span class="sxs-lookup"><span data-stu-id="a5f5f-174">For example, your users won't be able to call an Australian toll-free number outside of Australia.</span></span>
+- <span data-ttu-id="cefc2-173">**每个国家/地区内仅使用免费电话号码。**</span><span class="sxs-lookup"><span data-stu-id="cefc2-173">**Toll free numbers only operate within each country/region.**</span></span> <span data-ttu-id="cefc2-174">例如，用户将无法调用外部澳大利亚澳大利亚免费电话号码。</span><span class="sxs-lookup"><span data-stu-id="cefc2-174">For example, your users won't be able to call an Australian toll-free number outside of Australia.</span></span>
     
-- <span data-ttu-id="a5f5f-175">**获取或移植通用国际免费电话号码 (UIFN) 不受支持。**</span><span class="sxs-lookup"><span data-stu-id="a5f5f-175">**Acquiring or porting Universal International Freephone Numbers (UIFN) isn't supported.**</span></span>
+- <span data-ttu-id="cefc2-175">**获取或移植通用国际免费电话号码 (UIFN) 不受支持。**</span><span class="sxs-lookup"><span data-stu-id="cefc2-175">**Acquiring or porting Universal International Freephone Numbers (UIFN) isn't supported.**</span></span>
     
-- <span data-ttu-id="a5f5f-176">**在多个国家/地区，调节/电信碳排放量的国家/地区要求每个免费电话号码以保留数维护至少 100 分钟的每月的使用率。**</span><span class="sxs-lookup"><span data-stu-id="a5f5f-176">**In many countries/regions, the regulator/telecommunication agency in the country/region requires each toll free phone number to maintain at least 100 minutes of usage per month in order to retain the number.**</span></span>
+- <span data-ttu-id="cefc2-176">**在多个国家/地区，调节/电信碳排放量的国家/地区要求每个免费电话号码以保留数维护至少 100 分钟的每月的使用率。**</span><span class="sxs-lookup"><span data-stu-id="cefc2-176">**In many countries/regions, the regulator/telecommunication agency in the country/region requires each toll free phone number to maintain at least 100 minutes of usage per month in order to retain the number.**</span></span>
     
     > [!NOTE]
     > 在事件获取免费电话号码和数量的用法不满足以下最低要求，Microsoft 可能不得不通过调节/电信碳排放量回收来自您的编号。 
   
-- <span data-ttu-id="a5f5f-178">**有线、 固定的行和免费电话号码的移动网络访问可能全部或部分受限。**</span><span class="sxs-lookup"><span data-stu-id="a5f5f-178">**Wireline, fixed line, and mobile network access to toll-free numbers may be fully or partially restricted.**</span></span> <span data-ttu-id="a5f5f-179">拨号格式介绍每个国家/地区使用免费号码进行呼叫所需的访问代码。</span><span class="sxs-lookup"><span data-stu-id="a5f5f-179">The dialing format describes the required access codes within each country/region to place calls using the toll free number.</span></span>
+- <span data-ttu-id="cefc2-178">**有线、 固定的行和免费电话号码的移动网络访问可能全部或部分受限。**</span><span class="sxs-lookup"><span data-stu-id="cefc2-178">**Wireline, fixed line, and mobile network access to toll-free numbers may be fully or partially restricted.**</span></span> <span data-ttu-id="cefc2-179">拨号格式介绍每个国家/地区使用免费号码进行呼叫所需的访问代码。</span><span class="sxs-lookup"><span data-stu-id="cefc2-179">The dialing format describes the required access codes within each country/region to place calls using the toll free number.</span></span>
     
-- <span data-ttu-id="a5f5f-180">**北美编号计划免费电话号码：** 每分钟率 North America 编号规划免费电话号码取决于发起的国家/地区。</span><span class="sxs-lookup"><span data-stu-id="a5f5f-180">**North America Numbering Plan Toll Free Numbers:** Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country.</span></span> <span data-ttu-id="a5f5f-181">源自美国映射到定义为"北美洲。"的速率呼叫收费免费每分钟速率</span><span class="sxs-lookup"><span data-stu-id="a5f5f-181">The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America."</span></span> <span data-ttu-id="a5f5f-182">但是，源自例如加拿大、 波多黎哥等其他北美国家/地区的呼叫有特定的收费电话免费速率。</span><span class="sxs-lookup"><span data-stu-id="a5f5f-182">However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates.</span></span>
+- <span data-ttu-id="cefc2-180">**北美编号计划免费电话号码：** 每分钟率 North America 编号规划免费电话号码取决于发起的国家/地区。</span><span class="sxs-lookup"><span data-stu-id="cefc2-180">**North America Numbering Plan Toll Free Numbers:** Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country.</span></span> <span data-ttu-id="cefc2-181">源自美国映射到定义为"北美洲。"的速率呼叫收费免费每分钟速率</span><span class="sxs-lookup"><span data-stu-id="cefc2-181">The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America."</span></span> <span data-ttu-id="cefc2-182">但是，源自例如加拿大、 波多黎哥等其他北美国家/地区的呼叫有特定的收费电话免费速率。</span><span class="sxs-lookup"><span data-stu-id="cefc2-182">However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates.</span></span>
 
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
     
-## <a name="related-topics"></a><span data-ttu-id="a5f5f-184">相关主题</span><span class="sxs-lookup"><span data-stu-id="a5f5f-184">Related topics</span></span>
-[<span data-ttu-id="a5f5f-185">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="a5f5f-185">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+## <a name="related-topics"></a><span data-ttu-id="cefc2-184">相关主题</span><span class="sxs-lookup"><span data-stu-id="cefc2-184">Related topics</span></span>
+[<span data-ttu-id="cefc2-185">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="cefc2-185">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  

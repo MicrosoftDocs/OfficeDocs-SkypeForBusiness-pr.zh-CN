@@ -145,7 +145,7 @@
 ### [音频会议免费播出时段](complimentary-dial-out-period.md)
 
 
-### [在 Skype for Business 和 Microsoft Teams 中设置音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [设置 Microsoft Teams 的音频会议](set-up-audio-conferencing-in-teams.md)
 
 ### [将 Microsoft 指定为音频会议提供商](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
@@ -343,6 +343,12 @@
 #### [为直接路由计划基于位置的路由](location-based-routing-plan.md)
 #### [为基于位置的路由配置网络设置](location-based-routing-configure-network-settings.md)
 #### [为直接路由启用基于位置的路由](location-based-routing-enable.md)
+
+### 直接路由的媒体旁路
+#### [使用直接路由规划媒体旁路](direct-routing-plan-media-bypass.md)
+#### [使用直接路由配置媒体旁路](direct-routing-configure-media-bypass.md)
+
+
 ### 直接路由技术参考
 #### [出站呼叫发生 Trunk 故障转移](direct-routing-trunk-failover-on-outbound-call.md)
 

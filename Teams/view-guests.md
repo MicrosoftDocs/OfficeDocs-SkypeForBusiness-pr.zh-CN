@@ -15,25 +15,25 @@ f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticl
 description: 了解管理员如何在 Microsoft Teams 中查看有关来宾用户的信息。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 852963652397b2e8c792ad7203c71520f79a4a52
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 6a5db8c39ace9dc3682441495000f61a7a2523f9
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493650"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649137"
 ---
-<a name="view-guest-users-in-a-team"></a><span data-ttu-id="86946-103">在团队中查看来宾用户</span><span class="sxs-lookup"><span data-stu-id="86946-103">View guest users in a team</span></span>
+<a name="view-guest-users-in-a-team"></a><span data-ttu-id="5c288-103">在团队中查看来宾用户</span><span class="sxs-lookup"><span data-stu-id="5c288-103">View guest users in a team</span></span>
 ==========================
-<span data-ttu-id="86946-104">团队中的任何人都可以看到的工作组，包括来宾，通过**管理团队**中的 Microsoft 团队所有成员。</span><span class="sxs-lookup"><span data-stu-id="86946-104">Anyone in a team can see all members of a team, including guests, via **Manage team** in Microsoft Teams.</span></span> <span data-ttu-id="86946-105">[了解谁处于团队或通道中](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7)具有更多详细信息。</span><span class="sxs-lookup"><span data-stu-id="86946-105">[See who's on a team or in a channel ](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) has more details.</span></span>
+<span data-ttu-id="5c288-104">团队中的任何人都可以看到的工作组，包括来宾，通过**管理团队**中的 Microsoft 团队所有成员。</span><span class="sxs-lookup"><span data-stu-id="5c288-104">Anyone in a team can see all members of a team, including guests, via **Manage team** in Microsoft Teams.</span></span> <span data-ttu-id="5c288-105">[了解谁处于团队或通道中](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7)具有更多详细信息。</span><span class="sxs-lookup"><span data-stu-id="5c288-105">[See who's on a team or in a channel ](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) has more details.</span></span>
 
-<span data-ttu-id="86946-106">标识来宾用户：</span><span class="sxs-lookup"><span data-stu-id="86946-106">To identify guest users:</span></span>
+<span data-ttu-id="5c288-106">标识来宾用户：</span><span class="sxs-lookup"><span data-stu-id="5c288-106">To identify guest users:</span></span>
 
-1.  <span data-ttu-id="86946-107">登录到 Microsoft 365 管理中心。</span><span class="sxs-lookup"><span data-stu-id="86946-107">Sign in to the Microsoft 365 admin center.</span></span>
-2.  <span data-ttu-id="86946-108">选择**管理中心** > **团队 & Skype**。</span><span class="sxs-lookup"><span data-stu-id="86946-108">Select **Admin centers** > **Teams & Skype**.</span></span>
-3.  <span data-ttu-id="86946-109">在 Microsoft 团队 & Skype 管理中心中，选择**用户**。</span><span class="sxs-lookup"><span data-stu-id="86946-109">In the Microsoft Teams & Skype Admin Center, select **Users**.</span></span> <span data-ttu-id="86946-110">您将看到**来宾**追加到任何来宾用户的显示名称。</span><span class="sxs-lookup"><span data-stu-id="86946-110">You will see **guest** appended to the display name of any guest users.</span></span>
+1.  <span data-ttu-id="5c288-107">登录到 Microsoft 365 管理中心。</span><span class="sxs-lookup"><span data-stu-id="5c288-107">Sign in to the Microsoft 365 admin center.</span></span>
+2.  <span data-ttu-id="5c288-108">选择**管理中心** > **团队**。</span><span class="sxs-lookup"><span data-stu-id="5c288-108">Select **Admin centers** > **Teams**.</span></span>
+3.  <span data-ttu-id="5c288-109">在 Microsoft 团队管理中心中，选择**用户**。</span><span class="sxs-lookup"><span data-stu-id="5c288-109">In the Microsoft Teams admin center, select **Users**.</span></span> <span data-ttu-id="5c288-110">您将看到**来宾**追加到任何来宾用户的显示名称。</span><span class="sxs-lookup"><span data-stu-id="5c288-110">You will see **guest** appended to the display name of any guest users.</span></span>
   
-<span data-ttu-id="86946-111">您还可以标识来宾用户从在您拥有一个团队。</span><span class="sxs-lookup"><span data-stu-id="86946-111">You can also identify guest users from within a team that you own.</span></span>  
+<span data-ttu-id="5c288-111">您还可以标识来宾用户从在您拥有一个团队。</span><span class="sxs-lookup"><span data-stu-id="5c288-111">You can also identify guest users from within a team that you own.</span></span>  
 
-## <a name="guest-access-vs-external-access-federation"></a><span data-ttu-id="86946-112">来宾访问与外部访问 （联合身份验证）</span><span class="sxs-lookup"><span data-stu-id="86946-112">Guest access vs. external access (federation)</span></span>
+## <a name="guest-access-vs-external-access-federation"></a><span data-ttu-id="5c288-112">来宾访问与外部访问 （联合身份验证）</span><span class="sxs-lookup"><span data-stu-id="5c288-112">Guest access vs. external access (federation)</span></span>
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

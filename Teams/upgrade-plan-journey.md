@@ -3,7 +3,7 @@ title: Plan for Business 的 Skype Microsoft 团队升级 |应用框架
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: 首先，登记利益干系人和然后范围项目规划您的升级。
@@ -15,19 +15,19 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3c2c95e6034c365f95c5e8c4f6f124023437b9d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4810e98910186e3c4c5a9b2fb7e4cf62df6876c7
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462433"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649417"
 ---
-<span data-ttu-id="e9600-103">为与右项目团队成功设置![确保您的项目。定义项目范围、 目标和日程表。确认技术和用户准备情况。执行套推广计划。维护 momentum 以最大限度地结果。](media/upgrade-banner-main.png "开始您升级旅程")</span><span class="sxs-lookup"><span data-stu-id="e9600-103">![Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.](media/upgrade-banner-main.png "Begin your upgrade journey")</span></span>
+<span data-ttu-id="b86a6-103">为与右项目团队成功设置![确保您的项目。定义项目范围、 目标和日程表。确认技术和用户准备情况。执行套推广计划。维护 momentum 以最大限度地结果。](media/upgrade-banner-main.png "开始您升级旅程")</span><span class="sxs-lookup"><span data-stu-id="b86a6-103">![Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.](media/upgrade-banner-main.png "Begin your upgrade journey")</span></span>
 
-# <a name="plan-for-your-upgrade"></a><span data-ttu-id="e9600-104">规划升级</span><span class="sxs-lookup"><span data-stu-id="e9600-104">Plan for your upgrade</span></span>
+# <a name="plan-for-your-upgrade"></a><span data-ttu-id="b86a6-104">规划升级</span><span class="sxs-lookup"><span data-stu-id="b86a6-104">Plan for your upgrade</span></span>
 
-<span data-ttu-id="e9600-105">正常运行的技术环境、 持续的用户采用和所有业务目标的实现适当的规划开头。</span><span class="sxs-lookup"><span data-stu-id="e9600-105">A healthy technical environment, sustained user adoption, and the realization of your business goals all begin with proper planning.</span></span> <span data-ttu-id="e9600-106">可靠的计划升级项目提供一个框架，并确保所有利益干系人正在向同一目标。</span><span class="sxs-lookup"><span data-stu-id="e9600-106">A solid plan gives you a framework for your upgrade project and ensures that all stakeholders are working toward the same goals.</span></span> <span data-ttu-id="e9600-107">按照时间正确定义成功，您可以通过部署为您进行测量结果，并验证您正在实现的输出，应该怎么做。</span><span class="sxs-lookup"><span data-stu-id="e9600-107">By taking time to properly define success, you can measure results as you progress through your deployment and verify that you’re achieving the outcomes you wanted.</span></span> <span data-ttu-id="e9600-108">规划您旅程包括：</span><span class="sxs-lookup"><span data-stu-id="e9600-108">Planning your journey includes:</span></span>
+<span data-ttu-id="b86a6-105">正常运行的技术环境、 持续的用户采用和所有业务目标的实现适当的规划开头。</span><span class="sxs-lookup"><span data-stu-id="b86a6-105">A healthy technical environment, sustained user adoption, and the realization of your business goals all begin with proper planning.</span></span> <span data-ttu-id="b86a6-106">可靠的计划升级项目提供一个框架，并确保所有利益干系人正在向同一目标。</span><span class="sxs-lookup"><span data-stu-id="b86a6-106">A solid plan gives you a framework for your upgrade project and ensures that all stakeholders are working toward the same goals.</span></span> <span data-ttu-id="b86a6-107">按照时间正确定义成功，您可以通过部署为您进行测量结果，并验证您正在实现的输出，应该怎么做。</span><span class="sxs-lookup"><span data-stu-id="b86a6-107">By taking time to properly define success, you can measure results as you progress through your deployment and verify that you’re achieving the outcomes you wanted.</span></span> <span data-ttu-id="b86a6-108">规划您旅程包括：</span><span class="sxs-lookup"><span data-stu-id="b86a6-108">Planning your journey includes:</span></span>
 
-- <span data-ttu-id="e9600-109">[登记项目利益干系人](upgrade-enlist-stakeholders.md)。</span><span class="sxs-lookup"><span data-stu-id="e9600-109">[Enlisting your project stakeholders](upgrade-enlist-stakeholders.md).</span></span>
-- <span data-ttu-id="e9600-110">[定义您的项目的范围](https://aka.ms/SkypetoTeams-Scope)。</span><span class="sxs-lookup"><span data-stu-id="e9600-110">[Defining the scope of your project](https://aka.ms/SkypetoTeams-Scope).</span></span>
-- <span data-ttu-id="e9600-111">[了解共存和业务和团队的 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)。</span><span class="sxs-lookup"><span data-stu-id="e9600-111">[Understanding coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist).</span></span>
+- <span data-ttu-id="b86a6-109">[登记项目利益干系人](upgrade-enlist-stakeholders.md)。</span><span class="sxs-lookup"><span data-stu-id="b86a6-109">[Enlisting your project stakeholders](upgrade-enlist-stakeholders.md).</span></span>
+- <span data-ttu-id="b86a6-110">[定义您的项目的范围](https://aka.ms/SkypetoTeams-Scope)。</span><span class="sxs-lookup"><span data-stu-id="b86a6-110">[Defining the scope of your project](https://aka.ms/SkypetoTeams-Scope).</span></span>
+- <span data-ttu-id="b86a6-111">[了解共存和业务和团队的 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)。</span><span class="sxs-lookup"><span data-stu-id="b86a6-111">[Understanding coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist).</span></span>
