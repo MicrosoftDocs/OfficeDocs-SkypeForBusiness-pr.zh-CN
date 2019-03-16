@@ -4,7 +4,7 @@ author: dearbeen
 ms.author: dearbeen
 manager: serdars
 ms.date: 12/18/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: 使用经验证的成功框架帮助贵组织的升级旅程，从 for Business 的 Skype 到团队
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91a2b5ae92598ad9a210f84bfce1a89fc1c97350
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cf114075b4c35b19beeab9a4c28a1ade97330300
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460561"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649273"
 ---
 # <a name="about-the-upgrade-framework"></a>关于升级框架
 
@@ -58,7 +58,7 @@ ms.locfileid: "30460561"
 | **3** | **定义项目目标** | 设置目标使您能够度量进度以及 project 成功的目标。 | [项目目标](upgrade-define-project-scope.md#project-goals) |
 | **4** | **确定风险和缓解计划** | 建立缓解计划以确保您可以快速获取跟踪在项目出现问题时。 | [风险和缓解](upgrade-define-project-scope.md#risks-and-mitigation) |
 | **5** | **定义时间线** | 设置时间线和关键里程碑可帮助您保持时间和预算的项目。 | [时间线](upgrade-define-project-scope.md#timeline) <br><br> [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
-| **6** | **定义业务和团队的升级和共存策略合适的 Skype** | 映射您旅程，以确保最佳路径从 for Business 的 Skype 给团队为您的组织。 | [了解 Microsoft 团队和 Skype 的业务共存及互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br> [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
+| **6** | **定义业务和团队的升级和共存策略合适的 Skype** | 映射您旅程，以确保最佳路径从 for Business 的 Skype 给团队为您的组织。 | [了解 Microsoft 团队和 Skype 的业务共存及互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br> [选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
 
 
 ### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>准备： 团队评估贵组织的准备情况
@@ -102,7 +102,7 @@ ms.locfileid: "30460561"
 |------|--|---------|----------|
 | **1** | **确认您已完成上述的升级前活动** | 帮助确保升级成功通过确认完成所有规划和准备活动。 | 所有上述 |
 | **2** | **启动与您升级的第一个组中的用户的通信** | 升级开始，并将其随时在整个过程，则通知用户。 | [准备用户就绪性计划](upgrade-user-readiness.md) <br><br> [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
-| **3** | **启用用户升级到第一个组中的共存模式为仅在工作组** | 按照适合您的业务环境以执行技术的用户迁移的 Skype 的步骤。 | [从联机业务的 Skype 升级到团队](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[从 Skype 升级业务混合或内部部署到团队](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
+| **3** | **启用用户升级到第一个组中的共存模式为仅在工作组** | 按照适合您的业务环境以执行技术的用户迁移的 Skype 的步骤。 | [从 Skype for Business Online 升级到 Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[从 Skype for Business 混合或本地部署升级到 Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
 | **4** | **在滚动周期的剩余的升级组重复上述升级活动** | 继续驱动器您正在进行的通信计划和升级基于您的计划的用户组。 | |
 | **5** | **将升级后的反馈调查发送给所有用户** | 使用反馈调查捕获反馈和洞察力用户。 | [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
 

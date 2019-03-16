@@ -3,7 +3,7 @@ title: 用户体验质量 |Microsoft 团队 |QoS |呼叫质量
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: 任务和用于监控质量和用法的 Microsoft 团队所需的活动
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4060c0f9171c8871ed22d15325d560616bf5fc23
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5d5b34a7dc556313108555bff4d55cee7a6f9a31
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460073"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649377"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 
 本文是您升级旅程，只要您已完成从 for Business 的 Skype 您升级到团队开始的卓越阶段的一部分。
 
-# <a name="quality-of-experience-review-guide"></a>查看用户体验指南的质量
+# <a name="quality-of-experience-review-guide"></a>体验质量检查指南
 
 [质量体验审阅指南](https://aka.ms/qerguide)包含一组活动的评估，并提供对影响在改善用户体验，最大，如下所示的主要区域中的补救指南。
 

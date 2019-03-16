@@ -24,14 +24,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e06766ffd650a28f13d2b89f969a1a5c87a9fe0
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: a6fe072d3ffa8764b0c5f86347db4c187e18b046
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494050"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649233"
 ---
-# <a name="upgrade-to-teams"></a>升级到团队
+# <a name="upgrade-to-teams"></a>升级到 Teams
 
 祝贺从 for Business 的 Skype 挂起升级到 Microsoft 团队。 您刚开始与团队，已 for Business，使用旁 Skype 团队还是准备升级，我们要确保已具备您需要导航到团队成功旅程。  
 
@@ -42,8 +42,8 @@ ms.locfileid: "30494050"
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 > [!Tip]
-> 观看以下视频可了解从 Skype for Business 到 Microsoft Teams 的升级旅程：
+> 观看以下会话以了解从 for Business 的 Skype 升级到 Microsoft 团队：
 > - [升级简介](https://aka.ms/teams-upgrade-intro)
 > - [规划升级](https://aka.ms/teams-upgrade-plan)
-> - [共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [共存及互操作性](https://aka.ms/teams-upgrade-coexistence-interop)
 > - [管理员体验](https://aka.ms/teams-upgrade-admin)

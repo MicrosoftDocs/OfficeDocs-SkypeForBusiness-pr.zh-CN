@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 以下是有关常见问题到 for Business 的 Skype 转接电话号码。 复查答案，您应该已准备好创建端口订单和转接电话号码。 请参阅到 Office 365 的转接电话号码的说明。
-ms.openlocfilehash: 57d20095302e4a971ea35a91e1fb46e4499735f9
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 311eaa78920b3853947df5dd375c6471cab4d8aa
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543212"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649425"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>转接电话号码常见问题
 
@@ -69,7 +69,7 @@ ms.locfileid: "30543212"
   **你无法转移：**
   
 > [!NOTE]
-> [!重要信息] 目前，你无法转移支持的国家/地区的任何电话号码，包括来自 VoIP 电话提供商的电话号码。 若要查看受支持的国家/地区的列表，请参阅[国家和地区音频会议和调用计划的可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> 此时，您无法传输任何电话号码或不从支持国家/地区，包括从 VoIP 电话提供商的电话号码的号码。 若要查看受支持的国家/地区的列表，请参阅[国家和地区音频会议和调用计划的可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - 用于 DSL 线路或宽带 Internet 连接等数据连接的电话号码。
     

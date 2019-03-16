@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文讨论中 Skype 会议室系统 v2 累积改进。
-ms.openlocfilehash: 7eb6eb3c9bcd2cbbbe72a6fc96d619303216cd37
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: fefad8a37d53760a81b2ea78e73bbd75069c848f
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729398"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30645354"
 ---
 # <a name="release-notes"></a>发行说明 
 
@@ -26,7 +26,9 @@ ms.locfileid: "28729398"
 
 | 发行版 | 发布到 <br>Microsoft 存储 | 
 | ---     | ---  |
-| 4.0.64.0 | 2018 年 12 月 14 日   |
+| 4.0.78.0 | 2019 年 03/14   |
+| 4.0.76.0 | 2019 年 03/04   |
+| 4.0.64.0 | 12/14/2018   |
 | 4.0.51.0 | 11/17/2018   | 
 | 4.0.31.0 | 10/16/2018   | 
 | 4.0.27.0 |  10/1/2018    | 
@@ -50,6 +52,19 @@ ms.locfileid: "28729398"
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype 会议室系统 v2 功能简介和解决问题
+
+### <a name="40780-03142018"></a>4.0.78.0 (14/03/2018)
+此更新中引入了：
+- 对于影响旧式 Windows 10 RS2 生成上的设备的"在应用程序启动挂起"bug 修复。  
+
+### <a name="40760-03042019"></a>4.0.76.0 （2019 年 03/04）
+此更新中引入了：
+- Microsoft 团队会议的 DTMF 小键盘。 若要使 Microsoft 团队默认调用客户端，管理员必须设置 IsTeamsDefaultClient 为 true
+- Pin 前面的聊天室显示为全屏远程参与者的传入视频。 使用控制台上的参与者名单中的"Pin"命令
+- 添加了前端的会议室通知会议厅通知的改进
+- 蓝牙信号未启用会议室系统设备上时，前面的聊天室显示删除转换图标
+- 批量在团队会议中的控件问题修复
+
 
 ### <a name="40640-12142018"></a>4.0.64.0 (14/12/2018)
 此更新中引入了：
@@ -159,7 +174,7 @@ Introduced in this update:
 - 提供反馈的公共生成的功能     
 - 改进了的遥测周围会议加入可靠性     
 - 报告的其他 OMS     
-- IT 管理员来远程配置设备的功能<!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
+- IT 管理员来远程配置设备的功能  <!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
 
 
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)

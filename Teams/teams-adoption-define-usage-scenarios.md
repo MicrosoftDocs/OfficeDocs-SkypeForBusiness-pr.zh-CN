@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63d96ace4de4ae19446e4f0a1376088ac3294647
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b4b809a2db9da32915ec9bade59b346a4874c2fa
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464545"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647374"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>为 Microsoft Teams 定义使用方案
 
@@ -34,7 +34,7 @@ ms.locfileid: "30464545"
 
 ![核心方案](media/teams-adoption-modernizing-core-scenarios.png)
 
-考虑的其他方案是：
+要考虑的其他方案是：
 
 - 员工工作效率和通信
 - 更快地将上市市场活动

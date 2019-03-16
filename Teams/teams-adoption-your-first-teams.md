@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d57349a499e4434ba796cdf75df6258591f4144
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 38c7e34f5efb70dce5a81295f0145b539f8265aa
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459449"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647502"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>在 Microsoft Teams 中创建首批团体
 
@@ -53,7 +53,7 @@ ms.locfileid: "30459449"
 | 培训 | 自定义学习培训门户 <br/> [团队联机培训](https://aka.ms/TeamsTraining) |
 | **团队协作拥护者**|  |
 | 常规 | 用于程序通知 <br/> Pin 推广人计划概述 |
-| 最佳实践 | 最佳实践方案团队，通道，聊天 PowerPoint <br/> 团队生命周期 |
+| 最佳做法 | 最佳实践方案团队，通道，聊天 PowerPoint <br/> 团队生命周期 |
 | 推广人角 | 会议注释和演示文稿 |
 | 社交集线器 | RSS 连接器： 团队博客 （英文） 和驱动应用博客 （英文） |
 | 培训和操作方法 | 您的培训门户链接 |

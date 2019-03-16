@@ -3,7 +3,7 @@ title: Microsoft 团队 |升级，群岛模式互操作性策略，只
 author: lsomi
 ms.author: lsomi
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Skype 的业务和 Microsoft 团队共存选项和 Skype for Business 和团队之间的互操作性的详细信息。
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bd9f3deeabed9f024179499f4515ae4d12f444b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 63ddff805d0898b40cddae8a0fb9072359507da8
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465033"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647430"
 ---
 ![升级旅程，重点强调项目定义阶段的阶段](media/upgrade-banner-project-definition.png "升级旅程，重点强调项目定义阶段的阶段")
 

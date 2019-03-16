@@ -3,7 +3,7 @@ title: Project 的 Microsoft 团队应用到业务范围 Skype |升级
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: 确定升级项目范围的优化您的远景和目标。
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a4d042864e3260404ddbbaa56f39c7408a0896c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 346fbfc241616af0ac071269f73dbc4f1ad66bfb
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464825"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649401"
 ---
 ![升级旅程，重点强调项目定义阶段的阶段](media/upgrade-banner-project-definition.png "升级旅程，重点强调项目定义阶段的阶段")
 
@@ -28,7 +28,7 @@ ms.locfileid: "30464825"
 
 - [登记的项目利益干系人](upgrade-enlist-stakeholders.md)
 
-# <a name="define-your-project-scope"></a>定义您的项目范围
+# <a name="define-your-project-scope"></a>定义项目范围
 
 花点时间定义您的项目远景、 范围、 目标和监管有助于确保所有项目利益干系人对齐，并使用向相同的结果。 技术准备团队和用户准备情况团队将独立工作以将其各自的部分汇聚在一起，这非常重要。 完成本节后，请参阅它在整个项目以确保顺利实现，应该怎么做的最终状态。 使用确认下方，以衡量您产出，并减少根据需要的目标。
 
@@ -100,7 +100,7 @@ ms.locfileid: "30464825"
 
  与任何项目，无法预料的事件或其他因素可以出现，并引发关闭跟踪您的项目。非常重要主动评估潜在风险，并定义用于克服可能出现的问题，以便您的项目可以继续向您的目标缓解计划。 _风险注册_是跟踪项目风险极好工具 — 它们是以及如何可能和它们的潜在影响 — 和捕获缓解计划。 下表显示了示例风险注册。
 
-| 风险 | 可能性 | 影响 | 综合 | 迁移计划 |
+| 风险 | 可能性 | 影响 | 总体 | 缓解计划 |
 |---|---|---|---|-------|
 | **网络质量** | 中 | 高 | 高 | 执行网络规划练习。 |
 | **低用户应用** | 高 | 高 | 高 | 主动处理用户在试用和部署阶段;实现目标的知晓和培训市场活动创建需求。 |

@@ -4,7 +4,7 @@ author: dearbeen
 ms.author: dearbeen
 manager: serdars
 ms.date: 01/30/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: 了解为什么应考虑将业务的 Skype 升级到 Microsoft 团队。
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5082b99d6742b72520ac7a42b33c80e19a329517
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d35f146ee7c52aa6c32f44e5fcefdad855dfbd3e
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461881"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649497"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>开始 Microsoft Teams 升级
 
@@ -53,8 +53,8 @@ Microsoft 致力于您成功，并提供了稳固围绕旨在帮助您规划和�
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 > [!Tip]
-> 观看以下视频可了解从 Skype for Business 到 Microsoft Teams 的升级旅程：
+> 观看下面的会话了解从 for Business 的 Skype 升级到 Microsoft 团队：
 > - [升级简介](https://aka.ms/teams-upgrade-intro)
 > - [规划升级](https://aka.ms/teams-upgrade-plan)
-> - [共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [共存及互操作性](https://aka.ms/teams-upgrade-coexistence-interop)
 > - [管理员体验](https://aka.ms/teams-upgrade-admin)

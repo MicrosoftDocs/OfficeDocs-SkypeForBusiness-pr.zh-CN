@@ -1,9 +1,9 @@
 ---
-title: Office 365 OneDrive 和 SharePoint Online 启用多的地理位置的租户的团队体验
+title: Office 365 OneDrive 和 SharePoint Online 支持多地理位置的租户中的 Teams 体验
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
 description: 了解如何使用 Office 365 OneDrive 和 SharePoint Online 启用多的地理位置的租赁中的团队。
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01b93b67125693487e07fce824c01dbd5e955294
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e90e4a3c1ae2886a01802a805da3464cea3d8b50
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462625"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649257"
 ---
-<a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Office 365 OneDrive 和 SharePoint Online 启用多的地理位置的租户的团队体验
+<a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Office 365 OneDrive 和 SharePoint Online 支持多地理位置的租户中的 Teams 体验
 ===========================================
 
 Microsoft 团队是群聊软件，Office 365 中的团队协作的中心。 启动 Office 365 组服务以及 SharePoint Online 和 OneDrive for Business 为其文件体验。 Onedrive for Business/SharePoint Online 多地理租户，在其中租户扩展到多个地理位置，如北美和欧洲、 澳大利亚，基础文件体验是请注意，多地理，因此团队体验与文件协作也是了解多地理。 这是团队曲面文件跨多个 Geo 其本机文件体验中承载的关键领先的功能。

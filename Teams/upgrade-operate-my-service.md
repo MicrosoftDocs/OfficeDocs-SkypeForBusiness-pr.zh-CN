@@ -3,7 +3,7 @@ title: 操作的 Microsoft 团队 |服务管理 |质量
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: 任务和活动所需的团队服务管理，包括监视服务运行状况和评估并确保网络质量和使用情况
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42df00ed52b62d70d8c9ea734291d77e0ba038ad
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 44a215c96c85c6681ba4dcfda82e7193a48b95c9
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460497"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649409"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 
 本文是您升级旅程，只要您已完成从 for Business 的 Skype 您升级到团队开始的卓越阶段的一部分。
 
-# <a name="operate-your-service"></a>运行您的服务
+# <a name="operate-your-service"></a>运行服务
 
 本文概述了已升级后，在为组织成功操作团队的要求。 通过进行正确操作团队服务，您可以确保您正在为组织提供高质量、 可靠地体验。
 
@@ -399,7 +399,7 @@ NPS 是介于 – 100 到 100 的度量客户的通信意愿建议公司的产�
 
 [上载构建信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[查看用户体验指南的质量](https://aka.ms/qerguide)
+[体验质量检查指南](https://aka.ms/qerguide)
 
 <!--ENDOFSECTION-->
 
@@ -470,7 +470,7 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 
 <!--ENDOFSECTION-->
 
-## <a name="manage-teams"></a>管理团队
+## <a name="manage-teams"></a>管理 Teams
 
 已部署的 Microsoft 团队服务后，您需要执行与其管理相关的多个活动。 从管理服务和单独的用户容量规划和设置的许可和电话号码活动区域中。 以下各节介绍其中一些常见管理任务。
 

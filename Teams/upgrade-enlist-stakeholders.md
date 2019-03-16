@@ -3,7 +3,7 @@ title: 登记利益干系人 |向工作组的业务的 Skype 升级规划
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: 登记利益干系人提供您升级的项目工作组。
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c456d60d8dc4f98e2fa75b90dfbb80c0fd90f13
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 6de0b8a3924a9f4e80bd1ff462a5a7dd9e8f8bd6
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461289"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649201"
 ---
 ![升级旅程，重点强调收集您的团队的项目利益干系人的阶段](media/upgrade-banner-stakeholders.png "升级旅程，重点强调收集您的团队的项目利益干系人的阶段")
 
 本文是您升级旅程，活动项目的成功完成的第一个和最重要的项目利益干系人阶段的一部分。
 
-# <a name="enlist-your-project-stakeholders"></a>登记项目利益干系人
+# <a name="enlist-your-project-stakeholders"></a>登记项目干系人
 
 从实现项目可交付结果到驱动责任，利益干系人按住键，成功的项目。 有两组将其分配的利益干系人: （1）_赞助 coalition_ ，其中包括中有利害关系和并影响项目的成功，(2) _project 团队_，组成主管和项目负责人规划人员负责确保技术和用户准备情况，将完成项目中的各种任务。 这两个组之间的常见线程是_项目经理_，负责确保项目任务获取按时完成并报告 project 回 coalition 状态的工作方式。
 

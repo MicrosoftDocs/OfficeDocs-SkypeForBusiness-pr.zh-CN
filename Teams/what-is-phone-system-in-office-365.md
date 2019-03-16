@@ -3,7 +3,7 @@ title: Office 365 中的电话系统是什么？
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解有关电话系统可以为您执行的操作。 '
-ms.openlocfilehash: 3e008230a3237f5d4a92224a000aa8f8bb9af6ac
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: a11f527e80ec38d86c2adb97a9d861e7c11b6b8c
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542126"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649249"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 中的电话系统是什么？
 

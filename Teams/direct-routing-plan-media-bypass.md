@@ -15,18 +15,18 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 阅读本主题可了解如何规划媒体绕过与电话系统直接路由。
-ms.openlocfilehash: 39fc46fb95fef1d78f6f6cc946693f05c7c1f865
-ms.sourcegitcommit: 260635a24b282fbdf4a4aeffdb0f4f9be5407ec6
+ms.openlocfilehash: 6a152fed20dde9d641abfab1bdba7b211f2dcdb9
+ms.sourcegitcommit: 27cf21fb02632e9f65dfa2f995120fb927114b3d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30631019"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30649209"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>规划媒体绕过直接路由
 
 ## <a name="about-media-bypass-with-direct-routing"></a>有关直接路由的媒体绕过
 
-媒体绕过，可以缩短媒体流量的路径，并降低的更好的性能途中跃点数。 使用媒体旁路，媒体会话边界控制器 (SBC) 而不是通过 Microsoft 电话系统发送它与客户端之间保留。 配置媒体绕过、 SBC 和客户端必须位于同一位置或网络
+媒体绕过，可以缩短媒体流量的路径，并降低的更好的性能途中跃点数。 使用媒体旁路，媒体会话边界控制器 (SBC) 而不是通过 Microsoft 电话系统发送它与客户端之间保留。 若要配置媒体绕过、 SBC 和客户端必须相同的位置或网络中。
 
 通过使用**Set CSOnlinePSTNGateway**命令 **-MediaBypass**参数设置为 true 或 false，您可以针对每个 SBC 控制媒体绕过。 如果您启用媒体绕过，这并不意味着在企业网络内，将保持所有媒体通信。 本文介绍在不同方案中的呼叫流程。    
 

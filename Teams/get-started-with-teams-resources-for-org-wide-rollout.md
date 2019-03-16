@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a42f9c50ba1985ac0be068b2a9fbf1fab5f9b439
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d64dba26ba492ffb792a7ad2a403845fdf2564a7
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465353"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640903"
 ---
 # <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a>选择在组织范围内部署 Microsoft Teams 的途径
 
-既然你已成功设置第一批团队、在推动使用的同时上线了初始用户群组，那么是时候看看你的发展计划，在推动采用的同时为组织的其他人部署 Teams。 从第一个工作负载（[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)）开始。
+既然你已成功设置第一批团队并在推动使用的同时上线了初始用户群组，那么是时候看看你的发展计划，在推动采用的同时为组织的其他人部署 Teams。 从第一个工作负载（[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)）开始。
 
 有关选择 Teams 部署途径的帮助，请阅读[如何部署 Teams](How-to-roll-out-teams.md)。
 

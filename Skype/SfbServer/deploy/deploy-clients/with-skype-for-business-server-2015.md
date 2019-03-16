@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: 阅读此主题以如何部署业务服务器与 Skype 的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 891f716be3a2b7d8479af83b57dfccd70500e50d
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 5159d9cc8835ebe2b6e1d74e2f7644ee11232b63
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699378"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30645392"
 ---
 # <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>部署 Skype 会议室与 Skype 的业务服务器的系统 v2
   
@@ -27,16 +27,16 @@ ms.locfileid: "25699378"
 如果您具有单林、 内部部署 Exchange 2013 sp1 或更高版本和 Skype 的业务服务器 2015年或更高版本，然后可以使用提供的 Windows PowerShell 脚本创建设备帐户。 如果您正在使用的多林部署，您可以使用将产生相同的结果的等效 cmdlet。 本节中对这些 cmdlet 进行了介绍。
 
 设置用户帐户的最简单方式是它们使用远程 Windows PowerShell 进行配置。 Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，脚本将帮助创建新的用户帐户，或验证必须以帮助您将它们转换为兼容的 Skype 会议室系统 v2 用户帐户的现有资源帐户。 如果您愿意，您可以按照以下步骤来配置您的 Skype 会议室系统 v2 设备将使用的帐户。
-  
-## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>部署 Skype 会议室与 Skype 的业务服务器的系统 v2
+
+## <a name="requirements"></a>要求
 
 您部署与 Skype 的 Skype 会议室系统 v2 业务服务器之前，请确保已满足的要求。 有关详细信息，请参阅 [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md)。
   
 开始部署 Skype 会议室系统 v2 之前，请确保您具有正确的权限运行相关联的 cmdlet。
   
-1. 从 PC 启动远程 Windows PowerShell 会话并连接到 Exchange。 
-    
-   ```
+1. 从 PC 启动远程 Windows PowerShell 会话并连接到 Exchange。
+
+   ``` Powershell
    Set-ExecutionPolicy Unrestricted
    $org='contoso.com'
    $cred=Get-Credential $admin@$org
@@ -45,59 +45,58 @@ ms.locfileid: "25699378"
    $sessLync = New-PSSession -Credential $cred -ConnectionURI "https://$strLyncFQDN/OcsPowershell" -AllowRedirection -WarningAction SilentlyContinue
    Import-PSSession $sessExchange
    Import-PSSession $sessLync
- 
    ```
 
    请注意，$strExchangeServer 是您的 Exchange 服务器的完全限定的域名 (FQDN) 和 $strLyncFQDN 是业务服务器部署您 Skype 的 FQDN。
-    
+
 2. 后建立会话，您将创建新邮箱并启用作为 RoomMailboxAccount 或更改现有的会议室邮箱的设置。 这将允许对 Skype 会议室系统 v2 进行身份验证的帐户。
-    
+
     如果要更改现有的资源邮箱：
-    
-   ```
+
+   ``` Powershell
    Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password>
    -AsPlainText -Force)
    ```
 
    如果您正在创建新的资源邮箱：
-    
-   ```
-   New-Mailbox -UserPrincipalName PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room 
+
+   ``` Powershell
+   New-Mailbox -UserPrincipalName PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
 3. 设备帐户以改善会议体验的人员，您可以设置各种 Exchange 属性。 你可以看到需要在 Exchange 属性部分设置的属性。
-    
-   ```
-   Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments 
+
+   ``` Powershell
+   Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
    $false -DeleteSubject $false -RemovePrivateProperty $false
    Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
 4. 如果您决定具有不过期的密码，您可以设置的使用 Windows PowerShell cmdlet 太。 有关详细信息，请参阅“密码管理”。
-    
-   ```
+
+   ``` Powershell
    Set-AdUser $acctUpn -PasswordNeverExpires $true
    ```
 
 5. 启用 Active Directory 中的帐户，因此它将向 Skype 会议室系统 v2 中进行身份验证。
-    
-   ```
+
+   ``` Powershell
    Set-AdUser $acctUpn -Enabled $true
    ```
 
 6. 使您在 Skype 业务服务器池上的 Skype 会议室系统 v2 Active Directory 帐户，从而启用业务 Server Skype 的设备帐户：
-    
-   ```
-   Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com 
+
+   ``` Powershell
+   Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
    -RegistrarPool LYNCPool15.contoso.com -Identity PROJECTRIGEL01
    ```
 
-    该项目需要使用会话初始协议 (SIP) 地址和域控制器。 
-    
+    该项目需要使用会话初始协议 (SIP) 地址和域控制器。
+
 7. **可选。** 您还可以允许 Skype 会议室系统 v2 发起和接收通过您的帐户为启用企业语音的公用电话交换网 (pstn) 电话呼叫。 企业语音不需要 Skype 会议室系统 v2，但如果您希望 PSTN 拨号功能 Skype 会议室系统 v2 客户端，下面是如何启用它：
-    
-   ```
+
+   ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
    Set-CsMeetingRoom -DomainController DC-ND-001.contoso.com -Identity PROJECTRIGEL01 -EnterpriseVoiceEnabled $true
    Grant-CsVoicePolicy -PolicyName VP1 -Identity PROJECTRIGEL01
@@ -105,17 +104,17 @@ ms.locfileid: "25699378"
    ```
 
    同样，需要用你自己的信息替换所提供的域控制器和电话号码示例。参数值 $true 保持不变。
-    
+
 ## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>Exchange 和 Skype 的本地业务服务器中的示例： 会议室帐户设置
 
-```
-New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force) 
+``` Powershell
+New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force)
 -UserPrincipalName rigel1@contoso.com
- 
-Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false 
+
+Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false
 -RemovePrivateProperty $false
 Set-CalendarProcessing -Identity rigel1 -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
- 
+
 Enable-CsMeetingRoom -Identity rigel1@contoso.com -RegistrarPool cs3.contoso.com -SipAddressType EmailAddress
 Set-CsMeetingRoom -Identity rigel1 -EnterpriseVoiceEnabled $true -LineURI tel:+155555555555
 Grant-CsVoicePolicy -PolicyName dk -Identity rigel1

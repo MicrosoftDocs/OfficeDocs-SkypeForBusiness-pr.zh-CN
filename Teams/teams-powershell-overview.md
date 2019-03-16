@@ -1,10 +1,10 @@
 ---
-title: Teams PowerShell 概览
+title: 团队 PowerShell 概述 （英文)
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/06/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -12,14 +12,14 @@ ms.collection:
 description: 了解如何使用 PowerShell 控件来管理 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68dbd84c93e34d79d29c75ce7c3ad98934227432
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 9d1bf3c0c29b9720e0199377b92371468e3a7a52
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543220"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649481"
 ---
-# <a name="teams-powershell-overview"></a>Teams PowerShell 概览
+# <a name="teams-powershell-overview"></a>团队 PowerShell 概述 （英文)
 
 Microsoft 团队具有一组丰富的 IT 管理员可以管理通过 Microsoft 团队管理中心、 PowerShell 控件和图形 Api 产品的工具。 本指南介绍了我们如何构建 IT 管理员可以使用，我们 PowerShell cmdlet，并提供指向更多文档。 请注意不同工作组管理员角色有权访问不同的 cmdlet。 有关详细信息，请参阅[管理团队使用的 Microsoft 团队管理角色](using-admin-roles.md)。
 

@@ -3,7 +3,7 @@ title: 向 Microsoft 工作组的业务的 Skype |升级用户更改准备情况
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: 确保您的组织和用户可供 Microsoft 团队
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00294800f0e63c45c550b46be59623349ed3ade7
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0ac397a7ba54a81a2d92cf4823144da2b0c56a3c
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465233"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649449"
 ---
 ![升级旅程，重点强调的用户准备阶段的阶段](media/upgrade-banner-user-readiness.png "升级旅程，重点强调的用户准备阶段的阶段")
 
@@ -31,7 +31,7 @@ ms.locfileid: "30465233"
 - [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
 - [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="assess-organizational-change-readiness"></a>评估组织更改准备情况
+# <a name="assess-organizational-change-readiness"></a>评估组织更改是否就绪
 
 在已保护您的项目工作组并定义您的远景、 范围和目标之后，在您升级旅程下一步是以确保您的组织和用户可供团队 — 与确保您的技术准备并行完成活动。 若要实现从团队的价值，用户必须实际使用它。 只需启用团队并不保证您实现您的目标。 用户具有不同用例和不同学习样式，并且他们适应新技术在不同的速度。 管理更改不是所有的复杂，但是会占用多少精力，好的消息。 下面的指导性的讨论旨在帮助您了解您的用户群，以便您可以准备的教育以加快并加快用户应用适当的级别。 有两种方法，您应该查看您的用户库：
 
