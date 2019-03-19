@@ -13,6 +13,9 @@
 
 ### [使用本地 PSTN 连接规划电话系统](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
 
+### [在 Skype for Business Server 中使用本地 PSTN 连接启用电话系统用户](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md)
+
+
 
 ### [规划 Skype for Business 云连接器版本](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
 #### [云连接器版本 PSTN 站点规划](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md)
@@ -547,7 +550,7 @@
 #### [分配服务器到服务器证书](../manage/authentication/assign-a-server-to-server-certificate.md)
 #### [在混合环境中配置服务器到服务器身份验证](../manage/authentication/configure-a-hybrid-environment.md)
 #### [配置本地合作伙伴应用](../manage/authentication/configure-an-on-premises-partner-app.md)
-#### [注册配置设置](../manage/authentication/registrar-configuration-settings.md)
+#### [注册器配置设置](../manage/authentication/registrar-configuration-settings.md)
 #### [Web 服务配置设置](../manage/authentication/web-service-configuration-settings.md)
 #### [PIN 设置](../manage/authentication/pin-settings.md)
 ##### [查看 PIN 策略信息](../manage/authentication/view-pin-policy-information.md)
