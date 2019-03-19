@@ -9,127 +9,130 @@ audience: Admin
 ms.reviewer: annikaelias
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Normal
-description: Office 365 用户未授权的 Microsoft 团队可以发起 1 年试用版的团队。
+localization_priority: Priority
+description: 未获得 Microsoft Teams 许可的 Office 365 用户可以启动 Teams 的 1 年期试用版。
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5101cc8f54d41aaf63b24fea1d9092b1465a81d7
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
-ms.translationtype: MT
+ms.openlocfilehash: c4fdeba0e4540d64e98eb2853b73e6d1edb5110e
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462369"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569612"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams Commercial Cloud Trial 产品
 =======================================================
 
-Microsoft 团队是为您的组织的绝佳协作工具。 它使人和团队讨论、 创新和共享想法使用 Office 365 的能力。 Microsoft 团队商业云试用版提供了您的组织中未授权的 Microsoft 团队启动 1 年试用版的产品的现有 Office 365 用户。 管理员可以在组织中切换用户打开或关闭此功能。
+Microsoft Teams 是组织的一个很好的协作工具。 它使人们和团队能够使用 Office 365 的强大功能进行讨论、创新和共享创意。 Microsoft Teams Commercial Cloud Trial 为组织中未获得 Microsoft Teams 许可的现有 Office 365 用户提供该产品的 1 年期试用版。 管理员可以为组织中的用户打开或关闭此功能。
 
-## <a name="whats-in-the-offer"></a>什么是在优惠中
+## <a name="whats-in-the-offer"></a>此优惠的内容
 
-包含此服务的服务计划是：
+此优惠中包含的服务计划有：
 
 - Exchange Foundation
 - Flow for Office 365 计划 1
-- Microsoft 计划程序
-- Microsoft 团队 （Teams1、 团队 IW）
+- Microsoft Planner
+- Microsoft Teams（Teams1、Teams IW）
 - Office Online
-- Office 365 的 PowerApps 计划 1
+- PowerApps for Office 365 计划 1
 - SharePoint Online Kiosk
 - Sway
 - Yammer Enterprise
 
-试用授予对您的整个组织的一年试用订阅。 试用使 500000 许可证可用于工作分配。 对于每个分配的许可证，试用分配 2 GB 的 SharePoint Online 的存储空间。 
+该试用版为你的整个组织提供为期一年的试用版订阅。 该试用版使 500,000 个许可证可用于分配。 对于分配的每个许可，该试用版将分配 2 GB 的 SharePoint Online 存储容量。 
 
-## <a name="who-is-eligible"></a>谁有资格参与
+## <a name="who-is-eligible"></a>哪些人符合条件
 
-用户必须能够注册应用程序和试用 （英文） (Office 365 管理中心中）。 有关详细信息，请参阅本文后面的[管理试用版](#manage-the-trial)。 
+必须启用用户注册应用和试用版（在 Office 365 管理中心中）。 有关详细信息，请参阅本文后面的[管理试用版](#manage-the-trial)。 
 
-没有包括团队的 Office 365 许可证的用户可以启动 Microsoft 团队商业云试用版。 例如，如果用户具有 Office 365 企业版 （其中不包括团队），它们是合格的试用版。
+没有 Office 365 许可证（包含 Teams）的用户可以启动 Microsoft Teams Commercial Cloud Trial 优惠。 例如，如果用户拥有 Office 365 商业版（不包括 Teams），则他们符合该试用版的条件。
 
-## <a name="who-is-not-eligible"></a>谁是不符合条件的
+## <a name="who-is-not-eligible"></a>哪些人不符合条件
 
-您的组织不符合试用 if 条件： 
+如果存在以下情况，则你的组织不符合条件： 
 
-- 您是联合合作伙伴客户
-- 您是经销商合作伙伴客户
-- 您是政府或 EDU 客户
+- 你是联盟合作伙伴客户
+- 你是经销商合作伙伴客户
+- 你是政府或 EDU 客户
 
-如果您的组织的 Microsoft 团队商业云试用版不符合要求，您将不会看到**让用户安装试用版应用程序和服务**的开关。
+如果你的组织不符合 Microsoft Teams Commercial Cloud Trial 优惠的条件，你将无法看到**让用户安装试用版应用和服务**的开关。
 
-## <a name="how-users-sign-up-for-the-trial"></a>如何用户注册试用版
+## <a name="how-users-sign-up-for-the-trial"></a>用户如何注册试用版
 
-合格的用户可以注册试用版通过登录到团队 ([teams.microsoft.com](https://teams.microsoft.com))。 他们将看到以下屏幕启动试用版。 
+符合条件的用户可以通过登录到 Teams ([teams.microsoft.com](https://teams.microsoft.com)) 注册。 他们将看到以下屏幕来开始试用版。 
 
-![团队 IW 试用版的起始页的屏幕截图。](media/iw-trial-start-screen.png)
+![Teams IW 试用版开始页面的屏幕截图。](media/iw-trial-start-screen.png)
 
-组织内的所有 trials 都共享相同的开始和结束日期，即第一个用户已注册试用版的日期。 例如，如果用户 A 启动 2019 年 1 月 25，在第一个试用版，用户 B 启动试用版上 2019，年 6 月 3，这两个用户的试用版将上于 2020 年 1 月 25 日过期。
+组织中的所有试用版共享相同的开始和结束日期，即第一个用户注册试用版的日期。 例如，如果用户 A 在 2019 年 1 月 25 日开始第一次试用，用户 B 在 2019 年 6 月 3 日开始试用，则两个用户的试用版都将于 2020 年 1 月 25 日到期。
 
 ## <a name="manage-the-trial"></a>管理试用版
 
-管理员可以管理的已注册的用户的许可证。 
+管理员可以为已注册用户管理许可证。 
 
-此外，管理员可以禁用让最终用户声明试用版应用程序和服务其组织内的功能。 目前，本文中所述试用版是仅试用在此类别中，但它可能将来应用于其他类似的程序。 
+此外，管理员可以禁用最终用户在其组织中申请试用版应用和服务的功能。 目前，本文中描述的试用版是此类别中唯一的试用版，但它将来可能适用于其他类似的程序。 
 
-### <a name="prevent-users-from-installing-trial-apps-and-services"></a>阻止用户安装试用版应用程序和服务
+### <a name="prevent-users-from-installing-trial-apps-and-services"></a>阻止用户安装试用版应用和服务
 
-您可以关闭用户能够安装试用版应用程序和服务。
+你可以关闭用户安装试用版应用和服务的功能。
 
-1. 从[Microsoft 365 管理中心](https://portal.office.com/adminportal/home)，转到**设置** > **服务 & 加载项** > **用户拥有的应用程序和服务**。
+1. 从“[Microsoft 365 管理中心](https://portal.office.com/adminportal/home)”，转到“**设置**” > “**服务和外接程序**” > “**用户拥有的应用和服务**”。
 
-    ![在 Office 365 管理中心中的服务 & 外接程序页的屏幕截图。](media/iw-trial-enable-1.png)
+    ![Office 365 管理中心中“服务和外接程序”页面的屏幕截图。](media/iw-trial-enable-1.png)
 
-2. 关闭**让用户安装试用版应用程序和服务**。
+2. 关闭**让用户安装试用版应用和服务**。
 
-    ![用户的屏幕截图拥有 Office 365 管理中心中的应用程序和服务页。](media/iw-trial-enable-2.png)
+    ![Office 365 管理中心中“用户拥有的应用和服务”页面的屏幕截图。](media/iw-trial-enable-2.png)
 
 
-### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a>试用的用户具有许可证，其中包括团队可用性进行管理
+### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a>为拥有包含 Teams 的许可证的用户管理试用版可用性
 
-用户分配许可证，其中包括团队不适用于试用版。 启用团队服务计划后，用户可以登录，然后使用小组。 如果禁用服务计划，则用户无法登录，并将不显示试用选项也。
+分配了包含 Teams 的许可证的用户不符合试用版的条件。 当启用 Teams 服务计划时，用户可以登录并使用 Teams。 如果禁用该服务计划，用户无法登录，也不会为其显示试用版选项。
 
-若要关闭向工作组的访问：
+关闭对 Teams 的访问：
 
-1. 在 Microsoft 365 管理中心中，选择**用户** > **活动用户**。
+1. 在 Microsoft 365 管理中心中，选择“**用户**” > “**活动用户**”。
 
-2. 选择用户名称旁边的框。
+2. 选择用户姓名旁的框。
 
-3. 在右侧，在**产品许可证**行中，选择**编辑**。
+3. 在右侧的“**产品许可证**”行中，选择“**编辑**”。
 
-4. 在**产品许可证**窗格中，切换到**关闭**的切换。
+4. 在“**产品许可证**”窗格中，将开关切换为“**关闭**”。
 
-    ![在 Office 365 管理中心中的产品许可证页的屏幕截图。](media/iw-trial-enable-3.png)
+    ![Office 365 管理中心中的“产品许可证”页面的屏幕截图。](media/iw-trial-enable-3.png)
 
-### <a name="manage-teams-availability-for-users-who-already-claimed-the-trial"></a>管理团队的已经占用了试用的用户的可用性
+### <a name="manage-teams-availability-for-users-who-already-claimed-the-trial"></a>为已经申请试用版的用户管理 Teams 可用性
 
-如果用户已声明团队试用许可证，您可以通过删除许可证或服务计划将其删除。
+如果用户申请了 Teams 试用版许可证，则可以通过删除许可证或服务计划来删除它。
 
-若要关闭试用许可证：
+关闭试用版许可证：
 
-1. 在 Microsoft 365 管理中心中，选择**用户** > **活动用户**。
+1. 在 Microsoft 365 管理中心中，选择“**用户**” > “**活动用户**”。
 
-2. 选择用户名称旁边的框。
+2. 选择用户姓名旁的框。
 
-3. 在右侧，在**产品许可证**行中，选择**编辑**。
+3. 在右侧的“**产品许可证**”行中，选择“**编辑**”。
 
-4. 在**产品许可证**窗格中，切换到**关闭**的切换。
+4. 在“**产品许可证**”窗格中，将开关切换为“**关闭**”。
 
-    ![产品许可证窗格上的团队试用许可证设置的屏幕截图](media/iW-trial-enable-4.png)
+    ![“产品许可证”窗格上的“Teams 试用版许可证”设置的屏幕截图](media/iW-trial-enable-4.png)
+    
+>[!Note]
+>一旦第一个用户在组织中注册试用版，Microsoft Teams 试用版切换开关就会出现。
 
-### <a name="manage-teams-for-users-who-have-the-trial-license"></a>管理团队拥有试用许可证的用户 （英文）
+### <a name="manage-teams-for-users-who-have-the-trial-license"></a>为拥有试用版许可证的用户管理 Teams
 
-您可以管理像管理拥有常规付费的许可证的用户具有使用试用许可证的用户。 有关详细信息，请参阅[Office 365 组织中的管理 Microsoft 团队 features](enable-features-office-365.md)。
+你可以管理拥有试用版许可证的用户，就像管理具有常规付费许可证的用户一样。 有关详细信息，请参阅[在 Office 365 组织中管理 Microsoft Teams 功能](enable-features-office-365.md)。
 
-### <a name="upgrade-users-from-the-trial-license"></a>用户从试用许可证升级
+### <a name="upgrade-users-from-the-trial-license"></a>从试用版许可证升级用户
 
-若要从试用版许可证升级用户，执行以下操作：
+要从试用版许可证升级用户，请执行以下操作：
 
-1. 购买订阅包含团队。
+1. 购买包含 Teams 的订阅。
 
-2. 删除用户团队试用订阅。
+2. 删除用户的 Teams 试用版订阅。
 
 3. 分配新购买的许可证。
 

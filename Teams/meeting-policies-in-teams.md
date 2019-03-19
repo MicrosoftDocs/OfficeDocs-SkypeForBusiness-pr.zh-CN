@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 了解如何管理会议团队中的策略设置。
-ms.openlocfilehash: f8f7e4bbf18fa96ebc8de3fd219945a06c05c0b3
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 344c45761ebbb326162d2c62b4fb8cac25f47645
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494082"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664713"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -106,8 +106,8 @@ ms.locfileid: "30494082"
 <a name="bkparticipantsandguests"> </a>
 
 ### <a name="participants--guests"></a>参与者 & 来宾
-   - **允许匿名用户开始会议**如果此设置处于关闭状态，只有已经过身份验证的团队应用程序与会议的人可以开始会议。 如果是任何人都可以开始会议。
-   - **自动允许的用户**如果您关闭此操作，然后会议参与者处于会议厅直到有人开始会议。 如果是会议参与者将允许加入会议自动。
+   - **允许的拨入开始会议的人员**如果您想让未经过因为他们已拨入使用其电话启动会议的人员，您可以打开或关闭。
+   - **自动允许人员加入**确定类型的参与者将自动添加到此用户组织的会议。 此设置为"在组织中的任何人"如果您希望会议放置在会议厅中的每个外部用户，但公司加入会议立即中允许所有用户。 此设置为"任何人"如果您想要允许匿名用户的默认值。 此设置为"您的组织和联盟的组织中的任何人"如果您想要允许联盟的用户加入您的公司用户，如但放置在会议厅中的所有外部用户的会议。
 
 [完整的文章](meeting-policies-in-teams.md)
 

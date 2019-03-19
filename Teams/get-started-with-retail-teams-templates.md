@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ee9ecf1a6db549a002c72f7eeea1e0a383ae966
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: e463061dca0633480124bbe91fb2e8e6f9f926f6
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543012"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664705"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>在零售业工作组模板入门 
 
@@ -43,7 +43,7 @@ ms.locfileid: "30543012"
 
 | 基本模板类型 | baseTemplateId | 此基本模板附带的属性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| 零售- <br>存储 | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore`| 频道 <ul><li>引进提交\*</li><li>学习\*</li></ul>\*自动 favorited 通道<br><br>团队属性 <ul><li>设置为 Public 工作组可见性</li></ul> <br>成员权限 <ul><li>无法创建/更新/删除通道 </li><li>无法添加/删除应用程序 </li><li>无法创建/更新/删除选项卡</li><li>无法创建/更新/删除连接器</li><ul>|
+| 零售- <br>存储 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| 频道 <ul><li>引进提交\*</li><li>学习\*</li></ul>\*自动 favorited 通道<br><br>团队属性 <ul><li>设置为 Public 工作组可见性</li></ul> <br>成员权限 <ul><li>无法创建/更新/删除通道 </li><li>无法添加/删除应用程序 </li><li>无法创建/更新/删除选项卡</li><li>无法创建/更新/删除连接器</li><ul>|
 ||||
 
 建议使用自定义您的组织的存储区模板的方法：
@@ -58,7 +58,7 @@ ms.locfileid: "30543012"
 
 | 基本模板类型 | baseTemplateId | 此基本模板附带的属性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| 零售- <br>存储 | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration`| 频道 <ul><li>运营\*</li><li>学习\*</li></ul>\*自动 favorited 通道<br><br>团队属性 <ul><li>设置为 Private 工作组可见性</li></ul> <br>成员权限 <ul><li>可以创建/更新/删除通道 </li><li>可以添加/删除应用程序 </li><li>可以创建/更新/删除选项卡</li><li>可以创建/更新/删除连接器</li><ul>|
+| 零售- <br>存储 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| 频道 <ul><li>运营\*</li><li>学习\*</li></ul>\*自动 favorited 通道<br><br>团队属性 <ul><li>设置为 Private 工作组可见性</li></ul> <br>成员权限 <ul><li>可以创建/更新/删除通道 </li><li>可以添加/删除应用程序 </li><li>可以创建/更新/删除选项卡</li><li>可以创建/更新/删除连接器</li><ul>|
 ||||
 
 建议使用自定义您的组织的管理器协作模板的方法：

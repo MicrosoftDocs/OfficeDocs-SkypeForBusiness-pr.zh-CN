@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34070ae8ac21be278596960a5a15129906d867f0
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 04ab6b74745bf343ec09e887ef3e7187d3ffeaad
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463705"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664737"
 ---
 ![升级过程的各个阶段，重点在技术就绪阶段](media/upgrade-banner-tech-readiness.png "升级过程的各个阶段，重点在技术就绪阶段")
 
@@ -56,22 +56,19 @@ ms.locfileid: "30463705"
 
 ## <a name="bandwidth-planning"></a>带宽规划
 
-网络准备的第一步确保您的网络有足够的工作组将向用户提供形式的带宽。 规划足够的带宽为相当简单任务和非常低障碍开始以帮助确保您的用户将具有高质量团队体验。
+Microsoft 团队为您提供最佳音频、 视频和共享体验，而不管您的网络状况的内容。 使用变量编解码器，可以具有的影响最小带宽有限的环境中协商媒体。 但是，其中带宽不是关键因素，可以为质量，包括 1080p 视频分辨率，最多 30 fps 的视频和内容和高保真音频优化体验。
 
-启动您规划旅程团队[我顾问网站](https://myadvisor.fasttrack.microsoft.com/)上使用网络计划工具的带宽。 网络计划工具提供规划团队的每个网站带宽，并提供有关优化网络性能建议。
+本文介绍团队实时音频、 视频和桌面共享形式在各种使用情况下如何使用带宽的准确地描述版本。 团队始终对带宽使用率保守且可以提供 HD 视频质量以在 1.2 mb 为单位。 每个音频/视频呼叫或会议中的实际带宽使用将有所不同，根据多种因素，例如视频布局、 视频分辨率和视频帧速率。更多的带宽有质量和使用情况将会增加为了提供最佳体验。
 
-> [!IMPORTANT]
-> 如果所需的带宽不可用，媒体堆栈内部团队降低的质量的音频/视频会话以适应该低影响呼叫或会议的质量的可用带宽量。 团队客户端尝试优先于视频的质量的音频的质量。 因此，它是非常重要，具有预期的可用带宽。
-
-|活动 |下载带宽 |上载带宽 |通信流 |
-|---|---|---|---|
-|**对等音频呼叫** |0.1 Mbps |0.1 Mbps |客户端 <> 客户端 |
-|**对等视频呼叫 （全屏）** |4 Mbps |4 Mbps |客户端 <> 客户端 |
-|**对等桌面共享 (1920& #215; 1080年解决方案)** |4 Mbps |4 Mbps |客户端 <> 客户端 |
-|**两个参与者的会议** |4 Mbps |4 Mbps |客户端 <> Office 365 |
-|**三个参与者的会议** |8 Mbps |6.5 Mbps |客户端 <> Office 365 |
-|**四个参与者的会议** |5.5 Mbps |4 Mbps |客户端 <> Office 365 |
-|**五个或更多 – 参与者会议** |6 Mbps |1.5 Mbps |客户端 <> Office 365 |
+|Bandwidth(up/down) |方案 |
+|---|---|
+|30 kbps |对等音频呼叫 |
+|130 kbps |对等音频呼叫和屏幕共享 |
+|500 kbps |对等质量视频 30 fps 时调用 360 p |
+|1.2 Mbps |调用不带 HD 720 p 30 fps 时的解决方案的对等 HD 质量视频 |
+|1.5 Mbps |调用不带分辨率为高清 1080p 以 30 fps 的对等 HD 质量视频 |
+|500 kbps/1Mbps |组视频呼叫 |
+|为 2Mbps 1Mps / |HD 组视频呼叫 （1080p 屏幕上的 540 p 视频） |
 
 ### <a name="local-internet-egress"></a>本地 Internet 出口
 
@@ -81,20 +78,20 @@ ms.locfileid: "30463705"
 
 优化指向 Microsoft 的全局网络的网络路径将会提高性能，并最终将为用户提供最佳体验。 有关更多详细信息，请参阅博客文章 [Getting the best connectivity and performance in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694)（在 Office 365 中获取最佳连接性和性能）。
 
-若要获取使用中的 Microsoft 团队的实时媒体获得最佳体验，必须满足 Office 365 的网络要求。 有关详细信息，请参阅 [Skype for Business Online 中的媒体质量和网络连接性能](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)。
+若要获取使用中的 Microsoft 团队的实时媒体获得最佳体验，必须满足 Office 365 的网络要求。 有关详细信息，请参阅[媒体质量和业务 online Skype 的网络连接性能](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)。
 
-两个定义网络段（客户端到 Microsoft Edge 和客户边缘到 Microsoft Edge）必须满足以下要求：
+两个定义网络段 （客户端到 Microsoft 边缘） 和客户边缘到 Microsoft 边缘必须满足以下要求：
 
-|**值** |**客户端到 Microsoft Edge** |**客户边缘到 Microsoft Edge** |
+|**值** |**客户端到 Microsoft 边缘** |**客户边缘到 Microsoft 边缘** |
 |---|---|---|
-|**延迟（单向）** |< 50 ms |< 30 ms |
+|**延迟 （一种方法）** |< 50 ms |< 30 ms |
 |**延迟 （往返时间或 RTT）** |< 100 毫秒 |< 60 毫秒 |
 |**突发数据包丢失** |任何 200 毫秒间隔期间 <10% |任何 200 毫秒间隔期间 <1% |
 |**数据包丢失** |任何 15 秒间隔期间 <1% |任何 15 秒间隔期间 <0.1% |
 |**数据包间到达抖动** |任何 15 秒间隔期间 <30 ms |任何 15 秒间隔期间 <15 ms |
-|**数据包重新排序** |< 0.05% 无序数据包 |< 0.01% 无序数据包 |
+|**数据包重新排序** |<0.05%序的数据包 |<0.01%序的数据包 |
 
-要测试两个网段，你可以使用[网络评估工具](https://go.microsoft.com/fwlink/?linkid=855799)。 此工具可以直接部署在客户端 PC 上，也可以部署在连接到客户网络边缘的 PC 上。 此工具附带内容有限的文档，有关此工具用法的深度文档，请参阅此处：[网络就绪评估](https://go.microsoft.com/fwlink/?linkid=855800)。 通过进行此网络就绪评估，你可以验证你的网络是否为运行实时媒体应用（例如 Microsoft Teams）做好准备。
+若要测试两个网络段，您可以使用[网络评估工具](https://go.microsoft.com/fwlink/?linkid=855799)。 此工具可以部署这两个客户端上 PC 直接并连接到客户网络边缘 PC 上。 该工具包含有限的文档，但围绕使用率的工具更深入地介绍文档可在此处找到：[网络准备情况评估](https://go.microsoft.com/fwlink/?linkid=855800)。 通过运行此网络准备情况评估，您可以验证您的网络准备运行实时的媒体的应用程序，如 Microsoft 团队。
 
 > [!NOTE]
 > 这是相同的客户来说成功部署 for Business 的 Skype 由运行建议的网络准备情况评估。
@@ -137,7 +134,7 @@ Microsoft 团队连接到 Microsoft Online Services，并为此需要 internet �
 
 <!--ENDOFSECTION-->
 
-## <a name="additional-network-considerations"></a>其他网络考虑事项
+## <a name="additional-network-considerations"></a>其他网络注意事项
 
 ### <a name="external-name-resolution"></a>外部名称解析
 
@@ -147,7 +144,7 @@ Microsoft 团队连接到 Microsoft Online Services，并为此需要 internet �
 
 当多个用户和设备访问 Office 365 使用网络地址转换 (NAT) 或端口地址转换 (PAT)，您需要确保隐藏在每个公共可路由的 IP 地址的设备不超过支持的数目。
 
-若要减轻此风险，请确保足够公共 IP 地址将分配给 NAT 池以防止端口耗尽。 端口耗尽会导致内部最终用户和设备在连接到 Office 365 服务时遇到问题。 有关详细信息，请参阅 [Office 365 的 NAT 支持](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365)。
+若要减轻此风险，请确保足够公共 IP 地址将分配给 NAT 池以防止端口耗尽。 端口耗尽会导致内部最终用户和设备连接到 Office 365 服务时面临的问题。 有关详细信息，请参阅[Office 365 的 NAT 支持](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365)。
 
 ### <a name="intrusion-detection-and-prevention-guidance"></a>入侵检测和防护指南
 

@@ -3,8 +3,8 @@ title: 在 Microsoft Teams 中管理应用设置策略
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/11/2019
-ms.reviewer: larryjin
+ms.date: 3/18/2019
+ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,17 +17,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解 Microsoft 团队以及如何使用它们 pin 应用程序自定义您的组织中的用户的工作组中的应用程序设置策略。
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6c88ba45aba076c6e26fe8bc16fd3643499a881b
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+f1keywords:
+- ms.teamsadmincenter.apppolicies.setup
+ms.openlocfilehash: 29fcd5541e4817a2c5880316bba33d7d55047444
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541821"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664745"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 作为一名管理员，您可以使用应用程序设置策略自定义 Microsoft 团队以突出显示您的用户的最重要的应用程序。 选择锁定并设置它们出现的顺序的应用程序。 应用程序安装策略允许您展示您的组织中的用户需要包括由第三方或由组织中的开发人员构建的应用程序。 您还可以使用应用程序安装策略管理如何内置功能显示。
 
@@ -50,10 +51,10 @@ ms.locfileid: "30541821"
 
 在管理中心内，Microsoft 团队可用于创建自定义策略。
 
-1. 在左窗格中的 Microsoft 团队管理中心，转到**团队应用程序** > **应用程序设置策略**。
+1. 在左窗格中的 Microsoft 团队管理中心，转到**团队应用程序** > **设置策略**。
 2. 选择**新策略**。
 3. 输入策略的描述性名称，然后单击**添加应用程序**。
-4. 在**添加固定应用程序**窗格中，搜索要添加，然后单击**添加**的应用程序。  若要查看所有应用程序的列表，请选中**团队应用程序存储**。 您已选择您的应用程序的列表，单击**添加**。
+4. 在**添加固定应用程序**窗格中，搜索要添加，然后单击**添加**的应用程序。 您还可以通过应用程序权限策略筛选的应用程序。 您已选择您的应用程序的列表，单击**添加**。
 
      ![应用程序的安装程序的策略-添加-apps.png](media/app-setup-policies-add-apps.png)
 
@@ -63,16 +64,19 @@ ms.locfileid: "30541821"
 
 ## <a name="edit-an-app-setup-policy"></a>编辑应用程序安装程序策略
 
-您可以使用的 Microsoft 团队管理中心或 Windows PowerShell 编辑策略，包括全局 （组织范围内默认值） 策略和您创建的自定义策略。 
+您可以使用的 Microsoft 团队管理中心编辑策略，包括全局 （组织范围内默认值） 策略和您创建的自定义策略。
 
-1. 在左窗格中的 Microsoft 团队管理中心，转到**团队应用程序** > **应用程序设置策略**。
+1. 在左窗格中的 Microsoft 团队管理中心，转到**团队应用程序** > **设置策略**。
 2. 选择您想要编辑的策略。 
 3. 从此处，进行所需的更改。 您可以添加、 删除和更改的应用程序的顺序。
-4. 单击“**保存**”。 
+4. 单击“**保存**”。
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>将自定义应用程序安装策略分配给用户
 
-您可以使用 Microsoft 团队管理中心自定义策略分配给单个用户或 Windows PowerShell，可以分配给用户，例如安全组的组或通讯组的自定义策略。
+您可以使用的 Microsoft 团队管理中心分配给各个用户的自定义策略或业务 PowerShell 模块的 Skype 分配给用户，例如安全组的组或通讯组的自定义策略。
+
+> [!IMPORTANT]
+> 建议仅使用 PowerShell 将策略分配给用户。 使用 Microsoft 团队管理中心创建、 编辑和管理策略。
 
 ### <a name="assign-a-custom-app-setup-policy-to-individual-users"></a>自定义应用程序安装策略分配给单个用户
 
@@ -105,7 +109,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 ``` 
 根据组中成员的数目，此命令可能需要几分钟才能执行。
 
-## <a name="faq"></a>常见问题
+## <a name="faq"></a>常见问题解答
 
 ### <a name="working-with-app-setup-policies"></a>使用应用程序设置策略
 
@@ -160,4 +164,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 请确保您遵循徽标准则之前提交应用程序。 若要了解详细信息，请参阅[卖方仪表板提交的清单](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist)。 
 
  ## <a name="related-topics"></a>相关主题
+- [Teams 中适用于应用的管理设置](admin-settings.md)
+- [管理团队中的应用程序权限策略](teams-app-permission-policies.md)
+- [管理团队中自定义应用程序策略和设置](teams-custom-app-policies-and-settings.md)
 - [从工作组客户端租户的应用程序目录发布应用程序](tenant-apps-catalog-teams.md)

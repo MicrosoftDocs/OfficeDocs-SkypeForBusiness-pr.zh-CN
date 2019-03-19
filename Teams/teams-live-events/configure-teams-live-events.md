@@ -16,15 +16,14 @@ description: 了解如何管理保留在您的组织中的团队 live 事件的�
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56a7834f1547c682c690f8c42082af0a314efec9
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: e3c1a3c4883705f5e9e5ded88cce94fc37da650b
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542836"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664889"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams 中配置实时事件设置
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 使用团队 live 事件设置您的组织中配置的实时事件的保留设置。 您可以设置的支持 URL 和配置第三方视频分布提供程序。 这些设置适用于您的组织中创建的所有 live 事件。 
 
@@ -82,6 +81,6 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 > 如果您计划来创建使用外部编码器的实时事件，您还需要配置[与 Microsoft 流您 eCDN 提供程序](https://docs.microsoft.com/stream/network-caching)。 
 
 ### <a name="related-topics"></a>相关主题
-- [什么是团队 live 事件？](what-are-teams-live-events.md)
-- [规划团队 live 事件](plan-for-teams-live-events.md)
-- [设置团队的实时事件](set-up-for-teams-live-events.md)
+- [什么是 Teams 实时事件？](what-are-teams-live-events.md)
+- [规划 Teams 实时事件](plan-for-teams-live-events.md)
+- [设置 Teams 实时事件](set-up-for-teams-live-events.md)

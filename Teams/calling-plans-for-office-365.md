@@ -25,16 +25,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 3f1f28862274a95f5bfbb0eb3fbdc3a32f72bc90
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 023b04b6d7826913fc0946ff88dda5c247db92c0
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542093"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664729"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365 通话套餐
 
-为业务和 Microsoft 团队用户其他 Skype 调用是免费的但如果您希望用户能够调用常规电话，并且还没有服务提供程序发出语音呼叫，您需要购买调用规划。 [Office 365 中有哪些通话套餐？](what-are-calling-plans-in-office-365.md)
+为业务和 Microsoft 团队用户其他 Skype 调用是免费的但如果您希望用户能够调用常规电话，并且还没有服务提供程序发出语音呼叫，您需要购买调用规划。 有关详细信息，请参阅[电话系统和调用计划](calling-plan-landing-page.md)。
   
 下面是调用计划选项：
   
@@ -75,9 +75,9 @@ ms.locfileid: "30542093"
 
 - [通话套餐的定价](https://go.microsoft.com/fwlink/?LinkId=799761)
     
-- [电话系统的定价](https://go.microsoft.com/fwlink/?linkid=799763)
+- [定价电话系统](https://go.microsoft.com/fwlink/?linkid=799763)
     
-- [音频会议的定价](https://go.microsoft.com/fwlink/?linkid=799762)
+- [为音频会议定价](https://go.microsoft.com/fwlink/?linkid=799762)
     
 ## <a name="for-more-information"></a>有关详细信息
 

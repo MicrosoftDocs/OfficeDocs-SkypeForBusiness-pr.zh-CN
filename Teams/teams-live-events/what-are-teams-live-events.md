@@ -14,15 +14,14 @@ description: 了解如何 live 事件使用户能够广播视频和 Microsoft �
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02db69572fa13e5c02717e7d8d192ca1b61cff8e
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 8c2564cc3da4f9df551ee9c9e5155a4cb81e4a37
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542892"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664840"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么？
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 ## <a name="overview"></a>概述
 
@@ -32,7 +31,7 @@ Microsoft 365 live 事件使 live 视频流到新的级别，鼓励连接在整�
 
 团队提供基于聊天的协作、 呼叫、 会议和 live 事件，因此您可以展开您的会议的访问群体。 团队 live 事件是一种扩展的团队会议，使用户能够为大型联机访问群体广播视频和会议内容。 通过这些方法，其中的事件宿主前导之间的交互和访问群体参与主要是为了查看共享的主机的内容-一对多通信。 与会者可以观看 Yammer、 团队和/或 Microsoft 流的活动或录制事件，并可与使用仲裁的 Q & A 或 Yammer 对话的演示者进行交互。 
 
-团队 live 事件视为 Skype 会议广播的下一个版本和最终将替换 Skype 会议广播中提供的功能。 期间团队 live 事件的公共预览发布，我们将继续支持服务的新的或将来事件不会中断的 Skype 会议广播。 但是，我们建议您 live 事件可以利用所有新功能和令人兴奋功能包括屏幕共享、 试用团队 attendee 计数和外部的硬件软件编码器的支持。 
+团队 live 事件视为 Skype 会议广播的下一个版本和最终将替换 Skype 会议广播中提供的功能。 此时，Microsoft 将继续使用 Skype for Business 服务的新的或将来事件不会中断，组织中的用户支持 Skype 会议广播。 但是，我们建议您尝试团队 live 事件，以利用包括屏幕共享和外部的硬件软件编码器的支持的所有新的和令人兴奋功能。 
 
 因此，就可以开始。 首先，看看演示高级别的组件在 Microsoft 365 live 事件和连接方式所涉及的以下图表。 
 
@@ -47,13 +46,13 @@ Microsoft 365 live 事件使 live 视频流到新的级别，鼓励连接在整�
 ![屏幕截图显示新建 live 事件的屏幕，确定创建和安排的新的实时事件](../media/teams-live-events-schedule.png "屏幕截图显示新建 live 事件的屏幕，确定创建和安排的新的实时事件")
 
 ### <a name="production"></a>生产
-Microsoft 365 中的实时事件支持生产方案提供了一系列，包括使用和网络摄像机快速入门事件或使用 studio 质量设备外部编码器事件。 视频是 Live 事件的基础，这可以因而异单个网络摄像机到多照相机专业人员视频生产环境。 您可以选择以下选项，具体取决于其项目要求和预算。 有两种方法将生成事件：
+视频是 Live 事件的基础，这可以因而异单个网络摄像机到多照相机专业人员视频生产环境。 Microsoft 365 中的实时事件支持生产方案提供了一系列，包括使用和网络摄像机的快速入门事件或外部设备或应用程序中生成的事件。 您可以选择以下选项，具体取决于其项目要求和预算。 有两种方法将生成事件：
 
-- **快速入门生产**： 快速入门生产方法允许用户生成使用团队会议其 live 事件。 此选项是最佳，如果您想要使用的音频和视频设备的最快选项连接到 PC，或参与事件邀请远程演示者。 此选项允许用户能够轻松地使用其和网络摄像机和共享其屏幕作为输入到的事件。 
+- **Microsoft 团队**： 此生产方法允许用户以生成其 live 事件在 Microsoft 团队使用其网络摄像机或使用 A / V 输入团队会议室系统中。 此选项是最佳，如果您想要使用的音频和视频设备的最快选项连接到 PC，或参与事件邀请远程演示者。 此选项允许用户能够轻松地使用其和网络摄像机和共享其屏幕作为输入到的事件。 
 
     ![显示使用快速生成的实时事件的屏幕截图启动生产方法](../media/teams-live-events-quick-start.png "屏幕截图显示的由使用快速的实时事件启动生产方法")
 
-- **外部编码器生产**： 外部编码器允许用户产生直接从外部硬件或与[Microsoft 流](https://stream.microsoft.com)基于软件的编码器其 live 事件。 此选项将是最佳如果您已有 studio 质量设备 （例如，媒体混音器） 到实时消息协议 (RTMP) 服务的支持流式处理。 如 executive 城镇大厅 – 从媒体混音器为单个流将广播到该访问群体其中的大型事件通常用于生产此类型。 
+- **外部应用程序或设备**： 外部编码器允许用户产生直接从外部硬件或与[Microsoft 流](https://stream.microsoft.com)基于软件的编码器其 live 事件。 此选项将是最佳如果您已有 studio 质量设备 （例如，媒体混音器） 到实时消息协议 (RTMP) 服务的支持流式处理。 如 executive 城镇大厅 – 从媒体混音器为单个流将广播到该访问群体其中的大型事件通常用于生产此类型。 
 
     ![显示使用外部编码器生产方法生成的实时事件的屏幕截图](../media/teams-live-events-external-encoder.png "屏幕截图显示的使用外部编码器生产方法生成的实时事件")
 
@@ -70,7 +69,7 @@ ECDN 的目标是从 internet 视频内容并不会影响网络性能分布在�
 - [提升](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>参与者的体验 
-参与者的体验是 live 事件的最重要方面和很重要，与会者可以参加的实时事件无任何问题。 参与者的体验使用 Azure 媒体播放器并跨桌面、 浏览器中，和 mobile (iOS，Android) 的工作方式。 Office 365 提供 Yammer 和团队为两个协作集线器和 live attendee 体验集成到这些协作工具。 
+参与者的体验是 live 事件的最重要方面和很重要，与会者可以参加的实时事件无任何问题。 参与者的体验 （生成的事件中的 Microsoft 团队） 使用 Azure 媒体播放器并将工作流播放器 （用于外部 enccoder 中生成的事件） 跨桌面、 浏览器中，和 mobile (iOS，Android)。 Office 365 提供 Yammer 和团队为两个协作集线器和 live attendee 体验集成到这些协作工具。 
 
 ![屏幕截图显示 live 事件 attendee 体验](../media/teams-live-events-attendee.png "屏幕截图显示 live 事件 attendee 体验")
 

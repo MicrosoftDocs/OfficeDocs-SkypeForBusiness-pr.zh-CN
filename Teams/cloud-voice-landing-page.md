@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 部署团队中的云语音登陆页面
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a17e76444efbc57f2d8043ca1e6eda68806263
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 1b9398e7a468c023949a0b7079d2924a9e1f0924
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465305"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664915"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Cloud voice in Microsoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "30465305"
 - [调用计划的电话系统](calling-plan-landing-page.md)
 - [电话系统直接路由](direct-routing-landing-page.md)
 - [云语音部署](cloud-voice-deployment.md)
-- [Microsoft 电话服务解决方案](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Microsoft 电话解决方案](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - 观看下面的会话，若要了解有关电话系统的详细信息：[简介中的 Microsoft 团队的电话系统](https://aka.ms/teams-phone-system)
 
 
@@ -77,7 +77,7 @@ ms.locfileid: "30465305"
 您可能想要更改设置以下内容，根据组织的需求和配置：
 
 - 语音邮件
-- 呼叫标识
+- 调用标识
 - 从 Microsoft 的电话号码
 - 拨号计划
 - 呼叫队列
@@ -93,7 +93,7 @@ ms.locfileid: "30465305"
 | 是否要启用的部分或所有用户的语音邮件转录？ | 若要关闭语音邮件转录，请参阅[设置您的组织中的语音邮件策略](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)。</li></ul>|
 |||
 
-### <a name="calling-identity"></a>呼叫标识
+### <a name="calling-identity"></a>调用标识
 
 默认情况下，所有出站呼叫的分配的电话号码用作调用 identity (呼叫者 ID)。 呼叫接收人可以快速识别呼叫方，并决定是接收还是拒绝呼叫。
 
