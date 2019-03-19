@@ -9,128 +9,131 @@ audience: Admin
 ms.reviewer: annikaelias
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Normal
-description: Office 365 用户未授权的 Microsoft 团队可以发起 1 年试用版的团队。
+localization_priority: Priority
+description: 未获得 Microsoft Teams 许可的 Office 365 用户可以启动 Teams 的 1 年期试用版。
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5101cc8f54d41aaf63b24fea1d9092b1465a81d7
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
-ms.translationtype: MT
+ms.openlocfilehash: c4fdeba0e4540d64e98eb2853b73e6d1edb5110e
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462369"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569612"
 ---
-<a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a><span data-ttu-id="3b76c-103">管理 Microsoft Teams Commercial Cloud Trial 产品</span><span class="sxs-lookup"><span data-stu-id="3b76c-103">Manage the Microsoft Teams Commercial Cloud Trial offer</span></span>
+<a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a><span data-ttu-id="d6097-103">管理 Microsoft Teams Commercial Cloud Trial 产品</span><span class="sxs-lookup"><span data-stu-id="d6097-103">Manage the Microsoft Teams Commercial Cloud Trial offer</span></span>
 =======================================================
 
-<span data-ttu-id="3b76c-104">Microsoft 团队是为您的组织的绝佳协作工具。</span><span class="sxs-lookup"><span data-stu-id="3b76c-104">Microsoft Teams is a great collaborative tool for your organization.</span></span> <span data-ttu-id="3b76c-105">它使人和团队讨论、 创新和共享想法使用 Office 365 的能力。</span><span class="sxs-lookup"><span data-stu-id="3b76c-105">It empowers people and teams to discuss, innovate, and share ideas using the power of Office 365.</span></span> <span data-ttu-id="3b76c-106">Microsoft 团队商业云试用版提供了您的组织中未授权的 Microsoft 团队启动 1 年试用版的产品的现有 Office 365 用户。</span><span class="sxs-lookup"><span data-stu-id="3b76c-106">The Microsoft Teams Commercial Cloud Trial offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product.</span></span> <span data-ttu-id="3b76c-107">管理员可以在组织中切换用户打开或关闭此功能。</span><span class="sxs-lookup"><span data-stu-id="3b76c-107">Admins can switch this feature on or off for users in their organization.</span></span>
+<span data-ttu-id="d6097-104">Microsoft Teams 是组织的一个很好的协作工具。</span><span class="sxs-lookup"><span data-stu-id="d6097-104">Microsoft Teams is a great collaborative tool for your organization.</span></span> <span data-ttu-id="d6097-105">它使人们和团队能够使用 Office 365 的强大功能进行讨论、创新和共享创意。</span><span class="sxs-lookup"><span data-stu-id="d6097-105">It empowers people and teams to discuss, innovate, and share ideas using the power of Office 365.</span></span> <span data-ttu-id="d6097-106">Microsoft Teams Commercial Cloud Trial 为组织中未获得 Microsoft Teams 许可的现有 Office 365 用户提供该产品的 1 年期试用版。</span><span class="sxs-lookup"><span data-stu-id="d6097-106">The Microsoft Teams Commercial Cloud Trial offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product.</span></span> <span data-ttu-id="d6097-107">管理员可以为组织中的用户打开或关闭此功能。</span><span class="sxs-lookup"><span data-stu-id="d6097-107">Admins can switch this feature on or off for users in their organization.</span></span>
 
-## <a name="whats-in-the-offer"></a><span data-ttu-id="3b76c-108">什么是在优惠中</span><span class="sxs-lookup"><span data-stu-id="3b76c-108">What's in the offer</span></span>
+## <a name="whats-in-the-offer"></a><span data-ttu-id="d6097-108">此优惠的内容</span><span class="sxs-lookup"><span data-stu-id="d6097-108">What's in the offer</span></span>
 
-<span data-ttu-id="3b76c-109">包含此服务的服务计划是：</span><span class="sxs-lookup"><span data-stu-id="3b76c-109">The service plans included in this offer are:</span></span>
+<span data-ttu-id="d6097-109">此优惠中包含的服务计划有：</span><span class="sxs-lookup"><span data-stu-id="d6097-109">The service plans included in this offer are:</span></span>
 
-- <span data-ttu-id="3b76c-110">Exchange Foundation</span><span class="sxs-lookup"><span data-stu-id="3b76c-110">Exchange Foundation</span></span>
-- <span data-ttu-id="3b76c-111">Flow for Office 365 计划 1</span><span class="sxs-lookup"><span data-stu-id="3b76c-111">Flow for Office 365 Plan 1</span></span>
-- <span data-ttu-id="3b76c-112">Microsoft 计划程序</span><span class="sxs-lookup"><span data-stu-id="3b76c-112">Microsoft Planner</span></span>
-- <span data-ttu-id="3b76c-113">Microsoft 团队 （Teams1、 团队 IW）</span><span class="sxs-lookup"><span data-stu-id="3b76c-113">Microsoft Teams (Teams1, Teams IW)</span></span>
-- <span data-ttu-id="3b76c-114">Office Online</span><span class="sxs-lookup"><span data-stu-id="3b76c-114">Office Online</span></span>
-- <span data-ttu-id="3b76c-115">Office 365 的 PowerApps 计划 1</span><span class="sxs-lookup"><span data-stu-id="3b76c-115">PowerApps for Office 365 Plan 1</span></span>
-- <span data-ttu-id="3b76c-116">SharePoint Online Kiosk</span><span class="sxs-lookup"><span data-stu-id="3b76c-116">SharePoint Online Kiosk</span></span>
-- <span data-ttu-id="3b76c-117">Sway</span><span class="sxs-lookup"><span data-stu-id="3b76c-117">Sway</span></span>
-- <span data-ttu-id="3b76c-118">Yammer Enterprise</span><span class="sxs-lookup"><span data-stu-id="3b76c-118">Yammer Enterprise</span></span>
+- <span data-ttu-id="d6097-110">Exchange Foundation</span><span class="sxs-lookup"><span data-stu-id="d6097-110">Exchange Foundation</span></span>
+- <span data-ttu-id="d6097-111">Flow for Office 365 计划 1</span><span class="sxs-lookup"><span data-stu-id="d6097-111">Flow for Office 365 Plan 1</span></span>
+- <span data-ttu-id="d6097-112">Microsoft Planner</span><span class="sxs-lookup"><span data-stu-id="d6097-112">Microsoft Planner</span></span>
+- <span data-ttu-id="d6097-113">Microsoft Teams（Teams1、Teams IW）</span><span class="sxs-lookup"><span data-stu-id="d6097-113">Microsoft Teams (Teams1, Teams IW)</span></span>
+- <span data-ttu-id="d6097-114">Office Online</span><span class="sxs-lookup"><span data-stu-id="d6097-114">Office Online</span></span>
+- <span data-ttu-id="d6097-115">PowerApps for Office 365 计划 1</span><span class="sxs-lookup"><span data-stu-id="d6097-115">PowerApps for Office 365 Plan 1</span></span>
+- <span data-ttu-id="d6097-116">SharePoint Online Kiosk</span><span class="sxs-lookup"><span data-stu-id="d6097-116">SharePoint Online Kiosk</span></span>
+- <span data-ttu-id="d6097-117">Sway</span><span class="sxs-lookup"><span data-stu-id="d6097-117">Sway</span></span>
+- <span data-ttu-id="d6097-118">Yammer Enterprise</span><span class="sxs-lookup"><span data-stu-id="d6097-118">Yammer Enterprise</span></span>
 
-<span data-ttu-id="3b76c-119">试用授予对您的整个组织的一年试用订阅。</span><span class="sxs-lookup"><span data-stu-id="3b76c-119">The trial grants a one-year trial subscription to your entire organization.</span></span> <span data-ttu-id="3b76c-120">试用使 500000 许可证可用于工作分配。</span><span class="sxs-lookup"><span data-stu-id="3b76c-120">The trial makes 500,000 licenses available for assignment.</span></span> <span data-ttu-id="3b76c-121">对于每个分配的许可证，试用分配 2 GB 的 SharePoint Online 的存储空间。</span><span class="sxs-lookup"><span data-stu-id="3b76c-121">For each license assigned, the trial allocates 2 GB of SharePoint Online storage.</span></span> 
+<span data-ttu-id="d6097-119">该试用版为你的整个组织提供为期一年的试用版订阅。</span><span class="sxs-lookup"><span data-stu-id="d6097-119">The trial grants a one-year trial subscription to your entire organization.</span></span> <span data-ttu-id="d6097-120">该试用版使 500,000 个许可证可用于分配。</span><span class="sxs-lookup"><span data-stu-id="d6097-120">The trial makes 500,000 licenses available for assignment.</span></span> <span data-ttu-id="d6097-121">对于分配的每个许可，该试用版将分配 2 GB 的 SharePoint Online 存储容量。</span><span class="sxs-lookup"><span data-stu-id="d6097-121">For each license assigned, the trial allocates 2 GB of SharePoint Online storage.</span></span> 
 
-## <a name="who-is-eligible"></a><span data-ttu-id="3b76c-122">谁有资格参与</span><span class="sxs-lookup"><span data-stu-id="3b76c-122">Who is eligible</span></span>
+## <a name="who-is-eligible"></a><span data-ttu-id="d6097-122">哪些人符合条件</span><span class="sxs-lookup"><span data-stu-id="d6097-122">Who is eligible</span></span>
 
-<span data-ttu-id="3b76c-123">用户必须能够注册应用程序和试用 （英文） (Office 365 管理中心中）。</span><span class="sxs-lookup"><span data-stu-id="3b76c-123">Users must be enabled to sign up for apps and trials (in the Office 365 admin center).</span></span> <span data-ttu-id="3b76c-124">有关详细信息，请参阅本文后面的[管理试用版](#manage-the-trial)。</span><span class="sxs-lookup"><span data-stu-id="3b76c-124">For more information, see [Manage the trial](#manage-the-trial) later in this article.</span></span> 
+<span data-ttu-id="d6097-123">必须启用用户注册应用和试用版（在 Office 365 管理中心中）。</span><span class="sxs-lookup"><span data-stu-id="d6097-123">Users must be enabled to sign up for apps and trials (in the Office 365 admin center).</span></span> <span data-ttu-id="d6097-124">有关详细信息，请参阅本文后面的[管理试用版](#manage-the-trial)。</span><span class="sxs-lookup"><span data-stu-id="d6097-124">For more information, see [Manage the trial](#manage-the-trial) later in this article.</span></span> 
 
-<span data-ttu-id="3b76c-125">没有包括团队的 Office 365 许可证的用户可以启动 Microsoft 团队商业云试用版。</span><span class="sxs-lookup"><span data-stu-id="3b76c-125">Users who do not have an Office 365 license that includes Teams can initiate the Microsoft Teams Commercial Cloud Trial offer.</span></span> <span data-ttu-id="3b76c-126">例如，如果用户具有 Office 365 企业版 （其中不包括团队），它们是合格的试用版。</span><span class="sxs-lookup"><span data-stu-id="3b76c-126">For example, if a user has Office 365 Business (which doesn't include Teams), they are eligible for the trial.</span></span>
+<span data-ttu-id="d6097-125">没有 Office 365 许可证（包含 Teams）的用户可以启动 Microsoft Teams Commercial Cloud Trial 优惠。</span><span class="sxs-lookup"><span data-stu-id="d6097-125">Users who do not have an Office 365 license that includes Teams can initiate the Microsoft Teams Commercial Cloud Trial offer.</span></span> <span data-ttu-id="d6097-126">例如，如果用户拥有 Office 365 商业版（不包括 Teams），则他们符合该试用版的条件。</span><span class="sxs-lookup"><span data-stu-id="d6097-126">For example, if a user has Office 365 Business (which doesn't include Teams), they are eligible for the trial.</span></span>
 
-## <a name="who-is-not-eligible"></a><span data-ttu-id="3b76c-127">谁是不符合条件的</span><span class="sxs-lookup"><span data-stu-id="3b76c-127">Who is not eligible</span></span>
+## <a name="who-is-not-eligible"></a><span data-ttu-id="d6097-127">哪些人不符合条件</span><span class="sxs-lookup"><span data-stu-id="d6097-127">Who is not eligible</span></span>
 
-<span data-ttu-id="3b76c-128">您的组织不符合试用 if 条件：</span><span class="sxs-lookup"><span data-stu-id="3b76c-128">Your organization is not eligible for the trial if:</span></span> 
+<span data-ttu-id="d6097-128">如果存在以下情况，则你的组织不符合条件：</span><span class="sxs-lookup"><span data-stu-id="d6097-128">Your organization is not eligible for the trial if:</span></span> 
 
-- <span data-ttu-id="3b76c-129">您是联合合作伙伴客户</span><span class="sxs-lookup"><span data-stu-id="3b76c-129">You are a Syndication Partner Customer</span></span>
-- <span data-ttu-id="3b76c-130">您是经销商合作伙伴客户</span><span class="sxs-lookup"><span data-stu-id="3b76c-130">You are a Reseller Partner Customer</span></span>
-- <span data-ttu-id="3b76c-131">您是政府或 EDU 客户</span><span class="sxs-lookup"><span data-stu-id="3b76c-131">You are a Government or EDU customer</span></span>
+- <span data-ttu-id="d6097-129">你是联盟合作伙伴客户</span><span class="sxs-lookup"><span data-stu-id="d6097-129">You are a Syndication Partner Customer</span></span>
+- <span data-ttu-id="d6097-130">你是经销商合作伙伴客户</span><span class="sxs-lookup"><span data-stu-id="d6097-130">You are a Reseller Partner Customer</span></span>
+- <span data-ttu-id="d6097-131">你是政府或 EDU 客户</span><span class="sxs-lookup"><span data-stu-id="d6097-131">You are a Government or EDU customer</span></span>
 
-<span data-ttu-id="3b76c-132">如果您的组织的 Microsoft 团队商业云试用版不符合要求，您将不会看到**让用户安装试用版应用程序和服务**的开关。</span><span class="sxs-lookup"><span data-stu-id="3b76c-132">If your organization is ineligible for the Microsoft Teams Commercial Cloud Trial offer, you will not see the **Let users install trial apps and services** switch.</span></span>
+<span data-ttu-id="d6097-132">如果你的组织不符合 Microsoft Teams Commercial Cloud Trial 优惠的条件，你将无法看到**让用户安装试用版应用和服务**的开关。</span><span class="sxs-lookup"><span data-stu-id="d6097-132">If your organization is ineligible for the Microsoft Teams Commercial Cloud Trial offer, you will not see the **Let users install trial apps and services** switch.</span></span>
 
-## <a name="how-users-sign-up-for-the-trial"></a><span data-ttu-id="3b76c-133">如何用户注册试用版</span><span class="sxs-lookup"><span data-stu-id="3b76c-133">How users sign up for the trial</span></span>
+## <a name="how-users-sign-up-for-the-trial"></a><span data-ttu-id="d6097-133">用户如何注册试用版</span><span class="sxs-lookup"><span data-stu-id="d6097-133">How users sign up for the trial</span></span>
 
-<span data-ttu-id="3b76c-134">合格的用户可以注册试用版通过登录到团队 ([teams.microsoft.com](https://teams.microsoft.com))。</span><span class="sxs-lookup"><span data-stu-id="3b76c-134">Eligible users can sign up for the trial offer by logging into Teams ([teams.microsoft.com](https://teams.microsoft.com)).</span></span> <span data-ttu-id="3b76c-135">他们将看到以下屏幕启动试用版。</span><span class="sxs-lookup"><span data-stu-id="3b76c-135">They will see the following screen to start the trial.</span></span> 
+<span data-ttu-id="d6097-134">符合条件的用户可以通过登录到 Teams ([teams.microsoft.com](https://teams.microsoft.com)) 注册。</span><span class="sxs-lookup"><span data-stu-id="d6097-134">Eligible users can sign up for the trial offer by logging into Teams ([teams.microsoft.com](https://teams.microsoft.com)).</span></span> <span data-ttu-id="d6097-135">他们将看到以下屏幕来开始试用版。</span><span class="sxs-lookup"><span data-stu-id="d6097-135">They will see the following screen to start the trial.</span></span> 
 
-![团队 IW 试用版的起始页的屏幕截图。](media/iw-trial-start-screen.png)
+![Teams IW 试用版开始页面的屏幕截图。](media/iw-trial-start-screen.png)
 
-<span data-ttu-id="3b76c-137">组织内的所有 trials 都共享相同的开始和结束日期，即第一个用户已注册试用版的日期。</span><span class="sxs-lookup"><span data-stu-id="3b76c-137">All trials within your organization share the same start and end dates, which is the date the first user signed up for the trial.</span></span> <span data-ttu-id="3b76c-138">例如，如果用户 A 启动 2019 年 1 月 25，在第一个试用版，用户 B 启动试用版上 2019，年 6 月 3，这两个用户的试用版将上于 2020 年 1 月 25 日过期。</span><span class="sxs-lookup"><span data-stu-id="3b76c-138">For example, if user A starts the first trial on January 25, 2019 and user B starts a trial on June 3, 2019, both users' trial will expire on January 25, 2020.</span></span>
+<span data-ttu-id="d6097-137">组织中的所有试用版共享相同的开始和结束日期，即第一个用户注册试用版的日期。</span><span class="sxs-lookup"><span data-stu-id="d6097-137">All trials within your organization share the same start and end dates, which is the date the first user signed up for the trial.</span></span> <span data-ttu-id="d6097-138">例如，如果用户 A 在 2019 年 1 月 25 日开始第一次试用，用户 B 在 2019 年 6 月 3 日开始试用，则两个用户的试用版都将于 2020 年 1 月 25 日到期。</span><span class="sxs-lookup"><span data-stu-id="d6097-138">For example, if user A starts the first trial on January 25, 2019 and user B starts a trial on June 3, 2019, both users' trial will expire on January 25, 2020.</span></span>
 
-## <a name="manage-the-trial"></a><span data-ttu-id="3b76c-139">管理试用版</span><span class="sxs-lookup"><span data-stu-id="3b76c-139">Manage the trial</span></span>
+## <a name="manage-the-trial"></a><span data-ttu-id="d6097-139">管理试用版</span><span class="sxs-lookup"><span data-stu-id="d6097-139">Manage the trial</span></span>
 
-<span data-ttu-id="3b76c-140">管理员可以管理的已注册的用户的许可证。</span><span class="sxs-lookup"><span data-stu-id="3b76c-140">Admins can manage the licenses for users who have signed up.</span></span> 
+<span data-ttu-id="d6097-140">管理员可以为已注册用户管理许可证。</span><span class="sxs-lookup"><span data-stu-id="d6097-140">Admins can manage the licenses for users who have signed up.</span></span> 
 
-<span data-ttu-id="3b76c-141">此外，管理员可以禁用让最终用户声明试用版应用程序和服务其组织内的功能。</span><span class="sxs-lookup"><span data-stu-id="3b76c-141">In addition, admins can disable the ability for end users to claim trial apps and services within their organization.</span></span> <span data-ttu-id="3b76c-142">目前，本文中所述试用版是仅试用在此类别中，但它可能将来应用于其他类似的程序。</span><span class="sxs-lookup"><span data-stu-id="3b76c-142">Currently, the trial described in this article is the only trial in this category, but it might apply to other similar programs in the future.</span></span> 
+<span data-ttu-id="d6097-141">此外，管理员可以禁用最终用户在其组织中申请试用版应用和服务的功能。</span><span class="sxs-lookup"><span data-stu-id="d6097-141">In addition, admins can disable the ability for end users to claim trial apps and services within their organization.</span></span> <span data-ttu-id="d6097-142">目前，本文中描述的试用版是此类别中唯一的试用版，但它将来可能适用于其他类似的程序。</span><span class="sxs-lookup"><span data-stu-id="d6097-142">Currently, the trial described in this article is the only trial in this category, but it might apply to other similar programs in the future.</span></span> 
 
-### <a name="prevent-users-from-installing-trial-apps-and-services"></a><span data-ttu-id="3b76c-143">阻止用户安装试用版应用程序和服务</span><span class="sxs-lookup"><span data-stu-id="3b76c-143">Prevent users from installing trial apps and services</span></span>
+### <a name="prevent-users-from-installing-trial-apps-and-services"></a><span data-ttu-id="d6097-143">阻止用户安装试用版应用和服务</span><span class="sxs-lookup"><span data-stu-id="d6097-143">Prevent users from installing trial apps and services</span></span>
 
-<span data-ttu-id="3b76c-144">您可以关闭用户能够安装试用版应用程序和服务。</span><span class="sxs-lookup"><span data-stu-id="3b76c-144">You can turn off a user’s ability to install trial apps and services.</span></span>
+<span data-ttu-id="d6097-144">你可以关闭用户安装试用版应用和服务的功能。</span><span class="sxs-lookup"><span data-stu-id="d6097-144">You can turn off a user’s ability to install trial apps and services.</span></span>
 
-1. <span data-ttu-id="3b76c-145">从[Microsoft 365 管理中心](https://portal.office.com/adminportal/home)，转到**设置** > **服务 & 加载项** > **用户拥有的应用程序和服务**。</span><span class="sxs-lookup"><span data-stu-id="3b76c-145">From the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Services & add-ins** > **User owned Apps and Services**.</span></span>
+1. <span data-ttu-id="d6097-145">从“[Microsoft 365 管理中心](https://portal.office.com/adminportal/home)”，转到“**设置**” > “**服务和外接程序**” > “**用户拥有的应用和服务**”。</span><span class="sxs-lookup"><span data-stu-id="d6097-145">From the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Services & add-ins** > **User owned Apps and Services**.</span></span>
 
-    ![在 Office 365 管理中心中的服务 & 外接程序页的屏幕截图。](media/iw-trial-enable-1.png)
+    ![Office 365 管理中心中“服务和外接程序”页面的屏幕截图。](media/iw-trial-enable-1.png)
 
-2. <span data-ttu-id="3b76c-147">关闭**让用户安装试用版应用程序和服务**。</span><span class="sxs-lookup"><span data-stu-id="3b76c-147">Turn off **Let users install trial apps and services**.</span></span>
+2. <span data-ttu-id="d6097-147">关闭**让用户安装试用版应用和服务**。</span><span class="sxs-lookup"><span data-stu-id="d6097-147">Turn off **Let users install trial apps and services**.</span></span>
 
-    ![用户的屏幕截图拥有 Office 365 管理中心中的应用程序和服务页。](media/iw-trial-enable-2.png)
+    ![Office 365 管理中心中“用户拥有的应用和服务”页面的屏幕截图。](media/iw-trial-enable-2.png)
 
 
-### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a><span data-ttu-id="3b76c-149">试用的用户具有许可证，其中包括团队可用性进行管理</span><span class="sxs-lookup"><span data-stu-id="3b76c-149">Manage trial availability for a user with a license that includes Teams</span></span>
+### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a><span data-ttu-id="d6097-149">为拥有包含 Teams 的许可证的用户管理试用版可用性</span><span class="sxs-lookup"><span data-stu-id="d6097-149">Manage trial availability for a user with a license that includes Teams</span></span>
 
-<span data-ttu-id="3b76c-150">用户分配许可证，其中包括团队不适用于试用版。</span><span class="sxs-lookup"><span data-stu-id="3b76c-150">A user who is assigned a license that includes Teams is not eligible for the trial.</span></span> <span data-ttu-id="3b76c-151">启用团队服务计划后，用户可以登录，然后使用小组。</span><span class="sxs-lookup"><span data-stu-id="3b76c-151">When the Teams service plan is enabled, the user can log in and use Teams.</span></span> <span data-ttu-id="3b76c-152">如果禁用服务计划，则用户无法登录，并将不显示试用选项也。</span><span class="sxs-lookup"><span data-stu-id="3b76c-152">If the service plan is disabled, the user cannot log in and is not presented with the trial option either.</span></span>
+<span data-ttu-id="d6097-150">分配了包含 Teams 的许可证的用户不符合试用版的条件。</span><span class="sxs-lookup"><span data-stu-id="d6097-150">A user who is assigned a license that includes Teams is not eligible for the trial.</span></span> <span data-ttu-id="d6097-151">当启用 Teams 服务计划时，用户可以登录并使用 Teams。</span><span class="sxs-lookup"><span data-stu-id="d6097-151">When the Teams service plan is enabled, the user can log in and use Teams.</span></span> <span data-ttu-id="d6097-152">如果禁用该服务计划，用户无法登录，也不会为其显示试用版选项。</span><span class="sxs-lookup"><span data-stu-id="d6097-152">If the service plan is disabled, the user cannot log in and is not presented with the trial option either.</span></span>
 
-<span data-ttu-id="3b76c-153">若要关闭向工作组的访问：</span><span class="sxs-lookup"><span data-stu-id="3b76c-153">To turn off access to Teams:</span></span>
+<span data-ttu-id="d6097-153">关闭对 Teams 的访问：</span><span class="sxs-lookup"><span data-stu-id="d6097-153">To turn off access to Teams:</span></span>
 
-1. <span data-ttu-id="3b76c-154">在 Microsoft 365 管理中心中，选择**用户** > **活动用户**。</span><span class="sxs-lookup"><span data-stu-id="3b76c-154">In the Microsoft 365 admin center, select **Users** > **Active users**.</span></span>
+1. <span data-ttu-id="d6097-154">在 Microsoft 365 管理中心中，选择“**用户**” > “**活动用户**”。</span><span class="sxs-lookup"><span data-stu-id="d6097-154">In the Microsoft 365 admin center, select **Users** > **Active users**.</span></span>
 
-2. <span data-ttu-id="3b76c-155">选择用户名称旁边的框。</span><span class="sxs-lookup"><span data-stu-id="3b76c-155">Select the box next to the name of the user.</span></span>
+2. <span data-ttu-id="d6097-155">选择用户姓名旁的框。</span><span class="sxs-lookup"><span data-stu-id="d6097-155">Select the box next to the name of the user.</span></span>
 
-3. <span data-ttu-id="3b76c-156">在右侧，在**产品许可证**行中，选择**编辑**。</span><span class="sxs-lookup"><span data-stu-id="3b76c-156">On the right, in the **Product licenses** row, choose **Edit**.</span></span>
+3. <span data-ttu-id="d6097-156">在右侧的“**产品许可证**”行中，选择“**编辑**”。</span><span class="sxs-lookup"><span data-stu-id="d6097-156">On the right, in the **Product licenses** row, choose **Edit**.</span></span>
 
-4. <span data-ttu-id="3b76c-157">在**产品许可证**窗格中，切换到**关闭**的切换。</span><span class="sxs-lookup"><span data-stu-id="3b76c-157">In the **Product licenses** pane, switch the toggle to **Off**.</span></span>
+4. <span data-ttu-id="d6097-157">在“**产品许可证**”窗格中，将开关切换为“**关闭**”。</span><span class="sxs-lookup"><span data-stu-id="d6097-157">In the **Product licenses** pane, switch the toggle to **Off**.</span></span>
 
-    ![在 Office 365 管理中心中的产品许可证页的屏幕截图。](media/iw-trial-enable-3.png)
+    ![Office 365 管理中心中的“产品许可证”页面的屏幕截图。](media/iw-trial-enable-3.png)
 
-### <a name="manage-teams-availability-for-users-who-already-claimed-the-trial"></a><span data-ttu-id="3b76c-159">管理团队的已经占用了试用的用户的可用性</span><span class="sxs-lookup"><span data-stu-id="3b76c-159">Manage Teams availability for users who already claimed the trial</span></span>
+### <a name="manage-teams-availability-for-users-who-already-claimed-the-trial"></a><span data-ttu-id="d6097-159">为已经申请试用版的用户管理 Teams 可用性</span><span class="sxs-lookup"><span data-stu-id="d6097-159">Manage Teams availability for users who already claimed the trial</span></span>
 
-<span data-ttu-id="3b76c-160">如果用户已声明团队试用许可证，您可以通过删除许可证或服务计划将其删除。</span><span class="sxs-lookup"><span data-stu-id="3b76c-160">If a user has claimed a Teams trial license, you can remove it by removing the license or service plan.</span></span>
+<span data-ttu-id="d6097-160">如果用户申请了 Teams 试用版许可证，则可以通过删除许可证或服务计划来删除它。</span><span class="sxs-lookup"><span data-stu-id="d6097-160">If a user has claimed a Teams trial license, you can remove it by removing the license or service plan.</span></span>
 
-<span data-ttu-id="3b76c-161">若要关闭试用许可证：</span><span class="sxs-lookup"><span data-stu-id="3b76c-161">To turn off the trial license:</span></span>
+<span data-ttu-id="d6097-161">关闭试用版许可证：</span><span class="sxs-lookup"><span data-stu-id="d6097-161">To turn off the trial license:</span></span>
 
-1. <span data-ttu-id="3b76c-162">在 Microsoft 365 管理中心中，选择**用户** > **活动用户**。</span><span class="sxs-lookup"><span data-stu-id="3b76c-162">In the Microsoft 365 admin center, select **Users** > **Active users**.</span></span>
+1. <span data-ttu-id="d6097-162">在 Microsoft 365 管理中心中，选择“**用户**” > “**活动用户**”。</span><span class="sxs-lookup"><span data-stu-id="d6097-162">In the Microsoft 365 admin center, select **Users** > **Active users**.</span></span>
 
-2. <span data-ttu-id="3b76c-163">选择用户名称旁边的框。</span><span class="sxs-lookup"><span data-stu-id="3b76c-163">Select the box next to the name of the user.</span></span>
+2. <span data-ttu-id="d6097-163">选择用户姓名旁的框。</span><span class="sxs-lookup"><span data-stu-id="d6097-163">Select the box next to the name of the user.</span></span>
 
-3. <span data-ttu-id="3b76c-164">在右侧，在**产品许可证**行中，选择**编辑**。</span><span class="sxs-lookup"><span data-stu-id="3b76c-164">On the right, in the **Product licenses** row, choose **Edit**.</span></span>
+3. <span data-ttu-id="d6097-164">在右侧的“**产品许可证**”行中，选择“**编辑**”。</span><span class="sxs-lookup"><span data-stu-id="d6097-164">On the right, in the **Product licenses** row, choose **Edit**.</span></span>
 
-4. <span data-ttu-id="3b76c-165">在**产品许可证**窗格中，切换到**关闭**的切换。</span><span class="sxs-lookup"><span data-stu-id="3b76c-165">In the **Product licenses** pane, switch the toggle to **Off**.</span></span>
+4. <span data-ttu-id="d6097-165">在“**产品许可证**”窗格中，将开关切换为“**关闭**”。</span><span class="sxs-lookup"><span data-stu-id="d6097-165">In the **Product licenses** pane, switch the toggle to **Off**.</span></span>
 
-    ![产品许可证窗格上的团队试用许可证设置的屏幕截图](media/iW-trial-enable-4.png)
+    ![“产品许可证”窗格上的“Teams 试用版许可证”设置的屏幕截图](media/iW-trial-enable-4.png)
+    
+>[!Note]
+><span data-ttu-id="d6097-167">一旦第一个用户在组织中注册试用版，Microsoft Teams 试用版切换开关就会出现。</span><span class="sxs-lookup"><span data-stu-id="d6097-167">The Microsoft Teams Trial toggle switch will appear once the first user signed up for the trial in the organization.</span></span>
 
-### <a name="manage-teams-for-users-who-have-the-trial-license"></a><span data-ttu-id="3b76c-167">管理团队拥有试用许可证的用户 （英文）</span><span class="sxs-lookup"><span data-stu-id="3b76c-167">Manage Teams for users who have the trial license</span></span>
+### <a name="manage-teams-for-users-who-have-the-trial-license"></a><span data-ttu-id="d6097-168">为拥有试用版许可证的用户管理 Teams</span><span class="sxs-lookup"><span data-stu-id="d6097-168">Manage Teams for users who have the trial license</span></span>
 
-<span data-ttu-id="3b76c-168">您可以管理像管理拥有常规付费的许可证的用户具有使用试用许可证的用户。</span><span class="sxs-lookup"><span data-stu-id="3b76c-168">You can manage users who have a trial license just like you manage users who have a regular paid license.</span></span> <span data-ttu-id="3b76c-169">有关详细信息，请参阅[Office 365 组织中的管理 Microsoft 团队 features](enable-features-office-365.md)。</span><span class="sxs-lookup"><span data-stu-id="3b76c-169">For more information, see [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md).</span></span>
+<span data-ttu-id="d6097-169">你可以管理拥有试用版许可证的用户，就像管理具有常规付费许可证的用户一样。</span><span class="sxs-lookup"><span data-stu-id="d6097-169">You can manage users who have a trial license just like you manage users who have a regular paid license.</span></span> <span data-ttu-id="d6097-170">有关详细信息，请参阅[在 Office 365 组织中管理 Microsoft Teams 功能](enable-features-office-365.md)。</span><span class="sxs-lookup"><span data-stu-id="d6097-170">For more information, see [Enable Microsoft Teams features in your Office 365 organization](enable-features-office-365.md).</span></span>
 
-### <a name="upgrade-users-from-the-trial-license"></a><span data-ttu-id="3b76c-170">用户从试用许可证升级</span><span class="sxs-lookup"><span data-stu-id="3b76c-170">Upgrade users from the trial license</span></span>
+### <a name="upgrade-users-from-the-trial-license"></a><span data-ttu-id="d6097-171">从试用版许可证升级用户</span><span class="sxs-lookup"><span data-stu-id="d6097-171">Upgrade users from the trial license</span></span>
 
-<span data-ttu-id="3b76c-171">若要从试用版许可证升级用户，执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="3b76c-171">To upgrade users from the trial license, do the following:</span></span>
+<span data-ttu-id="d6097-172">要从试用版许可证升级用户，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="d6097-172">To upgrade users from the trial license, do the following:</span></span>
 
-1. <span data-ttu-id="3b76c-172">购买订阅包含团队。</span><span class="sxs-lookup"><span data-stu-id="3b76c-172">Purchase a subscription that includes Teams.</span></span>
+1. <span data-ttu-id="d6097-173">购买包含 Teams 的订阅。</span><span class="sxs-lookup"><span data-stu-id="d6097-173">Purchase a subscription that includes Teams.</span></span>
 
-2. <span data-ttu-id="3b76c-173">删除用户团队试用订阅。</span><span class="sxs-lookup"><span data-stu-id="3b76c-173">Remove the Teams trial subscription from the user.</span></span>
+2. <span data-ttu-id="d6097-174">删除用户的 Teams 试用版订阅。</span><span class="sxs-lookup"><span data-stu-id="d6097-174">Remove the Teams trial subscription from the user.</span></span>
 
-3. <span data-ttu-id="3b76c-174">分配新购买的许可证。</span><span class="sxs-lookup"><span data-stu-id="3b76c-174">Assign the newly purchased license.</span></span>
+3. <span data-ttu-id="d6097-175">分配新购买的许可证。</span><span class="sxs-lookup"><span data-stu-id="d6097-175">Assign the newly purchased license.</span></span>
 
-<span data-ttu-id="3b76c-175">有关详细信息，请参阅[适用于 Microsoft Teams 的 Office 365 许可](Office-365-licensing.md)。</span><span class="sxs-lookup"><span data-stu-id="3b76c-175">For more information, see [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).</span></span>
+<span data-ttu-id="d6097-176">有关详细信息，请参阅[适用于 Microsoft Teams 的 Office 365 许可](Office-365-licensing.md)。</span><span class="sxs-lookup"><span data-stu-id="d6097-176">For more information, see [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).</span></span>
