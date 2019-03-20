@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5c755c1dbcb62b01ab45772660b23524550e4e5
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 83d2b0710b811431546f0df9931d3a0b867d2b2b
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458889"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30683881"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>管理对 Microsoft Teams 的用户访问
 =====================================
@@ -30,7 +30,7 @@ ms.locfileid: "30458889"
 
 在用户级别，可以启用或禁用基于每个用户分配或删除的 Microsoft 团队产品许可证的 Microsoft 团队访问。
 
-目前，没有为打开团队或团队功能的子集或关闭之外许可单个用户级别策略选项。
+邮件策略，从工作组管理中心托管用于控制哪些聊天和消息功能的通道供团队中的用户。 您可以使用默认策略，或在组织中的人员创建一个或多个自定义的邮件策略。 若要了解详细信息，请阅读[管理团队中的邮件策略](messaging-policies-in-teams.md)。
 
 > [!NOTE]
 >Microsoft 建议，您打开团队公司中的所有用户，以便团队可以该库格式正确的项目和其他动态计划。 即使您决定为试点，它可能仍会有所帮助保持团队启用所有用户，但仅具有与试点的用户组的通信。

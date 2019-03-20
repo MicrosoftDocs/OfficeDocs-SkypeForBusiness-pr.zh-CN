@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61b8f631857d9e81ced843437288fde88001032d
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 909ed249ea4e408cbddcd52824a7cb0047504613
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649505"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684069"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>将应用发布到 Microsoft Teams 租户应用目录
 =======================================================
@@ -71,7 +71,7 @@ ms.locfileid: "30649505"
 
 ## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>使用 Office 365 管理门户管理租户的应用程序目录
 
-如果您有需要 bug 修补程序的应用程序，您可以临时禁用通过 Office 365 管理门户的应用程序。 除了前面的设置是，现在有部分专用于贵公司的应用程序。 您可以选择您想要启用或禁用的应用程序。
+如果您有需要 bug 修补程序的应用程序，您可以暂时禁用应用程序通过 Office 365 管理门户，选择**设置** > **服务 & 加载项** > **Microsoft 团队**。 除了前面的设置是，现在有部分专用于贵公司的应用程序。 您可以选择您想要启用或禁用的应用程序。
 
 ![显示屏幕截图团队应用程序商店的应用程序目录。](media/private-app-store-teams-image05.png)
 

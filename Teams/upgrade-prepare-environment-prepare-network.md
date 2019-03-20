@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04ab6b74745bf343ec09e887ef3e7187d3ffeaad
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: f7e6e46ca534a821d4697714448bcc5e4e20888f
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664737"
+ms.locfileid: "30684061"
 ---
 ![升级过程的各个阶段，重点在技术就绪阶段](media/upgrade-banner-tech-readiness.png "升级过程的各个阶段，重点在技术就绪阶段")
 
@@ -156,11 +156,11 @@ Microsoft 团队连接到 Microsoft Online Services，并为此需要 internet �
 
 您可以下载[Skype 业务网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)来测试您的网络是否准备好让团队。 在工具提供双功能： 它可以测试是否对已打开了正确的端口，它可以测试网络障碍。
 
-下载并安装该工具之后，您可以找到它中 c:\\Program Files\\Microsoft Skype 业务网络评估工具。 有关如何使用 Usage.docx，工具的详细的指南包含该目录中。
+下载并安装该工具之后，您可以为业务网络评估工具 (x86) 为 C:\Program Files \Microsoft Skype 中找到它。 有关如何使用 Usage.docx，工具的详细的指南包含该目录中。
 
 ### <a name="test-for-opened-ports"></a>打开的端口的测试
 
-打开命令提示符窗口并导航到网络评估工具目录通过输入**cd c:\\Program Files\\业务网络评估工具的 Microsoft Skype**。 在命令提示符处，通过输入**networkassessmenttool.exe /connectivitycheck**开始打开端口测试
+打开命令提示符窗口并导航到网络评估工具目录通过输入**cd C:\Program Files (x86) \Microsoft Skype 业务网络评估工具**。 在命令提示符处，通过输入**networkassessmenttool.exe /connectivitycheck**开始打开端口测试
 
 运行检查之后, 工具将显示消息"验证已成功完成"，或在已阻止的端口报告。 它还会生成一个名为 Connectivity_results.txt，其中包含从工具输出，并将其存储在 %userprofile%文件\\应用程序数据\\本地\\业务网络评估工具的 microsoft Skype\\目录。
 

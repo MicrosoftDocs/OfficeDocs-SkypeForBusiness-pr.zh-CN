@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: 配置 OAuth 业务 online 本地 Exchange 和 Skype 之间的身份验证使 Skype 功能支持中所述的业务和 Exchange 集成功能。
-ms.openlocfilehash: f6108842f827cbb9cfb6761495c4787ed2b7868b
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: fe1f6a56412706c658b2c686d2ca06d6a1b9e5d9
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735172"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684054"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>在 Skype for Business Online 和 Exchange 本地之间配置 OAuth
 
@@ -30,7 +30,7 @@ ms.locfileid: "29735172"
 
 -  在可以执行此过程或其他过程之前，你需要被分配适当的权限。 若要查看所需的权限，请参阅[and Shell infrastructure permissions](https://go.microsoft.com/fwlink/p/?LinkId=746511)主题。
 
-- 有关可能适用于本主题中所述的过程的键盘快捷方式的信息，请参阅 [Exchange 管理中心内的键盘快捷方式]( https://go.microsoft.com/fwlink/p/?LinkId=746512)。
+- 有关可能适用于此主题中的过程的键盘快捷方式的信息，请参阅[Exchange 管理中心中的键盘快捷方式]( https://go.microsoft.com/fwlink/p/?LinkId=746512)。
 
 ## <a name="configure-oauth-authentication-between-your-on-premises-exchange-and-skype-for-business-organizations"></a>在本地 Exchange 和 Skype for Business 组织之间配置 OAuth 身份验证
 
@@ -142,7 +142,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 > [!NOTE]
 > 要成功运行以下脚本，需要按照上一节的步骤 4 中的说明将“用于 Azure Active Directory 的 Windows PowerShell”连接到 Microsoft Online Azure AD 租户。
 
-1. 将以下文本保存到一个 PowerShell 脚本文件中，例如将脚本文件命名为 RegisterEndpoints.ps1。 此示例使用通配符注册 contoso.com 的所有终结点。 Contoso.com 替换为内部部署 Exchange 组织的主机名颁发机构
+1. 将以下文本保存到一个 PowerShell 脚本文件中，例如将脚本文件命名为 RegisterEndpoints.ps1。 此示例使用通配符注册 contoso.com 的所有终结点。 替换<your Verified Domain>与您的本地 Exchange 服务器的 FQDN。
 
    ```
    $externalAuthority="*.<your Verified Domain>"
@@ -172,3 +172,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 如果希望以确保您成功使用 OAuth，请确保您知道要预期并知道流量应如下所示。 [下面是收获](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)是这样，下面是一个非常标准[的 Microsoft 应用程序中的 OAuth 流量示例](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)（真正有用读取，但它不使用刷新令牌），并且有可以让您看到到您 OAuth JWT (JSON 的 Fiddler 扩展Web 令牌）。
 
 下面是[一个设置的示例](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/)中，但您可以使用任何要执行此过程的网络跟踪工具。
+
+## <a name="related-topics"></a>相关主题
+
+[配置 Exchange 和 Exchange Online 组织之间的 OAuth 身份验证](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

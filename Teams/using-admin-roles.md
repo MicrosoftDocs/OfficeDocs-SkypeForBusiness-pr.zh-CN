@@ -13,12 +13,12 @@ ms.reviewer: islubin
 description: 了解如何使用不同的管理角色管理团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62b8de5d5e96177476ef07a8a91566d9757364d1
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 5280691b5272765b0c351c38a03e9711b9e0f1b0
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542508"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684046"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>使用 Microsoft Teams 管理员角色管理 Teams
 
@@ -44,6 +44,8 @@ ms.locfileid: "30542508"
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 -->
 有关可用于管理的 Microsoft 团队的管理工具的详细信息，请参阅[管理 Microsoft 团队](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)。
+
+有关限制、 规格和适用于团队的其他要求的详细信息，请参阅[限制和规格的 Microsoft 团队](limits-specifications-teams.md)。
 
 ## <a name="assign-users-to-each-role"></a>向每个角色分配用户
 
