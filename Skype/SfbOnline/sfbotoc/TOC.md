@@ -121,7 +121,7 @@
 ### [试用或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [打开或关闭会议的进入和退出通知](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 
-## [Office 365 中的通话套餐](/microsoftteams/what-are-calling-plans-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+## [电话系统和通话套餐](/microsoftteams/calling-plan-landing-page?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [通话套餐已知问题](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [为你的组织添加、更改或删除紧急位置](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [为你的组织添加、更改或删除紧急地址](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
@@ -131,7 +131,7 @@
 ### [创建并管理拨号计划](/microsoftteams/create-and-manage-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [用于通话套餐的不同类型的电话号码](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [为用户获取电话号码](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)
-### [如何获取 Office 365 的通话套餐](/microsoftteams/what-are-calling-plans-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [如何获取 Office 365 的通话套餐](/microsoftteams/calling-plan-landing-page?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [管理组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [澳大利亚的电话号码管理](/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [比利时的电话号码管理](/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
