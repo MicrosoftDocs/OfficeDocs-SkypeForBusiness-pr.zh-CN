@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9aba8bba3f2b00e00bae2a38d4b1cc7954cffe06
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 169008f7af8f52be60c7f15d7a4613f77ed161df
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640687"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720320"
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互
 =============================================================================
@@ -63,4 +63,5 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 
 有关与团队的 SharePoint 工作原理的详细信息，请参阅[SharePoint 和团队： 携手共赢](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)。
 
+若要了解团队中的来宾体验，请阅读[新增的来宾体验](guest-experience.md)。
 

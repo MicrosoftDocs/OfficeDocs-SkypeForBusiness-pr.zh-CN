@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 阅读此主题以了解有关的 Skype 会议室系统 v2，管理下一代 Skype 会议室系统。
-ms.openlocfilehash: 5dcfcf13b22e7ad110b675d5d202f1ad53d32687
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4c94ffbcb83e5e208e5cd7278af54e157b9f478c
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373645"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720422"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Skype 会议室系统 v2 维护和操作 
  
@@ -23,7 +23,7 @@ ms.locfileid: "25373645"
   
 Skype 会议室系统 v2 是 Microsoft 的最新设计用来转换为业务体验丰富的、 协作 Skype 您会议室的会议解决方案。 用户将获得熟悉的 Skype for Business 界面，IT 管理员将体验部署和管理都很轻松的 Windows 10 Skype 会议应用。 Skype 会议室系统 v2 旨在利用现有的设备，如 LCD 面板为了简化安装将 Skype for Business 导入您的会议室。
   
-其他配置远程管理是可以[使用 OMS 的规划 Skype 会议室系统 v2 管理](../../plan-your-deployment/clients-and-devices/oms-management.md)、[使用 OMS 的部署 Skype 会议室系统 v2 管理](../../deploy/deploy-clients/with-oms.md)和[管理中所述使用 Microsoft 操作管理套件 (OMS)OMS Skype 会议室系统 v2 设备](oms.md)。 您还可以[远程使用 XML 配置文件的管理 Skype 会议室系统 v2 控制台设置](xml-config-file.md)，其中包括应用自定义显示主题。 
+其他配置远程管理是可以[使用 OMS 的规划 Skype 会议室系统 v2 管理](../../plan-your-deployment/clients-and-devices/oms-management.md)、[使用 OMS 的部署 Skype 会议室系统 v2 管理](../../deploy/deploy-clients/with-oms.md)和[管理中所述使用 Microsoft 操作管理套件 (OMS)OMS Skype 会议室系统 v2 设备](oms.md)。 你还可以[Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md)，这包括应用自定义显示主题。 
   
 ## <a name="collecting-logs-on-skype-room-systems-v2"></a>收集 Skype 会议室系统 v2 的日志
 <a name="Logs"> </a>
@@ -74,9 +74,9 @@ Skype 会议室系统 v2 不能够正常运行，如果执行出厂重置可能�
 
 |**设置**|**允许**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (REG_SZ) 1  <br/> |允许 Skype 会议室系统 v2 启动  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |允许 Skype 会议室系统 v2 启动  <br/> |
 |电源管理-\>上交流，关闭屏幕 10 分钟后  <br/> 电源管理-\>上交流，从不提供系统进入休眠模式  <br/> |允许 Skype 会议室系统 v2 附加显示关闭并自动唤醒  <br/> |
-|net accounts /maxpwage:unlimited  <br/> 或对本地帐户禁用密码过期的等效方法。如果此操作失败，将最终导致 Skype 帐户无法登录，且被告知密码过期。请注意，这会影响计算机上的所有本地帐户，因此，此设置失败还会导致已有的管理帐户最终也过期。  <br/> |启用 Skype 帐户以始终登录  <br/> |
+|net accounts /maxpwage:unlimited  <br/> 或对本地帐户禁用密码过期的等效方法。 如果此操作失败，将最终导致 Skype 帐户无法登录，且被告知密码过期。 请注意，这会影响计算机上的所有本地帐户，因此，此设置失败还会导致已有的管理帐户最终也过期。  <br/> |启用 Skype 帐户以始终登录  <br/> |
    
 使用组策略的文件传输将在[配置文件项](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)讨论。
   
@@ -106,7 +106,7 @@ Skype 会议室系统 v2 不能够正常运行，如果执行出厂重置可能�
     
 2. 打开提升的 PowerShell 命令提示符。
     
-3. 输入以下命令： Enable-psremoting-强制
+3. 输入以下命令：Enable-PSRemoting -force
     
 执行管理操作：
   
@@ -223,7 +223,7 @@ Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rige
   
 ### <a name="switching-to-admin-mode-and-back-when-the-skype-room-systems-v2-app-crashes"></a>切换到管理员模式和 Skype 会议室系统 v2 应用程序崩溃时回报
 
-1. 快速连续按 Windows 键五次。此时将显示 Windows 登录屏幕。 
+1. 快速连续按 Windows 键五次。 此时将显示 Windows 登录屏幕。 
     
 2. 用你的管理凭据登录桌面。
     
