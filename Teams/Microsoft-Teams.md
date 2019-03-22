@@ -4,17 +4,18 @@ hide_bc: true
 title: Microsoft Teams 技术文档
 description: Microsoft Teams 技术文档
 ms.topic: hub-page
+localization_priority: Priority
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
-ms.openlocfilehash: 1d30744f71683b7681ad738938a714d066b31c4a
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
-ms.translationtype: MT
+ms.openlocfilehash: 14ab61709f40f0d2e2d6be95df4cd758322d0ff2
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493578"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720312"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -39,7 +40,7 @@ ms.locfileid: "30493578"
                                             </div>
                                             <div class="cardText">
                                                 <h3>欢迎使用 Teams</h3>
-                                                <P>获取概述团队并查找作为团队管理所需的技术指导或 IT 专业人员</p>
+                                                <P>了解 Teams 概况并查找你作为 Teams 管理员或 IT 专业人士所需要的技术指南</p>
                                             </div>
                                         </div>
                                     </div>
@@ -56,8 +57,8 @@ ms.locfileid: "30493578"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>如何推出团队</h3>
-                                                <P>无论您是小型企业或跨国企业，从这里开始查找推出团队的正确路径</p>
+                                                <h3>如何推广 Teams</h3>
+                                                <P>不管是小型企业还是跨国企业，都可以在此处找到推广 Teams 的正确途径</p>
                                             </div>
                                         </div>
                                     </div>
@@ -76,7 +77,7 @@ ms.locfileid: "30493578"
                                             </div>
                                             <div class="cardText">
                                                 <h3>入门</h3>
-                                                <P>使用我们快速入门指南 fast 与几个团队和频道获取启动并正在运行</p>
+                                                <P>使用快速入门指南快速开始使用并运行一些团队和频道</p>
                                             </div>
                                         </div>
                                     </div>
@@ -95,7 +96,7 @@ ms.locfileid: "30493578"
                                             </div>
                                             <div class="cardText">
                                                 <h3>从 Skype for Business 升级到 Teams</h3>
-                                                <P>了解探索 Teams 最佳采用方式的指导和工具</p>
+                                                <P>查找探索 Teams 的最佳路径的指南和工具</p>
                                             </div>
                                         </div>
                                     </div>
@@ -113,8 +114,8 @@ ms.locfileid: "30493578"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>采用集线器</h3>
-                                                <P>获取工具以支持团队推出</p>
+                                                <h3>采用中心</h3>
+                                                <P>获取工具以支持 Teams 推广</p>
                                             </div>
                                         </div>
                                     </div>
@@ -132,7 +133,7 @@ ms.locfileid: "30493578"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>查找培训 & 视频</h3>
+                                                <h3>查找培训和视频</h3>
                                                 <P>获取 Teams 培训 - 适用于你和你的用户</p>
                                             </div>
                                         </div>
@@ -155,8 +156,8 @@ ms.locfileid: "30493578"
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>团队开发人员平台</h3>
-                                            <p>了解 Microsoft 团队开发人员平台以及它如何使您能够构建有用和强大的应用程序</p>
+                                            <h3>Teams 开发人员平台</h3>
+                                            <p>了解 Microsoft Teams 开发人员平台及其如何有助于生成功能强大的实用应用</p>
                                         </div>
                                     </div>
                                 </div>
@@ -174,8 +175,8 @@ ms.locfileid: "30493578"
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>团队技术社区</h3>
-                                            <p>加入团队技术社区提问&amp;获取解答和阅读团队博客 （英文）</p>
+                                            <h3>Teams 技术社区</h3>
+                                            <p>加入Teams 技术社区，提问并获取答案，阅读 Teams 博客</p>
                                         </div>
                                     </div>
                                 </div>
@@ -194,7 +195,7 @@ ms.locfileid: "30493578"
                                         </div>
                                         <div class="cardText">
                                             <h3>Teams 的 PowerShell cmdlet 参考</h3>
-                                            <p>团队中获取的 PowerShell 模块和 cmdlet</p>
+                                            <p>获取 Teams 的 PowerShell 模块和 cmdlet</p>
                                                     </div>
                                                 </div>
                                             </div>
