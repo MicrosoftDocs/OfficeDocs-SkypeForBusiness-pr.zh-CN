@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7712caa826804d26fd2e3527183128ce78520c3
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: a302d27884f92fb5cf17cc605cead6addbe98bfd
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30460233"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30683889"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>在 Office 365 组织中管理 Microsoft Teams 功能
 
@@ -40,7 +40,7 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 ### <a name="apps"></a>应用
 
-Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, also known as default apps) or by a third-party (also known as external apps). Under **Apps**, you can enable and disable default apps and configure settings to control external apps.  
+应用为选项卡、连接器、机器人或这三者的任意组合，它们由 Teams（第一方应用，亦称为默认应用）或第三方（亦称为外部应用）提供。在“应用”**** 下，可以启用和禁用默认应用，并配置用于控制外部应用的设置。若要详细了解如何在 Teams 中推出应用、机器人、连接器和选项卡，请参阅(应用、机器人和连接器)[deploy-apps-microsoft-teams-landing-page.md]。
 
 #### <a name="default-apps"></a>默认应用
 
