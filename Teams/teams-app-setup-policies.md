@@ -19,12 +19,12 @@ search.appverid: MET150
 description: 了解 Microsoft 团队以及如何使用它们 pin 应用程序自定义您的组织中的用户的工作组中的应用程序设置策略。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 29fcd5541e4817a2c5880316bba33d7d55047444
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: 5633e5158a3f19ea8960e957b91537547d2580a1
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664745"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747659"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -85,6 +85,14 @@ ms.locfileid: "30664745"
 3. **团队应用程序设置策略**，下选择要分配的应用程序设置策略，然后选择**保存**。
 
     ![应用程序的安装程序的策略-分配-policy.png](media/app-setup-policies-assign-policy.png)
+
+如下所示为一个或多个用户还可以分配的应用程序安装策略：
+
+1. 转到**Microsoft 团队管理中心** > **团队 apps** > **设置策略**。
+2. 通过单击左侧的策略名称选择的策略。
+3. 选择**管理用户**。
+4. 在**管理用户**窗格中，搜索用户按显示名称或用户名称，选择名称，然后选择**添加**。 要添加的每个用户重复此步骤。
+5. 添加完用户后，选择**保存**。
 
 ### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>自定义应用程序安装策略分配给组中的用户
 

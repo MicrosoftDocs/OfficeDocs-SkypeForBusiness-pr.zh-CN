@@ -16,16 +16,14 @@ description: 了解 live 团队，包括网络准备、 分配许可证、 使�
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bd650e9f34a63007cee63ae8d7ce604e28abddd
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 957db93e2eb8cba5b2b35388b00ed4d38b21d6ca
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464521"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747675"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
-
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 时您 live 事件的设置，有以下几个您必须采取的步骤：
 
@@ -77,6 +75,17 @@ ms.locfileid: "30464521"
 2. 旁边**分配策略**，选择**编辑**。 
 3. 选择要分配的实时事件策略，然后选择**保存**。 
 
+如下所示为一个或多个用户还可以分配 live 事件策略：
+
+![团队-徽标-30x30.png](../media/teams-logo-30x30.png) 使用 Microsoft 团队管理中心
+
+1. 转到**会议** > **Live 事件策略**。
+2. 通过单击左侧的策略名称选择的策略。
+3. 选择**管理用户**。
+4. 在**管理用户**窗格中，搜索用户按显示名称或用户名称，选择名称，然后选择**添加**。 要添加的每个用户重复此步骤。
+5. 添加完用户后，选择**保存**。
+ 
+
 ### <a name="enable-users-to-schedule-external-encoder-events"></a>使用户能够安排外部编码器事件
 
 用户安排外部编码器事件，则任务组还必须执行以下任务：
@@ -111,7 +120,7 @@ Live 事件视频播放使用流式处理 (ABR) 的自适应比特率，但它�
 转到[配置 live 团队中的事件设置](configure-teams-live-events.md)。
 
 ### <a name="related-topics"></a>相关主题
-- [什么是团队 live 事件？](what-are-teams-live-events.md)
-- [规划团队 live 事件](plan-for-teams-live-events.md)
+- [什么是 Teams 实时事件？](what-are-teams-live-events.md)
+- [规划 Teams 实时事件](plan-for-teams-live-events.md)
 - [在工作组中配置 live 事件设置](configure-teams-live-events.md)
 

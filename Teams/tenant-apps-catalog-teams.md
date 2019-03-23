@@ -1,6 +1,6 @@
 ---
 title: 将应用发布到 Microsoft Teams 租户应用目录
-author: lolaj
+author: lolajacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 03/15/2019
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 909ed249ea4e408cbddcd52824a7cb0047504613
-ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
+ms.openlocfilehash: ebc26292e41328589f302127980f4a303efd46a2
+ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30684069"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30771755"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>将应用发布到 Microsoft Teams 租户应用目录
 =======================================================

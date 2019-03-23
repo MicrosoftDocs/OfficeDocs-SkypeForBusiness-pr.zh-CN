@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 使用呼叫寄存和取回呼叫置于保持状态，云中团队服务中。
-ms.openlocfilehash: 48052768ce172fda88b3e034277c4454988b32db
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 416458b1f7c134fca3294107bd82bbd0f2300abc
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353471"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747651"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams 中的呼叫寄存和取回
 
@@ -60,6 +60,16 @@ ms.locfileid: "30353471"
 
 有关如何使用呼叫寄存和检索功能的信息，请参阅[寄存团队中的呼叫](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)。
 
+### <a name="assign-a-call-park-policy"></a>分配呼叫寄存策略
+
+按照以下步骤为一个或多个用户分配呼叫寄存策略：
+
+1. 转到**Microsoft 团队管理中心** > **语音** > **呼叫寄存策略**。
+2. 通过单击左侧的策略名称选择的策略。
+3. 选择**管理用户**。
+4. 在**管理用户**窗格中，搜索用户按显示名称或用户名称，选择名称，然后选择**添加**。 要添加的每个用户重复此步骤。
+5. 添加完用户后，选择**保存**。
+ 
 ### <a name="configure-call-park-and-retrieve-with-powershell"></a>配置呼叫寄存和检索与 PowerShell
 
 使用[新建 CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) PowerShell cmdlet 创建呼叫寄存策略。
@@ -71,7 +81,7 @@ ms.locfileid: "30353471"
 `Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true`
 
 
-## <a name="troubleshooting"></a>故障排除
+## <a name="troubleshooting"></a>疑难解答
 
 如果用户不能看到寄存或检索按钮： 
 

@@ -15,45 +15,42 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57f8ffc7d5cedeb6117deffb99ad48ccbe17b48f
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: c39924df868d7d9a3dae45a68b9785a4f493b35a
+ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640727"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30771707"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备贵组织的网络
 
-> [!Tip]
-> 观看下面的会话，若要了解如何团队利用您的网络和如何最好地规划最佳的网络连接：[团队网络规划](https://aka.ms/teams-networking)
 
+Teams 组合了三种形式的流量：
 
-团队结合使用三种形式的流量：
+-   Office 365 联机环境与 Teams 客户端之间的数据流量（信号发送、联机状态、聊天、文件上载和下载、OneNote 同步）。
 
--   Office 365 联机环境和团队客户端 （信号、 状态、 聊天、 文件上载和下载、 OneNote 同步） 之间的数据通信。
+-   点对点实时通信流量（音频、视频、桌面共享）。
 
--   对等实时通信 （音频、 视频、 桌面共享） 流量。
+-   会议实时通信流量（音频、视频、桌面共享）。
 
--   会议实时通信流量 （音频、 视频、 桌面共享）。
-
-这会影响网络在两个级别： 通信将直接的对等方案中，在 Microsoft 团队客户端之间流动和通信将会议方案的流动的 Microsoft 团队客户端和 Office 365 环境之间。 若要确保最佳通信流，必须允许通讯以及为之间流动二者之间的内部网络段 （例如，通过 WAN 网站） 之间的网络站点和 Office 365。 不打开了正确的端口或主动阻止特定端口将导致降级体验。
+这在两个级别上影响网络：对于点对点应用场景，流量在 Microsoft Teams 客户端之间直接传输；对于会议应用场景，流量在 Office 365 环境与 Microsoft Teams 客户端之间传输。 为了确保获得最佳通信流，必须允许在内部网络段（例如，WAN 上的站点）之间以及网络站点与 Office 365 之间传输流量。 如果未打开正确的端口或主动阻止特定端口，将会导致降低体验。
 
 > [!NOTE]
 > IOS 和 Android 移动设备上支持会议。 
 
-若要获取的 Microsoft 团队中的实时媒体与获得最佳体验，您的网络必须满足 Office 365 的网络要求。 有关详细信息，请参阅[媒体质量和业务 online Skype 的网络连接性能](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)。
+若要获取的 Microsoft 团队中的实时媒体与获得最佳体验，您的网络必须满足 Office 365 的网络要求。 有关详细信息，请参阅 [Skype for Business Online 的媒体质量和网络连接性能](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)。
 
-两个定义网络段 （客户端到 Microsoft 边缘） 和客户边缘到 Microsoft 边缘，请考虑以下建议。
+对于两个定义网络段（客户端到 Microsoft Edge 和客户边缘到 Microsoft Edge），请考虑以下建议：
 
 
-|值  |客户端到 Microsoft 边缘  |客户边缘到 Microsoft 边缘  |
+|值  |客户端到 Microsoft Edge  |客户边缘到 Microsoft Edge  |
 |:--- |:--- |:--- |
-|**延迟 （一种方法）**\*  |< 50 毫秒          |< 30ms         |
-|**延迟 （RTT 或往返时间）**\* |< 为 100 毫秒   |< 为 60 毫秒 |
-|**突发数据包丢失**    |任何为 200 毫秒间隔期间 <10%         |任何为 200 毫秒间隔期间 <1%         |
-|**数据包丢失**     |<1%期间任何 15 秒间隔          |<0.1%期间任何 15 秒间隔         |
-|**数据包间到达抖动**    |<30ms 期间任何 15 秒间隔         |<15ms 期间任何 15 秒间隔         |
-|**数据包重新排序**    |<0.05%序的数据包         |<0.01%序的数据包         |
+|**延迟 （一种方法）**\*  |< 50 ms          |< 30 ms         |
+|**延迟 （RTT 或往返时间）**\* |< 100 ms   |< 60 ms |
+|**突发数据包丢失**    |< 10%，在任何 200 ms 时间间隔内         |< 1%，在任何 200 ms 时间间隔内         |
+|**数据包丢失**     |< 1%，在任何 15 s 时间间隔内          |< 0.1%，在任何 15 s 时间间隔内         |
+|**数据包中间间隔抖动**    |< 30 ms，在任何 15 s 时间间隔内         |< 15 ms，在任何 15 s 时间间隔内         |
+|**数据包重新排序**    |< 0.05% 无序数据包         |< 0.01% 无序数据包         |
 
 \*延迟指标目标假定您的公司网站和 Microsoft 边缘位于同一洲。
 
@@ -69,10 +66,19 @@ ms.locfileid: "30640727"
 
 ## <a name="bandwidth-requirements"></a>带宽要求
 
-Microsoft 团队的带宽计算很复杂，为了与此，具有创建一个计算器。 若要访问计算器，转到[网络规划人员](https://aka.ms/bwcalc/)MyAdvisor 中。
 
-> [!NOTE]
-> 团队带宽处理改进了业务 online Skype： 对于呼叫或会议 （与音频、 视频和共享） 的体验，高质量，团队需要仅 1.2 Mbps。 它还可以扩展最多进一步的超级高质量，如果没有足够的可用带宽。 当团队请求遇到低带宽条件时，团队可以快速重新调整带宽使用情况，以适应可用带宽。
+本文介绍简洁版的 Microsoft 团队实时音频、 视频和桌面共享形式在各种使用情况下如何使用带宽。 工作组始终是保守对带宽使用率和下 1.2Mbps 中可以提供 HD 视频质量。  每个音频/视频呼叫或会议中的实际带宽使用将有所不同，根据多种因素，例如视频布局、 视频分辨率和视频帧速率。 更多的带宽有质量和使用情况将会增加为了提供最佳体验。
+
+
+|Bandwidth(up/down) |方案 |
+|---|---|
+|30 kbps |对等音频呼叫 |
+|130 kbps |对等音频呼叫和屏幕共享 |
+|500 kbps |对等质量视频 30 fps 时调用 360 p |
+|1.2 Mbps |调用不带 HD 720 p 30 fps 时的解决方案的对等 HD 质量视频 |
+|1.5 Mbps |调用不带分辨率为高清 1080p 以 30 fps 的对等 HD 质量视频 |
+|500 kbps/1Mbps |组视频呼叫 |
+|为 2Mbps 1Mbps / |HD 组视频呼叫 （1080p 屏幕上的 540 p 视频） |
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
