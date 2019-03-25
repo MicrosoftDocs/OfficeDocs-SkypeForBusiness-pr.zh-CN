@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 718b239da2d65bc01675f91c68ad18f7dee68c3e
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 2908ff9bec8be1eaf7d6dc09ff03adb9ae3ea9ea
+ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641229"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30737813"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -257,6 +257,10 @@ ms.locfileid: "30641229"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |旧版 OneNote 选项卡  <br/> |在 Microsoft Teams 公共预览版期间创建的旧版 OneNote 选项卡无法重命名或删除。  <br/> |无解决方法。 <br/> |2017 年 11 月 8 日  <br/> |
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|SharePoint 列表选项卡中 search 函数  <br/> |如果尝试通过 SharePoint 列表选项卡的 search 函数打开文件，则将触发“你将需要新应用来打开此项”提示，且不会打开文件。 <br/> |从列表中直接打开，而不使用搜索栏。 <br/> |2019/2/11  <br/> |
 
 ## <a name="teams"></a>团队
 
