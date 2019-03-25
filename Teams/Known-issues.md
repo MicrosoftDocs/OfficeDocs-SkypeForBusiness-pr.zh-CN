@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2908ff9bec8be1eaf7d6dc09ff03adb9ae3ea9ea
-ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
+ms.openlocfilehash: a9abe6e17a4c11dd2e1943643c7030eadd5bd0ba
+ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30737813"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30771731"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -178,7 +178,7 @@ ms.locfileid: "30737813"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|会议的与会者上限  <br/> |每个 Microsoft Teams 会议最多可以有 80 个与会者。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/> |
+|会议的与会者上限  <br/> |每场 Microsoft Teams 会议最多可拥有 250 名与会者。  <br/> |在 Teams 中创建可容纳 10000 名用户的直播事件。  <br/> |2017 年 3 月 13 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -249,10 +249,6 @@ ms.locfileid: "30737813"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |Teams Planner 与 Planner online 集成 <br/> |用户使用 Planner online 时，Planner 中的任务桶不显示出来。  <br/> |无解决方法。 <br/> |2017 年 2 月 28 日  <br/>|
-
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|
-|SharePoint 页面选项卡呈现白屏 <br/> |当前不支持 SharePoint Online 虚域。用户尝试添加 SharePoint 页面选项卡时看到的是白屏。 <br/> |无解决方法。 <br/> |2018 年 8 月 20 日  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
