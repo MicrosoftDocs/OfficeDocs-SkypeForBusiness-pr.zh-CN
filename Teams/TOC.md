@@ -24,6 +24,7 @@
 ## [管理消息传递策略](messaging-policies-in-teams.md)
 ## [开始使用 Teams 模板](get-started-with-teams-templates.md)
 ## [适合于医疗卫生的 Teams 模板](healthcare/healthcare-templates.md)
+## [适合零售业的 Teams 模板](get-started-with-retail-teams-templates.md)
 ## [团队的动态成员资格概述](dynamic-memberships.md)
 ## [状态](presence-admins.md)
 ## [与其他组织中的 Teams 用户通信](let-your-teams-users-communicate-with-other-people.md)
@@ -34,6 +35,9 @@
 ## [应用、机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)
 ### [应用权限和注意事项](app-permissions.md)
 ### [Teams 中适用于应用的管理设置](admin-settings.md)
+### [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)
+### [在 Teams 中管理应用设置策略](teams-app-setup-policies.md)
+### [在 Teams 中管理自定义应用策略和设置](teams-custom-app-policies-and-settings.md)
 ### [在 Teams 中为私人聊天和频道添加聊天机器人](add-bots.md)
 ### [使用内置和自定义选项卡](built-in-custom-tabs.md)
 ### [使用 Office 365 和自定义连接器](Office-365-custom-connectors.md)
@@ -317,7 +321,7 @@
 ### 自动助理和呼叫队列 
 #### [什么是电话系统自动助理](what-are-phone-system-auto-attendants.md)
 #### [设置电话系统自动助理](create-a-phone-system-auto-attendant.md)
-#### [小型企业示例 - 设置自动助理](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [小型企业示例 - 设置自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [在 Microsoft Teams 中管理资源帐户](manage-resource-accounts.md)
 #### [创建电话系统呼叫队列](create-a-phone-system-call-queue.md)
 #### [直接从 Teams 回答自动助理和呼叫队列](answer-auto-attendant-and-call-queue-calls.md)
@@ -688,7 +692,7 @@
 ## 适合于一线工作者的 Teams
 ### [Microsoft StaffHub 将停用](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
 ### [在 Teams 中为组织管理 Shifts 应用](teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md)
-### [Teams 零售模板入门](get-started-with-retail-teams-templates.md)
+### [开始使用 Teams 零售模板](get-started-with-retail-teams-templates.md)
 
 ## [Microsoft 365 政府版计划 - GCC](plan-for-government-gcc.md)
 ### [Microsoft 365 政府版计划 - GCC（高）](plan-for-government-gcc-high.md)
