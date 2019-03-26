@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: 部署 （安装） 始终在可用性组中您 Skype 业务服务器部署。
-ms.openlocfilehash: b773c10766b33e57eb8a132d98ef0e0cdc180123
-ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
+ms.openlocfilehash: 2877af4d7ccf8fea0087ce67d7e92ecc5e2f8ccd
+ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30342217"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30800115"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>为业务服务器部署在 Skype 的后端服务器上始终在可用性组
  
@@ -88,8 +88,10 @@ AG 的部署方式取决于是否要在新的池、 使用镜像，一个现有�
    - 打开 SQL Server 配置管理器。在屏幕左侧的树中，单击“**SQL Server 服务**”，然后双击“SQL Server 服务”。 
     
    - 在“**属性**”框中，选择“**AlwaysOn 高可用性**”选项卡。选中“**启用 AlwaysOn 可用性组**”复选框。出现提示时，重新启动 SQL Server 服务。
+   
+6. 使用拓扑生成器来创建前端池中, 所述[创建和发布新拓扑中 Skype 业务服务器](../../deploy/install/create-and-publish-new-topology.md)。 执行操作时，指定 AG 为池的 SQL 存储。
     
-6. 创建可用性组。
+7. 创建可用性组。
     
    - 打开 SQL Server Management Studio，然后连接到 SQL Server 实例。
     
@@ -120,9 +122,7 @@ AG 的部署方式取决于是否要在新的池、 使用镜像，一个现有�
    - 在“验证”页上，确认所有验证检查都已成功，然后单击“**下一步**”。
     
    - 在“**摘要**”页上，验证所有设置，然后单击“完成”。
-    
-7. 使用拓扑生成器来创建前端池中, 所述[创建和发布新拓扑中 Skype 业务服务器](../../deploy/install/create-and-publish-new-topology.md)。 执行操作时，指定 AG 为池的 SQL 存储。
-    
+      
 8. 部署的池以及 AG 后，执行一些最终的步骤，以确保 SQL 登录名位于每个 AlwaysOn 可用性组中的副本。 
     
    - 打开拓扑生成器，选择**下载从现有部署的拓扑**，然后单击**确定**。

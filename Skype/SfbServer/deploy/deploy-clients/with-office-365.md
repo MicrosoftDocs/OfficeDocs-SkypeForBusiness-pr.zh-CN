@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读此主题以获取如何部署与 Office 365 的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 5d2a756fafe616db22d968a3e946e468a6d063b4
-ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
+ms.openlocfilehash: 05288842a54fd8be7487181582fcc7bd4780fd2e
+ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30737846"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30800122"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>将 Skype 会议室系统 v2 与 Office 365 一起部署 
 
@@ -107,7 +107,7 @@ Skype 的业务 Online 计划的详细信息，请参阅[Skype for Business Onli
 
    有关详细的语法和参数信息，请参阅[Set-calendarprocessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)。
 
-4. 连接到 MS 联机 PowerShell，可以通过运行使 Active directory 设置`Connect-MsolService -Credential $cred`如果您已有 For 详细信息，请参阅[Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0)。 <!-- or [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) for the new module -->  
+4. 连接到 MS 联机 PowerShell，可以通过运行使 Active Directory 设置`Connect-MsolService -Credential $cred`powershell cmdlet。   有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0)。 <!-- or [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) for the new module -->  
     1. 如果您不希望密码过期，使用以下语法：
 
     ``` PowerShell

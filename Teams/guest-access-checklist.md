@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams 来宾访问清单
+title: Microsoft 团队来宾访问清单
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
-ms.date: 01/22/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
-description: 使用此清单可帮助 Microsoft 团队来宾 Access 中的来宾访问设置。
+description: 使用此清单来帮助中的 Microsoft 团队的来宾访问设置。
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 404754c373d46b9b6e5578107415d61bbb87f97e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 68beeba403f6a64e194594d5bd40b985c8051dc6
+ms.sourcegitcommit: fba1151c968aa2c43d0c5b42b889b2cdd8dba3cd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463465"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "30795583"
 ---
 <a name="teams-guest-access-checklist"></a>团队来宾访问清单
 ==========================================
@@ -93,7 +93,7 @@ ms.locfileid: "30463465"
 1. 在团队管理中心中选择**组织范围设置** > **来宾访问**。
 2. 设置为**上**的**Microsoft 团队中的允许来宾访问**开关。
 
-    ![屏幕快照显示了工作组设置切换的示例](media/set-up-guests-image1.png)
+    ![屏幕快照显示了工作组设置切换的示例](media/guest-access-checklist-set-up-guests-image1.png)
 
 3. 在此同一页上，配置所需的任何其他来宾设置。
 4. 单击“**保存**”。
@@ -111,11 +111,11 @@ ms.locfileid: "30463465"
 
 2. 在**共享**，选择**编辑**。
 
-     ![屏幕快照显示了共享设置切换的示例](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
+     ![屏幕快照显示了共享的设置切换的示例](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
  
 3. 设置**让用户将添加到此组织的新来宾**为**上**，，然后单击**保存**。
 
-     ![屏幕快照显示了共享设置切换的示例](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
+     ![屏幕快照显示了共享的设置切换的示例](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
  
 > [!NOTE]
 > 此设置等同于在**用户设置**中的**成员可以邀请**设置 > Azure AD 中的**外部用户**。  
@@ -128,7 +128,7 @@ ms.locfileid: "30463465"
 3. 在 SharePoint 管理中心中，选择**共享**。
 4. 请确保选项*未*选中的**不允许共享您的组织外部**。
  
-     ![屏幕快照显示了 Sparepoint 在线设置切换的示例。](media/guest-access-checklist-SPOSettings1.png)
+     ![屏幕快照显示了 SparePoint 联机设置切换的示例。](media/guest-access-checklist-SPOSettings1.png)
 
 
 ## <a name="-step-6-enable-specific-settings-for-channels"></a>□ 步骤 6： 启用渠道的特定设置 
@@ -140,7 +140,7 @@ ms.locfileid: "30463465"
 有关详细信息，包括操作方法视频，请参阅[中的 Microsoft 团队的来宾访问](guest-access.md)。
 
 
-## <a name="troubleshooting"></a>故障排除
+## <a name="troubleshooting"></a>疑难解答
 
 如果您遇到的 Microsoft 团队中添加来宾问题，请参阅[来宾访问疑难解答指南 》](https://techcommunity.microsoft.com/t5/Microsoft-Teams/Guest-Access-Troubleshooting-Guide/td-p/119797)。
 

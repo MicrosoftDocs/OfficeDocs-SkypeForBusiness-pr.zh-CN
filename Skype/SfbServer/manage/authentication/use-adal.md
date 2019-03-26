@@ -10,54 +10,54 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5ca71746-ead6-4e8c-90b1-461e846d1f4a
 description: 本文介绍如何使用现代身份验证 （这基于 Active Directory 身份验证库 (ADAL) 和 OAuth 2.0） 可以位于年 3 月 2016 for Business 的业务服务器 2015年的 Skype Skype 的累积更新。
-ms.openlocfilehash: 70878092baaee9414c8acada21a89ceea6587658
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: 0121e1a99aab70b10a00dbcf72d3a8be8a50553a
+ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25692759"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30800137"
 ---
-# <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>How to use Modern Authentication (ADAL) with Skype for Business
+# <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>如何将新式验证 (ADAL) 与 Skype for Business 配合使用
  
 本文介绍如何使用现代身份验证 （这基于 Active Directory 身份验证库 (ADAL) 和 OAuth 2.0） 可以位于年 3 月 2016 for Business 的 Skype 业务服务器 2015，或从初始 Skype 的累积更新业务服务器 2019 Skype 的的发行版。
   
 ## <a name="whats-in-this-article"></a>本文中的内容
 
-[在你的池中配置 ADAL 并将 ADFS 设置为安全令牌服务器](use-adal.md#BKMK_Config)
+[在池中配置 ADAL 并将 AD FS 设置为安全令牌服务器](use-adal.md#BKMK_Config)
   
 [用于启用 ADAL 登录的其他选项（如 Office 客户端应用）](use-adal.md#BKMK_Options)
   
 [新式验证/ADAL 不受支持的客户端](use-adal.md#BKMK_Support)
   
-### <a name="configure-adal-in-your-pool-and-set-adfs-as-security-token-server"></a>在你的池中配置 ADAL 并将 ADFS 设置为安全令牌服务器
+### <a name="configure-adal-in-your-pool-and-set-ad-fs-as-security-token-server"></a>在池中配置 ADAL 并将 AD FS 设置为安全令牌服务器
 <a name="BKMK_Config"> </a>
 
-在此过程中，将连接到业务服务器池的配置为使用 ADAL Skype 所安装的 ADFS。
+在此过程中，将连接到业务服务器池的配置为使用 ADAL Skype 所安装的 AD FS。
   
-1. 安装年 3 月 2016 Skype 业务服务器 2015 到您 Skype 业务服务器池或 Standard Edition 服务器的累积更新。 （计划维护时段，根据需要运行自动安装的 Windows Update）。
+1. 安装年 3 月 2016年累积更新 （或更高版本） 的 Skype 业务服务器 2015 到您 Skype 业务服务器池或 Standard Edition server。 （计划维护时段，根据需要运行自动安装的 Windows Update）。
     
-2. 您的本地 ADFS 服务器上，[下载](https://aka.ms/sfbadalscripts)安装 AdfsOAuthTrustForSfB 脚本。 （这需要完成每个 ADFS 服务器场或独立的 ADFS 服务器。 它不需要 ADFS 代理服务器上完成）。
+2. 在您的内部部署 AD FS 服务器、[下载](https://aka.ms/sfbadalscripts)安装 AdfsOAuthTrustForSfB 脚本。 （这需要完成每个 AD FS 服务器场或独立 AD FS 服务器。 它不会不需要 AD FS 代理服务器或 Web 应用程序代理上完成。）
     
 3. 记下的内部和外部 Web 服务的完全限定域名 (Fqdn) 为您 Skype 业务服务器池或 Standard Edition server。 需要对所有 Skype for Business 池执行此操作。
     
-4. 从 ADFS 服务器上的 PowerShell，运行 Setup-AdfsOAuthTrustForSfB。你需要输入内部和外部 Web 服务 FQDN 的正确 URL。下面是一个示例：
+4. 从 PowerShell 在 AD FS 服务器上，运行`Setup-AdfsOAuthTrustForSfB.ps1`（对于 Windows Server 2012 R2) 或`Setup-Adfs2016OAuthTrustForSfB.ps1`（对于 Windows Server 2016 或更高版本。）您需要输入正确的 Url 的内部和外部 Web 服务完全限定域名 (Fqdn)。 下面是一个示例：
     
      `Setup-AdfsOAuthTrustForSfB.ps1 -poolIDs https://contosoSkype.contoso.com,https://contoso01Skype.contosoIn.com`
     
-    对于任何其他池，您将需要池 Web 服务 Url 手动添加到 Skype 的业务服务器信赖方信任 ADFS 中。
+    对于任何其他池，您将需要池 Web 服务 Url 手动添加到 Skype 的业务服务器信赖方信任在 AD FS。
     
     > [!IMPORTANT]
-    > 不能对池同时使用被动身份验证和 ADAL。 必须禁用被动身份验证才能使用 ADAL。 有关 PowerShell cmdlet 如何为池设置身份验证的信息，请参阅[这篇](https://technet.microsoft.com/en-us/library/gg398396.aspx)文章。
+    > 不能对池同时使用被动身份验证和 ADAL。 必须禁用被动身份验证才能使用 ADAL。 有关如何为池设置身份验证的 PowerShell cmdlet，请参阅[这](https://technet.microsoft.com/en-us/library/gg398396.aspx)篇文章。
   
     > [!TIP]
-    > 如果您有其他池需要将其作为[标识符](https://technet.microsoft.com/en-us/library/gg557759%28v=ws.10%29.aspx)添加到信赖方信任 ADFS。 > 转到您的 ADFS 服务器并打开 ADFS 管理。 展开信任关系\>信赖方信任。 右键单击信赖方信任列出和属性的右键单击\>标识符\>键入其他池 URL(s)\>单击添加。 
+    > 如果您有其他池，需要将其作为[标识符](https://technet.microsoft.com/en-us/library/gg557759%28v=ws.10%29.aspx)添加到信赖方信任在 AD FS.> 转到您的 AD FS 服务器并打开 AD FS 管理。 展开信任关系\>信赖方信任。 右键单击信赖方信任列出和属性的右键单击\>标识符\>键入其他池 URL(s)\>单击添加。 
   
 5. 返回到您 Skype 业务 Server 前端服务器或 Standard Edition server 的服务器。 从此处，您必须运行 cmdlet 创建的 OAuth 服务器和修改的 OAuth 配置才能与 Skype 的业务。 您只需执行的业务服务器部署的 Skype 每次此步骤。 下面是一个示例：
     
      `New-CsOAuthServer -Identity sts.contosoIn.com -Type ADFS -MetadataURL https://sts.contosoIn.com/FederationMetadata/2007-06/FederationMetadata.xml`
     
     > [!TIP]
-    > 您在此命令中看到的标识 URL 是实际的 ADFS 联合身份验证服务名称时，您可以看到 ADFS 管理中右键单击服务\>属性。 类型始终是 ADFS，并且始终是 MetadataURL\<您的 ADFS 服务名称\>+"/ FederationMetadata/2007-06/FederationMetadata.xml"。 
+    > 您在此命令中看到的标识 URL 实际上是 AD FS 联合身份验证服务名称时，您可以看到 AD FS 管理中右键单击服务\>属性。 类型始终是 ADFS，并且始终是 MetadataURL\<您的 AD FS 服务名称\>+"/ FederationMetadata/2007-06/FederationMetadata.xml"。 
   
      `Set-CsOAuthConfiguration -ClientAuthorizationOAuthServerIdentity sts.contosoIn.com`
     
@@ -68,9 +68,9 @@ ms.locfileid: "25692759"
 7. 出现提示时，请务必输入测试用户的凭据。 验证测试是否成功完成。
     
     > [!NOTE]
-    > 当您 STS 的 URL 将解析为 ADFS*内部*时，您将看到的提示将**Windows 安全**提示。 如果 URL 在外部解析，你将看到一个名为“**登录**”的提示。 通常，我们在这里需要“**Windows 安全**”提示。 请注意，此行为各不相同，特别是当你实施了基于表单的身份验证 (FBA) 时。
+    > 当您 STS 的 URL 将解析为 AD FS*内部*时，您将看到的提示将**Windows 安全**提示。 如果 URL 在外部解析，你将看到一个名为“**登录**”的提示。 通常，我们在这里需要“**Windows 安全**”提示。 请注意，此行为各不相同，特别是当你实施了基于表单的身份验证 (FBA) 时。
   
-此外，请注意，当 STS URL 解析为内部 ADFS 服务器并且在浏览器中启用了 Windows 集成身份验证时，许多不同用户在其上登录到客户端应用程序的计算机可能无法进行身份验证，除非浏览器显式配置为在给定的浏览器安全区域中提示用户提供其凭据。以 kiosk 为例。登录到操作系统的帐户可能不同于登录到 Skype for Business 客户端的用户帐户。如果的确如此，你可能会看到此处所述的故障。
+另外请注意，当 STS URL 解析为内部 AD FS 服务器时，在浏览器中启用 Windows 集成身份验证，其中许多不同的用户登录到客户端应用程序的计算机可能失败进行身份验证，除非明确是在浏览器配置为提示用户输入凭据在给定浏览器中安全区域。 以 kiosk 为例。 登录到操作系统的帐户可能不同于登录到 Skype for Business 客户端的用户帐户。 如果的确如此，你可能会看到此处所述的故障。
     
 可以查看和更改此浏览器设置在 Internet Explorer 中的单击\>工具 （或齿轮） \> Internet 选项\>安全选项卡\>（如本地 Intranet) 的安全区域。 从此对话框，单击“自定义级别”按钮并滚动到“设置”对话框中的列表末尾。 在用户身份验证下\>登录\>您将看到用户名和密码提示选项。 如果在你的 kiosk 中，启动 Skype for Business 客户端的用户不同于（具有不同的帐户）登录计算机的用户，你可能需要在组策略中测试将这些计算机的这个选项设置为“打开”。
     
@@ -117,4 +117,5 @@ ms.locfileid: "25692759"
     
 - Office 客户端 16.0。[6000-6224]。\*
     
-
+> [!NOTE]
+> 混合现代身份验证中也有与 Skype 的业务内部部署，如果您想要了解，请访问[如何配置 for Business 的 Skype 本地用于混合现代身份验证](https://docs.microsoft.com/en-us/office365/enterprise/configure-skype-for-business-for-hybrid-modern-authentication)

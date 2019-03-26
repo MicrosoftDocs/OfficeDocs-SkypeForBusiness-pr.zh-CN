@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bd2b3f94acfc82e1602f3137ed1e275a03c7b0e
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 6972a09a169560d255c2bb118f80dbbdfb2c7f4f
+ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647422"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30800129"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -76,10 +76,9 @@ ms.locfileid: "30647422"
 
 自动根据模式，用户体验的一致性声明推出之前`Grant-CsTeamsUpgradePolicy`cmdlet 检查 TeamsMessagingPolicy、 TeamsCallingPolicy 和 TeamsMeetingPolicy，以确定它们是否中相应的设置的配置设置可以与指定模式兼容。 如果任何未正确配置，则授予会成功，但警告将提供在 PowerShell 中指示的特定设置的配置不正确。 下面是 PowerShell 警告可能外观的示例：
 
+`Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 
-授予 CsTeamsUpgradePolicy-Identity user1@contoso.com-PolicyName SfBWithTeamsCollab
-
-警告: user1@contoso.com' 用户当前已启用的有效策略值： AllowUserChat AllowPrivateCalling、 AllowPrivateMeetingScheduling、 AllowChannelMeetingScheduling。 Near 术语，当使用模式授予 TeamsUpgradePolicy = SfBWithTeamsCollab 给用户，您必须单独还分配策略，以确保用户具有有效策略禁用值： AllowUserChat、 AllowPrivateCalling，AllowPrivateMeetingScheduling，AllowChannelMeetingScheduling。 将来，功能将自动服从 TeamsUpgradePolicy。
+`WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.`
 
 时看到这样的警告，管理员随后应更新指示的策略中团队提供兼容的最终用户体验。 如果管理员决定不执行任何操作由于警告，用户仍可以访问聊天，呼叫和/或会议中团队的日程安排功能，具体取决于 TeamsMessagingPolicy、 TeamsCallingPolicy 和 TeamsMeetingPolicy 的值可能会造成的混乱的最终用户体验。
 
