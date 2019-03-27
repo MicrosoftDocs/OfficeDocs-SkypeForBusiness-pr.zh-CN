@@ -1,5 +1,6 @@
 ---
-title: 客户端设置 （规划工具）
+title: Client Settings (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,16 +13,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
-description: 中的业务服务器 2015 Skype 的移动功能支持的移动设备上的业务功能 Skype。 有关详细信息，请参阅 Planning for Mobility。
-ms.openlocfilehash: b7ec9bee77369b297ac5c4c590f7e185eaa0f450
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 中的业务服务器 2015 Skype 的移动功能支持的移动设备上的业务功能 Skype。 有关详细信息，请参阅Planning for Mobility。
+ms.openlocfilehash: 8c2fd0c0f3b0278a4d004c035f796a358d17199f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248388"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898604"
 ---
-# <a name="client-settings-planning-tool"></a><span data-ttu-id="a41eb-104">客户端设置 （规划工具）</span><span class="sxs-lookup"><span data-stu-id="a41eb-104">Client Settings (Planning Tool)</span></span>
+# <a name="client-settings-planning-tool"></a><span data-ttu-id="55676-104">Client Settings (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="55676-104">Client Settings (Planning Tool)</span></span>
 
-<span data-ttu-id="a41eb-105">中的业务服务器 2015 Skype 的移动功能支持的移动设备上的业务功能 Skype。</span><span class="sxs-lookup"><span data-stu-id="a41eb-105">The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices.</span></span> <span data-ttu-id="a41eb-106">有关详细信息，请参阅[Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)。</span><span class="sxs-lookup"><span data-stu-id="a41eb-106">For details, see [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span></span>
+<span data-ttu-id="55676-105">中的业务服务器 2015 Skype 的移动功能支持的移动设备上的业务功能 Skype。</span><span class="sxs-lookup"><span data-stu-id="55676-105">The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices.</span></span> <span data-ttu-id="55676-106">有关详细信息，请参阅[Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)。</span><span class="sxs-lookup"><span data-stu-id="55676-106">For details, see [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span></span>
 
 

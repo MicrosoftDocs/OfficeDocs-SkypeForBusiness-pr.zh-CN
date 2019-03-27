@@ -1,5 +1,6 @@
 ---
 title: 旧版合并添加扩展边缘
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,15 +12,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 324349df-ff11-40b5-93cf-4504e18b8985
-description: Skype 业务服务器不支持合并旧办公室通信服务器 2007 R2 扩展的边缘服务器配置。 必须先将扩展边缘服务器转换成合并边缘服务器配置，然后才能合并边缘服务器信息。
-ms.openlocfilehash: 0ae882c35a2d41984e18bdf06e6ca25864447a93
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Skype 业务服务器不支持合并旧的 Office Communications Server 2007 R2 扩展的边缘服务器配置。 必须先将扩展边缘服务器转换成合并边缘服务器配置，然后才能合并边缘服务器信息。
+ms.openlocfilehash: 161499f46bac00aba7b44c1b354e910fb01936e3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890992"
 ---
-# <a name="legacy-merge-add-expanded-edge"></a><span data-ttu-id="46f34-104">旧版合并添加扩展边缘</span><span class="sxs-lookup"><span data-stu-id="46f34-104">Legacy Merge Add Expanded Edge</span></span>
+# <a name="legacy-merge-add-expanded-edge"></a><span data-ttu-id="2c160-104">旧版合并添加扩展边缘</span><span class="sxs-lookup"><span data-stu-id="2c160-104">Legacy Merge Add Expanded Edge</span></span>
  
-<span data-ttu-id="46f34-105">Skype 业务服务器不支持合并旧办公室通信服务器 2007 R2 扩展的边缘服务器配置。</span><span class="sxs-lookup"><span data-stu-id="46f34-105">Skype for Business Server does not support merging a legacy Office Communications Server 2007 R2 expanded Edge Server configuration.</span></span> <span data-ttu-id="46f34-106">必须先将扩展边缘服务器转换成合并边缘服务器配置，然后才能合并边缘服务器信息。</span><span class="sxs-lookup"><span data-stu-id="46f34-106">The expanded Edge Server must first be converted to a consolidated Edge Server configuration prior to merging the Edge Server information.</span></span> 
+<span data-ttu-id="2c160-105">Skype 业务服务器不支持合并旧的 Office Communications Server 2007 R2 扩展的边缘服务器配置。</span><span class="sxs-lookup"><span data-stu-id="2c160-105">Skype for Business Server does not support merging a legacy Office Communications Server 2007 R2 expanded Edge Server configuration.</span></span> <span data-ttu-id="2c160-106">必须先将扩展边缘服务器转换成合并边缘服务器配置，然后才能合并边缘服务器信息。</span><span class="sxs-lookup"><span data-stu-id="2c160-106">The expanded Edge Server must first be converted to a consolidated Edge Server configuration prior to merging the Edge Server information.</span></span> 
   
 

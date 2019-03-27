@@ -1,5 +1,6 @@
 ---
 title: What's new in Business online Skype。
+ms.reviewer: ''
 description: 添加一个简短的描述
 services: skype-for-business-online-admin
 author: samanro
@@ -13,12 +14,12 @@ ms.devlang: na
 ms.topic: landing-page
 ms.date: 12/13/2017
 ms.author: samanro
-ms.openlocfilehash: 1280395be00f8a23768b28349a875320f12bc035
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a59eb6c7a64de3c1b45cbd94bbbc0f3e26e8cea4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533154"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899416"
 ---
 # <a name="whats-new-in-skype-for-business-online"></a>What's new in Business online Skype
 
