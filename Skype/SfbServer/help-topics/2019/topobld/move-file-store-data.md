@@ -1,5 +1,6 @@
 ---
 title: 移动文件存储数据移到新文件存储中的业务服务器 Skype
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 如果您需要删除目前充当业务服务器部署中，您 Skype 的文件存储的文件服务器，或如果您需要进行其他更改，使当前文件存储不可用，首先需要创建新的共享。 然后需要执行以下步骤：
-ms.openlocfilehash: 5051e7ef9c0008fb3b98f7e4b7c67a06a5465d1e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0f9552e9de66924524ef2ac5c66d125689061b88
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375920"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890386"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>移动文件存储数据移到新文件存储中的业务服务器 Skype
 
@@ -54,7 +55,7 @@ ms.locfileid: "25375920"
 10. 在“**定义新文件存储**”中的“**文件服务器 FQDN**”下，键入文件服务器的完全限定域名 (FQDN)。在“**文件共享**”下，键入新文件共享的文件夹名称，然后单击“**确定**”。
 
      > [!IMPORTANT]
-     > 此步骤在拓扑生成器中定义为使用新文件存储。 只需定义一次，无需针对每台服务器定义。 发布拓扑之前，必须在定义的文件服务器上创建定义的文件共享。 有关详细信息，请参阅[定义前端的文件存储区](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx)。
+     > 此步骤在拓扑生成器中定义为使用新文件存储。 只需定义一次，无需针对每台服务器定义。 发布拓扑之前，必须在定义的文件服务器上创建定义的文件共享。 有关详细信息，请参阅[Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx)。
 
 11. 对于每个使用文件存储的服务器或池，执行以下操作：
 
@@ -62,7 +63,7 @@ ms.locfileid: "25375920"
 
 13. 在“**编辑属性**”中的“**关联**”下面的“**文件存储**”中，选择新的文件共享，然后单击“**确定**”。
 
-14. 发布拓扑，检查复制状态，并根据需要业务 Server 部署向导运行 Skype。 有关详细信息，请参阅[Removing Lync Servers and 组件的常见过程](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx)。
+14. 发布拓扑，检查复制状态，并根据需要业务 Server 部署向导运行 Skype。 有关详细信息，请参阅[Common Procedures for Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx)。
 
 15. 启动命令提示符： 单击**开始**，单击**运行**，然后键入 cmd.exe。
 
@@ -79,7 +80,7 @@ ms.locfileid: "25375920"
 
 18. 对于已停止服务的每个服务器或池，选择该服务器或池，单击“**操作**”，然后单击“**启动所有服务**”。
 
-19. 从拓扑中删除旧文件存储，然后发布拓扑。 有关详细信息，请参阅[删除文件存储](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)。
+19. 从拓扑中删除旧文件存储，然后发布拓扑。有关详细信息，请参阅[Remove a file store](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)。
 
 20. （可选）以本地 Administrators 组或 Domain Admins 组的成员身份登录到包含你刚删除的文件存储的计算机，然后删除旧文件共享和目录。
 

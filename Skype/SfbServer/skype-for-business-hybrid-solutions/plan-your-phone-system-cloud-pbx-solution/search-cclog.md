@@ -1,5 +1,6 @@
 ---
-title: 搜索-CcLog
+title: Search-CcLog
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: Search-CcLog cmdlet 用于在 Skype for Business 云连接器版本设备日志目录中搜索传入和传出呼叫日志。
-ms.openlocfilehash: 3d7d34f2e069b9c4ed728dcc805af5ccf9d13067
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e11e82ba105ed58efa6892165a19c6a4c4de0429
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892763"
 ---
-# <a name="search-cclog"></a>搜索-CcLog
+# <a name="search-cclog"></a>Search-CcLog
  
 Search-CcLog cmdlet 用于在 Skype for Business 云连接器版本设备日志目录中搜索传入和传出呼叫日志。
   
@@ -29,7 +31,7 @@ Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <str
 
 ### <a name="example-1"></a>示例 1
 
-下面的示例搜索传入和传出的呼叫日志使用的默认文件名的装置日志目录中：
+以下示例使用默认文件名在设备日志目录中搜索传入和传出呼叫日志：
   
 ```
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
@@ -51,11 +53,11 @@ Search-CsClsLogging cmdlet 提供用于搜索集中日志记录服务所生成�
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>
 
-|**参数**|**必填**|**类型**|**说明**|
+|**参数**|**必需**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-|开始时间  <br/> | 必需 <br/> |System.Datetime  <br/> | 要搜索的日志条目的开始日期和时间。指定本地时区。 <br/> |
-|结束时间  <br/> |必需  <br/> |System.Datetime  <br/> |要搜索的日志条目的结束日期和时间。指定本地时区。  <br/> |
-|文件名  <br/> |必需  <br/> |System.String  <br/> |指定包含搜索结果的文本文件的完整路径。  <br/> |
+|StartTime  <br/> | 必需 <br/> |System.Datetime  <br/> | 要搜索的日志条目的开始日期和时间。指定本地时区。 <br/> |
+|EndTime  <br/> |必需  <br/> |System.Datetime  <br/> |要搜索的日志条目的结束日期和时间。指定本地时区。  <br/> |
+|FileName  <br/> |必需  <br/> |System.String  <br/> |指定包含搜索结果的文本文件的完整路径。  <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
@@ -70,8 +72,8 @@ Search-CsClsLogging cmdlet 提供用于搜索集中日志记录服务所生成�
 ## <a name="see-also"></a>另请参阅
 <a name="ReturnTypes"> </a>
 
-[开始-CcLogging](start-cclogging.md)
+[Start-CcLogging](start-cclogging.md)
   
-[Stop CcLogging](stop-cclogging.md)
+[Stop-CcLogging](stop-cclogging.md)
   
 

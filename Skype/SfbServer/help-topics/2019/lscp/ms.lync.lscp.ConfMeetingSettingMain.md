@@ -1,5 +1,6 @@
 ---
 title: 会议配置
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 会议配置设置中定义的会议 (还 calledmeetings) 用户可以创建和控制如何 （或是否） 匿名用户和电话拨入式会议用户可以参加这些会议的类型。 这些设置仅适用于安排的会议。 它们不适用于通过单击客户端中的立即开会选项创建的临时会议。
-ms.openlocfilehash: 97583667bbd9dbb0c99b743a2748adf21b4f4afc
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 905d057adb0c914355d3237c3ec1771abe594de2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258485"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890872"
 ---
 # <a name="meeting-configuration"></a>会议配置
 
@@ -62,6 +63,6 @@ ms.locfileid: "23258485"
 
 - **范围**标识会议配置的范围： 全局、 站点或池。
 
-有关使用会议配置的详细信息，请参阅[创建或修改会议配置设置集合](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx)操作文档中。
+有关使用会议配置的详细信息，请参阅操作文档中的[Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx)。
 
 

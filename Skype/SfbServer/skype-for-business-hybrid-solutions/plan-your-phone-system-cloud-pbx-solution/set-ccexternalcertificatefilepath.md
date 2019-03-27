@@ -1,5 +1,6 @@
 ---
-title: 一组 CcExternalCertificateFilePath
+title: Set-CcExternalCertificateFilePath
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: Set-CcExternalCertificateFilePath cmdlet 指定中介服务器或边缘服务器的证书的存储路径。
-ms.openlocfilehash: 89216fb2b56130dd76b711a483c6279ac1073392
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 059d0f2fbf5fee708ceccd0d6e10ad4286fe4f85
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895347"
 ---
-# <a name="set-ccexternalcertificatefilepath"></a>一组 CcExternalCertificateFilePath
+# <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
 Set-CcExternalCertificateFilePath cmdlet 指定中介服务器或边缘服务器的证书的存储路径。
   
@@ -60,12 +62,12 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 
 在部署过程中或修改拓扑时，需要为边缘服务器证书指定路径，也可以选择为中介服务器证书指定路径。 
   
-如果将在网关与中介服务器之间使用 TLS，需要中介服务器的证书。 当您部署云接头装置并希望部署 TLS 时，您只能指定中介服务器上部署证书的路径。 但是，如果你希望更新已部署的设备上的中介证书，则需要指定路径和 -Import 参数。 要查看参数，请使用 Get-CCExternalCertificateFilePath cmdlet。
+如果将在网关与中介服务器之间使用 TLS，需要中介服务器的证书。 当您部署云连接器 appliance，并且想要部署 TLS 时，您只能在中介服务器上指定将部署证书的路径。 但是，如果你希望更新已部署的设备上的中介证书，则需要指定路径和 -Import 参数。 要查看参数，请使用 Get-CCExternalCertificateFilePath cmdlet。
   
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>
 
-|**参数**|**必填**|**类型**|**说明**|
+|**参数**|**必需**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | 目标 <br/> | 必需 <br/> |System.String  <br/> |要求的文件路径类型。类型包括：  <br/> EdgeServer（默认设置）  <br/> MediationServer  <br/> |
 |导入  <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |指示必须将证书导入中介服务器。如果是首次部署设备，则不需要此参数。如果你要更改已部署的版本上的现有证书，则需要此参数。  <br/> |
@@ -83,6 +85,6 @@ Set-CcExternalCertificateFilePath cmdlet 不接受主线输入。
 ## <a name="see-also"></a>另请参阅
 <a name="ReturnTypes"> </a>
 
-[获得 CcExternalCertificateFilePath](get-ccexternalcertificatefilepath.md)
+[Get-CcExternalCertificateFilePath](get-ccexternalcertificatefilepath.md)
   
 

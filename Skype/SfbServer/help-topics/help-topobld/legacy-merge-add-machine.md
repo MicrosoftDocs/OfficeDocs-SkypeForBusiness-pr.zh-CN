@@ -1,5 +1,6 @@
 ---
 title: 旧版合并添加计算机
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
 description: 要定义组成边缘服务器池的计算机，请输入至少一台作为旧版负载平衡合并边缘池一部分的计算机的完全限定域名 (FQDN)。
-ms.openlocfilehash: 30969003f6c6231706a1b3feb8d7a87f835c949e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f5e4eaf0fed8f7f8e41c60abac35685e3e2a9d6c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897286"
 ---
 # <a name="legacy-merge-add-machine"></a>旧版合并添加计算机
  

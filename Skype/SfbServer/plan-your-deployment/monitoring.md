@@ -1,5 +1,6 @@
 ---
 title: 规划 Business Server Skype 中监控
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 摘要： 规划业务服务器中 Skype 的监控服务时查看以下主题。
-ms.openlocfilehash: ab2b96063d94471ce47564845c64a63dfc5710c8
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cfe5e0eb31ca2badb3c4610f33c0761a98972ce7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243345"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892509"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>规划 Business Server Skype 中监控
 
@@ -85,7 +86,7 @@ Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Mon
 
 这对于规划来说很重要，仅仅因为镜像需要将所需数据库数量翻倍：除了各个主数据库，还需要第二个数据库作为镜像。
 
- **您的业务 Server 网站的 Skype 需要其自己的自定义监控配置吗？** 为业务服务器安装 Skype 时还要安装 CDR 和 QoE 配置设置; 的全局集合这些全局集合为您提供了适用于整个组织的相同的 CDR 和 QoE 设置的功能。 这在许多情况下将足够：比如通常您会想要为所有用户启用 CDR 监控。
+ **您的业务 Server 网站的 Skype 需要其自己的自定义监控配置吗？** 为业务服务器安装 Skype 时还要安装 CDR 和 QoE 配置设置; 的全局集合这些全局集合为您提供了适用于整个组织的相同的 CDR 和 QoE 设置的功能。 In many cases, this will be sufficient: often-times you will want, say, to have CDR monitoring enabled for all of your users.
 
 但是，也可能存在希望应用到不同的网站的不同设置的时间。 例如，可能是您想要使用 CDR 和 QoE 监控在雷德蒙德网站中，但只能使用 CDR 监控都柏林网站中。 同样，您可能想要在 Redmond 站点中 60 天保留监视数据但只需维护 30 天都柏林网站中的此类型的数据。 Skype 业务服务器允许您在站点范围; 创建单独的 CDR 和 QoE 配置设置集合使您能够以不同的方式管理每个网站。 （这包括两个启用和禁用监控以及配置管理设置，如长数据是保留）。
 
@@ -111,4 +112,4 @@ Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Mon
 ## <a name="see-also"></a>另请参阅
 
 
-[部署监控](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

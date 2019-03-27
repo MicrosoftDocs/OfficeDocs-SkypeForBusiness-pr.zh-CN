@@ -1,5 +1,6 @@
 ---
 title: CQD 开发示例
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 摘要： 查看呼叫质量仪表板的教程和开发的示例。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: 994a26af99ec141b531ed3011a42f626c0c62886
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: eb2e195a9eaac54b01af6d0da498fda6fafe374c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531065"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887370"
 ---
 # <a name="cqd-development-samples"></a>CQD 开发示例
 
@@ -346,7 +347,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
    ],
    ```
 
-   此处维度`[Scenarios].[ScenarioPair]`设置为等于`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`。 `[Scenario.][ScenarioPair]`是创建用于简化报告创建的特殊维度。 它有六个值，分别对应于 `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`。 因此，我们只需要使用 1 个筛选器，而无需使用 6 个筛选器的组合来定义方案。 在我们的示例，值`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`于的方案转换其中： 首先是服务器、 第二不是服务器，首先位于，第二位于第一种连接类型有线，和第二个连接类型有线，即的确切定义"服务器的客户端-内部有线"。
+   此处维度`[Scenarios].[ScenarioPair]`设置为等于`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`。 `[Scenario.][ScenarioPair]`是创建用于简化报告创建的特殊维度。 它具有与对应的六个值`[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`。 因此，我们只需要使用 1 个筛选器，而无需使用 6 个筛选器的组合来定义方案。 在我们的示例，值`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`于的方案转换其中： 首先是服务器、 第二不是服务器，首先位于，第二位于第一种连接类型有线，和第二个连接类型有线，即的确切定义"服务器的客户端-内部有线"。
 
 3. 每个方案创建一个筛选器集。图中记分卡的每一行表示一个不同的方案，这些方案将成为不同的筛选器（虽然维度和指标保持不变）。 
 

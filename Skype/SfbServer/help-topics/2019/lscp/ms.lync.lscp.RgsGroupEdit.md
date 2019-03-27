@@ -1,5 +1,6 @@
 ---
 title: 响应组创建新的或编辑现有的代理组
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: 代理组定义可应答针对响应组（称为代理）的呼叫的人员以及应用于组中所有代理的设置。
-ms.openlocfilehash: e1f7deb40fb36dbd75e9aea37eb6af4b75090c44
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 044fd86109b7c413d414b174a5f9527e8c535d42
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23262930"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892292"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>响应组：创建新的或编辑现有的代理组
 
@@ -68,6 +69,6 @@ ms.locfileid: "23262930"
 
     向上和向下箭头可在代理列表中向上和向下移动所选代理。列表中代理的排列顺序将影响代理接收呼叫以进行循环和串行路由的顺序。
 
-有关响应组特性和功能的详细信息，请参阅规划文档中的[计划中的业务服务器 Skype 的响应组应用程序](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) 。
+有关响应组特性和功能的详细信息，请参阅规划文档中的[计划中的业务服务器 Skype 的响应组应用程序](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)。
 
 

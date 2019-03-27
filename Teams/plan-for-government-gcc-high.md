@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4b1dc313fa1ea223e7c55f066b869b29c098fd2
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b3aab01d03b3239918c48bfb250df00208f76a7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460825"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891136"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Microsoft 365 政府版-GCC 高部署规划
 
@@ -90,7 +90,7 @@ Microsoft 365 政府-GCC 高环境提供符合美国的云服务的政府要求�
 | | OneNote 选项卡 | 政府待办事项上 |
 | | 电子邮件通道 | 不可用 |
 | | 添加成员 | 有空 |
-| | 来宾访问 | 政府待办事项上 |
+| | 来宾访问权限 | 政府待办事项上 |
 | 会议 | 安排会议 | 有空 |
 | | 加入会议 | 有空 |
 | | VoIP 会议 | 有空 |
@@ -101,7 +101,7 @@ Microsoft 365 政府-GCC 高环境提供符合美国的云服务的政府要求�
 | | 云录制 | 政府待办事项上 |
 | | 会议笔记 | 有空 |
 | | 广播的会议 | 政府待办事项上 |
-| | 联盟的会议 | 有空 |
+| | 内部云 (GCCH 到 GCCH) 联盟会议 | 有空 |
 | | 曲面集线器支持 | 政府待办事项上 |
 | 呼叫 | 联系人 | 有空 |
 | | 历史记录 | 有空 |

@@ -1,5 +1,6 @@
 ---
 title: 规划升级到 Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 摘要： 了解升级到 Skype 规划业务服务器 2015年时应考虑。 下载免费试用版 Skype 业务服务器 2015 从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: dd62ee7b8b7721b8ace7c3e49dd69df60d3229f7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 711b675c902824e6aab31ed64266a946a135b7fb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375132"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899163"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>规划升级到 Skype for Business Server 2015
  
@@ -147,7 +148,7 @@ ms.locfileid: "25375132"
    - 对于非前端服务器，使用 Start-CSWindowsService。
     
 > [!NOTE]
->  如果不想升级现有存档和监控数据库，请在升级拓扑之前移除依赖关系。 如果想创建新的存档和监控数据库，在升级过程中，可以创建新的 SQL 存储，并将其与池关联。 您可以找到有关如何执行此操作在主题中，[升级到业务服务器 2015年的 Skype](../deploy/upgrade-to-skype-for-business-server.md)的步骤。 > 在就地升级不支持高可用性或灾难恢复的 Skype 业务服务器。 若要避免中断用户的服务，使用[移动用户方法 （没有用户停机时间）](upgrade.md#bkmk_MoveUsersMethod)升级。 > 在升级过程中 xds 副本处于最大可用空间的磁盘驱动器上的本地共享文件夹。 如果该磁盘以后被删除，则您可以遇到服务未启动等问题。
+>  如果不想升级现有存档和监控数据库，请在升级拓扑之前移除依赖关系。 如果想创建新的存档和监控数据库，在升级过程中，可以创建新的 SQL 存储，并将其与池关联。 您可以找到有关如何执行此操作在主题中，[升级到业务服务器 2015年的 Skype](../deploy/upgrade-to-skype-for-business-server.md)的步骤。 > 就地升级不支持高可用性或灾难恢复的 Skype 业务服务器。 若要避免中断用户的服务，请 xds 副本处于最大可用空间的磁盘驱动器上的本地共享文件夹在升级过程中使用 upgrade.>[移动用户方法 （没有用户停机时间）](upgrade.md#bkmk_MoveUsersMethod) 。 如果该磁盘以后被删除，则您可以遇到服务未启动等问题。
   
 ### <a name="upgrade-order"></a>升级顺序
 
@@ -186,8 +187,8 @@ Skype 的业务服务器 2015年不支持就地升级的 Survivable Branch Appli
 ## <a name="see-also"></a>另请参阅
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
 
-[升级到业务服务器 2015 Skype](../deploy/upgrade-to-skype-for-business-server.md)
+[Upgrade to Skype for Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
   
-[Skype for Business Server 2015 的环境要求](requirements-for-your-environment/environmental-requirements.md)
+[Environmental requirements for Skype for Business Server 2015](requirements-for-your-environment/environmental-requirements.md)
   
-[Skype for Business Server 2015 的服务器要求](requirements-for-your-environment/server-requirements.md)
+[Server requirements for Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md)

@@ -1,5 +1,6 @@
 ---
 title: 中继配置创建新的或编辑现有的
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 6cb7d46634b7d87d4100d89baeaef71c96f94304
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+ms.openlocfilehash: fa5b6e857dbf933f31b2a5a650cd7dccddd21beb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242181"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892474"
 ---
-# <a name="trunk-configuration-create-new-or-edit-existing"></a>中继配置： 创建新的或编辑现有的
+# <a name="trunk-configuration-create-new-or-edit-existing"></a>中继配置：创建新的或编辑现有的
 
-您希望执行什么操作？单击您要执行的任务所对应的链接。
+您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 
 - [为业务 Server 使用 Skype 中的媒体旁路配置中继](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 

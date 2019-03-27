@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 2015 中导航规划工具
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,14 +12,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: 您的业务 Server 2015 规划工具中导航 Skype 使用工具栏、 特定于页上的按钮和链接和上下文特定窗格的组合。 特定于上下文的窗格提供与特定页上的选项相关的规划和容量的设计信息。
-ms.openlocfilehash: eaaa560765b3ab49d5aeb3746e323e30a97aba90
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 64e8157c6511316d047709a47009769843f95958
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250989"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897564"
 ---
-# <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中导航规划工具
+# <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navigate the Planning Tool in Skype for Business Server 2015
 
 您的业务 Server 2015 规划工具中导航 Skype 使用工具栏、 特定于页上的按钮和链接和上下文特定窗格的组合。 特定于上下文的窗格提供与特定页上的选项相关的规划和容量的设计信息。
 
@@ -44,8 +45,8 @@ ms.locfileid: "23250989"
 
 ## <a name="see-also"></a>另请参阅
 
-[为 Skype for Business Server 2015 创建初始拓扑设计](create-the-initial-design.md)
+[Create the initial topology design for Skype for Business Server 2015](create-the-initial-design.md)
 
-[编辑设计](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[Editing the Design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
 
-[查看管理员报告](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
+[Reviewing the Administrator Reports](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)

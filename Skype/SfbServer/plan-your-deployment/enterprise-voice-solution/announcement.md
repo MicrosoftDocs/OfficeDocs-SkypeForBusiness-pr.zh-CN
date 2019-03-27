@@ -1,5 +1,6 @@
 ---
 title: Plan for Business 的 Skype 中的通知应用程序
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: 规划业务 Server 企业语音中 Skype 的通知应用程序，其配置如何处理对组织中的未分配的电话号码的电话呼叫。 包括音频文件要求。
-ms.openlocfilehash: 2642dc13653f18520371b31c9e5ff41bc6a479d3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5e3b9af1a6bdc83081a1a8f17cd4963337efbbb6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882103"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896558"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Plan for Business 的 Skype 中的通知应用程序
 
@@ -43,10 +44,10 @@ ms.locfileid: "23882103"
 通知应用程序使用**端口 5071**用于 SIP 侦听请求。
 
 > [!NOTE]
-> 此端口是默认设置，您可以使用**集 CsApplicationServer** cmdlet 更改。 有关此 cmdlet 的详细信息，请参阅 Business Server Management Shell 文档 Skype。
+> 此端口是默认设置，可以通过使用 **Set-CsApplicationServer** cmdlet 进行更改。 有关此 cmdlet 的详细信息，请参阅 Business Server Management Shell 文档 Skype。
 
 ### <a name="audio-file-requirements"></a>音频文件要求
 
-通知应用程序支持 Wave (.wav) 文件格式和 Windows Media 音频 (.wma) 文件格式音乐和公告。 通知应用程序的音频文件要求都与响应组应用程序相同。 有关详细信息，请参阅[响应组的技术要求](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+通知应用程序支持 Wave (.wav) 文件格式和 Windows Media 音频 (.wma) 文件格式音乐和公告。 通知应用程序的音频文件要求都与响应组应用程序相同。 有关详细信息，请参阅 [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
 
 

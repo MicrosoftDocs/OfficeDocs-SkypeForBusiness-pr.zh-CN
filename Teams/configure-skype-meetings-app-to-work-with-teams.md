@@ -1,5 +1,6 @@
 ---
 title: 将 Skype 会议应用配置为与 Teams 配合使用
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
@@ -13,12 +14,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db5b1c20ee531fef24a74cb347f3e4df27541178
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 8071b248219d2e69465ef19e8dc966e87de58754
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542220"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891473"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>将 Skype 会议应用配置为与 Teams 配合使用
 ===================================================
@@ -45,4 +46,4 @@ ms.locfileid: "30542220"
 有关 Skype 会议应用程序的详细信息，请参阅：
 
 - [什么是 Skype 会议应用程序 (Skype 业务 Web app)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
-- [Skype 会议应用的最低网络要求](https://technet.microsoft.com/library/mt845808.aspx)
+- [Skype 会议应用最低网络要求](https://technet.microsoft.com/library/mt845808.aspx)

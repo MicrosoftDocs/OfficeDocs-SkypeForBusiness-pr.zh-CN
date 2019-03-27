@@ -1,5 +1,6 @@
 ---
 title: 启用或禁用远程用户访问
+ms.reviewer: ''
 ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
 ms:contentKeyID: 48185660
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 如果您启用远程用户的远程用户访问，支持远程用户通过 Internet 连接，且不具有才能与内部用户使用 Skype 业务服务器的协作使用 VPN 进行连接。
-ms.openlocfilehash: 34733c4d1912461090ef868e24ae24dc1c870a94
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: aea136e6c8758fd646a20b8bc7a64a393d45a3e7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222875"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898914"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>启用或禁用远程用户访问在 Skype 业务服务器
 

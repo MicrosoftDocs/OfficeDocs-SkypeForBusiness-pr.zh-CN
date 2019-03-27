@@ -1,5 +1,6 @@
 ---
 title: 语音策略创建新的或编辑现有的 PSTN 用法记录
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1f9b1f38-3255-43d0-8db6-e5790d4cfda9
 description: UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)
-ms.openlocfilehash: bd66c1fafea72a4a0e10cb1d3c20c5b1e8bbc84c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b1fd46777e13f05a38962b0cc2dcc20531d80c26
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254446"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887178"
 ---
-# <a name="voice-policy-create-new-or-edit-existing-pstn-usage-record"></a>语音策略： 创建新的或编辑现有的 PSTN 用法记录
+# <a name="voice-policy-create-new-or-edit-existing-pstn-usage-record"></a>语音策略：创建新的或编辑现有的 PSTN 用法记录
 
 UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)
 

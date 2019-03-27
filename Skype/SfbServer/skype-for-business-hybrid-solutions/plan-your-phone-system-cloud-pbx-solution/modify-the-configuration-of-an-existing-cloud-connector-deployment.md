@@ -1,5 +1,6 @@
 ---
 title: 修改现有云连接器部署的配置
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: 按照本主题可修改现有的 Skype 商务云连接器版 1.4.1 或更高版本的部署的配置中的步骤。
-ms.openlocfilehash: be3c7cbbc1395000dbb84bab0c9be0a866fb4403
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: abe7d9be6ec0ae48ff8cbac09475c6a41bf2a49f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375370"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893053"
 ---
-# <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>修改现有云连接器部署的配置
+# <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modify the configuration of an existing Cloud Connector deployment
  
 按照本主题可修改现有的 Skype 商务云连接器版 1.4.1 或更高版本的部署的配置中的步骤。 
   
@@ -63,7 +64,7 @@ ms.locfileid: "25375370"
 
 如果站点中有多台设备，则需执行以下步骤：修改 CloudConnector.ini 文件，并逐一重新部署设备。
   
-1. 运行以下 cmdlet 以卸载当前设备上的所有现有虚拟机： 
+1. 运行以下 cmdlet 以卸载当前设备上的所有现有虚拟机：  
     
    ```
    Uninstall-CcAppliance
@@ -147,9 +148,9 @@ ms.locfileid: "25375370"
    New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
    ```
 
-   - 将更新时间窗口分配给站点。 
+   - 将更新时间窗口分配给站点。  
     
-     位更新时间窗口和操作系统更新时间窗口是单独配置的。 可以为位更新和操作系统更新分配单个或多个时间窗口。 可以将每个时间窗口分配给不同站点和不同用途（位更新和操作系统更新）。 运行以下 cmdlet 为站点设置时间窗口： 
+     位更新时间窗口和操作系统更新时间窗口是单独配置的。 可以为位更新和操作系统更新分配单个或多个时间窗口。 可以将每个时间窗口分配给不同站点和不同用途（位更新和操作系统更新）。 运行以下 cmdlet 为站点设置时间窗口：  
     
    ```
    Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
@@ -172,17 +173,17 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > 本节仅适用于云连接器 2.0 版和更高版本。 
   
-所有云连接器凭据都存储在以下文件:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml"。 当主机服务器上的密码更改时，您将需要更新本地存储的凭据。
+所有云连接器凭据都存储在以下文件:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml"。 当主机服务器上的密码更改时，需要更新本地存储的凭据。
   
 若要更新云连接器装置上本地存储的凭据，请使用[Get-CcCredential](get-cccredential.md)和[设置 CcCredential](set-cccredential.md) cmdlet，请按照下列步骤：
   
 1. 运行以下命令，以检索稍后将需要的密码： 
     
-   - Get CcCredential-AccountType DomainAdmin DisplayPassword
+   - Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
    - Get-CcCredential -AccountType VMAdmin -DisplayPassword
     
-   - Get CcCredential-AccountType CceService DisplayPassword
+   - Get-CcCredential -AccountType CceService -DisplayPassword
     
 2. 在主机服务器上更改帐户的密码。
     
@@ -190,7 +191,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 4. 删除以下文件:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml"。
     
-5. 启动作为管理员，PowerShell 控制台，然后运行"注册 CcAppliance-本地"以重新输入以下说明的密码。 确保您输入您之前输入云连接器部署的同一密码。
+5. 启动作为管理员，PowerShell 控制台，然后运行"注册 CcAppliance-本地"以重新输入以下说明的密码。 请务必输入之前输入的用于云连接器部署的相同密码。
     
 默认情况下，VmAdmin 和 DomainAdmin 与 CceService 使用相同的密码。如果第 1 步中返回的 DomainAdmin、VMAdmin 和 CceService 密码不同，则必须执行以下步骤：
   

@@ -1,5 +1,6 @@
 ---
 title: 中介服务器范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
-description: 中介池节点列出了拓扑结构中的中介池。 可以执行以下操作：
-ms.openlocfilehash: 45991f4f12c387890f91420c93b9fbda5bf86b01
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: “中介池”节点列出了拓扑中的中介池。 可以执行以下操作：
+ms.openlocfilehash: c10fe6a878342a133f22e1a7eee5fa70be6a47ea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891027"
 ---
 # <a name="mediation-servers-scope-node"></a>中介服务器范围节点
  

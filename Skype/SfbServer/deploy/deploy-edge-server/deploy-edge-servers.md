@@ -1,5 +1,6 @@
 ---
 title: 在部署边缘服务器 Skype 业务服务器
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 摘要： 了解如何为您 Skype 业务服务器环境中部署边缘服务器。
-ms.openlocfilehash: 28a3262e49816976110aab0adde07a64c8d126fb
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e8e3251380c996ca4fea65fd286ef9e2a9d75575
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23890948"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885615"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>在部署边缘服务器 Skype 业务服务器
  
@@ -148,9 +149,9 @@ ms.locfileid: "23890948"
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v。 单击由 CA 颁发的根证书。 右键单击该证书，选择菜单上的“**所有任务**”，然后选择“**导出**”。
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vi。 “**证书导出向导**”随即打开。 单击“**下一步**”。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vi。 “**证书导出向导**”随即打开。 单击" **下一步**"。
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vii。 打开“**导出文件格式**”对话框，选择要导出到的格式。 我们的建议是“**加密消息语法标准 – PKCS #7 证书(P7b)**”。 如果您的所选择的请记住还选中**如果可能，包括证书路径中的所有证书**复选框，如这还将导出的证书链，包括根 CA 证书和任何中间证书。 单击“**下一步**”。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vii。 打开“**导出文件格式**”对话框，选择要导出到的格式。 我们的建议是“**加密消息语法标准 – PKCS #7 证书(P7b)**”。 如果您的所选择的请记住还选中**如果可能，包括证书路径中的所有证书**复选框，如这还将导出的证书链，包括根 CA 证书和任何中间证书。 单击" **下一步**"。
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;viii。 在“**要导出的文件**”对话框的文件名输入框中，键入导出的证书的路径和文件名（默认扩展名为 .p7b）。 如果是在您更轻松地，选择**浏览**按钮以转到要保存到，导出的证书的位置，然后命名导出的证书。 准备好之后，单击**保存**，然后**下一步**。
     
@@ -174,9 +175,9 @@ ms.locfileid: "23890948"
     
 &nbsp;&nbsp;&nbsp;g。 在控制台树中，展开“**证书(本地计算机)**”，右键单击“**受信任的根证书颁发机构**”，转到“**所有任务**”，然后单击“**导入**”。
     
-&nbsp;&nbsp;&nbsp;h。 在出现的向导中，在“**要导入的文件**”文本框中，指定证书的文件名（在上一节中你赋予 .p7b 文件的名称）。 单击“**下一步**”。
+&nbsp;&nbsp;&nbsp;h。 在出现的向导中，在“**要导入的文件**”文本框中，指定证书的文件名（在上一节中你赋予 .p7b 文件的名称）。 单击" **下一步**"。
     
-&nbsp;&nbsp;&nbsp;我。 应选中“**将所有的证书放入下列存储，作为受信任的根证书颁发机构**”单选按钮。 单击“**下一步**”。
+&nbsp;&nbsp;&nbsp;我。 应选中“**将所有的证书放入下列存储，作为受信任的根证书颁发机构**”单选按钮。 单击" **下一步**"。
     
 &nbsp;&nbsp;&nbsp;j。 查看摘要，然后单击“**完成**”以完成导入。
     
@@ -202,7 +203,7 @@ ms.locfileid: "23890948"
     
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii。 如果需要可导出的证书，必须选中“**将证书私钥标记为可导出**”复选框。
     
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv。 单击“**下一步**”。
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv。 单击" **下一步**"。
     
 &nbsp;&nbsp;&nbsp;g。 在“**组织信息**”页上，输入组织和组织单位 (OU) 的名称。 可以输入分部或部门（如 IT）。
     
@@ -244,7 +245,7 @@ ms.locfileid: "23890948"
     
 &nbsp;&nbsp;&nbsp;d。 从“**添加或删除管理单元**”框中，单击“**证书**”，再单击“**添加**”。
     
-&nbsp;&nbsp;&nbsp;e。 在“**证书**”管理单元对话框中，选择“**计算机帐户**”。 单击“**下一步**”。
+&nbsp;&nbsp;&nbsp;e。 在“**证书**”管理单元对话框中，选择“**计算机帐户**”。 单击" **下一步**"。
     
 &nbsp;&nbsp;&nbsp;f。 在“**选择计算机**”对话框中，选择“**本地计算机: (运行此控制台的计算机)**”。 单击“**完成**”。 单击“**确定**”，MMC 控制台的配置即告完成。
     
@@ -304,7 +305,7 @@ ms.locfileid: "23890948"
     
 &nbsp;&nbsp;&nbsp;d。 在“**延迟的请求或即时请求**”页上，单击“**现在准备请求，但稍后发送**”。
     
-&nbsp;&nbsp;&nbsp;e。 在“**证书请求文件**”页上，输入将保存该文件的完整路径和文件名（例如，c:\SkypeInternalEdgeCert.cer）。 单击“**下一步**”。
+&nbsp;&nbsp;&nbsp;e。 在“**证书请求文件**”页上，输入将保存该文件的完整路径和文件名（例如，c:\SkypeInternalEdgeCert.cer）。 单击" **下一步**"。
     
 &nbsp;&nbsp;&nbsp;f。 在“**指定替代证书模板**”页上，要使用除默认 WebServer 模板之外的模板，请选中“**使用选定证书颁发机构的备用证书模板**”复选框。
     
@@ -316,7 +317,7 @@ ms.locfileid: "23890948"
     
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii。 如果需要可导出的证书，必须选中“**将证书私钥标记为可导出**”复选框。
     
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv。 单击“**下一步**”。
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv。 单击" **下一步**"。
     
 &nbsp;&nbsp;&nbsp;h。 在“**组织信息**”页上，输入组织和组织单位 (OU) 的名称。 可以输入分部或部门（如 IT）。
     
@@ -372,7 +373,7 @@ ms.locfileid: "23890948"
     
 &nbsp;&nbsp;&nbsp;d。 从“**添加或删除管理单元**”框中，单击“**证书**”，再单击“**添加**”。
     
-&nbsp;&nbsp;&nbsp;e。 在“**证书**”管理单元对话框中，选择“**计算机帐户**”。 单击“**下一步**”。
+&nbsp;&nbsp;&nbsp;e。 在“**证书**”管理单元对话框中，选择“**计算机帐户**”。 单击" **下一步**"。
     
 &nbsp;&nbsp;&nbsp;f。 在“**选择计算机**”对话框中，选择“**本地计算机: (运行此控制台的计算机)**”。 单击“**完成**”。 单击“**确定**”，MMC 控制台的配置即告完成。
     

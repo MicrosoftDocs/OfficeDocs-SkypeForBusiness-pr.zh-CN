@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 阅读本主题以了解如何在 Exchange 中配置的 Skype 会议室系统 v2 的帐户和 Skype 的业务。
-ms.openlocfilehash: 38fdc37467b1a9f7b73271ac8684e86f52059981
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 59e94251014b2f5c567e3b672d67007471d3709b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699677"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888273"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>配置帐户 Skype 会议室系统 v2
  
@@ -57,7 +57,7 @@ Skype 会议室系统 v2 需要 Active Directory、 Exchange 和 Skype for Busin
   
 如果您已有资源邮箱帐户设置为正在安装 Skype 会议室系统 v2 的会议空间，可以将该资源帐户更改为用户帐户。 完成后，只需执行操作是将用户帐户添加到 Skype 会议室系统 v2 设备。 请参阅下面提供的用户帐户设置示例。
   
-其他配置远程管理是可以[使用 OMS 的规划 Skype 会议室系统 v2 管理](../../plan-your-deployment/clients-and-devices/oms-management.md)、[使用 OMS 的部署 Skype 会议室系统 v2 管理](with-oms.md)和[管理中所述使用 Microsoft 操作管理套件 (OMS)OMS Skype 会议室系统 v2 设备](../../manage/skype-room-systems-v2/oms.md)。 
+其他配置远程管理是可以[使用 Azure 监视器的规划 Skype 会议室系统 v2 管理](../../plan-your-deployment/clients-and-devices/azure-monitor.md)、[部署 Skype 会议室系统 v2 管理使用 Azure 监视器](azure-monitor.md)和[管理中所述使用 Microsoft Azure 监视器Azure 监视器 Skype 会议室系统 v2 设备](../../manage/skype-room-systems-v2/azure-monitor.md)。 
   
 ## <a name="basic-configuration"></a>基本配置
 
@@ -79,7 +79,7 @@ Skype 会议室系统 v2 需要 Active Directory、 Exchange 和 Skype for Busin
    
 设置用户帐户的最简单方式是它们使用远程 Windows PowerShell 进行配置。 Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，脚本将帮助创建新的用户帐户，或验证必须以帮助您将它们转换为兼容的 Skype 会议室系统 v2 用户帐户的现有资源帐户。
   
-如果您希望使用 Windows PowerShell cmdlet 通过 Office 365 用户界面，可以手动执行一些步骤。 请参阅[使用 Office 365 创建设备帐户](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)。
+如果您希望使用 Windows PowerShell cmdlet 通过 Office 365 用户界面，可以手动执行一些步骤。 请参阅[创建设备帐户使用 Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)。
   
 ## <a name="see-also"></a>另请参阅
 

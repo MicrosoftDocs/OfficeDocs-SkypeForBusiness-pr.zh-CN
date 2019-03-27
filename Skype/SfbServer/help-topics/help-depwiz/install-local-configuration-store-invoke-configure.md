@@ -1,5 +1,6 @@
 ---
-title: 安装本地配置存储调用 （配置）
+title: 安装本地配置存储调用（配置）
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,22 +12,23 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
-description: 若要开始安装的数据库将包含中央管理存储的本地只读副本，之间进行选择检索使用拓扑生成器从已安装和配置中央发布定义的配置管理存储库，或从其他媒体读取定义的配置。 对于您的组织的内部网络上的计算机，选择检索配置自动从中央管理存储。
-ms.openlocfilehash: 74269ee40116b91097c77702942f42de9f7d882a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 若要开始将保存中央管理存储的本地只读副本的数据库的安装，您选择之间检索发布使用拓扑生成器从已安装并配置管理中心的定义的配置管理存储或从其他媒体读取定义的配置。 对于位于组织的内部网络的计算机，选择检索配置自动从中央管理存储。
+ms.openlocfilehash: d8577e6eb18d57669657afb93ed07da37ffa31cd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894647"
 ---
-# <a name="install-local-configuration-store-invoke-configure"></a>安装本地配置存储调用 （配置）
+# <a name="install-local-configuration-store-invoke-configure"></a>安装本地配置存储调用（配置）
  
-若要开始安装的数据库将包含中央管理存储的本地只读副本，之间进行选择检索使用拓扑生成器从已安装和配置中央发布定义的配置管理存储库，或从其他媒体读取定义的配置。 您组织的内部网络上的计算机，请选择**检索从中央管理存储中自动配置**。
+若要开始将保存中央管理存储的本地只读副本的数据库的安装，您选择之间检索发布使用拓扑生成器从已安装并配置管理中心的定义的配置管理存储或从其他媒体读取定义的配置。 对于位于组织的内部网络的计算机，选择**检索从中央管理存储的自动配置**。
   
-如果您在边缘服务器上安装中央管理存储的副本，则选择从便携式媒体，如 USB 闪存驱动器、 USB 硬盘驱动器、 CD-ROM 或其他介质读取导出的副本的配置文档。 
+如果您在边缘服务器上安装的中央管理存储副本，您选择从便携式介质，如 USB 闪存驱动器、 USB 硬盘驱动器、 CD-ROM 或其他介质读取导出的配置文档的副本。 
   
 > [!IMPORTANT]
-> 如果要在边缘服务器上安装的本地配置存储，配置信息必须可从集中管理所导出的格式存储通过运行 Windows PowerShell cmdlet:`Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`
+> 如果边缘服务器上安装本地配置存储区的配置信息必须是从中央管理已导出的格式将存储通过运行 Windows PowerShell cmdlet:`Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`
   
-选择相应的选项后，单击**下一步**。
+选择相应选项后，单击**下一步**。
   
 

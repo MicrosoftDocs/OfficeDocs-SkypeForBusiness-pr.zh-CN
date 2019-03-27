@@ -1,5 +1,6 @@
 ---
 title: Skype for Business 中的用户启用呼叫寄存
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Skype 中的呼叫寄存的用户启用业务 Server 企业语音。
-ms.openlocfilehash: b9df6aebba145d71aa6d64d8f192d2ef332e5a7d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 98b02294beb633e5d9a0147fcce7257a4497753d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883930"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894541"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>Skype for Business 中的用户启用呼叫寄存
  
@@ -48,7 +49,7 @@ Skype 中的呼叫寄存的用户启用业务 Server 企业语音。
 
 1. 以 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 管理角色成员的身份登录计算机。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 3. 运行：
     

@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 2015 中配置持久聊天室的加载项
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 摘要： 了解如何在 Skype for Business Server 2015 配置外接程序 Persistent Chat Server 聊天室。
-ms.openlocfilehash: 4fe6c5fa15118949bd559ddb280ddf56fe41b360
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b43340f44b7ce41a1d77768f10a96bff651afc3f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372697"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885952"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置持久聊天室的加载项
  
@@ -54,15 +55,15 @@ ms.locfileid: "25372697"
     
 ## <a name="configure-add-ins-by-using-windows-powershell"></a>使用 Windows PowerShell 配置外接程序
 
-您可以使用以下 Windows PowerShell cmdlet 配置聊天室的外接程序。 有关语法，包括所有可用的参数的详细信息，请参阅[Skype 的业务服务器 2015年命令行管理程序](../management-shell.md)。
+您可以使用以下 Windows PowerShell cmdlet 配置聊天室的外接程序。有关语法的详细信息，包括所有可用参数，请参阅[Skype for Business Server 2015 Management Shell](../management-shell.md)。
   
 
 |**Cmdlet**|**说明**|
 |:-----|:-----|
-|New-cspersistentchataddin  <br/> |创建新的外接程序  <br/> |
-|Set-cspersistentchataddin  <br/> |配置现有外接程序的设置  <br/> |
-|Get-cspersistentchataddin  <br/> |检索有关外接程序的信息  <br/> |
-|删除 CsPersistentChatAddin  <br/> |删除外接程序  <br/> |
+|New-CsPersistentChatAddin  <br/> |创建新的外接程序  <br/> |
+|Set-CsPersistentChatAddin  <br/> |配置现有外接程序的设置  <br/> |
+|Get-CsPersistentChatAddin  <br/> |检索有关外接程序的信息  <br/> |
+|Remove-CsPersistentChatAddin  <br/> |删除外接程序  <br/> |
    
 ### <a name="create-a-new-add-in"></a>创建新的外接程序
 

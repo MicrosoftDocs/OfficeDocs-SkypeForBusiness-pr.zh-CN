@@ -1,5 +1,6 @@
 ---
 title: 规划用单位电话的 Skype 业务服务器的呼叫
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: 用于呼叫通过 Skype 中规划 Business Server，这样可使 for Business 的 Skype 和 PBX 电话系统，之间的集成，以便用户可以使用 for Business 的 Skype 控制其 PBX 电话。
-ms.openlocfilehash: b7c1765af7140bdfc1a0e304dd94218231ed41c7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 3a2452f732d55f305d91cee9cd2b940f7bb3c88e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887917"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891662"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>规划用单位电话的 Skype 业务服务器的呼叫
  
 用于呼叫通过 Skype 中规划 Business Server，这样可使 for Business 的 Skype 和 PBX 电话系统，之间的集成，以便用户可以使用 for Business 的 Skype 控制其 PBX 电话。
   
- **通过单位电话呼叫**中的业务服务器，它可以与您现有的 PBX 电话系统集成业务解决方案您 Skype Skype 的新功能。 启用呼叫通过单位电话的用户可以单击 for Business 呼叫另一个用户，可以在部署或外部用户的 Skype 中。 呼叫使用用户的 PBX 电话完成。 这样 PBX 电话与用户在其丰富 Skype 业务对话中包括音频。 在早期版本的 Lync Server 远程呼叫控制是一种功能，允许用户控制其 PBX 电话与 Lync Server。 在业务服务器 Skype，此功能已取代与通过单位电话呼叫。
+ **通过单位电话呼叫**中的业务服务器，它可以与您现有的 PBX 电话系统集成业务解决方案您 Skype Skype 的新功能。 启用呼叫通过单位电话的用户可以单击 for Business 呼叫另一个用户，可以在部署或外部用户的 Skype 中。 将使用用户的 PBX 电话完成呼叫。 这样 PBX 电话与用户在其丰富 Skype 业务对话中包括音频。 在早期版本的 Lync Server 远程呼叫控制是一种功能，允许用户控制其 PBX 电话与 Lync Server。 在业务服务器 Skype，此功能已取代与通过单位电话呼叫。
   
 通过单位电话呼叫启用 PBX 电话用户的以下
   
@@ -52,15 +53,15 @@ ms.locfileid: "23887917"
     
 3. 拨打呼叫的用户拿起他们的 PBX 电话。 Skype for Business 然后发起语音呼叫到被叫方。 
     
-4. 被叫方接听时，将开始语音呼叫。如果两位用户已经在进行 IM 会话，则会话将继续。
+4. 被叫方应答时，将开始语音呼叫。 如果两个用户已经有转 IM 会话，它可以继续。
     
-### <a name="joining-a-conference-with-call-via-work"></a>使用通过工号拨号加入会议
+### <a name="joining-a-conference-with-call-via-work"></a>加入使用单位电话呼叫会议
 
 调用通过单位电话用户可以通过单击会议 URL 加入预定的会议。 Skype for Business 之前的会议服务拨打该用户的 PBX 电话，然后显示**拨出**的邮件。 调用通过单位电话用户然后拿起 PBX 电话和加入会议。
   
-呼叫通过单位电话用户可以还使用**立即开会**选项中的业务的 Skype 创建立即开会会议。 然后用户会看到“**正在外拨**”消息，PBX 电话开始响铃。
+呼叫通过单位电话用户可以还使用**立即开会**选项中的业务的 Skype 创建立即开会会议。 然后，用户看到的**拨出**消息和 PBX 电话振铃。
   
-呼叫通过单位电话用户可以还拨入会议通过调用 for Business 内 Skype 中的会议桥号。 如果需要会议 PIN，用户必须使用他们的 PBX 电话输入 PIN。
+呼叫通过单位电话用户可以还拨入会议通过调用 for Business 内 Skype 中的会议桥号。 如果需要会议 PIN，用户必须使用其 PBX 电话输入 PIN。
   
 ### <a name="incoming-calls"></a>传入呼叫
 
@@ -72,7 +73,7 @@ ms.locfileid: "23887917"
 
 通过单位电话呼叫是语音解决方案的要求很少硬件设置，但具有完整的企业语音还是远程呼叫控制中可用的功能与相比的限制。 通过单位电话呼叫具有以下限制：
   
-- 如果某人尝试邀请此用户加入会议的用户的电话号码的呼叫通过单位电话用户已设置为通过单位电话呼叫回拨号码的呼叫转接，邀请将不会到达用户。 你应指导你的用户通过单击姓名（而非电话号码）邀请参与者加入会议。 
+- 如果某人尝试邀请此用户加入会议的用户的电话号码的呼叫通过单位电话用户已设置为通过单位电话呼叫回拨号码的呼叫转接，邀请将不会到达用户。 您应告知用户通过单击该名称，而非电话号码邀请参与者加入会议。 
     
 - 增强型 911 的功能和恶意呼叫跟踪呼叫通过单位电话呼叫过程中不可用。
     
@@ -86,11 +87,11 @@ ms.locfileid: "23887917"
     
 - 呼叫通过单位电话的用户不能向 2 人呼叫中添加更多的用户。
     
-- 不支持桌面电话配对或 VDI 插件配对。
+- 不是支持桌面电话配对或 VDI 插件配对。
     
 - 如果用户使或应答呼叫使用 PBX 电话 （和不使用 Skype 业务窗口），将呼叫无日志。
     
-- 如果你的 PBX 系统不支持 **REFER with Replaces**，将发生以下行为。 在呼叫通过单位电话呼叫中，如果用户从 PBX 电话转移正在进行的呼叫，呼叫窗口将不会消失从其 Skype 业务窗口。 如果用户随后关闭呼叫窗口，转接目标和受让方之间的呼叫将终结。 
+- 如果 PBX 系统不支持**与替换的引用**，将发生以下行为。 在呼叫通过单位电话呼叫中，如果用户从 PBX 电话转移正在进行的呼叫，呼叫窗口将不会消失从其 Skype 业务窗口。 如果用户然后关闭呼叫窗口，将结束传输目标与接受方之间的呼叫。 
     
 ## <a name="prerequisites-for-call-via-work"></a>用单位电话呼叫的先决条件
 

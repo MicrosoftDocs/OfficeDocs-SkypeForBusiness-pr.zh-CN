@@ -1,5 +1,6 @@
 ---
 title: Skype 中的业务服务器的诊断报告
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 摘要： 了解在 Skype 业务服务器的诊断报告。
-ms.openlocfilehash: 15ef3d6e5663dee7ec0056ed48dc45119ad09db2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 21f5a15495c925f401442bd6443b42d1d0bdd16d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966382"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898149"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Skype 中的业务服务器的诊断报告
  

@@ -1,5 +1,6 @@
 ---
 title: 防止新连接
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: ec4bc6f9928d709a16eea11250403e5097596c36
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: bc9b4a1e7d6e17f09643ff14ac0e69261c326922
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222735"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889724"
 ---
 # <a name="preventing-new-connections-to-skype-for-business-server-for-server-maintenance"></a>阻止新的连接到 Skype 业务服务器以进行服务器维护
 

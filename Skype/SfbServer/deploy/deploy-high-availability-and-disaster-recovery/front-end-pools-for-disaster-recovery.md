@@ -1,5 +1,6 @@
 ---
 title: 为业务服务器部署已配对的前端池 Skype 中的灾难恢复
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: 你可以决定使用配对的前端池来提供灾难恢复保护，但这并不是必需满足的要求。
-ms.openlocfilehash: 7bbb15c635b8a0b9c90d80309e49721cfe778155
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 028e0b4966a15b81b3e6e5627e63261207835f1f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371270"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884983"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>为业务服务器部署已配对的前端池 Skype 中的灾难恢复
  

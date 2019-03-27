@@ -1,5 +1,6 @@
 ---
 title: 测试语音路由创建新的或编辑现有的测试用例
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: e826fd4b-5c2c-4164-b352-c109f42810f9
 ROBOTS: NOINDEX, NOFOLLOW
 description: UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
-ms.openlocfilehash: 9f9e54b30e859521da61ee98ae3f1e15f0da9582
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 4257df474f2e99cd8af287a60d2592211d841362
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245808"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893214"
 ---
-# <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a>测试语音路由： 创建新的或编辑现有的测试用例
+# <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a>测试语音路由：创建新的或编辑现有的测试案例
 
 UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
 

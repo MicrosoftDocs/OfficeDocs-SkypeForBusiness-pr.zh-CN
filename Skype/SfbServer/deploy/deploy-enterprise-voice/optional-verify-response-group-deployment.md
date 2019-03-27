@@ -1,5 +1,6 @@
 ---
 title: （可选）Skype for Business 中的验证响应组部署
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: 验证您的响应组部署成功，业务 Server 企业语音的 Skype 中。
-ms.openlocfilehash: ebf8e9960b26dfa0da256e0ea26e356648cbe356
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2a0cc58101199183a23d74152a0ef6a05a1fb699
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532174"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893937"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>（可选）Skype for Business 中的验证响应组部署
  
@@ -31,7 +32,7 @@ ms.locfileid: "26532174"
     
 - 驻留在 for Business 的 Skype 上代理
     
-  **Scenarios**
+  **应用场景**
   
 - Skype 业务用户呼叫响应组。
     

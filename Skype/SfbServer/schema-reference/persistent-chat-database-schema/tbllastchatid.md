@@ -1,5 +1,6 @@
 ---
 title: tblLastChatId
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
 description: Lastchatid 包含为每个用户生成并且在 tblChat 表中使用） 的上一个聊天 ID。
-ms.openlocfilehash: dc25eb68ee1b4069ba54133548f743ca45b73e16
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 3208ada77643957295f9894cb58187c2b4bc7493
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19505086"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884927"
 ---
 # <a name="tbllastchatid"></a>tblLastChatId
  
