@@ -1,5 +1,6 @@
 ---
 title: 配置会议中的业务服务器 Skype 的与会页面
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6537765e-4384-416f-92f1-a7f3b39ebe56
 description: 摘要： 了解如何配置会议中的业务服务器 Skype 的与会页面。
-ms.openlocfilehash: 7574dee341e0226a6a6e2ee8c77cdfb2353beb5a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4f737bdab0586cb342d1271f348cf765ae093c5c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20977612"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875544"
 ---
 # <a name="configure-the-meeting-join-page-in-skype-for-business-server"></a>配置会议中的业务服务器 Skype 的与会页面
  

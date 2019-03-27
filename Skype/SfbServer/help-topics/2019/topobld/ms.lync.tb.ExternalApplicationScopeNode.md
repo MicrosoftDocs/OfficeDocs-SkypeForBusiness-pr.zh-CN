@@ -1,5 +1,6 @@
 ---
 title: 外部应用程序范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示此受信任应用程序池的池完全限定域名 (FQDN)、复制设置和下一跃点池。可以执行以下操作：
-ms.openlocfilehash: 6af01dac202001ff6f44d9f871fcc5fb5e0f9dd0
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 07f98e277cead81ee9ea636ceb247f490327776d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061119"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876032"
 ---
 # <a name="external-application-scope-node"></a>外部应用程序范围节点
  

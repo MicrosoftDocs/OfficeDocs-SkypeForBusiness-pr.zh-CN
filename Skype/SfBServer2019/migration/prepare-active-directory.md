@@ -1,5 +1,6 @@
 ---
 title: 准备 Active Directory
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 部署以共存的业务服务器 2019 Skype 之前, 必须执行一些其他的 Active Directory 任务配置 Skype 的业务服务器 2019年架构、 林和域。 架构扩展添加的 Active Directory 类和 Skype 的业务服务器 2019年所需的属性。 有关其他信息，请参阅 for 业务服务器 2019年的主题准备 Active Directory 域服务的 Skype。
-ms.openlocfilehash: ccc26901072f6a8cc166d6ead2e295473347c9d9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 290919f0c3ac1c58a92e00ba6d3403b6d2fb9069
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029403"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874722"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>准备 Active Directory 的 Skype 业务服务器
 

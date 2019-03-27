@@ -1,5 +1,6 @@
 ---
 title: 在团队中查看来宾用户
+ms.reviewer: ''
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
@@ -15,12 +16,12 @@ f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticl
 description: 了解管理员如何在 Microsoft Teams 中查看有关来宾用户的信息。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a5db8c39ace9dc3682441495000f61a7a2523f9
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 9a54d9f23bd32fd84e53f5e285014b92679000f2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649137"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873602"
 ---
 <a name="view-guest-users-in-a-team"></a>在团队中查看来宾用户
 ==========================

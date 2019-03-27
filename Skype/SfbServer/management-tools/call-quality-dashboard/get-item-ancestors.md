@@ -1,5 +1,6 @@
 ---
-title: 获取项祖先
+title: 获取项目上级
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: 摘要： 了解如何获取项目祖先操作，即项服务的一部分。 项服务是呼叫质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: e9e23c32aada4c609f9deb43004385b389a533bf
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 7afeecb81d1933b0a308b174e49f6d8ff45a93dd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532589"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873110"
 ---
-# <a name="get-item-ancestors"></a>获取项祖先
+# <a name="get-item-ancestors"></a>获取项目上级
  
 **摘要：** 了解有关获取项目祖先操作，即项服务的一部分。 项服务是呼叫质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
   
 获取项祖先操作是用于呼叫的质量仪表板的存储库 API 中的项服务的一部分。
   
-## <a name="get-item-ancestors"></a>获取项祖先
+## <a name="get-item-ancestors"></a>获取项目上级
 
 从存储库中获取项目祖先返回特定项目上级。
   

@@ -1,5 +1,6 @@
 ---
 title: 将 VIS 与边缘关联
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机 VIS Skype 池中创建的业务服务器 2015年。
-ms.openlocfilehash: 436fada6e6e640bc79d998a87c95b2efa6e1b3c1
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 82739e421ee2d4e7cbf8b09ff7c3a61ed6435016
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504367"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875719"
 ---
 # <a name="associate-vis-with-edge"></a>将 VIS 与边缘关联
  

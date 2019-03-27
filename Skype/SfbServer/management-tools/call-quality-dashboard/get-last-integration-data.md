@@ -1,5 +1,6 @@
 ---
-title: 获取上次集成数据
+title: 获取最后一个集成数据
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: 摘要： 了解如何获取最后一个集成数据操作，它是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: b2e759766987b6ee52795845ee55546920181807
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 33681e38b2dfeac635d3e3c7bd05e67980e0a598
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531785"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874421"
 ---
-# <a name="get-last-integration-data"></a>获取上次集成数据
+# <a name="get-last-integration-data"></a>获取最后一个集成数据
  
 **摘要：** 了解有关获取最后一个集成数据操作，它是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
   
 获取上次集成数据操作是用于呼叫的质量仪表板的数据 API 的一部分。
   
-## <a name="get-last-integration-data"></a>获取上次集成数据
+## <a name="get-last-integration-data"></a>获取最后一个集成数据
 
 获取上次集成数据操作返回上次 5 成功/的存档和多维数据集处理失败的列表。
   

@@ -1,5 +1,6 @@
 ---
 title: Office Communications Server 范围节点
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 ROBOTS: NOINDEX, NOFOLLOW
-description: 本文档是预备文档，可能随时更改。空白主题均以占位符的形式包含在内。
-ms.openlocfilehash: f2706abd440d55e30a0fb485fff5d7a95643bd34
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 本文档是预备文档，可能随时更改。 空白主题均以占位符的形式包含在内。
+ms.openlocfilehash: d64e64ad5caed89d2249e8da1cd8125a52316bb5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255843"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875402"
 ---
 # <a name="office-communications-server-scope-node"></a>Office Communications Server 范围节点
 
-本文档是预备文档，可能随时更改。空白主题均以占位符的形式包含在内。
+本文档是预备文档，可能随时更改。 空白主题均以占位符的形式包含在内。
 
 单击以展开的节的节点下， **Office Communications Server 2007 R2**或右键单击要访问**的拓扑**选项或访问此**帮助**页面。
 

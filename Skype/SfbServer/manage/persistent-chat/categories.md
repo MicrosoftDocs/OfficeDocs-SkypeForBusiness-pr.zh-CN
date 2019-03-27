@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 2015 中管理持久聊天服务器内的类别
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 摘要： 了解如何管理 Persistent Chat Server 类别中 Skype for Business Server 2015。
-ms.openlocfilehash: 01b1bad9fd8b68eee68e1980fcb79f69462e9dfa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a0d70ec0266fc85d94c44c11ba15e42eea0be44b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979503"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874191"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中管理持久聊天服务器内的类别
  
@@ -83,10 +84,10 @@ ms.locfileid: "20979503"
 
 |**Cmdlet**|**说明**|
 |:-----|:-----|
-|New-cspersistentchatcategory  <br/> |创建新类别  <br/> |
-|Set-cspersistentchatcategory  <br/> |配置现有类别的设置  <br/> |
-|Get-cspersistentchatcategory  <br/> |检索有关类别的信息  <br/> |
-|删除 CsPersistentChatCategory  <br/> |删除类别  <br/> |
+|New-CsPersistentChatCategory  <br/> |创建新类别  <br/> |
+|Set-CsPersistentChatCategory  <br/> |配置现有类别的设置  <br/> |
+|Get-CsPersistentChatCategory  <br/> |检索有关类别的信息  <br/> |
+|Remove-CsPersistentChatCategory  <br/> |删除类别  <br/> |
    
 可以为类别配置以下参数：
   
@@ -94,7 +95,7 @@ ms.locfileid: "20979503"
     
 - EnableInvitations。 为类别启用邀请。 AllowedMembers 列表中的用户将在创建新聊天室后自动收到加入该聊天室的邀请。
     
-- ChatHistory。启用或禁用聊天室历史记录功能。
+- ChatHistory。 启用或禁用聊天室历史记录功能。
     
 - Creators。 指定允许在类别中创建聊天室的用户。
     
@@ -102,7 +103,7 @@ ms.locfileid: "20979503"
     
 - DeniedMembers。列出不允许访问类别中的聊天室的用户。
     
-有关 cmdlet 语法，包括所有参数的完整信息，请参阅[Skype 的业务服务器 2015年命令行管理程序](../management-shell.md)。
+有关 cmdlet 语法的完整信息，包括所有参数，请参阅[Skype for Business Server 2015 Management Shell](../management-shell.md)。
   
 ### <a name="create-a-new-category"></a>创建新类别
 

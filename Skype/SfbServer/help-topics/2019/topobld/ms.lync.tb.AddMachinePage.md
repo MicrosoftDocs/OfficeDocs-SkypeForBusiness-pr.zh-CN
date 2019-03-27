@@ -1,5 +1,6 @@
 ---
 title: 添加服务器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要将新服务器添加到现有池的服务器，其中池是以下项之一：
-ms.openlocfilehash: b138dc46f8259620e1e3a34bb86a83d243e9c825
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5db99c8cdd2a08722a27a9da437911dcf573d5bf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373981"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875614"
 ---
 # <a name="add-server"></a>添加服务器
  

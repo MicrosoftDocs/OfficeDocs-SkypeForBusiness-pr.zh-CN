@@ -1,5 +1,6 @@
 ---
-title: 添加边缘服务器 FQDN
+title: 添加 Edge Server FQDN
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
 description: 必须指定访问边缘服务完全限定的域名 (FQDN)。 如果您未选择使用单个 FQDN&amp;上选择的 IP 地址选项功能页，则还必须指定 FQDN 为 Web 会议边缘服务和 A / V 边缘服务。
-ms.openlocfilehash: 1387726c9f4cffd22d7e9becd7908846b734357d
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 07591bf9e98f74d9092e34e34b62b8cb2bdcf525
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067600"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873560"
 ---
-# <a name="add-edge-server-fqdn"></a>添加边缘服务器 FQDN
+# <a name="add-edge-server-fqdn"></a>添加 Edge Server FQDN
  
 必须指定访问边缘服务完全限定的域名 (FQDN)。 如果未选中**使用单个 FQDN &amp; IP 地址**选项在**选择功能**页上，则还必须指定 FQDN 为 Web 会议边缘服务和 A / V 边缘服务。
   

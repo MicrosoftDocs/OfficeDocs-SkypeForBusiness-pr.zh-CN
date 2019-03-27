@@ -1,5 +1,6 @@
 ---
 title: 验证架构分区的复制
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 description: 若要验证架构扩展已在 Active Directory 域服务林中成功复制，请执行以下操作：
-ms.openlocfilehash: 632553c382e8475cbe3d0f84dafb624c1f055d79
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 38d5983623c837e931274deef7581dd1567fc492
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992074"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873518"
 ---
 # <a name="verify-replication-of-schema-partition"></a>验证架构分区的复制
  

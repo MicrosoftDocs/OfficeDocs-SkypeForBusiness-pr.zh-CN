@@ -1,5 +1,6 @@
 ---
 title: 为业务服务器部署中 Skype 的媒体绕过
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: 为业务 Server 企业语音部署中 Skype 的媒体绕过。 包括先决条件和部署过程清单。
-ms.openlocfilehash: 9b850b05308d7518e95b8c93159f9462fcc7f945
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 307c3ff66adf042a984c544a722517d2709154d0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885426"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872900"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>为业务服务器部署中 Skype 的媒体绕过
  
@@ -42,7 +43,7 @@ ms.locfileid: "23885426"
 
 下表概述了媒体旁路部署过程。 
   
-|**阶段**|**步骤**|**角色**|**部署文档**|
+|**阶段**|**步骤**|**Roles**|**部署文档**|
 |:-----|:-----|:-----|:-----|
 |配置用于媒体旁路的中继  <br/> |如果还未配置，请配置一个或多个用于媒体旁路的中继。  <br/> | 以 RTCUniversalServerAdmins 组或 CsVoiceAdministrator、 CsServerAdministrator 或 CsAdministrator 角色的成员的成员 <br/> |[为业务 Server 使用 Skype 中的媒体旁路配置中继](configure-trunk-with-media-bypass.md) <br/> |
 |全局配置媒体旁路  <br/> |为发给 PSTN 的所有呼叫，或者基于网络站点和网络区域的特定呼叫配置媒体旁路。  <br/> | 以 RTCUniversalServerAdmins 组或 CsVoiceAdministrator、 CsServerAdministrator 或 CsAdministrator 角色的成员的成员 <br/> |[Skype 业务服务器以始终绕过中介服务器中配置媒体绕过](bypass-the-mediation-server.md) <br/> [在 Business Server 以使用站点和区域信息的 Skype 中配置媒体绕过全局设置](use-site-and-region-information.md) <br/> |

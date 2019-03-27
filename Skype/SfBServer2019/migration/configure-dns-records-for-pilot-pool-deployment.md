@@ -1,5 +1,6 @@
 ---
 title: 为试点池部署配置 DNS 记录
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 部署试点池之前, 必须更新试点池的 DNS 主机 A 条目。 若要成功完成此过程，您应登录到服务器或域的 Domain Admins 组成员或 DnsAdmins 组的成员。
-ms.openlocfilehash: 13492f7972e127de7a8200a0dbe933c72aba2da7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 23ac5e4f85dc0da560b4d288bbfad426298bf82e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029893"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872737"
 ---
 # <a name="configure-dns-records-for-pilot-pool-deployment"></a>为试点池部署配置 DNS 记录
 

@@ -1,5 +1,6 @@
 ---
 title: 创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 摘要： 创建或修改语音策略和使用适用于业务 Server Control Panel Skype 配置 PSTN 用法记录。
-ms.openlocfilehash: 53414afd6fcf3ee365caad9a168c88f101e8788b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9a7847e918be71b88a7ba32c986c18f7659905ee
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371708"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875572"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype
 
@@ -53,11 +54,11 @@ ms.locfileid: "25371708"
      > [!NOTE]
      > 此功能仅可通过 Business Server 命令行管理程序 Skype 进行配置
 
-   - **呼叫转接**用于让用户将呼叫转接到其他电话和客户端设备。 Skype 业务服务器提供了显著更广泛的呼叫转接的配置选项。 例如，如果组织不允许将传入呼叫外部转接到 PSTN，则管理员可应用特定语音策略来部署此限制。 默认为启用。
+   - 通过**呼叫转接**，用户可以将呼叫转接到其他电话或客户端设备。 Skype 业务服务器提供了显著更广泛的呼叫转接的配置选项。 例如，如果组织不允许将传入呼叫外部转接到 PSTN，则管理员可应用特定语音策略来部署此限制。 默认为启用。
 
    - 通过**委派**，用户可以指定其他用户代表他们发送和接收呼叫。 在业务服务器 Skype，代理人可以配置使传入呼叫拨打的所有代理人的同时响铃目标他/她的管理器的同时响铃。 这会向委派提供极大的灵活性以响应直接传到经理的呼叫。 默认为启用。
 
-   - 通过**呼叫转移**，用户可以将呼叫转移到其他用户。默认为启用。
+   - 通过**呼叫转移**，用户可以将呼叫转移到其他用户。 默认为启用。
 
    - 通过 **呼叫寄存**，用户可以寄存呼叫，将其置于保持状态，然后从其他电话或客户端接听呼叫。默认为禁用。
 
@@ -128,7 +129,7 @@ ms.locfileid: "25371708"
 
    - 要作为此语音策略将相同的 PSTN 用法记录用于呼叫转接和同时响铃，请从下拉菜单选择“使用呼叫 PSTN 用法进行路由”****。
 
-   - 若要允许呼叫转接和同时响铃仅适用于业务用户的内部 Skype 到，从下拉列表菜单中选择**仅适用于业务用户的内部 Skype 路由**选项。 呼叫将不会转接到外部 PSTN 号码。
+   - 若要允许呼叫转接和同时响铃仅适用于业务用户的内部 Skype 到，从下拉列表菜单中选择**仅适用于业务用户的内部 Skype 路由**选项。 Calls will not be forwarded to external PSTN numbers.
 
    - 要为呼叫转接和同时响铃指定不同的 PSTN 用法记录，而不是用于此语音策略，请从下拉菜单选择选项“使用自定义 PSTN 用法路由”****。此选项显示控制来选择现有的 PSTN 用法记录或创建专门用于呼叫转接和同时响铃的新 PSTN 用法记录。
 
@@ -204,7 +205,7 @@ ms.locfileid: "25371708"
      > [!NOTE]
      > 此功能仅可通过 Business Server 命令行管理程序 Skype 进行配置
 
-   - **呼叫转接**用于让用户将呼叫转接到其他电话和客户端设备。 Skype 业务服务器提供了显著更广泛的呼叫转接的配置选项。 例如，如果组织不允许将传入呼叫外部转接到 PSTN，则管理员可应用特定语音策略来部署此限制。 默认为启用。
+   - 通过**呼叫转接**，用户可以将呼叫转接到其他电话或客户端设备。 Skype 业务服务器提供了显著更广泛的呼叫转接的配置选项。 例如，如果组织不允许将传入呼叫外部转接到 PSTN，则管理员可应用特定语音策略来部署此限制。 默认为启用。
 
    - 通过**委派**，用户可以指定其他用户代表他们发送和接收呼叫。 在业务服务器 Skype，代理人可以配置使传入呼叫拨打的所有代理人的同时响铃目标他/她的管理器的同时响铃。 这会向委派提供极大的灵活性以响应直接传到经理的呼叫。 默认为启用。
 
@@ -277,7 +278,7 @@ ms.locfileid: "25371708"
 
    - 要作为此语音策略将相同的 PSTN 用法记录用于呼叫转接和同时响铃，请从下拉菜单选择“使用呼叫 PSTN 用法进行路由”****。
 
-   - 若要允许呼叫转接和同时响铃仅适用于业务用户的内部 Skype 到，从下拉列表菜单中选择**仅适用于业务用户的内部 Skype 路由**。 呼叫将不会转接到外部 PSTN 号码。
+   - 若要允许呼叫转接和同时响铃仅适用于业务用户的内部 Skype 到，从下拉列表菜单中选择**仅适用于业务用户的内部 Skype 路由**。 Calls will not be forwarded to external PSTN numbers.
 
    - 若要为呼叫转接和同时响铃指定与此语音策略所用的 PSTN 用法记录不同的 PSTN 用法记录，请从下拉菜单中选择“使用自定义 PSTN 用法进行路由”****。此选项显示一个控件，此控件专用于为呼叫转接和同时响铃选择现有 PSTN 用法记录或创建新的 PSTN 用法记录。
 
@@ -302,7 +303,7 @@ ms.locfileid: "25371708"
 
    - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务的 Skype](create-or-modify-a-voice-route.md)。
 
-   - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。 有关详细信息，请参阅[修改语音路由](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)。
+   - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。有关详细信息，请参阅[Modify a Voice Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)。
 
      d. 单击“**确定**”。
 
@@ -318,7 +319,7 @@ ms.locfileid: "25371708"
 
      - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[创建或修改语音路由中的业务的 Skype](create-or-modify-a-voice-route.md)。
 
-     - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。 有关详细信息，请参阅[修改语音路由](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)。
+     - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。有关详细信息，请参阅[Modify a Voice Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)。
 
      c. 单击“**确定**”。
 

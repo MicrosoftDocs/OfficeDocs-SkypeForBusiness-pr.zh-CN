@@ -1,5 +1,6 @@
 ---
 title: 迁移拨入访问号码
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 迁移拨入访问号码到业务服务器 2019年的 Skype 需要运行 Move-csapplicationendpoint cmdlet 迁移的联系对象。 在旧的安装和 Skype 业务服务器 2019年共存期间，在 Skype for Business Server 2019 中创建的拨入访问号码行为类似旧安装中创建的拨入访问号码中所述部分。
-ms.openlocfilehash: 697ffb05e54722576f15dce2b4e7f0721b255aa2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7f7aef113018a27e70b88e166d365195c07dce9c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370726"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874708"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>迁移拨入访问号码
 

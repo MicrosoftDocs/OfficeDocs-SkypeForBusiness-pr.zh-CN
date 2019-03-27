@@ -1,5 +1,6 @@
 ---
 title: 管理 Skype for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: 摘要： 浏览这些链接以了解如何管理和维护 Skype 业务服务器。
-ms.openlocfilehash: 82a5c28904a169e406224668a32176dbfeb94886
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a2f9b33c4ab5a33e9b4cb3a20d77008ee1b0e315
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993872"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874442"
 ---
 # <a name="manage-skype-for-business-server"></a>管理 Skype for Business Server 
 
@@ -31,7 +32,7 @@ Skype 业务服务器提供了即时消息 (IM)、 状态、 会议、 视频和
   
 ||**内容**|**说明**|
 |:-----|:-----|:-----|
-|![技术图表图标](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Skype 业务服务器的技术图表](../technical-diagrams.md) <br/> |通过这些大尺寸图表概览体系结构选项。  <br/> |
+|![技术图表图标](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Technical diagrams for Skype for Business Server](../technical-diagrams.md) <br/> |通过这些大尺寸图表概览体系结构选项。  <br/> |
 |![视频图标](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|视频演示和培训-*即将推出 ！*  <br/> |发现视频演示和培训的 Skype 业务服务器。  <br/> |
    
 ##  <a name="articles-about-managing-skype-for-business-server"></a>有关管理 Skype 的业务服务器的文章

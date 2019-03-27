@@ -1,5 +1,6 @@
 ---
 title: 高级边缘服务器的 DNS 规划 Skype 业务服务器
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 摘要： 查看的 Skype 方案的业务服务器部署选项。 是否希望一台服务器或首选 DNS 或 HLB 的服务器池，应帮助本主题。
-ms.openlocfilehash: 4631f7120bb091f3a9666edd4ab2d92cfdf52a00
-ms.sourcegitcommit: ce3f40d2ffdf452111a317a019eeebf807b0c78a
+ms.openlocfilehash: e6619056d7c8a69f63fa22007a7702b41480719f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30537563"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872956"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>高级边缘服务器的 DNS 规划 Skype 业务服务器
  
@@ -254,7 +255,7 @@ DNS 负载平衡不可用于：
   
 - 客户端到服务器的 web 前端服务器或控制器的流量。
     
-继续更深入的 DNS SRV 记录如何选择当多 DNS 记录返回查询，访问边缘服务始终选择数字优先级最低记录时，断开裁判是否需要，可使用的最大数字权重。 这与 [Internet 工程任务组文档](https://www.ietf.org/rfc/rfc2782.txt)一致。
+继续更深入的 DNS SRV 记录如何选择当多 DNS 记录返回查询，访问边缘服务始终选择数字优先级最低记录时，断开裁判是否需要，可使用的最大数字权重。 这是与[Internet 工程任务组文档](https://www.ietf.org/rfc/rfc2782.txt)一致。
   
 例如，如果第一条 DNS SRV 记录权重为 20，优先级为 40，而第二条 DNS SRV 记录权重为 10，优先级为 50，则选择第一条记录，因为其优先级 40 更低。优先级总是最先进行比较，这是客户端首先要找的主机。优先级总是最先比较，这是首先成为客户端目标的主机。如果两个目标优先级相同该怎么办？ 
   

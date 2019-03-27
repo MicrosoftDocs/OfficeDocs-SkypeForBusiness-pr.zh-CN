@@ -1,5 +1,6 @@
 ---
 title: 阻止服务的会话
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 阻止特定计算机上运行的所有旧的服务的新会话或阻止特定的旧服务的新会话，您可以使用旧式安装 Control Panel。
-ms.openlocfilehash: af4605f65d7cabe187696eda20bd9082ab73ad02
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9f3f9bb301841d7e71c18f4d3ca052f3d0c74dce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027212"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875530"
 ---
 # <a name="prevent-sessions-for-services"></a>阻止服务的会话
 

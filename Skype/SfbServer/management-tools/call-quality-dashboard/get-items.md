@@ -1,5 +1,6 @@
 ---
-title: 获取项
+title: 获取项目
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
 description: 摘要： 了解如何获取项操作，即项服务的一部分。 项服务是呼叫质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: d3b0812232b25b412a23dba3a7270eda5a01077b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: ad4be2c09de9d71499cd7592989334ccf4cf17c9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531383"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874981"
 ---
-# <a name="get-items"></a>获取项
+# <a name="get-items"></a>获取项目
  
 **摘要：** 了解有关获取项操作，即项服务的一部分。 项服务是呼叫质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
   
 获取项操作是用于呼叫的质量仪表板的存储库 API 中的项服务的一部分。
   
-## <a name="get-items"></a>获取项
+## <a name="get-items"></a>获取项目
 
 在存储库中获取项目返回的所有项目。
   

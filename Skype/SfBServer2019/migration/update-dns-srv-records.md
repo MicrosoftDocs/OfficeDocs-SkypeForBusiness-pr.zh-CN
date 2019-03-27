@@ -1,5 +1,6 @@
 ---
 title: 更新 DNS SRV 记录
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 若要成功完成此过程，您应登录到服务器或域的 Domain Admins 组成员或 DnsAdmins 组的成员。
-ms.openlocfilehash: f298db10f7030482b604734a1719756af4071ce2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5cdf98d065abbb57b3cb654c8b770f8f1f87500c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027226"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872722"
 ---
 # <a name="update-dns-srv-records"></a>更新 DNS SRV 记录
 

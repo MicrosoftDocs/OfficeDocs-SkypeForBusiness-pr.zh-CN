@@ -1,5 +1,6 @@
 ---
 title: 规划高可用性和灾难恢复对于 Persistent Chat Server in Skype 业务服务器 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 摘要： 阅读本主题可了解如何规划高可用性和灾难恢复对于 Persistent Chat Server in Skype 业务服务器 2015年。
-ms.openlocfilehash: 90f01de0ca7efef8fdcda4f03fa4bfaa28bd4fcc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 88584c43cb205d10d2baacb6cb31c4e8fdbb228a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971653"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874792"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>规划高可用性和灾难恢复对于 Persistent Chat Server in Skype 业务服务器 2015
  
@@ -47,7 +48,7 @@ ms.locfileid: "20971653"
     
 ## <a name="disaster-recovery-and-high-availability-solutions"></a>灾难恢复和高可用性解决方案
 
-Skype 业务服务器支持的后端服务器，包括数据库镜像高可用性的多个的模式。 有关详细信息，请参阅[规划高可用性和灾难恢复的业务服务器 2015 Skype 中](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。 
+Skype 业务服务器支持的后端服务器，包括数据库镜像高可用性的多个的模式。 有关详细信息，请参阅[Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。 
   
 本主题中描述的持久聊天服务器的灾难恢复解决方案是基于拉伸的持久聊天服务器池。 这不要求具有扩展的虚拟局域网 (VLAN)。 通过拉伸的持久聊天服务器池，在逻辑上，配置一个池拓扑中，但实际放置在两个不同数据中心中的库中的服务器。 你以相同方式为数据库配置 SQL Server 镜像，并在同一数据中心中部署数据库和镜像。 需要在辅助数据中心中配置一个备份数据库（在灾难恢复期间，用可选镜像来提供高可用性）。 这是在灾难恢复期间用于故障转移的备份数据库。 
   

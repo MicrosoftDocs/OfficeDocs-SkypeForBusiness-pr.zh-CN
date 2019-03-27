@@ -1,5 +1,6 @@
 ---
-title: 证书请求 （证书颁发机构帐户）
+title: 证书请求（证书颁发机构帐户）
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 description: 若要提交一个请求，证书颁发机构 (CA) 可能需要之外的当前以登录用户的凭据。 要允许其他用户的证书请求，请选择证书颁发机构的复选框指定备用凭据，然后键入的用户名称或作为可申请证书的用户的域 \ 用户名。 在密码文本框中，键入您指定的用户的密码。 用户名和密码然后发送一部分的证书请求过程中，但不能在实际的证书请求到联机 CA。
-ms.openlocfilehash: 65824674fb95c3894061f83e6c2a572eaf8b0d78
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4580b402198da6d11355675d862387e6fdeb80a4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995903"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875740"
 ---
-# <a name="certificate-request-certificate-authority-account"></a>证书请求 （证书颁发机构帐户）
+# <a name="certificate-request-certificate-authority-account"></a>证书请求（证书颁发机构帐户）
  
 若要提交一个请求，证书颁发机构 (CA) 可能需要之外的当前以登录用户的凭据。 要允许其他用户的证书请求，请选择**指定备用证书颁发机构凭据**复选框，然后键入用户名和_域_\ 可以申请证书的用户的_用户名_. 在**密码**文本框中，键入您指定的用户的密码。 用户名和密码然后发送一部分的证书请求过程中，但不能在实际的证书请求到联机 CA。
   

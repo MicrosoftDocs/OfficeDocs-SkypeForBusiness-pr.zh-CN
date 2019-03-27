@@ -1,5 +1,6 @@
 ---
 title: 为业务 Server 与 Exchange Server 集成 Skype
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
 description: 摘要： 查看业务服务器的 Exchange Server 2016 或 Exchange Server 2013 和 Skype 集成步骤。
-ms.openlocfilehash: 9cb59b956a30a26f095dde1b550daa9e2a9634a1
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d08bf95894febb224e88cc1c40dce1f693b99704
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247185"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873532"
 ---
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>为业务 Server 与 Exchange Server 集成 Skype
 

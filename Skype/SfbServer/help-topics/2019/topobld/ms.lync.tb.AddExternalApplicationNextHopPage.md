@@ -1,5 +1,6 @@
 ---
-title: 添加 NextHop 受信任应用程序服务器
+title: 添加受信任应用程序服务器下一个跃点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 49c9e65a-ae2d-46fa-a6a2-fff47ed0f3de
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要设置受信任应用程序服务器或池的下一个跃点，执行以下操作：
-ms.openlocfilehash: 15ee6c1e6c86d865710fa1cbc710b11556f2908a
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: bbf031642220f6dbe851e5aa1d51353f2156503b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057572"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875537"
 ---
-# <a name="add-nexthop-trusted-application-server"></a>添加 NextHop 受信任应用程序服务器
+# <a name="add-nexthop-trusted-application-server"></a>添加受信任应用程序服务器下一个跃点
  
 若要设置受信任应用程序服务器或池的下一个跃点，执行以下操作：
   

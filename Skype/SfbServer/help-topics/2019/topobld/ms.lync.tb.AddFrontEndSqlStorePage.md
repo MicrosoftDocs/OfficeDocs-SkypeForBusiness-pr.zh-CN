@@ -1,5 +1,6 @@
 ---
 title: 添加前端 SQL Server 存储
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 部署 Standard Edition server 自动安装所需的 Microsoft SQL Server Express 数据库软件和 SQL Server 数据库。 因此，所有选项都预先都填充，并且您无法更改为默认配置。
-ms.openlocfilehash: 31abc84b05486ae2aefe361bfd239714f6e91189
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5424325431867d6e7c2d1991f4a3152c89ac5ca1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245787"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873553"
 ---
 # <a name="add-front-end-sql-server-store"></a>添加前端 SQL Server 存储
 

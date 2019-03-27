@@ -1,5 +1,6 @@
 ---
 title: 阶段 7 完成迁移后任务
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本节中的主题介绍需要您已完成的业务服务器 2019年到 Skype 迁移后要执行的任务。
-ms.openlocfilehash: dedeb9fd3cb524fb2f61ff7e8ade87265c2001e0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ef3a1f4b6d7262d223e78ebfae53e02203e9248e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028892"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875452"
 ---
-# <a name="phase-7-complete-post-migration-tasks"></a>第 7 阶段： 完成迁移后任务
+# <a name="phase-7-complete-post-migration-tasks"></a>第 7 阶段：完成迁移后任务
 
 本节中的主题介绍需要您已完成的业务服务器 2019年到 Skype 迁移后要执行的任务。
   
@@ -43,7 +44,7 @@ ms.locfileid: "25028892"
     
 - [配置 SCOM 监控](configure-scom-monitoring.md)
     
-- [迁移公用区域电话](migrate-common-area-phones.md)
+- [迁移公共区域电话](migrate-common-area-phones.md)
     
 - [迁移模拟设备](migrate-analog-devices.md)
     

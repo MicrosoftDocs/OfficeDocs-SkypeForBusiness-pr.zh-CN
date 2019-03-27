@@ -1,5 +1,6 @@
 ---
 title: MonitoredUserSiteLink 表
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,20 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16edc24a-2718-4bb4-b05c-bc7aafa97963
-description: MonitoredUserSiteLink 表是支持表。 每个记录表示两个用户站点之间的一个链接。
-ms.openlocfilehash: 7b9b2ddab3bff48105a24f586816666b15c0b9b6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: MonitoredUserSiteLink 表是一个支持表。 每条记录代表一个两个用户站点之间的链接。
+ms.openlocfilehash: 8022286289d4acd5fab8ea821c72897d9500597b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874257"
 ---
 # <a name="monitoredusersitelink-table"></a>MonitoredUserSiteLink 表
  
-MonitoredUserSiteLink 表是支持表。 每个记录表示两个用户站点之间的一个链接。
+MonitoredUserSiteLink 表是一个支持表。 每条记录代表一个两个用户站点之间的链接。
   
 |**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
-|**UserSite1Key** <br/> |int  <br/> |主键和外  <br/> |从[UserSite 表](usersite.md)引用。  <br/> |
-|**UserSite2Key** <br/> |int  <br/> |主键和外  <br/> |从[UserSite 表](usersite.md)的引用。  <br/> |
+|**UserSite1Key** <br/> |int  <br/> |主、 外  <br/> |引用[自 UserSite table](usersite.md)。  <br/> |
+|**UserSite2Key** <br/> |int  <br/> |主、 外  <br/> |引用[自 UserSite table](usersite.md)。  <br/> |
    
 

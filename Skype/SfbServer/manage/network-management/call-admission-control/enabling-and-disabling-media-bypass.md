@@ -1,5 +1,6 @@
 ---
 title: 启用和禁用媒体旁路
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 使用本文中过程以启用或禁用媒体旁路使用 Skype 业务 Server Control Panel。
-ms.openlocfilehash: f595ab5380575f34c0a470cb58c82459841ee4d7
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: eebbc111f0d205be8dced9ec8ddb5150deff8119
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222756"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874283"
 ---
-# <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>启用和禁用媒体旁路 Skype 中的业务服务器
+# <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>在 Skype for Business Server 中启用和禁用媒体旁路
 
 使用本文中过程以启用或禁用媒体旁路使用 Skype 业务 Server Control Panel。
 

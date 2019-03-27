@@ -1,5 +1,6 @@
 ---
 title: 持久聊天配置
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 持久聊天服务器部署可以承载多个并发的持久聊天聊天室。 聊天室可以组织到服务器上的一组类别中。 每个聊天室属于一个类别，并继承该类别的一些设置。 这种组织方式可创建一种非常有用的结构以基于对话的业务目的识别对话，并有助于委托管理和简化控制。
-ms.openlocfilehash: 89ec9b4cb240646d39979d8e06ba53ab65792a72
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c43b62ef947ad8a0dc4bbda9c9d73554102c5620
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005190"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874855"
 ---
 # <a name="persistent-chat-configuration"></a>持久聊天配置
 

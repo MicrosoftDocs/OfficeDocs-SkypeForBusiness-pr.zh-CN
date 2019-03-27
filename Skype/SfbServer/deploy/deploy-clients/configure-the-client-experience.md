@@ -1,5 +1,6 @@
 ---
 title: 配置与业务 2015年的 Skype 的客户端体验
+ms.reviewer: ''
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 摘要： 阅读本主题可了解如何配置 Skype 业务用户的客户端体验。
-ms.openlocfilehash: 9e2a7d53788eda36fc18cb9094cde096864ce2ba
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b8d258236a5254aa1dab5e86edb9586ea514c689
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375356"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875790"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>配置与业务 2015年的 Skype 的客户端体验
  
@@ -104,13 +105,13 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
   
 在 **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** 键中，创建新的 **DWORD（32 位）值**。**值名称**必须为 **IsBasicTutorialSeenByUser**，**值数据**必须设为 **1**。
   
-该注册表项应类似于以下内容：
+该键应类似于以下内容：
   
 `"IsBasicTutorialSeenByUser"=dword:00000001`
 
 ### <a name="turn-off-the-client-tutorial"></a>关闭客户端教程
 
-如果你不希望你的用户能够访问教程，你可以使用以下注册表值关闭客户端教程：
+如果您不希望您的用户能够访问教程，您可以使用以下注册表值关闭客户端教程：
   
 在 **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** 键中，创建新的 **DWORD（32 位）值**。**值名称**必须为 **TutorialFeatureEnabled**，**值数据**必须设为 **0**。
   
@@ -129,13 +130,13 @@ Lync
 
 |**服务器版本**|**EnableSkypeUI 设置**|**客户端体验**|
 |:-----|:-----|:-----|
-|Skype for Business Server |默认  <br/> |Skype for Business  <br/> |
+|Skype for Business Server |默认值  <br/> |Skype for Business  <br/> |
 |Skype for Business Server  |True  <br/> |Skype for Business  <br/> |
 |Skype for Business Server  |False  <br/> |要求用户切换到 Lync 模式 （用户可以切换到 for Business 更高版本的 Skype 如果将 UI 设置更改为 $true）  <br/> |
-|Lync Server 2010 或 Lync Server 2013 （具有正确的修补程序）  <br/> |默认  <br/> |要求用户切换到 Lync 模式 （用户可以切换到 for Business 更高版本的 Skype 如果将 UI 设置更改为 $true）  <br/> |
+|Lync Server 2010 或 Lync Server 2013 （具有正确的修补程序）  <br/> |默认值  <br/> |要求用户切换到 Lync 模式 （用户可以切换到 for Business 更高版本的 Skype 如果将 UI 设置更改为 $true）  <br/> |
 |Lync Server 2010 或 Lync Server 2013 （具有正确的修补程序）  <br/> |True  <br/> |Skype for Business  <br/> |
 |Lync Server 2010 或 Lync Server 2013 （具有正确的修补程序）  <br/> |False  <br/> |要求用户切换到 Lync 模式 （用户可以切换到 for Business 更高版本的 Skype 如果将 UI 设置更改为 $true）  <br/> |
-|Lync Server 2010 或 Lync Server 2013 （不带修补程序）  <br/> |默认  <br/> |要求用户切换到 Lync 模式 （用户无法切换到 Skype for Business 更高版本）  <br/> |
+|Lync Server 2010 或 Lync Server 2013 （不带修补程序）  <br/> |默认值  <br/> |要求用户切换到 Lync 模式 （用户无法切换到 Skype for Business 更高版本）  <br/> |
    
 下表显示了客户端体验时管理员变化的 Skype UI 体验的初始设置：
   
@@ -146,7 +147,7 @@ Lync
 |Skype for Business Server |False  <br/> |Lync 模式  <br/> |要求用户切换到 Lync 模式  <br/> |
 |Lync Server 2010 或 Lync Server 2013 （具有正确的修补程序）  <br/> |True  <br/> |要求用户要切换到 Skype for Business  <br/> |Skype for Business  <br/> |
 |Lync Server 2010 或 Lync Server 2013 （具有正确的修补程序）  <br/> |False  <br/> |Lync 模式  <br/> |要求用户切换到 Lync 模式  <br/> |
-|Lync Server 2010 或 Lync Server 2013 （不带修补程序）  <br/> |默认  <br/> |Lync 模式 （不能切换到 for Business 的 Skype）  <br/> |Lync 模式 （不能切换到 for Business 的 Skype）  <br/> |
+|Lync Server 2010 或 Lync Server 2013 （不带修补程序）  <br/> |默认值  <br/> |Lync 模式 （不能切换到 for Business 的 Skype）  <br/> |Lync 模式 （不能切换到 for Business 的 Skype）  <br/> |
    
 管理业务客户端 Skype 的配置所需的修补程序版本是：
   
@@ -189,11 +190,11 @@ Lync
    
 8. 单击" **确定**"以保存更改，然后关闭 GPO。
     
-接下来，你需要将你创建的 GPO 链接到你希望分配策略的用户组，比如 OU。
+接下来，您需要将您创建的 GPO 链接到您希望分配策略的用户组，比如 OU。
   
 ### <a name="to-use-the-gpo-to-assign-the-policy"></a>使用 GPO 分配策略
 
-1. 在组策略管理控制台中，右键单击要分配策略的 OU，然后选择" **链接到现有 GPO**"。
+1. 在组策略管理控制台中，右键单击要分配策略的 OU，然后选择“**链接到现有 GPO**”。
     
 2. 在" **选择 GPO**"对话框中，选择你创建的 GPO，然后选择" **确定**"。
     

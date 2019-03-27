@@ -1,5 +1,6 @@
 ---
 title: 组件和拓扑的呼叫允许控制的 Skype for Business
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: 在有 MPLS 网络、SIP 中继或第三方 PSTN 网关或 PBX 情况下，规划呼叫允许控制 (CAC)。 适用于 Skype 业务 Server 企业语音。
-ms.openlocfilehash: f43b111d0ef3260c34b53e27a903de20fdf676ef
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7022ade98dbd614023a4faaea283b939fa658e73
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887670"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872836"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>组件和拓扑的呼叫允许控制的 Skype for Business
 
@@ -52,14 +53,14 @@ ms.locfileid: "23887670"
 
 要在 SIP 中继上配置 CAC，必须在 CAC 部署过程中执行以下任务：
 
-1. 创建一个网络站点，代表 ITSP。 将网络站点与相应的网络区域相关联，然后为该网络站点的音频和视频分配零带宽。 有关详细信息，请参阅部署文档中的[cac 配置网络站点](https://technet.microsoft.com/library/afcea38f-5789-45ec-97af-c6e38364950c.aspx)。
+1. 创建一个网络站点，代表 ITSP。将网络站点与相应的网络区域相关联，然后为该网络站点的音频和视频分配零带宽。有关详细信息，请参阅部署文档中的 [Configure Network Sites for CAC](https://technet.microsoft.com/library/afcea38f-5789-45ec-97af-c6e38364950c.aspx)。
 
     > [!NOTE]
     > 对于 ITSP，该网络站点配置不起作用。带宽策略值实际是在步骤 2 中应用。
 
 2. 使用在步骤 1 中创建的站点的相关参数值，为 SIP 中继创建站点间链接。 例如，使用企业中的网络站点名称作为参数 NetworkSiteID1 的值，并使用 ITSP 网络站点名称作为参数 NetworkSiteID2 的值。 有关详细信息，请参阅部署文档中[新建 CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)的[Skype 业务服务器中的创建网络站点间策略](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md)。
 
-3. 获取会话边界控制器的 (SCB) 的 IP 地址从 ITSP 媒体端点。 将子网掩码为 32 的 IP 地址添加到代表 ITSP 的网络站点。 有关详细信息，请参阅[将子网与网络站点相关联](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)。
+3. 获取会话边界控制器的 (SCB) 的 IP 地址从 ITSP 媒体端点。 将子网掩码为 32 的 IP 地址添加到代表 ITSP 的网络站点。 有关详细信息，请参阅 [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)。
 
 ## <a name="call-admission-control-with-a-third-party-pstn-gateway-or-pbx"></a>使用第三方 PSTN 网关或 PBX 时的呼叫允许控制
 
@@ -88,7 +89,7 @@ ms.locfileid: "23887670"
 > 请确保中介服务器的两个接口所属的 IP 子网已配置并与网络站点 1 相关联。
 
 > [!NOTE]
-> 有关详细信息，请参阅[将子网与网络站点相关联](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)。
+> 有关详细信息，请参阅 [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)。
 
 ### <a name="case-2-cac-between-the-mediation-server-and-a-third-party-pbx-with-media-termination-point"></a>示例 2： 中介服务器与具有媒体端点的第三方 PBX 之间的 CAC
 
@@ -113,7 +114,7 @@ ms.locfileid: "23887670"
 > 请确保中介服务器的两个接口所属的 IP 子网已配置并与网络站点 1 相关联。
 
 > [!NOTE]
-> 有关详细信息，请参阅[将子网与网络站点相关联](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)。
+> 有关详细信息，请参阅 [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)。
 
 ### <a name="case-3-cac-between-the-mediation-server-and-a-third-party-pbx-without-a-media-termination-point"></a>示例 3： 中介服务器与没有媒体端点的第三方 PBX 之间的 CAC
 
@@ -134,6 +135,6 @@ ms.locfileid: "23887670"
 > 请确保中介服务器的两个接口所属的 IP 子网已配置并与网络站点 1 相关联。
 
 > [!NOTE]
-> 有关详细信息，请参阅[将子网与网络站点相关联](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)。
+> 有关详细信息，请参阅 [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)。
 
 

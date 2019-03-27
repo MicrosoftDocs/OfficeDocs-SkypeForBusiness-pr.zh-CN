@@ -1,5 +1,6 @@
 ---
 title: Skype 中的企业服务器用户注册报告
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: 摘要： 了解用户注册报告中 Skype 业务服务器。
-ms.openlocfilehash: 6136e90700bf371621f2b7b27c87453ceb04d854
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ba60e691a8f2c7c976fa1c8dbe79ee3668e9c81a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001626"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873441"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>Skype 中的企业服务器用户注册报告
  
@@ -38,7 +39,7 @@ ms.locfileid: "21001626"
   
 为了进一步解释登录总数和唯一登录之间的差别，请考虑下表中给定时间段的登录数。
   
-|**用户**|**登录时间**|
+|**User**|**登录时间**|
 |:-----|:-----|
 |Ken Myer  <br/> |2015/7/7 8:45  <br/> |
 |Ken Myer  <br/> |2015/7/7 8:46  <br/> |

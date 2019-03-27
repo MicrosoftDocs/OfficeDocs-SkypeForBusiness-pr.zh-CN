@@ -1,5 +1,6 @@
 ---
 title: 会议加入时间报告中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
 description: 摘要： 了解有关会议加入时间摘要报告中 Skype 业务服务器。
-ms.openlocfilehash: 111222b915aafee346f27e4a509c0484e2ec3e00
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8264ac8df7a6299484c88121ac1352401833ebe9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981120"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874205"
 ---
 # <a name="conference-join-time-report-in-skype-for-business-server"></a>会议加入时间报告中 Skype 业务服务器
  

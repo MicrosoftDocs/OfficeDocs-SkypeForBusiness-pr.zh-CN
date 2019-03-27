@@ -1,5 +1,6 @@
 ---
 title: 容量规划的 Skype 业务服务器 2019
+ms.reviewer: ''
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 本节中的主题帮助您了解如何规划和部署 Skype 业务服务器，以便您可以充分规划您的组织和 plan for 其活动生成服务器负载中的用户数。
-ms.openlocfilehash: 4a18b68d080eb7cb2a384b727e4ce4d7593d0ac4
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: 1d20ed85c06514f4e999a966c5d137727842726d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178714"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875968"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>服务器容量规划的 Skype 业务 2019
 
@@ -30,7 +31,7 @@ ms.locfileid: "30178714"
 |:-----|:-----|
 |CPU  <br/> |Intel Xeon E5 2673 v3 双处理器、 6 核 2.4 ghz 或更高版本。  <br/> Intel Itanium 处理器不支持 Skype 业务服务器 2019年角色。  <br/> |
 |内存  <br/> |32 GB。  <br/> |
-|磁盘  <br/> |以下之一：  <br/> • 8 块或更多 10000 RPM 硬盘，至少 72 GB 可用磁盘空间（2 块磁盘使用 RAID 1，6 块磁盘使用 RAID 10）。  <br/> 或  <br/> • 能够提供与 8 块 10000 RPM 机械硬盘相同的可用空间和类似性能的固态硬盘 (SSD)。  <br/> |
+|磁盘  <br/> |以下之一：  <br/> • 8 或更多 10000 RPM 硬盘驱动器具有至少 72 GB 可用磁盘空间 （两个磁盘使用 RAID 1 和 6 使用 RAID 10）。  <br/> 或者  <br/> • 固态驱动器 (Ssd) 能够提供相同的可用空间和类似于 8 10000 RPM 机械磁盘驱动器的性能。  <br/> |
 |网络  <br/> |1 个双端口网络适配器，1 Gbps 或更高（可使用 2 个网络适配器，但需要通过一个 MAC 地址和一个 IP 地址配合使用）。  <br/> 双处理器或多宿主配置是**不**支持前端服务器、 后端服务器，和 Standard Edition 服务器。 <br/> 只要它们不公开给操作系统，并且正在使用监视和管理服务器硬件，您可以通过带管理系统，如 DRAC 或 ILO。 这种情况不会形成多宿主服务器，并且受支持。  <br/> |
 
 ## <a name="summary-of-results"></a>结果摘要
@@ -77,7 +78,7 @@ ms.locfileid: "30178714"
 |3 3.75 kBps  <br/> |13 MBps  <br/> |
 
 > [!NOTE]
-> 改进的共同位于媒体性能 A / V 会议和中介服务器在前端服务器上的功能，您应启用接收端扩展在前端服务器上的网络适配器 (RSS)。 通过启用 RSS，服务器上的多个处理器能够以并行方式处理传入数据包。 有关详细信息，请参阅[ Windows Server 2012 中的接收方缩放 (RSS)](https://go.microsoft.com/fwlink/p/?LinkId=620365) 文档。 有关如何启用 RSS 的详细信息，需要参阅网络适配器文档。
+> 改进的共同位于媒体性能 A / V 会议和中介服务器在前端服务器上的功能，您应启用接收端扩展在前端服务器上的网络适配器 (RSS)。 通过启用 RSS，服务器上的多个处理器能够以并行方式处理传入数据包。 有关详细信息，请参阅[接收端扩展 (RSS) 中的 Windows Server 2012 文档](https://go.microsoft.com/fwlink/p/?LinkId=620365)。 有关如何启用 RSS 的详细信息，需要参阅网络适配器文档。
 
 ## <a name="conferencing-maximums"></a>会议最大值
 
@@ -171,7 +172,7 @@ Microsoft 在其性能测试期间对用于监控和存档的数据库服务器�
 |:-----|:-----|
 |CPU  <br/> |Intel Xeon E5 2673 v3 双处理器、 6 核 2.4 ghz 或更高版本。  <br/> |
 |内存  <br/> |48 GB  <br/> |
-|磁盘  <br/> | 以下之一：<br/> • 4 块或更多 10000 RPM 硬盘，至少 72 GB 可用磁盘空间（磁盘应采用双 RAID 1 配置）。 <br/>或 <br/>• 能够提供与 4 块 10000 RPM 机械硬盘相同的可用空间和类似性能的固态硬盘 (SSD)。   <br/> |
+|磁盘  <br/> | 以下之一：<br/> • 4 个或多个 10000 RPM 硬盘驱动器具有至少 72 GB 可用磁盘的空间 （磁盘应为 2 个 RAID 1 配置中）。 <br/>或者 <br/>• 固态驱动器 (Ssd) 能够提供相同的可用空间和类似于 4 10000 RPM 机械磁盘驱动器的性能。   <br/> |
 |网络  <br/> | 1 个双端口网络适配器，1 Gbps 或更高（建议为 2 Gbps，这要求与一个 MAC 地址和一个 IP 地址结合使用）。  <br/> |
 
 **建议的磁盘配置**

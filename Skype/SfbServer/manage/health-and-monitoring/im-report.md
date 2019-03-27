@@ -1,5 +1,6 @@
 ---
 title: Skype 中的业务服务器的对等 IM 报告
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 摘要： 了解业务服务器的对等 IM 报告中 Skype。
-ms.openlocfilehash: e7e65e11d6a8710c4a37fc3afe0a983d5ce9b14d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 89b5d7e76b476c112b1938d5fe9692625641214d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968612"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873427"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Skype 中的业务服务器的对等 IM 报告
  

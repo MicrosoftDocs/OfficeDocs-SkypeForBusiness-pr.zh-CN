@@ -1,5 +1,6 @@
 ---
 title: 部署网络区域、 站点和 Skype for Business 中的子网
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 创建或修改网络区域、 网络站点，并将 Skype 中的网络子网关联的业务服务器。 所有这些用于高级企业语音功能： 媒体绕过、 呼叫允许控制和基于位置的路由。
-ms.openlocfilehash: fe6edf779d00b96918d8bf92ac7e749b9c003f15
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 91ce871d3e8d4871693b7ad28cf4659ea0bb0c4c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297647"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875480"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>部署网络区域、 站点和 Skype for Business 中的子网
 
@@ -225,7 +226,7 @@ ms.locfileid: "27297647"
 
 1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
-2. 运行**New-csnetworksubnet** cmdlet 将子网与网络站点相关联：
+2. 运行 **New-CsNetworkSubnet** cmdlet 将子网与网络站点相关联：
 
    ```
    New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
@@ -280,7 +281,7 @@ ms.locfileid: "27297647"
 7. 单击“网络站点 ID”****，然后选择要向其中添加此子网的站点的站点 ID。
 
     > [!NOTE]
-    > 如果尚未创建网络站点，该列表将为空。 有关过程的详细信息，请参阅 [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx)。 您还可以通过运行**Get-csnetworksite** cmdlet 为您的部署检索站点 Id。 有关详细信息，请参阅 Business Server Management Shell 文档 Skype。
+    > 如果尚未创建网络站点，该列表将为空。 有关过程的详细信息，请参阅 [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx)。 还可以通过运行 **Get-CsNetworkSite** cmdlet 检索部署的站点 ID。 有关详细信息，请参阅 Business Server Management Shell 文档 Skype。
 
 8. （可选）单击“说明”****，然后键入其他信息来说明此子网。
 

@@ -1,5 +1,6 @@
 ---
 title: 选择 Exchange UM 自动助理
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用选择 Exchange UM 自动助理对话框选择 Exchange UM 自动助理将处理到未分配号码范围的传入呼叫。
-ms.openlocfilehash: 3c56e24c7285c4e4518da3101d7926800b8a564f
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: decb3023f6faa58d74331714f09ae5415817e966
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059135"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875747"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>选择 Exchange UM 自动助理
 

@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 中配置位置数据库
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: 配置、 填充和业务 Server 企业语音中 Skype 发布 E9-1-1 位置数据库。
-ms.openlocfilehash: e57f9ba299abad613df2f4c54ae9ecbbea748f9a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ab97fae05a74f95e618cebacac9be5ac011eb921
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885497"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873876"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>在 Skype for Business Server 中配置位置数据库
  
@@ -38,7 +39,7 @@ ms.locfileid: "23885497"
     
 ## <a name="populate-the-location-database"></a>填充位置数据库
 
-要在网络中自动定位客户端，首先需要使用网络线路映射填充位置数据库，网络线路映射会将网络元素映射到市政（即，街道）地址。可以使用子网、无线访问点、交换机和端口来定义线路映射。
+要在网络中自动定位客户端，首先需要使用网络线路映射填充位置数据库，网络线路映射会将网络元素映射到市政（即，街道）地址。 可以使用子网、无线访问点、交换机和端口来定义线路映射。
   
 可以分别将地址添加到位置数据库中，也可以使用包含下表所述的列格式的 CSV 文件批量添加。
   
@@ -47,7 +48,7 @@ ms.locfileid: "23885497"
 |**网络元素**|**所需列**|
 |:-----|:-----|
 |**无线访问点** <br/> |\<BSSID\>，\<说明\>，\<位置\>，\<CompanyName\>，\<HouseNumber\>，\<HouseNumberSuffix\>，\<PreDirectional\>，...  <br/> ...\<StreetName\>，\<StreetSuffix\>，\<PostDirectional\>，\<市/县\>，\<状态\>，\<PostalCode\>，\<国家/地区\>  <br/> |
-|**子网** <br/> |\<子网\>，\<说明\>，\<位置\>，\<CompanyName\>，\<HouseNumber\>，\<HouseNumberSuffix\>，\<PreDirectional\>，...  <br/> ...\<StreetName\>，\<StreetSuffix\>，\<PostDirectional\>，\<市/县\>，\<状态\>，\<PostalCode\>，\<国家/地区\>  <br/> |
+|**Subnet** <br/> |\<子网\>，\<说明\>，\<位置\>，\<CompanyName\>，\<HouseNumber\>，\<HouseNumberSuffix\>，\<PreDirectional\>，...  <br/> ...\<StreetName\>，\<StreetSuffix\>，\<PostDirectional\>，\<市/县\>，\<状态\>，\<PostalCode\>，\<国家/地区\>  <br/> |
 |**端口** <br/> |\<机架 Id\>，\<PortIDSubType\>，\<PortID\>，\<说明\>，\<位置\>，\<CompanyName\>，\<HouseNumber\>，\<HouseNumberSuffix\>，...  <br/> ...\<PreDirectional\>，\<StreetName\>，\<StreetSuffix\>，\<PostDirectional\>，\<市/县\>，\<状态\>，\<PostalCode\>，\<国家/地区\>  <br/> |
 |**交换机** <br/> |\<机架 Id\>，\<说明\>，\<位置\>，\<CompanyName\>，\<HouseNumber\>，\<HouseNumberSuffix\>，\<PreDirectional\>，...  <br/> ...\<StreetName\>，\<StreetSuffix\>，\<PostDirectional\>，\<市/县\>，\<状态\>，\<PostalCode\>，\<国家/地区\>  <br/> |
    
@@ -117,7 +118,7 @@ ms.locfileid: "23885497"
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>验证位于位置数据库中的地址
 
-1.  启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1.  启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 2. 运行以下 cmdlet 配置紧急服务提供商连接。
     
@@ -132,7 +133,7 @@ ms.locfileid: "23885497"
    Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
    ```
 
-   您可以使用**Test-csliscivicaddress** cmdlet 验证单个地址。
+   还可以使用 **Test-CsLisCivicAddress** cmdlet 验证单个地址。
     
 ## <a name="publish-the-location-database"></a>发布位置数据库
 
@@ -142,7 +143,7 @@ ms.locfileid: "23885497"
   
 ### <a name="to-publish-the-location-database"></a>发布位置数据库
 
--  启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+-  启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 - 运行以下 cmdlet 发布位置数据库。
     

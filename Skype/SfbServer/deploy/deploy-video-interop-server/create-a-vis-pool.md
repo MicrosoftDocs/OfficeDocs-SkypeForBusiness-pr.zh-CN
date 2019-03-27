@@ -1,5 +1,6 @@
 ---
 title: 为 Business Server Skype 创建 VIS 池
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 摘要： 为业务服务器使用拓扑生成器创建 Skype 视频互操作服务器池。
-ms.openlocfilehash: 65771e72250ad1d5e9625bdd6cc1a8d47b5dabe2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 484cb1c504680dde393d24ce65606e415d070edb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373456"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874107"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>为 Business Server Skype 创建 VIS 池
  
@@ -61,7 +62,7 @@ ms.locfileid: "25373456"
     > [!NOTE]
     > 若要提高恢复能力，您可能想要配置第二个视频互操作服务器或 VIS 池或备份的前端池。 有关更多信息，请参阅[Resiliency mechanisms](../../plan-your-deployment/video-interop-server.md#resiliency)。
   
-现已完成所有使用拓扑生成器执行的任务。请继续在新的 VIS 服务器上安装软件。
+现已完成所有使用拓扑生成器执行的任务。 请继续在新的 VIS 服务器上安装软件。
 ## <a name="see-also"></a>另请参阅
 
 [为业务服务器部署中 Skype VIS 服务器角色](deploy-the-vis-server-role.md)

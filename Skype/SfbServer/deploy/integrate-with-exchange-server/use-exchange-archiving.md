@@ -1,5 +1,6 @@
 ---
 title: 配置 Business Server 使用 Exchange Server 存档的 Skype
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: 摘要： 配置 IM 脚本 Exchange Server 2016 或 Exchange Server 2013 和 Skype 业务服务器。
-ms.openlocfilehash: 63d533091426fe609932de18e3d37bd75004ce4c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5db51f1206fee5ef3f87f16e73836a32c460234b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258023"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873484"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>配置 Business Server 使用 Exchange Server 存档的 Skype
 
@@ -31,7 +32,7 @@ Skype 业务服务器为管理员提供了无即时消息和 Web 会议脚本存
 
 1. 启用 Exchange 存档通过修改您 Skype 业务服务器存档配置设置。 此步骤是所有部署必需的。
 
-2. 为用户的内部和/或外部通信启用存档。此步骤是所有部署必需的。
+2. 为用户的内部和/或外部通信启用存档。 此步骤是所有部署必需的。
 
 3. 为每个用户配置 ExchangeArchivingPolicy 属性。 此步骤即告仅所需的业务 Server 和 Exchange Server 的 Skype 都位于不同的林中。
 

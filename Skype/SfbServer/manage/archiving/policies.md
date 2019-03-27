@@ -1,5 +1,6 @@
 ---
 title: Skype 中的存档策略管理业务服务器 （英文）
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: 摘要： 了解如何管理业务服务器 Skype 的存档用户策略。
-ms.openlocfilehash: d29d30c99320631279114d3ebdfa8ee7db00b677
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 289902ded6f1530c74f9c945517a3c853c99d364
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013319"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873238"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>Skype 中的存档策略管理业务服务器 （英文）
 
@@ -49,10 +50,10 @@ ms.locfileid: "21013319"
 
 |**Cmdlet**|**说明**|
 |:-----|:-----|
-|Get-csarchivingpolicy  <br/> |返回有关您组织的即时消息 (IM) 会话存档策略的信息。  <br/> |
-|Grant-csarchivingpolicy  <br/> |将即时消息 (IM) 会话存档策略分配给用户或用户集。 通过这些策略，您可以存档在内部用户之间发生的所有 IM 会话，以及/或者存档在内部用户与外部伙伴之间发生的所有 IM 会话。  <br/> |
-|New-csarchivingpolicy  <br/> |创建新的即时消息 (IM) 会话存档策略。 通过这些策略，您可以存档在内部用户之间发生的所有 IM 会话，以及/或者存档在内部用户与外部伙伴之间发生的所有 IM 会话。  <br/> |
-|Remove-csarchivingpolicy  <br/> |删除存档策略，用于确定是否 Skype 业务服务器自动保存所有内部用户和/或内部用户和联盟的伙伴之间的所有 IM 会话之间进行的 IM 会话的指定即时消息 (IM)。  <br/> |
-|Set-csarchivingpolicy  <br/> |修改现有的即时消息 (IM) 存档策略。 通过存档策略，您可以存档在内部用户之间发生的所有 IM 会话和会议；您还可以存档在内部用户与联盟伙伴之间发生的会话。  <br/> |
+|Get-CsArchivingPolicy  <br/> |返回有关您组织的即时消息 (IM) 会话存档策略的信息。  <br/> |
+|Grant-CsArchivingPolicy  <br/> |将即时消息 (IM) 会话存档策略分配给用户或用户集。 通过这些策略，您可以存档在内部用户之间发生的所有 IM 会话，以及/或者存档在内部用户与外部伙伴之间发生的所有 IM 会话。  <br/> |
+|New-CsArchivingPolicy  <br/> |创建新的即时消息 (IM) 会话存档策略。 通过这些策略，您可以存档在内部用户之间发生的所有 IM 会话，以及/或者存档在内部用户与外部伙伴之间发生的所有 IM 会话。  <br/> |
+|Remove-CsArchivingPolicy  <br/> |删除存档策略，用于确定是否 Skype 业务服务器自动保存所有内部用户和/或内部用户和联盟的伙伴之间的所有 IM 会话之间进行的 IM 会话的指定即时消息 (IM)。  <br/> |
+|Set-CsArchivingPolicy  <br/> |修改现有的即时消息 (IM) 存档策略。 通过存档策略，您可以存档在内部用户之间发生的所有 IM 会话和会议；您还可以存档在内部用户与联盟伙伴之间发生的会话。  <br/> |
    
 

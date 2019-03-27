@@ -1,5 +1,6 @@
 ---
-title: 删除前端池或 Standard Edition server
+title: 删除前端池或 Standard Edition Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本主题将指导您完成删除前端池或 Standard Edition 前端服务器的过程。 删除前端池时，您删除每个前端服务器池删除过程一部分属于池。 删除 Standard Edition 前端服务器时，您必须从拓扑生成器删除 SQL 存储定义。
-ms.openlocfilehash: 7e56f2e9ff57536d1f065452f299a9af33a46aee
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 394edcd6f5c89478ed98abebe0be29720d009107
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028885"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872715"
 ---
-# <a name="remove-front-end-pool-or-standard-edition-server"></a>删除前端池或 Standard Edition server
+# <a name="remove-front-end-pool-or-standard-edition-server"></a>删除前端池或 Standard Edition Server
 
 本文将指导您完成删除前端池或 Standard Edition 前端服务器的过程。 删除前端池时，您删除每个前端服务器池删除过程一部分属于池。 删除 Standard Edition 前端服务器时，您必须从拓扑生成器删除 SQL 存储定义。
   

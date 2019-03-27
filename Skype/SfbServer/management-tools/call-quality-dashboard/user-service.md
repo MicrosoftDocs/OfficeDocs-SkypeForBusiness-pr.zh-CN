@@ -1,5 +1,6 @@
 ---
 title: CQD 的用户服务
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: 摘要： 了解用户服务，它是用于呼叫的质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: 42268078337e41b2dff595f58963f94656c2fd66
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4ee4594e86b14655c94472b516b9e04da674e3f0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532110"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872879"
 ---
 # <a name="user-service-for-cqd"></a>CQD 的用户服务
  

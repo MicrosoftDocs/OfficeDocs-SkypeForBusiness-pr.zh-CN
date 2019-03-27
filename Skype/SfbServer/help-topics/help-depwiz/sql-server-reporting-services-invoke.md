@@ -1,5 +1,6 @@
 ---
 title: SQL Server Reporting Services（调用）
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 description: 部署监控服务器报告 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 报告服务，向页上执行命令显示的摘要发出安装的命令提供所需的信息之后SQL Server Reporting Services 报告。
-ms.openlocfilehash: 7e453e484133e78b384993e245459ae15e599551
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f1cc4ee2f2a53ea8e6d3ba1f1fcd24c59c915990
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971446"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873638"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services（调用）
  

@@ -11,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 本文介绍的基础结构准备部署 Skype 会议室系统 v2。
-ms.openlocfilehash: 24ad623b81df5735c9034d8526e6b028e82dfb83
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 89c035816784bf160ad7f1ed821ed0effe916f31
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371880"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876070"
 ---
-# <a name="prepare-your-environment"></a>准备您的环境
+# <a name="prepare-your-environment"></a>准备环境
 
 本节包含业务环境准备您的 Skype，以便您可以使用的所有的 Skype 会议室系统 v2 功能所需的步骤概述。
   
@@ -39,7 +39,7 @@ ms.locfileid: "25371880"
      > [!NOTE]
      > V2 不支持 HDCP 输入，观察到与 HDMI 会导致问题的 Skype 会议室系统接收功能 （视频、 音频）。 注意确保交换机连接到 Skype 会议室系统 v2 已关闭的 HDCP 选项。 
   
-3. 为了改进你的体验，Microsoft 将收集数据。为了收集数据，我们需要将以下网站列入允许名单：
+3. 为了改进你的体验，Microsoft 将收集数据。 为了收集数据，我们需要将以下网站列入允许名单：
     
    - 遥测客户端终结点：https://vortex.data.microsoft.com/
     
@@ -84,30 +84,30 @@ Skype 会议室系统 v2 旨在继承 Windows 操作系统的代理设置。 通
 3. 在**搜索 Windows**框在注册表编辑器中的底部左侧的类型 （是长按屏幕或右键单击并选择**以管理员身份运行**）。
     
 4. 单击 HKEY_USERS 文件夹（你将看到计算机用户 SID 列表），确保选择根文件夹 HKEY_USERS。
-    
-    系统将提示您为您的新加载配置单元; 键名称键入的 Skype （您会看到 Skype 用户的注册表设置）。
-    
+       
 5. 单击文件，然后选择**加载配置单元。**
     
 6. 浏览到**C:\Users\Skype**文件夹，然后键入文件名称框 NTUSER.dat 和按打开按钮
-    
-7. 打开 Skype 注册表项并浏览到 HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet 设置，然后确保输入这些设置： 
+
+7. 系统将提示您为您的新加载配置单元; 键名称键入的 Skype （您会看到 Skype 用户的注册表设置）。
+ 
+8. 打开 Skype 注册表项并浏览到 HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet 设置，然后确保输入这些设置： 
     
     [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
     
-    "MigrateProxy"= dword:00000001
+    "MigrateProxy"=dword:00000001
     
-    "ProxyEnable"= dword:00000001
+    "ProxyEnable"=dword:00000001
     
     "ProxyServer"="xx.xx.xx.xx:8080"
     
     如果 ProxyServer 不存在，你可能必须以字符串形式添加此注册表项，将 xx.xx.xx.xx:8080 更改为你的代理服务器的 IP/主机和端口。
     
-8. 完成更改突出显示 Skype 用户主要 （根文件夹 Skype），并且选择卸载配置单元，从注册表文件菜单 （将提示您确认-选择**是**） 后。
+9. 完成更改突出显示 Skype 用户主要 （根文件夹 Skype），并且选择卸载配置单元，从注册表文件菜单 （将提示您确认-选择**是**） 后。
     
-9. 现在可以关闭注册表编辑器并在 Windows 搜索框中键入“注销”。
+10. 现在可以关闭注册表编辑器并在 Windows 搜索框中键入“注销”。
     
-10. 返回登录屏幕，选择 **Skype** 用户。 如果上述所有步骤都是成功，Skype 会议室系统 v2 设备将登录成功。
+11. 返回登录屏幕，选择 **Skype** 用户。 如果上述所有步骤都是成功，Skype 会议室系统 v2 设备将登录成功。
     
 要使用此应用程序，你必须能够连接至下面所述的终结点。要查看 IP 地址，请展开描述通信流的表下面的 IP 地址部分。
   

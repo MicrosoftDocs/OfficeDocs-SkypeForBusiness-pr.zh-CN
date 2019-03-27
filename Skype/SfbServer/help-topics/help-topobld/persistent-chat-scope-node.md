@@ -1,5 +1,6 @@
 ---
 title: 持久聊天范围节点
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 description: 若要开始创建新的持久聊天服务器或持久聊天服务器池，在拓扑生成器中您在持久聊天池上右键单击，然后选择新的持久聊天池
-ms.openlocfilehash: 3443da8792d88ae0a1932b4ed0ddd5956e5721ae
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 72177ea9a070979c358afc7ebde2192773607f26
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503744"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875072"
 ---
 # <a name="persistent-chat-scope-node"></a>持久聊天范围节点
  

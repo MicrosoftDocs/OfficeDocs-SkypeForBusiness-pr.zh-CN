@@ -1,5 +1,6 @@
 ---
 title: 使用 Microsoft Teams 客户端解决连接性问题
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,12 +14,12 @@ search.appverid: MET150
 description: 解决连接问题使用的 Microsoft 团队的客户端，主要由防火墙或代理连接，并了解如何解决此问题。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70255ccbd1c0547c44bb30dee78ffa14d1586705
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: d208671415e44ca5ec83313d0d8af666534f2b20
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568421"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872699"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>使用 Microsoft Teams 客户端解决连接性问题
 ==============================================================

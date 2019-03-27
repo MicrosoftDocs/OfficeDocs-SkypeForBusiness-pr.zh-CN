@@ -1,5 +1,6 @@
 ---
 title: 证书请求（基本）
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 名称和安全设置页上提供了一个文本框以定义一个友好名称，私钥和公钥对和复选框，使您能够将标记为可导出的证书的私钥的位长度的下拉列表。
-ms.openlocfilehash: 474111f6f732353c80ceea88da3e9cebda1caae3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: abc022cd9126b90fb83244657dfb32ac214a62c8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996464"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874799"
 ---
 # <a name="certificate-request-basic"></a>证书请求（基本）
  

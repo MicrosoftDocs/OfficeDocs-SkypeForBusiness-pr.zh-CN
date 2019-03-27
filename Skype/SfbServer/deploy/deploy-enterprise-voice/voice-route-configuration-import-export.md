@@ -1,5 +1,6 @@
 ---
 title: 导出或导入语音路由配置中的文件 Skype for Business
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 description: 摘要： 了解如何导出或为业务服务器导入语音路由配置文件中 Skype，使用 Skype 业务 Server Control Panel。
-ms.openlocfilehash: 5cf9021a1cc18daf90fc719723962959142ad92e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8f0d8f4e221cbe23ac37c4126a9d26aac46e6d53
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886787"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874841"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>导出或导入语音路由配置中的文件 Skype for Business
  

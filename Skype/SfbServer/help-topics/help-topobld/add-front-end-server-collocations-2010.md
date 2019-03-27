@@ -1,5 +1,6 @@
 ---
 title: 添加前端服务器并置 2010
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: 对于 Enterprise Edition 部署中，您可以将并置任一 A / V 会议服务、 中介服务器，或两者上的前端池，也可以部署其中各个作为独立服务器。 对于 Standard Edition 服务器部署，A / V 会议服务始终并置，如果启用会议。
-ms.openlocfilehash: daaa15cf58952badd00512b7d89ffd832790f81f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 42fd773c8874ec1416ac8c161bc60b8baba52f0e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263028"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875339"
 ---
 # <a name="add-front-end-server-collocations-2010"></a>添加前端服务器并置 2010
 

@@ -1,5 +1,6 @@
 ---
 title: 删除业务服务器中 Skype 的会议策略
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: 摘要： 了解如何删除 Business Server Skype 中的会议策略。
-ms.openlocfilehash: 157307fc81bf5e5d0e93bd65b9a513f92b317a68
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 404e981af46b29bd95b36ca402c9f691e34737a5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21012621"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873364"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>删除业务服务器中 Skype 的会议策略
  

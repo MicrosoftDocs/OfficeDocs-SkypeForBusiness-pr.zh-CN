@@ -1,5 +1,6 @@
 ---
 title: Tenants 表
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,23 +10,24 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
-description: 承租人表是一个支持的表来存储各种承租人的列表。 每个表中的记录表示一个租户。
-ms.openlocfilehash: 4dde1baaf553c1a0d8a0efe65d72e8326cbb3bad
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Tenants 表是一个支持表，用于存储各种租户的列表。 表中的每条记录代表一个租户。
+ms.openlocfilehash: cf7d0271c9cacfd76079a80a7e5db63d669a8dfb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873988"
 ---
 # <a name="tenants-table"></a>Tenants 表
  
-承租人表是一个支持的表来存储各种承租人的列表。 每个表中的记录表示一个租户。
+Tenants 表是一个支持表，用于存储各种租户的列表。 表中的每条记录代表一个租户。
   
 > [!NOTE]
-> 在内部部署中，CDR 使用生成在租户 ID 来表示不同的身份验证类型，例如公用 IM 连接，联盟和匿名。 
+> 在本地部署中，CDR 使用内置租户 ID 指示不同的身份验证类型，如公共 IM 连接、 联盟和匿名。 
   
 |**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
-|**TenantId** <br/> |int  <br/> |Primary  <br/> |唯一的编号，用于标识此租户 id。  <br/> |
-|**TenantKey** <br/> |nvarchar(256)  <br/> || 允许的值： <br/>  00000000-0000-0000-0000-000000000000-企业 <br/>  00000000-0000-0000-0000-000000000001-联合 <br/>  00000000-0000-0000-0000-000000000002-匿名 <br/>  00000000-0000-0000-0000-000000000003-公用 IM 连接 <br/> |
+|**TenantId** <br/> |int  <br/> |Primary  <br/> |标识此租户 id。 的唯一编号  <br/> |
+|**TenantKey** <br/> |nvarchar(256)  <br/> || 允许的值： <br/>  00000000-0000-0000-0000-000000000000-企业 <br/>  00000000-0000-0000-0000-000000000001-联盟 <br/>  00000000-0000-0000-0000-000000000002-匿名 <br/>  00000000-0000-0000-0000-000000000003-公共 IM 连接 <br/> |
    
 

@@ -1,5 +1,6 @@
 ---
-title: 在业务服务器 2015年的 Skype 的 EdgeServers 表
+title: EdgeServers 表中的业务服务器 2015 Skype
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,20 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aeda8c01-c88c-4f56-b3d0-bac475fae449
-description: EdgeServers 表是支持表。 每个记录存储在数据库中具有记录的调用所涉及的一个边缘服务器有关的信息。
-ms.openlocfilehash: 581dfcb6bbd3b5088af2bbc27a580d791b9ef8f7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: EdgeServers 表是一个支持表。 每个记录存储数据库中包含记录的呼叫中所涉及的一台边缘服务器的信息。
+ms.openlocfilehash: 253190f23d130d12a1b4af701bf68922717d8da8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874009"
 ---
-# <a name="edgeservers-table-in-skype-for-business-server-2015"></a>在业务服务器 2015年的 Skype 的 EdgeServers 表
+# <a name="edgeservers-table-in-skype-for-business-server-2015"></a>EdgeServers 表中的业务服务器 2015 Skype
  
-EdgeServers 表是支持表。 每个记录存储在数据库中具有记录的调用所涉及的一个边缘服务器有关的信息。
+EdgeServers 表是一个支持表。 每个记录存储数据库中包含记录的呼叫中所涉及的一台边缘服务器的信息。
   
 |**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**EdgeServerId** <br/> |int  <br/> |Primary  <br/> |标识此边缘服务器的唯一编号。  <br/> |
-|**EdgeServer** <br/> |nvarchar(256)  <br/> | <br/> |边缘服务器名称。  <br/> |
+|**EdgeServer** <br/> |nvarchar(256)  <br/> | <br/> |边缘服务器的名称。  <br/> |
    
 

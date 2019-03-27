@@ -1,5 +1,6 @@
 ---
 title: 创建或修改业务服务器 Skype 中的未分配号码范围
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 创建、 修改或删除 Skype 中为 Business Server 企业语音的通知应用程序的未分配号码范围。 这将影响如何处理打给未分配号码的呼叫。
-ms.openlocfilehash: 519f4b753314325b1af71f11f94ea669e78148a1
-ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
+ms.openlocfilehash: 9546e4caaab30ae7582866dbcefd680b04de33f2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26625664"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872893"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>创建或修改业务服务器 Skype 中的未分配号码范围
  
@@ -92,7 +93,7 @@ Skype 业务服务器，您可以说到可用于您的组织，但未分配给�
     
 2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
-3. 使用**New-csunassignednumber**创建一个新的未分配号码范围。 使用**Set-csunassignednumber**修改现有未分配号码范围。
+3. 使用 **New-CsUnassignedNumber** 可创建新的未分配号码范围。 使用 **Set-CsUnassignedNumber** 可修改现有未分配号码范围。
     
     > [!TIP]
     > 如果您具有重叠的范围并希望按某个特定顺序应用这些范围，请包含 Priority 参数。 优先级最高的范围将应用于呼叫。 0 的值表示最高优先级。

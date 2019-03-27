@@ -1,5 +1,6 @@
 ---
 title: 媒体质量摘要报告中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
 description: 摘要： 了解媒体质量摘要报告中 Skype 业务服务器。
-ms.openlocfilehash: 42c6b36a9e5164f62a003dd1a3fb2f2709b3a6e1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: dfe59d4c115f8396625979cf7c7dc88ac4f52ee5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21004561"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874526"
 ---
 # <a name="media-quality-summary-report-in-skype-for-business-server"></a>媒体质量摘要报告中 Skype 业务服务器
  

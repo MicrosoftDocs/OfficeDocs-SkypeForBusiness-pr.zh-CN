@@ -1,5 +1,6 @@
 ---
 title: 启用 Business Server Skype 中的呼叫允许控制
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: 启用业务 Server 企业语音中 Skype 的呼叫允许控制。
-ms.openlocfilehash: 75021b33c616fd4118a612b6e0d582459cd33b8d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7e4c444b5aa0b0e4d3c3517b9d242c839f6ecda5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881906"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872757"
 ---
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>启用 Business Server Skype 中的呼叫允许控制
  
@@ -28,7 +29,7 @@ ms.locfileid: "23881906"
   
 ### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>若要使用 Skype 业务 Server 命令行管理程序启用呼叫允许控制
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 2. 运行 Set-CsNetworkConfiguration cmdlet 以在网络中启用 CAC。例如，运行：
     

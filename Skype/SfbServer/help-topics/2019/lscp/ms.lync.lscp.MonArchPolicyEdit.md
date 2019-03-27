@@ -1,5 +1,6 @@
 ---
 title: 存档策略创建新的或编辑现有的
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用存档策略来控制用户的企业服务器驻留在 Skype 上部署中的内部和外部通信的存档。 存档策略包括全局策略以及可选的一个或多个站点和用户策略：
-ms.openlocfilehash: 9bb8057cd7d3d6b82e55a6045713f0183b3d3b01
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c43992fe808abf3350fc07ff21b8cbd92a4047a6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000795"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873343"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>存档策略：创建新的或编辑现有的
  
@@ -37,7 +38,7 @@ ms.locfileid: "21000795"
     
   - **全局策略**默认名称为 Global。 可以将该名称更改成一个更具描述性的名称。 例如，Contoso 北美机构。
     
-  - **站点策略**在此对话框中列出的站点部署中包括所有可用的站点。 单击某个站点将其选中。 例如，Redmond 数据中心。
+  - **站点策略**在此对话框中列出的站点部署中包括所有可用的站点。 单击某个站点即可将其选中。 例如，Redmond 数据中心。
     
   - **用户策略**指定适当的名称，如特定用户的名称或用户组或组织中的工作组的名称。 例如，法律部门。
     

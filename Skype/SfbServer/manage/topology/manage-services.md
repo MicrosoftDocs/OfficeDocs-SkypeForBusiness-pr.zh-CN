@@ -1,5 +1,6 @@
 ---
 title: Skype 中的服务管理业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 了解如何查看服务状态，启动和停止服务，并阻止服务的会话。
-ms.openlocfilehash: bfe24b32509f47cd733f5720ef29e635a7105d52
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 6913ce2cbef6c12a61d7d4751b35a71371ffb991
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223470"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875058"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Skype 中的服务管理业务服务器
 

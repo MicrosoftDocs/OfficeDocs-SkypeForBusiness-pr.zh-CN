@@ -1,5 +1,6 @@
 ---
 title: Skype 中为 Business Server 的林准备所做的更改
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: 本节介绍的全局设置和对象以及通用服务组和管理组林准备步骤创建的。
-ms.openlocfilehash: 6c031bf06310c6aba2ee18f532e95438bd495936
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 27b8e183f4c76c7c5db71af1422ba9185206632a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373533"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875558"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Skype 中为 Business Server 的林准备所做的更改
 

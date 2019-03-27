@@ -1,5 +1,6 @@
 ---
 title: Plan for Business 中 Skype 基于位置的路由
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: 规划在 Skype 基于位置的路由业务 Server 企业语音，包括与同时响铃和委派，交互和基于位置的路由支持方案。
-ms.openlocfilehash: 1e4f19d96306db31be0606dbfda799e93c2d34e0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 2e9070e5ecddcf88e5edac8064409177caa82b4d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886096"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874362"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Plan for Business 中 Skype 基于位置的路由
 
@@ -236,7 +237,7 @@ Skype for Business 的委派功能，通过以下方式影响基于位置的路�
 |Lync Mobile 2010  <br/> |支持  <br/> ||
 
 > [!NOTE]
-> 要禁用的 Skype 业务客户端的 VoIP，请使用设置中，IP 音频/视频，对启用了基于位置的路由的所有用户禁用分配移动策略。 有关移动策略的详细信息，请参阅[New-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)。
+> 要禁用的 Skype 业务客户端的 VoIP，请使用设置中，IP 音频/视频，对启用了基于位置的路由的所有用户禁用分配移动策略。 有关移动策略的详细信息，请参阅 [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)。
 
 ## <a name="capabilities-not-supported-by-location-based-routing"></a>基于位置的路由不支持的功能
 

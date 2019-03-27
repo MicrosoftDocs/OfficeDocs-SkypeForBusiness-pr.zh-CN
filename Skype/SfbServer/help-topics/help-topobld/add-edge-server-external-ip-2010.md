@@ -1,5 +1,6 @@
 ---
-title: 添加边缘服务器外部 IP 2010
+title: 添加 Edge Server 外部 IP 2010
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
 description: 您可以在此页上，指向访问边缘服务、 Web 会议边缘服务和 A 的外部位置的边缘服务器配置属性 / V 边缘服务。
-ms.openlocfilehash: ef308e842f3f4440b06b2743d1e586ad344296be
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a6a589c909d8b807049e3b0c40aefd852dd31f7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257505"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874568"
 ---
-# <a name="add-edge-server-external-ip-2010"></a>添加边缘服务器外部 IP 2010
+# <a name="add-edge-server-external-ip-2010"></a>添加 Edge Server 外部 IP 2010
 
 您可以在此页上，指向访问边缘服务、 Web 会议边缘服务和 A 的外部位置的边缘服务器配置属性 / V 边缘服务。
 

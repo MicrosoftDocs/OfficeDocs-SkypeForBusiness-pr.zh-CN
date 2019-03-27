@@ -1,5 +1,6 @@
 ---
-title: 联盟路由设置扩展器
+title: 联合身份验证路由设置扩展器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要设置站点联盟路由分配，首先必须在边缘服务器或边缘服务器池启用联盟。 如果边缘服务器或池上未启用联盟，则站点联盟路由分配设置将不可用进行修改。
-ms.openlocfilehash: 201fa7b556cc3a12c422145cf46c844faafb1cb4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 49709f5c4a91e25efb14cc4b2c321c99fec89b68
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371779"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873336"
 ---
-# <a name="federation-route-settings-expander"></a>联盟路由设置扩展器
+# <a name="federation-route-settings-expander"></a>联合身份验证路由设置扩展器
  
 若要设置站点联盟路由分配，首先必须在边缘服务器或边缘服务器池启用联盟。 如果边缘服务器或池上未启用联盟，则站点联盟路由分配设置将不可用进行修改。
 

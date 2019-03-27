@@ -1,5 +1,6 @@
 ---
 title: 为业务服务器部署中 Skype 的 Skype 连接
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 摘要： 了解如何将 Skype 与 Skype 的使用者连接业务服务器。 也称为 Skype 连接。
-ms.openlocfilehash: 33b24ff4ea609240bbb1a1bbea4a8e25154dc14a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3dd48661b230f4e780505be4aeb05bbe9ff82340
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372451"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874505"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>为业务服务器部署中 Skype 的 Skype 连接
  
@@ -80,7 +81,7 @@ Skype 连接同样是 Skype for Business Online（Office 365 的一部分）的�
   
 有关 Skype for Business Online 管理的更多信息，请参阅：
   
-- [允许用户联系外部 Skype for Business 用户](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+- [允许用户连接外部 Skype for Business 用户](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 
 - [要尝试如果无法 IM Skype 业务或 Skype 外部联系人](https://support.office.com/en-us/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
     
@@ -231,7 +232,7 @@ Skype 业务服务器使用的联合身份验证访问体系结构以支持与 S
   
 |**客户端**|**Skype 目录搜索和添加联系人**|**Skype A/V、IM 互操作**|
 |:-----|:-----|:-----|
-|Skype for Business  <br/> |是  <br/> |是  <br/> |
+|Skype for Business  <br/> |是   <br/> |是   <br/> |
 |Mac 版 Skype for Business  <br/> |可以添加（无搜索）  <br/> |是  <br/> |
 |Lync Desktop 2013  <br/> |可以添加（无搜索）  <br/> |是  <br/> |
 |Lync Web App - 联机和本地  <br/> |不适用  <br/> |不适用  <br/> |
@@ -239,7 +240,7 @@ Skype 业务服务器使用的联合身份验证访问体系结构以支持与 S
 |Lync 移动 - Android  <br/> |即将提供  <br/> |是  <br/> |
 |Lync 移动 - iOS  <br/> |即将提供  <br/> |是  <br/> |
 |Lync Room System  <br/> |即将提供  <br/> |是  <br/> |
-|Lync Modern App (Win 8.1)  <br/> |是  <br/> |是  <br/> |
+|Lync Modern App (Win 8.1)  <br/> |是  <br/> |是   <br/> |
 |Lync Mac 2011  <br/> |可以添加（无搜索）  <br/> |是  <br/> |
 |Lync Desktop 2010  <br/> |可以添加（无搜索）  <br/> |是  <br/> |
 |Lync Phone Edition  <br/> |不适用  <br/> |不适用  <br/> |

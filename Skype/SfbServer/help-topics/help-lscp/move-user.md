@@ -1,5 +1,6 @@
 ---
 title: 移动用户
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb8e30aa-6b3c-4c8f-b22f-02db9e5fb8c0
 description: 在“移动用户”页上，可以选择要将所选用户移动到的目标池。
-ms.openlocfilehash: 97c207df2a72f5cf746b0274e213af83a223aa8a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 16ef7e1b696de03930a9b2930cdee06402bc0d86
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250995"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874540"
 ---
 # <a name="move-user"></a>移动用户
 
