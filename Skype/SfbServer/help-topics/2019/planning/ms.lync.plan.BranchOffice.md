@@ -1,5 +1,6 @@
 ---
-title: 分支站点 （规划工具）
+title: Branch Sites (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 有关分支站点恢复能力的详细信息，请参阅规划分支站点语音恢复能力。
-ms.openlocfilehash: f96b6f2f413a5d9119fd2a64379b5f252abf255e
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 106018d9942df15eeec522ae592377ee697e9dfc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248565"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885924"
 ---
-# <a name="branch-sites-planning-tool"></a>分支站点 （规划工具）
+# <a name="branch-sites-planning-tool"></a>Branch Sites (Planning Tool)
 
 有关分支站点恢复能力的详细信息，请参阅[规划分支站点语音恢复能力](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)。
 

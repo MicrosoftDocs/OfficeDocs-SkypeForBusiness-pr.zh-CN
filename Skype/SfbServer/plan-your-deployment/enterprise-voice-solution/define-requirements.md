@@ -1,5 +1,6 @@
 ---
 title: 为业务服务器中 Skype 定义紧急呼叫要求
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
 description: 总结了根据是否必须 SIP 中继 E9-1-1 服务提供商或 ELIN 网关启用业务 Server 企业语音，E9-1-1 Skype 中所需的步骤。
-ms.openlocfilehash: 200e7fc8461f6628ab4827953a274ae8922646b6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 3ddcb25b86689f29831872f24a1893d5ff2f1f4c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882043"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885359"
 ---
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>为业务服务器中 Skype 定义紧急呼叫要求
  
@@ -37,7 +38,7 @@ Skype 业务服务器 E9-1-1 部署之前，首先应该能够回答以下各节
 |[定义手动获取业务服务器的 Skype 中的位置的用户体验](manually-acquiring-a-location.md) <br/> |[定义手动获取业务服务器的 Skype 中的位置的用户体验](manually-acquiring-a-location.md) <br/> |
 |[SIP 中继的设计 E9-1-1 在 Skype 业务服务器](design-the-sip-trunk.md) <br/> |[为业务服务器中 Skype 包括安全服务台](security-desk.md) <br/> |
 |[为业务服务器中 Skype 包括安全服务台](security-desk.md) <br/> |[规划业务 Server Skype 的位置策略](location-policies.md) <br/> |
-|[为业务服务器选择 Skype E9-1-1 服务提供的商](choose-a-service-provider.md) <br/> |[为业务服务器分配位置策略作用域中 Skype](location-policy-scope.md) <br/> |
+|[选择 Skype for Business Server 的 E9-1-1 服务提供商](choose-a-service-provider.md) <br/> |[为业务服务器分配位置策略作用域中 Skype](location-policy-scope.md) <br/> |
 |[规划业务 Server Skype 的位置策略](location-policies.md) <br/> ||
 |[为业务服务器分配位置策略作用域中 Skype](location-policy-scope.md) <br/> ||
    

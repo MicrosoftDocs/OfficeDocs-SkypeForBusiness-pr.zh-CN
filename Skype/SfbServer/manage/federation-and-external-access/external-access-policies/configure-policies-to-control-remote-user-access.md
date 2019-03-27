@@ -1,5 +1,6 @@
 ---
 title: 配置策略以控制远程用户访问
+ms.reviewer: ''
 ms:assetid: 8f556849-692b-44a0-9514-4468fc9a39d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398725(v=OCS.15)
 ms:contentKeyID: 48184825
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 您可以配置一个或多个外部用户访问策略以控制是否远程用户可以与内部 Skype 业务 Server 用户进行协作。 若要控制远程用户访问，可以配置策略在全局、 站点和用户级别。
-ms.openlocfilehash: 7b8fdd83859b03d659d8fa346e0d2aa459c04ac6
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: f6d316f022e671bc7f7e70ebbe2a801b0b3e312c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222945"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899531"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>配置策略以控制远程用户访问在 Skype 业务服务器
 

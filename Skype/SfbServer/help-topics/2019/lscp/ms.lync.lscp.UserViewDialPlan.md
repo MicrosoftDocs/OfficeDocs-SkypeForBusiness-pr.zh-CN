@@ -1,5 +1,6 @@
 ---
 title: 用户查看或配置拨号计划
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 49c77aff1c74fb7240fa00a18cd6deeaf33210f1
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+ms.openlocfilehash: b831ee19b09e38b456c251e1aacb3390274446a2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241954"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894934"
 ---
-# <a name="users-view-or-configure-dial-plan"></a>用户： 查看或配置拨号计划
+# <a name="users-view-or-configure-dial-plan"></a>用户：查看或配置拨号计划
 
-您希望执行什么操作？单击您要执行的任务所对应的链接。
+您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 
 - [创建或修改拨号计划中 Skype 业务服务器](../../../deploy/deploy-enterprise-voice/dial-plans.md)
 

@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 2015 中针对后端服务器高可用性部署 SQL 镜像
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 为了能够部署 SQL 镜像，你的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主服务器、镜像服务器和见证服务器。 有关详细信息，请参阅累积更新程序包 9 的 SQL Server 2008 Service Pack 1。
-ms.openlocfilehash: 9ea6e8a48fbcc3f5938c33e9d06db3c882f28de2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ebf1d222bff572100fe7824e52acdef2ff85216d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373798"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886273"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>部署 SQL 镜像后端服务器高可用性 Skype 中的业务服务器 2015
 
@@ -58,7 +59,7 @@ ms.locfileid: "25373798"
 3. 发布拓扑。
 
 > [!NOTE]
-> 必须为要写入到的镜像文件创建文件共享，SQL Server 和 SQL 代理在其下运行的服务需要读取/写入访问权限。 如果网络服务的上下文中运行 SQL Server 服务，您可以添加\<域\>\\< SQLSERVERNAME\>$ 的主体和镜像 SQL Server 在共享权限。 $ 非常重要，可用于标识这是一个计算机帐户。
+> 必须为要写入到的镜像文件创建文件共享，SQL Server 和 SQL 代理在其下运行的服务需要读取/写入访问权限。 如果网络服务的上下文中运行 SQL Server 服务，您可以添加\<域\>\\<SQLSERVERNAME\>$ 的主体和镜像 SQL Server 在共享权限。 $ 非常重要，可用于标识这是一个计算机帐户。
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>配置 SQL 镜像时在拓扑生成器中创建池
 
@@ -234,13 +235,13 @@ ms.locfileid: "25373798"
 
     将配置镜像。
 
-    **Install-csmirrordatabase**安装镜像并配置有在主 SQL 存储区的所有数据库的镜像。 如果您想要配置为仅特定数据库镜像，则可以使用-DatabaseType 选项，或者如果您想要配置的一些除外的所有数据库镜像，您可以使用-ExcludeDatabaseList 选项，以及数据库的以逗号分隔列表若要排除的名称。
+    **Install-CsMirrorDatabase** 将为主 SQL 存储中存在的所有数据库安装并配置镜像。 如果您想要配置为仅特定数据库镜像，则可以使用-DatabaseType 选项，或者如果您想要配置的一些除外的所有数据库镜像，您可以使用-ExcludeDatabaseList 选项，以及数据库的以逗号分隔列表若要排除的名称。
 
-    例如，如果您将以下选项添加到**Install-csmirrordatabase**，除 rtcab 和 rtcxds 之外的所有数据库将进行都镜像。
+    例如，如果将以下选项添加到 **Install-CsMirrorDatabase** 中，则除了 rtcab 和 rtcxds 之外的所有数据库都将进行镜像。
 
     `-ExcludeDatabaseList rtcab,rtcxds`
 
-   例如，如果将以下选项添加到**Install-csmirrordatabase**中，将镜像仅 rtcab、 rtcshared 和 rtcxds 数据库。
+   例如，如果将以下选项添加到 **Install-CsMirrorDatabase** 中，则只有 rtcab、rtcshared 和 rtcxds 数据库将进行镜像。
 
     `-DatabaseType User`
 

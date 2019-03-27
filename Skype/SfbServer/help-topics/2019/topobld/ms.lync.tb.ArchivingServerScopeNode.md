@@ -1,5 +1,6 @@
 ---
 title: 存档服务器范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: eb3c64bc-82db-4d92-b7ed-c86a67eaebb9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在拓扑生成器中，您可以执行与通过右键单击控制台树中，池中运行存档服务器相关的任务，然后选择编辑属性。 从“编辑属性”页面，可以更改存档服务器、存档 SQL Server 数据库和存档文件存储的完全限定域名 (FQDN)。
-ms.openlocfilehash: cfb6679222da15692f016d4242caffa50296a461
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 34e0472cf12ebf1d45a409631175f147f3217df1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21065879"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889194"
 ---
 # <a name="archiving-server-scope-node"></a>存档服务器范围节点
  

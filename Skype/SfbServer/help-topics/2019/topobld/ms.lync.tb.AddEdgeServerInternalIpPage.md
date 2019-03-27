@@ -1,5 +1,6 @@
 ---
-title: 添加边缘服务器内部 IP
+title: 添加 Edge Server 内部 IP
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,17 +13,17 @@ localization_priority: Normal
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 内部 IP 地址是边缘服务器的内部接口的 IP 地址。
-ms.openlocfilehash: 332b80aec238d2ed91204b97abb41c5a6a862db3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c9d7a454f5a318fac7507cadcbc0dc09577ccb2d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246622"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890795"
 ---
-# <a name="add-edge-server-internal-ip"></a>添加边缘服务器内部 IP
+# <a name="add-edge-server-internal-ip"></a>添加 Edge Server 内部 IP
 
 内部 IP 地址是边缘服务器的内部接口的 IP 地址。
 
-可以在部署初始拓扑时或在部署后添加对外部用户访问的支持。 有关将边缘服务器添加到现有拓扑的详细信息，请参阅边缘服务器部署文档中的[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) 。
+可以在部署初始拓扑时或在部署后添加对外部用户访问的支持。有关向现有拓扑中添加边缘服务器的详细信息，请参阅边缘服务器部署文档中的[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)。
 
 

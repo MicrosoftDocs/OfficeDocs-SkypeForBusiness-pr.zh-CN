@@ -1,5 +1,6 @@
 ---
 title: 配置 SCOM 监控
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 迁移到 Microsoft Skype for Business Server 2019 之后，您必须完成几项任务才能配置的业务服务器 2019 以使用 System Center Operations Manager 的 Skype。
-ms.openlocfilehash: c54038bc89c62a9911e684e451a66f4f12a23124
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 80ef737c57006550111331db7f46fd607f7cf1ed
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373740"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887412"
 ---
 # <a name="configure-scom-monitoring"></a>配置 SCOM 监控
 

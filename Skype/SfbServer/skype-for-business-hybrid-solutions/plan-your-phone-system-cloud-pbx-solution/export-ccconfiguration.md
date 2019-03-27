@@ -1,5 +1,6 @@
 ---
-title: 导出 CcConfiguration
+title: Export-CcConfiguration
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e3775bd6-682c-4f62-aafc-974fe3a65c61
 description: 用于将 Skype for Business 云连接器版本配置导出到 Skype for Business 云连接器版本主机服务器上的一个本地文件。
-ms.openlocfilehash: dfabf5f486190b13acd18f0ffcf67f9b7e37052c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8afca55e6727c84c579957de9e2010e84a72fb15
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894235"
 ---
-# <a name="export-ccconfiguration"></a>导出 CcConfiguration
+# <a name="export-ccconfiguration"></a>Export-CcConfiguration
  
 用于将 Skype for Business 云连接器版本配置导出到 Skype for Business 云连接器版本主机服务器上的一个本地文件。
   
@@ -43,7 +45,7 @@ Export-CcConfiguration cmdlet 允许你将云连接器配置保存到选定路�
 ## <a name="parameters"></a>参数
 <a name="Examples"> </a>
 
-|**参数**|**必填**|**类型**|**说明**|
+|**参数**|**必需**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 |路径  <br/> |必需  <br/> |System.String  <br/> |将存储云连接器配置的完整文件路径。  <br/> |
    
@@ -60,6 +62,6 @@ Export-CcConfiguration cmdlet 允许你将云连接器配置保存到选定路�
 ## <a name="see-also"></a>另请参阅
 <a name="Examples"> </a>
 
-导入 CcConfiguration
+Import-CcConfiguration
   
 

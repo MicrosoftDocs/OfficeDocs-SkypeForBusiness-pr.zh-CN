@@ -1,5 +1,6 @@
 ---
 title: 规划媒体绕过 Skype for Business 中
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: 决策所必需的规划媒体旁路中 Skype 业务 Server 企业语音。 包括与呼叫允许控制 (CAC) 的互操作性。
-ms.openlocfilehash: b9cb62e8153f7eb54159637954ea13cda72b6817
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 26cf20fcd7b8378d99da21be46bd6ca219b82196
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885313"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884861"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>规划媒体绕过 Skype for Business 中
 
@@ -101,7 +102,7 @@ Wi-Fi 网络通常会比有线网络丢失更多的数据包。通常网关无�
 
     如果要使用站点和区域配置控制绕过决定，那么即使在全局范围内禁用 CAC，也需要为每个站点和链接定义带宽策略。 无关紧要的带宽约束或其形式的实际值。 最终目标是让系统自动计算不同的绕过 ID，以便与连接不佳的不同区域设置关联。 根据定义，定义带宽限制是指链接连接不佳。
 
-- 启用 CAC，但未启用媒体旁路。 该配置仅适用于所有网关和 IP-PBX 均连接不佳，或不满足媒体旁路的其他要求的情况。 媒体绕过的要求的详细信息，请参阅[媒体绕过的要求](https://technet.microsoft.com/library/6162a204-0e7c-460a-8eb2-e592c6590a8a.aspx)。
+- 启用 CAC，但未启用媒体旁路。该配置仅适用于所有网关和 IP-PBX 均连接不佳，或不满足媒体旁路的其他要求的情况。有关媒体旁路的要求的详细信息，请参阅 [Requirements for Media Bypass](https://technet.microsoft.com/library/6162a204-0e7c-460a-8eb2-e592c6590a8a.aspx)。
 
 ## <a name="technical-requirements"></a>技术要求
 

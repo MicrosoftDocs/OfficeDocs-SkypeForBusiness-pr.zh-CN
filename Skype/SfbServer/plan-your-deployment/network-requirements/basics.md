@@ -1,5 +1,6 @@
 ---
 title: DNS 基础知识
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 具有内置可以提供 DNS 服务，因此您可能想要查看可用的文档，如 DNS 策略方案指南的软件。 如果您愿意，您可以选择第三方解决方案。
-ms.openlocfilehash: 297dc905a308806aec9228a9514f8e1bd65a245b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2ba20c6aabd296f13ea5e84053d140123097f114
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532814"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886611"
 ---
 # <a name="dns-basics"></a>DNS 基础知识
  
@@ -50,7 +51,7 @@ Windows Server 2016 具有内置可以提供 DNS 服务，因此您可能想要�
 
  您的组织在某些情况下可能需要多个 SIP 域。 例如，如果 Fabrikam.com 被收购的 contoso.com，您可能需要创建一个新的 SIP 域的业务服务器 Skype 识别和将接受来自连接。 执行此操作，您将需要创建一组额外的 contoso.com，使用新的显示位置以将请求发送的 Fabrikam 的 Fqdn 的 DNS 记录。
   
-## <a name="dns-load-balancing"></a>DNS 负载平衡
+## <a name="dns-load-balancing"></a>DNS Load Balancing
 <a name="BK_NameSIP"> </a>
 
 您可以使用 DNS 共享为服务器池设置的多个服务器之间的流量负载。 若要执行此操作，您将创建几个 A 记录的池的 FQDN，其中每个指向池中的节点的 IP 地址。

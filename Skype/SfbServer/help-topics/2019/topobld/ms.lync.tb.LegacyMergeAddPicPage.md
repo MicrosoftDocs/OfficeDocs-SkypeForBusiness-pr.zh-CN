@@ -1,5 +1,6 @@
 ---
 title: 旧版合并
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 ROBOTS: NOINDEX, NOFOLLOW
 description: Web 会议的外部 FQDN 允许外部用户可以加入内部会议。 输入旧边缘服务器的 web 会议外部接口的完全限定的域名 (FQDN)。
-ms.openlocfilehash: bd8fba515f2eb9a3f272f7d2f4f70bbc4a0716f5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5402508ac733eb7a550fe4984850f8e889ae3929
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253569"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889061"
 ---
 # <a name="legacy-merge"></a>旧版合并
 

@@ -1,5 +1,6 @@
 ---
 title: 会议配置
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 description: 会议配置设置中定义的会议 (还 calledmeetings) 用户可以创建和控制如何 （或是否） 匿名用户和电话拨入式会议用户可以参加这些会议的类型。 这些设置仅适用于安排的会议。 它们不适用于通过单击客户端中的立即开会选项创建的临时会议。
-ms.openlocfilehash: 7d815877375759a45de4df6543eca8ef82af1481
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 32bbb6861271623e0a4126d98e36c28542ddfc8d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244207"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885126"
 ---
 # <a name="meeting-configuration"></a>会议配置
 
@@ -62,6 +63,6 @@ ms.locfileid: "23244207"
 
 - **范围**标识会议配置的范围： 全局、 站点或池。
 
-有关使用会议配置的详细信息，请参阅[创建或修改会议配置设置集合](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx)操作文档中。
+有关使用会议配置的详细信息，请参阅操作文档中的[Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx)。
 
 

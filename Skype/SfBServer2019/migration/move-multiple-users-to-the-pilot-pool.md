@@ -1,5 +1,6 @@
 ---
 title: 将多个用户移至试点池
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 可以将多个用户从旧池移动到您 Skype 业务服务器 2019年试点池 Skype 业务 Server 2019 控制面板或 Skype 用于业务服务器 2019年命令行管理程序中。
-ms.openlocfilehash: 3b01613e16e41ed2ee7aac7bc6c443e19db933c2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c77598d531fa4640d64a61e22ace17e39d87b005
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372507"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888299"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>将多个用户移至试点池
 

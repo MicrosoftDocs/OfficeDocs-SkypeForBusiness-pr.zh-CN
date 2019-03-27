@@ -1,5 +1,6 @@
 ---
 title: 允许 Skype for Business 用户添加 Skype 联系人
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,13 +18,13 @@ f1keywords: None
 ms.custom:
 - Setup
 - LIL_Placement
-description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
-ms.openlocfilehash: 3961aaa5bfe8ca17a28fa736f64a91a48414a494
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: '了解如何让使用 Skype for Business 的人员联系你组织外部的 Skype for Business 用户并将其添加到联系人列表。 '
+ms.openlocfilehash: 212393154cb2b730ce18f5be9b03495e747e207c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371948"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885457"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>允许 Skype for Business 用户添加 Skype 联系人
 
@@ -37,13 +38,13 @@ ms.locfileid: "25371948"
     
 2. In the Office 365 admin center, go to **Admin Centers** > **Skype for Business**. 
     
-    ![Choose the Skype for Business admin center.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
+    ![选择“Skype for Business 管理中心”。](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   
 3. 在 **Skype for Business 管理中心**，选择“**组织**” > “**外部通信**”。 
     
 4. 默认情况下，你的用户可以与世界各地使用 Skype for Business 的所有其他人通信（假设你的防火墙已配置为允许这样）。 
     
-    ![Choose Let people use Skype for Business to communicate with Skype.](../images/333789f8-2ea6-4bbd-805b-18130f427999.png)
+    ![选择允许用户使用 Skype for Business 与 Skype 用户进行通信。](../images/333789f8-2ea6-4bbd-805b-18130f427999.png)
   
     如果你希望你的用户与 Skype 用户聊天，但不希望他们与使用 Skype for Business 的其他人聊天，请选择" **打开(仅针对被允许的域)**"。当你允许与 Skype 用户联系时，系统会在后台自动将 skype.com 添加为允许的域。 
     
@@ -63,11 +64,11 @@ ms.locfileid: "25371948"
 
 要测试你的设置，你需要一个不受你公司防火墙保护的 Skype 联系人。他们可以使用 Gmail 帐户、Outlook.com 帐户或其他类型的电子邮件帐户登录 Skype。
   
-1. 在更改外部通信设置后， **直到等待 24 小时后再进行测试** 。
+1. 在更改外部通信设置后，**直到等待 24 小时后再进行测试** 。
     
 2. 注销 Skype for Business，然后重新登录，这样你会看到用于搜索 Skype Directory 的选项。 
     
-    ![When Skype Directory is highlighted, you can search for people who have Skype accounts.](../images/76ee9fab-1ac3-4f4a-9569-f5f2606dbb7a.png)
+    ![当突出显示 Skype 目录时，便可搜索拥有 Skype 帐户的联系人。](../images/76ee9fab-1ac3-4f4a-9569-f5f2606dbb7a.png)
   
 3. 在 Skype for Business 中，搜索你的 Skype 联系人，然后发送聊天请求。 
     

@@ -1,5 +1,6 @@
 ---
 title: 管理组织的 SIP 联盟提供程序
+ms.reviewer: ''
 ms:assetid: c78d7e9b-c496-40c6-9249-06ced9cb87f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552455(v=OCS.15)
 ms:contentKeyID: 48679566
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 了解如何为用户的 SIP 联盟提供程序配置支持。
-ms.openlocfilehash: 111a71f95f3ae6a6c9dec90f5c0b29df07266fd2
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 1259ae9d2dfd7d829caaa6dba714f0876b5500c4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222959"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899671"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>管理您的组织中 Skype 业务服务器的 SIP 联盟提供程序
 

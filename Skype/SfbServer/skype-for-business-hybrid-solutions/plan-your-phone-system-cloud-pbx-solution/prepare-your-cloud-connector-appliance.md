@@ -1,5 +1,6 @@
 ---
 title: 准备云连接器设备
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: 了解如何准备云连接器设备的部署和使用 Office 365 (云 PBX) 中的电话系统。
-ms.openlocfilehash: 336136021041131189261c8c3b57c46ca8b53809
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3716c7c4b9d4b8daa0a4995ed7e3d77b400b587f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371200"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887314"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>准备云连接器设备
 
@@ -159,7 +160,7 @@ Export-CcConfigurationSampleFile
 
 示例模板存储在**设备目录**中。
 
-使用环境的值更新文件后，在**设备目录**中将其另存为 CloudConnector.ini。你可以运行 **Get-CcApplianceDirectory** 以确定**设备目录**的路径。
+使用环境的值更新文件后，在**设备目录**中将其另存为 CloudConnector.ini。 你可以运行 **Get-CcApplianceDirectory** 以确定**设备目录**的路径。
 
 更新 .ini 文件时，请考虑以下内容：
 
@@ -174,7 +175,7 @@ Export-CcConfigurationSampleFile
 
 - **HardwareType:** 如果不设置，或保留为空，则将使用**普通**的默认值。 如果您打算部署的较大云连接器以支持每个主机，如[Plan for Business 云连接器 edition Skype](plan-skype-for-business-cloud-connector-edition.md)中所述的 500 同时呼叫版，请使用**普通**。 用于小型部署支持 50 个呼叫的**最小值**。
 
-- **Internet/公司网络/管理虚拟交换机**：添加已创建的虚拟交换机的名称。对于管理虚拟交换机，只需保留默认值即可。部署脚本将在部署开始时创建管理虚拟交换机，在部署结束时将其删除。
+- **Internet/公司网络/管理虚拟交换机**：添加已创建的虚拟交换机的名称。 对于管理虚拟交换机，只需保留默认值即可。 部署脚本将在部署开始时创建管理虚拟交换机，在部署结束时将其删除。
 
 - **ManagementIPPrefix：**“网络”部分中的 ManagementIPPrefix 必须是不同于其他内部 IP 的子网。例如，如默认值所示，ManagementIPPrefix 为 192.168.213.0，而 AD IP 地址为 192.168.0.238。
 
@@ -244,7 +245,7 @@ Start-CcDownload
 
 - [Network]CorpnetSwitchName
 
-- [常见]BaseVMIP
+- [Common]BaseVMIP
 
 - [Network]CorpnetIPPrefixLength
 

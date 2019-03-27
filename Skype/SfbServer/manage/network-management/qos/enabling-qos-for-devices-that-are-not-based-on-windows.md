@@ -1,5 +1,6 @@
 ---
-title: 未基于 Windows 的设备启用 QoS
+title: 为不基于 Windows 的设备启用 QoS
+ms.reviewer: ''
 ms:assetid: 26f793df-aef8-4028-9e3b-6c2c37ea61b9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)
 ms:contentKeyID: 48183661
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 了解如何为组织中使用的使用非 Windows 操作系统的设备启用 QoS。
-ms.openlocfilehash: 0dc870080b3cfcd5f73eaf6e45aee841b9c8b488
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: b1f3dae2d2b499b334995d7754282c56872ce111
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222770"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887118"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>未基于 Windows 的设备的企业服务器启用 QoS Skype 中
 

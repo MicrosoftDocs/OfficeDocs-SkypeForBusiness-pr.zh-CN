@@ -1,5 +1,6 @@
 ---
 title: 为业务 Server Skype 中呼叫列表报告
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 摘要： 了解用于在 Skype 业务服务器的呼叫列表报告。
-ms.openlocfilehash: af9c729adf17fd0df24a76bd13f48501b0f2eba1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c79cee289d3e76c0b191bb62a0383269ef8b886b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968352"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891186"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>为业务 Server Skype 中呼叫列表报告
  

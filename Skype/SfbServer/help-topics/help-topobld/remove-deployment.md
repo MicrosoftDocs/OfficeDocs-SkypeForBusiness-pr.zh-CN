@@ -1,5 +1,6 @@
 ---
 title: 删除部署
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 068b518d-a982-4668-862b-b36fb74f04ec
-description: 单击完成以创建一个空的拓扑结构，作为退役整个部署的第一步。
-ms.openlocfilehash: 2424855e0d4d54a378d6847e1f3eb5cf568d326e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 单击“完成”以创建空拓扑，这是停用整个部署的第一步。
+ms.openlocfilehash: e74d10d894fc46dba8d8eebd2f02cf7da192935c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885161"
 ---
 # <a name="remove-deployment"></a>删除部署
  

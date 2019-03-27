@@ -1,5 +1,6 @@
 ---
 title: PSTN 网关范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
-description: PSTN 网关节点列出了在您的拓扑中的公用交换的电话网络 (PSTN) 网关。 可以执行以下操作：
-ms.openlocfilehash: ca0dd1ed0588914e452b64de24cec418f9f11f2c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: “PSTN 网关”节点列出了拓扑中的公用电话交换网 (PSTN) 网关。 可以执行以下操作：
+ms.openlocfilehash: 45e33d99b02e52b2d262c9bf897cd78aeb7a6ade
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891249"
 ---
 # <a name="pstn-gateways-scope-node"></a>PSTN 网关范围节点
  

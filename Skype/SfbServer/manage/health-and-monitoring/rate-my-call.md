@@ -1,5 +1,6 @@
 ---
 title: 为业务服务器中 Skype 评价我的呼叫
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 摘要： 了解业务服务器的 Skype 中的速率我的呼叫功能。
-ms.openlocfilehash: 3e4e2f63c9d61bacab73838933ef89130714f6f0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 61aaff26c5786cd8574b7277ed600da75c3679ce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373471"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886301"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>为业务服务器中 Skype 评价我的呼叫
 

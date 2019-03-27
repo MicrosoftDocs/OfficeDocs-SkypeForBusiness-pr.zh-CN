@@ -1,5 +1,6 @@
 ---
-title: 帮助规划
+title: Help-Planning
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 ms.date: 1/1/1900
@@ -9,13 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2287aef6-c7b6-4170-9d4d-e1e54e5236b5
 description: 规划工具主题
-ms.openlocfilehash: a2045d0a68618f22e40aa0903b6c3aa6002fa2d9
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 7fe5afcf1fb1914d3cc6d9836840094e76da16dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891618"
 ---
-# <a name="help-planning"></a>帮助规划
+# <a name="help-planning"></a>Help-Planning
  
 此节点中的主题提供帮助 Skype Business Server 规划工具。
   

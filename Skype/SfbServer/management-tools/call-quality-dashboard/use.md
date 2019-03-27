@@ -1,5 +1,6 @@
 ---
 title: 用于呼叫质量仪表板 Skype 业务服务器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 摘要： 了解如何使用呼叫质量面板。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: 6b431bb34ca6350662fbae720c61d2033d95fba4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 856035642d1d8a818abe5f0a106c90270d706516
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533425"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891517"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>用于呼叫质量仪表板 Skype 业务服务器
  
@@ -201,9 +202,9 @@ CQD 不使用呼叫者/被叫方字段。 由于存在且之间的呼叫者和�
 |:-----|:-----|:-----|:-----|
 |2 (AVMCU)   <br/> |4 (Skype for Business)   <br/> |端点 1  <br/> |端点 2  <br/> |
 |2 (AVMCU)   <br/> |1 (mMediationServer)   <br/> |端点 2  <br/> |端点 1  <br/> |
-|4 (Skype for Business)   <br/> |4 (Skype for Business)   <br/> |MediaLine 中的呼叫方   <br/> |MMediaLine 中的被呼叫方  <br/> |
+|4 (Skype for Business)  <br/> |4 (Skype for Business)   <br/> |MediaLine 中的呼叫方   <br/> |MMediaLine 中的被呼叫方  <br/> |
    
-如果两个端点是相同类型，CQD 将“呼叫方”条目设为“第一个”，而“被呼叫方”则为“第二个”。 有关详细信息，请参阅[此博客](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx)。
+如果两个端点是相同类型，CQD 将“呼叫方”条目设为“第一个”，而“被呼叫方”则为“第二个”。 请参阅[此博客](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx)的详细信息。
   
 ## <a name="accounting-for-vpn"></a>VPN 考虑事项
 

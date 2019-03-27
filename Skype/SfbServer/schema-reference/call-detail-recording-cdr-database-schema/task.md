@@ -1,5 +1,6 @@
 ---
 title: 任务表
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a09858b6-d2cd-4d0c-87ef-37aacf733718
 description: 任务表是仅供内部使用。 此表是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: eb7133388ab6d6729cb3ebb2ea76135d3041d62e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 726c4d7cc2baa017597a2fbccfdd7a2cc7dac121
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973812"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899650"
 ---
 # <a name="task-table"></a>任务表
  

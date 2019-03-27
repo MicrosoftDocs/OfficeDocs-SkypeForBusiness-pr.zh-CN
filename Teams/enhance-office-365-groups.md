@@ -1,5 +1,6 @@
 ---
-title: 增强了与 Microsoft 团队的现有 Office 365 组
+title: 使用 Microsoft Teams 增强现有 Office 365 组
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,22 +15,22 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13b34da03c35706fafb02a4e9e02eab629a4a399
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 665a8197b81ec823ef73962babdcbfecc664b03f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568413"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885288"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>增强了与 Microsoft 团队的现有 Office 365 组
 =======================================================
 
-Microsoft Teams 用户可以使用 Microsoft Teams 功能来增强现有 Office 365 组。 考虑增强公用 Office 365 组时，如果成员数等于或少于 2500，则用户可以增强该组。
+Microsoft Teams 用户可以使用 Microsoft Teams 功能来增强现有 Office 365 组。 查看增强公共的 Office 365 组，用户可以执行的操作的成员数是否等于或小于 5000。
 
 为此，用户应该从 Microsoft Teams 客户端完成创建新团队的流程。 选择**创建从现有 Office 365 组工作组**在屏幕底部，然后选择您想要使用的 Microsoft 团队增强的现有组。 现有组成员将自动作为成员添加到该团队。
 
 > [!IMPORTANT]
-> 只有 Office 365 组所有者有权增强现有组与 Microsoft 团队，且组必须包含小于 2500年用户。 得到增强的团队都不会显示在列表中。
+> 只有 Office 365 组所有者有权增强现有组与 Microsoft 团队，且组必须包含小于 5000 位用户。 得到增强的团队都不会显示在列表中。
 >
 >**创建从现有 Office 365 组团队**选项将不可用，除非已满足这些条件。
 

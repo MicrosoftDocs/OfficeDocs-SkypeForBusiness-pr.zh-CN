@@ -1,5 +1,6 @@
 ---
-title: 获得 CcSiteLogDirectory
+title: Get-CcSiteLogDirectory
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6625494d-1b63-4d99-a589-c8c69c4addba
 description: Get-CcSiteLogDirectory cmdlet 显示存储 Skype for Business 云连接器版本的站点级别日志的当前目录。
-ms.openlocfilehash: 68d89200ac8bf2aec32db45752d62d7ae205b830
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c4354920ac25d076e550c5eda3a641eef0c8b900
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886125"
 ---
-# <a name="get-ccsitelogdirectory"></a>获得 CcSiteLogDirectory
+# <a name="get-ccsitelogdirectory"></a>Get-CcSiteLogDirectory
  
 Get-CcSiteLogDirectory cmdlet 显示存储 Skype for Business 云连接器版本的站点级别日志的当前目录。 
   
@@ -35,7 +37,7 @@ Get-CcSiteLogDirectory
 
 ### <a name="example-1"></a>示例 1
 
-下面的示例显示当前文件夹云连接器站点的日志文件的存储位置：
+下面的示例显示当前文件夹存储云连接器网站的日志文件：
   
 ```
 Get-CcSiteLogDirectory
@@ -44,7 +46,7 @@ Get-CcSiteLogDirectory
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-默认的文件夹是 C:\Users\%userprofile%\CloudConnector\SiteRoot\Logs。 可以通过运行 Set-CcSiteDirectory cmdlet 来更改文件夹。 没有只更改日志文件夹位置而不更改站点目录的单独 cmdlet。
+默认文件夹已 C:\Users\%userprofile%\CloudConnector\SiteRoot\Logs。 可以通过运行 Set-CcSiteDirectory cmdlet 来更改文件夹。 没有只更改日志文件夹位置而不更改站点目录的单独 cmdlet。
   
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
@@ -59,6 +61,6 @@ Get-CcSiteLogDirectory
 ## <a name="see-also"></a>另请参阅
 <a name="ReturnTypes"> </a>
 
-[一组 CcSiteDirectory](set-ccsitedirectory.md)
+[Set-CcSiteDirectory](set-ccsitedirectory.md)
   
 

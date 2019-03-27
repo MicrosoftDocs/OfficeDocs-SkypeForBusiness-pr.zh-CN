@@ -1,5 +1,6 @@
 ---
 title: 移动客户端推送通知配置
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: 若要配置的 Microsoft 推送通知和 Apple 推送通知，您必须创建策略，以定义需要哪些类型的推送通知。
-ms.openlocfilehash: 4b0da70e5d66f31ed1c912efcdd7a13660c396f7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0c36696e8dbc26616a7b17918c63f3f40ab36fab
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371474"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891100"
 ---
-# <a name="mobile-client-push-notification-configuration"></a>移动客户端： 推送通知配置
+# <a name="mobile-client-push-notification-configuration"></a>移动客户端：推送通知配置
  
 若要配置的**Microsoft 推送通知**和**Apple 推送通知**，您必须创建策略，以定义所需的推送通知的类型。
   

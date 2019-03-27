@@ -1,5 +1,6 @@
 ---
 title: 拓扑生成器启动对话框
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 启动拓扑生成器配置的属性和 Microsoft Lync Server 2013 部署的配置。 在启动时，拓扑生成器显示一个对话框，询问将哪些拓扑文档的来源。 您选择三个选项之一：
-ms.openlocfilehash: 5140c16f96b641dec74cb6919571365a7751ae0b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: df784ea76497cb038eb46f929844662066a298aa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260823"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891093"
 ---
 # <a name="topology-builder-startup-dialog"></a>拓扑生成器启动对话框
 
@@ -35,4 +36,4 @@ ms.locfileid: "23260823"
 
 [Lync Server 2013 Preview 简介](https://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
 
-[Lync Server 管理工具](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)
+[Lync Server Administrative Tools](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)

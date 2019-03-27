@@ -1,5 +1,6 @@
 ---
 title: Skype for Business 中配置语音邮件转义
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 摘要： 了解如何使用 Skype 业务 Server Management Shell，业务服务器配置语音邮件转义 Skype。
-ms.openlocfilehash: 260488701348fdf52eaccb82cc6dc41c19c68339
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6c1c6977949eb45c28cce482f98be67295ee4eef
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891263"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891865"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>Skype for Business 中配置语音邮件转义
 
@@ -30,7 +31,7 @@ Skype 用于业务 Server Management Shell cmdlet **Set-csvoicepolicy**，在语
 
 ### <a name="to-configure-voice-mail-escape"></a>配置语音邮件转义
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
 2. 指定 **Set-CsVoicePolicy** 的以下参数：
 
@@ -47,5 +48,5 @@ Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -P
 
 ## <a name="see-also"></a>另请参阅
 
-[配置语音策略和 PSTN 用法记录以授权呼叫功能和权限](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
+[Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
 

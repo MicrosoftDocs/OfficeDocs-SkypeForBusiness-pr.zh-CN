@@ -1,5 +1,6 @@
 ---
 title: 迁移模拟设备
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype 业务服务器为模拟设备提供支持。 具体而言，受支持的模拟设备将模拟音频电话和模拟传真机。 您可以配置合格网关以支持在您 Skype 业务服务器环境中使用模拟设备。 您迁移到 Skype 业务服务器 2019年后，您还必须迁移相关联的模拟设备联系对象。 使用 Skype 的业务 Server Management Shell，以先检索所有联系对象相关联的旧的模拟设备，然后将这些对象移动到业务服务器 2019年池 Skype。
-ms.openlocfilehash: ea100f4e26cc38d5eb30f881de61bf415110ca36
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 80edf5b806ffd192d125bd5da27207a37f3074d1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374848"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889964"
 ---
 # <a name="migrate-analog-devices"></a>迁移模拟设备
 

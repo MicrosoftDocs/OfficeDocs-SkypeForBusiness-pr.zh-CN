@@ -1,5 +1,6 @@
 ---
 title: 分支机构设备范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,18 +12,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
-description: 此节点显示完全限定的域名 (FQDN) 关联的池和服务器，以及有关此高存活力的分支装置的弹性信息。 可以执行以下操作：
-ms.openlocfilehash: 0a4290ad15b9484f7410f8f490c636d45f2def27
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 此节点显示的完全限定的域名 (FQDN)，关联的池和服务器，以及此 Survivable Branch Appliance 的恢复能力信息。 可以执行以下操作：
+ms.openlocfilehash: 71063adcf5e7a69210e0576851539e960c70a639
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886582"
 ---
 # <a name="branch-office-appliance-scope-node"></a>分支机构设备范围节点
  
-此节点显示完全限定的域名 (FQDN) 关联的池和服务器，以及有关此高存活力的分支装置的弹性信息。 可以执行以下操作：
+此节点显示的完全限定的域名 (FQDN)，关联的池和服务器，以及此 Survivable Branch Appliance 的恢复能力信息。 可以执行以下操作：
   
-- **编辑属性**。 打开在其中可以更改 FQDN，（如果没有已发布的拓扑），此高存活力分支装置的**编辑属性**页、 关联和可恢复性设置。
+- **编辑属性**。 打开**编辑属性**页上的此 Survivable Branch Appliance，可在其中更改 FQDN （如果尚未已发布拓扑）、 关联和恢复能力设置。
     
 - **删除**。从拓扑中删除服务器。
     

@@ -1,5 +1,6 @@
 ---
 title: 迁移通讯簿
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 一般情况下，您的拓扑的其余部分以及迁移通讯簿。 但是，您可能需要执行一些迁移后的步骤，如果旧环境中自定义以下：
-ms.openlocfilehash: 081246acaaede37ab7f7f204a3f7204d9b25fbcc
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 728ae97270cd8451178c6ef962f05e0351118119
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788992"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890646"
 ---
 # <a name="migrate-address-book"></a>迁移通讯簿
 

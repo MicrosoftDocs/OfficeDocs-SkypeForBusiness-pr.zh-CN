@@ -1,5 +1,6 @@
 ---
 title: Skype 中为 Business Server 的通知应用程序的部署过程
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: 部署过程和 Skype 中为 Business Server 企业语音的通知应用程序的步骤。
-ms.openlocfilehash: 5adaea25903968935cbaa00639546926781c004c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 96925df57a36373ee6f031b953f1933b3bac5681
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888069"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885597"
 ---
 # <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Skype 中为 Business Server 的通知应用程序的部署过程
  
@@ -32,7 +33,7 @@ ms.locfileid: "23888069"
   
 **通知部署过程**
 
-|**阶段**|**步骤**|**角色**|**部署文档**|
+|**阶段**|**步骤**|**Roles**|**部署文档**|
 |:-----|:-----|:-----|:-----|
 |配置通知设置  <br/> | 通过录制并上载音频文件或使用文本到语音转换 (TTS) 来创建通知。 <br/>  配置未分配号码表中的未分配号码范围，然后将其与相应的通知关联。 <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> |[创建或删除业务服务器中 Skype 通知](create-an-announcement.md) <br/> [创建或修改业务服务器 Skype 中的未分配号码范围](create-or-modify-an-unassigned-number-range.md) <br/> |
 |验证通知部署  <br/> |通过侦听通知来进行测试以验证配置是否按预期工作。  <br/> |-  <br/> |[（可选）验证通知部署中的业务的 Skype](optional-verify-announcement-deployment.md) <br/> |

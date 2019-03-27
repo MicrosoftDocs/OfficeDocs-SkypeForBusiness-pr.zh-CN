@@ -1,5 +1,6 @@
 ---
 title: 添加分支站点名称
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
 description: 要定义新分支站点，请指定以下内容：
-ms.openlocfilehash: 1413ff4b5e1c511f253745a599bf6ce6da20c4af
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: e0e1f44a86568bac80a06fecfd4c7c2b6bcb6d79
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260529"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895424"
 ---
 # <a name="add-branch-site-name"></a>添加分支站点名称
 

@@ -1,5 +1,6 @@
 ---
 title: 为业务 Server 部署中 Skype 的呼叫允许控制
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
 description: 呼叫允许控制 (CAC) 是一种解决方案，它基于可用带宽确定是否可以建立实时会话，从而有助于防止在拥堵网络上为用户提供的音频/视频质量欠佳。
-ms.openlocfilehash: 3cf2c63de5eb4e64eb33f690b003ea897a533893
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 52fcedaab781e9ed76222afb32b56840a3b07c1c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887497"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892862"
 ---
 # <a name="deploy-call-admission-control-in-skype-for-business-server"></a>为业务 Server 部署中 Skype 的呼叫允许控制
  

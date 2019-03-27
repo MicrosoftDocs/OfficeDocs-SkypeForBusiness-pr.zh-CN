@@ -1,5 +1,6 @@
 ---
 title: 创建或修改 Skype for Business 中的语音路由
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 摘要： 了解如何创建或修改业务服务器使用适用于业务 Server Control Panel Skype Skype 中的语音路由。
-ms.openlocfilehash: d3265f3864e01391598b11ab5466c96f41a123ae
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 166b9635d9ddb50ec65b7cbc4d55aa92c19b55e0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886352"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888568"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>创建或修改 Skype for Business 中的语音路由
  
@@ -57,12 +58,12 @@ ms.locfileid: "23886352"
 11. 要将一个或多个公用电话交换网 (PSTN) 用法记录与语音路由相关联，请单击“**选择**”，然后从已为企业语音部署定义的 PSTN 用法记录列表中选择一条记录。
     
     > [!NOTE]
-    > 若要查看每个可用 PSTN 用法记录的属性，请参阅[查看 PSTN 用法记录中的业务的 Skype](view-pstn-usage-records.md)。 > 到创建或编辑 PSTN 用法记录，请参阅[创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype](voice-policy-and-pstn-usage-records.md)
+    > 若要查看每个可用 PSTN 用法记录的属性，请参阅[查看 PSTN 用法记录中的业务的 Skype](view-pstn-usage-records.md)。 > 创建或编辑 PSTN 用法记录，请参阅[创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype](voice-policy-and-pstn-usage-records.md)
   
 12. 排列 PSTN 用法记录以获得最佳性能。 若要更改列表中的记录的位置，请突出显示相应的记录名称并单击向上或向下箭头。
     
     > [!NOTE]
-    > 在语音策略中，PSTN 用法记录的列出顺序非常重要，而在语音路由中，PSTN 用法记录的列出顺序则无关紧要。 但是，建议您按使用频率来组织该列表，例如：RedmondLocal、RedmondLongDist、RedmondInternational 和 RedmondBackup。 例如： RedmondLocal RedmondLongDist、 RedmondInternational、 RedmondBackup。 （业务服务器 Skype 遍历该列表从上向下。） 
+    > 在语音策略中，PSTN 用法记录的列出顺序非常重要，而在语音路由中，PSTN 用法记录的列出顺序则无关紧要。 但是，建议您按使用频率来组织该列表，例如：RedmondLocal、RedmondLongDist、RedmondInternational 和 RedmondBackup。 （skype16_server_short 按照从上到下的顺序遍历该列表。 （业务服务器 Skype 遍历该列表从上向下。） 
   
 13. （可选）在“输入转换后的号码以进行测试”**** 字段中键入一个值，然后单击“执行”****。测试结果将显示在该字段下面。
     
@@ -104,7 +105,7 @@ ms.locfileid: "23886352"
 9. 若要将一个或多个 PSTN 用法与语音路由相关联，单击**选择**并从已定义为企业语音部署的 PSTN 用法记录的列表中选择一条记录。
     
     > [!NOTE]
-    > 若要查看每个可用 PSTN 用法记录的属性，请参阅[查看 PSTN 用法记录中的业务的 Skype](view-pstn-usage-records.md)。 > 到创建或编辑 PSTN 用法记录，请参阅[创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype](voice-policy-and-pstn-usage-records.md)。 
+    > 若要查看每个可用 PSTN 用法记录的属性，请参阅[查看 PSTN 用法记录中的业务的 Skype](view-pstn-usage-records.md)。 > 创建或编辑 PSTN 用法记录，请参阅[创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype](voice-policy-and-pstn-usage-records.md)。 
   
 10. 排列 PSTN 用法记录以获得最佳性能。 若要更改列表中的记录的位置，请突出显示相应的记录名称并单击向上或向下箭头。
     

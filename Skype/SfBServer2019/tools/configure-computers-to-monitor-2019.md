@@ -1,5 +1,6 @@
 ---
 title: 配置将受视的 Skype for Business Server 计算机
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要： 安装上业务服务器 2019年计算机 Skype 要监视的 Operations Manager 代理文件，并配置计算机充当 System Center 代理。
-ms.openlocfilehash: 315854c8a249bde4f09710d7b8f1e0be95add132
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 65244cf1b9d9b253744bc244c9ad48fe2e7c644b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536004"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884882"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>配置将受视的 Skype for Business Server 计算机
 
@@ -26,9 +27,9 @@ ms.locfileid: "26536004"
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>在位于外围网络外的观察程序节点上安装证书
 <a name="watcher_node_outside"> </a>
 
-System Center Operations Manager 代理运行在外围网络 （如业务 Server 边缘服务器的 Skype) 之外 （如外部综合事务观察程序节点中） 企业或边界，可能需要通过 Active Directory 信任系统中心操作管理器网关服务器的配置。 此服务器角色可使与根管理服务器没有信任关系的代理发出警报。 有关详细信息，请参阅[管理 Operations Manager 2012 中的网关服务器](https://technet.microsoft.com/en-us/library/hh212823.aspx)。
+System Center Operations Manager 代理运行在外围网络 （如业务 Server 边缘服务器的 Skype) 之外 （如外部综合事务观察程序节点中） 企业或边界，可能需要通过 Active Directory 信任系统中心操作管理器网关服务器的配置。 此服务器角色可使与根管理服务器没有信任关系的代理发出警报。 有关详细信息，请参阅[Operations Manager 2012 中管理网关服务器](https://technet.microsoft.com/en-us/library/hh212823.aspx)。
 
-如果您部署中两个位置之一的代理，还需要请求和配置证书以允许将通知发送给 System Center Operations Manager 的观察程序节点。 若要简化此过程，Operations Manager 团队已创建一组实用程序，您可以请求并在观察程序节点计算机上安装证书的正确的类型。 若要获取详细信息和下载这些实用程序，请参阅[Obtaining Certificates for Non-Domain Joined Agents Made Easy with Certificate Generation Wizard（利用证书生成向导轻松获取未加入域的代理的证书）。](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409)
+如果您部署中两个位置之一的代理，还需要请求和配置证书以允许将通知发送给 System Center Operations Manager 的观察程序节点。 若要简化此过程，Operations Manager 团队已创建一组实用程序，您可以请求并在观察程序节点计算机上安装证书的正确的类型。 有关详细信息，以及若要下载这些实用程序，请参阅[为非域加入代理轻松使用证书生成向导获取证书](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409)。
 
 ### <a name="installing-the-operation-manager-agent-files"></a>安装 Operation Manager 代理文件
 

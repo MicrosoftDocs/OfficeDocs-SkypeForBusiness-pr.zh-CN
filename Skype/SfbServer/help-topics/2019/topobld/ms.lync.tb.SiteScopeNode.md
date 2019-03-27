@@ -1,5 +1,6 @@
 ---
 title: Lync Server 站点范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 ROBOTS: NOINDEX, NOFOLLOW
-description: 此节点显示拓扑中定义的站点之一。可以执行以下操作：
-ms.openlocfilehash: 26c33e7d2e68351986198afe973f5453085d4a6a
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: 此节点显示拓扑中定义的站点之一。 可以执行以下操作：
+ms.openlocfilehash: 6ad38157ae8e0f4e0450b10bf22fc7a43394568d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062412"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886575"
 ---
 # <a name="test---skype-for-business-server-site-scope-node"></a>Lync Server 站点范围节点
  

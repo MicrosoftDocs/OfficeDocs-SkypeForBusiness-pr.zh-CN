@@ -1,5 +1,6 @@
 ---
 title: 添加持久聊天 SQL Server 存储
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 ROBOTS: NOINDEX, NOFOLLOW
 description: 配置持久聊天服务器或持久聊天服务器池将提供数据库的 SQL Server 存储。
-ms.openlocfilehash: 7cb703f0939adf39b8964956ca4bac9f88518fbd
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: e80c024f35b839239177cc47bd2fc46e7c0f35fe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061126"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890964"
 ---
 # <a name="add-persistent-chat-sql-server-store"></a>添加持久聊天 SQL Server 存储
 

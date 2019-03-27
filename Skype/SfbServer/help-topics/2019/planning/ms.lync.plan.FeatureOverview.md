@@ -1,5 +1,6 @@
 ---
 title: Feature Overview (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype 业务 server 规划工具
-ms.openlocfilehash: f7a9f7fd0dfc7f4c65d85404bd827aee7b98332b
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 8541167196f3940a1621e6bb843c81e82d212e46
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059142"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887307"
 ---
 # <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
@@ -119,7 +120,7 @@ Skype 业务 server 规划工具
     
     灾难恢复度量值将使您到对前端池在两个数据中心中的位置。
     
-- **监控**
+- **监视**
     
     监控功能捕获与通信会话相关的呼叫详细记录。 它还从参与者终结点处的音频和视频会话收集指标。 监控服务器提供了使用统计信息、 趋势和媒体质量统计信息。
     

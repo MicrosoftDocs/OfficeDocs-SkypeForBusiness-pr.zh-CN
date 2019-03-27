@@ -1,5 +1,6 @@
 ---
-title: 路由追踪表
+title: TraceRoute 表
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,25 +10,26 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9493cef-6ece-4f13-bf68-dbf132aab4f4
-description: 路由追踪表包含来自呼叫路由信息。 在 Microsoft Lync Server 2013 引入了此表。
-ms.openlocfilehash: e8796b164bd6a0f2809025b784ada9d12dda449b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: TraceRoute 表包含来自呼叫路由信息。 此表是在 Microsoft Lync Server 2013 中引入的。
+ms.openlocfilehash: 741eaabbe94ee1849bd5a7d5e516714861658d7e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884899"
 ---
-# <a name="traceroute-table"></a>路由追踪表
+# <a name="traceroute-table"></a>TraceRoute 表
  
-路由追踪表包含来自呼叫路由信息。 在 Microsoft Lync Server 2013 引入了此表。
+TraceRoute 表包含来自呼叫路由信息。 此表是在 Microsoft Lync Server 2013 中引入的。
   
 |**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |主键和外  <br/> |日期和时间的呼叫开始。  <br/> |
-|**SessionSeq** <br/> |int  <br/> |主键和外  <br/> |用来区分可能在同一日期，在同一时间开始的多个调用的唯一标识符。  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |主键和外  <br/> |表示在调用中使用的视频线的类型。 允许的值包括：  <br/> 0-音频  <br/> 1-视频  <br/> 2-全景视频  <br/> 3/桌面应用程序共享  <br/> |
-|**FromCaller** <br/> |bit  <br/> |Primary  <br/> |将调用的终结点。  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |主、 外  <br/> |日期和呼叫开始的时间。  <br/> |
+|**SessionSeq** <br/> |int  <br/> |主、 外  <br/> |用来区分可能在相同日期和相同时间开始的多个呼叫的唯一标识符。  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |主、 外  <br/> |代表在呼叫中使用的视频线的类型。 允许的值包括：  <br/> 0-音频  <br/> 1-视频  <br/> 2-全景视频  <br/> 3-应用程序/桌面共享  <br/> |
+|**FromCaller** <br/> |bit  <br/> |Primary  <br/> |发出呼叫的终结点。  <br/> |
 |**跃点** <br/> |int  <br/> ||网络跃点 /  <br/> |
-|**IPAddressKey** <br/> |int  <br/> |外  <br/> |IP 地址的唯一标识符。 [Ip 地址表](ipaddress.md)中存储 IP 地址信息。  <br/> |
-|**RTT** <br/> |int  <br/> ||往返时间。 往返时间测量的语音数据包到达其目的地，然后发送回通知已被接收所花费的时间。  <br/> |
+|**IPAddressKey** <br/> |int  <br/> |外  <br/> |IP 地址的唯一标识符。 [IPAddress 表](ipaddress.md)中存储的 IP 地址信息。  <br/> |
+|**RTT** <br/> |int  <br/> ||往返时间。 往返时间度量语音数据包可以到达其目标，然后发送后已被接收的通知所需的时间量。  <br/> |
    
 

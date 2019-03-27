@@ -1,5 +1,6 @@
 ---
 title: 呼叫质量仪表板 (CQD) 的项服务
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: 摘要： 了解项服务，它是用于呼叫的质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: 5e5198afd95d6c9e1de517054053b724a54b1105
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 28a705d488519e439a0fd4c9c9345b1d540fd949
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532596"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895942"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>呼叫质量仪表板 (CQD) 的项服务
  
@@ -23,7 +24,7 @@ ms.locfileid: "26532596"
   
 项服务是呼叫质量仪表板的存储库 API 的一部分。
   
-## <a name="item-service"></a>项服务
+## <a name="item-service"></a>项目服务
 
 存储库 API 提供了一个简单的内容管理服务，亦称项服务，可用于存储用户的任何应用程序定义的内容。 
   
@@ -49,10 +50,10 @@ ms.locfileid: "26532596"
 
 |**操作**|**说明**|
 |:-----|:-----|
-|[获取项](get-items.md) <br/> |在存储库中获取项目返回的所有项目。  <br/> |
+|[获取项目](get-items.md) <br/> |在存储库中获取项目返回的所有项目。  <br/> |
 |[获取项目](get-item.md) <br/> |获取项返回的特定项目。  <br/> |
 |[获取子项](get-sub-items.md) <br/> |获取子项目返回的特定项目的子项目。  <br/> |
-|[获取项祖先](get-item-ancestors.md) <br/> |获取项祖先返回特定项目的上级。  <br/> |
-|[更新项](update-item.md) <br/> |更新存储库中的特定项目。  <br/> |
+|[获取项目上级](get-item-ancestors.md) <br/> |获取项祖先返回特定项目的上级。  <br/> |
+|[更新项目](update-item.md) <br/> |更新存储库中的特定项目。  <br/> |
    
 

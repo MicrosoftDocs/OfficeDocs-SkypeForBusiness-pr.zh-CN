@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： 管理联合身份验证和外部访问 Skype 业务服务器
+ms.reviewer: ''
 ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)
 ms:contentKeyID: 48183665
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 启用并配置外部用户访问控制是否支持外部用户可以与内部 Skype 业务 Server 用户进行协作。
-ms.openlocfilehash: bc96f0d221071393b6c9ef7b7279159fdaa4468f
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: c48914ca6dc7faf03fea1a3877bd2e349e39e290
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223120"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887856"
 ---
 # <a name="managing-federation-and-external-access-to-skype-for-business-server"></a>管理联合身份验证和 Skype 业务服务器的外部访问
 

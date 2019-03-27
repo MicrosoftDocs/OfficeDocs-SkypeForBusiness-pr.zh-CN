@@ -1,5 +1,6 @@
 ---
 title: 创建或删除业务服务器中 Skype 通知
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: 创建或删除 Skype 中为 Business Server 企业语音的通知应用程序的通知。 这将影响如何处理打给未分配号码的呼叫。
-ms.openlocfilehash: cbdcaed3d5908b76f0932f3461dfc21716f74b32
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cf6fc0ce754e30e4d52e968dc3a167bbe87a5a83
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372292"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885573"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>创建或删除业务服务器中 Skype 通知
 
@@ -28,7 +29,7 @@ ms.locfileid: "25372292"
 
 在您定义未分配的数字表前需要创建通知。您需要为使用音频提示、TTS 提示或无提示的所有公告执行此步骤。
 
-本主题介绍如何导入和创建通知。 有关分配未分配号码表中的通知的详细信息，请参阅[配置未分配号码表](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx)。
+本主题介绍如何导入和创建通知。有关在未分配号码表中分配通知的详细信息，请参阅 [Configure the Unassigned Number Table](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx)。
 
 ## <a name="create-a-new-announcement-for-unassigned-numbers"></a>创建未分配号码的新通知
 
@@ -36,9 +37,9 @@ ms.locfileid: "25372292"
 
 1. 对于音频提示，使用喜欢的音频录制应用程序来录制音频文件。
 
-2. 对于音频提示，运行**Import-csannouncementfile** cmdlet 导入文件存储的音频文件的内容。
+2. 对于音频提示，运行 **Import-CsAnnouncementFile** cmdlet 将音频文件的内容导入文件存储。
 
-3. 运行**New-csannouncement** cmdlet 可以创建和命名通知。 执行此步骤，以创建具有音频提示、文本到语音转换 (TTS) 提示或无提示的通知。
+3. 运行  **New-CsAnnouncement** cmdlet 创建并命名通知。 执行此步骤，以创建具有音频提示、文本到语音转换 (TTS) 提示或无提示的通知。
 
     > [!TIP]
     > 您可能要创建无提示的通知（例如，要在不播放消息的情况下将呼叫转接到指定目标时）。
@@ -51,7 +52,7 @@ ms.locfileid: "25372292"
 
 2. 登录到计算机的业务 Server Management Shell 的 Skype 或使用**Delegate Setup Permissions**中所述的必要用户权限的 RTCUniversalServerAdmins 组成员身份的安装。
 
-3. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+3. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
 4. 对于音频提示，运行：
 
@@ -89,7 +90,7 @@ ms.locfileid: "25372292"
 
 1. 登录到计算机的业务 Server Management Shell 的 Skype 或使用**Delegate Setup Permissions**中所述的必要用户权限的 RTCUniversalServerAdmins 组成员身份的安装。
 
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
 3. 列出组织中的所有通知。在命令行运行：
 
@@ -116,7 +117,7 @@ ms.locfileid: "25372292"
 
 [创建或删除业务服务器中 Skype 通知](create-an-announcement.md)
 
-[Import-csannouncementfile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
+[Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 
 [新 CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
 

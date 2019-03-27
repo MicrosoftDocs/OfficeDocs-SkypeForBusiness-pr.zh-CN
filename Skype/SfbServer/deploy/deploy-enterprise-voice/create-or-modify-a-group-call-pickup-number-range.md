@@ -1,5 +1,6 @@
 ---
 title: 创建或修改 Skype for Business 中的组呼叫分拣号码范围
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: 创建或修改业务 Server 企业语音中 Skype 的组呼叫分拣号码范围。
-ms.openlocfilehash: d73b3e72aa7cd5f733406c861d8a3357fe28fe45
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0032d46507c6cb91629b94662ec67bf9c67b7cc4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883951"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885594"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>创建或修改 Skype for Business 中的组呼叫分拣号码范围
 
@@ -49,11 +50,11 @@ ms.locfileid: "23883951"
 
 1. 登录到计算机的业务 Server Management Shell 的 Skype 或使用**Delegate Setup Permissions**中所述的必要用户权限的 RTCUniversalServerAdmins 组成员身份的安装。
 
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
-3. 使用**New-cscallparkorbit**创建新的呼叫分拣组号码范围。 **设置 CsCallParkOrbit**用于修改现有的呼叫分拣号码范围。
+3. 使用 **New-CsCallParkOrbit** 创建呼叫应答组号码的新范围。 使用 **Set-CsCallParkOrbit** 修改呼叫应答号码的现有范围。
 
-    在该命令行处，运行：
+    在命令行中运行：
 
    ```
    New-CsCallParkOrbit -Identity <name of call pickup group range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -CallParkService <FQDN or service ID of the Application service that hosts the Call Park application> -Type GroupPickup

@@ -1,5 +1,6 @@
 ---
 title: 呼叫质量仪表板 (CQD) 的用户设置服务
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
 description: 摘要： 了解用户设置服务，它是用于呼叫的质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: 00d0662e777ef2f13c9783fe4b79d5c582faa8af
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8cb30c0f079834c14879e2ce6cbd14201f5bbdcb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531889"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888229"
 ---
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>呼叫质量仪表板 (CQD) 的用户设置服务
  

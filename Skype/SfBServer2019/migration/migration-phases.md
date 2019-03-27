@@ -1,5 +1,6 @@
 ---
 title: 迁移阶段
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 在业务服务器 2019年的 Skype，业务服务器 2019年组件包含 Skype 网络上定义的网站。 网站是一组由高速、 低延迟网络，如单个局域网 (LAN) 或由高速光纤光纤网络连接的两个网络连接良好的计算机。
-ms.openlocfilehash: cb6529ac09c10f73a01d3454ef9518d7fe960e1f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d34351b551262450dee852efd7679f17cbe1e161
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027730"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886525"
 ---
 # <a name="migration-phases"></a>迁移阶段
 
@@ -23,9 +24,9 @@ ms.locfileid: "25027730"
   
 以下阶段介绍业务服务器 2019年池迁移到 Skype 的过程。 对于包含多个池的多个网站，每个个别池应该遵循此分阶段的方法。
   
-1. [第 1 阶段： 规划迁移](phase-1-plan-your-migration.md)
+1. [第 1 阶段：规划迁移](phase-1-plan-your-migration.md)
     
-2. [第 2 阶段： 准备迁移](phase-2-prepare-for-migration.md)
+2. [第 2 阶段：准备迁移](phase-2-prepare-for-migration.md)
     
 3. [第 3 阶段： 部署 Skype 业务服务器 2019年试点池](phase-3-deploy-pilot-pool.md)
     
@@ -33,10 +34,10 @@ ms.locfileid: "25027730"
     
 5. [第 5 阶段： 将 Skype 业务 Server 2019 边缘服务器添加到试点池](phase-5-add-edge-server-to-pilot-pool.md)
     
-6. [第 6 阶段： 从试点部署移动到生产环境](phase-6-move-from-pilot-deployment-into-production.md)
+6. [第 6 阶段：从试点部署移动到生产中](phase-6-move-from-pilot-deployment-into-production.md)
     
-7. [第 7 阶段： 完成迁移后任务](phase-7-complete-post-migration-tasks.md)
+7. [第 7 阶段：完成迁移后任务](phase-7-complete-post-migration-tasks.md)
     
-8. [第 8 阶段： 停用旧池](phase-8-decommission-legacy-pools.md)
+8. [第 8 阶段：停用旧池](phase-8-decommission-legacy-pools.md)
     
 

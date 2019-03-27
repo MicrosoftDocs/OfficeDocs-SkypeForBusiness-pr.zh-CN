@@ -1,5 +1,6 @@
 ---
 title: PSTN 网关范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,16 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
-description: 此节点显示完全限定的域名 (FQDN) 关联的中介服务器和此公用交换的电话网络 (PSTN) 网关的其他基本信息。 可以执行以下操作：
-ms.openlocfilehash: 4b9d34a9decb2989bd82ce5b1c97b10d2b8ad992
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 此节点显示的完全限定的域名 (FQDN)，关联的中介服务器和其他有关此公用电话交换网 (pstn) 网关的基本信息。 可以执行以下操作：
+ms.openlocfilehash: 0dcb1632c3c1803f93eaba6a3bc271172cba08a5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892229"
 ---
 # <a name="pstn-gateway-scope-node"></a>PSTN 网关范围节点
  
-此节点显示完全限定的域名 (FQDN) 关联的中介服务器和此公用交换的电话网络 (PSTN) 网关的其他基本信息。 可以执行以下操作：
+此节点显示的完全限定的域名 (FQDN)，关联的中介服务器和其他有关此公用电话交换网 (pstn) 网关的基本信息。 可以执行以下操作：
   
 - **编辑属性**。打开该网关的“**编辑属性**”页，在其中可以更改其 FQDN（如果尚未发布拓扑）、侦听端口、传输协议和备用媒体 IP 地址。
     

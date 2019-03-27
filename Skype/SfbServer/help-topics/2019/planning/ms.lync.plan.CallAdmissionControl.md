@@ -1,5 +1,6 @@
 ---
-title: 呼叫允许控制 （规划工具）
+title: Call Admission Control (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 ROBOTS: NOINDEX, NOFOLLOW
 description: 呼叫允许控制 (CAC) 根据可用网络带宽确定是否允许建立实时通信会话（如语音呼叫或视频呼叫）。
-ms.openlocfilehash: c1c2cf96f2f8537ca609e7f3a0a5f0c37661be42
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 3ade43f485d8931404ef772dff5bb4f7604df8f5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057319"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887912"
 ---
-# <a name="call-admission-control-planning-tool"></a>呼叫允许控制 （规划工具）
+# <a name="call-admission-control-planning-tool"></a>Call Admission Control (Planning Tool)
  
 呼叫允许控制 (CAC) 根据可用网络带宽确定是否允许建立实时通信会话（如语音呼叫或视频呼叫）。
   

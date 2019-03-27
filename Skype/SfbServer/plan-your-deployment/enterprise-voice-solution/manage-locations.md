@@ -1,5 +1,6 @@
 ---
 title: 管理 Business Server Skype SIP 中继服务提供商的位置
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: 所必需的规划决策位置信息数据库或类似的外部数据库中，对于业务 Server 企业语音的 Skype 中使用 SIP 中继提供商，E9-1-1 部署。
-ms.openlocfilehash: 5920abd848645354b95c4b9ba2dc9b8a27410ef6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 07b6c95ad36e740d5dec6bb882766f876da52626
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887052"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886037"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>管理 Business Server Skype SIP 中继服务提供商的位置
 
 所必需的规划决策位置信息数据库或类似的外部数据库中，对于业务 Server 企业语音的 Skype 中使用 SIP 中继提供商，E9-1-1 部署。
 
-若要配置的业务服务器可以自动定位网络内的客户端的 Skype，您需要填充用网络线路图位置信息服务数据库和发布位置，或链接到外部数据库已包含正确的映射。 作为此过程的一部分，您需要通过 E9-1-1 服务提供商来验证这些位置的城市地址。 有关详细信息，请参阅部署文档中的[Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) 。
+若要配置的业务服务器可以自动定位网络内的客户端的 Skype，您需要填充用网络线路图位置信息服务数据库和发布位置，或链接到外部数据库已包含正确的映射。 作为此过程的一部分，您需要通过 E9-1-1 服务提供商来验证这些位置的城市地址。 有关详细信息，请参阅部署文档中的 [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx)。
 
 您可使用紧急响应位置 (ERL) 填充位置信息服务数据库，紧急响应位置由城市地址和建筑物内的特定地址构成。 是大厦内的特定位置，该位置信息服务**位置**字段为最大长度为 20 个字符 （包括空格）。 在该有限长度内，尽量包含以下内容：
 
@@ -35,7 +36,7 @@ ms.locfileid: "23887052"
 - 如果位置是一个大概，因为它由无线访问点决定，您可以添加词 **[附近]** (例如，"Near 1st Floor 1234")。
 
 > [!NOTE]
-> 使用业务 Server 命令行管理程序命令 Skype 发布和复制到该池的本地存储之前，位置添加到中心位置数据库不可用到客户端。 有关详细信息，请参阅部署文档中的[发布位置数据库](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx)。
+> 使用业务 Server 命令行管理程序命令 Skype 发布和复制到该池的本地存储之前，位置添加到中心位置数据库不可用到客户端。 有关详细信息，请参阅部署文档中的 [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx)。
 
 以下各节讨论填充和维护位置数据库时需要考虑的注意事项。
 
@@ -53,7 +54,7 @@ ms.locfileid: "23887052"
 
 若要将位置信息服务与相集成，第三方数据库必须执行的 Lync Server 位置请求/响应架构。 有关详细信息，请参阅["[MS E911WS]: E911 支持协议规范的 Web 服务"](https://go.microsoft.com/fwlink/p/?linkid=213819)。 有关部署辅助位置信息服务的详细信息，请参阅部署文档中的[Configure Skype 业务服务器中的辅助位置信息服务](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)。
 
-有关填充位置数据库的详细信息，请参阅部署文档中的[Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) 。
+有关填充位置数据库的详细信息，请参阅部署文档中的 [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx)。
 
 ## <a name="maintaining-the-location-database"></a>维护位置数据库
 

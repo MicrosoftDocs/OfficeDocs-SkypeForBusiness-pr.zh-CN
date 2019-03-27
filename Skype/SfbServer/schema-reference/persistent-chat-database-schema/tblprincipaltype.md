@@ -1,5 +1,6 @@
 ---
 title: tblPrincipalType
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType 包含要分类 tblPrincipal 表中的主体类型。
-ms.openlocfilehash: d5c710e1301344c853ef39aeff3b57f62c630c95
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: ab2cb28971f0564a082e0caed01e7fc622c41201
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19505123"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887433"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -38,16 +39,16 @@ tblPrincipalType 包含要分类 tblPrincipal 表中的主体类型。
    
 **主体值**
 
-|**ID**|**角色**|**说明**|**用户**|
+|**ID**|**角色**|**说明**|**User**|
 |:-----|:-----|:-----|:-----|
-|1  <br/> |任何  <br/> |没有已知类型的通用主体。 不使用 tblPrincipal 表中。  <br/> ||
+|1  <br/> |任意  <br/> |没有已知类型的通用主体。 不使用 tblPrincipal 表中。  <br/> ||
 |2  <br/> |AnyUser  <br/> |用户类型的通用主体。 不使用 tblPrincipal 表中。  <br/> |是  <br/> |
 |3  <br/> |AnyGroup  <br/> |与语义组的通用主体。 不使用 tblPrincipal 表中。  <br/> ||
 |4  <br/> |系统用户  <br/> |持久聊天服务器供内部使用的主体。  <br/> ||
 |5  <br/> |用户  <br/> |常规用户。  <br/> |是  <br/> |
 |8  <br/> |DC  <br/> |Active Directory 域服务的域控制器。  <br/> ||
 |9  <br/> |组  <br/> |Active Directory 安全组。  <br/> ||
-| 10  <br/> |文件夹  <br/> |Active Directory 容器或组织单位。  <br/> ||
+|10  <br/> |文件夹  <br/> |Active Directory 容器或组织单位。  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 

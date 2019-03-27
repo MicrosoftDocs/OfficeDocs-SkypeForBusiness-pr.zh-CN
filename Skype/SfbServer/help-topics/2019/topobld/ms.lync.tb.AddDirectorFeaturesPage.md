@@ -1,5 +1,6 @@
 ---
 title: 添加控制器功能
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
 ROBOTS: NOINDEX, NOFOLLOW
 description: 如果您想要包括监控服务器的控制器池，选择监视 （CDR 和 QoE 度量）。
-ms.openlocfilehash: a0fe22bbefcbfa750cef57eb446158fce011a61d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c61ec5703758e05845dbb1f56f25793d6867c850
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255815"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886238"
 ---
 # <a name="add-director-features"></a>添加控制器功能
 

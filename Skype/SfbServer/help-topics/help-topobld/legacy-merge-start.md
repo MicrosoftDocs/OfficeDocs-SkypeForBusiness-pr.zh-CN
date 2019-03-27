@@ -1,5 +1,6 @@
 ---
 title: 旧版合并启动
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,15 +12,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
-description: 开始合并与 Skype 的旧版部署的业务服务器 2015年，单击下一步。
-ms.openlocfilehash: a2bf783b3f629e230f5fcda98d4fb920048660dd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 若要开始的业务服务器 2015年合并与 Skype 的旧部署，请单击下一步。
+ms.openlocfilehash: 76de2bdfe42e36c4ef4a3557ed29320dc3284606
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893186"
 ---
 # <a name="legacy-merge-start"></a>旧版合并启动
  
-开始合并与 Skype 的旧版部署的业务服务器 2015年，单击**下一步**。 
+若要开始的业务服务器 2015年合并与 Skype 的旧部署，请单击**下一步**。 
   
 

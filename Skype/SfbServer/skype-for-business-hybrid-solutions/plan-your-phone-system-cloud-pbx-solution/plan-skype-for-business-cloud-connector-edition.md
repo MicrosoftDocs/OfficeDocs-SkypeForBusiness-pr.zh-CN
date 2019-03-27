@@ -1,5 +1,6 @@
 ---
 title: 规划 Skype for Business 云连接器版本
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 查找有关 Skype for Business 云连接器版本的信息，云连接器是一组打包的虚拟机 (Vm)，这些虚拟机负责通过 Office 365 中的电话系统（云 PBX）实施本地 PSTN 连接。
-ms.openlocfilehash: 4d03d8ea6936ad906de01a5b478fce01d62113c4
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.openlocfilehash: da594ba2511b7e3a296eb57b825489305d9473d9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454133"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888750"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>规划 Skype for Business 云连接器版本
 
@@ -49,7 +50,7 @@ ms.locfileid: "30454133"
 
 规划云连接器 Edition 部署时，请考虑以下：
 
-- 若要使用云连接器充分利用云语音解决方案，您将需要注册 Office 365 中包括电话系统的 Office 365 租户。 如果没有 Office 365 租户，你可以在此处了解如何注册：[Office 365 商业版](https://products.office.com/en-us/business/office)。 请注意，您需要注册业务 online 包括 Skype 的计划。
+- 若要使用云连接器充分利用云语音解决方案，您将需要注册 Office 365 中包括电话系统的 Office 365 租户。 如果您还没有 Office 365 租户可以了解如何在此处注册： [Office 365 的业务](https://products.office.com/en-us/business/office)。 请注意，您需要注册业务 online 包括 Skype 的计划。
 
 - 若要注册的业务联机服务 Skype 云连接器 appliance 并运行各种 cmdlet，云连接器 2.0 及更高版本要求与 Skype 的专用的 Office 365 帐户进行业务租户管理员权限。 2.0 之前的云连接器版本需要具有专用的 Office 365 帐户以及租户全局管理员权限。
 
@@ -249,7 +250,7 @@ ms.locfileid: "30454133"
 
 - 合格的 PBX/Trunk 或合格的 SBC/网络（建议至少使用两个网关）。
 
-    云连接器支持经过认证适用于 Skype for Business 的相同会话边界控制器 (SBC)。 有关详细信息，请参阅 [Skype for Business 的电话基础结构](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。
+    云连接器支持经过认证适用于 Skype for Business 的相同会话边界控制器 (SBC)。 有关详细信息，请参阅[for Business 的 Skype 的电话基础结构](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。
 
 - 安装和配置 HYPER-V 主机服务器上的权限与本地服务器管理员帐户。 帐户必须在安装和配置了 Hyper-V 的本地服务器上具有管理员权限。
 
@@ -340,8 +341,8 @@ ms.locfileid: "30454133"
 
 |**源 IP**|**目标 IP**|**源端口**|**目标端口**|
 |:-----|:-----|:-----|:-----|
-|云连接器中介组件  <br/> |SBC/PSTN 网关  <br/> |任何  <br/> |TCP 5060\*\*  <br/> |
-|SBC/PSTN 网关  <br/> |云连接器中介组件  <br/> |任何  <br/> |TCP 5068/ TLS 5067  <br/> |
+|云连接器中介组件  <br/> |SBC/PSTN 网关  <br/> |任意  <br/> |TCP 5060\*\*  <br/> |
+|SBC/PSTN 网关  <br/> |云连接器中介组件  <br/> |任意  <br/> |TCP 5068/ TLS 5067  <br/> |
 |云连接器中介组件  <br/> |SBC/PSTN 网关  <br/> |UDP 49 152 57 500  <br/> |任何\*\*\*  <br/> |
 |SBC/PSTN 网关  <br/> |云连接器中介组件  <br/> |任何\*\*\*  <br/> |UDP 49 152 57 500  <br/> |
 |云连接器中介组件  <br/> |内部客户端  <br/> |TCP 49 152 57 500\*  <br/> |TCP 50,000-50,019  <br/> （可选）  <br/> |
@@ -379,15 +380,15 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 |**源 IP**|**目标 IP**|**源端口**|**目标端口**|
 |:-----|:-----|:-----|:-----|
-|任何  <br/> |云连接器边缘外部接口  <br/> |任何  <br/> |TCP(MTLS) 5061  <br/> |
-|云连接器边缘外部接口  <br/> |任意  <br/> |任何  <br/> |TCP(MTLS) 5061  <br/> |
+|任意  <br/> |云连接器边缘外部接口  <br/> |任意  <br/> |TCP(MTLS) 5061  <br/> |
+|云连接器边缘外部接口  <br/> |任意  <br/> |任意  <br/> |TCP(MTLS) 5061  <br/> |
 |云连接器边缘外部接口  <br/> |任意  <br/> |任意  <br/> |TCP 80  <br/> |
 |云连接器边缘外部接口  <br/> |任意  <br/> |任意  <br/> |UDP 53  <br/> |
 |云连接器边缘外部接口  <br/> |任意  <br/> |任意  <br/> |TCP 53  <br/> |
 |云连接器边缘外部接口  <br/> |任何  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
-|任何  <br/> |云连接器边缘外部接口  <br/> |TCP 50,000-59,999  <br/> |TCP 443  <br/> |
+|任意  <br/> |云连接器边缘外部接口  <br/> |TCP 50,000-59,999  <br/> |TCP 443  <br/> |
 |任何  <br/> |云连接器边缘外部接口  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
-|云连接器边缘外部接口  <br/> |任何  <br/> |TCP 50,000-59,999  <br/> |TCP 443  <br/> |
+|云连接器边缘外部接口  <br/> |任意  <br/> |TCP 50,000-59,999  <br/> |TCP 443  <br/> |
 
 下表显示了端口和启用外部防火墙的云连接器边缘组件之间的通信的端口范围。 此表显示了推荐的解决方案。
 
@@ -401,14 +402,14 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 |**源 IP**|**目标 IP**|**源端口**|**目标端口**|
 |:-----|:-----|:-----|:-----|
-|任何  <br/> |云连接器边缘外部接口  <br/> |任何  <br/> |TCP(MTLS) 5061  <br/> |
-|云连接器边缘外部接口  <br/> |任意  <br/> |任何  <br/> |TCP(MTLS) 5061  <br/> |
+|任意  <br/> |云连接器边缘外部接口  <br/> |任意  <br/> |TCP(MTLS) 5061  <br/> |
+|云连接器边缘外部接口  <br/> |任意  <br/> |任意  <br/> |TCP(MTLS) 5061  <br/> |
 |云连接器边缘外部接口  <br/> |任意  <br/> |任意  <br/> |TCP 80  <br/> |
 |云连接器边缘外部接口  <br/> |任意  <br/> |任意  <br/> |UDP 53  <br/> |
 |云连接器边缘外部接口  <br/> |任意  <br/> |任意  <br/> |TCP 53  <br/> |
-|云连接器边缘外部接口  <br/> |任何  <br/> |TCP 50,000-59,999  <br/> |任何  <br/> |
-|云连接器边缘外部接口  <br/> |任何  <br/> |UDP 3478；UDP 50,000-59,999  <br/> |任意  <br/> |
-|任意  <br/> |云连接器边缘外部接口  <br/> |任何  <br/> |TCP 443；TCP 50,000-59,999  <br/> |
+|云连接器边缘外部接口  <br/> |任意  <br/> |TCP 50,000-59,999  <br/> |任意  <br/> |
+|云连接器边缘外部接口  <br/> |任意  <br/> |UDP 3478；UDP 50,000-59,999  <br/> |任意  <br/> |
+|任意  <br/> |云连接器边缘外部接口  <br/> |任意  <br/> |TCP 443；TCP 50,000-59,999  <br/> |
 |任何  <br/> |云连接器边缘外部接口  <br/> |任何  <br/> |UDP 3478；UDP 50,000 - 59,999  <br/> |
 
 ### <a name="host-internet-connectivity-requirements"></a>主机 Internet 连接要求
@@ -424,7 +425,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 如果需要限制性更强的规则，请参阅以下白名单 URL：
 
-- [Office 365 URL 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)中的[证书吊销列表 URL](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
+- [Office 365 Url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)中的[证书吊销列表 Url](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)
 
 - Windows 更新：[如何配置软件更新的防火墙](https://technet.microsoft.com/en-us/library/bb693717.aspx)
 
@@ -452,7 +453,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 首先需要定义以下常见部署参数：
 
 
-|**项目**|**说明**|**说明**|
+|**项目**|**说明**|**备注**|
 |:-----|:-----|:-----|
 |SIP 域  <br/> |SIP URI 的公司用户使用。 提供此部署将服务于的所有 SIP 域。 你可以有多个 SIP 域。  <br/> ||
 |PSTN 网站数  <br/> |将部署的 PSTN 网站数。  <br/> ||
@@ -471,7 +472,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 
 
-|**网站参数**|**说明**|**说明**|
+|**网站参数**|**说明**|**备注**|
 |:-----|:-----|:-----|
 |虚拟机域名  <br/> |云连接器的内部组件的域名。 此域应不同于生产域。 该名称必须在所有云连接器设备上都是相同的。  <br/> .Ini 文件中的名称:"VirtualMachineDomain"  <br/> |.local 域为首选。  <br/> |
 |云连接器域控制器名称  <br/> |域控制器的名称。  <br/> .Ini 文件中的名称:"服务器名称"  <br/> |必须为 15 个字符或更少。 请仅输入 Netbios 名称。  <br/> |
@@ -528,7 +529,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |CABackupFile  <br/> 2.0 版及更高版本  <br/> |用于保存证书颁发机构服务从 Active Directory 服务器到文件部署云连接器网站中的多个设备时。 请务必对一个云连接器内的所有设备使用相同密码，以确保成功地将 CA 备份文件导入到新添加的设备。  <br/> ||
 |CCEService  <br/> 2.0 版及更高版本  <br/> |用于云连接器管理服务；需要访问云连接器站点目录。务必对一个云连接器站点内的所有设备使用相同密码。  <br/> ||
 |Office 365 租户管理员  <br/> | 云连接器使用该帐户来更新和管理云连接器的租户设置： <br/>  2.0 及更高版本： 专用的 Office 365 凭据帐户与 Skype 的业务管理员权限。 <br/>  2.0 之前的版本：具有全局租户管理员权限的专用 Office 365 帐户的凭据。 <br/> ||
-|启用 Refer 支持  <br/> |这将定义在你的 IP/PBX 的中继配置上启用还是禁用 SIP REFER 支持。 默认值为 True。 如果你的 IP/PBX 网关提供 REFER 支持，请将此值保留为 true。 否则，需要将此值更改为 False。 如果不确定你的网关是否支持 REFER，请参阅[合格的 IP-PBX 和网关](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。   <br/> ||
+|启用 Refer 支持  <br/> |这将定义在你的 IP/PBX 的中继配置上启用还是禁用 SIP REFER 支持。 默认值为 True。 如果你的 IP/PBX 网关提供 REFER 支持，请将此值保留为 true。 否则，需要将此值更改为 False。 如果您不能确定如果网关支持引用，请参阅[限定 IP Pbx 和网关](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。   <br/> ||
 |EnableFastFailoverTimer  <br/> 2.0 版及更高版本  <br/> |默认值"True"，如果出站呼叫未应答，网关在 10 秒内他们将路由到下一个可用网关;如果不有任何其他中继然后将自动丢弃该呼叫。  <br/> 但是，在网络和网关响应较慢的组织中，或者当建立呼叫的过程超过 10 秒时，这可能会导致不必要的呼叫丢弃。  <br/> 拨打某些国家/地区（例如阿联酋或阿富汗）的电话时，呼叫建立过程可能需要 10 秒以上。 如果遇到类似问题，则需将值更改为 False。 记得在连接的 SBC 或网关上更改相应的设置。  <br/> 值可以为 True 或 False。默认值为 True。  <br/> ||
 |ForwardCallHistory  <br/> 2.0 版及更高版本  <br/> | 此参数用于启用报告同时响铃、呼叫转接和呼叫转移场景中的初始呼叫方的 SIP 头。将此参数设置为 True 将启用两个 SIP 头：<br/>  History-Info <br/>  Referred-By <br/>  历史信息头用于重新设定 SIP 请求和"provide(s) 标准的机制来捕获请求历史记录信息以启用多的网络和最终用户的服务"([RFC 4244-部分 1.1](http://www.ietf.org/rfc/rfc4244.txt))。 对于云连接器中继接口，此头用于同时响铃和呼叫转接场景。  <br/>  值可以为 True 或 False。默认值为 False。<br/> ||
 |转发 PAI  <br/> 2.0 版及更高版本  <br/> |PAI 是 SIP 的专用扩展，使 SIP 服务器可以断定已经过身份验证的用户的身份。 对于 SIP 中继提供程序，PAI 可用于 History-Info 和 Referred-By 头不存在的事件中的计费目的。 在配置启用转接 P-所宣称-Identity 时，中介服务器将转发 PAI 标头包含 SIP &amp; Tel URI 来自 SIP 中继到云连接器。 中介服务器将转发 PAI 标头包含 tel URI&amp;仅接收的 SIP 中继到云连接器的 E.164 号码。 中介服务器还会转发在任一方向收到的任何 Privacy 头。 如果 SIP 请求中介服务器发送包含窗体的隐私标头"隐私： id"结合 PAI 标头，然后已断言的标识应保留为私有外部网络信任域。  <br/> 值可以为 True 或 False。默认值为 False。  <br/> ||
@@ -582,7 +583,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 出于部署目的，您可以使用下表：
 
-|**选项**|**说明**|**说明**|
+|**选项**|**说明**|**备注**|
 |:-----|:-----|:-----|
 |将对您的部署使用哪个选项？  <br/> |选项 1 或 2  <br/> ||
 |SN  <br/> |为您的证书提供 SN  <br/> ||
@@ -680,7 +681,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
   - 在中介服务器虚拟机上：
 
-     - Skype for Business 备份复制器代理
+     -  Skype for Business 备份复制器代理
 
      - Skype for Business Server 中介
 
@@ -705,11 +706,11 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 有关详细信息，请参阅以下文章：
 
-- [Microsoft 电话服务解决方案](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Microsoft 电话解决方案](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [配置和管理 Skype for Business 云连接器版本](configure-skype-for-business-cloud-connector-edition.md)
 
-- [在云连接器版本中规划媒体旁路](plan-for-media-bypass-in-cloud-connector-edition.md)
+- [云连接器版本中的媒体旁路规划](plan-for-media-bypass-in-cloud-connector-edition.md)
 
 - [在云连接器版本中部署媒体旁路](deploy-media-bypass-in-cloud-connector.md)
 

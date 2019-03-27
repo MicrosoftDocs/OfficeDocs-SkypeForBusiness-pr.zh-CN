@@ -1,5 +1,6 @@
 ---
 title: Skype 业务服务器中的中介服务器组件
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: 对于业务服务器，包括其支持的拓扑和 M:N 中继、 媒体绕过和呼叫允许控制其关系，请了解 Skype 中介服务器。
-ms.openlocfilehash: 3f8b1e9fa1c1026c89fb67456e33ee0758140ee7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 237892f446250332e00616dcc8a08abf9c59d741
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882279"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889166"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Skype 业务服务器中的中介服务器组件
  

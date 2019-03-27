@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Online 委派设置和疑难解答
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 本文介绍如何设置和 Skype 疑难解答业务联机委派。 本文为您提供了有关安装程序建议、 最佳实践和故障排除步骤指南。
-ms.openlocfilehash: e3131b28be1ad01e0965b2739dc152a627826d5e
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 450aee07691a007b976aafffc05d34c3e7ef85f2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546672"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887832"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Skype for Business Online 委派设置和疑难解答
 
@@ -63,14 +64,14 @@ ms.locfileid: "25546672"
 
 **企业版 E3 授权方案**
 
-|**许可证**|**客户端**|**说明**|
+|**许可证**|**客户端**|**备注**|
 |:-----|:-----|:-----|
 |企业版 E3  <br/> |用于 Outlook 2013 或 Outlook 2016 Lync 2013 (Skype 的业务 2015年)  <br/> 用于 Outlook 2013 或 Outlook 2016 业务 2016年的 Skype  <br/> |Skype 业务基本客户端不支持委派。  <br/> Mac 客户端，您可以委派呼叫，但并非会议。  <br/> |
 |与 Office 365 电话系统 + Office 365 xCalling 计划的企业版 E3  <br/> |用于 Outlook 2013 或 Outlook 2016 Lync 2013 (Skype 的业务 2015年)  <br/> 用于 Outlook 2013 或 Outlook 2016 业务 2016年的 Skype  <br/> Lync for Mac 2011  <br/> |Skype 业务基本客户端不支持委派。  <br/> Mac 客户端，您可以委派呼叫，但并非会议。  <br/> |
    
 **企业 E5 授权方案**
 
-|**许可证**|**客户端**|**说明**|
+|**许可证**|**客户端**|**备注**|
 |:-----|:-----|:-----|
 |企业 E5  <br/> |用于 Outlook 2013 或 Outlook 2016 Lync 2013 (Skype 的业务 2015年)。  <br/> 用于 Outlook 2013 或 Outlook 2016 业务 2016年的 Skype  <br/> |Skype 业务基本客户端不支持委派。  <br/> Mac 客户端，您可以委派呼叫，但并非会议。  <br/> |
 |企业 E5 以及 Office 365 呼叫计划  <br/> |Skype for Mac 2016 年 Business  <br/> 用于 Outlook 2013 或 Outlook 2016 Lync 2013 (Skype 的业务 2015年)  <br/> 用于 Outlook 2013 或 Outlook 2016 业务 2016年的 Skype  <br/> Lync for Mac 2011  <br/> |Skype 业务基本客户端不支持委派。  <br/> Mac 客户端，您可以委派呼叫，但并非会议。  <br/> |
@@ -105,7 +106,7 @@ ms.locfileid: "25546672"
     
 ### <a name="verify-success"></a>验证成功
 
-如果成功安装，代理人应该会看到**已将您添加为 < 名称 > 的代理人**消息并且还创建**我管理呼叫的人员**组中。 Delegator 应看到已创建**代理人**组。
+如果成功安装，代理人应该会看到**已将您添加为 < Name> 的代理人**消息并且还创建**我管理呼叫的人员**组中。 Delegator 应看到已创建**代理人**组。
   
 > [!NOTE]
 > 委派权限通常显示在安装过程的 30 分钟内。 但是，此过程可能需要 24 小时才能完成。 

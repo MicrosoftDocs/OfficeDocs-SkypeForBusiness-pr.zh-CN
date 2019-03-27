@@ -1,5 +1,6 @@
 ---
-title: Lync Server 2010 的控制器常规设置扩展器
+title: 适合于 Lync Server 2010 的控制器常规设置扩展器
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67bd625d-f093-4218-a869-768813c54dad
 description: 若要配置控制器或控制器池的常规属性：
-ms.openlocfilehash: 48f0c59e547d5c7a1ef841c3fa7a8270349234a6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f0d5f8f730e1952cceab8f364443263d808e558b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010510"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885524"
 ---
-# <a name="director-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 的控制器常规设置扩展器
+# <a name="director-general-settings-expander-for-lync-server-2010"></a>适合于 Lync Server 2010 的控制器常规设置扩展器
  
 若要配置控制器或控制器池的**常规**属性：
   

@@ -1,5 +1,6 @@
 ---
 title: 证书请求（指定模板）
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 ROBOTS: NOINDEX, NOFOLLOW
-description: 通过“指定替代证书模板”页，可以定义默认情况下使用的 WebServer 证书模板之外的证书模板。选中“对选定的证书颁发机构使用替代证书模板”复选框，然后在“证书模板名称”文本框中定义替代证书模板的名称。必须使用在证书颁发机构 (CA) 中定义的模板名称。单击“上一步”返回到上一页。单击“取消”将结束证书请求过程。
-ms.openlocfilehash: 77d26d0587139b4ea3e1f0a6745e8771a1188c8f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: 通过“指定替代证书模板”页，可以定义默认情况下使用的 WebServer 证书模板之外的证书模板。 选中“对选定的证书颁发机构使用替代证书模板”复选框，然后在“证书模板名称”文本框中定义替代证书模板的名称。 必须使用在证书颁发机构 (CA) 中定义的模板名称。 单击“上一步”返回到上一页。 单击“取消”将结束证书请求过程。
+ms.openlocfilehash: 3940162eb8369942828018c84d0de69107110b37
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006920"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894787"
 ---
 # <a name="certificate-request-specify-termplate"></a>证书请求（指定模板）
  

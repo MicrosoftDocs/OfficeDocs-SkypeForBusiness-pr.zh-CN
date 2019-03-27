@@ -1,5 +1,6 @@
 ---
 title: 管理服务器的身份验证中 Skype 业务
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
 description: 摘要： 使用以下过程来管理 Skype 的业务服务器安全性和身份验证。
-ms.openlocfilehash: 654e7b215625d8efa75a400b8b6805653365d356
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: df5a5c100df82453652f8ac9fa1b29f01af3ceed
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25692723"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887562"
 ---
 # <a name="manage-authentication-in-skype-for-business-server"></a>管理服务器的身份验证中 Skype 业务
  

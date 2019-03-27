@@ -1,5 +1,6 @@
 ---
 title: Skype 业务服务器的 TLS 和 MTLS
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b32a5b85-fc82-42dc-a9b2-96400f8cd2b8
 description: 传输层安全性 (TLS) 和相互传输层安全性 (MTLS) 协议提供 Internet 上的加密通信和终结点身份验证。 Skype 业务服务器使用这两项协议来创建受信任的服务器网络和确保网络上的所有通信进行都加密。 服务器之间的所有 SIP 通信都通过 MTLS 进行。 从客户端到服务器的 SIP 通信都通过 TLS 进行。
-ms.openlocfilehash: b55ffe1840d9060a59024845a95191b5ce32f595
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b00ce2102d858db36500f78af47596677ce6d6dd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21007265"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886964"
 ---
 # <a name="tls-and-mtls-for-skype-for-business-server"></a>Skype 业务服务器的 TLS 和 MTLS
  

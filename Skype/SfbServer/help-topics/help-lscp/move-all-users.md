@@ -1,5 +1,6 @@
 ---
 title: 移动所有用户
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 description: 在“移动用户”对话框上，您可以选择用于在部署中将用户帐户从一个池移动到另一个池的源池和目标池。
-ms.openlocfilehash: 3fc5a99db43394d5ec7ad56a3a12d9e2087e2adc
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2ef78e35bbe05318c91332654c1b6ec86c8075e8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254439"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885517"
 ---
 # <a name="move-all-users"></a>移动所有用户
 

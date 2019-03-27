@@ -1,5 +1,6 @@
 ---
 title: 现代日常计算中的常见安全威胁
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: 由于 Skype 业务服务器的企业级的通信系统，因此您应了解其基础结构和通信可能会影响的常见安全攻击。
-ms.openlocfilehash: 354e537a7e927ed6825b5909107c80fe59e04996
-ms.sourcegitcommit: f2b89fea199e7a1d2a3c90c153c94b0a35965e6f
+ms.openlocfilehash: 15c5f71db846ad51fa0df70396cb7ca1252dd4dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25599209"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885862"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>现代日常计算中的常见安全威胁
  
@@ -36,7 +37,7 @@ Skype 业务服务器在 Windows Server 操作系统使用的 PKI 功能，以�
   
 ## <a name="network-denial-of-service-attack"></a>网络拒绝服务攻击
 
-当攻击者阻止有效用户正常使用和运行网络时，将发生拒绝服务攻击。这是攻击者通过合法请求淹没服务并且让合法用户无法使用服务来完成的。使用拒绝服务攻击，攻击者可以执行以下操作：
+当攻击者阻止有效用户正常使用和运行网络时，将发生拒绝服务攻击。 这是攻击者通过合法请求淹没服务并且让合法用户无法使用服务来完成的。 使用拒绝服务攻击，攻击者可以执行以下操作：
   
 - 向受到攻击的网络中正在运行的应用程序和服务发送无效数据，干扰它们的正常工作。
     
@@ -74,7 +75,7 @@ Skype 业务服务器在 Windows Server 操作系统使用的 PKI 功能，以�
   
 ## <a name="rtp-replay-attack"></a>RTP 重播攻击
 
-重播攻击是指出于恶意目的截获并重新传输双方之间的有效媒体传输。通过允许接收人维护已收到的 RTP 数据包的索引并将每个新数据包与索引中已列出的数据包加以比较，安全信号协议连接中使用的 SRTP 可保护传输免受重播攻击。
+重播攻击是指出于恶意目的截获并重新传输双方之间的有效媒体传输。 通过允许接收人维护已收到的 RTP 数据包的索引并将每个新数据包与索引中已列出的数据包加以比较，安全信号协议连接中使用的 SRTP 可保护传输免受重播攻击。
   
 ## <a name="spim"></a>SPIM
 

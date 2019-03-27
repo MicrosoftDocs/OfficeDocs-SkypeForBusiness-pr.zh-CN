@@ -1,5 +1,6 @@
 ---
 title: 配置边缘服务器的端口范围和服务质量
+ms.reviewer: ''
 ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
 ms:contentKeyID: 48184469
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文介绍如何配置边缘服务器的端口范围以及如何配置服务质量策略 a / V 边缘服务器。
-ms.openlocfilehash: b0f0b9c974b547004204a624840877aed71a02ff
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 11fdb542c6256c21e169480194bc5154bf1c1428
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223127"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886372"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>配置端口范围和 Skype 业务服务器在边缘服务器的服务质量策略
 

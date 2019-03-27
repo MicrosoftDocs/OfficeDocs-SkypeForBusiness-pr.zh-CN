@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 中配置双重身份验证
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,24 +11,24 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 摘要： 在 Skype for Business Server 配置双重身份验证。
-ms.openlocfilehash: cc73997fffcae3ef7d63e32898173fe68ecb9447
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: d9df5072e1d67e46c40e1fd82ec1d88354321577
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25694560"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887244"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>在 Skype for Business Server 中配置双重身份验证
 
 **摘要：** 在 Skype for Business Server 配置双重身份验证。
 
-以下部分介绍了为您的部署配置双重身份验证所需的步骤。 有关双重身份验证的详细信息，请参阅[为联机管理员启用 Office 365 多重身份验证 - 网格用户文章](https://go.microsoft.com/fwlink/p/?LinkId=313332)。
+以下部分介绍了为您的部署配置双重身份验证所需的步骤。 有关双重身份验证的详细信息，请参阅[启用 Office 365 联机管理员-网格用户公告的多因素身份验证](https://go.microsoft.com/fwlink/p/?LinkId=313332)。
 
 ## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>配置企业根证书颁发机构以支持智能卡身份验证
 
 以下步骤介绍如何配置企业根 CA 以支持智能卡身份验证：
 
-有关如何安装企业根 CA 的信息，请参阅[安装企业根证书颁发机构](https://go.microsoft.com/fwlink/p/?LinkID=313364)。
+有关如何安装在企业根 CA 的信息，请参阅[安装企业根证书颁发机构](https://go.microsoft.com/fwlink/p/?LinkID=313364)。
 
 1. 使用域管理员帐户登录到企业 CA 计算机。
 
@@ -63,7 +64,7 @@ ms.locfileid: "25694560"
 
 部署双重身份验证和智能卡技术时要考虑的一个因素是实施成本。 Windows 8 提供大量的新安全功能，并最有意义的新功能之一是虚拟智能卡支持。
 
-对于配备了符合规范版本 1.2 要求的受信任的平台模块 (TPM) 芯片的计算机，组织现在可以享受智能卡登录带来的好处，不必在硬件方面做任何额外投资。 有关详细信息，请参阅[将虚拟智能卡与 Windows 8 配合使用](https://go.microsoft.com/fwlink/p/?LinkId=313365)。
+对于配备了符合规范版本 1.2 要求的受信任的平台模块 (TPM) 芯片的计算机，组织现在可以享受智能卡登录带来的好处，不必在硬件方面做任何额外投资。 有关详细信息，请参阅[Windows 8 与使用虚拟智能卡](https://go.microsoft.com/fwlink/p/?LinkId=313365)。
 
 ### <a name="to-configure-windows-8-for-virtual-smart-cards"></a>为 Windows 8 配置虚拟智能卡
 
@@ -113,7 +114,7 @@ ms.locfileid: "25694560"
 
 通常，可通过两种方法为用户注册智能卡身份验证。较为轻松的方法涉及使用 Web 注册直接为用户注册智能卡身份验证，而较为复杂的方法涉及使用注册代理。本主题着重介绍自动注册智能卡证书。
 
-有关作为注册代理代表用户注册的详细信息，请参阅[代表其他用户注册证书](https://go.microsoft.com/fwlink/p/?LinkID=313367)。
+代表用户注册为注册代理的详细信息，请参阅[证书代表其他用户的注册](https://go.microsoft.com/fwlink/p/?LinkID=313367)。
 
 ### <a name="to-enroll-users-for-smart-card-authentication"></a>为用户注册智能卡身份验证
 
@@ -176,10 +177,10 @@ ms.locfileid: "25694560"
 
 ## <a name="configure-active-directory-federation-services-ad-fs-20"></a>配置 Active Directory 联合身份验证服务 (AD FS 2.0)
 
-下面一节介绍如何配置 Active Directory 联合身份验证服务 (AD FS 2.0) 来支持多重身份验证。 有关如何安装 AD FS 2.0 的信息，请参阅 [AD FS 2.0 分步说明和操作指南](https://go.microsoft.com/fwlink/p/?LinkId=313374)。
+下面一节介绍如何配置 Active Directory 联合身份验证服务 (AD FS 2.0) 来支持多重身份验证。 有关如何安装 AD FS 2.0 的信息，请参阅[AD FS 2.0 分步和如何到参考线](https://go.microsoft.com/fwlink/p/?LinkId=313374)。
 
 > [!NOTE]
-> 安装 AD FS 2.0 时，请勿使用 Windows Server Manager 添加联合身份验证服务角色。 而是下载并安装 [Active Directory 联合身份验证服务 2.0 RTW 程序包](https://go.microsoft.com/fwlink/p/?LinkId=313375)。
+> 安装 AD FS 2.0 时，请勿使用 Windows Server Manager 添加联合身份验证服务角色。 相反，下载并安装[Active Directory 联合身份验证服务 2.0 一项包](https://go.microsoft.com/fwlink/p/?LinkId=313375)。
 
 ### <a name="to-configure-ad-fs-for-two-factor-authentication"></a>针对双重身份验证配置 AD FS
 
@@ -240,7 +241,7 @@ ms.locfileid: "25694560"
 
 - 传输层安全性客户端身份验证
 
-使用基于表单的身份验证，您可以开发一个网页以允许用户使用其用户名/密码或使用其智能卡和 PIN 进行身份验证。 本主题着重介绍如何实施传输层安全性客户端身份验证与 AD FS 2.0。 有关 AD FS 2.0 身份验证类型的详细信息，请参阅 [AD FS 2.0：如何更改本地身份验证类型](https://go.microsoft.com/fwlink/p/?LinkId=313384)。
+使用基于表单的身份验证，您可以开发一个网页以允许用户使用其用户名/密码或使用其智能卡和 PIN 进行身份验证。 本主题着重介绍如何实施传输层安全性客户端身份验证与 AD FS 2.0。 有关 AD FS 2.0 身份验证类型的详细信息，请参阅[AD FS 2.0： 如何更改本地身份验证类型](https://go.microsoft.com/fwlink/p/?LinkId=313384)。
 
 ### <a name="to-configure-ad-fs-20-to-support-client-authentication"></a>配置 AD FS 2.0 以支持客户端身份验证
 

@@ -1,5 +1,6 @@
 ---
 title: 设备更新
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 description: Microsoft 会定期会的 Skype 的一组新的设备固件更新业务 Phone edition，您可以导入到您的服务器，并将分发给用户发布。 您可以通过 Microsoft 网站上转到帮助和支持页上，并搜索 forPhone Edition.Download 的最新的更新程序包获取最新的设备更新规则集，并将文件提取到的文件夹的计算机上，更新要上载。 解压缩文件后，可以使用 Import-CsDeviceUpdate cmdlet 导入解压缩后的 .CAB 文件（其名称为 UCUpdates.cab）中包含的设备更新规则。 有关详细信息，请参阅 Import-csdeviceupdate。
-ms.openlocfilehash: e016dd80e809e98b58b3260e0d29e669773ddbd9
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 271803e5a04f09ceda1fb98aced4501d3a08183e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255086"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889454"
 ---
 # <a name="device-update"></a>设备更新
 
@@ -58,7 +59,7 @@ Microsoft 会定期会的 Skype 的一组新的设备固件更新业务 Phone ed
 
 - **刷新**您可以刷新列表以验证所有设备更新的状态。
 
-有关设备更新 Web 服务的详细信息，请参阅规划文档中的[View Software Updates for Devices in Your Organization](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) 。
+有关设备更新 Web 服务的详细信息，请参阅规划文档中的[View Software Updates for Devices in Your Organization](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)。
 ## <a name="see-also"></a>另请参阅
 
 [Import-csdeviceupdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)

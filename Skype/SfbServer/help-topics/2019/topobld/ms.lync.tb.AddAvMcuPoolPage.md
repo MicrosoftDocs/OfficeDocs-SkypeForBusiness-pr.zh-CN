@@ -1,5 +1,6 @@
 ---
-title: 添加 A / V MCU 池
+title: 添加 A/V MCU 池
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 所有 Enterprise Edition 前端服务器的中央站点没有并置的 A / V 会议服务可以使用相同的独立 A / V 会议池。 每个 a / V 会议池，必须指定完全限定的域名 (FQDN) 的池以及是否将具有单个 A / V 会议服务器或多个负载平衡 A / V 会议服务器。
-ms.openlocfilehash: c58d2e405d642209f91e38d98d5c6cbef924cd2e
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: f88476165ce6affe23e9e5cbb33e03a997c04971
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060086"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888131"
 ---
-# <a name="add-av-mcu-pool"></a>添加 A / V MCU 池
+# <a name="add-av-mcu-pool"></a>添加 A/V MCU 池
  
 所有 Enterprise Edition 前端服务器的中央站点没有并置的 A / V 会议服务可以使用相同的独立 A / V 会议池。 每个 a / V 会议池，必须指定完全限定的域名 (FQDN) 的池以及是否将具有单个 A / V 会议服务器或多个负载平衡 A / V 会议服务器。
   

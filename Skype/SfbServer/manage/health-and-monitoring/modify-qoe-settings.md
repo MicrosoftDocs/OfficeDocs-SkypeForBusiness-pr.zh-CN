@@ -1,5 +1,6 @@
 ---
 title: 修改业务服务器 Skype 中的用户体验质量设置
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: 摘要： 了解如何为业务服务器中 Skype 指定 QoE 数据的保留。
-ms.openlocfilehash: 743f3df6f58392e7d9107be9ae4c9313ef7a6781
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 4a2197d3d66a5b871682ba187bf607480f2da175
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243451"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887454"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>修改业务服务器 Skype 中的用户体验质量设置
 
@@ -29,7 +30,7 @@ ms.locfileid: "23243451"
 
 ### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 指定 QoE 数据的保留
 
-1.  以 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator、 CsServerAdministrator 或 CsAdministrator 角色的成员身份登录到计算机。 有关详细信息，请参阅**Delegate Setup Permissions**。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。有关详细信息，请参阅**Delegate Setup Permissions**。
 
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。
 
@@ -67,4 +68,4 @@ ms.locfileid: "23243451"
 
 ## <a name="see-also"></a>另请参阅
 
-[部署监控](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

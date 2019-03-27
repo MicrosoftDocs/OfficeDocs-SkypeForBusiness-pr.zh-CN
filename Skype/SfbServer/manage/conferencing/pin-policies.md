@@ -1,5 +1,6 @@
 ---
 title: 管理 Business Server （英文） 中 Skype 电话拨入式会议 PIN 策略
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 摘要： 了解如何管理业务服务器中 Skype 电话拨入式会议 PIN 策略。
-ms.openlocfilehash: 0fd6d8a3ebfaeee0c6b4b3757a7b58b8d3882d71
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 29fd3e2fff1628eaa96d7296e8fe9d7b9183d690
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013412"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893319"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>管理 Business Server （英文） 中 Skype 电话拨入式会议 PIN 策略
  
@@ -26,7 +27,7 @@ Skype 的组织中拥有 Active Directory 域服务 (AD DS) 凭据的企业服�
   
 如果要将特定策略应用于某个站点或某个用户组，可以创建新的 PIN 策略。
   
-PIN 策略既可以应用于少数用户，也可以应用于众多用户。如果为用户分配用户级别的 PIN 策略，则优先应用这些设置。如果没有分配用户策略，则将应用站点级别的 PIN 策略（如果存在）。如果未应用用户策略或站点策略，则全局 PIN 策略会提供默认设置。
+PIN 策略既可以应用于少数用户，也可以应用于众多用户。 如果为用户分配用户级别的 PIN 策略，则优先应用这些设置。 如果没有分配用户策略，则将应用站点级别的 PIN 策略（如果存在）。 如果未应用用户策略或站点策略，则全局 PIN 策略会提供默认设置。
   
 ## <a name="view-information-about-pin-policies"></a>查看有关 PIN 策略的信息
 

@@ -1,5 +1,6 @@
 ---
-title: 在业务服务器 2015年的 Skype 应用程序表
+title: 应用程序表中的业务服务器 2015 Skype
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 30938426-e2f9-4735-a7f4-59baf7a7d7e6
-description: 此表存储在路由和连接所涉及的业务服务器 2015年在 Skype 的各种进程有关的信息。
-ms.openlocfilehash: 92f7609d35d0c669c7eeca0fc641b5df0677eaed
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 该表存储路由和连接涉及的业务服务器 2015年有关 Skype 内的各种进程的信息。
+ms.openlocfilehash: 3525943066845b485888bc0d467df7fd478d5bb8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886821"
 ---
-# <a name="application-table-in-skype-for-business-server-2015"></a>在业务服务器 2015年的 Skype 应用程序表
+# <a name="application-table-in-skype-for-business-server-2015"></a>应用程序表中的业务服务器 2015 Skype
  
-此表存储在路由和连接所涉及的业务服务器 2015年在 Skype 的各种进程有关的信息。
+该表存储路由和连接涉及的业务服务器 2015年有关 Skype 内的各种进程的信息。
   
 |**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|

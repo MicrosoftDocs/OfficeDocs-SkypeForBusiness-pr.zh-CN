@@ -1,5 +1,6 @@
 ---
-title: 安装数据库选项页
+title: 安装数据库选项页面
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 description: 配置高级的选项的 SQL Server 上的数据库和日志文件的位置。 可用的选项是：
-ms.openlocfilehash: 70e8a8024b24d334eb0e1e26bfa3ba45d7fd6b2d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: e610b28bc4cf1c6ce2bcac5f155e6e65e7fdc363
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242265"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892355"
 ---
-# <a name="install-database-options-page"></a>安装数据库选项页
+# <a name="install-database-options-page"></a>安装数据库选项页面
 
 配置高级的选项的 SQL Server 上的数据库和日志文件的位置。 可用的选项是：
 

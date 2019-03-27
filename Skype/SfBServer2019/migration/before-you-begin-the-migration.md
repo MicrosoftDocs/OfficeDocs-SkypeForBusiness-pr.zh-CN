@@ -1,5 +1,6 @@
 ---
-title: 开始迁移之前
+title: 开始迁移之前的准备工作
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 在开始之前，我们建议您阅读本文档和随后的指南，以使自己熟悉部署相应的角色：
-ms.openlocfilehash: 6ecf783ceb2d3b98ab4e9d93dfec6d87bc1ce506
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 695e70e4517bc24c239f2c99c1bbcb3f65420785
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029424"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888603"
 ---
-# <a name="before-you-begin-the-migration"></a>开始迁移之前
+# <a name="before-you-begin-the-migration"></a>开始迁移之前的准备工作
 
 在开始之前，我们建议您阅读以下文章，以使自己熟悉部署相应的角色。
     

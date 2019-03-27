@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business 中规划 Exchange 统一消息集成
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 摘要： 查看 while planning to Exchange 2013 或 2016年业务服务器集成 Skype 本主题。
-ms.openlocfilehash: ee6e6bc81c4bd0b2291b7f4be7ceb13894d2aec2
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 951b31e36290bda0d6bd171c4a7df8f6aa4ff337
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059185"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886015"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>在 Skype for Business 中规划 Exchange 统一消息集成
 
@@ -132,9 +133,9 @@ Skype 业务服务器支持 Exchange UM 集成的以下拓扑：
 
 有关如何启用或禁用 Microsoft Exchange Server 2010 统一消息的详细信息，请参阅：
 
-- [在 Exchange 2010 上启用统一消息](https://go.microsoft.com/fwlink/p/?LinkId=204418)
+- [启用 Exchange 2010 统一消息](https://go.microsoft.com/fwlink/p/?LinkId=204418)
 
-- [在 Exchange 2010 上禁用统一消息](https://go.microsoft.com/fwlink/p/?LinkId=204416)
+- [禁用 Exchange 2010 统一消息](https://go.microsoft.com/fwlink/p/?LinkId=204416)
 
 ### <a name="exchange-server-2019"></a>Exchange Server 2019
 

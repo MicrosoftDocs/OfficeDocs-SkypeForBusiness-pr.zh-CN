@@ -1,5 +1,6 @@
 ---
 title: SIP 视频中继设置扩展器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39e21ee3-3b4e-4ef3-b977-5abeec63bcff
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机 VIS Skype 池中创建的业务服务器 2015年。
-ms.openlocfilehash: aa304487c5ce69020fb806a93b2a0883defa4d9e
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: bfab660ab5bb6286c58f79402272eed02d24ee52
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504535"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891365"
 ---
 # <a name="sip-video-trunk-setting-expander"></a>SIP 视频中继设置扩展器
  

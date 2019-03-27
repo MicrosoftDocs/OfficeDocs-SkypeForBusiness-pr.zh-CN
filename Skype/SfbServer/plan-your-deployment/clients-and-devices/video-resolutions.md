@@ -1,5 +1,6 @@
 ---
 title: Skype 业务的客户端视频分辨率
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 摘要： 规划的 Skype 业务 Server 时查看客户端视频要求。
-ms.openlocfilehash: 0150acf98a2d5219975cf33c573f31f755db62f0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a17e3e269f24e74c5403c053723d544898560f34
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886141"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886688"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype 业务的客户端视频分辨率
  
@@ -66,23 +67,23 @@ Windows 系统评估工具 (WinSAT) 确定 WEI。在运行 WinSAT 工具时，�
 
 |**支持的编码器分辨率**|**支持的解码器分辨率**|**要求**|
 |:-----|:-----|:-----|
-|424 x 240  <br/> |424x240（对于仅接收方案，分辨率为 640x360，帧速率为15fps）  <br/> |单核且 VideoEncodeScore ≥ 4.0  <br/> |
-|640 x 360  <br/> |640 x 360  <br/> |双核且 VideoEncodeScore ≥ 4.5  <br/> |
-|640 x 360  <br/> |1280 x 720  <br/> |双核且 VideoEncodeScore ≥ 4.5  <br/> |
-|640 x 360  <br/> |1920 x 1080  <br/> |四核且 VideoEncodeScore ≥ 4.5  <br/> |
-|1280 x 720  <br/> |1280 x 720  <br/> |四核且 VideoEncodeScore ≥ 7.3  <br/> |
-|1280 x 720  <br/> |1920 x 1080  <br/> |四核且 VideoEncodeScore ≥ 7.3  <br/> |
-|1920 x 1080  <br/> |1920 x 1080  <br/> |不适用  <br/> |
+|424x240  <br/> |424x240（对于仅接收方案，分辨率为 640x360，帧速率为15fps）  <br/> |单核且 VideoEncodeScore ≥ 4.0  <br/> |
+|640x360  <br/> |640x360  <br/> |双核且 VideoEncodeScore ≥ 4.5  <br/> |
+|640x360  <br/> |1280x720  <br/> |双核且 VideoEncodeScore ≥ 4.5  <br/> |
+|640x360  <br/> |1920x1080  <br/> |四核且 VideoEncodeScore ≥ 4.5  <br/> |
+|1280x720  <br/> |1280x720  <br/> |四核且 VideoEncodeScore ≥ 7.3  <br/> |
+|1280x720  <br/> |1920x1080  <br/> |四核且 VideoEncodeScore ≥ 7.3  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |不适用  <br/> |
    
 **带 DXVA 但不带硬件加速编码器的计算机**
 
 |**支持的编码器分辨率**|**支持的解码器分辨率**|**要求**|
 |:-----|:-----|:-----|
-|424 x 240  <br/> |1920 x 1080  <br/> |单核且 VideoEncodeScore ≥ 3.0  <br/> |
-|640 x 360  <br/> |1920 x 1080  <br/> |双核且 VideoEncodeScore ≥ 4.5  <br/> |
-|高 960 x 540  <br/> |1920 x 1080  <br/> |双核且 VideoEncodeScore ≥ 6.0  <br/> |
-|1280 x 720  <br/> |1920 x 1080  <br/> |四核且 VideoEncodeScore ≥ 6.7  <br/> |
-|1920 x 1080  <br/> |1920 x 1080  <br/> |四核且 VideoEncodeScore ≥ 8.2  <br/> |
+|424x240  <br/> |1920x1080  <br/> |单核且 VideoEncodeScore ≥ 3.0  <br/> |
+|640x360  <br/> |1920x1080  <br/> |双核且 VideoEncodeScore ≥ 4.5  <br/> |
+|960x540  <br/> |1920x1080  <br/> |双核且 VideoEncodeScore ≥ 6.0  <br/> |
+|1280x720  <br/> |1920x1080  <br/> |四核且 VideoEncodeScore ≥ 6.7  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |四核且 VideoEncodeScore ≥ 8.2  <br/> |
    
 > [!NOTE]
 > Windows 7 上的 WinSAT 分数最高为 7.9。因此，不带硬件加速编码器的计算机的编码功能仅可在 Windows 8 或 Windows 8.1 上实现，其中最高 WinSAT 分数为 9.9。 
@@ -91,8 +92,8 @@ Windows 系统评估工具 (WinSAT) 确定 WEI。在运行 WinSAT 工具时，�
 
 |**支持的编码器分辨率**|**支持的解码器分辨率**|**要求**|
 |:-----|:-----|:-----|
-|1280 x 720  <br/> |1920 x 1080  <br/> |所有第 2 代和第 3 代 Intel 高清显卡  <br/> |
-|1920 x 1080  <br/> |1920 x 1080  <br/> |第 2 代和第 3 代 Intel 高清显卡且 GraphicsScore ≥ 5.0  <br/> |
+|1280x720  <br/> |1920x1080  <br/> |所有第 2 代和第 3 代 Intel 高清显卡  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |第 2 代和第 3 代 Intel 高清显卡且 GraphicsScore ≥ 5.0  <br/> |
    
 ## <a name="mobile-device-video-capabilities"></a>移动设备视频功能
 

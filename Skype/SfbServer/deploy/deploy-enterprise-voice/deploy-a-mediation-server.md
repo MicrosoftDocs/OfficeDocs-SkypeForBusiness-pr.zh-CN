@@ -1,5 +1,6 @@
 ---
 title: 业务服务器部署在拓扑生成器中 Skype 在中介服务器
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 摘要： 了解如何定义和部署业务服务器在拓扑生成器中 Skype 在中介服务器。
-ms.openlocfilehash: 5e4221230fbaf993b5bf3d2b647e6d7e6e7ada51
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 558c1324b488d36f69f760a2dc0484f22586d93c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371919"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885604"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>业务服务器部署在拓扑生成器中 Skype 在中介服务器
  

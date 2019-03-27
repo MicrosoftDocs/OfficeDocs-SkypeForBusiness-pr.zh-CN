@@ -1,5 +1,6 @@
 ---
 title: 持久聊天服务器表详细信息
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
 description: 以下主题详细介绍每个持久聊天数据库架构表中的列。
-ms.openlocfilehash: 016974ff261cd862b888158f729e4baaff504366
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5ee15bfab456f2e2e5c1ea535a1b521f9544a352
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992796"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889651"
 ---
 # <a name="persistent-chat-server-table-details"></a>持久聊天服务器表详细信息
  
@@ -31,7 +32,7 @@ ms.locfileid: "20992796"
     
 - [tblPrincipalMembers](tblprincipalmembers.md)
     
-- [tblprincipalmeta 表](tblprincipalmeta.md)
+- [tblPrincipalMeta](tblprincipalmeta.md)
     
 - [tblSkippedAffiliations](tblskippedaffiliations.md)
     
@@ -53,7 +54,7 @@ ms.locfileid: "20992796"
     
 - [tblEnumAttribute](tblenumattribute.md)
     
-- [tblenumvalue 表](tblenumvalue.md)
+- [tblEnumValue](tblenumvalue.md)
     
 - [tblPrincipalInvites](tblprincipalinvites.md)
     

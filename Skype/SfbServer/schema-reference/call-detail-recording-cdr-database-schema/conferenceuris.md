@@ -1,5 +1,6 @@
 ---
-title: 在业务服务器 2015年的 Skype 的 ConferenceUris 表
+title: ConferenceUris 表中的业务服务器 2015 Skype
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,23 +10,24 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
-description: ConfereneUris 表是一个支持的表来存储各种会议参加讲座记录在数据库中的 Uri 的列表。 每个表中的记录表示一个会议的 URI。
-ms.openlocfilehash: 921bb448ffe50d62aa7680db0e8097c186eef8e7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: ConfereneUris 表是一个支持表，用于存储各种会议已参与记录数据库中的会议会话的 Uri 的列表。 表中的每条记录代表一个会议 URI。
+ms.openlocfilehash: 6f373774b652e9858af84dd4c16b51fcb3c5d493
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887769"
 ---
-# <a name="conferenceuris-table-in-skype-for-business-server-2015"></a>在业务服务器 2015年的 Skype 的 ConferenceUris 表
+# <a name="conferenceuris-table-in-skype-for-business-server-2015"></a>ConferenceUris 表中的业务服务器 2015 Skype
  
-ConfereneUris 表是一个支持的表来存储各种会议参加讲座记录在数据库中的 Uri 的列表。 每个表中的记录表示一个会议的 URI。
+ConfereneUris 表是一个支持表，用于存储各种会议已参与记录数据库中的会议会话的 Uri 的列表。 表中的每条记录代表一个会议 URI。
   
 |**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**NextUpdateTS** <br/> |datetime  <br/> |Primary  <br/> |内部使用的时间戳。  <br/> |
-|**ConferenceUriId** <br/> |int  <br/> |Primary  <br/> |标识的 URI 的这次会议的唯一编号。  <br/> |
-|**ConferenceUri** <br/> |nvarchar(450)  <br/> ||会议的 URI。  <br/> |
-|**校验和** <br/> |int  <br/> ||ConferenceUri 的校验和。 使用为增加数据库搜索的速度。  <br/> |
-|**UriTypeId** <br/> |int  <br/> |外  <br/> |URI 类型，如 IM 会议或 conf:audio conf:chat-视频的音频/视频会议。 [UriTypes](uritypes.md)表的详细信息，请参阅。 <br/> |
+|**ConferenceUriId** <br/> |int  <br/> |Primary  <br/> |标识此会议 URI 的唯一编号。  <br/> |
+|**ConferenceUri** <br/> |nvarchar(450)  <br/> ||会议 URI。  <br/> |
+|**校验和** <br/> |int  <br/> ||ConferenceUri 校验和。 使用到提高的搜索数据库的速度。  <br/> |
+|**UriTypeId** <br/> |int  <br/> |外  <br/> |URI 类型，如 IM 会议，或 conf:audio conf:chat-音频/视频会议的视频。 [UriTypes 表](uritypes.md)表的详细信息，请参阅。 <br/> |
    
 
