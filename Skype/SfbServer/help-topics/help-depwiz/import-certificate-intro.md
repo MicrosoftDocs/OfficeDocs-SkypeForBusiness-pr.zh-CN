@@ -1,5 +1,6 @@
 ---
-title: 导入证书 （简介）
+title: 导入证书（简介）
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,20 +13,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 description: 若要导入证书，必须提供的证书文件的路径。 在选择证书文件文本框中，您可以键入完整路径和文件名，或单击浏览按钮，导航到路径位置和文件名 （通常 p7b、.pfx 或.cer 文件）。
-ms.openlocfilehash: b6397595a0996e85c97898219ea8fcd3e326b69b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5006fa68b4b19fe312d92a3dc641f1ab61638e72
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998390"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881986"
 ---
-# <a name="import-certificate-intro"></a><span data-ttu-id="87b15-104">导入证书 （简介）</span><span class="sxs-lookup"><span data-stu-id="87b15-104">Import Certificate (Intro)</span></span>
+# <a name="import-certificate-intro"></a><span data-ttu-id="58fc7-104">导入证书（简介）</span><span class="sxs-lookup"><span data-stu-id="58fc7-104">Import Certificate (Intro)</span></span>
  
-<span data-ttu-id="87b15-105">若要导入证书，必须提供的证书文件的路径。</span><span class="sxs-lookup"><span data-stu-id="87b15-105">To import a certificate, you must provide a path to the certificate file.</span></span> <span data-ttu-id="87b15-106">在**选择证书文件**文本框中，您可以键入完整路径和文件名，或单击**浏览**按钮，导航到路径位置和文件名 （通常 p7b、.pfx 或.cer 文件）。</span><span class="sxs-lookup"><span data-stu-id="87b15-106">In the **Select Certificate file** text box, you can either type the full path and file name, or click the **Browse** button and navigate to the path location and the file name (typically, a .p7b, .pfx, or .cer file).</span></span>
+<span data-ttu-id="58fc7-105">若要导入证书，必须提供的证书文件的路径。</span><span class="sxs-lookup"><span data-stu-id="58fc7-105">To import a certificate, you must provide a path to the certificate file.</span></span> <span data-ttu-id="58fc7-106">在**选择证书文件**文本框中，您可以键入完整路径和文件名，或单击**浏览**按钮，导航到路径位置和文件名 （通常 p7b、.pfx 或.cer 文件）。</span><span class="sxs-lookup"><span data-stu-id="58fc7-106">In the **Select Certificate file** text box, you can either type the full path and file name, or click the **Browse** button and navigate to the path location and the file name (typically, a .p7b, .pfx, or .cer file).</span></span>
   
-<span data-ttu-id="87b15-107">如果证书包含私钥，选择**证书文件包含证书的私钥**复选框。</span><span class="sxs-lookup"><span data-stu-id="87b15-107">If the certificate contains a private key, select the check box **Certificate file contains certificate's private key**.</span></span> <span data-ttu-id="87b15-108">选中此复选框后，启用**密码**文本输入。</span><span class="sxs-lookup"><span data-stu-id="87b15-108">When this check box is selected, the **Password** text input is enabled.</span></span> <span data-ttu-id="87b15-109">如果您具有私钥与之关联的证书，密码通常放置在私钥创建证书时。</span><span class="sxs-lookup"><span data-stu-id="87b15-109">If you have a certificate with a private key associated with it, a password is usually placed on the private key when the certificate is created.</span></span> <span data-ttu-id="87b15-110">输入允许证书的私钥和导入证书存储的私钥的密码。</span><span class="sxs-lookup"><span data-stu-id="87b15-110">You input the password for the private key to allow the certificate and the private key to be imported into the certificate store.</span></span> <span data-ttu-id="87b15-111">当您提供了信息的证书文件路径和私钥密码，（可选） 如果需要，请单击**下一步**。</span><span class="sxs-lookup"><span data-stu-id="87b15-111">When you have provided the information for the certificate file path, and optionally the private key password, if required, click **Next**.</span></span>
+<span data-ttu-id="58fc7-107">如果证书包含私钥，选择**证书文件包含证书的私钥**复选框。</span><span class="sxs-lookup"><span data-stu-id="58fc7-107">If the certificate contains a private key, select the check box **Certificate file contains certificate's private key**.</span></span> <span data-ttu-id="58fc7-108">选中此复选框后，启用**密码**文本输入。</span><span class="sxs-lookup"><span data-stu-id="58fc7-108">When this check box is selected, the **Password** text input is enabled.</span></span> <span data-ttu-id="58fc7-109">如果您具有私钥与之关联的证书，密码通常放置在私钥创建证书时。</span><span class="sxs-lookup"><span data-stu-id="58fc7-109">If you have a certificate with a private key associated with it, a password is usually placed on the private key when the certificate is created.</span></span> <span data-ttu-id="58fc7-110">输入允许证书的私钥和导入证书存储的私钥的密码。</span><span class="sxs-lookup"><span data-stu-id="58fc7-110">You input the password for the private key to allow the certificate and the private key to be imported into the certificate store.</span></span> <span data-ttu-id="58fc7-111">当您提供了信息的证书文件路径和私钥密码，（可选） 如果需要，请单击**下一步**。</span><span class="sxs-lookup"><span data-stu-id="58fc7-111">When you have provided the information for the certificate file path, and optionally the private key password, if required, click **Next**.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="87b15-112">如果您不知道私钥的密码，导入将失败。</span><span class="sxs-lookup"><span data-stu-id="87b15-112">If you do not know the password for the private key, the import will fail.</span></span> 
+> <span data-ttu-id="58fc7-112">如果您不知道私钥的密码，导入将失败。</span><span class="sxs-lookup"><span data-stu-id="58fc7-112">If you do not know the password for the private key, the import will fail.</span></span> 
   
 

@@ -1,5 +1,6 @@
 ---
 title: 存档策略
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,58 +13,58 @@ localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用存档策略以启用和禁用存档的用户的企业服务器驻留在 Skype。 在每个存档策略中，您可以对以下任一项或者两项启用或禁用存档：
-ms.openlocfilehash: d673aa5474864d99895efc1e16e1e307f078c72f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4af5b5d8eb0f59d6899a73b7de6516d665fe041e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973819"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884794"
 ---
-# <a name="archiving-policy"></a><span data-ttu-id="12171-104">存档策略</span><span class="sxs-lookup"><span data-stu-id="12171-104">Archiving Policy</span></span>
+# <a name="archiving-policy"></a><span data-ttu-id="a6fba-104">存档策略</span><span class="sxs-lookup"><span data-stu-id="a6fba-104">Archiving Policy</span></span>
  
-<span data-ttu-id="12171-105">使用存档策略以启用和禁用存档的用户的企业服务器驻留在 Skype。</span><span class="sxs-lookup"><span data-stu-id="12171-105">You use Archiving policies to enable and disable archiving for users homed on Skype for Business Server.</span></span> <span data-ttu-id="12171-106">在每个存档策略中，您可以对以下任一项或者两项启用或禁用存档：</span><span class="sxs-lookup"><span data-stu-id="12171-106">In each Archiving policy, you can enable or disable archiving for either or both of the following:</span></span>
+<span data-ttu-id="a6fba-105">使用存档策略以启用和禁用存档的用户的企业服务器驻留在 Skype。</span><span class="sxs-lookup"><span data-stu-id="a6fba-105">You use Archiving policies to enable and disable archiving for users homed on Skype for Business Server.</span></span> <span data-ttu-id="a6fba-106">在每个存档策略中，您可以对以下任一项或者两项启用或禁用存档：</span><span class="sxs-lookup"><span data-stu-id="a6fba-106">In each Archiving policy, you can enable or disable archiving for either or both of the following:</span></span>
   
-- <span data-ttu-id="12171-107">内部通信</span><span class="sxs-lookup"><span data-stu-id="12171-107">Internal communications</span></span>
+- <span data-ttu-id="a6fba-107">内部通信</span><span class="sxs-lookup"><span data-stu-id="a6fba-107">Internal communications</span></span>
     
-- <span data-ttu-id="12171-108">外部通信（在内部网络之外至少包含一位用户的通信）</span><span class="sxs-lookup"><span data-stu-id="12171-108">External communications (communications that include at least one user outside your internal network)</span></span>
+- <span data-ttu-id="a6fba-108">外部通信（在内部网络之外至少包含一位用户的通信）</span><span class="sxs-lookup"><span data-stu-id="a6fba-108">External communications (communications that include at least one user outside your internal network)</span></span>
     
-<span data-ttu-id="12171-109">存档策略包括全局策略以及可选的一个或多个站点和用户存档策略：</span><span class="sxs-lookup"><span data-stu-id="12171-109">Archiving policies include the global policy, and, optionally, one or more site and user Archiving policies:</span></span>
+<span data-ttu-id="a6fba-109">存档策略包括全局策略以及可选的一个或多个站点和用户存档策略：</span><span class="sxs-lookup"><span data-stu-id="a6fba-109">Archiving policies include the global policy, and, optionally, one or more site and user Archiving policies:</span></span>
   
-- <span data-ttu-id="12171-110">**全局策略**默认情况下，所有部署中创建的全局策略。</span><span class="sxs-lookup"><span data-stu-id="12171-110">**Global policy** The global policy is created by default in all deployments.</span></span> <span data-ttu-id="12171-111">您可以编辑全局策略，但无法删除此策略。</span><span class="sxs-lookup"><span data-stu-id="12171-111">You can edit the global policy, but you cannot delete this policy.</span></span> <span data-ttu-id="12171-112">如果您尝试将其删除，则所有选项将重置为默认值。</span><span class="sxs-lookup"><span data-stu-id="12171-112">If you try to delete it, all options are reset to the defaults.</span></span>
+- <span data-ttu-id="a6fba-110">**全局策略**默认情况下，所有部署中创建的全局策略。</span><span class="sxs-lookup"><span data-stu-id="a6fba-110">**Global policy** The global policy is created by default in all deployments.</span></span> <span data-ttu-id="a6fba-111">您可以编辑全局策略，但无法删除此策略。</span><span class="sxs-lookup"><span data-stu-id="a6fba-111">You can edit the global policy, but you cannot delete this policy.</span></span> <span data-ttu-id="a6fba-112">如果您尝试将其删除，则所有选项将重置为默认值。</span><span class="sxs-lookup"><span data-stu-id="a6fba-112">If you try to delete it, all options are reset to the defaults.</span></span>
     
-- <span data-ttu-id="12171-113">**（可选） 的站点策略**您可以指定一个或多个站点存档策略，您可以配置每种启用和禁用单个站点的内部或外部通信的存档。</span><span class="sxs-lookup"><span data-stu-id="12171-113">**Site policy (optional)** You can specify one or more site Archiving policies, each of which you can configure to enable and disable archiving of internal or external communications for a single site.</span></span> <span data-ttu-id="12171-114">站点策略会覆盖全局策略，但仅限于在存档站点策略中指定的站点。</span><span class="sxs-lookup"><span data-stu-id="12171-114">A site policy overrides the global policy, but only for the sites specified in your Archiving site policies.</span></span> <span data-ttu-id="12171-115">可以编辑或删除站点策略。</span><span class="sxs-lookup"><span data-stu-id="12171-115">You can edit or delete site policies.</span></span>
+- <span data-ttu-id="a6fba-113">**（可选） 的站点策略**您可以指定一个或多个站点存档策略，您可以配置每种启用和禁用单个站点的内部或外部通信的存档。</span><span class="sxs-lookup"><span data-stu-id="a6fba-113">**Site policy (optional)** You can specify one or more site Archiving policies, each of which you can configure to enable and disable archiving of internal or external communications for a single site.</span></span> <span data-ttu-id="a6fba-114">站点策略会覆盖全局策略，但仅限于在存档站点策略中指定的站点。</span><span class="sxs-lookup"><span data-stu-id="a6fba-114">A site policy overrides the global policy, but only for the sites specified in your Archiving site policies.</span></span> <span data-ttu-id="a6fba-115">可以编辑或删除站点策略。</span><span class="sxs-lookup"><span data-stu-id="a6fba-115">You can edit or delete site policies.</span></span>
     
-- <span data-ttu-id="12171-116">**（可选） 的用户策略**您可以指定一个或多个用户存档策略，您可以配置每种启用和禁用存档的内部或外部通信的特定用户或用户组。</span><span class="sxs-lookup"><span data-stu-id="12171-116">**User policy (optional)** You can specify one or more user Archiving policies, each of which you can configure to enable and disable archiving of internal or external communications for a specific user or user group.</span></span> <span data-ttu-id="12171-117">用户策略会覆盖全局策略和站点策略，但仅限于分配了用户级别存档策略的用户和用户组。</span><span class="sxs-lookup"><span data-stu-id="12171-117">A user policy overrides the global policy and site policies, but only for the users and user groups to whom you assign user-level Archiving policies.</span></span> <span data-ttu-id="12171-118">可以编辑或删除用户策略。</span><span class="sxs-lookup"><span data-stu-id="12171-118">You can edit or delete user policies.</span></span>
+- <span data-ttu-id="a6fba-116">**（可选） 的用户策略**您可以指定一个或多个用户存档策略，您可以配置每种启用和禁用存档的内部或外部通信的特定用户或用户组。</span><span class="sxs-lookup"><span data-stu-id="a6fba-116">**User policy (optional)** You can specify one or more user Archiving policies, each of which you can configure to enable and disable archiving of internal or external communications for a specific user or user group.</span></span> <span data-ttu-id="a6fba-117">用户策略会覆盖全局策略和站点策略，但仅限于分配了用户级别存档策略的用户和用户组。</span><span class="sxs-lookup"><span data-stu-id="a6fba-117">A user policy overrides the global policy and site policies, but only for the users and user groups to whom you assign user-level Archiving policies.</span></span> <span data-ttu-id="a6fba-118">可以编辑或删除用户策略。</span><span class="sxs-lookup"><span data-stu-id="a6fba-118">You can edit or delete user policies.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="12171-119">存档策略仅适用于用户的企业服务器驻留在 Skype 上。</span><span class="sxs-lookup"><span data-stu-id="12171-119">Archiving policies apply only to users homed on Skype for Business Server.</span></span> <span data-ttu-id="12171-120">如果您使用 Exchange 集成在 Microsoft Exchange 中存储存档数据，则 Exchange 策略控制的存档用户驻留在 Exchange 中。</span><span class="sxs-lookup"><span data-stu-id="12171-120">If you use Exchange integration to store archiving data in Microsoft Exchange, then Exchange policies control archiving for users homed on Exchange.</span></span> <span data-ttu-id="12171-121">要启用存档这些用户，用户邮箱必须置于就地保留上。</span><span class="sxs-lookup"><span data-stu-id="12171-121">To enable archiving for those users, the user's mailbox must be placed on In-Place Hold.</span></span> 
+> <span data-ttu-id="a6fba-119">存档策略仅适用于用户的企业服务器驻留在 Skype 上。</span><span class="sxs-lookup"><span data-stu-id="a6fba-119">Archiving policies apply only to users homed on Skype for Business Server.</span></span> <span data-ttu-id="a6fba-120">如果您使用 Exchange 集成在 Microsoft Exchange 中存储存档数据，则 Exchange 策略控制的存档用户驻留在 Exchange 中。</span><span class="sxs-lookup"><span data-stu-id="a6fba-120">If you use Exchange integration to store archiving data in Microsoft Exchange, then Exchange policies control archiving for users homed on Exchange.</span></span> <span data-ttu-id="a6fba-121">要启用存档这些用户，用户邮箱必须置于就地保留上。</span><span class="sxs-lookup"><span data-stu-id="a6fba-121">To enable archiving for those users, the user's mailbox must be placed on In-Place Hold.</span></span> 
   
-<span data-ttu-id="12171-p107">“**存档策略**”页将列出为部署配置的每个存档策略。该页还将显示策略名称、范围（全局、站点或用户）以及为每个存档策略启用的存档选项。在“**存档策略**”页上，您有以下选项：</span><span class="sxs-lookup"><span data-stu-id="12171-p107">The **Archiving Policy** page lists each Archiving policy that is configured for your deployment. It also shows the policy name, scope (global, site, or user), and which archiving options are enabled for each Archiving policy. From the **Archiving Policy** page, you have the following options:</span></span>
-- <span data-ttu-id="12171-125">**新**您可以添加一个或多个以下可选存档策略：</span><span class="sxs-lookup"><span data-stu-id="12171-125">**New** You can add one or more of each of the following optional Archiving policies:</span></span>
+<span data-ttu-id="a6fba-p107">“**存档策略**”页将列出为部署配置的每个存档策略。该页还将显示策略名称、范围（全局、站点或用户）以及为每个存档策略启用的存档选项。在“**存档策略**”页上，您有以下选项：</span><span class="sxs-lookup"><span data-stu-id="a6fba-p107">The **Archiving Policy** page lists each Archiving policy that is configured for your deployment. It also shows the policy name, scope (global, site, or user), and which archiving options are enabled for each Archiving policy. From the **Archiving Policy** page, you have the following options:</span></span>
+- <span data-ttu-id="a6fba-125">**新**您可以添加一个或多个以下可选存档策略：</span><span class="sxs-lookup"><span data-stu-id="a6fba-125">**New** You can add one or more of each of the following optional Archiving policies:</span></span>
     
-  - <span data-ttu-id="12171-126">站点策略</span><span class="sxs-lookup"><span data-stu-id="12171-126">Site policy</span></span>
+  - <span data-ttu-id="a6fba-126">站点策略</span><span class="sxs-lookup"><span data-stu-id="a6fba-126">Site policy</span></span>
     
-  - <span data-ttu-id="12171-127">用户策略</span><span class="sxs-lookup"><span data-stu-id="12171-127">User policy</span></span>
+  - <span data-ttu-id="a6fba-127">用户策略</span><span class="sxs-lookup"><span data-stu-id="a6fba-127">User policy</span></span>
     
-- <span data-ttu-id="12171-128">**编辑**您可以更改的任何页面上列出的存档策略的选项。</span><span class="sxs-lookup"><span data-stu-id="12171-128">**Edit** You can change the options of any of the Archiving policies listed on the page.</span></span> <span data-ttu-id="12171-129">使用此选项，可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="12171-129">Using this option, you can do the following:</span></span>
+- <span data-ttu-id="a6fba-128">**编辑**您可以更改的任何页面上列出的存档策略的选项。</span><span class="sxs-lookup"><span data-stu-id="a6fba-128">**Edit** You can change the options of any of the Archiving policies listed on the page.</span></span> <span data-ttu-id="a6fba-129">使用此选项，可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="a6fba-129">Using this option, you can do the following:</span></span>
     
-  - <span data-ttu-id="12171-130">**显示详细信息** 此选项可打开一个对话框，您可在其中更改存档策略的存档选项。</span><span class="sxs-lookup"><span data-stu-id="12171-130">**Show details** This option opens a dialog box in which you can change the archiving options for an Archiving policy.</span></span>
+  - <span data-ttu-id="a6fba-130">**显示详细信息** 此选项可打开一个对话框，您可在其中更改存档策略的存档选项。</span><span class="sxs-lookup"><span data-stu-id="a6fba-130">**Show details** This option opens a dialog box in which you can change the archiving options for an Archiving policy.</span></span>
     
-  - <span data-ttu-id="12171-131">**全选** 此选项可选择列表中的所有存档策略。</span><span class="sxs-lookup"><span data-stu-id="12171-131">**Select all** This option selects all Archiving policies in the list.</span></span>
+  - <span data-ttu-id="a6fba-131">**全选** 此选项可选择列表中的所有存档策略。</span><span class="sxs-lookup"><span data-stu-id="a6fba-131">**Select all** This option selects all Archiving policies in the list.</span></span>
     
-  - <span data-ttu-id="12171-132">**删除** 此选项可删除所有选定的存档策略。</span><span class="sxs-lookup"><span data-stu-id="12171-132">**Delete** This option deletes all selected Archiving policies.</span></span>
+  - <span data-ttu-id="a6fba-132">**删除** 此选项可删除所有选定的存档策略。</span><span class="sxs-lookup"><span data-stu-id="a6fba-132">**Delete** This option deletes all selected Archiving policies.</span></span>
     
-- <span data-ttu-id="12171-133">**操作**您可以使用此选项可快速启用或禁用而不是编辑策略页上列出的任何策略中的内部或外部通信的存档。</span><span class="sxs-lookup"><span data-stu-id="12171-133">**Action** You can use this option to quickly enable or disable archiving of internal or external communications in any policy listed on the page, instead of editing the policy.</span></span> <span data-ttu-id="12171-134">可在**操作**下的选项取决于在存档策略当前指定哪些选项。</span><span class="sxs-lookup"><span data-stu-id="12171-134">The options available under **Action** depend on what option is currently specified in the Archiving policy.</span></span> <span data-ttu-id="12171-135">所有选项都都可用，除选项当前的存档策略生效。</span><span class="sxs-lookup"><span data-stu-id="12171-135">All options are available, except the option currently in effect for the Archiving policy.</span></span> <span data-ttu-id="12171-136">选项包括：</span><span class="sxs-lookup"><span data-stu-id="12171-136">Options include the following:</span></span>
+- <span data-ttu-id="a6fba-133">**操作**您可以使用此选项可快速启用或禁用而不是编辑策略页上列出的任何策略中的内部或外部通信的存档。</span><span class="sxs-lookup"><span data-stu-id="a6fba-133">**Action** You can use this option to quickly enable or disable archiving of internal or external communications in any policy listed on the page, instead of editing the policy.</span></span> <span data-ttu-id="a6fba-134">可在**操作**下的选项取决于在存档策略当前指定哪些选项。</span><span class="sxs-lookup"><span data-stu-id="a6fba-134">The options available under **Action** depend on what option is currently specified in the Archiving policy.</span></span> <span data-ttu-id="a6fba-135">所有选项都都可用，除选项当前的存档策略生效。</span><span class="sxs-lookup"><span data-stu-id="a6fba-135">All options are available, except the option currently in effect for the Archiving policy.</span></span> <span data-ttu-id="a6fba-136">选项包括：</span><span class="sxs-lookup"><span data-stu-id="a6fba-136">Options include the following:</span></span>
     
-  - <span data-ttu-id="12171-137">**启用内部通信的存档**</span><span class="sxs-lookup"><span data-stu-id="12171-137">**Enable Archiving of internal communications**</span></span>
+  - <span data-ttu-id="a6fba-137">**启用内部通信的存档**</span><span class="sxs-lookup"><span data-stu-id="a6fba-137">**Enable Archiving of internal communications**</span></span>
     
-  - <span data-ttu-id="12171-138">**禁用内部通信的存档**</span><span class="sxs-lookup"><span data-stu-id="12171-138">**Disable Archiving of internal communications**</span></span>
+  - <span data-ttu-id="a6fba-138">**禁用内部通信的存档**</span><span class="sxs-lookup"><span data-stu-id="a6fba-138">**Disable Archiving of internal communications**</span></span>
     
-  - <span data-ttu-id="12171-139">**启用外部通信的存档**</span><span class="sxs-lookup"><span data-stu-id="12171-139">**Enable Archiving of external communications**</span></span>
+  - <span data-ttu-id="a6fba-139">**启用外部通信的存档**</span><span class="sxs-lookup"><span data-stu-id="a6fba-139">**Enable Archiving of external communications**</span></span>
     
-  - <span data-ttu-id="12171-140">**禁用外部通信的存档**</span><span class="sxs-lookup"><span data-stu-id="12171-140">**Disable Archiving of external communications**</span></span>
+  - <span data-ttu-id="a6fba-140">**禁用外部通信的存档**</span><span class="sxs-lookup"><span data-stu-id="a6fba-140">**Disable Archiving of external communications**</span></span>
     
-- <span data-ttu-id="12171-141">**刷新**您可以刷新**存档策略**页以验证所有存档策略的选项状态。</span><span class="sxs-lookup"><span data-stu-id="12171-141">**Refresh** You can refresh the **Archiving Policy** page to verify the status of the options of all Archiving policies.</span></span>
+- <span data-ttu-id="a6fba-141">**刷新**您可以刷新**存档策略**页以验证所有存档策略的选项状态。</span><span class="sxs-lookup"><span data-stu-id="a6fba-141">**Refresh** You can refresh the **Archiving Policy** page to verify the status of the options of all Archiving policies.</span></span>
     
-<span data-ttu-id="12171-142">有关的存档功能和功能，包括 Exchange 集成的详细信息，请参阅[Plan for Business Server 的 Skype 的存档](../../../plan-your-deployment/archiving/archiving.md)、 [Skype 业务服务器存档的部署](../../../deploy/deploy-archiving/deploy-archiving.md)，和[管理存档中 Skype for Business服务器](../../../manage/archiving/archiving.md)。</span><span class="sxs-lookup"><span data-stu-id="12171-142">For details about the Archiving feature and capabilities, including Exchange integration, see [Plan for archiving in Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md), and [Manage archiving in Skype for Business Server](../../../manage/archiving/archiving.md).</span></span>
+<span data-ttu-id="a6fba-142">有关的存档功能和功能，包括 Exchange 集成的详细信息，请参阅[Plan for Business Server 的 Skype 的存档](../../../plan-your-deployment/archiving/archiving.md)、 [Skype 业务服务器存档的部署](../../../deploy/deploy-archiving/deploy-archiving.md)，和[管理存档中 Skype for Business服务器](../../../manage/archiving/archiving.md)。</span><span class="sxs-lookup"><span data-stu-id="a6fba-142">For details about the Archiving feature and capabilities, including Exchange integration, see [Plan for archiving in Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md), and [Manage archiving in Skype for Business Server](../../../manage/archiving/archiving.md).</span></span>
 

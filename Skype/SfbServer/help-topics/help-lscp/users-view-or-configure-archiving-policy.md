@@ -1,5 +1,6 @@
 ---
 title: 用户查看或配置存档策略
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,21 +12,21 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
-description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 8e23e64dd6f5351314c2612e798e8427e001d4f9
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+ms.openlocfilehash: 705abc05d50c23a76f047cb039d5e3e7d96d2fbf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241982"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883933"
 ---
-# <a name="users-view-or-configure-archiving-policy"></a><span data-ttu-id="f189f-104">用户： 查看或配置存档策略</span><span class="sxs-lookup"><span data-stu-id="f189f-104">Users: View or Configure Archiving Policy</span></span>
+# <a name="users-view-or-configure-archiving-policy"></a><span data-ttu-id="7be11-104">用户：查看或配置存档策略</span><span class="sxs-lookup"><span data-stu-id="7be11-104">Users: View or Configure Archiving Policy</span></span>
 
-<span data-ttu-id="f189f-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="f189f-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="7be11-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="7be11-105">What do you want to do?</span></span> <span data-ttu-id="7be11-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="7be11-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="f189f-107">分配每用户存档策略</span><span class="sxs-lookup"><span data-stu-id="f189f-107">Assign a Per-User Archiving Policy</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [<span data-ttu-id="7be11-107">分配每用户存档策略</span><span class="sxs-lookup"><span data-stu-id="7be11-107">Assign a Per-User Archiving Policy</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
-- [<span data-ttu-id="f189f-108">存档策略应用于用户或用户组</span><span class="sxs-lookup"><span data-stu-id="f189f-108">Apply an Archiving Policy to a User or User Group</span></span>](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
+- [<span data-ttu-id="7be11-108">存档策略应用于用户或用户组</span><span class="sxs-lookup"><span data-stu-id="7be11-108">Apply an Archiving Policy to a User or User Group</span></span>](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
 
-<span data-ttu-id="f189f-109">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="f189f-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="7be11-109">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="7be11-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

@@ -1,5 +1,6 @@
 ---
 title: 分配会议策略以支持匿名用户
+ms.reviewer: ''
 ms:assetid: 662de022-1111-40f7-bad4-f2b686f30973
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521007(v=OCS.15)
 ms:contentKeyID: 48184333
@@ -12,49 +13,49 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 您可以控制可以通过配置会议策略以支持匿名用户，并将该会议策略应用于特定用户邀请匿名用户。
-ms.openlocfilehash: 5d3ade88a9d4ca0f639d7119da53f8180af6c30d
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 62ff84b19fadbeaf0f26fa3e5869026254d28d1f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222728"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881125"
 ---
-# <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a><span data-ttu-id="f8eee-103">分配会议策略以支持匿名用户在 Skype 业务服务器</span><span class="sxs-lookup"><span data-stu-id="f8eee-103">Assign conferencing policies to support anonymous users in Skype for Business Server</span></span> 
+# <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a><span data-ttu-id="e5c80-103">分配会议策略以支持匿名用户在 Skype 业务服务器</span><span class="sxs-lookup"><span data-stu-id="e5c80-103">Assign conferencing policies to support anonymous users in Skype for Business Server</span></span> 
 
 
-<span data-ttu-id="f8eee-104">默认情况下阻止所有用户邀请匿名用户参加会议。</span><span class="sxs-lookup"><span data-stu-id="f8eee-104">By default, all users are prevented from inviting anonymous users to participate in a meeting.</span></span> <span data-ttu-id="f8eee-105">您可以控制可以通过配置会议策略以支持匿名用户，并将该会议策略应用于特定用户邀请匿名用户。</span><span class="sxs-lookup"><span data-stu-id="f8eee-105">You control who can invite anonymous users by configuring a conferencing policy to support anonymous users, and applying that conferencing policy to specific users.</span></span> <span data-ttu-id="f8eee-106">有关如何配置会议策略以支持匿名用户的详细信息，请参阅[Skype 业务服务器中的创建会议策略](../../conferencing/create-policies.md)和[管理联合身份验证和 Skype 业务服务器的外部访问](../managing-federation-and-external-access.md)。</span><span class="sxs-lookup"><span data-stu-id="f8eee-106">For details about how to configure a conferencing policies to support anonymous users, see [Create conferencing policies in Skype for Business Server](../../conferencing/create-policies.md) and [Managing federation and external access to Skype for Business Server](../managing-federation-and-external-access.md).</span></span>
+<span data-ttu-id="e5c80-104">默认情况下阻止所有用户邀请匿名用户参加会议。</span><span class="sxs-lookup"><span data-stu-id="e5c80-104">By default, all users are prevented from inviting anonymous users to participate in a meeting.</span></span> <span data-ttu-id="e5c80-105">您可以控制可以通过配置会议策略以支持匿名用户，并将该会议策略应用于特定用户邀请匿名用户。</span><span class="sxs-lookup"><span data-stu-id="e5c80-105">You control who can invite anonymous users by configuring a conferencing policy to support anonymous users, and applying that conferencing policy to specific users.</span></span> <span data-ttu-id="e5c80-106">有关如何配置会议策略以支持匿名用户的详细信息，请参阅[Skype 业务服务器中的创建会议策略](../../conferencing/create-policies.md)和[管理联合身份验证和 Skype 业务服务器的外部访问](../managing-federation-and-external-access.md)。</span><span class="sxs-lookup"><span data-stu-id="e5c80-106">For details about how to configure a conferencing policies to support anonymous users, see [Create conferencing policies in Skype for Business Server](../../conferencing/create-policies.md) and [Managing federation and external access to Skype for Business Server](../managing-federation-and-external-access.md).</span></span>
 
-<span data-ttu-id="f8eee-107">使用本节中的过程，您已创建会议策略应用于一个或多个用户或用户组。</span><span class="sxs-lookup"><span data-stu-id="f8eee-107">Use the procedure in this section to apply a conferencing policy that you have already created to one or more users or user groups.</span></span>
+<span data-ttu-id="e5c80-107">使用本节中的过程，您已创建会议策略应用于一个或多个用户或用户组。</span><span class="sxs-lookup"><span data-stu-id="e5c80-107">Use the procedure in this section to apply a conferencing policy that you have already created to one or more users or user groups.</span></span>
 
 > [!NOTE]  
-> <span data-ttu-id="f8eee-108">除了配置并应用允许用户邀请匿名用户的策略，还必须为您的组织中启用对匿名用户的支持。</span><span class="sxs-lookup"><span data-stu-id="f8eee-108">In addition to configuring and applying a policy to enable users to invite anonymous users, you must also enable support for anonymous users for your organization.</span></span> <span data-ttu-id="f8eee-109">有关详细信息，请参阅[配置策略以控制 Skype 业务服务器中的公共用户访问](../external-access-policies/configure-policies-to-control-public-user-access.md)。</span><span class="sxs-lookup"><span data-stu-id="f8eee-109">For details, see [Configure policies to control public user access in Skype for Business Server](../external-access-policies/configure-policies-to-control-public-user-access.md).</span></span>
+> <span data-ttu-id="e5c80-108">除了配置并应用允许用户邀请匿名用户的策略，还必须为您的组织中启用对匿名用户的支持。</span><span class="sxs-lookup"><span data-stu-id="e5c80-108">In addition to configuring and applying a policy to enable users to invite anonymous users, you must also enable support for anonymous users for your organization.</span></span> <span data-ttu-id="e5c80-109">有关详细信息，请参阅[配置策略以控制 Skype 业务服务器中的公共用户访问](../external-access-policies/configure-policies-to-control-public-user-access.md)。</span><span class="sxs-lookup"><span data-stu-id="e5c80-109">For details, see [Configure policies to control public user access in Skype for Business Server](../external-access-policies/configure-policies-to-control-public-user-access.md).</span></span>
 
 
-## <a name="to-configure-a-user-policy-for-anonymous-participation-in-meetings"></a><span data-ttu-id="f8eee-110">配置匿名参与会议的用户策略</span><span class="sxs-lookup"><span data-stu-id="f8eee-110">To configure a user policy for anonymous participation in meetings</span></span>
+## <a name="to-configure-a-user-policy-for-anonymous-participation-in-meetings"></a><span data-ttu-id="e5c80-110">配置匿名参与会议的用户策略</span><span class="sxs-lookup"><span data-stu-id="e5c80-110">To configure a user policy for anonymous participation in meetings</span></span>
 
-1.  <span data-ttu-id="f8eee-111">使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="f8eee-111">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="e5c80-111">使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="e5c80-111">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="f8eee-112">打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="f8eee-112">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+2.  <span data-ttu-id="e5c80-112">打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="e5c80-112">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
 
-3.  <span data-ttu-id="f8eee-113">在左侧的导航栏中，单击**会议**，然后执行下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="f8eee-113">In the left navigation bar, click **Conferencing**, and then do one of the following:</span></span>
+3.  <span data-ttu-id="e5c80-113">在左侧的导航栏中，单击**会议**，然后执行下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="e5c80-113">In the left navigation bar, click **Conferencing**, and then do one of the following:</span></span>
     
-    1.  <span data-ttu-id="f8eee-114">若要创建一个新用户策略，单击**新建**，然后单击**用户策略**。</span><span class="sxs-lookup"><span data-stu-id="f8eee-114">To create a new user policy, click **New**, and then click **User policy**.</span></span> <span data-ttu-id="f8eee-115">在**名称**字段，该值指示用户策略 （例如， **EnableAnonymous**启用与匿名用户的通信用户策略） 的介绍中创建一个唯一的名称。</span><span class="sxs-lookup"><span data-stu-id="f8eee-115">Create a unique name in the **Name** field that indicates what the user policy covers (for example, **EnableAnonymous** for a user policy that enables communications with anonymous users).</span></span>
+    1.  <span data-ttu-id="e5c80-114">若要创建一个新用户策略，单击**新建**，然后单击**用户策略**。</span><span class="sxs-lookup"><span data-stu-id="e5c80-114">To create a new user policy, click **New**, and then click **User policy**.</span></span> <span data-ttu-id="e5c80-115">在**名称**字段，该值指示用户策略 （例如， **EnableAnonymous**启用与匿名用户的通信用户策略） 的介绍中创建一个唯一的名称。</span><span class="sxs-lookup"><span data-stu-id="e5c80-115">Create a unique name in the **Name** field that indicates what the user policy covers (for example, **EnableAnonymous** for a user policy that enables communications with anonymous users).</span></span>
     
-    2.  <span data-ttu-id="f8eee-116">若要配置现有用户策略，单击表中列出的相应策略，单击**编辑**，然后单击**显示详细信息**。</span><span class="sxs-lookup"><span data-stu-id="f8eee-116">To configure an existing user policy, click the appropriate policy listed in the table, click **Edit**, and then click **Show details**.</span></span>
+    2.  <span data-ttu-id="e5c80-116">若要配置现有用户策略，单击表中列出的相应策略，单击**编辑**，然后单击**显示详细信息**。</span><span class="sxs-lookup"><span data-stu-id="e5c80-116">To configure an existing user policy, click the appropriate policy listed in the table, click **Edit**, and then click **Show details**.</span></span>
 
-4.  <span data-ttu-id="f8eee-117">在**会议策略**对话框中，选择**允许参与者邀请匿名用户**复选框。</span><span class="sxs-lookup"><span data-stu-id="f8eee-117">In the **Conferencing Policies** dialog box, select the **Allow participants to invite anonymous users** check box.</span></span>
+4.  <span data-ttu-id="e5c80-117">在**会议策略**对话框中，选择**允许参与者邀请匿名用户**复选框。</span><span class="sxs-lookup"><span data-stu-id="e5c80-117">In the **Conferencing Policies** dialog box, select the **Allow participants to invite anonymous users** check box.</span></span>
 
-5.  <span data-ttu-id="f8eee-118">单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="f8eee-118">Click **Commit**.</span></span>
+5.  <span data-ttu-id="e5c80-118">单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="e5c80-118">Click **Commit**.</span></span>
 
-6.  <span data-ttu-id="f8eee-119">在左侧的导航栏中，单击**用户**，搜索要配置的用户帐户。</span><span class="sxs-lookup"><span data-stu-id="f8eee-119">In the left navigation bar, click **Users**, search on the user account that you want to configure.</span></span>
+6.  <span data-ttu-id="e5c80-119">在左侧的导航栏中，单击**用户**，搜索要配置的用户帐户。</span><span class="sxs-lookup"><span data-stu-id="e5c80-119">In the left navigation bar, click **Users**, search on the user account that you want to configure.</span></span>
 
-7.  <span data-ttu-id="f8eee-120">在列出搜索结果的表中，单击相应的用户帐户，再单击“**编辑**”，然后单击“**显示详细信息**”。</span><span class="sxs-lookup"><span data-stu-id="f8eee-120">In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.</span></span>
+7.  <span data-ttu-id="e5c80-120">在列出搜索结果的表中，单击相应的用户帐户，再单击“**编辑**”，然后单击“**显示详细信息**”。</span><span class="sxs-lookup"><span data-stu-id="e5c80-120">In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.</span></span>
 
-8.  <span data-ttu-id="f8eee-121">在**会议策略**下**的企业服务器用户编辑 Skype** ，选择您想要应用于此用户的匿名用户访问配置的用户策略。</span><span class="sxs-lookup"><span data-stu-id="f8eee-121">In **Edit Skype for Business Server User** under **Conferencing policy**, select the user policy with the anonymous user access configuration that you want to apply to this user.</span></span>  
+8.  <span data-ttu-id="e5c80-121">在**会议策略**下**的企业服务器用户编辑 Skype** ，选择您想要应用于此用户的匿名用户访问配置的用户策略。</span><span class="sxs-lookup"><span data-stu-id="e5c80-121">In **Edit Skype for Business Server User** under **Conferencing policy**, select the user policy with the anonymous user access configuration that you want to apply to this user.</span></span>  
 
     > [!NOTE]  
-    > <span data-ttu-id="f8eee-122"><STRONG>&lt;自动&gt;</STRONG>设置应用默认服务器安装设置，并由服务器自动应用。</span><span class="sxs-lookup"><span data-stu-id="f8eee-122">The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default server installation settings and are applied automatically by the server.</span></span>
+    > <span data-ttu-id="e5c80-122"><STRONG>&lt;自动&gt;</STRONG>设置应用默认服务器安装设置，并由服务器自动应用。</span><span class="sxs-lookup"><span data-stu-id="e5c80-122">The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default server installation settings and are applied automatically by the server.</span></span>
 
 
-<span data-ttu-id="f8eee-123">允许用户邀请匿名用户参加会议，您还必须在组织中启用对匿名用户的支持。</span><span class="sxs-lookup"><span data-stu-id="f8eee-123">To enable users to invite anonymous users to conferences, you must also enable support for anonymous users in your organization.</span></span> <span data-ttu-id="f8eee-124">有关详细信息，请参阅[配置策略以控制 Skype 业务服务器中的公共用户访问](../external-access-policies/configure-policies-to-control-public-user-access.md)。</span><span class="sxs-lookup"><span data-stu-id="f8eee-124">For details, see [Configure policies to control public user access in Skype for Business Server](../external-access-policies/configure-policies-to-control-public-user-access.md).</span></span>
+<span data-ttu-id="e5c80-123">允许用户邀请匿名用户参加会议，您还必须在组织中启用对匿名用户的支持。</span><span class="sxs-lookup"><span data-stu-id="e5c80-123">To enable users to invite anonymous users to conferences, you must also enable support for anonymous users in your organization.</span></span> <span data-ttu-id="e5c80-124">有关详细信息，请参阅[配置策略以控制 Skype 业务服务器中的公共用户访问](../external-access-policies/configure-policies-to-control-public-user-access.md)。</span><span class="sxs-lookup"><span data-stu-id="e5c80-124">For details, see [Configure policies to control public user access in Skype for Business Server](../external-access-policies/configure-policies-to-control-public-user-access.md).</span></span>
 

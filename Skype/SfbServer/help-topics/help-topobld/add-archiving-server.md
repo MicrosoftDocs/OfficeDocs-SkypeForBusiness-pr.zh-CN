@@ -1,5 +1,6 @@
 ---
 title: 添加存档服务器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,15 +12,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a7106eb-8fd3-492a-a45c-f099496b11a2
-description: 要在拓扑设计中部署存档服务器，则需要指定要在其上部署存档的服务器的完全限定域名 (FQDN)。 之前发布的拓扑结构，其中包含存档并安装 Skype 业务服务器，则应该完成部署存档的所有先决条件。
-ms.openlocfilehash: 03713e6c54a57a1e9974401113924136ab1eaabc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 要在拓扑设计中部署存档服务器，则需要指定要在其上部署存档的服务器的完全限定域名 (FQDN)。 发布拓扑之前，其中包括存档和安装 Business Server Skype，应该已完成部署存档的所有先决条件。
+ms.openlocfilehash: 4cf1ddba834c035fcd290b0d60ccda246332aef8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882591"
 ---
-# <a name="add-archiving-server"></a><span data-ttu-id="a421a-104">添加存档服务器</span><span class="sxs-lookup"><span data-stu-id="a421a-104">Add Archiving Server</span></span>
+# <a name="add-archiving-server"></a><span data-ttu-id="e4628-104">添加存档服务器</span><span class="sxs-lookup"><span data-stu-id="e4628-104">Add Archiving Server</span></span>
  
-<span data-ttu-id="a421a-105">要在拓扑设计中部署存档服务器，则需要指定要在其上部署存档的服务器的完全限定域名 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="a421a-105">To deploy an Archiving Server into your topology design, you need to specify the fully qualified domain name (FQDN) of the server on which you want to deploy Archiving.</span></span> <span data-ttu-id="a421a-106">之前发布的拓扑结构，其中包含存档并安装 Skype 业务服务器，则应该完成部署存档的所有先决条件。</span><span class="sxs-lookup"><span data-stu-id="a421a-106">Prior to publishing a topology that includes Archiving and installing Skype for Business Server, you should have completed all prerequisites for deploying Archiving.</span></span> 
+<span data-ttu-id="e4628-105">要在拓扑设计中部署存档服务器，则需要指定要在其上部署存档的服务器的完全限定域名 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="e4628-105">To deploy an Archiving Server into your topology design, you need to specify the fully qualified domain name (FQDN) of the server on which you want to deploy Archiving.</span></span> <span data-ttu-id="e4628-106">发布拓扑之前，其中包括存档和安装 Business Server Skype，应该已完成部署存档的所有先决条件。</span><span class="sxs-lookup"><span data-stu-id="e4628-106">Prior to publishing a topology that includes Archiving and installing Skype for Business Server, you should have completed all prerequisites for deploying Archiving.</span></span> 
   
 

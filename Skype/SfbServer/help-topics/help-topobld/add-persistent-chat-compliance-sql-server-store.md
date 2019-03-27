@@ -1,5 +1,6 @@
 ---
 title: 添加持久聊天合规性 SQL Server 存储
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,45 +13,45 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 description: 配置 SQL Server 存储将持久聊天服务器或持久聊天服务器合规性功能提供数据库的合规性。
-ms.openlocfilehash: 3342cea06870ef6841536c9d99e2503745961782
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 46b8052409bcb65a828bd07ebbec72d3b84c0962
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503709"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883072"
 ---
-# <a name="add-persistent-chat-compliance-sql-server-store"></a><span data-ttu-id="26c4a-103">添加持久聊天合规性 SQL Server 存储</span><span class="sxs-lookup"><span data-stu-id="26c4a-103">Add Persistent Chat Compliance SQL Server Store</span></span>
+# <a name="add-persistent-chat-compliance-sql-server-store"></a><span data-ttu-id="d81c4-103">添加持久聊天合规性 SQL Server 存储</span><span class="sxs-lookup"><span data-stu-id="d81c4-103">Add Persistent Chat Compliance SQL Server Store</span></span>
  
-<span data-ttu-id="26c4a-104">配置 SQL Server 存储将持久聊天服务器或持久聊天服务器合规性功能提供数据库的合规性。</span><span class="sxs-lookup"><span data-stu-id="26c4a-104">You configure the compliance SQL Server stores that will provide databases for the Persistent Chat Server or Persistent Chat Server compliance feature.</span></span>
+<span data-ttu-id="d81c4-104">配置 SQL Server 存储将持久聊天服务器或持久聊天服务器合规性功能提供数据库的合规性。</span><span class="sxs-lookup"><span data-stu-id="d81c4-104">You configure the compliance SQL Server stores that will provide databases for the Persistent Chat Server or Persistent Chat Server compliance feature.</span></span>
   
- <span data-ttu-id="26c4a-105">**SQL Server 存储**： 选择现有的 SQL Server 和可选实例的持久聊天。</span><span class="sxs-lookup"><span data-stu-id="26c4a-105">**SQL Server store**: Select an existing SQL Server and optionally an instance for Persistent Chat.</span></span>
+ <span data-ttu-id="d81c4-105">**SQL Server 存储**： 选择现有的 SQL Server 和可选实例的持久聊天。</span><span class="sxs-lookup"><span data-stu-id="d81c4-105">**SQL Server store**: Select an existing SQL Server and optionally an instance for Persistent Chat.</span></span>
   
-<span data-ttu-id="26c4a-106">单击**新建**以定义一个新的 SQL Server 和可选的持久聊天合规性数据的新实例。</span><span class="sxs-lookup"><span data-stu-id="26c4a-106">Click **New** to define a new SQL Server and optionally a new instance for the Persistent Chat compliance data.</span></span>
+<span data-ttu-id="d81c4-106">单击**新建**以定义一个新的 SQL Server 和可选的持久聊天合规性数据的新实例。</span><span class="sxs-lookup"><span data-stu-id="d81c4-106">Click **New** to define a new SQL Server and optionally a new instance for the Persistent Chat compliance data.</span></span>
   
-<span data-ttu-id="26c4a-107">选择**启用 SQL Server 存储镜像**复选框以配置的 SQL Server 数据库和将持久聊天合规性数据提供镜像的数据库的可选实例。</span><span class="sxs-lookup"><span data-stu-id="26c4a-107">Select the **Enable SQL Server store mirroring** checkbox to configure a SQL Server database and optional instance that will provide a mirrored database for the Persistent Chat compliance data.</span></span>
+<span data-ttu-id="d81c4-107">选择**启用 SQL Server 存储镜像**复选框以配置的 SQL Server 数据库和将持久聊天合规性数据提供镜像的数据库的可选实例。</span><span class="sxs-lookup"><span data-stu-id="d81c4-107">Select the **Enable SQL Server store mirroring** checkbox to configure a SQL Server database and optional instance that will provide a mirrored database for the Persistent Chat compliance data.</span></span>
   
-<span data-ttu-id="26c4a-108">从**镜像 SQL Server 存储**列表中选择一个 SQL Server 和可选实例以用作持久聊天合规性 SQL Server 的 SQL Server 镜像。</span><span class="sxs-lookup"><span data-stu-id="26c4a-108">Select from the list **Mirroring SQL Server store** a SQL Server and optional instance to act as the SQL Server mirror for the Persistent Chat compliance SQL Server.</span></span>
+<span data-ttu-id="d81c4-108">从**镜像 SQL Server 存储**列表中选择一个 SQL Server 和可选实例以用作持久聊天合规性 SQL Server 的 SQL Server 镜像。</span><span class="sxs-lookup"><span data-stu-id="d81c4-108">Select from the list **Mirroring SQL Server store** a SQL Server and optional instance to act as the SQL Server mirror for the Persistent Chat compliance SQL Server.</span></span>
   
-<span data-ttu-id="26c4a-109">单击**新建**以定义一个新的 SQL Server 和可选的持久聊天 SQL Server 镜像的新实例。</span><span class="sxs-lookup"><span data-stu-id="26c4a-109">Click **New** to define a new SQL Server and optionally a new instance for the Persistent Chat SQL Server mirroring.</span></span>
+<span data-ttu-id="d81c4-109">单击**新建**以定义一个新的 SQL Server 和可选的持久聊天 SQL Server 镜像的新实例。</span><span class="sxs-lookup"><span data-stu-id="d81c4-109">Click **New** to define a new SQL Server and optionally a new instance for the Persistent Chat SQL Server mirroring.</span></span>
   
-<span data-ttu-id="26c4a-110">从“**使用 SQL Server 镜像见证启用自动故障转移**”列表选择一个 SQL Server，用作故障转移情况下的见证服务器。</span><span class="sxs-lookup"><span data-stu-id="26c4a-110">Select the list **Use SQL Server mirroring witness to enable automatic failover** a SQL Server that will act as the witness server in failover scenarios.</span></span> <span data-ttu-id="26c4a-111">见证服务器不镜像或主机的数据的持久聊天服务器，但可确保只有一个 SQL Server 镜像配置中随时都是活动的 SQL Server。</span><span class="sxs-lookup"><span data-stu-id="26c4a-111">The witness server does not mirror or host data for the Persistent Chat servers, but ensures that only one SQL Server in a mirrored configuration is the active SQL Server at any time.</span></span>
+<span data-ttu-id="d81c4-110">从“**使用 SQL Server 镜像见证启用自动故障转移**”列表选择一个 SQL Server，用作故障转移情况下的见证服务器。</span><span class="sxs-lookup"><span data-stu-id="d81c4-110">Select the list **Use SQL Server mirroring witness to enable automatic failover** a SQL Server that will act as the witness server in failover scenarios.</span></span> <span data-ttu-id="d81c4-111">见证服务器不镜像或主机的数据的持久聊天服务器，但可确保只有一个 SQL Server 镜像配置中随时都是活动的 SQL Server。</span><span class="sxs-lookup"><span data-stu-id="d81c4-111">The witness server does not mirror or host data for the Persistent Chat servers, but ensures that only one SQL Server in a mirrored configuration is the active SQL Server at any time.</span></span>
   
-<span data-ttu-id="26c4a-112">单击**新建**以定义一个新的 SQL Server 见证和可选持久聊天合规性 SQL Server 镜像见证实例。</span><span class="sxs-lookup"><span data-stu-id="26c4a-112">Click **New** to define a new SQL Server witness optionally an instance for the Persistent Chat compliance SQL Server mirroring witness.</span></span>
+<span data-ttu-id="d81c4-112">单击**新建**以定义一个新的 SQL Server 见证和可选持久聊天合规性 SQL Server 镜像见证实例。</span><span class="sxs-lookup"><span data-stu-id="d81c4-112">Click **New** to define a new SQL Server witness optionally an instance for the Persistent Chat compliance SQL Server mirroring witness.</span></span>
   
-<span data-ttu-id="26c4a-113">单击“**上一步**”以回到上一个池定义对话框。</span><span class="sxs-lookup"><span data-stu-id="26c4a-113">Click **Back** to go back to the previous pool definition dialog.</span></span>
+<span data-ttu-id="d81c4-113">单击“**上一步**”以回到上一个池定义对话框。</span><span class="sxs-lookup"><span data-stu-id="d81c4-113">Click **Back** to go back to the previous pool definition dialog.</span></span>
   
-<span data-ttu-id="26c4a-114">完成输入为该池的备份 SQL Server 存储配置并继续进行持久聊天服务器池定义的选项后，请单击**下一步**。</span><span class="sxs-lookup"><span data-stu-id="26c4a-114">Click **Next** after you have finished entering the options for this pool's backup SQL Server store configuration and to proceed with the Persistent Chat Server pool definition.</span></span>
+<span data-ttu-id="d81c4-114">完成输入为该池的备份 SQL Server 存储配置并继续进行持久聊天服务器池定义的选项后，请单击**下一步**。</span><span class="sxs-lookup"><span data-stu-id="d81c4-114">Click **Next** after you have finished entering the options for this pool's backup SQL Server store configuration and to proceed with the Persistent Chat Server pool definition.</span></span>
   
-<span data-ttu-id="26c4a-115">单击“**取消**”以放弃所有更改并退出“**定义新的持久聊天池**”向导。</span><span class="sxs-lookup"><span data-stu-id="26c4a-115">Click **Cancel** to discard all changes and end the **Define New Persistent Chat Pool** wizard.</span></span>
+<span data-ttu-id="d81c4-115">单击“**取消**”以放弃所有更改并退出“**定义新的持久聊天池**”向导。</span><span class="sxs-lookup"><span data-stu-id="d81c4-115">Click **Cancel** to discard all changes and end the **Define New Persistent Chat Pool** wizard.</span></span>
   
-<span data-ttu-id="26c4a-116">单击“**帮助**”以访问上下文相关帮助，例如此页面。</span><span class="sxs-lookup"><span data-stu-id="26c4a-116">Click **Help** to access context sensitive help, such as this page.</span></span>
+<span data-ttu-id="d81c4-116">单击“**帮助**”以访问上下文相关帮助，例如此页面。</span><span class="sxs-lookup"><span data-stu-id="d81c4-116">Click **Help** to access context sensitive help, such as this page.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="26c4a-117">另请参阅</span><span class="sxs-lookup"><span data-stu-id="26c4a-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d81c4-117">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d81c4-117">See also</span></span>
 
-[<span data-ttu-id="26c4a-118">规划 Skype for Business Server 2015 中的持久聊天服务器</span><span class="sxs-lookup"><span data-stu-id="26c4a-118">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[<span data-ttu-id="d81c4-118">规划 Skype for Business Server 2015 中的持久聊天服务器</span><span class="sxs-lookup"><span data-stu-id="d81c4-118">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[<span data-ttu-id="26c4a-119">Server requirements for Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="26c4a-119">Server requirements for Skype for Business Server 2015</span></span>](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[<span data-ttu-id="d81c4-119">Server requirements for Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="d81c4-119">Server requirements for Skype for Business Server 2015</span></span>](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[<span data-ttu-id="26c4a-120">Skype for Business Server 2015 中持久聊天服务器的硬件和软件要求</span><span class="sxs-lookup"><span data-stu-id="26c4a-120">Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[<span data-ttu-id="d81c4-120">Skype for Business Server 2015 中持久聊天服务器的硬件和软件要求</span><span class="sxs-lookup"><span data-stu-id="d81c4-120">Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[<span data-ttu-id="26c4a-121">为 Skype for Business Server 2015 中的持久聊天服务器配置合规性服务</span><span class="sxs-lookup"><span data-stu-id="26c4a-121">Configure the Compliance service for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../manage/persistent-chat/configure-compliance.md)
+[<span data-ttu-id="d81c4-121">为 Skype for Business Server 2015 中的持久聊天服务器配置合规性服务</span><span class="sxs-lookup"><span data-stu-id="d81c4-121">Configure the Compliance service for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../manage/persistent-chat/configure-compliance.md)
