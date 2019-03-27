@@ -1,5 +1,6 @@
 ---
-title: 移动其余用户
+title: 迁移剩余用户
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 使用任一 Skype 业务 Server Control Panel 或 Skype for Business Server 命令行管理程序，则可以移到业务服务器 2019年部署新的 Skype 用户。 您必须满足某些要求，以确保顺利过渡到 Skype 的业务服务器 2019年。 有关为完成本主题中的过程的先决条件的详细信息，请参阅配置迁移客户端。 有关移动用户的详细的步骤，请参阅阶段 4： 将测试用户移至试点池。
-ms.openlocfilehash: 7bc5d942ddcf30cad84ceb5badf8817de2b254a0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9f984b7fac919decce521c6dafc587a4ac86de50
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030495"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878321"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>为业务服务器 2019年将剩余用户移至 Skype
 

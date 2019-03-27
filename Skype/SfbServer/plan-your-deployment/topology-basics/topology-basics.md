@@ -1,5 +1,6 @@
 ---
 title: 拓扑的 Skype 业务服务器的基础知识
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 摘要： 业务服务器 Skype 选择您的拓扑。 了解有关的 Skype 业务服务器的服务器并置。
-ms.openlocfilehash: 5d2589d6ba7878ea69c8860ad99f182912e471dd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 566d044defd69dd9ae79bc964c9a587332649b42
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886163"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881616"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>拓扑的 Skype 业务服务器的基础知识
 
@@ -133,7 +134,7 @@ Skype 业务服务器支持的本地部署可根据您的高可用性和位置�
 
 - 用于支持基于 Web 的任务的 Web 组件，如 Web 计划程序和联接启动器。
 
-- （可选）存档功能，用于存档 IM 通信和会议内容（出于合规性考虑）。 有关详细信息，请参阅规划文档中的[Planning for Archiving](https://technet.microsoft.com/library/898b83c1-007b-43be-9484-08fe49c10951.aspx) 。
+- （可选）存档功能，用于存档 IM 通信和会议内容（出于合规性考虑）。有关详细信息，请参阅规划文档中的[Planning for Archiving](https://technet.microsoft.com/library/898b83c1-007b-43be-9484-08fe49c10951.aspx)。
 
     在 Lync Server 2010 和早期版本中，监控和存档是两个单独的服务器角色，未并置在前端服务器上。
 
@@ -172,7 +173,7 @@ Skype 业务服务器支持的本地部署可根据您的高可用性和位置�
 
 ### <a name="video-interop-server"></a>视频互操作服务器
 
-视频互操作服务器是截止业务服务器 2015年的 Skype 新角色。 使您可以将您的业务服务器部署的 Skype 集成使用某些第三方 VTC （视频电话会议系统） 解决方案。 VIS 作为中介的第三方电话会议系统和 Skype 业务服务器部署。 对于此版本，VIS 着重实现了与 Cisco/Tandberg 视频系统之间的互操作性。
+视频互操作服务器是截止业务服务器 2015年的 Skype 新角色。 使您可以将您的业务服务器部署的 Skype 集成使用某些第三方 VTC （视频电话会议系统） 解决方案。 VIS 作为中介的第三方电话会议系统和 Skype 业务服务器部署。 对于此版本，VIS 专用于实现与 Cisco/Tandberg 视频系统之间的互操作性。
 
 有关详细信息，请参阅[规划视频中的业务服务器 Skype 的互操作服务器](../../plan-your-deployment/video-interop-server.md)。
 

@@ -1,5 +1,6 @@
 ---
 title: 配置与会页面
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 当用户单击会议请求中，会议中的会议链接与会页面检测用户的计算机上已安装的客户端。 如果已安装客户端，该客户端将打开并加入会议。 如果未安装客户端，则默认情况下 Web 应用程序将打开。
-ms.openlocfilehash: f7c66b7e7171e9d7f0dc39f30a7e99059e53a0c2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 88ae915318505efef6ae716a17217aaa1e7b12df
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374060"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879938"
 ---
 # <a name="configure-the-meeting-join-page"></a>配置与会页面
 

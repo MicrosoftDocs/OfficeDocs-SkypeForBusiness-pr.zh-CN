@@ -1,5 +1,6 @@
 ---
 title: 部署 Skype for Business Server 2015 中的持久聊天服务器
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8373c93b-92a7-4932-bc1f-00fc08955426
 description: 摘要： 阅读本主题可了解如何部署 Skype 业务 2015年持久聊天服务器。
-ms.openlocfilehash: b7b0e2731056eb1dd0584f0ba20d553d49ea2f83
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 85f77445acca86d8de14178e8c3baa61eb193783
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975996"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878653"
 ---
 # <a name="deploy-persistent-chat-server-in-skype-for-business-server-2015"></a>部署 Skype for Business Server 2015 中的持久聊天服务器
  
@@ -40,9 +41,9 @@ ms.locfileid: "20975996"
   
 **持久聊天服务器的部署过程**
 
-|**任务**|**步骤**|**所需角色和组成员身份**|**相关主题**|
+|**Task**|**步骤**|**所需角色和组成员身份**|**相关主题**|
 |:-----|:-----|:-----|:-----|
-|**安装必备硬件和软件** <br/> | 在满足系统要求的硬件上安装以下内容： <br/>  对持久聊天服务器前端服务器： <br/>  满足系统要求的操作系统 <br/>  运行 Business Server Skype 的计算机的必备软件 <br/>  在服务器上将承载 Persistent Chat Server 数据库： <br/>  支持的 SQL Server 版本 <br/>  如果需要持久聊天服务器合规性： <br/>  将承载持久聊天服务器合规性数据库的服务器上的 SQL Server <br/> |属于本地 Administrators 组成员的任何用户。  <br/> |[Skype for Business Server 2015 的服务器要求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Skype for Business Server 2015 的环境要求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/> [Skype for Business Server 2015 中持久聊天服务器的硬件和软件要求](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md) <br/> |
+|**安装必备硬件和软件** <br/> | 在满足系统要求的硬件上安装以下内容： <br/>  对持久聊天服务器前端服务器： <br/>  满足系统要求的操作系统 <br/>  运行 Business Server Skype 的计算机的必备软件 <br/>  在服务器上将承载 Persistent Chat Server 数据库： <br/>  支持的 SQL Server 版本 <br/>  如果需要持久聊天服务器合规性： <br/>  将承载持久聊天服务器合规性数据库的服务器上的 SQL Server <br/> |属于本地 Administrators 组成员的任何用户。  <br/> |[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/> [Skype for Business Server 2015 中持久聊天服务器的硬件和软件要求](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md) <br/> |
 |**创建适当的内部拓扑以支持持久聊天服务器 （和 （可选） 持久聊天合规性）** <br/> | 运行拓扑生成器向拓扑添加持久聊天服务器池： <br/>  向拓扑添加持久聊天服务器组件 <br/>  创建 SQL Server 数据库对于 Persistent Chat Server 存储 （和灾难恢复备份 SQL Server） <br/>  定义业务文件存储的新 Skype 或用于现有 Skype 业务文件存储对于 Persistent Chat Server 文件 <br/>  关联可将请求路由到此持久聊天服务器池的业务服务器池的 Skype <br/>  如果需要持久聊天合规性： <br/>  添加持久聊天合规性存储 <br/>  单击以启用合规性的持久聊天服务器池定义复选框 <br/>  发布拓扑。 <br/>  如果在 Standard Edition 上安装持久聊天服务器，持久聊天服务器池的完全限定的域名 (FQDN) 必须匹配 Standard Edition server，并对标准的 SQL Server Express 实例上并置的 SQL Server 数据库版服务器 <br/> |要定义拓扑，需要具有本地 Users 组成员身份的帐户。  <br/> 若要发布拓扑，Domain Admins 组和 RTCUniversalServerAdmins 组和用户的成员的帐户应还拥有完全控制权限 （读/写/修改） 上业务文件存储的 Skype 对于 Persistent Chat Server 文件 （是这样该拓扑生成器可以配置所需的 Dacl）。  <br/> |[在 Skype for Business Server 2015 中创建和发布新拓扑](../../deploy/install/create-and-publish-new-topology.md) <br/> [向您 Skype 业务服务器 2015年拓扑添加持久聊天服务器](add-persistent-chat-server.md) <br/> |
 |**部署持久聊天服务器** <br/> | 运行持久聊天服务器的所有计算机上运行的业务服务器安装程序 Skype。 持久聊天服务器安装已集成到业务 Server 部署向导提供以下说明 Skype: <br/>  部署本地管理存储 <br/>  安装持久聊天服务 <br/>  请求和分配证书 <br/>  运行并启动服务 <br/> |属于本地 Administrators 组成员的任何用户。  <br/> |[部署 Skype for Business Server 2015 中的持久聊天服务器](deploy-persistent-chat-server.md) <br/> |
 |**创建持久聊天管理员** <br/> |将用户添加到 CsPersistentChatAdministrator 安全组。  <br/> |属于域管理员成员的任何用户。  <br/> |[在 Skype for Business Server 2015 中创建持久聊天管理员](create-a-persistent-chat-administrator.md) <br/> |

@@ -1,5 +1,6 @@
 ---
 title: 配置 Skype for Business Server 2015 中的持久聊天用户策略
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 摘要： 阅读本主题可了解如何为业务服务器 2015 Persistent Chat Server in Skype 创建初始用户策略。 持久聊天用户策略确定允许用户访问聊天室。
-ms.openlocfilehash: 186611977a1a9dfa77549e8f0c5df6b863718eee
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e082898d92e622827e2543316b07a8be224c56c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000834"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883705"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>配置 Skype for Business Server 2015 中的持久聊天用户策略
  
@@ -38,7 +39,7 @@ ms.locfileid: "21000834"
 
 ## <a name="configure-the-global-policy"></a>配置全局策略
 
-要配置全局策略：
+配置全局策略：
   
 1. 从分配给 CsPersistentChatAdministrator、CsAdministrator 或 CsUserAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
@@ -60,7 +61,7 @@ ms.locfileid: "21000834"
     
 ## <a name="create-a-site-policy"></a>创建站点策略
 
-对于已部署的每个站点，您可以创建特定于站点的持久聊天策略。 站点策略中的配置可覆盖全局策略，但仅适用于站点策略所涵盖的特定站点。 要创建站点策略：
+对于已部署的每个网站，您可以创建特定于站点的持久聊天策略。 站点策略中的配置将覆盖全局策略，但是仅限于站点策略所涉及的特定站点。 若要创建站点策略：
   
 1. 从分配给 CsPersistentChatAdministrator、CsAdministrator 或 CsUserAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
@@ -84,7 +85,7 @@ ms.locfileid: "21000834"
     
 ## <a name="create-a-user-policy"></a>创建用户策略
 
-您可以创建特定于用户的策略，该策略可覆盖用户所属的全局策略和任何站点策略。 要创建用户策略：
+您可以创建覆盖全局策略和用户所属的任何站点策略的特定于用户的策略。 若要创建用户策略：
   
 1. 从分配给 CsPersistentChatAdministrator、CsAdministrator 或 CsUserAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
@@ -104,9 +105,9 @@ ms.locfileid: "21000834"
     
 6. 单击“**提交**”。
     
-## <a name="apply-a-policy-to-a-user-account"></a>向用户组应用策略
+## <a name="apply-a-policy-to-a-user-account"></a>将策略应用于用户帐户
 
-创建策略后，您可以将策略应用于用户账户，如下所示：
+创建策略后，您可以应用这些更改的用户帐户，如下所示：
   
 1. 从分配给 CsPersistentChatAdministrator、CsAdministrator 或 CsUserAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     

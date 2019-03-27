@@ -1,5 +1,6 @@
 ---
 title: 示例持久聊天数据库查询
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: 此部分包含持久聊天数据库的示例查询。
-ms.openlocfilehash: ab4db61e70108bb922646add050ddcf7f52951b1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9dace51aa882402cd7f4f6c58c9444c21263333c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21025917"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881557"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>示例持久聊天数据库查询
  

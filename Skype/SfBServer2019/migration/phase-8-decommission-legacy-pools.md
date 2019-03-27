@@ -1,5 +1,6 @@
 ---
 title: 第 8 的取消旧池的阶段
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: httpsfix
 description: 以下主题提供了更新 DNS 条目、 移动 Content Management Server、 停用池和停用和删除服务器和池从旧部署指南。 并非所有本节中列出的过程都是必需的。 阅读的文档，并确定要使用哪些停用过程。
-ms.openlocfilehash: 0e5c7bebeb0449f8fa71942f2ac68ff9d7eb017a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2363b90f1bcc71c3c8c1ee42d258101240bcacb7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370758"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880257"
 ---
-# <a name="phase-8-decommission-legacy-pools"></a>第 8 阶段： 停用旧池
+# <a name="phase-8-decommission-legacy-pools"></a>第 8 阶段：停用旧池
 
 以下主题提供了更新 DNS 条目、 移动 Content Management Server、 停用池和停用和删除服务器和池从旧部署指南。 并非所有本节中列出的过程都是必需的。 阅读的文档，并确定要使用哪些停用过程。 
   
@@ -39,6 +40,6 @@ ms.locfileid: "25370758"
 > 
 > [删除 Enterprise Edition 前端服务器或 Standard Edition 前端服务器](remove-the-front-end-server.md)
 > 
-> [删除后端服务器上 SQL Server 实例和数据库](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+> [删除后端服务器上的 SQL Server 实例和数据库](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
     
 

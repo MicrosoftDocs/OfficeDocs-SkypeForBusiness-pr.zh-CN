@@ -1,5 +1,6 @@
 ---
 title: 为业务服务器启用呼叫详细信息记录在 Skype
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 摘要： 了解如何启用呼叫详细信息记录 (CDR) 记录中 Skype 业务服务器。
-ms.openlocfilehash: e010f76e25f8ab0894df1dc3a5bbb8a917c93ada
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 8ba053c95dcb9e43b6951671853d2c064ad5542f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245521"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884510"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>为业务服务器启用呼叫详细信息记录在 Skype
 
@@ -25,7 +26,7 @@ ms.locfileid: "23245521"
 使用以下过程为整个组织或组织中的每个站点启用 CDR。
 
 > [!NOTE]
-> 为了启用 CDR，必须配置监控和监控数据库。 有关详细信息，请参阅[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)。
+> 为了启用 CDR，必须配置监控和监控数据库。有关详细信息，请参阅[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)。
 
 ### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>与 Skype 的 CDR 启用业务 Server Control Panel
 
@@ -74,4 +75,4 @@ ms.locfileid: "23245521"
 
 [规划监控](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 
-[部署监控](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

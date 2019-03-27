@@ -1,5 +1,6 @@
 ---
 title: 移动客户端推送通知配置
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要配置的 Microsoft 推送通知和 Apple 推送通知，您必须创建策略，以定义需要哪些类型的推送通知。
-ms.openlocfilehash: 96f3b65e522df0629a9e3fca6558442bc7de3792
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a2dafb190d0eb1c29d1dfb7cc07af40a10fb107c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374110"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882430"
 ---
-# <a name="mobile-client-push-notification-configuration"></a>移动客户端： 推送通知配置
+# <a name="mobile-client-push-notification-configuration"></a>移动客户端：推送通知配置
  
 若要配置的**Microsoft 推送通知**和**Apple 推送通知**，您必须创建策略，以定义所需的推送通知的类型。
   

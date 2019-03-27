@@ -1,5 +1,6 @@
 ---
 title: 添加分支站点名称
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要定义新分支站点，请指定以下内容：
-ms.openlocfilehash: b08845dd0bd941e1d7896641ef3ba04f13615986
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5c85079c78bbd39b905f17eed8d7824f36190784
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263504"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879263"
 ---
 # <a name="add-branch-site-name"></a>添加分支站点名称
 

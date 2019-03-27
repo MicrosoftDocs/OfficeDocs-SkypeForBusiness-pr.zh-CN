@@ -1,5 +1,6 @@
 ---
-title: 导入证书 （简介）
+title: 导入证书（简介）
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 description: 若要导入证书，必须提供的证书文件的路径。 在选择证书文件文本框中，您可以键入完整路径和文件名，或单击浏览按钮，导航到路径位置和文件名 （通常 p7b、.pfx 或.cer 文件）。
-ms.openlocfilehash: b6397595a0996e85c97898219ea8fcd3e326b69b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5006fa68b4b19fe312d92a3dc641f1ab61638e72
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998390"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881986"
 ---
-# <a name="import-certificate-intro"></a>导入证书 （简介）
+# <a name="import-certificate-intro"></a>导入证书（简介）
  
 若要导入证书，必须提供的证书文件的路径。 在**选择证书文件**文本框中，您可以键入完整路径和文件名，或单击**浏览**按钮，导航到路径位置和文件名 （通常 p7b、.pfx 或.cer 文件）。
   

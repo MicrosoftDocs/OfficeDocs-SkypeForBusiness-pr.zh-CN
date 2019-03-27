@@ -1,5 +1,6 @@
 ---
 title: 规划出站语音路由中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: 了解有关出站语音业务企业语音，包括呼叫路由设置中 Skype 路由、 拨号计划、 规范化规则、 语音策略、 PSTN 用法记录和语音路由。
-ms.openlocfilehash: 8b7ef6c4e07bd7618645606c777b257e1d32691f
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 61e2721f2dac3ea6f49708213b1da9752300cbed
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531636"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882353"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>规划出站语音路由中 Skype 业务服务器
  

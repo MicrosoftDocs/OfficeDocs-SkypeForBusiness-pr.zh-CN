@@ -1,5 +1,6 @@
 ---
 title: 视频互操作服务器 - 界定节点范围
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8c01299a-e832-45a1-8fd9-af432f36a8d4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机创建 VIS 池中 Skype 业务服务器。
-ms.openlocfilehash: 85baca8ceab9421c5d01238d4e01487de24ed8ae
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 1567579327739c051941b093e5045bf0cf1442bf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21058181"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884081"
 ---
 # <a name="video-interop-server---scope-the-node"></a>视频互操作服务器 - 界定节点范围
  

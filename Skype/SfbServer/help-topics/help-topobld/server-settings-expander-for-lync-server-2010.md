@@ -1,5 +1,6 @@
 ---
-title: Lync Server 2010 的服务器设置扩展器
+title: 适合于 Lync Server 2010 的服务器设置扩展器
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e2309ade-f9c7-4cd1-b135-45bf73b0441f
 description: 若要编辑该计算机的属性，请执行以下操作：
-ms.openlocfilehash: 242f2b25a77de7f81ce8c11828f2fc0fbe1c2d41
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4b05c52d92d3702c76afd6c7b682c1c9ffda7ab9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992447"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879719"
 ---
-# <a name="server-settings-expander-for-lync-server-2010"></a>Lync Server 2010 的服务器设置扩展器
+# <a name="server-settings-expander-for-lync-server-2010"></a>适合于 Lync Server 2010 的服务器设置扩展器
  
 若要编辑该计算机的属性，请执行以下操作：
   

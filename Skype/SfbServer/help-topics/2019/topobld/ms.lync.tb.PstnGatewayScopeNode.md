@@ -1,5 +1,6 @@
 ---
 title: PSTN 网关范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示的完全限定的域名 (FQDN)，关联的中介服务器和其他有关此公用电话交换网 (pstn) 网关的基本信息。 可以执行以下操作：
-ms.openlocfilehash: dcdb2ee6710f2c5b13fb3ff3b25b4dd229155f40
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: bef624564d8c6f20555d8a9b2f9bb5f3dba7a43c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069058"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878485"
 ---
 # <a name="pstn-gateway-scope-node"></a>PSTN 网关范围节点
  

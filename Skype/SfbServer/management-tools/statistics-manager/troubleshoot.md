@@ -1,5 +1,6 @@
 ---
-title: 解决的 Skype 的统计信息管理器的企业服务器
+title: 对 Skype for Business Server 的统计信息管理器进行故障排除
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 摘要： 阅读本主题解决 Skype 您部署的统计信息管理器中的业务服务器。
-ms.openlocfilehash: 236b109f28de838d626e9c85844b87dc9e9eb20b
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 33635c39086211e7e3e99b33268870c56704a367
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297916"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883804"
 ---
-# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>解决的 Skype 的统计信息管理器的企业服务器
+# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>对 Skype for Business Server 的统计信息管理器进行故障排除
  
 **摘要：** 阅读本主题解决 Skype 您部署的统计信息管理器中的业务服务器。
   
@@ -172,8 +173,8 @@ ms.locfileid: "27297916"
 
 有关详细信息，请参阅以下文章：
   
-- [规划业务 Server 为统计信息管理器中的 Skype](plan.md)
+- [Skype for Business Server 的统计信息管理器规划](plan.md)
     
-- [为业务 Server 部署的 Skype 的统计信息管理器](deploy.md)
+- [部署 Skype for Business Server 的统计信息管理器](deploy.md)
     
-- [为业务服务器升级的 Skype 的统计信息管理器](upgrade.md)
+- [更新 Skype for Business Server 的统计信息管理器](upgrade.md)

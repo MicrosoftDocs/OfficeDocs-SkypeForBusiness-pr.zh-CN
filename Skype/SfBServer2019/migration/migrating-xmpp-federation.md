@@ -1,5 +1,6 @@
 ---
-title: 迁移 XMPP 联盟
+title: 管理 XMPP 联盟
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -7,15 +8,15 @@ ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 早期版本提供的可扩展消息和状态协议 (XMPP) 网关无法作为允许与 XMPP 部署联盟的单独的服务器角色部署。 不再可用和 Skype 的业务服务器 2019年中已弃用的 XMPP 功能。 如果您想要继续使用 XMPP 功能，可以将的适用 coexitence 环境与旧版本中 (业务服务器 2015年的 Skype / Lync Server 2013)。 XMPP 功能安装在两个部分： 为 XMPP 代理运行旧边缘服务器和 XMPP 网关的旧前端服务器上运行。
-ms.openlocfilehash: c1c189d8d4b2e4fcd75b3d00d9789736f5bafc6a
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+description: 早期版本提供的可扩展消息和状态协议 (XMPP) 网关无法作为允许与 XMPP 部署联盟的单独的服务器角色部署。 XMPP 功能不再可用 & Skype 中弃用的业务服务器 2019年。 如果您想要继续使用 XMPP 功能，可以将的适用 coexitence 环境与旧版本中 (业务服务器 2015年的 Skype / Lync Server 2013)。 XMPP 功能安装在两个部分： 为 XMPP 代理运行旧边缘服务器和 XMPP 网关的旧前端服务器上运行。
+ms.openlocfilehash: fa91741c1be8d80443363caba7c840b1d985d8f4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531460"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879326"
 ---
-# <a name="migrating-xmpp-federation"></a>迁移 XMPP 联盟
+# <a name="migrating-xmpp-federation"></a>管理 XMPP 联盟
 
 早期版本提供的可扩展消息和状态协议 (XMPP) 网关无法作为允许与 XMPP 部署联盟的单独的服务器角色部署。 XMPP 功能不再可用，并在 Skype 中的业务服务器 2019年已弃用。 如果您想要继续使用 XMPP 功能，您可以这样在共存环境中使用旧版本 (Skype 业务服务器 2015年或 Lync Server 2013)。 XMPP 功能安装在两个部分： 为 XMPP 代理运行旧边缘服务器和 XMPP 网关的旧前端服务器上运行。 
   

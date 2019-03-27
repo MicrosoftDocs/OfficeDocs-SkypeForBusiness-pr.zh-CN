@@ -1,5 +1,6 @@
 ---
 title: 硬件和软件要求的 Skype 中的会议的企业服务器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 摘要： 阅读本主题可了解有关硬件和软件要求 Skype 中的会议的企业服务器。
-ms.openlocfilehash: 0029bca57477d52e1886ff476984477bdac75b97
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3385395eb34e69fadcdce4ba4bf529a347a2979c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247667"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883926"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>硬件和软件要求的 Skype 中的会议的企业服务器
 
@@ -74,7 +75,7 @@ Skype 的业务服务器支持使用文件共享上直接附加的存储 (DAS) �
 
 要规划 A/V 会议，需了解组织所需会议媒体类型要求的网络带宽。 这包含音频、视频和全景视频。 如果网络带宽不足，用户体验可能大打折扣。
 
-有关音频和视频容量规划的会议的信息，请参阅[Plan for Business 的 Skype 的网络要求](../../plan-your-deployment/network-requirements/network-requirements.md)。
+有关会议的音频和视频容量规划的信息，请参阅[Plan network requirements for Skype for Business](../../plan-your-deployment/network-requirements/network-requirements.md)。
 
 可以使用呼叫允许控制 (CAC) 来管理 A/V 会议使用的网络带宽。 这对受限网络（例如中央站点和分支站点之间的受限带宽链接）很重要。 有关详细信息，请参阅[规划中的业务服务器 Skype 的呼叫允许控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
 
@@ -98,7 +99,7 @@ Skype 的业务服务器支持使用文件共享上直接附加的存储 (DAS) �
 
 - 至少一个中介服务器和至少一个 PSTN 网关
 
-电话拨入式会议、 应用程序服务、 会议助理应用程序和会议通知应用程序具有与前端服务器的操作系统要求相同。 有关详细信息，请参阅[业务服务器 2015年的 Skype 服务器要求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
+电话拨入式会议、 应用程序服务、 会议助理应用程序和会议通知应用程序具有与前端服务器的操作系统要求相同。 有关信息，请参阅 [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
 
 会议助理应用程序和会议通知应用程序需要前端服务器上安装了 Windows Media Format Runtime。 Windows Media Format Runtime 是播放用作待机音乐、录制的姓名以及提示音的 Windows Media 音频 (WMA) 文件所必需的。 如果您安装 Windows Server 2012 或 Windows Server 2012 R2 （该建议） 上，您需要安装 Microsoft 媒体基础，若要获取 Windows Media Format Runtime。 如果安装在 Windows 2012 之前的任何 Windows Server 版本上，则需要确保安装 Windows Desktop Experience 来获得 Windows Media Format Runtime。
 
@@ -129,7 +130,7 @@ Skype 业务服务器不支持电话拨入式会议的语音提示和保持音�
 **所需的服务器端口**
 
 
-|**服务器角色**|**服务名称**|**端口**|**协议**|**说明**|
+|**服务器角色**|**服务名称**|**端口**|**协议**|**备注**|
 |:-----|:-----|:-----|:-----|:-----|
 |前端服务器  <br/> |Skype 业务服务器 IM 会议服务  <br/> |5062  <br/> |TCP  <br/> |用于即时消息 (IM) 会议的传入 SIP 请求。  <br/> |
 |前端服务器  <br/> |Skype 业务 Server Web 会议服务  <br/> |8057  <br/> |TCP (TLS)  <br/> |用于侦听来自客户端的持续性共享对象模型 (PSOM) 连接。  <br/> |
@@ -147,7 +148,7 @@ Skype 业务服务器不支持电话拨入式会议的语音提示和保持音�
 **所需的客户端端口**
 
 
-|**端口**|**协议**|**说明**|
+|**端口**|**协议**|**备注**|
 |:-----|:-----|:-----|
 |443  <br/> |TCP (PSOM/TLS)  <br/> |用于外部用户访问 Web 会议会话。  <br/> |
 |443  <br/> |TCP (STUN/MSTURN)  <br/> |用于外部用户访问 A/V 会话和媒体 (TCP)  <br/> |

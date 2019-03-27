@@ -1,5 +1,6 @@
 ---
 title: 为业务服务器与 Skype 的互操作配置 VTC
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: 摘要： 配置对业务服务器使用 Skype VTC 设备。
-ms.openlocfilehash: cc6b8d4fb48a0f43d646d204d399c575af503390
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1a8422ddfa33652fa13d5aeb42b86a72b809126b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21017905"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880670"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>为业务服务器与 Skype 的互操作配置 VTC
  
@@ -56,7 +57,7 @@ ms.locfileid: "21017905"
    |HTTP 模式  <br/> | 开 <br/> |
    | SIP 模式 <br/> | 开 <br/> |
    |Telnet 模式  <br/> | 开 <br/> |
-   |WelcomeText  <br/> | 开 <br/> |
+   |欢迎文本  <br/> | 开 <br/> |
    |XMLAPI 模式  <br/> | 开 <br/> |
    
 7. 导航到配置-\>系统配置-\>SIP。

@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 配置为外部用户的存档免责声明
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 摘要： 阅读本主题可了解如何配置存档免责声明的 Skype 业务服务器。
-ms.openlocfilehash: cb49135f80c1711e7e71d16b448e51d308f7ebea
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9511dacb23773a4cd411844abd1d38216026019e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978667"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881749"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>在 Skype for Business Server 配置为外部用户的存档免责声明
  

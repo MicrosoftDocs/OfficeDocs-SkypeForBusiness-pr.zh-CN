@@ -1,5 +1,6 @@
 ---
 title: 启动服务
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: efaf7b2a-257f-4aef-9c25-40ea93b03ef4
 description: 若要部署的服务器角色上启动的服务，单击运行在步骤 4： 启动服务。 您必须以本地 Administrators 组或等效的成员身份登录。
-ms.openlocfilehash: e47de2643cabc036b1b5eaa5bf96b0fae1407cdb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7b376936cf81cb16ec646293b4fbc643c2daf11f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993262"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878243"
 ---
 # <a name="start-services"></a>启动服务
  

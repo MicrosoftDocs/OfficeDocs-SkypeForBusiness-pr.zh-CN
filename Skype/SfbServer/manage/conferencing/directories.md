@@ -1,5 +1,6 @@
 ---
 title: 为 Business Server Skype 创建会议目录
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
 description: 摘要： 了解如何为业务服务器 Skype 创建会议目录。
-ms.openlocfilehash: d54f9782e43c85d5119d0d6138131dc1858ee8f0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9e79ca7e1b2f896746db998cc53983c04c6724ef
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967724"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883512"
 ---
 # <a name="create-conference-directories-in-skype-for-business-server"></a>为 Business Server Skype 创建会议目录
  

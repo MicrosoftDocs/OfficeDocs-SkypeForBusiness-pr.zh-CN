@@ -1,5 +1,6 @@
 ---
 title: Lync Server 站点设置扩展器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 description: 若要编辑现有站点的属性，请执行以下操作：
-ms.openlocfilehash: 61ddc7893a3a6d3b85c9b73f0e8c5f9891eea521
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 0c6caf08060a94836d0c14169e550634c26e7dc9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246779"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883466"
 ---
 # <a name="lync-server-site-settings-expander"></a>Lync Server 站点设置扩展器
 

@@ -1,5 +1,6 @@
 ---
 title: 规划在 Skype 业务服务器的边缘服务器部署
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: 摘要： 规划业务服务器边缘环境您 Skype。 本主题介绍了边缘概念，并允许您获取组织与我们更深入的主题。
-ms.openlocfilehash: f558a4a9623e54a38e134716afe9b95021f237dc
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e2154abd7e263b92011ca198ddaa1b90f8bd38c7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886120"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881651"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>规划在 Skype 业务服务器的边缘服务器部署
  

@@ -1,5 +1,6 @@
 ---
 title: 修补程序或更新业务服务器中 Skype 的后端服务器或 Standard Edition 服务器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: 摘要： 了解如何为业务服务器中 Skype 后端服务器上安装更新或修补程序。
-ms.openlocfilehash: 7815c42443afae6fef7aaec71399120fb61ece82
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7919d437e5111d32f3f51fa19a1880714800666b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969129"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884151"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>修补程序或更新业务服务器中 Skype 的后端服务器或 Standard Edition 服务器
  
@@ -38,7 +39,7 @@ ms.locfileid: "20969129"
     Stop-CsWindowsService
     ```
 
-5. 停止万维网服务。在命令行中键入：
+5. 停止万维网服务。 在命令行中键入：
     
     ```
     net stop w3svc

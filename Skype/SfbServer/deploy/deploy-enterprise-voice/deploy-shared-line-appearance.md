@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 2015 中部署共享线路外观
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: 阅读本主题，了解如何在 Skype for Business Server 2015 的 2015 年 11 月累积更新中部署共享线路外观 (SLA)。SLA 是用于处理对特定号码（称为“共享号码”）的多个呼叫的功能。
-ms.openlocfilehash: f5c97c94f2e0ed2034ac96864b20dec604708d55
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c0da29e54f03a5c328f1b65807f438b63c14a68f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372012"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878646"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中部署共享线路外观
 
 阅读本主题，了解如何在 Skype for Business Server 2015 的 2015 年 11 月累积更新中部署共享线路外观 (SLA)。SLA 是用于处理对特定号码（称为“共享号码”）的多个呼叫的功能。
 
-有关此功能的详细信息，请参阅[规划中的业务服务器 2015 Skype 共享行外观](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)。
+有关此功能的详细信息，请参阅[Plan for Shared Line Appearance in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)。
 
 共享行外观 (SLA) 是 Skype 业务服务器中的新功能年 11 月 2015年累积更新。 要启用此功能，必须首先部署此累积更新。
 
@@ -57,7 +58,7 @@ ms.locfileid: "25372012"
 
 ### <a name="create-an-sla-group-and-add-users-to-it"></a>创建一个 SLA 组并向该组添加用户
 
-1. 使用[组 CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) cmdlet 创建的 SLA 组：
+1. 使用 [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) cmdlet 创建 SLA 组：
 
    ```
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
@@ -78,7 +79,7 @@ ms.locfileid: "25372012"
     > [!NOTE]
     > 请注意，您所指定的`-Identity`必须为有效的现有已启用企业语音的用户帐户。
 
-2. 通过使用[添加 CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps) cmdlet 添加到组的代理人：
+2. 使用 [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps) cmdlet 向组添加代理人：
 
    ```
    Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
@@ -95,7 +96,7 @@ ms.locfileid: "25372012"
 
 ### <a name="configure-the-sla-group-busy-option"></a>配置 SLA 组忙碌选项
 
-- 配置 SLA 忙选项组使用[集 CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) cmdlet:
+- 使用 [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) cmdlet 配置 SLA 组忙碌选项：
 
   ```
   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
@@ -109,7 +110,7 @@ ms.locfileid: "25372012"
 
 ### <a name="configure-the-sla-group-missed-call-option"></a>配置 SLA 组未接来电选项
 
-1. 使用[组 CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) cmdlet 配置 SLA 组错过呼叫选项：
+1. 使用 [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) cmdlet 配置 SLA 组未接来电选项：
 
    ```
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
@@ -123,7 +124,7 @@ ms.locfileid: "25372012"
 
 ### <a name="remove-a-delegate-from-a-group"></a>从组中删除代理人
 
-- 使用[删除 CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates?view=skype-ps) cmdlet 从组中删除代理人：
+- 使用 [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates?view=skype-ps) cmdlet 从组中删除代理人：
 
   ```
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
@@ -137,7 +138,7 @@ ms.locfileid: "25372012"
 
 ### <a name="delete-an-sla-group"></a>删除 SLA 组
 
-- 使用[删除 CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) cmdlet 删除 SLA 组：
+- 使用 [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) cmdlet 删除 SLA 组：
 
   ```
   Remove-CsSlaConfiguration -Identity <IdentityOfGroup>

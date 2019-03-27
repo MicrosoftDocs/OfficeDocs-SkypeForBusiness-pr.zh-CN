@@ -1,5 +1,6 @@
 ---
 title: Windows PowerShell 和 Skype 的业务 Server 管理工具
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 description: Skype 业务服务器，在使用 Windows PowerShell 实现管理工具。 Windows PowerShell 包括命令行环境、 特定于产品的命令和完整的脚本语言。 使用 Windows PowerShell 实现的业务服务器工具的 Skype 包括：
-ms.openlocfilehash: 4811f8fb6e4db1003e367a9cc99feb92a2928d5f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 743823e5465d6fa18f46d0f8f38802098416d7e6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21007286"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882619"
 ---
 # <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Windows PowerShell 和 Skype 的业务 Server 管理工具
  
 Skype 业务服务器，在使用 Windows PowerShell 实现管理工具。 Windows PowerShell 包括命令行环境、 特定于产品的命令和完整的脚本语言。 使用 Windows PowerShell 实现的业务服务器工具的 Skype 包括： 
   
-- **拓扑生成器**。 使用拓扑生成器来创建、 调整和发布您规划的拓扑和服务器安装之前，它会验证您的拓扑。 在安装时 Skype 业务服务器在单个服务器上，服务器作为一部分安装过程中，阅读发布的拓扑并安装程序将部署服务器，如拓扑中的说明。 安装完成后，配置信息将自动复制到所有服务器。 只能使用拓扑生成器将组件添加到部署中。
+- **拓扑生成器**。 使用拓扑生成器来创建、 调整和发布您规划的拓扑和服务器安装之前，它会验证您的拓扑。 在安装时 Skype 业务服务器在单个服务器上，服务器作为一部分安装过程中，阅读发布的拓扑并安装程序将部署服务器，如拓扑中的说明。 After setup, configuration information is automatically replicated to all servers. Components can be added to your deployment only by using Topology Builder.
     
 - **Skype 的业务 Server 命令行管理程序**。 可用于 Skype 业务 Server 命令行管理程序的完整命令行管理部署。
     

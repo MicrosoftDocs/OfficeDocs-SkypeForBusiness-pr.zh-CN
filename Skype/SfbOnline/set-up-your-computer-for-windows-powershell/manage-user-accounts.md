@@ -1,5 +1,6 @@
 ---
 title: 管理用户帐户
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Windows PowerShell 中使用 Get-csonlineuser cmdlet 以获取有关您组织的 Skype 针对业务 Online 用户信息。
-ms.openlocfilehash: 90f928fa6cd546dabc0cbb5d3f4f84aa7f00f202
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 8f6ca618925b070e1d42a215cb9afb076a1e8197
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858478"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881404"
 ---
 # <a name="manage-user-accounts"></a>管理用户帐户
 

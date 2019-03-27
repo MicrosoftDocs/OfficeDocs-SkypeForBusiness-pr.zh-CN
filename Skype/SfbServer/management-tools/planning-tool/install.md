@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 2015 中安装规划工具
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,17 +11,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
-description: 之前开始设计和使用 Skype 业务 Server 2015 规划工具规划您 Skype 业务服务器 2015年基础结构，您必须首先安装规划工具。 规划工具不需要部署到的工作站或服务器的域或基础结构的一部分打算为业务服务器 2015年安装 Skype。 该规划工具附带的自述文件详细介绍有关安装和使用该工具的重要信息。 自述文件中的信息的一些为清楚起见此处重复。
-ms.openlocfilehash: 2314a9ae548bea70bc13872714ae3215d7439eec
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 之前开始设计和使用 Skype 业务 Server 2015 规划工具规划您 Skype 业务服务器 2015年基础结构，您必须首先安装规划工具。 规划工具不需要部署到的工作站或服务器的域或基础结构的一部分打算为业务服务器 2015年安装 Skype。 该规划工具附带的自述文件详细介绍有关安装和使用该工具的重要信息。 Some of the information in the Readme file is duplicated here for clarity.
+ms.openlocfilehash: 616cec026dfc5890cffc3975ea421d98ec13e412
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244321"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884130"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中安装规划工具
 
-之前开始设计和使用 Skype 业务 Server 2015 规划工具规划您 Skype 业务服务器 2015年基础结构，您必须首先安装规划工具。 规划工具不需要部署到的工作站或服务器的域或基础结构的一部分打算为业务服务器 2015年安装 Skype。 该规划工具附带的自述文件详细介绍有关安装和使用该工具的重要信息。 自述文件中的信息的一些为清楚起见此处重复。
+之前开始设计和使用 Skype 业务 Server 2015 规划工具规划您 Skype 业务服务器 2015年基础结构，您必须首先安装规划工具。 规划工具不需要部署到的工作站或服务器的域或基础结构的一部分打算为业务服务器 2015年安装 Skype。 该规划工具附带的自述文件详细介绍有关安装和使用该工具的重要信息。 Some of the information in the Readme file is duplicated here for clarity.
 
 > [!IMPORTANT]
 > 规划工具需要安装在其上安装该工具的计算机上具有管理员权限的用户。
@@ -65,11 +66,11 @@ ms.locfileid: "23244321"
 
 7. 安装程序现在已准备好安装规划工具。 单击“安装”**** 开始安装过程。
 
-8. 将开始安装，并将显示进度。成功完成安装后，单击“**完成**”。
+8. 将开始安装，并将显示进度。 成功完成安装后，单击“**完成**”。
 
 9. 规划工具可供使用。
 
-## <a name="optional-software"></a>Optional Software
+## <a name="optional-software"></a>可选软件
 <a name="Optional_Software"> </a>
 
 业务 Server 2015 规划工具的 Skype 旨在导出到 Microsoft Excel 中，Microsoft Visio。 不需要规划工具的操作这些应用程序时，大量值添加到部署和设计的文档。
@@ -108,4 +109,4 @@ ms.locfileid: "23244321"
 ## <a name="see-also"></a>另请参阅
 <a name="Optional_Software"> </a>
 
-[安装规划工具](https://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)
+[Installing the Planning Tool](https://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)

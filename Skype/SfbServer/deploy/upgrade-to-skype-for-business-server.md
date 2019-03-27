@@ -1,5 +1,6 @@
 ---
 title: 升级到 Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,14 +15,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 摘要： 了解如何从 Lync Server 2013 升级到 Skype 的业务服务器 2015年。 下载免费试用版 Skype 业务服务器 2015 从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: 5c23faeb1dca662b80855b87a93152b3e81de43d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0a09de79bd60917667dfb2e7ca33310da3b04ddd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885143"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878187"
 ---
-# <a name="upgrade-to-skype-for-business-server-2015"></a>升级到 Skype for Business Server 2015
+# <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade to Skype for Business Server 2015
  
 **摘要：** 了解如何从 Lync Server 2013 升级到 Skype 的业务服务器 2015年。 下载[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)中的业务服务器 2015 Skype 的免费试用版。
   
@@ -36,7 +37,7 @@ ms.locfileid: "23885143"
   
 ### <a name="before-you-begin"></a>开始之前
 
-- 查看[规划升级到业务服务器 2015年的 Skype](../plan-your-deployment/upgrade.md)。
+- 查看 [Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md)。
     
 - 查看[Business Server 2015 的 Skype 服务器要求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
     
@@ -71,7 +72,7 @@ ms.locfileid: "23885143"
 在开始升级过程之前，必须在计划升级的池运行所有服务。 这是为了保证拓扑更改复制到池中服务器的本地数据库。
   
 > [!IMPORTANT]
->  在升级之前保存拓扑文件副本。 升级后，您将不能降级拓扑。 > 如果服务位于相同的服务器，如数据库，如持久聊天服务位于相同的服务器的持久聊天数据库，请跳过此步骤中，并转到步骤 4。 停止服务后，请在每台服务器上运行就地升级安装以升级本地数据库。
+>  在升级之前保存拓扑文件副本。 升级后，您将不是能够降级 topology.> 服务时为您的数据库，如持久聊天服务位于持久聊天数据库所在的服务器上的同一服务器上，跳过此步骤，并转到步骤 4。 停止服务后，请在每台服务器上运行就地升级安装以升级本地数据库。
   
 > [!NOTE]
 > 如果拓扑有镜像的后端数据库，那么在使用拓扑生成器**发布拓扑时**，您会看到主数据库和镜像数据库同时出现。发布拓扑时，请确保所有数据库都在主数据库上运行，同时只选择主数据库，而不是镜像数据库，否则，在发布拓扑后，您会看到警告。
@@ -144,7 +145,7 @@ ms.locfileid: "23885143"
     
    -  选中“**存档**”复选框。
     
-   - 单击“**新建**”。
+   - 单击“新建”****。
     
      ![显示“存档”部分下的“新建”按钮的“编辑属性”对话框的屏幕截图。](../media/3a4a18e7-8251-4736-837c-2b486f64f896.png)
   
@@ -179,7 +180,7 @@ Disable-CsComputer -Scorch
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>第 5 步：升级前端池和非前端池服务器
 
 > [!NOTE]
->  请升级安装的所有新必备组件所需的 Skype 业务服务器 2015年其中包括之前： > 至少 32 GB 的可用空间之前尝试升级。 此外，请确保驱动器是固定的本地驱动器、 未连接通过 USB 或防火墙、 格式化为 NTFS 文件系统、 不压缩，并不包含页面文件。 > PowerShell 版本 6.2.9200.0 或更高版本。 > 最新的 Lync Server 2013安装累积更新。 > 安装 SQL Server 2012 SP1。 > 下列 KB 的安装 （自动安装如果使用 Microsoft Update）： > Windows Server 2008 R2[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> WindowsServer 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
+>  请升级安装的所有新必备组件所需的 Skype 业务服务器 2015年其中包括之前： > 至少 32 GB 的可用空间之前尝试升级。 此外，请确保驱动器是固定的本地驱动器、 未连接通过 USB 或防火墙、 格式化为 NTFS 文件系统、 不压缩，并不包含页面 file.> PowerShell 版本 6.2.9200.0 或更高版本.> 最新的 Lync Server 2013安装累积更新的.> SQL Server 2012 SP1 安装的.> 下列 KB 安装 （自动安装如果使用 Microsoft Update）： Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> Windows >Server 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
   
 使用就地升级每台服务器上更新的前端池、 边缘池、 中介服务器和持久聊天池。
   
@@ -234,15 +235,15 @@ Disable-CsComputer -Scorch
   
 ![显示由于未安装所需的累积更新而导致就地升级失败的屏幕截图。](../media/f84db06b-0841-45a9-870d-7ba4b5a463d5.png)
   
-查看页面底部帮您进行疑难解答的完整消息。单击“**查看日志**”获得更多详细信息。
+查看页面底部帮您进行疑难解答的完整消息。 单击“**查看日志**”获得更多详细信息。
   
 如果上**Verifying 升级准备情况**或**Installing 缺少系统必备**的就地升级失败，请确保服务器具有所有 Windows Server、 Lync Server 和 SQL Server 最新更新应用和所有必需的软件和角色安装。 有什么要求的列表，请参阅[安装必备组件的业务服务器 2015 Skype](install/install-prerequisites.md)和[Skype 的业务服务器 2015年服务器要求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
   
 ## <a name="see-also"></a>另请参阅
 
-[规划升级到 Skype for Business Server 2015](../plan-your-deployment/upgrade.md)
+[Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md)
   
-[Skype for Business Server 2015 的服务器要求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
 [Skype for Business Server 2015 的安装先决条件](install/install-prerequisites.md)
   

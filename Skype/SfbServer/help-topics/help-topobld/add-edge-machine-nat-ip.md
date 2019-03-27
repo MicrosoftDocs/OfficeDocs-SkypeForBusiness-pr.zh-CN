@@ -1,5 +1,6 @@
 ---
-title: 添加边缘计算机 NAT IP
+title: 添加 Edge 机器 NAT IP
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 71fb7752-c37f-46bb-a470-b5a8083aa95f
 description: 如果此边缘池的公共 IP 地址已翻译的网络地址转换 (NAT)，则必须指定要转换的公共 IP 地址。 这应该是外部 IP 地址的 A / V 边缘服务。
-ms.openlocfilehash: 527c38cc6d64938e66a059ab6e378679ccb06b09
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ad68c729bfafed4562c6d81a029737a9c9b8fa18
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006157"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882882"
 ---
-# <a name="add-edge-machine-nat-ip"></a>添加边缘计算机 NAT IP
+# <a name="add-edge-machine-nat-ip"></a>添加 Edge 机器 NAT IP
  
 如果此边缘池的公共 IP 地址已翻译的网络地址转换 (NAT)，则必须指定要转换的公共 IP 地址。 这应该是外部 IP 地址的 A / V 边缘服务。
   

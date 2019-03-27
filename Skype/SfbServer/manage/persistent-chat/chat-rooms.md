@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 2015 中管理持久聊天服务器内的聊天室
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 摘要： 了解如何管理 Persistent Chat Server 聊天室中 Skype for Business Server 2015。
-ms.openlocfilehash: 1c197be847d2a1359a3e6203df718cc34f1d9e41
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8764b40651c9872393867ced205c405cfc2d4046
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372147"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881728"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中管理持久聊天服务器内的聊天室
  
@@ -49,12 +50,12 @@ ms.locfileid: "25372147"
 
 |**Cmdlet**|**说明**|
 |:-----|:-----|
-|New-cspersistentchatroom  <br/> |新建聊天室  <br/> |
-|Set-cspersistentchatroom  <br/> |配置现有聊天室的设置；向聊天室分配用户和用户组  <br/> |
-|Get-cspersistentchatroom  <br/> |检索有关聊天室的信息  <br/> |
-|Clear-cspersistentchatroom  <br/> |清除聊天室或清除聊天室中的消息  <br/> |
-|即 Remove-cspersistentchatroom  <br/> |删除聊天室  <br/> |
-|删除 CsPersistentChatMessage  <br/> |从聊天室删除消息  <br/> |
+|New-CsPersistentChatRoom  <br/> |新建聊天室  <br/> |
+|Set-CsPersistentChatRoom  <br/> |配置现有聊天室的设置；向聊天室分配用户和用户组  <br/> |
+|Get-CsPersistentChatRoom  <br/> |检索有关聊天室的信息  <br/> |
+|Clear-CsPersistentChatRoom  <br/> |清除聊天室或清除聊天室中的消息  <br/> |
+|Remove-CsPersistentChatRoom  <br/> |删除聊天室  <br/> |
+|Remove-CsPersistentChatMessage  <br/> |从聊天室删除消息  <br/> |
    
 使用 **New-CsPersistentChatRoom** cmdlet 来创建聊天室，使用 **Set-CsPersistentChatRoom** cmdlet 来配置现有聊天室，包括向聊天室添加用户。 您可以配置聊天室的以下参数：
   
@@ -76,7 +77,7 @@ ms.locfileid: "25372147"
     
 - Presenters。让您可以向 Auditorium 聊天室分配演示者。 
     
-  有关语法，包括所有参数的详细信息，请参阅[Skype 的业务服务器 2015年命令行管理程序](../management-shell.md)。
+  有关语法的详细信息，包括所有参数，请参阅[Skype for Business Server 2015 Management Shell](../management-shell.md)。
   
 ## <a name="create-a-new-room"></a>创建新聊天室
 

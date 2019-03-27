@@ -1,5 +1,6 @@
 ---
 title: 质量体验 (QoE) 数据创建新的或编辑现有的
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19d34703-be01-4969-9eae-9d107d7b3408
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 82fcf2cf07dd32221e9f9f09db9c915b9879216b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+ms.openlocfilehash: 0d7fb4208ba85f39d2d7ed91a9f1a0d98b40c6f3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985933"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882199"
 ---
-# <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>质量体验 (QoE) 数据： 创建新的或编辑现有的
+# <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>用户体验质量 (QoE) 数据：创建新的或编辑现有的
  
-您希望执行什么操作？单击您要执行的任务所对应的链接。
+您希望执行什么操作？ 单击您要执行的任务所对应的链接。
   
 - [启用业务 Server Skype 中用户体验质量](../../../manage/health-and-monitoring/enable-qoe.md)
     

@@ -1,5 +1,6 @@
 ---
 title: '管理 Business Server （英文） 中 Skype 的电话拨入式会议访问号码 '
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 摘要： 了解如何为业务服务器管理 Skype 中的电话拨入式会议访问号码。
-ms.openlocfilehash: a9e93b52a329a4fdce6817a758b6c6dcb29a0348
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c074cb9417e39d8964996f643b90f8fe3e0fd7b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008186"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883519"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>管理 Business Server （英文） 中 Skype 的电话拨入式会议访问号码
  
 **摘要：** 了解如何为业务服务器管理 Skype 中的电话拨入式会议访问号码。
   
-部署电话拨入式会议时，需要设置用户可以从公用电话交换网 (PSTN) 拨打以加入会议的音频部分的电话号码。这些拨入访问号码显示在会议邀请和“电话拨入式会议设置”网页上。 
+部署电话拨入式会议时，需要设置用户可以从公用电话交换网 (PSTN) 拨打以加入会议的音频部分的电话号码。 这些拨入访问号码显示在会议邀请和“电话拨入式会议设置”网页上。 
   
 本主题描述如何查看、修改或删除现有的电话拨入式会议访问号码。 有关如何创建初始电话拨入访问号码的详细信息，请参阅[Skype 业务服务器中的电话拨入式会议配置](../../deploy/deploy-conferencing/dial-in-conferencing.md)。
   
@@ -111,7 +112,7 @@ Regions            : {US}
 9. 在“池”**** 中，单击运行支持此拨入访问号码的会议助理实例的池。
     
     > [!NOTE]
-    > 如果您需要更改池创建访问号码后，您必须使用**Move-csapplicationendpoint** cmdlet 或删除并重新创建访问号码。
+    > 创建访问号码后，如果需要更改池，必须使用  **Move-CsApplicationEndpoint** cmdlet 或删除并重新创建访问号码。
   
 10. 在“主要语言”**** 中，单击针对此拨入访问号码播放提示时使用的语言。 
     

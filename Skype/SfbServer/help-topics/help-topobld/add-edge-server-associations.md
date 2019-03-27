@@ -1,5 +1,6 @@
 ---
-title: 添加边缘服务器关联
+title: 添加 Edge Server 关联
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 description: 使用此页面选择哪些前端池和 Standard Edition 服务器会将此边缘池用于 A / V 流量。
-ms.openlocfilehash: 5792de61194af7b51cdbd900ce88dbcf2da540a5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0547921bfde85cf0f0f99443aece463994c0b13b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013789"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879677"
 ---
-# <a name="add-edge-server-associations"></a>添加边缘服务器关联
+# <a name="add-edge-server-associations"></a>添加 Edge Server 关联
  
 使用此页面选择哪些前端池和 Standard Edition 服务器会将此边缘池用于 A / V 流量。 
   

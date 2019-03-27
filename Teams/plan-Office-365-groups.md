@@ -1,5 +1,6 @@
 ---
 title: 在 Microsoft Teams 中创建团队时规划 Office 365 组
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a54549fd1e82affecad6a69d17e10cf6e1dc763
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 016831a9c3d5cac6c331d6112adbc2738ec8382b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640679"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884383"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>在 Microsoft Teams 中创建团队时规划 Office 365 组
 ==========================================================
@@ -28,7 +29,7 @@ ms.locfileid: "30640679"
 
 有两种应用场景可以用来围绕 Office 365 组的规划及其对（或受）Microsoft Teams 的影响展开某些讨论：
 
--   首先，由于客户可能在组中已有投入，我们当前支持少于 2500 个成员的公用组和专用组。 如前所述，您想要管理人员使用团队客户端，而不是 Office 365 管理 web 控制台为团队的成员身份。 根据此方案中，如果人员用于线程在 Office 365 组的对话，则会值得注意的组对话本质上电子邮件和团队通道中聊天消息不相同。 向你的用户解释此差异，并建议他们采用 Teams 中更加灵活的聊天消息，而不是使用 Outlook 或 OWA 向组发送电子邮件。
+-   首先，客户可以在组中拥有现有投资，因为我们当前支持公共和私有组小于 5000 个成员。 如前所述，您想要管理人员使用团队客户端，而不是 Office 365 管理 web 控制台为团队的成员身份。 根据此方案中，如果人员用于线程在 Office 365 组的对话，则会值得注意的组对话本质上电子邮件和团队通道中聊天消息不相同。 向你的用户解释此差异，并建议他们采用 Teams 中更加灵活的聊天消息，而不是使用 Outlook 或 OWA 向组发送电子邮件。
 
 -   其次，对于在 Office 365 中没有定义现有组的客户，你可以使用 Office 365 管理门户、Teams Web 控制台或桌面控制台来创建组。 如前所述，使用 Teams 客户端管理与 Office 365 的所有未来成员身份。 由于到团队的成员资格也到 Office 365 组定义成员资格，应将人员准备此更改。
  

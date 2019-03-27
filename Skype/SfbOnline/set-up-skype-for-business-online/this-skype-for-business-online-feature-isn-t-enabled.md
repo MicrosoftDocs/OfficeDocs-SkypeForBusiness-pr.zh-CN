@@ -1,5 +1,6 @@
 ---
 title: 未启用此 Skype 业务 Online 功能
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: '当您接到 Skype 的业务联机功能不是已启用的错误时，查找可能的原因和操作建议。 '
-ms.openlocfilehash: 12d5c19f7830d99ce6c7e8fad8089b713bd90d0a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0688bcc572c90c776bb1db6413825436f2ba8930
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863606"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881571"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>未启用此 Skype 业务 Online 功能
 

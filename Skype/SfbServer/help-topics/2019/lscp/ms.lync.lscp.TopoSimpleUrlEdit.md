@@ -1,5 +1,6 @@
 ---
 title: 拓扑查看简单 URL 详细信息
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 5b474d16b66aa5df4debd3e037e5f9d9bea075e0
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+ms.openlocfilehash: 9a9f52a7b279c65e59c4aaac00483b75c1a1092c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263168"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883226"
 ---
-# <a name="topology-view-simple-url-detail"></a>拓扑： 查看简单 URL 详细信息
+# <a name="topology-view-simple-url-detail"></a>拓扑：查看简单 URL 的详细信息l
 
-您希望执行什么操作？单击您要执行的任务所对应的链接。
+您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 
 - [编辑或配置简单 Url](https://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
 

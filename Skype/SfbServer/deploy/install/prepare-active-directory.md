@@ -1,5 +1,6 @@
 ---
 title: 准备 Active Directory 的 Skype 业务服务器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 摘要： 了解如何为业务服务器安装的 Skype 准备 Active Directory 域。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: 278a46ab7f39f3274905741fb40212869c043e9e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: de5de35377e526844a7badeb9897fe29b4b15db4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884002"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880824"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>准备 Active Directory 的 Skype 业务服务器
  
@@ -161,7 +162,7 @@ ms.locfileid: "23884002"
     e。 在“**成员**”选项卡上，确认所选的用户或组存在。 单击“**确定**”。
     
     > [!CAUTION]
-    > 为业务 Server Control Panel Skype 是一个基于角色的访问控制工具。 CsAdministrator 组的成员提供的业务 Server Control Panel 完全控制的所有可用的配置函数使用 Skype 的用户。 为特定功能提供了其他专门的角色。 有关可用的角色的详细信息，请参阅[环境要求 Skype 业务服务器](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)或[服务器要求的业务服务器 2019 Skype](../../../SfBServer2019/plan/system-requirements.md)。 请注意，用户不需要启用的 Skype 业务服务器，才能成为管理组的成员。 
+    > 为业务 Server Control Panel Skype 是一个基于角色的访问控制工具。 CsAdministrator 组的成员提供的业务 Server Control Panel 完全控制的所有可用的配置函数使用 Skype 的用户。 还有其他为特定功能设计的专门角色可用。 有关可用的角色的详细信息，请参阅[环境要求 Skype 业务服务器](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)或[服务器要求的业务服务器 2019 Skype](../../../SfBServer2019/plan/system-requirements.md)。 请注意，用户不需要启用的 Skype 业务服务器，才能成为管理组的成员。 
   
     > [!CAUTION]
     > 若要帮助保留安全性和基于角色的访问控制完整性，请将用户添加到定义了用户执行的业务服务器部署 Skype 的管理角色组。 
@@ -175,4 +176,4 @@ ms.locfileid: "23884002"
 
 ## <a name="see-also"></a>另请参阅
  
-[Skype for Business Server 2015 的 Active Directory 域服务](../../plan-your-deployment/security/active-directory-domain-services.md)
+[Active Directory Domain Services for Skype for Business Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)

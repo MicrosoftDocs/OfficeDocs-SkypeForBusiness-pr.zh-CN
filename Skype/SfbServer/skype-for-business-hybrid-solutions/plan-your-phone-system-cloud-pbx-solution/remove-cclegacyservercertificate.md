@@ -1,5 +1,6 @@
 ---
-title: 删除 CcLegacyServerCertificate
+title: Remove-CcLegacyServerCertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
 description: 在执行 Renew-CcCACertificate 或 Renew CcServerCertificate cmdlet 后，执行 Remove-CcLegacyServerCertificate cmdlet 可删除中央管理存储、中介服务器和边缘服务器上的旧服务器证书。
-ms.openlocfilehash: dc52351d9c66ff310329da62dbd69da74b19c222
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 5f148aa083b646565adf0158f34fb15314296170
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569838"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882458"
 ---
-# <a name="remove-cclegacyservercertificate"></a>删除 CcLegacyServerCertificate
+# <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  
 在执行 Renew-CcCACertificate 或 Renew CcServerCertificate cmdlet 后，执行 Remove-CcLegacyServerCertificate cmdlet 可删除中央管理存储、中介服务器和边缘服务器上的旧服务器证书。
   
@@ -47,9 +48,9 @@ Remove-CcLegacyServerCertificate -Roles @("MS", "Edge")
 ## <a name="parameters"></a>参数
 <a name="Examples"> </a>
 
-|**参数**|**必填**|**类型**|**说明**|
+|**参数**|**必需**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| 角色 <br/> |可选  <br/> |System.Array  <br/> | 云连接器服务器角色阵列。 <br/> |
+| 角色 <br/> |可选  <br/> |System.Array  <br/> | 云连接器服务器角色的阵列。 <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
@@ -64,12 +65,12 @@ Remove-CcLegacyServerCertificate -Roles @("MS", "Edge")
 ## <a name="see-also"></a>另请参阅
 <a name="ReturnTypes"> </a>
 
-[续订 CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
-[重置 CcCACertificate](reset-cccacertificate.md)
+[Reset-CcCACertificate](reset-cccacertificate.md)
   
-[续订 CcCACertificate](renew-cccacertificate.md)
+[Renew-CcCACertificate](renew-cccacertificate.md)
   
-[更新 CcCACertificate](update-cccacertificate.md)
+[Update-CcCACertificate](update-cccacertificate.md)
   
 

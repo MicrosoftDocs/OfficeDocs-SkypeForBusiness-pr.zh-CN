@@ -1,5 +1,6 @@
 ---
 title: 自定义业务服务器 Skype 的用户帐户属性
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: 您可以使用本节中的过程修改单个用户帐户属性。
-ms.openlocfilehash: 8546d660d0d79f36fa37abf43fcf06dc8e863691
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5162cb187538b5288f13f25beae96f3775faa594
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968857"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880866"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>自定义业务服务器 Skype 的用户帐户属性
  
@@ -47,7 +48,7 @@ Skype 的企业服务器用户电话选项包括：
     
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
     
-3. 在左导航栏中，单击“**用户**”。
+3. 在左导航栏中，单击“用户”****。
     
 4. 在**搜索用户**框中键入所有或显示名称、 名字、 最后一个名称、 安全帐户管理器 (SAM) 帐户名、 SIP 地址或行您希望，并单击**查找的用户帐户的统一资源标识符 (URI) 的第一部分**.
     
@@ -79,7 +80,7 @@ Skype 的企业服务器用户电话选项包括：
     
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。  
     
-3. 在左导航栏中，单击“**用户**”。
+3. 在左导航栏中，单击“用户”****。
     
 4. 在**搜索用户**框中键入所有或显示名称、 名字、 最后一个名称、 安全帐户管理器 (SAM) 帐户名、 SIP 地址或行您希望，并单击**查找的用户帐户的统一资源标识符 (URI) 的第一部分**. 
     
@@ -100,7 +101,7 @@ Skype 的企业服务器用户电话选项包括：
     
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。  
     
-3. 在左导航栏中，单击“**用户**”。
+3. 在左导航栏中，单击“用户”****。
     
 4. 在**操作**菜单中，单击**移动所有用户移动到池**。
     
@@ -119,7 +120,7 @@ Skype 的企业服务器用户电话选项包括：
     
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
     
-3. 在左导航栏中，单击“**用户**”。
+3. 在左导航栏中，单击“用户”****。
     
 4. 在**用户搜索**，单击**搜索**，然后单击**添加筛选器**。
     

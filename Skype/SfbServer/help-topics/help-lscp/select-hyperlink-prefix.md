@@ -1,5 +1,6 @@
 ---
 title: 选择超链接前缀
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: 使用选择超链接前缀对话框中选择您想要阻止、 发送一条警告消息，或通过选中 （以阻止或发送一条警告消息） 或清除允许 （以允许） 的超链接的类型及其扩展名下的类别中对应的复选框超链接前缀。 单击箭头以展开类别并查看所有类别的超链接前缀。 如果您想要选择的所有类别的超链接前缀，选择类别名称。
-ms.openlocfilehash: 341a2be3e951d6c72dc92725550d3b6d7644b334
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d0811bab0d7e44e7e7fb2fec116b9aa65a78a530
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20990964"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882626"
 ---
 # <a name="select-hyperlink-prefix"></a>选择超链接前缀
  

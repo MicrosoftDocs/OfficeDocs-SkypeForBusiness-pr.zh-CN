@@ -1,5 +1,6 @@
 ---
 title: 证书列表
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要分配证书，请从本地证书存储中选择证书。单击“下一步”继续。
-ms.openlocfilehash: 62dcc2abfde1d2216288b8137a9ab2a2448d5404
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: 若要分配证书，请从本地证书存储中选择证书。 单击“下一步”继续。
+ms.openlocfilehash: f48f65cae587b7fa0b2dfe278978649db37ccf95
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20987477"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881083"
 ---
 # <a name="certificate-list"></a>证书列表
  

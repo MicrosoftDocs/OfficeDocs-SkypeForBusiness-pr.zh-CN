@@ -1,5 +1,6 @@
 ---
 title: 为 Business Server Skype 创建用户体验质量配置设置
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: 摘要： 了解如何在 Skype 业务服务器的用户体验质量 (QoE) 设置。
-ms.openlocfilehash: 678f57ba06008244bf9872ee44b26ea0c1e9a0f2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 971d3488d0c6d20586e33424c1fbb2b197b31241
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968193"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883184"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>为 Business Server Skype 创建用户体验质量配置设置
  
@@ -38,7 +39,7 @@ ms.locfileid: "20968193"
   
 ### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 创建 QoE 配置设置
 
-1. 以 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator、 CsServerAdministrator 或 CsAdministrator 角色的成员身份登录到计算机。 有关详细信息，请参阅**Delegate Setup Permissions**。
+1. 以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。有关详细信息，请参阅**Delegate Setup Permissions**。
     
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。  
     

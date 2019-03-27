@@ -1,5 +1,6 @@
 ---
-title: 证书请求 （已返回）
+title: 证书请求（已返回）
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: 联机证书请求状态页将显示的重要信息从成功创建和发布的联机证书请求的结果。 此页提供唯一标识证书的证书指纹。 默认情况下，选中分配此证书 Skype 的业务服务器证书用法复选框。 如果单击完成时，证书将自动分配给 Skype 业务服务器的证书请求执行创建步骤的过程定义，以便。 默认情况下，将分配证书的目的是：
-ms.openlocfilehash: 2de8bae390ed8406883f5c6cd74709990c6c450b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 70868129dc759e19960d2f6d9e3a9a1dc3d2f941
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983754"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878698"
 ---
-# <a name="certificate-request-returned"></a>证书请求 （已返回）
+# <a name="certificate-request-returned"></a>证书请求（已返回）
  
 **联机证书请求状态**页将显示的重要信息从成功创建和发布的联机证书请求的结果。 此页提供唯一标识证书的证书指纹。 默认情况下，选中**分配此证书 Skype 的业务服务器证书用法**复选框。 如果单击**完成**时，证书将自动分配给 Skype 业务服务器的证书请求执行创建步骤的过程定义，以便。 默认情况下，将分配证书的目的是：
   

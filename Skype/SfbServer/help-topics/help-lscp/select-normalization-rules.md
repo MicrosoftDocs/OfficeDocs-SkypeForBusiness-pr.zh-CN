@@ -1,5 +1,6 @@
 ---
 title: 选择规范化规则
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c46041b8-b52c-48bf-9da6-d91ccc7d7968
 description: 规范化规则使用 .NET Framework 正则表达式将拨打的电话号码转换为 E.164 格式。必须将每个拨号计划分配给一个或多个规范化规则。
-ms.openlocfilehash: b6dffdad20dd041bda7c3dd226ccca32480154c0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f64e24ddc0f8a2373ba68fd98d1ac9587398a863
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883550"
 ---
 # <a name="select-normalization-rules"></a>选择规范化规则
  
@@ -24,6 +26,6 @@ ms.lasthandoff: 03/28/2018
   
 要使用现有的规范化规则，请单击列表中的某个规则，然后单击“**确定**”。
   
-您还可以通过 Skype 业务服务器控件面板的不同过程的详细信息，请参阅[管理的业务服务器 2015年的 Skype](../../manage/manage.md)。
+有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
   
 

@@ -1,5 +1,6 @@
 ---
 title: 管理业务服务器中 Skype 的存档数据的清除
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: 摘要： 了解如何管理的 Skype 业务服务器的存档数据清除。
-ms.openlocfilehash: fce7c8214eddd55736a54b960d57053a88cdc859
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5483871d69932239f5d6e654c95edf1feac7b9d9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997942"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884123"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>管理业务服务器中 Skype 的存档数据的清除
 
@@ -32,7 +33,7 @@ ms.locfileid: "20997942"
     
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
     
-3. 在左侧导航栏中，单击“**监控和存档**”，然后单击“**存档配置**”。
+3. 在左侧导航栏中，单击“监控和存档”****，然后单击“存档配置”****。
     
 4. 单击存档配置列表中相应的全局、站点或池配置的名称，单击“**编辑**”，再单击“**显示详细信息**”，然后执行以下操作：
     

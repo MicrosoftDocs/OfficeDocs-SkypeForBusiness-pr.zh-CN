@@ -1,5 +1,6 @@
 ---
 title: Plan for Business 的 Skype 中的远程呼叫控制
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: 远程呼叫控制时在早期版本的 Lync Server 启用用户控制其 PBX 电话与 Lync Server 的功能。 在业务服务器 Skype，此功能已取代与通过单位电话呼叫。 中的客户端版本的 Skype 业务服务器 2015年和转转接、 远程呼叫控件不再是可用于配置在客户端，并使用已删除。
-ms.openlocfilehash: 2c17418f765ba7b542f5ce349ba486a4bbe278fe
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 31ee089e5f4142a0db728878d2bd35d86b628804
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881816"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879043"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>Plan for Business 的 Skype 中的远程呼叫控制
  

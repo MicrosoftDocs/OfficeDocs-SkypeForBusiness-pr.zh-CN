@@ -1,5 +1,6 @@
 ---
 title: Edge Network (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 大多数边缘组件都部署在外围网络中。 以下组件组成了外围网络的边缘拓扑。 除非另有说明的组件是边缘服务器中的业务服务器 2015 Skype 的方案的一部分，以及在外围网络中。 边缘组件包括下列各项：
-ms.openlocfilehash: 8a7dab2c702127bfffa8823fb364e87274cc00c2
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: e80373250c87ed0c51e5c1fbba629b2d8df801da
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503303"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880509"
 ---
 # <a name="edge-network-planning-tool"></a>Edge Network (Planning Tool)
  
@@ -36,6 +37,6 @@ ms.locfileid: "19503303"
     
 ## <a name="see-also"></a>另请参阅
 
-[在 Skype for Business Server 2015 中规划边缘服务器部署](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[Plan for Edge Server deployments in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
 [Skype for Business Server 2015 的边缘服务器系统要求](../../plan-your-deployment/edge-server-deployments/system-requirements.md)

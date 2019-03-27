@@ -1,5 +1,6 @@
 ---
 title: 响应组呼叫列表报告中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: 摘要： 了解 Business Server Skype 中的响应组应用程序。
-ms.openlocfilehash: c85d94c975cb7e104fdefc50ab935cf695223127
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5fe2665a90d5a2122965dd89fdf58087d910de47
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372921"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883257"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>响应组呼叫列表报告中 Skype 业务服务器
 

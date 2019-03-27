@@ -1,5 +1,6 @@
 ---
 title: 为业务服务器中 Skype 的拓扑生成器中定义其他中继
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: 摘要： 了解如何为业务服务器中 Skype 的拓扑生成器中定义其他中继的中介服务器和对等网关之间。
-ms.openlocfilehash: 1f70a1d99ebff1bbc1fbd162b322185b3cd21690
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 874d32053f4c3d91f16818bd34dc11806de8692c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370657"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881958"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>为业务服务器中 Skype 的拓扑生成器中定义其他中继
  
@@ -36,7 +37,7 @@ ms.locfileid: "25370657"
 1. 启动拓扑生成器： 单击**开始**，单击**所有程序**、 都单击**业务服务器 2015年的 Skype**，，然后都单击**业务 Server 2015Topology 生成器的 Skype**。
     
 2. 下 Skype 业务服务器**共享组件**，在您网站的名称，右键单击**Trunk**节点，然后单击**新建 Trunk**。
-   1. 在“定义新的 Trunk”**** 中，指定唯一标识中继的友好名称。您不得有两个具有相同名称的中继。
+   1. 在“定义新的 Trunk”**** 中，指定唯一标识中继的友好名称。 您不得有两个具有相同名称的中继。
     
       > [!NOTE]
       > 如果您作为传输类型指定传输层安全性 (TLS)，则必须指定而不是中介服务器的对等的 IP 地址的 FQDN。 
@@ -57,7 +58,7 @@ ms.locfileid: "25370657"
     > 使用多个业务服务器中 Skype 的中继支持，具有不同中继名称的两个中继无法配置具有同一**关联的中介服务器端口**和**IP/PSTN 网关的侦听端口**
   
     > [!NOTE]
-    > 使用多个业务服务器中 Skype 的中继支持，多个 SIP 信号端口可用于通信的中介服务器上定义与多个对等方。 定义中继时,**关联的中介服务器端口**号必须在各自的协议允许中介服务器的侦听端口的范围内。 此端口范围为业务服务器和中介服务器池定义 Skype 下。 右键单击相关的中介服务器池，然后选择**编辑属性**。 在**侦听端口**字段中指定的端口范围。
+    > 使用多个业务服务器中 Skype 的中继支持，多个 SIP 信号端口可用于通信的中介服务器上定义与多个对等方。 定义中继时,**关联的中介服务器端口**号必须在各自的协议允许中介服务器的侦听端口的范围内。 此端口范围为业务服务器和中介服务器池定义 Skype 下。 右键单击相关的中介服务器池，然后选择**编辑属性**。 Specify the port range in the **Listening ports** field.
   
 7. 单击“**确定**”。 
     

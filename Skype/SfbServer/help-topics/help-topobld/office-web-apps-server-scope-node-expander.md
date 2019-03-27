@@ -1,5 +1,6 @@
 ---
 title: Office Web Apps 服务器范围节点扩展器
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,20 +12,21 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
-description: 右键单击 Office Web 应用程序服务器拓扑生成器以执行以下：
-ms.openlocfilehash: fccc7fc89c069b45a9482c3cea21b9faf189dc74
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 右键单击在拓扑生成器以执行以下 Office Web Apps 服务器：
+ms.openlocfilehash: 58dd287b4749ed0855e8bf122397622b681e73d6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884214"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps 服务器范围节点扩展器
  
-右键单击在拓扑生成器中执行以下**Office Web 应用程序服务器**：
+您右键单击在**Office Web Apps 服务器**中的拓扑生成器以执行以下操作：
   
-- **新 Office Web 应用程序服务器**： 启动**定义新 Office Web 应用程序服务器**向导用于定义新的 Office Web 应用程序服务器。
+- **新 Office Web Apps Server**： 启动用于定义新的 Office Web Apps Server**定义新 Office Web Apps Server**向导。
     
-除了新 Office Web 应用程序服务器选项，您可以执行以下常规任务：
+除了新建 Office Web Apps 服务器选项中，您可以执行以下常规任务：
   
 ![Office WebApps Server 范围节点](../../media/OfficeWebApps_Server_Scope_Node.jpg)
   

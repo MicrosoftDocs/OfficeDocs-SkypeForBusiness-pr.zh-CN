@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 中配置的辅助位置信息服务
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: 为业务 Server 企业语音的 E9-1-1 在 Skype 配置辅助位置源 （另外） 数据库。
-ms.openlocfilehash: e811062bbec9e3b6caf368e010b751e496c1b305
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d5ff35be38030cc6081224e11431463e30696e4e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885120"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881111"
 ---
 # <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>在 Skype for Business Server 中配置的辅助位置信息服务
  
@@ -28,7 +29,7 @@ Skype 业务服务器提供了可用于指向辅助位置源 （另外） 数据
   
 ### <a name="to-configure-a-secondary-location-database"></a>配置辅助位置数据库
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 2. 运行以下 cmdlet 为辅助位置数据库位置配置 URL。 
     

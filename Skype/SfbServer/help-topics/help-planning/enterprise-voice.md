@@ -1,5 +1,6 @@
 ---
-title: 企业语音 （规划工具）
+title: Enterprise Voice (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,17 +13,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
-description: 企业语音业务服务器 2015年的 Skype 提供独立语音 (voip)，提出要增强或替代传统的专用分组交换机 (PBX) 系统。 企业语音用户可以调用的同事组织的 VoIP 网络或 PBX，并且它们可以调用您组织外的传统电话号码。 企业语音解决方案包括公共电话功能，如答案、 转发、 传输、 保存、 转移、 释放和停放，并增强 9-1-1 (E9-1-1) 调用 （E9-1-1 是仅在美国可用。企业语音还支持一系列当前和旧的 IP 和 USB 设备。
-ms.openlocfilehash: a32f3ce7c3ac989fc17eca30e482ca58cada4f0c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 与企业语音的业务服务器 2015 Skype 提供独立 Voice over Internet Protocol (VoIP) 提供增强或替换传统的专用交换机 (pbx) 系统。 企业语音用户可以在贵组织的 VoIP 网络或 PBX 上调用同事和它们可以呼叫组织外部的传统的电话号码。 企业语音解决方案包括常见的呼叫功能，如应答、 转发、 传输、 保留、 转移、 版本和寄存，和增强型 9-1-1 (E9-1-1) 呼叫 （E9-1-1。 只能在美国）企业语音还支持各种当前及较早 IP 和 USB 设备。
+ms.openlocfilehash: 30fc68aed4da713592d40d7400f8022c2b2f952a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881491"
 ---
-# <a name="enterprise-voice-planning-tool"></a>企业语音 （规划工具）
+# <a name="enterprise-voice-planning-tool"></a>Enterprise Voice (Planning Tool)
  
-企业语音业务服务器 2015年的 Skype 提供独立语音 (voip)，提出要增强或替代传统的专用分组交换机 (PBX) 系统。 企业语音用户可以调用的同事组织的 VoIP 网络或 PBX，并且它们可以调用您组织外的传统电话号码。 企业语音解决方案包括公共电话功能，如答案、 转发、 传输、 保存、 转移、 释放和停放，并增强 9-1-1 (E9-1-1) 调用 （E9-1-1 是仅在美国可用。企业语音还支持一系列当前和旧的 IP 和 USB 设备。
+与企业语音的业务服务器 2015 Skype 提供独立 Voice over Internet Protocol (VoIP) 提供增强或替换传统的专用交换机 (pbx) 系统。 企业语音用户可以在贵组织的 VoIP 网络或 PBX 上调用同事和它们可以呼叫组织外部的传统的电话号码。 企业语音解决方案包括常见的呼叫功能，如应答、 转发、 传输、 保留、 转移、 版本和寄存，和增强型 9-1-1 (E9-1-1) 呼叫 （E9-1-1。 只能在美国）企业语音还支持各种当前及较早 IP 和 USB 设备。
   
-有关企业语音计划的更多详细信息，请参阅[规划业务服务器 2015年的 Skype 在企业语音](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)。 部署独立的中介服务器的详细信息，请参阅[部署在拓扑生成器在 Skype 业务服务器 2015年的中介服务器](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)。
+有关规划企业语音的详细信息，请参阅[规划中的业务服务器 2015 Skype 的企业语音](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)。 有关部署独立的中介服务器的详细信息，请参阅[部署中的业务服务器 2015 Skype 的拓扑生成器中的中介服务器](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)。
   
 

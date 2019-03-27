@@ -1,5 +1,6 @@
 ---
 title: 拓扑生成器 Lync 节点
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,12 +12,12 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 20c61a2a-4955-42b9-897f-b180ffc226d6
-ms.openlocfilehash: 4c65e0375d9d19ce08aa0234853603bca18dee01
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b6df0c5c59007afa4a60c1a6db5403a38ea77caa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003718"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881324"
 ---
 # <a name="topology-builder-lync-node"></a>拓扑生成器 Lync 节点
  

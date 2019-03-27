@@ -1,5 +1,6 @@
 ---
 title: FileTransfers 视图
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
 description: 文件传输视图存储有关对等文件传输会话的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: 97bc5f957192c8a2c6d888f81fce0891aa2b4f75
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a39e00becd772e74eb12de1a8ce5975e6626cffa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531217"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881463"
 ---
 # <a name="filetransfers-view"></a>FileTransfers 视图
  

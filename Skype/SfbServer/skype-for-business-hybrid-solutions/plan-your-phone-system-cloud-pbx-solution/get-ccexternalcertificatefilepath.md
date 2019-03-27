@@ -1,5 +1,6 @@
 ---
-title: 获得 CcExternalCertificateFilePath
+title: Get-CcExternalCertificateFilePath
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,14 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 62fdc9cc-e82e-463f-b8b3-05d5c6482ea2
-description: Get-CcExternalCertificateFilePath cmdlet 将返回 Skype for Business 云连接器版本部署的外部证书文件路径。用户准备此证书。
-ms.openlocfilehash: 9ceba99310ab25676a7cd3938ed386c4752f453e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Get-CcExternalCertificateFilePath cmdlet 将返回 Skype for Business 云连接器版本部署的外部证书文件路径。 用户准备此证书。
+ms.openlocfilehash: 997b5d7a39decf11a19c307f4e7a7b439069441f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882584"
 ---
-# <a name="get-ccexternalcertificatefilepath"></a>获得 CcExternalCertificateFilePath
+# <a name="get-ccexternalcertificatefilepath"></a>Get-CcExternalCertificateFilePath
  
 Get-CcExternalCertificateFilePath cmdlet 将返回 Skype for Business 云连接器版本部署的外部证书文件路径。用户准备此证书。
   
@@ -53,7 +55,7 @@ Get-CcExternalCertificateFilePath -Target MediationServer
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>
 
-|**参数**|**必填**|**类型**|**说明**|
+|**参数**|**必需**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 |目标  <br/> |可选  <br/> | System.Management.Automation.SwitchParameter <br/> |要求的文件路径类型。类型包括：  <br/> EdgeServer（默认设置）  <br/> MediationServer  <br/> |
    
@@ -70,6 +72,6 @@ Get-CcExternalCertificateFilePath cmdlet 不接受主线输入。
 ## <a name="see-also"></a>另请参阅
 <a name="ReturnTypes"> </a>
 
-[一组 CcExternalCertificateFilePath](set-ccexternalcertificatefilepath.md)
+[Set-CcExternalCertificateFilePath](set-ccexternalcertificatefilepath.md)
   
 

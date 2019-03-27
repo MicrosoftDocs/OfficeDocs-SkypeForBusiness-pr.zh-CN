@@ -1,5 +1,6 @@
 ---
 title: 组中的业务的 Skype 调用的分拣的部署过程
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
 description: 部署过程和步骤组中的业务 Server 企业语音的 Skype 调用的分拣。
-ms.openlocfilehash: e1b7836824c9f6d4557525e29b42baf1527636bc
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 92dbb6ef4a96ed4972794a61814abcd31586ffb3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561636"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884045"
 ---
 # <a name="deployment-process-for-group-call-pickup-in-skype-for-business"></a>组中的业务的 Skype 调用的分拣的部署过程
  
@@ -33,7 +34,7 @@ ms.locfileid: "26561636"
 |**阶段**|**步骤**|**所需的组和角色**|**部署文档**|
 |:-----|:-----|:-----|:-----|
 |启用拓扑的 SEFAUtil 工具|使用 New-cstrustedapplicationpool cmdlet 可创建一个新的受信任应用程序池。 使用 New-cstrustedapplication cmdlet 可以指定为受信任应用程序的 SEFAUtil 工具。 运行 Enable-cstopology cmdlet 来启用拓扑。 如果您没有它，业务服务器版本的 SEFAUtil 工具 Skype 从该位置上, 下载并安装它在步骤 1 中创建的受信任应用程序池。 验证 SEFAUtil 正常运行，方法是运行它，以显示部署中用户的呼叫转接设置。 |RTCUniversalServerAdmins  <br/> |[部署中的业务的 Skype 的 SEFAUtil 工具](deploy-the-sefautil-tool.md) <br/> [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps) </br>[New-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplication?view=skype-ps)</br>[Enable-cstopology](https://docs.microsoft.com/powershell/module/skype/enable-cstopology?view=skype-ps) <br/> [Skype 的业务 Server 2015 资源工具包工具文档](../../management-tools/resource-kit-tools.md)。 （对于 Skype 业务服务器中，您必须使用当前版本的工具，但本文档从 Lync Server 2013 仍然适用）。  <br/> |
-|在呼叫寄存通道表中配置呼叫应答号码范围  <br/> |使用**New-cscallparkorbit** cmdlet 在呼叫寄存通道表中创建呼叫分拣号码范围，并分配呼叫分拣范围**GroupPickup**的类型。  <br/> 为与现有拨号计划进行无缝集成，号码范围通常配置为虚拟分机块。不支持将外线直拨分机 (DID) 号码分配为呼叫寄存轨道表中的范围号码。<br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[创建或修改 Skype for Business 中的组呼叫分拣号码范围](create-or-modify-a-group-call-pickup-number-range.md) <br/> |
+|在呼叫寄存通道表中配置呼叫应答号码范围  <br/> |使用 **New-CSCallParkOrbit** cmdlet 在呼叫寄存通道表中创建呼叫应答号码范围，并为呼叫应答范围分配 **GroupPickup** 类型。  <br/> 为与现有拨号计划进行无缝集成，号码范围通常配置为虚拟分机块。不支持将外线直拨分机 (DID) 号码分配为呼叫寄存轨道表中的范围号码。<br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[创建或修改 Skype for Business 中的组呼叫分拣号码范围](create-or-modify-a-group-call-pickup-number-range.md) <br/> |
 |将呼叫分拣号码分配给用户，并为用户启用组呼叫分拣  <br/> |使用 SEFAUtil 资源工具包工具中 /enablegrouppickup 参数启用组呼叫分拣和分配用户的呼叫分拣号码。  <br/> |-  <br/> |[为用户启用组呼叫分拣和分配 Skype for Business 中的一组数](enable-group-call-pickup-for-users-and-assign-a-group-number.md) <br/> |
 |通知用户其分配的呼叫应答号码和任何其他相关号码  <br/> |在您为用户启用组内呼叫应答后，使用电子邮件或一些其他机制来通知用户其呼叫应答组号码。通知用户他们可能希望监控的任何组的呼叫应答组号码。因为用户可以检索其他用户的呼叫（即使他们不在同一组中），所以用户可能需要多个组的呼叫应答组号码。  <br/> |-  <br/> ||
 |验证组呼叫分拣部署  <br/> | 测试发出和取回呼叫以确保配置按预期工作。至少验证以下几点： <br/>  呼叫一个已为其启用了组内呼叫应答的用户，让另一个用户取回此呼叫。后者可在同一个组，也可不在同一个组，或者尚未启用组内呼叫应答。 <br/>  呼叫一个已为其启用了组内呼叫应答的用户但不应答呼叫。 <br/> |-  <br/> ||

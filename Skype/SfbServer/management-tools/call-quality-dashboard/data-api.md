@@ -1,5 +1,6 @@
 ---
 title: 呼叫质量仪表板 (CQD) 中的业务服务器 Skype 的数据 API
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: 摘要： 了解有关 Rata API 呼叫质量仪表板。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: 0af168c46e8b2732d5c967550391ab52459ddf95
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8dd04971533a8631b4f95be2f13bad84e41963d7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531755"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881801"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>呼叫质量仪表板 (CQD) 中的业务服务器 Skype 的数据 API
  
@@ -37,7 +38,7 @@ ms.locfileid: "26531755"
 |[运行查询](run-query.md) <br/> |运行的查询操作提供能够运行基于指定的维度和度量，筛选器多维数据集上的查询并返回返回数据。  <br/> |
 |[清除缓存](clear-cache.md) <br/> |清除缓存操作删除查询和数据的服务器上的缓存。 这将重置缓存，我们将刷新数据从 QoE 多维数据集是用于新的请求。  <br/> |
 |[获取集成日志](get-integration-log.md) <br/> |获取集成日志操作返回描述 QoE 多维数据集中活动的日志条目的列表处理。  <br/> |
-|[获取上次集成数据](get-last-integration-data.md) <br/> |获得多维数据集的最后一个集成数据。  <br/> |
+|[获取最后一个集成数据](get-last-integration-data.md) <br/> |获得多维数据集的最后一个集成数据。  <br/> |
    
  **跨源资源共享 (CORS) 支持的数据 API**
   

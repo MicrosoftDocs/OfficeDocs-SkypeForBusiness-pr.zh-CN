@@ -1,5 +1,6 @@
 ---
 title: 用户查看持久聊天
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 ROBOTS: NOINDEX, NOFOLLOW
 description: CsPersistentChatAdministrator 角色 （持久聊天管理员） 的成员可以向其他用户和自己授予聊天室管理员权限和权限。
-ms.openlocfilehash: 06cda7eeaffdafeaae5553c4260b5b8e63e564ff
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 601405fb67fb904b2ec71399273205c84e6aa035
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013354"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878152"
 ---
 # <a name="users-view-persistent-chat"></a>用户查看持久聊天
 

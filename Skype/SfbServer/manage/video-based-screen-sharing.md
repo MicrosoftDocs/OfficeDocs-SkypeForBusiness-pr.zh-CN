@@ -1,5 +1,6 @@
 ---
-title: 视频基于屏幕共享的 Skype 业务服务器
+title: 适用于 Skype for Business Server 的基于视频的屏幕共享
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/20/2018
@@ -9,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype 的基于视频的屏幕共享 (VbSS) 的业务服务器规划和配置信息
-ms.openlocfilehash: 84547168eb883522005480fb07ff2bfb9abd54f6
-ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
+ms.openlocfilehash: d899e07fc478e33c4480cd235b3eb0cafd95ecba
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "26993431"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878912"
 ---
-# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>视频基于屏幕共享的 Skype 业务服务器 
+# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>适用于 Skype for Business Server 的基于视频的屏幕共享 
  
 基于视频的屏幕中的业务服务器 2015 Skype 中共享 (VbSS) 现可供下载：[业务服务器 2015年累积更新 KB3061064 的 Skype](https://www.microsoft.com/en-us/download/details.aspx?id=47690)。 附带的业务服务器 2019 Skype VbSS。
   
@@ -46,14 +47,14 @@ Skype 业务服务器想要提高人的 1-为-1，以及其 1 对多 （多方�
 
 **所需的服务器端口**
 
-|**服务器角色**|**服务名称**|**端口或端口范围**|**协议**|**说明**|
+|**服务器角色**|**服务名称**|**端口或端口范围**|**协议**|**备注**|
 |:-----|:-----|:-----|:-----|:-----|
 |前端服务器  <br/> |Skype 业务服务器应用程序共享服务  <br/> |5065  <br/> |TCP  <br/> |用于应用程序共享的传入 SIP 侦听请求。  <br/> |
 |前端服务器  <br/> |Skype 业务服务器应用程序共享服务  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |用于应用程序共享的媒体端口范围。  <br/> |
    
 **所需的客户端端口**
 
-|**组件**|**端口范围**|**协议**|**说明**|
+|**组件**|**端口范围**|**协议**|**备注**|
 |:-----|:-----|:-----|:-----|
 |客户端  <br/> |1024-65535  <br/> |TCP/UDP  <br/> |应用程序共享。  <br/> |
    

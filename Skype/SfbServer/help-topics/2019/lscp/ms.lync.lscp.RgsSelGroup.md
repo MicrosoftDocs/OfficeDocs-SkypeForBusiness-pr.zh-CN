@@ -1,5 +1,6 @@
 ---
 title: 选择组
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组队列保留对响应组呼叫，直到代理应答呼叫。 队列已分配的代理组。 当您创建或编辑队列时，您使用选择组对话框选择要分配给队列的一个或多个代理组。
-ms.openlocfilehash: 1021d15afea2a5ea3caf059a38415a2e8466b22d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 1ea3d43241d5cdac2ebcc860333ab326d45fd274
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244116"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880319"
 ---
 # <a name="select-groups"></a>选择组
 
@@ -35,6 +36,6 @@ ms.locfileid: "23244116"
 
 - **路由方法**显示为代理组定义的路由的类型。
 
-有关使用队列的详细信息，请参阅操作文档中的[Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) 。
+有关使用队列的详细信息，请参阅操作文档中的[Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx)。
 
 

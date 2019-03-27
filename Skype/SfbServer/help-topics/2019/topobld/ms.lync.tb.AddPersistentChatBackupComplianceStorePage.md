@@ -1,5 +1,6 @@
 ---
 title: 添加持久聊天合规性备份 SQL Server 存储
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您配置的备份合规性 SQL Server 存储将 for Persistent Chat Server 提供备份数据库或持久聊天服务器合规性 SQL Server 存储。
-ms.openlocfilehash: 8bdc45551023547375028a1eec10b17456e0441c
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 58e2d8e791b5e22e753887c790275dc8148c9d44
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21063793"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881609"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>添加持久聊天合规性备份 SQL Server 存储
 

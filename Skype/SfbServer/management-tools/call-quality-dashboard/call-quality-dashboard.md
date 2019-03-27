@@ -1,5 +1,6 @@
 ---
-title: Skype 业务服务器的呼叫质量仪表板
+title: Skype for Business Server 的呼叫质量仪表板
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
 description: 摘要： 了解有关呼叫质量仪表板，它是用于业务服务器 Skype 的报告工具。
-ms.openlocfilehash: ec0924ff5e1c2d2099b004b0fd357d5e70b1f151
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 93830e6d0d746e44187241d9c300e4b5bd8ab3f2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531093"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883954"
 ---
-# <a name="call-quality-dashboard-for-skype-for-business-server"></a>Skype 业务服务器的呼叫质量仪表板
+# <a name="call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server 的呼叫质量仪表板
  
 **摘要：** 了解有关呼叫质量仪表板，它是用于业务服务器 Skype 的报告工具。
  

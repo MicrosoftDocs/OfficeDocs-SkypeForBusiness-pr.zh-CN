@@ -1,5 +1,6 @@
 ---
 title: 用户统计信息和组织信息
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 了解有哪些 Skype for Business 用户统计信息，例如，已启用的用户数、启用会议的用户数或已启用 Office 365 的用户数。
-ms.openlocfilehash: bff5bd374f554bd05e443d6deb89b3a16ca10a64
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 785a5c8323eda012f50c290e2241321f54c4834f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861120"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882830"
 ---
 # <a name="user-statistics-and-organization-information"></a>用户统计信息和组织信息
 

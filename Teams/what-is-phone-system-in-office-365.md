@@ -1,5 +1,6 @@
 ---
 title: Office 365 中的电话系统是什么？
+ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解有关电话系统可以为您执行的操作。 '
-ms.openlocfilehash: a11f527e80ec38d86c2adb97a9d861e7c11b6b8c
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 511f5892bad23901e30e1e3e1c5feacf43fa97f0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649249"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884242"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 中的电话系统是什么？
 
@@ -38,7 +39,7 @@ ms.locfileid: "30649249"
   
 要允许拨打座机和手机，可通过两种方式之一将电话系统连接至 PSTN：
   
-- 通过购买调用规划 （国内或国内和国际） 到 Office 365。 请参阅[调用计划是什么？](what-are-calling-plans-in-office-365.md)
+- 通过购买调用 （国内或国内和国际） Office 365 计划。 请参阅[电话系统和调用计划](calling-plan-landing-page.md)
     
 - 通过使用内部部署 PSTN 连接，其中软件本地连接和现有电话基础结构。 请参阅[规划电话系统](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)。
 
@@ -50,7 +51,7 @@ Office 365 中使用电话系统调用规划加载项，用于 landlines 和 （
 
 ![该拓扑图显示云 PBX 和 PSTN 呼叫（这是完整的云中语音解决方案）。](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
-调用计划在 Office 365 中运行，因为这是不需要在本地服务器部署完全--云中产品。 您可以使用国内或国内和国际呼叫计划，请选择其分配给每个用户想要发起呼叫。 [想了解更多信息？](what-are-calling-plans-in-office-365.md)
+调用计划在 Office 365 中运行，因为这是不需要在本地服务器部署完全--云中产品。 您可以使用国内或国内和国际呼叫计划，请选择其分配给每个用户想要发起呼叫。 [想了解更多信息？](calling-plan-landing-page.md)。
   
 驻留在 Skype 业务 Online 或 Office 365 中的 Microsoft 团队的用户将有权访问 Office 365 语音服务。 Microsoft 是核心呼叫和 PSTN 服务的提供商，甚至可以提供或移植您的用户的电话号码。 
   

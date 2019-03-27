@@ -1,5 +1,6 @@
 ---
 title: 配置端口范围和会议、 应用程序和中介服务器的服务质量策略
+ms.reviewer: ''
 ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 48184074
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文介绍如何配置端口范围和会议、 应用程序和中介服务器的服务质量策略。
-ms.openlocfilehash: 736a0d343c67585266833195780c7f76cbee51dd
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: f1452c9166eb557d186b8569a37d5abb885d4354
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223435"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884348"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>配置端口范围和会议、 应用程序和中介服务器的服务质量策略
 

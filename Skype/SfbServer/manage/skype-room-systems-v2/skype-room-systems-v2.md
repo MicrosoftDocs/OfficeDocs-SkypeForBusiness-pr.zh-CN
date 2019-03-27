@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Skype 会议室系统 v2 的管理概述。
-ms.openlocfilehash: b30406c9f186fad699056a78ed1b18da9f59537a
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: edd73c6ecf973d0d066b5f46d949a792bc0910c5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699350"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880283"
 ---
 # <a name="management-overview"></a>管理概述 
 
 非常重要，在开发并执行日常维护和操作，以确保您的 Skype 会议室系统 v2 系统供您的用户，并且提供出色的用户体验。 
 
-## <a name="monitoring"></a>监控 
+## <a name="monitoring"></a>监控 
 
 监视 Skype 会议室系统 v2 系统包含两个关键活动：
 
@@ -35,7 +35,7 @@ ms.locfileid: "25699350"
 若要确保用户能够使用 Skype 会议室系统 v2 单位，单位必须位于、 与 Skype 会议室系统 v2 应用程序正确配置，连接到网络和连接到正常运行的外围设备。 
 
 
-Skype 会议室系统 v2 应用程序和连接的外围设备的状态信息写入到 Windows 事件日志的 Skype 会议室系统 v2 应用程序并记录[本文中](oms.md#understand-the-log-entries)。 
+Skype 会议室系统 v2 应用程序和连接的外围设备的状态信息进行写入到 Windows 事件日志的 Skype 会议室系统 v2 应用程序并记录在[了解日志条目](azure-monitor.md#understand-the-log-entries)。 
 
 |**设置**|**允许**|
 |:-----|:-----|
@@ -43,13 +43,13 @@ Skype 会议室系统 v2 应用程序和连接的外围设备的状态信息写�
 |电源管理-\>上交流，关闭屏幕 10 分钟后  <br/> 电源管理-\>上交流，从不提供系统进入休眠模式  <br/> |允许 Skype 会议室系统 v2 附加显示关闭并自动唤醒  <br/> |
 |net accounts /maxpwage:unlimited  <br/> 或对本地帐户禁用密码过期的等效方法。 如果此操作失败，将最终导致 Skype 帐户无法登录，且被告知密码过期。 请注意，这会影响计算机上的所有本地帐户，因此，此设置失败还会导致已有的管理帐户最终也过期。  <br/> |启用 Skype 帐户以始终登录  <br/> |
    
-[配置文件项目](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)中讨论了如何使用组策略传输文件。
+使用组策略的文件传输将在[配置文件项](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)讨论。
   
 ## <a name="remote-management-using-powershell"></a>使用 PowerShell 进行远程管理
 <a name="RemotePS"> </a>
 
 
-我们建议使用 Microsoft 操作管理器套件监视 Skype 会议室系统 v2 系统。 有关如何设置监视和基本警报的指南，请参阅[使用 OMS 的部署 Skype 会议室系统 v2 管理](../../deploy/deploy-clients/with-oms.md)。 
+我们建议使用 Microsoft 操作管理器套件监视 Skype 会议室系统 v2 系统。 有关如何设置监视和基本警报的指导信息，请参阅[部署 Skype 会议室系统 v2 管理使用 Azure 监视器](../../deploy/deploy-clients/azure-monitor.md)。 
 
 使用本指南，您可以创建简单易用的仪表板来确定与您 Skype 会议室系统 v2 单位的任何问题，您的部署。 
 
@@ -75,7 +75,7 @@ Skype 会议室系统 v2 应用程序和连接的外围设备的状态信息写�
 Skype 会议室系统 v2 (SR v2) Windows 10 企业 IoT 或 Windows 10 企业 (VL) 上运行并接收作为标准桌面相同的 Windows 更新和操作系统版本。 有关详细信息，请参阅[管理 Windows 更新](updates.md)。
 
 
-## <a name="troubleshooting"></a>故障排除
+## <a name="troubleshooting"></a>疑难解答
 
 我们建议您设置操作管理套件警报如以便任何 Skype 会议室系统 v2 问题将通知您的运营团队和帮助台以上一节中所述。 PowerShell 远程管理的选项是[远程管理使用 PowerShell](room-systems-v2-operations.md#remote-management-using-powershell)中所述。 中的外围设备已断开连接，您可能需要依赖于本地"智能指针"或 IT 支持调查和重新连接设备。 
 

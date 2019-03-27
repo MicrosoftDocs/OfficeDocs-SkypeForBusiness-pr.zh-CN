@@ -1,5 +1,6 @@
 ---
 title: 分配会议策略以支持匿名用户
+ms.reviewer: ''
 ms:assetid: 662de022-1111-40f7-bad4-f2b686f30973
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521007(v=OCS.15)
 ms:contentKeyID: 48184333
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 您可以控制可以通过配置会议策略以支持匿名用户，并将该会议策略应用于特定用户邀请匿名用户。
-ms.openlocfilehash: 5d3ade88a9d4ca0f639d7119da53f8180af6c30d
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 62ff84b19fadbeaf0f26fa3e5869026254d28d1f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222728"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881125"
 ---
 # <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>分配会议策略以支持匿名用户在 Skype 业务服务器 
 

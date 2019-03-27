@@ -1,5 +1,6 @@
 ---
 title: 用户活动报告中 Skype 业务服务器 25
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 摘要： 了解在 Skype 业务服务器的用户活动报告。
-ms.openlocfilehash: eecdd9879bf4fbf32c98505684631041332b5e2f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3fb69e68052ae5f3b1938de95291fb7fa5a3ac88
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374764"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884696"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>Skype 中的企业服务器用户活动报告
 
@@ -30,7 +31,7 @@ ms.locfileid: "25374764"
 
 - **ken** burg@litwareinc.com
 
-- **Ken**。Sanchez@litwareinc.com
+- **Ken**.Sanchez@litwareinc.com
 
 - **Ken** nedy@litwareinc.com
 

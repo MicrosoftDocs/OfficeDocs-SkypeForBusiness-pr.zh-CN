@@ -1,5 +1,6 @@
 ---
 title: （可选）Skype for Business 中定义响应组工作时间
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: 创建或修改工作时间，业务 Server 企业语音的 Skype 的响应组。
-ms.openlocfilehash: a5f24d218ab15cb1307f042363147c9e915a351e
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: ba10f513495d21c7f94397350c1227cb77fe588b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546804"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884675"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>（可选）Skype for Business 中定义响应组工作时间 
  
@@ -23,7 +24,7 @@ ms.locfileid: "25546804"
   
 ## <a name="defining-business-hours"></a>定义工作时间
 
-工作时间设置定义工作流何时可以应答呼叫并指定对非工作时间的呼叫所采取的操作。 响应组管理员可以使用**新建 CsRgsHoursOfBusiness** cmdlet 以创建可用于任意数量的响应组的预定义的计划。
+工作时间设置定义工作流何时可以应答呼叫并指定对非工作时间的呼叫所采取的操作。 响应组管理员可以使用 **New-CsRgsHoursOfBusiness** cmdlet 来创建可用于任意数目的响应组的预定义日程表。
   
 > [!TIP]
 > 创建或修改工作流时，可以指定仅适用于该工作流的自定义日程表。 有关详细信息，请参阅[设计和创建响应组工作流中的业务的 Skype](designing-and-creating-response-group-workflows.md)。 
@@ -38,7 +39,7 @@ ms.locfileid: "25546804"
 
 1. 以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 3. 对于要定义的每个唯一时间范围，请运行：
     

@@ -1,5 +1,6 @@
 ---
 title: 删除旧存档和监控服务器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 如果旧部署包含存档服务器或监控服务器，在迁移到 Skype for Business Server 2019 后，这些服务器可以删除从旧环境中，前提是已从其余任何旧池中删除所有用户。 您可以按任何顺序中删除存档服务器或监控服务器。 关键要求是确认已从其余任何旧池中删除所有用户。
-ms.openlocfilehash: 4de6d9db5538864646f978e9fc33a79b39d4c2a4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5a3a691c8f2e8a4ad3610ccf1ea947ce23b74111
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028612"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878336"
 ---
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>删除旧存档和监控服务器
 

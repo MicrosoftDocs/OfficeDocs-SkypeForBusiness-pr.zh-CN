@@ -1,5 +1,6 @@
 ---
 title: Skype 中的企业语音的用户启用企业服务器
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 摘要： 了解如何使用户可以拨打和接听电话使用企业语音中 Skype 业务服务器。
-ms.openlocfilehash: 9e1435c73a175ef40b4962ace41f4c7690f85953
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b02155f424e8b3f29881caf8c4a29db6f76cb807
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883754"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882967"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Skype 中的企业语音的用户启用企业服务器
  
@@ -41,9 +42,9 @@ ms.locfileid: "23883754"
     
 2. 打开 Skype 业务 Server Control Panel。
     
-3. 在左导航栏中，单击“**用户**”。
+3. 在左导航栏中，单击“用户”****。
     
-4. 在“**搜索用户**”框中，键入要启用的用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“**查找**”。
+4. 在“搜索用户”**** 框中，键入要启用的用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“查找”****。
     
 5. 在表中，单击您想要启用企业语音的用户帐户。
     
@@ -55,7 +56,7 @@ ms.locfileid: "23883754"
     
 9. 单击“**提交**”。
     
-若要完成为用户启用企业语音，请确保该用户的语音策略和拨号计划，分配全局 （默认分配） 或特定于用户的。默认情况下，所有用户分配全局语音策略和拨号计划。 如果语音策略或拨号计划的站点级别与承载用户帐户的站点相同，则这些站点策略将自动应用于用户。 要应用的每用户语音策略或拨号计划给用户，您必须运行**Grant-csvoicepolicy**和**Grant-csdialplan** cmdlet。 有关详细信息，请参阅本主题中的以下过程。
+若要完成为用户启用企业语音，请确保该用户的语音策略和拨号计划，分配全局 （默认分配） 或特定于用户的。默认情况下，所有用户分配全局语音策略和拨号计划。 如果语音策略或拨号计划的站点级别与承载用户帐户的站点相同，则这些站点策略将自动应用于用户。 要对用户应用每用户语音策略或拨号计划，您必须运行 **Grant-CsVoicePolicy** 和 **Grant-CsDialPlan** cmdlet。 有关详细信息，请参阅本主题中的以下过程。
 ## <a name="voice-policy-assignment"></a>语音策略分配
 
 全局和站点级别语音策略是自动分配给所有启用企业语音的用户帐户。 还可以创建适用于特定的用户或组的语音策略。 必须将这些每用户策略显式分配给用户或组。 如果您想要使用全局或站点的所有用户启用企业语音的语音策略，您可以跳过本节并转到本主题后面的[拨号计划分配](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment)节。
@@ -64,7 +65,7 @@ ms.locfileid: "23883754"
 
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 3. 要将现有用户语音策略分配给用户，请在命令提示符处运行以下命令：
     
@@ -89,7 +90,7 @@ ms.locfileid: "23883754"
 
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 3. 要分配特定于用户的拨号计划，请在命令提示符处运行：
     

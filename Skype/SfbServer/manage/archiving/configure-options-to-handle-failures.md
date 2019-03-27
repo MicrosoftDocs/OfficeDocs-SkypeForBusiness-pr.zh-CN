@@ -1,5 +1,6 @@
 ---
 title: 配置存档选项为业务服务器处理中 Skype 失败
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: 摘要： 了解如何阻止 IM 和会议会话 Skype 对于业务服务器故障会阻止存档。
-ms.openlocfilehash: 952ee82ca3be045fc0407a6ce2f61fdaead12030
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4fe63319f2b480557c73e238f2b19692df06440f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998712"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883016"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>配置存档选项为业务服务器处理中 Skype 失败
 
@@ -30,7 +31,7 @@ ms.locfileid: "20998712"
     
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
     
-3. 在左侧导航栏中，单击“**监控和存档**”，然后单击“**存档配置**”。
+3. 在左侧导航栏中，单击“监控和存档”****，然后单击“存档配置”****。
     
 4. 单击存档配置列表中相应的全局、站点或池配置的名称，单击“**编辑**”，然后单击“**显示详细信息**”。
     

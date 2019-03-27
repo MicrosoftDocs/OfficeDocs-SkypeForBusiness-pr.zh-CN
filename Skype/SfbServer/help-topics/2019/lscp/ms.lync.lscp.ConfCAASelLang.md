@@ -1,5 +1,6 @@
 ---
 title: 选择语言
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 ROBOTS: NOINDEX, NOFOLLOW
-description: 选择要用于电话拨入式会议访问号码的语言。 有关详细信息，请参阅创建或修改电话拨入式会议访问号码。
-ms.openlocfilehash: f63ab4c47a871d7e86f9c34751babfd00bc08239
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 选择要用于电话拨入式会议访问号码的语言。 有关详细信息，请参阅Create or Modify a Dial-in Conferencing Access Number。
+ms.openlocfilehash: d1c2cfba13d80fa665b2994f308ec43328be9782
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250163"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880163"
 ---
 # <a name="select-languages"></a>选择语言
 
-选择要用于电话拨入式会议访问号码的语言。 有关详细信息，请参阅[创建或修改电话拨入式会议访问号码](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)。
+选择要用于电话拨入式会议访问号码的语言。有关详细信息，请参阅[Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)。
 
 

@@ -1,5 +1,6 @@
 ---
 title: 部署和配置 Mobility Skype 业务服务器
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -8,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: 本文将指导您完成配置用于 Mobility service，允许您的移动设备能够利用业务服务器移动功能的 Skype 业务服务器安装现有 Skype 的步骤。
-ms.openlocfilehash: 788f4084f902fc1b5fee8ae29fcd518542f3572d
-ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
+ms.openlocfilehash: c9203bb90f4d4659819a4336c21f08e58785dfde
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30536031"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884264"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>部署和配置 Mobility Skype 业务服务器  
  

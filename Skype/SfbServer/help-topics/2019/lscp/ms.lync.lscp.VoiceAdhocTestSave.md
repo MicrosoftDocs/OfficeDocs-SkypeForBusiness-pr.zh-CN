@@ -1,5 +1,6 @@
 ---
-title: 保存语音路由测试用例信息
+title: 保存语音路由测试案例信息
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用保存语音路由测试用例信息对话框保存临时语音路由测试用例。 在保存语音路由测试用例信息，键入您想要在名称中授予的测试用例，然后单击确定的名称。
-ms.openlocfilehash: 23e8d4999575b221a43be5e3c5011e31e9e1e768
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7e1c3eb48930ac1a227c3ad95da5074de0cb9c3f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989659"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878138"
 ---
-# <a name="save-voice-routing-test-case-information"></a>保存语音路由测试用例信息
+# <a name="save-voice-routing-test-case-information"></a>保存语音路由测试案例信息
  
 您可以使用**保存语音路由测试用例信息**对话框保存 atemporary 语音路由测试用例。 在**保存语音路由测试用例信息**，键入您想要在**名称**中授予的测试用例，然后单击**确定**的名称。 
   

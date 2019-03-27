@@ -1,5 +1,6 @@
 ---
 title: Skype 的服务管理业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: 本文介绍如何管理企业服务器拓扑的 Skype 中运行的服务。
-ms.openlocfilehash: 7f95023416bd1b851bc5a3d3ce6185e3362ec098
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4f5e1c4d91d5412470edebf3ed8d320101153da1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372444"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879214"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Skype 的服务管理业务服务器
 

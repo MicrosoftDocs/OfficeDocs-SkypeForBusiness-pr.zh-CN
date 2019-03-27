@@ -1,5 +1,6 @@
 ---
 title: 安装和创建数据库
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 选择您要为您的部署创建的数据库。 默认情况下，数据库将在定义网站中，在定义 SQL 服务器上创建和将自动部署并配置根据您要将数据库放在 SQL Server 数据库文件。
-ms.openlocfilehash: c5dde8ccd1e6202155b43b00a127f985ffb4961f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f9b345a741182968e32bc0907d70c0924a61ea3f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263406"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878826"
 ---
 # <a name="install-and-create-databases"></a>安装和创建数据库
 

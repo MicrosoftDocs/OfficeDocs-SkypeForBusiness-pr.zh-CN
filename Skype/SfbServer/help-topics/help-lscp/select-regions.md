@@ -1,5 +1,6 @@
 ---
 title: 选择区域
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1b79b214-cc7b-4686-b7e2-f451910335fd
-description: 使用选择区域对话框中查找在您的环境中可用的区域。 若要使用现有的区域，请单击列表中的区域，然后单击确定。
-ms.openlocfilehash: 84971d758916edf31918a54c9ebf86a33ed011a8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 使用“选择区域”对话框查找环境中可用的区域。 要使用现有区域，请单击列表中的某个区域，然后单击“确定”。
+ms.openlocfilehash: c05ceff5d617817b4870cfdc8744559e91d6939f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881421"
 ---
 # <a name="select-regions"></a>选择区域
  

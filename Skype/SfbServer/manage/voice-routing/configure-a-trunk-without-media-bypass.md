@@ -1,5 +1,6 @@
 ---
 title: 配置无媒体绕过中 Skype 业务服务器的中继
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '执行以下步骤可配置启用媒体旁路的中继。 '
-ms.openlocfilehash: 0fd05c69f72bcf6688d4ce2f8cd52fb610a4c1a6
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 623de0439e6c6297808e54eb2ae050aa95f6533d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223323"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881930"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>配置无媒体绕过中 Skype 业务服务器的中继
 
@@ -28,8 +29,8 @@ ms.locfileid: "27223323"
 4. 在“Trunk 配置”**** 页上，使用以下方法之一配置中继：
     - 双击某个现有的中继（例如“全局”**** 中继）以显示“编辑 Trunk 配置”**** 对话框。
     - 单击“新建”****，然后为新的中继配置选择范围：
-        - **网站中继**： 在**选择站点**，选择此中继配置的网站，然后单击**确定**。 请注意，如果已为站点创建中继配置，则该站点不会显示在“选择站点”**** 中。 此中继配置将应用于站点中的所有中继。
-        - **池 Trunk**：在“选择服务”**** 中选择此中继配置应用于的中继的名称，然后单击“确定”****。 此 trunk 可以是根中继或在拓扑生成器中定义任何其他中继。 请注意，如果已为特定中继创建中继配置，则此中继不会显示在“选择服务”**** 中。
+        - **网站中继**： 在**选择站点**，选择此中继配置的网站，然后单击**确定**。 请注意，如果已经为站点创建了中继配置，则该站点不会显示在“选择站点”**** 中。 此中继配置将应用于站点中的所有中继。
+        - **池 Trunk**：在“选择服务”**** 中选择此中继配置应用于的中继的名称，然后单击“确定”****。 此 trunk 可以是根中继或在拓扑生成器中定义任何其他中继。 请注意，如果已经为特定中继创建了中继配置，则该中继不会显示在“选择服务”**** 中。
     > [!Note] 
     > 选择中继配置的范围后无法更改该范围。 “名称”**** 字段会使用中继配置的关联站点或服务的名称进行预填充，且不能更改。 
 

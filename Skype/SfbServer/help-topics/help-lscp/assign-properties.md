@@ -1,5 +1,6 @@
 ---
 title: 分配属性
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
 description: 使用分配属性对话框中一次指定为多个子网的说明和网络站点 ID。 在说明中，键入您想要用于所选的子网的说明。 在网络站点 ID 中，选择您想要分配给所选的子网的网络站点 ID。 若要将这些属性分配给所选的子网，请单击确定。
-ms.openlocfilehash: 5111f74c27ea2c367218a79c9ea1e0fbb0df0a3a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: bfd05528da40f35e0adf6361253a8682d91719cf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20990272"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883030"
 ---
 # <a name="assign-properties"></a>分配属性
  

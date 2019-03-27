@@ -1,5 +1,6 @@
 ---
 title: 对等活动中 Skype 业务服务器的摘要报告
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 description: 摘要： 了解对等活动摘要报告中 Skype 业务服务器。
-ms.openlocfilehash: 20eab96b870b0ce4bef0e516116cbc39d6a4c7e5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0502fc3880a4a04369f6717e67093d359c2b8af7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975723"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882570"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>对等活动中 Skype 业务服务器的摘要报告
  

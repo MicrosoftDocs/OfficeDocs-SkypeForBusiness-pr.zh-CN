@@ -1,5 +1,6 @@
 ---
 title: 部署设置扩展器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 可以使用以下部分编辑现有部署的属性：
-ms.openlocfilehash: 733f71ffbb2f1e49fb73da6727a9df7586273d5b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b5e953f165c9e54fa2e7891b7562e840c78b3144
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255414"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878159"
 ---
 # <a name="deployment-settings-expander"></a>部署设置扩展器
 
@@ -39,7 +40,7 @@ ms.locfileid: "23255414"
 
 要删除已定义的其他 SIP 域名，请选择相应的域名，然后单击“**删除**”。
 
-在“编辑属性”页上完成所有更改后，单击“**确定**”保存更改。单击“**取消**”将放弃更改。
+在“编辑属性”页上完成所有更改后，单击“**确定**”保存更改。 单击“**取消**”将放弃更改。
 
 ## <a name="simple-urls"></a>简单 URL
 
@@ -70,7 +71,7 @@ ms.locfileid: "23255414"
 > [!IMPORTANT]
 > 为基础结构定义、发布并部署中央管理存储后，则必须通过外部进程将中央管理存储重新定位至其他前端，然后才能更改中央管理存储的位置。
 
-有关移动中央管理存储的详细信息，请参阅 Windows PowerShell cmdlet 参考中的[Move-csmanagementserver](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) 。
+有关移动中央管理存储的详细信息，请参阅 Windows PowerShell cmdlet 参考中的 [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)。
 
 
 有关定义和配置这些设置的详细信息，请参阅[Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)。

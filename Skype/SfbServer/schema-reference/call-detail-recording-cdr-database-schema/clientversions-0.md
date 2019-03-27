@@ -1,5 +1,6 @@
 ---
 title: ClientVersions 视图
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,25 +10,26 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
-description: ClientVersions 视图存储不同的客户端类型和参加会话记录在数据库中的版本信息。 每个视图中的记录表示某个客户端版本。 在 Microsoft Lync Server 2013 引入了此视图。
-ms.openlocfilehash: 0906e35d0912684c9aeb169017b5df0a53202c50
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: ClientVersions 视图存储有关各种客户端类型和已参与记录数据库中的会话的版本信息。 在视图中的每条记录代表一个客户端版本。 此视图是在 Microsoft Lync Server 2013 中引入的。
+ms.openlocfilehash: abf1436a2c3309e95bec8371b586c017e11b816d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881693"
 ---
 # <a name="clientversions-view"></a>ClientVersions 视图
  
-ClientVersions 视图存储不同的客户端类型和参加会话记录在数据库中的版本信息。 每个视图中的记录表示某个客户端版本。 在 Microsoft Lync Server 2013 引入了此视图。
+ClientVersions 视图存储有关各种客户端类型和已参与记录数据库中的会话的版本信息。 在视图中的每条记录代表一个客户端版本。 此视图是在 Microsoft Lync Server 2013 中引入的。
   
 > [!NOTE]
 > 可能有多个记录的某些列。 
   
 |**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
-|**VersionId** <br/> |int  <br/> |标识此客户端的类型和版本的唯一编号。  <br/> |
-|**版本** <br/> |nvarchar(256)  <br/> |表示用户代理。  <br/> |
-|**客户端类型** <br/> |int  <br/> |客户端的类型。  <br/> |
-|**ClientCategory** <br/> |nvarchar(64)  <br/> |客户端所属的类别。 例如，客户端 Conferencing_Attendant_1.0 就属于 ClientCategory CAA。  <br/> |
+|**VersionId** <br/> |int  <br/> |标识此客户端类型和版本的唯一编号。  <br/> |
+|**版本** <br/> |nvarchar(256)  <br/> |代表用户代理。  <br/> |
+|**客户端类型** <br/> |int  <br/> |客户端类型。  <br/> |
+|**ClientCategory** <br/> |nvarchar(64)  <br/> |客户端所属的类别。 例如，客户端 Conferencing_Attendant_1.0 所属 ClientCategory CAA。  <br/> |
    
 

@@ -1,5 +1,6 @@
 ---
 title: 删除现有的业务服务器存档策略中 Skype
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: 摘要： 了解如何删除存档策略的 Skype 业务服务器。
-ms.openlocfilehash: 0446999923b462311f941b6653157b41000b1f43
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1210dacc85ea28d2968d602431d5a9bdf7bcc4b9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973099"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878426"
 ---
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>删除现有的业务服务器存档策略中 Skype
 
@@ -28,7 +29,7 @@ ms.locfileid: "20973099"
     
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
     
-3. 在左侧导航栏中，单击“**监控和存档**”，然后单击“**存档策略**”。
+3. 在左侧导航栏中，单击“监控和存档”****，然后单击“存档策略”****。
     
 4. 在存档策略列表中，单击要删除的用户策略或站点策略，再单击“**编辑**”，然后单击“**删除**”。
     

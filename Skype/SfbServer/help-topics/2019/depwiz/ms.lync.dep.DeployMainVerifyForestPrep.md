@@ -1,5 +1,6 @@
 ---
 title: 验证林准备的复制
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要确认全局编录复制和林准备期间创建的对象已成功，执行以下操作：
-ms.openlocfilehash: 26ea7b544e3b38c47fd33bdcd0dbaa22f49e59be
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 77b7265ce101b7428f6bfde1ed5840dac9e0a99e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967938"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880649"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>验证林准备的复制
  

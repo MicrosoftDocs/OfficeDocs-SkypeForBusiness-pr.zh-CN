@@ -1,5 +1,6 @@
 ---
 title: 设置 Skype for Business Online
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,12 +23,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: '了解如何设置域、 用户、 IM 和状态为您的组织安装 for Business 的 Skype。 另请参阅如何设置音频会议、 电话系统和调用计划，和 Skype 会议广播。 '
-ms.openlocfilehash: af472553cea8a79f2fe9d918f7924f8884e834b5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2a968fa0f5b89351c2a7a2726052b1418f0ac213
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374472"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878681"
 ---
 # <a name="set-up-skype-for-business-online"></a>设置 Skype for Business Online
 
@@ -35,7 +36,7 @@ ms.locfileid: "25374472"
 
 ## <a name="setting-up-skype"></a>设置 Skype
 
-看来你需要帮助来完成与你的 Office 365 订阅相关的 Skype 设置。你可以按照本文中的步骤操作来完成设置。
+看来你需要帮助来完成与你的 Office 365 订阅相关的 Skype 设置。 你可以按照本文中的步骤操作来完成设置。
 
 ## <a name="1-plan-for-skype-for-business"></a>1. Skype for Business 计划
 
@@ -158,7 +159,7 @@ Skype 会议广播 是一项功能，允许你针对最多 10,000 个与会者�
 
 Skype for Business 中音频、视频和应用程序共享的质量很大程度上受端到端网络连接质量的影响。为获得最佳体验，必须确保公司网络和 Skype for Business Online 间有高质量网络连接。有关网络和优化的信息，请参见 [优化 Skype for Business Online 性能](https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802)。
 
-## <a name="all-done-setting-up-getting-started-using-skype-for-business"></a>全部设置已完成？开始使用 Skype for Business
+## <a name="all-done-setting-up-getting-started-using-skype-for-business"></a>全部设置已完成？ 开始使用 Skype for Business
 <a name="bkmk_more"> </a>
 
 [有关业务培训 Skype](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba)： 签出此列表的培训主题可帮助您快速开始 ！

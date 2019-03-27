@@ -1,5 +1,6 @@
 ---
 title: 规划持久聊天服务器拓扑
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: 摘要： 阅读此主题以了解有关持久聊天服务器组件和拓扑中 Skype 的业务服务器 2015年。
-ms.openlocfilehash: 9f771cddb8d3176840e8df1a34339f33e8ccac5f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6d385477256150e35b305c996dccbab7ab22f4ba
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968252"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879235"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>规划持久聊天服务器拓扑
  

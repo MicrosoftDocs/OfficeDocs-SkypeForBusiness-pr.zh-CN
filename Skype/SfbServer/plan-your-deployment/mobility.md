@@ -1,5 +1,6 @@
 ---
 title: Plan for Mobility for Skype 业务服务器
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/17/2018
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Plan for Business 服务器的 Skype 移动的实现。
-ms.openlocfilehash: 22d5b8bdeb6a82a202740af4919756daac47010a
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6616560afbea5a2aed30fbf671035ae46d6ed8b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533264"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878180"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Plan for Mobility for Skype 业务服务器
  

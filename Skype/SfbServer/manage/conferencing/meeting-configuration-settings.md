@@ -1,5 +1,6 @@
 ---
 title: 管理会议中 Skype 业务服务器的配置设置
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: 摘要： 了解如何管理会议中 Skype 业务服务器的配置设置。
-ms.openlocfilehash: 28f0dc37579f762b8ae3b0ac8ac58440c6ce5e24
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 90d1004101f1dd3b4737c7bfa4414438a65c54a6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966064"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883219"
 ---
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>管理会议中 Skype 业务服务器的配置设置
  
@@ -56,9 +57,9 @@ ms.locfileid: "20966064"
 
 |**Cmdlet**|**说明**|
 |:-----|:-----|
-|[Get-csmeetingconfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps) <br/> |返回有关当前组织中使用的会议配置设置的信息。  <br/> |
-|[New-csmeetingconfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |在 site 或服务范围创建新的会议配置设置集合。  <br/> |
-|[Remove-csmeetingconfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |删除会议配置设置的现有集合。  <br/> |
-|[通过 Set-csmeetingconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |修改组织中当前使用的会议配置设置。  <br/> |
+|[Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps) <br/> |返回有关当前组织中使用的会议配置设置的信息。  <br/> |
+|[New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |在 site 或服务范围创建新的会议配置设置集合。  <br/> |
+|[Remove-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |删除会议配置设置的现有集合。  <br/> |
+|[Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |修改组织中当前使用的会议配置设置。  <br/> |
    
 

@@ -1,5 +1,6 @@
 ---
 title: 混合向导移动用户
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,16 +12,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be38b89c-3e8e-4d40-af49-fb650785d9a3
-description: 使用移动用户向导中移动驻留在业务 online 驻留在 Skype 的本地池中的用户帐户。 有关详细信息，请参阅使用混合可管理性向导。
-ms.openlocfilehash: 9d617b79ee786b534076d229b9e40907ad636426
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 使用移动用户向导中移动驻留在业务 online 驻留在 Skype 的本地池中的用户帐户。 有关更多信息，请参阅Use the Hybrid Manageability wizard。
+ms.openlocfilehash: 95e35c579ee431bbd2e9c966d7cbd0f3107d5c75
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253109"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879277"
 ---
-# <a name="hybrid-wizard-move-user"></a>混合向导： 移动用户
+# <a name="hybrid-wizard-move-user"></a>混合向导：移动用户
 
-使用移动用户向导中移动驻留在业务 online 驻留在 Skype 的本地池中的用户帐户。 有关详细信息，请参阅[使用混合可管理性向导](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)。
+使用移动用户向导中移动驻留在业务 online 驻留在 Skype 的本地池中的用户帐户。 有关更多信息，请参阅[Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)。
 
 

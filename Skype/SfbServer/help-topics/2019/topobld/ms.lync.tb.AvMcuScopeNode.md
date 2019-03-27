@@ -1,5 +1,6 @@
 ---
 title: AV MCU 范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示此 A/V 会议池的池完全限定域名 (FQDN) 和关联的前端池。可以执行以下操作：
-ms.openlocfilehash: 2cd2b92cc89c36d5ee59e830f948d40f3ee82081
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 6ae9471e7b6321e92bd141b90e49941f9f2d6cc1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21065457"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878876"
 ---
 # <a name="av-mcu-scope-node"></a>AV MCU 范围节点
  

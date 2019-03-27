@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 2015 中配置持久聊天服务器选项
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 摘要： 了解如何为业务服务器 2015 Skype 中配置持久聊天服务器选项在全局、 站点或池级别。
-ms.openlocfilehash: 5d8bf63332ca991117e0fbd3beddc97855617274
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: fd4d9ed10c2629f714d336190e5c85b2dfe1621e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375998"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883754"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置持久聊天服务器选项
  

@@ -1,5 +1,6 @@
 ---
 title: 呼叫详细信息记录
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
-description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: f50306758210e95ec3bfebe3e5d4682b4f7aaae9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+ms.openlocfilehash: bf84b22bc92da97b96737545eed1429a8c02d8cd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20982431"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883856"
 ---
 # <a name="call-detail-recording"></a>呼叫详细信息记录
  
-您希望执行什么操作？单击您要执行的任务所对应的链接。
+您希望执行什么操作？ 单击您要执行的任务所对应的链接。
   
 - [在 Skype for Business Server 2015 中启用呼叫详细记录](../../manage/health-and-monitoring/enable-cdr.md)
     

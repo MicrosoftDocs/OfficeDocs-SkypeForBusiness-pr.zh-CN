@@ -1,5 +1,6 @@
 ---
-title: 添加边缘计算机外部 IPv4
+title: 添加 Edge 机器外部 IP IPv4
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0429444b-97cc-41a1-94e0-3e2e5fdfa9ca
 description: 在外部 IPv4，输入的外部 IP 地址指向访问边缘服务、 Web 会议边缘服务和 A / V 边缘服务。
-ms.openlocfilehash: 75b799ff410ba57c59f35e1dd9f0782de17c3741
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d5a4bac899d69e83c170fa9205e573e9b4f7e71a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21014503"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880404"
 ---
-# <a name="add-edge-machine-external-ipv4"></a>添加边缘计算机外部 IPv4
+# <a name="add-edge-machine-external-ipv4"></a>添加 Edge 机器外部 IP IPv4
  
 在**外部 IPv4**中，输入的外部 IP 地址指向访问边缘服务、 Web 会议边缘服务和 A / V 边缘服务。
   

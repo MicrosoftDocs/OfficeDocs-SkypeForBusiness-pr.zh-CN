@@ -1,5 +1,6 @@
 ---
 title: 添加简单 URL
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: 若要将其他简单 Url 添加到部署的定义，指定新的简单 URL 的 URL。
-ms.openlocfilehash: 20db564e90051ffa274aa46587603273a8ca7581
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 749049f9d4f56321d095aee6d8c25cecd6ae0cb0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21007272"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882981"
 ---
 # <a name="add-simple-url"></a>添加简单 URL
  
 若要将其他简单 Url 添加到部署的定义，指定新的简单 URL 的 URL。 URL 的格式是_http://\<简单 URL 类型\>。\<域名\>_ 或_http://\<域名\>/\<简单 URL 类型\>_，其中的简单 URL 类型是以下项之一：
   
-- 会议
+- 满足
     
 - 拨入
     

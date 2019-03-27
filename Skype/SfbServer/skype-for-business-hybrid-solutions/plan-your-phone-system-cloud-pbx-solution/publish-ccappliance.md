@@ -1,5 +1,6 @@
 ---
-title: 将发布 CcAppliance
+title: Publish-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
 description: Publish-CcAppliance cmdlet 从联机租户配置中获取高可用性信息，并将其发布到主机服务器上的 Skype for Business 云连接器版本设备。
-ms.openlocfilehash: c0a2639156a0794ec34fd62a58027255d24d461e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 119b5e816555eedf221d9db06be15e6a778936d4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879803"
 ---
-# <a name="publish-ccappliance"></a>将发布 CcAppliance
+# <a name="publish-ccappliance"></a>Publish-CcAppliance
  
 Publish-CcAppliance cmdlet 从联机租户配置中获取高可用性信息，并将其发布到主机服务器上的 Skype for Business 云连接器版本设备。 
   
@@ -33,7 +35,7 @@ Publish-CcAppliance
 
 ### <a name="example-1"></a>示例 1
 
-下面的示例获取从联机租户配置高可用性的信息，并将其发布到主机服务器上云接头装置：
+下面的示例获取从 online 租户配置高可用性的信息，并将其发布到云连接器装置主机服务器上：
   
 ```
 Publish-CcAppliance
@@ -57,12 +59,12 @@ Publish-CcAppliance
 ## <a name="see-also"></a>另请参阅
 <a name="ReturnTypes"> </a>
 
-[安装 CcAppliance](install-ccappliance.md)
+[Install-CcAppliance](install-ccappliance.md)
   
-[卸载-CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
-[注册 CcAppliance](register-ccappliance.md)
+[Register-CcAppliance](register-ccappliance.md)
   
-[取消注册 CcAppliance](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
 

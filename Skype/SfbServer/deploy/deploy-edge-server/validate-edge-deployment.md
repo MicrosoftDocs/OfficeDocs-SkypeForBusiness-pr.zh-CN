@@ -1,5 +1,6 @@
 ---
 title: 验证边缘部署中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -11,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: 摘要： 了解如何验证边缘服务器或边缘服务器池的部署中 Skype 工作业务服务器。
-ms.openlocfilehash: 267a02407a66614d0c78592da073307979136e39
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 63c4cb1af599da191d0e0f4b95cfdaa775a64ba4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883546"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878604"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>验证边缘部署中 Skype 业务服务器
  

@@ -1,5 +1,6 @@
 ---
 title: 选择组
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: 响应组队列保留对响应组呼叫，直到代理应答呼叫。 队列已分配的代理组。 当您创建或编辑队列时，您使用选择组对话框选择要分配给队列的一个或多个代理组。
-ms.openlocfilehash: 36193ae3155da4284f062d9a8906c9d6f5a13db9
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fc03bbc95c1604ef13380a52fa214f9fd65f35b4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245843"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878520"
 ---
 # <a name="select-groups"></a>选择组
 
@@ -35,6 +36,6 @@ ms.locfileid: "23245843"
 
 - **路由方法**显示为代理组定义的路由的类型。
 
-有关使用队列的详细信息，请参阅操作文档中的[Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) 。
+有关使用队列的详细信息，请参阅操作文档中的[Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx)。
 
 

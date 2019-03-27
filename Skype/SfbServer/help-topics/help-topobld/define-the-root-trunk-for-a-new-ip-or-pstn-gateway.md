@@ -1,5 +1,6 @@
 ---
-title: 定义新 IP 或 PSTN 网关的根 Trunk
+title: 定义新 IP 或 PSTN 网关的根中继
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: '您通过配置以下 IP 或公用电话交换网 (PSTN) 定义的根 trunk:'
-ms.openlocfilehash: 228717866a96268bfca8717ab61cb4a51cbe3245
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 68eddb8a0e19970cc430b25ad876d6cc2a8c04e1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245291"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882910"
 ---
-# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>定义新 IP 或 PSTN 网关的根 Trunk
+# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>定义新 IP 或 PSTN 网关的根中继
 
 您通过配置以下 IP 或公用电话交换网 (PSTN) 定义的根 trunk:
 

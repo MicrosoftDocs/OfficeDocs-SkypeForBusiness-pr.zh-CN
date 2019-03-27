@@ -1,5 +1,6 @@
 ---
 title: 指定保留 CDR 数据在 Skype 业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: 摘要： 了解如何管理呼叫详细信息记录 (CDR) 数据的 Skype 业务服务器。
-ms.openlocfilehash: ce35d8d2cac0968cca912031ec5e406ebe93e2eb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 72fbb679a260462086930fc0457b5c748447cc29
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005830"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878743"
 ---
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>指定保留 CDR 数据在 Skype 业务服务器
  

@@ -1,5 +1,6 @@
 ---
 title: 位置策略创建新的或编辑现有的
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 description: 您可以配置位置策略以确定是否启用增强型 9-1-1 (E9-1-1) 和如何使用它，以及如何将位置信息用于用户和联系人。
-ms.openlocfilehash: 2fa861277f5b7e36c9faa3ffd632cc84aa9b5f53
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 50769e3f6aec7d495ee5f9ea1c835c2e0849dc01
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244991"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883670"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>位置策略：创建新的或编辑现有的
 
@@ -65,6 +66,6 @@ ms.locfileid: "23244991"
 
   - **双向**指定第三方可以参与呼叫者与 PSAP 接线员之间的呼叫。
 
-有关企业语音紧急服务特性和功能的详细信息，请参阅规划文档中[概述的 E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) 。 有关使用位置策略的详细信息，请参阅操作文档中的[配置位置策略](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx)。
+有关企业语音紧急服务特性和功能的详细信息，请参阅规划文档中[概述的 E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) 。 有关使用位置策略的详细信息，请参阅操作文档中的[Configuring Location Policy](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx)。
 
 

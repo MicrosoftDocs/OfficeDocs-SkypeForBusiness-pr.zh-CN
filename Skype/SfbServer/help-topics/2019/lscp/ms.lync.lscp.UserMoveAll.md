@@ -1,5 +1,6 @@
 ---
 title: 移动所有用户
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在“移动用户”对话框上，您可以选择用于在部署中将用户帐户从一个池移动到另一个池的源池和目标池。
-ms.openlocfilehash: f44fb4e3e7aeff24f3b2f25071bfd4833da939b3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3d1567900b43e3d92d2f7d28a9ecb48000d12381
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263196"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880523"
 ---
 # <a name="move-all-users"></a>移动所有用户
 

@@ -1,5 +1,6 @@
 ---
 title: 联盟的域创建新的或编辑现有的
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,20 +12,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
-description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: d35be53b1f50b280b6a961db1f0764f4b6acd406
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+ms.openlocfilehash: fb858569f3f5891151dc0e473974d1ba6f9c1627
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257351"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882556"
 ---
 # <a name="federated-domains-create-new-or-edit-existing"></a>联盟域：创建新的或编辑现有的
 
-您希望执行什么操作？单击您要执行的任务所对应的链接。
+您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 
-- [配置联盟伙伴访问](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [Configure Access for Federated Partners](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
-- [监视并控制联盟的伙伴访问](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
+- [Monitor and Control Federated Partner Access](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
 
 

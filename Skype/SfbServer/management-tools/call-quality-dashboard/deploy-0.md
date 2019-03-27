@@ -1,5 +1,6 @@
 ---
 title: 为业务服务器部署 for Skype 的呼叫质量仪表板
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 摘要： 了解呼叫质量仪表板的部署过程。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: a4e8cfb48e0d9efc93b6c107db1ab9051f928e4d
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: ee67ddd0c0c9c3f2d169831c50dda49240d2ec7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735165"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883614"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>为业务服务器部署 for Skype 的呼叫质量仪表板
  
@@ -183,7 +184,7 @@ QoE 存档的安装过程包括创建 QoE 存档数据库、 部署将源的 QoE
   
 4. 单击**应用**页面的右侧。
     
-## <a name="known-issues"></a>已知问题
+## <a name="known-issues"></a>已知的问题
 
 ### <a name="the-cqd-shows-no-data-after-deployment"></a>CQD 部署后显示没有数据
 
@@ -428,7 +429,7 @@ VALUES
 |应用程序名称  <br/> |应用程序  <br/> |AP1  <br/> |
 |BBssid  <br/> |面临  <br/> |00-00-00-00-00-00 （必须使用分隔的 fformat）  <br/> |
 |控制器  <br/> |大楼  <br/> |阿鲁巴岛 AP 7  <br/> |
-|设备  <br/> |ess  <br/> |Controller1  <br/> |
+|Device  <br/> |ess  <br/> |Controller1  <br/> |
 |广播  <br/> |phy  <br/> |bgn  <br/> |
    
 ### <a name="processing-the-imported-data"></a>处理导入的数据

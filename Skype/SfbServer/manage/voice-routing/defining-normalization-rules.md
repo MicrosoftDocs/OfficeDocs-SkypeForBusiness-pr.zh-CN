@@ -1,5 +1,6 @@
 ---
 title: Skype 业务服务器中的定义规范化规则
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 为 Business Server 规范化规则的 Skype 使用.NET Framework 正则表达式转换为 E.164 格式; 拨打的电话号码换句话说，规范化规则执行由用户拨打的电话号码，并将该号码转换为使用内部 Skype 业务服务器的格式。 必须将每个拨号计划分配给一个或多个规范化规则。
-ms.openlocfilehash: 1304fa24f469b5ea8735858d3b66637eb404ab25
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 8e32ac485763c626d7d4347bb194fb4c4f3dba44
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222931"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882472"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Skype 业务服务器中的定义规范化规则
 

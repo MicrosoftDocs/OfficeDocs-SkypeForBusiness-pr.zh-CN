@@ -1,5 +1,6 @@
 ---
 title: Lync Server 站点范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
-description: 此节点显示拓扑中定义的站点之一。可以执行以下操作：
-ms.openlocfilehash: ad3bb8f7c8fc723d60598b6f81f8ad2282ffea00
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 此节点显示拓扑中定义的站点之一。 可以执行以下操作：
+ms.openlocfilehash: 74b031df3e88222c7f23e1c3a8b43a67ba6dc669
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878964"
 ---
 # <a name="test---skype-for-business-server-site-scope-node"></a>Lync Server 站点范围节点
  
@@ -24,16 +26,16 @@ ms.lasthandoff: 03/28/2018
   
 - **新建**。向站点中添加新池或服务器。
     
-- **编辑属性。**编辑站点属性（如名称和位置），并指定站点是否将呼叫允许控制用于带宽管理，以及是否将该站点上的控制器池或边缘池用作联盟路由。
+- **编辑属性。** 编辑站点属性（如名称和位置），并指定站点是否将呼叫允许控制用于带宽管理，以及是否将该站点上的控制器池或边缘池用作联盟路由。
     
-- **删除。**从拓扑中删除此站点。
+- **删除。** 从拓扑中删除此站点。
     
 除了这些选项之外，还可以执行以下常规任务：
   
-- **拓扑。**可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并组件或者删除部署。
+- **拓扑。** 可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并组件或者删除部署。
     
-- **视图。**可以使用此选项通过在控制台树视图中选择要显示和隐藏的项目来自定义拓扑生成器视图。
+- **视图。** 可以使用此选项通过在控制台树视图中选择要显示和隐藏的项目来自定义拓扑生成器视图。
     
-- **帮助。**可以使用此选项访问活动节点的“帮助”。
+- **帮助。** 可以使用此选项访问活动节点的“帮助”。
     
 

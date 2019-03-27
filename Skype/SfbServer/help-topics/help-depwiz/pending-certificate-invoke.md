@@ -1,5 +1,6 @@
 ---
-title: 待处理的证书 （调用）
+title: 待处理的证书（调用）
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,15 +12,15 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
-description: 正在执行命令页上显示要检索的待处理的证书的命令的状态。 完成任务后，检索待处理证书日志文件位于。 单击查看日志，若要查看的处理和任务完成状态。 单击“下一步”继续。
-ms.openlocfilehash: 2f2601e5501a777d78285ca39d5eb7b895dd980c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: 正在执行命令页上显示要检索的待处理的证书的命令的状态。 完成任务后，检索待处理证书日志文件位于。 单击查看日志，若要查看的处理和任务完成状态。 单击下一步。
+ms.openlocfilehash: a2b02c547d8af99bb5c60338e3d8d05622ae3f85
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986521"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880677"
 ---
-# <a name="pending-certificate-invoke"></a>待处理的证书 （调用）
+# <a name="pending-certificate-invoke"></a>待处理的证书（调用）
  
 **正在执行命令**页上显示要检索的待处理的证书的命令的状态。 完成任务后，**检索待处理证书**日志文件位于。 单击**查看日志**若要查看的处理和任务完成状态。 单击“**下一步**”继续。
   

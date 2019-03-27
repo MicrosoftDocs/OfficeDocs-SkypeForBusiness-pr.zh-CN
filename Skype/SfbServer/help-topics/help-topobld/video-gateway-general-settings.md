@@ -1,5 +1,6 @@
 ---
 title: 视频网关常规设置
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d1485ab-f912-4153-9839-4717f0314729
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机 VIS Skype 池中创建的业务服务器 2015年。
-ms.openlocfilehash: 9b3c51544372128b61fc8ac3b0d7bbe6358d8d20
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 11506fa121f33b471df7e36ab5e9e072283717ce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504577"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882248"
 ---
 # <a name="video-gateway-general-settings"></a>视频网关常规设置
  

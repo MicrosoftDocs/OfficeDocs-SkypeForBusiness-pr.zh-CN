@@ -1,5 +1,6 @@
 ---
 title: 链接网络区域
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '您可以配置呼叫允许控制 (CAC) 的一部分的两个网络区域之间的链接。 '
-ms.openlocfilehash: f2f3e170b11677663739f4e06ea7c6768f0a9c11
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 4ea6ddcc72d2cadea32608288d1db93ba8505aee
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223015"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884682"
 ---
-# <a name="linking-network-regions-in-skype-for-business-server"></a>Skype 业务服务器中的链接网络区域
+# <a name="linking-network-regions-in-skype-for-business-server"></a>在 Skype for Business Server 中链接网络区域
 
 您可以配置呼叫允许控制 (CAC) 的一部分的两个网络区域之间的链接。 使用本文中的部分以查看 newtwork 区域链接信息或者配置或删除网络区域链接。 
 
@@ -125,7 +126,7 @@ ms.locfileid: "27223015"
 
 5.  从**编辑**菜单上，选择**删除**。
 
-6.  单击“确定”****。
+6.  单击“**确定**”。
 
 
 ## <a name="see-also"></a>另请参阅

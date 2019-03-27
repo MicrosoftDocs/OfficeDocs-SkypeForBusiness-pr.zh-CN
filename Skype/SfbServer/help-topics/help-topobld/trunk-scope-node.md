@@ -1,5 +1,6 @@
 ---
 title: 中继范围节点
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,16 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
-description: 右键单击现有的 SIP 中继在拓扑生成器中执行以下：
-ms.openlocfilehash: d43339fce817367b593218d1584b04b05e0d80a7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 右键单击某个现有的 SIP 中继拓扑生成器以执行以下中：
+ms.openlocfilehash: 881409acb5b45b1f6662d96bfda110cbf1381f2a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878365"
 ---
 # <a name="trunk-scope-node"></a>中继范围节点
  
-右键单击现有的 SIP 中继在拓扑生成器中执行以下：
+右键单击某个现有的 SIP 中继拓扑生成器以执行以下中：
   
 - **编辑属性**：启动用于编辑或重新定义现有 SIP 中继配置的“**编辑属性**”向导
     

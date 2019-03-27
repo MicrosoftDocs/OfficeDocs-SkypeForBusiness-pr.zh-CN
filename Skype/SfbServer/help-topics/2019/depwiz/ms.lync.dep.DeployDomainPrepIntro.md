@@ -1,5 +1,6 @@
 ---
 title: 准备当前域（简介）
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 25f2e262-d6ed-4081-bbfd-5f8be5997e6b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 准备域页上开始准备域 Skype 业务服务器的过程。 单击“下一步”开始准备域。
-ms.openlocfilehash: 7409c5100ecf827633b23d397b339617f74eee33
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1797f4d4d155ad69da35c52ff9e7bd1c5b2de972
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985968"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879593"
 ---
 # <a name="prepare-current-domain-intro"></a>准备当前域（简介）
  

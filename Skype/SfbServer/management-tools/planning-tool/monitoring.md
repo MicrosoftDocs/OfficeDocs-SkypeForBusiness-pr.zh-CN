@@ -1,5 +1,6 @@
 ---
-title: 监控 （规划工具）
+title: Monitoring (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: 在业务服务器 2015年的 Skype，监控用于收集有关您的用户所涉及的通信会话的用户体验质量 (QoE) 数据和使用情况信息。
-ms.openlocfilehash: 726e1dd39e5899d5589b931e25cff23ddf0912f8
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 339c3e8614986ffbf1f5a438c97ccfbcf50fbb3a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256782"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878124"
 ---
-# <a name="monitoring-planning-tool"></a>监控 （规划工具）
+# <a name="monitoring-planning-tool"></a>Monitoring (Planning Tool)
 
 在业务服务器 2015年的 Skype，监控用于收集有关您的用户所涉及的通信会话的用户体验质量 (QoE) 数据和使用情况信息。
 

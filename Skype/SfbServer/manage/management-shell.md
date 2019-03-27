@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 管理程序
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: 业务 Server 命令行管理程序 Skype 服务器管理和管理提供命令行界面。 它基于 Windows PowerShell，并包含一组全面的管理和管理特定于 Skype 和旧式 Lync server 产品的 cmdlet。
-ms.openlocfilehash: 34bf761cfa6d9cfe648360319084b3a304d9f6e6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 243ff7a684bb14f73ef9f4836ce00e8048fbb236
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997354"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884198"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Skype for Business Server 管理程序
  
@@ -32,7 +33,7 @@ Skype 业务服务器附带使管理员能够管理对业务 Server 命令行管
 Get-Help New-CsVoicePolicy -Full
 ```
 
-上述命令检索可用于**New-csvoicepolicy** cmdlet 的完整帮助。 若要查看不同 cmdlet 的帮助，请替换为您要为其检索帮助 cmdlet 的名称 **-New-csvoicepolicy** 。
+上述命令检索有关 **New-CsVoicePolicy** cmdlet 的可用完整帮助。 要查看其他 cmdlet 的帮助，请将 **New-CsVoicePolicy** 替换为要检索其帮助信息的 cmdlet 的名称。
   
 要检索可用于管理 Skype for Business Server 的 cmdlet 的完整列表，请在 Shell 命令提示符处键入以下内容： 
   
@@ -53,7 +54,7 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
     
 - 您可以通过运行[更新帮助](https://technet.microsoft.com/en-us/library/hh849720.aspx)cmdlet 更新业务 Server 命令行管理程序帮助内容 Skype。 更新帮助 cmdlet 下载并安装的最新帮助文件提供的所有模块包括 Skype 业务 cmdlet 更新您计算机上安装。
     
-    默认情况下，**更新帮助**cmdlet 将更新业务服务器安装在您 Skype 上的所有模块。 如果您想要更新只有某些模块，您可以使用_模块_参数来限制范围的 cmdlet。 下面的示例更新仅 for Business 模块 Skype。
+    默认情况下，**更新帮助**cmdlet 将更新业务服务器安装在您 Skype 上的所有模块。 如果您想仅更新特定模块，则可以使用 _Module_ 参数来限制 cmdlet 的作用域。 下面的示例更新仅 for Business 模块 Skype。
     
   ```
   Update-Help -Module SkypeforBusiness

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d78f1e0a4f1c3a5ca95dff0f50d688c2d8a6b239
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 492055c80b844ba4a7aa0091da767214c55dc31a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640783"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884052"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和合规性概述
 ======================================================
@@ -34,6 +34,8 @@ Microsoft Teams 建立在 Office 365 超大规模企业级云之上，提供我�
 Teams 还强制执行团队范围和组织范围的双重身份验证、通过 Active Directory 进行单一登录以及对正在传输的数据和静态数据加密。 文件存储在 SharePoint 中，并会进行 SharePoint 加密。 笔记存储在 OneNote 中，并会进行 OneNote 加密。 工作组 SharePoint 网站中存储的 OneNote 数据。 Wiki 选项卡可以还用于笔记记录和团队 SharePoint 网站中还存储它的内容。
 
 我们还增加了以下支持：审核日志搜索、针对频道、聊天和文件的电子数据展示和法定保留，以及通过 Microsoft Intune 进行移动应用管理。 转到 Office 365 安全性 & 合规性中心管理这些设置。 
+
+若要了解有关 Office 365 安全 & 合规性的详细信息，请阅读[Configure Office 365 租户为了提高安全性](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)
 
 ## <a name="auditing-and-reporting"></a>审核和报告
 
@@ -151,3 +153,7 @@ Microsoft 团队桌面应用程序支持 AppLocker。  有关 AppLocker 先决�
 作为 Office 365 的客户，你拥有并控制你的数据。 除了为你提供你已订阅的服务外，Microsoft 不会将你的数据用于任何其他用途。 作为服务提供商，我们不会扫描你的电子邮件、文档或团队来做广告或用于与服务无关的用途。 Microsoft 无权访问上载的内容。 对于 OneDrive for Business 和 SharePoint Online，客户数据位于租户中。
 
 签出有关我们信任和安全的详细信息的相关[Microsoft 信任中心](https://microsoft.com/trustcenter)的信息。 团队作为 Microsoft 信任中心遵循相同的指南和原则。
+
+<a name="related-topics"></a>相关主题
+----------------------
+[Office 365 ATP 安全链接](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)

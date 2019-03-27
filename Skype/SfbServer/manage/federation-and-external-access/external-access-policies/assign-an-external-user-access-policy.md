@@ -1,5 +1,6 @@
 ---
-title: 将外部用户访问策略分配
+title: 分配外部用户访问策略
+ms.reviewer: ''
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 如果用户已启用的 Skype 业务服务器，您可以配置 SIP 联盟、 远程用户访问和公共即时消息的业务 Server Control Panel 的 Skype 中的 (IM) 连接，通过向特定用户应用适当的策略。
-ms.openlocfilehash: 3498b7aabaddc80053efca70b89198c224147c0e
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: f07a407fee6f32f4cd4207c93ca19341e409ea78
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222840"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881498"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>将外部用户访问策略分配给 Skype 业务启用用户
 
@@ -44,7 +45,7 @@ ms.locfileid: "27222840"
 5.  在**外部访问策略**下**的企业服务器用户编辑 Skype** ，选择要应用的用户策略。
      
 > [!NOTE]  
-> **\<自动 >** 设置应用默认服务器或全局策略设置。
+> ** \<Automatic>** 设置应用默认服务器或全局策略设置。
 
 
 ## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 分配每用户外部访问策略

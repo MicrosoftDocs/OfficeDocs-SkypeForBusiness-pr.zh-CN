@@ -1,5 +1,6 @@
 ---
 title: 证书分配（简介）
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,15 +12,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26d6b07e-d2c7-4ff7-aca4-4bbb29f13f8d
-description: 要开始分配用于 Skype 业务服务器的证书，请单击下一步。
-ms.openlocfilehash: f823d53385736cdb1fed19affe38da577d8f7e2e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 若要开始分配 Skype 中用于企业服务器的证书，请单击下一步。
+ms.openlocfilehash: 896bce068a02451d08f249ef09d0550a6fc6732b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883557"
 ---
 # <a name="certificate-assignment-intro"></a>证书分配（简介）
  
-要开始分配用于 Skype 业务服务器的证书，请单击**下一步**。
+要开始分配证书以在 Skype 用于业务服务器，请单击**下一步**。
   
 

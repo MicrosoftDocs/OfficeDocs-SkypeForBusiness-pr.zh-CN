@@ -1,5 +1,6 @@
 ---
 title: 管理用户帐户的 Skype 业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: 本文中的各节介绍如何启用、 暂时禁用或删除业务服务器从 Skype Active Directory 用户。
-ms.openlocfilehash: 918bdf556f040c115abf5869ad7a7dcd76a3271f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2140ae4209e0b91e0d1188a01f96d2d81cac27ef
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250792"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883684"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>管理用户帐户的 Skype 业务服务器
 
@@ -50,7 +51,7 @@ ms.locfileid: "23250792"
 
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。
 
-3. 在左导航栏中，单击“**用户**”。
+3. 在左导航栏中，单击“用户”****。
 
 4. 在**搜索用户**框中键入所有或显示名称、 名字、 姓氏、 SAM 帐户名的第一部分，SIP 地址或线路 URI 的要搜索，然后单击**查找**的用户帐户。
 
@@ -77,7 +78,7 @@ ms.locfileid: "23250792"
 
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。
 
-3. 在左导航栏中，单击“**用户**”。
+3. 在左导航栏中，单击“用户”****。
 
 4. 单击**启用用户**。
 
@@ -98,7 +99,7 @@ ms.locfileid: "23250792"
 
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。
 
-3. 在左导航栏中，单击“**用户**”。
+3. 在左导航栏中，单击“用户”****。
 
 4. 在**搜索用户**框中键入所有或显示名称、 名字、 姓氏、 安全帐户管理器 (SAM) 帐户名、 SIP 地址或行您想要禁用或重新启用的用户帐户的统一资源标识符 (URI) 的第一部分然后单击**查找**。
 
@@ -143,9 +144,9 @@ ms.locfileid: "23250792"
 
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。
 
-3. 在左导航栏中，单击“**用户**”。
+3. 在左导航栏中，单击“用户”****。
 
-4. 在“**搜索用户**”框中，键入要启用的用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“**查找**”。
+4. 在“搜索用户”**** 框中，键入要启用的用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“查找”****。
 
 5. 在表中，单击您想要启用企业语音的用户帐户。
 
@@ -171,7 +172,7 @@ ms.locfileid: "23250792"
 
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。
 
-3. 在左导航栏中，单击“**用户**”。
+3. 在左导航栏中，单击“用户”****。
 
 4. 在**搜索用户**框中键入所有或显示名称、 名字、 姓氏、 安全帐户管理器 (SAM) 帐户名、 SIP 地址或行您想要禁用或重新启用的用户帐户的统一资源标识符 (URI) 的第一部分然后单击**查找**。
 
