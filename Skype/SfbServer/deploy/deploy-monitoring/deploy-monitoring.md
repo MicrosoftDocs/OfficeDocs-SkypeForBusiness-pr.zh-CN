@@ -1,5 +1,6 @@
 ---
 title: 部署监控 Skype 中的业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 摘要： 了解如何部署中 Skype 监控的企业服务器。
-ms.openlocfilehash: 0bcc324e9f37b37078719e3e5c0e5ffe1518f5cd
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 147d20c7a6b85ef294711602748ee474b4e9abd3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252385"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878103"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>部署监控 Skype 中的业务服务器
 
@@ -54,7 +55,7 @@ ms.locfileid: "23252385"
 
 |**阶段**|**步骤**|**角色和组成员身份**|**文档**|
 |:-----|:-----|:-----|:-----|
-|**安装必备硬件和软件** <br/> |在将充当要进行监视的后端数据存储的计算机上安装受支持版本的 Microsoft SQL Server。  <br/> |还是本地管理员组的成员的域用户。  <br/> |[支持的硬件](https://technet.microsoft.com/library/5f9c085d-205e-4235-9061-9ad875283cb0.aspx) <br/> [Server Software and Infrastructure Support](https://technet.microsoft.com/library/4ee5fe38-0191-4710-9aa2-df8895e8c51b.aspx) <br/> |
+|**安装必备硬件和软件** <br/> |在将充当要进行监视的后端数据存储的计算机上安装受支持版本的 Microsoft SQL Server。  <br/> |还是本地管理员组的成员的域用户。  <br/> |[Supported Hardware](https://technet.microsoft.com/library/5f9c085d-205e-4235-9061-9ad875283cb0.aspx) <br/> [Server Software and Infrastructure Support](https://technet.microsoft.com/library/4ee5fe38-0191-4710-9aa2-df8895e8c51b.aspx) <br/> |
 |**创建相应的内部拓扑以支持监控** <br/> |业务 Server 拓扑生成器，若要添加的使用 Skype 监控数据库到拓扑，然后发布已更新的拓扑。  <br/> |若要定义拓扑，则为是本地用户组成员的用户。  <br/> 若要发布拓扑，则为 Domain Administrators 组和 RTCUniversalServerAdmins 组的成员的用户。  <br/> |[将监控存储与 Skype 中的前端池相关联的业务服务器](associate-a-monitoring-store.md) <br/> |
 |**启用相应的监控设置** <br/> |启用全局和/或站点作用域的呼叫详细记录 (CDR) 和/或用户体验质量 (QoE) 监视。  <br/> |为 RTCUniversalServerAdmins 组的用户，或分配有提供对 CsCdrConfiguration 和 CsQoEConfiguration cmdlet 的访问权限的 RBAC 角色的用户。  <br/> |[为业务 Server Skype 中配置呼叫详细信息记录和用户体验质量设置](call-detail-recording-and-qoe.md) <br/> |
 

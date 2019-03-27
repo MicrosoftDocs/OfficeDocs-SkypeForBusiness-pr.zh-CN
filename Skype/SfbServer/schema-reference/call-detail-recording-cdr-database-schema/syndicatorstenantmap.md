@@ -1,5 +1,6 @@
 ---
 title: SyndicatorsTenantMap 表
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a99fe6ea-e529-4ea7-acc4-914ab8ce5468
 description: SyndicatorsTenantMap 表是仅供内部使用。 此表是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: ba1134000457f771334011196d5addd38cf19b11
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3b8248643bf46bf84d13325dc3f44bdfb1a119e1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967556"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876618"
 ---
 # <a name="syndicatorstenantmap-table"></a>SyndicatorsTenantMap 表
  

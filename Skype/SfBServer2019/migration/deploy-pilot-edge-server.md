@@ -1,5 +1,6 @@
 ---
-title: 部署试点边缘服务器
+title: 部署试点 Edge Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本主题重点介绍您应了解业务 Server 2019 边缘服务器部署您 Skype 之前的配置设置。 业务服务器 2019年的 Skype 的部署和配置过程就如同 Skype 的业务服务器 2015年。 本节仅突出显示试点池中部署的一部分应考虑的要点。 有关详细步骤，请参阅 Skype 中的部署外部用户访问业务服务器 2019年中 for 部署文档，其中介绍的部署过程，并还提供了针对外部用户访问的配置信息。
-ms.openlocfilehash: 3ae1508c56ac3240cfb9904415090ff1bdf18677
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5b755d0ba8802c47a176cb3375a87b6523f35fad
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029858"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876196"
 ---
-# <a name="deploy-pilot-edge-server"></a>部署试点边缘服务器
+# <a name="deploy-pilot-edge-server"></a>部署试点 Edge Server
 
 本主题重点介绍应业务 Server 2019 边缘服务器部署您 Skype 之前了解您的配置设置。 业务服务器 2019年的 Skype 的部署和配置过程就如同 Skype 的业务服务器 2015年。 本节仅突出显示试点池中部署的一部分应考虑的要点。 <!-- For detailed steps, see 
  [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->

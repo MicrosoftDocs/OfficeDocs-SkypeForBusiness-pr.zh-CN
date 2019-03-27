@@ -1,5 +1,6 @@
 ---
 title: 在云连接器版本中部署媒体旁路
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: 阅读本主题可了解部署步骤媒体绕过与云连接器 Edition 2.0 及更高版本。
-ms.openlocfilehash: a764c17af7c23d27305f9e2f3e88eaed6edc33cf
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: f4ea5449e7a324ae206241af25d12ecabf9c5259
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561912"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878047"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>在云连接器版本中部署媒体旁路
  
@@ -187,4 +188,4 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ## <a name="see-also"></a>另请参阅
 <a name="Example"> </a>
 
-[在云连接器版本中规划媒体旁路](plan-for-media-bypass-in-cloud-connector-edition.md)
+[云连接器版本中的媒体旁路规划](plan-for-media-bypass-in-cloud-connector-edition.md)

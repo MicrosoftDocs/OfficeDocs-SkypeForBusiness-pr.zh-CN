@@ -1,5 +1,6 @@
 ---
 title: Skype for Business 2015 中的集中日志记录服务
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 摘要： 了解有关服务组件和业务服务器 2015 the Centralized Logging Service 中 Skype 的配置设置。
-ms.openlocfilehash: b2234ac1b52ff41108573f6a90a07bfa28c50a58
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6f1766e97c318a11095aa2f064cd09a0785c1562
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372458"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877753"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Skype for Business 2015 中的集中日志记录服务
  
@@ -57,7 +58,7 @@ The Centralized Logging Service 是问题大或小，从根源分析的性能问
   
 发出命令使用 Windows Server 命令行界面或 Skype 用于业务 Server Management Shell。 这些命令将在您登录的计算机上执行，并将本地发送到 ClsAgent 或发送到部署中的其他计算机和池。
   
-ClsAgent 维护其在本地计算机上具有的所有 .CACHE 文件的索引文件。 Clsagent 的通信分配，以便在定义由选项 CacheFileLocalFolders，从不使用了多个 80%的 （即，本地缓存位置和百分比是可使用**配置每个卷的卷之间均匀分布Set-CsClsConfiguration** cmdlet)。 ClsAgent 还负责从本地计算机中清除旧的缓存事件跟踪日志 (.etl) 文件。 两个周后 （也就是说，时间范围是使用**Set-csclsconfiguration** cmdlet 可配置） 这些文件复制到文件共享，且从本地计算机中删除。 有关详细信息，请参阅[Set-csclsconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)。 在收到一个搜索请求时，搜索条件将用于选择一组缓存的 .etl 文件以便根据代理所维护的索引中的值来执行搜索。
+ClsAgent 维护其在本地计算机上具有的所有 .CACHE 文件的索引文件。 ClsAgent 将分配这些文件，使其均匀分布在由选项 CacheFileLocalFolders 定义的卷上，并且绝不会占用每个卷的 80% 以上的容量（即，可使用 **Set-CsClsConfiguration** cmdlet 配置本地缓存位置和百分比）。 ClsAgent 还负责从本地计算机中清除旧的缓存事件跟踪日志 (.etl) 文件。 两周之后（即，可使用 **Set-CsClsConfiguration** cmdlet 配置时间范围时），会将这些文件复制到一个文件共享中并从本地计算机中删除它们。 有关详细信息，请参阅 [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)。 在收到一个搜索请求时，搜索条件将用于选择一组缓存的 .etl 文件以便根据代理所维护的索引中的值来执行搜索。
   
 > [!NOTE]
 > 从本地计算机移至文件共享中的文件可通过 ClsAgent 进行搜索。一旦 ClsAgent 将这些文件移至文件共享中，ClsAgent 将不会维护文件的清楚和删除。您应定义一个管理任务来监控文件共享中的文件大小，并删除这些文件或对其进行存档。 
@@ -90,7 +91,7 @@ OCSLogger，如 the Centralized Logging Service 有几个组件跟踪，并提�
   
 ### <a name="to-display-the-current-centralized-logging-service-configuration"></a>若要显示当前的集中日志记录服务配置
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 2. 在命令行提示符处键入以下内容：
     
@@ -99,7 +100,7 @@ OCSLogger，如 the Centralized Logging Service 有几个组件跟踪，并提�
    ```
 
     > [!TIP]
-    > 可以缩小范围，也可以展开返回通过定义的配置设置的作用域`-Identity`和范围，例如"Site: Redmond"以返回仅站点 Redmond CsClsConfiguration。 如果您希望有关配置的指定部分的详细信息，您可以输出通过管道传递到另一个 Windows PowerShell cmdlet。 例如，若要获得有关站点“Redmond”的配置中定义的方案的详细信息，请键入：`Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
+    > 可以缩小范围，也可以展开返回通过定义的配置设置的作用域`-Identity`和范围，例如"Site: Redmond"以返回仅站点 Redmond CsClsConfiguration。 如果您希望有关配置的指定部分的详细信息，您可以输出通过管道传递到另一个 Windows PowerShell cmdlet。 例如，若要获取有关站点"Redmond"的配置中定义的方案的详细信息，请键入：`Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
   
      ![来自 Get-CsClsConfiguration 的示例输出。](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
   

@@ -1,5 +1,6 @@
 ---
 title: For Business Server 2019 Skype 的系统要求
+ms.reviewer: ''
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 摘要： 准备您的 Skype 业务服务器 2019年服务器和域基础结构与本主题。 硬件、 操作系统、 数据库、 软件、 所有系统要求和建议，以及证书 DNS、 文件共享和 Active Directory 信息，在此处都要帮助确保成功安装和部署服务器场。
-ms.openlocfilehash: 0f2926bc0d110ce7270b6798895ecda7ebabb23a
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 86ef54a5a269a47fb1e2b8dff04808bf85b5b296
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120656"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875642"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>For Business Server 2019 Skype 的系统要求
  
@@ -50,7 +51,7 @@ ms.locfileid: "30120656"
 |:-----|:-----|
 |CPU  <br/> |Intel Xeon E5 2673 v3 双处理器、 6 核 2.4 ghz 或更高版本。  <br/> Intel Itanium 处理器不支持 Skype 业务服务器 2019年角色。  <br/> |
 |内存  <br/> |32 GB。  <br/> |
-|磁盘  <br/> |以下之一：  <br/> • 8 块或更多 10000 RPM 硬盘，至少 72 GB 可用磁盘空间（2 块磁盘使用 RAID 1，6 块磁盘使用 RAID 10）。  <br/> 或者  <br/> • 能够提供与 8 块 10000 RPM 机械硬盘相同的可用空间和类似性能的固态硬盘 (SSD)。  <br/> |
+|磁盘  <br/> |以下之一：  <br/> • 8 或更多 10000 RPM 硬盘驱动器具有至少 72 GB 可用磁盘空间 （两个磁盘使用 RAID 1 和 6 使用 RAID 10）。  <br/> 或者  <br/> • 固态驱动器 (Ssd) 能够提供相同的可用空间和类似于 8 10000 RPM 机械磁盘驱动器的性能。  <br/> |
 |网络  <br/> |1 个双端口网络适配器，1 Gbps 或更高（可使用 2 个网络适配器，但需要通过一个 MAC 地址和一个 IP 地址配合使用）。  <br/> 双处理器或多宿主配置是**不**支持前端服务器、 后端服务器，和 Standard Edition 服务器。 <br/> 只要它们不公开给操作系统，并且正在使用监视和管理服务器硬件，您可以通过带管理系统，如 DRAC 或 ILO。 这种情况不会形成多宿主服务器，并且受支持。  <br/> |
 
 
@@ -60,7 +61,7 @@ ms.locfileid: "30120656"
 |:-----|:-----|
 |CPU  <br/> |Intel Xeon E5 2673 v3 双处理器、 6 核 2.4 ghz 或更高版本。 <br/> Intel Itanium 处理器不支持 Skype 业务服务器 2019年角色。  <br/> |
 |内存  <br/> |64 千兆字节 (GB)。  <br/> |
-|磁盘  <br/> |以下之一：  <br/> • 8 块或更多 10000 RPM 硬盘，至少 72 GB 可用磁盘空间（2 块磁盘使用 RAID 1，6 块磁盘使用 RAID 10）。  <br/> 或者  <br/> • 能够提供与 8 块 10000 RPM 机械硬盘相同的可用空间和类似性能的固态硬盘 (SSD)。  <br/> |
+|磁盘  <br/> |以下之一：  <br/> • 8 或更多 10000 RPM 硬盘驱动器具有至少 72 GB 可用磁盘空间 （两个磁盘使用 RAID 1 和 6 使用 RAID 10）。  <br/> 或者  <br/> • 固态驱动器 (Ssd) 能够提供相同的可用空间和类似于 8 10000 RPM 机械磁盘驱动器的性能。  <br/> |
 |网络  <br/> |1 个双端口网络适配器，1 Gbps 或更高（可使用 2 个网络适配器，但需要通过一个 MAC 地址和一个 IP 地址配合使用）。  <br/> 双处理器或多宿主配置是**不**支持前端服务器、 后端服务器，和 Standard Edition 服务器。 <br/> 只要它们不公开给操作系统，并且正在使用监视和管理服务器硬件，您可以通过带管理系统，如 DRAC 或 ILO。 这种情况不会形成多宿主服务器，并且受支持。  <br/> |
    
 建议的边缘服务器、 独立中介服务器和控制器的硬件：
@@ -69,7 +70,7 @@ ms.locfileid: "30120656"
 |:-----|:-----|
 |CPU  <br/> |Intel Xeon E5 2673 v3 双处理器、 6 核 2.4 ghz 或更高版本。  <br/> Intel Itanium 处理器不支持 Skype 业务服务器 2019年角色。  <br/> |
 |内存  <br/> |32 千兆字节。  <br/> |
-|磁盘  <br/> |以下之一：  <br/> • 4 块或更多 10000 RPM 硬盘，至少 72 GB 可用磁盘空间（磁盘应采用双 RAID 1 配置）。  <br/> 或  <br/> • 能够提供与 4 块 10000 RPM 机械硬盘相同的可用空间和类似性能的固态硬盘 (SSD)。  <br/> |
+|磁盘  <br/> |以下之一：  <br/> • 4 个或多个 10000 RPM 硬盘驱动器具有至少 72 GB 可用磁盘的空间 （磁盘应为 2 个 RAID 1 配置中）。  <br/> 或者  <br/> • 固态驱动器 (Ssd) 能够提供相同的可用空间和类似于 4 10000 RPM 机械磁盘驱动器的性能。  <br/> |
 |网络  <br/> |1 个双端口网络适配器，1 Gbps 或更高（可使用 2 个网络适配器，但需要通过一个 MAC 地址和一个 IP 地址配合使用）。  <br/> 双处理器或多宿主配置是**不**支持视频互操作服务器和控制器。 <br/> 边缘服务器需要两个网络接口，均为双端口网络适配器、1 Gbps 或更高速度（或两个成对网络适配器，总计 4 个适配器，每一对均与单一 MAC 地址和单一 IP 地址配合使用，总共两对）。  <br/> 在独立中介服务器，支持的其他网络接口卡 (Nic) 以允许的特定 PSTN IP 地址配置安装。  <br/> |
 
 
@@ -267,7 +268,7 @@ Skype 部署的 Business Server 2019 到，任何域的域功能级别和 Skype 
     
 这些环境中能否有只读域控制器？ 当然，只要有还有可写域控制器。
   
-务必要了解的业务服务器 2019 Skype 不支持单标签域。 单标签域是什么？ 如果您有一个标有 contoso.local 的根域，这将为工作正常。 如果您有刚刚名为本地的根域，将不会工作，并因此不支持。 [知识库中的这篇文章](https://support.microsoft.com/kb/300684/en-us)略为详细地介绍了相关内容。
+务必要了解的业务服务器 2019 Skype 不支持单标签域。 单标签域是什么？ 如果您有一个标有 contoso.local 的根域，这将为工作正常。 如果您有刚刚名为本地的根域，将不会工作，并因此不支持。 更多有关此已写入[此知识库文章中](https://support.microsoft.com/kb/300684/en-us)。
   
 Skype 的业务服务器 2019年也不支持域的重命名。 如果您真正需要重命名您的域，您将需要卸载 Skype 的业务服务器 2019年执行域重命名，然后重新安装 Skype 的业务服务器 2019年。
   
@@ -352,7 +353,7 @@ Skype 的业务服务器 2019年并支持中央林拓扑中配置的多个林。
   
 在此方案中，一个资源林拓扑中有多个本地林。Active Directory 林之间为完全信任关系。Azure Active Directory Connect 工具用于在本地用户林和 Office 365 之间同步帐户。
   
- 组织还有 Office 365，并使用 [Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) 将其本地帐户与 Office 365 同步。 为业务联机通过 Office 365 和 Skype 启用了用户启用了 for Business 的 Skype。 Skype 业务服务器不在本地部署。
+ 组织还具有 Office 365，并使用[Azure Active Directory 连接](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)将其内部部署帐户与 Office 365 同步。 为业务联机通过 Office 365 和 Skype 启用了用户启用了 for Business 的 Skype。 Skype 业务服务器不在本地部署。
   
 由位于用户林的 Active Directory 联合身份验证服务服务器场提供单一登录身份验证。
   
@@ -454,7 +455,7 @@ Skype 的业务服务器 2019年还包括对支持 （而无需） 使用 160、
   
 |**证书**|**使用者名称/common 名称**|**使用者替代名称**|**示例**|**注释**|
 |:-----|:-----|:-----|:-----|:-----|
-|默认值  <br/> |池的 FQDN  <br/> |池的 FQDN 和服务器的 FQDN  <br/> 如果具有多个 SIP 域并已启用自动客户端配置，则证书向导会检测并添加所有受支持的 SIP 域 FQDN。  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的域名系统 (DNS) 匹配，那么还需要 sip.sipdomain 条目（对应于您拥有的每个 SIP 域）。  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的 DNS 匹配，则还需要 SAN=sip.contoso.com; SAN=sip.fabrikam.com。  <br/> |Standard Edition 服务器上的服务器 FQDN 与池 FQDN 相同。  <br/> 证书向导会检测您在安装过程中所指定的任何 SIP 域，然后自动将它们添加到使用者可选名称中。  <br/> 也可将此证书用于服务器到服务器身份验证。  <br/> |
+|默认  <br/> |池的 FQDN  <br/> |池的 FQDN 和服务器的 FQDN  <br/> 如果具有多个 SIP 域并已启用自动客户端配置，则证书向导会检测并添加所有受支持的 SIP 域 FQDN。  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的域名系统 (DNS) 匹配，那么还需要 sip.sipdomain 条目（对应于您拥有的每个 SIP 域）。  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的 DNS 匹配，则还需要 SAN=sip.contoso.com; SAN=sip.fabrikam.com。  <br/> |Standard Edition 服务器上的服务器 FQDN 与池 FQDN 相同。  <br/> 证书向导会检测您在安装过程中所指定的任何 SIP 域，然后自动将它们添加到使用者可选名称中。  <br/> 也可将此证书用于服务器到服务器身份验证。  <br/> |
 |Web 内部  <br/> |服务器的 FQDN  <br/> |以下各项：  <br/> • 内部 web FQDN （这是服务器的 FQDN 相同）  <br/> 和  <br/> • 会议简单 Url  <br/> • 电话拨入式简单 URL  <br/> • 管理简单 URL  <br/> 或者  <br/> • 简单 Url 的通配符条目  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> 使用通配符证书：  <br/> SN=se01.contoso.com;SAN=se01.contoso.com;SAN =\*。 contoso.com  <br/> |无法覆盖内部 web FQDN 在拓扑生成器。  <br/> 如果您有多个会议简单 Url，则必须包含所有这些 as San。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
 |Web 外部  <br/> |服务器的 FQDN  <br/> |以下各项：  <br/> • 外部 web FQDN  <br/> 和  <br/> • 电话拨入式简单 URL  <br/> 每个 SIP 域的 • 会议简单 Url  <br/> 或者  <br/> • 简单 Url 的通配符条目  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> 使用通配符证书：  <br/> SN=se01.contoso.com;SAN=webcon01.contoso.com;SAN =\*。 contoso.com  <br/> |如果您有多个会议简单 Url，您必须包括所有它们作为使用者替代名称。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
    
@@ -484,7 +485,7 @@ Survivable Branch Appliance (具体而言，Survivable Branch Appliance 2015 的
   
 |**证书**|**使用者名称/common 名称**|**使用者替代名称**|**示例**|
 |:-----|:-----|:-----|:-----|
-|默认值  <br/> |设备的 FQDN  <br/> |SIP。\<sipdomain\> （需要每个 SIP 域只能有一个条目）  <br/> |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
+|默认  <br/> |设备的 FQDN  <br/> |SIP。\<sipdomain\> （需要每个 SIP 域只能有一个条目）  <br/> |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
    
 ### <a name="certificates-for-external-user-access-edge"></a>外部用户访问（边缘）的证书
 
@@ -535,9 +536,9 @@ Skype 的业务服务器 2019年支持**单个公共证书**的使用访问、 w
 
 Skype 的业务服务器 2019年可以使用相同的文件共享进行所有文件存储区。 但您需要注意以下事项：
   
-- 文件共享需要置于直接附加存储 (DAS) 或存储区域网络 (SAN) 上，其中包括分布式文件系统 (DFS) 以及文件存储的独立磁盘冗余阵列 (RAID)。 如需了解 Windows Server 2012 的 DFS 的更多信息，请访问[此 DFS 页面](https://technet.microsoft.com/en-us/library/jj127250.aspx)。
+- 文件共享需要置于直接附加存储 (DAS) 或存储区域网络 (SAN) 上，其中包括分布式文件系统 (DFS) 以及文件存储的独立磁盘冗余阵列 (RAID)。 对于进一步读取在 Windows Server 2012 的 DFS 上，检查出[此 DFS 页面](https://technet.microsoft.com/en-us/library/jj127250.aspx)。
     
-- 建议为文件共享使用共享群集。 如果您正在使用它，您应该组成群集 Windows Server 2012 或 Windows Server 2012 R2。 为什么最新的 Windows？ 较旧的版本可能不具备启用所有功能的正确权限。 你可以使用群集管理员权限创建文件共享，这篇[创建群集](https://support.microsoft.com/en-us/help/224967) KB 文章将帮助你了解相关详细信息。
+- 建议为文件共享使用共享群集。 如果您正在使用它，您应该组成群集 Windows Server 2012 或 Windows Server 2012 R2。 为什么最新的 Windows？ 较旧的版本可能不具备启用所有功能的正确权限。 您可以使用群集管理器创建文件共享，并[创建群集](https://support.microsoft.com/en-us/help/224967)KB 本文将帮助您与这些详细信息。
     
 > [!CAUTION]
 > 您应知道，不支持将网络附加存储 (NAS) 用作文件共享，因此，请使用上述其中一个选项。 

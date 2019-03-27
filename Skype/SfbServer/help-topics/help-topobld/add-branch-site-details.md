@@ -1,5 +1,6 @@
 ---
 title: 添加分支机构详细信息
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 description: 要指定站点的站点详细信息，请执行下列操作：
-ms.openlocfilehash: da801d1a37631069ca83c6d3378b22aea58b49a9
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: caba9060f082778e768aac615ea369b02ef0e11f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253067"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877239"
 ---
 # <a name="add-branch-site-details"></a>添加分支机构详细信息
 
@@ -29,6 +30,6 @@ ms.locfileid: "23253067"
 
 指定新分支站点的国家/地区代码名称。“国家/地区代码”值是可选条目。
 
-有关其他信息，请参阅[Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx)。
+有关其他信息，请参阅 [Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx)。
 
 

@@ -1,5 +1,6 @@
 ---
 title: MediaList 表
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: MediaList 表是一个静态表，用于存储各种媒体类型的列表。
-ms.openlocfilehash: c9309219399fac30e318f8e112dd82269fff5ac2
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 72ae6dbb145c3bb284f1090b01585591e4e773bf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569766"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877515"
 ---
 # <a name="medialist-table"></a>MediaList 表
  

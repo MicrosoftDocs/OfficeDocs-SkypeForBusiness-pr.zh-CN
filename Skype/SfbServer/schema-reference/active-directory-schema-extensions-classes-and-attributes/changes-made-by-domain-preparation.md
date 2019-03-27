@@ -1,5 +1,6 @@
 ---
-title: 通过在 Skype 业务服务器的域准备工作所做的更改
+title: Skype 中的业务服务器的域准备所做的更改
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,38 +10,39 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
-description: 下表列出了域准备工作将在域根目录创建访问控制项 (Ace)。 除非另有说明，否则所有 Ace 都继承。
-ms.openlocfilehash: 3602e04082dbf4af9a2ab40fc3318761ebc08c21
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 下表列出域准备在域根创建访问控制项 (Ace)。 除非另行说明，所有 Ace 都被都继承。
+ms.openlocfilehash: 5cf239e37badafee9980140d08fd20a11e3c233d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877697"
 ---
-# <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>通过在 Skype 业务服务器的域准备工作所做的更改
+# <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>Skype 中的业务服务器的域准备所做的更改
  
-下表列出了域准备工作将在域根目录创建访问控制项 (Ace)。 除非另有说明，否则所有 Ace 都继承。
+下表列出域准备在域根创建访问控制项 (Ace)。 除非另行说明，所有 Ace 都被都继承。
   
 **添加到域根的 Ace**
 
-|**ACE**|**RTCUniversal UserReadOnly 组**|**RTCUniversal ServerReadOnly 组**|**RTCUniversal UserAdmins**|**RTCHSUniversal 服务**|**经过身份验证的用户**|
+|**ACE**|**RTCUniversal UserReadOnly 组**|**RTCUniversal ServerReadOnly 组**|**RTCUniversal UserAdmins**|**RTCHSUniversal 服务**|**验证用户**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|读取 （不继承） 的容器  <br/> |**是的** <br/> |**是的** <br/> |否  <br/> |否  <br/> |否  <br/> |
-|读取用户 PropertySet 用户帐户限制  <br/> |**是的** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
-|读取用户 PropertySet 个人信息  <br/> |**是的** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
-|读取用户 PropertySet 常规信息  <br/> |**是的** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
-|读取用户 PropertySet 公共信息  <br/> |**是的** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
-|读取用户 PropertySet RTCUserSearchProperty 集  <br/> |**是的** <br/> |否  <br/> |否  <br/> |否  <br/> |**是的** <br/> |
-|读取用户 PropertySet RTCPropertySet  <br/> |**是的** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
-|编写用户属性代理服务器地址  <br/> |否  <br/> |否  <br/> |**是的** <br/> |否  <br/> |否  <br/> |
-|编写用户 PropertySet RTCUserSearchProperty 组  <br/> |否  <br/> |否  <br/> |**是的** <br/> |否  <br/> |否  <br/> |
-|编写用户 PropertySet RTCPropertySet  <br/> |否  <br/> |否  <br/> |**是的** <br/> |否  <br/> |否  <br/> |
-|读 PropertySet DS-复制-获取-更改所有 Active Directory 对象的  <br/> |否  <br/> |否  <br/> |否  <br/> |**是的** <br/> |否  <br/> |
+|读取容器 （非继承）  <br/> |**是的** <br/> |**是的** <br/> |否  <br/> |否  <br/> |否  <br/> |
+|读取用户属性集的用户帐户限制  <br/> |**是的** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
+|读取用户属性集 Personal-information  <br/> |**是的** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
+|读取用户属性集 General-information  <br/> |**是的** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
+|读取用户属性集 Public-information  <br/> |**是的** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
+|读取用户属性集 Rtcusersearchproperty-set  <br/> |**是的** <br/> |否  <br/> |否  <br/> |否  <br/> |**是** <br/> |
+|读取用户属性集 RTCPropertySet  <br/> |**是的** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
+|写入用户属性 Proxy-addresses  <br/> |否  <br/> |否  <br/> |**是的** <br/> |否  <br/> |否  <br/> |
+|写入用户属性集 Rtcusersearchproperty-set  <br/> |否  <br/> |否  <br/> |**是的** <br/> |否  <br/> |否  <br/> |
+|写入用户属性集 RTCPropertySet  <br/> |否  <br/> |否  <br/> |**是的** <br/> |否  <br/> |否  <br/> |
+|读取属性集 DS-复制-Get-更改的所有 Active Directory 对象  <br/> |否  <br/> |否  <br/> |否  <br/> |**是的** <br/> |否  <br/> |
    
-下表列出了域准备工作将在三个内置容器中创建的 Ace： 用户、 计算机和域控制器。 除非另有说明，否则所有 Ace 都继承。
+下表列出域准备在三个内置容器中创建的 Ace： 用户、 计算机和域控制器。 除非另行说明，所有 Ace 都被都继承。
 **添加到内置容器的 Ace**
 
 |**ACE**|**RTCUniversal UserReadOnly 组**|**RTCUniversal ServerReadOnly 组**|
 |:-----|:-----|:-----|
-|读取 （不继承） 的容器  <br/> |**是的** <br/> |**是的** <br/> |
+|读取容器 （非继承）  <br/> |**是的** <br/> |**是** <br/> |
    
 

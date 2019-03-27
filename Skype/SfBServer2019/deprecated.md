@@ -1,5 +1,6 @@
 ---
 title: 什么被弃用从 Skype 业务服务器 2019
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要： 这些功能已从 Skype 的业务服务器 2019年。
-ms.openlocfilehash: 399c5f219ae5a088c4e7f8aa40f40344885d571e
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: bd7519e66632c005d81ff9fc110684f6c4854c41
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561609"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876653"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>什么被弃用从 Skype 业务服务器 2019
 
@@ -56,7 +57,7 @@ SQL 镜像无法部署与 Skype 的业务服务器 2019年。 仍然支持用于
 
 不将可用于在初始版本的 Skype 的业务服务器 2019年以下工具：
 
-- Skype 业务服务器容量规划计算器
+- Skype for Business Server 容量计划计算器
 - Skype 业务 server 调试工具
 - Skype 的业务 Server 资源工具包工具 （一些工具将被删除）
     - 呼叫寄存时间记录器
@@ -67,11 +68,11 @@ SQL 镜像无法部署与 Skype 的业务服务器 2019年。 仍然支持用于
 
 - 呼叫质量方法 （但不是呼叫质量仪表板）
 - Microsoft 呼叫质量方法记分卡、 v1.5
-- Skype for Business Server 2015 Planning Tool
+- Skype for Business Server 2015 规划工具
 - Skype for Business Server 2015 Stress and Performance Tool
 
 ### <a name="see-also"></a>另请参阅
 
 [What's new in Business Server 2019 的 Skype](whats-new.md)
 
-[迁移 XMPP 联盟](migration/migrating-xmpp-federation.md)
+[管理 XMPP 联盟](migration/migrating-xmpp-federation.md)

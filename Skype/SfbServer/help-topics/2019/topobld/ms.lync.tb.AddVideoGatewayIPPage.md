@@ -1,5 +1,6 @@
 ---
 title: 添加视频网关 IP
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: edc4cc21-7803-400d-8152-595228a3d27d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机创建 VIS 池中 Skype 业务服务器。
-ms.openlocfilehash: 1fda348fe34c661f0436e2e6bb198ac44ba52ddc
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 7b79c025fb466fdbc6837ff570198f531c148ad6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062634"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877309"
 ---
 # <a name="add-video-gateway-ip"></a>添加视频网关 IP
  

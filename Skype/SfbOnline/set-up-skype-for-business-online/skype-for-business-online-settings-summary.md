@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Online 设置摘要
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Skype 的业务组织和用户设置的此摘要可帮助您了解有关公共 IM 连接，会议邀请、 记录呼叫和会议，等等。  '
-ms.openlocfilehash: 95368d06cbd243aa5b57b7e68ec1e99db81b2fb0
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: df16f6893da94e456bc873a74c8e0a1639eda3db
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865594"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876060"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Skype for Business Online 设置摘要
 
@@ -35,7 +36,7 @@ ms.locfileid: "23865594"
 ## <a name="skype-for-business-online-organization-settings"></a>Skype for Business Online 组织设置
 <a name="__top"> </a>
 
-|**设置**|**说明**|**默认**|**了解更多信息**|
+|**设置**|**说明**|**Default**|**了解更多信息**|
 |:-----|:-----|:-----|:-----|
 |域联盟  <br/> |与使用 Skype for Business Online 的其他组织通信。  <br/> |已启用  <br/> |[允许用户联系外部 Skype for Business 用户](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
 |公共 IM 连接  <br/> |与 Skype for Business Online 用户通信。  <br/> |已启用  <br/> |[允许用户联系外部 Skype for Business 用户](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
@@ -46,7 +47,7 @@ ms.locfileid: "23865594"
 ## <a name="skype-for-business-online-user-settings"></a>Skype for Business Online 用户设置
 <a name="__toc314837470"> </a>
 
-|**设置**|**说明**|**默认**|**了解更多信息**|
+|**设置**|**说明**|**Default**|**了解更多信息**|
 |:-----|:-----|:-----|:-----|
 |音频和视频  <br/> |进行音频和视频对话：使用 Skype for Business Online  <br/> |已启用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |录制  <br/> |录制呼叫和会议  <br/> |已启用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |

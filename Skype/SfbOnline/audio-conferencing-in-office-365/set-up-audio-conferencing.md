@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '了解如何设置电话拨入式或音频会议的人员在您的业务需要使用电话加入电话会议。 '
-ms.openlocfilehash: 64ebcb97157d94a5c25ddff38e8e1ca58d3975ec
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: d57eedec13d9bd1c01ec9365fd42c0a4dfdc2d96
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633295"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877187"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>为 for Business 的 Skype 设置音频会议
 
@@ -49,7 +49,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
     >[!NOTE] 
     > 包含在 Office 365 企业 E5 许可证和作为音频会议。
         
-2. 购买的音频会议许可证后，你需要将其分配给组织中打算安排或主持会议的那些人员。 请参阅[分配或删除业务的 Office 365 的许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)购买了您的组织中转到安排或负责人会议的人员。
+2. 购买的音频会议许可证后，您需要将其分配给您的组织中要安排或潜在顾客会议的人员。 请参阅[分配或删除业务的 Office 365 的许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)购买了您的组织中转到安排或负责人会议的人员。
     
 3. 我们还建议你将通信点数许可证（它们不值什么钱）分配给你在上一步骤中分配到许可证的相同人员。 若要了解如何设置 Communications 字幕式，请参阅[设置为您的组织的通信字幕式](/microsoftteams/set-up-communications-credits-for-your-organization)。
     

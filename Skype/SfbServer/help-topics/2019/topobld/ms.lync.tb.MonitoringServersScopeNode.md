@@ -1,5 +1,6 @@
 ---
 title: 监控服务器范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 监控服务器节点列出了监控服务器拓扑中。 可以执行以下操作：
-ms.openlocfilehash: fcb72dcbcbca0c2242785aaec95d36006896e5f6
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 6b44ddd868bb530e76849b2653306665ef785d24
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057193"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877197"
 ---
 # <a name="monitoring-servers-scope-node"></a>监控服务器范围节点
  

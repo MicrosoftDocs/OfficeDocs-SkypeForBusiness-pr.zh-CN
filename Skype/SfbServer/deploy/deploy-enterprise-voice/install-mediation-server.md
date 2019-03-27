@@ -1,5 +1,6 @@
 ---
 title: 安装 Business Server Skype 中的中介服务器的文件
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: 摘要： 了解如何安装 Business Server Skype 中的中介服务器的文件。
-ms.openlocfilehash: 6cc10053c6ffc3667e8280a8aad4cb1ef300d490
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ab02655dc812815c79720d76c87bfefe91c90c73
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883539"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877536"
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>安装 Business Server Skype 中的中介服务器的文件
  

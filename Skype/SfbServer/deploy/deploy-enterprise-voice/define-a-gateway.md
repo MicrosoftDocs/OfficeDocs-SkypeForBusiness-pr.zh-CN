@@ -1,5 +1,6 @@
 ---
 title: 为业务服务器中 Skype 的拓扑生成器中定义网关
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: 摘要： 了解如何为业务服务器中 Skype 的拓扑生成器中定义 PSTN 网关。
-ms.openlocfilehash: 50c5dca09608f6b0ef9046109e434f3ccbbba0d3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 036c6805ab2c4821ee1bb0544b75553ab40c7100
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886794"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876318"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>为业务服务器中 Skype 的拓扑生成器中定义网关
  
@@ -58,10 +59,10 @@ ms.locfileid: "23886794"
 9. 在**关联的中介服务器端口**框中，键入中介服务器将用于来自网关的 SIP 消息的侦听端口。
     
     > [!NOTE]
-    > 使用多个业务服务器中 Skype 的中继支持，您可以定义多个 SIP 信号中介服务器与多个 PSTN 网关进行通信的端口。 定义中继时,**关联的中介服务器端口**必须在各自的协议允许中介服务器的侦听端口的范围内。 此端口范围为业务服务器和中介池定义 Skype 下。 右键单击感兴趣，中介服务器池，然后选择**编辑属性**。 在**侦听端口**字段中指定的端口范围。
+    > 使用多个业务服务器中 Skype 的中继支持，您可以定义多个 SIP 信号中介服务器与多个 PSTN 网关进行通信的端口。 定义中继时,**关联的中介服务器端口**必须在各自的协议允许中介服务器的侦听端口的范围内。 此端口范围为业务服务器和中介池定义 Skype 下。 右键单击感兴趣，中介服务器池，然后选择**编辑属性**。 Specify the port range in the **Listening ports** field.
   
-10. 确保您定义的对等方正在运行并使用指定的 FQDN 或 IP 地址。然后单击“完成”****。
+10. 确保您定义的对等方正在运行并使用指定的 FQDN 或 IP 地址。 然后单击“完成”****。
     
-11. 右键单击“**Skype for Business Server**”节点，然后单击“**发布拓扑**”。
+11. 右键单击“Skype for Business Server”**** 节点，然后单击“发布拓扑”****。
     
 

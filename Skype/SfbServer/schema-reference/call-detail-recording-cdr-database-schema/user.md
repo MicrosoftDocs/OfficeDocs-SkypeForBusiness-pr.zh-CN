@@ -1,5 +1,6 @@
 ---
 title: 用户视图
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,22 +10,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
-description: 用户视图存储有关已调用或数据库中具有记录的会话中涉及的用户信息。 在 Microsoft Lync Server 2013 引入了此视图。
-ms.openlocfilehash: 014b773a60cc053c0ec258c7dd853e31a590319c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 用户视图存储已参与呼叫或在数据库中包含记录的会话的用户的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
+ms.openlocfilehash: 9e631c101660e8f14bca25f019f5d991a0d9aadd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877641"
 ---
 # <a name="user-view"></a>用户视图
  
-用户视图存储有关已调用或数据库中具有记录的会话中涉及的用户信息。 在 Microsoft Lync Server 2013 引入了此视图。
+用户视图存储已参与呼叫或在数据库中包含记录的会话的用户的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
   
 |**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
-|用户 Id  <br/> |int  <br/> |识别该用户的唯一号码。  <br/> |
+|用户 Id  <br/> |int  <br/> |标识此用户的唯一编号。  <br/> |
 |UserUri  <br/> |nvarchar(450)  <br/> |用户的 Uri。  <br/> |
-|TenantKey  <br/> |唯一标识符  <br/> |用户的客户端。 [租户表](tenants.md)的详细信息，请参阅。 <br/> |
-|UriType  <br/> |nvarchar(256)  <br/> |用户 URI 类型。 [UriTypes 表](uritypes.md)的详细信息，请参阅。 <br/> |
+|TenantKey  <br/> |唯一标识符  <br/> |用户的租户。 请参阅[Tenants 表](tenants.md)的详细信息。 <br/> |
+|UriType  <br/> |nvarchar(256)  <br/> |用户 URI 类型。 请参阅[UriTypes 表](uritypes.md)的详细信息。 <br/> |
    
 

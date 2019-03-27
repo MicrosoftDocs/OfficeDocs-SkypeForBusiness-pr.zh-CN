@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Online 和 Exchange 本地之间配置 OAuth
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: 配置 OAuth 业务 online 本地 Exchange 和 Skype 之间的身份验证使 Skype 功能支持中所述的业务和 Exchange 集成功能。
-ms.openlocfilehash: fe1f6a56412706c658b2c686d2ca06d6a1b9e5d9
-ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
+ms.openlocfilehash: 6fbf6944ec1b7518311d8d7a0bd75ef3249a0142
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30684054"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876575"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>在 Skype for Business Online 和 Exchange 本地之间配置 OAuth
 

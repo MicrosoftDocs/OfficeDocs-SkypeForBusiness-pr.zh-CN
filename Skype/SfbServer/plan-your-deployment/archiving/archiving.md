@@ -1,5 +1,6 @@
 ---
 title: 规划存档中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 摘要： 阅读本主题可了解如何规划适用于业务 Server archiving Skype 中。
-ms.openlocfilehash: 352ef56b3030a28b6a039b6408becc24db5eced9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 164a3207153986e788a7db47b86014063e37e0e5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969009"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876519"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>规划存档中 Skype 业务服务器
  
@@ -177,7 +178,7 @@ Skype 业务服务器使用以下存档组件：
   
 - **Microsoft Exchange 存储**。 如果您选择 Exchange 集成选项，Skype 业务服务器内存中的所有用户驻留在 Exchange，且谁具有必须置于就地保留其邮箱的 Exchange 存储放存档的内容。 存档的数据存储在用户邮箱可恢复的项目文件夹，其中给用户，通常不可见，才可由具有 Exchange**发现管理**角色的用户搜索。 如果它将部署，Exchange 启用联合的搜索和发现，以及 SharePoint、。 有关存储、 保留和发现在 Exchange 存储的数据的详细信息，请参阅 Exchange 和 SharePoint 文档。
     
-- **Skype 业务服务器存档存储**。 如果您设置了 Skype 业务 Server 存档数据库，业务服务器存款不存档中的任何用户业务 Server 存档数据库的 Skype 的内容的 Skype 驻留在 Exchange 和谁不过其邮箱置于就地保留。 虽然此数据是不可搜索的，但可以采用可通过其他工具搜索的格式导出此数据。 有关导出存档数据库中存储数据的详细信息，请参阅[导出 Skype 业务服务器中的存档的数据](../../manage/archiving/export-archived-data.md)。
+- **Skype 业务服务器存档存储**。 如果您设置了 Skype 业务 Server 存档数据库，业务服务器存款不存档中的任何用户业务 Server 存档数据库的 Skype 的内容的 Skype 驻留在 Exchange 和谁不过其邮箱置于就地保留。 This data is not searchable, but it can be exported to formats that are searchable using other tools. 有关导出存档数据库中存储数据的详细信息，请参阅[导出 Skype 业务服务器中的存档的数据](../../manage/archiving/export-archived-data.md)。
     
 ## <a name="for-more-information"></a>有关详细信息
 

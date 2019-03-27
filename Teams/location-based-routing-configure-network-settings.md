@@ -16,23 +16,23 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67202207b5668022f4e0b33acc2d20f3c4abd7aa
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 60af1c90cd1dbd7855da7686950ffd135d1da5dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462705"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876765"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>为基于位置的路由配置网络设置
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
-如果您尚未进行，请阅读[Plan Location-Based 路由直接路由中](location-based-routing-plan.md)查看您需要执行其他步骤之前部署基于位置的路由的网络设置。
+如果您尚未进行，请阅读[Plan Location-Based 路由直接路由中](location-based-routing-plan.md)查看您需要执行其他步骤之后，配置基于位置的路由的网络设置。
 
 本文介绍如何配置基于位置的路由的网络设置。 在组织中部署电话系统直接路由后下, 一步步骤是创建和设置网络区域、 网络站点和网络子网。 若要完成本文中的步骤，您将需要一些熟悉 PowerShell cmdlet。 若要了解详细信息，请参阅[团队 PowerShell 概述](teams-powershell-overview.md)。
 
 ## <a name="define-network-regions"></a>定义网络区域
- 网络区域互连跨多个地理区域的网络的各个部分。 使用``New-CsTenantNetworkRegion``PowerShell cmdlet 定义网络区域。 请注意，``RegionID``参数是一个代表区域的 geography 并且没有依赖项或限制的逻辑名称和``CentralSite <site ID>``参数是可选的。 
+ 网络区域互连跨多个地理区域的网络的各个部分。 [新建 CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) cmdlet 用于定义网络区域。 请注意，RegionID 参数是逻辑名称，它代表区域的地理位置和已没有依赖项或限制和 CentralSite&lt;网站 ID&gt;参数是可选的。 
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -45,7 +45,7 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 
 ## <a name="define-network-sites"></a>定义网络站点
 
-使用``New-CsTenantNetworkSite``PowerShell cmdlet 定义网络站点。 
+[新建 CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) cmdlet 用于定义网络站点。 
 
 ```
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
@@ -64,7 +64,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 
 ## <a name="define-network-subnets"></a>定义网络子网
 
-使用``New-CsTenantNetworkSubnet``cmdlet，以定义网络子网，并将它们关联到网络站点。 每个内部子网只能与一个站点关联。 
+[新建 CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) cmdlet 用于定义网络子网，并将它们关联到网络站点。 每个内部子网只能与一个站点关联。 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
@@ -94,7 +94,7 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 ## <a name="define-external-subnets"></a>定义外部子网
-使用``New-CsTenantTrustedIPAddress``cmdlet，以定义外部子网，并将其分配到租户。 您可以定义任意的数量的子网租户。 
+[新建 CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) cmdlet 用于定义外部子网，并将其分配到租户。 您可以定义任意的数量的子网租户。 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```

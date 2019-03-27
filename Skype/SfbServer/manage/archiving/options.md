@@ -1,5 +1,6 @@
 ---
 title: 管理 Business Server Skype 中的存档选项
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
 description: 摘要： 了解如何配置的 Skype 业务服务器的存档选项。
-ms.openlocfilehash: 235a0170a4301e48caeae17b7315a174ca2c8aee
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: db0fbe113f38065e85419b05d39fd0176b5ba845
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993565"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877781"
 ---
 # <a name="manage-archiving-options-in-skype-for-business-server"></a>管理 Business Server Skype 中的存档选项
 
@@ -61,7 +62,7 @@ ms.locfileid: "20993565"
 
 |**Cmdlet**|**说明**|
 |:-----|:-----|
-|Get-csarchivingconfiguration  <br/> |返回有关组织的存档配置设置的信息。  <br/> |
-|New-csarchivingconfiguration  <br/> |创建一组新的即时消息 (IM) 设置，这些设置可用于启用或禁用 IM 会话的自动保存功能，也可用于阻止无法存档的任何即时消息。  <br/> |
-|Remove-csarchivingconfiguration  <br/> |删除指定的存档设置集合，存档设置可用于启用或禁用即时消息 (IM) 会话自动保存功能，以及选择性地阻止任何无法存档的即时消息。  <br/> |
-|Set-csarchivingconfiguration  <br/> |修改即时消息 (IM) 存档配置选项的现有集合。  <br/> |
+|Get-CsArchivingConfiguration  <br/> |返回有关组织的存档配置设置的信息。  <br/> |
+|New-CsArchivingConfiguration  <br/> |创建一组新的即时消息 (IM) 设置，这些设置可用于启用或禁用 IM 会话的自动保存功能，也可用于阻止无法存档的任何即时消息。  <br/> |
+|Remove-CsArchivingConfiguration  <br/> |删除指定的存档设置集合，存档设置可用于启用或禁用即时消息 (IM) 会话自动保存功能，以及选择性地阻止任何无法存档的即时消息。  <br/> |
+|Set-CsArchivingConfiguration  <br/> |修改即时消息 (IM) 存档配置选项的现有集合。  <br/> |
