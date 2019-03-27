@@ -1,5 +1,6 @@
 ---
 title: 用户查看或配置会议策略
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,19 +12,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 112c77cf-3625-4a97-a1a4-be6f3234cd53
-description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 85ce41cf773414b6c5030ab8a17cffa9009bac17
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+ms.openlocfilehash: c667c07b6e2b3ccc1953765e6670ae8f54e28609
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253081"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888897"
 ---
-# <a name="users-view-or-configure-conferencing-policy"></a><span data-ttu-id="642dd-104">用户： 查看或配置会议策略</span><span class="sxs-lookup"><span data-stu-id="642dd-104">Users: View or Configure Conferencing Policy</span></span>
+# <a name="users-view-or-configure-conferencing-policy"></a><span data-ttu-id="7a701-104">用户：查看或配置会议策略</span><span class="sxs-lookup"><span data-stu-id="7a701-104">Users: View or Configure Conferencing Policy</span></span>
 
-<span data-ttu-id="642dd-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="642dd-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="7a701-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="7a701-105">What do you want to do?</span></span> <span data-ttu-id="7a701-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="7a701-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="642dd-107">分配会议策略以修改用户的默认会议体验</span><span class="sxs-lookup"><span data-stu-id="642dd-107">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [<span data-ttu-id="7a701-107">分配会议策略以修改用户的默认会议体验</span><span class="sxs-lookup"><span data-stu-id="7a701-107">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
 
-<span data-ttu-id="642dd-108">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="642dd-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="7a701-108">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="7a701-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

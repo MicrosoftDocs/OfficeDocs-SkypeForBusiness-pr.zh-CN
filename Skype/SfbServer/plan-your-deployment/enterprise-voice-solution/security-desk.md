@@ -1,5 +1,6 @@
 ---
 title: 为业务服务器中 Skype 包括安全服务台
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,28 +14,28 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
 description: 规划如何将贵组织的安全服务台包含业务 Server 企业语音的 Skype E9-1-1 部署中。
-ms.openlocfilehash: 96c7342737b755338cd8456f26e7b3aa4b82884f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7f6f6fd861f49158e7801ada42052e287ade4f87
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881838"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884816"
 ---
-# <a name="include-the-security-desk-in-skype-for-business-server"></a><span data-ttu-id="519ba-103">为业务服务器中 Skype 包括安全服务台</span><span class="sxs-lookup"><span data-stu-id="519ba-103">Include the security desk in Skype for Business Server</span></span>
+# <a name="include-the-security-desk-in-skype-for-business-server"></a><span data-ttu-id="db839-103">为业务服务器中 Skype 包括安全服务台</span><span class="sxs-lookup"><span data-stu-id="db839-103">Include the security desk in Skype for Business Server</span></span>
  
-<span data-ttu-id="519ba-104">规划如何将贵组织的安全服务台包含业务 Server 企业语音的 Skype E9-1-1 部署中。</span><span class="sxs-lookup"><span data-stu-id="519ba-104">Planning how to include your organization's security desk in an E9-1-1 deployment, in Skype for Business Server Enterprise Voice.</span></span>
+<span data-ttu-id="db839-104">规划如何将贵组织的安全服务台包含业务 Server 企业语音的 Skype E9-1-1 部署中。</span><span class="sxs-lookup"><span data-stu-id="db839-104">Planning how to include your organization's security desk in an E9-1-1 deployment, in Skype for Business Server Enterprise Voice.</span></span>
   
-<span data-ttu-id="519ba-p101">公司可能要求安全服务台参与紧急呼叫。为帮助确定如何将安全服务台集成到 E9-1-1 部署，应回答以下问题。</span><span class="sxs-lookup"><span data-stu-id="519ba-p101">Your company may require the security desk to become involved in an emergency call. To help decide how to integrate the Security Desk into you E9-1-1 deployment, you should answer the following questions.</span></span>
+<span data-ttu-id="db839-p101">公司可能要求安全服务台参与紧急呼叫。为帮助确定如何将安全服务台集成到 E9-1-1 部署，应回答以下问题。</span><span class="sxs-lookup"><span data-stu-id="db839-p101">Your company may require the security desk to become involved in an emergency call. To help decide how to integrate the Security Desk into you E9-1-1 deployment, you should answer the following questions.</span></span>
   
-<span data-ttu-id="519ba-107">**发出紧急呼叫时，是否希望通知安全服务台？**</span><span class="sxs-lookup"><span data-stu-id="519ba-107">**Do you want the security desk to be notified when there is an emergency call?**</span></span>
+<span data-ttu-id="db839-107">**发出紧急呼叫时，是否希望通知安全服务台？**</span><span class="sxs-lookup"><span data-stu-id="db839-107">**Do you want the security desk to be notified when there is an emergency call?**</span></span>
   
-<span data-ttu-id="519ba-108">您可以配置位置策略，以便 Skype 业务服务器向一个或多个安全人员业务 SIP 地址 Skype 发送即时消息 (IM) 通知。</span><span class="sxs-lookup"><span data-stu-id="519ba-108">You can configure the location policy so that Skype for Business Server sends instant messaging (IM) alerts to the Skype for Business SIP addresses of one or more security personnel.</span></span> <span data-ttu-id="519ba-109">这些警报包含拨打紧急呼叫的人员的姓名、号码和位置，并可在紧急情况下实现安全性。</span><span class="sxs-lookup"><span data-stu-id="519ba-109">These alerts contain the name, number, and location of the person placing the emergency call, and facilitate security personnel in assisting with the emergency situation.</span></span>
+<span data-ttu-id="db839-108">您可以配置位置策略，以便 Skype 业务服务器向一个或多个安全人员业务 SIP 地址 Skype 发送即时消息 (IM) 通知。</span><span class="sxs-lookup"><span data-stu-id="db839-108">You can configure the location policy so that Skype for Business Server sends instant messaging (IM) alerts to the Skype for Business SIP addresses of one or more security personnel.</span></span> <span data-ttu-id="db839-109">这些警报包含拨打紧急呼叫的人员的姓名、号码和位置，并可在紧急情况下实现安全性。</span><span class="sxs-lookup"><span data-stu-id="db839-109">These alerts contain the name, number, and location of the person placing the emergency call, and facilitate security personnel in assisting with the emergency situation.</span></span>
     
-<span data-ttu-id="519ba-110">**是否要在发出每个紧急呼叫时通知安全服务台？**</span><span class="sxs-lookup"><span data-stu-id="519ba-110">**Do you want to conference the security desk in on each emergency call?**</span></span>
+<span data-ttu-id="db839-110">**是否要在发出每个紧急呼叫时通知安全服务台？**</span><span class="sxs-lookup"><span data-stu-id="db839-110">**Do you want to conference the security desk in on each emergency call?**</span></span>
   
-<span data-ttu-id="519ba-p103">如果紧急服务服务提供商支持，可以将位置策略配置为在每个紧急呼叫中包含回拨号码。提供商随后使用此号码通知组织的安全人员参加有关紧急呼叫的会议。可在位置策略中将此会议配置为单向（仅侦听）或双向（双向）。</span><span class="sxs-lookup"><span data-stu-id="519ba-p103">If supported by the emergency services service provider, you can configure the location policy to include a callback number with each emergency call. This number is then used by the provider to conference your organization's security personnel into emergency calls. This conferencing can be configured in the location policy to be one-way (listen-only) or two-way (bidirectional).</span></span>
+<span data-ttu-id="db839-p103">如果紧急服务服务提供商支持，可以将位置策略配置为在每个紧急呼叫中包含回拨号码。提供商随后使用此号码通知组织的安全人员参加有关紧急呼叫的会议。可在位置策略中将此会议配置为单向（仅侦听）或双向（双向）。</span><span class="sxs-lookup"><span data-stu-id="db839-p103">If supported by the emergency services service provider, you can configure the location policy to include a callback number with each emergency call. This number is then used by the provider to conference your organization's security personnel into emergency calls. This conferencing can be configured in the location policy to be one-way (listen-only) or two-way (bidirectional).</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="519ba-p104">如果需要，可针对每个位置策略配置不同的紧急服务人员。这允许您为公司内的不同区域自定义响应，或为来自与网络外部相对的网络内部的紧急呼叫创建不同的行为。您可使用通讯组指定要通知的人员。</span><span class="sxs-lookup"><span data-stu-id="519ba-p104">If desired, you can configure different emergency personnel for each location policy. This allows you to customize the response for different areas within your company, or create different behavior for emergency calls that originate from inside as opposed to outside the network. You can use distribution groups to specify the personnel you want to notify.</span></span> 
+> <span data-ttu-id="db839-p104">如果需要，可针对每个位置策略配置不同的紧急服务人员。这允许您为公司内的不同区域自定义响应，或为来自与网络外部相对的网络内部的紧急呼叫创建不同的行为。您可使用通讯组指定要通知的人员。</span><span class="sxs-lookup"><span data-stu-id="db839-p104">If desired, you can configure different emergency personnel for each location policy. This allows you to customize the response for different areas within your company, or create different behavior for emergency calls that originate from inside as opposed to outside the network. You can use distribution groups to specify the personnel you want to notify.</span></span> 
   
 

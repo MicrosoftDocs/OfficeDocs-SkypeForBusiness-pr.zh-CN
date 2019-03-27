@@ -1,5 +1,6 @@
 ---
 title: 配置网络区域链接创建新的或编辑现有的
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 3fa2ee9effcbdbfd9894375cb3cea2bd42a72daa
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+ms.openlocfilehash: ac0ce6806f89832507946b8f0d1b1ee4b149f5dd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260648"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892016"
 ---
-# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a><span data-ttu-id="ae8eb-104">配置网络区域链接： 创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="ae8eb-104">Configure a Network Region Link: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a><span data-ttu-id="7ab88-104">配置网络区域链接：创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="7ab88-104">Configure a Network Region Link: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="ae8eb-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="ae8eb-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="7ab88-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="7ab88-105">What do you want to do?</span></span> <span data-ttu-id="7ab88-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="7ab88-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="ae8eb-107">配置网络区域链接</span><span class="sxs-lookup"><span data-stu-id="ae8eb-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+- [<span data-ttu-id="7ab88-107">配置网络区域链接</span><span class="sxs-lookup"><span data-stu-id="7ab88-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
 
 
 
