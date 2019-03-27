@@ -1,5 +1,6 @@
 ---
 title: 配置网络区域路由
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35c1511f-8143-4893-a91c-5bc7c18ec0bf
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: fa6c14eea9937faeda5bf3e7eba5621d7c793a31
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+ms.openlocfilehash: 762d9da3372b7b34754cc621a019b5f76dcc2082
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248979"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885660"
 ---
-# <a name="configure-a-network-region-route"></a><span data-ttu-id="82426-104">配置网络区域路由</span><span class="sxs-lookup"><span data-stu-id="82426-104">Configure a Network Region Route</span></span>
+# <a name="configure-a-network-region-route"></a><span data-ttu-id="13d8e-104">配置网络区域路由</span><span class="sxs-lookup"><span data-stu-id="13d8e-104">Configure a Network Region Route</span></span>
 
-<span data-ttu-id="82426-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="82426-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="13d8e-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="13d8e-105">What do you want to do?</span></span> <span data-ttu-id="13d8e-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="13d8e-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="82426-107">配置网络区域路由</span><span class="sxs-lookup"><span data-stu-id="82426-107">Configuring Network Region Routes</span></span>](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
+- [<span data-ttu-id="13d8e-107">配置网络区域路由</span><span class="sxs-lookup"><span data-stu-id="13d8e-107">Configuring Network Region Routes</span></span>](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
 
 
 

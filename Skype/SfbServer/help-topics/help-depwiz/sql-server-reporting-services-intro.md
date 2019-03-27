@@ -1,5 +1,6 @@
 ---
-title: SQL Server Reporting Services （简介）
+title: SQL Server Reporting Services（简介）
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 description: 每个前端池和 Survivable Branch Appliance 只能有一个与之关联的监控服务器。 启用对网站的监控后，监控服务器会提供呼叫详细信息记录 (CDR) 和用户体验质量 (QoE) 数据收集和报告。
-ms.openlocfilehash: 791277e218f070dbe9c679a0dfaa744034cae25b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: acbaa205472cacad13c32086b2e93017c8b9dcec
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21018510"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890858"
 ---
-# <a name="sql-server-reporting-services-intro"></a><span data-ttu-id="29b5c-104">SQL Server Reporting Services （简介）</span><span class="sxs-lookup"><span data-stu-id="29b5c-104">SQL Server Reporting Services (Intro)</span></span>
+# <a name="sql-server-reporting-services-intro"></a><span data-ttu-id="e5bf4-104">SQL Server Reporting Services（简介）</span><span class="sxs-lookup"><span data-stu-id="e5bf4-104">SQL Server Reporting Services (Intro)</span></span>
  
-<span data-ttu-id="29b5c-105">每个前端池和 Survivable Branch Appliance 只能有一个与之关联的监控服务器。</span><span class="sxs-lookup"><span data-stu-id="29b5c-105">Each Front End pool and Survivable Branch Appliance can have only one Monitoring Server associated with it.</span></span> <span data-ttu-id="29b5c-106">启用对网站的监控后，监控服务器会提供呼叫详细信息记录 (CDR) 和用户体验质量 (QoE) 数据收集和报告。</span><span class="sxs-lookup"><span data-stu-id="29b5c-106">When monitoring is enabled for the site, Monitoring Server provides call detail recording (CDR) and Quality of Experience (QoE) data collection and reporting.</span></span>
+<span data-ttu-id="e5bf4-105">每个前端池和 Survivable Branch Appliance 只能有一个与之关联的监控服务器。</span><span class="sxs-lookup"><span data-stu-id="e5bf4-105">Each Front End pool and Survivable Branch Appliance can have only one Monitoring Server associated with it.</span></span> <span data-ttu-id="e5bf4-106">启用对网站的监控后，监控服务器会提供呼叫详细信息记录 (CDR) 和用户体验质量 (QoE) 数据收集和报告。</span><span class="sxs-lookup"><span data-stu-id="e5bf4-106">When monitoring is enabled for the site, Monitoring Server provides call detail recording (CDR) and Quality of Experience (QoE) data collection and reporting.</span></span>
   
-<span data-ttu-id="29b5c-107">在站点的所有池和多个中央站点的池可以使用相同的监控服务器，如果使用量不超过监控服务器的容量。</span><span class="sxs-lookup"><span data-stu-id="29b5c-107">All pools at a site and the pools of multiple central sites can use the same Monitoring Server, if usage does not exceed the capacity of the Monitoring Server.</span></span> <span data-ttu-id="29b5c-108">设计拓扑以支持监控详细信息，请参阅部署文档中的[关联监控存储与 Skype 的业务服务器 2015年中前端池](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)。</span><span class="sxs-lookup"><span data-stu-id="29b5c-108">For details about designing a topology to support monitoring, see [Associate a monitoring store with a Front End pool in Skype for Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="e5bf4-107">在站点的所有池和多个中央站点的池可以使用相同的监控服务器，如果使用量不超过监控服务器的容量。</span><span class="sxs-lookup"><span data-stu-id="e5bf4-107">All pools at a site and the pools of multiple central sites can use the same Monitoring Server, if usage does not exceed the capacity of the Monitoring Server.</span></span> <span data-ttu-id="e5bf4-108">设计拓扑以支持监控详细信息，请参阅部署文档中的[关联监控存储与 Skype 的业务服务器 2015年中前端池](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)。</span><span class="sxs-lookup"><span data-stu-id="e5bf4-108">For details about designing a topology to support monitoring, see [Associate a monitoring store with a Front End pool in Skype for Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md) in the Deployment documentation.</span></span>
   
 

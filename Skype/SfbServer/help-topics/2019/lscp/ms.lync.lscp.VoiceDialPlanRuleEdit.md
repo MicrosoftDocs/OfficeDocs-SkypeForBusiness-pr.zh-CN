@@ -1,5 +1,6 @@
 ---
 title: 创建新的或编辑现有的规范化规则
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 8606d4d3247aad6efbcc85a6567718feab83e915
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+ms.openlocfilehash: 5edc9a7679c58d35a461698951c77dd9def42408
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23262139"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890176"
 ---
-# <a name="normalization-rule-create-new-or-edit-existing"></a><span data-ttu-id="600b0-104">规范化规则： 创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="600b0-104">Normalization Rule: Create New or Edit Existing</span></span>
+# <a name="normalization-rule-create-new-or-edit-existing"></a><span data-ttu-id="cf098-104">规范化规则：创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="cf098-104">Normalization Rule: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="600b0-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="600b0-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="cf098-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="cf098-105">What do you want to do?</span></span> <span data-ttu-id="cf098-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="cf098-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="600b0-107">创建或修改规范化规则中的业务的 Skype</span><span class="sxs-lookup"><span data-stu-id="600b0-107">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [<span data-ttu-id="cf098-107">创建或修改规范化规则中的业务的 Skype</span><span class="sxs-lookup"><span data-stu-id="cf098-107">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [<span data-ttu-id="600b0-108">手动创建或修改规范化规则</span><span class="sxs-lookup"><span data-stu-id="600b0-108">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [<span data-ttu-id="cf098-108">手动创建或修改规范化规则</span><span class="sxs-lookup"><span data-stu-id="cf098-108">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 
 
 

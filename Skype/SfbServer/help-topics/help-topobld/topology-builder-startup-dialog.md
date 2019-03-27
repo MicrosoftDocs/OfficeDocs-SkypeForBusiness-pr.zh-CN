@@ -1,5 +1,6 @@
 ---
 title: 拓扑生成器启动对话框
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,27 +13,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 启动拓扑生成器配置的属性和 Microsoft Lync Server 2013 部署的配置。 在启动时，拓扑生成器显示一个对话框，询问将哪些拓扑文档的来源。 您选择三个选项之一：
-ms.openlocfilehash: 5140c16f96b641dec74cb6919571365a7751ae0b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: df784ea76497cb038eb46f929844662066a298aa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260823"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891093"
 ---
-# <a name="topology-builder-startup-dialog"></a><span data-ttu-id="3afc3-105">拓扑生成器启动对话框</span><span class="sxs-lookup"><span data-stu-id="3afc3-105">Topology Builder Startup Dialog</span></span>
+# <a name="topology-builder-startup-dialog"></a><span data-ttu-id="0fc2d-105">拓扑生成器启动对话框</span><span class="sxs-lookup"><span data-stu-id="0fc2d-105">Topology Builder Startup Dialog</span></span>
 
-<span data-ttu-id="3afc3-106">启动拓扑生成器配置的属性和 Microsoft Lync Server 2013 部署的配置。</span><span class="sxs-lookup"><span data-stu-id="3afc3-106">You start Topology Builder to configure the properties and configuration of your Microsoft Lync Server 2013 deployment.</span></span> <span data-ttu-id="3afc3-107">在启动时，拓扑生成器显示一个对话框，询问将哪些拓扑文档的来源。</span><span class="sxs-lookup"><span data-stu-id="3afc3-107">On startup, Topology Builder displays a dialog that asks what the source of the topology document will be.</span></span> <span data-ttu-id="3afc3-108">您选择三个选项之一：</span><span class="sxs-lookup"><span data-stu-id="3afc3-108">You select one of three options:</span></span>
+<span data-ttu-id="0fc2d-106">启动拓扑生成器配置的属性和 Microsoft Lync Server 2013 部署的配置。</span><span class="sxs-lookup"><span data-stu-id="0fc2d-106">You start Topology Builder to configure the properties and configuration of your Microsoft Lync Server 2013 deployment.</span></span> <span data-ttu-id="0fc2d-107">在启动时，拓扑生成器显示一个对话框，询问将哪些拓扑文档的来源。</span><span class="sxs-lookup"><span data-stu-id="0fc2d-107">On startup, Topology Builder displays a dialog that asks what the source of the topology document will be.</span></span> <span data-ttu-id="0fc2d-108">您选择三个选项之一：</span><span class="sxs-lookup"><span data-stu-id="0fc2d-108">You select one of three options:</span></span>
 
-- <span data-ttu-id="3afc3-109">**从现有部署下载拓扑**如果您已运行拓扑生成器并已成功发布到中央管理服务器拓扑，请选择此选项。</span><span class="sxs-lookup"><span data-stu-id="3afc3-109">**Download Topology from existing deployment** Select this option if you have run Topology Builder and have successfully published your topology to the Central Management Server.</span></span> <span data-ttu-id="3afc3-110">此选项请求和下载的当前配置，从而使您可以编辑和配置现有部署的本地副本。</span><span class="sxs-lookup"><span data-stu-id="3afc3-110">This option requests and downloads a local copy of the current configuration, allowing you to edit and configure the existing deployment.</span></span>
+- <span data-ttu-id="0fc2d-109">**从现有部署下载拓扑**如果您已运行拓扑生成器并已成功发布到中央管理服务器拓扑，请选择此选项。</span><span class="sxs-lookup"><span data-stu-id="0fc2d-109">**Download Topology from existing deployment** Select this option if you have run Topology Builder and have successfully published your topology to the Central Management Server.</span></span> <span data-ttu-id="0fc2d-110">此选项请求和下载的当前配置，从而使您可以编辑和配置现有部署的本地副本。</span><span class="sxs-lookup"><span data-stu-id="0fc2d-110">This option requests and downloads a local copy of the current configuration, allowing you to edit and configure the existing deployment.</span></span>
 
-- <span data-ttu-id="3afc3-111">**从本地文件打开拓扑**如果您配置的是部署，但尚未发布配置，请选择此选项。</span><span class="sxs-lookup"><span data-stu-id="3afc3-111">**Open Topology from a local file** Select this option if you are configuring a deployment but have not yet published the configuration.</span></span> <span data-ttu-id="3afc3-112">此选项允许您在拓扑生成器中保存的配置工作的本地副本和回到其在以后的时间。</span><span class="sxs-lookup"><span data-stu-id="3afc3-112">This option allows you to save a local copy of the configuration work in Topology Builder and come back to it at a later time.</span></span>
+- <span data-ttu-id="0fc2d-111">**从本地文件打开拓扑**如果您配置的是部署，但尚未发布配置，请选择此选项。</span><span class="sxs-lookup"><span data-stu-id="0fc2d-111">**Open Topology from a local file** Select this option if you are configuring a deployment but have not yet published the configuration.</span></span> <span data-ttu-id="0fc2d-112">此选项允许您在拓扑生成器中保存的配置工作的本地副本和回到其在以后的时间。</span><span class="sxs-lookup"><span data-stu-id="0fc2d-112">This option allows you to save a local copy of the configuration work in Topology Builder and come back to it at a later time.</span></span>
 
-- <span data-ttu-id="3afc3-113">**新的拓扑**选择此选项以开始新拓扑文档的配置。</span><span class="sxs-lookup"><span data-stu-id="3afc3-113">**New Topology** Select this option to begin the configuration of a new topology document.</span></span> <span data-ttu-id="3afc3-114">此选项可打开一个新的拓扑文档的配置以满足您将配置的部署要求。</span><span class="sxs-lookup"><span data-stu-id="3afc3-114">This option opens a new topology document that you configure to meet the requirements for the deployment that you will configure.</span></span>
+- <span data-ttu-id="0fc2d-113">**新的拓扑**选择此选项以开始新拓扑文档的配置。</span><span class="sxs-lookup"><span data-stu-id="0fc2d-113">**New Topology** Select this option to begin the configuration of a new topology document.</span></span> <span data-ttu-id="0fc2d-114">此选项可打开一个新的拓扑文档的配置以满足您将配置的部署要求。</span><span class="sxs-lookup"><span data-stu-id="0fc2d-114">This option opens a new topology document that you configure to meet the requirements for the deployment that you will configure.</span></span>
 
 ![拓扑生成器启动对话框](../../media/Topology_Builder_Startup_Dialog.jpg)
 
-## <a name="see-also"></a><span data-ttu-id="3afc3-116">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3afc3-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0fc2d-116">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0fc2d-116">See also</span></span>
 
-[<span data-ttu-id="3afc3-117">Lync Server 2013 Preview 简介</span><span class="sxs-lookup"><span data-stu-id="3afc3-117">Introduction to Lync Server 2013 Preview</span></span>](https://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
+[<span data-ttu-id="0fc2d-117">Lync Server 2013 Preview 简介</span><span class="sxs-lookup"><span data-stu-id="0fc2d-117">Introduction to Lync Server 2013 Preview</span></span>](https://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
 
-[<span data-ttu-id="3afc3-118">Lync Server 管理工具</span><span class="sxs-lookup"><span data-stu-id="3afc3-118">Lync Server Administrative Tools</span></span>](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)
+[<span data-ttu-id="0fc2d-118">Lync Server Administrative Tools</span><span class="sxs-lookup"><span data-stu-id="0fc2d-118">Lync Server Administrative Tools</span></span>](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)

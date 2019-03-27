@@ -1,5 +1,6 @@
 ---
 title: 混合向导编辑权限的用户
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,16 +12,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
-description: 使用“编辑用户”向导修改您的部署中的用户帐户。 有关详细信息，请参阅使用混合可管理性向导。
-ms.openlocfilehash: fb38d0626e8594cf2263bd07ec7b857ca4271f0a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 使用“编辑用户”向导修改您的部署中的用户帐户。 有关更多信息，请参阅Use the Hybrid Manageability wizard。
+ms.openlocfilehash: d2ab65d40595828ba979f9d046ab584bad16d97c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256264"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885667"
 ---
-# <a name="hybrid-wizard-edit-users"></a><span data-ttu-id="89062-104">混合向导：编辑用户</span><span class="sxs-lookup"><span data-stu-id="89062-104">Hybrid Wizard: Edit Users</span></span>
+# <a name="hybrid-wizard-edit-users"></a><span data-ttu-id="49ae6-104">混合向导：编辑用户</span><span class="sxs-lookup"><span data-stu-id="49ae6-104">Hybrid Wizard: Edit Users</span></span>
 
-<span data-ttu-id="89062-105">使用“编辑用户”向导修改您的部署中的用户帐户。</span><span class="sxs-lookup"><span data-stu-id="89062-105">Use the Edit Users wizard to modify the user accounts in your deployment.</span></span> <span data-ttu-id="89062-106">有关详细信息，请参阅[使用混合可管理性向导](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)。</span><span class="sxs-lookup"><span data-stu-id="89062-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
+<span data-ttu-id="49ae6-p102">使用“编辑用户”向导修改您的部署中的用户帐户。有关更多信息，请参阅[Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)。</span><span class="sxs-lookup"><span data-stu-id="49ae6-p102">Use the Edit Users wizard to modify the user accounts in your deployment. For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
 
 

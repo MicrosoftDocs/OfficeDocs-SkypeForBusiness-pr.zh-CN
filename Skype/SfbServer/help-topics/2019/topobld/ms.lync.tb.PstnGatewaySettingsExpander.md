@@ -1,5 +1,6 @@
 ---
 title: PSTN 网关设置扩展器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,23 +13,23 @@ localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要编辑或修改公用电话交换网 (PSTN) 网关的设置，请修改以下字段：
-ms.openlocfilehash: 6b23d419b12fcb13dc5de07e550fbedd3a866ab5
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 45b3945a811a2e9c9b5d1c0cce805c78368c9a70
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21058334"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888236"
 ---
-# <a name="pstn-gateway-settings-expander"></a><span data-ttu-id="b41f9-103">PSTN 网关设置扩展器</span><span class="sxs-lookup"><span data-stu-id="b41f9-103">PSTN Gateway Settings Expander</span></span>
+# <a name="pstn-gateway-settings-expander"></a><span data-ttu-id="8d7dc-103">PSTN 网关设置扩展器</span><span class="sxs-lookup"><span data-stu-id="8d7dc-103">PSTN Gateway Settings Expander</span></span>
  
-<span data-ttu-id="b41f9-104">若要编辑或修改公用电话交换网 (PSTN) 网关的设置，请修改以下字段：</span><span class="sxs-lookup"><span data-stu-id="b41f9-104">To edit or modify the settings for a public switched telephone network (PSTN) gateway, modify the following fields:</span></span>
+<span data-ttu-id="8d7dc-104">若要编辑或修改公用电话交换网 (PSTN) 网关的设置，请修改以下字段：</span><span class="sxs-lookup"><span data-stu-id="8d7dc-104">To edit or modify the settings for a public switched telephone network (PSTN) gateway, modify the following fields:</span></span>
   
-<span data-ttu-id="b41f9-105">网关 FQDN 或 IP 地址是必需条目，按照域名系统 (DNS) 主机 (A) 记录、静态 HOSTS 文件条目或 PSTN 网关的 IP 地址的定义，定义 PSTN 网关的“**完全限定域名 (FQDN)**”。</span><span class="sxs-lookup"><span data-stu-id="b41f9-105">Gateway FQDN or IP Address is a required entry and defines wither the **Fully qualified domain name (FQDN)** of the PSTN gateway as defined by a Domain Name System (DNS) host (A) record, a static HOSTS file entry, or by the IP address of the PSTN gateway.</span></span>
+<span data-ttu-id="8d7dc-105">网关 FQDN 或 IP 地址是必需条目，按照域名系统 (DNS) 主机 (A) 记录、静态 HOSTS 文件条目或 PSTN 网关的 IP 地址的定义，定义 PSTN 网关的“**完全限定域名 (FQDN)**”。</span><span class="sxs-lookup"><span data-stu-id="8d7dc-105">Gateway FQDN or IP Address is a required entry and defines wither the **Fully qualified domain name (FQDN)** of the PSTN gateway as defined by a Domain Name System (DNS) host (A) record, a static HOSTS file entry, or by the IP address of the PSTN gateway.</span></span>
   
-<span data-ttu-id="b41f9-p101">SIP 传输协议可以是传输控制协议 (TCP)，也可以是传输层安全性 (TLS)。TLS 为默认选项。有关网关所支持的选项，请参考网关供应商文档。默认为 TLS，且如果网关支持 TLS，则应将其视为更安全的选择。</span><span class="sxs-lookup"><span data-stu-id="b41f9-p101">The SIP Transport Protocol can either be Transmission Control Protocol (TCP) or Transport Layer Security (TLS). TLS is the default. Refer to the gateway vendor documentation for what you gateway supports. The default is TLS, and should be considered the more secure selection, if the gateway supports TLS.</span></span>
+<span data-ttu-id="8d7dc-p101">SIP 传输协议可以是传输控制协议 (TCP)，也可以是传输层安全性 (TLS)。TLS 为默认选项。有关网关所支持的选项，请参考网关供应商文档。默认为 TLS，且如果网关支持 TLS，则应将其视为更安全的选择。</span><span class="sxs-lookup"><span data-stu-id="8d7dc-p101">The SIP Transport Protocol can either be Transmission Control Protocol (TCP) or Transport Layer Security (TLS). TLS is the default. Refer to the gateway vendor documentation for what you gateway supports. The default is TLS, and should be considered the more secure selection, if the gateway supports TLS.</span></span>
   
-<span data-ttu-id="b41f9-110">选择是否为网关启用 IPv4 和 IPv6。</span><span class="sxs-lookup"><span data-stu-id="b41f9-110">Select whether to enable IPv4 and IPv6 for the gateway.</span></span>
+<span data-ttu-id="8d7dc-110">选择是否为网关启用 IPv4 和 IPv6。</span><span class="sxs-lookup"><span data-stu-id="8d7dc-110">Select whether to enable IPv4 and IPv6 for the gateway.</span></span>
   
-<span data-ttu-id="b41f9-111">**备用媒体 IP 地址**是中介服务器部署的 PSTN 网关有比通常专门用于 SIP 通信的默认配置 IP 地址的媒体流量的不同 IP 地址的定义。</span><span class="sxs-lookup"><span data-stu-id="b41f9-111">The **Alternate media IP address** is a definition for the Mediation Server for which the deployed PSTN gateway has a different IP address for media traffic than the default configured IP address, which is typically dedicated for SIP traffic.</span></span> <span data-ttu-id="b41f9-112">如果定义此参数，则 PSTN 网关为媒体提供不同的网络接口或路径支持。</span><span class="sxs-lookup"><span data-stu-id="b41f9-112">If you define this parameter, then the PSTN gateway supports a different supports a different network interface or path for media.</span></span> <span data-ttu-id="b41f9-113">如果此地址留空，则 PSTN 网关不支持媒体的备用路径。</span><span class="sxs-lookup"><span data-stu-id="b41f9-113">If this address is left blank, then the PSTN gateway does not support the alternate path for media.</span></span>
+<span data-ttu-id="8d7dc-111">**备用媒体 IP 地址**是中介服务器部署的 PSTN 网关有比通常专门用于 SIP 通信的默认配置 IP 地址的媒体流量的不同 IP 地址的定义。</span><span class="sxs-lookup"><span data-stu-id="8d7dc-111">The **Alternate media IP address** is a definition for the Mediation Server for which the deployed PSTN gateway has a different IP address for media traffic than the default configured IP address, which is typically dedicated for SIP traffic.</span></span> <span data-ttu-id="8d7dc-112">如果定义此参数，则 PSTN 网关为媒体提供不同的网络接口或路径支持。</span><span class="sxs-lookup"><span data-stu-id="8d7dc-112">If you define this parameter, then the PSTN gateway supports a different supports a different network interface or path for media.</span></span> <span data-ttu-id="8d7dc-113">如果此地址留空，则 PSTN 网关不支持媒体的备用路径。</span><span class="sxs-lookup"><span data-stu-id="8d7dc-113">If this address is left blank, then the PSTN gateway does not support the alternate path for media.</span></span>
   
 
