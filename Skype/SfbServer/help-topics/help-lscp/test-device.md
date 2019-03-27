@@ -1,5 +1,6 @@
 ---
 title: 测试设备
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 description: 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在全局范围（在整个环境中）或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 如果添加设备时，它显示在 Skype 测试设备页上的列表的业务 Server Control Panel。
-ms.openlocfilehash: 4a410a5f82c346d88520e7e56f5bf6bf5150480c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 09a087b9ae370a9ae04265161351df2c32a71d59
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257106"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888194"
 ---
 # <a name="test-device"></a>测试设备
 
@@ -51,7 +52,7 @@ ms.locfileid: "23257106"
 
 - **刷新**您可以刷新测试设备列表以验证所有测试设备的选项的状态。
 
-有关测试设备的详细信息，请参阅操作文档中的[Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) 。
+有关测试设备的详细信息，请参阅操作文档中的[Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx)。
 ## <a name="see-also"></a>另请参阅
 
 [测试设备：创建新的或编辑现有的](test-device-create-new-or-edit-existing.md)

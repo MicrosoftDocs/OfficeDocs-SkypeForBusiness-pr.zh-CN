@@ -1,5 +1,6 @@
 ---
 title: 配置观察程序节点测试用户和设置
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 摘要： 配置测试用户帐户和业务服务器综合事务的 Skype 的观察程序节点设置。
-ms.openlocfilehash: 257814108a276d049ed4ac9173fde6dfa4473ff2
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 121e07d8bee20bef1b8fd4b06e51cf0313c018d0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789389"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895214"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>配置观察程序节点测试用户和设置
  
@@ -202,7 +203,7 @@ Get-CsWatcherNodeConfiguration
   
 标识： atl-cs-001.litwareinc.com <br/>
 TestUsers: {sip:watcher1@litwareinc.com，sip:watcher2@litwareinc.com...}<br/>
-ExtendedTests: {TestUsers = IList < System.String >;名称 = PSTN 测试;Te...}<br/>
+ExtendedTests: {TestUsers=IList<System.String>;名称 = PSTN 测试;Te...}<br/>
 TargetFqdn: atl-cs-001.litwareinc.com<br/>
 端口号： 5061<br/>
 

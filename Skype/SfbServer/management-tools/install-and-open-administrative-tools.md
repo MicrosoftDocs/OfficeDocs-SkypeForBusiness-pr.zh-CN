@@ -1,5 +1,6 @@
 ---
 title: 安装和打开管理工具
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本主题介绍如何安装和打开所需部署和管理 for Business 的 Skype 的管理工具。
-ms.openlocfilehash: a27f16ab72d8fcdd4a5c440909dfb40baadd2572
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 260d84f071558ff54511b8650868db3ebb56abcb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223162"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899475"
 ---
 # <a name="install-and-open-administrative-tools"></a>安装和打开管理工具
 
