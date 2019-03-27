@@ -1,5 +1,6 @@
 ---
 title: 规划视频互操作性中的服务器 Skype 业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: 摘要： 查看 while planning to 将 Skype 与第三方电话会议设备集成业务服务器本主题。
-ms.openlocfilehash: c4308b27371c9e0da312eee0fa5c52602674c45c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 015f93496879e84c1959db7d6b46b765e0d286e1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975632"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894250"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>规划视频互操作性中的服务器 Skype 业务服务器
  
 **摘要：** While planning to 将 Skype 与第三方电话会议设备集成业务服务器查看以下主题。
   
-Skype 业务服务器现在可以使用某些第三方 VTC （视频电话会议系统） 解决方案的集成。 启用此视频会议的互操作性的新服务器角色是视频互操作服务器 (VIS)，其当前作为独立服务器角色仅适用于本地安装实现。 VIS 作为中介的第三方电话会议系统和 Skype 业务服务器部署。 对于此版本，VIS 着重实现了与 Cisco/Tandberg 视频系统之间的互操作性。 查看此文，确定是否业务服务器安装在您 Skype 中使用此功能。
+Skype 业务服务器现在可以使用某些第三方 VTC （视频电话会议系统） 解决方案的集成。 启用此视频会议的互操作性的新服务器角色是视频互操作服务器 (VIS)，其当前作为独立服务器角色仅适用于本地安装实现。 VIS 作为中介的第三方电话会议系统和 Skype 业务服务器部署。 对于此版本，VIS 专用于实现与 Cisco/Tandberg 视频系统之间的互操作性。 查看此文，确定是否业务服务器安装在您 Skype 中使用此功能。
   
 ## <a name="device-interoperability"></a>设备互操作性
 

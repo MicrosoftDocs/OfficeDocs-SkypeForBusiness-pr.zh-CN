@@ -1,5 +1,6 @@
 ---
 title: 删除 Skype 中的企业服务器用户体验质量配置设置
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: 摘要： 了解如何删除 Business Server Skype 中的用户体验质量 (QoE) 设置。
-ms.openlocfilehash: a0ed68fa6670f66512023e1dcf0754be5e95ed53
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1324029be12816abcc6c70de34363043df78277a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21029407"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889844"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>删除 Skype 中的企业服务器用户体验质量配置设置
  
@@ -22,7 +23,7 @@ ms.locfileid: "21029407"
   
 用户体验质量 (QoE) 指标跟踪组织中发出的语音和视频呼叫的质量，包括网络数据包丢失数目、背景噪音、"抖动"量（数据包延迟的差异）等。这些指标与其他数据（如呼叫详细信息记录）分开存储在一个数据库中，这样您就可以独立于其他数据记录启用和禁用 QoE。
   
-对于业务服务器，单个，安装 Skype 时为您创建的 QoE 配置设置的全局集合。 管理员还可以选择创建可应用于各个站点的自定义设置集合。 根据设计，在站点作用域配置的设置优先于在全局作用域配置的设置。 如果您删除站点作用域设置，则将通过使用全局设置在该站点管理 QoE。
+对于业务服务器，单个，安装 Skype 时为您创建的 QoE 配置设置的全局集合。 管理员还可以选择可应用于各个站点的自定义设置集合。 根据设计，在站点作用域配置的设置优先于在全局作用域配置的设置。 如果您删除站点作用域设置，则将通过使用全局设置在该站点管理 QoE。
   
 请注意，您还可以"删除"全局设置。 但将不会实际删除全局设置。 不过，该集合中的所有属性将重置为其默认值。 例如，在 QoE 配置设置的集合中启用了默认清除功能。 假定您修改了全局集合，这样就会禁用清除功能。 如果稍后删除全局设置，则会将这些属性全部重置为其默认值。 在这种情况下，这意味着又重新启用清除功能。
   
@@ -30,7 +31,7 @@ ms.locfileid: "21029407"
   
 ### <a name="to-delete-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 删除 QoE 配置设置
 
-1.  以 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator、 CsServerAdministrator 或 CsAdministrator 角色的成员身份登录到计算机。 有关详细信息，请参阅**Delegate Setup Permissions**。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。有关详细信息，请参阅**Delegate Setup Permissions**。
     
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。  
     

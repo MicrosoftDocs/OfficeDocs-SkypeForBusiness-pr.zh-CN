@@ -1,5 +1,6 @@
 ---
 title: 启用呼叫允许控制
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: " 配置呼叫允许控制 (CAC) 网络后，您必须启用 CAC 来强制实施的带宽限制。"
-ms.openlocfilehash: 9c264305a38bf4bf9ef3716c5df82d74155e8936
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: a683fe0f437fc1c3fa92784313135d094e43c8b1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222833"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897641"
 ---
-# <a name="enabling-call-admission-control-in-skype-for-business-server"></a>启用 Business Server Skype 中的呼叫允许控制
+# <a name="enabling-call-admission-control-in-skype-for-business-server"></a>在 Skype for Business Server 上启用呼叫允许控制
 
 呼叫允许控制 (CAC) 是区域、站点和子网的网络，通过它可基于可用带宽对音频和视频传输设置限制。 配置 CAC 网络后，您必须启用 CAC 来强制实施的带宽限制。 您可以使用业务 Server Control Panel 的 Skype 执行此操作。
 

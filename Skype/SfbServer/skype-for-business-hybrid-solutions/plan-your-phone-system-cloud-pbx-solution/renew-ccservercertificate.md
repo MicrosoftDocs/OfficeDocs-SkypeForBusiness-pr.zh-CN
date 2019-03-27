@@ -1,5 +1,6 @@
 ---
-title: 续订 CcServerCertificate
+title: Renew-CcServerCertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7844b55e-b7e9-4599-9962-f0322728405a
-description: Renew-CcServerCertificate cmdlet 用于在 Skype for Business 云连接器版本的证书即将过期或已过期时续订这些证书。 在云连接器 2.0 版和更高版本中，此命令已更改为 Update-CcServerCertificate。
-ms.openlocfilehash: 3d895a24c4cc8b400aa48ce394324435cfbb3979
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Renew-CcServerCertificate cmdlet 用于在 Skype for Business 云连接器版本的证书即将过期或已过期时续订这些证书。 在云连接器 2.0 版和更高版本中，此命令已更改为 Update-CcServerCertificate。 '
+ms.openlocfilehash: ad366bdf7f6c27552a8e7621ee9244762dd864eb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894815"
 ---
-# <a name="renew-ccservercertificate"></a>续订 CcServerCertificate
+# <a name="renew-ccservercertificate"></a>Renew-CcServerCertificate
  
-Renew-CcServerCertificate cmdlet 用于在 Skype for Business 云连接器版本的证书即将过期或已过期时续订这些证书。 在云连接器 2.0 版和更高版本中，此命令已更改为 Update-CcServerCertificate。 
+Renew-CcServerCertificate cmdlet 用于在 Skype for Business 云连接器版本的证书即将过期或已过期时续订这些证书。 在云连接器 2.0 版和更高版本中，此命令已更改为 Update-CcServerCertificate。  
   
 ```
 Renew-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
@@ -46,14 +48,14 @@ Renew-CcServerCertificate-Roles @("MS", "Edge")
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-两年后颁发证书颁发机构服务从云接头内部证书颁发给中央管理存储、 中介服务器和边缘服务器是有效的。 如果证书即将过期或已过期，请运行 Renew-CcServerCertificate cmdlet 来续订服务。 
+内部证书颁发给的中央管理存储、 中介服务器和边缘服务器的云连接器两年后从证书颁发机构服务颁发的有效。 如果证书即将过期或已过期，请运行 Renew-CcServerCertificate cmdlet 来续订服务。 
   
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>
 
-|**参数**|**必填**|**类型**|**说明**|
+|**参数**|**必需**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-|角色  <br/> |可选  <br/> |System.Array  <br/> | 云连接器服务器角色阵列。 <br/> |
+|角色  <br/> |可选  <br/> |System.Array  <br/> | 云连接器服务器角色的阵列。 <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
@@ -68,10 +70,10 @@ Renew-CcServerCertificate-Roles @("MS", "Edge")
 ## <a name="see-also"></a>另请参阅
 <a name="ReturnTypes"> </a>
 
-[重置-CcCACertificate](reset-cccacertificate.md)
+[Reset-CcCACertificate](reset-cccacertificate.md)
   
-[续订 CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
-[导出 CcRootCertificate](export-ccrootcertificate.md)
+[Export-CcRootCertificate](export-ccrootcertificate.md)
   
 

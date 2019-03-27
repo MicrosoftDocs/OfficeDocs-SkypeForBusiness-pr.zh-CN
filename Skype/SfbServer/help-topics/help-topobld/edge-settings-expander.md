@@ -1,5 +1,6 @@
 ---
 title: 边缘设置扩展器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 要编辑包含单个或多个服务器的现有边缘池的设置，可参考以下各节内容：
-ms.openlocfilehash: c8c167673151f8fdc5801e31444cd70b1e21b068
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 23162ee4100c077d072d6cc1d72946059611ce7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257456"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889159"
 ---
 # <a name="edge-settings-expander"></a>边缘设置扩展器
 
@@ -63,6 +64,6 @@ ms.locfileid: "23257456"
 
 ## <a name="see-also"></a>另请参阅
 
-有关定义和配置边缘服务的设置的详细信息，请参阅[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)。
+有关定义和配置边缘服务设置的详细信息，请参阅[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)。
 
 

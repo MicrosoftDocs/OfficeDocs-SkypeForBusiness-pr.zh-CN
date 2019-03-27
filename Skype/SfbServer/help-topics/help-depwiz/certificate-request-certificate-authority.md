@@ -1,5 +1,6 @@
 ---
 title: 证书请求（证书颁发机构）
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
-description: 向联机证书颁发机构 (CA) 发出证书请求时 （通常情况下，这些都是在内部网络上的服务器） 上选择证书颁发机构 (CA) 页上，将会出现两个选项：
-ms.openlocfilehash: 6fea8ba9500e1612ff13796f4c58550687baa99a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 在“选择证书颁发机构 (CA)”页面上向联机证书颁发机构 (CA)（通常是内部网络中的服务器）发出证书请求时，将看到两个选项：
+ms.openlocfilehash: 5681f570a6c418263545386afecfe4b7329bc45c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880191"
 ---
 # <a name="certificate-request-certificate-authority"></a>证书请求（证书颁发机构）
  
@@ -26,7 +28,7 @@ ms.lasthandoff: 03/28/2018
     
 2. 指定其他证书颁发机构。
     
-如果您选择第一个选项，您将看到包含在您的环境中检测到的所有基于 Windows 服务器的证书颁发机构列表。 选择证书相应的证书颁发机构。 您可能需要咨询 CA 管理员以了解应选择哪个 CA。
+如果您选择的第一个选项，您将看到包含您的环境中检测到的所有基于 Windows Server 的证书颁发机构的下拉列表。 选择证书相应的证书颁发机构。 您可能需要咨询 CA 管理员以了解应选择哪个 CA。
   
 如果选择第二个选项，则需键入要用于证书的证书颁发机构的完全限定域名 (FQDN) 以及 CA 实例。如果要使用的 CA 不是基于 Windows Server 的 CA，但适用于基于 Windows Server 的 CA，则此选项适用。
   

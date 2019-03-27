@@ -1,5 +1,6 @@
 ---
 title: 为业务服务器阶段中 Skype AV 和 OAuth 证书使用在 Set-cscertificate 中的滚动分期
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 摘要： 业务服务器 Skype 的阶段 AV 和 OAuth 证书。
-ms.openlocfilehash: 9fd4074034e9bff6b27ed9a22143c59dc9890821
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 859f4f1cd28eaa930f7cf3697e7ed5349f1bc966
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "25375934"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889936"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>为业务服务器阶段中 Skype AV 和 OAuth 证书使用在 Set-cscertificate 中的滚动分期
  

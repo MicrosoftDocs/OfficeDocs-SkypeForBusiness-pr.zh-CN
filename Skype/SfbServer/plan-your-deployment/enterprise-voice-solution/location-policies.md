@@ -1,5 +1,6 @@
 ---
 title: 规划业务 Server Skype 的位置策略
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: 阅读本主题可了解如何规划业务 Server 企业语音的增强型紧急服务 (E9-1-1) 部署 Skype 中的位置策略。
-ms.openlocfilehash: ed5eb479224c82757d808c202633cd79f466a543
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6717d6b7940ccf9cf7de403797d8bd4712f18144
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533213"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878019"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>规划业务 Server Skype 的位置策略
  

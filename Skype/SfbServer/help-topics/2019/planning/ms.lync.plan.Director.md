@@ -1,5 +1,6 @@
 ---
-title: 控制器 （规划工具）
+title: Director (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 控制器是运行 Business Server 通信软件可以进行身份验证的用户请求，但不承载任何用户帐户的 Skype 的服务器。
-ms.openlocfilehash: e6210c6c4c6b4f92b99eb9287f82e6268db5df12
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 63af64f9b922d1c96a177498d1d60aa3df171a0b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21058270"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889752"
 ---
-# <a name="director-planning-tool"></a>控制器 （规划工具）
+# <a name="director-planning-tool"></a>Director (Planning Tool)
  
 控制器是运行 Business Server 通信软件可以进行身份验证的用户请求，但不承载任何用户帐户的 Skype 的服务器。 
   

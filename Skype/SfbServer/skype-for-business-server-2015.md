@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 摘要： 浏览这些链接以了解如何实现业务服务器 2015 Skype。
-ms.openlocfilehash: bc7c8f586eaf0312d0a37e814634104dab4df324
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: 4ec6dd19757c4a4d367146582cf9b05205662ed3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069637"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899762"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype for Business Server 2015
 
@@ -136,7 +137,7 @@ Skype for Business 是将企业级安全、 合规性以及控制结合在一起
 
 ---
 
-<h2>精选文章</h2>
+<h2>特色的文章</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -144,7 +145,7 @@ Skype for Business 是将企业级安全、 合规性以及控制结合在一起
                 <div class="card">
                     <div class="cardText">
                         <h3>在开始之前</h3>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Requirements for your environment</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">对你的环境的要求</a></p>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">网络要求</a></p>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">客户端和设备</a></p>
                     </div>
@@ -171,7 +172,7 @@ Skype for Business 是将企业级安全、 合规性以及控制结合在一起
                 <div class="card">
                     <div class="cardText">
                         <h3>企业语音</h3>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution" data-raw-source="[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)">规划</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution" data-raw-source="[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)">计划</a></p>
                         <p><a href="/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice" data-raw-source="[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)">部署</a></p>
                     </div>
                 </div>

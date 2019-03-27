@@ -1,5 +1,6 @@
 ---
 title: 计划集成 Skype for Business 和 Exchange
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 摘要： 查看有关如何为业务 Server 与 Exchange Server 2016 或 Exchange Server 2013 中集成 Skype 本主题。
-ms.openlocfilehash: 13be5cf29369b84db74052b36dec288220b91395
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: 3e94e1ab399e8a8a825826e37a281b377a31037e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015338"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892334"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>计划集成 Skype for Business 和 Exchange
  
@@ -89,23 +90,23 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
   
 ||**Exchange 2016/2013年/2010 （本地） + Skype 业务服务器 （本地）**|**Exchange Online + Skype 业务服务器 （本地） (英文）**|**Exchange 2010 （本地） + Skype 业务 online**|**Exchange 2016/2013(on premises) + Skype 业务 online**|**Exchange Online + for Business 联机 Skype**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Outlook 中的状态  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|通过 IM 响应、PSTN 呼叫、Skype 通话或从 Outlook 电子邮件进行视频通话  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|通过 Outlook 安排和加入联机会议  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|Outlook Web App 中的状态  <br/> |是  <br/> |是  <br/> |否  <br/> |否  <br/> |是  <br/> |
-|通过 IM 响应、PSTN 呼叫、Skype 通话或从 OWA 电子邮件进行视频通话  <br/> |是  <br/> |是  <br/> |否  <br/> |否  <br/> |是  <br/> |
-|通过 Outlook Web App 安排和加入联机会议  <br/> |是  <br/> |是  <br/> |否  <br/> |否  <br/> |是  <br/> |
-|移动客户端中的 IM/状态  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|在移动客户端中加入联机会议  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|根据 Outlook 日历闲/忙信息发布状态  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|联系人列表（通过统一联系人存储）  <br/> |是（需要 Exchange 2016/2013）  <br/> |是  <br/> |否  <br/> |否  <br/> |是  <br/> |
-|高分辨率联系人照片 （需要 Lync 2013 或 Skype 最少的业务客户端。 不支持 LWA、 移动应用程序、 Lync 2010，Lync for Mac 和其他旧客户端的。）  <br/> |是（需要 Exchange 2016/2013）  <br/> |是  <br/> |否  <br/> |是  <br/> |是  <br/> |
-|会议委派  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|错过的对话历史记录和呼叫日志写入到用户的 exchange 邮箱  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|在 Exchang 中存档内容（IM 和会议）  <br/> |是（需要 Exchange 2016/2013）  <br/> |是  <br/> |否  <br/> |否  <br/> |是  <br/> |
-|搜索存档内容  <br/> |是（需要 Exchange 2016/2013）  <br/> |是  <br/> |否  <br/> |否  <br/> |是  <br/> |
-|Exchange UM 语音邮件  <br/> |是  <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |
-|服务器端对话历史记录  <br/> |是  <br/> |是  <br/> |否  <br/> |是  <br/> |是  <br/> |
+|Outlook 中的状态  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|通过 IM 响应、PSTN 呼叫、Skype 通话或从 Outlook 电子邮件进行视频通话  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|通过 Outlook 安排和加入联机会议  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|Outlook Web App 中的状态  <br/> |Y  <br/> |Y  <br/> |N  <br/> |否  <br/> |Y  <br/> |
+|通过 IM 响应、PSTN 呼叫、Skype 通话或从 OWA 电子邮件进行视频通话  <br/> |Y  <br/> |Y  <br/> |N  <br/> |否  <br/> |Y  <br/> |
+|通过 Outlook Web App 安排和加入联机会议  <br/> |Y  <br/> |Y  <br/> |N  <br/> |否  <br/> |Y  <br/> |
+|移动客户端中的 IM/状态  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|在移动客户端中加入联机会议  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|根据 Outlook 日历闲/忙信息发布状态  <br/> |是  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |是  <br/> |
+|联系人列表（通过统一联系人存储）  <br/> |是（需要 Exchange 2016/2013）  <br/> |Y  <br/> |N  <br/> |否  <br/> |Y  <br/> |
+|高分辨率联系人照片 （需要 Lync 2013 或 Skype 最少的业务客户端。 不支持 LWA、 移动应用程序、 Lync 2010，Lync for Mac 和其他旧客户端的。）  <br/> |是（需要 Exchange 2016/2013）  <br/> |Y  <br/> |否  <br/> |Y  <br/> |Y  <br/> |
+|会议委派  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|错过的对话历史记录和呼叫日志写入到用户的 exchange 邮箱  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|在 Exchang 中存档内容（IM 和会议）  <br/> |是（需要 Exchange 2016/2013）  <br/> |Y  <br/> |N  <br/> |否  <br/> |Y  <br/> |
+|搜索存档内容  <br/> |是（需要 Exchange 2016/2013）  <br/> |Y  <br/> |N  <br/> |否  <br/> |是  <br/> |
+|Exchange UM 语音邮件  <br/> |Y  <br/> |Y  <br/> |N  <br/> |否  <br/> |否  <br/> |
+|服务器端对话历史记录  <br/> |是  <br/> |Y  <br/> |否  <br/> |Y  <br/> |Y  <br/> |
 
 > [!NOTE]
 > 没有云语音邮件服务，这受支持的 Skype 业务 Online、 Skype 业务服务器 2019年、 Skype 业务服务器 2015年和 Lync Server 2013。

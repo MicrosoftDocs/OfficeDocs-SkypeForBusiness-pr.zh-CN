@@ -1,5 +1,6 @@
 ---
 title: 部署业务服务器 2019 Skype
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 摘要： 浏览这些链接以了解如何安装和配置 Business Server 2019 Skype。
-ms.openlocfilehash: a8512e55cdc0062be1548458f2ce6a4aca0296ad
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 8ff29f37fb63f5e174d1811d291fa282f7e67695
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30058994"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897826"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>部署业务服务器 2019 Skype
  
@@ -51,8 +52,8 @@ Skype 业务服务器提供了即时消息 (IM)、 状态、 会议、 视频和
   
 ||**内容**|**说明**|
 |:-----|:-----|:-----|
-|![文档图标](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[面向 IT 专业人员的 Skype for Business Server](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |请访问资源中心访问视频、 社区网站、 文档、 下载和更多内容。|
+|![文档图标](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[面向 IT 专业人员的 Business Server 的 Skype](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |请访问资源中心访问视频、 社区网站、 文档、 下载和更多内容。|
 |![开发人员内容图标](https://docs.microsoft.com/office/media/icons/developer-blue.svg)|[Skype 开发人员平台](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |查找对于业务服务器，包括代码示例、 培训和 Sdk Skype 开发人员资源。  <br/> |
-|![新闻、博客等图标](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[更改管理和采用](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office 博客](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype 团队博客](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |为业务服务器及时来自创建的团队和文档 Skype 的新闻。  <br/> |
+|![新闻、博客等图标](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[变更管理和采用](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office 博客](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype 团队博客 （英文)](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |为业务服务器及时来自创建的团队和文档 Skype 的新闻。  <br/> |
    
 

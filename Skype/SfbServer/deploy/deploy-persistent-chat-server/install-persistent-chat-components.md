@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 2015 中安装持久聊天组件
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61370aa6-9708-4ff8-b531-b258a928806f
 description: 摘要： 阅读本主题可了解如何使用业务 Server 部署向导的 Skype 安装 Skype 业务服务器 2015年组件和服务。
-ms.openlocfilehash: d8c094c09160077dc98f68a9e98e4726f60ecaeb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 78fb134ef8db5b0c47c890db9454858ff392a624
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006872"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899552"
 ---
 # <a name="install-persistent-chat-components-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中安装持久聊天组件
  

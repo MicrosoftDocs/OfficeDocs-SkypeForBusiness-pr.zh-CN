@@ -1,5 +1,6 @@
 ---
 title: 为业务 Server Skype 中呼叫诊断报告
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
 description: 摘要： 了解多用户呼叫诊断报告中 Skype 用于业务服务器。
-ms.openlocfilehash: 26350a48c5b7073af9af6fe5589d6a56a2b5b60e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9695331f5f586d97fb5c2de3680e2af5d2c34b03
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21004487"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892055"
 ---
 # <a name="call-diagnostic-reports-in-skype-for-business-server"></a>为业务 Server Skype 中呼叫诊断报告
  

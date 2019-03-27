@@ -1,5 +1,6 @@
 ---
 title: Skype 业务服务器中的 UCWA 事件
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
 description: 摘要： 了解业务服务器的 Skype 中统一的通信 Web API (UCWA)。
-ms.openlocfilehash: 5a9fa42fa1367cd4afd74bc40f30549ca5777950
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d4de92466c33ee8d9131e1c087faa871664c0d6e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981091"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896733"
 ---
 # <a name="ucwa-events-in-skype-for-business-server"></a>Skype 业务服务器中的 UCWA 事件
  

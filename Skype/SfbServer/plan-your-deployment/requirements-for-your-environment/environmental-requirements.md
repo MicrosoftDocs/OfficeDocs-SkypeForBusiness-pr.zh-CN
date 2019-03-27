@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 的环境要求
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -14,14 +15,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 摘要： 配置业务服务器 2015 Skype 非服务器的要求。 有很多还要执行您的部署，包括 Active Directory、 DNS、 证书和 Fileshares 之前配置您的内容。
-ms.openlocfilehash: 59bcc654b2999db5b13baa08fd83f74e06c5b1cf
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a75301a6f6f26ac933841ead0192d707d0647897
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884140"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887135"
 ---
-# <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的环境要求
+# <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  
 **摘要：** 配置业务服务器 2015 Skype 的非服务器要求。 有很多还要执行您的部署，包括 Active Directory、 DNS、 证书和 Fileshares 之前配置您的内容。
   
@@ -76,9 +77,9 @@ ms.locfileid: "23884140"
     
 - Windows Server 2008
     
-- Windows Server 2003
+- Windows Server 2003
     
-这些环境中能否有只读域控制器？当然可以，只要另外有可写入的域控制器即可。
+这些环境中能否有只读域控制器？ 当然可以，只要另外有可写入的域控制器即可。
   
 现在，务必要了解的业务服务器 2015 Skype 不支持单标签域。 单标签域是什么？ 如果您有一个标有 contoso.local 的根域，这将为工作正常。 如果您有刚刚名为本地的根域，将不会工作，并因此不支持。 更多有关此已写入[此知识库文章中](https://support.microsoft.com/kb/300684/en-us)。
   
@@ -272,37 +273,37 @@ Skype 的业务服务器 2015年还包括对支持 （而无需） 使用 160、
   
 |**证书**|**使用者名称/公用名称**|**使用者替代名称**|**示例**|**注释**|
 |:-----|:-----|:-----|:-----|:-----|
-|默认  <br/> |池的 FQDN  <br/> |池的 FQDN 和服务器的 FQDN  <br/> 如果具有多个 SIP 域并已启用自动客户端配置，则证书向导会检测并添加所有受支持的 SIP 域 FQDN。  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的域名系统 (DNS) 匹配，那么还需要 sip.sipdomain 条目（对应于您拥有的每个 SIP 域）。  <br/> |SN=se01.contoso.com;SAN=se01.contoso.com  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的 DNS 匹配，则还需要 SAN=sip.contoso.com; SAN=sip.fabrikam.com。  <br/> |在 Standard Edition 服务器 Standard Edition server，服务器 FQDN 与池 FQDN 相同。  <br/> 证书向导会检测您在安装过程中所指定的任何 SIP 域，然后自动将它们添加到使用者可选名称中。  <br/> 也可将此证书用于服务器到服务器身份验证。  <br/> |
-|Web 内部  <br/> |服务器的 FQDN  <br/> |以下各项：  <br/> • 内部 web FQDN （这是服务器的 FQDN 相同）  <br/> 和  <br/> • 会议简单 Url  <br/> • 电话拨入式简单 URL  <br/> • 管理简单 URL  <br/> 或者  <br/> • 简单 Url 的通配符条目  <br/> |SN=se01.contoso.com;SAN=se01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com;SAN=admin.contoso.com  <br/> 使用通配符证书：  <br/> SN=se01.contoso.com;SAN=se01.contoso.com;SAN =\*。 contoso.com  <br/> |无法覆盖内部 web FQDN 在拓扑生成器。  <br/> 如果您有多个会议简单 URL，则必须将其全部包含为 SAN。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
-|Web 外部  <br/> |服务器的 FQDN  <br/> |以下各项：  <br/> • 外部 web FQDN  <br/> 和  <br/> • 电话拨入式简单 URL  <br/> 每个 SIP 域的 • 会议简单 Url  <br/> 或者  <br/> • 简单 Url 的通配符条目  <br/> |SN=se01.contoso.com;SAN=webcon01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com  <br/> 使用通配符证书：  <br/> SN=se01.contoso.com;SAN=webcon01.contoso.com;SAN =\*。 contoso.com  <br/> |如果您有多个会议简单 Url，您就得到包括所有它们作为使用者替代名称。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
+|默认  <br/> |池的 FQDN  <br/> |池的 FQDN 和服务器的 FQDN  <br/> 如果具有多个 SIP 域并已启用自动客户端配置，则证书向导会检测并添加所有受支持的 SIP 域 FQDN。  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的域名系统 (DNS) 匹配，那么还需要 sip.sipdomain 条目（对应于您拥有的每个 SIP 域）。  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的 DNS 匹配，则还需要 SAN=sip.contoso.com; SAN=sip.fabrikam.com。  <br/> |在 Standard Edition 服务器 Standard Edition server，服务器 FQDN 与池 FQDN 相同。  <br/> 证书向导会检测您在安装过程中所指定的任何 SIP 域，然后自动将它们添加到使用者可选名称中。  <br/> 也可将此证书用于服务器到服务器身份验证。  <br/> |
+|Web 内部  <br/> |服务器的 FQDN  <br/> |以下各项：  <br/> • 内部 web FQDN （这是服务器的 FQDN 相同）  <br/> 和  <br/> • 会议简单 Url  <br/> • 电话拨入式简单 URL  <br/> • 管理简单 URL  <br/> 或者  <br/> • 简单 Url 的通配符条目  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> 使用通配符证书：  <br/> SN=se01.contoso.com;SAN=se01.contoso.com;SAN =\*。 contoso.com  <br/> |无法覆盖内部 web FQDN 在拓扑生成器。  <br/> 如果您有多个会议简单 URL，则必须将其全部包含为 SAN。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
+|Web 外部  <br/> |服务器的 FQDN  <br/> |以下各项：  <br/> • 外部 web FQDN  <br/> 和  <br/> • 电话拨入式简单 URL  <br/> 每个 SIP 域的 • 会议简单 Url  <br/> 或者  <br/> • 简单 Url 的通配符条目  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> 使用通配符证书：  <br/> SN=se01.contoso.com;SAN=webcon01.contoso.com;SAN =\*。 contoso.com  <br/> |如果您有多个会议简单 Url，您就得到包括所有它们作为使用者替代名称。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
    
 在前端池前端服务器的证书：
   
 |**证书**|**使用者名称/公用名称**|**使用者替代名称**|**示例**|**注释**|
 |:-----|:-----|:-----|:-----|:-----|
-|默认  <br/> |池的 FQDN  <br/> |池的 FQDN 和服务器的 FQDN  <br/> 如果具有多个 SIP 域并已启用自动客户端配置，则证书向导会检测并添加所有受支持的 SIP 域 FQDN。  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的域名系统 (DNS) 匹配，那么还需要 sip.sipdomain 条目（对应于您拥有的每个 SIP 域）。  <br/> |SN=eepool.contoso.com;SAN=eepool.contoso.com;SAN=ee01.contoso.com  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的 DNS 匹配，则还需要 SAN=sip.contoso.com; SAN=sip.fabrikam.com。  <br/> |证书向导会检测您在安装过程中所指定的任何 SIP 域，然后自动将它们添加到使用者可选名称中。  <br/> 也可将此证书用于服务器到服务器身份验证。  <br/> |
-|Web 内部  <br/> |池的 FQDN  <br/> |以下各项：  <br/> • 内部 web FQDN （这不是服务器的 FQDN 相同）  <br/> • 服务器 FQDN  <br/> • Skype 业务池 FQDN  <br/> 和  <br/> • 会议简单 Url  <br/> • 电话拨入式简单 URL  <br/> • 管理简单 URL  <br/> 或者  <br/> • 简单 Url 的通配符条目  <br/> |SN=ee01.contoso.com;SAN=ee01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com;SAN=admin.contoso.com  <br/> 使用通配符证书：  <br/> SN=ee01.contoso.com;SAN=ee01.contoso.com;SAN =\*。 contoso.com  <br/> |如果您有多个会议简单 Url，您就得到包括所有它们作为使用者替代名称。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
-|Web 外部  <br/> |池的 FQDN  <br/> |以下各项：  <br/> • 外部 web FQDN  <br/> 和  <br/> • 电话拨入式简单 URL  <br/> • 管理简单 URL  <br/> 或者  <br/> • 简单 Url 的通配符条目  <br/> |SN=ee01.contoso.com;SAN=webcon01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com  <br/> 使用通配符证书：  <br/> SN=ee01.contoso.com;SAN=webcon01.contoso.com;SAN =\*。 contoso.com  <br/> |如果您有多个会议简单 Url，您就得到包括所有它们作为使用者替代名称。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
+|默认  <br/> |池的 FQDN  <br/> |池的 FQDN 和服务器的 FQDN  <br/> 如果具有多个 SIP 域并已启用自动客户端配置，则证书向导会检测并添加所有受支持的 SIP 域 FQDN。  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的域名系统 (DNS) 匹配，那么还需要 sip.sipdomain 条目（对应于您拥有的每个 SIP 域）。  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com   <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的 DNS 匹配，则还需要 SAN=sip.contoso.com; SAN=sip.fabrikam.com。  <br/> |证书向导会检测您在安装过程中所指定的任何 SIP 域，然后自动将它们添加到使用者可选名称中。  <br/> 也可将此证书用于服务器到服务器身份验证。  <br/> |
+|Web 内部  <br/> |池的 FQDN  <br/> |以下各项：  <br/> • 内部 web FQDN （这不是服务器的 FQDN 相同）  <br/> • 服务器 FQDN  <br/> • Skype 业务池 FQDN  <br/> 和  <br/> • 会议简单 Url  <br/> • 电话拨入式简单 URL  <br/> • 管理简单 URL  <br/> 或者  <br/> • 简单 Url 的通配符条目  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> 使用通配符证书：  <br/> SN=ee01.contoso.com;SAN=ee01.contoso.com;SAN =\*。 contoso.com  <br/> |如果您有多个会议简单 Url，您就得到包括所有它们作为使用者替代名称。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
+|Web 外部  <br/> |池的 FQDN  <br/> |以下各项：  <br/> • 外部 web FQDN  <br/> 和  <br/> • 电话拨入式简单 URL  <br/> • 管理简单 URL  <br/> 或者  <br/> • 简单 Url 的通配符条目  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> 使用通配符证书：  <br/> SN=ee01.contoso.com;SAN=webcon01.contoso.com;SAN =\*。 contoso.com  <br/> |如果您有多个会议简单 Url，您就得到包括所有它们作为使用者替代名称。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
    
 控制器的证书：
   
 |**证书**|**使用者名称/公用名称**|**使用者替代名称**|**示例**|
 |:-----|:-----|:-----|:-----|
-|默认  <br/> |控制器池  <br/> |控制器的 FQDN，控制器池的 FQDN。  <br/> 如果此池是客户端的自动登录服务器，而且严格的 DNS 匹配的组策略要求，您还需条目 sip.sipdomain （每个 SIP 域必须）。  <br/> |pool.contoso.com;SAN=dir01.contoso.com  <br/> 如果此控制器池是客户端的自动登录服务器，并且严格的 DNS 匹配所需在组策略中，您还需要 SAN=sip.contoso.com;San = sip.fabrikam.com  <br/> |
-|Web 内部  <br/> |服务器的 FQDN  <br/> |以下各项：  <br/> • 内部 web FQDN （这是服务器的 FQDN 相同）  <br/> • 服务器 FQDN  <br/> • Skype 业务池 FQDN  <br/> 和  <br/> • 会议简单 Url  <br/> • 电话拨入式简单 URL  <br/> • 管理简单 URL  <br/> 或者  <br/> • 简单 Url 的通配符条目  <br/> |SN=dir01.contoso.com;SAN=dir01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com;SAN=admin.contoso.com  <br/> 使用通配符证书：  <br/> SN=dir01.contoso.com;SAN=dir01.contoso.com SAN =\*。 contoso.com  <br/> |
-|Web 外部  <br/> |服务器的 FQDN  <br/> |以下各项：  <br/> • 外部 web FQDN  <br/> 和  <br/> 每个 SIP 域的 • 会议简单 Url  <br/> • 电话拨入式简单 URL  <br/> 或者  <br/> • 简单 Url 的通配符条目  <br/> |控制器外部 web FQDN 必须不同于前端池或前端服务器。  <br/> SN=dir01.contoso.com;SAN=directorwebcon01.contoso.com SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com  <br/> 使用通配符证书：  <br/> SN=dir01.contoso.com;SAN=directorwebcon01.contoso.com SAN =\*。 contoso.com  <br/> |
+|默认值  <br/> |控制器池  <br/> |控制器的 FQDN，控制器池的 FQDN。  <br/> 如果此池是客户端的自动登录服务器，而且严格的 DNS 匹配的组策略要求，您还需条目 sip.sipdomain （每个 SIP 域必须）。  <br/> |pool.contoso.com; SAN=dir01.contoso.com   <br/> 如果此控制器池是客户端的自动登录服务器，并且严格的 DNS 匹配所需在组策略中，您还需要 SAN=sip.contoso.com;San = sip.fabrikam.com  <br/> |
+|Web 内部  <br/> |服务器的 FQDN  <br/> |以下各项：  <br/> • 内部 web FQDN （这是服务器的 FQDN 相同）  <br/> • 服务器 FQDN  <br/> • Skype 业务池 FQDN  <br/> 和  <br/> • 会议简单 Url  <br/> • 电话拨入式简单 URL  <br/> • 管理简单 URL  <br/> 或者  <br/> • 简单 Url 的通配符条目  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> 使用通配符证书：  <br/> SN=dir01.contoso.com;SAN=dir01.contoso.com SAN =\*。 contoso.com  <br/> |
+|Web 外部  <br/> |服务器的 FQDN  <br/> |以下各项：  <br/> • 外部 web FQDN  <br/> 和  <br/> 每个 SIP 域的 • 会议简单 Url  <br/> • 电话拨入式简单 URL  <br/> 或者  <br/> • 简单 Url 的通配符条目  <br/> |控制器外部 web FQDN 必须不同于前端池或前端服务器。  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> 使用通配符证书：  <br/> SN=dir01.contoso.com;SAN=directorwebcon01.contoso.com SAN =\*。 contoso.com  <br/> |
    
 独立的中介服务器的证书：
   
 |**证书**|**使用者名称/公用名称**|**使用者替代名称**|**示例**|
 |:-----|:-----|:-----|:-----|
-|默认  <br/> |池的 FQDN  <br/> |池的 FQDN  <br/> 池成员服务器的 FQDN  <br/> |SN = medsvr pool.contoso.net;SAN = medsvr pool.contoso.net;SAN=medsvr01.contoso.net  <br/> |
+|默认值  <br/> |池的 FQDN  <br/> |池的 FQDN  <br/> 池成员服务器的 FQDN  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
    
 Survivable Branch Appliance 的证书：
   
 |**证书**|**使用者名称/公用名称**|**使用者替代名称**|**示例**|
 |:-----|:-----|:-----|:-----|
-|默认  <br/> |设备的 FQDN  <br/> |SIP。\<sipdomain\> （需要每个 SIP 域只能有一个条目）  <br/> |SN=sba01.contoso.net;SAN=sip.contoso.com;San = sip.fabrikam.com  <br/> |
+|默认  <br/> |设备的 FQDN  <br/> |SIP。\<sipdomain\> （需要每个 SIP 域只能有一个条目）  <br/> |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>持久聊天服务器的证书
 
@@ -318,7 +319,7 @@ Skype 的业务服务器 2015年支持**单个公共证书**的使用访问、 w
 
 如果您正在部署移动功能，并且您的移动客户端支持自动发现，您将需要包括在您的证书才能支持从移动客户端的安全连接某些其他使用者替代名称条目。
   
-不确定需要哪些证书？您需要在以下证书上包含 SAN 名称以支持自动发现：
+不确定需要哪些证书？ 您需要在以下证书上包含 SAN 名称以支持自动发现：
   
 - 控制器池
     

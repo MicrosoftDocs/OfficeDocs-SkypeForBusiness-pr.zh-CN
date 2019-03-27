@@ -1,5 +1,6 @@
 ---
 title: 为业务服务器分配 Skype 的服务器到服务器身份验证证书
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: 摘要： 分配服务器到服务器身份验证证书的 Skype 业务服务器。
-ms.openlocfilehash: 9bf2cf1ceaa43d5471d699a44f3e965b1bc5eda8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8d66023a08e3b7e64d7422700e2cac32821e1ee3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993755"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887825"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>为业务服务器分配 Skype 的服务器到服务器身份验证证书
 **摘要：** 为业务服务器的 Skype 分配的服务器到服务器身份验证证书。

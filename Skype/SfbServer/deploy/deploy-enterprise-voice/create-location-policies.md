@@ -1,5 +1,6 @@
 ---
 title: 为 Business Server Skype 创建位置策略
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: 阅读本主题可了解如何配置 Business Server 企业语音的增强型紧急服务 (E9-1-1) 在 Skype 的位置策略。
-ms.openlocfilehash: 1de62f6ab24002b42afa3f0afeab3f0fe35edd33
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2e3c25586c09e8cb517f781ec9e9dc33c58d81da
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370743"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897982"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>为 Business Server Skype 创建位置策略
 
@@ -54,7 +55,7 @@ Skype 业务服务器使用位置策略 Skype 启用客户端注册期间业务�
 
 ### <a name="to-create-location-policies"></a>创建位置策略
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
     > [!NOTE]
     > 如果 PstnUsages 的全局列表中还没有 **PstnUsage** 设置，则 CsLocationPolicy 会失败。

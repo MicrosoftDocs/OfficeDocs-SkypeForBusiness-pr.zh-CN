@@ -1,5 +1,6 @@
 ---
 title: Trunk 范围节点
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 右键单击中继在拓扑生成器以执行以下操作：
-ms.openlocfilehash: c30e7eebcbedfca43e42b23f4e496fc866542039
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 40f125e88c93cf3090dff73dcadc07f6154d01f8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082564"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891573"
 ---
 # <a name="trunks-scope-node"></a>中继范围节点
  

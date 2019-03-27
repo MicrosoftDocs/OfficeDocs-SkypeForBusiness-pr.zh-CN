@@ -1,5 +1,6 @@
 ---
-title: 发布拓扑创建镜像数据库页
+title: 发布拓扑创建镜像数据库页面
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
-description: 本文档是预备文档，可能随时更改。空白主题均以占位符的形式包含在内。
-ms.openlocfilehash: 28ba8b6be560d035e9d10d5dace778b2a74207de
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: 本文档是预备文档，可能随时更改。 空白主题均以占位符的形式包含在内。
+ms.openlocfilehash: c5efe9f89adb999667ab82ca1b9909fa5dc1795c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969394"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895998"
 ---
-# <a name="publish-topology-create-mirror-database-page"></a>发布拓扑创建镜像数据库页
+# <a name="publish-topology-create-mirror-database-page"></a>发布拓扑创建镜像数据库页面
  
-本文档是预备文档，可能随时更改。空白主题均以占位符的形式包含在内。
+本文档是预备文档，可能随时更改。 空白主题均以占位符的形式包含在内。
   
 拓扑生成器分析您定义的拓扑文档中的所有配置设置。 如果已配置镜像的 SQL Server 数据库，将会出现屏幕显示镜像存储、 主存储区、 文件共享路径和数据库路径。 选择与要创建镜像的数据库和文件共享路径的数据库镜像存储相关联的复选框。 如果您不想创建和部署到定义的 SQL Server 数据库，清除数据库镜像的复选的框。
   

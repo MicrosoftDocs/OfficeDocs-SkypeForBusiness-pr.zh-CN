@@ -1,5 +1,6 @@
 ---
 title: 迁移到 Skype 业务服务器 2019
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本节中的主题将指导您完成的迁移到 Skype for Business Server 2019 过程。
-ms.openlocfilehash: 544dd01cdea68971b54374ca6e0e94909e249c82
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 32babd6fedd5defc756f73bbf001716c7c0b8a72
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027828"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881595"
 ---
 # <a name="migration-to-skype-for-business-server-2019"></a>迁移到 Skype 业务服务器 2019
 
@@ -39,22 +40,22 @@ ms.locfileid: "25027828"
     
 ## <a name="in-this-section"></a>本节内容
 
-- [开始迁移之前](before-you-begin-the-migration.md)
+- [开始迁移之前的准备工作](before-you-begin-the-migration.md)
     
-- [第 1 阶段： 规划迁移](phase-1-plan-your-migration.md)
+- [第 1 阶段：规划迁移](phase-1-plan-your-migration.md)
     
-- [第 2 阶段： 准备迁移](phase-2-prepare-for-migration.md)
+- [第 2 阶段：准备迁移](phase-2-prepare-for-migration.md)
     
-- [第 3 阶段： 部署试点池](phase-3-deploy-pilot-pool.md)
+- [第 3 阶段：部署试点池](phase-3-deploy-pilot-pool.md)
     
 - [第 4 阶段： 将测试用户移至试点池](phase-4-move-test-users-to-the-pilot-pool.md)
     
-- [第 5 阶段： 向试点池中添加边缘服务器](phase-5-add-edge-server-to-pilot-pool.md)
+- [第 5 阶段：在试点池中添加 Edge Server](phase-5-add-edge-server-to-pilot-pool.md)
     
-- [第 6 阶段： 从试点部署移动到生产环境](phase-6-move-from-pilot-deployment-into-production.md)
+- [第 6 阶段：从试点部署移动到生产中](phase-6-move-from-pilot-deployment-into-production.md)
     
-- [第 7 阶段： 完成迁移后任务](phase-7-complete-post-migration-tasks.md)
+- [第 7 阶段：完成迁移后任务](phase-7-complete-post-migration-tasks.md)
     
-- [第 8 阶段： 停用旧池](phase-8-decommission-legacy-pools.md)
+- [第 8 阶段：停用旧池](phase-8-decommission-legacy-pools.md)
     
 

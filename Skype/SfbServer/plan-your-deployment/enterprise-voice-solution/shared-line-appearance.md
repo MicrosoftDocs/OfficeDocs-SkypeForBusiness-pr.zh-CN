@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 2015 中规划共享线路外观
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
 description: 阅读本主题可了解如何规划为共享行外观 (SLA) 中 Skype 业务服务器 2015 年 11 月 2015年累积更新。
-ms.openlocfilehash: b65d637426b0a8533089b21021bce566373ca9f1
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: ae19afbffce6f51abd811a0062c611ee130c4e4d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "23884506"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892679"
 ---
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中规划共享线路外观
  

@@ -1,5 +1,6 @@
 ---
 title: Skype 业务服务器中的转换规则
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: 了解转换规则，并拨号字符串规范化 Skype 中的业务 Server 企业语音。
-ms.openlocfilehash: e32cdd3f3dd21ac4aa87dcdd7eecddf8be9153e6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5b609701779a80645061036fd04e4a46427261b3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886294"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893631"
 ---
 # <a name="translation-rules-in-skype-for-business-server"></a>Skype 业务服务器中的转换规则
 
@@ -35,11 +36,11 @@ ms.locfileid: "23886294"
 
 以下示例转换规则说明了如何在服务器上开发将号码由 E.164 格式转换为适用于中继对等方的本地格式的规则。
 
-有关如何实施转换规则的详细信息，请参阅部署文档中的[Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) 。
+有关如何实施转换规则的详细信息，请参阅部署文档中的 [Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)。
 
 |**说明**|**起始数字**|**长度**|**要删除的数字**|**要添加的数字**|**匹配模式**|**转换**|**示例**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|美国常规长途拨号  <br/> (去掉 +)  <br/> |+ 1  <br/> |正好 12 位  <br/> |1  <br/> |0  <br/> |^\+(1\d{10}) $  <br/> |$1  <br/> |+14255551010 变为 14255551010  <br/> |
+|美国常规长途拨号  <br/> (去掉 +)  <br/> |+1  <br/> |正好 12 位  <br/> |1  <br/> |0  <br/> |^\+(1\d{10}) $  <br/> |$1  <br/> |+14255551010 变为 14255551010  <br/> |
 |美国国际长途拨号  <br/> (去掉 + 并添加 011)  <br/> |+  <br/> |至少 11 位  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d+)$  <br/> |011$1  <br/> |+441235551010 变为 011441235551010  <br/> |
 
 

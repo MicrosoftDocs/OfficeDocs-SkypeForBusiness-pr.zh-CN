@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 中配置电话拨入式会议
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 摘要： 阅读本主题可了解如何在 Skype for Business Server 中配置电话拨入式会议。
-ms.openlocfilehash: 3c4460761fadd1dee523eb15949da8fc1bf69f14
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dbd851f416fb3bc91a556753ce33d2ef80976ff2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372400"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881505"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>在 Skype for Business Server 中配置电话拨入式会议
  
@@ -78,7 +79,7 @@ ms.locfileid: "25372400"
 
 1. 以 RTCUniversalServerAdmins 组成员或 **Cs-VoiceAdministrator**、**Cs-ServerAdministrator** 或 **CsAdministrator** 角色成员的身份登录计算机。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 3. 在命令提示符下，运行以下内容：
     
@@ -102,7 +103,7 @@ ms.locfileid: "25372400"
 
 1. 以 RTCUniversalServerAdmins 组成员或 **Cs-VoiceAdministrator**、**Cs-ServerAdministrator** 或 **CsAdministrator** 角色成员的身份登录计算机。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 3. 对于缺少电话拨入式会议区域的任何拨号计划，请运行：
     
@@ -123,7 +124,7 @@ ms.locfileid: "25372400"
 ## <a name="configure-dial-in-access-numbers"></a>配置拨入访问号码
 <a name="BKMK_ConfigureDialInAccessNumbers"> </a>
 
-部署电话拨入式会议时，需要设置用户可以从公用电话交换网 (PSTN) 拨打以加入会议的音频部分的电话号码。这些拨入访问号码显示在会议邀请和“电话拨入式会议设置”网页上。
+部署电话拨入式会议时，需要设置用户可以从公用电话交换网 (PSTN) 拨打以加入会议的音频部分的电话号码。 这些拨入访问号码显示在会议邀请和“电话拨入式会议设置”网页上。
   
 创建拨入访问号码前，必须首先规划电话拨入式会议区域，然后配置区域的拨号计划。 有关区域的详细信息，请参阅[Plan for Business Server 的 Skype 中电话拨入式会议](../../plan-your-deployment/conferencing/dial-in-conferencing.md)。 有关详细信息配置拨号计划的电话拨入式会议，请参阅[创建或修改拨号计划中 Skype Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
   
@@ -171,7 +172,7 @@ ms.locfileid: "25372400"
 9. 在“池”**** 中，单击运行支持此拨入访问号码的会议助理实例的池。
     
     > [!NOTE]
-    > 如果您需要更改池创建访问号码后，您必须使用[Move-csapplicationendpoint](https://docs.microsoft.com/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) cmdlet 或删除并重新创建访问号码。
+    > 创建访问号码后，如果需要更改池，必须使用  [Move-CsApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) cmdlet 或删除并重新创建访问号码。
   
 10. 在“主要语言”**** 中，单击针对此拨入访问号码播放提示时使用的语言。 
     
@@ -194,7 +195,7 @@ ms.locfileid: "25372400"
   
 有关配置会议策略的详细信息，请参阅[管理中的业务服务器 Skype 的会议策略](../../manage/conferencing/conferencing-policies.md)。
   
-## <a name="assign-a-line-uri-to-a-user-account"></a>Assign a Line URI to a user account
+## <a name="assign-a-line-uri-to-a-user-account"></a>将线路 URI 分配给用户帐户
 <a name="BKMK_AssignaLineURI"> </a>
 
 拨入用户输入其电话号码或分机号和 PIN，即可以经过身份验证的用户身份加入会议。 将电话**线路 URI**指定上 Skype Business Server 用户帐户，则需要进行身份验证。

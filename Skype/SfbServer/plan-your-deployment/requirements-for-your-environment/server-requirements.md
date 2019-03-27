@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 的服务器要求
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -14,14 +15,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 摘要： 使用本主题的业务服务器 2015年服务器准备您的 Skype。 硬件、 操作系统、 数据库、 软件、 所有的系统要求和建议在此处要帮助确保成功安装和部署服务器场。
-ms.openlocfilehash: f9c85fb774362e00c8b34e9cc0343e71e499ce49
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 1c970a517fbb984d09aeba066a69726c9461a12c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210642"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875895"
 ---
-# <a name="server-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的服务器要求
+# <a name="server-requirements-for-skype-for-business-server-2015"></a>Server requirements for Skype for Business Server 2015
  
 **摘要：** 利用本主题准备 Skype for Business Server 2015 服务器。这里提供了硬件、OS、数据库、软件、所有系统要求和建议，可帮助确保服务器场的安装和部署获得成功。
 
@@ -48,7 +49,7 @@ ms.locfileid: "30210642"
 |:-----|:-----|
 |CPU  <br/> |64 位双处理器、六核、2.26 GHz 或更快。  <br/> Intel Itanium 处理器不支持 Skype 业务服务器 2015年角色。  <br/> |
 |内存  <br/> |32 GB。  <br/> |
-|磁盘  <br/> |以下之一：  <br/> • 8 块或更多 10000 RPM 硬盘，至少 72 GB 可用磁盘空间（2 块磁盘使用 RAID 1，6 块磁盘使用 RAID 10）。  <br/> 或者  <br/> • 能够提供与 8 块 10000 RPM 机械硬盘相同的可用空间和类似性能的固态硬盘 (SSD)。  <br/> |
+|磁盘  <br/> |以下之一：  <br/> • 8 或更多 10000 RPM 硬盘驱动器具有至少 72 GB 可用磁盘空间 （两个磁盘使用 RAID 1 和 6 使用 RAID 10）。  <br/> 或者  <br/> • 固态驱动器 (Ssd) 能够提供相同的可用空间和类似于 8 10000 RPM 机械磁盘驱动器的性能。  <br/> |
 |网络  <br/> |1 个双端口网络适配器，1 Gbps 或更高（可使用 2 个网络适配器，但需要通过一个 MAC 地址和一个 IP 地址配合使用）。  <br/> 双处理器或多宿主配置是**不**支持前端服务器、 后端服务器、 Standard Edition 服务器和持久聊天服务器。 <br/> 只要它们不接触操作系统并且被用于监控和管理服务器硬件，你就能够拥有带外管理系统，如 DRAC 或 ILO。这种情况不会形成多宿主服务器，并且受支持。<br/> |
    
 建议的边缘服务器、 独立中介服务器、 视频互操作服务器和控制器的硬件：
@@ -57,7 +58,7 @@ ms.locfileid: "30210642"
 |:-----|:-----|
 |CPU  <br/> |64 位双处理器、四核、2.26 GHz 或更快。  <br/> Intel Itanium 处理器不支持 Skype 业务服务器 2015年角色。  <br/> |
 |内存  <br/> |16 GB。  <br/> |
-|磁盘  <br/> |以下之一：  <br/> • 4 块或更多 10000 RPM 硬盘，至少 72 GB 可用磁盘空间（磁盘应采用双 RAID 1 配置）。  <br/> 或  <br/> • 能够提供与 4 块 10000 RPM 机械硬盘相同的可用空间和类似性能的固态硬盘 (SSD)。  <br/> |
+|磁盘  <br/> |以下之一：  <br/> • 4 个或多个 10000 RPM 硬盘驱动器具有至少 72 GB 可用磁盘的空间 （磁盘应为 2 个 RAID 1 配置中）。  <br/> 或者  <br/> • 固态驱动器 (Ssd) 能够提供相同的可用空间和类似于 4 10000 RPM 机械磁盘驱动器的性能。  <br/> |
 |网络  <br/> |1 个双端口网络适配器，1 Gbps 或更高（可使用 2 个网络适配器，但需要通过一个 MAC 地址和一个 IP 地址配合使用）。  <br/> 双处理器或多宿主配置是**不**支持视频互操作服务器和控制器。 <br/> 边缘服务器需要两个网络接口，均为双端口网络适配器、1 Gbps 或更高速度（或两个成对网络适配器，总计 4 个适配器，每一对均与单一 MAC 地址和单一 IP 地址配合使用，总共两对）。  <br/> 在独立中介服务器安装的其他网络接口卡 (Nic) 以允许的特定 PSTN IP 地址配置支持。  <br/> |
    
 ## <a name="operating-systems-for-skype-for-business-server-2015"></a>为业务服务器 2015 Skype 的操作系统
@@ -74,15 +75,15 @@ ms.locfileid: "30210642"
 如果它不在此列表中，它将无法正常工作，请不尝试使用它的 Skype 的新安装的业务服务器 2015年。
   
 > [!NOTE]
-> 您或许已经注意到，此列表中未包含 Windows Server 2008 R2。因为我们推荐为所有用于 SFB 的新服务器使用 Windows Server 2012 R2。只有在现有服务器已经安装 Lync Server 2013，并且希望对其执行就地升级的情况下才应使用 Windows Server 2008 R2。Windows Server 2008 R2 已于 2015 年 1 月 13 日结束主流支持生命周期。 
+> 您可能已经注意到 Windows Server 2008 R2 不在此列表。 这是因为我们建议 Windows Server 2012 R2 的所有新服务器用于 SFB。 您应仅使用 Windows Server 2008 R2 时必须已安装，Lync Server 2013 中使用的现有服务器和您打算执行就地升级它们。 Windows Server 2008 R2 上 1/13/2015年到达受主要支持生命周期的结尾。 
   
 除了最新的 Service Pack 外，您还应确保在相关的地方安装以下更新：
   
-- 对于 Windows Server 2012，应首先安装知识库文章 2858668 提供的更新，然后再进行升级。 [在此处获取](https://support.microsoft.com/en-us/kb/2858668/)。
+- 对于 Windows Server 2012，应首先安装知识库文章 2858668 提供的更新，然后再进行升级。 [获取在此处](https://support.microsoft.com/en-us/kb/2858668/)。
     
-- 如果你拥有 Windows Server 2012 R2，请首先安装知识库文章 2982006 提供的更新，然后再进行升级。 [从此处获取](https://support.microsoft.com/en-us/kb/2982006/)。
+- 如果你拥有 Windows Server 2012 R2，请首先安装知识库文章 2982006 提供的更新，然后再进行升级。 [它在此处找到](https://support.microsoft.com/en-us/kb/2982006/)。
     
-- 如果你是在 Windows Server 2008 R2 机器上进行升级（参阅上述备注），则你应首先安装知识库文章 2533623 提供的更新。 [从此处获取](https://support.microsoft.com/en-us/kb/2533623/)。
+- 如果你是在 Windows Server 2008 R2 机器上进行升级（参阅上述备注），则你应首先安装知识库文章 2533623 提供的更新。 [它位于此链接](https://support.microsoft.com/en-us/kb/2533623/)。
     
 ## <a name="back-end-databases-that-will-work-with-skype-for-business-server-2015"></a>将与 Skype for Business Server 2015 配合工作的后端数据库
 <a name="DBs"> </a>
@@ -102,7 +103,7 @@ ms.locfileid: "30210642"
 > 您还将需要安装监控服务器角色的 SQL Server Reporting Services。
 
 ### <a name="microsoft-exchange-storage"></a>Microsoft Exchange 存储
-会议内容文件（比如 PowerPoint 演示文稿）都作为附件进行存档。 如果您想要存储 Skype 业务 Exchange 合规性数据的存档数据，您必须使用 Exchange 部署 Exchange，并确保的最大存储大小支持存储会议内容文件。 您必须部署 Exchange 之前部署和启用存档使用 Microsoft Exchange 集成选项。 
+Meeting content files, such as PowerPoint presentations, are archived as attachments. 如果您想要存储 Skype 业务 Exchange 合规性数据的存档数据，您必须使用 Exchange 部署 Exchange，并确保的最大存储大小支持存储会议内容文件。 您必须部署 Exchange 之前部署和启用存档使用 Microsoft Exchange 集成选项。 
     
     If you choose to use Exchange storage, you do not need to deploy separate SQL Server databases for archiving, unless you have Skype for Business users who are not homed on your Exchange servers. If you deploy archiving using the Microsoft Exchange integration option, Skype for Business archive data is stored with Exchange compliance data only for the users who are homed on your Exchange servers. 
   
@@ -154,7 +155,7 @@ Microsoft 消息队列不是必需的。
 > [!IMPORTANT]
 > 升级，我们希望您以确保在前端服务器至少具有 SQL Server 2012 SP1 安装之前升级。 到 SP1，如果您想要立即下载[这是一个链接](https://www.microsoft.com/en-us/download/details.aspx?id=35575)。
   
-如果您需要阅读 up SQL 镜像的详细信息，我们具有后端服务器高可用性中 Skype 业务服务器 2015年主题。 配置 SQL Server 群集的业务服务器 2015年的 Skype 具有用于获取就绪群集的步骤。 我们也提供了有关 SQL 故障转移群集的其他链接，包括 [2014](https://technet.microsoft.com/en-us/library/hh231721.aspx)、[2012](https://technet.microsoft.com/en-us/library/hh231721%28v=sql.110%29.aspx) 和 [2008](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx)。
+如果您需要阅读 up SQL 镜像的详细信息，我们具有后端服务器高可用性中 Skype 业务服务器 2015年主题。 配置 SQL Server 群集的业务服务器 2015年的 Skype 具有用于获取就绪群集的步骤。 还有更多链接上故障转移群集的 SQL， [2014年](https://technet.microsoft.com/en-us/library/hh231721.aspx)、 [2012年](https://technet.microsoft.com/en-us/library/hh231721%28v=sql.110%29.aspx)和[2008年](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx)。
   
 > [!NOTE]
 > 新的 2015年版本中为 SQL Always On 支持。 支持，并且您可以阅读更多有关该产品[中的业务服务器 2015 Skype 的后端服务器高可用性](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)主题中。
@@ -171,7 +172,7 @@ Microsoft 消息队列不是必需的。
   
 |**软件/角色**|**详细信息**|
 |:-----|:-----|
-|Windows PowerShell 3.0  <br/> |为业务 Server 服务器的所有 Skype 都需要安装的 Windows PowerShell 3.0。  <br/> • 如果您正在制作 Windows Server 2012 或 Windows Server 2012 R2 上的安装，您正在设置，因为它已存在。  <br/> • 如果您正在执行 Windows Server 2008 R2 上的升级，您可以下载[Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595)即可使用它。 <br/> **提示：** 安装正确的 PowerShell 后，请确认其内部版本号为 6.2.9200.0 或更高版本，方法是转至 PowerShell 命令提示符并键入 `$PSVersionTable`。 此操作将显示你所需的信息。<br/> |
+|Windows PowerShell 3.0  <br/> |为业务 Server 服务器的所有 Skype 都需要安装的 Windows PowerShell 3.0。  <br/> • 如果您正在制作 Windows Server 2012 或 Windows Server 2012 R2 上的安装，您正在设置，因为它已存在。  <br/> • 如果您正在执行 Windows Server 2008 R2 上的升级，您可以下载[Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595)即可使用它。 <br/> **提示：** 在那里正确 PowerShell 后，确认其 BuildVersion 6.2.9200.0 或更高版本，转到 PowerShell 提示并键入`$PSVersionTable`。 此应显示所需的信息。  <br/> |
 |Microsoft .NET Framework  <br/> |WCF 服务是一项**功能**已安装作为 Windows 功能，在**服务器管理器**下没有所需的下载。 <br/> • 所需安装此功能，或者如果它已经安装并正在对其，检查的**HTTP 激活**选项还会检查和安装，以确保，如下所示： <br/> ![显示在.NET Framework 4.5 功能下的 HTTP 激活选项的屏幕截图。](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)不要担心，如果您收到反映其他一些操作需要安装的 HTTP 激活安装其他弹出窗口。 这种情况非常正常，只要单击“确定”，继续操作即可。 如果未看到此弹出信息，则可以假设这些功能均已安装，您可以继续操作。  <br/> 通常安装 Microsoft.NET Framework 安装 Windows Server 2012 R2 或 Windows Server 2016 时。 Skype 业务 server 适用于以下的 Microsoft.NET Framework 版本：  <br/> •.NET 3.5  <br/> •.NET 4.5  <br/> •.NET 4.6.x  <br/> •.NET 4.7.1 及更高 （对于业务 Server 累积更新 5 或更高版本的 Skype)  <br/>  可能将默认情况下，在 Windows Server 2008 R2 计算机上安装.NET framework 3.5 （肯定检查以确保在升级之前），但它实际上不是 Windows Server 2012/Windows Server 2012 R2 服务器 （针对新安装） 上。 若要添加中，您将需要访问安装驱动器或媒体 （Windows Server 从，安装位置或安装文件所在现在）。 然后继续操作，并从服务器管理器将其作为功能进行安装，在提示时指向安装媒体（即 **\sources\sxs** 文件夹），然后继续安装。 <br/> |
 |媒体基础  <br/> |Windows Server 2016、 Windows Server 2012 和 Windows Server 2012 R2 与 Microsoft 媒体 Foundation 将安装 Windows Media Format Runtime。  <br/> 用于会议的所有前端服务器和 Standard Edition 服务器需要 Windows Media Format Runtime，若要运行的 Windows Media 音频 (.wma) 文件的呼叫寄存、 通知和响应组应用程序播放通知和保持音乐。  <br/> |
 |Windows Identity Foundation  <br/> |我们需要 Windows Identity Foundation 3.5 对业务服务器 2015 Skype 支持服务器到服务器身份验证方案。  <br/> ？ 对于 Windows Server 2012 和 Windows Server 2012 R2，则不需要下载任何内容。 打开**服务器管理器**，转到**添加角色和功能向导**。 **Windows Identity Foundation 3.5** 在**功能**部分列出。 如果选中，您很好。 否则请选中它，并单击“下一步”，然后单击**安装**按钮。 <br/> |
@@ -183,7 +184,7 @@ Microsoft 消息队列不是必需的。
 |:-----|:-----|
 |Internet Information Services (IIS)  <br/> |IIS 的以下模块选择需要的所有前端服务器，以及所有 Standard Edition server 上：  <br/> • 常见 HTTP 功能： 默认文档，HTTP 错误静态内容  <br/> • 运行状况和诊断： HTTP 日志记录，日志记录工具，跟踪  <br/> • 性能： 静态内容压缩、 动态内容压缩  <br/> • 安全： 请求筛选、 客户端证书映射身份验证、 Windows 身份验证  <br/> • 应用程序开发：.NET 扩展性 3.5、.NET 扩展性 4.5、 ASP.NET 3.5、 ASP.NET 4.5，ISAPI 扩展 ISAPI 筛选器  <br/> • 管理工具： IIS 管理控制台、 IIS 管理脚本和工具  <br/> 我们还应注意还需要匿名访问，但在您安装 IIS，以便您无需在列表中选择的位置时，会看到的。  <br/> |
 |Windows Media Format Runtime  <br/> | Windows Server 2016、 Windows Server 2012 和 Windows Server 2012 R2，您需要在**服务器管理器**中安装**媒体 Foundation**功能。 现在，您实际可以开始没有此业务服务器 2015年安装您 Skype 系统将提示您安装它，但然后重新启动服务器，业务服务器 2015年 Skype 之前安装继续。 因此最好提前安装。 <br/> |
-|Silverlight  <br/> |你可以访问[此链接](https://www.microsoft.com/silverlight/)，安装最新版 Silverlight。  <br/> |
+|Silverlight  <br/> |您可以安装在[此链接](https://www.microsoft.com/silverlight/)Silverlight 的最新版本。  <br/> |
    
 > [!NOTE] 
 > 您可能还需要启用目录浏览如果您使用的负载平衡器。 否则将加载负载平衡器可能会考虑故障的空白页。 
@@ -253,7 +254,7 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 
  **持久聊天服务器还需要：**
   
-消息队列，也称为 MSMQ。 它是 Windows Server 组件，并将其安装在功能部分的服务器管理器中。 如果想进一步了解相关信息，请参阅[安装和管理消息队列](https://technet.microsoft.com/en-us/library/cc771474.aspx)。
+消息队列，也称为 MSMQ。 它是 Windows Server 组件，并将其安装在功能部分的服务器管理器中。 如果您想要了解有关此操作，请签出[安装和管理消息队列](https://technet.microsoft.com/en-us/library/cc771474.aspx)。
   
  **最后注意事项：**
   

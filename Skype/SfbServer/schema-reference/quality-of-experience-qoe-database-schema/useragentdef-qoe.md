@@ -1,5 +1,6 @@
 ---
 title: UserAgentDef 表 (QoE)
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
-description: UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用户代理是用来为业务服务器连接到 Skype 的软件客户端。
-ms.openlocfilehash: fac9f838185482a13bb778cfc7f27f78baf2c66f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用户代理是软件客户端用于连接到 Skype 业务服务器。
+ms.openlocfilehash: 8f607be022851a6622060c47dedc5ac36358a3c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876611"
 ---
 # <a name="useragentdef-table-qoe"></a>UserAgentDef 表 (QoE)
  
-UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用户代理是用来为业务服务器连接到 Skype 的软件客户端。
+UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用户代理是软件客户端用于连接到 Skype 业务服务器。
   
 |**UAType**|**UAName**|**UACategory**|
 |:-----|:-----|:-----|
@@ -28,15 +30,15 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用
 |8  <br/> |OCPhone  <br/> |OCPhone  <br/> |
 |16  <br/> |LMC  <br/> |LMC  <br/> |
 |32  <br/> |DVT  <br/> |DVT  <br/> |
-|64  <br/> |毫米  <br/> |毫米  <br/> |
-|64  <br/> |MC  <br/> |毫米  <br/> |
+|64  <br/> |MM  <br/> |MM  <br/> |
+|64  <br/> |MC  <br/> |MM  <br/> |
 |128  <br/> |助理  <br/> |助理  <br/> |
 |256  <br/> |Conferencing_Announcement_Service_1.0  <br/> |CAS  <br/> |
 |512  <br/> |Conferencing_Attendant_1.0  <br/> |CAA  <br/> |
 |512  <br/> |Conference_Auto_Attendant_1.0  <br/> |CAA  <br/> |
 |1024  <br/> |Response_Group_Service  <br/> |RGS  <br/> |
 |1032  <br/> |Call_Park_Service_1.0  <br/> |CPS  <br/> |
-|1040  <br/> |Response_Group_Service Announcement_Service  <br/> |作为  <br/> |
+|1040  <br/> |Response_Group_Service Announcement_Service  <br/> |AS  <br/> |
 |2048  <br/> |Microsoft.Rtc.Applications.Ccs  <br/> |CCS  <br/> |
 |16386  <br/> |CoMo  <br/> |CoMo  <br/> |
 |16387  <br/> |CWA  <br/> |CWA  <br/> |
@@ -52,7 +54,7 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用
 |16401  <br/> |iPadLync  <br/> |iPadLync  <br/> |
 |16402  <br/> |NokiaLync  <br/> |NokiaLync  <br/> |
 |16403  <br/> |LyncImm  <br/> |LyncImm  <br/> |
-|16404  <br/> |个人电脑  <br/> |个人电脑  <br/> |
+|16404  <br/> |PC  <br/> |PC  <br/> |
 |16405  <br/> |LWA  <br/> |LWA  <br/> |
 |16406  <br/> |OWA  <br/> |OWA  <br/> |
 |16407  <br/> |AOC  <br/> |AOC  <br/> |

@@ -1,5 +1,6 @@
 ---
 title: 创建或修改 Skype for Business 中的队列
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: 创建或修改响应组队列，业务 Server 企业语音的 Skype 中。
-ms.openlocfilehash: a77940bae3dd720594619ebffc1858dae2a161ba
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d564a40f8e650042fe23ff1db6262c6d1c5b93a1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374513"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895511"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>创建或修改 Skype for Business 中的队列
  
@@ -41,7 +42,7 @@ ms.locfileid: "25374513"
     
 4. 在“队列”**** 页上，请执行以下操作之一：
     
-   - 要创建新队列，请单击“新建”****。 在**选择服务**类型的部分或全部要在其中的**ApplicationServer**服务的名称添加的搜索字段中的队列。 在服务结果列表中，单击想要的服务，然后单击“确定”****。
+   - 要创建新队列，请单击“新建”****。 在“选择服务”**** 中，键入要在搜索字段中添加队列的 **ApplicationServer** 服务的部分或全部名称。 在服务结果列表中，单击想要的服务，然后单击“确定”****。
     
    - 要修改现有的队列，请在搜索字段中键入全部或部分队列名称。在队列结果列表中，单击想要的队列，再单击“编辑”****，然后单击“显示详细信息”****。
     
@@ -103,7 +104,7 @@ ms.locfileid: "25374513"
     > [!NOTE]
     > 如果您是托管工作流的委派响应组管理员，您将能够创建代理组和队列并将代理组分配给队列。 
   
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 3. 创建在达到队列超时阈值时要显示的提示，并将其保存在变量中。在命令行中运行：
     
@@ -118,7 +119,7 @@ ms.locfileid: "25374513"
    ```
 
    > [!NOTE]
-   > 若要使用的音频文件提示，请使用**Import-csrgsaudiofile** cmdlet。 有关详细信息，请参阅[Import-csrgsaudiofile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
+   > 要针对提示使用音频文件，请使用 **Import-CsRgsAudioFile** cmdlet。 有关详细信息，请参阅[Import-csrgsaudiofile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
   
 4. 定义在达到队列超时阈值时要采取的操作，并将其保存在变量中。在命令行中运行：
     
@@ -148,7 +149,7 @@ ms.locfileid: "25374513"
    ```
 
       > [!NOTE]
-      > 若要使用的音频文件提示，请使用**Import-csrgsaudiofile** cmdlet。 有关详细信息，请参阅[Import-csrgsaudiofile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
+      > 要针对提示使用音频文件，请使用 **Import-CsRgsAudioFile** cmdlet。 有关详细信息，请参阅[Import-csrgsaudiofile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
   
 6. 定义在达到队列溢出阈值时要采取的操作，并将其保存在变量中。在命令行中运行：
     
@@ -204,7 +205,7 @@ ms.locfileid: "25374513"
   
 [Set-csrgsqueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
   
-[New-csrgsprompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
 [New-csrgscallaction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
   

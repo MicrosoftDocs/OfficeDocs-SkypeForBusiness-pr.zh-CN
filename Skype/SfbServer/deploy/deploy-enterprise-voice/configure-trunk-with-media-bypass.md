@@ -1,5 +1,6 @@
 ---
 title: 为业务 Server 使用 Skype 中的媒体旁路配置中继
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 摘要： 使用 Skype 业务服务器启用媒体旁路配置中继。 这将使您尽可能减少的中介服务器，假定您的 SIP 中继提供商支持它。
-ms.openlocfilehash: dd206fa2850219c3737905994fb81bf28d981ea7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: e63ec28f863f93eed03eb4a1d2955c90434cc6ce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373083"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892686"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>为业务 Server 使用 Skype 中的媒体旁路配置中继
 
@@ -31,7 +32,7 @@ ms.locfileid: "25373083"
 强烈建议您启用媒体旁路。 但是在 SIP 中继上启用媒体旁路之前，请确认您的合格 SIP 中继提供商是否支持媒体旁路且能够满足成功启用方案的要求。 具体而言，提供程序必须具有贵组织的内部网络中的服务器的 IP 地址。
 
 > [!NOTE]
-> 媒体旁路将不会与每个公用电话交换网 (PSTN) 网关、IP-PBX 和会话边界控制器 (SBC) 进行交互操作。 Microsoft 与认证合作伙伴一起对一组 PSTN 网关和 SBC 进行了测试。 媒体绕过功能是仅支持的产品和[电话基础结构的业务服务器 Skype](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)页列出的版本。
+> 媒体绕过不将与每个公共公用电话交换网 (PSTN) 网关、 IP-PBX 和会话边界控制器 (SBC) 交互。 Microsoft 已经测试一组 PSTN 网关和 SBCs 与认证的合作伙伴。 媒体绕过功能是仅支持的产品和[电话基础结构的业务服务器 Skype](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)页列出的版本。
 
 如下所述的中继组合了一组应用于分配了此中继配置的中继的参数。可以将特定的中继配置的范围限定为全局（没有更特定的站点或池配置的所有中继）、一个站点或一个池。池级别中继配置用于将特定中继配置的范围限定为单个中继。
 
@@ -77,7 +78,7 @@ ms.locfileid: "25373083"
 8. 如果中继对等方支持接收来自中介服务器的 SIP REFER 请求，请选择**启用将引用发送到网关**复选框。
 
     > [!NOTE]
-    > 如果禁用此选项而选中“启用媒体旁路”**** 选项，则需要其他设置。 如果中继对等方不支持接收来自中介服务器和媒体绕过的 SIP REFER 请求已启用，您必须运行**Set-cstrunkconfiguration** cmdlet 禁用活动按住呼叫的 RTCP 才能支持的相应条件媒体绕过。 此外，如果您希望转移的呼叫传输支持媒体旁路，并且网关不支持 SIP REFER 请求，则您可以选择“允许使用第三方呼叫控制的引用”****。
+    > 如果禁用此选项而选中“启用媒体旁路”**** 选项，则需要其他设置。 如果中继对等方不支持接收来自中介服务器的 SIP REFER 请求且启用了媒体旁路，则为了支持媒体旁路的适当条件，还必须运行 **Set-CsTrunkConfiguration** cmdlet 以禁用活动呼叫和保留呼叫的 RTCP。 此外，如果您希望转移的呼叫传输支持媒体旁路，并且网关不支持 SIP REFER 请求，则您可以选择“允许使用第三方呼叫控制的引用”****。
 
 9. （可选）若要启用中继间路由，请将 PSTN 用法记录关联到此中继配置并进行相应的配置。 将所有传入呼叫通过不源自业务服务器终结点的 Skype 中继应用与此中继配置相关联的 PSTN 用法。 若要管理与中继配置关联的 PSTN 用法记录，请使用下列方法之一：
 
@@ -138,7 +139,7 @@ ms.locfileid: "25373083"
 
 14. 应选择“启用出站路由故障转移计时器”**** 以启用快速故障转移。 与此中继关联的网关会在 10 秒内发送通知，告知正在处理出站呼叫。 如果此通知未收到中介服务器，会发生重新路由到另一个中继。 在延迟可能推迟响应时间或网关需要花费 10 秒以上的时间才能响应，应禁用快速故障转移。
 
-15. （可选）为中继关联和配置“主叫号码转换规则”****。这些转换规则适用于出站呼叫的主叫号码
+15. （可选）为中继关联和配置“主叫号码转换规则”****。 这些转换规则适用于出站呼叫的主叫号码
 
     - 若要从企业语音部署中可用的所有转换规则的列表中选择一个或多个规则，请单击**选择**。 在“选择转换规则”**** 中，单击要与中继关联的规则，然后单击“确定”****。
 

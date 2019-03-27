@@ -1,5 +1,6 @@
 ---
 title: 规划业务服务器中 Skype 的会议
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 摘要： 阅读此主题以了解有关中 Skype 会议特性和功能的业务服务器。
-ms.openlocfilehash: d1ac78876df97d2420c0951c9c2e1a9a41e451ce
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cefd631f1750d7eaa4404a2fe2ffa8aa91675824
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375795"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899433"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>规划业务服务器中 Skype 的会议
  
@@ -154,7 +155,7 @@ Skype 业务服务器可以支持的会议的大小取决于是否在共享或�
     
     如果是，就必须使用规划工具或拓扑生成器来为前端池启用会议。 有关详细信息，请参阅[Skype 业务服务器中的部署会议](../../deploy/deploy-conferencing/deploy-conferencing.md)。
     
-    与 Web 会议（包括文档协作和应用程序共享）相比，音频和视频会议需要并使用更多的网络带宽。如果您不希望启用音频和视频会议，但希望启用 Web 会议，则可以启用会议并使用会议策略来禁用 A/V 会议。
+    与 Web 会议（包括文档协作和应用程序共享）相比，音频和视频会议需要并使用更多的网络带宽。 如果您不希望启用音频和视频会议，但希望启用 Web 会议，则可以启用会议并使用会议策略来禁用 A/V 会议。
     
     如果希望启用音频会议但不启用视频会议，则可以启用 A/V 会议并使用会议策略来阻止视频会议。或者，可以启用 A/V 会议并且只允许某些用户来启动或参加 A/V 会议。 
     

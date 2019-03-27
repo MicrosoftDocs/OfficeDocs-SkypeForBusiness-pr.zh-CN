@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 2015 中查看管理员报告
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,15 +11,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
-description: 管理员报告是有关部署和操作的详细信息。这些报告是基于“设计站点”中标记的选择而生成的。设计师可以通过编辑网络图并为服务器、池和负载平衡器定义完整的 IP 地址和完全限定的域名 (FQDN)，来进一步向管理员报告中添加值。
-ms.openlocfilehash: 1aec87246082083d981d8783d1abc31b5f96bc55
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 管理员报告是有关部署和操作的详细信息。 这些报告是基于“设计站点”中标记的选择而生成的。 设计师可以通过编辑网络图并为服务器、池和负载平衡器定义完整的 IP 地址和完全限定的域名 (FQDN)，来进一步向管理员报告中添加值。
+ms.openlocfilehash: 5cab8231428ace2a0d77132481819eed304d3519
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261586"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898192"
 ---
-# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中查看管理员报告
+# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Review the Administrator Reports in Skype for Business Server 2015
 
 管理员报告是有关部署和操作的详细信息。这些报告是基于“**设计站点**”中标记的选择而生成的。设计师可以通过编辑网络图并为服务器、池和负载平衡器定义完整的 IP 地址和完全限定的域名 (FQDN)，来进一步向管理员报告中添加值。
 
@@ -85,4 +86,4 @@ Skype 的业务服务器 2015年都有一潜在的复杂的防火墙规则。 �
 ## <a name="see-also"></a>另请参阅
 <a name="DNS_Report"> </a>
 
-[查看管理员报告](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
+[Reviewing the Administrator Reports](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)

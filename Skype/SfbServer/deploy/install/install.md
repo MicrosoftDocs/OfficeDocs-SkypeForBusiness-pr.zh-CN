@@ -1,5 +1,6 @@
 ---
 title: 安装 Skype for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
 description: 摘要： 了解如何为业务服务器准备安装的 Skype 环境。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: d5c1290e4a7a1beeb2310c69f0c63d7f549e0d76
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 041c60c23e5edc56a0332f7e0321fd1aac5970f8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026039"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898520"
 ---
 # <a name="install-skype-for-business-server"></a>安装 Skype for Business Server
  

@@ -1,5 +1,6 @@
 ---
 title: 存档服务器常规设置扩展器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在拓扑生成器中，可以通过右键单击控制台树中的“存档服务器”，再单击工具栏中的“操作”，或单击“操作”窗格中的任务，然后单击“编辑属性”并更改以下任意选项来编辑各个存档服务器的属性：
-ms.openlocfilehash: 6419b7b4fff2c533a0dc91ab0819b0a58044447d
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 9f68ed29d1ff58e3c89c5b5e50e83e8a8730a338
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060110"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899706"
 ---
 # <a name="archiving-server-general-settings-expander"></a>存档服务器常规设置扩展器
  

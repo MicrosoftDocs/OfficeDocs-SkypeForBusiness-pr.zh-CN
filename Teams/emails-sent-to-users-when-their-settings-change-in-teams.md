@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解在 Microsoft Teams 中当用户的电话拨入式会议设置更改时自动通过电子邮件向其发送的信息。 '
-ms.openlocfilehash: cdd45eaad709ed2060cc0b0f9700e213ea884b72
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 67e4945095b9ed7e69632741e04b4ac384741feb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633331"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883416"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>在 Microsoft Teams 中当用户设置更改时向其发送的电子邮件
 
@@ -77,7 +77,7 @@ ms.locfileid: "30633331"
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>更改向用户发送的电子邮件
 
-你可以更改自动向用户发送的电子邮件，包括电子邮件地址和包含在“*发件人*”联系信息中的显示名称。 默认情况下，这些电子邮件的发件人将显示为来自 Office 365，但你可以使用 Windows PowerShell 更改电子邮件地址和显示名称。 有关详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
+您可以对会自动向用户发送的电子邮件进行更改。 默认情况下的电子邮件发件人将从 Office 365，但您可以更改使用 Windows PowerShell 的显示名称。 有关详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>如果不希望向用户发送电子邮件该怎么办？
 

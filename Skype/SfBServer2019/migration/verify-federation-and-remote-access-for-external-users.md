@@ -1,5 +1,6 @@
 ---
 title: 验证联盟和外部用户的远程访问
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 切换后联盟路由到 Skype 业务 Server 2019 边缘服务器，应执行一些功能测试，以确认联盟能够按预期方式。 外部用户访问测试应包括每种类型的外部用户的支持您的组织，包括任意或全部操作。
-ms.openlocfilehash: ce0e2dd6ee7d4fb605f844d7dfb26b3f9d13bf14
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3a520b39d76ab93f4ec7fcaacd139b3f83a3326a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027233"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876695"
 ---
 # <a name="verify-federation-and-remote-access-for-external-users"></a>验证联盟和外部用户的远程访问
 

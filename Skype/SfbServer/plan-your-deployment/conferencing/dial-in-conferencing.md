@@ -1,5 +1,6 @@
 ---
 title: 规划电话拨入式会议中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 摘要： 阅读本主题可了解有关规划业务服务器中 Skype 电话拨入式会议。
-ms.openlocfilehash: 1b051cc757c0e55fb2f16b790921da962738ade3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5ea5b6db3c04d9827502a2b7632b409ac7b8ebdc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973575"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893277"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>规划电话拨入式会议中 Skype 业务服务器
  
@@ -43,7 +44,7 @@ ms.locfileid: "20973575"
 
 电话拨入式会议至少需要一台中介服务器和一个公用电话交换网 (PSTN) 网关。 
   
-您可以在中央站点或分支站点部署中介服务器。在中央站点，您可以在前端池或 Standard Edition Server 并置中介服务器，或者将其部署在独立服务器或池中。在分支站点，您可以将中介服务器部署在独立服务器中或部署为 Survivable Branch Appliance 的组件。
+您可以在中央站点或分支站点部署中介服务器。 在中央站点，您可以在前端池或 Standard Edition Server 并置中介服务器，或者将其部署在独立服务器或池中。 在分支站点，您可以将中介服务器部署在独立服务器中或部署为 Survivable Branch Appliance 的组件。
   
 您可以在中央站点或分支站点部署 PSTN 网关。在分支站点，PSTN 网关可以是独立的，也可以作为 Survivable Branch Appliance 的组件。
   

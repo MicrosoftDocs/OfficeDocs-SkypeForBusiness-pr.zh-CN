@@ -1,5 +1,6 @@
 ---
 title: 配置服务器到服务器身份验证的 Skype Business Server 混合环境
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 摘要： 配置服务器到服务器身份验证的 Skype Business Server 混合环境。
-ms.openlocfilehash: 2d4589d2d194cd885329dd701f69af7b8896f8f3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: d8ba920d516368d1931097e5e31b738a0d271bcf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532345"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893610"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>配置服务器到服务器身份验证的 Skype Business Server 混合环境。
 
@@ -120,7 +121,7 @@ $binaryValue = $certificate.GetRawCertData()
 $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 ```
 
-导入证书并将其编码后，您然后可以将证书分配给您的 Office 365 服务主体。 为此，首先使用 Get-MsolServicePrincipal 业务服务器 Skype 和 Microsoft Exchange 服务主体; 检索 AppPrincipalId 属性的值AppPrincipalId 属性的值将用于标识其分配证书的服务主体。 AppPrincipalId 属性值的 Skype Business Server 手中，使用以下命令业务服务器的证书分配给 Skype 的 Office 365 版本：
+导入证书并将其编码后，您然后可以将证书分配给您的 Office 365 服务主体。 为此，首先使用 Get-MsolServicePrincipal 业务服务器 Skype 和 Microsoft Exchange 服务主体; 检索 AppPrincipalId 属性的值AppPrincipalId 属性的值将用于标识其分配证书的服务主体。 AppPrincipalId 属性值的 Skype Business Server 手中，使用以下命令以将证书分配给业务 Online 的 Skype 的版本：
 
 ```
 New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue 
@@ -128,7 +129,7 @@ New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 您然后应重复该命令，这次使用 Exchange 2013 的 AppPrincipalId 属性值。
 
-如果您稍后需要删除该证书，可通过先检索证书的 KeyId 来执行此操作：
+如果您稍后需要删除该证书，例如，如果已过期，您可以通过先检索证书密钥 id 为进行操作：
 
 ```
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
@@ -153,11 +154,11 @@ Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00
 
 除了分配证书，您必须配置 Exchange Online 服务主体，并将您的本地版本的 Skype Business Server 外部 Web 服务 url 配置为 Office 365 服务主体。 可通过执行下面两条命令达到此目的。 
 
-以下示例中，在 lync.contoso.com 是业务服务器池的 Skype 的外部 Web 服务 URL。 您应重复这些步骤以添加在部署中的所有外部 Web 服务 Url。
+以下示例中，在 Pool1ExternalWebFQDN.contoso.com 是业务服务器池的 Skype 的外部 Web 服务 URL。 您应重复这些步骤以添加在部署中的所有外部 Web 服务 Url。
 
 ```
 Set-MSOLServicePrincipal -AppPrincipalID 00000002-0000-0ff1-ce00-000000000000 -AccountEnabled $true
 $lyncSP = Get-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000
-$lyncSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/lync.contoso.com")
+$lyncSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/Pool1ExternalWebFQDN.contoso.com")
 Set-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000 -ServicePrincipalNames $lyncSP.ServicePrincipalNames
 ```

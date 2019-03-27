@@ -1,5 +1,6 @@
 ---
 title: 分支机构设备范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示的完全限定的域名 (FQDN)，关联的池和服务器，以及此 Survivable Branch Appliance 的恢复能力信息。 可以执行以下操作：
-ms.openlocfilehash: 53c2d42088dc9ea6d1b295265053e41494ab3af5
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 0fe014df84d371c3c1cd1cd0d1be76d81dd64122
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057333"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895235"
 ---
 # <a name="branch-office-appliance-scope-node"></a>分支机构设备范围节点
  

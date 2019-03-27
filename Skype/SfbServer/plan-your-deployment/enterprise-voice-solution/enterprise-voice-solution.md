@@ -1,5 +1,6 @@
 ---
 title: 规划企业语音解决方案中 Skype 业务 Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 摘要： 了解如何规划业务服务器中 Skype 统一的语音和通信解决方案的选项。
-ms.openlocfilehash: 23bd0663be3a5e8a2dfc98c83bccacf9a5b1b793
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d564c609bdcb869db47986179d18a518c1bcab34
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885037"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893645"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>规划企业语音解决方案中 Skype 业务 Server
  
@@ -32,7 +33,7 @@ Skype 业务服务器提供了两个本地企业语音选项 — 企业语音和
   
 - 企业语音是最完整的语音解决方案。 它是一套基于软件的 IP 语音 (VoIP) 解决方案，提供了丰富的功能集，包括与 Outlook 和 Exchange 的丰富集成以及许多强大的功能，比如响应组、呼叫寄存、团队呼叫、组内呼叫应答和增强型紧急 E9-1-1 支持。 企业语音用户使用的音频设备，例如耳麦与他们的计算机，或已启用 VoIP 的电话，而不是传统 PSTN 或 PBX 电话。
     
-- 通过单位电话呼叫提供了一种方法，以将您的业务解决方案的 Skype 与您现有的 PBX 电话系统集成。 启用呼叫通过单位电话的用户可以单击 for Business 呼叫另一个用户，可以在部署或外部用户的 Skype 中。 呼叫使用用户的 PBX 电话完成。 此外，这些用户可以单击中 Skype for Business 加入会议。
+- 通过单位电话呼叫提供了一种方法，以将您的业务解决方案的 Skype 与您现有的 PBX 电话系统集成。 启用呼叫通过单位电话的用户可以单击 for Business 呼叫另一个用户，可以在部署或外部用户的 Skype 中。 将使用用户的 PBX 电话完成呼叫。 此外，这些用户可以单击中 Skype for Business 加入会议。
     
     部署呼叫通过单位电话也是用户仍具有 PBX 电话，但正在转换到了企业语音的优势，使这些用户对正在使用其 Skype 业务客户端控制其电话呼叫。
     

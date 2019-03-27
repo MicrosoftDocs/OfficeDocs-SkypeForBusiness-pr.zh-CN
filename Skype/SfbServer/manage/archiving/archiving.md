@@ -1,5 +1,6 @@
 ---
 title: 管理存档中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63fd56cf-6d40-4db5-96fc-32d813930bcf
 description: 摘要： 了解如何管理存档的 Skype 业务服务器。
-ms.openlocfilehash: 3044ad4bd8c5b551d5cc43c2d3f6ae9b111c7ca6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 19d8d7eb6a2cd92bb4132d5dfe7703995b1056b9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008073"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875234"
 ---
 # <a name="manage-archiving-in-skype-for-business-server"></a>管理存档中 Skype 业务服务器
 
@@ -62,17 +63,17 @@ ms.locfileid: "21008073"
 
 |**Cmdlet**|**说明**|
 |:-----|:-----|
-|Export-csarchivingdata  <br/> |导出已存储在业务 Server 存档数据库 Skype 的记录。  <br/> |
-|Get-csarchivingconfiguration  <br/> |返回有关组织的存档配置设置的信息。  <br/> |
-|Get-csarchivingpolicy  <br/> |返回有关组织的内部和外部通信存档策略的信息。  <br/> |
-|Grant-csarchivingpolicy  <br/> |将即时消息 (IM) 会话存档策略分配给用户或用户集。 通过这些策略，您可以存档在内部用户之间发生的所有 IM 会话，以及/或者存档在内部用户与外部伙伴之间发生的所有 IM 会话。  <br/> |
-|Invoke-csarchivingdatabasepurge  <br/> |手动清除存档数据库中的记录。  <br/> |
-|New-csarchivingconfiguration  <br/> |创建一组新的即时消息 (IM) 设置，这些设置可用于启用或禁用 IM 会话的自动保存功能，也可用于阻止无法存档的任何即时消息。  <br/> |
-|New-csarchivingpolicy  <br/> |创建新的即时消息 (IM) 会话存档策略。 通过这些策略，您可以存档在内部用户之间发生的所有 IM 会话，以及/或者存档在内部用户与外部伙伴之间发生的所有 IM 会话。  <br/> |
-|Remove-csarchivingconfiguration  <br/> |删除指定的存档设置集合，存档设置可用于启用或禁用即时消息 (IM) 会话自动保存功能，以及选择性地阻止任何无法存档的即时消息。  <br/> |
-|Remove-csarchivingpolicy  <br/> |删除存档策略，用于确定是否 Skype 业务服务器自动保存所有内部用户和/或内部用户和联盟的伙伴之间的所有 IM 会话之间进行的 IM 会话的指定即时消息 (IM)。  <br/> |
-|Set-csarchivingconfiguration  <br/> |修改即时消息 (IM) 存档配置选项的现有集合。  <br/> |
-|Set-csarchivingpolicy  <br/> |修改现有的即时消息 (IM) 存档策略。 通过存档策略，您可以存档在内部用户之间发生的所有 IM 会话和会议；您还可以存档在内部用户与联盟伙伴之间发生的会话。  <br/> |
-|设置 CsArchivingServer  <br/> |使您可以为一个或多个存档服务器指定新数据库位置。  <br/> |
+|Export-CsArchivingData  <br/> |导出已存储在业务 Server 存档数据库 Skype 的记录。  <br/> |
+|Get-CsArchivingConfiguration  <br/> |返回有关组织的存档配置设置的信息。  <br/> |
+|Get-CsArchivingPolicy  <br/> |返回有关组织的内部和外部通信存档策略的信息。  <br/> |
+|Grant-CsArchivingPolicy  <br/> |将即时消息 (IM) 会话存档策略分配给用户或用户集。 通过这些策略，您可以存档在内部用户之间发生的所有 IM 会话，以及/或者存档在内部用户与外部伙伴之间发生的所有 IM 会话。  <br/> |
+|Invoke-CsArchivingDatabasePurge  <br/> |手动清除存档数据库中的记录。  <br/> |
+|New-CsArchivingConfiguration  <br/> |创建一组新的即时消息 (IM) 设置，这些设置可用于启用或禁用 IM 会话的自动保存功能，也可用于阻止无法存档的任何即时消息。  <br/> |
+|New-CsArchivingPolicy  <br/> |创建新的即时消息 (IM) 会话存档策略。 通过这些策略，您可以存档在内部用户之间发生的所有 IM 会话，以及/或者存档在内部用户与外部伙伴之间发生的所有 IM 会话。  <br/> |
+|Remove-CsArchivingConfiguration  <br/> |删除指定的存档设置集合，存档设置可用于启用或禁用即时消息 (IM) 会话自动保存功能，以及选择性地阻止任何无法存档的即时消息。  <br/> |
+|Remove-CsArchivingPolicy  <br/> |删除存档策略，用于确定是否 Skype 业务服务器自动保存所有内部用户和/或内部用户和联盟的伙伴之间的所有 IM 会话之间进行的 IM 会话的指定即时消息 (IM)。  <br/> |
+|Set-CsArchivingConfiguration  <br/> |修改即时消息 (IM) 存档配置选项的现有集合。  <br/> |
+|Set-CsArchivingPolicy  <br/> |修改现有的即时消息 (IM) 存档策略。 通过存档策略，您可以存档在内部用户之间发生的所有 IM 会话和会议；您还可以存档在内部用户与联盟伙伴之间发生的会话。  <br/> |
+|Set-CsArchivingServer  <br/> |使您可以为一个或多个存档服务器指定新数据库位置。  <br/> |
    
 

@@ -1,5 +1,6 @@
 ---
 title: 管理会议加入和离开通知中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 摘要： 了解如何管理会议加入和离开通知中 Skype 业务服务器。
-ms.openlocfilehash: 33c20319142608f38451a547687bc1bc9eae47d1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7311850f2504b84a862f809b17077b15ec022bf1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371586"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892693"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>管理会议加入和离开通知中 Skype 业务服务器
  
@@ -35,7 +36,7 @@ ms.locfileid: "25371586"
 
 1. 以  RTCUniversalServerAdmins  组成员或者  Cs-ServerAdministrator  或  CsAdministrator  角色成员的身份登录计算机。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 3. 在命令提示符下，运行以下内容：
     

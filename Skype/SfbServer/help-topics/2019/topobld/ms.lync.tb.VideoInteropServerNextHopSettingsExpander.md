@@ -1,5 +1,6 @@
 ---
 title: 视频互操作服务器下一跃点设置
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 5a161404-b294-47fa-ad62-0e12bffcd8e4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机创建 VIS 池中 Skype 业务服务器。
-ms.openlocfilehash: 0a9b8681e0edbc1510987e59589332d10ddf6b38
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 9c10ac5f05fb88ce41699e890dd116013e78fde8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062477"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890562"
 ---
 # <a name="video-interop-server-next-hop-settings"></a>视频互操作服务器下一跃点设置
  

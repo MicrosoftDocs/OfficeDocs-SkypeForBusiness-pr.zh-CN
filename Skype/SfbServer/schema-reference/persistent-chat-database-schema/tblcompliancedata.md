@@ -1,5 +1,6 @@
 ---
 title: tblComplianceData
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,35 +10,36 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
-description: tblComplianceData 包含有尚未处理法规遵从性在适配器的法规遵从性事件。
-ms.openlocfilehash: 6fcee20a96a83a69a3671fe9255f1336590b42de
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: tblComplianceData 包含具有合规性适配器尚未处理的合规性事件。
+ms.openlocfilehash: e617f7821fcf026f279f333d45f526a1322509a1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885819"
 ---
 # <a name="tblcompliancedata"></a>tblComplianceData
  
-tblComplianceData 包含有尚未处理法规遵从性在适配器的法规遵从性事件。
+tblComplianceData 包含具有合规性适配器尚未处理的合规性事件。
   
 **列**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|cmplEventID  <br/> |bigint，不为空  <br/> |事件 id。  <br/> |
-|entryDate  <br/> |短格式不为空  <br/> |插入时 (可能是到目前为止在将来为 cmplType = 9，因为在这种情况下对应的项是只是一个占位符)。  <br/> |
-|cmplType  <br/> |int，不为空  <br/> | 法规遵从性事件类型： <br/>  1： 聊天 <br/>  2: backchat <br/>  3： 文件下载 <br/>  4： 文件上载 <br/>  9： 临时文件传输 <br/>  10： 聊天 （替换） 的删除 <br/>  11： 聊天清除 <br/> |
-|cmplTime  <br/> |bigint，不为空  <br/> |该事件的时间戳。  <br/> |
-|cmplChannelUri  <br/> |nvarchar (255) 不为空  <br/> |统一资源标识符 (URI) 的通道。  <br/> |
-|cmplChatID  <br/> |bigint  <br/> |聊天 （对应于 tblChat.chatId 表） 的 ID。  <br/> |
-|cmplUserID  <br/> |int，不为空  <br/> |（对应于 tblPrincipal.prinID 表） 的海报的主体 ID。  <br/> |
-|cmplUserUri  <br/> |nvarchar (255) 不为空  <br/> |用户的 URI。  <br/> |
-|cmplMessage  <br/> |nvarchar （最大）  <br/> |消息 （编码取决于 cmplType）。  <br/> |
+|cmplEventID  <br/> |bigint，不为 null  <br/> |事件 id。  <br/> |
+|entryDate  <br/> |smalldatetime，不为 null  <br/> |插入时间 (可能遥远将来对于 cmplType = 9，因为该条目在此情况下是只是一个占位符)。  <br/> |
+|cmplType  <br/> |int，不为 null  <br/> | 合规性事件的类型： <br/>  1： 聊天 <br/>  2： 聊天记录 <br/>  3： 文件下载 <br/>  4： 文件上载 <br/>  9： 临时文件传输 <br/>  10： 删除聊天 （通过替换） <br/>  11： 清除聊天 <br/> |
+|cmplTime  <br/> |bigint，不为 null  <br/> |该事件的时间戳。  <br/> |
+|cmplChannelUri  <br/> |nvarchar (255)，不为 null  <br/> |通道统一资源标识符 (URI)。  <br/> |
+|cmplChatID  <br/> |bigint  <br/> |聊天 ID （与 tblChat.chatId 表对应）。  <br/> |
+|cmplUserID  <br/> |int，不为 null  <br/> |（与 tblPrincipal.prinID 表对应） 的海报的主体 ID。  <br/> |
+|cmplUserUri  <br/> |nvarchar (255)，不为 null  <br/> |用户 URI。  <br/> |
+|cmplMessage  <br/> |nvarchar (max)  <br/> |消息 （编码取决于 cmplType）。  <br/> |
    
-**密钥**
+**关键字**
 
 |**列**|**说明**|
 |:-----|:-----|
-|cmplEventID  <br/> |为主键。  <br/> |
+|cmplEventID  <br/> |主键。  <br/> |
    
 

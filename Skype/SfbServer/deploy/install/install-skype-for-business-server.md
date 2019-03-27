@@ -1,5 +1,6 @@
 ---
 title: 在拓扑内的服务器上安装 Skype for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 摘要： 了解如何在拓扑中的每台服务器上安装了 Business Server 系统组件 Skype。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: c6122bea5af5be0e08f2510a6fae4b9c0e406df4
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: caa933e3469227fe0fa2aab680f53ddee445256e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887264"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891900"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>在拓扑内的服务器上安装 Skype for Business Server
  
 **摘要：** 了解如何在拓扑中的每台服务器上安装了 Business Server 系统组件 Skype。 从[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)业务服务器下载 Skype 的免费试用版。
   
-一旦拓扑加载到中央管理存储和 Active Directory 知道哪些服务器将执行哪些角色，您需要在每个拓扑中的服务器上安装 Business Server system 的 Skype。 您可以按照任意顺序完成第 1 步至第 5 步。 但第 6、7、8 步必须在第 1 步至第 5 步之后按照图表所示顺序依次完成。 安装 Business Server system 的 Skype 是 8 的步骤 7。
+一旦拓扑加载到中央管理存储和 Active Directory 知道哪些服务器将执行哪些角色，您需要在每个拓扑中的服务器上安装 Business Server system 的 Skype。 第 1 步至第 5 步可以按任意顺序执行。 但第 6、7、8 步必须在第 1 步至第 5 步之后按照图表所示顺序依次完成。 安装 Business Server system 的 Skype 是 8 的步骤 7。
   
 ![概述图表。](../../media/6855713d-a5b4-4e5b-8f83-fef3d7a5ec5d.png)
   
@@ -117,7 +118,7 @@ ms.locfileid: "23887264"
     > Skype 业务服务器包括 160、SHA-2 套件支持 (160、SHA-2 使用摘要长度 224 256、 384 或 512 位) 的摘要式哈希和签名算法来从运行 Windows 10、 Windows 8、 Windows 7、 Windows Server 2012 R2、 Windows 的客户端连接Server 2012 或 Windows Server 2008 R2 操作系统。 要支持使用 SHA-2 套件进行外部访问，外部证书必须由公共 CA 颁发，公共 CA 也可颁发具有相同位长度摘要的证书。 
   
     > [!IMPORTANT]
-    > 选择哪种哈希摘要和签名算法取决于将使用证书的客户端和服务器，客户端和服务器将与其通信的其他计算机和设备也必须知道如何使用证书中使用的算法。 上的摘要式长度受支持的操作系统和某些客户端应用程序中的信息，请参阅[Windows PKI 博客-SHA2 和 Windows](https://go.microsoft.com/fwlink/p/?LinkId=287002)。 
+    > 选择哪种哈希摘要和签名算法取决于将使用证书的客户端和服务器，客户端和服务器将与其通信的其他计算机和设备也必须知道如何使用证书中所用的算法。 上的摘要式长度受支持的操作系统和某些客户端应用程序中的信息，请参阅[Windows PKI 博客-SHA2 和 Windows](https://go.microsoft.com/fwlink/p/?LinkId=287002)。 
   
     每台 Standard Edition 或前端服务器最多需要四个证书：oAuthTokenIssuer 证书、默认证书、Web 内部证书和 Web 外部证书。 但是，也可以请求和分配单个具有相应使用者替代名称条目的默认证书以及 oAuthTokenIssuer 证书。 有关证书要求的详细信息，请参阅[环境要求 Skype 业务服务器](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)或[服务器要求的业务服务器 2019 Skype](../../../SfBServer2019/plan/system-requirements.md)。
     
@@ -158,9 +159,9 @@ ms.locfileid: "23887264"
     
 15. 在“**正在执行命令**”页上，单击“**下一步**”。
     
-16. 在“**联机证书请求状态**”页上，检查返回的信息。 请注意，证书已发布并安装到本地证书存储中。 如果其报告为具有已颁发并安装，但它并不有效，请确保已安装程序 CA 根证书服务器的受信任根 CA 存储中。 有关如何检索受信任根 CA 证书的信息，请参阅 CA 文档。 如果需要查看检索的证书，请单击“**查看证书详细信息**”。 默认情况下，选中为**业务服务器证书用法的 Skype 向其分配证书**复选框。 如果要手动分配证书，请清除此复选框，然后单击“**完成**”。
+16. On the **Online Certificate Request Status** page, review the information returned. You should note that the certificate was issued and installed into the local certificate store. 如果其报告为具有已颁发并安装，但它并不有效，请确保已安装程序 CA 根证书服务器的受信任根 CA 存储中。 Refer to your CA documentation on how to retrieve a Trusted Root CA certificate. If you need to view the retrieved certificate, click **View Certificate Details**. 默认情况下，选中为**业务服务器证书用法的 Skype 向其分配证书**复选框。 If you want to manually assign the certificate, clear the check box, and then click **Finish**.
     
-17. 如果您在前一页上的**业务服务器证书用法的 Skype 向其分配证书**清除复选框，您将看到**证书分配**页。 单击“**下一步**”。
+17. 如果您在前一页上的**业务服务器证书用法的 Skype 向其分配证书**清除复选框，您将看到**证书分配**页。 Click **Next**.
     
 18. 在“**证书存储**”页上，选择已请求的证书。如果要查看证书，请单击“**查看证书详细信息**”，然后单击“**下一步**”继续。
     
@@ -185,7 +186,7 @@ ms.locfileid: "23887264"
 
 1. 检查“**步骤 4：启动服务**”的先决条件。
     
-2. 如果是具有至少三台服务器的 Enterprise Edition 前端池，将使用 Windows Fabric，同时您必须使用 **Start-CsPool** cmdlet。 如果使用了一台服务器，它始终是与 Standard Edition 的情况，您必须使用**Start-cswindowsservice** cmdlet。 在此示例，我们使用有三个前端服务器池中的 Enterprise Edition 中打开**Skype 的业务 Server Management Shell**并运行**开始 CsPool** cmdlet，如下图所示。 对于其他所有角色（包括 Standard Edition 服务器），您必须使用 **Start-CsWindowsService**。 要部署前端角色之外的角色，请参见这些特定角色的说明文档。
+2. If this is an Enterprise Edition Front End pool with at least three servers, Windows Fabric is used, and you must use the **Start-CsPool** cmdlet. 如果使用了一台服务器，它始终是与 Standard Edition 的情况，您必须使用**Start-cswindowsservice** cmdlet。 在此示例，我们使用有三个前端服务器池中的 Enterprise Edition 中打开**Skype 的业务 Server Management Shell**并运行**开始 CsPool** cmdlet，如下图所示。 For all other roles, including Standard Edition server, you must use **Start-CsWindowsService**. To deploy roles other than the Front End role, see documentation for those particular roles.
     
      ![启动 Skype for Business 服务。](../../media/f52ec719-9476-419f-9a78-df08368395f7.png)
   

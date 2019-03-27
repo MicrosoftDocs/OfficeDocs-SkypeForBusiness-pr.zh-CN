@@ -1,5 +1,6 @@
 ---
 title: 规划业务服务器中 Skype 的紧急服务
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: 了解业务 Server 企业语音，包括位置获取 Skype 中的增强型 9-1-1 (E9-1-1) 服务和呼叫路由。
-ms.openlocfilehash: 19c660152903c1091612060bfd808bea5a116d2f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 4dba79c1c1b1b1fed0f60ea4f4c4a9a1d1baea92
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884390"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893808"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>规划业务服务器中 Skype 的紧急服务
 
@@ -89,7 +90,7 @@ Skype 业务服务器支持两种方法将紧急呼叫路由到 E9-1-1 服务提
 
 ## <a name="routing-e9-1-1-calls-using-a-sip-trunk"></a>使用 SIP 中继路由 E9-1-1 呼叫
 
-使用 SIP 中继连接至限定的 E9-1-1 服务提供商是可用于部署 E9-1-1 的一种方式。 有关使用 ELIN 网关以连接到公用电话交换网 (PSTN) 的详细信息-基于 E9-1-1 服务提供程序，请参阅[使用 ELIN 网关路由 E9-1-1 呼叫](https://technet.microsoft.com/library/5a3997e3-898d-49cb-922a-4184c3373350.aspx)。
+使用 SIP 中继连接至限定的 E9-1-1 服务提供商是可用于部署 E9-1-1 的一种方式。有关使用 ELIN 网关连接至基于公用电话交换网 (PSTN) 的 E9-1-1 服务提供商的详细信息，请参阅[Routing E9-1-1 Calls by Using an ELIN Gateway](https://technet.microsoft.com/library/5a3997e3-898d-49cb-922a-4184c3373350.aspx)。
 
 下图显示了如何将紧急呼叫从路由 Skype 业务服务器到公共安全应答点 (PSAP) 时使用的 SIP 中继和合格的 E9-1-1 服务提供商。
 
@@ -124,7 +125,7 @@ Skype 业务客户端从位置信息服务获取其位置，位置中包括 ELIN
 ELIN 网关仅支持来自您组织的网络中的紧急呼叫。它们不支持从您的网络外发出的紧急呼叫。
 
 > [!NOTE]
-> 有关 SIP 中继连接用于紧急呼叫详细信息，请参阅[使用 SIP 中继路由 E9-1-1 呼叫](https://technet.microsoft.com/library/157753c3-fe74-4e2c-81da-ee06911d4cc2.aspx)。
+> 有关将 SIP 中继连接用于紧急呼叫的详细信息，请参阅[Routing E9-1-1 Calls by Using a SIP Trunk](https://technet.microsoft.com/library/157753c3-fe74-4e2c-81da-ee06911d4cc2.aspx)。
 
 下图显示了如何将紧急呼叫时从路由 Skype 业务服务器至 PSAP 使用 ELIN 网关。
 

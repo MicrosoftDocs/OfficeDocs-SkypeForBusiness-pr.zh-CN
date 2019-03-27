@@ -1,5 +1,6 @@
 ---
 title: 业务服务器 Skype 中查看 PIN 策略信息
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: 摘要： 查看用户 PIN 策略信息的 Skype 业务服务器。
-ms.openlocfilehash: 8401f429184122539f66186c470034f2829536b3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5fdd042f01c325bfffedbfa32fa14d9e667ef7be
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21017153"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888921"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>业务服务器 Skype 中查看 PIN 策略信息
  

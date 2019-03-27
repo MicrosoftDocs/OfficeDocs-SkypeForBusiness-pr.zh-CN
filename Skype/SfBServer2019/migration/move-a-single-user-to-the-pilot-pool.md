@@ -1,5 +1,6 @@
 ---
 title: 将单个用户移动到试点池
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 您可以将用户从旧池移动到您 Skype 的 Skype 业务 Server 2019 控制面板或 Skype 用于业务服务器 2019年命令行管理程序的业务服务器 2019年试点池。 下面的示例中，在注册器池列中，在 pool01.contoso.net 旧池中，且所有六个这些用户连接到该池。 使用以下过程将用户移至您 Skype 业务服务器 2019年池 Skype 业务 Server 2019 Control Panel 和 Skype 用于业务 Server Management Shell。
-ms.openlocfilehash: 6742c5fc00c9d53030ac32ee698686bb8b11fa07
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 94896ce2ea05a3102d5a7643e3f26430e74bfe19
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372743"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880247"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>将单个用户移动到试点池
 
@@ -27,9 +28,9 @@ ms.locfileid: "25372743"
     
 3. 单击**用户**，单击**搜索**，然后单击**查找**。
     
-4. 选择您想要将移动到 Skype 业务服务器 2019年池的用户。 本示例中，我们将移动用户 Sara Davis。
+4. 选择您想要将移动到 Skype 业务服务器 2019年池的用户。 在此示例中，将移动用户 Sara Davis。
     
-5. 在“**操作**”菜单中，选择“**将所选用户移动到池**”。
+5. 在“操作”**** 菜单中，选择“将所选用户移动到池”****。
     
 6. 从下拉列表中，选择业务服务器 2019年池 Skype。
     

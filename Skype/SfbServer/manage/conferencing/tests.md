@@ -1,5 +1,6 @@
 ---
 title: 测试电话拨入式会议中的业务服务器 Skype
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 摘要： 了解如何为业务服务器在 Skype 测试电话拨入式会议。
-ms.openlocfilehash: e86e2c136edd8520f12944768e327e0870106f6e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 99d91a4d3e9729da7b86f723f4a980a887d88b5f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372837"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880915"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>测试电话拨入式会议中的业务服务器 Skype
  
@@ -26,7 +27,7 @@ ms.locfileid: "25372837"
 
 1. 以  RTCUniversalServerAdmins  组成员或者  Cs-ServerAdministrator  或  CsAdministrator  角色成员的身份登录计算机。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 3. 在命令提示符下，运行以下内容：
     
@@ -42,7 +43,7 @@ ms.locfileid: "25372837"
 
 1. 以  RTCUniversalServerAdmins  组成员或者  Cs-ServerAdministrator  或  CsAdministrator  角色成员的身份登录计算机。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 3. 在命令提示符下，运行以下内容：
     
@@ -66,7 +67,7 @@ ms.locfileid: "25372837"
 
 1. 以  RTCUniversalServerAdmins  组成员或者  Cs-ServerAdministrator  或  CsAdministrator  角色成员的身份登录计算机。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 3. 在命令提示符下，运行以下内容：
     

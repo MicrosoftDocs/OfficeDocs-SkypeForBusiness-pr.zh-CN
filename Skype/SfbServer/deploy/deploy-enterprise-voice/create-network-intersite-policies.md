@@ -1,5 +1,6 @@
 ---
 title: 创建网络站点间策略中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: 创建网络站点间策略，使用 Skype 中的企业语音呼叫允许控制业务服务器。
-ms.openlocfilehash: cc07db85ec27a5ebd84b3604017048515ef2fcee
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6619787bf071afe719c715de39e23b992d6e6ede
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890131"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880156"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>创建网络站点间策略中 Skype 业务服务器
  
@@ -33,7 +34,7 @@ ms.locfileid: "23890131"
   
 ### <a name="to-create-a-network-inter-site-policy"></a>创建网络站点间策略
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 2. 运行 New-CsNetworkInterSitePolicy cmdlet 创建网络站点间策略并为两个具有直接交叉链接的站点应用相应的带宽策略配置文件。例如，运行：
     
@@ -45,10 +46,10 @@ ms.locfileid: "23890131"
     
 ## <a name="see-also"></a>另请参阅
 
-[新 CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
+[New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
   
-[Get-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/get-csnetworkintersitepolicy?view=skype-ps)
+[Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/get-csnetworkintersitepolicy?view=skype-ps)
   
-[Set-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/set-csnetworkintersitepolicy?view=skype-ps)
+[Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/set-csnetworkintersitepolicy?view=skype-ps)
   
-[Remove-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkintersitepolicy?view=skype-ps)
+[Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkintersitepolicy?view=skype-ps)

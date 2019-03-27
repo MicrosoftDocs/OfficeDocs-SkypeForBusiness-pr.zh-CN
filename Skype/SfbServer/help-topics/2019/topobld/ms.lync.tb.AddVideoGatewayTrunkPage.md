@@ -1,5 +1,6 @@
 ---
 title: 添加视频网关中继
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 9485bea9-c646-4eb7-b3d0-dcbc57cdfbda
 ROBOTS: NOINDEX, NOFOLLOW
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机创建 VIS 池中 Skype 业务服务器。
-ms.openlocfilehash: cb4bfccaf9bef00afd87f9f24b588358b86a3bf1
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: c4222011089aaa1f650b24c1d5cc51f9af9fe3ce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082648"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899685"
 ---
 # <a name="add-video-gateway-trunk"></a>添加视频网关中继
  

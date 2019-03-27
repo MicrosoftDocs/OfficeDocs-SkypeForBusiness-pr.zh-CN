@@ -1,5 +1,6 @@
 ---
 title: 云连接器部署故障排除
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: 解决云连接器 Edition 部署。
-ms.openlocfilehash: 2290d032f1461c37c31d138510388f17a52f5843
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a80d6977ff565d5d06f2487e5fb3ab8293b5e000
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531903"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894464"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>云连接器部署故障排除
  
@@ -67,7 +68,7 @@ ms.locfileid: "26531903"
     
   - 如果重新启动管理服务，则的时间间隔，然后重试的计数将重置为其初始的值。
     
-## <a name="troubleshooting"></a>故障排除
+## <a name="troubleshooting"></a>疑难解答
 
 以下是常见的问题的解决方案：
   
@@ -179,7 +180,7 @@ ms.locfileid: "26531903"
     
 - **问题： 运行在主机上部署的设备时，获取 CcRunningVersion cmdlet 返回一个空值。**
     
-  **解决方法：** 从 1.3.4 或 1.3.8 升级到 1.4.1 之后，可能会出现此情况。使用 .msi 安装 1.4.1 版之后，必须先运行 `Register-CcAppliance`，才能运行任何其他 cmdlet。`Register-CcAppliance` 会将 module.ini 文件从 %UserProfile%\CloudConnector 迁移到 %ProgramData%\CloudConnector。如果你没有运行此 cmdlet，将会在 %ProgramData%\CloudConnector 文件夹中创建一个新的 module.ini 文件，并替换 1.3.4 或 1.3.8 的运行/备份版本信息。
+  **解决方法：** 从 1.3.4 或 1.3.8 到 1.4.1 升级时可能发生错误。 使用.msi 安装版本 1.4.1 后，您必须运行`Register-CcAppliance`在运行任何其他 cmdlet 之前。 `Register-CcAppliance`将迁移 module.ini 文件从 %userprofile%\cloudconnector%programdata%\cloudconnector。 如果您错过了它，则新 module.ini 将 %ProgramData%\CloudConnector 文件夹中创建，并将 1.3.4 或 1.3.8 的运行/备份版本信息。
     
   比较 %UserProfile%\CloudConnector 和 %ProgramData%\CloudConnector 文件夹中的 module.ini 文件。 如果有区别，删除 %ProgramData%\CloudConnector 并重新运行中的 module.ini 文件`Register-CcAppliance`。 您还可以修改手动向正确运行和备份版本的文件。
     

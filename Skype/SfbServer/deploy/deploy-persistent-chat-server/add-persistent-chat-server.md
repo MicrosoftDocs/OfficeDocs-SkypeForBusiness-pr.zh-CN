@@ -1,5 +1,6 @@
 ---
 title: 向您 Skype 业务服务器 2015年拓扑添加持久聊天服务器
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 摘要： 阅读本主题可了解如何向您 Skype 业务服务器 2015年拓扑添加持久聊天服务器。
-ms.openlocfilehash: ff2486db39546e88c4a75e27875a84a2c3b939ae
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 16c886e13ff56d0aa059ec676d152d332d0023db
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371980"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893312"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>向您 Skype 业务服务器 2015年拓扑添加持久聊天服务器
  

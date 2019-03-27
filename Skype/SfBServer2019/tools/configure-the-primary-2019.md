@@ -1,5 +1,6 @@
 ---
 title: 配置主管理服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要： 主管理服务器配置、 安装 System Center Operations Manager，并导入管理包的 Skype 的业务服务器 2019年。
-ms.openlocfilehash: 39ed469227c607084dc030fa003700074a6aae9a
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a1e77a46b450e7f2e8f706099224ae314618ed78
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536008"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895675"
 ---
 # <a name="configure-the-primary-management-server"></a>配置主管理服务器
 

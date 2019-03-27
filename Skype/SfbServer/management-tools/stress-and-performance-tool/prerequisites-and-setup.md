@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Stress and Performance Tool 的先决条件和设置
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 12/20/2018
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Skype for Business Server 2015 Stress and Performance Tool 的要求或先决条件。 如何安装或设置 Stress and Performance Tool。
-ms.openlocfilehash: fbc04202ea9b0719be9b8221d43171d58fe772b7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 840891a7a356866755e89a7ef63e23fb62bfa12f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995289"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895088"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Skype for Business Stress and Performance Tool 的先决条件和设置
  

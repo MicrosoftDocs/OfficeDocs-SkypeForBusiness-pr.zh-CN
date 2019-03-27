@@ -1,5 +1,6 @@
 ---
 title: 防病毒扫描排除的 Skype 业务服务器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Overview of Business server 防病毒扫描程序与 Skype 的互操作。
-ms.openlocfilehash: 782f7bc6fe004eb5106fa07c93b6f22993849d98
-ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
+ms.openlocfilehash: 377c9e8fb9de71187978fe541a23f43cc2282749
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24975192"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895963"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>防病毒扫描排除的 Skype 业务服务器
 
@@ -143,7 +144,7 @@ Overview of Business server 防病毒扫描程序与 Skype 的互操作。
 
   - 文件共享存储（在拓扑生成器中指定）。文件存储在拓扑生成器中指定。
 
-  - SQL Server 数据和日志文件，包括后端数据库、用户存储、存档存储、监控存储和应用程序存储的这些文件。 可以在拓扑生成器中指定数据库和日志文件。 有关每个数据库的数据和日志文件的详细信息，包括默认名称，请参阅[SQL Server 数据和日志文件放置](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)部署文档中。
+  - SQL Server 数据和日志文件，包括后端数据库、用户存储、存档存储、监控存储和应用程序存储的这些文件。可以在拓扑生成器中指定数据库和日志文件。有关每个数据库的数据和日志文件的详细信息（包括默认名称），请参阅部署文档中的 [SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)。
 
   - SQL Server 数据和日志文件，包括那些前端数据库 Skype 业务存储和 RtcDatabase 存储。 它们通常位于 %localdrive%\CSData 下。
 

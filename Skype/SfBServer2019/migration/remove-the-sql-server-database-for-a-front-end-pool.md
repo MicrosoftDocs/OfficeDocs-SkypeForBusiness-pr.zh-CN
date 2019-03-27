@@ -1,5 +1,6 @@
 ---
 title: 删除前端池的 SQL Server 数据库
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 删除前端池或重新配置要使用不同的数据库的池后，您可以删除承载池数据的 SQL Server 数据库。 使用以下过程可从拓扑生成器中，删除定义，然后删除数据库服务器的数据库和日志文件。
-ms.openlocfilehash: 35c9429fc16aef886945f8b0adcd5894ce40b834
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4ba60a905d5f4cda56cf5277e1be2db80d906ca0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373124"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893780"
 ---
 # <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>删除前端池的 SQL Server 数据库
 

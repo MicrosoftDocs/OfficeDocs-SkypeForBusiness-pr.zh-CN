@@ -1,5 +1,6 @@
 ---
 title: 准备架构（简介）
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,15 +12,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
-description: 若要启动任务的业务服务器 2015 Skype 的扩展架构，开始时准备架构页上。 单击下一步继续架构准备。
-ms.openlocfilehash: cd0103b6f6f17c03e32991e8f95d7b42e4899fe4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 若要启动任务以扩展架构的 Skype 的业务服务器 2015年，开始在准备架构页上。 单击“下一步”继续执行架构准备。
+ms.openlocfilehash: 7454e82fac3c2af03d640d499feeaf54dcdf38f7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892883"
 ---
 # <a name="prepare-schema-intro"></a>准备架构（简介）
  
-若要启动任务的业务服务器 2015 Skype 的扩展架构，开始时**准备架构**页上。 单击“**下一步**”继续执行架构准备。
+若要启动任务以扩展架构的 Skype 的业务服务器 2015年，开始在**准备架构**页上。 单击“**下一步**”继续执行架构准备。
   
 

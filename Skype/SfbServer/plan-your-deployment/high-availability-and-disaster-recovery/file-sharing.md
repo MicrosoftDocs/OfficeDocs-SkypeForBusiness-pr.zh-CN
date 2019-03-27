@@ -1,5 +1,6 @@
 ---
 title: 为业务 Server Skype 中文件共享高可用性
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
 description: 了解业务服务器，使用 DFS 确保您 Skype 中的文件共享的高可用性。
-ms.openlocfilehash: 645aa70ffc0c42cddb6941c9766cb91bed898dc8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0b5d2f577775635b95add15dd7b7576ca24c883f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989907"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894207"
 ---
 # <a name="file-sharing-high-availability-in-skype-for-business-server"></a>为业务 Server Skype 中文件共享高可用性
  

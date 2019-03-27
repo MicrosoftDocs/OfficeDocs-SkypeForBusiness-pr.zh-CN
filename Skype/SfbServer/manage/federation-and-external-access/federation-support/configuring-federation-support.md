@@ -1,5 +1,6 @@
 ---
-title: 为业务联机客户的 Skype 配置联盟支持
+title: 为 Skype for Business Online 客户配置联合身份验证支持
+ms.reviewer: ''
 ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
 ms:contentKeyID: 48185669
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '如果您的组织中部署 for Business 的 Skype，您可以与联盟的域的一个或多个 Skype 业务联机客户。 '
-ms.openlocfilehash: 978da18a4ae639e52dedd6971c1a2291c94cb9f1
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 70eda58c5d01b09c9f3e00ef8f3ac0391a90ed07
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223365"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899720"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>为业务服务器 Skype 中配置业务联机客户的 Skype 联合身份验证的支持 
 
@@ -70,7 +71,7 @@ ms.locfileid: "27223365"
     
       - **标识**要创建的托管服务提供商指定唯一的字符串值标识符。 请注意，如果某个现有提供商已使用该 Identity 进行配置，该命令将失败。
     
-      - **ProxyFQDN**指定的宿主提供商使用的代理服务器的完全限定的域名 (FQDN)。 不能修改此值。 如果承载服务提供商更改了其代理服务器，则您必须删除该条目，然后为提供商重新创建相应条目。
+      - **ProxyFQDN** 指定宿主提供程序所使用的代理服务器的完全限定域名 (FQDN)。 不能修改此值。 如果承载服务提供商更改了其代理服务器，则您必须删除该条目，然后为提供商重新创建相应条目。
     
       - **VerificationLevel**指定如何 （或者是否） 验证从托管服务提供商发送的邮件以确保它们已从该提供商发送。
     

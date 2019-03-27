@@ -1,5 +1,6 @@
 ---
 title: 管理组织的 SIP 联盟域
+ms.reviewer: ''
 ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
 ms:contentKeyID: 48679565
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 了解如何管理和配置您可以与，联盟的 SIP 域
-ms.openlocfilehash: 565971ccf5cd4cbf62f08acc91e15f9615d350f7
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 83623b41e0d9adb1e4539958344214fd2ebe0db9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223085"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892257"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>管理您的组织中 Skype 业务服务器的 SIP 联盟域
 
@@ -90,10 +91,10 @@ ms.locfileid: "27223085"
 
 ## <a name="see-also"></a>另请参阅
 
-[配置策略以控制联盟的用户访问](../external-access-policies/configure-policies-to-control-federated-user-access.md)  
+[配置策略以控制联盟用户访问](../external-access-policies/configure-policies-to-control-federated-user-access.md)  
 
 [启用或禁用联盟和公共 IM 连接](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 
-[启用或禁用联盟伙伴的发现](../access-edge/enable-or-disable-discovery-of-federation-partners.md)
+[启用或禁用联盟伙伴发现](../access-edge/enable-or-disable-discovery-of-federation-partners.md)
   
 

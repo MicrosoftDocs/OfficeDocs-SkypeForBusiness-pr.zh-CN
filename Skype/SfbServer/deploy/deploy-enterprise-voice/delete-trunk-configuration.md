@@ -1,5 +1,6 @@
 ---
 title: 删除现有的 SIP 中继配置设置中 Skype 业务服务器集合
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 摘要： 了解如何使用适用于业务 Server Control Panel Skype 删除中继配置设置的集合。
-ms.openlocfilehash: 27e022588798e848cf690bb643d921e46d827b39
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: da86cbaf45afa47de580c02ab74e3b0b9bb344bf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890535"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890548"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>删除现有的 SIP 中继配置设置中 Skype 业务服务器集合
  
@@ -52,7 +53,7 @@ SIP 中继配置设置可定义中介服务器与服务提供商的公用电话�
     
 5. 在**业务 Server Control Panel 的 Skype**对话框中单击**确定**。
     
-6. 如果你改变了想法并决定不删除集合，请单击“**提交**”，然后单击“**取消所有未提交的更改**”。 **Skype 的业务 Server Control Panel**对话框出现时，单击**确定**。
+6. If you change your mind and decide not to delete the collection, click **Commit** and then click **Cancel All Uncommitted Changes**. **Skype 的业务 Server Control Panel**对话框出现时，单击**确定**。
     
 ## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>使用 Skype 业务 Server 命令行管理程序 Cmdlet 删除中继配置设置
 

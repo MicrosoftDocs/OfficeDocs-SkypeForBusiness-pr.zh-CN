@@ -1,5 +1,6 @@
 ---
-title: 音频视频会议 （规划工具）
+title: Audio Video Conferencing (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,19 +13,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
-description: Skype 业务服务器 2015年音频/视频 (A / V) 会议允许用户参与实时音频或视频会议。
-ms.openlocfilehash: a8261a81a675a60ec9d420192d05ec2e9d33ff28
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Skype 的业务服务器 2015年音频/视频 (A / V) 会议使用户能够参与实时音频或视频会议。
+ms.openlocfilehash: 300b819a87de1397c5d19aff6086347cff769b4a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878583"
 ---
-# <a name="audio-video-conferencing-planning-tool"></a>音频视频会议 （规划工具）
+# <a name="audio-video-conferencing-planning-tool"></a>Audio Video Conferencing (Planning Tool)
  
-Skype 业务服务器 2015年音频/视频 (A / V) 会议允许用户参与实时音频或视频会议。
+Skype 的业务服务器 2015年音频/视频 (A / V) 会议使用户能够参与实时音频或视频会议。
   
 有关在组织中启用 A/V 会议的规划详细信息，请参阅以下主题及其子主题： 
   
-- [规划会议在 Skype 的业务服务器 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
     
 

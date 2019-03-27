@@ -1,5 +1,6 @@
 ---
-title: 添加前端监控存储页
+title: 添加前端监控存储页面
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 description: 您定义监视 SQL Server 存储通过配置以下属性：
-ms.openlocfilehash: ea2a477bc970f0f431f2290b40bcb2b100ccc942
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e68383ba75c89460ba599aa083e01db1151fdd2f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967717"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893951"
 ---
-# <a name="add-front-end-monitoring-store-page"></a>添加前端监控存储页
+# <a name="add-front-end-monitoring-store-page"></a>添加前端监控存储页面
  
 您通过配置以下属性的**定义监视 SQL Server 存储**：
   

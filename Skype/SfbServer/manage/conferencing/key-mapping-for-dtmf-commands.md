@@ -1,5 +1,6 @@
 ---
 title: 管理业务服务器中 Skype 的 DTMF 命令的键映射
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: 摘要： 了解如何管理业务服务器中 Skype 的双音多频 (DTMF) 命令的键映射。
-ms.openlocfilehash: c745a621704c677ffb36acb4667021e9734ca398
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 33ab031e6032b6246dd637bc55c9ec6b600f0c82
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374876"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898069"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>管理业务服务器中 Skype 的 DTMF 命令的键映射
  
@@ -30,7 +31,7 @@ ms.locfileid: "25374876"
 
 1. 以  RTCUniversalServerAdmins  组成员或者  Cs-ServerAdministrator  或  CsAdministrator  角色成员的身份登录计算机。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 3. 若要查看用于电话拨入式会议的 DTMF 设置，请在命令提示符下运行下面的命令：
     

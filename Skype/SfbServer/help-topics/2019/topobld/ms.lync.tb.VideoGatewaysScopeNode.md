@@ -1,5 +1,6 @@
 ---
 title: 视频网关范围
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a3adee56-819e-48a5-a5a8-673eca45ec16
 ROBOTS: NOINDEX, NOFOLLOW
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机创建 VIS 池中 Skype 业务服务器。
-ms.openlocfilehash: f9510524e3f72a5b4d9a13aa0ccfd3a8bf657655
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: a90b13d4d53187c6b9d898f79f918ed5357f68b3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064362"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890716"
 ---
 # <a name="video-gateways-scope"></a>视频网关范围
  

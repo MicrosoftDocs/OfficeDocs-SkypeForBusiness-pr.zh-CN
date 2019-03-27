@@ -1,5 +1,6 @@
 ---
 title: Plan network requirements for Skype for Business
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 摘要： 实现 Skype 业务服务器之前查看下面的网络组件注意事项。
-ms.openlocfilehash: e05e40bc460ddddc6d9576d9842ab592f16e1481
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 338a2d273fbba2bd006c5ed5acdd878338333b8a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408170"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877844"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
 **摘要：** 实现 Skype 业务服务器之前查看下面的网络组件注意事项。
 
-这些主题中的信息在白皮书 [Lync Server 网络规划、监控和故障排除](https://www.microsoft.com/en-us/download/details.aspx?id=39084)中也有讨论，且更加详细、深入。 而内容是指显式 Lync 2010 和 Lync 2013，业务服务器 Skype 的注意事项保持不变。
+在[网络规划、 监控设备以及与 Lync Server 疑难解答](https://www.microsoft.com/en-us/download/details.aspx?id=39084)的其他详细信息和深度白皮书还讨论这些主题中的信息。 而内容是指显式 Lync 2010 和 Lync 2013，业务服务器 Skype 的注意事项保持不变。
 
 同样，如果您的网络涉及-wi-fi 以及有线的访问，该白皮书[提供通过 Wi-fi Lync 2013 Real-Time Communications](https://www.microsoft.com/en-us/download/details.aspx?id=36494)是参考资料，并且同样适用于业务服务器 Skype。
 
@@ -47,7 +48,7 @@ Network performance and needs are directly linked to the traffic load placed on 
 
 网络要求的音频/视频 (A / V) 中的 Business Server Skype 部署包括以下：
 
-- 如果您正在部署一台边缘服务器或边缘池使用 DNS 负载平衡，您可以配置为执行网络地址转换 (NAT) 的_外部_防火墙。 您不能配置_内部_防火墙执行 nat。 有关详细信息，请参阅[端口和防火墙的规划](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning)。
+- 如果您正在部署一台边缘服务器或边缘池使用 DNS 负载平衡，您可以配置为执行网络地址转换 (NAT) 的_外部_防火墙。 您无法配置_internal_防火墙以执行 NAT。 有关详细信息，请参阅[端口和防火墙的规划](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning)。
 
     > [!IMPORTANT]
     > 如果您有一个边缘池，并使用硬件负载平衡器，您必须在边缘服务器上使用公共 IP 地址和在无法使用 NAT 的服务器或池支持 NAT 的设备 （例如，防火墙装置或 LAN 切换。 有关详细信息，请参阅[Skype 业务服务器中的边缘服务器方案](../edge-server-deployments/scenarios.md)。
@@ -80,21 +81,21 @@ Network performance and needs are directly linked to the traffic load placed on 
 
 |规则名称 |源 IP |目标 IP |协议 |源端口 |目标端口 |身份验证要求 |
 |:--- |:--- |:--- |:--- |:---|:---|:--- |
-|A/V 边缘服务器内部入站|任何  |A/V 边缘服务器内部|UDP 和 TCP|任何 |任何 |不进行身份验证|
-|A/V 边缘服务器外部入站|任何  |A/V 边缘服务器外部|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|A/V 边缘服务器内部入站|任意  |A/V 边缘服务器内部|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|A/V 边缘服务器外部入站|任意  |A/V 边缘服务器外部|UDP 和 TCP|任何 |任何 |不进行身份验证|
 |A/V 边缘服务器内部出站|A/V 边缘服务器内部  |A/V 边缘服务器外部 |UDP 和 TCP|任何 |任何 |不进行身份验证|
-|A/V 边缘服务器外部出站|A/V 边缘服务器外部 |任何 |UDP 和 TCP|任何 |任何 |不进行身份验证|
-|中介服务器入站|任何  |中介服务器 |UDP 和 TCP|任何 |任何 |不进行身份验证|
-|中介服务器出站|中介服务器  |任何|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|A/V 边缘服务器外部出站|A/V 边缘服务器外部 |任意 |UDP 和 TCP|任何 |任何 |不进行身份验证|
+|中介服务器入站|任意  |中介服务器 |UDP 和 TCP|任何 |任何 |不进行身份验证|
+|中介服务器出站|中介服务器  |任意|UDP 和 TCP|任何 |任何 |不进行身份验证|
 |会议助理入站|任意  |运行会议助理的前端服务器 |UDP 和 TCP|任何 |任何 |不进行身份验证|
-|会议助理出站|运行会议助理的前端服务器  |任何|UDP 和 TCP|任何 |任何 |不进行身份验证|
-|A/V 会议入站|任何|前端服务器|UDP 和 TCP|任何 |任何 |不进行身份验证|
-|A/V 会议出站|前端服务器|任何|UDP 和 TCP|任何 |任何 |不进行身份验证|
-|Exchange 入站|任何|Exchange 统一消息|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|会议助理出站|运行会议助理的前端服务器  |任意|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|A/V 会议入站|任意|前端服务器|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|A/V 会议出站|前端服务器|任意|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|Exchange 入站|任意|Exchange 统一消息|UDP 和 TCP|任何 |任何 |不进行身份验证|
 |应用程序共享服务器入站|任意|应用程序共享服务器|UDP 和 TCP|任何 |任何 |不进行身份验证|
-|应用程序共享服务器出站|应用程序共享服务器| 任何 |UDP 和 TCP|任何 |任何 |不进行身份验证|
-|Exchange 出站|Exchange 统一消息|任何|UDP 和 TCP|任何 |任何 |不进行身份验证|
-|客户端| 任何  |任何|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|应用程序共享服务器出站|应用程序共享服务器| 任意 |UDP 和 TCP|任何 |任何 |不进行身份验证|
+|Exchange 出站|Exchange 统一消息|任意|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|客户端| 任意  |任何|UDP 和 TCP|任何 |任何 |不进行身份验证|
 |         |         |         |         |         |         |         |
 
 
@@ -184,10 +185,10 @@ Skype 业务服务器支持多个解决方案。 这将允许 Skype 业务服务
 
 **RTCP 带宽**
 
-|**媒体**|**RTCP 最大带宽 (Kbps)**|
+|**Media**|**RTCP 最大带宽 (Kbps)**|
 |:-----|:-----|
 |音频  <br/> |5  <br/> |
-|视频（仅正在发送/接收的 H.264 或 RTVideo）  <br/> | 10  <br/> |
+|视频（仅正在发送/接收的 H.264 或 RTVideo）  <br/> |10  <br/> |
 |视频（正在发送/接收的 H.264 和 RTVideo）  <br/> |15  <br/> |
 
 出于容量规划的目的，以下两项统计数据十分重要：
@@ -202,7 +203,7 @@ Skype 业务服务器支持多个解决方案。 这将允许 Skype 业务服务
 
 **对等会话的音频/视频容量规划**
 
-|**媒体**|**编解码器**|**典型流带宽 (Kbps)**|**不使用 FEC 的最大流带宽**|**使用 FEC 的最大流带宽**|
+|**Media**|**编解码器**|**典型流带宽 (Kbps)**|**不使用 FEC 的最大流带宽**|**使用 FEC 的最大流带宽**|
 |:-----|:-----|:-----|:-----|:-----|
 |音频  <br/> |RTAudio 宽带  <br/> |39.8  <br/> |62  <br/> |91  <br/> |
 |音频  <br/> |RTAudio 窄带  <br/> |29.3  <br/> |44.8  <br/> |56.6  <br/> |
@@ -214,7 +215,7 @@ Skype 业务服务器支持多个解决方案。 这将允许 Skype 业务服务
 
 **会议的音频/视频容量规划**
 
-|**媒体**|**典型的编解码器**|**典型流带宽 (Kbps)**|**不使用 FEC 的最大流带宽**|**使用 FEC 的最大流带宽**|
+|**Media**|**典型的编解码器**|**典型流带宽 (Kbps)**|**不使用 FEC 的最大流带宽**|**使用 FEC 的最大流带宽**|
 |:-----|:-----|:-----|:-----|:-----|
 |音频  <br/> |G.722  <br/> |46.1  <br/> |100.6  <br/> |164.6  <br/> |
 |音频  <br/> |Siren  <br/> |25.5  <br/> |52.6  <br/> |68.6  <br/> |
@@ -241,7 +242,7 @@ Skype 业务服务器支持多个解决方案。 这将允许 Skype 业务服务
 
 **PSTN 的音频容量规划**
 
-|**媒体**|**典型的编解码器**|**典型流带宽 (Kbps)**|**不使用 FEC 的最大流带宽**|**使用 FEC 的最大流带宽**|
+|**Media**|**典型的编解码器**|**典型流带宽 (Kbps)**|**不使用 FEC 的最大流带宽**|**使用 FEC 的最大流带宽**|
 |:-----|:-----|:-----|:-----|:-----|
 |音频  <br/> |G.711 （这包括 PSTN 参与者在会议中）  <br/> |64.8  <br/> |97  <br/> |161  <br/> |
 |音频  <br/> |RTAudio 窄带  <br/> |30.9  <br/> |44.8  <br/> |56.6  <br/> |

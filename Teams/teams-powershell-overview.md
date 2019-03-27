@@ -1,5 +1,6 @@
 ---
 title: 团队 PowerShell 概述 （英文)
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 description: 了解如何使用 PowerShell 控件来管理 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d1bf3c0c29b9720e0199377b92371468e3a7a52
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 497aeba1e339e3c079de9eb4a23182e8f727f278
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649481"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897200"
 ---
 # <a name="teams-powershell-overview"></a>团队 PowerShell 概述 （英文)
 

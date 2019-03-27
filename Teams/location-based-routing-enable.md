@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 809e48e4a770906b93642356cc5f37fd03c411c4
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e68b239d00e67d942f80a259facb87c80ddf2a55
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460329"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886029"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>为直接路由启用基于位置的路由
 
@@ -39,7 +39,7 @@ ms.locfileid: "30460329"
 
 ## <a name="enable-location-based-routing-for-users"></a>启用的用户的基于位置的路由
 
-1. 使用``Set-CsOnlinePstnUsages``cmdlet 设置 PSTN 用法。 使用多个实例，用逗号分隔每个使用率。
+1. 使用[组 CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) cmdlet 可设置 PSTN 用法。 使用多个实例，用逗号分隔每个使用率。
 
     ```
     Set-CsOnlinePstnUsage -Usage <usages> 
@@ -48,7 +48,7 @@ ms.locfileid: "30460329"
     ```
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. 使用``New-CsOnlineVoiceRoutingPolicy``cmdlet 以创建语音路由策略，以将用户与相应的 PSTN 用法相关联。
+2. [新建 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) cmdlet 用于创建语音路由策略，以将用户与相应的 PSTN 用法相关联。
 
     ```
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
@@ -71,13 +71,12 @@ ms.locfileid: "30460329"
     |Online 语音策略 ID   |德里联机语音路由策略   |海德拉巴联机语音路由策略    |
     |联机 PSTN 用法  |长途电话  |Long Distance，Local，内部  |
 
-    有关详细信息，请参阅[新建 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy)。
-3. 使用``Grant-CsOnlineVoiceRoutingPolicy``cmdlet 将联机语音路由到用户需要路由限制以强制实施策略。
+3. 使用[授予 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) cmdlet 可以将用户需要路由限制以强制实施联机语音路由策略相关联。
     ```
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
 ## <a name="enable-location-based-routing-for-network-sites"></a>启用基于位置的路由的网络站点
-1.  使用``Set-CsTenantNetworkSite``cmdlet 启用基于位置的路由和关联的语音路由策略给您需要强制执行路由限制的网络站点。
+1.  [设置 CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) cmdlet 用于启用基于位置的路由，并将语音路由策略给您需要强制执行路由限制的网络站点相关联。
     ```
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
@@ -97,7 +96,7 @@ ms.locfileid: "30460329"
     |子网     |子网 1 （德里）     |子网 2 （海德拉巴）     |
 
 ## <a name="enable-location-based-routing-for-gateways"></a>启用基于位置的网关的路由
-1. 使用``New-CsOnlinePstnGateway``cmdlet 以创建网关配置为每个网关或网络站点。 
+1. [新建 CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) cmdlet 用于创建网关配置为每个网关或网络站点。 
 
     ```
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignallingPort <listening port used> -Enabled $true 
@@ -110,7 +109,7 @@ ms.locfileid: "30460329"
     ```
     有关详细信息，请参阅[配置直接路由](direct-routing-configure.md)。
     
-2. 使用``Set-CSOnlinePSTNGateway``cmdlet 来启用基于位置的路由需要强制执行路由限制您网关。 
+2. [设置 CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) cmdlet 用于启用基于位置的路由需要强制执行路由限制您网关。 
 
     启用基于位置的路由到网关将呼叫路由到 PSTN 网关的呼叫路由到 PSTN，并将网关所在的网络站点相关联。
 
@@ -152,7 +151,7 @@ ms.locfileid: "30460329"
 
 若要强制执行的特定用户的基于位置的路由，用户的语音策略，可防止 PTSN 收费电话设置，绕过。 
 
-使用``Grant-CsTeamsCallingPolicy``cmdlet 来启用基于位置的路由通过防止 PSTN 收费绕过。
+[授予 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) cmdlet 用于启用基于位置的路由通过防止 PSTN 收费绕过。
 
 ```
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 

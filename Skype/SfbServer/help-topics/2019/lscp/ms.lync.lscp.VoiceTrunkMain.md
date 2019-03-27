@@ -1,5 +1,6 @@
 ---
 title: 中继配置
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 499b6966-25f4-4b90-a225-d6be48ddab19
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 48dcd6ad1dcae256826adf92daa09b73999c5b97
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+ms.openlocfilehash: 13c872500511004487d7072ed08e7ab7ca6b4ada
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23262258"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893362"
 ---
 # <a name="trunk-configuration"></a>中继配置
 
-您希望执行什么操作？单击您要执行的任务所对应的链接。
+您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 
 - [为业务 Server 使用 Skype 中的媒体旁路配置中继](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 

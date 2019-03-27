@@ -1,5 +1,6 @@
 ---
 title: Skype 业务服务器中的 SIP 中继
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: 了解有关在 Skype 的 SIP 中继的业务 Server 企业语音
-ms.openlocfilehash: 502629c794ed95b5d6228880c8fe37a23eb86af9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 98b107d02d223ea8bad555c5aa0802f8f7581807
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882232"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892954"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>Skype 业务服务器中的 SIP 中继
 
 了解有关在 Skype 的 SIP 中继的业务 Server 企业语音
 
-会话初始协议 (SIP) 用于启动和管理基本电话服务和其他实时通信服务（例如即时消息、会议、状态检测和多媒体）的 IP 语音 (VoIP) 通信会话。本节提供实现 SIP 中继（一种 SIP 连接，可以扩展到本地网络以外）的规划信息。
+会话初始协议 (SIP) 用于启动和管理基本电话服务和其他实时通信服务（例如即时消息、会议、状态检测和多媒体）的 IP 语音 (VoIP) 通信会话。 本节提供实现 SIP 中继（一种 SIP 连接，可以扩展到本地网络以外）的规划信息。
 
 ## <a name="what-is-sip-trunking"></a>什么是 SIP 中继？
 
@@ -153,10 +154,10 @@ SIP 中继连接的服务提供商端的实现方式因 ITSP 而异。 有关部
 如图所示，企业网络与公用电话交换网 (PSTN) 服务提供商之间的连接使用 IP 虚拟专用网络 (VPN)。这个专用网络旨在提供 IP 连接、增强安全性和（可选的）获取服务质量 (QoS) 保证。由于 VPN 的特性，您无需为 SIP 信号流量使用传输层安全性 (TLS)，也无需为媒体流量使用安全实时传输协议 (SRTP)。因此，企业与服务提供商之间的连接由用于 SIP 的普通 TCP 连接以及用于通过 IP VPN 进行隧道传输的媒体的普通实时传输协议 (RTP)（通过 UDP）构成。确保 VPN 路由器之间的所有防火墙打开端口以允许 VPN 路由器进行通信，并且 VPN 路由器外部边缘上的 IP 地址公共可路由。
 
 > [!IMPORTANT]
-> 请与服务提供商联系，以确定是否提供包括故障转移在内的高可用性支持。 如果提供，则需要确定设置过程。 例如，您需要在每个中介服务器上，配置只有一个 IP 地址和一个 SIP 中继或是否需要在每台中介服务器上配置多个 SIP 中继？ > 如果您有多个中央站点，还可以询问服务提供商是否有能力启用与另一个中央站点的连接。
+> 请与服务提供商联系，以确定是否提供包括故障转移在内的高可用性支持。 如果提供，则需要确定设置过程。 例如，您需要在每个中介服务器上，配置只有一个 IP 地址和一个 SIP 中继或是否需要在每台中介服务器上配置多个 SIP 中继？ 如果您有多个中央站点，> 还可以询问服务提供商是否有能力启用与另一个中央站点的连接。
 
 > [!NOTE]
-> SIP 中继，我们强烈建议您部署独立的中介服务器。 有关详细信息，请参阅部署文档中的[Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx) 。
+> SIP 中继，我们强烈建议您部署独立的中介服务器。 有关详细信息，请参阅部署文档中的 [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
 
 ### <a name="securing-the-mediation-server-for-sip-trunking"></a>为 SIP 中继保护中介服务器的安全
 

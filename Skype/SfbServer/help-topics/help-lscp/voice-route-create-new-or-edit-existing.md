@@ -1,5 +1,6 @@
 ---
 title: 创建新的或编辑现有语音路由
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
-description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 15e9f61ffd234b50394fed83cb14b2412093aa51
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+ms.openlocfilehash: c125898dfd3596a1e49801d6fc8f0752bdb81332
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258289"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899678"
 ---
-# <a name="voice-route-create-new-or-edit-existing"></a>语音路由： 创建新的或编辑现有的
+# <a name="voice-route-create-new-or-edit-existing"></a>语音路由：创建新的或编辑现有的
 
-您希望执行什么操作？单击您要执行的任务所对应的链接。
+您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 
 - [在 Skype for Business 2015 中创建或修改语音路由](../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 

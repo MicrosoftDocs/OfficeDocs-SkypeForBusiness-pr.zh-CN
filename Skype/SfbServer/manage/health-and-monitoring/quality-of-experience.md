@@ -1,5 +1,6 @@
 ---
 title: 体验质量 (QoE 中的业务服务器 Skype)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
 description: 摘要： 业务服务器管理体验质量 (QoE Skype 中)。
-ms.openlocfilehash: 75bb613262ead0389068b9ceede120f623388863
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 679365b1b139f690519673706c5e270e415c42c6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20980060"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895277"
 ---
 # <a name="quality-of-experience-qoe-in-skype-for-business-server"></a>体验质量 (QoE 中的业务服务器 Skype)
  

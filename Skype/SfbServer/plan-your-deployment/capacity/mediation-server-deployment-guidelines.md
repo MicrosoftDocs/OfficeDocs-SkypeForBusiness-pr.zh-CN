@@ -1,5 +1,6 @@
 ---
 title: Skype 业务服务器中的中介服务器的部署指南
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: 本主题介绍中介服务器部署的规划指南。
-ms.openlocfilehash: 0b22a285be9e04929d53faffb58e0f7a3f8f3750
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 1a35d2f0bb74cfd78cba8924e6cafb6ce601d647
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561898"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896111"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Skype 业务服务器中的中介服务器的部署指南
  

@@ -1,5 +1,6 @@
 ---
 title: AppSharingStream 表
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: AppSharingStream 表包含用于应用程序共享的网络流的用户体验质量指标。 此表是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: 3505467fd5e163fe2c26aca4b1ba13681c0d4ee6
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8e01cc4d35269b34e3e6fba13fd331139e3f7ae7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532768"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877012"
 ---
 # <a name="appsharingstream-table"></a>AppSharingStream 表
  

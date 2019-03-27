@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文讨论中 Skype 会议室系统 v2 累积改进。
-ms.openlocfilehash: fefad8a37d53760a81b2ea78e73bbd75069c848f
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: b3e6a6341e917b49eed6f1c89dcadfe29bcdaf10
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645354"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891597"
 ---
 # <a name="release-notes"></a>发行说明 
 
@@ -53,9 +53,11 @@ ms.locfileid: "30645354"
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype 会议室系统 v2 功能简介和解决问题
 
+
 ### <a name="40780-03142018"></a>4.0.78.0 (14/03/2018)
 此更新中引入了：
 - 对于影响旧式 Windows 10 RS2 生成上的设备的"在应用程序启动挂起"bug 修复。  
+
 
 ### <a name="40760-03042019"></a>4.0.76.0 （2019 年 03/04）
 此更新中引入了：
@@ -180,7 +182,7 @@ Introduced in this update:
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
 此更新中引入了： 
 - 在应用程序用户选择会议室内音频和视频 USB 设备
-- 集成会议室控制台状态报告的客户使用 Microsoft 操作管理套件 （请参阅[使用 OMS 的规划 Skype 会议室系统 v2 管理](oms-management.md)） 
+- 使用 Microsoft 操作管理套件，现在 Azure 监视器客户报告集成的会议室控制台状态  
 
 ### <a name="release-to-market--1272016"></a>版本上市 (7/12/2016)
 **功能：** 

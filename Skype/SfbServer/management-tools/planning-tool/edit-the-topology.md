@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 2015 中编辑拓扑
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,15 +11,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
-description: 完成初始的访谈式问题后，即可编辑站点的完全限定的域名 (FQDN) 和 IP 地址。为此，请在“全局拓扑”页上双击要编辑的站点。
-ms.openlocfilehash: 65b23bf764f802da0f535dcc86cfb5170481161b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 完成初始的访谈式问题后，即可编辑站点的完全限定的域名 (FQDN) 和 IP 地址。 为此，请在“全局拓扑”页上双击要编辑的站点。
+ms.openlocfilehash: 75f2bd04f09b6638071faff1aa70dc8870d11fea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263814"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895144"
 ---
-# <a name="edit-the-topology-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中编辑拓扑
+# <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Edit the topology in Skype for Business Server 2015
 
 完成初始的访谈式问题后，即可编辑站点的完全限定的域名 (FQDN) 和 IP 地址。为此，请在“**全局拓扑**”页上双击要编辑的站点。
 
@@ -81,4 +82,4 @@ ms.locfileid: "23263814"
 ## <a name="see-also"></a>另请参阅
 <a name="Edit_Network_diagram"> </a>
 
-[编辑设计](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[Editing the Design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)

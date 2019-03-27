@@ -1,5 +1,6 @@
 ---
-title: 将中介服务器与边缘关联
+title: 将中介服务器与 Edge 关联
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要定义中介服务器，请指定关联中介服务器与前端服务器和边缘服务器或池的设置。 要与边缘服务器或边缘服务器池关联的中介服务器或池，执行以下操作：
-ms.openlocfilehash: b619b4d4244aadcb8e161da0a2393c5896024585
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 03d0cc7c1333151274b67d9eef657d33931501ea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082627"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874435"
 ---
-# <a name="associate-mediation-server-with-edge"></a>将中介服务器与边缘关联
+# <a name="associate-mediation-server-with-edge"></a>将中介服务器与 Edge 关联
  
 若要定义中介服务器，请指定关联中介服务器与前端服务器和边缘服务器或池的设置。 要与边缘服务器或边缘服务器池关联的中介服务器或池，执行以下操作：
   

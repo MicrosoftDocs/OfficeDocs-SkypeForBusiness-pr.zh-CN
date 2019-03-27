@@ -1,5 +1,6 @@
 ---
 title: 创建或修改代理组中的业务的 Skype
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: 创建或修改代理组在响应组的 Skype 业务 Server 企业语音。
-ms.openlocfilehash: 0eb94658abac8d137b915fd5a499364b43b51916
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 16dafbfc3157e08a187be5799c5901115d738b48
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370682"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894534"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>创建或修改代理组中的业务的 Skype
  
@@ -118,9 +119,9 @@ ms.locfileid: "25370682"
 
 1. 以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
-3. 使用**New-csrgsagentgroup**创建新的代理组。 **设置 CsRgsAgentGroup**用于修改现有的代理组。 在该命令行处，运行：
+3. 使用  **New-CsRgsAgentGroup** 可创建新代理组。 使用  **Set-CsRgsAgentGroup** 可修改现有代理组。 在命令行中运行：
     
    ```
    New-CsRgsAgentGroup -Name "<agent group name>" -Parent $serviceId [-Description "<agent group description>"] -[AgentAlertTime <# seconds until call is routed to next agent>] [-ParticipationPolicy <Formal | Informal>] [-RoutingMethod <method for routing calls>] [-AgentsByUri("<first agent's SIP address>","<second agent's SIP address>")];

@@ -1,5 +1,6 @@
 ---
 title: 存档服务器范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在拓扑生成器中，可以通过右键单击控制台树中的“存档服务器”，再单击工具栏中的“操作”，或单击“操作”窗格中的任务，然后单击以下存档服务器选项来执行与单台存档服务器相关的任务：
-ms.openlocfilehash: 881ccca58456f227f868a2a0e288b2c0a139583d
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: e6233c42576b6346852146b9a58ccc06d0df4e25
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082641"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889872"
 ---
 # <a name="archiving-servers-scope-node"></a>存档服务器范围节点
  

@@ -1,5 +1,6 @@
 ---
 title: 边缘服务器范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
-description: 边缘池节点列出了拓扑结构中的边缘池。 可以执行以下操作：
-ms.openlocfilehash: 62e77cbf86a692d6245ad262918188e3e0e15a11
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: “边缘池”节点列出了拓扑中的边缘池。 可以执行以下操作：
+ms.openlocfilehash: 7cdd190f1a39d51815ccfd3751f193adacd02cca
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891683"
 ---
 # <a name="edge-servers-scope-node"></a>边缘服务器范围节点
  

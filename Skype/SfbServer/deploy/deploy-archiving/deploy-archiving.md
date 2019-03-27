@@ -1,5 +1,6 @@
 ---
 title: 部署存档的 Skype 业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50fa535c-7347-4e33-80a3-296748ef6666
 description: 摘要： 阅读本主题可了解如何部署存档的 Skype 业务服务器。
-ms.openlocfilehash: b1df3b3b14ec31f0c2c4d3d94f41ff23411c7f45
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0598d1a35523cc38d85320206b065b85e025687e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997629"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895067"
 ---
 # <a name="deploy-archiving-for-skype-for-business-server"></a>部署存档的 Skype 业务服务器
  
@@ -39,7 +40,7 @@ ms.locfileid: "20997629"
   
 |**阶段**|**步骤**|**角色和组成员身份**|**文档**|
 |:-----|:-----|:-----|:-----|
-|**安装必备硬件和软件** <br/> |若要使用 Microsoft Exchange 集成 （使用 Exchange 进行的部分或全部用户的存档存储），您需要一个现有的 Exchange 部署。  <br/> 若要使用单独的存档数据库（使用 SQL Server 数据库）为部分或所有用户进行存档存储，需要将存储存档数据的服务器上的 SQL Server。  <br/> 存档在企业池的前端服务器和 Standard Edition 服务器上运行。除了需要安装这些服务器外，没有额外的软硬件要求。  <br/> |属于本地 Administrators 组成员的域用户。  <br/> |[Skype for Business Server 2015 的服务器要求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Skype for Business Server 2015 的环境要求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/>  [计划集成 Skype for Business 和 Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md) <br/>[For Business Server 2019 Skype 的系统要求](../../../SfBServer2019/plan/system-requirements.md) |
+|**安装必备硬件和软件** <br/> |若要使用 Microsoft Exchange 集成 （使用 Exchange 进行的部分或全部用户的存档存储），您需要一个现有的 Exchange 部署。  <br/> 若要使用单独的存档数据库（使用 SQL Server 数据库）为部分或所有用户进行存档存储，需要将存储存档数据的服务器上的 SQL Server。  <br/> 存档在企业池的前端服务器和 Standard Edition 服务器上运行。除了需要安装这些服务器外，没有额外的软硬件要求。  <br/> |属于本地 Administrators 组成员的域用户。  <br/> |[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/>  [计划集成 Skype for Business 和 Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md) <br/>[For Business Server 2019 Skype 的系统要求](../../../SfBServer2019/plan/system-requirements.md) |
 |**创建适当的内部拓扑以支持存档 （仅当未在部署中的所有用户使用 Microsoft Exchange 集成）** <br/> |向拓扑中，运行拓扑生成器以添加 Skype Business Server 存档数据库 （SQL Server 数据库），然后发布拓扑。  <br/> |要定义拓扑以包含存档数据库，需具有作为本地用户组的成员的帐户。  <br/> 用于 Business Server 文件存储的 Skype 的文件共享上发布拓扑，domain admins 组和 RTCUniversalServerAdmins 组的成员且具有完全控制权限 （读/写/修改） 的帐户 (以便拓扑生成器可以配置所需的 Dacl）。  <br/> |[业务服务器添加到现有部署中 Skype 的存档数据库](add-archiving-databases.md) <br/> |
 |**配置服务器到服务器身份验证 （仅当使用 Microsoft Exchange 集成）** <br/> |配置服务器以启用 Skype 业务 server 和 Exchange 之间的身份验证。 建议运行**测试 CsExchangeStorageConnectivity testuser_sipUri-文件夹转储程序**验证 Exchange 存档存储连接，然后再启用存档。 <br/> |具有用于管理服务器上的证书的相应权限的帐户。  <br/> |管理服务器到服务器身份验证  <br/> |
 |**配置存档选项和策略** <br/> |配置存档，包括是否使用 Microsoft Exchange 集成、 全局策略和任何站点和用户策略 （如果不使用 Microsoft Exchange 集成的所有数据存储），和特定的存档选项，如关键模式和数据导出和清除。  <br/> 如果使用 Microsoft Exchange 集成，请根据需要配置 Exchange 就地保留策略。  <br/> |RTCUniversalServerAdmins 组（仅限于 Windows PowerShell）或向 CSArchivingAdministrator 或 CSAdministrator 角色分配用户。  <br/> |[配置 Skype 业务服务器的存档的选项](configure-archiving-options.md) <br/> （如果使用 Microsoft Exchange 集成），则 exchange 产品文档。  <br/> |

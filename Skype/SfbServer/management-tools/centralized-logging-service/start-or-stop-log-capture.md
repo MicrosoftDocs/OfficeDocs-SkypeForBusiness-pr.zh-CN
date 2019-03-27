@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 2015 中启动或停止捕获 CLS 日志
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 摘要： 了解如何启动或停止正在 Skype 的集中日志记录服务日志捕获会话的业务服务器 2015年。
-ms.openlocfilehash: d3dc2ca58964908bda0d8c2de845297bb0cb951b
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 982aecf9da4e8ca08d734a4adb35d8a34a3bb816
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699857"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887328"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中启动或停止捕获 CLS 日志
  
@@ -47,7 +48,7 @@ The Centralized Logging Service 提供了两种方式发出命令。 主题大�
    ```
 
     > [!NOTE]
-    > AlwaysOn 方案没有默认持续时间。 除非您明确将其停止使用**Stop-csclslogging** cmdlet，将运行此方案。 有关详细信息，请参阅 [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps)。 对于所有其他方案，默认持续时间为 4 小时。 
+    > AlwaysOn 方案没有默认持续时间。 此方案将一直运行到您通过 **Stop-CsClsLogging** cmdlet 明确停止它为止。 有关详细信息，请参阅 [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps)。 对于所有其他方案，默认持续时间为 4 小时。 
   
 3. 按 Enter 运行命令。 
     
@@ -56,7 +57,7 @@ The Centralized Logging Service 提供了两种方式发出命令。 主题大�
   
      ![运行 Start-CsClsLogging。](../../media/Ops_CLS_Show_and_Start_ClsLogging.jpg)
   
-4. 要开始另一个方案，请使用**Start-csclslogging** cmdlet 与其他方案的名称运行，如下所示 （例如，方案**身份验证**）：
+4. 要启动另一个方案，请使用 **Start-CsClsLogging** cmdlet 并提供要按如下方式运行的附加方案的名称（例如 **Authentication**）：
     
    ```
    Start-CsClsLogging -Scenario Authentication

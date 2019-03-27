@@ -1,5 +1,6 @@
 ---
-title: Lync Server 2010 的边缘计算机设置扩展器
+title: 适合于 Lync Server 2010 的 Edge 机器设置
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 若要为单个边缘服务器或边缘池中的成员计算机，请编辑边缘服务器计算机的属性，您配置服务器名称和 IP 地址配置设置：
-ms.openlocfilehash: 10709088aee9d1b5ec247804122520afa3b29dee
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: f0125ba8d9c7ff181aff0a29f69a5077b1ad0818
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373383"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891538"
 ---
-# <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Lync Server 2010 的边缘计算机设置扩展器
+# <a name="edge-machine-settings-expander-for-lync-server-2010"></a>适合于 Lync Server 2010 的 Edge 机器设置
  
 若要为单个边缘服务器或边缘池中的成员计算机，请编辑边缘服务器计算机的属性，您可以配置**服务器名称和 IP 地址配置**设置：
   

@@ -1,5 +1,6 @@
 ---
 title: AudioStream 表
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: 每条记录代表一个音频流。 一个音频媒体行通常包含两个音频流。
-ms.openlocfilehash: 2e910eb3f6717beed4ba228237f16b96471aea29
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 7c1e7ae70a04aabc7db704aaaad873bc5b2100c9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570049"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894133"
 ---
 # <a name="audiostream-table"></a>AudioStream 表
  
@@ -43,7 +44,7 @@ ms.locfileid: "19570049"
 |**DegradationPacketLossAvg** <br/> |decimal(3,2)  <br/> | <br/> |数据包丢失导致的网络 MOS 性能降低。  <br/> |
 |**AudioPayloadDescription** <br/> |int  <br/> |外  <br/> |音频编解码器用于呼叫，引用自 PayloadDescription 表。  <br/> |
 |**AudioSampleRate** <br/> |int  <br/> | <br/> |音频流的采样率。  <br/> |
-|**往返** <br/> |int  <br/> | <br/> |RTCP 统计信息中的来回行程时间。 可接受的质量应小于为 100 毫秒。  <br/> |
+|**RoundTrip** <br/> |int  <br/> | <br/> |RTCP 统计信息中的来回行程时间。 可接受的质量应小于为 100 毫秒。  <br/> |
 |**RoundTripMax** <br/> |int  <br/> | <br/> |音频流的最大来回行程时间。  <br/> |
 |**OverallAvgNetworkMOS** <br/> |decimal(3,2)  <br/> | <br/> |平均宽带网络 MOS，呼叫。 此指标取决于数据包丢失、 抖动和编解码器。 范围为 [1.0 5.0]。  <br/> |
 |**OverallMinNetworkMOS** <br/> |decimal(3,2)  <br/> | <br/> |最小宽带网络 MOS，呼叫。  <br/> |

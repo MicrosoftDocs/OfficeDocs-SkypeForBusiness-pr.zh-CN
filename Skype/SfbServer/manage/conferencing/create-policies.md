@@ -1,5 +1,6 @@
 ---
 title: 为 Business Server Skype 创建会议策略
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 摘要： 了解如何为业务服务器 Skype 创建会议策略。
-ms.openlocfilehash: 4a481d8853fdb8f022da3539c5ebeb49c3b49402
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 718eacad71ca0264785b9bb42d113c1d54679b50
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372285"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893235"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>为 Business Server Skype 创建会议策略
  

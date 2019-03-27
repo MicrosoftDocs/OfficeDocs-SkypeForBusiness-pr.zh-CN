@@ -1,5 +1,6 @@
 ---
 title: 添加持久聊天文件存储
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e1068706-ff61-4a98-8e51-4202111d936a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 必须为 Standard Edition Server 或 Enterprise Edition 前端池指定用作文件存储的文件共享。可以将现有的文件共享用作文件存储，也可以通过指定文件共享所在的文件服务器的完全限定域名 (FQDN) 和新文件共享的文件夹名称来指定新的文件共享。
-ms.openlocfilehash: f33f26e55d503f924efa78cd0b1f880d072eeef8
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 65876bd22127b37bf5e1103e9ef305e81b86a20f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067824"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899128"
 ---
 # <a name="add-persistent-chat-file-store"></a>添加持久聊天文件存储
 

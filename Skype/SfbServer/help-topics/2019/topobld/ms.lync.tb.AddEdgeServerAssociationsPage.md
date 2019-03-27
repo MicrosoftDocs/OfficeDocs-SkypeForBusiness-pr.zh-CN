@@ -1,5 +1,6 @@
 ---
-title: 添加边缘服务器关联
+title: 添加 Edge Server 关联
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用此页面选择哪些前端池和 Standard Edition 服务器会将此边缘池用于 A / V 流量。
-ms.openlocfilehash: 38d997c7753dd97ae9a6368e3092c6d571f0ad1f
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 79dfc08253f105b123a73c83bdf51d0ea0584bc0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21063384"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879284"
 ---
-# <a name="add-edge-server-associations"></a>添加边缘服务器关联
+# <a name="add-edge-server-associations"></a>添加 Edge Server 关联
  
 使用此页面选择哪些前端池和 Standard Edition 服务器会将此边缘池用于 A / V 流量。 
   

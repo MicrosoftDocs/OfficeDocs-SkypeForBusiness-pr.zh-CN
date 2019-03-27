@@ -1,5 +1,6 @@
 ---
 title: 前端池高可用性和管理
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: 了解业务服务器，包括管理池、 仲裁丢失和特殊的步骤，只有两个前端服务器与池的前端池管理 Skype 中。
-ms.openlocfilehash: ba15e090829256188763a0e7791cebb29f097422
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 43c8e3fffb010bf268f94970b5cca25ecee7cd58
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005244"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894193"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>前端池高可用性和管理
  
@@ -29,7 +30,7 @@ Skype 业务服务器，在前端池的体系结构与每个用户的数据保�
   
 与前端池的分布式模型，某些号码的池的服务器必须运行该池的函数。 有两种丢失模式的池。
   
-- 路由组级别仲裁丢失，是由于特定路由组的副本服务器不足引起的。路由组是指驻留在池中的一组用户。每个路由组在池中都有三个副本：一个主要副本和两个辅助副本。
+- 路由组级别仲裁丢失，是由于特定路由组的副本服务器不足引起的。 路由组是指驻留在池中的一组用户。 每个路由组在池中都有三个副本：一个主要副本和两个辅助副本。
     
 - 池级别仲裁丢失，当池中运行的种子服务器不足时导致的。 
     

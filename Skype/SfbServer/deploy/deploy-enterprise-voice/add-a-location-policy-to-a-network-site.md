@@ -1,5 +1,6 @@
 ---
 title: 业务服务器添加到网络站点中 Skype 位置策略
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: 为业务 Server 企业语音给 Skype 中的网络站点分配 E9-1-1 位置策略。
-ms.openlocfilehash: caf7de4816c30ba77a4215457b503ac0f8fe9640
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7a6930fddcadc9b9eb772d20c21ff1e13be6bef0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370880"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890344"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>业务服务器添加到网络站点中 Skype 位置策略
  
@@ -28,17 +29,17 @@ ms.locfileid: "25370880"
   
 有关使用网络站点的详细信息，请参阅 Lync Server 命令行管理程序文档中以下 cmdlet:
   
-- **新可**
+- **New-CsNetworkSite**
     
-- **Get-csnetworksite**
+- **Get-CsNetworkSite**
     
-- **Set-csnetworksite**
+- **Set-CsNetworkSite**
     
-- **删除可**
+- **Remove-CsNetworkSite**
     
 ### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a>为现有网络站点分配位置策略
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 2. 运行以下 cmdlet 以修改现有网络站点。
     
@@ -50,7 +51,7 @@ ms.locfileid: "25370880"
 
 ### <a name="to-assign-a-location-policy-to-a-new-network-site"></a>为新的网络站点分配位置策略
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 2. 运行以下 cmdlet 以创建新的网络站点。
     

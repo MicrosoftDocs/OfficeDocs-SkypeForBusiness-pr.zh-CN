@@ -1,5 +1,6 @@
 ---
 title: 监控服务器常规设置扩展器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
-description: 在拓扑生成器中，您可以编辑的属性为单个监视服务器通过右键单击控制台树中的监视服务器，然后在工具栏中，单击操作或通过单击操作窗格中的任务，然后单击编辑属性并更改任何下列选项：
-ms.openlocfilehash: 049479e0a16764b5da91c43a003521238e0c1bdd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 在拓扑生成器中，可以通过右键单击控制台树中的“监控服务器”，再单击工具栏中的“操作”，或单击“操作”窗格中的任务，然后单击“编辑属性”并更改以下任意选项来编辑单台监控服务器的属性：
+ms.openlocfilehash: d096603f2a3ec5f0644c666f8f76b02b8d01d99d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891013"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>监控服务器常规设置扩展器
  

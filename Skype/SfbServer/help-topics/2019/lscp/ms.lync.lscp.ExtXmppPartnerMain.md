@@ -1,5 +1,6 @@
 ---
 title: XMPP 联盟伙伴
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 0008ddfe16b07c0b7ba7a51d80d7988590e6baa5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+ms.openlocfilehash: 828a8bf4f7ac0f248148b951f5545d45c56478b8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242209"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893291"
 ---
 # <a name="xmpp-federated-partners"></a>XMPP 联盟伙伴
 

@@ -1,5 +1,6 @@
 ---
 title: 响应组队列创建新的或编辑现有的
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: 响应组队列保留对响应组呼叫，直到代理应答呼叫。
-ms.openlocfilehash: b2220aa40c5964999ce4d11d806433725f8ad7dc
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d00d43ab50060990341a2071ea68126ebc445a21
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23251009"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897683"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>响应组队列：创建新的或编辑现有的
 
@@ -69,6 +70,6 @@ ms.locfileid: "23251009"
 
   - **转接至其他队列**如果选择此选项，浏览到在达到队列溢出阈值时接收呼叫的队列。
 
-有关响应组特性和功能的详细信息，请参阅规划文档中的[计划中的业务服务器 2015 Skype 的响应组应用程序](../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 有关使用队列的详细信息，请参阅操作文档中的[Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) 。
+有关响应组特性和功能的详细信息，请参阅规划文档中的[计划中的业务服务器 2015 Skype 的响应组应用程序](../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 有关使用队列的详细信息，请参阅操作文档中的[Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx)。
 
 

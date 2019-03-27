@@ -1,5 +1,6 @@
 ---
 title: 基于位置的业务服务器路由中 Skype 的会议
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: 规划基于位置的业务 Server 企业语音路由的 Skype 中的会议，包括咨询呼叫传输。
-ms.openlocfilehash: 810b93d20fe9bdbf0ae057250509b1e9ec612afe
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: cdb043aca3f2e2ac4278de1782f756d395016770
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240736"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892961"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>基于位置的业务服务器路由中 Skype 的会议
 
@@ -66,7 +67,7 @@ ms.locfileid: "27240736"
 > [!NOTE]
 > 有了 Skype for Business 累积更新 4，将会观察到下表中的行为：
 
-|**用户**|**其他方**|**操作**|**结果**|
+|**User**|**其他方**|**操作**|**结果**|
 |:-----|:-----|:-----|:-----|
 |Skype for Business 移动  <br/> |PSTN  <br/> |Skype for Business 移动进行 PSTN 通话。Skype for Business 移动然后将通话升级为会议自动助理 (CAA)。  <br/> |呼叫被阻止，并显示相应的错误消息。  <br/> |
 |Skype for Business 移动  <br/> |Skype for Business 客户端或联盟用户  <br/> |在客户端或联盟用户位于 Business Mobile Location-Based 路由用户 Skype VoIP 呼叫和知情提升到 CAA。  <br/> |升级呼叫被阻止，并显示相应的错误消息。  <br/> |
@@ -142,7 +143,7 @@ Get-csserverapplication-Identity Service: Registrar:<Pool FQDN>中此 cmdlet，\
 
 您的会议应用程序基于位置的路由找到正确的优先级值后，键入以下 cmdlet 为家庭用户启用基于位置的路由每个前端池或 Standard Edition Server:
 
-New-csserverapplication-Identity Service: Registrar:`<Pool FQDN`> / LBRouting-优先级\<应用程序优先级\>-启用 $true-关键 $true Uri<http://www.microsoft.com/LCS/LBRouting> 
+New-csserverapplication-Identity Service: Registrar:`<Pool FQDN`>/LBRouting-优先级\<应用程序优先级\>-启用 $true-关键 $true Uri<http://www.microsoft.com/LCS/LBRouting> 
 
 例如：
 

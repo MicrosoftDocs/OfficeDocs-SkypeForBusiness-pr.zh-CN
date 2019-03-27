@@ -1,5 +1,6 @@
 ---
 title: 配置受信任应用程序服务器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 在混合环境中，如果您创建一个新的受信任应用程序服务器，必须设置为 Skype 业务服务器 2019年池的下一个跃点池。 在混合环境中，旧池和业务服务器 2019年池 Skype 显示在下拉列表。 不支持选择旧池。
-ms.openlocfilehash: d1c79e044145a4739cf1b7bfb3992320be1e4ab3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 79f4de527008d2d9bf295fcb82eee433d04a1691
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027744"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890886"
 ---
 # <a name="configure-trusted-application-servers"></a>配置受信任应用程序服务器
 
@@ -30,7 +31,7 @@ ms.locfileid: "25027744"
     
 3. 输入受信任应用程序池的**池 FQDN** ，并选择该池是单服务器还是多服务器。 
     
-4. 单击“**下一步**”。
+4. 单击" **下一步**"。
     
 5. 在**选择下一个跃点**页上，从列表中，选择 Business Server 2019 前端池的 Skype。 
     

@@ -1,5 +1,6 @@
 ---
 title: （可选）验证呼叫寄存部署中的业务的 Skype
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 description: 验证业务 Server 企业语音的 Skype 中的呼叫寄存部署。
-ms.openlocfilehash: b07b3b3bfb709770a4f30f2f6cb43e5ce5dbcc3a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 514c82590d56a2de16ca31cc892032afe5e7a34c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000527"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895095"
 ---
 # <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>（可选）验证呼叫寄存部署中的业务的 Skype
  

@@ -1,5 +1,6 @@
 ---
 title: 迁移存档和监控服务器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 如果旧环境中部署存档服务器与监控服务器，可以在迁移前端池后在您 Skype 业务服务器 2019年环境中部署这些服务器。 但是，如果存档和监控功能对组织至关重要，应添加存档和监控业务服务器 2019年试点池您 Skype 到迁移，以便该功能，在迁移过程之前。
-ms.openlocfilehash: cd6e3bf7ef04ca7906b707a30211d0c22d22d837
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 24dc3e3007fd9a58c23f9c15a31cccc766d45e83
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028752"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896090"
 ---
 # <a name="migrating-archiving-and-monitoring-servers"></a>迁移存档和监控服务器
 
