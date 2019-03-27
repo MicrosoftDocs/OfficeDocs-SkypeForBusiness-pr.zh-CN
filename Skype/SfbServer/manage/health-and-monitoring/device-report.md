@@ -1,5 +1,6 @@
 ---
 title: 设备报告中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 摘要： 了解业务服务器中 Skype 的设备报告。
-ms.openlocfilehash: d62aa2fbf1bb597b34609d2069ecbccb62f1ef0c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: adb4293ec6d643d86f439e0458ae5352f1e49f3c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008650"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888414"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>设备报告中 Skype 业务服务器
  

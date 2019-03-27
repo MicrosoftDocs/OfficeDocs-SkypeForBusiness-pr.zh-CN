@@ -1,5 +1,6 @@
 ---
 title: 设计和 Skype for Business 中创建响应组工作流
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 设计和创建响应组工作流中的业务 Server 企业语音的 Skype。 包括智能寻线工作流和互动工作流。
-ms.openlocfilehash: 9bb701cf3d4894ff46127b04a3132b6b1fb5895a
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: efa77ffa0a1d7b8fda3720c3002c5364216af8eb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27264858"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895553"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>设计和 Skype for Business 中创建响应组工作流
 
@@ -43,7 +44,7 @@ ms.locfileid: "27264858"
 
 4. 在“工作流”**** 页上，单击“创建或编辑工作流”****。
 
-5. 在**选择服务**搜索字段中，键入全部或部分承载您要创建或更改的工作流的**ApplicationServer**服务的名称。 在服务结果列表中，单击想要的服务，然后单击“确定”****。
+5. 在“选择服务”**** 搜索字段中，键入承载您想要创建或修改的工作流的 **ApplicationServer** 服务的全部或部分名称。 在服务结果列表中，单击想要的服务，然后单击“确定”****。
 
     > [!NOTE]
     > 响应组配置工具将打开。 您还可以响应组配置工具直接从打开 web 浏览器通过键入以下 URL: https://\<webPoolFqdn\>/RgsConfig。
@@ -104,12 +105,12 @@ ms.locfileid: "27264858"
     - 要为呼叫者输入转换成语音的文本形式的欢迎消息，请单击“使用文本到语音转换”****，然后在文本框中键入欢迎消息。
 
     > [!NOTE]
-    > 不要在输入的文本中包含 HTML 标记，否则将收到错误消息。
+    > 您输入的文本中不包括 HTML 标记。 如果包括 HTML 标记，您将收到一条错误消息。
 
     - 要使用 Wave (.wav) 或 Windows Media 音频 (.wma) 文件录音作为欢迎消息，请单击“选择录音”****。如果要上载新的音频文件，请单击“录音”**** 链接。在新浏览器窗口中，单击“浏览”****，选择要使用的音频文件，然后单击“打开”****。单击“上载”**** 加载该音频文件。
 
     > [!NOTE]
-    > 用户提供的所有音频文件都必须满足特定要求。有关受支持的音频文件格式的详细信息，请参阅 [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+    > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息，请参阅 [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
 
 18. 在“步骤 4 指定您的工作时间”**** 下的“您所在的时区”**** 中，单击工作流的时区。
 
@@ -140,7 +141,7 @@ ms.locfileid: "27264858"
     - 要为呼叫者输入转换成语音的文本形式的消息，请单击“使用文本到语音转换”****，然后在文本框中键入消息。
 
       > [!NOTE]
-      > 不要在输入的文本中包含 HTML 标记，否则将收到错误消息。
+      > 您输入的文本中不包括 HTML 标记。 如果包括 HTML 标记，您将收到一条错误消息。
 
     - 要使用音频文件录音作为消息，请单击“选择录音”****。如果要上载新的音频文件，请单击“录音”**** 链接。在新浏览器窗口中，单击“浏览”****，选择要使用的文件，然后单击“打开”****。单击“上载”****，加载该音频文件。
 
@@ -167,7 +168,7 @@ ms.locfileid: "27264858"
     - 要为呼叫者输入转换成语音的文本形式的消息，请单击“使用文本到语音转换”****，然后在文本框中键入消息。
 
     > [!NOTE]
-    > 不要在输入的文本中包含 HTML 标记，否则将收到错误消息。
+    > 您输入的文本中不包括 HTML 标记。 如果包括 HTML 标记，您将收到一条错误消息。
 
     - 要使用音频文件录音作为消息，请单击“选择录音”****。如果要上载新的音频文件，请单击“录音”**** 链接。在新浏览器窗口中，单击“浏览”****，选择要使用的文件，然后单击“打开”****。单击“上载”****，加载该音频文件。
 
@@ -216,7 +217,7 @@ ms.locfileid: "27264858"
    ```
 
      > [!NOTE]
-     > 若要使用的音频文件提示，请使用**Import-csrgsaudiofile** cmdlet。 有关详细信息，请参阅[Import-csrgsaudiofile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。
+     > 要针对提示使用音频文件，请使用 **Import-CsRgsAudioFile** cmdlet。 有关详细信息，请参阅[Import-csrgsaudiofile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。
 
 4. 获取将在其中定向呼叫的队列或问题的标识。 在命令行中运行：
 
@@ -243,7 +244,7 @@ ms.locfileid: "27264858"
 
 6. 如果要定义工作时间和假日，则需要在创建或修改工作流之前创建工作时间和假日。 有关详细信息，请参阅[Skype for Business 中的 （可选） 定义响应组工作时间](optional-define-response-group-business-hours.md)和[（可选） 定义响应组假日设置 for Business 的 Skype](optional-define-response-group-holiday-sets.md)。
 
-7. 如果您希望具有的工作时间不足或假日接收呼叫的提示，使用**新建 CsRgsPrompt** cmdlet 可定义在提示符处，并使用**New-csrgscallaction**定义提示后执行操作。 有关详细信息，请参阅[新建 CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)和[New-csrgscallaction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)。
+7. 如果您希望在工作时间之外或在假日收到的呼叫带有提示，请使用  **New-CsRgsPrompt** cmdlet 定义该提示，并使用  **New-CsRgsCallAction** 定义要在提示后执行的操作。 有关详细信息，请参阅[新建 CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)和[New-csrgscallaction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)。
 
 8. 检索 Lync Server 响应组服务的服务名称并将其分配给一个变量。 在命令行中运行：
 
@@ -251,7 +252,7 @@ ms.locfileid: "27264858"
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
-9. 创建或修改工作流。 若要创建工作流，使用**New-csrgsworkflow**。 若要修改的工作流，使用**Set-csrgsworkflow**。 在命令行中键入：
+9. 创建或修改工作流。 要创建工作流，请使用  **New-CsRgsWorkflow**。 要修改工作流，请使用  **Set-CsRgsWorkflow**。 在命令行中键入：
 
    ```
    $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-ManagersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
@@ -376,7 +377,7 @@ IVR 问题及呼叫者的响应提供给接受呼叫的响应代理。
 
 4. 在“工作流”**** 页上，单击“创建或编辑工作流”****。
 
-5. 在**选择服务**搜索字段中，键入全部或部分承载您要创建或修改的工作流的**ApplicationServer**服务的名称。 在服务结果列表中，单击想要的服务，然后单击“确定”****。
+5. 在“选择服务”**** 搜索字段中，键入托管要创建或修改的工作流的  **ApplicationServer** 服务的全部或部分名称。 在服务结果列表中，单击想要的服务，然后单击“确定”****。
 
     > [!NOTE]
     > 响应组配置工具将打开。 您还可以响应组配置工具直接从打开 web 浏览器通过键入以下 URL: https://\<webPoolFqdn\>/RgsConfig。
@@ -439,7 +440,7 @@ IVR 问题及呼叫者的响应提供给接受呼叫的响应代理。
     - 要使用 Wave 或 Windows Media 音频文件录音作为欢迎消息，请单击“选择录音”****。如果要上载新的音频文件，请单击“录音”**** 链接。在新浏览器窗口中，单击“浏览”****，选择要使用的音频文件，然后单击“打开”****。单击“上载”****，加载该音频文件。
 
     > [!NOTE]
-    > 用户提供的所有音频文件都必须满足特定要求。有关受支持的音频文件格式的详细信息，请参阅 [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+    > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息，请参阅 [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
 
 18. 在“步骤 4 指定您的工作时间”**** 下的“您所在的时区”**** 框中，单击工作流的时区。
 
@@ -467,12 +468,12 @@ IVR 问题及呼叫者的响应提供给接受呼叫的响应代理。
     - 要为呼叫者输入转换成语音的文本形式的消息，请单击“使用文本到语音转换”****，然后在文本框中键入消息。
 
       > [!NOTE]
-      > 不要在输入的文本中包含 HTML 标记，否则将收到错误消息。
+      > 您输入的文本中不包括 HTML 标记。 如果包括 HTML 标记，您将收到一条错误消息。
 
     - 要使用音频文件录音作为消息，请单击“选择录音”****。如果要上载新的音频文件，请单击“录音”**** 链接。在新浏览器窗口中，单击“浏览”****，选择要使用的文件，然后单击“打开”****。单击“上载”****，加载该音频文件。
 
     > [!NOTE]
-    > 用户提供的所有音频文件都必须满足特定要求。有关受支持的音频文件格式的详细信息，请参阅 [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+    > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息，请参阅 [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
 
 23. 指定播放消息后如何处理呼叫（如果配置了消息）：
 
@@ -494,7 +495,7 @@ IVR 问题及呼叫者的响应提供给接受呼叫的响应代理。
     - 要为呼叫者输入转换成语音的文本形式的消息，请单击“使用文本到语音转换”****，然后在文本框中键入消息。
 
       > [!NOTE]
-      > 不要在输入的文本中包含 HTML 标记，否则将收到错误消息。
+      > 您输入的文本中不包括 HTML 标记。 如果包括 HTML 标记，您将收到一条错误消息。
 
     - 要使用音频文件录音作为消息，请单击“选择录音”****。如果要上载新的音频文件，请单击“录音”**** 链接。在新浏览器窗口中，单击“浏览”****，选择要使用的文件，然后单击“打开”****。单击“上载”****，加载该音频文件。
 

@@ -1,5 +1,6 @@
 ---
 title: 选择站点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 ROBOTS: NOINDEX, NOFOLLOW
-description: 使用“选择站点”对话框查找环境中可用的站点。若要使用现有站点，请单击列表中的某个站点，然后单击“确定”。
-ms.openlocfilehash: 6eb2c4ccaeb7b6558af78f655c97f3e549285829
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: 使用“选择站点”对话框查找环境中可用的站点。 若要使用现有站点，请单击列表中的某个站点，然后单击“确定”。
+ms.openlocfilehash: 930f6bb29e0fb175383cc868ccdfd4ae5ce98b33
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993611"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884285"
 ---
 # <a name="select-a-site"></a>选择站点
 

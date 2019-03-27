@@ -21,13 +21,13 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
-description: 了解什么是电话系统 (云 PBX) 自动助理以及如何使用它们。
-ms.openlocfilehash: 14499789287e23767429392f0c21b66d56372ac0
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: 了解什么是电话系统自动助理以及如何使用它们。
+ms.openlocfilehash: 036044f779d964b19db53e7e568bb5df86ff372c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542276"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879333"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>什么是电话系统自动助理？
 
@@ -43,6 +43,9 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
 - 提供自定义企业菜单。你可以自定义这些菜单以包含更多级别。
 - 它提供目录搜索，使呼叫在名称组织的目录中搜索的人员。
 - 使某人调用中访问或留言您的组织中的人员。
+- 提示、 文本到语音转换，和语音识别，它支持多种语言。
+- 它支持指定假日和工作时间。
+- 它支持转移呼叫运算符、 其他用户，呼叫队列和自动助理。
 
 > [!NOTE]
 > 本文同时适用于 Microsoft 团队和 Skype 业务 online。
@@ -51,7 +54,7 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
 
 要开始使用自动助理，记住以下几点至关重要：
   
-- 企业版 E3 以及**电话系统**的许可证或企业 E5 许可证，您的组织必须 （最低要求）。 可供用于自动助理的**电话系统**的用户许可证分配影响的服务数数字的号码。 您可以自动助理数是取决于您的组织中分配的号码**电话系统**和**音频会议**许可证。 若要了解有关授权的详细信息，请参阅[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+- 您需要将电话系统许可证分配给自动助理与关联的资源帐户。 若要了解有关授权的详细信息，请参阅[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
     > [!TIP]
     > 要重定向呼叫的运算符或联机用户与**电话系统**许可证的菜单选项，您将需要启用企业语音或分配给它们的调用计划。 请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。 你还可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
@@ -62,7 +65,7 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
     > [!重要信息] 不能将用户（订阅者）的电话号码分配给自动助理 - 只能使用收费或免费服务电话号码。
 - 自动助理需要具有关联的资源帐户。 有关资源帐户的详细信息，请参阅[团队中的管理资源帐户](manage-resource-accounts.md)。
 - 完成自动助理系统通常将涉及多个自动助理和可能只需一个分配的电话号码的顶级或项自动助理。 其他自动助理或完整系统中的呼叫队列只需要一个电话号码如果您想要提供多个到系统的入口点。
-- 很可能要应用于自动助理的多个电话号码，通过将多个电话号码的自动助理资源帐户相关联。
+- 很可能要应用于自动助理的多个电话号码，通过将关联到自动助理的多个资源帐户。
   
 ## <a name="feature-overview"></a>功能概述
 
@@ -76,17 +79,17 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
   
 |输入类型|搜索格式|组织中的最大用户数|
 |:-----|:-----|:-----|
-|DTMF（键盘输入） |部分  <br/> 名字 + 姓氏  <br/> 姓氏 + 名字 |没有硬性限制  |
-|语音（语音识别） |FirstName  <br/> 姓氏  <br/> 名字 + 姓氏  <br/> 姓氏 + 名字  |80,000 用户 |
+|DTMF（键盘输入） |部分  <br/> 名字 + 姓氏  <br/> 姓氏 + 名字 |无限制  |
+|语音（语音识别） |FirstName  <br/> 姓氏  <br/> 名字 + 姓氏  <br/> 姓氏 + 名字  | 80,000 用户 |
 
 > [!NOTE]
 > 如果您使用的按名称的拨号使用语音识别功能识别的但您的组织的 Active Directory 大于 80,000 用户和没有限制拨号按使用拨号作用域功能的名称的范围，拨号按名称仍然有效的呼叫者使用电话小键盘和语音输入将适用于所有其他方案。 你可以使用"拨号范围"功能，通过更改按名字拨叫的范围，减少可以呼叫的姓名，以找到特定自动助理。
   
 ### <a name="dial-by-name---keypad-dtmf-entry"></a>按名字拨叫 - 键盘 (DTMF) 输入
 
-调用中的人员可以使用按名称拨号推向用户通过指定可以尝试与取得联系的联系人的全称或部分名称。 好处是时输入的名称，可以使用的各种格式。
+调用中的人员可以使用按名称拨号推向用户通过指定可以尝试与取得联系的联系人的全称或部分名称。 有时输入的名称，可以使用的各种格式。
 
-搜索组织目录时，用户可以使用"0"（零）键来表示名字与姓氏之间或姓氏与名字之间的空格。输入姓名时，会要求他们用 #（井号）键表示键盘输入结束。例如，"在你输入要联系的用户姓名后，请按 # 号"。如果找到多个姓名，会向呼叫者提供姓名列表，供其从中选择。
+搜索组织目录时，用户可以使用"0"（零）键来表示名字与姓氏之间或姓氏与名字之间的空格。 他们输入名称，系统将要求其终止 # 键与其数字小键盘输入。 例如，"在你输入要联系的用户姓名后，请按 # 号"。 如果找到多个姓名，会向呼叫者提供姓名列表，供其从中选择。
   
 用户可以在电话键盘上使用以下搜索格式搜索组织中的姓名：
   
@@ -104,9 +107,9 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
   
 |特殊电话键盘字符|含义|
 |:-----|:-----|
-|#（井号键） |输入姓名时的结束字符。 |
-|0（零） |姓名中间的空格。 |
-|*（星号键）  |重复姓名匹配列表。 |
+|#   |输入姓名时的结束字符。 |
+|0   |姓名中间的空格。 |
+|*    |重复姓名匹配列表。 |
 
 ### <a name="dial-by-name---name-recognition-with-speech"></a>按名字拨叫 - 使用语音识别姓名
 
@@ -126,7 +129,7 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
 |姓氏 |完整 |Marble |按或报 1 选择 Amos Marble  <br/> 按或报 2 选择 Ben Marble |
 
 > [!NOTE]
-> 可能需要 36 小时的时间的新用户具有其列在目录中的拨号按名称语音识别的名称。
+> 可能需要 36 小时的时间的新用户具有其列在目录中的拨号按名称与 Active Directory 复制延迟由于语音识别的名称。
   
 ### <a name="language-support"></a>语言支持
 
@@ -158,7 +161,7 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
 
 以下语音命令可以使用十四 (14) 种支持语音识别的语言：
   
-|语音命令|含义|
+|语音命令| 对应于 |
 |:-----|:-----|
 |是 |是 - 对应于按 1 表示"是"。 |
 |否 |否 - 对应于按 2 表示"否"。 |
@@ -178,19 +181,13 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
 
 ### <a name="using-the-operator-option"></a>使用接线员选项
 
-为自动助理使用接线员是一项可选设置，此设置向呼叫者提供与真人对话的选项。
+自动助理使用运算符是呼叫者提供选项讲话人运算符的可选设置。
   
-默认情况下将键 0 和语音命令"接线员"（可使用支持语音识别的所有语言）分配给接线员。
+0 键和语音命令"运算符"默认情况下直接调用指定的运算符。 这是支持语音识别的所有语言的情况。 您可以使用**菜单选项**为操作符设置的自定义值。
   
-> [!NOTE]
-> 您可以设置的推送为**运算符**到不同的密钥使用**菜单选项**按钮。
+运算符可设置为：
   
-可以将以下人员设置为接线员：
-  
-- 具有许可证的**电话系统**的 Microsoft 团队用户启用企业语音或调用计划分配给它们。 你可以通过此设置将呼叫者直接转到语音邮件。 为此，请选择" **贵公司的人**"，此人会将其呼叫直接转到语音邮件。
-
-    > [!NOTE]
-    > 用户托管在本地使用 Lync Server 2010 不能用作运算符。
+- Microsoft 团队用户或业务对内部部署用户启用企业语音的 Skype。
   
 - 为组织设置的其他自动助理。
 - 组织中建立的任何现有呼叫队列。 若要查看有关呼叫队列的详细信息，请参阅[创建电话系统呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
@@ -205,8 +202,6 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
 - 您也可以：
   - 已启用企业语音的**电话系统**许可证的 Microsoft 团队用户将呼叫重定向或调用计划分配给它们。 你可以通过此设置将呼叫者直接转到语音邮件。 为此，请选择" **贵公司的人**"，此人会将其呼叫直接转到语音邮件。
 
-    > [!NOTE]
-    > 用户托管在本地不支持使用 Lync Server 2010。
   
   - 向呼叫队列将呼叫重定向。 若要查看有关呼叫队列的详细信息，请参阅[创建电话系统呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
 
@@ -223,38 +218,19 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
 - 呼叫队列。
 - 另一种自动助理。 可以通过在一个自动助理**菜单选项**指向另一个自动助理菜单选项，该数据库称为"嵌套"的自动助理自己集设置多级菜单。
 - 具有许可证的**电话系统**的 Microsoft 团队用户启用企业语音或调用计划分配给它们。 你可以通过此设置将呼叫者直接转到语音邮件。 为此，请选择" **贵公司的人**"，此人会将其呼叫直接转到语音邮件。
-
-    > [!NOTE]
-    > 用户托管在本地使用 Lync Server 2010 不能在**菜单选项**。
   
 如果已启用语音识别，每个菜单选项的名称将成为语音识别关键字。 例如，呼叫者可以说"之一"，选择映射到键 1，菜单选项或它们只可以说"Sales"选择相同的菜单选项名为"Sales"。
   
 若要设置自动助理和菜单选项，请转[设置电话系统自动助理](create-a-phone-system-auto-attendant.md)。
   
-### <a name="getting-service-numbers-for-an-auto-attendant"></a>获取自动助理的服务号
+### <a name="assigning-phone-numbers-for-an-auto-attendant"></a>分配的自动助理电话号码
 
-Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. 一旦您获取的收费电话或免费电话服务电话号码，它们会显示在**业务管理中心的 Skype** > **语音** > **电话号码**，并列出**Service-作为免费电话**号码类型**列出将**. 若要获取服务号码，请参阅[Getting 服务电话号码的业务和 Microsoft 团队的 Skype](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) ，或如果您希望进行传输和现有服务号码，请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。
+您可以分配 Microsoft 调用计划服务编号或到自动助理的直接路由混合数字。 有关详细信息，请参阅[规划直接路由](direct-routing-plan.md)。
+
+若要分配服务号码，您需要获取或转移您现有的收费电话或免费电话服务号码。 一旦您获取的收费电话或免费电话服务电话号码，它们将显示在 <!-- validate nav path --> **Skype 业务管理中心的** > **语音** > **电话号码**，以及被列为**Service-免费电话****号码类型**列出将。 若要获取服务号码，请参阅[Getting 服务电话号码的业务和 Microsoft 团队的 Skype](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) ，或如果您希望进行传输和现有服务号码，请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。
   
 > [!NOTE]
-> 如果您在美国以外，您无法使用业务管理中心的 Skype 获取服务号码。 而是转[管理组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)以了解如何执行此操作。
-  
-## <a name="changing-the-users-caller-id-to-be-a-call-queues-phone-number"></a>更改用户的来电显示为呼叫队列的电话号码
-
-通过使用**新建 CallingLineIdentity** cmdlet 创建策略，可将出站呼叫的来电显示更改为呼叫队列，从而保护用户的身份。
-  
-若要执行此操作，请运行：
-  
-``` Powershell
-New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
-```
-
-然后使用 **Grant-CallingLineIdentity** cmdlet 将策略应用于用户。 若要执行此操作，请运行：
-  
-``` Powershell
-Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
-```
-
-您可以获取有关如何对您[如何可以呼叫者 ID 是您组织中使用](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization)的组织中的呼叫者 ID 设置进行更改的详细信息。
+> 如果您在美国以外，您无法使用的 Microsoft 团队管理中心获取服务号码。 而是转[管理组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)以了解如何执行此操作。
   
 ## <a name="related-topics"></a>相关主题
 

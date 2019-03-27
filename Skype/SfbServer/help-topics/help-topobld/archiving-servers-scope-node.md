@@ -1,5 +1,6 @@
 ---
 title: 存档服务器范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
-description: 在拓扑生成器，您可以执行与单个存档服务器通过右键单击控制台树中的存档服务器，在工具栏中，单击操作，或单击操作窗格中的任务，然后单击以下存档相关的任务服务器选项。
-ms.openlocfilehash: d9fb1557c4d302ab4b11cc03e754c7a007abc6af
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 在拓扑生成器中，可以通过右键单击控制台树中的“存档服务器”，再单击工具栏中的“操作”，或单击“操作”窗格中的任务，然后单击以下存档服务器选项来执行与单台存档服务器相关的任务：
+ms.openlocfilehash: 60f79b174f992718488a7eacb2d578dc05bf472f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30926523"
 ---
 # <a name="archiving-servers-scope-node"></a>存档服务器范围节点
  
@@ -25,11 +27,11 @@ ms.lasthandoff: 03/28/2018
 - **新建存档服务器**。启动“**定义新的存档服务器**”向导，从中指定新存档服务器的设置，包括完全限定的域名 (FQDN)、存档 SQL Server 数据库、存档文件存储和池关联。
     
 > [!NOTE]
-> 如果您之前已将存档服务器添加到拓扑生成器的拓扑中，则“存档服务器”节点将包含存档服务器。 但是，即时消息或 web 会议 （消息） 无法进行存档，直到您还设置了存档服务器，包括 Skype 业务服务器安装您想要用作归档服务器的服务器上，并配置为支持归档。 
+> 如果您之前已将存档服务器添加到拓扑生成器的拓扑中，则“存档服务器”节点将包含存档服务器。 但是，即时消息或 web 会议 （消息） 无法进行存档，直到您还需设置存档服务器，其中包括在您想要用作存档服务器的服务器上安装 Business Server Skype 和的 configuring support for存档。 
   
 除了本主题中之前介绍的存档服务器选项之外，“存档服务器”节点还具有控制台树中的其他节点也具有的一些常规选项。其中包括以下选项：
   
-- **拓扑**。 使用此选项可以定义一个新拓扑结构，打开一个现有的拓扑结构、 下载当前的拓扑结构、 拓扑结构的副本保存、 发布拓扑、 安装数据库、 合并组件，或者移除该部署。
+- **拓扑**。 使用此选项可定义新拓扑、 打开现有拓扑、 下载当前拓扑、 保存一份拓扑、 发布拓扑，安装数据库、 合并组件，或移除该部署。
     
 - **视图**。使用此选项通过在控制台树视图中选择要显示和隐藏的项目来自定义拓扑生成器视图。
     

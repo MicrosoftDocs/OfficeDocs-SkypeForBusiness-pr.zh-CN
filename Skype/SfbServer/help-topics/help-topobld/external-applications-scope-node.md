@@ -1,5 +1,6 @@
 ---
 title: 外部应用程序范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,16 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
-description: 受信任的应用程序服务器节点列出此站点上的受信任应用程序池。 受信任的应用程序池包含运行受信任的 Microsoft 统一通信应用程序，但不是运行 Skype 业务服务器角色的服务器。 可以执行以下操作：
-ms.openlocfilehash: c7f877e069b240c80219ce24f15943b2cce5fb08
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: “受信任应用程序服务器”节点列出了该站点上的受信任应用程序池。 受信任应用程序池包含运行受信任的 Microsoft 统一通信应用程序，但不要运行 Skype 业务服务器角色的服务器。 可以执行以下操作：
+ms.openlocfilehash: 3554487210ed415e1a49c78194b4fb858cd1d20e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894035"
 ---
 # <a name="external-applications-scope-node"></a>外部应用程序范围节点
  
-“**受信任应用程序服务器**”节点列出了该站点上的受信任应用程序池。 受信任的应用程序池包含运行受信任的 Microsoft 统一通信应用程序，但不是运行 Skype 业务服务器角色的服务器。 可以执行以下操作：
+“**受信任应用程序服务器**”节点列出了该站点上的受信任应用程序池。 受信任应用程序池包含运行受信任的 Microsoft 统一通信应用程序，但不要运行 Skype 业务服务器角色的服务器。 可以执行以下操作：
   
 - **新建受信任应用程序池**。启动“**定义新的受信任应用程序池**”向导，以向拓扑中添加新的受信任应用程序池。
     

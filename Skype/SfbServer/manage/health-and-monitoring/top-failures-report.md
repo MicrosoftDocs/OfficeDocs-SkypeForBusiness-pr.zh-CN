@@ -1,5 +1,6 @@
 ---
 title: Skype 中的业务服务器的主要故障报告
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
 description: 摘要： 了解业务服务器中 Skype 的主要故障报告。
-ms.openlocfilehash: 7050c156d78ed7b4c254976cf4fd2027f3a677d0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a2e8b0592e7525b1102d198de32643109304ed82
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002156"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897634"
 ---
 # <a name="top-failures-report-in-skype-for-business-server"></a>Skype 中的业务服务器的主要故障报告
  
@@ -36,7 +37,7 @@ ms.locfileid: "21002156"
 
 主要故障报告有一个与众不同的方面：它允许您一次性对最多 5 个诊断 ID 进行筛选。 （通常只能筛选一个项-例如，一个用户的 SIP 地址的上一次。）多个诊断 Id 的筛选器，只需在诊断 Id 框中，用逗号隔开 Id 中输入每个 ID。 （如果需要，则可以留下的空白区域后每个逗号。）例如：
   
-1011，2412年，1033，52116、 1008年
+1011, 2412, 1033, 52116, 1008
   
 这样一来，将仅显示报告了这五个诊断 ID 中的至少一个 ID 的失败呼叫。
   

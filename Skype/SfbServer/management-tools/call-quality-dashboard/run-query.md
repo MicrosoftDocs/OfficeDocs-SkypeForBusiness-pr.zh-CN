@@ -1,5 +1,6 @@
 ---
 title: 运行查询
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 摘要： 了解如何运行查询操作，它是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: ac9f042a8d5b8e016a398a0daf9595ffcb9d2fcb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8a1bea338039914695e16d1294f28abfe1e4b559
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533387"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899149"
 ---
 # <a name="run-query"></a>运行查询
 

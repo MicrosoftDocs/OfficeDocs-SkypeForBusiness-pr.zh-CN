@@ -1,5 +1,6 @@
 ---
 title: 边缘服务器方案中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 摘要： 查看这些方案可帮助您规划边缘服务器拓扑中 Skype 业务 Server。
-ms.openlocfilehash: 6343c69c493992656b17aaadb5e1450baec85560
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 26bdb7e007c3ba0da6c5590db4c1e6953e43e701
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885178"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881533"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>边缘服务器方案中 Skype 业务服务器
  

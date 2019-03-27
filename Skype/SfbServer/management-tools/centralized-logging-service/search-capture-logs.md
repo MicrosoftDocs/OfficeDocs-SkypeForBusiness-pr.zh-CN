@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 2015 中搜索集中日志记录服务创建的捕获日志
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 摘要： 了解如何搜索和业务服务器 2015年阅读 Centralized Logging Service 中 Skype 的捕获日志。
-ms.openlocfilehash: 9429ef0f2c14552c615e4d7f81c497ea9bb546f3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b1f049260eff7524e5a728852b3dcd99526d8742
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372217"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895885"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中搜索集中日志记录服务创建的捕获日志
  
@@ -32,7 +33,7 @@ The Centralized Logging Service 中的搜索功能很有用，并且强大原因
     
 每台计算机上的 CLSAgent 会根据方案创建日志（在任意给定时间，每台计算机上可以运行两个方案）。日志及其关联的索引和缓存文件由 CLSAgent 来管理。当您定义和执行搜索时，搜索命令会向 CLSAgent 指示应检索的信息。CLSAgent 针对日志文件、缓存文件和索引文件执行查询并将搜索结果返回至 CLSContoller。CLSController 接收来自搜索范围内的所有计算机和池的搜索结果。然后，CLSController 聚合（组合）日志并使其按时间增量排序，最早的条目在最前面，最新的条目在最后。
   
-每个搜索之后, 运行**Sync-csclslogging** cmdlet 并刷新缓存用于搜索 （不能与 clsagent 的通信由保留缓存文件混淆）。 刷新缓存有助于确保在 CLSController 中存在用于下一次搜索操作的干净日志和跟踪文件捕获缓冲区。
+在每次搜索后，**Sync-CsClsLogging** cmdlet 都会运行并且它会刷新搜索使用的缓存（不要与 CLSAgent 维护的缓存文件混淆）。 刷新缓存有助于确保在 CLSController 中存在用于下一次搜索操作的干净日志和跟踪文件捕获缓冲区。
   
 若要获得 the Centralized Logging Service 的最大好处，您需要如何配置搜索以返回只跟踪消息从计算机和池日志与您研究该问题相关的更好地理解。 问题
   
@@ -52,7 +53,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   
 ### <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>使用 the Centralized Logging Service 中运行基本搜索
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 2. 确保 AlwaysOn 方案在部署中的全局范围内运行，然后在命令提示符处键入以下内容：
     
@@ -107,7 +108,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>使用时间参数运行搜索
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 2. 默认情况下，搜索的时间特定参数的开始时间为启动搜索前 25 分钟到后五分钟。 换言之，如果在 4:00:00 PM 进行搜索，搜索开始时间将显示为 3:35:00 PM 到 4:05:00 PM。 如果您需要搜索 60 分钟或 3 小时当前时间之前，请使用-StartTime 参数，并设置来指示希望搜索开始的时间的日期和时间的字符串。 
     
@@ -138,7 +139,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ### <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>使用其他条件和匹配选项运行高级搜索
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 2. 若要运行命令以收集特定组件的跟踪，请键入以下命令：
     

@@ -1,5 +1,6 @@
 ---
 title: 配置观察程序节点测试用户和设置
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要： 配置测试用户帐户和业务服务器综合事务的 Skype 的观察程序节点设置。
-ms.openlocfilehash: 3348d0407321ca53a771e2783b0f27c6463143f4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6137d72ce35ffdacaacb85890b387d5f9fc8ab9a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536006"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897484"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>配置观察程序节点测试用户和设置
  
@@ -201,7 +202,7 @@ Get-CsWatcherNodeConfiguration
 
 您将获得信息类似如下：
   
-标识： atl-cs-001.litwareinc.com TestUsers: {sip:watcher1@litwareinc.com，sip:watcher2@litwareinc.com...} ExtendedTests: {TestUsers = IList < System.String >;名称 = PSTN 测试;Te...} TargetFqdn: atl-cs-001.litwareinc.com 端口号： 5061To 验证是否已配置观察程序节点正确，键入以下命令从 Skype 业务 Server 命令行管理程序：
+标识： atl-cs-001.litwareinc.com TestUsers: {sip:watcher1@litwareinc.com，sip:watcher2@litwareinc.com...} ExtendedTests: {TestUsers=IList<System.String>;名称 = PSTN 测试;Te...} TargetFqdn: atl-cs-001.litwareinc.com 端口号： 5061To 验证是否已配置观察程序节点正确，键入以下命令从 Skype 业务 Server 命令行管理程序：
   
 ```
 Test-CsWatcherNodeConfiguration

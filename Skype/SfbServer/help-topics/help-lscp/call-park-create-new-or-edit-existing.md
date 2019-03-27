@@ -1,5 +1,6 @@
 ---
 title: 呼叫寄存创建新的或编辑现有的
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 description: 呼叫寄存号码范围定义临时号码直到有人取回他们或其超时寄存的呼叫保存。
-ms.openlocfilehash: 8b4e3e56eeb166fe5d3a3fe16d3b0414f7805304
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 6948bc42616ee85c77eb7fe250fe922420d6919b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243579"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898850"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>呼叫寄存：创建新的或编辑现有的
 

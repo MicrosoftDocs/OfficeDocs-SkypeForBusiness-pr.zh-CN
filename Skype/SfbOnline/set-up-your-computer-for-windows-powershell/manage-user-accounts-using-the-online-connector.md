@@ -1,5 +1,6 @@
 ---
 title: 管理用户帐户使用 Online Connector
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Windows PowerShell 中使用 Get-csonlineuser cmdlet 以获取有关您组织的 Skype 针对业务 Online 用户信息。
-ms.openlocfilehash: fb652b53ee082834dbc4775720774985a7d51af5
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 4c2e7e581146c179f3171f38e82eff219871a90a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855850"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893530"
 ---
 # <a name="manage-user-accounts-using-the-online-connector"></a>管理用户帐户使用 Online Connector
 

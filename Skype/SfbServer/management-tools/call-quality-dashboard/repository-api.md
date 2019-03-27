@@ -1,5 +1,6 @@
 ---
 title: 呼叫质量仪表板 (CQD) 中的业务服务器 Skype 的库 API
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: 摘要： 了解呼叫质量仪表板的存储库 API。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: de933063e5768b12af5ae8dc678ec7aa2da5f168
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9181cd1454311bb5446bb18f51af56914387e7c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530911"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898808"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>呼叫质量仪表板 (CQD) 中的业务服务器 Skype 的库 API
  

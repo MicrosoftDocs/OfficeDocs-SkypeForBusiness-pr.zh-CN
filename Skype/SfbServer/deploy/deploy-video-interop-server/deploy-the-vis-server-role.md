@@ -1,5 +1,6 @@
 ---
 title: 为业务服务器部署中 Skype VIS 服务器角色
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6401e67-59fe-4419-a0ab-ffac88e67632
 description: 摘要： 业务服务器部署中 Skype 的视频互操作服务器 (VIS) 角色。
-ms.openlocfilehash: b52980a727ad0ce13e45e2c833c971598afafa1e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7919b9c02001f0851b3662baa989b0eed0b20225
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993441"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896125"
 ---
 # <a name="deploy-the-vis-server-role-in-skype-for-business-server"></a>为业务服务器部署中 Skype VIS 服务器角色
  
@@ -31,7 +32,7 @@ ms.locfileid: "20993441"
     
 4. 选择**启动服务**。
     
-现已安装和运行此服务的软件。 您可以打开**Skype 的业务服务器视频互操作**服务是否正在运行以及其他 Skype 业务 Server 服务的服务 mmc 工具。 接下来，你必须配置 VIS 服务器或池。
+The software for this service is now installed and running. 您可以打开**Skype 的业务服务器视频互操作**服务是否正在运行以及其他 Skype 业务 Server 服务的服务 mmc 工具。 Next, you must configure the VIS server or pool.
 ## <a name="see-also"></a>另请参阅
 
 [为业务 Server Skype 中配置视频互操作性服务器](configure-the-vis.md)

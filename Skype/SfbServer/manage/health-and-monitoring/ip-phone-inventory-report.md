@@ -1,5 +1,6 @@
 ---
 title: IP 电话清单报告中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: 摘要： 了解 IP 电话清单报告中 Skype 业务服务器。
-ms.openlocfilehash: bbcbe74fe95d719bee2b8c660d110854088b1150
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 02c98d9f3a1adbe7adf6810def04fcbffe2de3bd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21017976"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897571"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>IP 电话清单报告中 Skype 业务服务器
  

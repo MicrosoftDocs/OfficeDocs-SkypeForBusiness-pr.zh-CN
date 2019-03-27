@@ -1,5 +1,6 @@
 ---
 title: 准备当前域
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要准备的企业服务器用户业务服务器或 Skype 运行 Skype 的主机服务器的域，您必须完成步骤 5： 准备当前域，使用安装程序运行域准备主题中所述。 要完成此步骤，必须以准备的域中 Domain Admins 组成员身份登录，或以该域所属的林中 Enterprise Admins 组成员身份登录。 若要准备域：
-ms.openlocfilehash: 1cee0b54d4a5329640ddc49a5a696bc7beaf0b84
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 0544381fbb4965bd370f1ac128d2e203de0cb109
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256278"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896104"
 ---
 # <a name="prepare-current-domain"></a>准备当前域
 

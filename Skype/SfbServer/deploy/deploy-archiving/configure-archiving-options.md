@@ -1,5 +1,6 @@
 ---
 title: 配置 Skype 业务服务器的存档的选项
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: 摘要： 阅读本主题可了解如何配置初始的 Skype 业务服务器的存档选项。 您最初设置存档配置，当您部署存档，但您可以更改、 添加和删除部署后的配置。
-ms.openlocfilehash: 186ebae95c3d4d27ef634c0ca9ae1bc99bbfa253
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 80501c01c4e05e0578685b42f8fb83b7faed6c59
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21020412"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896293"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>配置 Skype 业务服务器的存档的选项
  
@@ -57,7 +58,7 @@ ms.locfileid: "21020412"
     
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
     
-3. 在左侧导航栏中，单击“**监控和存档**”，然后单击“**存档配置**”。
+3. 在左侧导航栏中，单击“监控和存档”****，然后单击“存档配置”****。
     
 4. 在“**存档配置**”页上，单击“**全局**”，再单击“**编辑**”，然后单击“**显示详细信息**”。
     
@@ -91,7 +92,7 @@ ms.locfileid: "21020412"
     
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
     
-3. 在左侧导航栏中，单击“**监控和存档**”，然后单击“**存档配置**”。
+3. 在左侧导航栏中，单击“监控和存档”****，然后单击“存档配置”****。
     
 4. 在“**存档配置**”页上，单击“**新建**”，然后单击“**站点配置**”。
     
@@ -127,7 +128,7 @@ ms.locfileid: "21020412"
     
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
     
-3. 在左侧导航栏中，单击“**监控和存档**”，然后单击“**存档配置**”。
+3. 在左侧导航栏中，单击“监控和存档”****，然后单击“存档配置”****。
     
 4. 在“**存档配置**”页上，单击“**新建**”，然后单击“**池配置**”。
     

@@ -1,5 +1,6 @@
 ---
-title: 分支站点 （规划工具）
+title: Branch Sites (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 description: 有关分支站点恢复能力的详细信息，请参阅规划分支站点语音恢复能力。
-ms.openlocfilehash: 24c4958fb16f20e5b929219ce54e6083b8addfc6
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 46ce05f9cdb287f20fc19bee5f05f00a23f3bf23
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254523"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899220"
 ---
-# <a name="branch-sites-planning-tool"></a>分支站点 （规划工具）
+# <a name="branch-sites-planning-tool"></a>Branch Sites (Planning Tool)
 
 有关分支站点恢复能力的详细信息，请参阅[规划分支站点语音恢复能力](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)。
 

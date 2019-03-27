@@ -1,5 +1,6 @@
 ---
 title: 管理网络区域路由
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 网络区域路由定义一对网络区域之间的路由。 每对网络区域中您的呼叫允许控制部署需要网络区域路由。
-ms.openlocfilehash: 98d7f0ce8f6cb89aa443c5dc8863afd34c355ff3
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 12e8d9072df3affdb6e47b6ddb0452e0ee5982a5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223155"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898121"
 ---
-# <a name="managing-network-region-routes-in-skype-for-business-server"></a>管理 Business Server Skype 中的网络区域路由
+# <a name="managing-network-region-routes-in-skype-for-business-server"></a>在 Skype for Business Server 中管理网络区域路由
 
 *网络区域路由*定义一对网络区域之间的路由。 每对网络区域中您的呼叫允许控制部署需要网络区域路由。 这样部署中的每个网络区域便能够访问任何其他区域。 使用本节中此 artilce 以查看、 创建、 修改或删除网络区域路由。
 
@@ -129,13 +130,13 @@ ms.locfileid: "27223155"
 
 5.  在**编辑**菜单上，单击**删除**。
 
-6.  单击“确定”****。
+6.  单击“**确定**”。
 
 
 
 ## <a name="see-also"></a>另请参阅
 
-[管理 Business Server Skype 中的网络区域](managing-network-regions.md)
+[在 Skype for Business Server 中管理网络区域](managing-network-regions.md)
 
 [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)  
 

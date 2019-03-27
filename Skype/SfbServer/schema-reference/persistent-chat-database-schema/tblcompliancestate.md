@@ -1,5 +1,6 @@
 ---
 title: tblComplianceState
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,23 +10,24 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
-description: tblComplianceState 包含池范围的法规遵从性状态的信息。
-ms.openlocfilehash: e46db9c73f4489ade9bbed90f0061567fd14af1d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: tblComplianceState 包含池范围的合规性状态信息。
+ms.openlocfilehash: 4e9f103ef019e743b5dfcb4ef554ff6a28c340b8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899290"
 ---
 # <a name="tblcompliancestate"></a>tblComplianceState
  
-tblComplianceState 包含池范围的法规遵从性状态的信息。
+tblComplianceState 包含池范围的合规性状态信息。
   
 **列**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|lastProcessedEntryID  <br/> |bigint，不为空  <br/> |最新的处理法规遵从性事件 ID。  <br/> |
-|activeServerID  <br/> |int，不为空  <br/> |如果没有保存在数据库中，则为-1 的排它锁的法规遵从性服务器的 ID。  <br/> |
-|lockExpirationTime  <br/> |datetime2，不为空  <br/> |锁定到期时间 （如果 activeServerID 不是-1）。  <br/> |
+|lastProcessedEntryID  <br/> |bigint，不为 null  <br/> |最新处理的合规性事件的 ID。  <br/> |
+|activeServerID  <br/> |int，不为 null  <br/> |如果无则保留排除锁数据库，则为-1 上的合规性服务器 ID。  <br/> |
+|lockExpirationTime  <br/> |datetime2，不为 null  <br/> |锁定到期时间，（如果 activeServerID 不为-1）。  <br/> |
    
 

@@ -1,5 +1,6 @@
 ---
 title: 部署 Office 365 中的商业客户端 Skype
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: '了解如何规划和部署 Skype for Business 中小型、 中型和大型组织，并使其可供您的用户。 '
-ms.openlocfilehash: c96d4759e25370997b9af8d42d8130d7964962df
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6dccd022d82519c1dfdce13f767e5b0a2531eb10
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372568"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896790"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>部署 Office 365 中的商业客户端 Skype
 
@@ -52,7 +53,7 @@ ms.locfileid: "25372568"
     ![选择希望用户访问的软件。](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
-> 如果您需要以查看哪些计划已分配给您的组织中的人员，登录到新的 Office 365 管理中心 >**用户** > **活动用户**。 从列表中选择联系人，然后在**产品许可证**下查看。 如果您使用的经典的 Office 365 管理中心，查看**已分配许可证**下。 
+> 如果您需要以查看哪些计划已分配给您的组织中的人员，登录到新的 Office 365 admin center >**用户** > **活动用户**。 从列表中选择联系人，然后在**产品许可证**下查看。 如果您使用的经典的 Office 365 管理中心，查看**已分配许可证**下。 
   
 ### <a name="manually-deploying-skype-for-business-to-your-users"></a>手动部署到您的用户的 Skype for Business
 <a name="bkmk_manual_1"> </a>

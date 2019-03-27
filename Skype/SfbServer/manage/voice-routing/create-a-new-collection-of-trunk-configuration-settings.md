@@ -1,5 +1,6 @@
 ---
 title: 创建新的集合中继配置设置中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: SIP 中继配置设置定义的关系和中介服务器和公用电话交换网 (pstn) 网关、 IP 公用交换机 (PBX) 或服务提供商会话边界控制器 (SBC) 之间的功能。
-ms.openlocfilehash: cdf38667d18db3525432fe4e5786481175183a5c
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 86a731c07f3c7289e5eabcd74bb3ccf37ec4df9d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223176"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890449"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>创建新的集合中继配置设置中 Skype 业务服务器
 
@@ -22,11 +23,11 @@ SIP 中继配置设置定义的关系和中介服务器和公用电话交换网 
 - 在其下发送实时传输控制协议 (RTCP) 数据包的条件。
 - 是否每个中继上是否需要安全实时协议 (SRTP) 加密。
 
-在安装 Skype 业务服务器时，会为您创建 SIP 中继配置设置的全局集合。 此外，管理员还可以在站点作用域或服务作用域（仅针对 PSTN 网关服务）内创建自定义设置集合。
+在安装 Skype 业务服务器时，会为您创建 SIP 中继配置设置的全局集合。 此外，管理员可以在站点作用域或服务作用域创建自定义设置集合（仅适用于 PSTN 网关服务）。
 
 为业务 Server 控制面板创建 SIP 中继配置设置 usingSkype 时, 可供您以下选项：
 
-|UI 设置 | PowerShell 参数 | 描述 |
+|UI 设置 | PowerShell 参数 | 说明 |
 |--|--|--|
 |名称|Identity|集合的唯一标识符。此属性为只读；您无法更改中继配置设置集合的标识。|
 |描述|描述|为管理员提供了存储有关设置的附加信息（例如，中继配置的用途）的方法。|

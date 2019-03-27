@@ -1,5 +1,6 @@
 ---
 title: 查看 CDR 配置信息在 Skype 业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: 摘要： 了解如何使用 Skype 中 Business Server 呼叫详细信息记录 (CDR)。
-ms.openlocfilehash: 6abdd508cdb8ecbd89054596b024e27376c70a38
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: edf3f719ed3d859ff6d7a6c4fcebbf22356277d5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979411"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896726"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>查看 CDR 配置信息在 Skype 业务服务器
  
@@ -22,7 +23,7 @@ ms.locfileid: "20979411"
   
 利用呼叫详细信息记录 (CDR)，可以跟踪对等即时消息会话、IP 语音 (VoIP) 电话呼叫和会议呼叫等的使用情况。此使用情况数据包含有关呼叫者、被叫方、呼叫时间及通话时长的信息。
   
-对于业务服务器，单个，安装 Skype 时为您创建的 CDR 配置设置的全局集合。 管理员还可以选择创建可应用于各个站点的自定义设置集合。 可以使用 Skype 业务 Server Control Panel 或[Get-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) cmdlet 的 CDR 配置设置中使用查看您的组织中。
+对于业务服务器，单个，安装 Skype 时为您创建的 CDR 配置设置的全局集合。 管理员还可以选择可应用于各个站点的自定义设置集合。 可以使用 Skype 业务 Server Control Panel 或[Get-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) cmdlet 的 CDR 配置设置中使用查看您的组织中。
   
 ### <a name="to-view-cdr-configuration-information-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 查看 CDR 配置信息
 

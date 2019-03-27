@@ -1,5 +1,6 @@
 ---
-title: 为业务 Server 部署的 Skype 的统计信息管理器
+title: 部署 Skype for Business Server 的统计信息管理器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 摘要： 阅读本主题可了解如何为业务服务器部署 for Skype 的统计信息管理器。
-ms.openlocfilehash: ef2dd51306dc2806161fc0c0d4b11087a2f466ea
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 901720f87cf1c0bf78f558ed0d031bd41377799a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297697"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898256"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>为业务 Server 部署的 Skype 的统计信息管理器
+# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>部署 Skype for Business Server 的统计信息管理器
  
 **摘要：** 阅读本主题可了解如何为业务服务器部署 for Skype 的统计信息管理器。
   
@@ -67,7 +68,7 @@ ms.locfileid: "27297697"
     
     可以从下载未签名安装程序[https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    如果需要，可通过以下常用程序包管理器获取签名的二进制文件：[Nuget](https://www.nuget.org/packages/Redis-64/) 和 [Choclatey](https://chocolatey.org/packages/redis-64)。
+    如果需要，签名的二进制文件，可通过常用包经理： [Nuget](https://www.nuget.org/packages/Redis-64/)和[Choclatey](https://chocolatey.org/packages/redis-64)。
     
    - 运行提供的 msi 并按照提示操作。
     
@@ -298,8 +299,8 @@ Microsoft 强烈建议你使用受信任的证书颁发机构签发的证书。 
 
 有关详细信息，请参阅以下文章：
   
-- [规划业务 Server 为统计信息管理器中的 Skype](plan.md)
+- [Skype for Business Server 的统计信息管理器规划](plan.md)
     
-- [为业务服务器升级的 Skype 的统计信息管理器](upgrade.md)
+- [更新 Skype for Business Server 的统计信息管理器](upgrade.md)
     
 - [解决的业务服务器 Skype 的统计信息管理器](troubleshoot.md)ß

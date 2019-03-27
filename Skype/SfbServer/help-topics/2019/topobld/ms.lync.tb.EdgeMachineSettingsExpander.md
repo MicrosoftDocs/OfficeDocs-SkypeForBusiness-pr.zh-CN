@@ -1,5 +1,6 @@
 ---
-title: 边缘计算机设置扩展器
+title: Edge 机器设置扩展器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要编辑边缘服务器池中的服务器的属性，请执行以下操作：
-ms.openlocfilehash: d0df347d3432d28b6d5f1df9d32cb4cd4f4423cd
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 5755e03c0d760ef61b8cd4322131316c1d80a4c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057256"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899489"
 ---
-# <a name="edge-machine-settings-expander"></a>边缘计算机设置扩展器
+# <a name="edge-machine-settings-expander"></a>Edge 机器设置扩展器
  
 若要编辑边缘服务器池中的服务器的属性，请执行以下操作：
   

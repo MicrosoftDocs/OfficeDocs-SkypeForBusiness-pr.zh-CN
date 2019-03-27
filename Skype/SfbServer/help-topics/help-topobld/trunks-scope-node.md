@@ -1,5 +1,6 @@
 ---
 title: Trunk 范围节点
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,16 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
-description: 用鼠标右键单击中继在拓扑生成器来执行以下操作：
-ms.openlocfilehash: e164e11c3185e8306146f3558459afbcf9fe52f5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 右键单击中继在拓扑生成器以执行以下操作：
+ms.openlocfilehash: 543c4cb31f87d670ac8b0e0d89d0f87b84927111
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897947"
 ---
 # <a name="trunks-scope-node"></a>中继范围节点
  
-用鼠标右键单击**中继**在拓扑生成器来执行以下操作：
+右键单击**中继**在拓扑生成器以执行以下操作：
   
 - **新建中继**：启动用于定义新的 SIP 中继的“**定义新的中继**”向导。
     

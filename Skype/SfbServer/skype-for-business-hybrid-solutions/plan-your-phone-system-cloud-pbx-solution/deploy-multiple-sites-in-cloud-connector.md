@@ -1,5 +1,6 @@
 ---
 title: 在云连接器中部署多个站点
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: 了解有关在云连接器版本中部署多个 PSTN 站点的信息。
-ms.openlocfilehash: 388915d0ab22dc50378d84a82c01291cfd7c99eb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 194eaf0b68489b37a5ab1fc2d5d501177edd0b35
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532367"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895949"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>在云连接器中部署多个站点
  
@@ -69,7 +70,7 @@ ExternalMRPublicIPs=104.42.226.134
 对于您要添加的每个 PSTN 网站，请按照[Deploy 云 Connector 中单个网站](deploy-a-single-site-in-cloud-connector.md)中的步骤。
   
 > [!IMPORTANT]
-> 每个 PSTN 站点应具有单独的用于准备高可用性 (HA) 的共享文件夹。 不同 PSTN 站点**必须**使用不同的共享文件夹。 为多个网站。 不使用相同的共享的文件夹 > 
+> 每个 PSTN 站点应具有单独的用于准备高可用性 (HA) 的共享文件夹。 不同 PSTN 站点**必须**使用不同的共享文件夹。 为多个 sites.> 不使用相同的共享的文件夹 
   
 ## <a name="single-site-with-high-availability-ha-compared-to-multi-site-deployments"></a>支持高可用性 (HA) 的单站点部署与多站点部署比较
 <a name="BKMK_SingleSitecomparedtomulti-site"> </a>

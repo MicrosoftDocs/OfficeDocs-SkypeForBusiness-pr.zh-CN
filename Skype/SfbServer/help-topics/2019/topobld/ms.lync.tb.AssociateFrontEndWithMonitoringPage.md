@@ -1,5 +1,6 @@
 ---
 title: 将前端与监控关联
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
 ROBOTS: NOINDEX, NOFOLLOW
 description: 每个前端池和 Survivable Branch Appliance 只能有一个与之关联的监控服务器。 启用对网站的监控后，监控服务器会提供呼叫详细信息记录 (CDR) 和用户体验质量 (QoE) 数据收集和报告。
-ms.openlocfilehash: 6180f7d6fc48db5293ffae8eaba5f95c34267358
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: b6a1f46f24e016fe7fab9b620bf3240c23b0d6b2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060811"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896898"
 ---
 # <a name="associate-front-end-with-monitoring"></a>将前端与监控关联
  

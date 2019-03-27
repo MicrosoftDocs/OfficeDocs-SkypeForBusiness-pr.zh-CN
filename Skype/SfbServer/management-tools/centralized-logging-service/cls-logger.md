@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 的 CLS 日志记录程序
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 摘要： 了解如何使用业务服务器 2015年中 Skype 集中日志记录服务 (CLS) 记录器。
-ms.openlocfilehash: b9a42c671f90d00434a94a27830753d58afb9e0b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5b2a2f7e447215d291aa763982acae1a6e64b8a1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372126"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897926"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的 CLS 日志记录程序
  

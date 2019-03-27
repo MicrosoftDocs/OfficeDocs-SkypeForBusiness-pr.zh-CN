@@ -1,5 +1,6 @@
 ---
 title: 前端常规设置扩展器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要编辑现有前端池或 Standard Edition Server 的设置，可参考以下各节内容：
-ms.openlocfilehash: 37afa0403dbdf81791233c5ac091d5e07c152a07
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 1b28f3921042bcd8d0f8f99cd0b5950c190ef79d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243240"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890506"
 ---
 # <a name="front-end-general-settings-expander"></a>前端常规设置扩展器
 
@@ -33,7 +34,7 @@ ms.locfileid: "23243240"
 
 ## <a name="front-end-pool"></a>前端池
 
-对于前端池，可以配置常规设置、复原设置、Web 服务设置和中介服务器设置。 有关详细信息，请参阅以下子节中的信息。 有关定义和配置前端池设置的详细信息，请参阅[Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
+对于前端池，可以配置常规设置、复原设置、Web 服务设置和中介服务器设置。有关详细信息，请参阅以下子节中的信息。有关定义和配置前端池设置的详细信息，请参阅[Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
 
 ### <a name="general-settings"></a>常规设置
 
@@ -128,7 +129,7 @@ ms.locfileid: "23243240"
 
 ## <a name="standard-edition-server"></a>Standard Edition Server
 
-对于 Standard Edition Server，可以配置常规设置、复原设置、Web 服务设置和中介服务器设置。 有关详细信息，请参阅以下子节中的信息。 有关定义和配置设置的 Standard Edition server 的详细信息，请参阅[Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)和[Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
+对于 Standard Edition Server，可以配置常规设置、复原设置、Web 服务设置和中介服务器设置。有关详细信息，请参阅以下子节中的信息。有关定义和配置 Standard Edition Server 设置的详细信息，请参阅[Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)和[Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
 
 ### <a name="general-settings"></a>常规设置
 
@@ -203,6 +204,6 @@ ms.locfileid: "23243240"
 
 - 如果有多个网关与中介服务器关联，可以通过选择相应网关，然后单击“**设为默认值**”，指定默认网关。若要取消选择网关作为默认网关，请单击“**取消设为默认值**”。
 
-有关定义和配置设置的 Standard Edition server 的详细信息，请参阅[Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)和[Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
+有关定义和配置 Standard Edition Server 设置的详细信息，请参阅[Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)和[Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
 
 

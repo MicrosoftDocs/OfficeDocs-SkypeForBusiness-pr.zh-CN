@@ -1,7 +1,7 @@
 ---
 title: 创建电话系统呼叫队列
-ms.author: tonysmit
-author: tonysmit
+ms.author: jambirk
+author: jambirk
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 了解如何设置 Office 365 (云 PBX) 呼叫队列以获得组织问候语、保持音乐和将呼叫重定向到通讯组列表和安全组中的呼叫代理。还可以设置最大队列大小、超时和呼叫处理选项。
-ms.openlocfilehash: f22b840bfde011937305732e61748d8a1feae390
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+description: 了解如何设置电话系统呼叫队列将使您组织的问候语，保持音乐，并将重定向呼叫通讯组列表和安全组中的代理的呼叫的电话系统。 You can also set the maximum queue size, time out, and call handling options.
+ms.openlocfilehash: 924885ff62bb0e7e2ba0f25cc348dc62eb29ec32
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633271"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898163"
 ---
 # <a name="create-a-phone-system-call-queue"></a>创建电话系统呼叫队列
 
@@ -64,7 +64,7 @@ Phone System call queues include greetings that are used when someone calls in t
     > [!NOTE]
     > 要重定向呼叫的人员在组织中联机，它们必须具有**电话系统**许可证和启用了企业语音或其 Office 365 调用计划。 请参阅[业务许可证分配 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)或[分配 Microsoft 团队许可证](assign-teams-licenses.md)。 要为他们启用企业语音，可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- 若要了解有关 Office 365 通话套餐的详细信息，请参阅 [Office 365 中有哪些通话套餐？](what-are-calling-plans-in-office-365.md) 和 [Office 365 的通话套餐](calling-plans-for-office-365.md)。
+- 若要了解有关 Office 365 调用计划的详细信息，请参阅[电话系统，调用计划](calling-plan-landing-page.md)和[调用规划 Office 365](calling-plans-for-office-365.md)。
 
     > [!NOTE]
     > 用户托管在本地作为呼叫队列代理不支持使用 Lync Server 2010。
@@ -108,6 +108,8 @@ Phone System call queues include greetings that are used when someone calls in t
 如果您要设置自动助理，您可能只需要将电话号码分配给主自动助理的资源帐户，并使其直接主叫方到呼叫队列。 如果是这样，需要之前可以创建一个选项中选择呼叫队列的自动助理创建呼叫队列。
   
 ## <a name="step-3---create-a-new-call-queue"></a>步骤 3-创建新的呼叫队列
+
+[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 > [!IMPORTANT]
 > 每个呼叫队列需要具有关联的[资源帐户](manage-resource-accounts.md)。 您必须首先，创建资源帐户，然后将其至呼叫的队列相关联。

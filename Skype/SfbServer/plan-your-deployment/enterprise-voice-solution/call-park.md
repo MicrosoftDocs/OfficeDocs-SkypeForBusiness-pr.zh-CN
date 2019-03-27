@@ -1,5 +1,6 @@
 ---
 title: 规划呼叫寄存中 Skype for Business
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: 这样可使业务 Server 企业语音规划呼叫寄存 Skype 中，将呼叫置于保持状态并将呼叫转接到的部门。 包括容量规划、支持的呼叫和支持的客户端。
-ms.openlocfilehash: 328c94507c393aba1edc7253bdf962a2904a44d6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 92c896bb610827108379af2bca38cd7a89639af2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883353"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894063"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>规划呼叫寄存中 Skype for Business
  
@@ -60,7 +61,7 @@ ms.locfileid: "23883353"
 呼叫寄存应用程序使用**端口 5075**用于 SIP 侦听请求。
     
 > [!NOTE]
-> 此端口是您可以使用**集 CsApplicationServer** cmdlet 更改默认设置。 有关此 cmdlet 的详细信息，请参阅 Lync Server Management Shell 文档。
+> 此端口是默认设置，您可以使用 **Set-CsApplicationServer** cmdlet 对其进行更改。 有关此 cmdlet 的详细信息，请参阅 Lync Server Management Shell 文档。
   
 ### <a name="audio-file-requirements"></a>音频文件要求
 

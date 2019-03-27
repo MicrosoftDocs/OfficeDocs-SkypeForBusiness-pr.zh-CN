@@ -1,5 +1,6 @@
 ---
 title: 创建或修改呼叫寄存通道范围中的业务的 Skype
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: 创建或修改业务 Server 企业语音的呼叫寄存通道范围表 Skype 中。
-ms.openlocfilehash: 6892c48c95b7c5e84242a1456855e869a70e532b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 23de2c42ff7b7e8bf3c020eaf3bb5050524b87d3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370689"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896118"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>创建或修改呼叫寄存通道范围中的业务的 Skype
 
@@ -38,7 +39,7 @@ ms.locfileid: "25370689"
 
 ### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>若要使用的业务 Server Control Panel Skype 创建或修改寄存呼叫的号码范围
 
-1. 以 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator、 CsServerAdministrator 或 CsAdministrator 角色的成员身份登录到计算机。 有关详细信息，请参阅**Delegate Setup Permissions**。
+1. 以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。有关详细信息，请参阅**Delegate Setup Permissions**。
 
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。
 
@@ -75,11 +76,11 @@ ms.locfileid: "25370689"
 
 1. 登录到计算机的业务 Server Management Shell 的 Skype 或使用**Delegate Setup Permissions**中所述的必要用户权限的 RTCUniversalServerAdmins 组成员身份的安装。
 
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
-3. 使用**New-cscallparkorbit**创建新的通道号码范围。 **设置 CsCallParkOrbit**用于修改现有的通道号码范围。
+3. 使用  **New-CsCallParkOrbit** 可创建通道号码的新范围。 使用  **Set-CsCallParkOrbit** 可修改通道号码的现有范围。
 
-    在该命令行处，运行：
+    在命令行中运行：
 
    ```
    New-CsCallParkOrbit -Identity <name of orbit range> -NumberRangeStart <first number in orbit range> -NumberRangeEnd <last number in orbit range> -CallParkService <FQDN or service ID of the Application service that hosts the Call Park application>

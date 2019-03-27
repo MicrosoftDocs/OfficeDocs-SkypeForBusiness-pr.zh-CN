@@ -1,5 +1,6 @@
 ---
 title: 规划适用于 Skype for Business Server 的忙碌选项
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: 阅读有关 Skype 中的忙选项功能业务服务器。
-ms.openlocfilehash: 7b71cad7eebaf2d375098abfa0891cdf6b494fe9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 41e34dbb4eaf4a264ba1cec3756cc53c78992611
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884784"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897975"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>规划适用于 Skype for Business Server 的忙碌选项
  
@@ -27,7 +28,7 @@ ms.locfileid: "23884784"
   
 已配对前端池和 Survivable Branch Server (SBS) 上的故障转移和灾难恢复支持忙碌选项策略。
   
-本主题描述忙碌选项的功能。 有关如何安装和配置忙选项的信息，请参阅[安装和配置忙业务服务器 Skype 选项](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md)。
+本主题描述忙碌选项的功能。 有关如何安装和配置忙碌选项的信息，请参阅[Install and configure Busy Options for Skype for Business Server](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md)。
   
 ## <a name="configuration-options"></a>配置选项
 

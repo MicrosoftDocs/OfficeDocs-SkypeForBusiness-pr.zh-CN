@@ -1,5 +1,6 @@
 ---
 title: 分支机构设备范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,20 +12,21 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
-description: 高存活力的分支装置节点列出在此分支站点高存活力的分支装置。 可以执行以下操作：
-ms.openlocfilehash: c31e91d3d6076950b80dae9f34faa97700031c7a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Survivable Branch Appliance 节点列出了在此分支站点 Survivable Branch Appliance。 可以执行以下操作：
+ms.openlocfilehash: 980c2a26787dd1e7f34f3c002771c211aded1f4a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897515"
 ---
 # <a name="branch-office-appliances-scope-node"></a>分支机构设备范围节点
  
-**高存活力的分支装置**节点列出在此分支站点高存活力的分支装置。 可以执行以下操作：
+**Survivable Branch Appliance**节点列出了在此分支站点 Survivable Branch Appliance。 可以执行以下操作：
   
-- **新建 Survivable Branch Appliance**。 启动**定义新高存活力分支装置**向导，该对话框用于向此网站添加新高存活力的分支装置。
+- **新建 Survivable Branch Appliance**。 启动**定义新 Survivable Branch Appliance**向导，用于将新的 Survivable Branch Appliance 添加到此网站。
     
-除了高存活力的分支装置选项中，您可以执行以下常规任务：
+除了 Survivable Branch Appliance 选项中，您可以执行以下常规任务：
   
 - **拓扑**。可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并以前版本的组件或删除部署。
     

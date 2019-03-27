@@ -1,5 +1,6 @@
 ---
 title: 获取维度成员
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: 摘要： 了解如何获取维度成员操作。 获取维度成员操作是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: 4c53e809d13b1ceb386c6727805402be9dfaf7f8
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 59cc44cfabca8f216b9d03046fbe697daccbaee2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532985"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897099"
 ---
 # <a name="get-dimension-members"></a>获取维度成员
  

@@ -1,5 +1,6 @@
 ---
 title: 外部应用程序范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: “受信任应用程序服务器”节点列出了该站点上的受信任应用程序池。 受信任应用程序池包含运行受信任的 Microsoft 统一通信应用程序，但不要运行 Skype 业务服务器角色的服务器。 可以执行以下操作：
-ms.openlocfilehash: 24f167f8ab81983d596c2686da7342c6858830ff
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 7c61306e8466daa8d543f02c9a1de99a129cc40a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062620"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890218"
 ---
 # <a name="external-applications-scope-node"></a>外部应用程序范围节点
  

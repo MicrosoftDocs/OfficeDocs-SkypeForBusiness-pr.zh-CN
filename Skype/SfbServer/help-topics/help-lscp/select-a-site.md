@@ -1,5 +1,6 @@
 ---
 title: 选择站点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,13 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
-description: 使用“选择站点”对话框查找环境中可用的站点。若要使用现有站点，请单击列表中的某个站点，然后单击“确定”。
-ms.openlocfilehash: 39cd1ede1aa3ed3a01cbf32eec4388328d9812f1
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 使用“选择站点”对话框查找环境中可用的站点。 若要使用现有站点，请单击列表中的某个站点，然后单击“确定”。
+ms.openlocfilehash: e9e82749d761a8a947ab6206f341d6508f3d8d80
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256719"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895836"
 ---
 # <a name="select-a-site"></a>选择站点
 
@@ -32,9 +33,9 @@ ms.locfileid: "23256719"
 
 您可以在“**选择站点**”页上执行以下任务：
 
-- [在全局范围或为持久聊天服务器池配置持久聊天服务器选项](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
+- [Configure Persistent Chat Server Options Globally or for Persistent Chat Server Pool](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
 
-- [为持久聊天创建站点策略](https://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
+- [Create a Site Policy for Persistent Chat](https://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
 
 有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
 

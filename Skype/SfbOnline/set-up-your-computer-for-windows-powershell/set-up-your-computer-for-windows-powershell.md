@@ -1,5 +1,6 @@
 ---
 title: 为 Windows PowerShell 设置计算机
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: 了解用于远程管理的 Skype online 通过 Windows PowerShell，包括支持的操作系统上的业务要求。
-ms.openlocfilehash: 01fa2856149bb7718fc34bb83f48e03a307496b8
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: 7854fa064420c2addeea4397e8dd882374c3b940
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635625"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896517"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>为 Windows PowerShell 设置计算机
 
@@ -54,7 +55,7 @@ ms.locfileid: "29635625"
   
 - [下载并安装 for Business Online Connector 模块 Skype](download-and-install-the-skype-for-business-online-connector.md)
     
-- [下载并安装 Windows PowerShell 3.0](download-and-install-windows-powershell-3-0.md)
+- [下载并安装 Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
     
 ## <a name="related-topics"></a>相关主题
 [诊断 business online connector 的 Skype 连接问题](diagnose-problems-with-the-skype-for-business-online-connector.md)

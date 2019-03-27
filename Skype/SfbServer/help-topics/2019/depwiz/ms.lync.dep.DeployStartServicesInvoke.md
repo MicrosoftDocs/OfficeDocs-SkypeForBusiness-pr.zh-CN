@@ -1,5 +1,6 @@
 ---
 title: 启动服务（调用）
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在正在执行命令窗格的摘要窗格中显示颁发启动的服务的业务服务器角色的服务器，在要部署的 Skype 的任务的状态。
-ms.openlocfilehash: 119f7027c09d67f8c1182e20186d568007f0ca71
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: db2e0282e15b1995aa6b83bcfdd4ecbecd922207
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026003"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887849"
 ---
 # <a name="start-services-invoke"></a>启动服务（调用）
  

@@ -1,5 +1,6 @@
 ---
 title: 存档服务器常规设置扩展器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
-description: 在拓扑生成器，您可以编辑单个服务器运行存档可以通过右击服务器运行存档在控制台树中，单击操作，在工具栏中，或者通过单击操作窗格中的任务，然后单击编辑属性属性和更改任何下列选项：
-ms.openlocfilehash: 76225fe039fea402779e42dd5a33b68a3ab6a8ec
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 在拓扑生成器中，可以通过右键单击控制台树中的“存档服务器”，再单击工具栏中的“操作”，或单击“操作”窗格中的任务，然后单击“编辑属性”并更改以下任意选项来编辑各个存档服务器的属性：
+ms.openlocfilehash: 21b067e3a97e6c53ba51f4949385532a840d282e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30926495"
 ---
 # <a name="archiving-server-general-settings-expander"></a>存档服务器常规设置扩展器
  

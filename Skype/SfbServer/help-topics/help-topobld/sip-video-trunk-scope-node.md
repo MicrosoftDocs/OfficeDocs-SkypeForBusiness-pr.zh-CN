@@ -1,5 +1,6 @@
 ---
 title: SIP 视频中继范围节点
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1dc894e5-e2db-4c4d-9946-1d5f92090113
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机 VIS Skype 池中创建的业务服务器 2015年。
-ms.openlocfilehash: a420b211b3b97254b5f3f9d6ac23a34ab7ba4579
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 0f74f4bc37ed1aab96e1f77bf897d186f296945c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504675"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892432"
 ---
 # <a name="sip-video-trunk-scope-node"></a>SIP 视频中继范围节点
  

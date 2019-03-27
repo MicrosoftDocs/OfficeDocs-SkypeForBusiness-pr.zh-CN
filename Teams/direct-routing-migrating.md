@@ -1,5 +1,6 @@
 ---
 title: 迁移到直接路由
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: 了解什么需要迁移到直接路由从 Skype 业务联机和团队配置角度。
-ms.openlocfilehash: ff70af11783fb184fc3599fdb6d5fc13c15478a7
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 46533a17ced1bfaf808bcc5b17e4dd8f2e73ef51
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569923"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887642"
 ---
 # <a name="migrate-to-direct-routing"></a>迁移到直接路由
 

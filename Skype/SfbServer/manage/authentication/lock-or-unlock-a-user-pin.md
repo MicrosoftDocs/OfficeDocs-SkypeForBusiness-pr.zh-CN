@@ -1,5 +1,6 @@
 ---
 title: 锁定或解锁用户 PIN Skype 中的业务服务器
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 摘要： 锁定或解锁的 Skype 业务服务器的用户的电话拨入式会议 PIN。
-ms.openlocfilehash: 89e971ac8c935c7998c206ce365c8899e0617cc4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fb90cd54ac5f339050adc51378e42d2542e489fa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986321"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895389"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>锁定或解锁用户 PIN Skype 中的业务服务器
  

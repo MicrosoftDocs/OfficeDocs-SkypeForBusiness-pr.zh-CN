@@ -1,5 +1,6 @@
 ---
 title: 为业务 Server Skype 中呼叫允许控制报告
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: 摘要： 了解用于在 Skype 业务服务器的呼叫允许控制报告。
-ms.openlocfilehash: c3828eb890ed8f70c41bc669785278f9be017893
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 88d1db546e488452d73e7a5e39dcba990402a210
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21011244"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897428"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>为业务 Server Skype 中呼叫允许控制报告
  
@@ -50,7 +51,7 @@ ms.locfileid: "21011244"
 |:-----|:-----|
 |**从** <br/> |时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：  <br/> 7/17/12015 13:00  <br/> 如果您未输入开始时间，该报告会自动将将某个特定日期的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：  <br/> 7/17/12015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 2015/7/13  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
 |**到** <br/> |时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/17/12015 13:00  <br/> 如果您未输入结束时间，该报告会自动将某个特定日期的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/17/12015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 2015/7/13  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|**池** <br/> |注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“**[所有]**”查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。<br/> |
+|**Pool** <br/> |注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“**[所有]**”查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。<br/> |
 |**活动类型** <br/> | 活动的类型。选择下列活动之一： <br/>  [所有] <br/>  对等 <br/>  会议 <br/> |
 |**呼叫类别** <br/> | 指示对呼叫使用 CAC 的原因。选择下列选项之一： <br/>  [所有] <br/>  由于呼叫允许控制，呼叫被拒绝 <br/>  由于呼叫允许控制，呼叫通过 PSTN 重新路由 <br/> |
    

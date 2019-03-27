@@ -1,5 +1,6 @@
 ---
 title: 视频互操作服务器常规设置
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 5c508eab-0b08-4fb2-b2b2-eca2eaf2053a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机创建 VIS 池中 Skype 业务服务器。
-ms.openlocfilehash: f4481737612e6e57a50f3b2c9070aea53eb61178
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 9c15003e04bc98072438245782262c4222727e2d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21065887"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888145"
 ---
 # <a name="video-interop-server-general-settings"></a>视频互操作服务器常规设置
  

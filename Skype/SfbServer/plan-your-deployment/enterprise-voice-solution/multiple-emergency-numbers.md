@@ -1,5 +1,6 @@
 ---
 title: 规划业务服务器 Skype 中的多个紧急号码
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: 阅读本主题可了解如何规划业务 Server Skype 中的多个紧急号码。
-ms.openlocfilehash: 6a27539641544682f6cb0905d8434f632fa868f2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e3ecbc039dac510a1ebc5eb989773c1f32c3b6ac
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891519"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880761"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>规划业务服务器 Skype 中的多个紧急号码
  
@@ -73,9 +74,12 @@ Skype 业务服务器现在支持的客户端的多个紧急号码的配置。 �
 
 |**位置策略名称**|**是否启用 E911**|**紧急拨号串**|**拨号掩码**|**紧急号码**|**PSTN 用法**|**所需位置**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|美国  <br/> |是  <br/> |911  <br/> | 112; 999 <br/> ||USEmergency  <br/> |是  <br/> |
-|US-Hospital  <br/> |是  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |是  <br/> |
-|伦敦  <br/> |是  <br/> |999  <br/> |144  <br/> |999 144  <br/> 112 911; 117; 118  <br/> |GBEmergency  <br/> |否  <br/> |
+|美国  <br/> |是  <br/> |911  
+  <br/> | 112;999 <br/> ||USEmergency  <br/> |是  <br/> |
+|US-Hospital  <br/> |是  <br/> |911  
+  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |是  <br/> |
+|伦敦  <br/> |是  <br/> |999  
+  <br/> |144  <br/> |999 144  <br/> 112 911; 117; 118  <br/> |GBEmergency  <br/> |否  <br/> |
 |印度  <br/> |是  <br/> |||100 911  <br/> 101  <br/> 102  <br/> |IndiaEmergency  <br/> |否  <br/> |
    
  **美国**— 不要求使用多个紧急号码。 在美国，您将使用的旧的紧急拨号串和拨号掩码配置。

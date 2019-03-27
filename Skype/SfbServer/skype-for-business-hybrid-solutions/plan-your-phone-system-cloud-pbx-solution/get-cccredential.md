@@ -1,5 +1,6 @@
 ---
-title: Get CcCredential
+title: Get-CcCredential
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: Get-CcCredential cmdlet 用于返回当前 Skype for Business 云连接器版本部署的凭据。
-ms.openlocfilehash: cff2ba89f7ebf3151a92a753e4dc6adc490dde05
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 651190f31ad44e0bb2375bbf4a70951c2011e1a7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569992"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898393"
 ---
-# <a name="get-cccredential"></a>Get CcCredential
+# <a name="get-cccredential"></a>Get-CcCredential
  
 Get-CcCredential cmdlet 用于返回当前 Skype for Business 云连接器版本部署的凭据。 
   
@@ -59,9 +60,9 @@ Write-Host $text
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>
 
-|**参数**|**必填**|**类型**|**说明**|
+|**参数**|**必需**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> |必需  <br/> | System.String <br/> | AccountType 值可以是以下项之一： <br/>  VmAdmin： 云连接器虚拟机的本地管理员。 <br/>  DomainAdmin： 云连接器虚拟机域的域管理员。 <br/>  SafeModeAdmin：云连接器虚拟机域控制器的 SafeModeAdmin。 <br/>  ExternalCert：边缘服务器上安装的外部证书的帐户。 <br/>  TenantAdmin：O365 租户的管理员。 <br/> |
+| AccountType <br/> |必需  <br/> | System.String <br/> | AccountType 值可以是以下项之一： <br/>  VmAdmin： 云连接器虚拟机的本地管理员。 <br/>  DomainAdmin：云连接器虚拟机域的域管理员。 <br/>  SafeModeAdmin：云连接器虚拟机域控制器的 SafeModeAdmin。 <br/>  ExternalCert：边缘服务器上安装的外部证书的帐户。 <br/>  TenantAdmin：O365 租户的管理员。 <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
@@ -76,6 +77,6 @@ Get-CcCredential cmdlet 返回 System.Management.Automation.PSCredential 对象�
 ## <a name="see-also"></a>另请参阅
 <a name="ReturnTypes"> </a>
 
-[设置 CcCredential](set-cccredential.md)
+[Set-CcCredential](set-cccredential.md)
   
 

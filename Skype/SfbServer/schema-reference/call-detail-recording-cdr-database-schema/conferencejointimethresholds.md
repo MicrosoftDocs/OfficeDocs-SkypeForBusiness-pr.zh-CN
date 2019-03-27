@@ -1,5 +1,6 @@
 ---
-title: 在业务服务器 2015年的 Skype 的 ConferenceJoinTimeThresholds 表
+title: ConferenceJoinTimeThresholds 表中的业务服务器 2015 Skype
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,28 +10,29 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
-description: ConferenceJoinTimeThresholds 表中包含分类边界使用会议加入时间摘要报告。 会议加入时间摘要报告总结了用户成功加入会议; 所需的时间量两个时间值报告平均，而且在以下几个类别之一：
-ms.openlocfilehash: 3646337c9e9f20ac0b1dabfdd5504ce83dfa5c40
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: ConferenceJoinTimeThresholds 表包含会议加入时间摘要报表所使用的分类边界。 会议加入时间摘要报告总结了所需的用户，以便成功加入会议; 的时间量这些时间值报告作为平均和以下类别之一：
+ms.openlocfilehash: d6fbae0d077719782b3e93c0fe008ee35ce3370e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895815"
 ---
-# <a name="conferencejointimethresholds-table-in-skype-for-business-server-2015"></a>在业务服务器 2015年的 Skype 的 ConferenceJoinTimeThresholds 表
+# <a name="conferencejointimethresholds-table-in-skype-for-business-server-2015"></a>ConferenceJoinTimeThresholds 表中的业务服务器 2015 Skype
  
-ConferenceJoinTimeThresholds 表中包含分类边界使用会议加入时间摘要报告。 会议加入时间摘要报告总结了用户成功加入会议; 所需的时间量两个时间值报告平均，而且在以下几个类别之一：
+ConferenceJoinTimeThresholds 表包含会议加入时间摘要报表所使用的分类边界。 会议加入时间摘要报告总结了所需的用户，以便成功加入会议; 的时间量这些时间值报告作为平均和以下类别之一：
   
-- 2 秒之内。
+- 少于 2 秒。
     
-- 介于 2 秒到 5 秒。
+- 之间 2 秒到 5 秒。
     
 - 之间 5 秒到 10 秒。
     
-- 10 秒钟以上。
+- 10 秒之上。
     
 ConferenceJoinTimeThresholds 表包含分类值 2 秒、 5 秒到 10 秒。
   
-在 Microsoft Lync Server 2013 引入了此表。
+此表是在 Microsoft Lync Server 2013 中引入的。
   
 |**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|

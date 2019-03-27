@@ -1,5 +1,6 @@
 ---
 title: tblConfig
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,29 +10,30 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7445e7db-c574-46fa-b964-8640d77047a8
-description: tblConfig 包含一些持久的聊天服务器不支持的配置，在一行中。
-ms.openlocfilehash: 099060f0957ae21c14b285eac1b753ad0b8c1719
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: tblConfig 包含不支持某些持久聊天服务器的配置，在一行中。
+ms.openlocfilehash: 9d28c0506b905975e2a72eeb83605fe4e32e7cfd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898935"
 ---
 # <a name="tblconfig"></a>tblConfig
  
-tblConfig 包含一些持久的聊天服务器不支持的配置，在一行中。
+tblConfig 包含不支持某些持久聊天服务器的配置，在一行中。
   
 **列**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|configLabel  <br/> |nvarchar (255) 不为空  <br/> |包含"池。  <br/> |
-|configContent  <br/> |nvarchar （最大）  <br/> |配置内容。  <br/> |
-|configPoolID  <br/> |GUID，不为空  <br/> |数据库实例的唯一 ID。  <br/> |
+|configLabel  <br/> |nvarchar (255)，不为 null  <br/> |包含"池。  <br/> |
+|configContent  <br/> |nvarchar (max)  <br/> |配置内容。  <br/> |
+|configPoolID  <br/> |GUID，不为 null  <br/> |数据库实例的唯一 ID。  <br/> |
    
-**密钥**
+**关键字**
 
 |**列**|**说明**|
 |:-----|:-----|
-|configLabel  <br/> |为主键。  <br/> |
+|configLabel  <br/> |主键。  <br/> |
    
 

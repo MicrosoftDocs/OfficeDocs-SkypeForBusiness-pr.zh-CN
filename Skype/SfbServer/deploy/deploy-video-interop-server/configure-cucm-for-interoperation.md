@@ -1,5 +1,6 @@
 ---
 title: 为业务服务器与 Skype 的互操作配置 CUCM
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 摘要： 配置 CUCM 以使用 Skype 业务服务器。
-ms.openlocfilehash: 6ace5eb2f6cb9763bf78b3930536ae50f8fee815
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 630ab5165c3c7bb3a64663d54ef750fe9275f932
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986556"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888034"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>为业务服务器与 Skype 的互操作配置 CUCM
  

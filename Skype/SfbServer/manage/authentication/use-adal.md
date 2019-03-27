@@ -1,5 +1,6 @@
 ---
 title: 如何将新式验证 (ADAL) 与 Skype for Business 配合使用
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5ca71746-ead6-4e8c-90b1-461e846d1f4a
 description: 本文介绍如何使用现代身份验证 （这基于 Active Directory 身份验证库 (ADAL) 和 OAuth 2.0） 可以位于年 3 月 2016 for Business 的业务服务器 2015年的 Skype Skype 的累积更新。
-ms.openlocfilehash: 0121e1a99aab70b10a00dbcf72d3a8be8a50553a
-ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
+ms.openlocfilehash: d6e78d60371b56c3a2cc959ded0ec7d7394d82cb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30800137"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894070"
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>如何将新式验证 (ADAL) 与 Skype for Business 配合使用
  

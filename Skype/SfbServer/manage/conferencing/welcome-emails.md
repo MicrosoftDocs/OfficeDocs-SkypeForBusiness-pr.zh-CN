@@ -1,5 +1,6 @@
 ---
 title: 发送欢迎电子邮件以电话拨入式 Skype 业务服务器中的用户
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 摘要： 了解如何为业务服务器中 Skype 欢迎用户参加电话拨入式会议。
-ms.openlocfilehash: 90c56fd97d9eb51c96c1a0cb149f732a31a70743
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 51c4dbc04b44cb33e27cbe09f22608836485e9ad
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373711"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898492"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>发送欢迎电子邮件以电话拨入式 Skype 业务服务器中的用户
  
@@ -34,7 +35,7 @@ ms.locfileid: "25373711"
 
 1. 以 RTCUniversalServerAdmins 组成员的身份登录。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 3. 在命令提示符下，运行以下内容：
     

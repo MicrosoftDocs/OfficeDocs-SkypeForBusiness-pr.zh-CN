@@ -1,5 +1,6 @@
 ---
 title: 管理 Skype for Business Server 2015 中的持久聊天服务器
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
 description: 摘要： 了解如何管理 Persistent Chat Server in Skype for Business Server 2015。
-ms.openlocfilehash: 2511de09c321c70d73d824f5fc94bf21fa674131
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f6bd3f9e1364f4dd5b347e65a0a5799e66a97b33
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967896"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899107"
 ---
 # <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>管理 Skype for Business Server 2015 中的持久聊天服务器
  
@@ -36,27 +37,27 @@ ms.locfileid: "20967896"
     
 3. 在左侧的导航栏中，单击**持久聊天**。
     
-下表汇总了可用于帮助您管理持久聊天服务器的 Windows PowerShell cmdlet。 有关语法，包括所有可用的参数的详细信息，请参阅[Skype 的业务服务器 2015年命令行管理程序](../management-shell.md)。
+下表汇总了可用于帮助您管理持久聊天服务器的 Windows PowerShell cmdlet。 有关语法的详细信息，包括所有可用参数，请参阅[Skype for Business Server 2015 Management Shell](../management-shell.md)。
   
 
 |**Cmdlet**|**说明**|
 |:-----|:-----|
-|New-cspersistentchatcategory  <br/> |创建新类别  <br/> |
-|Set-cspersistentchatcategory  <br/> |配置现有类别的设置  <br/> |
-|Get-cspersistentchatcategory  <br/> |检索有关类别的信息  <br/> |
-|删除 CsPersistentChatCategory  <br/> |删除类别  <br/> |
-|New-cspersistentchatroom  <br/> |新建聊天室  <br/> |
-|Set-cspersistentchatroom  <br/> |配置现有聊天室的设置；向聊天室分配用户和用户组  <br/> |
-|Get-cspersistentchatroom  <br/> |检索有关聊天室的信息  <br/> |
-|Clear-cspersistentchatroom  <br/> |清除聊天室或清除聊天室中的消息  <br/> |
-|即 Remove-cspersistentchatroom  <br/> |删除聊天室  <br/> |
-|删除 CsPersistentChatMessage  <br/> |从聊天室删除消息  <br/> |
-|New-cspersistentchataddin  <br/> |创建新的外接程序  <br/> |
-|Set-cspersistentchataddin  <br/> |配置现有外接程序的设置  <br/> |
-|Get-cspersistentchataddin  <br/> |检索有关外接程序的信息  <br/> |
-|删除 CsPersistentChatAddin  <br/> |删除外接程序  <br/> |
-|Set-cspersistentchatcomplianceconfiguration  <br/> |修改现有的合规性配置设置集合  <br/> |
-|Export-cspersistentchatdata  <br/> |从持久聊天数据库中导出数据  <br/> |
-|Import-cspersistentchatdata  <br/> |导入从先前版本 Lync Server 导出的数据  <br/> |
+|New-CsPersistentChatCategory  <br/> |创建新类别  <br/> |
+|Set-CsPersistentChatCategory  <br/> |配置现有类别的设置  <br/> |
+|Get-CsPersistentChatCategory  <br/> |检索有关类别的信息  <br/> |
+|Remove-CsPersistentChatCategory  <br/> |删除类别  <br/> |
+|New-CsPersistentChatRoom  <br/> |新建聊天室  <br/> |
+|Set-CsPersistentChatRoom  <br/> |配置现有聊天室的设置；向聊天室分配用户和用户组  <br/> |
+|Get-CsPersistentChatRoom  <br/> |检索有关聊天室的信息  <br/> |
+|Clear-CsPersistentChatRoom  <br/> |清除聊天室或清除聊天室中的消息  <br/> |
+|Remove-CsPersistentChatRoom  <br/> |删除聊天室  <br/> |
+|Remove-CsPersistentChatMessage  <br/> |从聊天室删除消息  <br/> |
+|New-CsPersistentChatAddin  <br/> |创建新的外接程序  <br/> |
+|Set-CsPersistentChatAddin  <br/> |配置现有外接程序的设置  <br/> |
+|Get-CsPersistentChatAddin  <br/> |检索有关外接程序的信息  <br/> |
+|Remove-CsPersistentChatAddin  <br/> |删除外接程序  <br/> |
+|Set-CsPersistentChatComplianceConfiguration  <br/> |修改现有的合规性配置设置集合  <br/> |
+|Export-CsPersistentChatData  <br/> |从持久聊天数据库中导出数据  <br/> |
+|Import-CsPersistentChatData  <br/> |导入从先前版本 Lync Server 导出的数据  <br/> |
    
 

@@ -1,5 +1,6 @@
 ---
 title: MediaLine 表
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: 每条记录代表一个媒体行。 （一个音频会话通常包含一个音频媒体行。 一个音频和视频 (A / V) 会话通常包含一个音频媒体行和视频媒体一行，尽管会话可能包含两个视频媒体行，如果使用一种会议设备，或使用库视图。
-ms.openlocfilehash: fdbfc89e4d805ab30a1e870504fba72d2febe60a
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 11c309091211ce0bc480fa032e0f1dbbbbf533cd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505081"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896068"
 ---
 # <a name="medialine-table"></a>MediaLine 表
  

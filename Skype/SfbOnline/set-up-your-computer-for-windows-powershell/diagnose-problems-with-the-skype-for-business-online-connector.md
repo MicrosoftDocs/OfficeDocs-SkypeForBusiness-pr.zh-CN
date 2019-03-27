@@ -1,5 +1,6 @@
 ---
 title: 诊断与 Skype for Business Online 连接器的连接问题
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot 创建远程 PowerShell 会话来连接到 Skype 业务 Online，包括导入模块、 并发命令行管理程序、 Live ID 为和权限错误。
-ms.openlocfilehash: 223886b68c22f3713118eaed4a556743df2c7cf1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 276385a1de2fe79ca03afaeeac3bb6c28945c7f7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532861"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898097"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>诊断与 Skype for Business Online 连接器的连接问题
 

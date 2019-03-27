@@ -1,5 +1,6 @@
 ---
-title: 添加边缘计算机内部 IP
+title: 添加 Edge 机器内部 IP
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用此页指定的内部 IP 地址和内部完全限定的域名 (FQDN) 边缘服务器。
-ms.openlocfilehash: fdd251b9db3248efa655e569eda4f087d3d74dde
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 94a74fd434f1fe9ae62925ddc7ee76f1114f46fb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260557"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885653"
 ---
-# <a name="add-edge-machine-internal-ip"></a>添加边缘计算机内部 IP
+# <a name="add-edge-machine-internal-ip"></a>添加 Edge 机器内部 IP
 
 使用此页指定的内部 IP 地址和内部完全限定的域名 (FQDN) 边缘服务器。
 

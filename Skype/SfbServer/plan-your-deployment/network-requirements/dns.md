@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 的 DNS 要求
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 摘要： 实现 Skype 业务服务器之前查看本主题中的 DNS 注意事项。
-ms.openlocfilehash: 649528c21254625b1aac8d2933c59988138b38b1
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: c54f2b8509d0849ee8949dfb4c0275450e533d3f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069578"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891985"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Skype for Business Server 的 DNS 要求
 
@@ -55,7 +56,7 @@ ms.locfileid: "30069578"
 |A/AAAA   |中介服务器 FQDN   |服务器的 IP 地址   |您可以共同查找到前端服务器或池的中介服务器提供的服务。 请参阅[使用 DNS 负载平衡中介服务器池](load-balancing.md#BK_Mediation)  ||
 |A/AAAA   |持久聊天服务器 FQDN   |持久聊天服务器 IP 地址   |持久聊天服务器才能进行持久聊天功能，否则是可选的。   ||
 |A/AAAA   |lyncdiscoverinternal。* \<sipdomain\>* <br/> lyncdiscoverinternal。* <span> </span>contoso<span></span>.com*   |HLB 前端池 VIP 或控制器 IP  <br/>  192.168.21.121  |内部自动发现 Service1，所需的移动支持。 如果内部 DNS 用于解析为移动设备，则应指向的外部 ip 地址或 DMZ VIP。  <br/> Web 服务我们需要上的前端池 HLB，如 HTTPS 无法利用 DNS。 前端池或控制器池，这应解析为 HLB VIP 或一个 Standard edition server 或独立控制器服务器的正则 IP。   |Y   |
-|CNAME   |lyncdiscoverinternal。* \<sipdomain\>* <br/> lyncdiscoverinternal. *<span></span>contoso<span></span>.com*   |HLB FE 池 FQDN 或控制器的 FQDN  <br/> Web int.<span></span>contoso<span></span>.com   |内部自动发现 Service1 <br/> 如果需要，可实现作为而不是 A 记录 CNAME 这种情况。   ||
+|CNAME   |lyncdiscoverinternal。* \<sipdomain\>* <br/> lyncdiscoverinternal。 *<span></span>contoso<span></span>.com*   |HLB FE 池 FQDN 或控制器的 FQDN  <br/> Web int.<span></span>contoso<span></span>.com   |内部自动发现 Service1 <br/> 如果需要，可实现作为而不是 A 记录 CNAME 这种情况。   ||
 |A/AAAA   |sip。* \<sipdomain\>* <br/> sip。* <span> </span>contoso<span></span>.com*  |前端的池服务器 IP 地址 （或到每个控制器 IP 地址）  <br/>  DNS 磅到*192.168.21.122 192.168.21.123 192.168.21.124*   |所需的自动配置，请参阅[演练的 Skype 业务客户端的查找服务](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype) <br/> 记录或外部客户端时指向前端池服务器或控制器服务器在内部网络或访问边缘服务上的记录   |& #x 2777;  |
 |A/AAAA   |ucupdates-r2。* \<sipdomain\>* <br/> ucupdates-r2。* <span> </span>contoso<span></span>.com*  |HLB FE 池 VIP 或控制器池 HLB VIP 或 SE 服务器/控制器服务器的 IP  <br/>  192.168.21.121  |部署此记录是可选 & #x 2778;  ||
 |SRV   |\_sipinternaltls。\_tcp。* \<sipdomain\> * <br/>端口 5061 <br/>\_sipinternaltls。\_tcp。* <span> </span>contoso<span></span>.com* <br/>端口 5061  |前端池 FQDN  <br/>*FE-Pool。<span> </span>contoso<span></span>.com*  |允许内部用户自动登录 1 到前端服务器/池或 SE 服务器/池进行身份验证和重定向客户端登录请求。  |& #x 2777; |
@@ -73,7 +74,7 @@ ms.locfileid: "30069578"
 
 & #x 2777;这是只需支持旧客户端之前 Lync 2013 和桌面的话筒。
 
-& #x 2778;在其中一种统一通信设备已打开，但用户从来没有登录设备的情况，A 记录允许发现承载设备更新 Web 服务的服务器并获取更新的设备。 否则，设备在用户首次登录时通过带内设置获得服务器信息。
+& #x 2778;在其中一种统一通信设备已打开，但用户从来没有登录设备的情况，A 记录允许发现承载设备更新 Web 服务的服务器并获取更新的设备。 否则，设备获取服务器信息，尽管带内设置第一次用户登录。
 
 下图显示了示例，其中包括内部和外部 DNS 记录，并且许多的周围的表中显示的记录：
 
@@ -157,7 +158,7 @@ Skype 业务服务器支持对使用三种"简单"Url 以访问服务：
 
 |部署方案|DNS 要求|
 |:-----|:-----|
-|一台服务器：  <br/> 持久聊天，控制器、 中介服务器，前端服务器   |将服务器的完全限定的域名 (FQDN) 解析为其 IP 地址的内部 A 记录。  <br/> ServerRole。<span> </span>contoso<span></span>.com 10.10.10.0   |
+|一台服务器：  <br/> 持久聊天，控制器、 中介服务器，前端服务器   |内部 A 记录，解析为其 IP 地址的服务器的完全限定的域名 (FQDN)。  <br/> ServerRole。<span> </span>contoso<span></span>.com 10.10.10.0   |
 |池：  <br/> 持久聊天、 Director、 边缘服务器、 中介服务器，前端   |内部 A 记录，解析为其 IP 地址的池中每个服务器节点的完全限定的域名 (FQDN)。  <br/>**示例** <br/> ServerRole01。<span> </span>contoso<span></span>.com 10.10.10.1  <br/> ServerRole02。<span> </span>contoso<span></span>.com 10.10.10.2  <br/> 在池，多个内部 A 记录可解析为 IP 地址的服务器节点的池的完全限定的域名 (FQDN)。  <br/>**示例** <br/> ServerPool。<span> </span>contoso<span></span>.com 10.10.10.1  <br/> ServerPool。<span> </span>contoso<span></span>.com 10.10.10.2   |
 
 ### <a name="edge-server-specific-dns-topics"></a>边缘服务器特定 DNS 主题

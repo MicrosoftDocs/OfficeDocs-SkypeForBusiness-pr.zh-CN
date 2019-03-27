@@ -1,5 +1,6 @@
 ---
 title: 管理 ELIN 网关 Skype 中的业务服务器的位置
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: 所必需的规划决策位置信息数据库或类似的外部数据库中，E9-1-1 部署中的业务 Server 企业语音的 Skype 使用 ELIN 网关。
-ms.openlocfilehash: 622593285ef4b1643f19d54f6c7d2f5c1e956c84
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 858493089c6c0e274a45616ea4b93a3fdf69e010
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885662"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894689"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>管理 ELIN 网关 Skype 中的业务服务器的位置
 
@@ -32,10 +33,10 @@ ms.locfileid: "23885662"
 
 - 将 ELIN 上载到公用电话交换网 (PSTN) 运营商的自动位置标识 (ALI) 数据库。
 
-有关如何执行这些任务的详细信息，请参阅部署文档中的[Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) 。
+有关如何执行这些任务的详细信息，请参阅部署文档中的 [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx)。
 
 > [!NOTE]
-> 已发布业务 Server 命令行管理程序命令使用 Skype 和复制到该池的本地存储之前，位置添加到中心位置数据库不可用到客户端。 有关详细信息，请参阅部署文档中的[发布位置数据库](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx)。
+> 已发布业务 Server 命令行管理程序命令使用 Skype 和复制到该池的本地存储之前，位置添加到中心位置数据库不可用到客户端。 有关详细信息，请参阅部署文档中的 [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx)。
 
 本节介绍在计划更新和维护位置数据库时要考虑的事项。
 
@@ -85,7 +86,7 @@ ms.locfileid: "23885662"
 
 若要将位置信息服务与相集成，第三方数据库必须执行业务服务器位置请求/响应架构 Skype。 有关详细信息，请参阅[E911 支持协议的 Web 服务](https://go.microsoft.com/fwlink/p/?linkid=213819)。 有关部署辅助位置信息服务的详细信息，请参阅部署文档中的[Configure Skype 业务服务器中的辅助位置信息服务](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)。
 
-有关填充位置数据库的详细信息，请参阅部署文档中的[Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) 。
+有关填充位置数据库的详细信息，请参阅部署文档中的 [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx)。
 
 ## <a name="maintaining-the-location-database"></a>维护位置数据库
 

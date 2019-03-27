@@ -1,5 +1,6 @@
 ---
 title: 修改 SIP 中继配置设置中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 摘要： 了解如何使用适用于业务 Server Control Panel Skype 修改 SIP 中继配置设置。
-ms.openlocfilehash: 176e685fd0eb2677854329640014528a24d8bebf
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6fbae1279ec1734cd67269651c65dc7c278ca3a3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888351"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898696"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>修改 SIP 中继配置设置中 Skype 业务服务器
  
@@ -32,7 +33,7 @@ SIP 中继配置设置可定义中介服务器与服务提供商的公用电话�
     
 - 在每个中继上是否需要安全实时传输协议 (SRTP) 加密。
     
-在安装 Skype 业务服务器时，会为您创建 SIP 中继配置设置的全局集合。 此外，管理员还可以在站点作用域或服务作用域（仅针对 PSTN 网关服务）内创建自定义设置集合。 任何这些集合可以更高版本进行修改任一 Skype 业务 Server Control Panel 或 Skype 用于业务 Server Management Shell。
+在安装 Skype 业务服务器时，会为您创建 SIP 中继配置设置的全局集合。 此外，管理员可以在站点作用域或服务作用域创建自定义设置集合（仅适用于 PSTN 网关服务）。 任何这些集合可以更高版本进行修改任一 Skype 业务 Server Control Panel 或 Skype 用于业务 Server Management Shell。
   
 修改 SIP 中继配置设置用于业务 Server Control Panel Skype 时, 以下选项可供您。
   

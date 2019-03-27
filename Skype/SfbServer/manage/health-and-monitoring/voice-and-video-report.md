@@ -1,5 +1,6 @@
 ---
 title: 对等语音和视频报告中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: 摘要： 了解如何对等语音和视频报告中 Skype 业务服务器。
-ms.openlocfilehash: 791333a979bb9a292fc689eb19869cf835b77d68
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a4572d23a4c41ce423bdc96634ed8a3b9a9b1042
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008094"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897620"
 ---
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>对等语音和视频报告中 Skype 业务服务器
  

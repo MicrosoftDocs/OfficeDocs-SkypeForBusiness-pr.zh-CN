@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 中的持久聊天类别、聊天室和用户角色
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 摘要： 阅读此主题以了解有关类别、 聊天室和用户和管理员角色对于 Persistent Chat Server in Skype 的业务服务器 2015年。
-ms.openlocfilehash: 83aa18d427c97ba54dcc3c66e684a4e13ed0c5df
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0a65d5d8944d28ba834fac461051f23fcdd98800
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983775"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898857"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的持久聊天类别、聊天室和用户角色
  
@@ -39,7 +40,7 @@ ms.locfileid: "20983775"
 “允许”和“拒绝”的成员概念的主要原理是信息隔离墙。例如，银行和财务机构通常设立了阻止贸易商和分析师在实施策略和约定时共享通信的信息隔离区域。若要满足此要求，管理员可以创建相应类别，以便一个类别允许创建聊天室并允许贸易商使用该聊天室，而另一个类别允许创建聊天室并允许分析师使用该聊天室。父类别阻止某用户时，将无法把该用户添加为聊天室的成员。
   
 > [!IMPORTANT]
-> 允许和拒绝类别中的成员不是与**成员**角色，它适用于持久聊天室内。 相同 > 搜索能够显示为其执行搜索的用户是允许和拒绝的成员列表中的所有开放和关闭的聊天聊天室。 不会显示加密聊天室，除非进行搜索的用户是加密聊天室的成员。 用户只能搜索自己已经是其成员的聊天室，或者他们可以请求成员身份的聊天室。 
+> 允许和拒绝类别中的成员不与**成员**角色，它适用于持久聊天 room.> 搜索显示所有打开和关闭聊天室为其执行搜索用户所允许和拒绝的成员身份列表相同。 不会显示加密聊天室，除非进行搜索的用户是加密聊天室的成员。 用户只能搜索自己已经是其成员的聊天室，或者他们可以请求成员身份的聊天室。 
   
 ## <a name="chat-rooms-and-user-roles"></a>聊天室和用户角色
 
@@ -65,7 +66,7 @@ ms.locfileid: "20983775"
 
 持久聊天服务器的管理员角色如下：
   
-- **Persistent Chat Administrator**: 持久聊天管理员角色可以管理聊天室 （修改包括成员资格、 经理、 类别标记为已禁用的聊天室的所有属性），以及创建和管理定义用户的聊天室类别可以创建和访问聊天室。 管理员还可以将聊天室标记为禁用并清理不再处于活动状态的聊天室。 管理员不会受到“创建者”或“允许的成员”限制的影响。 管理员可以创建任何类型的聊天室以及将自己添加为任何聊天室的成员。 管理员可以修改和管理持久聊天配置 （池属性，全局设置和合规性配置） 和可以还规划和实施迁移从旧群聊服务器部署到 Skype 的业务服务器 2015持久聊天服务器。
+- **Persistent Chat Administrator**: 持久聊天管理员角色可以管理聊天室 （修改包括成员资格、 经理、 类别标记为已禁用的聊天室的所有属性），以及创建和管理定义用户的聊天室类别可以创建和访问聊天室。 Administrators can also mark chat rooms as disabled and clean up chat rooms that are no longer active. Administrators are not subject to the Creators or Allowed Members restrictions. Administrators can create any kind of chat room and add themselves as a member to any chat room. 管理员可以修改和管理持久聊天配置 （池属性，全局设置和合规性配置） 和可以还规划和实施迁移从旧群聊服务器部署到 Skype 的业务服务器 2015持久聊天服务器。
     
     持久聊天管理员可使用远程 Windows PowerShell cmdlet 管理持久聊天服务器 (即，从持久聊天服务器之外的计算机)。 持久聊天服务器检查 Persistent Chat Administrator 是持久聊天服务器前端服务器上 RTC Local administrator 本地组的成员。
     

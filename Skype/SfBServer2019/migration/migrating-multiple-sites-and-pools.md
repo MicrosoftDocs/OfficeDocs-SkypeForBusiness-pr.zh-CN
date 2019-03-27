@@ -1,5 +1,6 @@
 ---
 title: 迁移多个站点和池
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype 的业务服务器 2019年支持多站点和多池部署。 迁移到 Skype for Business Server 2019 的多个池的过程需要考虑以下事项：
-ms.openlocfilehash: 74c622c1cde4a01c51749c6942c898e11e1551f9
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 5e369adb51bf95f4e3c3d12688d1e39611aa5692
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531762"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888659"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>迁移多个站点和池
 

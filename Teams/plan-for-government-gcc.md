@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 537f951b9db2098cd1753e21e1c5c806e9d7f5d2
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 45c3f16645755a2f459bd136aa439b2a68382f1e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462769"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897215"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 政府版-GCC 部署规划
 
@@ -101,7 +101,7 @@ Microsoft 365 政府-GCC 环境提供符合美国的云服务，包括 FedRAMP �
 | | 会议笔记 | 有空 |
 | | 广播的会议 | 政府待办事项上 |
 | | 联盟的会议 | 有空 |
-| | 曲面集线器支持 （预览） | 有空 |
+| | 曲面集线器支持 （预览） | 政府待办事项上 |
 | 呼叫 | 联系人 | 有空 |
 | | 历史记录 | 有空 |
 | | 语音邮件 | 可用 |

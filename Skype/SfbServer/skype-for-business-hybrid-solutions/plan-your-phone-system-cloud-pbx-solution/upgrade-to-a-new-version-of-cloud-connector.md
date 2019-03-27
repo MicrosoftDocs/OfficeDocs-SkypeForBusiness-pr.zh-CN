@@ -1,5 +1,6 @@
 ---
 title: 升级到新版本的云连接器
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: 了解如何升级你的云连接器版本部署。
-ms.openlocfilehash: c0946cf26181df81327412c2dc0efc227b5a5586
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5b3ca4b216bc376c9e23424fb978b5cd83e4aa41
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370625"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897648"
 ---
-# <a name="upgrade-to-a-new-version-of-cloud-connector"></a>升级到新版本的云连接器
+# <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Upgrade to a new version of Cloud Connector
  
 了解如何升级你的云连接器版本部署。
   
@@ -61,7 +62,7 @@ ms.locfileid: "25370625"
   - 排出旧设备，并将网络连接切换到新设备。
     
 > [!NOTE]
->  当云连接器更新为新版本时，可能不会更新云连接器 cmdlet。 可以这样做，例如，如果在 PowerShell 窗口处于打开状态时自动更新，发生此事件。 若要加载的更新的 cmdlet，可以执行以下步骤之一： > 云连接器装置和然后重新打开 PowerShell。 关闭 PowerShell > 或者，您可以运行导入模块 CloudConnector-Force。
+>  当云连接器更新为新版本时，可能不会更新云连接器 cmdlet。 可以这样做，例如，如果在 PowerShell 窗口处于打开状态时自动更新，发生此事件。 若要加载的更新的 cmdlet，您可以执行以下步骤： > 关闭 PowerShell 云连接器装置，任一操作，然后重新打开 PowerShell.> 或，您可以运行导入模块 CloudConnector-Force。
   
 ## <a name="upgrade-a-single-site-to-a-new-version"></a>将单个站点升级到新版本
 <a name="BKMK_Upgrade"> </a>

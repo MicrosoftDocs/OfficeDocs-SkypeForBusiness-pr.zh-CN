@@ -1,5 +1,6 @@
 ---
 title: 管理会议服务器配置设置中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 摘要： 了解如何管理会议服务器配置设置中 Skype 业务服务器。
-ms.openlocfilehash: ede34c37e957340f0aa01ac511378d2f4bb3a80e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a12226f9f7d56f9f8a61b6f820a2c0f9744121fc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21009892"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890379"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>管理会议服务器配置设置中 Skype 业务服务器
  
@@ -34,10 +35,10 @@ ms.locfileid: "21009892"
 
 |**Cmdlet**|**说明**|
 |:-----|:-----|
-|[Get-csconferencingconfiguration](https://docs.microsoft.com/powershell/module/skype/get-csconferencingconfiguration?view=skype-ps) <br/> |返回有关组织的会议配置设置的信息。  <br/> |
-|[New-csconferencingconfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> |创建新的会议配置设置集合。  <br/> |
-|[删除 CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingconfiguration?view=skype-ps) <br/> |删除指定的会议配置设置集合。  <br/> |
-|[Set-csconferencingconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> |修改现有的会议配置设置集合。  <br/> |
+|[Get-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csconferencingconfiguration?view=skype-ps) <br/> |返回有关组织的会议配置设置的信息。  <br/> |
+|[New-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> |创建新的会议配置设置集合。  <br/> |
+|[Remove-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingconfiguration?view=skype-ps) <br/> |删除指定的会议配置设置集合。  <br/> |
+|[Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> |修改现有的会议配置设置集合。  <br/> |
    
 下面的命令为 Redmond 站点 (site:Redmond) 创建新的会议配置设置集合。在此示例中，包括一个额外的参数 (Organization)，该参数用于将 Organization 属性的值设置为 Litwareinc： 
   
@@ -49,7 +50,7 @@ New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
   
 下一个示例定义了一个新的会议配置设置集合，这些设置最初存储在内存中，然后在晚些时候应用到 Redmond 站点。 
   
-第一条命令使用 **New-CsConferencingConfiguration** cmdlet 创建一个新的保存在内存中的设置集合，并存储在变量 $x 中。InMemory 参数指定应在内存中创建集合，而不立即将该集合应用于 Redmond 站点。
+第一条命令使用 **New-CsConferencingConfiguration** cmdlet 创建一个新的保存在内存中的设置集合，并存储在变量 $x 中。 InMemory 参数指定应在内存中创建集合，而不立即将该集合应用于 Redmond 站点。
   
 创建集合后，第二个命令将 Organization 属性的值设置为 Litwareinc。 
   
@@ -61,6 +62,6 @@ $x.Organization = "Litwareinc"
 Set-CsConferencingConfiguration -Instance $x
 ```
 
-如果不调用 **Set-CsConferencingConfiguration**，新的设置就不会生效。相反，只要你结束 Windows PowerShell 会话或删除变量 $x，它们就会立即消失。
+如果不调用 **Set-CsConferencingConfiguration**，新的设置就不会生效。 相反，只要你结束 Windows PowerShell 会话或删除变量 $x，它们就会立即消失。
   
 

@@ -1,5 +1,6 @@
 ---
 title: Skype for Business 中的响应组部署过程
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: 部署过程和步骤中的业务 Server 企业语音的 Skype 的响应组。
-ms.openlocfilehash: 290db10e0a306217462015c43d9abb68e18ccb8a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 83438ec17bd78a60afbc08a1c72ef84469218652
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884180"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897933"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Skype for Business 中的响应组部署过程
 
@@ -105,15 +106,15 @@ ms.locfileid: "23884180"
 
 要支持 Yi、Meng 或 Zang 字符，需要修改 Rgsconfig 数据库的排序规则。在每个 Rgsconfig 数据库的下列各表中更改“Name”**** 列的排序规则：
 
-- dbo。AgentGroups
+- dbo.AgentGroups
 
-- dbo。工作时间
+- dbo.BusinessHours
 
-- dbo。HolidaySets
+- dbo.HolidaySets
 
-- dbo。队列
+- dbo.Queues
 
-- dbo。工作流
+- dbo.Workflows
 
 SQL Server 2008 R2 和 SQL Server 2012，使用 Latin_General_100 （区分重音） 排序规则。 如果使用此排序规则，则所有对象名称不区分大小写。
 
@@ -133,10 +134,10 @@ SQL Server 2008 R2 和 SQL Server 2012，使用 Latin_General_100 （区分重�
 
 |**阶段**|**步骤**|**权限**|**部署文档**|
 |:-----|:-----|:-----|:-----|
-|为用户启用 Skype 业务和企业语音  <br/> |使用户成为代理 Skype 业务和企业语音。 必须先启用用户，然后才能将其添加到代理组。 通常情况下，为用户启用 for Business 的 Skype 在 Enterprise Edition 或 Standard Edition server 部署过程。 企业语音部署过程中用户启用企业语音。  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[启用或禁用 Lync Server 2013 preview 的用户](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) <br/> [Skype 中的企业语音的用户启用企业服务器](enable-users-for-enterprise-voice.md) <br/> |
-|创建和配置由代理组、队列和工作流构成的响应组  <br/> |1.使用 Skype 业务 Server Control Panel 或业务 Server Management Shell 的 Skype 执行下列操作：  <br/> a. 创建和配置代理组。  <br/> b. 创建和配置队列。  <br/> 2.（可选） 使用 Skype 的业务 Server 命令行管理程序创建预定义的响应组工作时间和假日。  <br/> 3.使用响应组配置工具或 Skype 的业务 Server 命令行管理程序创建工作流 （智能寻线或互动语音响应 (IVR) 呼叫流），包括自定义响应组工作时间和假日。  <br/> 为业务 Server Control Panel，可以通过 Skype 访问响应组配置工具。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[创建响应组代理组](https://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [创建响应组队列](https://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [（可选）Skype for Business 中定义响应组工作时间](optional-define-response-group-business-hours.md) <br/> [（可选）Skype for Business 中定义响应组假日集](optional-define-response-group-holiday-sets.md) <br/> [设计和 Skype for Business 中创建响应组工作流](designing-and-creating-response-group-workflows.md) <br/> |
+|为用户启用 Skype 业务和企业语音  <br/> |使用户成为代理 Skype 业务和企业语音。 必须先启用用户，然后才能将其添加到代理组。 通常情况下，为用户启用 for Business 的 Skype 在 Enterprise Edition 或 Standard Edition server 部署过程。 企业语音部署过程中用户启用企业语音。  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Enable or Disable Users for Lync Server 2013 Preview](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) <br/> [Skype 中的企业语音的用户启用企业服务器](enable-users-for-enterprise-voice.md) <br/> |
+|创建和配置由代理组、队列和工作流构成的响应组  <br/> |1.使用 Skype 业务 Server Control Panel 或业务 Server Management Shell 的 Skype 执行下列操作：  <br/> a. 创建和配置代理组。  <br/> b. 创建和配置队列。  <br/> 2.（可选） 使用 Skype 的业务 Server 命令行管理程序创建预定义的响应组工作时间和假日。  <br/> 3.使用响应组配置工具或 Skype 的业务 Server 命令行管理程序创建工作流 （智能寻线或互动语音响应 (IVR) 呼叫流），包括自定义响应组工作时间和假日。  <br/> 为业务 Server Control Panel，可以通过 Skype 访问响应组配置工具。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Create Response Group Agent Groups](https://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [Create Response Group Queues](https://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [（可选）Skype for Business 中定义响应组工作时间](optional-define-response-group-business-hours.md) <br/> [（可选）Skype for Business 中定义响应组假日集](optional-define-response-group-holiday-sets.md) <br/> [设计和 Skype for Business 中创建响应组工作流](designing-and-creating-response-group-workflows.md) <br/> |
 |（可选）自定义应用程序级别设置  <br/> |使用业务 Server Management Shell 的 Skype 自定义的默认保留音乐配置、 默认上保留音乐音频文件、 代理回拨宽限期和呼叫上下文配置。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[管理应用程序级 Skype for Business 中的响应组设置](managing-application-level-response-group-settings.md) <br/> |
-|（可选）委派响应组的管理  <br/> |将用户分配 CsResponseGroupManager 角色委派响应组的配置。 响应组管理员可以配置分配给它们的响应组。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[规划基于角色的访问控制](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) <br/> |
+|（可选）委派响应组的管理  <br/> |将用户分配 CsResponseGroupManager 角色委派响应组的配置。 响应组管理员可以配置分配给它们的响应组。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Planning for Role-Based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) <br/> |
 |验证响应组部署  <br/> |测试智能寻线和互动语音响应工作流的应答呼叫，以确保您的配置按预期工作。  <br/> |-  <br/> |-  <br/> |
 
 ## <a name="overview-of-workflow-creation-scenarios"></a>工作流创建方案概述
