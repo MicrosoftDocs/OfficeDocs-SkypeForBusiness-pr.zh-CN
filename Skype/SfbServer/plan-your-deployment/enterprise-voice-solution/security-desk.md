@@ -1,5 +1,6 @@
 ---
 title: 为业务服务器中 Skype 包括安全服务台
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
 description: 规划如何将贵组织的安全服务台包含业务 Server 企业语音的 Skype E9-1-1 部署中。
-ms.openlocfilehash: 96c7342737b755338cd8456f26e7b3aa4b82884f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7f6f6fd861f49158e7801ada42052e287ade4f87
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881838"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884816"
 ---
 # <a name="include-the-security-desk-in-skype-for-business-server"></a>为业务服务器中 Skype 包括安全服务台
  

@@ -1,5 +1,6 @@
 ---
 title: Web 服务设置扩展器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 从拓扑生成器中可以修改用于两个内部和外部 web 服务的端口设置。 此外，如果您正在部署域名系统 (DNS) 负载平衡，您可以使用拓扑生成器配置的完全限定的域名 (FQDN) 解析为池中的所有服务器的物理 IP 地址的池和。
-ms.openlocfilehash: 8b607ed42cbb97bbf305fdad916ed2637c9935c5
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 75d73a81ec649c97149fd03125887116c947144c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21058463"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889173"
 ---
 # <a name="web-services-settings-expander"></a>Web 服务设置扩展器
  

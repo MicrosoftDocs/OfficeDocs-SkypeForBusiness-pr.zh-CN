@@ -1,5 +1,6 @@
 ---
 title: tblActivePeers
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,30 +10,31 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b50c3f4a-bab6-4cb9-b40e-016cf1a9c607
-description: tblActivePeers 包含聊天服务之间的当前对等连接。
-ms.openlocfilehash: 5dc585a8db67c1bbdcc1c3933018b1296fd75484
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: tblActivePeers 包含聊天服务之间当前对等连接。
+ms.openlocfilehash: e921d6faa4f7bcf3e3c6f6dc9859f4bd0db16bc5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884165"
 ---
 # <a name="tblactivepeers"></a>tblActivePeers
  
-tblActivePeers 包含聊天服务之间的当前对等连接。
+tblActivePeers 包含聊天服务之间当前对等连接。
   
 **列**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|aplServerID  <br/> |int，不为空  <br/> |过帐此项的服务器的 ID。  <br/> |
-|aplPeerID  <br/> |int，不为空  <br/> |连接到发布服务器的对等方的 ID。  <br/> |
+|aplServerID  <br/> |int，不为 null  <br/> |发布条目的服务器的 ID。  <br/> |
+|aplPeerID  <br/> |int，不为 null  <br/> |发布服务器连接到的对等方的 ID。  <br/> |
    
-**密钥**
+**键**
 
 |**列**|**说明**|
 |:-----|:-----|
-|\<aplServerID aplPeerID\>  <br/> |为主键。  <br/> |
-|aplServerID  <br/> |TblServerIdentity.serverID 表中查找与外键。  <br/> |
-|aplPeerID  <br/> |TblServerIdentity.serverID 表中查找与外键。  <br/> |
+|\<aplServerID aplPeerID\>  <br/> |主键。  <br/> |
+|aplServerID  <br/> |包含在 tblServerIdentity.serverID 表中查找的外键。  <br/> |
+|aplPeerID  <br/> |包含在 tblServerIdentity.serverID 表中查找的外键。  <br/> |
    
 

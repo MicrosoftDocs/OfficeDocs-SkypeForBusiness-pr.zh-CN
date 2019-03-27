@@ -1,5 +1,6 @@
 ---
 title: 规划呼叫允许控制 Skype 中的业务服务器
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: 了解有关呼叫允许控制，可以防止他们中的业务 Server 企业语音的 Skype 必须较差的媒体质量，如果正在进行的呼叫。
-ms.openlocfilehash: db4b2f7a77885ff96a4b43b01aa2337996418217
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f02952c45badf26fa2e02a9d3d8349d087bbe6e8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883849"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897711"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>规划呼叫允许控制 Skype 中的业务服务器
 
@@ -166,7 +167,7 @@ CAC 要求 Business Server 中央站点 Skype 定义每个网络区域。 从该
 
 与您的网络运营团队一起确定可用于组织中跨 WAN 链路的实时音频和视频流量的带宽。如果带宽使用量受限；即，如果预期使用的带宽大于可为音频和视频形式分配的带宽，则带宽策略通常应用于 WAN 链路。
 
-CAC 带宽策略定义可为实时音频和视频形式保留的最大带宽。由于 CAC 不限制其他流量的带宽，因此它无法阻止其他数据流量（如大型文件传输、音乐流）占用所有网络带宽。
+CAC 带宽策略定义可为实时音频和视频形式保留的最大带宽。 由于 CAC 不限制其他流量的带宽，因此它无法阻止其他数据流量（如大型文件传输、音乐流）占用所有网络带宽。
 
 CAC 带宽策略可定义下列任何内容或所有内容：
 
@@ -252,7 +253,7 @@ Siren 编解码器用于在 Skype 业务服务器在下列情况下：
 
 - 使用 CAC 带宽策略补充 QoS 设置。
 
-- 如果要将已阻止的呼叫重新路由到 PSTN，请验证 PSTN 功能和容量。 有关详细信息，请参阅[规划出站呼叫路由](https://technet.microsoft.com/library/37c55fa4-175a-4190-b9e4-c2e5ac7b9261.aspx)。
+- 如果要将已阻止的呼叫重新路由到 PSTN，请验证 PSTN 功能和容量。有关详细信息，请参阅 [Planning Outbound Call Routing](https://technet.microsoft.com/library/37c55fa4-175a-4190-b9e4-c2e5ac7b9261.aspx)。
 
     > [!NOTE]
     > 容量指为支持潜在 PSTN 重新路由而需要打开的端口数量。

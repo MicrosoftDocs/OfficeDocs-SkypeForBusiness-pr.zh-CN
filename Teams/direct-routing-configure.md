@@ -1,5 +1,6 @@
 ---
 title: 配置直接路由
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: 了解如何配置 Microsoft 电话系统直接路由。
-ms.openlocfilehash: 5c2d90ccb88c0e654239ec02a5780778a7db6bbe
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 20bd29bdd2ba83050bd83513f513732ce646cbbe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569779"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883564"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -449,7 +450,7 @@ John Woods – 允许任意数量的呼叫。 当调用雷德蒙德号码范围�
 
 
   > [!NOTE]
-  > - 在语音路由策略中的 PSTN 用法的顺序至关重要。 用法的顺序，应用，如果找到匹配的中第一个用法，然后其他用法从不计算。 PSTN 用法"International"必须放置后 PSTN 用法"我们仅。" 若要更改的 PSTN 用法的顺序，请运行`Set-CSOnlineRouteRoutingPolicy`命令。 <br/>例如，若要更改的顺序从"美国和加拿大"第一个和"国际"秒到相反的顺序运行：<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+  > - 在语音路由策略中的 PSTN 用法的顺序至关重要。 用法的顺序，应用，如果找到匹配的中第一个用法，然后其他用法从不计算。 PSTN 用法"International"必须放置后 PSTN 用法"我们仅。" 若要更改的 PSTN 用法的顺序，请运行`Set-CSOnlineVoiceRoutingPolicy`命令。 <br/>例如，若要更改的顺序从"美国和加拿大"第一个和"国际"秒到相反的顺序运行：<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
  > - 自动分配"其他 + 1"和"International"语音路由的优先级。 他们不重要，只要他们具有较低的优先级，比"Redmond 1"和"Redmond 2"。
 
 #### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>为用户 John Woods 的语音路由策略示例

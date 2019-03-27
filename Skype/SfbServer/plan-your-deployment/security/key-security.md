@@ -1,5 +1,6 @@
 ---
 title: Skype 业务服务器中的重大安全功能
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: Skype 业务服务器包括几个安全功能，包括服务器到服务器身份验证、 基于角色的访问控制和集中的存储的配置数据。
-ms.openlocfilehash: c8bc1e9b45f9433c716ab2a803caeaef5f16172f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5a0a82800be8158b6d54e4e01e7609d3e6b3714d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981962"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894278"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>Skype 业务服务器中的重大安全功能
  

@@ -1,5 +1,6 @@
 ---
 title: 选择超时队列
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
 description: 用于选择超时队列对话框中选择队列超时后转接呼叫。
-ms.openlocfilehash: b3b064ae37a755d3b52e3fc6aa7db505aae30a24
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e8ed73e7d6988fcff48946785c0cfd2317f337c2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997872"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886527"
 ---
 # <a name="select-time-out-queue"></a>选择超时队列
  

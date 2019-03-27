@@ -1,5 +1,6 @@
 ---
-title: 添加边缘服务器 FQDN
+title: 添加 Edge Server FQDN
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 description: 必须指定访问边缘服务完全限定的域名 (FQDN)。 如果您未选择使用单个 FQDN&amp;上选择的 IP 地址选项功能页，则还必须指定 FQDN 为 Web 会议边缘服务和 A / V 边缘服务。
-ms.openlocfilehash: 5f9d3bc3b63eaaf9db303c3fc0c74038df223391
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 33856832407e6e12a3c0854fb2d2c87a1bde376c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965896"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880016"
 ---
-# <a name="add-edge-server-fqdn"></a>添加边缘服务器 FQDN
+# <a name="add-edge-server-fqdn"></a>添加 Edge Server FQDN
  
 必须指定访问边缘服务完全限定的域名 (FQDN)。 如果未选中**使用单个 FQDN &amp; IP 地址**选项在**选择功能**页上，则还必须指定 FQDN 为 Web 会议边缘服务和 A / V 边缘服务。
   

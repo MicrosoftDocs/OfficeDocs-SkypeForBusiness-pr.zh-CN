@@ -1,5 +1,6 @@
 ---
 title: 存档配置
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用存档配置来控制您的业务服务器部署，包括启用和禁用以下选项的 Skype 的存档选项：
-ms.openlocfilehash: d8e7adec0918cf13104857957442f1f0a5f4ff3d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 51c77b17fe234ab343fc18f17fce25f2c46813cb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21004258"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895130"
 ---
 # <a name="archiving-configuration"></a>存档配置
  

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读此主题以了解有关部署在大型部署的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 3188748c1222a87d0861693c5b0c85ede3cba5a9
-ms.sourcegitcommit: 2a34c9955d2cf54085dee527ea493ce991ef2e10
+ms.openlocfilehash: 39884e660ca757827570f6c7c4005baa7b59a1b0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30340475"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880775"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>使用 System Center Configuration Manager 部署 Skype 会议室系统 v2
 
@@ -141,7 +141,7 @@ ms.locfileid: "30340475"
 | SR v2-配置 SR 安装程序         | 软件包       | 要配置的 Skype 会议室系统 v2 应用程序部署包                          |
 | SR v2-操作系统更新包          | 软件包       | 包来部署必需的操作系统更新                                      |
 | SR v2-根证书包    | 软件包       | 可选-包来部署 （不需要加入域的单位） 的根证书  |
-| SR v2-Microsoft OMS 代理包 | 软件包       | 可选-包来部署和配置 Microsoft 操作管理套件代理|
+| SR v2-Microsoft 监控代理包 | 软件包       | 可选-包来部署和配置 Microsoft 操作管理套件代理|
 | SR v2-WinPE 背景包    | 软件包       | 自定义背景图像用于启动映像包                           |
 | Windows 10 Enterprise                | 操作系统映像 | 操作系统安装文件 (install.wim) 包                          |
 | Surface Pro                          | 驱动程序包         | 设备驱动程序和用于 Microsoft Surface Pro 固件软件包                     |
@@ -155,7 +155,7 @@ ms.locfileid: "30340475"
 
 或到主机包源文件正在使用的服务器共享的 System Center Configuration Manager 管理中心网站或主站点上创建以下文件夹结构：
 
--   SR v2-Microsoft OMS 代理包
+-   SR v2-Microsoft 监控代理包
 -   SR v2-操作系统更新包
 -   SR v2-根证书包
 -   SR v2-设置 SRSComputerName 包
@@ -171,23 +171,23 @@ ms.locfileid: "30340475"
 > [!TIP]
 > 您还可以[下载](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)和使用包括包，您需要使用，这些脚本和任务序列模板，您需要导入的文件夹结构的 zip 文件。
 
-### <a name="create-the-microsoft-operations-management-suite-agent-package"></a>创建 Microsoft 操作管理套件代理包
+### <a name="create-the-monitoring-agent-package"></a>创建监控代理包
 
-1. 下载操作管理套件 X-64 代理从<https://go.microsoft.com/fwlink/?LinkId=828603>。
+1. 下载监控代理从<https://go.microsoft.com/fwlink/?LinkId=828603>。
 
-2. 通过打开命令提示符窗口并在命令提示符处输入**MMASetup AMD64.exe 无**程序包解压缩到**SR v2-Microsoft OMS 代理包**文件夹中。
+2. 通过打开命令提示符窗口并在命令提示符处输入**MMASetup AMD64.exe 无**程序包解压缩到**SR v2-Microsoft 监控代理包**文件夹中。
 
 3. 在 Configuration Manager 控制台中，转到**软件库** \> **应用程序管理** \> **包**以及然后选择**创建新程序包**。
 
 4. 输入以下信息以创建包：
 
-   - 名称<strong>: SR v2-Microsoft OMS 代理包</strong>
+   - 名称<strong>: SR v2-Microsoft 监控代理包</strong>
 
    - 制造商<strong>: Microsoft Corporation</strong>
 
    - 版本<strong>: 8.1.11081.0</strong> （输入下载的安装文件的版本）
 
-   - 选择**此程序包包含源文件**复选框、 **SR v2-Microsoft OMS 代理包**文件夹中，输入的路径，然后选择**下一步**。
+   - 选择**此程序包包含源文件**复选框、 **SR v2-Microsoft 监控代理包**文件夹中，输入的路径，然后选择**下一步**。
 
 5. 选择**不创建程序**，然后选择**下一步**。
 
@@ -623,12 +623,12 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
       -   如果您需要部署到的 Skype 会议室系统 v2 单位的根证书，则启用此步骤。
       -   如果需要执行此步骤，请验证选中的**SR v2 – 根证书包**和**禁用 64-bit 文件系统重定向**。
 
-   10. **安装和配置 OMS 代理**： 此步骤安装 Microsoft 操作管理套件代理的 64 位版本和配置要连接到您的日志分析工作区的代理。
-       -   默认情况下禁用此步骤。 仅当您要使用 OMS to monitor the health 的您 Skype 会议室系统 v2 单位，则启用此步骤。
+   10. **安装和配置监控代理**： 此步骤安装 64 位版本的 Microsoft Azure 监视器代理和配置要连接到您的日志分析工作区的代理。
+       -   默认情况下禁用此步骤。 仅当您要用于监视您 Skype 会议室系统 v2 单位的运行状况监控代理，则启用此步骤。
        -   编辑此步骤和更新的命令行参数指定您的**工作区 ID**和**工作区键**。
-       -   有关获取操作管理套件工作区 ID 和主关键字的详细信息，请参阅[到 Azure 中的日志分析服务的连接的 Windows 计算机](with-oms.md#configure-test-devices-for-operations-management-suite-setup)。
-       -   验证选中的**SR v2 – Microsoft OMS 代理包**和**禁用 64-bit 文件系统重定向**。
-       -   有关监控的 Skype 会议室系统 v2 部署运行状况的详细信息，请参阅[使用 OMS 的规划 Skype 会议室系统 v2 管理](../../plan-your-deployment/clients-and-devices/oms-management.md)和[使用 OMS 的部署 Skype 会议室系统 v2 管理](with-oms.md#configure-test-devices-for-operations-management-suite-setup)。
+       -   有关获取操作管理套件工作区 ID 和主关键字的详细信息，请参阅[Configure 测试设备的 Azure 监控](azure-monitor.md#configure-test-devices-for-azure-monitoring)。
+       -   验证选中的**SR v2 – Microsoft 监控代理包**和**禁用 64-bit 文件系统重定向**。
+       -   有关监控的 Skype 会议室系统 v2 部署运行状况的详细信息，请参阅[规划 Skype 会议室系统 v2 管理使用 Azure 监视器](../../plan-your-deployment/clients-and-devices/azure-monitor.md)、[部署 Skype 会议室系统 v2 管理使用 Azure 监视器](azure-monitor.md)和[管理 Skype 会议室Azure 监视系统 v2 设备](../../manage/skype-room-systems-v2/azure-monitor.md)。
 
    11. **复制 SR v2 配置文件**： 此步骤将从 Skype 会议室系统 v2 部署工具包所需的安装和配置文件复制到本地硬盘。 无自定义，则需要此步骤。
        -   验证选中的**SR v2 – SR 应用程序包**和**禁用 64-bit 文件系统重定向**。

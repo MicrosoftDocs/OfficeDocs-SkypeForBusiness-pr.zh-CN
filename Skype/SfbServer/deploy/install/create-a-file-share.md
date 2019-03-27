@@ -1,5 +1,6 @@
 ---
 title: 为 Business Server Skype 创建文件共享
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 摘要： 了解如何创建 Windows Server 文件共享作为业务服务器安装的 Skype 的一部分。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: a3fe1d69bb9e7db377c6a9334b90f8ce96c581ad
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: b92d85d375b76b43dcf65f01205c3826e5637905
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664825"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885629"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>为 Business Server Skype 创建文件共享
  

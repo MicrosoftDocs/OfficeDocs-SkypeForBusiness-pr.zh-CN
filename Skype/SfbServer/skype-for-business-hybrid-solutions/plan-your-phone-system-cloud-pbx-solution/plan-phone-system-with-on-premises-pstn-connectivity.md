@@ -1,5 +1,6 @@
 ---
 title: 规划 Office 365 中的电话系统与内部部署 PSTN 连接中 Skype 业务 Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 了解 Office 365 (云 PBX) 中的电话系统的规划注意事项的内部部署 PSTN 连接。
-ms.openlocfilehash: f0e73b2541bdab8d3e37db02bc023667ae942578
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.openlocfilehash: 3c3dcb8316cdd3665d7570d16777a8b4195c4a82
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454041"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897912"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>规划 Office 365 中的电话系统与内部部署 PSTN 连接中 Skype 业务 Server
 

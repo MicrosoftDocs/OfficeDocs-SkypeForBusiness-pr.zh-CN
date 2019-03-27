@@ -1,5 +1,6 @@
 ---
-title: 选择 Trunk
+title: 选择中继
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用选择 Trunk 对话框查找可以使用的现有 trunk。
-ms.openlocfilehash: 9c559e0029ebc749270effb1467937da273c40e3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 54f1b5d3ac63ee2d8570e12f0fe2107e335c81c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989068"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889257"
 ---
-# <a name="select-trunk"></a>选择 Trunk
+# <a name="select-trunk"></a>选择中继
  
 使用**选择 Trunk**对话框查找可以使用的现有 trunk。
   

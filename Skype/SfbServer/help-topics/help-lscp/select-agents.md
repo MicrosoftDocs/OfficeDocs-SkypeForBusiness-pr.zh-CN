@@ -1,5 +1,6 @@
 ---
 title: 选择代理
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 description: 代理是被指定为应答响应组呼叫的用户。 响应组必须具有一个分配的代理组来识别可接收针对响应组的呼叫的代理。 创建代理组的一种方法就是通过选择合格用户来定义自定义组。 合格的用户被启用 Skype Business Server 和企业语音。
-ms.openlocfilehash: 45f7ff77acc48a5c4000fd985cfdb0ae707deb9e
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 17a58df6e6729d5258e69007db98b480b83d46c4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263420"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888589"
 ---
 # <a name="select-agents"></a>选择代理
 
@@ -43,6 +44,6 @@ ms.locfileid: "23263420"
 
 - **启用**显示为用户定义的**Lync server 启用**字段的值。
 
-有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) 。
+有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)。
 
 

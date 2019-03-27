@@ -1,5 +1,6 @@
 ---
 title: 配置策略以控制联盟用户访问
+ms.reviewer: ''
 ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)
 ms:contentKeyID: 48184180
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '配置策略以支持与联盟伙伴通信时，策略应用于联盟域用户。 '
-ms.openlocfilehash: fcb4b0651c81316e06ab659430c3b0e9e5664e64
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: df5702fb217d238a26a8a9975e7e4a0792787399
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222987"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895074"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>配置策略以控制业务服务器中 Skype 的联盟的用户访问
 
@@ -122,16 +123,16 @@ ms.locfileid: "27222987"
 
 [启用或禁用联盟和公共 IM 连接](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md) 
 
-[将外部用户访问策略分配](assign-an-external-user-access-policy.md)
+[分配外部用户访问策略](assign-an-external-user-access-policy.md)
 
 [管理组织的 SIP 联盟域](../sip-domains/manage-sip-federated-domains-for-your-organization.md)
  
 [管理组织的 SIP 联盟提供程序](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
 
-[Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
+[设置 CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
 [新 CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExternalAccessPolicy)  
 [Get-csexternalaccesspolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
-[Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)  
+[Remove-csexternalaccesspolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)  
 [Grant-csexternalaccesspolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)  
   
 

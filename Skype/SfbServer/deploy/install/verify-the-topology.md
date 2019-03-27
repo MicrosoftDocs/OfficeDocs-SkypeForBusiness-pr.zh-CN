@@ -1,5 +1,6 @@
 ---
 title: 验证业务服务器中 Skype 的拓扑
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: 摘要： 了解如何验证为企业服务器拓扑 Skype 和 Active Directory 服务器正常运行。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: ed06860837805886f1d2287f23281edb90c470c1
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 03dfb45c03aa104cc5a9b265a37c347380590877
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881971"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896419"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>验证业务服务器中 Skype 的拓扑
  
 **摘要：** 了解如何验证为企业服务器拓扑 Skype 和 Active Directory 服务器正常运行。 从[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)业务服务器下载 Skype 的免费试用版。
   
-发布的拓扑和业务服务器系统组件安装在每个拓扑中的服务器上的 Skype 后，即可进行验证拓扑按预期方式工作。 这包括确认配置传播到所有 Active Directory 服务器，以便整个域知道 for Business 的 Skype 位于可用域中。 您可以按照任意顺序完成第 1 步至第 5 步。 但是，第 6、7、8 步必须在第 1 步至第 5 步之后按图表所示顺序执行。 验证拓扑是 8 个步骤中的第 8 步。
+发布的拓扑和业务服务器系统组件安装在每个拓扑中的服务器上的 Skype 后，即可进行验证拓扑按预期方式工作。 这包括确认配置传播到所有 Active Directory 服务器，以便整个域知道 for Business 的 Skype 位于可用域中。 第 1 步至第 5 步可以按任意顺序执行。 但是，第 6、7、8 步必须在第 1 步至第 5 步之后按图表所示顺序执行。 验证拓扑是 8 个步骤中的第 8 步。
   
 ![概述图表。](../../media/c8698b53-1282-4978-a9a6-ca3f7a778f60.png)
   
@@ -59,7 +60,7 @@ ms.locfileid: "23881971"
     
 9. 在搜索结果窗格中，选择要添加的用户，然后单击 **确定**。
     
-10. 在**新 Skype 的企业服务器用户**页中，所选的用户处于**用户**显示。 在**将用户分配给池**列表中，选择应驻留用户的服务器。
+10. 在**新 Skype 的企业服务器用户**页中，所选的用户处于**用户**显示。 In the **Assign users to a pool** list, select the server where the users should reside.
     
     您可以使用以下列表中的选项来配置对象。
     

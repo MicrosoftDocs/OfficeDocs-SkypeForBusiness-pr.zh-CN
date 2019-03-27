@@ -1,5 +1,6 @@
 ---
 title: Skype for Business 的负载平衡要求
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 摘要： 查看的负载平衡的企业服务器实现 Skype 之前的注意事项。
-ms.openlocfilehash: ed3572b16126ce16b423d4ffe0d60d1f84d6b3cf
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: a7e8e70088c83276c36334c5d9a1e3be1538ca38
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408163"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897888"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Skype for Business 的负载平衡要求
  
@@ -109,7 +110,7 @@ Skype 业务服务器支持的负载平衡的客户端到服务器的通信解�
 > 如果您正在部署移动设备，硬件负载平衡器必须能够单独负载平衡的 TCP 连接中的每个请求。 最新的 Apple iOS 移动应用程序要求传输层安全性 (TLS) 1.2 版。  
   
 > [!CAUTION]
-> 有关第三方硬件负载平衡器的详细信息，请参阅 [Skype for Business 的基础结构](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。  
+> 有关第三方硬件负载平衡器的详细信息，请参阅[for Business 的 Skype 的基础结构](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。  
   
 以下是控制器和前端池 Web 服务的硬件负载平衡器要求：
   
@@ -133,24 +134,24 @@ Skype 业务服务器支持的负载平衡的客户端到服务器的通信解�
   
 **前端服务器用户池 HLB 内部接口**
 
-|**虚拟 IP/端口**|**节点端口**|**节点计算机/监视器**|**持久性配置文件**|**说明**|
+|**虚拟 IP/端口**|**节点端口**|**节点计算机/监视器**|**持久性配置文件**|**备注**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<池\>web int_mco_443_vs  <br/> 443  <br/> |443  <br/> |前端  <br/> 5061  <br/> |源  <br/> |HTTPS  <br/> |
 |\<池\>web int_mco_80_vs  <br/> 80  <br/> |80  <br/> |前端  <br/> 5061  <br/> |源  <br/> |HTTP  <br/> |
    
 **前端服务器用户池 HLB 外部接口**
 
-|**虚拟 IP/端口**|**节点端口**|**节点计算机/监视器**|**持久性配置文件**|**说明**|
+|**虚拟 IP/端口**|**节点端口**|**节点计算机/监视器**|**持久性配置文件**|**备注**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<池\>web_mco_443_vs  <br/> 443  <br/> |端口 4443  <br/> |前端  <br/> 5061  <br/> |无  <br/> |HTTPS  <br/> |
 |\<池\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |前端  <br/> 5061  <br/> |无  <br/> |HTTP  <br/> |
    
-## <a name="dns-load-balancing"></a>DNS 负载平衡
+## <a name="dns-load-balancing"></a>DNS Load Balancing
 <a name="BKMK_DNSLoadBalancing"> </a>
 
 Skype 业务服务器启用 DNS 负载平衡，可以大幅降低负载平衡在您的网络管理开销的软件解决方案。 DNS 负载平衡平衡是唯一的 Skype 的企业服务器，例如 SIP 流量和媒体流量的网络流量。
   
-如果您部署 DNS 负载平衡，就可以最贵组织的管理开销的硬件负载平衡器。 此外，还可以免除解决 SIP 流量负载平衡器配置错误相关问题的复杂过程。 您还可以阻止服务器连接以使服务器脱机。 同时，DNS 负载平衡还可确保硬件负载平衡器问题不会影响 SIP 流量的元素，例如基本呼叫路由。
+如果您部署 DNS 负载平衡，就可以最贵组织的管理开销的硬件负载平衡器。 此外，将消除复杂故障排除与错误配置的 SIP 流量的负载平衡器的相关的问题。 以便您可以使服务器脱机，您还可以阻止服务器连接。 DNS 负载平衡还可以确保硬件负载平衡器问题不会影响如基本呼叫路由的 SIP 通信的元素。
 
 下图显示了示例同时包含内部和外部 DNS 负载平衡： 
   
@@ -158,15 +159,15 @@ Skype 业务服务器启用 DNS 负载平衡，可以大幅降低负载平衡在
 
 ![DNS 网络图表示例](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
-与为所有类型的流量使用硬件负载平衡器相比，使用 DNS 负载平衡还可以降低您购买硬件负载平衡器的成本。 您应使用过去 Business Server 测试与 Skype 的互操作性认证的负载平衡器。 有关负载平衡器的互操作性测试的详细信息，请参阅[Lync Server 2010 负载平衡器合作伙伴](https://go.microsoft.com/fwlink/p/?linkId=202452)。 为业务 Server 适用于 Skype 中存在的内容。
+如果您使用 DNS 负载平衡，您可能还能够购买比所有类型的通信使用硬件负载平衡器的成本较低的硬件负载平衡器。 您应使用过去 Business Server 测试与 Skype 的互操作性认证的负载平衡器。 有关负载平衡器的互操作性测试的详细信息，请参阅[Lync Server 2010 负载平衡器合作伙伴](https://go.microsoft.com/fwlink/p/?linkId=202452)。 为业务 Server 适用于 Skype 中存在的内容。
   
-前端池、边缘服务器池、控制器池和独立的中介服务器池都支持 DNS 负载平衡。
+前端池、 边缘服务器池、 控制器池和独立的中介服务器池的情况下，都支持 DNS 负载平衡。
   
 通常在应用程序级别实现 DNS 负载平衡。 应用程序 （例如，客户端运行 for Business 的 Skype），尝试连接到一个从返回的 IP 地址连接到池中的服务器的 DNS A 和 AAAA （如果使用 IPv6 寻址） 记录查询池完全限定的域名 (FQDN)。 
   
-例如，如果名为 pool01.contoso.com 的池中有三台前端服务器，则会发生以下情形：
+例如，如果名为 pool01.contoso.com 的池中有三台前端服务器，将发生以下情况：
   
-- 运行 for Business 的 Skype 的客户端 DNS 查询 pool01.contoso.com。 此查询将返回三个 IP 地址并将其按如下方式进行缓存（不需要按此顺序）：
+- 运行 for Business 的 Skype 的客户端 DNS 查询 pool01.contoso.com。 查询将返回三个 IP 地址，并将其缓存，如下所示 （不一定是按此顺序）：
     
     pool01.contoso.com 192.168.10.90
     
@@ -174,118 +175,118 @@ Skype 业务服务器启用 DNS 负载平衡，可以大幅降低负载平衡在
     
     pool01.contoso.com 192.168.10.92
     
-- 客户端将尝试建立到其中一个 IP 地址的传输控制协议 (TCP) 连接。如果失败，则客户端会尝试缓存中的下一个 IP 地址。
+- 客户端尝试建立与一个 IP 地址的传输控制协议 (TCP) 连接。 如果失败，客户端尝试了缓存中的下一个 IP 地址。
     
 - 如果 TCP 连接成功，则客户端与 TLS 协商连接到 pool01.contoso.com 上的主注册器。
     
 - 如果客户端尝试了所有缓存的条目不成功连接的情况下，则通知用户当前没有服务器运行 Business Server Skype 此时都已可用。
     
 > [!NOTE]
-> 基于 DNS 的负载平衡不同于 DNS 循环 (DNS RR)，后者通常是指依靠 DNS 提供与池中服务器对应的不同顺序的 IP 地址来进行负载平衡。通常 DNS RR 只启用负载分配，而不启用故障转移。例如，如果到由 DNS A 和 AAAA（如果使用的是 IPv6 寻址）查询返回的一个 IP 地址的连接失败，则连接失败。因此，DNS 循环自身的可靠性低于基于 DNS 的负载平衡。您可以将 DNS 循环与 DNS 负载平衡结合使用。 
+> 基于 DNS 负载平衡是不同于 DNS 轮循机制 (DNS RR) 这通常是指负载平衡依靠 DNS 提供不同的顺序的 IP 地址对应于在池中的服务器。 通常 DNS RR 仅启用负载分布，但不启用故障转移。 例如，如果为一个 IP 地址连接返回的 DNS A 和 AAAA （如果您使用的 IPv6 寻址） 查询失败，连接将失败。 因此，DNS 轮循机制本身是比基于 DNS 负载平衡不可靠。 您可以使用 DNS 轮循机制结合 DNS 负载平衡。 
   
-DNS 负载平衡用于以下方面：
+以下情况下使用 DNS 负载平衡：
   
-- 对至边缘服务器的服务器到服务器 SIP 进行负载平衡
+- 负载平衡边缘服务器的服务器到服务器 SIP
     
-- 对统一通信应用程序服务 (UCAS) 应用程序（如会议自动助理、响应组和呼叫寄存）进行负载平衡
+- 负载平衡统一通信应用程序服务 (UCAS) 应用程序，如会议自动助理、 响应组和呼叫寄存
     
-- 阻止到 UCAS 应用程序的新连接（也称为“排出”）
+- 阻止到 UCAS 应用程序 （也称为"排出"） 的新连接
     
-- 对客户端和边缘服务器之间的所有客户端到服务器的流量进行负载平衡
+- 客户端和边缘服务器之间的所有客户端到服务器流量进行负载平衡
     
-DNS 负载平衡不能用于以下方面：
+以下，不能使用 DNS 负载平衡：
   
-- 客户端到服务器至控制器或前端服务器的 Web 流量
+- 至控制器或前端服务器的客户端到服务器的 web 流量
     
 DNS 负载平衡和联盟流量：
   
-如果一个 DNS SRV 查询返回了多个 DNS 记录，则访问边缘服务始终以最低数值优先级与最高数值权重拾取 DNS SRV 记录。 Internet 工程任务组文档"以指定的服务 (DNS SRV) 位置 DNS RR" [RFC 2782、 DNS SRV RR](https://www.ietf.org/rfc/rfc2782.txt)指定是否有多个 DNS SRV 记录定义，首先使用优先级、 然后重量。 例如 DNS SRV 记录 A 权重为 20，优先级为 40，而 DNS SRV 记录 B 权重为 10，优先级为 50。 优先级为 40 的 DNS SRV 记录 A 将被选中。 下列规则适用于 DNS SRV 记录选择：
+如果 DNS SRV 查询返回多个 DNS 记录，则在访问边缘服务将始终选择 DNS SRV 记录使用的数字优先级最低和最大数字权重。 Internet 工程任务组文档"以指定的服务 (DNS SRV) 位置 DNS RR" [RFC 2782、 DNS SRV RR](https://www.ietf.org/rfc/rfc2782.txt)指定是否有多个 DNS SRV 记录定义，首先使用优先级、 然后重量。 例如 DNS SRV 记录 A 具有 20 个权重和 40 和 DNS SRV 记录 B 的优先级具有的权重为 10 和优先级为 50。 DNS SRV 记录的优先级 40 将被选中。 以下规则适用于 DNS SRV 记录所选内容：
   
-- 首先考虑优先级。客户端必须尝试联系它可访问的由具有最低编号优先级的 DNS SRV 记录定义的目标主机。应按权重字段定义的顺序尝试具有相同优先级的目标。
+- 首先考虑优先级。 客户端必须尝试联系目标主机定义通过它可以到达最低的编号优先级的 DNS SRV 记录。 具有相同优先级的目标应尝试定义权重字段顺序。
     
-- 权重字段指定具有相同优先级的条目的相对权重。 权重越大，应赋予的被选中可能性相应越高。 没有选择任何服务器进行时，DNS 管理员应使用权重 0。 相对于包含大于 0 的权重的记录，权重为 0 的记录应具有非常小的被选中机会。
+- 权重字段指定具有相同优先级的相对权重，条目。 较大的权重，应注意的选择的按比例较高的概率。 没有选择任何服务器进行时，DNS 管理员应使用权重 0。 包含权重大于 0 的记录，如果存在与权重 0 的记录应有选择非常小机会。
     
-如果返回了优先级和权重都相同的多个 DNS SRV 记录，则访问边缘服务将选择首先从 DNS 服务器收到的 SRV 记录。
+如果返回了优先级和权重的多个 DNS SRV 记录，访问边缘服务将选择首先从 DNS 服务器收到的 SRV 记录。
   
-### <a name="dns-load-balancing-on-front-end-pools-and-director-pools"></a>前端池和控制器池中的 DNS 负载平衡
+### <a name="dns-load-balancing-on-front-end-pools-and-director-pools"></a>DNS 负载平衡的前端池和控制器池
 
-您可以使用 DNS 负载平衡来平衡前端池和控制器池中的 SIP 流量。部署 DNS 负载平衡后，仍需要对这些池使用硬件负载平衡器，但仅用于客户端到服务器的 HTTPS 流量。硬件负载平衡器用于通过端口 443 和 80 从客户端传入的 HTTPS 流量。 
+您可以使用 DNS 负载平衡的前端池和控制器池的 SIP 流量。 使用 DNS 负载平衡部署，您仍需要为这些池，但仅限于客户端到服务器的 HTTPS 通信也使用硬件负载平衡器。 硬件负载平衡器是通过端口 443 和 80 用于来自客户端的 HTTPS 通信。 
   
-尽管这些池中仍需要硬件负载平衡器，但这些负载平衡器的安装和管理主要用于硬件负载平衡器管理员熟悉的 HTTPS 流量。
+尽管这些池中仍需要硬件负载平衡器，其安装和管理将主要用于硬件负载平衡器管理员熟悉的 HTTPS 通信。
   
-#### <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>支持旧客户端和服务器并对其进行 DNS 负载平衡
+#### <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>DNS 负载平衡和支持旧客户端和服务器
 
 DNS 负载平衡支持自动故障转移只有业务客户端运行 Skype 业务服务器或 Lync Server 2010 和 Lync 2013 和 Skype 的服务器。 客户端和 Office Communications Server 的早期版本仍然可以连接到池运行 DNS 负载平衡，但如果不能进行连接到第一台服务器的 DNS 负载平衡引用给，他们不能故障转移到池中的另一台服务器. 
   
-此外，如果您使用 Exchange UM，您必须使用 Exchange 2010 SP1 的最少的 Skype 支持获得业务服务器 DNS 负载平衡。 如果使用较早版本的 Exchange，则在以下 Exchange UM 方案中无法为您的用户提供故障转移功能：
+此外，如果您使用 Exchange UM，您必须使用 Exchange 2010 SP1 的最少的 Skype 支持获得业务服务器 DNS 负载平衡。 如果使用早期版本的 Exchange，用户不会这些 Exchange UM 方案的故障转移功能：
   
-- 在其电话上播放企业语音邮件
+- 其电话上播放他们企业的语音邮件
     
-- 转接来自 Exchange UM 自动助理的呼叫
+- 从 Exchange UM 自动助理转接呼叫
     
-其他所有 Exchange UM 方案将正常工作。
+所有其他 Exchange UM 方案将正常工作。
   
-#### <a name="deploying-dns-load-balancing-on-front-end-pools-and-director-pools"></a>在前端池和控制器池中部署 DNS 负载平衡
+#### <a name="deploying-dns-load-balancing-on-front-end-pools-and-director-pools"></a>部署 DNS 负载平衡前端池和控制器池
 <a name="BK_FE_Dir"> </a>
 
-在前端池和控制器池中部署 DNS 负载平衡时，需要使用 FQDN 和 DNS 记录执行一些额外步骤。
+正在部署 DNS 负载平衡的前端池和控制器池要求您执行一些处理 Fqdn 和 DNS 记录的额外步骤。
   
 - 使用 DNS 负载平衡池必须具有两个 Fqdn： 正则池 FQDN 由 DNS 负载平衡 （如 pool01.contoso.com)，和解析为池中的服务器的物理 Ip 和 FQDN 另一个池的 Web 服务 （如web01.contoso.com)，它解析为池的虚拟 IP 地址。 
     
     在拓扑生成器中，如果您想要部署 DNS 负载平衡池，要创建此额外的池的 Web 服务 FQDN 必须选择**覆盖内部 Web 服务池 FQDN**复选框并键入 FQDN，在**指定 Web 服务 Url此池**页。
     
-- 要支持 DNS 负载平衡使用的 FQDN，必须设置 DNS，以便将池 FQDN（例如 pool01.contoso.com）解析为该池中所有服务器的 IP 地址（例如，192.168.1.1、192.168.1.2 等）。您应该仅包含当前部署的服务器的 IP 地址。
+- 若要支持使用 DNS 负载平衡的 FQDN，必须设置 DNS （如 pool01.contoso.com) 将池 FQDN 解析为池中的所有服务器的 IP 地址 （例如，192.168.1.1、 192.168.1.2，等等）。 您应仅当前部署的服务器的 IP 地址。
     
     > [!CAUTION]
     > 如果您有多个前端池或前端服务器的外部 Web 服务 FQDN 必须是唯一的。 例如，如果您定义的外部 Web 服务的前端服务器的 FQDN 为**pool01.contoso.com**，不能使用**pool01.contoso.com** ，另一个前端池或前端服务器。 如果还要部署控制器、 外部 Web 服务 FQDN 定义任何控制器或控制器池必须不同于任何其他控制器池以及任何前端池或前端服务器。 如果决定覆盖内部 web 服务与自定义的 FQDN，每个 FQDN 必须是唯一的任何其他前端池、 控制器或控制器池。
   
-### <a name="dns-load-balancing-on-edge-server-pools"></a>边缘服务器池中的 DNS 负载平衡
+### <a name="dns-load-balancing-on-edge-server-pools"></a>DNS 负载平衡边缘服务器池
 <a name="BK_Edge"> </a>
 
-您可以在边缘服务器池中部署 DNS 负载平衡。如果要进行部署，则必须了解以下注意事项。
+您可以部署 DNS 负载平衡边缘服务器池。 否则，您必须了解一些注意事项。
   
-在边缘服务器中使用 DNS 负载平衡会导致以下方案中丧失故障转移功能：
+使用 DNS 负载平衡边缘服务器上将导致以下方案中丧失故障转移功能：
   
 - 与之前 Lync Server 2010 的业务服务器运行的 Skype 版本的组织建立联盟。
     
 - 与公共即时消息 (IM) 服务 AOL 和 yahoo ！，除了基于 XMPP 的提供程序和服务器，如 Google Talk 当前只支持 XMPP 伙伴的用户的即时消息交换。
     
-只要池中的所有边缘服务器都在运行，这些方案就会正常工作；但是如果某台边缘服务器不可用，则发送到该服务器的对这些方案的所有请求都将失败，而不会路由到其他边缘服务器。
+这些方案起作用，只要在池中的所有边缘服务器启动并正在运行，但如果一台边缘服务器不可用，向其发送这些方案任何请求将失败，而不是传送到另一台边缘服务器。
   
- 如果您使用 Exchange UM，您必须使用 Exchange 2013 的最少的 Skype 支持获得业务服务器 DNS 负载平衡的边缘。 如果使用较早版本的 Exchange，则在以下 Exchange UM 方案中无法为您的远程用户提供故障转移功能：
+ 如果您使用 Exchange UM，您必须使用 Exchange 2013 的最少的 Skype 支持获得业务服务器 DNS 负载平衡的边缘。 如果使用早期版本的 Exchange，远程用户不会这些 Exchange UM 方案的故障转移功能：
   
-- 在其电话上播放企业语音邮件
+- 其电话上播放他们企业的语音邮件
     
-- 转接来自 Exchange UM 自动助理的呼叫
+- 从 Exchange UM 自动助理转接呼叫
     
-其他所有 Exchange UM 方案将正常工作。
+所有其他 Exchange UM 方案将正常工作。
   
-内部边缘接口和外部边缘接口必须使用同一类型的负载平衡。您不能对一个边缘接口使用 DNS 负载平衡，而对另一个边缘接口使用硬件负载平衡。
+内部边缘接口和外部边缘接口必须使用同一类型的负载平衡。 您不能在一个边缘接口上使用 DNS 负载平衡的同时，在另一个边缘接口上使用硬件负载平衡。
   
-#### <a name="deploying-dns-load-balancing-on-edge-server-pools"></a>在边缘服务器池中部署 DNS 负载平衡
+#### <a name="deploying-dns-load-balancing-on-edge-server-pools"></a>部署 DNS 负载平衡边缘服务器池中
 
-要在边缘服务器池的外部接口上部署 DNS 负载平衡，需要具有以下 DNS 条目：
+若要部署 DNS 负载平衡边缘服务器池的外部接口上，您需要以下 DNS 条目：
   
-- 对于访问边缘服务，池中的每台服务器都需要有一个条目。每个条目必须将访问边缘服务的 FQDN（例如 sip.contoso.com）解析为该池中某台边缘服务器上访问边缘服务的 IP 地址。
+- 对于访问边缘服务，您需要一个条目的池中每台服务器。 每个条目必须解析为上一台边缘服务器池中的访问边缘服务的 IP 地址 (例如，sip.contoso.com) 的访问边缘服务的 FQDN。
     
-- 对于 Web 会议边缘服务，池中的每台服务器都需要有一个条目。每个条目必须将 Web 会议边缘服务的 FQDN（例如 webconf.contoso.com）解析为该池中某台边缘服务器上 Web 会议边缘服务的 IP 地址。
+- 对于 Web 会议边缘服务，您需要一个条目的池中每台服务器。 每个条目必须解析为上一台边缘服务器池中的 Web 会议边缘服务的 IP 地址 (例如，webconf.contoso.com) Web 会议边缘服务的 FQDN。
     
-- 对于音频/视频边缘服务，池中的每台服务器都需要有一个条目。 每个条目必须音频/视频边缘服务 (例如，av.contoso.com) 将 FQDN 解析为的 IP 地址的 A / V 边缘服务上一台边缘服务器池中。
+- 对于音频/视频边缘服务，您需要一个条目的池中每台服务器。 每个条目必须音频/视频边缘服务 (例如，av.contoso.com) 将 FQDN 解析为的 IP 地址的 A / V 边缘服务上一台边缘服务器池中。
     
-要在边缘服务器池的内部接口上部署 DNS 负载平衡，必须添加一条将此边缘服务器池的内部 FQDN 解析为该池中每台服务器的 IP 地址的 DNS A 记录。
+若要部署 DNS 负载平衡边缘服务器池的内部接口上，您必须添加一个 DNS A 记录，边缘服务器池的内部 FQDN 解析为池中的每台服务器的 IP 地址。
   
-### <a name="using-dns-load-balancing-on-mediation-server-pools"></a>在中介服务器池中使用 DNS 负载平衡
+### <a name="using-dns-load-balancing-on-mediation-server-pools"></a>使用 DNS 负载平衡中介服务器池
 <a name="BK_Mediation"> </a>
 
-可以在独立的中介服务器池上使用 DNS 负载平衡。所有 SIP 和媒体流量都通过 DNS 负载平衡进行平衡。
+您可以使用 DNS 负载平衡在独立的中介服务器池上。 所有的 SIP 和媒体流量平衡由 DNS 负载平衡。
   
-要在中介服务器池中部署 DNS 负载平衡，必须设置 DNS，以便将池 FQDN（例如 mediationpool1.contoso.com）解析为该池中所有服务器的 IP 地址（例如，192.168.1.1、192.168.1.2 等）。
+若要部署 DNS 负载平衡中介服务器池，必须设置 DNS 以将池 FQDN (例如，mediationpool1.contoso.com) 解析为池中的所有服务器的 IP 地址 （例如，192.168.1.1、 192.168.1.2，等等）。
   
-### <a name="blocking-traffic-to-a-server-with-dns-load-balancing"></a>使用 DNS 负载平衡阻止到服务器的流量
+### <a name="blocking-traffic-to-a-server-with-dns-load-balancing"></a>阻止到带有 DNS 负载平衡服务器的流量
 <a name="BK_Mediation"> </a>
 
 如果使用 DNS 负载平衡并且需要阻止至特定计算机的流量，则仅仅删除池 FQDN 中的 IP 地址条目是不够的。您还必须删除计算机的 DNS 条目。 
   
-请注意，对于服务器到服务器通信，业务服务器 Skype 使用可识别拓扑的负载平衡。 服务器阅读要获取在拓扑中，服务器的 Fqdn 的中央管理存储中的已发布的拓扑，并自动将在服务器之间的流量分发。 若要阻止服务器接收服务器到服务器的流量，则必须从拓扑中删除服务器。 
+请注意，对于服务器到服务器通信，业务服务器 Skype 使用可识别拓扑的负载平衡。 服务器阅读要获取在拓扑中，服务器的 Fqdn 的中央管理存储中的已发布的拓扑，并自动将在服务器之间的流量分发。 若要阻止从接收服务器到服务器通信的服务器，必须从拓扑中删除服务器。 
   
 

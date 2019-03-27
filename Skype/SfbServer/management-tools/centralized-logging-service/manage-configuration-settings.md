@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 2015 中管理集中日志记录服务配置设置
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 摘要： 了解如何检索、 更新和为业务服务器 2015 Skype 创建 the Centralized Logging Service 配置设置。
-ms.openlocfilehash: 62902a25e50043f2e03eda907f4ba572249b1a60
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1aab363f88b7639e2eb61f9101864bac20cc0aa0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375599"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896929"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中管理集中日志记录服务配置设置
 
@@ -58,11 +59,11 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 网站和全局作用域中的**New-**、 **Set-** 和**Remove-** Centralized Logging Service cmdlet 定义。 以下示例演示了如何设置站点和全局作用域。
 
 > [!IMPORTANT]
-> 显示的命令可能包含其他章节中涵盖的参数和概念。 示例命令旨在演示如何使用 **-Identity**参数来定义作用域，并使用其他参数在内的完整性和指定的范围。 有关**Set-csclsconfiguration** cmdlet 的详细信息，请参阅操作文档中的[Set-csclsconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps) 。
+> 显示的命令可能包含其他章节中涵盖的参数和概念。 示例命令旨在演示如何使用 **-Identity**参数来定义作用域，并使用其他参数在内的完整性和指定的范围。 有关 **Set-CsClsConfiguration** cmdlet 的详细信息，请参阅操作文档中的 [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)。
 
 ### <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>若要检索的当前集中日志记录服务配置
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
 2. 在命令行提示符处键入以下内容：
 
@@ -76,7 +77,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ### <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a>若要从计算机本地存储检索当前的集中日志记录服务配置
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
 2. 在命令行提示符处键入以下内容：
 
@@ -87,7 +88,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 当您使用第一个示例**Get-csclsconfiguration**没有指定任何参数，命令参考中央管理存储的数据。 如果指定参数-LocalStore，命令将引用而不是中央管理存储的计算机 LocalStore。
 ### <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a>检索当前定义的方案的列表
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
 2. 在命令行提示符处键入以下内容：
 
@@ -104,7 +105,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 Cmdlet **Get-csclsconfiguration**始终显示属于给定范围内的配置的方案。 在大多数情况下，不会显示所有方案，而会截断它们。 此处使用的命令列出所有方案和有关所使用的提供程序、设置和标记的部分信息。
 ### <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>通过使用 Windows PowerShell 更新 the Centralized Logging Service 的全局作用域
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
 2. 在命令行提示符处键入以下内容：
 
@@ -121,7 +122,7 @@ Cmdlet **Get-csclsconfiguration**始终显示属于给定范围内的配置的�
 该命令指示部署中的每个计算机和池中的 CLSAgent 将跟踪文件上的滚动值的大小设置为 40 MB。所有站点中的计算机和池都受该命令的影响，并且会将其已配置的跟踪日志滚动值设置为 40 MB。
 ### <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>通过使用 Windows PowerShell 更新 the Centralized Logging Service 的站点作用域
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
 2. 在命令行提示符处键入以下内容：
 
@@ -141,7 +142,7 @@ Cmdlet **Get-csclsconfiguration**始终显示属于给定范围内的配置的�
 该命令指示 Redmond 站点中的每个计算机和池中的 CLSAgent 将跟踪文件上的滚动值的大小设置为 40 MB。其他站点中的计算机和池不会受该命令的影响，并将继续使用当前配置的跟踪日志滚动值（默认定义的 (20 MB) 或在日志记录会话开始时定义的）。
 ### <a name="to-create-a-new-centralized-logging-service-configuration"></a>若要创建新的集中日志记录服务配置
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
 2. 在命令行提示符处键入以下内容：
 
@@ -161,7 +162,7 @@ Cmdlet **Get-csclsconfiguration**始终显示属于给定范围内的配置的�
 您应仔细规划创建新的配置和为 the Centralized Logging Service 定义新属性的方式。 您在进行更改时应格外小心，并应确保了解对您正确记录问题方案的能力的影响。 您应更改配置，提高管理日志大小和滚动周期（允许在问题发生时予以解决）的能力。
 ### <a name="to-remove-an-existing-centralized-logging-service-configuration"></a>若要删除现有的集中日志记录服务配置
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
 2. 在命令行提示符处键入以下内容：
 
@@ -185,12 +186,12 @@ Cmdlet **Get-csclsconfiguration**始终显示属于给定范围内的配置的�
 
 [配置 Skype for Business Server 2015 中的集中日志记录服务的方案](configure-scenarios.md)
 
-[Skype for Business 2015 中的集中日志记录服务](centralized-logging-service.md)
+[Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md)
 
-[Set-csclsconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
+[Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
 
-[Get-csclsconfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps)
+[Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps)
 
-[New-csclsconfiguration](https://docs.microsoft.com/powershell/module/skype/new-csclsconfiguration?view=skype-ps)
+[New-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csclsconfiguration?view=skype-ps)
 
-[Remove-csclsconfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csclsconfiguration?view=skype-ps)
+[Remove-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csclsconfiguration?view=skype-ps)

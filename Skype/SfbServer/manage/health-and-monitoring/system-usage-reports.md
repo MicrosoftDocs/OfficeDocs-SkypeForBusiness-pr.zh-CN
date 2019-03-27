@@ -1,5 +1,6 @@
 ---
 title: Skype 业务服务器中的系统使用情况报告
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: 摘要： 了解业务服务器的系统使用情况报告中 Skype。
-ms.openlocfilehash: 979736f9e5659abc572b5308db55bd082a4be3c7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5e3bcca092eb1ab8e03a837455924320e3af5e9b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016765"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896740"
 ---
 # <a name="system-usage-reports-in-skype-for-business-server"></a>Skype 业务服务器中的系统使用情况报告
  
@@ -34,11 +35,11 @@ ms.locfileid: "21016765"
     
 - [会议中 Skype 业务服务器的摘要报告](conference-summary-report.md)
     
-    提供所有会议活动摘要。会议是涉及三个或更多人的会话。
+    提供所有会议活动摘要。 会议是涉及三个或更多人的会话。
     
 - [PSTN 会议摘要报告中 Skype 业务服务器](pstn-conference-summary-report.md)
     
-    提供所有 PSTN 会议摘要。这些会议是至少一个用户使用公用电话交换网 (PSTN) 拨入的会议，该会议又称为电话拨入式会议。
+    提供所有 PSTN 会议摘要。 这些会议是至少一个用户使用公用电话交换网 (PSTN) 拨入的会议，该会议又称为电话拨入式会议。
     
 - [Skype 中的业务服务器的响应组使用情况报告](response-group-usage-report.md)
     

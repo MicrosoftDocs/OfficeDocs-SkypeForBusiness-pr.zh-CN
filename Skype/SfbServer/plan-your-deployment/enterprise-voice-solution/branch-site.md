@@ -1,5 +1,6 @@
 ---
 title: Skype 业务服务器中的分支站点 SIP 中继
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 description: 了解有关在 Skype 中的分支站点 SIP 中继的业务 Server 企业语音。
-ms.openlocfilehash: 17b387a0aec3498aa6ff15890ef39c94f1d68f60
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 333cb5f150efb431d4c7c43a0d78b601cb8ff268
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883856"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896607"
 ---
 # <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Skype 业务服务器中的分支站点 SIP 中继
  

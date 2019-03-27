@@ -1,5 +1,6 @@
 ---
 title: 确认旧环境
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 部署以共存的业务服务器 2019 Skype 之前, 需要确认已配置并启动旧式服务。 务必来确定关键服务和在旧环境中，在部署业务服务器 2019年试点池 Skype 之前存在的功能。 在之前部署 Microsoft Skype 业务服务器 2019 XMPP 与旧的 XMPP 部署以共存，您需要验证旧版 XMPP 服务已配置并启动，并确认旧的 XMPP 配置的联盟的伙伴支持。
-ms.openlocfilehash: d6e4585e127009117345d1220458196b5b461b6a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0f9812efe966d72eba1eeead9d74780f2ba16661
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030425"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887345"
 ---
 # <a name="verify-the-legacy-environment"></a>确认旧环境
 

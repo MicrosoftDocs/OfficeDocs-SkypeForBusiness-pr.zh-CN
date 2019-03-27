@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 资源管理包工具文档
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 本主题介绍为业务服务器 2015年资源工具包，包括每个工具，以及其使用的示例的用途的 Skype 中的工具。 业务服务器 2015年资源工具包的 Skype 有助于使日常任务更易于部署和管理业务服务器 2015 Skype 的 IT 管理员。 例如，Web Conf Data 工具可用于轻松控制召开联机会议期间用户上载的数据。 SEFAUtil 工具可用于为用户设置代理人呼叫转接和应答。 我们鼓励使用这些工具更有效地管理业务服务器 2015 Skype IT 管理员。
-ms.openlocfilehash: d58ba07a06b29ffe03eadc38beb55d3cb623b8cd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 730ba434a70f49b01b70aaf0d9f1ac889bd2ba75
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533432"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879859"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 资源管理包工具文档
 
@@ -1061,7 +1062,7 @@ SEFAUtil 工具只能在属于受信任应用程序池的一部分的计算机�
     > 如果需要，可以使用其他端口。
     
     > [!NOTE]
-    > 池 FQDN： 服务器或将承载 SEFAUtil 应用程序池的 FQDN (通常业务前端服务器的 Skype > 或池)。
+    > 池 FQDN： 服务器或池将承载 SEFAUtil 应用程序 (通常为 > 业务前端服务器或池的 Skype) 的 FQDN。
     > 池注册器 FQDN： 业务前端服务器或池与此应用程序池相关联的 Skype 的 FQDN。
     > 池网站： 网站的 ID，此池上驻留的网站。
 

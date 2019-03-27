@@ -1,5 +1,6 @@
 ---
 title: 将前端与 Office Web Apps 服务器关联页面
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: Office Web Apps Server 提供类似于演讲者上载文档以供会议使用的服务，但支持之前的版本中不支持的其他功能。
-ms.openlocfilehash: 4d8d297175cfb003078d80c19a5ace24771a1f49
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 925a27d4b1ddffd40038f71b5cc9d7a3404efba3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248052"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897557"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>将前端与 Office Web Apps 服务器关联页面
 
@@ -35,4 +36,4 @@ Office Web Apps Server 提供类似于演讲者上载文档以供会议使用的
 
 ## <a name="see-also"></a>另请参阅
 
-[发布使用反向代理服务器的 Office Web Apps Server](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
+[Publishing Office Web Apps Server Using a Reverse Proxy Server](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)

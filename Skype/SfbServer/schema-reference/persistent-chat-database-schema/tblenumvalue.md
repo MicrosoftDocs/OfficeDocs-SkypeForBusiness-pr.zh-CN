@@ -1,5 +1,6 @@
 ---
 title: tblEnumValue
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: tblenumvalue 表是一个硬编码表，包含节点表使用的属性的 Visibility 和 Behavior 值。
-ms.openlocfilehash: 4e17e5fc167342c106e7b5354d90c7fc284785c3
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 579b2747ea753b8a701d11dd806178427cbb27b3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19505074"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881167"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  

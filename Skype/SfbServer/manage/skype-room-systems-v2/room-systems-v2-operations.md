@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 阅读此主题以了解有关的 Skype 会议室系统 v2，管理下一代 Skype 会议室系统。
-ms.openlocfilehash: 4c94ffbcb83e5e208e5cd7278af54e157b9f478c
-ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
+ms.openlocfilehash: 29c3af2b73f9a8b1277abdc6a47afeb69cb26ef2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30720422"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889320"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Skype 会议室系统 v2 维护和操作 
  
@@ -23,7 +23,7 @@ ms.locfileid: "30720422"
   
 Skype 会议室系统 v2 是 Microsoft 的最新设计用来转换为业务体验丰富的、 协作 Skype 您会议室的会议解决方案。 用户将获得熟悉的 Skype for Business 界面，IT 管理员将体验部署和管理都很轻松的 Windows 10 Skype 会议应用。 Skype 会议室系统 v2 旨在利用现有的设备，如 LCD 面板为了简化安装将 Skype for Business 导入您的会议室。
   
-其他配置远程管理是可以[使用 OMS 的规划 Skype 会议室系统 v2 管理](../../plan-your-deployment/clients-and-devices/oms-management.md)、[使用 OMS 的部署 Skype 会议室系统 v2 管理](../../deploy/deploy-clients/with-oms.md)和[管理中所述使用 Microsoft 操作管理套件 (OMS)OMS Skype 会议室系统 v2 设备](oms.md)。 你还可以[Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md)，这包括应用自定义显示主题。 
+其他配置远程管理是可以使用 Microsoft Azure 监视器[规划 Skype 会议室系统 v2 管理使用 Azure 监视器](../../plan-your-deployment/clients-and-devices/azure-monitor.md)，[部署 Skype 会议室系统 v2 管理使用 Azure 监视器](../../deploy/deploy-clients/azure-monitor.md)、[管理中所述Azure 监视器 Skype 会议室系统 v2 设备](azure-monitor.md)。 你还可以[Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md)，这包括应用自定义显示主题。 
   
 ## <a name="collecting-logs-on-skype-room-systems-v2"></a>收集 Skype 会议室系统 v2 的日志
 <a name="Logs"> </a>

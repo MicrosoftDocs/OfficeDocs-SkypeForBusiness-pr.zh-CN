@@ -1,5 +1,6 @@
 ---
 title: 持久聊天策略
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 description: 您可以使用“持久聊天”组的“持久聊天策略”页来管理全局级、池级、站点级或用户级的策略，包括为部署配置默认全局策略以及创建一个或多个其他用户和站点策略。 如果策略为用户启用了持久聊天服务器，然后持久聊天服务器环境中将显示他们的客户端。
-ms.openlocfilehash: 95020a24cc8f68c33028977cc5e4c3569423b219
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: fc994f74acc0abf8d4d615d3d85ea3662c367904
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375781"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894927"
 ---
 # <a name="persistent-chat-policy"></a>持久聊天策略
  

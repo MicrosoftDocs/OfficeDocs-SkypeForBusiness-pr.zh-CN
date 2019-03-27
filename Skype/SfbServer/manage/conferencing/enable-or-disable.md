@@ -1,5 +1,6 @@
 ---
 title: 启用或禁用业务服务器中 Skype 电话拨入式会议
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
 description: 摘要： 了解如何使用控制面板或命令行管理程序启用或禁用业务服务器中 Skype 电话拨入式会议。
-ms.openlocfilehash: 47393140e41277aef3ec137ee3f1c6a96fa9efca
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 216973e8d3a887dcae308fc5efa6d67b2415493b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983859"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895354"
 ---
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>启用或禁用业务服务器中 Skype 电话拨入式会议
  

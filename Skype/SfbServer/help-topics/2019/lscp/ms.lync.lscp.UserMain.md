@@ -1,5 +1,6 @@
 ---
 title: 控制面板-更新用户搜索
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 ROBOTS: NOINDEX, NOFOLLOW
 description: 搜索查询的结果可用于配置用户的 Skype 业务服务器。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。 还可以使用 Lync Server 控制面板或 Active Directory 用户和计算机管理单元搜索用户。
-ms.openlocfilehash: 79a12b5b420b355376e544d8a51db8e24142bea0
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 9ffcb7c0046c80f684450f8d8c9e30814f8ef4ea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245682"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877963"
 ---
 # <a name="control-panel---updated-user-search"></a>控制面板 - 已更新：用户搜索
 
@@ -35,13 +36,13 @@ ms.locfileid: "23245682"
 
 - [移动所有用户](ms.lync.lscp.UserMoveAll.md)
 
-- [将策略分配给用户](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
+- [Assign Policies to Users](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
 
 - [Skype 中的企业语音的用户启用企业服务器](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [为用户配置联盟、 远程用户访问和公共 IM 连接](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [为用户配置电话](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [Configure Telephony for Users](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
 
 
@@ -75,7 +76,7 @@ ms.locfileid: "23245682"
 
 - **启用用户**单击可打开[用户： 新建 Lync Server 用户](ms.lync.lscp.UserNew.md)对话框中，其中您可将新用户添加到 Skype 业务服务器。
 
-    若要添加新的联系人，单击向下箭头，然后选择**启用联系人**以打开[用户： New Contact Objects](ms.lync.lscp.UserNewContact.md)对话框。
+    若要添加新的联系人，请单击向下箭头并选择“**启用联系人**”以打开[Users: New Contact Objects](ms.lync.lscp.UserNewContact.md)对话框。
 
 - **编辑**单击**编辑**，然后单击**显示详细信息**以显示所选用户的详细信息，或单击**选择所有搜索结果**以都选择结果表中显示的所有用户。
 

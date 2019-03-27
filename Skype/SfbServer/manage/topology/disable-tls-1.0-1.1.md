@@ -1,5 +1,6 @@
 ---
 title: 为业务 Server 2015 禁用 TLS 1.0/1.1 中 Skype
+ms.reviewer: ''
 ms.author: heidip
 author: heidip
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 摘要： 准备，并在您的环境中实现禁用 TLS 1.0 和 1.1。
-ms.openlocfilehash: f99cf01ceb952298e90d296461e0d2b663f92c5d
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: c10be59bb3e14ccb0a3ac315891789e8a0e2ce64
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493931"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886600"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>为业务 Server 2015 禁用 TLS 1.0/1.1 中 Skype
 
@@ -38,7 +39,7 @@ Microsoft 提供了在 TLS 可用[下面](https://cloudblogs.microsoft.com/micro
 
 ### <a name="fully-tested-and-supported-servers"></a>充分测试和支持的服务器
 
-- Skype 业务服务器 2019
+- Skype for Business Server 2019
 - Skype 的业务服务器 2015 CU6 HF2 6.0.9319.516 （[2018 年 3 月更新](https://support.microsoft.com/en-us/help/4086059/march-2018-cumulative-update-6-0-9319-516-for-skype-for-business)） 和更高版本上： 
     - （与 KB 3140245 或取代更新） 的 Windows Server 2012、 2012 R2 或 2016
 - 就地升级业务服务器 2015，与 CU6 HF2 和更高版本上的 Skype 

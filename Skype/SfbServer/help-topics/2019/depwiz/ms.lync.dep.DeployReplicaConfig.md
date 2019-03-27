@@ -1,5 +1,6 @@
 ---
-title: 安装本地配置存储调用 （配置）
+title: 安装本地配置存储调用（配置）
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要开始将保存中央管理存储的本地只读副本的数据库的安装，您选择之间检索发布使用拓扑生成器从已安装并配置管理中心的定义的配置管理存储或从其他媒体读取定义的配置。 对于位于组织的内部网络的计算机，选择检索配置自动从中央管理存储。
-ms.openlocfilehash: 87d2620b6b4b9eb36ee96e7f9b693016620d3a49
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 21cf742be33ab79daa733cbc52aa557b6ccee145
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003143"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886266"
 ---
-# <a name="install-local-configuration-store-invoke-configure"></a>安装本地配置存储调用 （配置）
+# <a name="install-local-configuration-store-invoke-configure"></a>安装本地配置存储调用（配置）
  
 若要开始将保存中央管理存储的本地只读副本的数据库的安装，您选择之间检索发布使用拓扑生成器从已安装并配置管理中心的定义的配置管理存储或从其他媒体读取定义的配置。 对于位于组织的内部网络的计算机，选择**检索从中央管理存储的自动配置**。
   

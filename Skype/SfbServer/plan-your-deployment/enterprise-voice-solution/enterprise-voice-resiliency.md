@@ -1,5 +1,6 @@
 ---
-title: 规划业务服务器 Skype 中的企业语音恢复能力
+title: Plan for Enterprise Voice resiliency in Skype for Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: 了解如何支持在 Skype 业务 Server 企业语音，在中央站点和分支站点语音恢复能力。 分支站点选项包括部署 Survivable Branch Appliance 或 Survivable Branch Server。
-ms.openlocfilehash: b93e93e32baf67b71c2a1eb842455973ee619f80
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8b6b414cc1667c0764ac8878ea0f06da7468e781
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374757"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887797"
 ---
-# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>规划业务服务器 Skype 中的企业语音恢复能力
+# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Plan for Enterprise Voice resiliency in Skype for Business Server
 
 了解如何支持在 Skype 业务 Server 企业语音，在中央站点和分支站点语音恢复能力。 分支站点选项包括部署 Survivable Branch Appliance 或 Survivable Branch Server。
 
@@ -243,7 +244,7 @@ Skype 业务服务器支持在分支站点的最多两个 Survivable Branch Appl
 
 制造通过与 Microsoft 合作关系中的原始设备制造商和代表其拨打增值零售商部署 Survivable Branch Appliance。 仅在已在中央站点部署的企业服务器的 Skype、 与分支站点的 WAN 连接处于的位置，并分支站点用户启用企业语音后，应进行此部署。
 
-有关这些阶段的详细信息，请参阅部署文档中的[Deploying a Survivable Branch Appliance or Server](https://technet.microsoft.com/library/cb780c14-dc5f-41ba-8092-f20ae905bd16.aspx) 。
+有关这些阶段的详细信息，请参阅部署文档中的[Deploying a Survivable Branch Appliance or Server](https://technet.microsoft.com/library/cb780c14-dc5f-41ba-8092-f20ae905bd16.aspx)。
 
 |**阶段**|**步骤**|**用户权限**|
 |:-----|:-----|:-----|
@@ -279,7 +280,7 @@ Skype 业务服务器支持在分支站点的最多两个 Survivable Branch Appl
 > [!IMPORTANT]
 > 创建分支机构备份路由时，建议将两个 PSTN 电话用法记录添加到分支机构用户策略中，并为每个记录分配单独的路由。 路由的第一张、 或主，将指示呼叫到网关的 Survivable Branch Appliance (SBA) 或分支服务器; 相关联第二、 或备份时，路由将指示呼叫到中央站点网关。 在定向呼叫时，SBA 或分支服务器会在尝试所有分配给第一个 PSTN 用法记录的路由后，再尝试第二个用法记录。
 
-为了帮助确保分支网关或 Survivable Branch Appliance 网站的 Windows 组件不可用时为分支站点用户的入站的呼叫，将达到这些用户 (其会发生，例如，如果 Survivable Branch Appliance 或分支网关都进行维护） 创建到中央站点的备份注册器池故障转移路由网关 （或使用您的外线直拨分机 (DID) 提供商） 将重定向传入呼叫。 在此处，呼叫将会通过 WAN 链路路由到分支用户。 确保路由转换遵守与 PSTN 网关或其他中继对等方接受的电话号码格式的号码。 有关创建故障转移路由的详细信息，请参阅[配置故障转移路由](https://technet.microsoft.com/library/76e48df4-3b78-4fb7-b1f7-c1e604b81bad.aspx)。 另外，您还可以为与分支站点网关相关联的中继创建服务级别拨号计划，以规范化传入呼叫。 如果您有两个 Survivable Branch Appliance 分支站点上时，您可以用于创建网站级拨号计划，除非每个单独的服务级别计划是必要。
+为了帮助确保分支网关或 Survivable Branch Appliance 网站的 Windows 组件不可用时为分支站点用户的入站的呼叫，将达到这些用户 (其会发生，例如，如果 Survivable Branch Appliance 或分支网关都进行维护） 创建到中央站点的备份注册器池故障转移路由网关 （或使用您的外线直拨分机 (DID) 提供商） 将重定向传入呼叫。 在此处，呼叫将会通过 WAN 链路路由到分支用户。 确保路由转换遵守与 PSTN 网关或其他中继对等方接受的电话号码格式的号码。 有关创建故障转移路由的详细信息，请参阅[Configuring a Failover Route](https://technet.microsoft.com/library/76e48df4-3b78-4fb7-b1f7-c1e604b81bad.aspx)。 另外，您还可以为与分支站点网关相关联的中继创建服务级别拨号计划，以规范化传入呼叫。 如果您有两个 Survivable Branch Appliance 分支站点上时，您可以用于创建网站级拨号计划，除非每个单独的服务级别计划是必要。
 
 > [!NOTE]
 > 要说明其状态、会议或故障转移依赖于中央站点的任何分支站点用户使用中央站点资源的情况，建议您将每个分支站点用户视作已在中央站点进行注册。 目前不受限制的分支站点用户，其中包括与 Survivable Branch Appliance 注册的用户数。
@@ -292,7 +293,7 @@ Skype 业务服务器支持在分支站点的最多两个 Survivable Branch Appl
 
 与包含分机号（无论是只包含一个完整的 E.164 电话号码还是包含其他的电话号码）的线路 URI 匹配的标准化规则和转换规则还有其他要求。本节介绍了为带分机号的线路 URI 路由呼叫的几种示例情况。
 
-如果您的组织没有为单个用户配置外线直拨分机 (DID) 电话号码，并且每个用户的线路 URI 只配置了一个分机号，则内部用户只需拨打分机号即可相互呼叫。但是，您必须配置规范化规则，并且这些规则要能应用到与这些分机号相匹配的从分支站点用户发给中央站点用户的呼叫。
+如果您的组织没有为单个用户配置外线直拨分机 (DID) 电话号码，并且每个用户的线路 URI 只配置了一个分机号，则内部用户只需拨打分机号即可相互呼叫。 但是，您必须配置规范化规则，并且这些规则要能应用到与这些分机号相匹配的从分支站点用户发给中央站点用户的呼叫。
 
 如果分支站点和中央站点之间的 WAN 链路可用，那么分支站点用户发给中央站点用户的呼叫就无需通过匹配的规范化规则来转换号码，因为该呼叫不会通过 PSTN 来路由。例如：
 
@@ -358,7 +359,7 @@ Skype 业务客户端可以使用 DHCP 选项 120 （SIP 注册器选项） 的�
 
 #### <a name="requirements-for-survivable-branch-servers"></a>Survivable Branch Server 的要求
 
-Survivable Branch Server 的要求是前端服务器的要求相同。 有关详细信息，请参阅[业务服务器 2015年的 Skype 服务器要求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
+Survivable Branch Server 的要求是前端服务器的要求相同。 有关信息，请参阅 [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
 
 #### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>全面的 Skype for Business Server 分支站点部署的要求
 
@@ -374,7 +375,7 @@ Survivable Branch Server 的要求是前端服务器的要求相同。 有关详
 |:-----|:-----|
 |默认呼叫策略  <br/> |Local  <br/> GlobalPSTNHopoff  <br/> |
 |Redmond 本地策略  <br/> |RedmondLocal  <br/> |
-|Dallas 呼叫策略  <br/> |名为 DallasUsers  <br/> GlobalPSTNHopoff  <br/> |
+|Dallas 呼叫策略  <br/> |DallasUsers  <br/> GlobalPSTNHopoff  <br/> |
 
 **表 2. 路由**
 
@@ -382,9 +383,9 @@ Survivable Branch Server 的要求是前端服务器的要求相同。 有关详
 | **路由名称**             | **号码模式** | **电话用法**         | **中继**                                 | **网关**                                     |
 |:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
 | Redmond 本地路由  <br/> | ^\+1 (425           | 206                     | 253)(\d{7})$  <br/>                       | Local  <br/> RedmondLocal  <br/>                |
-| Dallas 本地路由  <br/>  | ^\+1 (972           | 214                     | 469)(\d{7})$  <br/>                       | 本地  <br/>                                    |
+| Dallas 本地路由  <br/>  | ^\+1 (972           | 214                     | 469)(\d{7})$  <br/>                       | Local  <br/>                                    |
 | 通用路由  <br/>     | ^\+?(\d\*)$  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
-| Dallas 用户路由  <br/>  | ^\+?(\d\*)$  <br/> | 名为 DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
+| Dallas 用户路由  <br/>  | ^\+?(\d\*)$  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
 
 在表 1 中，名为 GlobalPSTNHopoff 的电话用法添加到 Dallas Calling Policy 中的 DallasUsers 电话用法的后面。这样，当 DallasUsers 电话用法的路由不可用时，具有 Dallas Calling Policy 的呼叫就可以使用针对 GlobalPSTNHopoff 电话用法配置的路由。
 

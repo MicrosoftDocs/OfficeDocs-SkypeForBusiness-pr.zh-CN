@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 环境的要求
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +14,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
-description: 摘要：Skype for Business Server 2015 系统要求及网络或基础结构要求主题的大纲。如果需要安装或配置的任何组件是安装和部署 Skype for Business Server 2015 的先决条件，那么可以在那里找到这些功能。
-ms.openlocfilehash: 50844d0ed48604796ca2f9c399408c10291f4c10
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+description: 摘要： 了解系统要求和网络或基础结构要求 Skype 业务服务器 2015年主题大纲。 如果需要安装或配置的任何组件是安装和部署 Skype for Business Server 2015 的先决条件，那么可以在那里找到这些功能。
+ms.openlocfilehash: e43fc9bda052abc952bf4a4a1a8921b4ab276427
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883899"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895438"
 ---
 # <a name="requirements-for-your-skype-for-business-2015-environment"></a>您 Skype 业务 2015年环境的要求
  

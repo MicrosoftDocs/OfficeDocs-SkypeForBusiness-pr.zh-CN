@@ -1,5 +1,6 @@
 ---
 title: 监控范围节点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在拓扑生成器中，您可以执行与单个通过右键单击控制台树中，运行监控的服务器运行监控服务器相关的任务，在工具栏中，单击操作或单击操作窗格中的任务，然后单击之一运行监控服务器的以下选项：
-ms.openlocfilehash: ea748113fa701b0b8c65078704b9b570514fafb3
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 2f156b660dc60a16c67ac9bdf54e8114ce17a0ed
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082598"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882381"
 ---
 # <a name="monitoring-scope-node"></a>监控范围节点
  

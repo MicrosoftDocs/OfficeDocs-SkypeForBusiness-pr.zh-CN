@@ -1,5 +1,6 @@
 ---
 title: 为业务 Server 使用 Skype 中的媒体旁路配置中继
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '执行以下步骤可配置启用媒体旁路的中继。 '
-ms.openlocfilehash: 68fd463f5afbde8dafa6ddb305e080374b2925b2
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 468c03668a7097252aee4e0593b8576bebd5c55c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223463"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895207"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>为业务 Server 使用 Skype 中的媒体旁路配置中继
 
@@ -58,7 +59,7 @@ ms.locfileid: "27223463"
 9. 如果中继对等方支持接收来自中介服务器的 SIP REFER 请求，请选择**启用将引用发送到网关**复选框。 
 
     > [!NOTE] 
-    > 如果禁用此选项而选中“启用媒体旁路”**** 选项，则需要其他设置。 如果中继对等方不支持接收来自中介服务器和媒体绕过的 SIP REFER 请求已启用，您必须运行**Set-cstrunkconfiguration** cmdlet 禁用活动按住呼叫的 RTCP 才能支持的相应条件媒体绕过。 此外，如果您希望转移的呼叫传输支持媒体旁路，并且网关不支持 SIP REFER 请求，则您可以选择“允许使用第三方呼叫控制的引用”****。 
+    > 如果禁用此选项而选中“启用媒体旁路”**** 选项，则需要其他设置。 如果中继对等方不支持接收来自中介服务器的 SIP REFER 请求且启用了媒体旁路，则为了支持媒体旁路的适当条件，还必须运行 **Set-CsTrunkConfiguration** cmdlet 以禁用活动呼叫和保留呼叫的 RTCP。 此外，如果您希望转移的呼叫传输支持媒体旁路，并且网关不支持 SIP REFER 请求，则您可以选择“允许使用第三方呼叫控制的引用”****。 
 
 10. （可选）若要启用中继间路由，请将 PSTN 用法记录关联到此中继配置并进行相应的配置。 将所有传入呼叫通过不源自业务服务器终结点的 Skype 中继应用与此中继配置相关联的 PSTN 用法。 若要管理与中继配置关联的 PSTN 用法记录，请使用下列方法之一：
     - 若要从所有 PSTN 用法记录企业语音部署中可用的列表中选择一个或多个记录，请单击**选择**。 突出显示要与此中继配置关联的记录，然后单击“确定”****。

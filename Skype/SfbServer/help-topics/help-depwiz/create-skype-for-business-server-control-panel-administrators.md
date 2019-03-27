@@ -1,5 +1,6 @@
 ---
 title: 创建 Skype for Business Server 控制面板管理员
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,16 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
-description: 为业务服务器 2015年 Skype 为授予访问权限，请执行以下操作：
-ms.openlocfilehash: db781611e2df2abf23c071673d3dfe0570f5700b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 向 Skype 授予访问权限的业务服务器 2015年，执行以下操作：
+ms.openlocfilehash: 5d01066da5be34ba53f4eca37d35a3913d07142a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898864"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>创建 Skype for Business Server 控制面板管理员
  
-为业务服务器 2015年 Skype 为授予访问权限，请执行以下操作：
+向 Skype 授予访问权限的业务服务器 2015年，执行以下操作：
   
 1. 以 Domain Admins 组或 RTCUniversalServerAdmins 组成员的身份登录。
     
@@ -33,26 +35,26 @@ ms.lasthandoff: 03/28/2018
 5. 在“成员”选项卡上，确认所选的用户或组存在。单击“**确定**”。
     
 > [!TIP]
-> 用于业务服务器控件面板 Skype 是基于角色的访问控制工具。 CsAdministrator 组中的成员提供业务服务器控件面板完全控制所有可用的配置功能使用 Skype 的用户。 为特定功能提供了其他专门的角色。 用户不需要启用的 Skype 业务服务器才能成为管理组的成员。 
+> 为业务 Server Control Panel Skype 是一个基于角色的访问控制工具。 CsAdministrator 组的成员提供的业务 Server Control Panel 完全控制的所有可用的配置函数使用 Skype 的用户。 还有其他为特定功能设计的专门角色可用。 用户没有要启用 Skype 业务服务器才能成为管理组的成员。 
   
 其他角色包括：
   
-- **CsArchiving:**此组的成员可以执行所有的存档功能，如配置和管理存档服务器角色。
+- **CsArchiving:** 此组的成员可以执行所有存档功能，如配置和管理存档服务器角色。
     
-- **CsHelpDesk：**该组的成员可以查看配置和部署，包括用户属性和策略。成员还可以执行特定的故障排除任务。
+- **CsHelpDesk：** 该组的成员可以查看配置和部署，包括用户属性和策略。成员还可以执行特定的故障排除任务。
     
-- **CsLocationAdministrator：**成员具有与管理增强型 9-1-1 (E9-1-1) 相关的最低用户权限。他们可以在部署中创建 E9-1-1 位置和网络标识符并关联它们。
+- **CsLocationAdministrator：** 成员具有与管理增强型 9-1-1 (E9-1-1) 相关的最低用户权限。他们可以在部署中创建 E9-1-1 位置和网络标识符并关联它们。
     
-- **CsResponseGroupAdministrator：**成员可以管理和配置响应组服务。
+- **CsResponseGroupAdministrator：** 成员可以管理和配置响应组服务。
     
-- **CsServerAdministrator:**成员可以管理、 监视和疑难解答的业务服务器运行 Skype 的所有服务器。
+- **CsServerAdministrator:** 成员可以管理、 监视和解决业务服务器运行 Skype 的所有服务器。
     
-- **CsUserAdministrator：**成员可以管理、启用和禁用用户，以及将现有策略分配给用户。
+- **CsUserAdministrator：** 成员可以管理、启用和禁用用户，以及将现有策略分配给用户。
     
-- **CsViewOnlyAdministrator:**成员可以查看的部署和配置的服务器信息。 此成员资格使成员监视运行业务服务器 2015 Skype 的服务器的健康状况。
+- **CsViewOnlyAdministrator:** 成员可以查看部署和配置服务器信息。 此成员资格使成员 to monitor the health 的业务服务器 2015年运行 Skype 的服务器。
     
-- **CsVoiceAdministrator:**成员可以创建、 配置和管理在 Skype 业务服务器的语音相关的设置。
+- **CsVoiceAdministrator:** 成员可以创建、 配置和管理 Skype 中的业务服务器的语音相关的设置。
     
-为了保持安全性和基于角色的访问控制的完整性，请将用户添加到组定义用户管理的业务服务器部署 Skype 执行哪些角色。
+若要帮助保留安全性和基于角色的访问控制完整性，请将用户添加到定义了用户执行的业务服务器部署 Skype 的管理角色组。
   
 

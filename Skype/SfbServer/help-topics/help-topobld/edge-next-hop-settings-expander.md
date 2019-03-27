@@ -1,5 +1,6 @@
 ---
 title: 边缘下一跃点设置扩展器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 description: 若要设置或修改边缘服务器将用于与内部基础结构通信的“下一个跃点池”，请从列表中选择控制器、控制器池、前端服务器或前端服务器池。 只有控制器或前端服务器已在拓扑生成器中配置显示在列表中。
-ms.openlocfilehash: 50a8aed87bd58fb6036eab1c7276152515b0b037
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c5a5aae6818e662e5e4f47d26d73b4260a1494b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245221"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878061"
 ---
 # <a name="edge-next-hop-settings-expander"></a>边缘下一跃点设置扩展器
 

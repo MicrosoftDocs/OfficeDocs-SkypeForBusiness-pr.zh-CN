@@ -1,5 +1,6 @@
 ---
 title: Skype 中的业务服务器的对等会话详细信息报告
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: 摘要： 了解在 Skype 业务服务器的对等会话详细信息报告。
-ms.openlocfilehash: 6ac6a26c52fcc0eaca4890631b1d91f338930421
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 41d4b7d78c674afbc2136911913e88837a4f5095
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000724"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897238"
 ---
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Skype 中的业务服务器的对等会话详细信息报告
  

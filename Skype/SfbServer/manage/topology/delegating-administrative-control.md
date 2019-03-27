@@ -1,5 +1,6 @@
 ---
 title: Skype 的管理控制权限委派业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 6dbd254a96e4ffe961edc1a7d601870eb38b35db
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 64d1b33c7ee41c028d3af7454a131f67de2c9146
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222896"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890063"
 ---
 # <a name="delegate-administrative-control-of-skype-for-business-server"></a>Skype 的管理控制权限委派业务服务器 
 

@@ -1,5 +1,6 @@
 ---
 title: 创建和发布新拓扑中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 摘要： 了解如何创建、 发布和业务服务器安装 Skype 之前验证新拓扑。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: c2879b2323ffe85624c852d70028ab2388b4feb7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ba141e76732705008ded4e8e03737154bc45b1c6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371332"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886673"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>创建和发布新拓扑中 Skype 业务服务器
  
@@ -201,7 +202,7 @@ ms.locfileid: "25371332"
     
     如果已验证拓扑并且未出现验证错误，则发布拓扑的准备工作应该已经就绪。如果出现验证错误，则必须先更正错误，然后才能发布拓扑。
     
-6. 右键单击“**Skype for Business Server**”节点，然后单击“**发布拓扑**”。
+6. 右键单击“Skype for Business Server”**** 节点，然后单击“发布拓扑”****。
     
 7. 在“**发布拓扑**”页上，单击“**下一步**”。
     
@@ -217,7 +218,7 @@ ms.locfileid: "25371332"
     > [!NOTE]
     > 如果您没有适当的权限创建数据库，可以清除这些数据库旁边的复选框，然后具有适当权限的人员可以创建数据库。 要求的详细信息，请参阅[Business Server 的 Skype 服务器要求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。 
   
-10. 也可以单击“**高级**”。通过使用高级 SQL Server 数据文件放置选项，您可以在以下选项之间进行选择： 
+10. 也可以单击“**高级**”。 通过使用高级 SQL Server 数据文件放置选项，您可以在以下选项之间进行选择： 
     
     - **自动确定数据库文件位置**-此选项决定基于您的基于 SQL Server 的服务器上的磁盘配置由分发到最佳位置的日志和数据文件的最佳操作性能。
     

@@ -1,5 +1,6 @@
 ---
 title: 创建或修改转换规则的呼叫 ID 演示文稿中 Skype 业务服务器
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 摘要： 了解如何使用生成的转换规则工具中 Skype 业务服务器定义转换规则。
-ms.openlocfilehash: c50b16f2753569b1a47b37f6615ef0e7f6d26cae
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 947dc6a76482fc5b00efaeb71463b35eab9f9cea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370828"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897690"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>创建或修改转换规则的呼叫 ID 演示文稿中 Skype 业务服务器
 
 **摘要：** 了解如何使用生成的转换规则工具中 Skype 业务服务器定义转换规则。
 
-如果您想要在**建立转换规则**工具中输入的一组值和启用业务 Server 控制面板为您生成的相应匹配模式和转换规则的 Skype 定义转换规则，请按照以下步骤。 或者，可以手动编写正则表达式来定义匹配模式和转换规则。 有关详细信息，请参阅[创建或修改转换规则手动](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)。
+如果您想要在**建立转换规则**工具中输入的一组值和启用业务 Server 控制面板为您生成的相应匹配模式和转换规则的 Skype 定义转换规则，请按照以下步骤。 或者，可以手动编写正则表达式来定义匹配模式和转换规则。 有关详细信息，请参阅[Create or Modify a Translation Rule Manually](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)。
 
 ### <a name="to-define-a-rule-by-using-the-build-a-translation-rule-tool"></a>使用“构建转换规则”工具定义规则
 
@@ -38,19 +39,19 @@ ms.locfileid: "25370828"
 
 5. 在对话框的“构建转换规则”**** 部分的以下字段中输入值：
 
-   - **起始数字**：（可选）指定要使模式与之匹配的号码的前导数字。例如，在此字段输入 +，可与 E.164 格式（以 + 开头）的号码匹配。
+   - **起始数字**：（可选）指定要使模式与之匹配的号码的前导数字。 例如，在此字段输入 +，可与 E.164 格式（以 + 开头）的号码匹配。
 
    - **长度**：指定匹配模式中的数字位数，并选择希望模式匹配的号码是必须具有此准确长度、至少具有此长度还是可以具有任何长度。 例如，输入 11 和 selectAt 最匹配的长度至少 11 位数字的号码下拉列表中。
 
    - **要删除的数字**：（可选）指定要删除的起始数字的位数。 例如，输入 1 去掉 + 从编号的开头。
 
-   - **要添加的数字**：（可选）指定要附加到转换号码前面的数字。例如，如果要在应用规则时将 011 附加到转换号码的前面，则输入 011。
+   - **要添加的数字**：（可选）指定要附加到转换号码前面的数字。 例如，如果要在应用规则时将 011 附加到转换号码的前面，则输入 011。
 
      这些字段中输入的值将反映在“要匹配的模式”**** 和“转换规则”**** 字段中。例如，如果指定前面示例中的值，则“要匹配的模式”**** 字段中生成的正则表达式为：
 
      ^\+(\d{9}\d+)$
 
-     “转换规则”**** 字段指定转换号码格式的模式。该模式由两部分组成：
+     “转换规则”**** 字段指定转换号码格式的模式。 该模式由两部分组成：
 
    - 代表匹配模式中数字位数的值（例如，$1）
 

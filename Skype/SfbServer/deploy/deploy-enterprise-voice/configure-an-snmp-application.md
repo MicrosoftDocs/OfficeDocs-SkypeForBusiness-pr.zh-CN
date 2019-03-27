@@ -1,5 +1,6 @@
 ---
 title: 在 Skype for Business Server 中配置 SNMP 应用程序
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 description: 配置 SNMP 应用程序以使用 E9-1-1 在 Skype 业务 Server 企业语音。
-ms.openlocfilehash: 528caaa4db89630cc1818eb8f4a470146093d883
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f45666708b2f5bb3065631bbb4ab38ee88082517
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890715"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898597"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>在 Skype for Business Server 中配置 SNMP 应用程序
  
@@ -33,7 +34,7 @@ Skype 业务服务器包括可用于连接到简单网络管理协议 (SNMP) 应
   
 ### <a name="to-configure-the-snmp-application-url"></a>配置 SNMP 应用程序 URL
 
-1.  启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。
+1.  启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
 2. 运行以下 cmdlet 为 SNMP 应用程序配置 URL。 
     

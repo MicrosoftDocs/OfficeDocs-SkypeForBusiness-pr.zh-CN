@@ -1,5 +1,6 @@
 ---
 title: 添加 VIS FQDN
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 1e868ae2-57d9-449f-85be-6133c0cbd4f6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机创建 VIS 池中 Skype 业务服务器。
-ms.openlocfilehash: 3f8475b82a44d94d1704274709aa4320eea8778c
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 38a30bfe3e52cc5df8255a303271b70f1c9b4169
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21063315"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890197"
 ---
 # <a name="add-vis-fqdn"></a>添加 VIS FQDN
  

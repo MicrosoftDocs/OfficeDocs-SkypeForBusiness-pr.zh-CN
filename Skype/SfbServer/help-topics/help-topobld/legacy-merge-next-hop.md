@@ -1,5 +1,6 @@
 ---
 title: 旧版合并下一个跃点
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c19ac6-f91d-41cb-b6a2-e54ed06b9596
 description: 下一个跃点 FQDN 标识旧边缘服务器将内部流量路由到的下一个跃点服务器。 键入此边缘服务器将内部流量路由到的下一个跃点服务器的完全限定的域名 (FQDN)，然后选择是否是前端池或控制器。
-ms.openlocfilehash: f93dc2db27806661ddca654363e51a49a3420abe
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0e498a7181b77ec86b1f1b6d12d673feba372097
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010651"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896433"
 ---
 # <a name="legacy-merge-next-hop"></a>旧版合并下一个跃点
  

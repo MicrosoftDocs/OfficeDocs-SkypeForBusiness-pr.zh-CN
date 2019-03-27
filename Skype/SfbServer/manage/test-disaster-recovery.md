@@ -1,5 +1,6 @@
 ---
 title: 业务服务器中 Skype 测试的灾难恢复
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 为业务服务器池服务器 Skype 测试您的记录的灾难恢复过程中执行系统恢复
-ms.openlocfilehash: d401d27c1cc0f5b04c6e256a1e55f6847c9c35ba
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 876470f0e4193f02efe0a2094be80f7bdf891fdd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222721"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884962"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>业务服务器中 Skype 测试的灾难恢复
 
@@ -45,12 +46,12 @@ ms.locfileid: "27222721"
 
 生产 Skype 业务池将使用客户端自动配置和 DNS SRV 记录的引用：
 
-- SRV: _sip._tls。\<域 > /CNAME: SIP。\<域 >
-- CNAME: SIP。\<域 > /cvc-pool-1。\<域 >
+- SRV: _sip._tls。\<domain> /CNAME: SIP。\<domain>
+- CNAME: SIP。\<domain> /cvc-pool-1。\<domain>
 
 为促进故障转移，必须更新此 CNAME 记录以引用 DROCSPool FQDN：
 
-- CNAME: SIP。<domain> / DROCSPool。\<域 >
-- Sip。\<域 >
-- AV.\<域 >
-- webconf。\<域 >
+- CNAME: SIP。<domain> / DROCSPool。\<domain>
+- Sip。\<domain>
+- AV.\<domain>
+- webconf。\<domain>

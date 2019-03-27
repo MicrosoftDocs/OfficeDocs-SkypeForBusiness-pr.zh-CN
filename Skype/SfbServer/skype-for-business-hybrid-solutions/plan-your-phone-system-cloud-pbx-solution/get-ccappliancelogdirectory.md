@@ -1,5 +1,6 @@
 ---
-title: 获得 CcApplianceLogDirectory
+title: Get-CcApplianceLogDirectory
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
 description: Get-CcApplianceLogDirectory cmdlet 显示存储 Skype for Business 云连接器版本设备的日志的当前目录。
-ms.openlocfilehash: 9b7d4853deb9ab16c7ae61279a20a30778774072
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d1298454bb347356718fdf24d6761acfea1b71b1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890358"
 ---
-# <a name="get-ccappliancelogdirectory"></a>获得 CcApplianceLogDirectory
+# <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  
 Get-CcApplianceLogDirectory cmdlet 显示存储 Skype for Business 云连接器版本设备的日志的当前目录。
   
@@ -35,7 +37,7 @@ Get-CcApplianceLogDirectory
 
 ### <a name="example-1"></a>示例 1
 
-下面的示例显示当前文件夹存储日志的云连接器当前装置：
+下面的示例显示当前文件夹存储为当前 appliance 云连接器的日志：
   
 ```
 Get-CcApplianceLogDirectory
@@ -44,7 +46,7 @@ Get-CcApplianceLogDirectory
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-获得 CcApplianceLogDirectory cmdlet 显示当前目录存储日志的云接口装置。 默认的文件夹是 C:\Users\%userprofile%\CloudConnector\ApplianceRoot\Logs。 
+Get CcApplianceLogDirectory cmdlet 显示在当前目录为云连接器 appliance 日志存储在何处。 默认文件夹已 C:\Users\%userprofile%\CloudConnector\ApplianceRoot\Logs。 
   
 可以通过使用 Set-CcApplianceDirectory cmdlet 来更改目录。 
   
@@ -63,6 +65,6 @@ Get-CcApplianceLogDirectory
 ## <a name="see-also"></a>另请参阅
 <a name="ReturnTypes"> </a>
 
-[一组 CcApplianceDirectory](set-ccappliancedirectory.md)
+[Set-CcApplianceDirectory](set-ccappliancedirectory.md)
   
 

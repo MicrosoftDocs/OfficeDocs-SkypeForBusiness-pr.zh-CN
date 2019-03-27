@@ -1,5 +1,6 @@
 ---
 title: 管理组织的外部访问策略
+ms.reviewer: ''
 ms:assetid: 5571811e-34c8-443a-b94c-1ab5d4275581
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520995(v=OCS.15)
 ms:contentKeyID: 48184160
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 后部署一个或多个边缘服务器，必须启用将为您的组织支持的外部访问的类型。
-ms.openlocfilehash: 2cdd27fc09b21a38760616e0223b05548b3debb8
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: bdc1a87476849a6e8383d5561af6e1b3af477869
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222924"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892876"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>管理组织的外部访问策略
 

@@ -1,5 +1,6 @@
 ---
-title: 发布拓扑选择 CMS 页
+title: 发布拓扑选择 CMS 页面
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 description: 发布已配置使用拓扑生成器的拓扑。 您需要从前端服务器或前端池，则假定按住中央管理存储的角色的列表中选择。 只有一个前端服务器或前端池可以在任何给定时间保留此角色。
-ms.openlocfilehash: cc7727ec80ff61bbaebd10ec8fe33ea69c159048
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a2f37afe8b654562a98255be42b621b1290bbb67
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257295"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891129"
 ---
-# <a name="publish-topology-select-cms-page"></a>发布拓扑选择 CMS 页
+# <a name="publish-topology-select-cms-page"></a>发布拓扑选择 CMS 页面
 
 发布已配置使用拓扑生成器的拓扑。 您需要从前端服务器或前端池，则假定按住中央管理存储的角色的列表中选择。 只有一个前端服务器或前端池可以在任何给定时间保留此角色。
 
@@ -27,4 +28,4 @@ ms.locfileid: "23257295"
 
 ## <a name="see-also"></a>另请参阅
 
-[Move-csmanagementserver](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)
+[Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)

@@ -1,5 +1,6 @@
 ---
 title: 服务器容量规划用户模型使用情况的 Skype 业务
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: 本文提供的指导您在该站点的用户数针对某个站点需要多少台服务器上根据业务服务器中 Skype User models 中所述的用法。
-ms.openlocfilehash: 1e802bc130086bcefc8fd06cbacd3f21222d6d0a
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 13c7a1bdbbfc20f13dec2c6d9999b80caf4078dd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789403"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886231"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>服务器容量规划用户模型使用情况的 Skype 业务
 
@@ -81,7 +82,7 @@ ms.locfileid: "27789403"
 |1.3 Kpbs  <br/> |13 Mbps  <br/> |
 
 > [!NOTE]
-> 改进的共同位于媒体性能 A / V 会议和中介服务器在前端服务器上的功能，您应启用接收端扩展在前端服务器上的网络适配器 (RSS)。 通过启用 RSS，服务器上的多个处理器能够以并行方式处理传入数据包。 有关详细信息，请参阅[ Windows Server 2012 中的接收方缩放 (RSS)](https://go.microsoft.com/fwlink/p/?LinkId=620365) 文档。 有关如何启用 RSS 的详细信息，需要参阅网络适配器文档。
+> 改进的共同位于媒体性能 A / V 会议和中介服务器在前端服务器上的功能，您应启用接收端扩展在前端服务器上的网络适配器 (RSS)。 通过启用 RSS，服务器上的多个处理器能够以并行方式处理传入数据包。 有关详细信息，请参阅[接收端扩展 (RSS) 中的 Windows Server 2012 文档](https://go.microsoft.com/fwlink/p/?LinkId=620365)。 有关如何启用 RSS 的详细信息，需要参阅网络适配器文档。
 
 ## <a name="conferencing-maximums"></a>会议最大值
 

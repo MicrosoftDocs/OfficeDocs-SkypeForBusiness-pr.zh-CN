@@ -1,5 +1,6 @@
 ---
-title: 配置联盟路由和媒体流量
+title: 配置联合路由和媒体流量
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 联盟是两个或多个 SIP 域，它允许不同组织跨网络边界进行通信中的用户之间的信任关系。 迁移到试点池后，您需要转换您 Skype 的联盟路由到您旧版边缘服务器的联盟路由从业务 Server 2019 边缘服务器。
-ms.openlocfilehash: 3d6fb6455221b85c4cdbfc63a5a868cdf6444341
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 607d98c3c831ae9fd911b9fd2782490dcfb0e4f4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027331"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880226"
 ---
-# <a name="configure-federation-routes-and-media-traffic"></a>配置联盟路由和媒体流量
+# <a name="configure-federation-routes-and-media-traffic"></a>配置联合路由和媒体流量
 
 联盟是两个或多个 SIP 域，它允许不同组织跨网络边界进行通信中的用户之间的信任关系。 迁移到试点池后，您在需要转换到您的 Skype 的联盟路由的早期版本的边缘服务器联盟路由从业务 Server 2019 边缘服务器。
   

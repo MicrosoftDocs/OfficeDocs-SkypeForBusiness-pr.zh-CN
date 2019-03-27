@@ -1,5 +1,6 @@
 ---
 title: 创建持久聊天服务器范围节点
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 右键单击在拓扑生成器以执行以下的持久聊天池：
-ms.openlocfilehash: 4fcb9201b30298b34235bef1d066527673ff2eaf
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 930d144c31dfcd83326ca9c9aa13ee386a950d6c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082548"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894221"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>创建持久聊天服务器范围节点
 

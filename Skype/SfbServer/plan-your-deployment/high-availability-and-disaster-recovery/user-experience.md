@@ -1,5 +1,6 @@
 ---
 title: 业务服务器中 Skype 的池故障期间的用户体验
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: 了解用户体验前端池故障转移或业务服务器失败后 Skype 中的灾难恢复期间时。
-ms.openlocfilehash: 741eb40d0bf4ee615d68d05ab6b9543b6f65474b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9311078b0b987f4340fec671e559ca4430949a6b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001187"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893667"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>业务服务器中 Skype 的池故障期间的用户体验
  
@@ -25,9 +26,9 @@ ms.locfileid: "21001187"
   
 池失败时，将中断用户具有的任何呼叫、会议或对话，用户必须在故障转移后重新建立这些会话才能继续。
   
-故障转移或故障回复期间，不能重新连接用户。位于失败的池上的用户将由备份池临时提供服务。当主池还原后，管理员可以将这些用户恢复为由其原始池（仍然作为承载池）提供服务。
+故障转移或故障回复期间，不能重新连接用户。 位于失败的池上的用户将由备份池临时提供服务。 当主池还原后，管理员可以将这些用户恢复为由其原始池（仍然作为承载池）提供服务。
   
-请注意，不会将位置信息服务器数据库复制到备份池中。作为最佳做法，管理员应定期备份 LIS 数据库，并在故障转移后使用最新备份副本在备份池中还原 LIS 数据库。
+请注意，不会将位置信息服务器数据库复制到备份池中。 作为最佳做法，管理员应定期备份 LIS 数据库，并在故障转移后使用最新备份副本在备份池中还原 LIS 数据库。
   
 ## <a name="user-experience-during-failover"></a>故障转移期间的用户体验
 
@@ -39,7 +40,7 @@ ms.locfileid: "21001187"
   
 下表显示了有关故障回复期间及之后用户如何受到影响的更多详细信息，以及其他池中的用户如何查看处于故障回复池中的用户并与之交互。 
   
-术语受影响用户指从主池进行故障转移并由备份池提供服务的用户。原来位于备份池上的任何用户不是受影响用户。
+术语受影响用户指从主池进行故障转移并由备份池提供服务的用户。 原来位于备份池上的任何用户不是受影响用户。
   
 **受影响用户在故障回复池中的用户体验**
 

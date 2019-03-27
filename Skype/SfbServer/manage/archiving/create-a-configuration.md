@@ -1,5 +1,6 @@
 ---
 title: 为 Business Server Skype 创建存档配置
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: 摘要： 了解如何为业务服务器 Skype 创建存档配置。
-ms.openlocfilehash: b46aa3605d34ba083b7021424536b9c2d1c9bbea
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2a45a627ab8bbeedd18d1cbda636606ebc641745
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21019843"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881282"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>为 Business Server Skype 创建存档配置
 
@@ -28,7 +29,7 @@ ms.locfileid: "21019843"
     
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
     
-3. 在左侧导航栏中，单击“**监控和存档**”，然后单击“**存档配置**”。
+3. 在左侧导航栏中，单击“监控和存档”****，然后单击“存档配置”****。
     
 4. 在“**存档配置**”页上，单击“**新建**”，然后执行下列操作之一： 
     

@@ -1,5 +1,6 @@
 ---
 title: 监视 Mobility Service 和 UCWA 使用量 Skype 的业务服务器
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
 description: 摘要： 管理业务服务器 Mobility Service (Mcx) 和 Skype 中的统一的通信 Web API (UCWA)。
-ms.openlocfilehash: 6856235e5e5a8179e52836901598f7fbe2852a57
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 79516ec6cf5371061a0287e70e6ed81f8b2a5395
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "21227014"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884948"
 ---
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>监视 Mobility Service 和 UCWA 使用量 Skype 的业务服务器
  

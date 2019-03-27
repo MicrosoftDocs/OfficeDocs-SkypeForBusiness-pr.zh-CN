@@ -1,5 +1,6 @@
 ---
 title: 与 Exchange 和 SharePoint 集成
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 摘要： 了解与 Exchange 和 SharePoint 的业务服务器 2015年集成 Skype。
-ms.openlocfilehash: 98e84fdac1e070c10bdcfb99278e78fb6f56a9a6
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 91291f960636b8fd0c41519ff65830b98b631e8c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210619"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879960"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>与 Exchange 和 SharePoint 集成
 
@@ -37,7 +38,7 @@ ms.locfileid: "30210619"
  **Skype 的本地业务服务器和本地 Exchange**
 
 
-|**功能**|**说明**|
+|**功能**|**备注**|
 |:-----|:-----|
 |Outlook 中的 IM/状态  <br/> |有关详细信息，请参阅[IM 和状态](https://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx)。  <br/> |
 |通过 Outlook 安排和加入联机会议  <br/> |有关详细信息，请参阅[业务服务器 2015 与 Exchange Server 的集成 Skype](../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)。  <br/> |
@@ -57,7 +58,7 @@ ms.locfileid: "30210619"
  **Skype Business Server 本地和 Exchange Online**
 
 
-|**功能**|**说明**|
+|**功能**|**备注**|
 |:-----|:-----|
 |Outlook 中的 IM/状态  <br/> |有关详细信息，请参阅[配置集成业务服务器 2015年和 Outlook Web App 的内部部署 Skype](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
 |通过 Outlook 安排和加入联机会议  <br/> ||
@@ -71,13 +72,13 @@ ms.locfileid: "30210619"
 |会议委派  <br/> |只有当两个用户联机驻留在相同林中或者驻留在内部部署中时才支持。 有关详细信息，请参阅[业务混合解决方案的 Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)。 <br/> |
 |错过的对话历史记录和呼叫日志写入到用户的 Exchange 邮箱  <br/> ||
 |在 Exchang 中存档内容（IM 和会议）  <br/> |有关详细信息，请参阅[存档的部署清单](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx)。  <br/> |
-|搜索存档内容  <br/> |有关详细信息，请参阅[针对 SharePoint 电子数据展示中心配置 Exchange](https://go.microsoft.com/fwlink/p/?LinkId=285448) <br/> |
+|搜索存档内容  <br/> |有关详细信息，请参阅在[配置 Exchange for SharePoint 电子数据展示中心](https://go.microsoft.com/fwlink/p/?LinkId=285448) <br/> |
 |语音邮件  <br/> |有关详细信息，请参阅[提供 Lync Server 2013 用户语音邮件在 Hosted Exchange UM](https://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)。  <br/> |
 
  **Skype 业务在线和本地 Exchange**
 
 
-|**功能**|**说明**|
+|**功能**|**备注**|
 |:-----|:-----|
 |Outlook 中的状态  <br/> ||
 |通过 IM 响应、PSTN 呼叫、Skype 通话或从 Outlook 电子邮件进行视频通话  <br/> ||
@@ -94,7 +95,7 @@ ms.locfileid: "30210619"
  **Skype for Business Online 和 Exchange Online**
 
 
-|**功能**|**说明**|
+|**功能**|**备注**|
 |:-----|:-----|
 |Outlook 中的 IM/状态  <br/> ||
 |通过 Outlook 安排和加入联机会议  <br/> ||

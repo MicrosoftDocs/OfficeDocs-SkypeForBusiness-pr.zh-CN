@@ -1,5 +1,6 @@
 ---
 title: SessionCorrelation 表
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,22 +10,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
-description: SessionCorrelation 表是支持表。 每个记录都表示一个都会用来关联多个会话。
-ms.openlocfilehash: 8a9c9661b10548bf3ebf402aa4654fced2ca709b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: SessionCorrelation 表是一个支持表。 每条记录代表一个 CorrelationID 用于关联多个会话。
+ms.openlocfilehash: 8c41ab5c52c6b4d06a3c3953e8d969488680e8d3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884661"
 ---
 # <a name="sessioncorrelation-table"></a>SessionCorrelation 表
  
-SessionCorrelation 表是支持表。 每个记录都表示一个都会用来关联多个会话。 
+SessionCorrelation 表是一个支持表。 每条记录代表一个 CorrelationID 用于关联多个会话。 
   
 |**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**校验和** <br/> |int  <br/> |||
-|**CorrelationKey** <br/> |int  <br/> |Primary  <br/> |唯一编号标识此 A / V 会议服务器。  <br/> |
-|**都会** <br/> |nvarchar(256)  <br/> |唯一  <br/> |相关联的会话都将拥有相同的相关 id。  <br/> |
+|**CorrelationKey** <br/> |int  <br/> |Primary  <br/> |唯一编号标识该 A / V 会议服务器。  <br/> |
+|**CorrelationID** <br/> |nvarchar(256)  <br/> |唯一  <br/> |关联的会话将具有同一关联 id。  <br/> |
 |**NextUpdateTS** <br/> |datetime  <br/> | <br/> |仅供内部使用。  <br/> |
    
 

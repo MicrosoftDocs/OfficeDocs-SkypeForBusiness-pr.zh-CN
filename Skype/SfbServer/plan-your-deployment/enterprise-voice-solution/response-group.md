@@ -1,5 +1,6 @@
 ---
 title: 规划 Business Server Skype 中的响应组应用程序
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: 规划业务 Server 企业语音的 Skype 响应组，这样可使您可以设置呼叫路由到用户组。 包括音频文件要求。
-ms.openlocfilehash: a5dcf77d2c5c87bf2f3bfa3156795b050591eee5
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 68a693715739d58488e134934416790641dd091e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885583"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894400"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>规划 Business Server Skype 中的响应组应用程序
 
@@ -101,7 +102,7 @@ Skype 业务服务器，在两个管理角色是可用于管理响应组： 响�
     > 此端口用于 Match Making 服务，在具有多个前端服务器的池中部署响应组应用程序时需要。
 
    > [!NOTE]
-   > 这些端口是您可以使用**集 CsApplicationServer** cmdlet 更改的默认设置。 有关此 cmdlet 的详细信息，请参阅 Business Server Management Shell 文档 Skype。
+   > 这些端口是默认设置，您可以使用 **Set-CsApplicationServer** cmdlet 更改。 有关此 cmdlet 的详细信息，请参阅 Business Server Management Shell 文档 Skype。
 
 ### <a name="audio-file-requirements"></a>音频文件要求
 
@@ -134,7 +135,7 @@ Windows Media 音频文件格式要求前端服务器上运行 Windows Server 20
 响应组配置工具支持的操作系统和 web 浏览器下表中所述的组合。
 
 > [!NOTE]
-> 支持 32 位或 64 位版本的操作系统。仅支持 32 位版本的 Internet Explorer。
+> 支持 32 位或 64 位版本的操作系统。 仅支持 32 位版本的 Internet Explorer。
 
 **支持的操作系统和 Web 浏览器**
 

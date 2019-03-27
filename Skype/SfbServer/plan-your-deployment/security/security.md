@@ -1,5 +1,6 @@
 ---
 title: Skype 的业务 Server 中的安全性规划
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cbc800db-35f6-45c0-b9f6-d8cee0c7e922
 description: Skype 业务服务器安全内容。
-ms.openlocfilehash: 92207917ae14984339d6a25839df2b8f2b53ff41
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ab6a32f6ff4699e258537377c6645dcaece5549e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006809"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895878"
 ---
 # <a name="plan-for-security-in-skype-for-business-server"></a>Skype 的业务 Server 中的安全性规划 
  
@@ -29,7 +30,7 @@ Skype 业务服务器安全内容。
     
 - [Skype 业务服务器中的重大安全功能](key-security.md)
     
-- [现代日常计算中的常见安全威胁](common-threats.md)
+- [在现代天计算的常见安全威胁](common-threats.md)
     
 - [Skype 业务服务器的安全框架](security-framework.md)
     

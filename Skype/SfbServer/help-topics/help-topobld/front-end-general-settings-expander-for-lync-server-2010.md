@@ -1,5 +1,6 @@
 ---
-title: Lync Server 2010 的前端常规设置扩展器
+title: 适合于 Lync Server 2010 的前端常规设置扩展器
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 您可以通过编辑或配置以下属性编辑前端服务器或前端池的属性。 配置页可分为以下几节：
-ms.openlocfilehash: 3af82a83afe27ce06a3c41f881154c2850cad521
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 34f026b6e802bb83c550d2a81e5630a64765e27d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374200"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897414"
 ---
-# <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 的前端常规设置扩展器
+# <a name="front-end-general-settings-expander-for-lync-server-2010"></a>适合于 Lync Server 2010 的前端常规设置扩展器
 
 您可以通过编辑或配置以下属性编辑前端服务器或前端池的属性。 配置页可分为以下几节：
 

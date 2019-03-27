@@ -1,5 +1,6 @@
 ---
 title: 为 Skype for Business Server 语音邮件配置 Exchange Server 统一消息
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 摘要： 配置 Exchange Server 统一消息的 Skype Business Server 语音邮件。
-ms.openlocfilehash: 03511671e0535e07dbc10e50b427364c3502a674
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 60f9398b7a35ad211ede22ee0e0e7f9689bbc8d7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059192"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887898"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>为 Skype for Business Server 语音邮件配置 Exchange Server 统一消息
  

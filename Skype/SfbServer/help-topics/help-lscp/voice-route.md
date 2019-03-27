@@ -1,5 +1,6 @@
 ---
 title: 语音路由
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec043088-722b-4739-a460-3b07864cf5ea
-description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 90fcc979fbf765649cf65fdd029c3aa5422750d1
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+ms.openlocfilehash: 55dcd362af88218ed2ca01dc9adead27267178c6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245745"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896391"
 ---
 # <a name="voice-route"></a>语音路由
 
-您希望执行什么操作？单击您要执行的任务所对应的链接。
+您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 
 - [在 Skype for Business 2015 中创建或修改语音路由](../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 

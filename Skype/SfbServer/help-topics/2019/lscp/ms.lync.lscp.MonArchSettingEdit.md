@@ -1,5 +1,6 @@
 ---
 title: 存档配置创建新的或编辑现有的
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用存档配置可控制用于部署的存档选项。存档配置包括全局配置以及可选的一个或多个站点和池配置：
-ms.openlocfilehash: 1e85367566618638da8e8c9a826c56eecad6b029
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9c48387c18919b4713c57232ee21f5bf5b22adbe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974806"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896061"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>存档配置：创建新的或编辑现有的
  
@@ -37,7 +38,7 @@ ms.locfileid: "20974806"
     
   - **全局配置**默认名称为 Global。 例如，Contoso 北美机构。
     
-  - **网站配置**该列表包含在部署中可用的站点。 单击某个站点将其选中。 例如，Redmond 数据中心。
+  - **网站配置**该列表包含在部署中可用的站点。 单击某个站点即可将其选中。 例如，Redmond 数据中心。
     
   - **池配置**指定合适的名称，可以是一个特定的前端池或 Standard Edition Server 部署中的名称。 例如，市场营销部门。
     

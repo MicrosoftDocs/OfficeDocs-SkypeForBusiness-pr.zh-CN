@@ -1,5 +1,6 @@
 ---
 title: 选择创建者
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: 创建和管理的持久聊天聊天室类别的正确使用与要容易得多。 持久聊天管理员可以为每个类别定义 AllowedMembers 和 Creators 和还可以定义默认聊天室设置和将应用于所有聊天室的类别中创建的行为。 持久聊天管理员创建和使用 Skype 业务 Server Control Panel 或 Windows PowerShell cmdlet 管理类别。
-ms.openlocfilehash: 11c0f0f0d186a63c3bbb66410227f945ec0c992c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 85c9a2be4e2afcd28823bc656f18c733594b44b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261390"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896398"
 ---
 # <a name="select-creators"></a>选择创建者
 
@@ -27,9 +28,9 @@ ms.locfileid: "23261390"
 
 您可以在“**选择创建者**”页上执行以下任务：
 
-- [配置类别](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
+- [Configure Categories](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
 
-- [持久聊天服务器的新增功能](https://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
+- [New Persistent Chat Server Features](https://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
 
 有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
 
@@ -43,7 +44,7 @@ ms.locfileid: "23261390"
 
 ## <a name="see-also"></a>另请参阅
 
-[了解持久聊天成员身份](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
+[Understanding Persistent Chat Membership](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
 
 [使用类别管理持久聊天服务器](https://technet.microsoft.com/library/dfcb3ad1-da90-467e-b08c-f4e68673b7b5.aspx)
 

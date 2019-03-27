@@ -1,5 +1,6 @@
 ---
 title: ProgressReport 视图
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,30 +10,31 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
-description: ProgressReport 视图存储有关已完成的会话信息。 进度报告将仅对呼叫和 Lync Server 2013 确定可用于诊断目的的会话写入。 在 Microsoft Lync Server 2013 引入了此视图。
-ms.openlocfilehash: 7dab41202eb098e2e49e5d4960b0c7b4e4c6570d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: ProgressReport 视图存储有关已完成会话的信息。 仅对呼叫和 Lync Server 2013 确定用于进行诊断下可能有用的会话将写入进度报告。 此视图是在 Microsoft Lync Server 2013 中引入的。
+ms.openlocfilehash: 5f7cbba2580b83a65dbce00588f3c567317f4df4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891115"
 ---
 # <a name="progressreport-view"></a>ProgressReport 视图
  
-ProgressReport 视图存储有关已完成的会话信息。 进度报告将仅对呼叫和 Lync Server 2013 确定可用于诊断目的的会话写入。 在 Microsoft Lync Server 2013 引入了此视图。
+ProgressReport 视图存储有关已完成会话的信息。 仅对呼叫和 Lync Server 2013 确定用于进行诊断下可能有用的会话将写入进度报告。 此视图是在 Microsoft Lync Server 2013 中引入的。
   
 > [!NOTE]
-> ErrorTime、 ErrorReportSeq 和 ProgressReportSeq 字段一定不请而对错误消息，以表明通话或邮件的状态。 
+> ErrorTime、 ErrorReportSeq 和 ProgressReportSeq 字段不一定引用，而对错误消息，以表明的呼叫或消息状态。 
   
 |**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
-|**ErrorTime** <br/> |datetime  <br/> |发生错误的时间。 与 ErrorReportSeq 配合使用，以唯一地标识错误。  <br/> |
-|**ErrorReportSeq** <br/> |int  <br/> |若要确定错误的 ID 号。 与 ErrorTime 配合使用，以唯一地标识错误。  <br/> |
-|**ProgressReportSeq** <br/> |int  <br/> |ID 来标识进度报表。 用于区分同一错误报告的进度报告。  <br/> |
-|**MsDiagId** <br/> |int  <br/> |有关错误报告的诊断 ID。  <br/> |
-|**来源** <br/> |nvarchar(256)  <br/> |（如果报表的服务器组件发送） 发出了错误的服务器的名称。  <br/> |
-|**应用程序** <br/> |nvarchar(256)  <br/> |（如果报表的服务器组件发送） 发出了错误的应用程序的名称。  <br/> |
-|**TelemetryId** <br/> |唯一标识符  <br/> |将在会议中所涉及的不同部分的加入时间信息关联起来的唯一标识符。  <br/> |
+|**ErrorTime** <br/> |datetime  <br/> |发生的错误的时间。 与 ErrorReportSeq 结合使用，来唯一地标识错误。  <br/> |
+|**ErrorReportSeq** <br/> |int  <br/> |若要确定错误的 ID 号。 与 ErrorTime 结合使用，来唯一地标识错误。  <br/> |
+|**ProgressReportSeq** <br/> |int  <br/> |若要确定进度报告的 ID。 用于区分相同的错误报告的进度报告。  <br/> |
+|**MsDiagId** <br/> |int  <br/> |错误报告的诊断 ID。  <br/> |
+|**来源** <br/> |nvarchar(256)  <br/> |产生错误 （如果报告发送自服务器组件） 的服务器的名称。  <br/> |
+|**应用程序** <br/> |nvarchar(256)  <br/> |产生错误 （如果报告发送自服务器组件） 的应用程序的名称。  <br/> |
+|**TelemetryId** <br/> |唯一标识符  <br/> |关联会议中所涉及的不同组件的加入时间信息的唯一标识符。  <br/> |
 |**SessionSetupTime** <br/> |int  <br/> |时间 （以毫秒为单位） 所需的特定组件加入会议。  <br/> |
-|**MsDiagHeader** <br/> |varchar(max)  <br/> |其他错误的信息。  <br/> |
+|**MsDiagHeader** <br/> |varchar(max)  <br/> |其他错误信息。  <br/> |
    
 

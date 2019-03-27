@@ -1,5 +1,6 @@
 ---
 title: Skype 业务服务器的前端服务器 VoIP 组件
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: 了解业务服务器，包括翻译服务和各个路由组件位于 Skype 在前端服务器的企业语音组件。
-ms.openlocfilehash: 5b99ea77d31f1697b0809c4089c801b2df729a29
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: caeec86f4b4a965570773ee4bc51a4e752e76e46
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888895"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892799"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Skype 业务服务器的前端服务器 VoIP 组件
 
@@ -66,7 +67,7 @@ Exchange UM 路由组件还会处理重新路由的语音邮件通过 PSTN 如�
 
 若要启用语音邮件重新路由，建议您的 Exchange 管理员配置 Exchange UM 自动助理 (AA) 仅接受消息。
 
-有关这些功能的详细信息，请参阅[On-premises Exchange Unified Messaging Integration](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)和[Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)，分别。
+有关这些功能的详细信息，请分别参阅 [On-Premises Exchange Unified Messaging Integration](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx) 和 [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)。
 
 ## <a name="intercluster-routing-component"></a>群集间路由组件
 

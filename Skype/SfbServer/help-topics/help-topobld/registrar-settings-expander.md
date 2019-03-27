@@ -1,5 +1,6 @@
 ---
 title: 注册器设置扩展器
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 description: 恢复能力提供高可用性和灾难恢复的注册器池。 通过提供发生故障的主注册器，备份注册器可以接管失败的注册器，为备份注册器允许用户登录并进行通信。 用户可能可以体验缩减的功能，具体取决于其系统已失败的主注册器。
-ms.openlocfilehash: 9aa72170b157045f8adf28bc2be08b115ae40c5b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: afe640a5560c11f90381875aa67f5fe25c70044c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21015709"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881097"
 ---
 # <a name="registrar-settings-expander"></a>注册器设置扩展器
  

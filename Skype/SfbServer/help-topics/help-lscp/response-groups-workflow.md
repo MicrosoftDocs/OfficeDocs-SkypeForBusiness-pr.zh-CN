@@ -1,5 +1,6 @@
 ---
 title: 响应组工作流
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: 响应组组成代理组、 队列和工作流。 响应组工作流定义响应组应用程序接收电话呼叫时执行的操作。
-ms.openlocfilehash: c2b57fd156689b5804e2705d79c515ffe52498b6
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a86b269b59c04c2f954bc212fa437ebc6e387b4b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258282"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896527"
 ---
 # <a name="response-groups-workflow"></a>响应组工作流
 
