@@ -1,5 +1,6 @@
 ---
 title: 部署向导统一通信 API
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,15 +13,15 @@ localization_priority: Normal
 ms.assetid: 0eb47fc9-17fe-4ccf-b7c9-1a2cf95f943c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 有关使用部署向导安装业务服务器的 Skype 的详细信息，请参阅业务服务器安装 Skype。
-ms.openlocfilehash: 5900c5e7d329dffc9a65e30512636f2b7556ce32
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0724e407aa7df17b878537da42fc49ef542144bf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006711"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875352"
 ---
-# <a name="deployment-wizard-unified-communications-api"></a><span data-ttu-id="d7d58-103">部署向导：统一通信 API</span><span class="sxs-lookup"><span data-stu-id="d7d58-103">Deployment Wizard: Unified Communications API</span></span>
+# <a name="deployment-wizard-unified-communications-api"></a><span data-ttu-id="850bb-103">部署向导：统一通信 API</span><span class="sxs-lookup"><span data-stu-id="850bb-103">Deployment Wizard: Unified Communications API</span></span>
  
-<span data-ttu-id="d7d58-104">有关使用部署向导安装 Skype 业务服务器的详细信息，请参阅[业务服务器安装 Skype](../../../deploy/install/install.md)。</span><span class="sxs-lookup"><span data-stu-id="d7d58-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="850bb-104">有关使用部署向导安装 Skype 业务服务器的详细信息，请参阅[业务服务器安装 Skype](../../../deploy/install/install.md)。</span><span class="sxs-lookup"><span data-stu-id="850bb-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 
