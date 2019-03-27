@@ -1,5 +1,6 @@
 ---
 title: 配置观察程序节点测试用户和设置
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,295 +12,295 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 摘要： 配置测试用户帐户和业务服务器综合事务的 Skype 的观察程序节点设置。
-ms.openlocfilehash: 257814108a276d049ed4ac9173fde6dfa4473ff2
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 121e07d8bee20bef1b8fd4b06e51cf0313c018d0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789389"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895214"
 ---
-# <a name="configure-watcher-node-test-users-and-settings"></a><span data-ttu-id="f2d45-103">配置观察程序节点测试用户和设置</span><span class="sxs-lookup"><span data-stu-id="f2d45-103">Configure watcher node test users and settings</span></span>
+# <a name="configure-watcher-node-test-users-and-settings"></a><span data-ttu-id="ad61b-103">配置观察程序节点测试用户和设置</span><span class="sxs-lookup"><span data-stu-id="ad61b-103">Configure watcher node test users and settings</span></span>
  
-<span data-ttu-id="f2d45-104">**摘要：** 配置测试用户帐户和业务服务器综合事务的 Skype 的观察程序节点设置。</span><span class="sxs-lookup"><span data-stu-id="f2d45-104">**Summary:** Configure test user accounts and watcher node settings for Skype for Business Server synthetic transactions.</span></span>
+<span data-ttu-id="ad61b-104">**摘要：** 配置测试用户帐户和业务服务器综合事务的 Skype 的观察程序节点设置。</span><span class="sxs-lookup"><span data-stu-id="ad61b-104">**Summary:** Configure test user accounts and watcher node settings for Skype for Business Server synthetic transactions.</span></span>
   
-<span data-ttu-id="f2d45-105">配置将充当观察程序节点计算机之后，您必须：</span><span class="sxs-lookup"><span data-stu-id="f2d45-105">After configuring the computer that will act as a watcher node, you must:</span></span>
+<span data-ttu-id="ad61b-105">配置将充当观察程序节点计算机之后，您必须：</span><span class="sxs-lookup"><span data-stu-id="ad61b-105">After configuring the computer that will act as a watcher node, you must:</span></span>
   
-1. <span data-ttu-id="f2d45-106">[配置测试用户帐户](test-users-and-settings.md#testuser)，使用这些观察程序节点。</span><span class="sxs-lookup"><span data-stu-id="f2d45-106">[Configure Test User Accounts](test-users-and-settings.md#testuser) to be used by these watcher nodes.</span></span> <span data-ttu-id="f2d45-107">如果您使用的协商身份验证方法，您还必须使用**Set-cstestusercredential** cmdlet 来启用这些测试观察程序节点上使用的帐户。</span><span class="sxs-lookup"><span data-stu-id="f2d45-107">If you are using the Negotiate authentication method, you must also use the **Set-CsTestUserCredential** cmdlet to enable these test accounts for use on the watcher node.</span></span>
+1. <span data-ttu-id="ad61b-106">[配置测试用户帐户](test-users-and-settings.md#testuser)，使用这些观察程序节点。</span><span class="sxs-lookup"><span data-stu-id="ad61b-106">[Configure Test User Accounts](test-users-and-settings.md#testuser) to be used by these watcher nodes.</span></span> <span data-ttu-id="ad61b-107">如果您使用的协商身份验证方法，您还必须使用**Set-cstestusercredential** cmdlet 来启用这些测试观察程序节点上使用的帐户。</span><span class="sxs-lookup"><span data-stu-id="ad61b-107">If you are using the Negotiate authentication method, you must also use the **Set-CsTestUserCredential** cmdlet to enable these test accounts for use on the watcher node.</span></span>
     
-2. <span data-ttu-id="f2d45-108">更新观察程序节点配置设置。</span><span class="sxs-lookup"><span data-stu-id="f2d45-108">Update the watcher node configuration settings.</span></span>
+2. <span data-ttu-id="ad61b-108">更新观察程序节点配置设置。</span><span class="sxs-lookup"><span data-stu-id="ad61b-108">Update the watcher node configuration settings.</span></span>
     
-## <a name="configure-test-user-accounts"></a><span data-ttu-id="f2d45-109">配置测试用户帐户</span><span class="sxs-lookup"><span data-stu-id="f2d45-109">Configure Test User Accounts</span></span>
-<span data-ttu-id="f2d45-110"><a name="testuser"> </a></span><span class="sxs-lookup"><span data-stu-id="f2d45-110"></span></span>
+## <a name="configure-test-user-accounts"></a><span data-ttu-id="ad61b-109">配置测试用户帐户</span><span class="sxs-lookup"><span data-stu-id="ad61b-109">Configure Test User Accounts</span></span>
+<span data-ttu-id="ad61b-110"><a name="testuser"> </a></span><span class="sxs-lookup"><span data-stu-id="ad61b-110"></span></span>
 
-<span data-ttu-id="f2d45-111">测试帐户不需要表示实际的人员，但他们必须是有效的 Active Directory 帐户。</span><span class="sxs-lookup"><span data-stu-id="f2d45-111">Test accounts do not need to represent actual people, but they must be valid Active Directory accounts.</span></span> <span data-ttu-id="f2d45-112">此外，这些帐户必须为 Business Server 启用的 Skype、 它们必须具有有效的 SIP 地址和它们应启用企业语音 （以便使用 Test-cspstnpeertopeercall 综合事务）。</span><span class="sxs-lookup"><span data-stu-id="f2d45-112">In addition, these accounts must be enabled for Skype for Business Server, they must have valid SIP addresses, and they should be enabled for Enterprise Voice (to use the Test-CsPstnPeerToPeerCall synthetic transaction).</span></span> 
+<span data-ttu-id="ad61b-111">测试帐户不需要表示实际的人员，但他们必须是有效的 Active Directory 帐户。</span><span class="sxs-lookup"><span data-stu-id="ad61b-111">Test accounts do not need to represent actual people, but they must be valid Active Directory accounts.</span></span> <span data-ttu-id="ad61b-112">此外，这些帐户必须为 Business Server 启用的 Skype、 它们必须具有有效的 SIP 地址和它们应启用企业语音 （以便使用 Test-cspstnpeertopeercall 综合事务）。</span><span class="sxs-lookup"><span data-stu-id="ad61b-112">In addition, these accounts must be enabled for Skype for Business Server, they must have valid SIP addresses, and they should be enabled for Enterprise Voice (to use the Test-CsPstnPeerToPeerCall synthetic transaction).</span></span> 
   
-<span data-ttu-id="f2d45-113">如果您使用的 TrustedServer 身份验证方法，您需要执行所有是确保这些帐户存在，并将其如前所述配置。</span><span class="sxs-lookup"><span data-stu-id="f2d45-113">If you are using the TrustedServer authentication method, all you need to do is to make sure that these accounts exist and configure them as noted.</span></span> <span data-ttu-id="f2d45-114">为每个要测试的池的至少两个测试用户，您应将其分配。</span><span class="sxs-lookup"><span data-stu-id="f2d45-114">You should assign at least two test users for each pool that you want to test.</span></span> <span data-ttu-id="f2d45-115">如果您使用的协商身份验证方法，您还必须使用 Set-cstestusercredential cmdlet 和业务 Server 命令行管理程序启用这些 Skype 测试帐户的综合事务处理。</span><span class="sxs-lookup"><span data-stu-id="f2d45-115">If you are using the Negotiate authentication method, you must also use the Set-CsTestUserCredential cmdlet and the Skype for Business Server Management Shell to enable these test accounts to work with the synthetic transactions.</span></span> <span data-ttu-id="f2d45-116">执行此操作通过运行类似以下 （这些命令假定已创建了两个 Active Directory 用户帐户并为业务服务器的 Skype 启用这些帐户） 的命令：</span><span class="sxs-lookup"><span data-stu-id="f2d45-116">Do this by running a command similar to the following (these commands assume that the two Active Directory user accounts have been created and that these accounts are enabled for Skype for Business Server):</span></span>
+<span data-ttu-id="ad61b-113">如果您使用的 TrustedServer 身份验证方法，您需要执行所有是确保这些帐户存在，并将其如前所述配置。</span><span class="sxs-lookup"><span data-stu-id="ad61b-113">If you are using the TrustedServer authentication method, all you need to do is to make sure that these accounts exist and configure them as noted.</span></span> <span data-ttu-id="ad61b-114">为每个要测试的池的至少两个测试用户，您应将其分配。</span><span class="sxs-lookup"><span data-stu-id="ad61b-114">You should assign at least two test users for each pool that you want to test.</span></span> <span data-ttu-id="ad61b-115">如果您使用的协商身份验证方法，您还必须使用 Set-cstestusercredential cmdlet 和业务 Server 命令行管理程序启用这些 Skype 测试帐户的综合事务处理。</span><span class="sxs-lookup"><span data-stu-id="ad61b-115">If you are using the Negotiate authentication method, you must also use the Set-CsTestUserCredential cmdlet and the Skype for Business Server Management Shell to enable these test accounts to work with the synthetic transactions.</span></span> <span data-ttu-id="ad61b-116">执行此操作通过运行类似以下 （这些命令假定已创建了两个 Active Directory 用户帐户并为业务服务器的 Skype 启用这些帐户） 的命令：</span><span class="sxs-lookup"><span data-stu-id="ad61b-116">Do this by running a command similar to the following (these commands assume that the two Active Directory user accounts have been created and that these accounts are enabled for Skype for Business Server):</span></span>
   
 ```
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
 Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
 ```
 
-<span data-ttu-id="f2d45-117">您必须包括不仅的 SIP 地址，但还用户名和密码。</span><span class="sxs-lookup"><span data-stu-id="f2d45-117">You must include not only the SIP address, but also the user name and password.</span></span> <span data-ttu-id="f2d45-118">如果不包括密码，Set-cstestusercredential cmdlet 将提示您输入的信息。</span><span class="sxs-lookup"><span data-stu-id="f2d45-118">If you do not include the password, the Set-CsTestUserCredential cmdlet will prompt you to enter that information.</span></span> <span data-ttu-id="f2d45-119">可以通过使用前面的代码块中所示的域 name\user 名称格式指定的用户的用户名。</span><span class="sxs-lookup"><span data-stu-id="f2d45-119">The user name can be specified by using the domain name\user name format shown in the preceding code block.</span></span>
+<span data-ttu-id="ad61b-117">您必须包括不仅的 SIP 地址，但还用户名和密码。</span><span class="sxs-lookup"><span data-stu-id="ad61b-117">You must include not only the SIP address, but also the user name and password.</span></span> <span data-ttu-id="ad61b-118">如果不包括密码，Set-cstestusercredential cmdlet 将提示您输入的信息。</span><span class="sxs-lookup"><span data-stu-id="ad61b-118">If you do not include the password, the Set-CsTestUserCredential cmdlet will prompt you to enter that information.</span></span> <span data-ttu-id="ad61b-119">可以通过使用前面的代码块中所示的域 name\user 名称格式指定的用户的用户名。</span><span class="sxs-lookup"><span data-stu-id="ad61b-119">The user name can be specified by using the domain name\user name format shown in the preceding code block.</span></span>
   
-<span data-ttu-id="f2d45-120">若要验证已创建的测试用户凭据，请从 Skype 的业务 Server 命令行管理程序运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="f2d45-120">To verify that the test user credentials were created, run these commands from the Skype for Business Server Management Shell:</span></span>
+<span data-ttu-id="ad61b-120">若要验证已创建的测试用户凭据，请从 Skype 的业务 Server 命令行管理程序运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="ad61b-120">To verify that the test user credentials were created, run these commands from the Skype for Business Server Management Shell:</span></span>
   
 ```
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
 ```
 
-<span data-ttu-id="f2d45-121">为每个用户，将返回类似于以下的信息：</span><span class="sxs-lookup"><span data-stu-id="f2d45-121">Information similar to this will be returned for each user:</span></span>
+<span data-ttu-id="ad61b-121">为每个用户，将返回类似于以下的信息：</span><span class="sxs-lookup"><span data-stu-id="ad61b-121">Information similar to this will be returned for each user:</span></span>
   
-|<span data-ttu-id="f2d45-122">**用户名**</span><span class="sxs-lookup"><span data-stu-id="f2d45-122">**UserName**</span></span>|<span data-ttu-id="f2d45-123">**密码**</span><span class="sxs-lookup"><span data-stu-id="f2d45-123">**Password**</span></span>|
+|<span data-ttu-id="ad61b-122">**用户名**</span><span class="sxs-lookup"><span data-stu-id="ad61b-122">**UserName**</span></span>|<span data-ttu-id="ad61b-123">**密码**</span><span class="sxs-lookup"><span data-stu-id="ad61b-123">**Password**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="f2d45-124">Litwareinc\watcher1</span><span class="sxs-lookup"><span data-stu-id="f2d45-124">Litwareinc\watcher1</span></span>  <br/> |<span data-ttu-id="f2d45-125">System.Security.SecureString</span><span class="sxs-lookup"><span data-stu-id="f2d45-125">System.Security.SecureString</span></span>  <br/> |
+|<span data-ttu-id="ad61b-124">Litwareinc\watcher1</span><span class="sxs-lookup"><span data-stu-id="ad61b-124">Litwareinc\watcher1</span></span>  <br/> |<span data-ttu-id="ad61b-125">System.Security.SecureString</span><span class="sxs-lookup"><span data-stu-id="ad61b-125">System.Security.SecureString</span></span>  <br/> |
    
-### <a name="configure-a-basic-watcher-node-with-the-default-synthetic-transactions"></a><span data-ttu-id="f2d45-126">使用默认综合事务配置基本观察程序节点</span><span class="sxs-lookup"><span data-stu-id="f2d45-126">Configure a Basic Watcher Node with the Default Synthetic Transactions</span></span>
+### <a name="configure-a-basic-watcher-node-with-the-default-synthetic-transactions"></a><span data-ttu-id="ad61b-126">使用默认综合事务配置基本观察程序节点</span><span class="sxs-lookup"><span data-stu-id="ad61b-126">Configure a Basic Watcher Node with the Default Synthetic Transactions</span></span>
 
-<span data-ttu-id="f2d45-127">创建测试用户之后，您可以使用类似如下的命令创建观察程序节点：</span><span class="sxs-lookup"><span data-stu-id="f2d45-127">After the test users have been created, you can create a watcher node by using a command similar to this:</span></span>
+<span data-ttu-id="ad61b-127">创建测试用户之后，您可以使用类似如下的命令创建观察程序节点：</span><span class="sxs-lookup"><span data-stu-id="ad61b-127">After the test users have been created, you can create a watcher node by using a command similar to this:</span></span>
   
 ```
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
-<span data-ttu-id="f2d45-128">此命令创建一个新的观察程序节点的使用默认设置并在运行综合事务的默认设置。</span><span class="sxs-lookup"><span data-stu-id="f2d45-128">This command creates a new watcher node that uses the default settings and runs the default set of synthetic transactions.</span></span> <span data-ttu-id="f2d45-129">新的观察程序节点还使用的测试用户 watcher1@litwareinc.com 和 watcher2@litwareinc.com。</span><span class="sxs-lookup"><span data-stu-id="f2d45-129">The new watcher node also uses the test users watcher1@litwareinc.com, and watcher2@litwareinc.com.</span></span> <span data-ttu-id="f2d45-130">如果观察程序节点使用 TrustedServer 身份验证，两个测试帐户可以是任何有效的用户帐户启用 Active Directory 和 Skype 业务 Server。</span><span class="sxs-lookup"><span data-stu-id="f2d45-130">If the watcher node uses TrustedServer authentication, the two test accounts can be any valid user accounts enabled for Active Directory and Skype for Business Server.</span></span> <span data-ttu-id="f2d45-131">如果观察程序节点使用的协商身份验证方法，这些用户帐户必须也启用观察程序节点使用 Set-cstestusercredential cmdlet。</span><span class="sxs-lookup"><span data-stu-id="f2d45-131">If the watcher node uses the Negotiate authentication method, these user accounts must also be enabled for the watcher node by using the Set-CsTestUserCredential cmdlet.</span></span>
+<span data-ttu-id="ad61b-128">此命令创建一个新的观察程序节点的使用默认设置并在运行综合事务的默认设置。</span><span class="sxs-lookup"><span data-stu-id="ad61b-128">This command creates a new watcher node that uses the default settings and runs the default set of synthetic transactions.</span></span> <span data-ttu-id="ad61b-129">新的观察程序节点还使用的测试用户 watcher1@litwareinc.com 和 watcher2@litwareinc.com。</span><span class="sxs-lookup"><span data-stu-id="ad61b-129">The new watcher node also uses the test users watcher1@litwareinc.com, and watcher2@litwareinc.com.</span></span> <span data-ttu-id="ad61b-130">如果观察程序节点使用 TrustedServer 身份验证，两个测试帐户可以是任何有效的用户帐户启用 Active Directory 和 Skype 业务 Server。</span><span class="sxs-lookup"><span data-stu-id="ad61b-130">If the watcher node uses TrustedServer authentication, the two test accounts can be any valid user accounts enabled for Active Directory and Skype for Business Server.</span></span> <span data-ttu-id="ad61b-131">如果观察程序节点使用的协商身份验证方法，这些用户帐户必须也启用观察程序节点使用 Set-cstestusercredential cmdlet。</span><span class="sxs-lookup"><span data-stu-id="ad61b-131">If the watcher node uses the Negotiate authentication method, these user accounts must also be enabled for the watcher node by using the Set-CsTestUserCredential cmdlet.</span></span>
   
-<span data-ttu-id="f2d45-132">若要验证目标的自动发现登录的池已正确配置，而不是直接目标池改为使用以下步骤：</span><span class="sxs-lookup"><span data-stu-id="f2d45-132">To validate that automatic discovery of target pool to sign-in is configured correctly rather than targeting a pool directly use these steps instead:</span></span>
+<span data-ttu-id="ad61b-132">若要验证目标的自动发现登录的池已正确配置，而不是直接目标池改为使用以下步骤：</span><span class="sxs-lookup"><span data-stu-id="ad61b-132">To validate that automatic discovery of target pool to sign-in is configured correctly rather than targeting a pool directly use these steps instead:</span></span>
   
 ```
 New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
-### <a name="configuring-extended-tests"></a><span data-ttu-id="f2d45-133">配置扩展的测试</span><span class="sxs-lookup"><span data-stu-id="f2d45-133">Configuring Extended Tests</span></span>
+### <a name="configuring-extended-tests"></a><span data-ttu-id="ad61b-133">配置扩展的测试</span><span class="sxs-lookup"><span data-stu-id="ad61b-133">Configuring Extended Tests</span></span>
 
-<span data-ttu-id="f2d45-134">如果您想要启用 PSTN 测试，验证与公用电话交换网的连接，您需要执行其他一些配置设置的观察程序节点时。</span><span class="sxs-lookup"><span data-stu-id="f2d45-134">If you want to enable the PSTN test, which verifies connectivity with the public switched telephone network, you need to do some additional configuration when setting up the watcher node.</span></span> <span data-ttu-id="f2d45-135">首先，必须通过运行 Business Server 命令行管理程序从 Skype 类似于以下命令将测试用户与 PSTN 测试类型关联：</span><span class="sxs-lookup"><span data-stu-id="f2d45-135">First, you must associate your test users with the PSTN test type by running a command similar to this from the Skype for Business Server Management Shell:</span></span>
+<span data-ttu-id="ad61b-134">如果您想要启用 PSTN 测试，验证与公用电话交换网的连接，您需要执行其他一些配置设置的观察程序节点时。</span><span class="sxs-lookup"><span data-stu-id="ad61b-134">If you want to enable the PSTN test, which verifies connectivity with the public switched telephone network, you need to do some additional configuration when setting up the watcher node.</span></span> <span data-ttu-id="ad61b-135">首先，必须通过运行 Business Server 命令行管理程序从 Skype 类似于以下命令将测试用户与 PSTN 测试类型关联：</span><span class="sxs-lookup"><span data-stu-id="ad61b-135">First, you must associate your test users with the PSTN test type by running a command similar to this from the Skype for Business Server Management Shell:</span></span>
   
 ```
 $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com" -Name "Contoso Provider Test" -TestType PSTN
 ```
 
 > [!NOTE]
-> <span data-ttu-id="f2d45-136">此命令的结果必须存储在变量中。</span><span class="sxs-lookup"><span data-stu-id="f2d45-136">The results of this command must be stored in a variable.</span></span> <span data-ttu-id="f2d45-137">本示例中，该变量名为 $pstnTest。</span><span class="sxs-lookup"><span data-stu-id="f2d45-137">In this example, the variable is named $pstnTest.</span></span> 
+> <span data-ttu-id="ad61b-136">此命令的结果必须存储在变量中。</span><span class="sxs-lookup"><span data-stu-id="ad61b-136">The results of this command must be stored in a variable.</span></span> <span data-ttu-id="ad61b-137">本示例中，该变量名为 $pstnTest。</span><span class="sxs-lookup"><span data-stu-id="ad61b-137">In this example, the variable is named $pstnTest.</span></span> 
   
-<span data-ttu-id="f2d45-138">接下来，您可以使用**New-cswatchernodeconfiguration** cmdlet 将业务服务器池 Skype 的测试类型 （存储在变量 $pstnTest） 相关联。</span><span class="sxs-lookup"><span data-stu-id="f2d45-138">Next, you can use the **New-CsWatcherNodeConfiguration** cmdlet to associate the test type (stored in the variable $pstnTest) to a Skype for Business Server pool.</span></span> <span data-ttu-id="f2d45-139">例如，以下命令创建新观察程序节点配置的池 atl-cs-001.litwareinc.com，添加两个测试用户之前，创建和添加 PSTN 测试类型：</span><span class="sxs-lookup"><span data-stu-id="f2d45-139">For example, the following command creates a new watcher node configuration for the pool atl-cs-001.litwareinc.com, adding the two test users created previously, and adding the PSTN test type:</span></span>
+<span data-ttu-id="ad61b-138">接下来，您可以使用**New-cswatchernodeconfiguration** cmdlet 将业务服务器池 Skype 的测试类型 （存储在变量 $pstnTest） 相关联。</span><span class="sxs-lookup"><span data-stu-id="ad61b-138">Next, you can use the **New-CsWatcherNodeConfiguration** cmdlet to associate the test type (stored in the variable $pstnTest) to a Skype for Business Server pool.</span></span> <span data-ttu-id="ad61b-139">例如，以下命令创建新观察程序节点配置的池 atl-cs-001.litwareinc.com，添加两个测试用户之前，创建和添加 PSTN 测试类型：</span><span class="sxs-lookup"><span data-stu-id="ad61b-139">For example, the following command creates a new watcher node configuration for the pool atl-cs-001.litwareinc.com, adding the two test users created previously, and adding the PSTN test type:</span></span>
   
 ```
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
 ```
 
-<span data-ttu-id="f2d45-140">如果您尚未安装 Skype 业务 Server 核心文件和 RTCLocal 数据库在观察程序节点计算机上，上述命令将失败。</span><span class="sxs-lookup"><span data-stu-id="f2d45-140">The preceding command will fail if you have not installed the Skype for Business Server core files and the RTCLocal database on the watcher node computer.</span></span> 
+<span data-ttu-id="ad61b-140">如果您尚未安装 Skype 业务 Server 核心文件和 RTCLocal 数据库在观察程序节点计算机上，上述命令将失败。</span><span class="sxs-lookup"><span data-stu-id="ad61b-140">The preceding command will fail if you have not installed the Skype for Business Server core files and the RTCLocal database on the watcher node computer.</span></span> 
   
-<span data-ttu-id="f2d45-141">若要测试多个语音策略，可以使用**New-csextendedtest** cmdlet 创建每个策略扩展的的测试。</span><span class="sxs-lookup"><span data-stu-id="f2d45-141">To test multiple voice policies, you can create an extended test for each policy by using the **New-CsExtendedTest** cmdlet.</span></span> <span data-ttu-id="f2d45-142">应与所需的语音策略配置提供的用户。</span><span class="sxs-lookup"><span data-stu-id="f2d45-142">The users provided should be configured with the desired voice policies.</span></span> <span data-ttu-id="f2d45-143">扩展的测试传递到**New-cswatchernodeconfiguration** cmdlet 通过使用逗号分隔的分隔符，如：</span><span class="sxs-lookup"><span data-stu-id="f2d45-143">The extended tests are passed to the **New-CsWatcherNodeConfiguration** cmdlet by using comma-delimiters, such as:</span></span>
+<span data-ttu-id="ad61b-141">若要测试多个语音策略，可以使用**New-csextendedtest** cmdlet 创建每个策略扩展的的测试。</span><span class="sxs-lookup"><span data-stu-id="ad61b-141">To test multiple voice policies, you can create an extended test for each policy by using the **New-CsExtendedTest** cmdlet.</span></span> <span data-ttu-id="ad61b-142">应与所需的语音策略配置提供的用户。</span><span class="sxs-lookup"><span data-stu-id="ad61b-142">The users provided should be configured with the desired voice policies.</span></span> <span data-ttu-id="ad61b-143">扩展的测试传递到**New-cswatchernodeconfiguration** cmdlet 通过使用逗号分隔的分隔符，如：</span><span class="sxs-lookup"><span data-stu-id="ad61b-143">The extended tests are passed to the **New-CsWatcherNodeConfiguration** cmdlet by using comma-delimiters, such as:</span></span>
   
-<span data-ttu-id="f2d45-144">-ExtendedTests @{添加 = $pstnTest1$ pstnTest2、 $pstnTest3}</span><span class="sxs-lookup"><span data-stu-id="f2d45-144">-ExtendedTests @{Add=$pstnTest1,$pstnTest2,$pstnTest3}</span></span>
+<span data-ttu-id="ad61b-144">-ExtendedTests @{添加 = $pstnTest1$ pstnTest2、 $pstnTest3}</span><span class="sxs-lookup"><span data-stu-id="ad61b-144">-ExtendedTests @{Add=$pstnTest1,$pstnTest2,$pstnTest3}</span></span>
   
-<span data-ttu-id="f2d45-145">由于无需使用 Tests 参数调用**New-cswatchernodeconfiguration** cmdlet，将为新观察程序节点启用仅默认综合事务 （和指定的扩展综合事务）。</span><span class="sxs-lookup"><span data-stu-id="f2d45-145">Because the **New-CsWatcherNodeConfiguration** cmdlet was called without using the Tests parameter, only the Default synthetic transactions (and the specified extended synthetic transaction) will be enabled for the new watcher node.</span></span> <span data-ttu-id="f2d45-146">因此，观察程序节点将测试以下组件：</span><span class="sxs-lookup"><span data-stu-id="f2d45-146">Therefore, the watcher node will test the following components:</span></span>
+<span data-ttu-id="ad61b-145">由于无需使用 Tests 参数调用**New-cswatchernodeconfiguration** cmdlet，将为新观察程序节点启用仅默认综合事务 （和指定的扩展综合事务）。</span><span class="sxs-lookup"><span data-stu-id="ad61b-145">Because the **New-CsWatcherNodeConfiguration** cmdlet was called without using the Tests parameter, only the Default synthetic transactions (and the specified extended synthetic transaction) will be enabled for the new watcher node.</span></span> <span data-ttu-id="ad61b-146">因此，观察程序节点将测试以下组件：</span><span class="sxs-lookup"><span data-stu-id="ad61b-146">Therefore, the watcher node will test the following components:</span></span>
   
-- <span data-ttu-id="f2d45-147">注册</span><span class="sxs-lookup"><span data-stu-id="f2d45-147">Registration</span></span>
+- <span data-ttu-id="ad61b-147">注册</span><span class="sxs-lookup"><span data-stu-id="ad61b-147">Registration</span></span>
     
-- <span data-ttu-id="f2d45-148">即时消息</span><span class="sxs-lookup"><span data-stu-id="f2d45-148">IM</span></span>
+- <span data-ttu-id="ad61b-148">即时消息</span><span class="sxs-lookup"><span data-stu-id="ad61b-148">IM</span></span>
     
-- <span data-ttu-id="f2d45-149">GroupIM</span><span class="sxs-lookup"><span data-stu-id="f2d45-149">GroupIM</span></span>
+- <span data-ttu-id="ad61b-149">GroupIM</span><span class="sxs-lookup"><span data-stu-id="ad61b-149">GroupIM</span></span>
     
-- <span data-ttu-id="f2d45-150">P2PAV （对等音频/视频会话）</span><span class="sxs-lookup"><span data-stu-id="f2d45-150">P2PAV (peer-to-peer audio/video sessions)</span></span>
+- <span data-ttu-id="ad61b-150">P2PAV （对等音频/视频会话）</span><span class="sxs-lookup"><span data-stu-id="ad61b-150">P2PAV (peer-to-peer audio/video sessions)</span></span>
     
-- <span data-ttu-id="f2d45-151">AvConference （音频/会议）</span><span class="sxs-lookup"><span data-stu-id="f2d45-151">AvConference (audio/conferencing)</span></span>
+- <span data-ttu-id="ad61b-151">AvConference （音频/会议）</span><span class="sxs-lookup"><span data-stu-id="ad61b-151">AvConference (audio/conferencing)</span></span>
     
-- <span data-ttu-id="f2d45-152">状态</span><span class="sxs-lookup"><span data-stu-id="f2d45-152">Presence</span></span>
+- <span data-ttu-id="ad61b-152">状态</span><span class="sxs-lookup"><span data-stu-id="ad61b-152">Presence</span></span>
     
-- <span data-ttu-id="f2d45-153">ABS （通讯簿服务）</span><span class="sxs-lookup"><span data-stu-id="f2d45-153">ABS (Address Book service)</span></span>
+- <span data-ttu-id="ad61b-153">ABS （通讯簿服务）</span><span class="sxs-lookup"><span data-stu-id="ad61b-153">ABS (Address Book service)</span></span>
     
-- <span data-ttu-id="f2d45-154">ABWQ （通讯簿 web 服务）</span><span class="sxs-lookup"><span data-stu-id="f2d45-154">ABWQ (Address Book web service)</span></span>
+- <span data-ttu-id="ad61b-154">ABWQ （通讯簿 web 服务）</span><span class="sxs-lookup"><span data-stu-id="ad61b-154">ABWQ (Address Book web service)</span></span>
     
-<span data-ttu-id="f2d45-155">默认情况下不会测试以下组件：</span><span class="sxs-lookup"><span data-stu-id="f2d45-155">The following components will not be tested by default:</span></span>
+<span data-ttu-id="ad61b-155">默认情况下不会测试以下组件：</span><span class="sxs-lookup"><span data-stu-id="ad61b-155">The following components will not be tested by default:</span></span>
   
-- <span data-ttu-id="f2d45-156">ASConference</span><span class="sxs-lookup"><span data-stu-id="f2d45-156">ASConference</span></span>
+- <span data-ttu-id="ad61b-156">ASConference</span><span class="sxs-lookup"><span data-stu-id="ad61b-156">ASConference</span></span>
     
-- <span data-ttu-id="f2d45-157">AVEdgeConnectivity</span><span class="sxs-lookup"><span data-stu-id="f2d45-157">AVEdgeConnectivity</span></span>
+- <span data-ttu-id="ad61b-157">AVEdgeConnectivity</span><span class="sxs-lookup"><span data-stu-id="ad61b-157">AVEdgeConnectivity</span></span>
     
-- <span data-ttu-id="f2d45-158">DataConference</span><span class="sxs-lookup"><span data-stu-id="f2d45-158">DataConference</span></span>
+- <span data-ttu-id="ad61b-158">DataConference</span><span class="sxs-lookup"><span data-stu-id="ad61b-158">DataConference</span></span>
     
-- <span data-ttu-id="f2d45-159">DialinConferencing</span><span class="sxs-lookup"><span data-stu-id="f2d45-159">DialinConferencing</span></span>
+- <span data-ttu-id="ad61b-159">DialinConferencing</span><span class="sxs-lookup"><span data-stu-id="ad61b-159">DialinConferencing</span></span>
     
-- <span data-ttu-id="f2d45-160">ExumConnectivity （Exchange 统一消息）</span><span class="sxs-lookup"><span data-stu-id="f2d45-160">ExumConnectivity (Exchange Unified Messaging)</span></span>
+- <span data-ttu-id="ad61b-160">ExumConnectivity （Exchange 统一消息）</span><span class="sxs-lookup"><span data-stu-id="ad61b-160">ExumConnectivity (Exchange Unified Messaging)</span></span>
     
-- <span data-ttu-id="f2d45-161">JoinLauncher</span><span class="sxs-lookup"><span data-stu-id="f2d45-161">JoinLauncher</span></span>
+- <span data-ttu-id="ad61b-161">JoinLauncher</span><span class="sxs-lookup"><span data-stu-id="ad61b-161">JoinLauncher</span></span>
     
-- <span data-ttu-id="f2d45-162">MCXP2PIM （旧的移动设备即时消息）</span><span class="sxs-lookup"><span data-stu-id="f2d45-162">MCXP2PIM (legacy mobile device instant messaging)</span></span>
+- <span data-ttu-id="ad61b-162">MCXP2PIM （旧的移动设备即时消息）</span><span class="sxs-lookup"><span data-stu-id="ad61b-162">MCXP2PIM (legacy mobile device instant messaging)</span></span>
     
-- <span data-ttu-id="f2d45-163">P2PVideoInteropServerSipTrunkAV</span><span class="sxs-lookup"><span data-stu-id="f2d45-163">P2PVideoInteropServerSipTrunkAV</span></span>
+- <span data-ttu-id="ad61b-163">P2PVideoInteropServerSipTrunkAV</span><span class="sxs-lookup"><span data-stu-id="ad61b-163">P2PVideoInteropServerSipTrunkAV</span></span>
     
-- <span data-ttu-id="f2d45-164">PersistentChatMessage</span><span class="sxs-lookup"><span data-stu-id="f2d45-164">PersistentChatMessage</span></span>
+- <span data-ttu-id="ad61b-164">PersistentChatMessage</span><span class="sxs-lookup"><span data-stu-id="ad61b-164">PersistentChatMessage</span></span>
     
-- <span data-ttu-id="f2d45-165">PSTN （PSTN 网关呼叫，作为扩展测试指定）</span><span class="sxs-lookup"><span data-stu-id="f2d45-165">PSTN (PSTN gateway calls, specified as an extended test)</span></span>
+- <span data-ttu-id="ad61b-165">PSTN （PSTN 网关呼叫，作为扩展测试指定）</span><span class="sxs-lookup"><span data-stu-id="ad61b-165">PSTN (PSTN gateway calls, specified as an extended test)</span></span>
     
-- <span data-ttu-id="f2d45-166">UcwaConference</span><span class="sxs-lookup"><span data-stu-id="f2d45-166">UcwaConference</span></span>
+- <span data-ttu-id="ad61b-166">UcwaConference</span><span class="sxs-lookup"><span data-stu-id="ad61b-166">UcwaConference</span></span>
     
-- <span data-ttu-id="f2d45-167">UnifiedContactStore</span><span class="sxs-lookup"><span data-stu-id="f2d45-167">UnifiedContactStore</span></span>
+- <span data-ttu-id="ad61b-167">UnifiedContactStore</span><span class="sxs-lookup"><span data-stu-id="ad61b-167">UnifiedContactStore</span></span>
     
-- <span data-ttu-id="f2d45-168">XmppIM</span><span class="sxs-lookup"><span data-stu-id="f2d45-168">XmppIM</span></span>
+- <span data-ttu-id="ad61b-168">XmppIM</span><span class="sxs-lookup"><span data-stu-id="ad61b-168">XmppIM</span></span>
     
-### <a name="adding-and-removing-synthetic-transactions"></a><span data-ttu-id="f2d45-169">添加和删除综合事务</span><span class="sxs-lookup"><span data-stu-id="f2d45-169">Adding and Removing Synthetic Transactions</span></span>
+### <a name="adding-and-removing-synthetic-transactions"></a><span data-ttu-id="ad61b-169">添加和删除综合事务</span><span class="sxs-lookup"><span data-stu-id="ad61b-169">Adding and Removing Synthetic Transactions</span></span>
 
-<span data-ttu-id="f2d45-170">在配置观察程序节点之后，您可以使用 Set-cswatchernodeconfiguration cmdlet 添加或删除节点的综合事务。</span><span class="sxs-lookup"><span data-stu-id="f2d45-170">After a watcher node has been configured, you can use the Set-CsWatcherNodeConfiguration cmdlet to add or remove synthetic transactions from the node.</span></span> <span data-ttu-id="f2d45-171">例如，若要添加到观察程序节点 PersistentChatMessage 测试，使用 Add 方法和类似于以下命令：</span><span class="sxs-lookup"><span data-stu-id="f2d45-171">For example, to add the PersistentChatMessage test to the watcher node, use the Add method and a command similar to this:</span></span>
+<span data-ttu-id="ad61b-170">在配置观察程序节点之后，您可以使用 Set-cswatchernodeconfiguration cmdlet 添加或删除节点的综合事务。</span><span class="sxs-lookup"><span data-stu-id="ad61b-170">After a watcher node has been configured, you can use the Set-CsWatcherNodeConfiguration cmdlet to add or remove synthetic transactions from the node.</span></span> <span data-ttu-id="ad61b-171">例如，若要添加到观察程序节点 PersistentChatMessage 测试，使用 Add 方法和类似于以下命令：</span><span class="sxs-lookup"><span data-stu-id="ad61b-171">For example, to add the PersistentChatMessage test to the watcher node, use the Add method and a command similar to this:</span></span>
   
 ```
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage"}
 ```
 
-<span data-ttu-id="f2d45-172">通过使用逗号分隔的测试名称可以添加多个测试。</span><span class="sxs-lookup"><span data-stu-id="f2d45-172">Multiple tests can be added by separating the test names by using commas.</span></span> <span data-ttu-id="f2d45-173">例如：</span><span class="sxs-lookup"><span data-stu-id="f2d45-173">For example:</span></span>
+<span data-ttu-id="ad61b-172">通过使用逗号分隔的测试名称可以添加多个测试。</span><span class="sxs-lookup"><span data-stu-id="ad61b-172">Multiple tests can be added by separating the test names by using commas.</span></span> <span data-ttu-id="ad61b-173">例如：</span><span class="sxs-lookup"><span data-stu-id="ad61b-173">For example:</span></span>
   
 ```
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
 ```
 
-<span data-ttu-id="f2d45-174">如果一个或多个这些测试 (例如，DataConference) 已启用观察程序节点上，将发生错误。</span><span class="sxs-lookup"><span data-stu-id="f2d45-174">An error will occur if one or more of these tests (for example, DataConference) has already been enabled on the watcher node.</span></span> <span data-ttu-id="f2d45-175">在这种情况下，您会收到类似于以下错误消息：</span><span class="sxs-lookup"><span data-stu-id="f2d45-175">In this case, you will receive an error message similar to the following:</span></span>
+<span data-ttu-id="ad61b-174">如果一个或多个这些测试 (例如，DataConference) 已启用观察程序节点上，将发生错误。</span><span class="sxs-lookup"><span data-stu-id="ad61b-174">An error will occur if one or more of these tests (for example, DataConference) has already been enabled on the watcher node.</span></span> <span data-ttu-id="ad61b-175">在这种情况下，您会收到类似于以下错误消息：</span><span class="sxs-lookup"><span data-stu-id="ad61b-175">In this case, you will receive an error message similar to the following:</span></span>
   
-<span data-ttu-id="f2d45-176">Set-cswatchernodeconfiguration： 没有重复的键序列 DataConference' 'urn:schema:Microsoft.Rtc.Management.Settings.WatcherNode.2010:TestName 键或唯一标识约束。</span><span class="sxs-lookup"><span data-stu-id="f2d45-176">Set-CsWatcherNodeConfiguration : There is a duplicate key sequence 'DataConference' for the 'urn:schema:Microsoft.Rtc.Management.Settings.WatcherNode.2010:TestName' key or unique identity constraint.</span></span>
+<span data-ttu-id="ad61b-176">Set-cswatchernodeconfiguration： 没有重复的键序列 DataConference' 'urn:schema:Microsoft.Rtc.Management.Settings.WatcherNode.2010:TestName 键或唯一标识约束。</span><span class="sxs-lookup"><span data-stu-id="ad61b-176">Set-CsWatcherNodeConfiguration : There is a duplicate key sequence 'DataConference' for the 'urn:schema:Microsoft.Rtc.Management.Settings.WatcherNode.2010:TestName' key or unique identity constraint.</span></span>
   
-<span data-ttu-id="f2d45-177">发生此错误时，将不应用任何更改。</span><span class="sxs-lookup"><span data-stu-id="f2d45-177">When this error occurs, no changes will be applied.</span></span> <span data-ttu-id="f2d45-178">应与重复测试删除重新运行该命令。</span><span class="sxs-lookup"><span data-stu-id="f2d45-178">The command should be re-run with the duplicate test removed.</span></span>
+<span data-ttu-id="ad61b-177">发生此错误时，将不应用任何更改。</span><span class="sxs-lookup"><span data-stu-id="ad61b-177">When this error occurs, no changes will be applied.</span></span> <span data-ttu-id="ad61b-178">应与重复测试删除重新运行该命令。</span><span class="sxs-lookup"><span data-stu-id="ad61b-178">The command should be re-run with the duplicate test removed.</span></span>
   
-<span data-ttu-id="f2d45-179">若要从观察程序节点删除综合事务，请使用 Remove 方法。</span><span class="sxs-lookup"><span data-stu-id="f2d45-179">To remove a synthetic transaction from a watcher node, use the Remove method.</span></span> <span data-ttu-id="f2d45-180">例如，此命令会删除 ABWQ 测试从观察程序节点：</span><span class="sxs-lookup"><span data-stu-id="f2d45-180">For example, this command removes the ABWQ test from a watcher node:</span></span>
+<span data-ttu-id="ad61b-179">若要从观察程序节点删除综合事务，请使用 Remove 方法。</span><span class="sxs-lookup"><span data-stu-id="ad61b-179">To remove a synthetic transaction from a watcher node, use the Remove method.</span></span> <span data-ttu-id="ad61b-180">例如，此命令会删除 ABWQ 测试从观察程序节点：</span><span class="sxs-lookup"><span data-stu-id="ad61b-180">For example, this command removes the ABWQ test from a watcher node:</span></span>
   
 ```
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Remove="ABWQ"}
 ```
 
-<span data-ttu-id="f2d45-181">您可以使用 Replace 方法替换所有当前已启用的测试与一个或更多新测试。</span><span class="sxs-lookup"><span data-stu-id="f2d45-181">You can use the Replace method to replace all the currently-enabled tests with one or more new tests.</span></span> <span data-ttu-id="f2d45-182">例如，如果您希望仅来运行该 IM 测试观察程序节点，您可以配置的使用以下命令：</span><span class="sxs-lookup"><span data-stu-id="f2d45-182">For example, if you want a watcher node only to run the IM test, you can configure that by using this command:</span></span>
+<span data-ttu-id="ad61b-181">您可以使用 Replace 方法替换所有当前已启用的测试与一个或更多新测试。</span><span class="sxs-lookup"><span data-stu-id="ad61b-181">You can use the Replace method to replace all the currently-enabled tests with one or more new tests.</span></span> <span data-ttu-id="ad61b-182">例如，如果您希望仅来运行该 IM 测试观察程序节点，您可以配置的使用以下命令：</span><span class="sxs-lookup"><span data-stu-id="ad61b-182">For example, if you want a watcher node only to run the IM test, you can configure that by using this command:</span></span>
   
 ```
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Replace="IM"}
 ```
 
-<span data-ttu-id="f2d45-183">运行此命令时，除了 IM 以外，将禁用指定观察程序节点上的所有综合事务。</span><span class="sxs-lookup"><span data-stu-id="f2d45-183">When you run this command, all synthetic transactions on the specified watcher node will be disabled except for IM.</span></span>
+<span data-ttu-id="ad61b-183">运行此命令时，除了 IM 以外，将禁用指定观察程序节点上的所有综合事务。</span><span class="sxs-lookup"><span data-stu-id="ad61b-183">When you run this command, all synthetic transactions on the specified watcher node will be disabled except for IM.</span></span>
   
-### <a name="viewing-and-testing-the-watcher-node-configuration"></a><span data-ttu-id="f2d45-184">查看和测试观察程序节点配置</span><span class="sxs-lookup"><span data-stu-id="f2d45-184">Viewing and Testing the Watcher Node Configuration</span></span>
+### <a name="viewing-and-testing-the-watcher-node-configuration"></a><span data-ttu-id="ad61b-184">查看和测试观察程序节点配置</span><span class="sxs-lookup"><span data-stu-id="ad61b-184">Viewing and Testing the Watcher Node Configuration</span></span>
 
-<span data-ttu-id="f2d45-185">如果您想要查看已分配给观察程序节点测试，使用类似如下的命令：</span><span class="sxs-lookup"><span data-stu-id="f2d45-185">If you want to view the tests that have been assigned to a watcher node, use a command similar to this:</span></span>
+<span data-ttu-id="ad61b-185">如果您想要查看已分配给观察程序节点测试，使用类似如下的命令：</span><span class="sxs-lookup"><span data-stu-id="ad61b-185">If you want to view the tests that have been assigned to a watcher node, use a command similar to this:</span></span>
   
 ```
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests
 ```
 
-<span data-ttu-id="f2d45-186">此命令将返回信息类似于以下，具体取决于已分配给节点的综合事务：</span><span class="sxs-lookup"><span data-stu-id="f2d45-186">This command will return information similar to this, depending on the synthetic transactions that have been assigned to the node:</span></span>
+<span data-ttu-id="ad61b-186">此命令将返回信息类似于以下，具体取决于已分配给节点的综合事务：</span><span class="sxs-lookup"><span data-stu-id="ad61b-186">This command will return information similar to this, depending on the synthetic transactions that have been assigned to the node:</span></span>
   
-<span data-ttu-id="f2d45-187">注册 IM GroupIM P2PAV AvConference 状态 PersistentChatMessage DataConference</span><span class="sxs-lookup"><span data-stu-id="f2d45-187">Registration IM GroupIM P2PAV AvConference Presence PersistentChatMessage DataConference</span></span>
+<span data-ttu-id="ad61b-187">注册 IM GroupIM P2PAV AvConference 状态 PersistentChatMessage DataConference</span><span class="sxs-lookup"><span data-stu-id="ad61b-187">Registration IM GroupIM P2PAV AvConference Presence PersistentChatMessage DataConference</span></span>
 > [!TIP]
-> <span data-ttu-id="f2d45-188">若要按字母顺序查看综合事务，请改为使用以下命令：</span><span class="sxs-lookup"><span data-stu-id="f2d45-188">To view the synthetic transactions in alphabetical order, use this command instead:</span></span> 
+> <span data-ttu-id="ad61b-188">若要按字母顺序查看综合事务，请改为使用以下命令：</span><span class="sxs-lookup"><span data-stu-id="ad61b-188">To view the synthetic transactions in alphabetical order, use this command instead:</span></span> 
   
 ```
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests | Sort-Object
 ```
 
-<span data-ttu-id="f2d45-189">若要验证已创建观察程序节点，键入业务 Server 命令行管理程序从 Skype 以下命令：</span><span class="sxs-lookup"><span data-stu-id="f2d45-189">To verify that a watcher node has been created, type the following command from the Skype for Business Server Management Shell:</span></span>
+<span data-ttu-id="ad61b-189">若要验证已创建观察程序节点，键入业务 Server 命令行管理程序从 Skype 以下命令：</span><span class="sxs-lookup"><span data-stu-id="ad61b-189">To verify that a watcher node has been created, type the following command from the Skype for Business Server Management Shell:</span></span>
   
 ```
 Get-CsWatcherNodeConfiguration
 ```
 
-<span data-ttu-id="f2d45-190">您将获得信息类似如下：</span><span class="sxs-lookup"><span data-stu-id="f2d45-190">You will get back information similar to this:</span></span>
+<span data-ttu-id="ad61b-190">您将获得信息类似如下：</span><span class="sxs-lookup"><span data-stu-id="ad61b-190">You will get back information similar to this:</span></span>
   
-<span data-ttu-id="f2d45-191">标识： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="f2d45-191">Identity : atl-cs-001.litwareinc.com</span></span> <br/>
-<span data-ttu-id="f2d45-192">TestUsers: {sip:watcher1@litwareinc.com，sip:watcher2@litwareinc.com...}</span><span class="sxs-lookup"><span data-stu-id="f2d45-192">TestUsers : {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com ...}</span></span><br/>
-<span data-ttu-id="f2d45-193">ExtendedTests: {TestUsers = IList < System.String >;名称 = PSTN 测试;Te...}</span><span class="sxs-lookup"><span data-stu-id="f2d45-193">ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...}</span></span><br/>
-<span data-ttu-id="f2d45-194">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="f2d45-194">TargetFqdn : atl-cs-001.litwareinc.com</span></span><br/>
-<span data-ttu-id="f2d45-195">端口号： 5061</span><span class="sxs-lookup"><span data-stu-id="f2d45-195">PortNumber : 5061</span></span><br/>
+<span data-ttu-id="ad61b-191">标识： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="ad61b-191">Identity : atl-cs-001.litwareinc.com</span></span> <br/>
+<span data-ttu-id="ad61b-192">TestUsers: {sip:watcher1@litwareinc.com，sip:watcher2@litwareinc.com...}</span><span class="sxs-lookup"><span data-stu-id="ad61b-192">TestUsers : {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com ...}</span></span><br/>
+<span data-ttu-id="ad61b-193">ExtendedTests: {TestUsers=IList<System.String>;名称 = PSTN 测试;Te...}</span><span class="sxs-lookup"><span data-stu-id="ad61b-193">ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...}</span></span><br/>
+<span data-ttu-id="ad61b-194">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="ad61b-194">TargetFqdn : atl-cs-001.litwareinc.com</span></span><br/>
+<span data-ttu-id="ad61b-195">端口号： 5061</span><span class="sxs-lookup"><span data-stu-id="ad61b-195">PortNumber : 5061</span></span><br/>
 
-<span data-ttu-id="f2d45-196">若要验证已正确配置观察程序节点，键入业务 Server 命令行管理程序从 Skype 以下命令：</span><span class="sxs-lookup"><span data-stu-id="f2d45-196">To verify that the watcher node has been configured correctly, type the following command from the Skype for Business Server Management Shell:</span></span>
+<span data-ttu-id="ad61b-196">若要验证已正确配置观察程序节点，键入业务 Server 命令行管理程序从 Skype 以下命令：</span><span class="sxs-lookup"><span data-stu-id="ad61b-196">To verify that the watcher node has been configured correctly, type the following command from the Skype for Business Server Management Shell:</span></span>
   
 ```
 Test-CsWatcherNodeConfiguration
 ```
 
-<span data-ttu-id="f2d45-197">此命令将测试您的部署中的每个观察程序节点，并确认是否已完成以下操作：</span><span class="sxs-lookup"><span data-stu-id="f2d45-197">This command will test each watcher node in your deployment and confirm whether the following actions are completed:</span></span>
+<span data-ttu-id="ad61b-197">此命令将测试您的部署中的每个观察程序节点，并确认是否已完成以下操作：</span><span class="sxs-lookup"><span data-stu-id="ad61b-197">This command will test each watcher node in your deployment and confirm whether the following actions are completed:</span></span>
   
-- <span data-ttu-id="f2d45-198">安装所需的注册器角色。</span><span class="sxs-lookup"><span data-stu-id="f2d45-198">The required Registrar role is installed.</span></span>
+- <span data-ttu-id="ad61b-198">安装所需的注册器角色。</span><span class="sxs-lookup"><span data-stu-id="ad61b-198">The required Registrar role is installed.</span></span>
     
-- <span data-ttu-id="f2d45-199">创建必需的注册表项 （完成您运行 Set-cswatchernodeconfiguration cmdlet 时）。</span><span class="sxs-lookup"><span data-stu-id="f2d45-199">The required registry key is created (completed when you ran the Set-CsWatcherNodeConfiguration cmdlet).</span></span>
+- <span data-ttu-id="ad61b-199">创建必需的注册表项 （完成您运行 Set-cswatchernodeconfiguration cmdlet 时）。</span><span class="sxs-lookup"><span data-stu-id="ad61b-199">The required registry key is created (completed when you ran the Set-CsWatcherNodeConfiguration cmdlet).</span></span>
     
-- <span data-ttu-id="f2d45-200">您的服务器的企业服务器运行 Skype 的正确版本。</span><span class="sxs-lookup"><span data-stu-id="f2d45-200">Your servers are running the correct version of Skype for Business Server.</span></span>
+- <span data-ttu-id="ad61b-200">您的服务器的企业服务器运行 Skype 的正确版本。</span><span class="sxs-lookup"><span data-stu-id="ad61b-200">Your servers are running the correct version of Skype for Business Server.</span></span>
     
-- <span data-ttu-id="f2d45-201">您的端口配置正确。</span><span class="sxs-lookup"><span data-stu-id="f2d45-201">Your ports are configured correctly.</span></span>
+- <span data-ttu-id="ad61b-201">您的端口配置正确。</span><span class="sxs-lookup"><span data-stu-id="ad61b-201">Your ports are configured correctly.</span></span>
     
-- <span data-ttu-id="f2d45-202">您已分配的测试用户具有所需的凭据。</span><span class="sxs-lookup"><span data-stu-id="f2d45-202">Your assigned test users have the required credentials.</span></span>
+- <span data-ttu-id="ad61b-202">您已分配的测试用户具有所需的凭据。</span><span class="sxs-lookup"><span data-stu-id="ad61b-202">Your assigned test users have the required credentials.</span></span>
     
-## <a name="managing-watcher-nodes"></a><span data-ttu-id="f2d45-203">管理观察程序节点</span><span class="sxs-lookup"><span data-stu-id="f2d45-203">Managing Watcher Nodes</span></span>
-<span data-ttu-id="f2d45-204"><a name="testuser"> </a></span><span class="sxs-lookup"><span data-stu-id="f2d45-204"></span></span>
+## <a name="managing-watcher-nodes"></a><span data-ttu-id="ad61b-203">管理观察程序节点</span><span class="sxs-lookup"><span data-stu-id="ad61b-203">Managing Watcher Nodes</span></span>
+<span data-ttu-id="ad61b-204"><a name="testuser"> </a></span><span class="sxs-lookup"><span data-stu-id="ad61b-204"></span></span>
 
-<span data-ttu-id="f2d45-205">除了修改执行观察程序节点的综合事务，您可以使用**Set-cswatchernodeconfiguration** cmdlet 执行两个其他重要任务： 启用和禁用观察程序节点，以及配置运行测试时，使用内部 Web Url 或外部 Web Url 的观察程序节点。</span><span class="sxs-lookup"><span data-stu-id="f2d45-205">In addition to modifying the synthetic transactions that are executed on a watcher node, you can also use the **Set-CsWatcherNodeConfiguration** cmdlet to carry out two other important tasks: enabling and disabling the watcher node, and configuring the watcher node to use either internal Web URLs or external Web URLs when running its tests.</span></span>
+<span data-ttu-id="ad61b-205">除了修改执行观察程序节点的综合事务，您可以使用**Set-cswatchernodeconfiguration** cmdlet 执行两个其他重要任务： 启用和禁用观察程序节点，以及配置运行测试时，使用内部 Web Url 或外部 Web Url 的观察程序节点。</span><span class="sxs-lookup"><span data-stu-id="ad61b-205">In addition to modifying the synthetic transactions that are executed on a watcher node, you can also use the **Set-CsWatcherNodeConfiguration** cmdlet to carry out two other important tasks: enabling and disabling the watcher node, and configuring the watcher node to use either internal Web URLs or external Web URLs when running its tests.</span></span>
   
-<span data-ttu-id="f2d45-206">默认情况下，旨在定期运行其所有已启用的综合事务观察程序节点。</span><span class="sxs-lookup"><span data-stu-id="f2d45-206">By default, watcher nodes are designed to periodically run all their enabled synthetic transactions.</span></span> <span data-ttu-id="f2d45-207">有时，但是，您可能想要暂停这些事务。</span><span class="sxs-lookup"><span data-stu-id="f2d45-207">At times, however, you may want to suspend those transactions.</span></span> <span data-ttu-id="f2d45-208">例如，如果从网络上暂时断开观察程序节点，则没有理由运行综合事务。</span><span class="sxs-lookup"><span data-stu-id="f2d45-208">For example, if the watcher node is temporarily disconnected from the network, then there is no reason to run the synthetic transactions.</span></span> <span data-ttu-id="f2d45-209">没有网络连接，这些事务将失败。</span><span class="sxs-lookup"><span data-stu-id="f2d45-209">Without network connectivity, those transactions will fail.</span></span> <span data-ttu-id="f2d45-210">要暂时禁用观察程序节点，请对业务 Server 命令行管理程序运行从 Skype 类似于以下命令：</span><span class="sxs-lookup"><span data-stu-id="f2d45-210">To temporarily disable a watcher node, run a command similar to this from the Skype for Business Server Management Shell:</span></span>
+<span data-ttu-id="ad61b-206">默认情况下，旨在定期运行其所有已启用的综合事务观察程序节点。</span><span class="sxs-lookup"><span data-stu-id="ad61b-206">By default, watcher nodes are designed to periodically run all their enabled synthetic transactions.</span></span> <span data-ttu-id="ad61b-207">有时，但是，您可能想要暂停这些事务。</span><span class="sxs-lookup"><span data-stu-id="ad61b-207">At times, however, you may want to suspend those transactions.</span></span> <span data-ttu-id="ad61b-208">例如，如果从网络上暂时断开观察程序节点，则没有理由运行综合事务。</span><span class="sxs-lookup"><span data-stu-id="ad61b-208">For example, if the watcher node is temporarily disconnected from the network, then there is no reason to run the synthetic transactions.</span></span> <span data-ttu-id="ad61b-209">没有网络连接，这些事务将失败。</span><span class="sxs-lookup"><span data-stu-id="ad61b-209">Without network connectivity, those transactions will fail.</span></span> <span data-ttu-id="ad61b-210">要暂时禁用观察程序节点，请对业务 Server 命令行管理程序运行从 Skype 类似于以下命令：</span><span class="sxs-lookup"><span data-stu-id="ad61b-210">To temporarily disable a watcher node, run a command similar to this from the Skype for Business Server Management Shell:</span></span>
   
 ```
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $False
 ```
 
-<span data-ttu-id="f2d45-211">此命令将禁用综合事务观察程序节点 atl 观察程序 001.litwareinc.com 上的执行。</span><span class="sxs-lookup"><span data-stu-id="f2d45-211">This command will disable the execution of synthetic transactions on the watcher node atl watcher 001.litwareinc.com.</span></span> <span data-ttu-id="f2d45-212">若要继续执行的综合事务，设置 Enabled 属性返回为 True ($True):</span><span class="sxs-lookup"><span data-stu-id="f2d45-212">To resume execution of the synthetic transactions, set the Enabled property back to True ($True):</span></span>
+<span data-ttu-id="ad61b-211">此命令将禁用综合事务观察程序节点 atl 观察程序 001.litwareinc.com 上的执行。</span><span class="sxs-lookup"><span data-stu-id="ad61b-211">This command will disable the execution of synthetic transactions on the watcher node atl watcher 001.litwareinc.com.</span></span> <span data-ttu-id="ad61b-212">若要继续执行的综合事务，设置 Enabled 属性返回为 True ($True):</span><span class="sxs-lookup"><span data-stu-id="ad61b-212">To resume execution of the synthetic transactions, set the Enabled property back to True ($True):</span></span>
   
 ```
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 ```
 
 > [!NOTE]
-> <span data-ttu-id="f2d45-213">Enabled 属性可用于打开或关闭观察程序节点。</span><span class="sxs-lookup"><span data-stu-id="f2d45-213">The Enabled property can be used to turn watcher nodes on or off.</span></span> <span data-ttu-id="f2d45-214">如果您想要永久删除观察程序节点，使用**Remove-cswatchernodeconfiguration** cmdlet:</span><span class="sxs-lookup"><span data-stu-id="f2d45-214">If you want to permanently delete a watcher node, use the **Remove-CsWatcherNodeConfiguration** cmdlet:</span></span>
+> <span data-ttu-id="ad61b-213">Enabled 属性可用于打开或关闭观察程序节点。</span><span class="sxs-lookup"><span data-stu-id="ad61b-213">The Enabled property can be used to turn watcher nodes on or off.</span></span> <span data-ttu-id="ad61b-214">如果您想要永久删除观察程序节点，使用**Remove-cswatchernodeconfiguration** cmdlet:</span><span class="sxs-lookup"><span data-stu-id="ad61b-214">If you want to permanently delete a watcher node, use the **Remove-CsWatcherNodeConfiguration** cmdlet:</span></span>
   
 ```
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
 ```
 
-<span data-ttu-id="f2d45-215">该命令删除指定的计算机，这样可以防止在该计算机自动运行综合事务的所有观察程序节点配置设置。</span><span class="sxs-lookup"><span data-stu-id="f2d45-215">That command removes all the watcher node configuration settings from the specified computer, which prevents that computer from automatically running synthetic transactions.</span></span> <span data-ttu-id="f2d45-216">但是，该命令不会卸载 System Center 代理文件或业务 Server 系统文件 Skype。</span><span class="sxs-lookup"><span data-stu-id="f2d45-216">However, the command does not uninstall the System Center agent files or the Skype for Business Server system files.</span></span>
+<span data-ttu-id="ad61b-215">该命令删除指定的计算机，这样可以防止在该计算机自动运行综合事务的所有观察程序节点配置设置。</span><span class="sxs-lookup"><span data-stu-id="ad61b-215">That command removes all the watcher node configuration settings from the specified computer, which prevents that computer from automatically running synthetic transactions.</span></span> <span data-ttu-id="ad61b-216">但是，该命令不会卸载 System Center 代理文件或业务 Server 系统文件 Skype。</span><span class="sxs-lookup"><span data-stu-id="ad61b-216">However, the command does not uninstall the System Center agent files or the Skype for Business Server system files.</span></span>
   
-<span data-ttu-id="f2d45-217">默认情况下，观察程序节点使用组织的外部 Web Url 时进行测试。</span><span class="sxs-lookup"><span data-stu-id="f2d45-217">By default, watcher nodes use an organization's external Web URLs when conducting tests.</span></span> <span data-ttu-id="f2d45-218">但是，观察程序节点，还可以配置为使用组织的内部 Web Url。</span><span class="sxs-lookup"><span data-stu-id="f2d45-218">However, watcher nodes can also be configured to use the organization's internal Web URLs.</span></span> <span data-ttu-id="f2d45-219">这使管理员可以确认 for 位于外围网络的用户的 URL 访问。</span><span class="sxs-lookup"><span data-stu-id="f2d45-219">This enables administrators to verify URL access for users located inside the perimeter network.</span></span> <span data-ttu-id="f2d45-220">若要配置观察程序节点以使用内部 Url，而不是外部 Url，请将 UseInternalWebURls 属性设置为 True ($True):</span><span class="sxs-lookup"><span data-stu-id="f2d45-220">To configure a watcher node to use internal URLs instead of external URLs, set the UseInternalWebURls property to True ($True):</span></span>
+<span data-ttu-id="ad61b-217">默认情况下，观察程序节点使用组织的外部 Web Url 时进行测试。</span><span class="sxs-lookup"><span data-stu-id="ad61b-217">By default, watcher nodes use an organization's external Web URLs when conducting tests.</span></span> <span data-ttu-id="ad61b-218">但是，观察程序节点，还可以配置为使用组织的内部 Web Url。</span><span class="sxs-lookup"><span data-stu-id="ad61b-218">However, watcher nodes can also be configured to use the organization's internal Web URLs.</span></span> <span data-ttu-id="ad61b-219">这使管理员可以确认 for 位于外围网络的用户的 URL 访问。</span><span class="sxs-lookup"><span data-stu-id="ad61b-219">This enables administrators to verify URL access for users located inside the perimeter network.</span></span> <span data-ttu-id="ad61b-220">若要配置观察程序节点以使用内部 Url，而不是外部 Url，请将 UseInternalWebURls 属性设置为 True ($True):</span><span class="sxs-lookup"><span data-stu-id="ad61b-220">To configure a watcher node to use internal URLs instead of external URLs, set the UseInternalWebURls property to True ($True):</span></span>
   
 ```
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $True
 ```
 
-<span data-ttu-id="f2d45-221">重置为默认值为 false，表示 ($False) 的此属性将导致观察程序再次使用的外部 Url:</span><span class="sxs-lookup"><span data-stu-id="f2d45-221">Resetting this property to the default value of False ($False) will cause the watcher to once again use the external URLs:</span></span>
+<span data-ttu-id="ad61b-221">重置为默认值为 false，表示 ($False) 的此属性将导致观察程序再次使用的外部 Url:</span><span class="sxs-lookup"><span data-stu-id="ad61b-221">Resetting this property to the default value of False ($False) will cause the watcher to once again use the external URLs:</span></span>
   
 ```
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $False
 ```
 
-## <a name="special-setup-instructions-for-synthetic-transactions"></a><span data-ttu-id="f2d45-222">综合事务的特殊设置说明</span><span class="sxs-lookup"><span data-stu-id="f2d45-222">Special Setup Instructions for Synthetic Transactions</span></span>
-<span data-ttu-id="f2d45-223"><a name="special_synthetictrans"> </a></span><span class="sxs-lookup"><span data-stu-id="f2d45-223"></span></span>
+## <a name="special-setup-instructions-for-synthetic-transactions"></a><span data-ttu-id="ad61b-222">综合事务的特殊设置说明</span><span class="sxs-lookup"><span data-stu-id="ad61b-222">Special Setup Instructions for Synthetic Transactions</span></span>
+<span data-ttu-id="ad61b-223"><a name="special_synthetictrans"> </a></span><span class="sxs-lookup"><span data-stu-id="ad61b-223"></span></span>
 
-<span data-ttu-id="f2d45-224">大多数综合事务可以作为观察程序节点上运行的是。</span><span class="sxs-lookup"><span data-stu-id="f2d45-224">Most synthetic transactions can run on a watcher node as-is.</span></span> <span data-ttu-id="f2d45-225">在大多数情况下，只要综合事务将添加到观察程序节点配置设置，观察程序节点可以开始的使用其测试期间的综合事务将传递。</span><span class="sxs-lookup"><span data-stu-id="f2d45-225">In most cases, as soon as the synthetic transaction is added to the watcher node configuration settings, the watcher node can begin using that synthetic transaction during its test passes.</span></span> <span data-ttu-id="f2d45-226">但是，有一些综合事务需要特殊设置说明的以下各节中所述。</span><span class="sxs-lookup"><span data-stu-id="f2d45-226">However, there are some synthetic transactions that require special setup instructions, as discussed in the following sections.</span></span>
+<span data-ttu-id="ad61b-224">大多数综合事务可以作为观察程序节点上运行的是。</span><span class="sxs-lookup"><span data-stu-id="ad61b-224">Most synthetic transactions can run on a watcher node as-is.</span></span> <span data-ttu-id="ad61b-225">在大多数情况下，只要综合事务将添加到观察程序节点配置设置，观察程序节点可以开始的使用其测试期间的综合事务将传递。</span><span class="sxs-lookup"><span data-stu-id="ad61b-225">In most cases, as soon as the synthetic transaction is added to the watcher node configuration settings, the watcher node can begin using that synthetic transaction during its test passes.</span></span> <span data-ttu-id="ad61b-226">但是，有一些综合事务需要特殊设置说明的以下各节中所述。</span><span class="sxs-lookup"><span data-stu-id="ad61b-226">However, there are some synthetic transactions that require special setup instructions, as discussed in the following sections.</span></span>
   
-### <a name="data-conferencing-synthetic-transaction"></a><span data-ttu-id="f2d45-227">数据会议综合事务</span><span class="sxs-lookup"><span data-stu-id="f2d45-227">Data Conferencing Synthetic Transaction</span></span>
+### <a name="data-conferencing-synthetic-transaction"></a><span data-ttu-id="ad61b-227">数据会议综合事务</span><span class="sxs-lookup"><span data-stu-id="ad61b-227">Data Conferencing Synthetic Transaction</span></span>
 
-<span data-ttu-id="f2d45-228">如果您观察程序节点计算机位于外围网络外，您将可能无法运行数据会议综合事务，除非您先禁用网络的 Windows Internet Explorer® Internet 浏览器代理设置通过完成以下步骤的服务帐户：</span><span class="sxs-lookup"><span data-stu-id="f2d45-228">If your watcher node computer is located outside your perimeter network, you will probably not be able to run the Data Conferencing Synthetic Transaction unless you first disable the Windows Internet Explorer® Internet browser proxy settings for the Network Service account by completing the following steps:</span></span>
+<span data-ttu-id="ad61b-228">如果您观察程序节点计算机位于外围网络外，您将可能无法运行数据会议综合事务，除非您先禁用网络的 Windows Internet Explorer® Internet 浏览器代理设置通过完成以下步骤的服务帐户：</span><span class="sxs-lookup"><span data-stu-id="ad61b-228">If your watcher node computer is located outside your perimeter network, you will probably not be able to run the Data Conferencing Synthetic Transaction unless you first disable the Windows Internet Explorer® Internet browser proxy settings for the Network Service account by completing the following steps:</span></span>
   
-1. <span data-ttu-id="f2d45-229">在观察程序节点计算机上，表中，单击**开始**、 单击**所有程序**，都单击**附件**数据，右键都单击**命令提示符处**，，然后都单击**以管理员身份运行**。</span><span class="sxs-lookup"><span data-stu-id="f2d45-229">On the watcher node computer, click **Start**, click **All Programs**, click **Accessories**, right click **Command Prompt**, and then click **Run as administrator**.</span></span>
+1. <span data-ttu-id="ad61b-229">在观察程序节点计算机上，表中，单击**开始**、 单击**所有程序**，都单击**附件**数据，右键都单击**命令提示符处**，，然后都单击**以管理员身份运行**。</span><span class="sxs-lookup"><span data-stu-id="ad61b-229">On the watcher node computer, click **Start**, click **All Programs**, click **Accessories**, right click **Command Prompt**, and then click **Run as administrator**.</span></span>
     
-2. <span data-ttu-id="f2d45-230">在控制台窗口中，键入以下命令，然后按 ENTER。</span><span class="sxs-lookup"><span data-stu-id="f2d45-230">In the console window, type the following command and then press ENTER.</span></span> 
+2. <span data-ttu-id="ad61b-230">在控制台窗口中，键入以下命令，然后按 ENTER。</span><span class="sxs-lookup"><span data-stu-id="ad61b-230">In the console window, type the following command and then press ENTER.</span></span> 
     
 ```
 bitsadmin /util /SetIEProxy NetworkService NO_PROXY
 ```
 
-<span data-ttu-id="f2d45-231">您将看到命令窗口中显示以下消息：</span><span class="sxs-lookup"><span data-stu-id="f2d45-231">You will see the following message displayed in the command window:</span></span>
+<span data-ttu-id="ad61b-231">您将看到命令窗口中显示以下消息：</span><span class="sxs-lookup"><span data-stu-id="ad61b-231">You will see the following message displayed in the command window:</span></span>
   
-<span data-ttu-id="f2d45-232">BITSAdmin 已弃用，不保证在将来版本的 Windows 中不可用。</span><span class="sxs-lookup"><span data-stu-id="f2d45-232">BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows.</span></span> <span data-ttu-id="f2d45-233">现在由位 PowerShell cmdlet 提供 BITS 服务管理工具。</span><span class="sxs-lookup"><span data-stu-id="f2d45-233">Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.</span></span>
+<span data-ttu-id="ad61b-232">BITSAdmin 已弃用，不保证在将来版本的 Windows 中不可用。</span><span class="sxs-lookup"><span data-stu-id="ad61b-232">BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows.</span></span> <span data-ttu-id="ad61b-233">现在由位 PowerShell cmdlet 提供 BITS 服务管理工具。</span><span class="sxs-lookup"><span data-stu-id="ad61b-233">Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.</span></span>
   
-<span data-ttu-id="f2d45-234">Internet NetworkService 帐户的代理设置设置为 NO_PROXY。</span><span class="sxs-lookup"><span data-stu-id="f2d45-234">Internet proxy settings for account NetworkService set to NO_PROXY.</span></span> 
+<span data-ttu-id="ad61b-234">Internet NetworkService 帐户的代理设置设置为 NO_PROXY。</span><span class="sxs-lookup"><span data-stu-id="ad61b-234">Internet proxy settings for account NetworkService set to NO_PROXY.</span></span> 
   
-<span data-ttu-id="f2d45-235">(连接 = 默认值)</span><span class="sxs-lookup"><span data-stu-id="f2d45-235">(connection = default)</span></span>
+<span data-ttu-id="ad61b-235">(连接 = 默认值)</span><span class="sxs-lookup"><span data-stu-id="ad61b-235">(connection = default)</span></span>
   
-<span data-ttu-id="f2d45-236">此消息表明您已禁用网络服务帐户的 Internet Explorer 代理设置。</span><span class="sxs-lookup"><span data-stu-id="f2d45-236">This message indicates that you have disabled the Internet Explorer proxy settings for the Network Service account.</span></span>
+<span data-ttu-id="ad61b-236">此消息表明您已禁用网络服务帐户的 Internet Explorer 代理设置。</span><span class="sxs-lookup"><span data-stu-id="ad61b-236">This message indicates that you have disabled the Internet Explorer proxy settings for the Network Service account.</span></span>
   
-### <a name="exchange-unified-messaging-synthetic-transaction"></a><span data-ttu-id="f2d45-237">Exchange 统一消息综合事务</span><span class="sxs-lookup"><span data-stu-id="f2d45-237">Exchange Unified Messaging Synthetic Transaction</span></span>
+### <a name="exchange-unified-messaging-synthetic-transaction"></a><span data-ttu-id="ad61b-237">Exchange 统一消息综合事务</span><span class="sxs-lookup"><span data-stu-id="ad61b-237">Exchange Unified Messaging Synthetic Transaction</span></span>
 
-<span data-ttu-id="f2d45-238">Exchange 统一消息 (UM) 综合事务验证测试用户可以连接到帐户驻留在 Exchange 中的语音邮件。</span><span class="sxs-lookup"><span data-stu-id="f2d45-238">The Exchange Unified Messaging (UM) synthetic transaction verifies that test users can connect to voicemail accounts homed in Exchange.</span></span>
+<span data-ttu-id="ad61b-238">Exchange 统一消息 (UM) 综合事务验证测试用户可以连接到帐户驻留在 Exchange 中的语音邮件。</span><span class="sxs-lookup"><span data-stu-id="ad61b-238">The Exchange Unified Messaging (UM) synthetic transaction verifies that test users can connect to voicemail accounts homed in Exchange.</span></span>
   
-<span data-ttu-id="f2d45-239">测试用户将需要预配置了语音邮件帐户。</span><span class="sxs-lookup"><span data-stu-id="f2d45-239">The test users will need to be preconfigured with voicemail accounts.</span></span> 
+<span data-ttu-id="ad61b-239">测试用户将需要预配置了语音邮件帐户。</span><span class="sxs-lookup"><span data-stu-id="ad61b-239">The test users will need to be preconfigured with voicemail accounts.</span></span> 
   
-### <a name="persistent-chat-synthetic-transaction"></a><span data-ttu-id="f2d45-240">持久聊天综合事务</span><span class="sxs-lookup"><span data-stu-id="f2d45-240">Persistent Chat Synthetic Transaction</span></span>
+### <a name="persistent-chat-synthetic-transaction"></a><span data-ttu-id="ad61b-240">持久聊天综合事务</span><span class="sxs-lookup"><span data-stu-id="ad61b-240">Persistent Chat Synthetic Transaction</span></span>
 
-<span data-ttu-id="f2d45-241">若要使用持久聊天的综合事务，必须首先创建通道，并授予用户权限以使用它的测试。</span><span class="sxs-lookup"><span data-stu-id="f2d45-241">To use the Persistent Chat synthetic transaction, you must first create a channel and give the test users permissions to use it.</span></span>
+<span data-ttu-id="ad61b-241">若要使用持久聊天的综合事务，必须首先创建通道，并授予用户权限以使用它的测试。</span><span class="sxs-lookup"><span data-stu-id="ad61b-241">To use the Persistent Chat synthetic transaction, you must first create a channel and give the test users permissions to use it.</span></span>
   
-<span data-ttu-id="f2d45-242">您可以使用持久聊天的综合事务配置此通道：</span><span class="sxs-lookup"><span data-stu-id="f2d45-242">You can use the Persistent Chat synthetic transaction to configure this channel:</span></span> 
+<span data-ttu-id="ad61b-242">您可以使用持久聊天的综合事务配置此通道：</span><span class="sxs-lookup"><span data-stu-id="ad61b-242">You can use the Persistent Chat synthetic transaction to configure this channel:</span></span> 
   
 ```
 $cred1 = Get-Credential "contoso\testUser1"
@@ -308,143 +309,143 @@ $cred2 = Get-Credential "contoso\testUser2"
 Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip:testUser1@contoso.com -SenderCredential $cred1 -ReceiverSipAddress sip:testUser2@contoso.com -ReceiverCredential $cred2 -TestUser1SipAddress sip:testUser1@contoso.com -TestUser2SipAddress sip:testUser2@contoso.com -Setup $true
 ```
 
-<span data-ttu-id="f2d45-243">您必须运行此安装程序必须从企业内部运行任务：</span><span class="sxs-lookup"><span data-stu-id="f2d45-243">You must run this setup task must be run from inside the enterprise:</span></span>
+<span data-ttu-id="ad61b-243">您必须运行此安装程序必须从企业内部运行任务：</span><span class="sxs-lookup"><span data-stu-id="ad61b-243">You must run this setup task must be run from inside the enterprise:</span></span>
   
-- <span data-ttu-id="f2d45-244">如果从非服务器计算机运行，执行 cmdlet 的用户必须是基于角色的访问控制 (RBAC) 的 CsPersistentChatAdministrators 角色的成员。</span><span class="sxs-lookup"><span data-stu-id="f2d45-244">If run from a non-server machine, the user who executes the cmdlet must be a member of the CsPersistentChatAdministrators role for Role-Based Access Control (RBAC).</span></span>
+- <span data-ttu-id="ad61b-244">如果从非服务器计算机运行，执行 cmdlet 的用户必须是基于角色的访问控制 (RBAC) 的 CsPersistentChatAdministrators 角色的成员。</span><span class="sxs-lookup"><span data-stu-id="ad61b-244">If run from a non-server machine, the user who executes the cmdlet must be a member of the CsPersistentChatAdministrators role for Role-Based Access Control (RBAC).</span></span>
     
-- <span data-ttu-id="f2d45-245">如果从服务器本身运行，执行 cmdlet 的用户必须是 RTCUniversalServerAdmins 组的成员。</span><span class="sxs-lookup"><span data-stu-id="f2d45-245">If run from the server itself, the user who executes the cmdlet must be a member of the RTCUniversalServerAdmins group.</span></span>
+- <span data-ttu-id="ad61b-245">如果从服务器本身运行，执行 cmdlet 的用户必须是 RTCUniversalServerAdmins 组的成员。</span><span class="sxs-lookup"><span data-stu-id="ad61b-245">If run from the server itself, the user who executes the cmdlet must be a member of the RTCUniversalServerAdmins group.</span></span>
     
-### <a name="pstn-peer-to-peer-call-synthetic-transaction"></a><span data-ttu-id="f2d45-246">PSTN 对等呼叫综合事务</span><span class="sxs-lookup"><span data-stu-id="f2d45-246">PSTN Peer-to-Peer Call Synthetic Transaction</span></span>
+### <a name="pstn-peer-to-peer-call-synthetic-transaction"></a><span data-ttu-id="ad61b-246">PSTN 对等呼叫综合事务</span><span class="sxs-lookup"><span data-stu-id="ad61b-246">PSTN Peer-to-Peer Call Synthetic Transaction</span></span>
 
-<span data-ttu-id="f2d45-247">Test-cspstnpeertopeercall 综合事务验证发起和接收通过公用电话交换网 (PSTN) 呼叫的能力。</span><span class="sxs-lookup"><span data-stu-id="f2d45-247">The Test-CsPstnPeerToPeerCall synthetic transaction verifies the ability to place and receive calls through a public switched telephone network (PSTN).</span></span>
+<span data-ttu-id="ad61b-247">Test-cspstnpeertopeercall 综合事务验证发起和接收通过公用电话交换网 (PSTN) 呼叫的能力。</span><span class="sxs-lookup"><span data-stu-id="ad61b-247">The Test-CsPstnPeerToPeerCall synthetic transaction verifies the ability to place and receive calls through a public switched telephone network (PSTN).</span></span>
   
-<span data-ttu-id="f2d45-248">若要运行此综合事务，您必须配置：</span><span class="sxs-lookup"><span data-stu-id="f2d45-248">To run this synthetic transaction, you must configure:</span></span>
+<span data-ttu-id="ad61b-248">若要运行此综合事务，您必须配置：</span><span class="sxs-lookup"><span data-stu-id="ad61b-248">To run this synthetic transaction, you must configure:</span></span>
   
-- <span data-ttu-id="f2d45-249">两个启用 UC 的测试用户 （呼叫者和接收者）。</span><span class="sxs-lookup"><span data-stu-id="f2d45-249">Two UC-enabled test users (a caller and a receiver).</span></span>
+- <span data-ttu-id="ad61b-249">两个启用 UC 的测试用户 （呼叫者和接收者）。</span><span class="sxs-lookup"><span data-stu-id="ad61b-249">Two UC-enabled test users (a caller and a receiver).</span></span>
     
-- <span data-ttu-id="f2d45-250">每个用户帐户的外线直拨分机 (DID) 号码。</span><span class="sxs-lookup"><span data-stu-id="f2d45-250">Direct Inward Dialing (DID) numbers for each user account.</span></span>
+- <span data-ttu-id="ad61b-250">每个用户帐户的外线直拨分机 (DID) 号码。</span><span class="sxs-lookup"><span data-stu-id="ad61b-250">Direct Inward Dialing (DID) numbers for each user account.</span></span>
     
-- <span data-ttu-id="f2d45-251">允许对接收者的号码的呼叫到达 PSTN 网关的 VoIP 策略和语音路由。</span><span class="sxs-lookup"><span data-stu-id="f2d45-251">VoIP Policies and Voice routes that allow calls to the receiver's number to reach the PSTN gateway.</span></span>
+- <span data-ttu-id="ad61b-251">允许对接收者的号码的呼叫到达 PSTN 网关的 VoIP 策略和语音路由。</span><span class="sxs-lookup"><span data-stu-id="ad61b-251">VoIP Policies and Voice routes that allow calls to the receiver's number to reach the PSTN gateway.</span></span>
     
-- <span data-ttu-id="f2d45-252">拨打接受呼叫并将路由回接收者主池，基于该号码的呼叫的媒体的 PSTN 网关。</span><span class="sxs-lookup"><span data-stu-id="f2d45-252">A PSTN gateway that accepts call and media that will route calls back to a receiver's home pool, based on the number dialed.</span></span>
+- <span data-ttu-id="ad61b-252">拨打接受呼叫并将路由回接收者主池，基于该号码的呼叫的媒体的 PSTN 网关。</span><span class="sxs-lookup"><span data-stu-id="ad61b-252">A PSTN gateway that accepts call and media that will route calls back to a receiver's home pool, based on the number dialed.</span></span>
     
-### <a name="unified-contact-store-synthetic-transaction"></a><span data-ttu-id="f2d45-253">统一的联系人存储库综合事务</span><span class="sxs-lookup"><span data-stu-id="f2d45-253">Unified Contact Store Synthetic Transaction</span></span>
+### <a name="unified-contact-store-synthetic-transaction"></a><span data-ttu-id="ad61b-253">统一的联系人存储库综合事务</span><span class="sxs-lookup"><span data-stu-id="ad61b-253">Unified Contact Store Synthetic Transaction</span></span>
 
-<span data-ttu-id="f2d45-254">统一联系人存储库综合事务验证业务服务器从 Exchange 中检索代表用户的联系人的 Skype 的能力。</span><span class="sxs-lookup"><span data-stu-id="f2d45-254">The Unified Contact Store synthetic transaction verifies the ability of Skype for Business Server to retrieve contacts on behalf of a user from Exchange.</span></span>
+<span data-ttu-id="ad61b-254">统一联系人存储库综合事务验证业务服务器从 Exchange 中检索代表用户的联系人的 Skype 的能力。</span><span class="sxs-lookup"><span data-stu-id="ad61b-254">The Unified Contact Store synthetic transaction verifies the ability of Skype for Business Server to retrieve contacts on behalf of a user from Exchange.</span></span>
   
-<span data-ttu-id="f2d45-255">若要使用此综合事务，必须满足以下条件：</span><span class="sxs-lookup"><span data-stu-id="f2d45-255">To use this synthetic transaction, the following conditions must be met:</span></span>
+<span data-ttu-id="ad61b-255">若要使用此综合事务，必须满足以下条件：</span><span class="sxs-lookup"><span data-stu-id="ad61b-255">To use this synthetic transaction, the following conditions must be met:</span></span>
   
-- <span data-ttu-id="f2d45-256">必须配置 Lyss Exchange 服务器到服务器身份验证。</span><span class="sxs-lookup"><span data-stu-id="f2d45-256">Lyss-Exchange server to server authentication must be configured.</span></span>
+- <span data-ttu-id="ad61b-256">必须配置 Lyss Exchange 服务器到服务器身份验证。</span><span class="sxs-lookup"><span data-stu-id="ad61b-256">Lyss-Exchange server to server authentication must be configured.</span></span>
     
-- <span data-ttu-id="f2d45-257">测试用户必须具有有效的 Exchange 邮箱。</span><span class="sxs-lookup"><span data-stu-id="f2d45-257">Test users must have a valid Exchange mailbox.</span></span>
+- <span data-ttu-id="ad61b-257">测试用户必须具有有效的 Exchange 邮箱。</span><span class="sxs-lookup"><span data-stu-id="ad61b-257">Test users must have a valid Exchange mailbox.</span></span>
     
-<span data-ttu-id="f2d45-258">满足这些条件后，您可以运行以下 Windows PowerShell cmdlet 将测试用户的联系人列表迁移到 Exchange:</span><span class="sxs-lookup"><span data-stu-id="f2d45-258">After these conditions are met, you can run the following Windows PowerShell cmdlet to migrate the test users' contact lists to Exchange:</span></span>
+<span data-ttu-id="ad61b-258">满足这些条件后，您可以运行以下 Windows PowerShell cmdlet 将测试用户的联系人列表迁移到 Exchange:</span><span class="sxs-lookup"><span data-stu-id="ad61b-258">After these conditions are met, you can run the following Windows PowerShell cmdlet to migrate the test users' contact lists to Exchange:</span></span>
   
 ```
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer -Setup
 ```
 
-<span data-ttu-id="f2d45-259">可能需要一些时间，测试将迁移到 Exchange 的用户联系人列表。</span><span class="sxs-lookup"><span data-stu-id="f2d45-259">It may take some time for the test user contact lists to migrate to Exchange.</span></span> <span data-ttu-id="f2d45-260">若要监视迁移进度，相同的命令行可以运行-安装标记的情况下：</span><span class="sxs-lookup"><span data-stu-id="f2d45-260">To monitor the migration progress, the same command-line can be run without the -Setup flag:</span></span>
+<span data-ttu-id="ad61b-259">可能需要一些时间，测试将迁移到 Exchange 的用户联系人列表。</span><span class="sxs-lookup"><span data-stu-id="ad61b-259">It may take some time for the test user contact lists to migrate to Exchange.</span></span> <span data-ttu-id="ad61b-260">若要监视迁移进度，相同的命令行可以运行-安装标记的情况下：</span><span class="sxs-lookup"><span data-stu-id="ad61b-260">To monitor the migration progress, the same command-line can be run without the -Setup flag:</span></span>
   
 ```
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer
 ```
 
-<span data-ttu-id="f2d45-261">迁移完成后，将会成功此命令行。</span><span class="sxs-lookup"><span data-stu-id="f2d45-261">This command line will succeed after migration is completed.</span></span>
+<span data-ttu-id="ad61b-261">迁移完成后，将会成功此命令行。</span><span class="sxs-lookup"><span data-stu-id="ad61b-261">This command line will succeed after migration is completed.</span></span>
   
-### <a name="xmpp-synthetic-transaction"></a><span data-ttu-id="f2d45-262">XMPP 综合事务</span><span class="sxs-lookup"><span data-stu-id="f2d45-262">XMPP Synthetic Transaction</span></span>
+### <a name="xmpp-synthetic-transaction"></a><span data-ttu-id="ad61b-262">XMPP 综合事务</span><span class="sxs-lookup"><span data-stu-id="ad61b-262">XMPP Synthetic Transaction</span></span>
 
-<span data-ttu-id="f2d45-263">可扩展消息传递和状态协议 (XMPP) IM 综合事务需要与一个或多个联盟域配置 XMPP 功能。</span><span class="sxs-lookup"><span data-stu-id="f2d45-263">The Extensible Messaging and Presence Protocol (XMPP) IM synthetic transaction requires that you configure the XMPP feature with one or more federated domains.</span></span>
+<span data-ttu-id="ad61b-263">可扩展消息传递和状态协议 (XMPP) IM 综合事务需要与一个或多个联盟域配置 XMPP 功能。</span><span class="sxs-lookup"><span data-stu-id="ad61b-263">The Extensible Messaging and Presence Protocol (XMPP) IM synthetic transaction requires that you configure the XMPP feature with one or more federated domains.</span></span>
   
-<span data-ttu-id="f2d45-264">若要启用 XMPP 综合事务，必须使用可路由的 XMPP 域的用户帐户提供 XmppTestReceiverMailAddress 参数。</span><span class="sxs-lookup"><span data-stu-id="f2d45-264">To enable the XMPP synthetic transaction, you must provide an XmppTestReceiverMailAddress parameter with a user account at a routable XMPP domain.</span></span> <span data-ttu-id="f2d45-265">例如：</span><span class="sxs-lookup"><span data-stu-id="f2d45-265">For example:</span></span>
+<span data-ttu-id="ad61b-264">若要启用 XMPP 综合事务，必须使用可路由的 XMPP 域的用户帐户提供 XmppTestReceiverMailAddress 参数。</span><span class="sxs-lookup"><span data-stu-id="ad61b-264">To enable the XMPP synthetic transaction, you must provide an XmppTestReceiverMailAddress parameter with a user account at a routable XMPP domain.</span></span> <span data-ttu-id="ad61b-265">例如：</span><span class="sxs-lookup"><span data-stu-id="ad61b-265">For example:</span></span>
   
 ```
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
-<span data-ttu-id="f2d45-266">本示例中，业务服务器规则 Skype 需要路由到 XMPP 网关的 litwareinc.com 的消息已存在。</span><span class="sxs-lookup"><span data-stu-id="f2d45-266">In this example, a Skype for Business Server rule will need to exist to route messages for litwareinc.com to an XMPP gateway.</span></span>
+<span data-ttu-id="ad61b-266">本示例中，业务服务器规则 Skype 需要路由到 XMPP 网关的 litwareinc.com 的消息已存在。</span><span class="sxs-lookup"><span data-stu-id="ad61b-266">In this example, a Skype for Business Server rule will need to exist to route messages for litwareinc.com to an XMPP gateway.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="f2d45-267">XMPP 网关和代理中的业务服务器 2015 Skype 可用，但业务服务器 2019年不再支持在 Skype。</span><span class="sxs-lookup"><span data-stu-id="f2d45-267">XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="f2d45-268">有关详细信息，请参阅[迁移 XMPP 联盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md)。</span><span class="sxs-lookup"><span data-stu-id="f2d45-268">See [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.</span></span> 
+> <span data-ttu-id="ad61b-267">XMPP 网关和代理中的业务服务器 2015 Skype 可用，但业务服务器 2019年不再支持在 Skype。</span><span class="sxs-lookup"><span data-stu-id="ad61b-267">XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="ad61b-268">有关详细信息，请参阅[迁移 XMPP 联盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md)。</span><span class="sxs-lookup"><span data-stu-id="ad61b-268">See [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.</span></span> 
   
-### <a name="video-interop-server-vis-synthetic-transaction"></a><span data-ttu-id="f2d45-269">视频互操作性服务器 (VIS) 综合事务</span><span class="sxs-lookup"><span data-stu-id="f2d45-269">Video Interop Server (VIS) Synthetic Transaction</span></span>
+### <a name="video-interop-server-vis-synthetic-transaction"></a><span data-ttu-id="ad61b-269">视频互操作性服务器 (VIS) 综合事务</span><span class="sxs-lookup"><span data-stu-id="ad61b-269">Video Interop Server (VIS) Synthetic Transaction</span></span>
 
-<span data-ttu-id="f2d45-270">视频互操作服务器 (VIS) 综合事务需要您下载并安装综合事务支持文件 ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921))。</span><span class="sxs-lookup"><span data-stu-id="f2d45-270">The Video Interop Server (VIS) synthetic transaction requires that you download and install the synthetic transaction support files ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)).</span></span> 
+<span data-ttu-id="ad61b-270">视频互操作服务器 (VIS) 综合事务需要您下载并安装综合事务支持文件 ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921))。</span><span class="sxs-lookup"><span data-stu-id="ad61b-270">The Video Interop Server (VIS) synthetic transaction requires that you download and install the synthetic transaction support files ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)).</span></span> 
   
-<span data-ttu-id="f2d45-271">若要安装 VISSTSupportPackage.msi 确保的 msi 已安装了 （下系统要求） 的依赖关系。</span><span class="sxs-lookup"><span data-stu-id="f2d45-271">To install VISSTSupportPackage.msi ensure the dependencies (under System Requirements) for the msi are already installed.</span></span> <span data-ttu-id="f2d45-272">运行 VISSTSupportPackage.msi 进行简单的安装。</span><span class="sxs-lookup"><span data-stu-id="f2d45-272">Run VISSTSupportPackage.msi to do a simple installation.</span></span> <span data-ttu-id="f2d45-273">.Msi 安装在以下路径中的所有文件:"%ProgramFiles%\VIS 综合事务支持包"。</span><span class="sxs-lookup"><span data-stu-id="f2d45-273">The .msi installs all the files in the following path: "%ProgramFiles%\VIS Synthetic Transaction Support Package".</span></span>
+<span data-ttu-id="ad61b-271">若要安装 VISSTSupportPackage.msi 确保的 msi 已安装了 （下系统要求） 的依赖关系。</span><span class="sxs-lookup"><span data-stu-id="ad61b-271">To install VISSTSupportPackage.msi ensure the dependencies (under System Requirements) for the msi are already installed.</span></span> <span data-ttu-id="ad61b-272">运行 VISSTSupportPackage.msi 进行简单的安装。</span><span class="sxs-lookup"><span data-stu-id="ad61b-272">Run VISSTSupportPackage.msi to do a simple installation.</span></span> <span data-ttu-id="ad61b-273">.Msi 安装在以下路径中的所有文件:"%ProgramFiles%\VIS 综合事务支持包"。</span><span class="sxs-lookup"><span data-stu-id="ad61b-273">The .msi installs all the files in the following path: "%ProgramFiles%\VIS Synthetic Transaction Support Package".</span></span>
   
-<span data-ttu-id="f2d45-274">有关如何运行 VIS 综合事务的详细信息，请参阅[测试 CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) cmdlet 的文档。</span><span class="sxs-lookup"><span data-stu-id="f2d45-274">For more details on how to run the VIS Synthetic Transaction refer to the documentation for the [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) cmdlet.</span></span>
+<span data-ttu-id="ad61b-274">有关如何运行 VIS 综合事务的详细信息，请参阅[测试 CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) cmdlet 的文档。</span><span class="sxs-lookup"><span data-stu-id="ad61b-274">For more details on how to run the VIS Synthetic Transaction refer to the documentation for the [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) cmdlet.</span></span>
   
-## <a name="changing-the-run-frequency-for-synthetic-transactions"></a><span data-ttu-id="f2d45-275">综合事务的更改的运行的频率</span><span class="sxs-lookup"><span data-stu-id="f2d45-275">Changing the Run Frequency for Synthetic Transactions</span></span>
-<span data-ttu-id="f2d45-276"><a name="special_synthetictrans"> </a></span><span class="sxs-lookup"><span data-stu-id="f2d45-276"></span></span>
+## <a name="changing-the-run-frequency-for-synthetic-transactions"></a><span data-ttu-id="ad61b-275">综合事务的更改的运行的频率</span><span class="sxs-lookup"><span data-stu-id="ad61b-275">Changing the Run Frequency for Synthetic Transactions</span></span>
+<span data-ttu-id="ad61b-276"><a name="special_synthetictrans"> </a></span><span class="sxs-lookup"><span data-stu-id="ad61b-276"></span></span>
 
-<span data-ttu-id="f2d45-277">默认情况下综合事务将与配置用户每 15 分钟运行。</span><span class="sxs-lookup"><span data-stu-id="f2d45-277">By default, synthetic transactions will run with the configured users every 15 minutes.</span></span> <span data-ttu-id="f2d45-278">综合事务的用户，以避免相互冲突的两个综合事务一组按顺序运行。</span><span class="sxs-lookup"><span data-stu-id="f2d45-278">Synthetic transactions are run sequentially within a set of users to avoid two synthetic transactions from conflicting with each other.</span></span> <span data-ttu-id="f2d45-279">较长的间隔需要提供所有综合事务，若要完成的时间。</span><span class="sxs-lookup"><span data-stu-id="f2d45-279">A longer interval is needed to provide time for all synthetic transactions to complete.</span></span>
+<span data-ttu-id="ad61b-277">默认情况下综合事务将与配置用户每 15 分钟运行。</span><span class="sxs-lookup"><span data-stu-id="ad61b-277">By default, synthetic transactions will run with the configured users every 15 minutes.</span></span> <span data-ttu-id="ad61b-278">综合事务的用户，以避免相互冲突的两个综合事务一组按顺序运行。</span><span class="sxs-lookup"><span data-stu-id="ad61b-278">Synthetic transactions are run sequentially within a set of users to avoid two synthetic transactions from conflicting with each other.</span></span> <span data-ttu-id="ad61b-279">较长的间隔需要提供所有综合事务，若要完成的时间。</span><span class="sxs-lookup"><span data-stu-id="ad61b-279">A longer interval is needed to provide time for all synthetic transactions to complete.</span></span>
   
-<span data-ttu-id="f2d45-280">它是否需要更频繁地运行综合事务，以便与偶尔网络延迟一些缓冲区所需的时间范围内完成测试应减少与给定的用户设置运行综合事务数。</span><span class="sxs-lookup"><span data-stu-id="f2d45-280">If it is desirable to run synthetic transactions more frequently, the number of synthetic transactions run with a given set of users should be decreased so that the tests can complete in the desired time range with some buffer for occasional network delays.</span></span> <span data-ttu-id="f2d45-281">如果运行的更多的综合事务，需要创建多个用户设置运行其他综合事务。</span><span class="sxs-lookup"><span data-stu-id="f2d45-281">If running more synthetic transactions is desirable, create more user sets to run additional synthetic transactions.</span></span>
+<span data-ttu-id="ad61b-280">它是否需要更频繁地运行综合事务，以便与偶尔网络延迟一些缓冲区所需的时间范围内完成测试应减少与给定的用户设置运行综合事务数。</span><span class="sxs-lookup"><span data-stu-id="ad61b-280">If it is desirable to run synthetic transactions more frequently, the number of synthetic transactions run with a given set of users should be decreased so that the tests can complete in the desired time range with some buffer for occasional network delays.</span></span> <span data-ttu-id="ad61b-281">如果运行的更多的综合事务，需要创建多个用户设置运行其他综合事务。</span><span class="sxs-lookup"><span data-stu-id="ad61b-281">If running more synthetic transactions is desirable, create more user sets to run additional synthetic transactions.</span></span>
   
-<span data-ttu-id="f2d45-282">若要更改频率运行综合事务的频率，请按照下列步骤：</span><span class="sxs-lookup"><span data-stu-id="f2d45-282">To change the frequency at which synthetic transactions run, follow these steps:</span></span>
+<span data-ttu-id="ad61b-282">若要更改频率运行综合事务的频率，请按照下列步骤：</span><span class="sxs-lookup"><span data-stu-id="ad61b-282">To change the frequency at which synthetic transactions run, follow these steps:</span></span>
   
-1. <span data-ttu-id="f2d45-283">打开 System Center Operations Manager。</span><span class="sxs-lookup"><span data-stu-id="f2d45-283">Open System Center Operations Manager.</span></span> <span data-ttu-id="f2d45-284">单击创作节。</span><span class="sxs-lookup"><span data-stu-id="f2d45-284">Click Authoring section.</span></span> <span data-ttu-id="f2d45-285">单击 （在创作） 下的规则部分。</span><span class="sxs-lookup"><span data-stu-id="f2d45-285">Click Rules section (under Authoring).</span></span>
+1. <span data-ttu-id="ad61b-283">打开 System Center Operations Manager。</span><span class="sxs-lookup"><span data-stu-id="ad61b-283">Open System Center Operations Manager.</span></span> <span data-ttu-id="ad61b-284">单击创作节。</span><span class="sxs-lookup"><span data-stu-id="ad61b-284">Click Authoring section.</span></span> <span data-ttu-id="ad61b-285">单击 （在创作） 下的规则部分。</span><span class="sxs-lookup"><span data-stu-id="ad61b-285">Click Rules section (under Authoring).</span></span>
     
-2. <span data-ttu-id="f2d45-286">在规则部分中，找到名为"Main 综合事务运行程序性能集合规则"规则。</span><span class="sxs-lookup"><span data-stu-id="f2d45-286">In the Rules section, find the rule with the name "Main Synthetic Transaction Runner Performance Collection Rule".</span></span>
+2. <span data-ttu-id="ad61b-286">在规则部分中，找到名为"Main 综合事务运行程序性能集合规则"规则。</span><span class="sxs-lookup"><span data-stu-id="ad61b-286">In the Rules section, find the rule with the name "Main Synthetic Transaction Runner Performance Collection Rule".</span></span>
     
-3. <span data-ttu-id="f2d45-287">右键单击该规则，并选中覆盖，选择该规则，重写方法，然后选择"类别的所有对象： 池观察程序"。</span><span class="sxs-lookup"><span data-stu-id="f2d45-287">Right click the rule, and select Overrides, select Override the Rule, and then select "For All objects of class: Pool Watcher".</span></span>
+3. <span data-ttu-id="ad61b-287">右键单击该规则，并选中覆盖，选择该规则，重写方法，然后选择"类别的所有对象： 池观察程序"。</span><span class="sxs-lookup"><span data-stu-id="ad61b-287">Right click the rule, and select Overrides, select Override the Rule, and then select "For All objects of class: Pool Watcher".</span></span>
     
-4. <span data-ttu-id="f2d45-288">覆盖属性窗口中选择参数名称"频率"，并将覆盖值设置为所需的一个。</span><span class="sxs-lookup"><span data-stu-id="f2d45-288">In the Override Properties window, select Parameter Name "Frequency", and set the Override Value to the desired one.</span></span>
+4. <span data-ttu-id="ad61b-288">覆盖属性窗口中选择参数名称"频率"，并将覆盖值设置为所需的一个。</span><span class="sxs-lookup"><span data-stu-id="ad61b-288">In the Override Properties window, select Parameter Name "Frequency", and set the Override Value to the desired one.</span></span>
     
-5. <span data-ttu-id="f2d45-289">在同一窗口中，选择此重写需要应用的管理包。</span><span class="sxs-lookup"><span data-stu-id="f2d45-289">In the same window, select the Management pack to which this override needs to be applied.</span></span>
+5. <span data-ttu-id="ad61b-289">在同一窗口中，选择此重写需要应用的管理包。</span><span class="sxs-lookup"><span data-stu-id="ad61b-289">In the same window, select the Management pack to which this override needs to be applied.</span></span>
     
-## <a name="using-rich-logging-for-synthetic-transactions"></a><span data-ttu-id="f2d45-290">使用综合事务的富日志记录</span><span class="sxs-lookup"><span data-stu-id="f2d45-290">Using Rich Logging for Synthetic Transactions</span></span>
-<span data-ttu-id="f2d45-291"><a name="special_synthetictrans"> </a></span><span class="sxs-lookup"><span data-stu-id="f2d45-291"></span></span>
+## <a name="using-rich-logging-for-synthetic-transactions"></a><span data-ttu-id="ad61b-290">使用综合事务的富日志记录</span><span class="sxs-lookup"><span data-stu-id="ad61b-290">Using Rich Logging for Synthetic Transactions</span></span>
+<span data-ttu-id="ad61b-291"><a name="special_synthetictrans"> </a></span><span class="sxs-lookup"><span data-stu-id="ad61b-291"></span></span>
 
-<span data-ttu-id="f2d45-292">综合事务证明中帮助确定系统与问题非常有用。</span><span class="sxs-lookup"><span data-stu-id="f2d45-292">Synthetic transactions prove extremely useful in helping to identify issues with the system.</span></span> <span data-ttu-id="f2d45-293">例如，Test-csregistration cmdlet 无法通知用户已有难度业务服务器注册 Skype 事实的管理员。</span><span class="sxs-lookup"><span data-stu-id="f2d45-293">For example, the Test-CsRegistration cmdlet could alert administrators to the fact that users were having difficulty registering with Skype for Business Server.</span></span> <span data-ttu-id="f2d45-294">但是，可能需要其他详细信息，以确定实际失败的原因。</span><span class="sxs-lookup"><span data-stu-id="f2d45-294">However, additional details may be needed to determine the actual cause of a failure.</span></span>
+<span data-ttu-id="ad61b-292">综合事务证明中帮助确定系统与问题非常有用。</span><span class="sxs-lookup"><span data-stu-id="ad61b-292">Synthetic transactions prove extremely useful in helping to identify issues with the system.</span></span> <span data-ttu-id="ad61b-293">例如，Test-csregistration cmdlet 无法通知用户已有难度业务服务器注册 Skype 事实的管理员。</span><span class="sxs-lookup"><span data-stu-id="ad61b-293">For example, the Test-CsRegistration cmdlet could alert administrators to the fact that users were having difficulty registering with Skype for Business Server.</span></span> <span data-ttu-id="ad61b-294">但是，可能需要其他详细信息，以确定实际失败的原因。</span><span class="sxs-lookup"><span data-stu-id="ad61b-294">However, additional details may be needed to determine the actual cause of a failure.</span></span>
   
-<span data-ttu-id="f2d45-295">因此，对于综合事务提供丰富的日志记录。</span><span class="sxs-lookup"><span data-stu-id="f2d45-295">For this reason, synthetic transactions provide rich logging.</span></span> <span data-ttu-id="f2d45-296">使用富日志记录，每个活动的综合事务不承担，记录以下信息：</span><span class="sxs-lookup"><span data-stu-id="f2d45-296">With rich logging, for each activity that a synthetic transaction undertakes, the following information is recorded:</span></span>
+<span data-ttu-id="ad61b-295">因此，对于综合事务提供丰富的日志记录。</span><span class="sxs-lookup"><span data-stu-id="ad61b-295">For this reason, synthetic transactions provide rich logging.</span></span> <span data-ttu-id="ad61b-296">使用富日志记录，每个活动的综合事务不承担，记录以下信息：</span><span class="sxs-lookup"><span data-stu-id="ad61b-296">With rich logging, for each activity that a synthetic transaction undertakes, the following information is recorded:</span></span>
   
-- <span data-ttu-id="f2d45-297">活动的开始时间。</span><span class="sxs-lookup"><span data-stu-id="f2d45-297">The time that the activity started.</span></span>
+- <span data-ttu-id="ad61b-297">活动的开始时间。</span><span class="sxs-lookup"><span data-stu-id="ad61b-297">The time that the activity started.</span></span>
     
-- <span data-ttu-id="f2d45-298">活动的完成时间。</span><span class="sxs-lookup"><span data-stu-id="f2d45-298">The time that the activity finished.</span></span>
+- <span data-ttu-id="ad61b-298">活动的完成时间。</span><span class="sxs-lookup"><span data-stu-id="ad61b-298">The time that the activity finished.</span></span>
     
-- <span data-ttu-id="f2d45-299">已执行的操作 (例如，创建、 加入或离开会议; 登录到 Skype 并 Business Server; 发送即时消息)。</span><span class="sxs-lookup"><span data-stu-id="f2d45-299">The action that was performed (for example, creating, joining, or leaving a conference; signing on to Skype for Business Server; sending an instant message).</span></span>
+- <span data-ttu-id="ad61b-299">已执行的操作 (例如，创建、 加入或离开会议; 登录到 Skype 并 Business Server; 发送即时消息)。</span><span class="sxs-lookup"><span data-stu-id="ad61b-299">The action that was performed (for example, creating, joining, or leaving a conference; signing on to Skype for Business Server; sending an instant message).</span></span>
     
-- <span data-ttu-id="f2d45-300">信息性、 verbose 和警告或在活动运行时生成的错误消息。</span><span class="sxs-lookup"><span data-stu-id="f2d45-300">Informational, verbose, warning, or error messages generated when the activity ran.</span></span>
+- <span data-ttu-id="ad61b-300">信息性、 verbose 和警告或在活动运行时生成的错误消息。</span><span class="sxs-lookup"><span data-stu-id="ad61b-300">Informational, verbose, warning, or error messages generated when the activity ran.</span></span>
     
-- <span data-ttu-id="f2d45-301">SIP 注册消息。</span><span class="sxs-lookup"><span data-stu-id="f2d45-301">SIP registration messages.</span></span>
+- <span data-ttu-id="ad61b-301">SIP 注册消息。</span><span class="sxs-lookup"><span data-stu-id="ad61b-301">SIP registration messages.</span></span>
     
-- <span data-ttu-id="f2d45-302">异常记录或诊断代码生成在活动运行时。</span><span class="sxs-lookup"><span data-stu-id="f2d45-302">Exception records or diagnostic codes generated when the activity ran.</span></span>
+- <span data-ttu-id="ad61b-302">异常记录或诊断代码生成在活动运行时。</span><span class="sxs-lookup"><span data-stu-id="ad61b-302">Exception records or diagnostic codes generated when the activity ran.</span></span>
     
-- <span data-ttu-id="f2d45-303">运行活动的最终结果。</span><span class="sxs-lookup"><span data-stu-id="f2d45-303">The net result of running the activity.</span></span>
+- <span data-ttu-id="ad61b-303">运行活动的最终结果。</span><span class="sxs-lookup"><span data-stu-id="ad61b-303">The net result of running the activity.</span></span>
     
-<span data-ttu-id="f2d45-304">此信息将自动生成每次运行时综合事务，但不是会自动显示或保存到日志文件。</span><span class="sxs-lookup"><span data-stu-id="f2d45-304">This information is automatically generated each time a synthetic transaction is run, but is not automatically displayed or saved to a log file.</span></span> <span data-ttu-id="f2d45-305">如果手动运行综合事务，您可以使用 OutLoggerVariable 参数指定的信息将存储在其中的 Windows PowerShell 变量。</span><span class="sxs-lookup"><span data-stu-id="f2d45-305">If you are manually running a synthetic transaction, you can use the OutLoggerVariable parameter to specify a Windows PowerShell variable in which the information will be stored.</span></span> <span data-ttu-id="f2d45-306">从此处，您可以使用两种方法之一将保存的选择和/或视图中丰富的错误消息日志以 XML 或 HTML 格式。</span><span class="sxs-lookup"><span data-stu-id="f2d45-306">From there, you have the option of using one of two methods to save and/or view error messages in the rich log in either XML or HTML format.</span></span> 
+<span data-ttu-id="ad61b-304">此信息将自动生成每次运行时综合事务，但不是会自动显示或保存到日志文件。</span><span class="sxs-lookup"><span data-stu-id="ad61b-304">This information is automatically generated each time a synthetic transaction is run, but is not automatically displayed or saved to a log file.</span></span> <span data-ttu-id="ad61b-305">如果手动运行综合事务，您可以使用 OutLoggerVariable 参数指定的信息将存储在其中的 Windows PowerShell 变量。</span><span class="sxs-lookup"><span data-stu-id="ad61b-305">If you are manually running a synthetic transaction, you can use the OutLoggerVariable parameter to specify a Windows PowerShell variable in which the information will be stored.</span></span> <span data-ttu-id="ad61b-306">从此处，您可以使用两种方法之一将保存的选择和/或视图中丰富的错误消息日志以 XML 或 HTML 格式。</span><span class="sxs-lookup"><span data-stu-id="ad61b-306">From there, you have the option of using one of two methods to save and/or view error messages in the rich log in either XML or HTML format.</span></span> 
   
-<span data-ttu-id="f2d45-307">若要检索的疑难解答信息，请指定 OutLoggerVariable 参数，后, 跟您选择的变量名：</span><span class="sxs-lookup"><span data-stu-id="f2d45-307">To retrieve the troubleshooting information, specify the OutLoggerVariable parameter, followed by a variable name that you choose:</span></span>
+<span data-ttu-id="ad61b-307">若要检索的疑难解答信息，请指定 OutLoggerVariable 参数，后, 跟您选择的变量名：</span><span class="sxs-lookup"><span data-stu-id="ad61b-307">To retrieve the troubleshooting information, specify the OutLoggerVariable parameter, followed by a variable name that you choose:</span></span>
   
 ```
 Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 ```
 
 > [!NOTE]
-> <span data-ttu-id="f2d45-308">不以 $ 字符在变量名。</span><span class="sxs-lookup"><span data-stu-id="f2d45-308">Do not preface the variable name with the $ character.</span></span> <span data-ttu-id="f2d45-309">使用一个变量的名称，例如 RegistrationTest (而不是 $RegistrationTest)。</span><span class="sxs-lookup"><span data-stu-id="f2d45-309">Use a variable name such as RegistrationTest (not $RegistrationTest).</span></span> 
+> <span data-ttu-id="ad61b-308">不以 $ 字符在变量名。</span><span class="sxs-lookup"><span data-stu-id="ad61b-308">Do not preface the variable name with the $ character.</span></span> <span data-ttu-id="ad61b-309">使用一个变量的名称，例如 RegistrationTest (而不是 $RegistrationTest)。</span><span class="sxs-lookup"><span data-stu-id="ad61b-309">Use a variable name such as RegistrationTest (not $RegistrationTest).</span></span> 
   
-<span data-ttu-id="f2d45-310">运行此命令时，您将看到类似如下的输出：</span><span class="sxs-lookup"><span data-stu-id="f2d45-310">When you run this command, you will see output similar to this:</span></span>
+<span data-ttu-id="ad61b-310">运行此命令时，您将看到类似如下的输出：</span><span class="sxs-lookup"><span data-stu-id="ad61b-310">When you run this command, you will see output similar to this:</span></span>
   
-<span data-ttu-id="f2d45-311">目标 Fqdn: atl-cs-001.litwareinc.com 结果： 故障延迟： 00:00:00 错误消息： 此计算机不具有任何已分配的证书。</span><span class="sxs-lookup"><span data-stu-id="f2d45-311">Target Fqdn : atl-cs-001.litwareinc.com Result : Failure Latency : 00:00:00 Error Message : This machine does not have any assigned certificates.</span></span> <span data-ttu-id="f2d45-312">诊断： 您可以访问此故障比刚刚此处显示的错误消息的更详细的信息。</span><span class="sxs-lookup"><span data-stu-id="f2d45-312">Diagnosis :You can access much more detailed information for this failure than just the error message shown here.</span></span>
+<span data-ttu-id="ad61b-311">目标 Fqdn: atl-cs-001.litwareinc.com 结果： 故障延迟： 00:00:00 错误消息： 此计算机不具有任何已分配的证书。</span><span class="sxs-lookup"><span data-stu-id="ad61b-311">Target Fqdn : atl-cs-001.litwareinc.com Result : Failure Latency : 00:00:00 Error Message : This machine does not have any assigned certificates.</span></span> <span data-ttu-id="ad61b-312">诊断： 您可以访问此故障比刚刚此处显示的错误消息的更详细的信息。</span><span class="sxs-lookup"><span data-stu-id="ad61b-312">Diagnosis :You can access much more detailed information for this failure than just the error message shown here.</span></span>
 
-<span data-ttu-id="f2d45-313">若要访问此信息以 HTML 格式，使用与此类似的命令以保存到 HTML 文件的 RegistrationTest 变量中存储的信息：</span><span class="sxs-lookup"><span data-stu-id="f2d45-313">To access this information in HTML format, use a command similar to this one to save the information stored in the variable RegistrationTest to an HTML file:</span></span>
+<span data-ttu-id="ad61b-313">若要访问此信息以 HTML 格式，使用与此类似的命令以保存到 HTML 文件的 RegistrationTest 变量中存储的信息：</span><span class="sxs-lookup"><span data-stu-id="ad61b-313">To access this information in HTML format, use a command similar to this one to save the information stored in the variable RegistrationTest to an HTML file:</span></span>
   
 ```
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
 ```
 
-<span data-ttu-id="f2d45-314">此外，您可以使用 ToXML() 方法将数据保存到 XML 文件：</span><span class="sxs-lookup"><span data-stu-id="f2d45-314">Alternatively, you can use the ToXML() method to save the data to an XML file:</span></span>
+<span data-ttu-id="ad61b-314">此外，您可以使用 ToXML() 方法将数据保存到 XML 文件：</span><span class="sxs-lookup"><span data-stu-id="ad61b-314">Alternatively, you can use the ToXML() method to save the data to an XML file:</span></span>
   
 ```
 $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 ```
 
-<span data-ttu-id="f2d45-315">您可以通过使用 Windows Internet Explorer、 Microsoft Visual Studio 或任何其他应用程序能够打开 HTML/XML 文件中查看这些文件。</span><span class="sxs-lookup"><span data-stu-id="f2d45-315">You can view these files by using Windows Internet Explorer, Microsoft Visual Studio, or any other application capable of opening HTML/XML files.</span></span>
+<span data-ttu-id="ad61b-315">您可以通过使用 Windows Internet Explorer、 Microsoft Visual Studio 或任何其他应用程序能够打开 HTML/XML 文件中查看这些文件。</span><span class="sxs-lookup"><span data-stu-id="ad61b-315">You can view these files by using Windows Internet Explorer, Microsoft Visual Studio, or any other application capable of opening HTML/XML files.</span></span>
   
-<span data-ttu-id="f2d45-316">在 System Center Operations Manager 从运行综合事务将自动生成这些日志文件的故障。</span><span class="sxs-lookup"><span data-stu-id="f2d45-316">Synthetic transactions run from inside of System Center Operations Manager will automatically generate these log files for failures.</span></span> <span data-ttu-id="f2d45-317">如果在执行失败，无法加载并运行综合事务的业务 Server PowerShell Skype 之前，将不会生成这些日志。</span><span class="sxs-lookup"><span data-stu-id="f2d45-317">These logs will not be generated if the execution fails before Skype for Business Server PowerShell is able to load and run the synthetic transaction.</span></span> 
+<span data-ttu-id="ad61b-316">在 System Center Operations Manager 从运行综合事务将自动生成这些日志文件的故障。</span><span class="sxs-lookup"><span data-stu-id="ad61b-316">Synthetic transactions run from inside of System Center Operations Manager will automatically generate these log files for failures.</span></span> <span data-ttu-id="ad61b-317">如果在执行失败，无法加载并运行综合事务的业务 Server PowerShell Skype 之前，将不会生成这些日志。</span><span class="sxs-lookup"><span data-stu-id="ad61b-317">These logs will not be generated if the execution fails before Skype for Business Server PowerShell is able to load and run the synthetic transaction.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="f2d45-318">默认情况下，业务服务器 Skype 将日志文件存储不共享的文件夹。</span><span class="sxs-lookup"><span data-stu-id="f2d45-318">By default, Skype for Business Server saves log files to a folder that is not shared.</span></span> <span data-ttu-id="f2d45-319">若要使无法访问这些日志，您应共享该文件夹。</span><span class="sxs-lookup"><span data-stu-id="f2d45-319">To make these logs readily accessible, you should share this folder.</span></span> <span data-ttu-id="f2d45-320">例如： \\atl-watcher-001.litwareinc.com\WatcherNode。</span><span class="sxs-lookup"><span data-stu-id="f2d45-320">For example: \\atl-watcher-001.litwareinc.com\WatcherNode.</span></span> 
+> <span data-ttu-id="ad61b-318">默认情况下，业务服务器 Skype 将日志文件存储不共享的文件夹。</span><span class="sxs-lookup"><span data-stu-id="ad61b-318">By default, Skype for Business Server saves log files to a folder that is not shared.</span></span> <span data-ttu-id="ad61b-319">若要使无法访问这些日志，您应共享该文件夹。</span><span class="sxs-lookup"><span data-stu-id="ad61b-319">To make these logs readily accessible, you should share this folder.</span></span> <span data-ttu-id="ad61b-320">例如： \\atl-watcher-001.litwareinc.com\WatcherNode。</span><span class="sxs-lookup"><span data-stu-id="ad61b-320">For example: \\atl-watcher-001.litwareinc.com\WatcherNode.</span></span> 
