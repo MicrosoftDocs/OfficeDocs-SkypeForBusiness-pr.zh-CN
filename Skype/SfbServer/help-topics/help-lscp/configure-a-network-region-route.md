@@ -1,5 +1,6 @@
 ---
 title: 配置网络区域路由
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,19 +12,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35c1511f-8143-4893-a91c-5bc7c18ec0bf
-description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 58a48112a0fdf410762904b1ebf7be1fef1186d2
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+ms.openlocfilehash: 60981e1afd6c6e70f3574206fdb8f7b88dae7bde
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245046"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891020"
 ---
-# <a name="configure-a-network-region-route"></a><span data-ttu-id="4edd3-104">配置网络区域路由</span><span class="sxs-lookup"><span data-stu-id="4edd3-104">Configure a Network Region Route</span></span>
+# <a name="configure-a-network-region-route"></a><span data-ttu-id="1ab93-104">配置网络区域路由</span><span class="sxs-lookup"><span data-stu-id="1ab93-104">Configure a Network Region Route</span></span>
 
-<span data-ttu-id="4edd3-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="4edd3-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="1ab93-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="1ab93-105">What do you want to do?</span></span> <span data-ttu-id="1ab93-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="1ab93-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="4edd3-107">配置网络区域路由</span><span class="sxs-lookup"><span data-stu-id="4edd3-107">Configuring Network Region Routes</span></span>](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
+- [<span data-ttu-id="1ab93-107">配置网络区域路由</span><span class="sxs-lookup"><span data-stu-id="1ab93-107">Configuring Network Region Routes</span></span>](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
 
-<span data-ttu-id="4edd3-108">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="4edd3-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="1ab93-108">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="1ab93-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

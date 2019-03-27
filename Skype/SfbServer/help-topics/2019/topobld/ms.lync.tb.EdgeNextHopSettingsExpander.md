@@ -1,5 +1,6 @@
 ---
 title: 边缘下一跃点设置扩展器
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,17 +13,17 @@ localization_priority: Normal
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要设置或修改边缘服务器将用于与内部基础结构通信的“下一个跃点池”，请从列表中选择控制器、控制器池、前端服务器或前端服务器池。 只有控制器或前端服务器已在拓扑生成器中配置显示在列表中。
-ms.openlocfilehash: b7fcf0c8bd727b9606d49a9e1b996fb93b2bb899
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 1a090b8e1e740d81bfcfbcda3717c949ce2dd443
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250128"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893460"
 ---
-# <a name="edge-next-hop-settings-expander"></a><span data-ttu-id="911c8-104">边缘下一跃点设置扩展器</span><span class="sxs-lookup"><span data-stu-id="911c8-104">Edge Next Hop Settings Expander</span></span>
+# <a name="edge-next-hop-settings-expander"></a><span data-ttu-id="e884e-104">边缘下一跃点设置扩展器</span><span class="sxs-lookup"><span data-stu-id="e884e-104">Edge Next Hop Settings Expander</span></span>
 
-<span data-ttu-id="911c8-105">若要设置或修改边缘服务器将用于与内部基础结构通信的“**下一个跃点池**”，请从列表中选择控制器、控制器池、前端服务器或前端服务器池。</span><span class="sxs-lookup"><span data-stu-id="911c8-105">To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool, from the list.</span></span> <span data-ttu-id="911c8-106">只有控制器或前端服务器已在拓扑生成器中配置显示在列表中。</span><span class="sxs-lookup"><span data-stu-id="911c8-106">Only Directors or Front End Servers that have been configured in Topology Builder appear in the list.</span></span>
+<span data-ttu-id="e884e-105">若要设置或修改边缘服务器将用于与内部基础结构通信的“**下一个跃点池**”，请从列表中选择控制器、控制器池、前端服务器或前端服务器池。</span><span class="sxs-lookup"><span data-stu-id="e884e-105">To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool, from the list.</span></span> <span data-ttu-id="e884e-106">只有控制器或前端服务器已在拓扑生成器中配置显示在列表中。</span><span class="sxs-lookup"><span data-stu-id="e884e-106">Only Directors or Front End Servers that have been configured in Topology Builder appear in the list.</span></span>
 
-<span data-ttu-id="911c8-107">有关定义和配置边缘服务设置的详细信息，请参阅[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)。</span><span class="sxs-lookup"><span data-stu-id="911c8-107">For details about defining and configuring the settings for Edge services, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span>
+<span data-ttu-id="e884e-107">有关定义和配置边缘服务设置的详细信息，请参阅[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)。</span><span class="sxs-lookup"><span data-stu-id="e884e-107">For details about defining and configuring the settings for Edge services, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span>
 
 

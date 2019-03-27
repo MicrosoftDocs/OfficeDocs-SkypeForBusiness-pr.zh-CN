@@ -1,5 +1,6 @@
 ---
-title: Lync Server 2010 的边缘计算机设置扩展器
+title: 适合于 Lync Server 2010 的 Edge 机器设置
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,39 +13,39 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 若要为单个边缘服务器或边缘池中的成员计算机，请编辑边缘服务器计算机的属性，您配置服务器名称和 IP 地址配置设置：
-ms.openlocfilehash: 10709088aee9d1b5ec247804122520afa3b29dee
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: f0125ba8d9c7ff181aff0a29f69a5077b1ad0818
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373383"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891538"
 ---
-# <a name="edge-machine-settings-expander-for-lync-server-2010"></a><span data-ttu-id="0ec39-103">Lync Server 2010 的边缘计算机设置扩展器</span><span class="sxs-lookup"><span data-stu-id="0ec39-103">Edge Machine Settings Expander for Lync Server 2010</span></span>
+# <a name="edge-machine-settings-expander-for-lync-server-2010"></a><span data-ttu-id="0ba43-103">适合于 Lync Server 2010 的 Edge 机器设置</span><span class="sxs-lookup"><span data-stu-id="0ba43-103">Edge Machine Settings Expander for Lync Server 2010</span></span>
  
-<span data-ttu-id="0ec39-104">若要为单个边缘服务器或边缘池中的成员计算机，请编辑边缘服务器计算机的属性，您可以配置**服务器名称和 IP 地址配置**设置：</span><span class="sxs-lookup"><span data-stu-id="0ec39-104">To edit the properties for Edge Server computers as an single Edge Server or as member computers in an Edge pool, you configure **Server name and IP address configuration** settings:</span></span>
+<span data-ttu-id="0ba43-104">若要为单个边缘服务器或边缘池中的成员计算机，请编辑边缘服务器计算机的属性，您可以配置**服务器名称和 IP 地址配置**设置：</span><span class="sxs-lookup"><span data-stu-id="0ba43-104">To edit the properties for Edge Server computers as an single Edge Server or as member computers in an Edge pool, you configure **Server name and IP address configuration** settings:</span></span>
   
-- <span data-ttu-id="0ec39-105">**内部名称或 FQDN**： 键入域名系统 (DNS) 中引用的计算机的名称。</span><span class="sxs-lookup"><span data-stu-id="0ec39-105">**Internal name or FQDN**: Type the name of the computer as it is referenced in the domain name system (DNS).</span></span> 
+- <span data-ttu-id="0ba43-105">**内部名称或 FQDN**： 键入域名系统 (DNS) 中引用的计算机的名称。</span><span class="sxs-lookup"><span data-stu-id="0ba43-105">**Internal name or FQDN**: Type the name of the computer as it is referenced in the domain name system (DNS).</span></span> 
     
-- <span data-ttu-id="0ec39-106">**内部 IPv4 地址**： 键入该计算机内部网络接口卡 (NIC) 的 IPv4 地址。</span><span class="sxs-lookup"><span data-stu-id="0ec39-106">**Internal IPv4 address**: Type the IPv4 address of the internal network interface card (NIC) for this computer.</span></span>
+- <span data-ttu-id="0ba43-106">**内部 IPv4 地址**： 键入该计算机内部网络接口卡 (NIC) 的 IPv4 地址。</span><span class="sxs-lookup"><span data-stu-id="0ba43-106">**Internal IPv4 address**: Type the IPv4 address of the internal network interface card (NIC) for this computer.</span></span>
     
-- <span data-ttu-id="0ec39-107">配置与该计算机关联的**访问边缘服务\*\*\*\*的外部 IPv4 地址**</span><span class="sxs-lookup"><span data-stu-id="0ec39-107">You configure the **Access Edge service** **External IPv4 address** associated with this computer</span></span>
+- <span data-ttu-id="0ba43-107">配置与该计算机关联的**访问边缘服务\*\*\*\*的外部 IPv4 地址**</span><span class="sxs-lookup"><span data-stu-id="0ba43-107">You configure the **Access Edge service** **External IPv4 address** associated with this computer</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="0ec39-108">如果您选择要用于边缘服务器配置的单个 IP 地址，将只能编辑访问边缘服务的外部 IPv4 地址。</span><span class="sxs-lookup"><span data-stu-id="0ec39-108">If you selected to use a single IP address for the Edge Server configuration, you will only be able to edit the external IPv4 address for the Access Edge service.</span></span> <span data-ttu-id="0ec39-109">其他边缘服务将共享相同的访问边缘服务的 IPv4 地址。</span><span class="sxs-lookup"><span data-stu-id="0ec39-109">The other Edge services will share the same IPv4 address as the Access Edge service.</span></span> 
+    > <span data-ttu-id="0ba43-108">如果您选择要用于边缘服务器配置的单个 IP 地址，将只能编辑访问边缘服务的外部 IPv4 地址。</span><span class="sxs-lookup"><span data-stu-id="0ba43-108">If you selected to use a single IP address for the Edge Server configuration, you will only be able to edit the external IPv4 address for the Access Edge service.</span></span> <span data-ttu-id="0ba43-109">其他边缘服务将共享相同的访问边缘服务的 IPv4 地址。</span><span class="sxs-lookup"><span data-stu-id="0ba43-109">The other Edge services will share the same IPv4 address as the Access Edge service.</span></span> 
   
-- <span data-ttu-id="0ec39-110">如果可供编辑，则配置与该计算机关联的**Web 会议服务\*\*\*\*外部 IPv4 地址**</span><span class="sxs-lookup"><span data-stu-id="0ec39-110">If available to edit, you configure the **Web Conferencing service** **External IPv4 address** associated with this computer</span></span>
+- <span data-ttu-id="0ba43-110">如果可供编辑，则配置与该计算机关联的**Web 会议服务\*\*\*\*外部 IPv4 地址**</span><span class="sxs-lookup"><span data-stu-id="0ba43-110">If available to edit, you configure the **Web Conferencing service** **External IPv4 address** associated with this computer</span></span>
     
-- <span data-ttu-id="0ec39-111">如果可供编辑，则配置**A / V 边缘服务**与该计算机关联的**外部 IPv4 地址**</span><span class="sxs-lookup"><span data-stu-id="0ec39-111">If available to edit, you configure the **A/V Edge service** **External IPv4 address** associated with this computer</span></span>
+- <span data-ttu-id="0ba43-111">如果可供编辑，则配置**A / V 边缘服务**与该计算机关联的**外部 IPv4 地址**</span><span class="sxs-lookup"><span data-stu-id="0ba43-111">If available to edit, you configure the **A/V Edge service** **External IPv4 address** associated with this computer</span></span>
     
-- <span data-ttu-id="0ec39-112">如果可供编辑，则配置与该计算机关联的**启用 NAT 的公共 IPv4 地址**。</span><span class="sxs-lookup"><span data-stu-id="0ec39-112">If available to edit, you configure the **NAT-enabled public IPv4 address** associated with this computer.</span></span>
+- <span data-ttu-id="0ba43-112">如果可供编辑，则配置与该计算机关联的**启用 NAT 的公共 IPv4 地址**。</span><span class="sxs-lookup"><span data-stu-id="0ba43-112">If available to edit, you configure the **NAT-enabled public IPv4 address** associated with this computer.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="0ec39-113">**启用 NAT 的公共 IPv4 地址**的配置属性仅可编辑如果您选择提供网络地址转换 (NAT) 的 a / V 边缘服务</span><span class="sxs-lookup"><span data-stu-id="0ec39-113">The configuration property for **NAT-enabled public IPv4 address** will only be available to edit if you chose to provide network address translation (NAT) for the A/V Edge service</span></span>
+    > <span data-ttu-id="0ba43-113">**启用 NAT 的公共 IPv4 地址**的配置属性仅可编辑如果您选择提供网络地址转换 (NAT) 的 a / V 边缘服务</span><span class="sxs-lookup"><span data-stu-id="0ba43-113">The configuration property for **NAT-enabled public IPv4 address** will only be available to edit if you chose to provide network address translation (NAT) for the A/V Edge service</span></span>
   
-  <span data-ttu-id="0ec39-114">**确定** 接受更改并通过对话框提交更改。</span><span class="sxs-lookup"><span data-stu-id="0ec39-114">**OK** Accepts and commits changes to the dialog.</span></span>
+  <span data-ttu-id="0ba43-114">**确定** 接受更改并通过对话框提交更改。</span><span class="sxs-lookup"><span data-stu-id="0ba43-114">**OK** Accepts and commits changes to the dialog.</span></span>
   
-  <span data-ttu-id="0ec39-115">**取消** 放弃更改并关闭对话框。</span><span class="sxs-lookup"><span data-stu-id="0ec39-115">**Cancel** Discards changes and closes the dialog.</span></span>
+  <span data-ttu-id="0ba43-115">**取消** 放弃更改并关闭对话框。</span><span class="sxs-lookup"><span data-stu-id="0ba43-115">**Cancel** Discards changes and closes the dialog.</span></span>
   
-  <span data-ttu-id="0ec39-116">**帮助** 显示此帮助屏幕。</span><span class="sxs-lookup"><span data-stu-id="0ec39-116">**Help** Displays this help screen.</span></span>
+  <span data-ttu-id="0ba43-116">**帮助** 显示此帮助屏幕。</span><span class="sxs-lookup"><span data-stu-id="0ba43-116">**Help** Displays this help screen.</span></span>
   
 

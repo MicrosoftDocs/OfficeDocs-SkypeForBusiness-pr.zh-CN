@@ -1,5 +1,6 @@
 ---
 title: 中继范围节点
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,25 +13,25 @@ localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 右键单击某个现有的 SIP 中继拓扑生成器以执行以下中：
-ms.openlocfilehash: 2ce46a56efd8f17c2a59ca27c8b8730712d6bc01
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 1d6b38d7146a53afb96db7552a43cf881fc41974
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061710"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891580"
 ---
-# <a name="trunk-scope-node"></a><span data-ttu-id="e11d5-103">中继范围节点</span><span class="sxs-lookup"><span data-stu-id="e11d5-103">Trunk Scope Node</span></span>
+# <a name="trunk-scope-node"></a><span data-ttu-id="df8ec-103">中继范围节点</span><span class="sxs-lookup"><span data-stu-id="df8ec-103">Trunk Scope Node</span></span>
  
-<span data-ttu-id="e11d5-104">右键单击某个现有的 SIP 中继拓扑生成器以执行以下中：</span><span class="sxs-lookup"><span data-stu-id="e11d5-104">You right click on an existing SIP trunk in Topology Builder to perform the following:</span></span>
+<span data-ttu-id="df8ec-104">右键单击某个现有的 SIP 中继拓扑生成器以执行以下中：</span><span class="sxs-lookup"><span data-stu-id="df8ec-104">You right click on an existing SIP trunk in Topology Builder to perform the following:</span></span>
   
-- <span data-ttu-id="e11d5-105">**编辑属性**：启动用于编辑或重新定义现有 SIP 中继配置的“**编辑属性**”向导</span><span class="sxs-lookup"><span data-stu-id="e11d5-105">**Edit Properties**: Starts the **Edit Properties** wizard used to edit or redefine the configuration of an existing SIP trunk</span></span>
+- <span data-ttu-id="df8ec-105">**编辑属性**：启动用于编辑或重新定义现有 SIP 中继配置的“**编辑属性**”向导</span><span class="sxs-lookup"><span data-stu-id="df8ec-105">**Edit Properties**: Starts the **Edit Properties** wizard used to edit or redefine the configuration of an existing SIP trunk</span></span>
     
-<span data-ttu-id="e11d5-106">除了“编辑属性”选项之外，还可以执行以下常规任务：</span><span class="sxs-lookup"><span data-stu-id="e11d5-106">In addition to the Edit Properties option, you can perform the following general tasks:</span></span>
+<span data-ttu-id="df8ec-106">除了“编辑属性”选项之外，还可以执行以下常规任务：</span><span class="sxs-lookup"><span data-stu-id="df8ec-106">In addition to the Edit Properties option, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="e11d5-p101">**拓扑**。可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并以前版本 Lync Server 的组件或删除部署。</span><span class="sxs-lookup"><span data-stu-id="e11d5-p101">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions of Lync Server, or remove the deployment.</span></span>
+- <span data-ttu-id="df8ec-p101">**拓扑**。可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并以前版本 Lync Server 的组件或删除部署。</span><span class="sxs-lookup"><span data-stu-id="df8ec-p101">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions of Lync Server, or remove the deployment.</span></span>
     
-- <span data-ttu-id="e11d5-p102">**删除** 使用此选项可删除当前选定的项目。其他依赖项可能会阻止删除。会显示一个对话框指示需要首先解决哪些服务和依赖项，然后才能删除该项目。</span><span class="sxs-lookup"><span data-stu-id="e11d5-p102">**Delete** You use this selection to remove the currently selected item. Other dependencies may prevent the deletion. A dialog will indicate what services and dependencies need to be resolved before the item can be removed.</span></span>
+- <span data-ttu-id="df8ec-p102">**删除** 使用此选项可删除当前选定的项目。其他依赖项可能会阻止删除。会显示一个对话框指示需要首先解决哪些服务和依赖项，然后才能删除该项目。</span><span class="sxs-lookup"><span data-stu-id="df8ec-p102">**Delete** You use this selection to remove the currently selected item. Other dependencies may prevent the deletion. A dialog will indicate what services and dependencies need to be resolved before the item can be removed.</span></span>
     
-- <span data-ttu-id="e11d5-p103">**帮助**。可以使用此选项访问活动节点的“帮助”。</span><span class="sxs-lookup"><span data-stu-id="e11d5-p103">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="df8ec-p103">**帮助**。可以使用此选项访问活动节点的“帮助”。</span><span class="sxs-lookup"><span data-stu-id="df8ec-p103">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

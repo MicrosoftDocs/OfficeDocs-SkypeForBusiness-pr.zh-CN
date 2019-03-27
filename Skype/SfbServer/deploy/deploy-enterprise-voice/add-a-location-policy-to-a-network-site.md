@@ -1,5 +1,6 @@
 ---
 title: 业务服务器添加到网络站点中 Skype 位置策略
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,48 +14,48 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: 为业务 Server 企业语音给 Skype 中的网络站点分配 E9-1-1 位置策略。
-ms.openlocfilehash: caf7de4816c30ba77a4215457b503ac0f8fe9640
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7a6930fddcadc9b9eb772d20c21ff1e13be6bef0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370880"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890344"
 ---
-# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a><span data-ttu-id="a3e64-103">业务服务器添加到网络站点中 Skype 位置策略</span><span class="sxs-lookup"><span data-stu-id="a3e64-103">Add a location policy to a network site in Skype for Business Server</span></span>
+# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a><span data-ttu-id="42de7-103">业务服务器添加到网络站点中 Skype 位置策略</span><span class="sxs-lookup"><span data-stu-id="42de7-103">Add a location policy to a network site in Skype for Business Server</span></span>
  
-<span data-ttu-id="a3e64-104">为业务 Server 企业语音给 Skype 中的网络站点分配 E9-1-1 位置策略。</span><span class="sxs-lookup"><span data-stu-id="a3e64-104">Assign E9-1-1 location policies to network sites in Skype for Business Server Enterprise Voice.</span></span> 
+<span data-ttu-id="42de7-104">为业务 Server 企业语音给 Skype 中的网络站点分配 E9-1-1 位置策略。</span><span class="sxs-lookup"><span data-stu-id="42de7-104">Assign E9-1-1 location policies to network sites in Skype for Business Server Enterprise Voice.</span></span> 
   
-<span data-ttu-id="a3e64-105">下面的示例演示如何添加到现有网络站点[中的业务服务器 Skype 的创建位置策略](create-location-policies.md)中定义的**Redmond**位置策略以及如何创建新的网络站点使用**雷德蒙德**位置策略。</span><span class="sxs-lookup"><span data-stu-id="a3e64-105">The following examples show how to add the **Redmond** location policy defined in [Create location policies in Skype for Business Server](create-location-policies.md) to an existing network site and how to create a new network site that uses the **Redmond** location policy.</span></span>
+<span data-ttu-id="42de7-105">下面的示例演示如何添加到现有网络站点[中的业务服务器 Skype 的创建位置策略](create-location-policies.md)中定义的**Redmond**位置策略以及如何创建新的网络站点使用**雷德蒙德**位置策略。</span><span class="sxs-lookup"><span data-stu-id="42de7-105">The following examples show how to add the **Redmond** location policy defined in [Create location policies in Skype for Business Server](create-location-policies.md) to an existing network site and how to create a new network site that uses the **Redmond** location policy.</span></span>
   
-<span data-ttu-id="a3e64-106">有关使用网络站点的详细信息，请参阅 Lync Server 命令行管理程序文档中以下 cmdlet:</span><span class="sxs-lookup"><span data-stu-id="a3e64-106">For details about working with network sites, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
+<span data-ttu-id="42de7-106">有关使用网络站点的详细信息，请参阅 Lync Server 命令行管理程序文档中以下 cmdlet:</span><span class="sxs-lookup"><span data-stu-id="42de7-106">For details about working with network sites, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
   
-- <span data-ttu-id="a3e64-107">**新可**</span><span class="sxs-lookup"><span data-stu-id="a3e64-107">**New-CsNetworkSite**</span></span>
+- <span data-ttu-id="42de7-107">**New-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="42de7-107">**New-CsNetworkSite**</span></span>
     
-- <span data-ttu-id="a3e64-108">**Get-csnetworksite**</span><span class="sxs-lookup"><span data-stu-id="a3e64-108">**Get-CsNetworkSite**</span></span>
+- <span data-ttu-id="42de7-108">**Get-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="42de7-108">**Get-CsNetworkSite**</span></span>
     
-- <span data-ttu-id="a3e64-109">**Set-csnetworksite**</span><span class="sxs-lookup"><span data-stu-id="a3e64-109">**Set-CsNetworkSite**</span></span>
+- <span data-ttu-id="42de7-109">**Set-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="42de7-109">**Set-CsNetworkSite**</span></span>
     
-- <span data-ttu-id="a3e64-110">**删除可**</span><span class="sxs-lookup"><span data-stu-id="a3e64-110">**Remove-CsNetworkSite**</span></span>
+- <span data-ttu-id="42de7-110">**Remove-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="42de7-110">**Remove-CsNetworkSite**</span></span>
     
-### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a><span data-ttu-id="a3e64-111">为现有网络站点分配位置策略</span><span class="sxs-lookup"><span data-stu-id="a3e64-111">To assign a location policy to an existing network site</span></span>
+### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a><span data-ttu-id="42de7-111">为现有网络站点分配位置策略</span><span class="sxs-lookup"><span data-stu-id="42de7-111">To assign a location policy to an existing network site</span></span>
 
-1. <span data-ttu-id="a3e64-112">启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。</span><span class="sxs-lookup"><span data-stu-id="a3e64-112">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="42de7-112">启动 Skype for Business Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\* 和“Skype for Business 2015”\*\*\*\*，然后单击“Skype for Business Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="42de7-112">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="a3e64-113">运行以下 cmdlet 以修改现有网络站点。</span><span class="sxs-lookup"><span data-stu-id="a3e64-113">Run the following cmdlets to modify an existing network site.</span></span>
+2. <span data-ttu-id="42de7-113">运行以下 cmdlet 以修改现有网络站点。</span><span class="sxs-lookup"><span data-stu-id="42de7-113">Run the following cmdlets to modify an existing network site.</span></span>
     
-    <span data-ttu-id="a3e64-114">将带 **Redmond** 标记的位置策略分配给名为 **Redmond** 的现有网络站点。</span><span class="sxs-lookup"><span data-stu-id="a3e64-114">Assign the **Redmond** tagged Location policy to an existing network site named **Redmond**.</span></span>
+    <span data-ttu-id="42de7-114">将带 **Redmond** 标记的位置策略分配给名为 **Redmond** 的现有网络站点。</span><span class="sxs-lookup"><span data-stu-id="42de7-114">Assign the **Redmond** tagged Location policy to an existing network site named **Redmond**.</span></span>
     
    ```
    Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 
-### <a name="to-assign-a-location-policy-to-a-new-network-site"></a><span data-ttu-id="a3e64-115">为新的网络站点分配位置策略</span><span class="sxs-lookup"><span data-stu-id="a3e64-115">To assign a location policy to a new network site</span></span>
+### <a name="to-assign-a-location-policy-to-a-new-network-site"></a><span data-ttu-id="42de7-115">为新的网络站点分配位置策略</span><span class="sxs-lookup"><span data-stu-id="42de7-115">To assign a location policy to a new network site</span></span>
 
-1. <span data-ttu-id="a3e64-116">启动 Skype for Business Server 命令行管理程序：依次单击“**开始**”、“**所有程序**”和“**Skype for Business 2015**”，然后单击“**Skype for Business Server 命令行管理程序**”。</span><span class="sxs-lookup"><span data-stu-id="a3e64-116">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="42de7-116">启动 Skype for Business Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\* 和“Skype for Business 2015”\*\*\*\*，然后单击“Skype for Business Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="42de7-116">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="a3e64-117">运行以下 cmdlet 以创建新的网络站点。</span><span class="sxs-lookup"><span data-stu-id="a3e64-117">Run the following cmdlet to create a new network site.</span></span>
+2. <span data-ttu-id="42de7-117">运行以下 cmdlet 以创建新的网络站点。</span><span class="sxs-lookup"><span data-stu-id="42de7-117">Run the following cmdlet to create a new network site.</span></span>
     
-    <span data-ttu-id="a3e64-118">在网络区域中创建新的网络站点，并分配带 **Redmond** 标记的位置策略。</span><span class="sxs-lookup"><span data-stu-id="a3e64-118">Create a new network site in the network region and assign the **Redmond** tagged Location policy.</span></span>
+    <span data-ttu-id="42de7-118">在网络区域中创建新的网络站点，并分配带 **Redmond** 标记的位置策略。</span><span class="sxs-lookup"><span data-stu-id="42de7-118">Create a new network site in the network region and assign the **Redmond** tagged Location policy.</span></span>
     
    ```
    New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"

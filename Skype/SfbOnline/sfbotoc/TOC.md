@@ -316,7 +316,7 @@
 
 ## [为 Windows PowerShell 设置计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 ### [诊断与 Skype for Business Online 连接器的连接问题](../set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector.md)
-### [下载并安装 Windows PowerShell 3.0](../set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-3-0.md)
+### [下载并安装 Windows PowerShell 3.0](../set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1.md)
 ### [下载并安装 Skype for Business Online 连接器](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)
 ### [管理 Exchange 统一消息和托管语音邮件](../set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail.md)
 ### [管理用户帐户](../set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
