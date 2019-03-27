@@ -16,76 +16,76 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67202207b5668022f4e0b33acc2d20f3c4abd7aa
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 60af1c90cd1dbd7855da7686950ffd135d1da5dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462705"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876765"
 ---
-# <a name="configure-network-settings-for-location-based-routing"></a><span data-ttu-id="59199-103">为基于位置的路由配置网络设置</span><span class="sxs-lookup"><span data-stu-id="59199-103">Configure network settings for Location-Based Routing</span></span>
+# <a name="configure-network-settings-for-location-based-routing"></a><span data-ttu-id="26ecf-103">为基于位置的路由配置网络设置</span><span class="sxs-lookup"><span data-stu-id="26ecf-103">Configure network settings for Location-Based Routing</span></span>
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
-<span data-ttu-id="59199-104">如果您尚未进行，请阅读[Plan Location-Based 路由直接路由中](location-based-routing-plan.md)查看您需要执行其他步骤之前部署基于位置的路由的网络设置。</span><span class="sxs-lookup"><span data-stu-id="59199-104">If you haven't already done so, read [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md) to review other steps you'll need to take before you deploy network settings for Location-Based Routing.</span></span>
+<span data-ttu-id="26ecf-104">如果您尚未进行，请阅读[Plan Location-Based 路由直接路由中](location-based-routing-plan.md)查看您需要执行其他步骤之后，配置基于位置的路由的网络设置。</span><span class="sxs-lookup"><span data-stu-id="26ecf-104">If you haven't already done so, read [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md) to review other steps you'll need to take before you configure network settings for Location-Based Routing.</span></span>
 
-<span data-ttu-id="59199-105">本文介绍如何配置基于位置的路由的网络设置。</span><span class="sxs-lookup"><span data-stu-id="59199-105">This article describes how to configure network settings for Location-Based Routing.</span></span> <span data-ttu-id="59199-106">在组织中部署电话系统直接路由后下, 一步步骤是创建和设置网络区域、 网络站点和网络子网。</span><span class="sxs-lookup"><span data-stu-id="59199-106">After you deploy Phone System Direct Routing in your organization, the next steps are to create and set up network regions, network sites, and network subnets.</span></span> <span data-ttu-id="59199-107">若要完成本文中的步骤，您将需要一些熟悉 PowerShell cmdlet。</span><span class="sxs-lookup"><span data-stu-id="59199-107">To complete the steps in this article, you'll need some familiarity with PowerShell cmdlets.</span></span> <span data-ttu-id="59199-108">若要了解详细信息，请参阅[团队 PowerShell 概述](teams-powershell-overview.md)。</span><span class="sxs-lookup"><span data-stu-id="59199-108">To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md).</span></span>
+<span data-ttu-id="26ecf-105">本文介绍如何配置基于位置的路由的网络设置。</span><span class="sxs-lookup"><span data-stu-id="26ecf-105">This article describes how to configure network settings for Location-Based Routing.</span></span> <span data-ttu-id="26ecf-106">在组织中部署电话系统直接路由后下, 一步步骤是创建和设置网络区域、 网络站点和网络子网。</span><span class="sxs-lookup"><span data-stu-id="26ecf-106">After you deploy Phone System Direct Routing in your organization, the next steps are to create and set up network regions, network sites, and network subnets.</span></span> <span data-ttu-id="26ecf-107">若要完成本文中的步骤，您将需要一些熟悉 PowerShell cmdlet。</span><span class="sxs-lookup"><span data-stu-id="26ecf-107">To complete the steps in this article, you'll need some familiarity with PowerShell cmdlets.</span></span> <span data-ttu-id="26ecf-108">若要了解详细信息，请参阅[团队 PowerShell 概述](teams-powershell-overview.md)。</span><span class="sxs-lookup"><span data-stu-id="26ecf-108">To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md).</span></span>
 
-## <a name="define-network-regions"></a><span data-ttu-id="59199-109">定义网络区域</span><span class="sxs-lookup"><span data-stu-id="59199-109">Define network regions</span></span>
- <span data-ttu-id="59199-110">网络区域互连跨多个地理区域的网络的各个部分。</span><span class="sxs-lookup"><span data-stu-id="59199-110">A network region interconnects various parts of a network across multiple geographic areas.</span></span> <span data-ttu-id="59199-111">使用``New-CsTenantNetworkRegion``PowerShell cmdlet 定义网络区域。</span><span class="sxs-lookup"><span data-stu-id="59199-111">Use the ``New-CsTenantNetworkRegion`` PowerShell cmdlet to define network regions.</span></span> <span data-ttu-id="59199-112">请注意，``RegionID``参数是一个代表区域的 geography 并且没有依赖项或限制的逻辑名称和``CentralSite <site ID>``参数是可选的。</span><span class="sxs-lookup"><span data-stu-id="59199-112">Note that the ``RegionID`` parameter is a logical name that represents the geography of the region and has no dependencies or restrictions and the ``CentralSite <site ID>`` parameter is optional.</span></span> 
+## <a name="define-network-regions"></a><span data-ttu-id="26ecf-109">定义网络区域</span><span class="sxs-lookup"><span data-stu-id="26ecf-109">Define network regions</span></span>
+ <span data-ttu-id="26ecf-110">网络区域互连跨多个地理区域的网络的各个部分。</span><span class="sxs-lookup"><span data-stu-id="26ecf-110">A network region interconnects various parts of a network across multiple geographic areas.</span></span> <span data-ttu-id="26ecf-111">[新建 CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) cmdlet 用于定义网络区域。</span><span class="sxs-lookup"><span data-stu-id="26ecf-111">Use the [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) cmdlet to define network regions.</span></span> <span data-ttu-id="26ecf-112">请注意，RegionID 参数是逻辑名称，它代表区域的地理位置和已没有依赖项或限制和 CentralSite&lt;网站 ID&gt;参数是可选的。</span><span class="sxs-lookup"><span data-stu-id="26ecf-112">Note that the RegionID parameter is a logical name that represents the geography of the region and has no dependencies or restrictions and the CentralSite &lt;site ID&gt; parameter is optional.</span></span> 
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
 ```
 
-<span data-ttu-id="59199-113">本示例中，我们将创建名为印度网络区域。</span><span class="sxs-lookup"><span data-stu-id="59199-113">In this example, we create a network region named India.</span></span> 
+<span data-ttu-id="26ecf-113">本示例中，我们将创建名为印度网络区域。</span><span class="sxs-lookup"><span data-stu-id="26ecf-113">In this example, we create a network region named India.</span></span> 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID "India"  
 ```
 
-## <a name="define-network-sites"></a><span data-ttu-id="59199-114">定义网络站点</span><span class="sxs-lookup"><span data-stu-id="59199-114">Define network sites</span></span>
+## <a name="define-network-sites"></a><span data-ttu-id="26ecf-114">定义网络站点</span><span class="sxs-lookup"><span data-stu-id="26ecf-114">Define network sites</span></span>
 
-<span data-ttu-id="59199-115">使用``New-CsTenantNetworkSite``PowerShell cmdlet 定义网络站点。</span><span class="sxs-lookup"><span data-stu-id="59199-115">Use the ``New-CsTenantNetworkSite`` PowerShell cmdlet to define network sites.</span></span> 
+<span data-ttu-id="26ecf-115">[新建 CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) cmdlet 用于定义网络站点。</span><span class="sxs-lookup"><span data-stu-id="26ecf-115">Use the [New-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) cmdlet to define network sites.</span></span> 
 
 ```
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
-<span data-ttu-id="59199-116">本示例中，我们将创建两个新网络站点，德里和海德拉巴，印度区域中。</span><span class="sxs-lookup"><span data-stu-id="59199-116">In this example, we create two new network sites, Delhi and Hyderabad, in the India region.</span></span> 
+<span data-ttu-id="26ecf-116">本示例中，我们将创建两个新网络站点，德里和海德拉巴，印度区域中。</span><span class="sxs-lookup"><span data-stu-id="26ecf-116">In this example, we create two new network sites, Delhi and Hyderabad, in the India region.</span></span> 
 ```
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India" 
 New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India" 
 ```
-<span data-ttu-id="59199-117">下表显示了在此示例中定义的网络站点。</span><span class="sxs-lookup"><span data-stu-id="59199-117">The following table shows the network sites defined in this example.</span></span> 
+<span data-ttu-id="26ecf-117">下表显示了在此示例中定义的网络站点。</span><span class="sxs-lookup"><span data-stu-id="26ecf-117">The following table shows the network sites defined in this example.</span></span> 
 
-||<span data-ttu-id="59199-118">站点 1</span><span class="sxs-lookup"><span data-stu-id="59199-118">Site 1</span></span> |<span data-ttu-id="59199-119">站点 2</span><span class="sxs-lookup"><span data-stu-id="59199-119">Site 2</span></span> |
+||<span data-ttu-id="26ecf-118">站点 1</span><span class="sxs-lookup"><span data-stu-id="26ecf-118">Site 1</span></span> |<span data-ttu-id="26ecf-119">站点 2</span><span class="sxs-lookup"><span data-stu-id="26ecf-119">Site 2</span></span> |
 |---------|---------|---------|
-|<span data-ttu-id="59199-120">网站 ID</span><span class="sxs-lookup"><span data-stu-id="59199-120">Site ID</span></span>    |    <span data-ttu-id="59199-121">站点 1 （德里）</span><span class="sxs-lookup"><span data-stu-id="59199-121">Site 1 (Delhi)</span></span>     |  <span data-ttu-id="59199-122">站点 2 （海德拉巴）</span><span class="sxs-lookup"><span data-stu-id="59199-122">Site 2 (Hyderabad)</span></span>       |
-|<span data-ttu-id="59199-123">地区 ID</span><span class="sxs-lookup"><span data-stu-id="59199-123">Region ID</span></span>  |     <span data-ttu-id="59199-124">区域 1 （印度）</span><span class="sxs-lookup"><span data-stu-id="59199-124">Region 1 (India)</span></span>    |   <span data-ttu-id="59199-125">区域 1 （印度）</span><span class="sxs-lookup"><span data-stu-id="59199-125">Region 1 (India)</span></span>      |
+|<span data-ttu-id="26ecf-120">网站 ID</span><span class="sxs-lookup"><span data-stu-id="26ecf-120">Site ID</span></span>    |    <span data-ttu-id="26ecf-121">站点 1 （德里）</span><span class="sxs-lookup"><span data-stu-id="26ecf-121">Site 1 (Delhi)</span></span>     |  <span data-ttu-id="26ecf-122">站点 2 （海德拉巴）</span><span class="sxs-lookup"><span data-stu-id="26ecf-122">Site 2 (Hyderabad)</span></span>       |
+|<span data-ttu-id="26ecf-123">地区 ID</span><span class="sxs-lookup"><span data-stu-id="26ecf-123">Region ID</span></span>  |     <span data-ttu-id="26ecf-124">区域 1 （印度）</span><span class="sxs-lookup"><span data-stu-id="26ecf-124">Region 1 (India)</span></span>    |   <span data-ttu-id="26ecf-125">区域 1 （印度）</span><span class="sxs-lookup"><span data-stu-id="26ecf-125">Region 1 (India)</span></span>      |
 
-## <a name="define-network-subnets"></a><span data-ttu-id="59199-126">定义网络子网</span><span class="sxs-lookup"><span data-stu-id="59199-126">Define network subnets</span></span>
+## <a name="define-network-subnets"></a><span data-ttu-id="26ecf-126">定义网络子网</span><span class="sxs-lookup"><span data-stu-id="26ecf-126">Define network subnets</span></span>
 
-<span data-ttu-id="59199-127">使用``New-CsTenantNetworkSubnet``cmdlet，以定义网络子网，并将它们关联到网络站点。</span><span class="sxs-lookup"><span data-stu-id="59199-127">Use the ``New-CsTenantNetworkSubnet`` cmdlet to define network subnets and associate them to network sites.</span></span> <span data-ttu-id="59199-128">每个内部子网只能与一个站点关联。</span><span class="sxs-lookup"><span data-stu-id="59199-128">Each internal subnet can only be associated with one site.</span></span> 
+<span data-ttu-id="26ecf-127">[新建 CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) cmdlet 用于定义网络子网，并将它们关联到网络站点。</span><span class="sxs-lookup"><span data-stu-id="26ecf-127">Use the [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) cmdlet to define network subnets and associate them to network sites.</span></span> <span data-ttu-id="26ecf-128">每个内部子网只能与一个站点关联。</span><span class="sxs-lookup"><span data-stu-id="26ecf-128">Each internal subnet can only be associated with one site.</span></span> 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
-<span data-ttu-id="59199-129">本示例中，我们将创建子网 192.168.0.0 之间德里网络站点和子网为 192.168.1.0 和海德拉巴网络站点之间的关联。</span><span class="sxs-lookup"><span data-stu-id="59199-129">In this example, we create an association between subnet 192.168.0.0 and the Delhi network site and between subnet 192.168.1.0 and the Hyderabad network site.</span></span>
+<span data-ttu-id="26ecf-129">本示例中，我们将创建子网 192.168.0.0 之间德里网络站点和子网为 192.168.1.0 和海德拉巴网络站点之间的关联。</span><span class="sxs-lookup"><span data-stu-id="26ecf-129">In this example, we create an association between subnet 192.168.0.0 and the Delhi network site and between subnet 192.168.1.0 and the Hyderabad network site.</span></span>
 ```
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi" 
 New-CsTenantNetworkSubnet -SubnetID "192.168.1.0" -MaskBits "24" -NetworkSiteID "Hyderabad" 
 ```
-<span data-ttu-id="59199-130">下表显示了在此示例中定义的子网。</span><span class="sxs-lookup"><span data-stu-id="59199-130">The following table shows the subnets defined in this example.</span></span> 
+<span data-ttu-id="26ecf-130">下表显示了在此示例中定义的子网。</span><span class="sxs-lookup"><span data-stu-id="26ecf-130">The following table shows the subnets defined in this example.</span></span> 
 
-||<span data-ttu-id="59199-131">站点 1</span><span class="sxs-lookup"><span data-stu-id="59199-131">Site 1</span></span> |<span data-ttu-id="59199-132">站点 2</span><span class="sxs-lookup"><span data-stu-id="59199-132">Site 2</span></span> |
+||<span data-ttu-id="26ecf-131">站点 1</span><span class="sxs-lookup"><span data-stu-id="26ecf-131">Site 1</span></span> |<span data-ttu-id="26ecf-132">站点 2</span><span class="sxs-lookup"><span data-stu-id="26ecf-132">Site 2</span></span> |
 |---------|---------|---------|
-|<span data-ttu-id="59199-133">子网 ID</span><span class="sxs-lookup"><span data-stu-id="59199-133">Subnet ID</span></span>   |    <span data-ttu-id="59199-134">192.168.0.0</span><span class="sxs-lookup"><span data-stu-id="59199-134">192.168.0.0</span></span>     |  <span data-ttu-id="59199-135">192.168.1.0</span><span class="sxs-lookup"><span data-stu-id="59199-135">192.168.1.0</span></span>     |
-|<span data-ttu-id="59199-136">掩码</span><span class="sxs-lookup"><span data-stu-id="59199-136">Mask</span></span>  |     <span data-ttu-id="59199-137">24</span><span class="sxs-lookup"><span data-stu-id="59199-137">24</span></span>    |   <span data-ttu-id="59199-138">24</span><span class="sxs-lookup"><span data-stu-id="59199-138">24</span></span>      |
-|<span data-ttu-id="59199-139">网站 ID</span><span class="sxs-lookup"><span data-stu-id="59199-139">Site ID</span></span>  | <span data-ttu-id="59199-140">网站 （德里）</span><span class="sxs-lookup"><span data-stu-id="59199-140">Site (Delhi)</span></span> | <span data-ttu-id="59199-141">站点 2 （海德拉巴）</span><span class="sxs-lookup"><span data-stu-id="59199-141">Site 2 (Hyderabad)</span></span> |
+|<span data-ttu-id="26ecf-133">子网 ID</span><span class="sxs-lookup"><span data-stu-id="26ecf-133">Subnet ID</span></span>   |    <span data-ttu-id="26ecf-134">192.168.0.0</span><span class="sxs-lookup"><span data-stu-id="26ecf-134">192.168.0.0</span></span>     |  <span data-ttu-id="26ecf-135">192.168.1.0</span><span class="sxs-lookup"><span data-stu-id="26ecf-135">192.168.1.0</span></span>     |
+|<span data-ttu-id="26ecf-136">掩码</span><span class="sxs-lookup"><span data-stu-id="26ecf-136">Mask</span></span>  |     <span data-ttu-id="26ecf-137">24</span><span class="sxs-lookup"><span data-stu-id="26ecf-137">24</span></span>    |   <span data-ttu-id="26ecf-138">24</span><span class="sxs-lookup"><span data-stu-id="26ecf-138">24</span></span>      |
+|<span data-ttu-id="26ecf-139">网站 ID</span><span class="sxs-lookup"><span data-stu-id="26ecf-139">Site ID</span></span>  | <span data-ttu-id="26ecf-140">网站 （德里）</span><span class="sxs-lookup"><span data-stu-id="26ecf-140">Site (Delhi)</span></span> | <span data-ttu-id="26ecf-141">站点 2 （海德拉巴）</span><span class="sxs-lookup"><span data-stu-id="26ecf-141">Site 2 (Hyderabad)</span></span> |
 
-<span data-ttu-id="59199-142">对于多子网，您可以使用如下所示脚本导入 CSV 文件。</span><span class="sxs-lookup"><span data-stu-id="59199-142">For multiple subnets, you can import a CSV file by using a script such as the following.</span></span>
+<span data-ttu-id="26ecf-142">对于多子网，您可以使用如下所示脚本导入 CSV 文件。</span><span class="sxs-lookup"><span data-stu-id="26ecf-142">For multiple subnets, you can import a CSV file by using a script such as the following.</span></span>
 ```
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
-<span data-ttu-id="59199-143">本示例中，该 CSV 文件如下所示：</span><span class="sxs-lookup"><span data-stu-id="59199-143">In this example, the CSV file looks something like this:</span></span>
+<span data-ttu-id="26ecf-143">本示例中，该 CSV 文件如下所示：</span><span class="sxs-lookup"><span data-stu-id="26ecf-143">In this example, the CSV file looks something like this:</span></span>
 ```
 Identity, Mask, SiteID 
 172.11.12.0, 24, Redmond 
@@ -93,19 +93,19 @@ Identity, Mask, SiteID
 172.11.14.0, 25, Vancouver 
 172.11.15.0, 28, Paris
 ```
-## <a name="define-external-subnets"></a><span data-ttu-id="59199-144">定义外部子网</span><span class="sxs-lookup"><span data-stu-id="59199-144">Define external subnets</span></span>
-<span data-ttu-id="59199-145">使用``New-CsTenantTrustedIPAddress``cmdlet，以定义外部子网，并将其分配到租户。</span><span class="sxs-lookup"><span data-stu-id="59199-145">Use the ``New-CsTenantTrustedIPAddress`` cmdlet to define external subnets and assign them to the tenant.</span></span> <span data-ttu-id="59199-146">您可以定义任意的数量的子网租户。</span><span class="sxs-lookup"><span data-stu-id="59199-146">You can define an unlimited number of subnets for a tenant.</span></span> 
+## <a name="define-external-subnets"></a><span data-ttu-id="26ecf-144">定义外部子网</span><span class="sxs-lookup"><span data-stu-id="26ecf-144">Define external subnets</span></span>
+<span data-ttu-id="26ecf-145">[新建 CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) cmdlet 用于定义外部子网，并将其分配到租户。</span><span class="sxs-lookup"><span data-stu-id="26ecf-145">Use the [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) cmdlet to define external subnets and assign them to the tenant.</span></span> <span data-ttu-id="26ecf-146">您可以定义任意的数量的子网租户。</span><span class="sxs-lookup"><span data-stu-id="26ecf-146">You can define an unlimited number of subnets for a tenant.</span></span> 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
-<span data-ttu-id="59199-147">例如：</span><span class="sxs-lookup"><span data-stu-id="59199-147">For example:</span></span>
+<span data-ttu-id="26ecf-147">例如：</span><span class="sxs-lookup"><span data-stu-id="26ecf-147">For example:</span></span>
 ```
 New-CsTenantTrustedIPAddress -IPAddress 167.220.2.206 -MaskBits 30 -Description "Contoso address"  
 ```
 
-## <a name="next-steps"></a><span data-ttu-id="59199-148">后续步骤</span><span class="sxs-lookup"><span data-stu-id="59199-148">Next steps</span></span>
-<span data-ttu-id="59199-149">转到[启用直接路由基于位置的路由](location-based-routing-enable.md)。</span><span class="sxs-lookup"><span data-stu-id="59199-149">Go to [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md).</span></span>
+## <a name="next-steps"></a><span data-ttu-id="26ecf-148">后续步骤</span><span class="sxs-lookup"><span data-stu-id="26ecf-148">Next steps</span></span>
+<span data-ttu-id="26ecf-149">转到[启用直接路由基于位置的路由](location-based-routing-enable.md)。</span><span class="sxs-lookup"><span data-stu-id="26ecf-149">Go to [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md).</span></span>
 
-### <a name="related-topics"></a><span data-ttu-id="59199-150">相关主题</span><span class="sxs-lookup"><span data-stu-id="59199-150">Related topics</span></span>
-- [<span data-ttu-id="59199-151">为直接路由计划基于位置的路由</span><span class="sxs-lookup"><span data-stu-id="59199-151">Plan Location-Based Routing for Direct Routing</span></span>](location-based-routing-plan.md)
-- [<span data-ttu-id="59199-152">基于位置的路由术语</span><span class="sxs-lookup"><span data-stu-id="59199-152">Location-Based Routing terminology</span></span>](location-based-routing-terminology.md)
+### <a name="related-topics"></a><span data-ttu-id="26ecf-150">相关主题</span><span class="sxs-lookup"><span data-stu-id="26ecf-150">Related topics</span></span>
+- [<span data-ttu-id="26ecf-151">为直接路由计划基于位置的路由</span><span class="sxs-lookup"><span data-stu-id="26ecf-151">Plan Location-Based Routing for Direct Routing</span></span>](location-based-routing-plan.md)
+- [<span data-ttu-id="26ecf-152">基于位置的路由术语</span><span class="sxs-lookup"><span data-stu-id="26ecf-152">Location-Based Routing terminology</span></span>](location-based-routing-terminology.md)

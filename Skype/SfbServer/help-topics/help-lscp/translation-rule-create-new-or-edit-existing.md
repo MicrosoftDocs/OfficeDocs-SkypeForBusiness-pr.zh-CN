@@ -1,5 +1,6 @@
 ---
 title: 转换规则创建新的或编辑现有的
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,21 +12,21 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
-description: 您希望执行什么操作？单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 8570045ae05d1c6d825c00cdefc050d759667371
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+ms.openlocfilehash: 5b1464e905ee413bbf2d206881c6fdaf5e1ce644
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260382"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878000"
 ---
-# <a name="translation-rule-create-new-or-edit-existing"></a><span data-ttu-id="af207-104">转换规则： 创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="af207-104">Translation Rule: Create New or Edit Existing</span></span>
+# <a name="translation-rule-create-new-or-edit-existing"></a><span data-ttu-id="4dcb1-104">转换规则：创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="4dcb1-104">Translation Rule: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="af207-p102">您希望执行什么操作？单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="af207-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="4dcb1-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="4dcb1-105">What do you want to do?</span></span> <span data-ttu-id="4dcb1-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="4dcb1-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="af207-107">在 Skype for Business Server 2015 中创建或修改来电显示的转换规则</span><span class="sxs-lookup"><span data-stu-id="af207-107">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [<span data-ttu-id="4dcb1-107">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="4dcb1-107">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [<span data-ttu-id="af207-108">手动创建或修改转换规则</span><span class="sxs-lookup"><span data-stu-id="af207-108">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [<span data-ttu-id="4dcb1-108">手动创建或修改转换规则</span><span class="sxs-lookup"><span data-stu-id="4dcb1-108">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
-<span data-ttu-id="af207-109">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="af207-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="4dcb1-109">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="4dcb1-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
