@@ -1,6 +1,7 @@
 ---
 title: Microsoft Teams 培训
-description: 使用这些最终用户、 管理员和教师授课实况培训资源可帮助您充分利用 Microsoft 团队您的组织中。
+ms.reviewer: ''
+description: 这些最终用户、管理员和讲师指导培训资源可帮助你充分利用组织中的 Microsoft Teams。
 layout: LandingPage
 ms.topic: landing-page
 author: LolaJacobsen
@@ -8,18 +9,19 @@ ms.author: lolaj
 manager: serdars
 ms.date: 03/19/2019
 ms.service: msteams
+localization_priority: Priority
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddc0e9cb6c3f8a708b7633a5731908e0a27db8ff
-ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
-ms.translationtype: MT
+ms.openlocfilehash: 81a8b7fe6043d868d88c24c4d1b2573e71f31beb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30684038"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878883"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 培训
 
@@ -38,7 +40,7 @@ ms.locfileid: "30684038"
                     </div>
                     <div class="cardText">
                         <h3>管理员培训</h3>
-                        <p>使用这些教程、 视频和其他培训资源来了解团队和组织中驱动器使用率。</p>
+                        <p>在这些教程、视频和其他培训资源中了解 Teams 并促进其在你的组织内的使用。</p>
                     </div>
                 </div>
             </div>
@@ -56,8 +58,8 @@ ms.locfileid: "30684038"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>教师授课实况培训</h3>
-                        <p>Microsoft 承载免费、 实时、 联机培训课程旨在让您并运行与团队。 加入我们，在操作，请参阅工作组和获取问题的解答，并与其交互我们 live ヘ。</p>
+                        <h3>讲师指导培训</h3>
+                        <p>Microsoft 主持的免费实时在线培训课程专为帮助你使用 Teams 实现起步和发展。 加入我们，以查看 Teams 的实际应用，获取问题的答案并与我们的导师实时互动。</p>
                     </div>
                 </div>
             </div>
@@ -76,7 +78,7 @@ ms.locfileid: "30684038"
                     </div>
                     <div class="cardText">
                         <h3>最终用户培训</h3>
-                        <p>使用这些培训资源，帮助您的组织中的用户充分利用团队。</p>
+                        <p>利用这些培训资源来帮助组织内部用户充分利用 Teams。</p>
                     </div>
                 </div>
             </div>
@@ -87,8 +89,8 @@ ms.locfileid: "30684038"
 
 ---
 
-<h2>请不要错过此密钥的培训</h2>
-检查备份经常-我们将保留更新此列表以便将始终了解最新、 最重要的酷团队培训。
+<h2>不要错过这一关键培训</h2>
+经常返回查看 - 我们将持续更新此列表，让你始终了解最新、最酷、最重要的 Teams 培训。
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -106,8 +108,8 @@ ms.locfileid: "30684038"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>团队协作</h3>
-                         <p><a href="https://aka.ms/edx-cld267x-about">课程： 启用与 Microsoft 团队的团队协作</a></p>
+                        <h3>团队合作</h3>
+                         <p><a href="https://aka.ms/edx-cld267x-about">课程：使用 Teams 开启团队合作</a></p>
                     </div>
                 </div>
             </div>
@@ -117,8 +119,8 @@ ms.locfileid: "30684038"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>采用专员证书</h3>
-                        <p><a href="http://aka.ms/AdoptionCert">在早期年 1 月 2019，我们发布 Microsoft 服务采用专员认证课程，其中团队。它将教您如何推行您组织的 Microsoft 服务</a></p>
+                        <h3>采用专家认证</h3>
+                        <p><a href="http://aka.ms/AdoptionCert">Microsoft 服务采用专家认证课程以 Teams 为特色。请了解如何促使 Microsoft 服务在你组织中的采用。</a></p>
                     </div>
                 </div>
             </div>
@@ -129,8 +131,8 @@ ms.locfileid: "30684038"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>介绍 Microsoft 365 中的团队协作</h3>
-                        <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">了解加快团队协作的所有工作者，无论位于何处或他们如何连接到组织的资源的 Microsoft 365 工具。</a></p>
+                        <h3>Microsoft 365 中的团队合作简介</h3>
+                        <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">了解可促进所有工作人员开展团队合作的 Microsoft 365 工具（无论它们位于何处或如何接入你的组织）。</a></p>
                     </div>
                 </div>
             </div>

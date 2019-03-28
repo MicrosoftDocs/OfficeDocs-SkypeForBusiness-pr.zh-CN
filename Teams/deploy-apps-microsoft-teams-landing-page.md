@@ -1,5 +1,6 @@
 ---
 title: Microsoft Teams 中的应用、聊天机器人和连接器
+ms.reviewer: ''
 description: 使用这些部署资源帮助你在 Microsoft Teams 中部署应用。
 ms.topic: article
 author: LolaJacobsen
@@ -14,20 +15,18 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7ccc2c489d4423b906aec92dcb594f82a380e40
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 00653ebb796f0b33fa1461327ad173378fed8e28
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460793"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873166"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的应用、聊天机器人和连接器
 
 应用使你能通过收藏夹服务查找内容，并就在 Teams 中分享内容。 应用可帮助你执行某些操作，例如将服务固定在频道的顶部、与聊天机器人聊天，或者共享和分配任务。 若要了解详细信息，请阅读 [Teams 中的应用概述](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
 
 我们建议你在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。 在推动 Teams 采用的过程中添加其他应用、聊天机器人和连接器。
-
-
 
 ## <a name="apps-deployment-decisions"></a>应用部署决策
 
@@ -39,13 +38,13 @@ Teams 为组织提供了现成的出色协作体验，并且大多数组织发�
 
 ### <a name="app-availability-settings"></a>应用可用性设置 
 
-Teams 提供一些第一方（Microsoft 提供）和第三方应用来吸引用户、支持高效工作，并在 Teams 中集成了常用的业务服务。 从 Teams 应用商店获取应用。 默认情况下，所有应用（包括你通过 [Teams 应用商店审批流程](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)提交的外部应用）均对所有用户开启。 例如，用户可以使用 Planner 应用在 Teams 中构建和管理团队任务。
+Teams 提供了一些由 Microsoft 和第三方发布的应用来吸引客户、支持高效工作，而且 Teams 中还集成了常用的业务服务。 从 Teams 应用商店获取应用。 默认情况下，所有应用（包括你通过 [Teams 应用商店审批流程](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)提交的自定义应用）均对所有用户开启。 例如，用户可以使用 Planner 应用在 Teams 中构建和管理团队任务。
 
-默认情况下，所有 Microsoft 提供的应用和外部应用均可用，并且你可以开启或关闭单独的应用。 你可以通过一项全局设置来为整个组织开启或关闭所有外部应用。
+默认情况下，所有 Microsoft 提供的应用和自定义应用均可用，且你可启用或关闭单独的应用。 可通过一项全组织范围内的设置来为整个组织启用或关闭所有自定义应用。
 
-| 询问你自己 | 操作 |
+| 询问您自己 | 操作 |
 |--------------|--------|
-|是否要更改默认 Teams 应用设置？ | 有关配置外部应用可用性的详细信息，请参阅[在 Microsoft Teams 中管理应用设置](admin-settings.md)。|
+|是否要更改默认 Teams 应用设置？ | 要详细了解可用于管理组织内部应用的策略和设置，请参阅 [Microsoft Teams 中针对应用的管理员设置](admin-settings.md)。|
 |||
 
 ### <a name="app-permissions-and-other-considerations"></a>应用权限和其他注意事项

@@ -1,5 +1,5 @@
 ---
-title: 设置电话系统语音邮件
+title: 设置云语音邮件
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,24 +20,24 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: e0f966d178fb775ff8f9283c6a8097487e8933a2
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: '了解如何为用户设置云语音邮件。 '
+ms.openlocfilehash: 8219934b8e95962f0e9ea81f4965ad9e5c55fb34
+ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541901"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30934769"
 ---
-# <a name="set-up-phone-system-voicemail"></a>设置电话系统语音邮件
+# <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
-本文适用于[Office 365 管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)想要在企业中设置的每个人的电话系统的语音邮件功能。
+本文适用于[Office 365 管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)想要在企业中设置的所有人云语音邮件功能。
 
 > [!NOTE]
-> Phone System voicemail supports depositing voicemail messages only in an Exchange mailbox and doesn't support any third-party email systems. As a fallback mechanism, Phone System voicemail can resend messages using SMTP, which means users with a mailbox on a third-party email system will receive their voicemail messages with no guaranteed service uptime or other voicemail features, such as changing their greetings and other settings.
+> 云语音邮件 Exchange 邮箱中仅支持放入的语音邮件和不支持任何第三方电子邮件系统。 云语音邮件可以重新使用 SMTP，这意味着与第三方电子邮件系统上的邮箱的用户将收到与不保证的服务正常运行时间或其他语音邮件功能，如更改其语音邮件消息的消息发送作为回退的机制，其问候语和其他设置。
 
-## <a name="cloud-only-environments-set-up-phone-system-voicemail"></a>仅限云环境： 设置电话系统的语音邮件
+## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>仅限云环境： 将云语音邮件设置
 
-对于业务联机和调用计划用户 Skype，电话系统的语音邮件是自动设置，然后分配给他们的**电话系统**许可证和电话号码后，为用户设置。
+对于业务联机和调用计划用户 Skype，云语音邮件是自动设置，然后分配给他们的**电话系统**许可证和电话号码后，为用户设置。
   
 1. 如果电话系统功能不包括在您的计划，您可能需要购买附加许可证**电话系统**。 您可能还需要购买 Exchange Online 的许可证。 请参阅[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
@@ -47,13 +47,13 @@ ms.locfileid: "30541901"
 
 ## <a name="phone-system-with-on-premises-environments"></a>本地环境的电话系统
 
-下面是有关配置电话系统语音邮件以用于本地通话套餐环境的信息。
+有关配置云语音邮件，以使用内部部署调用规划环境中的以下信息。
   
 1. 如果电话系统功能不包括在您的计划，您可能需要购买附加许可证**电话系统**。 您还需要购买 Exchange Online 的许可证。 请参阅[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
 2. [分配或删除业务的 Office 365 的许可证](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)，[分配的 Microsoft 团队许可证](assign-teams-licenses.md)，以及您企业中的人员的 Exchange Online 许可证。
     
-3. 按照[配置商务云连接器版指南的 Skype](https://technet.microsoft.com/library/mt605228.aspx)**为用户启用电话系统语音和语音邮件服务**部分中的说明。
+3. 按照[配置商务云连接器版指南的 Skype](https://technet.microsoft.com/library/mt605228.aspx)的**启用用户电话系统的语音和语音邮件服务**部分中的说明。
 
 4. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below.
 
@@ -72,7 +72,7 @@ ms.locfileid: "30541901"
 
  **PS C:\\> Get-CsOnlineVoicemailPolicy**
   
-![Get-CsOnlineVoiceMailPolicy results window.](media/6cea8310-2d71-4b95-8d36-688472845727.png)
+![Get-CsOnlineVoiceMailPolic 结果窗口。](media/6cea8310-2d71-4b95-8d36-688472845727.png)
   
 ### <a name="turning-off-transcription-for-your-organization"></a>为组织禁用转录
 

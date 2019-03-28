@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32fba747deb73b7f4e2c19b96cb4c0c62b741722
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 43344ac9ea00c15bcb4fb7518d727ccc9cff92de
+ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458905"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30934712"
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================
@@ -153,29 +153,36 @@ Microsoft Teams 移动应用的支持移动平台如下：
 此示例脚本，这需要提升的管理员帐户的上下文中的客户端计算机上运行，将创建新的入站的防火墙规则 c:\users 中找到的每个用户文件夹。 当团队找到此规则时，它将阻止团队中的应用程序提示用户创建防火墙规则，当用户进行来自团队其第一个呼叫。 
 
 ```
-$users = Get-Childitem c:\users
-foreach ($user in $users) 
+
+<#
+.Synopsis
+   Creates firewall rules for Teams.
+.DESCRIPTION
+   (c) Microsoft Corporation 2018. All rights reserved. Script provided as-is without any warranty of any kind. Use it freely at your own risks.
+   Must be run with elevated permissions. Can be run as a GPO Computer Startup script, or as a Scheduled Task with elevated permissions. 
+   The script will create a new inbound firewall rule for each user folder found in c:\users. 
+   Requires PowerShell 3.0.
+#>
+
+#Requires -Version 3
+
+$users = Get-ChildItem (Join-Path -Path $env:SystemDrive -ChildPath 'Users') -Exclude 'Public', 'ADMINI~*'
+if ($users.Length -gt 0)
 {
-    $Path = "c:\users\" + $user.Name + "\appdata\local\Microsoft\Teams\Current\Teams.exe"
-    if (Test-Path $Path) 
+    foreach ($user in $users)
     {
-            $name = "teams.exe " + $user.Name
-            if (!(Get-NetFirewallRule -DisplayName $name))
+        $progPath = Join-Path -Path $user.FullName -ChildPath "AppData\Local\Microsoft\Teams\Current\Teams.exe"
+        if (Test-Path $progPath)
         {
-                New-NetFirewallRule -DisplayName “teams.exe” -Direction Inbound -Profile Domain -Program $Path -Action Allow
+            if (-not (Get-NetFirewallApplicationFilter -Program $progPath -ErrorAction SilentlyContinue))
+            {
+                $ruleName = "Teams.exe for user $($user.Name)"
+                "UDP", "TCP" | ForEach-Object { New-NetFirewallRule -DisplayName $ruleName -Direction Inbound -Profile Domain -Program $progPath -Action Allow -Protocol $_ }
+                Clear-Variable ruleName
+            }
         }
+        Clear-Variable progPath
     }
 }
-<#
-        .ABOUT THIS SCRIPT
-        (c) Microsoft Corporation 2018. All rights reserved. Script provided as-is without any warranty of any kind. Use it freely at your own risks.
-
-        Must be run with elevated permissions. Can be run as a GPO Computer Startup script, or as a Scheduled Task with elevated permissions. 
-
-        The script will create a new inbound firewall rule for each user folder found in c:\users. 
-
-        Requires PowerShell 3.0
-        
-#>
 
 ```

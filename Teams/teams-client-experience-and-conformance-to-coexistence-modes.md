@@ -15,27 +15,27 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6972a09a169560d255c2bb118f80dbbdfb2c7f4f
-ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
+ms.openlocfilehash: 4865d66d4d3ff1257d0fc4bd355a65c7c1330101
+ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30800129"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30934785"
 ---
 <a name="about-upgrade-basic"></a>
 
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams 客户端体验和共存模式的一致性
 
 > [!NOTE]
-> 当用户在任何业务模式 （SfBOnly、 SfBWithTeamsCollab SfBWithTeamsCollabAndMeetings） Skype 中时，此页介绍团队客户端的行为重要即将发生变化。
+> 当用户在任何业务模式 （SfBOnly、 SfBWithTeamsCollab SfBWithTeamsCollabAndMeetings） Skype 中时，此页描述重要，最近发布更改团队客户端的行为。
 
 
 共存模式旨在简单、 可预测体验的最终用户提供组织转换为从 for Business 的 Skype 向工作组。  将移动到团队的组织，TeamsOnly 模式是最终目标为每个用户，但并非所有用户都需要分配有 TeamsOnly （或任何其他模式） 在同一时间。  之前达到 TeamsOnly 模式的用户，组织可以使用任何 Skype 业务模式 （SfBOnly SfBWithTeamsCollab、 SfBWithTeamsCollabAndMeetings） 以确保可预测 TeamsOnly 用户和那些尚未之间的通信。 
 
-当用户在任何业务模式 Skype，所有传入的聊天和呼叫路由至业务客户端的用户的 Skype。 若要避免最终用户混淆情况和确保正确路由，在客户端中的团队呼叫和聊天功能旨在时用户是在任何业务模式 Skype 禁用。 同样，在工作组中计划会议是应将其显式禁用 SfBOnly 或 SfBWithTeamsCollab 模式，用户时，明确启用当用户处于 SfBWithTeamsCollabAndMeetings 模式。  自动禁用的功能聊天和呼叫功能，以及启用/禁用会议安排基于模式立即启动到向点击客户推出。  
+当用户在任何业务模式 Skype，所有传入的聊天和呼叫路由至业务客户端的用户的 Skype。 若要避免最终用户混淆情况和确保正确路由，在客户端中的团队呼叫和聊天功能且被禁用时用户是在任何业务模式 Skype。 同样，在工作组中计划会议是显式禁用 SfBOnly 或 SfBWithTeamsCollab 模式，用户时，将明确启用当用户处于 SfBWithTeamsCollabAndMeetings 模式。   
 
-此功能之前, Microsoft 的指南是通过消息、 呼叫和会议策略中设置相应的设置确保正确的用户体验。 但是，出现此，不正式强制执行，因为默认情况下用户在工作组客户端具有完全访问权限的所有功能，可能有某些用户保留访问部分或所有这些团队客户端，而不考虑其模式中的体验。  因此，滚动此功能，如某些用户可能会看到团队客户端中其体验中的更改的用户体验开始符合其模式。  下表显示了新的行为：
-
+## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>如何团队客户端中可用的功能更改基于模式
+用户的共存模式，团队 dependes 中由 TeamsUpgradePolicy 设置的可用功能。 下表总结了行为：
 
 |用户的有效模式|在工作组客户端体验|
 |---|---|
@@ -44,18 +44,20 @@ ms.locfileid: "30800129"
 |SfBWithTeamsCollab 或 SfBOnly<sup>2</sup>|会议安排不可用|
 |||
 
+以下屏幕快照说明 TeamsOnly 或群岛模式和所有其他模式之间的差异。 请注意，聊天和呼叫图标可使用 TeamsOnly 或群岛模式 （左屏幕截图），但不是与其他模式 （右屏幕截图）：
+
+![显示工作组模式比较](media/teams-mode-comparison.png)
+
+
+ 
 **说明：**
 <sup>1</sup>会议聊天是仍然可用。
 
 <sup>2</sup>现在，SfBwithTeamsCollab 和 SfBOnly 的行为相同，但 SfBOnly 模式也禁用团队; 中的通道和文件功能的用途是但是，当前此功能允许在要禁用的团队中没有设置。
 
 
-## <a name="how-organizations-can-prepare-for-automatic-ux-conformance-to-modes"></a>组织可以如何准备自动 UX 符合模式
-
-之前推出此更改，组织可以实现此部分中所述使用其他策略的团队客户端中的所需的体验。 这样可确保推出是无缝面向最终用户。 请注意，一旦更改滚动，设置这些策略不需要。  此外，不希望用户团队客户端中的，功能有所缩减的组织可以转向其用户群岛模式或 TeamsOnly 模式，但将影响以及路由。
-
-若要手动配置最终用户体验，管理员使用的以下策略和设置：
-
+## <a name="impact-of-mode-on-other-policy-settings"></a>对其他策略设置模式的影响
+如上所述，用户的共存模式影响哪些功能，用户的工作组客户端中提供。 这意味着，模式的值可以优先于其他策略设置，具体取决于模式的值。 具体而言，共存模式影响是否有效以下策略设置：
 
 |**形式 （应用程序）**|**Policy.Setting**|
 |---|---|
@@ -64,8 +66,7 @@ ms.locfileid: "30800129"
 |会议日程安排|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
 
-
-管理员应将每个这些设置设置为给定的模式的下列值：
+管理员需要*不*明确地设置这些策略设置，使用共存模式，但它时需要了解，这些设置有效的行为，如下所示为给定的模式。 
 
 |模式|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
 |---|---|---|---|---|
@@ -74,18 +75,17 @@ ms.locfileid: "30800129"
 |SfBWithTeamsCollab 或 SfBOnly|已禁用|已禁用|已禁用|已禁用|
 ||||||
 
-自动根据模式，用户体验的一致性声明推出之前`Grant-CsTeamsUpgradePolicy`cmdlet 检查 TeamsMessagingPolicy、 TeamsCallingPolicy 和 TeamsMeetingPolicy，以确定它们是否中相应的设置的配置设置可以与指定模式兼容。 如果任何未正确配置，则授予会成功，但警告将提供在 PowerShell 中指示的特定设置的配置不正确。 下面是 PowerShell 警告可能外观的示例：
+近期， `Grant-CsTeamsUpgradePolicy` cmdlet 将检查 TeamsMessagingPolicy、 TeamsCallingPolicy 和 TeamsMeetingPolicy，以确定是否将由 TeamsUpgradePolicy 取代这些设置，以及如果是这样中, 相应的设置的配置在 PowerShell 中提供的信息性消息。  如上所述，不再需要设置这些其他策略设置。 下面是示例 PowerShell 警告如下所示：
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 
-`WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.`
-
-时看到这样的警告，管理员随后应更新指示的策略中团队提供兼容的最终用户体验。 如果管理员决定不执行任何操作由于警告，用户仍可以访问聊天，呼叫和/或会议中团队的日程安排功能，具体取决于 TeamsMessagingPolicy、 TeamsCallingPolicy 和 TeamsMeetingPolicy 的值可能会造成的混乱的最终用户体验。
-
-可用自动根据 TeamsUpgradePolicy 模式的团队客户端体验的一致性声明后，它将不再需要将这些策略设置。 TeamsUpgradePolicy 模式的值将优先于这些特定设置的值。 自动一致性声明被通过解析策略策略基础结构。 在发生冲突的不同设置的基于模式的行为将 win 通过 AllowUserChat、 AllowPrivateCalling、 AllowPrivateMeetingScheduling 和 AllowChannelMeetingScheduling 的值。 自动一致性声明是传递之后，将更新 PowerShell 警告，告知客户端体验将自动应用，而不考虑 TeamsMessagingPolicy、 TeamsCallingPolicy 和 TeamsMeetingPolicy 的任何值的管理员。
+`WARNING: The user 'user1@contoso.com' currently has enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling, however these values will be ignored. This is because you are granting this user TeamsUpgradePolicy with mode=SfBWithTeamsCollab, which causes the Teams client to behave as if they are disabled.`
 
 
 
+# <a name="related-topics"></a>相关主题
+
+[面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 
 

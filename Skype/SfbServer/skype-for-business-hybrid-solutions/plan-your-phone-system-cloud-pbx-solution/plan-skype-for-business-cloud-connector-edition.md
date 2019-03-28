@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 查找有关 Skype for Business 云连接器版本的信息，云连接器是一组打包的虚拟机 (Vm)，这些虚拟机负责通过 Office 365 中的电话系统（云 PBX）实施本地 PSTN 连接。
-ms.openlocfilehash: da594ba2511b7e3a296eb57b825489305d9473d9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 21a37b40b0069df9043c69814e40853ced16ce7e
+ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888750"
+ms.locfileid: "30934754"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>规划 Skype for Business 云连接器版本
 
@@ -74,7 +74,7 @@ ms.locfileid: "30888750"
 
 - 云连接器 2.1 及更高版本支持使用 Operations Management Suite (OMS) 监视云连接器。 有关详细信息，请参阅[Monitor Cloud Connector using Operations Management Suite (OMS)](monitor-cloud-connector-using-operations-management-suite-oms.md)
 
-- 云连接器位于 Office 365 企业 E5 位于其中的所有国家/地区。 但是，由于各种法规，云连接器无法配置租户位置设置为以下国家/地区之一： 阿尔及利亚、 孟加拉、 博茨瓦纳、 文莱、 喀麦隆，科特迪瓦，加纳、 黎巴嫩、 澳门，毛里求斯、 纳米比亚、 巴拉圭，塞内加尔。
+- 云连接器位于 Office 365 企业 E5 位于其中的所有国家/地区。
 
 本主题包括以下部分：
 
